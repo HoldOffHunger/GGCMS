@@ -651,6 +651,8 @@
 			// -------------------------------------------------
 		
 		public function UpdateRecord($args) {
+			$this->MarkPageCacheDirty();
+
 			$record_type = $args['type'];
 			$record_update = $args['update'];
 			$record_where = $args['where'];
@@ -729,6 +731,8 @@
 			// -------------------------------------------------
 		
 		public function CreateRecord($args) {
+			$this->MarkPageCacheDirty();
+
 			$record_type = $args['type'];
 			$record_definition = $args['definition'];
 			
@@ -796,6 +800,8 @@
 			// -------------------------------------------------
 		
 		public function DeleteRecords($args) {
+			$this->MarkPageCacheDirty();
+
 			$type = $args['type'];
 			$where = $args['where'];
 			$sql_bind_string = $args['sqlbindstring'];
@@ -835,6 +841,8 @@
 			// -------------------------------------------------
 		
 		public function DeleteOtherRecords($args) {
+			$this->MarkPageCacheDirty();
+
 			$type = $args['type'];
 			$field = $args['field'];
 			$fieldtype = $args['fieldtype'];
@@ -884,6 +892,48 @@
 			
 			return $this->FillArraysFromDB($fill_arrays_from_db_args);
 		}
+
+			// Page cache invalidation
+			// -------------------------------------------------
+
+		/*
+			Any database write makes every cached page for this domain suspect.
+
+			Marking is separated from flushing because one save in modify.php
+			performs dozens of writes, and flushing a whole domain tree dozens of
+			times would be absurd.  The mark is cheap and idempotent; the flush
+			runs once, at shutdown, after every write in the request has landed.
+
+			Flushing at the start of the write instead would leave a window in
+			which a concurrent read could re-cache the pre-write page and make the
+			stale copy permanent.
+		*/
+
+		public function MarkPageCacheDirty() {
+			if($this->page_cache_dirty) {
+				return TRUE;
+			}
+
+			$this->page_cache_dirty = TRUE;
+
+			register_shutdown_function([$this, 'FlushPageCacheNow']);
+
+			return TRUE;
+		}
+
+		public function FlushPageCacheNow() {
+			try {
+				ggreq('classes/Cache/PageCache.php');
+
+				$page_cache = new PageCache(['handler'=>$this->handler]);
+				$page_cache->FlushDomain([]);
+			} catch (Exception $exception) {
+				# cache maintenance must never break a write
+			}
+
+			return TRUE;
+		}
+
 	}
 
 ?>

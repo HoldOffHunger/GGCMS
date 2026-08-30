@@ -1,8 +1,47 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ index.php [QSA,NC,L]
+# ---------------------------------------------------------------------------
+#  Static page cache.
+#
+#  A cached page is an ordinary file.  When one exists, Apache serves it and
+#  PHP is never started -- no Handler, no database, none of the ~1700 queries
+#  a render costs.  Everything that fails these conditions falls through to
+#  the front controller below and renders normally.
+#
+#  The cache is written by classes/Cache/PageCache.php, which computes exactly
+#  the two filename forms tested here.  Change one and you must change both.
+#  See Docs/PageCache.md.
+# ---------------------------------------------------------------------------
 
-RewriteCond %{REQUEST_FILENAME} -d
+		#  Stop immediately if we are already inside the cache tree, so an
+		#  internal rewrite cannot re-enter these rules.
+
+RewriteRule ^_cache/ - [L]
+
+		#  Never serve cache to a request that could be personalised, that
+		#  carries parameters, or that is not a plain read.  These cookie
+		#  names must match PageCache::IsCacheable_Anonymous().
+
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond %{HTTP_COOKIE} !(loggedin|AuthenticationToken) [NC]
+RewriteCond %{DOCUMENT_ROOT}/_cache/%{HTTP_HOST}%{REQUEST_URI}index.html -f
+RewriteRule ^(.*/)$ /_cache/%{HTTP_HOST}%{REQUEST_URI}index.html [L]
+
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond %{HTTP_COOKIE} !(loggedin|AuthenticationToken) [NC]
+RewriteCond %{DOCUMENT_ROOT}/_cache/%{HTTP_HOST}%{REQUEST_URI}.html -f
+RewriteRule ^(.*)$ /_cache/%{HTTP_HOST}%{REQUEST_URI}.html [L]
+
+# ---------------------------------------------------------------------------
+#  Front controller.
+#
+#  No request may reach a PHP file directly.  Anything that does not name a
+#  real file on disk becomes index.php, which reads the path as an entry-graph
+#  walk rather than a filesystem path.  See Docs/Architecture.md.
+# ---------------------------------------------------------------------------
+
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php [QSA,NC,L]
