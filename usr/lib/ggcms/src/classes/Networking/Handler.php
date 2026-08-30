@@ -929,7 +929,46 @@
 			return TRUE;
 		}
 		
+		/*
+			REQUEST_URI is a path for an ordinary browser request, but a proxy
+			sending an absolute-form request -- "GET http://host/path HTTP/1.1",
+			which is legal under RFC 7230 -- puts the WHOLE URL in it.
+
+			Concatenating that onto the domain produced
+			http://www.example.comhttp://www.example.com/path, the client
+			followed it, and every hop prefixed the domain again.  Each hop was
+			a brand-new URL, so nothing could ever be cached and every one cost
+			a full render.  95% of all traffic to this host was that loop.
+
+			This returns a path, always, whichever form arrived.
+		*/
+
+		public function RequestPath() {
+			$request_uri = $_SERVER['REQUEST_URI'];
+
+			if(preg_match('#\A[a-zA-Z][a-zA-Z0-9+.-]*://#', $request_uri)) {
+				$path = parse_url($request_uri, PHP_URL_PATH);
+				$query = parse_url($request_uri, PHP_URL_QUERY);
+
+				$request_uri = strlen($path) ? $path : '/';
+
+				if(strlen($query)) {
+					$request_uri .= '?' . $query;
+				}
+			}
+
+			if(strlen($request_uri) === 0 || $request_uri[0] !== '/') {
+				$request_uri = '/' . $request_uri;
+			}
+
+			return $request_uri;
+		}
+
 		public function handleUndesirableParameters() {
+			if($_GET['stopredirect']) {		# already redirected once; never chain
+				return FALSE;
+			}
+
 			if($_GET['fbclid']) {
 				if($_SERVER['HTTPS'] === 'on') {
 					$redirect_url = 'https://www.';
@@ -939,7 +978,7 @@
 				
 				$redirect_url .= $this->domain->primary_domain_lowercased;
 				
-				$redirect_url .= $_SERVER['REQUEST_URI'];
+				$redirect_url .= $this->RequestPath();
 				
 				$redirect_url = preg_replace('/fbclid=[A-Za-z0-9_%-]+[\&]*/', '', $redirect_url);
 				$redirect_url = preg_replace('/\?$/', '', $redirect_url);
@@ -959,7 +998,7 @@
 				
 				$redirect_url .= $this->domain->primary_domain_lowercased;
 				
-				$redirect_url .= $_SERVER['REQUEST_URI'];
+				$redirect_url .= $this->RequestPath();
 				
 				$redirect_url = preg_replace('/\?$/', '', $redirect_url);
 				
