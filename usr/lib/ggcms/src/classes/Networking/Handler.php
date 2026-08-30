@@ -17,6 +17,7 @@
 			$this->Construct_Domain();
 			$this->Construct_Time();
 			$this->Construct_Cookie();
+			$this->Construct_RepairQueryString();
 			$this->Construct_Query();
 			$this->Construct_Language();
 			$this->Construct_Action();
@@ -186,6 +187,68 @@
 			return TRUE;
 		}
 		
+			// Query String Repair
+			// -----------------------------------------------
+
+		/*
+			A URL carries one '?'.  Every later one is a separator that should
+			have been '&', because something appended a parameter to a URL that
+			already had a query string:
+
+				view.pdf?mobilefriendly=1?mobilefriendly=1?action=browse
+
+			PHP fills $_GET from the raw query string before this class runs, so
+			without repair the script receives
+
+				$_GET['mobilefriendly'] = '1?mobilefriendly=1?action=browse'
+
+			and answers with a 500.  We repair rather than redirect: the visitor
+			gets the page they asked for and pays no round trip for a typo.
+
+			QUERY_STRING is everything after the FIRST '?', so any '?' still
+			inside it is by definition a mis-typed separator.  That makes the
+			test exact rather than heuristic.
+
+			The original parse is kept in $GLOBALS['_ORIGINALGET'] and on
+			$this->original_get, in case anything ever needs to know what
+			actually arrived.
+		*/
+
+		public function Construct_RepairQueryString() {
+			$query_string = $_SERVER['QUERY_STRING'];
+
+			$this->original_get = $_GET;
+			$GLOBALS['_ORIGINALGET'] = $_GET;
+
+			if(!$this->QueryStringNeedsRepair(['querystring'=>$query_string])) {
+				return FALSE;
+			}
+
+			$repaired_query_string = $this->RepairQueryString(['querystring'=>$query_string]);
+
+			$repaired_get = [];
+			parse_str($repaired_query_string, $repaired_get);
+
+			$_GET = $repaired_get;
+			$_SERVER['QUERY_STRING'] = $repaired_query_string;
+
+			return TRUE;
+		}
+
+		public function QueryStringNeedsRepair($args) {
+			$query_string = $args['querystring'];
+
+			if(strlen($query_string) === 0) {
+				return FALSE;
+			}
+
+			return (strpos($query_string, '?') !== FALSE);
+		}
+
+		public function RepairQueryString($args) {
+			return str_replace('?', '&', $args['querystring']);
+		}
+
 		public function Construct_Query() {
 			$query = new Query($this->getArgs());
 			

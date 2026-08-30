@@ -139,34 +139,27 @@ ls /var/www/html/css/view/display.css   # No such file or directory
 The longer-term plan remains compiled CSS sheets rather than generating them
 per request.
 
-### Doubled query separators (half fixed)
+### Doubled query separators (resolved 30 August 2026)
 
 URLs like
 
-    view.pdf?mobilefriendly=1?mobilefriendly=1?action=...
+    view.pdf?mobilefriendly=1?mobilefriendly=1?action=browse
 
-appear steadily in the 500s. A URL may carry only one `?`; every later one
-should have been `&`. Something appends a parameter to a URL that already has a
-query string.
+were a steady source of 500s. A URL carries one `?`; every later one should
+have been `&`.
 
-`Handler::RequestPath()` now repairs this, so any redirect target we emit is
-well-formed. **Two halves remain:**
+`Handler::Construct_RepairQueryString()` now repairs the request rather than
+redirecting it: the visitor gets the page they asked for and pays no round trip
+for a malformed link. `QUERY_STRING` is everything after the *first* `?`, so
+any `?` remaining inside it is by definition a mis-typed separator — the test
+is exact, not heuristic. `$_GET` is re-parsed from the repaired string, and the
+original parse is preserved on `$GLOBALS['_ORIGINALGET']` and
+`$this->original_get`.
 
-1. **`$_GET` is still wrong.** PHP parses the query string before `Handler`
-   runs, so `?a=1?b=2` reaches the script as `$_GET['a'] = '1?b=2'`. Repairing
-   the request properly means re-parsing after normalisation:
-
-   ```php
-   parse_str($normalised_query, $_GET);
-   ```
-
-   That mutates a superglobal for the whole request, so it wants deciding
-   deliberately rather than bundling into a URL-hygiene change.
-
-2. **Something is generating these links.** The handler repairing them is right
-   — that is what it is for — but the source is in link construction, not
-   routing. Find what appends `?mobilefriendly=1` without checking for an
-   existing query string.
+**Still open:** something is *generating* these links. The handler repairing
+them on the way in is correct and is what the class is for, but the source is
+in link construction, not routing. Find what appends `?mobilefriendly=1`
+without checking whether a query string already exists.
 
 ## Open — housekeeping, and the reason all of this happened
 
