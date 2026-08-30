@@ -1173,7 +1173,7 @@
 			
 			$redirect_url .= $this->domain->primary_domain_lowercased;
 			
-			$new_dir = $_SERVER['REQUEST_URI'];
+			$new_dir = $this->RequestPath();
 			$new_dir = preg_replace("/[\/]+/", '/', $new_dir);
 			
 			$redirect_url .= $new_dir;
@@ -1451,7 +1451,14 @@
 		}
 		
 		public function SecureRedirect() {
-			$location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+			/*
+				RequestPath() rather than REQUEST_URI: this runs first on every
+				plain-HTTP request, so an absolute-form request URI concatenated
+				here produced a longer broken URL on every single hop.  It was
+				the largest single source of the redirect loop.
+			*/
+
+			$location = 'https://' . $_SERVER['HTTP_HOST'] . $this->RequestPath();
 			header('Location: ' . $location);
 			
 			return TRUE;
