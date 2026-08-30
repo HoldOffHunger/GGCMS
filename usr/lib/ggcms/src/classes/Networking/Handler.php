@@ -957,6 +957,24 @@
 				}
 			}
 
+			/*
+				A URL may carry only one '?'.  Every later one is a separator
+				that should have been '&' -- something appended a parameter to
+				a URL that already had a query string, producing
+
+					view.pdf?mobilefriendly=1?mobilefriendly=1?action=...
+
+				which was a steady source of 500s.  Repairing it here means a
+				malformed link is understood rather than refused, which is what
+				this class is for.
+			*/
+
+			$query_pieces = explode('?', $request_uri);
+
+			if(count($query_pieces) > 2) {
+				$request_uri = $query_pieces[0] . '?' . implode('&', array_slice($query_pieces, 1));
+			}
+
 			if(strlen($request_uri) === 0 || $request_uri[0] !== '/') {
 				$request_uri = '/' . $request_uri;
 			}

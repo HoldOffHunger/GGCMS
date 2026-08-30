@@ -139,6 +139,35 @@ ls /var/www/html/css/view/display.css   # No such file or directory
 The longer-term plan remains compiled CSS sheets rather than generating them
 per request.
 
+### Doubled query separators (half fixed)
+
+URLs like
+
+    view.pdf?mobilefriendly=1?mobilefriendly=1?action=...
+
+appear steadily in the 500s. A URL may carry only one `?`; every later one
+should have been `&`. Something appends a parameter to a URL that already has a
+query string.
+
+`Handler::RequestPath()` now repairs this, so any redirect target we emit is
+well-formed. **Two halves remain:**
+
+1. **`$_GET` is still wrong.** PHP parses the query string before `Handler`
+   runs, so `?a=1?b=2` reaches the script as `$_GET['a'] = '1?b=2'`. Repairing
+   the request properly means re-parsing after normalisation:
+
+   ```php
+   parse_str($normalised_query, $_GET);
+   ```
+
+   That mutates a superglobal for the whole request, so it wants deciding
+   deliberately rather than bundling into a URL-hygiene change.
+
+2. **Something is generating these links.** The handler repairing them is right
+   — that is what it is for — but the source is in link construction, not
+   routing. Find what appends `?mobilefriendly=1` without checking for an
+   existing query string.
+
 ## Open — housekeeping, and the reason all of this happened
 
 ### Nothing is scheduled
