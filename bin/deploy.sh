@@ -1,0 +1,88 @@
+#!/bin/sh
+#
+#  GGCMS deployment.
+#
+#  Pulls the current main branch and syncs it into place on a live host.
+#  Run as root on the server:
+#
+#      /opt/ggcms/bin/deploy.sh
+#
+#  See Docs/Deployment.md for first-time setup and for what this does not do.
+#
+
+set -e
+
+REPO="${GGCMS_REPO:-/opt/ggcms}"
+
+if [ ! -d "$REPO/.git" ]; then
+	echo "deploy: $REPO is not a git checkout.  See Docs/Deployment.md." >&2
+	exit 1
+fi
+
+if [ "$(id -u)" -ne 0 ]; then
+	echo "deploy: must run as root (it writes to /usr/lib, /etc and /var/www)." >&2
+	exit 1
+fi
+
+		#  Refuse to deploy on a full disk.  A half-written sync is worse
+		#  than no sync, and this host has been here before.
+
+available_kb=$(df -Pk / | awk 'NR==2 {print $4}')
+
+if [ "$available_kb" -lt 524288 ]; then
+	echo "deploy: less than 512MB free on /.  Refusing.  See Docs/Operations.md." >&2
+	df -h /
+	exit 1
+fi
+
+		#  Fetch.  --ff-only so a divergent local state fails loudly
+		#  rather than producing a merge commit nobody asked for.
+
+echo "==> pulling"
+cd "$REPO"
+git pull --ff-only
+
+echo "==> engine    -> /usr/lib/ggcms/"
+
+		#  --delete here is deliberate: /usr/lib/ggcms is pure code, and a
+		#  file removed from the repository must disappear from the host.
+
+rsync -a --delete "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
+
+echo "==> config    -> /etc/ggcms/"
+
+		#  No --delete.  Sites may hold local configuration that is not
+		#  tracked, and losing it silently would be unrecoverable.
+
+rsync -a "$REPO/etc/ggcms/" /etc/ggcms/
+
+echo "==> docroot   -> /var/www/html/"
+
+		#  No --delete.  The page cache lives under the document root and
+		#  is not in the repository; deleting it here would be merely
+		#  wasteful, but user-dropped files would be gone for good.
+
+rsync -a "$REPO/var/www/html/" /var/www/html/
+cp -a "$REPO/var/www/ggcms_install_directories.php" /var/www/
+cp -a "$REPO/var/www/ggcms_cli_directories.php" /var/www/
+
+		#  git does not preserve an execute bit that was never committed,
+		#  and without one even root cannot run these.
+
+echo "==> permissions"
+chmod +x /usr/lib/ggcms/cli/scripts/*/*/*.php
+chown -R www-data /usr/lib/ggcms /etc/ggcms /var/www
+chmod 755 /var/www
+
+		#  Code changed, so every cached page is potentially stale.
+
+if [ -d /var/www/html/_cache ]; then
+	echo "==> flushing page cache"
+	rm -rf /var/www/html/_cache/*
+fi
+
+echo "==> reloading apache"
+apache2ctl configtest
+systemctl reload apache2
+
+echo "==> deployed $(git rev-parse --short HEAD)"

@@ -1,0 +1,19 @@
+.web-icons-image {
+	float:left;
+	position:relative;
+	cursor:pointer;
+}
+
+.web-icons-image-source {
+	z-index:100;
+	position:relative;
+}
+
+.web-icons-link {
+	display: inline;
+}
+
+#main-web-icons-div {
+	margin: 30px;
+	border: solid black 1px;
+}

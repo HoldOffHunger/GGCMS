@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------------------
+#  Secrets — nothing in this block may ever be committed.
+#
+#  GGCMS takes its database credentials from PHP's mysqli.default_* directives
+#  in php.ini, which means php.ini IS a credential file on a live host.  It is
+#  ignored here on purpose; Docs/Installation.md documents the directives you
+#  need to set instead.
+# ---------------------------------------------------------------------------
+
+php.ini
+**/conf.d/*mysqli*.ini
+.digitalocean_password
+digitalocean*.txt
+*.pem
+*.key
+!*.pub
+
+# ---------------------------------------------------------------------------
+#  Site content and operational data.
+#
+#  /srv/ggcms/<domain>/ holds uploaded images and per-site payload; on the live
+#  host it runs to several gigabytes.  It is backed up separately and does not
+#  belong in a code repository.
+# ---------------------------------------------------------------------------
+
+srv/
+var/log/
+root/database-imports/
+
+# Database dumps and backups (cli/sql/clonefrom.sql is schema and IS tracked)
+/*.sql
+/*.sql.gz
+*-TRUTH-*.sql
+backup-*.sql
+
+# ---------------------------------------------------------------------------
+#  Generated output.  The static page cache is built at runtime and flushed on
+#  any database write; it must never be committed.  See Docs/PageCache.md.
+# ---------------------------------------------------------------------------
+
+var/www/html/_cache/
+var/www/html/test.php
+
+# ---------------------------------------------------------------------------
+#  Editor and OS cruft.
+# ---------------------------------------------------------------------------
+
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
