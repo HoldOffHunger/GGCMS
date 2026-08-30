@@ -1159,7 +1159,15 @@
 		}
 		
 		public function handleMultipleSlashesRedirect() {
-			if(!preg_match("/\/\//", $_SERVER['REQUEST_URI'])) {
+			/*
+				Test the normalised path, not REQUEST_URI.  An absolute-form
+				request URI always contains "//" -- inside "http://" -- so this
+				guard passed for every proxy request, the handler rebuilt the
+				identical URL, and returned a 302 to the address already being
+				requested.  The client asked again, forever.
+			*/
+
+			if(!preg_match("/\/\//", $this->RequestPath())) {
 				return FALSE;
 			}
 			
@@ -1411,7 +1419,66 @@
 			return FALSE;
 		}
 		
+		/*
+			A redirect whose target is the URL already being served is an
+			infinite loop by construction.  One such loop produced 95% of all
+			traffic to this host.  Scheme changes are exempt, so the plain HTTP
+			to HTTPS upgrade still works.
+		*/
+
+		public function RedirectsToSelf($args) {
+			$target = $args['url'];
+
+			if(strlen($target) === 0) {
+				return FALSE;
+			}
+
+			$current_scheme = ($_SERVER['HTTPS'] === 'on') ? 'https' : 'http';
+
+			$target_scheme = parse_url($target, PHP_URL_SCHEME);
+			$target_host = parse_url($target, PHP_URL_HOST);
+			$target_path = parse_url($target, PHP_URL_PATH);
+			$target_query = parse_url($target, PHP_URL_QUERY);
+
+			if(!$target_scheme) {
+				$target_scheme = $current_scheme;
+			}
+
+			if(!$target_host) {
+				$target_host = $_SERVER['HTTP_HOST'];
+			}
+
+			if($target_scheme !== $current_scheme) {
+				return FALSE;		# an upgrade, not a loop
+			}
+
+			if(strtolower($target_host) !== strtolower($_SERVER['HTTP_HOST'])) {
+				return FALSE;
+			}
+
+			$current = $this->RequestPath();
+			$current_pieces = explode('?', $current);
+			$current_path = $current_pieces[0];
+			$current_query = count($current_pieces) > 1 ? $current_pieces[1] : NULL;
+
+			if(strlen($target_path) === 0) {
+				$target_path = '/';
+			}
+
+			if($target_path !== $current_path) {
+				return FALSE;
+			}
+
+			return ($target_query === $current_query);
+		}
+
 		public function handleRedirect() {
+			if($this->RedirectsToSelf(['url'=>$this->redirect_url])) {
+				$this->redirect_url = '';
+
+				return FALSE;
+			}
+
 			if($this->redirect_url) {
 				if($this->globals->UseHeaderRedirects()) {
 					header('Location: ' . $this->redirect_url);
