@@ -28,6 +28,34 @@ Before writing anything, check:
 The historical failure mode on this project has never been missing tools. It is
 tools that exist, work, and were never scheduled or never found.
 
+### The CLI tools are documentation
+
+They are not only utilities. Each one is an executable statement of how part of
+the system is *supposed* to work, checked against reality — which makes them the
+most reliable description of the project's quirks that exists. Prose drifts;
+these do not, because they run.
+
+Read them the way you would read a manual for third-party software with very
+specific behaviour:
+
+* **`classes/Domain/DomainChecker.php`** is the specification of a healthy
+  domain, in five layers: certificate PEM structure, Let's Encrypt renewal
+  config, the `:80` and `:443` vhost keys that must exist and point at real
+  files, the filesystem layout, and the database build. Nothing else states
+  those invariants in one place.
+* **`traits/SSL.php`** documents the format of
+  `/etc/letsencrypt/renewal/<domain>.conf` and which of its keys matter, plus
+  the exact vhost directives GGCMS expects.
+* **`classes/Database/DBCacheEnabler.php`** and the `db_cache` scripts reveal
+  that the row cache records *known-emptiness* as a fact — a "blanks" file — 
+  which is not obvious from `DBFileCache.php` and matters enormously when
+  diagnosing a page that renders structurally correct but empty.
+* **`traits/CLIAccess.php`** documents the argv convention every tool follows:
+  `argv[1]` is the domain, `argv[2]` is the confirmation, so anything can run
+  unattended.
+
+When you need to understand a subsystem, read its CLI tool before its class.
+
 ## ISE and ISI
 
 Two distinct records, two distinct questions, and the difference is load-bearing
