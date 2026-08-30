@@ -155,11 +155,31 @@ error_reporting(E_ALL);
 		public function buildAbstractGlobals_ChildTypes() {
 			$shared_default_formats_linkto_location = 'clonefrom/child_types/enabled.php';
 			
+			/*
+				TEMPORARY DIAGNOSTIC -- remove once child_types is understood.
+				Logs to the Apache error log only; visitors see nothing.  It
+				exists because $this->child_types arrives null at ORM.php:2079
+				and static reading has not explained why.
+			*/
+			$ggcms_debug_childtypes = isset($_GET['ggcmsdbg']);		# opt-in per request, so a crawler cannot flood the log
+			
+			if($ggcms_debug_childtypes) {
+				error_log('GGCMSDBG childtypes: entered builder');
+				error_log('GGCMSDBG childtypes: shared=' . $shared_default_formats_linkto_location . ' conf_isfile=' . var_export(conf_isfile($shared_default_formats_linkto_location), TRUE));
+				error_log('GGCMSDBG childtypes: handler domain=' . var_export($this->handler->domain->primary_domain_lowercased, TRUE));
+				error_log('GGCMSDBG childtypes: undefined-local $primary_domain_lowercased=' . var_export(isset($primary_domain_lowercased) ? $primary_domain_lowercased : '<<UNSET>>', TRUE));
+			}
+			
 			if(conf_isfile($shared_default_formats_linkto_location)) {
 				confreq($shared_default_formats_linkto_location);
 				$domain_formats_linkto_location = $this->ReverseDomainName(['domain'=>$primary_domain_lowercased]) . '/child_types/enabled.php';
 				
 				$classname = 'AbstractGlobals_ChildTypes_enabled';
+				
+				if($ggcms_debug_childtypes) {
+					error_log('GGCMSDBG childtypes: domain_location=' . var_export($domain_formats_linkto_location, TRUE) . ' conf_isfile=' . var_export(conf_isfile($domain_formats_linkto_location), TRUE));
+					error_log('GGCMSDBG childtypes: base class_exists=' . var_export(class_exists('AbstractGlobals_ChildTypes_enabled'), TRUE) . ' override class_exists=' . var_export(class_exists('AbstractGlobals_ChildTypes_enabled_override'), TRUE));
+				}
 				
 				if(conf_isfile($domain_formats_linkto_location)) {
 					$classname .= '_override';
@@ -169,6 +189,10 @@ error_reporting(E_ALL);
 				} else {
 					$this->child_types = new $classname;
 				}
+			}
+			
+			if($ggcms_debug_childtypes) {
+				error_log('GGCMSDBG childtypes: RESULT child_types=' . (is_object($this->child_types) ? get_class($this->child_types) : var_export($this->child_types, TRUE)));
 			}
 			
 			return TRUE;
