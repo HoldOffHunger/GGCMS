@@ -23,6 +23,12 @@ RewriteRule ^_cache/ - [L]
 		#  carries parameters, or that is not a plain read.  These cookie
 		#  names must match PageCache::IsCacheable_Anonymous().
 
+		#  The -f test uses an absolute path rather than %{DOCUMENT_ROOT}.
+		#  With the variable, neither rule ever fired even though the file was
+		#  present, servable, and at exactly the path being tested -- consistent
+		#  with DOCUMENT_ROOT expanding empty in per-directory context here.
+		#  DocumentRoot is /var/www/html for every vhost (see Docs/Installation.md).
+
 		#  Directory-style URLs, ending in a slash.  The pattern is `^` rather
 		#  than `^(.*/)$` because in per-directory context mod_rewrite strips the
 		#  leading slash, so a request for `/` presents an EMPTY string -- which
@@ -32,8 +38,8 @@ RewriteCond %{REQUEST_METHOD} =GET
 RewriteCond %{QUERY_STRING} ^$
 RewriteCond %{HTTP_COOKIE} !(loggedin|AuthenticationToken) [NC]
 RewriteCond %{REQUEST_URI} /$
-RewriteCond %{DOCUMENT_ROOT}/_cache/%{HTTP_HOST}%{REQUEST_URI}index.html -f
-RewriteRule ^ /_cache/%{HTTP_HOST}%{REQUEST_URI}index.html [L]
+RewriteCond /var/www/html/_cache/%{HTTP_HOST}%{REQUEST_URI}index.html -f
+RewriteRule ^(.*)$ /_cache/%{HTTP_HOST}%{REQUEST_URI}index.html [L]
 
 		#  Everything else: <path>.html
 
@@ -41,8 +47,8 @@ RewriteCond %{REQUEST_METHOD} =GET
 RewriteCond %{QUERY_STRING} ^$
 RewriteCond %{HTTP_COOKIE} !(loggedin|AuthenticationToken) [NC]
 RewriteCond %{REQUEST_URI} !/$
-RewriteCond %{DOCUMENT_ROOT}/_cache/%{HTTP_HOST}%{REQUEST_URI}.html -f
-RewriteRule ^ /_cache/%{HTTP_HOST}%{REQUEST_URI}.html [L]
+RewriteCond /var/www/html/_cache/%{HTTP_HOST}%{REQUEST_URI}.html -f
+RewriteRule ^(.*)$ /_cache/%{HTTP_HOST}%{REQUEST_URI}.html [L]
 
 # ---------------------------------------------------------------------------
 #  Front controller.
