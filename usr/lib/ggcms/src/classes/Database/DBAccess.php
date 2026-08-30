@@ -651,7 +651,7 @@
 			// -------------------------------------------------
 		
 		public function UpdateRecord($args) {
-			$this->MarkPageCacheDirty();
+			$this->MarkPageCacheDirty($args);
 
 			$record_type = $args['type'];
 			$record_update = $args['update'];
@@ -731,7 +731,7 @@
 			// -------------------------------------------------
 		
 		public function CreateRecord($args) {
-			$this->MarkPageCacheDirty();
+			$this->MarkPageCacheDirty($args);
 
 			$record_type = $args['type'];
 			$record_definition = $args['definition'];
@@ -800,7 +800,7 @@
 			// -------------------------------------------------
 		
 		public function DeleteRecords($args) {
-			$this->MarkPageCacheDirty();
+			$this->MarkPageCacheDirty($args);
 
 			$type = $args['type'];
 			$where = $args['where'];
@@ -841,7 +841,7 @@
 			// -------------------------------------------------
 		
 		public function DeleteOtherRecords($args) {
-			$this->MarkPageCacheDirty();
+			$this->MarkPageCacheDirty($args);
 
 			$type = $args['type'];
 			$field = $args['field'];
@@ -909,7 +909,27 @@
 			stale copy permanent.
 		*/
 
-		public function MarkPageCacheDirty() {
+		/*
+			Operational writes must NOT invalidate anything.  Every 404 logs an
+			InternalServerIssue and every error logs an InternalServerError, so
+			hooking those to a flush means a crawler probing nonsense URLs wipes
+			the cache continuously and it never survives long enough to be used.
+			That is exactly what happened on first deployment.
+		*/
+
+		public function NonContentRecordTypes() {
+			return [
+				'InternalServerError',
+				'InternalServerIssue',
+				'UserSession',
+			];
+		}
+
+		public function MarkPageCacheDirty($args) {
+			if(in_array($args['type'], $this->NonContentRecordTypes())) {
+				return FALSE;
+			}
+
 			if($this->page_cache_dirty) {
 				return TRUE;
 			}
