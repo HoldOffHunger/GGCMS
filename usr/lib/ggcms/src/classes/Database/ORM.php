@@ -2076,7 +2076,7 @@
 				
 				foreach($tables as $table) {
 					$config_table_name = $table . '_enabled';
-					if($this->handler->globals->child_types->$config_table_name()) {
+					if($this->handler->abstractglobals->child_types->$config_table_name()) {
 						$sql = 'SELECT ';
 						
 						if($table === 'TextBody' && $no_textbodies) {
