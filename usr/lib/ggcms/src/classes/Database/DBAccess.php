@@ -919,9 +919,25 @@
 
 		public function NonContentRecordTypes() {
 			return [
+					# error and issue logging, written on every 404 and fault
 				'InternalServerError',
 				'InternalServerIssue',
 				'UserSession',
+
+					/*
+						Derived statistics, recomputed and rewritten during an
+						ordinary page render.  Excluding them is not an
+						optimisation, it is required for the page cache to
+						function at all: rendering a page updates these, which
+						marked the domain dirty, which flushed the very entry
+						the render had just written.  Every page destroyed its
+						own cache on the way out and nothing was ever served
+						from disk twice.
+					*/
+				'ChildRecordStats',
+				'AssociatedRecordStats',
+				'ChildRecordCount',
+				'RecordChange',
 			];
 		}
 
