@@ -41,6 +41,17 @@ RewriteCond %{REQUEST_URI} /$
 RewriteCond /var/www/html/_cache/%{HTTP_HOST}%{REQUEST_URI}index.html -f
 RewriteRule ^(.*)$ /_cache/%{HTTP_HOST}%{REQUEST_URI}index.html [L]
 
+		#  Generated stylesheets.  style.php renders through the CSS format
+		#  class, so /css/view/display.css is PHP, not a file.  The cached copy
+		#  keeps a .css suffix so Apache serves it as text/css.
+
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond %{HTTP_COOKIE} !(loggedin|AuthenticationToken) [NC]
+RewriteCond %{REQUEST_URI} \.css$
+RewriteCond /var/www/html/_cache/%{HTTP_HOST}%{REQUEST_URI}.css -f
+RewriteRule ^(.*)$ /_cache/%{HTTP_HOST}%{REQUEST_URI}.css [L]
+
 		#  Everything else: <path>.html
 
 RewriteCond %{REQUEST_METHOD} =GET

@@ -135,9 +135,13 @@
 		}
 
 		/*
-			A request ending in `/` becomes `<path>/index.html`; anything else
-			gets `.html` appended.  .htaccess computes the identical two forms,
-			and the pair must be changed together.
+			A request ending in `/` becomes `<path>/index.html`.  Anything else
+			gets the format's own extension appended, so a page caches to
+			`<path>.html` and a stylesheet to `<path>.css` -- the suffix must
+			mirror the request or Apache serves the wrong Content-Type.
+
+			.htaccess computes the identical forms.  Change one and you must
+			change the other.
 		*/
 
 		public function CacheLocation() {
@@ -152,7 +156,7 @@
 				return $domain_location . $path . 'index.html';
 			}
 
-			return $domain_location . $path . '.html';
+			return $domain_location . $path . '.' . $this->CacheSuffix();
 		}
 
 			// Cacheability
@@ -232,7 +236,35 @@
 		public function CacheableScripts() {
 			return [
 				'view.php',
+				'style.php',
 			];
+		}
+
+		/*
+			style.php renders through the CSS format class; /css/view/display.css
+			does not exist on disk.  Every page view therefore paid a full PHP
+			boot for its stylesheet -- 0.6 to 1.4 seconds, against 0.06 for the
+			cached HTML itself.  It is anonymous, deterministic and takes no
+			query string, so it caches cleanly.
+		*/
+
+		public function CacheableFormats() {
+			return [
+				'HTML'=>'html',
+				'CSS'=>'css',
+			];
+		}
+
+		/*
+			The cached file's extension must mirror the request's, or Apache
+			serves a stylesheet as text/html and the browser discards it.  A
+			request for .../display.css caches to .../display.css.css.
+		*/
+
+		public function CacheSuffix() {
+			$formats = $this->CacheableFormats();
+
+			return $formats[$this->handler->script_format];
 		}
 
 		public function IsCacheable_Script() {
@@ -242,7 +274,7 @@
 				return FALSE;
 			}
 
-			if($handler->script_format !== 'HTML') {
+			if(!array_key_exists($handler->script_format, $this->CacheableFormats())) {
 				return FALSE;
 			}
 
@@ -295,6 +327,10 @@
 		*/
 
 		public function MinimumCacheableLength() {
+			if($this->handler->script_format !== 'HTML') {
+				return 64;
+			}
+
 			return 2048;
 		}
 
@@ -305,8 +341,15 @@
 				return FALSE;
 			}
 
-			if(stripos($output, '</html>') === FALSE) {
-				return FALSE;
+			if($this->handler->script_format === 'HTML') {
+				if(stripos($output, '</html>') === FALSE) {
+					return FALSE;
+				}
+			} else {
+					# a stylesheet that begins with a PHP error is not a stylesheet
+				if(stripos(ltrim($output), '<') === 0) {
+					return FALSE;
+				}
 			}
 
 			return TRUE;
