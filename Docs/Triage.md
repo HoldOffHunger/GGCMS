@@ -40,14 +40,51 @@ None of these were visible from outside, because `index.php` sets
 
 ## Open — real, worth doing soon
 
-### ~6% of responses are 500s
+### 500 errors, by family
 
-`168` of a 3,000-request sample. Previously invisible under a 95% redirect
-rate; now readable. No diagnosis yet.
+Read these from the **database**, not the Apache log — the log is `combined`
+and does not record which site served a request. See
+[../Development/Conventions.md](../Development/Conventions.md) on ISE and ISI.
 
 ```bash
-tail -3000 /var/log/apache2/access.log | awk '$9==500 {print $7}' | sort | uniq -c | sort -rn | head
+php8.1 -c /etc/php/8.0/apache2/php.ini   /usr/lib/ggcms/cli/scripts/internal/errors/server_error_counts.php
 ```
+
+Per-domain counts as at 31 August 2026, 00:00 UTC:
+
+```
+earthfluent      1520      copyleftlicense    85
+masereelgroup      41      anarchistcode       8
+holdoffhunger       6      listkeywords        5
+ouruprising         5      pronouncethat       3
+```
+
+**earthfluent is three-quarters of all errors**, and every row is from the
+evening of 30 August — its file cache had been masking the crash the same way
+revoltlib's was, and it surfaced once traffic patterns shifted.
+
+Families, largest first:
+
+| count | error | location |
+|---|---|---|
+| 1056 | `count(): Argument #1 must be Countable\|array, null given` | `templates/earthfluent/view/display_grandchildof_EarthFluent.com.php:785` |
+| 674 | `mysqli_close(): must be of type mysqli, null given` | `DBAccess.php:158` |
+| 398 | `mysqli object is already closed` | `DBAccess.php:371` |
+| 452 | `EntryTranslation_enabled() on null` | `ORM.php:2079` — **fixed, zero since 20:10** |
+| 89 | `GetDefinitionsCount() on null` | `templates/wordweight/view/display_index.php:122` |
+| 57 | `Failed opening required 'unifont/ttfonts.php'` | `Format/RTF.php:42`, `TEX.php:59`, `SGML.php:46`, `OPDS.php:120` |
+
+Notes on each:
+
+* The **earthfluent `count()`** family is the largest live bug and was *rising*
+  at 294 per half-hour when last measured — probably because the site became
+  reachable again, so more requests now get far enough to hit it. Likely the
+  same root as the `EntryTranslation_enabled` crash: the template counts child
+  records that came back null.
+* The two **`mysqli`** families are one bug wearing two masks — see below.
+* The **`unifont/ttfonts.php`** family is a missing font file for the fpdf
+  library, affecting every document format. Probably a deployment gap rather
+  than a code defect. It is why `view.pdf` URLs appear in the 500s.
 
 ### 2.3 million `mysqli_close()` fatals
 

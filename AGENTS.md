@@ -60,6 +60,7 @@ The tree mirrors a deployed host's filesystem. Deployment is a copy to `/`.
 | [Docs/PageCache.md](Docs/PageCache.md) | Anything touching caching or invalidation |
 | [Docs/Installation.md](Docs/Installation.md) | Standing up a host |
 | [Development/Principles.md](Development/Principles.md) | Before deciding *where* to fix something |
+| [Development/Conventions.md](Development/Conventions.md) | Project vocabulary — ISE, ISI, and what already exists |
 | [Docs/Triage.md](Docs/Triage.md) | Known-open issues, with the evidence |
 
 ## Rules
@@ -71,6 +72,19 @@ likewise out. Check `.gitignore` before adding a path.
 
 **Do not bulk-edit `BT:` comments.** There are 101 of them. They are the
 author's markers and several record decisions rather than defects.
+
+**Assume the capability already exists.** Twenty years of one developer means
+that for almost any "how do I do X in this system?", several methods are already
+written. One session lost an hour grepping a 7 GB log for what
+`server_error_counts.php` returns in a single command, correctly attributed per
+domain. Check `cli/`, `src/traits/` and `StandardLibraries.php` first. See
+[Development/Conventions.md](Development/Conventions.md).
+
+**Read errors from the database, not the log.** Apache's log is `combined` and
+does not record which of the seventeen sites served a request; the
+`InternalServerError` (ISE) and `InternalServerIssue` (ISI) tables do. ISE means
+something broke; ISI means something was merely odd. The distinction is project
+vocabulary — use it.
 
 **Check `cli/` before building a tool.** There is already a disk-space checker,
 a DNS record checker, a full domain health checker, database backup and size
