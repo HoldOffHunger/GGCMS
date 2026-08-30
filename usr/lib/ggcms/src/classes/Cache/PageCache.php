@@ -236,7 +236,6 @@
 		public function CacheableScripts() {
 			return [
 				'view.php',
-				'style.php',
 			];
 		}
 
@@ -278,8 +277,19 @@
 				return FALSE;
 			}
 
-			if(!in_array($handler->script_name, $this->CacheableScripts())) {
-				return FALSE;
+			/*
+				The script name only decides anything for HTML.  A stylesheet
+				request is style.php by construction -- Format/CSS.php requires
+				scripts/style.php unconditionally, whatever the URL -- while its
+				script NAME is the last path segment, 'display.css' for
+				/css/view/display.css.  Comparing that against 'style.php'
+				rejected every stylesheet ever offered to the cache.
+			*/
+
+			if($handler->script_format === 'HTML') {
+				if(!in_array($handler->script_name, $this->CacheableScripts())) {
+					return FALSE;
+				}
 			}
 
 			/*
