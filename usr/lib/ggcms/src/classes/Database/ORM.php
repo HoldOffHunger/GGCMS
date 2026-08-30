@@ -1066,12 +1066,22 @@
 				]);
 			}
 			
-			if(is_array($cache_count)) {
-				if(in_array(0, $cache_count)) {
-					return $cache_count[0];
-				}
-				
-				return 0;
+			/*
+				A cache hit is an array with a value AT INDEX 0.  The original
+				test was in_array(0, $cache_count), which asks whether zero is
+				one of the VALUES -- so a cached count of 12,736 failed it and
+				fell through to `return 0`, and every child-record count on
+				the site read zero.
+
+				It could never hit in any case.  ReadCache only reassembles
+				elements that are arrays carrying an 'id' key, and this cache
+				writes a bare integer, so the read always comes back empty.
+				Falling through to the SQL below is therefore both correct and
+				what now happens; the count is recomputed rather than wrong.
+			*/
+
+			if(is_array($cache_count) && array_key_exists(0, $cache_count)) {
+				return $cache_count[0];
 			}
 			
 			$sql = 'SELECT COUNT(Entry1.id) AS ChildRecordCount ';
