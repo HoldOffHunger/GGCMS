@@ -59,6 +59,8 @@ The tree mirrors a deployed host's filesystem. Deployment is a copy to `/`.
 | [Docs/Operations.md](Docs/Operations.md) | Anything touching the live host |
 | [Docs/PageCache.md](Docs/PageCache.md) | Anything touching caching or invalidation |
 | [Docs/Installation.md](Docs/Installation.md) | Standing up a host |
+| [Development/Principles.md](Development/Principles.md) | Before deciding *where* to fix something |
+| [Docs/Triage.md](Docs/Triage.md) | Known-open issues, with the evidence |
 
 ## Rules
 
