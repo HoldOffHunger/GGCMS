@@ -151,6 +151,49 @@ governs where a fix belongs: malformed input whose intent is unambiguous gets
 repaired on arrival rather than redirected or rejected. Be liberal about form,
 never about authority.
 
+## Encode URLs that travel inside other URLs
+
+This project puts URLs inside URLs constantly — every social share link is
+`someservice.com/share?url=<one of our pages>` — and `Handler` spends its life
+repairing query strings that arrived malformed. Both halves of that make
+encoding a project concern rather than a general one.
+
+**A URL used as the value of a `GET` parameter must be percent-encoded.** `?`
+becomes `%3F`, `#` becomes `%23`, `&` becomes `%26`, `/` becomes `%2F`. Without
+it the receiving server cannot tell where its own query string ends and ours
+begins — the same ambiguity `Construct_RepairQueryString()` exists to clean up
+at the other end.
+
+**URL-encoding is not HTML-encoding.** `&amp;` where `%26` was meant is a
+silent and common failure, and it produces a link that looks correct in source
+view.
+
+**Do not call `encodeURIComponent()` or `encodeURI()` directly, and never call
+`escape()`.** None of them encode the RFC 3986 sub-delimiters `! ' ( ) *`. Use
+the MDN replacements:
+
+```javascript
+	function fixedEncodeURIComponent(str) {
+		return encodeURIComponent(str).replace(/[!'()*]/g, c =>
+			'%' + c.charCodeAt(0).toString(16).toUpperCase()
+		);
+	}
+```
+
+`fixedEncodeURI()` leaves `+@?=:#;,$&` alone because those are URL operators;
+`fixedEncodeURIComponent()` encodes them. Use the first for a whole URL, the
+second for a piece of one.
+
+Why this matters beyond tidiness: encoding is the boundary where "this is an
+operator" and "this is someone's text" get separated. A character that survives
+encoding un-escaped is one the receiving system may act on rather than store,
+and a function that does that job incompletely is worse than no function,
+because it produces confidence.
+
+`var/www/html/javascript/social-share-media.js` currently calls
+`encodeURIComponent()` directly sixteen times and `font-wars.js` once — noted
+31 August 2026, see [../Docs/Triage.md](../Docs/Triage.md).
+
 ## `BT:` marks the author's own notes
 
 101 of them, usually inside a commented-out debug `print`. They are decisions as
