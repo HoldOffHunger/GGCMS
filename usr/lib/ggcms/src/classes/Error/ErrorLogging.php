@@ -118,7 +118,28 @@
 				],
 			];
 			
-			return $this->internal_server_error = $this->handler->db_access->CreateRecord($internal_server_error_insert_args);
+				/*
+					This runs from the shutdown handler, after a request has
+					already failed, and it is the last chance to record why.
+					A throw here replaces the original error with its own and
+					takes the request down with it, so the record we wanted is
+					lost and the record we get is about the recorder.
+
+					Whatever goes wrong writing the row, the error being
+					reported still reaches the admin display above, and the
+					reason the row could not be written is printed rather than
+					swallowed.
+				*/
+
+			try {
+				return $this->internal_server_error = $this->handler->db_access->CreateRecord($internal_server_error_insert_args);
+			} catch (Throwable $throwable) {
+				$this->indicateBackupFailure([
+					'error'=>$error . ' | unlogged: ' . $throwable->getMessage(),
+				]);
+
+				return FALSE;
+			}
 		}
 		
 		public function indicateBackupFailure($args) {

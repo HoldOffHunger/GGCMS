@@ -80,11 +80,35 @@
 		*/
 
 		public function DBStartConditional() {
-			if(!($this->db_link instanceof mysqli)) {
+			if(!$this->IsLinkOpen()) {
 				$this->DBStart();
 			}
-			
+
 			return TRUE;
+		}
+
+		/*
+			A closed mysqli is still an instanceof mysqli.  Testing the class
+			alone therefore accepted a link that had been closed by someone
+			holding another reference to the same object, and the next prepare()
+			threw "mysqli object is already closed" -- from inside the shutdown
+			error logger, which is the one place that must never throw.
+
+			Reading a property is the cheapest question that a closed link
+			refuses to answer.  An unconnected link refuses it too, which is the
+			same answer for the same reason: do not use this, open a new one.
+		*/
+
+		public function IsLinkOpen() {
+			if(!($this->db_link instanceof mysqli)) {
+				return FALSE;
+			}
+
+			try {
+				return (bool) $this->db_link->thread_id;
+			} catch (Error $error) {
+				return FALSE;
+			}
 		}
 		
 		public function DBStart() {
