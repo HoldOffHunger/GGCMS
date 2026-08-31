@@ -1039,9 +1039,10 @@ protected function _dochecks()
 	// Check mbstring overloading
 	if(ini_get('mbstring.func_overload') & 2)
 		$this->Error('mbstring overloading must be disabled');
-	// Ensure runtime magic quotes are disabled
-	if(get_magic_quotes_runtime())
-		@set_magic_quotes_runtime(0);
+	// Removed with the same reasoning as its twin in dep/tfpdf/tfpdf.php:
+	// get_magic_quotes_runtime() does not exist in PHP 8 and calling it is
+	// fatal.  This copy had not fired yet only because tfpdf reached the
+	// check first.
 }
 
 protected function _checkoutput()
