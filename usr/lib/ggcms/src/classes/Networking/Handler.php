@@ -1768,8 +1768,28 @@
 		public function HandleRequest_Error_404() {
 			$this->error_404 = TRUE;
 
+				/*
+					Nothing in this codebase set a status code here, so every
+					dead URL on every site answered 200 with an apology page.
+
+					A crawler that receives 200 has been told the URL is real and
+					comes back for it, forever, and the page cache will not store
+					an error page -- so each visit is a full render.  Measured on
+					31 August 2026: /w.php, a WordPress probe for a file that has
+					never existed, cost 30.6 seconds of work and returned 200.
+					There are thousands of such requests a day.
+
+					Search engines call this a soft 404 and index the apology.
+
+					The redirect handlers upstream of this method have already
+					had their chance, so anything arriving here is a genuine dead
+					end and can say so.
+				*/
+
+			http_response_code(404);
+
 			$error_404 = new Error404($this->getArgs());
-			
+
 			$error_404->Display([]);
 			
 			$this->issue_logging->createLog([
