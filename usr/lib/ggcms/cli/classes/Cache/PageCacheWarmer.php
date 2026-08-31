@@ -195,6 +195,22 @@
 
 			$path = $matches[2];
 
+				/*
+					HTTP/1.1 permits the absolute form -- "GET http://host/path"
+					-- and crawlers use it.  Apache serves those normally, so
+					they appear in the log looking like paths and are not:
+					prefixing 127.0.0.1 to one produces a URL that resolves
+					nowhere and times out.  Keep the path, drop the rest.
+				*/
+
+			if(preg_match('#^https?://[^/]+(/.*)$#i', $path, $absolute)) {
+				$path = $absolute[1];
+			}
+
+			if(substr($path, 0, 1) !== '/') {
+				return FALSE;
+			}
+
 			if(strpos($path, '/_cache/') === 0) {
 				return FALSE;
 			}
