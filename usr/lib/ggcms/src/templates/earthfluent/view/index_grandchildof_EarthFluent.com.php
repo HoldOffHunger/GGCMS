@@ -762,9 +762,23 @@
 		
 	#	print_r($this->parent['image']);
 	
-		if(!$this->entry['image'] && !count($this->entry['image']))
+		/*
+			The original condition called count() on a value in the same
+			expression that established it was falsy, so an entry with no image
+			at all fatalled here before the fallback could run.  The fallback
+			then copies the parent's image, and the parent may have none
+			either.  Two places below count or index this, so the shape is
+			normalised once rather than guarded at each of them.
+		*/
+
+		if(!is_array($this->entry['image']) || !count($this->entry['image']))
 		{
 			$this->entry['image'] = $this->parent['image'];
+		}
+
+		if(!is_array($this->entry['image']))
+		{
+			$this->entry['image'] = [];
 		}
 		
 		if(!$this->mobile_friendly)

@@ -774,6 +774,20 @@
 		{
 			$this->entry['image'] = $this->parent['image'];
 		}
+
+		/*
+			The fallback above copies the parent's image, and the parent may
+			have none either -- which left this NULL and made count() fatal on
+			the line below.  An entry with no image whose parent also has none
+			is ordinary rather than exceptional, and three places downstream
+			count or index this value, so normalise the shape once here instead
+			of guarding each of them.
+		*/
+
+		if(!is_array($this->entry['image']))
+		{
+			$this->entry['image'] = [];
+		}
 		
 		if(!$this->mobile_friendly)
 		{
