@@ -203,6 +203,9 @@ they run. Install as root's crontab:
 
 # Database backup
 0 3 * * *   /usr/lib/ggcms/cli/scripts/public/sql/backup_database.php
+
+# Schema drift, and child tables holding rows nothing is allowed to fetch
+0 6 * * 1   /usr/lib/ggcms/cli/scripts/public/sql/check_schema.php
 ```
 
 Cron mails its output to root. `You have new mail` at login is a signal, not

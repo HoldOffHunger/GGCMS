@@ -99,6 +99,31 @@ The disk filling is what took the production host down. Run this daily.
 | `show_table_sizes.php` | Table sizes, for spotting growth |
 | `list_databases.php` | Lists databases |
 | `mysql_connect.php` | Connection test |
+| `check_schema.php` | Confirms the tables exist, match the spine, and hold nothing the config forbids fetching |
+
+`check_schema.php` runs three checks and prints only what is wrong:
+
+```bash
+check_schema.php                        # every database, every check
+check_schema.php --database=revoltlib   # one site
+check_schema.php --check=enabled        # one check, every site
+check_schema.php --all                  # print what passed as well
+```
+
+| Check | Compares |
+|---|---|
+| `tables` | every table in `clonefrom` exists here, and nothing unrecognised does |
+| `spine` | `id` is an auto-incrementing primary key and the two date columns are last — see [Database.md](Database.md) |
+| `enabled` | row counts against `child_types/enabled.php` |
+
+The third is the one worth scheduling. A child table can hold thousands of
+rows the ORM is never asked to fetch, because that type is switched off in
+config, and nothing anywhere reported the disagreement — it took reading an
+error log sideways to discover thirteen sites in exactly that state.
+
+`clonefrom` is the reference for the first two checks rather than a list kept
+inside the tool, so adding a table to the schema does not require remembering
+that this file exists.
 
 ### Errors and issues — `scripts/internal/errors/`, `scripts/internal/issues/`
 
