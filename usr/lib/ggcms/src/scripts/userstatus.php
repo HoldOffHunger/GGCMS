@@ -148,8 +148,8 @@
 		
 		public function SetAcceptedComments() {
 			$comments = $this->SetAcceptedComments_GetRecords();
-			$comments = $this->SetRecordUsers([records=>$comments]);
-			$comments = $this->SetRecordEntries([records=>$comments]);
+			$comments = $this->SetRecordUsers(['records'=>$comments]);
+			$comments = $this->SetRecordEntries(['records'=>$comments]);
 			
 			return $this->comments = $comments;
 		}

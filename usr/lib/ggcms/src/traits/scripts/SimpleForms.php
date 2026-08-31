@@ -627,7 +627,7 @@
 		public function DisplayOnePieceOfData() {
 			$function = $this->php_command->CallableFunctionName;
 			$data = $function();
-			return $this->SetOnePieceOfDataForDisplay([pieceofdata=>$data]);
+			return $this->SetOnePieceOfDataForDisplay(['pieceofdata'=>$data]);
 		}
 		
 		public function DisplayNumberedArrayOfData() {

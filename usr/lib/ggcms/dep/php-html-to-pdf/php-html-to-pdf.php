@@ -189,7 +189,7 @@
 			
 			$dom = $this->buildDom(['html'=>$html]);
 			
-			return $this->parseDom([dom=>$dom]);
+			return $this->parseDom(['dom'=>$dom]);
 		}
 		
 		function cleanseInput($args) {

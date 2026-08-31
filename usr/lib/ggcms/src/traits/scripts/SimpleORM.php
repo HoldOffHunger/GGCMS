@@ -2533,7 +2533,7 @@
 				if($entry && $entry['id']) {
 					unset($entry['Password']);
 					
-					$entry_parents = $this->orm->GetEntryParents([entry=>$entry]);
+					$entry_parents = $this->orm->GetEntryParents(['entry'=>$entry]);
 					
 					$entry['parents'] = $entry_parents['parents'];
 				}

@@ -325,7 +325,7 @@
 			$this->SetDBAdmin();
 			$this->SetORM();
 			
-			return $this->StatusDataArray = $this->db_admin->GetSyntaxForDBRecordCleaning([tables=>$this->orm->GetAllEntryRecordTypes()]);
+			return $this->StatusDataArray = $this->db_admin->GetSyntaxForDBRecordCleaning(['tables'=>$this->orm->GetAllEntryRecordTypes()]);
 		}
 		
 		public function ViewAllPrimaryHosts() {
