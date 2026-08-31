@@ -1,17 +1,34 @@
 <?php
 
 	trait DBAccess {
+		/*
+			The fourth argument to mysqli is the database, not the host.  It is
+			named $host here because CLIAccess::setDomain() stores the first
+			label of the domain -- revoltlib, from revoltlib.com -- in
+			$this->host, and on this installation that label is the database
+			name.
+
+			The test was property_exists($this, $host) with $host still FALSE,
+			so it asked whether this object has a property named "", which
+			nothing does.  Every tool therefore connected with no database
+			selected, whatever domain the operator had just been asked for.
+
+			Tools that name the database in their queries never noticed, which
+			is all of them, which is why this survived.
+		*/
+
 		public function setMySQLArgs() {
-			$host = false;
-			if(property_exists($this, $host)) {
-				$host = $this->host;
+			$database = '';
+
+			if(property_exists($this, 'host') && $this->host) {
+				$database = $this->host;
 			}
-			
+
 			return $this->db_link = new mysqli(
 				ini_get("mysqli.default_host"),
 				ini_get("mysqli.default_user"),
 				ini_get("mysqli.default_pw"),
-				$host,
+				$database,
 				ini_get("mysqli.default_port")
 			);
 		}

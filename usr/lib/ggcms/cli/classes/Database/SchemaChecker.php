@@ -124,7 +124,7 @@
 			foreach($rows as $row) {
 				$database = array_values($row)[0];
 
-				if(!$skip[$database]) {
+				if(!isset($skip[$database])) {
 					$databases[] = $database;
 				}
 			}
@@ -168,8 +168,8 @@
 
 			$findings = [];
 
-			foreach($reference as $table) {
-				if(!$present[$table]) {
+			foreach($reference as $table => $ignored_reference) {
+				if(!isset($present[$table])) {
 					$findings[] = [
 						'Database'=>$database,
 						'Check'=>'tables',
@@ -179,8 +179,8 @@
 				}
 			}
 
-			foreach($present as $table => $ignored) {
-				if(!$reference[$table]) {
+			foreach($present as $table => $ignored_present) {
+				if(!isset($reference[$table])) {
 					$findings[] = [
 						'Database'=>$database,
 						'Check'=>'tables',
@@ -341,13 +341,29 @@
 
 			$findings = [];
 
+				/*
+					Worth its own line even though it is not itself a fault.  A
+					site with no override runs on defaults that switch almost
+					every child type off, so this one fact explains every
+					disagreement printed below it.
+				*/
+
+			if(!$this->hasOverride(['database'=>$database])) {
+				$findings[] = [
+					'Database'=>$database,
+					'Check'=>'enabled',
+					'Subject'=>'child_types',
+					'Finding'=>'no override -- running on clonefrom defaults',
+				];
+			}
+
 			foreach($child_types as $table) {
-				if(!$present[$table]) {
+				if(!isset($present[$table])) {
 					continue;
 				}
 
 				$count = $this->countRows(['database'=>$database, 'table'=>$table]);
-				$is_enabled = $enabled[$table];
+				$is_enabled = isset($enabled[$table]) ? $enabled[$table] : FALSE;
 
 				if($count && !$is_enabled) {
 					$findings[] = [
@@ -383,41 +399,64 @@
 				every site on this host and is stated here rather than hidden,
 				because the day it stops being true this check will quietly
 				compare a site against the wrong file.
+
+				The file is read rather than required.  Every domain override
+				declares the same class name, which is correct for the engine --
+				one request serves one domain -- and fatal here, where one
+				process walks seventeen of them and the second require dies on
+				"cannot declare class, the name is already in use".  A checker
+				that has to load a site to inspect it can only inspect one site.
 			*/
 
 		public function getEnabledFlags($args) {
 			$database = $args['database'];
 
-			$domain_location = $this->ReverseDomainName(['domain'=>$database . '.com']) . '/child_types/enabled.php';
+			$domain_location = GGCMS_CONFIG_DIR . $this->ReverseDomainName(['domain'=>$database . '.com']) . '/child_types/enabled.php';
+			$default_location = GGCMS_CONFIG_DIR . 'clonefrom/child_types/enabled.php';
 
-			$classname = 'AbstractGlobals_ChildTypes_enabled';
+			$location = is_file($domain_location) ? $domain_location : $default_location;
 
-			if(conf_isfile($domain_location)) {
-				$classname .= '_override';
-				confreq($domain_location);
-			} else {
-				confreq('clonefrom/child_types/enabled.php');
-			}
-
-			if(!class_exists($classname)) {
+			if(!is_file($location)) {
 				return FALSE;
 			}
 
-			$globals = new $classname;
+			$configuration = file_get_contents($location);
+
+			if($configuration === FALSE) {
+				return FALSE;
+			}
 
 			$flags = [];
 
 			foreach($this->childRecordTypes() as $table) {
-				$method = $table . '_enabled';
-
-				if(method_exists($globals, $method)) {
-					$flags[$table] = $globals->$method();
-				} else {
-					$flags[$table] = FALSE;
-				}
+				$flags[$table] = $this->readFlag([
+					'configuration'=>$configuration,
+					'table'=>$table,
+				]);
 			}
 
 			return $flags;
+		}
+
+		public function hasOverride($args) {
+			$database = $args['database'];
+
+			return is_file(GGCMS_CONFIG_DIR . $this->ReverseDomainName(['domain'=>$database . '.com']) . '/child_types/enabled.php');
+		}
+
+		public function readFlag($args) {
+			$configuration = $args['configuration'];
+			$table = $args['table'];
+
+			$pattern = '/function\s+' . preg_quote($table, '/') . '_enabled\s*\(\s*\)\s*\{\s*return\s+(TRUE|FALSE|true|false)\s*;/';
+
+			$matches = [];
+
+			if(!preg_match($pattern, $configuration, $matches)) {
+				return FALSE;
+			}
+
+			return strtoupper($matches[1]) === 'TRUE';
 		}
 
 		public function childRecordTypes() {
