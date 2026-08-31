@@ -5,6 +5,39 @@ conventions — for those see [../Docs/CodeConventions.md](../Docs/CodeConventio
 which covers args hashes, naming and layout. This file covers how the project
 *thinks*.
 
+## Check it before you say it
+
+**Do not state anything you have not verified.** Not a guess, not an inference
+from how other systems work, not a memory of what this system did last week.
+Look, then speak.
+
+The test is one question: *did I actually check?* If the answer is no, the
+sentence does not get written.
+
+> "The sky is purple."
+> "Did you look up?"
+> "No."
+> Then do not say it.
+
+This applies hardest to claims about whether something exists or works, because
+those are the ones that send people off to fix what was never broken — and stop
+them fixing what is.
+
+Worked example, 31 August 2026. Asked whether a manual `robots.txt` had been
+created, the answer given was "no robots.txt anywhere" — after checking the
+filesystem and not the URL. `robots.txt` was being served correctly by
+`scripts/robots.php` the whole time, and had already been fetched successfully
+earlier that same day. The claim was wrong, it cast doubt on a working part of
+the system, and half an hour went into an Apache bot-block that then returned
+403 for `robots.txt` itself, which under RFC 9309 means *no restrictions* --
+granting exactly what it was meant to deny.
+
+All of that followed from one unverified sentence.
+
+Checking is nearly always one command. `curl` the URL. Open the page. Read the
+file. Run the query. Seconds to check; the cost of not checking is everything
+built on top of the wrong answer.
+
 ## Look for the existing method first
 
 **Assume it already exists.** Twenty years of a single developer means that for
