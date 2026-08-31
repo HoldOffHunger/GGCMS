@@ -56,6 +56,16 @@ specific behaviour:
 
 When you need to understand a subsystem, read its CLI tool before its class.
 
+## Know which layer you are in
+
+Before writing anything, know whether you are in `classes/`, `scripts/`,
+`modules/` or `templates/`, because the rules differ and they are strict. SQL
+belongs in `classes/` and nowhere else; a script is "move x to y"; a template
+presents data it was handed; a module takes the handler and nothing else.
+
+Full description in
+[../Docs/Architecture.md](../Docs/Architecture.md#layers-and-where-code-belongs).
+
 ## ISE and ISI
 
 Two distinct records, two distinct questions, and the difference is load-bearing

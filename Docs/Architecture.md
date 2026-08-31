@@ -157,6 +157,81 @@ add. See [PageCache.md](PageCache.md).
 MySQL query debugging if the connection was upgraded, and records user
 statistics. `Handler::__destruct()` closes the database.
 
+## Layers, and where code belongs
+
+Four folders, four jobs, in strict order. The rule is one-directional:
+templates are served by scripts, scripts are served by classes. Nothing reaches
+back up.
+
+### `classes/` — the brains
+
+The deep business logic. **All SQL lives here**, in `classes/Database/`, and
+nowhere else. If a query needs writing, it belongs in this layer.
+
+### `scripts/` — the top-level operations
+
+The things an entry might want to *do*: `view`, `modify`, `search`, `news`,
+`contact`, `tos`, `feed`, `sitemap`. Some make no sense in an entry context at
+all — `dbstatus`, `systemstatus`, `install` — and that is fine; they are still
+top-level operations.
+
+**Zero MySQL in a script.** A script is "move x to y". It asks the classes for
+data and hands the result onward. A query appearing in `scripts/` is a layering
+violation, not a shortcut.
+
+Because the URL is data rather than a path, *any* script is reachable from
+*any* entry context. Most sites have a single `/tos.php`; here
+`/a/b/c/tos.php` works, and arrives with `a`, `b` and `c` as context. That is a
+feature of the routing, not an accident of it.
+
+### `templates/` — presentation only
+
+Handed a bucket of data by the script, and responsible for what displays and
+what HTML surrounds it. **This layer is deliberately the most junior-friendly
+place in the codebase.** Someone should be able to change how a page looks
+without knowing anything about the ORM, the format classes, or the database.
+
+If a template needs to *ask* for something, the data should have been handed to
+it. That is a signal the script above it is incomplete.
+
+### `modules/` — small reusable logic sections
+
+A module is a piece of logic that could have been written inline in a template,
+extracted so it can be reused. The goal is that a template reads as a short list
+of steps:
+
+```
+navigation, intro, main section, contacts and sales, outro
+```
+
+**House rule for modules: one argument, usually the handler.** "Here is the
+handler; it already holds every piece of data you could possibly need." No long
+positional argument lists, no bespoke parameter sets per module.
+
+`src/modules/` is being retired *into* `templates/`. Older modules predate the
+one-argument rule, carry large argument lists, and are cruft. Follow the newer
+convention when writing one; prefer moving an old one into its template over
+maintaining it.
+
+### `traits/` — shared behaviour between scripts
+
+`src/traits/scripts/` holds logic common to more than one script, so that (for
+example) "load comments" is written once rather than in both `view` and `user`.
+Composition rather than a base class, which keeps scripts flat and independent.
+
+`SimpleORM`, `SimpleForms`, `SimpleErrors`, `SimpleLookupLists`, `DBFunctions`
+and `SimpleORMSiteMap` are the main ones, and a script declares what it needs at
+the top of the class.
+
+### Summary
+
+| Layer | Job | May contain SQL |
+|---|---|---|
+| `classes/` | Deep business logic, the ORM, the engine | **Yes** — and only here |
+| `scripts/` | Top-level operations; "move x to y" | **No** |
+| `modules/` | Reusable logic sections; take the handler and nothing else | No |
+| `templates/` | Presentation of data already handed to them | No |
+
 ## Data access
 
 Everything reaches MySQL through `classes/Database/DBAccess.php`. Reads go
