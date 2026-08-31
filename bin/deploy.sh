@@ -89,9 +89,20 @@ chmod 755 /var/www
 
 		#  Code changed, so every cached page is potentially stale.
 
+		#  The flush races live traffic: a request can be writing a new cache
+		#  file into a directory while rm is removing it, which surfaces as
+		#  "Directory not empty" and, under set -e, aborted the deploy before
+		#  Apache was reloaded.  A cache flush must never be able to fail a
+		#  deployment -- a stale cache entry is a nuisance, an unreloaded
+		#  Apache is an outage waiting to be noticed.
+		#
+		#  Two passes, both non-fatal: the second catches whatever was created
+		#  during the first.
+
 if [ -d /var/www/html/_cache ]; then
 	echo "==> flushing page cache"
-	rm -rf /var/www/html/_cache/*
+	rm -rf /var/www/html/_cache/* 2>/dev/null || true
+	rm -rf /var/www/html/_cache/* 2>/dev/null || true
 fi
 
 echo "==> reloading apache"
