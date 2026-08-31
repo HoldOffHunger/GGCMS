@@ -13,7 +13,7 @@ $desc=array (
 );
 $up=-63;
 $ut=44;
-$ttffile='/home/anarchocommie/app/tfpdf/font/unifont/DejaVuSans-Oblique.ttf';
+$ttffile=__DIR__ . '/DejaVuSans-Oblique.ttf';
 $originalsize=611556;
 $fontkey='dejavuITALIC';
 ?>

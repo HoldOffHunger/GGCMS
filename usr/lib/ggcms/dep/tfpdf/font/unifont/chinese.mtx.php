@@ -13,7 +13,7 @@ $desc=array (
 );
 $up=-75;
 $ut=50;
-$ttffile='/home/anarchocommie/app/tfpdf/font/unifont/chinese.ttf';
+$ttffile=__DIR__ . '/chinese.ttf';
 $originalsize=8311644;
 $fontkey='chinese';
 ?>

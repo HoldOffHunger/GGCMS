@@ -13,7 +13,7 @@ $desc=array (
 );
 $up=-63;
 $ut=44;
-$ttffile='/home/anarchocommie/app/tfpdf/font/unifont/DejaVuSansCondensed.ttf';
+$ttffile=__DIR__ . '/DejaVuSansCondensed.ttf';
 $originalsize=643852;
 $fontkey='dejavu';
 ?>

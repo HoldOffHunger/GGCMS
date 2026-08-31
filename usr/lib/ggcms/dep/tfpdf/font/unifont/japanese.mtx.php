@@ -13,7 +13,7 @@ $desc=array (
 );
 $up=-125;
 $ut=50;
-$ttffile='/home/anarchocommie/app/tfpdf/font/unifont/japanese.ttf';
+$ttffile=__DIR__ . '/japanese.ttf';
 $originalsize=9681820;
 $fontkey='japanese';
 ?>
