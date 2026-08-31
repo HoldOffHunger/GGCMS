@@ -102,6 +102,14 @@
 
 			if($args['perpage']) {
 				$sql .= 'LIMIT ' . (int) $args['perpage'] . ' ';
+
+					//  Part 1 is the first thousand, part 2 the next, and so on, so
+					//  every URL is reachable through some part rather than the
+					//  first thousand being the only ones a crawler ever sees.
+
+				if($args['part'] > 1) {
+					$sql .= 'OFFSET ' . ((int) $args['part'] - 1) * (int) $args['perpage'] . ' ';
+				}
 			}
 			
 			$fill_arrays_from_db_args = [
@@ -164,7 +172,7 @@
 			$sql .= 'E7.Code as E7_Code, E7.Title as E7_Title, E7.Subtitle as E7_Subtitle, E7.ListTitle as E7_ListTitle, E7.LastModificationDate as E7_LastModificationDate ';
 			*/
 			
-			$sql .= 'E2.Title, E2.Code, MAX(GREATEST(';	// I am MAX GREATEST!!!
+			$sql .= 'E2.Title, E2.Code, COUNT(*) as EntryCount, MAX(GREATEST(';	// I am MAX GREATEST!!!
 			
 			$sql .= 'IFNULL(E2.LastModificationDate, "1000-01-01"), ';
 			$sql .= 'IFNULL(E3.LastModificationDate, "1000-01-01"), ';

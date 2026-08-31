@@ -47,6 +47,7 @@
 			$this->SetORMSiteMapObject();
 			
 			$this->page = $this->Param('page');
+			$this->part = $this->Param('part');
 			
 			$this->SetEntryCount();
 			if($this->IsPaginatedSitemap()) {
@@ -68,13 +69,36 @@
 			
 			$sitemap_pages = [];
 			
+				/*
+					A section larger than one page becomes several parts, and every
+					one of them is listed here.  An index that named only the section
+					would leave the rest of its URLs in no sitemap at all.
+				*/
+
 			foreach($sitemap_data as $sitemap_piece) {
-				$sitemap_pages[] = [
-					'sitemap'=>[
-						'url'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/sitemap.' . $this->script_format_lower . '?page=' . $sitemap_piece['Code'],
-						'lastmod'=>explode(' ', $sitemap_piece['LastModificationDate'])[0],
-					],
-				];
+				$parts = (int) ceil($sitemap_piece['EntryCount'] / $this->MaxToLimitSitemapPages());
+
+				if($parts < 1) {
+					$parts = 1;
+				}
+
+				for($part = 1; $part <= $parts; $part++) {
+					$url =
+						$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) .
+						'/sitemap.' . $this->script_format_lower .
+						'?page=' . $sitemap_piece['Code'];
+
+					if($parts > 1) {
+						$url .= '&part=' . $part;
+					}
+
+					$sitemap_pages[] = [
+						'sitemap'=>[
+							'url'=>$url,
+							'lastmod'=>explode(' ', $sitemap_piece['LastModificationDate'])[0],
+						],
+					];
+				}
 			}
 			
 			$sitemap = [
@@ -124,7 +148,7 @@
 			$sitemap = $args['sitemap'];
 			
 			ini_set('memory_limit','200M');
-			$entry_codes = $this->ormsitemap->GetEntrySiteMapCodes(['page'=>$this->page, 'perpage'=>$this->MaxToLimitSitemapPages()]);
+			$entry_codes = $this->ormsitemap->GetEntrySiteMapCodes(['page'=>$this->page, 'perpage'=>$this->MaxToLimitSitemapPages(), 'part'=>$this->part]);
 			
 			$entry_code_count = count($entry_codes);
 			
