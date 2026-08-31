@@ -113,7 +113,24 @@
 		
 		public function DBStart() {
 		#	error_reporting(E_ERROR);
-			
+
+				/*
+					Cleared first, and cleared again on failure.
+
+					The assignment lives inside the try, so when `new mysqli` threw,
+					$this->db_link kept whatever it already held -- which is a link
+					that has just been closed.  DBStartConditional would correctly
+					see a dead link, call this, get no connection out of it, and the
+					next prepare() would throw `mysqli object is already closed` from
+					a guard that had done its job.  1,410 of those in eight hours.
+
+					A failed connection now leaves NULL, which every reader below
+					tests for, so the failure is reported as a failure instead of
+					surfacing later as a fatal somewhere else.
+				*/
+
+			$this->db_link = NULL;
+
 			try {
 				$this->db_link = new mysqli(
 					ini_get("mysqli.default_host"),
@@ -123,20 +140,29 @@
 					ini_get("mysqli.default_port")
 				);
 			} catch (Exception $e) {
+				$this->db_link = NULL;
+
 				#if($_SERVER['HTTP_HOST'] === 'localhost' && $_SERVER['SERVER_NAME'] === 'localhost') {
 				#	print($this->db_link->connect_errno . ' : ' . $this->db_link->connect_error);
 				#	print_r($e);
 				#}
 			}
 			
-			if($this->db_link->connect_errno) {
+			if(!$this->db_link || $this->db_link->connect_errno) {
 				$this->hostname = 'mysql.' . $this->hostlabel . '.com';
-				$this->db_link = new mysqli(
-					ini_get("mysqli.default_host"),
-					ini_get("mysqli.default_user"),
-					ini_get("mysqli.default_pw"),
-					$this->database
-				);
+
+				$this->db_link = NULL;
+
+				try {
+					$this->db_link = new mysqli(
+						ini_get("mysqli.default_host"),
+						ini_get("mysqli.default_user"),
+						ini_get("mysqli.default_pw"),
+						$this->database
+					);
+				} catch (Exception $e) {
+					$this->db_link = NULL;
+				}
 			}
 			
 		//	error_reporting(E_ERROR | E_WARNING | E_PARSE);
@@ -144,11 +170,11 @@
 			$results = 1;
 			$errors = [];
 			
-			if($this->db_link->connect_errno) {
+			if(!$this->db_link || $this->db_link->connect_errno) {
 				$results = 0;
 				$errors[] = [
-					'errornumber'=>$this->db_link->connect_errno,
-					'errormessage'=>$this->db_link->connect_error,
+					'errornumber'=>$this->db_link ? $this->db_link->connect_errno : 0,
+					'errormessage'=>$this->db_link ? $this->db_link->connect_error : 'No connection could be opened.',
 				];
 			} else {
 				if($this->handler->globals->SetSQLModePerSession()) {
@@ -164,7 +190,7 @@
 				}
 			}
 			
-			if($this->db_link->connect_error) {
+			if($this->db_link && $this->db_link->connect_error) {
 			#	print_r($this->db_link->connect_error);
 				http_response_code(500);
 				if($_SERVER['HTTP_HOST'] === 'localhost' && $_SERVER['SERVER_NAME'] === 'localhost') {
