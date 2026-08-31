@@ -86,6 +86,318 @@ Notes on each:
   library, affecting every document format. Probably a deployment gap rather
   than a code defect. It is why `view.pdf` URLs appear in the 500s.
 
+### `ping.php` is an SSRF and local-file disclosure primitive
+
+`ping::Curl()` passes its `url` parameter directly to cURL with no protocol,
+host, resolved-address or port policy. cURL may therefore fetch loopback and
+private-network services and, when the installed protocol set permits it, local
+files through `file://`. The complete response is returned to the requester and
+written under a relative `curl/` directory; the script constructs a predictable
+public URL for that backup. Sensitive responses can consequently persist in a
+web-addressable location.
+
+The current `AdminOnly()` bypass makes this reachable by any authenticated user.
+Fixing that bypass is necessary but not sufficient: the action is also a GET
+request without CSRF protection, and an administrator's browser remains an
+unsafe network proxy.
+
+If this diagnostic is retained, allow only `http` and `https`, restrict ports,
+resolve the destination and reject loopback, link-local, private, reserved and
+metadata addresses (including IPv6), and apply the policy again after every
+redirect or disable redirects. Set tight connection, total-time and response-
+size limits. Do not persist response bodies beneath the document root; use
+random non-public names and an authenticated download action if retention is
+actually needed. Test alternate numeric IP forms, DNS answers, IPv6, redirects,
+`file://`, oversized responses and timeouts.
+
+### `AdminOnly()` grants access to logged-in non-admin users
+
+`Authentication::Authenticate()` currently grants every authenticated user
+access to scripts that declare `AdminOnly() === TRUE`. The test at line 33
+combines the requirement and the user's status:
+
+```php
+if($this->script->script->AdminOnly() && $this->user_session['UserAdmin.id']) {
+    // admin path
+} else {
+    $this->access_granted = 1;
+}
+```
+
+For a logged-in non-admin, `AdminOnly()` is true but `UserAdmin.id` is false,
+so the combined condition is false and the `else` grants access. Six scripts
+are exposed: `master-c.php`, `dbstatus.php`, `ping.php`, `systemstatus.php`,
+`userstatus.php` and `warroom.php`. Their actions include database maintenance
+and cloning, host and PHP introspection, comment and suggestion moderation, and
+viewing or resolving ISE records.
+
+Separate the question "does this script require an administrator?" from "is
+this user an administrator?" A secure script requiring login must deny access
+when `AdminOnly()` is true and `UserAdmin.id` is absent. Add focused tests for
+anonymous, ordinary authenticated, administrator, and non-admin-only access;
+the existing test suite has no authentication coverage.
+
+### Session-token generation lossily treats bcrypt output as hexadecimal
+
+`Authentication::GenerateCookieToken_Secure()` creates a bcrypt string, then
+calls `Base::ConvertBase()` with `startingbase=>'Hexadecimal'`. A bcrypt string
+contains its `$2y$...` framing and random characters from the bcrypt alphabet,
+most of which are not hexadecimal. `ConvertBase()` looks up every character in
+the declared source alphabet without validation; characters outside `0-9a-f`
+produce undefined-key notices and append no bits. The returned token is only a
+lossy encoding of the accidental hexadecimal-looking subsequence, not an
+encoding of the complete bcrypt output.
+
+Bearer tokens do not need password hashing or user-derived input. Generate at
+least 32 cryptographically random bytes directly with `random_bytes()`, encode
+them reversibly as hex or base64url, and fail closed if generation fails. Avoid
+the custom general-purpose base converter here. Add tests for fixed decoded
+length, allowed encoding characters, uniqueness across a large sample and
+successful database/cookie round trips. Existing tokens should be invalidated
+when the new representation is deployed.
+
+### Authentication tokens do not meaningfully expire
+
+`Authentication::CheckCurrentAuthentication()` intends to limit a session by
+`LastAccess`, but its raw predicate is:
+
+```sql
+UserSession.LastAccess < DATE_ADD(UserSession.LastAccess, INTERVAL 160 HOUR)
+```
+
+That compares the timestamp with itself plus 160 hours and is true for every
+ordinary non-null value. `ErrorLogging::displayErrorToAdmin()` repeats the same
+mistake with four hours, so it also accepts any matching admin token regardless
+of age.
+
+The browser-side lifetime is similarly longer than its caller asks for.
+`Cookie::SetCookie()` chooses the ten-year `PermanentCookieExpirationTime()`
+whenever a cookie is secure, because its temporary branch requires both
+`!$secure` and `!$permanent`. Authentication correctly passes `secure=>TRUE`
+but does not request permanence; the condition makes it permanent anyway.
+
+`ReAuthenticate()` rotates an active token after fifteen minutes, which limits
+an old token once its legitimate owner returns. It does not expire an inactive
+session: absent logout or later replacement, the database row and browser
+cookie can remain usable for ten years.
+
+Choose the intended idle and/or absolute lifetime explicitly, compare the
+current time with `LastAccess` rather than comparing `LastAccess` with itself,
+and make cookie security independent of cookie persistence. Test active,
+expired, refreshed and logged-out tokens in both ordinary authentication and
+admin error display.
+
+### Like/dislike actions disagree across JavaScript, dispatch and database layers
+
+The live `like-dislike.js` client posts all four actions to `view.json`, but the
+HTML/JSON action dispatcher invokes the selected method with no arguments.
+`view::upvote()` and `view::undoupvote()` accept none; `view::downvote($args)`
+and `view::undodownvote($args)` require one and then pass it to
+`SetUserAndEntry()`, which itself accepts none. Downvote and undo-downvote
+therefore raise `ArgumentCountError` instead of recording the click.
+
+The two currently callable actions have quieter correctness failures.
+`SetUserAndEntry()` returns false when authentication or entry resolution fails,
+but every vote action ignores that result and returns `Success => 1` anyway.
+Undo also dereferences a missing vote rather than treating it as idempotent or
+reporting absence. On insertion, `SetUserLike()` indexes
+`CreateRecord(...)[0]`, although `DBAccess::CreateRecord()` already returns the
+created row; the insert can succeed while the method discards its result.
+
+Make all four public action signatures match the zero-argument dispatcher,
+stop immediately when `SetUserAndEntry()` fails, define undo-without-a-vote as
+an explicit idempotent success or failure, and consume `CreateRecord()`'s row
+directly. Return success only after the database operation succeeds. Add tests
+for authenticated and anonymous requests, missing entries, first votes, vote
+changes, repeated undo and all four action names.
+
+The client also reuses one global `XMLHttpRequest` object for every click. A
+second rapid click can replace or abort the first in-flight request while the
+optimistic counters have already changed. Create one request per operation and
+reconcile the displayed state from the server response.
+
+### Administrative state changes have no CSRF protection and use GET
+
+GGCMS has no CSRF token or nonce mechanism. `session.referer_check` does not
+protect it because authentication uses GGCMS's own `AuthenticationToken` cookie,
+not PHP sessions. `Domain::ValidateReferringWebsite()` is a referral blacklist:
+it deliberately accepts ordinary external referrers and therefore does not
+prove that an authenticated user intended a request.
+
+Several administrative mutations are exposed as ordinary links. The war room
+renders GET URLs for `resolveError`, `acceptComment`, `rejectComment`,
+`acceptSuggestion` and `rejectSuggestion`; each action updates a client
+database. A cross-site top-level navigation can carry a default/Lax cookie, so
+another site can cause a logged-in administrator's browser to perform these
+operations without being able to read the response.
+
+State-changing actions should reject GET, require POST, and verify an
+unpredictable token bound to the authenticated session. Apply the check in one
+shared action boundary rather than independently in templates, and test missing,
+wrong and correct tokens. Audit the other secure scripts for GET mutations once
+the shared mechanism exists.
+
+### ISE and ISI records persist unredacted credentials and tokens
+
+Both failure paths serialize request data directly into database records.
+`ErrorLogging::logInternalServerError()` stores `print_r($_SERVER)`,
+`print_r($_POST)`, `print_r($_GET)` and the entire recursive handler object.
+`IssueLogging::recordIssue()` stores the same request arrays and recursively
+prints its own object graph. No redaction or sensitive-key filter exists.
+
+Those structures can contain plaintext login passwords, Google ID tokens, the
+hidden `usersessionid` bearer token, `AuthenticationToken` and other cookies,
+authorization headers, complete query strings, the Google client secret and the
+global password seed. An error or issue record can therefore become a durable
+secondary credential store. The full object dumps also make the records much
+larger and less stable than a selected diagnostic context.
+
+Build one recursive, case-insensitive redaction boundary shared by ISE and ISI
+logging. Start from an allowlist of useful server fields; explicitly exclude
+cookies and authorization headers; replace sensitive request values such as
+`password`, `token`, `secret`, `authorization`, `cookie` and session identifiers
+with a fixed marker. Store a small deliberate diagnostic context instead of a
+recursive application object. Tests should submit nested and differently cased
+sensitive keys and assert that neither their names' values nor known secret
+sentinels occur anywhere in the serialized record.
+
+Treat existing rows as potentially sensitive. Before broadly displaying,
+exporting or sharing them, audit access and retention, identify any live
+credentials present without reproducing them in logs, rotate affected secrets,
+and purge or redact historical payloads through a reviewed migration.
+
+### Live authentication tokens are copied into dead DOM fields
+
+GGCMS renders the current `UserSession.CookieToken` into a hidden input named
+`usersessionid` in the shared comments module and sixteen site templates. A
+repository-wide search finds no PHP or JavaScript consumer of `usersessionid`:
+the field is write-only legacy output, not part of form authentication.
+
+The value is the bearer credential used by the `AuthenticationToken` cookie.
+Putting it in page markup gives every script running in the page direct access
+to the token and also places it in copied DOM, browser tooling and any captured
+HTML. Independently, `Cookie::CookieHTTPOnlyOption()` returns `FALSE`, so the
+cookie itself is readable by JavaScript as well. Any successful script injection
+can therefore steal a session rather than merely act inside the current page.
+
+Remove all `usersessionid` fields and verify that comment, suggestion and other
+affected forms still submit successfully. Then set the authentication cookie
+`HttpOnly`, choose an explicit `SameSite` policy compatible with the intended
+cross-site behavior, and keep `Secure` enabled. Test login, token refresh,
+logout and the affected forms; do not treat `HttpOnly` alone as sufficient while
+the same token remains present in HTML.
+
+### Image upload accepts active content and its validation skips records
+
+`modify::SetRecordFromQuery()` accepts the browser-supplied upload name and a
+user-editable `image_FileName`; no server-side file signature or decoded-image
+allowlist is checked before `move_uploaded_file()` places the bytes under the
+per-domain `/www/image/` tree. Imagick sees the file only after the move. The
+shared `/srv` file handler later returns arbitrary local-file bytes with
+`print(file_get_contents(...))` and does not set a type derived from verified
+content, force an attachment disposition or emit `X-Content-Type-Options:
+nosniff`. An authenticated contributor can therefore publish active HTML or
+script-capable content at a trusted site origin.
+
+The intended validation is itself miswired. `ValidateRecordForSaving_Image()`
+increments `$i` inside a `for` loop that also increments it, never assigns the
+current `$image`, passes that undefined value to `ValidateSingleImage()`, and
+therefore processes only every other file slot. The save loop later processes
+every image. Existing filename and collision checks are not reliably applied to
+the records being written, but even a repaired loop has no content policy.
+
+Before moving anything into durable storage, require `UPLOAD_ERR_OK`, verify
+`is_uploaded_file()`, enforce a size and decoded-pixel limit, identify the type
+from server-observed bytes, decode it successfully, and allow only the formats
+the application intentionally supports. Generate the storage filename and
+extension from trusted data rather than accepting a path from either browser
+field. Prefer re-encoding raster images to a fresh file; treat SVG as active
+content unless it is rigorously sanitized and served from an isolated origin.
+Check every filesystem and Imagick result, delete temporary/partial output on
+failure, and serve media with an explicit allowlisted content type plus
+`nosniff`. Add multi-file tests so every index is validated.
+
+### GET overrides false-valued POST parameters
+
+`Query::Construct_Parameters()` deliberately loads POST data before GET data,
+but `Construct_Parameters_GETData()` decides whether a key already exists with:
+
+```php
+if(!$this->parameter_data[$key])
+```
+
+That tests truthiness, not presence. If POST supplies `0`, `'0'`, an empty
+string or an empty array, a query-string parameter with the same name replaces
+it. This violates the apparent POST-over-GET precedence and can change submitted
+flags or empty-field semantics according to the URL carrying the form request.
+
+Use `array_key_exists($key, $this->parameter_data)` for precedence. Add tests
+for missing keys and for POST values `0`, `'0'`, `''`, `FALSE`, empty arrays and
+ordinary strings, each paired with a conflicting GET value. Keep value
+validation contextual at the consumer; this fix concerns source precedence, not
+generic sanitization.
+
+### Login attempts have no application-level throttling
+
+`Authentication::Login()` performs the account lookup and immediately returns
+success or failure. The repository contains no failed-attempt counter, source or
+account rate limiter, retry delay, temporary lockout or challenge mechanism.
+The displayed failure is generic, which is good, but an attacker can still make
+unbounded online guesses as fast as the web and database tiers permit.
+
+Apply rate limits at both the deployment edge and an application boundary that
+cannot be bypassed by changing hostnames or client databases. Key cautiously on
+a combination of normalized account identifier and trusted client address;
+return a generic response, add escalating delays or temporary limits, and avoid
+permanent lockouts that enable denial of service. Record security telemetry
+without storing submitted passwords. Test distributed attempts, IPv4/IPv6
+normalization, successful-reset behavior and limits shared across domains.
+Verify current reverse-proxy or WAF policy before deployment, since no upstream
+login-specific limit is documented in this repository.
+
+### User passwords use unsalted single-pass SHA-256
+
+`Authentication::Login()` computes `hash('sha256', $password)` and asks MySQL
+to compare its 32 decoded bytes directly with `User.Password`. The schema fixes
+that column at `BINARY(32)`. There is no per-user salt, deliberately expensive
+password hash, `password_verify()` call or rehash path. A copy of any client
+database therefore permits high-speed offline guessing, with equal passwords
+producing equal stored values across every user and client database.
+
+This needs a staged migration rather than a local substitution. Expand the
+column to store a modern encoded `password_hash()` result, verify new-format
+hashes with `password_verify()`, and opportunistically replace a legacy SHA-256
+value after a successful legacy login. New passwords must use the modern format
+from the start. Preserve an explicit distinction for Google-only accounts: they
+currently receive SHA-256 of the global `passwordseed`, and should not become
+ordinary password-login accounts accidentally during migration.
+
+Test legacy login and upgrade, modern login, wrong passwords, copied admin
+accounts and Google-created accounts before removing the legacy branch. Do not
+log either plaintext passwords or stored password material during migration.
+
+### First-time Google login passes the empty lookup to `Login_Successful()`
+
+`Google::AuthenticateOrDisauthenticateWithGoogle()` correctly creates a `User`
+when no account exists for the verified Google email, and `CreateRecord()`
+returns that newly inserted row. The branch stores it in
+`authentication->user_account`, but the next line calls:
+
+```php
+Login_Successful(['useraccount'=>[$user_account]])
+```
+
+At that point `$user_account` is still the empty result from the lookup, so the
+extra brackets produce a nested empty array. `Login_Successful()` expects row
+zero to contain the new user's `id`; without it, session creation cannot attach
+the authentication token to the account. Existing Google users take the other
+branch and are unaffected.
+
+Pass `[$user_creation_results]`, matching the assignment immediately above it,
+and cover first login and returning login separately. Also assert that first
+login creates exactly one user and one usable `UserSession`, since merely seeing
+the `newuser` response flag does not prove authentication succeeded.
+
 ### 2.3 million `mysqli_close()` fatals
 
 ```
@@ -99,6 +411,50 @@ must be of type mysqli, null given in DBAccess.php:158
 the connection failed or construction did not reach `Construct_DBAccess`, the
 destructor throws — and **masks the original error**. Counted 2,300,533 in one
 rotated log. Predates the 30 August session by years.
+
+### Preserve the original `mysqli` construction failure as an ISE
+
+The connection-closing fix stops `Handler::__destruct()` from replacing a
+database failure with `mysqli_close(NULL)`, but `DBAccess::DBStart()` still
+catches the exception from `new mysqli(...)`, discards it, and immediately
+reads `$this->db_link->connect_errno`. If construction threw, there is no link
+to inspect. The useful failure is therefore still replaced one level earlier,
+and the fallback connection may never be attempted.
+
+When `mysqli` construction fails, preserve the original failure as an ISE with
+its exception class, numeric code, SQLSTATE, message and trace, plus the
+database, host and port that were attempted and whether the fallback was tried.
+Never store the password or other credentials.
+
+There is a storage paradox to solve deliberately: ordinary ISE persistence
+uses `DBAccess::CreateRecord()`, but this ISE exists precisely because that
+database connection could not be created. If the fallback connection succeeds,
+the normal `InternalServerError` record can be written through it. If no
+connection succeeds, the failure needs a durable non-database fallback that can
+be recovered into the ISE table later; attempting the ordinary logging path
+again would only recurse into the same fault.
+
+### `transfer.php` uses undefined locals around a live assignment update
+
+The transfer model is sound: moving a whole branch requires changing only the
+one assignment that places its root. The current admin script has two concrete
+implementation defects around that update.
+
+* `transferentry()` stores the parent search result in
+  `$this->new_parent_results`, then tests and copies the undefined local
+  `$record_results` at lines 74-77.
+* It calls `BackupEntryCodeReservation()` with the undefined locals `$entry`
+  and `$backup_record` at line 93. The method expects real entry arrays and
+  dereferences both while writing reservation records.
+
+The first loses the intended result and error reporting. The second can emit
+warnings and pass null identity data into the reservation backup immediately
+before the assignment update. The update itself is independent and may still
+succeed, leaving the transfer apparently complete while its old-path
+reservations are absent or malformed.
+
+Fix the local wiring without changing the one-assignment transfer model, and
+verify both a successful move and a same-code conflict before closing this.
 
 ### earthfluent.com
 

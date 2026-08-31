@@ -203,6 +203,50 @@ several places without duplication.
 That is the property to protect when changing anything here: **an assignment is
 a statement about a relationship, not a property of either side.**
 
+### Transferring a branch is one relationship update
+
+Modern filesystems already have a similar property: renaming a directory on the
+same filesystem is ordinarily a metadata operation that relinks it beneath a
+new parent without moving every descendant. GGCMS applies that idea one layer
+higher. Placement is a database relationship in the content model itself,
+independent of any directory layout used by the host.
+
+In GGCMS the visible path is assembled from assignment records. To make `b`
+and everything beneath it appear under `x` instead of `a`, change only the
+assignment that places `b`:
+
+```text
+before: a -> b -> c -> d
+after:  x -> b -> c -> d
+```
+
+The entry records do not move. The assignment from `a` to `b` becomes an
+assignment from `x` to `b`; the assignments from `b` to `c`, from `c` to `d`,
+and every relationship below them remain untouched.
+
+`scripts/transfer.php` exposes this as an authenticated administrative action.
+It checks that the target parent does not already have a child with the same
+entry code, then updates the selected `Assignment.Parentid` through DBAccess.
+No descendant count changes the amount of work required for the transfer.
+
+The assignment update itself remains independent of the number of descendants.
+Current cache invalidation is separate work: every database write marks the
+domain dirty, and shutdown removes that domain's whole page-cache tree. A large
+cache can therefore dominate the observed transfer time even though the
+relationship change remains one record update. See [PageCache.md](PageCache.md).
+
+`EntryCodeReservation` makes relocation forgiving without permanently owning
+an old path. The normal content resolver always runs first, so a new live entry
+at that path outplaces the reservation. Only when ordinary resolution fails
+does `Handler::handleReservedCodeRedirect()` try the remembered full, shortened
+and extension-stripped code forms and redirect through the reservation's
+current assignment. History rescues an otherwise broken or imperfect link, but
+never prevents the namespace from being used again.
+
+This is one of the central consequences of the assignment model: content
+identity is independent of placement, and placement is a controllable,
+transferable relationship rather than a directory full of files.
+
 ### Child records
 
 Alongside the entry chain, the ORM gathers each entry's child records —

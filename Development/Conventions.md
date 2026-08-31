@@ -81,6 +81,21 @@ somebody should fix it. The table captures `ErrorMessage`, `URL`,
 `ServerVariable`, `PostVariable`, `GetVariable` and `EnvironmentVariables`, plus
 a `Resolved` flag so triage state lives with the record.
 
+An ISE is not limited to a PHP fatal, an uncaught exception or a caught
+exception. Any significant operation required to serve or maintain the system
+that reports failure is an ISE, including failures reported silently.
+
+This includes commands and extension APIs such as `mysqli` that may signal
+failure through a return value, status property, error code or error object
+rather than by throwing. Those failure channels must be checked explicitly and
+the operation's useful particulars preserved in the ISE.
+
+Do not turn best-effort trivia into ISE noise. A small presentation helper such
+as `ucfirst()` producing no useful result is not equivalent to a database
+connection, file write, deployment command, cache flush or other operation whose
+failure prevents correct service or risks losing state. Consequence is the
+boundary.
+
 Read them with:
 
 ```bash
