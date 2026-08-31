@@ -796,7 +796,7 @@
 			
 			if($this->entry)
 			{
-				$image_count = count($this->entry['image']);
+				$image_count = $this->entry['image'] ? count($this->entry['image']) : 0;
 				
 				if($image_count)
 				{
