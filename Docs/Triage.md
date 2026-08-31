@@ -236,6 +236,36 @@ files change; do it in one pass rather than per-format, and do it where someone
 can watch — this is the same "fix it once in the shared place" case as the
 `dictionary` args bug.
 
+### Unguarded `count()` on child-record arrays in the format classes
+
+A child-record array is `NULL`, not an empty array, when the entry has none of
+that type. `count(NULL)` is fatal in PHP 8, so any document-format request for
+an entry lacking that child type dies.
+
+**The correct idiom already exists in the codebase**, in `RDF.php`:
+
+```php
+$tag_count = $this->script->record_to_use['tag'] ? count($this->script->record_to_use['tag']) : 0;
+```
+
+`OPDS.php:119` is fixed (it was the one observed firing). Twenty-two sites
+remain unguarded:
+
+| File | Lines |
+|---|---|
+| `DAISY.php` | 117, 151, 215, 301, 328 |
+| `EPub.php` | 113, 146 |
+| `OPDS.php` | 182, 199 |
+| `RDF.php` | 300, 317 |
+| `TEX.php` | 130, 146 |
+
+Mechanical, but worth doing in one supervised pass rather than by regex —
+these are `.daisy`, `.epub`, `.opds`, `.rdf` and `.tex` paths that are awkward
+to exercise, and a typo would not show up until someone requested that format.
+
+Low volume in practice (single figures per fifteen minutes), because these
+formats are rarely requested.
+
 ### Subdomains via inverted assignment (unbuilt, wanted)
 
 `Parentid = 0, Childid = <entry>` would mean `<entry>.host.com`, mirroring the

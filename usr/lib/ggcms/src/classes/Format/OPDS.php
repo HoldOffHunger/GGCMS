@@ -116,7 +116,15 @@
 				}
 			}
 			
-			$images = $this->script->record_to_use['image'];
+			/*
+				An entry with no image child records has a NULL here, not an
+				empty array, so count() fatalled on any .opds request for such
+				an entry.  RDF.php already guards its equivalents this way; the
+				same idiom is wanted in DAISY, EPub, TEX and the two remaining
+				unguarded counts in RDF -- see Docs/Triage.md.
+			*/
+
+			$images = $this->script->record_to_use['image'] ? $this->script->record_to_use['image'] : [];
 			$image_count = count($images);
 			
 			for($i = 0; $i < $image_count; $i++) {
