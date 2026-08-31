@@ -157,13 +157,31 @@ error_reporting(E_ALL);
 			
 			if(conf_isfile($shared_default_formats_linkto_location)) {
 				confreq($shared_default_formats_linkto_location);
-				$domain_formats_linkto_location = $this->ReverseDomainName(['domain'=>$primary_domain_lowercased]) . '/child_types/enabled.php';
+				/*
+					Two bugs lived here and masked each other.
+
+					The domain came from $primary_domain_lowercased, an
+					undefined local -- it is assigned in a different function --
+					so this path never resolved and no site ever loaded its
+					override.  And the override branch required the SHARED file
+					a second time rather than the domain one, so had the path
+					ever resolved, the _override class would not have been
+					defined and the `new` below would have fatalled.
+
+					Every site therefore ran silently on clonefrom's defaults,
+					which set almost every child type to FALSE.  revoltlib held
+					2,496 Image records, 437 Quotes, 228 Links and 27 Comments
+					that the ORM was never asked to fetch, and its pages
+					rendered without a single entry image.
+				*/
+
+				$domain_formats_linkto_location = $this->ReverseDomainName(['domain'=>$this->handler->domain->primary_domain_lowercased]) . '/child_types/enabled.php';
 				
 				$classname = 'AbstractGlobals_ChildTypes_enabled';
 				
 				if(conf_isfile($domain_formats_linkto_location)) {
 					$classname .= '_override';
-					confreq($shared_default_formats_linkto_location);
+					confreq($domain_formats_linkto_location);
 					
 					$this->child_types = new $classname;
 				} else {
