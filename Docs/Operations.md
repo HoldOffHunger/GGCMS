@@ -122,6 +122,61 @@ restarts; truncating returns it immediately.
 **Never** clear `/srv/ggcms/`. That is site content — uploaded images and
 per-site payload — and it is not in the code repository.
 
+## Refusing crawlers that ignore robots.txt
+
+Measured on 31 August 2026, in the CLI, on the production host:
+
+```
+/Curve/                    0.09s   225,862 bytes   a real page
+/w.php                     0.31s       334 bytes   a 404
+/Post/Hoary/Prey/Armlet/   0.39s       334 bytes   a 404
+```
+
+The engine is not slow. A full page renders in ninety milliseconds. But this
+host has **one core** and takes roughly **fourteen requests a second**, which at
+~0.3 core-seconds each is about four times more work than it can do — so the
+queue grows, and the same page that renders in 0.09s answers in fourteen.
+
+Note that **a 404 costs three times a real page**, because the four redirect
+handlers each walk the entry graph before giving up. Junk traffic is the most
+expensive traffic here, and it cannot be cached: the page cache will not store
+an error page, so every repeat is a fresh render.
+
+`robots.php` asks the AI and SEO crawlers to leave. Bytespider and a share of
+the generic `bot`/`spider` traffic ignore it. Refusing them at Apache costs
+microseconds instead of 0.3 seconds:
+
+```apache
+#  /etc/apache2/conf-available/block-bots.conf
+
+SetEnvIfNoCase User-Agent "(GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|Claude-Web|Google-Extended|Applebot-Extended|PerplexityBot|meta-externalagent|Bytespider|CCBot|Diffbot|Omgilibot|ImagesiftBot|Amazonbot|AhrefsBot|SemrushBot|DataForSeoBot|MJ12bot|DotBot|BLEXBot|PetalBot|SeekportBot)" ggcms_refused_bot
+
+<Directory /var/www/html>
+	<RequireAll>
+		Require all granted
+		Require not env ggcms_refused_bot
+	</RequireAll>
+</Directory>
+```
+
+```bash
+a2enconf block-bots && apache2ctl configtest && systemctl reload apache2
+```
+
+The list is deliberately the same one `robots.php` names, so the polite refusal
+and the enforced one never disagree. **Googlebot, Bingbot and DuckDuckBot are
+absent from both** — they send readers.
+
+To check it took, and to watch the effect:
+
+```bash
+curl -s -o /dev/null -w '%{http_code}\n' -A 'GPTBot' -H 'Host: revoltlib.com' http://127.0.0.1/
+uptime
+```
+
+The first should print `403`. Load should fall over the following minutes.
+Reverse it with `a2disconf block-bots && systemctl reload apache2`.
+
 ## The access log must name its site
 
 All seventeen vhosts share one `DocumentRoot`, one engine and **one access
