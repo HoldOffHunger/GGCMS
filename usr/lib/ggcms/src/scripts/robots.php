@@ -68,18 +68,9 @@
 				];
 			}
 			
-			$blocked_crawlers = [];
-
-			foreach($this->getBlockedCrawlerList() as $blocked_crawler) {
-				$blocked_crawlers[] = [
-					'blocked_crawler'=>$blocked_crawler
-				];
-			}
-
 			$this->robots = [
 				[
 					'domains'=>$domains,
-					'blocked_crawlers'=>$blocked_crawlers,
 				],
 				$this->robots_attributes,
 			];
@@ -96,12 +87,6 @@
 			
 			foreach($robots_attributes as $robots_attribute_name => $robots_attribute_value) {
 				$robots[] = ['<nobr>' . $robots_attribute_name . ' :</nobr>', $robots_attribute_value];
-			}
-
-			$blocked_crawlers = $this->getBlockedCrawlerList();
-
-			if($blocked_crawlers) {
-				$robots[] = ['<nobr>Blocked crawlers :</nobr>', implode(', ', $blocked_crawlers)];
 			}
 			
 			return $this->robots = $robots;
@@ -154,17 +139,8 @@
 					$robots_attribute_to_display = $robots_attribute_key .  ':';
 				}
 				
-					//  Disallow prints no key of its own, and separating nothing from
-					//  its value left a line holding a single space.  A whitespace
-					//  line reads as a record separator to a strict parser, which
-					//  would orphan every Disallow below it from its User-agent.
-
 				if($robots_attribute_value) {
-					if($robots_attribute_to_display) {
-						$robots_attribute_to_display .= ' ';
-					}
-
-					$robots_attribute_to_display .= $robots_attribute_value;
+					$robots_attribute_to_display .= ' ' . $robots_attribute_value;
 				}
 				
 				$robots_attributes_to_display[] = $robots_attribute_to_display;
@@ -482,11 +458,7 @@
 				"#   * " . $robots_xml_humanreadable . "\n" .
 				"#\n" .
 				$comment_line . "\n\n" .
-
-					//  Named groups first, then the catch-all, then Sitemap: a
-					//  crawler applies the most specific group that names it.
-
-				$this->getBlockedCrawlers() .
+				
 				$robots_attributes_to_display_imploded .
 			"";
 		}
@@ -496,14 +468,9 @@
 			
 			$sitemap = 'http://www.' . $first_domain . '/sitemap.xml';
 			
-				//  User-agent opens the group.  Every directive below it belongs to
-				//  that group, and anything printed above it belongs to no group at
-				//  all and is discarded by every parser.  Crawl-delay sat first here
-				//  for years and was read by nobody.
-
 			return $this->robots_attributes = [
-				'User-agent'=>'*',
 				'Crawl-delay'=>'1',
+				'User-agent'=>'*',
 				'Disallow'=>$this->getDisallowed(),
 				'Sitemap'=>$sitemap,
 			];
@@ -517,7 +484,7 @@
 				$new_disallowed[] = 'Disallow: ' . $disallow_item;
 			}
 			
-			return implode("\n", $new_disallowed) . "\n";
+			return "\n" . implode("\n", $new_disallowed) . "\n";
 		}
 		
 		public function getDisallowedList() {
@@ -551,68 +518,7 @@
 				'/*.rdf$',
 			];
 		}
-
-		public function getBlockedCrawlers() {
-			$blocked_crawlers = $this->getBlockedCrawlerList();
-
-			if(!$blocked_crawlers) {
-				return '';
-			}
-
-			$blocked_crawler_groups = [];
-
-			foreach($blocked_crawlers as $blocked_crawler) {
-				$blocked_crawler_groups[] =
-					'User-agent: ' . $blocked_crawler . "\n" .
-					'Disallow: /';
-			}
-
-			return implode("\n\n", $blocked_crawler_groups) . "\n\n";
-		}
-
-		public function getBlockedCrawlerList() {
-
-				//  A named group is the only refusal these crawlers read.  None of
-				//  them honour Crawl-delay, so for each one the choice is all or
-				//  nothing, and each is one line away from being allowed again.
-				//
-				//  Search engines that send readers back -- Googlebot, Bingbot,
-				//  DuckDuckBot -- are deliberately absent and stay welcome.
-
-			return [
-
-					//  Trains models on the content and sends nothing back
-
-				'GPTBot',
-				'ChatGPT-User',
-				'OAI-SearchBot',
-				'ClaudeBot',
-				'anthropic-ai',
-				'Claude-Web',
-				'Google-Extended',
-				'Applebot-Extended',
-				'PerplexityBot',
-				'meta-externalagent',
-				'Bytespider',
-				'CCBot',
-				'Diffbot',
-				'Omgilibot',
-				'ImagesiftBot',
-				'Amazonbot',
-
-					//  Resells the crawl as a marketing product
-
-				'AhrefsBot',
-				'SemrushBot',
-				'DataForSeoBot',
-				'MJ12bot',
-				'DotBot',
-				'BLEXBot',
-				'PetalBot',
-				'SeekportBot',
-			];
-		}
-
+		
 		public function GetHTMLFormatData_Title() {
 			if(!$this->parent['id'] && $this->master_record && $this->master_record['id']) {
 				if($this->handler->language->getLanguageCode() === 'en') {
