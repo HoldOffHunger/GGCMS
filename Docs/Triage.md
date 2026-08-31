@@ -198,6 +198,27 @@ them on the way in is correct and is what the class is for, but the source is
 in link construction, not routing. Find what appends `?mobilefriendly=1`
 without checking whether a query string already exists.
 
+### `fwrite()` on a non-resource
+
+```
+Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource
+```
+
+Steady, low volume — 8 in a ten-minute window on revoltlib. Something opens a
+file for logging, the open fails, and the failure is not checked before
+writing. Likely candidates are the per-domain statistics logs under
+`/var/log/ggcms/<domain>/stats/` written by `UserTracking`, or file-based error
+logging. Check directory ownership first; deploys `chown -R www-data`, and log
+rotation may recreate files with different ownership.
+
+### Subdomains via inverted assignment (unbuilt, wanted)
+
+`Parentid = 0, Childid = <entry>` would mean `<entry>.host.com`, mirroring the
+existing `Parentid = <entry>, Childid = 0` that means "attached to the host
+root". The model already supports it; nothing is built. Requires no new tables
+and no new routing concepts. See
+[Architecture.md](Architecture.md#assignments-and-the-reserved-id-0).
+
 ## Open — housekeeping, and the reason all of this happened
 
 ### Nothing is scheduled

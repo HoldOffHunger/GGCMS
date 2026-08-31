@@ -157,6 +157,60 @@ add. See [PageCache.md](PageCache.md).
 MySQL query debugging if the connection was upgraded, and records user
 statistics. `Handler::__destruct()` closes the database.
 
+## Assignments, and the reserved id 0
+
+`ORM.php` is the jewel of the engine. It is what turns `/a/b/c/d` into entries
+with codes `a`, `b`, `c` and `d`, joined by **assignment records**, and gathers
+their child records alongside them.
+
+An assignment is deliberately minimal — `Parentid`, `Childid`, and dates. That
+minimalism is the point: a relationship between two entries is a *record*, not
+a column on either of them, so relationships can be added, removed and
+reordered without touching the entries themselves. They can also point at
+things that do not exist as ordinary content, which is where the reserved id
+comes in.
+
+### `0` is permanently reserved and means "the host"
+
+**There will never be an entry with `id = 0`.** This is a deliberate, permanent
+reservation, not a placeholder awaiting a better idea. It has never caused a
+problem and it is not to be removed.
+
+It carries meaning in *both* directions, and they are different:
+
+| Assignment | Meaning |
+|---|---|
+| `Parentid = <entry>`, `Childid = 0` | The entry is attached to the host root — `host.com/<entry>` |
+| `Parentid = 0`, `Childid = <entry>` | The entry is a **subdomain** — `<entry>.host.com` |
+
+The first is how a top-level entry declares itself reachable directly under the
+domain, with no parent above it. Nothing in the entry table says "this one is
+top-level"; the assignment record does.
+
+The second is **not implemented yet**, and is one of the more elegant unbuilt
+things in the system: subdomains fall out of the existing model for free,
+requiring no new tables, no new routing, and no new concepts — only the
+inverted sentinel. See [Triage.md](Triage.md).
+
+### Why assignments beat a parent column
+
+Because a relationship is its own record, an assignment can be prepended or
+appended to structures that live outside this database entirely — another
+system's content, an external service, a different site. The entry does not
+have to know it has been placed somewhere, and the same entry can appear in
+several places without duplication.
+
+That is the property to protect when changing anything here: **an assignment is
+a statement about a relationship, not a property of either side.**
+
+### Child records
+
+Alongside the entry chain, the ORM gathers each entry's child records —
+comments, images, links, quotes, tags, text bodies, event dates and the rest.
+Which types are gathered is per-domain configuration, because only some sites
+have comments and only some have images. See
+`etc/ggcms/<domain>/child_types/enabled.php` and the layer notes below.
+
 ## Layers, and where code belongs
 
 Four folders, four jobs, in strict order. The rule is one-directional:
