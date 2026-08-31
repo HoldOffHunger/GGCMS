@@ -257,6 +257,21 @@
 				'formatobject'=>$this,	# TODO: delete 'formatobject'
 				'format'=>$this,
 				
+				/*
+					HTML built its own args list including 'dictionary'; this
+					one did not, so every other format handed the script a null
+					dictionary.  RDF, XML, ATOM and RSS all render the HTML
+					templates before converting them, so a template calling
+					$this->dictionary fatalled on any non-HTML request -- 899 of
+					them on wordweight alone.
+					
+					Fixed here rather than in each format, and rather than
+					guarding the template, which would only move the problem to
+					the next template that needs it.
+				*/
+				
+				'dictionary'=>$this->dictionary,
+				
 				'desiredscript'=>$this->desired_script,		# TODO: delete everything from this line down in this array
 				'desiredaction'=>$this->desired_action,
 				'objectcode'=>$this->object_code,
