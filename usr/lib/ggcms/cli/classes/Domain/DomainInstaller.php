@@ -222,15 +222,6 @@
 			
 			print("Building Apache Config file `" . $file_location . "`.\n\n");
 			
-				/*
-					vhost_combined rather than combined.  Every site here shares
-					one DocumentRoot, one engine and one access log, so a log
-					line that does not name its own site cannot be attributed to
-					one at all -- and %v:%p, which vhost_combined puts first, is
-					the only thing that names it.  A new domain installed with
-					`combined` is invisible to every log tool in cli/.
-				*/
-
 			$apache_conf =
 				'<VirtualHost *:80>' . "\n" .
 				"\t" . 'ServerAdmin holdoffhunger@gmail.com' . "\n" .
@@ -238,7 +229,7 @@
 				"\t" . 'ServerAlias www.' . $this->domain . "\n" .
 				"\t" . 'DocumentRoot /var/www/html' . "\n" .
 				"\t" . 'ErrorLog ${APACHE_LOG_DIR}/error.log' . "\n" .
-				"\t" . 'CustomLog ${APACHE_LOG_DIR}/access.log vhost_combined' . "\n" .
+				"\t" . 'CustomLog ${APACHE_LOG_DIR}/access.log combined' . "\n" .
 				'</VirtualHost>';
 			
 			file_put_contents($file_location, $apache_conf, LOCK_EX);
