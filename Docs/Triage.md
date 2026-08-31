@@ -198,18 +198,43 @@ them on the way in is correct and is what the class is for, but the source is
 in link construction, not routing. Find what appends `?mobilefriendly=1`
 without checking whether a query string already exists.
 
-### `fwrite()` on a non-resource
+### `fwrite()` on a non-resource — cause fixed, guard still wanted
 
 ```
 Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource
 ```
 
-Steady, low volume — 8 in a ten-minute window on revoltlib. Something opens a
-file for logging, the open fails, and the failure is not checked before
-writing. Likely candidates are the per-domain statistics logs under
-`/var/log/ggcms/<domain>/stats/` written by `UserTracking`, or file-based error
-logging. Check directory ownership first; deploys `chown -R www-data`, and log
-rotation may recreate files with different ownership.
+**Cause, and it was self-inflicted on 30 August 2026.** The document formats
+cache their output under `GGCMS_DIR . 'data/<format>/<host>/'`, which is
+`/usr/lib/ggcms/src/data/`. That directory is not in the repository, and
+`bin/deploy.sh` ran `rsync --delete` against `/usr/lib/ggcms/`. The first deploy
+removed it, and every RTF, TEX, SGML, OPDS, PDF and EPub request afterwards
+failed on `fopen()` returning false.
+
+Timestamps confirm it: zero such errors before 19:29 that evening, 226 on
+revoltlib after. `deploy.sh` now excludes `src/data/` from `--delete` and
+recreates it, so this is self-healing on the next deploy.
+
+**Still open: none of the format classes check `fopen`.**
+
+```
+CSV.php  EPub.php  PDF.php  RTF.php  SGML.php  TEX.php
+```
+
+Eight `fwrite` calls between them, zero guarded — the pattern is always
+
+```php
+$file_handle = fopen($location, 'w+');
+fwrite($file_handle, $output);
+fclose($file_handle);
+```
+
+The right shape is a single `WriteGeneratedFile()` on `AbstractBaseFormat`,
+next to `SetSourceFileLocation()` and `SetOutputFileLocation()` which already
+live there, checking the handle and returning FALSE rather than throwing. Six
+files change; do it in one pass rather than per-format, and do it where someone
+can watch — this is the same "fix it once in the shared place" case as the
+`dictionary` args bug.
 
 ### Subdomains via inverted assignment (unbuilt, wanted)
 

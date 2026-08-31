@@ -46,8 +46,15 @@ echo "==> engine    -> /usr/lib/ggcms/"
 
 		#  --delete here is deliberate: /usr/lib/ggcms is pure code, and a
 		#  file removed from the repository must disappear from the host.
+		#
+		#  Except that it is not quite pure code.  src/data/ holds generated
+		#  documents -- the RTF, TEX, SGML, OPDS and PDF renderings the format
+		#  classes cache to disk -- and it is not in the repository.  The first
+		#  deploy of this script deleted it, and every document-format request
+		#  afterwards failed on fopen() returning false.  Excluded, and
+		#  recreated below in case it is missing.
 
-rsync -a --delete "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
+rsync -a --delete --exclude 'src/data/' "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
 
 echo "==> config    -> /etc/ggcms/"
 
@@ -65,6 +72,12 @@ echo "==> docroot   -> /var/www/html/"
 rsync -a "$REPO/var/www/html/" /var/www/html/
 cp -a "$REPO/var/www/ggcms_install_directories.php" /var/www/
 cp -a "$REPO/var/www/ggcms_cli_directories.php" /var/www/
+
+		#  Generated-document cache.  Created if absent; never deleted.
+
+echo "==> generated document cache"
+mkdir -p /usr/lib/ggcms/src/data
+chown www-data /usr/lib/ggcms/src/data
 
 		#  git does not preserve an execute bit that was never committed,
 		#  and without one even root cannot run these.
