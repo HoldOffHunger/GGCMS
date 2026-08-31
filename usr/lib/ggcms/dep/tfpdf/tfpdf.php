@@ -76,7 +76,12 @@ var $PDFVersion;         // PDF version number
 *                               Public methods                                 *
 *                                                                              *
 *******************************************************************************/
-function tFPDF($orientation='P', $unit='mm', $size='A4')
+//  Was function tFPDF(), a PHP 4 style constructor.  PHP 7 deprecated those and
+//  PHP 8 stopped calling them at all, so every property initialised below was
+//  left unset on a live object.  The sibling fpdf copy already carries this
+//  same rename.
+
+function __construct($orientation='P', $unit='mm', $size='A4')
 {
 	// Some checks
 	$this->_dochecks();

@@ -90,8 +90,15 @@
 			} else {
 				$format = $this->getDefaultFormat();
 			}
-	#		parent::__construct($orientation, $unit, $format);
-			
+				//  Commented out while the parent still had a PHP 4 constructor,
+				//  when parent::__construct() did not exist to be called.  It
+				//  does now, and without it every property the parent sets --
+				//  fontpath, the scale factor, the core font list -- stayed
+				//  unset, which is what made AddFont() require a font file from
+				//  a path with no directory in front of it.
+
+			parent::__construct($orientation, $unit, $format);
+
 			return TRUE;
 		}
 		
