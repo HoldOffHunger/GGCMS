@@ -168,7 +168,7 @@
 		print('<div class="horizontal-center width-95percent">');
 		print('<div id="' . $child['Code'] . '_backgroundimageurl" class="border-2px background-color-gray15 margin-5px float-left width-100percent active-background-image" style="');
 		
-		$image_count = count($child['image']);
+		$image_count = ($child['image'] ? count($child['image']) : 0);
 		if($image_count > 1)
 		{
 			print('background-image:url(\'');
@@ -195,7 +195,7 @@
 				$random_images_rebuilt[] = $image_randomized;
 			}
 			
-			$random_images_rebuilt_count = count($random_images_rebuilt);
+			$random_images_rebuilt_count = ($random_images_rebuilt ? count($random_images_rebuilt) : 0);
 			
 			for($j = 0; $j < $random_images_rebuilt_count; $j++)
 			{
@@ -333,7 +333,7 @@
 		
 		if($grandchildren)
 		{
-			$grandchildren_count = count($grandchildren);
+			$grandchildren_count = ($grandchildren ? count($grandchildren) : 0);
 			
 			if($grandchildren_count)
 			{
@@ -349,7 +349,7 @@
 					if($grandchild['image'])
 					{
 						$grandchild_images = $grandchild['image'];
-						$grandchild_image_count = count($grandchild_images);
+						$grandchild_image_count = ($grandchild_images ? count($grandchild_images) : 0);
 						if($grandchild_image_count)
 						{
 							shuffle($grandchild_images);
@@ -440,7 +440,7 @@
 					{
 						$text_bodies = $grandchild['textbody'];
 						
-						$text_body_count = count($text_bodies);
+						$text_body_count = ($text_bodies ? count($text_bodies) : 0);
 						if($text_body_count)
 						{
 							$first_textbody = $text_bodies[0];
@@ -469,7 +469,7 @@
 					
 					if($grandchild['eventdate'])
 					{
-						$grandchild_event_count = count($grandchild['eventdate']);
+						$grandchild_event_count = ($grandchild['eventdate'] ? count($grandchild['eventdate']) : 0);
 						for($k = 0; $k < $grandchild_event_count; $k++)
 						{
 							$grandchild_event = $grandchild['eventdate'][$k];
@@ -579,7 +579,7 @@
 						}
 						
 						$great_grandchildren = $grandchild['children'];
-						$great_grandchildren_count = count($great_grandchildren);
+						$great_grandchildren_count = ($great_grandchildren ? count($great_grandchildren) : 0);
 						
 						if($great_grandchildren_count)
 						{
@@ -610,7 +610,7 @@
 					if($grandchild['quote'])
 					{
 						$grandchild_quotes = $grandchild['quote'];
-						$grandchild_quotes_count = count($grandchild_quotes);
+						$grandchild_quotes_count = ($grandchild_quotes ? count($grandchild_quotes) : 0);
 						$max_limit = $grandchild_quotes_count;
 						if($max_limit > 3)
 						{
@@ -648,7 +648,7 @@
 						{
 							$text_bodies = $grandchild['textbody'];
 							
-							$text_body_count = count($text_bodies);
+							$text_body_count = ($text_bodies ? count($text_bodies) : 0);
 							if($text_body_count)
 							{
 								$text_display = $text_bodies[0]['FirstThousandCharacters'];
@@ -689,7 +689,7 @@
 							$great_grand_children = $grandchild['children'];
 							if($great_grand_children && is_array($great_grand_children))
 							{
-								$great_grand_children_count = count($great_grand_children);
+								$great_grand_children_count = ($great_grand_children ? count($great_grand_children) : 0);
 								
 								if($great_grand_children_count)
 								{
@@ -737,7 +737,7 @@
 					
 					if($grandchild['tag'])
 					{
-						$tag_count = count($grandchild['tag']);
+						$tag_count = ($grandchild['tag'] ? count($grandchild['tag']) : 0);
 						
 						if($tag_count)
 						{

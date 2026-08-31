@@ -1658,13 +1658,31 @@
 				'orderby'=>'RAND()',
 			];
 			$likes_random = $this->handler->db_access->GetRecords($get_record_where);
-				print("<!-- BT:\n\n");
-				
-				print_r($likes_random);
-				
-				print("-->");
-			
+			#	print("<!-- BT:\n\n");
+			#	print_r($likes_random);
+			#	print("-->");
+
+				/*
+					Commented out rather than deleted, per CodeConventions.md --
+					but it was live, printing a print_r of every random Like
+					into the HTML of every page that reached here.
+
+					GetRecords does not always return a list.  When it returns a
+					string, the loop below indexes a string with 'Entryid' and
+					PHP 8 raises "cannot access offset of type string on
+					string", which is fatal.  A row that is not an array is not
+					a row.
+				*/
+
+			if(!is_array($likes_random)) {
+				$likes_random = [];
+			}
+
 			foreach($likes_random as $likes_random_key => $random_like) {
+				if(!is_array($random_like)) {
+					continue;
+				}
+
 				$likes_counts = $this->GetEntryLikesDislikesCount(['entry'=>['id'=>$random_like['Entryid']]]);
 				$random_like['counts'] = $likes_counts;
 				$likes_random[$likes_random_key] = $random_like;
