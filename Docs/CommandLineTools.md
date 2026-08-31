@@ -125,35 +125,6 @@ error log sideways to discover thirteen sites in exactly that state.
 inside the tool, so adding a table to the schema does not require remembering
 that this file exists.
 
-### Page cache — `scripts/public/cache/`
-
-| Script | Does |
-|---|---|
-| `warm_cache.php` | Requests the most-asked-for pages so the cache is built before a reader waits for it |
-
-```bash
-warm_cache.php --domain=revoltlib.com              # top 50 uncached pages
-warm_cache.php --domain=revoltlib.com --limit=200  # more of them
-warm_cache.php --domain=revoltlib.com --quiet      # totals only, for cron
-```
-
-It reads the **access log** rather than the sitemap. A sitemap is every URL
-that exists, tens of thousands of them, in an order that means nothing; the log
-is what people asked for, and asking twice is the only evidence a page matters.
-Already-cached URLs are skipped unless `--force`. Requests go to `127.0.0.1`
-with the `Host` header set, so warming costs no TLS handshake and cannot be
-affected by DNS.
-
-`--domain` is optional once the vhosts log in `vhost_combined`, which names the
-site at the start of every line. Under the older `combined` format a line
-cannot be attributed to a site at all, and `--domain` is then required --
-without it the warmer has nothing to go on and says so. Both forms are handled,
-because a rotation straddling the change leaves both in one file. See
-[Operations.md](Operations.md) for the switch.
-
-The real prize is calling this from `deploy.sh` after the flush, so a deploy
-stops costing half an hour of eight-second pages.
-
 ### Errors and issues — `scripts/internal/errors/`, `scripts/internal/issues/`
 
 | Script | Does |

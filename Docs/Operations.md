@@ -177,43 +177,6 @@ uptime
 The first should print `403`. Load should fall over the following minutes.
 Reverse it with `a2disconf block-bots && systemctl reload apache2`.
 
-## The access log must name its site
-
-All seventeen vhosts share one `DocumentRoot`, one engine and **one access
-log**. They were logging in Apache's `combined` format, which records the
-client, the path and the status — and **not the site**. On a host where every
-site answers on the same document root, that makes a log line unattributable:
-`/feminism/` in the log could be any of seventeen domains, and the `Referer` is
-`"-"` on nearly every crawler request, so there is nothing to recover it from.
-
-The consequence is not theoretical. The cache warmer, asked to warm
-earthfluent, picked revoltlib's URLs — because the log could not tell it
-otherwise. Any per-site question asked of that file gets an answer built from
-every other site's traffic.
-
-Apache already defines the format that fixes it:
-
-```apache
-LogFormat "%v:%p %h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" vhost_combined
-```
-
-`%v:%p` puts the site and port first. To switch every existing vhost:
-
-```bash
-sed -i 's|access\.log combined|access.log vhost_combined|' /etc/apache2/sites-available/*.conf
-apache2ctl configtest && systemctl reload apache2
-tail -2 /var/log/apache2/access.log
-```
-
-The last line is the check: entries should now begin `revoltlib.com:443 …`.
-
-**Anything that parses this file must handle both forms**, because a rotation
-straddling the change leaves both in one file. `PageCacheWarmer` does. And
-`DomainInstaller` writes `vhost_combined` into new vhosts, so a site installed
-tomorrow is not invisible to the tools again.
-
-Rolling back is the same `sed` with the arguments reversed.
-
 ## Packages that quietly take a URL path
 
 Installed 2023-10-29, found 2026-08-31. For nearly three years, **every
@@ -299,9 +262,6 @@ they run. Install as root's crontab:
 # Schema drift, and child tables holding rows nothing is allowed to fetch
 0 6 * * 1   /usr/lib/ggcms/cli/scripts/public/sql/check_schema.php
 
-# Keep the busiest pages warm on the two heaviest sites
-30 4 * * *  /usr/lib/ggcms/cli/scripts/public/cache/warm_cache.php --domain=revoltlib.com --quiet
-40 4 * * *  /usr/lib/ggcms/cli/scripts/public/cache/warm_cache.php --domain=earthfluent.com --quiet
 ```
 
 Cron mails its output to root. `You have new mail` at login is a signal, not
