@@ -154,8 +154,17 @@
 					$robots_attribute_to_display = $robots_attribute_key .  ':';
 				}
 				
+					//  Disallow prints no key of its own, and separating nothing from
+					//  its value left a line holding a single space.  A whitespace
+					//  line reads as a record separator to a strict parser, which
+					//  would orphan every Disallow below it from its User-agent.
+
 				if($robots_attribute_value) {
-					$robots_attribute_to_display .= ' ' . $robots_attribute_value;
+					if($robots_attribute_to_display) {
+						$robots_attribute_to_display .= ' ';
+					}
+
+					$robots_attribute_to_display .= $robots_attribute_value;
 				}
 				
 				$robots_attributes_to_display[] = $robots_attribute_to_display;
@@ -508,7 +517,7 @@
 				$new_disallowed[] = 'Disallow: ' . $disallow_item;
 			}
 			
-			return "\n" . implode("\n", $new_disallowed) . "\n";
+			return implode("\n", $new_disallowed) . "\n";
 		}
 		
 		public function getDisallowedList() {
