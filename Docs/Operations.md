@@ -122,6 +122,49 @@ restarts; truncating returns it immediately.
 **Never** clear `/srv/ggcms/`. That is site content — uploaded images and
 per-site payload — and it is not in the code repository.
 
+## Packages that quietly take a URL path
+
+Installed 2023-10-29, found 2026-08-31. For nearly three years, **every
+JavaScript file on all seventeen sites returned 404** — tooltips, clickable
+rows, like/dislike and the audio controls were inert — and nothing in this
+codebase was at fault.
+
+The Debian package `javascript-common` ships an Apache configuration:
+
+```apache
+Alias /javascript /usr/share/javascript/
+```
+
+An `Alias` is resolved before `.htaccess`, before the front controller, before
+anything here gets a say. Every request for `/javascript/anything.js` was sent
+to Debian's own JavaScript tree, which does not contain these files, and
+Apache returned its own 404 without the CMS ever being started. The files were
+present, readable, and unreachable.
+
+It arrives as a dependency of `libjs-jquery` and `libjs-jquery-ui`, and its
+postinst runs `a2enconf`, so **it re-enables itself on every install and
+upgrade**. Disabling the conf alone is not durable.
+
+The durable form is three layers:
+
+```bash
+apt-get purge -y javascript-common
+dpkg-divert --local --rename --add /etc/apache2/conf-available/javascript-common.conf
+printf 'Package: javascript-common\nPin: release *\nPin-Priority: -1\n' > /etc/apt/preferences.d/no-javascript-common
+```
+
+The purge removes it, the divert claims the conf path so a forced reinstall
+cannot put the file back where Apache reads it, and the pin makes apt refuse
+the package outright — including as a dependency, which will look like a
+broken install one day and is the intended behaviour.
+
+The general lesson is worth more than the specific package. **A distribution
+package can claim a URL path on this host, and it will do so silently.** When
+static files that demonstrably exist return Apache's own 404 rather than the
+CMS's, read `/etc/apache2/conf-enabled/` before reading any code. Note that
+`grep -r` does not follow the symlinks in that directory; use `grep -rR` or
+read `conf-available/` directly, or the offending line will not appear.
+
 ## Certificates
 
 Certificates are issued by Let's Encrypt through certbot and last 90 days.

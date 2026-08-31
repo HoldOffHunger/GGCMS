@@ -33,6 +33,46 @@ $handler->HandleRequest();
 The consequence is that the URL is no longer a path. It is an argument. The
 handler is free to give it whatever meaning the CMS wants, and it does.
 
+## One engine, seventeen sites
+
+There is one copy of the engine. Seventeen domains run on it, and the only
+things that differ between them are **the database and the template files**.
+Nothing else. Every vhost on the host points at the same `DocumentRoot`, every
+request enters the same `index.php`, and every class, script, format and trait
+is shared by all of them.
+
+This is a deliberate design decision rather than an accident of hosting, and
+the reasoning is the author's:
+
+> The only thing that differs between websites is databases and template
+> files. Absolutely nothing else. This has a positive, knock-on effect. Does
+> website x need a ToS? Okay, cool, now everyone gets a ToS. It's supposed to
+> be a system where everything reinforces everything else. If each website is
+> a business or a non-profit site like revoltlib.com, then doing business
+> helps non-profit and doing non-profit helps business -- the code itself
+> makes the system synergistic automatically and irrevocably.
+
+The practical consequence for anyone writing code here: **a feature is never
+built for one site.** Terms of service, OPDS output, the language system, the
+page cache, the PDF renderer -- each was wanted by one domain and arrived at
+all seventeen the moment it existed. Work spent on the anarchist archive is
+work spent on the vocabulary tools, and the reverse. Short of a template, the
+engine has no way to say "only for this site", and that limitation is the
+point rather than a gap.
+
+The cost is the same sentence read backwards, and it belongs here because it
+is felt on the bad days: **the blast radius is also seventeen.** A fatal in
+shared code is not one site down. On 31 August 2026 one Debian package's
+Apache alias silently captured `/javascript/` for every domain at once, and a
+single PHP 8 removal inside a vendored PDF library ended PDF output everywhere
+simultaneously. Neither could have been a one-site problem, because there is
+no such thing here.
+
+That trade is accepted knowingly. Seventeen sites share every improvement, so
+they share every regression, and the defence is not isolation but the ordinary
+disciplines: measure before and after, keep the error log honest, and treat
+anything written in shared code as running on all of it.
+
 ## The URL is a walk through the entry graph
 
 `Handler::Construct_ObjectsAndScripts()` does the whole of routing in
