@@ -144,12 +144,12 @@ Already-cached URLs are skipped unless `--force`. Requests go to `127.0.0.1`
 with the `Host` header set, so warming costs no TLS handshake and cannot be
 affected by DNS.
 
-`--domain` is **required**, and the reason is worth fixing rather than working
-around: all seventeen vhosts write to one access log in Apache's `combined`
-format, which has no `%v` field, so a line cannot be attributed to a site.
-Apache already defines `vhost_combined` for exactly this. Switching the vhosts
-to it would let the warmer do every site in one pass, and would make every
-other log question on this host easier.
+`--domain` is optional once the vhosts log in `vhost_combined`, which names the
+site at the start of every line. Under the older `combined` format a line
+cannot be attributed to a site at all, and `--domain` is then required --
+without it the warmer has nothing to go on and says so. Both forms are handled,
+because a rotation straddling the change leaves both in one file. See
+[Operations.md](Operations.md) for the switch.
 
 The real prize is calling this from `deploy.sh` after the flush, so a deploy
 stops costing half an hour of eight-second pages.

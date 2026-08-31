@@ -33,19 +33,14 @@
 				return $this->printUsage();
 			}
 
-			if(!$this->arguments['domain']) {
-				print('warm_cache: --domain is required.  The access log cannot say which site a' . "\n");
-				print('request belongs to -- see the note above hostFromLine() for why, and for' . "\n");
-				print('the one-line Apache change that would lift this.' . "\n\n");
-				print('  warm_cache.php --domain=revoltlib.com' . "\n\n");
-
-				return FALSE;
-			}
-
 			$urls = $this->getURLs();
 
 			if(!$urls) {
-				print('No URLs to warm.  Is ' . $this->accessLogLocation() . ' readable, and does it have traffic in it?' . "\n");
+				print('No URLs to warm.' . "\n\n");
+				print('If ' . $this->accessLogLocation() . ' has traffic in it, the lines are probably' . "\n");
+				print('in Apache\'s `combined` format, which does not name the site a request was' . "\n");
+				print('for.  Either pass --domain=NAME, or switch the vhosts to `vhost_combined`' . "\n");
+				print('and every site can be warmed in one pass.  See Docs/Operations.md.' . "\n");
 
 				return FALSE;
 			}
@@ -91,7 +86,7 @@
 		public function printUsage() {
 			print("\n");
 			print('GGCMS - Page Cache Warmer' . "\n\n");
-			print('  warm_cache.php --domain=NAME [--limit=N] [--delay=SECONDS] [--force] [--quiet]' . "\n\n");
+			print('  warm_cache.php [--domain=NAME] [--limit=N] [--delay=SECONDS] [--force] [--quiet]' . "\n\n");
 			print('  Requests the most-asked-for pages so the cache is built before a reader waits' . "\n");
 			print('  for it.  Reads the access log to decide what "most-asked-for" means.' . "\n\n");
 			print('  --limit    how many URLs, most-requested first (default 50)' . "\n");
@@ -225,20 +220,30 @@
 		}
 
 			/*
-				All seventeen vhosts write to one access log in the `combined`
-				format, which has no %v field, and the Referer is "-" on almost
-				every crawler request.  A line therefore cannot be attributed to
-				a site at all, and guessing would warm one vhost's cache with
-				another's URLs -- entries that are written, never read, and take
-				disk.
+				A `vhost_combined` line names its own site, first thing:
 
-				So --domain is required rather than optional.  Apache already
-				defines a `vhost_combined` format that begins with %v:%p; switch
-				the vhosts to it and this restriction can be lifted, and every
-				other log question this host raises gets easier at the same time.
+				    revoltlib.com:443 44.213.68.60 - - [31/Aug/2026:19:47:26 ...
+
+				A `combined` line does not, and the Referer is "-" on nearly
+				every crawler request, so such a line cannot be attributed to a
+				site at all.  Both forms appear in the same file while a rotation
+				straddles the format change, so both are handled: the prefix when
+				it is there, --domain when it is not, and the line is skipped
+				rather than guessed at when neither can answer.
+
+				Guessing would warm one site's cache with another's URLs, which
+				writes entries that are never read and takes disk to do it.
 			*/
 
 		public function hostFromLine($args) {
+			$line = $args['line'];
+
+			$matches = [];
+
+			if(preg_match('/^([a-z0-9.-]+):\d+ /i', $line, $matches)) {
+				return strtolower(preg_replace('/^www\./i', '', $matches[1]));
+			}
+
 			return $this->arguments['domain'];
 		}
 
