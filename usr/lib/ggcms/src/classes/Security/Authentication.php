@@ -30,8 +30,8 @@
 					if($this->protocol === 'ssl') {
 						if($this->script->script->RequiresLogin()) {
 							if ($this->user_session) {
-								if($this->script->script->AdminOnly() && $this->user_session['UserAdmin.id']) {
-									if($this->CheckAuthenticationForCurrentObject()) {
+								if($this->script->script->AdminOnly()) {
+									if($this->CheckAuthenticationForCurrentObject_IsAdmin()) {
 										$this->access_granted = 1;
 									} else {
 										$this->redirect = 1;
@@ -39,7 +39,7 @@
 										$this->access_granted = 0;
 									}
 								} else {
-								$this->access_granted = 1;
+									$this->access_granted = 1;
 								}
 								//IF (USER IS AUTHENTICATED FOR OBJECT)
 								//{
