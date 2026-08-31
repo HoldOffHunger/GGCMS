@@ -89,6 +89,20 @@
 				$sqlbindstring .= 's';
 				$bindings[] = $page;
 			}
+
+				/*
+					perpage was being passed in and never reaching the SQL, so a
+					single request built every URL a site has -- 11,617 of them on
+					revoltlib, 50 MB in one page, which is what the kill switch in
+					sitemap.php exists to prevent.
+
+					Cast rather than bound: LIMIT will not take a bound string, and
+					an int cast cannot carry anything but a number into the query.
+				*/
+
+			if($args['perpage']) {
+				$sql .= 'LIMIT ' . (int) $args['perpage'] . ' ';
+			}
 			
 			$fill_arrays_from_db_args = [
 				'query'=>$sql,

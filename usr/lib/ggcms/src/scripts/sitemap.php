@@ -124,7 +124,7 @@
 			$sitemap = $args['sitemap'];
 			
 			ini_set('memory_limit','200M');
-			$entry_codes = $this->ormsitemap->GetEntrySiteMapCodes(['page'=>$this->page]);
+			$entry_codes = $this->ormsitemap->GetEntrySiteMapCodes(['page'=>$this->page, 'perpage'=>$this->MaxToLimitSitemapPages()]);
 			
 			$entry_code_count = count($entry_codes);
 			
