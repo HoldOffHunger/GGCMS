@@ -67,8 +67,20 @@
 			// Start/Stop the DB
 			// -------------------------------------------------
 		
+		/*
+			property_exists() asked whether the PROPERTY exists, and in PHP a
+			property that has ever been assigned exists forever -- including
+			when it holds a connection that has since been closed.  So after any
+			close this never reconnected, and the next prepare() ran against a
+			dead link.  That was the "mysqli object is already closed" family,
+			398 of them.
+
+			Ask about the link itself instead.  DBEnd clears it, so a closed
+			connection reads as absent and is reopened on demand.
+		*/
+
 		public function DBStartConditional() {
-			if(!property_exists($this, 'db_link')) {
+			if(!($this->db_link instanceof mysqli)) {
 				$this->DBStart();
 			}
 			
@@ -153,10 +165,39 @@
 			];
 		}
 		
-		public function DBEnd() {
-			if(!$this->db_link->connect_error) {
-				mysqli_close($this->db_link);
+		/*
+			The ONLY place in the codebase that closes a MySQL connection.
+			Everything else asks this, so the null-checking and the
+			already-closed handling live in one place rather than being
+			re-derived, differently, at each call site.
+
+			The previous guard tested $this->db_link->connect_error, which
+			dereferences the link before establishing there is one.  When
+			DBStart threw and never assigned, that was mysqli_close(null) --
+			2,300,533 of them in one rotated log, thrown from __destruct, which
+			also masked whatever the original failure had been.
+		*/
+
+		public function CloseLink($args) {
+			$link = $args['link'];
+			
+			if(!($link instanceof mysqli)) {
+				return FALSE;
 			}
+			
+			try {
+				mysqli_close($link);
+			} catch (Error $error) {
+				return FALSE;		# already closed by someone else
+			}
+			
+			return TRUE;
+		}
+
+		public function DBEnd() {
+			$this->CloseLink(['link'=>$this->db_link]);
+			
+			$this->db_link = NULL;		# so DBStartConditional reopens on demand
 			
 			return TRUE;
 		}

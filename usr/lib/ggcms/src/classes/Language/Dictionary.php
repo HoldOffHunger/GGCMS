@@ -412,10 +412,20 @@
 			];
 		}
 		
+		/*
+			Dictionary opens its own connection, so it must close it -- but the
+			closing itself belongs to DBAccess, which is the one place that
+			knows how to do it safely.
+
+			The previous guard tested connect_error before testing that the link
+			existed at all, so a dictionary whose DBStart had failed fatalled
+			here during destruction.
+		*/
+
 		public function DBEnd() {
-			if(!$this->db_link->connect_error && $this->db_link) {
-				return mysqli_close($this->db_link);
-			}
+			$this->handler->db_access->CloseLink(['link'=>$this->db_link]);
+			
+			$this->db_link = NULL;
 			
 			return TRUE;
 		}
