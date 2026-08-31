@@ -168,27 +168,21 @@ at the other end.
 silent and common failure, and it produces a link that looks correct in source
 view.
 
-**Do not call `encodeURIComponent()` or `encodeURI()` directly, and never call
-`escape()`.** None of them encode the RFC 3986 sub-delimiters `! ' ( ) *`. Use
-the MDN replacements:
+**In JavaScript, do not call `encodeURIComponent()` or `encodeURI()` directly,
+and never call `escape()`.** None of them encode the RFC 3986 sub-delimiters
+`! ' ( ) *`. Use the MDN replacements — `fixedEncodeURI()` for a whole URL,
+`fixedEncodeURIComponent()` for a piece of one.
 
-```javascript
-	function fixedEncodeURIComponent(str) {
-		return encodeURIComponent(str).replace(/[!'()*]/g, c =>
-			'%' + c.charCodeAt(0).toString(16).toUpperCase()
-		);
-	}
-```
+PHP's `urlencode()` and `rawurlencode()` do not have this defect and need no
+wrapper. That asymmetry matters here because `classes/API/SocialMedia.php` and
+`javascript/social-share-media.js` do the same job on the same sixteen
+parameters in the two different languages.
 
-`fixedEncodeURI()` leaves `+@?=:#;,$&` alone because those are URL operators;
-`fixedEncodeURIComponent()` encodes them. Use the first for a whole URL, the
-second for a piece of one.
-
-Why this matters beyond tidiness: encoding is the boundary where "this is an
-operator" and "this is someone's text" get separated. A character that survives
-encoding un-escaped is one the receiving system may act on rather than store,
-and a function that does that job incompletely is worse than no function,
-because it produces confidence.
+Full detail, including the mask-driven entity conversion, the `mb_` function
+table and the format-boundary rule, is in
+[../Docs/EncodingConventions.md](../Docs/EncodingConventions.md). Summarised
+here because it governs *where* a fix belongs: encode on the way out, for the
+grammar being written into, and never store pre-escaped content.
 
 `var/www/html/javascript/social-share-media.js` currently calls
 `encodeURIComponent()` directly sixteen times and `font-wars.js` once — noted
