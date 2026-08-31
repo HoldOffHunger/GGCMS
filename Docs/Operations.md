@@ -206,6 +206,10 @@ they run. Install as root's crontab:
 
 # Schema drift, and child tables holding rows nothing is allowed to fetch
 0 6 * * 1   /usr/lib/ggcms/cli/scripts/public/sql/check_schema.php
+
+# Keep the busiest pages warm on the two heaviest sites
+30 4 * * *  /usr/lib/ggcms/cli/scripts/public/cache/warm_cache.php --domain=revoltlib.com --quiet
+40 4 * * *  /usr/lib/ggcms/cli/scripts/public/cache/warm_cache.php --domain=earthfluent.com --quiet
 ```
 
 Cron mails its output to root. `You have new mail` at login is a signal, not
