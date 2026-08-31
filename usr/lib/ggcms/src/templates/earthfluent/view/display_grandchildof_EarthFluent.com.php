@@ -4080,7 +4080,7 @@
 			{
 				$youngest_old_sibling = $this->older_siblings[0];
 				$sibling_descriptions = $youngest_old_sibling['description'];
-				if(count($sibling_descriptions))
+				if($sibling_descriptions && count($sibling_descriptions))
 				{
 					$first_sibling_description = $sibling_descriptions[0];
 					$next_sibling_mouseover_text = str_replace('"', '&quot;', $first_sibling_description['Description']);
@@ -4187,7 +4187,7 @@
 					print($older_sibling['Title']);
 					
 					$older_sibling_descriptions = $older_sibling['description'];
-					$older_sibling_description_count = count($older_sibling_descriptions);
+					$older_sibling_description_count = $older_sibling_descriptions ? count($older_sibling_descriptions) : 0;
 					
 					if($older_sibling_description_count && $older_sibling_descriptions[0]['Description'])
 					{
