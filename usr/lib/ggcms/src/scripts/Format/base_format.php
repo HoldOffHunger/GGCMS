@@ -388,7 +388,51 @@
 		
 		public function CleanseWhiteSpace($text) {
 			return trim($text);
+		}
+
+			// Document Title
+			// -----------------------------------------------
+
+		/*
+			Every format's basicscript extends this class, but only HTML's
+			defined a title method -- so a template calling it under any other
+			format hit "Call to undefined method view::GetHTMLFormatData_Title()".
+
+			The three anarchistcode templates and the three default ones that
+			call it are gated to run for pdf, tex, rtf, csv, opds and rdf --
+			precisely the formats where HTML's version is not loaded.
+
+			This is a deliberately small fallback rather than a copy of HTML's
+			implementation, which carries language-translation branches and
+			dependencies that do not belong in the shared base.  HTML continues
+			to override it; the other sixteen formats now get a title instead of
+			a fatal.
+		*/
+
+		public function GetHTMLFormatData_Title() {
+			$title_text = '';
+
+			$record = ($this->entry && $this->entry['id']) ? $this->entry : $this->master_record;
+
+			if(!$record) {
+				return $title_text;
+			}
+
+			if($record['Title']) {
+				$title_text .= $record['Title'];
+			}
+
+			if($record['Subtitle']) {
+				if(strlen($title_text) > 0) {
+					$title_text .= ' : ';
+				}
+
+				$title_text .= $record['Subtitle'];
+			}
+
+			return $this->header_title_text = $title_text;
 		}
+
 	}
 	
 ?>
