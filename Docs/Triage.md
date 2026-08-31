@@ -317,6 +317,37 @@ Check every filesystem and Imagick result, delete temporary/partial output on
 failure, and serve media with an explicit allowlisted content type plus
 `nosniff`. Add multi-file tests so every index is validated.
 
+### Image cleanup prepends `../` to an already absolute data path
+
+`SimpleImages::GetImageFolderDirectory()` returns an absolute path rooted at
+`GGCMS_DATA_DIR`, which is defined as `/srv/ggcms/`. Normal image upload,
+resize, rename and direct removal use that value as-is. The child-record cleanup
+path instead builds each filename as:
+
+```php
+'../' . $this->GetImageFolderDirectory() . ...
+```
+
+On Linux that produces a relative path such as
+`..//srv/ggcms/example.com/www/image/...`, not the intended
+`/srv/ggcms/example.com/www/image/...`. When an image child is removed during
+update or deletion, its database row can disappear while the original, icon and
+standard files remain orphaned. The three `unlink()` results are ignored, so
+suppressed warnings do not prevent the surrounding operation from reporting
+success.
+
+The admin maintenance action `dbstatus::KillDisconnectedImages()` prepends the
+same `../` to the same absolute base. It therefore usually fails its initial
+`is_dir()` test and cannot discover the files orphaned by the first bug.
+
+Use the canonical absolute directory directly in both paths. Centralize image
+path construction and require every resolved target to remain beneath the
+expected domain image root before deleting it. Treat failed required file
+operations as an ISI/ISE-worthy command failure or queue them for explicit retry
+rather than silently claiming cleanup. Test deletion and orphan scanning from
+the actual web working directory with nested hash directories, missing files and
+permission failures.
+
 ### GET overrides false-valued POST parameters
 
 `Query::Construct_Parameters()` deliberately loads POST data before GET data,
@@ -398,6 +429,70 @@ and cover first login and returning login separately. Also assert that first
 login creates exactly one user and one usable `UserSession`, since merely seeing
 the `newuser` response flag does not prove authentication succeeded.
 
+### Entry save and delete are non-atomic and can report partial work as success
+
+A single `modify::Save()` is an aggregate operation over `Entry`, translations,
+descriptions, quotes, text bodies, images, tags, links, dates, associations,
+assignment, permissions and definitions. `SaveRecordFromQueryForAll()` executes
+those writes independently and continues after any one returns false. There is
+no transaction or compensating rollback, so a request can leave a partially
+saved aggregate. In particular, a new `Entry` can be committed while its
+`Assignment` fails, leaving content without the placement that makes it
+reachable through GGCMS's virtual hierarchy.
+
+Update and delete have the same boundary problem. Updates write replacement
+records before deleting removed children. `Delete()` deletes every child family
+first, calls `DeleteEntry()` afterward, ignores that return value, and announces
+"Delete successful" whenever `DeleteChildRecordsForUpdate()` returns true.
+That wrapper initializes its result to true and never changes it; it only
+detects the error-array shape produced by prepare or bind failures. Combined
+with the unchecked `execute()` path below, failed child or entry deletes can be
+reported as success, while a late failure can leave earlier deletions committed.
+
+Treat one content save, update or delete as a database unit of work: begin a
+transaction before the first dependent mutation, stop at the first failure,
+roll back relational changes, and commit only after every required row operation
+succeeds. Check the entry deletion result explicitly and derive the user-facing
+status from the committed outcome, not from entering the delete loop.
+
+Image files need a coordinated but separate strategy because filesystem changes
+cannot participate in a MySQL transaction. Stage new files under temporary names
+and publish them after commit; defer removals until commit and retain enough
+information for retry or cleanup. Test injected failure at every write stage,
+especially after entry creation, before assignment, during child cleanup and
+during file rename/removal, and assert that no mixed old/new aggregate or false
+success remains.
+
+### SQL execution failures are silently returned as ordinary empty results
+
+`DBAccess::FillArraysFromDB()` checks whether `prepare()` and `bind_param()`
+succeed, but ignores the boolean result of `$statement->execute()`. It then
+calls `get_result()`; for `INSERT`, `UPDATE` and `DELETE`, a false result set
+is normal even when execution succeeded, so the method returns `[]` for both a
+successful write and a failed one. `DBAccessUpgraded` records the attempted
+query and delegates to this same implementation.
+
+Constraint violations, deadlocks, lock timeouts, dropped connections and other
+execute-stage failures can therefore disappear without an ISE. Callers may
+continue dependent work, return success, or perform a follow-up read against
+state that was never written. `CreateRecord()` compounds the ambiguity by
+returning the empty query result when no insert id is available; `DeleteRecords()`
+returns it directly.
+
+Check `execute()` explicitly and treat false as a command failure distinct from
+a successful write with no result set. Record statement errno, SQLSTATE and
+message, operation type, query shape and safe parameter metadata; do not persist
+credentials or sensitive values. Return a failure shape that cannot be mistaken
+for rows, and update mutation callers to stop dependent work and report success
+only after the write succeeds.
+
+Ordinary ISE persistence also uses `CreateRecord()`, so reporting an execute
+failure through that same unchecked path can recurse when the ISE insert fails.
+Use a recursion guard and durable non-database fallback for failures that cannot
+be stored in `InternalServerIssue`, then recover them later. Test duplicate-key
+and foreign-key violations, deadlocks or lock timeouts, connection loss, failed
+ISE insertion, and successful SELECT and mutation statements separately.
+
 ### 2.3 million `mysqli_close()` fatals
 
 ```
@@ -456,6 +551,69 @@ reservations are absent or malformed.
 Fix the local wiring without changing the one-assignment transfer model, and
 verify both a successful move and a same-code conflict before closing this.
 
+### The base schema is `utf8mb3`, which Installation.md forbids
+
+Found 31 August 2026 while writing [Database.md](Database.md).
+
+[Installation.md](Installation.md) is unambiguous:
+
+```sql
+CREATE DATABASE <name> CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+```
+
+> `utf8mb4` is required, not preferred. The engine stores content in many
+> scripts, and `utf8` (three-byte) will corrupt it.
+
+Three lines later it names `cli/sql/clonefrom.sql` as the base schema for a new
+site. **Every one of the 32 tables in that file ends `DEFAULT
+CHARSET=utf8mb3`.**
+
+```bash
+grep -c "CHARSET=utf8mb3" usr/lib/ggcms/cli/sql/clonefrom.sql   # 32
+grep -c "CHARSET=utf8mb4" usr/lib/ggcms/cli/sql/clonefrom.sql   # 0
+```
+
+A database created correctly as `utf8mb4` therefore gets 32 three-byte tables
+cloned into it, and the table setting is the one that governs storage. The doc
+is right and the schema is the bug.
+
+What three-byte UTF-8 cannot hold: anything outside the Basic Multilingual
+Plane — emoji, the CJK extension blocks, historic and liturgical scripts,
+mathematical alphanumerics. For a CMS with `EntryTranslation`,
+`ImageTranslation` and a `Language` column on ten tables, that is a live
+content-corruption path rather than a theoretical one. MySQL truncates at the
+first four-byte character or errors, depending on mode — and the session mode
+this engine sets has `STRICT_TRANS_TABLES` off, which selects **truncate**.
+
+Compounding it: `DBAccess.php:184` has the connection charset commented out.
+
+```php
+	#	$this->db_link->set_charset("utf8");
+```
+
+So the client connection charset is whatever the server default happens to be,
+and is neither declared nor verified. A mismatch between connection and column
+charset is the classic mojibake generator, and it would be invisible here
+because `index.php` sets `error_reporting(0)`.
+
+Before changing anything, measure what is actually stored — the live databases
+may or may not match the file:
+
+```sql
+SELECT TABLE_NAME, TABLE_COLLATION FROM information_schema.tables
+WHERE TABLE_SCHEMA = '<database>';
+```
+
+The conversion itself is `ALTER TABLE … CONVERT TO CHARACTER SET utf8mb4
+COLLATE utf8mb4_0900_ai_ci` per table, which rewrites the table and needs the
+index-length check first: `utf8mb4` costs a byte per character, and an index on
+a `varchar(255)` moves from 765 to 1,020 bytes, which still fits InnoDB's 1,536
+on an 8 KB page but not the 768 of a 4 KB page. Check the page size before
+running it anywhere.
+
+`utf8mb3` is deprecated in MySQL 8.0 and slated for removal, so this has a
+deadline attached whether or not the corruption is hit first.
+
 ### earthfluent.com
 
 Two faults, possibly one cause. Its certificate is still expired (the renewal
@@ -470,6 +628,28 @@ a sibling of the `$abstractglobals` bug fixed on revoltlib.
 `Handler::SecureRedirect()` builds `'https://' . $_SERVER['HTTP_HOST'] . …`.
 `HTTP_HOST` is client-supplied. That is an open-redirect vector, independent of
 the loop that was fixed. Deliberately not bundled into that fix.
+
+### Share URLs are built with bare `encodeURIComponent()`
+
+Noted 31 August 2026. `var/www/html/javascript/social-share-media.js:131–146`
+encodes sixteen parameters in a row with `encodeURIComponent()` directly;
+`font-wars.js:327` does the same for a cookie value.
+
+`encodeURIComponent()` does not encode the RFC 3986 sub-delimiters `! ' ( ) *`,
+so those characters pass through into the receiving service's query string
+unescaped. See the convention in
+[../Development/Conventions.md](../Development/Conventions.md).
+
+**Contained, not urgent.** These are outbound share links, built client-side
+from our own titles and URLs, so there is no injection path into this system
+and the usual consequence is a share preview with a stray character. The one
+place worth a closer look is the `emailaddress` / `ccemailaddress` /
+`bccemailaddress` triple, which feed `mailto:` URLs, where parentheses and
+apostrophes are legal in a local part and are also `mailto:` grammar.
+
+The fix is mechanical — a `fixedEncodeURIComponent()` helper at the top of the
+file and a find-and-replace — but it touches every share service at once, so it
+wants testing against a few live previews rather than being done blind.
 
 ### `AbstractGlobals` cannot load a domain override
 
@@ -591,6 +771,246 @@ live there, checking the handle and returning FALSE rather than throwing. Six
 files change; do it in one pass rather than per-format, and do it where someone
 can watch — this is the same "fix it once in the shared place" case as the
 `dictionary` args bug.
+
+### CSV export allows spreadsheet formulas and collapses nested values to `Array`
+
+`CSV::GenerateCSV()` correctly delegates delimiter and quote handling to
+`fputcsv()`, but it passes authored field values through unchanged. A value
+beginning with `=`, `+`, `-` or `@` can be interpreted as a formula when
+the downloaded CSV is opened in common spreadsheet software. CSV quoting does
+not neutralize formula interpretation, so content authored or submitted through
+the CMS can cross from data into spreadsheet instructions.
+
+The generic flattener also assumes every child field is scalar. Some GGCMS child
+records contain nested arrays, such as association records carrying an attached
+entry. Those arrays are passed as CSV fields; PHP reports an array-to-string
+conversion and the export contains the literal value `Array`, losing the nested
+data while error display remains suppressed.
+
+Define whether CSV is a faithful machine export, a spreadsheet-safe export, or
+offer both explicitly. For spreadsheet-safe output, prefix formula-leading cells
+with an apostrophe or another documented neutralization compatible with target
+consumers. Flatten nested structures deterministically (for example, explicit
+qualified columns or JSON within one cell) rather than relying on string
+coercion. Check every stream operation and test commas, quotes, newlines,
+formula-leading values, Unicode and nested association data in LibreOffice and
+Excel-compatible parsing.
+
+### OPDS, Atom and RSS feeds emit malformed or incomplete metadata
+
+OPDS opens one acquisition-image `<link>`, then opens the thumbnail `<link>`
+inside it, and closes neither before `</entry>`. Any record with an image
+therefore produces non-well-formed XML. Its thumbnail MIME lookup also computes
+`$image_icon_extension` from `$image_extension_pieces` instead of
+`$image_icon_extension_pieces`, so differing original/icon extensions receive
+the wrong type.
+
+Atom and RSS build the root title from `$entry['SubTitle']`, but the schema and
+the rest of GGCMS consistently name that field `Subtitle`; the subtitle is
+silently omitted. Both formats also dereference `entry['image'][0]`
+unconditionally. An entry without an image emits empty/broken logo, icon or RSS
+image metadata under suppressed notices. Atom additionally ignores the return
+from `RunScript()` and proceeds after action/record initialization fails,
+unlike RSS and the other format classes.
+
+The three feeds hand-concatenate other unescaped XML fields too: root and entry
+titles, authors, categories, image titles/descriptions, OPDS metadata and
+attribute values. Their cleanup helper escapes only entry-summary text, so it
+does not make the complete document safe.
+
+Generate feed XML through a namespace-aware writer, close or self-close every
+link, derive MIME type from the actual referenced filename, use the canonical
+`Subtitle` field, omit optional image elements when no image exists, and stop
+when `RunScript()` fails. Validate image/no-image and reserved-character
+fixtures with XML plus Atom/RSS/OPDS validators, including differing original
+and thumbnail extensions.
+
+### RDF child records are emitted with invalid qualified names and wrong fields
+
+`RDF::ConvertHTMLToFormat()` constructs child-record elements with names such
+as `<entry:tag:id>`, `<entry:text:Text>` and
+`<entry:link:Language>`. These contain two colons. XML qualified names allow
+one colon separating a namespace prefix from a local name, so every populated
+tag, image, description, quote, text, event or link family makes the document
+unparseable.
+
+The optional-record loop is malformed independently. For a field `x` it emits
+`<entry:x>`, then `<entry:x:value>`, then `<entry:x:/value>`, and finally
+`</entryx>`: invalid multi-colon names, a slash inside a start-tag name, and a
+closing tag that does not match its opener. Collections also alternate between
+RDF's case-sensitive `rdf:Bag` and lowercase `rdf:bag`, which names a
+different, non-container RDF term.
+
+Two copy/paste mappings lose data even after structural repair:
+`<entry:quote:Quote>` reads `$quote['Description']` instead of
+`$quote['Quote']`, and link `Language` reads `$link['URL']` instead of
+`$link['Language']`.
+
+Define a valid RDF vocabulary with one qualified name per property and represent
+nested record structure through resources/blank nodes rather than additional
+colons. Generate it with a namespace-aware XML/RDF library, map fields by their
+actual schema names, and validate the result with both an XML parser and an RDF
+parser. Test the entry alone, every child family separately, all families
+together, and each optional privacy/terms/user field.
+
+### Portable formats do not escape content for their destination grammars
+
+Several converters remove HTML markup but then insert content into a different
+language without escaping that language's control characters.
+
+* RTF decodes entities, strips remaining tags and wraps the result directly in
+  an RTF document. Literal backslashes and braces remain active RTF syntax, so
+  ordinary authored text can corrupt grouping or become control words.
+* TEX decodes entities and strips tags but does not escape
+  `# $ % & _ { } ~ ^ \`. Those characters can comment out content, break
+  grouping or introduce LaTeX commands. Title, author and description are also
+  interpolated directly into command arguments.
+* EPUB's OPF metadata and DAISY's metadata concatenate titles, creators,
+  subjects, descriptions, publishers and identifiers directly into XML.
+* RDF concatenates quotes, text bodies, sources and other record fields directly
+  into XML elements. An ampersand or angle bracket is enough to make the output
+  malformed or change its structure.
+
+This is context-specific output encoding, not generic input cleansing. Preserve
+the stored content and escape at the final serializer boundary: RTF text
+escaping for backslash/braces and Unicode, LaTeX text escaping for text nodes
+while emitting only converter-owned commands, and an XML writer/DOM API for
+element text and attributes. Do not repair this with one replacement table
+shared across formats; their grammars differ.
+
+Add fixtures containing every reserved character, non-ASCII text, literal
+markup-looking text and content that resembles RTF/LaTeX/XML commands. Parse the
+generated XML/EPUB/DAISY/RDF with conforming parsers, compile TEX in a restricted
+test environment, and open or structurally validate RTF. The recovered text must
+match the authored text without creating extra elements or commands.
+
+### Generated-format cache keys and writes are unsafe under concurrency
+
+The shared format cache identifies an artifact only by format, host and
+`Entry.id`:
+
+```text
+data/<format>/<host>/<entry-id>.<format>
+```
+
+The rendered document can also depend on the selected action, language and query
+parameters. For example, `users::exportuser()` selects a user from `user` or
+`userid`, and the terms/privacy scripts render language-specific text, while
+all variants for the same entry share one source sidecar and output file.
+Sequential requests repeatedly replace that slot. Concurrent requests can
+replace one another's output and return the wrong variant.
+
+The writers use the final shared filename directly: `fopen(..., 'w+')`
+truncates RTF, TEX and SGML artifacts in place; PDF writes directly through
+`Output()`; EPUB opens the final ZIP with `OVERWRITE`. There is no lock,
+request-unique temporary file or atomic rename. A reader can therefore observe a
+partial artifact while another request regenerates it. The output and rendered
+HTML sidecar are also written separately and their return values are not checked;
+a failed or partial output can be followed by a successful sidecar write, making
+the corrupt artifact appear current indefinitely.
+
+Define cache identity from every input that can change output, or explicitly
+disable generated-file caching for parameterized/user-selected actions. Generate
+the artifact and sidecar under request-unique temporary names, verify conversion
+and writes, then publish a coherent pair atomically under a per-key lock. Do not
+serve the old or new artifact until its corresponding sidecar is complete. Test
+two simultaneous regenerations with different users and languages, forced
+conversion failure, short writes and a reader arriving during regeneration.
+
+### TEX generation prints wrappers and caches boolean `1` values
+
+`TEX::ConvertHTMLToFormat()` assigns the results of `StartDocument()` and
+`EndDocument()` to its header and footer. Those shared methods print
+`DocumentStartSyntax()` or `DocumentEndSyntax()` directly to the HTTP response
+and return `TRUE`; they do not return the syntax. TEX consequently emits its
+wrapper before generation finishes and concatenates boolean true values around
+the converted body. PHP stringifies those values as `1`, so the cached
+`.tex` file contains `1<body>1` rather than a LaTeX preamble and
+`\end{document}`. The regeneration response is malformed differently again:
+it receives the prematurely printed preamble/footer followed by `readfile()` of
+that bad cache.
+
+Build the cached document with `DocumentStartSyntax()` and
+`DocumentEndSyntax()`, which return strings, and leave response emission to
+`Display()`. Add a test that regenerates and then re-requests the same TEX URL;
+both responses and the cached bytes must be identical, begin with
+`\documentclass` and end with `\end{document}`.
+
+### DAISY and EPUB generation never establish a valid freshness cache
+
+`DAISY::Display()` computes a source and output location, but regeneration only
+returns `ConvertHTMLToFormat()`'s in-memory string. It writes neither location.
+Its cached branch can therefore run only when an artifact was placed there by
+some external or historical mechanism; ordinary requests regenerate forever.
+
+EPUB does write its final ZIP, but the three lines that write the rendered HTML
+sidecar are commented out. `getLastScriptRun()` therefore remains empty (or
+stale), so non-empty content forces ZIP regeneration on every request. Every
+`ZipArchive::open()`, `addEmptyDir()`, `addFromString()` and `close()`
+result is ignored, and `Display()` reads the path regardless of conversion
+success.
+
+Both classes also interpolate `$daisy_filename` or `$epub_filename` into
+metadata and package member names, but neither property is assigned anywhere in
+the repository. Generated identifiers and EPUB XHTML filenames are consequently
+empty or incomplete.
+
+Either implement the shared artifact/sidecar contract for both formats or make
+their non-cached behavior explicit and remove the dead cache checks. Initialize
+a deterministic internal document filename, validate every ZIP operation, and
+return failure instead of reading a missing or stale artifact. Test cold and warm
+requests, changed content, unwritable output, invalid ZIP creation and package
+metadata/member names.
+
+### EPUB stylesheet fetch can become SSRF through a trusted forwarded-server header
+
+`EPub::SetCSSFile()` fetches the stylesheet over the network from
+`http://<primary-domain>/css/view/display.css`. The primary domain normally
+comes from `SERVER_NAME`, but `Domain::SetPrimaryDomain()` gives
+`HTTP_X_FORWARDED_SERVER` unconditional precedence and does not validate it.
+EPUB exports inherit the public format defaults, so no login or administrator
+check protects the fetch.
+
+Whether this is remotely exploitable depends on the web-server or reverse-proxy
+configuration: if a client-supplied `X-Forwarded-Server` value reaches PHP, an
+anonymous EPUB request can direct `file_get_contents()` to an attacker-chosen
+host, including an internal address. The fetched response is then embedded as
+`css/view.css` in the generated book. Even with a trusted proxy, the method
+forces plain HTTP and does not check for `FALSE`, so network failure produces
+an empty stylesheet and an on-path party can alter exported CSS.
+
+Do not fetch an application-owned static asset through HTTP. Resolve the
+stylesheet to a validated local filesystem path and fail the conversion when it
+cannot be read. Independently, accept forwarded host metadata only from a
+configured trusted proxy and validate it against the site's known domains. Test
+a normal export, missing stylesheet, hostile forwarded-server values, internal
+IP targets and a deployment where the proxy strips untrusted forwarding
+headers.
+
+### Public PeerBlock downloads race through two global temporary files
+
+`peerblocklist::display()` selects one of several fixed TinyURL endpoints, so
+the `list` parameter itself is not an arbitrary-URL SSRF. The conversion is
+nevertheless public by inherited defaults and every request operates on the
+same two paths: `data/my-zip.gz` and `data/altered-zip.gz`. Each request
+unlinks both paths, downloads into the first, decompresses it into memory,
+rewrites the second, and serves that shared second file.
+
+Two anonymous requests can therefore delete or replace one another's input or
+output. Requests for different lists can receive the wrong list; a reader can
+observe partial output; and an attacker can repeatedly force outbound downloads
+and gzip work. `unlink()`, `fopen()`, `file_put_contents()`, `gzopen()`,
+`gzread()`, `gzwrite()`, and `readfile()` failures are not checked, so a
+remote failure or unwritable data directory falls through into warnings,
+invalid-handle operations, and a misleading attachment response.
+
+Stream the fixed upstream into request-unique temporary files, validate the
+HTTP and gzip results, impose byte/time limits, publish or serve only completed
+output, and remove temporary files in a finally-style cleanup path. If this
+utility is operational rather than a public product feature, require an
+administrator session as well. Exercise simultaneous requests for different
+lists, unreachable and non-gzip upstream responses, oversized input, short
+writes and an unwritable temporary directory.
 
 ### Unguarded `count()` on child-record arrays in the format classes
 
