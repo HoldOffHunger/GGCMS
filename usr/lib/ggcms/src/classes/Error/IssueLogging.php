@@ -805,10 +805,38 @@
 			return FALSE;
 		}
 		
+			/*
+				A 404 can name a control script without there being one.
+				/nonsense/path/modify.php resolves to nothing, so the handler is on
+				the 404 path precisely because no script object was built -- and
+				dereferencing it there turned the 404 into a 500.  The issue logger
+				died deciding whether the issue was worth logging.
+
+				No script object means the user did not reach the script, which is
+				the same answer as being unable to access it, so this returns FALSE
+				and the request stays ignorable.  That keeps controlScripts()' stated
+				intent: not logged in, cannot get in, not worth logging.
+
+				areWeRedirectingToHTTPS() below already guards the same chain the
+				same way.
+			*/
+
+		public function CanUserAccessCurrentScript() {
+			if(!$this->handler->script) {
+				return FALSE;
+			}
+
+			if(!$this->handler->script->script) {
+				return FALSE;
+			}
+
+			return $this->handler->script->script->canUserAccess();
+		}
+
 		public function isScriptIgnorable() {
 			$control_scripts = $this->controlScriptsStructure();
 			
-			if($control_scripts[$this->handler->script_file] && !$this->handler->script->script->canUserAccess()) {
+			if($control_scripts[$this->handler->script_file] && !$this->CanUserAccessCurrentScript()) {
 				return TRUE;
 			}
 			
