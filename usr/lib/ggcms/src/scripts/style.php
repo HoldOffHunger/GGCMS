@@ -177,7 +177,7 @@
 				$class_definition_spacing = "\n";
 				foreach ($this->attributes_and_values as $definition) {
 					if(is_array($definition)) {
-						$definitions_to_display = $class_definition . implode($definitions_array, $class_definition_separator . $class_definition_spacing . $class_definition);
+						$definitions_to_display = $class_definition . implode($class_definition_separator . $class_definition_spacing . $class_definition, $definitions_array);
 						print($definitions_to_display);
 						
 						print(' {');

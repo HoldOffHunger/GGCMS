@@ -124,7 +124,7 @@
 			),
 			'list'=>[
 				[
-					'<nobr>Selected Tables:</nobr>', implode($this->SelectedMySQLTables, ', ') . '.',
+					'<nobr>Selected Tables:</nobr>', implode(', ', $this->SelectedMySQLTables) . '.',
 				],
 			],
 		);

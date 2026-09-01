@@ -111,14 +111,14 @@
 				'tableheaders'=>0,
 				'tableclass'=>'width-50percent horizontal-center border-2px background-color-gray13',
 				'rowclass'=>'border-1px horizontal-left',
-				'cellclass'=>]
+				'cellclass'=>[
 					'border-1px vertical-top',
 					'border-1px width-100percent vertical-top',
 				],
 			],
 			'list'=>[
 				[
-					'<nobr>Selected Tables:</nobr>', implode($this->SelectedMySQLTables, ', ') . '.',
+					'<nobr>Selected Tables:</nobr>', implode(', ', $this->SelectedMySQLTables) . '.',
 				],
 			],
 		];

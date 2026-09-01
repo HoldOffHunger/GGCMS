@@ -194,7 +194,7 @@
 			
 			$this->StatusDataArray = [];
 			$this->StatusDataArray[] = $this->NumberArrayOfStrings($get_files_args);
-			$this->StatusDataArray[] = [['<pre>' . implode($table_mysql_commands, "\n\n") . '</pre>']];
+			$this->StatusDataArray[] = [['<pre>' . implode("\n\n", $table_mysql_commands) . '</pre>']];
 			
 			return TRUE;
 		}
