@@ -196,6 +196,46 @@ requests reaching PHP, the row cache speeds up the ones that do.
 Note this is a tarball, not a git operation. Nothing on the production host
 talks to git; see [Deployment.md](Deployment.md).
 
+### Entries — `scripts/internal/entries/`
+
+| Script | Does |
+|---|---|
+| `apply_translation_review.php` | Applies reviewed translation corrections to `EntryTranslation` |
+
+The only tool here that writes content, and the only one that must never be
+scheduled. It changes what visitors read.
+
+```bash
+apply_translation_review.php earthfluent.com --lang=es --limit=20
+apply_translation_review.php earthfluent.com --lang=es --limit=20 --apply
+```
+
+**Dry by default.** Without `--apply` it prints the corrections it would make
+and touches nothing. Run it dry, read the list, then run it again.
+
+| Argument | Default | Does |
+|---|---|---|
+| *(first)* | asked for | The domain, as every tool here takes it |
+| `--lang=` | `es` | Which language file to read |
+| `--limit=` | `20` | How many records to attempt |
+| `--store=` | `Development/TranslationReview/<lang>.txt` | Where the review file is |
+| `--apply` | off | Actually write |
+
+`--store` exists because `Development/` is in the repository and not in the
+deployed tree — deployment copies `usr/`, `etc/` and `var/` to `/`, and the
+review files never travel. Point it at a checkout, or at a file you have copied
+across.
+
+Two things it refuses to do. A record whose `current` value no longer matches
+the live row is **skipped and reported**, never overwritten — that row was
+edited after it was reviewed, and the edit is newer evidence than the review.
+And a record already marked `shipped` is skipped, so running it twice is safe.
+
+After a successful `--apply` it marks those records `shipped` in the store, and
+flushes the page cache for the domain. It passes the domain to `FlushDomain()`
+explicitly, because the engine's own path reads `$_SERVER['HTTP_HOST']`, which
+does not exist in a shell — see [PageCache.md](PageCache.md).
+
 ## Notes for anyone adding a tool
 
 * Keep the entry point thin. Paths, requires, one instantiation, one call.
