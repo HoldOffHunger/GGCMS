@@ -4,6 +4,7 @@
 
 id: 44
 entryid: 68
+permalink: 68
 lang: es
 english: Turkey
 current: Turquía
@@ -18,6 +19,7 @@ status: proposed
 
 id: 45
 entryid: 70
+permalink: 70
 lang: es
 english: Manta Ray
 current: Rayo manta
@@ -31,6 +33,7 @@ status: proposed
 
 id: 17
 entryid: 35
+permalink: 35
 lang: es
 english: Fish
 current: Pescado
@@ -45,6 +48,7 @@ status: proposed
 
 id: 16
 entryid: 33
+permalink: 33
 lang: es
 english: Gerbil
 current: Gerbil
@@ -57,6 +61,7 @@ status: proposed
 
 id: 22
 entryid: 41
+permalink: 41
 lang: es
 english: Chipmunk
 current: Chipmunk
@@ -70,6 +75,7 @@ status: proposed
 
 id: 3
 entryid: 18
+permalink: 18
 lang: es
 english: Komodo Dragon
 current: Dragon de Komodo

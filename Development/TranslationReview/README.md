@@ -24,6 +24,7 @@ Target is no more than roughly 200 corrections per wave.
 |---|---|
 | `id` | `EntryTranslation.id` — the row to update |
 | `entryid` | `EntryTranslation.Entryid`, for cross-checking the source word |
+| `permalink` | `Assignment.id` — the identifier to quote and to link by |
 | `lang` | Language code, matching `EntryTranslation.Language` |
 | `english` | The English source title, for the reader of this file |
 | `current` | What the row holds now. Update only if this still matches |
@@ -32,6 +33,25 @@ Target is no more than roughly 200 corrections per wave.
 | `reason` | Why, in a sentence a non-linguist can follow |
 | `source` | A citation anyone can check |
 | `status` | `proposed`, or `shipped YYYY-MM-DD` |
+
+## Why the permalink and not the entry id
+
+An entry can hang under more than one parent, so it can be reached at more than
+one URL. The entry id says *which word*; it does not say which of those contexts
+you are looking at. `Assignment.id` does, which is why the permalink is the
+assignment rather than the entry, and why `?id=` takes one.
+
+`Handler::PermalinkRedirect()` resolves it: given the assignment, it rebuilds
+the full path and redirects there. So any record here can be opened with
+
+```
+https://www.earthfluent.com/?id=<permalink>
+```
+
+which is how a reviewer checks a word in place rather than in a text file.
+
+An entry with three parents has three assignments and three permalinks. Record
+the one whose context the correction was judged in.
 
 ## `kind` values
 
