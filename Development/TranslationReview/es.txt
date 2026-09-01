@@ -241,6 +241,7 @@ reason: Two faults at once. "Found" was read as the past tense of find rather
   than the verb to found, and then conjugated -- encontró is "he found".
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "fundar".
+displaced: encontró | 3sg preterite of encontrar
 status: proposed
 
 id: 1234
@@ -303,6 +304,7 @@ reason: Conjugated and carrying a pronoun -- me gusta is "I like it". A
   vocabulary list wants the infinitive.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "gustar".
+displaced: me gusta | 1sg present indicative of gustar, with pronoun
 status: proposed
 
 id: 1144
@@ -315,6 +317,7 @@ kind: wrong-form
 reason: Ven is the imperative, "come here". The list wants the infinitive.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "venir".
+displaced: ven | 2sg informal imperative of venir
 status: proposed
 
 id: 1169
@@ -327,6 +330,7 @@ kind: wrong-form
 reason: Formal imperative, and capitalised. Twice wrong for a vocabulary list.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "esperar".
+displaced: espere | 3sg formal imperative of esperar
 status: proposed
 
 id: 1177
@@ -339,4 +343,5 @@ kind: wrong-form
 reason: Third person present -- "it contains" -- and capitalised.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "contener".
+displaced: contiene | 3sg present indicative of contener
 status: proposed

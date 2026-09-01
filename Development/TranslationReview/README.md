@@ -32,6 +32,7 @@ Target is no more than roughly 200 corrections per wave.
 | `kind` | See below |
 | `reason` | Why, in a sentence a non-linguist can follow |
 | `source` | A citation anyone can check |
+| `displaced` | Optional. A real form the correction removes — see below |
 | `status` | `proposed`, or `shipped YYYY-MM-DD` |
 
 ## Why the permalink and not the entry id
@@ -63,6 +64,27 @@ the one whose context the correction was judged in.
 * `regional` — correct somewhere, wrong for the intended audience.
 * `wrong-form` — right verb, wrong grammatical form: an imperative or a
   conjugation where the list wants an infinitive.
+
+## `displaced` — keep what the correction throws away
+
+A `wrong-form` correction replaces one real Spanish word with another. `ven` is
+not wrong Spanish; it is the imperative of *venir*, correct in its own right and
+merely wrong for a list of infinitives.
+
+Discarding it loses something the site does not otherwise have. EarthFluent
+teaches infinitives and stops there, so every conjugated form Google handed over
+by accident is a form nobody has recorded anywhere else. If conjugation is ever
+taught, these are seed data rather than a blank table.
+
+Format is the form, a pipe, and what it actually is:
+
+```
+displaced: ven | 2sg informal imperative of venir
+```
+
+Only for corrections that remove a genuine form. A `wrong-word` fix throws away
+nothing worth keeping — `reloj` for *watch* is a wristwatch, not a verb form,
+and it goes in the bin.
 
 ## Sources
 
