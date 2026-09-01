@@ -61,6 +61,8 @@ the one whose context the correction was judged in.
 * `orthography` — accent, spelling or casing.
 * `register` — understood, but not what a speaker would say.
 * `regional` — correct somewhere, wrong for the intended audience.
+* `wrong-form` — right verb, wrong grammatical form: an imperative or a
+  conjugation where the list wants an infinitive.
 
 ## Sources
 

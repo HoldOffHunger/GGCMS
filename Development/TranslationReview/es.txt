@@ -190,3 +190,153 @@ reason: Passed through unchanged.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "poner".
 status: proposed
+
+# --- Wave 1 candidates, block 3: verbs 1134-1243 ---
+
+id: 1139
+permalink: 1163
+lang: es
+english: rip
+current: DEP
+proposed: rasgar
+kind: wrong-word
+reason: DEP is Descanse En Paz -- Rest In Peace. The English was read as the
+  acronym RIP rather than the verb.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "rasgar"; DEP is the standard Spanish funerary abbreviation.
+status: proposed
+
+id: 1171
+permalink: 1195
+lang: es
+english: watch
+current: reloj
+proposed: mirar
+kind: wrong-word
+reason: A reloj is the thing on your wrist. The verb is mirar, or ver.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "reloj" and s.v. "mirar".
+status: proposed
+
+id: 1210
+permalink: 1234
+lang: es
+english: display
+current: monitor
+proposed: mostrar
+kind: wrong-word
+reason: A monitor is the screen. The verb is mostrar, or exhibir.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "mostrar" and s.v. "monitor".
+status: proposed
+
+id: 1224
+permalink: 1248
+lang: es
+english: found
+current: encontró
+proposed: fundar
+kind: wrong-word
+reason: Two faults at once. "Found" was read as the past tense of find rather
+  than the verb to found, and then conjugated -- encontró is "he found".
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "fundar".
+status: proposed
+
+id: 1234
+permalink: 1258
+lang: es
+english: feel
+current: sensación
+proposed: sentir
+kind: wrong-word
+reason: A sensación is a sensation, the noun. The verb is sentir.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "sentir".
+status: proposed
+
+id: 1238
+permalink: 1262
+lang: es
+english: love
+current: amor
+proposed: amar
+kind: wrong-word
+reason: El amor is the noun. The verb is amar, or querer of a person.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "amar"
+  and s.v. "amor".
+status: proposed
+
+id: 1243
+permalink: 1267
+lang: es
+english: laugh
+current: risa
+proposed: reír
+kind: wrong-word
+reason: La risa is laughter. The verb is reír.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "reír"
+  and s.v. "risa".
+status: proposed
+
+id: 1205
+permalink: 1229
+lang: es
+english: approach
+current: enfoque
+proposed: acercarse
+kind: wrong-word
+reason: Un enfoque is an approach in the sense of a method. Approaching
+  something is acercarse.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "acercar" and s.v. "enfoque".
+status: proposed
+
+id: 1235
+permalink: 1259
+lang: es
+english: like
+current: me gusta
+proposed: gustar
+kind: wrong-form
+reason: Conjugated and carrying a pronoun -- me gusta is "I like it". A
+  vocabulary list wants the infinitive.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "gustar".
+status: proposed
+
+id: 1144
+permalink: 1168
+lang: es
+english: come
+current: ven
+proposed: venir
+kind: wrong-form
+reason: Ven is the imperative, "come here". The list wants the infinitive.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "venir".
+status: proposed
+
+id: 1169
+permalink: 1193
+lang: es
+english: wait
+current: Espere
+proposed: esperar
+kind: wrong-form
+reason: Formal imperative, and capitalised. Twice wrong for a vocabulary list.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "esperar".
+status: proposed
+
+id: 1177
+permalink: 1201
+lang: es
+english: contain
+current: Contiene
+proposed: contener
+kind: wrong-form
+reason: Third person present -- "it contains" -- and capitalised.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "contener".
+status: proposed
