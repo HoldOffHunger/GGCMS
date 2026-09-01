@@ -383,20 +383,44 @@
 				one; nothing needed changing but the calling.
 			*/
 
+			/*
+				Both hostnames, because the cache is keyed on HTTP_HOST verbatim
+				and both reach the site.  Every page is therefore stored twice,
+				under example.com and under www.example.com, and the cache tree
+				on this host has thirty-four directories for seventeen sites.
+
+				The engine's own flush clears one of them -- whichever hostname
+				the request that triggered it arrived on -- and leaves the other
+				serving whatever it held before the write.  Silently, and until
+				something else happens to clear it.
+			*/
+
 		public function flushPageCache() {
 			ggreq('classes/Cache/PageCache.php');
 
 			$page_cache = new PageCache(['handler'=>NULL]);
 
-			$flushed = $page_cache->FlushDomain(['domain'=>'www.' . $this->domain]);
+			$hosts = [
+				$this->domain,
+				'www.' . $this->domain,
+			];
 
-			if($flushed) {
-				print('Flushed the page cache for www.' . $this->domain . '.' . PHP_EOL . PHP_EOL);
-			} else {
-				print('NOTE: nothing was flushed for www.' . $this->domain . '.  If pages still show the old word, clear the cache by hand -- see Docs/PageCache.md.' . PHP_EOL . PHP_EOL);
+			$flushed_any = FALSE;
+
+			foreach($hosts as $host) {
+				if($page_cache->FlushDomain(['domain'=>$host])) {
+					print('Flushed the page cache for ' . $host . '.' . PHP_EOL);
+					$flushed_any = TRUE;
+				}
 			}
 
-			return $flushed;
+			if(!$flushed_any) {
+				print('NOTE: nothing was flushed for either hostname.  If pages still show the old word, clear the cache by hand -- see Docs/PageCache.md.' . PHP_EOL);
+			}
+
+			print(PHP_EOL);
+
+			return $flushed_any;
 		}
 	}
 

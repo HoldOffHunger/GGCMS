@@ -161,6 +161,30 @@ tracking would be more efficient and can be subtly wrong for years without
 anyone noticing. The content database changes rarely; a full flush costs one
 cold cache and cannot be wrong.
 
+### Both hostnames are cached, and a flush clears one
+
+The cache key is `HTTP_HOST` verbatim, and both `example.com` and
+`www.example.com` reach every site. So each page is stored **twice**, under two
+directory names — thirty-four directories for seventeen sites on the live host,
+measured 1 September 2026.
+
+`FlushDomain()` with no argument resolves the domain through `SafeHost()`, which
+reads `$_SERVER['HTTP_HOST']`. So a write arriving on `www.` clears the `www.`
+tree and leaves the bare-domain tree holding pages older than the write. Nothing
+clears it afterwards, because nothing knows it is stale.
+
+Anything flushing on purpose should do both:
+
+```bash
+rm -rf /mnt/nyc01/ggcms_cache/pages/example.com
+rm -rf /mnt/nyc01/ggcms_cache/pages/www.example.com
+```
+
+`cli/classes/Entries/TranslationWriter::flushPageCache()` does. The engine's own
+shutdown flush does not, and fixing that means passing a domain down through
+`MarkPageCacheDirty()` — or making one hostname redirect to the other so only
+one tree ever exists, which is the better answer and the larger change.
+
 ## Operating it
 
 ```bash
