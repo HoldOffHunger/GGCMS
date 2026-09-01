@@ -511,3 +511,170 @@ displaced: imagina | 2sg informal imperative of imaginar
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "imaginar".
 status: proposed
+
+# --- Wave 1 candidates, block 5: verbs 1354-1463 ---
+
+id: 1392
+permalink: 1416
+lang: es
+english: copy
+current: dupdo
+proposed: copiar
+kind: corrupt
+reason: Not a Spanish word, and not a word in any language. Something mangled
+  the output on the way in -- most likely duplicado losing its middle. The only
+  one of its kind so far, so worth watching for rather than assuming unique.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "copiar". "Dupdo" does not appear in the dictionary.
+status: proposed
+
+id: 1429
+permalink: 1453
+lang: es
+english: refuse
+current: desperdicios
+proposed: rechazar
+kind: wrong-word
+reason: Desperdicios is refuse in the sense of rubbish. The verb is rechazar,
+  or negarse.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "desperdicio" and s.v. "rechazar".
+status: proposed
+
+id: 1422
+permalink: 1446
+lang: es
+english: express
+current: exprimir
+proposed: expresar
+kind: wrong-word
+reason: Exprimir is to squeeze -- juice out of a lemon. Expressing a thought is
+  expresar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "exprimir" and s.v. "expresar".
+status: proposed
+
+id: 1431
+permalink: 1455
+lang: es
+english: mean
+current: media
+proposed: significar
+kind: wrong-word
+reason: La media is the statistical mean. The verb is significar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "media"
+  and s.v. "significar".
+status: proposed
+
+id: 1398
+permalink: 1422
+lang: es
+english: show
+current: espectáculo
+proposed: mostrar
+kind: wrong-word
+reason: Un espectáculo is a show in the theatrical sense. The verb is mostrar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "espectáculo" and s.v. "mostrar".
+status: proposed
+
+id: 1365
+permalink: 1389
+lang: es
+english: focus
+current: atención
+proposed: enfocar
+kind: wrong-word
+reason: Atención is attention. The verb is enfocar, or concentrarse.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "enfocar".
+status: proposed
+
+id: 1419
+permalink: 1443
+lang: es
+english: thank
+current: gracias
+proposed: agradecer
+kind: wrong-word
+reason: Gracias is the word you say, not the verb. Thanking someone is
+  agradecer.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "agradecer".
+status: proposed
+
+id: 1409
+permalink: 1433
+lang: es
+english: lie
+current: mentira
+proposed: mentir
+kind: wrong-word
+reason: Una mentira is a lie, the noun. The verb is mentir.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "mentir".
+status: proposed
+
+id: 1455
+permalink: 1479
+lang: es
+english: address
+current: dirección
+proposed: dirigirse a
+kind: wrong-word
+reason: Una dirección is where post is delivered. Addressing a person or a
+  problem is dirigirse a, or abordar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "dirigir" and s.v. "dirección".
+status: proposed
+
+id: 1360
+permalink: 1384
+lang: es
+english: direct
+current: directo
+proposed: dirigir
+kind: wrong-word
+reason: Directo is the adjective. The verb is dirigir.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "dirigir".
+status: proposed
+
+id: 1368
+permalink: 1392
+lang: es
+english: sing
+current: canta
+proposed: cantar
+kind: wrong-form
+reason: Third person present, or the informal imperative.
+displaced: canta | 3sg present indicative of cantar
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "cantar".
+status: proposed
+
+id: 1423
+permalink: 1447
+lang: es
+english: listen
+current: escucha
+proposed: escuchar
+kind: wrong-form
+reason: Third person present, or the informal imperative.
+displaced: escucha | 3sg present indicative of escuchar
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "escuchar".
+status: proposed
+
+id: 1407
+permalink: 1431
+lang: es
+english: agree
+current: de acuerdo
+proposed: estar de acuerdo
+kind: wrong-form
+reason: A prepositional phrase meaning "in agreement", not a verb. The verb
+  phrase is estar de acuerdo, or acordar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "acuerdo".
+status: proposed
