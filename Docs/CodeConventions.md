@@ -100,6 +100,30 @@ methods `return TRUE;` at the end rather than falling off.
         // -----------------------------------------------
 ```
 
+## Domains are written in reverse-DNS order
+
+Most significant part first, always, wherever a domain becomes a name:
+
+```
+holdoffhunger.com            ->  com.holdoffhunger
+revoltlib.com                ->  com.revoltlib
+news.example.co.uk           ->  uk.co.example.news
+```
+
+`ReverseDomainName()` in the `ReverseDNSNotation` trait does the conversion,
+and it is the only thing that should. Config directories under `etc/ggcms/`
+are named this way, and so is anything else keyed by domain.
+
+It sorts usefully -- every domain on a shared parent lands together, and a site
+and its subdomains sit in one run rather than scattered across the alphabet by
+their leftmost label. It is the same reason Java packages and Android
+application IDs are written this way.
+
+A forward-named directory is unreachable, not merely untidy: the loaders build
+their paths through `ReverseDomainName()` and will never look for it.
+`etc/ggcms/holdoffhunger.com/` sat beside `etc/ggcms/com.holdoffhunger/` with a
+byte-identical copy of one config file until September 2026, doing nothing.
+
 ## The separate doors policy
 
 The author's name for it, and his explanation:
