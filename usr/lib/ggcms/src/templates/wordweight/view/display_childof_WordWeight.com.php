@@ -335,7 +335,7 @@ An attractive, affordable boxed reference set featuring best-selling references 
 	
 	print('<br>');
 	
-	$random_definitions = $this->dictionary->LookUpRandomWords([]);
+	$random_definitions = $this->handler->dictionary->LookUpRandomWords([]);
 	
 	foreach ($random_definitions as $random_word => $random_definition) {
 		print('<div id="header_backgroundimageurl" class="border-2px background-color-gray13 margin-5px" style="display: inline-block;">');

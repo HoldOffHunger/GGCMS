@@ -119,9 +119,9 @@
 	
 	print('<p class="horizontal-left margin-5px font-family-tahoma">');
 	
-	$definitions_count = $this->dictionary->GetDefinitionsCount([]);
-	$words_count = $this->dictionary->GetWordsCount([]);
-	$dictionaries_count = $this->dictionary->GetDictionariesCount([]);
+	$definitions_count = $this->handler->dictionary->GetDefinitionsCount([]);
+	$words_count = $this->handler->dictionary->GetWordsCount([]);
+	$dictionaries_count = $this->handler->dictionary->GetDictionariesCount([]);
 	
 	print('We currently maintain ' . number_format($definitions_count) . ' definitions for ' . number_format($words_count) . ' words across ' . $dictionaries_count . ' dictionaries.');
 #	print(' across ' . number_format($dictionaries_count) . ' dictionaries.');
