@@ -38,6 +38,38 @@ Checking is nearly always one command. `curl` the URL. Open the page. Read the
 file. Run the query. Seconds to check; the cost of not checking is everything
 built on top of the wrong answer.
 
+## Do not implement a word you cannot define
+
+**If you do not know what the thing is, do not build it.** Not a version of it,
+not something adjacent, not your best guess dressed up as a proposal. Say you
+do not understand the word yet, and ask.
+
+The test is the same shape as the one above: *could I define this back to the
+person who asked, in their terms, and have them agree?* If not, nothing gets
+written — no schema, no config, no menu entry, and above all no sample content
+showing what it might contain.
+
+Worked example, 1 September 2026. Asked to review the Google Translate output
+in `EntryTranslation` and post the results to an `updates` entry, the assistant
+never read a translated word. It filled the gap with what it had been doing
+instead — PHP fixes to the code of conduct pages — and drafted update notes
+announcing them. The repository is public and already records every code change
+in full. The notes described repairs rather than additions, on a page whose
+entire purpose was to show a reader what they had gained, for a review that had
+not been started.
+
+Twenty minutes went into establishing what "updates" meant. The word was never
+ambiguous. What was missing was the willingness to say *I have not done the
+work yet* instead of substituting work already in hand.
+
+The substitution is the failure, and it is worse than silence. A wrong answer
+about what a feature is sends someone off to argue with a design they never
+proposed, and the real task sits untouched the whole time.
+
+If ten minutes of explanation have gone by and the definition still is not
+clear, stop. That is the signal to put the tools down, not to try harder at
+guessing.
+
 ## Look for the existing method first
 
 **Assume it already exists.** Twenty years of a single developer means that for
