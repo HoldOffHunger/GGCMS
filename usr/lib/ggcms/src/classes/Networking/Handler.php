@@ -747,7 +747,11 @@
 			if($this->handleMultipleSlashesRedirect()) {
 				return FALSE;
 			}
-			
+
+			if($this->handleForceCanonicalLinkRedirect()) {
+				return FALSE;
+			}
+
 			if($this->handleUndesirableParameters()) {
 				return FALSE;
 			}
@@ -1305,6 +1309,130 @@
 			return TRUE;
 		}
 		
+			/*
+				A path is an entry-graph walk rather than a directory, so
+				/a/b/c/convertspelling.php and /convertspelling.php run the same
+				script.  For a script that reads nothing out of the walk, every
+				depth is one page wearing an unlimited number of URLs -- duplicate
+				content to a crawler, and a separate file in the page cache for
+				every path a crawler invents.
+
+				ForceCanonicalLink() names the directory the script's real URL
+				lives in, '/' being the document root.  Absent means disabled,
+				which is every script until its own config says otherwise, so
+				this costs nothing anywhere it has not been turned on.
+
+				302 rather than 301 on purpose.  A 301 is cached by the browser
+				indefinitely and a wrong value cannot be withdrawn afterwards.
+
+				Docs/Triage.md, "Canonical-path normalisation", carries the
+				warning that goes with this: the page cache must hold the
+				canonical form only.  Caching both forms is what produced the
+				unbounded-unique-URL outage.  A path already sitting in the cache
+				tree is also served by .htaccess before PHP starts, so turning
+				this on for a script does nothing for the URLs already cached
+				under it until those are purged.
+			*/
+
+		public function handleForceCanonicalLinkRedirect() {
+			$canonical_directory = $this->ForceCanonicalLink_Directory();
+
+			if(!strlen($canonical_directory)) {
+				return FALSE;
+			}
+
+			if($_SERVER['REQUEST_METHOD'] !== 'GET') {
+				return FALSE;		# a 302 would discard the body
+			}
+
+			$request_pieces = explode('?', $this->RequestPath());
+			$request_path = $request_pieces[0];
+			$request_query = count($request_pieces) > 1 ? $request_pieces[1] : '';
+
+			$path_pieces = explode('/', $request_path);
+			$script_segment = $path_pieces[count($path_pieces) - 1];
+
+			if(!strlen($script_segment)) {
+				return FALSE;		# a directory URL names no script to move
+			}
+
+			$canonical_path = $canonical_directory . $script_segment;
+
+			if($canonical_path === $request_path) {
+				return FALSE;
+			}
+
+			$redirect_url = '';
+
+			if($_SERVER['HTTPS'] === 'on') {
+				$redirect_url .= 'https://www.';
+			} else {
+				$redirect_url .= 'http://www.';
+			}
+
+			$redirect_url .= $this->domain->primary_domain_lowercased;
+			$redirect_url .= $canonical_path;
+
+			if(strlen($request_query)) {
+				$redirect_url .= '?' . $request_query;
+			}
+
+			$this->redirect_url = $redirect_url;
+
+				/*
+					Returned rather than discarded.  handleRedirect() answers
+					FALSE when its own guard finds the target is the address
+					already being served, and the caller must then carry on
+					serving the page rather than returning a blank response.
+				*/
+
+			return $this->handleRedirect();
+		}
+
+			/*
+				An absent config object, an absent method and an empty string all
+				mean disabled.  Construct_Dictionaries_Wanted() is the pattern.
+
+				The whole handler is reachable from config rather than only its
+				value: a domain that needs a rule instead of a constant overrides
+				ForceCanonicalLink() itself and reads what it needs off the
+				handler it is passed.
+			*/
+
+		public function ForceCanonicalLink_Directory() {
+			if(!property_exists($this->abstractglobals, 'script')) {
+				return '';
+			}
+
+			if(!is_object($this->abstractglobals->script)) {
+				return '';
+			}
+
+			if(!method_exists($this->abstractglobals->script, 'ForceCanonicalLink')) {
+				return '';
+			}
+
+			$canonical_directory = $this->abstractglobals->script->ForceCanonicalLink([
+				'handler'=>$this,
+			]);
+
+				//  Tested for truth rather than length: a config is at liberty to
+				//  answer NULL or FALSE for disabled, and strlen(NULL) is
+				//  deprecated in PHP 8.1 and fatal after it.
+
+			if(!$canonical_directory) {
+				return '';
+			}
+
+				//  A directory, so that the script name appends cleanly to it.
+
+			if(substr($canonical_directory, -1) !== '/') {
+				$canonical_directory .= '/';
+			}
+
+			return $canonical_directory;
+		}
+
 		public function handleBadLinkRedirect() {	// handles, i.e., "website.com/page)" or "website.com/page)."
 			if($_GET['stopredirect']) {		// don't allow multiple redirects
 				return FALSE;
