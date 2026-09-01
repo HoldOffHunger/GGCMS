@@ -258,7 +258,7 @@
 					'<li>Fascismo,</li>' .
 					'<li>Genocidio,</li>' .
 					'<li>Drogafobia,</li>' .
-					'<li>Insulti basati sull'etnia, sul genere, sulla sessualità, sull'abilità, ecc.,</li>' .
+					'<li>Insulti basati sull\'etnia, sul genere, sulla sessualità, sull\'abilità, ecc.,</li>' .
 					'<li>Prestazione di giuramento o impegno.</li>' .
 				'</ul>';
 		}

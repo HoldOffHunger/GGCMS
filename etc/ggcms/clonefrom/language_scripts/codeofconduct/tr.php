@@ -375,7 +375,7 @@
 					'<li>Fransız İnsan Hakları Bildirgesi: Klasik, Sosyalist Bildirgesi (1789)</li>' .
 					'<li>Vatandaş Davranış Kuralları</li>' .
 					'<li>Katkıda Bulunan Sözleşmesi</li>' .
-					'<li>Lao Tzu''nun Tao Teh Ching''i (MÖ 400-600)</li>' .
+					'<li>Lao Tzu\'nun Tao Teh Ching\'i (MÖ 400-600)</li>' .
 				'</ul>';
 		}
 	}

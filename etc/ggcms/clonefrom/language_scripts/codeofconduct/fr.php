@@ -82,7 +82,7 @@
 				*/
 		public function WhatIsEncouragedCooperativeText() {
 			return	'<ul>' .
-					​'<li>Inclusif,</li>' .
+					'<li>Inclusif,</li>' .
 					'<li>Coopérative,</li>' .
 					'<li>Orienté vers la communauté</li>' .
 					'<li>Actif,</li>' .
