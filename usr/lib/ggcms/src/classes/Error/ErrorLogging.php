@@ -93,6 +93,34 @@
 			return TRUE;
 		}
 		
+		/*
+			One defect is one ticket.  Two fatals are the same defect when the same
+			script produced the same message, and the message already carries the
+			file and the line, so nothing is normalised away here -- an exact match
+			or a new ticket.
+		*/
+
+		public function ErrorSignature($args) {
+			return hash('sha256', $args['script'] . "\n" . $args['error']);
+		}
+
+			/*
+				This runs from the shutdown handler, so the handler may have died
+				before it named a script.  An unattributed ticket is still a ticket.
+			*/
+
+		public function ErrorScript() {
+			if(!$this->handler) {
+				return '';
+			}
+
+			if(!property_exists($this->handler, 'script_file')) {
+				return '';
+			}
+
+			return (string)$this->handler->script_file;
+		}
+		
 		public function backupError($args) {
 			$error = $args['error'];
 			
@@ -105,16 +133,27 @@
 				return FALSE;
 			}
 			
+			$error_script = $this->ErrorScript();
+
 			$internal_server_error_insert_args = [
 				'type'=>'InternalServerError',
+				'instancetype'=>'InternalServerErrorInstance',
+				'instancefield'=>'Errorid',
+				'url'=>$_SERVER['REQUEST_URI'],
 				'definition'=>[
+					'Signature'=>$this->ErrorSignature([
+						'script'=>$error_script,
+						'error'=>$error,
+					]),
+					'Script'=>$error_script,
+					'IncidentCount'=>1,
 					'Resolved'=>0,
 					'ErrorMessage'=>$error,
 					'URL'=>$_SERVER['REQUEST_URI'],
 					'ServerVariable'=>print_r($_SERVER, TRUE),
 					'PostVariable'=>print_r($_POST, TRUE),
 					'GetVariable'=>print_r($_GET, TRUE),
-					'EnvironmentVariables'=>print_r($this->handler, TRUE) . $error_string = (new Exception)->getTraceAsString(),
+					'EnvironmentVariables'=>print_r($this->handler, TRUE) . (new Exception)->getTraceAsString(),
 				],
 			];
 			
@@ -132,7 +171,7 @@
 				*/
 
 			try {
-				return $this->internal_server_error = $this->handler->db_access->CreateRecord($internal_server_error_insert_args);
+				return $this->internal_server_error = $this->handler->db_access->CreateCountedRecord($internal_server_error_insert_args);
 			} catch (Throwable $throwable) {
 				$this->indicateBackupFailure([
 					'error'=>$error . ' | unlogged: ' . $throwable->getMessage(),

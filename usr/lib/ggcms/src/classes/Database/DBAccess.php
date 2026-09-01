@@ -887,6 +887,87 @@
 			return $query_result;
 		}
 		
+
+			// Insert Information, Counted
+			// -------------------------------------------------
+
+		/*
+			The error and issue queues are ticket tables rather than journals.  A
+			fatal that fires 2,300,533 times is one defect, and storing it 2,300,533
+			times -- every row carrying a print_r() of the whole handler -- is what
+			made those two tables the largest thing in the database.
+
+			So the ticket is keyed by a signature over the script and the message,
+			and a repeat bumps its count and its LastModificationDate instead of
+			inserting again.  The occurrences themselves live in the companion
+			Instance table, which holds a date and a URL and nothing else.
+
+			A recurrence clears Resolved.  If it is still happening it is not fixed,
+			and a ticket closed in the warroom that quietly keeps firing is exactly
+			the thing this table exists to show.
+
+			The upsert is one statement because SELECT-then-INSERT-or-UPDATE loses
+			records to a race, and these tables fill fastest precisely when the site
+			is failing hardest.  LAST_INSERT_ID(id) is what makes the existing row's
+			id readable after a duplicate; without it mysqli_insert_id() returns 0
+			and the instance would have nothing to point at.
+		*/
+
+		public function CreateCountedRecord($args) {
+			$this->MarkPageCacheDirty($args);
+
+			$record_type = $args['type'];
+			$record_definition = $args['definition'];
+			$instance_type = $args['instancetype'];
+			$instance_field = $args['instancefield'];
+
+			$record_description = $this->GetRecordDescription([
+				'type'=>$record_type,
+			]);
+
+			$record_where_results = $this->GetRecordWhere([
+				'recorddescription'=>$record_description,
+				'recordwhere'=>$record_definition,
+				'delimiter'=>', ',
+			]);
+
+			$record_columns = $this->GetRecordColumns([
+				'recorddefinition'=>$record_definition,
+			]);
+			$record_columns .= ', OriginalCreationDate, LastModificationDate';
+
+			$query_statement = 'INSERT INTO ' . $record_type . ' (' . $record_columns . ')';
+			$query_statement .= ' VALUES (' . implode(', ', $record_where_results['allbindings']) . ', NOW(), NOW())';
+			$query_statement .= ' ON DUPLICATE KEY UPDATE';
+			$query_statement .= ' id = LAST_INSERT_ID(id),';
+			$query_statement .= ' IncidentCount = IncidentCount + 1,';
+			$query_statement .= ' Resolved = 0,';
+			$query_statement .= ' LastModificationDate = NOW()';
+
+			$this->FillArraysFromDB([
+				'query'=>$query_statement,
+				'sqlbindstring'=>$record_where_results['sqlbindstring'],
+				'recordvalues'=>$record_where_results['sqlwherevalues'],
+				'record_type'=>$record_type,
+			]);
+
+			$record_id = mysqli_insert_id($this->db_link);
+
+			if(!$record_id) {
+				return FALSE;
+			}
+
+			$this->CreateRecord([
+				'type'=>$instance_type,
+				'definition'=>[
+					$instance_field=>$record_id,
+					'URL'=>$args['url'],
+				],
+			]);
+
+			return $record_id;
+		}
+		
 			// Delete Information
 			// -------------------------------------------------
 		
@@ -1013,6 +1094,8 @@
 					# error and issue logging, written on every 404 and fault
 				'InternalServerError',
 				'InternalServerIssue',
+				'InternalServerErrorInstance',
+				'InternalServerIssueInstance',
 				'UserSession',
 
 					/*

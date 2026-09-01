@@ -122,7 +122,9 @@
 		
 		$client_errors = [[
 			'id',
-			'Date',
+			'Count',
+			'First Seen',
+			'Last Seen',
 			'URL',
 			'Error Message',
 			'Action',
@@ -135,7 +137,9 @@
 			
 			$error = [
 				$primary_host_error['id'],
+				$primary_host_error['IncidentCount'],
 				'<nobr>' . $primary_host_error['OriginalCreationDate'] . '</nobr>',
+				'<nobr>' . $primary_host_error['LastModificationDate'] . '</nobr>',
 				'<a href="' . htmlspecialchars($primary_host_error['URL']) . '" target="_blank">' . $primary_host_error['URL'] . '</a>',
 				$primary_host_error['ErrorMessage'],
 				'<nobr>' . '<a href="warroom.php?table=InternalServerError&action=viewError&client=' . $primary_host . '&id=' . $primary_host_error['id'] . '">View</a>' . ' | ' .
@@ -176,10 +180,10 @@
 					'cellclass'=>[
 						'border-1px vertical-top',
 						'border-1px vertical-top',
-						'border-1px width-100percent vertical-top',
-						'border-1px width-100percent vertical-top',
 						'border-1px vertical-top',
 						'border-1px vertical-top',
+						'border-1px width-100percent vertical-top',
+						'border-1px width-100percent vertical-top',
 						'border-1px vertical-top',
 						'border-1px vertical-top',
 					],
@@ -213,11 +217,13 @@
 #		print_r($primary_host_errors);
 #		print("<BR><BR>");
 		
-		$client_errors = [[
+		$client_issues = [[
 			'id',
-			'Date',
+			'Count',
+			'First Seen',
+			'Last Seen',
 			'URL',
-			'Error Message',
+			'Description',
 			'Action',
 			'Resolved',
 		]];
@@ -228,9 +234,11 @@
 			
 			$issue = [
 				$primary_host_issue['id'],
+				$primary_host_issue['IncidentCount'],
 				'<nobr>' . $primary_host_issue['OriginalCreationDate'] . '</nobr>',
+				'<nobr>' . $primary_host_issue['LastModificationDate'] . '</nobr>',
 				'<a href="' . htmlspecialchars($primary_host_issue['URL']) . '" target="_blank">' . $primary_host_issue['URL'] . '</a>',
-				$primary_host_issue['ErrorMessage'],
+				$primary_host_issue['Description'],
 				'<nobr>' . '<a href="warroom.php?table=InternalServerIssue&action=viewError&client=' . $primary_host . '&id=' . $primary_host_issue['id'] . '">View</a>' . ' | ' .
 				'<a href="warroom.php?action=resolveError&client=' . $primary_host . '&id=' . $primary_host_issue['id'] . '">Resolved</a>' . '</nobr>',
 				$primary_host_issue['Resolved'],
@@ -269,10 +277,10 @@
 					'cellclass'=>[
 						'border-1px vertical-top',
 						'border-1px vertical-top',
-						'border-1px width-100percent vertical-top',
-						'border-1px width-100percent vertical-top',
 						'border-1px vertical-top',
 						'border-1px vertical-top',
+						'border-1px width-100percent vertical-top',
+						'border-1px width-100percent vertical-top',
 						'border-1px vertical-top',
 						'border-1px vertical-top',
 					],

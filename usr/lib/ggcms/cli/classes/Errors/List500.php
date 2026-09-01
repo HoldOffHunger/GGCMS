@@ -30,7 +30,7 @@
 		}
 		
 		public function getAndList500Errors(){
-			$sql_command = 'SELECT COUNT(URL) as Count, URL from ' . $this->host . '.InternalServerError GROUP BY URL ORDER BY Count DESC LIMIT ' . $this->answer_type . ';';
+			$sql_command = 'SELECT IncidentCount as Count, Script, LastModificationDate as LastSeen, URL from ' . $this->host . '.InternalServerError WHERE Resolved = 0 ORDER BY IncidentCount DESC LIMIT ' . $this->answer_type . ';';
 			print("Getting 500's for " . $this->domain . '.' . PHP_EOL . PHP_EOL);
 			
 			$create_database_command = 'mysql -e "' . $sql_command . '"';

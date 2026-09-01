@@ -175,7 +175,41 @@
 			
 			$this->error = $error;
 			
+			$this->error_instances = $this->ErrorInstances([
+				'table'=>$acceptable_table,
+				'id'=>$id,
+			]);
+			
 			return TRUE;
+		}
+		
+			/*
+				One ticket, many occurrences.  The ticket carries the context of the
+				first one; these are the dates and URLs of the rest.  Newest first,
+				and capped, because the ticket an admin opens is the one that has
+				fired a hundred thousand times.
+			*/
+		
+		public function ErrorInstances($args) {
+			$instance_tables = [
+				'InternalServerError'=>['InternalServerErrorInstance', 'Errorid'],
+				'InternalServerIssue'=>['InternalServerIssueInstance', 'Issueid'],
+			];
+			
+			$instance_table = $instance_tables[$args['table']];
+			
+			if(!$instance_table) {
+				return [];
+			}
+			
+			$sql = 'SELECT * FROM ' . $instance_table[0];
+			$sql .= ' WHERE ' . $instance_table[1] . ' = ?';
+			$sql .= ' ORDER BY OriginalCreationDate DESC LIMIT 50';
+			
+			return $this->handler->db_access->RunQuery([
+				'sql'=>$sql,
+				'args'=>[$args['id']],
+			]);
 		}
 		
 		public function resolveError() {

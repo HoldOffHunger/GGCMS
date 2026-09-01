@@ -62,7 +62,8 @@
 			$sql_command_selects = [];
 			
 			foreach($databases as $database) {
-				$sql_command = "DELETE FROM " . $database . ".InternalServerError WHERE URL = " . escapeshellarg($this->url);
+				$sql_command = "DELETE FROM " . $database . ".InternalServerErrorInstance WHERE URL = " . escapeshellarg($this->url) . "; ";
+				$sql_command .= "DELETE FROM " . $database . ".InternalServerError WHERE URL = " . escapeshellarg($this->url) . " AND id NOT IN (SELECT Errorid FROM " . $database . ".InternalServerErrorInstance); ";
 				
 				$select_command = 'mysql -e "' . $sql_command . '"';
 				

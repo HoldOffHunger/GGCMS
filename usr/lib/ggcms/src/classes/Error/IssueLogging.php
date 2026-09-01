@@ -923,6 +923,35 @@
 			return FALSE;
 		}
 		
+		/*
+			One oddity is one ticket.  Every 404 on a site carries the description
+			'404 URL', so they collapse to a single counted ticket and the URLs that
+			produced them live in InternalServerIssueInstance -- which is the whole
+			point, since 404s from crawlers were most of this table.
+		*/
+
+		public function IssueSignature($args) {
+			$signature_parts = [
+				$args['script'],
+				$args['issuetype'],
+				$args['description'],
+			];
+
+			return hash('sha256', implode("\n", $signature_parts));
+		}
+
+		public function IssueScript() {
+			if(!$this->handler) {
+				return '';
+			}
+
+			if(!property_exists($this->handler, 'script_file')) {
+				return '';
+			}
+
+			return (string)$this->handler->script_file;
+		}
+		
 		public function createLog($args) {
 			if($this->areWeRedirectingToHTTPS()) {
 				return FALSE;
@@ -952,9 +981,21 @@
 				return FALSE;
 			}
 			
+			$issue_script = $this->IssueScript();
+
 			$internal_server_issue_insert_args = [
 				'type'=>'InternalServerIssue',
+				'instancetype'=>'InternalServerIssueInstance',
+				'instancefield'=>'Issueid',
+				'url'=>urldecode($_SERVER['REQUEST_URI']),
 				'definition'=>[
+					'Signature'=>$this->IssueSignature([
+						'script'=>$issue_script,
+						'issuetype'=>$args['issuetype'],
+						'description'=>$args['description'],
+					]),
+					'Script'=>$issue_script,
+					'IncidentCount'=>1,
 					'IssueType'=>$args['issuetype'],
 					'URL'=>urldecode($_SERVER['REQUEST_URI']),
 					'Description'=>$args['description'],
@@ -962,12 +1003,11 @@
 					'ServerVariable'=>print_r($_SERVER, TRUE),
 					'PostVariable'=>print_r($_POST, TRUE),
 					'GetVariable'=>print_r($_GET, TRUE),
-					'Debug'=>print_r($this, TRUE),
 				],
 			];
 			#print("<PRE>");
 			#print_r($internal_server_issue_insert_args);
-			$this->internal_server_issue = $this->handler->db_access->CreateRecord($internal_server_issue_insert_args);
+			$this->internal_server_issue = $this->handler->db_access->CreateCountedRecord($internal_server_issue_insert_args);
 			
 			#print_r($this->internal_server_issue);
 			

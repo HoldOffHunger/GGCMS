@@ -1377,6 +1377,36 @@
 					'Extra' => 'auto_increment',
 				],
 				
+				'Signature' => [
+					'Type' => 'char(64)',
+					'TypeBase' => 'char',
+					'TypeAttribute' => 64,
+					'Null' => 'NO',
+					'Key' => 'UNI',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Script' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'IncidentCount' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 1,
+					'Extra' => '',
+				],
+				
 				'Resolved' => [
 					'Type' => 'tinyint(1)',
 					'TypeBase' => 'tinyint',
@@ -1469,6 +1499,60 @@
 			];
 		}
 		
+		public function HardcodedTable_InternalServerErrorInstance() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'Errorid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'URL' => [
+					'Type' => 'varchar(1024)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 1024,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+		
 		public function HardcodedTable_InternalServerIssue() {
 			return [
 				'id' => [
@@ -1479,6 +1563,36 @@
 					'Key' => 'PRI',
 					'Default' => '',
 					'Extra' => 'auto_increment',
+				],
+				
+				'Signature' => [
+					'Type' => 'char(64)',
+					'TypeBase' => 'char',
+					'TypeAttribute' => 64,
+					'Null' => 'NO',
+					'Key' => 'UNI',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Script' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'IncidentCount' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 1,
+					'Extra' => '',
 				],
 				
 				'IssueType' => [
@@ -1545,6 +1659,60 @@
 					'Type' => 'text',
 					'TypeBase' => 'text',
 					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+		
+		public function HardcodedTable_InternalServerIssueInstance() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'Issueid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'URL' => [
+					'Type' => 'varchar(1024)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 1024,
 					'Null' => 'NO',
 					'Key' => '',
 					'Default' => '',

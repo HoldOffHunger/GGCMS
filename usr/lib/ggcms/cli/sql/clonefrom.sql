@@ -525,6 +525,9 @@ DROP TABLE IF EXISTS `InternalServerError`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `InternalServerError` (
   `id` int NOT NULL AUTO_INCREMENT,
+  `Signature` char(64) NOT NULL DEFAULT '',
+  `Script` varchar(255) NOT NULL DEFAULT '',
+  `IncidentCount` int NOT NULL DEFAULT '1',
   `Resolved` tinyint(1) NOT NULL DEFAULT '0',
   `ErrorMessage` text NOT NULL,
   `URL` varchar(1024) NOT NULL DEFAULT '',
@@ -535,6 +538,7 @@ CREATE TABLE `InternalServerError` (
   `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`),
+  UNIQUE KEY `Signature` (`Signature`),
   KEY `Resolved` (`Resolved`),
   KEY `OriginalCreationDate` (`OriginalCreationDate`),
   KEY `LastModificationDate` (`LastModificationDate`)
@@ -551,6 +555,35 @@ LOCK TABLES `InternalServerError` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `InternalServerErrorInstance`
+--
+
+DROP TABLE IF EXISTS `InternalServerErrorInstance`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `InternalServerErrorInstance` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Errorid` int NOT NULL DEFAULT '0',
+  `URL` varchar(1024) NOT NULL DEFAULT '',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Errorid` (`Errorid`),
+  KEY `OriginalCreationDate` (`OriginalCreationDate`),
+  KEY `LastModificationDate` (`LastModificationDate`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `InternalServerErrorInstance`
+--
+
+LOCK TABLES `InternalServerErrorInstance` WRITE;
+/*!40000 ALTER TABLE `InternalServerErrorInstance` DISABLE KEYS */;
+/*!40000 ALTER TABLE `InternalServerErrorInstance` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `InternalServerIssue`
 --
 
@@ -559,6 +592,9 @@ DROP TABLE IF EXISTS `InternalServerIssue`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `InternalServerIssue` (
   `id` int NOT NULL AUTO_INCREMENT,
+  `Signature` char(64) NOT NULL DEFAULT '',
+  `Script` varchar(255) NOT NULL DEFAULT '',
+  `IncidentCount` int NOT NULL DEFAULT '1',
   `IssueType` varchar(512) NOT NULL DEFAULT '',
   `URL` varchar(1024) NOT NULL DEFAULT '',
   `Description` varchar(2048) NOT NULL DEFAULT '',
@@ -569,6 +605,7 @@ CREATE TABLE `InternalServerIssue` (
   `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`),
+  UNIQUE KEY `Signature` (`Signature`),
   KEY `IssueType` (`IssueType`),
   KEY `Resolved` (`Resolved`),
   KEY `OriginalCreationDate` (`OriginalCreationDate`),
@@ -584,6 +621,35 @@ CREATE TABLE `InternalServerIssue` (
 LOCK TABLES `InternalServerIssue` WRITE;
 /*!40000 ALTER TABLE `InternalServerIssue` DISABLE KEYS */;
 /*!40000 ALTER TABLE `InternalServerIssue` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `InternalServerIssueInstance`
+--
+
+DROP TABLE IF EXISTS `InternalServerIssueInstance`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `InternalServerIssueInstance` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Issueid` int NOT NULL DEFAULT '0',
+  `URL` varchar(1024) NOT NULL DEFAULT '',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Issueid` (`Issueid`),
+  KEY `OriginalCreationDate` (`OriginalCreationDate`),
+  KEY `LastModificationDate` (`LastModificationDate`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `InternalServerIssueInstance`
+--
+
+LOCK TABLES `InternalServerIssueInstance` WRITE;
+/*!40000 ALTER TABLE `InternalServerIssueInstance` DISABLE KEYS */;
+/*!40000 ALTER TABLE `InternalServerIssueInstance` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --

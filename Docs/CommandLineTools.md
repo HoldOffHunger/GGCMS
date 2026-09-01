@@ -135,10 +135,21 @@ that this file exists.
 | `server_issue_counts.php` | Counts logged issues |
 | `clear_server_errors.php` | Clears the error log |
 | `clear_server_error_by_url.php` | Clears errors for one URL |
+| `migrate_error_queues.php` | One-off: rolls the queues up into counted tickets |
 
 Because `index.php` sets `error_reporting(0)`, these logs are frequently the
 **only** evidence that anything is wrong. A silently broken page and a working
 page look identical from outside.
+
+Both queues are **counted tickets**, not journals. One defect is one row, with
+an `IncidentCount` and a first-seen and last-seen date; the individual
+occurrences are dates and URLs in `InternalServerErrorInstance` and
+`InternalServerIssueInstance`. So a count of 4 tickets and 1,204,000 incidents
+is the ordinary shape of a bad week, and the warroom's ticket page lists the
+fifty most recent occurrences underneath the defect.
+
+`migrate_error_queues.php` converts a host that predates that. It is safe to
+run twice and it deletes the duplicate rows, so take a database backup first.
 
 ### Database file cache — `scripts/internal/db_cache/`
 

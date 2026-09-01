@@ -111,5 +111,51 @@
 	print_r($this->error);
 	print("</PRE>");
 	
+			// Display Occurrences
+		
+		// -------------------------------------------------------------
+	
+		/*
+			The ticket above is the defect.  These are the times it happened, and
+			the URLs it happened on -- the fifty most recent of them.
+		*/
+	
+	$error_instances = $this->error_instances;
+	$error_instances_count = $error_instances ? count($error_instances) : 0;
+	
+	if($error_instances_count) {
+		print('<div class="horizontal-center width-70percent margin-top-5px margin-bottom-5px border-2px">');
+		print('<h3>Occurrences</h3>');
+		print('</div>');
+		
+		$occurrences = [[
+			'Date',
+			'URL',
+		]];
+		
+		for($i = 0; $i < $error_instances_count; $i++) {
+			$error_instance = $error_instances[$i];
+			
+			$occurrences[] = [
+				'<nobr>' . $error_instance['OriginalCreationDate'] . '</nobr>',
+				htmlspecialchars($error_instance['URL']),
+			];
+		}
+		
+		$occurrence_list_display_args = [
+			'options'=>[
+				'tableheaders'=>0,
+				'tableclass'=>'width-70percent horizontal-center border-2px background-color-gray13 margin-top-14px',
+				'rowclass'=>'border-1px horizontal-left',
+				'cellclass'=>[
+					'border-1px vertical-top',
+					'border-1px width-100percent vertical-top',
+				],
+			],
+			'list'=>$occurrences,
+		];
+		$generic_list->Display($occurrence_list_display_args);
+	}
+	
 	
 ?>

@@ -38,7 +38,8 @@
 			$sql_command_selects = [];
 			
 			foreach($databases as $database) {
-				$sql_command = "DELETE FROM " . $database . ".InternalServerError ";
+				$sql_command = "DELETE FROM " . $database . ".InternalServerErrorInstance; ";
+				$sql_command .= "DELETE FROM " . $database . ".InternalServerError; ";
 				
 				$select_command = 'mysql -e "' . $sql_command . '"';
 				

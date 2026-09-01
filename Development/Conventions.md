@@ -104,6 +104,21 @@ Full description in
 Two distinct records, two distinct questions, and the difference is load-bearing
 vocabulary. Use these terms in conversation; they mean something precise here.
 
+Both are **tickets, not journal entries**. One defect is one row. A repeat of
+the same defect bumps that row's `IncidentCount` and its last-seen date rather
+than inserting another; the occurrences themselves are a date and a URL in the
+companion `Instance` table. Two errors are the same defect when the same
+script produced the same message -- an exact match, signed with SHA-256, since
+the message already carries the file and the line.
+
+A recurrence clears `Resolved`. If it is still happening, it is not fixed.
+
+This matters for reading a count out loud: **4 tickets and 1.2 million
+incidents** is one sentence about one week, and it is the shape these tables
+normally take. Before August 2026 they were journals, and a single
+`mysqli_close()` fatal held 2,300,533 rows, each carrying a `print_r()` of the
+whole handler.
+
 ### ISE — `InternalServerError`
 
 **Something broke.** A fatal, an uncaught exception, a request that could not be
@@ -112,7 +127,9 @@ served. Written by `classes/Error/ErrorLogging.php`.
 An ISE is a defect. It has a stack trace, it names a file and a line, and
 somebody should fix it. The table captures `ErrorMessage`, `URL`,
 `ServerVariable`, `PostVariable`, `GetVariable` and `EnvironmentVariables`, plus
-a `Resolved` flag so triage state lives with the record.
+a `Resolved` flag so triage state lives with the record. That context is a
+sample from the first occurrence, kept once for the ticket rather than once per
+incident.
 
 An ISE is not limited to a PHP fatal, an uncaught exception or a caught
 exception. Any significant operation required to serve or maintain the system

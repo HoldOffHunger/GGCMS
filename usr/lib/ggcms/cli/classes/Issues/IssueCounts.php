@@ -43,7 +43,7 @@
 			$sql_command_selects = [];
 			
 			foreach($databases as $database) {
-				$sql_command_selects[] = "SELECT '" . $database . "', COUNT(id) FROM " . $database . ".InternalServerIssue";
+				$sql_command_selects[] = "SELECT '" . $database . "', COUNT(id), IFNULL(SUM(IncidentCount), 0) FROM " . $database . ".InternalServerIssue WHERE Resolved = 0";
 			}
 			
 			$sql_command .= implode(' UNION ', $sql_command_selects);
