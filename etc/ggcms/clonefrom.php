@@ -513,6 +513,24 @@
 					],
 					'enabled'=>$this->MainMenu_Enabled_Login(),
 				],
+				'updates'=>[
+					'url'=>$this->MainMenu_URL_Updates(),
+					'text'=>[
+						'en'=>'Updates',
+						'de'=>'Aktualisierungen',
+						'es'=>'Actualizaciones',
+						'fr'=>'Mises à jour',
+						'ja'=>'更新',
+						'it'=>'Aggiornamenti',
+						'nl'=>'Updates',
+						'pl'=>'Aktualizacje',
+						'pt'=>'Atualizações',
+						'ru'=>'Обновления',
+						'tr'=>'Güncellemeler',
+						'zh'=>'更新',
+					],
+					'enabled'=>$this->MainMenu_Enabled_Updates(),
+				],
 			];
 		}
 						
@@ -553,6 +571,20 @@
 		
 		public function MainMenu_URL_Login() {
 			return '/login.php';
+		}
+
+			/*
+				An entry, not a script.  /updates/ is a top-level entry whose
+				children are the individual notes, so it is added to by writing
+				an entry rather than by deploying anything.
+
+				Deliberately not /news/, which would collide with news.php.  That
+				script lists the newest content the site has gained; this lists
+				what was changed about the site itself.
+			*/
+
+		public function MainMenu_URL_Updates() {
+			return '/updates/';
 		}
 						
 							// Enabled/Disabled
@@ -599,6 +631,15 @@
 		}
 		
 		public function MainMenu_Enabled_Login() {
+			return FALSE;
+		}
+
+			/*
+				Off until a site has an /updates/ entry to link to.  A site turns
+				it on by overriding this once the entry exists.
+			*/
+
+		public function MainMenu_Enabled_Updates() {
 			return FALSE;
 		}
 		

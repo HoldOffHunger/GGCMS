@@ -69,6 +69,18 @@
 				}
 			}
 			
+			if($this->globals->mainmenu['updates']['enabled']) {
+				$display_text .= $url_divider;
+
+				$updates_content_text = $this->DisplayBottomNavigation_Links_UpdatesText();
+
+				if($this_page !== 'Updates') {
+					$display_text .= '<a href="' . $primary_url . $this->globals->mainmenu['updates']['url'] . '">' . $updates_content_text . '</a>';
+				} else {
+					$display_text .= $updates_content_text;
+				}
+			}
+
 			if($this->globals->mainmenu['search']['enabled']) {
 				$display_text .= $url_divider;
 				
@@ -132,6 +144,9 @@
 			return $this->globals->mainmenu['home']['text'][$this->language_object->getLanguageCode()];
 		}
 		
+		public function DisplayBottomNavigation_Links_UpdatesText () {
+			return $this->globals->mainmenu['updates']['text'][$this->language_object->getLanguageCode()];
+		}
 		public function DisplayBottomNavigation_Links_AboutText () {
 			return $this->globals->mainmenu['about']['text'][$this->language_object->getLanguageCode()];
 		}
