@@ -168,7 +168,7 @@
 
 		public function reportIntent() {
 			print('Action   : ' . $this->action . PHP_EOL);
-			print('Path     : ' . $this->path . PHP_EOL);
+			print('URL      : ' . $this->scriptURL() . PHP_EOL);
 			print('Mode     : ' . ($this->apply ? 'APPLY -- writes to the database' : 'dry run') . PHP_EOL);
 			print(PHP_EOL);
 
@@ -196,12 +196,15 @@
 			*/
 
 		public function fakeRequest() {
+			$url = $this->scriptURL();
+
 			$_SERVER['HTTP_HOST'] = 'www.' . $this->domain;
 			$_SERVER['SERVER_NAME'] = 'www.' . $this->domain;
 			$_SERVER['HTTPS'] = 'on';
 			$_SERVER['REQUEST_METHOD'] = 'POST';
-			$_SERVER['REQUEST_URI'] = $this->path;
-			$_SERVER['SCRIPT_URL'] = $this->path;
+			$_SERVER['REQUEST_URI'] = $url;
+			$_SERVER['SCRIPT_URL'] = $url;
+			$_SERVER['REDIRECT_URL'] = $url;
 			$_SERVER['SERVER_PROTOCOL'] = 'HTTP/1.1';
 			$_SERVER['REMOTE_ADDR'] = '127.0.0.1';
 			$_SERVER['HTTP_REFERER'] = '';
@@ -213,6 +216,30 @@
 			$_REQUEST = array_merge($_GET, $_POST);
 
 			return TRUE;
+		}
+
+			/*
+				The URL has to name the script, because that is how this system
+				routes: the last segment is the verb and everything before it is
+				the entry graph.  /a/b/c/modify.php edits the entry at /a/b/c/,
+				and /a/b/c/ on its own edits nothing -- it is a view.
+
+				Three variables carry it, and they are not interchangeable.
+				Construct_ObjectsAndScripts() reads REDIRECT_URL and nothing
+				else; HandleRequest_Content() reads SCRIPT_URL; RequestPath()
+				and the cache read REQUEST_URI.  Apache sets all three.  Setting
+				only two produced an empty desired_script, a request that
+				reached no script at all, and a fall through to the 404 path.
+			*/
+
+		public function scriptURL() {
+			$path = '/' . trim($this->path, '/');
+
+			if($path !== '/') {
+				$path .= '/';
+			}
+
+			return $path . 'modify.php';
 		}
 
 			/*
