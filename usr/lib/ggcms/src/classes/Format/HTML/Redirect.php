@@ -84,7 +84,7 @@
 				print("\n");
 			}
 			
-			if(!$script->primary_host_record['NotReadyForLanguages']) {
+			if(!$script->handler->abstractglobals->site->NotReadyForLanguages()) {
 				print("\n");
 				
 				foreach($this->language->GetListOfLanguageCodes() as $language_code => $language_name) {

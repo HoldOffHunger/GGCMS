@@ -112,7 +112,7 @@
 				$this->handler->domain->primary_domain_lowercased,
 			];
 			
-			$alternate_domains = $this->primary_host_record['AlternateDomain'];
+			$alternate_domains = $this->handler->abstractglobals->site->AlternateDomain();
 			
 			if($alternate_domains) {
 				if(is_array($alternate_domains)) {
@@ -401,10 +401,10 @@
 				$copyright_policy_language = ' (' . $copyright_policy_language . ')';
 			}
 			
-			if($this->primary_host_record['Copyright']) {
+			if($this->handler->abstractglobals->site->Copyright()) {
 				$displayable_copyright =
 					"#    " . $copyright_policy . $copyright_policy_language . " :\n" .
-					"#    " . wordwrap($this->primary_host_record['Copyright'], 60, "\n#    ") .  ".\n" .
+					"#    " . wordwrap($this->handler->abstractglobals->site->Copyright(), 60, "\n#    ") .  ".\n" .
 					"#\n";
 			}
 			

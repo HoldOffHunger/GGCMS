@@ -443,11 +443,11 @@
 				'Contact ' . $this->master_record['Title'] . ' : ' . $this->master_record['Subtitle'],
 			];
 			
-			if(!$this->primary_host_record['NotReadyForLanguages']) {
+			if(!$this->handler->abstractglobals->site->NotReadyForLanguages()) {
 				$link_titles[] = 'Select Language for ' . $this->master_record['Title'] . ' : ' . $this->master_record['Subtitle'];
 			}
 			
-			if(!$this->primary_host_record['NotReadyForSearch']) {
+			if(!$this->handler->abstractglobals->site->NotReadyForSearch()) {
 				$link_titles[] = 'Search ' . $this->master_record['Title'] . ' : ' . $this->master_record['Subtitle'];
 			}
 			
@@ -463,11 +463,11 @@
 				$link_titles[] = 'Contact ' . $this->master_record['Title'] . ' : ' . $this->master_record['Subtitle'] . ' [English]';
 			}
 			
-			if(!$this->primary_host_record['NotReadyForLanguages'] && $language_list && count($language_list)) {
+			if(!$this->handler->abstractglobals->site->NotReadyForLanguages() && $language_list && count($language_list)) {
 				$link_titles[] = 'Select Language for ' . $this->master_record['Title'] . ' : ' . $this->master_record['Subtitle'] . ' [English]';
 			}
 			
-			if(!$this->primary_host_record['NotReadyForSearch']) {
+			if(!$this->handler->abstractglobals->site->NotReadyForSearch()) {
 				$link_titles[] = 'Search ' . $this->master_record['Title'] . ' : ' . $this->master_record['Subtitle'] . ' [English]';
 			}
 			
@@ -572,7 +572,7 @@
 			$search_last_mod = $search_list['SearchLastMod'];
 			
 			if(!$home_last_mod) {
-				$home_last_mod = $this->primary_host_record['PublicReleaseDate'];
+				$home_last_mod = $this->master_record['OriginalCreationDate'];
 				
 				if(!$home_last_mode) {
 					$home_last_mode = '0000-00-00';
@@ -580,7 +580,7 @@
 			}
 			
 			if(!$about_last_mod) {
-				$about_last_mod = $this->primary_host_record['PublicReleaseDate'];
+				$about_last_mod = $this->master_record['OriginalCreationDate'];
 				
 				if(!$about_last_mod) {
 					$about_last_mod = '0000-00-00';
@@ -588,7 +588,7 @@
 			}
 			
 			if(!$contact_last_mod) {
-				$contact_last_mod = $this->primary_host_record['PublicReleaseDate'];
+				$contact_last_mod = $this->master_record['OriginalCreationDate'];
 				
 				if(!$contact_last_mod) {
 					$contact_last_mod = '0000-00-00';
@@ -596,7 +596,7 @@
 			}
 			
 			if(!$languages_last_mod) {
-				$languages_last_mod = $this->primary_host_record['PublicReleaseDate'];
+				$languages_last_mod = $this->master_record['OriginalCreationDate'];
 				
 				if(!$languages_last_mod) {
 					$languages_last_mod = '0000-00-00';
@@ -604,7 +604,7 @@
 			}
 			
 			if(!$search_last_mod) {
-				$search_last_mod = $this->primary_host_record['PublicReleaseDate'];
+				$search_last_mod = $this->master_record['OriginalCreationDate'];
 				
 				if(!$search_last_mod) {
 					$search_last_mod = '0000-00-00';
@@ -690,7 +690,7 @@
 				],
 			];
 			
-			if(!$this->primary_host_record['NotReadyForLanguages']) {
+			if(!$this->handler->abstractglobals->site->NotReadyForLanguages()) {
 #				print_r($languages_last_mod);
 				$links[] = [
 					'url'=>[
@@ -702,7 +702,7 @@
 				];
 			}
 			
-			if(!$this->primary_host_record['NotReadyForSearch']) {
+			if(!$this->handler->abstractglobals->site->NotReadyForSearch()) {
 				$links[] = [
 					'url'=>[
 						'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/search.php',

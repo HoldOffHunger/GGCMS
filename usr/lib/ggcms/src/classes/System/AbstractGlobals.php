@@ -13,7 +13,8 @@ error_reporting(E_ALL);
 			$this->buildAbstractGlobals_Language_Scripts();
 			$this->buildAbstractGlobals_Formats();
 			$this->buildAbstractGlobals_ChildTypes();
-			
+			$this->buildAbstractGlobals_Site();
+
 			return $this;
 		}
 		
@@ -239,7 +240,51 @@ error_reporting(E_ALL);
 				
 				$this->child_types = $this->NewConfigClass(['classname'=>$classname]);
 			}
-			
+
+			return TRUE;
+		}
+
+			/*
+				What the site is, rather than what any one script does: the
+				Dublin Core a document format has to carry, the two flags that
+				decide whether languages and search are offered at all, and the
+				alternate domains robots.txt names.
+
+				This replaces PrimaryHostRecord, a per-site table of RecordKey /
+				RecordValue pairs -- a globals store that predates globals.  Its
+				loader was removed without its readers, so every one of them had
+				been reading an undefined property since: the two readiness flags
+				read as NULL and so were permanently open, and every EPub, DAISY
+				and OPDS file shipped with blank Dublin Core.
+
+				What belongs to the primary top-level entry stays there and is
+				deliberately absent here.  The site's name is that entry's Title,
+				its release date that entry's OriginalCreationDate, its imagery
+				and its keywords that entry's Image and Tag children.  Config
+				answers only what no entry field can.
+
+				Scoped to the site rather than the script, so it is built like
+				ChildTypes and not like Scripts.
+			*/
+
+		public function buildAbstractGlobals_Site() {
+			$shared_site_location = 'clonefrom/site/identity.php';
+
+			if(conf_isfile($shared_site_location)) {
+				confreq($shared_site_location);
+
+				$domain_site_location = $this->ReverseDomainName(['domain'=>$this->handler->domain->primary_domain_lowercased]) . '/site/identity.php';
+
+				$classname = 'AbstractGlobals_Site_identity';
+
+				if(conf_isfile($domain_site_location)) {
+					$classname .= '_override';
+					confreq($domain_site_location);
+				}
+
+				$this->site = $this->NewConfigClass(['classname'=>$classname]);
+			}
+
 			return TRUE;
 		}
 	}
