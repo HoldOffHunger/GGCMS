@@ -926,16 +926,6 @@
 					'mouseover'=>'Run and display the results of the \'getopt()\' function.',
 				],
 				[
-					'text'=>'Run Get_Magic_Quotes_Runtime()',
-					'link'=>'systemstatus.php?action=GetMagicQuotesRuntime',
-					'mouseover'=>'Run and display the results of the \'get_magic_quotes_runtime()\' function.',
-				],
-				[
-					'text'=>'Run Get_Magic_Quotes_GPC()',
-					'link'=>'systemstatus.php?action=GetMagicQuotesGPC',
-					'mouseover'=>'Run and display the results of the \'get_magic_quotes_gpc()\' function.',
-				],
-				[
 					'text'=>'Run Get_Include_Path()',
 					'link'=>'systemstatus.php?action=GetIncludePath',
 					'mouseover'=>'Run and display the results of the \'get_include_path()\' function.',

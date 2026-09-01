@@ -624,13 +624,41 @@
 			return TRUE;
 		}
 		
+			/*
+				The registry in Script/PHP.php names 99 functions and master-c renders
+				them as buttons, so a function PHP has since removed is a 500 rather
+				than an answer.  That is how get_magic_quotes_runtime() reached the
+				ISE table on 31 August 2026.
+
+				A panel whose whole job is reporting on the PHP it runs under should
+				say when a function is not there.  Absent is the answer, not a fault.
+			*/
+
+		public function CallableFunctionExists() {
+			return function_exists($this->php_command->CallableFunctionName);
+		}
+
+		public function DisplayUnavailableFunction() {
+			$message = $this->php_command->CallableFunctionName . '() does not exist in PHP ' . PHP_VERSION . '.';
+
+			return $this->SetOnePieceOfDataForDisplay(['pieceofdata'=>$message]);
+		}
+
 		public function DisplayOnePieceOfData() {
+			if(!$this->CallableFunctionExists()) {
+				return $this->DisplayUnavailableFunction();
+			}
+			
 			$function = $this->php_command->CallableFunctionName;
 			$data = $function();
 			return $this->SetOnePieceOfDataForDisplay(['pieceofdata'=>$data]);
 		}
 		
 		public function DisplayNumberedArrayOfData() {
+			if(!$this->CallableFunctionExists()) {
+				return $this->DisplayUnavailableFunction();
+			}
+			
 			$function = $this->php_command->CallableFunctionName;
 			$data = $function();
 			
@@ -642,6 +670,10 @@
 		}
 		
 		public function DisplaySingleResultFunctionForOnePieceOfInput() {
+			if(!$this->CallableFunctionExists()) {
+				return $this->DisplayUnavailableFunction();
+			}
+			
 			$set_input_and_function_results = [
 				'displaytext'=>$this->GetGoodFunctionName(),
 				'parameter'=>$this->php_command->Parameters,
@@ -652,6 +684,10 @@
 		}
 		
 		public function DisplayListFunctionForOnePieceOfInput() {
+			if(!$this->CallableFunctionExists()) {
+				return $this->DisplayUnavailableFunction();
+			}
+			
 			$set_input_and_function_results = [
 				'displaytext'=>$this->GetGoodFunctionName(),
 				'parameter'=>$this->php_command->Parameters,
@@ -662,6 +698,10 @@
 		}
 		
 		public function DisplayKeyedArrayOfData() {
+			if(!$this->CallableFunctionExists()) {
+				return $this->DisplayUnavailableFunction();
+			}
+			
 			$function = $this->php_command->CallableFunctionName;
 			$data = $function();
 			

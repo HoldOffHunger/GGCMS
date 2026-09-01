@@ -100,6 +100,39 @@ methods `return TRUE;` at the end rather than falling off.
         // -----------------------------------------------
 ```
 
+## Anathema
+
+Technologies that are not to appear in this codebase, with the reason, so that
+nobody has to re-litigate them.
+
+### Magic quotes
+
+**Never.** Not `get_magic_quotes_gpc()`, not `get_magic_quotes_runtime()`, not
+`addslashes()` standing in for them, and nothing that assumes input arrives
+pre-escaped.
+
+Magic quotes auto-backslashed every GET, POST and cookie value on the way in.
+It corrupted data that was never going near a database, it produced doubled
+escaping when combined with real escaping, and it did not prevent injection,
+which was the only thing it was for. PHP deprecated it in 5.3, removed it in
+**5.4 (2012)**, kept the two accessors as stubs returning false, and deleted
+those in **8.0**.
+
+The correct answer is the one the engine already uses: **bound parameters.**
+`DBAccess::GetRecordWhere()` builds the `?` list and the type string,
+`FillArraysFromDB()` binds the values. A value never becomes part of a query
+string. Anything that reaches for escaping instead is solving a problem that
+binding has already solved.
+
+Two entries for the removed accessors survived in the `Script/PHP.php`
+introspection registry until September 2026, where master-c rendered them as
+buttons and pressing one produced a 500. They are gone.
+
+### Frameworks, autoloaders, namespaces
+
+See [../AGENTS.md](../AGENTS.md). There is no framework underneath this and
+none is wanted; the rule is recorded there rather than duplicated here.
+
 ## Arrays are `[]`, never `array()`
 
 Short array syntax everywhere, in declarations and in `$args` hashes alike.

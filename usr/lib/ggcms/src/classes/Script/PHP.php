@@ -376,30 +376,6 @@
 					'Parameters'=>'',
 				],
 		
-						// get_magic_quotes_runtime()
-						
-				[
-					'FullFunctionName'=>'',
-					'ShortFunctionName'=>'Get Magic Quotes Runtime',
-					'ShortSpacelessFunctionName'=>'GetMagicQuotesRuntime',
-					'CallableFunctionName'=>'get_magic_quotes_runtime',
-					'PrettyCallableFullFunctionName'=>'Get_Magic_Quotes_Runtime',
-					'FunctionStylesName'=>'get-magic-quotes-runtime',
-					'Parameters'=>'',
-				],
-		
-						// get_magic_quotes_gpc()
-						
-				[
-					'FullFunctionName'=>'',
-					'ShortFunctionName'=>'Get Magic Quotes GPC',
-					'ShortSpacelessFunctionName'=>'GetMagicQuotesGPC',
-					'CallableFunctionName'=>'get_magic_quotes_gpc',
-					'PrettyCallableFullFunctionName'=>'Get_Magic_Quotes_GPC',
-					'FunctionStylesName'=>'get-magic-quotes-gpc',
-					'Parameters'=>'',
-				],
-		
 						// get_called_class()
 						
 				[
