@@ -23,6 +23,10 @@
 				$table_args['level'] = 1;
 			}
 			
+			if(!isset($table_args['indentation'])) {
+				$table_args['indentation'] = 0;
+			}
+			
 			$this->display_tablestart($table_args);
 			
 			$this->display_rows($table_args);
@@ -57,6 +61,7 @@
 			{
 				$list = $args['list'];
 				$level = $args['level'];
+				$indentation = $args['indentation'];
 				
 				foreach ($list as $listkey => $listoption)
 				{
@@ -117,6 +122,10 @@
 			$mouseover = $args['mouseover'];
 			$level = $args['level'];
 			$arrow = $args['arrow'];
+			$indentation = $args['indentation'];
+			
+			$tr_tabs = str_repeat("\t", $indentation);
+			$line_tabs = str_repeat("\t", $indentation + 1);
 			
 			if(strlen($link)) {
 				$link_start_code = '<a href="' . $link . '" class="list-item-link-level-' . $level .'">';
@@ -142,6 +151,8 @@
 		
 		public function display_row_end ($args) {
 			$link = $args['link'];
+			$level = $args['level'];
+			$indentation = $args['indentation'];
 			
 			$tr_tabs = str_repeat("\t", $indentation);
 			

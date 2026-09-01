@@ -22,6 +22,10 @@
 			if(!isset($table_args['level'])) {
 				$table_args['level'] = 1;
 			}
+			
+			if(!isset($table_args['indentation'])) {
+				$table_args['indentation'] = 0;
+			}
 			$this->display_tablestart($table_args);
 			
 			$this->display_rows($table_args);
@@ -56,6 +60,7 @@
 			{
 				$list = $args['list'];
 				$level = $args['level'];
+				$indentation = $args['indentation'];
 				
 				foreach ($list as $listkey => $listoption)
 				{
