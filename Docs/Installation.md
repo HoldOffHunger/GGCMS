@@ -11,6 +11,18 @@ PHP 8.x.
 > If you find yourself pasting a real credential into a file in this
 > repository, stop.
 
+## Checking your work
+
+Every requirement below is verified by one command, which reads and changes
+nothing:
+
+```bash
+/usr/lib/ggcms/cli/scripts/public/install/check_install.php
+```
+
+Run it before you start, to see what is missing, and again at the end. Each
+failure names the section here that fixes it.
+
 ## PHP extensions
 
 Find the active configuration first, because the CLI and Apache SAPIs load
@@ -164,10 +176,17 @@ scripts, and `utf8` (three-byte) will corrupt it.
 
 ## Installing a domain
 
+> Content and log directories are named forwards -- `/srv/ggcms/example.com/`
+> -- because they are addressed by hostname. **The configuration directory is
+> named in reverse-DNS order**, `/etc/ggcms/com.example/`, because every
+> loader builds that path through `ReverseDomainName()`. A forward-named
+> config directory is not merely untidy, it is unreachable. See
+> [CodeConventions.md](CodeConventions.md).
+
 ```bash
 mkdir --mode=755 /srv/ggcms/example.com/www/image
 mkdir --mode=755 /var/log/ggcms/example.com/stats
-mkdir --mode=755 /etc/ggcms/example.com
+mkdir --mode=755 /etc/ggcms/com.example
 chown -R www-data /srv/ggcms /var/log/ggcms /etc/ggcms
 ```
 
