@@ -24,10 +24,6 @@
 					$this->configgtag = $base_code . '4';
 					break;
 					
-				case 'defianceart':
-					$this->configgtag = $base_code . '14';
-					break;
-					
 				case 'earthfluent':
 					$this->configgtag = $base_code . '1';
 					break;
