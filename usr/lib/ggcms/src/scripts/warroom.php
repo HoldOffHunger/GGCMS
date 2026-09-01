@@ -333,7 +333,7 @@
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
-			$comment_sql = 'UPDATE Comment SET Approved = FALSE WHERE id = ?';
+			$comment_sql = 'UPDATE Comment SET Rejected = TRUE WHERE id = ?';
 			
 			$comment = $client_db->RunQuery([
 				'sql'=>$comment_sql,
