@@ -5,6 +5,7 @@
 	clireq('traits/Apache.php');
 	clireq('traits/BackupTrait.php');
 	clireq('traits/DBAccess.php');
+	clireq('traits/DomainValidation.php');
 	clireq('traits/DBTest.php');
 	clireq('traits/CLIAccess.php');
 	
@@ -12,6 +13,7 @@
 		use Apache;
 		use BackupTrait;
 		use DBAccess;
+		use DomainValidation;
 		use DBTest;
 		use CLIAccess;
 		

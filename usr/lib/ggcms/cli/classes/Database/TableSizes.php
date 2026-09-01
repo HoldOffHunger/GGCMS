@@ -3,12 +3,14 @@
 	depreq('arr2textTable/arr2textTable.php');
 	
 	clireq('traits/DBAccess.php');
+	clireq('traits/DomainValidation.php');
 	clireq('traits/DNSRecords.php');
 	clireq('traits/CLIAccess.php');
 	clireq('traits/GlobalsTrait.php');
 	
 	class TableSizes {
 		use DBAccess;
+		use DomainValidation;
 		use DNSRecords;
 		use CLIAccess;
 		use GlobalsTrait;

@@ -7,6 +7,7 @@
 	clireq('traits/CLIAccess.php');
 	clireq('traits/DataArrays.php');
 	clireq('traits/DBAccess.php');
+	clireq('traits/DomainValidation.php');
 	clireq('traits/DBTest.php');
 	clireq('traits/Directories.php');
 	clireq('traits/DNSRecords.php');
@@ -24,6 +25,7 @@
 		use CLIAccess;
 		use DataArrays;
 		use DBAccess;
+		use DomainValidation;
 		use DBTest;
 		use Directories;
 		use DNSRecords;
