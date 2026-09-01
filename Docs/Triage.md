@@ -1062,7 +1062,7 @@ filling in July 2024.
 
 The crontab is written out in [Operations.md](Operations.md). Install it.
 
-### CLI PHP has no `mysqli`
+### CLI PHP has no `mysqli` *(partly resolved 1 September 2026)*
 
 Every database tool in `cli/` fails immediately:
 
@@ -1074,6 +1074,15 @@ The CLI SAPI and the Apache SAPI load different `php.ini` files and different
 extensions. Apache runs PHP **8.0**; the `php` on `$PATH` is a different version
 without `mysqli`. Until this is fixed, no scheduled database diagnostic can run
 — which makes the crontab above only half-useful.
+
+**Measured 1 September 2026: `php8.1 -m` lists `mysqli`, `mysqlnd` and
+`pdo_mysql`.** So the 8.1 CLI does have it, and the `-c` workaround below is
+not needed for that reason. Whether the bare `php` on `$PATH` still lacks it
+was not re-checked.
+
+This matters beyond tidiness: the ISE/ISI conversion tool shells out to
+`mysql -e` for every statement specifically because this entry said mysqli was
+unavailable. A tool written today could use the engine's own DBAccess instead.
 
 Workaround used during the session:
 `php8.1 -c /etc/php/8.0/apache2/php.ini -r '…'`
