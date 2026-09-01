@@ -42,6 +42,10 @@
 			$this->bannerMessage();
 			$this->setHandle();
 
+			if(!$this->checkExtensions()) {
+				return FALSE;
+			}
+
 			if(!$this->setDomain()) {
 				return $this->cancelAction(['message'=>'Invalid domain.  Please submit a FQDN in the form of `example.com`.']);
 			}
@@ -60,6 +64,52 @@
 			}
 
 			return $this->runModify();
+		}
+
+			// Preflight
+			// -----------------------------------------------
+
+			/*
+				The CLI and Apache SAPIs read different php.ini files and load
+				different extensions -- Triage.md records the same split biting a
+				database tool.  Running the engine from a shell needs what the
+				engine needs, and the first thing Handler does with a POST is
+				hand it to UTF8Characters, which is mbstring.
+
+				Checked here so the failure is one line naming the package,
+				rather than an uncaught Error from four frames down inside a
+				constructor.
+			*/
+
+		public function checkExtensions() {
+			$required = [
+				'mbstring'=>'php8.1-mbstring',
+				'mysqli'=>'php8.1-mysql',
+			];
+
+			$missing = [];
+
+			foreach($required as $extension => $package) {
+				if(!extension_loaded($extension)) {
+					$missing[$extension] = $package;
+				}
+			}
+
+			if(!count($missing)) {
+				return TRUE;
+			}
+
+			print('This PHP is missing extensions the engine needs:' . PHP_EOL . PHP_EOL);
+
+			foreach($missing as $extension => $package) {
+				printf("  %-12s apt-get install %s" . PHP_EOL, $extension, $package);
+			}
+
+			print(PHP_EOL);
+			print('PHP here is ' . PHP_VERSION . ' (' . PHP_SAPI . '), reading ' . (php_ini_loaded_file() ? php_ini_loaded_file() : 'no php.ini') . '.' . PHP_EOL);
+			print('Apache may have these while the CLI does not; see Docs/Triage.md.' . PHP_EOL . PHP_EOL);
+
+			return FALSE;
 		}
 
 			// Options
