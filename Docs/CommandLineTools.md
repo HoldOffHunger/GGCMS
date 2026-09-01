@@ -148,9 +148,11 @@ occurrences are dates and URLs in `InternalServerErrorInstance` and
 is the ordinary shape of a bad week, and the warroom's ticket page lists the
 fifty most recent occurrences underneath the defect.
 
-`convert_ise_and_isi_tables.php` converts a host that predates that. It takes
-one domain, or `all`; it is safe to run twice and it deletes the duplicate
-rows, so take a database backup first and do one small site before `all`.
+`convert_ise_and_isi_tables.php` converts a host that predates that. It renames
+the old table aside, builds the new one beside it and imports the roll-up, so
+nothing is destroyed and the conversion is reversible by a rename until you
+drop the old table yourself -- it prints the command. Takes one domain, or
+`all`; do one small site and read the numbers before `all`.
 
 ### Database file cache — `scripts/internal/db_cache/`
 
