@@ -833,10 +833,33 @@
 			return $this->handler->script->script->canUserAccess();
 		}
 
-		public function isScriptIgnorable() {
+			/*
+				controlScripts() names 'modify' and 'transfer', and script_file is the
+				request's basename with the extension stripped by
+				Construct_ScriptFileAndExtension().  So transfer.png matched, and an
+				image sitting in a page's manual_files/ folder was treated as the
+				transfer script.
+
+				That is where the canUserAccess() crash came from: an image request
+				never builds a script object, so there was nothing to ask.  Both of
+				the recorded incidents are /manual_files/transfer.png on revoltlib.
+
+				The extension is already parsed and sitting in script_extension.  A
+				control script is a php request or it is not a control script.
+			*/
+
+		public function isControlScriptRequest() {
+			if($this->handler->script_extension !== 'php') {
+				return FALSE;
+			}
+
 			$control_scripts = $this->controlScriptsStructure();
-			
-			if($control_scripts[$this->handler->script_file] && !$this->CanUserAccessCurrentScript()) {
+
+			return (bool)$control_scripts[$this->handler->script_file];
+		}
+
+		public function isScriptIgnorable() {
+			if($this->isControlScriptRequest() && !$this->CanUserAccessCurrentScript()) {
 				return TRUE;
 			}
 			
