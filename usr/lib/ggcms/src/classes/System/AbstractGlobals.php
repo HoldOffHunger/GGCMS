@@ -23,6 +23,30 @@ error_reporting(E_ALL);
 			return TRUE;
 		}
 		
+			/*
+				Every builder here assembles a class name as a string and then
+				instantiates it.  When a config file does not declare exactly the
+				expected name the failure is a fatal carrying nothing useful, and
+				both faults fixed on 1 September 2026 lived at that joint.
+
+				A missing class is now an absent config object rather than a dead
+				site.  Callers already test for absence --
+				Handler::Construct_Dictionaries_Wanted() is the pattern.
+
+				This is deliberately a downgrade from fatal to absent rather than a
+				repair.  A config file that names its class wrongly is still wrong.
+			*/
+
+		public function NewConfigClass($args) {
+			$classname = $args['classname'];
+
+			if(!class_exists($classname)) {
+				return FALSE;
+			}
+
+			return new $classname;
+		}
+
 		public function buildAbstractGlobals_Scripts() {
 			$shared_scripts_dir = 'clonefrom/scripts/' . $this->handler->script_file . '.php';
 			
@@ -37,7 +61,7 @@ error_reporting(E_ALL);
 					$classname = 'local' . $classname;
 				}
 				
-				$this->script = new $classname;
+				$this->script = $this->NewConfigClass(['classname'=>$classname]);
 			}
 			
 			return TRUE;
@@ -90,7 +114,7 @@ error_reporting(E_ALL);
 			}
 			
 			if($classname) {
-				$this->language_script = new $classname;
+				$this->language_script = $this->NewConfigClass(['classname'=>$classname]);
 			}
 			
 			return TRUE;
@@ -103,23 +127,37 @@ error_reporting(E_ALL);
 			return TRUE;
 		}
 		
+			/*
+				Three faults lived here, and the first two masked each other exactly
+				as they did in _ChildTypes().
+
+				The domain came from $primary_domain_lowercased, an undefined local
+				assigned in a different function, so the path never resolved.  The
+				override branch then required the SHARED file a second time rather
+				than the domain one, so _override was never defined and the `new`
+				would have fatalled had the path ever resolved.  And the test used
+				is_file() rather than conf_isfile(), so a relative config path could
+				not resolve even with a correct domain.
+
+				revoltlib and anarchistcode both ship a link_to.php override and
+				neither has ever been loaded.
+			*/
+
 		public function buildAbstractGlobals_Formats_LinkTo() {
 			$shared_default_formats_linkto_location = 'clonefrom/formats/link_to.php';
 			
 			if(conf_isfile($shared_default_formats_linkto_location)) {
 				confreq($shared_default_formats_linkto_location);
-				$domain_formats_linkto_location = $this->ReverseDomainName(['domain'=>$primary_domain_lowercased]) . '/formats/link_to.php';
+				$domain_formats_linkto_location = $this->ReverseDomainName(['domain'=>$this->handler->domain->primary_domain_lowercased]) . '/formats/link_to.php';
 				
 				$classname = 'AbstractGlobals_formats_linkto';
 				
-				if(is_file($domain_formats_linkto_location)) {
+				if(conf_isfile($domain_formats_linkto_location)) {
 					$classname .= '_override';
-					confreq($shared_default_formats_linkto_location);
-					
-					$this->formats_linkto = new $classname;
-				} else {
-					$this->formats_linkto = new $classname;
+					confreq($domain_formats_linkto_location);
 				}
+				
+				$this->formats_linkto = $this->NewConfigClass(['classname'=>$classname]);
 			}
 			
 			return TRUE;
@@ -130,23 +168,38 @@ error_reporting(E_ALL);
 			
 			if(conf_isfile($shared_default_formats_linkto_location)) {
 				confreq($shared_default_formats_linkto_location);
-				$domain_formats_default_location = 'clonefrom/formats/specific/' . $this->handler->script_extension . '.php';
+					/*
+						The same undefined local as _LinkTo(), plus a structural gap:
+						the domain file was only reachable when a clonefrom file for
+						that extension existed first.  Most domain extensions have no
+						shared counterpart -- revoltlib carries nineteen legacy URL
+						extensions clonefrom knows nothing about -- so they could
+						never load.
+
+						The config files already anticipate this.  revoltlib's pdf.php
+						declares _override_client because it extends the shared one;
+						its asp.php declares _override, because nothing is beneath it.
+					*/
+
+				$shared_formats_specific_location = 'clonefrom/formats/specific/' . $this->handler->script_extension . '.php';
+				$domain_formats_specific_location = $this->ReverseDomainName(['domain'=>$this->handler->domain->primary_domain_lowercased]) . '/formats/specific/' . $this->handler->script_extension . '.php';
 				
 				$classname = 'AbstractGlobals_Formats_GivenRequestedFormat';
 				
-				if(conf_isfile($domain_formats_default_location)) {
+				if(conf_isfile($shared_formats_specific_location)) {
 					$classname .= '_override';
-					confreq($domain_formats_default_location);
-				
-					$domain_formats_default_location_client = $this->ReverseDomainName(['domain'=>$primary_domain_lowercased]) . '/formats/specific/' . $this->handler->script_extension . '.php';
+					confreq($shared_formats_specific_location);
 					
-					if(conf_isfile($domain_formats_default_location_client)) {
+					if(conf_isfile($domain_formats_specific_location)) {
 						$classname .= '_client';
-						confreq($domain_formats_default_location_client);
+						confreq($domain_formats_specific_location);
 					}
+				} elseif(conf_isfile($domain_formats_specific_location)) {
+					$classname .= '_override';
+					confreq($domain_formats_specific_location);
 				}
 				
-				$this->format_requested = new $classname;
+				$this->format_requested = $this->NewConfigClass(['classname'=>$classname]);
 			}
 			
 			return TRUE;
@@ -182,11 +235,9 @@ error_reporting(E_ALL);
 				if(conf_isfile($domain_formats_linkto_location)) {
 					$classname .= '_override';
 					confreq($domain_formats_linkto_location);
-					
-					$this->child_types = new $classname;
-				} else {
-					$this->child_types = new $classname;
 				}
+				
+				$this->child_types = $this->NewConfigClass(['classname'=>$classname]);
 			}
 			
 			return TRUE;
