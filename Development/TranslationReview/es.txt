@@ -678,3 +678,132 @@ reason: A prepositional phrase meaning "in agreement", not a verb. The verb
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "acuerdo".
 status: proposed
+
+# --- Wave 1 candidates, block 6: verbs 1464-1573 ---
+
+id: 1502
+permalink: 1526
+lang: es
+english: compromise
+current: compromiso
+proposed: transigir
+kind: false-friend
+reason: Un compromiso is a commitment or an engagement to be married. It is not
+  a compromise. The word looks like the English and means something else, which
+  is worse than an obvious error -- a learner has no reason to doubt it.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "compromiso"; and s.v. "transigir" for the verb.
+status: proposed
+
+id: 1471
+permalink: 1495
+lang: es
+english: judge
+current: juez
+proposed: juzgar
+kind: wrong-word
+reason: Un juez is the person in the robes. The verb is juzgar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "juez"
+  and s.v. "juzgar".
+status: proposed
+
+id: 1515
+permalink: 1539
+lang: es
+english: wave
+current: ola
+proposed: saludar con la mano
+kind: wrong-word
+reason: Una ola is a wave in the sea. Waving a hand is saludar con la mano.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "ola"
+  and s.v. "saludar".
+status: proposed
+
+id: 1522
+permalink: 1546
+lang: es
+english: free
+current: gratis
+proposed: liberar
+kind: wrong-word
+reason: Gratis is the adjective, free of charge. Setting something free is
+  liberar. Two different senses of one English word, and it took the price one.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "gratis" and s.v. "liberar".
+status: proposed
+
+id: 1500
+permalink: 1524
+lang: es
+english: monitor
+current: monitor
+proposed: supervisar
+kind: wrong-word
+reason: Un monitor is the screen. The verb is supervisar. The same fault as
+  display rendered as monitor, from the other direction.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "monitor" and s.v. "supervisar".
+status: proposed
+
+id: 1532
+permalink: 1556
+lang: es
+english: respect
+current: el respeto
+proposed: respetar
+kind: wrong-word
+reason: The noun, and carrying its definite article. A vocabulary entry that
+  begins with el teaches the learner to say "the respect" where a verb belongs.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "respetar".
+status: proposed
+
+id: 1540
+permalink: 1564
+lang: es
+english: work
+current: trabajo
+proposed: trabajar
+kind: wrong-word
+reason: El trabajo is the job. The verb is trabajar. One of the commonest verbs
+  in the language, taught as a noun.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "trabajar".
+status: proposed
+
+id: 1561
+permalink: 1585
+lang: es
+english: own
+current: propio
+proposed: poseer
+kind: wrong-word
+reason: Propio is the adjective -- my own house. Owning something is poseer.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "propio" and s.v. "poseer".
+status: proposed
+
+id: 1543
+permalink: 1567
+lang: es
+english: pay
+current: paga
+proposed: pagar
+kind: wrong-word
+reason: La paga is the wages. The verb is pagar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "pagar".
+status: proposed
+
+id: 1497
+permalink: 1521
+lang: es
+english: kiss
+current: Beso
+proposed: besar
+kind: wrong-word
+reason: Un beso is a kiss, the noun, and capitalised besides. The verb is
+  besar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "besar".
+status: proposed
