@@ -32,13 +32,12 @@
 			$select_sql = 'SELECT * FROM ';
 			$order_sql = $this->getOrderBySQL();
 			
-			$limit =  ' LIMIT 10 ';
-			
-			$comment_sql = $select_sql . 'Comment WHERE Approved = 0 AND Rejected = 0 ' . $order_sql . $limit;
-			$suggestion_sql = $select_sql . 'Suggestion WHERE Approved = 0 AND Rejected = 0 ' . $order_sql . $limit;
-			$error_sql = $select_sql . 'InternalServerError WHERE Resolved = 0 ' . $order_sql . $limit;
-			$issue_sql = $select_sql . 'InternalServerIssue WHERE Resolved = 0 ' . $order_sql . $limit;
-			
+			$comment_sql = $select_sql . 'Comment WHERE Approved = 0 AND Rejected = 0 ' . $order_sql;
+			$suggestion_sql = $select_sql . 'Suggestion WHERE Approved = 0 AND Rejected = 0 ' . $order_sql;
+			$error_sql = $select_sql . 'InternalServerError WHERE Resolved = 0 ' . $order_sql;
+			$issue_sql = $select_sql . 'InternalServerIssue WHERE Resolved = 0 ' . $order_sql;
+
+			$primary_hosts = $this->getPrimaryHosts();
 			$primary_hosts_count = count($primary_hosts);
 			
 			$comments = [];
@@ -87,6 +86,7 @@
 			
 			$client_db_args = [
 				'handler'=>$this->handler,
+				'database'=>$primary_host,
 			];
 			
 			$client_db = new DBAccess($client_db_args);
@@ -123,7 +123,9 @@
 			$limit = (int) $this->Param('limit');
 			
 			if($limit > 0 && $limit < 1001) {
-				$order_sql .= 'LIMIT ' . $limit;
+				$order_sql .= 'LIMIT ' . $limit . ' ';
+			} else {
+				$order_sql .= 'LIMIT 10 ';
 			}
 			
 			return $order_sql;
@@ -146,15 +148,6 @@
 			
 			$client = $client_and_id['client'];
 			$id = $client_and_id['id'];
-			/*
-			$client_db = $this->getClientDB(['client'=>$client]);
-			$error_sql = 'SELECT * FROM InternalServerError WHERE id = ' . $id;
-			print("BT: RUN QUERY!");
-			$error = $client_db->RunQuery([
-				'sql'=>$error_sql,
-				'args'=>[$id],
-			])[0];
-			*/
 			
 			$acceptable_tables = [
 				'InternalServerError'=>1,
@@ -163,12 +156,16 @@
 			
 			$table = $this->param('table');
 			
-			if($acceptable_tables[$table]) {
-				$acceptable_table = $table;
+			if(!isset($acceptable_tables[$table])) {
+				return FALSE;
 			}
 			
+			$acceptable_table = $table;
+			
+			$client_db = $this->getClientDB(['client'=>$client]);
+			
 			$sql = 'SELECT * FROM ' . $acceptable_table . ' WHERE id = ?';
-			$error = $this->handler->db_access->RunQuery(['sql'=>$sql, 'args'=>[$id]])[0];
+			$error = $client_db->RunQuery(['sql'=>$sql, 'args'=>[$id]])[0];
 			
 			if(!$error || !$error['id']) {
 				return FALSE;
@@ -177,6 +174,7 @@
 			$this->error = $error;
 			
 			$this->error_instances = $this->ErrorInstances([
+				'db'=>$client_db,
 				'table'=>$acceptable_table,
 				'id'=>$id,
 			]);
@@ -206,8 +204,13 @@
 			$sql = 'SELECT * FROM ' . $instance_table[0];
 			$sql .= ' WHERE ' . $instance_table[1] . ' = ?';
 			$sql .= ' ORDER BY OriginalCreationDate DESC LIMIT 50';
-			
-			return $this->handler->db_access->RunQuery([
+
+				//  The instances live in the client's database, beside the ticket
+				//  they belong to -- not in the warroom's own.
+
+			$client_db = $args['db'] ? $args['db'] : $this->handler->db_access;
+
+			return $client_db->RunQuery([
 				'sql'=>$sql,
 				'args'=>[$args['id']],
 			]);
@@ -222,17 +225,35 @@
 			
 			$client = $client_and_id['client'];
 			$id = $client_and_id['id'];
-			
+
+			$acceptable_tables = [
+				'InternalServerError'=>1,
+				'InternalServerIssue'=>1,
+			];
+
+			$table = $this->param('table');
+
+			if(!isset($acceptable_tables[$table])) {
+				return FALSE;
+			}
+
 			$client_db = $this->getClientDB(['client'=>$client]);
-			
-			$error_sql = 'UPDATE InternalServerError SET Resolved = TRUE WHERE id = ?';
-			
+
+			$error_sql = 'UPDATE ' . $table . ' SET Resolved = TRUE WHERE id = ?';
+
+			$client_db->RunQuery([
+				'sql'=>$error_sql,
+				'args'=>[$id],
+			]);
+
+			$error_sql = 'SELECT * FROM ' . $table . ' WHERE id = ?';
+
 			$error = $client_db->RunQuery([
 				'sql'=>$error_sql,
 				'args'=>[$id],
 			])[0];
-			
-			if(!$error || !$error['id']) {
+
+			if(!$error || !$error['id'] || !$error['Resolved']) {
 				return FALSE;
 			}
 			
@@ -465,7 +486,7 @@
 			$client = $args['client'];
 			$client_db_args = [
 				'handler'=>$this->handler,
-				'hostname'=>$client,
+				'database'=>$client,
 			];
 			
 			$client_db = new DBAccess($client_db_args);
