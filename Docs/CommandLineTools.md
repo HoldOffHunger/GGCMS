@@ -90,6 +90,24 @@ July 2024.
 
 The disk filling is what took the production host down. Run this daily.
 
+### Installation — `scripts/public/install/`
+
+| Script | Does |
+|---|---|
+| `check_install.php` | Verifies every requirement in Installation.md; changes nothing |
+| `install_ggcms.php` | Builds the layout and offers the packaging steps; refuses the judgement calls |
+
+`check_install.php` is the preflight and the postflight both. Run alone it
+answers *is this host ready*; `install_ggcms.php` runs it before and after and
+it answers *did that work*.
+
+The installer draws a hard line. It will create directories, set owners, build
+the generated-document cache, enable `rewrite`, install missing PHP extensions
+and purge `javascript-common` — everything idempotent, and nothing invasive
+without showing you the command and taking a yes. It refuses database
+credentials, `AllowOverride`, MPM sizing, swap and DNS, because those depend on
+the box and a wrong guess is worse than no guess. It names each one instead.
+
 ### Database — `scripts/public/sql/`
 
 | Script | Does |
