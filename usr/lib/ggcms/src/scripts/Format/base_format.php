@@ -105,6 +105,35 @@
 				not enabled it gets nothing here rather than a warning.
 			*/
 
+			/*
+				The images the header slideshow runs on.
+
+				An entry deep in the graph has its own images -- a word may have
+				one illustrating it -- but the header is not about the word.  It
+				is about the language being learned, and those images hang on the
+				top-level ancestor: record_list[0], which is the same record the
+				word page already reads its title out of.
+
+				So the ancestor's images are preferred, and the entry's are the
+				fallback for a page with no ancestor to borrow from.  Fewer than
+				two of either and there is nothing to rotate, which the caller
+				checks.
+			*/
+
+		public function SlideshowImages() {
+			if($this->record_list && $this->record_list[0] && $this->record_list[0]['image']) {
+				if(count($this->record_list[0]['image']) > 1) {
+					return $this->record_list[0]['image'];
+				}
+			}
+
+			if($this->entry && $this->entry['image']) {
+				return $this->entry['image'];
+			}
+
+			return [];
+		}
+
 		public function SitePrimaryIcon() {
 			if(!$this->master_record || !$this->master_record['image']) {
 				return '';

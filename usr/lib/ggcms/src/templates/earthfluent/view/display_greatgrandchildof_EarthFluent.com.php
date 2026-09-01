@@ -807,20 +807,29 @@
 		
 		$header_style = '';
 		$float_right = '';
-		
-		if($image_count > 1)
+
+			/*
+				The header belongs to the language, not to the word.  A word has
+				an image or two of its own; the culture images hang on the
+				top-level ancestor, and SlideshowImages() prefers those.
+			*/
+
+		$slideshow_images = $this->SlideshowImages();
+		$slideshow_image_count = count($slideshow_images);
+
+		if($slideshow_image_count > 1)
 		{
 			$header_style = 'background-image:url(\'';
-			$random_image = rand(1, $image_count -1);
-			
+			$random_image = rand(1, $slideshow_image_count -1);
+
 			$header_style .= $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]);
 			$header_style .= '/image/';
-			$header_style .= implode('/', str_split($this->entry['image'][$random_image]['FileDirectory']));
+			$header_style .= implode('/', str_split($slideshow_images[$random_image]['FileDirectory']));
 			$header_style .= '/';
-			$header_style .= $this->entry['image'][$random_image]['FileName'];
+			$header_style .= $slideshow_images[$random_image]['FileName'];
 			$header_style .= '\');';
-			
-			$float_right = $this->entry['image'][$random_image]['Description'];
+
+			$float_right = $slideshow_images[$random_image]['Description'];
 		}
 		
 		$this->entry['Title'] = ucwords($this->entry['Title']);
@@ -845,7 +854,55 @@
 		];
 		
 		$header->display($header_primary_args);
-		
+
+				// Display Image Information for JS
+
+			// -------------------------------------------------------------
+
+			/*
+				background-slideshow.js rotates only when it finds more than one
+				of BOTH inputs -- the urls and the citation texts.  Without this
+				block the container was rendered and never rotated, which is why
+				the header sat still on every page below the language.
+			*/
+
+		if($slideshow_image_count > 1)
+		{
+			$images_randomized = $slideshow_images;
+			unset($images_randomized[0]);
+			shuffle($images_randomized);
+
+			$random_images_rebuilt = [];
+
+			foreach($images_randomized as $image_randomized)
+			{
+				$random_images_rebuilt[] = $image_randomized;
+			}
+
+			$random_images_rebuilt_count = count($random_images_rebuilt);
+
+			for($j = 0; $j < $random_images_rebuilt_count; $j++)
+			{
+				$image = $random_images_rebuilt[$j];
+
+				print('<input type="hidden" class="background-img-url" id="');
+				print('header_backgroundimageurl_' . $j);
+				print('" value="');
+				print($this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
+				print('/image/');
+				print(implode('/', str_split($image['FileDirectory'])));
+				print('/');
+				print($image['FileName']);
+				print('">');
+
+				print('<input type="hidden" class="background-img-text" id="');
+				print('header_backgroundimagetext_' . $j);
+				print('" value="');
+				print(str_replace('"', '&quot;', $image['Description']));
+				print('">');
+			}
+		}
+
 				// Basic Divider Arguments
 			
 			// -------------------------------------------------------------
