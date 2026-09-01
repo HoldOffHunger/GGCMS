@@ -201,6 +201,7 @@ talks to git; see [Deployment.md](Deployment.md).
 | Script | Does |
 |---|---|
 | `apply_translation_review.php` | Applies reviewed translation corrections to `EntryTranslation` |
+| `modify_entry.php` | Drives `modify.php` from a shell — creates and edits entries |
 
 The only tool here that writes content, and the only one that must never be
 scheduled. It changes what visitors read.
@@ -235,6 +236,38 @@ After a successful `--apply` it marks those records `shipped` in the store, and
 flushes the page cache for the domain. It passes the domain to `FlushDomain()`
 explicitly, because the engine's own path reads `$_SERVER['HTTP_HOST']`, which
 does not exist in a shell — see [PageCache.md](PageCache.md).
+
+#### `modify_entry.php`
+
+```bash
+modify_entry.php earthfluent.com --path=/ --field=Title=Updates --field=Code=updates
+modify_entry.php earthfluent.com --path=/ --field=Title=Updates --field=Code=updates --apply
+```
+
+Dry by default, like everything else here.
+
+It reimplements nothing. `modify.php` is 3,565 lines of rules that exist in no
+other file — how an entry and its assignment are created together, how child
+records attach, and how a date before the year 1000 is stored at all when MySQL
+`DATETIME` cannot hold one. That encoding lives at `modify.php:2515` and is
+decoded in `traits/GGCMSDateFormat.php`; a second implementation of it would go
+wrong eventually, and silently.
+
+So this makes the shell look like a request instead. It populates `$_SERVER` and
+`$_POST`, constructs a `Handler` the way `index.php` does, and calls
+`HandleRequest()`. The ordinary path runs, and every quirk comes with it.
+
+`--path` is the entry, exactly as it is in a browser. The last segment of a URL
+names the script and everything before it is the entry graph, so `--path=/a/b/c/`
+edits the entry at `/a/b/c/` and needs nothing else to identify it.
+
+**On authentication.** `modify.php` is `IsSecure` and `RequiresLogin`, so
+`Authenticate()` wants a session this process does not have. Rather than store a
+password on the host, the tool sets `access` directly — see
+`EntryModifier::grantAccess()`, which carries the reasoning. In short: whoever
+runs this already has a shell, and a shell is more power than any web login. The
+login gate stops remote visitors; it is not a second lock on someone already
+inside.
 
 ## Notes for anyone adding a tool
 
