@@ -100,6 +100,62 @@ methods `return TRUE;` at the end rather than falling off.
         // -----------------------------------------------
 ```
 
+## The separate doors policy
+
+The author's name for it, and his explanation:
+
+> If a factory has one door, for instruction and argument, the workers on the
+> other side might be confused. But if there are two doors, one for instruction
+> and one for argument, the workers will NEVER get confused.
+>
+> Because the problem is: if a worker sees an argument, and THINKS it's an
+> instruction -- that is an injection.
+
+That last line is the whole of it. An injection is not a special kind of
+attack; it is a worker taking an argument for an instruction, which is only
+possible where the two arrived through the same door.
+
+**A value never travels through the instruction door.** The query is the
+instruction; the values go beside it as arguments and MySQL puts them together
+itself. In practice that means every value is a `?`:
+
+```php
+$sql = 'UPDATE Comment SET Approved = TRUE WHERE id = ?';
+
+$client_db->RunQuery([
+    'sql'=>$sql,
+    'args'=>[$id],
+]);
+```
+
+and never `'... WHERE id = ' . $id`, **even when `$id` has already been cast to
+an integer.** The cast makes that line safe; it does not make the next one
+safe, and the whole value of a policy is that it holds without anyone having to
+check.
+
+Two ways in, both already built: `DBAccess::GetRecordWhere()` assembles the `?`
+list and the bind string from an `$args` definition, and `RunQuery()` takes
+`'sql'` and `'args'` directly when a query is written by hand.
+
+### Identifiers are the exception, and they are not values
+
+MySQL cannot bind a table or column name, so those are concatenated -- there is
+no other way. The rule for them is that they may only come from a list the code
+owns, never from a request. `warroom.php` is the pattern: it matches the
+requested table against `$acceptable_tables` and concatenates the *matched*
+name, not the submitted one.
+
+### Where this stands
+
+`warroom.php` was converted in September 2026 -- seven queries that
+interpolated an already-int-cast `$id`.
+
+Concatenation sites remain in `ORM.php`, `DBAccess.php`, `dbstatus.php`,
+`SimpleORM.php`, `ORMSearchURL.php`, `ORMSearch.php`, `DBAdmin.php` and
+`modules/html/entry-list.php`. Not all of them are values -- many are
+identifiers or fixed clauses, which are fine. They have not been audited one by
+one.
+
 ## Anathema
 
 Technologies that are not to appear in this codebase, with the reason, so that

@@ -152,6 +152,7 @@
 			print("BT: RUN QUERY!");
 			$error = $client_db->RunQuery([
 				'sql'=>$error_sql,
+				'args'=>[$id],
 			])[0];
 			*/
 			
@@ -224,10 +225,11 @@
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
-			$error_sql = 'UPDATE InternalServerError SET Resolved = TRUE WHERE id = ' . $id;
+			$error_sql = 'UPDATE InternalServerError SET Resolved = TRUE WHERE id = ?';
 			
 			$error = $client_db->RunQuery([
 				'sql'=>$error_sql,
+				'args'=>[$id],
 			])[0];
 			
 			if(!$error || !$error['id']) {
@@ -254,10 +256,11 @@
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
-			$comment_sql = 'SELECT * FROM Comment WHERE id = ' . $id;
+			$comment_sql = 'SELECT * FROM Comment WHERE id = ?';
 			
 			$comment = $client_db->RunQuery([
 				'sql'=>$comment_sql,
+				'args'=>[$id],
 			])[0];
 			
 			if(!$comment || !$comment['id']) {
@@ -281,10 +284,11 @@
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
-			$comment_sql = 'UPDATE Comment SET Approved = TRUE WHERE id = ' . $id;
+			$comment_sql = 'UPDATE Comment SET Approved = TRUE WHERE id = ?';
 			
 			$comment = $client_db->RunQuery([
 				'sql'=>$comment_sql,
+				'args'=>[$id],
 			])[0];
 			
 			if(!$comment || !$comment['id']) {
@@ -308,10 +312,11 @@
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
-			$comment_sql = 'UPDATE Comment SET Approved = FALSE WHERE id = ' . $id;
+			$comment_sql = 'UPDATE Comment SET Approved = FALSE WHERE id = ?';
 			
 			$comment = $client_db->RunQuery([
 				'sql'=>$comment_sql,
+				'args'=>[$id],
 			])[0];
 			
 			if(!$comment || !$comment['id']) {
@@ -338,10 +343,11 @@
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
-			$suggestion_sql = 'SELECT * FROM Suggestion WHERE id = ' . $id;
+			$suggestion_sql = 'SELECT * FROM Suggestion WHERE id = ?';
 			
 			$suggestion = $client_db->RunQuery([
 				'sql'=>$suggestion_sql,
+				'args'=>[$id],
 			])[0];
 			
 			if(!$suggestion || !$suggestion['id']) {
@@ -365,10 +371,11 @@
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
-			$suggestion_sql = 'UPDATE Suggestion SET Approved = TRUE WHERE id = ' . $id;
+			$suggestion_sql = 'UPDATE Suggestion SET Approved = TRUE WHERE id = ?';
 			
 			$suggestion = $client_db->RunQuery([
 				'sql'=>$suggestion_sql,
+				'args'=>[$id],
 			])[0];
 			
 			if(!$suggestion || !$suggestion['id']) {
@@ -392,10 +399,11 @@
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
-			$suggestion_sql = 'UPDATE Suggestion SET Approved = FALSE WHERE id = ' . $id;
+			$suggestion_sql = 'UPDATE Suggestion SET Approved = FALSE WHERE id = ?';
 			
 			$suggestion = $client_db->RunQuery([
 				'sql'=>$suggestion_sql,
+				'args'=>[$id],
 			])[0];
 			
 			if(!$suggestion || !$suggestion['id']) {
