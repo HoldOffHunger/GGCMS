@@ -345,3 +345,169 @@ source: Real Academia Española, Diccionario de la lengua española, s.v.
   "contener".
 displaced: contiene | 3sg present indicative of contener
 status: proposed
+
+# --- Wave 1 candidates, block 4: verbs 1244-1353 ---
+
+id: 1250
+permalink: 1274
+lang: es
+english: cope
+current: capa pluvial
+proposed: afrontar
+kind: wrong-word
+reason: A capa pluvial is a cope in the ecclesiastical sense -- the cloak a
+  priest wears in procession. The verb is afrontar, or sobrellevar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "capa"
+  and s.v. "afrontar".
+status: proposed
+
+id: 1309
+permalink: 1333
+lang: es
+english: swallow
+current: golondrina
+proposed: tragar
+kind: wrong-word
+reason: A golondrina is the bird. The verb is tragar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "golondrina" and s.v. "tragar".
+status: proposed
+
+id: 1293
+permalink: 1317
+lang: es
+english: sink
+current: lavabo
+proposed: hundirse
+kind: wrong-word
+reason: A lavabo is the basin in a bathroom. The verb is hundirse.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "lavabo" and s.v. "hundir".
+status: proposed
+
+id: 1297
+permalink: 1321
+lang: es
+english: slide
+current: diapositiva
+proposed: deslizarse
+kind: wrong-word
+reason: A diapositiva is a photographic or presentation slide. The verb is
+  deslizarse.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "diapositiva" and s.v. "deslizar".
+status: proposed
+
+id: 1310
+permalink: 1334
+lang: es
+english: tap
+current: grifo
+proposed: tocar
+kind: wrong-word
+reason: A grifo is the tap on a sink. The verb is tocar, or golpear ligeramente.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "grifo" and s.v. "tocar".
+status: proposed
+
+id: 1277
+permalink: 1301
+lang: es
+english: stretch
+current: tramo
+proposed: estirar
+kind: wrong-word
+reason: Un tramo is a stretch of road or a section. The verb is estirar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "tramo" and s.v. "estirar".
+status: proposed
+
+id: 1262
+permalink: 1286
+lang: es
+english: clear
+current: claro
+proposed: despejar
+kind: wrong-word
+reason: Claro is the adjective. Read as an adjective rather than a verb, which
+  is the noun fault wearing a different hat.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "despejar" and s.v. "claro".
+status: proposed
+
+id: 1256
+permalink: 1280
+lang: es
+english: dream
+current: sueño
+proposed: soñar
+kind: wrong-word
+reason: El sueño is a dream, and also sleep. The verb is soñar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "soñar"
+  and s.v. "sueño".
+status: proposed
+
+id: 1251
+permalink: 1275
+lang: es
+english: hate
+current: odio
+proposed: odiar
+kind: wrong-word
+reason: El odio is the noun. The verb is odiar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "odiar".
+status: proposed
+
+id: 1302
+permalink: 1326
+lang: es
+english: shrug
+current: encogimiento de hombros
+proposed: encogerse de hombros
+kind: wrong-word
+reason: The noun phrase, "a shrug of the shoulders", where the action is
+  encogerse de hombros.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "encoger".
+status: proposed
+
+id: 1323
+permalink: 1347
+lang: es
+english: remember
+current: recuerda
+proposed: recordar
+kind: wrong-form
+reason: Third person present, or the informal imperative. Either way not the
+  infinitive.
+displaced: recuerda | 3sg present indicative of recordar
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "recordar".
+status: proposed
+
+id: 1327
+permalink: 1351
+lang: es
+english: explain
+current: explique
+proposed: explicar
+kind: wrong-form
+reason: Present subjunctive, which doubles as the formal imperative.
+displaced: explique | 3sg present subjunctive of explicar
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "explicar".
+status: proposed
+
+id: 1347
+permalink: 1371
+lang: es
+english: imagine
+current: imagina
+proposed: imaginar
+kind: wrong-form
+reason: Informal imperative.
+displaced: imagina | 2sg informal imperative of imaginar
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "imaginar".
+status: proposed
