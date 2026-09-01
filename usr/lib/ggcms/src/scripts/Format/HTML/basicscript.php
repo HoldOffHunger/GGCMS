@@ -619,26 +619,15 @@
 				}
 			}
 			
-			if($this->primary_host_record) {
-				$primary_host_record = $this->primary_host_record;
-				
-				return $primary_host_record['Author'];
-			}
-			
-			
-			return FALSE;
+			return $this->handler->abstractglobals->site->Creator();
 		}
 		
 		public function GetHTMLFormatData_Contact() {
-			$primary_host_record = $this->primary_host_record;
-			
-			return $primary_host_record['Contact'];
+			return $this->handler->abstractglobals->site->Contact();
 		}
-		
+
 		public function GetHTMLFormatData_ReplyTo() {
-			$primary_host_record = $this->primary_host_record;
-			
-			return $primary_host_record['Contact'];
+			return $this->handler->abstractglobals->site->Contact();
 		}
 		
 		public function GetHTMLFormatData_WebAuthor() {
@@ -646,9 +635,7 @@
 		}
 		
 		public function GetHTMLFormatData_Copyright() {
-			$primary_host_record = $this->primary_host_record;
-			
-			return $primary_host_record['Copyright'];
+			return $this->handler->abstractglobals->site->Copyright();
 		}
 		
 			// Language
@@ -791,14 +778,13 @@
 			// Template
 		
 		public function GetHTMLFormatData_Template() {
-			if(!$this->parent['id']) {
-				$primary_host_record = $this->primary_host_record;
-				
-				if($primary_host_record['BaseTemplate']) {
-					return $primary_host_record['BaseTemplate'];
-				}
-			}
-			
+				/*
+					A BaseTemplate override lived in PrimaryHostRecord and was
+					never populated, so this has always returned the default.
+					Template selection is by directory now -- see
+					templates/<site>/ -- and no site needs a second mechanism.
+				*/
+
 			return 'html-templates/base-template.html';
 		}
 		
@@ -819,8 +805,8 @@
 		}
 		
 		public function GetHTMLFormatData_DCCreator() {
-			if($primary_host_record['Creator']) {
-				return $primary_host_record['Creator'];
+			if($this->handler->abstractglobals->site->Creator()) {
+				return $this->handler->abstractglobals->site->Creator();
 			}
 			
 			return FALSE;
@@ -835,20 +821,16 @@
 		}
 		
 		public function GetHTMLFormatData_DCPublisher() {
-			$primary_host_record = $this->primary_host_record;
-			
-			if($primary_host_record['Publisher']) {
-				return $primary_host_record['Publisher'];
+			if($this->handler->abstractglobals->site->Publisher()) {
+				return $this->handler->abstractglobals->site->Publisher();
 			}
 		
 			return FALSE;
 		}
 		
 		public function GetHTMLFormatData_DCContributor() {
-			$primary_host_record = $this->primary_host_record;
-			
-			if($primary_host_record['Contributor']) {
-				return $primary_host_record['Contributor'];
+			if($this->handler->abstractglobals->site->Contributor()) {
+				return $this->handler->abstractglobals->site->Contributor();
 			}
 			
 			return FALSE;
@@ -859,14 +841,17 @@
 				return $this->entry['OriginalCreationDate'];
 			}
 			
-			if($primary_host_record) {
-				$primary_host_record = $this->primary_host_record;
-				
-				if($primary_host_record['PublicReleaseDate']) {
-					return $primary_host_record['PublicReleaseDate'];
-				}
+				/*
+					The site's own release date is the primary top-level entry's
+					creation date.  The test that stood here read
+					$primary_host_record before the line below assigned it, so it
+					was false on its own account as well as on the property's.
+				*/
+
+			if($this->master_record && $this->master_record['id'] && $this->master_record['OriginalCreationDate']) {
+				return $this->master_record['OriginalCreationDate'];
 			}
-			
+
 			return '1970-01-01';
 		}
 		
@@ -920,10 +905,8 @@
 		
 		public function GetHTMLFormatData_DCRights() {
 			if(!$this->IsSecure()) {
-				$primary_host_record = $this->primary_host_record;
-				
-				if($primary_host_record['Rights']) {
-					return $primary_host_record['Rights'];
+				if($this->handler->abstractglobals->site->Rights()) {
+					return $this->handler->abstractglobals->site->Rights();
 				}
 				
 				return 'CopyLeft';
@@ -935,12 +918,12 @@
 			// Web Application
 		
 		public function GetHTMLFormatData_ApplicationName() {
-			$primary_host_record = $this->primary_host_record;
-			
-			if($primary_host_record['ApplicationName']) {
-				return $primary_host_record['ApplicationName'];
+				//  The site's name is the primary top-level entry's Title.
+
+			if($this->master_record && $this->master_record['id']) {
+				return $this->master_record['Title'];
 			}
-			
+
 			return FALSE;
 		}
 		

@@ -370,7 +370,7 @@
 		$creator = $this->handler->globals->SiteCreator();
 	}
 	// $this->handler->abstractglobals->script->GetAboutSubHeader();
-	$contact_creator_value = $this->primary_host_record['Contact'];
+	$contact_creator_value = $this->handler->abstractglobals->site->Contact();
 	if(strpos($contact_creator_value, '@') !== false) {
 		$contact_creator_value = '<a href="mailto:' . $contact_creator_value . '">' . $contact_creator_value . '</a>';
 	}
@@ -378,7 +378,7 @@
 	print(
 			'<div class="padding-5px horizontal-left font-family-arial">' .
 			'<p class="margin-0px margin-top-5px"><strong>' . $site_creator_text . ' :</strong> ' . $creator . '</p>' .
-			'<p class="margin-0px margin-top-5px"><strong>' . $site_created_on_text . ' :</strong> ' . $this->primary_host_record['PublicReleaseDate'] . '</p>' .
+			'<p class="margin-0px margin-top-5px"><strong>' . $site_created_on_text . ' :</strong> ' . $this->master_record['OriginalCreationDate'] . '</p>' .
 			'<p class="margin-0px margin-top-5px"><strong>' . $contact_creator_text . ' :</strong> ' . $contact_creator_value . '</p>' .
 			'</div>');
 	

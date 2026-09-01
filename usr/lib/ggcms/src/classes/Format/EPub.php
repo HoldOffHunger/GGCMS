@@ -121,7 +121,7 @@
 				}
 			}
 			
-			$package_opf .= ' EPub file created using software made by : ' . $primary_host_record['Creator'] . '.';
+			$package_opf .= ' EPub file created using software made by : ' . $this->script->handler->abstractglobals->site->Creator() . '.';
 			
 			$package_opf .= '</dc:creator>' . "\n" .
 				"\t\t" . '<dc:subject id="subject">';
@@ -158,12 +158,12 @@
 			$package_opf .= '</dc:description>' . "\n" .
 				"\t\t" . '<dc:publisher id="publisher">';
 			
-			$package_opf .= $primary_host_record['Publisher'];
+			$package_opf .= $this->script->handler->abstractglobals->site->Publisher();
 			
 			$package_opf .= '</dc:publisher>' . "\n" .
 				"\t\t" . '<dc:contributor id="contributor">';
 			
-			$package_opf .= $primary_host_record['Contributor'];
+			$package_opf .= $this->script->handler->abstractglobals->site->Contributor();
 			
 			$package_opf .= '</dc:contributor>' . "\n" .
 				"\t\t" . '<dc:date id="date">';
@@ -195,7 +195,7 @@
 				"\t\t" . '<dc:coverage id="coverage">eternity</dc:coverage>' . "\n" .
 				"\t\t" . '<dc:rights id="rights">';
 				
-			$package_opf .= $primary_host_record['Rights'];
+			$package_opf .= $this->script->handler->abstractglobals->site->Rights();
 			
 			$package_opf .= '</dc:rights>' . "\n\n" .
 				

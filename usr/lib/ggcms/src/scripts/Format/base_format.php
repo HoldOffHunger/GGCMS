@@ -388,7 +388,7 @@
 		
 		public function CleanseWhiteSpace($text) {
 			return trim($text);
-		}
+		}
 
 			// Document Title
 			// -----------------------------------------------

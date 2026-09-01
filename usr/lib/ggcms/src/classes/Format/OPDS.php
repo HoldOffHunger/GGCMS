@@ -53,9 +53,9 @@
 			$opds_header .= '  <id>' . $this->script->master_record['Code'] . '</id>' . "\n\n";
 			
 			$opds_header .= '  <title>' . $this->script->master_record['Title'] . '</title>' . "\n";
-			$opds_header .= '  <updated>' . $this->script->primary_host_record['PublicReleaseDate'] . '</updated>' . "\n";
+			$opds_header .= '  <updated>' . $this->script->master_record['OriginalCreationDate'] . '</updated>' . "\n";
 			$opds_header .= '  <author>' . "\n";
-			$opds_header .= '    <name>' . $this->script->primary_host_record['Creator'] . '</name>' . "\n";
+			$opds_header .= '    <name>' . $this->script->handler->abstractglobals->site->Creator() . '</name>' . "\n";
 			$opds_header .= '    <uri>' . $this->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]) . '</uri>' . "\n";
 			$opds_header .= '  </author>' . "\n";
 			

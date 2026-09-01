@@ -164,7 +164,7 @@
 			
 			$opening_headers .= "\t\t\t " . '<dc:Publisher>';
 			
-			$opening_headers .= $primary_host_record['Publisher'];
+			$opening_headers .= $this->script->handler->abstractglobals->site->Publisher();
 			
 			$opening_headers .= '</dc:Publisher>' . "\n";
 			
@@ -226,7 +226,7 @@
 			$opening_headers .= '">' . "\n";
 			
 			$opening_headers .= "\t\t\t" . '<meta name="dtb:sourceRights" content="';
-			$opening_headers .= $primary_host_record['Rights'];
+			$opening_headers .= $this->script->handler->abstractglobals->site->Rights();
 			$opening_headers .= '".' . "\n";
 			
 			$opening_headers .= "\t\t\t" . '<meta name="dtb:sourceTitle" content="';
@@ -350,7 +350,7 @@
 			$opening_headers .= '">' . "\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="copyright" content="';
-			$opening_headers .= $primary_host_record['Copyright'];
+			$opening_headers .= $this->script->handler->abstractglobals->site->Copyright();
 			$opening_headers .= '">' . "\n\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="language" content="English">' . "\n\n";
@@ -360,7 +360,7 @@
 			$opening_headers .= "\t\t" . '<meta name="doc-class" content="Published">' . "\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="doc-rights" content="';
-			$opening_headers .= $primary_host_record['Rights'];
+			$opening_headers .= $this->script->handler->abstractglobals->site->Rights();
 			$opening_headers .= '">' . "\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="resource-type" content="document">' . "\n";
@@ -368,7 +368,7 @@
 			$opening_headers .= "\t\t" . '<meta name="rating" content="general">' . "\n\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="designer" content="';
-			$opening_headers .= $primary_host_record['Creator'];
+			$opening_headers .= $this->script->handler->abstractglobals->site->Creator();
 			$opening_headers .= '">' . "\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="generator" content=';
@@ -397,7 +397,7 @@
 			$opening_headers .= "\t\t" . '<meta name="NCC:page-special" content="0">' . "\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="NCC:publisher" content="';
-			$opening_headers .= $primary_host_record['Publisher'];
+			$opening_headers .= $this->script->handler->abstractglobals->site->Publisher();
 			$opening_headers .= '">' . "\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="NCC:identifier" content="';

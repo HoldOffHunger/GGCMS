@@ -34,6 +34,17 @@
 			return '';
 		}
 
+			/*
+				The address the site answers on, for the contact and reply-to
+				meta tags every page carries.  AbstractGlobals_contact has its
+				own GetEmailContact() for the contact page's body; this is the
+				site-wide one, because the meta tags are on every script.
+			*/
+
+		public function Contact() {
+			return '';
+		}
+
 				// Readiness
 				// -----------------------------------------------
 
