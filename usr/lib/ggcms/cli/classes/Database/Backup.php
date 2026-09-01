@@ -232,7 +232,22 @@
 			print(PHP_EOL . PHP_EOL);
 			print('    ');
 			
-			$mysqldump = 'nice mysqldump --max_allowed_packet=1M --default-character-set=latin1 --skip-set-charset --no-tablespaces -N --routines --quick --skip-triggers --set-gtid-purged=OFF ' . $this->host . ' > ' . $this->file_location;
+			/*
+				utf8mb4 on the connection, and SET NAMES left in the file.
+
+				This dumped through a latin1 connection until 1 September 2026, and
+				that is lossy.  MySQL's latin1 is really cp1252, so dashes and curly
+				quotes did survive -- but nothing beyond cp1252 did, and it failed
+				silently.  Measured on revoltlib the day it was found: 35 titles, 9
+				text bodies and 1 description restored as question marks.
+
+				Every dump taken before that date is a cp1252 file carrying no SET
+				NAMES, and has to be restored the way it was written:
+				`mysql --default-character-set=latin1`.  A file from before the change
+				and a file from after are not interchangeable, and nothing in the
+				filename says which one you are holding.
+			*/
+			$mysqldump = 'nice mysqldump --max_allowed_packet=1M --default-character-set=utf8mb4 --no-tablespaces -N --routines --quick --skip-triggers --set-gtid-purged=OFF ' . $this->host . ' > ' . $this->file_location;
 			
 			$mysqldump_pieces = explode(' ', $mysqldump);
 			print(implode(PHP_EOL . '    ', $mysqldump_pieces));

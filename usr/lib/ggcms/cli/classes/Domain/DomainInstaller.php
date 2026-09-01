@@ -493,7 +493,15 @@ Error: POST https://api.digitalocean.com/v2/domains/sortwords.com/records: 422 (
 		public function importCloneFromSource() {
 			print("Importing clonefrom.sql template database.\n\n");
 			
-			$import_sql_command = 'mysql ' . $this->host . ' < ' . GGCMS_CLI_DIR . $this->source_filename;
+				/*
+					Named rather than left to the client default, so the read matches
+					the write in rebuildCloneFromSource().  The template's text is
+					ASCII and its high bytes are inside _binary literals, which no
+					connection charset touches, so this is about not drifting rather
+					than about repairing anything.
+				*/
+
+			$import_sql_command = 'mysql --default-character-set=utf8mb4 ' . $this->host . ' < ' . GGCMS_CLI_DIR . $this->source_filename;
 			
 			$output = shell_exec($import_sql_command);
 			
@@ -522,7 +530,7 @@ Error: POST https://api.digitalocean.com/v2/domains/sortwords.com/records: 422 (
 				unlink(GGCMS_CLI_DIR . $this->source_filename);
 			}
 			
-			$mysql_dump_args = '--default-character-set=latin1 --skip-set-charset --no-tablespaces -N --routines --skip-triggers --set-gtid-purged=OFF';
+			$mysql_dump_args = '--default-character-set=utf8mb4 --no-tablespaces -N --routines --skip-triggers --set-gtid-purged=OFF';
 			$mysql_dump_command = 'mysqldump ' . $mysql_dump_args . ' clonefrom > ' . GGCMS_CLI_DIR . $this->source_filename;
 			
 			$output = shell_exec($mysql_dump_command);

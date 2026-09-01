@@ -26,6 +26,28 @@ are not the same thing.
 > in this document is about the encoding job itself and survives whatever
 > replaces those classes.
 
+## A dump is an encoding boundary too
+
+`mysqldump` transcodes to the connection charset on the way out, so the flags
+on a backup decide what survives it. Until 1 September 2026 every dump went
+through `--default-character-set=latin1 --skip-set-charset`, which is lossy
+against a `utf8mb3` schema and silent about it.
+
+MySQL's `latin1` is really cp1252, which is why it looked fine for so long --
+en dashes, em dashes and curly quotes are all inside cp1252 and came back
+correctly. Everything beyond it did not. Measured on revoltlib the day it was
+found: 35 titles, 9 text bodies and 1 description would restore as question
+marks.
+
+Both dump sites and the clone import now name `utf8mb4` -- `Backup.php`,
+and `rebuildCloneFromSource()` and `importCloneFromSource()` in
+`DomainInstaller.php`.
+
+**Dumps taken before that date are cp1252 files with no `SET NAMES` in them.**
+They must be restored the way they were written, with
+`mysql --default-character-set=latin1`. Nothing in the filename tells you
+which kind you are holding, so check the date.
+
 ## Know which of the two encodings you need
 
 The engine has both halves of every encoding job, and they are not
