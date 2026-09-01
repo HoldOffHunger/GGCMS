@@ -100,6 +100,26 @@ methods `return TRUE;` at the end rather than falling off.
         // -----------------------------------------------
 ```
 
+## Arrays are `[]`, never `array()`
+
+Short array syntax everywhere, in declarations and in `$args` hashes alike.
+The engine, the CLI and the page scripts are already written this way.
+
+`usr/lib/ggcms/dep/` is exempt. Vendor code is not ours to restyle, and a
+local edit there is lost the next time the dependency is replaced.
+
+The admin templates are the unconverted pocket -- 2,354 `array(`
+constructors survive outside `dep/`, 1,947 of them under
+`templates/default/systemstatus`. That is a stalled migration, not a second
+convention.
+
+**Convert a call site when you are already editing it. Do not sweep.** The
+reason is on the record: the last sweep is what left
+`ViewMySQLProcedureStatusTable.php` opening an array with `[` and closing it
+with `);`, a parse error in a file nothing loads, undetected until a bracket
+sweep found it in September 2026. A conversion you are not testing is a
+conversion that can sit broken for years.
+
 ## Loading
 
 There is no namespacing and no autoloader. Files are required explicitly.
