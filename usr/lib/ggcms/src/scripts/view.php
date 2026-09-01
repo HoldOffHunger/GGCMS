@@ -220,6 +220,7 @@
 				return FALSE;
 			}
 			$this->SetTagParameters();
+			$this->SetTagDefinition();
 			//SetChildRecordCount
 			$this->SetEntryRecordCount();
 			$this->SetBrowseParameters();
@@ -254,6 +255,44 @@
 							// Browse Helper Functionality
 							// ---------------------------------------------
 		
+		/*
+			A keyword may be a word, and a word may have a definition in
+			alldictionaries -- 113,609 of them, shared by every site, because a
+			word means the same thing whoever is asking.
+
+			Only this page looks one up.  The dictionary object exists only when
+			clonefrom/scripts/view.php said this action wants it, so its absence
+			is normal and silent rather than an error.
+		*/
+
+		public function SetTagDefinition() {
+			$this->definitions = [];
+			$this->definition_count = 0;
+
+			if(!$this->tag) {
+				return FALSE;
+			}
+
+			if(!$this->handler->dictionary) {
+				return FALSE;
+			}
+
+			$definitions = $this->handler->dictionary->LookupWords([
+				'words'=>[$this->tag],
+			]);
+
+			$found = $definitions[strtolower($this->tag)];
+
+			if(!$found) {
+				return FALSE;
+			}
+
+			$this->definitions = $found;
+			$this->definition_count = count($found);
+
+			return TRUE;
+		}
+
 		public function SetTagParameters() {
 			$this->tag = $this->Param('tag');
 			$this->tag_cleansed = $this->CleanseForDisplay($this->tag);

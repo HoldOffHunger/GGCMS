@@ -261,8 +261,36 @@
 			return $this->language = $language;
 		}
 		
+		/*
+			The dictionary is a second database on a second connection, so it is
+			built for the pages that read it rather than for every request.
+
+			Which pages those are is script-level AbstractGlobals config --
+			clonefrom/scripts/view.php names browseByTag, and a domain that is
+			itself a dictionary overrides it in com.wordweight/scripts/view.php.
+			The action is known by here: Construct_Action runs nine lines earlier.
+		*/
+
+		public function Construct_Dictionaries_Wanted() {
+			if(!property_exists($this->abstractglobals, 'script')) {
+				return FALSE;
+			}
+
+			if(!is_object($this->abstractglobals->script)) {
+				return FALSE;
+			}
+
+			if(!method_exists($this->abstractglobals->script, 'Dictionary_enabled')) {
+				return FALSE;
+			}
+
+			return $this->abstractglobals->script->Dictionary_enabled([
+				'action'=>$this->desired_action,
+			]);
+		}
+
 		public function Construct_Dictionaries() {
-			if($this->globals->EnableDictionaries()) {
+			if($this->globals->EnableDictionaries() && $this->Construct_Dictionaries_Wanted()) {
 				$folder_location_prefix = GGCMS_DIR . 'classes/';
 				require($folder_location_prefix . 'Language/Dictionary' . '.php');
 				

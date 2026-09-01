@@ -137,6 +137,50 @@
 			// -------------------------------------------------------------
 		
 		print('</div>');
+
+				//  Keyword Definition
+			
+			//  A keyword may be a word, and a word may be in alldictionaries.
+			//  view.php fills this only for this action, and only when the
+			//  dictionary was loaded, so an empty list here is ordinary.
+		
+		if($this->definition_count) {
+			print('<div class="horizontal-center width-90percent">');
+		
+			for($definition_index = 0; $definition_index < $this->definition_count; $definition_index++) {
+				$definition = $this->definitions[$definition_index];
+		
+				print('<div class="border-2px background-color-gray15 margin-5px horizontal-left">');
+				print('<div class="span-header-3"><p style="margin:5px;padding:5px;border:black 2px solid;background-color:#FFFFFF;" class="header-3 padding-0px margin-5px horizontal-left font-family-tahoma"><span>');
+		
+				if($definition['Pronunciation']) {
+					print('<strong>Pronunciation : </strong>' . $definition['Pronunciation'] . '<br>');
+				}
+		
+				if($definition['PartOfSpeech']) {
+					print('<strong>Part of Speech : </strong>' . $definition['PartOfSpeech'] . '<br>');
+				}
+		
+				if($definition['Etymology']) {
+					print('<strong>Etymology : </strong>' . $definition['Etymology'] . '<br>');
+				}
+		
+				if($definition['Definition']) {
+					print('<strong>Definition : </strong>' . str_replace("
+", "<BR>
+", $definition['Definition']) . '<br>');
+				}
+		
+				if($definition['DictionaryTitle']) {
+					print('<strong>Source : </strong>' . $definition['DictionaryTitle']);
+				}
+		
+				print('</span></p></div>');
+				print('</div>');
+			}
+		
+			print('</div>');
+		}
 	
 			// Finish Breadcrumb Trails
 		
