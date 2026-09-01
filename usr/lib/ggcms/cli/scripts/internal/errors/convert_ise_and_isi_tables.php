@@ -7,12 +7,12 @@
 	require(GGCMS_DIR . 'classes/System/GlobalFunctions.php');
 	require(GGCMS_CLI_DIR . 'system/StandardCLIFunctions.php');
 
-	require(GGCMS_CLI_DIR . 'classes/Errors/MigrateErrorQueues.php');
+	require(GGCMS_CLI_DIR . 'classes/Errors/ConvertISEandISITables.php');
 
-	$migrateerrorqueues = new MigrateErrorQueues([
+	$convertiseandisitables = new ConvertISEandISITables([
 		'argv'=>$argv,
 	]);
 
-	$migrateerrorqueues->migrateErrorQueues();
+	$convertiseandisitables->convertISEandISITables();
 
 ?>

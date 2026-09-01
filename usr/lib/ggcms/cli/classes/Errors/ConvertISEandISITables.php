@@ -3,6 +3,7 @@
 	depreq('arr2textTable/arr2textTable.php');
 
 	clireq('traits/DBAccess.php');
+	clireq('traits/DomainValidation.php');
 	clireq('traits/CLIAccess.php');
 	clireq('traits/GlobalsTrait.php');
 	clireq('traits/MySQLDatabases.php');
@@ -11,7 +12,7 @@
 	clireq('traits/MySQLClustersInternalDatabases.php');
 
 		/*
-			One-off migration from journal-shaped error and issue queues to
+			One-off conversion of the ISE and ISI tables from journal-shaped to
 			counted ones.  Before this, every occurrence of a fault was its own
 			row carrying a print_r() of the whole handler; one rotated log held
 			2,300,533 copies of a single mysqli_close() fatal.
@@ -35,10 +36,16 @@
 			Occurrences from here on each get an Instance row.
 
 			Safe to run twice: every step tests for its own effect first.
+
+			Kept after it has been run.  A one-off script is the only durable record
+			of a shape the database no longer has, and it is a better record than a
+			document because it cannot drift from what actually happened -- the
+			steps below are the steps that ran.
 		*/
 
-	class MigrateErrorQueues {
+	class ConvertISEandISITables {
 		use DBAccess;
+		use DomainValidation;
 		use CLIAccess;
 		use GlobalsTrait;
 		use MySQLDatabases;
@@ -46,18 +53,25 @@
 		use MySQLGGCMSInternalDatabases;
 		use MySQLClustersInternalDatabases;
 
-		public function migrateErrorQueues() {
+		public function convertISEandISITables() {
 			$this->setHandle();
 			$this->bannerMessage();
 
 			$this->setGlobals();
-			$this->migrateAllDatabases();
+			$this->migrateDatabases();
 
 			return TRUE;
 		}
 
-		public function migrateAllDatabases() {
-			$databases = $this->getUserMySQLDatabases();
+			/*
+				This deletes rows, so it defaults to the narrowest scope it has: one
+				domain, named on the command line or asked for.  `all` is the explicit
+				opt-in for every database at once, and is worth earning by migrating a
+				small site first and reading the before-and-after numbers.
+			*/
+
+		public function migrateDatabases() {
+			$databases = $this->migrateDatabases_Chosen();
 
 			foreach($databases as $database) {
 				print(PHP_EOL . $database . PHP_EOL);
@@ -79,9 +93,31 @@
 				]);
 			}
 
-			print(PHP_EOL . 'Error and issue queues migrated for all domains.' . PHP_EOL . PHP_EOL);
+			print(PHP_EOL . 'Error and issue queues migrated.' . PHP_EOL . PHP_EOL);
 
 			return TRUE;
+		}
+
+		public function migrateDatabases_Chosen() {
+			if($this->DomainArgumentIsAll()) {
+				print('Migrating every database.' . PHP_EOL);
+
+				return $this->getUserMySQLDatabases();
+			}
+
+			if(!$this->setDomain()) {
+				return $this->cancelAction(['message'=>'Invalid domain.  Please submit a FQDN in the form of `example.com`, or `all`.']);
+			}
+
+			return [$this->host];
+		}
+
+		public function DomainArgumentIsAll() {
+			if(!array_key_exists(1, $this->argv)) {
+				return FALSE;
+			}
+
+			return strtolower(trim($this->argv[1])) === 'all';
 		}
 
 		public function migrateTable($args) {
@@ -259,11 +295,11 @@
 		}
 
 		public function bannerMessageText() {
-			return 'Migrate Error And Issue Queues';
+			return 'Convert The ISE And ISI Tables';
 		}
 
 		public function confirmDomainText() {
-			return 'Migrating Queues For: ';
+			return 'Converting Tables For: ';
 		}
 	}
 

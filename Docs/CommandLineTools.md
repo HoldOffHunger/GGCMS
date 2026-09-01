@@ -135,7 +135,7 @@ that this file exists.
 | `server_issue_counts.php` | Counts logged issues |
 | `clear_server_errors.php` | Clears the error log |
 | `clear_server_error_by_url.php` | Clears errors for one URL |
-| `migrate_error_queues.php` | One-off: rolls the queues up into counted tickets |
+| `convert_ise_and_isi_tables.php` | One-off: rolls the ISE and ISI tables up into counted tickets |
 
 Because `index.php` sets `error_reporting(0)`, these logs are frequently the
 **only** evidence that anything is wrong. A silently broken page and a working
@@ -148,8 +148,9 @@ occurrences are dates and URLs in `InternalServerErrorInstance` and
 is the ordinary shape of a bad week, and the warroom's ticket page lists the
 fifty most recent occurrences underneath the defect.
 
-`migrate_error_queues.php` converts a host that predates that. It is safe to
-run twice and it deletes the duplicate rows, so take a database backup first.
+`convert_ise_and_isi_tables.php` converts a host that predates that. It takes
+one domain, or `all`; it is safe to run twice and it deletes the duplicate
+rows, so take a database backup first and do one small site before `all`.
 
 ### Database file cache — `scripts/internal/db_cache/`
 
