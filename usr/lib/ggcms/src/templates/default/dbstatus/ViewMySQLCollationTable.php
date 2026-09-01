@@ -88,7 +88,7 @@
 				'border-1px width-100percent vertical-top',
 				'border-1px width-100percent vertical-top',
 			],
-		,
+		],
 		'list'=>$this->StatusDataArray,
 	];
 	$generic_list->Display($version_list_display_args);

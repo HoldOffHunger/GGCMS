@@ -65,7 +65,7 @@
 		'leftimageenable'=>1,
 		'rightimageenable'=>0,
 		'link'=>'master-c.php',
-	);
+	];
 	
 	$header->display($return_to_master_c_args);
 	

@@ -17,7 +17,7 @@
 			$this->setHandle();
 			$this->bannerMessage();
 			
-			$this->setDomain()) {
+			if(!$this->setDomain()) {
 				return $this->cancelAction(['message'=>'Invalid domain.  Please submit a FQDN in the form of `example.com`.']);
 			}
 			

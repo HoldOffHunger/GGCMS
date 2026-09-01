@@ -38,7 +38,7 @@
 				$list = $args['list'];
 				$level = $args['level'];
 				
-				foreach ($list as $listkey => $listoption) 
+				foreach ($list as $listkey => $listoption) {
 					$text = $listoption['text'];
 					$link = $listoption['link'];
 					$mouseover = $listoption['mouseover'];
