@@ -81,8 +81,6 @@
 		}
 		
 		public function SetPackageOPF() {
-			$primary_host_record = $this->script->primary_host_record;
-			
 			$package_opf =
 				'<?xml version="1.0" encoding="UTF-8"?>' . "\n\n" .
 				'<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="id">' . "\n\n" .
@@ -126,17 +124,7 @@
 			$package_opf .= '</dc:creator>' . "\n" .
 				"\t\t" . '<dc:subject id="subject">';
 			
-			$subject = $primary_host_record['Subject'];
-			
-			if($primary_host_record['NewsKeywords']) {
-				if($subject) {
-					$subject .= ', ';
-				}
-				
-				$subject .= $primary_host_record['NewsKeywords'];
-			}
-			
-			$package_opf .= $subject;
+			$package_opf .= $this->script->SiteKeywords();
 			
 			$package_opf .= '</dc:subject>' . "\n\n" .
 				

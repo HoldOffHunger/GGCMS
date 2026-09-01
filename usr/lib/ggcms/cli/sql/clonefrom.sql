@@ -857,34 +857,6 @@ LOCK TABLES `LookupListItem` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `PrimaryHostRecord`
---
-
-DROP TABLE IF EXISTS `PrimaryHostRecord`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `PrimaryHostRecord` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `RecordKey` varchar(255) NOT NULL DEFAULT '',
-  `RecordValue` varchar(255) NOT NULL DEFAULT '',
-  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  PRIMARY KEY (`id`),
-  KEY `Parentid` (`RecordKey`),
-  KEY `Childid` (`RecordValue`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `PrimaryHostRecord`
---
-
-LOCK TABLES `PrimaryHostRecord` WRITE;
-/*!40000 ALTER TABLE `PrimaryHostRecord` DISABLE KEYS */;
-/*!40000 ALTER TABLE `PrimaryHostRecord` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `Quote`
 --
 

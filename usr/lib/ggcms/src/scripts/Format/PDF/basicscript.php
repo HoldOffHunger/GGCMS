@@ -86,31 +86,9 @@
 					$subject .= $record_to_use['Subtitle'];
 				}
 			} else {
-				$primary_host_record = $this->primary_host_record;
-				
-				if($primary_host_record) {
-					if($primary_host_record['Subject']) {
-						$subject .= $primary_host_record['Subject'];
-					}
-					
-					if($primary_host_record['Classification']) {
-						if($subject) {
-							$subject .= ', ';
-						}
-						
-						$subject .= $primary_host_record['Classification'];
-					}
-					
-					if($primary_host_record['NewsKeywords']) {
-						if($subject) {
-							$subject .= ', ';
-						}
-						
-						$subject .= $primary_host_record['NewsKeywords'];
-					}
-				}
+				$subject .= $this->SiteKeywords();
 			}
-			
+
 			return $subject;
 		}
 		

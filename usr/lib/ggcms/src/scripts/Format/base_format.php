@@ -50,32 +50,69 @@
 					$subject .= $record_to_use['Subtitle'];
 				}
 			} else {
-				$primary_host_record = $this->primary_host_record;
-				
-				if($primary_host_record) {
-					if($primary_host_record['Subject']) {
-						$subject .= $primary_host_record['Subject'];
-					}
-					
-					if($primary_host_record['Classification']) {
-						if($subject) {
-							$subject .= ', ';
-						}
-						
-						$subject .= $primary_host_record['Classification'];
-					}
-					
-					if($primary_host_record['NewsKeywords']) {
-						if($subject) {
-							$subject .= ', ';
-						}
-						
-						$subject .= $primary_host_record['NewsKeywords'];
-					}
-				}
+				$subject .= $this->SiteKeywords();
 			}
-			
+
 			return $subject;
+		}
+
+			/*
+				What the site is about, when there is no entry to speak for
+				itself: the primary top-level entry's tags.
+
+				These were three columns in PrimaryHostRecord -- Subject,
+				Classification and NewsKeywords -- and every reader of them
+				concatenated all three back into one comma-separated list, which
+				is a tag list written the long way round.  The entry already
+				carries tags, GetMasterRecord() already fetches them, and the
+				file cache already holds them, so there is nothing to load.
+
+				Tags carry a Language.  An untagged language matches everything,
+				which is how a site with one set of tags keeps them in every
+				translation.
+			*/
+
+		public function SiteKeywords() {
+			if(!$this->master_record || !$this->master_record['tag']) {
+				return '';
+			}
+
+			$language_code = $this->handler->language->GetLanguageCode();
+
+			$tags = [];
+
+			foreach($this->master_record['tag'] as $tag) {
+				if($tag['Language'] && $tag['Language'] !== $language_code) {
+					continue;
+				}
+
+				if(!$tag['Tag']) {
+					continue;
+				}
+
+				$tags[] = $tag['Tag'];
+			}
+
+			return implode(', ', $tags);
+		}
+
+			/*
+				The site's own icon, which was PrimaryImageLeft: the first image
+				child of the primary top-level entry.  PrimaryImageRight had two
+				call sites, both commented out, and is not replaced.
+
+				Image is disabled by default in child_types, so a site that has
+				not enabled it gets nothing here rather than a warning.
+			*/
+
+		public function SitePrimaryIcon() {
+			if(!$this->master_record || !$this->master_record['image']) {
+				return '';
+			}
+
+			$image = $this->master_record['image'][0];
+
+			return $image['IconFileName'];
 		}
 		
 		public function SetRecordToUseForMetadata() {

@@ -99,7 +99,7 @@
 								$display_image = $this->that->master_record['image'][0];
 							} else {
 								$display_image = [
-									'IconFileName'=>$this->that->primary_host_record['PrimaryImageLeft'],
+									'IconFileName'=>$this->that->SitePrimaryIcon(),
 									'IconPixelWidth'=>200,
 									'IconPixelHeight'=>200,
 								];

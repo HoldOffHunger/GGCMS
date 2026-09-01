@@ -43,7 +43,6 @@
 | Link                  |
 | LookupList            |
 | LookupListItem        |
-| PrimaryHostRecord     |
 | Quote                 |
 | RecordChange          |
 | Suggestion            |

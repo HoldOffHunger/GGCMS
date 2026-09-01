@@ -404,7 +404,7 @@
 			}
 			
 			$display_image = [
-				'IconFileName'=>$this->that->primary_host_record['PrimaryImageLeft'],
+				'IconFileName'=>$this->that->SitePrimaryIcon(),
 				'IconPixelWidth'=>200,
 				'IconPixelHeight'=>200,
 			];

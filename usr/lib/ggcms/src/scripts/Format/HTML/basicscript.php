@@ -553,38 +553,29 @@
 		}
 		
 		public function GetHTMLFormatData_NewsKeywords() {
-			$primary_host_record = $this->primary_host_record;
-			
-			if($this->handler->language->getLanguageCode() === 'en') {
-				$news_keywords_text = $primary_host_record['NewsKeywords'];
-			} else {
+			if($this->handler->language->getLanguageCode() !== 'en') {
 				$main_news_keyword_language_translations = $this->getListAndItems(['ListTitle'=>'LanguagesMainNewsKeywords']);
-				
+
 				if($main_news_keyword_language_translations[$this->handler->language->getLanguageCode()]) {
-					$news_keywords_text = $main_news_keyword_language_translations[$this->handler->language->getLanguageCode()];
-				} else {
-					$news_keywords_text = $primary_host_record['NewsKeywords'];
+					return $main_news_keyword_language_translations[$this->handler->language->getLanguageCode()];
 				}
 			}
-			
-			return $news_keywords_text;
+
+			return $this->SiteKeywords();
 		}
 		
 		public function GetHTMLFormatData_Classification() {
 			if(!$this->parent['id']) {
-				$primary_host_record = $this->primary_host_record;
-				
-				if($this->handler->language->getLanguageCode() === 'en') {
-					$classification_text = $primary_host_record['Classification'];
-				} else {
+				$classification_text = $this->SiteKeywords();
+
+				if($this->handler->language->getLanguageCode() !== 'en') {
 					$main_classification_language_translations = $this->getListAndItems(['ListTitle'=>'LanguagesMainClassification']);
-					
+
 					if($main_classification_language_translations[$this->handler->language->getLanguageCode()]) {
 						$classification_text = $main_classification_language_translations[$this->handler->language->getLanguageCode()];
-					} else {
-						$classification_text = $primary_host_record['Classification'];
 					}
 				}
+
 				return $this->classification = $classification_text;
 			} elseif($this->parent && $this->parent['id']) {
 				$classification = $this->parent['Title'];

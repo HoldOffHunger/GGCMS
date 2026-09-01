@@ -130,17 +130,7 @@
 			
 			$opening_headers .= "\t\t\t " . '<dc:Subject>';
 			
-			$subject = $primary_host_record['Subject'];
-			
-			if($primary_host_record['NewsKeywords']) {
-				if($subject) {
-					$subject .= ', ';
-				}
-				
-				$subject .= $primary_host_record['NewsKeywords'];
-			}
-			
-			$opening_headers .= $subject;
+			$opening_headers .= $this->script->SiteKeywords();
 			
 			$opening_headers .= '</dc:Subject>' . "\n";
 			
@@ -342,7 +332,7 @@
 			$opening_headers .= '">' . "\n\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="classification" content="';
-			$opening_headers .= $primary_host_record['Classification'];
+			$opening_headers .= $this->script->SiteKeywords();
 			$opening_headers .= '">' . "\n\n";
 			
 			$opening_headers .= "\t\t" . '<meta name="author" content="';
