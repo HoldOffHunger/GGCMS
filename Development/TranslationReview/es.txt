@@ -86,3 +86,107 @@ reason: Missing the acute accent. Dragón is stressed on the last syllable and
 source: Real Academia Española, Ortografía de la lengua española, on the
   accentuation of agudas ending in -n; and s.v. "dragón".
 status: proposed
+
+# --- Wave 1 candidates, block 2: animals 46-84, verbs 1068-1133 ---
+
+id: 60
+permalink: 84
+lang: es
+english: Killer Whale
+current: Ballena asesina
+proposed: Orca
+kind: wrong-word
+reason: A calque of the English. Spanish has its own name, and orca is what
+  the animal is called.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "orca" — "Cetáceo de la familia de los Delfínidos".
+status: proposed
+
+id: 66
+permalink: 90
+lang: es
+english: Cheetah
+current: Leopardo cazador
+proposed: Guepardo
+kind: wrong-word
+reason: Invented compound. A cheetah is not a kind of leopard, and no Spanish
+  speaker says leopardo cazador.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "guepardo".
+status: proposed
+
+id: 78
+permalink: 102
+lang: es
+english: Chicken
+current: Pollo
+proposed: Gallina
+kind: wrong-sense
+reason: Pollo is the meat, and a young bird. The animal on a farm is a
+  gallina. Same fault as Fish rendered as pescado.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "gallina" and s.v. "pollo".
+status: proposed
+
+id: 73
+permalink: 97
+lang: es
+english: Honey Bee
+current: Abeja De La Miel
+proposed: Abeja melífera
+kind: orthography
+reason: English title casing applied to Spanish, which does not capitalise
+  every word. The set phrase is abeja melífera.
+source: Real Academia Española, Ortografía de la lengua española, on
+  capitalisation in Spanish; and s.v. "melífero".
+status: proposed
+
+id: 1099
+permalink: 1123
+lang: es
+english: lift
+current: ascensor
+proposed: levantar
+kind: wrong-word
+reason: An ascensor is an elevator. The English verb was read as a noun, which
+  is the single most common failure across this vocabulary.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "levantar" and s.v. "ascensor".
+status: proposed
+
+id: 1098
+permalink: 1122
+lang: es
+english: press
+current: prensa
+proposed: presionar
+kind: wrong-word
+reason: La prensa is the newspapers. The verb is presionar, or pulsar for a
+  button.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "prensa" and s.v. "presionar".
+status: proposed
+
+id: 1082
+permalink: 1106
+lang: es
+english: break
+current: descanso
+proposed: romper
+kind: wrong-word
+reason: Descanso is a rest — the noun sense of "a break". The verb is romper.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "romper" and s.v. "descanso".
+status: proposed
+
+id: 1076
+permalink: 1100
+lang: es
+english: put
+current: put
+proposed: poner
+kind: untranslated
+reason: Passed through unchanged.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "poner".
+status: proposed
