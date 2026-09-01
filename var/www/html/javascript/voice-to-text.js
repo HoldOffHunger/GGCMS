@@ -175,6 +175,9 @@ $(document).ready(function(event){
 		
 		if(matched) {
 			$(matchedlessonword).parent('div').css('background-color', '#00CC00');
+			$(matchedlessonword).parent('div').attr('title', 'Pronounced correctly');
+			$(matchedlessonword).parent('div').css('font-weight', 'bold');
+			$(matchedlessonword).parent('div').css('outline', '3px solid #000000');
 			return true;
 		}
 		

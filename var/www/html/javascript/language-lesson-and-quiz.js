@@ -90,7 +90,7 @@ $(document).ready(function(event){
 		else
 		{
 			$('#error-message').html('Incorrect.');
-			$('#message-container').css('background-color','#FF0000');
+			$('#message-container').css('background-color','#FF8800');
 		}
 	});
 	

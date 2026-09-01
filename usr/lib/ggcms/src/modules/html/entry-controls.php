@@ -32,9 +32,9 @@
 			
 			print('<div class="border-2px background-color-gray15 margin-5px float-left"');
 			if($that->entry['Publish']) {
-				print(' style="background-color:#00CC00"');
+				print(' style="background-color:' . $that->handler->globals->SuccessColour() . '"');
 			} else {
-				print(' style="background-color:#FF0000"');
+				print(' style="background-color:' . $that->handler->globals->FailColour() . '"');
 			}
 			print('>');
 			print('<h2 class="horizontal-left margin-5px font-family-arial">');
@@ -248,7 +248,7 @@
 			print('<div style="width:50%;" class="horizontal-center">');
 			print('<div style="text-align:left;" class="font-family-arial width-100percent background-color-gray14 border-2px margin-top-5px">');
 			
-			print('<div style="float:left;border:2px solid black;background-color:#FF0000; margin:3px;">');
+			print('<div style="float:left;border:2px solid black;background-color:' . $that->handler->globals->FailColour() . '; margin:3px;">');
 			print('<h3 style="font-size:2em;margin:0px;margin:3px;">');
 			print('<i>');
 			print('Unpublished!');

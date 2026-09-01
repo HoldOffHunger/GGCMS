@@ -617,6 +617,34 @@
 						// Styling Info
 						// -------------------------------------------------------------------
 		
+			/*
+				The pass/fail pair, in one place, so the two can be checked against
+				each other rather than drifting apart across templates.
+
+				Fail defaults to orange rather than red, and the reason is luminance
+				before it is hue.  Red carries only about a fifth of perceived
+				brightness, so #FF0000 is genuinely dim -- muddy on a dark background
+				for everyone, and close to black for the red-weak, who are most of
+				the roughly eight per cent of men with a colour deficiency.  Orange
+				is far brighter and reads at a glance.
+
+				It is not a complete answer.  Orange against green is still the
+				red-green axis, distinguished mostly by brightness.  The complete
+				answer is to never let colour be the only channel -- say Correct or
+				Incorrect, print Public or Unpublished, as the templates already do.
+				These are for the decoration over that text.
+
+				Override per domain to opt back into hard red.
+			*/
+
+		public function SuccessColour() {
+			return '#00CC00';
+		}
+
+		public function FailColour() {
+			return '#FF8800';
+		}
+
 		public function Styling() {
 			return [
 				'PrimaryColor'=>'6495ED',
