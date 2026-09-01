@@ -24,6 +24,43 @@ to the thing, not to another word.* You did not learn your first language by
 being told that "dog" means anything. That instinct is the product's actual
 differentiator and nothing about the current design foregrounds it.
 
+## The values are the design brief
+
+The author's, and they are not decoration:
+
+> Not like DuoLingo, but a culture-positive approach. Something that respects
+> the cultures and believes in the cultures. The name is awesome too --
+> Earth-Fluent? Fluent in Earth? It's almost pro-human-unity in its inference.
+> DuoLingo just sucks as a name. Two-Languages. That sucks compared to global
+> human unity.
+
+He is right, and the comparison is sharper than it first sounds. *Duolingo*
+names a mechanism: two languages, a conversion between them. *EarthFluent*
+names an aspiration, and puts the whole planet on one side of the word. One is
+a utility, the other is a position. A product whose name is already an argument
+should not be dressed in a way that undercuts it.
+
+Which turns straight into design decisions rather than sentiment:
+
+* **Cultures are the subject, not the theme.** The header slideshow is the
+  product's thesis in visual form. Build outward from it; do not let it become
+  a texture behind a card.
+* **No mascot.** A cartoon animal standing in front of a culture is the
+  category's default and it is precisely the wrong posture here. The point is
+  that the culture is worth your attention, not that a bird wants your streak.
+* **Real photography, credited.** Attribution is not a legal chore in this
+  frame, it is the values showing. A named photographer and a named place is
+  respect made visible.
+* **Never a flag for a language.** Flags are nations; languages are not.
+  Spanish is not Spain, Arabic is not any one country, and English least of
+  all. The flag trope is ubiquitous in this category and quietly contradicts
+  everything the name is claiming. Use the language's own name in its own
+  script instead -- which is also simply more beautiful.
+* **Gamification, carefully.** Streaks and points are the category's grammar
+  and they work, but they frame learning as compliance. Progress that reads as
+  *how much of this place you now understand* fits the thesis better than a
+  number that punishes you for missing a day.
+
 ## Where it stands after 1 September 2026
 
 **Fixed today**
