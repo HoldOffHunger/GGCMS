@@ -100,6 +100,23 @@
 					an int cast cannot carry anything but a number into the query.
 				*/
 
+				/*
+					Without an ORDER BY, LIMIT and OFFSET slice an unordered result,
+					so MySQL is free to return the rows in a different sequence for
+					each page.  Tested on revoltlib's 11,617 anarchism URLs: 13 of
+					them appeared in two parts, and by the same mechanism others
+					would appear in none.
+
+					Shallowest first, which is priority order -- a row with fewer
+					levels filled is nearer the top of the tree and matters more --
+					then by code, which makes the sequence total and repeatable.
+				*/
+
+			$sql .= 'ORDER BY ';
+			$sql .= '(E2.Code IS NOT NULL) + (E3.Code IS NOT NULL) + (E4.Code IS NOT NULL) + ';
+			$sql .= '(E5.Code IS NOT NULL) + (E6.Code IS NOT NULL) + (E7.Code IS NOT NULL) ASC, ';
+			$sql .= 'E2.Code ASC, E3.Code ASC, E4.Code ASC, E5.Code ASC, E6.Code ASC, E7.Code ASC ';
+
 			if($args['perpage']) {
 				$sql .= 'LIMIT ' . (int) $args['perpage'] . ' ';
 
