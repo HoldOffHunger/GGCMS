@@ -637,6 +637,58 @@
 				Override per domain to opt back into hard red.
 			*/
 
+			/*
+				Google Programmable Search, used by the language quiz to illustrate a
+				word.  The key is deliberately absent here and must never be added:
+				override it in a per-domain file under a gitignored secrets path.
+				Without one the quiz falls back to whatever is already cached.
+
+				The free tier is 100 queries a day, which cannot serve a live quiz --
+				so it does not.  Results are cached per term in ImageSearch and
+				ImageSearchResult, and only a term nobody has looked up costs a
+				query.  After a few weeks that is nearly nothing.
+
+				Refreshes are rationed behind new lookups.  A cached term is only
+				re-searched when it is older than ImageSearchMaxAge() AND at least
+				ImageSearchRefreshReserve() of the day's quota is still unspent, so
+				a word never seen before always outranks a word being refreshed.
+
+				Those two numbers decide how large a vocabulary can stay fresh, and
+				the arithmetic is worth keeping in view:
+
+				    refreshable terms = (quota - reserve) x days in max age
+
+				At 100, 75 and one month that is 25 x 30, so 750 terms can be kept a
+				month fresh.  A reserve of 90 would allow only 300.  Past whatever
+				the corpus actually is, the honest move is to lengthen the max age
+				rather than raid the reserve -- an image of a dog does not go stale,
+				and new words are always the better use of a query.
+			*/
+
+		public function GoogleCustomSearchKey() {
+			return FALSE;
+		}
+
+		public function GoogleCustomSearchEngineID() {
+			return FALSE;
+		}
+
+		public function ImageSearchDailyQuota() {
+			return 100;
+		}
+
+		public function ImageSearchRefreshReserve() {
+			return 75;
+		}
+
+		public function ImageSearchMaxAge() {
+			return '1 month';
+		}
+
+		public function ImageSearchSafeSearch() {
+			return 'active';
+		}
+
 		public function SuccessColour() {
 			return '#00CC00';
 		}

@@ -5,6 +5,70 @@
 			return $this;
 		}
 		
+		public function HardcodedTable_APIQuota() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'Service' => [
+					'Type' => 'varchar(64)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 64,
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'QuotaDate' => [
+					'Type' => 'date',
+					'TypeBase' => 'date',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00',
+					'Extra' => '',
+				],
+				
+				'RequestCount' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+		
 		public function HardcodedTable_Assignment() {
 			return [
 				'id' => [
@@ -1275,6 +1339,144 @@
 					'TypeAttribute' => '',
 					'Null' => 'NO',
 					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+		
+		public function HardcodedTable_ImageSearch() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'Term' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => 'UNI',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'ResultCount' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'LastSearchDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+		
+		public function HardcodedTable_ImageSearchResult() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'ImageSearchid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'URL' => [
+					'Type' => 'varchar(2048)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 2048,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'ThumbnailURL' => [
+					'Type' => 'varchar(2048)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 2048,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Ordering' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
 					'Default' => '0000-00-00 00:00:00',
 					'Extra' => '',
 				],

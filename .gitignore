@@ -8,6 +8,8 @@
 # ---------------------------------------------------------------------------
 
 php.ini
+etc/ggcms/*/secrets/
+etc/ggcms/secrets/
 **/conf.d/*mysqli*.ini
 .digitalocean_password
 digitalocean*.txt

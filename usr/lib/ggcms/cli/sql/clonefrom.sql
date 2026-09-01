@@ -517,6 +517,92 @@ LOCK TABLES `ImageTranslation` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `ImageSearch`
+--
+
+DROP TABLE IF EXISTS `ImageSearch`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `ImageSearch` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Term` varchar(255) NOT NULL DEFAULT '',
+  `ResultCount` int NOT NULL DEFAULT '0',
+  `LastSearchDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `Term` (`Term`),
+  KEY `LastSearchDate` (`LastSearchDate`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ImageSearch`
+--
+
+LOCK TABLES `ImageSearch` WRITE;
+/*!40000 ALTER TABLE `ImageSearch` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ImageSearch` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ImageSearchResult`
+--
+
+DROP TABLE IF EXISTS `ImageSearchResult`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `ImageSearchResult` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `ImageSearchid` int NOT NULL DEFAULT '0',
+  `URL` varchar(2048) NOT NULL DEFAULT '',
+  `ThumbnailURL` varchar(2048) NOT NULL DEFAULT '',
+  `Ordering` int NOT NULL DEFAULT '0',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `ImageSearchid` (`ImageSearchid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ImageSearchResult`
+--
+
+LOCK TABLES `ImageSearchResult` WRITE;
+/*!40000 ALTER TABLE `ImageSearchResult` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ImageSearchResult` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `APIQuota`
+--
+
+DROP TABLE IF EXISTS `APIQuota`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `APIQuota` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Service` varchar(64) NOT NULL DEFAULT '',
+  `QuotaDate` date NOT NULL DEFAULT '0000-00-00',
+  `RequestCount` int NOT NULL DEFAULT '0',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `Service_QuotaDate` (`Service`,`QuotaDate`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `APIQuota`
+--
+
+LOCK TABLES `APIQuota` WRITE;
+/*!40000 ALTER TABLE `APIQuota` DISABLE KEYS */;
+/*!40000 ALTER TABLE `APIQuota` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `InternalServerError`
 --
 
