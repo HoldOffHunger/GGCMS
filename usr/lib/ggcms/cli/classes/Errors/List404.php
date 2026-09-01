@@ -30,7 +30,17 @@
 		}
 		
 		public function getAndList404Errors(){
-			$sql_command = 'SELECT COUNT(URL) as Count, URL from ' . $this->host . '.InternalServerIssue WHERE IssueType = \'404\' GROUP BY URL ORDER BY Count DESC LIMIT ' . $this->answer_type . ';';
+				/*
+					The ticket holds one sample URL, so grouping the ticket table by
+					URL now returns a single row.  The URLs a 404 was actually served
+					for live one per occurrence in InternalServerIssueInstance, which
+					is where this has to count them.
+				*/
+
+			$sql_command = 'SELECT COUNT(instance.URL) as Count, instance.URL from ' . $this->host . '.InternalServerIssueInstance as instance';
+			$sql_command .= ' JOIN ' . $this->host . '.InternalServerIssue as issue ON issue.id = instance.Issueid';
+			$sql_command .= ' WHERE issue.IssueType = \'404\'';
+			$sql_command .= ' GROUP BY instance.URL ORDER BY Count DESC LIMIT ' . $this->answer_type . ';';
 			print("Getting 404's for " . $this->domain . '.' . PHP_EOL . PHP_EOL);
 			
 			$create_database_command = 'mysql -e "' . $sql_command . '"';

@@ -2014,6 +2014,36 @@
 					'Extra' => 'auto_increment',
 				],
 				
+				'Signature' => [
+					'Type' => 'char(64)',
+					'TypeBase' => 'char',
+					'TypeAttribute' => 64,
+					'Null' => 'NO',
+					'Key' => 'UNI',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Script' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'IncidentCount' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 1,
+					'Extra' => '',
+				],
+				
 				'Resolved' => [
 					'Type' => 'tinyint(1)',
 					'TypeBase' => 'tinyint',
@@ -2120,6 +2150,36 @@
 					'Key' => 'PRI',
 					'Default' => '',
 					'Extra' => 'auto_increment',
+				],
+				
+				'Signature' => [
+					'Type' => 'char(64)',
+					'TypeBase' => 'char',
+					'TypeAttribute' => 64,
+					'Null' => 'NO',
+					'Key' => 'UNI',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Script' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'IncidentCount' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 1,
+					'Extra' => '',
 				],
 				
 				'IssueType' => [
