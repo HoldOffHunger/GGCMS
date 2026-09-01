@@ -1,0 +1,82 @@
+# Spanish (es) — EarthFluent translation review
+# Reviewed against earthfluent9-utf8-FINAL2.sql, dumped 2021-11-10.
+# 5,371 Spanish rows in EntryTranslation. Format: see README.md.
+
+id: 44
+entryid: 68
+lang: es
+english: Turkey
+current: Turquía
+proposed: Pavo
+kind: wrong-word
+reason: Turquía is the country. The bird is the pavo. English "Turkey" and
+  "turkey" are the same string to a translator with no context, and the animal
+  list gave it none, so it picked the proper noun.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "pavo"
+  — "Ave del orden de las Galliformes"; and s.v. "Turquía" as a toponym.
+status: proposed
+
+id: 45
+entryid: 70
+lang: es
+english: Manta Ray
+current: Rayo manta
+proposed: Mantarraya
+kind: wrong-word
+reason: Translated one word at a time. "Ray" became rayo, a bolt of lightning,
+  rather than the fish. Nobody has ever called this animal a rayo manta.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "mantarraya" and s.v. "rayo".
+status: proposed
+
+id: 17
+entryid: 35
+lang: es
+english: Fish
+current: Pescado
+proposed: Pez
+kind: wrong-sense
+reason: Pescado is fish that has been caught — fish as food. A fish that is
+  alive and swimming is a pez. This list teaches animals, so it wants pez.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "pez"
+  — "Animal vertebrado acuático"; s.v. "pescado" — "Pez comestible sacado del
+  agua".
+status: proposed
+
+id: 16
+entryid: 33
+lang: es
+english: Gerbil
+current: Gerbil
+proposed: Jerbo
+kind: untranslated
+reason: Passed through unchanged. Spanish has its own word.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "jerbo".
+status: proposed
+
+id: 22
+entryid: 41
+lang: es
+english: Chipmunk
+current: Chipmunk
+proposed: Ardilla listada
+kind: untranslated
+reason: Passed through unchanged. Ardilla listada — "striped squirrel" — is
+  the standard name.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "ardilla"; the listada qualifier is the usual name for Tamias.
+status: proposed
+
+id: 3
+entryid: 18
+lang: es
+english: Komodo Dragon
+current: Dragon de Komodo
+proposed: Dragón de Komodo
+kind: orthography
+reason: Missing the acute accent. Dragón is stressed on the last syllable and
+  ends in n, so the tilde is required.
+source: Real Academia Española, Ortografía de la lengua española, on the
+  accentuation of agudas ending in -n; and s.v. "dragón".
+status: proposed
