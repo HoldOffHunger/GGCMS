@@ -39,7 +39,7 @@
 		
 		// -------------------------------------------------------------
 	
-	$header_primary_args [
+	$header_primary_args = [
 		'title'=>$this->domain_object->primary_domain . ' System Page : Review Accepted Comments',
 		'image'=>'system-status-icon.jpg',
 		'divmouseover'=>'The Grand Master C.',
