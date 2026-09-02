@@ -837,16 +837,32 @@
 					],
 				];
 				
-				$get_child_record_args = [
-					'entrieslist'=>[
-						$new_master_record,
-					],
-				];
-				
-				$new_master_record = $this->GetRecordTree_GetEntryChildRecords($get_child_record_args);
-				$new_master_records[] = $new_master_record[0];
+				$new_master_records[] = $new_master_record;
 			}
-			
+
+				/*
+					Once, with every record, rather than once per record.
+
+					GetRecordTree_GetEntryChildRecords batches by design -- it builds
+					WHERE Entryid IN(?, ?, ?, ...) from the list it is given -- but it
+					was called inside the loop with a list of one, so every IN held a
+					single id and the batching did nothing.
+
+					Measured on the revoltlib front page: 68 entries times eight child
+					types was 544 queries where 8 will do, and each one costs about
+					2.3 ms of waiting on the managed database.
+
+					It walks the list it is handed and attaches each table's records by
+					entry id, returning them in the order given, so a whole list comes
+					back exactly as a list of one did.
+				*/
+
+			if(count($new_master_records)) {
+				$new_master_records = $this->GetRecordTree_GetEntryChildRecords([
+					'entrieslist'=>$new_master_records,
+				]);
+			}
+
 			return $new_master_records;
 		}
 		
