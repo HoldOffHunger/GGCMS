@@ -145,13 +145,13 @@
 				$fill_arrays_from_db_args = [
 					'query'=>$sql,
 					'sqlbindstring'=>'s',
-					'recordvalues'=>[$word_to_lookup_up],
+					'recordvalues'=>[$word_to_look_up],
 				];
 				
 				$word_data = $this->FillArraysFromDB($fill_arrays_from_db_args);
 				
 				if($this->handler->db_access->db_file_cache) {
-					if(count($word) !== 0) {
+					if(count($word_data) !== 0) {
 						$this->handler->db_access->db_file_cache->WriteCache([
 							'directory'=>'dictionaries',
 							'arguments'=>[strtolower($word_to_look_up),],
@@ -413,20 +413,38 @@
 		}
 		
 		/*
-			Dictionary opens its own connection, so it must close it -- but the
-			closing itself belongs to DBAccess, which is the one place that
-			knows how to do it safely.
+			Dictionary opens its own connection to alldictionaries, so it closes
+			its own connection.  Itself.
 
-			The previous guard tested connect_error before testing that the link
-			existed at all, so a dictionary whose DBStart had failed fatalled
-			here during destruction.
+			This used to read
+
+				$this->handler->db_access->CloseLink(['link'=>$this->db_link]);
+
+			which called a close method ON THE HANDLER'S DBAccess object, from
+			this class's destructor, on every request.  The link handed over was
+			this object's own, so the connection that shut was the right one --
+			but nothing outside DBAccess has any business invoking close on the
+			handler's database object, and a stack trace of the closes on any
+			page said, in as many words, "Dictionary.php(426): DBAccess->
+			CloseLink()".
+
+			The rule is that nobody closes the handler's connection.  Borrowing
+			the handler's object to do your own closing reads as breaking that
+			rule whether or not it does, and the next person to touch either
+			file has to prove it does not.
+
+			The earlier guard tested connect_error before testing that the link
+			existed, so a dictionary whose DBStart had failed fatalled here
+			during destruction.  Hence the instanceof.
 		*/
 
 		public function DBEnd() {
-			$this->handler->db_access->CloseLink(['link'=>$this->db_link]);
-			
+			if($this->db_link instanceof mysqli) {
+				mysqli_close($this->db_link);
+			}
+
 			$this->db_link = NULL;
-			
+
 			return TRUE;
 		}
 		
