@@ -325,86 +325,62 @@
 			// -----------------------------------------------
 
 			/*
-				The page is generated here, in this process, exactly as a request
-				would generate it -- not fetched over HTTP.
+				One index.php per URL, in its own process, with the environment
+				a request would have arrived with.  PHP's CLI fills $_SERVER
+				from the environment, so index.php sees what Apache would have
+				given it, renders exactly as it renders for a reader, and
+				PageCache writes the file from inside that render.
 
-				Fetching meant queueing behind however many Apache workers were
-				already busy on the one core, so a page the engine renders in
-				0.09s took thirty seconds to come back, and the warmer looked
-				broken when it was only waiting in line.  Generating costs
-				page-generation time and nothing else, which is the whole point
-				of a warmer.
+				A subprocess rather than requiring the engine in here: the CLI
+				is a separate application that shares the conventions, not the
+				runtime, and booting the engine inside it collides names and
+				re-enters a Handler that was written to run once.
 
-				PageCache writes the file from inside that render, so the cache
-				entry is written by the same code that writes it for a reader.
+				It costs page-generation time and nothing else -- no HTTP, so no
+				queueing behind whatever Apache is already busy with.
 			*/
 
 		public function request($args) {
 			$path = $args['path'];
 
-			$started = microtime(TRUE);
+			$pieces = explode('?', $path);
+			$query_string = isset($pieces[1]) ? $pieces[1] : '';
 
-			$this->SetServerVariables(['path'=>$path]);
+			$environment = [
+				'HTTP_HOST'=>$this->domain,
+				'SERVER_NAME'=>$this->domain,
+				'REQUEST_URI'=>$path,
+				'REDIRECT_URL'=>$pieces[0],
+				'SCRIPT_URL'=>$pieces[0],
+				'QUERY_STRING'=>$query_string,
+				'REQUEST_METHOD'=>'GET',
+				'HTTPS'=>'on',
+				'REMOTE_ADDR'=>'127.0.0.1',
+				'HTTP_USER_AGENT'=>'GGCMS-cache-warmer',
+			];
 
-			ob_start();
+			$command = 'cd ' . escapeshellarg($this->documentRoot()) . ' && ';
 
-			try {
-				$handler = new Handler();
-				$handler->HandleRequest();
-			} catch (Throwable $throwable) {
-				ob_end_clean();
-
-				return [
-					'code'=>'fatal',
-					'seconds'=>round(microtime(TRUE) - $started, 1),
-					'cached'=>FALSE,
-					'error'=>$throwable->getMessage(),
-				];
+			foreach($environment as $name => $value) {
+				$command .= $name . '=' . escapeshellarg($value) . ' ';
 			}
 
-			$body = ob_get_clean();
+			$command .= 'php ' . escapeshellarg($this->documentRoot() . '/index.php') . ' 2>&1';
+
+			$started = microtime(TRUE);
+
+			$output = shell_exec($command);
 
 			return [
-				'code'=>$handler->error_404 ? 404 : 200,
+				'code'=>$this->isCached(['path'=>$path]) ? 'ok' : 'no cache',
 				'seconds'=>round(microtime(TRUE) - $started, 1),
 				'cached'=>$this->isCached(['path'=>$path]),
-				'bytes'=>strlen($body),
+				'bytes'=>strlen((string) $output),
 			];
 		}
 
-			/*
-				What Apache would have put there.  The cache conditions read
-				these -- method, query string, cookies -- so they have to be
-				what a cacheable anonymous read looks like, or PageCache will
-				decline to write and the warmer will warm nothing.
-			*/
-
-		public function SetServerVariables($args) {
-			$path = $args['path'];
-
-			$pieces = explode('?', $path);
-
-			$_SERVER['HTTP_HOST'] = $this->domain;
-			$_SERVER['SERVER_NAME'] = $this->domain;
-			$_SERVER['REQUEST_URI'] = $path;
-			$_SERVER['REDIRECT_URL'] = $pieces[0];
-			$_SERVER['SCRIPT_URL'] = $pieces[0];
-			$_SERVER['QUERY_STRING'] = isset($pieces[1]) ? $pieces[1] : '';
-			$_SERVER['REQUEST_METHOD'] = 'GET';
-			$_SERVER['HTTPS'] = 'on';
-			$_SERVER['REMOTE_ADDR'] = '127.0.0.1';
-			$_SERVER['HTTP_USER_AGENT'] = 'GGCMS-cache-warmer';
-
-			$_GET = [];
-
-			if(isset($pieces[1])) {
-				parse_str($pieces[1], $_GET);
-			}
-
-			$_POST = [];
-			$_COOKIE = [];
-
-			return TRUE;
+		public function documentRoot() {
+			return '/var/www/html';
 		}
 	}
 

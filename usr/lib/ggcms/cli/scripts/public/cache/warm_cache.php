@@ -7,13 +7,6 @@
 	require(GGCMS_DIR . 'classes/System/GlobalFunctions.php');
 	require(GGCMS_CLI_DIR . 'system/StandardCLIFunctions.php');
 
-		//  The warmer generates pages rather than fetching them, so it needs the
-		//  engine itself, and it must run where index.php runs.
-
-	require(GGCMS_DIR . 'classes/StandardLibraries.php');
-
-	chdir('/var/www/html');
-
 	require(GGCMS_CLI_DIR . 'classes/Cache/PageCacheWarmer.php');
 
 	$page_cache_warmer = new PageCacheWarmer([
