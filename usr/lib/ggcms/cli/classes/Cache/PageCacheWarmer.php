@@ -325,44 +325,86 @@
 			// -----------------------------------------------
 
 			/*
-				Against 127.0.0.1 with the Host header set, so warming pays no
-				TLS handshake and cannot be misdirected by DNS.  It is the same
-				request a reader makes, and it writes the same cache file.
+				The page is generated here, in this process, exactly as a request
+				would generate it -- not fetched over HTTP.
+
+				Fetching meant queueing behind however many Apache workers were
+				already busy on the one core, so a page the engine renders in
+				0.09s took thirty seconds to come back, and the warmer looked
+				broken when it was only waiting in line.  Generating costs
+				page-generation time and nothing else, which is the whole point
+				of a warmer.
+
+				PageCache writes the file from inside that render, so the cache
+				entry is written by the same code that writes it for a reader.
 			*/
 
 		public function request($args) {
 			$path = $args['path'];
 
-			$context = stream_context_create([
-				'http'=>[
-					'method'=>'GET',
-					'header'=>"Host: " . $this->domain . "\r\nUser-Agent: GGCMS-cache-warmer\r\nConnection: close\r\n",
-					'timeout'=>$this->arguments['timeout'],
-					'ignore_errors'=>TRUE,
-				],
-			]);
-
 			$started = microtime(TRUE);
 
-			$body = @file_get_contents('http://127.0.0.1' . $path, FALSE, $context);
+			$this->SetServerVariables(['path'=>$path]);
 
-			$seconds = round(microtime(TRUE) - $started, 1);
+			ob_start();
 
-			$code = 0;
+			try {
+				$handler = new Handler();
+				$handler->HandleRequest();
+			} catch (Throwable $throwable) {
+				ob_end_clean();
 
-			if(isset($http_response_header) && isset($http_response_header[0])) {
-				$matches = [];
-
-				if(preg_match('/ (\d{3}) /', $http_response_header[0], $matches)) {
-					$code = (int) $matches[1];
-				}
+				return [
+					'code'=>'fatal',
+					'seconds'=>round(microtime(TRUE) - $started, 1),
+					'cached'=>FALSE,
+					'error'=>$throwable->getMessage(),
+				];
 			}
 
+			$body = ob_get_clean();
+
 			return [
-				'code'=>$code ? $code : ($body === FALSE ? 'timeout' : '?'),
-				'seconds'=>$seconds,
+				'code'=>$handler->error_404 ? 404 : 200,
+				'seconds'=>round(microtime(TRUE) - $started, 1),
 				'cached'=>$this->isCached(['path'=>$path]),
+				'bytes'=>strlen($body),
 			];
+		}
+
+			/*
+				What Apache would have put there.  The cache conditions read
+				these -- method, query string, cookies -- so they have to be
+				what a cacheable anonymous read looks like, or PageCache will
+				decline to write and the warmer will warm nothing.
+			*/
+
+		public function SetServerVariables($args) {
+			$path = $args['path'];
+
+			$pieces = explode('?', $path);
+
+			$_SERVER['HTTP_HOST'] = $this->domain;
+			$_SERVER['SERVER_NAME'] = $this->domain;
+			$_SERVER['REQUEST_URI'] = $path;
+			$_SERVER['REDIRECT_URL'] = $pieces[0];
+			$_SERVER['SCRIPT_URL'] = $pieces[0];
+			$_SERVER['QUERY_STRING'] = isset($pieces[1]) ? $pieces[1] : '';
+			$_SERVER['REQUEST_METHOD'] = 'GET';
+			$_SERVER['HTTPS'] = 'on';
+			$_SERVER['REMOTE_ADDR'] = '127.0.0.1';
+			$_SERVER['HTTP_USER_AGENT'] = 'GGCMS-cache-warmer';
+
+			$_GET = [];
+
+			if(isset($pieces[1])) {
+				parse_str($pieces[1], $_GET);
+			}
+
+			$_POST = [];
+			$_COOKIE = [];
+
+			return TRUE;
 		}
 	}
 
