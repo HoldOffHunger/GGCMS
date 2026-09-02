@@ -68,6 +68,9 @@ the one whose context the correction was judged in.
   existed used `wrong-word` for the same fault; they want reclassifying one day
   and are not wrong meanwhile.
 * `corrupt` — not a word in any language. Mangled somewhere in transit.
+* `structural` — not a translation fault at all. The row is attached to the
+  wrong entry, or duplicated, or its English source is not a word. Needs the
+  database looking at rather than a dictionary.
 * `wrong-form` — right verb, wrong grammatical form: an imperative or a
   conjugation where the list wants an infinitive.
 
@@ -105,3 +108,25 @@ The dumps these were reviewed against are from **2021**. Re-check `current`
 against the live row before applying, and skip any record where it no longer
 matches — that row has been edited since and wants reviewing again rather than
 overwriting.
+
+## Mechanical sweeps
+
+Two checks that read the whole corpus faster than a person can, and both want a
+person after them.
+
+**Untranslated rows.** Compare each Spanish title against its English source,
+case-insensitively. 212 of 5,371 Spanish rows are identical — 3.9%. Most of
+those are *correct*: Spanish genuinely uses `animal`, `virus`, `actor`, `doctor`,
+`error`, `capital`, `idea`, `hospital`, `taxi`, `crisis`, `drama`. Perhaps thirty
+to forty are real failures, and the check finds them in one pass instead of an
+afternoon. It cannot decide which is which, so it filters rather than judges.
+
+**Missing accents.** Nine `-cion` words against 263 correct `-ción` — 3.3% of
+that class. Not a general fault, but a clustered one: six of the nine sit in a
+single stretch of ids, which reads as one bad import batch rather than a habit.
+Worth checking other accent classes the same way before assuming the corpus is
+sound.
+
+Both scripts are throwaway and live in the scratch directory rather than here.
+The counts are what matter, and they are recorded above so the next pass knows
+whether anything moved.

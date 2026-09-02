@@ -1621,3 +1621,274 @@ kind: wrong-class
 reason: Caminar is the verb. A walk is un paseo, or una caminata.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "paseo".
 status: proposed
+
+# --- Wave 1 candidates, block 10: nouns 8983-9284, plus mechanical sweeps ---
+
+id: 9172
+permalink: 9196
+lang: es
+english: Nouns - Society, Part 79
+current: admisión
+proposed: (needs investigating, not translating)
+kind: structural
+reason: The English source here is not a word. It is the title of a lesson --
+  the container entry the words hang under -- and it has a word's translation
+  attached to it. Either this row belongs to a different entry, or admission
+  lost its own row and landed on the lesson's. Not a translation fault, and not
+  fixable by choosing a better Spanish word.
+source: Not applicable. This wants the row's Entryid checking against the Entry
+  table before anything is written.
+status: proposed
+
+id: 9240
+permalink: 9264
+lang: es
+english: raid
+current: RAID
+proposed: redada
+kind: corrupt
+reason: Read as the computing acronym and shouted back in capitals. A police
+  raid is una redada; a military one is una incursión.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "redada".
+status: proposed
+
+id: 9213
+permalink: 9237
+lang: es
+english: resignation
+current: resignación
+proposed: dimisión
+kind: false-friend
+reason: La resignación is resignation in the sense of accepting one's fate.
+  Resigning a post is la dimisión, or la renuncia. The word looks right and
+  means the other thing.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "dimisión" and s.v. "resignación".
+status: proposed
+
+id: 9214
+permalink: 9238
+lang: es
+english: sympathy
+current: simpatía
+proposed: compasión
+kind: false-friend
+reason: La simpatía is likeability -- being charming company. Sympathy for
+  someone's loss is la compasión, or las condolencias. One of the commonest
+  false friends between the two languages.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "simpatía" and s.v. "compasión".
+status: proposed
+
+id: 9144
+permalink: 9168
+lang: es
+english: custom
+current: personalizado
+proposed: costumbre
+kind: wrong-class
+reason: Personalizado is an adjective meaning customised, from the software
+  sense of the word. A custom -- a thing people traditionally do -- is una
+  costumbre.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "costumbre".
+status: proposed
+
+id: 9151
+permalink: 9175
+lang: es
+english: allowance
+current: tolerancia
+proposed: asignación
+kind: wrong-word
+reason: La tolerancia is tolerance. An allowance of money is una asignación,
+  or un subsidio.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "asignación" and s.v. "tolerancia".
+status: proposed
+
+id: 9001
+permalink: 9025
+lang: es
+english: speech
+current: habla
+proposed: discurso
+kind: wrong-sense
+reason: El habla is the faculty of speech -- what you lose after a stroke. A
+  speech delivered to a room is un discurso.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "discurso" and s.v. "habla".
+status: proposed
+
+id: 8984
+permalink: 9008
+lang: es
+english: holiday
+current: fiesta
+proposed: vacaciones
+kind: wrong-sense
+reason: Una fiesta is a party, and is already the translation given for party
+  eighty rows earlier. A holiday you take is unas vacaciones; a public one is
+  un día festivo.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "vacaciones" and s.v. "fiesta".
+status: proposed
+
+id: 9279
+permalink: 9303
+lang: es
+english: riot
+current: alboroto
+proposed: disturbio
+kind: wrong-sense
+reason: Un alboroto is a commotion, a racket. A riot is un disturbio, or un
+  motín.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "disturbio" and s.v. "alboroto".
+status: proposed
+
+id: 9146
+permalink: 9170
+lang: es
+english: bond
+current: enlace
+proposed: vínculo
+kind: wrong-sense
+reason: Un enlace is a link, and is already the translation given for link. A
+  bond between people is un vínculo; a financial one is un bono.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "vínculo" and s.v. "bono".
+status: proposed
+
+id: 9258
+permalink: 9282
+lang: es
+english: dialogue
+current: dialogue
+proposed: diálogo
+kind: untranslated
+reason: Passed through unchanged.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "diálogo".
+status: proposed
+
+id: 9016
+permalink: 9040
+lang: es
+english: rise
+current: subir
+proposed: subida
+kind: wrong-class
+reason: Subir is the verb. The noun is una subida, or un aumento.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "subida".
+status: proposed
+
+id: 9029
+permalink: 9053
+lang: es
+english: smile
+current: sonreír
+proposed: sonrisa
+kind: wrong-class
+reason: Sonreír is the verb. The noun is una sonrisa.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "sonrisa".
+status: proposed
+
+id: 9072
+permalink: 9096
+lang: es
+english: reading
+current: leyendo
+proposed: lectura
+kind: wrong-class
+reason: Leyendo is the gerund -- reading as in "while reading". The noun is la
+  lectura.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "lectura".
+status: proposed
+
+id: 9058
+permalink: 9082
+lang: es
+english: grant
+current: conceder
+proposed: subvención
+kind: wrong-class
+reason: Conceder is the verb, to grant. The money is una subvención, or una
+  beca for a student.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "subvención".
+status: proposed
+
+id: 9015
+permalink: 9039
+lang: es
+english: protection
+current: proteccion
+proposed: protección
+kind: orthography
+reason: Missing the accent. One of nine -cion words across the whole Spanish
+  corpus that lost it, against 263 that kept it -- and six of the nine are in
+  this one stretch of rows, so it is a bad batch rather than a general fault.
+source: Real Academia Española, Ortografía de la lengua española, on agudas
+  ending in -n.
+status: proposed
+
+id: 9034
+permalink: 9058
+lang: es
+english: tradition
+current: tradicion
+proposed: tradición
+kind: orthography
+reason: Missing the accent. Same batch as protection.
+source: Real Academia Española, Ortografía de la lengua española.
+status: proposed
+
+id: 9041
+permalink: 9065
+lang: es
+english: conversation
+current: conversacion
+proposed: conversación
+kind: orthography
+reason: Missing the accent. Same batch.
+source: Real Academia Española, Ortografía de la lengua española.
+status: proposed
+
+id: 9023
+permalink: 9047
+lang: es
+english: generation
+current: Generacion
+proposed: generación
+kind: orthography
+reason: Missing the accent, and capitalised. Same batch.
+source: Real Academia Española, Ortografía de la lengua española.
+status: proposed
+
+id: 9229
+permalink: 9253
+lang: es
+english: celebration
+current: celebracion
+proposed: celebración
+kind: orthography
+reason: Missing the accent. Same batch.
+source: Real Academia Española, Ortografía de la lengua española.
+status: proposed
+
+id: 8988
+permalink: 9012
+lang: es
+english: majority
+current: mayoria
+proposed: mayoría
+kind: orthography
+reason: Missing the accent. Mayoría breaks the diphthong on the i and needs the
+  tilde to say so.
+source: Real Academia Española, Ortografía de la lengua española, on hiatus.
+status: proposed
