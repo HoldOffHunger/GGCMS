@@ -73,6 +73,44 @@ rsync -a "$REPO/var/www/html/" /var/www/html/
 cp -a "$REPO/var/www/ggcms_install_directories.php" /var/www/
 cp -a "$REPO/var/www/ggcms_cli_directories.php" /var/www/
 
+		#  Server configuration, from the second repository.
+		#
+		#  GreenGluonCMS_Unhireable holds what lives outside the engine --
+		#  Apache's vhosts and confs, and anything else the host needs that is
+		#  not GGCMS itself.  It is separate because it is private: this
+		#  repository is public and server configuration is not.
+		#
+		#  Skipped rather than fatal when the checkout is absent, so a host
+		#  that has not got it yet still deploys the engine.  Clone it with
+		#
+		#      cd /opt && git clone <url> ggcms-config
+		#
+		#  No --delete, ever, anywhere under /etc/apache2.  That tree holds
+		#  Apache's own shipped configuration, the certbot-managed vhosts, and
+		#  everything not yet copied into the repository.  Deleting what is not
+		#  in the repo would take the sites off the internet.
+		#
+		#  Only the -available directories are synced.  The -enabled ones are
+		#  symlink farms managed by a2enconf and a2ensite; a symlink through
+		#  rsync-from-git fails quietly and leaves Apache reading nothing.
+		#  Enabling stays a deliberate one-time act on the host.
+
+CONFIG="${GGCMS_CONFIG_REPO:-/opt/ggcms-config}"
+
+if [ -d "$CONFIG/.git" ]; then
+	echo "==> server config -> /etc/apache2/"
+
+	( cd "$CONFIG" && git pull --ff-only )
+
+	for available in conf-available sites-available mods-available; do
+		if [ -d "$CONFIG/etc/apache2/$available" ]; then
+			rsync -a "$CONFIG/etc/apache2/$available/" "/etc/apache2/$available/"
+		fi
+	done
+else
+	echo "==> server config -- no checkout at $CONFIG, skipping"
+fi
+
 		#  Generated-document cache.  Created if absent; never deleted.
 
 echo "==> generated document cache"
