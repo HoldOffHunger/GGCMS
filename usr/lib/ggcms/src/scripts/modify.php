@@ -3399,8 +3399,8 @@
 			$sql_end .= 'WHERE Entry1.Publish = 1 AND Entry2.Publish = 1 ';
 			
 			$association_types = [];
-			$association_types['Type'] = array_column($this->handler->db_access->RunQuery(['sql'=>$sql_start . 'Type' . $sql_end]), 'Type');
-			$association_types['SubType'] = array_column($this->handler->db_access->RunQuery(['sql'=>$sql_start . 'SubType' . $sql_end]), 'SubType');
+			$association_types['Type'] = array_column($this->db_access_object->RunQuery(['sql'=>$sql_start . 'Type' . $sql_end]), 'Type');
+			$association_types['SubType'] = array_column($this->db_access_object->RunQuery(['sql'=>$sql_start . 'SubType' . $sql_end]), 'SubType');
 			
 			return $this->association_types = $association_types;
 		}
@@ -3433,7 +3433,7 @@
 				'JOIN Entry Parent ON Parent.id = Assignment.Parentid ' .
 				'WHERE Parent.Code = ? AND Entry.Publish = 1 ; ';
 			
-			return $this->$cache_key = $this->handler->db_access->RunQuery([
+			return $this->$cache_key = $this->db_access_object->RunQuery([
 				'sql'=>$sql,
 				'args'=>[$config[0]],
 			]);
