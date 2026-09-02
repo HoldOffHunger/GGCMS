@@ -2038,3 +2038,147 @@ reason: Missing the accent. Mayoría breaks the diphthong on the i and needs the
   tilde to say so.
 source: Real Academia Española, Ortografía de la lengua española, on hiatus.
 status: proposed
+
+# --- The ten disagreeing pairs, resolved by lesson ---
+
+id: 10329
+permalink: 10353
+lesson: Adjectives - Appearance, Part 9
+lang: es
+english: lean
+current: lean
+proposed: delgado
+kind: untranslated
+reason: An appearance adjective, so this is lean meaning thin -- delgado. The
+  other lean, in Verbs - Physical Activity, is apoyarse, and copying that one
+  across would teach a learner that thin means to lean on something.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "delgado".
+status: proposed
+
+id: 10168
+permalink: 10192
+lesson: Adjectives - Social, Part 27
+lang: es
+english: cross
+current: cross
+proposed: enfadado
+kind: untranslated
+reason: A social adjective, so this is cross meaning angry -- enfadado, or
+  enojado in Latin America. The other cross, in Nouns - Objects, is cruzar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "enfadado".
+status: proposed
+
+id: 9979
+permalink: 10003
+lesson: Adjectives - Quality, Part 12
+lang: es
+english: sound
+current: sound
+proposed: sólido
+kind: untranslated
+reason: A quality adjective, so this is sound meaning solid or reliable --
+  sólido. The other sound, in Nouns - Concepts, is the noise.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "sólido".
+status: proposed
+
+id: 10350
+permalink: 10374
+lesson: Adjectives - Appearance, Part 14
+lang: es
+english: darling
+current: darling
+proposed: encantador
+kind: untranslated
+reason: An appearance adjective, so this is darling meaning lovely --
+  encantador. The other darling, in Nouns - People, is cariño, the term of
+  endearment, which is a noun and belongs where it is.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "encantador".
+status: proposed
+
+id: 10234
+permalink: 10258
+lesson: Adjectives - Feeling, Part 11
+lang: es
+english: grave
+current: grave
+proposed: grave
+kind: untranslated
+reason: No change needed, which is why it looked untranslated. A feeling
+  adjective, so this is grave meaning serious -- and grave is also the Spanish
+  word for it. The mechanical sweep cannot tell a word left alone from a word
+  that happens to be the same in both languages.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "grave".
+status: proposed
+
+id: 9869
+permalink: 9893
+lesson: Nouns - Objects, Part 82
+lang: es
+english: brush
+current: brush
+proposed: cepillo
+kind: untranslated
+reason: An objects lesson, so this is the thing rather than the action --
+  cepillo, which is what the other brush already says.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "cepillo".
+status: proposed
+
+id: 9813
+permalink: 9837
+lesson: Nouns - Objects, Part 68
+lang: es
+english: essay
+current: essay
+proposed: ensayo
+kind: untranslated
+reason: Ensayo in both lessons -- an essay is an essay whether it is an object
+  or a book.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "ensayo".
+status: proposed
+
+id: 10306
+permalink: 10330
+lesson: Adjectives - Appearance, Part 3
+lang: es
+english: brown
+current: brown
+proposed: marrón
+kind: untranslated
+reason: The colour, as in the Adjectives - Colors lesson that already has it.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "marrón".
+status: proposed
+
+id: 10307
+permalink: 10331
+lesson: Adjectives - Appearance, Part 3
+lang: es
+english: yellow
+current: yellow
+proposed: amarillo
+kind: untranslated
+reason: The colour. The Adjectives - Colors row has it capitalised, which wants
+  fixing there as well.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "amarillo".
+status: proposed
+
+id: 10311
+permalink: 10335
+lesson: Adjectives - Appearance, Part 4
+lang: es
+english: pink
+current: pink
+proposed: rosado
+kind: untranslated
+reason: The colour. The Adjectives - Colors row has it capitalised too.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "rosado".
+status: proposed

@@ -155,27 +155,6 @@ The orphans are rows 49–52 — *Delfín*, *Lobo*, *Oso panda*, *Pelícano* —
 at entry ids 75–78, which do not exist. 77 such rows across all languages, so
 roughly nineteen entries were deleted and their translations left behind.
 
-### The corpus repairs itself in places
-
-274 English words are held by more than one entry, so the same word is taught in
-more than one lesson. Of those, **264 pairs agree** on their Spanish and **10
-disagree** — and in every one of the ten, one half is correct and the other was
-never translated:
-
-```
-lean    apoyarse | lean        essay   essay | ensayo
-brush   cepillo  | brush       brown   brown | marrón
-sound   sonar    | sound       yellow  yellow | Amarillo
-grave   tumba    | grave       pink    pink | Rosado
-```
-
-Those need no dictionary. The right answer is already in the table, on the twin
-row, and a script can copy it across with more confidence than a translator
-could supply it.
-
-It also means a correction is **per word, not per row**. Fixing `Turkey → Pavo`
-at row 44 leaves the other *turkey*, at entry 50265, saying whatever it says. Any
-wave should look for twins before it writes.
 
 ### Where the failures cluster
 
@@ -207,3 +186,34 @@ the good one, which is why corrections are per row and always will be.
 The other thirteen entries sharing a word are not duplicates either. They are
 one entry per language — the Spanish row hangs on one of them, the Italian on
 another. That is the multilingual structure rather than a fault.
+
+### The same spelling in two lessons is two words
+
+274 English spellings are held by more than one entry. That is not duplication —
+it is the bird and the country, the verb and the noun, the fruit and the colour.
+The lesson says which.
+
+264 of those pairs happen to carry the same Spanish, which is fine where both
+senses genuinely share a word. **Ten disagree, and every one of the ten is a
+different sense:**
+
+| word | one lesson | the other |
+|---|---|---|
+| lean | Verbs — Physical Activity → `apoyarse` | Adjectives — Appearance → *thin* |
+| sound | Nouns — Concepts → `sonar` | Adjectives — Quality → *solid* |
+| darling | Nouns — People → `cariño` | Adjectives — Appearance → *lovely* |
+| cross | Nouns — Objects → `cruzar` | Adjectives — Social → *angry* |
+| grave | Nouns — Places → `tumba` | Adjectives — Feeling → *serious* |
+| brush | Verbs — Physical Activity → `cepillo` | Nouns — Objects → *a brush* |
+| essay | Nouns — Objects | Entertainment — Books → `ensayo` |
+| brown, yellow, pink | Adjectives — Appearance | Adjectives — Colors |
+
+An earlier draft of this file said a script could copy the good half onto the
+missing half. **It cannot.** That would put `apoyarse` on an adjective meaning
+thin, and `cruzar` on one meaning angry — four of the ten wrong, and wrong in a
+way that reads as fixed.
+
+What the lesson does give is the answer. *Cross* under Adjectives — Social is
+`enfadado`; *lean* under Adjectives — Appearance is `delgado`. The parent record
+carries enough to infer the sense, which is what makes these ten cheap to repair
+correctly rather than cheap to repair wrongly.
