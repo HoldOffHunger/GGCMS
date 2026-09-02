@@ -7,11 +7,13 @@
 	clireq('traits/CLIAccess.php');
 	clireq('traits/DBAccess.php');
 	clireq('traits/GlobalsTrait.php');
+	clireq('traits/DomainValidation.php');
 
 	class PageCacheWarmer {
 		use CLIAccess;
 		use DBAccess;
 		use GlobalsTrait;
+		use DomainValidation;
 		use SimpleORMSiteMap;
 
 			// Override Functions
