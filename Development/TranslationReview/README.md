@@ -130,3 +130,56 @@ sound.
 Both scripts are throwaway and live in the scratch directory rather than here.
 The counts are what matter, and they are recorded above so the next pass knows
 whether anything moved.
+
+## The corpus, measured
+
+All 5,371 Spanish rows, 1 September 2026, against the 2021 dump.
+
+| Check | Count | Share |
+|---|---|---|
+| Capitalised where the English was not | 146 | 2.7% |
+| Carrying a leading article (`el respeto`) | 58 | 1.1% |
+| Identical to the English source | 212 | 3.9% |
+| `-cion` missing its accent | 9 of 272 | 3.3% |
+| Empty | 0 | — |
+| Rows whose `Entryid` has no `Entry` | 4 | 0.1% |
+| Spanish words standing for 2+ English words | 299 | — |
+
+Capitalisation and leading articles are **one sweep each**, not 204 judgements.
+English title casing does not belong in Spanish, and a vocabulary entry is the
+word rather than the phrase. Both can be done mechanically and verified by
+eye afterwards.
+
+The orphans are rows 49–52 — *Delfín*, *Lobo*, *Oso panda*, *Pelícano* — pointing
+at entry ids 75–78, which do not exist. 77 such rows across all languages, so
+roughly nineteen entries were deleted and their translations left behind.
+
+### The corpus repairs itself in places
+
+274 English words are held by more than one entry, so the same word is taught in
+more than one lesson. Of those, **264 pairs agree** on their Spanish and **10
+disagree** — and in every one of the ten, one half is correct and the other was
+never translated:
+
+```
+lean    apoyarse | lean        essay   essay | ensayo
+brush   cepillo  | brush       brown   brown | marrón
+sound   sonar    | sound       yellow  yellow | Amarillo
+grave   tumba    | grave       pink    pink | Rosado
+```
+
+Those need no dictionary. The right answer is already in the table, on the twin
+row, and a script can copy it across with more confidence than a translator
+could supply it.
+
+It also means a correction is **per word, not per row**. Fixing `Turkey → Pavo`
+at row 44 leaves the other *turkey*, at entry 50265, saying whatever it says. Any
+wave should look for twins before it writes.
+
+### Where the failures cluster
+
+The ten untranslated twins sit between ids 9813 and 10350. Six of the nine
+missing `-ción` accents sit between 9015 and 9293. Neither is a habit spread
+through the corpus; both are batches. Whatever ran over those ranges did
+something different from whatever ran over the rest, and finding out what would
+be worth more than fixing them one at a time.
