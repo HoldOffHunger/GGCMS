@@ -1705,6 +1705,125 @@
 			return $child_entries;
 		}
 		
+		/*
+			The plural of GetRecordChildren, for when a caller holds a list of
+			parents and wants the same limited, ordered slice of children for
+			each of them.
+
+			The singular form is a per-parent query -- a JOIN on one Parentid
+			with an ORDER BY and a LIMIT -- so a caller with fifteen parents
+			paid for fifteen round trips, and then fifteen more sets of child
+			record lookups behind them.  On the revoltlib front page that was
+			seventy-five of the render's queries.
+
+			MySQL 8 can express a per-group limit directly, so the whole thing
+			collapses into one: rank the children within each parent with
+			ROW_NUMBER, then keep the rows whose rank falls in the window the
+			caller asked for.  The rank is computed over the same ORDER BY the
+			singular form uses, RAND() included, so a random slice is still a
+			random slice and still varies per parent.
+
+			The result is keyed by parent id.  A parent with no children is
+			absent from it rather than present and empty, so callers should
+			treat a missing key the way they would an empty list.
+		*/
+
+		public function GetRecordsChildren($args) {
+			$parent_ids = $args['parentids'];
+
+			if(!$parent_ids || !count($parent_ids)) {
+				return [];
+			}
+
+			$parent_ids = array_values(array_unique($parent_ids));
+			$parent_ids_count = count($parent_ids);
+
+			$start_index = (int) $args['startindex'];
+			$end_index = (int) $args['endindex'];
+			$order_by = $args['orderby'];
+
+			$selects = $this->GetRecordTree_GetEntries_GetBaseSelect(['index'=>1]);
+
+			$order_by_sql = '';
+
+			if($order_by) {
+				if($order_by === 'RAND()') {
+					$order_by_sql = 'RAND()';
+				} else {
+					$order_by_sql = 'Entry1.' . $order_by;
+				}
+			} else {
+				$order_by_sql = 'Entry1.id';
+			}
+
+			$inner = 'SELECT ' . implode(', ', $selects) . ', ';
+			$inner .= 'ROW_NUMBER() OVER (PARTITION BY Assignment1.Parentid ORDER BY ' . $order_by_sql . ') as ggcms_row_number ';
+			$inner .= 'FROM Entry AS Entry1 ';
+			$inner .= 'JOIN Assignment AS Assignment1 ON Assignment1.Parentid IN(';
+			$inner .= implode(', ', array_fill(0, $parent_ids_count, '?'));
+			$inner .= ') AND Assignment1.Childid = Entry1.id ';
+
+			if($args['publish']) {
+				$inner .= 'WHERE Entry1.Publish = 1 ';
+			}
+
+			$sql = 'SELECT * FROM (' . $inner . ') AS ggcms_ranked ';
+
+			if($start_index && $end_index) {
+				$first_row = $start_index;
+				$last_row = ($start_index - 1) + $end_index;
+
+				$sql .= 'WHERE ggcms_ranked.ggcms_row_number BETWEEN ' . $first_row . ' AND ' . $last_row . ' ';
+			}
+
+			$sql .= ';';
+
+			$child_entries = $this->handler->db_access->FillArraysFromDB([
+				'query'=>$sql,
+				'sqlbindstring'=>str_repeat('i', $parent_ids_count),
+				'recordvalues'=>$parent_ids,
+			]);
+
+			if(!count($child_entries)) {
+				return [];
+			}
+
+			$child_entries_count = count($child_entries);
+
+			for($i = 0; $i < $child_entries_count; $i++) {
+				unset($child_entries[$i]['ggcms_row_number']);
+			}
+
+			$child_entries = $this->GetRecordTree_StructureChildRecords(['entrieslist'=>$child_entries]);
+
+			$no_textbodies = 1;
+
+			if($args['alltext']) {
+				$no_textbodies = 0;
+			}
+
+			if(count($child_entries) !== 0) {
+				$child_entries = $this->GetRecordTree_GetEntryChildRecords([
+					'entrieslist'=>$child_entries,
+					'notextbodies'=>$no_textbodies,
+				]);
+			}
+
+			$children_by_parent = [];
+
+			foreach($child_entries as $child_entry) {
+				$parent_id = $child_entry['assignment'][0]['Parentid'];
+
+				if(!array_key_exists($parent_id, $children_by_parent)) {
+					$children_by_parent[$parent_id] = [];
+				}
+
+				$children_by_parent[$parent_id][] = $child_entry;
+			}
+
+			return $children_by_parent;
+		}
+
 		public function SetAssociationEntryParentRelatedRecords($args) {
 			$entries = $args['entries'];
 			

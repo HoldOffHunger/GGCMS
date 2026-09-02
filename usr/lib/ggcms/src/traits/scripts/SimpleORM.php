@@ -1309,27 +1309,55 @@
 			return TRUE;
 		}
 
+		/*
+			One query for the whole tier instead of one per grandchild.
+
+			Every grandchild wants the same shape of answer -- a random five of
+			its children -- so GetRecordsChildren asks for all of them at once
+			and returns them keyed by parent id.  A grandchild with no children
+			is missing from that map, and gets an empty list here, which is what
+			the per-parent call returned for it before.
+		*/
+
 		public function SetGrandChildRecordsOfChildren() {
 			$start_index = 1;
 			$end_index = 5;
 			$orderby = 'RAND()';
-			
+
+			$parent_ids = [];
+
 			foreach($this->children as $child_key => $child) {
 				foreach($this->children[$child_key]['children'] as $grand_child_key => $grand_child) {
-					$get_record_children_args = [
-						'entry'=>$grand_child,
-						'startindex'=>$start_index,
-						'endindex'=>$end_index,
-						'orderby'=>$orderby,
-					];
-					
-					$this->children[$child_key]['children'][$grand_child_key]['children'] = $this->orm->GetRecordChildren($get_record_children_args);
+					$parent_ids[] = $grand_child['id'];
 				}
 			}
-			
+
+			if(!count($parent_ids)) {
+				return TRUE;
+			}
+
+			$children_by_parent = $this->orm->GetRecordsChildren([
+				'parentids'=>$parent_ids,
+				'startindex'=>$start_index,
+				'endindex'=>$end_index,
+				'orderby'=>$orderby,
+			]);
+
+			foreach($this->children as $child_key => $child) {
+				foreach($this->children[$child_key]['children'] as $grand_child_key => $grand_child) {
+					$grand_child_id = $grand_child['id'];
+
+					if(array_key_exists($grand_child_id, $children_by_parent)) {
+						$this->children[$child_key]['children'][$grand_child_key]['children'] = $children_by_parent[$grand_child_id];
+					} else {
+						$this->children[$child_key]['children'][$grand_child_key]['children'] = [];
+					}
+				}
+			}
+
 			return TRUE;
 		}
-		
+
 		public function SetFullChildRecordsOfChildren() {
 			$start_index = 0;
 			$end_index = 0;
