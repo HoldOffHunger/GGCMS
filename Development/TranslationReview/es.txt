@@ -2182,3 +2182,326 @@ reason: The colour. The Adjectives - Colors row has it capitalised too.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "rosado".
 status: proposed
+
+# --- Wave 1 candidates, block 11: nouns 9285-9548 ---
+
+id: 9511
+permalink: 9535
+lesson: Nouns - Places, Part 30
+lang: es
+english: mine
+current: mía
+proposed: mina
+kind: wrong-word
+reason: Mía is the possessive, mine as in belonging to me. In a lesson about
+  places it is una mina, where coal comes from.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "mina".
+status: proposed
+
+id: 9539
+permalink: 9563
+lesson: Nouns - Places, Part 36
+lang: es
+english: shore
+current: apuntalar
+proposed: orilla
+kind: wrong-class
+reason: Apuntalar is the verb, to shore something up, to prop it. A shore in a
+  places lesson is la orilla, or la costa.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "orilla" and s.v. "apuntalar".
+status: proposed
+
+id: 9526
+permalink: 9550
+lesson: Nouns - Places, Part 34
+lang: es
+english: resort
+current: recurso
+proposed: centro turístico
+kind: wrong-word
+reason: Un recurso is a resource, and is already the translation given for
+  resource. A resort you go on holiday to is un centro turístico.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "recurso" and s.v. "turístico".
+status: proposed
+
+id: 9421
+permalink: 9445
+lesson: Nouns - Places, Part 4
+lang: es
+english: lot
+current: mucho
+proposed: solar
+kind: wrong-class
+reason: Mucho is the adverb, a lot meaning much. In a places lesson a lot is un
+  solar, or una parcela, a piece of ground.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "solar"
+  and s.v. "mucho".
+status: proposed
+
+id: 9497
+permalink: 9521
+lesson: Nouns - Places, Part 32
+lang: es
+english: setting
+current: ajuste
+proposed: entorno
+kind: wrong-sense
+reason: Un ajuste is a setting on a dial. The setting of a place or a story is
+  el entorno, or el escenario.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "entorno" and s.v. "ajuste".
+status: proposed
+
+id: 9536
+permalink: 9560
+lesson: Nouns - Places, Part 35
+lang: es
+english: compound
+current: compuesto
+proposed: recinto
+kind: wrong-sense
+reason: Un compuesto is a chemical compound. A walled compound in a places
+  lesson is un recinto.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "recinto" and s.v. "compuesto".
+status: proposed
+
+id: 9538
+permalink: 9562
+lesson: Nouns - Places, Part 36
+lang: es
+english: landing
+current: aterrizaje
+proposed: rellano
+kind: wrong-sense
+reason: Un aterrizaje is what an aeroplane does. The landing at the top of the
+  stairs, which is the one a places lesson wants, is el rellano.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "rellano" and s.v. "aterrizaje".
+status: proposed
+
+id: 9471
+permalink: 9495
+lesson: Nouns - Places, Part 22
+lang: es
+english: bedroom
+current: Cuarto
+proposed: dormitorio
+kind: wrong-sense
+reason: Un cuarto is a room of any kind, and capitalised besides. The one you
+  sleep in is el dormitorio, or la habitación.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "dormitorio".
+status: proposed
+
+id: 9440
+permalink: 9464
+lesson: Nouns - Places, Part 14
+lang: es
+english: college
+current: Universidad
+proposed: instituto
+kind: wrong-sense
+reason: Universidad is already the translation given for university, twelve
+  rows earlier. A college is un instituto.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "instituto".
+status: proposed
+
+id: 9466
+permalink: 9490
+lesson: Nouns - Places, Part 21
+lang: es
+english: yard
+current: yard
+proposed: patio
+kind: untranslated
+reason: Passed through unchanged. In a places lesson this is el patio; the unit
+  of measurement would be la yarda.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "patio".
+status: proposed
+
+id: 9521
+permalink: 9545
+lesson: Nouns - Places, Part 33
+lang: es
+english: ocean
+current: ocean
+proposed: océano
+kind: untranslated
+reason: Passed through unchanged, and the Spanish differs only by an accent,
+  which is how it slipped past.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "océano".
+status: proposed
+
+id: 9531
+permalink: 9555
+lesson: Nouns - Places, Part 35
+lang: es
+english: nursery
+current: nursery
+proposed: guardería
+kind: untranslated
+reason: Passed through unchanged.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "guardería".
+status: proposed
+
+id: 9326
+permalink: 9350
+lesson: Nouns - Concepts, Part 2
+lang: es
+english: art
+current: art
+proposed: arte
+kind: untranslated
+reason: Passed through unchanged, and one letter short of correct.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "arte".
+status: proposed
+
+id: 9387
+permalink: 9411
+lesson: Nouns - Concepts, Part 12
+lang: es
+english: notion
+current: notion
+proposed: noción
+kind: untranslated
+reason: Passed through unchanged.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "noción".
+status: proposed
+
+id: 9318
+permalink: 9342
+lesson: Nouns - Concepts, Part 1
+lang: es
+english: interest
+current: interesar
+proposed: interés
+kind: wrong-class
+reason: Interesar is the verb. The noun is el interés.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "interés".
+status: proposed
+
+id: 9338
+permalink: 9362
+lesson: Nouns - Concepts, Part 6
+lang: es
+english: answer
+current: responder
+proposed: respuesta
+kind: wrong-class
+reason: Responder is the verb. The noun is la respuesta.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "respuesta".
+status: proposed
+
+id: 9385
+permalink: 9409
+lesson: Nouns - Concepts, Part 12
+lang: es
+english: being
+current: siendo
+proposed: ser
+kind: wrong-class
+reason: Siendo is the gerund, being as in while being. A being is un ser.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "ser".
+status: proposed
+
+id: 9391
+permalink: 9415
+lesson: Nouns - Concepts, Part 13
+lang: es
+english: thinking
+current: pensando
+proposed: pensamiento
+kind: wrong-class
+reason: Pensando is the gerund. The noun is el pensamiento.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "pensamiento".
+status: proposed
+
+id: 9418
+permalink: 9442
+lesson: Nouns - Places, Part 3
+lang: es
+english: center
+current: centrar
+proposed: centro
+kind: wrong-class
+reason: Centrar is the verb. The noun is el centro.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "centro".
+status: proposed
+
+id: 9472
+permalink: 9496
+lesson: Nouns - Places, Part 22
+lang: es
+english: store
+current: almacenar
+proposed: tienda
+kind: wrong-class
+reason: Almacenar is the verb, to store. In a places lesson a store is una
+  tienda.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "tienda" and s.v. "almacenar".
+status: proposed
+
+id: 9492
+permalink: 9516
+lesson: Nouns - Places, Part 30
+lang: es
+english: camp
+current: acampar
+proposed: campamento
+kind: wrong-class
+reason: Acampar is the verb. The place is un campamento.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "campamento".
+status: proposed
+
+id: 9293
+permalink: 9317
+lesson: Nouns - Society, Part 90
+lang: es
+english: restoration
+current: restauracion
+proposed: restauración
+kind: orthography
+reason: Missing the accent. One of the nine, and the only one outside the
+  9015 to 9229 cluster.
+source: Real Academia Española, Ortografía de la lengua española.
+status: proposed
+
+id: 9416
+permalink: 9440
+lesson: Nouns - Places, Part 2
+lang: es
+english: Nouns - Places, Part 2
+current: la carretera
+proposed: (needs investigating, not translating)
+kind: structural
+reason: A lesson title with a word's translation attached, like 9172. The
+  second of three found so far, so it is a pattern rather than an accident. La
+  carretera is road, and road has its own row at 38795 saying the same thing.
+source: Not applicable. Wants the row's Entryid checking against Entry.
+status: proposed
+
+id: 9435
+permalink: 9459
+lesson: Nouns - Places, Part 7
+lang: es
+english: Nouns - Places, Part 7
+current: espacio
+proposed: (needs investigating, not translating)
+kind: structural
+reason: The third lesson title carrying a word. Space, in this case.
+source: Not applicable.
+status: proposed

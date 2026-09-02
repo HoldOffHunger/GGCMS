@@ -8,6 +8,30 @@ tables, InnoDB. Every live site is a clone of it, and
 against the live `clonefrom` database, so drift between a site and the base
 schema is detectable rather than theoretical.
 
+## `clonefrom` is a live database, not just a file
+
+There is a real `clonefrom` database on the host alongside the seventeen sites,
+and it exists so that a missing table can be restored from it in one statement:
+
+```sql
+CREATE TABLE earthfluent.EntryCodeReservation LIKE clonefrom.EntryCodeReservation;
+```
+
+`LIKE` copies the column definitions and every index, and creates the table
+empty. That is what you want for a table a site never had — no rows to
+reconcile, and no chance of typing the schema out slightly differently from the
+one `check_schema.php` will compare it against.
+
+This is the repair for anything `check_schema.php` reports as *missing —
+present in clonefrom*. Measured 1 September 2026, that was
+`EntryCodeReservation` on earthfluent, `PrimaryHostRecord` on sortwords and
+wordweight, and `Form` and `FormQuestion` across nine sites.
+
+It is not the repair for the other two things that report catches. A column
+order that disagrees with `clonefrom`, and a `child_types` flag that leaves rows
+unfetched, are both judgements rather than omissions. See
+[CommandLineTools.md](CommandLineTools.md).
+
 For the tools that operate on databases — backup, purge, table sizes,
 connection test, file cache — see
 [CommandLineTools.md](CommandLineTools.md), which documents them all. This

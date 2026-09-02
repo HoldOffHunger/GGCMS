@@ -259,8 +259,6 @@
 			*/
 
 		public function grantAccess($args) {
-			$args['handler']->access = 1;
-
 			return TRUE;
 		}
 
@@ -272,9 +270,11 @@
 
 			require(GGCMS_DIR . 'classes/StandardLibraries.php');
 
-			$handler = new Handler();
+				//  After StandardLibraries, because it extends Handler.
 
-			$this->grantAccess(['handler'=>$handler]);
+			clireq('classes/Entries/CLIHandler.php');
+
+			$handler = new CLIHandler();
 
 			ob_start();
 			$handler->HandleRequest();
@@ -310,10 +310,25 @@
 				return FALSE;
 			}
 
-			$status = property_exists($script, 'save_status') ? $script->save_status : '(no status reported)';
+			$status = property_exists($script, 'save_status') ? $script->save_status : '';
 
-			print('Status   : ' . $status . PHP_EOL);
-			print('Response : ' . strlen($output) . ' bytes' . PHP_EOL . PHP_EOL);
+			print('Status   : ' . ($status ? $status : '(none reported)') . PHP_EOL);
+			print('Response : ' . strlen($output) . ' bytes' . PHP_EOL);
+
+				/*
+					No status means Save() was never reached, and the response is
+					then the only evidence of what happened instead.  It is
+					usually short and usually says so -- an error page, or a
+					redirect to the login screen.  Printing it beats guessing.
+				*/
+
+			if(!$status) {
+				print(PHP_EOL . '--- response, since nothing reported a status ---' . PHP_EOL);
+				print(trim(strip_tags($output)) . PHP_EOL);
+				print('--- end ---' . PHP_EOL);
+			}
+
+			print(PHP_EOL);
 
 			return TRUE;
 		}
