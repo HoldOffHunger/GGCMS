@@ -230,6 +230,7 @@
 
 		public function CloseLink($args) {
 			$link = $args['link'];
+			$this->close_debug = (new Exception)->getTraceAsString();
 			
 			if(!($link instanceof mysqli)) {
 				return FALSE;
@@ -459,7 +460,18 @@
 			$record_type = $args['record_type'];
 			
 			$prepare_line = __LINE__;	# Current line number
-			$statement = $this->db_link->prepare($query);
+			try {
+				$statement = $this->db_link->prepare($query);
+			} catch (Error $error) {
+				print('<pre>DBAccess close trace:' . PHP_EOL);
+				if(property_exists($this, 'close_debug')) {
+					print($this->close_debug);
+				} else {
+					print('No CloseLink trace was recorded on this DBAccess object.');
+				}
+				print('</pre>');
+				throw $error;
+			}
 			
 #			print("BT: " . $query);
 #			print_r($recordvalues);
