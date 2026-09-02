@@ -5,6 +5,7 @@
 id: 44
 entryid: 68
 permalink: 68
+lesson: Nouns - Animals, Part 11
 lang: es
 english: Turkey
 current: Turquía
@@ -20,6 +21,7 @@ status: proposed
 id: 45
 entryid: 70
 permalink: 70
+lesson: Nouns - Animals, Part 12
 lang: es
 english: Manta Ray
 current: Rayo manta
@@ -34,6 +36,7 @@ status: proposed
 id: 17
 entryid: 35
 permalink: 35
+lesson: Nouns - Animals, Part 5
 lang: es
 english: Fish
 current: Pescado
@@ -49,6 +52,7 @@ status: proposed
 id: 16
 entryid: 33
 permalink: 33
+lesson: Nouns - Animals, Part 4
 lang: es
 english: Gerbil
 current: Gerbil
@@ -62,6 +66,7 @@ status: proposed
 id: 22
 entryid: 41
 permalink: 41
+lesson: Nouns - Animals, Part 6
 lang: es
 english: Chipmunk
 current: Chipmunk
@@ -76,6 +81,7 @@ status: proposed
 id: 3
 entryid: 18
 permalink: 18
+lesson: Nouns - Animals, Part 1
 lang: es
 english: Komodo Dragon
 current: Dragon de Komodo
@@ -91,6 +97,7 @@ status: proposed
 
 id: 60
 permalink: 84
+lesson: Nouns - Animals, Part 14
 lang: es
 english: Killer Whale
 current: Ballena asesina
@@ -104,6 +111,7 @@ status: proposed
 
 id: 66
 permalink: 90
+lesson: Nouns - Animals, Part 16
 lang: es
 english: Cheetah
 current: Leopardo cazador
@@ -117,6 +125,7 @@ status: proposed
 
 id: 78
 permalink: 102
+lesson: Nouns - Animals, Part 19
 lang: es
 english: Chicken
 current: Pollo
@@ -130,6 +139,7 @@ status: proposed
 
 id: 73
 permalink: 97
+lesson: Nouns - Animals, Part 18
 lang: es
 english: Honey Bee
 current: Abeja De La Miel
@@ -143,6 +153,7 @@ status: proposed
 
 id: 1099
 permalink: 1123
+lesson: Verbs - Activity With Objects, Part 8
 lang: es
 english: lift
 current: ascensor
@@ -156,6 +167,7 @@ status: proposed
 
 id: 1098
 permalink: 1122
+lesson: Verbs - Activity With Objects, Part 8
 lang: es
 english: press
 current: prensa
@@ -169,6 +181,7 @@ status: proposed
 
 id: 1082
 permalink: 1106
+lesson: Verbs - Activity With Objects, Part 4
 lang: es
 english: break
 current: descanso
@@ -181,6 +194,7 @@ status: proposed
 
 id: 1076
 permalink: 1100
+lesson: Verbs - Activity With Objects, Part 3
 lang: es
 english: put
 current: put
@@ -195,6 +209,7 @@ status: proposed
 
 id: 1139
 permalink: 1163
+lesson: Verbs - Activity With Objects, Part 18
 lang: es
 english: rip
 current: DEP
@@ -208,6 +223,7 @@ status: proposed
 
 id: 1171
 permalink: 1195
+lesson: Verbs - General Activity, Part 8
 lang: es
 english: watch
 current: reloj
@@ -220,6 +236,7 @@ status: proposed
 
 id: 1210
 permalink: 1234
+lesson: Verbs - General Activity, Part 19
 lang: es
 english: display
 current: monitor
@@ -232,6 +249,7 @@ status: proposed
 
 id: 1224
 permalink: 1248
+lesson: Verbs - General Activity, Part 22
 lang: es
 english: found
 current: encontró
@@ -246,6 +264,7 @@ status: proposed
 
 id: 1234
 permalink: 1258
+lesson: Verbs - Emotional Activity, Part 1
 lang: es
 english: feel
 current: sensación
@@ -258,6 +277,7 @@ status: proposed
 
 id: 1238
 permalink: 1262
+lesson: Verbs - Emotional Activity, Part 2
 lang: es
 english: love
 current: amor
@@ -270,6 +290,7 @@ status: proposed
 
 id: 1243
 permalink: 1267
+lesson: Verbs - Emotional Activity, Part 3
 lang: es
 english: laugh
 current: risa
@@ -282,6 +303,7 @@ status: proposed
 
 id: 1205
 permalink: 1229
+lesson: Verbs - General Activity, Part 17
 lang: es
 english: approach
 current: enfoque
@@ -295,6 +317,7 @@ status: proposed
 
 id: 1235
 permalink: 1259
+lesson: Verbs - Emotional Activity, Part 1
 lang: es
 english: like
 current: me gusta
@@ -309,6 +332,7 @@ status: proposed
 
 id: 1144
 permalink: 1168
+lesson: Verbs - General Activity, Part 2
 lang: es
 english: come
 current: ven
@@ -322,6 +346,7 @@ status: proposed
 
 id: 1169
 permalink: 1193
+lesson: Verbs - General Activity, Part 8
 lang: es
 english: wait
 current: Espere
@@ -335,6 +360,7 @@ status: proposed
 
 id: 1177
 permalink: 1201
+lesson: Verbs - General Activity, Part 10
 lang: es
 english: contain
 current: Contiene
@@ -350,6 +376,7 @@ status: proposed
 
 id: 1250
 permalink: 1274
+lesson: Verbs - Emotional Activity, Part 5
 lang: es
 english: cope
 current: capa pluvial
@@ -363,6 +390,7 @@ status: proposed
 
 id: 1309
 permalink: 1333
+lesson: Verbs - Physical Activity, Part 20
 lang: es
 english: swallow
 current: golondrina
@@ -375,6 +403,7 @@ status: proposed
 
 id: 1293
 permalink: 1317
+lesson: Verbs - Physical Activity, Part 16
 lang: es
 english: sink
 current: lavabo
@@ -387,6 +416,7 @@ status: proposed
 
 id: 1297
 permalink: 1321
+lesson: Verbs - Physical Activity, Part 17
 lang: es
 english: slide
 current: diapositiva
@@ -400,6 +430,7 @@ status: proposed
 
 id: 1310
 permalink: 1334
+lesson: Verbs - Physical Activity, Part 20
 lang: es
 english: tap
 current: grifo
@@ -412,6 +443,7 @@ status: proposed
 
 id: 1277
 permalink: 1301
+lesson: Verbs - Physical Activity, Part 12
 lang: es
 english: stretch
 current: tramo
@@ -424,6 +456,7 @@ status: proposed
 
 id: 1262
 permalink: 1286
+lesson: Verbs - Physical Activity, Part 8
 lang: es
 english: clear
 current: claro
@@ -437,6 +470,7 @@ status: proposed
 
 id: 1256
 permalink: 1280
+lesson: Verbs - Emotional Activity, Part 6
 lang: es
 english: dream
 current: sueño
@@ -449,6 +483,7 @@ status: proposed
 
 id: 1251
 permalink: 1275
+lesson: Verbs - Emotional Activity, Part 5
 lang: es
 english: hate
 current: odio
@@ -461,6 +496,7 @@ status: proposed
 
 id: 1302
 permalink: 1326
+lesson: Verbs - Physical Activity, Part 18
 lang: es
 english: shrug
 current: encogimiento de hombros
@@ -474,6 +510,7 @@ status: proposed
 
 id: 1323
 permalink: 1347
+lesson: Verbs - Mental Activity, Part 2
 lang: es
 english: remember
 current: recuerda
@@ -488,6 +525,7 @@ status: proposed
 
 id: 1327
 permalink: 1351
+lesson: Verbs - Mental Activity, Part 3
 lang: es
 english: explain
 current: explique
@@ -501,6 +539,7 @@ status: proposed
 
 id: 1347
 permalink: 1371
+lesson: Verbs - Mental Activity, Part 9
 lang: es
 english: imagine
 current: imagina
@@ -516,6 +555,7 @@ status: proposed
 
 id: 1392
 permalink: 1416
+lesson: Verbs - Mental Activity, Part 20
 lang: es
 english: copy
 current: dupdo
@@ -530,6 +570,7 @@ status: proposed
 
 id: 1429
 permalink: 1453
+lesson: Verbs - Social Activity, Part 9
 lang: es
 english: refuse
 current: desperdicios
@@ -543,6 +584,7 @@ status: proposed
 
 id: 1422
 permalink: 1446
+lesson: Verbs - Social Activity, Part 7
 lang: es
 english: express
 current: exprimir
@@ -556,6 +598,7 @@ status: proposed
 
 id: 1431
 permalink: 1455
+lesson: Verbs - Social Activity, Part 10
 lang: es
 english: mean
 current: media
@@ -568,6 +611,7 @@ status: proposed
 
 id: 1398
 permalink: 1422
+lesson: Verbs - Social Activity, Part 1
 lang: es
 english: show
 current: espectáculo
@@ -580,6 +624,7 @@ status: proposed
 
 id: 1365
 permalink: 1389
+lesson: Verbs - Mental Activity, Part 13
 lang: es
 english: focus
 current: atención
@@ -592,6 +637,7 @@ status: proposed
 
 id: 1419
 permalink: 1443
+lesson: Verbs - Social Activity, Part 7
 lang: es
 english: thank
 current: gracias
@@ -605,6 +651,7 @@ status: proposed
 
 id: 1409
 permalink: 1433
+lesson: Verbs - Social Activity, Part 4
 lang: es
 english: lie
 current: mentira
@@ -617,6 +664,7 @@ status: proposed
 
 id: 1455
 permalink: 1479
+lesson: Verbs - Social Activity, Part 16
 lang: es
 english: address
 current: dirección
@@ -630,6 +678,7 @@ status: proposed
 
 id: 1360
 permalink: 1384
+lesson: Verbs - Mental Activity, Part 12
 lang: es
 english: direct
 current: directo
@@ -642,6 +691,7 @@ status: proposed
 
 id: 1368
 permalink: 1392
+lesson: Verbs - Mental Activity, Part 14
 lang: es
 english: sing
 current: canta
@@ -655,6 +705,7 @@ status: proposed
 
 id: 1423
 permalink: 1447
+lesson: Verbs - Social Activity, Part 8
 lang: es
 english: listen
 current: escucha
@@ -668,6 +719,7 @@ status: proposed
 
 id: 1407
 permalink: 1431
+lesson: Verbs - Social Activity, Part 4
 lang: es
 english: agree
 current: de acuerdo
@@ -683,6 +735,7 @@ status: proposed
 
 id: 1502
 permalink: 1526
+lesson: Verbs - Social Activity, Part 27
 lang: es
 english: compromise
 current: compromiso
@@ -697,6 +750,7 @@ status: proposed
 
 id: 1471
 permalink: 1495
+lesson: Verbs - Social Activity, Part 20
 lang: es
 english: judge
 current: juez
@@ -709,6 +763,7 @@ status: proposed
 
 id: 1515
 permalink: 1539
+lesson: Verbs - Social Activity, Part 31
 lang: es
 english: wave
 current: ola
@@ -721,6 +776,7 @@ status: proposed
 
 id: 1522
 permalink: 1546
+lesson: Verbs - Social Activity, Part 32
 lang: es
 english: free
 current: gratis
@@ -734,6 +790,7 @@ status: proposed
 
 id: 1500
 permalink: 1524
+lesson: Verbs - Social Activity, Part 27
 lang: es
 english: monitor
 current: monitor
@@ -747,6 +804,7 @@ status: proposed
 
 id: 1532
 permalink: 1556
+lesson: Verbs - Social Activity, Part 35
 lang: es
 english: respect
 current: el respeto
@@ -760,6 +818,7 @@ status: proposed
 
 id: 1540
 permalink: 1564
+lesson: Verbs - Economic Activity, Part 1
 lang: es
 english: work
 current: trabajo
@@ -773,6 +832,7 @@ status: proposed
 
 id: 1561
 permalink: 1585
+lesson: Verbs - Economic Activity, Part 6
 lang: es
 english: own
 current: propio
@@ -785,6 +845,7 @@ status: proposed
 
 id: 1543
 permalink: 1567
+lesson: Verbs - Economic Activity, Part 2
 lang: es
 english: pay
 current: paga
@@ -797,6 +858,7 @@ status: proposed
 
 id: 1497
 permalink: 1521
+lesson: Verbs - Social Activity, Part 26
 lang: es
 english: kiss
 current: Beso
@@ -815,6 +877,7 @@ status: proposed
 
 id: 8106
 permalink: 8130
+lesson: Nouns - Concepts, Part 3
 lang: es
 english: form
 current: formar
@@ -828,6 +891,7 @@ status: proposed
 
 id: 8241
 permalink: 8265
+lesson: Nouns - Concepts, Part 37
 lang: es
 english: search
 current: buscar
@@ -840,6 +904,7 @@ status: proposed
 
 id: 8233
 permalink: 8257
+lesson: Nouns - Concepts, Part 35
 lang: es
 english: cut
 current: cortar
@@ -852,6 +917,7 @@ status: proposed
 
 id: 8113
 permalink: 8137
+lesson: Nouns - Concepts, Part 5
 lang: es
 english: need
 current: necesitar
@@ -864,6 +930,7 @@ status: proposed
 
 id: 8300
 permalink: 8324
+lesson: Nouns - Concepts, Part 51
 lang: es
 english: smell
 current: oler
@@ -876,6 +943,7 @@ status: proposed
 
 id: 8334
 permalink: 8358
+lesson: Nouns - Concepts, Part 60
 lang: es
 english: stand
 current: estar
@@ -889,6 +957,7 @@ status: proposed
 
 id: 8180
 permalink: 8204
+lesson: Nouns - Concepts, Part 21
 lang: es
 english: goal
 current: Gol
@@ -902,6 +971,7 @@ status: proposed
 
 id: 8161
 permalink: 8185
+lesson: Nouns - Concepts, Part 17
 lang: es
 english: cell
 current: celda
@@ -915,6 +985,7 @@ status: proposed
 
 id: 8349
 permalink: 8373
+lesson: Nouns - Concepts, Part 64
 lang: es
 english: borough
 current: ciudad
@@ -927,6 +998,7 @@ status: proposed
 
 id: 8358
 permalink: 8382
+lesson: Nouns - Concepts, Part 66
 lang: es
 english: slope
 current: cuesta abajo
@@ -940,6 +1012,7 @@ status: proposed
 
 id: 8273
 permalink: 8297
+lesson: Nouns - Concepts, Part 45
 lang: es
 english: involvement
 current: enredo
@@ -953,6 +1026,7 @@ status: proposed
 
 id: 8324
 permalink: 8348
+lesson: Nouns - Concepts, Part 57
 lang: es
 english: venture
 current: riesgo
@@ -966,6 +1040,7 @@ status: proposed
 
 id: 8374
 permalink: 8398
+lesson: Nouns - Concepts, Part 70
 lang: es
 english: pop
 current: popular
@@ -979,6 +1054,7 @@ status: proposed
 
 id: 8259
 permalink: 8283
+lesson: Nouns - Concepts, Part 41
 lang: es
 english: significance
 current: significado
@@ -992,6 +1068,7 @@ status: proposed
 
 id: 8263
 permalink: 8287
+lesson: Nouns - Concepts, Part 42
 lang: es
 english: shock
 current: choque
@@ -1005,6 +1082,7 @@ status: proposed
 
 id: 8293
 permalink: 8317
+lesson: Nouns - Concepts, Part 50
 lang: es
 english: luck
 current: luck
@@ -1017,6 +1095,7 @@ status: proposed
 
 id: 8143
 permalink: 8167
+lesson: Nouns - Concepts, Part 12
 lang: es
 english: source
 current: source
@@ -1029,6 +1108,7 @@ status: proposed
 
 id: 8190
 permalink: 8214
+lesson: Nouns - Concepts, Part 24
 lang: es
 english: cause
 current: cause
@@ -1042,6 +1122,7 @@ status: proposed
 
 id: 8131
 permalink: 8155
+lesson: Nouns - Concepts, Part 9
 lang: es
 english: union
 current: union
@@ -1055,6 +1136,7 @@ status: proposed
 
 id: 8201
 permalink: 8225
+lesson: Nouns - Concepts, Part 27
 lang: es
 english: safety
 current: la seguridad
@@ -1068,6 +1150,7 @@ status: proposed
 
 id: 1586
 permalink: 1610
+lesson: Verbs - Economic Activity, Part 12
 lang: es
 english: hire
 current: alquiler
@@ -1082,6 +1165,7 @@ status: proposed
 
 id: 1581
 permalink: 1605
+lesson: Verbs - Economic Activity, Part 11
 lang: es
 english: trade
 current: comercio
@@ -1094,6 +1178,7 @@ status: proposed
 
 id: 1583
 permalink: 1607
+lesson: Verbs - Economic Activity, Part 12
 lang: es
 english: bet
 current: apuesta
@@ -1108,6 +1193,7 @@ status: proposed
 
 id: 8667
 permalink: 8691
+lesson: Nouns - People, Part 16
 lang: es
 english: speaker
 current: altavoz
@@ -1122,6 +1208,7 @@ status: proposed
 
 id: 8670
 permalink: 8694
+lesson: Nouns - People, Part 17
 lang: es
 english: miss
 current: perder
@@ -1135,6 +1222,7 @@ status: proposed
 
 id: 8413
 permalink: 8437
+lesson: Nouns - Concepts, Part 80
 lang: es
 english: heel
 current: tacón
@@ -1147,6 +1235,7 @@ status: proposed
 
 id: 8494
 permalink: 8518
+lesson: Nouns - Measurements, Part 7
 lang: es
 english: age
 current: años
@@ -1158,6 +1247,7 @@ status: proposed
 
 id: 8522
 permalink: 8546
+lesson: Nouns - Measurements, Part 14
 lang: es
 english: degree
 current: la licenciatura
@@ -1171,6 +1261,7 @@ status: proposed
 
 id: 8480
 permalink: 8504
+lesson: Nouns - Measurements, Part 3
 lang: es
 english: right
 current: derecho
@@ -1185,6 +1276,7 @@ status: proposed
 
 id: 8570
 permalink: 8594
+lesson: Nouns - Measurements, Part 26
 lang: es
 english: circle
 current: circulo
@@ -1198,6 +1290,7 @@ status: proposed
 
 id: 8501
 permalink: 8525
+lesson: Nouns - Measurements, Part 9
 lang: es
 english: range
 current: distancia
@@ -1211,6 +1304,7 @@ status: proposed
 
 id: 8487
 permalink: 8511
+lesson: Nouns - Measurements, Part 5
 lang: es
 english: rate
 current: tarifa
@@ -1224,6 +1318,7 @@ status: proposed
 
 id: 8386
 permalink: 8410
+lesson: Nouns - Concepts, Part 73
 lang: es
 english: insight
 current: visión
@@ -1237,6 +1332,7 @@ status: proposed
 
 id: 8457
 permalink: 8481
+lesson: Nouns - Concepts, Part 91
 lang: es
 english: spell
 current: deletrear
@@ -1250,6 +1346,7 @@ status: proposed
 
 id: 8544
 permalink: 8568
+lesson: Nouns - Measurements, Part 19
 lang: es
 english: beginning
 current: comenzando
@@ -1263,6 +1360,7 @@ status: proposed
 
 id: 8593
 permalink: 8617
+lesson: Nouns - Measurements, Part 32
 lang: es
 english: count
 current: contar
@@ -1275,6 +1373,7 @@ status: proposed
 
 id: 8591
 permalink: 8615
+lesson: Nouns - Measurements, Part 31
 lang: es
 english: delay
 current: retrasar
@@ -1287,6 +1386,7 @@ status: proposed
 
 id: 8539
 permalink: 8563
+lesson: Nouns - Measurements, Part 18
 lang: es
 english: balance
 current: equilibrar
@@ -1299,6 +1399,7 @@ status: proposed
 
 id: 8409
 permalink: 8433
+lesson: Nouns - Concepts, Part 79
 lang: es
 english: filter
 current: filtrar
@@ -1311,6 +1412,7 @@ status: proposed
 
 id: 8651
 permalink: 8675
+lesson: Nouns - People, Part 12
 lang: es
 english: individual
 current: individual
@@ -1323,6 +1425,7 @@ status: proposed
 
 id: 8640
 permalink: 8664
+lesson: Nouns - People, Part 10
 lang: es
 english: officer
 current: officer
@@ -1336,6 +1439,7 @@ status: proposed
 
 id: 8441
 permalink: 8465
+lesson: Nouns - Concepts, Part 87
 lang: es
 english: stroke
 current: stroke
@@ -1349,6 +1453,7 @@ status: proposed
 
 id: 8635
 permalink: 8659
+lesson: Nouns - People, Part 8
 lang: es
 english: parent
 current: padre
@@ -1364,6 +1469,7 @@ status: proposed
 
 id: 8709
 permalink: 8733
+lesson: Nouns - People, Part 27
 lang: es
 english: will
 current: será
@@ -1378,6 +1484,7 @@ status: proposed
 
 id: 8864
 permalink: 8888
+lesson: Nouns - People, Part 67
 lang: es
 english: widow
 current: Vdo
@@ -1392,6 +1499,7 @@ status: proposed
 
 id: 8732
 permalink: 8756
+lesson: Nouns - People, Part 33
 lang: es
 english: fan
 current: ventilador
@@ -1406,6 +1514,7 @@ status: proposed
 
 id: 8702
 permalink: 8726
+lesson: Nouns - People, Part 25
 lang: es
 english: gentleman
 current: hidalgo
@@ -1420,6 +1529,7 @@ status: proposed
 
 id: 8836
 permalink: 8860
+lesson: Nouns - People, Part 59
 lang: es
 english: printer
 current: impresora
@@ -1433,6 +1543,7 @@ status: proposed
 
 id: 8842
 permalink: 8866
+lesson: Nouns - People, Part 61
 lang: es
 english: commissioner
 current: notario
@@ -1446,6 +1557,7 @@ status: proposed
 
 id: 8901
 permalink: 8925
+lesson: Nouns - Society, Part 2
 lang: es
 english: school
 current: school
@@ -1459,6 +1571,7 @@ status: proposed
 
 id: 8749
 permalink: 8773
+lesson: Nouns - People, Part 37
 lang: es
 english: female
 current: hembra
@@ -1473,6 +1586,7 @@ status: proposed
 
 id: 8834
 permalink: 8858
+lesson: Nouns - People, Part 59
 lang: es
 english: cousin
 current: prima
@@ -1487,6 +1601,7 @@ status: proposed
 
 id: 8883
 permalink: 8907
+lesson: Nouns - People, Part 72
 lang: es
 english: organ
 current: Organo
@@ -1500,6 +1615,7 @@ status: proposed
 
 id: 8772
 permalink: 8796
+lesson: Nouns - People, Part 43
 lang: es
 english: mood
 current: estado animico
@@ -1512,6 +1628,7 @@ status: proposed
 
 id: 8912
 permalink: 8936
+lesson: Nouns - Society, Part 5
 lang: es
 english: court
 current: Corte
@@ -1525,6 +1642,7 @@ status: proposed
 
 id: 8974
 permalink: 8998
+lesson: Nouns - Society, Part 20
 lang: es
 english: profit
 current: lucro
@@ -1538,6 +1656,7 @@ status: proposed
 
 id: 8686
 permalink: 8710
+lesson: Nouns - People, Part 21
 lang: es
 english: master
 current: dominar
@@ -1551,6 +1670,7 @@ status: proposed
 
 id: 8777
 permalink: 8801
+lesson: Nouns - People, Part 44
 lang: es
 english: relative
 current: relativo
@@ -1564,6 +1684,7 @@ status: proposed
 
 id: 8888
 permalink: 8912
+lesson: Nouns - People, Part 73
 lang: es
 english: delegate
 current: delegar
@@ -1576,6 +1697,7 @@ status: proposed
 
 id: 8982
 permalink: 9006
+lesson: Nouns - Society, Part 22
 lang: es
 english: sign
 current: firmar
@@ -1589,6 +1711,7 @@ status: proposed
 
 id: 8954
 permalink: 8978
+lesson: Nouns - Society, Part 15
 lang: es
 english: charge
 current: cargar
@@ -1601,6 +1724,7 @@ status: proposed
 
 id: 8765
 permalink: 8789
+lesson: Nouns - People, Part 41
 lang: es
 english: sleep
 current: dormir
@@ -1613,6 +1737,7 @@ status: proposed
 
 id: 8728
 permalink: 8752
+lesson: Nouns - People, Part 32
 lang: es
 english: walk
 current: caminar
@@ -1626,6 +1751,7 @@ status: proposed
 
 id: 9172
 permalink: 9196
+lesson: Spanish
 lang: es
 english: Nouns - Society, Part 79
 current: admisión
@@ -1642,6 +1768,7 @@ status: proposed
 
 id: 9240
 permalink: 9264
+lesson: Nouns - Society, Part 98
 lang: es
 english: raid
 current: RAID
@@ -1655,6 +1782,7 @@ status: proposed
 
 id: 9213
 permalink: 9237
+lesson: Nouns - Society, Part 90
 lang: es
 english: resignation
 current: resignación
@@ -1669,6 +1797,7 @@ status: proposed
 
 id: 9214
 permalink: 9238
+lesson: Nouns - Society, Part 90
 lang: es
 english: sympathy
 current: simpatía
@@ -1683,6 +1812,7 @@ status: proposed
 
 id: 9144
 permalink: 9168
+lesson: Nouns - Society, Part 69
 lang: es
 english: custom
 current: personalizado
@@ -1697,6 +1827,7 @@ status: proposed
 
 id: 9151
 permalink: 9175
+lesson: Nouns - Society, Part 73
 lang: es
 english: allowance
 current: tolerancia
@@ -1710,6 +1841,7 @@ status: proposed
 
 id: 9001
 permalink: 9025
+lesson: Nouns - Society, Part 29
 lang: es
 english: speech
 current: habla
@@ -1723,6 +1855,7 @@ status: proposed
 
 id: 8984
 permalink: 9008
+lesson: Nouns - Society, Part 23
 lang: es
 english: holiday
 current: fiesta
@@ -1737,6 +1870,7 @@ status: proposed
 
 id: 9279
 permalink: 9303
+lesson: Nouns - Society, Part 108
 lang: es
 english: riot
 current: alboroto
@@ -1750,6 +1884,7 @@ status: proposed
 
 id: 9146
 permalink: 9170
+lesson: Nouns - Society, Part 70
 lang: es
 english: bond
 current: enlace
@@ -1763,6 +1898,7 @@ status: proposed
 
 id: 9258
 permalink: 9282
+lesson: Nouns - Society, Part 102
 lang: es
 english: dialogue
 current: dialogue
@@ -1775,6 +1911,7 @@ status: proposed
 
 id: 9016
 permalink: 9040
+lesson: Nouns - Society, Part 33
 lang: es
 english: rise
 current: subir
@@ -1787,6 +1924,7 @@ status: proposed
 
 id: 9029
 permalink: 9053
+lesson: Nouns - Society, Part 38
 lang: es
 english: smile
 current: sonreír
@@ -1799,6 +1937,7 @@ status: proposed
 
 id: 9072
 permalink: 9096
+lesson: Nouns - Society, Part 49
 lang: es
 english: reading
 current: leyendo
@@ -1812,6 +1951,7 @@ status: proposed
 
 id: 9058
 permalink: 9082
+lesson: Nouns - Society, Part 45
 lang: es
 english: grant
 current: conceder
@@ -1825,6 +1965,7 @@ status: proposed
 
 id: 9015
 permalink: 9039
+lesson: Nouns - Society, Part 33
 lang: es
 english: protection
 current: proteccion
@@ -1839,6 +1980,7 @@ status: proposed
 
 id: 9034
 permalink: 9058
+lesson: Nouns - Society, Part 39
 lang: es
 english: tradition
 current: tradicion
@@ -1850,6 +1992,7 @@ status: proposed
 
 id: 9041
 permalink: 9065
+lesson: Nouns - Society, Part 41
 lang: es
 english: conversation
 current: conversacion
@@ -1861,6 +2004,7 @@ status: proposed
 
 id: 9023
 permalink: 9047
+lesson: Nouns - Society, Part 36
 lang: es
 english: generation
 current: Generacion
@@ -1872,6 +2016,7 @@ status: proposed
 
 id: 9229
 permalink: 9253
+lesson: Nouns - Society, Part 95
 lang: es
 english: celebration
 current: celebracion
@@ -1883,6 +2028,7 @@ status: proposed
 
 id: 8988
 permalink: 9012
+lesson: Nouns - Society, Part 24
 lang: es
 english: majority
 current: mayoria

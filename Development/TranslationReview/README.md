@@ -25,6 +25,7 @@ Target is no more than roughly 200 corrections per wave.
 | `id` | `EntryTranslation.id` — the row to update |
 | `entryid` | `EntryTranslation.Entryid`, for cross-checking the source word |
 | `permalink` | `Assignment.id` — the identifier to quote and to link by |
+| `lesson` | The lesson the word sits in. This is what fixes its sense |
 | `lang` | Language code, matching `EntryTranslation.Language` |
 | `english` | The English source title, for the reader of this file |
 | `current` | What the row holds now. Update only if this still matches |
@@ -183,3 +184,26 @@ missing `-ción` accents sit between 9015 and 9293. Neither is a habit spread
 through the corpus; both are batches. Whatever ran over those ranges did
 something different from whatever ran over the rest, and finding out what would
 be worth more than fixing them one at a time.
+
+## The lesson is the sense
+
+The same English spelling appears in more than one lesson, and it is never the
+same word twice:
+
+```
+turkey   Nouns - Animals          |  Culture - Countries
+press    Verbs - Activity         |  Nouns - Objects
+break    Verbs - Activity         |  Nouns - Concepts
+orange   Culture - Food and Drink |  Adjectives - Colors
+```
+
+The bird and the country. The verb and the noun. The fruit and the colour. So a
+row is judged against its lesson, and every record carries it.
+
+`Turquía` is **wrong** at entry 68 and **right** at entry 50265, and the only
+thing that says so is the lesson name. A correction applied to both would break
+the good one, which is why corrections are per row and always will be.
+
+The other thirteen entries sharing a word are not duplicates either. They are
+one entry per language — the Spanish row hangs on one of them, the Italian on
+another. That is the multilingual structure rather than a fault.
