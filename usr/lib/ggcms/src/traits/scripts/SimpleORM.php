@@ -1636,22 +1636,21 @@
 		}
 		
 		public function SetRandomLikeRecords() {
+			$definition = [
+				'LikeOrDislike'=>1,
+			];
+			
 			if($this->where['value']) {
-				$raw_where =[
+				$definition['RAW'] = [
 						'Entryid'=>[
 							'NOT IN',
 							'(' . implode(',', $this->where['value']) . ')',
 						],
 					];
-			} else {
-				$raw_where = false;
 			}
 			$get_record_where = [
 				'type'=>'LikeDislike',
-				'definition'=>[
-					'LikeOrDislike'=>1,
-					'RAW'=>$raw_where,
-				],
+				'definition'=>$definition,
 				'joins'=>[
 					'JOIN'=>[
 						'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = LikeDislike.Entryid',
@@ -1696,16 +1695,20 @@
 		}
 		
 		public function SetRandomEventDateRecords() {
+			$definition = [];
+			
+			if($this->where['value']) {
+				$definition['RAW'] = [
+					'Entryid'=>[
+						'NOT IN',
+						'(' . implode(',', $this->where['value']) . ')',
+					],
+				];
+			}
+			
 			$get_record_where = [
 				'type'=>'EventDate',
-				'definition'=>[
-					'RAW'=>[
-						'Entryid'=>[
-							'NOT IN',
-							'(' . implode(',', $this->where['value']) . ')',
-						],
-					],
-				],
+				'definition'=>$definition,
 				'joins'=>[
 					'JOIN'=>[
 						'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = EventDate.Entryid',
@@ -1720,16 +1723,20 @@
 		}
 		
 		public function SetRandomTextBodyRecords() {
+			$definition = [];
+			
+			if($this->where['value']) {
+				$definition['RAW'] = [
+					'Entryid'=>[
+						'NOT IN',
+						'(' . implode(',', $this->where['value']) . ')',
+					],
+				];
+			}
+			
 			$get_record_where = [
 				'type'=>'TextBody',
-				'definition'=>[
-					'RAW'=>[
-						'Entryid'=>[
-							'NOT IN',
-							'(' . implode(',', $this->where['value']) . ')',
-						],
-					],
-				],
+				'definition'=>$definition,
 				'joins'=>[
 					'JOIN'=>[
 						'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = TextBody.Entryid',
@@ -1745,16 +1752,20 @@
 		}
 		
 		public function SetRandomDescriptionRecords() {
+			$definition = [];
+			
+			if($this->where['value']) {
+				$definition['RAW'] = [
+					'Entryid'=>[
+						'NOT IN',
+						'(' . implode(',', $this->where['value']) . ')',
+					],
+				];
+			}
+			
 			$get_record_where = [
 				'type'=>'Description',
-				'definition'=>[
-					'RAW'=>[
-						'Entryid'=>[
-							'NOT IN',
-							'(' . implode(',', $this->where['value']) . ')',
-						],
-					],
-				],
+				'definition'=>$definition,
 				'joins'=>[
 					'JOIN'=>[
 						'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = Description.Entryid',
@@ -1770,16 +1781,20 @@
 		}
 		
 		public function SetRandomQuoteRecords() {
+			$definition = [];
+			
+			if($this->where['value']) {
+				$definition['RAW'] = [
+					'Entryid'=>[
+						'NOT IN',
+						'(' . implode(',', $this->where['value']) . ')',
+					],
+				];
+			}
+			
 			$get_record_where = [
 				'type'=>'Quote',
-				'definition'=>[
-					'RAW'=>[
-						'Entryid'=>[
-							'NOT IN',
-							'(' . implode(',', $this->where['value']) . ')',
-						],
-					],
-				],
+				'definition'=>$definition,
 				'joins'=>[
 					'JOIN'=>[
 						'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = Quote.Entryid',
@@ -1795,16 +1810,20 @@
 		}
 		
 		public function SetRandomImageRecords() {
+			$definition = [];
+			
+			if($this->where['value']) {
+				$definition['RAW'] = [
+					'Entryid'=>[
+						'NOT IN',
+						'(' . implode(',', $this->where['value']) . ')',
+					],
+				];
+			}
+			
 			$get_record_where = [
 				'type'=>'Image',
-				'definition'=>[
-					'RAW'=>[
-						'Entryid'=>[
-							'NOT IN',
-							'(' . implode(',', $this->where['value']) . ')',
-						],
-					],
-				],
+				'definition'=>$definition,
 				'joins'=>[
 					'JOIN'=>[
 						'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = Image.Entryid',
@@ -1820,16 +1839,20 @@
 		}
 		
 		public function SetRandomTagRecords() {
+			$definition = [];
+			
+			if($this->where['value']) {
+				$definition['RAW'] = [
+					'Entryid'=>[
+						'NOT IN',
+						'(' . implode(',', $this->where['value']) . ')',
+					],
+				];
+			}
+			
 			$get_record_where = [
 				'type'=>'Tag',
-				'definition'=>[
-					'RAW'=>[
-						'Entryid'=>[
-							'NOT IN',
-							'(' . implode(',', $this->where['value']) . ')',
-						],
-					],
-				],
+				'definition'=>$definition,
 				'joins'=>[
 					'JOIN'=>[
 						'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = Tag.Entryid',
@@ -2319,6 +2342,8 @@
 						'type'=>'ggcms_Comments_approved',
 						'arguments'=>[$this->entry['id']],
 					]);
+				} else {
+					$comments = FALSE;
 				}
 				
 				if(!is_array($comments)) {
@@ -3095,6 +3120,8 @@
 						'type'=>'ggcms_UserIds',
 						'arguments'=>$user_ids,
 					]);
+				} else {
+					$users = FALSE;
 				}
 				
 				if(!is_array($users)) {
