@@ -56,6 +56,21 @@
 				return $this->cancelAction(['message'=>'Nothing to write.  Pass at least one --field=name=value.']);
 			}
 
+				/*
+					modify.php will not save for nobody, and that is correct --
+					ValidateRecordForSaving_EntryPermission() refuses a write with
+					no user behind it, on the web and here alike.  Refusing early
+					means the message names the missing argument, rather than
+					arriving as an invitation to visit the login page, which is
+					not advice anybody at a prompt can act on.
+
+					Not required for a dry run, which reaches no gate.
+				*/
+
+			if($this->apply && !strlen($this->user)) {
+				return $this->cancelAction(['message'=>'Saving needs somebody to save as.  Pass --user=ADMIN for the administrator account, or --user=<id> for a particular one.']);
+			}
+
 			$this->reportIntent();
 
 			if(!$this->apply) {
@@ -129,6 +144,7 @@
 		public function setOptions() {
 			$this->action = $this->option(['name'=>'action', 'default'=>'Save']);
 			$this->path = $this->option(['name'=>'path', 'default'=>'/']);
+			$this->user = $this->option(['name'=>'user', 'default'=>'']);
 			$this->apply = $this->flag(['name'=>'apply']);
 			$this->fields = $this->fieldArguments();
 
@@ -180,6 +196,7 @@
 		public function reportIntent() {
 			print('Action   : ' . $this->action . PHP_EOL);
 			print('URL      : ' . $this->scriptURL() . PHP_EOL);
+			print('User     : ' . (strlen($this->user) ? $this->user : '(none -- dry run only)') . PHP_EOL);
 			print('Mode     : ' . ($this->apply ? 'APPLY -- writes to the database' : 'dry run') . PHP_EOL);
 			print(PHP_EOL);
 
@@ -253,26 +270,6 @@
 			return $path . 'modify.php';
 		}
 
-			/*
-				modify.php is IsSecure and RequiresLogin, so Authenticate() wants
-				a user_session -- a login cookie this process does not have and
-				should not be given one by storing a password on the server.
-
-				Access is therefore granted directly, and the reasoning is worth
-				stating rather than hiding: whoever runs this already has a shell
-				on the host, and a shell is strictly more power than any web
-				login. The login gate exists to stop a remote visitor. It is not
-				a second lock on someone who is already inside.
-
-				It is one line, and it is the only line in this tool that gives
-				anything away. Remove it and the tool stops working rather than
-				failing quietly, which is the right way round.
-			*/
-
-		public function grantAccess($args) {
-			return TRUE;
-		}
-
 			// Running it
 			// -----------------------------------------------
 
@@ -283,9 +280,11 @@
 
 				//  After StandardLibraries, because it extends Handler.
 
+			clireq('classes/Entries/CLIAuthentication.php');
 			clireq('classes/Entries/CLIHandler.php');
 
 			$handler = new CLIHandler();
+			$handler->SetCLIUser(['user'=>$this->user]);
 
 			ob_start();
 			$handler->HandleRequest();
@@ -309,6 +308,22 @@
 		public function reportResult($args) {
 			$handler = $args['handler'];
 			$output = $args['output'];
+
+				/*
+					The lookup's own complaint comes first when there is one.
+					Without this the failure surfaces as modify.php's "you may
+					only save information if you are logged in, which you may do
+					here: <url>" -- accurate, and useless to somebody at a prompt
+					who needs to know that ADMIN matched two accounts.
+				*/
+
+			$authentication_error = $handler->CLIAuthenticationError();
+
+			if($authentication_error) {
+				print('Refused  : ' . $authentication_error . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
 
 			$script = FALSE;
 
