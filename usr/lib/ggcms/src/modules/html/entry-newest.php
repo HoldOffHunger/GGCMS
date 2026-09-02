@@ -12,6 +12,20 @@
 			// -------------------------------------------------------------
 		
 		public function Display() {
+				/*
+					The script decides whether to gather this at all -- see
+					RecordRelationEnabled and the record_relations config -- so a
+					template that includes this module on a site where the switch
+					is off arrives here with nothing set.  count(NULL) is fatal in
+					PHP 8, so that combination took whole sites to a 500 rather
+					than printing no block.  A module renders what it was given,
+					and being given nothing is a valid answer.
+				*/
+
+			if(!$this->that->newest_entries || !is_array($this->that->newest_entries)) {
+				return TRUE;
+			}
+
 			$newest_entries_count = count($this->that->newest_entries);
 			
 			if($newest_entries_count === 0) {

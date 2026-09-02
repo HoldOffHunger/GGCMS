@@ -53,10 +53,22 @@
 			/*
 				The most recently added children, for a front page that lists
 				what is new.
+
+				This one defaults ON, unlike its neighbours, because the
+				default template set itself renders it -- modules/html/
+				entry-newest.php is included from default/view/display_index.php.
+				A site that has written no template of its own therefore needs
+				this data, and a default of FALSE took every such site to a
+				fatal on count(NULL) rather than merely hiding a block.
+
+				The two switches above are safe to default off because no
+				default template reads them.  The rule is the same for all
+				three: a switch may default off only if nothing in the default
+				template set asks for what it gates.
 			*/
 
 		public function NewestChildren_enabled() {
-			return FALSE;
+			return TRUE;
 		}
 
 				// Navigation

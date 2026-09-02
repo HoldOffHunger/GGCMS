@@ -54,7 +54,26 @@ echo "==> engine    -> /usr/lib/ggcms/"
 		#  afterwards failed on fopen() returning false.  Excluded, and
 		#  recreated below in case it is missing.
 
-rsync -a --delete --exclude 'src/data/' "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
+		#  src/templates/ is excluded from the --delete pass and synced
+		#  below instead.  The engine repository carries only the default
+		#  template set; every site's own templates live in the private
+		#  configuration repository, and a --delete here would remove them
+		#  from the host on the first deploy after they moved.
+		#
+		#  Excluding rather than resyncing afterwards is deliberate.  It
+		#  means a host with no configuration checkout leaves the templates
+		#  it already has alone, instead of deleting them and restoring
+		#  them a moment later -- or, if the checkout is missing, deleting
+		#  them and stopping there.
+
+rsync -a --delete --exclude 'src/data/' --exclude 'src/templates/' "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
+
+echo "==> templates -> /usr/lib/ggcms/src/templates/"
+
+		#  The default set is wholly the engine's, so it gets --delete
+		#  scoped to itself.
+
+rsync -a --delete "$REPO/usr/lib/ggcms/src/templates/default/" /usr/lib/ggcms/src/templates/default/
 
 echo "==> config    -> /etc/ggcms/"
 
@@ -129,6 +148,26 @@ if [ -d "$CONFIG/.git" ]; then
 			rsync -a "$CONFIG/etc/apache2/$toplevel" "/etc/apache2/$toplevel"
 		fi
 	done
+
+		#  Site configuration and site templates, which live here rather
+		#  than in the public engine repository because they describe real
+		#  sites: per-domain overrides, and the com.<site>.php files that
+		#  hold database credentials.
+		#
+		#  No --delete on either.  A host may carry a domain this checkout
+		#  does not know about, and deleting a site's config or its
+		#  templates would take that site down with nothing to restore
+		#  from but this repository's history.
+
+	if [ -d "$CONFIG/etc/ggcms" ]; then
+		echo "==> site config   -> /etc/ggcms/"
+		rsync -a "$CONFIG/etc/ggcms/" /etc/ggcms/
+	fi
+
+	if [ -d "$CONFIG/usr/lib/ggcms/src/templates" ]; then
+		echo "==> site templates -> /usr/lib/ggcms/src/templates/"
+		rsync -a "$CONFIG/usr/lib/ggcms/src/templates/" /usr/lib/ggcms/src/templates/
+	fi
 else
 	echo "==> server config -- no checkout at $CONFIG, skipping"
 fi
