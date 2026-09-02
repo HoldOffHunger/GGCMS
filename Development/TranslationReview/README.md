@@ -63,6 +63,10 @@ the one whose context the correction was judged in.
 * `register` — understood, but not what a speaker would say.
 * `regional` — correct somewhere, wrong for the intended audience.
 * `false-friend` — looks like the English word and means something else.
+* `wrong-class` — right root, wrong part of speech. A verb where the list wants
+  a noun, or a noun where it wants a verb. Records written before this kind
+  existed used `wrong-word` for the same fault; they want reclassifying one day
+  and are not wrong meanwhile.
 * `corrupt` — not a word in any language. Mangled somewhere in transit.
 * `wrong-form` — right verb, wrong grammatical form: an imperative or a
   conjugation where the list wants an infinitive.

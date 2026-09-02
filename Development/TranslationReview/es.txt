@@ -807,3 +807,299 @@ reason: Un beso is a kiss, the noun, and capitalised besides. The verb is
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "besar".
 status: proposed
+
+# --- Wave 1 candidates, block 7: verbs 1574-1587, nouns 8097-8382 ---
+#
+# The noun list fails in the mirror image of the verb list: where verbs were
+# given nouns, nouns are given verbs.  Same cause, opposite symptom.
+
+id: 8106
+permalink: 8130
+lang: es
+english: form
+current: formar
+proposed: formulario
+kind: wrong-class
+reason: Formar is the verb, to form. This is the noun list, and the noun is
+  formulario for a form to fill in, or forma for a shape.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "formulario" and s.v. "formar".
+status: proposed
+
+id: 8241
+permalink: 8265
+lang: es
+english: search
+current: buscar
+proposed: búsqueda
+kind: wrong-class
+reason: Buscar is the verb. The noun is búsqueda.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "búsqueda".
+status: proposed
+
+id: 8233
+permalink: 8257
+lang: es
+english: cut
+current: cortar
+proposed: corte
+kind: wrong-class
+reason: Cortar is the verb. The noun is corte.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "corte".
+status: proposed
+
+id: 8113
+permalink: 8137
+lang: es
+english: need
+current: necesitar
+proposed: necesidad
+kind: wrong-class
+reason: Necesitar is the verb. The noun is necesidad.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "necesidad".
+status: proposed
+
+id: 8300
+permalink: 8324
+lang: es
+english: smell
+current: oler
+proposed: olor
+kind: wrong-class
+reason: Oler is the verb. The noun is olor.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "olor".
+status: proposed
+
+id: 8334
+permalink: 8358
+lang: es
+english: stand
+current: estar
+proposed: puesto
+kind: wrong-class
+reason: Estar is to be. A stand is a puesto at a market, or a tribuna at a
+  ground. Neither is a state of being.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "puesto" and s.v. "estar".
+status: proposed
+
+id: 8180
+permalink: 8204
+lang: es
+english: goal
+current: Gol
+proposed: meta
+kind: wrong-sense
+reason: Un gol is scored in football. A goal you are working towards is a meta,
+  or an objetivo. Capitalised as well.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "gol"
+  and s.v. "meta".
+status: proposed
+
+id: 8161
+permalink: 8185
+lang: es
+english: cell
+current: celda
+proposed: célula
+kind: wrong-sense
+reason: Una celda is a prison cell, or a cell in a spreadsheet. The one in a
+  body is una célula.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "célula" and s.v. "celda".
+status: proposed
+
+id: 8349
+permalink: 8373
+lang: es
+english: borough
+current: ciudad
+proposed: distrito
+kind: wrong-word
+reason: Una ciudad is a city. A borough is a district within one.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "distrito" and s.v. "ciudad".
+status: proposed
+
+id: 8358
+permalink: 8382
+lang: es
+english: slope
+current: cuesta abajo
+proposed: pendiente
+kind: wrong-word
+reason: Cuesta abajo means downhill -- a direction, not a thing. A slope is una
+  pendiente, or una cuesta.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "pendiente" and s.v. "cuesta".
+status: proposed
+
+id: 8273
+permalink: 8297
+lang: es
+english: involvement
+current: enredo
+proposed: participación
+kind: wrong-word
+reason: Un enredo is a tangle, or a muddle. Involvement is participación, or
+  implicación.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "enredo" and s.v. "participación".
+status: proposed
+
+id: 8324
+permalink: 8348
+lang: es
+english: venture
+current: riesgo
+proposed: empresa
+kind: wrong-word
+reason: Riesgo is risk, and is already the translation given for risk twelve
+  rows earlier. A venture is una empresa.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "empresa" and s.v. "riesgo".
+status: proposed
+
+id: 8374
+permalink: 8398
+lang: es
+english: pop
+current: popular
+proposed: estallido
+kind: wrong-class
+reason: Popular is an adjective, and not even the right sense -- it read pop as
+  short for popular. The noun is un estallido, a bang.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "estallido".
+status: proposed
+
+id: 8259
+permalink: 8283
+lang: es
+english: significance
+current: significado
+proposed: importancia
+kind: wrong-sense
+reason: El significado is the meaning of a thing. Its significance -- how much
+  it matters -- is su importancia.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "importancia" and s.v. "significado".
+status: proposed
+
+id: 8263
+permalink: 8287
+lang: es
+english: shock
+current: choque
+proposed: conmoción
+kind: wrong-sense
+reason: Un choque is a collision, and is already the translation given for
+  crash. Emotional or medical shock is una conmoción.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "conmoción" and s.v. "choque".
+status: proposed
+
+id: 8293
+permalink: 8317
+lang: es
+english: luck
+current: luck
+proposed: suerte
+kind: untranslated
+reason: Passed through unchanged.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "suerte".
+status: proposed
+
+id: 8143
+permalink: 8167
+lang: es
+english: source
+current: source
+proposed: fuente
+kind: untranslated
+reason: Passed through unchanged.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "fuente".
+status: proposed
+
+id: 8190
+permalink: 8214
+lang: es
+english: cause
+current: cause
+proposed: causa
+kind: untranslated
+reason: Passed through unchanged. It happens to be a real Spanish word -- the
+  subjunctive of causar -- which is why it will not look wrong at a glance.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "causa".
+status: proposed
+
+id: 8131
+permalink: 8155
+lang: es
+english: union
+current: union
+proposed: unión
+kind: orthography
+reason: Missing the accent. Unión is stressed on the last syllable and ends in
+  n, so it takes the tilde.
+source: Real Academia Española, Ortografía de la lengua española, on agudas
+  ending in -n; and s.v. "unión".
+status: proposed
+
+id: 8201
+permalink: 8225
+lang: es
+english: safety
+current: la seguridad
+proposed: seguridad
+kind: orthography
+reason: Carrying its definite article, as respect did. A vocabulary entry is
+  the word, not the phrase.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "seguridad".
+status: proposed
+
+id: 1586
+permalink: 1610
+lang: es
+english: hire
+current: alquiler
+proposed: contratar
+kind: wrong-word
+reason: El alquiler is rent -- what you pay for a flat. Hiring a person is
+  contratar; hiring a thing is alquilar, the verb rather than the noun. This row
+  is also duplicated at id 1587, identically wrong.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "contratar" and s.v. "alquiler".
+status: proposed
+
+id: 1581
+permalink: 1605
+lang: es
+english: trade
+current: comercio
+proposed: comerciar
+kind: wrong-class
+reason: El comercio is commerce, the noun. The verb is comerciar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "comerciar".
+status: proposed
+
+id: 1583
+permalink: 1607
+lang: es
+english: bet
+current: apuesta
+proposed: apostar
+kind: wrong-class
+reason: Una apuesta is a bet, the noun. The verb is apostar.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "apostar".
+status: proposed
