@@ -134,5 +134,6 @@
 		],
 		'list'=>$comment,
 	];
-	
+	$generic_list->Display($version_list_display_args);
+
 ?>

@@ -75,7 +75,7 @@ ALTER TABLE TextBody ADD FULLTEXT INDEX `Text`  (`Text` DESC);
 		public function getIsolatedURL($args) {
 			$url = trim($args['url']);
 			
-			$url_protocol_pieces = explode('//', $url);
+			$url_protocol_pieces = explode('//', $url, 2);
 			
 			if(count($url_protocol_pieces) > 1) {
 				$isolated_url = $url_protocol_pieces[1];
@@ -86,7 +86,12 @@ ALTER TABLE TextBody ADD FULLTEXT INDEX `Text`  (`Text` DESC);
 			$subdomains = $this->getSubDomains();
 			
 			foreach($subdomains as $subdomain) {
-				$isolated_url = ltrim($isolated_url, $subdomain . '.');
+				$subdomain_prefix = $subdomain . '.';
+				
+				if(strpos($isolated_url, $subdomain_prefix) === 0) {
+					$isolated_url = substr($isolated_url, strlen($subdomain_prefix));
+					break;
+				}
 			}
 			
 			$isolated_url = rtrim($isolated_url, '/');

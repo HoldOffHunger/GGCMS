@@ -1505,7 +1505,7 @@
 			return $this->DetectURLIssue([
 				'definition'=>[
 					'URL'=>[
-						'RLIKE \'^[^http|ftp]\'',
+						'NOT RLIKE \'^(https?|s?ftp)://\'',
 					],
 				],
 			]);

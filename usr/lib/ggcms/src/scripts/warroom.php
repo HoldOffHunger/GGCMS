@@ -86,7 +86,7 @@
 			
 			$client_db_args = [
 				'handler'=>$this->handler,
-				'database'=>$primary_host,
+				'database'=>$primary_host_usable,
 			];
 			
 			$client_db = new DBAccess($client_db_args);
@@ -278,12 +278,12 @@
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
 			$comment_sql = 'SELECT * FROM Comment WHERE id = ?';
-			
+
 			$comment = $client_db->RunQuery([
 				'sql'=>$comment_sql,
 				'args'=>[$id],
 			])[0];
-			
+
 			if(!$comment || !$comment['id']) {
 				return FALSE;
 			}
@@ -306,13 +306,20 @@
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
 			$comment_sql = 'UPDATE Comment SET Approved = TRUE WHERE id = ?';
-			
+
+			$client_db->RunQuery([
+				'sql'=>$comment_sql,
+				'args'=>[$id],
+			]);
+
+			$comment_sql = 'SELECT * FROM Comment WHERE id = ?';
+
 			$comment = $client_db->RunQuery([
 				'sql'=>$comment_sql,
 				'args'=>[$id],
 			])[0];
-			
-			if(!$comment || !$comment['id']) {
+
+			if(!$comment || !$comment['id'] || !$comment['Approved']) {
 				return FALSE;
 			}
 			
@@ -332,15 +339,22 @@
 			$id = $client_and_id['id'];
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
-			
+
 			$comment_sql = 'UPDATE Comment SET Rejected = TRUE WHERE id = ?';
-			
+
+			$client_db->RunQuery([
+				'sql'=>$comment_sql,
+				'args'=>[$id],
+			]);
+
+			$comment_sql = 'SELECT * FROM Comment WHERE id = ?';
+
 			$comment = $client_db->RunQuery([
 				'sql'=>$comment_sql,
 				'args'=>[$id],
 			])[0];
-			
-			if(!$comment || !$comment['id']) {
+
+			if(!$comment || !$comment['id'] || !$comment['Rejected']) {
 				return FALSE;
 			}
 			
@@ -393,13 +407,20 @@
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
 			$suggestion_sql = 'UPDATE Suggestion SET Approved = TRUE WHERE id = ?';
-			
+
+			$client_db->RunQuery([
+				'sql'=>$suggestion_sql,
+				'args'=>[$id],
+			]);
+
+			$suggestion_sql = 'SELECT * FROM Suggestion WHERE id = ?';
+
 			$suggestion = $client_db->RunQuery([
 				'sql'=>$suggestion_sql,
 				'args'=>[$id],
 			])[0];
-			
-			if(!$suggestion || !$suggestion['id']) {
+
+			if(!$suggestion || !$suggestion['id'] || !$suggestion['Approved']) {
 				return FALSE;
 			}
 			
@@ -420,14 +441,21 @@
 			
 			$client_db = $this->getClientDB(['client'=>$client]);
 			
-			$suggestion_sql = 'UPDATE Suggestion SET Approved = FALSE WHERE id = ?';
-			
+			$suggestion_sql = 'UPDATE Suggestion SET Rejected = TRUE WHERE id = ?';
+
+			$client_db->RunQuery([
+				'sql'=>$suggestion_sql,
+				'args'=>[$id],
+			]);
+
+			$suggestion_sql = 'SELECT * FROM Suggestion WHERE id = ?';
+
 			$suggestion = $client_db->RunQuery([
 				'sql'=>$suggestion_sql,
 				'args'=>[$id],
 			])[0];
-			
-			if(!$suggestion || !$suggestion['id']) {
+
+			if(!$suggestion || !$suggestion['id'] || !$suggestion['Rejected']) {
 				return FALSE;
 			}
 			
@@ -484,9 +512,12 @@
 		
 		public function getClientDB($args) {
 			$client = $args['client'];
+			$client_pieces = explode('.', $client);
+			$client_usable = $client_pieces[0];
+
 			$client_db_args = [
 				'handler'=>$this->handler,
-				'database'=>$client,
+				'database'=>$client_usable,
 			];
 			
 			$client_db = new DBAccess($client_db_args);

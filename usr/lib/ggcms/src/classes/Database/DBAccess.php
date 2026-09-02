@@ -1033,21 +1033,27 @@
 			$notin = $args['notin'];
 			$extrawhere = $args['extrawhere'];
 			
-			$sql = 'DELETE FROM ' . $type . ' WHERE ' . $field . ' NOT IN(';
+			$sql = 'DELETE FROM ' . $type;
+			$sql_bind_string = '';
 			
-			if($fieldtype = 'int') {
-				$repeat_component = 'i';
-			} else {
-				$repeat_component = 's';
-			}
-			
-			$sql_bind_string = str_repeat($repeat_component, count($notin));
-			$sql .= implode(', ', array_fill(0, count($notin), '?'));
-			
-			$sql .= ')';
-			
-			if($extrawhere) {
-				$sql .= ' AND ' . $extrawhere;
+			if(count($notin)) {
+				$sql .= ' WHERE ' . $field . ' NOT IN(';
+				
+				if(($fieldtype === 'int') || ($fieldtype === 'i')) {
+					$repeat_component = 'i';
+				} else {
+					$repeat_component = 's';
+				}
+				
+				$sql_bind_string = str_repeat($repeat_component, count($notin));
+				$sql .= implode(', ', array_fill(0, count($notin), '?'));
+				$sql .= ')';
+				
+				if($extrawhere) {
+					$sql .= ' AND ' . $extrawhere;
+				}
+			} else if($extrawhere) {
+				$sql .= ' WHERE ' . $extrawhere;
 			}
 			
 			$fill_arrays_from_db_args = [

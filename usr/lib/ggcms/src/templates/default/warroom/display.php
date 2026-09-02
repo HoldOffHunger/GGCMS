@@ -143,7 +143,7 @@
 				'<a href="' . htmlspecialchars($primary_host_error['URL']) . '" target="_blank">' . $primary_host_error['URL'] . '</a>',
 				$primary_host_error['ErrorMessage'],
 				'<nobr>' . '<a href="warroom.php?table=InternalServerError&action=viewError&client=' . $primary_host . '&id=' . $primary_host_error['id'] . '">View</a>' . ' | ' .
-				'<a href="warroom.php?action=resolveError&client=' . $primary_host . '&id=' . $primary_host_error['id'] . '">Resolved</a>' . '</nobr>',
+				'<a href="warroom.php?table=InternalServerError&action=resolveError&client=' . $primary_host . '&id=' . $primary_host_error['id'] . '">Resolved</a>' . '</nobr>',
 				$primary_host_error['Resolved'],
 			];
 			
@@ -240,7 +240,7 @@
 				'<a href="' . htmlspecialchars($primary_host_issue['URL']) . '" target="_blank">' . $primary_host_issue['URL'] . '</a>',
 				$primary_host_issue['Description'],
 				'<nobr>' . '<a href="warroom.php?table=InternalServerIssue&action=viewError&client=' . $primary_host . '&id=' . $primary_host_issue['id'] . '">View</a>' . ' | ' .
-				'<a href="warroom.php?action=resolveError&client=' . $primary_host . '&id=' . $primary_host_issue['id'] . '">Resolved</a>' . '</nobr>',
+				'<a href="warroom.php?table=InternalServerIssue&action=resolveError&client=' . $primary_host . '&id=' . $primary_host_issue['id'] . '">Resolved</a>' . '</nobr>',
 				$primary_host_issue['Resolved'],
 			];
 			
@@ -315,7 +315,7 @@
 			'Comment',
 			'Action',
 		]];
-		$primary_host_errors_count = count($primary_host_comments);
+		$primary_host_comments_count = count($primary_host_comments);
 		
 		for($j = 0; $j < $primary_host_comments_count; $j++) {
 			$primary_host_comment = $primary_host_comments[$j];
@@ -430,10 +430,10 @@
 				'<a href="warroom.php?action=rejectSuggestion&client=' . $primary_host . '&id=' . $primary_host_suggestion['id'] . '">Reject</a>',
 			];
 			
-			$client_suggestion[] = $suggestion;
+			$client_suggestions[] = $suggestion;
 		}
-		
-		if($primary_host_comments_count > 0) {		
+
+		if($primary_host_suggestions_count > 0) {
 					// Display Header
 				
 				// -------------------------------------------------------------
