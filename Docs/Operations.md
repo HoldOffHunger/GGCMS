@@ -259,6 +259,10 @@ they run. Install as root's crontab:
 # Database backup
 0 3 * * *   /usr/lib/ggcms/cli/scripts/public/sql/backup_database.php
 
+# Warm the two heaviest sites, after the nightly backup
+30 3 * * *  /usr/lib/ggcms/cli/scripts/public/cache/warm_cache.php revoltlib.com --quiet
+0 4 * * *   /usr/lib/ggcms/cli/scripts/public/cache/warm_cache.php earthfluent.com --quiet
+
 # Schema drift, and child tables holding rows nothing is allowed to fetch
 0 6 * * 1   /usr/lib/ggcms/cli/scripts/public/sql/check_schema.php
 
