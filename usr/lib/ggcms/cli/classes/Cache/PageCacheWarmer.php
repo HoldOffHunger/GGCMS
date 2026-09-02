@@ -196,7 +196,21 @@
 			];
 		}
 
+			/*
+				--limit is the same word the SQL uses, so it goes into the SQL.
+				Asking for a thousand rows and discarding all but twenty is the
+				database doing a thousand rows of work for nothing.
+			*/
+
 		public function perPage() {
+			if($this->arguments['limit'] && $this->arguments['limit'] < $this->maximumPerPage()) {
+				return $this->arguments['limit'];
+			}
+
+			return $this->maximumPerPage();
+		}
+
+		public function maximumPerPage() {
 			return 1000;
 		}
 
