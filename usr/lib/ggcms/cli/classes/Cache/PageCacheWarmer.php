@@ -83,6 +83,11 @@
 
 			$started = microtime(TRUE);
 
+			if(!$this->arguments['quiet']) {
+				printf("  %-4s %-56s %-8s %6s  %s
+", 'Pri', 'Path', 'Code', 'Secs', 'Result');
+			}
+
 			$part = 1;
 
 			while(TRUE) {
@@ -123,14 +128,20 @@
 						$failed++;
 					}
 
+						//  Printed as it happens, not collected for the end.  A
+						//  cold page can take half a minute, so a run that saves
+						//  its output until it finishes is indistinguishable
+						//  from one that has hung.
+
 					if(!$this->arguments['quiet']) {
-						$results[] = [
-							'Priority'=>$entry['priority'],
-							'Path'=>substr($entry['path'], 0, 56),
-							'Code'=>$result['code'],
-							'Seconds'=>$result['seconds'],
-							'Cached'=>$result['cached'] ? 'yes' : 'no',
-						];
+						printf("  %-4s %-56s %-8s %5ss  %s
+",
+							$entry['priority'],
+							substr($entry['path'], 0, 56),
+							$result['code'],
+							$result['seconds'],
+							$result['cached'] ? 'cached' : '-'
+						);
 					}
 
 					usleep($this->arguments['delay']);
@@ -144,10 +155,6 @@
 			}
 
 			$elapsed = round(microtime(TRUE) - $started, 1);
-
-			if($results) {
-				print(arr2textTable($results));
-			}
 
 			print("\n" . $warmed . ' warmed, ' . $failed . ' not cached, ' . $skipped . ' already warm, out of ' . $seen . ' URLs seen, in ' . $elapsed . 's.' . "\n");
 
@@ -222,7 +229,7 @@
 				'section'=>'',
 				'limit'=>0,
 				'delay'=>250000,
-				'timeout'=>120,
+				'timeout'=>60,
 				'force'=>FALSE,
 				'quiet'=>FALSE,
 			];
