@@ -1392,54 +1392,102 @@
 			return TRUE;
 		}
 		
+		/*
+			Three collections want the same thing -- a random five published
+			children -- for every entry they hold: this entry's children, the
+			random children beside them, and the entries this one is
+			associated with.
+
+			Each was asking per entry, and each of those answers then fetched
+			its own child records, which on revoltlib is ten queries a time
+			because ten child types are enabled.  GetRecordsChildren asks for
+			the whole lot at once and returns them keyed by parent id, the
+			same as it does a tier down in SetGrandChildRecordsOfChildren.
+
+			An entry with no children is missing from that map and gets an
+			empty list, which is what the per-entry call returned for it.
+		*/
+
 		public function SetChildRecordsOfChildren() {
 			$start_index = 1;
 			$end_index = 5;
 			$orderby = 'RAND()';
-			
-			foreach($this->children as $child_key => $child) {
-				$get_record_children_args = [
-					'entry'=>$child,
-					'startindex'=>$start_index,
-					'endindex'=>$end_index,
-					'orderby'=>$orderby,
-					'publish'=>TRUE,
-				];
-				
-				$this->children[$child_key]['children'] = $this->orm->GetRecordChildren($get_record_children_args);
+
+			$parent_ids = [];
+
+			foreach($this->children as $child) {
+				$parent_ids[] = $child['id'];
 			}
-			
+
+			if($this->children_random && is_array($this->children_random)) {
+				foreach($this->children_random as $child) {
+					$parent_ids[] = $child['id'];
+				}
+			}
+
+			if($this->entry['associated'] && is_array($this->entry['associated'])) {
+				foreach($this->entry['associated'] as $associated_item) {
+					if($associated_item['entry'] && $associated_item['entry']['id']) {
+						$parent_ids[] = $associated_item['entry']['id'];
+					}
+				}
+			}
+
+			if(!count($parent_ids)) {
+				return TRUE;
+			}
+
+			$children_by_parent = $this->orm->GetRecordsChildren([
+				'parentids'=>$parent_ids,
+				'startindex'=>$start_index,
+				'endindex'=>$end_index,
+				'orderby'=>$orderby,
+				'publish'=>TRUE,
+			]);
+
+			foreach($this->children as $child_key => $child) {
+				$this->children[$child_key]['children'] = $this->SetChildRecordsOfChildren_Take([
+					'map'=>$children_by_parent,
+					'id'=>$child['id'],
+				]);
+			}
+
 			if($this->children_random && is_array($this->children_random)) {
 				foreach($this->children_random as $child_key => $child) {
-					$get_record_children_args = [
-						'entry'=>$child,
-						'startindex'=>$start_index,
-						'endindex'=>$end_index,
-						'orderby'=>$orderby,
-						'publish'=>TRUE,
-					];
-					
-					$this->children_random[$child_key]['children'] = $this->orm->GetRecordChildren($get_record_children_args);
+					$this->children_random[$child_key]['children'] = $this->SetChildRecordsOfChildren_Take([
+						'map'=>$children_by_parent,
+						'id'=>$child['id'],
+					]);
 				}
 			}
-			
-			if($this->entry['associated']) {
+
+			if($this->entry['associated'] && is_array($this->entry['associated'])) {
 				foreach($this->entry['associated'] as $associated_key => $associated_item) {
-					$entry = $associated_item['entry'];
-					$get_record_children_args = [
-						'entry'=>$entry,
-						'startindex'=>$start_index,
-						'endindex'=>$end_index,
-						'orderby'=>$orderby,
-						'publish'=>TRUE,
-					];
-					$this->entry['associated'][$associated_key]['entry']['children'] = $this->orm->GetRecordChildren($get_record_children_args);
+					if(!$associated_item['entry'] || !$associated_item['entry']['id']) {
+						continue;
+					}
+
+					$this->entry['associated'][$associated_key]['entry']['children'] = $this->SetChildRecordsOfChildren_Take([
+						'map'=>$children_by_parent,
+						'id'=>$associated_item['entry']['id'],
+					]);
 				}
 			}
-			
+
 			return TRUE;
 		}
-		
+
+		public function SetChildRecordsOfChildren_Take($args) {
+			$map = $args['map'];
+			$id = $args['id'];
+
+			if(!array_key_exists($id, $map)) {
+				return [];
+			}
+
+			return $map[$id];
+		}
+
 		public function SetChildRecordCount() {
 			$entry = $this->entry;
 			
