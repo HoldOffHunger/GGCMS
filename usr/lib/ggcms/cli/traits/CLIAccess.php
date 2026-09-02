@@ -30,12 +30,19 @@
 			
 			unset($output_lines[0]);
 			
+				/*
+					A line with no tab in it has no second column, and asking
+					for one is an undefined-index warning printed in the middle
+					of the table.  An empty result set is all such lines, so the
+					tool that finds nothing is the one that looks broken.
+				*/
+
 			foreach($output_lines as $output_line) {
 				$output_line = trim($output_line);
 				$output_line_pieces = explode("\t", $output_line);
 				$count = $output_line_pieces[0];
-				$url = $output_line_pieces[1];
-				
+				$url = array_key_exists(1, $output_line_pieces) ? $output_line_pieces[1] : '';
+
 				if(strlen($count) !== 0 && strlen($url) !== 0) {
 					$output_array = [
 						'Count'=>$count,

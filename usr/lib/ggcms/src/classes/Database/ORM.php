@@ -84,10 +84,12 @@
 				case 'Tag':
 				case 'EventDate':
 				case 'Association':
-				case 'AvailabilityStart':
-				case 'AvailabilityEnd':
 				case 'Definition':
 					$recordtype = $field;
+					break;
+				case 'AvailabilityStart':
+				case 'AvailabilityEnd':
+					$recordtype = 'AvailabilityDateRange';
 					break;
 			}
 			
@@ -115,7 +117,7 @@
 			$fieldname = $args['fieldname'];
 			$fieldvalue = $args['fieldvalue'];
 			
-			$level = min($fieldvalue, 10);
+			$level = max(1, min((int)$fieldvalue, 10));
 			
 			$limit = $level;
 			
@@ -182,7 +184,7 @@
 				
 				$entry['parents'] = [];
 				
-				$limit = $level - 1;
+				$limit = $level;
 				
 				while($limit >= 1) {
 					$entry['parents'][] = [
@@ -201,6 +203,10 @@
 		
 		public function SearchForEntries_ByChildField($args) {
 			$child_records = $this->SearchForEntries_ByChildField_ChildRecords($args);
+			
+			if(!count($child_records)) {
+				return [];
+			}
 			
 			$args['childrecords'] = $child_records;
 			
@@ -248,20 +254,21 @@
 			$record_type = $this->GetRecordTypeByField($record_type_args);
 			$record_type_key = strtolower($record_type);
 			
-			$new_entries = $entry_records;
+			$new_entries = [];
 			
 			foreach ($entry_records as $entry) {
+				$entry[$record_type_key] = [];
+				
 				foreach ($child_records as $child_record) {
 					if($child_record['Entryid'] == $entry['id']) {
-						$entry[$record_type_key] = [];
 						$entry[$record_type_key][] = $child_record;
-						
-						$new_entries[] = $entry;
 					}
 				}
+				
+				$new_entries[] = $entry;
 			}
 			
-			return $entry_records;
+			return $new_entries;
 		}
 		
 		public function SearchForEntries_ByChildField_EntryRecords($args) {
@@ -445,9 +452,14 @@
 			$parents_hash = [];
 			for($i = 0; $i < $parents_count; $i++) {
 				$parent = $parents[$i];
+				$entry_id = $parent['Assignment_1_Childid'];
 				
-				$entry = $entries_hash[$parent['Assignment_1_Childid']];
-				$entries_hash[$parent['Assignment_1_Childid']]['parents'] = $this->GetEntryParents_SortRecords(['parents'=>$parent, 'entry'=>$entry]);
+				if(!$entry_id) {
+					$entry_id = $parent['Assignment_1_Parentid'];
+				}
+				
+				$entry = $entries_hash[$entry_id];
+				$entries_hash[$entry_id]['parents'] = $this->GetEntryParents_SortRecords(['parents'=>$parent, 'entry'=>$entry]);
 			}
 			
 			return array_values($entries_hash);
@@ -481,7 +493,7 @@
 				'Entry1.Title as Entry_1_Title',
 				'Entry1.Subtitle as Entry_1_Subtitle',
 				'Entry1.ListTitle as Entry_1_ListTitle',
-				'Entry1.ListTitle as Entry_1_ListTitleSortKey',
+				'Entry1.ListTitleSortKey as Entry_1_ListTitleSortKey',
 				'Entry1.Code as Entry_1_Code',
 				'Entry1.ChildAdjective as Entry_1_ChildAdjective',
 				'Entry1.ChildNoun as Entry_1_ChildNoun',
@@ -515,7 +527,7 @@
 			
 			$max_depth = 10;
 			
-			for($i = 2; $i < $max_depth; $i++) {
+			for($i = 2; $i <= $max_depth; $i++) {
 				$previous_index = $i - 1;
 				
 				$selects[] = 'Assignment' . $i . '.id as Assignment_' . $i . '_id';
@@ -551,22 +563,23 @@
 			$sql .= 'LEFT JOIN Entry AS Entry1 ON Entry1.id = Assignment1.Parentid ';
 			
 			$sql .= implode(' ', $joins);
-			$sql .= ' WHERE Assignment1.Childid IN (';
-			$sql .= implode(', ', array_fill(0, count($entry_ids), '?'));
-			$sql .= ')';
+			$question_marks = implode(', ', array_fill(0, count($entry_ids), '?'));
+			$sql .= ' WHERE (Assignment1.Childid IN (' . $question_marks . ')';
+			$sql .= ' OR (Assignment1.Parentid IN (' . $question_marks . ') AND Assignment1.Childid = 0))';
 			
-			$bind_string = str_repeat('i', count($entry_ids));
+			$record_values = array_merge($entry_ids, $entry_ids);
+			$bind_string = str_repeat('i', count($record_values));
 			
 			if($args['assignmentid']) {
 				$sql .= ' AND Assignment1.id = ?';
 				$bind_string .= 'i';
-				$ids[] = $args['assignmentid'];
+				$record_values[] = $args['assignmentid'];
 			}
 			
 			$fill_arrays_from_db_args = [
 				'query'=>$sql,
 				'sqlbindstring'=>$bind_string,
-				'recordvalues'=>$entry_ids,
+				'recordvalues'=>$record_values,
 			];
 			
 			$parents = $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
@@ -577,7 +590,10 @@
 		public function GetEntryParents_GetRecords($args) {
 			$entry = $args['entry'];
 			
-			$ids = [$entry['id']];
+			$ids = [
+				$entry['id'],
+				$entry['id'],
+			];
 			
 			$sql = 'SELECT ';
 			
@@ -606,7 +622,7 @@
 			
 			$max_depth = 10;
 			
-			for($i = 2; $i < $max_depth; $i++) {
+			for($i = 2; $i <= $max_depth; $i++) {
 				$previous_index = $i - 1;
 				
 				$selects[] = 'Assignment' . $i . '.id as Assignment_' . $i . '_id';
@@ -642,9 +658,9 @@
 			$sql .= 'LEFT JOIN Entry AS Entry1 ON Entry1.id = Assignment1.Parentid ';
 			
 			$sql .= implode(' ', $joins);
-			$sql .= ' WHERE Assignment1.Childid = ?';
+			$sql .= ' WHERE (Assignment1.Childid = ? OR (Assignment1.Parentid = ? AND Assignment1.Childid = 0))';
 			
-			$bind_string = 'i';
+			$bind_string = 'ii';
 			
 			if($args['assignmentid']) {
 				$sql .= ' AND Assignment1.id = ?';
@@ -740,6 +756,8 @@
 					'type'=>'ggcms_MasterRecord',
 					'arguments'=>['1',],
 				]);
+			} else {
+				$db_file_cache_results = FALSE;
 			}
 			
 			if(is_array($db_file_cache_results)) {
@@ -860,6 +878,8 @@
 					'type'=>'ggcms_RecordTree',
 					'arguments'=>[$code_list_cache_code,],
 				]);
+			} else {
+				$db_file_cache_results = FALSE;
 			}
 			
 			if(is_array($db_file_cache_results)) {
@@ -944,7 +964,7 @@
 					#	die('soybeans');
 					}
 				*/
-				if(is_array($record_tree) && count($record_tree) !== 0) {
+				if($this->handler->db_access->db_file_cache && is_array($record_tree) && count($record_tree) !== 0) {
 					$this->handler->db_access->db_file_cache->WriteCache([
 						'type'=>'ggcms_RecordTree',
 						'arguments'=>[$code_list_cache_code,],
@@ -1064,6 +1084,8 @@
 					'type'=>'ggcms_ChildRecordCount',
 					'arguments'=>[$entry['id']],
 				]);
+			} else {
+				$cache_count = FALSE;
 			}
 			
 			/*
@@ -1884,12 +1906,35 @@
 			$sql_bind_string = '';
 			$sql_bind_values = [];
 			
+				/*
+					Asked for one entry by id, and given no id, this used to
+					drop the WHERE and return every published entry on the site
+					-- 74,900 of them on earthfluent.  The list then went
+					straight to GetRecordTree_GetEntryChildRecords(), which
+					builds `WHERE Entryid IN(?, ?, ?, ...)` with one placeholder
+					apiece, and MySQL refuses a prepared statement past 65,535
+					of them.  So a single missing id became a fatal nine
+					thousand placeholders over the cap.
+
+					It reached that state through SetAssociationRecordsForEntries(),
+					which passes $association['ChosenEntryid'] straight in.  An
+					association row without one asks for the entry with no id,
+					and got the whole site.
+
+					Every caller passes an id and then takes [0], so nobody wants
+					the unbounded branch.  It stays only for a caller that passes
+					a `where` instead, which is a deliberate query rather than an
+					accident.  Neither, now, returns nothing.
+				*/
+
 			if($entry && $entry['id']) {
 				$sql .= 'WHERE Entry1.id = ? AND Entry1.Publish = 1 ';
 				$sql_bind_string .= 'i';
 				$sql_bind_values[] = $entry['id'];
-			} else {
+			} elseif($where && count($where)) {
 				$sql .= 'WHERE Entry1.Publish = 1 ';
+			} else {
+				return [];
 			}
 			
 			if($where && count($where)) {
