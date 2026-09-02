@@ -107,6 +107,28 @@ if [ -d "$CONFIG/.git" ]; then
 			rsync -a "$CONFIG/etc/apache2/$available/" "/etc/apache2/$available/"
 		fi
 	done
+
+		#  The two top-level files, which are configuration in their own
+		#  right rather than directories of it.  Without this the repository
+		#  can hold an edit to apache2.conf that never reaches the host --
+		#  which is exactly what happened to the global ServerName.
+		#
+		#  Named one at a time rather than syncing etc/apache2/ wholesale.
+		#  That directory also contains the -enabled symlink farms, and
+		#  rsyncing symlinks out of a git checkout leaves Apache reading
+		#  nothing.  Adding a file here should be a deliberate act.
+		#
+		#  envvars and magic are captured in the repository for reference
+		#  but deliberately not synced.  envvars is sourced by apache2ctl
+		#  itself and sets the user Apache runs as; getting it wrong stops
+		#  the server rather than misconfiguring it, and it has never needed
+		#  to change.
+
+	for toplevel in apache2.conf ports.conf; do
+		if [ -f "$CONFIG/etc/apache2/$toplevel" ]; then
+			rsync -a "$CONFIG/etc/apache2/$toplevel" "/etc/apache2/$toplevel"
+		fi
+	done
 else
 	echo "==> server config -- no checkout at $CONFIG, skipping"
 fi
