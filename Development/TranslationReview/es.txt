@@ -1103,3 +1103,259 @@ reason: Una apuesta is a bet, the noun. The verb is apostar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "apostar".
 status: proposed
+
+# --- Wave 1 candidates, block 8: nouns 8383-8682 ---
+
+id: 8667
+permalink: 8691
+lang: es
+english: speaker
+current: altavoz
+proposed: orador
+kind: wrong-sense
+reason: Un altavoz is the loudspeaker on a wall. A person speaking is un
+  orador, or un hablante of a language. This block is otherwise people --
+  teacher, worker, doctor -- and one of them is a piece of audio equipment.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "altavoz" and s.v. "orador".
+status: proposed
+
+id: 8670
+permalink: 8694
+lang: es
+english: miss
+current: perder
+proposed: señorita
+kind: wrong-class
+reason: It sits between mrs and sir, so this is the title rather than the verb.
+  Perder is to lose. The title is señorita.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "señorita".
+status: proposed
+
+id: 8413
+permalink: 8437
+lang: es
+english: heel
+current: tacón
+proposed: talón
+kind: wrong-sense
+reason: El tacón is the heel of a shoe. The one on your foot is el talón.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "talón"
+  and s.v. "tacón".
+status: proposed
+
+id: 8494
+permalink: 8518
+lang: es
+english: age
+current: años
+proposed: edad
+kind: wrong-word
+reason: Años is years, plural. Age is la edad.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "edad".
+status: proposed
+
+id: 8522
+permalink: 8546
+lang: es
+english: degree
+current: la licenciatura
+proposed: grado
+kind: wrong-sense
+reason: Una licenciatura is a university degree specifically, and it arrives
+  with its article. A degree of temperature or of angle is un grado.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "grado"
+  and s.v. "licenciatura".
+status: proposed
+
+id: 8480
+permalink: 8504
+lang: es
+english: right
+current: derecho
+proposed: derecha
+kind: wrong-form
+reason: The row above gives left as izquierda, feminine. Its pair is derecha.
+  Derecho is the masculine, and means a legal right or straight ahead. A learner
+  meets the two side by side and is taught a mismatched pair.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "derecha" and s.v. "derecho".
+status: proposed
+
+id: 8570
+permalink: 8594
+lang: es
+english: circle
+current: circulo
+proposed: círculo
+kind: orthography
+reason: Missing the accent. Círculo is esdrújula -- stressed on the third
+  syllable from the end -- and those always take one.
+source: Real Academia Española, Ortografía de la lengua española, on esdrújulas;
+  and s.v. "círculo".
+status: proposed
+
+id: 8501
+permalink: 8525
+lang: es
+english: range
+current: distancia
+proposed: gama
+kind: wrong-sense
+reason: La distancia is distance, and is already the translation given for
+  distance. A range of things is una gama; a range of reach is un alcance.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "gama"
+  and s.v. "alcance".
+status: proposed
+
+id: 8487
+permalink: 8511
+lang: es
+english: rate
+current: tarifa
+proposed: tasa
+kind: wrong-sense
+reason: Una tarifa is a fare or a price list. A rate -- of interest, of change,
+  of unemployment -- is una tasa.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "tasa"
+  and s.v. "tarifa".
+status: proposed
+
+id: 8386
+permalink: 8410
+lang: es
+english: insight
+current: visión
+proposed: perspicacia
+kind: wrong-sense
+reason: La visión is sight, and is already the translation given for vision.
+  Insight is perspicacia, or comprensión.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "perspicacia" and s.v. "visión".
+status: proposed
+
+id: 8457
+permalink: 8481
+lang: es
+english: spell
+current: deletrear
+proposed: hechizo
+kind: wrong-class
+reason: Deletrear is the verb, to say the letters. This is the noun list, and a
+  spell is un hechizo.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "hechizo" and s.v. "deletrear".
+status: proposed
+
+id: 8544
+permalink: 8568
+lang: es
+english: beginning
+current: comenzando
+proposed: comienzo
+kind: wrong-class
+reason: Comenzando is the gerund -- beginning as in "while beginning". The noun
+  is el comienzo.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "comienzo".
+status: proposed
+
+id: 8593
+permalink: 8617
+lang: es
+english: count
+current: contar
+proposed: recuento
+kind: wrong-class
+reason: Contar is the verb. The noun is un recuento.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "recuento".
+status: proposed
+
+id: 8591
+permalink: 8615
+lang: es
+english: delay
+current: retrasar
+proposed: retraso
+kind: wrong-class
+reason: Retrasar is the verb. The noun is un retraso.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "retraso".
+status: proposed
+
+id: 8539
+permalink: 8563
+lang: es
+english: balance
+current: equilibrar
+proposed: equilibrio
+kind: wrong-class
+reason: Equilibrar is the verb. The noun is el equilibrio.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "equilibrio".
+status: proposed
+
+id: 8409
+permalink: 8433
+lang: es
+english: filter
+current: filtrar
+proposed: filtro
+kind: wrong-class
+reason: Filtrar is the verb. The noun is un filtro.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "filtro".
+status: proposed
+
+id: 8651
+permalink: 8675
+lang: es
+english: individual
+current: individual
+proposed: individuo
+kind: wrong-class
+reason: Individual is the adjective. The person is un individuo.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "individuo".
+status: proposed
+
+id: 8640
+permalink: 8664
+lang: es
+english: officer
+current: officer
+proposed: oficial
+kind: untranslated
+reason: Passed through unchanged, in the middle of a list of people that
+  translated cleanly on either side of it.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "oficial".
+status: proposed
+
+id: 8441
+permalink: 8465
+lang: es
+english: stroke
+current: stroke
+proposed: derrame cerebral
+kind: untranslated
+reason: Passed through unchanged. The medical sense is un derrame cerebral; a
+  stroke of a brush or an oar is una pincelada or una brazada.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "derrame".
+status: proposed
+
+id: 8635
+permalink: 8659
+lang: es
+english: parent
+current: padre
+proposed: progenitor
+kind: wrong-sense
+reason: Padre is father, and is already the translation given for father twelve
+  rows earlier. A parent of either sex is un progenitor.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "progenitor" and s.v. "padre".
+status: proposed
