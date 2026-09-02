@@ -1980,6 +1980,68 @@
 			return $child_entries;
 		}
 		
+		/*
+			GetRecordAndChildren for a list of ids instead of one.
+
+			SetAssociationRecordsForEntries walks every entry, then every
+			association on it, and asks for each associated entry separately.  On
+			the revoltlib front page that was 240 of the 390 queries in a render,
+			each one waiting about 2.3 ms on the managed database.
+
+			The work per entry is identical either way -- the same structuring, the
+			same child-record batch -- so the only difference is how many times the
+			question crosses the network.
+
+			Returned keyed by id, because the caller has associations to match them
+			back to and no reason to care what order the database chose.
+		*/
+
+		public function GetRecordsAndChildren($args) {
+			$ids = $args['ids'];
+
+			if(!$ids || !count($ids)) {
+				return [];
+			}
+
+			$ids = array_values(array_unique($ids));
+
+			$selects = $this->GetRecordTree_GetEntries_GetBaseSelect(['index'=>1, 'noassignment'=>1]);
+
+			$sql = 'SELECT ';
+			$sql .= implode(', ', $selects) . ' ';
+			$sql .= 'FROM ';
+			$sql .= 'Entry as Entry1 ';
+			$sql .= 'WHERE Entry1.id IN(' . implode(', ', array_fill(0, count($ids), '?')) . ') ';
+			$sql .= 'AND Entry1.Publish = 1;';
+
+			$entries = $this->handler->db_access->FillArraysFromDB([
+				'query'=>$sql,
+				'sqlbindstring'=>str_repeat('i', count($ids)),
+				'recordvalues'=>$ids,
+			]);
+
+			$entries = $this->GetRecordTree_StructureChildRecords(['entrieslist'=>$entries]);
+
+			$no_textbodies = 1;
+
+			if($args['alltext']) {
+				$no_textbodies = 0;
+			}
+
+			$entries = $this->GetRecordTree_GetEntryChildRecords([
+				'entrieslist'=>$entries,
+				'notextbodies'=>$no_textbodies,
+			]);
+
+			$entries_by_id = [];
+
+			foreach($entries as $entry) {
+				$entries_by_id[$entry['id']] = $entry;
+			}
+
+			return $entries_by_id;
+		}
+
 		public function GetSiblings($args) {
 			$entry = $args['entry'];
 			$parent = $args['parent'];
