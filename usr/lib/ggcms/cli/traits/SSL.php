@@ -124,6 +124,96 @@
 			return $errors;
 		}
 		
+			/*
+				Which names a certificate actually covers.
+
+				Everything else here checks that a certificate is well formed --
+				markers present, base64 valid, keys non-empty.  None of it asks
+				the only question a visitor's browser asks, which is whether the
+				name they typed is named in the certificate.
+
+				That gap hid a real fault on this host for as long as it has
+				existed.  Every vhost carried a ServerAlias for www and every
+				certificate covered the bare domain alone, so https://www.<site>
+				answered with a full-page interstitial on all seventeen sites.
+				check_domain.php reported the certificates as healthy, and by
+				its own standard they were.
+
+				Returns the subject CN together with every subjectAltName, all
+				lowercased, or FALSE when the certificate cannot be read.
+			*/
+
+		public function getSSLCertNames($args) {
+			$file_location = $args['file_location'];
+
+			if(!is_file($file_location)) {
+				return FALSE;
+			}
+
+			if(!function_exists('openssl_x509_parse')) {
+				return FALSE;
+			}
+
+			$contents = file_get_contents($file_location);
+
+			if($contents === FALSE) {
+				return FALSE;
+			}
+
+			$parsed = @openssl_x509_parse($contents);
+
+			if(!$parsed || !is_array($parsed)) {
+				return FALSE;
+			}
+
+			$names = [];
+
+			if(isset($parsed['subject']['CN'])) {
+				$names[] = strtolower($parsed['subject']['CN']);
+			}
+
+			if(isset($parsed['extensions']['subjectAltName'])) {
+				foreach(explode(',', $parsed['extensions']['subjectAltName']) as $entry) {
+					$entry = trim($entry);
+
+					if(strpos($entry, 'DNS:') === 0) {
+						$names[] = strtolower(substr($entry, 4));
+					}
+				}
+			}
+
+			return array_values(array_unique($names));
+		}
+
+			/*
+				Every name in 'expected' must appear in the certificate.  A
+				certificate covering more than it was asked about is fine and
+				is not reported.
+			*/
+
+		public function validateSSLCertNames($args) {
+			$file_location = $args['file_location'];
+			$expected = $args['expected'];
+
+			$errors = [];
+
+			$names = $this->getSSLCertNames(['file_location'=>$file_location]);
+
+			if($names === FALSE) {
+				$errors[] = 'certificate names could not be read';
+
+				return $errors;
+			}
+
+			foreach($expected as $name) {
+				if(!in_array(strtolower($name), $names, TRUE)) {
+					$errors[] = strtolower($name) . ' is served but not named in the certificate';
+				}
+			}
+
+			return $errors;
+		}
+
 		public function validateSSLChainPem($args) {
 			return $this->validate_certkeys($args);
 		}

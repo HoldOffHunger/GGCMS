@@ -121,7 +121,7 @@
 			print(arr2textTable($dns_records));
 			
 			print("Please run this command:" . PHP_EOL . PHP_EOL);
-			print("\t\t" . 'sudo certbot --apache -d example.com' . PHP_EOL . PHP_EOL);
+			print("\t\t" . 'sudo certbot --apache -d example.com -d www.example.com' . PHP_EOL . PHP_EOL);
 			
 			return TRUE;
 		}
@@ -144,24 +144,52 @@
 			return true;
 		}
 		
+			/*
+				Both names, always.  A vhost is written with a ServerAlias for
+				www, so a certificate naming only the bare domain leaves
+				https://www.<site> throwing a full-page browser interstitial --
+				which is what all seventeen sites on this host did, unnoticed,
+				because www was only ever reached over plain HTTP.
+
+				Apache stays running.  The --apache authenticator answers the
+				HTTP-01 challenge through the running server, so stopping it
+				first guarantees the failure this used to cause.  The stop and
+				start belonged to --standalone, which binds port 80 itself, and
+				were carried over to a plugin that cannot use them.
+
+				And the result is read.  This printed success unconditionally,
+				ignoring what shell_exec returned, so a failed issuance and a
+				good one looked identical to whoever ran it.
+			*/
+
 		public function certBot() {
 			print("CertBot SSL installing..." . PHP_EOL . PHP_EOL);
-			
-			$stop_line = '/etc/init.d/apache2 stop';
-			shell_exec($stop_line);
-			
-			$cert_line = 'sudo certbot --apache -d ' . $this->domain;
-			shell_exec($cert_line);
-			
-			$start_line = '/etc/init.d/apache2 start';
-			shell_exec($start_line);	// double start needed?
-			shell_exec($start_line);
-			
-			print("Successfully installed SSL Cert.\n\n");
-			
+
+			$cert_line = 'certbot';
+			$cert_line .= ' --apache --non-interactive --agree-tos';
+			$cert_line .= ' --cert-name ' . escapeshellarg($this->domain);
+			$cert_line .= ' -d ' . escapeshellarg($this->domain);
+			$cert_line .= ' -d ' . escapeshellarg('www.' . $this->domain);
+			$cert_line .= ' 2>&1';
+
+			$output = (string) shell_exec($cert_line);
+
+			print($output . PHP_EOL);
+
+			$succeeded = (strpos($output, 'Congratulations') !== FALSE);
+			$succeeded = $succeeded || (strpos($output, 'not yet due for renewal') !== FALSE);
+
+			if(!$succeeded) {
+				print("SSL certificate was NOT installed.  Read the certbot output above." . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
+			print("Successfully installed SSL Cert." . PHP_EOL . PHP_EOL);
+
 			return TRUE;
 		}
-		
+
 		public function reloadApache() {
 			print("Reloading apache...\n\n");
 			

@@ -612,10 +612,57 @@
 			$this->SSLCertifications_letsEncrypt_fileChecks_renewalFileCheck();
 			
 			$this->SSLCertifications_letsEncrypt_fileChecks_renewalFileCheck_formatCheck();
+
+			$this->SSLCertifications_letsEncrypt_fileChecks_certNameCheck();
 			
 			return TRUE;
 		}
 		
+			/*
+				Does the certificate name what this host actually serves.
+
+				The format checks above ask whether a certificate is well
+				formed.  This asks the only question a browser asks: is the
+				name in the address bar named in the certificate.
+
+				Both names are expected, because every vhost here is written
+				with a ServerAlias for www and DomainInstaller issues for both.
+				When they disagreed -- seventeen certificates covering the bare
+				domain alone against seventeen vhosts aliasing www -- every
+				https://www.<site> answered with a browser interstitial while
+				this tool reported those certificates healthy.
+			*/
+
+		public function SSLCertifications_letsEncrypt_fileChecks_certNameCheck() {
+			print("SSL Cert Checks, LetsEncrypt Live File, Names Covered: ");
+
+			$local_file_location = $this->live_dir_location . 'cert.pem';
+
+			if(!is_file($local_file_location)) {
+				$this->failResults();
+				print(' (file does not exist: ' . $local_file_location . ')');
+				print(PHP_EOL);
+
+				return TRUE;
+			}
+
+			$errors = $this->validateSSLCertNames([
+				'file_location'=>$local_file_location,
+				'expected'=>[$this->domain, 'www.' . $this->domain],
+			]);
+
+			if(count($errors) === 0) {
+				$this->successResults();
+			} else {
+				$this->failResults();
+				print(' (' . implode(', ', $errors) . ')');
+			}
+
+			print(PHP_EOL);
+
+			return TRUE;
+		}
+
 		public function SSLCertifications_letsEncrypt_fileChecks_mainFileCheck_certPem_formatCheck() {
 			print("SSL Cert Checks, LetsEncrypt Live File, Format Check, cert.pem: ");
 			
