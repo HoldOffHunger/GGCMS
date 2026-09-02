@@ -58,6 +58,23 @@
 			$sql .= 'E6.Code as E6_Code, E6.Title as E6_Title, E6.Subtitle as E6_Subtitle, E6.ListTitle as E6_ListTitle, E6.LastModificationDate as E6_LastModificationDate, ';
 			$sql .= 'E7.Code as E7_Code, E7.Title as E7_Title, E7.Subtitle as E7_Subtitle, E7.ListTitle as E7_ListTitle, E7.LastModificationDate as E7_LastModificationDate ';
 			
+				/*
+					Publish = 1 on every level, not only the first three.
+
+					E1, E2 and E3 carried the filter and E4 through E7 did not, so
+					an unpublished entry four levels down was listed in the public
+					sitemap and handed to search engines.  It reads like the filter
+					was added from the top and stopped partway.
+
+					In the ON clause rather than the WHERE clause, which is the
+					difference between hiding an entry and hiding its ancestors.
+					A LEFT JOIN that fails leaves E4 null and keeps the row, so the
+					URL falls back to the deepest published level -- /a/b/c/ where
+					it would have been /a/b/c/d/.  The same condition in WHERE
+					would drop the row entirely and take the published parents
+					with it.  E3 already did it this way; the rest follow it.
+				*/
+
 			$sql .= 'FROM Assignment as A1 ';
 			
 			$sql .= 'JOIN Entry E1 ON A1.Childid = 0 and A1.Parentid = E1.id AND E1.Publish = 1 ';
@@ -69,16 +86,16 @@
 			$sql .= 'LEFT JOIN Entry E3 ON A3.Childid = E3.id AND E3.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A4 ON A4.Parentid = E3.id ';
-			$sql .= 'LEFT JOIN Entry E4 ON A4.Childid = E4.id ';
+			$sql .= 'LEFT JOIN Entry E4 ON A4.Childid = E4.id AND E4.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A5 ON A5.Parentid = E4.id ';
-			$sql .= 'LEFT JOIN Entry E5 ON A5.Childid = E5.id ';
+			$sql .= 'LEFT JOIN Entry E5 ON A5.Childid = E5.id AND E5.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A6 ON A6.Parentid = E5.id ';
-			$sql .= 'LEFT JOIN Entry E6 ON A6.Childid = E6.id ';
+			$sql .= 'LEFT JOIN Entry E6 ON A6.Childid = E6.id AND E6.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A7 ON A7.Parentid = E6.id ';
-			$sql .= 'LEFT JOIN Entry E7 ON A7.Childid = E7.id ';
+			$sql .= 'LEFT JOIN Entry E7 ON A7.Childid = E7.id AND E7.Publish = 1 ';
 			
 			$page = $args['page'];
 			$sqlbindstring = '';
@@ -143,27 +160,36 @@
 		public function GetEntrySiteMapCodeCount() {
 			$sql = 'SELECT COUNT(A1.id) AS EntryCount ';
 			
+				/*
+					The same joins as GetEntrySiteMapCodes(), and they have to stay
+					the same joins.  This count decides how many parts the sitemap
+					is split into, so counting rows the listing will not produce
+					leaves the last parts short or empty.  It filtered nothing at
+					any level while the listing filtered three, so the two already
+					disagreed before the four missing ones were added.
+				*/
+
 			$sql .= 'FROM Assignment as A1 ';
 			
-			$sql .= 'JOIN Entry E1 ON A1.Childid = 0 and A1.Parentid = E1.id ';
+			$sql .= 'JOIN Entry E1 ON A1.Childid = 0 and A1.Parentid = E1.id AND E1.Publish = 1 ';
 			
 			$sql .= 'JOIN Assignment A2 ON A2.Parentid = E1.id ';
-			$sql .= 'JOIN Entry E2 ON A2.Childid = E2.id ';
+			$sql .= 'JOIN Entry E2 ON A2.Childid = E2.id AND E2.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A3 ON A3.Parentid = E2.id ';
-			$sql .= 'LEFT JOIN Entry E3 ON A3.Childid = E3.id ';
+			$sql .= 'LEFT JOIN Entry E3 ON A3.Childid = E3.id AND E3.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A4 ON A4.Parentid = E3.id ';
-			$sql .= 'LEFT JOIN Entry E4 ON A4.Childid = E4.id ';
+			$sql .= 'LEFT JOIN Entry E4 ON A4.Childid = E4.id AND E4.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A5 ON A5.Parentid = E4.id ';
-			$sql .= 'LEFT JOIN Entry E5 ON A5.Childid = E5.id ';
+			$sql .= 'LEFT JOIN Entry E5 ON A5.Childid = E5.id AND E5.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A6 ON A6.Parentid = E5.id ';
-			$sql .= 'LEFT JOIN Entry E6 ON A6.Childid = E6.id ';
+			$sql .= 'LEFT JOIN Entry E6 ON A6.Childid = E6.id AND E6.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A7 ON A7.Parentid = E6.id ';
-			$sql .= 'LEFT JOIN Entry E7 ON A7.Childid = E7.id ';
+			$sql .= 'LEFT JOIN Entry E7 ON A7.Childid = E7.id AND E7.Publish = 1 ';
 			
 			$fill_arrays_from_db_args = [
 				'query'=>$sql,
@@ -200,27 +226,36 @@
 			
 			$sql .= ')) as LastModificationDate ';
 			
+				/*
+					Filtered to match the other two.  This builds the index of
+					sitemap parts -- one row per section, with a count and a last
+					modification date -- and an unfiltered count advertises more
+					URLs in a section than the section will produce, while an
+					unfiltered GREATEST() dates a section by an unpublished draft
+					nobody can read.
+				*/
+
 			$sql .= 'FROM Assignment as A1 ';
 			
-			$sql .= 'JOIN Entry E1 ON A1.Childid = 0 and A1.Parentid = E1.id ';
+			$sql .= 'JOIN Entry E1 ON A1.Childid = 0 and A1.Parentid = E1.id AND E1.Publish = 1 ';
 			
 			$sql .= 'JOIN Assignment A2 ON A2.Parentid = E1.id ';
-			$sql .= 'JOIN Entry E2 ON A2.Childid = E2.id ';
+			$sql .= 'JOIN Entry E2 ON A2.Childid = E2.id AND E2.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A3 ON A3.Parentid = E2.id ';
-			$sql .= 'LEFT JOIN Entry E3 ON A3.Childid = E3.id ';
+			$sql .= 'LEFT JOIN Entry E3 ON A3.Childid = E3.id AND E3.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A4 ON A4.Parentid = E3.id ';
-			$sql .= 'LEFT JOIN Entry E4 ON A4.Childid = E4.id ';
+			$sql .= 'LEFT JOIN Entry E4 ON A4.Childid = E4.id AND E4.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A5 ON A5.Parentid = E4.id ';
-			$sql .= 'LEFT JOIN Entry E5 ON A5.Childid = E5.id ';
+			$sql .= 'LEFT JOIN Entry E5 ON A5.Childid = E5.id AND E5.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A6 ON A6.Parentid = E5.id ';
-			$sql .= 'LEFT JOIN Entry E6 ON A6.Childid = E6.id ';
+			$sql .= 'LEFT JOIN Entry E6 ON A6.Childid = E6.id AND E6.Publish = 1 ';
 			
 			$sql .= 'LEFT JOIN Assignment A7 ON A7.Parentid = E6.id ';
-			$sql .= 'LEFT JOIN Entry E7 ON A7.Childid = E7.id ';
+			$sql .= 'LEFT JOIN Entry E7 ON A7.Childid = E7.id AND E7.Publish = 1 ';
 			
 			$sql .= 'GROUP BY E2.Code ORDER BY E2.Code, LastModificationDate ASC ';
 			
