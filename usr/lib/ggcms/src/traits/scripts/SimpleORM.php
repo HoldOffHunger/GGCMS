@@ -2541,6 +2541,37 @@
 			return TRUE;
 		}
 		
+		/*
+			Whether this site renders one of the expensive relational walks.
+			The switches and their reasoning are in
+			etc/ggcms/clonefrom/record_relations/enabled.php.
+
+			Absent config answers TRUE for everything.  A deployment that has
+			not shipped that directory yet, or a config file that names its
+			class wrongly -- which NewConfigClass turns into an absent object
+			rather than a fatal -- then behaves exactly as the engine did
+			before these switches existed.  The cost of that is a slow page,
+			and the cost of the other default would be missing content.
+		*/
+
+		public function RecordRelationEnabled($args) {
+			$name = $args['name'];
+
+			$record_relations = $this->handler->globals->record_relations;
+
+			if(!$record_relations) {
+				return TRUE;
+			}
+
+			$method = $name . '_enabled';
+
+			if(!method_exists($record_relations, $method)) {
+				return TRUE;
+			}
+
+			return $record_relations->$method();
+		}
+
 		public function SetSiblings($args) {
 			if(count($this->record_list)) {
 				$siblings = $this->GetSiblings($args);

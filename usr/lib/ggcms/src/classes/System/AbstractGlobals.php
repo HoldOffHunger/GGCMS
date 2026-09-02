@@ -14,6 +14,7 @@ error_reporting(E_ALL);
 			$this->buildAbstractGlobals_Formats();
 			$this->buildAbstractGlobals_ChildTypes();
 			$this->buildAbstractGlobals_Site();
+			$this->buildAbstractGlobals_RecordRelations();
 
 			return $this;
 		}
@@ -266,6 +267,37 @@ error_reporting(E_ALL);
 				Scoped to the site rather than the script, so it is built like
 				ChildTypes and not like Scripts.
 			*/
+
+		/*
+			Which relational walks this site renders.  Built like ChildTypes and
+			Site -- scoped to the site rather than to any one script -- because
+			whether a site prints next-and-previous links is a fact about the
+			site.
+
+			See etc/ggcms/clonefrom/record_relations/enabled.php for what the
+			switches mean and why their defaults are FALSE.
+		*/
+
+		public function buildAbstractGlobals_RecordRelations() {
+			$shared_relations_location = 'clonefrom/record_relations/enabled.php';
+
+			if(conf_isfile($shared_relations_location)) {
+				confreq($shared_relations_location);
+
+				$domain_relations_location = $this->ReverseDomainName(['domain'=>$this->handler->domain->primary_domain_lowercased]) . '/record_relations/enabled.php';
+
+				$classname = 'AbstractGlobals_RecordRelations_enabled';
+
+				if(conf_isfile($domain_relations_location)) {
+					$classname .= '_override';
+					confreq($domain_relations_location);
+				}
+
+				$this->record_relations = $this->NewConfigClass(['classname'=>$classname]);
+			}
+
+			return TRUE;
+		}
 
 		public function buildAbstractGlobals_Site() {
 			$shared_site_location = 'clonefrom/site/identity.php';

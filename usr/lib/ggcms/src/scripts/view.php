@@ -479,7 +479,9 @@
 			$this->CompactDefinitions();
 			$this->SetTagCounts();
 			$this->SetSocialMediaBasics();
-			$this->SetSiblings([]);
+			if($this->RecordRelationEnabled(['name'=>'Siblings'])) {
+				$this->SetSiblings([]);
+			}
 			
 			$this->CountRecords();
 			$this->FixDates();
@@ -905,9 +907,17 @@
 		
 		public function HandleMainPage() {
 			if($this->IsMainPage()) {
-				$this->SetGrandChildAssociationRecords();
-				$this->SetGrandChildRecordsOfChildren();
-				$this->SetNewestChildren();
+				if($this->RecordRelationEnabled(['name'=>'GrandChildAssociations'])) {
+					$this->SetGrandChildAssociationRecords();
+				}
+
+				if($this->RecordRelationEnabled(['name'=>'GrandChildRecords'])) {
+					$this->SetGrandChildRecordsOfChildren();
+				}
+
+				if($this->RecordRelationEnabled(['name'=>'NewestChildren'])) {
+					$this->SetNewestChildren();
+				}
 			}
 			
 			return TRUE;
