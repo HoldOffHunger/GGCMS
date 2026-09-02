@@ -414,25 +414,61 @@
 			$domain_location = GGCMS_CONFIG_DIR . $this->ReverseDomainName(['domain'=>$database . '.com']) . '/child_types/enabled.php';
 			$default_location = GGCMS_CONFIG_DIR . 'clonefrom/child_types/enabled.php';
 
-			$location = is_file($domain_location) ? $domain_location : $default_location;
-
-			if(!is_file($location)) {
+			if(!is_file($default_location)) {
 				return FALSE;
 			}
 
-			$configuration = file_get_contents($location);
+			$default_configuration = file_get_contents($default_location);
 
-			if($configuration === FALSE) {
+			if($default_configuration === FALSE) {
 				return FALSE;
+			}
+
+				/*
+					Both files, in the order the engine reads them.  This used
+					to take the override when one existed and the defaults
+					otherwise, which is not what an override is: the class in a
+					domain file extends the clonefrom class and redeclares only
+					what it changes.  Reading it alone reported every flag it
+					did not mention as off.
+
+					revoltlib was the worked example -- reported as never
+					fetching TextBody, Tag, Association or Description, while
+					its pages were visibly full of all four.  A check that
+					cries wolf is worse than no check, and this is the one the
+					documentation says is worth scheduling.
+				*/
+
+			$domain_configuration = '';
+
+			if(is_file($domain_location)) {
+				$domain_configuration = file_get_contents($domain_location);
+
+				if($domain_configuration === FALSE) {
+					$domain_configuration = '';
+				}
 			}
 
 			$flags = [];
 
 			foreach($this->childRecordTypes() as $table) {
-				$flags[$table] = $this->readFlag([
-					'configuration'=>$configuration,
-					'table'=>$table,
-				]);
+				$flag = NULL;
+
+				if(strlen($domain_configuration)) {
+					$flag = $this->readFlag([
+						'configuration'=>$domain_configuration,
+						'table'=>$table,
+					]);
+				}
+
+				if($flag === NULL) {
+					$flag = $this->readFlag([
+						'configuration'=>$default_configuration,
+						'table'=>$table,
+					]);
+				}
+
+				$flags[$table] = ($flag === NULL) ? FALSE : $flag;
 			}
 
 			return $flags;
@@ -452,8 +488,16 @@
 
 			$matches = [];
 
+				/*
+					NULL, not FALSE.  A domain override declares only the flags
+					it changes and inherits the rest, so "this file does not
+					mention the table" and "this file switches the table off"
+					are different answers, and the caller has to be able to tell
+					them apart to layer the two files correctly.
+				*/
+
 			if(!preg_match($pattern, $configuration, $matches)) {
-				return FALSE;
+				return NULL;
 			}
 
 			return strtoupper($matches[1]) === 'TRUE';
