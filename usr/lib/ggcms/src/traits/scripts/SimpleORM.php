@@ -596,6 +596,10 @@
 					
 					if($association_count !== 0) {
 						for($j = 0; $j < $association_count; $j++) {
+							if(empty($entry['association'][$j]['ChosenEntryid'])) {
+								continue;
+							}
+
 							$entry['association'][$j]['entry'] = $this->GetRecordAndChildren(['entry'=>['id'=>$entry['association'][$j]['ChosenEntryid']]])[0];
 						#	SAVE SOME MEMORY HERE :
 						#	$entry['association'][$j]['entry']['parents'] = $this->GetEntryParents([entry=>['id'=>$entry['association'][$j]['ChosenEntryid']]])['parents'];
