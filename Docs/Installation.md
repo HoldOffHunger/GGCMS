@@ -43,8 +43,33 @@ apt-get install imagemagick php-imagick
 `mbstring` is not optional — the engine is UTF-8 throughout and calls `mb_*`
 functions directly. `xml` provides `DOMDocument`, which the CLI `SSL` trait
 uses to parse Apache vhosts. `zip` provides `ZipArchive` for the EPub format.
+`intl` provides `normalizer_normalize()`, which `SimpleForms` uses to turn a
+title into a URL code — so without it no entry can be saved.
 
 Restart Apache after each group.
+
+### The CLI and Apache are different PHPs
+
+Installing these gets them into Apache. **It does not follow that the `php` on
+root's `$PATH` has them**, and on this host it does not: `/usr/bin/php` was
+8.3 with neither `mbstring` nor `mysqli`, while `php8.1` had both. Every tool in
+`cli/` carries `#!/usr/bin/php`, so all of them were pointing at the wrong
+interpreter — which is why the ISE conversion tool shells out to `mysql -e`
+rather than using `mysqli`.
+
+```bash
+update-alternatives --set php /usr/bin/php8.1
+```
+
+Check what a given interpreter actually has before concluding a tool is broken:
+
+```bash
+php8.1 -m | grep -iE 'mbstring|mysqli|intl|xml|zip'
+```
+
+`cli/classes/Entries/EntryModifier.php` checks this set before it constructs
+anything, and prints the `apt-get` line rather than letting the failure arrive
+as an undefined-function error four frames inside a constructor.
 
 ### Composer and Guzzle
 

@@ -82,9 +82,20 @@
 			*/
 
 		public function checkExtensions() {
+				/*
+					The set Docs/Installation.md names, not the set the last
+					failure named.  Checking them one at a time meant three runs
+					and three stack traces to learn three package names --
+					mbstring for UTF8Characters, then intl for
+					normalizer_normalize() in GenerateURLCodeFromValue().
+				*/
+
 			$required = [
 				'mbstring'=>'php8.1-mbstring',
 				'mysqli'=>'php8.1-mysql',
+				'intl'=>'php8.1-intl',
+				'xml'=>'php8.1-xml',
+				'zip'=>'php8.1-zip',
 			];
 
 			$missing = [];
