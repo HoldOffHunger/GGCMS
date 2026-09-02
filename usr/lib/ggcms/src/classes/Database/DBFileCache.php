@@ -59,10 +59,33 @@
 			$new_blanks = [];
 			$blanks_data_hash = [];
 			
+			if(!$blanks_data || !is_array($blanks_data)) {
+				$blanks_data = [];
+			}
+
 			foreach($blanks_data as $blank) {
 				$blanks_data_hash[$blank] = TRUE;
 			}
 			
+				/*
+					Create the directory rather than requiring it.  This test used
+					to be the whole condition: no directory, no write, and nothing
+					anywhere created one.
+				
+					So the cache could be emptied but never refilled.  Clearing a
+					domain's row cache removed its subdirectories, and from then on
+					every write was a silent no-op and every read a miss -- the
+					cache stayed enabled, reported nothing wrong, and served no
+					purpose.  revoltlib was found in exactly that state, its cache
+					directory emptied on 31 August 2026 and still empty two days
+					and many thousands of renders later, while every other domain
+					carried subdirectories dating from 2024.
+				*/
+
+			if(!is_dir($full_directory)) {
+				@mkdir($full_directory, 0755, TRUE);
+			}
+
 			if(is_dir($full_directory)) {
 				$args['full_directory'] = $full_directory;
 				
