@@ -1359,3 +1359,265 @@ reason: Padre is father, and is already the translation given for father twelve
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "progenitor" and s.v. "padre".
 status: proposed
+
+# --- Wave 1 candidates, block 9: nouns 8683-8982 ---
+
+id: 8709
+permalink: 8733
+lang: es
+english: will
+current: será
+proposed: voluntad
+kind: wrong-class
+reason: Será is "will be" -- the future tense of ser, an auxiliary read as
+  though it were the whole word. The noun is la voluntad, or un testamento for
+  the legal document.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "voluntad" and s.v. "ser".
+status: proposed
+
+id: 8864
+permalink: 8888
+lang: es
+english: widow
+current: Vdo
+proposed: viuda
+kind: corrupt
+reason: Vdo is an abbreviation, not a word -- and it abbreviates viudo, the
+  masculine. A widow is una viuda. Wrong on three counts at once: abbreviated,
+  wrong gender, and not something anybody says aloud.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "viuda".
+status: proposed
+
+id: 8732
+permalink: 8756
+lang: es
+english: fan
+current: ventilador
+proposed: aficionado
+kind: wrong-sense
+reason: Un ventilador is the electric fan on the ceiling. A supporter is un
+  aficionado, or un fan. This is a list of people and one of them is an
+  appliance.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "aficionado" and s.v. "ventilador".
+status: proposed
+
+id: 8702
+permalink: 8726
+lang: es
+english: gentleman
+current: hidalgo
+proposed: caballero
+kind: register
+reason: Un hidalgo is a minor nobleman of the old Spanish gentry -- Don Quixote
+  is one. Nobody has used it to mean "a gentleman" in centuries. The word is
+  caballero.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "hidalgo" and s.v. "caballero".
+status: proposed
+
+id: 8836
+permalink: 8860
+lang: es
+english: printer
+current: impresora
+proposed: impresor
+kind: wrong-sense
+reason: Una impresora is the machine on the desk. A person who prints is un
+  impresor, which is what a list of occupations wants.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "impresor" and s.v. "impresora".
+status: proposed
+
+id: 8842
+permalink: 8866
+lang: es
+english: commissioner
+current: notario
+proposed: comisario
+kind: wrong-word
+reason: Un notario is a notary, a different office entirely. A commissioner is
+  un comisario, or un comisionado.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "comisario" and s.v. "notario".
+status: proposed
+
+id: 8901
+permalink: 8925
+lang: es
+english: school
+current: school
+proposed: escuela
+kind: untranslated
+reason: Passed through unchanged, between country and party, both of which
+  translated.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "escuela".
+status: proposed
+
+id: 8749
+permalink: 8773
+lang: es
+english: female
+current: hembra
+proposed: mujer
+kind: register
+reason: Hembra is the female of an animal. Applied to a person it is crude.
+  The row above gives male as masculino, an adjective, so the pair is
+  mismatched as well: masculino and femenino, or hombre and mujer.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "hembra" and s.v. "mujer".
+status: proposed
+
+id: 8834
+permalink: 8858
+lang: es
+english: cousin
+current: prima
+proposed: primo
+kind: wrong-form
+reason: Prima is the feminine. Every other kinship word in this list takes the
+  masculine as its citation form -- hermano, hijo, tío, padre -- so this one is
+  inconsistent with its own neighbours.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "primo".
+status: proposed
+
+id: 8883
+permalink: 8907
+lang: es
+english: organ
+current: Organo
+proposed: órgano
+kind: orthography
+reason: Missing the accent, and capitalised. Órgano is esdrújula and always
+  takes one.
+source: Real Academia Española, Ortografía de la lengua española, on esdrújulas;
+  and s.v. "órgano".
+status: proposed
+
+id: 8772
+permalink: 8796
+lang: es
+english: mood
+current: estado animico
+proposed: estado anímico
+kind: orthography
+reason: Missing the accent on anímico, which is esdrújula.
+source: Real Academia Española, Ortografía de la lengua española; and s.v.
+  "anímico".
+status: proposed
+
+id: 8912
+permalink: 8936
+lang: es
+english: court
+current: Corte
+proposed: tribunal
+kind: wrong-sense
+reason: La corte is a royal court, and el corte is a cut. A court of law is un
+  tribunal or un juzgado. Capitalised besides.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "tribunal" and s.v. "corte".
+status: proposed
+
+id: 8974
+permalink: 8998
+lang: es
+english: profit
+current: lucro
+proposed: beneficio
+kind: register
+reason: El lucro carries a whiff of profiteering -- ánimo de lucro is what a
+  charity declares it has none of. Ordinary profit is beneficio or ganancia.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "lucro"
+  and s.v. "beneficio".
+status: proposed
+
+id: 8686
+permalink: 8710
+lang: es
+english: master
+current: dominar
+proposed: maestro
+kind: wrong-class
+reason: Dominar is the verb, to master. This list is people, and a master is un
+  maestro or un amo.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "maestro" and s.v. "dominar".
+status: proposed
+
+id: 8777
+permalink: 8801
+lang: es
+english: relative
+current: relativo
+proposed: pariente
+kind: wrong-class
+reason: Relativo is the adjective. A relative in a family is un pariente, which
+  is what a list of people wants.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "pariente" and s.v. "relativo".
+status: proposed
+
+id: 8888
+permalink: 8912
+lang: es
+english: delegate
+current: delegar
+proposed: delegado
+kind: wrong-class
+reason: Delegar is the verb. The person is un delegado.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "delegado".
+status: proposed
+
+id: 8982
+permalink: 9006
+lang: es
+english: sign
+current: firmar
+proposed: señal
+kind: wrong-class
+reason: Firmar is to sign your name. The noun is una señal, or un letrero for
+  one on a wall.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "señal"
+  and s.v. "firmar".
+status: proposed
+
+id: 8954
+permalink: 8978
+lang: es
+english: charge
+current: cargar
+proposed: cargo
+kind: wrong-class
+reason: Cargar is the verb, to load or to charge. The noun is un cargo.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "cargo".
+status: proposed
+
+id: 8765
+permalink: 8789
+lang: es
+english: sleep
+current: dormir
+proposed: sueño
+kind: wrong-class
+reason: Dormir is the verb. The noun is el sueño.
+source: Real Academia Española, Diccionario de la lengua española, s.v.
+  "sueño".
+status: proposed
+
+id: 8728
+permalink: 8752
+lang: es
+english: walk
+current: caminar
+proposed: paseo
+kind: wrong-class
+reason: Caminar is the verb. A walk is un paseo, or una caminata.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "paseo".
+status: proposed
