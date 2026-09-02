@@ -2557,7 +2557,7 @@
 		public function RecordRelationEnabled($args) {
 			$name = $args['name'];
 
-			$record_relations = $this->handler->globals->record_relations;
+			$record_relations = $this->handler->abstractglobals->record_relations;
 
 			if(!$record_relations) {
 				return TRUE;

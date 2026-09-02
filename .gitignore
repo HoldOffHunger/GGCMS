@@ -55,3 +55,20 @@ desktop.ini
 *~
 .idea/
 .vscode/
+
+#  Site configuration and site templates.
+#
+#  This repository is the engine, and the engine is public.  Everything that
+#  describes an actual running site -- its per-domain config under etc/ggcms,
+#  its database credentials, and its template set -- lives in the private
+#  configuration repository instead.
+#
+#  What stays here is the reference material a new install clones: the
+#  clonefrom config tree and the default template set.  Nothing here should
+#  name a site.
+
+etc/ggcms/*
+!etc/ggcms/clonefrom/
+!etc/ggcms/clonefrom.php
+usr/lib/ggcms/src/templates/*
+!usr/lib/ggcms/src/templates/default/
