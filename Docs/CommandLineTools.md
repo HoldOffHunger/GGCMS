@@ -143,34 +143,6 @@ error log sideways to discover thirteen sites in exactly that state.
 inside the tool, so adding a table to the schema does not require remembering
 that this file exists.
 
-### Page cache — `scripts/public/cache/`
-
-| Script | Does |
-|---|---|
-| `warm_cache.php` | Requests a site's pages so the cache is built before a reader waits for one |
-
-```bash
-warm_cache.php revoltlib.com                          # the whole site
-warm_cache.php revoltlib.com --section=anarchism      # one top-level section
-warm_cache.php revoltlib.com --limit=200 --delay=0.5  # gently
-warm_cache.php revoltlib.com --quiet                  # totals only, for cron
-```
-
-The URLs come from `ORMSiteMap::GetEntrySiteMapCodes()` — the same Entry/Assignment
-walk `sitemap.php` uses. There is one description of what URLs this system has, and
-this reads it rather than keeping a second opinion.
-
-Order is the sitemap's order, which is shallowest first: fewer levels filled means
-nearer the top of the tree, which is the sitemap's own definition of priority. The
-pages a reader lands on are warmed before the deep ones.
-
-It pages the way the sitemap pages, a thousand rows at a time, so no run holds a
-whole site in memory — about 4 MB rather than the 50 MB an unpaged revoltlib costs.
-
-Already-cached URLs are skipped unless `--force`. Requests go to `127.0.0.1` with
-the `Host` header set, so warming pays no TLS handshake and cannot be misdirected
-by DNS.
-
 ### Errors and issues — `scripts/internal/errors/`, `scripts/internal/issues/`
 
 | Script | Does |
