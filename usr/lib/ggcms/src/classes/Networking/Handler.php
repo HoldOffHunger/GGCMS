@@ -1751,6 +1751,13 @@
 		*/
 
 		public function RepairInsteadOfRedirect($args) {
+				/*
+					OFF.  Still 500s on junk paths -- the class-loading pass did
+					not reach everything, and the fix it used is wrong anyway.
+				*/
+
+			return FALSE;
+
 			$target = $args['url'];
 
 			if(strlen($target) === 0) {
