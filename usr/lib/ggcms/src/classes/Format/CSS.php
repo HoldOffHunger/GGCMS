@@ -15,7 +15,7 @@
 				
 				$constructor_args = $this->SetScriptConstructorArgs($args);
 				
-				ggreqonce('scripts/style.php');
+				classreq('scripts/style.php');
 				$this->script = new style($constructor_args);
 			}
 			

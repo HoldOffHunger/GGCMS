@@ -1,7 +1,7 @@
 <?php
 
-	ggreqonce('traits/scripts/URLs.php');
-	ggreqonce('scripts/view.php');
+	classreq('traits/scripts/URLs.php');
+	classreq('scripts/view.php');
 
 	class login extends view {
 		use DBFunctions;

@@ -75,7 +75,7 @@
 			
 			// -------------------------------------------------------------
 	
-		ggreqonce('modules/spacing.php');
+		classreq('modules/spacing.php');
 		
 		ggreq('modules/' . $this->script_format_lower . '/text.php');
 		$text = new module_text;
@@ -209,8 +209,8 @@
 		$primary_color = '6495ED';
 		$third_color = 'B7CEEC';
 		
-		ggreqonce('modules/html/entry-header.php');
-		ggreqonce('modules/html/entry-index-header.php');
+		classreq('modules/html/entry-header.php');
+		classreq('modules/html/entry-index-header.php');
 		$entryindexheader = new module_entryindexheader([
 			'that'=>$this,
 			'main_text'=>$this->header_title_text,
@@ -321,7 +321,7 @@
 			
 			// -------------------------------------------------------------
 		
-		ggreqonce('modules/html/breadcrumbs.php');
+		classreq('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs(['that'=>$this, 'title'=>'Privacy Policy']);
 		$breadcrumbs->Display();
 		
@@ -329,7 +329,7 @@
 			
 			// -------------------------------------------------------------
 			
-		ggreqonce('modules/html/auth.php');
+		classreq('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this]);
 		$auth->Display();
 		
@@ -358,7 +358,7 @@
 			
 			// -------------------------------------------------------------
 			
-		ggreqonce('modules/html/alternateformats.php');
+		classreq('modules/html/alternateformats.php');
 		$auth = new module_alternateformats(['that'=>$this]);
 		$auth->Display();
 		

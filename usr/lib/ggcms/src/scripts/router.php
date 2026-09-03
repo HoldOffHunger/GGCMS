@@ -1,6 +1,6 @@
 <?php
 
-	ggreqonce('scripts/view.php');
+	classreq('scripts/view.php');
 
 	class router extends view {
 		use DBFunctions;

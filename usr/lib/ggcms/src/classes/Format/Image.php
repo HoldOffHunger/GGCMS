@@ -34,7 +34,7 @@
 				return FALSE;
 			}
 			
-			ggreqonce('classes/Networking/MIMEType.php');
+			classreq('classes/Networking/MIMEType.php');
 			
 			$mimetype = new MIMEType(['handler'=>$this->handler]);
 			$mimetypes = $mimetype->GetMIMETypeCodes();

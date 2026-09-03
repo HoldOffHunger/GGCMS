@@ -17,7 +17,7 @@
 			*/
 		
 		public function __construct($args) {
-			ggreqonce('classes/Language/AmericanBritishSpellings_Words.php');
+			classreq('classes/Language/AmericanBritishSpellings_Words.php');
 			$this->words = new AmericanBritishSpellings_Words([]);
 			return TRUE;
 		}

@@ -4,18 +4,18 @@
 		
 		// -------------------------------------------------------------
 	
-	ggreqonce('modules/spacing.php');
+	classreq('modules/spacing.php');
 	
-	ggreqonce('modules/html/list/hideable-arrow.php');
+	classreq('modules/html/list/hideable-arrow.php');
 	$hideable = new module_hideable;
 	
-	ggreqonce('modules/html/divider.php');
+	classreq('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	ggreqonce('modules/html/header.php');
+	classreq('modules/html/header.php');
 	$header = new module_header;
 	
-	ggreqonce('modules/html/list/generic.php');
+	classreq('modules/html/list/generic.php');
 	$generic_list = new module_genericlist;
 	
 			// Display Header
@@ -101,7 +101,7 @@
 		// -------------------------------------------------------------
 	
 	if($this->authentication_object->user_session['UserAdmin.id']) {
-		ggreqonce('modules/html/entry-controls.php');
+		classreq('modules/html/entry-controls.php');
 		$entry_controls = new module_entrycontrols;
 		$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
 	}

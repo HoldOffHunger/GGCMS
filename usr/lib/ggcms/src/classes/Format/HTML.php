@@ -79,13 +79,13 @@
 			// -----------------------------------------------
 		
 		public function Construct_Requires() {
-			ggreqonce('scripts/Format/base_format.php');
+			classreq('scripts/Format/base_format.php');
 			ggreq('scripts/Format/' . $this->script_format . '/basicscript.php');
-			ggreqonce('classes/Format/Base/Formats.php');
-			ggreqonce('classes/Format/HTML/Redirect.php');
-			ggreqonce('classes/Format/HTML/Navigation.php');
-			ggreqonce('classes/Format/CSS.php');
-			ggreqonce('classes/Format/HTML/ClientSideIncludes.php');
+			classreq('classes/Format/Base/Formats.php');
+			classreq('classes/Format/HTML/Redirect.php');
+			classreq('classes/Format/HTML/Navigation.php');
+			classreq('classes/Format/CSS.php');
+			classreq('classes/Format/HTML/ClientSideIncludes.php');
 			
 			return TRUE;
 		}
@@ -514,7 +514,7 @@
 					$image_pieces = explode('.', $image['IconFileName']);
 					$image_extension = array_pop($image_pieces);
 				
-					ggreqonce('classes/Networking/MIMEType.php');
+					classreq('classes/Networking/MIMEType.php');
 					$mimetype = new MIMEType(['handler'=>$this->handler]);
 					$mimetypes = $mimetype->GetMIMETypeCodes();
 					
@@ -534,7 +534,7 @@
 				}
 			}
 		
-			ggreqonce('classes/API/GoogleAnalytics.php');
+			classreq('classes/API/GoogleAnalytics.php');
 			
 			$google_analytics = new GoogleAnalytics(['handler'=>$this->handler]);
 			

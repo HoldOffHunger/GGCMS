@@ -1,11 +1,11 @@
 <?php
 
-	ggreqonce('traits/scripts/DBFunctions.php');
-	ggreqonce('traits/scripts/SimpleErrors.php');
-	ggreqonce('traits/scripts/SimpleForms.php');
-	ggreqonce('traits/scripts/SimpleLookupLists.php');
-	ggreqonce('traits/scripts/SimpleORM.php');
-	ggreqonce('traits/scripts/SimpleSocialMedia.php');
+	classreq('traits/scripts/DBFunctions.php');
+	classreq('traits/scripts/SimpleErrors.php');
+	classreq('traits/scripts/SimpleForms.php');
+	classreq('traits/scripts/SimpleLookupLists.php');
+	classreq('traits/scripts/SimpleORM.php');
+	classreq('traits/scripts/SimpleSocialMedia.php');
 
 	class search extends basicscript {
 						// Traits
@@ -75,7 +75,7 @@
 		}
 		
 		public function SetORMSearch() {
-			ggreqonce('classes/Database/ORMSearch.php');
+			classreq('classes/Database/ORMSearch.php');
 			
 			return $this->orm_search = new ORMSearch(['dbaccessobject'=>$this->handler->db_access]);
 		}

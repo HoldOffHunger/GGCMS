@@ -4,21 +4,21 @@
 		
 		// -------------------------------------------------------------
 
-	ggreqonce('modules/spacing.php');
+	classreq('modules/spacing.php');
 	
-	ggreqonce('modules/html/text.php');
+	classreq('modules/html/text.php');
 	$text = new module_text;
 	
-	ggreqonce('modules/html/form.php');
+	classreq('modules/html/form.php');
 	$form = new module_form;
 	
-	ggreqonce('modules/html/divider.php');
+	classreq('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	ggreqonce('modules/html/table.php');
+	classreq('modules/html/table.php');
 	$table = new module_table;
 	
-	ggreqonce('modules/html/list/generic.php');
+	classreq('modules/html/list/generic.php');
 	$generic_list = new module_genericlist;
 	
 			// Basic Divider Arguments
@@ -36,8 +36,8 @@
 		
 		// -------------------------------------------------------------
 	
-	ggreqonce('modules/html/entry-header.php');
-	ggreqonce('modules/html/entry-index-header.php');
+	classreq('modules/html/entry-header.php');
+	classreq('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>$this->domain_object->primary_domain . ' British/American Spelling converter',

@@ -1,6 +1,6 @@
 <?php
 
-	ggreqonce('scripts/view.php');
+	classreq('scripts/view.php');
 
 	class upload extends view {
 		use DBFunctions;

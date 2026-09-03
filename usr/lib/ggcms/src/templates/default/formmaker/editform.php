@@ -4,16 +4,16 @@
 		
 		// -------------------------------------------------------------
 
-	ggreqonce('modules/spacing.php');
+	classreq('modules/spacing.php');
 	
-	ggreqonce('modules/html/languages.php');
+	classreq('modules/html/languages.php');
 	$languages_args = [
 		'languageobject'=>$this->language_object,
 		'domainobject'=>$this->domain_object,
 	];
 	$languages = new module_languages($languages_args);
 	
-	ggreqonce('modules/html/navigation.php');
+	classreq('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,
@@ -22,8 +22,8 @@
 	];
 	$navigation = new module_navigation($navigation_args);
 	
-	ggreqonce('modules/html/entry-header.php');
-	ggreqonce('modules/html/entry-index-header.php');
+	classreq('modules/html/entry-header.php');
+	classreq('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>'Configure Submission Details for ' . $this->entry['Title'],
@@ -43,7 +43,7 @@
 		// -------------------------------------------------------------
 	
 	if($this->authentication_object->user_session['UserAdmin.id']) {
-		ggreqonce('modules/html/entry-controls.php');
+		classreq('modules/html/entry-controls.php');
 		$entry_controls = new module_entrycontrols;
 		$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
 	}

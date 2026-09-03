@@ -126,7 +126,7 @@
 		public function ValidateExternalReferralSite($args) {
 			$referral_domain = $args['referraldomain']['domain'];
 			
-			ggreqonce('classes/Networking/InvalidReferralDomains.php');
+			classreq('classes/Networking/InvalidReferralDomains.php');
 			
 			$invalid_referrals = new InvalidReferralDomains();
 			$invalid_referrals_hash = $invalid_referrals->GetInvalidReferralDomainsHash();

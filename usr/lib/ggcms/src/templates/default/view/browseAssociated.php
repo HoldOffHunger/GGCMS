@@ -20,13 +20,13 @@
 		
 		// -------------------------------------------------------------
 
-	ggreqonce('modules/spacing.php');
+	classreq('modules/spacing.php');
 		
 				// Timeframe
 			
 			// -------------------------------------------------------------
 	
-	ggreqonce('modules/html/entry-date.php');
+	classreq('modules/html/entry-date.php');
 	$entrydate = new module_entrydate(['that'=>$this]);
 	$time_data = $entrydate->getSimpleData();
 	$time_frame = $time_data['text'];
@@ -35,13 +35,13 @@
 			
 			// -------------------------------------------------------------
 	
-	ggreqonce('modules/html/entry-header.php');
+	classreq('modules/html/entry-header.php');
 	$entryheader = new module_entryheader(['that'=>$this, 'time_frame'=>$time_frame]);
 	
-	ggreqonce('modules/html/header.php');
+	classreq('modules/html/header.php');
 	$header = new module_header;
 	
-	ggreqonce('modules/html/navigation.php');
+	classreq('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,
@@ -49,13 +49,13 @@
 	];
 	$navigation = new module_navigation($navigation_args);
 	
-	ggreqonce('modules/html/entry-sort.php');
+	classreq('modules/html/entry-sort.php');
 	$entrysort = new module_entrysort(['that'=>$this]);
 	
-	ggreqonce('modules/html/entry-list.php');
+	classreq('modules/html/entry-list.php');
 	$entrylist = new module_entrylist(['that'=>$this]);
 	
-	ggreqonce('modules/html/entry-list-navigation.php');
+	classreq('modules/html/entry-list-navigation.php');
 	$entrylistnavigation = new module_entrylistnavigation(['that'=>$this]);
 	
 	if($this->children_count !== 0) {
@@ -230,7 +230,7 @@
 		
 		// -------------------------------------------------------------
 	
-	#ggreqonce('modules/html/debug.php');
+	#classreq('modules/html/debug.php');
 	#$debug = new module_debug(['that'=>$this]);
 	#$debug->DisplayBasicRecords([]);
 	

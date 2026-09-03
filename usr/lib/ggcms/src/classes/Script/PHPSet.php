@@ -1,6 +1,6 @@
 <?php
 
-	ggreqonce('classes/Script/PHP.php');
-	ggreqonce('classes/Script/PHPCommand.php');
+	classreq('classes/Script/PHP.php');
+	classreq('classes/Script/PHPCommand.php');
 
 ?>

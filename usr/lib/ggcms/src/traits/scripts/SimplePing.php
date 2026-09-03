@@ -19,12 +19,12 @@
 		}
 		
 		public function SetCurlStatus_RequireFiles() {
-			ggreqonce('classes/Networking/Curl.php');
+			classreq('classes/Networking/Curl.php');
 			$curl = new Curl;
 			
 			$this->curl = $curl;
 			
-			ggreqonce('classes/Networking/NetworkStatusCode.php');
+			classreq('classes/Networking/NetworkStatusCode.php');
 			$network_status_code = new NetworkStatusCode;
 			
 			$this->network_status_code = $network_status_code;

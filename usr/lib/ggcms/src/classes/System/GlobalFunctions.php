@@ -24,14 +24,18 @@
 		"Cannot declare class AbstractBaseFormat, because the name is already
 		in use".
 
-		For a file that declares a class or a trait, require and require_once
-		differ only in that the second one does not fatal -- these files
-		declare and print nothing -- so this is the same call with the failure
-		mode removed.  ggreq itself is left alone: templates and modules are
-		required repeatedly on purpose.
+		Named for what it loads, like the rest of the family: ggreq for the
+		engine, depreq for dependencies, datareq for data, confreq for
+		configuration.  A class file is a kind of thing, and the kind of thing
+		it is decides the rule -- declared once, therefore required once.
+
+		For such a file require and require_once differ only in that the
+		second does not fatal, since these files declare and print nothing.
+		ggreq itself is left alone: templates and modules are required
+		repeatedly on purpose.
 	*/
 
-	function ggreqonce($filename) {
+	function classreq($filename) {
 		return require_once(GGCMS_DIR . $filename);
 	}
 

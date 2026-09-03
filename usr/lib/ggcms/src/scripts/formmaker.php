@@ -1,11 +1,11 @@
 <?php
 
-	ggreqonce('traits/scripts/DBFunctions.php');
-	ggreqonce('traits/scripts/SimpleErrors.php');
-	ggreqonce('traits/scripts/SimpleForms.php');
-	ggreqonce('traits/scripts/SimpleLookupLists.php');
-	ggreqonce('traits/scripts/SimpleORM.php');
-	ggreqonce('traits/scripts/SimpleSocialMedia.php');
+	classreq('traits/scripts/DBFunctions.php');
+	classreq('traits/scripts/SimpleErrors.php');
+	classreq('traits/scripts/SimpleForms.php');
+	classreq('traits/scripts/SimpleLookupLists.php');
+	classreq('traits/scripts/SimpleORM.php');
+	classreq('traits/scripts/SimpleSocialMedia.php');
 
 	class formmaker extends basicscript {
 						// Traits

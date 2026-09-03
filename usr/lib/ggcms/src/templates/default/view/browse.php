@@ -22,13 +22,13 @@
 		
 		// -------------------------------------------------------------
 
-	ggreqonce('modules/spacing.php');
+	classreq('modules/spacing.php');
 	
 				// Timeframe
 			
 			// -------------------------------------------------------------
 	
-	ggreqonce('modules/html/entry-date.php');
+	classreq('modules/html/entry-date.php');
 	$entrydate = new module_entrydate(['that'=>$this]);
 	$time_data = $entrydate->getSimpleData();
 	$time_frame = $time_data['text'];
@@ -37,13 +37,13 @@
 			
 			// -------------------------------------------------------------
 	
-	ggreqonce('modules/html/entry-header.php');
+	classreq('modules/html/entry-header.php');
 	$entryheader = new module_entryheader(['that'=>$this, 'time_frame'=>$time_frame]);
 	
-	ggreqonce('modules/html/header.php');
+	classreq('modules/html/header.php');
 	$header = new module_header;
 	
-	ggreqonce('modules/html/navigation.php');
+	classreq('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,
@@ -51,13 +51,13 @@
 	];
 	$navigation = new module_navigation($navigation_args);
 	
-	ggreqonce('modules/html/entry-sort.php');
+	classreq('modules/html/entry-sort.php');
 	$entrysort = new module_entrysort(['that'=>$this]);
 	
-	ggreqonce('modules/html/entry-list.php');
+	classreq('modules/html/entry-list.php');
 	$entrylist = new module_entrylist(['that'=>$this]);
 	
-	ggreqonce('modules/html/entry-list-navigation.php');
+	classreq('modules/html/entry-list-navigation.php');
 	$entrylistnavigation = new module_entrylistnavigation(['that'=>$this]);
 
 	$breadcrumbs_title = 'Browsing';	
@@ -85,7 +85,7 @@
 		// -------------------------------------------------------------
 	
 	if(!$this->Param('headless') && $this->authentication_object->user_session['UserAdmin.id']) {
-		ggreqonce('modules/html/entry-controls.php');
+		classreq('modules/html/entry-controls.php');
 		$entry_controls = new module_entrycontrols;
 		$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
 	}
@@ -100,7 +100,7 @@
 			// Breadcrumbs Info
 		
 		// -------------------------------------------------------------
-		ggreqonce('modules/html/breadcrumbs.php');
+		classreq('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs(['that'=>$this, 'title'=>$breadcrumbs_title]);
 		$breadcrumbs->Display();
 		
@@ -108,7 +108,7 @@
 			
 			// -------------------------------------------------------------
 			
-		ggreqonce('modules/html/auth.php');
+		classreq('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this]);
 		$auth->Display();
 	
@@ -227,7 +227,7 @@
 		
 		// -------------------------------------------------------------
 	
-	ggreqonce('modules/html/debug.php');
+	classreq('modules/html/debug.php');
 	$debug = new module_debug(['that'=>$this]);
 	#$debug->DisplayBasicRecords([]);
 	
