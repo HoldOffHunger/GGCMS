@@ -248,6 +248,48 @@ awkward through `doctl` and are usually easier in the control panel.
 
 Verify with `check_domain_records.php` rather than by eye.
 
+## Nice to have
+
+Nothing in this section is required to serve a page. Each entry is here because
+its absence has already cost an hour of somebody's morning.
+
+### sysstat
+
+```bash
+apt-get install -y sysstat
+sed -i 's/^ENABLED="false"/ENABLED="true"/' /etc/default/sysstat
+systemctl restart sysstat
+```
+
+The package ships disabled on Ubuntu, so the install alone does nothing. With
+collection on, `sar -r` answers "how much memory was in use overnight" the next
+morning. Without it that question has no answer at all, because the only
+evidence was in RAM and RAM is where the problem went.
+
+This was installed on 3 September 2026, the morning after `MaxRequestWorkers`
+was raised from twenty to forty on a prediction. The prediction was sound and
+the ceiling held, but confirming it required a reading taken at the moment of
+asking; the overnight peak, which is the number that actually matters, was
+simply gone.
+
+**Read memory with PSS, never with summed RSS.** Prefork workers share most of
+their pages with the parent, so adding up `RSS` counts the same memory forty
+times over. On this host the two disagree by a factor of seven -- 1,891 MB by
+summed RSS against 261 MB of real usage:
+
+```bash
+tot=0; n=0
+for p in $(pgrep apache2); do
+  v=$(awk '/^Pss:/{print $2}' /proc/$p/smaps_rollup 2>/dev/null)
+  [ -n "$v" ] && tot=$((tot+v)) && n=$((n+1))
+done
+echo "$n workers, $((tot/1024)) MB PSS total, $((tot/n/1024)) MB each"
+```
+
+`mods-available/mpm_prefork.conf` explains the same trap at greater length, and
+its worker count was chosen from PSS. An RSS reading will tell you this host is
+out of memory when it is using an eighth of what it has.
+
 ## Before you call it done
 
 Read [Operations.md](Operations.md) and install the crontab in it **now**,
