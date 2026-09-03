@@ -803,8 +803,17 @@
 				return TRUE;
 			}
 			
-			if($this->HandleRequest_Content()) {
-				return TRUE;
+				/*
+					Ask whether the path resolves before loading anything that
+					would render it.  A path that names nothing is answered by
+					the chain below, and there is no reason for it to have
+					constructed a format and a script first.
+				*/
+
+			if($this->EntryPathResolves()) {
+				if($this->HandleRequest_Content()) {
+					return TRUE;
+				}
 			}
 			
 			ggreq('classes/Networking/Error404.php');
@@ -829,6 +838,58 @@
 			return TRUE;
 		}
 		
+		/*
+			Does this path name a real walk through the entry graph?
+
+			HandleRequest_Content builds a format object and a script object before
+			it finds out, and both pull in class files -- AbstractBaseFormat, the
+			format, view, base_format and the traits.  A request for a path that
+			names nothing paid for all of it and then answered 404.  On 3 September
+			2026 the majority of traffic to this host was exactly that.
+
+			The question is cheap to ask first.  ORM is already in memory --
+			StandardLibraries requires it before this class is constructed -- its
+			constructor wants nothing but the handler, and GetRecordTree is row
+			cached.  So this costs one query, often none, and loads nothing.
+
+			The test is ValidateOrm's, because it is the same question: every
+			segment of the path must have resolved to a record.  A shorter answer
+			than the path means some segment named nothing.
+
+			Only entry walks are asked.  The front page has no segments, and
+			style.php, sitemap.php, robots.php and search.php are not paths through
+			the graph at all; all of them answer TRUE and carry on untouched.
+		*/
+
+		public function EntryPathResolves() {
+			if(!is_array($this->object_list) || (count($this->object_list) === 0)) {
+				return TRUE;		# the front page names no entry
+			}
+
+			if($this->script_name !== 'view.php') {
+				return TRUE;		# not a walk through the entry graph
+			}
+
+			if(!$this->db_access) {
+				return TRUE;		# nothing to ask; let the old path answer
+			}
+
+			if(!$this->orm) {
+				$this->orm = new ORM(['handler'=>$this]);
+			}
+
+			$this->resolved_record_list = $this->orm->GetRecordTree([
+				'codelist'=>$this->object_list,
+				'availabilitylimit'=>1,
+			]);
+
+			if(!is_array($this->resolved_record_list)) {
+				return FALSE;
+			}
+
+			return (count($this->object_list) === count($this->resolved_record_list));
+		}
+
 		public function HandleRequest_EndRequest() {
 			$this->AdminTools();
 			$this->MySQLDebugging();
