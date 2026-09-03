@@ -1133,9 +1133,44 @@
 			];
 		}
 
+			/*
+				Types written by a visitor acting on one page, rather than by
+				someone editing content.
+
+				A like or a comment changes what that one page shows and
+				nothing else, so flushing the whole domain for it is enormously
+				out of proportion: every such write deleted every cached page
+				on the site, and the sites with the most engagement therefore
+				kept the least cache.
+
+				They are deliberately not in NonContentRecordTypes.  Excluding
+				them entirely would leave a stale like count on a cached page
+				forever, which is the opposite mistake.
+			*/
+
+		public function EngagementRecordTypes() {
+			return [
+				'LikeDislike',
+				'Comment',
+				'Suggestion',
+			];
+		}
+
 		public function MarkPageCacheDirty($args) {
 			if(in_array($args['type'], $this->NonContentRecordTypes())) {
 				return FALSE;
+			}
+
+				/*
+					Domain wins.  A request that edits content and records a
+					like needs the wider flush, so once the scope is 'domain'
+					nothing narrows it again.
+				*/
+
+			if(!in_array($args['type'], $this->EngagementRecordTypes())) {
+				$this->page_cache_dirty_scope = 'domain';
+			} elseif($this->page_cache_dirty_scope !== 'domain') {
+				$this->page_cache_dirty_scope = 'page';
 			}
 
 			if($this->page_cache_dirty) {
@@ -1154,7 +1189,12 @@
 				ggreq('classes/Cache/PageCache.php');
 
 				$page_cache = new PageCache(['handler'=>$this->handler]);
-				$page_cache->FlushDomain([]);
+
+				if($this->page_cache_dirty_scope === 'page') {
+					$page_cache->FlushPage([]);
+				} else {
+					$page_cache->FlushDomain([]);
+				}
 			} catch (Exception $exception) {
 				# cache maintenance must never break a write
 			}

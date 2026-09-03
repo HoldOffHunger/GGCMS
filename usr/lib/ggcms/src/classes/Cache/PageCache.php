@@ -420,6 +420,40 @@
 			cannot be subtly wrong.
 		*/
 
+			/*
+				Flush one page: the one this request is for.
+
+				FlushDomain is right for a content edit -- a changed title
+				appears on index pages as well as its own -- but it is far too
+				much for someone clicking like.  Every write went through it,
+				so a single visitor liking an entry deleted every cached page
+				on the site, thousands of them, each of which then re-rendered.
+				The sites with the most engagement kept the least cache.
+
+				CacheLocation already computes exactly the file this request
+				would be cached to, and SafePath drops the query string, so a
+				like submitted to /some/entry/?action=... resolves to the entry
+				page itself.
+
+				A missing file is success.  There is nothing to invalidate if
+				the page was never cached, and refusing here would only turn a
+				no-op into an error in the caller.
+			*/
+
+		public function FlushPage($args) {
+			$location = $this->CacheLocation();
+
+			if($location === FALSE) {
+				return FALSE;
+			}
+
+			if(!is_file($location)) {
+				return TRUE;
+			}
+
+			return @unlink($location);
+		}
+
 		public function FlushDomain($args) {
 			if(array_key_exists('domain', $args)) {
 				$domain = $args['domain'];
