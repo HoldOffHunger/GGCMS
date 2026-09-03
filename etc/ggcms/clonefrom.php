@@ -90,6 +90,22 @@
 		public function UseHeaderRedirects() {
 			return TRUE;
 		}
+
+		/*
+			A redirect that only corrects a URL on this host costs the reader a
+			round trip and this host two worker slots for one page view.  With
+			this on, the request is rewritten to what the redirect would have
+			asked for and answered immediately; the arriving URL is kept in
+			$GLOBALS['_ORIGINALREQUESTURI'] rather than discarded.
+
+			On 3 September 2026, 88% of requests to the production host were
+			redirects.  Turn this off only to prove that something else is at
+			fault.
+		*/
+
+		public function RepairInsteadOfRedirecting() {
+			return TRUE;
+		}
 		
 		public function SetAPIData() {
 			return [];

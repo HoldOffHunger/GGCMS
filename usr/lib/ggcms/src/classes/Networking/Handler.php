@@ -721,7 +721,26 @@
 			}
 		}
 		
+		/*
+			Repairing a URL rewrites the request and hands it back to this chain,
+			so the chain has to be re-runnable.  Three passes is generous: the
+			deepest real case is a permalink that resolves to a path which then
+			wants its trailing view.php stripped.
+		*/
+
 		public function HandleRequest() {
+			$result = $this->HandleRequest_Chain();
+
+			while($this->request_repaired) {
+				$this->request_repaired = FALSE;
+
+				$result = $this->HandleRequest_Chain();
+			}
+
+			return $result;
+		}
+
+		public function HandleRequest_Chain() {
 			if($this->SecureRequired()) {
 				return $this->SecureRedirect();
 			}
@@ -1709,11 +1728,152 @@
 			return ($target_query === $current_query);
 		}
 
+		/*
+			A redirect that only corrects a URL on this host costs the visitor a
+			round trip and this host two worker slots for one page view: a PHP
+			boot to compute the Location, and another to answer the request that
+			comes back.  Under prefork that is two of forty processes.
+
+			Measured on 3 September 2026: 88% of requests were redirects.  Every
+			junk path paid it twice over -- one boot to strip a trailing view.php,
+			another to 404 -- and every shared permalink paid it too, which is the
+			worst case, because a permalink is a link somebody meant to send.
+
+			So repair instead.  Rewrite the request to what the redirect would
+			have asked for and answer it now.  Construct_RepairQueryString has
+			done exactly this for query strings since 2 September; this is the
+			same move for paths, and keeps the same promise -- the arriving
+			request is preserved beside the repaired one, never discarded.
+
+			Only for a GET on this host and this scheme.  A 302 on a POST would
+			discard the body, an http-to-https redirect is an upgrade rather than
+			a correction, and another host is not ours to answer for.
+		*/
+
+		public function RepairInsteadOfRedirect($args) {
+			$target = $args['url'];
+
+			if(strlen($target) === 0) {
+				return FALSE;
+			}
+
+				/*
+					A site whose configuration predates this feature has no such
+					method, and repairing is what we want by default -- the same
+					test RecordRelationEnabled makes, for the same reason.
+				*/
+
+			if(method_exists($this->globals, 'RepairInsteadOfRedirecting')) {
+				if(!$this->globals->RepairInsteadOfRedirecting()) {
+					return FALSE;
+				}
+			}
+
+			if($_SERVER['REQUEST_METHOD'] !== 'GET') {
+				return FALSE;		# a 302 would discard the body
+			}
+
+			if($this->repair_count >= 3) {
+				return FALSE;		# a correction that keeps needing correcting
+			}
+
+			$current_scheme = ($_SERVER['HTTPS'] === 'on') ? 'https' : 'http';
+
+			$target_scheme = parse_url($target, PHP_URL_SCHEME);
+			$target_host   = parse_url($target, PHP_URL_HOST);
+			$target_path   = parse_url($target, PHP_URL_PATH);
+			$target_query  = parse_url($target, PHP_URL_QUERY);
+
+			if($target_scheme && ($target_scheme !== $current_scheme)) {
+				return FALSE;		# an upgrade, not a correction
+			}
+
+			if($target_host && (strtolower($target_host) !== strtolower($_SERVER['HTTP_HOST']))) {
+				return FALSE;		# another host answers for itself
+			}
+
+			if(strlen($target_path) === 0) {
+				$target_path = '/';
+			}
+
+			return $this->RepairRequest([
+				'path'=>$target_path,
+				'query'=>$target_query,
+			]);
+		}
+
+		/*
+			The arriving request is kept under _ORIGINAL names, exactly as
+			Construct_RepairQueryString keeps $GLOBALS['_ORIGINALGET'], and kept
+			only once so that a second repair does not overwrite what actually
+			arrived with an intermediate guess.
+
+			Everything derived from the path has to be derived again.  These are
+			the constructor's path-dependent steps and no others: the domain, the
+			cookie, the globals and the database connection do not change when a
+			path does.
+		*/
+
+		public function RepairRequest($args) {
+			$path  = $args['path'];
+			$query = $args['query'];
+
+			$uri = $path . (strlen($query) ? '?' . $query : '');
+
+			if(!$this->repair_count) {
+				$this->original_request_uri = $_SERVER['REQUEST_URI'];
+				$this->original_redirect_url = $_SERVER['REDIRECT_URL'];
+
+				$GLOBALS['_ORIGINALREQUESTURI'] = $_SERVER['REQUEST_URI'];
+				$GLOBALS['_ORIGINALREDIRECTURL'] = $_SERVER['REDIRECT_URL'];
+			}
+
+			$this->repair_count++;
+			$this->repaired_to = $uri;
+			$this->request_repaired = TRUE;
+
+			$_SERVER['REDIRECT_URL'] = $path;
+			$_SERVER['REQUEST_URI']  = $uri;
+			$_SERVER['QUERY_STRING'] = strlen($query) ? $query : '';
+
+			$repaired_get = [];
+			parse_str($_SERVER['QUERY_STRING'], $repaired_get);
+			$_GET = $repaired_get;
+
+			$this->Construct_Query();
+			$this->Construct_Action();
+			$this->Construct_ObjectsAndScripts();
+			$this->Construct_ScriptName();
+			$this->Construct_ScriptFileAndExtension();
+			$this->Construct_ScriptClassname();
+			$this->Construct_ScriptFormat();
+
+			if($this->script_name) {
+				$this->Construct_ScriptLocation();
+			}
+
+				/*
+					The script object was built for the old path.  Dropping it
+					makes HandleRequest_Content build a fresh one.
+				*/
+
+			$this->script = NULL;
+			$this->error_404 = NULL;
+
+			return TRUE;
+		}
+
 		public function handleRedirect() {
 			if($this->RedirectsToSelf(['url'=>$this->redirect_url])) {
 				$this->redirect_url = '';
 
 				return FALSE;
+			}
+
+			if($this->RepairInsteadOfRedirect(['url'=>$this->redirect_url])) {
+				$this->redirect_url = '';
+
+				return TRUE;
 			}
 
 			if($this->redirect_url) {
