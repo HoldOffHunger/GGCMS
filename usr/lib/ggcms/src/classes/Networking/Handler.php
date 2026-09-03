@@ -721,26 +721,7 @@
 			}
 		}
 		
-		/*
-			Repairing a URL rewrites the request and hands it back to this chain,
-			so the chain has to be re-runnable.  Three passes is generous: the
-			deepest real case is a permalink that resolves to a path which then
-			wants its trailing view.php stripped.
-		*/
-
 		public function HandleRequest() {
-			$result = $this->HandleRequest_Chain();
-
-			while($this->request_repaired) {
-				$this->request_repaired = FALSE;
-
-				$result = $this->HandleRequest_Chain();
-			}
-
-			return $result;
-		}
-
-		public function HandleRequest_Chain() {
 			if($this->SecureRequired()) {
 				return $this->SecureRedirect();
 			}
@@ -810,7 +791,7 @@
 					constructed a format and a script first.
 				*/
 
-			if($this->EntryPathResolves()) {
+			if($this->EntryPathResolves() || $this->RepairEntryPath()) {
 				if($this->HandleRequest_Content()) {
 					return TRUE;
 				}
@@ -888,6 +869,70 @@
 			}
 
 			return (count($this->object_list) === count($this->resolved_record_list));
+		}
+
+		/*
+			A path that named nothing, corrected and answered rather than
+			redirected.
+
+			This can only run where EntryPathResolves has already said no,
+			which is the one place in the request where the corrections are
+			known and nothing has been loaded to render with.  So the request
+			is rewritten and carried forward -- the chain is never re-entered,
+			no file is required twice, and the invariant every ggreq in this
+			codebase rests on is untouched.
+
+			The handlers are asked what they would have redirected to rather
+			than allowed to send it.  All three want only db_access and
+			script_name, both of which exist long before a format or a script
+			does.
+
+			handleScriptRedirect is deliberately absent: it reads
+			$this->script->script->redirect_script, and there is no script
+			object here yet.  It keeps its redirect, below, where there is.
+		*/
+
+		public function RepairEntryPath() {
+			if($this->repair_count >= 3) {
+				return FALSE;
+			}
+
+			$this->collect_redirect = TRUE;
+			$this->redirect_url = '';
+
+			$this->handleReservedCodeRedirect();
+
+			if(!$this->redirect_url) {
+				$this->handleMatchingCodeRedirect();
+			}
+
+			if(!$this->redirect_url) {
+				$this->handleMisplacedScriptRedirect();
+			}
+
+			$this->collect_redirect = FALSE;
+
+			$target = $this->redirect_url;
+
+			if(strlen($target) === 0) {
+				return FALSE;
+			}
+
+				/*
+					Off this host, or a scheme change, or not a GET: those are
+					redirects for good reasons and are left as redirects.  The
+					url is put back so the chain below sends it.
+				*/
+
+			$this->redirect_url = '';
+
+			if(!$this->RepairInsteadOfRedirect(['url'=>$target])) {
+				$this->redirect_url = $target;
+
+				return FALSE;
+			}
+
+			return $this->EntryPathResolves();
 		}
 
 		public function HandleRequest_EndRequest() {
@@ -1812,13 +1857,6 @@
 		*/
 
 		public function RepairInsteadOfRedirect($args) {
-				/*
-					OFF.  Still 500s on junk paths -- the class-loading pass did
-					not reach everything, and the fix it used is wrong anyway.
-				*/
-
-			return FALSE;
-
 			$target = $args['url'];
 
 			if(strlen($target) === 0) {
@@ -1898,7 +1936,6 @@
 
 			$this->repair_count++;
 			$this->repaired_to = $uri;
-			$this->request_repaired = TRUE;
 
 			$_SERVER['REDIRECT_URL'] = $path;
 			$_SERVER['REQUEST_URI']  = $uri;
@@ -1938,9 +1975,14 @@
 				return FALSE;
 			}
 
-			if($this->RepairInsteadOfRedirect(['url'=>$this->redirect_url])) {
-				$this->redirect_url = '';
+				/*
+					Collecting rather than sending.  RepairEntryPath asks the
+					correction handlers what they would have redirected to,
+					without letting them send it, so it can answer the request
+					here instead.
+				*/
 
+			if($this->collect_redirect) {
 				return TRUE;
 			}
 
