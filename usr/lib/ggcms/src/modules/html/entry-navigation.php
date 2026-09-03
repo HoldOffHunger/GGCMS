@@ -98,7 +98,7 @@
 						$last_sibling_mouseover_text = str_replace('"', '&quot;', $first_sibling_description['Description']);
 					}
 					
-					$younger_sibling_text = '<a href="../' . $oldest_young_sibling['Code'] . '/view.php">';
+					$younger_sibling_text = '<a href="' . $this->that->EntrySiblingURL(['code'=>$oldest_young_sibling['Code']]) . '">';
 					$younger_sibling_text .= $oldest_young_sibling['Title'];
 					$younger_sibling_text .= '</a>';
 					
@@ -122,14 +122,14 @@
 				if($oldest_young_sibling['image'] && $oldest_young_sibling['image'][0]) {
 					$display_image = $oldest_young_sibling['image'][0];
 					$url = '/image/' . implode('/', str_split($display_image['FileDirectory'])) . '/' . $display_image['IconFileName'];
-					print('<a href="../' . $oldest_young_sibling['Code'] . '/view.php">');
+					print('<a href="' . $this->that->EntrySiblingURL(['code'=>$oldest_young_sibling['Code']]) . '">');
 					print('<img style="max-height:80px;max-width:80px;float:right;margin-top:-10px;margin-bottom:-10px;margin-right:-11px;" src="' . $url . '">');
 					print('</a>');
 				}
 				
 				if($oldest_young_sibling['link'] && $oldest_young_sibling['link'][1] && $oldest_young_sibling['link'][1]['Title'] === 'Image') {
 					$url = $oldest_young_sibling['link'][1]['URL'];
-					print('<a href="../' . $oldest_young_sibling['Code'] . '/view.php">');
+					print('<a href="' . $this->that->EntrySiblingURL(['code'=>$oldest_young_sibling['Code']]) . '">');
 					print('<img style="max-height:80px;max-width:80px;float:right;margin-top:-10px;margin-bottom:-10px;margin-right:-11px;" src="' . $url . '">');
 					print('</a>');
 				}
@@ -244,7 +244,7 @@
 						$next_sibling_mouseover_text = str_replace('"', '&quot;', $first_sibling_description['Description']);
 					}
 					
-					$next_sibling_text = '<a href="../' . $youngest_old_sibling['Code'] . '/view.php">';
+					$next_sibling_text = '<a href="' . $this->that->EntrySiblingURL(['code'=>$youngest_old_sibling['Code']]) . '">';
 					$next_sibling_text .= $youngest_old_sibling['Title'];
 					$next_sibling_text .= '</a>';
 				} else {
@@ -266,7 +266,7 @@
 				if($youngest_old_sibling['image'] && $youngest_old_sibling['image'][0]) {
 					$display_image = $youngest_old_sibling['image'][0];
 					$url = '/image/' . implode('/', str_split($display_image['FileDirectory'])) . '/' . $display_image['IconFileName'];
-					print('<a href="../' . $youngest_old_sibling['Code'] . '/view.php">');
+					print('<a href="' . $this->that->EntrySiblingURL(['code'=>$youngest_old_sibling['Code']]) . '">');
 					print('<img style="max-height:80px;max-width:80px;float:right;margin-top:-10px;margin-bottom:-10px;margin-right:-11px;" src="' . $url . '">');
 					print('</a>');
 				}
@@ -311,7 +311,7 @@
 						$younger_sibling = $this->that->younger_siblings[$i];
 						
 						print('<li>');
-						print('<a href="../' . $younger_sibling['Code'] . '/view.php">');
+						print('<a href="' . $this->that->EntrySiblingURL(['code'=>$younger_sibling['Code']]) . '">');
 						print($younger_sibling['ListTitle']);
 						
 						$younger_sibling_descriptions = $younger_sibling['description'];
@@ -330,7 +330,7 @@
 						if($younger_sibling['association'][0] && $younger_sibling['association'][0]['entry']['id'])
 						{
 							print(', by ');
-							print('<a href="../../people/' . $younger_sibling['association'][0]['entry']['Code'] . '/view.php">');
+							print('<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$younger_sibling['association'][0]['entry']['Code']]) . '">');
 							print($younger_sibling['association'][0]['entry']['Title']);
 							print('</a>');
 						}
@@ -338,7 +338,7 @@
 						if($younger_sibling['image'] && $younger_sibling['image'][0]) {
 							$display_image = $younger_sibling['image'][0];
 							$url = '/image/' . implode('/', str_split($display_image['FileDirectory'])) . '/' . $display_image['IconFileName'];
-							print('<a href="../' . $younger_sibling['Code'] . '/view.php">');
+							print('<a href="' . $this->that->EntrySiblingURL(['code'=>$younger_sibling['Code']]) . '">');
 							print('<img style="max-height:25px;max-width:25px;float:right;margin-top:-10px;margin-bottom:-10px;" src="' . $url . '">');
 							print('</a>');
 							print('<div style="clear: both;"></div>');
@@ -391,7 +391,7 @@
 						$older_sibling = $this->that->older_siblings[$i];
 						
 						print('<li>');
-						print('<a href="../' . $older_sibling['Code'] . '/view.php">');
+						print('<a href="' . $this->that->EntrySiblingURL(['code'=>$older_sibling['Code']]) . '">');
 						print($older_sibling['ListTitle']);
 						
 						$older_sibling_descriptions = $older_sibling['description'];
@@ -410,7 +410,7 @@
 						if($older_sibling['association'][0] && $older_sibling['association'][0]['entry']['id'])
 						{
 							print(', by ');
-							print('<a href="../../people/' . $older_sibling['association'][0]['entry']['Code'] . '/view.php">');
+							print('<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$older_sibling['association'][0]['entry']['Code']]) . '">');
 							print($older_sibling['association'][0]['entry']['Title']);
 							print('</a>');
 						}
@@ -418,7 +418,7 @@
 						if($older_sibling['image'] && $older_sibling['image'][0]) {
 							$display_image = $older_sibling['image'][0];
 							$url = '/image/' . implode('/', str_split($display_image['FileDirectory'])) . '/' . $display_image['IconFileName'];
-							print('<a href="../' . $older_sibling['Code'] . '/view.php">');
+							print('<a href="' . $this->that->EntrySiblingURL(['code'=>$older_sibling['Code']]) . '">');
 							print('<img style="max-height:25px;max-width:25px;float:right;" src="' . $url . '">');
 							print('</a>');
 							print('<div style="clear: both;"></div>');
@@ -426,7 +426,7 @@
 						
 						if($older_sibling['link'] && $older_sibling['link'][1] && $older_sibling['link'][1]['Title'] === 'Image') {
 							$url = $older_sibling['link'][1]['URL'];
-							print('<a href="../' . $older_sibling['Code'] . '/view.php">');
+							print('<a href="' . $this->that->EntrySiblingURL(['code'=>$older_sibling['Code']]) . '">');
 							print('<img style="max-height:25px;max-width:25px;float:right;" src="' . $url . '">');
 							print('</a>');
 							print('<div style="clear: both;"></div>');

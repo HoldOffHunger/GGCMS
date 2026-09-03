@@ -206,7 +206,7 @@
 				
 				if($child['association'][0]['entry']['Title']) {
 					print(', by ');
-					print('<a href="../people/' . $child['association'][0]['entry']['Code'] . '/view.php">');
+					print('<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$child['association'][0]['entry']['Code']]) . '">');
 					print($child['association'][0]['entry']['Title']);
 					print('</a> ');
 				}

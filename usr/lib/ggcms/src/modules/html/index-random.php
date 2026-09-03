@@ -121,7 +121,7 @@
 						$popup_title = 1;
 					}
 					
-					$child_title .= '<a href="../people/' . $author['Code'] . '/view.php"';
+					$child_title .= '<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . '"';
 					
 					if($popup_title)
 					{

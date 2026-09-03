@@ -2215,6 +2215,50 @@
 			return '<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/' . '">Main Site</a>';
 		}
 		
+		/*
+			The URL of a sibling, written from the root rather than relative to
+			wherever the reader's browser happens to be.
+
+			These were '../<Code>/view.php'.  A relative link is resolved by
+			the browser against the current address, so a page reached at a
+			path one level too deep hands out links one level too deep, and
+			every one of those pages does the same again.  On 3 September 2026
+			that had produced an unbounded space of invented URLs -- 1,510
+			requests in a single sample were thirteen segments long, built out
+			of real paths welded together, and the referrers were this site's
+			own pages.
+
+			Written from the root, the same link is correct no matter what
+			address the reader arrived at, so a wrong URL cannot breed.
+
+			object_list is the path as the engine understands it, which is the
+			point: the server knows where the reader actually is, and the
+			browser only knows where it was told.
+		*/
+
+		public function EntrySiblingURL($args) {
+			$pieces = is_array($this->object_list) ? $this->object_list : [];
+
+			array_pop($pieces);
+
+			$pieces[] = $args['code'];
+
+			return '/' . implode('/', $pieces) . '/view.php';
+		}
+
+		/*
+			The association links were '../../people/<Code>/view.php' -- two
+			levels up and back down into a section assumed to sit at the root.
+			Same correction, and the assumption is now stated rather than
+			implied by a count of dots.
+		*/
+
+		public function EntryAssociationURL($args) {
+			$section = strlen($args['section']) ? $args['section'] : 'people';
+
+			return '/' . $section . '/' . $args['code'] . '/view.php';
+		}
+
 		public function ValidateOrm() {
 			if(count($this->object_list)) {	# is this not the main page?
 				if(count($this->object_list) !== count($this->record_list)) {
