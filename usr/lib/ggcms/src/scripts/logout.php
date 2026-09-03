@@ -1,7 +1,7 @@
 <?php
 
-	ggreq('traits/scripts/URLs.php');
-	ggreq('scripts/view.php');
+	ggreqonce('traits/scripts/URLs.php');
+	ggreqonce('scripts/view.php');
 
 	class logout extends view {
 		use DBFunctions;

@@ -18,22 +18,21 @@
 	}
 
 	/*
-		Class files may only be declared once, and since 3 September 2026 a
-		request that repairs its own URL runs the handler chain a second time
-		-- which re-entered these requires and died with "Cannot declare class
-		AbstractBaseFormat, because the name is already in use".
+		A file that declares a class may only be required once, and since
+		3 September 2026 a request that repairs its own URL runs the handler
+		chain a second time.  The second pass re-entered these and died with
+		"Cannot declare class AbstractBaseFormat, because the name is already
+		in use".
 
-		Not require_once, and not a change to ggreq: templates are required
-		repeatedly on purpose and must keep being.  Only the files that declare
-		a class use this.
+		For a file that declares a class or a trait, require and require_once
+		differ only in that the second one does not fatal -- these files
+		declare and print nothing -- so this is the same call with the failure
+		mode removed.  ggreq itself is left alone: templates and modules are
+		required repeatedly on purpose.
 	*/
 
-	function ggreqclass($classname, $filename) {
-		if(class_exists($classname, FALSE)) {
-			return TRUE;
-		}
-
-		return require(GGCMS_DIR . $filename);
+	function ggreqonce($filename) {
+		return require_once(GGCMS_DIR . $filename);
 	}
 
 	function depreq($filename) {

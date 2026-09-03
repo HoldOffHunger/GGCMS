@@ -4,29 +4,29 @@
 		
 		// -------------------------------------------------------------
 
-	ggreq('modules/spacing.php');
+	ggreqonce('modules/spacing.php');
 	
-	ggreq('modules/html/text.php');
+	ggreqonce('modules/html/text.php');
 	$text = new module_text;
 	
-	ggreq('modules/html/form.php');
+	ggreqonce('modules/html/form.php');
 	$form = new module_form;
 	
-	ggreq('modules/html/divider.php');
+	ggreqonce('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	ggreq('modules/html/table.php');
+	ggreqonce('modules/html/table.php');
 	$table = new module_table;
 	
-	ggreq('modules/html/header.php');
+	ggreqonce('modules/html/header.php');
 	$header = new module_header;
 	
 			// Display Header
 		
 		// -------------------------------------------------------------
 	
-	ggreq('modules/html/entry-header.php');
-	ggreq('modules/html/entry-index-header.php');
+	ggreqonce('modules/html/entry-header.php');
+	ggreqonce('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>'Login to ' . $this->domain_object->primary_domain,
@@ -45,7 +45,7 @@
 			
 			// -------------------------------------------------------------
 			
-		ggreq('modules/html/breadcrumbs.php');
+		ggreqonce('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs([
 			'that'=>$this,
 			'subpage'=>'Login',
@@ -56,7 +56,7 @@
 			
 			// -------------------------------------------------------------
 			
-		ggreq('modules/html/auth.php');
+		ggreqonce('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this]);
 		$auth->Display();
 		
@@ -205,7 +205,7 @@
 	print('</form>');
 	print('</div>');
 	
-	ggreq('modules/html/navigation.php');
+	ggreqonce('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,

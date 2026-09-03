@@ -8,7 +8,7 @@
 		}
 		
 		public function SetCountryGeography() {
-			ggreq('classes/Geography/Country.php');
+			ggreqonce('classes/Geography/Country.php');
 			
 			$this->country = new Country();
 			

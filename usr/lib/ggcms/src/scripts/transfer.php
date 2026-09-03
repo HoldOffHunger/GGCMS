@@ -1,6 +1,6 @@
 <?php
 
-	ggreq('scripts/view.php');
+	ggreqonce('scripts/view.php');
 	
 	class transfer extends view {
 						// Security Data

@@ -44,7 +44,7 @@
 		
 		public function Construct_UpgradeDBAccess() {
 			if($this->authentication->CheckAuthenticationForCurrentObject_IsAdmin()) {
-				ggreq('classes/Database/DBAccessUpgraded.php');
+				ggreqonce('classes/Database/DBAccessUpgraded.php');
 				
 				$this->db_access = new DBAccessUpgraded([
 					'handler'=>$this,
@@ -76,7 +76,7 @@
 			}
 			
 			if($valid_local_host) {
-				ggreq('classes/Networking/Handler/LocalHostHandler.php');
+				ggreqonce('classes/Networking/Handler/LocalHostHandler.php');
 				$this->local_host_handler = new LocalHostHandler($this->getArgs());
 				$this->local_host_handler->HandleLocalRequest();
 			}
@@ -171,7 +171,7 @@
 				$globals = new defaultglobals([]);
 			}
 			
-			ggreq('classes/System/AbstractGlobals.php');
+			ggreqonce('classes/System/AbstractGlobals.php');
 			$this->abstractglobals = new AbstractGlobals([
 				'handler'=>$this,
 			]);
@@ -807,11 +807,11 @@
 				return TRUE;
 			}
 			
-			ggreqclass('Error404', 'classes/Networking/Error404.php');
+			ggreqonce('classes/Networking/Error404.php');
 			if($this->isScriptImage()) {
 				$this->HandleRequest_Error_404();	# BT: FIXME, special error 404 for images?
 			} else {
-				ggreqclass('Error404Redirect', 'classes/Networking/Error404Redirect.php');
+				ggreqonce('classes/Networking/Error404Redirect.php');
 				$this->error404redirect = new Error404Redirect([
 					'handler'=>$this,
 				]);
@@ -843,7 +843,7 @@
 				$action = $_GET['admin_action'];
 				
 				if($action) {
-				ggreq('classes/Admin/AdminTools.php');
+				ggreqonce('classes/Admin/AdminTools.php');
 				$admintools = new AdminTools();
 				print('<PRE>');
 				$admintools->$action();
@@ -1751,26 +1751,6 @@
 		*/
 
 		public function RepairInsteadOfRedirect($args) {
-				/*
-					OFF since 21:12 on 3 September 2026, minutes after it went on.
-
-					Repairing runs the handler chain twice, and the chain loads
-					class files with a bare require as it goes, so the second
-					pass redeclared them and every junk path answered 500:
-
-					    Cannot declare class AbstractBaseFormat
-					    Cannot declare class baseformat
-
-					Six call sites in this file are converted to ggreqclass and
-					two more are nested inside the format classes themselves.
-					The depth is unknown, and guessing at it costs a live 500
-					per guess.  Remove this return when every class-declaring
-					require in the request path has been converted and a junk
-					path answers 404 rather than 500.
-				*/
-
-			return FALSE;
-
 			$target = $args['url'];
 
 			if(strlen($target) === 0) {
@@ -1902,7 +1882,7 @@
 				} else {
 					http_response_code(200);	// "OK" (success)
 					
-					ggreqclass('GoogleAnalytics', 'classes/API/GoogleAnalytics.php');
+					ggreqonce('classes/API/GoogleAnalytics.php');
 					
 					$google_analytics = new GoogleAnalytics($this->getArgs());
 					
@@ -1960,7 +1940,7 @@
 		public function RecordUserStatistics() {
 			if($this->globals->EnableStats() || $this->globals->EnableStats_LogExcessiveMemoryUse()) {
 				if($this->globals->EnableStats_Log404Pages() || !$this->error_404) {
-					ggreqclass('UserTracking', 'classes/Networking/UserTracking.php');
+					ggreqonce('classes/Networking/UserTracking.php');
 					
 					$this->user_tracking = new UserTracking($this->getArgs());
 					
@@ -1977,7 +1957,7 @@
 			$shared_location = GGCMS_DIR . 'clonefrom.com' . $_SERVER['SCRIPT_URL'];
 			
 			if(!is_file($client_location) && is_file($shared_location)) {
-				ggreqclass('MIMEType', 'classes/Networking/MIMEType.php');
+				ggreqonce('classes/Networking/MIMEType.php');
 				
 				$mimetype = new MIMEType($this->getArgs());
 				$mimetypes = $mimetype->GetMIMETypeCodes();
@@ -2037,9 +2017,9 @@
 		}
 		
 		public function HandleRequest_Content_Format_GetFormatObject() {
-			ggreqclass('AbstractBaseFormat', 'classes/Format/Base/AbstractBaseFormat.php');
+			ggreqonce('classes/Format/Base/AbstractBaseFormat.php');
 
-			return ggreqclass($this->script_format, 'classes/Format/' . $this->script_format . '.php');
+			return ggreqonce('classes/Format/' . $this->script_format . '.php');
 		}
 		
 		public function HandleRequest_Content_Format_InstantiateFormatObject() {

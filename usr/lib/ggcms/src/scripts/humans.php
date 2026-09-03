@@ -1,6 +1,6 @@
 <?php
 
-	ggreq('scripts/view.php');
+	ggreqonce('scripts/view.php');
 
 	class humans extends view {
 		use DBFunctions;

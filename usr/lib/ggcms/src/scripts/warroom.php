@@ -1,7 +1,7 @@
 <?php
-	ggreq('traits/scripts/DBAdminFunctions.php');
-	ggreq('traits/scripts/DBFunctions.php');
-	ggreq('traits/scripts/SimpleForms.php');
+	ggreqonce('traits/scripts/DBAdminFunctions.php');
+	ggreqonce('traits/scripts/DBFunctions.php');
+	ggreqonce('traits/scripts/SimpleForms.php');
 
 	class warroom extends basicscript {
 		use DBAdminFunctions;

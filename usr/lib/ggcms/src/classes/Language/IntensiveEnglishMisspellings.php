@@ -17,7 +17,7 @@
 			*/
 		
 		public function __construct($args) {
-			ggreq('classes/Language/IntensiveEnglishMisspellings_Words.php');
+			ggreqonce('classes/Language/IntensiveEnglishMisspellings_Words.php');
 			$this->words = new IntensiveEnglishMisspellings_Words([]);
 			$this->misspellings = $this->words->GetIntensiveEnglishMisspellings();
 			return TRUE;

@@ -18,8 +18,8 @@
 		}
 		
 		public function SetMimeTypeAndFormats() {	# TODO: Use this style for the rel-alts in HTML as well
-			ggreq('classes/Networking/MIMEType.php');
-			ggreq('classes/Format/Base/Formats.php');
+			ggreqonce('classes/Networking/MIMEType.php');
+			ggreqonce('classes/Format/Base/Formats.php');
 			$this->mimetype = new MIMEType($args);
 			$this->format_object = new Formats(['handler'=>$this->handler]);
 			

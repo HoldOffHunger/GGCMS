@@ -8,7 +8,7 @@
 		}
 		
 		public function SetDBAdmin() {
-			ggreq('classes/Database/DBAdmin.php');
+			ggreqonce('classes/Database/DBAdmin.php');
 			$this->db_admin = new DBAdmin([
 				'handler'=>$this->handler,
 				'dbaccessobject'=>$this->handler->db_access,

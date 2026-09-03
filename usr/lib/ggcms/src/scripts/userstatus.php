@@ -1,7 +1,7 @@
 <?php
 
-	ggreq('scripts/view.php');
-	ggreq('traits/scripts/DBAdminFunctions.php');
+	ggreqonce('scripts/view.php');
+	ggreqonce('traits/scripts/DBAdminFunctions.php');
 
 	class userstatus extends view {
 				// Security

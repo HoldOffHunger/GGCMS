@@ -4,18 +4,18 @@
 		
 		// -------------------------------------------------------------
 
-	ggreq('modules/spacing.php');
+	ggreqonce('modules/spacing.php');
 
-	ggreq('modules/html/entry-comments.php');
+	ggreqonce('modules/html/entry-comments.php');
 	$entry_comments = new module_entrycomments(['that'=>$this]);
 
-	ggreq('modules/html/entry-image.php');
+	ggreqonce('modules/html/entry-image.php');
 	$entry_image = new module_entryimage(['that'=>$this]);
 	
-	ggreq('modules/html/entry-quote.php');
+	ggreqonce('modules/html/entry-quote.php');
 	$entry_quotes = new module_entryquotes(['that'=>$this]);
 	
-	ggreq('modules/html/entry-share.php');
+	ggreqonce('modules/html/entry-share.php');
 	$entry_share = new module_entryshare(['that'=>$this]);
 		
 				// Child Record Counts
@@ -40,26 +40,26 @@
 			
 			// -------------------------------------------------------------
 	
-	ggreq('modules/html/entry-sort.php');
+	ggreqonce('modules/html/entry-sort.php');
 	$entrysort = new module_entrysort(['that'=>$this]);
 		
 				// Timeframe
 			
 			// -------------------------------------------------------------
 	
-	ggreq('modules/html/entry-date.php');
+	ggreqonce('modules/html/entry-date.php');
 	$entrydate = new module_entrydate(['that'=>$this]);
 	$time_data = $entrydate->getSimpleData();
 	$time_frame = $time_data['text'];
 	
-	ggreq('modules/html/entry-list.php');
+	ggreqonce('modules/html/entry-list.php');
 	$entrylist = new module_entrylist(['that'=>$this, 'entrydate'=>$entrydate]);
 	
 				// Header_REAL
 			
 			// -------------------------------------------------------------
 	
-	ggreq('modules/html/entry-header.php');
+	ggreqonce('modules/html/entry-header.php');
 	$entryheader = new module_entryheader(['that'=>$this, 'time_frame'=>$time_frame]);
 	
 				// Simple Formats
@@ -687,25 +687,25 @@
 			
 			// -------------------------------------------------------------
 	
-		ggreq('modules/html/text.php');
+		ggreqonce('modules/html/text.php');
 		$text = new module_text;
 		
-		ggreq('modules/html/form.php');
+		ggreqonce('modules/html/form.php');
 		$form = new module_form;
 		
-		ggreq('modules/html/divider.php');
+		ggreqonce('modules/html/divider.php');
 		$divider = new module_divider;
 		
-		ggreq('modules/html/table.php');
+		ggreqonce('modules/html/table.php');
 		$table = new module_table;
 		
-		ggreq('modules/html/list/generic.php');
+		ggreqonce('modules/html/list/generic.php');
 		$generic_list = new module_genericlist;
 		
-		ggreq('modules/html/header.php');
+		ggreqonce('modules/html/header.php');
 		$header = new module_header;
 		
-		ggreq('modules/html/navigation.php');
+		ggreqonce('modules/html/navigation.php');
 		$navigation_args = [
 			'globals'=>$this->handler->globals,
 			'languageobject'=>$this->language_object,
@@ -725,7 +725,7 @@
 			// -------------------------------------------------------------
 		
 		if($this->authentication_object->user_session['UserAdmin.id']) {
-			ggreq('modules/html/entry-controls.php');
+			ggreqonce('modules/html/entry-controls.php');
 			$entry_controls = new module_entrycontrols;
 			$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
 		}
@@ -740,7 +740,7 @@
 			
 			// -------------------------------------------------------------
 			
-		ggreq('modules/html/breadcrumbs.php');
+		ggreqonce('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs(['that'=>$this, 'subpage'=>'News Feed Documentation']);
 		$breadcrumbs->Display();
 		
@@ -748,7 +748,7 @@
 			
 			// -------------------------------------------------------------
 			
-		ggreq('modules/html/auth.php');
+		ggreqonce('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this]);
 		$auth->Display();
 		
@@ -774,7 +774,7 @@
 			
 			// -------------------------------------------------------------
 		
-		ggreq('modules/html/entry-association.php');
+		ggreqonce('modules/html/entry-association.php');
 		$entry_association = new module_entryassociation(['that'=>$this, 'header'=>'']);
 		$entry_association->Display([]);
 		
@@ -782,7 +782,7 @@
 			
 			// -------------------------------------------------------------
 		
-#		ggreq('modules/html/entry-description.php');
+#		ggreqonce('modules/html/entry-description.php');
 #		$entry_description = new module_entrydescription(['that'=>$this, 'header'=>'']);
 #		$entry_description->Display();
 		
@@ -986,7 +986,7 @@
 	#	print_r($this->formatted_news_feeds);
 	#	print("</PRE>");
 		
-		ggreq('modules/html/entry-textbody.php');
+		ggreqonce('modules/html/entry-textbody.php');
 		$entry_textbody = new module_entrytextbody([
 			'that'=>$this,
 			'subheader'=>'About the News Feed',
@@ -1003,7 +1003,7 @@
 			
 			// -------------------------------------------------------------
 			
-	#	ggreq('modules/html/entry-debug.php');
+	#	ggreqonce('modules/html/entry-debug.php');
 	#	$entry_debug = new module_entrydebug(['that'=>$this]);
 	#	$entry_debug->Debug([]);
 		

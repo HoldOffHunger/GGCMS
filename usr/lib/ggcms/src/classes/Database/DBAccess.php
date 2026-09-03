@@ -30,7 +30,7 @@
 			$this->hardcoded_table_entries = $hardcoded_table_entries;
 			
 			if($this->handler->globals->useDBFileCache()) {
-				ggreq('classes/Database/DBFileCache.php');
+				ggreqonce('classes/Database/DBFileCache.php');
 				
 				$this->db_file_cache = new DBFileCache($args);
 			}
@@ -1342,7 +1342,7 @@
 
 		public function FlushPageCacheNow() {
 			try {
-				ggreq('classes/Cache/PageCache.php');
+				ggreqonce('classes/Cache/PageCache.php');
 
 				$page_cache = new PageCache(['handler'=>$this->handler]);
 

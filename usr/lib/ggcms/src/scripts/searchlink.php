@@ -1,11 +1,11 @@
 <?php
 
-	ggreq('traits/scripts/DBFunctions.php');
-	ggreq('traits/scripts/SimpleErrors.php');
-	ggreq('traits/scripts/SimpleForms.php');
-	ggreq('traits/scripts/SimpleLookupLists.php');
-	ggreq('traits/scripts/SimpleORM.php');
-	ggreq('traits/scripts/SimpleSocialMedia.php');
+	ggreqonce('traits/scripts/DBFunctions.php');
+	ggreqonce('traits/scripts/SimpleErrors.php');
+	ggreqonce('traits/scripts/SimpleForms.php');
+	ggreqonce('traits/scripts/SimpleLookupLists.php');
+	ggreqonce('traits/scripts/SimpleORM.php');
+	ggreqonce('traits/scripts/SimpleSocialMedia.php');
 
 	class searchlink extends basicscript {
 						// Traits
@@ -96,7 +96,7 @@
 		}
 		
 		public function SetORMSearch() {
-			ggreq('classes/Database/ORMSearchURL.php');
+			ggreqonce('classes/Database/ORMSearchURL.php');
 			
 			return $this->orm_search = new ORMSearchURL(['dbaccessobject'=>$this->handler->db_access]);
 		}

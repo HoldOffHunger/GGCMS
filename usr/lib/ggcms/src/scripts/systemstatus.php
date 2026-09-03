@@ -1,8 +1,8 @@
 <?php
 	
-	ggreq('traits/scripts/BaseConversion.php');
-	ggreq('traits/scripts/CryptographicFunctions.php');
-	ggreq('traits/scripts/SimpleForms.php');
+	ggreqonce('traits/scripts/BaseConversion.php');
+	ggreqonce('traits/scripts/CryptographicFunctions.php');
+	ggreqonce('traits/scripts/SimpleForms.php');
 	
 	class systemstatus extends basicscript {
 					// Class Information
@@ -246,7 +246,7 @@
 		}
 
 		public function ShowMasterVariables() {
-			ggreq('classes/System/BCE.php');
+			ggreqonce('classes/System/BCE.php');
 			
 			$bce = new bce();
 			
@@ -699,7 +699,7 @@
 			$this->SubmittedValue = $this->Param($dns_parameter);
 			
 			if(isset($this->SubmittedValue)) {
-				ggreq('classes/Networking/DNSRecord.php');
+				ggreqonce('classes/Networking/DNSRecord.php');
 				
 				$dns_record = new DNSRecord();
 				

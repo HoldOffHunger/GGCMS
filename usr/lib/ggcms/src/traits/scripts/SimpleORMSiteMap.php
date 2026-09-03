@@ -2,7 +2,7 @@
 
 	trait SimpleORMSiteMap {
 		public function SetORMSiteMapObject() {
-			ggreq('classes/Database/ORMSiteMap.php');
+			ggreqonce('classes/Database/ORMSiteMap.php');
 			
 			return $this->ormsitemap = new ORMSiteMap(['dbaccessobject'=>$this->db_access_object]);
 		}

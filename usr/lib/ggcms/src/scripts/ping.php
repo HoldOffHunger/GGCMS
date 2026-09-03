@@ -1,13 +1,13 @@
 <?php
 	
-	ggreq('traits/scripts/BaseConversion.php');
-	ggreq('traits/scripts/DBAdminFunctions.php');
-	ggreq('traits/scripts/DBFunctions.php');
-	ggreq('traits/scripts/SimpleAPI.php');
-	ggreq('traits/scripts/SimpleErrors.php');
-	ggreq('traits/scripts/SimpleForms.php');
-	ggreq('traits/scripts/SimpleORM.php');
-	ggreq('traits/scripts/SimplePing.php');
+	ggreqonce('traits/scripts/BaseConversion.php');
+	ggreqonce('traits/scripts/DBAdminFunctions.php');
+	ggreqonce('traits/scripts/DBFunctions.php');
+	ggreqonce('traits/scripts/SimpleAPI.php');
+	ggreqonce('traits/scripts/SimpleErrors.php');
+	ggreqonce('traits/scripts/SimpleForms.php');
+	ggreqonce('traits/scripts/SimpleORM.php');
+	ggreqonce('traits/scripts/SimplePing.php');
 
 	class ping extends basicscript {
 					// Class Information

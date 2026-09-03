@@ -2,7 +2,7 @@
 
 			### script incomplete
 
-	ggreq('traits/scripts/SimpleForms.php');
+	ggreqonce('traits/scripts/SimpleForms.php');
 
 	class redirect extends basicscript {
 		use SimpleForms;

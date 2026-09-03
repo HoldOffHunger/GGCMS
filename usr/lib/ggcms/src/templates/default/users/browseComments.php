@@ -4,27 +4,27 @@
 		
 		// -------------------------------------------------------------
 
-	ggreq('modules/spacing.php');
+	ggreqonce('modules/spacing.php');
 	
-	ggreq('modules/html/text.php');
+	ggreqonce('modules/html/text.php');
 	$text = new module_text;
 	
-	ggreq('modules/html/form.php');
+	ggreqonce('modules/html/form.php');
 	$form = new module_form;
 	
-	ggreq('modules/html/divider.php');
+	ggreqonce('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	ggreq('modules/html/table.php');
+	ggreqonce('modules/html/table.php');
 	$table = new module_table;
 	
-	ggreq('modules/html/list/generic.php');
+	ggreqonce('modules/html/list/generic.php');
 	$generic_list = new module_genericlist;
 	
-	ggreq('modules/html/header.php');
+	ggreqonce('modules/html/header.php');
 	$header = new module_header;
 	
-	ggreq('modules/html/navigation.php');
+	ggreqonce('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,
@@ -33,7 +33,7 @@
 	];
 	$navigation = new module_navigation($navigation_args);
 	
-	ggreq('modules/html/entry-sort.php');
+	ggreqonce('modules/html/entry-sort.php');
 	$entrysort = new module_entrysort(['that'=>$this]);
 	
 			// Mouseover Values
@@ -59,8 +59,8 @@
 		
 		// -------------------------------------------------------------
 		
-	ggreq('modules/html/entry-header.php');
-	ggreq('modules/html/entry-index-header.php');
+	ggreqonce('modules/html/entry-header.php');
+	ggreqonce('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>'Browsing Comments by ' . $this->user['Username'],
@@ -114,7 +114,7 @@
 		$breadcrumbs_title .= ' &gt;&gt; ';
 		$breadcrumbs_title .= 'Browsing Comments';
 		
-		ggreq('modules/html/breadcrumbs.php');
+		ggreqonce('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs(['that'=>$this, 'title'=>$breadcrumbs_title]);
 		$breadcrumbs->Display();
 		
@@ -122,7 +122,7 @@
 			
 			// -------------------------------------------------------------
 			
-		ggreq('modules/html/auth.php');
+		ggreqonce('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this]);
 		$auth->Display();
 		

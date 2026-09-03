@@ -4,24 +4,24 @@
 		
 		// -------------------------------------------------------------
 
-	ggreq('modules/spacing.php');
+	ggreqonce('modules/spacing.php');
 	
-	ggreq('modules/html/text.php');
+	ggreqonce('modules/html/text.php');
 	$text = new module_text;
 	
-	ggreq('modules/html/iframe.php');
+	ggreqonce('modules/html/iframe.php');
 	$iframe = new module_iframe;
 	
-	ggreq('modules/html/form.php');
+	ggreqonce('modules/html/form.php');
 	$form = new module_form;
 	
-	ggreq('modules/html/divider.php');
+	ggreqonce('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	ggreq('modules/html/table.php');
+	ggreqonce('modules/html/table.php');
 	$table = new module_table;
 	
-	ggreq('modules/html/header.php');
+	ggreqonce('modules/html/header.php');
 	$header = new module_header;
 	
 			// Basic Divider Arguments
