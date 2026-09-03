@@ -1269,6 +1269,19 @@
 						'arguments'=>$entry_ids,
 					]);
 
+						/*
+							ggcms_EntryRecords is ORM::GetRecordsAndChildren's
+							base fetch, keyed by entry id like the two above.
+							It caches Title and Code among other columns, so an
+							edit that misses it shows the old title on every
+							index page that lists the entry.
+						*/
+
+					$this->db_file_cache->DeleteCache([
+						'type'=>'ggcms_EntryRecords',
+						'arguments'=>$entry_ids,
+					]);
+
 					$subtypes = $this->db_file_cache->DeleteCache_Subtypes([
 						'type'=>'ggcms_EntryChildRecords',
 					]);

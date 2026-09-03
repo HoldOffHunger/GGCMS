@@ -2124,20 +2124,58 @@
 
 			$ids = array_values(array_unique($ids));
 
-			$selects = $this->GetRecordTree_GetEntries_GetBaseSelect(['index'=>1, 'noassignment'=>1]);
+				/*
+					One row per id, and nothing outside the id list changes the
+					answer, so this decomposes into the per-id files the row
+					cache stores.  About ten of the fifty-seven queries a
+					revoltlib page costs.
 
-			$sql = 'SELECT ';
-			$sql .= implode(', ', $selects) . ' ';
-			$sql .= 'FROM ';
-			$sql .= 'Entry as Entry1 ';
-			$sql .= 'WHERE Entry1.id IN(' . implode(', ', array_fill(0, count($ids), '?')) . ') ';
-			$sql .= 'AND Entry1.Publish = 1;';
+					Worth more than the query count suggests: the database is a
+					managed instance reached over the network on port 25060, so
+					every query saved is a TLS round trip saved rather than a
+					local socket read.
 
-			$entries = $this->handler->db_access->FillArraysFromDB([
-				'query'=>$sql,
-				'sqlbindstring'=>str_repeat('i', count($ids)),
-				'recordvalues'=>$ids,
-			]);
+					Safe to cache only since invalidation exists -- before
+					3 September nothing ever removed a row, and adding a query
+					here would have multiplied a staleness bug rather than
+					saved anything.  DBAccess::FlushRowCacheNow drops
+					ggcms_EntryRecords for an entry when it is written to.
+				*/
+
+			$entries = FALSE;
+
+			if($this->handler->db_access->db_file_cache) {
+				$entries = $this->handler->db_access->db_file_cache->ReadCache([
+					'type'=>'ggcms_EntryRecords',
+					'arguments'=>$ids,
+				]);
+			}
+
+			if(!is_array($entries)) {
+				$selects = $this->GetRecordTree_GetEntries_GetBaseSelect(['index'=>1, 'noassignment'=>1]);
+
+				$sql = 'SELECT ';
+				$sql .= implode(', ', $selects) . ' ';
+				$sql .= 'FROM ';
+				$sql .= 'Entry as Entry1 ';
+				$sql .= 'WHERE Entry1.id IN(' . implode(', ', array_fill(0, count($ids), '?')) . ') ';
+				$sql .= 'AND Entry1.Publish = 1;';
+
+				$entries = $this->handler->db_access->FillArraysFromDB([
+					'query'=>$sql,
+					'sqlbindstring'=>str_repeat('i', count($ids)),
+					'recordvalues'=>$ids,
+				]);
+
+				if($this->handler->db_access->db_file_cache) {
+					$this->handler->db_access->db_file_cache->WriteCache([
+						'type'=>'ggcms_EntryRecords',
+						'arguments'=>$ids,
+						'data'=>$entries,
+						'field'=>'Entry_1_id',
+					]);
+				}
+			}
 
 			$entries = $this->GetRecordTree_StructureChildRecords(['entrieslist'=>$entries]);
 
