@@ -186,9 +186,21 @@ chmod +x /usr/lib/ggcms/cli/scripts/*/*/*.php
 chown -R www-data /usr/lib/ggcms /etc/ggcms /var/www
 chmod 755 /var/www
 
-echo "==> reloading apache"
+		#  restart, not reload.  opcache revalidates each file independently
+		#  every two seconds, and rsync writes them one at a time, so for a
+		#  moment after a deploy a new file can be compiled against an old one.
+		#  On 3 September 2026 that was a new entry-navigation.php calling a
+		#  method that only existed in the new SimpleORM.php, which was still
+		#  the old one in the cache: "Call to undefined method
+		#  view::EntrySiblingURL()", on live pages, after a deploy that
+		#  reported success.
+		#
+		#  A reload does not clear opcache.  A restart does, and it costs a
+		#  second of connections that nginx is holding anyway.
+
+echo "==> restarting apache"
 apache2ctl configtest
-systemctl reload apache2
+systemctl restart apache2
 
 		#  nginx sits in front of Apache and owns 80 and 443; Apache serves
 		#  every render on 8443, unchanged but for its port number.  The
