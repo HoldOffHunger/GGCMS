@@ -8,24 +8,24 @@
 		
 		// -------------------------------------------------------------
 
-	classreq('modules/spacing.php');
+	ggreq('modules/spacing.php');
 
-	classreq('modules/html/form.php');
+	ggreq('modules/html/form.php');
 	$form = new module_form;
 	
-	classreq('modules/html/divider.php');
+	ggreq('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	classreq('modules/html/table.php');
+	ggreq('modules/html/table.php');
 	$table = new module_table;
 	
-	classreq('modules/html/list/generic.php');
+	ggreq('modules/html/list/generic.php');
 	$generic_list = new module_genericlist;
 	
-	classreq('modules/html/header.php');
+	ggreq('modules/html/header.php');
 	$header = new module_header;
 	
-	classreq('modules/html/navigation.php');
+	ggreq('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,
@@ -34,7 +34,7 @@
 	];
 	$navigation = new module_navigation($navigation_args);
 	
-	classreq('modules/html/entry-sort.php');
+	ggreq('modules/html/entry-sort.php');
 	$entrysort = new module_entrysort(['that'=>$this]);
 	
 			// Mouseover Values
@@ -102,8 +102,8 @@
 	$sub_text = 'Abstract Collection, Meeting Scheduling, Session Planning, Peer Review, Continuing Education, Registration.';
 	$sub_title = 'Last Updated: ' . $full_date . '.';
 	
-	classreq('modules/html/entry-header.php');
-	classreq('modules/html/entry-index-header.php');
+	ggreq('modules/html/entry-header.php');
+	ggreq('modules/html/entry-index-header.php');
 	$entryheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>$this->header_title_text,
@@ -118,7 +118,7 @@
 		// -------------------------------------------------------------
 	
 	if($this->authentication_object->user_session['UserAdmin.id']) {
-		classreq('modules/html/entry-controls.php');
+		ggreq('modules/html/entry-controls.php');
 		$entry_controls = new module_entrycontrols;
 		$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
 	}
@@ -160,7 +160,7 @@
 		
 		// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-newest.php');
+	ggreq('modules/html/entry-newest.php');
 	$entry_newest = new module_entrynewest(['that'=>$this]);
 	
 	$entry_newest->Display();
@@ -760,7 +760,7 @@
 		
 		// -------------------------------------------------------------
 	
-	classreq('modules/html/socialmediasharelinks.php');
+	ggreq('modules/html/socialmediasharelinks.php');
 	$social_media_share_links_args = [
 		'globals'=>$this->handler->globals,
 		'textonly'=>$this->mobile_friendly,

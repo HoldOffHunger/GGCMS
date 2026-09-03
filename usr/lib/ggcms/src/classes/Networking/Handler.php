@@ -44,7 +44,7 @@
 		
 		public function Construct_UpgradeDBAccess() {
 			if($this->authentication->CheckAuthenticationForCurrentObject_IsAdmin()) {
-				classreq('classes/Database/DBAccessUpgraded.php');
+				ggreq('classes/Database/DBAccessUpgraded.php');
 				
 				$this->db_access = new DBAccessUpgraded([
 					'handler'=>$this,
@@ -76,7 +76,7 @@
 			}
 			
 			if($valid_local_host) {
-				classreq('classes/Networking/Handler/LocalHostHandler.php');
+				ggreq('classes/Networking/Handler/LocalHostHandler.php');
 				$this->local_host_handler = new LocalHostHandler($this->getArgs());
 				$this->local_host_handler->HandleLocalRequest();
 			}
@@ -171,7 +171,7 @@
 				$globals = new defaultglobals([]);
 			}
 			
-			classreq('classes/System/AbstractGlobals.php');
+			ggreq('classes/System/AbstractGlobals.php');
 			$this->abstractglobals = new AbstractGlobals([
 				'handler'=>$this,
 			]);
@@ -807,11 +807,11 @@
 				return TRUE;
 			}
 			
-			classreq('classes/Networking/Error404.php');
+			ggreq('classes/Networking/Error404.php');
 			if($this->isScriptImage()) {
 				$this->HandleRequest_Error_404();	# BT: FIXME, special error 404 for images?
 			} else {
-				classreq('classes/Networking/Error404Redirect.php');
+				ggreq('classes/Networking/Error404Redirect.php');
 				$this->error404redirect = new Error404Redirect([
 					'handler'=>$this,
 				]);
@@ -843,7 +843,7 @@
 				$action = $_GET['admin_action'];
 				
 				if($action) {
-				classreq('classes/Admin/AdminTools.php');
+				ggreq('classes/Admin/AdminTools.php');
 				$admintools = new AdminTools();
 				print('<PRE>');
 				$admintools->$action();
@@ -1889,7 +1889,7 @@
 				} else {
 					http_response_code(200);	// "OK" (success)
 					
-					classreq('classes/API/GoogleAnalytics.php');
+					ggreq('classes/API/GoogleAnalytics.php');
 					
 					$google_analytics = new GoogleAnalytics($this->getArgs());
 					
@@ -1947,7 +1947,7 @@
 		public function RecordUserStatistics() {
 			if($this->globals->EnableStats() || $this->globals->EnableStats_LogExcessiveMemoryUse()) {
 				if($this->globals->EnableStats_Log404Pages() || !$this->error_404) {
-					classreq('classes/Networking/UserTracking.php');
+					ggreq('classes/Networking/UserTracking.php');
 					
 					$this->user_tracking = new UserTracking($this->getArgs());
 					
@@ -1964,7 +1964,7 @@
 			$shared_location = GGCMS_DIR . 'clonefrom.com' . $_SERVER['SCRIPT_URL'];
 			
 			if(!is_file($client_location) && is_file($shared_location)) {
-				classreq('classes/Networking/MIMEType.php');
+				ggreq('classes/Networking/MIMEType.php');
 				
 				$mimetype = new MIMEType($this->getArgs());
 				$mimetypes = $mimetype->GetMIMETypeCodes();
@@ -2024,9 +2024,9 @@
 		}
 		
 		public function HandleRequest_Content_Format_GetFormatObject() {
-			classreq('classes/Format/Base/AbstractBaseFormat.php');
+			ggreq('classes/Format/Base/AbstractBaseFormat.php');
 
-			return classreq('classes/Format/' . $this->script_format . '.php');
+			return ggreq('classes/Format/' . $this->script_format . '.php');
 		}
 		
 		public function HandleRequest_Content_Format_InstantiateFormatObject() {

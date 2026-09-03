@@ -1,6 +1,6 @@
 <?php
 
-	classreq('classes/Script/PHP.php');
-	classreq('classes/Script/PHPCommand.php');
+	ggreq('classes/Script/PHP.php');
+	ggreq('classes/Script/PHPCommand.php');
 
 ?>

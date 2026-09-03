@@ -1,6 +1,6 @@
 <?php
 
-	classreq('scripts/view.php');
+	ggreq('scripts/view.php');
 
 	class image extends view {
 		use DBFunctions;

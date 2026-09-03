@@ -4,29 +4,29 @@
 		
 		// -------------------------------------------------------------
 
-	classreq('modules/spacing.php');
+	ggreq('modules/spacing.php');
 	
-	classreq('modules/html/text.php');
+	ggreq('modules/html/text.php');
 	$text = new module_text;
 	
-	classreq('modules/html/form.php');
+	ggreq('modules/html/form.php');
 	$form = new module_form;
 	
-	classreq('modules/html/divider.php');
+	ggreq('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	classreq('modules/html/table.php');
+	ggreq('modules/html/table.php');
 	$table = new module_table;
 	
-	classreq('modules/html/list/generic.php');
+	ggreq('modules/html/list/generic.php');
 	$generic_list = new module_genericlist;
 	
 			// Display Header
 		
 		// -------------------------------------------------------------
 		
-	classreq('modules/html/entry-header.php');
-	classreq('modules/html/entry-index-header.php');
+	ggreq('modules/html/entry-header.php');
+	ggreq('modules/html/entry-index-header.php');
 	$entryheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>$this->header_title_text,
@@ -64,7 +64,7 @@
 		// -------------------------------------------------------------
 	
 	if($this->authentication_object->user_session['UserAdmin.id']) {
-		classreq('modules/html/entry-controls.php');
+		ggreq('modules/html/entry-controls.php');
 		$entry_controls = new module_entrycontrols;
 		$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
 	}

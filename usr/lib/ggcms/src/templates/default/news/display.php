@@ -4,18 +4,18 @@
 		
 		// -------------------------------------------------------------
 
-	classreq('modules/spacing.php');
+	ggreq('modules/spacing.php');
 
-	classreq('modules/html/entry-comments.php');
+	ggreq('modules/html/entry-comments.php');
 	$entry_comments = new module_entrycomments(['that'=>$this]);
 
-	classreq('modules/html/entry-image.php');
+	ggreq('modules/html/entry-image.php');
 	$entry_image = new module_entryimage(['that'=>$this]);
 	
-	classreq('modules/html/entry-quote.php');
+	ggreq('modules/html/entry-quote.php');
 	$entry_quotes = new module_entryquotes(['that'=>$this]);
 	
-	classreq('modules/html/entry-share.php');
+	ggreq('modules/html/entry-share.php');
 	$entry_share = new module_entryshare(['that'=>$this]);
 		
 				// Child Record Counts
@@ -40,26 +40,26 @@
 			
 			// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-sort.php');
+	ggreq('modules/html/entry-sort.php');
 	$entrysort = new module_entrysort(['that'=>$this]);
 		
 				// Timeframe
 			
 			// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-date.php');
+	ggreq('modules/html/entry-date.php');
 	$entrydate = new module_entrydate(['that'=>$this]);
 	$time_data = $entrydate->getSimpleData();
 	$time_frame = $time_data['text'];
 	
-	classreq('modules/html/entry-list.php');
+	ggreq('modules/html/entry-list.php');
 	$entrylist = new module_entrylist(['that'=>$this, 'entrydate'=>$entrydate]);
 	
 				// Header_REAL
 			
 			// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-header.php');
+	ggreq('modules/html/entry-header.php');
 	$entryheader = new module_entryheader(['that'=>$this, 'time_frame'=>$time_frame]);
 	
 				// Simple Formats
@@ -687,25 +687,25 @@
 			
 			// -------------------------------------------------------------
 	
-		classreq('modules/html/text.php');
+		ggreq('modules/html/text.php');
 		$text = new module_text;
 		
-		classreq('modules/html/form.php');
+		ggreq('modules/html/form.php');
 		$form = new module_form;
 		
-		classreq('modules/html/divider.php');
+		ggreq('modules/html/divider.php');
 		$divider = new module_divider;
 		
-		classreq('modules/html/table.php');
+		ggreq('modules/html/table.php');
 		$table = new module_table;
 		
-		classreq('modules/html/list/generic.php');
+		ggreq('modules/html/list/generic.php');
 		$generic_list = new module_genericlist;
 		
-		classreq('modules/html/header.php');
+		ggreq('modules/html/header.php');
 		$header = new module_header;
 		
-		classreq('modules/html/navigation.php');
+		ggreq('modules/html/navigation.php');
 		$navigation_args = [
 			'globals'=>$this->handler->globals,
 			'languageobject'=>$this->language_object,
@@ -725,7 +725,7 @@
 			// -------------------------------------------------------------
 		
 		if($this->authentication_object->user_session['UserAdmin.id']) {
-			classreq('modules/html/entry-controls.php');
+			ggreq('modules/html/entry-controls.php');
 			$entry_controls = new module_entrycontrols;
 			$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
 		}
@@ -740,7 +740,7 @@
 			
 			// -------------------------------------------------------------
 			
-		classreq('modules/html/breadcrumbs.php');
+		ggreq('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs([
 			'that'=>$this,
 			'subpage'=>'News',
@@ -751,7 +751,7 @@
 			
 			// -------------------------------------------------------------
 			
-		classreq('modules/html/auth.php');
+		ggreq('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this]);
 		$auth->Display();
 		
@@ -759,7 +759,7 @@
 			
 			// -------------------------------------------------------------
 			
-	#	classreq('modules/html/entry-likes.php');
+	#	ggreq('modules/html/entry-likes.php');
 	#	$entry_likes = new module_entrylikes(['that'=>$this]);
 	#	$entry_likes->Display();
 		
@@ -809,7 +809,7 @@
 			
 			// -------------------------------------------------------------
 		
-		classreq('modules/html/entry-association.php');
+		ggreq('modules/html/entry-association.php');
 		$entry_association = new module_entryassociation(['that'=>$this, 'header'=>'']);
 		$entry_association->Display([]);
 		
@@ -817,7 +817,7 @@
 			
 			// -------------------------------------------------------------
 		
-		classreq('modules/html/entry-description.php');
+		ggreq('modules/html/entry-description.php');
 		$entry_description = new module_entrydescription(['that'=>$this, 'header'=>'']);
 		$entry_description->Display();
 		
@@ -879,7 +879,7 @@
 				// Display Children
 			
 			// -------------------------------------------------------------
-		classreq('modules/html/entry-children.php');
+		ggreq('modules/html/entry-children.php');
 		$entry_children = new module_entrychildren(['that'=>$this, 'entrysort'=>$entrysort, 'header'=>'']);
 		$entry_children->Display_Entries([
 			'entries'=>$this->newest_entries,
@@ -891,7 +891,7 @@
 			
 			// -------------------------------------------------------------
 			
-	#	classreq('modules/html/entry-debug.php');
+	#	ggreq('modules/html/entry-debug.php');
 	#	$entry_debug = new module_entrydebug(['that'=>$this]);
 	#	$entry_debug->Debug([]);
 		

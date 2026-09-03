@@ -1,10 +1,10 @@
 <?php
-	classreq('traits/scripts/DBFunctions.php');
-	classreq('traits/scripts/SimpleErrors.php');
-	classreq('traits/scripts/SimpleForms.php');
-	classreq('traits/scripts/SimpleLookupLists.php');
-	classreq('traits/scripts/SimpleORM.php');
-	classreq('traits/scripts/SimpleSocialMedia.php');
+	ggreq('traits/scripts/DBFunctions.php');
+	ggreq('traits/scripts/SimpleErrors.php');
+	ggreq('traits/scripts/SimpleForms.php');
+	ggreq('traits/scripts/SimpleLookupLists.php');
+	ggreq('traits/scripts/SimpleORM.php');
+	ggreq('traits/scripts/SimpleSocialMedia.php');
 
 	class convertspelling extends basicscript {
 		use DBFunctions;
@@ -39,7 +39,7 @@
 			if($text && strlen($text) < 100000) {
 				$text = trim($text);
 								
-				classreq('classes/Language/AmericanBritishSpellings.php');
+				ggreq('classes/Language/AmericanBritishSpellings.php');
 				$american_british_spellings = new AmericanBritishSpellings([]);
 				
 				if($direction == 'british-to-american') {

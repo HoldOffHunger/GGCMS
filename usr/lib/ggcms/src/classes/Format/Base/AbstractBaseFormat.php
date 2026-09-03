@@ -122,7 +122,7 @@
 			// -----------------------------------------------
 		
 		public function Construct_Requires() {
-			classreq('scripts/Format/base_format.php');
+			ggreq('scripts/Format/base_format.php');
 			ggreq('scripts/Format/' . $this->script_format . '/basicscript.php');
 			
 			$this->Construct_Requires_Extras();

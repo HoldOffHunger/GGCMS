@@ -22,13 +22,13 @@
 		
 		// -------------------------------------------------------------
 
-	classreq('modules/spacing.php');
+	ggreq('modules/spacing.php');
 	
 				// Timeframe
 			
 			// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-date.php');
+	ggreq('modules/html/entry-date.php');
 	$entrydate = new module_entrydate(['that'=>$this]);
 	$time_data = $entrydate->getSimpleData();
 	$time_frame = $time_data['text'];
@@ -37,13 +37,13 @@
 			
 			// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-header.php');
+	ggreq('modules/html/entry-header.php');
 	$entryheader = new module_entryheader(['that'=>$this, 'time_frame'=>$time_frame]);
 	
-	classreq('modules/html/header.php');
+	ggreq('modules/html/header.php');
 	$header = new module_header;
 	
-	classreq('modules/html/navigation.php');
+	ggreq('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,
@@ -51,13 +51,13 @@
 	];
 	$navigation = new module_navigation($navigation_args);
 	
-	classreq('modules/html/entry-sort.php');
+	ggreq('modules/html/entry-sort.php');
 	$entrysort = new module_entrysort(['that'=>$this]);
 	
-	classreq('modules/html/entry-list.php');
+	ggreq('modules/html/entry-list.php');
 	$entrylist = new module_entrylist(['that'=>$this]);
 	
-	classreq('modules/html/entry-list-navigation.php');
+	ggreq('modules/html/entry-list-navigation.php');
 	$entrylistnavigation = new module_entrylistnavigation(['that'=>$this]);
 
 	$breadcrumbs_title = 'Browsing';	
@@ -85,7 +85,7 @@
 		// -------------------------------------------------------------
 	
 	if(!$this->Param('headless') && $this->authentication_object->user_session['UserAdmin.id']) {
-		classreq('modules/html/entry-controls.php');
+		ggreq('modules/html/entry-controls.php');
 		$entry_controls = new module_entrycontrols;
 		$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
 	}
@@ -100,7 +100,7 @@
 			// Breadcrumbs Info
 		
 		// -------------------------------------------------------------
-		classreq('modules/html/breadcrumbs.php');
+		ggreq('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs(['that'=>$this, 'title'=>$breadcrumbs_title]);
 		$breadcrumbs->Display();
 		
@@ -108,7 +108,7 @@
 			
 			// -------------------------------------------------------------
 			
-		classreq('modules/html/auth.php');
+		ggreq('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this]);
 		$auth->Display();
 	
@@ -227,7 +227,7 @@
 		
 		// -------------------------------------------------------------
 	
-	classreq('modules/html/debug.php');
+	ggreq('modules/html/debug.php');
 	$debug = new module_debug(['that'=>$this]);
 	#$debug->DisplayBasicRecords([]);
 	

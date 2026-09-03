@@ -1,7 +1,7 @@
 <?php
 
-	classreq('scripts/view.php');
-	classreq('traits/scripts/SimpleGeography.php');
+	ggreq('scripts/view.php');
+	ggreq('traits/scripts/SimpleGeography.php');
 	
 	class spellchecker extends view {
 		use SimpleGeography;	
@@ -31,7 +31,7 @@
 			$this->SetGeographyBasics();
 			
 			$this->FormatErrors();
-			classreq('classes/Language/EnglishMisspellings.php');
+			ggreq('classes/Language/EnglishMisspellings.php');
 			$this->misspellings = new EnglishMisspellings([]);
 			$this->misspelled_words = $this->misspellings->GetWords_Misspelled();
 			

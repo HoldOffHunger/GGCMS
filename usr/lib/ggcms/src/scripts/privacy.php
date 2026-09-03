@@ -1,11 +1,11 @@
 <?php
 
-	classreq('traits/scripts/DBFunctions.php');
-	classreq('traits/scripts/PrivacyPolicy.php');
-	classreq('traits/scripts/SimpleErrors.php');
-	classreq('traits/scripts/SimpleForms.php');
-	classreq('traits/scripts/SimpleLookupLists.php');
-	classreq('traits/scripts/SimpleORM.php');
+	ggreq('traits/scripts/DBFunctions.php');
+	ggreq('traits/scripts/PrivacyPolicy.php');
+	ggreq('traits/scripts/SimpleErrors.php');
+	ggreq('traits/scripts/SimpleForms.php');
+	ggreq('traits/scripts/SimpleLookupLists.php');
+	ggreq('traits/scripts/SimpleORM.php');
 
 	class privacy extends basicscript {
 						// Traits

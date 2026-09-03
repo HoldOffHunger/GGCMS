@@ -1,15 +1,15 @@
 <?php
 	
-	classreq('traits/scripts/BaseConversion.php');
-	classreq('traits/scripts/DBAdminFunctions.php');
-	classreq('traits/scripts/DBFunctions.php');
-	classreq('traits/scripts/SimpleImages.php');
-	classreq('traits/scripts/SimpleAPI.php');
-	classreq('traits/scripts/SimpleErrors.php');
-	classreq('traits/scripts/SimpleLookupLists.php');
-	classreq('traits/scripts/SimpleForms.php');
-	classreq('traits/scripts/SimpleORM.php');
-	classreq('traits/scripts/SimpleORMSiteMap.php');
+	ggreq('traits/scripts/BaseConversion.php');
+	ggreq('traits/scripts/DBAdminFunctions.php');
+	ggreq('traits/scripts/DBFunctions.php');
+	ggreq('traits/scripts/SimpleImages.php');
+	ggreq('traits/scripts/SimpleAPI.php');
+	ggreq('traits/scripts/SimpleErrors.php');
+	ggreq('traits/scripts/SimpleLookupLists.php');
+	ggreq('traits/scripts/SimpleForms.php');
+	ggreq('traits/scripts/SimpleORM.php');
+	ggreq('traits/scripts/SimpleORMSiteMap.php');
 
 	class dbstatus extends basicscript {
 					// Class Information
@@ -1239,7 +1239,7 @@
 				ini_set('memory_limit','400M');
 				set_time_limit(120);
 				
-				classreq('classes/Language/AmericanBritishSpellings.php');
+				ggreq('classes/Language/AmericanBritishSpellings.php');
 				$american_british_spellings = new AmericanBritishSpellings();
 				
 				$mysql_table_args = [
@@ -2189,12 +2189,12 @@
 			$this->correction_start_id = $correction_start_id;
 			$this->correction_end_id = $correction_end_id;
 			
-			classreq('classes/Language/EnglishMisspellings.php');
+			ggreq('classes/Language/EnglishMisspellings.php');
 			$this->misspellings = new EnglishMisspellings([]);
 			$misspellings = $this->misspellings->GetWords_Misspelled();
 			$this->misspellingscount = count($misspellings);
 			
-			classreq('classes/Language/IntensiveEnglishMisspellings.php');
+			ggreq('classes/Language/IntensiveEnglishMisspellings.php');
 			$this->intensivemisspellings = new IntensiveEnglishMisspellings([]);
 			$intensive_misspellings = $this->intensivemisspellings->GetWords_Misspelled();
 			$this->intensivemisspellingscount = count($intensive_misspellings);
@@ -2481,7 +2481,7 @@
 		}
 		
 		public function SetORMSearch() {
-			classreq('classes/Database/ORMSearch.php');
+			ggreq('classes/Database/ORMSearch.php');
 			
 			return $this->orm_search = new ORMSearch(['dbaccessobject'=>$this->db_access_object]);
 		}

@@ -12,7 +12,7 @@
 			$this->share_with_text = $this->globals->functionality['sharing']['text']['Share With'][$this->language_object->getLanguageCode()];
 			
 			if(!$this->social_media_object) {
-				classreq('classes/API/SocialMedia.php');
+				ggreq('classes/API/SocialMedia.php');
 				
 				$this->social_media_object = new SocialMedia();
 			}

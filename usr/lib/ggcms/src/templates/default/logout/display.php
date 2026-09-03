@@ -4,17 +4,17 @@
 		
 		// -------------------------------------------------------------
 
-	classreq('modules/spacing.php');
+	ggreq('modules/spacing.php');
 	
-	classreq('modules/html/divider.php');
+	ggreq('modules/html/divider.php');
 	$divider = new module_divider;
 	
 			// Display Header
 		
 		// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-header.php');
-	classreq('modules/html/entry-index-header.php');
+	ggreq('modules/html/entry-header.php');
+	ggreq('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>'Logging Out : ' . $this->logout_status,
@@ -33,7 +33,7 @@
 			
 			// -------------------------------------------------------------
 			
-		classreq('modules/html/breadcrumbs.php');
+		ggreq('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs([
 			'that'=>$this,
 			'subpage'=>'Logout',
@@ -44,7 +44,7 @@
 			
 			// -------------------------------------------------------------
 			
-		classreq('modules/html/auth.php');
+		ggreq('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this, 'noredirect'=>TRUE]);
 		$auth->Display();
 		
@@ -102,7 +102,7 @@
 		print('<input type="hidden" id="redirect" name="redirect" value="' . $redirect . '">');
 	}
 	
-	classreq('modules/html/navigation.php');
+	ggreq('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,

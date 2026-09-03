@@ -1,10 +1,10 @@
 <?php
-	classreq('traits/scripts/DBFunctions.php');
-	classreq('traits/scripts/SimpleErrors.php');
-	classreq('traits/scripts/SimpleForms.php');
-	classreq('traits/scripts/SimpleLookupLists.php');
-	classreq('traits/scripts/SimpleORM.php');
-	classreq('traits/scripts/SimpleSocialMedia.php');
+	ggreq('traits/scripts/DBFunctions.php');
+	ggreq('traits/scripts/SimpleErrors.php');
+	ggreq('traits/scripts/SimpleForms.php');
+	ggreq('traits/scripts/SimpleLookupLists.php');
+	ggreq('traits/scripts/SimpleORM.php');
+	ggreq('traits/scripts/SimpleSocialMedia.php');
 
 	class datautilities extends basicscript {
 		use DBFunctions;
@@ -37,7 +37,7 @@
 			$text = $this->Param('text');
 			
 			if($text && strlen($text) < 100000) {
-				classreq('classes/Data/DataStructures.php');
+				ggreq('classes/Data/DataStructures.php');
 				$datastructures = new DataStructures([]);
 				
 				$duplicates = $datastructures->findDuplicateArrayKeys(['text'=>$text]);

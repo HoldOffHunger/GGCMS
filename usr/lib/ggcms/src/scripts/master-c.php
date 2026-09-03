@@ -1,9 +1,9 @@
 <?php
 
-	classreq('traits/scripts/DBFunctions.php');
-	classreq('traits/scripts/SimpleORM.php');
-	classreq('traits/scripts/SimpleForms.php');
-	classreq('traits/scripts/SimpleLookupLists.php');
+	ggreq('traits/scripts/DBFunctions.php');
+	ggreq('traits/scripts/SimpleORM.php');
+	ggreq('traits/scripts/SimpleForms.php');
+	ggreq('traits/scripts/SimpleLookupLists.php');
 
 	class masterc extends basicscript {
 		use DBFunctions;

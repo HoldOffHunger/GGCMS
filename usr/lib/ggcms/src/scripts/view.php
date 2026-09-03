@@ -1,11 +1,11 @@
 <?php
 
-	classreq('traits/scripts/DBFunctions.php');
-	classreq('traits/scripts/SimpleErrors.php');
-	classreq('traits/scripts/SimpleForms.php');
-	classreq('traits/scripts/SimpleLookupLists.php');
-	classreq('traits/scripts/SimpleORM.php');
-	classreq('traits/scripts/SimpleSocialMedia.php');
+	ggreq('traits/scripts/DBFunctions.php');
+	ggreq('traits/scripts/SimpleErrors.php');
+	ggreq('traits/scripts/SimpleForms.php');
+	ggreq('traits/scripts/SimpleLookupLists.php');
+	ggreq('traits/scripts/SimpleORM.php');
+	ggreq('traits/scripts/SimpleSocialMedia.php');
 	
 	class view extends basicscript {
 						// Traits
@@ -1047,7 +1047,7 @@
 				return FALSE;	# 404
 			}
 			
-			classreq('classes/Database/ORMDictionary.php');
+			ggreq('classes/Database/ORMDictionary.php');
 			$this->dictionary = new ORMDictionary(['dbaccess'=>$this->handler->db_access]);
 			$entry_dictionary = $this->dictionary->GetDictionary(['entry'=>$this->entry]);
 			$entry_dictionary_count = count($entry_dictionary);
@@ -1133,13 +1133,13 @@
 			$this->SetChildRecords(['alltext'=>TRUE]);
 			$this->SetAssociationRecords();
 			
-			classreq('classes/Language/Grammar.php');
+			ggreq('classes/Language/Grammar.php');
 			$this->grammar = new Grammar();
 			
-			classreq('classes/Language/TextCleanup.php');
+			ggreq('classes/Language/TextCleanup.php');
 			$this->textcleanup = new TextCleanup(['grammar'=>$this->grammar]);
 			
-			classreq('classes/Language/Definition.php');
+			ggreq('classes/Language/Definition.php');
 			$this->definition = new Definition(['grammar'=>$this->grammar, 'textcleanup'=>$this->textcleanup]);
 			
 			$text = '';

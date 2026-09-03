@@ -4,21 +4,21 @@
 		
 		// -------------------------------------------------------------
 
-	classreq('modules/spacing.php');
+	ggreq('modules/spacing.php');
 	
-	classreq('modules/html/text.php');
+	ggreq('modules/html/text.php');
 	$text = new module_text;
 	
-	classreq('modules/html/form.php');
+	ggreq('modules/html/form.php');
 	$form = new module_form;
 	
-	classreq('modules/html/divider.php');
+	ggreq('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	classreq('modules/html/table.php');
+	ggreq('modules/html/table.php');
 	$table = new module_table;
 	
-	classreq('modules/html/list/generic.php');
+	ggreq('modules/html/list/generic.php');
 	$generic_list = new module_genericlist;
 	
 			// Basic Divider Arguments
@@ -36,8 +36,8 @@
 		
 		// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-header.php');
-	classreq('modules/html/entry-index-header.php');
+	ggreq('modules/html/entry-header.php');
+	ggreq('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>$this->header_title_text . ' &mdash; Chapter-Ification',
@@ -50,7 +50,7 @@
 		
 		// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-controls.php');
+	ggreq('modules/html/entry-controls.php');
 	$entry_controls = new module_entrycontrols;
 	$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
 
@@ -63,7 +63,7 @@
 			// Breadcrumbs Info
 		
 		// -------------------------------------------------------------
-	classreq('modules/html/breadcrumbs.php');
+	ggreq('modules/html/breadcrumbs.php');
 	$breadcrumbs = new module_breadcrumbs(['that'=>$this, 'title'=>'Chapterification']);
 	$breadcrumbs->Display();
 	
@@ -71,7 +71,7 @@
 		
 		// -------------------------------------------------------------
 		
-	classreq('modules/html/auth.php');
+	ggreq('modules/html/auth.php');
 	$auth = new module_auth(['that'=>$this]);
 	$auth->Display();
 

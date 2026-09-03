@@ -4,31 +4,31 @@
 		
 		// -------------------------------------------------------------
 
-	classreq('modules/spacing.php');
+	ggreq('modules/spacing.php');
 	
-	classreq('modules/html/text.php');
+	ggreq('modules/html/text.php');
 	$text = new module_text;
 	
-	classreq('modules/html/form.php');
+	ggreq('modules/html/form.php');
 	$form = new module_form;
 	
-	classreq('modules/html/divider.php');
+	ggreq('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	classreq('modules/html/table.php');
+	ggreq('modules/html/table.php');
 	$table = new module_table;
 	
-	classreq('modules/html/list/generic.php');
+	ggreq('modules/html/list/generic.php');
 	$generic_list = new module_genericlist;
 	
-	classreq('modules/html/languages.php');
+	ggreq('modules/html/languages.php');
 	$languages_args = [
 		'languageobject'=>$this->language_object,
 		'domainobject'=>$this->domain_object,
 	];
 	$languages = new module_languages($languages_args);
 	
-	classreq('modules/html/navigation.php');
+	ggreq('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,
@@ -54,8 +54,8 @@
 			
 			// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-header.php');
-	classreq('modules/html/entry-index-header.php');
+	ggreq('modules/html/entry-header.php');
+	ggreq('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>$this->handler->abstractglobals->language_script->Contact() . ' ' . $this->master_record['Title'],

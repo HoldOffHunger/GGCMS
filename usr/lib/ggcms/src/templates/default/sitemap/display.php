@@ -4,7 +4,7 @@
 		
 		// -------------------------------------------------------------
 	
-	classreq('modules/spacing.php');
+	ggreq('modules/spacing.php');
 	
 	ggreq('modules/' . $this->script_format_lower . '/text.php');
 	$text = new module_text;
@@ -59,8 +59,8 @@
 		
 		// -------------------------------------------------------------
 	
-	classreq('modules/html/entry-header.php');
-	classreq('modules/html/entry-index-header.php');
+	ggreq('modules/html/entry-header.php');
+	ggreq('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>'SiteMap of ' . $this->master_record['Title'],

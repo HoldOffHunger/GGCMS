@@ -1,8 +1,8 @@
 <?php
 
-	classreq('modules/spacing.php');
+	ggreq('modules/spacing.php');
 	
-	classreq('modules/html/entry-sort.php');
+	ggreq('modules/html/entry-sort.php');
 	$entrysort = new module_entrysort(['that'=>$this]);
 	
 		// Sort Comments for Display
@@ -198,25 +198,25 @@
 		
 		// -------------------------------------------------------------
 	
-	classreq('modules/html/text.php');
+	ggreq('modules/html/text.php');
 	$text = new module_text;
 	
-	classreq('modules/html/form.php');
+	ggreq('modules/html/form.php');
 	$form = new module_form;
 	
-	classreq('modules/html/divider.php');
+	ggreq('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	classreq('modules/html/table.php');
+	ggreq('modules/html/table.php');
 	$table = new module_table;
 	
-	classreq('modules/html/list/generic.php');
+	ggreq('modules/html/list/generic.php');
 	$generic_list = new module_genericlist;
 	
-	classreq('modules/html/header.php');
+	ggreq('modules/html/header.php');
 	$header = new module_header;
 	
-	classreq('modules/html/navigation.php');
+	ggreq('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,
@@ -312,7 +312,7 @@
 		$breadcrumbs_title .= ' &gt;&gt; ';
 		$breadcrumbs_title .= 'Export User Data';
 		
-		classreq('modules/html/breadcrumbs.php');
+		ggreq('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs(['that'=>$this, 'title'=>$breadcrumbs_title]);
 		$breadcrumbs->Display();
 		
@@ -320,7 +320,7 @@
 			
 			// -------------------------------------------------------------
 			
-		classreq('modules/html/auth.php');
+		ggreq('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this]);
 		$auth->Display();
 		
@@ -349,7 +349,7 @@
 			
 			// -------------------------------------------------------------
 			
-		classreq('modules/html/alternateformats.php');
+		ggreq('modules/html/alternateformats.php');
 		$auth = new module_alternateformats(['that'=>$this]);
 		$auth->Display();
 	

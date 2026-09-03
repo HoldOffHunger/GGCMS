@@ -17,28 +17,6 @@
 		return require(GGCMS_DIR . $filename);
 	}
 
-	/*
-		A file that declares a class may only be required once, and since
-		3 September 2026 a request that repairs its own URL runs the handler
-		chain a second time.  The second pass re-entered these and died with
-		"Cannot declare class AbstractBaseFormat, because the name is already
-		in use".
-
-		Named for what it loads, like the rest of the family: ggreq for the
-		engine, depreq for dependencies, datareq for data, confreq for
-		configuration.  A class file is a kind of thing, and the kind of thing
-		it is decides the rule -- declared once, therefore required once.
-
-		For such a file require and require_once differ only in that the
-		second does not fatal, since these files declare and print nothing.
-		ggreq itself is left alone: templates and modules are required
-		repeatedly on purpose.
-	*/
-
-	function classreq($filename) {
-		return require_once(GGCMS_DIR . $filename);
-	}
-
 	function depreq($filename) {
 		return require(GGCMS_DEP_DIR . $filename);
 	}

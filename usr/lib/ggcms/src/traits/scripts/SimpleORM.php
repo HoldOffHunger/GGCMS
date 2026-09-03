@@ -1770,7 +1770,7 @@
 		}
 		
 		public function SetOrmStats() {
-			classreq('classes/Database/ORMStats.php');
+			ggreq('classes/Database/ORMStats.php');
 			
 			return $this->ormstats = new ORMStats(['dbaccessobject'=>$this->handler->db_access]);
 		}
