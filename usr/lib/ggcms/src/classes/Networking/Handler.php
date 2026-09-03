@@ -807,11 +807,11 @@
 				return TRUE;
 			}
 			
-			ggreq('classes/Networking/Error404.php');
+			ggreqclass('Error404', 'classes/Networking/Error404.php');
 			if($this->isScriptImage()) {
 				$this->HandleRequest_Error_404();	# BT: FIXME, special error 404 for images?
 			} else {
-				ggreq('classes/Networking/Error404Redirect.php');
+				ggreqclass('Error404Redirect', 'classes/Networking/Error404Redirect.php');
 				$this->error404redirect = new Error404Redirect([
 					'handler'=>$this,
 				]);
@@ -1882,7 +1882,7 @@
 				} else {
 					http_response_code(200);	// "OK" (success)
 					
-					ggreq('classes/API/GoogleAnalytics.php');
+					ggreqclass('GoogleAnalytics', 'classes/API/GoogleAnalytics.php');
 					
 					$google_analytics = new GoogleAnalytics($this->getArgs());
 					
@@ -1940,7 +1940,7 @@
 		public function RecordUserStatistics() {
 			if($this->globals->EnableStats() || $this->globals->EnableStats_LogExcessiveMemoryUse()) {
 				if($this->globals->EnableStats_Log404Pages() || !$this->error_404) {
-					ggreq('classes/Networking/UserTracking.php');
+					ggreqclass('UserTracking', 'classes/Networking/UserTracking.php');
 					
 					$this->user_tracking = new UserTracking($this->getArgs());
 					
@@ -1957,7 +1957,7 @@
 			$shared_location = GGCMS_DIR . 'clonefrom.com' . $_SERVER['SCRIPT_URL'];
 			
 			if(!is_file($client_location) && is_file($shared_location)) {
-				ggreq('classes/Networking/MIMEType.php');
+				ggreqclass('MIMEType', 'classes/Networking/MIMEType.php');
 				
 				$mimetype = new MIMEType($this->getArgs());
 				$mimetypes = $mimetype->GetMIMETypeCodes();
@@ -2017,13 +2017,9 @@
 		}
 		
 		public function HandleRequest_Content_Format_GetFormatObject() {
-			$base_class_location = GGCMS_DIR . 'classes/Format/Base/AbstractBaseFormat.php';
-			
-			require($base_class_location);
-			
-			$format_class_location = GGCMS_DIR . 'classes/Format/' . $this->script_format . '.php';
-			
-			return require($format_class_location);
+			ggreqclass('AbstractBaseFormat', 'classes/Format/Base/AbstractBaseFormat.php');
+
+			return ggreqclass($this->script_format, 'classes/Format/' . $this->script_format . '.php');
 		}
 		
 		public function HandleRequest_Content_Format_InstantiateFormatObject() {
