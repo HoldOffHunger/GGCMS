@@ -223,6 +223,281 @@
 			return TRUE;
 		}
 		
+
+			// Cache invalidation
+			// -------------------------------------------------
+
+		/*
+			The row cache had no way to forget anything until 3 September 2026.
+			WriteCache_Item writes only when the file is absent, so a record
+			cached once was served forever; the only remedy was clear_db_cache.php,
+			which removes all of it.  On the production host that is 2.4 GB and
+			593,978 files, every one of which then has to be re-derived.
+
+			The bug this leaves is quiet and wrong in the worst direction: edit an
+			entry's title and the page cache correctly flushes, the page then
+			re-renders, reads the STALE row, and writes a fresh page cache holding
+			the old title.  Caching faithfully preserves the mistake.
+
+			Deleting is the whole of the fix.  Because writes are create-only
+			there is no update path to get wrong -- unlink the file and the next
+			render refills it from the database.
+		*/
+
+		public function DeleteCache($args) {
+			$arguments = $args['arguments'];
+
+			if(!is_array($arguments) || count($arguments) === 0) {
+				return 0;
+			}
+
+			$full_directory = $this->CacheLocation($args);
+			$blanks_file_location = $full_directory . '_blanks.txt';
+			$full_directory .= '/';
+
+			$deleted = 0;
+
+			foreach($arguments as $argument) {
+				$file_name = (string) $argument;
+
+					/*
+						Mirror WriteCache_Item's guard exactly.  A key at or over
+						the length limit was never written, so looking for it is
+						a stat that can only fail.
+					*/
+
+				if((strlen($file_name) === 0) || (strlen($file_name) >= $this->FileNameMax())) {
+					continue;
+				}
+
+				$file_location = $full_directory . $file_name;
+
+				if(is_file($file_location)) {
+					@unlink($file_location);
+
+					$deleted++;
+				}
+			}
+
+			$this->DeleteCache_Blank([
+				'blanks_file'=>$blanks_file_location,
+				'arguments'=>$arguments,
+			]);
+
+			return $deleted;
+		}
+
+		/*
+			Unlinking a file is not enough on its own, and this is the half that
+			would have been missed.
+
+			_blanks.txt lists the ids KNOWN to have no rows, so that an empty
+			result is a hit rather than a permanent miss.  Consider an entry with
+			no image: its id sits in Image_blanks.txt and there is no file to
+			delete.  Give it its first image and unlinking achieves nothing --
+			the blanks file still asserts the entry has none, and the image never
+			appears at all.
+
+			So an id leaving the blank state must leave the blanks file too.
+		*/
+
+		public function DeleteCache_Blank($args) {
+			$blanks_file = $args['blanks_file'];
+			$arguments = $args['arguments'];
+
+				/*
+					No file means this cache type has blanks switched off; see
+					the CLI tool for enabling db file cache.  WriteCache_Blank
+					makes the same test for the same reason.
+				*/
+
+			if(!is_file($blanks_file)) {
+				return FALSE;
+			}
+
+			$blanks = $this->removeBomUtf8(file_get_contents($blanks_file));
+
+			if(strlen($blanks) === 0) {
+				return FALSE;
+			}
+
+			$blanks = explode("\n", $blanks);
+
+			$removing = [];
+
+			foreach($arguments as $argument) {
+				$removing[(string) $argument] = TRUE;
+			}
+
+			$kept = [];
+
+			foreach($blanks as $blank) {
+				if(!$removing[$blank]) {
+					$kept[] = $blank;
+				}
+			}
+
+			if(count($kept) === count($blanks)) {
+				return FALSE;
+			}
+
+			file_put_contents($blanks_file, implode("\n", $kept), LOCK_EX);
+
+				/*
+					ReadCache_blanks remembers its answer for the life of the
+					request, keyed by this same path.  A write that clears a
+					blank and then reads it back within one request must not be
+					handed the memoised list it just invalidated.
+				*/
+
+			if(is_array($this->blanks_already_read)) {
+				unset($this->blanks_already_read[$blanks_file]);
+			}
+
+			return TRUE;
+		}
+
+		/*
+			ggcms_RecordTree is the one type not keyed by a record id.  Its key is
+			the URL path, '%2F'-joined -- 'anarchism%2F15-post-primitivist-theses'
+			-- and the file holds the whole ancestor spine: every Entry on the
+			path with its columns, plus the Assignment that joined it.
+
+			So an entry's Title is embedded in the file of every descendant path,
+			not merely its own.  Editing 'Anarchism' on revoltlib makes 3,543 of
+			these stale.  There is no id to look up, but there does not need to be
+			one: if an entry's Code appears as a segment of a path, that entry is
+			on that path's spine.  The key alone answers the question, with no
+			query and no ancestor walk.
+		*/
+
+		public function DeleteCache_PathSegment($args) {
+			$segment = (string) $args['segment'];
+
+			if(strlen($segment) === 0) {
+				return 0;
+			}
+
+			$full_directory = $this->CacheLocation($args) . '/';
+
+			if(!is_dir($full_directory)) {
+				return 0;
+			}
+
+			$directory_handle = @opendir($full_directory);
+
+			if(!$directory_handle) {
+				return 0;
+			}
+
+			$deleted = 0;
+
+			while(($file_name = readdir($directory_handle)) !== FALSE) {
+				if(($file_name === '.') || ($file_name === '..')) {
+					continue;
+				}
+
+				if(!in_array($segment, explode('%2F', $file_name), TRUE)) {
+					continue;
+				}
+
+				$file_location = $full_directory . $file_name;
+
+				if(is_file($file_location)) {
+					@unlink($file_location);
+
+					$deleted++;
+				}
+			}
+
+			closedir($directory_handle);
+
+			return $deleted;
+		}
+
+		/*
+			Every file under a type, for the case where the affected keys cannot
+			be derived.  Used only for ggcms_RecordTree on an Entry write that
+			does not name a Code.
+		*/
+
+		public function DeleteCache_All($args) {
+			$full_directory = $this->CacheLocation($args) . '/';
+
+			if(!is_dir($full_directory)) {
+				return 0;
+			}
+
+			$directory_handle = @opendir($full_directory);
+
+			if(!$directory_handle) {
+				return 0;
+			}
+
+			$deleted = 0;
+
+			while(($file_name = readdir($directory_handle)) !== FALSE) {
+				if(($file_name === '.') || ($file_name === '..')) {
+					continue;
+				}
+
+				$file_location = $full_directory . $file_name;
+
+				if(is_file($file_location)) {
+					@unlink($file_location);
+
+					$deleted++;
+				}
+			}
+
+			closedir($directory_handle);
+
+			return $deleted;
+		}
+
+		/*
+			The subtypes a type has actually been written under, read from the
+			cache tree itself.
+
+			ggcms_EntryChildRecords is written under one subtype per child table,
+			plus 'TextBody_short' for the truncated form the index pages ask for
+			and 'Associated' for the reverse association.  Asking the ORM for
+			that list would mean reaching through $handler->orm, which is
+			assigned inside a method rather than the constructor and is null on
+			an ordinary request.  The directory listing cannot go stale and
+			cannot be null.
+		*/
+
+		public function DeleteCache_Subtypes($args) {
+			$full_directory = $this->CacheLocation($args) . '/';
+
+			if(!is_dir($full_directory)) {
+				return [];
+			}
+
+			$directory_handle = @opendir($full_directory);
+
+			if(!$directory_handle) {
+				return [];
+			}
+
+			$subtypes = [];
+
+			while(($file_name = readdir($directory_handle)) !== FALSE) {
+				if(($file_name === '.') || ($file_name === '..')) {
+					continue;
+				}
+
+				if(is_dir($full_directory . $file_name)) {
+					$subtypes[] = $file_name;
+				}
+			}
+
+			closedir($directory_handle);
+
+			return $subtypes;
+		}
+
 		public function removeBomUtf8($s){
 			if(substr($s,0,3)==chr(hexdec('EF')).chr(hexdec('BB')).chr(hexdec('BF'))){
 				return substr($s,3);

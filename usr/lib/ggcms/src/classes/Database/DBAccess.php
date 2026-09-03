@@ -755,6 +755,7 @@
 		
 		public function UpdateRecord($args) {
 			$this->MarkPageCacheDirty($args);
+			$this->MarkRowCacheDirty($args);
 
 			$record_type = $args['type'];
 			$record_update = $args['update'];
@@ -835,6 +836,7 @@
 		
 		public function CreateRecord($args) {
 			$this->MarkPageCacheDirty($args);
+			$this->MarkRowCacheDirty($args);
 
 			$record_type = $args['type'];
 			$record_definition = $args['definition'];
@@ -927,6 +929,7 @@
 
 		public function CreateCountedRecord($args) {
 			$this->MarkPageCacheDirty($args);
+			$this->MarkRowCacheDirty($args);
 
 			$record_type = $args['type'];
 			$record_definition = $args['definition'];
@@ -985,6 +988,7 @@
 		
 		public function DeleteRecords($args) {
 			$this->MarkPageCacheDirty($args);
+			$this->MarkRowCacheDirty($args);
 
 			$type = $args['type'];
 			$where = $args['where'];
@@ -1026,6 +1030,7 @@
 		
 		public function DeleteOtherRecords($args) {
 			$this->MarkPageCacheDirty($args);
+			$this->MarkRowCacheDirty($args);
 
 			$type = $args['type'];
 			$field = $args['field'];
@@ -1154,6 +1159,157 @@
 				'Comment',
 				'Suggestion',
 			];
+		}
+
+		/*
+			The row cache lives one layer below the page cache and, until now,
+			was never invalidated by anything.  Flushing a page and leaving its
+			rows cached is worse than not caching at all: the page re-renders,
+			reads the stale row, and writes a fresh page cache that looks new
+			and holds the old value.
+
+			The keys come from the four ORM read paths, which are the only
+			writers:
+
+				ggcms_MasterRecord      key '1', one per domain
+				ggcms_ChildRecordCount  key: entry id
+				ggcms_EntryChildRecords subtype: child table, key: entry id
+				ggcms_RecordTree        key: '%2F'-joined URL path
+
+			Child records carry Entryid; Association carries ChosenEntryid;
+			Assignment carries Parentid and Childid.  Whichever of those appear
+			in the write name the entries whose cached rows are now wrong.
+		*/
+
+		public function MarkRowCacheDirty($args) {
+			if(!$this->db_file_cache) {
+				return FALSE;
+			}
+
+			if(in_array($args['type'], $this->NonContentRecordTypes())) {
+				return FALSE;
+			}
+
+			if(!is_array($this->row_cache_dirty_entry_ids)) {
+				$this->row_cache_dirty_entry_ids = [];
+				$this->row_cache_dirty_codes = [];
+			}
+
+				/*
+					UpdateRecord passes 'update' and 'where', CreateRecord passes
+					'definition', DeleteRecords passes 'where'.  Read all three
+					rather than branching on the caller: over-collecting an id
+					costs one re-render, missing one serves a stale page.
+				*/
+
+			foreach(['update', 'definition', 'where'] as $args_key) {
+				$field_set = $args[$args_key];
+
+				if(!is_array($field_set)) {
+					continue;
+				}
+
+				foreach(['Entryid', 'ChosenEntryid', 'Parentid', 'Childid'] as $foreign_key) {
+					if($field_set[$foreign_key]) {
+						$this->row_cache_dirty_entry_ids[$field_set[$foreign_key]] = TRUE;
+					}
+				}
+
+				if($args['type'] === 'Entry') {
+					if($field_set['id']) {
+						$this->row_cache_dirty_entry_ids[$field_set['id']] = TRUE;
+					}
+
+						/*
+							A Code identifies the entry's segment in every
+							RecordTree key that carries it.  When the write does
+							not name one -- which is most Entry updates, since
+							they pass only the columns that changed -- there is
+							no way to know which paths are affected, so the whole
+							type goes.  That is 3,543 files of 1.3 KB on
+							revoltlib, refilled lazily one page at a time, and it
+							only happens on an author's edit.
+
+							Deliberately blunt.  Over-deleting costs a render;
+							under-deleting serves a wrong title indefinitely.
+						*/
+
+					if(strlen($field_set['Code'])) {
+						$this->row_cache_dirty_codes[$field_set['Code']] = TRUE;
+					} else {
+						$this->row_cache_dirty_all_trees = TRUE;
+					}
+				}
+			}
+
+			if($this->row_cache_dirty) {
+				return TRUE;
+			}
+
+			$this->row_cache_dirty = TRUE;
+
+			register_shutdown_function([$this, 'FlushRowCacheNow']);
+
+			return TRUE;
+		}
+
+		/*
+			Runs at shutdown, after the response has gone out, for the same
+			reason FlushPageCacheNow does: the visitor should never wait on
+			cache maintenance, and cache maintenance must never break a write.
+		*/
+
+		public function FlushRowCacheNow() {
+			try {
+				$entry_ids = array_keys((array) $this->row_cache_dirty_entry_ids);
+
+				if(count($entry_ids)) {
+					$this->db_file_cache->DeleteCache([
+						'type'=>'ggcms_ChildRecordCount',
+						'arguments'=>$entry_ids,
+					]);
+
+					$subtypes = $this->db_file_cache->DeleteCache_Subtypes([
+						'type'=>'ggcms_EntryChildRecords',
+					]);
+
+					foreach($subtypes as $subtype) {
+						$this->db_file_cache->DeleteCache([
+							'type'=>'ggcms_EntryChildRecords',
+							'subtype'=>$subtype,
+							'arguments'=>$entry_ids,
+						]);
+					}
+				}
+
+					/*
+						One file per domain, holding the site's own record.  Any
+						content write can have changed it and it costs a single
+						query to rebuild.
+					*/
+
+				$this->db_file_cache->DeleteCache([
+					'type'=>'ggcms_MasterRecord',
+					'arguments'=>['1'],
+				]);
+
+				if($this->row_cache_dirty_all_trees) {
+					$this->db_file_cache->DeleteCache_All([
+						'type'=>'ggcms_RecordTree',
+					]);
+				} else {
+					foreach(array_keys((array) $this->row_cache_dirty_codes) as $code) {
+						$this->db_file_cache->DeleteCache_PathSegment([
+							'type'=>'ggcms_RecordTree',
+							'segment'=>$code,
+						]);
+					}
+				}
+			} catch (Throwable $exception) {
+				# cache maintenance must never break a write
+			}
+
+			return TRUE;
 		}
 
 		public function MarkPageCacheDirty($args) {
