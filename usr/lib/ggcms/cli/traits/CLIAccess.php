@@ -21,41 +21,61 @@
 		
 			// Standard Functions
 			
+			/*
+				Render whatever columns the query returned.
+
+				This used to assume every result was two columns named Count
+				and URL: field 0 became the count, field 1 became the URL, and
+				any row where either was empty was dropped.
+
+				Two tools paid for that.  list500Errors selects four columns --
+				IncidentCount, Script, LastModificationDate, URL -- and Script
+				is empty on most tickets, so field 1 was blank and every row was
+				discarded.  revoltlib had seventy-six open tickets and the tool
+				printed an empty table, which reads exactly like good news.  And
+				the 500-counts table put domain names under a heading that said
+				Count, and counts under one that said URL, because the labels
+				were invented here rather than read from the result.
+
+				mysql -e emits tab-separated values with a header line.  That
+				header is the column names, so it is now used instead of thrown
+				away, and a row is skipped only when the whole line is blank.
+			*/
+
 		public function formatTable($args) {
 			$output = $args['output'];
-			
+
 			$output_lines = explode("\n", $output);
-			
+
+			if(count($output_lines) < 2) {
+				return arr2textTable([]);
+			}
+
+			$headers = explode("\t", trim(array_shift($output_lines)));
+			$header_count = count($headers);
+
 			$table_input = [];
-			
-			unset($output_lines[0]);
-			
-				/*
-					A line with no tab in it has no second column, and asking
-					for one is an undefined-index warning printed in the middle
-					of the table.  An empty result set is all such lines, so the
-					tool that finds nothing is the one that looks broken.
-				*/
 
 			foreach($output_lines as $output_line) {
-				$output_line = trim($output_line);
-				$output_line_pieces = explode("\t", $output_line);
-				$count = $output_line_pieces[0];
-				$url = array_key_exists(1, $output_line_pieces) ? $output_line_pieces[1] : '';
-
-				if(strlen($count) !== 0 && strlen($url) !== 0) {
-					$output_array = [
-						'Count'=>$count,
-						'URL'=>$url,
-					];
-					
-					$table_input[] = $output_array;
+				if(strlen(trim($output_line)) === 0) {
+					continue;
 				}
+
+				$output_line_pieces = explode("\t", rtrim($output_line, "\r"));
+
+				$output_array = [];
+
+				for($i = 0; $i < $header_count; $i++) {
+					$name = strlen($headers[$i]) ? $headers[$i] : ('column ' . ($i + 1));
+					$output_array[$name] = array_key_exists($i, $output_line_pieces) ? $output_line_pieces[$i] : ' ';
+				}
+
+				$table_input[] = $output_array;
 			}
-			
+
 			return arr2textTable($table_input);
 		}
-		
+
 		public function setHandle() {
 			$this->handle = fopen('php://stdin', 'r');
 			
