@@ -270,6 +270,55 @@ grammar being written into, and never store pre-escaped content.
 `encodeURIComponent()` directly sixteen times and `font-wars.js` once — noted
 31 August 2026, see [../Docs/Triage.md](../Docs/Triage.md).
 
+## Banned technologies
+
+Things that will not be introduced to this codebase, and why. Adding to this
+list is cheap; arguing with it later is not.
+
+### Autoloading — `spl_autoload_register` and every autoloader built on it
+
+An autoloader maps a class name to a file so that nothing has to say where a
+class lives. It cannot work here, and the reason is a design decision that is
+doing real work.
+
+Class name to file is not a function in this codebase:
+
+    module_divider  ->  modules/html/divider.php
+                        modules/txt/divider.php
+                        modules/xml/divider.php
+
+    basicscript     ->  scripts/Format/ATOM/basicscript.php
+                        scripts/Format/BRF/basicscript.php
+                        ... seventeen, one per output format
+
+Nine class names are declared in more than one file and every one of them is
+format polymorphism. `ggreq('modules/html/divider.php')` is not only resolving
+an install path, it is choosing which body of `module_divider` gets declared.
+The call site carries information the class name does not. An autoloader
+receives the string `"module_divider"` and has no way to know whether this
+render wants html, txt or xml, so it throws that information away.
+
+A format-aware loader could technically recover it from request state. That is
+worse, not better: it takes a decision you can currently read at the call site
+and hides it inside a global that varies per request, leaving nothing to grep
+for on the day it goes wrong.
+
+The `*req` family is the structure and it is about install paths — `ggreq` for
+`GGCMS_DIR`, `depreq` for dependencies, `datareq` for data, `confreq` for
+configuration, `gglog` for logs — so that no filename in this tree has to know
+where GGCMS was installed. Nothing gets added to that family that is not a
+path.
+
+Nor does `require_once` belong here as a general habit. These requires are
+written on a true invariant: the handler chain runs once per request, so each
+file is required once. If something is loading twice, that invariant has been
+broken and the breakage is the bug. Making the require tolerant hides it.
+
+Proposed and rejected 3 September 2026, after an attempt at repair-in-place
+re-ran the handler chain, redeclared classes, and was patched with
+`require_once` before the real fault was understood. The lesson is the general
+one: just because you can, it does not mean you should.
+
 ## `BT:` marks the author's own notes
 
 101 of them, usually inside a commented-out debug `print`. They are decisions as
