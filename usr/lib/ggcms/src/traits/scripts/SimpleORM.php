@@ -2259,6 +2259,23 @@
 			return '/' . $section . '/' . $args['code'] . '/view.php';
 		}
 
+		/*
+			The parent's URL, for the links that were '../view.php' and
+			'../view.php?action=browseByTag&tag=...'.  Same correction as the
+			sibling links and the same reason: relative to the browser is
+			relative to wherever it happens to be.
+		*/
+
+		public function EntryParentURL($args) {
+			$pieces = is_array($this->object_list) ? $this->object_list : [];
+
+			array_pop($pieces);
+
+			$script = strlen($args['script']) ? $args['script'] : 'view.php';
+
+			return '/' . implode('/', $pieces) . (count($pieces) ? '/' : '') . $script;
+		}
+
 		public function ValidateOrm() {
 			if(count($this->object_list)) {	# is this not the main page?
 				if(count($this->object_list) !== count($this->record_list)) {
