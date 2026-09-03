@@ -1751,6 +1751,26 @@
 		*/
 
 		public function RepairInsteadOfRedirect($args) {
+				/*
+					OFF since 21:12 on 3 September 2026, minutes after it went on.
+
+					Repairing runs the handler chain twice, and the chain loads
+					class files with a bare require as it goes, so the second
+					pass redeclared them and every junk path answered 500:
+
+					    Cannot declare class AbstractBaseFormat
+					    Cannot declare class baseformat
+
+					Six call sites in this file are converted to ggreqclass and
+					two more are nested inside the format classes themselves.
+					The depth is unknown, and guessing at it costs a live 500
+					per guess.  Remove this return when every class-declaring
+					require in the request path has been converted and a junk
+					path answers 404 rather than 500.
+				*/
+
+			return FALSE;
+
 			$target = $args['url'];
 
 			if(strlen($target) === 0) {
