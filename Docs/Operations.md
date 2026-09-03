@@ -317,3 +317,35 @@ doctl compute domain delete abstractcon.com
 
 Archive first, verify the archive opens, and only then delete. There is no
 undo on any of these steps.
+
+## A reload is not always a reload
+
+Verify a configuration change took effect. Do not assume it did because the
+command exited zero.
+
+On 3 September 2026 several `systemctl reload nginx` calls reported success,
+`nginx -t` passed, and `nginx -T` showed the new configuration -- and the
+running server went on using the old one. A rule that answered invented paths
+with a 404 sat in the config for twenty minutes doing nothing while the
+requests it was written for went on reaching the engine. It only took effect
+after `systemctl restart nginx`.
+
+`nginx -T` reads the files from disk. It tells you the configuration parses. It
+does not tell you the running process is using it.
+
+The same caution belongs on Apache: Ben's recollection is that a reload there
+has needed doing twice to take, which was not written down anywhere before
+this.
+
+**How to check.** Change something observable and observe it, rather than
+trusting the exit code:
+
+```bash
+curl -sk -o /dev/null -w "%{http_code} %{size_download}
+" https://example.com/some/path
+```
+
+A 404 of 162 bytes is nginx answering. A 404 of 334 bytes is GGCMS answering,
+which means the request reached Apache and whatever was supposed to stop it did
+not.
+
