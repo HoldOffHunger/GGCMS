@@ -46,7 +46,16 @@
 				print($description['Description']);
 				print('</p>');
 				
-				if($this->that->entry['tag'] && $this->that->counts['tag'] !== 0) {
+					/*
+						The test has to be on tag_counts, because that is what is
+						used.  entry['tag'] and counts['tag'] describe the entry's
+						tags; tag_counts is a separate property filled in by
+						SetTagCounts, and an entry can have tags on a render where
+						that has not run.  arsort(NULL) is then a TypeError that
+						takes the whole page down over a tag list.
+					*/
+
+				if($this->that->entry['tag'] && $this->that->counts['tag'] !== 0 && is_array($this->that->tag_counts)) {
 					print('<p class="horizontal-left margin-5px font-family-tahoma float-left"><b>Top Tags :</b> ');
 					$entry_tags = $this->that->tag_counts;
 					arsort($entry_tags);
