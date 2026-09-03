@@ -190,4 +190,34 @@ echo "==> reloading apache"
 apache2ctl configtest
 systemctl reload apache2
 
+		#  nginx sits in front of Apache and owns 80 and 443; Apache serves
+		#  every render on 8443, unchanged but for its port number.  The
+		#  header of ggcms.conf says why.
+		#
+		#  This runs AFTER the Apache reload deliberately.  Reloaded first,
+		#  nginx would try to bind 80 and 443 while Apache still held them.
+		#
+		#  sites-available only, as with Apache -- the -enabled symlink is
+		#  made once by hand, so a deploy can never silently enable or
+		#  disable a front end.
+
+if [ -d "$CONFIG/etc/nginx/sites-available" ]; then
+	echo "==> nginx config -> /etc/nginx/"
+
+	rsync -a "$CONFIG/etc/nginx/sites-available/" "/etc/nginx/sites-available/"
+
+		#  Never reload a front end that would not start.  nginx -t validates
+		#  without touching the running server, so a failed test here leaves
+		#  the previous configuration serving rather than nothing at all.
+
+	if nginx -t 2>/dev/null; then
+		systemctl reload nginx
+	else
+		echo "deploy: nginx config did not validate; left the running one alone" >&2
+		nginx -t
+		exit 1
+	fi
+fi
+
+
 echo "==> deployed $(git rev-parse --short HEAD)"
