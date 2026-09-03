@@ -2,6 +2,33 @@ RewriteEngine On
 RewriteBase /
 
 # ---------------------------------------------------------------------------
+#  Canonical hostname.
+#
+#  One host, one cached copy.  The cache filename carries %{HTTP_HOST}, so a
+#  site reachable as both example.com and www.example.com fills two complete
+#  trees of identical pages and halves its own hit rate paying for it.  On
+#  2026-09-03 that was 440 MB of the 1,004 MB page cache: wordweight alone held
+#  399 MB bare and 374 MB under www.
+#
+#  Bare wins because the engine already agrees.  Domain::SetDomain strips a
+#  leading 'www.' from primary_domain, and GetPrimaryDomain has its www line
+#  commented out -- everything downstream of those already thinks in bare
+#  domains.  Handler.php was the last thing still building 'https://www.', in
+#  seven redirect builders, and no longer does.
+#
+#  This must come before the cache rules.  Placed after them, a www request
+#  with a warm www cache entry would be served from it and never reach here,
+#  and the duplicate tree would go on being used forever.
+#
+#  https:// in the target is deliberate: every site on this host has a
+#  certificate covering the bare domain, so an insecure www request is
+#  corrected in one hop instead of two.
+# ---------------------------------------------------------------------------
+
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,QSA,L]
+
+# ---------------------------------------------------------------------------
 #  Static page cache.
 #
 #  A cached page is an ordinary file.  When one exists, Apache serves it and

@@ -428,9 +428,9 @@
 			$redirect_url = '';
 			
 			if($_SERVER['HTTPS'] === 'on') {
-				$redirect_url .= 'https://www.';
+				$redirect_url .= 'https://';
 			} else {
-				$redirect_url .= 'http://www.';
+				$redirect_url .= 'http://';
 			}
 			$redirect_url .= $this->domain->primary_domain_lowercased;
 			
@@ -1084,9 +1084,9 @@
 
 			if($_GET['fbclid']) {
 				if($_SERVER['HTTPS'] === 'on') {
-					$redirect_url = 'https://www.';
+					$redirect_url = 'https://';
 				} else {
-					$redirect_url = 'http://www.';
+					$redirect_url = 'http://';
 				}
 				
 				$redirect_url .= $this->domain->primary_domain_lowercased;
@@ -1104,9 +1104,9 @@
 			
 			if(preg_match('/\?$/', $_SERVER['REQUEST_URI'])) {
 				if($_SERVER['HTTPS'] === 'on') {
-					$redirect_url = 'https://www.';
+					$redirect_url = 'https://';
 				} else {
-					$redirect_url = 'http://www.';
+					$redirect_url = 'http://';
 				}
 				
 				$redirect_url .= $this->domain->primary_domain_lowercased;
@@ -1227,9 +1227,9 @@
 		public function handleScriptRedirect() {
 			if($this->script->script->redirect_script) {
 				if($_SERVER['HTTPS'] === 'on') {
-					$redirect_url .= 'https://www.';
+					$redirect_url .= 'https://';
 				} else {
-					$redirect_url .= 'http://www.';
+					$redirect_url .= 'http://';
 				}
 				
 				$redirect_url .= $this->domain->primary_domain_lowercased;
@@ -1287,9 +1287,9 @@
 			$redirect_url = '';
 			
 			if($_SERVER['HTTPS'] === 'on') {
-				$redirect_url .= 'https://www.';
+				$redirect_url .= 'https://';
 			} else {
-				$redirect_url .= 'http://www.';
+				$redirect_url .= 'http://';
 			}
 			
 			$redirect_url .= $this->domain->primary_domain_lowercased;
@@ -1365,9 +1365,9 @@
 			$redirect_url = '';
 
 			if($_SERVER['HTTPS'] === 'on') {
-				$redirect_url .= 'https://www.';
+				$redirect_url .= 'https://';
 			} else {
-				$redirect_url .= 'http://www.';
+				$redirect_url .= 'http://';
 			}
 
 			$redirect_url .= $this->domain->primary_domain_lowercased;
@@ -1477,9 +1477,9 @@
 				$redirect_url = '';
 				
 				if($_SERVER['HTTPS'] === 'on') {
-					$redirect_url .= 'https://www.';
+					$redirect_url .= 'https://';
 				} else {
-					$redirect_url .= 'http://www.';
+					$redirect_url .= 'http://';
 				}
 				
 				$redirect_url .= $this->domain->primary_domain_lowercased;
