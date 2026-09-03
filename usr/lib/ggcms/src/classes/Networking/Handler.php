@@ -893,9 +893,31 @@
 		*/
 
 		public function RepairEntryPath() {
-			if($this->repair_count >= 3) {
-				return FALSE;
+			while($this->repair_count < 3) {
+				if($this->RepairEntryPath_Once()) {
+					return TRUE;
+				}
+
+				if(strlen($this->redirect_url)) {
+					return FALSE;		# a correction we may not make ourselves
+				}
+
+				if(!$this->last_repair_changed) {
+					return FALSE;		# nothing left to correct
+				}
 			}
+
+			return FALSE;
+		}
+
+		/*
+			One correction.  '/x/view.php' becomes '/x/', which on the next
+			pass becomes '/parent/x/', which resolves.  So the caller keeps
+			asking while something is still changing, up to three times.
+		*/
+
+		public function RepairEntryPath_Once() {
+			$this->last_repair_changed = FALSE;
 
 			$this->collect_redirect = TRUE;
 			$this->redirect_url = '';
@@ -931,6 +953,8 @@
 
 				return FALSE;
 			}
+
+			$this->last_repair_changed = TRUE;
 
 			return $this->EntryPathResolves();
 		}
@@ -1875,7 +1899,7 @@
 				}
 			}
 
-			if($_SERVER['REQUEST_METHOD'] !== 'GET') {
+			if(($_SERVER['REQUEST_METHOD'] !== 'GET') && ($_SERVER['REQUEST_METHOD'] !== 'HEAD')) {
 				return FALSE;		# a 302 would discard the body
 			}
 
