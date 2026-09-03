@@ -61,6 +61,24 @@ RewriteRule ^_cache/ - [L]
 		#  leading slash, so a request for `/` presents an EMPTY string -- which
 		#  `^(.*/)$` cannot match, and the homepage silently never cached.
 
+		#  Only on the ORIGINAL request.  mod_rewrite runs this file again
+		#  after the front controller rewrites to index.php, and on that second
+		#  pass %{REQUEST_URI} names index.php -- which matched the third rule
+		#  below and served _cache/<host>/index.php.html, the cached HOME PAGE,
+		#  in place of whatever had actually been asked for.
+		#
+		#  Every uncached URL on a site answered with its home page, at 200.  The
+		#  home page's relative links then resolved against the fake path, so a
+		#  crawler at /Tattler/ was handed links to /Tattler/Pantophagous/, which
+		#  answered with the home page again.  Seventeen sites generated an
+		#  infinite URL space out of one cached file each; by 3 September 2026
+		#  78% of all requests to this host were following it.
+		#
+		#  REDIRECT_STATUS is empty on the request as it arrives and set once an
+		#  internal redirect has happened.  [L] does not help here: it ends the
+		#  current pass, not the re-run.
+
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
 RewriteCond %{REQUEST_METHOD} =GET
 RewriteCond %{QUERY_STRING} ^$
 RewriteCond %{HTTP_COOKIE} !(loggedin|AuthenticationToken) [NC]
@@ -72,6 +90,7 @@ RewriteRule ^(.*)$ /_cache/%{HTTP_HOST}%{REQUEST_URI}index.html [L]
 		#  class, so /css/view/display.css is PHP, not a file.  The cached copy
 		#  keeps a .css suffix so Apache serves it as text/css.
 
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
 RewriteCond %{REQUEST_METHOD} =GET
 RewriteCond %{QUERY_STRING} ^$
 RewriteCond %{HTTP_COOKIE} !(loggedin|AuthenticationToken) [NC]
@@ -81,6 +100,7 @@ RewriteRule ^(.*)$ /_cache/%{HTTP_HOST}%{REQUEST_URI}.css [L]
 
 		#  Everything else: <path>.html
 
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
 RewriteCond %{REQUEST_METHOD} =GET
 RewriteCond %{QUERY_STRING} ^$
 RewriteCond %{HTTP_COOKIE} !(loggedin|AuthenticationToken) [NC]
