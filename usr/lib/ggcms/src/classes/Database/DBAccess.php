@@ -459,18 +459,44 @@
 			$recordvalues = $args['recordvalues'];
 			$record_type = $args['record_type'];
 			
+			/*
+				DBStartConditional() above has already established that the link
+				was open.  It can still be shut between that answer and this line
+				-- a destructor firing on an object that holds the same connection
+				will do it -- and then prepare() throws "mysqli object is already
+				closed" past a guard that had done its job.  815 of those in half
+				an hour, every one a 500 on a page that would have rendered.
+
+				A link that refuses this query is answered the same way
+				DBStartConditional answers one that refuses thread_id: do not use
+				this, open a new one.  Once, and then give up, so a genuinely
+				broken connection still fails instead of looping.
+
+				The trace of whoever closed it goes to the error log, beside the
+				fatal it explains.  It used to be printed into the response,
+				which put an internal stack trace in front of every visitor who
+				tripped this.
+			*/
+
 			$prepare_line = __LINE__;	# Current line number
 			try {
 				$statement = $this->db_link->prepare($query);
 			} catch (Error $error) {
-				print('<pre>DBAccess close trace:' . PHP_EOL);
-				if(property_exists($this, 'close_debug')) {
-					print($this->close_debug);
-				} else {
-					print('No CloseLink trace was recorded on this DBAccess object.');
+				error_log(
+					'DBAccess::FillArraysFromDB reconnecting after: ' . $error->getMessage()
+					. ' -- close trace: '
+					. (property_exists($this, 'close_debug')
+						? $this->close_debug
+						: 'no CloseLink trace was recorded on this DBAccess object')
+				);
+
+				$this->DBStart();
+
+				if(!$this->IsLinkOpen()) {
+					throw $error;
 				}
-				print('</pre>');
-				throw $error;
+
+				$statement = $this->db_link->prepare($query);
 			}
 			
 #			print("BT: " . $query);
