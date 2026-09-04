@@ -15,15 +15,15 @@
 			$words_to_look_up = $args['words'];
 			
 			if($this->handler->db_access->db_file_cache) {
-				$lowercased_words = [];
+				$uppercased_words = [];
 				
 				foreach($words_to_look_up as $word_to_look_up) {
-					$lowercased_words[] = strtoupper($word_to_look_up);
+					$uppercased_words[] = strtoupper($word_to_look_up);
 				}
 				
 				$db_file_cache_results = $this->handler->db_access->db_file_cache->ReadCache([
 					'directory'=>'dictionaries',
-					'arguments'=>$lowercased_words,
+					'arguments'=>$uppercased_words,
 					'field'=>'Term',
 				]);
 			}
@@ -80,7 +80,7 @@
 					if(count($db_results) !== 0) {
 						$this->handler->db_access->db_file_cache->WriteCache([
 							'directory'=>'dictionaries',
-							'arguments'=>$lowercased_words,
+							'arguments'=>$uppercased_words,
 							'data'=>$db_results,
 							'field'=>'Term',
 						]);
@@ -106,7 +106,7 @@
 			if($this->handler->db_access->db_file_cache) {
 				$db_file_cache_results = $this->handler->db_access->db_file_cache->ReadCache([
 					'directory'=>'dictionaries',
-					'arguments'=>[strtolower($word_to_look_up),],
+					'arguments'=>[strtoupper($word_to_look_up),],
 				]);
 				
 				if($db_file_cache_results) {
@@ -150,7 +150,7 @@
 					if(count($word_data) !== 0) {
 						$this->handler->db_access->db_file_cache->WriteCache([
 							'directory'=>'dictionaries',
-							'arguments'=>[strtolower($word_to_look_up),],
+							'arguments'=>[strtoupper($word_to_look_up),],
 							'data'=>$word_data,
 						]);
 					}
@@ -162,12 +162,6 @@
 		
 		public function LookUpRandomWords($args) {
 			if($this->handler->db_access->db_file_cache) {
-				$lowercased_words = [];
-				
-				foreach($words_to_look_up as $word_to_look_up) {
-					$lowercased_words[] = strtolower($word_to_look_up);
-				}
-				
 				$db_results = $this->handler->db_access->db_file_cache->ReadCache([
 					'directory'=>'dictionaries_admin',
 					'arguments'=>['random_words'],
