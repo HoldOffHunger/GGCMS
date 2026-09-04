@@ -51,6 +51,7 @@
 			$options = [
 				'domain'=>'',
 				'url'=>'',
+				'format'=>'html',
 				'list'=>FALSE,
 				'limit'=>0,
 				'jobs'=>1,
@@ -74,6 +75,20 @@
 				if(array_key_exists($argument, $options)) {
 					$options[$argument] = is_string($value) ? $value : TRUE;
 				}
+			}
+
+			$options['format'] = strtolower((string) $options['format']);
+
+				/*
+					One format per run.  PageCache decides a cached file's
+					extension from the format the request resolved to, so two
+					formats in one pass would mean two different files per entry
+					and two different render costs, and reporting them together
+					would say nothing useful about either.
+				*/
+
+			if(!array_key_exists($options['format'], $this->FormatSuffixes())) {
+				$this->Fail('--format must be one of: ' . implode(', ', array_keys($this->FormatSuffixes())));
 			}
 
 			$options['limit'] = (int) $options['limit'];
@@ -118,6 +133,39 @@
 			}
 
 			return TRUE;
+		}
+
+		/*
+			What each format is asked for, and what it lands on disk as.
+
+			An entry is a directory path ending in a slash, and CacheLocation
+			turns that into index.html.  Every other format is a script inside
+			that directory -- view.brf for braille -- and caches as the request
+			plus the format's own suffix, so view.brf becomes view.brf.brf.
+			That is the same shape style.php has always had, where
+			/css/view/display.css caches as display.css.css.
+
+			Braille is the one worth warming after HTML: it is the most
+			expensive render the engine performs, something is crawling
+			view.brf?mode=dotted across the library, and it is the format whose
+			missing-glyph faults are still open.
+		*/
+
+		public function FormatSuffixes() {
+			return [
+				'html'=>'',
+				'brf'=>'view.brf',
+			];
+		}
+
+		public function FormatPath($path) {
+			$suffix = $this->FormatSuffixes()[$this->options['format']];
+
+			if(!strlen($suffix)) {
+				return $path;
+			}
+
+			return $path . $suffix;
 		}
 
 		public function CollectPaths() {
@@ -174,6 +222,10 @@
 			}
 
 			$paths = array_values(array_unique($paths));
+
+			foreach($paths as $key => $path) {
+				$paths[$key] = $this->FormatPath($path);
+			}
 
 			if($this->options['limit'] > 0) {
 				$paths = array_slice($paths, 0, $this->options['limit']);
@@ -315,7 +367,8 @@
 			$command = escapeshellarg(PHP_BINARY)
 				. ' ' . escapeshellarg($this->WorkerScript())
 				. ' --domain=' . escapeshellarg($this->options['domain'])
-				. ' --url=' . escapeshellarg($path);
+				. ' --url=' . escapeshellarg($path)
+				. ' --format=' . escapeshellarg($this->options['format']);
 
 			$descriptors = [
 				1=>['pipe', 'w'],
