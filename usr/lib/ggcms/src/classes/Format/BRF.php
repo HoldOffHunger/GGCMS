@@ -119,7 +119,6 @@
 			
 			$braille_input = $this->RunConversionTable(['output'=>$braille_input]);
 			$braille_input = preg_replace("/\n[\n]+/", "\n\n", $braille_input);
-			$braille_input = preg_replace("/\n[\n]+/", "\n\n", $braille_input);
 			$braille_input = iconv('UTF-8', 'ASCII//TRANSLIT', $braille_input);
 		#	print_r($braille_input);
 		#	$braille_input = $this->fixSmartQuotes(['input'=>$braille_input]);
@@ -209,10 +208,42 @@ $input = str_replace($chr, $rpl, html_entity_decode($input, ENT_QUOTES, "UTF-8")
 return $input;
 		}
 		
+		/*
+			The numeric references below are why 2,407 `Missing Braille Glyph`
+			tickets name a `#`, and why several carry the word "and#151;".
+
+			html_entity_decode() will not decode &#145; through &#159;.  They
+			address the C1 control block, which it cannot represent, so it leaves
+			them standing as literal text -- and the &-to-"and" replacement that
+			dotted and binary mode perform in GenerateBraille() then rewrites `&#151;`
+			into `and#151;`, which reaches the converter as eight characters, one
+			of them a `#` that has no braille glyph.  That is why the mangled
+			entities appear in no stored text and in no HTML output: this pipeline
+			is what makes them.
+
+			They are Windows-1252 punctuation mislabelled as Unicode, so they are
+			translated here, before anything downstream can read them as an
+			ampersand followed by a number.
+		*/
+		
 		public function FormatConversionTable() {
 			return [
 				"\r"=>"",
 				"\t"=>' ',
+				
+				'&#145;'=>"'",
+				'&#146;'=>"'",
+				'&#147;'=>'"',
+				'&#148;'=>'"',
+				'&#149;'=>'*',
+				'&#150;'=>'-',
+				'&#151;'=>'--',
+				'&#152;'=>'~',
+				'&#153;'=>'(TM)',
+				'&#155;'=>'>',
+				'&#156;'=>'oe',
+				'&#158;'=>'z',
+				'&#159;'=>'Y',
 			];
 		}
 		
