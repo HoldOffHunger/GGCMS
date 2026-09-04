@@ -27,6 +27,10 @@
 			return TRUE;
 		}
 		
+		public function MaxGlyphIssuesPerRender() {
+			return 20;
+		}
+
 		public function generateIssues() {
 			#	'issuetype'=>'Missing Braille Glyph',
 			#print_r($this->braille_handler->errors);
@@ -53,6 +57,7 @@
 				*/
 
 			$logged = [];
+			$logged_count = 0;
 
 			for($i = 0; $i < $handler_errors_count; $i++) {
 				$handler_error = $handler_errors[$i];
@@ -62,6 +67,29 @@
 				}
 				
 				$logged[$handler_error['description']] = TRUE;
+				$logged_count++;
+				
+				/*
+					And a ceiling, because deduplicating is not enough on its own.
+					
+					The description carries the word the character appeared in, so a
+					book generates a fresh signature for every word containing a bad
+					character, and each one is an INSERT to a database on another
+					host.  On 4 September 2026 war-and-peace as .brf spent 140
+					seconds doing that and then died on the execution limit inside
+					IssueLogging -- a 500 for the reader, a worker held for over two
+					minutes, and 233 .brf requests in that day's log alone.  The same
+					entry as HTML takes six seconds.
+					
+					Twenty distinct glyphs is far more than anyone needs to know that
+					a character is unsupported, and it is a real fault worth seeing
+					rather than one to suppress -- so it is capped, not silenced.
+				*/
+				
+				if($logged_count >= $this->MaxGlyphIssuesPerRender()) {
+					break;
+				}
+				
 				
 				$this->handler->issue_logging->createLog([
 					'issuetype'=>'Missing Braille Glyph',
