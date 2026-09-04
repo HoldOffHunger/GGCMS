@@ -467,6 +467,61 @@
 				return FALSE;
 			}
 
+			$this->WriteCompressed(['location'=>$location, 'output'=>$output]);
+
+			return TRUE;
+		}
+
+		/*
+			The same page, gzipped, beside itself.
+
+			nginx has gzip_static on, so it serves this file directly and
+			compresses nothing at request time.  Without it, every one of the
+			twelve thousand cached pages was compressed afresh on every hit, on
+			a host with one core and a crawler on it.
+
+			Written here rather than only in the warmer, so that a page the
+			server caches for itself behaves exactly like one built off-host.
+			A cache whose entries differ depending on which machine wrote them
+			is a cache nobody can reason about.
+
+			Best-effort, like every other failure path in this class: if the
+			compressed copy cannot be written the page is still cached and
+			nginx simply compresses on the fly, which is what it did before.
+			The one thing that must not happen is a stale .gz outliving its
+			page, because nginx would go on serving it -- so FlushPage removes
+			this too, and RemoveDirectory takes it with everything else.
+		*/
+
+		public function CompressedLocation($args) {
+			return $args['location'] . '.gz';
+		}
+
+		public function WriteCompressed($args) {
+			$location = $this->CompressedLocation(['location'=>$args['location']]);
+
+			if(!function_exists('gzencode')) {
+				return FALSE;
+			}
+
+			$compressed = @gzencode($args['output'], 9);
+
+			if($compressed === FALSE) {
+				return FALSE;
+			}
+
+			$temporary_location = $location . '.' . getmypid() . '.tmp';
+
+			if(@file_put_contents($temporary_location, $compressed) === FALSE) {
+				return FALSE;
+			}
+
+			if(!@rename($temporary_location, $location)) {
+				@unlink($temporary_location);
+
+				return FALSE;
+			}
+
 			return TRUE;
 		}
 
@@ -506,6 +561,19 @@
 			if($location === FALSE) {
 				return FALSE;
 			}
+
+				/*
+					The compressed copy goes first, and unconditionally.
+
+					nginx decides whether to serve a .gz by looking for the .gz,
+					not by looking at the page beside it.  A .gz that outlives
+					its page is therefore served for ever, to every client that
+					accepts gzip -- which is all of them.  Removing it before
+					the page, and whether or not the page is there, is what
+					makes that impossible.
+				*/
+
+			@unlink($this->CompressedLocation(['location'=>$location]));
 
 			if(!is_file($location)) {
 				return TRUE;
