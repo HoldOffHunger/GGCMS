@@ -40,9 +40,7 @@
 			#		print_r($db_results);
 			#	}
 			} else {
-				if(!$this->db_link) {
-					$this->DBStart();
-				}
+				$this->DBStartConditional();
 				
 				$sql = 'SELECT ';
 				
@@ -117,9 +115,7 @@
 			}
 			
 			if(!is_array($word_data)) {
-				if(!$this->db_link) {
-					$this->DBStart();
-				}
+				$this->DBStartConditional();
 				
 				$sql = 'SELECT ';
 				
@@ -180,9 +176,7 @@
 			}
 			
 			if(!is_array($db_results)) {
-				if(!$this->db_link) {
-					$this->DBStart();
-				}
+				$this->DBStartConditional();
 				
 				$random_word_count = $args['randomwordcount'];
 				
@@ -254,9 +248,7 @@
 			}
 			
 			if(!is_array($definitions_count)) {
-				if(!$this->db_link) {
-					$this->DBStart();
-				}
+				$this->DBStartConditional();
 				
 				$sql = 'SELECT COUNT(id) AS DefinitionCount FROM Definition;';
 				
@@ -292,9 +284,7 @@
 			}
 			
 			if(!is_array($words_count)) {
-				if(!$this->db_link) {
-					$this->DBStart();
-				}
+				$this->DBStartConditional();
 				
 				$sql = 'SELECT COUNT(DISTINCT Term) AS WordCount FROM Definition;';
 				
@@ -330,9 +320,7 @@
 			}
 			
 			if(!is_array($dictionaries_count)) {
-				if(!$this->db_link) {
-					$this->DBStart();
-				}
+				$this->DBStartConditional();
 				
 				$sql = 'SELECT COUNT(id) AS DictionaryCount FROM Dictionary;';
 				
@@ -365,18 +353,61 @@
 			return 'alldictionaries';
 		}
 		
+		/*
+			A closed mysqli is still an instanceof mysqli, and it is still
+			truthy, so the six `if(!$this->db_link) { $this->DBStart(); }`
+			sites above accepted a link that had already been closed and the
+			prepare() below then threw "mysqli object is already closed".
+
+			Reading a property is the cheapest question that a closed link
+			refuses to answer.  This mirrors DBAccess::IsLinkOpen(), for the
+			same reason and with the same answer: do not use this, open a new
+			one.  The two are deliberately separate because the two classes
+			own separate connections to separate databases.
+		*/
+
+		public function IsLinkOpen() {
+			if(!($this->db_link instanceof mysqli)) {
+				return FALSE;
+			}
+
+			try {
+				return (bool) $this->db_link->thread_id;
+			} catch (Error $error) {
+				return FALSE;
+			}
+		}
+
+		public function DBStartConditional() {
+			if(!$this->IsLinkOpen()) {
+				$this->DBStart();
+			}
+
+			return TRUE;
+		}
+
 		public function DBStart() {
 			error_reporting(E_ERROR);
-			
-			$this->db_link = new mysqli(
-				ini_get('mysqli.default_host'),
-				ini_get('mysqli.default_user'),
-				ini_get('mysqli.default_pw'),
-				$this->dictionary_db(),
-				ini_get('mysqli.default_port'),
-			);
-			
-			if($this->db_link->connect_errno) {
+
+				/*
+					Cleared first, and cleared again on failure.
+
+					The assignments used to sit outside any try.  Under PHP 8 a
+					refused connection throws mysqli_sql_exception rather than
+					returning a link with connect_errno set, so `new mysqli`
+					threw straight past the connect_errno guards below, and
+					$this->db_link kept whatever it already held -- which on a
+					reconnect was a link that had just been closed.
+
+					A failed connection now leaves NULL, which every reader
+					below tests for, so the failure is reported as a failure
+					instead of surfacing later as a fatal somewhere else.
+					DBAccess::DBStart() was corrected the same way.
+				*/
+
+			$this->db_link = NULL;
+
+			try {
 				$this->db_link = new mysqli(
 					ini_get('mysqli.default_host'),
 					ini_get('mysqli.default_user'),
@@ -384,28 +415,46 @@
 					$this->dictionary_db(),
 					ini_get('mysqli.default_port'),
 				);
+			} catch (Exception $e) {
+				$this->db_link = NULL;
 			}
-			
+
+			if(!$this->db_link || $this->db_link->connect_errno) {
+				$this->db_link = NULL;
+
+				try {
+					$this->db_link = new mysqli(
+						ini_get('mysqli.default_host'),
+						ini_get('mysqli.default_user'),
+						ini_get('mysqli.default_pw'),
+						$this->dictionary_db(),
+						ini_get('mysqli.default_port'),
+					);
+				} catch (Exception $e) {
+					$this->db_link = NULL;
+				}
+			}
+
 			error_reporting(E_ERROR | E_WARNING | E_PARSE);
-			
+
 			$results = 1;
 			$errors = [];
-			
-			if($this->db_link->connect_errno) {
+
+			if(!$this->db_link || $this->db_link->connect_errno) {
 				$results = 0;
 				$errors[] = [
-					'errornumber'=>$this->db_link->connect_errno,
-					'errormessage'=>$this->db_link->connect_error,
+					'errornumber'=>$this->db_link ? $this->db_link->connect_errno : 0,
+					'errormessage'=>$this->db_link ? $this->db_link->connect_error : 'No connection could be opened.',
+				];
+
+				return [
+					'results'=>$results,
+					'errors'=>$errors,
 				];
 			}
-			
-			if($this->db_link->connect_error) {
-				http_response_code(500);
-				die ('Database unavailable. =(');
-			}
-			
+
 			$this->db_link->set_charset('utf8');
-			
+
 			return [
 				'results'=>$results,
 				'errors'=>$errors,
@@ -436,23 +485,50 @@
 			The earlier guard tested connect_error before testing that the link
 			existed, so a dictionary whose DBStart had failed fatalled here
 			during destruction.  Hence the instanceof.
+
+			The instanceof alone was not enough either.  A closed link is still
+			an instanceof mysqli, so a connection that had already been shut
+			passed the guard and mysqli_close() threw "mysqli object is already
+			closed" out of __destruct -- which is the one place that cannot
+			usefully throw, because there is no longer a request to fail.  The
+			close is now attempted rather than predicted, exactly as
+			DBAccess::CloseLink() does it.
 		*/
 
 		public function DBEnd() {
 			if($this->db_link instanceof mysqli) {
-				mysqli_close($this->db_link);
+				try {
+					mysqli_close($this->db_link);
+				} catch (Error $error) {
+					# already closed by someone else
+				}
 			}
 
 			$this->db_link = NULL;
 
 			return TRUE;
 		}
-		
+
+			/*
+				Every caller reaches the database through here, so this is the
+				one place that has to establish there is a connection to reach
+				it with.  A dictionary is a decoration on the page; when its
+				database cannot be opened the lookup comes back empty and the
+				page still renders, rather than the whole request dying over a
+				word definition.
+			*/
+
 		public function FillArraysFromDB($args) {
 			$query = $args['query'];
 			$sqlbindstring = $args['sqlbindstring'];
 			$recordvalues = $args['recordvalues'];
-			
+
+			$this->DBStartConditional();
+
+			if(!$this->IsLinkOpen()) {
+				return [];
+			}
+
 			$prepare_line = __LINE__;	# Current line number
 			$statement = $this->db_link->prepare($query);
 			
