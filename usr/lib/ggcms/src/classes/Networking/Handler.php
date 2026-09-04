@@ -722,6 +722,17 @@
 		}
 		
 		public function HandleRequest() {
+				/*
+					Everything above HandleRequest_ServeContent runs before a
+					format or a script class has been loaded, which is the whole
+					condition that makes repairing safe: the request can be
+					rewritten and carried forward without anything having to be
+					re-entered.  A trailing bracket, a doubled slash, a /~user
+					path -- all correctable here for nothing, where redirecting
+					costs the reader a round trip and this host a second worker.
+				*/
+
+			$this->before_content = TRUE;
 			if($this->SecureRequired()) {
 				return $this->SecureRedirect();
 			}
@@ -776,6 +787,8 @@
 		}
 		
 		public function HandleRequest_ServeContent() {
+			$this->before_content = FALSE;
+
 			if($this->handle404Image()) {
 				return TRUE;
 			}
@@ -1055,8 +1068,7 @@
 		
 		public function imageRedirect() {
 			$this->redirect_url = '/image.php';
-			$this->handleRedirect();
-			return TRUE;
+			return $this->handleRedirect();
 		}
 		
 		public function handleMailTo() {
@@ -1066,9 +1078,7 @@
 				$good_mailto = substr($_SERVER['REQUEST_URI'], 1);
 				
 				$this->redirect_url = $good_mailto;
-				$this->handleRedirect();
-				
-				return TRUE;
+				return $this->handleRedirect();
 			}
 			
 			return FALSE;
@@ -1124,9 +1134,7 @@
 				$redirect_url = '/';
 				
 				$this->redirect_url = $redirect_url;
-				$this->handleRedirect();
-				
-				return TRUE;
+				return $this->handleRedirect();
 			}
 			
 			return FALSE;
@@ -1140,9 +1148,7 @@
 				$redirect_url = '/';
 				
 				$this->redirect_url = $redirect_url;
-				$this->handleRedirect();
-				
-				return TRUE;
+				return $this->handleRedirect();
 			}
 			
 			return FALSE;
@@ -1168,9 +1174,7 @@
 			
 			$redirect_url = $this->version->GetOpenSourceURL();
 			$this->redirect_url = $redirect_url;
-			$this->handleRedirect();
-			
-			return TRUE;
+			return $this->handleRedirect();
 		}
 		
 		/*
@@ -1247,8 +1251,7 @@
 				
 				#print($redirect_url);
 				$this->redirect_url = $redirect_url;
-				$this->handleRedirect();
-				return TRUE;
+				return $this->handleRedirect();
 			}
 			
 			if(preg_match('/\?$/', $_SERVER['REQUEST_URI'])) {
@@ -1266,8 +1269,7 @@
 				
 				#print($redirect_url);
 				$this->redirect_url = $redirect_url;
-				$this->handleRedirect();
-				return TRUE;
+				return $this->handleRedirect();
 			}
 			
 			return FALSE;
@@ -1321,8 +1323,7 @@
 					$redirect_url = $this->BuildRedirect(['permalink_id'=>$permalink_id, 'assignment'=>$assignment[0]]);
 					if($redirect_url) {
 						$this->redirect_url = $redirect_url;
-						$this->handleRedirect();
-						return TRUE;
+						return $this->handleRedirect();
 					}
 				}
 			}
@@ -1365,9 +1366,7 @@
 				}
 				$this->redirect_url = $new_url;
 	#			die($this->redirect_url);
-				$this->handleRedirect();
-				
-				return TRUE;
+				return $this->handleRedirect();
 			}
 			
 			return FALSE;
@@ -1412,9 +1411,7 @@
 			#	print($this->redirect_url);
 			#	die("soy");
 				
-				$this->handleRedirect();
-				
-				return TRUE;
+				return $this->handleRedirect();
 			}
 			
 			return FALSE;
@@ -1453,9 +1450,7 @@
 		#	print("REDIRE!" . $redirect_url . "|");
 		#	die("BT:");
 			
-			$this->handleRedirect();
-			
-			return TRUE;
+			return $this->handleRedirect();
 		}
 		
 			/*
@@ -1648,9 +1643,7 @@
 				
 				$this->redirect_url = $redirect_url;
 				
-				$this->handleRedirect();
-				
-				return TRUE;
+				return $this->handleRedirect();
 			}
 			
 			#print($last_chars);
@@ -1794,8 +1787,7 @@
 			$redirect_url = $this->BuildRedirect(['assignment'=>$assignment, 'permalink_id'=>$assignment['id']]);
 			
 			if($redirect_url) {
-				$this->handleRedirect();
-				return TRUE;
+				return $this->handleRedirect();
 			}
 		#	print($redirect_url);
 			
@@ -1992,6 +1984,20 @@
 			return TRUE;
 		}
 
+		/*
+			Every handler returns what this returns, because this does not
+			always redirect.  RedirectsToSelf refuses a redirect to the
+			address already being requested -- correctly, or the client would
+			loop -- and a handler that reported success anyway stopped the
+			chain with nothing written at all.
+			
+			That was an empty 200: no page, no error, no log line, and a
+			crawler told the URL was fine.  An unpublished entry answered
+			that way, which is how one stayed invisible for twenty-one
+			months.  handleForceCanonicalLinkRedirect already returned this
+			value; the other thirteen now do too.
+		*/
+
 		public function handleRedirect() {
 			if($this->RedirectsToSelf(['url'=>$this->redirect_url])) {
 				$this->redirect_url = '';
@@ -2008,6 +2014,19 @@
 
 			if($this->collect_redirect) {
 				return TRUE;
+			}
+
+				/*
+					Before content, a correction on this host is answered rather
+					than redirected to, and the chain carries on to serve it.
+					FALSE here means 'not handled, keep going', which is exactly
+					true -- the request has been corrected, not answered.
+				*/
+
+			if($this->before_content && $this->RepairInsteadOfRedirect(['url'=>$this->redirect_url])) {
+				$this->redirect_url = '';
+
+				return FALSE;
 			}
 
 			if($this->redirect_url) {

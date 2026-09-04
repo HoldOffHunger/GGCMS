@@ -3482,6 +3482,17 @@
 			
 			if($this->entry['Publish'] === 0 && !$this->isUserAdmin()) {
 				if($this->entry['entrypermission'] && $this->entry['entrypermission'][0] && $this->entry['entrypermission'][0]['user'] && $this->entry['entrypermission'][0]['user']['id'] !== $user_id) {
+						/*
+							Say why, rather than only saying no.  A refusal here
+							is answered by the 404 page, and a 404 that reads
+							"we could not find that" is wrong and unhelpful when
+							the entry exists and is simply not published yet --
+							wrong for the reader, and useless to whoever has to
+							work out why a page they just wrote is missing.
+						*/
+
+					$this->handler->unavailable_entry = $this->entry;
+
 					return FALSE;
 				}
 			}
