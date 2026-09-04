@@ -109,10 +109,20 @@
 				$total_resolved += $resolved;
 				$total_remaining += $after;
 
-				$rows[] = [$database, $before, $resolved, $after];
+					/*
+						arr2textTable takes its headings from the array keys;
+						its second argument is padding types, not headings.
+					*/
+
+				$rows[] = [
+					'database'=>$database,
+					'was open'=>$before,
+					'resolved'=>$resolved,
+					'still open'=>$after,
+				];
 			}
 
-			print(arr2textTable($rows, ['database', 'was open', 'resolved', 'still open']) . PHP_EOL);
+			print(arr2textTable($rows) . PHP_EOL);
 
 			print('Resolved ' . $total_resolved . ' ticket(s).  ' . $total_remaining . ' still open.' . PHP_EOL);
 			print('Nothing was deleted; first-seen, last-seen and incident counts are intact.' . PHP_EOL . PHP_EOL);
