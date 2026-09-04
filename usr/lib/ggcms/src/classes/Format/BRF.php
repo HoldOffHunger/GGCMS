@@ -34,8 +34,34 @@
 			$handler_errors = $this->braille_handler->errors;
 			$handler_errors_count = count($handler_errors);
 			
+				/*
+					Once per distinct glyph, not once per occurrence.
+					
+					Every createLog is a SELECT, an UPDATE and an instance INSERT
+					against a database on another host, and this loop runs after
+					the page has already been sent -- so a document with five
+					hundred unsupported characters held a worker through fifteen
+					hundred round trips to tell us the same six things.
+					
+					The description carries the word the character appeared in, so
+					the same missing glyph becomes a different issue in every word
+					that contains it: 2,407 tickets on revoltlib for about six
+					characters.  Deduplicating here does not fix that -- the word
+					would have to come out of the signature, which is a decision
+					about the queue rather than about Braille -- but it does stop
+					one render paying for the same glyph hundreds of times.
+				*/
+
+			$logged = [];
+
 			for($i = 0; $i < $handler_errors_count; $i++) {
 				$handler_error = $handler_errors[$i];
+				
+				if($logged[$handler_error['description']]) {
+					continue;
+				}
+				
+				$logged[$handler_error['description']] = TRUE;
 				
 				$this->handler->issue_logging->createLog([
 					'issuetype'=>'Missing Braille Glyph',
