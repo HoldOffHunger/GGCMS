@@ -247,10 +247,30 @@
 			query string, so it caches cleanly.
 		*/
 
+		/*
+			BRF earns its place by being the most expensive thing this engine
+			produces.  war-and-peace on revoltlib is 365 children and 3.6 MB
+			of text; as .brf it took over two minutes and then returned 500
+			on the execution limit, and it did that on every single request.
+			There were 233 .brf requests in one day's log.
+			
+			The conversion is not the cost.  Measured on 4 September 2026 the
+			converter runs at 252,000 characters a second, so 3.6 MB is
+			fourteen seconds of it.  The rest is the pipeline around it --
+			strip_tags, html_entity_decode, iconv and two preg_replace passes
+			over megabytes -- plus 365 child text bodies fetched from a
+			database on another host.  None of it changes between requests,
+			which is the definition of something worth caching.
+			
+			It passes the output test already: IsCacheable_Output asks a
+			non-HTML format not to begin with '<', and Braille does not.
+		*/
+
 		public function CacheableFormats() {
 			return [
 				'HTML'=>'html',
 				'CSS'=>'css',
+				'BRF'=>'brf',
 			];
 		}
 
