@@ -73,6 +73,29 @@
 		}
 		
 		public function DisplayHeader_BreadCrumbs($args) {
+
+				/*
+					Admins only.
+
+					This prints the template file that rendered the page, which is
+					a useful thing to have while building a site and an internal
+					filesystem path to show a stranger.  It was showing to
+					everyone: every entry page on revoltlib carried
+					../ggcms/src/templates/revoltlib/view/display_childof_anarchism.php
+					in a code block, to anybody who loaded it.
+
+					Not every caller passes `that` -- entry-children-grandchildren
+					calls Display_Header with only an entry -- so no script object
+					counts as not an admin, which is the safe direction for a
+					diagnostic to fail in.
+				*/
+
+			$that = isset($args['that']) ? $args['that'] : (isset($this->that) ? $this->that : NULL);
+
+			if(!$that || !method_exists($that, 'isUserAdmin') || !$that->isUserAdmin()) {
+				return FALSE;
+			}
+
 			$file = $args['file'];
 			
 			$file_display = $this->getFileDisplay(['file'=>$file]);
