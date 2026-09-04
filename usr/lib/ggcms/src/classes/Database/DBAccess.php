@@ -1219,6 +1219,7 @@
 			if(!is_array($this->row_cache_dirty_entry_ids)) {
 				$this->row_cache_dirty_entry_ids = [];
 				$this->row_cache_dirty_codes = [];
+				$this->row_cache_dirty_user_ids = [];
 			}
 
 				/*
@@ -1227,6 +1228,8 @@
 					rather than branching on the caller: over-collecting an id
 					costs one re-render, missing one serves a stale page.
 				*/
+
+			$comment_named_its_entry = FALSE;
 
 			foreach(['update', 'definition', 'where'] as $args_key) {
 				$field_set = $args[$args_key];
@@ -1266,6 +1269,43 @@
 						$this->row_cache_dirty_all_trees = TRUE;
 					}
 				}
+
+				if($args['type'] === 'Comment') {
+					if($field_set['Entryid']) {
+						$comment_named_its_entry = TRUE;
+					}
+				}
+
+					/*
+						ggcms_UserIds caches Username and EmailAddress, and a
+						commenter naming themselves for the first time updates
+						User by its own id -- SimpleORM's comment path does
+						exactly that.  The foreign keys above never catch it,
+						because here the User IS the record rather than a
+						reference to one.
+					*/
+
+				if($args['type'] === 'User') {
+					if($field_set['id']) {
+						$this->row_cache_dirty_user_ids[$field_set['id']] = TRUE;
+					}
+				}
+			}
+
+
+				/*
+					An approval names only the comment's own id -- see the
+					approval path in userstatus.php -- so nothing in the write
+					says which entry just gained a visible comment.
+
+					Same answer as an Entry write that carries no Code: delete
+					the type rather than guess at it.  Cheaper here than there,
+					too -- one file per entry that has comments at all, and
+					rebuilt by a moderator's click rather than by a render.
+				*/
+
+			if($args['type'] === 'Comment' && !$comment_named_its_entry) {
+				$this->row_cache_dirty_all_comments = TRUE;
 			}
 
 			if($this->row_cache_dirty) {
@@ -1308,6 +1348,17 @@
 						'arguments'=>$entry_ids,
 					]);
 
+						/*
+							ggcms_Comments_approved is SetComments()'s list of
+							approved comments, keyed by entry id.  A new comment
+							names its Entryid, so it lands here.
+						*/
+
+					$this->db_file_cache->DeleteCache([
+						'type'=>'ggcms_Comments_approved',
+						'arguments'=>$entry_ids,
+					]);
+
 					$subtypes = $this->db_file_cache->DeleteCache_Subtypes([
 						'type'=>'ggcms_EntryChildRecords',
 					]);
@@ -1343,6 +1394,21 @@
 							'segment'=>$code,
 						]);
 					}
+				}
+
+				if($this->row_cache_dirty_all_comments) {
+					$this->db_file_cache->DeleteCache_All([
+						'type'=>'ggcms_Comments_approved',
+					]);
+				}
+
+				$user_ids = array_keys((array) $this->row_cache_dirty_user_ids);
+
+				if(count($user_ids)) {
+					$this->db_file_cache->DeleteCache([
+						'type'=>'ggcms_UserIds',
+						'arguments'=>$user_ids,
+					]);
 				}
 			} catch (Throwable $exception) {
 				# cache maintenance must never break a write
