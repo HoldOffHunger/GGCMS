@@ -2695,11 +2695,29 @@
 				if(!is_array($comments)) {
 					$comments = $this->handler->db_access->GetRecords($comment_get_args);
 					
+						/*
+							Keyed by Entryid, because that is what ReadCache above
+							asks for.
+
+							Without a field WriteCache falls back to bucketing by
+							'id' -- the comment's own -- and then writes only the
+							bucket named after the entry.  A comment with id 2 on
+							entry 14 went into a bucket called 2, the bucket called
+							14 did not exist, and nothing was written at all.  The
+							type held zero files on every site on the server.
+
+							That stayed harmless only because blanks are opt-in per
+							type and this one has no blanks file.  With one, the
+							failed write would have recorded the entry as having no
+							comments, and they would have stopped rendering.
+						*/
+
 					if($this->handler->db_access->db_file_cache) {
 						$this->handler->db_access->db_file_cache->WriteCache([
 							'type'=>'ggcms_Comments_approved',
 							'arguments'=>[$this->entry['id']],
 							'data'=>$comments,
+							'field'=>'Entryid',
 						]);
 					}
 				}
