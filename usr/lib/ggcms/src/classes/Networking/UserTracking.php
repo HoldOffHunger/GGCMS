@@ -8,6 +8,26 @@
 		}
 		
 		public function RecordUserTracking() {
+
+				/*
+					A render performed from the command line is not a visit.
+
+					The page cache warmer runs this same pipeline, deliberately,
+					so that what it writes is what a request would have written.
+					Without this, warming revoltlib would file twelve thousand
+					visitors who do not exist, and a day's statistics would
+					describe the warm run rather than the audience.
+
+					The stats directory not existing on a workstation is what
+					surfaced this -- fopen returned false and flock was handed a
+					boolean -- but creating the directory would have been the
+					wrong fix for the right error.
+				*/
+
+			if(PHP_SAPI === 'cli') {
+				return FALSE;
+			}
+
 			if($this->handler->script_format_lower !== 'html') {
 				return FALSE;
 			}

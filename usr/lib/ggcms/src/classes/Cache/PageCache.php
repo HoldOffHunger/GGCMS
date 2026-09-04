@@ -347,7 +347,27 @@
 		}
 
 		public function IsCacheable_Response() {
-			if(http_response_code() !== 200) {
+			$response_code = http_response_code();
+
+				/*
+					Under the CLI there is no HTTP response, so an untouched code
+					reads FALSE rather than 200 and every warmed page was refused.
+
+					Unset is not the same as unknown here.  PHP still records a
+					code the moment anything sets one, so a render that failed and
+					asked for a 404 still reports 404 from the command line.  What
+					FALSE means is that nothing objected, which is what 200 means
+					on the web.
+
+					The web can never reach this branch: there, an untouched code
+					is already 200.
+				*/
+
+			if(($response_code === FALSE) && (PHP_SAPI === 'cli')) {
+				$response_code = 200;
+			}
+
+			if($response_code !== 200) {
 				return FALSE;
 			}
 
