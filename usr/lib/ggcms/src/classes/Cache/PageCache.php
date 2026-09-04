@@ -34,9 +34,29 @@
 			Root has ~3GB spare; the volume has ~44GB.  /var/www/html/_cache is
 			a symlink to this, so that Apache can reach it from the document
 			root without a per-vhost Alias across seventeen sites.
+
+			Overridable, so that pages can be rendered somewhere other than the
+			machine that will serve them.  A cache key is a pure function of the
+			host and the request path -- see CacheLocation() -- and a cached page
+			holds nothing naming the machine that built it, so a tree built
+			anywhere is valid here.  That matters because this host has one core:
+			warming revoltlib's 12,545 published pages costs it hours it cannot
+			spare and a developer workstation minutes it will not miss.
+
+			Read from the environment, and under the CLI only.  A web request
+			must never be able to steer where pages are written, and none can
+			reach this branch to try.
 		*/
 
 		public function CacheRootLocation() {
+			if(PHP_SAPI === 'cli') {
+				$override = (string) getenv('GGCMS_PAGE_CACHE_ROOT');
+
+				if(strlen($override)) {
+					return rtrim($override, '/');
+				}
+			}
+
 			return '/mnt/nyc01/ggcms_cache/pages';
 		}
 
