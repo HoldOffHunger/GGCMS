@@ -71,6 +71,7 @@ what little memory there is.
 * [Architecture](Docs/Architecture.md) — the request lifecycle in detail
 * [Operations](Docs/Operations.md) — routine maintenance, logging, monitoring
 * [Page Cache](Docs/PageCache.md) — the static cache design and its invalidation
+* [Development Log](Docs/DevLogs.md) — what changed each day, and what it was found to cost
 
 ## Sites
 
