@@ -126,7 +126,7 @@
 					if(is_file($include_file_location)) {
 						$include_url_locations[] = $this->domain_object->GetPrimaryDomain($primary_domain_args) . '/' . $include_file_location;
 					} else {
-						$default_include_file_location = GGCMS_DIR . 'clonefrom.com/' . $include_file_location;
+						$default_include_file_location = GGCMS_DIR . GGCMS_REFERENCE_DOMAIN . '/' . $include_file_location;
 						
 						if(is_file($default_include_file_location) === TRUE) {
 							$include_url_locations[] = $this->domain_object->GetPrimaryDomain($primary_domain_args) . '/' . $include_file_location;

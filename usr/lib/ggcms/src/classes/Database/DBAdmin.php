@@ -212,7 +212,7 @@
 			$clonefrom_access = new DBAccess($clonefrom_access_args);
 			$clonefrom_access->DBStart();
 			
-			$clonefrom_directory_location = GGCMS_DIR . 'clonefrom.com/';
+			$clonefrom_directory_location = GGCMS_DIR . GGCMS_REFERENCE_DOMAIN . '/';
 			
 			$previous_db_access = $this->dbaccessobject;
 			$this->dbaccessobject = $clonefrom_access;
@@ -359,7 +359,7 @@
 					
 			#	print("BT: Files???...|" . $primary_host . "|");
 				
-				if($primary_host != 'clonefrom.com') {
+				if($primary_host != GGCMS_REFERENCE_DOMAIN) {
 					$primary_host_directory_location = GGCMS_DIR . $primary_host . '/';
 					
 					if(is_dir($primary_host_directory_location)) {
@@ -445,7 +445,7 @@
 					// Stats Directory?
 					// -------------------------------------------
 				
-				if($primary_host != 'clonefrom.com') {
+				if($primary_host != GGCMS_REFERENCE_DOMAIN) {
 					$primary_host_stats_location = GGCMS_DIR . 'stats/' . $primary_host . '/';
 					
 					if(!is_dir($primary_host_stats_location)) {

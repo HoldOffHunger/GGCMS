@@ -48,7 +48,7 @@
 			$primary_host_options = [];
 			
 			foreach($this->primary_hosts as $primary_host) {
-				if($primary_host !== 'clonefrom.com') {
+				if($primary_host !== GGCMS_REFERENCE_DOMAIN) {
 					$primary_host_options[] = [
 						'optiontitle'=>$primary_host,
 						'optionvalue'=>$primary_host,

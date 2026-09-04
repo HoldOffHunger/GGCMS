@@ -346,7 +346,7 @@
 				$primary_domain_url = $this->domain_object->GetPrimaryDomain(['www'=>1, 'secure'=>1, 'domain'=>$primary_host_name]) . '/';
 				$primary_public_domain_url = $this->domain_object->GetPrimaryDomain(['www'=>1, 'insecure'=>1, 'domain'=>$primary_host_name]) . '/';
 				
-				if($primary_host_name !== 'clonefrom.com') {
+				if($primary_host_name !== GGCMS_REFERENCE_DOMAIN) {
 					$primary_domain_index_link = '<a href="' . $primary_public_domain_url . '" target="_blank">' . $primary_host_name . '</a>';
 					$primary_domain_master_control_program_link = '<a href="' . $primary_domain_url . 'master-c.php" target="_blank">MCP</a>';
 				} else {
@@ -394,7 +394,7 @@
 				$primary_domain_url = $this->domain_object->GetPrimaryDomain(['www'=>1, 'secure'=>1, 'domain'=>$primary_host_name]) . '/';
 				$primary_public_domain_url = $this->domain_object->GetPrimaryDomain(['www'=>1, 'insecure'=>1, 'domain'=>$primary_host_name]) . '/';
 				
-				if($primary_host_name !== 'clonefrom.com') {
+				if($primary_host_name !== GGCMS_REFERENCE_DOMAIN) {
 					$primary_domain_index_link = '<a href="' . $primary_public_domain_url . '" target="_blank">' . $primary_host_name . '</a>';
 					$primary_domain_master_control_program_link = '<a href="' . $primary_domain_url . 'master-c.php" target="_blank">MCP</a>';				
 				} else {
@@ -532,7 +532,7 @@
 						$sitemap_submission_link_encoded = urlencode($sitemap_submission_link);
 						$curl_submission_link = 'domain curl ping';
 						
-						if($primary_host !== 'clonefrom.com') {
+						if($primary_host !== GGCMS_REFERENCE_DOMAIN) {
 							if($primary_host == $this->domain_object->primary_domain_lowercased) {
 								$curl_submission_link_display =
 									'<nobr>' .
@@ -561,7 +561,7 @@
 							;
 						}
 						
-						if($primary_host !== 'clonefrom.com') {
+						if($primary_host !== GGCMS_REFERENCE_DOMAIN) {
 							$sitemap_submission_link_display =
 								' &bull; ' .
 								$sitemap_submission_link
@@ -573,7 +573,7 @@
 							;
 						}
 						
-						if($primary_host !== 'clonefrom.com') {
+						if($primary_host !== GGCMS_REFERENCE_DOMAIN) {
 							$curl_backup_link = $this->domain_object->primary_domain_lowercased . '/curl/' . $sitemap_submission_link_encoded;
 							$curl_backup_file = GGCMS_DIR . $curl_backup_link;
 							

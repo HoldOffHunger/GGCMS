@@ -2107,7 +2107,7 @@
 		public function HandleRequest_Content() {
 			$client_location = GGCMS_DIR . $this->domain->primary_domain_lowercased . $_SERVER['SCRIPT_URL'];
 			
-			$shared_location = GGCMS_DIR . 'clonefrom.com' . $_SERVER['SCRIPT_URL'];
+			$shared_location = GGCMS_DIR . GGCMS_REFERENCE_DOMAIN . $_SERVER['SCRIPT_URL'];
 			
 			if(!is_file($client_location) && is_file($shared_location)) {
 				ggreq('classes/Networking/MIMEType.php');

@@ -50,8 +50,8 @@ shared class for it to extend. The loader must allow for that.
 | `buildAbstractGlobals_Scripts()` | Correct. Used for the dictionary in `aa822a7`. |
 | `buildAbstractGlobals_Language_Scripts_specific()` | Correct. Passes the domain down through the `$args` hash. |
 | `buildAbstractGlobals_ChildTypes()` | Fixed in `ffd040d`, which restored 2,496 revoltlib images the ORM had never been asked to fetch. |
-| `buildAbstractGlobals_Formats_LinkTo()` | **Broken.** Three faults, below. |
-| `buildAbstractGlobals_Formats_Specific()` | **Broken.** Two faults, below. |
+| `buildAbstractGlobals_Formats_LinkTo()` | Fixed in `5edd842`. Faults kept below. |
+| `buildAbstractGlobals_Formats_Specific()` | Fixed in `5edd842`. Faults kept below. |
 
 ### `_Formats_LinkTo()`
 
@@ -69,9 +69,14 @@ shared class for it to extend. The loader must allow for that.
 2. The domain file is only reachable when a `clonefrom` file for that extension
    exists first. A domain-only extension can never load, which is most of them.
 
-### What that costs today
+### What that cost, until 2 September 2026
 
-These files exist, are deliberate, and have never once been loaded:
+Both builders are fixed. The faults above are kept because they are the reason
+the files below sat unread for as long as they did, and because the shape of
+them -- a path built from a local that lives in another function, an override
+branch that re-reads the shared file -- is the shape to look for elsewhere.
+
+These files exist, are deliberate, and had never once been loaded:
 
 ```
 com.anarchistcode/formats/link_to.php
@@ -79,6 +84,10 @@ com.revoltlib/formats/link_to.php
 com.revoltlib/formats/specific/  asp aspx cfm cgi dll do htm html jspx pdf
                                  php3 php4 phtml pl py rb rhtml shtml wss xhtml
 ```
+
+Verified live on 4 September 2026: `view.html`, `.shtml`, `.htm`, `.php3`,
+`.phtml`, `.asp`, `.aspx`, `.cfm`, `.cgi`, `.pl`, `.py`, `.rb` and `.xhtml` all
+return the entry, so every one of those inbound links resolves again.
 
 Nineteen legacy URL extensions — revoltlib's handling for inbound links from
 whatever the site was before it was GGCMS. Every old `.html` and `.shtml` URL
