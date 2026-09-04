@@ -707,6 +707,18 @@
 						for($j = 0; $j < $association_count; $j++) {
 				//			$entries[$i]['association'][$j]['entry'] = $this->GetRecordAndChildren([entry=>['id'=>$records[$i]['association'][$j]['ChosenEntryid']]])[0];
 				
+								/*
+									No id, no row.  This is a foreign key on a related record and
+									it is not always set; without this the query goes out as
+									"WHERE id = NULL", which cannot match and still costs a full
+									round trip to a database on another host.  Same guard as
+									3c69e64, which fixed one of these loops and not the rest.
+								*/
+
+							if(empty($entries[$i][$primary_key][$j][$relating_key])) {
+								continue;
+							}
+
 							$entry_where = [
 								'type'=>'Entry',
 								'definition'=>[
@@ -1024,6 +1036,18 @@
 						for($j = 0; $j < $association_count; $j++) {
 				//			$this->children[$i]['association'][$j]['entry'] = $this->GetRecordAndChildren([entry=>['id'=>$this->children[$i]['association'][$j]['ChosenEntryid']]])[0];
 				
+								/*
+									No id, no row.  This is a foreign key on a related record and
+									it is not always set; without this the query goes out as
+									"WHERE id = NULL", which cannot match and still costs a full
+									round trip to a database on another host.  Same guard as
+									3c69e64, which fixed one of these loops and not the rest.
+								*/
+
+							if(empty($this->children[$i]['association'][$j]['ChosenEntryid'])) {
+								continue;
+							}
+
 							$entry_where = [
 								'type'=>'Entry',
 								'definition'=>[
@@ -1044,6 +1068,18 @@
 					if($associated_count) {
 						for($j = 0; $j < $associated_count; $j++) {
 							// $this->GetRecordAndChildren([entry=>['id'=>$this->children[$i]['associated'][$j]['Entryid']]])[0];
+								/*
+									No id, no row.  This is a foreign key on a related record and
+									it is not always set; without this the query goes out as
+									"WHERE id = NULL", which cannot match and still costs a full
+									round trip to a database on another host.  Same guard as
+									3c69e64, which fixed one of these loops and not the rest.
+								*/
+
+							if(empty($this->children[$i]['associated'][$j]['Entryid'])) {
+								continue;
+							}
+
 							$entry_where = [
 								'type'=>'Entry',
 								'definition'=>[
@@ -1068,6 +1104,18 @@
 						
 						if($association_count) {
 							for($j = 0; $j < $association_count; $j++) {
+									/*
+										No id, no row.  This is a foreign key on a related record and
+										it is not always set; without this the query goes out as
+										"WHERE id = NULL", which cannot match and still costs a full
+										round trip to a database on another host.  Same guard as
+										3c69e64, which fixed one of these loops and not the rest.
+									*/
+
+								if(empty($this->children_random[$i]['association'][$j]['ChosenEntryid'])) {
+									continue;
+								}
+
 								$entry_where = [
 									'type'=>'Entry',
 									'definition'=>[
@@ -1088,6 +1136,18 @@
 						
 						if($associated_count) {
 							for($j = 0; $j < $associated_count; $j++) {
+									/*
+										No id, no row.  This is a foreign key on a related record and
+										it is not always set; without this the query goes out as
+										"WHERE id = NULL", which cannot match and still costs a full
+										round trip to a database on another host.  Same guard as
+										3c69e64, which fixed one of these loops and not the rest.
+									*/
+
+								if(empty($this->children_random[$i]['associated'][$j]['Entryid'])) {
+									continue;
+								}
+
 								$entry_where = [
 									'type'=>'Entry',
 									'definition'=>[
