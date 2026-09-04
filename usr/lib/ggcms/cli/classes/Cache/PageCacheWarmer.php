@@ -127,15 +127,36 @@
 
 			ggreq('classes/Database/ORMSiteMap.php');
 
-			$sitemap = new ORMSiteMap(['handler'=>$handler]);
+				/*
+					ORMSiteMap takes the DBAccess object rather than the handler,
+					as SimpleORMSiteMap does.  Empty arguments are deliberate:
+					`page` would narrow to one second-level code and `perpage`
+					would paginate, and warming wants neither -- every URL the
+					site has, which is what this query answers when asked for
+					nothing in particular.
+				*/
+
+			$sitemap = new ORMSiteMap(['dbaccessobject'=>$handler->db_access]);
 			$rows = $sitemap->GetEntrySiteMapCodes([]);
 
 			$paths = ['/'];
 
+				/*
+					From E2, not E1.
+
+					E1 is the site's own master entry -- the query joins it on
+					Childid = 0 -- and it is the root of the tree rather than a
+					step through it.  Including it produced
+					/RevoltLib.com/anarchism/ where the site serves /anarchism/,
+					which the cache on the server settles: its files sit at
+					revoltlib.com/feminism/..., with no master code between the
+					host and the first real segment.
+				*/
+
 			foreach((array) $rows as $row) {
 				$codes = [];
 
-				for($level = 1; $level <= 7; $level++) {
+				for($level = 2; $level <= 7; $level++) {
 					$code = $row['E' . $level . '_Code'];
 
 					if(!strlen((string) $code)) {
@@ -385,8 +406,22 @@
 		*/
 
 		public function RequireDatabase($handler) {
-			if(isset($handler->db_access) && $handler->db_access && $handler->db_access->IsLinkOpen()) {
-				return TRUE;
+			if(isset($handler->db_access) && $handler->db_access) {
+
+					/*
+						Ask for the connection before judging it.
+
+						The Handler builds DBAccess without connecting -- the link
+						is opened by the first query that wants one -- so testing
+						IsLinkOpen() on a freshly built Handler answers "no" for a
+						perfectly good configuration, which is a confident lie.
+					*/
+
+				$handler->db_access->DBStartConditional();
+
+				if($handler->db_access->IsLinkOpen()) {
+					return TRUE;
+				}
 			}
 
 			$this->Fail(
