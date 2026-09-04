@@ -799,12 +799,30 @@
 				
 				$master_records = $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
 				
+					/*
+						No field, deliberately.
+
+						There is one master record per domain and it is asked
+						for as argument '1' -- a name, not an id.  Naming
+						Entry_id here made WriteCache bucket the rows by the
+						master entry's own id and then write only the bucket
+						called '1', so the file appeared only on a site whose
+						master entry happened to BE id 1.  wordweight's is, and
+						it cached; revoltlib's is 3, and it had never written
+						the file once, re-running this query on every render
+						since the cache was introduced.
+
+						Without a field the rows carry no 'id' of their own --
+						the columns are aliased Entry_id, Entry_Title and so on
+						-- so they fall through to the argument name and land in
+						one blob under '1', which is what ReadCache asks for.
+					*/
+
 				if($this->handler->db_access->db_file_cache) {
 					$this->handler->db_access->db_file_cache->WriteCache([
 						'type'=>'ggcms_MasterRecord',
 						'arguments'=>['1',],
 						'data'=>$master_records,
-						'field'=>'Entry_id',
 					]);
 				}
 			}
