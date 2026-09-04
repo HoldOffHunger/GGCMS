@@ -89,7 +89,28 @@
 			if(is_dir($full_directory)) {
 				$args['full_directory'] = $full_directory;
 				
-				if($args['directory']) {
+				/*
+					Which directory the cache lives in does not say anything about how
+					its rows should be laid out, and this used to branch on it as
+					though it did.  `directory` only selects a path -- see
+					CacheLocation() -- so every caller that passed one got all of its
+					rows written into a single file named after the FIRST argument,
+					while ReadCache() went on expecting one file per argument.
+					
+					A dictionary lookup of twenty words therefore wrote one file and
+					then missed on the other nineteen, every time, for ever: the read
+					returns FALSE the moment one argument is absent, so the whole
+					lookup went to the database on every request.  wordweight is
+					113,609 definitions behind 110,000 pages and had 699 cache files.
+					
+					The real question is whether there is a field to lay the rows out
+					by.  With one, they belong in a file each, keyed by that field.
+					Without one, the data is a single blob under a name of the
+					caller's choosing -- a count, a random sample -- and belongs in
+					one file, which is what the counts in Dictionary rely on.
+				*/
+				
+				if($args['directory'] && !$args['field']) {
 					$args['argument'] = $args['arguments'][0];
 					$args['argument_data'] = $args['data'];
 					$this->WriteCache_Item($args);
@@ -124,11 +145,12 @@
 					foreach($arguments as $argument) {
 						$args['argument'] = $argument;
 						if(
+							is_array($argument_cache[$argument]) &&
 							(
-								is_array($argument_cache[$argument]) &&
 								$argument_cache[$argument][0] != 0
+								|| !is_file($blanks_file_location)
 							)
-							|| !is_file($blanks_file_location)) {
+						) {
 							$args['argument_data'] = $argument_cache[$argument];
 							$this->WriteCache_Item($args);
 						} elseif(!$blanks_data_hash[$args['argument']]) {
