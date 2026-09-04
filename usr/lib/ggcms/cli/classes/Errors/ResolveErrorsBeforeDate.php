@@ -53,6 +53,14 @@
 			return TRUE;
 		}
 
+		public function bannerMessageText() {
+			return 'Resolve Server Errors Last Seen Before A Date';
+		}
+
+		public function confirmDomainText() {
+			return 'Resolving Server Errors For: ';
+		}
+
 		public function setDate() {
 			print("Resolve errors last seen before (YYYY-MM-DD): ");
 
