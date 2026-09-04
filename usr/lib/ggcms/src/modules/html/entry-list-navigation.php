@@ -21,23 +21,23 @@
 					
 					$total_page_urls .= 'action=' . $this->that->desired_action . '&page=' . $i . '&perpage=' . $this->that->perpage;
 					
-					if($args['ignore_parent']) {
+					if(!empty($args['ignore_parent'])) {
 						$total_page_urls .= '&ignore_parent=' . $args['ignore_parent'];
 					}
 					
-					if($args['parents']) {
+					if(!empty($args['parents'])) {
 						$total_page_urls .= '&parents=' . $args['parents'];
 					}
 					
-					if($args['item_title']) {
+					if(!empty($args['item_title'])) {
 						$total_page_urls .= '&item_title=' . $args['item_title'];
 					}
 					
-					if($args['list_author']) {
+					if(!empty($args['list_author'])) {
 						$total_page_urls .= '&list_author=' . $args['list_author'];
 					}
 					
-					if($args['item_title']) {
+					if(!empty($args['stats_prefix'])) {
 						$total_page_urls .= '&stats_prefix=' . urlencode($args['stats_prefix']);
 					}
 					

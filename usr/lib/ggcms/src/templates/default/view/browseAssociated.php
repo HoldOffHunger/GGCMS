@@ -81,9 +81,9 @@
 				'writings'=>true,
 			];
 			
-			if($args['creation_type']) {
+			if(!empty($args['creation_type'])) {
 				$creation_type_text = $args['creation_type'];
-			} elseif($this->Param('item_title') && $valid_item_titles[$this->Param('item_title')]) {
+			} elseif($this->Param('item_title') && isset($valid_item_titles[$this->Param('item_title')])) {
 				$creation_type_text = $this->Param('item_title');
 			} else {
 				$creation_type_text = 'documents';
@@ -95,7 +95,7 @@
 			$valid_stats_prefixes = [
 				'This writing has'=>true,
 			];
-			if($this->Param('stats_prefix') && $valid_stats_prefixes[$this->Param('stats_prefix')]) {
+			if($this->Param('stats_prefix') && isset($valid_stats_prefixes[$this->Param('stats_prefix')])) {
 				$stats_prefix = $this->Param('stats_prefix') . ' ';
 			} else {
 				$stats_prefix = 'This person has authored ';
@@ -217,7 +217,14 @@
 		
 		print('<br>');
 		
-		$entrylistnavigation->Display([]);
+		$entrylistnavigation->Display([
+			'skip'=>$this->Param('ignore_parent'),
+			'parents'=>$this->Param('parents'),
+			'list_author'=>$this->Param('list_author'),
+			'ignore_parent'=>$this->Param('ignore_parent'),
+			'item_title'=>$this->Param('item_title'),
+			'stats_prefix'=>$this->Param('stats_prefix'),
+		]);
 	} else {
 		print('<div class="horizontal-center width-90percent">');
 		print('<h3 style="font-family:tahoma;margin:0px;">');

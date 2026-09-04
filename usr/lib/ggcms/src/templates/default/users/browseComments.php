@@ -314,27 +314,29 @@
 		$parents_parent_code_url = implode('/', $new_parent_codes);
 		
 		
-		print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-		print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-		print('<div class="height-100px width-100px background-color-gray0">');
-		print('<div class="vertical-specialcenter">');
-		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/' . $parents_parent_code_url . '/' . $child['Code'] . '/view.php">');
-		print('<img width="');
-		print(ceil($display_image['IconPixelWidth'] / 2));
-		print('" height="');
-		print(ceil($display_image['IconPixelHeight'] / 2));
-		print('" src="');
-		print($this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
-		print('/image/');
-		print(implode('/', str_split($display_image['FileDirectory'])));
-		print('/');
-		print($display_image['IconFileName']);
-		print('">');
-		print('</a>');
-		print('</div>');
-		print('</div>');
-		print('</div>');
-		print('</div>');
+		if(isset($display_image)) {
+			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
+			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
+			print('<div class="height-100px width-100px background-color-gray0">');
+			print('<div class="vertical-specialcenter">');
+			print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/' . $parents_parent_code_url . '/' . $child['Code'] . '/view.php">');
+			print('<img width="');
+			print(ceil($display_image['IconPixelWidth'] / 2));
+			print('" height="');
+			print(ceil($display_image['IconPixelHeight'] / 2));
+			print('" src="');
+			print($this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
+			print('/image/');
+			print(implode('/', str_split($display_image['FileDirectory'])));
+			print('/');
+			print($display_image['IconFileName']);
+			print('">');
+			print('</a>');
+			print('</div>');
+			print('</div>');
+			print('</div>');
+			print('</div>');
+		}
 		
 		$child_title = '<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/' . $parents_parent_code_url . '/' . $child['Code'] . '/view.php">';
 		

@@ -344,7 +344,7 @@ jQuery.cookie = function(name, value, options) {
 
 $(function() { 
 
-var words = $('#word-data').html().split(/\s+/g).filter(function(w) { return w.length; });
+var words = $('#word-data').text().split(/\s+/g).filter(function(w) { return w.length; });
 
 var alphabet = 'abcdefghijklmnopqrstuvwxyz';
 

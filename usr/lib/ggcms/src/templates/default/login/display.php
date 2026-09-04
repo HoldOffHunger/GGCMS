@@ -196,7 +196,7 @@
 	$form->DisplayFormField($hidden_action_args);
 	
 	print('<input type="hidden" name="google_token_id" id="google_token_id" class="google_token_id">');
-	print('<input type="hidden" id="redirect" name="redirect" value="' . $this->param('redirect') . '">');
+	print('<input type="hidden" id="redirect" name="redirect" value="' . htmlspecialchars($this->param('redirect'), ENT_QUOTES, 'UTF-8') . '">');
 	
 			// Display Form Elements : End
 		

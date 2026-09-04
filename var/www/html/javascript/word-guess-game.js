@@ -58,7 +58,7 @@ var guessclick = function() {
 		lettersguessedsofar = '';
 	}
 	
-	if(lettersguessedsofar.match(guessedletter)) {
+	if(lettersguessedsofar.indexOf(guessedletter) !== -1) {
 		$('#message').text('You have already guessed this letter : ' + guessedletter + '.');
 	} else {
 		if(lettersguessedsofar.length) {

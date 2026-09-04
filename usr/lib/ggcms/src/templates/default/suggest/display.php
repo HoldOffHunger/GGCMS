@@ -372,7 +372,7 @@
 			print('<div class="g-signin2" data-onsuccess="onSignIn"></div>');
 			print('</div>');
 			
-			print('<form TYPE="POST">');
+			print('<form method="POST">');
 			print('<div style="display:none;">');
 			print('<input type="hidden" name="google_token_id" id="google_token_id" class="google_token_id">');
 			$type_args = [
@@ -384,7 +384,7 @@
 
 			print('<input type="hidden" name="userid" id="userid" class="userid" value="' . $this->authentication_object->user_session['User.id'] . '">' . "\n\n");
 			print('<input type="hidden" name="usersessionid" id="usersessionid" class="usersessionid" value="' . $this->authentication_object->user_session['CookieToken'] . '">' . "\n\n");
-			print('<input type="hidden" name="logout" id="logout" class="logout" value="' . $this->Param('logout') . '">' . "\n\n");
+			print('<input type="hidden" name="logout" id="logout" class="logout" value="' . htmlspecialchars($this->Param('logout'), ENT_QUOTES, 'UTF-8') . '">' . "\n\n");
 			
 			$form->DisplayFormField($type_args);
 			

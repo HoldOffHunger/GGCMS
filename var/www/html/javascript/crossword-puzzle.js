@@ -1,7 +1,7 @@
 					// Set Globals
 					// --------------------------------------------
 					
-		var crosswordclues = [];
+		var crosswordclues = {};
 		
 					// Set Randomization Configs
 					// --------------------------------------------
@@ -1144,9 +1144,10 @@
 		}
 		
 		function generateCrosswordBlockSources(shuffledwords) {
-			var crosswordblocks = [];
-			var checkedcrosswords = [];
-			var clues = [];
+			var crosswordblocks = {};
+			var checkedcrosswords = {};
+			var clues = {};
+			var unmatchedwords = [];
 			for(var i = 0; i < shuffledwords.length; i++) {
 				var shuffledword = shuffledwords[i];
 				var word = shuffledword[0].toLowerCase();
@@ -1156,8 +1157,6 @@
 				crosswordclues[word] = clue;
 				
 				var checkedcrosswordkey = word + '-' + clue;
-				
-				var unmatchedwords = [];
 				
 				if(!checkedcrosswords[checkedcrosswordkey]) {
 					var wordletters = getLettersHashCountForWord(word);
@@ -1188,9 +1187,10 @@
 					checkedcrosswords[checkedcrosswordkey] = true;
 				}
 				
-				if(unmatchedwords.length) {
-					crosswordblocks['(unmatched)'] = unmatchedwords;
-				}
+			}
+
+			if(unmatchedwords.length) {
+				crosswordblocks['(unmatched)'] = unmatchedwords;
 			}
 			
 			return {

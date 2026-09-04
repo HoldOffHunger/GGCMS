@@ -33,6 +33,10 @@
 						// ---------------------------------------------
 		
 		public function Select() {
+			if(!$this->isUserAdmin()) {
+				return FALSE;
+			}
+
 			$this->SetOrmBasics();
 			
 			if(!$this->ValidateOrm()) {
@@ -1098,7 +1102,15 @@
 				fwrite($file_handle_for_source, json_encode($defined_words));
 				fclose($file_handle_for_source);
 			} else {
-				$defined_words = json_decode(file_get_contents($cache_file_location), TRUE);
+				$defined_words = [];
+
+				if(is_readable($cache_file_location)) {
+					$cached_defined_words = json_decode(file_get_contents($cache_file_location), TRUE);
+
+					if(is_array($cached_defined_words)) {
+						$defined_words = $cached_defined_words;
+					}
+				}
 #				print_r($defined_words);
 			}
 			$this->entrydictionary = $defined_words;

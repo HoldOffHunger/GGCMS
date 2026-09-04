@@ -129,7 +129,7 @@
 						$comment_value = $this->that->Param('Comments');
 					}
 					
-					print('<textarea id="Comments" name="Comments" cols="120" rows="10">' . $comment_value . '</textarea>');
+					print('<textarea id="Comments" name="Comments" cols="120" rows="10">' . htmlspecialchars($comment_value, ENT_QUOTES, 'UTF-8') . '</textarea>');
 					
 					print(' <span style="color:FF0000;vertical-align:top;margin:10px;">*</span>');
 					print('</nobr>');
@@ -269,7 +269,7 @@
 			
 			print('<input type="hidden" name="userid" id="userid" class="userid" value="' . $this->that->handler->authentication->user_session['User.id'] . '">' . "\n\n");
 			print('<input type="hidden" name="usersessionid" id="usersessionid" class="usersessionid" value="' . $this->that->handler->authentication->user_session['CookieToken'] . '">' . "\n\n");
-			print('<input type="hidden" name="logout" id="logout" class="logout" value="' . $this->that->Param('logout') . '">' . "\n\n");
+			print('<input type="hidden" name="logout" id="logout" class="logout" value="' . htmlspecialchars($this->that->Param('logout'), ENT_QUOTES, 'UTF-8') . '">' . "\n\n");
 			
 			if($this->that->user_likedislike && $this->that->user_likedislike['id']) {
 				print('<input type="hidden" id="likeordislike" class="likeordislike" name="likeordislike" value="');

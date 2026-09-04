@@ -294,7 +294,7 @@
 	
 	for($i = 1; $i <= $this->total_pages; $i++) {
 		if($i !== $this->page) {
-			$total_page_urls .= ' <a href="view.php?action=browse&page=' . $i . '&perpage=' . $this->perpage . '">';
+			$total_page_urls .= ' <a href="view.php?action=browseByTag&tag=' . urlencode($this->Param('tag')) . '&page=' . $i . '&perpage=' . $this->perpage . '">';
 		}
 		
 		$total_page_urls .= $i;
@@ -356,24 +356,26 @@
 			}
 		}
 		
-		print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-		print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-		print('<div class="height-100px width-100px background-color-gray0">');
-		print('<div class="vertical-specialcenter">');
-		print('<a href="' . $child['Code'] . '/view.php">');
-		print('<img width="');
-		print(ceil($child_image['IconPixelWidth'] / 2));
-		print('" height="');
-		print(ceil($child_image['IconPixelHeight'] / 2));
-		print('" src="');
-		print($this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
-		print($child_image_location);
-		print('">');
-		print('</a>');
-		print('</div>');
-		print('</div>');
-		print('</div>');
-		print('</div>');
+		if(isset($child_image)) {
+			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
+			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
+			print('<div class="height-100px width-100px background-color-gray0">');
+			print('<div class="vertical-specialcenter">');
+			print('<a href="' . $child_url . '">');
+			print('<img width="');
+			print(ceil($child_image['IconPixelWidth'] / 2));
+			print('" height="');
+			print(ceil($child_image['IconPixelHeight'] / 2));
+			print('" src="');
+			print($this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
+			print($child_image_location);
+			print('">');
+			print('</a>');
+			print('</div>');
+			print('</div>');
+			print('</div>');
+			print('</div>');
+		}
 		
 		$title_max = 50;
 		
@@ -434,6 +436,8 @@
 			$child_title .= '</a>';
 		}
 		
+		$div_mouseover = '';
+
 		if($child['textbody']) {
 			$text_bodies = $child['textbody'];
 			

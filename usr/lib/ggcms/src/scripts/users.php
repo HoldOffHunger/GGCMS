@@ -71,6 +71,14 @@
 			$this->SetUserCommentsCount();
 			
 			$this->SetUserLikesDislikes([]);
+
+			foreach($this->likedislikes as $likedislike_key => $likedislike) {
+				if($likedislike['LikeOrDislike'] != 1) {
+					unset($this->likedislikes[$likedislike_key]);
+				}
+			}
+
+			$this->likedislikes = array_values($this->likedislikes);
 			$this->SetUserLikesDislikesCount();
 			
 			return TRUE;
@@ -309,8 +317,12 @@
 		}
 		
 		public function SetBrowseParameters_RemainingPages() {
+			$count = $this->comments_count;
+			if($this->likes_count && !$count) {
+				$count = $this->likes_count;
+			}
 			$this->total_children_viewed = $this->perpage * ($this->page - 1);
-			$this->total_children_left = $this->comments_count - $this->total_children_viewed - ($this->child_record_end_index - $this->child_record_start_index + 1);
+			$this->total_children_left = $count - $this->total_children_viewed - ($this->child_record_end_index - $this->child_record_start_index + 1);
 			
 			return TRUE;
 		}

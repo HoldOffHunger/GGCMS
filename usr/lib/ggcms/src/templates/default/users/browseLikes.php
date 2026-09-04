@@ -307,8 +307,6 @@
 				$parent_codes[] = $parent['Code'];
 			}
 			
-			$last_parent = $child['parents'][count($child['parents']) - 2];
-			
 			$parent_code_url = implode('/', $parent_codes);
 			
 			if(count($parent_codes) == 1) {
@@ -320,38 +318,40 @@
 			unset($new_parent_codes[count($new_parent_codes) - 1]);
 			$parents_parent_code_url = implode('/', $new_parent_codes);
 			
-			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-			print('<div class="height-100px width-100px background-color-gray0">');
-			print('<div class="vertical-specialcenter">');
-			print('<a href="' . $parent_code_url . '/view.php');
-			if($extra_action) {
-				print('&action=' . $extra_action);
+			if(isset($display_image)) {
+				print('<div class="border-2px background-color-gray15 margin-5px float-left">');
+				print('<div class="border-2px background-color-gray15 margin-5px float-left">');
+				print('<div class="height-100px width-100px background-color-gray0">');
+				print('<div class="vertical-specialcenter">');
+				print('<a href="' . $parent_code_url . '/view.php');
+				if($extra_action) {
+					print('?action=' . $extra_action);
+				}
+				print('">');
+				print('<img width="');
+				print(ceil($display_image['IconPixelWidth'] / 2));
+				print('" height="');
+				print(ceil($display_image['IconPixelHeight'] / 2));
+				print('" src="');
+				print($this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
+				print('/image/');
+				print(implode('/', str_split($display_image['FileDirectory'])));
+				print('/');
+				print($display_image['IconFileName']);
+				print('">');
+				print('</a>');
+				print('</div>');
+				print('</div>');
+				print('</div>');
+				print('</div>');
 			}
-			print('">');
-			print('<img width="');
-			print(ceil($display_image['IconPixelWidth'] / 2));
-			print('" height="');
-			print(ceil($display_image['IconPixelHeight'] / 2));
-			print('" src="');
-			print($this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
-			print('/image/');
-			print(implode('/', str_split($display_image['FileDirectory'])));
-			print('/');
-			print($display_image['IconFileName']);
-			print('">');
-			print('</a>');
-			print('</div>');
-			print('</div>');
-			print('</div>');
-			print('</div>');
 			
 			$entry_title = '<a href="';
 			$entry_title .= $parent_code_url;
 			$entry_title .= '/view.php';
 			
 			if($extra_action) {
-				$entry_title .= '&action=' . $extra_action;
+				$entry_title .= '?action=' . $extra_action;
 			}
 			
 			$entry_title .= '">';
