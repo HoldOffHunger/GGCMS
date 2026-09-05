@@ -62,6 +62,7 @@
 				$this->DirectoryChecks();
 				$this->GGCMSConfigCheck();
 				$this->SSLCertifications();
+				$this->CAAChecks();
 				
 				/*
 				if($this->userConfirmCertBot()) {
@@ -891,6 +892,200 @@
 		*/
 		
 		
+		/*
+			Who is allowed to issue a certificate for this domain, and whether
+			that list still matches reality.
+
+			A CAA record names the certificate authorities permitted to issue
+			for a domain, and a CA that is not named must refuse.  That is the
+			point of it -- but it also means a CAA record written for one
+			arrangement quietly forbids the next one, and the failure appears
+			at renewal or at a migration rather than when the record was
+			written.
+
+			Measured across the seventeen sites on 5 September 2026: two carry
+			a full set naming five authorities, two name Let's Encrypt alone,
+			and thirteen carry none at all.  Nothing had ever looked.
+
+			The Let's Encrypt-only pair are correct today, because Let's
+			Encrypt is what issues for them.  They would stop being correct the
+			moment either went behind a provider that issues its own -- and one
+			of them is classified commercial, which is to say a candidate for
+			exactly that.  The certificate would simply never appear, with
+			nothing in the provider's dashboard to say why.
+		*/
+
+		public function CAAChecks() {
+			$this->caa_records = $this->CAAChecks_read();
+
+			$this->CAAChecks_present();
+
+			if(count($this->caa_records)) {
+				$this->CAAChecks_permitsCurrentIssuer();
+				$this->CAAChecks_permitsProxyIssuer();
+			}
+
+			return TRUE;
+		}
+
+		/*
+			dig rather than a PHP resolver: dns_get_record() has no CAA support
+			worth relying on, and this class already reaches for the shell in a
+			dozen places.
+		*/
+
+		public function CAAChecks_read() {
+			$output = trim((string) shell_exec('dig +short CAA ' . escapeshellarg($this->domain) . ' 2>/dev/null'));
+
+			if(!strlen($output)) {
+				return [];
+			}
+
+			$records = [];
+
+			foreach(explode("\n", $output) as $line) {
+				$line = trim($line);
+
+				if(!strlen($line)) {
+					continue;
+				}
+
+				$records[] = $line;
+			}
+
+			return $records;
+		}
+
+		public function CAAChecks_present() {
+			print('CAA Checks, Records Present: ');
+
+			if(count($this->caa_records)) {
+				$this->successResults();
+				print(' (' . count($this->caa_records) . ')');
+			} else {
+				print('none set -- any authority may issue for this domain');
+			}
+
+			print("\n");
+
+			return TRUE;
+		}
+
+		/*
+			The mapping is short because the list of authorities that actually
+			issue for these sites is short.  An issuer this does not recognise
+			is reported as unknown rather than as a failure: being unable to
+			name it is not evidence that it is forbidden.
+		*/
+
+		public function CAAChecks_issuerIdentifiers() {
+			return [
+				'Let\'s Encrypt'          => 'letsencrypt.org',
+				'Google Trust Services'   => 'pki.goog',
+				'DigiCert'                => 'digicert.com',
+				'Sectigo'                 => 'comodoca.com',
+				'COMODO'                  => 'comodoca.com',
+				'SSL.com'                 => 'ssl.com',
+			];
+		}
+
+		public function CAAChecks_permits($args) {
+			$identifier = $args['identifier'];
+
+			foreach($this->caa_records as $record) {
+				if(strpos($record, 'issue') === FALSE) {
+					continue;		# iodef names a contact, not an authority
+				}
+
+				if(strpos($record, $identifier) !== FALSE) {
+					return TRUE;
+				}
+			}
+
+			return FALSE;
+		}
+
+		public function CAAChecks_currentIssuer() {
+			$command = 'echo | timeout 15 openssl s_client -connect 127.0.0.1:8443 -servername '
+				. escapeshellarg($this->domain)
+				. ' 2>/dev/null | openssl x509 -noout -issuer 2>/dev/null';
+
+			return trim((string) shell_exec($command));
+		}
+
+		public function CAAChecks_permitsCurrentIssuer() {
+			print('CAA Checks, Permits Current Issuer: ');
+
+			$issuer = $this->CAAChecks_currentIssuer();
+
+			if(!strlen($issuer)) {
+				print('could not read the served certificate');
+				print("\n");
+
+				return FALSE;
+			}
+
+			foreach($this->CAAChecks_issuerIdentifiers() as $name => $identifier) {
+				if(strpos($issuer, $name) === FALSE) {
+					continue;
+				}
+
+				if($this->CAAChecks_permits(['identifier'=>$identifier])) {
+					$this->successResults();
+				} else {
+					$this->failResults();
+					print(' -- ' . $name . ' issues for this domain but CAA does not permit ' . $identifier . '; renewal will be refused');
+				}
+
+				print("\n");
+
+				return TRUE;
+			}
+
+			print('issuer not recognised (' . $issuer . ')');
+			print("\n");
+
+			return TRUE;
+		}
+
+		/*
+			The forward-looking half, and the first thing to read
+			SiteClassification().
+
+			A commercial site is a candidate for sitting behind a provider that
+			terminates TLS and issues its own certificate.  Cloudflare's is
+			Google Trust Services.  A CAA record that omits it does not break
+			anything today and breaks everything on the day of the move, which
+			is the worst moment to learn it.
+
+			Revolutionary sites are not checked for this, because putting one
+			behind a third party that can read its traffic is a decision nobody
+			should be nudged into by a tool.
+		*/
+
+		public function CAAChecks_permitsProxyIssuer() {
+			if(!method_exists($this->globals, 'SiteIsCommercial')) {
+				return FALSE;
+			}
+
+			if(!$this->globals->SiteIsCommercial()) {
+				return FALSE;
+			}
+
+			print('CAA Checks, Permits Proxy Issuer (commercial site): ');
+
+			if($this->CAAChecks_permits(['identifier'=>'pki.goog'])) {
+				$this->successResults();
+			} else {
+				$this->failResults();
+				print(' -- CAA omits pki.goog, so a Cloudflare certificate could never issue for this domain');
+			}
+
+			print("\n");
+
+			return TRUE;
+		}
+
 		public function SSLCertifications_apache_fileChecks() {
 			$this->SSLCertifications_apache_fileChecks_enabledFileCheck();
 			$this->SSLCertifications_apache_fileChecks_availableFileChecks();
