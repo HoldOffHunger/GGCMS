@@ -29,7 +29,7 @@
 			{
 				print('<div class="horizontal-center width-100percent background-color-gray14 border-2px margin-top-5px">');
 				
-				unset($display_image);
+				$display_image = NULL;
 				
 				if($child['image'])
 				{
@@ -159,7 +159,7 @@
 						{
 							$grand_child_display = $this->entrysort->Sort(['entries'=>$grand_children]);
 							
-							unset($grand_child);
+							$grand_child = NULL;
 							foreach($grand_child_display as $single_grand_child)
 							{
 								if(!$grand_child)
@@ -350,7 +350,7 @@
 							{
 								$grand_child_display = $this->entrysort->Sort(['entries'=>$grand_children]);
 								
-								unset($grand_child);
+								$grand_child = NULL;
 								foreach($grand_child_display as $single_grand_child)
 								{
 									if(!$grand_child)

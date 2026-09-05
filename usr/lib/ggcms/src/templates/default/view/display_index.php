@@ -469,6 +469,9 @@
 					if($grandchild['eventdate'])
 					{
 						$grandchild_event_count = count($grandchild['eventdate']);
+						$birth_event = NULL;
+						$death_event = NULL;
+
 						for($k = 0; $k < $grandchild_event_count; $k++)
 						{
 							$grandchild_event = $grandchild['eventdate'][$k];
@@ -664,7 +667,7 @@
 								{
 									$great_grand_children_display = $entrysort->Sort(['entries'=>$great_grand_children]);
 									
-									unset($great_grand_child);
+									$great_grand_child = NULL;
 									foreach($great_grand_children_display as $single_grand_child)
 									{
 										if(!$great_grand_child)

@@ -90,7 +90,7 @@
 		
 		public function Display($args) {
 			if($this->that->entry['associated'] && $this->that->counts['associated']) {
-				if($args['header']) {
+				if(!empty($args['header'])) {
 					$header_text = $args['header'];
 				} else {
 					$header_text = 'Works';
@@ -100,7 +100,7 @@
 					
 					// -------------------------------------------------------------
 				
-				if($args['anchor']) {
+				if(!empty($args['anchor'])) {
 					$anchor = $args['anchor'];
 				} else {
 					$anchor = 'associated';
@@ -137,7 +137,7 @@
 					
 					// -------------------------------------------------------------
 			
-				if(!$args['hide_stats']) {
+				if(empty($args['hide_stats'])) {
 					print('<center>');
 					print('<div class="horizontal-center width-70percent">');
 					print('<div class="border-2px background-color-gray15 margin-5px float-left" title="');
@@ -150,7 +150,7 @@
 					
 					print('">');
 					
-					if($args['creation_type']) {
+					if(!empty($args['creation_type'])) {
 						$creation_type_text = $args['creation_type'];
 					} else {
 						$creation_type_text = 'documents';
@@ -208,23 +208,23 @@
 					
 					$url .= '/view.php?action=browseAssociated';
 					
-					if($args['ignore_parent']) {
+					if(!empty($args['ignore_parent'])) {
 						$url .= '&ignore_parent=' . $args['ignore_parent'];
 					}
 					
-					if($args['parents']) {
+					if(!empty($args['parents'])) {
 						$url .= '&parents=' . $args['parents'];
 					}
 					
-					if($args['item_title']) {
+					if(!empty($args['item_title'])) {
 						$url .= '&item_title=' . $args['item_title'];
 					}
 					
-					if($args['list_author']) {
+					if(!empty($args['list_author'])) {
 						$url .= '&list_author=' . $args['list_author'];
 					}
 					
-					if($args['item_title']) {
+					if(!empty($args['stats_prefix'])) {
 						$url .= '&stats_prefix=' . urlencode($args['stats_prefix']);
 					}
 					

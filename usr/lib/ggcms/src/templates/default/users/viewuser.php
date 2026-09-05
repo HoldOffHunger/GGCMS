@@ -692,6 +692,10 @@
 			if($entry['eventdate'])
 			{
 				$entry_event_count = count($entry['eventdate']);
+				$publication_event = NULL;
+				$birth_event = NULL;
+				$death_event = NULL;
+
 				for($i = 0; $i < $entry_event_count; $i++)
 				{
 					$entry_event = $entry['eventdate'][$i];
@@ -914,7 +918,7 @@
 						{
 							$grand_child_display =  $entrysort->Sort(['entries'=>$grand_children]);
 							
-							unset($grand_child);
+							$grand_child = NULL;
 							foreach($grand_child_display as $single_grand_child)
 							{
 								if(!$grand_child)

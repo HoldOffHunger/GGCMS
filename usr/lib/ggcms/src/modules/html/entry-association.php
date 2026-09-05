@@ -42,7 +42,7 @@
 		
 		public function Display($args) {
 			if($this->that->entry['association'] && $this->that->counts['association']) {
-				if($args['parent_code']) {
+				if(!empty($args['parent_code'])) {
 					$parent_code = $args['parent_code'];
 				} else {
 					$parent_code = 'people';
@@ -62,7 +62,7 @@
 				
 				$max = 0;
 				
-				if($args['max']) {
+				if(!empty($args['max'])) {
 					$max = $args['max'];
 				} else {
 					$max = $this->that->counts['association'];
@@ -71,14 +71,14 @@
 				for($i = 0; $i < $max; $i++) {
 					$association = $associations[$i];
 					
-					if(!$args['type'] || $args['type'] === $association['Type']) {
+					if(empty($args['type']) || $args['type'] === $association['Type']) {
 						$child = $association['entry'];
 						
 						print('<div class="horizontal-center width-90percent">');
 					
 						print('<div class="horizontal-center width-100percent background-color-gray14 border-2px margin-top-5px">');
 						
-						unset($display_image);
+						$display_image = NULL;
 						
 						if($child['image']) {
 							$child_images = $child['image'];
@@ -91,11 +91,11 @@
 						}
 						
 						if(!$display_image) {
-							if($this->that->entry['association'][0]['entry']['image'] && count($this->that->entry['association'][0]['entry']['image'])) {
+							if(!empty($this->that->entry['association'][0]['entry']['image'])) {
 								$display_image = $this->that->entry['association'][0]['entry']['image'][0];
-							} elseif($child['association'][0]['entry']['image'] && count($child['association'][0]['entry']['image'])) {
+							} elseif(!empty($child['association'][0]['entry']['image'])) {
 								$display_image = $child['association'][0]['entry']['image'][0];
-							} elseif($this->that->master_record['image'] && $this->that->master_record['image'][0]) {
+							} elseif(!empty($this->that->master_record['image'][0])) {
 								$display_image = $this->that->master_record['image'][0];
 							} else {
 								$display_image = [
@@ -134,7 +134,7 @@
 						
 						$first_child_title = $association['SubType'];
 						
-						if(!$first_child_title && $args['type']) {
+						if(!$first_child_title && !empty($args['type'])) {
 							$first_child_title .= ucfirst($args['type']);
 						}
 						
@@ -208,6 +208,9 @@
 						
 						if($child['eventdate']) {
 							$child_event_count = count($child['eventdate']);
+							$birth_event = NULL;
+							$death_event = NULL;
+
 							for($j = 0; $j < $child_event_count; $j++) {
 								$child_event = $child['eventdate'][$j];
 								
