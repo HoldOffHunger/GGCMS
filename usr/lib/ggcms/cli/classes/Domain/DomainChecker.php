@@ -943,10 +943,34 @@
 
 			$records = [];
 
+				/*
+					Only lines that look like a CAA record.
+
+					dig writes its own troubles to standard output, and on a
+					host whose resolver is unreliable that is a regular event:
+					";; communications error to 8.8.8.8#53: timed out" arrived
+					in the middle of this check on 5 September 2026 and was
+					counted as a record, whereupon revoltlib -- which has no CAA
+					records at all -- was reported as having one that forbids
+					its own certificate authority.
+
+					A checker that turns a dropped DNS packet into a failing
+					certificate check is worse than no checker, because the
+					first few false alarms are what teach somebody to stop
+					reading its output.
+
+					A record from `dig +short CAA` is a flags byte, a property
+					tag, and a quoted value.  Nothing else is one.
+				*/
+
 			foreach(explode("\n", $output) as $line) {
 				$line = trim($line);
 
 				if(!strlen($line)) {
+					continue;
+				}
+
+				if(!preg_match('/\A[0-9]+\s+[a-z]+\s+"/i', $line)) {
 					continue;
 				}
 
