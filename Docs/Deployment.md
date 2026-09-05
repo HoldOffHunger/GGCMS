@@ -77,10 +77,60 @@ It will:
 |---|---|
 | `php.ini` | Holds the database credentials in `mysqli.default_*`. Not in the repository. |
 | `/srv/ggcms/<domain>/` | Site content and uploaded images, gigabytes of it. Backed up separately. |
+| `/etc/hosts` | Pins the managed database's address. Maintained by `bin/refresh_db_host.sh`, not by deployment. See below. |
 | `/var/log/` | Logs. |
 | `/etc/apache2/sites-*` | Vhosts, managed by certbot. Changing these from a deploy would be a good way to take every site down at once. |
 | Let's Encrypt anything | Managed by certbot and its timer. |
 | The database | No migrations run automatically. |
+
+## The database host is pinned
+
+The database is not on the droplet. It is a DigitalOcean managed MySQL,
+reached over the network at `mysqli.default_host`, and PHP under prefork has
+no connection pool — so every request resolves that hostname before it can do
+anything at all.
+
+DigitalOcean publishes it with a **30 second TTL**. On 5 September 2026
+`systemd-resolved` had served 33,691 lookups from cache against 1,042,019
+misses: a 3% hit rate, meaning effectively every page view went out to the
+network for DNS. And this droplet's DNS is lossy. Measured the same morning,
+bypassing the cache entirely:
+
+```
+dig @67.207.67.3   6 of 10 succeeded
+dig @1.1.1.1       2 of 10 succeeded
+```
+
+A dropped packet means `DBStart()` cannot connect, `IsLinkOpen()` returns
+false, and `DBAccess.php` rethrows an uncaught fatal. That was **4,672 five
+hundreds served to real visitors in thirteen hours**, along with the 504s, and
+it is why `check_domain.php` occasionally reports a CAA record that does not
+exist.
+
+So the address is written into `/etc/hosts`, which glibc consults before DNS.
+TLS is unaffected — mysqli still connects *by hostname*, so the certificate
+still verifies against it.
+
+**This is a pin, not a fact.** DigitalOcean can move the address on failover
+or during maintenance, and a stale pin takes all seventeen sites down. That is
+what `bin/refresh_db_host.sh` is for:
+
+```bash
+15 * * * * /opt/ggcms/bin/refresh_db_host.sh
+```
+
+It reads the hostname and port from `php.ini` rather than holding its own
+copy, resolves with `dig` (never `getent`, which would read the pin back and
+agree with itself for ever), and **requires four of eight lookups to agree**
+before it will believe a new address — because a script that rewrote the pin
+on a single answer would inherit exactly the unreliability the pin was added
+to escape. Before writing, it opens a socket to the new address on the
+database port; an address nothing is listening on is a failed lookup wearing a
+plausible costume. Every rewrite leaves a timestamped backup beside the file
+and a line in syslog.
+
+If every lookup fails, it changes nothing and says so. That is the weather
+here, and it is precisely when the pin is doing its job.
 
 ## Rolling back
 
