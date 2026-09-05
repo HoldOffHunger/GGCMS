@@ -31,7 +31,7 @@ function onSignIn(googleUser) {
 
 $(document).ready(function(event){
 	$('#comment-form').submit(function(e) {
-		if(!$('#userid') && $('#userid').attr('id') && $('#userid').val() && !$('#google_token_id').val()) {
+		if($('#userid').attr('id') && $('#userid').val() && !$('#google_token_id').val()) {
 			if(!$('#Comments').val() || ($('#Username').prop('id') && !$('#Username').val())) {
 				$('#error-box').show();
 				
