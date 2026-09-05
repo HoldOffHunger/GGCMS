@@ -218,6 +218,25 @@ if [ -d "$CONFIG/etc/nginx/sites-available" ]; then
 
 	rsync -a "$CONFIG/etc/nginx/sites-available/" "/etc/nginx/sites-available/"
 
+		#  nginx.conf too, when the configuration repository carries one.
+		#
+		#  It did not, until 5 September 2026, and that cost a full front-end
+		#  outage: open_file_cache was raised past the 1024 descriptors a
+		#  worker is given, accept4() began failing with "Too many open files",
+		#  and nginx stopped answering on every site while systemd still
+		#  reported it active.  The fix -- worker_rlimit_nofile -- belongs in
+		#  the main context, which no file under sites-available can reach, so
+		#  it was applied by hand to a file nothing tracked.  A package upgrade
+		#  would have reverted it silently and returned the outage with no diff
+		#  anywhere to explain it.
+		#
+		#  Optional on purpose: an installation that has not adopted the file
+		#  keeps whatever its distribution shipped, and this stays a no-op.
+
+	if [ -f "$CONFIG/etc/nginx/nginx.conf" ]; then
+		rsync -a "$CONFIG/etc/nginx/nginx.conf" "/etc/nginx/nginx.conf"
+	fi
+
 		#  Never reload a front end that would not start.  nginx -t validates
 		#  without touching the running server, so a failed test here leaves
 		#  the previous configuration serving rather than nothing at all.
