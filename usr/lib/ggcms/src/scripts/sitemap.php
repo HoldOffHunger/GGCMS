@@ -33,8 +33,6 @@
 						// ---------------------------------------------
 		
 		public function display() {
-			print '';
-			return FALSE;
 			$this->SetORM();
 			$this->SetRecordTree();
 			
