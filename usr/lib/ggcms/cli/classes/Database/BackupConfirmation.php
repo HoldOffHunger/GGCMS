@@ -31,13 +31,16 @@
 		             archived dump of the same site. Content does get deleted,
 		             so this is a warning and not a failure, but a database
 		             that halved overnight is worth a human glance.
-		  LATIN1     the file carries no SET NAMES, so it was written through
-		             the latin1 connection this tool used until 1 September
-		             2026. Those dumps are lossy above cp1252 and MUST be
-		             restored with `mysql --default-character-set=latin1`.
-		             Nothing in the filename says so, which is precisely why it
-		             is checked here: a dump you restore wrongly is worse than
-		             one you know you do not have.
+		  NO_CHARSET the file carries no SET NAMES and so does not say how it
+		             should be read. Two faults produce that. A dump written
+		             before 1 September 2026 went through a latin1 connection
+		             and is genuinely lossy above cp1252; a dump written
+		             between then and 6 September 2026 holds correct utf8mb4
+		             bytes but carried -N, which mysqldump documents as
+		             --no-set-names, so it never declared them. The file cannot
+		             tell you which it is -- its date can. Either way, nothing
+		             in the filename says so, and a dump restored wrongly is
+		             worse than one you know you do not have.
 
 		With --deep it also counts CREATE TABLE statements in the file and
 		compares them against the live database's table count, which is the
@@ -202,8 +205,21 @@
 			}
 
 			if(!$this->declaresCharset($path)) {
-				$warnings[] = 'LATIN1';
-				$result['notes'][] = 'no SET NAMES; restore with --default-character-set=latin1';
+				$warnings[] = 'NO_CHARSET';
+
+					/*
+						Renamed from LATIN1 on 6 September 2026, because that
+						name asserted more than the check knows. Two different
+						faults produce a dump with no SET NAMES: one written
+						through a latin1 connection before 1 September, which
+						is genuinely lossy above cp1252, and one written after
+						it but carrying -N, which holds correct utf8mb4 bytes
+						and merely fails to say so. The file cannot tell you
+						which it is. Say what is true and let the dump's date
+						decide the rest.
+					*/
+
+				$result['notes'][] = 'file declares no character set; if dumped before 1 Sept 2026 restore with --default-character-set=latin1, otherwise it is utf8mb4 undeclared';
 			}
 
 			$shrink = $this->shrinkAgainstArchive([
@@ -297,6 +313,38 @@
 			*/
 
 		public function endsCleanly($path) {
+			if($this->isGzip($path)) {
+
+					/*
+						A gzip stream cannot be seeked to its end cheaply, so
+						the whole file is read and only the last 4 KB kept.
+						That is the price of compression and it is worth it:
+						the estate is about 7 GB uncompressed and 433 MB gzipped.
+					*/
+
+				$handle = @gzopen($path, 'rb');
+
+				if($handle === FALSE) {
+					return FALSE;
+				}
+
+				$tail = '';
+
+				while(!gzeof($handle)) {
+					$chunk = gzread($handle, 65536);
+
+					if($chunk === FALSE || $chunk === '') {
+						break;
+					}
+
+					$tail = substr($tail . $chunk, -4096);
+				}
+
+				gzclose($handle);
+
+				return strpos($tail, 'Dump completed') !== FALSE;
+			}
+
 			$handle = @fopen($path, 'rb');
 
 			if($handle === FALSE) {
@@ -317,16 +365,32 @@
 			return strpos($tail, 'Dump completed') !== FALSE;
 		}
 
+		public function isGzip($path) {
+			return strtolower(substr($path, -3)) === '.gz';
+		}
+
 		public function declaresCharset($path) {
-			$handle = @fopen($path, 'rb');
+			if($this->isGzip($path)) {
+				$handle = @gzopen($path, 'rb');
 
-			if($handle === FALSE) {
-				return FALSE;
+				if($handle === FALSE) {
+					return FALSE;
+				}
+
+				$head = (string) gzread($handle, 8192);
+
+				gzclose($handle);
+			} else {
+				$handle = @fopen($path, 'rb');
+
+				if($handle === FALSE) {
+					return FALSE;
+				}
+
+				$head = (string) fread($handle, 8192);
+
+				fclose($handle);
 			}
-
-			$head = (string) fread($handle, 8192);
-
-			fclose($handle);
 
 			return stripos($head, 'SET NAMES') !== FALSE;
 		}
@@ -366,7 +430,9 @@
 		}
 
 		public function listDumpedTables($path) {
-			$handle = @fopen($path, 'rb');
+			$gz = $this->isGzip($path);
+
+			$handle = $gz ? @gzopen($path, 'rb') : @fopen($path, 'rb');
 
 			if($handle === FALSE) {
 				return [];
@@ -374,7 +440,7 @@
 
 			$tables = [];
 
-			while(($line = fgets($handle)) !== FALSE) {
+			while(($line = $gz ? gzgets($handle) : fgets($handle)) !== FALSE) {
 				if(strncasecmp(ltrim($line), 'CREATE TABLE', 12) !== 0) {
 					continue;
 				}
@@ -384,7 +450,11 @@
 				}
 			}
 
-			fclose($handle);
+			if($gz) {
+				gzclose($handle);
+			} else {
+				fclose($handle);
+			}
 
 			return $tables;
 		}
@@ -498,7 +568,7 @@
 				$only_warnings = TRUE;
 
 				foreach(explode('+', $result['status']) as $flag) {
-					if(!in_array($flag, ['LATIN1', 'SHRUNK'], TRUE)) {
+					if(!in_array($flag, ['NO_CHARSET', 'SHRUNK'], TRUE)) {
 						$only_warnings = FALSE;
 					}
 				}

@@ -235,6 +235,15 @@
 			/*
 				utf8mb4 on the connection, and SET NAMES left in the file.
 
+				The second half of that was not true until 6 September 2026.  The
+				command carried -N, which mysqldump documents as --no-set-names,
+				"Same as --skip-set-charset" -- so it explicitly stripped the SET
+				NAMES line this comment claimed was present.  The 1 September fix
+				corrected the connection, so dumps taken after it hold correct
+				utf8mb4 bytes, but the file never said so and a restore through a
+				client defaulting to anything else would have misread them.  -N is
+				gone; it was doing nothing anybody wanted.
+
 				This dumped through a latin1 connection until 1 September 2026, and
 				that is lossy.  MySQL's latin1 is really cp1252, so dashes and curly
 				quotes did survive -- but nothing beyond cp1252 did, and it failed
@@ -247,7 +256,7 @@
 				and a file from after are not interchangeable, and nothing in the
 				filename says which one you are holding.
 			*/
-			$mysqldump = 'nice mysqldump --max_allowed_packet=1M --default-character-set=utf8mb4 --no-tablespaces -N --routines --quick --skip-triggers --set-gtid-purged=OFF ' . $this->host . ' > ' . $this->file_location;
+			$mysqldump = 'nice mysqldump --max_allowed_packet=1M --default-character-set=utf8mb4 --no-tablespaces --routines --quick --skip-triggers --set-gtid-purged=OFF ' . $this->host . ' > ' . $this->file_location;
 			
 			$mysqldump_pieces = explode(' ', $mysqldump);
 			print(implode(PHP_EOL . '    ', $mysqldump_pieces));
