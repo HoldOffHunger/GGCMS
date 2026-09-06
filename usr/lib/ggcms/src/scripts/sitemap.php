@@ -108,6 +108,26 @@
 				}
 			}
 			
+
+				/*
+					A sitemap index is an XML shape.  Handed to the txt renderer it
+					printed `* Array`, because that path expects a flat list of
+					strings and got a nested document -- so the three paginated
+					sites had no usable sitemap.txt at all while the other
+					fourteen were fine.  txt has no index format, so it gets what
+					it can use: the URLs of the parts, one per line.
+				*/
+
+			if($this->script_format_lower === 'txt') {
+				$sitemap = [];
+
+				foreach($sitemap_pages as $sitemap_page) {
+					$sitemap[] = $sitemap_page['sitemap']['url'] . ' (lastmod: ' . $sitemap_page['sitemap']['lastmod'] . ')';
+				}
+
+				return $this->sitemap = $sitemap;
+			}
+
 			$sitemap = [
 				[
 					'sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'=>$sitemap_pages,
@@ -689,7 +709,7 @@
 				],
 				[
 					'url'=>[
-						'loc='>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/contact.php',
+						'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/contact.php',
 						'lastmod'=>$contact_last_mod,
 						'changefreq'=>$contact_change_freq,
 						'priority'=>$contact_priority,
