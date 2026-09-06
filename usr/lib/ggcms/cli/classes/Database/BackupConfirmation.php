@@ -172,6 +172,23 @@
 			$newest = $this->newestFile($backup_dir);
 
 			if($newest === '') {
+
+					/*
+						Only asked when a dump is absent, so an ordinary run
+						never touches the database. A configuration file can
+						outlive its site -- abstractcon.com is retired and its
+						config is not -- and reporting that as a backup failure
+						would exit 2 every night for something no backup can
+						ever fix.
+					*/
+
+				if(!$this->databaseExists($database)) {
+					$result['status'] = 'NO_DB';
+					$result['notes'][] = 'no database named `' . $database . '`; retired site? delete the stale config';
+
+					return $result;
+				}
+
 				$result['notes'][] = 'no dump has ever been taken';
 
 				return $result;
@@ -225,6 +242,7 @@
 			$shrink = $this->shrinkAgainstArchive([
 				'domain' => $domain,
 				'bytes'  => $result['bytes'],
+				'path'   => $path,
 			]);
 
 			if($shrink['percent'] > $this->shrink_percent) {
@@ -365,6 +383,25 @@
 			return strpos($tail, 'Dump completed') !== FALSE;
 		}
 
+		public function databaseExists($database) {
+			$command = 'mysql -N -e ' . escapeshellarg(
+				'SELECT COUNT(*) FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = ' .
+				"'" . str_replace("'", '', $database) . "'"
+			) . ' 2>/dev/null';
+
+			$output = trim((string) shell_exec($command));
+
+				/*
+					An unreachable database must not be read as a missing one.
+					Only a definite '0' answers the question; anything else --
+					no output, an error, a cluster that has gone away -- leaves
+					the site reported as MISSING, which is the safer wrong
+					answer of the two.
+				*/
+
+			return $output !== '0';
+		}
+
 		public function isGzip($path) {
 			return strtolower(substr($path, -3)) === '.gz';
 		}
@@ -396,8 +433,9 @@
 		}
 
 		public function shrinkAgainstArchive($args) {
-			$domain = $args['domain'];
-			$bytes  = $args['bytes'];
+			$domain       = $args['domain'];
+			$bytes        = $args['bytes'];
+			$current_path = $args['path'];
 
 			$archive_dir = GGCMS_LOG_DIR . $domain . '/sql/archive/';
 
@@ -406,6 +444,18 @@
 			$none = ['percent' => 0, 'date' => ''];
 
 			if($previous === '' || $bytes <= 0) {
+				return $none;
+			}
+
+				/*
+					Compare like with like or not at all. The first gzipped
+					dump of every site sat beside an uncompressed archive and
+					was reported as "95% smaller", which is true of the bytes
+					and false about the data. A comparison across compression
+					formats measures gzip, not loss.
+				*/
+
+			if($this->isGzip($archive_dir . $previous) !== $this->isGzip($current_path)) {
 				return $none;
 			}
 
@@ -568,7 +618,7 @@
 				$only_warnings = TRUE;
 
 				foreach(explode('+', $result['status']) as $flag) {
-					if(!in_array($flag, ['NO_CHARSET', 'SHRUNK'], TRUE)) {
+					if(!in_array($flag, ['NO_CHARSET', 'SHRUNK', 'NO_DB'], TRUE)) {
 						$only_warnings = FALSE;
 					}
 				}
