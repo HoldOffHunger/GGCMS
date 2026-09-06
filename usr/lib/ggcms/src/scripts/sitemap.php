@@ -87,7 +87,16 @@
 						'?page=' . $sitemap_piece['Code'];
 
 					if($parts > 1) {
-						$url .= '&part=' . $part;
+
+							/*
+								A bare & is not valid XML.  These URLs go straight into
+								<url> elements of the sitemap index, so the document was
+								rejected at the first paginated section -- column 133 of
+								line 1 on revoltlib.  The txt sitemap wants the literal
+								character, so this is asked rather than assumed.
+							*/
+
+						$url .= ($this->script_format_lower === 'xml' ? '&amp;' : '&') . 'part=' . $part;
 					}
 
 					$sitemap_pages[] = [

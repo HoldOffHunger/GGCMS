@@ -59,7 +59,26 @@
 						}
 					}
 				} else {
-					
+
+						/*
+							An integer key cannot be an XML element name -- names may
+							not begin with a digit -- and this branch wrapped one
+							anyway, emitting <0>1</0> and making the document invalid
+							at the first entry.  Fourteen of seventeen sitemaps failed
+							to parse on exactly this.  The array branch above has
+							always skipped integer keys; this one did not.
+
+							Skipped rather than unwrapped, because bare text inside
+							<url> is well formed but not a valid sitemap either.
+							NOTE: something upstream is putting a scalar under an
+							integer key where 'loc' belongs; this makes the output
+							valid but does not explain that.
+						*/
+
+					if(is_int($list_key)) {
+						continue;
+					}
+
 					print('<' . $list_key  . '>' . $list_item . '</' . $list_key . '>');
 					
 					if($human_readable) {

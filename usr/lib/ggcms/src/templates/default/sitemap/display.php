@@ -59,18 +59,38 @@
 		
 		// -------------------------------------------------------------
 	
-	ggreq('modules/html/entry-header.php');
-	ggreq('modules/html/entry-index-header.php');
-	$entryindexheader = new module_entryindexheader([
-		'that'=>$this,
-		'main_text'=>'SiteMap of ' . $this->master_record['Title'],
-	]);
+		/*
+			HTML only.  Every other module above is loaded from
+			modules/{$this->script_format_lower}/, and the navigation block
+			below is already guarded -- these two alone hardcoded
+			modules/html/ and ran for every format.  So sitemap.xml and
+			sitemap.txt each began with 1,110 bytes of the site's HTML
+			header, logo and all, before their real content.  The XML itself
+			was always well formed; it was wearing a hat.
+		*/
 	
-	$entryindexheader->Display();
+	if($this->script_format_lower == 'html')
+	{
+		ggreq('modules/html/entry-header.php');
+		ggreq('modules/html/entry-index-header.php');
+		$entryindexheader = new module_entryindexheader([
+			'that'=>$this,
+			'main_text'=>'SiteMap of ' . $this->master_record['Title'],
+		]);
+		
+		$entryindexheader->Display();
+	}
 	
 			// Get Instructions Language
 		
 		// -------------------------------------------------------------
+	
+		//  Assigned before use.  It was set at the foot of this file, inside
+		//  the html-only block, yet read here -- so the sitemap.xml and
+		//  sitemap.txt links in this sentence rendered as bare relative
+		//  paths, on top of an undefined-variable warning.
+	
+	$primary_url = $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]);
 	
 	if($this->language_object->getLanguageCode() == 'en')
 	{
@@ -96,8 +116,6 @@
 	
 	if($this->script_format_lower == 'html')
 	{
-		$primary_url = $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]);
-		
 		$version_list_display_args = [
 			'options'=>[
 				'tableheaders'=>0,
