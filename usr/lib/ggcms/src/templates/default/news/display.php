@@ -839,31 +839,31 @@
 		
 		print('<p style="margin:5px;padding:0px;font-family:\'arial\', \'tahoma\';">');
 		
-		print('<a href="news.php?items=20">');
+		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=20">');
 		print('20 Items');
 		print('</a>');
 		
 		print(' | ');
 		
-		print('<a href="news.php?items=50">');
+		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=50">');
 		print('50 Items');
 		print('</a>');
 		
 		print(' | ');
 		
-		print('<a href="news.php?items=100">');
+		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=100">');
 		print('100 Items');
 		print('</a>');
 		
 		print(' | ');
 		
-		print('<a href="news.php?items=500">');
+		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=500">');
 		print('500 Items');
 		print('</a>');
 		
 		print(' | ');
 		
-		print('<a href="news.php?items=1000">');
+		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=1000">');
 		print('1,000 Items');
 		print('</a>');
 		

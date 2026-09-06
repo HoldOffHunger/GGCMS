@@ -42,7 +42,15 @@
 			print('<strong>');
 			print('<div class="border-2px" style="display:inline;margin:20px;">');
 			print('<div style="display:inline;margin:20px;">');
-			print('<a href="news.php">');
+				/*
+					Absolute, not relative.  "news.php" resolves against the
+					current entry, so on /anarchism/anna-karenina/ this asked for
+					/anarchism/anna-karenina/news.php -- a 404 that a crawler then
+					follows and compounds.  navigation.php has always built this
+					link correctly; this one did not.
+				*/
+
+			print('<a href="' . $this->that->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php">');
 			print('Newest Additions :');
 			print('</a>');
 			print('</div>');
