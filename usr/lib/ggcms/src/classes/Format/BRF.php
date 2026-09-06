@@ -244,6 +244,56 @@ return $input;
 				'&#156;'=>'oe',
 				'&#158;'=>'z',
 				'&#159;'=>'Y',
+				
+				/*
+					ASCII punctuation with no braille glyph.
+					
+					These fifteen characters accounted for 2,685 `Missing Braille
+					Glyph` tickets on revoltlib alone.  Once the Windows-1252
+					references above stopped being mangled into `and#151;`, what
+					remained was ordinary punctuation in the source text --
+					hashtags, typewriter quotes, rules of underscores -- reaching a
+					converter that has no cell for any of it.
+					
+					ORDER MATTERS.  str_replace works through this table in
+					sequence, so the doubled backtick has to be listed before the
+					single one or ``Anarchist becomes ""Anarchist.  And every entry
+					here sits AFTER the numeric references above, so a stray
+					&#NNN; is translated before the # rule could turn it into
+					&hashtag NNN;.
+					
+					The words carry their own spacing because the source rarely
+					does: `50%` has to read as `50 percent`, not `50percent`.  The
+					cost is a double space where the source already had one, which
+					is the cheaper of the two mistakes.
+				*/
+				
+					//  TeX-style quotes, opened with `` and closed with ''.  The
+					//  backtick has no braille cell at all; the doubled apostrophe
+					//  has one and merely reads as two apostrophes, so it raised no
+					//  ticket and was wrong anyway.  Both halves, or neither.
+				
+				'``'=>'"',
+				"''"=>'"',
+				'`'=>'"',
+				
+				'#'=>'hashtag ',
+				'$'=>'dollars ',
+				'%'=>' percent',
+				'='=>' equals ',
+				'^'=>' caret ',
+				'<'=>' less than ',
+				'>'=>' greater than ',
+				'+'=>' plus ',
+				'@'=>' at ',
+				
+					//  Stripped: separators and markup leakage, not prose.
+				
+				'_'=>'',
+				'{'=>'',
+				'}'=>'',
+				'|'=>'',
+				'~'=>'',
 			];
 		}
 		
