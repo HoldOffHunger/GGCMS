@@ -182,7 +182,9 @@
 						ever fix.
 					*/
 
-				if(!$this->databaseExists($database)) {
+				$state = $this->databaseState($database);
+
+				if($state === 'absent') {
 					$result['status'] = 'NO_DB';
 					$result['notes'][] = 'no database named `' . $database . '`; retired site? delete the stale config';
 
@@ -190,6 +192,10 @@
 				}
 
 				$result['notes'][] = 'no dump has ever been taken';
+
+				if($state === 'unknown') {
+					$result['notes'][] = 'and the database could not be reached, so this may be an unbacked-up site or an unreachable one -- they are not the same problem';
+				}
 
 				return $result;
 			}
@@ -383,7 +389,20 @@
 			return strpos($tail, 'Dump completed') !== FALSE;
 		}
 
-		public function databaseExists($database) {
+			/*
+				Three answers, not two. "The database is gone" and "I could not
+				ask" are different facts and only one of them is the site's
+				fault, but a boolean forces them into the same box -- and the
+				box it picked was MISSING, which at 06:30 reads as data loss
+				when it may only mean the credentials were not readable.
+
+				Found by running the cron line under env -i, which strips HOME
+				and so hides /root/.my.cnf from the mysql client. Real cron sets
+				HOME and the tool behaves correctly, but a check that reports
+				loss when it means uncertainty is worth not shipping.
+			*/
+
+		public function databaseState($database) {
 			$command = 'mysql -N -e ' . escapeshellarg(
 				'SELECT COUNT(*) FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = ' .
 				"'" . str_replace("'", '', $database) . "'"
@@ -391,15 +410,15 @@
 
 			$output = trim((string) shell_exec($command));
 
-				/*
-					An unreachable database must not be read as a missing one.
-					Only a definite '0' answers the question; anything else --
-					no output, an error, a cluster that has gone away -- leaves
-					the site reported as MISSING, which is the safer wrong
-					answer of the two.
-				*/
+			if($output === '0') {
+				return 'absent';
+			}
 
-			return $output !== '0';
+			if($output === '1') {
+				return 'present';
+			}
+
+			return 'unknown';
 		}
 
 		public function isGzip($path) {
