@@ -9,6 +9,10 @@
 		and confirm_database_backup.php is the one that reads the results back.
 
 			0   every site dumped and passed its own footer check
+			1   a configured site has no database. A config can outlive the
+			    site it described, and that is a tidying job rather than a
+			    backup failure -- it must not exit 2, because a nightly alarm
+			    that is always wrong is one nobody reads
 			2   at least one site failed; the sites that failed kept the
 			    backup they already had
 
@@ -26,6 +30,13 @@
 		ARGUMENTS -- all optional:
 
 			--domain=NAME    only sites matching this substring
+			--all-databases  also dump databases that have no configuration
+			                 file. Without it the site list comes from
+			                 com.*.php alone, and a database nobody wrote a
+			                 config for is invisible -- which is how
+			                 alldictionaries, 45 MB of it, was protected by
+			                 nothing at all. These are named <database>.database
+			                 rather than for a domain, because they have none.
 			--keep=N         archived dumps to retain per site, default 3
 			--no-gzip        write plain .sql instead of .sql.gz. The whole
 			                 estate compresses from about 7 GB to 433 MB, so

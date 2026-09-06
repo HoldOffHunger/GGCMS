@@ -99,8 +99,9 @@
 			// Arguments
 
 		public function readArguments() {
-			$this->only_domain = $this->argumentValue('domain', '');
-			$this->keep        = max(1, (int) $this->argumentValue('keep', 3));
+			$this->only_domain   = $this->argumentValue('domain', '');
+			$this->all_databases = $this->argumentPresent('all-databases');
+			$this->keep          = max(1, (int) $this->argumentValue('keep', 3));
 			$this->gzip        = !$this->argumentPresent('no-gzip');
 			$this->dry_run     = $this->argumentPresent('dry-run');
 			$this->quiet       = $this->argumentPresent('quiet');
@@ -140,9 +141,68 @@
 				$sites[$domain] = $database;
 			}
 
+				/*
+					A database with no configuration file is invisible to the
+					site list, and invisible is how alldictionaries -- 45 MB of
+					it -- went unbacked-up. --all-databases adds everything the
+					server actually holds, named for the database rather than
+					for a domain, so nothing is protected only by having been
+					remembered.
+				*/
+
+			if($this->all_databases) {
+				foreach($this->liveDatabases() as $database) {
+					if(in_array($database, $sites, TRUE)) {
+						continue;
+					}
+
+					$domain = $database . '.database';
+
+					if(strlen($this->only_domain) && stripos($domain, $this->only_domain) === FALSE) {
+						continue;
+					}
+
+					$sites[$domain] = $database;
+				}
+			}
+
 			ksort($sites);
 
 			return $sites;
+		}
+
+		public function liveDatabases() {
+			$command = 'mysql -N -e ' . escapeshellarg('SHOW DATABASES') . ' 2>/dev/null';
+
+			$output = trim((string) shell_exec($command));
+
+			if(!strlen($output)) {
+				return [];
+			}
+
+			$skip = ['information_schema', 'performance_schema', 'mysql', 'sys', 'defaultdb'];
+
+			return array_values(array_diff(
+				array_filter(array_map('trim', explode("\n", $output))),
+				$skip
+			));
+		}
+
+			/*
+				A configuration file can outlive its database -- abstractcon.com
+				was retired and its com.abstractcon.php was not. That is not a
+				backup failure and must not exit 2, because a nightly alarm that
+				is always wrong is one nobody reads. It is reported, it warns,
+				and the fix is to delete the stale configuration.
+			*/
+
+		public function databaseExists($database) {
+			$command = 'mysql -N -e ' . escapeshellarg(
+				'SELECT COUNT(*) FROM information_schema.SCHEMATA WHERE SCHEMA_NAME = ' .
+				"'" . str_replace("'", '', $database) . "'"
+			) . ' 2>/dev/null';
+
+			return trim((string) shell_exec($command)) === '1';
 		}
 
 			// One site
@@ -167,6 +227,13 @@
 
 					return $result;
 				}
+			}
+
+			if(!$this->databaseExists($database)) {
+				$result['status'] = 'NO_DB';
+				$result['note']   = 'no database named `' . $database . '`; retired site? delete the stale config';
+
+				return $result;
 			}
 
 			$filename = 'mysqldump_' . $domain . '_' . time() . '.sql' . ($this->gzip ? '.gz' : '');
@@ -443,8 +510,8 @@
 			print('SUMMARY  ' . count($results) . ' site(s):  ' . implode(',  ', $pieces) . "\n\n");
 
 			foreach($results as $result) {
-				if($result['status'] === 'FAILED') {
-					print('  FAILED: ' . $result['domain'] . ' -- ' . $result['note'] . "\n");
+				if($result['status'] === 'FAILED' || $result['status'] === 'NO_DB') {
+					print('  ' . $result['status'] . ': ' . $result['domain'] . ' -- ' . $result['note'] . "\n");
 				}
 			}
 
@@ -452,13 +519,19 @@
 		}
 
 		public function exitCode($results) {
+			$worst = 0;
+
 			foreach($results as $result) {
 				if($result['status'] === 'FAILED') {
 					return 2;
 				}
+
+				if($result['status'] === 'NO_DB') {
+					$worst = 1;
+				}
 			}
 
-			return 0;
+			return $worst;
 		}
 
 		public function humanBytes($bytes) {
