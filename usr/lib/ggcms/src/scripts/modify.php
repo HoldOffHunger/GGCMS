@@ -1074,13 +1074,41 @@
 							$original_image_location_pieces = str_split($record_to_delete['FileDirectory']);
 							$dir_pieces = implode('/', $original_image_location_pieces);
 							
-							$image_file_location = '../' . $image_directory_location . $dir_pieces . '/' . $record_to_delete['FileName'];
-							$icon_file_location = '../' . $image_directory_location . $dir_pieces . '/' . $record_to_delete['IconFileName'];
-							$standard_file_location = '../' . $image_directory_location . $dir_pieces . '/' . $record_to_delete['StandardFileName'];
+								/*
+									No '../'.  GetImageFolderDirectory() returns an absolute
+									path built from GGCMS_DATA_DIR, so prefixing it produced
+									..//srv/ggcms/... -- which resolves to nothing from
+									/var/www/html, and /var/www/html is where Apache runs.
+									unlink() on a path that does not exist just fails, so
+									every image deleted through the web since the move to
+									DigitalOcean lost its database row and kept its file.
+									masereelgroup.com was holding 282 MB across 200 files
+									that the records had long stopped pointing at.
+
+									The prefix is a DreamHost inheritance.  That host had no
+									/var or /usr to speak of and everything hung off a single
+									directory, where hopping up one level was correct.
+
+									The same three paths are built correctly further down
+									this file, where an image is replaced rather than removed
+									-- absolute, and guarded with is_file().  Matched here.
+								*/
+
+							$image_file_location = $image_directory_location . $dir_pieces . '/' . $record_to_delete['FileName'];
+							$icon_file_location = $image_directory_location . $dir_pieces . '/' . $record_to_delete['IconFileName'];
+							$standard_file_location = $image_directory_location . $dir_pieces . '/' . $record_to_delete['StandardFileName'];
 							
-							unlink($icon_file_location);
-							unlink($image_file_location);
-							unlink($standard_file_location);
+							if(is_file($icon_file_location)) {
+								unlink($icon_file_location);
+							}
+
+							if(is_file($image_file_location)) {
+								unlink($image_file_location);
+							}
+
+							if(is_file($standard_file_location)) {
+								unlink($standard_file_location);
+							}
 						}
 					}
 					#print("</PRE>");
