@@ -7,6 +7,77 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, September 7
+
+- Every 500 in the day's log bar two came from one vulnerability scanner
+  walking `/admin/phpinfo.php`, `/beta/phpinfo.php` and twenty-three siblings
+  against wordweight.com. `display_wordweight()` reached for `$this->dictionary`
+  and nothing on that path ever constructs it; the dictionary lives on the
+  handler, as the tag lookup forty lines above and the earthfluent template
+  both already had it. Twenty-five fatals in ten seconds, and the fix was a
+  missing `handler->` and the guard its neighbour was already using.
+  `Construct_Dictionaries()` is conditional, so absence is legitimate and the
+  answer is a 404.
+
+- The braille exporter merged each converted paragraph into its accumulated
+  output with `array_merge` inside the paragraph loop, copying the whole array
+  once per paragraph. On a book-length chapter that exhausted the 128 MB limit
+  — the other two 500s. `convertSentence` beneath it was already appending
+  correctly, so it was one line.
+
+- Five image tools added under `scripts/internal/images/`. The images are the
+  largest thing on this host and the only large thing with no second copy:
+  `/srv/ggcms` is 6.0 GB, revoltlib's image directory is 5.3 GB of it, 957
+  files hold 4.08 GB, and the database backups contain `Image` rows, which are
+  filenames and dimensions and not one byte of any picture. On this day those
+  files served 4.6 GB of traffic in thirteen hours on one vCPU.
+
+- Two decisions inside the quality search were measured rather than assumed,
+  and the first answer was wrong both times. PHASH looked like the obvious
+  fidelity metric and is non-monotonic against a real scan — distance 0.03 at
+  quality 95 but 4.36 at 75 — so a search would have accepted 60 and rejected
+  90; it answers "is this the same picture", which is a different question.
+  Then, when `compare` exhausted memory on a 36-megapixel file, comparing
+  downscaled copies was the obvious fix and flattened quality 85 through 65
+  into 1.8 dB of range, which cannot choose between them. A full-resolution
+  1200px centre crop separates the same range by 3.4 dB, and taken in the read
+  specification rather than as an operator it costs 48 MB of peak RSS where a
+  full decode could not complete at all.
+
+- ImageMagick's `policy.xml` caps area at 128 megapixels here, and two of
+  masereelgroup's woodcut scans are 142 and 145. They come back instantly with
+  "cache resources exhausted" and 11 MB of RSS, which is a refusal and not an
+  exhaustion; a 109-megapixel scan clears that cap and then wants 870 MB
+  decoded against a 256 MiB memory limit. The limits are what stop one
+  `convert` taking a gigabyte on a box with two, so the tools report those
+  files and leave them alone, and they name which limit was hit rather than
+  reporting all four failure modes as one.
+
+- The compressor refuses to run without a backup, refuses to change dimensions,
+  and refuses to compress a file twice. The last is the one that would have
+  gone unnoticed: a second pass sees a quality-80 file, searches below it and
+  re-encodes, and JPEG generation loss is cumulative and invisible one step at
+  a time. A ledger keyed by the hash of what was written makes a restored or
+  edited file eligible again and an untouched one not.
+
+- `ByteDisplay::formatBytes` exploded its number against its own width,
+  `print_r`'d the pieces and returned the argument unchanged. So
+  `check_free_space.php` has printed a raw byte count and a stray `Array` dump
+  since it was written, which is a poor showing for the one tool meant to
+  notice the disk filling.
+
+- **Found and not yet fixed.** The command-line PHP is 8.1 and Apache's is 8.0,
+  and they carry separate mysqli credentials.
+  `/etc/php/8.1/mods-available/mysqli.ini` still names
+  `db-mysql-nyc3-52995`, the cluster destroyed on 6 September, so every CLI
+  tool that connects through mysqli rather than shelling out to the `mysql`
+  client hangs until it times out — `check_schema.php` among them. The
+  hostname still resolves, which is why it hangs rather than failing.
+  `refresh_db_host.sh` reads the database host from that same CLI ini, so the
+  hourly pin it maintains is for the destroyed cluster; `/etc/hosts` pins
+  167.172.24.115 for it, and the live cluster is not pinned at all. The script
+  is also not in root's crontab, so it has not run since 5 September.
+
 ## 2026, September 4
 
 - Every row-cache directory owned by root is silently unwritable, and nothing
