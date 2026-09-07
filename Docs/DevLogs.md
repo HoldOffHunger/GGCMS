@@ -78,6 +78,72 @@ live installation rather than estimated.
   167.172.24.115 for it, and the live cluster is not pinned at all. The script
   is also not in root's crontab, so it has not run since 5 September.
 
+- The command-line PHP is 8.1 and Apache's is 8.0, and they carry separate
+  mysqli credentials in different files. `/etc/php/8.1/mods-available/mysqli.ini`
+  still named the cluster destroyed on 6 September, whose hostname still
+  resolves -- so every CLI tool connecting through mysqli hung until it timed
+  out rather than failing, `check_schema.php` among them. Repointed; it now
+  reports clean in seconds. Still outstanding: `/etc/hosts` pins the destroyed
+  cluster and the live one is not pinned at all, and `refresh_db_host.sh` reads
+  the host from that same CLI ini, so the pin it maintains is for a cluster
+  that does not exist. It is also not in root's crontab.
+
+- Fifty-one rows on revoltlib named their three files without the `<Entryid>-`
+  prefix the files on disk carry. Every picture present, none of them
+  reachable: the page builds the name from the row, and that URL returns 200
+  with an empty `text/html` body, the same broken-image signature as the
+  malformed `/image//` fallback. Repaired after checking that all three
+  variants agreed and that the file's dimensions matched the row -- matching on
+  a filename alone is a guess, matching on filename and dimensions is evidence.
+  Missing files went from 171 to 18, the remainder being six rows whose files
+  are genuinely gone.
+
+- `Image::3` is a one-based index into the entry's own image list, not an Image
+  id, and a reference past the end of that list is replaced with an empty
+  string. Four such on revoltlib in fourteen hundred entries carrying the
+  markup, none of them findable any other way.
+
+- Of revoltlib's 1,680 files that no Image row names, 155 are the real pictures
+  whose rows name them wrongly and 964 are icons and standards sharing their
+  base's fate. Only 561 are genuinely unreferenced. The raw count invites
+  exactly the wrong conclusion, which is why the orphan checker classifies and
+  has no delete flag.
+
+- The compression projection was wrong and reported 1.4 GB for revoltlib. It
+  divided the saving by the bytes of the files that improved and applied that
+  rate to everything, from a sample where seven of twelve had refused -- a
+  number reached by pretending the sample was the five that worked. Corrected
+  to divide by everything tested: 558 MB at the strict setting, 850 MB at
+  40 dB, where eight of twelve improve.
+
+- Moved the compression off the droplet. Sixteen hours of niced CPU there
+  against ten minutes of transfer, measured: 10 MB/s down, 8.7 MB/s up. The
+  desktop is a processor and not an authority, so the import re-checks a
+  backup exists, the live file still matches its manifest hash, the returned
+  file matches its recorded hash, the dimensions have not moved and the result
+  is smaller. Both hash checks were tested by corrupting a batch on purpose.
+
+- Two decisions inside the search were measured rather than assumed and both
+  first answers were wrong -- PHASH is non-monotonic against a real scan, and
+  downscaling for the comparison flattens quality 85 through 65 into 1.8 dB.
+  A full-resolution centre crop separates the same range by 3.4 dB. Given
+  cores, five windows are measured and the worst kept, because averaging would
+  let a calm sky pay for a ruined face.
+
+- **Not upgrading ImageMagick on the droplet.** The engine uses the imagick
+  extension at `modify.php:2774` and `SimpleImages.php:79`, compiled against
+  the exact library that would be replaced, and 20.04 offers no ImageMagick 7
+  -- so it is a source build, after which the image-upload path is linked
+  against a library that arrived an hour ago. It would also buy nothing: no
+  metric ever runs server-side.
+
+- A slice-replacement silently deleted a method from a trait and `php -l`
+  reported no syntax errors, because a call to a missing method is a runtime
+  error. The regression run caught it. A small static check now greps every
+  `$this->method()` against the methods defined in the class and the traits it
+  actually composes -- the first version of that check was handed every trait
+  regardless, and duly resolved a call the class could not make.
+
 ## 2026, September 4
 
 - Every row-cache directory owned by root is silently unwritable, and nothing
