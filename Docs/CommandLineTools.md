@@ -143,10 +143,15 @@ intended -- PHP rolls forward rather than clamping.
 current month or one inside `--keep` selects nothing rather than overriding the
 rule that protects it.
 
-**Where the space actually is.** Statistics are 341.8 MB of a 1.3 GB
-`/var/log/ggcms`; the other 720 MB is `revoltlib.com/sql/`, two 360 MB database
-dumps written to the root disk by the nightly backup. That is
-`purge_database_archives.php`'s territory, and worth a look before this tool's.
+**Where the space was.** Statistics were 341.8 MB of a 1.3 GB `/var/log/ggcms`;
+the other 720 MB was `revoltlib.com/sql/`, two 360 MB database dumps the nightly
+backup wrote to the root disk. Those now go to
+`/mnt/nyc01/ggcms_sql_backups/<domain>/<backup|archive>/` -- see
+`BackupTrait::databaseDumpRoot()`, which is the single answer to where dumps
+live, and was five separate literals across four classes before it.
+
+Between the two changes `/var/log/ggcms` went from 1.3 GB to 144 MB on
+7 September 2026, and the root disk from 8.1 GB free to 9.1 GB.
 
 ### Installation — `scripts/public/install/`
 

@@ -127,12 +127,8 @@
 		public function verifyBackupFolderLocation() {
 			print('Verify Backup Folder Location(s) -- ' . PHP_EOL . PHP_EOL);
 			
-			$log_base_dir = GGCMS_LOG_DIR . $this->domain . '/';
-			
-			$sql_dir = $log_base_dir . 'sql/';
-			
-			$backup_dir = $sql_dir . 'backup/';
-			$archive_dir = $sql_dir . 'archive/';
+			$backup_dir = $this->databaseDumpDirectory(['domain'=>$this->domain, 'type'=>'backup']);
+			$archive_dir = $this->databaseDumpDirectory(['domain'=>$this->domain, 'type'=>'archive']);
 			
 			$new_dirs = [
 				$backup_dir,

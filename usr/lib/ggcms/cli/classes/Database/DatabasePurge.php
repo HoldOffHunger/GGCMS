@@ -7,6 +7,7 @@
 	clireq('traits/DBAccess.php');
 	clireq('traits/DBTest.php');
 	clireq('traits/CLIAccess.php');
+	clireq('traits/DomainValidation.php');
 	
 	class DatabasePurge {
 		use Apache;
@@ -14,6 +15,7 @@
 		use DBAccess;
 		use DBTest;
 		use CLIAccess;
+		use DomainValidation;
 		
 		public function purge() {
 			$this->setHandle();
@@ -33,38 +35,56 @@
 			
 			$purge_files = [];
 			
-			$backup_directory = scandir(GGCMS_LOG_DIR);
-			
-			$domains = array_diff($backup_directory, ['.', '..']);
-			
-			foreach($domains as $domain) {
-				$domain_dir = GGCMS_LOG_DIR . $domain . '/';
-				
-				$domain_applications_directory = scandir($domain_dir);
-				
-				$domain_applications = array_diff($domain_applications_directory, ['.', '..']);
-				
-				foreach($domain_applications as $domain_application) {
-					$domain_application_location = $domain_dir . $domain_application . '/archive/';
-					
-					if(is_dir($domain_application_location)) {
-						$domain_application_archive_directories = scandir($domain_application_location);
-						
-						$domain_application_archives = array_diff($domain_application_archive_directories, ['.', '..']);
-						
-						$domain_application_archives_count = count($domain_application_archives);
-						
-						for($i = 2; $i < $domain_application_archives_count; $i++) {
-							$domain_application_archive = $domain_application_archives[$i];
-							
-							$domain_application_archive_location = $domain_application_location . $domain_application_archive;
-							
-							$purge_files[] = $domain_application_archive_location;
-						}
+			/*
+				Dumps moved off the root disk to the volume; see
+				BackupTrait::databaseDumpRoot. This walked GGCMS_LOG_DIR for
+				<domain>/<application>/archive/, which after the move matches
+				nothing at all -- a tool that silently finds no work is worse
+				than one that errors, so it walks the new root instead.
+
+				The old loop also had an off-by-two. array_diff removes '.'
+				and '..' but keeps their keys, so the remaining entries are
+				numbered from 2, while the loop ran from 2 to count-1 -- with
+				three archived dumps it purged two of them and left the last
+				untouched, every time. A foreach has no index to get wrong.
+			*/
+
+			$dump_root = $this->databaseDumpRoot();
+
+			if(!is_dir($dump_root)) {
+				$this->purge_files = [];
+
+				print('No dump directory at ' . $dump_root . PHP_EOL . PHP_EOL);
+
+				return TRUE;
+			}
+
+			foreach(scandir($dump_root) as $domain) {
+				if($domain === '.' || $domain === '..') {
+					continue;
+				}
+
+				$archive_directory = $this->databaseDumpDirectory([
+					'domain'=>$domain,
+					'type'=>'archive',
+				]);
+
+				if(!is_dir($archive_directory)) {
+					continue;
+				}
+
+				foreach(scandir($archive_directory) as $archive) {
+					if($archive === '.' || $archive === '..') {
+						continue;
+					}
+
+					$archive_location = $archive_directory . $archive;
+
+					if(is_file($archive_location)) {
+						$purge_files[] = $archive_location;
 					}
 				}
 			}
-		
 			$this->purge_files = $purge_files;
 			$purge_files_count = count($purge_files);
 			

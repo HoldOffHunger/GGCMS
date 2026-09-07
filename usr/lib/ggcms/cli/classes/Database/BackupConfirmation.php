@@ -57,9 +57,13 @@
 	depreq('arr2textTable/arr2textTable.php');
 
 	clireq('traits/CLIAccess.php');
+	clireq('traits/DomainValidation.php');
+	clireq('traits/BackupTrait.php');
 
 	class BackupConfirmation {
 		use CLIAccess;
+		use DomainValidation;
+		use BackupTrait;
 
 		public function bannerMessageText() {
 			return 'Confirm Database Backups';
@@ -167,7 +171,7 @@
 				'notes'    => [],
 			];
 
-			$backup_dir = GGCMS_LOG_DIR . $domain . '/sql/backup/';
+			$backup_dir = $this->databaseDumpDirectory(['domain'=>$domain, 'type'=>'backup']);
 
 			$newest = $this->newestFile($backup_dir);
 
@@ -456,7 +460,7 @@
 			$bytes        = $args['bytes'];
 			$current_path = $args['path'];
 
-			$archive_dir = GGCMS_LOG_DIR . $domain . '/sql/archive/';
+			$archive_dir = $this->databaseDumpDirectory(['domain'=>$domain, 'type'=>'archive']);
 
 			$previous = $this->newestFile($archive_dir);
 

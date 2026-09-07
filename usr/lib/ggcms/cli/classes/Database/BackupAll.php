@@ -47,9 +47,13 @@
 	depreq('arr2textTable/arr2textTable.php');
 
 	clireq('traits/CLIAccess.php');
+	clireq('traits/DomainValidation.php');
+	clireq('traits/BackupTrait.php');
 
 	class BackupAllDatabases {
 		use CLIAccess;
+		use DomainValidation;
+		use BackupTrait;
 
 		public function bannerMessageText() {
 			return 'Backup All Databases';
@@ -218,8 +222,8 @@
 				'note'   => '',
 			];
 
-			$backup_dir  = GGCMS_LOG_DIR . $domain . '/sql/backup/';
-			$archive_dir = GGCMS_LOG_DIR . $domain . '/sql/archive/';
+			$backup_dir  = $this->databaseDumpDirectory(['domain'=>$domain, 'type'=>'backup']);
+			$archive_dir = $this->databaseDumpDirectory(['domain'=>$domain, 'type'=>'archive']);
 
 			foreach([$backup_dir, $archive_dir] as $directory) {
 				if(!is_dir($directory) && !@mkdir($directory, 0755, TRUE)) {
