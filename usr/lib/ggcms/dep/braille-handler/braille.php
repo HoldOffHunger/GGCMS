@@ -599,10 +599,96 @@ class BrailleHandler {
 		
 	}
 	
+	/*
+		Build the string, never the array of arrays.
+
+		This used to call convertText and flatten the result:
+
+			$result = $this->convertText($text);
+			return implode('', (array_column($result, 'braille')));
+
+		convertText returns one array per word -- and convertWord returns
+		['text' => $word, 'braille' => ...], so each of those carries the
+		original word beside its braille, which array_column then discards.
+		A book-length chapter is hundreds of thousands of words, so that is
+		hundreds of thousands of two-element arrays, and PHP's per-array
+		overhead dwarfs the few bytes of braille in each. Then array_column
+		builds a second array the same length, and implode builds the string,
+		so all three exist at once at the peak.
+
+		It exhausted the 128 MB limit on revoltlib. Removing an array_merge
+		from the paragraph loop earlier today took away the quadratic copying,
+		which was real, but not the size: the failure simply moved to the
+		append and went on asking for 16 MB at a time to double an array that
+		should never have been built.
+
+		So the conversion is unchanged and the accumulation is a string. Peak
+		memory is one word's array plus the output, rather than every word at
+		once, and the bytes returned are identical -- the two loops below
+		mirror convertText and convertSentence exactly, including the quirk
+		that empty($paragraph) treats a paragraph of "0" as blank.
+
+		convertText is left alone. It is the documented shape of this
+		dependency and something outside this file may want the structure;
+		nothing in GGCMS does, and BRF.php reaches this function instead.
+	*/
+
 	public function formattedOutput($text) {
-		$result = $this->convertText($text);
-		
-		return implode('', (array_column($result, 'braille')));
+		$output = '';
+
+		$paragraphs = explode("\n", $text);
+
+		foreach ($paragraphs as $paragraph) {
+			if (empty($paragraph)) {
+				$output .= "\n";
+
+				continue;
+			}
+
+			$output .= $this->convertParagraphToString($paragraph);
+
+			// Plaats na elk stuk weer een enter om de explode werking op te heffen
+			$output .= "\n";
+		}
+
+		return $output;
+	}
+
+	public function convertParagraphToString($paragraph) {
+		return $this->convertSentenceToString($paragraph);
+	}
+
+	/*
+		convertSentence, accumulating into a string instead of an array. Kept
+		beside it rather than replacing it so the array form stays available,
+		and so the two can be read against each other.
+	*/
+
+	public function convertSentenceToString($sentence) {
+		$output = '';
+
+		$words = explode(" ", $sentence);
+
+		if($this->mode === 'binary') {
+			$space = '(space)';
+		} else {
+			$space = ' ';
+		}
+
+		foreach ($words as $word) {
+			if (empty($word)) {
+				$output .= $space;
+
+				continue;
+			}
+
+			$converted = $this->convertWord($word);
+
+			$output .= $converted['braille'];
+			$output .= $space;
+		}
+
+		return $output;
 	}
 }
 
