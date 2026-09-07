@@ -86,8 +86,55 @@
 			$filename = $args['filename'];
 			
 			$filename_handle = gglog($filename, 'a+');
-			
+
+				/*
+					Statistics are incidental to serving the page, and this sits
+					in front of every HTML render on the host.
+
+					gglog is fopen, which returns false rather than throwing,
+					and that false went straight into flock -- where PHP 8 makes
+					it a TypeError and the request dies. A visitor got a 500
+					because a log line could not be written.
+
+					It fired once in about a hundred and sixty thousand requests
+					on 7 September 2026, with no pattern: every domain's stats
+					directory exists and every one is www-data-owned and
+					writable. So it was a momentary failure -- a descriptor
+					limit, or a write racing something else -- of the kind that
+					will happen again and should cost a statistic rather than a
+					page.
+
+					The comment in RecordUserTracking above describes the same
+					fault found from the command line, fixed there by declining
+					to record CLI renders at all. This is the other half: the
+					web path, where the answer is not to guess why the file
+					would not open but to give up quietly.
+				*/
+
+			if(!is_resource($filename_handle)) {
+				return FALSE;
+			}
+
+				/*
+					Bounded. The loop was `while (!flock(...))` with nothing to
+					stop it, so a lock that never arrives spins a request
+					forever, holding one of a small number of workers. Twenty
+					attempts at up to 100ms is two seconds at worst, after which
+					the statistic is dropped -- which is the right thing to
+					lose.
+				*/
+
+			$lock_attempts = 0;
+
 			while (!flock($filename_handle, LOCK_EX)) {
+				$lock_attempts++;
+
+				if($lock_attempts >= 20) {
+					fclose($filename_handle);
+
+					return FALSE;
+				}
+
 				usleep(round(rand(0, 100)*1000)); //0-100 milliseconds
 			}
 			
