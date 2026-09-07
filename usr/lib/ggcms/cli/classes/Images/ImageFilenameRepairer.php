@@ -9,6 +9,8 @@
 	clireq('traits/GlobalsTrait.php');
 	clireq('traits/ImageFiles.php');
 
+	ggreq('traits/ReverseDNSNotation.php');
+
 	/*
 		Rows that name a file which is not there, beside a file nothing names.
 
@@ -51,6 +53,7 @@
 		use CLIAccess;
 		use GlobalsTrait;
 		use ImageFiles;
+		use ReverseDNSNotation;
 
 			// Entry Point
 			// -----------------------------------------------
@@ -419,6 +422,8 @@
 
 			print('Repaired ' . $repaired . ' of ' . count($repairable) . ' rows.' . "\n\n");
 
+			$this->invalidateRowCache(['repairable'=>$repairable]);
+
 			if($failures) {
 				print(count($failures) . ' failed:' . "\n\n");
 				print(arr2textTable($failures));
@@ -427,8 +432,75 @@
 				return FALSE;
 			}
 
-			print('The page cache still holds pages built against the broken names.' . "\n");
-			print('Flush it for this domain before checking the result in a browser.' . "\n\n");
+			print('Now flush the page cache for this domain -- in that order.' . "\n");
+			print('Clearing pages first only rewrites them from the stale rows.' . "\n\n");
+
+			return TRUE;
+		}
+
+			// The row cache
+			// -----------------------------------------------
+
+			/*
+				The repair writes rows with a prepared UPDATE, which reaches the
+				database without passing through the ORM -- so none of the
+				engine's own invalidation fires, and the row-level file cache
+				goes on serving the filenames that were just corrected.
+
+				DBFileCache.php says what happens next better than this comment
+				could: the page cache is flushed, the page re-renders, reads the
+				stale row, and writes a fresh page cache holding the old value.
+				Caching faithfully preserves the mistake.  That is not
+				hypothetical -- it happened on revoltlib on 7 September 2026,
+				because the pages were cleared first and the rows were not
+				cleared at all.
+
+				So the rows go first and the operator is told to flush pages
+				second.  Deleting is the whole of the fix; the next render
+				refills from the database.
+
+				Only ggcms_EntryChildRecords/Image holds these filenames -- the
+				other six cache types were searched for one of the repaired
+				names and none of them carried it.
+			*/
+
+		public function invalidateRowCache($args) {
+			require_once(GGCMS_DIR . 'classes/Database/DBFileCache.php');
+
+			$cache = new DBFileCache(['handler'=>NULL]);
+
+			$directory = $cache->DBFileCacheLocation();
+			$directory .= '/' . $this->ReverseDomainName(['domain'=>strtolower($this->domain)]);
+			$directory .= '/ggcms_EntryChildRecords/Image/';
+
+			if(!is_dir($directory)) {
+				print('No cached Image rows to invalidate.' . "
+
+");
+
+				return TRUE;
+			}
+
+			$entry_ids = [];
+
+			foreach($args['repairable'] as $entry) {
+				$entry_ids[(int)$entry['row']['Entryid']] = TRUE;
+			}
+
+			$deleted = 0;
+
+			foreach(array_keys($entry_ids) as $entry_id) {
+				$file = $directory . $entry_id;
+
+				if(is_file($file) && @unlink($file)) {
+					$deleted++;
+				}
+			}
+
+			print('Invalidated ' . $deleted . ' cached Image rows across ');
+			print(count($entry_ids) . ' entries.' . "
+
+");
 
 			return TRUE;
 		}
