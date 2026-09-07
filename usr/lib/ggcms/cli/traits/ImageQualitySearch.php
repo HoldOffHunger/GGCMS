@@ -744,7 +744,10 @@
 				return $this->imagemagick_area_limit;
 			}
 
-			$output = (string)shell_exec('identify -list resource 2>/dev/null');
+			$command = $this->imageMagickCommand(['tool'=>'identify']);
+			$command .= ' -list resource 2>' . $this->nullDevice();
+
+			$output = (string)shell_exec($command);
 
 			if(!preg_match('/^[ 	]*Area:[ 	]*([0-9.]+)[ 	]*([KMGT]?)P/mi', $output, $matches)) {
 				return $this->imagemagick_area_limit = 0;

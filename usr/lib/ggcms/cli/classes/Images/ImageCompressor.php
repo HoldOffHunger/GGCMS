@@ -489,11 +489,26 @@
 
 			$temporary = $path . '.ggcms_recompress';
 
-			$command = 'nice -n 19 convert ' . escapeshellarg($path . '[0]');
-			$command .= ' -strip -quality ' . $quality;
-			$command .= ' ' . escapeshellarg($temporary) . ' 2>/dev/null';
+				/*
+					The same invocation the search used, through the same
+					portability layer -- this had `convert` written out, which
+					broke the one guarantee the pair exists to provide: that the
+					size check_image_compression.php reports is the size that
+					gets installed. A host where ImageMagick answers only to
+					`magick` would have searched happily and then failed every
+					write.
 
-			shell_exec($command);
+					It writes beside the original rather than to a temporary
+					directory, which is why it is not simply encodeToTemporary:
+					rename is atomic only within a filesystem.
+				*/
+
+			$command = $this->imageMagickCommand(['tool'=>'convert']);
+			$command .= ' ' . escapeshellarg($path . '[0]');
+			$command .= ' -strip -quality ' . $quality;
+			$command .= ' ' . escapeshellarg($temporary) . ' 2>&1';
+
+			$this->last_encoder_error = trim((string)shell_exec($command));
 
 			if(!is_file($temporary) || filesize($temporary) === 0) {
 				if(is_file($temporary)) {
