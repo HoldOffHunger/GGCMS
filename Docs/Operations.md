@@ -266,6 +266,10 @@ they run. Install as root's crontab:
 # One line per domain; revoltlib carries 5.3 GB of the 6.0 GB.
 0 6 * * 2   /usr/lib/ggcms/cli/scripts/internal/images/scan_images.php revoltlib.com
 
+# Image:: markup pointing at images the entry does not have.  These render as
+# nothing at all, so no other check will ever notice them.
+0 6 * * 3   /usr/lib/ggcms/cli/scripts/internal/images/check_image_references.php revoltlib.com
+
 ```
 
 Cron mails its output to root. `You have new mail` at login is a signal, not
