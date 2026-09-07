@@ -270,6 +270,9 @@ they run. Install as root's crontab:
 # nothing at all, so no other check will ever notice them.
 0 6 * * 3   /usr/lib/ggcms/cli/scripts/internal/images/check_image_references.php revoltlib.com
 
+# Statistics off the root disk.  Monthly, after the month it archives has ended.
+0 4 2 * *   /usr/lib/ggcms/cli/scripts/internal/stats/archive_stats.php --apply
+
 ```
 
 Cron mails its output to root. `You have new mail` at login is a signal, not

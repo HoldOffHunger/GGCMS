@@ -87,8 +87,66 @@ July 2024.
 | Script | Does |
 |---|---|
 | `check_free_space.php` | Disk headroom, via the `FreeSpace` class |
+| `archive_stats.php` | Tars completed months of visitor statistics off the root disk |
 
 The disk filling is what took the production host down. Run this daily.
+
+#### `archive_stats.php`
+
+```bash
+archive_stats.php                       # dry: what it would archive
+archive_stats.php --apply
+archive_stats.php --month=2023-Oct --apply
+archive_stats.php --domain=wordweight.com --keep=6 --apply
+```
+
+Nothing had ever pruned `/var/log/ggcms`. No logrotate rule mentions ggcms and
+nothing in the crontab touched it, so on 7 September 2026 it held 341.8 MB of
+statistics across nineteen months, the oldest from August 2022 -- on a 25 GB
+root disk with 8 GB free, on a host that the disk filling took down in 2024.
+The database dumps have had `purge_database_archives.php` for exactly this
+reason; statistics never got the equivalent.
+
+It groups `<domain>/stats/YYYY-Mon.txt` and `YYYY-Mon_memory.txt` by month,
+tars each completed month to `/mnt/nyc01`, proves the tarball reads back, and
+only then removes the originals.
+
+**Three refusals.**
+
+*It never touches the current month.* That file is being appended to by every
+request. The current month is computed with `date('o-M')` -- the same
+expression `UserTracking` names it with, rather than something merely
+equivalent. Note the `o`: that is the ISO week-numbering year, and it differs
+from `Y` for a few days each January.
+
+*It keeps recent months.* Statistics get read by looking at them, and a month
+that must be untarred first will not be looked at.
+
+*It verifies before it deletes.* Every file is read back out of the tarball
+with `tar xzOf` and compared by SHA-256 against the original, and a month with
+a single mismatch keeps all of its files. `tar tzf` would only prove the names
+are listed, which is the half of the question that was never in doubt.
+
+**`--keep` is a length of time, not a number of files**, and the first version
+got that wrong in a way this host made obvious. It kept the last N *entries* of
+the list -- identical to a calendar cutoff only when every month is present.
+This host has no statistics at all for 2024 or 2025, so "the last three months
+on disk" meant 2023-Sep, 2023-Oct and 2026-Aug, and it carefully preserved a
+file from three years earlier. `2023-Oct` is 159 MB, the largest there is.
+Fixing it took the reclaimed total from 14.9 MB to 209.5 MB.
+
+The cutoff is anchored to the first of the month, because
+`strtotime('-1 month')` from the 31st lands in the month after the one
+intended -- PHP rolls forward rather than clamping.
+
+`--month` is applied *after* eligibility, never instead of it, so naming the
+current month or one inside `--keep` selects nothing rather than overriding the
+rule that protects it.
+
+**Where the space actually is.** Statistics are 341.8 MB of a 1.3 GB
+`/var/log/ggcms`; the other 720 MB is `revoltlib.com/sql/`, two 360 MB database
+dumps written to the root disk by the nightly backup. That is
+`purge_database_archives.php`'s territory, and worth a look before this tool's.
 
 ### Installation — `scripts/public/install/`
 
