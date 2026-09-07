@@ -321,7 +321,11 @@ class BrailleHandler {
 			$braille[] = [
 				'braille'=>"\n",
 			];
-			$output = array_merge($output, $braille);
+			// Append in place; array_merge here would copy the whole
+			// accumulated array once per paragraph (O(n^2) memory).
+			foreach ($braille as $braille_part) {
+				$output[] = $braille_part;
+			}
 		}
 		
 		return $output;

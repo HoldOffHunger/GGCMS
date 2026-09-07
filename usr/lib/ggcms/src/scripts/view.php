@@ -971,9 +971,13 @@
 			
 			$this->display_wordweight_setORM();
 			
+			if(!$this->handler->dictionary) {
+				return FALSE;
+			}
+			
 			if($this->object_list && count($this->object_list)) {
 				$this->word = $this->object_code;
-				$this->definitions = $this->dictionary->LookupWords(['words'=>[$this->word]])[strtolower($this->word)];
+				$this->definitions = $this->handler->dictionary->LookupWords(['words'=>[$this->word]])[strtolower($this->word)];
 				
 				$this->definition_count = $this->definitions ? count($this->definitions) : 0;
 				
@@ -987,7 +991,7 @@
 			$this->search_term = $this->Param('search');
 			
 			if($this->search_term) {
-				$this->definitions = $this->dictionary->LookupWords(['words'=>[$this->search_term]])[strtolower($this->search_term)];
+				$this->definitions = $this->handler->dictionary->LookupWords(['words'=>[$this->search_term]])[strtolower($this->search_term)];
 				
 				$this->definition_count = count($this->definitions);
 				
