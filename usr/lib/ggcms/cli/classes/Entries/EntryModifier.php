@@ -711,7 +711,69 @@
 
 			print(PHP_EOL);
 
+			if($status) {
+				$this->flushPageCache();
+			}
+
 			return TRUE;
+		}
+
+			// The page cache
+			// -----------------------------------------------
+
+			/*
+				The engine flushes this for itself on the web, and cannot here.
+
+				DBAccess::MarkPageCacheDirty registers FlushPageCacheNow, which
+				calls FlushPage([]) -- and FlushPage builds its path from
+				SafePath(), which reads $_SERVER['REQUEST_URI']. In a shell that
+				URI is the modify.php this tool posted to, not the page the entry
+				renders as. So it dutifully flushed the cache entry for a URL
+				that is never cached, reported success, and left the view page
+				serving whatever it held before the write.
+
+				Silently, because FlushPageCacheNow swallows what it catches. An
+				entry created here looked correct in the database and stale in a
+				browser, which is the worst pair of symptoms to debug from.
+
+				TranslationWriter met the same wall from the other side --
+				FlushDomain falling through to SafeHost() with no HTTP_HOST --
+				and solved it by passing the domain explicitly. Same answer here,
+				including both hostnames: the cache is keyed on HTTP_HOST
+				verbatim, so every page is stored twice and clearing one leaves
+				the other serving the old copy.
+			*/
+
+		public function flushPageCache() {
+			if(!class_exists('PageCache')) {
+				ggreq('classes/Cache/PageCache.php');
+			}
+
+			$page_cache = new PageCache(['handler'=>NULL]);
+
+			$hosts = [
+				$this->domain,
+				'www.' . $this->domain,
+			];
+
+			$flushed_any = FALSE;
+
+			foreach($hosts as $host) {
+				if($page_cache->FlushDomain(['domain'=>$host])) {
+					print('Flushed the page cache for ' . $host . '.' . PHP_EOL);
+
+					$flushed_any = TRUE;
+				}
+			}
+
+			if(!$flushed_any) {
+				print('NOTE: nothing was flushed for either hostname.  The entry is written;' . PHP_EOL);
+				print('      pages may show the old version until the cache is cleared by hand.' . PHP_EOL);
+			}
+
+			print(PHP_EOL);
+
+			return $flushed_any;
 		}
 	}
 

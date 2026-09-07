@@ -261,7 +261,9 @@
 			$output = ob_get_contents();
 			ob_end_clean();
 
-			ggreq('classes/Cache/PageCache.php');
+			if(!class_exists('PageCache')) {
+				ggreq('classes/Cache/PageCache.php');
+			}
 
 			$page_cache = new PageCache(['handler'=>$handler]);
 			$written = $page_cache->WriteCache(['output'=>$output]);
@@ -427,7 +429,9 @@
 		public function DropAlreadyCached($paths) {
 			$handler = $this->BootHandler('/');
 
-			ggreq('classes/Cache/PageCache.php');
+			if(!class_exists('PageCache')) {
+				ggreq('classes/Cache/PageCache.php');
+			}
 
 			$remaining = [];
 

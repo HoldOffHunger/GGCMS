@@ -396,7 +396,9 @@
 			*/
 
 		public function flushPageCache() {
-			ggreq('classes/Cache/PageCache.php');
+			if(!class_exists('PageCache')) {
+				ggreq('classes/Cache/PageCache.php');
+			}
 
 			$page_cache = new PageCache(['handler'=>NULL]);
 

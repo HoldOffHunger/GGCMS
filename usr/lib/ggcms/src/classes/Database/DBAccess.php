@@ -1447,7 +1447,9 @@
 
 		public function FlushPageCacheNow() {
 			try {
-				ggreq('classes/Cache/PageCache.php');
+				if(!class_exists('PageCache')) {
+					ggreq('classes/Cache/PageCache.php');
+				}
 
 				$page_cache = new PageCache(['handler'=>$this->handler]);
 
@@ -1456,8 +1458,11 @@
 				} else {
 					$page_cache->FlushDomain([]);
 				}
-			} catch (Exception $exception) {
-				# cache maintenance must never break a write
+			} catch (Throwable $throwable) {
+				# cache maintenance must never break a write -- and a
+				# redeclare is an Error, which Exception does not catch,
+				# which is how this one got out.  The sibling handler
+				# above already catches Throwable.
 			}
 
 			return TRUE;
