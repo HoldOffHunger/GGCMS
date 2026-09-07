@@ -280,6 +280,7 @@ inside.
 | `restore_images.php` | Puts back what differs from a backup |
 | `repair_image_filenames.php` | Corrects rows that name a file under the wrong name |
 | `check_orphan_images.php` | Classifies files no `Image` row names; reads only |
+| `check_image_references.php` | Checks `Image::N` markup against the images each entry has |
 
 The images are the largest thing on this host and the only large thing with no
 other copy of it. `/srv/ggcms` is 6.0 GB, of which revoltlib's image directory
@@ -561,6 +562,60 @@ once by extension, which on revoltlib returns 110 rows, and matching happens in
 PHP against those. Same answer, one query. (Those 110 all turned out to be
 external URLs at theanarchistlibrary.org and Anarchy Archives, so revoltlib's
 count is zero — but the check is the reason a delete could ever be considered.)
+
+#### `check_image_references.php`
+
+```bash
+check_image_references.php revoltlib.com
+check_image_references.php revoltlib.com --check=unreferenced --all
+```
+
+**`Image::3` is not an Image id.** `view.php:735` resolves it as a one-based
+index into the entry's own image list:
+
+```php
+$number = (int)$dom_piece;
+$image = $images[$number - 1];
+```
+
+So `Image::3` is the third image attached to *this* entry, and the same number
+means a different picture on every page. `FullImage::` works the same way.
+
+**A dangling reference is invisible.** The next line is:
+
+```php
+if($mobile_friendly || !$image) {
+    $dom[$i] = '';
+}
+```
+
+A reference past the end of the list becomes an empty string — no warning, no
+ticket, no gap in the markup. The paragraph closes over where the picture should
+have been and reads as though it was never meant to have one. With
+`error_reporting(0)` set in `index.php`, a page missing its illustration and a
+page never given one are identical from outside. Nothing but this will tell you.
+
+On revoltlib, out of 1,470 entries carrying the markup:
+
+| Entryid | Points at | Has | Title |
+|---|---|---|---|
+| 22 | 4, 5 | 2 | Peter Arshinov |
+| 3792 | 4, 5 | 2 | Anonymous |
+
+plus two entries carrying `Image::1` with no images at all (3091 *Practical
+Socialism*, 3671 *Front Material*). Four broken illustrations in fourteen
+hundred pages, and none of them reachable any other way.
+
+One implementation note. The pattern is `(?:Full)?Image::([0-9]+)`, one
+alternation rather than two passes, because `FullImage::1` contains `Image::1`
+as a substring — a regex for `Image::` alone counts every full-size reference
+twice and reports the second copy as a phantom. That is also the order
+`view.php` runs its two replacements in, for the same reason.
+
+`unreferenced` — images no marker places inline — is **not** in the default run,
+because it is not a fault. Templates display an entry's images through the icon
+and standard blocks without any markup; placing one in the prose is the
+exception. It is reported when asked for, and labelled as information.
 
 ## Notes for anyone adding a tool
 
