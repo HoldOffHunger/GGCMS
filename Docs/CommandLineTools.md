@@ -526,6 +526,35 @@ not disagreement.
 
 On revoltlib all 51 passed both, with no partial fits.
 
+**It invalidates the row cache, and the order matters.** The repair writes with
+a prepared `UPDATE`, which reaches the database without passing through the ORM,
+so none of the engine's own invalidation fires. `DBFileCache.php` describes what
+happens next better than any note here could:
+
+> the page cache correctly flushes, the page then re-renders, reads the STALE
+> row, and writes a fresh page cache holding the old title. Caching faithfully
+> preserves the mistake.
+
+That is not hypothetical. On 7 September 2026 the page cache for revoltlib was
+cleared first and the row cache not at all; the pages rebuilt from stale rows
+and re-cached the same broken filenames, and it was caught only by fetching a
+page afterwards and grepping it for the corrected name. **Rows first, pages
+second.** The tool now does the rows itself and says so.
+
+Only `ggcms_EntryChildRecords/Image/<Entryid>` carries these filenames -- the
+other six cache types were searched for one of the repaired names and none held
+it.
+
+Finding which cached pages are affected needs care, and two attempts at it were
+wrong. Every repaired name is a *suffix* of its corrected version --
+`9482--Rosa-Luxemburg.jpg` contains `-Rosa-Luxemburg.jpg` -- so a plain
+substring search matches the fixed pages as readily as the broken ones, and
+reported 635 where the truth was 378. Anchoring the pattern on the path
+separator distinguishes `/w/name.jpg` from `/w/424-name.jpg`. And the pattern
+list must cover all three variants, not only `FileName`: `<img src>` uses
+`StandardFileName`, and icons appear on every listing page, which is why the
+real figure was 8,401 pages and not a few hundred.
+
 Updates go one statement per row rather than one statement for the lot: these
 are corrected on the evidence of files checked individually, and a single
 `UPDATE` spanning fifty-one would land or fail on a `WHERE` clause that repeats
