@@ -278,6 +278,8 @@ inside.
 | `compress_images.php` | Re-encodes JPEGs in place |
 | `backup_images.php` | Copies the image tree to the mounted volume, with a manifest |
 | `restore_images.php` | Puts back what differs from a backup |
+| `repair_image_filenames.php` | Corrects rows that name a file under the wrong name |
+| `check_orphan_images.php` | Classifies files no `Image` row names; reads only |
 
 The images are the largest thing on this host and the only large thing with no
 other copy of it. `/srv/ggcms` is 6.0 GB, of which revoltlib's image directory
@@ -486,6 +488,79 @@ a compression run.
 
 Neither tool flushes the page cache. Pages already built hold the old image
 sizes, so flush the domain after a restore or a compression run.
+
+#### `repair_image_filenames.php`
+
+```bash
+repair_image_filenames.php revoltlib.com            # dry
+repair_image_filenames.php revoltlib.com --apply
+```
+
+Found by `scan_images.php` on its first real run: 51 rows on revoltlib name
+their three files without the `<Entryid>-` prefix the actual files carry. The
+row says `m/f/i/5/6336636155_e89bdd7638_o.jpg`, the disk holds
+`m/f/i/5/437-6336636155_e89bdd7638_o.jpg`, and `Entryid` is 437. Nothing is
+lost — every picture is present — but the page builds the name from the row, so
+the `img` tag points at nothing.
+
+Live, that URL returns **200 with zero bytes of `text/html`**, which is the same
+broken-image signature the malformed `/image//` fallback produced. They appear
+twice in a scan: once as `missing` rows and again among the orphans.
+
+It only ever prepends the row's own `Entryid` to the row's own filename. It
+never composes a name from a directory listing and never guesses between
+candidates.
+
+Two conditions before it writes. **Every variant must agree** — bare name absent
+and prefixed name present for original, standard and icon alike; a row that
+fits only partly is reported and left alone, because a half-repaired row renders
+two images and a hole, which is harder to notice and no better. And **the file's
+dimensions must match the ones already on the row**, which is what separates
+"the same picture under its proper name" from "some other picture that sorts
+nearby". Rows with zero stored dimensions skip that comparison, since absence is
+not disagreement.
+
+On revoltlib all 51 passed both, with no partial fits.
+
+Updates go one statement per row rather than one statement for the lot: these
+are corrected on the evidence of files checked individually, and a single
+`UPDATE` spanning fifty-one would land or fail on a `WHERE` clause that repeats
+none of that checking.
+
+#### `check_orphan_images.php`
+
+```bash
+check_orphan_images.php revoltlib.com
+check_orphan_images.php revoltlib.com --class=unreferenced --all
+```
+
+`scan_images.php` counts orphans; this answers the question that comes after the
+count, because the count alone invites the wrong conclusion. revoltlib has 1,680
+files no `Image` row names, holding 396.7 MB, and most have an explanation:
+
+| Class | Files | Bytes | Meaning |
+|---|---|---|---|
+| `prefix-twin` | 155 | 125.5 MB | the real file; its row names it wrongly |
+| `variant-of-orphan` | 964 | 65.4 MB | icon or standard of another orphan |
+| `text-referenced` | 0 | 0 B | named in body text; a page links it |
+| `unreferenced` | 561 | 205.8 MB | nothing anywhere names it |
+
+So of 1,680 "orphans", 155 are pictures that must not be touched and 964 are
+variants that share their base's fate. Only the last class is worth looking at
+by hand, and even that is not a delete instruction.
+
+**It reads and reports. It deletes nothing and moves nothing.** These are scans
+of artwork and photographs of the dead, there is no second copy anywhere, and no
+classification here is confident enough to justify a delete flag.
+
+`text-referenced` is the check that earns the tool its place: a file can be
+linked from an article body with no `Image` row anywhere, and deleting it breaks
+that page. The naive form is a `LIKE` for every orphan against every body of
+text — 1,680 queries against a `mediumtext` column. Instead the text is narrowed
+once by extension, which on revoltlib returns 110 rows, and matching happens in
+PHP against those. Same answer, one query. (Those 110 all turned out to be
+external URLs at theanarchistlibrary.org and Anarchy Archives, so revoltlib's
+count is zero — but the check is the reason a delete could ever be considered.)
 
 ## Notes for anyone adding a tool
 
