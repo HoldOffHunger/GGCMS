@@ -144,6 +144,21 @@ live installation rather than estimated.
   actually composes -- the first version of that check was handed every trait
   regardless, and duly resolved a call the class could not make.
 
+- The braille fix from earlier in the day was half a fix, and the log said so
+  within an hour of the deploy. Removing an `array_merge` from the paragraph
+  loop took away the quadratic copying, which was real, but not the size: the
+  failure moved from the merge to the append and went on asking for 16 MB at a
+  time to double an array that should never have existed. `formattedOutput`
+  built the whole document as one array per word, flattened it with
+  `array_column` and imploded that — and `convertWord` returns
+  `['text' => $word, 'braille' => ...]`, so every word carried its own source
+  text beside its braille for `array_column` to throw away. PHP's per-array
+  overhead dwarfs the few bytes of braille in each, and all three structures
+  are alive at the peak. Accumulating into a string instead takes a 1.28 MB
+  document — the size of *Recipes for Disaster* — from 256 MB peak to 34 MB,
+  where the old code could not finish at all under the 128 MB the host gives
+  it. Byte-identical output, same SHA-256 in all three modes at both sizes.
+
 ## 2026, September 4
 
 - Every row-cache directory owned by root is silently unwritable, and nothing
