@@ -269,6 +269,224 @@ runs this already has a shell, and a shell is more power than any web login. The
 login gate stops remote visitors; it is not a second lock on someone already
 inside.
 
+### Images — `scripts/internal/images/`
+
+| Script | Does |
+|---|---|
+| `scan_images.php` | Reconciles the image tree against the `Image` table; changes nothing |
+| `check_image_compression.php` | Runs the quality search and reports what re-encoding would save; writes nothing |
+| `compress_images.php` | Re-encodes JPEGs in place |
+| `backup_images.php` | Copies the image tree to the mounted volume, with a manifest |
+| `restore_images.php` | Puts back what differs from a backup |
+
+The images are the largest thing on this host and the only large thing with no
+other copy of it. `/srv/ggcms` is 6.0 GB, of which revoltlib's image directory
+is 5.3 GB, and 957 files hold 4.08 GB of that — one 38 MB Flickr original among
+them. On 7 September 2026 those files served 4.6 GB of traffic in thirteen
+hours, on one vCPU shared by seventeen sites.
+
+**The database backups do not contain any images.** They contain `Image` rows,
+which are filenames and dimensions. Every one of these tools is built around
+that fact.
+
+#### Three facts about the tree
+
+**The path is derived, not stored.** `Image.FileDirectory` holds four
+characters and the URL splits them into four directories, so `cmot` is
+`/image/c/m/o/t/`. Nothing stores the full path, so a tool that wants to find a
+file has to know the rule.
+
+**One row is three files.** `FileName` is the original, `StandardFileName` the
+mid-size, `IconFileName` the thumbnail, and on revoltlib all 2,496 rows carry
+all three. Any count that treats a row as a file is wrong by a factor of three.
+
+**The stored dimensions are the rendered dimensions.** `PixelWidth` and its
+siblings are printed straight into the `img` tag. So these tools may re-encode
+a file and may never resize one — a resize makes every stored dimension a lie
+and the page keeps rendering at the old size against a smaller image. The
+compressor measures the file it just wrote and throws the result away if the
+dimensions moved.
+
+#### `scan_images.php`
+
+```bash
+scan_images.php revoltlib.com                      # weight, orphans, missing
+scan_images.php revoltlib.com --check=orphans      # one check
+scan_images.php revoltlib.com --min-size=5M        # only the heavy files
+scan_images.php revoltlib.com --check=dimensions --limit=200
+```
+
+| Check | Finds |
+|---|---|
+| `weight` | where the bytes are, by variant and by individual file |
+| `orphans` | files on disk that no `Image` row names |
+| `missing` | rows whose file is not on disk |
+| `dimensions` | stored dimensions against the actual image |
+
+`dimensions` is not in the default run because it shells out to `identify` once
+per file against a tree of nine thousand. Ask for it by name and it honours
+`--limit`, which defaults to the fifty largest.
+
+The reconciliation is exact rather than heuristic: every filename the database
+expects is derived from `FileDirectory` and the three filename columns, so a
+file is an orphan because no row names it, not because its name failed to match
+a pattern.
+
+An orphan is not necessarily rubbish. Older sites have stage variants and
+hand-placed files predating the `Image` table, so the tool counts them and says
+nothing about what to do with them.
+
+#### `check_image_compression.php` and the quality search
+
+```bash
+check_image_compression.php revoltlib.com --min-size=2M --limit=20
+check_image_compression.php revoltlib.com --target=43     # stricter
+```
+
+The idea is the one `jpeg-recompress` uses: re-encode at several qualities,
+measure each against the original, and keep the smallest file that still clears
+a fidelity threshold. A flat woodcut settles far lower than a noisy photograph
+and neither has to be guessed at. `jpeg-recompress` is not packaged for Ubuntu
+20.04 and building it pulls in mozjpeg, so the search is implemented here on
+ImageMagick, which is already installed.
+
+**The metric is PSNR, and that was measured rather than assumed.** This
+ImageMagick has no SSIM — 6.9.10 offers AE, Fuzz, MAE, MEPP, MSE, NCC, PAE,
+PHASH, PSNR and RMSE. PHASH was tried first and is unusable: against a 38 MB
+scan its distance ran 0.03 at quality 95, 1.43 at 90, 0.17 at 80, 4.36 at 75
+and 0.33 at 60. Not merely noisy but non-monotonic, so a search would have
+called quality 60 acceptable and quality 90 not. A perceptual hash answers "is
+this the same picture", which is a different question.
+
+**The comparison is a full-resolution crop, not a downscale**, and that was
+also measured. `compare` holds both images decoded and this host has 2 GB; a
+7360x4912 scan is 36 megapixels and the first calibration died with "cache
+resources exhausted" on every quality step. Downscaling both sides fixed the
+memory and ruined the signal — across quality 85 down to 65 the whole PSNR
+range was 1.8 dB. Comparing a 1200px centre crop at full resolution separates
+the same range by 3.4 dB, because it keeps every artifact at the size it will
+actually be stored.
+
+The crop is taken in the read specification — `convert 'file.jpg[1200x1200+X+Y]'`
+— which never materialises the whole image. On the 36-megapixel scan that is
+48 MB of peak RSS and 2.2 seconds, against a full decode that could not
+complete at all.
+
+Measured on one 3024x4032 scan, which is where the 41.0 dB default comes from:
+
+| Quality | Bytes | PSNR |
+|---|---|---|
+| 95 | 2,925,161 | 52.88 |
+| 90 | 2,313,263 | 43.34 |
+| 85 | 1,838,903 | 41.88 |
+| 80 | 1,521,203 | 41.20 |
+| 75 | 1,315,074 | 40.30 |
+| 70 | 1,207,991 | 39.95 |
+| 65 | 1,108,977 | 39.42 |
+| 60 | 1,017,026 | 38.75 |
+| 50 | 901,415 | 37.94 |
+
+**Some files are simply refused, and the tools say so.** ImageMagick's
+`policy.xml` on this host caps area at 128 megapixels, with memory at 256 MiB,
+map at 512 MiB and disk at 1 GiB. Two of masereelgroup's woodcut scans are 142
+and 145 megapixels and come back instantly with `cache resources exhausted` and
+11 MB of RSS — a refusal, not an exhaustion. A 109-megapixel scan clears the
+area cap and then wants roughly 870 MB decoded, which exhausts the rest.
+
+Those limits are not the enemy. They are what stops one `convert` claiming more
+than a gigabyte on a box with two, while Apache serves seventeen sites. So the
+tools report the file and leave it alone rather than raising the policy, and
+they distinguish `over-imagemagick-area-policy`, `over-imagemagick-limits`,
+`out-of-disk` and `encoder-failed`, because reporting all four as one status
+sends somebody hunting a bug that is not there. Check with:
+
+```bash
+identify -list resource
+```
+
+The search is a binary search, about six encodes per file rather than the forty
+a linear sweep would take. It never encodes above the source's own quality —
+raising a quality-60 file to 82 makes a larger file that has recovered nothing
+— and it discards a result that came out no smaller.
+
+The checker and the compressor share one encode function, so the sizes reported
+are the sizes that would be installed, not an estimate of them.
+
+The projected total for files beyond the sample is labelled an extrapolation
+because it is one. Files are tested largest first and large files compress
+proportionally better, so the measured rate is the optimistic end.
+
+#### `compress_images.php`
+
+```bash
+compress_images.php revoltlib.com --min-size=2M            # dry
+compress_images.php revoltlib.com --min-size=2M --apply
+```
+
+The only tool here that changes what visitors are served. Dry by default, and
+built around three refusals.
+
+**It refuses to run without a backup.** `--apply` does nothing unless a backup
+exists for the domain, because a bad run with no backup is a permanent loss of
+somebody's archival scans. The message names the command that fixes it.
+
+**It refuses to change dimensions.** Nothing passes `-resize`, but intent is
+not a guarantee: the written file is measured before it replaces the original,
+and a result whose dimensions moved is thrown away and reported.
+
+**It refuses to compress the same file twice.** This is the one that would have
+gone unnoticed. A second run over an already-compressed tree sees a quality-80
+file, searches below it, finds 72 acceptable and re-encodes — and JPEG
+generation loss is cumulative and invisible one step at a time. So every file
+written is recorded in a ledger with the hash of what was written, and a file
+whose hash still matches its entry is skipped. Restore or edit the file and the
+hash stops matching and it becomes eligible again, which is right in both
+directions. `--force` overrides this and should not be routine.
+
+The ledger is `compressed.tsv` in the domain's backup directory.
+
+Writes are atomic within the filesystem: the encode goes to a temporary file
+beside the original and is renamed over it, never copied over it.
+
+**Never schedule this one.** It changes what visitors see, like
+`modify_entry.php`.
+
+#### `backup_images.php` and `restore_images.php`
+
+```bash
+backup_images.php revoltlib.com --min-size=1M --apply
+restore_images.php revoltlib.com --list
+restore_images.php revoltlib.com                      # what has changed
+restore_images.php revoltlib.com --apply              # put it back
+restore_images.php revoltlib.com --file=c/c/6/k/627-x.jpg --apply
+```
+
+A backup is a directory of files, not a tarball. A tarball is smaller and
+tidier and it is the wrong choice: restoring one file out of a 5 GB tar means
+reading most of the tar, and the overwhelmingly likely restore is the one file
+that came out wrong, not all nine thousand.
+
+Backups live on `/mnt/nyc01`, never the root disk. Root is 25 GB with about
+8 GB free and revoltlib's images alone are 5.3 GB, so a backup written beside
+them fills the disk that serves all seventeen sites. The tool checks free space
+and refuses rather than half-filling the volume — a backup that stops two
+thirds through is worse than none, because the compressor's check for "is there
+a backup" would find the directory and believe it.
+
+Every backup carries `manifest.tsv` — relative path, size, mtime and SHA-256.
+The hash is computed from the bytes as they are copied, so it costs nothing
+beyond a read that was happening anyway.
+
+**Restore restores by comparison.** Every manifest entry is hashed where it now
+sits and only the files that differ are copied back. Restoring nine thousand
+identical files to fix four would touch every mtime on the tree and make the
+log useless. Its dry run is the useful half most of the time: it answers "what
+has changed since the backup", which is the question actually being asked after
+a compression run.
+
+Neither tool flushes the page cache. Pages already built hold the old image
+sizes, so flush the domain after a restore or a compression run.
+
 ## Notes for anyone adding a tool
 
 * Keep the entry point thin. Paths, requires, one instantiation, one call.

@@ -20,13 +20,10 @@
 			$free_bytes = disk_free_space('/');
 			$free_bytes_formatted = $this->formatBytes([
 				'number'=>$free_bytes,
-				'number_width'=>4,
 			]);
 			
 			print('PHP disk_free_space: ' . $free_bytes_formatted . PHP_EOL);
-			
-			// formatBytes
-			
+						
 			$disk_usage_command = "du -s / 2>&1 | grep -v  '^du:'";
 			$disk_usage_output = shell_exec($disk_usage_command);
 			

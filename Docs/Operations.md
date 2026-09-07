@@ -262,6 +262,10 @@ they run. Install as root's crontab:
 # Schema drift, and child tables holding rows nothing is allowed to fetch
 0 6 * * 1   /usr/lib/ggcms/cli/scripts/public/sql/check_schema.php
 
+# Image tree against the Image table -- orphans, missing files, and weight.
+# One line per domain; revoltlib carries 5.3 GB of the 6.0 GB.
+0 6 * * 2   /usr/lib/ggcms/cli/scripts/internal/images/scan_images.php revoltlib.com
+
 ```
 
 Cron mails its output to root. `You have new mail` at login is a signal, not
