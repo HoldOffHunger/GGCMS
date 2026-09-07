@@ -1445,6 +1445,34 @@
 			return TRUE;
 		}
 
+			/*
+				Empty when there is no handler or no domain on it -- a caller
+				that has neither gets the old SafeHost() behaviour rather than
+				a fatal, which is the right trade for cache maintenance.
+			*/
+
+		public function PageCacheHostsToFlush() {
+			if(!is_object($this->handler) || !property_exists($this->handler, 'domain')) {
+				return [];
+			}
+
+			if(!is_object($this->handler->domain)) {
+				return [];
+			}
+
+			$domain = $this->handler->domain->primary_domain_lowercased;
+
+			if(!is_string($domain) || strlen($domain) === 0) {
+				return [];
+			}
+
+			if(substr($domain, 0, 4) === 'www.') {
+				return [$domain, substr($domain, 4)];
+			}
+
+			return [$domain, 'www.' . $domain];
+		}
+
 		public function FlushPageCacheNow() {
 			try {
 				if(!class_exists('PageCache')) {
@@ -1456,7 +1484,40 @@
 				if($this->page_cache_dirty_scope === 'page') {
 					$page_cache->FlushPage([]);
 				} else {
-					$page_cache->FlushDomain([]);
+
+						/*
+							The domain is passed, not looked up.
+
+							FlushDomain falls back to SafeHost(), which reads
+							$_SERVER['HTTP_HOST'] -- present on the web and
+							absent from a shell, where it returned FALSE and
+							the flush quietly did nothing. Every tool that
+							writes an entry from the command line then had to
+							know to clear the cache itself, and one that
+							forgot left pages serving the old version with
+							nothing to say so.
+
+							The handler already knows which domain it is
+							serving, on both SAPIs, so it is asked instead.
+
+							Both hostnames, because the cache is keyed on
+							HTTP_HOST verbatim: every page is stored twice,
+							under example.com and www.example.com, and
+							clearing one leaves the other serving what it held
+							before the write. The engine's own flush had that
+							fault on the web too -- it cleared whichever
+							hostname the editor happened to arrive on.
+						*/
+
+					$hosts = $this->PageCacheHostsToFlush();
+
+					if($hosts) {
+						foreach($hosts as $host) {
+							$page_cache->FlushDomain(['domain'=>$host]);
+						}
+					} else {
+						$page_cache->FlushDomain([]);
+					}
 				}
 			} catch (Throwable $throwable) {
 				# cache maintenance must never break a write -- and a

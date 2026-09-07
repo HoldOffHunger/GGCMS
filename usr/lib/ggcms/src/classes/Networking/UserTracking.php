@@ -138,7 +138,23 @@
 				usleep(round(rand(0, 100)*1000)); //0-100 milliseconds
 			}
 			
-			chmod($filename, 0755);
+				/*
+					$filename is what gglog was given -- a path relative to
+					GGCMS_LOG_DIR, like revoltlib.com/stats/2026-Sep.txt.
+					chmod resolves it against the process working directory
+					instead, where it has never existed, so this failed on
+					every request the site has ever served -- silently, since
+					index.php sets error_reporting(0).
+
+					0644 rather than the 0755 it asked for. The mode it never
+					applied would have made every statistics file executable,
+					and 0644 is what fopen has actually been creating them as
+					all along, so this now asserts the status quo rather than
+					changing seventeen sites' logs on the first request after
+					a deploy.
+				*/
+
+			chmod(GGCMS_LOG_DIR . $filename, 0644);
 			fwrite($filename_handle, $log_string);
 			
 			flock($filename_handle, LOCK_UN);

@@ -624,6 +624,24 @@
 			able to turn that loose on the filesystem.
 		*/
 
+			/*
+				What the last flush actually deleted.
+
+				A list rather than a count, because the interesting question
+				after an edit is not how many pages went but which -- a save
+				that clears one page when it should have cleared a section
+				looks identical to a correct one from a number alone.
+
+				Accumulated across calls on purpose: flushing both hostnames
+				is two calls and one answer.
+			*/
+
+		public $removed_files = [];
+
+		public function RemovedFiles() {
+			return $this->removed_files;
+		}
+
 		public function RemoveDirectory($args) {
 			$location = $args['location'];
 
@@ -656,7 +674,9 @@
 				if(is_dir($item_location) && !is_link($item_location)) {
 					$this->RemoveDirectory(['location'=>$item_location]);
 				} else {
-					@unlink($item_location);
+					if(@unlink($item_location)) {
+						$this->removed_files[] = $item_location;
+					}
 				}
 			}
 
