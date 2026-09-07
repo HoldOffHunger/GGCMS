@@ -244,15 +244,6 @@
 			// The database side
 			// -----------------------------------------------
 
-		public function loadImageRows() {
-			$query = 'SELECT id, FileName, StandardFileName, IconFileName, FileDirectory, ';
-			$query .= 'PixelWidth, PixelHeight, StandardPixelWidth, StandardPixelHeight, ';
-			$query .= 'IconPixelWidth, IconPixelHeight ';
-			$query .= 'FROM Image';
-
-			return $this->runQuery(['query'=>$query]);
-		}
-
 			/*
 				Relative path to variant, for every file the database expects.
 				The scanner subtracts this from what is on disk to find the
@@ -292,6 +283,104 @@
 			return $expected;
 		}
 
+			// Talking to ImageMagick
+			// -----------------------------------------------
+
+			/*
+				The binary is not called the same thing in both places these
+				tools run.
+
+				On the droplet it is ImageMagick 6 and the commands are
+				`convert`, `identify` and `compare`.  On Windows `convert` is
+				something else entirely -- it is the filesystem conversion
+				utility that ships with the operating system, and calling it
+				with a JPEG produces "Invalid drive specification", which is a
+				confusing thing to debug and a frightening thing to succeed at.
+				ImageMagick 7 answers to `magick` and takes the old tool name
+				as its first argument.
+
+				So the invocation is worked out once, per process, by asking
+				whether `magick` exists.  Nothing else in these tools names a
+				binary.
+			*/
+
+		public function onWindows() {
+			return strtoupper(substr(PHP_OS, 0, 3)) === 'WIN';
+		}
+
+		public function hasMagickBinary() {
+			if(property_exists($this, 'has_magick_binary') && $this->has_magick_binary !== NULL) {
+				return $this->has_magick_binary;
+			}
+
+			$probe = $this->onWindows() ? 'where magick 2>NUL' : 'command -v magick 2>/dev/null';
+
+			$found = trim((string)shell_exec($probe));
+
+			return $this->has_magick_binary = (strlen($found) > 0);
+		}
+
+			/*
+				nice is a POSIX courtesy and does not exist on Windows.  It
+				matters on the droplet, where a compression run shares one vCPU
+				with Apache serving seventeen sites, and matters not at all on
+				a desktop with twenty-four cores.
+			*/
+
+		public function nullDevice() {
+			return $this->onWindows() ? 'NUL' : '/dev/null';
+		}
+
+		public function nicePrefix() {
+			return $this->onWindows() ? '' : 'nice -n 19 ';
+		}
+
+		public function imageMagickCommand($args) {
+			$tool = $args['tool'];
+
+			if($this->hasMagickBinary()) {
+				return $this->nicePrefix() . 'magick ' . $tool;
+			}
+
+			return $this->nicePrefix() . $tool;
+		}
+
+			/*
+				Refuse early and say what is missing, rather than letting every
+				encode return nothing and reporting a tree full of
+				"encoder-failed".
+			*/
+
+		public function requireImageMagick() {
+			$command = $this->imageMagickCommand(['tool'=>'identify']) . ' -version 2>&1';
+
+			$output = (string)shell_exec($command);
+
+			if(stripos($output, 'ImageMagick') !== FALSE) {
+				return TRUE;
+			}
+
+			print('ImageMagick was not found.' . "
+
+");
+
+			if($this->onWindows()) {
+				print('  Install it from https://imagemagick.org/script/download.php#windows' . "
+");
+				print('  and make sure `magick` is on PATH.  Do not rely on `convert` --' . "
+");
+				print('  on Windows that name belongs to the filesystem utility.' . "
+
+");
+			} else {
+				print('  apt-get install imagemagick' . "
+
+");
+			}
+
+			return FALSE;
+		}
+
 			// Reading an image
 			// -----------------------------------------------
 
@@ -309,7 +398,8 @@
 		public function identifyImage($args) {
 			$path = $args['path'];
 
-			$command = 'nice -n 19 identify -format "%w %h %Q" ' . escapeshellarg($path . '[0]') . ' 2>/dev/null';
+			$command = $this->imageMagickCommand(['tool'=>'identify']);
+			$command .= ' -format "%w %h %Q" ' . escapeshellarg($path . '[0]') . ' 2>' . $this->nullDevice();
 
 			$output = trim((string)shell_exec($command));
 
@@ -320,6 +410,21 @@
 			$pieces = preg_split('/\s+/', $output);
 
 			if(count($pieces) < 3) {
+				return FALSE;
+			}
+
+				/*
+					identify prints nothing but the three numbers asked for, so
+					anything else here is a diagnostic that leaked through and
+					must not be cast into a width.  A zero dimension would be
+					taken as a real answer by every caller.
+				*/
+
+			if(!ctype_digit($pieces[0]) || !ctype_digit($pieces[1])) {
+				return FALSE;
+			}
+
+			if((int)$pieces[0] === 0 || (int)$pieces[1] === 0) {
 				return FALSE;
 			}
 

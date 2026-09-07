@@ -8,6 +8,7 @@
 	clireq('traits/CLIAccess.php');
 	clireq('traits/GlobalsTrait.php');
 	clireq('traits/ImageFiles.php');
+	clireq('traits/ImageRows.php');
 
 	/*
 		Which files nothing names, and which of those are safe to believe are
@@ -59,6 +60,7 @@
 		use CLIAccess;
 		use GlobalsTrait;
 		use ImageFiles;
+		use ImageRows;
 
 			// Entry Point
 			// -----------------------------------------------

@@ -82,7 +82,7 @@
 		}
 
 		public function qualitySearchDefaultTarget() {
-			return 41.0;
+			return $this->metricDefaultTarget(['metric'=>$this->chosenMetric()]);
 		}
 
 			/*
@@ -98,6 +98,160 @@
 
 		public function qualitySearchCeiling() {
 			return 95;
+		}
+
+			// Which metric
+			// -----------------------------------------------
+
+			/*
+				ImageMagick 6 on the droplet offers no SSIM.  ImageMagick 7
+				does, and these tools are meant to run in both places, so the
+				metric is chosen from what the installed binary actually lists
+				rather than assumed from a version number.
+
+				SSIM is preferred wherever it exists because it is the metric
+				this search wanted from the start: it weighs structural
+				damage, where PSNR only sums squared pixel error and cannot
+				tell a smeared face from an evenly noisy sky.
+
+				The direction differs.  SSIM and PSNR rise as fidelity rises;
+				DSSIM is a distance and falls.  Getting that backwards would
+				not error -- it would quietly select the worst quality that
+				still encoded, on every file, and the tables would look
+				plausible.
+			*/
+
+		public function metricPreferenceOrder() {
+			return ['SSIM', 'PSNR'];
+		}
+
+		public function availableMetrics() {
+			if(property_exists($this, 'available_metrics') && $this->available_metrics !== NULL) {
+				return $this->available_metrics;
+			}
+
+			$command = $this->imageMagickCommand(['tool'=>'compare']) . ' -list metric 2>&1';
+
+			$output = (string)shell_exec($command);
+
+			$metrics = [];
+
+			foreach(preg_split('/\s+/', trim($output)) as $line) {
+				if(strlen($line)) {
+					$metrics[strtoupper($line)] = TRUE;
+				}
+			}
+
+			return $this->available_metrics = $metrics;
+		}
+
+		public function chosenMetric() {
+			if(property_exists($this, 'chosen_metric') && $this->chosen_metric) {
+				return $this->chosen_metric;
+			}
+
+			$available = $this->availableMetrics();
+
+			foreach($this->metricPreferenceOrder() as $metric) {
+				if(array_key_exists($metric, $available)) {
+					return $this->chosen_metric = $metric;
+				}
+			}
+
+			return $this->chosen_metric = 'PSNR';
+		}
+
+		public function setMetric($args) {
+			$metric = strtoupper($args['metric']);
+
+			if(!array_key_exists($metric, $this->availableMetrics())) {
+				return FALSE;
+			}
+
+			$this->chosen_metric = $metric;
+
+			return TRUE;
+		}
+
+		public function metricHigherIsBetter($args) {
+			return $args['metric'] !== 'DSSIM';
+		}
+
+			/*
+				The thresholds are not interchangeable and the numbers are not
+				comparable across metrics.  41 dB and 0.995 SSIM are both
+				"almost indistinguishable" and neither can be read as the
+				other, which is why every result records which metric produced
+				it.
+			*/
+
+		public function metricDefaultTarget($args) {
+			$targets = [
+				'PSNR'=>41.0,
+				'SSIM'=>0.995,
+				'DSSIM'=>0.005,
+			];
+
+			$metric = $args['metric'];
+
+			return array_key_exists($metric, $targets) ? $targets[$metric] : 41.0;
+		}
+
+		public function metricIdenticalValue($args) {
+			$metric = $args['metric'];
+
+			if($metric === 'DSSIM') {
+				return 0.0;
+			}
+
+			if($metric === 'SSIM') {
+				return 1.0;
+			}
+
+			return 99.0;
+		}
+
+		public function metricPasses($args) {
+			$value = (float)$args['value'];
+			$target = (float)$args['target'];
+
+			if($this->metricHigherIsBetter(['metric'=>$this->chosenMetric()])) {
+				return $value >= $target;
+			}
+
+			return $value <= $target;
+		}
+
+			/*
+				Worst of several windows, not the centre alone.
+
+				One crop is what the droplet can afford.  Given cores to spare
+				it is worth sampling the corners too and keeping the worst
+				result, because compression damage is not evenly spread -- a
+				portrait with a calm centre and detailed edges passes on the
+				centre crop and loses the edges.
+			*/
+
+		public function qualitySearchRegions() {
+			if(property_exists($this, 'quality_search_regions') && $this->quality_search_regions) {
+				return (int)$this->quality_search_regions;
+			}
+
+			return 1;
+		}
+
+		public function setRegions($args) {
+			$regions = (int)$args['regions'];
+
+			if($regions < 1) {
+				$regions = 1;
+			}
+
+			if($regions > 5) {
+				$regions = 5;
+			}
+
+			return $this->quality_search_regions = $regions;
 		}
 
 			// The search
@@ -170,14 +324,22 @@
 
 			$original_size = filesize($path);
 
-			$geometry = $this->cropGeometry([
+			$geometries = $this->cropGeometries([
 				'width'=>$identified['width'],
 				'height'=>$identified['height'],
 			]);
 
-			$reference = $this->buildCrop(['path'=>$path, 'geometry'=>$geometry]);
+			$references = [];
 
-			if(!$reference) {
+			foreach($geometries as $geometry) {
+				$crop = $this->buildCrop(['path'=>$path, 'geometry'=>$geometry]);
+
+				if($crop) {
+					$references[$geometry] = $crop;
+				}
+			}
+
+			if(!$references) {
 				return [
 					'status'=>$this->classifyEncoderFailure(),
 					'source_quality'=>$identified['quality'],
@@ -198,8 +360,7 @@
 				$candidate = $this->encodeAndMeasure([
 					'path'=>$path,
 					'quality'=>$quality,
-					'reference'=>$reference,
-					'geometry'=>$geometry,
+					'references'=>$references,
 				]);
 
 				$encodes++;
@@ -210,7 +371,7 @@
 					break;
 				}
 
-				if($candidate['metric'] >= $target) {
+				if($this->metricPasses(['value'=>$candidate['metric'], 'target'=>$target])) {
 					$best = $candidate;
 					$high = $quality - 1;
 				} else {
@@ -218,7 +379,9 @@
 				}
 			}
 
-			unlink($reference);
+			foreach($references as $reference) {
+				unlink($reference);
+			}
 
 				/*
 					An encoder that fell over is not a verdict on fidelity.
@@ -296,6 +459,66 @@
 		}
 
 			/*
+				The centre window first, so a one-region run is exactly what it
+				always was and the droplet's numbers stay comparable.  Further
+				regions are the four corners, inset by a tenth so they sample
+				picture rather than border.
+
+				An image smaller than the window is returned once whatever the
+				region count -- five identical crops of the same small icon
+				would be five times the work for one answer.
+			*/
+
+		public function cropGeometries($args) {
+			$width = (int)$args['width'];
+			$height = (int)$args['height'];
+
+			$centre = $this->cropGeometry($args);
+
+			$size = $this->qualitySearchCropSize();
+			$regions = $this->qualitySearchRegions();
+
+			if($regions <= 1 || $width <= $size || $height <= $size) {
+				return [$centre];
+			}
+
+			$inset_x = (int)floor($width / 10);
+			$inset_y = (int)floor($height / 10);
+
+			$max_left = $width - $size;
+			$max_top = $height - $size;
+
+			$corners = [
+				[$inset_x, $inset_y],
+				[$max_left - $inset_x, $inset_y],
+				[$inset_x, $max_top - $inset_y],
+				[$max_left - $inset_x, $max_top - $inset_y],
+			];
+
+			$geometries = [$centre];
+
+			foreach($corners as $corner) {
+				if(count($geometries) >= $regions) {
+					break;
+				}
+
+				$left = $corner[0] < 0 ? 0 : $corner[0];
+				$top = $corner[1] < 0 ? 0 : $corner[1];
+
+				$left = $left > $max_left ? $max_left : $left;
+				$top = $top > $max_top ? $max_top : $top;
+
+				$geometry = $size . 'x' . $size . '+' . $left . '+' . $top;
+
+				if(!in_array($geometry, $geometries, TRUE)) {
+					$geometries[] = $geometry;
+				}
+			}
+
+			return $geometries;
+		}
+
+			/*
 				The crop is applied in the read specification rather than as an
 				operator, so ImageMagick never materialises the whole image.
 				That is the difference between 48 MB and a failure to decode.
@@ -307,7 +530,8 @@
 
 			$crop = tempnam(sys_get_temp_dir(), 'ggcms_crop_') . '.png';
 
-			$command = 'nice -n 19 convert ' . escapeshellarg($path . '[' . $geometry . ']');
+			$command = $this->imageMagickCommand(['tool'=>'convert']);
+			$command .= ' ' . escapeshellarg($path . '[' . $geometry . ']');
 			$command .= ' +repage ' . escapeshellarg($crop) . ' 2>&1';
 
 			$this->last_encoder_error = trim((string)shell_exec($command));
@@ -323,11 +547,16 @@
 			return $crop;
 		}
 
+			/*
+				One encode, measured against every region, and the worst result
+				is the one that counts.  Averaging would let a calm sky pay for
+				a ruined face, which is the failure this is here to catch.
+			*/
+
 		public function encodeAndMeasure($args) {
 			$path = $args['path'];
 			$quality = (int)$args['quality'];
-			$reference = $args['reference'];
-			$geometry = $args['geometry'];
+			$references = $args['references'];
 
 			$encoded = $this->encodeToTemporary([
 				'path'=>$path,
@@ -339,23 +568,46 @@
 			}
 
 			$size = filesize($encoded);
+			$higher_is_better = $this->metricHigherIsBetter(['metric'=>$this->chosenMetric()]);
 
-			$metric = $this->measureAgainstCrop([
-				'path'=>$encoded,
-				'reference'=>$reference,
-				'geometry'=>$geometry,
-			]);
+			$worst = FALSE;
+
+			foreach($references as $geometry=>$reference) {
+				$metric = $this->measureAgainstCrop([
+					'path'=>$encoded,
+					'reference'=>$reference,
+					'geometry'=>$geometry,
+				]);
+
+				if($metric === FALSE) {
+					unlink($encoded);
+
+					return FALSE;
+				}
+
+				if($worst === FALSE) {
+					$worst = $metric;
+
+					continue;
+				}
+
+				if($higher_is_better) {
+					$worst = $metric < $worst ? $metric : $worst;
+				} else {
+					$worst = $metric > $worst ? $metric : $worst;
+				}
+			}
 
 			unlink($encoded);
 
-			if($metric === FALSE) {
+			if($worst === FALSE) {
 				return FALSE;
 			}
 
 			return [
 				'quality'=>$quality,
 				'size'=>$size,
-				'metric'=>$metric,
+				'metric'=>$worst,
 			];
 		}
 
@@ -376,7 +628,8 @@
 
 			$encoded = tempnam(sys_get_temp_dir(), 'ggcms_enc_') . '.jpg';
 
-			$command = 'nice -n 19 convert ' . escapeshellarg($path . '[0]');
+			$command = $this->imageMagickCommand(['tool'=>'convert']);
+			$command .= ' ' . escapeshellarg($path . '[0]');
 			$command .= ' -strip -quality ' . $quality;
 			$command .= ' ' . escapeshellarg($encoded) . ' 2>&1';
 
@@ -407,7 +660,8 @@
 				return FALSE;
 			}
 
-			$command = 'nice -n 19 compare -metric PSNR ';
+			$command = $this->imageMagickCommand(['tool'=>'compare']);
+			$command .= ' -metric ' . $this->chosenMetric() . ' ';
 			$command .= escapeshellarg($reference) . ' ' . escapeshellarg($candidate_crop);
 			$command .= ' null: 2>&1';
 
@@ -423,7 +677,7 @@
 				*/
 
 			if(strpos($output, 'inf') === 0) {
-				return 99.0;
+				return $this->metricIdenticalValue(['metric'=>$this->chosenMetric()]);
 			}
 
 			if(!preg_match('/^-?[0-9]+(\.[0-9]+)?/', $output, $matches)) {

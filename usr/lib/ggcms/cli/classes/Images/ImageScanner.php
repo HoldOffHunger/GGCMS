@@ -8,6 +8,7 @@
 	clireq('traits/CLIAccess.php');
 	clireq('traits/GlobalsTrait.php');
 	clireq('traits/ImageFiles.php');
+	clireq('traits/ImageRows.php');
 
 	/*
 		What is in the image tree, and what is wrong with it.
@@ -42,6 +43,7 @@
 		use CLIAccess;
 		use GlobalsTrait;
 		use ImageFiles;
+		use ImageRows;
 
 			// Entry Point
 			// -----------------------------------------------

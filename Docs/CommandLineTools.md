@@ -281,6 +281,9 @@ inside.
 | `repair_image_filenames.php` | Corrects rows that name a file under the wrong name |
 | `check_orphan_images.php` | Classifies files no `Image` row names; reads only |
 | `check_image_references.php` | Checks `Image::N` markup against the images each entry has |
+| `export_image_candidates.php` | Packages the files worth compressing, for another machine |
+| `compress_export_locally.php` | Compresses such a batch; runs anywhere with cores |
+| `import_compressed_images.php` | Re-checks returned files and installs the ones that pass |
 
 The images are the largest thing on this host and the only large thing with no
 other copy of it. `/srv/ggcms` is 6.0 GB, of which revoltlib's image directory
@@ -616,6 +619,92 @@ twice and reports the second copy as a phantom. That is also the order
 because it is not a fault. Templates display an entry's images through the icon
 and standard blocks without any markup; placing one in the prose is the
 exception. It is reported when asked for, and labelled as information.
+
+#### Compressing somewhere else — the export/import pipeline
+
+The droplet is the wrong machine for this work. Measured on 7 September 2026:
+
+| | |
+|---|---|
+| Compressing revoltlib's 491 large JPEGs *on the droplet* | ~16 hours of niced CPU, contending with Apache |
+| Download from droplet | ~10 MB/s |
+| Upload to droplet | ~8.7 MB/s |
+| Moving all 3.2 GB down | ~5½ minutes |
+| Sending results back | ~4 minutes |
+
+Ten minutes of transfer against sixteen hours of contended CPU, on a box with
+one vCPU serving seventeen sites.
+
+```bash
+# on the server
+export_image_candidates.php revoltlib.com --to=/mnt/nyc01/batch1 --min-size=1M --apply
+
+# fetch it, then on a machine with cores
+compress_export_locally.php batch1 --jobs=16
+
+# send it back, then on the server
+import_compressed_images.php revoltlib.com --from=/mnt/nyc01/batch1
+import_compressed_images.php revoltlib.com --from=/mnt/nyc01/batch1 --apply
+```
+
+**The desktop is a processor, not an authority.** It can be a different
+machine, a different ImageMagick and a different metric, and the files cross a
+network twice. So the import re-checks all five of these and refuses anything
+that fails, rather than installing it:
+
+| Check | Because |
+|---|---|
+| a backup exists | the images are on no other disk |
+| the live file still matches the manifest hash | it changed while the batch was away, so the result answers a question about a file that no longer exists |
+| the returned file matches its recorded hash | a truncated JPEG is frequently still a valid JPEG, of the top of the picture |
+| dimensions match the manifest | a resize makes every stored `PixelWidth` a lie |
+| it is actually smaller | a result that is not smaller spends a generation of quality for nothing |
+
+Only then is it renamed into place, and only then does it enter the ledger.
+
+**One implementation of the search, not two.** The whole value of this is that
+the number `check_image_compression.php` reports is the number you get, so
+`compress_export_locally.php` loads the same `ImageQualitySearch` trait and
+passes it different settings. A second implementation written for the other
+machine would drift, quietly, and the two would disagree about files nobody
+re-tested.
+
+**What the extra compute buys** is not only speed:
+
+- `--regions=5` measures five windows per file and keeps the **worst**, instead
+  of trusting the centre crop. Damage is not evenly spread — a portrait with a
+  calm centre and detailed edges passes on one window and loses the edges.
+  Averaging would let a calm sky pay for a ruined face. The server stays at 1.
+- **SSIM**, where ImageMagick 7 offers it. It weighs structural damage, where
+  PSNR only sums squared error and cannot tell a smeared face from an evenly
+  noisy sky. The tools ask `compare -list metric` and prefer it automatically;
+  ImageMagick 6 on the droplet has no SSIM and keeps PSNR.
+
+Because the metric may differ from the server's, every result row records which
+metric and threshold produced it, and the import prints both. **41 dB and 0.995
+SSIM both mean "almost indistinguishable" and neither can be read as the
+other.** Direction matters too — DSSIM is a distance and falls as fidelity
+rises; getting that backwards would not error, it would quietly select the
+worst quality that still encoded, on every file, with plausible-looking tables.
+
+**On not upgrading ImageMagick on the droplet.** The engine uses the imagick
+PHP extension (`modify.php:2774`, `SimpleImages.php:79`) and it is compiled
+against the exact library that would be replaced — `ImageMagick 6.9.10-23`.
+Ubuntu 20.04 offers no ImageMagick 7, so it is a source build, after which the
+extension the image-upload path depends on is linked against a library that
+arrived an hour ago. It also buys nothing: the server only needs `identify` for
+export and import, and no metric ever runs there.
+
+**Parallelism.** PHP has no `fork` on Windows, so `--jobs=N` re-runs the same
+script as N child processes, each taking every Nth file, merging their result
+files at the end. Each child is read to completion *before* being waited on — a
+child that fills its stdout pipe blocks forever, and `proc_close` on a blocked
+child never returns, which looks exactly like a slow encode and is not.
+
+`compress_export_locally.php` is the one entry point here that does not read
+`/var/www/ggcms_cli_directories.php`, because it is meant to run on a machine
+with no GGCMS installation. It works its paths out from `__DIR__` instead, and
+needs no database, no domain and no configuration.
 
 ## Notes for anyone adding a tool
 
