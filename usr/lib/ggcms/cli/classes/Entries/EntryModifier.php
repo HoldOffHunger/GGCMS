@@ -52,7 +52,9 @@
 
 			$this->setOptions();
 
-			if(!$this->fields) {
+				//  --dump-form only reads; it has nothing to write and needs no field.
+
+			if(!$this->fields && !$this->dump_form) {
 				return $this->cancelAction(['message'=>'Nothing to write.  Pass at least one --field=name=value.']);
 			}
 
@@ -73,10 +75,12 @@
 
 			$this->reportIntent();
 
-			if(!$this->apply) {
-				print('Dry run.  Nothing was written.  Add --apply to run it.' . PHP_EOL . PHP_EOL);
-				return TRUE;
-			}
+				/*
+					A dry run still renders the form.  It is the only way to show
+					what would actually be posted -- how many fields came back, and
+					whether --path resolved at all, which a 404 otherwise hides
+					behind a cheerful report of a save.
+				*/
 
 			return $this->runModify();
 		}
@@ -146,7 +150,10 @@
 			$this->path = $this->option(['name'=>'path', 'default'=>'/']);
 			$this->user = $this->option(['name'=>'user', 'default'=>'']);
 			$this->apply = $this->flag(['name'=>'apply']);
+			$this->show_response = $this->flag(['name'=>'show-response']);
+			$this->dump_form = $this->flag(['name'=>'dump-form']);
 			$this->fields = $this->fieldArguments();
+			$this->clear = $this->clearArguments();
 
 			return TRUE;
 		}
@@ -187,6 +194,31 @@
 					continue;
 				}
 
+					/*
+						A name ending in [] is an array field, and most of the
+						interesting ones are: the textbody field is Text[], because
+						an entry may carry several.  A browser posts name="Text[]"
+						as $_POST['Text'] = ['...'], so storing the literal key
+						'Text[]' put something in the request that modify.php never
+						reads.  It then rendered the form and saved nothing, with no
+						error anywhere, because nothing was wrong -- the field had
+						simply not been mentioned.
+
+						Repeat the argument to post several values, in order.
+					*/
+
+				if(substr($pieces[0], -2) === '[]') {
+					$name = substr($pieces[0], 0, -2);
+
+					if(!array_key_exists($name, $fields) || !is_array($fields[$name])) {
+						$fields[$name] = [];
+					}
+
+					$fields[$name][] = $pieces[1];
+
+					continue;
+				}
+
 				$fields[$pieces[0]] = $pieces[1];
 			}
 
@@ -198,12 +230,6 @@
 			print('URL      : ' . $this->scriptURL() . PHP_EOL);
 			print('User     : ' . (strlen($this->user) ? $this->user : '(none -- dry run only)') . PHP_EOL);
 			print('Mode     : ' . ($this->apply ? 'APPLY -- writes to the database' : 'dry run') . PHP_EOL);
-			print(PHP_EOL);
-
-			foreach($this->fields as $name => $value) {
-				printf("  %-24s %s" . PHP_EOL, $name, $value);
-			}
-
 			print(PHP_EOL);
 
 			return TRUE;
@@ -223,7 +249,10 @@
 				it modify.php is unreachable no matter what else is set.
 			*/
 
-		public function fakeRequest() {
+		public function fakeRequest($args = []) {
+			$action = array_key_exists('action', $args) ? $args['action'] : $this->action;
+			$post   = array_key_exists('post', $args)   ? $args['post']   : $this->fields;
+
 			$url = $this->scriptURL();
 
 			$_SERVER['HTTP_HOST'] = 'www.' . $this->domain;
@@ -237,9 +266,9 @@
 			$_SERVER['REMOTE_ADDR'] = '127.0.0.1';
 			$_SERVER['HTTP_REFERER'] = '';
 
-			$_GET = ['action'=>$this->action];
-			$_POST = $this->fields;
-			$_POST['action'] = $this->action;
+			$_GET = ['action'=>$action];
+			$_POST = $post;
+			$_POST['action'] = $action;
 
 			$_REQUEST = array_merge($_GET, $_POST);
 
@@ -270,11 +299,41 @@
 			return $path . 'modify.php';
 		}
 
-			// Running it
+			// Rendering the form in a child process
 			// -----------------------------------------------
 
-		public function runModify() {
-			$this->fakeRequest();
+		public function fetchFormFields() {
+			$command = escapeshellarg(PHP_BINARY)
+				. ' ' . escapeshellarg($this->argv[0])
+				. ' ' . escapeshellarg($this->domain)
+				. ' --path=' . escapeshellarg($this->path)
+				. ' --user=' . escapeshellarg($this->user)
+				. ' --dump-form 2>/dev/null';
+
+			$output = (string) shell_exec($command);
+
+			$start = strpos($output, '--FORMJSON--');
+			$end = strpos($output, '--ENDFORMJSON--');
+
+			if($start === FALSE || $end === FALSE || $end <= $start) {
+				return NULL;
+			}
+
+			$start += strlen('--FORMJSON--');
+
+			$decoded = json_decode(substr($output, $start, $end - $start), TRUE);
+
+			return is_array($decoded) ? $decoded : NULL;
+		}
+
+			/*
+				Renders the Edit form and prints its fields as JSON between two
+				markers, so the parent can find them in among whatever else the
+				engine decided to say.
+			*/
+
+		public function dumpForm() {
+			$this->fakeRequest(['action'=>'Edit', 'post'=>[]]);
 
 			require(GGCMS_DIR . 'classes/StandardLibraries.php');
 
@@ -283,10 +342,306 @@
 			clireq('classes/Entries/CLIAuthentication.php');
 			clireq('classes/Entries/CLIHandler.php');
 
+			ob_start();
 			$handler = new CLIHandler();
 			$handler->SetCLIUser(['user'=>$this->user]);
+			$handler->HandleRequest();
+			$html = ob_get_contents();
+			ob_end_clean();
+
+			print('--FORMJSON--' . json_encode($this->parseFormFields(['html'=>$html])) . '--ENDFORMJSON--');
+
+			return TRUE;
+		}
+
+			// Reading the form back
+			// -----------------------------------------------
+
+			/*
+				Whatever modify.php just rendered, as a request.
+
+				A browser posts the form it was given, so that form is the exact
+				shape of a request which changes nothing.  Reading it back gives
+				a base to override rather than a field list to maintain.
+
+				Four rules, all of them a browser's.  An unchecked checkbox or
+				radio does not post at all.  A select posts its selected option,
+				or the first one when the markup names none.  A file input never
+				posts a value, and there is nothing to upload from a shell.  And
+				a name ending in [] keeps its order, which matters because Text[]
+				and textbody_Language[] are read positionally.
+			*/
+
+		public function parseFormFields($args) {
+			$html = $args['html'];
+
+			$fields = [];
+
+			if(!strlen(trim($html))) {
+				return $fields;
+			}
+
+			$previous = libxml_use_internal_errors(TRUE);
+
+			$dom = new DOMDocument();
+			@$dom->loadHTML(mb_convert_encoding($html, 'HTML-ENTITIES', 'UTF-8'));
+
+			libxml_clear_errors();
+			libxml_use_internal_errors($previous);
+
+			$xpath = new DOMXPath($dom);
+
+			foreach($xpath->query('//input|//textarea|//select') as $node) {
+				$name = $node->getAttribute('name');
+
+				if(!strlen($name)) {
+					continue;
+				}
+
+				$tag = strtolower($node->nodeName);
+
+				if($tag === 'input') {
+					$type = strtolower($node->getAttribute('type'));
+
+					if(!strlen($type)) {
+						$type = 'text';
+					}
+
+					if(in_array($type, ['file', 'submit', 'button', 'image', 'reset'], TRUE)) {
+						continue;
+					}
+
+					if(($type === 'checkbox' || $type === 'radio') && !$node->hasAttribute('checked')) {
+						continue;
+					}
+
+					$value = $node->getAttribute('value');
+				} elseif($tag === 'textarea') {
+					$value = $node->textContent;
+				} else {
+					$value = NULL;
+					$first = NULL;
+
+					foreach($node->getElementsByTagName('option') as $option) {
+						$option_value = $option->hasAttribute('value') ? $option->getAttribute('value') : $option->textContent;
+
+						if($first === NULL) {
+							$first = $option_value;
+						}
+
+						if($option->hasAttribute('selected')) {
+							$value = $option_value;
+
+							break;
+						}
+					}
+
+					if($value === NULL) {
+						$value = ($first === NULL) ? '' : $first;
+					}
+				}
+
+				if(substr($name, -2) === '[]') {
+					$key = substr($name, 0, -2);
+
+					if(!array_key_exists($key, $fields) || !is_array($fields[$key])) {
+						$fields[$key] = [];
+					}
+
+					$fields[$key][] = $value;
+
+					continue;
+				}
+
+				$fields[$name] = $value;
+			}
+
+			return $fields;
+		}
+
+			/*
+				The form, minus what --clear names, plus what --field sets.
+
+				Clearing happens first, so --clear=Image alongside
+				--field=image_Title[]=x is a deliberate replacement rather than a
+				contradiction.
+			*/
+
+		public function mergeFields($args) {
+			$post = $args['base'];
+
+			foreach($this->clear as $type) {
+				foreach($this->clearFieldPrefixes(['type'=>$type]) as $prefix) {
+					foreach(array_keys($post) as $key) {
+						if(stripos($key, $prefix) === 0) {
+							unset($post[$key]);
+						}
+					}
+				}
+			}
+
+			foreach($this->fields as $name => $value) {
+				$post[$name] = $value;
+			}
+
+			return $post;
+		}
+
+			/*
+				A record type names more than one form field.  A textbody is
+				Text[] and its textbody_* companions, and dropping one without
+				the others leaves the positional arrays misaligned.
+
+				Clearing Image takes ImageTranslation with it, which is intended:
+				a translation of an image that no longer exists is not a record
+				anybody wants kept.
+			*/
+
+		public function clearFieldPrefixes($args) {
+			$type = strtolower($args['type']);
+
+			$map = [
+				'image'=>['image_', 'Image'],
+				'textbody'=>['Text', 'textbody_'],
+				'description'=>['Description', 'description_'],
+				'quote'=>['Quote', 'quote_'],
+				'tag'=>['Tag', 'tag_'],
+				'link'=>['Link', 'link_'],
+				'eventdate'=>['EventDate', 'eventdate_'],
+				'definition'=>['Definition', 'definition_'],
+				'entrytranslation'=>['EntryTranslation', 'entrytranslation_'],
+				'association'=>['ChosenEntryid', 'association_'],
+			];
+
+			if(array_key_exists($type, $map)) {
+				return $map[$type];
+			}
+
+			return [$args['type']];
+		}
+
+		public function clearArguments() {
+			$clear = [];
+
+			foreach($this->argv as $argument) {
+				if(strpos($argument, '--clear=') !== 0) {
+					continue;
+				}
+
+				$value = substr($argument, strlen('--clear='));
+
+				if(strlen($value)) {
+					$clear[] = $value;
+				}
+			}
+
+			return $clear;
+		}
+
+		public function reportPlan($args) {
+			$base = $args['base'];
+			$post = $args['post'];
+
+			print('Form     : ' . count($base) . ' field(s) read back from the rendered Edit form' . PHP_EOL);
+
+			if(count($this->clear)) {
+				print('Clearing : ' . implode(', ', $this->clear) . PHP_EOL);
+			}
+
+			print('Posting  : ' . count($post) . ' field(s)' . PHP_EOL . PHP_EOL);
+
+			foreach($this->fields as $name => $value) {
+				if(is_array($value)) {
+					$shown = '[' . count($value) . ' value(s)] ' . (array_key_exists(0, $value) ? substr((string) $value[0], 0, 76) : '');
+				} else {
+					$shown = substr((string) $value, 0, 90);
+				}
+
+				printf('  %-22s %s' . PHP_EOL, $name, $shown);
+			}
+
+			return TRUE;
+		}
+
+			// Running it
+			// -----------------------------------------------
+
+			/*
+				Two passes, because a field nobody mentioned must survive.
+
+				modify.php takes the request as the whole truth: a record type
+				absent from the POST is a record type the user deleted, which is
+				right for a browser -- the form always carries everything, and
+				removing a section is how you delete it -- and wrong for a shell,
+				where naming one field would silently destroy the rest.  Passing
+				only --field=Title=x would have taken every image with it.
+
+				So the first pass asks the engine to render the Edit form and the
+				second posts it back.  The base state is whatever modify.php
+				itself just put on the page, which means there is no field list
+				to maintain here and never will be: add a field to Edit.php and
+				this carries it without being told.  It is the same argument the
+				header of this file makes about not reimplementing modify.php.
+
+				Deletion is therefore explicit, --clear=Image, rather than
+				something omission does to you by accident.
+			*/
+
+		public function runModify() {
+			if($this->dump_form) {
+				return $this->dumpForm();
+			}
+
+				/*
+					The first pass runs as its own process.
+
+					Two HandleRequest() calls in one process cannot work: the
+					site configuration files declare classes and are pulled in
+					with require rather than require_once, so the second pass
+					dies on "Cannot declare class defaultglobals".  A separate
+					process is also what the web does between rendering a form
+					and receiving it, which is the behaviour being imitated.
+				*/
+
+			$base = $this->fetchFormFields();
+
+			if($base === NULL) {
+				print('Refused  : could not read the Edit form back.  Run the same' . PHP_EOL);
+				print('           command with --dump-form to see what the engine said.' . PHP_EOL);
+
+				return FALSE;
+			}
+
+			if(!count($base)) {
+				print('Refused  : the Edit form rendered no fields, so there is no' . PHP_EOL);
+				print('           safe base to post back.  Check that --path resolves:' . PHP_EOL);
+				print('           a 404 still reports a save and writes nothing.' . PHP_EOL);
+
+				return FALSE;
+			}
+
+			$post = $this->mergeFields(['base'=>$base]);
+
+			$this->reportPlan(['base'=>$base, 'post'=>$post]);
+
+			if(!$this->apply) {
+				print(PHP_EOL . 'Dry run.  Nothing was written.  Add --apply to run it.' . PHP_EOL);
+
+				return TRUE;
+			}
+
+			$this->fakeRequest(['post'=>$post]);
+
+			require(GGCMS_DIR . 'classes/StandardLibraries.php');
+
+				//  After StandardLibraries, because it extends Handler.
+
+			clireq('classes/Entries/CLIAuthentication.php');
+			clireq('classes/Entries/CLIHandler.php');
 
 			ob_start();
+			$handler = new CLIHandler();
+			$handler->SetCLIUser(['user'=>$this->user]);
 			$handler->HandleRequest();
 			$output = ob_get_contents();
 			ob_end_clean();
