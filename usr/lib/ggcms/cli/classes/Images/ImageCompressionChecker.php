@@ -262,7 +262,24 @@
 			$found = 0;
 			$skipped = [];
 
+				/*
+					sample_bytes counts every file tested, refusals included.
+					The projection divides by it rather than by the bytes of
+					the successes alone, because a refusal is a real outcome
+					that saves nothing, and the files below the sample will
+					refuse at their own rate too.
+
+					The first version divided by the successes and reported
+					1.4 GB for revoltlib off a sample where seven of twelve
+					files had declined -- a number reached by pretending the
+					sample was the five that worked.
+				*/
+
+			$sample_bytes = 0;
+
 			foreach($results as $result) {
+				$sample_bytes += $result['file']['size'];
+
 				if($result['status'] !== 'found') {
 					if(!array_key_exists($result['status'], $skipped)) {
 						$skipped[$result['status']] = 0;
@@ -304,15 +321,17 @@
 			}
 
 			if(count($results) < $candidate_count) {
-				$rate = $saved / $tested_before;
+				$rate = $sample_bytes > 0 ? ($saved / $sample_bytes) : 0;
 				$projected = $candidate_bytes * $rate;
 
 				print("\n");
 				print('Across all ' . $candidate_count . ' matching files (');
 				print($this->formatBytes(['number'=>$candidate_bytes]) . ') the same rate would save about ');
 				print($this->formatBytes(['number'=>$projected]) . '.' . "\n");
-				print('That is an extrapolation from the largest files, which compress best,' . "\n");
-				print('so treat it as the optimistic end.  Raise --limit to narrow it.' . "\n");
+				print('That rate is ' . $found . ' of ' . count($results) . ' sampled files improving, ');
+				print('measured across all ' . $this->formatBytes(['number'=>$sample_bytes]) . ' tested.' . "\n");
+				print('Still the optimistic end -- the largest files were sampled and they' . "\n");
+				print('compress best.  Raise --limit to narrow it.' . "\n");
 			}
 
 			print("\n");
