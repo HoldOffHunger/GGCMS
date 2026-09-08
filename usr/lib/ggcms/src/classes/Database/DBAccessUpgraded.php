@@ -66,6 +66,20 @@
 			return TRUE;
 		}
 		
+		/*
+			Admin-only: name the place that closed the connection, at the moment
+			it closes.  DBAccessUpgraded is constructed only for admins, so this
+			prints for nobody else.
+		*/
+		
+		public function CloseLink($args) {
+			print('<pre>DB CONNECTION CLOSED BY:' . PHP_EOL);
+			print($this->BackTrace());
+			print('</pre>');
+			
+			return parent::CloseLink($args);
+		}
+		
 			// Get Schema Information
 			// -------------------------------------------------
 		
