@@ -332,6 +332,72 @@ runs this already has a shell, and a shell is more power than any web login. The
 login gate stops remote visitors; it is not a second lock on someone already
 inside.
 
+| Argument | Default | Does |
+|---|---|---|
+| *(first)* | asked for | The domain, as every tool here takes it |
+| `--path=` | asked for | The entry, or for a creation its **parent** |
+| `--user=` | none | `ADMIN`, or a user id. Required to save |
+| `--field=` | none | `Name=Value`, repeatable. `Name[]=` for array fields |
+| `--clear=` | none | Drop a record type before applying fields |
+| `--action=` | `Save` | The verb posted to `modify.php` |
+| `--dump-form` | off | Print the entry's form as JSON and stop |
+| `--apply` | off | Actually write |
+
+**Run it under `/usr/bin/php8.0`.** The `php` on the path is 8.1, which on this
+host has neither `intl` nor `zip`, and neither has an apt candidate. The tool
+loads the whole engine, so a missing extension is a fatal rather than a warning.
+
+**Saving needs somebody to save as.** Pass `--user=ADMIN` for the administrator
+account or `--user=<id>` for a particular one. Without it the tool refuses,
+because `modify.php` will not save for nobody — and that is correct.
+
+##### Creating an entry
+
+`--path` names the **parent**. The base is the parent's rendered Edit form, but a
+`Save` carrying no entry id creates a child rather than updating what it read,
+and the parent is left alone:
+
+```bash
+/usr/bin/php8.0 modify_entry.php masereelgroup.com --path=/books/ --user=ADMIN \
+  --field='Title=Arc Lamps' --field='Code=arc-lamps' --field='Publish=1'
+```
+
+That adds `/books/arc-lamps/` beneath `/books/` and does not touch the Books
+entry itself. It is worth confirming that afterwards rather than assuming it:
+the parent's `LastModificationDate` should be exactly what it was.
+
+##### Array fields need their brackets
+
+A name ending in `[]` is an array field, and most of the interesting ones are.
+The textbody is `Text[]`, and `textbody_Source[]` and `textbody_Language[]`
+carry the matching positions:
+
+```bash
+/usr/bin/php8.0 modify_entry.php masereelgroup.com \
+  --path=/books/arc-lamps/ --user=ADMIN \
+  --field='Title=Original, French Scans' \
+  --field='Code=original-french-scans' \
+  --field='Publish=1' \
+  --field='Text[]=<p>See https://archive.org/details/LampesAArc</p>' \
+  --field='textbody_Source[]=' \
+  --field='textbody_Language[]=en'
+```
+
+Write `Text=` instead of `Text[]=` and the field posts as a scalar, which
+`modify.php` never reads. Nothing is written, and the tool still reports success
+— because nothing went wrong, the field simply was not there.
+
+**The dry run is how you catch it.** An array field prints as `[n value(s)]` and
+a scalar prints its value bare. Read that list before adding `--apply`:
+
+```
+  Title                  Original, French Scans
+  Text                   [1 value(s)] <p>See https://archive.org/details/...
+```
+
+A successful save clears the page cache for every page the change touches and
+names the files it removed — see [PageCache.md](PageCache.md).
+
 ### Images — `scripts/internal/images/`
 
 | Script | Does |
