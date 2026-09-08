@@ -354,7 +354,7 @@
 						}
 					}
 					
-					if(isset($display_image)) {
+					if(!empty($display_image)) {
 						print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 						print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 						print('<div class="height-100px width-100px background-color-gray0">');

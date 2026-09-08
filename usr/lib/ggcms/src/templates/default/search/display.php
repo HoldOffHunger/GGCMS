@@ -387,6 +387,8 @@
 				$extra_action = '';
 			}
 			
+			if(!empty($display_image))
+			{
 			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 			print('<div class="height-100px width-100px background-color-gray0">');
@@ -394,7 +396,7 @@
 			print('<a href="' . $parent_code_url . '/view.php');
 			if($extra_action)
 			{
-				print('&action=' . $extra_action);
+				print('?action=' . $extra_action);
 			}
 			print('">');
 			print('<img width="');
@@ -413,6 +415,7 @@
 			print('</div>');
 			print('</div>');
 			print('</div>');
+			}
 			
 			$title_max = 50;
 			
@@ -445,7 +448,7 @@
 			
 			if($extra_action)
 			{
-				$entry_title .= '&action=' . $extra_action;
+				$entry_title .= '?action=' . $extra_action;
 			}
 			
 			$entry_title .= '"';

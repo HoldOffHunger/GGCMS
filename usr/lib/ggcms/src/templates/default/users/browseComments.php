@@ -314,7 +314,7 @@
 		$parents_parent_code_url = implode('/', $new_parent_codes);
 		
 		
-		if(isset($display_image)) {
+		if(!empty($display_image)) {
 			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 			print('<div class="height-100px width-100px background-color-gray0">');
@@ -348,6 +348,8 @@
 		
 		$child_title .= '</a>';
 		
+		$div_mouseover = '';
+
 		if($child['textbody']) {
 			$text_bodies = $child['textbody'];
 			

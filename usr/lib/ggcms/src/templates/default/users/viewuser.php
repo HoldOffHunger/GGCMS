@@ -241,6 +241,8 @@
 			unset($new_parent_codes[count($new_parent_codes) - 1]);
 			$parents_parent_code_url = implode('/', $new_parent_codes);
 			
+			if(!empty($display_image))
+			{
 			print('<div class="border-2px background-color-gray15 margin-5px float-left horizontal-center">');
 			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 			print('<div class="height-100px width-100px background-color-gray0">');
@@ -248,7 +250,7 @@
 			print('<a href="' . $parent_code_url . '/view.php');
 			if($extra_action)
 			{
-				print('&action=' . $extra_action);
+				print('?action=' . $extra_action);
 			}
 			print('">');
 			print('<img width="');
@@ -267,6 +269,7 @@
 			print('</div>');
 			print('</div>');
 			print('</div>');
+			}
 			
 			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 			print('<p class="horizontal-left margin-5px font-family-arial">');
@@ -307,7 +310,7 @@
 			
 			print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>0, 'www'=>1]) . '/' . implode('/', $parent_codes) . '/view.php"');
 			
-			if($title_poup)
+			if($title_popup)
 			{
 				print(' title="');
 				print($comment['entry']['Title']);
@@ -541,6 +544,8 @@
 			unset($new_parent_codes[count($new_parent_codes) - 1]);
 			$parents_parent_code_url = implode('/', $new_parent_codes);
 			
+			if(!empty($display_image))
+			{
 			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
 			print('<div class="height-100px width-100px background-color-gray0">');
@@ -548,7 +553,7 @@
 			print('<a href="' . $parent_code_url . '/view.php');
 			if($extra_action)
 			{
-				print('&action=' . $extra_action);
+				print('?action=' . $extra_action);
 			}
 			print('">');
 			print('<img width="');
@@ -567,6 +572,7 @@
 			print('</div>');
 			print('</div>');
 			print('</div>');
+			}
 		
 			$title_max = 50;
 			
@@ -622,7 +628,7 @@
 			
 			if($extra_action)
 			{
-				$entry_title .= '&action=' . $extra_action;
+				$entry_title .= '?action=' . $extra_action;
 			}
 			
 			$entry_title .= '"';

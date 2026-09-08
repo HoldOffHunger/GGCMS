@@ -49,33 +49,35 @@
 				'child'=>$child,
 			]);
 			
-			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-			print('<div class="height-100px width-100px background-color-gray0">');
-			print('<div class="vertical-specialcenter">');
-			print('<a href="' . $child['Code'] . '/view.php');
-			
-			if($this->that->entry['ChildAction']) {
-				print('?action=' . $this->that->entry['ChildAction']);
+			if($display_image) {
+				print('<div class="border-2px background-color-gray15 margin-5px float-left">');
+				print('<div class="border-2px background-color-gray15 margin-5px float-left">');
+				print('<div class="height-100px width-100px background-color-gray0">');
+				print('<div class="vertical-specialcenter">');
+				print('<a href="' . $child['Code'] . '/view.php');
+
+				if($this->that->entry['ChildAction']) {
+					print('?action=' . $this->that->entry['ChildAction']);
+				}
+
+				print('">');
+				print('<img width="');
+				print(ceil($display_image['IconPixelWidth'] / 2));
+				print('" height="');
+				print(ceil($display_image['IconPixelHeight'] / 2));
+				print('" src="');
+				print($this->that->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
+				print('/image/');
+				print(implode('/', str_split($display_image['FileDirectory'])));
+				print('/');
+				print($display_image['IconFileName']);
+				print('">');
+				print('</a>');
+				print('</div>');
+				print('</div>');
+				print('</div>');
+				print('</div>');
 			}
-			
-			print('">');
-			print('<img width="');
-			print(ceil($display_image['IconPixelWidth'] / 2));
-			print('" height="');
-			print(ceil($display_image['IconPixelHeight'] / 2));
-			print('" src="');
-			print($this->that->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
-			print('/image/');
-			print(implode('/', str_split($display_image['FileDirectory'])));
-			print('/');
-			print($display_image['IconFileName']);
-			print('">');
-			print('</a>');
-			print('</div>');
-			print('</div>');
-			print('</div>');
-			print('</div>');
 			
 			return TRUE;
 		}
@@ -403,13 +405,11 @@
 				}
 			}
 			
-			$display_image = [
-				'IconFileName'=>$this->that->SitePrimaryIcon(),
-				'IconPixelWidth'=>200,
-				'IconPixelHeight'=>200,
-			];
+			if(!empty($this->that->master_record['image'][0])) {
+				return $this->that->master_record['image'][0];
+			}
 			
-			return $display_image;
+			return NULL;
 		}
 		
 		public function Display_BrowseLink() {

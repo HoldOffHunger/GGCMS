@@ -97,36 +97,32 @@
 								$display_image = $child['association'][0]['entry']['image'][0];
 							} elseif(!empty($this->that->master_record['image'][0])) {
 								$display_image = $this->that->master_record['image'][0];
-							} else {
-								$display_image = [
-									'IconFileName'=>$this->that->SitePrimaryIcon(),
-									'IconPixelWidth'=>200,
-									'IconPixelHeight'=>200,
-								];
 							}
 						}
 						
-						print('<div class="border-2px background-color-gray15 margin-5px float-left font-family-arial">');
-						print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-						print('<div class="height-100px width-100px background-color-gray0">');
-						print('<div class="vertical-specialcenter">');
-						print('<a href="/' . $parent_code . '/' . $child['Code'] . '/view.php">');
-						print('<img width="');
-						print(ceil($display_image['IconPixelWidth'] / 2));
-						print('" height="');
-						print(ceil($display_image['IconPixelHeight'] / 2));
-						print('" src="');
-						print($this->that->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
-						print('/image/');
-						print(implode('/', str_split($display_image['FileDirectory'])));
-						print('/');
-						print($display_image['IconFileName']);
-						print('">');
-						print('</a>');
-						print('</div>');
-						print('</div>');
-						print('</div>');
-						print('</div>');
+						if($display_image) {
+							print('<div class="border-2px background-color-gray15 margin-5px float-left font-family-arial">');
+							print('<div class="border-2px background-color-gray15 margin-5px float-left">');
+							print('<div class="height-100px width-100px background-color-gray0">');
+							print('<div class="vertical-specialcenter">');
+							print('<a href="/' . $parent_code . '/' . $child['Code'] . '/view.php">');
+							print('<img width="');
+							print(ceil($display_image['IconPixelWidth'] / 2));
+							print('" height="');
+							print(ceil($display_image['IconPixelHeight'] / 2));
+							print('" src="');
+							print($this->that->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
+							print('/image/');
+							print(implode('/', str_split($display_image['FileDirectory'])));
+							print('/');
+							print($display_image['IconFileName']);
+							print('">');
+							print('</a>');
+							print('</div>');
+							print('</div>');
+							print('</div>');
+							print('</div>');
+						}
 						
 						$popup_title = 0;
 						$mouseover_title = '';
