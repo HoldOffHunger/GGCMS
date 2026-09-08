@@ -2541,6 +2541,33 @@
 			return $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
 		}
 		
+		/*
+			An entry is joined to its parent by an Assignment row, which is not
+			one of the child record types, so DeleteChildRecordsForUpdate() never
+			reached it.  Deleting an entry therefore left the link behind,
+			pointing at an id that no longer existed.
+
+			Harmless to read -- every query joins Entry, so an orphan matches
+			nothing -- but it accumulates, and a row that refers to nothing is a
+			lie the next person has to work out.
+		*/
+
+		public function DeleteAssignment($args) {
+			$entry = $args['entry'];
+			
+			$sql = 'DELETE FROM Assignment WHERE Childid = ' . $entry['id'] . ';';
+			$sql_bind_string = '';
+			$record_values = [];
+			
+			$fill_arrays_from_db_args = [
+				'query'=>$sql,
+				'sqlbindstring'=>$sql_bind_string,
+				'recordvalues'=>$record_values,
+			];
+			
+			return $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
+		}
+		
 		public function DeleteChildRecords($args) {
 			$entry = $args['parent'];
 			$record_type = $args['recordtype'];

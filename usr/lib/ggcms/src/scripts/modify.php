@@ -294,6 +294,7 @@
 			
 			if($this->DeleteChildRecordsForUpdate()) {
 				$this->DeleteEntry();
+				$this->DeleteAssignment();
 				
 				$this->save_status = 'Delete successful.  The information deleted is available below as a confirmation of what was deleted.';
 				$this->saveattemptresults = TRUE;

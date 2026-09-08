@@ -3351,6 +3351,14 @@
 			return $this->orm->DeleteEntry($delete_entry_args);
 		}
 		
+		public function DeleteAssignment() {
+			$delete_assignment_args = [
+				'entry'=>$this->entry,
+			];
+			
+			return $this->orm->DeleteAssignment($delete_assignment_args);
+		}
+		
 		public function DeleteRecordTree($args) {
 			return $this->orm->DeleteRecordTree($args);
 		}
