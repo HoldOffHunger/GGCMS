@@ -46,7 +46,10 @@
 
 	if($handler) {
 		try {
-			ggreq('classes/Cache/PageCache.php');
+			# Handler::SendBrowserCacheHeader may already have loaded it
+			if(!class_exists('PageCache')) {
+				ggreq('classes/Cache/PageCache.php');
+			}
 
 			$page_cache = new PageCache(['handler'=>$handler]);
 			$page_cache->WriteCache(['output'=>$page_output]);

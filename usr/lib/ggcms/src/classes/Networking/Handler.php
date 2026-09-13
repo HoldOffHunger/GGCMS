@@ -1013,7 +1013,51 @@
 			$this->AdminTools();
 			$this->MySQLDebugging();
 			$this->RecordUserStatistics();
+			$this->SendBrowserCacheHeader();
 			
+			return TRUE;
+		}
+
+		/*
+			Tell browsers and Cloudflare that a page may be kept.
+
+			Only what PageCache would write to disk is marked public: a GET with
+			no query string and no session cookie, answered 200, setting no
+			cookie, whole and long enough.  PageCache is asked that question in
+			its own words, with the page in hand, because this runs while the
+			whole page is still in index.php's output buffer and nothing has
+			been sent.
+
+			The meta tags StartHTML_Head_SearchEngineData prints -- cache-control,
+			pragma, expires -- never did this.  No browser honours cache
+			instructions written into markup, and neither nginx nor Cloudflare
+			reads the HTML.  Cache hits never reach PHP at all, so nginx sends
+			the same header for those.
+
+			Nothing here may break a page, so every failure is a quiet FALSE.
+		*/
+
+		public function SendBrowserCacheHeader() {
+			try {
+				if(headers_sent() || (ob_get_level() < 1)) {
+					return FALSE;
+				}
+
+				if(!class_exists('PageCache')) {
+					ggreq('classes/Cache/PageCache.php');
+				}
+
+				$page_cache = new PageCache(['handler'=>$this]);
+
+				if(!$page_cache->IsCacheable(['output'=>ob_get_contents()])) {
+					return FALSE;
+				}
+
+				header($page_cache->BrowserCacheHeader());
+			} catch (Throwable $exception) {
+				return FALSE;
+			}
+
 			return TRUE;
 		}
 		

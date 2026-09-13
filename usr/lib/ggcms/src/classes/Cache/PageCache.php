@@ -295,6 +295,23 @@
 		}
 
 		/*
+			What a page this cache would store tells browsers and Cloudflare.
+
+			Four hours, the same max-age Cloudflare already sends for wordweight.
+			A saved edit clears the disk cache at once, but a copy already held
+			by a browser or at the edge lives out its four hours; for pages that
+			change rarely that is the right trade.
+
+			nginx sends the same header on cache hits, which never reach PHP --
+			etc/nginx/sites-available/ggcms.conf in the configuration repository.
+			Change one and change the other.
+		*/
+
+		public function BrowserCacheHeader() {
+			return 'Cache-Control: public, max-age=14400';
+		}
+
+		/*
 			The cached file's extension must mirror the request's, or Apache
 			serves a stylesheet as text/html and the browser discards it.  A
 			request for .../display.css caches to .../display.css.css.
