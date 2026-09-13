@@ -23,6 +23,19 @@
 				'browseByTag',
 			];
 		}
+
+			/*
+				A view.php path is a walk through the entry graph: every segment
+				names an entry, and Handler::EntryPathResolves answers 404 before
+				loading anything when one does not.
+
+				A domain whose paths name something else overrides this -- see
+				com.wordweight/scripts/view.php.
+			*/
+
+		public function EntryPath_required($args) {
+			return TRUE;
+		}
 	}
 
 ?>

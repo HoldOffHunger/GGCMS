@@ -864,6 +864,10 @@
 				return TRUE;		# not a walk through the entry graph
 			}
 
+			if(!$this->EntryPathRequired()) {
+				return TRUE;		# this site's paths name something other than entries
+			}
+
 			if(!$this->db_access) {
 				return TRUE;		# nothing to ask; let the old path answer
 			}
@@ -882,6 +886,39 @@
 			}
 
 			return (count($this->object_list) === count($this->resolved_record_list));
+		}
+
+		/*
+			Whether this site's view.php paths are walks through the entry graph
+			at all.
+
+			Every site's are bar wordweight's.  /funerate/ there is a word from
+			alldictionaries, which display_wordweight looks up for itself, and
+			names no entry.  Asked of EntryPathResolves it answered 404, and did
+			so for every word on the site from 3 September 2026 until this
+			existed.
+
+			Script-level AbstractGlobals config, in the shape Dictionary_enabled
+			already uses.  Absent config or an absent method means required,
+			which is the behaviour before this existed.
+		*/
+
+		public function EntryPathRequired() {
+			if(!property_exists($this->abstractglobals, 'script')) {
+				return TRUE;
+			}
+
+			if(!is_object($this->abstractglobals->script)) {
+				return TRUE;
+			}
+
+			if(!method_exists($this->abstractglobals->script, 'EntryPath_required')) {
+				return TRUE;
+			}
+
+			return $this->abstractglobals->script->EntryPath_required([
+				'action'=>$this->desired_action,
+			]);
 		}
 
 		/*
