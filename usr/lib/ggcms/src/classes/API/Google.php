@@ -12,7 +12,7 @@
 #			$this->handler->globals->SetAPIData();
 #			print_r($this->handler->globals);
 			
-			if(count($this->handler->globals->apidata) < 1) {
+			if(!is_array($this->handler->globals->apidata) || (count($this->handler->globals->apidata) < 1)) {
 				return FALSE;
 			}
 			
@@ -29,6 +29,20 @@
 			$logout = $args['logout'];
 			
 			$results = [];
+
+				/*
+					A site with no Google client configured cannot verify a token,
+					and the library is only loaded when one is -- see the
+					constructor.  Only holdoffhunger and yallhearingthis have one.
+					Everywhere else a google_token_id went straight to
+					new Google_Client and died: on 12 September 2026 one client
+					POSTing it to revoltlib produced 242 fatals and as many 500s.
+					Logout needs no client, so it is left alone.
+				*/
+
+			if(!$this->client_id) {
+				$google_token_id = '';
+			}
 			
 			if($google_token_id) {
 				$client = new Google_Client([
