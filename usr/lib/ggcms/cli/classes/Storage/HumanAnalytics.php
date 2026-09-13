@@ -92,7 +92,7 @@
 			print($domain . ', ' . $this->describePeriod() . $this->describeFilters() . "\n\n");
 
 			if($this->bots_excluded) {
-				print($this->bots_excluded . ' view(s) from declared crawlers left out; --bots keeps them.' . "\n\n");
+				print($this->bots_excluded . ' view(s) from declared crawlers or the retired scroll trigger left out; --bots keeps them.' . "\n\n");
 			}
 
 			if(!$current) {
@@ -385,7 +385,8 @@
 						continue;
 					}
 
-					if(!$this->arguments['bots'] && $this->isDeclaredBot(['agent'=>$view['agent']])) {
+						// scroll woke the first version of the beacon, and crawlers fire it
+					if(!$this->arguments['bots'] && ($this->isDeclaredBot(['agent'=>$view['agent']]) || $view['event'] === 'scroll')) {
 						$this->bots_excluded++;
 
 						continue;
@@ -765,7 +766,12 @@
 			$pages = $this->pageTotals(['visits'=>$args['visits'], 'key'=>function($page) {
 				$segments = explode('/', trim($page, '/'));
 
-				return ($segments[0] === '') ? '/' : '/' . $segments[0] . '/';
+					// a lone file at the root, like /view.php, belongs to the root section
+				if($segments[0] === '' || (count($segments) === 1 && strpos($segments[0], '.') !== FALSE)) {
+					return '/';
+				}
+
+				return '/' . $segments[0] . '/';
 			}]);
 
 			$this->printTable(['title'=>'Sections', 'rows'=>$this->pageRows(['pages'=>$pages, 'label'=>'Section'])]);

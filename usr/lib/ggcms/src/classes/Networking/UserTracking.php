@@ -88,6 +88,18 @@
 				return FALSE;
 			}
 
+				/*
+					Only the events humanbeacon.js listens for.  Scroll was
+					dropped from the script because crawlers fire it, but anyone
+					holding the old script in cache keeps sending scroll beacons
+					for hours -- 99 of the first 100 lines after the change were
+					exactly that -- so the server refuses them as well.
+				*/
+
+			if(!in_array($beacon['event'], ['mousemove', 'wheel', 'keydown', 'touchstart', 'pointerdown'], TRUE)) {
+				return FALSE;
+			}
+
 			$information_pieces = [
 				date('o-M-d H:i:s', $this->handler->time->time),
 				'[' . $this->handler->time->time . ']',
