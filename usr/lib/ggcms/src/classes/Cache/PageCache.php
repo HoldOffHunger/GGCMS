@@ -460,9 +460,18 @@
 
 			$directory = dirname($location);
 
+				/*
+					Two workers writing pages in one new directory both see it
+					missing and both call mkdir; the loser's call fails because the
+					directory now exists.  Giving up there refused a perfectly good
+					page -- on 13 September 2026 a parallel warm lost one of every
+					/x/ and /x/view.php pair.  Only a directory that still does not
+					exist afterwards is a failure.
+				*/
+
 			if(!is_dir($directory)) {
-				if(!@mkdir($directory, 0755, TRUE)) {
-					return FALSE;		# lost a race, or the volume is full
+				if(!@mkdir($directory, 0755, TRUE) && !is_dir($directory)) {
+					return FALSE;		# the volume is full, or permissions forbid it
 				}
 			}
 
