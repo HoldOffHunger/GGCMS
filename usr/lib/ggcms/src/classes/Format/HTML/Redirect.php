@@ -36,7 +36,7 @@
 			foreach($this->formats->GetListOfAlternateVersionFormats() as $key => $value) {
 				$url_query = $this->cleanser->CleanseInput_GetQuery();
 				if($url_query) {
-					$all_versions_array[$key] = ($this->base_directory . "/view." . $value . "?" . $url_query);
+					$all_versions_array[$key] = ($this->base_directory . "/view." . $value . (strpos($value, '?') === FALSE ? "?" : "&") . $url_query);
 				} else {
 					$all_versions_array[$key] = ($this->base_directory . "/view." . $value);
 				}
@@ -162,20 +162,13 @@
 		}
 		
 		public function RedirectToLogin_RedirectURL() {
-			$script_location = $_SERVER['REQUEST_URI'];
-			
-			$url_directory = dirname($script_location);
-			if($url_directory === '/') {
-				$url_directory = '';
-			}
-			
 			$primary_domain_args = [
 				'secure'=>1,
 				'www'=>1,
 				'lowercased'=>1,
 			];
 			
-			$url = $url_directory . '/login.php';
+			$url = '/login.php';
 			$full_redirect_url = $this->domain_object->GetPrimaryDomain($primary_domain_args) . $url;
 			return $full_redirect_url;
 		}

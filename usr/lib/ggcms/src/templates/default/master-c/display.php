@@ -89,7 +89,7 @@
 			[
 				'&bull; <a href="/">Home</a>',
 				'&bull; <a href="logout.php">Logout</a>',
-				'&bull; <a href="login.php">Login</a>',
+				'&bull; <a href="/login.php" rel="nofollow">Login</a>',
 				'&bull; <a href="user-panel.php">User Panel</a>',
 			],
 		],

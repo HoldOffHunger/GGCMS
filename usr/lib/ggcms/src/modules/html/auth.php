@@ -52,18 +52,14 @@
 			return TRUE;
 		}
 		
-		public function DisplayLoginLink() {
-			$no_redirect_scripts = [
-				'logout.php'=>TRUE,
-				'user-panel.php'=>TRUE,
-				'master-c.php'=>TRUE,
-			];
+			/*
+				Always plain /login.php.  Carrying the current page in ?redirect=
+				made every page on every site link to its own login URL, and
+				crawlers nested those inside each other without end.
+			*/
 			
-			print('<a href="' . $this->that->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1, 'secure'=>1]) . '/login.php');
-			if(!$no_redirect_scripts[$this->that->handler->desired_script]) {
-				print('?redirect=' . $this->redirect_url);
-			}
-			print('">');
+		public function DisplayLoginLink() {
+			print('<a href="/login.php" rel="nofollow">');
 			print('Not Logged In: Login?');
 			print('</a>');
 			

@@ -74,7 +74,7 @@
 		// -------------------------------------------------------------
 	
 	print('<PRE>');
-	print('Green Gluon CMS installed and running properly : <a href="login.php">Login</a>.');
+	print('Green Gluon CMS installed and running properly : <a href="/login.php" rel="nofollow">Login</a>.');
 	print('</PRE>');
 	
 	print('<center>');
