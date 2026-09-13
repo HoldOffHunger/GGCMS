@@ -91,6 +91,10 @@
 
 			print($domain . ', ' . $this->describePeriod() . $this->describeFilters() . "\n\n");
 
+			if($this->bots_excluded) {
+				print($this->bots_excluded . ' view(s) from declared crawlers left out; --bots keeps them.' . "\n\n");
+			}
+
 			if(!$current) {
 				print('No visits match.' . "\n\n");
 
@@ -140,6 +144,7 @@
 					'Bounce'=>$this->percent($now['bounce_rate']),
 					'Visitors before'=>$this->previous_period ? $before['visitors'] : '-',
 					'Change'=>$this->previous_period ? $this->change(['now'=>$now['visitors'], 'before'=>$before['visitors']]) : '-',
+					'Crawlers out'=>$this->bots_excluded,
 				];
 			}
 
@@ -177,6 +182,7 @@
 				'language'=>'',
 				'timezone'=>'',
 				'visitor'=>'',
+				'bots'=>FALSE,
 				'help'=>FALSE,
 			];
 
@@ -192,7 +198,7 @@
 				$name = $matches[1];
 				$value = array_key_exists(2, $matches) ? $matches[2] : '';
 
-				if($name === 'help' || $name === 'all') {
+				if($name === 'help' || $name === 'all' || $name === 'bots') {
 					$arguments[$name] = TRUE;
 				} else if($name === 'report') {
 					$arguments['reports'] = array_values(array_filter(array_map('trim', explode(',', strtolower($value)))));
@@ -259,6 +265,8 @@
 			print('    visitor     one visitor\'s visits, page by page (needs --visitor=ID)' . "\n\n");
 			print('  Filters keep whole visits: --page keeps visits that read anything under the prefix,' . "\n");
 			print('  --referrer matches the site a visit arrived from.' . "\n\n");
+			print('  Crawlers that name themselves -- a user agent saying bot, spider, crawler or' . "\n");
+			print('  headless -- are left out unless --bots is given.' . "\n\n");
 
 			return TRUE;
 		}
@@ -346,6 +354,7 @@
 
 		public function loadViews($args) {
 			$this->loading_domain = $args['domain'];
+			$this->bots_excluded = 0;
 
 			$stats_directory = GGCMS_LOG_DIR . $args['domain'] . '/stats/';
 
@@ -372,9 +381,17 @@
 				while(($line = fgets($handle)) !== FALSE) {
 					$view = $this->parseLine(['line'=>$line]);
 
-					if($view && $view['time'] >= $earliest && $view['time'] < $latest) {
-						$views[] = $view;
+					if(!$view || $view['time'] < $earliest || $view['time'] >= $latest) {
+						continue;
 					}
+
+					if(!$this->arguments['bots'] && $this->isDeclaredBot(['agent'=>$view['agent']])) {
+						$this->bots_excluded++;
+
+						continue;
+					}
+
+					$views[] = $view;
 				}
 
 				fclose($handle);
@@ -386,7 +403,8 @@
 		public function parseLine($args) {
 			$pieces = explode(' ', trim($args['line']));
 
-			if(count($pieces) !== 11) {
+				// eleven fields until the user agent was added as a twelfth
+			if(count($pieces) !== 11 && count($pieces) !== 12) {
 				return FALSE;
 			}
 
@@ -412,6 +430,7 @@
 				'timezone'=>$pieces[8],
 				'event'=>$pieces[9],
 				'milliseconds'=>($pieces[10] === '') ? NULL : (int)$pieces[10],
+				'agent'=>array_key_exists(11, $pieces) ? $pieces[11] : '',
 			];
 
 			$view['visitor'] = substr(sha1($view['address'] . '|' . $view['screen'] . '|' . $view['language'] . '|' . $view['timezone']), 0, 8);
@@ -506,6 +525,24 @@
 
 				return TRUE;
 			}));
+		}
+
+			/*
+				A crawler that names itself.  On the beacon's first day
+				revoltlib logged Applebot and Baiduspider's renderer, both of
+				which run JavaScript and scroll.  The agent is flattened when
+				logged, so the separators matched here are what survive that:
+				a slash, dash, plus, semicolon or bracket after the word.
+				Lines written before the agent was logged have none, and are
+				always kept.
+			*/
+
+		public function isDeclaredBot($args) {
+			if($args['agent'] === '') {
+				return FALSE;
+			}
+
+			return (bool)preg_match('/(bot|spider|crawler)[\/;)+-]|headless|lighthouse|slurp|facebookexternalhit/i', $args['agent']);
 		}
 
 			/*

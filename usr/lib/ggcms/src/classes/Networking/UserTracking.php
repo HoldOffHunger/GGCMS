@@ -108,6 +108,15 @@
 				$information_pieces[] = $this->RecordHumanBeacon_getField(['value'=>$beacon[$field]]);
 			}
 
+				/*
+					The user agent goes last, taken from the request rather than
+					the beacon, so a crawler that names itself can be left out
+					when the log is read.  Lines written before it was added
+					have eleven fields.
+				*/
+
+			$information_pieces[] = $this->RecordHumanBeacon_getField(['value'=>$_SERVER['HTTP_USER_AGENT']]);
+
 			return $this->RecordUserTracking_saveLog([
 				'logstring'=>implode(' ', $information_pieces) . PHP_EOL,
 				'filename'=>$this->RecordHumanBeacon_getLogFilename(),
@@ -148,10 +157,16 @@
 
 			/*
 				Apache sees only nginx, so REMOTE_ADDR is nginx's address and
-				not the visitor's.  Cloudflare names the visitor in
-				CF-Connecting-IP, which nginx passes through.  It is taken only
-				when it is a well-formed address, and a statistic is all it
-				decides.
+				not the visitor's.
+
+				Behind Cloudflare the visitor is CF-Connecting-IP.  Not every
+				site is behind Cloudflare -- revoltlib and revoltsource answer
+				from nginx directly, and logged 127.0.0.1 on the beacon's first
+				day -- and there the visitor is the last address in
+				X-Forwarded-For, the one nginx appended for the connection it
+				accepted.  Earlier entries are whatever the client claimed, so
+				they are never read.  Each is taken only when it is a
+				well-formed address, and a statistic is all it decides.
 			*/
 
 		public function RecordHumanBeacon_getClientAddress() {
@@ -159,6 +174,13 @@
 
 			if($cloudflare_address && filter_var($cloudflare_address, FILTER_VALIDATE_IP)) {
 				return $cloudflare_address;
+			}
+
+			$forwarded = explode(',', (string)$_SERVER['HTTP_X_FORWARDED_FOR']);
+			$nginx_address = trim(end($forwarded));
+
+			if($nginx_address && filter_var($nginx_address, FILTER_VALIDATE_IP)) {
+				return $nginx_address;
 			}
 
 			return $_SERVER['REMOTE_ADDR'];

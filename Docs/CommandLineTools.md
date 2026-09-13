@@ -201,6 +201,13 @@ period it started in, so none is cut in half at a boundary.
 the site a visit arrived from, and `--device`, `--language` and `--timezone`
 match the visit's first view. `--top` caps every list, 10 by default.
 
+Crawlers that name themselves are left out unless `--bots` is given: a user
+agent saying bot, spider, crawler or headless. On the beacon's first day,
+Applebot, Baiduspider's renderer and a fleet of Windows Chromes on Tencent
+Cloud addresses all ran the script and scrolled, which is why scroll no longer
+wakes it. Lines from before the agent was logged have none and are always
+kept.
+
 Two readings to know. A pile of `under 50ms` in `engagement` is a script
 dispatching events, not a person, and is the first place to look if the
 numbers ever seem too good. And a referrer on the site itself counts as
