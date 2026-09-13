@@ -153,6 +153,64 @@ live, and was five separate literals across four classes before it.
 Between the two changes `/var/log/ggcms` went from 1.3 GB to 144 MB on
 7 September 2026, and the root disk from 8.1 GB free to 9.1 GB.
 
+#### `human_stats.php`
+
+```
+human_stats.php
+human_stats.php --domain=revoltlib.com
+human_stats.php --domain=revoltlib.com --report=landings,referrers --days=30
+human_stats.php --domain=revoltlib.com --report=hours --month=2026-Sep
+human_stats.php --domain=revoltlib.com --page=/bakunin/ --device=phone
+human_stats.php --domain=revoltlib.com --report=visitors --top=5
+human_stats.php --domain=revoltlib.com --visitor=dc58fcd1 --days=30
+```
+
+Analytics for people rather than requests. It reads
+`<domain>/stats/YYYY-Mon_humans.txt`, which `humanbeacon.js` writes one line to
+per page view -- and only after the reader first scrolls, types, points or
+touches, which scrapers almost never do. The request log cannot answer these
+questions: most of what it counts is scrapers, and a cached page never reaches
+PHP to be counted at all.
+
+With no arguments it prints one row per site for the last seven days against
+the seven before. `--domain` opens that site's reports.
+
+**A visitor** is the address, screen, language and timezone together, shown as
+an eight-letter id; there is no cookie behind a beacon. **A visit** is one
+visitor's run of views with no gap over thirty minutes, and belongs to the
+period it started in, so none is cut in half at a boundary.
+
+| Report | What it answers |
+|---|---|
+| `summary` | views, visitors, visits, pages per visit, bounce, returning, visit length, arrivals by kind, against the previous period |
+| `days` | each day, with a bar |
+| `pages`, `sections` | what is read, with landings and exit rate; sections group by first path segment |
+| `landings` | which pages bring people in, how many come from search, and how far those visits go |
+| `flows` | the page-to-page steps readers actually take |
+| `referrers` | where visits come from, classed search, social, link or direct |
+| `devices` | phone, tablet, desktop, and screen sizes |
+| `languages`, `timezones` | browser language; timezone as a location proxy, with no address lookup |
+| `hours` | hour and weekday on the reader's own clock, from the timezone the beacon sends |
+| `depth`, `loyalty` | pages per visit, visit length, visits per visitor, days active, return within 7 days |
+| `engagement` | which interaction woke the beacon, and how soon |
+| `visitors`, `visitor` | the most active ids; one id's visits page by page |
+
+`--report=all` prints every report but `visitor`. Periods are `--days=N`
+(default 7), `--month=2026-Sep`, or `--all`. Filters keep whole visits:
+`--page=/PREFIX/` keeps visits that read anything under it, `--referrer` matches
+the site a visit arrived from, and `--device`, `--language` and `--timezone`
+match the visit's first view. `--top` caps every list, 10 by default.
+
+Two readings to know. A pile of `under 50ms` in `engagement` is a script
+dispatching events, not a person, and is the first place to look if the
+numbers ever seem too good. And a referrer on the site itself counts as
+direct: the reader was here more than thirty minutes earlier and came back
+through an open tab.
+
+Every `_humans.txt` file on disk is read and filtered by timestamp, not chosen
+by filename, because `date('o-M')` names the first days of some Januaries with
+the previous year. Read-only, so there is nothing to schedule.
+
 ### Installation — `scripts/public/install/`
 
 | Script | Does |
