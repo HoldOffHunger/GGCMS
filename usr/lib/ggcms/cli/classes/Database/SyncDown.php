@@ -428,7 +428,36 @@
 			];
 		}
 
+			/*
+				A host may rate-limit new ssh connections.  The GGCMS host's ufw
+				'limit' rule refuses a seventh within thirty seconds, and a sync
+				of small databases opens three per database in quick succession:
+				on 13 September 2026 that locked this machine out mid-sync, and
+				every retry renewed the lockout.  So new connections are spaced
+				at least --ssh-pace seconds apart (default 6: five in thirty).
+			*/
+
+		public function paceSsh() {
+			$pace = (float) $this->argumentValue('ssh-pace', 6);
+
+			if(isset($this->last_ssh_at)) {
+				$wait = $pace - (microtime(TRUE) - $this->last_ssh_at);
+
+				if($wait > 0) {
+					usleep((int) ($wait * 1000000));
+				}
+			}
+
+			$this->last_ssh_at = microtime(TRUE);
+
+			return TRUE;
+		}
+
 		public function run($command) {
+			if($command[0] === $this->ssh) {
+				$this->paceSsh();
+			}
+
 			$pipes = [];
 			$process = proc_open($command, [1=>['pipe', 'w'], 2=>['pipe', 'w']], $pipes);
 
