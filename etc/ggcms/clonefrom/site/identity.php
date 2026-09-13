@@ -63,6 +63,17 @@
 			return FALSE;
 		}
 
+			/*
+				Whether pages link to their alternate formats -- view.pdf,
+				view.rdf and the rest -- in the head.  A site that does not
+				serve those formats says FALSE, or every page hands crawlers
+				links that only redirect.
+			*/
+
+		public function ShowAlternateFormats() {
+			return TRUE;
+		}
+
 				// Infrastructure
 				// -----------------------------------------------
 

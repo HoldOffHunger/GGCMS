@@ -51,10 +51,23 @@
 		public function GetPrimaryDomain($args) {
 			$primary_domain = '';
 			
-			if(($this->GetHTTPSConnection() || $args['secure']) && !$args['insecure']) {
+				/*
+					The scheme follows the connection.  'secure' still forces
+					https; 'insecure' no longer forces http.
+
+					Every caller passing 'insecure' was building a public link --
+					canonical, share URL, source attribution, image URLs in the
+					RDF and OPDS exports -- and a link to a site answering on
+					https should say https.  On 13 September 2026 revoltlib's and
+					masereelgroup's canonical links pointed at http:// addresses
+					that only redirect.  The 274 callers still passing it are
+					harmless now and can drop it at leisure.
+				*/
+
+			if($args['secure']) {
 				$primary_domain .= 'https://';
 			} else {
-				$primary_domain .= 'http://';
+				$primary_domain .= $this->HTTPProtocol();
 			}
 			
 			if($args['www']) {
@@ -74,6 +87,23 @@
 		
 		public function GetHTTPSConnection() {
 			return $_SERVER['HTTPS'];
+		}
+
+			/*
+				"https://" when this request arrived over a secure connection,
+				"http://" otherwise.  The one place the scheme is decided;
+				GetPrimaryDomain and the format classes' HTTPProtocol() ask here.
+				Some servers set HTTPS to "off" rather than leaving it unset.
+			*/
+
+		public function HTTPProtocol() {
+			$https = $this->GetHTTPSConnection();
+
+			if($https && strtolower((string) $https) !== 'off') {
+				return 'https://';
+			}
+
+			return 'http://';
 		}
 		
 		public function GetDomainFromURL($args) {

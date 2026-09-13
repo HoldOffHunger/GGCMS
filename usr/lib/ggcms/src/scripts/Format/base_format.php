@@ -234,6 +234,18 @@
 			return TRUE;
 		}
 		
+			// Scheme
+			// ------------------------------------------------
+
+			/*
+				For templates: $this->HTTPProtocol() rather than working out
+				http or https in each one.  Domain::HTTPProtocol decides.
+			*/
+
+		public function HTTPProtocol() {
+			return $this->domain_object->HTTPProtocol();
+		}
+
 			// Security Data
 			// ------------------------------------------------
 		

@@ -354,3 +354,24 @@ Never use a plausible stand-in like `example.com` or `127.0.0.1` for something
 that must change. A placeholder that looks real gets deployed; one that looks
 like this is impossible to miss, easy to grep for, and in most config formats
 refuses to parse until it is replaced.
+
+## Visitors choose http or https
+
+This project is permissive by conviction. Whether someone reaches a site over
+http or https is their choice, and the software respects it rather than
+deciding for them.
+
+* **Links follow the connection.** A page reached over https links over https;
+  reached over http, it links over http. `Domain::HTTPProtocol()` is the one
+  place that decides, and `GetPrimaryDomain()`, `baseformat::HTTPProtocol()` and
+  `AbstractBaseFormat::HTTPProtocol()` all ask it. A template writes
+  `$this->HTTPProtocol()` rather than working the scheme out itself, and never
+  hard-codes `http://` or `https://` for its own site.
+* **Only a feature that needs security insists on it.** A script that answers
+  `IsSecure()` with TRUE -- login, account and editing pages -- redirects an
+  insecure request to https through `Handler::SecureRequired()`. Nothing else
+  redirects on scheme.
+* **Never force the other way.** `GetPrimaryDomain(['insecure'=>1])` used to
+  force `http://` even for a visitor on https, which is how revoltlib's canonical
+  link came to point at a redirect. It is ignored now; `'secure'=>1` still forces
+  https for the places that genuinely need an https address.

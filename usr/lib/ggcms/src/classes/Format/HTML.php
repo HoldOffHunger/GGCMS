@@ -484,7 +484,7 @@
 			print("\t");
 			print('<link rel="canonical" href="');
 	
-			print($this->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>0, 'www'=>1]));
+			print($this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
 			print($_SERVER['REDIRECT_URL']);
 	
 			$page = (int)$this->query_object->Parameter(['parameter'=>'page']);

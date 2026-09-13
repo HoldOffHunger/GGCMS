@@ -300,6 +300,21 @@
 			return $script_constructor_args;
 		}
 		
+			// Scheme
+			// -----------------------------------------------
+
+			/*
+				"https://" or "http://" for this request.  Domain::HTTPProtocol
+				decides; this is here so a format and a template can ask
+				without reaching for the domain object themselves.
+			*/
+
+		public function HTTPProtocol() {
+			$domain = $this->domain_object ? $this->domain_object : $this->handler->domain;
+
+			return $domain->HTTPProtocol();
+		}
+
 			// Old-School Args (FIXME: DELETE)
 			// -----------------------------------------------
 			

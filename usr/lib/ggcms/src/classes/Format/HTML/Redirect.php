@@ -47,81 +47,59 @@
 		
 		public function PrintAllVersionURLs($args) {
 			$script = $args['script'];
-			$domain_object = $this->domain_object;
-			
-			foreach($this->GetAllVersionURLs() as $media => $url) {
-				print("\t");
-						# this is the exact same as below
-					print('<link rel="alternate"');
-					
-					if($media) {
-						print(' media="' . $media . '"');
-					}
-					
-					if($language_code) {
-						print(' hreflang="' . $language_code . '"');
-					}
 
-					print(' href="');
-					
-					$primary_domain_args = [
-						'secure'=>0,
-						'www'=>1,
-						'lowercased'=>1,
-					];
-				
-					print($this->domain_object->GetPrimaryDomain($primary_domain_args));
-					print($url);
-					
-					if($language_code) {
-						print('?language=' . $language_code);
-					}
-				
-					print('">');
-					
-					print("\n");
-					
-				print("\n");
+			$primary_domain = $this->domain_object->GetPrimaryDomain([
+				'www'=>1,
+				'lowercased'=>1,
+			]);
+
+				/*
+					Alternate formats, unless the site does not serve them.
+					wordweight answers view.pdf, view.rdf and the rest with a
+					302 back to the page, so linking them gave crawlers sixteen
+					dead ends on every word page.  See ShowAlternateFormats in
+					etc/ggcms/clonefrom/site/identity.php.
+				*/
+
+			if($this->ShowAlternateFormats(['script'=>$script])) {
+				foreach($this->GetAllVersionURLs() as $media => $url) {
+					print("\t");
+					print('<link rel="alternate" media="' . $media . '" href="' . $primary_domain . $url . '">');
+					print("\n\n");
+				}
 			}
-			
+
+				/*
+					One alternate per language, each pointing at this page in
+					that language.  This loop used to reuse $url and $media left
+					over from the format loop above, so every language alternate
+					on every site pointed at view.rdf -- thirteen query-string
+					URLs per page, none of which any cache can serve.
+				*/
+
 			if(!$script->handler->abstractglobals->site->NotReadyForLanguages()) {
 				print("\n");
-				
+
 				foreach($this->language->GetListOfLanguageCodes() as $language_code => $language_name) {
 					print("\t");
-					
-					print('<link rel="alternate"');
-					
-					if($media) {
-						print(' media="' . $media . '"');
-					}
-					
-					if($language_code) {
-						print(' hreflang="' . $language_code . '"');
-					}
-
-					print(' href="');
-					
-					$primary_domain_args = [
-						'secure'=>0,
-						'www'=>1,
-						'lowercased'=>1,
-					];
-				
-					print($this->domain_object->GetPrimaryDomain($primary_domain_args));
-					print($url);
-					
-					if($language_code) {
-						print('?language=' . $language_code);
-					}
-				
-					print('">');
-					
+					print('<link rel="alternate" hreflang="' . $language_code . '" href="' . $primary_domain . $this->base_directory . '/?language=' . $language_code . '">');
 					print("\n");
 				}
 			}
+
+			return TRUE;
 		}
-		
+
+		public function ShowAlternateFormats($args) {
+			$site = $args['script']->handler->abstractglobals->site;
+
+			if(!is_object($site) || !method_exists($site, 'ShowAlternateFormats')) {
+				return TRUE;
+			}
+
+			return $site->ShowAlternateFormats();
+		}
+
 		public function SetBaseDirectory() {
 			$redirect_url_explosion = explode('/', $this->url_cleansed);
 			$redirect_url_useful = $redirect_url_explosion;
