@@ -218,7 +218,20 @@
 					continue;
 				}
 
-				$paths[] = '/' . implode('/', $codes) . '/';
+					/*
+						Every ancestor, not only the row's deepest entry.
+
+						A sitemap row names a path down to its leaf, so a page
+						with children -- /hindi/nouns-animals-part-1/ above its
+						words -- never had a row of its own and was never warmed.
+						On 13 September 2026 earthfluent's rebuilt tree held 181
+						lesson pages against the live cache's 343, and every
+						lesson with words under it was among the missing.
+					*/
+
+				for($depth = 1; $depth <= count($codes); $depth++) {
+					$paths[] = '/' . implode('/', array_slice($codes, 0, $depth)) . '/';
+				}
 			}
 
 			$paths = array_values(array_unique($paths));
