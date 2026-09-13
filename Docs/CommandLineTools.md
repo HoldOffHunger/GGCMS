@@ -181,6 +181,7 @@ the box and a wrong guess is worse than no guess. It names each one instead.
 | `list_databases.php` | Lists databases |
 | `mysql_connect.php` | Connection test |
 | `check_schema.php` | Confirms the tables exist, match the spine, and hold nothing the config forbids fetching |
+| `syncdown.php` | Copies production databases down to a workstation's MySQL -- see below |
 
 `check_schema.php` runs three checks and prints only what is wrong:
 
@@ -206,7 +207,58 @@ error log sideways to discover thirteen sites in exactly that state.
 inside the tool, so adding a table to the schema does not require remembering
 that this file exists.
 
-### Errors and issues — `scripts/internal/errors/`, `scripts/internal/issues/`
+#### `syncdown.php`
+
+A workstation that renders pages or tests changes is only as good as its copy
+of the data, and the copy drifts -- content changes, and so does the schema.
+On 13 September 2026 a warm on a workstation failed on thirteen pages for a
+column its four-day-old copy lacked; the live host lacked it too, but nobody
+could tell that without comparing. This refreshes the copy from the host on
+demand and compares the schemas as it goes.
+
+It runs on the workstation, from a checkout, and needs no installation and no
+configuration repository: ssh access to the host and a local MySQL.
+
+```bash
+php syncdown.php --host=***YOUR_SSH_USER***@***YOUR_PRODUCTION_HOST_HERE*** \
+    --dumps=/path/to/dumps --mysql=/path/to/mysql --local-port=3306
+php syncdown.php ... --database=alldictionaries --apply
+```
+
+Dry by default: it lists every database on the host with its size and what it
+would do. With `--apply`, for each database:
+
+1. `mysqldump` runs on the host with the settings `backup_all_databases.php`
+   uses, streamed over ssh into `<dumps>/<db>.sql.gz.partial`
+2. the dump must end with mysqldump's `Dump completed` footer, or it is
+   thrown away and the previous dump and the local copy are left alone
+3. only then is it renamed to `<db>.sql.gz`, one dump kept per database
+4. it is imported, which replaces every table the dump carries; a table that
+   exists only locally is left in place
+5. the host's and the copy's column lists are compared, table names folded to
+   lower case because a Windows MySQL lowercases them, and any drift is printed
+
+`alldictionaries` has no site configuration and is synced like any other
+database; without it a copy cannot render a definition.
+
+| Argument | Default | Does |
+|---|---|---|
+| `--host=` | `GGCMS_SYNC_HOST` | ssh destination |
+| `--dumps=` | `GGCMS_SYNC_DUMPS` | where the one dump per database is kept |
+| `--database=` | all | only databases whose name contains this |
+| `--mysql=` | `mysql` | local client binary |
+| `--local-host=` / `--local-port=` / `--local-user=` | `127.0.0.1` / `3306` / `root` | the local server |
+| `--ssh=` | `ssh` | ssh binary |
+| `--apply` | off | actually dump and import |
+
+A local password comes from `MYSQL_PWD`, which the mysql client reads itself,
+never from an argument visible in the process list. Every external command is
+started with an argument array rather than a shell string: on Windows
+`escapeshellarg()` replaces double quotes with spaces, which quietly mangles a
+command meant for the remote shell.
+
+### Errors and issues
+ — `scripts/internal/errors/`, `scripts/internal/issues/`
 
 | Script | Does |
 |---|---|
