@@ -733,6 +733,11 @@
 				*/
 
 			$this->before_content = TRUE;
+
+			if($this->handleHumanBeacon()) {
+				return FALSE;
+			}
+
 			if($this->SecureRequired()) {
 				return $this->SecureRedirect();
 			}
@@ -2171,6 +2176,36 @@
 			return TRUE;
 		}
 		
+			/*
+				humanbeacon.js posts here once a visitor first moves, scrolls,
+				types or touches.  It is answered first, before the redirects
+				and before anything that would load a script or open the
+				database: it is a statistic and nothing more.
+
+				Returning TRUE ends the request with an empty 204, so
+				HandleRequest_EndRequest never files it as a page request
+				as well.
+			*/
+
+		public function handleHumanBeacon() {
+			if($_SERVER['REQUEST_METHOD'] !== 'POST') {
+				return FALSE;
+			}
+
+			if(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) !== '/humanbeacon.php') {
+				return FALSE;
+			}
+
+			ggreq('classes/Networking/UserTracking.php');
+
+			$user_tracking = new UserTracking($this->getArgs());
+			$user_tracking->RecordHumanBeacon();
+
+			http_response_code(204);
+
+			return TRUE;
+		}
+
 		public function RecordUserStatistics() {
 			if($this->globals->EnableStats() || $this->globals->EnableStats_LogExcessiveMemoryUse()) {
 				if($this->globals->EnableStats_Log404Pages() || !$this->error_404) {

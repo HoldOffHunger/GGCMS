@@ -57,6 +57,117 @@
 			return TRUE;
 		}
 		
+			/*
+				A person, rather than a request.
+
+				humanbeacon.js sends one small JSON file per page view, and only
+				after a real interaction, so this log counts the visitors the
+				request log above cannot tell apart from scrapers -- including
+				every reader of a cached page, which never reaches PHP at all.
+				It goes beside that log as YYYY-Mon_humans.txt.
+
+				Everything in it was written by the browser, so each field is
+				flattened to one printable token and capped.  A log line stays
+				one line, whatever is posted.
+			*/
+
+		public function RecordHumanBeacon() {
+			if(!$this->HumanBeaconEnabled()) {
+				return FALSE;
+			}
+
+			$upload = $_FILES['humanbeacon'];
+
+			if(!is_array($upload) || $upload['error'] !== UPLOAD_ERR_OK || $upload['size'] > 4096) {
+				return FALSE;
+			}
+
+			$beacon = json_decode(file_get_contents($upload['tmp_name']), TRUE);
+
+			if(!is_array($beacon)) {
+				return FALSE;
+			}
+
+			$information_pieces = [
+				date('o-M-d H:i:s', $this->handler->time->time),
+				'[' . $this->handler->time->time . ']',
+				$this->RecordHumanBeacon_getClientAddress(),
+			];
+
+			$fields = [
+				'page',
+				'referrer',
+				'screen',
+				'language',
+				'timezone',
+				'event',
+				'milliseconds',
+			];
+
+			foreach($fields as $field) {
+				$information_pieces[] = $this->RecordHumanBeacon_getField(['value'=>$beacon[$field]]);
+			}
+
+			return $this->RecordUserTracking_saveLog([
+				'logstring'=>implode(' ', $information_pieces) . PHP_EOL,
+				'filename'=>$this->RecordHumanBeacon_getLogFilename(),
+			]);
+		}
+
+			/*
+				Off unless the site's globals say otherwise.  A config written
+				before the beacon existed has no EnableStats_HumanBeacon at
+				all, and should not start logging on the first deploy.
+			*/
+
+		public function HumanBeaconEnabled() {
+			$globals = $this->handler->globals;
+
+			if(!$globals || !method_exists($globals, 'EnableStats_HumanBeacon')) {
+				return FALSE;
+			}
+
+			return $globals->EnableStats() && $globals->EnableStats_HumanBeacon();
+		}
+
+		public function RecordHumanBeacon_getField($args) {
+			$value = $args['value'];
+
+			if(!is_scalar($value)) {
+				return '-';
+			}
+
+			$value = substr(preg_replace('/[^\x21-\x7E]+/', '', (string)$value), 0, 512);
+
+			if(strlen($value) === 0) {
+				return '-';
+			}
+
+			return $value;
+		}
+
+			/*
+				Apache sees only nginx, so REMOTE_ADDR is nginx's address and
+				not the visitor's.  Cloudflare names the visitor in
+				CF-Connecting-IP, which nginx passes through.  It is taken only
+				when it is a well-formed address, and a statistic is all it
+				decides.
+			*/
+
+		public function RecordHumanBeacon_getClientAddress() {
+			$cloudflare_address = $_SERVER['HTTP_CF_CONNECTING_IP'];
+
+			if($cloudflare_address && filter_var($cloudflare_address, FILTER_VALIDATE_IP)) {
+				return $cloudflare_address;
+			}
+
+			return $_SERVER['REMOTE_ADDR'];
+		}
+
+		public function RecordHumanBeacon_getLogFilename() {
+			return $this->handler->domain->primary_domain_lowercased . '/stats/' . date('o-M', $this->handler->time->time) . '_humans.txt';
+		}
+
 		public function RecordUserTracking_getLogString($args) {
 			$information_pieces = [
 				date('o-M-d H:i:s', $this->handler->time->time),

@@ -68,6 +68,7 @@
 				'securescript'=>$this->domain_object->GetHTTPSConnection(),
 				'language'=>$this->language,
 				'googleapi'=>$this->google_api,
+				'globals'=>$this->globals,
 			];
 			
 			$this->clientsideincludes_object = new ClientSideIncludes($js_and_css_args);

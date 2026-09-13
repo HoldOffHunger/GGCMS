@@ -156,9 +156,10 @@
 			// -----------------------------------------------
 
 			/*
-				Two filename shapes exist and no others: YYYY-Mon.txt and
-				YYYY-Mon_memory.txt.  Anything else in a stats directory is
-				left alone rather than guessed at.
+				Three filename shapes exist and no others: YYYY-Mon.txt,
+				YYYY-Mon_memory.txt and YYYY-Mon_humans.txt, the last written
+				by UserTracking::RecordHumanBeacon.  Anything else in a stats
+				directory is left alone rather than guessed at.
 			*/
 
 		public function gatherMonths() {
@@ -184,7 +185,7 @@
 						continue;
 					}
 
-					if(!preg_match('/^([0-9]{4}-[A-Za-z]{3})(_memory)?\.txt$/', $file, $matches)) {
+					if(!preg_match('/^([0-9]{4}-[A-Za-z]{3})(_memory|_humans)?\.txt$/', $file, $matches)) {
 						continue;
 					}
 

@@ -8,6 +8,7 @@
 			$this->secure_script = $_SERVER['HTTPS'];
 			$this->language = $args['language'];
 			$this->google_api = $args['googleapi'];
+			$this->globals = $args['globals'];
 			
 			return $this;
 		}
@@ -241,11 +242,28 @@
 				print("\n\t" . '<script src="' . $domain . '/javascript/jquery.min.js"></script>');
 				print("\n\t" . '<script src="' . $domain . '/javascript/jquery-ui.min.js"></script>');
 				print("\n\t" . '<script src="' . $domain . '/javascript/tooltip.js"></script>');
+
+				if($this->HumanBeaconEnabled()) {
+					print("\n\t" . '<script src="' . $domain . '/javascript/humanbeacon.js" async></script>');
+				}
 			}
 			
 			return TRUE;
 		}
 		
+			/*
+				The same question UserTracking::HumanBeaconEnabled asks, so a
+				page never carries a beacon the server would not log.
+			*/
+
+		public function HumanBeaconEnabled() {
+			if(!$this->globals || !method_exists($this->globals, 'EnableStats_HumanBeacon')) {
+				return FALSE;
+			}
+
+			return $this->globals->EnableStats() && $this->globals->EnableStats_HumanBeacon();
+		}
+
 			// HTML Spacing
 			// -----------------------------------------------
 		

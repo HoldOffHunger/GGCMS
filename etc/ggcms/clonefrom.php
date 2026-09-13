@@ -155,6 +155,10 @@
 		public function EnableStats_Log404Pages() {
 			return FALSE;
 		}
+
+		public function EnableStats_HumanBeacon() {
+			return TRUE;
+		}
 		
 		public function EnableStats_LogExcessiveMemoryUse_MaxSize() {
 			return 1000000;
