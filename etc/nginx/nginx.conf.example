@@ -1,0 +1,86 @@
+#  Example nginx.conf for a GGCMS host with nginx in front of Apache.
+#
+#  Copy to /etc/nginx/nginx.conf and adjust.  Every setting that differs from
+#  a distribution's default is here because its absence once took a real
+#  installation down, and the comment beside it says how.  The site-level half
+#  is sites-available/ggcms.example.conf.
+
+user www-data;
+
+	#  A worker gets 1024 open files by default.  open_file_cache holds a
+	#  descriptor per cached file, so a large cache takes what is left,
+	#  accept4() begins failing with "Too many open files", and nginx stops
+	#  answering while systemd still reports it active.  It fails hours after
+	#  a deploy, once the page cache has grown large enough, with nothing in
+	#  the failure naming the cause.
+worker_rlimit_nofile 65535;
+worker_processes auto;
+
+	#  Let a draining worker go.  A worker told to shut down on reload waits
+	#  for its connections to close, and a CDN's keep-alive connections never
+	#  do, so every reload can leave another worker behind holding memory and
+	#  descriptors.
+worker_shutdown_timeout 30s;
+
+pid /run/nginx.pid;
+include /etc/nginx/modules-enabled/*.conf;
+
+events {
+		#  Distributions ship 768.  A CDN holds many long-lived connections
+		#  to the origin rather than arriving one visitor at a time, and a
+		#  worker at its limit leaves TLS handshakes waiting in the kernel
+		#  backlog.  This is a ceiling, not an allocation.
+	worker_connections 4096;
+}
+
+http {
+	sendfile on;
+	tcp_nopush on;
+	tcp_nodelay on;
+	keepalive_timeout 65;
+	types_hash_max_size 2048;
+
+	include /etc/nginx/mime.types;
+	default_type application/octet-stream;
+
+	ssl_protocols TLSv1.2 TLSv1.3;
+	ssl_prefer_server_ciphers on;
+
+		#  Resume TLS sessions instead of paying for a full handshake on
+		#  every connection.  Unset, the cache is off, and on a small host the
+		#  handshake is the most expensive thing the front end does.
+	ssl_session_cache shared:SSL:20m;
+	ssl_session_timeout 1d;
+
+		#  Behind Cloudflare (or any proxy), log and rate-limit the real
+		#  client rather than the proxy's edge node.  Without it every visitor
+		#  behind the same edge shares one rate-limit budget, and fail2ban
+		#  bans nobody.
+		#
+		#  FETCH THE RANGES, NEVER COPY THEM FROM AN EXAMPLE.  A stale or
+		#  wrong entry lets an outside client set CF-Connecting-IP and choose
+		#  the address that gets logged, limited and banned.
+		#    https://www.cloudflare.com/ips-v4
+		#    https://www.cloudflare.com/ips-v6
+		#
+		#  set_real_ip_from <range>;     one line per range
+		#  real_ip_header CF-Connecting-IP;
+
+		#  Combined, plus three fields.  host= names the site, which the
+		#  default format omits, so one log serving many sites cannot say which
+		#  is being hammered.  up= is the cache signal: a page served from the
+		#  page cache never reaches an upstream, so up=- is a hit and an address
+		#  is a miss.  rt=/urt= separate time in nginx from time waiting on
+		#  Apache -- a slow render from a queue.
+	log_format ggcms '$remote_addr - $remote_user [$time_local] "$request" '
+	                 '$status $body_bytes_sent "$http_referer" "$http_user_agent" '
+	                 'host=$host rt=$request_time urt=$upstream_response_time up=$upstream_addr';
+
+	access_log /var/log/nginx/access.log ggcms;
+	error_log /var/log/nginx/error.log;
+
+	gzip on;
+
+	include /etc/nginx/conf.d/*.conf;
+	include /etc/nginx/sites-enabled/*;
+}

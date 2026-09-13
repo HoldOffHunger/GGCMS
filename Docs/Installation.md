@@ -168,6 +168,34 @@ echo '/swapfile none swap sw 0 0' >> /etc/fstab
 Older `mkswap` has no `-q` flag. If `mkswap` fails after `fallocate` has
 succeeded, you are left with a 2 GB file consuming disk and doing nothing.
 
+## nginx in front of Apache
+
+Optional, and worth it on any host with real traffic. nginx takes ports 80 and
+443, answers page-cache hits and static files itself, and hands only genuine
+renders to Apache, which moves to port 8443. A cached page then costs
+milliseconds instead of a prefork process.
+
+Two example files ship with the engine:
+
+| File | Goes to |
+|---|---|
+| `etc/nginx/nginx.conf.example` | `/etc/nginx/nginx.conf` |
+| `etc/nginx/sites-available/ggcms.example.conf` | `/etc/nginx/sites-available/ggcms.conf` |
+
+Replace every `***YOUR_..._HERE***` placeholder -- nginx refuses to start
+while any remain, which is the point -- repeat the three server blocks at the
+bottom of the site file once per site, then:
+
+```bash
+ln -s /etc/nginx/sites-available/ggcms.conf /etc/nginx/sites-enabled/ggcms.conf
+nginx -t && systemctl reload nginx
+```
+
+Read the comments before changing a number. `open_file_cache max` is a file
+descriptor count and must stay below what `worker_rlimit_nofile` allows, and
+the page-cache rules must stay identical to `PageCache::IsCacheable_*` and to
+`var/www/html/.htaccess`. Both files explain why.
+
 ## Database credentials
 
 GGCMS reads its credentials from PHP's `mysqli` defaults, so `php.ini` is a

@@ -323,3 +323,34 @@ one: just because you can, it does not mean you should.
 
 101 of them, usually inside a commented-out debug `print`. They are decisions as
 often as defects. Do not bulk-remove them and do not act on one without asking.
+
+## Starter config in the engine, real config in the private repository
+
+The engine is public, and people other than us install it. What it ships
+should get a new installation running quickly and correctly -- and should name
+none of our sites.
+
+So configuration lives in two places:
+
+* **This repository** carries generic, working examples: `etc/nginx/nginx.conf.example`,
+  `etc/nginx/sites-available/ggcms.example.conf`, the `clonefrom` config tree and
+  the `default` template set. They carry every hard-won setting with the comment
+  that explains it, and placeholders where a real value goes.
+* **The private configuration repository** carries the real thing -- every site's
+  server blocks, certificates, per-domain overrides, credentials. `bin/deploy.sh`
+  syncs only from there, so an example file can never reach production.
+
+When a production config change teaches something general, carry the lesson
+back into the example in the same session: the setting, the comment, and
+nothing that names a site.
+
+## Placeholders look like `***YOUR_THING_HERE***`
+
+In any example or template file, a value the installer must supply is written
+in capitals between triple asterisks: `***YOUR_DOMAIN_HERE***`,
+`***YOUR_IP_ADDRESS_HERE***`, `***YOUR_DATABASE_PASSWORD_HERE***`.
+
+Never use a plausible stand-in like `example.com` or `127.0.0.1` for something
+that must change. A placeholder that looks real gets deployed; one that looks
+like this is impossible to miss, easy to grep for, and in most config formats
+refuses to parse until it is replaced.
