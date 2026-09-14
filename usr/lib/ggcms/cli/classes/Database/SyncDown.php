@@ -24,6 +24,14 @@
 		  5. the column lists of host and copy are compared, table names folded
 		     to lower case, because a Windows MySQL lowercases them
 
+		ONE OR A FEW TABLES
+
+		  --tables=Entry,Description dumps and imports only those tables, into
+		  <dumps>/<db>--tables--Entry-Description.sql.gz, so the one full dump
+		  kept per database is never replaced by a partial one.  Every other
+		  local table is left exactly as it was.  A test that mangled two tables
+		  on a workstation is repaired by syncing those two, not the database.
+
 		Every external command is started with an argument array, never a shell
 		string.  On Windows escapeshellarg() replaces double quotes with spaces,
 		which silently mangles a command bound for a remote shell.
@@ -46,6 +54,7 @@
 			print("Host     : " . $this->host . "\n");
 			print("Local    : " . $this->local_user . '@' . $this->local_host . ':' . $this->local_port . " via " . $this->mysql . "\n");
 			print("Dumps    : " . $this->dumps . "\n");
+			print("Tables   : " . (count($this->tables) ? implode(', ', $this->tables) : 'all') . "\n");
 			print("Mode     : " . ($this->apply ? 'APPLY -- local databases will be replaced' : 'dry run') . "\n\n");
 
 			$databases = $this->hostDatabases();
@@ -83,6 +92,7 @@
 		public function readArguments() {
 			$this->host        = $this->argumentValue('host', (string) getenv('GGCMS_SYNC_HOST'));
 			$this->only        = $this->argumentValue('database', '');
+			$this->tables      = $this->tableList($this->argumentValue('tables', ''));
 			$this->dumps       = rtrim(str_replace('\\', '/', $this->argumentValue('dumps', (string) getenv('GGCMS_SYNC_DUMPS'))), '/');
 			$this->ssh         = $this->argumentValue('ssh', 'ssh');
 			$this->mysql       = $this->argumentValue('mysql', 'mysql');
@@ -118,6 +128,54 @@
 
 		public function argumentPresent($name) {
 			return in_array('--' . $name, $this->argv, TRUE);
+		}
+
+			/*
+				--tables=Entry,Description as a list.  Every name must be a plain
+				identifier, because it is placed into the remote mysqldump command
+				and into SQL; anything else is refused before a connection opens.
+			*/
+
+		public function tableList($value) {
+			$tables = array_values(array_unique(array_filter(array_map('trim', explode(',', (string) $value)), 'strlen')));
+
+			foreach($tables as $table) {
+				if(!$this->validName($table)) {
+					$this->fail('--tables takes plain table names separated by commas; refusing "' . $table . '"');
+				}
+			}
+
+			return $tables;
+		}
+
+			/*
+				A table sync writes its own file.  Were it to use <db>.sql.gz it
+				would replace the one full dump kept per database with a partial
+				one, and the next full import from that file would quietly lose
+				every other table.
+			*/
+
+		public function dumpSuffix() {
+			return count($this->tables) ? '--tables--' . implode('-', $this->tables) : '';
+		}
+
+			/*
+				Routines and events belong to the database, not to any table, so a
+				table sync leaves them out rather than replacing the local ones
+				with whatever the host has.  Triggers belong to their tables and
+				travel with them.
+			*/
+
+		public function dumpObjects() {
+			return count($this->tables) ? '--triggers' : '--routines --events --triggers';
+		}
+
+		public function tableFilter() {
+			if(!count($this->tables)) {
+				return '';
+			}
+
+			return " AND LOWER(TABLE_NAME) IN ('" . implode("','", array_map('strtolower', $this->tables)) . "')";
 		}
 
 			// The host
@@ -168,7 +226,7 @@
 			$database = $args['database'];
 			$result = ['database'=>$database, 'status'=>'FAILED', 'note'=>''];
 
-			$target  = $this->dumps . '/' . $database . '.sql.gz';
+			$target  = $this->dumps . '/' . $database . $this->dumpSuffix() . '.sql.gz';
 			$partial = $target . '.partial';
 
 			printf("%-24s host %9s  ", $database, $this->humanBytes($args['bytes']));
@@ -244,8 +302,8 @@
 		public function dumpTo($args) {
 			$remote = "bash -c " . $this->remoteQuote(
 				'set -o pipefail; nice mysqldump --max_allowed_packet=64M --default-character-set=utf8mb4 --set-charset'
-				. ' --no-tablespaces --routines --events --triggers --single-transaction --quick --set-gtid-purged=OFF '
-				. $args['database'] . ' | gzip -6'
+				. ' --no-tablespaces ' . $this->dumpObjects() . ' --single-transaction --quick --set-gtid-purged=OFF '
+				. $args['database'] . (count($this->tables) ? ' ' . implode(' ', $this->tables) : '') . ' | gzip -6'
 			);
 
 			$out = @fopen($args['path'], 'wb');
@@ -374,7 +432,7 @@
 			$database = $args['database'];
 
 			$sql = "SELECT LOWER(TABLE_NAME), COLUMN_NAME, COLUMN_TYPE FROM information_schema.COLUMNS "
-				. "WHERE TABLE_SCHEMA = '" . $database . "' ORDER BY 1, 2";
+				. "WHERE TABLE_SCHEMA = '" . $database . "'" . $this->tableFilter() . " ORDER BY 1, 2";
 
 			$host = $this->run([$this->ssh, '-o', 'BatchMode=yes', $this->host, 'mysql -N -e ' . $this->remoteQuote($sql)]);
 			$local = $this->run(array_merge($this->localClient(), ['-N', '-e', $sql]));

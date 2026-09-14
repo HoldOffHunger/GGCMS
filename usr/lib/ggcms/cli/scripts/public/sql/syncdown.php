@@ -16,7 +16,8 @@
 				--dumps=/path/to/dumps --mysql=/path/to/mysql --local-port=3306
 
 		Then add --apply.  --database=NAME narrows to databases whose name
-		contains NAME.  --host and --dumps may come from GGCMS_SYNC_HOST and
+		contains NAME.  --tables=Entry,Description syncs only those tables and
+		leaves every other local table as it was.  --host and --dumps may come from GGCMS_SYNC_HOST and
 		GGCMS_SYNC_DUMPS instead; a local MySQL password comes from MYSQL_PWD.
 
 		Exit 0 when every database synced, 2 when any failed.

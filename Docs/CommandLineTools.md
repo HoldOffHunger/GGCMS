@@ -288,6 +288,7 @@ configuration repository: ssh access to the host and a local MySQL.
 php syncdown.php --host=***YOUR_SSH_USER***@***YOUR_PRODUCTION_HOST_HERE*** \
     --dumps=/path/to/dumps --mysql=/path/to/mysql --local-port=3306
 php syncdown.php ... --database=alldictionaries --apply
+php syncdown.php ... --database=masereelgroup --tables=Entry,Description --apply
 ```
 
 Dry by default: it lists every database on the host with its size and what it
@@ -305,6 +306,14 @@ would do. With `--apply`, for each database:
 
 `alldictionaries` has no site configuration and is synced like any other
 database; without it a copy cannot render a definition.
+
+**`--tables` syncs a few tables rather than the database.** A test on a
+workstation that mangled `Entry` and `Description` is repaired by syncing those
+two; every other local table is left exactly as it was. The dump goes to its own
+file, `<db>--tables--Entry-Description.sql.gz`, so the one full dump kept per
+database is never replaced by a partial one, and routines and events -- which
+belong to the database, not to a table -- stay out of it. Names must be plain
+identifiers and anything else is refused before a connection opens.
 
 | Argument | Default | Does |
 |---|---|---|
