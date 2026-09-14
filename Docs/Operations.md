@@ -156,8 +156,17 @@ SetEnvIfNoCase User-Agent "(GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropi
 		Require all granted
 		Require not env ggcms_refused_bot
 	</RequireAll>
+
+	<If "reqenv('ggcms_refused_bot') != ''">
+		LogLevel authz_core:crit
+	</If>
 </Directory>
 ```
+
+The `<If>` block keeps the refusals out of `error.log`. Without it `authz_core`
+logs every one as AH01630 at error level, and on a crawled host they drown
+everything else -- 99.9% of the error log on 14 September 2026. They still
+appear in `access.log` as 403s.
 
 ```bash
 a2enconf block-bots && apache2ctl configtest && systemctl reload apache2
