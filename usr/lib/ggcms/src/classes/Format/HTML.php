@@ -101,7 +101,17 @@
 			if($this->domain_object->host) {
 				$host_desired_action = $desired_action . '_' . $this->domain_object->host;
 				
-				if(method_exists($this->script, $host_desired_action)) {
+					/*
+						Only a method the script declares itself, never one it
+						inherited.  view.php declares display_wordweight for the
+						dictionary, and every script that extends view -- login,
+						about, terms, register and two dozen more -- inherited it.
+						On wordweight each of them ran the word lookup, which is
+						only switched on for view, got FALSE back, and answered
+						404: /login.php and /about.php, on every page's login link.
+					*/
+
+				if(method_exists($this->script, $host_desired_action) && (new ReflectionMethod($this->script, $host_desired_action))->getDeclaringClass()->getName() === get_class($this->script)) {
 					$display_results = $this->script->$host_desired_action();
 					$client_method_found = 1;
 				}
