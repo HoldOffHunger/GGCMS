@@ -95,6 +95,10 @@
 				print($this->bots_excluded . ' view(s) from declared crawlers or the retired scroll trigger left out; --bots keeps them.' . "\n\n");
 			}
 
+			if($this->farm_excluded) {
+				print($this->farm_excluded . ' view(s) from the scripted-browser farm left out; --farm keeps them.' . "\n\n");
+			}
+
 			if(!$current) {
 				print('No visits match.' . "\n\n");
 
@@ -145,6 +149,7 @@
 					'Visitors before'=>$this->previous_period ? $before['visitors'] : '-',
 					'Change'=>$this->previous_period ? $this->change(['now'=>$now['visitors'], 'before'=>$before['visitors']]) : '-',
 					'Crawlers out'=>$this->bots_excluded,
+					'Farm out'=>$this->farm_excluded,
 				];
 			}
 
@@ -183,6 +188,7 @@
 				'timezone'=>'',
 				'visitor'=>'',
 				'bots'=>FALSE,
+				'farm'=>FALSE,
 				'help'=>FALSE,
 			];
 
@@ -198,7 +204,7 @@
 				$name = $matches[1];
 				$value = array_key_exists(2, $matches) ? $matches[2] : '';
 
-				if($name === 'help' || $name === 'all' || $name === 'bots') {
+				if($name === 'help' || $name === 'all' || $name === 'bots' || $name === 'farm') {
 					$arguments[$name] = TRUE;
 				} else if($name === 'report') {
 					$arguments['reports'] = array_values(array_filter(array_map('trim', explode(',', strtolower($value)))));
@@ -267,6 +273,8 @@
 			print('  --referrer matches the site a visit arrived from.' . "\n\n");
 			print('  Crawlers that name themselves -- a user agent saying bot, spider, crawler or' . "\n");
 			print('  headless -- are left out unless --bots is given.' . "\n\n");
+			print('  Views from the scripted-browser farm -- one exact screen, language and timezone,' . "\n");
+			print('  see isFarm() -- are left out unless --farm is given.' . "\n\n");
 
 			return TRUE;
 		}
@@ -355,6 +363,7 @@
 		public function loadViews($args) {
 			$this->loading_domain = $args['domain'];
 			$this->bots_excluded = 0;
+			$this->farm_excluded = 0;
 
 			$stats_directory = GGCMS_LOG_DIR . $args['domain'] . '/stats/';
 
@@ -388,6 +397,12 @@
 						// scroll woke the first version of the beacon, and crawlers fire it
 					if(!$this->arguments['bots'] && ($this->isDeclaredBot(['agent'=>$view['agent']]) || $view['event'] === 'scroll')) {
 						$this->bots_excluded++;
+
+						continue;
+					}
+
+					if(!$this->arguments['farm'] && $this->isFarm(['view'=>$view])) {
+						$this->farm_excluded++;
 
 						continue;
 					}
@@ -544,6 +559,22 @@
 			}
 
 			return (bool)preg_match('/(bot|spider|crawler)[\/;)+-]|headless|lighthouse|slurp|facebookexternalhit/i', $args['agent']);
+		}
+
+			/*
+				The scripted-browser farm.  From the beacon's first day, 14 September
+				2026, most counted "readers" shared one fingerprint exactly: a
+				1920x1080 screen, zh-CN, Asia/Shanghai, a new Chinese address on every
+				view, one page and gone -- 268 of wordweight's 269 views.  They fake
+				the wheel and pointer events the beacon waits for, so no interaction
+				test catches them.  Only the exact triple is matched: a real reader in
+				Shanghai on a different screen, or anyone reporting UTC, is kept.
+			*/
+
+		public function isFarm($args) {
+			$view = $args['view'];
+
+			return $view['screen'] === '1920x1080' && $view['language'] === 'zh-CN' && $view['timezone'] === 'Asia/Shanghai';
 		}
 
 			/*
