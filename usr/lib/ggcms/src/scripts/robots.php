@@ -577,7 +577,7 @@
 				//  nothing, and each is one line away from being allowed again.
 				//
 				//  Search engines that send readers back -- Googlebot, Bingbot,
-				//  DuckDuckBot -- are deliberately absent and stay welcome.
+				//  DuckDuckBot, PetalBot, SeekportBot -- are deliberately absent and stay welcome.
 
 			return [
 
@@ -608,8 +608,6 @@
 				'MJ12bot',
 				'DotBot',
 				'BLEXBot',
-				'PetalBot',
-				'SeekportBot',
 			];
 		}
 

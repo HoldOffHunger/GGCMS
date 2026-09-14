@@ -149,13 +149,16 @@ microseconds instead of 0.3 seconds:
 ```apache
 #  /etc/apache2/conf-available/block-bots.conf
 
-SetEnvIfNoCase User-Agent "(GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|Claude-Web|Google-Extended|Applebot-Extended|PerplexityBot|meta-externalagent|Bytespider|CCBot|Diffbot|Omgilibot|ImagesiftBot|Amazonbot|AhrefsBot|SemrushBot|DataForSeoBot|MJ12bot|DotBot|BLEXBot|PetalBot|SeekportBot)" ggcms_refused_bot
+SetEnvIfNoCase User-Agent "(GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|Claude-Web|Google-Extended|Applebot-Extended|PerplexityBot|meta-externalagent|Bytespider|CCBot|Diffbot|Omgilibot|ImagesiftBot|Amazonbot|AhrefsBot|SemrushBot|DataForSeoBot|MJ12bot|DotBot|BLEXBot)" ggcms_refused_bot
 
 <Directory /var/www/html>
-	<RequireAll>
-		Require all granted
-		Require not env ggcms_refused_bot
-	</RequireAll>
+	<RequireAny>
+		Require expr "%{THE_REQUEST} =~ m#^[A-Z]+ /robots[.]txt[? ]#"
+		<RequireAll>
+			Require all granted
+			Require not env ggcms_refused_bot
+		</RequireAll>
+	</RequireAny>
 
 	<If "reqenv('ggcms_refused_bot') != ''">
 		LogLevel authz_core:crit
@@ -168,13 +171,26 @@ logs every one as AH01630 at error level, and on a crawled host they drown
 everything else -- 99.9% of the error log on 14 September 2026. They still
 appear in `access.log` as 403s.
 
+**robots.txt must stay readable to the refused**, because RFC 9309 reads a 4xx
+there as "no restrictions". It is exempted by `THE_REQUEST`, not by a
+`<LocationMatch>`: `robots.txt` is rewritten to `index.php` and the access check
+runs again on that internal redirect, where a location match on the original
+path no longer applies. That mistake answered 449 refused agents with 403 on
+13 September 2026.
+
+**Behind nginx, Apache alone is not enough.** nginx answers page-cache hits from
+disk without reaching Apache, so the same list must also be refused in nginx: a
+`map` on `$http_user_agent` that exempts `/robots.txt`, checked with a bare
+`if (...) { return 403; }` at server level, ahead of the cache `try_files`.
+
 ```bash
 a2enconf block-bots && apache2ctl configtest && systemctl reload apache2
 ```
 
-The list is deliberately the same one `robots.php` names, so the polite refusal
-and the enforced one never disagree. **Googlebot, Bingbot and DuckDuckBot are
-absent from both** — they send readers.
+The list is deliberately the same one `robots.php` names and the nginx map
+refuses, so the polite refusal and the enforced ones never disagree. **Search
+engines are absent from all three** — Googlebot, Bingbot, DuckDuckBot, PetalBot
+and SeekportBot send readers. The list is AI crawlers and SEO-tool spiders only.
 
 To check it took, and to watch the effect:
 
