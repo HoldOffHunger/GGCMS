@@ -10,8 +10,18 @@
 
 	ob_start();
 
-	require('/var/www/ggcms_cli_directories.php');
-	require('/var/www/ggcms_install_directories.php');
+	/*
+		An installed copy, or a checkout -- the second is how a change is tried
+		on a workstation first, against a synced copy of the data, before it is
+		run against the live site.  See cli/system/RepoDirectories.php.
+	*/
+
+	if(getenv('GGCMS_CONFIG_REPO')) {
+		require(__DIR__ . '/../../../system/RepoDirectories.php');
+	} else {
+		require('/var/www/ggcms_cli_directories.php');
+		require('/var/www/ggcms_install_directories.php');
+	}
 
 	require(GGCMS_DIR . 'classes/System/GlobalFunctions.php');
 	require(GGCMS_CLI_DIR . 'system/StandardCLIFunctions.php');

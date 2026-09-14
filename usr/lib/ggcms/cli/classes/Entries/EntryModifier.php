@@ -308,7 +308,10 @@
 				. ' ' . escapeshellarg($this->domain)
 				. ' --path=' . escapeshellarg($this->path)
 				. ' --user=' . escapeshellarg($this->user)
-				. ' --dump-form 2>/dev/null';
+				. ' --dump-form'
+					//  NUL, not /dev/null, on Windows: cmd cannot open a path that does not
+					//  exist, fails the whole command, and the form reads back as nothing.
+				. (PHP_OS_FAMILY === 'Windows' ? ' 2>NUL' : ' 2>/dev/null');
 
 			$output = (string) shell_exec($command);
 
