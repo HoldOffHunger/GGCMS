@@ -137,12 +137,12 @@
 			
 			$printable_domains = implode('', $displayable_domains);
 			
-			$first_domain = $this->handler->domain->primary_domain_lowercased;
-			$sitemap_html = 'http://www.' . $first_domain . '/sitemap.php';
-			$sitemap_humanreadable = 'http://www.' . $first_domain . '/sitemap.xml?humanreadable=1';
-			$robots_html = 'http://www.' . $first_domain . '/robots.php';
-			$robots_xml = 'http://www.' . $first_domain . '/robots.xml';
-			$robots_xml_humanreadable = 'http://www.' . $first_domain . '/robots.xml?humanreadable=1';
+			$site_url = $this->handler->domain->GetPrimaryDomain(['lowercased'=>TRUE]);
+			$sitemap_html = $site_url . '/sitemap.php';
+			$sitemap_humanreadable = $site_url . '/sitemap.xml?humanreadable=1';
+			$robots_html = $site_url . '/robots.php';
+			$robots_xml = $site_url . '/robots.xml';
+			$robots_xml_humanreadable = $site_url . '/robots.xml?humanreadable=1';
 			
 			$robots_attributes = $this->robots_attributes;
 			$robots_attributes_to_display = [];
@@ -492,9 +492,9 @@
 		}
 		
 		public function SetRobotsTXTAttributes() {
-			$first_domain = $this->handler->domain->primary_domain_lowercased;
+			$site_url = $this->handler->domain->GetPrimaryDomain(['lowercased'=>TRUE]);
 			
-			$sitemap = 'http://www.' . $first_domain . '/sitemap.xml';
+			$sitemap = $site_url . '/sitemap.xml';
 			
 				//  User-agent opens the group.  Every directive below it belongs to
 				//  that group, and anything printed above it belongs to no group at
