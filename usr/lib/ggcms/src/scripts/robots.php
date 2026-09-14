@@ -599,6 +599,8 @@
 				'Omgilibot',
 				'ImagesiftBot',
 				'Amazonbot',
+				'Claude-SearchBot',
+				'Amzn-SearchBot',
 
 					//  Resells the crawl as a marketing product
 
@@ -608,6 +610,10 @@
 				'MJ12bot',
 				'DotBot',
 				'BLEXBot',
+
+					//  Builds research datasets from the images and text
+
+				'MathPicDatasetCrawler',
 			];
 		}
 
