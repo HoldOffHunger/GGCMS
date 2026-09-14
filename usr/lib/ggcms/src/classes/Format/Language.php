@@ -29,6 +29,10 @@
 					
 					$this->language_code = $language;
 					$this->language = $language_codes[$language];
+
+					if($language === 'en' && $this->IsOnlyLanguageParameter()) {
+						return $this->RedirectToPlainURL();
+					}
 				}
 			} else {
 				$get_cookie_args = [
@@ -53,6 +57,35 @@
 			return $this->language;
 		}
 		
+		/*
+			?language=en asks explicitly for the default language, and the page
+			it renders is the plain page: on 14 September 2026 revoltlib's
+			/people/?language=en differed from /people/ only in links to itself.
+			A query string is never cached, so every one was a fresh render.  It
+			now answers 301 to the plain URL.  The cookie set above goes out with
+			the redirect, so a reader switching back to English from another
+			language keeps the choice.  Only a query string holding nothing but
+			the language is redirected; anything else carries on as before.
+		*/
+
+		public function IsOnlyLanguageParameter() {
+			if(($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'GET') {
+				return FALSE;
+			}
+
+			parse_str((string)($_SERVER['QUERY_STRING'] ?? ''), $parameters);
+
+			return count($parameters) === 1 && (array_key_exists('language', $parameters) || array_key_exists('lang', $parameters));
+		}
+
+		public function RedirectToPlainURL() {
+			$path = strtok((string)$_SERVER['REQUEST_URI'], '?');
+
+			header('Location: ' . $this->handler->domain->GetPrimaryDomain(['lowercased'=>TRUE]) . $path, TRUE, 301);
+
+			exit;
+		}
+
 		public function GetLanguage() {
 			return $this->language;
 		}

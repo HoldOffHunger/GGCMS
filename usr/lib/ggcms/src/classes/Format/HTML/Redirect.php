@@ -70,24 +70,46 @@
 			}
 
 				/*
-					One alternate per language, each pointing at this page in
+					Only where the page is really translated -- see
+					IsTranslatedScript() -- and then one alternate per language,
+					each pointing at this page in
 					that language.  This loop used to reuse $url and $media left
 					over from the format loop above, so every language alternate
 					on every site pointed at view.rdf -- thirteen query-string
 					URLs per page, none of which any cache can serve.
 				*/
 
-			if(!$script->handler->abstractglobals->site->NotReadyForLanguages()) {
+			if(!$script->handler->abstractglobals->site->NotReadyForLanguages() && $this->IsTranslatedScript()) {
 				print("\n");
 
 				foreach($this->language->GetListOfLanguageCodes() as $language_code => $language_name) {
 					print("\t");
-					print('<link rel="alternate" hreflang="' . $language_code . '" href="' . $primary_domain . $this->base_directory . '/?language=' . $language_code . '">');
+					print('<link rel="alternate" hreflang="' . $language_code . '" href="' . $primary_domain . strtok((string)$_SERVER['REQUEST_URI'], '?') . '?language=' . $language_code . '">');
 					print("\n");
 				}
 			}
 
 			return TRUE;
+		}
+
+		/*
+			A page is translated when its script has language scripts: contact,
+			privacy and the code of conduct.  Every other page printed twelve
+			hreflang alternates for copies that differ only in interface
+			strings, while its canonical link already named the plain page, so
+			crawlers fetched every page twelve times.  On 14 September 2026 that
+			was half of all engine renders across the sites, none of them
+			cacheable.
+		*/
+
+		public function IsTranslatedScript() {
+			$script_file = (string)$this->script_file;
+
+			if($script_file === '' || !preg_match('/^[A-Za-z0-9_-]+$/', $script_file)) {
+				return FALSE;
+			}
+
+			return (bool)conf_isfile('clonefrom/language_scripts/' . $script_file . '/en.php');
 		}
 
 		public function ShowAlternateFormats($args) {

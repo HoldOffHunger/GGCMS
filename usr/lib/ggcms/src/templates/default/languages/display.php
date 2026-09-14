@@ -196,7 +196,7 @@ print('<center><h2 class="margin-5px font-family-tahoma">' . $select_language_ti
 				if($current_language_code == $native_language_key) {
 					print('<strong>');
 				} else {
-					print('<a href="' . str_replace('/', '', $_SERVER['SCRIPT_URL']) . '?language=' . $native_language_key . '">');
+					print('<a rel="nofollow" href="' . str_replace('/', '', $_SERVER['SCRIPT_URL']) . '?language=' . $native_language_key . '">');
 				}
 				
 				print('<img src="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/image/flags/' . $language_flag_filename . '" style="margin:0px;">');
@@ -284,7 +284,7 @@ print('<center><h2 class="margin-5px font-family-tahoma">' . $select_language_ti
 				{
 					if($current_language_code != $native_language_key)
 					{
-						print('<a href="' . str_replace('/', '', $_SERVER['SCRIPT_URL']) . '?language=' . $native_language_key . '">');
+						print('<a rel="nofollow" href="' . str_replace('/', '', $_SERVER['SCRIPT_URL']) . '?language=' . $native_language_key . '">');
 					}
 					
 					print('<li class="margin-0px">');
