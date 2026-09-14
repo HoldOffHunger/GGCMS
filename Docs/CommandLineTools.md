@@ -208,6 +208,15 @@ Cloud addresses all ran the script and scrolled, which is why scroll no longer
 wakes it. Lines from before the agent was logged have none and are always
 kept.
 
+The scripted-browser farm is left out unless `--farm` is given. From the
+beacon's first day most counted "readers" shared one exact fingerprint -- a
+1920x1080 screen, `zh-CN`, `Asia/Shanghai`, a new Chinese address per view, one
+page and gone -- and faked the wheel and pointer events the beacon waits for,
+so no interaction test catches them. On 14 September 2026 that was 348 of
+wordweight's 349 views. Only the exact triple is matched (`isFarm()`), so a
+reader in Shanghai on another screen, or anyone reporting UTC, is kept. The
+one-row-per-site table shows how many were left out in `Farm out`.
+
 Two readings to know. A pile of `under 50ms` in `engagement` is a script
 dispatching events, not a person, and is the first place to look if the
 numbers ever seem too good. And a referrer on the site itself counts as
@@ -217,6 +226,48 @@ through an open tab.
 Every `_humans.txt` file on disk is read and filtered by timestamp, not chosen
 by filename, because `date('o-M')` names the first days of some Januaries with
 the previous year. Read-only, so there is nothing to schedule.
+
+#### `traffic_stats.php`
+
+```
+traffic_stats.php
+traffic_stats.php --report=hosts,crawlers --hours=3
+traffic_stats.php --host=revoltlib --misses --report=paths --top=20
+traffic_stats.php --agent=Baiduspider --report=summary,minutes
+traffic_stats.php --status=404 --report=paths --hours=6
+```
+
+The request-side companion to `human_stats.php`: what the front end served and
+to whom. It reads nginx's access log, which sees everything -- page-cache hits
+nginx answers from disk, refusals, and the renders it hands to Apache. `up=-` in
+the log means nginx answered alone; anything else reached the engine, which is
+the expensive part on a one-core host.
+
+Narrow by default: the last hour, `summary` only, ten rows. It binary-searches
+the log for the start of the window instead of reading from the top, so an
+hour of a hundred-megabyte log costs well under a second. If the window starts
+before the current log does it reads `access.log.1` too, and the summary says
+where its data actually begins.
+
+| Report | What it answers |
+|---|---|
+| `summary` | requests by outcome, share of pages served from the cache, engine renders per second, how many renders carried a query string and so could never be cached |
+| `hosts` | each site's requests, cache share, renders, refusals and 404s |
+| `crawlers` | self-declared crawlers still being served, by the renders they cost -- the candidates for the refusal list |
+| `agents` | every user agent, by renders and refusals |
+| `paths` | the paths costing the most renders, query strings grouped |
+| `statuses`, `minutes` | status codes; requests and renders per minute |
+
+`--minutes=N` or `--hours=N` sets the window. `--host` and `--agent` match text
+anywhere, `--path` a prefix, `--status` an exact code; `--misses` keeps only
+requests that reached the engine and `--pages` drops static files and the
+beacon. `--log` reads another file, which is how it runs on a workstation
+against a copy of the host's log. Read-only.
+
+It found its first use on the day it was written: on 14 September 2026 only 8%
+of pages came from the cache, 73% of renders carried a query string, and
+`crawlers` put Claude-SearchBot and Amzn-SearchBot at the top with 18,000 and
+4,000 renders in three hours -- both now refused.
 
 ### Installation — `scripts/public/install/`
 
