@@ -90,7 +90,7 @@
 
 							/*
 								A bare & is not valid XML.  These URLs go straight into
-								<url> elements of the sitemap index, so the document was
+								<loc> elements of the sitemap index, so the document was
 								rejected at the first paginated section -- column 133 of
 								line 1 on revoltlib.  The txt sitemap wants the literal
 								character, so this is asked rather than assumed.
@@ -101,7 +101,14 @@
 
 					$sitemap_pages[] = [
 						'sitemap'=>[
-							'url'=>$url,
+							/*
+								<loc>, not <url>.  The sitemap protocol requires every <sitemap>
+								in an index to name its child in <loc>; until 14 September 2026
+								this wrote <url>, so the paginated sites' indexes -- revoltlib
+								and earthfluent among them -- named no child sitemap a search
+								engine could read.
+							*/
+							'loc'=>$url,
 							'lastmod'=>explode(' ', $sitemap_piece['LastModificationDate'])[0],
 						],
 					];
@@ -122,7 +129,7 @@
 				$sitemap = [];
 
 				foreach($sitemap_pages as $sitemap_page) {
-					$sitemap[] = $sitemap_page['sitemap']['url'] . ' (lastmod: ' . $sitemap_page['sitemap']['lastmod'] . ')';
+					$sitemap[] = $sitemap_page['sitemap']['loc'] . ' (lastmod: ' . $sitemap_page['sitemap']['lastmod'] . ')';
 				}
 
 				return $this->sitemap = $sitemap;
@@ -740,84 +747,18 @@
 				];
 			}
 			
-			if($home_language_list && count($home_language_list)) {
-				$links[] = [
-					'url'=>[
-						'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/?language=en',
-						'lastmod'=>$home_last_mod,
-						'changefreq'=>$home_change_freq,
-						'priority'=>$home_priority,
-					],
-				];
-			}
-			
-			if($about_language_list && count($about_language_list)) {
-				$links[] = [
-					'url'=>[
-						'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/about.php?language=en',
-						'lastmod'=>$about_last_mod,
-						'changefreq'=>$about_change_freq,
-						'priority'=>$about_priority,
-					],
-				];
-			}
-			
-			if($contact_language_list && count($contact_language_list)) {
-				$links[] = [
-					'url'=>[
-						'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/contact.php?language=en',
-						'lastmod'=>$contact_last_mod,
-						'changefreq'=>$contact_change_freq,
-						'priority'=>$contact_priority,
-					],
-				];
-			}
-			
-			if($language_list && count($language_list)) {
-				$links[] = [
-					'url'=>[
-						'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/languages.php?language=en',
-						'lastmod'=>$languages_last_mod,
-						'changefreq'=>$languages_change_freq,
-						'priority'=>$languages_priority,
-					],
-				];
-			}
-			
-			if($search_language_list && count($search_language_list)) {
-				$links[] = [
-					'url'=>[
-						'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/search.php?language=en',
-						'lastmod'=>$search_last_mod,
-						'changefreq'=>$search_change_freq,
-						'priority'=>$search_priority,
-					],
-				];
-			}
-			
+			/*
+				No ?language= copies of pages that are not translated.  The five
+				?language=en entries repeated the plain URLs listed above, and
+				?language=en now answers 301 to them.  The loop listed home, about,
+				languages and search once per language too, pages whose body stays
+				English -- sixty URLs per site, each an uncacheable render, inviting
+				crawlers to fetch every copy.  Only contact.php is translated (it
+				has language scripts), so it alone is listed per language.  See
+				HTML_Redirect::IsTranslatedScript().
+			*/
+
 			foreach($this->handler->language->GetListOfLanguageCodes() as $language_code => $language) {
-				if($home_language_list[$language_code]) {
-					$links[] = [
-						'url'=>[
-							'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/?language=' . $language_code,
-							'lastmod'=>$home_last_mod,
-							'changefreq'=>$home_change_freq,
-							'priority'=>$home_priority,
-						],
-					];
-				}
-				
-				if($about_language_list[$language_code]) {
-					$links[] = [
-						'url'=>[
-							'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/about.php?language=' . $language_code,
-							'lastmod'=>$about_last_mod,
-							'changefreq'=>$about_change_freq,
-							'priority'=>$about_priority,
-						],
-					];
-				}
-				
 				if($contact_language_list[$language_code]) {
 					$links[] = [
 						'url'=>[
@@ -825,28 +766,6 @@
 							'lastmod'=>$contact_last_mod,
 							'changefreq'=>$contact_change_freq,
 							'priority'=>$contact_priority,
-						],
-					];
-				}
-				
-				if($language_list[$language_code]) {
-					$links[] = [
-						'url'=>[
-							'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/languages.php?language=' . $language_code,
-							'lastmod'=>$languages_last_mod,
-							'changefreq'=>$languages_change_freq,
-							'priority'=>$languages_priority,
-						],
-					];
-				}
-				
-				if($search_list[$language_code]) {
-					$links[] = [
-						'url'=>[
-							'loc'=>$this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/search.php?language=' . $language_code,
-							'lastmod'=>$search_last_mod,
-							'changefreq'=>$search_change_freq,
-							'priority'=>$search_priority,
 						],
 					];
 				}
