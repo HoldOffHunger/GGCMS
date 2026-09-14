@@ -2121,15 +2121,9 @@
 				} else {
 					http_response_code(200);	// "OK" (success)
 					
-					ggreq('classes/API/GoogleAnalytics.php');
-					
-					$google_analytics = new GoogleAnalytics($this->getArgs());
-					
 					print('<!DOCTYPE HTML><HTML><HEAD>');
 					print('<META HTTP-EQUIV="REFRESH" CONTENT="0; URL=' . $this->redirect_url . '"/>');
 					print('<LINK REL="CANONICAL" HREF="' . $this->redirect_url . '"/>');
-					
-					$google_analytics->DisplayHeaderBlock();
 					
 					print('</HEAD>');
 					print('<BODY STYLE="font-family:arial;">');

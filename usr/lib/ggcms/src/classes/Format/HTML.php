@@ -545,13 +545,14 @@
 				}
 			}
 		
-			ggreq('classes/API/GoogleAnalytics.php');
-			
-			$google_analytics = new GoogleAnalytics(['handler'=>$this->handler]);
-			
+			/*
+				Google Analytics is gone.  Every site was tagged with a Universal
+				Analytics property, and Google stopped processing those in 2023, so
+				each page loaded gtag.js to record nothing.  Readers are counted by
+				humanbeacon.js, which reports to this host.
+			*/
+
 			$this->DisplayDoubleReturns();
-			
-			$google_analytics->DisplayHeaderBlock();
 			
 			if($this->domain_object->host === 'earthfluent') {
 				print('<script data-ad-client="ca-pub-5613154091905636" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>');
