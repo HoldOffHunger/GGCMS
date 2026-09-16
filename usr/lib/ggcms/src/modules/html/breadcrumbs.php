@@ -80,7 +80,9 @@
 		#	print("-->\n\n");
 			#	$alt = htmlentities($record['Title']);
 				print('<img valign="bottom" style="margin:1px; padding:0px;border:1px solid black;" ');
-				print('src="/image/' . $directory . '/' . $image['FileName'] . '"');
+				# An 18-pixel crumb: the icon, never the original, which can run to megabytes.
+				$crumb_filename = $image['IconFileName'] ? $image['IconFileName'] : $image['FileName'];
+				print('src="/image/' . $directory . '/' . $crumb_filename . '"');
 			#	print('title="' . $alt . '" ');
 			#	print('alt="' . $alt . '" ');
 				print('height="18" ');

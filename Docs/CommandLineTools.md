@@ -582,6 +582,7 @@ names the files it removed — see [PageCache.md](PageCache.md).
 | `scan_images.php` | Reconciles the image tree against the `Image` table; changes nothing |
 | `check_image_compression.php` | Runs the quality search and reports what re-encoding would save; writes nothing |
 | `compress_images.php` | Re-encodes JPEGs in place |
+| `shrink_images.php` | Scales named files down to a ceiling and rewrites their stored dimensions |
 | `backup_images.php` | Copies the image tree to the mounted volume, with a manifest |
 | `restore_images.php` | Puts back what differs from a backup |
 | `repair_image_filenames.php` | Corrects rows that name a file under the wrong name |
@@ -762,6 +763,32 @@ beside the original and is renamed over it, never copied over it.
 
 **Never schedule this one.** It changes what visitors see, like
 `modify_entry.php`.
+
+#### `shrink_images.php`
+
+```bash
+shrink_images.php masereelgroup.com                 # dry: every named file over 1000x1000
+shrink_images.php masereelgroup.com --max=1000 --apply
+```
+
+The one image tool that resizes. A site that keeps its archival scans
+elsewhere -- masereelgroup.com links every book to archive.org -- has no reason
+to serve a 12,000-pixel original, and on 16 September 2026 fourteen of them were
+46.7 MB of its 54.1 MB tree. They became 2.2 MB.
+
+It scales every file an `Image` row names, in any variant, down to fit within
+`--max` by `--max`, and writes that variant's two dimension columns from the file
+as written. That is what the other tools refuse to do and why: the stored
+dimensions are the rendered ones, so this tool owns both halves. A result still
+over the ceiling, or whose aspect ratio drifted more than a percent, is thrown
+away. Orphans are not touched.
+
+`--apply` refuses without a backup, for a stronger reason than the compressor's:
+a backup is the only full-resolution copy left on the host. Take one with
+`backup_images.php DOMAIN --min-size=0 --apply` first.
+
+The `UPDATE` bypasses the ORM, so it invalidates the `Image` row cache itself.
+Flush the domain's pages after, not before.
 
 #### `backup_images.php` and `restore_images.php`
 
