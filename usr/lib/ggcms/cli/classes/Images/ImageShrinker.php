@@ -185,11 +185,43 @@
 				return FALSE;
 			}
 
-			sort($labels);
+			rsort($labels);
 
-			print('Backup found: ' . end($labels) . "\n\n");
+			$this->backup_labels = $labels;
+
+			print('Backups found: ' . implode(', ', $labels) . "\n\n");
 
 			return TRUE;
+		}
+
+			/*
+				A backup directory existing is not the same as this file being
+				in it.  On 16 September 2026 a fresh backup of masereelgroup
+				was refused for want of space, and the run went ahead on the
+				strength of an older one it never looked inside -- which did
+				hold the originals, by luck rather than by check.  So each file
+				is looked for, newest backup first, and a file with no copy
+				holding its current dimensions is not touched.
+			*/
+
+		public function backupCopyOf($args) {
+			$candidate = $args['candidate'];
+
+			foreach($this->backup_labels as $label) {
+				$copy = $this->imageBackupDirectory(['label'=>$label]) . $candidate['relative'];
+
+				if(!is_file($copy)) {
+					continue;
+				}
+
+				$image = $this->identifyImage(['path'=>$copy]);
+
+				if($image && $image['width'] === $candidate['image']['width'] && $image['height'] === $candidate['image']['height']) {
+					return $copy;
+				}
+			}
+
+			return FALSE;
 		}
 
 			// Reading
@@ -345,9 +377,23 @@
 			$path = $candidate['path'];
 			$max = $this->arguments['max'];
 
+			if(!$this->backupCopyOf(['candidate'=>$candidate])) {
+				return 'no backup holds this file at ' . $candidate['image']['width'] . 'x' . $candidate['image']['height'];
+			}
+
 			$temporary = $path . '.ggcms_shrink';
 
+				/*
+					The size hint lets libjpeg decode at a fraction of full
+					resolution.  Without it a 11,092 by 12,626 scan is decoded
+					whole, 140 million pixels, and on this host's ImageMagick
+					policy that is "cache resources exhausted" -- three of
+					masereelgroup's fourteen failed that way.  Twice the ceiling
+					keeps the final resize a genuine downscale.
+				*/
+
 			$command = $this->imageMagickCommand(['tool'=>'convert']);
+			$command .= ' -define ' . escapeshellarg('jpeg:size=' . (2 * $max) . 'x' . (2 * $max));
 			$command .= ' ' . escapeshellarg($path . '[0]');
 			$command .= ' -auto-orient -resize ' . escapeshellarg($max . 'x' . $max . '>');
 			$command .= ' -strip -quality ' . (int)$this->arguments['quality'];
