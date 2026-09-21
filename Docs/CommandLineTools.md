@@ -520,9 +520,13 @@ inside.
 | `--dump-form` | off | Print the entry's form as JSON and stop |
 | `--apply` | off | Actually write |
 
-**Run it under `/usr/bin/php8.0`.** The `php` on the path is 8.1, which on this
-host has neither `intl` nor `zip`, and neither has an apt candidate. The tool
-loads the whole engine, so a missing extension is a fatal rather than a warning.
+**Run it under plain `php`.** Since the 22.04 upgrade that is Ubuntu's own 8.1,
+with `intl`, `zip`, `mysqli` and, from 21 September 2026, `imagick`. The tool
+loads the whole engine, so a missing extension is a fatal rather than a warning
+-- or worse: without `imagick` a Save wrote the Entry row, died part-way through
+the image fields, and left an entry with no Assignment and so no path.
+`/usr/bin/php8.0` is a leftover of the old PPA that nothing updates; do not
+use it.
 
 **Saving needs somebody to save as.** Pass `--user=ADMIN` for the administrator
 account or `--user=<id>` for a particular one. Without it the tool refuses,
@@ -535,7 +539,7 @@ because `modify.php` will not save for nobody — and that is correct.
 and the parent is left alone:
 
 ```bash
-/usr/bin/php8.0 modify_entry.php masereelgroup.com --path=/books/ --user=ADMIN \
+php modify_entry.php masereelgroup.com --path=/books/ --user=ADMIN \
   --field='Title=Arc Lamps' --field='Code=arc-lamps' --field='Publish=1'
 ```
 
@@ -550,7 +554,7 @@ The textbody is `Text[]`, and `textbody_Source[]` and `textbody_Language[]`
 carry the matching positions:
 
 ```bash
-/usr/bin/php8.0 modify_entry.php masereelgroup.com \
+php modify_entry.php masereelgroup.com \
   --path=/books/arc-lamps/ --user=ADMIN \
   --field='Title=Original, French Scans' \
   --field='Code=original-french-scans' \
