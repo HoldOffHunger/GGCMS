@@ -310,7 +310,7 @@
 		public function Construct_DBAccess() {
 			$this->db_access = new DBAccess($this->getArgs());
 			
-			return TRUE;#$this->db_access->DBStart();
+			return $this->db_access->DBStart();
 		}
 		
 		public function Construct_Action() {

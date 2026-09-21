@@ -72,18 +72,10 @@
 		#	error_reporting(E_ERROR);
 
 				/*
-					Cleared first, and cleared again on failure.
-
-					The assignment lives inside the try, so when `new mysqli` threw,
-					$this->db_link kept whatever it already held -- which is a link
-					that has just been closed.  DBStartConditional would correctly
-					see a dead link, call this, get no connection out of it, and the
-					next prepare() would throw `mysqli object is already closed` from
-					a guard that had done its job.  1,410 of those in eight hours.
-
-					A failed connection now leaves NULL, which every reader below
-					tests for, so the failure is reported as a failure instead of
-					surfacing later as a fatal somewhere else.
+					Cleared first, and cleared again on failure, so a failed
+					connection leaves NULL rather than the link it held before.
+					Every reader below tests for NULL, so a failure is reported
+					here instead of surfacing as a fatal somewhere further on.
 				*/
 
 			$this->db_link = NULL;
@@ -205,7 +197,7 @@
 		public function DBEnd() {
 			$this->CloseLink(['link'=>$this->db_link]);
 			
-			$this->db_link = NULL;		# so DBStartConditional reopens on demand
+			$this->db_link = NULL;
 			
 			return TRUE;
 		}
@@ -214,7 +206,6 @@
 			// -------------------------------------------------
 		
 		public function FetchAllRows($args) {
-			$this->DBStartConditional();
 			$query = $args['query'];
 			$objects = [];
 			
@@ -232,7 +223,6 @@
 			// -------------------------------------------------
 		
 		public function GetRecords($args) {
-			$this->DBStartConditional();
 			
 			$record_select = $args['select'];
 			$record_type = $args['type'];
@@ -409,7 +399,6 @@
 		}
 		
 		public function FillArraysFromDB($args) {
-			$this->DBStartConditional();
 			
 			$query = $args['query'];
 			$sqlbindstring = $args['sqlbindstring'];
@@ -593,7 +582,6 @@
 		}
 		
 		public function GetRecordDescription_QueryDB($args) {
-			$this->DBStartConditional();
 			
 			$record_type = $args['type'];
 			

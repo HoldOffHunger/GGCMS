@@ -4,6 +4,8 @@
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			
+			$this->DBStart();
+			
 			return $this;
 		}
 		
@@ -40,7 +42,6 @@
 			#		print_r($db_results);
 			#	}
 			} else {
-				$this->DBStartConditional();
 				
 				$sql = 'SELECT ';
 				
@@ -115,7 +116,6 @@
 			}
 			
 			if(!is_array($word_data)) {
-				$this->DBStartConditional();
 				
 				$sql = 'SELECT ';
 				
@@ -170,7 +170,6 @@
 			}
 			
 			if(!is_array($db_results)) {
-				$this->DBStartConditional();
 				
 				$random_word_count = $args['randomwordcount'];
 				
@@ -242,7 +241,6 @@
 			}
 			
 			if(!is_array($definitions_count)) {
-				$this->DBStartConditional();
 				
 				$sql = 'SELECT COUNT(id) AS DefinitionCount FROM Definition;';
 				
@@ -278,7 +276,6 @@
 			}
 			
 			if(!is_array($words_count)) {
-				$this->DBStartConditional();
 				
 				$sql = 'SELECT COUNT(DISTINCT Term) AS WordCount FROM Definition;';
 				
@@ -314,7 +311,6 @@
 			}
 			
 			if(!is_array($dictionaries_count)) {
-				$this->DBStartConditional();
 				
 				$sql = 'SELECT COUNT(id) AS DictionaryCount FROM Dictionary;';
 				
@@ -346,40 +342,6 @@
 		public function dictionary_db() {
 			return 'alldictionaries';
 		}
-		
-		/*
-			A closed mysqli is still an instanceof mysqli, and it is still
-			truthy, so the six `if(!$this->db_link) { $this->DBStart(); }`
-			sites above accepted a link that had already been closed and the
-			prepare() below then threw "mysqli object is already closed".
-
-			Reading a property is the cheapest question that a closed link
-			refuses to answer.  This mirrors DBAccess::IsLinkOpen(), for the
-			same reason and with the same answer: do not use this, open a new
-			one.  The two are deliberately separate because the two classes
-			own separate connections to separate databases.
-		*/
-
-		public function IsLinkOpen() {
-			if(!($this->db_link instanceof mysqli)) {
-				return FALSE;
-			}
-
-			try {
-				return (bool) $this->db_link->thread_id;
-			} catch (Error $error) {
-				return FALSE;
-			}
-		}
-
-		public function DBStartConditional() {
-			if(!$this->IsLinkOpen()) {
-				$this->DBStart();
-			}
-
-			return TRUE;
-		}
-
 		public function DBStart() {
 			error_reporting(E_ERROR);
 
@@ -517,9 +479,8 @@
 			$sqlbindstring = $args['sqlbindstring'];
 			$recordvalues = $args['recordvalues'];
 
-			$this->DBStartConditional();
 
-			if(!$this->IsLinkOpen()) {
+			if(!$this->db_link) {
 				return [];
 			}
 

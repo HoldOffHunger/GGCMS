@@ -476,22 +476,8 @@
 		*/
 
 		public function RequireDatabase($handler) {
-			if(isset($handler->db_access) && $handler->db_access) {
-
-					/*
-						Ask for the connection before judging it.
-
-						The Handler builds DBAccess without connecting -- the link
-						is opened by the first query that wants one -- so testing
-						IsLinkOpen() on a freshly built Handler answers "no" for a
-						perfectly good configuration, which is a confident lie.
-					*/
-
-				$handler->db_access->DBStartConditional();
-
-				if($handler->db_access->IsLinkOpen()) {
-					return TRUE;
-				}
+			if(isset($handler->db_access) && $handler->db_access && $handler->db_access->db_link) {
+				return TRUE;
 			}
 
 			$this->Fail(
