@@ -208,6 +208,34 @@ Two entries for the removed accessors survived in the `Script/PHP.php`
 introspection registry until September 2026, where master-c rendered them as
 buttons and pressing one produced a 500. They are gone.
 
+### Defensive re-running
+
+**Never.** Not `if(!$thing) { do_thing(); }` guarding work that was supposed to
+have happened already, and not a "conditional start", an "ensure", or a "make
+sure it is open" helper of any shape.
+
+If line 10 does the work and line 20 asks whether line 10 ran, exactly one of
+two things is true. Either line 10 runs, and the guard is dead weight that
+every reader after you has to think about. Or line 10 does not run, and the
+guard is hiding a defect that is still sitting there. The question at line 20
+is the wrong question in both cases: find out why line 10 did not run, and fix
+that.
+
+There is a second cost beyond the untruth. A guard like this performs the work
+from wherever it happens to be called, which is every call site rather than the
+one place the design chose — so an expensive operation runs an unknown number
+of times, and nobody can say how many.
+
+The instance, September 2026. `Handler::Construct_DBAccess` had its `DBStart()`
+commented out, so no connection was ever opened where the handler builds
+`DBAccess`. Instead of restoring that one line, `DBStartConditional()` and
+`IsLinkOpen()` were written and called from eleven places across `DBAccess`,
+`Dictionary` and the page cache warmer, each reopening a connection on demand.
+That inverted the lifecycle the engine is built on — the handler opens, the
+request works, `__destruct` closes — and the symptom being chased, `mysqli
+object is already closed`, was itself produced by the missing start. Restoring
+the commented-out line made all eleven unnecessary.
+
 ### Frameworks, autoloaders, namespaces
 
 See [../AGENTS.md](../AGENTS.md). There is no framework underneath this and
