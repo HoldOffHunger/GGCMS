@@ -67,49 +67,6 @@
 			// Start/Stop the DB
 			// -------------------------------------------------
 		
-		/*
-			property_exists() asked whether the PROPERTY exists, and in PHP a
-			property that has ever been assigned exists forever -- including
-			when it holds a connection that has since been closed.  So after any
-			close this never reconnected, and the next prepare() ran against a
-			dead link.  That was the "mysqli object is already closed" family,
-			398 of them.
-
-			Ask about the link itself instead.  DBEnd clears it, so a closed
-			connection reads as absent and is reopened on demand.
-		*/
-
-		public function DBStartConditional() {
-			if(!$this->IsLinkOpen()) {
-				$this->DBStart();
-			}
-
-			return TRUE;
-		}
-
-		/*
-			A closed mysqli is still an instanceof mysqli.  Testing the class
-			alone therefore accepted a link that had been closed by someone
-			holding another reference to the same object, and the next prepare()
-			threw "mysqli object is already closed" -- from inside the shutdown
-			error logger, which is the one place that must never throw.
-
-			Reading a property is the cheapest question that a closed link
-			refuses to answer.  An unconnected link refuses it too, which is the
-			same answer for the same reason: do not use this, open a new one.
-		*/
-
-		public function IsLinkOpen() {
-			if(!($this->db_link instanceof mysqli)) {
-				return FALSE;
-			}
-
-			try {
-				return (bool) $this->db_link->thread_id;
-			} catch (Error $error) {
-				return FALSE;
-			}
-		}
 		
 		public function DBStart() {
 		#	error_reporting(E_ERROR);
@@ -492,7 +449,19 @@
 				
 				$objects = [];
 	#			print_r($query);
-				$statement->execute();
+				$execute_line = __LINE__;
+				if(!$statement->execute()) {
+					$get_error_args = [
+						'specifictype'=>'Execute',
+						'query'=>$query,
+						'values'=>$recordvalues,
+						'line'=>$execute_line,
+						'function'=>__FUNCTION__,
+						'method'=>__METHOD__,
+					];
+
+					return $this->GetError($get_error_args);
+				}
 				$result = $statement->get_result();
 				
 				if($result) {
@@ -787,9 +756,13 @@
 					$update_statement .= ' WHERE ' . $record_where;
 				}
 				
-				$this->FillArraysFromDB([
+				$reset_result = $this->FillArraysFromDB([
 					'query'=>'SET @update_id := 0;',
 				]);
+				if(!empty($reset_result['line'])) {
+					return $reset_result;
+				}
+
 				$uid_handling_clause = ' AND (SELECT @update_id := id)';
 				$update_statement .= $uid_handling_clause;
 				
@@ -799,12 +772,20 @@
 					'recordvalues'=>array_merge($set_record_values, $record_values),
 				]);
 				
+				if(!empty($query_result['line'])) {
+					return $query_result;
+				}
+
 	#		print_r($this->db_link->error);
 				
 				$record_update_ids = $this->FillArraysFromDB([
 					'query'=>'SELECT @update_id;',
 				]);
 				
+				if(!empty($record_update_ids['line'])) {
+					return $record_update_ids;
+				}
+
 				$new_record_where = [
 					'type'=>$record_type,
 					'definition'=>[
@@ -863,6 +844,10 @@
 				'record_type'=>$record_type,
 			]);
 			
+			if(!empty($query_result['line'])) {
+				return $query_result;
+			}
+
 			if($record_type == 'InternalServerIssue') {
 
 	#			print("<PRE>");
@@ -883,8 +868,22 @@
 					],
 				];
 				
-				$new_record = $this->GetRecords($new_record_where)[0];
-				return $new_record;
+				$new_records = $this->GetRecords($new_record_where);
+				if(!empty($new_records['line'])) {
+					return $new_records;
+				}
+
+				if(empty($new_records[0])) {
+					return $this->GetError([
+						'specifictype'=>'Readback',
+						'error'=>'Created record could not be read back.',
+						'line'=>__LINE__,
+						'function'=>__FUNCTION__,
+						'method'=>__METHOD__,
+					]);
+				}
+
+				return $new_records[0];
 			}
 			
 			return $query_result;
