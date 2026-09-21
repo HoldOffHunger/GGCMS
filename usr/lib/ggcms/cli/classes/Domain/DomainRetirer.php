@@ -55,13 +55,14 @@
 			$this->ReverseThisDomainName();
 			$this->BuildInventory();
 			$this->PrintInventory();
+			$this->ReportRepositoryFiles();
 
 			$database_exists = $this->DatabaseExists();
 
 			if(!count($this->archive_paths) && !count($this->discard_paths) && !$database_exists) {
 				print('Nothing of ' . $this->domain . ' remains on this host.' . PHP_EOL . PHP_EOL);
 
-				return $this->ReportRepositoryFiles();
+				return TRUE;
 			}
 
 			if(!$this->basicConfirmDialogue(['message'=>'Archive everything above into one tarball, then remove the originals.', 'argv_index'=>2])) {
@@ -83,8 +84,6 @@
 			if($database_exists) {
 				$this->DropDatabase();
 			}
-
-			$this->ReportRepositoryFiles();
 
 			return TRUE;
 		}
