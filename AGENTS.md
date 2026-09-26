@@ -69,6 +69,27 @@ stranded that way for three weeks.
 | [Development/Conventions.md](Development/Conventions.md) | Project vocabulary — ISE, ISI, and what already exists |
 | [Docs/Triage.md](Docs/Triage.md) | Known-open issues, with the evidence |
 
+## Checking on production
+
+When asked how production is doing, or before starting work that touches it,
+read the scheduled checks first -- they have already done the slow part.
+Everything below is on the host and read-only.
+
+| Read | Healthy looks like |
+|---|---|
+| `tail -20 /var/log/ggcms/cron/disk.log` | Nothing since the last timestamp, or every volume `OK`.  `WARN` is under 15% free; `FAIL` under 8% or 1 GB |
+| `tail -5 /var/log/ggcms/cron/backup.log` | `SUMMARY  19 site(s):  19 OK` from 03:15 UTC |
+| `tail -5 /var/log/ggcms/cron/confirm.log` | `All 17 sites pass.` from 06:30 UTC |
+| `tail -30 /var/log/ggcms/cron/errors.log` | Open 500 counts per site; compare with the day before |
+| `/var/log/ggcms/cron/schema.log` (Mondays) | No `missing` rows; `unknown` rows are explained history |
+| `server_error_detail.php <domain>` | The newest open 500s with their messages; `--id=N` for one whole |
+| `human_stats.php` | People per site, this week against last |
+| `traffic_stats.php --report=summary` | Page-cache hit rate and renders per second for the last hour |
+
+A ticket last seen before the latest deploy is probably fixed; mark it
+resolved rather than chasing it.  Say what you found in the conversation, in
+the first sentence, whether or not it is bad news.
+
 ## Rules
 
 **Never commit a secret.** Database credentials live in `php.ini` via

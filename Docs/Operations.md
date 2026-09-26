@@ -271,34 +271,24 @@ GGCMS ships its own diagnostics under `usr/lib/ggcms/cli/`. They only help if
 they run. Install as root's crontab:
 
 ```cron
-# Disk and inode headroom — the check that would have prevented the 2024 outage
-0 6 * * *   /usr/lib/ggcms/cli/scripts/public/storage/check_free_space.php
-
-# Database size growth
-0 6 * * 1   /usr/lib/ggcms/cli/scripts/public/sql/show_table_sizes.php
-
-# Application errors and 404 volume from the previous day
-0 7 * * *   /usr/lib/ggcms/cli/scripts/internal/errors/server_error_counts.php
-0 7 * * *   /usr/lib/ggcms/cli/scripts/internal/errors/issues_404.php
-
-# Database backup
-0 3 * * *   /usr/lib/ggcms/cli/scripts/public/sql/backup_database.php
-
-# Schema drift, and child tables holding rows nothing is allowed to fetch
-0 6 * * 1   /usr/lib/ggcms/cli/scripts/public/sql/check_schema.php
-
-# Image tree against the Image table -- orphans, missing files, and weight.
-# One line per domain; revoltlib carries 5.3 GB of the 6.0 GB.
-0 6 * * 2   /usr/lib/ggcms/cli/scripts/internal/images/scan_images.php revoltlib.com
-
-# Image:: markup pointing at images the entry does not have.  These render as
-# nothing at all, so no other check will ever notice them.
-0 6 * * 3   /usr/lib/ggcms/cli/scripts/internal/images/check_image_references.php revoltlib.com
-
-# Statistics off the root disk.  Monthly, after the month it archives has ended.
-0 4 2 * *   /usr/lib/ggcms/cli/scripts/internal/stats/archive_stats.php --apply
-
+# Installed on the live host 26 September 2026.  Each job logs under
+# /var/log/ggcms/cron/ with a UTC timestamp per run; mail goes out only on
+# exit 2.  Called through /usr/bin/php so a script's own line endings or
+# execute bit can never stop it running.
+15 3 * * *  backup_all_databases.php --all-databases --quiet   -> backup.log
+30 6 * * *  confirm_database_backup.php --quiet                 -> confirm.log
+0 6 * * *   check_free_space.php --path=/ --path=/mnt/nyc01 --quiet -> disk.log
+0 7 * * *   server_error_counts.php                            -> errors.log
+0 6 * * 1   check_schema.php --check=columns                   -> schema.log
+0 6 * * 2   scan_images.php revoltlib.com                      -> images.log
+0 6 * * 3   check_image_references.php revoltlib.com           -> image-references.log
+0 4 2 * *   archive_stats.php --apply                          -> stats-archive.log
+15 * * * *  /opt/ggcms/bin/refresh_db_host.sh                  -> dbhost.log
 ```
+
+`issues_404.php` and `show_table_sizes.php` stop to ask for a domain, so they
+cannot run unattended and are not scheduled.  `crontab -l` on the host is the
+authority; the full lines, redirections and mail tests included, are there.
 
 Cron mails its output to root. `You have new mail` at login is a signal, not
 decoration — it was present, unread, throughout the outage.
