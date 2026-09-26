@@ -7,6 +7,7 @@
 		$standard_classes = [
 			'ReverseDNSNotation',
 			'GGCMSDateFormat',
+			'LogRedaction',
 		];
 	
 		$traits_folder_location_prefix = GGCMS_DIR . 'traits/';

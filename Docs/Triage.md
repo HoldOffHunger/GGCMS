@@ -239,6 +239,15 @@ the shared mechanism exists.
 
 ### ISE and ISI records persist unredacted credentials and tokens
 
+**Repaired, 26 September 2026:** both loggers now write through
+`traits/LogRedaction.php`. Values under sensitive-looking keys are masked at
+any depth and in any letter case, `$_SERVER` is reduced to an allowlist of
+diagnostic fields, sensitive query values are masked in every stored URL, and
+the handler dump is replaced by script, format, PHP version, peak memory and
+the real stack trace. The `log-redaction` fixture checks it with nested,
+oddly-cased sentinels. Rows written earlier are handled by
+`cli/scripts/internal/errors/scrub_server_errors.php`, dry by default.
+
 Both failure paths serialize request data directly into database records.
 `ErrorLogging::logInternalServerError()` stores `print_r($_SERVER)`,
 `print_r($_POST)`, `print_r($_GET)` and the entire recursive handler object.

@@ -1,6 +1,8 @@
 <?php
 
 	class ErrorLogging {
+		use LogRedaction;
+		
 		public $handler;
 		
 		public function __construct($args) {
@@ -90,7 +92,7 @@
 				
 				$this->displayErrorToAdmin(['error'=>$error, 'stack_trace'=>$stack_trace,]);
 				
-				$this->backupError(['error'=>$error]);
+				$this->backupError(['error'=>$error, 'stacktrace'=>$stack_trace,]);
 			}
 			
 			return TRUE;
@@ -124,8 +126,29 @@
 			return (string)$this->handler->script_file;
 		}
 		
+			/*
+				A deliberate few facts and the real trace, in place of the
+				handler printed whole.  That dump carried the password seed on
+				every error on every site, and was long enough to cut off the
+				trace appended after it.
+			*/
+
+		public function ErrorContext($args) {
+			$stack_trace = $args['stacktrace'];
+			
+			$context = [
+				'Script'=>$this->ErrorScript(),
+				'Format'=>isset($this->handler->script_format) ? (string)$this->handler->script_format : '',
+				'PHP'=>PHP_VERSION,
+				'Peak Memory'=>memory_get_peak_usage(TRUE),
+			];
+			
+			return print_r($context, TRUE) . PHP_EOL . $stack_trace;
+		}
+		
 		public function backupError($args) {
 			$error = $args['error'];
+			$stack_trace = $args['stacktrace'] ?? (new Exception)->getTraceAsString();
 			
 			if(!$this->handler->globals->EnableErrorLogging()) {
 				return FALSE;
@@ -137,12 +160,13 @@
 			}
 			
 			$error_script = $this->ErrorScript();
+			$loggable_request = $this->LoggableRequest();
 
 			$internal_server_error_insert_args = [
 				'type'=>'InternalServerError',
 				'instancetype'=>'InternalServerErrorInstance',
 				'instancefield'=>'Errorid',
-				'url'=>$_SERVER['REQUEST_URI'],
+				'url'=>$loggable_request['url'],
 				'definition'=>[
 					'Signature'=>$this->ErrorSignature([
 						'script'=>$error_script,
@@ -152,11 +176,11 @@
 					'IncidentCount'=>1,
 					'Resolved'=>0,
 					'ErrorMessage'=>$error,
-					'URL'=>$_SERVER['REQUEST_URI'],
-					'ServerVariable'=>print_r($_SERVER, TRUE),
-					'PostVariable'=>print_r($_POST, TRUE),
-					'GetVariable'=>print_r($_GET, TRUE),
-					'EnvironmentVariables'=>print_r($this->handler, TRUE) . (new Exception)->getTraceAsString(),
+					'URL'=>$loggable_request['url'],
+					'ServerVariable'=>$loggable_request['server'],
+					'PostVariable'=>$loggable_request['post'],
+					'GetVariable'=>$loggable_request['get'],
+					'EnvironmentVariables'=>$this->ErrorContext(['stacktrace'=>$stack_trace]),
 				],
 			];
 			

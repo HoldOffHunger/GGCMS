@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 set_error_handler(function($level,$message){throw new ErrorException($message,0,$level);});
-require dirname(__DIR__,3).'/src/classes/Error/ErrorLogging.php';
+require dirname(__DIR__,3).'/src/traits/LogRedaction.php';require dirname(__DIR__,3).'/src/classes/Error/ErrorLogging.php';
 class AnonymousLogger extends ErrorLogging {public function __construct(){}}
 $failed=0;
 foreach(['missing-server','http','https-no-cookie','https-missing-session','https-nonadmin'] as $mode){

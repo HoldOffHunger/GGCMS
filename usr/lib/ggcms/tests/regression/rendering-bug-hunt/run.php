@@ -53,6 +53,7 @@
 		['error-display-text', [], 8],
 		['error-token-type', [], 4],
 		['error-orphan', [], 2],
+		['log-redaction', [], 10],
 		['session-expiry-query', [], 2],
 		['session-account', [], 2],
 		['session-refresh', [], 2],

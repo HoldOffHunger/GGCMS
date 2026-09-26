@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 set_error_handler(function($level,$message){throw new ErrorException($message,0,$level);});
 require dirname(__DIR__,3).'/src/classes/Security/Authentication.php';
-require dirname(__DIR__,3).'/src/classes/Error/ErrorLogging.php';
+require dirname(__DIR__,3).'/src/traits/LogRedaction.php';require dirname(__DIR__,3).'/src/classes/Error/ErrorLogging.php';
 class ExpiryLogger extends ErrorLogging {public function __construct($args){$this->handler=$args['handler'];}}
 $failed=0;
 foreach(['authentication'=>160,'diagnostics'=>4] as $mode=>$hours){

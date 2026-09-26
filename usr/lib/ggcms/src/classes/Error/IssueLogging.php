@@ -3,6 +3,8 @@
 			# FIXME: TODO: Add -> Directly Excluded URI's, like the commented out ones in RepoURLs
 
 	class IssueLogging {
+		use LogRedaction;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			
@@ -1033,12 +1035,14 @@
 			}
 			
 			$issue_script = $this->IssueScript();
+			$loggable_request = $this->LoggableRequest();
+			$issue_url = $this->RedactURL(['url'=>urldecode($_SERVER['REQUEST_URI'])]);
 
 			$internal_server_issue_insert_args = [
 				'type'=>'InternalServerIssue',
 				'instancetype'=>'InternalServerIssueInstance',
 				'instancefield'=>'Issueid',
-				'url'=>urldecode($_SERVER['REQUEST_URI']),
+				'url'=>$issue_url,
 				'definition'=>[
 					'Signature'=>$this->IssueSignature([
 						'script'=>$issue_script,
@@ -1048,12 +1052,12 @@
 					'Script'=>$issue_script,
 					'IncidentCount'=>1,
 					'IssueType'=>$args['issuetype'],
-					'URL'=>urldecode($_SERVER['REQUEST_URI']),
+					'URL'=>$issue_url,
 					'Description'=>$args['description'],
 					'Resolved'=>0,
-					'ServerVariable'=>print_r($_SERVER, TRUE),
-					'PostVariable'=>print_r($_POST, TRUE),
-					'GetVariable'=>print_r($_GET, TRUE),
+					'ServerVariable'=>$loggable_request['server'],
+					'PostVariable'=>$loggable_request['post'],
+					'GetVariable'=>$loggable_request['get'],
 				],
 			];
 			#print("<PRE>");
