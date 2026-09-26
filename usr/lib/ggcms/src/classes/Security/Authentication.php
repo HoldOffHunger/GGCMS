@@ -89,7 +89,7 @@
 		
 		public function RefreshAuthentication() {
 			return $this->Login_Successful([
-				'useraccount'=>$this->user_account,
+				'useraccount'=>[$this->user_account],
 				'refresh'=>1,
 			]);
 		}
@@ -115,21 +115,24 @@
 		}
 		
 		public function CheckCurrentAuthentication() {
+			$this->user_session = NULL;
+			$this->user_account = NULL;
+			$this->access_granted = 0;
 			$authentication_token = $this->handler->cookie_token;
 			
 			if(!$authentication_token) {
 				$authentication_token = $this->handler->cookie->GetCookie(['cookie'=>'AuthenticationToken']);
 			}
 			
-			if($authentication_token) {
+			if(is_string($authentication_token) && $authentication_token) {
 				$user_session_record_args = [
 					'type'=>'UserSession',
 					'definition'=>[
 						'CookieToken'=>$authentication_token,
 						'RAW'=>[
 							'LastAccess'=>[
-								'<',
-								'DATE_ADD(UserSession.LastAccess, INTERVAL 160 HOUR)',
+								'>',
+								'DATE_SUB(NOW(), INTERVAL 160 HOUR)',
 							],
 						],
 					],
@@ -143,9 +146,27 @@
 				];
 				
 				$user_session = $this->handler->db_access->GetRecords($user_session_record_args);
-				if($user_session) {
+					
+					/*
+						This runs on every HTTPS request carrying the cookie, not
+						only on login, so a failed lookup must not become a 500
+						in front of a reader.  They see the page logged out, and
+						the failure is kept as an issue rather than lost.
+					*/
+				
+				if(!empty($user_session['line'])) {
+					if(isset($this->handler->issue_logging)) {
+						$this->handler->issue_logging->createLog([
+							'issuetype'=>'Session Lookup Failed',
+							'description'=>'Unable to verify authentication session; the request continued logged out.',
+						]);
+					}
+					
+					return 0;
+				}
+				if(!empty($user_session[0]['User.id'])) {
 					$this->user_session = $user_session[0];
-					$this->user_account = $user_session['user'];
+					$this->user_account = [];
 					$this->user_account['id'] = $this->user_session['User.id'];
 					$this->user_account['Username'] = $this->user_session['User.Username'];
 					$this->user_account['EmailAddress'] = $this->user_session['User.EmailAddress'];
@@ -183,6 +204,9 @@
 			];
 			
 			$user_account = $this->handler->db_access->GetRecords($user_record_args);
+			if(!empty($user_account['line'])) {
+				throw new RuntimeException('Unable to verify login credentials.');
+			}
 			
 			if($user_account) {
 				$this->user_account = $user_account;
@@ -194,7 +218,7 @@
 				$login_failure_args = [
 					'username'=>$username,
 					'password'=>$password,
-					'hashedpassword'=>$hashed_password,
+					'hashed_password'=>$hashed_password,
 				];
 				return $this->Login_Failure($login_failure_args);
 			}
@@ -203,17 +227,27 @@
 		public function Logout() {
 			$user_session = $this->user_session;
 			
-			$this->Logout_ResetCookie();
-			$this->Logout_ResetDatabase();
+			$cookie_result = $this->Logout_ResetCookie();
+			$logout_result = $this->Logout_ResetDatabase();
+			if(!empty($logout_result['line'])) {
+				throw new RuntimeException('Unable to clear authentication session.');
+			}
 			
-			unset($this->user_session);
-			unset($this->user_account);
+			$this->user_session = NULL;
+			$this->user_account = NULL;
+			if($cookie_result === FALSE) {
+				throw new RuntimeException('Unable to clear authentication cookie.');
+			}
 			
 			return $user_session;
 		}
 		
 		public function Logout_ResetDatabase() {
 			$authentication_token = $this->handler->cookie->GetCookie(['cookie'=>'AuthenticationToken']);
+			
+			if(!is_string($authentication_token) || $authentication_token === '') {
+				return [];
+			}
 			
 			$user_session_update_args = [
 				'type'=>'UserSession',
@@ -236,7 +270,7 @@
 				'value'=>null,
 			];
 			
-			$this->handler->cookie->SetCookie($set_authentication_cookie_args);
+			return $this->handler->cookie->SetCookie($set_authentication_cookie_args);
 		}
 		
 		public function GenerateCookieToken($args) {
@@ -296,6 +330,7 @@
 		public function Login_Successful($args) {
 			$user_account = $args['useraccount'];
 			$user_session = $this->user_session;
+			$user_session_returnable = NULL;
 			$first_user_account = $user_account[0];
 			
 			$userid = $first_user_account['id'];
@@ -309,7 +344,7 @@
 			];
 			$cookie_token = $this->GenerateCookieToken($cookie_token_args);
 			
-			if(!$this->AllowMultipleDeviceLogin() || $args['refresh']) {
+			if(!$this->AllowMultipleDeviceLogin() || !empty($args['refresh'])) {
 				$user_session_where_args = [
 					'type'=>'UserSession',
 					'definition'=>[
@@ -318,11 +353,14 @@
 					'limit'=>1,
 				];
 				
-				if($args['refresh']) {
+				if(!empty($args['refresh'])) {
 					$user_session_where_args['definition']['CookieToken'] = $user_session['CookieToken'];
 				}
 				
 				$user_session = $this->handler->db_access->GetRecords($user_session_where_args);
+				if(!empty($user_session['line'])) {
+					throw new RuntimeException('Unable to load authentication session.');
+				}
 				
 				if($user_session) {
 					$first_user_session = $user_session[0];
@@ -347,6 +385,9 @@
 					];
 					
 					$user_session_update_results = $this->handler->db_access->UpdateRecord($user_session_update_args);
+					if(!empty($user_session_update_results['line'])) {
+						throw new RuntimeException('Unable to save authentication session.');
+					}
 					
 					$user_session_returnable = $new_user_session;
 					$user_session_returnable = $user_session_update_results[0];
@@ -369,6 +410,9 @@
 				];
 				
 				$user_session_creation_results = $this->handler->db_access->CreateRecord($user_session_insert_args);
+				if(!empty($user_session_creation_results['line'])) {
+					throw new RuntimeException('Unable to save authentication session.');
+				}
 				
 				$user_session_returnable = $user_session_creation_results;
 			}
@@ -379,7 +423,9 @@
 				'value'=>$cookie_token,
 			];
 			
-			$this->handler->cookie->SetCookie($set_authentication_cookie_args);
+			if($this->handler->cookie->SetCookie($set_authentication_cookie_args) === FALSE) {
+				throw new RuntimeException('Unable to set authentication cookie.');
+			}
 			$this->handler->cookie_token = $cookie_token;
 			
 			return [

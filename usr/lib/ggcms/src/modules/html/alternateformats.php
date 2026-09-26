@@ -59,11 +59,8 @@
 			$formats = $this->getFormats();
 			
 			if($this->that->mobile_friendly) {
-				$formats[0] = [
-					'text'=>'Standard<br><nobr>PC Format</nobr>',
-					'image'=>'',
-					'url'=>'view.php',
-				];
+				$formats[0]['text'] = 'Standard<br><nobr>PC Format</nobr>';
+				$formats[0]['url'] = $this->filename . '.php';
 			}
 			
 			$formats_count = count($formats);

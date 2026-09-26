@@ -20,7 +20,7 @@
 		public function SetMimeTypeAndFormats() {	# TODO: Use this style for the rel-alts in HTML as well
 			ggreq('classes/Networking/MIMEType.php');
 			ggreq('classes/Format/Base/Formats.php');
-			$this->mimetype = new MIMEType($args);
+			$this->mimetype = new MIMEType(['handler'=>$this->handler]);
 			$this->format_object = new Formats(['handler'=>$this->handler]);
 			
 			return TRUE;
@@ -52,10 +52,10 @@
 			
 			$opds_header .= '  <id>' . $this->script->master_record['Code'] . '</id>' . "\n\n";
 			
-			$opds_header .= '  <title>' . $this->script->master_record['Title'] . '</title>' . "\n";
+			$opds_header .= '  <title>' . $this->XMLText($this->script->master_record['Title']) . '</title>' . "\n";
 			$opds_header .= '  <updated>' . $this->script->master_record['OriginalCreationDate'] . '</updated>' . "\n";
 			$opds_header .= '  <author>' . "\n";
-			$opds_header .= '    <name>' . $this->script->handler->abstractglobals->site->Creator() . '</name>' . "\n";
+			$opds_header .= '    <name>' . $this->XMLText($this->script->handler->abstractglobals->site->Creator()) . '</name>' . "\n";
 			$opds_header .= '    <uri>' . $this->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]) . '</uri>' . "\n";
 			$opds_header .= '  </author>' . "\n";
 			
@@ -66,16 +66,16 @@
 			
 			$opds_body = '';
 			$opds_body .= '  <entry>' . "\n";
-			$opds_body .= '    <title>' . $title . '</title>' . "\n";
-			$opds_body .= '    <id>' . $title . '</id>' . "\n";
+			$opds_body .= '    <title>' . $this->XMLText($title) . '</title>' . "\n";
+			$opds_body .= '    <id>' . $id . '</id>' . "\n";
 			$opds_body .= '    <updated>' . $this->script->record_to_use['LastModificationDate'] . '</updated>' . "\n";
 			$opds_body .= '    <author>' . "\n";
-			$opds_body .= '      <name>' . $author . '</name>' . "\n";
+			$opds_body .= '      <name>' . $this->XMLText($author) . '</name>' . "\n";
 			$opds_body .= '    </author>' . "\n";
 			$opds_body .= '    <dc:language>en</dc:language>' . "\n";
 			$opds_body .= '    <dc:issued>' . $this->script->record_to_use['OriginalCreationDate'] . '</dc:issued>' . "\n";
-			$opds_body .= '    <category label="' . $this->script->subject . '"></category>' . "\n";
-			$opds_body .= '    <summary>' . $description . '</summary>' . "\n";
+			$opds_body .= '    <category label="' . $this->XMLText($this->script->subject) . '"></category>' . "\n";
+			$opds_body .= '    <summary>' . $this->XMLText($description) . '</summary>' . "\n";
 			
 			$valid_record_fields = [
 				'privacypolicy'=>TRUE,
@@ -88,8 +88,8 @@
 			for($i = 0; $i < $record_fields_count; $i++) {
 				$record_field = $record_fields[$i];
 				
-				if($valid_record_fields[$record_field]) {
-					$opds_body .= '    <' . $record_field . '>' . $this->script->record_to_use[$record_field] . '</' . $record_field . '>' . "\n";
+				if(!empty($valid_record_fields[$record_field])) {
+					$opds_body .= '    <' . $record_field . '>' . $this->XMLEscape($this->script->record_to_use[$record_field]) . '</' . $record_field . '>' . "\n";
 				}
 			}
 			
@@ -98,7 +98,7 @@
 			$base_url .= $url_end_piece;
 			
 			$opds_body .= '    <link rel="self"' . "\n";
-			$opds_body .= '          href="' . $base_url . 'view.php"' . "\n";
+			$opds_body .= '          href="' . $this->XMLEscape($base_url) . 'view.php"' . "\n";
 			$opds_body .= '          type="text/html; charset=utf-8">' . "\n";
 			$opds_body .= '    </link>' . "\n";
 			
@@ -110,7 +110,7 @@
 					$actual_extension_pieces = explode('?', $supported_format_extension);
 					$actual_extension = $actual_extension_pieces[0];
 					$opds_body .= '    <link rel="http://opds-spec.org/acquisition"' . "\n";
-					$opds_body .= '          href="' . $base_url . 'view.' . $supported_format_extension . '"' . "\n";
+					$opds_body .= '          href="' . $this->XMLEscape($base_url) . 'view.' . $this->XMLEscape($supported_format_extension) . '"' . "\n";
 					$opds_body .= '          type="' . $extension_mimetypes[$actual_extension] . '">' . "\n";
 					$opds_body .= '    </link>' . "\n";
 				}
@@ -124,25 +124,26 @@
 				unguarded counts in RDF -- see Docs/Triage.md.
 			*/
 
-			$images = $this->script->record_to_use['image'] ? $this->script->record_to_use['image'] : [];
+			$images = $this->script->record_to_use['image'] ?? [];
 			$image_count = count($images);
 			
 			for($i = 0; $i < $image_count; $i++) {
 				$image = $images[$i];
+				$image_directory = !empty($image['FileDirectory']) ? implode('/', str_split($image['FileDirectory'])) . '/' : '';
 				
 				$image_extension_pieces = explode('.', $image['FileName']);
 				$image_extension = $image_extension_pieces[(count($image_extension_pieces) - 1)];
 				
 				$opds_body .= '    <link rel="http://opds-spec.org/image"' . "\n";
-				$opds_body .= '          href="' . $this->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>0, 'www'=>1]) . '/image/' . $image['FileName'] . '"' . "\n";
-				$opds_body .= '          type="' . $extension_mimetypes[$image_extension] . '">' . "\n";
+				$opds_body .= '          href="' . $this->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>0, 'www'=>1]) . '/image/' . $image_directory . rawurlencode($image['FileName']) . '"' . "\n";
+				$opds_body .= '          type="' . $extension_mimetypes[$image_extension] . '" />' . "\n";
 				
 				$image_icon_extension_pieces = explode('.', $image['IconFileName']);
-				$image_icon_extension = $image_extension_pieces[(count($image_extension_pieces) - 1)];
+				$image_icon_extension = $image_icon_extension_pieces[(count($image_icon_extension_pieces) - 1)];
 				
 				$opds_body .= '    <link rel="http://opds-spec.org/image/thumbnail"' . "\n";
-				$opds_body .= '          href="' . $this->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>0, 'www'=>1]) . '/image/' . $image['IconFileName'] . '"' . "\n";
-				$opds_body .= '          type="' . $extension_mimetypes[$image_icon_extension] . '">' . "\n";
+				$opds_body .= '          href="' . $this->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>0, 'www'=>1]) . '/image/' . $image_directory . rawurlencode($image['IconFileName']) . '"' . "\n";
+				$opds_body .= '          type="' . $extension_mimetypes[$image_icon_extension] . '" />' . "\n";
 			}
 			
 			$opds_body .= '  </entry>' . "\n";
@@ -186,12 +187,12 @@
 		
 		public function SetAuthor() {
 			$author_text = '';
-			if($this->script->record_to_use['textbody']) {
+			if(!empty($this->script->record_to_use['textbody'])) {
 				$textbody_count = count($this->script->record_to_use['textbody']);
 				if($textbody_count) {
 					$textbody = $this->script->record_to_use['textbody'][0];
 					
-					if($textbody['Source']) {
+					if(!empty($textbody['Source'])) {
 						$author_text .= 'From : ' . $textbody['Source'] . '.';
 					}
 				}
@@ -203,11 +204,11 @@
 		public function SetDescription() {
 			$description_text = '';
 			
-			if($this->script->record_to_use['description']) {
+			if(!empty($this->script->record_to_use['description'])) {
 				$description_count = count($this->script->record_to_use['description']);
 				if($description_count) {
 					$description = $this->script->record_to_use['description'][0];
-					$description_text .= $description['Description'];
+					$description_text .= $description['Description'] ?? '';
 				}
 			}
 			

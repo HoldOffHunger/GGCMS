@@ -436,7 +436,7 @@
 						foreach($writings as $writing) {	# bonjour!  we meet again!  en guarde!
 							$role_info = '<a href="/writings/' . $writing['entry']['Code'] . '/view.php">';
 							$role_info .= $writing['entry']['Title'];
-							if($role['entry']['Subtitle']) {
+							if($writing['entry']['Subtitle']) {
 								$child_title = $writing['entry']['Subtitle'];
 								
 								if(strlen($child_title) > 30) {

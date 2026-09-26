@@ -94,9 +94,9 @@
 			$tex_output = html_entity_decode($tex_output);
 			$tex_output = strip_tags($tex_output);
 			
-			$tex_document_header = $this->StartDocument();
+			$tex_document_header = $this->DocumentStartSyntax();
 			
-			$tex_document_footer = $this->EndDocument();
+			$tex_document_footer = $this->DocumentEndSyntax();
 			
 			$tex_document =
 				$tex_document_header .

@@ -2998,8 +2998,12 @@
 			$this->$unsaved_object_name = $this->$object_name;
 			
 			$object = $this->$object_name;
+
+			if($object === []) {
+				return TRUE;
+			}
 			
-			if(is_array($object) && is_array($object[0])) {
+			if(is_array($object) && isset($object[0]) && is_array($object[0])) {
 				$objects_saved = [];
 				
 				foreach($object as $object_item) {
@@ -3045,7 +3049,7 @@
 							
 							$object = $this->handler->db_access->UpdateRecord($object_update_args);
 							
-							if($object['error']) {
+							if(!empty($object['line']) || !empty($object['error'])) {
 								$this->admin_errors[] = $object;
 								$this->errors[] = ['There was a problem with saving the ' . $object_type . '.'];
 								
@@ -3064,7 +3068,7 @@
 							
 							$object = $this->handler->db_access->CreateRecord($object_insert_args);
 							
-							if($object['error']) {
+							if(!empty($object['line']) || !empty($object['error'])) {
 								$this->admin_errors[] = $object;
 								$this->errors[] = ['There was a problem with saving the ' . $object_type . '.'];
 								
@@ -3112,7 +3116,7 @@
 						];
 						
 						$object = $this->handler->db_access->UpdateRecord($object_update_args);
-						if($object['error']) {
+						if(!empty($object['line']) || !empty($object['error'])) {
 							$this->admin_errors[] = $object;
 							$this->errors[] = ['There was a problem with saving the ' . $object_type . '.'];
 							
@@ -3131,7 +3135,7 @@
 						];
 						
 						$object = $this->handler->db_access->CreateRecord($object_insert_args);
-						if($object['error']) {
+						if(!empty($object['line']) || !empty($object['error'])) {
 							$this->admin_errors[] = $object;
 							$this->errors[] = ['There was a problem with saving the ' . $object_type . '.'];
 							

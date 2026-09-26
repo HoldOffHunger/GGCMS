@@ -431,6 +431,12 @@ the `newuser` response flag does not prove authentication succeeded.
 
 ### Entry save and delete are non-atomic and can report partial work as success
 
+**Partial local repair, 10 September 2026:** Delete now checks recognised error
+arrays from entry and assignment deletion, clears its success flag and reports
+failure/incompleteness. Child cleanup now returns FALSE instead of terminating
+the request, and Delete reports that failure. Nine cleanup/action fixtures pass.
+Atomicity and exception handling remain unresolved; see RenderingBugHunt.md.
+
 A single `modify::Save()` is an aggregate operation over `Entry`, translations,
 descriptions, quotes, text bodies, images, tags, links, dates, associations,
 assignment, permissions and definitions. `SaveRecordFromQueryForAll()` executes
@@ -464,6 +470,11 @@ during file rename/removal, and assert that no mixed old/new aggregate or false
 success remains.
 
 ### SQL execution failures are silently returned as ordinary empty results
+
+**Partial local repair, 10 September 2026:** FillArraysFromDB now returns the
+existing GetError array when execute returns FALSE. Four fixture cases cover
+failure, successful write, empty read and populated read. Exceptions and callers
+that ignore error arrays remain separate work; see RenderingBugHunt.md.
 
 `DBAccess::FillArraysFromDB()` checks whether `prepare()` and `bind_param()`
 succeed, but ignores the boolean result of `$statement->execute()`. It then
@@ -798,6 +809,20 @@ Excel-compatible parsing.
 
 ### OPDS, Atom and RSS feeds emit malformed or incomplete metadata
 
+**Partial local repair, 10 September 2026:** RSS/Atom now omit image metadata
+when the first image record is absent. Six real-method NULL/empty/populated
+fixtures pass; complete feed validation and escaping remain open.
+
+**Partial local repair, 10 September 2026:** OPDS original-image and thumbnail
+links now self-close. Extracted image-block fixtures pass XML parsing and
+sibling-link checks for NULL, empty, one-image and two-image inputs. Thumbnail
+MIME selection now uses IconFileName; mixed PNG/JPEG fixtures pass in both
+directions. Other metadata/escaping issues remain open. See RenderingBugHunt.md.
+
+**Partial local repair, 8 September 2026:** Atom now returns FALSE when
+RunScript fails, before filename/header/conversion work. Success/failure dispatch
+fixtures pass. Atom/RSS root titles also now use the canonical Subtitle field; title-block fixtures pass. Other metadata/XML issues below remain open. See RenderingBugHunt.md.
+
 OPDS opens one acquisition-image `<link>`, then opens the thumbnail `<link>`
 inside it, and closes neither before `</entry>`. Any record with an image
 therefore produces non-well-formed XML. Its thumbnail MIME lookup also computes
@@ -826,6 +851,11 @@ fixtures with XML plus Atom/RSS/OPDS validators, including differing original
 and thumbnail extensions.
 
 ### RDF child records are emitted with invalid qualified names and wrong fields
+
+**Partial local repair, 10 September 2026:** Quote and link Language now read
+the schema-defined Quote and Language fields. Four extracted-statement fixtures
+cover populated/empty values and pass. Structural XML/RDF and escaping repairs
+remain outstanding; this does not establish usable RDF output. See RenderingBugHunt.md.
 
 `RDF::ConvertHTMLToFormat()` constructs child-record elements with names such
 as `<entry:tag:id>`, `<entry:text:Text>` and
@@ -918,6 +948,14 @@ two simultaneous regenerations with different users and languages, forced
 conversion failure, short writes and a reader arriving during regeneration.
 
 ### TEX generation prints wrappers and caches boolean `1` values
+
+**Fixed locally, 8 September 2026; pending code review and deployment.**
+The converter now uses DocumentStartSyntax/DocumentEndSyntax. A local fixture
+running the real Display and conversion methods verified identical cold, warm
+and cached bytes with the expected document wrappers. This does not resolve
+the separate TEX escaping or concurrent-cache issues. See RenderingBugHunt.md.
+
+Original diagnosis follows.
 
 `TEX::ConvertHTMLToFormat()` assigns the results of `StartDocument()` and
 `EndDocument()` to its header and footer. Those shared methods print

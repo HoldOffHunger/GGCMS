@@ -35,7 +35,7 @@
 	) {
 		$html_document .= '<h1>';
 		$html_document .= 'User Export For : ';
-		$html_document .= $this->user['Username'];
+		$html_document .= htmlspecialchars($this->user['Username'], ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, $this->handler->cleanser->utf8_characters->SystemCharSet());
 		$html_document .= '</h1>';
 		
 		$html_document .= "\n";
@@ -86,14 +86,14 @@
 			for($i = 0; $i < count($entry['parents']); $i++) {
 				$parent = $entry['parents'][$i];
 				
-				$parent_codes[] = $parent['Title'];
+				$parent_codes[] = htmlspecialchars($parent['Title'], ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, $this->handler->cleanser->utf8_characters->SystemCharSet());
 			}
 			
 			$html_document .= implode(' :: ', $parent_codes);
 			
 			$html_document .= "\n";
 			
-			$html_document .= htmlspecialchars($comment['Comment']);
+			$html_document .= htmlspecialchars($comment['Comment'], ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, $this->handler->cleanser->utf8_characters->SystemCharSet());
 			
 			$html_document .= '</p>';
 			
@@ -122,7 +122,7 @@
 			if($comment['LikeOrDislike'] == 1) {
 				$html_document .= 'Liked';
 			} else {
-				'Disliked';
+				$html_document .= 'Disliked';
 			}
 			
 			$html_document .=  ' ; ' . $type_nicename . ' Posted on : ' . $comment['OriginalCreationDate'];
@@ -140,7 +140,7 @@
 			for($i = 0; $i < count($entry['parents']); $i++) {
 				$parent = $entry['parents'][$i];
 				
-				$parent_codes[] = $parent['Title'];
+				$parent_codes[] = htmlspecialchars($parent['Title'], ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, $this->handler->cleanser->utf8_characters->SystemCharSet());
 			}
 			
 			$html_document .= implode(' :: ', $parent_codes);
@@ -152,7 +152,7 @@
 	}
 	
 	if($this->script_format_lower == 'txt') {
-		$text_document = strip_tags($html_document);
+		$text_document = html_entity_decode(strip_tags($html_document), ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, $this->handler->cleanser->utf8_characters->SystemCharSet());
 		
 		if($this->Param('wrapped'))
 		{

@@ -67,8 +67,11 @@
 					];
 					
 					$user_account = $this->handler->db_access->GetRecords($user_record_args);
+					if(!empty($user_account['line'])) {
+						throw new RuntimeException('Unable to look up Google account.');
+					}
 					
-					if($user_account[0] && $user_account[0]['id']) {
+					if(!empty($user_account[0]['id'])) {
 						$this->handler->authentication->user_account = $user_account;
 						$this->handler->authentication->Login_Successful(['useraccount'=>$user_account]);
 						$results['newuser'] = 0;
@@ -88,9 +91,12 @@
 						];
 						
 						$user_creation_results = $this->handler->db_access->CreateRecord($user_record_args);
+						if(!empty($user_creation_results['line']) || empty($user_creation_results['id'])) {
+							throw new RuntimeException('Unable to create Google account.');
+						}
 						
 						$this->handler->authentication->user_account = [$user_creation_results];
-						$this->handler->authentication->Login_Successful(['useraccount'=>[$user_account]]);
+						$this->handler->authentication->Login_Successful(['useraccount'=>[$user_creation_results]]);
 						$results['newuser'] = 1;
 					}
 					

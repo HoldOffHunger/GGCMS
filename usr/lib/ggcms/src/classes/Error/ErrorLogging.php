@@ -62,6 +62,9 @@
 		
 		public function shutdownHandler() { //will be called when php script ends.
 			$lasterror = error_get_last();
+			if($lasterror === NULL) {
+				return TRUE;
+			}
 			$stack_trace = (new Exception)->getTraceAsString();
 			
 			switch ($lasterror['type']) {
@@ -166,10 +169,10 @@
 
 					Whatever goes wrong writing the row, the error being
 					reported still reaches the admin display above, and the
-					reason the row could not be written is printed rather than
+					reason the row could not be written is logged rather than
 					swallowed.
 				*/
-
+			
 			try {
 				return $this->internal_server_error = $this->handler->db_access->CreateCountedRecord($internal_server_error_insert_args);
 			} catch (Throwable $throwable) {
@@ -184,7 +187,12 @@
 		public function indicateBackupFailure($args) {
 			$error = $args['error'];
 			
-			print('<p><b>DB Error</b> : Unable to save the following error &mdash;<br><br><blockquote>' . $error . '</blockquote></p>');
+			error_log(json_encode([
+				'event'=>'GGCMS error backup failure',
+				'host'=>$_SERVER['HTTP_HOST'] ?? '',
+				'error'=>$error,
+			], JSON_INVALID_UTF8_SUBSTITUTE));
+			print('<p>Unable to save the error report.</p>');
 			return TRUE;
 		}
 		
@@ -208,20 +216,21 @@
 			
 			$show_errors = FALSE;
 			
-			if($_SERVER['HTTP_HOST'] === 'localhost' && $_SERVER['SERVER_NAME'] === 'localhost') {
+			if(($_SERVER['HTTP_HOST'] ?? '') === 'localhost' && ($_SERVER['SERVER_NAME'] ?? '') === 'localhost') {
 				$show_errors = TRUE;
-			} elseif($_SERVER['HTTPS'] === 'on') {
-				$authentication_token = $_COOKIE['AuthenticationToken'];
+			} elseif(($_SERVER['HTTPS'] ?? '') === 'on') {
+				$authentication_token = $_COOKIE['AuthenticationToken'] ?? '';
+				$user_session = NULL;
 				
-				if($authentication_token) {
+				if(is_string($authentication_token) && $authentication_token) {
 					$user_session_record_args = [
 						'type'=>'UserSession',
 						'definition'=>[
 							'CookieToken'=>$authentication_token,
 							'RAW'=>[
 								'LastAccess'=>[
-									'<',
-									'DATE_ADD(UserSession.LastAccess, INTERVAL 4 HOUR)',
+									'>',
+									'DATE_SUB(NOW(), INTERVAL 4 HOUR)',
 								],
 							],
 						],
@@ -233,21 +242,23 @@
 							],
 						],
 					];
-					$user_session = $this->handler->db_access->GetRecords($user_session_record_args)[0];
+					$user_session = $this->handler->db_access->GetRecords($user_session_record_args)[0] ?? NULL;
 				}
 				
-				if($user_session['UserAdmin.id']) {
+				if(!empty($user_session['User.id']) && !empty($user_session['UserAdmin.id'])) {
 					$show_errors = TRUE;
 				}
 			}
 			
 			if($show_errors) {
+				$utf8_characters = $this->handler->cleanser->utf8_characters ?? new UTF8Characters();
+				$charset = $utf8_characters->SystemCharSet();
 				print("ERROR : <BR><BR>");
 				print('<PRE>');
-				print($error);
+				print(htmlspecialchars($error, ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, $charset));
 				
 				print(PHP_EOL);
-				print_r($stack_trace);
+				print(htmlspecialchars(print_r($stack_trace, TRUE), ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401, $charset));
 			#	print_r(debug_print_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS));
 				
 				print('</PRE>');

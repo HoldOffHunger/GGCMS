@@ -18,14 +18,31 @@
 	ob_start();
 
 	$handler = NULL;
+	$request_failed = FALSE;
 
 	try {
 		error_reporting(0);
 		require(GGCMS_DIR . 'classes/StandardLibraries.php');
 		$handler = new Handler();
 		$handler->HandleRequest();
-	} catch (Exception $exception) {
-		print("My caught exception is...|" . $exception->getMessage() . "|");
+	} catch (Throwable $exception) {
+		$request_failed = TRUE;
+		ob_clean();
+		http_response_code(500);
+		try {
+			if($handler && isset($handler->error_logging)) {
+				$handler->error_logging->mylog(
+					get_class($exception) . ': ' . $exception->getMessage() . ' in ' . $exception->getFile() . ':' . $exception->getLine(),
+					'fatal',
+					$exception->getTraceAsString()
+				);
+			} else {
+				print('Internal Server Error');
+			}
+		} catch (Throwable $logging_exception) {
+			ob_clean();
+			print('Internal Server Error');
+		}
 	}
 
 	$page_output = ob_get_contents();
@@ -44,7 +61,7 @@
 		failure path in PageCache returns FALSE rather than throwing.
 	*/
 
-	if($handler) {
+	if($handler && !$request_failed) {
 		try {
 			# Handler::SendBrowserCacheHeader may already have loaded it
 			if(!class_exists('PageCache')) {

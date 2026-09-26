@@ -415,3 +415,8 @@ them.
   the real error is masked by the second one.
 * **Args hashes are the calling convention.** See
   [CodeConventions.md](CodeConventions.md).
+
+## Rendering audit ledger
+
+See [RenderingBugHunt.md](RenderingBugHunt.md) for traced template/module call
+paths, verified local repairs, legacy contracts and unresolved questions.

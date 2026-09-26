@@ -76,40 +76,59 @@
 			$max_height = $args['maxheight'];
 			$max_width = $args['maxwidth'];
 			
-			$image = new Imagick();
-			
-			$image_filehandle = fopen($file_location, 'a+');
-			$image->readImageFile($image_filehandle);
-			
-			$image_height = $image->getImageHeight();
-			$image_width = $image->getImageWidth();
-			
-			if($image_height > $max_height || $image_width > $max_width) {
-				if($image_height > $image_width) {
-					$new_height = $max_height;
-					$new_width = ceil($image_width * ($max_height / $image_height));
-				} else {
-					$new_width = $max_width;
-					$new_height = ceil($image_height * ($max_width / $image_width));
+			$image_filehandle = FALSE;
+			$image_icon_filehandle = FALSE;
+			try {
+				$image = new Imagick();
+				
+				$image_filehandle = fopen($file_location, 'rb');
+				if(!$image_filehandle || !$image->readImageFile($image_filehandle)) {
+					return FALSE;
 				}
 				
-				$image->scaleImage($new_width, $new_height);
-			} else {	# image is smaller than absolute icon limits, so, this is its new size.
-				$new_height = $image_height;
-				$new_width = $image_width;
+				$image_height = $image->getImageHeight();
+				$image_width = $image->getImageWidth();
+				
+				if($image_height > $max_height || $image_width > $max_width) {
+					if($image_height > $image_width) {
+						$new_height = $max_height;
+						$new_width = ceil($image_width * ($max_height / $image_height));
+					} else {
+						$new_width = $max_width;
+						$new_height = ceil($image_height * ($max_width / $image_width));
+					}
+					
+					if(!$image->scaleImage($new_width, $new_height)) {
+						return FALSE;
+					}
+				} else {	# image is smaller than absolute icon limits, so, this is its new size.
+					$new_height = $image_height;
+					$new_width = $image_width;
+				}
+				
+				$image_icon_filehandle = fopen($new_icon_location, 'w+');
+				if(!$image_icon_filehandle || !$image->writeImageFile($image_icon_filehandle)) {
+					return FALSE;
+				}
+				
+				$icon_results = [
+					'originalheight'=>$image_height,
+					'originalwidth'=>$image_width,
+					'resizedheight'=>$new_height,
+					'resizedwidth'=>$new_width,
+				];
+				
+				return $icon_results;
+			} catch(ImagickException $exception) {
+				return FALSE;
+			} finally {
+				if(is_resource($image_filehandle)) {
+					fclose($image_filehandle);
+				}
+				if(is_resource($image_icon_filehandle)) {
+					fclose($image_icon_filehandle);
+				}
 			}
-			
-			$image_icon_filehandle = fopen($new_icon_location, 'w+');
-			$image->writeImageFile($image_icon_filehandle);
-			
-			$icon_results = [
-				'originalheight'=>$image_height,
-				'originalwidth'=>$image_width,
-				'resizedheight'=>$new_height,
-				'resizedwidth'=>$new_width,
-			];
-			
-			return $icon_results;
 		}
 	}
 

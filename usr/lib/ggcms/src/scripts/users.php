@@ -85,7 +85,7 @@
 		}
 		
 		public function SetUser() {
-			$username = trim(urldecode($this->Param('user')));
+			$username = trim($this->Param('user'));
 			if($username) {
 				$user_get_args = [
 					'type'=>'User',
@@ -94,7 +94,7 @@
 					],
 				];
 				
-				$user = $this->handler->db_access->GetRecords($user_get_args)[0];
+				$user = $this->handler->db_access->GetRecords($user_get_args)[0] ?? NULL;
 				
 				if($user && $user['id']) {
 					return $this->user = $user;
@@ -110,7 +110,7 @@
 					],
 				];
 				
-				$user = $this->handler->db_access->GetRecords($user_get_args)[0];
+				$user = $this->handler->db_access->GetRecords($user_get_args)[0] ?? NULL;
 				
 				if($user && $user['id']) {
 					$user['Username'] = 'User #' . $user['id'];
@@ -133,6 +133,10 @@
 				'args'=>[$this->user['id']],
 			]);
 			
+			if(!empty($comments['line'])) {
+				throw new RuntimeException('Unable to load user comments.');
+			}
+			
 			if(isset($args['limit'])) {
 				$this->comments = $this->SetRecordEntries(['records'=>$comments]);
 			} else {
@@ -153,6 +157,10 @@
 				'sql'=>$sql,
 				'args'=>[$this->user['id']],
 			]);
+			
+			if(!empty($likedislikes['line'])) {
+				throw new RuntimeException('Unable to load user likedislikes.');
+			}
 			
 			if(isset($args['limit'])) {
 				$this->likedislikes = $this->SetRecordEntries(['records'=>$likedislikes]);

@@ -2006,6 +2006,10 @@
 				}
 			}
 			
+			if(!count($association_entry_ids)) {
+				return $entries;
+			}
+			
 			$sql = 'SELECT * FROM Entry  WHERE id IN(' . implode(', ', array_fill(0, count($association_entry_ids), '?')) . ')';
 			$sql_bind_string = str_repeat('i', count($association_entry_ids));
 			
@@ -2528,9 +2532,9 @@
 		public function DeleteEntry($args) {
 			$entry = $args['entry'];
 			
-			$sql = 'DELETE FROM Entry WHERE id = ' . $entry['id'] . ';';
-			$sql_bind_string = '';
-			$record_values = [];
+			$sql = 'DELETE FROM Entry WHERE id = ?;';
+			$sql_bind_string = 'i';
+			$record_values = [$entry['id']];
 			
 			$fill_arrays_from_db_args = [
 				'query'=>$sql,
@@ -2555,9 +2559,9 @@
 		public function DeleteAssignment($args) {
 			$entry = $args['entry'];
 			
-			$sql = 'DELETE FROM Assignment WHERE Childid = ' . $entry['id'] . ';';
-			$sql_bind_string = '';
-			$record_values = [];
+			$sql = 'DELETE FROM Assignment WHERE Childid = ?;';
+			$sql_bind_string = 'i';
+			$record_values = [$entry['id']];
 			
 			$fill_arrays_from_db_args = [
 				'query'=>$sql,
@@ -2577,24 +2581,24 @@
 				$sql = 'DELETE Association FROM ' . $record_type;
 				$sql .= ' LEFT JOIN Entry ON Entry.id = Association.Entryid ';
 				
-				$sql .= ' WHERE ChosenEntryid = ' . $entry['id'] . ' ';
+				$sql .= ' WHERE ChosenEntryid = ? ';
 				$sql .= ' AND Entry.id IS NULL ';
-				$sql_bind_string = '';
+				$sql_bind_string = 'i';
 				
 				$fill_arrays_from_db_args = [
 					'query'=>$sql,
 					'sqlbindstring'=>$sql_bind_string,
-					'recordvalues'=>[],
+					'recordvalues'=>[$entry['id']],
 				];
 				
-				if($this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args)['line']) {
+				if(!empty($this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args)['line'])) {
 					return FALSE;
 				}
 			}
 			
 			$sql = 'DELETE FROM ' . $record_type;
 			
-			$sql .= ' WHERE Entryid = ' . $entry['id'];
+			$sql .= ' WHERE Entryid = ?';
 			
 			if(count($record_ids_to_keep)) {
 				$sql .= ' AND id NOT IN (' ;
@@ -2603,18 +2607,18 @@
 			
 				$sql .= ')';
 				
-				$sql_bind_string = str_repeat('i', count($record_ids_to_keep));
+				$sql_bind_string = str_repeat('i', 1 + count($record_ids_to_keep));
 			} else {
-				$sql_bind_string = '';
+				$sql_bind_string = 'i';
 			}
 			
 			$fill_arrays_from_db_args = [
 				'query'=>$sql,
 				'sqlbindstring'=>$sql_bind_string,
-				'recordvalues'=>$record_ids_to_keep,
+				'recordvalues'=>array_merge([$entry['id']], $record_ids_to_keep),
 			];
 			
-			if($this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args)['line']) {
+			if(!empty($this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args)['line'])) {
 				return FALSE;
 			}
 			

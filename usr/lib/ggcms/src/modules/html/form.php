@@ -177,7 +177,7 @@
 					case 'textarea':
 						print('>');
 						
-						if($form_element_value_insert) {
+						if($form_element_value_insert !== '') {
 							print($form_element_value_insert);
 						}
 						
@@ -187,7 +187,7 @@
 					case 'button':
 						print('>');
 						
-						if($form_element_value_insert) {
+						if($form_element_value_insert !== '') {
 							print($form_element_value_insert);
 						}
 						
@@ -243,7 +243,7 @@
 						break;
 					
 					default:
-						if($form_element_value_insert) {
+						if($form_element_value_insert !== '') {
 							print(' value="' . $form_element_value_insert . '"');
 						}
 						

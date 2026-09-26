@@ -32,7 +32,7 @@
 			];
 			
 			foreach($this->script->record_to_use as $record_key => $record_value) {
-				if($record_value) {
+				if($record_value || $record_value === 0 || $record_value === 0.0 || $record_value === '0') {
 					if(is_array($record_value)) {
 						foreach($record_value as $child_index => $child) {
 							foreach($child as $child_field => $child_key) {
@@ -66,7 +66,7 @@
 			
 			foreach ($data as $fields) {
 				// Add row to CSV buffer
-				fputcsv($fp, $fields);
+				fputcsv($fp, $fields, ',', '"', '');
 			}
 			rewind($fp); // Set the pointer back to the start
 			$csv_contents = stream_get_contents($fp); // Fetch the contents of our CSV

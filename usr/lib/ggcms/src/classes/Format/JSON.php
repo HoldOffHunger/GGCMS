@@ -18,7 +18,7 @@
 			
 			$this->script->DisplayTemplates();
 			
-			return print(json_encode($this->script->record_to_use));
+			return print(json_encode($this->script->record_to_use, JSON_INVALID_UTF8_SUBSTITUTE));
 		}
 	}
 	

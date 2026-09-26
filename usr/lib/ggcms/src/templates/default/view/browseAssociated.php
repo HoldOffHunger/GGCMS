@@ -69,7 +69,7 @@
 			print('<div class="border-2px background-color-gray15 margin-5px float-left" title="');
 			
 			print(' (Last Updated: ');
-			$date_epoch_time = strtotime($this->that->associated_record_stats['LastModificationDate']);
+			$date_epoch_time = strtotime($this->associated_record_stats['LastModificationDate']);
 			$full_date = date("F d, Y; H:i:s", $date_epoch_time);
 			print($full_date);
 			print('.)');

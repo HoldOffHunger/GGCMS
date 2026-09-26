@@ -244,11 +244,17 @@
 	
 	$total_page_urls = '';
 	
+	if($this->Param('userid')) {
+		$user_parameter = 'userid=' . $this->user['id'];
+	} else {
+		$user_parameter = 'user=' . urlencode($this->user['Username']);
+	}
+	
 	for($i = 1; $i <= $this->total_pages; $i++)
 	{
 		if($i != $this->page)
 		{
-			$total_page_urls .= ' <a href="users.php?action=browseLikes&user=' . urlencode($this->user['Username']) . '&page=' . $i . '&perpage=' . $this->perpage . '">';
+			$total_page_urls .= ' <a href="users.php?action=browseLikes&' . $user_parameter . '&page=' . $i . '&perpage=' . $this->perpage . '">';
 		}
 		
 		$total_page_urls .= $i;

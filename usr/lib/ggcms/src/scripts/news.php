@@ -43,7 +43,9 @@
 		}
 		
 		public function docs() {
-			$this->display();
+			if(!$this->display()) {
+				return FALSE;
+			}
 			$this->news_feeds = $this->getNewsFeeds();
 			$news_feed_hash = [];
 			

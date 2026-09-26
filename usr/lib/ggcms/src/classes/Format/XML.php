@@ -58,7 +58,7 @@
 				$subnode = $xml_data->addChild($key);
 				$this->array_to_xml($value, $subnode);
 		        } else {
-		        	$xml_data->addChild("$key", htmlspecialchars("$value"));
+				$xml_data->addChild("$key", htmlspecialchars("$value", ENT_QUOTES | ENT_XML1 | ENT_SUBSTITUTE, $this->handler->cleanser->utf8_characters->SystemCharSet()));
 		        }
 		     }
 		}

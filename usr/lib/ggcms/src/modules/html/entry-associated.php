@@ -209,19 +209,19 @@
 					$url .= '/view.php?action=browseAssociated';
 					
 					if(!empty($args['ignore_parent'])) {
-						$url .= '&ignore_parent=' . $args['ignore_parent'];
+						$url .= '&ignore_parent=' . urlencode($args['ignore_parent']);
 					}
 					
 					if(!empty($args['parents'])) {
-						$url .= '&parents=' . $args['parents'];
+						$url .= '&parents=' . urlencode($args['parents']);
 					}
 					
 					if(!empty($args['item_title'])) {
-						$url .= '&item_title=' . $args['item_title'];
+						$url .= '&item_title=' . urlencode($args['item_title']);
 					}
 					
 					if(!empty($args['list_author'])) {
-						$url .= '&list_author=' . $args['list_author'];
+						$url .= '&list_author=' . urlencode($args['list_author']);
 					}
 					
 					if(!empty($args['stats_prefix'])) {

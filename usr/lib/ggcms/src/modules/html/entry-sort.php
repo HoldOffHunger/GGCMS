@@ -8,25 +8,25 @@
 			
 			foreach($entries as $child) {
 				$child_sorting = $child;
-				if($child['entry']) {
+				if(!empty($child['entry'])) {
 					$child_sorting = $child['entry'];
 				}
 				
-				if($args['sort_field']) {
-					$sort_key = $child_sorting[$args['sort_field']];
+				if(!empty($args['sort_field'])) {
+					$sort_key = $child_sorting[$args['sort_field']] ?? '';
 				} else {
-					$sort_key = $child_sorting['ListTitleSortKey'];
+					$sort_key = $child_sorting['ListTitleSortKey'] ?? '';
 				}
 				
 				if(!$sort_key) {
-					$sort_key = $child_sorting['ListTitle'];
+					$sort_key = $child_sorting['ListTitle'] ?? '';
 				}
 				
 				if(!$sort_key) {
-					$sort_key = $child_sorting['Title'];
+					$sort_key = $child_sorting['Title'] ?? '';
 				}
 				
-				if(!$sort_key && $entries_sorted[$sort_key]) {	# hey, got some advice for you!  don't die!
+				if(!$sort_key && !empty($entries_sorted[$sort_key])) {	# hey, got some advice for you!  don't die!
 #					$sort_key = rand
 				}
 				

@@ -16,7 +16,7 @@
 		public function CleanseInput_UTF8($args) {
 			$input = $args['input'];
 			$format = $this->SetCharSet($args['format']);
-			$convertentities = $args['convertentities'];
+			$convertentities = $args['convertentities'] ?? FALSE;
 			
 			if($convertentities) {
 				$conversion_bit_mask = $this->CleanseInput_UTF8_Formatting();

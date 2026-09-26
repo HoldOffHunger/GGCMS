@@ -42,7 +42,7 @@
 	require(GGCMS_DIR . 'modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
-		'main_text'=>'Updated! &mdash; ' . $this->entry['Title'],
+		'main_text'=>(!empty($this->saveattemptresults) ? 'Updated!' : 'Update result') . ' &mdash; ' . $this->entry['Title'],
 		'sub_text'=>'',
 	]);
 	
@@ -62,7 +62,7 @@
 		require(GGCMS_DIR . 'modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs([
 			'that'=>$this,
-			'subpage'=>'Updated Entry',
+			'subpage'=>!empty($this->saveattemptresults) ? 'Updated Entry' : 'Update Result',
 		]);
 		$breadcrumbs->Display();
 		

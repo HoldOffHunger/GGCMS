@@ -179,6 +179,34 @@
 			return $this->script->source_content;
 		}
 		
+			// XML Text
+			// -----------------------------------------------
+		
+		/*
+			Stored text already carries character references -- revoltlib has
+			titles like "Ain&#x27;t No PC Gonna Fix it Baby" -- so escaping it
+			as-is prints "&amp;#x27;" and a feed reader shows the reference
+			rather than the apostrophe.  Decoding first means text escaped once,
+			twice or not at all comes out escaped exactly once.
+			
+			URLs and serialised data are not display text: an "&amp;" in them
+			is literal, so they are only escaped.
+		*/
+		
+		public function XMLText($text) {
+			$charset = $this->handler->cleanser->utf8_characters->SystemCharSet();
+			
+			$text = html_entity_decode((string)$text, ENT_QUOTES | ENT_HTML5, $charset);
+			
+			return $this->XMLEscape($text);
+		}
+		
+		public function XMLEscape($text) {
+			$charset = $this->handler->cleanser->utf8_characters->SystemCharSet();
+			
+			return htmlspecialchars((string)$text, ENT_QUOTES | ENT_XML1 | ENT_SUBSTITUTE | ENT_DISALLOWED, $charset);
+		}
+		
 		public function DocumentStartSyntax() {
 			return '';
 		}

@@ -1810,6 +1810,11 @@
 						'resizedlocation'=>$standard_image_location,
 					];
 					$standard_results = $this->makeStandardImage($resize_args);
+					if(!$standard_results) {
+						$image['CAUSE OF ERROR'] = 'Could not generate the standard image file.';
+						$error_images[] = $image;
+						continue;
+					}
 					
 					if(!$standard_results['resizedwidth']) {
 						$standard_results['resizedwidth'] = $standard_results['originalwidth'];

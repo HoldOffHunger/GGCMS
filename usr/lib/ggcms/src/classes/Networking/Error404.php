@@ -69,7 +69,7 @@
 			print('}, 5000);');
 			print('</script>');
 			
-			print('<BR><BR>If you do not see anything in five seconds, click here please: <a href="/">Home Directory/<a>.');
+			print('<BR><BR>If you do not see anything in five seconds, click here please: <a href="/">Home Directory/</a>.');
 			
 			return TRUE;
 		}

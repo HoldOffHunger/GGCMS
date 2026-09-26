@@ -42,7 +42,7 @@
 	ggreq('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
-		'main_text'=>'Saved! &mdash; ' . $this->entry['Title'],
+		'main_text'=>(!empty($this->saveattemptresults) ? 'Saved!' : 'Save result') . ' &mdash; ' . $this->entry['Title'],
 		'sub_text'=>'',
 	]);
 	
@@ -61,7 +61,7 @@
 		ggreq('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs([
 			'that'=>$this,
-			'subpage'=>'Saved Entry',
+			'subpage'=>!empty($this->saveattemptresults) ? 'Saved Entry' : 'Save Result',
 		]);
 		$breadcrumbs->Display();
 		

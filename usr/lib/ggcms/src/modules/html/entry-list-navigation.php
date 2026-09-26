@@ -22,19 +22,19 @@
 					$total_page_urls .= 'action=' . $this->that->desired_action . '&page=' . $i . '&perpage=' . $this->that->perpage;
 					
 					if(!empty($args['ignore_parent'])) {
-						$total_page_urls .= '&ignore_parent=' . $args['ignore_parent'];
+						$total_page_urls .= '&ignore_parent=' . urlencode($args['ignore_parent']);
 					}
 					
 					if(!empty($args['parents'])) {
-						$total_page_urls .= '&parents=' . $args['parents'];
+						$total_page_urls .= '&parents=' . urlencode($args['parents']);
 					}
 					
 					if(!empty($args['item_title'])) {
-						$total_page_urls .= '&item_title=' . $args['item_title'];
+						$total_page_urls .= '&item_title=' . urlencode($args['item_title']);
 					}
 					
 					if(!empty($args['list_author'])) {
-						$total_page_urls .= '&list_author=' . $args['list_author'];
+						$total_page_urls .= '&list_author=' . urlencode($args['list_author']);
 					}
 					
 					if(!empty($args['stats_prefix'])) {

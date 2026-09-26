@@ -293,11 +293,25 @@
 			$this->save_status = 'Delete attempted.';
 			
 			if($this->DeleteChildRecordsForUpdate()) {
-				$this->DeleteEntry();
-				$this->DeleteAssignment();
+				$delete_entry_results = $this->DeleteEntry();
+				if(!empty($delete_entry_results['line'])) {
+					$this->saveattemptresults = FALSE;
+					$this->save_status = 'Delete failed while deleting the entry. Some child records may already have been deleted.';
+					return TRUE;
+				}
+				
+				$delete_assignment_results = $this->DeleteAssignment();
+				if(!empty($delete_assignment_results['line'])) {
+					$this->saveattemptresults = FALSE;
+					$this->save_status = 'Delete incomplete: the entry was deleted, but its assignment could not be deleted.';
+					return TRUE;
+				}
 				
 				$this->save_status = 'Delete successful.  The information deleted is available below as a confirmation of what was deleted.';
 				$this->saveattemptresults = TRUE;
+			} else {
+				$this->saveattemptresults = FALSE;
+				$this->save_status = 'Delete failed while deleting child records. Some records may already have been deleted.';
 			}
 			
 			return TRUE;
@@ -685,6 +699,7 @@
 			if(!$this->SaveRecordFromQuery_Entry()) {
 				$save_results = FALSE;
 				$this->errors[] = ['There was a problem with saving the Entry.'];
+				return FALSE;
 			}
 			
 			if(!$this->SaveRecordFromQuery_EntryTranslation()) {
@@ -912,6 +927,7 @@
 			if(!$this->SaveRecordFromQuery_Entry()) {
 				$save_results = FALSE;
 				$this->errors[] = ['There was a problem with saving the Entry.'];
+				return FALSE;
 			}
 			
 			if(!$this->SaveRecordFromQuery_EntryTranslation()) {
@@ -1030,7 +1046,7 @@
 				#	}
 					
 					if(!$this->orm->DeleteChildRecords($delete_record_tree_args)) {
-						die("Record delete error.");
+						return FALSE;
 					}
 				} else {
 					$delete_record_tree_args = [
@@ -1040,7 +1056,7 @@
 					];
 					
 					if(!$this->orm->DeleteChildRecords($delete_record_tree_args)) {
-						die("Record delete error.");
+						return FALSE;
 					}
 					
 					$records_to_delete = $unformatted_saved_records;
@@ -1982,14 +1998,15 @@
 		
 		public function ValidateRecordForSaving_Link() {
 			$validation_results = TRUE;
+			$charset = $this->handler->cleanser->utf8_characters->SystemCharSet();
 			
 			foreach ($this->link as $link) {
-				if(strlen($link['Title']) > 255) {
+				if(mb_strlen($link['Title'], $charset) > 255) {
 					$this->errors[] = ['Link Titles may not be longer than 255 characters.'];
 					$validation_results = FALSE;
 				}
 				
-				if(strlen($link['URL']) > 255) {
+				if(mb_strlen($link['URL'], $charset) > 255) {
 					$this->errors[] = ['URLs may not be longer than 255 characters.'];
 					$validation_results = FALSE;
 				}
@@ -2000,6 +2017,7 @@
 		
 		public function ValidateRecordForSaving_EventDate() {
 			$validation_results = TRUE;
+			$charset = $this->handler->cleanser->utf8_characters->SystemCharSet();
 			
 					# VALID OPTIONS:
 				# Birth Day
@@ -2021,22 +2039,22 @@
 			];
 			
 			foreach ($this->eventdate as $eventdate) {
-				if(strlen($eventdate['Title']) > 255) {
+				if(mb_strlen($eventdate['Title'], $charset) > 255) {
 					$this->errors[] = ['Event Date Titles may not be longer than 255 characters.'];
 					$validation_results = FALSE;
 				}
 				
-				if(strlen($eventdate['Description']) > 255) {
+				if(mb_strlen($eventdate['Description'], $charset) > 255) {
 					$this->errors[] = ['Event Date Descriptions may not be longer than 255 characters.'];
 					$validation_results = FALSE;
 				}
 				
-				if($invalid_birthday_options_hash[$eventdate['Title']]) {
+				if(!empty($invalid_birthday_options_hash[$eventdate['Title']])) {
 					$this->errors[] = ['Event Date Descriptions may not be: "' . $eventdate['Title'] . '".  Did you mean "Birth Day"?'];
 					$validation_results = FALSE;
 				}
 				
-				if($invalid_deathday_options_hash[$eventdate['Title']]) {
+				if(!empty($invalid_deathday_options_hash[$eventdate['Title']])) {
 					$this->errors[] = ['Event Date Descriptions may not be: "' . $eventdate['Title'] . '".  Did you mean "Death Day"?'];
 					$validation_results = FALSE;
 				}
@@ -2577,11 +2595,9 @@
 				}
 			}
 			
-			if(count($new_event_dates)) {			
-				$this->eventdate = $new_event_dates;
-			}
+			$this->eventdate = $new_event_dates;
 			
-			return $this->eventdate;
+			return TRUE;
 		}
 		
 		public function PrepareRecordForSaving_Association() {
@@ -2675,14 +2691,24 @@
 					],
 				];
 				
-				$this->entry = $this->db_access_object->UpdateRecord($entry_update_args)[0];
+				$entry_result = $this->db_access_object->UpdateRecord($entry_update_args);
+				if(!empty($entry_result['line'])) {
+					$this->admin_errors[] = $entry_result;
+					return FALSE;
+				}
+				$this->entry = $entry_result[0];
 			} else {					// Create New Entry Record
 				$entry_insert_args = [
 					'type'=>'Entry',
 					'definition'=>$this->entry,
 				];
 				
-				$this->entry = $this->db_access_object->CreateRecord($entry_insert_args);
+				$entry_result = $this->db_access_object->CreateRecord($entry_insert_args);
+				if(!empty($entry_result['line'])) {
+					$this->admin_errors[] = $entry_result;
+					return FALSE;
+				}
+				$this->entry = $entry_result;
 			}
 			
 			return $this->entry;
@@ -2745,10 +2771,10 @@
 		#}
 		
 		public function SaveRecordFromQuery_Image() {
-			if(!is_array($this->image[0])) {	# BT: FIXME, wtf is this needed only for imageS?
+			if(empty($this->image[0]) || !is_array($this->image[0])) {	# BT: FIXME, wtf is this needed only for imageS?
 				return TRUE;
 			}
-			
+		
 		#	print("BT:!<BR><BR>");
 		#	print("<PRE>");
 		##	print_r($this->image);
@@ -2761,7 +2787,7 @@
 			];
 			
 			$swap_hash = [];
-			
+		
 		#	print_r($this->image);
 			for($i = 0; $i < count($this->image); $i++) {
 				if($this->image[$i] && $this->image[$i]['id']) {
@@ -2773,6 +2799,10 @@
 			$prefix = $this->entry['id'] . '-';
 			
 			$save_image_results = $this->SaveRecordFromQuery_Base($save_record_from_query_args);
+			
+			if(!$save_image_results) {
+				return FALSE;
+			}
 			
 			if($save_image_results) {
 				$i = 0;
@@ -2790,29 +2820,25 @@
 					$image_folder_location = $this->GetImageFolderDirectory();
 					
 					if($file['name']) {	// New File Upload
+						if(empty($file['tmp_name']) || !empty($file['error'])) {
+							$this->errors[] = ['The replacement image upload failed. Please select the file and try again.'];
+							return FALSE;
+						}
+						
 						$old_file_location = $image_folder_location . $original_image_location . $original_image['FileName'];
 						$old_icon_file_location = $image_folder_location . $original_image_location . $original_image['IconFileName'];
 						$old_standard_file_location = $image_folder_location . $original_image_location . $original_image['StandardFileName'];
 						
-						if(is_file($old_file_location)) {
-							unlink($old_file_location);
-						}
-						if(is_file($old_icon_file_location)) {
-							unlink($old_icon_file_location);
-						}
-						if(is_file($old_standard_file_location)) {
-							unlink($old_standard_file_location);
-						}
 						
 						$image_subdirectory_depth = 4;
-						
-						if(!$file['tmp_name']) {
-							print('ERROR -- You have exceeded the maximum filesize as indicated by php.in.');
-							# please see: https://stackoverflow.com/a/30359278/2430549
-						}
+					
 					#	print_r($file);
 					#	print(sys_get_temp_dir() . $file['tmp_name']);
 						$image_hash = hash_file('sha512', $file['tmp_name']);
+						if($image_hash === FALSE) {
+							$this->errors[] = ['The replacement image upload could not be read.'];
+							return FALSE;
+						}
 						$base = new Base();
 						$base_conversion_args = [
 							'startingbase'=>'Hexadecimal',
@@ -2822,6 +2848,10 @@
 						$full_image_hash = $base->ConvertBase($base_conversion_args);
 						$file_directory = substr($full_image_hash, 0, $image_subdirectory_depth);
 						$new_image_directory = $this->UpdateImagesDirectory(['subdir'=>$file_directory]);
+						if(!$new_image_directory) {
+							$this->errors[] = ['The image storage directory could not be created.'];
+							return FALSE;
+						}
 						
 						$image = $this->prepareImageForSaving(['image'=>$image]);
 						$this->image[$i] = $image;
@@ -2832,16 +2862,27 @@
 						$new_icon_file_location = $new_image_directory . $file['icon_name'];
 						$new_standard_file_location = $new_image_directory . $file['standard_name'];
 						
-						move_uploaded_file($file['tmp_name'], $new_file_location);
+						if(!move_uploaded_file($file['tmp_name'], $new_file_location)) {
+							$this->errors[] = ['The replacement image could not be stored. Please try again.'];
+							return FALSE;
+						}
 						
 						$resize_args = [
 							'filelocation'=>$new_file_location,
 							'resizedlocation'=>$new_icon_file_location,
 						];
 						$icon_results = $this->makeIcon($resize_args);
+						if(!$icon_results) {
+							$this->errors[] = ['The replacement image could not be resized.'];
+							return FALSE;
+						}
 						
 						$resize_args['resizedlocation'] = $new_standard_file_location;
 						$standard_results = $this->makeStandardImage($resize_args);
+						if(!$standard_results) {
+							$this->errors[] = ['The replacement image could not be resized.'];
+							return FALSE;
+						}
 						
 						$this->image[$i]['IconFileName'] = $file['icon_name'];
 						$this->image[$i]['StandardFileName'] = $file['standard_name'];
@@ -2854,6 +2895,20 @@
 						$this->image[$i]['FileDirectory'] = $file_directory;
 						
 						$save_image_results = $this->SaveRecordFromQuery_Base($save_record_from_query_args);
+						
+						if(!$save_image_results) {
+							return FALSE;
+						}
+						$replacement_paths = [$new_file_location, $new_icon_file_location, $new_standard_file_location];
+						$old_paths = array_unique([$old_file_location, $old_icon_file_location, $old_standard_file_location]);
+						foreach($old_paths as $old_path) {
+							if(!in_array($old_path, $replacement_paths, TRUE) && is_file($old_path)) {
+								if(!unlink($old_path)) {
+									$this->errors[] = ['The replacement image was saved, but an old image file could not be removed.'];
+									return FALSE;
+								}
+							}
+						}
 					} else {
 						if(strlen($image['FileName']) > 0) {
 							$image = $this->prepareImageForSaving(['image'=>$image]);
@@ -2865,13 +2920,16 @@
 								
 								$original_file_location = $image_directory_location . $original_image_location . $original_image['FileName'];
 								$new_file_location = $image_directory_location . $original_image_location . $image['FileName'];
-								
+						
 						#		print("BT: PREP!!!<BR><BR>");
 						#		print("<PRE>");
 						#		print_r($image);
 						#		print("</PRE>");
 								
-								rename($original_file_location, $new_file_location);
+								if(!rename($original_file_location, $new_file_location)) {
+									$this->errors[] = ['There was a problem renaming an image file. Some image files may already have been renamed.'];
+									return FALSE;
+								}
 								
 								$alternate_old_filenames = $this->makeAlternateFileNames(['filename'=>$original_image['FileName']]);
 								$alternate_new_filenames = $this->makeAlternateFileNames(['filename'=>$image['FileName']]);
@@ -2879,18 +2937,28 @@
 								$original_file_icon_location = $image_directory_location . $original_image_location . $alternate_old_filenames['icon_name'];
 								$new_file_icon_location = $image_directory_location . $original_image_location . $alternate_new_filenames['icon_name'];
 								
-								rename($original_file_icon_location, $new_file_icon_location);
+								if(!rename($original_file_icon_location, $new_file_icon_location)) {
+									$this->errors[] = ['There was a problem renaming an image file. Some image files may already have been renamed.'];
+									return FALSE;
+								}
 								
 								$original_file_standard_location = $image_directory_location . $original_image_location . $alternate_old_filenames['standard_name'];
 								$new_file_standard_location = $image_directory_location . $original_image_location . $alternate_new_filenames['standard_name'];
 								
-								rename($original_file_standard_location, $new_file_standard_location);
+								if(!rename($original_file_standard_location, $new_file_standard_location)) {
+									$this->errors[] = ['There was a problem renaming an image file. Some image files may already have been renamed.'];
+									return FALSE;
+								}
 								
 								$this->image[$i]['FileName'] = $image['FileName'];
 								$this->image[$i]['IconFileName'] = $alternate_new_filenames['icon_name'];
 								$this->image[$i]['StandardFileName'] = $alternate_new_filenames['standard_name'];
 								
 								$save_image_results = $this->SaveRecordFromQuery_Base($save_record_from_query_args);
+								
+								if(!$save_image_results) {
+									return FALSE;
+								}
 							}
 						} else {
 							unset($this->image[$i]);
@@ -2910,9 +2978,6 @@
 				}
 			}
 			
-			if(!$save_image_results) {
-				$save_image_results = $this->image;
-			}
 			
 			return $save_image_results;
 		}

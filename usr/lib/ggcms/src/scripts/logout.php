@@ -23,7 +23,7 @@
 			$this->SetORMBasics();
 			$this->logout_results = $this->handler->authentication->Logout();
 			
-			if($this->logout_results['Userid']) {
+			if(!empty($this->logout_results['Userid'])) {
 				$this->logout_status = 'Success';
 			} else {
 				$this->logout_status = 'Failure';
