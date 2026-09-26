@@ -229,14 +229,21 @@
 
 		/*
 			Anyone carrying a session cookie gets a live render.  The cookie
-			names match the ones .htaccess tests; change both together or a
-			logged-in visitor will be served a stranger's anonymous page.
+			names match the ones .htaccess and nginx test; change all three
+			together or a logged-in visitor will be served a stranger's
+			anonymous page.
+
+			The language cookie is here for the same reason in reverse: a
+			reader who chose Japanese is rendered Japanese at a plain URL, and
+			that render must not become the plain page everyone else is
+			served.
 		*/
 
 		public function IsCacheable_Anonymous() {
 			$session_cookies = [
 				'loggedin',
 				'AuthenticationToken',
+				'language',
 			];
 
 			foreach($session_cookies as $session_cookie) {

@@ -109,11 +109,18 @@
 					$requested_language_code === $default_language_code ||
 					!in_array($requested_language_code, $supported_language_codes, TRUE);
 				
+					/*
+						Choosing the default clears the cookie rather than
+						setting it: any language cookie sends its reader past
+						the page cache, which is right for Japanese and pure
+						cost for English.
+					*/
+				
+				if($requested_language_code === $default_language_code) {
+					$this->SetLanguageCookie(['languagecode'=>NULL]);
+				}
+				
 				if($requested_is_plain && $this->IsOnlyLanguageParameter()) {
-					if(in_array($requested_language_code, $supported_language_codes, TRUE)) {
-						$this->SetLanguageCookie(['languagecode'=>$requested_language_code]);
-					}
-					
 					return $this->RedirectToPlainURL();
 				}
 				
