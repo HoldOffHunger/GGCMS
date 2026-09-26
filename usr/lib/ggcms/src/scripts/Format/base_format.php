@@ -511,6 +511,28 @@
 			return $this->header_title_text = $title_text;
 		}
 
+			// Display Components
+			// -----------------------------------------------
+
+		/*
+			Only HTML, TXT and BRF defined these, so sitemap.json, .rss, .atom,
+			.csv and every other format fataled on "Call to undefined method
+			sitemap::NonBreakingSpace()" -- on every site.  The error
+			listing in SimpleErrors and the search results in view.php make
+			the same calls under any format.
+
+			The plain-text characters TXT and BRF already use are the fallback;
+			those three formats continue to override them.
+		*/
+
+		public function NonBreakingSpace() {
+			return ' ';
+		}
+
+		public function Bullet() {
+			return '*';
+		}
+
 	}
 	
 ?>
