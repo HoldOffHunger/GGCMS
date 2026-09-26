@@ -501,9 +501,14 @@
 				//  all and is discarded by every parser.  Crawl-delay sat first here
 				//  for years and was read by nobody.
 
+				//  The Disallow list refuses /*.xml$, which /sitemap.xml matches --
+				//  the very file named by Sitemap below.  Allow is the more specific
+				//  rule, so it wins for the sitemap and its ?part= children alike.
+
 			return $this->robots_attributes = [
 				'User-agent'=>'*',
 				'Crawl-delay'=>'1',
+				'Allow'=>'/sitemap.xml',
 				'Disallow'=>$this->getDisallowed(),
 				'Sitemap'=>$sitemap,
 			];
