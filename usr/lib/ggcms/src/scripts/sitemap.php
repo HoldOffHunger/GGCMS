@@ -32,7 +32,22 @@
 						// Functionality
 						// ---------------------------------------------
 		
+			/*
+				The sitemap has a text module only for html, txt and xml.  Any
+				other extension -- sitemap.json, .rss, .atom, .csv, which crawlers
+				request daily -- died requiring a module that does not exist.
+				There is no such sitemap to serve, so it is not found.
+			*/
+		
+		public function IsRenderableSitemapFormat() {
+			return is_file(GGCMS_DIR . 'modules/' . $this->script_format_lower . '/text.php');
+		}
+		
 		public function display() {
+			if(!$this->IsRenderableSitemapFormat()) {
+				return FALSE;	# 404
+			}
+			
 			$this->SetORM();
 			$this->SetRecordTree();
 			

@@ -1906,6 +1906,17 @@
 			}
 			
 			$parent_ids_array = array_keys($parent_ids);
+			
+				/*
+					When every entry already has its own records there are no
+					parents to fill from, and an empty IN() is a syntax error --
+					the reason revoltlib's news.rss and news.atom never rendered.
+				*/
+			
+			if(!count($parent_ids_array)) {
+				return $entries;
+			}
+			
 			$sql = 'SELECT * FROM ' . $record_type . ' WHERE Entryid IN(' . implode(', ', array_fill(0, count($parent_ids_array), '?')) . ')';
 			$sql_bind_string = str_repeat('i', count($parent_ids_array));
 			
