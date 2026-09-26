@@ -41,6 +41,10 @@
 					$findings = array_merge($findings, $this->checkTables(['database'=>$database]));
 				}
 
+				if($this->wantsCheck(['check'=>'columns'])) {
+					$findings = array_merge($findings, $this->checkColumns(['database'=>$database]));
+				}
+
 				if($this->wantsCheck(['check'=>'spine'])) {
 					$findings = array_merge($findings, $this->checkSpine(['database'=>$database]));
 				}
@@ -99,8 +103,10 @@
 		public function printUsage() {
 			print("\n");
 			print('GGCMS - Schema Checker' . "\n\n");
-			print('  check_schema.php [--database=NAME] [--check=tables|spine|enabled] [--all]' . "\n\n");
+			print('  check_schema.php [--database=NAME] [--check=tables|columns|spine|enabled] [--all]' . "\n\n");
 			print('  tables   every table in the reference database exists here, and no others' . "\n");
+			print('  columns  every column the reference has, in every table both share' . "
+");
 			print('  spine    id primary key, and the two date columns last, per Docs/Database.md' . "\n");
 			print('  enabled  child tables holding rows that child_types/enabled.php switches off' . "\n\n");
 			print('  Prints only problems.  --all prints every table it looked at.' . "\n\n");
@@ -216,6 +222,89 @@
 			}
 
 			return $tables;
+		}
+
+			// Columns
+			// -----------------------------------------------
+
+			/*
+				tables says whether a table exists and spine checks its first
+				and last columns, and nothing checked the ones between.  On
+				26 September 2026 masereelgroup and revoltsource had gone years
+				without EventDate.Approximate, and every page that fetched an
+				event date was a 500 -- with this tool reporting 248 findings,
+				none of them that one.  A column the reference has and a site
+				lacks is what breaks a page, so it is reported first; one the
+				site has and the reference lacks is reported so it can be
+				explained.
+			*/
+
+		public function checkColumns($args) {
+			$database = $args['database'];
+
+			if($database === $this->referenceDatabase()) {
+				return [];
+			}
+
+			$reference = $this->getColumns(['database'=>$this->referenceDatabase()]);
+			$present = $this->getColumns(['database'=>$database]);
+
+			$findings = [];
+
+			foreach($reference as $table => $reference_columns) {
+				if(!isset($present[$table])) {
+					continue;
+				}
+
+				foreach($reference_columns as $column => $column_type) {
+					if(!isset($present[$table][$column])) {
+						$findings[] = [
+							'Database'=>$database,
+							'Check'=>'columns',
+							'Subject'=>$table . '.' . $column,
+							'Finding'=>'missing -- ' . $column_type . ' in ' . $this->referenceDatabase(),
+						];
+					}
+				}
+
+				foreach($present[$table] as $column => $column_type) {
+					if(!isset($reference_columns[$column])) {
+						$findings[] = [
+							'Database'=>$database,
+							'Check'=>'columns',
+							'Subject'=>$table . '.' . $column,
+							'Finding'=>'unknown -- absent from ' . $this->referenceDatabase(),
+						];
+					}
+				}
+			}
+
+			if(!$findings && $this->arguments['all']) {
+				$findings[] = [
+					'Database'=>$database,
+					'Check'=>'columns',
+					'Subject'=>count($present) . ' tables',
+					'Finding'=>'match',
+				];
+			}
+
+			return $findings;
+		}
+
+		public function getColumns($args) {
+			$database = $args['database'];
+
+			$rows = $this->runQuery([
+				'query'=>'SELECT TABLE_NAME, COLUMN_NAME, COLUMN_TYPE FROM information_schema.columns WHERE TABLE_SCHEMA = "' . $this->escape(['value'=>$database]) . '" ORDER BY TABLE_NAME, ORDINAL_POSITION',
+			]);
+
+			$columns = [];
+
+			foreach($rows as $row) {
+				$columns[$row['TABLE_NAME']][$row['COLUMN_NAME']] = $row['COLUMN_TYPE'];
+			}
+
+			return $columns;
 		}
 
 			// Spine
