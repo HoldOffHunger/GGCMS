@@ -42,12 +42,18 @@ turn it up first, and never conclude "it works" from the absence of an error.
 |---|---|
 | `usr/lib/ggcms/src/classes/` | The engine |
 | `usr/lib/ggcms/src/scripts/` | Page scripts (`view`, `modify`, `search`, `sitemap`, …) |
-| `usr/lib/ggcms/src/templates/<site>/` | Per-site presentation |
+| `usr/lib/ggcms/src/templates/default/` | The default template set; each site's own lives in the private repository |
 | `usr/lib/ggcms/cli/` | A whole second application: diagnostics and maintenance |
-| `etc/ggcms/` | Per-domain configuration; `clonefrom/` holds shared defaults |
+| `etc/ggcms/clonefrom/` | Shared configuration defaults; per-domain configuration lives in the private repository |
 | `var/www/html/` | Document root: `.htaccess`, `index.php`, shared assets |
 
 The tree mirrors a deployed host's filesystem. Deployment is a copy to `/`.
+
+**This repository is public and names no site.** Every site's templates and
+configuration live in the private configuration repository, checked out on
+the host at `/opt/ggcms-config`; `bin/deploy.sh` syncs both. A site template edited here is
+gitignored and never deployed -- on 26 September nine fixes were found
+stranded that way for three weeks.
 
 ## Documentation
 
