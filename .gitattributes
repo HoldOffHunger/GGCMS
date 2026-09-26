@@ -1,0 +1,5 @@
+# Command-line entry points run as executables on Linux, where a carriage
+# return after #!/usr/bin/php makes the shell look for an interpreter named
+# "php\r" and fail with "bad interpreter".  Keep them LF whatever checks them out.
+usr/lib/ggcms/cli/scripts/**/*.php text eol=lf
+bin/*.sh text eol=lf
