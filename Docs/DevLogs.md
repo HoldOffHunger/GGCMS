@@ -7,6 +7,72 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, September 26
+
+- Every error and issue row on every site had been storing the request it came
+  from whole: `print_r()` of `$_SERVER`, `$_POST` and `$_GET`, and for errors the
+  entire handler. So a failed login kept its plaintext password, cookies and
+  session ids went in with the server array, and every error on all seventeen
+  sites carried the global password seed. Both loggers now write through one
+  redaction trait -- sensitive keys masked at any depth and in any case, the
+  server array cut to fifteen diagnostic fields, sensitive query values masked
+  in every stored URL -- and the handler dump is replaced by a few chosen facts
+  and the real stack trace, which the dump had been long enough to cut off.
+  `scrub_server_errors.php` then cleared 21,551 old rows and masked 65 URLs;
+  a recount found no password, cookie or seed left in either table. The
+  nightly database backups still hold the old rows until they age out.
+
+- revoltlib's `news.rss` and `news.atom` had never rendered. When every news
+  entry already has its own images, one lookup sent MySQL an empty `IN()`, and
+  the old front controller printed the exception inside a 200 -- so FeedBurner
+  had been fetching a 170-byte error message for as long as anyone can tell.
+  Making the front controller answer 500 is what exposed it; the fix was the
+  same empty-list guard its neighbouring function already had. The feed is
+  144 KB and a hundred items.
+
+- `sitemap.json`, `.rss`, `.atom` and `.csv` answered 500 on every site, first
+  for a bullet and a non-breaking space only HTML, TXT and braille defined, then
+  for a text module that exists for html, txt and xml alone. There is no such
+  sitemap to serve, so those formats are now not found.
+
+- GPT's rendering bug hunt from 8 to 14 September was reviewed and landed with
+  its 499 regression cases. Among its catches: login sessions never expired,
+  because the expiry compared `LastAccess` with itself plus 160 hours. Two of
+  its choices were changed. Feeds escaped stored text as it stood, but titles
+  already carry references -- revoltlib's "Ain&#x27;t No PC Gonna Fix it Baby"
+  -- so display text now decodes before it escapes, while URLs and serialised
+  documents are only escaped. And a failed session lookup threw on every HTTPS
+  request carrying the cookie; a reader now sees the page logged out and the
+  failure is filed as an issue.
+
+- earthfluent served 17% of its pages from cache against wordweight's recovery,
+  and 89% of its renders carried a query string. Every format alternate had
+  carried the whole query along, so a Japanese or mobile page advertised
+  `view.xml?language=ja` and `view.xml?mobilefriendly=1`: 2,001 XML renders a
+  day at over three seconds each. Alternates now drop parameters that only
+  change presentation. robots.txt disallows those parameters, since its format
+  rules end in `$` and any query slipped past them -- and it now allows
+  `/sitemap.xml`, which its own `/*.xml$` rule had been refusing while the
+  Sitemap line pointed crawlers at it.
+
+- Each site's identity now names a `DefaultLanguage()` and the
+  `SupportedLanguages()` it offers, English and all twelve by default. A request
+  for the default language, or one the site does not offer, is the plain page,
+  so a site that says `['en']` has one cacheable page per entry instead of
+  thirteen.
+
+- The public engine checkout had been carrying gitignored copies of every
+  site's templates and configuration, and sessions edited them believing they
+  were live. Nine fixes from 3 and 4 September were stranded there -- word games
+  printing words raw into JavaScript, birth and death dates carried from one row
+  into the next -- and were merged into the private repository before the
+  copies were removed.
+
+- wordweight's word pages each carried the same thousand random-word links,
+  191 KB of a 222 KB page, and the 30 GB of cache they made filled the volume.
+  The list is now `randomwords.json`, fetched by the page, and a word page is
+  about 30 KB.
+
 ## 2026, September 7
 
 - Every 500 in the day's log bar two came from one vulnerability scanner
