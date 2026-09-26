@@ -549,6 +549,18 @@
 				'/*.latex$',
 				'/*.opds$',
 				'/*.rdf$',
+				
+					//  The format rules above end in $, so a format with any query
+					//  string slipped past them, and these presentation parameters
+					//  multiply every page into copies no cache can serve.  On
+					//  earthfluent, quiz mode alone was 15,000 renders a day.
+				
+				'/*quizmode=',
+				'/*previousquizzes=',
+				'/*futurequizzes=',
+				'/*mobilefriendly=',
+				'/*printerfriendly=',
+				'/*invertedcolors=',
 			];
 		}
 

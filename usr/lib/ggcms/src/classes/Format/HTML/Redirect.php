@@ -30,11 +30,52 @@
 			$this->base_directory = $this->SetBaseDirectory();
 		}
 		
+			/*
+				Parameters that change how a page is presented rather than what
+				it is.  Every alternate used to carry the whole query along, so
+				a mobile or Japanese page advertised view.xml?mobilefriendly=1
+				and view.xml?language=ja -- 2,001 uncacheable XML renders a day
+				on earthfluent at over three seconds each, for URLs that mean
+				nothing.  Each format link names its own presentation.
+			*/
+		
+		public function PresentationParameters() {
+			return [
+				'language',
+				'mobilefriendly',
+				'printerfriendly',
+				'invertedcolors',
+				'humanreadable',
+				'stopredirect',
+				'wrapped',
+				'quizmode',
+				'previousquizzes',
+				'futurequizzes',
+			];
+		}
+		
+		public function AlternateVersionQuery() {
+			$presentation_parameters = array_flip($this->PresentationParameters());
+			
+			$query_pieces = [];
+			
+			foreach(explode('&', (string)$this->cleanser->CleanseInput_GetQuery()) as $query_piece) {
+				$query_key = strtolower(strtok($query_piece, '='));
+				
+				if($query_piece !== '' && !isset($presentation_parameters[$query_key])) {
+					$query_pieces[] = $query_piece;
+				}
+			}
+			
+			return implode('&', $query_pieces);
+		}
+		
 		public function GetAllVersionURLs() {
 			$all_versions_array = [];
 			
+			$url_query = $this->AlternateVersionQuery();
+			
 			foreach($this->formats->GetListOfAlternateVersionFormats() as $key => $value) {
-				$url_query = $this->cleanser->CleanseInput_GetQuery();
 				if($url_query) {
 					$all_versions_array[$key] = ($this->base_directory . "/view." . $value . (strpos($value, '?') === FALSE ? "?" : "&") . $url_query);
 				} else {
