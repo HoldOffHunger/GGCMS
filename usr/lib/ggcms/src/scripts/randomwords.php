@@ -40,7 +40,7 @@
 			foreach(array_keys($this->handler->dictionary->LookUpRandomWords([])) as $random_word) {
 				$words[] = [
 					'word'=>ucwords($random_word),
-					'url'=>'/' . urlencode(ucwords($random_word)) . '/',
+					'url'=>'/' . rawurlencode(ucwords($random_word)) . '/',	# %20, not +: /Sea+Cucumber/ is a 404
 				];
 			}
 
