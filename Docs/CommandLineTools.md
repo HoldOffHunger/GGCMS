@@ -86,7 +86,7 @@ July 2024.
 
 | Script | Does |
 |---|---|
-| `check_free_space.php` | Disk headroom, via the `FreeSpace` class |
+| `check_free_space.php` | Disk and inode headroom per volume (`--path=` repeatable, `--warn=`/`--fail=` percent, `--quiet`); exits 1 to warn and 2 to fail |
 | `archive_stats.php` | Tars completed months of visitor statistics off the root disk |
 
 The disk filling is what took the production host down. Run this daily.

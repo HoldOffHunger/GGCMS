@@ -9,10 +9,10 @@
 	
 	require(GGCMS_CLI_DIR . 'classes/Storage/FreeSpace.php');
 	
-	$source_backup = new FreeSpace([
+	$free_space = new FreeSpace([
 		'argv'=>$argv,
 	]);
 	
-	$source_backup->checkFreeSpace();
+	exit($free_space->checkFreeSpace());
 	
 ?>
