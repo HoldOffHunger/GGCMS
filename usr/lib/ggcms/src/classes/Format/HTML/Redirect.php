@@ -123,7 +123,7 @@
 			if(!$script->handler->abstractglobals->site->NotReadyForLanguages() && $this->IsTranslatedScript()) {
 				print("\n");
 
-				foreach($this->language->GetListOfLanguageCodes() as $language_code => $language_name) {
+				foreach($this->language->GetListOfSupportedLanguageCodes() as $language_code => $language_name) {
 					print("\t");
 					print('<link rel="alternate" hreflang="' . $language_code . '" href="' . $primary_domain . strtok((string)$_SERVER['REQUEST_URI'], '?') . '?language=' . $language_code . '">');
 					print("\n");

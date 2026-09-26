@@ -18,21 +18,14 @@
 			
 			$language_codes = $this->GetListOfLanguageCodes();
 			
+			$this->requested_language_code = '';
+			
 			if($language) {
-				if($language_codes[$language]) {
-					$set_cookie_args = [
-						'key'=>'language',
-						'value'=>$language,
-						'secure'=>0,
-					];
-					$this->handler->cookie->SetCookie($set_cookie_args);
+				if(!empty($language_codes[$language])) {
+					$this->requested_language_code = $language;
 					
 					$this->language_code = $language;
 					$this->language = $language_codes[$language];
-
-					if($language === 'en' && $this->IsOnlyLanguageParameter()) {
-						return $this->RedirectToPlainURL();
-					}
 				}
 			} else {
 				$get_cookie_args = [
@@ -41,7 +34,7 @@
 				
 				$language = $this->handler->cookie->GetCookie($get_cookie_args);
 				
-				if($language && $language_codes[$language]) {
+				if($language && !empty($language_codes[$language])) {
 					$this->language_code = $language;
 					$this->language = $language_codes[$language];
 				}
@@ -68,6 +61,99 @@
 			the language is redirected; anything else carries on as before.
 		*/
 
+			/*
+				Which languages a site offers is the site's own answer --
+				DefaultLanguage() and SupportedLanguages() in its identity -- but
+				the language is chosen before that config is built, because the
+				config's language scripts are chosen by it.  So SetLanguage()
+				only records what was asked for, and this settles it once the
+				site is known.
+
+				A request for the default language, or for one the site does not
+				offer, is the plain page: with nothing else in the query it
+				answers 301 to the plain URL, as ?language=en always has, so an
+				English-only site has one cacheable page where it had thirteen.
+				The cookie is set only for a language the site offers.
+
+				Returns TRUE when the language changed, so the caller can
+				rebuild what was built for the old one.
+			*/
+		
+		public function ApplySiteLanguages($args) {
+			$site = $args['site'];
+			
+			$language_codes = $this->GetListOfLanguageCodes();
+			
+			$default_language_code = 'en';
+			$supported_language_codes = array_keys($language_codes);
+			
+			if(is_object($site) && method_exists($site, 'SupportedLanguages')) {
+				if(!empty($language_codes[$site->DefaultLanguage()])) {
+					$default_language_code = $site->DefaultLanguage();
+				}
+				
+				$supported_language_codes = array_values(array_intersect(array_keys($language_codes), (array)$site->SupportedLanguages()));
+			}
+			
+			if(!in_array($default_language_code, $supported_language_codes, TRUE)) {
+				$supported_language_codes[] = $default_language_code;
+			}
+			
+			$this->default_language_code = $default_language_code;
+			$this->supported_language_codes = $supported_language_codes;
+			
+			$requested_language_code = $this->requested_language_code;
+			
+			if($requested_language_code !== '') {
+				$requested_is_plain =
+					$requested_language_code === $default_language_code ||
+					!in_array($requested_language_code, $supported_language_codes, TRUE);
+				
+				if($requested_is_plain && $this->IsOnlyLanguageParameter()) {
+					if(in_array($requested_language_code, $supported_language_codes, TRUE)) {
+						$this->SetLanguageCookie(['languagecode'=>$requested_language_code]);
+					}
+					
+					return $this->RedirectToPlainURL();
+				}
+				
+				if(!$requested_is_plain) {
+					$this->SetLanguageCookie(['languagecode'=>$requested_language_code]);
+				}
+			}
+			
+			if(in_array($this->language_code, $supported_language_codes, TRUE)) {
+				return FALSE;
+			}
+			
+			$this->language_code = $default_language_code;
+			$this->language = $language_codes[$default_language_code];
+			
+			header('language: ' . $this->language_code);
+			
+			return TRUE;
+		}
+		
+		public function SetLanguageCookie($args) {
+			$language_code = $args['languagecode'];
+			
+			return $this->handler->cookie->SetCookie([
+				'key'=>'language',
+				'value'=>$language_code,
+				'secure'=>0,
+			]);
+		}
+		
+		public function GetListOfSupportedLanguageCodes() {
+			$language_codes = $this->GetListOfLanguageCodes();
+			
+			if(!isset($this->supported_language_codes)) {
+				return $language_codes;
+			}
+			
+			return array_intersect_key($language_codes, array_flip($this->supported_language_codes));
+		}
+		
 		public function IsOnlyLanguageParameter() {
 			if(($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'GET') {
 				return FALSE;

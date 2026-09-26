@@ -27,6 +27,7 @@
 			$this->Construct_ScriptClassname();
 			$this->Construct_ScriptFormat();
 			$this->Construct_Globals();
+			$this->Construct_SiteLanguages();
 			$this->Construct_ProductionSite();
 			$this->Construct_DBAccess();
 			$this->Construct_Dictionaries();
@@ -177,6 +178,22 @@
 			]);
 			
 			return $this->globals = $globals;
+		}
+		
+			/*
+				The language was chosen before the site's config existed; see
+				Language::ApplySiteLanguages().  If the site does not offer it,
+				the language scripts built for it are rebuilt for the default.
+			*/
+		
+		public function Construct_SiteLanguages() {
+			$site = isset($this->abstractglobals->site) ? $this->abstractglobals->site : NULL;
+			
+			if($this->language->ApplySiteLanguages(['site'=>$site])) {
+				$this->abstractglobals->buildAbstractGlobals_Language_Scripts();
+			}
+			
+			return TRUE;
 		}
 		
 		public function Construct_ProductionSite() {

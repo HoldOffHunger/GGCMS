@@ -25,7 +25,9 @@
 			$language_codes = $this->language_object->GetListOfLanguageCodes_any(['languagecode'=>$current_language_code]);
 			$language_flags = $this->language_object->GetListOfLanguageFlags();
 			
-			foreach($this->language_object->GetListOfNativeLanguageNames() as $native_language_key => $native_language_name) {
+			$supported_language_codes = $this->language_object->GetListOfSupportedLanguageCodes();
+			
+			foreach(array_intersect_key($this->language_object->GetListOfNativeLanguageNames(), $supported_language_codes) as $native_language_key => $native_language_name) {
 							// Gather Data
 							// -------------------------------------------------------
 							
@@ -108,7 +110,9 @@
 			$language_codes = $this->language_object->GetListOfLanguageCodes_any(['languagecode'=>$current_language_code]);
 			$language_flags = $this->language_object->GetListOfLanguageFlags();
 			
-			foreach($this->language_object->GetListOfNativeLanguageNames() as $native_language_key => $native_language_name) {
+			$supported_language_codes = $this->language_object->GetListOfSupportedLanguageCodes();
+			
+			foreach(array_intersect_key($this->language_object->GetListOfNativeLanguageNames(), $supported_language_codes) as $native_language_key => $native_language_name) {
 							// Gather Data
 							// -------------------------------------------------------
 							

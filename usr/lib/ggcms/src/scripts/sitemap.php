@@ -522,7 +522,7 @@
 			
 			$native_languages_list = $this->handler->language->GetListOfNativeLanguageNames();
 			
-			foreach($this->handler->language->GetListOfLanguageCodes() as $language_code => $language) {
+			foreach($this->handler->language->GetListOfSupportedLanguageCodes() as $language_code => $language) {
 				if($home_language_list[$language_code]) {
 					$link_titles[] = $home_language_list[$language_code] . ' [' . $native_languages_list[$language_code] . ' / ' . $language . ']';
 				}
@@ -773,7 +773,7 @@
 				HTML_Redirect::IsTranslatedScript().
 			*/
 
-			foreach($this->handler->language->GetListOfLanguageCodes() as $language_code => $language) {
+			foreach($this->handler->language->GetListOfSupportedLanguageCodes() as $language_code => $language) {
 				if($contact_language_list[$language_code]) {
 					$links[] = [
 						'url'=>[

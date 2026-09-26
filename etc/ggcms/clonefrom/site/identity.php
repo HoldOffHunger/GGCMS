@@ -45,6 +45,38 @@
 			return '';
 		}
 
+				// Languages
+				// -----------------------------------------------
+
+			/*
+				The language a page is in when nobody asks for another, and every
+				language the site offers.  A request for any other language gets
+				the plain page, so a site offering one language has one cacheable
+				page per entry instead of thirteen.  A site that is not
+				multilingual says so with ['en'].
+			*/
+
+		public function DefaultLanguage() {
+			return 'en';
+		}
+
+		public function SupportedLanguages() {
+			return [
+				'de',
+				'en',
+				'es',
+				'fr',
+				'it',
+				'ja',
+				'nl',
+				'pl',
+				'pt',
+				'ru',
+				'tr',
+				'zh',
+			];
+		}
+
 				// Readiness
 				// -----------------------------------------------
 
