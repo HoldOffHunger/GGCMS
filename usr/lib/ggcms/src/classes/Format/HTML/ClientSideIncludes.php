@@ -246,6 +246,10 @@
 				if($this->HumanBeaconEnabled()) {
 					print("\n\t" . '<script src="' . $domain . '/javascript/humanbeacon.js" async></script>');
 				}
+
+				if($this->CarriesLanguageInLinks()) {
+					print("\n\t" . '<script src="' . $domain . '/javascript/language-links.js" defer></script>');
+				}
 			}
 			
 			return TRUE;
@@ -262,6 +266,20 @@
 			}
 
 			return $this->globals->EnableStats() && $this->globals->EnableStats_HumanBeacon();
+		}
+
+			/*
+				A page in the site's default language needs no help; one in any
+				other language has its links carry ?language= so the next page
+				is in it too.  See javascript/language-links.js.
+			*/
+
+		public function CarriesLanguageInLinks() {
+			if(!is_object($this->language) || empty($this->language->default_language_code)) {
+				return FALSE;
+			}
+
+			return $this->language->language_code !== $this->language->default_language_code;
 		}
 
 			// HTML Spacing
