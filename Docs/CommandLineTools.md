@@ -389,10 +389,12 @@ command meant for the remote shell.
 |---|---|
 | `server_errors.php` | Lists logged 500s |
 | `server_error_counts.php` | Counts them, grouped |
+| `server_error_detail.php` | Newest open 500s with ids and messages; `--id=N` prints one ticket's message and trace |
 | `issues_404.php` | Lists logged 404s |
 | `server_issue_counts.php` | Counts logged issues |
 | `clear_server_errors.php` | Clears the error log |
 | `clear_server_error_by_url.php` | Clears errors for one URL |
+| `scrub_server_errors.php` | Clears request data from ISE and ISI rows created before a date; dry unless `--apply` |
 | `convert_ise_and_isi_tables.php` | One-off: rolls the ISE and ISI tables up into counted tickets |
 
 Because `index.php` sets `error_reporting(0)`, these logs are frequently the
