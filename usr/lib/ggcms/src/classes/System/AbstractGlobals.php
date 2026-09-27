@@ -1,7 +1,12 @@
 <?php
 
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
+	/*
+		Errors are shown only off production -- Handler::Construct_ProductionSite()
+		turns display on there.  Switching it on here, for every request, printed
+		PHP's own diagnostics into public pages whenever one got past the error
+		handler: under PHP 8.4, hundreds of E_STRICT deprecations on every page.
+	*/
+
 error_reporting(E_ALL);
 
 

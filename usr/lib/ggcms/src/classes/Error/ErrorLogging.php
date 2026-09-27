@@ -50,9 +50,8 @@
 					$this->mylog($error, "info", $stack_trace);
 					break;
 					
-				case E_STRICT:
-					$this->mylog($error, "debug", $stack_trace);
-					break;
+					// No E_STRICT case: PHP 8.0 stopped raising it and 8.4
+					// deprecated the constant.
 					
 				default:
 					$this->mylog($error, "warn", $stack_trace);
