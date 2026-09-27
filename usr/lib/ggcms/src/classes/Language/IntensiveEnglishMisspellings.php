@@ -20,7 +20,6 @@
 			ggreq('classes/Language/IntensiveEnglishMisspellings_Words.php');
 			$this->words = new IntensiveEnglishMisspellings_Words([]);
 			$this->misspellings = $this->words->GetIntensiveEnglishMisspellings();
-			return TRUE;
 		}
 		
 		public function GetWords_Misspelled() {

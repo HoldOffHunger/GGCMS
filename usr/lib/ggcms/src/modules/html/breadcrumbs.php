@@ -21,8 +21,6 @@
 			$this->DisplayBlockStart();
 			$this->DisplayAllBreadcrumbRecords();
 			$this->DisplayBlockEnd();
-			
-			return TRUE;
 		}
 		
 		public function DisplayAllBreadcrumbRecords() {

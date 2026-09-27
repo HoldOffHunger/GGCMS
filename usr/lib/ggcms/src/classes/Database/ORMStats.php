@@ -81,8 +81,6 @@ WHERE Assignment1.Parentid = 4
 		
 		public function __construct($args) {
 			$this->dbaccessobject = $args['dbaccessobject'];
-			
-			return $this;
 		}
 		
 		public function GenerateChildRecordStats($args) {

@@ -97,8 +97,6 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			$this->header = new module_header;
 			$this->divider = new module_divider;
 			$this->entrysort = new module_entrysort(['that'=>$this->that]);
-
-			return $this;
 		}
 
 		public function Display() {

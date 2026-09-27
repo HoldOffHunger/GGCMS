@@ -6,8 +6,6 @@
 			$this->record = $this->that->entry;
 			
 			$this->entrydate = $args['entrydate'];
-			
-			return TRUE;
 		}
 		
 		public function Display($args) {

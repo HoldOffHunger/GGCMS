@@ -2,7 +2,6 @@
 
 	class HardcodedTableDescriptions {
 		public function __construct($args) {
-			return $this;
 		}
 		
 		public function HardcodedTable_APIQuota() {

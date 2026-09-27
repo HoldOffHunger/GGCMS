@@ -16,8 +16,6 @@
 				
 				$this->social_media_object = new SocialMedia();
 			}
-			
-			return TRUE;
 		}
 		
 		public function display_styles() {

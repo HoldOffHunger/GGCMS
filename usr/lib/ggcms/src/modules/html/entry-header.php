@@ -8,8 +8,6 @@
 			$this->header_subtext = $args['header_subtext'];
 			
 			$this->record_list_count = count($this->that->record_list);
-			
-			return $this;
 		}
 		
 		public function getBackgroundHeaderImage() {

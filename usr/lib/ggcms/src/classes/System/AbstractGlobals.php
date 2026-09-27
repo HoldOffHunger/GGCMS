@@ -20,8 +20,6 @@ error_reporting(E_ALL);
 			$this->buildAbstractGlobals_ChildTypes();
 			$this->buildAbstractGlobals_Site();
 			$this->buildAbstractGlobals_RecordRelations();
-
-			return $this;
 		}
 		
 		public function setHandler($args) {

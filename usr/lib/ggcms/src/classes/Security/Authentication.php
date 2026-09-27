@@ -13,8 +13,6 @@
 			$this->access_granted = 0;
 			$this->redirect = 0;
 			$this->protocol = '';
-			
-			return $this;
 		}
 		
 		public function Authenticate($args) {

@@ -5,8 +5,6 @@
 			$this->handler = $args['handler'];
 			
 			$this->SetLanguage();
-			
-			return $this;
 		}
 		
 		public function SetLanguage() {

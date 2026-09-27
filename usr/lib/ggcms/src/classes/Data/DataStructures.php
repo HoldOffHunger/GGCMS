@@ -2,7 +2,6 @@
 
 	class DataStructures {
 		public function __construct($args) {
-			return TRUE;
 		}
 		
 		public function cleanupArrayPiece($args) {

@@ -7,8 +7,6 @@
 			$this->entrysort = $args['entrysort'];
 			$this->entrylist = $args['entrylist'];
 			$this->iframe = $args['iframe'];
-			
-			return $this;
 		}
 		
 		public function BackToTopLinkBox() {

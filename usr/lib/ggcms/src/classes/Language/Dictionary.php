@@ -5,12 +5,10 @@
 			$this->handler = $args['handler'];
 			
 			$this->DBStart();
-			
-			return $this;
 		}
 		
 		function __destruct() {
-			return $this->DBEnd();
+			$this->DBEnd();
 		}
 		
 		public function LookUpWords($args) {

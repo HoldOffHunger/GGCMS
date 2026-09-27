@@ -6,8 +6,6 @@
 		
 		public function __construct($args) {
 			$this->dbaccessobject = $args['dbaccess'];
-			
-			return $this;
 		}
 		
 		public function GetDictionary($args) {

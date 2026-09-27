@@ -60,8 +60,6 @@
 				$this->database = $valid_database_name;
 				$this->hostlabel = $valid_host_label;
 			}
-			
-			return TRUE;
 		}
 		
 			// Start/Stop the DB

@@ -4,8 +4,6 @@
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->header = $args['header'];
-			
-			return $this;
 		}
 		
 		public function Display() {		

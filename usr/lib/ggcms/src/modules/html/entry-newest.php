@@ -3,8 +3,6 @@
 	class module_entrynewest extends module_spacing {
 		public function __construct($args) {
 			$this->that = $args['that'];
-			
-			return $this;
 		}
 	
 				// Newest-Entries Record List

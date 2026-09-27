@@ -11,8 +11,6 @@
 			}
 			
 			$this->redirect_url = urlencode('https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
-			
-			return TRUE;
 		}
 		
 		public function Display() {

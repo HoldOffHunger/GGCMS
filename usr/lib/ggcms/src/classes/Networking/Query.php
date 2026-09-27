@@ -8,8 +8,6 @@
 			$this->handler = $args['handler'];
 			
 			$this->Construct_Parameters();
-			
-			return $this;
 		}
 		
 			// Construct_Parameters()

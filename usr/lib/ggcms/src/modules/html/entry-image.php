@@ -3,8 +3,6 @@
 	class module_entryimage extends module_spacing {
 		public function __construct($args) {
 			$this->that = $args['that'];
-			
-			return $this;
 		}
 		
 		public function BackToTopLinkBox() {

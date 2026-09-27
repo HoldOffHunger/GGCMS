@@ -22,7 +22,6 @@
 			*/
 			
 		public function __construct($args) {
-			return TRUE;
 		}
 		
 			/* EnglishMisspellingsWords()

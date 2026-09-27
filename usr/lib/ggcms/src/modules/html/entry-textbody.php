@@ -12,8 +12,6 @@
 				$alts = new module_alternateformats(['that'=>$this->that]);
 				$this->alts = $alts;
 			}
-			
-			return $this;
 		}
 		
 		public function Display() {

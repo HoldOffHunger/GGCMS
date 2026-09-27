@@ -3,8 +3,6 @@
 	class UserTracking {
 		public function __construct($args) {
 			$this->handler = $args['handler'];
-			
-			return $this;
 		}
 		
 		public function RecordUserTracking() {

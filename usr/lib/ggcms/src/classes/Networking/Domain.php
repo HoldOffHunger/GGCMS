@@ -11,8 +11,6 @@
 			} else {
 				$this->protocol = 'http';
 			}
-			
-			return $this;
 		}
 		
 			// SetPrimaryDomain()

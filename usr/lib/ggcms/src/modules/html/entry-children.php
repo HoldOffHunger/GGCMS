@@ -5,8 +5,6 @@
 			$this->that = $args['that'];
 			$this->header = $args['header'];
 			$this->entrysort = $args['entrysort'];
-			
-			return $this;
 		}
 		
 		public function Display() {

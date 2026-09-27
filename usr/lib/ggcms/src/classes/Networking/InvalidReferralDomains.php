@@ -2,7 +2,6 @@
 
 	class InvalidReferralDomains {
 		public function __construct() {
-			return $this;
 		}
 		
 		public function GetInvalidReferralDomainsHash() {

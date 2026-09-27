@@ -43,8 +43,6 @@
 		public function __construct($args) {
 			$this->argv = $args['argv'];
 			$this->options = $this->ParseOptions();
-
-			return $this;
 		}
 
 		public function ParseOptions() {

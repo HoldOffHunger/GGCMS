@@ -72,8 +72,6 @@
 			];
 			
 			$this->clientsideincludes_object = new ClientSideIncludes($js_and_css_args);
-			
-			return $this;
 		}
 		
 			// Construct ~ Requires

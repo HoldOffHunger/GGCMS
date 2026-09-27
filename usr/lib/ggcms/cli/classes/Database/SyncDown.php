@@ -40,8 +40,6 @@
 	class SyncDown {
 		public function __construct($args) {
 			$this->argv = (array) $args['argv'];
-
-			return $this;
 		}
 
 			// Entry point

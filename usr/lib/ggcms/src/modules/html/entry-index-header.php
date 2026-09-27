@@ -10,8 +10,6 @@
 			$this->sub_title = $args['sub_title'];
 			
 			$this->record_list_count = count($this->that->record_list);
-			
-			return $this;
 		}
 		
 		public function Display() {

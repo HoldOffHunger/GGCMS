@@ -4,8 +4,6 @@
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->entrysort = $args['entrysort'];
-			
-			return $this;
 		}
 		
 		public function Display() {

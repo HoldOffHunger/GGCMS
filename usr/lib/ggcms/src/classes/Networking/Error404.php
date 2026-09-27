@@ -3,8 +3,6 @@
 	class Error404 {
 		public function __construct($args) {
 			$this->handler = $args['handler'];
-			
-			return $this;
 		}
 		
 		/*

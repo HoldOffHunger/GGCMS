@@ -13,15 +13,13 @@
 #			print_r($this->handler->globals);
 			
 			if(!is_array($this->handler->globals->apidata) || (count($this->handler->globals->apidata) < 1)) {
-				return FALSE;
+				return;
 			}
 			
 			$this->client_id = $this->handler->globals->apidata['google']['client_id'];
 			$this->client_secret = $this->handler->globals->apidata['google']['client_secret'];
 			
 			depreq('Google/vendor/autoload.php');
-			
-			return TRUE;
 		}
 		
 		public function AuthenticateOrDisauthenticateWithGoogle($args) {

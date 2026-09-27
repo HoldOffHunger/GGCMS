@@ -14,8 +14,6 @@
 					}
 				}
 			}
-			
-			return $this;
 		}
 		
 		public function DisplayHeader() {

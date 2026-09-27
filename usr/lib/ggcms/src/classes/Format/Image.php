@@ -3,8 +3,6 @@
 	class Image extends AbstractBaseFormat {
 		public function __construct($args) {
 			$this->handler = $args['handler'];
-			
-			return $this;
 		}
 		
 		public function HTMLEntities() {

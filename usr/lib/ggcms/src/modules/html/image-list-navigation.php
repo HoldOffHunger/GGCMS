@@ -3,8 +3,6 @@
 	class module_imagelistnavigation extends module_spacing {
 		public function __construct($args) {
 			$this->that = $args['that'];
-			
-			return TRUE;
 		}
 		
 		public function Display($args) {

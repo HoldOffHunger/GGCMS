@@ -6,8 +6,6 @@
 			
 		public function __construct($args) {
 			$this->startUp($args);
-			
-			return $this;
 		}
 		
 			// Meta-Data

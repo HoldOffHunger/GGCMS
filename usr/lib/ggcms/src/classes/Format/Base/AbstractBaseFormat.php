@@ -100,8 +100,6 @@
 			
 			require($this->script_location);
 			$this->script = new $this->script_classname($constructor_args);
-			
-			return $this;
 		}
 		
 		public function handleHumanReadable() {

@@ -7,8 +7,6 @@
 		
 		public function __construct($args) {
 			$this->dbaccessobject = $args['dbaccessobject'];
-			
-			return $this;
 		}
 		
 		/*

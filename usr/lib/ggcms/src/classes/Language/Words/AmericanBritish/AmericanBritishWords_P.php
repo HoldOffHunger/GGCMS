@@ -32,7 +32,6 @@
 			*/
 			
 		public function __construct($args) {
-			return TRUE;
 		}
 		
 			/* AmericanBritishWords()

@@ -5,8 +5,6 @@
 		public function __construct () {
 			$this->domain_object = $args['domainobject'];
 			$this->handler = $args['handler'];
-			
-			return $this;
 		}
 		
 		public function Display() {

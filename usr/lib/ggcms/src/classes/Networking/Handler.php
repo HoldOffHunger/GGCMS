@@ -81,8 +81,6 @@
 				$this->local_host_handler = new LocalHostHandler($this->getArgs());
 				$this->local_host_handler->HandleLocalRequest();
 			}
-			
-			return TRUE;
 		}
 		
 		public function getArgs() {
@@ -99,7 +97,7 @@
 		}
 		
 		public function __destruct() {
-			return $this->db_access->DBEnd();
+			$this->db_access->DBEnd();
 		}
 		
 		public function Construct_SetErrorLogging() {

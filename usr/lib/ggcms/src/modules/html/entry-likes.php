@@ -11,8 +11,6 @@
 				$this->like_mouseover_value = 'Let your feelings be known!  Like or dislike this here.';
 				$this->cursor_class = 'cursor-pointer';
 			}
-			
-			return $this;
 		}
 		
 		public function Display() {

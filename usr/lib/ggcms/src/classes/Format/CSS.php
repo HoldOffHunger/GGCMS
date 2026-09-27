@@ -18,8 +18,6 @@
 				ggreq('scripts/style.php');
 				$this->script = new style($constructor_args);
 			}
-			
-			return $this;
 		}
 		
 			// Render CSS Objects

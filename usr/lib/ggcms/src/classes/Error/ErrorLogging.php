@@ -9,8 +9,6 @@
 			$this->handler = $args['handler'];
 			
 			$this->InitiateLogging();
-			
-			return $this;
 		}
 		
 		public function InitiateLogging() {

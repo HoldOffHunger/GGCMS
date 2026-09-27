@@ -4,8 +4,6 @@
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			$this->cookie = $_COOKIE;
-			
-			return TRUE;
 		}
 		
 		public function SetCookie($args) {

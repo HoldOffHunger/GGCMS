@@ -62,8 +62,6 @@
 				print_r($this->queries);
 				print('</pre>');
 			}
-			
-			return TRUE;
 		}
 		
 		/*

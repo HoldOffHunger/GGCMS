@@ -74,8 +74,6 @@
 
 		public function __construct($args) {
 			$this->argv = $args['argv'];
-
-			return $this;
 		}
 
 			// Entry Point

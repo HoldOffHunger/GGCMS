@@ -7,8 +7,6 @@
 		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
-			
-			return $this;
 		}
 		
 		public function controlScripts() {		// if you are not logged in, yeah, then you can't access these, and we don't care too much about the resulting redirects (if there are errors, we care about them, but ErrorLogging.php takes care of that

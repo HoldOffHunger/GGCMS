@@ -3,8 +3,6 @@
 	class MIMEType {
 		public function __construct($args) {
 			$this->handler = $args['handler'];
-			
-			return $this;
 		}
 			
 		public function GetMIMETypeCodes() {

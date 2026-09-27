@@ -9,7 +9,6 @@
 			} else {
 				$this->audio = TRUE;
 			}
-			return TRUE;
 		}
 		
 		public function Display() {

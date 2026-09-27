@@ -19,7 +19,6 @@
 		public function __construct($args) {
 			ggreq('classes/Language/AmericanBritishSpellings_Words.php');
 			$this->words = new AmericanBritishSpellings_Words([]);
-			return TRUE;
 		}
 		
 			/* SwapBritishSpellingsForAmericanSpellings($args)

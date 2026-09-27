@@ -9,8 +9,6 @@
 			$this->language = $args['language'];
 			$this->google_api = $args['googleapi'];
 			$this->globals = $args['globals'];
-			
-			return $this;
 		}
 		
 		public function Headers($args) {

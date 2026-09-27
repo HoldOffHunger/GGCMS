@@ -6,8 +6,6 @@
 			$this->record = $this->that->entry;
 			
 			$this->entry_event_count = count($this->that->entry['eventdate']);
-			
-			return $this;
 		}
 		
 		public function Display() {

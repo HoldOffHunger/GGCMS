@@ -5,8 +5,6 @@
 			$this->globals = $args['globals'];
 			$this->language_object = $args['languageobject'];
 			$this->domain_object = $args['domainobject'];
-			
-			return true;
 		}
 		
 		public function DisplayBottomNavigation($args) {

@@ -13,8 +13,6 @@
 			parent::__construct();
 			
 			$this->db_file_cache = new DBFileCache(['handler'=>NULL,]);
-			
-			return $this;
 		}
 		
 		use ArrayContains;

@@ -12,8 +12,6 @@
 			
 			$phishing_characters = new PhishingCharacters();
 			$this->phishing_characters = $phishing_characters;
-			
-			return $this;
 		}
 		
 			// FormatTitleOuput()

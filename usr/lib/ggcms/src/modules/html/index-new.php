@@ -10,8 +10,6 @@
 			} else {
 				$this->header_text = 'Newest Additions';
 			}
-			
-			return $this;
 		}
 		
 		public function Display() {

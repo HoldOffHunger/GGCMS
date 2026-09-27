@@ -18,8 +18,6 @@ ALTER TABLE TextBody ADD FULLTEXT INDEX `Text`  (`Text` DESC);
 		
 		public function __construct($args) {
 			$this->dbaccessobject = $args['dbaccessobject'];
-			
-			return $this;
 		}
 		
 		public function Search($args) {
