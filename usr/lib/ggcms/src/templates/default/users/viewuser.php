@@ -354,7 +354,7 @@
 			
 			$divider->displayend($clear_float_divider_end_args);
 			
-			$tags = $comment['entry']['tag'];
+			$tags = $comment['entry']['tag'] ?? [];
 			$tag_count = count($tags);
 			
 			if($tag_count)
@@ -493,7 +493,7 @@
 		foreach($this->likedislikes as $likedislike)
 		{
 			$entry = $likedislike['entry'];
-			$parents = $entry['parents'];
+			$parents = $entry['parents'] ?? [];
 			$parents_count = count($parents);
 			
 			$first_parent = $parents[$parents_count - 2];
