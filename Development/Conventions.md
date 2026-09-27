@@ -375,3 +375,41 @@ deciding for them.
   force `http://` even for a visitor on https, which is how revoltlib's canonical
   link came to point at a redirect. It is ignored now; `'secure'=>1` still forces
   https for the places that genuinely need an https address.
+
+## UTF-8, always
+
+UTF-8 in, UTF-8 stored, UTF-8 out -- on every site, in every language the
+sites are written in. UTF-16 only where a boundary demands it, and converted
+back the moment it is inside. The layer-by-layer rules are in
+[../Docs/EncodingConventions.md](../Docs/EncodingConventions.md); this is the
+rule for the code itself.
+
+**A byte from 80 to FF never stands for a character.** That is Windows-1252 or
+Latin-1, and in UTF-8 text such a byte only ever exists as the tail of some
+other character. Written into a regex, a `trim()` list or a `str_replace()`,
+it does not find the character it was meant for -- it finds the middle of a
+different one and cuts it in half.
+
+* **Keep PHP source ASCII wherever it touches text.** Write a character by its
+  UTF-8 bytes in a pattern -- `'/\xE2\x80\x94/'` for an em dash -- and by its
+  code point in a string -- `"\u{2014}"`. An editor cannot re-encode an
+  escape, and anyone reading it can see exactly which character it is. Tests
+  are the exception: real UTF-8 text is what they are for.
+* **`trim()`, `strlen()`, `substr()`, `$text[-1]`, `str_split()`,
+  `strtolower()` and `ucfirst()` count bytes.** `trim($s, "\xA0")` cuts the
+  last byte out of `à`; `strtolower('À')` leaves it capital. Use the `mb_`
+  function, or an anchored `preg_replace()` for a trim.
+* **Without the `u` flag, `[[:print:]]`, `\w` and `\s` are ASCII.**
+  `[[:^print:]]` therefore means every byte above 7F. With the `u` flag,
+  invalid input makes `preg_replace()` return NULL -- so scrub first, as
+  `HandleInput::HandlePossibleUTF8Corruption()` does, keeping every
+  well-formed character and dropping only what is not.
+
+Worked example, 27 September 2026. The index-page excerpts deleted every
+non-ASCII byte, so a Russian excerpt with an em dash and two accents read
+`dj vu.` and a Japanese one read `...`. The glossary cut the `A0` out of `à`
+and Cyrillic `Р`, and its Windows-1252 curly quotes and em dash had not
+matched a real quote or dash since the content became UTF-8 -- only the
+tails of `Д`, `Г` and the em dash itself. `HandleInput` and `TextCleanup`
+now hold no byte above 7F, and their tests hold Russian, Japanese, Polish
+and French.

@@ -1,6 +1,9 @@
 <?php
 
 	class BCE {
+			// GetMasterVariablesForObject()
+			// Tests: BCETest::testGetMasterVariablesForObject()
+			// Test file: tests/src/classes/System/BCETest.php
 		public function GetMasterVariablesForObject($args) {
 			$object = $args['object'];
 			
@@ -8,12 +11,15 @@
 			$master_variable_names = $this->GetMasterVariableNames();
 			
 			foreach ($master_variable_names as $master_variable_name) {
-				$master_variable_names_for_object[$master_variable_name['FullName']] = $object->$master_variable_name['AttributeName'];
+				$master_variable_names_for_object[$master_variable_name['FullName']] = $object->{$master_variable_name['AttributeName']};		# braces, or PHP 7+ reads ($object->$master_variable_name)['AttributeName']
 			}
 			
 			return $master_variable_names_for_object;
 		}
 		
+			// GetMasterVariableNames()
+			// Tests: BCETest::testGetMasterVariableNames()
+			// Test file: tests/src/classes/System/BCETest.php
 		public function GetMasterVariableNames() {
 			return [
 				[

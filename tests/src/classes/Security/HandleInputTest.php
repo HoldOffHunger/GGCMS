@@ -21,6 +21,35 @@
 			$this->assertSame('First line. See and more...', $handle_input->FormatListOutput(['text'=>$text]));
 			$this->assertSame('Ends properly.', $handle_input->FormatListOutput(['text'=>'Ends properly.']));
 			$this->assertSame('', $handle_input->FormatListOutput(['text'=>'']), 'nothing in, nothing out');
+
+				/*
+					Until September 2026 every byte above 7F was deleted here, so
+					this first excerpt read "dj vu." and Japanese read "...".
+				*/
+
+			$this->assertSame('Россия — déjà vu.', $handle_input->FormatListOutput(['text'=>'<p>Россия — déjà vu.</p>']));
+			$this->assertSame('日本語のテキスト。', $handle_input->FormatListOutput(['text'=>'日本語のテキスト。']));
+			$this->assertSame('Ćwiczenie ćma жизнь.', $handle_input->FormatListOutput(['text'=>'Ćwiczenie ćma жизнь.']));
+		}
+
+		public function testStripCitationMarks() {
+			$this->assertSame('footnote and  and  and  gone. Ćwiczenie жизнь', $this->newHandleInput()->StripCitationMarks(['text'=>'footnote† and ‡ and ¶ and * gone. Ćwiczenie жизнь']));
+		}
+
+		public function testStripUncommonDashes() {
+			$handle_input = $this->newHandleInput();
+
+			$this->assertSame('a b c', $handle_input->StripUncommonDashes(['text'=>'a————b––––c']));
+			$this->assertSame('a — b ——— c', $handle_input->StripUncommonDashes(['text'=>'a — b ——— c']), 'fewer than four are left alone');
+		}
+
+		public function testHandlePossibleUTF8Corruption() {
+			$handle_input = $this->newHandleInput();
+
+			$this->assertSame('Россия — déjà 日本', $handle_input->HandlePossibleUTF8Corruption(['text'=>'Россия — déjà 日本']));
+			$this->assertSame('bad  bytes  end', $handle_input->HandlePossibleUTF8Corruption(['text'=>"bad \xFF\xFE bytes \xC3 end"]), 'invalid sequences go');
+			$this->assertSame('ab', $handle_input->HandlePossibleUTF8Corruption(['text'=>"a\x07\u{0085}b"]), 'control characters, C1 included, go');
+			$this->assertSame('surrogate', $handle_input->HandlePossibleUTF8Corruption(['text'=>"surrogate\xED\xA0\x80"]), 'an encoded surrogate is not UTF-8');
 		}
 
 		public function testValidToFormatListOutput() {
@@ -67,6 +96,8 @@
 			}
 
 			$this->assertSame('Cut off...', $handle_input->AppendTruncatingPeriods(['text'=>'Cut off']));
+			$this->assertSame('終わり。', $handle_input->AppendTruncatingPeriods(['text'=>'終わり。']), 'a full-width full stop ends a sentence');
+			$this->assertSame('déjà...', $handle_input->AppendTruncatingPeriods(['text'=>'déjà']));
 		}
 
 		public function testCleanseInput_Integer() {

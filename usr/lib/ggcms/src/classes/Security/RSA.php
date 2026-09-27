@@ -16,6 +16,9 @@
 			return $this;
 		}
 		
+			// RSASetup()
+			// Tests: RSATest::testRSASetup()
+			// Test file: tests/src/classes/Security/RSATest.php
 		public function RSASetup($args) {
 			$first_prime = $args['firstprime'];
 			$second_prime = $args['secondprime'];
@@ -70,6 +73,9 @@
 			}
 		}
 		
+			// RSASetupStep1()
+			// Tests: RSATest::testRSASetupStep1()
+			// Test file: tests/src/classes/Security/RSATest.php
 		public function RSASetupStep1($args) {
 			$first_prime = $args['firstprime'];
 			$second_prime = $args['secondprime'];
@@ -106,6 +112,9 @@
 			return($returned_arguments);
 		}
 		
+			// RSASetupStep2()
+			// Tests: RSATest::testRSASetupStep2()
+			// Test file: tests/src/classes/Security/RSATest.php
 		public function RSASetupStep2($args) {
 			$first_prime = $args['firstprime'];
 			$second_prime = $args['secondprime'];
@@ -165,6 +174,9 @@
 			return($returned_arguments);
 		}
 		
+			// RSAEncryption()
+			// Tests: RSATest::testRSAEncryption()
+			// Test file: tests/src/classes/Security/RSATest.php
 		public function RSAEncryption($args) {
 			$message = $args['message'];
 			$first_public_key = $args['firstpublickey'];
@@ -185,6 +197,9 @@
 			return($returned_arguments);
 		}
 		
+			// RSADecryption()
+			// Tests: RSATest::testRSADecryption()
+			// Test file: tests/src/classes/Security/RSATest.php
 		public function RSADecryption($args) {
 			$message = $args['message'];
 			$first_public_key = $args['firstpublickey'];
@@ -265,6 +280,9 @@
 			return $rsa_decryption_results;
 		}
 		
+			// RSAPowModCombo()
+			// Tests: RSATest::testRSAPowModCombo()
+			// Test file: tests/src/classes/Security/RSATest.php
 		public function RSAPowModCombo($args) {
 			$message = $args['message'];
 			$pow = $args['pow'];
@@ -282,6 +300,9 @@
 			return $rsa_pow_mod_combo_results;
 		}
 		
+			// RSASetupValidatePrimes()
+			// Tests: RSATest::testRSASetupValidatePrimes()
+			// Test file: tests/src/classes/Security/RSATest.php
 		public function RSASetupValidatePrimes($args) {
 			$first_prime = $args['firstprime'];
 			$second_prime = $args['secondprime'];

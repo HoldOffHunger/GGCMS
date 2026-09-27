@@ -14,6 +14,9 @@
 						// Before-Start Prepare Functions
 						// ------------------------------------------------------------------------
 		
+			// PrepareSentences()
+			// Tests: TextCleanupTest::testPrepareSentences()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function PrepareSentences($args)
 		{
 			$text = $this->EscapeCommonFalsePositiveSentenceEnds(['text'=>$args['text']]);
@@ -47,6 +50,9 @@
 			return $sentences;
 		}
 		
+			// GetSubSentences()
+			// Tests: TextCleanupTest::testGetSubSentences()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function GetSubSentences($args)
 		{
 			$text = $args['text'];
@@ -70,32 +76,64 @@
 			return $subsentences;
 		}
 		
+			// PrepareSentence()
+			// Tests: TextCleanupTest::testPrepareSentence()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function PrepareSentence($args)
 		{
 			$sentence = $args['sentence'];
 			
-			$escape_sequences = $this->GetEscapeSequences();
+			$escape_pattern = $this->EscapeSequencesPattern(['escapesequences'=>$this->GetEscapeSequences()]);
 			
-			$sentence = trim($sentence, $escape_sequences);
+			$sentence = preg_replace('/\A' . $escape_pattern . '+|' . $escape_pattern . '+\z/', '', $sentence);
 			
-			$sentence = preg_replace('/[\s' . $escape_sequences . ']+/', ' ', $sentence);
+			$sentence = preg_replace('/(?:\s|' . $escape_pattern . ')+/', ' ', $sentence);
 			
 			return $sentence;
 		}
 		
+			// PrepareSentenceFully()
+			// Tests: TextCleanupTest::testPrepareSentenceFully()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function PrepareSentenceFully($args)
 		{
 			$sentence = $args['sentence'];
 			
-			$escape_sequences = $this->GetFullEscapeSequences();
+			$escape_pattern = $this->EscapeSequencesPattern(['escapesequences'=>$this->GetFullEscapeSequences()]);
 			
-			$sentence = trim($sentence, $escape_sequences);
+			$sentence = preg_replace('/\A' . $escape_pattern . '+|' . $escape_pattern . '+\z/', '', $sentence);
 			
-			$sentence = preg_replace('/[\s' . $escape_sequences . ']+/', ' ', $sentence);
+			$sentence = preg_replace('/(?:\s|' . $escape_pattern . ')+/', ' ', $sentence);
 			
 			return $sentence;
 		}
 		
+			// EscapeSequencesPattern()
+			// Tests: TextCleanupTest::testEscapeSequencesPattern()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
+			/*
+				The escape sequences hold the UTF-8 no-break space, C2 A0, and
+				a bare A0, the Latin-1 one.  They used to go to trim() and into
+				a [...] class, where every byte counts alone -- so the A0 that
+				ends "a-grave" (C3 A0) and Cyrillic "Er" (D0 A0) was cut out,
+				and "voila" with its accent came back as invalid UTF-8.
+				
+				This matches C2 A0 whole, a bare A0 only where no multibyte
+				character can own it, and everything else one byte at a time.
+			*/
+		
+		public function EscapeSequencesPattern($args)
+		{
+			$escape_sequences = $args['escapesequences'];
+			
+			$single_bytes = str_replace([urldecode('%C2%A0'), urldecode('%A0')], '', $escape_sequences);
+			
+			return '(?:\xC2\xA0|(?<![\x80-\xFF])\xA0|[' . preg_quote($single_bytes, '/') . '])';
+		}
+			
+			// GetEscapeSequences()
+			// Tests: TextCleanupTest::testGetEscapeSequences()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function GetEscapeSequences()
 		{
 			$escape_sequences = 
@@ -109,6 +147,9 @@
 			return $escape_sequences;
 		}
 		
+			// GetFullEscapeSequences()
+			// Tests: TextCleanupTest::testGetFullEscapeSequences()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function GetFullEscapeSequences()
 		{
 			$escape_sequences = 
@@ -142,14 +183,25 @@
 			return $text;
 		}
 		
+			// CleanupTextBeforeEscaping()
+			// Tests: TextCleanupTest::testCleanupTextBeforeEscaping()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function CleanupTextBeforeEscaping($args)
 		{
 			$text = $args['text'];
 			
-			$text = str_replace('”', '\'', $text);
-			$text = str_replace('“', '\'', $text);
-			$text = str_replace('’', '\'', $text);
-			$text = str_replace('‘', '\'', $text);
+				/*
+					Curly quotes to straight ones, and below, an em dash given
+					room.  These were the Windows-1252 bytes 94 93 92 91 and 97;
+					in UTF-8 text those are only ever the tails of other
+					characters -- the 94 of an em dash itself, the 93 of Cyrillic
+					"Ge" -- which they cut in half.  Now the UTF-8 characters.
+				*/
+			
+			$text = str_replace("\u{201D}", '\'', $text);
+			$text = str_replace("\u{201C}", '\'', $text);
+			$text = str_replace("\u{2019}", '\'', $text);
+			$text = str_replace("\u{2018}", '\'', $text);
 			$text = str_replace('`', '\'', $text);
 			$text = str_replace('"', '\'', $text);
 			
@@ -163,7 +215,7 @@
 			$text = preg_replace('/---/i', ' --- ', $text);
 			$text = preg_replace('/--/i', ' -- ', $text);
 			
-			$text = preg_replace('/—/i', ' — ', $text);
+			$text = preg_replace('/\xE2\x80\x94/', " \u{2014} ", $text);
 			
 			$text = preg_replace('/ to-day /i', ' today ', $text);
 			
@@ -196,6 +248,9 @@
 			return $this->EscapeSinglePhrase(['line'=>$line, 'escapethis'=>$phrases]);
 		}
 		
+			// EscapeSinglePhrase()
+			// Tests: TextCleanupTest::testEscapeSinglePhrase()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function EscapeSinglePhrase($args)
 		{
 			$line = ' ' . $args['line'] . ' ';
@@ -264,6 +319,9 @@
 			return $this->UnescapeSinglePhrase(['line'=>$line, 'escapethis'=>$phrases]);
 		}
 		
+			// UnescapeSinglePhrase()
+			// Tests: TextCleanupTest::testUnescapeSinglePhrase()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function UnescapeSinglePhrase($args)
 		{
 			$line = ' ' . $args['line'] . ' ';
@@ -285,21 +343,27 @@
 						// Cleanse Functions
 						// ------------------------------------------------------------------------
 		
+			// CleansePhrase()
+			// Tests: TextCleanupTest::testCleansePhrase()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function CleansePhrase($args)
 		{
 			$phrase = $args['phrase'];
 			
 			$phrase = str_replace('*', '', $phrase);
-			$phrase = trim($phrase, '—-_');
+			$phrase = preg_replace('/\A(?:\xE2\x80\x94|[\-_])+|(?:\xE2\x80\x94|[\-_])+\z/', '', $phrase);		# em dash, hyphen, underscore; trim() would cut bytes
 			
 			return trim($phrase);
 		}
 		
+			// CleansePhraseFully()
+			// Tests: TextCleanupTest::testCleansePhraseFully()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function CleansePhraseFully($args)
 		{
 			$phrase = $args['phrase'];
 			
-			$phrase = trim($phrase, '*“”"‘’`\'—-_,;:!? ');
+			$phrase = preg_replace('/\A(?:\xE2\x80[\x98\x99\x9C\x9D\x94]|[*"`\'\-_,;:!? ])+|(?:\xE2\x80[\x98\x99\x9C\x9D\x94]|[*"`\'\-_,;:!? ])+\z/', '', $phrase);		# curly quotes and em dash as UTF-8; trim() would cut bytes
 			$phrase = str_replace('*', '', $phrase);
 			$phrase = str_replace('(', '', $phrase);
 			$phrase = str_replace(')', '', $phrase);
@@ -309,6 +373,9 @@
 			return trim($phrase);
 		}
 		
+			// BuildWords()
+			// Tests: TextCleanupTest::testBuildWords()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function BuildWords($args)
 		{
 			$sentence = $args['sentence'];
@@ -324,6 +391,9 @@
 			return $sentence_pieces_to_compare;
 		}
 		
+			// BuildWordsFully()
+			// Tests: TextCleanupTest::testBuildWordsFully()
+			// Test file: tests/src/classes/Language/TextCleanupTest.php
 		public function BuildWordsFully($args)
 		{
 			$sentence = $args['sentence'];

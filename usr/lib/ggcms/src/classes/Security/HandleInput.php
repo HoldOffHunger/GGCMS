@@ -81,10 +81,22 @@
 			return $text;
 		}
 		
+			// StripCitationMarks()
+			// Tests: HandleInputTest::testStripCitationMarks()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function StripCitationMarks($args) {
 			$text = $args['text'];
 			
-			$text = preg_replace('/[\*†‡¶]/', '', $text);
+				/*
+					* dagger double-dagger pilcrow.  These were once the
+					Windows-1252 bytes 86 87 B6, which in UTF-8 text are not
+					characters but the tails of others -- C4 86 is C-acute,
+					C4 87 is c-acute, D0 B6 is Cyrillic zhe -- so they cut those
+					in half.  Matched
+					now as the UTF-8 characters they were meant to be.
+				*/
+			
+			$text = preg_replace('/\*|\xE2\x80\xA0|\xE2\x80\xA1|\xC2\xB6/', '', $text);
 			
 			return $text;
 		}
@@ -122,11 +134,20 @@
 			return $text;
 		}
 		
+			// StripUncommonDashes()
+			// Tests: HandleInputTest::testStripUncommonDashes()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function StripUncommonDashes($args) {
 			$text = $args['text'];
 			
-			$text = preg_replace("/[—]{4,1000}/", ' ', $text);
-			$text = preg_replace("/[–]{4,1000}/", ' ', $text);
+				/*
+					Runs of four or more em dashes, then en dashes, as UTF-8.
+					They were the Windows-1252 bytes 97 and 96, which UTF-8
+					text only holds inside other characters.
+				*/
+			
+			$text = preg_replace('/(?:\xE2\x80\x94){4,1000}/', ' ', $text);
+			$text = preg_replace('/(?:\xE2\x80\x93){4,1000}/', ' ', $text);
 			
 			return $text;
 		}
@@ -221,10 +242,25 @@
 			return $text;
 		}
 		
+			// HandlePossibleUTF8Corruption()
+			// Tests: HandleInputTest::testHandlePossibleUTF8Corruption()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function HandlePossibleUTF8Corruption($args) {
 			$text = $args['text'];
 			
-			$text = preg_replace('/[[:^print:]]/', "", $text);
+				/*
+					Keeps printable ASCII and every well-formed UTF-8 character;
+					drops control characters, the C1 controls, and any byte that
+					is not part of a well-formed sequence.
+					
+					This was [[:^print:]], which without the u flag means every
+					byte above 7F, so an index excerpt of "Rossiya -- deja vu"
+					written in Cyrillic with an em dash and accents came out
+					"dj vu", and Japanese came out as nothing at all.
+					The alternation is the W3C's well-formed UTF-8 pattern.
+				*/
+			
+			$text = preg_replace('/(?:[\x20-\x7E]|\xC2[\xA0-\xBF]|[\xC3-\xDF][\x80-\xBF]|\xE0[\xA0-\xBF][\x80-\xBF]|[\xE1-\xEC\xEE\xEF][\x80-\xBF]{2}|\xED[\x80-\x9F][\x80-\xBF]|\xF0[\x90-\xBF][\x80-\xBF]{2}|[\xF1-\xF3][\x80-\xBF]{3}|\xF4[\x80-\x8F][\x80-\xBF]{2})(*SKIP)(*FAIL)|./s', '', $text);
 			
 			return $text;
 		}
@@ -246,11 +282,15 @@
 		public function AppendTruncatingPeriods($args) {
 			$text = $args['text'];
 			
-			$text_length = strlen($text);
+				/*
+					The last character, not the last byte: excerpts keep UTF-8
+					now, and a Japanese sentence ending in its own full stop
+					would otherwise read as unfinished.
+				*/
 			
-			$last_char = $text[$text_length - 1];
+			$last_char = mb_substr($text, -1, 1, 'UTF-8');
 			
-			if($last_char != '.' && $last_char != '!' && $last_char != '?') {
+			if(!in_array($last_char, ['.', '!', '?', "\u{3002}", "\u{FF01}", "\u{FF1F}"], TRUE)) {
 				$text .= '...';
 			}
 			
