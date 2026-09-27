@@ -20,6 +20,10 @@
 				[9, 0, 9],
 				[1071, 462, 21],
 				[3120, 17, 1],
+				[0, 0, 0],
+				[6.0, 4, 2],		// a float used to look odd, whatever its value
+				[-4, 6, 2],			// a negative used to recurse until PHP died
+				[-12, -18, 6],
 			];
 
 			foreach($cases as [$first, $second, $expected]) {
@@ -37,6 +41,10 @@
 			foreach([4, 9, 15, 25, 49, 91, 7917] as $composite) {
 				$this->assertFalse($number_theory->IsThisNumberPrime(['allegedprime'=>$composite]), (string)$composite);
 			}
+
+			foreach([1, 0, -7] as $not_prime) {
+				$this->assertFalse($number_theory->IsThisNumberPrime(['allegedprime'=>$not_prime]), 'nothing under 2 is prime: ' . $not_prime);
+			}
 		}
 
 		public function testFindPrimeNumbers() {
@@ -50,10 +58,12 @@
 
 		public function testFindPrimeNumbersAscending() {
 			$this->assertSame([2, 3, 5, 7], (new NumberTheory())->FindPrimeNumbersAscending(['maxprime'=>10, 'listlimit'=>10]), 'the maximum is exclusive');
+			$this->assertSame([2, 3], (new NumberTheory())->FindPrimeNumbersAscending(['maxprime'=>30, 'listlimit'=>'2']), 'a limit given as a string');
 		}
 
 		public function testFindPrimeNumbersDescending() {
 			$this->assertSame([7, 5, 3, 2], (new NumberTheory())->FindPrimeNumbersDescending(['maxprime'=>8, 'listlimit'=>10]));
+			$this->assertSame([7, 5], (new NumberTheory())->FindPrimeNumbersDescending(['maxprime'=>8, 'listlimit'=>'2']), 'a limit given as a string');
 		}
 
 		public function testCalculatePhi() {
@@ -65,6 +75,7 @@
 
 			$this->assertSame([3, 7, 9], $number_theory->FindRelativelyPrimeNumbers(['order'=>'Ascending', 'number'=>10, 'amounttofind'=>3]));
 			$this->assertSame([9, 7], $number_theory->FindRelativelyPrimeNumbers(['order'=>'Descending', 'number'=>10, 'amounttofind'=>2]));
+			$this->assertSame([3, 7], $number_theory->FindRelativelyPrimeNumbers(['order'=>'Ascending', 'number'=>10, 'amounttofind'=>'2']), 'an amount given as a string');
 			$this->assertFalse($number_theory->FindRelativelyPrimeNumbers(['order'=>'Sideways', 'number'=>10, 'amounttofind'=>2]));
 
 			foreach($number_theory->FindRelativelyPrimeNumbers(['order'=>'Random', 'number'=>3120, 'amounttofind'=>5]) as $coprime) {

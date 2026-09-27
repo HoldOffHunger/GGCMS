@@ -51,6 +51,17 @@ live installation rather than estimated.
 - PHPUnit moved from 10.5 to 13.3 now the hosts are past 8.4. The suite -- 167
   tests and the lint pair -- runs on Fumiko, never on a host.
 
+- A pilot had local Ollama coder models, Qwen 2.5 at 7B and 14B, hunt bugs in
+  the Math and Charset classes, each claim proved or thrown out by running
+  the model's own PHPUnit test. Of 42 claims across four runs, one described a
+  real bug: `IsThisNumberPrime()` called 0 and 1 prime. A read of the same
+  code found five, fixed now: that one; `FindGreatestCommonDivisor()`, which
+  answered 1 for gcd(6.0, 4) and recursed until PHP died on a negative; a
+  random string asked for with no character set, a `ValueError`; and list
+  limits given as strings, which were ignored. None was reachable from a page
+  today. The tooling stays on Fumiko, outside the repository; the models are
+  not worth scaling.
+
 ## 2026, September 26
 
 - Every error and issue row on every site had been storing the request it came

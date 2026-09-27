@@ -17,6 +17,10 @@
 			$string = $random->GetRandomString(['stringlength'=>0, 'usenumbers'=>FALSE, 'uselowercaseletters'=>TRUE, 'useuppercaseletters'=>TRUE]);
 
 			$this->assertMatchesRegularExpression('/\A[a-zA-Z]\z/', $string, 'no length means one character');
+
+			$string = $random->GetRandomString(['stringlength'=>12, 'usenumbers'=>FALSE, 'uselowercaseletters'=>FALSE, 'useuppercaseletters'=>FALSE]);
+
+			$this->assertMatchesRegularExpression('/\A[0-9a-zA-Z]{12}\z/', $string, 'no set means all three, not a ValueError');
 		}
 
 		public function testGetRandomString_OptionsArray() {

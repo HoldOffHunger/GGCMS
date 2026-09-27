@@ -259,6 +259,15 @@
 			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function IsThisNumberPrime($args) {
 			$alleged_prime = $args['allegedprime'];
+				
+				/*
+					Nothing under 2 is prime.  The loop below never runs for
+					them, so 0 and 1 used to come back TRUE.
+				*/
+			
+			if($alleged_prime < 2) {
+				return FALSE;
+			}
 			
 			$square_root_of_alleged_prime = sqrt($alleged_prime);
 			$square_root_of_alleged_prime_integer = (int)$square_root_of_alleged_prime;
@@ -312,7 +321,7 @@
 			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function FindPrimeNumbersAscending($args) {
 			$max_prime = $args['maxprime'];
-			$list_limit = $args['listlimit'];
+			$list_limit = (int)$args['listlimit'];		# "2" from a form never === 2, and the limit was ignored
 			
 			if(!$list_limit) {
 				$list_limit = 5;
@@ -342,7 +351,7 @@
 			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function FindPrimeNumbersDescending($args) {
 			$max_prime = $args['maxprime'];
-			$list_limit = $args['listlimit'];
+			$list_limit = (int)$args['listlimit'];		# "2" from a form never === 2, and the limit was ignored
 			
 			if(!$list_limit) {
 				$list_limit = 5;
@@ -403,7 +412,7 @@
 		
 		public function FindRelativelyPrimeNumbersRandomAscending($args) {
 			$number = $args['number'];
-			$amount_to_find = $args['amounttofind'];
+			$amount_to_find = (int)$args['amounttofind'];		# "2" from a form never === 2, and the limit was ignored
 			$amount_found = 0;
 			$array_of_relatively_prime_numbers = [];
 			
@@ -432,7 +441,7 @@
 		
 		public function FindRelativelyPrimeNumbersRandomDescending($args) {
 			$number = $args['number'];
-			$amount_to_find = $args['amounttofind'];
+			$amount_to_find = (int)$args['amounttofind'];		# "2" from a form never === 2, and the limit was ignored
 			$amount_found = 0;
 			$array_of_relatively_prime_numbers = [];
 			
@@ -461,7 +470,7 @@
 		
 		public function FindRelativelyPrimeNumbersAscending($args) {
 			$number = $args['number'];
-			$amount_to_find = $args['amounttofind'];
+			$amount_to_find = (int)$args['amounttofind'];		# "2" from a form never === 2, and the limit was ignored
 			$amount_found = 0;
 			$array_of_relatively_prime_numbers = [];
 			
@@ -488,7 +497,7 @@
 		
 		public function FindRelativelyPrimeNumbersDescending($args) {
 			$number = $args['number'];
-			$amount_to_find = $args['amounttofind'];
+			$amount_to_find = (int)$args['amounttofind'];		# "2" from a form never === 2, and the limit was ignored
 			$amount_found = 0;
 			$array_of_relatively_prime_numbers = [];
 			
@@ -520,8 +529,15 @@
 			// Tests: NumberTheoryTest::testFindGreatestCommonDivisor()
 			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function FindGreatestCommonDivisor($args) {
-			$firstnumber = $args['firstnumber'];
-			$secondnumber = $args['secondnumber'];
+				/*
+					Whole numbers, signs dropped: gcd(-4, 6) is 2.  The even
+					tests below compare with an int using ===, so a float such
+					as 6.0 always looked odd and gcd(6.0, 4) came back 1.  A
+					negative never reached zero, and recursed until PHP died.
+				*/
+			
+			$firstnumber = abs((int)$args['firstnumber']);
+			$secondnumber = abs((int)$args['secondnumber']);
 			
 			if($firstnumber == $secondnumber) {
 				return $firstnumber;

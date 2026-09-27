@@ -18,6 +18,22 @@
 			];
 			
 			$options = $this->GetRandomString_OptionsArray($get_array_options_args);
+				
+				/*
+					No set chosen left random_int() below an empty range, and it
+					threw a ValueError.  No set means all three, as no length
+					means one character.
+				*/
+			
+			if(!$options) {
+				$all_options_args = [
+					'usenumbers'=>TRUE,
+					'uselowercaseletters'=>TRUE,
+					'useuppercaseletters'=>TRUE,
+				];
+				
+				$options = $this->GetRandomString_OptionsArray($all_options_args);
+			}
 			
 			$random_string = '';
 				
