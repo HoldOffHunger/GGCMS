@@ -113,7 +113,12 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			print('<div class="horizontal-center width-100percent background-color-gray14 border-2px margin-top-5px">');
 
 			$display_image = $this->DisplayImage();
-
+			
+				// Kept for a template that shows the same image again, as
+				// revoltsource's grandchild tiles do.
+			
+			$this->display_image = $display_image;
+			
 			if(!empty($display_image)) {
 				$this->DisplayThumbnail(['image'=>$display_image]);
 			}
