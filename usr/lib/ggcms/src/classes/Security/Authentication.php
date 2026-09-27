@@ -20,6 +20,9 @@
 			$this->protocol = '';
 		}
 		
+			// Authenticate()
+			// Tests: AuthenticationTest::testAuthenticate()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
 		public function Authenticate($args) {
 			$this->script = $args['script'];
 			
@@ -105,6 +108,9 @@
 			return FALSE;
 		}
 		
+			// CheckAuthenticationForCurrentObject_IsAdmin()
+			// Tests: AuthenticationTest::testCheckAuthenticationForCurrentObject_IsAdmin()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
 		public function CheckAuthenticationForCurrentObject_IsAdmin() {
 			if($this->user_session && $this->user_session['UserAdmin.id']) {
 				return TRUE;
@@ -117,6 +123,9 @@
 			return FALSE;
 		}
 		
+			// CheckCurrentAuthentication()
+			// Tests: AuthenticationTest::testCheckCurrentAuthentication()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
 		public function CheckCurrentAuthentication() {
 			$this->user_session = NULL;
 			$this->user_account = NULL;

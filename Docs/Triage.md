@@ -110,7 +110,14 @@ random non-public names and an authenticated download action if retention is
 actually needed. Test alternate numeric IP forms, DNS answers, IPv6, redirects,
 `file://`, oversized responses and timeouts.
 
-### `AdminOnly()` grants access to logged-in non-admin users
+### `AdminOnly()` grants access to logged-in non-admin users (resolved 31 August 2026)
+
+Fixed in `924cfb7`: the admin requirement and the user's status are tested
+separately, and a non-admin is sent to login. `AuthenticationTest::testAuthenticate()`
+now walks every kind of page against every kind of visitor, and fails on the
+code before that commit.
+
+The finding as first recorded:
 
 `Authentication::Authenticate()` currently grants every authenticated user
 access to scripts that declare `AdminOnly() === TRUE`. The test at line 33
@@ -170,7 +177,15 @@ length, allowed encoding characters, uniqueness across a large sample and
 successful database/cookie round trips. Existing tokens should be invalidated
 when the new representation is deployed.
 
-### Authentication tokens do not meaningfully expire
+### Authentication tokens do not meaningfully expire (resolved 26 September 2026, but for the cookie's lifetime)
+
+Fixed in `c89affb`: the session lookup asks for `LastAccess` within 160 hours
+of `NOW()`, and `displayErrorToAdmin()` within four. `AuthenticationTest::testCheckCurrentAuthentication()`
+pins the query and fails on the code before it. The browser cookie still lasts
+ten years whenever it is secure; with the server refusing a session idle 160
+hours, that only keeps a dead token in the browser.
+
+The finding as first recorded:
 
 `Authentication::CheckCurrentAuthentication()` intends to limit a session by
 `LastAccess`, but its raw predicate is:
@@ -251,7 +266,7 @@ shared action boundary rather than independently in templates, and test missing,
 wrong and correct tokens. Audit the other secure scripts for GET mutations once
 the shared mechanism exists.
 
-### ISE and ISI records persist unredacted credentials and tokens
+### ISE and ISI records persist unredacted credentials and tokens (resolved 26 September 2026)
 
 **Repaired, 26 September 2026:** both loggers now write through
 `traits/LogRedaction.php`. Values under sensitive-looking keys are masked at
@@ -430,7 +445,12 @@ Test legacy login and upgrade, modern login, wrong passwords, copied admin
 accounts and Google-created accounts before removing the legacy branch. Do not
 log either plaintext passwords or stored password material during migration.
 
-### First-time Google login passes the empty lookup to `Login_Successful()`
+### First-time Google login passes the empty lookup to `Login_Successful()` (resolved 26 September 2026)
+
+Fixed in `c89affb`: the new user's row is what is passed. The rendering bug
+hunt's `google-account` fixture covers first and returning sign-in.
+
+The finding as first recorded:
 
 `Google::AuthenticateOrDisauthenticateWithGoogle()` correctly creates a `User`
 when no account exists for the verified Google email, and `CreateRecord()`

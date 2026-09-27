@@ -67,8 +67,17 @@ live installation rather than estimated.
   hex-looking characters. A thousand of them measured 11 characters at the
   median and 4 at the fewest, all beginning `8i`. Tokens are now sixty
   characters from `random_int()`, from a generator that was already written
-  and never switched on. Sessions from before the change keep their old
-  tokens until they end.
+  and never switched on. Sessions from before the change are re-issued a new
+  token on their next visit, or lapse after 160 idle hours.
+
+- Triage's authentication entries were checked against the code. Three listed
+  as open had been fixed weeks ago -- admin-only scripts open to any reader,
+  sessions that never lapsed, and first-time Google sign-in -- and one marked
+  repaired was still filed as open. They say so now, and PHPUnit covers
+  authentication for the first time: every kind of page against every kind of
+  visitor, and the 160-hour lapse, each failing on the code before its fix.
+  Still open: the token printed into `usersessionid` fields, no limit on login
+  attempts, and unsalted SHA-256 passwords.
 
 ## 2026, September 26
 
