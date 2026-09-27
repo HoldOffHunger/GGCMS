@@ -266,6 +266,7 @@
 		public function Logout_ResetCookie() {
 			$set_authentication_cookie_args = [
 				'secure'=>TRUE,
+				'httponly'=>TRUE,		# no script reads it, so no script injected into a page can take it
 				'key'=>'AuthenticationToken',
 				'value'=>null,
 			];
@@ -419,6 +420,7 @@
 			
 			$set_authentication_cookie_args = [
 				'secure'=>TRUE,
+				'httponly'=>TRUE,		# no script reads it, so no script injected into a page can take it
 				'key'=>'AuthenticationToken',
 				'value'=>$cookie_token,
 			];
