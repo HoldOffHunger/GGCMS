@@ -53,6 +53,11 @@ echo "==> engine    -> /usr/lib/ggcms/"
 		#  deploy of this script deleted it, and every document-format request
 		#  afterwards failed on fopen() returning false.  Excluded, and
 		#  recreated below in case it is missing.
+		#
+		#  Excluded as src/data, with no trailing slash.  On the live host it
+		#  is a symlink to the data volume -- see Operations.md -- and rsync
+		#  reads a trailing slash as "directories only", so src/data/ would
+		#  stop matching the link and --delete would remove it.
 
 		#  src/templates/ is excluded from the --delete pass and synced
 		#  below instead.  The engine repository carries only the default
@@ -66,7 +71,7 @@ echo "==> engine    -> /usr/lib/ggcms/"
 		#  them a moment later -- or, if the checkout is missing, deleting
 		#  them and stopping there.
 
-rsync -a --delete --exclude 'src/data/' --exclude 'src/templates/' "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
+rsync -a --delete --exclude 'src/data' --exclude 'src/templates/' "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
 
 echo "==> templates -> /usr/lib/ggcms/src/templates/"
 
@@ -172,7 +177,8 @@ else
 	echo "==> server config -- no checkout at $CONFIG, skipping"
 fi
 
-		#  Generated-document cache.  Created if absent; never deleted.
+		#  Generated-document cache.  Created if absent; never deleted.  A
+		#  symlink to the data volume counts as present.
 
 echo "==> generated document cache"
 mkdir -p /usr/lib/ggcms/src/data
