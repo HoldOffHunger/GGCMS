@@ -326,22 +326,40 @@
 			
 			$query_string_array = [];
 			
+				/*
+					PHP reads filter[]=x as an array, and htmlentities() takes
+					only a string, so any query with brackets in it was a 500 on
+					every page of every site -- this runs for the alternate links
+					in every head.  Scanners send them constantly.  Each value of
+					an array goes back out as name[]=value; an array nested
+					inside one is dropped, since no link here makes one.
+				*/
+			
 			foreach($query as $key => $value) {
 				$getquery_cleansing_key_args = [
-					'input'=>$key,
+					'input'=>(string)$key,
 				];
 				
 				$cleansed_key = $this->CleanseInput_GetQuery_Cleanse($getquery_cleansing_key_args)['cleansedinput'];
 				
-				$getquery_cleansing_value_args = [
-					'input'=>$value,
-				];
+				$key_suffix = is_array($value) ? '[]' : '';
+				$values = is_array($value) ? $value : [$value];
 				
-				$cleansed_value = $this->CleanseInput_GetQuery_Cleanse($getquery_cleansing_value_args)['cleansedinput'];
-				
-				$cleansed_key_to_value = $cleansed_key . "=" . $cleansed_value;
-				
-				$query_string_array[] = $cleansed_key_to_value;
+				foreach($values as $single_value) {
+					if(!is_scalar($single_value) && $single_value !== NULL) {
+						continue;
+					}
+					
+					$getquery_cleansing_value_args = [
+						'input'=>(string)$single_value,
+					];
+					
+					$cleansed_value = $this->CleanseInput_GetQuery_Cleanse($getquery_cleansing_value_args)['cleansedinput'];
+					
+					$cleansed_key_to_value = $cleansed_key . $key_suffix . "=" . $cleansed_value;
+					
+					$query_string_array[] = $cleansed_key_to_value;
+				}
 			}
 			
 			$query_string = implode("&", $query_string_array);
