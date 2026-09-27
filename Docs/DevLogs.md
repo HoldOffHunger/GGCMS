@@ -62,6 +62,14 @@ live installation rather than estimated.
   today. The tooling stays on Fumiko, outside the repository; the models are
   not worth scaling.
 
+- Following `ConvertBase()`'s callers led to the sign-in cookie, already in
+  Triage: its token was a bcrypt string read as hexadecimal, keeping only the
+  hex-looking characters. A thousand of them measured 11 characters at the
+  median and 4 at the fewest, all beginning `8i`. Tokens are now sixty
+  characters from `random_int()`, from a generator that was already written
+  and never switched on. Sessions from before the change keep their old
+  tokens until they end.
+
 ## 2026, September 26
 
 - Every error and issue row on every site had been storing the request it came

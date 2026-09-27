@@ -4,7 +4,6 @@
 		public $handler;
 		public $script;
 		public $redirect_type;
-		public $base_object;
 		public $random;
 		
 		public $access_granted;
@@ -278,49 +277,30 @@
 			return $this->handler->cookie->SetCookie($set_authentication_cookie_args);
 		}
 		
+			// GenerateCookieToken()
+			// Tests: AuthenticationTest::testGenerateCookieToken()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
+			/*
+				The token was a bcrypt hash of the username, the time and two
+				salts, read by ConvertBase() as hexadecimal.  Most of a bcrypt
+				string is not hexadecimal, and ConvertBase() drops what is
+				not, so a token kept only its hex-looking characters: eleven
+				on average, four at the fewest, and always beginning 8i, from
+				the 2, 1 and 2 in "$2y$12$".  A token that short can be
+				guessed.  It is now sixty characters drawn by random_int(),
+				about 357 bits; the salts, public in this repository anyway,
+				went with it.
+			*/
 		public function GenerateCookieToken($args) {
-			return $this->GenerateCookieToken_Secure($args);
+			return $this->GenerateCookieToken_Random();
 		}
 		
-		public function GenerateCookieToken_Secure($args) {
-			$user_account = $args['useraccount'];
-			
-			$hash_values = [];
-			$hash_values[] = $user_account['Username'];
-			$hash_values[] = $this->AuthenticationToken_Salt1();
-			$hash_values[] = $this->handler->time->time;
-			$hash_values[] = $this->AuthenticationToken_Salt2();
-			
-			$hash_plaintext = implode('',$hash_values);
-			$hash_token = password_hash($hash_plaintext, CRYPT_BLOWFISH);
-			
-			$base_object = new Base();
-			$this->base_object = $base_object;
-			
-			$convert_base_args = [
-				'value'=>$hash_token,
-				'startingbase'=>'Hexadecimal',
-				'endingbase'=>'Base64',
-			];
-			
-			$hash_token_base64 = $base_object->ConvertBase($convert_base_args);
-			
-			return $hash_token_base64;
-		}
-		
-		public function AuthenticationToken_Salt1() {
-				// FIXME: Move to Globals
-			return 'Ehtdetohda80d2)*08';
-		}
-		
-		public function AuthenticationToken_Salt2() {
-				// FIXME: Move to Globals
-			return ';d79d(:Ddaddhr]LS-';
-		}
-		
+			// GenerateCookieToken_Random()
+			// Tests: AuthenticationTest::testGenerateCookieToken_Random()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
 		public function GenerateCookieToken_Random() {
 			$random_class_location = GGCMS_DIR . 'classes/Math/Random.php';
-			require($random_class_location);
+			require_once($random_class_location);		# a second token in one request would declare Random twice
 			$this->random = new Random();
 			$random_string_args = [
 				'stringlength'=>60,

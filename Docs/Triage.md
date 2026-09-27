@@ -137,7 +137,21 @@ when `AdminOnly()` is true and `UserAdmin.id` is absent. Add focused tests for
 anonymous, ordinary authenticated, administrator, and non-admin-only access;
 the existing test suite has no authentication coverage.
 
-### Session-token generation lossily treats bcrypt output as hexadecimal
+### Session-token generation lossily treats bcrypt output as hexadecimal (resolved 27 September 2026)
+
+`GenerateCookieToken()` now returns `GenerateCookieToken_Random()`: sixty
+characters drawn by `random_int()`, about 357 bits. `_Secure()` and its two
+salts are gone. Measured before the change, a thousand tokens ran from 4 to 19
+characters, 11 at the median, 1 in 100 of 6 or fewer, and every one began
+`8i` -- the 2, 1 and 2 of bcrypt's `$2y$12$`. `_Random()` also loaded
+Random.php with plain `require`, and a second token in one request would have
+died declaring the class twice. `AuthenticationTest` covers both.
+
+Still open: sessions made before the deploy keep their short tokens until they
+lapse or log out. Emptying `UserSession.CookieToken` after deploying would end
+them all at once, logging everyone out.
+
+The finding as first recorded:
 
 `Authentication::GenerateCookieToken_Secure()` creates a bcrypt string, then
 calls `Base::ConvertBase()` with `startingbase=>'Hexadecimal'`. A bcrypt string
