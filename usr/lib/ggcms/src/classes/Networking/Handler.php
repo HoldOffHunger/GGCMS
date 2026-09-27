@@ -207,6 +207,9 @@
 			// Query String Repair
 			// -----------------------------------------------
 
+		// Construct_RepairQueryString()
+		// Tests: HandlerTest::testConstruct_RepairQueryString()
+		// Test file: tests/src/classes/Networking/HandlerTest.php
 		/*
 			A URL carries one '?'.  Every later one is a separator that should
 			have been '&', because something appended a parameter to a URL that
@@ -252,6 +255,9 @@
 			return TRUE;
 		}
 
+			// QueryStringNeedsRepair()
+			// Tests: HandlerTest::testQueryStringNeedsRepair()
+			// Test file: tests/src/classes/Networking/HandlerTest.php
 		public function QueryStringNeedsRepair($args) {
 			$query_string = $args['querystring'];
 
@@ -262,6 +268,9 @@
 			return (strpos($query_string, '?') !== FALSE);
 		}
 
+			// RepairQueryString()
+			// Tests: HandlerTest::testRepairQueryString()
+			// Test file: tests/src/classes/Networking/HandlerTest.php
 		public function RepairQueryString($args) {
 			return str_replace('?', '&', $args['querystring']);
 		}
@@ -1280,6 +1289,9 @@
 			return $this->handleRedirect();
 		}
 		
+		// RequestPath()
+		// Tests: HandlerTest::testRequestPath()
+		// Test file: tests/src/classes/Networking/HandlerTest.php
 		/*
 			REQUEST_URI is a path for an ordinary browser request, but a proxy
 			sending an absolute-form request -- "GET http://host/path HTTP/1.1",
@@ -1754,6 +1766,9 @@
 			return FALSE;
 		}
 		
+			// badEndingCharacters()
+			// Tests: HandlerTest::testBadEndingCharacters()
+			// Test file: tests/src/classes/Networking/HandlerTest.php
 		public function badEndingCharacters() {
 			return [
 				1=>[
@@ -1778,6 +1793,9 @@
 			];
 		}
 
+			// cleanseURL()
+			// Tests: HandlerTest::testCleanseURL()
+			// Test file: tests/src/classes/Networking/HandlerTest.php
 		public function cleanseURL($args) {
 			$max_depth = 10;
 			
@@ -1797,18 +1815,23 @@
 			
 			$new_url = $url;
 
-			if($bad_chars[1][$last_1_char]) {
-				$triggered = TRUE;
-				
-			#	while($new_url
-					# and then something!!!!!
-				$new_url = substr($new_url, 0, -1);
-			}
+				/*
+					Two characters or one, never both.  Every two-character
+					ending also ends in a one-character one -- ".)" ends in ")"
+					-- so testing both cut three characters, and
+					"/some/page.)" became "/some/pag".
+				*/
 			
 			if($bad_chars[2][$last_2_chars]) {
 				$triggered = TRUE;
 				
 				$new_url = substr($new_url, 0, -2);
+			} elseif($bad_chars[1][$last_1_char]) {
+				$triggered = TRUE;
+			
+			#	while($new_url
+					# and then something!!!!!
+				$new_url = substr($new_url, 0, -1);
 			}
 
 			if($triggered && $max_depth !== 0) {
@@ -1900,6 +1923,9 @@
 			return FALSE;
 		}
 		
+		// RedirectsToSelf()
+		// Tests: HandlerTest::testRedirectsToSelf()
+		// Test file: tests/src/classes/Networking/HandlerTest.php
 		/*
 			A redirect whose target is the URL already being served is an
 			infinite loop by construction.  One such loop produced 95% of all

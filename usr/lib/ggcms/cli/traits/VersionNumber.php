@@ -1,6 +1,9 @@
 <?php
 
 	trait VersionNumber {
+			// validateVersionNumber()
+			// Tests: VersionNumberTest::testValidateVersionNumber()
+			// Test file: tests/cli/traits/VersionNumberTest.php
 		public function validateVersionNumber($args) {
 			$string = $args['string'];
 			

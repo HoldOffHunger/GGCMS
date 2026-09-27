@@ -29,6 +29,9 @@
 			// Locations
 			// -------------------------------------------------
 
+		// CacheRootLocation()
+		// Tests: PageCacheTest::testCacheRootLocation()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			The cache lives on the mounted volume, not the root filesystem.
 			Root has ~3GB spare; the volume has ~44GB.  /var/www/html/_cache is
@@ -60,6 +63,9 @@
 			return '/mnt/nyc01/ggcms_cache/pages';
 		}
 
+			// DomainCacheLocation()
+			// Tests: PageCacheTest::testDomainCacheLocation()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function DomainCacheLocation() {
 			$host = $this->SafeHost();
 
@@ -70,6 +76,9 @@
 			return $this->CacheRootLocation() . '/' . $host;
 		}
 
+		// SafeHost()
+		// Tests: PageCacheTest::testSafeHost()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			The cache key is the request URI, and the request URI is entirely
 			attacker-controlled.  Everything below exists to make sure a
@@ -96,6 +105,9 @@
 			return $host;
 		}
 
+			// SafePath()
+			// Tests: PageCacheTest::testSafePath()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function SafePath() {
 			$uri = $_SERVER['REQUEST_URI'];
 
@@ -146,14 +158,23 @@
 			return $uri;
 		}
 
+			// MaxPathLength()
+			// Tests: PageCacheTest::testMaxPathLength()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function MaxPathLength() {
 			return 512;
 		}
 
+			// MaxPathDepth()
+			// Tests: PageCacheTest::testMaxPathDepth()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function MaxPathDepth() {
 			return 24;
 		}
 
+		// CacheLocation()
+		// Tests: PageCacheTest::testCacheLocation()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			A request ending in `/` becomes `<path>/index.html`.  Anything else
 			gets the format's own extension appended, so a page caches to
@@ -182,6 +203,9 @@
 			// Cacheability
 			// -------------------------------------------------
 
+		// IsCacheable()
+		// Tests: PageCacheTest::testIsCacheable()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			Conservative by construction.  Every condition must pass.  A page
 			wrongly served from cache is a correctness bug that can leak one
@@ -219,14 +243,23 @@
 			return TRUE;
 		}
 
+			// IsCacheable_Method()
+			// Tests: PageCacheTest::testIsCacheable_Method()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function IsCacheable_Method() {
 			return ($_SERVER['REQUEST_METHOD'] === 'GET');
 		}
 
+			// IsCacheable_NoQueryString()
+			// Tests: PageCacheTest::testIsCacheable_NoQueryString()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function IsCacheable_NoQueryString() {
 			return (strlen($_SERVER['QUERY_STRING']) === 0);
 		}
 
+		// IsCacheable_Anonymous()
+		// Tests: PageCacheTest::testIsCacheable_Anonymous()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			Anyone carrying a session cookie gets a live render.  The cookie
 			names match the ones .htaccess and nginx test; change all three
@@ -255,6 +288,9 @@
 			return TRUE;
 		}
 
+		// CacheableScripts()
+		// Tests: PageCacheTest::testCacheableScripts()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			99.99% of traffic is view.php or the bare default.  Start there.
 			Widening this list is cheap; getting it wrong on modify.php is not.
@@ -274,6 +310,9 @@
 			query string, so it caches cleanly.
 		*/
 
+		// CacheableFormats()
+		// Tests: PageCacheTest::testCacheableFormats()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			BRF earns its place by being the most expensive thing this engine
 			produces.  war-and-peace on revoltlib is 365 children and 3.6 MB
@@ -301,6 +340,9 @@
 			];
 		}
 
+		// BrowserCacheHeader()
+		// Tests: PageCacheTest::testBrowserCacheHeader()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			What a page this cache would store tells browsers and Cloudflare.
 
@@ -318,6 +360,9 @@
 			return 'Cache-Control: public, max-age=14400';
 		}
 
+		// CacheSuffix()
+		// Tests: PageCacheTest::testCacheSuffix()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			The cached file's extension must mirror the request's, or Apache
 			serves a stylesheet as text/html and the browser discards it.  A
@@ -330,6 +375,9 @@
 			return $formats[$this->handler->script_format];
 		}
 
+			// IsCacheable_Script()
+			// Tests: PageCacheTest::testIsCacheable_Script()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function IsCacheable_Script() {
 			$handler = $this->handler;
 
@@ -370,6 +418,9 @@
 			return TRUE;
 		}
 
+			// IsCacheable_Response()
+			// Tests: PageCacheTest::testIsCacheable_Response()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function IsCacheable_Response() {
 			$response_code = http_response_code();
 
@@ -413,6 +464,9 @@
 			return TRUE;
 		}
 
+		// MinimumCacheableLength()
+		// Tests: PageCacheTest::testMinimumCacheableLength()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			earthfluent.com spent an unknown length of time serving a 334-byte
 			error stub with a 200 status, because error_reporting(0) hides the
@@ -428,6 +482,9 @@
 			return 2048;
 		}
 
+			// IsCacheable_Output()
+			// Tests: PageCacheTest::testIsCacheable_Output()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function IsCacheable_Output($args) {
 			$output = $args['output'];
 
@@ -452,6 +509,9 @@
 			// Writing
 			// -------------------------------------------------
 
+			// WriteCache()
+			// Tests: PageCacheTest::testWriteCache()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function WriteCache($args) {
 			$output = $args['output'];
 
@@ -505,6 +565,9 @@
 			return TRUE;
 		}
 
+		// CompressedLocation()
+		// Tests: PageCacheTest::testCompressedLocation()
+		// Test file: tests/src/classes/Cache/PageCacheTest.php
 		/*
 			The same page, gzipped, beside itself.
 
@@ -530,6 +593,9 @@
 			return $args['location'] . '.gz';
 		}
 
+			// WriteCompressed()
+			// Tests: PageCacheTest::testWriteCompressed()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function WriteCompressed($args) {
 			$location = $this->CompressedLocation(['location'=>$args['location']]);
 
@@ -568,6 +634,9 @@
 			cannot be subtly wrong.
 		*/
 
+			// FlushPage()
+			// Tests: PageCacheTest::testFlushPage()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 			/*
 				Flush one page: the one this request is for.
 
@@ -615,6 +684,9 @@
 			return @unlink($location);
 		}
 
+			// FlushDomain()
+			// Tests: PageCacheTest::testFlushDomain()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function FlushDomain($args) {
 			if(array_key_exists('domain', $args)) {
 				$domain = $args['domain'];
@@ -631,6 +703,9 @@
 			return $this->RemoveDirectory(['location'=>$location]);
 		}
 
+			// FlushAll()
+			// Tests: PageCacheTest::testFlushAll()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function FlushAll() {
 			$root = $this->CacheRootLocation();
 
@@ -671,10 +746,16 @@
 
 		public $removed_files = [];
 
+			// RemovedFiles()
+			// Tests: PageCacheTest::testRemovedFiles()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function RemovedFiles() {
 			return $this->removed_files;
 		}
 
+			// RemoveDirectory()
+			// Tests: PageCacheTest::testRemoveDirectory()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function RemoveDirectory($args) {
 			$location = $args['location'];
 

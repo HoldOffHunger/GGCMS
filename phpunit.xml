@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	GGCMS unit tests.  See Docs/Testing.md.
+
+	lint runs php -l over both repositories and is left out of the default
+	run; ask for it by name, as the lint testsuite.
+-->
+<phpunit
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+	bootstrap="tests/bootstrap.php"
+	cacheDirectory=".phpunit.cache"
+	defaultTestSuite="src,cli"
+	colors="true"
+>
+	<testsuites>
+		<testsuite name="src">
+			<directory>tests/src</directory>
+		</testsuite>
+		<testsuite name="cli">
+			<directory>tests/cli</directory>
+		</testsuite>
+		<testsuite name="lint">
+			<directory>tests/lint</directory>
+		</testsuite>
+	</testsuites>
+	<source>
+		<include>
+			<directory>usr/lib/ggcms/src/classes</directory>
+			<directory>usr/lib/ggcms/src/traits</directory>
+			<directory>usr/lib/ggcms/cli</directory>
+		</include>
+	</source>
+</phpunit>

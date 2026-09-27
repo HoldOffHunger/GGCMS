@@ -1,6 +1,9 @@
 <?php
 
 	class NumberTheory {
+			// ExtendedEuclideanAlgorithmDifferences()
+			// Tests: NumberTheoryTest::testExtendedEuclideanAlgorithmDifferences()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function ExtendedEuclideanAlgorithmDifferences($args) {
 			$sum = $args['sum'];
 			$products = $args['products'];
@@ -179,6 +182,9 @@
 			return $equation;
 		}
 		
+			// DiocletianEquationEuclideanAlgorithmDifference()
+			// Tests: NumberTheoryTest::testDiocletianEquationEuclideanAlgorithmDifference()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function DiocletianEquationEuclideanAlgorithmDifference($args) {
 			$product = $args['product'];
 			$additive = $args['additive'];
@@ -193,6 +199,9 @@
 			return $extended_euclidean_algorithm_difference_results;
 		}
 		
+			// ExtendedEuclideanAlgorithmProducts()
+			// Tests: NumberTheoryTest::testExtendedEuclideanAlgorithmProducts()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function ExtendedEuclideanAlgorithmProducts($args) {
 			$first_number = $args['firstnumber'];
 			$second_number = $args['secondnumber'];
@@ -225,6 +234,9 @@
 			return $products;
 		}
 		
+			// ExtendedEuclideanAlgorithmProduct()
+			// Tests: NumberTheoryTest::testExtendedEuclideanAlgorithmProduct()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function ExtendedEuclideanAlgorithmProduct($args) {
 			$first_number = $args['firstnumber'];
 			$second_number = $args['secondnumber'];
@@ -242,6 +254,9 @@
 			return $extended_euclidean_algorithm_products_results;
 		}
 		
+			// IsThisNumberPrime()
+			// Tests: NumberTheoryTest::testIsThisNumberPrime()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function IsThisNumberPrime($args) {
 			$alleged_prime = $args['allegedprime'];
 			
@@ -270,6 +285,9 @@
 			return TRUE;
 		}
 		
+			// FindPrimeNumbers()
+			// Tests: NumberTheoryTest::testFindPrimeNumbers()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function FindPrimeNumbers($args) {
 			$max_prime = $args['maxprime'];
 			
@@ -289,6 +307,9 @@
 			return FALSE;
 		}
 		
+			// FindPrimeNumbersAscending()
+			// Tests: NumberTheoryTest::testFindPrimeNumbersAscending()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function FindPrimeNumbersAscending($args) {
 			$max_prime = $args['maxprime'];
 			$list_limit = $args['listlimit'];
@@ -316,6 +337,9 @@
 			return ($prime_numbers);
 		}
 		
+			// FindPrimeNumbersDescending()
+			// Tests: NumberTheoryTest::testFindPrimeNumbersDescending()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function FindPrimeNumbersDescending($args) {
 			$max_prime = $args['maxprime'];
 			$list_limit = $args['listlimit'];
@@ -343,6 +367,9 @@
 			return ($prime_numbers);
 		}
 		
+			// CalculatePhi()
+			// Tests: NumberTheoryTest::testCalculatePhi()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function CalculatePhi($args) {
 			$firstnumber = $args['firstnumber'];
 			$secondnumber = $args['secondnumber'];
@@ -352,6 +379,9 @@
 			return ($phi);
 		}
 		
+			// FindRelativelyPrimeNumbers()
+			// Tests: NumberTheoryTest::testFindRelativelyPrimeNumbers()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function FindRelativelyPrimeNumbers($args) {
 			$relatively_prime_number_order = $args['order'];
 			$relatively_prime_number_order_function = 'FindRelativelyPrimeNumbers' . $relatively_prime_number_order;
@@ -486,6 +516,9 @@
 		// * FindGreatestCommonDivisor
 		// Stein's Bitwise Algorithm
 		
+			// FindGreatestCommonDivisor()
+			// Tests: NumberTheoryTest::testFindGreatestCommonDivisor()
+			// Test file: tests/src/classes/Math/NumberTheoryTest.php
 		public function FindGreatestCommonDivisor($args) {
 			$firstnumber = $args['firstnumber'];
 			$secondnumber = $args['secondnumber'];

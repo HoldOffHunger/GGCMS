@@ -106,6 +106,9 @@
 			return 'http://';
 		}
 		
+			// GetDomainFromURL()
+			// Tests: DomainTest::testGetDomainFromURL()
+			// Test file: tests/src/classes/Networking/DomainTest.php
 		public function GetDomainFromURL($args) {
 			$url = $args['url'];
 			
@@ -129,16 +132,30 @@
 						'topleveldomain'=>$top_level_domain,
 					];
 				}
+					
+					/*
+						A host with no dot in it -- http://localhost/,
+						http://intranet/ -- is a domain with no top level.  This
+						used to return an empty string, and both callers index
+						the result, so any visitor sending such a Referer got a
+						TypeError and a 500 from Handler::ValidateReferrals().
+					*/
+				
+				return [
+					'domain'=>$domain_net,
+					'topleveldomain'=>'',
+				];
 			} else {
 				return [
 					'domain'=>$url,
 					'topleveldomain'=>'',
 				];
 			}
-			
-			return '';
 		}
 		
+			// ValidateReferringWebsite()
+			// Tests: DomainTest::testValidateReferringWebsite()
+			// Test file: tests/src/classes/Networking/DomainTest.php
 		public function ValidateReferringWebsite() {
 			if($this->ShouldValidateReferringWebsite()) {
 				$referral_domain = $this->GetDomainFromURL(['url'=>$_SERVER['HTTP_REFERER']]);
@@ -153,6 +170,9 @@
 			return TRUE;
 		}
 		
+			// ValidateExternalReferralSite()
+			// Tests: DomainTest::testValidateExternalReferralSite()
+			// Test file: tests/src/classes/Networking/DomainTest.php
 		public function ValidateExternalReferralSite($args) {
 			$referral_domain = $args['referraldomain']['domain'];
 			
@@ -176,10 +196,16 @@
 			return TRUE;
 		}
 		
+			// ShouldValidateReferringWebsite()
+			// Tests: DomainTest::testShouldValidateReferringWebsite()
+			// Test file: tests/src/classes/Networking/DomainTest.php
 		public function ShouldValidateReferringWebsite() {
 			return $_SERVER['HTTP_REFERER'];
 		}
 		
+			// IsReferringWebsiteSelf()
+			// Tests: DomainTest::testIsReferringWebsiteSelf()
+			// Test file: tests/src/classes/Networking/DomainTest.php
 		public function IsReferringWebsiteSelf($args) {
 			$referral_domain = $args['referraldomain']['domain'];
 			

@@ -61,6 +61,9 @@
 			];
 		}
 
+			// IsSensitiveKey()
+			// Tests: LogRedactionTest::testIsSensitiveKey()
+			// Test file: tests/src/traits/LogRedactionTest.php
 		public function IsSensitiveKey($args) {
 			$key = strtolower((string)$args['key']);
 
@@ -73,6 +76,9 @@
 			return FALSE;
 		}
 
+			// RedactValues()
+			// Tests: LogRedactionTest::testRedactValues()
+			// Test file: tests/src/traits/LogRedactionTest.php
 		public function RedactValues($args) {
 			$values = $args['values'];
 
@@ -97,6 +103,9 @@
 			return $redacted_values;
 		}
 
+			// RedactURL()
+			// Tests: LogRedactionTest::testRedactURL()
+			// Test file: tests/src/traits/LogRedactionTest.php
 			/*
 				Masks the value of any key=value pair whose key looks sensitive,
 				so "/login.php?password=x&next=/" keeps "next" and loses "x".
@@ -119,6 +128,9 @@
 			);
 		}
 
+			// LoggableServerVariables()
+			// Tests: LogRedactionTest::testLoggableServerVariables()
+			// Test file: tests/src/traits/LogRedactionTest.php
 		public function LoggableServerVariables() {
 			$server_variables = [];
 
@@ -131,6 +143,9 @@
 			return $this->RedactValues(['values'=>$server_variables]);
 		}
 
+			// LoggableRequest()
+			// Tests: LogRedactionTest::testLoggableRequest()
+			// Test file: tests/src/traits/LogRedactionTest.php
 		public function LoggableRequest() {
 			return [
 				'server'=>print_r($this->LoggableServerVariables(), TRUE),

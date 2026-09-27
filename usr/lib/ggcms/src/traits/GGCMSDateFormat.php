@@ -1,6 +1,9 @@
 <?php
 
 	trait GGCMSDateFormat {
+			// FormatDate()
+			// Tests: GGCMSDateFormatTest::testFormatDate()
+			// Test file: tests/src/traits/GGCMSDateFormatTest.php
 		function FormatDate($args) {
 			$date = $args['date'];
 			

@@ -1,6 +1,9 @@
 <?php
 
 	trait ReverseDNSNotation {
+			// ReverseDomainName()
+			// Tests: ReverseDNSNotationTest::testReverseDomainName()
+			// Test file: tests/src/traits/ReverseDNSNotationTest.php
 		public function ReverseDomainName($args) {
 			$domain = $args['domain'];
 			
@@ -13,6 +16,9 @@
 			return $reversed_domain;
 		}
 		
+			// ReverseThisDomainName()
+			// Tests: ReverseDNSNotationTest::testReverseThisDomainName()
+			// Test file: tests/src/traits/ReverseDNSNotationTest.php
 		public function ReverseThisDomainName() {
 			return $this->reversed_domain = $this->ReverseDomainName([
 				'domain'=>$this->domain,

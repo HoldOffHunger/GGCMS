@@ -15,6 +15,9 @@
 			return $this->GetRawIPAddressSource();
 		}
 		
+			// GetIPAddressForDatabase()
+			// Tests: IPAddressTest::testGetIPAddressForDatabase()
+			// Test file: tests/src/classes/Networking/IPAddressTest.php
 		public function GetIPAddressForDatabase() {
 			$raw_ip_address = $this->GetRawIPAddressSource();
 			
@@ -27,6 +30,9 @@
 			return($converted_ip_address);
 		}
 		
+			// ConvertIPAddressForDatabase()
+			// Tests: IPAddressTest::testConvertIPAddressForDatabase()
+			// Test file: tests/src/classes/Networking/IPAddressTest.php
 		public function ConvertIPAddressForDatabase($args) {
 			$raw_ip_address = $args['ipaddress'];
 			
@@ -45,6 +51,9 @@
 			return ($converted_ip_address);
 		}
 		
+			// ConvertIPv4AddressToIPv6Address()
+			// Tests: IPAddressTest::testConvertIPv4AddressToIPv6Address()
+			// Test file: tests/src/classes/Networking/IPAddressTest.php
 		public function ConvertIPv4AddressToIPv6Address($args) {
 			$ipv4_address = $args['ipaddress'];
 			
@@ -64,6 +73,9 @@
 			return ($ipv6_address);
 		}
 		
+			// CleanseIPv6ForDatabase()
+			// Tests: IPAddressTest::testCleanseIPv6ForDatabase()
+			// Test file: tests/src/classes/Networking/IPAddressTest.php
 		public function CleanseIPv6ForDatabase ($args) {
 			$ipv4_address = $args['ipaddress'];
 			$ipv4_address_cleansed = str_replace(':', '', $ipv4_address);
@@ -74,6 +86,9 @@
 			return ('200200000000000000000000');
 		}
 		
+			// IsIPv4Address()
+			// Tests: IPAddressTest::testIsIPv4Address()
+			// Test file: tests/src/classes/Networking/IPAddressTest.php
 		public function IsIPv4Address($args) {
 			$ip_address = $args['ipaddress'];
 			
@@ -84,6 +99,9 @@
 			}
 		}
 		
+			// IsIPv6Address()
+			// Tests: IPAddressTest::testIsIPv6Address()
+			// Test file: tests/src/classes/Networking/IPAddressTest.php
 		public function IsIPv6Address($args) {
 			$ip_address = $args['ipaddress'];
 			

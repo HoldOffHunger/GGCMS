@@ -6,6 +6,9 @@
 			// Base Functions
 			// -----------------------------------------------------------------
 		
+			// ConvertBase()
+			// Tests: BaseTest::testConvertBase(), BaseTest::testConvertBaseImageDirectory(), BaseTest::testConvertBaseKeepsTrailingBits()
+			// Test file: tests/src/classes/Math/BaseTest.php
 		public function ConvertBase($args) {
 			$value = $args['value'];
 			
@@ -24,7 +27,7 @@
 				$ending_base_alphabet = $alphabets['endingalphabet'];
 				
 				$starting_base_alphabet_value_keys = $alphabets['startingalphabetvaluekeys'];
-				$ending_base_alphabet_value_keys = $alphabets['endingaphabetvaluekeys'];
+				$ending_base_alphabet_value_keys = $alphabets['endingalphabetvaluekeys'];
 				
 				$starting_base_alphabet_bit_length = $alphabets['startingalphabetbitlength'];
 				$ending_base_alphabet_bit_length = $alphabets['endingalphabetbitlength'];
@@ -34,6 +37,21 @@
 				$binary_string = '';
 				for($i = 0; $i < $value_length; $i++) {
 					$binary_string .= $starting_base_alphabet_value_keys[$value[$i]];
+				}
+					
+					/*
+						Bits that do not fill a last whole character are padded
+						with zeroes rather than dropped.  A SHA-512 is 512 bits,
+						two over a whole number of Base32 characters, and those
+						two used to vanish.  Padding only ever adds a character
+						at the end, so the leading characters that name image
+						directories are what they always were.
+					*/
+				
+				$trailing_bit_count = strlen($binary_string) % $ending_base_alphabet_bit_length;
+				
+				if($trailing_bit_count) {
+					$binary_string .= str_repeat('0', $ending_base_alphabet_bit_length - $trailing_bit_count);
 				}
 				
 				$binary_string_array = str_split($binary_string, $ending_base_alphabet_bit_length);
@@ -50,6 +68,9 @@
 			return FALSE;
 		}
 		
+			// IsBase2Number()
+			// Tests: BaseTest::testIsBase2Number()
+			// Test file: tests/src/classes/Math/BaseTest.php
 		public function IsBase2Number($args) {
 			$number = $args['number'];
 			
@@ -71,6 +92,9 @@
 			// Helper Functions
 			// -----------------------------------------------------------------
 		
+			// GetAlphabets()
+			// Tests: BaseTest::testGetAlphabets()
+			// Test file: tests/src/classes/Math/BaseTest.php
 		public function GetAlphabets($args) {
 			$starting_base = $args['startingbase'];
 			$ending_base = $args['endingbase'];
@@ -117,6 +141,9 @@
 			return FALSE;
 		}
 		
+			// BitKeyAlphabet()
+			// Tests: BaseTest::testBitKeyAlphabet()
+			// Test file: tests/src/classes/Math/BaseTest.php
 		public function BitKeyAlphabet($args) {
 			$alphabet = $args['alphabet'];
 			
@@ -133,6 +160,9 @@
 			// Predefined Alphabets
 			// -----------------------------------------------------------------
 		
+			// Base64Alphabet()
+			// Tests: BaseTest::testBase64Alphabet()
+			// Test file: tests/src/classes/Math/BaseTest.php
 		public function Base64Alphabet() {
 			return [
 				'0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
@@ -142,6 +172,9 @@
 			];
 		}
 		
+			// Base32Alphabet()
+			// Tests: BaseTest::testBase32Alphabet()
+			// Test file: tests/src/classes/Math/BaseTest.php
 		public function Base32Alphabet() {
 			return [
 				'0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
@@ -149,6 +182,9 @@
 			];
 		}
 		
+			// HexadecimalAlphabet()
+			// Tests: BaseTest::testHexadecimalAlphabet()
+			// Test file: tests/src/classes/Math/BaseTest.php
 		public function HexadecimalAlphabet() {
 			return [
 				'0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
@@ -156,12 +192,18 @@
 			];
 		}
 		
+			// EightBitAlphabet()
+			// Tests: BaseTest::testEightBitAlphabet()
+			// Test file: tests/src/classes/Math/BaseTest.php
 		public function EightBitAlphabet() {
 			return [
 				'0', '1', '2', '3', '4', '5', '6', '7',
 			];
 		}
 		
+			// BinaryAlphabet()
+			// Tests: BaseTest::testBinaryAlphabet()
+			// Test file: tests/src/classes/Math/BaseTest.php
 		public function BinaryAlphabet() {
 			return [
 				'0', '1',

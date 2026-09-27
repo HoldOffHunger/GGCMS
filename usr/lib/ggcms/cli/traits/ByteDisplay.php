@@ -15,6 +15,9 @@
 	*/
 
 	trait ByteDisplay {
+			// formatBytes()
+			// Tests: ByteDisplayTest::testFormatBytes()
+			// Test file: tests/cli/traits/ByteDisplayTest.php
 		public function formatBytes($args) {
 			$number = (float)$args['number'];
 
@@ -49,6 +52,9 @@
 			return ($negative ? '-' : '') . $formatted;
 		}
 
+			// formatBytesPadded()
+			// Tests: ByteDisplayTest::testFormatBytesPadded()
+			// Test file: tests/cli/traits/ByteDisplayTest.php
 			/*
 				For columns.  A table of sizes is read by comparing rows, and
 				that only works when the numbers line up, so this pads to a
@@ -61,6 +67,9 @@
 			return str_pad($this->formatBytes($args), $width, ' ', STR_PAD_LEFT);
 		}
 
+			// formatSavedPercent()
+			// Tests: ByteDisplayTest::testFormatSavedPercent()
+			// Test file: tests/cli/traits/ByteDisplayTest.php
 			/*
 				Percentages saved, guarded against a zero original.  A file of
 				no bytes cannot be shrunk, and dividing by it would take the

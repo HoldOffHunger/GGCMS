@@ -72,3 +72,12 @@ etc/ggcms/*
 !etc/ggcms/clonefrom.php
 usr/lib/ggcms/src/templates/*
 !usr/lib/ggcms/src/templates/default/
+
+# ---------------------------------------------------------------------------
+#  PHPUnit, installed by `composer install` for the tests under tests/.
+#  A development tool: it lives outside usr/lib/ggcms/, so deploy.sh never
+#  copies it to a host, and it is never committed.
+# ---------------------------------------------------------------------------
+
+/vendor/
+/.phpunit.cache/

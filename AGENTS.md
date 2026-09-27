@@ -46,6 +46,7 @@ turn it up first, and never conclude "it works" from the absence of an error.
 | `usr/lib/ggcms/cli/` | A whole second application: diagnostics and maintenance |
 | `etc/ggcms/clonefrom/` | Shared configuration defaults; per-domain configuration lives in the private repository |
 | `var/www/html/` | Document root: `.htaccess`, `index.php`, shared assets |
+| `tests/` | PHPUnit tests; never deployed |
 
 The tree mirrors a deployed host's filesystem. Deployment is a copy to `/`.
 
@@ -68,6 +69,7 @@ stranded that way for three weeks.
 | [Development/Principles.md](Development/Principles.md) | Before deciding *where* to fix something |
 | [Development/Conventions.md](Development/Conventions.md) | Project vocabulary — ISE, ISI, and what already exists |
 | [Docs/Triage.md](Docs/Triage.md) | Known-open issues, with the evidence |
+| [Docs/Testing.md](Docs/Testing.md) | Before changing a tested function, and after changing any |
 
 ## Checking on production
 

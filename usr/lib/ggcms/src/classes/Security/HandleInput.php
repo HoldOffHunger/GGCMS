@@ -16,6 +16,9 @@
 			return $this;
 		}
 		
+			// FormatTitleOuput()
+			// Tests: HandleInputTest::testFormatTitleOuput()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function FormatTitleOuput($args) {
 			$text = $args['text'];
 			
@@ -28,9 +31,12 @@
 			return $text;
 		}
 		
+			// FormatListOutput()
+			// Tests: HandleInputTest::testFormatListOutput()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function FormatListOutput($args) {
 			if(!$this->ValidToFormatListOutput($args)) {
-				return $text;
+				return $args['text'];		# $text is not assigned until below
 			}
 			
 			$text = $args['text'];
@@ -50,6 +56,9 @@
 			return $text;
 		}
 		
+			// ValidToFormatListOutput()
+			// Tests: HandleInputTest::testValidToFormatListOutput()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function ValidToFormatListOutput($args) {
 			$text = $args['text'];
 			
@@ -60,6 +69,9 @@
 			return TRUE;
 		}
 		
+			// StripBCMLCode()
+			// Tests: HandleInputTest::testStripBCMLCode()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function StripBCMLCode($args) {
 			$text = $args['text'];
 			
@@ -77,6 +89,9 @@
 			return $text;
 		}
 		
+			// StripCitationNumbers()
+			// Tests: HandleInputTest::testStripCitationNumbers()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function StripCitationNumbers($args) {
 			$text = $args['text'];
 			
@@ -95,6 +110,9 @@
 			return $text;
 		}
 		
+			// StripCommonDashes()
+			// Tests: HandleInputTest::testStripCommonDashes()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function StripCommonDashes($args) {
 			$text = $args['text'];
 			
@@ -113,6 +131,9 @@
 			return $text;
 		}
 		
+			// SwapHTMLWithSpaces()
+			// Tests: HandleInputTest::testSwapHTMLWithSpaces()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function SwapHTMLWithSpaces($args) {
 			$text = $args['text'];
 			
@@ -132,6 +153,9 @@
 			return $replaceable_whitespacing;
 		}
 		
+			// GetReplaceableHTMLSpacing()
+			// Tests: HandleInputTest::testGetReplaceableHTMLSpacing()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function GetReplaceableHTMLSpacing() {
 			$replaceable_tags = $this->GetReplaceableHTMLTags();
 			$replaceable_tags_count = count($replaceable_tags);
@@ -186,6 +210,9 @@
 			return $text;
 		}
 		
+			// SwapMultipleSpacesWithSingleSpaces()
+			// Tests: HandleInputTest::testSwapMultipleSpacesWithSingleSpaces()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function SwapMultipleSpacesWithSingleSpaces($args) {
 			$text = $args['text'];
 			
@@ -202,6 +229,9 @@
 			return $text;
 		}
 		
+			// TrimText()
+			// Tests: HandleInputTest::testTrimText()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function TrimText($args) {
 			$text = $args['text'];
 			
@@ -210,6 +240,9 @@
 			return $text;
 		}
 		
+			// AppendTruncatingPeriods()
+			// Tests: HandleInputTest::testAppendTruncatingPeriods()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function AppendTruncatingPeriods($args) {
 			$text = $args['text'];
 			
@@ -280,6 +313,9 @@
 			];
 		}
 		
+			// CleanseInput_Integer()
+			// Tests: HandleInputTest::testCleanseInput_Integer()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function CleanseInput_Integer($args) {
 			$input = $args['input'];
 			
@@ -306,6 +342,9 @@
 			return $cleanse_input_results;
 		}
 		
+			// CleanseInput_Filename()
+			// Tests: HandleInputTest::testCleanseInput_Filename()
+			// Test file: tests/src/classes/Security/HandleInputTest.php
 		public function CleanseInput_Filename($args) {
 			$input = $args['input'];
 			

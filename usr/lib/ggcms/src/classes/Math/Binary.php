@@ -1,6 +1,9 @@
 <?php
 
 	class Binary {
+			// IncrementBinaryValue()
+			// Tests: BinaryTest::testIncrementBinaryValue()
+			// Test file: tests/src/classes/Math/BinaryTest.php
 		public function IncrementBinaryValue($args) {
 			$binary_value = $args['binary'];
 			$binary_value_length = strlen($binary_value);
@@ -17,6 +20,9 @@
 			return FALSE;
 		}
 		
+			// DecrementBinaryValue()
+			// Tests: BinaryTest::testDecrementBinaryValue()
+			// Test file: tests/src/classes/Math/BinaryTest.php
 		public function DecrementBinaryValue($args) {
 			$binary_value = $args['binary'];
 			$binary_value_length = strlen($binary_value);
@@ -33,6 +39,9 @@
 			return FALSE;
 		}
 		
+			// BitKeyValues()
+			// Tests: BinaryTest::testBitKeyValues()
+			// Test file: tests/src/classes/Math/BinaryTest.php
 		public function BitKeyValues($args) {
 			$values = $args['values'];
 			$base_object = $args['baseobject'];
@@ -69,6 +78,9 @@
 			#print("LENGTH!" . $bit_length . "!");
 		}
 		
+			// GetBitLength()
+			// Tests: BinaryTest::testGetBitLength()
+			// Test file: tests/src/classes/Math/BinaryTest.php
 		public function GetBitLength($args) {
 			$bit_options = $args['bitoptions'];
 			$base_object = $args['baseobject'];
