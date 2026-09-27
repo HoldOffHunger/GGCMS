@@ -11,10 +11,16 @@
 			return $this;
 		}
 		
+			// DBFileCacheLocation()
+			// Tests: DBFileCacheTest::testDBFileCacheLocation()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function DBFileCacheLocation() {
 			return '/mnt/nyc01/ggcms_cache/mysql_db_file_cache';
 		}
 		
+			// DomainFileCacheLocation()
+			// Tests: DBFileCacheTest::testDomainFileCacheLocation()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function DomainFileCacheLocation() {
 			if($this->db_file_cache_location) {
 				return $this->db_file_cache_location;
@@ -27,6 +33,9 @@
 			return $this->db_file_cache_location = $this->DBFileCacheLocation() . '/' . $domain_folder_name;
 		}
 		
+			// CacheLocation()
+			// Tests: DBFileCacheTest::testCacheLocation()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function CacheLocation($args) {
 			$type = $args['type'];
 			$subtype = $args['subtype'];
@@ -46,6 +55,9 @@
 			return $full_directory;
 		}
 		
+			// WriteCache()
+			// Tests: DBFileCacheTest::testWriteCache()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function WriteCache($args) {
 			$arguments = $args['arguments'];
 			
@@ -168,6 +180,9 @@
 			return TRUE;
 		}
 		
+			// WriteCache_Blank()
+			// Tests: DBFileCacheTest::testWriteCache_Blank()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function WriteCache_Blank($args) {
 			$blanks = $args['blanks'];
 			$new_blanks = $args['new_blanks'];
@@ -210,6 +225,9 @@
 			return TRUE;
 		}
 		
+			// WriteCache_Item()
+			// Tests: DBFileCacheTest::testWriteCache_Item()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function WriteCache_Item($args) {
 			$type = $args['type'];
 			$subtype = $args['subtype'];
@@ -222,7 +240,7 @@
 			
 			$file_name = $argument;
 			
-			if(strlen($file_name) < $this->FileNameMax()) {
+			if($this->IsCacheFileName(['filename'=>$file_name])) {
 				$file_location = $full_directory . $file_name;
 				
 				if(!is_file($file_location)) {
@@ -249,6 +267,9 @@
 			// Cache invalidation
 			// -------------------------------------------------
 
+		// DeleteCache()
+		// Tests: DBFileCacheTest::testDeleteCache()
+		// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		/*
 			The row cache had no way to forget anything until 3 September 2026.
 			WriteCache_Item writes only when the file is absent, so a record
@@ -288,7 +309,7 @@
 						a stat that can only fail.
 					*/
 
-				if((strlen($file_name) === 0) || (strlen($file_name) >= $this->FileNameMax())) {
+				if(!$this->IsCacheFileName(['filename'=>$file_name])) {
 					continue;
 				}
 
@@ -379,6 +400,9 @@
 			return TRUE;
 		}
 
+		// DeleteCache_PathSegment()
+		// Tests: DBFileCacheTest::testDeleteCache_PathSegment()
+		// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		/*
 			ggcms_RecordTree is the one type not keyed by a record id.  Its key is
 			the URL path, '%2F'-joined -- 'anarchism%2F15-post-primitivist-theses'
@@ -520,6 +544,9 @@
 			return $subtypes;
 		}
 
+			// removeBomUtf8()
+			// Tests: DBFileCacheTest::testRemoveBomUtf8()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function removeBomUtf8($s){
 			if(substr($s,0,3)==chr(hexdec('EF')).chr(hexdec('BB')).chr(hexdec('BF'))){
 				return substr($s,3);
@@ -528,6 +555,9 @@
 			}
 		}
 		
+		// ReadCache_blanks()
+		// Tests: DBFileCacheTest::testReadCache_blanks()
+		// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		/*
 			The blanks file is asked about once per record, and a page carries
 			dozens of records per type, so a type whose blanks file does not
@@ -571,6 +601,9 @@
 			return $blanks_data;
 		}
 		
+			// ReadCache()
+			// Tests: DBFileCacheTest::testReadCache()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function ReadCache($args) {
 			$type = $args['type'];
 			$subtype = $args['subtype'];
@@ -623,6 +656,9 @@
 			return $all_data_values;
 		}
 		
+			// ReadCache_Item()
+			// Tests: DBFileCacheTest::testReadCache_Item()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function ReadCache_Item($args) {
 			$type = $args['type'];
 			$subtype = $args['subtype'];
@@ -643,7 +679,7 @@
 			
 			$file_name = $argument;
 			
-			if(strlen($file_name) < $this->FileNameMax()) {
+			if($this->IsCacheFileName(['filename'=>$file_name])) {
 				$file_location = $full_directory . $file_name;
 				
 				if(is_file($file_location)) {
@@ -667,10 +703,42 @@
 			return FALSE;
 		}
 		
+			// FileNameMax()
+			// Tests: DBFileCacheTest::testFileNameMax()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function FileNameMax() {
 			return 128;
 		}
+		
+		// IsCacheFileName()
+		// Tests: DBFileCacheTest::testIsCacheFileName()
+		// Test file: tests/src/classes/Database/DBFileCacheTest.php
+		/*
+			An argument becomes a file name, and some arguments come from a
+			request: view.php looks ?search= up in the dictionary cache, so
+			?search=../../X read whatever JSON sat at X two directories above
+			the cache.  A name is one path segment or it is nothing -- no
+			slash, no NUL, not . or .. -- and the reads, writes and deletes
+			all ask here.
+		*/
+		
+		public function IsCacheFileName($args) {
+			$file_name = (string) $args['filename'];
+			
+			if((strlen($file_name) === 0) || (strlen($file_name) >= $this->FileNameMax())) {
+				return FALSE;
+			}
+			
+			if(strpbrk($file_name, "/\0") !== FALSE) {
+				return FALSE;
+			}
+			
+			return (($file_name !== '.') && ($file_name !== '..'));
+		}
 	
+			// findElementInSortedArray()
+			// Tests: DBFileCacheTest::testFindElementInSortedArray()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function findElementInSortedArray($args) {
 			$element = $args['element'];
 			$array = $args['array'];
@@ -749,6 +817,9 @@
 			return FALSE;
 		}
 	
+			// insertArrayIntoSortedArray()
+			// Tests: DBFileCacheTest::testInsertArrayIntoSortedArray()
+			// Test file: tests/src/classes/Database/DBFileCacheTest.php
 		public function insertArrayIntoSortedArray($args) {
 			$arr1 = $args['arr1'];
 			$arr2 = $args['arr2'];
@@ -765,92 +836,43 @@
 			return $new_array;
 		}
 		
+		// insertElementIntoSortedArray()
+		// Tests: DBFileCacheTest::testInsertElementIntoSortedArray()
+		// Test file: tests/src/classes/Database/DBFileCacheTest.php
+		/*
+			Where the element belongs, found by halving: the first position
+			whose item is not less than it.  This used to track a shrinking
+			step by hand and put one element in four in the wrong place --
+			21 before 18 -- so the blanks file this keeps "sorted" was not.
+			Nothing yet relies on the order, since reads use in_array(), but
+			findElementInSortedArray() above was written to.
+			
+			Equality is == because the blanks file is read back as strings
+			and new blanks arrive as integers; "39" and 39 are one id.
+		*/
+		
 		public function insertElementIntoSortedArray($args) {
 			$element = $args['element'];
 			$array = $args['array'];
 			
-			$array_count = count($array);
+			$low = 0;
+			$high = count($array);
 			
-			if($array_count === 0) {
-				return [$element];
-			}
-			
-			$final_index = $array_count - 1;
-			
-			$final_element = $array[$final_index];
-			
-			if($final_element < $element) {
-				$array[] = $element;
-				return $array;
-			} elseif($final_element === $element) {
-				return $array;
-			}
-			
-			$first_element = $array[0];
-			
-			if($first_element > $element) {
-				array_unshift($array, $element);
-				return $array;
-			} elseif($first_element === $element) {
-				return $array;
-			}
-			
-			$half_size = ceil($array_count / 2);
-			$middle_index = floor($array_count / 2);
-			$found_item = FALSE;
-			
-			$iterations = 0;
-			$limit = 100;
-			
-			$last_middle_index = -1;
-			$last_it = FALSE;
-			
-			while(!$found_item) {
-				$middle_item = $array[$middle_index];
+			while($low < $high) {
+				$middle = ($low + $high) >> 1;
 				
-				if($middle_item === $element) {
-					return $array;	// element is already in the array
-				}
-				
-				if($last_middle_index === $middle_index) {
-					$found_item = TRUE;
+				if($array[$middle] < $element) {
+					$low = $middle + 1;
 				} else {
-					if($half_size == 1 && $last_it === FALSE) {
-						$half_size = 1;
-						$last_it = TRUE;
-					} elseif($half_size == 1 || $half_size == 0) {
-						$half_size = 0;
-					} else {
-						$half_size = ceil($half_size / 2);
-					}
-					
-					$last_middle_index = $middle_index;
-					if($middle_item > $element) {
-						$middle_index -= $half_size;
-					} elseif($middle_item < $element) {
-						$middle_index += $half_size;
-					}
-					
-					if($middle_index > $final_index) {
-						$middle_index = $final_index;
-					} elseif($middle_index < 0) {
-						$middle_index = 0;
-					}
-				}
-				
-				$iterations++;
-				
-				if($iterations === $limit) {
-					$found_item = TRUE;
+					$high = $middle;
 				}
 			}
 			
-			if($middle_index > $final_index) {
-				$array[] = $element;
-				return $array;
+			if(($low < count($array)) && ($array[$low] == $element)) {
+				return $array;	// element is already in the array
 			}
 			
-			array_splice($array, $middle_index, 0, [$element,]); 
+			array_splice($array, $low, 0, [$element,]);
 			
 			return $array;
 		}

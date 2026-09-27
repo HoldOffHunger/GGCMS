@@ -14,6 +14,7 @@
 			parent::setUp();
 
 			$this->requireEngine(['file'=>'classes/Cache/PageCache.php']);
+			$this->emptyScratchDirectory();
 
 			$this->saved_cache_root = getenv('GGCMS_PAGE_CACHE_ROOT');
 			$this->cache_root = $this->scratchDirectory() . '/pages';

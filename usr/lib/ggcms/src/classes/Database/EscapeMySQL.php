@@ -10,6 +10,9 @@
 			// Readable Results from 'Select *'
 			// -------------------------------------------------
 		
+			// GetRecordFullSelectStatement()
+			// Tests: EscapeMySQLTest::testGetRecordFullSelectStatement()
+			// Test file: tests/src/classes/Database/EscapeMySQLTest.php
 		public function GetRecordFullSelectStatement($args) {
 			$record_type = $args['recordtype'];
 			$record_description = $args['recorddescription'];
@@ -32,6 +35,9 @@
 			return $full_select;
 		}
 		
+			// GetRecordFullTableSelectStatement()
+			// Tests: EscapeMySQLTest::testGetRecordFullTableSelectStatement()
+			// Test file: tests/src/classes/Database/EscapeMySQLTest.php
 		public function GetRecordFullTableSelectStatement($args) {
 			$record_type = $args['recordtype'];
 			$record_description = $args['recorddescription'];

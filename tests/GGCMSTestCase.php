@@ -51,6 +51,25 @@
 			return $reflection->newInstanceWithoutConstructor();
 		}
 
+			/*
+				Removes everything a previous run left in this class's scratch
+				directory, so no test ever reads another run's files.  It can
+				reach nothing else: the path is built here, under
+				GGCMS_DATA_DIR/tests/, from the class name alone.
+			*/
+
+		public function emptyScratchDirectory() {
+			$directory = $this->scratchDirectory();
+
+			$iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory, FilesystemIterator::SKIP_DOTS), RecursiveIteratorIterator::CHILD_FIRST);
+
+			foreach($iterator as $item) {
+				($item->isDir() && !$item->isLink()) ? rmdir($item->getPathname()) : unlink($item->getPathname());
+			}
+
+			return $directory;
+		}
+
 		public function scratchDirectory() {
 			$directory = GGCMS_DATA_DIR . 'tests/' . get_class($this);
 
