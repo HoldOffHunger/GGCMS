@@ -25,7 +25,7 @@
 			$this->enableGroupConcatMax();
 			
 			if(!$this->setDomain()) {
-				return $this->cancelDomainInstall(['message'=>'Invalid domain.  Please submit a FQDN in the form of `example.com`.']);
+				return $this->cancelAction(['message'=>'Invalid domain.  Please submit a FQDN in the form of `example.com`.']);
 			}
 			
 			$sql_generator = "SET SESSION group_concat_max_len = 1000000;SELECT CONCAT('SELECT ', GROUP_CONCAT(table1.count SEPARATOR ',')) FROM (" .
