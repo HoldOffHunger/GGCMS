@@ -31,8 +31,10 @@
 			                  Publication event, as the people pages do
 			'detailline'      'length' (default) opens the details with the
 			                  word and character count; 'subtitle' with the
-			                  subtitle in bold
-			'headerlevel'     3 (default), or 2 for a larger title
+			                  subtitle in bold; 'linkedsubtitle' with the
+			                  subtitle linked to the child and its author
+			                  linked after it, both in bold
+'headerlevel'     3 (default), or 2 for a larger title
 			'plainfloat'      TRUE writes the clearing div as one line,
 			                  as some copies did, instead of through the
 			                  divider module
@@ -45,6 +47,8 @@
 			                  the page's tag counts; 'children' from the
 			                  counts it keeps for its children
 			'hoverprefix'     text the header box's hover starts with
+			'grandchildhover' 'count' (default) hovers the first grandchild's
+			                  length; 'titles' lists every grandchild's title
 
 		Display() prints the whole entry.  A template that puts something of
 		its own between the parts -- a quiz link, a listen button -- calls
@@ -76,6 +80,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			$this->tag_counts = $args['tagcounts'] ?? FALSE;
 			$this->grandchild_excerpt = $args['grandchildexcerpt'] ?? 'formatted';
 			$this->hover_prefix = $args['hoverprefix'] ?? '';
+			$this->grandchild_hover = $args['grandchildhover'] ?? 'count';
 
 			if(!class_exists('module_header')) {
 				ggreq('modules/html/header.php');
@@ -214,6 +219,12 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 					$first_textbody = $text_bodies[0];
 
 					$div_mouseover .= number_format($first_textbody['WordCount']) . ' Words / ' . number_format($first_textbody['CharacterCount']) . ' Characters';
+				}
+			} elseif($this->grandchildren && $this->grandchild_hover === 'titles') {
+				$grandchildren = $child['children'] ?? NULL;
+				
+				if($grandchildren && is_array($grandchildren) && count($grandchildren)) {
+					$div_mouseover = implode(', ', array_column($grandchildren, 'Title')) . '...';
 				}
 			} elseif($this->grandchildren) {
 				$first_grandchild = $this->FirstGrandchild();
@@ -409,6 +420,8 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			
 			if($this->detail_line === 'subtitle') {
 				$this->DisplayTimeFrameAndSubtitle(['timeframe'=>$this->time_frame]);
+			} elseif($this->detail_line === 'linkedsubtitle') {
+				$this->DisplayTimeFrameAndLinkedSubtitle(['timeframe'=>$this->time_frame]);
 			} else {
 				$this->DisplayTimeFrameAndLength(['timeframe'=>$this->time_frame]);
 			}
@@ -520,6 +533,49 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			return TRUE;
 		}
 
+		public function DisplayTimeFrameAndLinkedSubtitle($args) {
+			$time_frame = $args['timeframe'];
+			$child = $this->child;
+			
+			if($time_frame) {
+				print($time_frame);
+			}
+			
+			$author = $child['association'][0]['entry'] ?? NULL;
+			
+			if(!$child['Subtitle'] && empty($author['Title'])) {
+				return FALSE;
+			}
+			
+			if($time_frame) {
+				print(' ~ ');
+			}
+			
+			print('<strong>');
+			print('<a href="' . $this->ChildURL() . '">');
+			
+			if($child['Title'] && $child['Subtitle']) {
+				print(' : ');
+			}
+			
+			if($child['Subtitle']) {
+				print($child['Subtitle']);
+			}
+			
+			print('</a>');
+			
+			if(!empty($author['Title'])) {
+				print(', by ');
+				print('<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . $this->link_suffix . '">');
+				print($author['Title']);
+				print('</a>');
+			}
+			
+			print('</strong>');
+			
+			return TRUE;
+		}
+		
 		public function DisplayDescription($args) {
 			$time_frame = $args['timeframe'];
 			$child = $this->child;
