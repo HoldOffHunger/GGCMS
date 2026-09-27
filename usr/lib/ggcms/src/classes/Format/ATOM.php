@@ -1,6 +1,11 @@
 <?php
 
 	class ATOM extends AbstractBaseFormat {
+		public $section_separator;
+		public $line_separator;
+		public $indent_levels;
+		public $entries;
+		
 			// XML MimeType
 			// -----------------------------------------------
 		

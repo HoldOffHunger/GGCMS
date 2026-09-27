@@ -34,6 +34,10 @@
 		use DomainValidation;
 		use CLIAccess;
 		use GlobalsTrait;
+		
+		public $requested_type;
+		public $wants_type_list;
+		public $answer_type;
 
 		public function listIssues() {
 			$this->setHandle();

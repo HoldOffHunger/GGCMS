@@ -1,6 +1,8 @@
 <?php
 
 	trait SimpleGeography {
+		public $country;
+		
 		public function SetGeographyBasics() {
 			$this->SetCountryGeography();
 			

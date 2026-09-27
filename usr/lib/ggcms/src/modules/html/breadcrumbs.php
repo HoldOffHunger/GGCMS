@@ -1,6 +1,12 @@
 <?php
 
 	class module_breadcrumbs extends module_spacing {
+		public $that;
+		public $action;
+		public $title;
+		public $record_list_count;
+		public $sub_page;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->action = $args['action'];
@@ -13,14 +19,14 @@
 			$this->record_list_count = count($this->that->record_list);
 			
 			$this->sub_page = $args['subpage'];
-			
-			return TRUE;
 		}
 		
 		public function Display() {
 			$this->DisplayBlockStart();
 			$this->DisplayAllBreadcrumbRecords();
 			$this->DisplayBlockEnd();
+			
+			return TRUE;
 		}
 		
 		public function DisplayAllBreadcrumbRecords() {

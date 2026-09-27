@@ -8,6 +8,15 @@
 		
 		use DBAdminFunctions;
 		
+		public $comments;
+		public $suggestions;
+		public $primary_host_options;
+		public $submission;
+		public $host_name;
+		public $date_range;
+		public $page_statistics;
+		public $stats_retrieved;
+		
 		public function IsSecure() {
 			return TRUE;
 		}

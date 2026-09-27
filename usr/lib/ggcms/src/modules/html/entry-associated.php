@@ -1,6 +1,12 @@
 <?php
 
 	class module_entryassociated extends module_spacing {
+		public $that;
+		public $header;
+		public $entrysort;
+		public $entrylist;
+		public $iframe;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->header = $args['header'];

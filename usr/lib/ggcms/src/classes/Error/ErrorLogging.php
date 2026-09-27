@@ -3,6 +3,8 @@
 	class ErrorLogging {
 		use LogRedaction;
 		
+		public $internal_server_error;
+		
 		public $handler;
 		
 		public function __construct($args) {
@@ -116,7 +118,7 @@
 				return '';
 			}
 
-			if(!property_exists($this->handler, 'script_file')) {
+			if(!isset($this->handler->script_file)) {
 				return '';
 			}
 

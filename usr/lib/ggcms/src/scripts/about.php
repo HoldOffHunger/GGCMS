@@ -3,6 +3,9 @@
 	ggreq('scripts/view.php');
 
 	class about extends view {
+		public $desired_action;
+		public $header_title_text;
+		
 						// Security Data
 						// ---------------------------------------------
 		

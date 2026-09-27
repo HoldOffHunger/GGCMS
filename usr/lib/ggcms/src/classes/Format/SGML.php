@@ -1,6 +1,8 @@
 <?php
 
 	class SGML extends AbstractBaseFormat {
+		public $sgml_output;
+		
 		public function MimeType() {
 			return 'text/sgml';
 		}

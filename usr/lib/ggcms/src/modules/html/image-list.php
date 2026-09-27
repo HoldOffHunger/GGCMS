@@ -1,6 +1,8 @@
 <?php
 
 	class module_imagelist extends module_spacing {
+		public $that;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 		}

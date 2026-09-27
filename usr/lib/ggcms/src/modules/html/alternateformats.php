@@ -1,6 +1,10 @@
 <?php
 
 	class module_alternateformats extends module_spacing {
+		public $that;
+		public $filename;
+		public $audio;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->filename = $this->that->handler->script_file;

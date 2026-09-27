@@ -14,6 +14,9 @@
 		use SimpleORM;
 		use SimpleSocialMedia;
 		
+		public $text;
+		public $duplicates;
+		
 			// Security Data
 		
 		public function IsSecure() {

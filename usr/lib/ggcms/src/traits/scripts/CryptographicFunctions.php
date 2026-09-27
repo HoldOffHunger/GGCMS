@@ -1,6 +1,8 @@
 <?php
 
 	trait CryptographicFunctions {
+		public $SelectableValue;
+		
 		public function SetHashingAlgorithms() {
 			$this->SelectableValue = [];
 			

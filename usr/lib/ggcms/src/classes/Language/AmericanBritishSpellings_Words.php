@@ -7,6 +7,8 @@
 				*/
 
 	class AmericanBritishSpellings_Words {
+		public $british_to_american_spellings;
+		
 			/* __construct($args)
 			
 				Constructor.

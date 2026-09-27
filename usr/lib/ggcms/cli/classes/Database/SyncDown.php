@@ -38,6 +38,19 @@
 	*/
 
 	class SyncDown {
+		public $argv;
+		public $host;
+		public $only;
+		public $tables;
+		public $dumps;
+		public $ssh;
+		public $mysql;
+		public $local_host;
+		public $local_port;
+		public $local_user;
+		public $apply;
+		public $last_ssh_at;
+		
 		public function __construct($args) {
 			$this->argv = (array) $args['argv'];
 		}

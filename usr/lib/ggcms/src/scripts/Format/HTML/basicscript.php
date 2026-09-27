@@ -1,6 +1,12 @@
 <?php
 
 	class basicscript extends baseformat {
+		public $html_format_data;
+		public $header_title_text;
+		public $description_text;
+		public $abstract_text;
+		public $classification;
+		
 		public function GetGoodFunctionName() {
 			return $this->good_function_name;
 		}

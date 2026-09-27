@@ -1,6 +1,8 @@
 <?php
 
 	class Error404 {
+		public $handler;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 		}

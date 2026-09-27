@@ -1,6 +1,11 @@
 <?php
 
 	class Query {
+		public $post_data;
+		public $get_data;
+		public $handler;
+		public $parameter_data;
+		
 		public function __construct($args) {
 			$this->post_data = $_POST;
 			$this->get_data = $_GET;

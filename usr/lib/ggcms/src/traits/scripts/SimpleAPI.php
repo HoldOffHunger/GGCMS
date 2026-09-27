@@ -1,6 +1,8 @@
 <?php
 
 	trait SimpleAPI {
+		public $search_engine;
+		
 		public function SetAPI() {
 			ggreq('classes/API/SearchEngine.php');
 			

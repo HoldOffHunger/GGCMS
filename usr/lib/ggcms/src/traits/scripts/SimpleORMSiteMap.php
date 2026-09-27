@@ -1,6 +1,8 @@
 <?php
 
 	trait SimpleORMSiteMap {
+		public $ormsitemap;
+		
 		public function SetORMSiteMapObject() {
 			ggreq('classes/Database/ORMSiteMap.php');
 			

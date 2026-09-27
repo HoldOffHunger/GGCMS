@@ -37,6 +37,13 @@
 		use ReverseDNSNotation;
 		use DomainValidation;
 		
+		public $answer_type;
+		public $host_tables;
+		public $primary_entries;
+		public $primary_entries_count;
+		public $live_dir_location;
+		public $caa_records;
+		
 		public function checkDomain() {
 			$this->setHandle();
 			$this->bannerMessage();

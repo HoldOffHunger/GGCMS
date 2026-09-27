@@ -1,6 +1,9 @@
 <?php
 
 	class DBAdmin {
+		public $dbaccessobject;
+		public $globals;
+		
 		
 			// Construction
 			// -------------------------------------------------

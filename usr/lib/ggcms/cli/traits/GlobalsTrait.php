@@ -1,6 +1,8 @@
 <?php
 
 	trait GlobalsTrait {
+		public $globals;
+		
 		public function setGlobals() {
 			confreq('clonefrom.php');
 

@@ -1,6 +1,15 @@
 <?php
 
 	class DAISY extends AbstractBaseFormat {
+		public $daisy_output;
+		public $title;
+		public $pages;
+		public $daisy_pages_table_of_contents;
+		public $daisy_subjects_table_of_contents;
+		public $number_of_page_toc_entries;
+		public $number_of_subject_toc_entries;
+		public $total_number_of_toc_entries;
+		
 		public function MimeType() {
 			return 'text/html';
 		}

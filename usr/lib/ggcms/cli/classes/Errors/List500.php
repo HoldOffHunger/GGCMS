@@ -13,6 +13,8 @@
 		use CLIAccess;
 		use GlobalsTrait;
 		
+		public $answer_type;
+		
 		public function list500Errors() {
 			$this->setHandle();
 			$this->bannerMessage();

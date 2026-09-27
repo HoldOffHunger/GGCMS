@@ -2,6 +2,54 @@
 	
 	class Handler {
 		use ReverseDNSNotation;
+		
+		public $db_access;
+		public $local_host_handler;
+		public $error_logging;
+		public $issue_logging;
+		public $version;
+		public $version_object;
+		public $access;
+		public $redirect;
+		public $authentication;
+		public $cleanser;
+		public $domain;
+		public $cookie;
+		public $abstractglobals;
+		public $globals;
+		public $original_get;
+		public $query;
+		public $language;
+		public $dictionary;
+		public $time;
+		public $desired_action;
+		public $object_list;
+		public $desired_script;
+		public $object_code;
+		public $object_parent;
+		public $script_name;
+		public $orm;
+		public $redirect_url;
+		public $script_file;
+		public $script_extension;
+		public $script_classname;
+		public $script_format;
+		public $script_format_lower;
+		public $script_location;
+		public $google_api;
+		public $logout_results;
+		public $before_content;
+		public $error404redirect;
+		public $resolved_record_list;
+		public $last_repair_changed;
+		public $collect_redirect;
+		public $script;
+		public $original_request_uri;
+		public $original_redirect_url;
+		public $repair_count;
+		public $repaired_to;
+		public $error_404;
+		public $user_tracking;
 		public function __construct() {
 			
 			$this->LocalHostHandling();
@@ -39,8 +87,6 @@
 				$this->Construct_ScriptLocation();
 				$this->Construct_SocialMedia();
 			}
-			
-			return TRUE;
 		}
 		
 		public function Construct_UpgradeDBAccess() {
@@ -81,6 +127,8 @@
 				$this->local_host_handler = new LocalHostHandler($this->getArgs());
 				$this->local_host_handler->HandleLocalRequest();
 			}
+			
+			return TRUE;
 		}
 		
 		public function getArgs() {
@@ -305,7 +353,7 @@
 		*/
 
 		public function Construct_Dictionaries_Wanted() {
-			if(!property_exists($this->abstractglobals, 'script')) {
+			if(!isset($this->abstractglobals->script)) {
 				return FALSE;
 			}
 
@@ -942,7 +990,7 @@
 		*/
 
 		public function EntryPathRequired() {
-			if(!property_exists($this->abstractglobals, 'script')) {
+			if(!isset($this->abstractglobals->script)) {
 				return TRUE;
 			}
 
@@ -1504,7 +1552,7 @@
 				
 				$redirect_url .= $this->domain->primary_domain_lowercased;
 				
-				if(property_exists($this->script->script, 'redirect_base')) {
+				if(isset($this->script->script->redirect_base)) {
 					$redirect_url .= $this->script->script->redirect_base;
 				} else {
 					$new_url_pieces = explode('/', $_SERVER['REQUEST_URI']);
@@ -1666,7 +1714,7 @@
 			*/
 
 		public function ForceCanonicalLink_Directory() {
-			if(!property_exists($this->abstractglobals, 'script')) {
+			if(!isset($this->abstractglobals->script)) {
 				return '';
 			}
 

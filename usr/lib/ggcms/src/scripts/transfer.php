@@ -3,6 +3,16 @@
 	ggreq('scripts/view.php');
 	
 	class transfer extends view {
+		public $admin_errors;
+		public $selections;
+		public $search_term;
+		public $new_parent_results;
+		public $entry_update_args;
+		public $entry_update;
+		public $target_parent;
+		public $conflicting_entries;
+		public $conflicting_entry_count;
+		
 						// Security Data
 						// ---------------------------------------------
 		

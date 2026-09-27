@@ -1,6 +1,8 @@
 <?php
 
 	class basicscript extends baseformat {
+		public $pdf_data;
+		
 			// Display Info
 			// -------------------------------------------------------
 		

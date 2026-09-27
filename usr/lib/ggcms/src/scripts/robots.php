@@ -16,6 +16,13 @@
 		use SimpleLookupLists;
 		use SimpleORM;
 		
+		public $humanreadable;
+		public $robots;
+		public $all_domains;
+		public $robots_txt_file;
+		public $robots_attributes;
+		public $header_title_text;
+		
 						// Security Data
 						// ---------------------------------------------
 		

@@ -1,6 +1,8 @@
 <?php
 
 	class style extends basicscript {
+		public $script_css_file_locations;
+		
 		public $desired_style;
 		public $desired_parameter;
 		public $desired_classname;

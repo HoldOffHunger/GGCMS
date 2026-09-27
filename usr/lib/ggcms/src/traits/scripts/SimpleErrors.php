@@ -1,6 +1,10 @@
 <?php
 
 	trait SimpleErrors {
+			// Filled through $this->$error_display_type, so named here.
+		public $errors_display;
+		public $admin_errors_display;
+		
 		public function FormatErrors() {
 			$this->FormatErrors_Base(['errortype'=>'admin_errors']);
 			$this->FormatErrorsNoKeys_Base(['errortype'=>'errors']);

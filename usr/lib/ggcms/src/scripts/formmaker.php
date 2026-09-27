@@ -18,6 +18,14 @@
 		use SimpleORM;
 		use SimpleSocialMedia;
 		
+		public $desired_action;
+		public $forms;
+		public $header_title_text;
+		public $entry;
+		public $parent;
+		public $children;
+		public $counts;
+		
 						// Security Data
 						// ---------------------------------------------
 		

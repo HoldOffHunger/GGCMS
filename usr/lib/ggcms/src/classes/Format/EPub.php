@@ -1,6 +1,10 @@
 <?php
 
 	class EPub extends AbstractBaseFormat {
+		public $container_xml;
+		public $package_opf;
+		public $css;
+		
 		public function MimeType() {
 			return 'application/epub+zip';
 		}

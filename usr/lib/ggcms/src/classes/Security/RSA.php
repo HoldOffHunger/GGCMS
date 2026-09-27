@@ -9,6 +9,8 @@
 		*/
 
 	class RSA {
+		public $number_theory;
+		
 		public function __construct() {
 			$number_theory = new NumberTheory();
 			$this->number_theory = $number_theory;

@@ -1,6 +1,8 @@
 <?php
 
 	class CSS extends AbstractBaseFormat {
+		public $script;
+		
 		public function MimeType() {
 			return 'text/css';
 		}

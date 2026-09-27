@@ -44,6 +44,14 @@
 
 	class HumanAnalytics {
 		use CLIAccess;
+		
+		public $arguments;
+		public $previous_period;
+		public $period;
+		public $loading_domain;
+		public $bots_excluded;
+		public $farm_excluded;
+		public $timezones;
 
 		const VISIT_GAP_SECONDS = 1800;
 

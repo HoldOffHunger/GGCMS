@@ -74,6 +74,12 @@
 	*/
 
 	trait ImageQualitySearch {
+		public $available_metrics;
+		public $chosen_metric;
+		public $quality_search_regions;
+		public $last_encoder_error;
+		public $imagemagick_area_limit;
+		
 			// Tunables
 			// -----------------------------------------------
 
@@ -126,7 +132,7 @@
 		}
 
 		public function availableMetrics() {
-			if(property_exists($this, 'available_metrics') && $this->available_metrics !== NULL) {
+			if(isset($this->available_metrics) && $this->available_metrics !== NULL) {
 				return $this->available_metrics;
 			}
 
@@ -146,7 +152,7 @@
 		}
 
 		public function chosenMetric() {
-			if(property_exists($this, 'chosen_metric') && $this->chosen_metric) {
+			if(isset($this->chosen_metric) && $this->chosen_metric) {
 				return $this->chosen_metric;
 			}
 
@@ -233,7 +239,7 @@
 			*/
 
 		public function qualitySearchRegions() {
-			if(property_exists($this, 'quality_search_regions') && $this->quality_search_regions) {
+			if(isset($this->quality_search_regions) && $this->quality_search_regions) {
 				return (int)$this->quality_search_regions;
 			}
 
@@ -704,7 +710,7 @@
 			*/
 
 		public function classifyEncoderFailure() {
-			if(!property_exists($this, 'last_encoder_error') || !$this->last_encoder_error) {
+			if(!isset($this->last_encoder_error) || !$this->last_encoder_error) {
 				return 'encoder-failed';
 			}
 
@@ -740,7 +746,7 @@
 			*/
 
 		public function imageMagickAreaLimit() {
-			if(property_exists($this, 'imagemagick_area_limit') && $this->imagemagick_area_limit !== NULL) {
+			if(isset($this->imagemagick_area_limit) && $this->imagemagick_area_limit !== NULL) {
 				return $this->imagemagick_area_limit;
 			}
 

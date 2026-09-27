@@ -38,6 +38,8 @@
 		use MySQLInternalDatabases;
 		use MySQLGGCMSInternalDatabases;
 		use MySQLClustersInternalDatabases;
+		
+		public $date;
 
 		public function resolveErrorsBeforeDate() {
 			$this->setHandle();

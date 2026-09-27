@@ -5,6 +5,9 @@
 	
 	class spellchecker extends view {
 		use SimpleGeography;	
+		
+		public $misspellings;
+		public $misspelled_words;
 						// Security Data
 						// ---------------------------------------------
 		

@@ -5,6 +5,9 @@
 	class IssueLogging {
 		use LogRedaction;
 		
+		public $handler;
+		public $internal_server_issue;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 		}
@@ -996,7 +999,7 @@
 				return '';
 			}
 
-			if(!property_exists($this->handler, 'script_file')) {
+			if(!isset($this->handler->script_file)) {
 				return '';
 			}
 

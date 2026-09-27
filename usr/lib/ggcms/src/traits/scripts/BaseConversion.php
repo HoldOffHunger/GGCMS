@@ -1,6 +1,8 @@
 <?php
 
 	trait BaseConversion {
+		public $SelectableValue;
+		
 		public function SetConversionBases() {
 			$this->SelectableValue = [];
 			

@@ -18,6 +18,8 @@
 		use SimpleLookupLists;
 		use SimpleORM;
 		
+		public $header_title_text;
+		
 						// Security Data
 						// ---------------------------------------------
 		

@@ -11,6 +11,8 @@
 		use SimpleForms;
 		use SimpleLookupLists;
 		
+		public $results;
+		
 			// Security Data
 		
 		public function IsSecure() {

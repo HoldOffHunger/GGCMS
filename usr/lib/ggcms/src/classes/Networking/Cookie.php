@@ -1,6 +1,9 @@
 <?php
 
 	class Cookie {
+		public $handler;
+		public $cookie;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			$this->cookie = $_COOKIE;

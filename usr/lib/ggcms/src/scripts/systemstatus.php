@@ -14,6 +14,12 @@
 		use CryptographicFunctions;
 		use SimpleForms;
 		
+		public $good_function_name;
+		public $php_command;
+		public $StatusDataArray;
+		public $SubmittedValue;
+		public $SubmittedValuePrintable;
+		
 				// Security
 		
 		public function IsSecure() {

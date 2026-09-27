@@ -7,6 +7,9 @@
 		use SimpleForms;
 		use SimpleORM;
 		
+		public $redirect_script;
+		public $redirect_action;
+		
 			// Security Data
 		
 		public function IsSecure() {

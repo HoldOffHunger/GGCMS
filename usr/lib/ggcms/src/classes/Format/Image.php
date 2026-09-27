@@ -1,6 +1,8 @@
 <?php
 
 	class Image extends AbstractBaseFormat {
+		public $handler;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 		}

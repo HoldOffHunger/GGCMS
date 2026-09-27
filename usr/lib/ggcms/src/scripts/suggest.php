@@ -3,6 +3,12 @@
 	ggreq('scripts/view.php');
 	
 	class suggest extends view {
+		public $suggestion_definition;
+		public $suggestion_record;
+		public $suggestion;
+		public $suggestionexplanation;
+		public $suggestiontype;
+		
 		
 						// Security Data
 						// ---------------------------------------------

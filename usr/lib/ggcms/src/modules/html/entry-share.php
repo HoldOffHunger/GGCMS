@@ -1,6 +1,8 @@
 <?php
 
 	class module_entryshare extends module_spacing {
+		public $that;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 		}

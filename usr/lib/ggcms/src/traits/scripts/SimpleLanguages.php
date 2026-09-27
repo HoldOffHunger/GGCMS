@@ -1,6 +1,8 @@
 <?php
 
 	trait SimpleLanguages {
+		public $SelectableLanguages;
+		
 		public function SetSelectableLanguages()
 		{
 			$this->SelectableLanguages = [];

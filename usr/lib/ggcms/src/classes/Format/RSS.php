@@ -1,6 +1,13 @@
 <?php
 
 	class RSS extends AbstractBaseFormat {
+		public $section_separator;
+		public $line_separator;
+		public $indent_levels;
+		public $version;
+		public $version_float;
+		public $entries;
+		
 			// XML MimeType
 			// -----------------------------------------------
 		

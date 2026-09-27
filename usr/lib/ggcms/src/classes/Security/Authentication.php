@@ -1,6 +1,12 @@
 <?php
 
 	class Authentication {
+		public $handler;
+		public $script;
+		public $redirect_type;
+		public $base_object;
+		public $random;
+		
 		public $access_granted;
 		public $redirect;
 		public $protocol;

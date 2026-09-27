@@ -1,6 +1,15 @@
 <?php
 
 	class DBAccessUpgraded extends DBAccess {
+		public $handler;
+		public $mysql_time_string;
+		public $ip_address;
+		public $escapemysql;
+		public $hardcoded_table_entries;
+		public $db_file_cache;
+		public $db_link;
+		public $queries;
+		
 		public function Upgraded() {
 			return TRUE;
 		}
@@ -48,8 +57,6 @@
 			}
 			
 			$this->queries = [];
-			
-			return TRUE;
 		}
 		
 		public function Enabled() {
@@ -62,6 +69,8 @@
 				print_r($this->queries);
 				print('</pre>');
 			}
+			
+			return TRUE;
 		}
 		
 		/*

@@ -1,6 +1,10 @@
 <?php
 
 	class module_entrychildren extends module_spacing {
+		public $that;
+		public $header;
+		public $entrysort;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->header = $args['header'];

@@ -1,6 +1,24 @@
 <?php
 
 	class DBAccess {
+		public $handler;
+		public $mysql_time_string;
+		public $hardcoded_table_entries;
+		public $db_file_cache;
+		public $database;
+		public $hostlabel;
+		public $db_link;
+		public $hostname;
+		public $close_debug;
+		public $row_cache_dirty_entry_ids;
+		public $row_cache_dirty_codes;
+		public $row_cache_dirty_user_ids;
+		public $row_cache_dirty_all_trees;
+		public $row_cache_dirty_all_comments;
+		public $row_cache_dirty;
+		public $page_cache_dirty_scope;
+		public $page_cache_dirty;
+		
 		public $ip_address;
 		
 		public $escapemysql;
@@ -40,8 +58,6 @@
 					die('Unable to proceed if user has no recognizable IP address.');
 				}
 			}
-			
-			return TRUE;
 		}
 		
 		public function SetDatabase($args) {
@@ -60,6 +76,8 @@
 				$this->database = $valid_database_name;
 				$this->hostlabel = $valid_host_label;
 			}
+			
+			return TRUE;
 		}
 		
 			// Start/Stop the DB
@@ -1400,7 +1418,7 @@
 			*/
 
 		public function PageCacheHostsToFlush() {
-			if(!is_object($this->handler) || !property_exists($this->handler, 'domain')) {
+			if(!is_object($this->handler) || !isset($this->handler->domain)) {
 				return [];
 			}
 

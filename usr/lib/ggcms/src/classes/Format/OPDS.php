@@ -1,6 +1,15 @@
 <?php
 
 	class OPDS extends AbstractBaseFormat {
+		public $script;
+		public $mimetype;
+		public $format_object;
+		public $opds_output;
+		public $id;
+		public $title;
+		public $author;
+		public $description;
+		
 		public function MimeType() {
 			return 'application/xml';
 		}

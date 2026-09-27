@@ -12,6 +12,8 @@ ALTER TABLE TextBody ADD FULLTEXT INDEX `Text`  (`Text` DESC);
 */
 
 	class ORMSearchURL {
+		public $dbaccessobject;
+		
 		
 			// Construction
 			// -------------------------------------------------

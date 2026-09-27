@@ -1,6 +1,10 @@
 <?php
 
 	class module_auth extends module_spacing {
+		public $that;
+		public $username;
+		public $redirect_url;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			

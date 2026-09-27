@@ -31,6 +31,11 @@
 	class FreeSpace {
 		use ByteDisplay;
 		use CLIAccess;
+		
+		public $paths;
+		public $warn_percent;
+		public $fail_percent;
+		public $quiet;
 
 		public function checkFreeSpace() {
 			$this->readArguments();

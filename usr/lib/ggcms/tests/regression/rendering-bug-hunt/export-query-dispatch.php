@@ -17,6 +17,8 @@ require $root.'/src/classes/Format/Base/AbstractBaseFormat.php';
 require $root.'/src/classes/Format/TXT.php';
 class ExportTextFixture extends TXT {public function __construct(){}public function SetFileNameDisplay(){}public function HandleHTTPHeaders(){}}
 class Handler {
+ public $calls;
+ 
  public static $mode;public static $action;public $error_logging;
  public function __construct(){$this->error_logging=new class{public function mylog($error,$level,$trace){print('Server error');}};}
  public function HandleRequest(){

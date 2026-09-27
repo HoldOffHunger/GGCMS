@@ -17,6 +17,13 @@
 		use DBTest;
 		use CLIAccess;
 		
+		public $archive_or_backup;
+		public $archive_or_backup_nicetype;
+		public $backup_databases;
+		public $backup_dir;
+		public $archive_dir;
+		public $file_location;
+		
 		public function backup() {
 			$this->setHandle();
 			$this->bannerMessage();
@@ -82,7 +89,7 @@
 		}
 		
 		public function getBackedUpMySQLDatabases() {
-			if(property_exists($this, 'backup_databases')) {
+			if(isset($this->backup_databases)) {
 				return $this->backup_databases;
 			}
 			$backup_directory = scandir($this->backup_dir);

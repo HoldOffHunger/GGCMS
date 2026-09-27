@@ -1,6 +1,12 @@
 <?php
 
 	class module_entrytextbody extends module_spacing {
+		public $that;
+		public $header;
+		public $subheader;
+		public $noalts;
+		public $alts;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->header = $args['header'];

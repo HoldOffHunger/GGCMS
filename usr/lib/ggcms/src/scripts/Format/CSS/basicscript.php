@@ -1,6 +1,8 @@
 <?php
 
 	class basicscript extends baseformat {
+		public $navigation;
+		
 			// Page Configuration
 			// ------------------------------------------------
 		

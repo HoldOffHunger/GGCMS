@@ -1,6 +1,14 @@
 <?php
 
 	class ClientSideIncludes {
+		public $desired_action;
+		public $script_file;
+		public $domain_object;
+		public $secure_script;
+		public $language;
+		public $google_api;
+		public $globals;
+		
 		public function __construct($args) {
 			$this->desired_action = $args['desiredaction'];
 			$this->script_file = $args['scriptfile'];

@@ -18,6 +18,9 @@
 		use SimpleLookupLists;
 		use SimpleORM;
 		
+		public $letter;
+		public $reformatted_file;
+		
 						// Security Data
 						// ---------------------------------------------
 		

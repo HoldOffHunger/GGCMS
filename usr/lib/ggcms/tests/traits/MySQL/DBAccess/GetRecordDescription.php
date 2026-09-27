@@ -1,5 +1,7 @@
 <?php
 	trait GetRecordDescriptionTrait {
+		public $handler;
+		
 							// RUN TESTS
 							// --------------------------------------------
 							// --------------------------------------------

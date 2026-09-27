@@ -37,6 +37,13 @@
 		use CLIAccess;
 		use ReverseDNSNotation;
 		use DomainValidation;
+		
+		public $archive_paths;
+		public $discard_paths;
+		public $enabled_sites;
+		public $stamp;
+		public $staging;
+		public $tarball;
 
 		const RETIRED_DIRECTORY = '/mnt/nyc01/ggcms_retired/';
 		const CONFIG_CHECKOUT = '/opt/ggcms-config/';

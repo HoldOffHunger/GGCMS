@@ -1,6 +1,8 @@
 <?php
 
 	trait DBAccess {
+		public $db_link;
+		
 		/*
 			The fourth argument to mysqli is the database, not the host.  It is
 			named $host here because CLIAccess::setDomain() stores the first
@@ -20,7 +22,7 @@
 		public function setMySQLArgs() {
 			$database = '';
 
-			if(property_exists($this, 'host') && $this->host) {
+			if(isset($this->host) && $this->host) {
 				$database = $this->host;
 			}
 

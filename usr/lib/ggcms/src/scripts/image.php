@@ -10,6 +10,18 @@
 		use SimpleORM;
 		use SimpleSocialMedia;
 		
+		public $desired_action;
+		public $children_count;
+		public $image_count;
+		public $page;
+		public $custom_per_page_selected;
+		public $perpage;
+		public $child_record_start_index;
+		public $child_record_end_index;
+		public $total_pages;
+		public $total_images_viewed;
+		public $total_children_left;
+		
 			// Security Data
 		
 		public function IsSecure() {

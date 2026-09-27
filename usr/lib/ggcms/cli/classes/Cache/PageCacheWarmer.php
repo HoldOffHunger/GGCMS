@@ -36,6 +36,9 @@
 	*/
 
 	class PageCacheWarmer {
+		public $argv;
+		public $options;
+		
 
 			// Construction
 			// -------------------------------------------------

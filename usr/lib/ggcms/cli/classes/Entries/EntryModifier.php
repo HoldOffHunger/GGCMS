@@ -26,6 +26,15 @@
 		use CLIAccess;
 		use DomainValidation;
 		use ErrorCLI;
+		
+		public $action;
+		public $path;
+		public $user;
+		public $apply;
+		public $show_response;
+		public $dump_form;
+		public $fields;
+		public $clear;
 
 		public function bannerMessageText() {
 			return 'Modify Entry';
@@ -685,7 +694,7 @@
 
 			$script = FALSE;
 
-			if(property_exists($handler, 'script') && is_object($handler->script)) {
+			if(isset($handler->script) && is_object($handler->script)) {
 				$script = $handler->script->script;
 			}
 
@@ -694,7 +703,7 @@
 				return FALSE;
 			}
 
-			$status = property_exists($script, 'save_status') ? $script->save_status : '';
+			$status = isset($script->save_status) ? $script->save_status : '';
 
 			print('Status   : ' . ($status ? $status : '(none reported)') . PHP_EOL);
 			print('Response : ' . strlen($output) . ' bytes' . PHP_EOL);

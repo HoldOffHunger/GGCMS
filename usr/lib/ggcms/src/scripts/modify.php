@@ -22,6 +22,59 @@
 		use SimpleORM;
 		use UserAccounts;
 		
+		public $last_unpublished_add;
+		public $last_unpublished_edit;
+		public $image;
+		public $entry;
+		public $eventdate;
+		public $entryid;
+		public $saveaccepted;
+		public $savepreparedresults;
+		public $saveattemptresults;
+		public $save_status;
+		public $delete_in_progress;
+		public $saveattempted;
+		public $parent;
+		public $entry_unset;
+		public $errors;
+		public $entrytranslation_unset;
+		public $description_unset;
+		public $quote_unset;
+		public $textbody_unset;
+		public $image_unset;
+		public $imagetranslation_unset;
+		public $tag_unset;
+		public $link_unset;
+		public $eventdate_unset;
+		public $association_unset;
+		public $availabilitydaterange_unset;
+		public $definition_unset;
+		public $entry_original;
+		public $images;
+		public $entrypermission;
+		public $entrypermission_unset;
+		public $entrypermission_unformatted;
+		public $check_record_results;
+		public $entry_unprepared;
+		public $textbody_unprepared;
+		public $textbody;
+		public $image_unfilled;
+		public $eventdate_unprepared;
+		public $association_unprepared;
+		public $association;
+		public $availabilitydaterange_unprepared;
+		public $availabilitydaterange;
+		public $assignment;
+		public $entry_unsaved;
+		public $admin_errors;
+		public $availabilitydateranges;
+		public $grammar;
+		public $textcleanup;
+		public $definition_object;
+		public $definition;
+		public $association_types;
+		public $association_config_to_use;
+		
 						// Security Data
 						// ---------------------------------------------
 		

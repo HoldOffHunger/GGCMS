@@ -8,6 +8,9 @@
 				
 				
 	class EnglishMisspellings {
+		public $words;
+		public $misspellings;
+		
 			/* __construct($args)
 			
 				Constructor.

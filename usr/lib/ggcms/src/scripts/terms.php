@@ -7,6 +7,8 @@
 	require(GGCMS_DIR . 'scripts/view.php');
 
 	class terms extends view {
+		public $header_title_text;
+		
 		
 						// Security Data
 						// ---------------------------------------------

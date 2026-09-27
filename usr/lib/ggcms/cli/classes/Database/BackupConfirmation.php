@@ -64,6 +64,14 @@
 		use CLIAccess;
 		use DomainValidation;
 		use BackupTrait;
+		
+		public $only_domain;
+		public $max_age_hours;
+		public $min_bytes;
+		public $shrink_percent;
+		public $deep;
+		public $as_csv;
+		public $quiet;
 
 		public function bannerMessageText() {
 			return 'Confirm Database Backups';

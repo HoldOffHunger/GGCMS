@@ -1,6 +1,10 @@
 <?php
 
 	trait SimplePing {
+		public $curl_status;
+		public $curl;
+		public $network_status_code;
+		
 		public function SetCurlStatus($args) {
 			$this->SetCurlStatus_RequireFiles();
 			

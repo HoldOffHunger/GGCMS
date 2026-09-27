@@ -25,6 +25,10 @@
 		use DigitalOceanDNSRecords;
 		use DomainValidation;
 		
+		public $answer_type;
+		public $formatted_records;
+		public $source_filename;
+		
 		public function installDomain() {
 			$this->setHandle();
 			$this->bannerMessage();

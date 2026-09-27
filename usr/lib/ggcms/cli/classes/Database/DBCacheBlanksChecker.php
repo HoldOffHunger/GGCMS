@@ -20,6 +20,10 @@
 		use DomainValidation;
 		use ReverseDNSNotation;
 		
+		public $reversed_domain;
+		public $db_cache_location;
+		public $domain_cache_location;
+		
 		public function checkDBCacheBlanks() {
 			$this->setHandle();
 			$this->bannerMessage();

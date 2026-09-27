@@ -2,6 +2,9 @@
 
 	class module_similarsites_satellites extends module_spacing
 	{
+		public $site;
+		public $language;
+		
 		public function __construct($args)
 		{
 			$this->site = $args['site'];

@@ -23,6 +23,10 @@
 	*/
 
 	class CLIHandler extends Handler {
+		public $access;
+		public $redirect;
+		public $authentication;
+		
 
 			/*
 				parent is not called.  This method exists to construct a

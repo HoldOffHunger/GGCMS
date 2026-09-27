@@ -1,6 +1,10 @@
 <?php
 
 	class module_entrylikes extends module_spacing {
+		public $that;
+		public $like_mouseover_value;
+		public $cursor_class;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			

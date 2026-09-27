@@ -48,6 +48,8 @@
 		use CLIAccess;
 		use GlobalsTrait;
 		use ImageFiles;
+		
+		public $arguments;
 
 			// Entry Point
 			// -----------------------------------------------

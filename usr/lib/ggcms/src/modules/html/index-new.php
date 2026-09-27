@@ -1,6 +1,10 @@
 <?php
 
 	class module_indexnew extends module_spacing {
+		public $that;
+		public $entrysort;
+		public $header_text;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->entrysort = $args['entrysort'];

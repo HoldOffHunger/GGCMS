@@ -10,6 +10,9 @@
 	*/
 
 	class GoogleAnalytics {
+		public $handler;
+		public $configgtag;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			

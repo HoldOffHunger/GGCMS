@@ -1,6 +1,10 @@
 <?php
 
 	class module_navigation extends module_spacing {
+		public $globals;
+		public $language_object;
+		public $domain_object;
+		
 		public function __construct($args) {
 			$this->globals = $args['globals'];
 			$this->language_object = $args['languageobject'];

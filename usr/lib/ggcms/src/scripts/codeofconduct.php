@@ -3,6 +3,8 @@
 	ggreq('scripts/view.php');
 
 	class codeofconduct extends view {
+		public $header_title_text;
+		
 		
 						// Security Data
 						// ---------------------------------------------

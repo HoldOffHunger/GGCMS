@@ -29,6 +29,8 @@
 		use Directories;
 		use FileSystem;
 		use GlobalsTrait;
+		
+		public $failures;
 
 		public function checkInstall() {
 			$this->setHandle();

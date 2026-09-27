@@ -24,7 +24,7 @@ export GGCMS_CONFIG_REPO=/path/to/GGCMS_Unhireable
 export GGCMS_WORK_DIR=/path/to/scratch
 
 vendor/bin/phpunit                        # src and cli suites
-vendor/bin/phpunit --testsuite lint       # php -l over both repositories
+vendor/bin/phpunit --testsuite lint       # php -l and declared properties, both repositories
 vendor/bin/phpunit --filter PageCache     # one class, or Class::method
 vendor/bin/phpunit "$GGCMS_CONFIG_REPO/tests"   # the private repository's own suite
 ```
@@ -38,7 +38,7 @@ Scratch files -- the page cache tests write real pages -- go under
 |---|---|---|
 | `src` | `tests/src/` | The engine: classes and traits under `usr/lib/ggcms/src/` |
 | `cli` | `tests/cli/` | The CLI application's classes and traits |
-| `lint` | `tests/lint/` | `php -l` over every PHP file in both repositories.  Not in the default run; about fifteen seconds |
+| `lint` | `tests/lint/` | `php -l` over every PHP file in both repositories, and a check that every property a class assigns is declared (PHP 9 makes the rest an Error).  Not in the default run; about fifteen seconds |
 | config | `tests/` in the private repository | The shape of `etc/ggcms/` and the template sets.  Site-specific, so it cannot live here |
 
 ## Conventions

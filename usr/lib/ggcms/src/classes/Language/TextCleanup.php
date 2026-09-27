@@ -2,6 +2,8 @@
 
 	class TextCleanup
 	{
+		public $grammar;
+		
 		
 						// Construction
 						// ------------------------------------------------------------------------

@@ -54,6 +54,8 @@
 		use GlobalsTrait;
 		use ImageFiles;
 		use ReverseDNSNotation;
+		
+		public $arguments;
 
 			// Entry Point
 			// -----------------------------------------------

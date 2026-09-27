@@ -1,6 +1,9 @@
 <?php
 
 	class module_indexrandom extends module_spacing {
+		public $that;
+		public $entrysort;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->entrysort = $args['entrysort'];

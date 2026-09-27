@@ -24,6 +24,11 @@
 		use SimpleOrm;
 		use SimplePing;
 		
+		public $url;
+		public $backup_url;
+		public $curl_status_display;
+		public $output;
+		
 				// Security
 		
 		public function IsSecure() {

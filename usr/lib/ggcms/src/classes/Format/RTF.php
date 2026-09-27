@@ -1,6 +1,10 @@
 <?php
 
 	class RTF extends AbstractBaseFormat {
+		public $rtf_output;
+		public $rtf_input;
+		public $rtf_filename;
+		
 		public function MimeType() {
 			return 'text/richtext';
 		}

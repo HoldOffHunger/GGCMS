@@ -1,6 +1,8 @@
 <?php
 
 	class BRF extends AbstractBaseFormat {
+		public $braille_handler;
+		
 			// TXT MimeType
 			// -----------------------------------------------
 		

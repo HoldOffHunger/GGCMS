@@ -1,6 +1,9 @@
 <?php
 
 	class module_entrydescription extends module_spacing {
+		public $that;
+		public $header;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->header = $args['header'];

@@ -44,6 +44,8 @@
 		use GlobalsTrait;
 		use ImageFiles;
 		use ImageRows;
+		
+		public $arguments;
 
 			// Entry Point
 			// -----------------------------------------------

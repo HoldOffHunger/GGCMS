@@ -13,6 +13,14 @@
 		use DBTest;
 		use CLIAccess;
 		
+		public $source_location;
+		public $archive_location;
+		public $backup_location;
+		public $backup_filenames;
+		public $source_tree;
+		public $backup;
+		public $output;
+		
 		public function backup() {
 			$this->setHandle();
 			$this->bannerMessage();
@@ -236,7 +244,7 @@
 		}
 		
 		public function backupSourceTree() {
-			if(property_exists($this, 'source_tree')) {
+			if(isset($this->source_tree)) {
 				return $this->source_tree;
 			}
 			

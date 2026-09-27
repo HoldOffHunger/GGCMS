@@ -1,6 +1,8 @@
 <?php
 
 	class ORMSiteMap {
+		public $dbaccessobject;
+		
 		
 			// Construction
 			// -------------------------------------------------

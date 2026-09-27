@@ -8,6 +8,8 @@
 				
 				
 	class AmericanBritishSpellings {
+		public $words;
+		
 			/* __construct($args)
 			
 				Constructor.

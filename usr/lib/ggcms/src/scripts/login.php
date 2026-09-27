@@ -9,6 +9,8 @@
 		use SimpleForms;
 		use SimpleORM;
 		
+		public $login_results;
+		
 			// Security Data
 		
 		public function IsSecure() {

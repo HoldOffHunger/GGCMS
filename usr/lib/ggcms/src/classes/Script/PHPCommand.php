@@ -2,6 +2,15 @@
 
 	class PHPCommand extends PHP
 	{
+			// One per GetFunctionAttributes() entry, set through $this->$function_attribute.
+		public $FullFunctionName;
+		public $ShortFunctionName;
+		public $ShortSpacelessFunctionName;
+		public $CallableFunctionName;
+		public $PrettyCallableFunctionName;
+		public $FunctionStylesName;
+		public $Parameters;
+		
 		public function __construct($args)
 		{
 			$all_php_function_information = $this->GetAllPHPFunctionInformation();

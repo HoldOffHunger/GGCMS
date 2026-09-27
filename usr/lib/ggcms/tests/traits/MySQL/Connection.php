@@ -1,5 +1,7 @@
 <?php
 	trait ConnectionTrait {
+		public $db_link;
+		
 		public function testConnection() {
 			$test_string = 'Hello, World!';
 			$test_result = '';

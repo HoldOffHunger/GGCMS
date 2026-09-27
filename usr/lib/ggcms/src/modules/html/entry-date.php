@@ -1,6 +1,13 @@
 <?php
 
 	class module_entrydate extends module_spacing {
+		public $that;
+		public $record;
+		public $entry_event_count;
+		public $simpledisplaytxt;
+		public $simpledisplayhtml;
+		public $simpledata;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->record = $this->that->entry;

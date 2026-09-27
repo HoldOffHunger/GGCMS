@@ -18,6 +18,57 @@
 		use SimpleORM;
 		use SimpleSocialMedia;
 		
+		public $by;
+		public $fieldname_validity;
+		public $select;
+		public $urlaction;
+		public $script_name;
+		public $fieldname;
+		public $matchlike;
+		public $admin_errors;
+		public $selections;
+		public $StatusDataArray;
+		public $errors;
+		public $likes;
+		public $entry_count;
+		public $redirect_script;
+		public $redirect_action;
+		public $redirect_base;
+		public $redirect_query;
+		public $children;
+		public $definitions;
+		public $definition_count;
+		public $tag;
+		public $tag_cleansed;
+		public $where;
+		public $page;
+		public $custom_per_page_selected;
+		public $perpage;
+		public $child_record_start_index;
+		public $child_record_end_index;
+		public $total_pages;
+		public $total_children_viewed;
+		public $total_children_left;
+		public $desired_action;
+		public $counts;
+		public $entry;
+		public $parent;
+		public $newest_entries;
+		public $record_list;
+		public $word;
+		public $search_term;
+		public $dictionary;
+		public $entrydictionary;
+		public $grammar;
+		public $textcleanup;
+		public $definition;
+		public $definitions_found;
+		public $likes_count;
+		public $dislikes_count;
+		public $user_likedislike;
+		public $rpc_results;
+		public $user_id;
+		
 						// Security Data
 						// ---------------------------------------------
 		

@@ -1,6 +1,8 @@
 <?php
 
 	class ORMDictionary {
+		public $dbaccessobject;
+		
 			// Construction
 			// -------------------------------------------------
 		

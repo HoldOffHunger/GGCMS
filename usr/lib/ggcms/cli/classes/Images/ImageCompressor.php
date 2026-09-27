@@ -54,6 +54,10 @@
 		use GlobalsTrait;
 		use ImageFiles;
 		use ImageQualitySearch;
+		
+		public $ledger;
+		public $arguments;
+		public $last_encoder_error;
 
 			// Entry Point
 			// -----------------------------------------------

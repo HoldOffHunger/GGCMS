@@ -54,6 +54,14 @@
 		use CLIAccess;
 		use DomainValidation;
 		use BackupTrait;
+		
+		public $only_domain;
+		public $all_databases;
+		public $keep;
+		public $gzip;
+		public $dry_run;
+		public $quiet;
+		public $last_stderr_file;
 
 		public function bannerMessageText() {
 			return 'Backup All Databases';
@@ -371,7 +379,7 @@
 		}
 
 		public function readStderr() {
-			if(!property_exists($this, 'last_stderr_file') || !is_file($this->last_stderr_file)) {
+			if(!isset($this->last_stderr_file) || !is_file($this->last_stderr_file)) {
 				return '';
 			}
 

@@ -1,6 +1,42 @@
 <?php
 
 	class AbstractBaseFormat {
+		public $filename_internal;
+		public $filename_public;
+		public $script;
+		public $human_readable;
+		public $source_file_location;
+		public $output_file_location;
+		public $last_script_run;
+		public $handler;
+		public $script_location;
+		public $authentication_object;
+		public $version_object;
+		public $cleanser_object;
+		public $query_object;
+		public $db_access_object;
+		public $domain_object;
+		public $language;
+		public $time;
+		public $cookie;
+		public $globals;
+		public $dictionary;
+		public $desired_script;
+		public $desired_action;
+		public $desired_function;
+		public $object_code;
+		public $object_parent;
+		public $object_list;
+		public $script_name;
+		public $script_file;
+		public $script_classname;
+		public $script_extension;
+		public $script_format;
+		public $script_format_lower;
+		public $script_args;
+		public $google_api;
+		public $classname_corrected;
+		
 			// Base MimeType
 			// -----------------------------------------------
 		

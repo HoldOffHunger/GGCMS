@@ -1,6 +1,8 @@
 <?php
 
 	class HTML_Navigation {
+		public $handler;
+		
 		public $domain_object;
 		public function __construct () {
 			$this->domain_object = $args['domainobject'];

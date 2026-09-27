@@ -5,6 +5,10 @@
 			// https://www.google.com/webmasters/tools/home
 
 	class Google {
+		public $handler;
+		public $client_id;
+		public $client_secret;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			

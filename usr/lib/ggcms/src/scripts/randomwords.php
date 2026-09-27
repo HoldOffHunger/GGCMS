@@ -15,6 +15,8 @@
 	*/
 
 	class randomwords extends basicscript {
+		public $rpc_results;
+		
 
 						// Security Data
 						// ---------------------------------------------

@@ -1,6 +1,8 @@
 <?php
 
 	trait PrivacyPolicy {
+		public $header_title_text;
+		
 		public function getPrivacyPolicy() {
 			$privacy_policy_paragraphs = $this->getPrivacyPolicyParagraphs();
 			

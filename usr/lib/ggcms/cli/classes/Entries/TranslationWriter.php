@@ -28,6 +28,14 @@
 		use DBAccess;
 		use DomainValidation;
 		use ErrorCLI;
+		
+		public $records;
+		public $language;
+		public $limit;
+		public $apply;
+		public $store_location;
+		public $applied;
+		public $skipped;
 
 		public function bannerMessageText() {
 			return 'Apply Translation Review';

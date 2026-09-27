@@ -1,6 +1,14 @@
 <?php
 
 	class module_entryheader extends module_spacing {
+		public $that;
+		public $time_frame;
+		public $header_text;
+		public $header_subtext;
+		public $record_list_count;
+		public $title_tags;
+		public $images;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->time_frame = $args['time_frame'];

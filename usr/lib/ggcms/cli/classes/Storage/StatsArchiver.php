@@ -50,6 +50,8 @@
 		use ByteDisplay;
 		use CLIAccess;
 		use DomainValidation;
+		
+		public $arguments;
 
 			// Entry Point
 			// -----------------------------------------------

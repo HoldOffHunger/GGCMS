@@ -37,6 +37,13 @@
 	
 	class Definition
 	{
+		public $grammar;
+		public $textcleanup;
+		public $defined_separators;
+		public $rejected_words_for_defined_words;
+		public $canceled_words_for_defined_words;
+		public $canceled_words_for_definitions;
+		
 						// TOC
 						// ------------------------------------------------------------------------
 				

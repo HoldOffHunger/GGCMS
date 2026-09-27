@@ -3,6 +3,9 @@
 	ggreq('scripts/view.php');
 
 	class userpanel extends view {
+		public $unpublished_submissions;
+		public $submission_counts;
+		
 						// Security Data
 						// ---------------------------------------------
 		

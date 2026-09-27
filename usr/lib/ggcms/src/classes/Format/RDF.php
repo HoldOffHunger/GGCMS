@@ -1,6 +1,12 @@
 <?php
 
 	class RDF extends AbstractBaseFormat {
+		public $rdf_output;
+		public $id;
+		public $title;
+		public $author;
+		public $description;
+		
 		public function MimeType() {
 			return 'application/rdf+xml';
 		}

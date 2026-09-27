@@ -29,6 +29,10 @@
 
 	class TrafficAnalytics {
 		use CLIAccess;
+		
+		public $window_start;
+		public $arguments;
+		public $earliest_seen;
 
 			// Entry Point
 			// -----------------------------------------------

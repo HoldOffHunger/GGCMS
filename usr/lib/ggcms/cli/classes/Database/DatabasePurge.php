@@ -17,6 +17,8 @@
 		use CLIAccess;
 		use DomainValidation;
 		
+		public $purge_files;
+		
 		public function purge() {
 			$this->setHandle();
 			$this->bannerMessage();

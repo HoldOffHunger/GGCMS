@@ -1,6 +1,14 @@
 <?php
 
 	class module_entryindexheader extends module_entryheader {
+		public $that;
+		public $main_text;
+		public $sub_text;
+		public $sub2_text;
+		public $sub_title;
+		public $record_list_count;
+		public $images;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			

@@ -3,6 +3,21 @@
 	ggreq('scripts/view.php');
 
 	class users extends view {
+		public $redirect_script;
+		public $likedislikes;
+		public $user;
+		public $comments;
+		public $children;
+		public $where;
+		public $page;
+		public $custom_per_page_selected;
+		public $perpage;
+		public $child_record_start_index;
+		public $child_record_end_index;
+		public $total_pages;
+		public $total_children_viewed;
+		public $total_children_left;
+		
 						// Security Data
 						// ---------------------------------------------
 		

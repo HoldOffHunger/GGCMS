@@ -1,6 +1,9 @@
 <?php
 
 	trait DBFunctions {
+		public $mysql_tables;
+		public $mysql_tables_select;
+		
 		public function GetAllTablesMySQLSelect() {
 			$this->mysql_tables = $this->db_admin->GetTableNames();
 			$this->mysql_tables_select = [];

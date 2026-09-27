@@ -12,6 +12,15 @@ error_reporting(E_ALL);
 
 	class AbstractGlobals {
 		use ReverseDNSNotation;
+		
+		public $handler;
+		public $script;
+		public $language_script;
+		public $formats_linkto;
+		public $format_requested;
+		public $child_types;
+		public $record_relations;
+		public $site;
 		public function __construct($args) {
 			$this->setHandler($args);
 			$this->buildAbstractGlobals_Scripts();

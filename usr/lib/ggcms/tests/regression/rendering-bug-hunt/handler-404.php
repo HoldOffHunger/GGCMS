@@ -5,6 +5,8 @@ function ggreq($path) { require_once dirname(__DIR__, 3) . '/src/' . $path; }
 ggreq('traits/ReverseDNSNotation.php');
 ggreq('classes/Networking/Handler.php');
 class DispatchFixture extends Handler {
+ public $logs;
+ 
  public $before_content = TRUE, $error_404 = FALSE, $error404redirect;
  public $unavailable_entry = NULL, $authentication, $issue_logging;
  public $resolves, $repairs, $content_result, $content_calls = 0, $repair_calls = 0;

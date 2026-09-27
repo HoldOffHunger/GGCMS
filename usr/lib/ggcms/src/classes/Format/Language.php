@@ -1,6 +1,13 @@
 <?php
 
 	class Language {
+		public $handler;
+		public $requested_language_code;
+		public $language_code;
+		public $language;
+		public $default_language_code;
+		public $supported_language_codes;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			

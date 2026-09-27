@@ -1,6 +1,8 @@
 <?php
 
 	trait SimpleImages {
+		public $image_folder_directory;
+		
 		public function GetImageFolderDirectory() {
 			if($this->image_folder_directory) {
 				return $this->image_folder_directory;

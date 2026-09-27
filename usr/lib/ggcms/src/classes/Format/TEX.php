@@ -1,6 +1,11 @@
 <?php
 
 	class TEX extends AbstractBaseFormat {
+		public $tex_output;
+		public $title;
+		public $author;
+		public $description;
+		
 		public function MimeType() {
 			return 'application/x-tex';
 		}

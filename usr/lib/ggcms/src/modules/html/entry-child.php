@@ -59,6 +59,32 @@
 	*/
 
 	class module_entrychild extends module_spacing {
+		public $that;
+		public $child;
+		public $thumbnail;
+		public $linked;
+		public $image_directory;
+		public $fallback_image;
+		public $excerpt;
+		public $root_links;
+		public $title_style;
+		public $link_suffix;
+		public $root_child_links;
+		public $publication_year;
+		public $detail_line;
+		public $header_level;
+		public $plain_float;
+		public $grandchildren;
+		public $tag_counts;
+		public $grandchild_excerpt;
+		public $hover_prefix;
+		public $grandchild_hover;
+		public $header;
+		public $divider;
+		public $entrysort;
+		public $display_image;
+		public $time_frame;
+		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->child = $args['child'];

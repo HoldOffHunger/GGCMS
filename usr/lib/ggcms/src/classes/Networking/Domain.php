@@ -1,6 +1,12 @@
 <?php
 
 	class Domain {
+		public $handler;
+		public $protocol;
+		public $host;
+		public $primary_domain;
+		public $primary_domain_lowercased;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			

@@ -14,6 +14,9 @@
 		use SimpleORM;
 		use SimpleSocialMedia;
 		
+		public $text;
+		public $converted_text;
+		
 			// Security Data
 		
 		public function IsSecure() {

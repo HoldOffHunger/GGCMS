@@ -28,6 +28,67 @@
 		use SimpleOrm;
 		use SimpleORMSiteMap;
 		
+		public $StatusDataArray;
+		public $SelectedMySQLTables;
+		public $master_table;
+		public $entry_code_count;
+		public $sitemap_submission_links;
+		public $sitemap_submission_links_count;
+		public $new_host_to_clone;
+		public $clone_from;
+		public $clone_success;
+		public $create_tables;
+		public $clone_results;
+		public $insert_master_admin_account;
+		public $clone_files_from_clonefrom;
+		public $clone_stats_from_clonefrom;
+		public $clone_data_folders;
+		public $title;
+		public $lookup_list;
+		public $items;
+		public $lookup_list_items;
+		public $import_list;
+		public $client;
+		public $import_status;
+		public $lookup_lists_found;
+		public $imported_lookup_lists;
+		public $imported_lookup_list_counts;
+		public $imported_lookup_list_counts_display;
+		public $imported_lookup_list_items;
+		public $lookup_lists;
+		public $delete;
+		public $Title;
+		public $lookup_list_old;
+		public $lookup_list_items_old;
+		public $lookup_list_items_unsaved;
+		public $loaded_lookup_lists;
+		public $broken_entries;
+		public $broken_entries_count;
+		public $recordtype;
+		public $specificrecord;
+		public $fixresults;
+		public $do_detection;
+		public $broken_records;
+		public $image_count;
+		public $broken_records_count;
+		public $algorithm;
+		public $correction_start_id;
+		public $correction_end_id;
+		public $misspellings;
+		public $misspellingscount;
+		public $intensivemisspellings;
+		public $intensivemisspellingscount;
+		public $maxmin;
+		public $type;
+		public $entry_start;
+		public $entry_end;
+		public $recordfield;
+		public $search_results;
+		public $search_header;
+		public $search_results_count;
+		public $orm_search;
+		public $entry_scores;
+		
 				// Security
 		
 		public function IsSecure() {

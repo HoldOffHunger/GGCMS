@@ -1,6 +1,12 @@
 <?php
 
 	trait SimpleForms {	
+		public $values;
+		public $navigation;
+		public $StatusDataArray;
+		public $SubmittedValue;
+		public $SubmittedValuePrintable;
+		
 				# GenerateEntryListTitle ()
 			# GIVEN :
 		#	A Test: An Other  Test -- The Last Test, Part 14, Section 138, Sub-Section Theta 55

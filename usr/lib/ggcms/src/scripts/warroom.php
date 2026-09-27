@@ -8,6 +8,19 @@
 		use DBFunctions;
 		use SimpleForms;
 		
+		public $primary_hosts;
+		public $primary_hosts_count;
+		public $comments;
+		public $suggestions;
+		public $errors;
+		public $issues;
+		public $error;
+		public $error_instances;
+		public $comment;
+		public $suggestion;
+		public $client;
+		public $id;
+		
 			// Security Data
 		
 		public function IsSecure() {

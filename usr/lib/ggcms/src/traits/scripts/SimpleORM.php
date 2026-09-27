@@ -1,6 +1,52 @@
 <?php
 
 	trait SimpleORM {
+		public $parent;
+		public $entry;
+		public $parentid;
+		public $orm;
+		public $record_list;
+		public $definitions;
+		public $tag_counts;
+		public $entries;
+		public $where;
+		public $children;
+		public $children_random;
+		public $children_count;
+		public $entry_count;
+		public $comments_count;
+		public $likes_count;
+		public $dislikes_count;
+		public $total_likes_count;
+		public $child_record_stats;
+		public $associated_record_stats;
+		public $ormstats;
+		public $likes_random;
+		public $eventdates_random;
+		public $textbodies_random;
+		public $descriptions_random;
+		public $quotes_random;
+		public $images_random;
+		public $tags_random;
+		public $errors;
+		public $master_record;
+		public $username_record_conflict;
+		public $comment_results;
+		public $comments;
+		public $younger_siblings;
+		public $older_siblings;
+		public $admin_errors;
+		public $description;
+		public $quote;
+		public $textbody;
+		public $availabilitydaterange;
+		public $eventdate;
+		public $last_added_entry;
+		public $last_edited_entry;
+		public $new_reservation_record;
+		public $primary_children;
+		public $common_words_hash;
+		
 		public function SetOrmBasics() {
 			$this->SetORM();
 			$this->SetMasterRecord();

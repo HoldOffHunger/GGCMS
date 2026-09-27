@@ -1,6 +1,10 @@
 <?php
 
 	trait DBAdminFunctions {
+		public $StatusDataArray;
+		public $db_admin;
+		public $primary_hosts;
+		
 		public function ViewMySQLInformationSchemaBase($args) {
 			$this->SetDBAdmin();
 			$information_schema_function_name = 'GetMySQL' . $args['field'];

@@ -19,6 +19,8 @@
 		use MySQLGGCMSInternalDatabases;
 		use MySQLClustersInternalDatabases;
 		
+		public $url;
+		
 		public function clearURLsByURL() {
 			$this->setHandle();
 			$this->bannerMessage();

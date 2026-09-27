@@ -3,6 +3,13 @@
 	ggreq('scripts/view.php');
 
 	class news extends view {
+		public $newest_entries;
+		public $news_feeds;
+		public $news_feed;
+		public $formatted_news_feed;
+		public $formatted_news_feeds;
+		public $header_title_text;
+		
 		public function display() {
 			$this->SetORMBasics();
 			$this->SetRecordTree();

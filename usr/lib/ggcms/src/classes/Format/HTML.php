@@ -1,6 +1,17 @@
 <?php
 
 	class HTML extends AbstractBaseFormat {
+		public $formats_object;
+		public $version_object;
+		public $redirect_object;
+		public $navigation_object;
+		public $css_object;
+		public $script;
+		public $clientsideincludes_object;
+		public $html_data;
+		public $printerfriendly;
+		public $invertedcolors;
+		
 		public function __construct($args) {
 			$this->SetArgs($args);
 			

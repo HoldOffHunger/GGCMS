@@ -44,6 +44,16 @@
 
 	class SourceStatistics {
 		use CLIAccess;
+		
+		public $root;
+		public $folder;
+		public $depth;
+		public $sort;
+		public $top;
+		public $min_bytes;
+		public $show_files;
+		public $as_csv;
+		public $extensions;
 
 			/*
 				Extension -> category.  Anything unlisted lands in Other,

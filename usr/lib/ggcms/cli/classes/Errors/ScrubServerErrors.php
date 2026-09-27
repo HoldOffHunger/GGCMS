@@ -43,6 +43,9 @@
 		use MySQLGGCMSInternalDatabases;
 		use MySQLClustersInternalDatabases;
 		use LogRedaction;
+		
+		public $apply;
+		public $date;
 
 		public function scrubServerErrors() {
 			$this->setHandle();

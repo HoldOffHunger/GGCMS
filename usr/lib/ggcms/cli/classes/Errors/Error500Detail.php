@@ -26,6 +26,9 @@
 		use DomainValidation;
 		use CLIAccess;
 		use GlobalsTrait;
+		
+		public $error_id;
+		public $top;
 
 		public function showErrorDetail() {
 			$this->setHandle();

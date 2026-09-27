@@ -20,6 +20,8 @@
 		use DomainValidation;
 		use ReverseDNSNotation;
 		
+		public $domain_cache_location;
+		
 		public function enableDomains() {
 			$this->setHandle();
 			$this->bannerMessage();

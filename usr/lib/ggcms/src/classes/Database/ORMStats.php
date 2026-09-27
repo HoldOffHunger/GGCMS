@@ -75,6 +75,8 @@ WHERE Assignment1.Parentid = 4
 */
 
 	class ORMStats {
+		public $dbaccessobject;
+		
 		
 			// Construction
 			// -------------------------------------------------

@@ -1,6 +1,8 @@
 <?php
 
 	class PDF extends AbstractBaseFormat {
+		public $pdf_object;
+		
 		public function MimeType() {
 			return 'application/pdf';
 		}

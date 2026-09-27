@@ -1,6 +1,9 @@
 <?php
 
 	class module_languages extends module_spacing {
+		public $language_object;
+		public $domain_object;
+		
 		public function __construct($args) {
 			$this->language_object = $args['languageobject'];
 			$this->domain_object = $args['domainobject'];

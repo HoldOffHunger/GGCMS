@@ -1,6 +1,53 @@
 <?php
 
+		/*
+			Every script extends this, and a script is a bag of records named
+			at run time: SimpleORM keeps each record type under its own name
+			($this->$record_type), and the per-site templates, included inside
+			a script's methods, set whatever the page needs.  Those names cannot
+			be declared ahead, so scripts opt in to dynamic properties -- the
+			attribute is inherited, and it is what PHP 9 honours when it makes
+			the undeclared kind an Error.  Everything that can be declared, is.
+		*/
+
+	#[AllowDynamicProperties]
 	class baseformat {
+		public $subject;
+		public $record_to_use;
+		public $handler;
+		public $format;
+		public $desired_script;
+		public $desired_action;
+		public $object_code;
+		public $object_parent;
+		public $object_list;
+		public $script_location;
+		public $script_name;
+		public $script_file;
+		public $script_extension;
+		public $script_format;
+		public $script_format_lower;
+		public $script_args;
+		public $google_api;
+		public $authentication_object;
+		public $cleanser_object;
+		public $query_object;
+		public $db_access_object;
+		public $domain_object;
+		public $globals;
+		public $language_object;
+		public $dictionary;
+		public $time;
+		public $cookie;
+		public $formats_object;
+		public $version_object;
+		public $redirect_object;
+		public $errors;
+		public $admin_errors;
+		public $navigation;
+		public $mobile_friendly;
+		public $header_title_text;
+		
 			// Constructor
 			// ------------------------------------------------
 			

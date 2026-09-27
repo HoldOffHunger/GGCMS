@@ -37,6 +37,8 @@
 		use GlobalsTrait;
 		use ImageFiles;
 		use ImageQualitySearch;
+		
+		public $arguments;
 
 			// Entry Point
 			// -----------------------------------------------

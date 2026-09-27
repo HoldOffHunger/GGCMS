@@ -28,6 +28,8 @@
 	*/
 
 	trait ImageFiles {
+		public $has_magick_binary;
+		
 			// Locations
 			// -----------------------------------------------
 
@@ -309,7 +311,7 @@
 		}
 
 		public function hasMagickBinary() {
-			if(property_exists($this, 'has_magick_binary') && $this->has_magick_binary !== NULL) {
+			if(isset($this->has_magick_binary) && $this->has_magick_binary !== NULL) {
 				return $this->has_magick_binary;
 			}
 

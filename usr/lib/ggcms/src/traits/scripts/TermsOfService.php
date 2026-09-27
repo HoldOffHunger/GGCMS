@@ -1,6 +1,8 @@
 <?php
 
 	trait TermsOfService {
+		public $header_title_text;
+		
 		public function getTermsOfService() {
 			$terms_of_service_paragraphs = $this->getTermsOfServiceParagraphs();
 			

@@ -1,6 +1,10 @@
 <?php
 
 	class DBFileCache {
+		public $handler;
+		public $db_file_cache_location;
+		public $blanks_already_read;
+		
 		
 			// Construction
 			// -------------------------------------------------

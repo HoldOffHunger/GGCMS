@@ -18,6 +18,13 @@
 		use SimpleORM;
 		use SimpleSocialMedia;
 		
+		public $search_results_count;
+		public $entries;
+		public $search_term_pieces;
+		public $search_term;
+		public $orm_search;
+		public $search_results;
+		
 						// Security Data
 						// ---------------------------------------------
 		

@@ -1,6 +1,8 @@
 <?php
 
 	trait SimpleSocialMedia {
+		public $social_media;
+		
 		public function SetSocialMediaBasics() {
 			ggreq('classes/API/SocialMedia.php');
 			

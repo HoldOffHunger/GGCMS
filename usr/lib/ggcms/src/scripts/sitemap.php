@@ -18,6 +18,13 @@
 		use SimpleORM;
 		use SimpleORMSiteMap;
 		
+		public $page;
+		public $part;
+		public $humanreadable;
+		public $sitemap;
+		public $entrycount;
+		public $header_title_text;
+		
 						// Security Data
 						// ---------------------------------------------
 		

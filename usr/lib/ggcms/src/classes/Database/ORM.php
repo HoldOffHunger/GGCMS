@@ -1,6 +1,8 @@
 <?php
 
 	class ORM {
+		public $handler;
+		
 		
 			// Construction
 			// -------------------------------------------------

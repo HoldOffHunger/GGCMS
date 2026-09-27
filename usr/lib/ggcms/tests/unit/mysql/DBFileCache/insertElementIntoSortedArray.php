@@ -9,6 +9,8 @@
 	
 	require(GGCMS_DIR . 'classes/Database/DBFileCache.php');
 	class insertElementIntoSortedArray extends TestCase {
+		public $db_file_cache;
+		
 		function __construct() {
 			parent::__construct();
 			

@@ -13,6 +13,8 @@
 		use CLIAccess;
 		use GlobalsTrait;
 		use ReverseDNSNotation;
+		
+		public $arguments;
 
 			// Entry Point
 			// -----------------------------------------------

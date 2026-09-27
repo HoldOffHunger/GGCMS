@@ -1,6 +1,15 @@
 <?php
 
 	class module_socialmediasharelinks extends module_spacing {
+		public $globals;
+		public $text_only;
+		public $language_object;
+		public $domain_object;
+		public $social_media_object;
+		public $social_media_share_link_args;
+		public $share_text;
+		public $share_with_text;
+		
 		public function __construct($args) {
 			$this->globals = $args['globals'];
 			$this->text_only = $args['textonly'];

@@ -1,6 +1,11 @@
 <?php
 
 	trait CLIAccess {
+		public $argv;
+		public $handle;
+		public $domain;
+		public $host;
+		
 			// Override Functions
 		
 		public function bannerMessageText() {
@@ -103,7 +108,7 @@
 			print(PHP_EOL . PHP_EOL);
 			print('Proceed? (y/n)');
 			
-			if(property_exists($this, 'answer_type')) {
+			if(isset($this->answer_type)) {
 				if($this->answer_type === 'y' || $this->answer_type === 'yes') {
 					return TRUE;
 				}
@@ -194,7 +199,7 @@
 			print($prompt);
 			
 			/*
-			if(property_exists($this, 'answer_type')) {
+			if(isset($this->answer_type)) {
 				if($this->answer_type === 'y' || $this->answer_type === 'yes') {
 					return TRUE;
 				}
@@ -208,13 +213,17 @@
 				$answer = strtolower(trim(fgets($this->handle)));
 			}
 			
+				/*
+					Kept only under a name the caller asked for, and the caller
+					declares that property.  The answer used to be kept as
+					argv<index> as well, which nothing read; PHP 9 makes creating
+					such a property an Error.
+				*/
+
 			if(array_key_exists('internal_key', $args)) {
 				$argv_internal_key = $args['internal_key'];
-			} else {
-				$argv_internal_key = 'argv' . $index;
+				$this->$argv_internal_key = $answer;
 			}
-			
-			$this->$argv_internal_key = $answer;
 			
 			print("\n");
 			

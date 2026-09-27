@@ -53,6 +53,9 @@
 		use ByteDisplay;
 		use ImageFiles;
 		use ImageQualitySearch;
+		
+		public $argv;
+		public $arguments;
 
 			/*
 				ImageFiles expects a domain for the paths it builds.  Nothing

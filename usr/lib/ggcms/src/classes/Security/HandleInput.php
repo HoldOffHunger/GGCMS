@@ -1,6 +1,11 @@
 <?php
 
 	class HandleInput {
+		public $handler;
+		public $html_entity_characters;
+		public $utf8_characters;
+		public $phishing_characters;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			

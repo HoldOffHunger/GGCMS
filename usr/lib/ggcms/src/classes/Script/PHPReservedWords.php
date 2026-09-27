@@ -1,6 +1,8 @@
 <?php
 
 	class PHPReservedWords {
+		public $word_hash;
+		
 		public function isWordReserved($args) {
 			$word = $args['word'];
 			

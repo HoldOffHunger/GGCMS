@@ -1,6 +1,9 @@
 <?php
 
 	class Dictionary {
+		public $handler;
+		public $db_link;
+		
 		public function __construct($args) {
 			$this->handler = $args['handler'];
 			
