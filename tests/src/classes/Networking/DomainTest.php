@@ -16,6 +16,45 @@
 			return $domain;
 		}
 
+			/*
+				X-Forwarded-Server named the site until September 2026, and it
+				is a request header.  One request could render revoltlib.com
+				from earthfluent's database, or require any .php on the host.
+			*/
+
+		public function testSetPrimaryDomain() {
+			$cases = [
+				[['HTTP_HOST'=>'revoltlib.com', 'SERVER_NAME'=>'revoltlib.com', 'HTTP_X_FORWARDED_SERVER'=>'earthfluent.com'], [], 'revoltlib.com', 'revoltlib'],
+				[['HTTP_HOST'=>'www.revoltlib.com', 'SERVER_NAME'=>'www.revoltlib.com'], [], 'revoltlib.com', 'revoltlib'],
+				[['HTTP_HOST'=>'localhost', 'SERVER_NAME'=>'localhost'], ['domain'=>'earthfluent.com'], 'earthfluent.com', 'earthfluent'],
+				[['HTTP_HOST'=>'localhost', 'SERVER_NAME'=>'localhost'], ['domain'=>'php.x/../../etc/passwd'], 'localhost', 'localhost'],
+				[['HTTP_HOST'=>'revoltlib.com', 'SERVER_NAME'=>'revoltlib.com'], ['domain'=>'earthfluent.com'], 'revoltlib.com', 'revoltlib'],
+			];
+
+			foreach($cases as [$server, $get, $expected_domain, $expected_host]) {
+				$_SERVER = $server;
+				$_GET = $get;
+
+				$domain = $this->newDomain();
+				$domain->SetPrimaryDomain();
+
+				$this->assertSame($expected_domain, $domain->primary_domain, json_encode([$server, $get]));
+				$this->assertSame($expected_host, $domain->host, 'the database label follows the domain');
+			}
+		}
+
+		public function testIsHostName() {
+			$domain = $this->newDomain();
+
+			foreach(['revoltlib.com', 'news.example.co.uk', 'localhost', 'a-b.c9.io', 'EarthFluent.com'] as $name) {
+				$this->assertTrue($domain->IsHostName(['name'=>$name]), $name);
+			}
+
+			foreach(['', '.', '..', 'a..b', '-a.com', 'a-.com', 'a.com.', '/etc/passwd', 'php.x/../../x', 'a b.com', "a\0.com", 'a_b.com', str_repeat('a.', 127) . 'aa', NULL] as $name) {
+				$this->assertFalse($domain->IsHostName(['name'=>$name]), json_encode($name));
+			}
+		}
+
 		public function testGetDomainFromURL() {
 			$domain = $this->newDomain();
 

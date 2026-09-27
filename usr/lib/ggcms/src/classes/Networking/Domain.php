@@ -15,10 +15,24 @@
 			return $this;
 		}
 		
+			// SetPrimaryDomain()
+			// Tests: DomainTest::testSetPrimaryDomain()
+			// Test file: tests/src/classes/Networking/DomainTest.php
+			/*
+				X-Forwarded-Server used to come first, and it is a request
+				header: nginx passes it through untouched, and nothing in front
+				of GGCMS sets it.  Whatever it named became the site -- its
+				configuration was require()d and its database opened -- so one
+				header could render revoltlib.com from earthfluent's database
+				into revoltlib's page cache, or, reversed into a path, require
+				any .php file on the host.  It is not read at all now.
+				
+				?domain= on localhost stays, for development, and only as a
+				plain host name.
+			*/
+		
 		public function SetPrimaryDomain() {
-			if(array_key_exists('HTTP_X_FORWARDED_SERVER', $_SERVER)) {
-				$server_name = $_SERVER['HTTP_X_FORWARDED_SERVER'];
-			} elseif($_SERVER['HTTP_HOST'] === 'localhost' && $_SERVER['SERVER_NAME'] === 'localhost' && $_GET['domain']) {
+			if($_SERVER['HTTP_HOST'] === 'localhost' && $_SERVER['SERVER_NAME'] === 'localhost' && $this->IsHostName(['name'=>$_GET['domain']])) {
 				$server_name = $_GET['domain'];
 			} else {
 				$server_name = $_SERVER['SERVER_NAME'];
@@ -83,6 +97,25 @@
 			}
 			
 			return $primary_domain;
+		}
+			
+			// IsHostName()
+			// Tests: DomainTest::testIsHostName()
+			// Test file: tests/src/classes/Networking/DomainTest.php
+			/*
+				Letters, digits, hyphens and single dots, as a DNS name is.  The
+				domain becomes a configuration path and a database name, so
+				nothing else may.
+			*/
+		
+		public function IsHostName($args) {
+			$name = (string) $args['name'];
+			
+			if((strlen($name) === 0) || (strlen($name) > 253)) {
+				return FALSE;
+			}
+			
+			return (preg_match('/\A[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*\z/i', $name) === 1);
 		}
 		
 		public function GetHTTPSConnection() {

@@ -7,6 +7,8 @@
 		connection that has nothing to close.
 	*/
 
+	use PHPUnit\Framework\Attributes\RunInSeparateProcess;
+
 	class HandlerTest extends GGCMSTestCase {
 		public function newHandler() {
 			$handler = $this->newWithoutConstructor(['class'=>'Handler']);
@@ -97,6 +99,35 @@
 			}
 
 			$this->assertSame('/p' . str_repeat('.', 1), $handler->cleanseURL(['url'=>'/p' . str_repeat('.', 12)]), 'recursion stops at its depth limit');
+		}
+
+			/*
+				The site's configuration is require()d from a path built out of
+				the domain.  A domain that reverses into ../ must never get
+				there; it falls back to defaultglobals.  Runs alone because
+				clonefrom.php declares classes.
+			*/
+
+		#[RunInSeparateProcess]
+		public function testConstruct_Globals() {
+			$handler = $this->newHandler();
+			$handler->domain = new Domain(['handler'=>$handler]);
+			$handler->domain->primary_domain_lowercased = $handler->ReverseDomainName(['domain'=>'../../../GGCMS/usr/lib/ggcms/cli/system/RepoDirectories']);
+
+			$handler->Construct_Globals();
+
+			$this->assertSame('defaultglobals', get_class($handler->globals), 'a path is not a site');
+		}
+
+		#[RunInSeparateProcess]
+		public function testConstruct_GlobalsLoadsTheSite() {
+			$handler = $this->newHandler();
+			$handler->domain = new Domain(['handler'=>$handler]);
+			$handler->domain->primary_domain_lowercased = 'revoltlib.com';
+
+			$handler->Construct_Globals();
+
+			$this->assertSame('globals', get_class($handler->globals), 'a real site loads its own configuration');
 		}
 
 		public function testRedirectsToSelf() {

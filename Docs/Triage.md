@@ -1011,6 +1011,15 @@ metadata/member names.
 
 ### EPUB stylesheet fetch can become SSRF through a trusted forwarded-server header
 
+> **Forwarded-server half resolved 27 September 2026.** It was reachable:
+> nginx passed a client's `X-Forwarded-Server` through, and beyond this SSRF
+> it chose the site's configuration file and database -- one header could
+> render one site from another's database into the first site's page cache, or
+> `require` any `.php` on the host. `Domain::SetPrimaryDomain()` no longer
+> reads the header, `Handler::Construct_Globals()` refuses any domain that is
+> not a host name (`Domain::IsHostName()`), and the nginx configs strip it.
+> The EPUB fetch over plain HTTP, below, is still open.
+
 `EPub::SetCSSFile()` fetches the stylesheet over the network from
 `http://<primary-domain>/css/view/display.css`. The primary domain normally
 comes from `SERVER_NAME`, but `Domain::SetPrimaryDomain()` gives

@@ -159,13 +159,22 @@
 			return $this->cookie = $cookie;
 		}
 		
+			// Construct_Globals()
+			// Tests: HandlerTest::testConstruct_Globals(), HandlerTest::testConstruct_GlobalsLoadsTheSite()
+			// Test file: tests/src/classes/Networking/HandlerTest.php
 		public function Construct_Globals() {
 			confreq('clonefrom.php');
 			$base_globals_classname = $this->ReverseDomainName(['domain'=>$this->domain->primary_domain_lowercased]) . '.php';
 			
 			$client_globals_location = $base_globals_classname;
 			
-			if(conf_isfile($client_globals_location)) {
+				/*
+					The domain becomes a path to require().  Domain no longer
+					takes it from a request header, and this makes sure nothing
+					that is not a host name can ever reach the filesystem here.
+				*/
+			
+			if($this->domain->IsHostName(['name'=>$this->domain->primary_domain_lowercased]) && conf_isfile($client_globals_location)) {
 				confreq($client_globals_location);
 				$globals = new globals([]);
 			} else {
