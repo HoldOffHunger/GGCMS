@@ -265,6 +265,24 @@ stop-Apache sequence in the older install notes applies only to `--standalone`.
 Renewal failures for a domain whose DNS no longer points at this host are
 expected and harmless; certbot renews what it can and reports the rest.
 
+## Where things live on disk
+
+The root disk is small and holds what the machine runs; the attached volume
+holds what the sites generate.  Anything that can be rebuilt belongs on the
+volume.
+
+| Volume | Size | Holds |
+|---|---|---|
+| `/` | 25 GB | OS, PHP, the engine, logs |
+| `/mnt/nyc01` | 52 GB | `ggcms_cache/pages` (page cache), `ggcms_cache/documents` (generated PDF, RTF, TeX, SGML, EPUB), SQL and image backups, the stats archive |
+
+Both caches are reached through symlinks, so no code knows where they are:
+`/var/www/html/_cache` points at `ggcms_cache/pages`, and
+`/usr/lib/ggcms/src/data` at `ggcms_cache/documents`.  The documents moved there
+on 27 September 2026, taking the root disk from 13.6% free to 34.1%.
+`bin/deploy.sh` excludes `src/data` without a trailing slash so that its
+`--delete` pass leaves the link alone.
+
 ## Monitoring — what must be scheduled
 
 GGCMS ships its own diagnostics under `usr/lib/ggcms/cli/`. They only help if
