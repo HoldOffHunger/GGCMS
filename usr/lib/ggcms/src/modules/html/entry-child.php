@@ -21,6 +21,19 @@
 			                  tags stripped, or 'formatted', through the
 			                  cleanser's FormatListOutput()
 			'rootlinks'       TRUE starts tag links with /
+			'titlestyle'      'subtitle' (default) appends ": subtitle" to the
+			                  title; 'author' links the first associated
+			                  entry instead, ", by ..."
+			'detailline'      'length' (default) opens the details with the
+			                  word and character count; 'subtitle' with the
+			                  subtitle in bold
+			'headerlevel'     3 (default), or 2 for a larger title
+			'plainfloat'      TRUE writes the clearing div as one line,
+			                  as some copies did, instead of through the
+			                  divider module
+			'grandchildren'   TRUE takes the word count and the excerpt from
+			                  the first grandchild when the child has no text
+			'tagcounts'       TRUE shows how many entries carry each tag
 
 		Display() prints the whole entry.  A template that puts something of
 		its own between the parts -- a quiz link, a listen button -- calls
@@ -39,6 +52,12 @@
 			$this->fallback_image = $args['fallbackimage'] ?? '';
 			$this->excerpt = $args['excerpt'] ?? 'plain';
 			$this->root_links = $args['rootlinks'] ?? FALSE;
+			$this->title_style = $args['titlestyle'] ?? 'subtitle';
+			$this->detail_line = $args['detailline'] ?? 'length';
+			$this->header_level = $args['headerlevel'] ?? 3;
+			$this->plain_float = $args['plainfloat'] ?? FALSE;
+			$this->grandchildren = $args['grandchildren'] ?? FALSE;
+			$this->tag_counts = $args['tagcounts'] ?? FALSE;
 
 			if(!class_exists('module_header')) {
 				ggreq('modules/html/header.php');
@@ -48,8 +67,13 @@
 				ggreq('modules/html/divider.php');
 			}
 
+			if(!class_exists('module_entrysort')) {
+				ggreq('modules/html/entry-sort.php');
+			}
+
 			$this->header = new module_header;
 			$this->divider = new module_divider;
+			$this->entrysort = new module_entrysort(['that'=>$this->that]);
 
 			return $this;
 		}
@@ -168,12 +192,21 @@
 
 					$div_mouseover .= number_format($first_textbody['WordCount']) . ' Words / ' . number_format($first_textbody['CharacterCount']) . ' Characters';
 				}
+			} elseif($this->grandchildren) {
+				$first_grandchild = $this->FirstGrandchild();
+
+				if($first_grandchild) {
+					$grandchild = $first_grandchild['grandchild'];
+					$grandchild_textbody = $first_grandchild['textbody'];
+
+					$div_mouseover .= ($grandchild['Title'] ?? '') . ' : ' . number_format($grandchild_textbody['WordCount'] ?? 0) . ' Words / ' . number_format($grandchild_textbody['CharacterCount'] ?? 0) . ' Characters';
+				}
 			}
 
 			$this->header->display([
 				'title'=>$this->ChildTitle(),
 				'divmouseover'=>$div_mouseover,
-				'level'=>3,
+				'level'=>$this->header_level,
 				'divclass'=>'border-2px background-color-gray15 margin-5px float-left',
 				'textclass'=>'padding-0px margin-5px horizontal-left font-family-tahoma',
 				'imagedivclass'=>'border-2px margin-5px background-color-gray10',
@@ -186,7 +219,46 @@
 			return TRUE;
 		}
 
+			/*
+				The first grandchild in sort order that has text.  Each copy
+				walked the sorted list keeping the first textbody it met, so a
+				grandchild without one was passed over.  'found' is FALSE when
+				there are grandchildren but none has text; the copies then
+				named the last grandchild with an empty count, and so does
+				this, since it is what the pages show.
+			*/
+
+		public function FirstGrandchild() {
+			$grandchildren = $this->child['children'] ?? NULL;
+
+			if(!$grandchildren || !is_array($grandchildren) || !count($grandchildren)) {
+				return NULL;
+			}
+
+			$sorted_grandchildren = $this->entrysort->Sort(['entries'=>$grandchildren]);
+
+			foreach($sorted_grandchildren as $grandchild) {
+				if(!empty($grandchild['textbody'][0])) {
+					return [
+						'found'=>TRUE,
+						'grandchild'=>$grandchild,
+						'textbody'=>$grandchild['textbody'][0],
+					];
+				}
+			}
+
+			return [
+				'found'=>FALSE,
+				'grandchild'=>end($sorted_grandchildren),
+				'textbody'=>NULL,
+			];
+		}
+
 		public function ChildTitle() {
+			if($this->title_style === 'author') {
+				return $this->ChildTitle_Author();
+			}
+
 			$child = $this->child;
 
 			$title_max = 50;
@@ -236,6 +308,58 @@
 			return $child_title;
 		}
 
+		public function ChildTitle_Author() {
+			$child = $this->child;
+
+			$has_author = $child['association'] && count($child['association']);
+
+			$title_max = $has_author ? 30 : 50;
+
+			$child_title_full = $child['Title'];
+			$popup_title = 0;
+
+			if(strlen($child_title_full) > $title_max) {
+				$child_title_full = substr($child_title_full, 0, $title_max) . '...';
+				$popup_title = 1;
+			}
+
+			$child_title = $this->linked ? '<a href="' . $child['Code'] . '/view.php"' : '<span';
+
+			if($popup_title) {
+				$child_title .= ' title="' . str_replace('"', '&quot;', $child['Title']) . '"';
+			}
+
+			$child_title .= '>';
+			$child_title .= $child_title_full;
+			$child_title .= $this->linked ? '</a>' : '</span>';
+
+			if($has_author) {
+				$author = $child['association'][0]['entry'];
+
+				$child_title .= ', by ';
+
+				$author_title = $author['Title'];
+				$author_popup = 0;
+
+				if(strlen($author_title) > 20) {
+					$author_title = substr($author_title, 0, 20) . '...';
+					$author_popup = 1;
+				}
+
+				$child_title .= '<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . '"';
+
+				if($author_popup) {
+					$child_title .= ' title="' . str_replace('"', '&quot;', $author['Title']) . '"';
+				}
+
+				$child_title .= '>';
+				$child_title .= $author_title;
+				$child_title .= '</a>';
+			}
+
+			return $child_title;
+		}
+
 			// Details: year and length, description, quotes or text
 			// -------------------------------------------------------------
 
@@ -244,7 +368,11 @@
 
 			$time_frame = $this->TimeFrame();
 
-			$this->DisplayTimeFrameAndLength(['timeframe'=>$time_frame]);
+			if($this->detail_line === 'subtitle') {
+				$this->DisplayTimeFrameAndSubtitle(['timeframe'=>$time_frame]);
+			} else {
+				$this->DisplayTimeFrameAndLength(['timeframe'=>$time_frame]);
+			}
 			$this->DisplayDescription(['timeframe'=>$time_frame]);
 
 			if($this->child['quote']) {
@@ -323,6 +451,27 @@
 			return TRUE;
 		}
 
+		public function DisplayTimeFrameAndSubtitle($args) {
+			$time_frame = $args['timeframe'];
+			$child = $this->child;
+
+			if($time_frame) {
+				print($time_frame);
+			}
+
+			if($child['Subtitle']) {
+				if($time_frame) {
+					print(' ~ ');
+				}
+
+				print('<strong>');
+				print($child['Subtitle']);
+				print('</strong>');
+			}
+
+			return TRUE;
+		}
+
 		public function DisplayDescription($args) {
 			$time_frame = $args['timeframe'];
 			$child = $this->child;
@@ -378,7 +527,7 @@
 			$child = $this->child;
 
 			if(!$child['textbody'] || !count($child['textbody'])) {
-				return FALSE;
+				return $this->DisplayGrandchildExcerpt();
 			}
 
 			$first_textbody = $child['textbody'][0];
@@ -396,13 +545,34 @@
 			}
 
 			if(!$text_display) {
-				return FALSE;
+				return $this->DisplayGrandchildExcerpt();
 			}
 
 			print('<br>');
 			print($text_display);
 
 			$this->DisplaySource(['source'=>$first_textbody['Source']]);
+
+			return TRUE;
+		}
+
+		public function DisplayGrandchildExcerpt() {
+			if(!$this->grandchildren) {
+				return FALSE;
+			}
+
+			$first_grandchild = $this->FirstGrandchild();
+
+			if(!$first_grandchild) {
+				return FALSE;
+			}
+
+			$text_display = $this->that->cleanser_object->FormatListOutput([
+				'text'=>$first_grandchild['textbody']['FirstThousandCharacters'] ?? NULL,
+			]);
+
+			print("<BR>");
+			print($text_display);
 
 			return TRUE;
 		}
@@ -445,6 +615,13 @@
 				print('<span class="horizontal-left margin-5px font-family-arial">');
 				print('<a href="' . ($this->root_links ? '/' : '') . 'view.php?action=browseByTag&tag=' . urlencode($tag['Tag']) . '">');
 				print($tag['Tag']);
+
+				if($this->tag_counts) {
+					print(' (');
+					print(number_format($this->that->tag_counts[$tag['Tag']]));
+					print(')');
+				}
+
 				print('</a>');
 				print('</span>');
 				print('</div>');
@@ -462,6 +639,12 @@
 		}
 
 		public function DisplayClearFloat() {
+			if($this->plain_float) {
+				print('<div class="clear-float"></div>');
+
+				return TRUE;
+			}
+
 			$this->divider->displaystart([
 				'class'=>'clear-float',
 			]);
