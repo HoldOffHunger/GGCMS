@@ -443,37 +443,44 @@
 			return $this->StatusDataArray;
 		}
 		
+			/*
+				Read through ini_get() rather than assert_options(), which PHP 8.3
+				deprecated.  They report the same settings.  ASSERT_QUIET_EVAL went
+				in PHP 8.0 -- naming the constant threw "Undefined constant", so
+				that choice was a 500 -- and there is no setting left to read.
+			*/
+
 		public function AssertOptions() {
 			$this->SubmittedValue = $this->Param('assert-option');
 			if(isset($this->SubmittedValue)) {
 				switch($this->SubmittedValue) {
 					case 'ASSERT_ACTIVE':
 						$this->SubmittedValuePrintable = 'ASSERT_ACTIVE (assert.active)';
-						$assert_results = assert_options(ASSERT_ACTIVE);
+						$assert_results = ini_get('assert.active');
 						
 						break;
 						
 					case 'ASSERT_WARNING':
 						$this->SubmittedValuePrintable = 'ASSERT_WARNING (assert.warning)';
-						$assert_results = assert_options(ASSERT_WARNING);
+						$assert_results = ini_get('assert.warning');
 						
 						break;
 						
 					case 'ASSERT_BAIL':
 						$this->SubmittedValuePrintable = 'ASSERT_BAIL (assert.bail)';
-						$assert_results = assert_options(ASSERT_BAIL);
+						$assert_results = ini_get('assert.bail');
 						
 						break;
 						
 					case 'ASSERT_QUIET_EVAL':
 						$this->SubmittedValuePrintable = 'ASSERT_QUIET_EVAL (assert.quiet_eval)';
-						$assert_results = assert_options(ASSERT_QUIET_EVAL);
+						$assert_results = 'Removed in PHP 8.0';
 						
 						break;
 						
 					case 'ASSERT_CALLBACK':
 						$this->SubmittedValuePrintable = 'ASSERT_CALLBACK (assert.callback)';
-						$assert_results = assert_options(ASSERT_CALLBACK);
+						$assert_results = ini_get('assert.callback');
 						
 						break;
 				}

@@ -1623,7 +1623,6 @@ function _parsegif($file)
 		ob_start();
 		imagepng($im);
 		$data = ob_get_clean();
-		imagedestroy($im);
 		fwrite($f,$data);
 		rewind($f);
 		$info = $this->_parsepngstream($f,$file);
@@ -1637,7 +1636,6 @@ function _parsegif($file)
 			$this->Error('Unable to create a temporary file');
 		if(!imagepng($im,$tmp))
 			$this->Error('Error while saving to temporary file');
-		imagedestroy($im);
 		$info = $this->_parsepng($tmp);
 		unlink($tmp);
 	}

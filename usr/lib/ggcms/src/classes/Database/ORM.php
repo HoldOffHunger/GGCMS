@@ -1901,7 +1901,7 @@
 				$entry = $entries[$i];
 				
 				if(!$entry[$record_key] || !$entry[$record_key][0]) {
-					$parent_ids[$entry['Parent_id']] = TRUE;
+					$parent_ids[$entry['Parent_id'] ?? ''] = TRUE;
 				}
 			}
 			
@@ -1941,7 +1941,7 @@
 				$entry = $entries[$i];
 				
 				if(!$entry[$record_key] || !$entry[$record_key][0]) {
-					$entry[$record_key] = $parent_related_record_hash[$entry['Parent_id']];
+					$entry[$record_key] = $parent_related_record_hash[$entry['Parent_id'] ?? ''];
 				}
 				
 				$entries[$i] = $entry;

@@ -406,7 +406,7 @@
 			
 			for($i = 0; $i < $events_count; $i++) {
 				$event = $events[$i];
-				$events_hash[$event['Title']] = $event;
+				$events_hash[$event['Title'] ?? ''] = $event;
 			}
 			
 			# bugfix here:

@@ -108,8 +108,6 @@
 			
 			$this->curl_status_display = $curl_status_display;
 			
-			curl_close($curl_resource);
-			
 			$this->output = $output;
 			
 			return TRUE;
