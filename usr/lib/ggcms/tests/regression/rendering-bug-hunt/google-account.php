@@ -2,8 +2,7 @@
 error_reporting(E_ALL);
 set_error_handler(function($level,$message){throw new ErrorException($message,0,$level);});
 require dirname(__DIR__,3).'/src/classes/API/Google.php';
-class Google_Client { public function __construct($args) {} public function verifyIdToken($token) { return ['email'=>'reader@example.test']; } }
-class AccountGoogle extends Google { public function __construct() {} public function handleLoginCookie() { return TRUE; } }
+class AccountGoogle extends Google { public function __construct() {} public function handleLoginCookie() { return TRUE; } public function VerifyIdToken($args) { return ['email'=>'reader@example.test', 'email_verified'=>TRUE]; } }
 $failed=0;
 foreach(['existing','new','lookup-error','create-error','empty-error','id-error'] as $mode) {
  $row=['id'=>7,'Username'=>'Reader','EmailAddress'=>'reader@example.test'];
