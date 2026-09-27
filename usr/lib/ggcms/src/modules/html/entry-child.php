@@ -26,7 +26,8 @@
 			                  entry instead, ", by ..."; 'plain' is the
 			                  title alone, cut at 50; 'full' the title uncut
 			'linksuffix'      appended to the child's links, as '?action=index'
-			'publicationyear' FALSE leaves out the year of the child's
+			'rootchildlinks'  TRUE starts the child's own links with /
+'publicationyear' FALSE leaves out the year of the child's
 			                  Publication event, as the people pages do
 			'detailline'      'length' (default) opens the details with the
 			                  word and character count; 'subtitle' with the
@@ -48,7 +49,9 @@
 		Display() prints the whole entry.  A template that puts something of
 		its own between the parts -- a quiz link, a listen button -- calls
 		DisplayStart(), DisplayHeader(), DisplayDetails(), DisplayTags() and
-		DisplayEnd() itself, with its own lines between them.
+		DisplayEnd() itself, with its own lines between them.  DisplayDetails()
+		is itself DisplayDetailsOpen(), DisplayDetailsBody() and
+		DisplayDetailsClose(), for a template that wraps the body.
 	*/
 
 	class module_entrychild extends module_spacing {
@@ -64,7 +67,8 @@
 			$this->root_links = $args['rootlinks'] ?? FALSE;
 			$this->title_style = $args['titlestyle'] ?? 'subtitle';
 			$this->link_suffix = $args['linksuffix'] ?? '';
-			$this->publication_year = $args['publicationyear'] ?? TRUE;
+			$this->root_child_links = $args['rootchildlinks'] ?? FALSE;
+$this->publication_year = $args['publicationyear'] ?? TRUE;
 			$this->detail_line = $args['detailline'] ?? 'length';
 			$this->header_level = $args['headerlevel'] ?? 3;
 			$this->plain_float = $args['plainfloat'] ?? FALSE;
@@ -327,7 +331,7 @@
 		}
 
 		public function ChildURL() {
-			return $this->child['Code'] . '/view.php' . $this->link_suffix;
+			return ($this->root_child_links ? '/' : '') . $this->child['Code'] . '/view.php' . $this->link_suffix;
 		}
 
 		public function ChildTitle_Author() {
@@ -386,27 +390,44 @@
 			// -------------------------------------------------------------
 
 		public function DisplayDetails() {
+			$this->DisplayDetailsOpen();
+			$this->DisplayDetailsBody();
+			$this->DisplayDetailsClose();
+			
+			return TRUE;
+		}
+		
+		public function DisplayDetailsOpen() {
 			print('<p class="horizontal-left margin-5px font-family-arial">');
-
-			$time_frame = $this->TimeFrame();
-
+			
+			$this->time_frame = $this->TimeFrame();
+			
 			if($this->detail_line === 'subtitle') {
-				$this->DisplayTimeFrameAndSubtitle(['timeframe'=>$time_frame]);
+				$this->DisplayTimeFrameAndSubtitle(['timeframe'=>$this->time_frame]);
 			} else {
-				$this->DisplayTimeFrameAndLength(['timeframe'=>$time_frame]);
+				$this->DisplayTimeFrameAndLength(['timeframe'=>$this->time_frame]);
 			}
-			$this->DisplayDescription(['timeframe'=>$time_frame]);
-
+			
+			return TRUE;
+		}
+		
+		public function DisplayDetailsBody() {
+			$this->DisplayDescription(['timeframe'=>$this->time_frame]);
+			
 			if($this->child['quote']) {
 				$this->DisplayQuotes();
 			} else {
 				$this->DisplayExcerpt();
 			}
-
+			
+			return TRUE;
+		}
+		
+		public function DisplayDetailsClose() {
 			print('</p>');
-
+			
 			$this->DisplayClearFloat();
-
+			
 			return TRUE;
 		}
 
