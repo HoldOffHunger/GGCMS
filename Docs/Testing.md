@@ -16,6 +16,13 @@ It goes into `vendor/`, which is gitignored and sits outside
 `usr/lib/ggcms/` -- `bin/deploy.sh` copies that tree to the host with
 `--delete`, so nothing under `tests/` or `vendor/` is ever deployed.
 
+The hosts run PHP 8.5, and `composer.json` pins the platform to it.  That
+brings PHPUnit 13, which needs PHP 8.4.1 or later, so run the suite with the
+PHP the hosts run -- `php8.5`, or on Fumiko `/opt/php85/bin/php` -- rather than
+an older `php` that happens to be first on the path.  The tests are run on a
+development machine, never on a host: Fumiko, Ben's WSL copy of production
+laid out by `bin/local_sync.sh`.
+
 The bootstrap is `cli/system/RepoDirectories.php`, the same one every CLI tool
 uses from a checkout, so the same two variables are required:
 

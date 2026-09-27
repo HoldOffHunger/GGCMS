@@ -7,7 +7,7 @@ reference host is a DigitalOcean LAMP droplet running Ubuntu with Apache and
 PHP 8.x.
 
 > **Nothing in this document should ever contain a password.** Database
-> credentials live in `php.ini`, which is gitignored for exactly that reason.
+> credentials live in the host's PHP configuration, which is never committed.
 > If you find yourself pasting a real credential into a file in this
 > repository, stop.
 
@@ -32,13 +32,25 @@ different files and editing the wrong one is a long afternoon:
 php -i | grep -i php.ini
 ```
 
-Then install what the engine needs:
+The hosts run **PHP 8.5**, from Ondřej Surý's PPA; Ubuntu 22.04's own archive
+stops at 8.1.  Name the version in every package, because the unversioned
+`php-*` names follow whichever PHP the archive calls default:
 
 ```bash
-apt-get install php-mbstring php-mysql php-curl php-pear php-dev
-apt-get install php8.1-xml php8.1-zip php8.1-intl
-apt-get install imagemagick php-imagick
+echo "deb http://ppa.launchpad.net/ondrej/php/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ondrej-php-$(lsb_release -cs).list
+apt-get update
+apt-get install --no-install-recommends libapache2-mod-php8.5 php8.5-cli php8.5-common \
+	php8.5-curl php8.5-gd php8.5-intl php8.5-mbstring php8.5-mysql php8.5-readline \
+	php8.5-xml php8.5-xsl php8.5-zip php8.5-bcmath php8.5-imagick
+apt-get install imagemagick
 ```
+
+Install only these.  With the PPA enabled a blanket `apt upgrade` moves far
+more than PHP.  OPcache is built into PHP 8.5, so there is no package for it.
+
+When Ubuntu's release upgrader moves a host to a new release, it comments the
+PPA line out ("disabled on upgrade to jammy") and PHP quietly stops getting
+new versions -- which is how the reference host was still on 8.1 in 2026.
 
 `mbstring` is not optional — the engine is UTF-8 throughout and calls `mb_*`
 functions directly. `xml` provides `DOMDocument`, which the CLI `SSL` trait
@@ -58,14 +70,31 @@ interpreter — which is why the ISE conversion tool shells out to `mysql -e`
 rather than using `mysqli`.
 
 ```bash
-update-alternatives --set php /usr/bin/php8.1
+update-alternatives --set php /usr/bin/php8.5
 ```
 
 Check what a given interpreter actually has before concluding a tool is broken:
 
 ```bash
-php8.1 -m | grep -iE 'mbstring|mysqli|intl|xml|zip'
+php8.5 -m | grep -iE 'mbstring|mysqli|intl|xml|zip'
 ```
+
+### Changing PHP version
+
+Apache's `mod_php` and the CLI's `/usr/bin/php` are switched separately, and
+cron runs the latter.  The move from 8.1 to 8.5 on 27 September 2026, with the
+old version left installed for rollback:
+
+```bash
+cp -p /etc/php/8.1/apache2/conf.d/99-ggcms-database.ini /etc/php/8.5/apache2/conf.d/
+cp -p /etc/php/8.1/cli/conf.d/99-ggcms-database.ini /etc/php/8.5/cli/conf.d/
+a2dismod php8.1 && a2enmod php8.5 && apache2ctl configtest && systemctl restart apache2
+update-alternatives --set php /usr/bin/php8.5
+```
+
+Rolling back is the same two switches the other way.  Before switching, prove
+the engine on the new version away from the host: see Testing.md, and the
+crawl comparison in the 27 September DevLogs entry.
 
 `cli/classes/Entries/EntryModifier.php` checks this set before it constructs
 anything, and prints the `apt-get` line rather than letting the failure arrive
@@ -198,10 +227,11 @@ the page-cache rules must stay identical to `PageCache::IsCacheable_*` and to
 
 ## Database credentials
 
-GGCMS reads its credentials from PHP's `mysqli` defaults, so `php.ini` is a
-credential file on a live host. That is why it is gitignored.
+GGCMS reads its credentials from PHP's `mysqli` defaults, set in a file of their
+own beside the stock `php.ini`, so that file is a credential file on a live
+host and is never committed.
 
-In the **Apache** SAPI's `php.ini` (`/etc/php/8.x/apache2/php.ini`):
+For the **Apache** SAPI, in `/etc/php/8.5/apache2/conf.d/99-ggcms-database.ini`:
 
 ```ini
 mysqli.default_user = <user>
@@ -210,8 +240,8 @@ mysqli.default_host = <host>
 mysqli.default_port = <port>
 ```
 
-The CLI SAPI has its own `php.ini` and needs the same values, or the tools in
-`cli/` will not connect.
+The CLI SAPI reads its own configuration and needs the same file in
+`/etc/php/8.5/cli/conf.d/`, or the tools in `cli/` will not connect.
 
 > **Locate the database in the same region as the droplet.** The reference host
 > runs in `nyc1` against a database in `nyc3`, which puts a ~5 ms round trip on

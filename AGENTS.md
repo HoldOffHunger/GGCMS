@@ -94,9 +94,9 @@ the first sentence, whether or not it is bad news.
 
 ## Rules
 
-**Never commit a secret.** Database credentials live in `php.ini` via
-`mysqli.default_*` directives on the live host, which is why `php.ini` is
-gitignored. Site content under `/srv/ggcms/` and everything in `/var/log/` are
+**Never commit a secret.** Database credentials live on the live host as
+`mysqli.default_*` directives in `/etc/php/8.5/{apache2,cli}/conf.d/99-ggcms-database.ini`,
+beside the stock `php.ini`.  Neither is ever committed. Site content under `/srv/ggcms/` and everything in `/var/log/` are
 likewise out. Check `.gitignore` before adding a path.
 
 **Do not bulk-edit `BT:` comments.** There are 101 of them. They are the

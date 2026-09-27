@@ -7,6 +7,50 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, September 27
+
+- The hosts moved from PHP 8.1 to 8.5.11 at 20:03 UTC. 8.1 had come from
+  Ubuntu's own archive since the release upgrade to 22.04 commented the PHP
+  PPA out, so nothing newer had been on offer. The PPA is back for jammy and
+  only the fourteen `php8.5-*` packages went in; 8.1 is still installed, and
+  going back is two switches (Installation.md, "Changing PHP version").
+
+- It was proved first on Fumiko, Ben's Windows desktop, now a WSL copy of
+  production laid out by `bin/local_sync.sh` and loaded with the previous
+  night's dumps of all nineteen databases. PHP 8.5 was built there from
+  php.net's source, because the packaged builds will not execute under WSL 1.
+  405 pages across the seventeen sites were fetched from 8.1 and from 8.5, with
+  `ORDER BY RAND()` and `shuffle()` seeded so that two runs could be compared
+  byte for byte. Before the day's changes, 8.5 put hundreds of `E_STRICT`
+  deprecation notices into the top of every page: the error handler named the
+  constant, and `AbstractGlobals.php` had display switched on for every
+  request. After them, 8.5 matched 8.1 on every page but the two carrying
+  copyleftlicense's archive statistics, whose "last updated" time had
+  refreshed between runs; and on 8.1, all 405 matched the code as it stood
+  that morning. Crawled again on the host after the switch,
+  the same URLs gave 390 pages and 15 redirects, no 500s, and no fatal in any
+  site's error table.
+
+- Nearly a thousand properties, in 218 classes and traits, had only ever been
+  created by assigning to them -- deprecated since 8.2, an Error in PHP 9. They
+  are declared now, scripts opt in to the dynamic record names SimpleORM gives
+  them, and a lint test fails on any new one. About 170 constructors stopped
+  returning values (deprecated in 8.6), and the handful of calls 8.3 to 8.5
+  deprecated were replaced.
+
+- Google sign-in no longer carries Google's 2016 client library: 4,869 files,
+  some of whose fallbacks call functions PHP 8 removed. The token is checked
+  directly against Google's published certificates, and now must carry a
+  verified email address, which the library never required.
+
+- The morning's backup check had flagged five small sites' dumps as a quarter
+  smaller than the night before. It was the redaction of the twenty-sixth: the
+  error tables kept their rows but lost the request dumps, 80 to 98 per cent
+  of their bytes. Every table's row count held or grew.
+
+- PHPUnit moved from 10.5 to 13.3 now the hosts are past 8.4. The suite -- 167
+  tests and the lint pair -- runs on Fumiko, never on a host.
+
 ## 2026, September 26
 
 - Every error and issue row on every site had been storing the request it came
