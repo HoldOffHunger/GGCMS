@@ -23,7 +23,11 @@
 			'rootlinks'       TRUE starts tag links with /
 			'titlestyle'      'subtitle' (default) appends ": subtitle" to the
 			                  title; 'author' links the first associated
-			                  entry instead, ", by ..."
+			                  entry instead, ", by ..."; 'plain' is the
+			                  title alone, cut at 50; 'full' the title uncut
+			'linksuffix'      appended to the child's links, as '?action=index'
+			'publicationyear' FALSE leaves out the year of the child's
+			                  Publication event, as the people pages do
 			'detailline'      'length' (default) opens the details with the
 			                  word and character count; 'subtitle' with the
 			                  subtitle in bold
@@ -33,7 +37,13 @@
 			                  divider module
 			'grandchildren'   TRUE takes the word count and the excerpt from
 			                  the first grandchild when the child has no text
-			'tagcounts'       TRUE shows how many entries carry each tag
+			'grandchildexcerpt'  how that excerpt is shown: 'formatted'
+			                  (default), 'plain' with tags stripped, or FALSE
+			                  for none, when only the word count is wanted
+			'tagcounts'       TRUE shows how many entries carry each tag, from
+			                  the page's tag counts; 'children' from the
+			                  counts it keeps for its children
+			'hoverprefix'     text the header box's hover starts with
 
 		Display() prints the whole entry.  A template that puts something of
 		its own between the parts -- a quiz link, a listen button -- calls
@@ -53,11 +63,15 @@
 			$this->excerpt = $args['excerpt'] ?? 'plain';
 			$this->root_links = $args['rootlinks'] ?? FALSE;
 			$this->title_style = $args['titlestyle'] ?? 'subtitle';
+			$this->link_suffix = $args['linksuffix'] ?? '';
+			$this->publication_year = $args['publicationyear'] ?? TRUE;
 			$this->detail_line = $args['detailline'] ?? 'length';
 			$this->header_level = $args['headerlevel'] ?? 3;
 			$this->plain_float = $args['plainfloat'] ?? FALSE;
 			$this->grandchildren = $args['grandchildren'] ?? FALSE;
 			$this->tag_counts = $args['tagcounts'] ?? FALSE;
+			$this->grandchild_excerpt = $args['grandchildexcerpt'] ?? 'formatted';
+			$this->hover_prefix = $args['hoverprefix'] ?? '';
 
 			if(!class_exists('module_header')) {
 				ggreq('modules/html/header.php');
@@ -144,7 +158,7 @@
 			print('<div class="vertical-specialcenter">');
 
 			if($this->linked) {
-				print('<a href="' . $child['Code'] . '/view.php">');
+				print('<a href="' . $this->ChildURL() . '">');
 			}
 
 			print('<img width="');
@@ -181,7 +195,7 @@
 		public function DisplayHeader() {
 			$child = $this->child;
 
-			$div_mouseover = '';
+			$div_mouseover = $this->hover_prefix;
 
 			if($child['textbody']) {
 				$text_bodies = $child['textbody'];
@@ -255,8 +269,12 @@
 		}
 
 		public function ChildTitle() {
-			if($this->title_style === 'author') {
+			if($this->title_style === 'author' || $this->title_style === 'plain') {
 				return $this->ChildTitle_Author();
+			}
+
+			if($this->title_style === 'full') {
+				return '<a href="' . $this->ChildURL() . '">' . $this->child['Title'] . '</a>';
 			}
 
 			$child = $this->child;
@@ -288,7 +306,7 @@
 				$title_popup = 1;
 			}
 
-			$child_title = $this->linked ? '<a href="' . $child['Code'] . '/view.php"' : '<span';
+			$child_title = $this->linked ? '<a href="' . $this->ChildURL() . '"' : '<span';
 
 			if($title_popup) {
 				$popup_title = $child['Title'];
@@ -308,10 +326,14 @@
 			return $child_title;
 		}
 
+		public function ChildURL() {
+			return $this->child['Code'] . '/view.php' . $this->link_suffix;
+		}
+
 		public function ChildTitle_Author() {
 			$child = $this->child;
 
-			$has_author = $child['association'] && count($child['association']);
+			$has_author = $this->title_style === 'author' && $child['association'] && count($child['association']);
 
 			$title_max = $has_author ? 30 : 50;
 
@@ -323,7 +345,7 @@
 				$popup_title = 1;
 			}
 
-			$child_title = $this->linked ? '<a href="' . $child['Code'] . '/view.php"' : '<span';
+			$child_title = $this->linked ? '<a href="' . $this->ChildURL() . '"' : '<span';
 
 			if($popup_title) {
 				$child_title .= ' title="' . str_replace('"', '&quot;', $child['Title']) . '"';
@@ -393,7 +415,7 @@
 			$time_frame = '';
 			$publication_event = NULL;
 
-			if($child['eventdate']) {
+			if($this->publication_year && $child['eventdate']) {
 				$child_event_count = count($child['eventdate']);
 
 				for($i = 0; $i < $child_event_count; $i++) {
@@ -557,7 +579,7 @@
 		}
 
 		public function DisplayGrandchildExcerpt() {
-			if(!$this->grandchildren) {
+			if(!$this->grandchildren || !$this->grandchild_excerpt) {
 				return FALSE;
 			}
 
@@ -565,6 +587,18 @@
 
 			if(!$first_grandchild) {
 				return FALSE;
+			}
+
+			if($this->grandchild_excerpt === 'plain') {
+				$grandchild_text = $first_grandchild['textbody']['FirstThousandCharacters'] ?? '';
+
+				print(strip_tags((string)$grandchild_text));
+
+				if(strlen((string)$grandchild_text) == 1000) {
+					print('...');
+				}
+
+				return TRUE;
 			}
 
 			$text_display = $this->that->cleanser_object->FormatListOutput([
@@ -617,8 +651,10 @@
 				print($tag['Tag']);
 
 				if($this->tag_counts) {
+					$tag_counts = $this->tag_counts === 'children' ? $this->that->tag_counts['children'] : $this->that->tag_counts;
+
 					print(' (');
-					print(number_format($this->that->tag_counts[$tag['Tag']]));
+					print(number_format($tag_counts[$tag['Tag']] ?? 0));
 					print(')');
 				}
 
