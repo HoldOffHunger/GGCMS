@@ -79,6 +79,13 @@ live installation rather than estimated.
   Still open: the token printed into `usersessionid` fields, no limit on login
   attempts, and unsalted SHA-256 passwords.
 
+- The first of those is closed. Seventeen files printed the session token into
+  a hidden `usersessionid` field that nothing read; with the cookie `HttpOnly`,
+  page markup was the one place an injected script could take a session from.
+  A crawl of 405 pages before and after found 26 changed, by that field alone.
+  Fumiko's crawl needs `Listen 8445` put back after every `local_sync.sh`,
+  which copies production's `ports.conf` over it.
+
 ## 2026, September 26
 
 - Every error and issue row on every site had been storing the request it came

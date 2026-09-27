@@ -268,7 +268,6 @@
 			}
 			
 			print('<input type="hidden" name="userid" id="userid" class="userid" value="' . $this->that->handler->authentication->user_session['User.id'] . '">' . "\n\n");
-			print('<input type="hidden" name="usersessionid" id="usersessionid" class="usersessionid" value="' . $this->that->handler->authentication->user_session['CookieToken'] . '">' . "\n\n");
 			print('<input type="hidden" name="logout" id="logout" class="logout" value="' . htmlspecialchars($this->that->Param('logout'), ENT_QUOTES, 'UTF-8') . '">' . "\n\n");
 			
 			if($this->that->user_likedislike && $this->that->user_likedislike['id']) {

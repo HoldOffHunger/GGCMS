@@ -304,7 +304,15 @@ exporting or sharing them, audit access and retention, identify any live
 credentials present without reproducing them in logs, rotate affected secrets,
 and purge or redact historical payloads through a reviewed migration.
 
-### Live authentication tokens are copied into dead DOM fields
+### Live authentication tokens are copied into dead DOM fields (resolved 27 September 2026)
+
+The field is gone from the comments module, the default suggest template and
+the fifteen view templates in the configuration repository that printed it;
+nothing read it. The authentication cookie was already `HttpOnly` and
+`Secure`. On Fumiko, 405 pages under PHP 8.5 were fetched before and after:
+26 lost the field and differed in nothing else. `SameSite` is still unset.
+
+The finding as first recorded:
 
 GGCMS renders the current `UserSession.CookieToken` into a hidden input named
 `usersessionid` in the shared comments module and sixteen site templates. A
