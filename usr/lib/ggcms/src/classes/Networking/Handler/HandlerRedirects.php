@@ -502,47 +502,30 @@
 			return $canonical_directory;
 		}
 
+			// handleBadLinkRedirect()
+			// Tests: HandlerRedirectsTest::testHandleBadLinkRedirect()
+			// Test file: tests/src/classes/Networking/Handler/HandlerRedirectsTest.php
 		public function handleBadLinkRedirect() {	// handles, i.e., "website.com/page)" or "website.com/page)."
 			if($_GET['stopredirect']) {		// don't allow multiple redirects
 				return FALSE;
 			}
 			
 			$trimmed_url = trim(urldecode($_SERVER['REQUEST_URI']));
+				
+				/*
+					nginx gives every dotless path a trailing slash before the
+					engine sees it (ggcms_needs_slash), so "/people)" arrives as
+					"/people)/", whose last character is the slash, and it 404ed.
+					Look past one trailing slash, and keep it.  What counts as
+					bad is cleanseURL()'s to say: this kept a copy of its table.
+				*/
 			
-			$last_1_char = mb_substr($trimmed_url, -1, 1);
-			$last_2_chars = mb_substr($trimmed_url, -2, 2);
+			$trailing_slash = (strlen($trimmed_url) > 1 && substr($trimmed_url, -1) === '/') ? '/' : '';
+			$candidate = $trailing_slash ? substr($trimmed_url, 0, -1) : $trimmed_url;
 			
-			$bad_chars = [
-				1=>[
-					'.'=>TRUE,
-					')'=>TRUE,
-					']'=>TRUE,
-					'}'=>TRUE,
-					'\''=>TRUE,
-					'"'=>TRUE,
-					'\''=>TRUE,
-				],
-				2=>[
-					'.)'=>TRUE,
-					').'=>TRUE,
-					'.]'=>TRUE,
-					'].'=>TRUE,
-					'.}'=>TRUE,
-					'}.'=>TRUE,
-					'".'=>TRUE,
-					'\'.'=>TRUE,
-				],
-			];
+			$new_url = $this->cleanseURL(['url'=>$candidate]);
 			
-			if($bad_chars[1][$last_1_char]) {
-				$new_url = substr($trimmed_url, 0, -1);
-			}
-			
-			if($bad_chars[2][$last_2_chars]) {
-				$new_url = substr($trimmed_url, 0, -2);
-			}
-			
-			if($bad_chars[1][$last_1_char] || $bad_chars[2][$last_2_chars]) {
+			if($new_url !== $candidate) {
 				$redirect_url = '';
 				
 				if($_SERVER['HTTPS'] === 'on') {
@@ -553,7 +536,7 @@
 				
 				$redirect_url .= $this->handler->domain->primary_domain_lowercased;
 				
-				$redirect_url .= $this->cleanseURL(['url'=>$new_url]);
+				$redirect_url .= $new_url . $trailing_slash;
 				
 				$query = parse_url($redirect_url, PHP_URL_QUERY);
 				

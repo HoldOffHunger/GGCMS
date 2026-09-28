@@ -77,6 +77,53 @@
 			$this->assertSame('/p' . str_repeat('.', 1), $redirects->cleanseURL(['url'=>'/p' . str_repeat('.', 12)]), 'recursion stops at its depth limit');
 		}
 
+			/*
+				nginx gives every dotless path a trailing slash before the
+				engine sees it, so "/people)" pasted out of prose reached this
+				as "/people)/", whose last character is a slash, and it 404ed.
+				It looks past one trailing slash now, and keeps it.
+			*/
+
+		public function testHandleBadLinkRedirect() {
+			$handler = $this->newWithoutConstructor(['class'=>'Handler']);
+			$handler->db_access = new class { public function DBEnd() { return TRUE; } };
+			$handler->domain = (object)['primary_domain_lowercased'=>'example.com'];
+
+			$redirects = new class(['handler'=>$handler]) extends HandlerRedirects {
+				public function handleRedirect() { return TRUE; }
+			};
+
+			$_SERVER['HTTPS'] = 'on';
+			$_GET = [];
+
+			$cases = [
+				'/people)'=>'https://example.com/people?stopredirect=1',
+				'/people).'=>'https://example.com/people?stopredirect=1',
+				'/people)/'=>'https://example.com/people/?stopredirect=1',
+				'/a/b/people"/'=>'https://example.com/a/b/people/?stopredirect=1',
+				'/people.)/'=>'https://example.com/people/?stopredirect=1',
+			];
+
+			foreach($cases as $uri => $expected) {
+				$_SERVER['REQUEST_URI'] = $uri;
+				$handler->redirect_url = NULL;
+
+				$this->assertTrue($redirects->handleBadLinkRedirect(), $uri . ' is repaired');
+				$this->assertSame($expected, $handler->redirect_url, $uri);
+			}
+
+			foreach(['/people/', '/people', '/', '//', '/people/view.php'] as $fine) {
+				$_SERVER['REQUEST_URI'] = $fine;
+
+				$this->assertFalse($redirects->handleBadLinkRedirect(), $fine . ' is left alone');
+			}
+
+			$_SERVER['REQUEST_URI'] = '/people)/';
+			$_GET = ['stopredirect'=>'1'];
+
+			$this->assertFalse($redirects->handleBadLinkRedirect(), 'never twice');
+		}
+
 		public function testRedirectsToSelf() {
 			$_SERVER['HTTPS'] = 'on';
 			$_SERVER['HTTP_HOST'] = 'example.com';
