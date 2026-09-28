@@ -34,6 +34,7 @@ MySQL's error table -- and are read last.
 | `classes/Networking/Domain.php` | Read | Nothing new. `SERVER_NAME` is the visitor's Host, but the configuration `require()` already checks `IsHostName()` | `DomainTest` |
 | `Handler::HandleRequest_Content()` | Probed | Serves `readfile()`/`require()` from a path built from `SCRIPT_URL`. On Fumiko, Apache refuses every traversal: `../`, `%2e%2e`, double-encoded, `%2f`, and junk Host headers all end at 400 or 404 | Probe, 27 September |
 | `classes/Networking/UserTracking.php` | Read | Nothing. Beacon fields are printable ASCII capped at 512 bytes | -- |
+| Raw SQL, engine-wide | Traced | Nothing. Every string-built query (44 `RunQuery` calls, the ORM's `order_by`, `LIMIT`s, table and field names) was traced to its source: fixed strings, `(int)` casts, `?` placeholders or allowlists. No request value reaches SQL unbound. `dbstatus`'s image deleter builds SQL from file names, but it is inert | -- |
 | `Handler::ValidateSecurity()` | Read | Sets `session.referer_check`, deprecated in PHP 8.5 and meaningless here -- GGCMS never starts a PHP session. Left for Ben: it carries his comment | -- |
 | `tests/regression/rendering-bug-hunt` | Repaired | 48 fixture runs failing under PHP 8.5, all fixture-side | `1652cd0`, 509/509 under 8.5 and 8.1 |
 
