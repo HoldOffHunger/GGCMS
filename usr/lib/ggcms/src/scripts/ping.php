@@ -55,6 +55,20 @@
 			if(!$this->url) {
 				return FALSE;
 			}
+				
+				/*
+					Only http or https, to public addresses, pinned; see
+					Curl::PublicDestination().  Redirects are not followed,
+					which is cURL's default, and could only be to http or https.
+				*/
+			
+			$this->SetCurlStatus_RequireFiles();
+			
+			$destination = $this->curl->PublicDestination(['url'=>$this->url]);
+			
+			if(!$destination) {
+				return FALSE;
+			}
 			
 			$curl_directory = 'curl';
 			
@@ -62,8 +76,13 @@
 				mkdir($curl_directory, 0777);
 			}
 			
-			$curl_resource = curl_init($this->url);
+			$curl_resource = curl_init();
 			curl_setopt($curl_resource, CURLOPT_URL, $this->url);
+			curl_setopt($curl_resource, CURLOPT_PROTOCOLS_STR, 'http,https');
+			curl_setopt($curl_resource, CURLOPT_REDIR_PROTOCOLS_STR, 'http,https');
+			curl_setopt($curl_resource, CURLOPT_RESOLVE, $destination['resolve']);
+			curl_setopt($curl_resource, CURLOPT_CONNECTTIMEOUT, 10);
+			curl_setopt($curl_resource, CURLOPT_TIMEOUT, 30);
 			curl_setopt($curl_resource, CURLOPT_RETURNTRANSFER, TRUE);
 			curl_setopt($curl_resource, CURLOPT_HEADER, 0);
 			$output = curl_exec($curl_resource);
@@ -92,8 +111,12 @@
 			
 			$this->backup_url = '<a href="' . $primary_domain_url . 'curl/' . urlencode(urlencode($this->url)) . '" target="_blank">Backup</a>';
 			
-			$curl_backup_file = fopen($curl_backup_filename, 'w+');
-			fwrite($curl_backup_file, $curl_backup_file_data);
+				// A URL too long for a file name fails to open; fwrite(FALSE) was a TypeError
+			$curl_backup_file = @fopen($curl_backup_filename, 'w+');
+			if($curl_backup_file) {
+				fwrite($curl_backup_file, $curl_backup_file_data);
+				fclose($curl_backup_file);
+			}
 			
 			$network_status_codes = $this->GetNetworkStatusCodes();
 			$curl_status['HTTP Code'] .= ' (' . $network_status_codes[$curl_status['HTTP Code']] . ')';

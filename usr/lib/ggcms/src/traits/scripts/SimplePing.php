@@ -6,7 +6,9 @@
 		public $network_status_code;
 		
 		public function SetCurlStatus($args) {
-			$this->SetCurlStatus_RequireFiles();
+			if(!$this->curl) {
+				$this->SetCurlStatus_RequireFiles();		# plain ggreq(), so once a request
+			}
 			
 			$curl_resource = $args['curlresource'];
 			

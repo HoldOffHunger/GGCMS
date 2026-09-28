@@ -1,6 +1,62 @@
 <?php
 
 	class Curl {
+			// PublicDestination()
+			// Tests: CurlTest::testPublicDestination()
+			// Test file: tests/src/classes/Networking/CurlTest.php
+			/*
+				ping.php fetched whatever it was given, and saved the response
+				under the document root.  file:// read local files -- the
+				database credentials among them -- and loopback, private and
+				link-local addresses reached services and the host's metadata.
+				This answers where a URL may go: http or https, to a host every
+				one of whose addresses is public, with the port it will use.
+				The caller pins those addresses with CURLOPT_RESOLVE, so the
+				name cannot be answered differently when cURL looks it up.
+				FALSE for anything else.
+			*/
+		public function PublicDestination($args) {
+			$parts = parse_url((string)$args['url']);
+			
+			if(!$parts || !isset($parts['host'])) {
+				return FALSE;
+			}
+			
+			$scheme = strtolower($parts['scheme'] ?? '');
+			
+			if(!in_array($scheme, ['http', 'https'], TRUE)) {
+				return FALSE;
+			}
+			
+			$host = trim($parts['host'], '[]');
+			$port = (int)($parts['port'] ?? ($scheme === 'https' ? 443 : 80));
+			
+			$addresses = filter_var($host, FILTER_VALIDATE_IP) ? [$host] : (gethostbynamel($host) ?: []);
+			
+			if(!$addresses) {
+				return FALSE;
+			}
+			
+			foreach($addresses as $address) {
+				if(!filter_var($address, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE)) {
+					return FALSE;
+				}
+			}
+			
+			$pinned = [];
+			foreach($addresses as $address) {
+				$pinned[] = $parts['host'] . ':' . $port . ':' . (str_contains($address, ':') ? '[' . $address . ']' : $address);
+			}
+			
+			return [
+				'scheme'=>$scheme,
+				'host'=>$host,
+				'port'=>$port,
+				'addresses'=>$addresses,
+				'resolve'=>$pinned,
+			];
+		}
+		
 		public function GetCurlOptions() {
 			return [
 				'Effective URL'=>CURLINFO_EFFECTIVE_URL,

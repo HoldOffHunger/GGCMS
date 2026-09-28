@@ -86,7 +86,21 @@ Notes on each:
   library, affecting every document format. Probably a deployment gap rather
   than a code defect. It is why `view.pdf` URLs appear in the 500s.
 
-### `ping.php` is an SSRF and local-file disclosure primitive
+### `ping.php` is an SSRF and local-file disclosure primitive (resolved 27 September 2026, but for CSRF)
+
+`ping::Curl()` now fetches only `http` and `https`, redirects included, and only
+when every address the host resolves to is public -- not loopback, private,
+link-local, reserved or the metadata service, IPv4 or IPv6 -- with those
+addresses pinned by `CURLOPT_RESOLVE` so a second lookup cannot differ. It has
+connect and total time limits, and a URL too long to be a file name no longer
+ends in `fwrite(FALSE)`, a `TypeError`. `CurlTest::testPublicDestination()`
+covers `file://`, other protocols, loopback by address and by name, private
+ranges, IPv6 and the metadata address. The response is still kept under
+`curl/`, but can now only be something the public internet already serves.
+What remains is that the action is a GET without CSRF protection: a page an
+administrator visits can still make the server fetch a public URL.
+
+The finding as first recorded:
 
 `ping::Curl()` passes its `url` parameter directly to cURL with no protocol,
 host, resolved-address or port policy. cURL may therefore fetch loopback and
