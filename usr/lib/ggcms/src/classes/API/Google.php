@@ -20,8 +20,8 @@
 				return;
 			}
 			
-			$this->client_id = $this->handler->globals->apidata['google']['client_id'];
-			$this->client_secret = $this->handler->globals->apidata['google']['client_secret'];
+			$this->client_id = $this->handler->globals->apidata['google']['client_id'] ?? '';
+			$this->client_secret = $this->handler->globals->apidata['google']['client_secret'] ?? '';	# unused: VerifyIdToken() needs no secret
 		}
 		
 		public function AuthenticateOrDisauthenticateWithGoogle($args) {

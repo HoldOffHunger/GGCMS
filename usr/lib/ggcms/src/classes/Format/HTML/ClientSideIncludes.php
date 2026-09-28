@@ -13,7 +13,7 @@
 			$this->desired_action = $args['desiredaction'];
 			$this->script_file = $args['scriptfile'];
 			$this->domain_object = $args['domainobject'];
-			$this->secure_script = $_SERVER['HTTPS'];
+			$this->secure_script = $_SERVER['HTTPS'] ?? '';		# unset under the CLI, as when the page cache is warmed
 			$this->language = $args['language'];
 			$this->google_api = $args['googleapi'];
 			$this->globals = $args['globals'];
@@ -85,10 +85,12 @@
 						}
 					}
 					
-					if($_SERVER['HTTPS'] === 'on' && $this->google_api->client_id) {
-						print("\n\t" . '<script src="https://apis.google.com/js/platform.js" async defer></script>');
-						
-						print("\n\t" . '<meta name="google-signin-client_id" content="' . $this->google_api->client_id . '">');
+					if($include_type === 'javascript' && $this->LoadsGoogleSignIn()) {
+						$domain = $this->domain_object->GetPrimaryDomain(['secure'=>$this->secure_script, 'www'=>0, 'lowercased'=>TRUE]);
+
+						print("\n\t" . '<meta name="google-signin-client_id" content="' . htmlspecialchars($this->google_api->client_id, ENT_QUOTES, 'UTF-8') . '">');
+						print("\n\t" . '<script src="' . $domain . '/javascript/google-signin.js"></script>');
+						print("\n\t" . '<script src="https://accounts.google.com/gsi/client" async defer></script>');
 					}
 				} else {
 					$headers_unavailable_args = [
@@ -261,6 +263,37 @@
 			return TRUE;
 		}
 		
+			/*
+				Google's sign-in script, only where someone signs in or out.
+				On every page it would tell Google about every reader's visit,
+				and a page-cached page is rendered once for everyone anyway --
+				the warmer renders without HTTPS, so the old test here left
+				the script off every cached page.
+
+				Google Identity Services (gsi/client) replaced platform.js,
+				which Google now refuses to start: "idpiframe_initialization_
+				failed", its libraries "are deprecated".  Google allows
+				http://localhost as an origin, so there is no HTTPS test.
+			*/
+
+			// LoadsGoogleSignIn()
+			// Tests: ClientSideIncludesTest::testLoadsGoogleSignIn()
+			// Test file: tests/src/classes/Format/HTML/ClientSideIncludesTest.php
+		public function LoadsGoogleSignIn() {
+			if(!is_object($this->google_api) || empty($this->google_api->client_id)) {
+				return FALSE;
+			}
+
+			return in_array($this->script_file, $this->GoogleSignInScripts(), TRUE);
+		}
+
+		public function GoogleSignInScripts() {
+			return [
+				'login',
+				'logout',
+			];
+		}
+
 			/*
 				The same question UserTracking::HumanBeaconEnabled asks, so a
 				page never carries a beacon the server would not log.

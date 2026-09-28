@@ -1,28 +1,14 @@
 var id_token;
 
-function onSignIn(googleUser) {
-	var profile = googleUser.getBasicProfile();
-	console.log('Hello, ' + profile.getEmail() + '.  We\'ve been waiting for you.');
-	id_token = googleUser.getAuthResponse().id_token;
-	
-	if($('#logout').val()) {
-		var auth2 = gapi.auth2.getAuthInstance();
-		auth2.signOut().then(function () {
-			console.log('Signed out of Google.');
-			$('#logout').val('');
-			$('#comment-form').submit();
-			
-			var redirect = $('#redirect').val();
-			
-			if(redirect.length > 0) {
-				console.log('Redirecting to: ' + redirect);
-				
-				window.location.href = redirect;
-				
-				return true;
-			}
-		});
-	} else if(id_token && !$('#userid').val()) {
+	/*
+		Called by google-signin.js with Google Identity Services' response,
+		whose credential is the ID token API\Google::VerifyIdToken() checks.
+	*/
+
+function onSignIn(response) {
+	id_token = response && response.credential;
+
+	if(id_token && !$('#logout').val() && !$('#userid').val()) {
 		$('#google_token_id').val(id_token);
 		$('#submit').click();		// We hate you, Google.
 		return true;
@@ -30,6 +16,21 @@ function onSignIn(googleUser) {
 }
 
 $(document).ready(function(event){
+		/*
+			The old library kept its own Google session, and a sign-out had
+			to wait for Google to end it before leaving.  Identity Services
+			keeps none: the site's own sign-out is already done, so go.
+		*/
+
+	if($('#logout').val()) {
+		var redirect = $('#redirect').val();
+
+		if(redirect && redirect.length > 0) {
+			window.location.href = redirect;
+		}
+	}
+
+
 	$('#comment-form').submit(function(e) {
 		if($('#userid').attr('id') && $('#userid').val() && !$('#google_token_id').val()) {
 			if(!$('#Comments').val() || ($('#Username').prop('id') && !$('#Username').val())) {

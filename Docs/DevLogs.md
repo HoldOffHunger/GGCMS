@@ -9,6 +9,15 @@ live installation rather than estimated.
 
 ## 2026, September 28
 
+- Nobody could sign in. Google is the only way in, and Google now refuses to
+  start `platform.js`, the library every sign-in page loaded: its button drew,
+  then failed with "idpiframe_initialization_failed". Revoltlib had no client
+  configured at all. Sign-in moves to Google Identity Services, whose tokens
+  the engine's own verifier already checked, so only the button changed, and
+  revoltlib has a client of its own. Google's script now loads only on the
+  sign-in and sign-out pages; on every page it would tell Google about every
+  reader's visit.
+
 - The scripts that write were read, most exposed first. Downvoting had been a
   500 for everyone, and an anonymous vote another; the vote actions now refuse
   without a user and say Success only when the database agrees. The war room's
