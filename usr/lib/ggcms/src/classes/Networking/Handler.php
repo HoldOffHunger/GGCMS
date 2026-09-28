@@ -97,7 +97,19 @@
 			}
 		}
 		
+			/*
+				The query recorder: every query with its backtrace, printed at
+				the foot of the page, and the backtrace of whatever closes the
+				connection.  It was on for every page an administrator loaded,
+				which buried each page under its own query log -- the sign-in
+				landing page among them.  Ask for it with ?showqueries=1.
+			*/
+
 		public function Construct_UpgradeDBAccess() {
+			if(!$this->query->Parameter(['parameter'=>'showqueries'])) {
+				return TRUE;
+			}
+
 			if($this->authentication->CheckAuthenticationForCurrentObject_IsAdmin()) {
 				ggreq('classes/Database/DBAccessUpgraded.php');
 				
