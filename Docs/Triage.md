@@ -408,7 +408,14 @@ rather than silently claiming cleanup. Test deletion and orphan scanning from
 the actual web working directory with nested hash directories, missing files and
 permission failures.
 
-### GET overrides false-valued POST parameters
+### GET overrides false-valued POST parameters (resolved 27 September 2026)
+
+`Construct_Parameters_GETData()` now asks whether POST has the key at all, and
+allows for nothing having been POSTed. `QueryTest::testConstruct_Parameters_GETData()`
+posts `'0'`, `''` and an empty list against conflicting query-string values,
+and fails on the code before. (`FALSE` cannot arrive over HTTP.)
+
+The finding as first recorded:
 
 `Query::Construct_Parameters()` deliberately loads POST data before GET data,
 but `Construct_Parameters_GETData()` decides whether a key already exists with:

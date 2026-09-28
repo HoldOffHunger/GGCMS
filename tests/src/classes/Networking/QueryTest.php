@@ -28,8 +28,22 @@
 			$this->assertSame('x', $this->newQuery(['post'=>['a'=>'x']])->Parameter(['parameter'=>'a']));
 		}
 
+			/*
+				POST is loaded first and GET only fills what POST left out.
+				"Left out" was tested as falsy, so a POSTed 0, empty string or
+				empty list was replaced by whatever the URL the form was posted
+				to said -- a flag unticked in the form, set by the query string.
+			*/
+
 		public function testConstruct_Parameters_GETData() {
 			$this->assertSame('y', $this->newQuery(['get'=>['b'=>'y']])->Parameter(['parameter'=>'b']));
+
+			$query = $this->newQuery(['post'=>['flag'=>'0', 'note'=>'', 'list'=>[]], 'get'=>['flag'=>'1', 'note'=>'from the url', 'list'=>['from the url'], 'page'=>'2']]);
+
+			$this->assertSame('0', $query->Parameter(['parameter'=>'flag']), 'a POSTed 0 stands');
+			$this->assertSame('', $query->Parameter(['parameter'=>'note']), 'a POSTed empty string stands');
+			$this->assertSame([], $query->Parameter(['parameter'=>'list']), 'a POSTed empty list stands');
+			$this->assertSame('2', $query->Parameter(['parameter'=>'page']), 'GET still fills what POST left out');
 		}
 
 			/*

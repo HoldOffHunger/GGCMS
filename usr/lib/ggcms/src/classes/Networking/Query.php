@@ -41,7 +41,13 @@
 			// Test file: tests/src/classes/Networking/QueryTest.php
 		public function Construct_Parameters_GETData() {
 			foreach ($this->get_data as $key => $value) {
-				if(!$this->parameter_data[$key]) {
+					/*
+						Present, not truthy: a POSTed 0 or empty string was
+						overwritten by the query string's value.  NULL when
+						nothing was POSTed, which array_key_exists() refuses.
+					*/
+				
+				if(!is_array($this->parameter_data) || !array_key_exists($key, $this->parameter_data)) {
 					$add_single_parameter_args = [
 						'key'=>$key,
 						'value'=>$value,
