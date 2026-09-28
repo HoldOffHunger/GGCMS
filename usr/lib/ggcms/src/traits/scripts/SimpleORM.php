@@ -3636,6 +3636,40 @@
 			return TRUE;
 		}
 		
+			// canUserDelete()
+			// Tests: modify-delete fixture
+			// Test file: tests/regression/rendering-bug-hunt/modify-delete.php
+			/*
+				Who may delete an entry: an administrator, or the reader who
+				submitted it, while it is still unpublished -- withdrawing their
+				own suggestion.  Nobody else.
+
+				modify.php used to ask canUserAccess(), which is about who may
+				see an entry, and says yes to everyone for anything published --
+				and it asked before the entry had even been loaded, so it said
+				yes to everything.  Any signed-in reader could delete any page on
+				any site, with its text, its children's links and its image
+				files, by GET.  Found 28 September 2026.
+			*/
+		
+		public function canUserDelete() {
+			if($this->isUserAdmin()) {
+				return TRUE;
+			}
+			
+			$user_id = (int)($this->handler->authentication->user_account['id'] ?? 0);
+			
+			if(!$user_id || !$this->entry || empty($this->entry['id'])) {
+				return FALSE;
+			}
+			
+			if((int)$this->entry['Publish'] !== 0) {
+				return FALSE;
+			}
+			
+			return (int)($this->entry['entrypermission'][0]['Userid'] ?? 0) === $user_id;
+		}
+		
 		public function setPrimaryChildren() {
 			return $this->primary_children = $this->orm->getPrimaryChildren();
 		}

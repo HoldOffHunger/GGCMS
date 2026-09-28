@@ -718,6 +718,27 @@ connection succeeds, the failure needs a durable non-database fallback that can
 be recovered into the ISE table later; attempting the ordinary logging path
 again would only recurse into the same fault.
 
+### Any signed-in reader could delete any entry (resolved 28 September 2026)
+
+`modify.php` is open to readers on purpose -- a reader's edit is filed as an
+unpublished copy for an administrator -- but its Delete asked only
+`canUserAccess()`, which is about who may *see* an entry and says yes to
+everyone for anything published. Both calls also ran before the entry was
+loaded, so they said yes to everything. Proved on Fumiko: one GET from a
+reader's session to `/people/<entry>/modify.php?action=Update&Delete=1`
+deleted a published entry with its assignment and text; POSTing Delete did
+the same. The Edit page's Delete button was shown to every reader on the same
+test.
+
+`canUserDelete()` now decides: an administrator, or the reader who submitted
+the entry while it is still unpublished. Delete asks it after the entry is
+loaded, Update's delete branch always goes to Delete rather than falling
+through to an update, and both Edit templates (default and revoltsource) show
+the button only when it is true. The `modify-delete` fixture covers each case.
+
+Whether it was ever used on the live sites is not known: the request logs do
+not say who was signed in. Deleting by GET is part of the CSRF entry above.
+
 ### `transfer.php` uses undefined locals around a live assignment update (resolved 28 September 2026)
 
 Worse than recorded: `transfer.php` was never admin-only. It declared only

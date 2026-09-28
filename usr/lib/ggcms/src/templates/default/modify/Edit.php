@@ -4150,7 +4150,7 @@ print('</center>');
 					
 					
 					if($this->parent['id']) {
-						if($this->canUserAccess()) {
+						if($this->canUserDelete()) {
 								// Save/Delete Button Separator
 								// -----------------------------------------------------
 							

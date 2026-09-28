@@ -42,6 +42,12 @@ live installation rather than estimated.
   is looked up -- waits on converting the tables to utf8mb4, which is measured
   in Triage and not yet decided.
 
+- `modify.php` let any signed-in reader delete any entry on any site -- one
+  GET did it -- because its Delete asked who may see an entry, and asked
+  before loading it. Only an administrator, or a reader withdrawing their own
+  still-unpublished submission, may delete now.
+
+
 
 - `Handler.php` begins to split along its stages. Measured over the 405-page
   crawl, everything before rendering costs about 80 KB and 1 ms of a median

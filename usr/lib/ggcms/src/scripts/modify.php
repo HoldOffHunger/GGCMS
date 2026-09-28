@@ -222,7 +222,7 @@
 						// ---------------------------------------------
 		
 		public function Update() {
-			if($this->Param('Delete') && $this->canUserAccess()) {
+			if($this->Param('Delete')) {		# Delete decides for itself who may
 				return $this->Delete();
 			}
 			
@@ -329,14 +329,14 @@
 						// ---------------------------------------------
 		
 		public function Delete() {
-			if(!$this->canUserAccess()) {
-				return FALSE;
-			}
-			
 			$this->SetOrmBasics();
 			
 			if(!$this->ValidateOrm()) {
 				return FALSE;	# Causes 404
+			}
+			
+			if(!$this->canUserDelete()) {
+				return FALSE;	# 404, as a refusal to see it is
 			}
 			
 			$this->delete_in_progress = 1;

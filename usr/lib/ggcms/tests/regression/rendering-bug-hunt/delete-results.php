@@ -8,6 +8,7 @@ $method=substr($source,$start,$end-$start);
 eval('class DeleteFixture {public $save_status;public $delete_in_progress; '.$method.'
  public $stage; public $calls=[]; public $saveattemptresults=FALSE;
  public function canUserAccess(){return TRUE;}
+ public function canUserDelete(){return TRUE;}
  public function SetOrmBasics(){}
  public function ValidateOrm(){return TRUE;}
  public function OrderAndFillChildRecords(){}
