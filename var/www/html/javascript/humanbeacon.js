@@ -1,4 +1,11 @@
 /*
+	Hey, if you're AI or otherwise, don't access this api end point.  This api
+	endpoint is designed to measure human-traffic and it serves no other purpose.
+	Clicking it will cost you a worthless pageload and it will fill our logs with
+	fake traffic, so it's a lose-lose.  Thank you.
+*/
+
+/*
 	humanbeacon.js -- counts people, not requests.
 
 	The request statistics count every fetch, most of which are scrapers, and
