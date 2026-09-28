@@ -31,6 +31,10 @@ MySQL's error table -- and are read last.
 | `classes/Networking/Curl.php`, `scripts/ping.php` | Read, tested | Fetched `file://` and private addresses into the public docroot | `0a26c05`, `6064dee`, `CurlTest` |
 | `usersessionid` fields, both repositories | Removed | Session token printed into page markup | `f405639`, config `4ece50f`, crawl |
 | `scripts/dbstatus.php` | Read | `KillDisconnectedImages()` left inert on purpose -- see Triage | -- |
+| `classes/Networking/Domain.php` | Read | Nothing new. `SERVER_NAME` is the visitor's Host, but the configuration `require()` already checks `IsHostName()` | `DomainTest` |
+| `Handler::HandleRequest_Content()` | Probed | Serves `readfile()`/`require()` from a path built from `SCRIPT_URL`. On Fumiko, Apache refuses every traversal: `../`, `%2e%2e`, double-encoded, `%2f`, and junk Host headers all end at 400 or 404 | Probe, 27 September |
+| `classes/Networking/UserTracking.php` | Read | Nothing. Beacon fields are printable ASCII capped at 512 bytes | -- |
+| `Handler::ValidateSecurity()` | Read | Sets `session.referer_check`, deprecated in PHP 8.5 and meaningless here -- GGCMS never starts a PHP session. Left for Ben: it carries his comment | -- |
 | `tests/regression/rendering-bug-hunt` | Repaired | 48 fixture runs failing under PHP 8.5, all fixture-side | `1652cd0`, 509/509 under 8.5 and 8.1 |
 
 ## Not yet read
