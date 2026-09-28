@@ -841,11 +841,33 @@
 			}
 
 			return $this->RepairRequest([
-				'path'=>$target_path,
+				'path'=>$this->CanonicalTrailingSlash(['path'=>$target_path]),
 				'query'=>$target_query,
 			]);
 		}
 
+			// CanonicalTrailingSlash()
+			// Tests: HandlerRedirectsTest::testRepairInsteadOfRedirect()
+			// Test file: tests/src/classes/Networking/Handler/HandlerRedirectsTest.php
+			/*
+				nginx's ggcms_needs_slash map, in the configuration repository's
+				etc/nginx/sites-available/ggcms.conf: a path of one to six
+				segments, none with a dot, and no trailing slash, is given one.
+				A redirect goes back through nginx and gets it; a repair is
+				answered here and never does, so it is given it here.  Change
+				one, change both.
+			*/
+		
+		public function CanonicalTrailingSlash($args) {
+			$path = (string)$args['path'];
+			
+			if(preg_match('#^/([^./]+/){0,5}[^./]+$#', $path)) {
+				return $path . '/';
+			}
+			
+			return $path;
+		}
+		
 		/*
 			The arriving request is kept under _ORIGINAL names, exactly as
 			Construct_RepairQueryString keeps $GLOBALS['_ORIGINALGET'], and kept

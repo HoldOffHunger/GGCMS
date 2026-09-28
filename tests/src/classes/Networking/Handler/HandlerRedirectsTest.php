@@ -7,6 +7,19 @@
 		does -- and hands it over.  These tests moved with their functions.
 	*/
 
+	require_once(GGCMS_DIR . 'classes/Networking/Handler/HandlerRedirects.php');
+
+		// Records what a repair would have been, instead of rebuilding the request
+	class HandlerRedirectsTestRepairs extends HandlerRedirects {
+		public $repaired;
+
+		public function RepairRequest($args) {
+			$this->repaired = $args;
+
+			return TRUE;
+		}
+	}
+
 	class HandlerRedirectsTest extends GGCMSTestCase {
 		protected function setUp(): void {
 			parent::setUp();
@@ -122,6 +135,43 @@
 			$_GET = ['stopredirect'=>'1'];
 
 			$this->assertFalse($redirects->handleBadLinkRedirect(), 'never twice');
+		}
+
+			/*
+				A repair is answered in place, so it never goes back through
+				nginx, which gives every dotless path its trailing slash.  The
+				engine reads /people as a script named people, so /people). was
+				repaired to /people and 404ed while /people) -- slashed by
+				nginx first -- was served.  The repaired path is slashed as
+				nginx would have slashed it.
+			*/
+
+		public function testRepairInsteadOfRedirect() {
+			$handler = $this->newWithoutConstructor(['class'=>'Handler']);
+			$handler->db_access = new class { public function DBEnd() { return TRUE; } };
+			$handler->globals = new stdClass();
+
+			$redirects = new HandlerRedirectsTestRepairs(['handler'=>$handler]);
+
+			$_SERVER['REQUEST_METHOD'] = 'GET';
+			$_SERVER['HTTPS'] = 'on';
+			$_SERVER['HTTP_HOST'] = 'example.com';
+
+			$cases = [
+				'https://example.com/people?stopredirect=1'=>['/people/', 'stopredirect=1'],
+				'/people'=>['/people/', NULL],
+				'/a/b/c'=>['/a/b/c/', NULL],
+				'/people/'=>['/people/', NULL],
+				'/people/view.php?action=index'=>['/people/view.php', 'action=index'],
+				'/robots.txt'=>['/robots.txt', NULL],
+				'/'=>['/', NULL],
+				'/a/b/c/d/e/f/g'=>['/a/b/c/d/e/f/g', NULL],
+			];
+
+			foreach($cases as $target => [$path, $query]) {
+				$this->assertTrue($redirects->RepairInsteadOfRedirect(['url'=>$target]), $target);
+				$this->assertSame(['path'=>$path, 'query'=>$query], $redirects->repaired, $target);
+			}
 		}
 
 		public function testRedirectsToSelf() {
