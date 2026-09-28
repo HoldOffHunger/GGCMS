@@ -139,7 +139,15 @@
 		
 		public function ValidateSecurity() {
 			setlocale(LC_ALL,'en_US.UTF-8');
-			ini_set('session.referer_check', 'TRUE');	# HOLY GOD, WHY WOULD YOU NOT?
+				
+				/*
+					session.referer_check was set here, to 'TRUE'.  It guards only
+					PHP's own session ids, and GGCMS signs in with its own
+					AuthenticationToken cookie and never starts a PHP session, so it
+					never applied -- and 'TRUE' is read as text the Referer must
+					contain.  PHP 8.5 deprecates it.  The referrer defence that
+					works is ValidateReferrals(): "You done been smote."
+				*/
 			
 			return TRUE;
 		}

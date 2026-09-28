@@ -8,7 +8,6 @@
 		#	ggreq('classes/Networking/IPAddress.php');
 		#	ggreq('classes/Database/EscapeMySQL.php');
 			
-					ini_set('session.referer_check', 'TRUE');	# HOLY GOD, WHY WOULD YOU NOT?	
 		#	print_r($_SERVER);
 			$_SERVER['HTTP_HOST'] = 'localhost';
 			$_SERVER['SERVER_NAME'] = 'localhost';

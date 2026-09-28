@@ -12,6 +12,8 @@
 		public function newDomain() {
 			$domain = $this->newWithoutConstructor(['class'=>'Domain']);
 			$domain->host = 'example';
+			$domain->primary_domain = 'example.com';
+			$domain->primary_domain_lowercased = 'example.com';
 
 			return $domain;
 		}
@@ -89,7 +91,35 @@
 				'this site'=>['https://www.example.com/x'],
 				'another site'=>['https://search.example.org/?q=a'],
 				'none'=>[NULL],
+				'Ben\'s own sortwords'=>['https://sortwords.com/'],
+				'Ben\'s own listkeywords'=>['https://www.listkeywords.com/tools'],
 			];
+		}
+
+			/*
+				"Error 403 - You done been smote."  Referral spam forges the
+				Referer precisely so that it is seen, so refusing it by that
+				Referer works on exactly the senders who forge one.  Each of
+				these was let in by nothing and refused by the list.
+			*/
+
+		public static function smitten() {
+			return [
+				'a listed spam domain'=>['https://1-best-seo.com/'],
+				'another, with a path'=>['http://worldwide-seo-services.com/offer?id=4'],
+				'a listed spam domain, www'=>['https://www.makeinternetnoise.com/'],
+				'the whole .xyz top-level domain'=>['https://anything-at-all.xyz/'],
+				'the whole .pw top-level domain'=>['http://spam.example.pw/'],
+				'a lookalike of this site, on a listed TLD'=>['https://example.xyz/'],
+			];
+		}
+
+		#[DataProvider('smitten')]
+		#[RunInSeparateProcess]
+		public function testValidateReferringWebsite_Smitten($referer) {
+			$_SERVER['HTTP_REFERER'] = $referer;
+
+			$this->assertFalse($this->newDomain()->ValidateReferringWebsite());
 		}
 
 			/*
@@ -127,6 +157,9 @@
 			$this->assertTrue($domain->IsReferringWebsiteSelf(['referraldomain'=>['domain'=>'example.com']]));
 			$this->assertFalse($domain->IsReferringWebsiteSelf(['referraldomain'=>['domain'=>'notexample.com']]));
 			$this->assertFalse($domain->IsReferringWebsiteSelf(['referraldomain'=>['domain'=>'localhost']]));
+			$this->assertFalse($domain->IsReferringWebsiteSelf(['referraldomain'=>['domain'=>'example.xyz']]), 'the same name on another TLD is not this site');
+			$this->assertFalse($domain->IsReferringWebsiteSelf(['referraldomain'=>['domain'=>'example.pw']]));
+			$this->assertTrue($domain->IsReferringWebsiteSelf(['referraldomain'=>['domain'=>'EXAMPLE.com']]), 'in any case');
 		}
 	}
 

@@ -243,14 +243,18 @@
 			// IsReferringWebsiteSelf()
 			// Tests: DomainTest::testIsReferringWebsiteSelf()
 			// Test file: tests/src/classes/Networking/DomainTest.php
+			/*
+				This was the site's name followed by a dot, so revoltlib.xyz
+				counted as revoltlib.com and skipped the blocklist -- a lookalike
+				a referral spammer can register for pennies.  The whole domain,
+				cut to its last two labels as the referrer's is, must match.
+			*/
+		
 		public function IsReferringWebsiteSelf($args) {
-			$referral_domain = $args['referraldomain']['domain'];
+			$referral_domain = (string)$args['referraldomain']['domain'];
+			$own_domain = (string)$this->GetDomainFromURL(['url'=>'//' . $this->primary_domain])['domain'];
 			
-			if(preg_match("/^" . $this->host . "\./", $referral_domain)) {
-				return TRUE;
-			}
-			
-			return FALSE;
+			return $own_domain !== '' && strcasecmp($referral_domain, $own_domain) === 0;
 		}
 	}
 
