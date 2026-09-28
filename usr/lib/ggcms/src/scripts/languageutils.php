@@ -31,6 +31,11 @@
 		public function RequiresLogin() {
 			return TRUE;
 		}
+			
+			// A developer's tool -- it reformats the misspelling dictionaries' source -- so not for every sign-in
+		public function AdminOnly() {
+			return TRUE;
+		}
 		
 						// Functionality
 						// ---------------------------------------------

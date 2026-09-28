@@ -36,6 +36,17 @@
 		public function RequiresLogin() {
 			return TRUE;
 		}
+			
+			/*
+				Unfinished, and linked from nowhere but its own templates, but
+				any Google sign-in could reach it by URL.  Admin-only until it
+				is done.  Still to do when it is: an entry with more than 400
+				children calls index(), which nothing here defines.
+			*/
+		
+		public function AdminOnly() {
+			return TRUE;
+		}
 		
 						// Functionality
 						// ---------------------------------------------
@@ -196,7 +207,7 @@
 			$sql = 'SELECT * FROM Form WHERE Entryid = ?';
 			$forms = $this->handler->db_access->RunQuery([
 				'sql'=>$sql,
-				'args'=>$this->entry['id'],
+				'args'=>[$this->entry['id']],		# a list; RunQuery count()s it, and count(7) is a TypeError
 			]);
 			
 			$this->forms = $forms;

@@ -24,6 +24,14 @@ live installation rather than estimated.
   mended; it works for the first time, reserves the old path, and refuses a
   move that would hang a branch from its own descendant.
 
+- Two more scripts were open to anyone signed in the way `transfer.php` was:
+  `formmaker.php`, which was never finished, and `languageutils.php`, a tool
+  for tidying the misspelling dictionaries. Both are admin-only now. A new lint
+  test fails for any script that requires a login without being admin-only,
+  unless it is named as a page meant for readers, with the reason -- today
+  `user-panel`, `chapterify` and `modify`. A new script has to be decided,
+  rather than open by default.
+
 - `Handler.php` begins to split along its stages. Measured over the 405-page
   crawl, everything before rendering costs about 80 KB and 1 ms of a median
   7.8 ms request -- opcache holds the code -- so the split is for clarity, not

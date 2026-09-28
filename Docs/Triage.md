@@ -886,6 +886,15 @@ folders, loaded per script.
 `scripts/sitemap.php` opens `display()` with `print ''; return FALSE;`, leaving
 ~820 lines unreachable. Every sitemap request falls through to the 404 path.
 
+### `formmaker.php` is unfinished
+
+Admin-only since 28 September 2026; before that any Google sign-in could reach
+it by URL, though nothing links to it but its own templates. Its `list()`
+crashed on every call (fixed then). What is left is for when it is finished:
+`display()`, `newform()` and `list()` are three copies of the same page, each
+calling `index()` for an entry with more than 400 children, and there is no
+`index()`; and the `Form` table it reads is in no schema file.
+
 ### `DBFileCache` write and read disagree about shape
 
 `ReadCache()` only reassembles elements that are arrays carrying an `id` key.
