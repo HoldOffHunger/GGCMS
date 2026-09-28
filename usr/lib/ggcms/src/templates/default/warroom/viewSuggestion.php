@@ -80,6 +80,10 @@
 		// -------------------------------------------------------------
 	
 	$suggestion = $this->suggestion;
+
+		// What a visitor wrote, so escaped before the generic list prints it as HTML
+	$escaped_suggestion = $suggestion;
+	array_walk_recursive($escaped_suggestion, function(&$value) { $value = htmlspecialchars((string)$value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); });
 	
 	$primary_url = $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]);
 	
@@ -132,7 +136,8 @@
 				'border-1px width-100percent vertical-top',
 			],
 		],
-		'list'=>$suggestion,
+		'list'=>$escaped_suggestion,
 	];
+	$generic_list->Display($version_list_display_args);
 	
 ?>

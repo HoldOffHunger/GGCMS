@@ -80,6 +80,10 @@
 		// -------------------------------------------------------------
 	
 	$comment = $this->comment;
+
+		// What a visitor wrote, so escaped before the generic list prints it as HTML
+	$escaped_comment = $comment;
+	array_walk_recursive($escaped_comment, function(&$value) { $value = htmlspecialchars((string)$value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); });
 	
 	$primary_url = $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]);
 	
@@ -132,7 +136,7 @@
 				'border-1px width-100percent vertical-top',
 			],
 		],
-		'list'=>$comment,
+		'list'=>$escaped_comment,
 	];
 	$generic_list->Display($version_list_display_args);
 

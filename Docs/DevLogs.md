@@ -9,6 +9,14 @@ live installation rather than estimated.
 
 ## 2026, September 28
 
+- The scripts that write were read, most exposed first. Downvoting had been a
+  500 for everyone, and an anonymous vote another; the vote actions now refuse
+  without a user and say Success only when the database agrees. The war room's
+  single-comment view printed a visitor's comment as HTML -- a script posted as
+  a comment would have run in the administrator's session on moderation -- and
+  its single-suggestion view never showed the suggestion at all. Both escape
+  what a visitor wrote, and both show it.
+
 - `Handler.php` begins to split along its stages. Measured over the 405-page
   crawl, everything before rendering costs about 80 KB and 1 ms of a median
   7.8 ms request -- opcache holds the code -- so the split is for clarity, not
