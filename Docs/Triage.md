@@ -379,6 +379,17 @@ failure, and serve media with an explicit allowlisted content type plus
 
 ### Image cleanup prepends `../` to an already absolute data path
 
+Checked 27 September 2026: the child-record cleanup in `modify.php` is already
+fixed. `dbstatus::KillDisconnectedImages()` still has the `../`, and is left so
+**on purpose**: the prefix is all that keeps it inert. Without it, it walks the
+image tree and `unlink()`s every file it cannot match to an `Image` row, by a
+query built from the file name by string concatenation, with no dry run and
+nothing printed before it deletes. Its rebuilt `FileDirectory` does match the
+stored form (`3/2/1/g` stripped to `321g`), but some rows have an empty one,
+and it has never run against a real image tree. Make it list what it would
+remove, and delete only on a second, confirmed request, before taking the
+`../` away.
+
 `SimpleImages::GetImageFolderDirectory()` returns an absolute path rooted at
 `GGCMS_DATA_DIR`, which is defined as `/srv/ggcms/`. Normal image upload,
 resize, rename and direct removal use that value as-is. The child-record cleanup

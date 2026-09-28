@@ -103,9 +103,17 @@ live installation rather than estimated.
   no password. No account on the current seed existed yet.
 
 - The rendering bug hunt's own runner, `tests/regression/rendering-bug-hunt/run.php`,
-  had 48 of its fixture runs failing before any of today's work -- most dying
-  outright with exit 255 -- and still does. Its login fixture, which today's
-  limits broke, is updated to the new contract and passes.
+  had 48 of its fixture runs failing under PHP 8.5 before any of today's work.
+  None was an engine fault: the fixtures fail on any deprecation, and their
+  stand-in classes created undeclared properties. All 509 cases pass now,
+  under 8.5 and 8.1.
+
+- A file-by-file bug hunt over the whole engine began, with its ledger in
+  `Docs/BugHunt.md`. The first evening closed Triage's `ping.php` entry --
+  it fetched `file://` and private addresses into the public document root --
+  and its GET-over-POST precedence entry, and made the unused datetime escaper
+  safe. `dbstatus::KillDisconnectedImages()` was left inert on purpose: fixing
+  its path would arm an unreviewed file deleter.
 
 ## 2026, September 26
 
