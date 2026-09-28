@@ -9,6 +9,16 @@ live installation rather than estimated.
 
 ## 2026, September 28
 
+- The front page's numbers are drawn at random, four at a time, from every
+  figure the record supports -- texts, words, formats, days to read it all,
+  and the year the site opened, taken from the master record's own date.
+  The page is served from the cache, so the choice is made in the browser
+  for each visit rather than frozen at the last warm. Two figures were
+  considered and left out: an account count (46 on RevoltLib, which reads
+  as a quiet site rather than a trusted one) and pages served since 2016,
+  which no surviving log can support. The reader beacon will support
+  readers and pages read per month once it has a month of data.
+
 - Tag pages, browse pages and a person's works list take the new look. Every
   reading page links to a dozen tags, so the tag page is where a reader goes
   next, and it was still the oldest page on the site: boxed headers, no site

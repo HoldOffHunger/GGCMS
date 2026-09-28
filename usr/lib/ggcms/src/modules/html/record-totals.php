@@ -72,20 +72,75 @@
 		}
 		
 			/*
-				The archive in four numbers, for a front page or an about page:
-				how many texts, how many words (with the printed pages that
-				makes), how many formats each comes in, and how long it would
-				take to read the lot.  All four are computed -- from
-				child_record_stats and the formats module -- never typed in, so
-				they stay true as the archive grows.
-			*/
+				The archive in numbers, for a front page or an about page: how
+				many texts, how many words (with the printed pages that makes),
+				how many formats each comes in, how long it would take to read
+				the lot, and how long the site has been open.  All are computed
+				-- from child_record_stats, the formats module and the master
+				record's own date -- never typed in, so they stay true as the
+				archive grows.
+
+				Every figure is printed, and four of them show.  The page is
+				served from the page cache, so a choice made here would stand
+				until the next warm; the script after the panel chooses again
+				for each visit, before the panel is drawn.  Without scripts,
+				the first four show.
+
+					$record_totals->DisplayStats(['that'=>$this]);
+
+				Switches:
+				  show   how many figures to show at once; 4 by default
+		*/
 
 		public function DisplayStats($args) {
 			$that = $args['that'];
+			$show = !empty($args['show']) ? (int) $args['show'] : 4;
+			$figures = $this->StatFigures(['that'=>$that]);
+
+			if(!$figures) {
+				return FALSE;
+			}
+
+			print('<section class="stats" aria-label="The archive in numbers">');
+			print('<div class="stats-panel">');
+
+			foreach($figures as $index => $figure) {
+				$figure['hidden'] = $index >= $show;
+				$this->DisplayStat($figure);
+			}
+
+			print('</div>');
+
+			if(count($figures) > $show) {
+				print('<script>');
+				print('(function (panel, show) {');
+				print('var stats = [].slice.call(panel.children), chosen = stats.slice();');
+				print('for (var i = chosen.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = chosen[i]; chosen[i] = chosen[j]; chosen[j] = t; }');
+				print('chosen = chosen.slice(0, show);');
+				print('stats.forEach(function (stat) { stat.hidden = chosen.indexOf(stat) === -1; });');
+				print('})(document.currentScript.previousElementSibling, ' . $show . ');');
+				print('</script>');
+			}
+
+			print('</section>');
+
+			return TRUE;
+		}
+
+			/*
+				Each figure the record can support, in the order they show
+				when scripts are off.  One the record cannot support -- no
+				texts counted yet, no founding date -- is left out rather than
+				shown as a zero.
+			*/
+
+		public function StatFigures($args) {
+			$that = $args['that'];
 			$stats = $that->child_record_stats;
+			$figures = [];
 
 			if(!$stats || empty($stats['ChildRecordCount'])) {
-				return FALSE;
+				return $figures;
 			}
 
 			require_once(GGCMS_DIR . 'modules/html/alternateformats.php');
@@ -94,41 +149,68 @@
 			$words = (int) $stats['ChildWordCount'];
 			$texts = (int) $stats['ChildRecordCount'];
 
-			print('<section class="stats" aria-label="The archive in numbers">');
-			print('<div class="stats-panel">');
-
-			$this->DisplayStat([
+			$figures[] = [
 				'figure'=>number_format($texts),
 				'label'=>'Texts',
 				'note'=>'Books, essays, letters and interviews',
-			]);
+			];
 
-			$this->DisplayStat([
+			$figures[] = [
 				'figure'=>number_format($words),
 				'label'=>'Words',
 				'note'=>'About ' . number_format(round($words / 300, -3)) . ' printed pages',
-			]);
+			];
 
-			$this->DisplayStat([
+			$figures[] = [
 				'figure'=>number_format(count($formats->getFormats())),
 				'label'=>'Formats for every text',
 				'note'=>'From EPUB and PDF to Braille and DAISY',
-			]);
+			];
 
-			$this->DisplayStat([
+			$figures[] = [
 				'figure'=>number_format(round($words / 250 / 60 / 24)),
 				'label'=>'Days to read it all',
 				'note'=>'At 250 words a minute, never stopping to sleep',
-			]);
+			];
 
-			print('</div>');
-			print('</section>');
+			$since = $this->SinceFigure(['that'=>$that, 'formats'=>$formats]);
 
-			return TRUE;
+			if($since) {
+				$figures[] = $since;
+			}
+
+			return $figures;
+		}
+
+			/*
+				The year the site opened: the master record's creation date,
+				which is the day its first entry was made.
+			*/
+
+		public function SinceFigure($args) {
+			$master = $args['that']->master_record;
+
+			if(!$master || empty($master['OriginalCreationDate'])) {
+				return NULL;
+			}
+
+			$opened = strtotime($master['OriginalCreationDate']);
+
+			if(!$opened || $opened < strtotime('1990-01-01')) {
+				return NULL;
+			}
+
+			$years = (int) floor((time() - $opened) / (365.2425 * 24 * 60 * 60));
+
+			return [
+				'figure'=>date('Y', $opened),
+				'label'=>'Around since',
+				'note'=>$years >= 2 ? ucfirst($args['formats']->NumberWord(['number'=>$years])) . ' years of free reading' : 'Open since ' . date('j F Y', $opened),
+			];
 		}
 
 		public function DisplayStat($args) {
-			print('<div class="stat">');
+			print('<div class="stat"' . (!empty($args['hidden']) ? ' hidden' : '') . '>');
 			print('<span class="stat-figure">' . $args['figure'] . '</span>');
 			print('<span class="stat-label">' . $args['label'] . '</span>');
 			print('<span class="stat-note">' . $args['note'] . '</span>');

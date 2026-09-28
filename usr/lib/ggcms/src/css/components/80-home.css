@@ -178,10 +178,16 @@
 	margin: -4.25rem auto 0;
 }
 
+	/*
+		The rules between the figures are the panel showing through a 1px
+		gap, so they fall right whichever four of the figures are showing.
+	*/
+
 .stats-panel {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
-	background: var(--paper);
+	gap: 1px;
+	background: var(--rule);
 	border: 1px solid var(--rule);
 	box-shadow: var(--shadow);
 }
@@ -197,29 +203,7 @@
 	gap: .3rem;
 	align-content: start;
 	padding: 1.35rem clamp(1rem, 2.4vw, 1.75rem) 1.5rem;
-	border: 0 solid var(--rule);
-}
-
-.stat:nth-child(odd) {
-	border-right-width: 1px;
-}
-
-.stat:nth-child(-n+2) {
-	border-bottom-width: 1px;
-}
-
-@media (min-width: 900px) {
-	.stat {
-		border-width: 0 1px 0 0;
-	}
-
-	.stat:nth-child(-n+2) {
-		border-bottom-width: 0;
-	}
-
-	.stat:last-child {
-		border-right-width: 0;
-	}
+	background: var(--paper);
 }
 
 .stat-figure {
