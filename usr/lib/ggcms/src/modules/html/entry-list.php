@@ -201,7 +201,16 @@
 				print('<ul class="chips chips-small">');
 
 				for($i = 0; $i < $max_limit; $i++) {
-					print('<li><a target="_parent" href="/view.php?action=browseByTag&amp;tag=' . urlencode($tags[$i]['Tag']) . '">' . $tags[$i]['Tag'] . '</a></li>');
+					$tag = $tags[$i]['Tag'];
+
+					print('<li><a target="_parent" href="/view.php?action=browseByTag&amp;tag=' . urlencode($tag) . '">' . $tag);
+
+						// how many share it, where the page has counted them
+					if(!empty($this->that->tag_counts[$tag])) {
+						print(' <span class="chip-count">' . number_format($this->that->tag_counts[$tag]) . '</span>');
+					}
+
+					print('</a></li>');
 				}
 
 				print('</ul>');

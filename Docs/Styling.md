@@ -99,6 +99,9 @@ New modules compose pages rather than duplicate them:
 | `reading-page.php` | a text on a paper sheet with a sidebar; a template's HTML branch becomes three lines |
 | `entry-record.php` | an entry's catalogue record and its citation |
 | `index-sections.php` | a collection index's random sections: pictures, tags, quotes, descriptions, texts, dates, likes |
+| `browse-bar.php` | over a page of results: which of them are shown, and how many a page |
+| `entry-list-navigation.php` | the pager: Previous, Next, the first and last pages and two either side of this one |
+| `tag-header.php` | a tag's page head, and its dictionary definitions on catalogue cards |
 
 `entry-child.php` extends `entry-child-legacy.php`, which is the module as it
 was, kept so the conversion proofs in the private repository's
@@ -108,7 +111,7 @@ is converted.
 
 Components live in `src/css/components/`, one file per area of the page,
 numbered so their order is explicit: `01-layout`, `02-elements`, `10-site-bar`,
-`20-page-head`, `30-reading`, `40-entries`, `50-keep-reading`,
+`20-page-head`, `30-reading`, `40-entries`, `45-browse`, `50-keep-reading`,
 `60-discussion`, `70-catalogue`, `80-home`.
 
 ## Rules

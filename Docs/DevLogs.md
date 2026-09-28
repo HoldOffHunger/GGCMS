@@ -9,6 +9,15 @@ live installation rather than estimated.
 
 ## 2026, September 28
 
+- Tag pages, browse pages and a person's works list take the new look. Every
+  reading page links to a dozen tags, so the tag page is where a reader goes
+  next, and it was still the oldest page on the site: boxed headers, no site
+  bar. It has a page head naming the tag and how many entries carry it, the
+  word's dictionary definition on a catalogue card, and the entries as cards
+  whose tags show how many share each. The pager printed a link to every page
+  -- 190 of them for RevoltLib's anarchism collection -- and now shows the
+  first and last pages and two either side of this one.
+
 - The redesign's first stage. Every page now links one stylesheet built for
   its site from cascade layers -- reset, base, legacy, components, site --
   instead of the one style.php generated per page, and has a doctype: none
