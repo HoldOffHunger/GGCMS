@@ -798,6 +798,34 @@ LOCK TABLES `Link` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `LoginAttempt`
+--
+
+DROP TABLE IF EXISTS `LoginAttempt`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `LoginAttempt` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Username` varchar(255) NOT NULL DEFAULT '',
+  `IPAddress` varchar(45) NOT NULL DEFAULT '',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Username` (`Username`),
+  KEY `OriginalCreationDate` (`OriginalCreationDate`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `LoginAttempt`
+--
+
+LOCK TABLES `LoginAttempt` WRITE;
+/*!40000 ALTER TABLE `LoginAttempt` DISABLE KEYS */;
+/*!40000 ALTER TABLE `LoginAttempt` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `LookupList`
 --
 

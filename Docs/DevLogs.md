@@ -86,6 +86,14 @@ live installation rather than estimated.
   Fumiko's crawl needs `Listen 8445` put back after every `local_sync.sh`,
   which copies production's `ports.conf` over it.
 
+- Logins are limited. Three wrong passwords for an account from one address in
+  a day hold that address back from that account; ten from anywhere lock the
+  account; both lapse as the failures age out, and each limit crossed records
+  an ISI. It needs a new `LoginAttempt` table on every site, made from
+  `clonefrom`, before it is deployed. On Fumiko, through the real ORM, three
+  wrong passwords were kept, the fourth was refused uncounted, and the one ISI
+  carried the account and address with the password redacted.
+
 ## 2026, September 26
 
 - Every error and issue row on every site had been storing the request it came

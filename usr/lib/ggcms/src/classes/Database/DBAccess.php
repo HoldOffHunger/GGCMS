@@ -1112,6 +1112,7 @@
 				'InternalServerErrorInstance',
 				'InternalServerIssueInstance',
 				'UserSession',
+				'LoginAttempt',		# or every wrong password would flush the site's page cache
 
 					/*
 						Derived statistics, recomputed and rewritten during an

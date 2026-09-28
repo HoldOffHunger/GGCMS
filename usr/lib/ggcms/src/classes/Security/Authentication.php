@@ -190,9 +190,34 @@
 			return 0;
 		}
 		
+			// Login()
+			// Tests: AuthenticationTest::testLogin(), AuthenticationTest::testLoginLimits()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
+			/*
+				Refused before the password is looked at, so a guess made
+				while an address or an account is held back can never
+				succeed.  See LoginAttempt_IsRefused() for the limits.
+			*/
 		public function Login($args) {
 			$username = $args['username'];
 			$password = $args['password'];
+			
+			$address = $this->LoginAttempt_ClientAddress();
+			
+			$recent_failures = $this->LoginAttempt_RecentFailures(['username'=>$username]);
+			
+			$is_refused_args = [
+				'failures'=>$recent_failures,
+				'address'=>$address,
+			];
+			
+			if($this->LoginAttempt_IsRefused($is_refused_args)) {
+				return $this->Login_Failure([
+					'username'=>$username,
+					'password'=>$password,
+					'hashed_password'=>'',
+				]);
+			}
 			
 			$hashed_password = hash('sha256', $password);
 			
@@ -221,12 +246,22 @@
 			}
 			
 			if($user_account) {
+				$this->LoginAttempt_Clear(['username'=>$username, 'address'=>$address]);
+				
 				$this->user_account = $user_account;
 				$login_successful_args = [
 					'useraccount'=>$user_account,
 				];
 				return $this->Login_Successful($login_successful_args);
 			} else {
+				$record_failure_args = [
+					'username'=>$username,
+					'address'=>$address,
+					'failures'=>$recent_failures,
+				];
+				
+				$this->LoginAttempt_RecordFailure($record_failure_args);
+				
 				$login_failure_args = [
 					'username'=>$username,
 					'password'=>$password,
@@ -439,6 +474,187 @@
 				'status'=>'Failure',
 				'useraccount'=>[],
 			];
+		}
+		
+			// Login Limits
+			// -----------------------------------------------------------------
+			
+			/*
+				Three wrong passwords for an account from one address in a day,
+				and that address may not try that account again until the first
+				of them is a day old.  Ten for an account from anywhere in a
+				day, and it is locked the same way.  Both lapse on their own:
+				a lock only an administrator could lift would let anyone lock
+				an administrator out for good by failing ten times a day.
+			*/
+		
+		public function LoginAttempt_AddressLimit() {
+			return 3;
+		}
+		
+		public function LoginAttempt_AccountLimit() {
+			return 10;
+		}
+		
+		public function LoginAttempt_WindowHours() {
+			return 24;
+		}
+			
+			// LoginAttempt_IsRefused()
+			// Tests: AuthenticationTest::testLoginLimits()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
+		public function LoginAttempt_IsRefused($args) {
+			$failures = $args['failures'];
+			$address = $args['address'];
+			
+			if(!is_array($failures)) {
+				return FALSE;
+			}
+			
+			if(count($failures) >= $this->LoginAttempt_AccountLimit()) {
+				return TRUE;
+			}
+			
+			$address_failures = 0;
+			foreach($failures as $failure) {
+				if($failure['IPAddress'] === $address) {
+					$address_failures++;
+				}
+			}
+			
+			return $address_failures >= $this->LoginAttempt_AddressLimit();
+		}
+			
+			/*
+				Every failure for the account in the window, up to the
+				account limit, since more than that refuses anyway.  NULL when
+				the lookup fails -- a site whose LoginAttempt table has not
+				been made yet -- and then login goes on unlimited, with an
+				issue to say so, rather than locking every account out.
+			*/
+		
+		public function LoginAttempt_RecentFailures($args) {
+			$failures = $this->handler->db_access->GetRecords([
+				'type'=>'LoginAttempt',
+				'definition'=>[
+					'Username'=>$args['username'],
+					'RAW'=>[
+						'OriginalCreationDate'=>[
+							'>',
+							'DATE_SUB(NOW(), INTERVAL ' . (int)$this->LoginAttempt_WindowHours() . ' HOUR)',
+						],
+					],
+				],
+				'limit'=>$this->LoginAttempt_AccountLimit(),
+			]);
+			
+			if(!empty($failures['line'])) {
+				$this->LoginAttempt_LogIssue([
+					'issuetype'=>'Login Limits Unavailable',
+					'description'=>'Could not read LoginAttempt, so this login was not limited.  Has the table been made on this site?',
+				]);
+				
+				return NULL;
+			}
+			
+			return $failures ?: [];
+		}
+			
+			/*
+				An issue once, at the attempt that crosses a limit, rather
+				than one for every refusal after it.  The username and the
+				address, never the password.
+			*/
+		
+		public function LoginAttempt_RecordFailure($args) {
+			$username = $args['username'];
+			$address = $args['address'];
+			$failures = $args['failures'];
+			
+			if(!is_array($failures)) {
+				return FALSE;
+			}
+			
+			$this->handler->db_access->DeleteRecords([
+				'type'=>'LoginAttempt',
+				'where'=>'OriginalCreationDate < DATE_SUB(NOW(), INTERVAL ' . (int)$this->LoginAttempt_WindowHours() . ' HOUR)',
+				'sqlbindstring'=>'',
+				'wherevalues'=>[],
+			]);
+			
+			$this->handler->db_access->CreateRecord([
+				'type'=>'LoginAttempt',
+				'definition'=>[
+					'Username'=>$username,
+					'IPAddress'=>$address,
+				],
+			]);
+			
+			$failures[] = ['IPAddress'=>$address];
+			
+			$address_failures = 0;
+			foreach($failures as $failure) {
+				if($failure['IPAddress'] === $address) {
+					$address_failures++;
+				}
+			}
+			
+			if(count($failures) === $this->LoginAttempt_AccountLimit()) {
+				$this->LoginAttempt_LogIssue([
+					'issuetype'=>'Login Account Locked',
+					'description'=>'Account "' . $username . '" failed ' . count($failures) . ' logins in ' . $this->LoginAttempt_WindowHours() . ' hours, the last from ' . $address . '; it is locked until the first of them is ' . $this->LoginAttempt_WindowHours() . ' hours old.',
+				]);
+			} elseif($address_failures === $this->LoginAttempt_AddressLimit()) {
+				$this->LoginAttempt_LogIssue([
+					'issuetype'=>'Login Address Blocked',
+					'description'=>'Address ' . $address . ' failed ' . $address_failures . ' logins to account "' . $username . '" in ' . $this->LoginAttempt_WindowHours() . ' hours; it may not try that account again until the first of them is ' . $this->LoginAttempt_WindowHours() . ' hours old.',
+				]);
+			}
+			
+			return TRUE;
+		}
+		
+		public function LoginAttempt_Clear($args) {
+			return $this->handler->db_access->DeleteRecords([
+				'type'=>'LoginAttempt',
+				'where'=>'Username = ? AND IPAddress = ?',
+				'sqlbindstring'=>'ss',
+				'wherevalues'=>[$args['username'], $args['address']],
+			]);
+		}
+			
+			/*
+				The last address in X-Forwarded-For is the one nginx appended
+				for the connection it accepted -- the visitor, or with
+				Cloudflare in front, the visitor nginx's real_ip restored from
+				Cloudflare's own ranges.  Earlier entries are whatever the
+				client claimed.  CF-Connecting-IP is not read: on the sites
+				nginx answers directly, a client can send it.  In a canonical
+				form, so one address is never counted as two.
+			*/
+			
+			// LoginAttempt_ClientAddress()
+			// Tests: AuthenticationTest::testLoginAttempt_ClientAddress()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
+		public function LoginAttempt_ClientAddress() {
+			$forwarded = explode(',', (string)$_SERVER['HTTP_X_FORWARDED_FOR']);
+			$address = trim(end($forwarded));
+			
+			if(!filter_var($address, FILTER_VALIDATE_IP)) {
+				$address = (string)$_SERVER['REMOTE_ADDR'];
+			}
+			
+			$packed = filter_var($address, FILTER_VALIDATE_IP) ? inet_pton($address) : FALSE;
+			
+			return $packed === FALSE ? $address : inet_ntop($packed);
+		}
+		
+		public function LoginAttempt_LogIssue($args) {
+			if(isset($this->handler->issue_logging)) {
+				return $this->handler->issue_logging->createLog($args);
+			}
+			
+			return FALSE;
 		}
 		
 		public function AllowMultipleDeviceLogin() {

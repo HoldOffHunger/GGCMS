@@ -414,7 +414,32 @@ ordinary strings, each paired with a conflicting GET value. Keep value
 validation contextual at the consumer; this fix concerns source precedence, not
 generic sanitization.
 
-### Login attempts have no application-level throttling
+### Login attempts have no application-level throttling (resolved 27 September 2026)
+
+`Authentication::Login()` now keeps each failed password in a `LoginAttempt`
+table, one per site. Three failures for an account from one address in 24 hours
+refuse that address for that account; ten from anywhere lock the account. Both
+lapse as the failures age past 24 hours, so no one can lock an administrator
+out for good. A refused attempt never reaches the password check. The address
+is the last `X-Forwarded-For` entry, the one nginx appends after `real_ip`;
+`CF-Connecting-IP` is not read, since a client can send it to the sites nginx
+answers directly. Crossing either limit records an ISI with the account and
+address. `AuthenticationTest::testLoginLimits()` covers both limits, the
+refusal of a right password while held back, and a site without the table,
+where login goes on unlimited and records an ISI saying so.
+
+The table must exist on the host before this is deployed there:
+
+```sql
+CREATE TABLE clonefrom.LoginAttempt ( ... as in cli/sql/clonefrom.sql ... );
+CREATE TABLE <each site>.LoginAttempt LIKE clonefrom.LoginAttempt;
+```
+
+An address is only as good as the proxy chain: Apache reached other than
+through nginx would take `X-Forwarded-For` from the client. The account limit
+does not depend on the address at all.
+
+The finding as first recorded:
 
 `Authentication::Login()` performs the account lookup and immediately returns
 success or failure. The repository contains no failed-attempt counter, source or
