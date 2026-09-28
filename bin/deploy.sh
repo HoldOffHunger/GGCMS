@@ -184,6 +184,15 @@ echo "==> generated document cache"
 mkdir -p /usr/lib/ggcms/src/data
 chown www-data /usr/lib/ggcms/src/data
 
+		#  Every site's stylesheet, built from the engine's layers and the
+		#  site's theme.css -- see Docs/Styling.md.  Before the permissions
+		#  step, so www-data owns what it writes.  A failed build leaves the
+		#  previous stylesheets and their manifest in place, and pages keep
+		#  linking them; it is reported, not fatal.
+
+echo "==> stylesheets"
+php /usr/lib/ggcms/cli/scripts/internal/style/build_stylesheets.php --quiet || echo "deploy: stylesheet build failed; the previous build is still being served" >&2
+
 		#  git does not preserve an execute bit that was never committed,
 		#  and without one even root cannot run these.
 

@@ -1,0 +1,39 @@
+/*
+	The least a page needs to behave the same in every browser.
+*/
+
+@layer reset {
+	*, *::before, *::after {
+		box-sizing: border-box;
+	}
+
+	html {
+		-webkit-text-size-adjust: 100%;
+		text-size-adjust: 100%;
+	}
+
+	body {
+		margin: 0;
+	}
+
+	img, svg, video, canvas {
+		max-width: 100%;
+		height: auto;
+	}
+
+	input, button, textarea, select {
+		font: inherit;
+	}
+
+	button {
+		cursor: pointer;
+	}
+
+	h1, h2, h3, h4, h5, h6, p, li, figure, blockquote, dd {
+		overflow-wrap: break-word;
+	}
+
+	[hidden] {
+		display: none !important;
+	}
+}

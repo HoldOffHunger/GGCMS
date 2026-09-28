@@ -93,6 +93,10 @@ mv /tmp/ggcms-local.conf /etc/nginx/sites-available/ggcms-local.conf
 ln -sf /etc/nginx/sites-available/ggcms-local.conf /etc/nginx/sites-enabled/ggcms-local.conf
 rm -f /etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/ggcms.conf
 
+echo "==> stylesheets"
+		#  as deploy.sh does: see Docs/Styling.md
+php /usr/lib/ggcms/cli/scripts/internal/style/build_stylesheets.php --quiet || echo "local_sync: stylesheet build failed" >&2
+
 echo "==> permissions"
 mkdir -p /usr/lib/ggcms/src/data
 chmod +x /usr/lib/ggcms/cli/scripts/*/*/*.php

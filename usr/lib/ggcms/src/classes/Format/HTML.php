@@ -159,7 +159,16 @@
 			// HTML Start
 			// -----------------------------------------------
 		
+			/*
+				No page ever declared a doctype, so every browser drew every
+				page in quirks mode: tables sized by the 1990s' rules, line
+				boxes and percentage heights computed differently, and modern
+				CSS quietly doing less than it says.  The redesign needs the
+				standard mode -- see Docs/Styling.md.
+			*/
+
 		public function StartHTML_HTML_Start() {
+			print('<!DOCTYPE html>' . "\n");
 			print('<html lang="' . $this->html_data['contentlanguage'] . '">');
 		}
 		
@@ -209,8 +218,28 @@
 			$this->DisplayDoubleReturns();
 
 			print('<head>');
-			
+
+			$this->StartHTML_Head_NightReading();
+
 			$this->script->HTMLHeadDisplayExtra_Start();
+		}
+
+			/*
+				A reader's night-reading choice, applied before anything is
+				drawn, so a dark reader never sees a white flash first.  The
+				page cache serves the same HTML to everyone, so the choice
+				cannot come from the server; it lives in the reader's own
+				browser.  javascript/night-reading.js is the toggle.
+			*/
+
+		public function StartHTML_Head_NightReading() {
+			if(!is_object($this->globals) || !method_exists($this->globals, 'NightReading') || !$this->globals->NightReading()) {
+				return FALSE;
+			}
+
+			print("\n\t" . '<script>try{var t=localStorage.getItem("ggcms-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t);}}catch(e){}</script>');
+
+			return TRUE;
 		}
 		
 		public function StartHTML_Head_Title() {

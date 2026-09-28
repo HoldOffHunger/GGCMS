@@ -86,10 +86,8 @@
 					}
 					
 					if($include_type === 'javascript' && $this->LoadsGoogleSignIn()) {
-						$domain = $this->domain_object->GetPrimaryDomain(['secure'=>$this->secure_script, 'www'=>0, 'lowercased'=>TRUE]);
-
 						print("\n\t" . '<meta name="google-signin-client_id" content="' . htmlspecialchars($this->google_api->client_id, ENT_QUOTES, 'UTF-8') . '">');
-						print("\n\t" . '<script src="' . $domain . '/javascript/google-signin.js"></script>');
+						print("\n\t" . '<script src="/javascript/google-signin.js"></script>');
 						print("\n\t" . '<script src="https://accounts.google.com/gsi/client" async defer></script>');
 					}
 				} else {
@@ -171,7 +169,11 @@
 			$header_location = $args['headerlocation'];
 			$include_location = $args['includelocation'];
 			$unavailable_location = $args['unavailablelocation'];
-			
+
+			if($include_type === 'css' && $this->BuiltStylesheet()) {
+				return $this->Headers_BuiltStylesheet();
+			}
+
 			$includes_file_location = GGCMS_DIR . 'templates/' . $this->domain_object->host . '/' . $this->script_file . '/' . $this->desired_action . '_' . $include_type . '.php';
 			
 			if(is_file($includes_file_location) === FALSE) {
@@ -223,6 +225,87 @@
 			return TRUE;
 		}
 		
+			/*
+				The site's one built stylesheet, from css/build/stylesheets.json
+				-- see StylesheetBuilder and Docs/Styling.md -- in place of the
+				per-page /css/<script>/<action>.css that style.php generated.
+				Every page gets it, whatever its manifest says, because the
+				legacy layer inside it holds every class any manifest names.
+
+				Root-relative, so a workstation serves its own build and the
+				page cache stores nothing naming a host.  The file name carries
+				its content's hash, so it is safe to cache for as long as
+				Cloudflare likes.
+
+				A site with no entry takes "default".  With no manifest at all
+				-- a host where the builder has not run -- the old generated
+				stylesheet is linked as before, so nothing goes unstyled.
+			*/
+
+			// BuiltStylesheet()
+			// Tests: ClientSideIncludesTest::testBuiltStylesheet()
+			// Test file: tests/src/classes/Format/HTML/ClientSideIncludesTest.php
+		public function BuiltStylesheet() {
+			$manifest = $this->BuiltStylesheetManifest();
+
+			if(!$manifest) {
+				return FALSE;
+			}
+
+			$site = is_object($this->domain_object) ? $this->domain_object->host : '';
+
+			if($site && !empty($manifest[$site])) {
+				return '/css/build/' . $manifest[$site];
+			}
+
+			if(!empty($manifest['default'])) {
+				return '/css/build/' . $manifest['default'];
+			}
+
+			return FALSE;
+		}
+
+		public function BuiltStylesheetManifest() {
+			$location = GGCMS_DOC_ROOT . 'css/build/stylesheets.json';
+
+			if(!is_file($location)) {
+				return [];
+			}
+
+			$manifest = json_decode((string) file_get_contents($location), TRUE);
+
+			return is_array($manifest) ? $manifest : [];
+		}
+
+		public function Headers_BuiltStylesheet() {
+			print("\n");
+			print('<!-- css -->');
+			print("\n");
+
+			$this->displayDefaultIncludes(['includetype'=>'css']);
+
+			foreach($this->PreloadedFonts() as $font) {
+				print("\n\t" . '<link rel="preload" href="' . $font . '" as="font" type="font/woff2" crossorigin>');
+			}
+
+			print("\n\t" . '<link type="text/css" rel="stylesheet" href="' . htmlspecialchars($this->BuiltStylesheet(), ENT_QUOTES, 'UTF-8') . '">');
+
+			return TRUE;
+		}
+
+			/*
+				The two faces every page shows before it is scrolled: the
+				interface face and the reading face, Latin only.  The rest load
+				when a page needs them.
+			*/
+
+		public function PreloadedFonts() {
+			return [
+				'/fonts/archivo-latin.woff2',
+				'/fonts/literata-latin.woff2',
+			];
+		}
+
 		public function Headers_Unavailable($args) {
 			$type = $args['type'];
 			$unavailable_location = $args['unavailablelocation'];
@@ -257,6 +340,10 @@
 
 				if($this->CarriesLanguageInLinks()) {
 					print("\n\t" . '<script src="' . $domain . '/javascript/language-links.js" defer></script>');
+				}
+
+				if($this->NightReadingEnabled()) {
+					print("\n\t" . '<script src="/javascript/night-reading.js" defer></script>');
 				}
 			}
 			
@@ -305,6 +392,15 @@
 			}
 
 			return $this->globals->EnableStats() && $this->globals->EnableStats_HumanBeacon();
+		}
+
+			/*
+				The site bar's night-reading toggle is only drawn where the
+				site's globals switch it on, so its script only goes there too.
+			*/
+
+		public function NightReadingEnabled() {
+			return is_object($this->globals) && method_exists($this->globals, 'NightReading') && $this->globals->NightReading();
 		}
 
 			/*

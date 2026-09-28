@@ -43,6 +43,10 @@ backup-*.sql
 var/www/html/_cache/
 var/www/html/test.php
 
+#  Each site's stylesheet, built on the host by build_stylesheets.php from
+#  src/css/ and the site themes.  See Docs/Styling.md.
+var/www/html/css/build/
+
 # ---------------------------------------------------------------------------
 #  Editor and OS cruft.
 # ---------------------------------------------------------------------------

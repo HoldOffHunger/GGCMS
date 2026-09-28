@@ -1,0 +1,67 @@
+/*
+	Every colour, face and size a component may use.  Components name
+	these, never a value, so a site's theme.css can restyle a whole site
+	by redefining them.
+
+	These are the engine's defaults: a quiet, neutral library look that
+	any site gets until it has a theme of its own.  There is no dark
+	palette here on purpose.  Night reading belongs to a site whose pages
+	are fully converted; on a page still carrying the old grey boxes it
+	would put light text on light backgrounds.  A theme that is ready
+	defines its dark tokens under both selectors, as the RevoltLib theme
+	does, and switches the toggle on with NightReading() in its globals.
+*/
+
+@layer base {
+	:root {
+		color-scheme: light;
+
+			/* surfaces and ink */
+		--ground: #F4F4F2;
+		--paper: #FFFFFF;
+		--ink: #1B1B1A;
+		--ink-2: #3B3B39;
+		--muted: #65635F;
+		--rule: #E2E0DC;
+		--rule-strong: #C8C5C0;
+		--hole: var(--ground);
+
+			/* the one accent */
+		--accent: #2459A6;
+		--accent-ink: #1E4E93;
+		--accent-fill: #2459A6;
+		--accent-fill-hover: #1B4785;
+		--accent-wash: #EBF1FA;
+		--on-accent: #FFFFFF;
+
+			/* the dark band of the site bar, masthead and footer */
+		--band: #17191C;
+		--band-2: #212428;
+		--band-ink: #F2F1EE;
+		--band-muted: #AEB2B7;
+		--band-accent: #8FB8EE;
+
+		--shadow: 0 1px 2px rgb(20 20 30 / .06), 0 12px 32px -18px rgb(20 20 30 / .35);
+
+			/* faces */
+		--serif: "Literata", Georgia, "Times New Roman", serif;
+		--sans: "Archivo", "Helvetica Neue", Arial, sans-serif;
+		--mono: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+			/* type scale */
+		--text-xs: .75rem;
+		--text-sm: .875rem;
+		--text-md: 1rem;
+		--text-lg: 1.1875rem;
+		--text-xl: 1.5rem;
+		--text-2xl: clamp(1.55rem, 3vw, 2.05rem);
+		--text-3xl: clamp(1.85rem, 4vw, 2.85rem);
+
+			/* measure and spacing */
+		--gutter: clamp(16px, 4vw, 40px);
+		--page-width: 76rem;
+		--measure: 68ch;
+		--radius: 3px;
+		--gap: 1.5rem;
+	}
+}

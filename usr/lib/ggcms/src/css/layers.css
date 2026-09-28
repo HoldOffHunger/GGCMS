@@ -1,0 +1,15 @@
+/*
+	The cascade, lowest layer first.  See Docs/Styling.md.
+
+	  reset       box sizing, margins, media defaults
+	  base        tokens with neutral defaults, and the plain elements
+	  legacy      style.php's atomic classes, frozen, so unconverted
+	              markup keeps its look
+	  components  one file per module; beats a leftover atomic class
+	  site        the site's theme.css, wrapped here by the builder
+
+	legacy sits above base on purpose: an atomic class written on an
+	element is a deliberate instruction, and beats a plain element rule.
+*/
+
+@layer reset, base, legacy, components, site;

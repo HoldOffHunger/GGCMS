@@ -1,143 +1,144 @@
 # Styling
 
-How pages get their look today, where that is going, and the rules for moving
-from one to the other. Status on 28 September 2026: **planned, nothing built**.
-The first site to move has an approved mockup. That site's own design lives in
-the private configuration repository, as all site-specific material does.
+How pages get their look, and the rules for changing it. The first site to be
+redesigned is described, with its brief and its measurements, in the private
+configuration repository's `Development/Redesign.md`; this file names no site.
 
-## Where it stands
+## How a page is styled
 
-Each page links one generated stylesheet, `/css/<script>/<action>.css`, for
-example `/css/view/display.css`. No such file exists. The request reaches
-`Format/CSS.php`, which always runs `scripts/style.php`. Because
-`OneCSSFilePerPage()` returns 1, style.php reads a manifest,
-`templates/<host or default>/<script>/<action>_css.php`. The manifest lists
-atomic class "files" such as `width/width-90percent.css`, and style.php prints one rule for each through
-`Display_Attributes_css_*()`, after a hard-coded prelude.
+Every page links one stylesheet, built for its site:
+`/css/build/<site>.<hash>.css`. `ClientSideIncludes::BuiltStylesheet()` finds it
+in `css/build/stylesheets.json`. A site with no build of its own gets
+`default`. With no manifest at all, on a host where the builder has never run,
+the page links style.php's generated stylesheet as it used to, so nothing ever
+goes unstyled.
 
-The markup carries those atomic classes directly (`horizontal-center
-width-90percent border-2px background-color-gray13`). The shared modules in
-`src/modules/html/` also carry **134 inline `style="…"` attributes across 27
-files**. An inline style beats any stylesheet, so no stylesheet alone can
-restyle a page.
-
-Two other costs:
-
-- The generated stylesheet took 0.6 to 1.4 seconds to render uncached, which is
-  why the page cache now stores CSS as well (see `PageCache::CacheableFormats()`).
-- Four jQuery UI stylesheets load on every page, from
-  `ClientSideIncludes::DisplayDefaultIncludes()`, whether the page uses jQuery UI or not.
-
-## Where it is going
-
-**Static stylesheets, written by hand in modern CSS, built by a PHP command.**
-No Sass, no Node, no framework: that is the project's rule, and it costs
-nothing now. Custom properties, native nesting, `@layer`, `:has()`, container
-queries, `clamp()` and `color-mix()` have all worked in every current browser
-since 2023 or earlier. ("CSS4" is not a real version. This is what people
-mean when they say it.)
-
-### Layers
-
-One stylesheet per site, in this cascade order:
+The build is five cascade layers, lowest first:
 
 ```css
-@layer reset, legacy, base, components, site;
+@layer reset, base, legacy, components, site;
 ```
 
-| Layer | Holds | Lives in |
+| Layer | Holds | Source |
 |---|---|---|
-| `reset` | box-sizing, margins, media defaults | public repo |
-| `legacy` | the frozen atomic classes, so unconverted markup still renders | public repo, generated once |
-| `base` | tokens with neutral defaults, typography, links, forms, focus | public repo |
-| `components` | one file per module, named after it: `entry-likes.css` styles `entry-likes.php` | public repo |
-| `site` | the site's tokens, fonts, header art and any site-only components | private repo, `templates/<site>/theme.css` |
+| `reset` | box sizing, margins, media defaults | `src/css/reset.css` |
+| `base` | tokens with neutral defaults, the plain elements | `src/css/tokens.css`, `base.css` |
+| `legacy` | every atomic class any `_css.php` manifest names, frozen | `src/css/legacy.css`, generated |
+| `components` | the modules' own styles | `src/css/components/*.css` |
+| `site` | the site's theme | `templates/<site>/theme.css`, private repository |
 
-`legacy` sits low on purpose. While a page is half-converted, a component rule
-beats a leftover `border-2px` without any `!important`.
+`legacy` sits above `base` because an atomic class written on an element is a
+deliberate instruction and should beat a plain element rule. It sits below
+`components`, so a converted module's own rules win over any leftover
+`border-2px` without `!important`.
 
-### Tokens
+Pages have a doctype now. Until September 2026 none did, so every browser
+drew every page in quirks mode.
 
-Components never name a colour, a font or a size directly. They use custom
-properties (`--paper`, `--ink`, `--accent`, `--serif`, `--sans`, the type scale
-and the spacing scale). `base` gives every token a neutral default, so a site
-with no theme still looks clean and consistent; a site's `theme.css` redefines
-them. Dark mode redefines the same tokens under `prefers-color-scheme: dark`
-and under `:root[data-theme="dark"]`, and every colour needs a value in both.
+## Building
 
-### Build
+`cli/scripts/internal/style/build_stylesheets.php` (class `StylesheetBuilder`)
+joins the layers per site, strips comments, and names each file by its
+content's hash, so Cloudflare's four-hour `max-age` can never serve a stale
+one. `deploy.sh` and `local_sync.sh` both run it. Old builds are kept for a
+month, because a page in the page cache names the stylesheet it was rendered
+with.
 
-A command-line script, planned as `cli/scripts/internal/css/build_css.php`,
-joins the layers for each site in order. It strips comments and writes
-`/css/build/<host>.<hash>.css`, where the hash is taken from the content. It
-also writes a manifest mapping each host to its file.
-`ClientSideIncludes` reads the manifest and prints the one `<link>`.
+`legacy.css` is written once by `build_legacy_css.php`, which runs style.php's
+own methods over the union of every manifest on every site. Run it again only
+if a manifest gains a class. style.php itself can go once no cached page still
+links `/css/<script>/<action>.css`.
 
-- The hash is what makes Cloudflare's four-hour `max-age` harmless: a changed
-  stylesheet has a new URL.
-- The HTML page cache stores the `<link>`, so new CSS needs re-rendered pages.
-  A deploy already flushes the page cache, so `deploy.sh` runs the build
-  first.
-- Never hand-edit anything under `/css/build/`. The build script is its only
-  writer.
-- The script fails if a component class name is also a legacy class name.
+Never hand-edit anything under `/css/build/`.
 
-### Fonts
+## Tokens and themes
 
-Self-hosted `woff2` under `/fonts/`, open-licence faces only, with
-`font-display: swap` and a preload for the faces above the fold. **No calls to
-Google Fonts or any other font host.** The readers of these sites have good
-reason not to want their visits reported to a third party.
+Components name tokens, never values: `--ground`, `--paper`, `--ink`,
+`--muted`, `--rule`, `--accent` and its variants, `--band` (the dark site bar,
+masthead and footer), `--serif`, `--sans`, the type scale and `--gutter`. The
+engine's defaults are a quiet, neutral library look. A site's `theme.css`
+redefines them.
 
-### Night reading
+**Night reading** is a site's choice: `NightReading()` in its globals (default
+off) draws the toggle, loads `javascript/night-reading.js` and prints the
+first-paint script that applies a reader's saved choice. The engine defines no
+dark palette. A theme that switches night reading on must define its dark
+tokens under both `@media (prefers-color-scheme: dark)` (guarded by
+`:root:not([data-theme="light"])`) and `:root[data-theme="dark"]`. On a page
+still carrying the old grey boxes, a dark palette would put light text on light
+backgrounds, which is why the default stays light.
 
-The page cache serves identical HTML to everyone, so a reader's theme choice
-cannot come from the server, and a theme cookie must not be added to the
-page-cache cookie list. Instead, a small inline script at the top of `<head>`
-reads `localStorage` and sets `data-theme` before the first paint, and the
-toggle writes it. This replaces `?invertedcolors=1` for the web page. The
-inverted-colours format can stay as a format.
+`SiteSections()` in the globals names the site's sections for the site bar
+and the masthead.
 
-### Phones
+## Fonts
 
-At least a third of human visitors are on phones or tablets
-(`human_stats.php --report=devices`). Every component is built
-mobile-first and must work at 360 px with no sideways scroll. The separate
-`?mobilefriendly=1` edition stays as a format, but the ordinary page no longer
-needs it.
+Archivo (a grotesque with a width axis) and Literata (made for reading on
+screens), self-hosted in `/fonts/` under the SIL Open Font License, with the
+licences beside them. They are split by Unicode range as Google Fonts serves
+them. **No page calls Google Fonts or any other font host.**
 
-## Rules while converting
+## The modules and their markup
 
-- **No inline `style` in a module or template.** Add a class, and put the rule
-  in the module's component file.
+Modules print semantic markup with component classes: `.site-bar`,
+`.page-head`, `.crumbs`, `.block` with `.block-title`, `.actions`, `.prose`,
+`.entry-card`, `.author-card`, `.chips`, `.record` and so on. Every module
+keeps its old public methods, so every template on every site still works;
+only what they print changed. The ids scripts depend on are kept:
+like-dislike.js's `thumbs-up-button-container`, `total-likes`,
+`#google_token_id` and `#userid`; text-audio.js's `play-text-as-audio`,
+`voice-selection`, `start-on` and `.text-to-play-as-audio`; the comment form's
+ids; and the permalink's.
+
+New modules compose pages rather than duplicate them:
+
+| Module | Prints |
+|---|---|
+| `site-bar.php` | the dark bar on every page, once, from the page headers |
+| `masthead.php` | a front page's head, from the master record |
+| `reading-page.php` | a text on a paper sheet with a sidebar; a template's HTML branch becomes three lines |
+| `entry-record.php` | an entry's catalogue record and its citation |
+| `index-sections.php` | a collection index's random sections: pictures, tags, quotes, descriptions, texts, dates, likes |
+
+`entry-child.php` extends `entry-child-legacy.php`, which is the module as it
+was, kept so the conversion proofs in the private repository's
+`Development/entrychild/` still compare byte for byte: they set
+`module_entrychild::$legacy_markup`. Delete the legacy file when the last loop
+is converted.
+
+Components live in `src/css/components/`, one file per area of the page,
+numbered so their order is explicit: `01-layout`, `02-elements`, `10-site-bar`,
+`20-page-head`, `30-reading`, `40-entries`, `50-keep-reading`,
+`60-discussion`, `70-catalogue`, `80-home`.
+
+## Rules
+
+- **No inline `style` in a module.** Add a class and put the rule in a
+  component file. The one exception is an element a script shows and hides,
+  and even then prefer the `hidden` attribute.
 - **No CSS in template files.** Site CSS goes in the site's `theme.css`.
-- **Class names:** lowercase and hyphenated, component first: `record-card`,
-  `record-card-title`. This matches the existing names (`list-item-row-text`).
-  Never reuse a legacy class name; the build checks.
-- **Module arguments stay `that` plus behaviour switches.** A visual variant a
-  caller needs is a switch (`'variant'=>'compact'`), never a style value passed in.
-- **Converting a module changes every site at once**, because the module and
-  its component CSS are shared. That is the point, but check the page on a
-  site with no theme as well as the one being themed.
-- **Match the numbers to the data.** A count shown on a page comes from the
-  record (`child_record_stats`, `getFormats()`), never from a literal.
+- **Class names are lowercase and hyphenated, component first** (`record`,
+  `entry-card-title`), and never an existing legacy class name.
+- **Module arguments are `that` plus behaviour switches.** Headings a template
+  words in its own voice are passed in; nothing derivable from `$this` is.
+- **`ggreq()` is a plain `require`.** A template must `ggreq` a module before
+  any module it calls has `require_once`d it, or the class is declared twice.
+- **Legacy wrappers are styled with `:has()`,** as the row most templates
+  print under the header is (`div:has(> .crumbs)`), rather than by editing
+  every template.
+- **Converting a module changes every site.** Look at a site with no theme as
+  well as the one being themed; `local_sync.sh` and the local stack make that
+  quick.
+- **Counts come from the record** (`child_record_stats`, `getFormats()`), never
+  from a literal.
 
-## Order of work
+## What is left
 
-1. **Pipeline with no visible change.** The build script, `legacy.css` generated from
-   the union of every `_css.php` manifest, fonts, and the `<link>` switched to
-   the built file. Prove it with the Fumiko crawl: the same pages, with only the
-   stylesheet URL changed.
-2. **Tokens and base, one site at a time.** A site opts in by having a
-   `theme.css`. The others keep the legacy look until their turn.
-3. **The reading page's modules.** `entry-header`, `breadcrumbs`, `auth`,
-   `entry-likes`, `entry-share`, `alternateformats`, `entry-textbody`,
-   `entry-navigation`, `entry-comments` and `entry-controls`.
-4. **The homepage's modules.** `entry-index-header`, `record-totals` (the
-   stat boxes), `entry-newest` and `entry-children-grandchildren`.
-5. **Retire `style.php`** and the `_css.php` manifests once nothing links
-   `/css/<script>/<action>.css`, and drop jQuery UI's CSS from pages that do
-   not use it.
+- The pasted sections and child loops still in other sites' templates, as
+  `index-sections.php` and `entry-child.php` replace them.
+- `module_header`, the generic header box many templates print directly.
+- A theme for each other site, then night reading for each.
+- Retiring style.php and the `_css.php` manifests.
 
 After each stage that reaches a live site, re-run `human_stats.php` for that
 site against the baseline recorded before the work began.

@@ -674,10 +674,30 @@
 		public function useDBFileCache() {
 			return TRUE;
 		}
-		
+
 						// Styling Info
 						// -------------------------------------------------------------------
-		
+
+			/*
+				Night reading: a toggle in the site bar and a dark palette.  Off
+				until a site's pages are converted to the new modules and its
+				theme.css defines dark tokens -- on the old grey boxes it would
+				put light text on light backgrounds.  See Docs/Styling.md.
+			*/
+
+		public function NightReading() {
+			return FALSE;
+		}
+
+			/*
+				The site's main sections, for the site bar, as title and url.
+				Empty means the bar shows only the main menu's own links.
+			*/
+
+		public function SiteSections() {
+			return [];
+		}
+
 			/*
 				The pass/fail pair, in one place, so the two can be checked against
 				each other rather than drifting apart across templates.

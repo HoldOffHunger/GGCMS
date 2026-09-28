@@ -41,6 +41,40 @@
 			$this->assertFalse($this->newIncludes(['scriptfile'=>'login', 'clientid'=>''])->LoadsGoogleSignIn(), 'a site with no client');
 			$this->assertFalse($this->newIncludes(['scriptfile'=>'login', 'clientid'=>NULL])->LoadsGoogleSignIn(), 'a site with no client');
 		}
+
+			/*
+				A site's own build, else the default, else nothing -- and with
+				nothing, the page links style.php's stylesheet as before.
+			*/
+
+		public function testBuiltStylesheet() {
+			$includes = function($manifest, $host) {
+				$object = new class([
+					'desiredaction'=>'display',
+					'scriptfile'=>'view',
+					'domainobject'=>(object)['host'=>$host],
+					'language'=>NULL,
+					'googleapi'=>NULL,
+					'globals'=>NULL,
+				]) extends ClientSideIncludes {
+					public $manifest = [];
+
+					public function BuiltStylesheetManifest() {
+						return $this->manifest;
+					}
+				};
+
+				$object->manifest = $manifest;
+
+				return $object;
+			};
+
+			$manifest = ['default'=>'default.aaaaaaaaaa.css', 'somesite'=>'somesite.bbbbbbbbbb.css'];
+
+			$this->assertSame('/css/build/somesite.bbbbbbbbbb.css', $includes($manifest, 'somesite')->BuiltStylesheet());
+			$this->assertSame('/css/build/default.aaaaaaaaaa.css', $includes($manifest, 'othersite')->BuiltStylesheet());
+			$this->assertFalse($includes([], 'somesite')->BuiltStylesheet(), 'no build yet');
+		}
 	}
 
 ?>
