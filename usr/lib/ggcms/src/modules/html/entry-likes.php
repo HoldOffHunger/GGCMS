@@ -1,76 +1,72 @@
 <?php
 
+		/*
+			Upvote and downvote.  The ids are like-dislike.js's: it binds the
+			two -button-container elements, counts in total-likes and
+			total-dislikes, and marks a vote with is-on.
+
+			Signed out, a vote cannot be cast, so the buttons are links to
+			the sign-in page instead of controls that do nothing.  A count of
+			nought is kept in the page for the script to raise, and hidden:
+			a row of zeroes reads as a deserted room.
+		*/
+
 	class module_entrylikes extends module_spacing {
 		public $that;
 		public $like_mouseover_value;
-		public $cursor_class;
-		
+		public $signed_in;
+
 		public function __construct($args) {
 			$this->that = $args['that'];
-			
-			if($_SERVER['HTTPS'] != 'on' || !$this->that->handler->authentication->user_session) {
-				$this->like_mouseover_value = 'You must login before you are allowed to upvote or downvote.';
-				$this->cursor_class = '';
+
+			$this->signed_in = ($_SERVER['HTTPS'] ?? '') === 'on' && $this->that->handler->authentication->user_session;
+
+			if(!$this->signed_in) {
+				$this->like_mouseover_value = 'Sign in to upvote or downvote.';
 			} else {
 				$this->like_mouseover_value = 'Let your feelings be known!  Like or dislike this here.';
-				$this->cursor_class = 'cursor-pointer';
 			}
 		}
-		
+
 		public function Display() {
-			$this->DisplayImage([
-				'image'=>'thumbs-down-right.jpg',
-				'id'=>'thumbs-down',
-				'count'=>$this->that->dislikes_count,
-				'spanid'=>'total-dislikes',
-			]);
-			
-			$this->DisplayImage([
-				'image'=>'thumbs-up-right.jpg',
+			print('<div class="votes" title="' . htmlentities($this->like_mouseover_value) . '">');
+
+			$this->DisplayVote([
 				'id'=>'thumbs-up',
+				'label'=>'Upvote',
 				'count'=>$this->that->likes_count,
 				'spanid'=>'total-likes',
+				'path'=>'M12 4l7 8h-4v8H9v-8H5z',
 			]);
-			
+
+			$this->DisplayVote([
+				'id'=>'thumbs-down',
+				'label'=>'Downvote',
+				'count'=>$this->that->dislikes_count,
+				'spanid'=>'total-dislikes',
+				'path'=>'M12 20l-7-8h4V4h6v8h4z',
+			]);
+
+			print('</div>');
+
 			return TRUE;
 		}
-		
-		public function DisplayImage($args) {
-			$image = $args['image'];
-			$id = $args['id'];
-			$spanid = $args['spanid'];
-			$count = $args['count'];
-			
-			print('<div id="' . $id . '-button-container" ');
-			print('title="' . htmlentities($this->like_mouseover_value) . '" ');
-			print('style="margin-right:5px;white-space:nowrap;display: inline-block" class="border-2px background-color-gray15 float-right');
-			if($this->cursor_class) {
-				print(' ' . $this->cursor_class);
+
+		public function DisplayVote($args) {
+			$count = (int) $args['count'];
+
+			if($this->signed_in) {
+				print('<button type="button" id="' . $args['id'] . '-button-container" class="vote ' . $args['id'] . '">');
+			} else {
+				print('<a id="' . $args['id'] . '-button-container" class="vote ' . $args['id'] . '" href="/login.php" rel="nofollow">');
 			}
-			print('">');
-			print('<div style="display: inline-block" class="background-color-gray15">');
-			
-			print('<table>');
-			print('<tr><td>');
-			
-			print('<img id="' . $id . '-button" width="15" height="15" style="margin:0px;" src="');
-			print($this->that->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
-			print('/image/');
-			print($image);
-			print('"');
-			print('>');
-			
-			print('</td><td>');
-			
-			print('<span id="' . $spanid . '" style="font-family:arial, tahoma;margin-right:1px;margin-left:0px;margin-top:0px;margin-bottom:0px;padding:0px;display:inline-block;">');
-			print(number_format($count));
-			print('</span>');
-			
-			print('</td></tr></table>');
-			
-			print('</div>');
-			print('</div>');
-			
+
+			print('<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="' . $args['path'] . '"/></svg>');
+			print('<span class="vote-label">' . $args['label'] . '</span>');
+			print('<span id="' . $args['spanid'] . '" class="vote-count' . ($count ? '' : ' is-zero') . '">' . number_format($count) . '</span>');
+
+			print($this->signed_in ? '</button>' : '</a>');
+
 			return TRUE;
 		}
 	}

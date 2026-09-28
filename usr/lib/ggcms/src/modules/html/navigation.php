@@ -11,20 +11,37 @@
 			$this->domain_object = $args['domainobject'];
 		}
 		
+			/*
+				The foot of every page: the main menu, on the dark band the
+				site bar uses, so a page is framed top and bottom by the same
+				material.
+			*/
+
 		public function DisplayBottomNavigation($args) {
-			print('<div class="horizontal-center margin-top-14px border-2px">');
-			
-			print('<div class="padding-10px horizontal-center font-family-arial background-color-' . $this->globals->styling['PrimaryColor'] . '"><span class="font-family-verdana">');
-			
+			print('<footer class="site-foot">');
+			print('<div class="site-foot-inner">');
+			print('<nav class="site-foot-links" aria-label="Site">');
+
 			print($this->DisplayBottomNavigation_Links($args));
-			
-			print('</span></div>');
-			print('</span></div>');
+
+			print('</nav>');
+			print('</div>');
+			print('</footer>');
+
+			return TRUE;
 		}
-		
+
+		public function DisplayBottomNavigation_Link($args) {
+			if($args['current']) {
+				return '<span aria-current="page">' . $args['text'] . '</span>';
+			}
+
+			return '<a href="' . $args['url'] . '">' . $args['text'] . '</a>';
+		}
+
 		public function DisplayBottomNavigation_Links($args) {
 			$this_page = $args['thispage'];
-			$url_divider = '<span class="padding-left-15px padding-right-15px">|</span>';
+			$url_divider = '';
 			$primary_url = $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]);
 			
 			$display_text = '';
@@ -32,11 +49,7 @@
 			if($this->globals->mainmenu['home']['enabled']) {
 				$home_content_text = $this->DisplayBottomNavigation_Links_HomeText();
 				
-				if($this_page !== 'Home') {
-					$display_text .= '<a href="' . $primary_url . '/">' . $home_content_text . '</a>';
-				} else {
-					$display_text .= $home_content_text;
-				}
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'Home', 'url'=>$primary_url . '/', 'text'=>$home_content_text]);
 			}
 			
 			if($this->globals->mainmenu['about']['enabled']) {
@@ -44,31 +57,19 @@
 				
 				$about_content_text = $this->DisplayBottomNavigation_Links_AboutText();
 				
-				if($this_page !== 'About') {
-					$display_text .= '<a href="' . $primary_url . '/about.php">' . $about_content_text . '</a>';
-				} else {
-					$display_text .= $about_content_text;
-				}
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'About', 'url'=>$primary_url . '/about.php', 'text'=>$about_content_text]);
 			}
 			
 			if($this->globals->MainMenu_Enabled_News()) {
 				$display_text .= $url_divider;
 				
-				if($this_page !== 'News') {
-					$display_text .= '<a href="' . $primary_url . '/news.php">News</a>';
-				} else {
-					$display_text .= 'News';
-				}
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'News', 'url'=>$primary_url . '/news.php', 'text'=>'News']);
 			}
 			
 			if($this->globals->MainMenu_Enabled_Feeds()) {
 				$display_text .= $url_divider;
 				
-				if($this_page !== 'Feeds') {
-					$display_text .= '<a href="' . $primary_url . '/news.php?action=docs">Feeds</a>';
-				} else {
-					$display_text .= 'Feeds';
-				}
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'Feeds', 'url'=>$primary_url . '/news.php?action=docs', 'text'=>'Feeds']);
 			}
 			
 			if($this->globals->mainmenu['updates']['enabled']) {
@@ -76,11 +77,7 @@
 
 				$updates_content_text = $this->DisplayBottomNavigation_Links_UpdatesText();
 
-				if($this_page !== 'Updates') {
-					$display_text .= '<a href="' . $primary_url . $this->globals->mainmenu['updates']['url'] . '">' . $updates_content_text . '</a>';
-				} else {
-					$display_text .= $updates_content_text;
-				}
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'Updates', 'url'=>$primary_url . $this->globals->mainmenu['updates']['url'], 'text'=>$updates_content_text]);
 			}
 
 			if($this->globals->mainmenu['search']['enabled']) {
@@ -88,11 +85,7 @@
 				
 				$search_content_text = $this->DisplayBottomNavigation_Links_SearchText();
 				
-				if($this_page !== 'Search') {
-					$display_text .= '<a href="' . $primary_url . '/search.php">' . $search_content_text . '</a>';
-				} else {
-					$display_text .= $search_content_text;
-				}
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'Search', 'url'=>$primary_url . '/search.php', 'text'=>$search_content_text]);
 			}
 			
 			if($this->globals->mainmenu['contact']['enabled']) {
@@ -100,11 +93,7 @@
 				
 				$contact_content_text = $this->DisplayBottomNavigation_Links_ContactText();
 				
-				if($this_page !== 'Contact') {
-					$display_text .= '<a href="' . $primary_url . '/contact.php">' . $contact_content_text . '</a>';
-				} else {
-					$display_text .= $contact_content_text;
-				}
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'Contact', 'url'=>$primary_url . '/contact.php', 'text'=>$contact_content_text]);
 			}
 			
 			if($this->globals->mainmenu['languages']['enabled']) {
@@ -112,11 +101,7 @@
 				
 				$languages_content_text = $this->DisplayBottomNavigation_Links_LanguagesText();
 				
-				if($this_page !== 'Languages') {
-					$display_text .= '<a href="' . $primary_url . '/languages.php">' . $languages_content_text . '</a>';
-				} else {
-					$display_text .= $languages_content_text;
-				}
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'Languages', 'url'=>$primary_url . '/languages.php', 'text'=>$languages_content_text]);
 			}
 			
 			if($this->globals->mainmenu['privacypolicy']['enabled']) {
@@ -124,11 +109,7 @@
 				
 				$privacy_content_text = $this->DisplayBottomNavigation_Links_PrivacyText();
 				
-				if($this_page !== 'Privacy') {
-					$display_text .= '<a href="' . $primary_url . '/privacy.php">' . $privacy_content_text . '</a>';
-				} else {
-					$display_text .= $privacy_content_text;
-				}
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'Privacy', 'url'=>$primary_url . '/privacy.php', 'text'=>$privacy_content_text]);
 			}
 			
 			$extra_link = $this->globals->SiteLinks_ExtraURL();

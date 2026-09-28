@@ -51,11 +51,7 @@
 					print('</a>');
 				}
 				
-				if($this->that->handler->script_format_lower === 'html') {
-					$this->that->arrowRight([]);
-				} else {
-					print(' >> ');
-				}
+				$this->DisplaySeparator();
 			}
 			
 			return TRUE;
@@ -83,13 +79,12 @@
 		#		print("BT: Breadcrumbs!\n\n");
 		#	print("-->\n\n");
 			#	$alt = htmlentities($record['Title']);
-				print('<img valign="bottom" style="margin:1px; padding:0px;border:1px solid black;" ');
+				print('<img class="crumbs-icon" alt="" width="20" height="20" ');
 				# An 18-pixel crumb: the icon, never the original, which can run to megabytes.
 				$crumb_filename = $image['IconFileName'] ? $image['IconFileName'] : $image['FileName'];
 				print('src="/image/' . $directory . '/' . $crumb_filename . '"');
 			#	print('title="' . $alt . '" ');
 			#	print('alt="' . $alt . '" ');
-				print('height="18" ');
 				print('>');
 			}
 			
@@ -121,11 +116,7 @@
 						
 						print('</a>');
 						
-						if($this->that->handler->script_format_lower === 'html') {
-							$this->that->arrowRight([]);
-						} else {
-							print(' >> ');
-						}
+						$this->DisplaySeparator();
 					}
 				}
 			}
@@ -156,20 +147,14 @@
 				print('">');
 			}
 			
-			print($title);
+			print($this->sub_page ? $title : '<span class="crumbs-here" aria-current="page">' . $title . '</span>');
 			
 			if($this->sub_page) {
 				print('</a>');
 				
-				if($this->that->handler->script_format_lower === 'html') {
-					$this->that->arrowRight([]);
-				} else {
-					print(' >> ');
-				}
+				$this->DisplaySeparator();
 				
-				print(' ');
-				
-				print($this->sub_page);
+				print('<span class="crumbs-here" aria-current="page">' . $this->sub_page . '</span>');
 			}
 			
 			return TRUE;
@@ -177,19 +162,25 @@
 		
 		public function DisplayBlockStart() {
 			print("\n\n");
-			print('<div class="float-left border-2px background-color-gray13" style="font-family:arial;">');
-			print('<p style="margin:0px !important;padding:0px !important;">');
-			
+			print('<nav class="crumbs" aria-label="Breadcrumb">');
+
 			return TRUE;
 		}
-		
+
 		public function DisplayBlockEnd() {
-			print('</p>');
-			print('<div style="clear:both;"></div>');
-			
-			print('</div>');
+			print('</nav>');
 			print("\n\n");
-			
+
+			return TRUE;
+		}
+
+		public function DisplaySeparator() {
+			if($this->that->handler->script_format_lower === 'html') {
+				print('<span class="crumbs-sep" aria-hidden="true">&rsaquo;</span>');
+			} else {
+				print(' >> ');
+			}
+
 			return TRUE;
 		}
 	}

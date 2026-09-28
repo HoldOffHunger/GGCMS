@@ -17,53 +17,39 @@
 		
 		public function Display() {
 			$simple_data = $this->getSimpleData();
-			
+
 			if($simple_data['text'] === '') {
 				return;
 			}
-			
+
 			$title_hash = $this->getDateTypeTitle();
-			
-			print('<div id="header_backgroundimageurl" class="border-2px background-color-gray13 margin-5px float-right" title="');
-			
-			if($title_hash[$simple_data['type']]) {
-				print($title_hash[$simple_data['type']]);
-			} else {
-				print($simple_data['type']);
-			}
-			print('">');
-			print('<div class="span-header-2"><h2 style="margin:5px;padding:5px;display: inline-block;border:black 2px solid;background-color:#FFFFFF;" class="header-2 padding-0px margin-5px horizontal-left font-family-tahoma">');
-#			print($simple_data['type']);
-#			print_r($title_hash);
+			$title = $title_hash[$simple_data['type']] ? $title_hash[$simple_data['type']] : $simple_data['type'];
+
+			print('<p class="date-badge" title="' . htmlspecialchars((string) $title, ENT_QUOTES, 'UTF-8') . '">');
 			print($simple_data['text']);
-			print('</h2></div>');
-			print('</div>');
-			
+			print('</p>');
+
 			return TRUE;
 		}
-		
+
 		public function DisplayEventDatesHistory() {
 			if($this->entry_event_count === 0) {
 				return FALSE;
 			}
-			
+
 			$this->DisplayEventDatesHistory_header();
-			
+
 			for($i = 0; $i < $this->entry_event_count; $i++) {
 				$event_date = $this->that->entry['eventdate'][$i];
-				
+
 				$this->DisplayEventDatesHistory_singleDate(['eventdate'=>$event_date]);
-				
-				if(($i + 1) !== $this->entry_event_count) {
-					print('<hr width="95%">');
-				}
 			}
-			
+
 			$this->DisplayEventDatesHistory_footer();
-			
+
 			return TRUE;
 		}
-		
+
 		public function DisplayEventDatesHistory_singleDate($args) {
 			$eventdate = $args['eventdate'];
 			
@@ -80,7 +66,7 @@
 		}
 		
 		public function DisplayEventDatesHistory_singleDate_header($args) {
-			print('<div class="margin-5px horizontal-left font-family-arial">');
+			print('<li class="timeline-item">');
 		}
 		
 		public function DisplayEventDatesHistory_singleDate_icon($args) {
@@ -92,15 +78,9 @@
 			$icon = $title_icon_hash[$eventdate['Title']];
 			$alt = $icon_alt_hash[$eventdate['Title']];
 			
-			print('<div class="float-left border-2px margin-5px" style="background-color:white;">');
-			print('<div class="margin-2px">');
-			print('<img ');
-			print('src="/image/events/'  . $icon . '.png" ');
-			print('alt="' . $alt . '" ');
-			print('height="25" ');
-			print('>');
-			print('</div>');
-			print('</div>');
+			if($icon) {
+				print('<img class="timeline-icon" src="/image/events/' . $icon . '.png" alt="' . $alt . '" width="22" height="22">');
+			}
 			
 			return TRUE;
 		}
@@ -154,9 +134,7 @@
 			$event_date = $eventdate['date'];
 			$event_time = $eventdate['time'];
 			
-			print('<div class="float-left border-2px margin-5px background-color-gray13">');
-			print('<div class="margin-5px">');
-			print('<strong>');
+			print('<time class="timeline-date">');
 			
 			$eventdate['EventDateTime'] = str_replace('-00-00', '-01-01', $eventdate['EventDateTime']);
 			$eventdate['EventDateTime'] = str_replace('-00', '-01', $eventdate['EventDateTime']);
@@ -170,9 +148,8 @@
 				print(date("; g:i:s A (e)", $date_epoch_time));
 			}
 			
-			print('</strong>');
-			print('</div>');
-			print('</div>');
+			print('</time> ');
+			print('<span class="timeline-text">');
 		}
 		
 		public function FormatDate($args) {
@@ -258,61 +235,31 @@
 		public function DisplayEventDatesHistory_singleDate_footer($args) {
 			$eventdate = $args['eventdate'];
 			
-			print('<div class="clear-float"></div>');
-			
-			print('</div>');
+			print('</span>');
+			print('</li>');
 		}
 		
 		public function DisplayEventDatesHistory_header() {
-			print('<center>');
-			print('<div class="horizontal-center width-95percent">');
-			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-			print('<h2 class="horizontal-left margin-5px font-family-arial">');
-			print('<a name="eventdate"></a>');
-			print('Chronology');
-			print('</h2>');
-			print('</div>');
-			print('</div>');
-			print('</center>');
-			
-			$this->BackToTopLinkBox();
-			
-			print('<div class="clear-float"></div>');
-			
-			print('<center>');
-			print('<div class="border-2px background-color-gray13 margin-5px horizontal-center width-90percent">');
-			print('<div class="border-2px background-color-gray15 margin-5px horizontal-left font-family-arial">');
-			
+			print('<section class="block chronology" id="eventdate">');
+			print('<h2 class="block-title">Chronology</h2>');
+			print('<ol class="timeline">');
+
 			return TRUE;
 		}
-		
+
 		public function BackToTopLinkBox() {
-			print('<div style="margin-right:50px;white-space:nowrap;display: inline-block" class="border-2px background-color-gray13 float-right">');
-			print('<span class="comments-link-box" style="font-family:arial, tahoma;margin:3px;padding:0px;display:inline-block;">');
-			print('<strong>');
-			
-			print('<a href="#top">');
-			print('<nobr>');
-			print('Back to Top');
-			print('</nobr>');
-			print('</a>');
-			
-			print('</strong>');
-			print('</span>');
-			print('</div>');
-			
+			print('<a class="to-top" href="#top">Back to top</a>');
+
 			return TRUE;
 		}
-		
+
 		public function DisplayEventDatesHistory_footer() {
-			print('</div>');
-			print('</div>');
-			
-			print('</center>');
-			
+			print('</ol>');
+			print('</section>');
+
 			return TRUE;
 		}
-		
+
 		public function getSimpleDisplay_TXT() {
 			if($this->simpledisplaytxt) {
 				return $this->simpledisplaytxt;

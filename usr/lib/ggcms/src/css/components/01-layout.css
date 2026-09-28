@@ -1,0 +1,154 @@
+/*
+	Layout: how the blocks the modules print sit on a page.
+
+	A template that prints modules one after another, as most do, gets a
+	single centred column: text-width for reading, page-width for lists
+	and galleries.  A template that lays a page out itself -- a reading
+	sheet with a sidebar -- uses .read-grid, .sheet and .side, and blocks
+	inside those fill their container instead.
+*/
+
+:root {
+	--content-width: 50rem;
+}
+
+.block,
+.page-head-inner,
+.site-bar-inner,
+.site-foot-inner,
+.crumbs,
+.admin-bar,
+.notice {
+	width: min(100% - 2 * var(--gutter), var(--content-width));
+	margin-inline: auto;
+	text-align: start;
+}
+
+.page-head-inner,
+.site-bar-inner,
+.site-foot-inner,
+.admin-bar,
+.crumbs,
+.block.children,
+.block.gallery,
+.block.keep-reading,
+.block.associations,
+.block.index-section,
+.block.index-new,
+.page-wide {
+	width: min(100% - 2 * var(--gutter), var(--page-width));
+}
+
+.block {
+	margin-block: 2rem;
+}
+
+	/* inside a laid-out page, blocks fill what they are given */
+
+.read-grid .block,
+.read-grid .crumbs,
+.read-grid .notice,
+.sheet .block,
+.side .block,
+.panel .block {
+	width: auto;
+	margin-inline: 0;
+}
+
+	/*
+		The row most templates print under the header: breadcrumbs, then
+		sign-in, votes, the comment, image and quote links, the permalink
+		and the share links, inside a legacy wrapper div.  :has() finds it
+		without the template changing.
+	*/
+
+div:has(> .crumbs):not(.read-grid):not(.page-tools) {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: .5rem .75rem;
+	width: min(100% - 2 * var(--gutter), var(--page-width));
+	margin: 1rem auto 0;
+	text-align: start;
+}
+
+div:has(> .crumbs) > .crumbs {
+	flex: 1 1 18rem;
+	width: auto;
+	margin: 0;
+}
+
+.clear-float {
+	clear: both;
+}
+
+	/* The reading layout: a paper sheet, with a sidebar on wide screens */
+
+.page-tools {
+	width: min(100% - 2 * var(--gutter), var(--page-width));
+	margin: 1rem auto 0;
+}
+
+.read-grid {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: minmax(0, 1fr);
+	align-items: start;
+	width: min(100% - 2 * var(--gutter), var(--page-width));
+	margin: 1rem auto 3rem;
+}
+
+@media (min-width: 1000px) {
+	.read-grid {
+		grid-template-columns: minmax(0, 1fr) 19.5rem;
+		gap: 2.5rem;
+	}
+}
+
+.sheet {
+	background: var(--paper);
+	border: 1px solid var(--rule);
+	padding: clamp(1.25rem, 4.5vw, 3.25rem);
+	min-width: 0;
+}
+
+.sheet-inner {
+	max-width: var(--measure);
+	margin-inline: auto;
+}
+
+.sheet .block {
+	margin-block: 2.25rem 0;
+}
+
+.side {
+	display: grid;
+	gap: 1.25rem;
+	min-width: 0;
+}
+
+.panel {
+	background: var(--paper);
+	border: 1px solid var(--rule);
+	padding: 1rem 1.15rem 1.15rem;
+	display: grid;
+	gap: .75rem;
+	min-width: 0;
+}
+
+.panel-title {
+	margin: 0;
+	font: 700 .75rem/1.2 var(--sans);
+	letter-spacing: .14em;
+	text-transform: uppercase;
+	color: var(--ink);
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}

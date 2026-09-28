@@ -40,263 +40,240 @@
 			return [];
 		}
 		
+			/*
+				The site bar, then the page's head: its picture, where it sits,
+				its title and who wrote it.  A template that wants the title
+				somewhere else -- inside the reading sheet, say -- calls
+				DisplaySiteBar() and DisplayTitleBlock() itself instead.
+			*/
+
 		public function Display() {
+			print('<a id="top"></a>');
+
+			$this->DisplaySiteBar();
+			$this->DisplayPageHead();
+
+			return TRUE;
+		}
+
+		public function DisplaySiteBar() {
+			require_once(GGCMS_DIR . 'modules/html/site-bar.php');
+
+			$site_bar = new module_sitebar(['that'=>$this->that]);
+			$site_bar->Display();
+
+			return TRUE;
+		}
+
+		public function DisplayPageHead() {
 			$images = $this->getImages();
-			$primary_image = $images['primary'];
-			$header_cluster = $images['headercluster'];
-			
-			print('<a name="top"></a>');
-			
-			$this->Display_OpeningBlock();
-			
-			$this->Display_LeftIcons(['primary_image'=>$primary_image]);
-			$this->Display_CenterText();
-			$this->Display_RightIcons(['header_cluster'=>$header_cluster]);
-			
-			$this->Display_ClosingBlock();
-			
-			return TRUE;
-		}
-		
-		public function Display_OpeningBlock() {
-			$background_image = $this->getBackgroundHeaderImage();
-			$background_image_location = '';
-			
-			if($background_image['id']) {
-				$title_tags = $this->getTitleTags();
-				$background_image_title = htmlentities($title_tags['header']);
-				$background_image_location = '/image/' . implode('/', str_split($background_image['FileDirectory'])) . '/' . $background_image['FileName'];
-			} else {
-				$background_image_title = 'Image from WikiCommons, Photo by Uroš Novina from Semič, Slovenia, CC BY License';	// Thank you, Uroš, you rock! -- holdoffhunger
-				$background_image_location = '/image/background/header/night-sky-of-our-hearts-night-sky-of-our-minds-2.jpg';
-			}
-			
-			print('<div id="header_backgroundimageurl" title="');
-			print($background_image_title);
-			print('"');
-			print(' style="');
-			if($background_image_location) {
-				print('background-image:url(\'');
-				print($background_image_location);
-				print('\');');
-			}
-			print('"');
-			print('>');
-			
-			return TRUE;
-		}
-		
-		public function Display_ClosingBlock() {
-			print('</tr></tbody></table>');
+
+			print('<div class="page-head">');
+			print('<div class="page-head-inner">');
+
+			$this->DisplayPageHeadImage(['image'=>$images['primary']]);
+
+			print('<div class="page-head-text">');
+			$this->DisplayTitleBlock();
 			print('</div>');
-			
+
+			$this->DisplayPageHeadCluster(['images'=>$images['headercluster']]);
+
+			print('</div>');
+			print('</div>');
+
 			return TRUE;
 		}
-		
-		public function Display_LeftIcons($args) {
-			$primary_image = $args['primary_image'];
-			
-			$directory = implode('/', str_split($primary_image['FileDirectory']));
-			
-			print('<table width="100%"><tbody><tr>');
-			
-			print('<td width="1"><center><div class="float-left padding-5-px">');
-			
-			print('<div class="border-2px margin-5px background-color-gray10 ">');
-			
-	#		print('<a href="/image/' . $directory . '/' . $primary_image['FileName'] . '" target="_blank">');
-			
-			print('<a href="/">');
-			
-			print('<img style="max-width:200px;max-height:200px;" src="/image/' . $directory . '/' . $primary_image['IconFileName'] . '" ');
-			
-			if($primary_image['Title'] || $primary_image['Description']) {
-				print('title="');
-				if($primary_image['Title']) {
-					print(htmlentities($primary_image['Title']));
-					
-					if($primary_image['Description']) {
-						print(': ');
-					}
-				}
-				
-				if($primary_image['Description']) {
-					print(htmlentities($primary_image['Description']));
-				}
-				print('" ');
+
+		public function DisplayTitleBlock() {
+			$this->DisplayKicker();
+
+			print('<h1 class="page-title">' . $this->TitleText() . '</h1>');
+
+			if(!$this->header_text && $this->that->entry['Subtitle']) {
+				print('<p class="page-subtitle">' . $this->that->entry['Subtitle'] . '</p>');
 			}
-			
-			print('>');
-			
-			print('</a>');	
-			
-			print('</div>');
-			
-			print('</div>');
-			
-			print('</center></td>');
-			
+
+			$this->DisplayByline();
+
 			return TRUE;
 		}
-		
-		public function Display_CenterText_Opening() {
-			print('<td>');
-			
-			return TRUE;
-		}
-		
-		public function Display_CenterText_Closing() {
-			print('</td>');
-			
-			return TRUE;
-		}
-		
-		public function Display_CenterText_TextBlock($args) {
-			if($args['text'] === '') {
+
+			/*
+				Where the page sits: its parent, linked.  The old header wrote
+				"Parent — Title" into the title itself.
+			*/
+
+		public function DisplayKicker() {
+			$parent = $this->that->parent;
+
+				/*
+					Not for a section at the top of the site: its parent is the
+					site itself, which the site bar has already named.
+				*/
+
+			if(!$parent || empty($parent['Title']) || ($this->that->master_record && $parent['id'] === $this->that->master_record['id'])) {
 				return FALSE;
 			}
-			print('<div style="display: inline-block;" class="span-header-1">');
-			print('<h1 style="margin:5px;padding:5px;display: inline-block;border:black 2px solid;background-color:#FFFFFF;" class="header-1 margin-0px horizontal-center vertical-center">');
-			print($args['text']);
-			print('</h1>');
-			print('</div>');
-			
+
+			print('<p class="page-kicker">');
+			print('<a href="' . $this->ParentURL() . '">' . $parent['Title'] . '</a>');
+			print('</p>');
+
 			return TRUE;
 		}
+
+		public function ParentURL() {
+			$pieces = is_array($this->that->object_list) ? $this->that->object_list : [];
+			array_pop($pieces);
+
+			if(!$pieces) {
+				return '/';
+			}
+
+			return '/' . implode('/', $pieces) . '/view.php';
+		}
+
+			/*
+				Author and dates, then the length of the text and how long it
+				takes to read -- the two things a reader decides by.
+			*/
+
+		public function DisplayByline() {
+			$pieces = [];
+
+			$author = $this->getAuthorAssociation(['associations'=>$this->that->entry['association']]);
+			$author_entry = $author ? $author['entry'] : NULL;
+
+			if($author_entry && $author_entry['id']) {
+				$author_text = 'By ';
+
+				if(method_exists($this->that, 'EntryAssociationURL')) {
+					$author_text .= '<a class="page-byline-author" href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author_entry['Code']]) . '">' . $author_entry['Title'] . '</a>';
+				} else {
+					$author_text .= $author_entry['Title'];
+				}
+
+				$pieces[] = $author_text;
+			}
+
+			if($this->time_frame) {
+				$pieces[] = $this->time_frame;
+			}
+
+			$words = $this->WordCount();
+
+			if($words) {
+				$pieces[] = number_format($words) . ' words';
+				$pieces[] = $this->ReadingTime(['words'=>$words]);
+			}
+
+			if(!$pieces) {
+				return FALSE;
+			}
+
+			print('<p class="page-byline">');
+			print(implode('<span class="dot" aria-hidden="true"> &middot; </span>', $pieces));
+			print('</p>');
+
+			return TRUE;
+		}
+
+		public function WordCount() {
+			if(empty($this->that->entry['textbody']) || empty($this->that->counts['textbody'])) {
+				return 0;
+			}
+
+			$words = 0;
+
+			foreach($this->that->entry['textbody'] as $textbody) {
+				$words += (int) $textbody['WordCount'];
+			}
+
+			return $words;
+		}
+
+			// At 250 words a minute, the usual figure for reading prose.
+
+		public function ReadingTime($args) {
+			$minutes = (int) round($args['words'] / 250);
+
+			if($minutes < 1) {
+				return 'Under a minute';
+			}
+
+			if($minutes < 90) {
+				return 'About ' . $minutes . ' minute' . ($minutes === 1 ? '' : 's');
+			}
+
+			return 'About ' . round($minutes / 60) . ' hours';
+		}
+
+		public function DisplayPageHeadImage($args) {
+			$image = $args['image'];
+
+			if(!$image || empty($image['id'])) {
+				return FALSE;
+			}
+
+			print('<figure class="page-head-image">');
+			print('<img src="' . $this->ImageURL(['image'=>$image, 'icon'=>TRUE]) . '" alt=""' . $this->ImageTitle(['image'=>$image]) . '>');
+			print('</figure>');
+
+			return TRUE;
+		}
+
+		public function DisplayPageHeadCluster($args) {
+			$images = array_slice(array_values(array_filter((array) $args['images'], function($image) {
+				return $image && !empty($image['id']);
+			})), 0, 4);
+
+			if(!$images) {
+				return FALSE;
+			}
+
+			print('<div class="page-head-cluster" aria-hidden="true">');
+
+			foreach($images as $image) {
+				print('<a href="' . $this->ImageURL(['image'=>$image]) . '" target="_blank" tabindex="-1">');
+				print('<img src="' . $this->ImageURL(['image'=>$image, 'icon'=>TRUE]) . '" alt=""' . $this->ImageTitle(['image'=>$image]) . '>');
+				print('</a>');
+			}
+
+			print('</div>');
+
+			return TRUE;
+		}
+
+		public function ImageURL($args) {
+			$image = $args['image'];
+			$file = (!empty($args['icon']) && $image['IconFileName']) ? $image['IconFileName'] : $image['FileName'];
+
+			return '/image/' . implode('/', str_split($image['FileDirectory'])) . '/' . $file;
+		}
+
+		public function ImageTitle($args) {
+			$image = $args['image'];
+			$title = trim($image['Title'] . ($image['Title'] && $image['Description'] ? ': ' : '') . $image['Description']);
+
+			if(!strlen($title)) {
+				return '';
+			}
+
+			return ' title="' . htmlentities($title) . '"';
+		}
+
+			/*
+				The title alone.  Its parent is the kicker above it and its
+				subtitle the line below; the old header ran all three into one.
+			*/
 		
-		public function Display_CenterText_getMainText() {
-			$text = '';
-			
+		public function TitleText() {
 			if($this->header_text) {
 				return $this->header_text;
 			}
 			
-			if(count($this->that->record_list) > 2) {
-				$parent = $this->that->record_list[count($this->that->record_list) - 2];
-				$text .= $parent['Title'];
-				$text .= ' &mdash; ';
-			}
-			
-			if($this->that->header_title_text) {
-				$text .= $this->that->header_title_text;
-			} else {
-				$text .= $this->that->entry['Title'];		#	FORMERLY -->	print($this->that->header_title_text);
-				if($this->that->entry['Subtitle']) {
-					$text .= ': ';
-					$text .= $this->that->entry['Subtitle'];
-				}
-			}
-			
-			return $text;
-		}
-		
-		public function Display_CenterText_getSecondaryText() {
-			if($this->header_subtext) {
-				return $this->header_subtext;
-			}
-			
-			$associations = $this->that->entry['association'];
-			$author_association = $this->getAuthorAssociation(['associations'=>$associations]);
-			$author_entry = $author_association['entry'];
-			
-			$text = '';
-			
-			if($author_entry && $author_entry['id']) {		
-				$text .= 'By ' . $author_entry['Title'];
-				if($this->time_frame) {
-					$text .= ' ';
-					$text .= '(';
-					$text .= $this->time_frame;
-					$text .= ')';
-				};
-			} else {
-				if($this->time_frame) {
-					$text .= $this->time_frame;
-				};
-			}
-			
-			return $text;
-		}
-		
-		public function Display_CenterText() {
-			$this->Display_CenterText_Opening();
-			
-			$this->Display_CenterText_TextBlock(['text'=>$this->Display_CenterText_getMainText()]);
-						
-			print('<div class="clear-float;"></div>');
-			
-			$this->Display_CenterText_TextBlock(['text'=>$this->Display_CenterText_getSecondaryText()]);
-			
-			$this->Display_CenterText_Closing();
-			
-			return TRUE;
-		}
-		
-		public function Display_RightIcons($args) {
-			$header_cluster = $args['header_cluster'];
-			
-			if(!$header_cluster[0]) {
-				return FALSE;
-			}
-			print('<td width="1">');
-			
-			print('<center><div class="float-right padding-5-px">');
-			
-			print('<div class="border-2px margin-5px background-color-gray10 ">');
-			
-			print('<table><tr><td><center>');
-			
-			$this->Display_RightIcons_SingleIcon(['icon'=>$header_cluster[0]]);
-			
-			print('</center></td><td><center>');
-			
-			$this->Display_RightIcons_SingleIcon(['icon'=>$header_cluster[1]]);
-			
-			print('</center></td></tr><tr><td><center>');
-			
-			$this->Display_RightIcons_SingleIcon(['icon'=>$header_cluster[2]]);
-			
-			print('</center></td><td><center>');
-			
-			$this->Display_RightIcons_SingleIcon(['icon'=>$header_cluster[3]]);
-			
-			print('</center></td></tr></table>');
-			
-			print('</div></div></center>');
-			
-			return TRUE;
-		}
-		
-		public function Display_RightIcons_SingleIcon($args) {
-			$icon = $args['icon'];
-			
-			if(!$icon || !$icon['id']) {
-				return FALSE;
-			}
-			
-			$directory = implode('/', str_split($icon['FileDirectory']));
-			
-			print('<a href="/image/' . $directory . '/' . $icon['FileName'] . '" target="_blank">');
-			print('<img style="max-height:80px;border:1px solid black;" src="/image/' . $directory . '/' . $icon['IconFileName'] . '" ');
-			if($icon['Title'] || $icon['Description']) {
-				print('title="');
-				if($icon['Title']) {
-					print(htmlentities($icon['Title']));
-					
-					if($icon['Description']) {
-						print(': ');
-					}
-				}
-				
-				if($icon['Description']) {
-					print(htmlentities($icon['Description']));
-				}
-				print('" ');
-			}
-			print('>');
-			print('</a>');
-			
-			return TRUE;
+			return $this->that->entry['Title'];
 		}
 		
 		public function getTitleTags() {

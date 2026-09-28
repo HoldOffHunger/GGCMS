@@ -34,7 +34,7 @@ $(document).ready(function(event){
 	$('#comment-form').submit(function(e) {
 		if($('#userid').attr('id') && $('#userid').val() && !$('#google_token_id').val()) {
 			if(!$('#Comments').val() || ($('#Username').prop('id') && !$('#Username').val())) {
-				$('#error-box').show();
+				$('#error-box').prop('hidden', false);
 				
 				var fields = [];
 				

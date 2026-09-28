@@ -1,0 +1,288 @@
+/*
+	The small parts every module uses: section titles, buttons, the
+	action row's links, chips, notices, form fields, source lines.
+*/
+
+.block-title {
+	margin: 0 0 1rem;
+	padding-bottom: .55rem;
+	border-bottom: 2px solid var(--ink);
+	font: 600 var(--text-2xl)/1.15 var(--serif);
+	letter-spacing: -.01em;
+}
+
+.sheet .block-title,
+.side .block-title {
+	border-bottom: 0;
+	padding-bottom: 0;
+	font: 700 .8rem/1.2 var(--sans);
+	letter-spacing: .14em;
+	text-transform: uppercase;
+}
+
+.block-subtitle {
+	margin: 1.5rem 0 .6rem;
+	font: 700 .78rem/1.2 var(--sans);
+	letter-spacing: .12em;
+	text-transform: uppercase;
+	color: var(--muted);
+}
+
+.block-head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: .5rem 1.5rem;
+	margin-bottom: 1.25rem;
+	padding-bottom: .55rem;
+	border-bottom: 2px solid var(--ink);
+}
+
+.block-head > .block-title {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.block-head > .block-note,
+.block-head > .list-stats {
+	margin: 0;
+}
+
+.sheet .block-head,
+.side .block-head {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+.kicker {
+	font: 700 .75rem/1.2 var(--sans);
+	letter-spacing: .14em;
+	text-transform: uppercase;
+	color: var(--accent-ink);
+}
+
+.dot {
+	color: var(--rule-strong);
+}
+
+.to-top {
+	font: 600 .8125rem/1 var(--sans);
+	text-decoration: none;
+}
+
+	/* Buttons */
+
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: .5rem;
+	font: 600 .9375rem/1 var(--sans);
+	padding: .72rem 1.05rem;
+	border-radius: var(--radius);
+	border: 1px solid transparent;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color .15s, border-color .15s, color .15s;
+}
+
+.btn-primary {
+	background: var(--accent-fill);
+	color: var(--on-accent);
+}
+
+.btn-primary:hover {
+	background: var(--accent-fill-hover);
+	color: var(--on-accent);
+	text-decoration: none;
+}
+
+.btn-line {
+	background: var(--paper);
+	color: var(--ink);
+	border-color: var(--rule-strong);
+}
+
+.btn-line:hover {
+	border-color: var(--ink);
+	color: var(--ink);
+	text-decoration: none;
+}
+
+	/* The action row: plain, quiet controls with an optional count */
+
+.action {
+	display: inline-flex;
+	align-items: center;
+	gap: .45rem;
+	font: 600 .875rem/1 var(--sans);
+	color: var(--ink-2);
+	background: var(--paper);
+	border: 1px solid var(--rule);
+	border-radius: var(--radius);
+	padding: .55rem .8rem;
+	text-decoration: none;
+	cursor: pointer;
+	list-style: none;
+}
+
+.action::-webkit-details-marker {
+	display: none;
+}
+
+.action:hover {
+	color: var(--accent-ink);
+	border-color: var(--accent);
+	text-decoration: none;
+}
+
+.action-count {
+	font-weight: 500;
+	color: var(--muted);
+	font-variant-numeric: tabular-nums;
+}
+
+	/* Chips: tags and formats */
+
+.chips {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: .375rem;
+}
+
+.chips a {
+	display: inline-block;
+	font: 600 .75rem/1 var(--sans);
+	letter-spacing: .04em;
+	padding: .42rem .55rem;
+	border: 1px solid var(--rule-strong);
+	border-radius: 2px;
+	color: var(--ink-2);
+	background: var(--paper);
+	text-decoration: none;
+}
+
+.chips a:hover {
+	border-color: var(--accent);
+	color: var(--accent-ink);
+}
+
+.chips-small a {
+	font-size: .7rem;
+	padding: .3rem .45rem;
+}
+
+.chip-count {
+	color: var(--muted);
+	font-weight: 500;
+	font-variant-numeric: tabular-nums;
+}
+
+.top-tags {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: .5rem;
+	margin-top: .75rem;
+}
+
+.top-tags-label {
+	font: 600 .75rem/1 var(--sans);
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	color: var(--muted);
+}
+
+	/* Notices */
+
+.notice {
+	margin-block: 1rem;
+	padding: .9rem 1.1rem;
+	border: 1px solid var(--rule-strong);
+	border-left-width: 4px;
+	background: var(--paper);
+}
+
+.notice p {
+	margin: .25rem 0;
+}
+
+.notice-error {
+	border-left-color: #C2410C;
+}
+
+.notice-warning {
+	border-left-color: #B45309;
+}
+
+.notice-success {
+	border-left-color: #15803D;
+}
+
+	/* Text around a text */
+
+.lede {
+	margin: 0;
+	font: 400 1.1rem/1.6 var(--serif);
+	color: var(--ink-2);
+}
+
+.source {
+	margin: .75rem 0 0;
+	font: 400 .875rem/1.5 var(--sans);
+	color: var(--muted);
+}
+
+.empty {
+	color: var(--muted);
+	font-style: italic;
+}
+
+.note {
+	font-size: .875rem;
+	color: var(--muted);
+}
+
+	/* Form fields */
+
+.field {
+	display: grid;
+	gap: .35rem;
+	margin: 0 0 1rem;
+}
+
+.field label {
+	font: 600 .875rem/1.2 var(--sans);
+	color: var(--ink);
+}
+
+.field textarea {
+	width: 100%;
+	min-height: 8rem;
+	resize: vertical;
+}
+
+.field-hint {
+	font-size: .8125rem;
+	color: var(--muted);
+}
+
+.form-actions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: .75rem;
+	margin: 0;
+}
+
+.date-badge {
+	display: inline-block;
+	margin: 0;
+	font: 600 .875rem/1.2 var(--sans);
+	color: var(--muted);
+}

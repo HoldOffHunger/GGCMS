@@ -1,0 +1,414 @@
+/*
+	Lists of entries: chapters and children (entry-children.php), authors
+	and other associations (entry-association.php), the gallery
+	(entry-image.php), the chronology (entry-date.php) and links
+	(entry-link.php).
+*/
+
+.list-stats {
+	margin: 0 0 1rem;
+	font: 500 .875rem/1.3 var(--sans);
+	color: var(--muted);
+	font-variant-numeric: tabular-nums;
+}
+
+.entry-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: .75rem;
+}
+
+.entry-card {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: 1rem;
+	align-items: start;
+	padding: 1rem 1.1rem;
+	background: var(--paper);
+	border: 1px solid var(--rule);
+	transition: border-color .15s, box-shadow .15s;
+}
+
+.entry-card:has(> .entry-card-image) {
+	grid-template-columns: 5rem minmax(0, 1fr);
+}
+
+.entry-card:hover {
+	border-color: var(--rule-strong);
+	box-shadow: var(--shadow);
+}
+
+.entry-card-image img {
+	display: block;
+	width: 5rem;
+	height: 5rem;
+	object-fit: cover;
+	border: 1px solid var(--rule);
+	background: var(--ground);
+}
+
+.entry-card-body {
+	display: grid;
+	gap: .35rem;
+	min-width: 0;
+}
+
+.entry-card-title {
+	margin: 0;
+	font: 600 1.15rem/1.3 var(--serif);
+}
+
+.entry-card-title a {
+	color: var(--ink);
+	text-decoration: none;
+}
+
+.entry-card-title a:hover {
+	color: var(--accent-ink);
+	text-decoration: underline;
+}
+
+.entry-card-subtitle {
+	font-weight: 400;
+	color: var(--ink-2);
+}
+
+.entry-card-meta {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: .2rem .15rem;
+	margin: 0;
+	font: 500 .8125rem/1.4 var(--sans);
+	color: var(--muted);
+}
+
+.entry-card-meta a {
+	color: var(--ink-2);
+}
+
+.entry-card-excerpt {
+	margin: 0;
+	font: 400 .98rem/1.55 var(--serif);
+	color: var(--ink-2);
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.entry-card-excerpt:empty {
+	display: none;
+}
+
+.entry-card-quote {
+	font-style: italic;
+}
+
+.entry-browser {
+	display: block;
+	width: 100%;
+	height: 900px;
+	border: 1px solid var(--rule);
+	background: var(--paper);
+}
+
+	/* Authors and other associations */
+
+.associations {
+	display: grid;
+	gap: .75rem;
+}
+
+.author-card {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: 1rem;
+	align-items: start;
+	padding: 1rem 1.1rem;
+	background: var(--paper);
+	border: 1px solid var(--rule);
+}
+
+.author-card:has(> .author-card-image) {
+	grid-template-columns: 4.5rem minmax(0, 1fr);
+}
+
+.author-card-image img {
+	display: block;
+	width: 4.5rem;
+	height: 4.5rem;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 1px solid var(--rule);
+	background: var(--ground);
+}
+
+.author-card-body {
+	display: grid;
+	gap: .35rem;
+	min-width: 0;
+}
+
+.author-card-role {
+	margin: 0;
+	font: 700 .7rem/1.2 var(--sans);
+	letter-spacing: .12em;
+	text-transform: uppercase;
+	color: var(--accent-ink);
+}
+
+.author-card-name {
+	margin: 0;
+	font: 600 1.15rem/1.3 var(--serif);
+}
+
+.author-card-name a {
+	color: var(--ink);
+	text-decoration: none;
+}
+
+.author-card-name a:hover {
+	color: var(--accent-ink);
+	text-decoration: underline;
+}
+
+.author-card-years {
+	font: 500 .875rem/1 var(--sans);
+	color: var(--muted);
+	white-space: nowrap;
+}
+
+.author-card-subtitle {
+	margin: 0;
+	font: 500 .875rem/1.45 var(--sans);
+	color: var(--ink-2);
+}
+
+.author-card-description,
+.author-card-excerpt {
+	margin: 0;
+	font: 400 .95rem/1.55 var(--serif);
+	color: var(--ink-2);
+}
+
+.author-card-quote {
+	margin: 0;
+	padding-left: .85rem;
+	border-left: 2px solid var(--accent);
+	font: italic 400 .95rem/1.55 var(--serif);
+	color: var(--ink-2);
+}
+
+.author-card-quote p {
+	margin: 0;
+}
+
+.author-card-quote footer {
+	margin-top: .25rem;
+	font: normal 500 .75rem/1.3 var(--sans);
+	color: var(--muted);
+}
+
+	/* The gallery */
+
+.gallery-grid {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+	gap: .75rem;
+}
+
+.gallery-grid a {
+	display: block;
+	aspect-ratio: 1;
+	overflow: hidden;
+	border: 1px solid var(--rule);
+	background: var(--ground);
+}
+
+.gallery-grid img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform .25s;
+}
+
+.gallery-grid a:hover img {
+	transform: scale(1.04);
+}
+
+	/* The chronology */
+
+.timeline {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+}
+
+.timeline-item {
+	display: grid;
+	grid-template-columns: 1.5rem minmax(0, 1fr);
+	gap: .25rem .75rem;
+	padding: .7rem 0;
+	border-bottom: 1px solid var(--rule);
+	font: 400 .95rem/1.45 var(--sans);
+	color: var(--ink-2);
+}
+
+.timeline-item:last-child {
+	border-bottom: 0;
+}
+
+.timeline-icon {
+	grid-row: span 2;
+	width: 22px;
+	height: 22px;
+	object-fit: contain;
+}
+
+.timeline-date {
+	font-weight: 700;
+	color: var(--ink);
+	font-variant-numeric: tabular-nums;
+}
+
+.timeline-item:not(:has(.timeline-icon)) > * {
+	grid-column: 2;
+}
+
+	/* Links */
+
+.link-list {
+	margin: 0;
+	padding-left: 1.2rem;
+	display: grid;
+	gap: .45rem;
+}
+
+.link-host {
+	font-size: .8125rem;
+	color: var(--muted);
+}
+
+	/*
+		Cards printed one after another by an older template's own loop,
+		outside an .entry-list, still need their gap.
+	*/
+
+:not(.entry-list) > .entry-card + .entry-card {
+	margin-top: .75rem;
+}
+
+.entry-card-by {
+	font-weight: 400;
+	font-size: .95em;
+	color: var(--ink-2);
+}
+
+.entry-card-banner img {
+	width: 200px;
+	height: 50px;
+}
+
+.entry-card:has(> .entry-card-banner) {
+	grid-template-columns: minmax(0, 1fr);
+}
+
+.browse-all {
+	margin: 1.25rem 0 0;
+}
+
+	/* Passages: quotes, descriptions and openings, each linked to its entry */
+
+.passage-grid {
+	display: grid;
+	gap: 1rem 1.5rem;
+	grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
+
+.passage {
+	margin: 0;
+	display: grid;
+	gap: .5rem;
+	align-content: start;
+	padding: 1rem 1.1rem;
+	background: var(--paper);
+	border: 1px solid var(--rule);
+	border-left: 3px solid var(--accent);
+}
+
+.passage blockquote {
+	margin: 0;
+	font: 400 1rem/1.6 var(--serif);
+	color: var(--ink-2);
+	display: -webkit-box;
+	-webkit-line-clamp: 7;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.passage-quote blockquote {
+	font-style: italic;
+}
+
+.passage blockquote a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.passage blockquote a:hover {
+	color: var(--accent-ink);
+}
+
+.passage figcaption {
+	font: 500 .8125rem/1.35 var(--sans);
+	color: var(--muted);
+}
+
+.passage figcaption a {
+	color: var(--ink-2);
+	text-decoration: none;
+}
+
+.passage figcaption a:hover {
+	color: var(--accent-ink);
+	text-decoration: underline;
+}
+
+.ledger-likes li {
+	grid-template-columns: 7rem minmax(0, 1fr);
+}
+
+	/* An author card in a sidebar panel: the panel is its frame */
+
+.side .author-card {
+	padding: 0;
+	border: 0;
+	background: none;
+	grid-template-columns: minmax(0, 1fr);
+	gap: .6rem;
+}
+
+.side .author-card-image img {
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+.side .author-card-excerpt,
+.side .author-card-description {
+	font-size: .9rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.side .associations {
+	gap: 1.25rem;
+}

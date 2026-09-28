@@ -1,6 +1,16 @@
 <?php
 
 	/*
+		THE LEGACY MARKUP of module_entrychild, kept whole for the proofs.
+
+		entry-child.php extends this and prints the redesign's markup; the
+		logic and the switches below are shared.  The conversion tools in the
+		configuration repository's Development/entrychild/ set
+		module_entrychild::$legacy_markup, so every conversion is still
+		proven byte for byte against the loop it replaced.  When the last loop
+		is converted, fold what is still used into entry-child.php and delete
+		this file.
+
 		One child entry in a listing: its thumbnail, its linked title in a
 		header box, the publication year and length, the description, up to
 		three quotes or else the start of its text, and up to ten tags.
@@ -58,7 +68,7 @@
 		DisplayDetailsClose(), for a template that wraps the body.
 	*/
 
-	class module_entrychild extends module_spacing {
+	class module_entrychildlegacy extends module_spacing {
 		public $that;
 		public $child;
 		public $thumbnail;

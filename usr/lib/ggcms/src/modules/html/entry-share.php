@@ -1,83 +1,63 @@
 <?php
 
+		/*
+			The permalink and the share links.  The permalink is the entry's
+			/?id= address, which outlives any change to its path; clicking it
+			copies it, and shows it for copying by hand where the browser
+			will not.
+		*/
+
 	class module_entryshare extends module_spacing {
 		public $that;
-		
+
 		public function __construct($args) {
 			$this->that = $args['that'];
 		}
-		
-		public function DisplayPermalink() {
-			print('
-				<script type="text/javascript">
-					$(document).ready(function() {
-						function resizePermalink() {
-							dummy = document.createElement("span");
-							dummy.text = $("#permalink-value-text").val();
-							
-							$("#permalink-value-text").attr("size", dummy.length);
-						}
-						
-						resizePermalink();
 
+		public function PermalinkURL() {
+			return $this->that->handler->domain->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]) . '/?id=' . $this->that->entry['assignment'][0]['id'];
+		}
+
+		public function DisplayPermalink() {
+			print('<span class="permalink">');
+			print('<button type="button" id="permalink-button" class="action">Permalink</button>');
+			print('<span id="permalink-value" hidden>');
+			print('<input id="permalink-value-text" class="select-input-contents" type="text" readonly aria-label="Permalink" value="' . htmlspecialchars($this->PermalinkURL(), ENT_QUOTES, 'UTF-8') . '">');
+			print('</span>');
+			print('</span>');
+
+			print('
+				<script>
+					$(document).ready(function() {
 						$("#permalink-button").click(function() {
-							$("#permalink-button").hide();
-							$("#permalink-value").show();
-							resizePermalink();
-							
-							setTimeout(function (){
-								$("#permalink-value").fadeOut(2000);
-								
-								setTimeout(function (){
-									$("#permalink-button").fadeIn(2000);
-								}, 2000);
-							}, 5000);
+							var field = document.getElementById("permalink-value-text");
+							var button = this;
+
+							$("#permalink-value").prop("hidden", false);
+							field.select();
+
+							if(navigator.clipboard && navigator.clipboard.writeText) {
+								navigator.clipboard.writeText(field.value).then(function() {
+									button.textContent = "Copied";
+									setTimeout(function() { button.textContent = "Permalink"; }, 2500);
+								}, function() {});
+							}
 						});
 					});
 				</script>
 			');
-		
-			print('<div style="margin-right:5px;white-space:nowrap;display: inline-block" class="border-2px background-color-gray15 float-right">');
-			print('<span class="comments-link-box" style="font-family:arial, tahoma;margin:3px;padding:0px;display:inline-block;">');
-			print('<strong>');
-			
-			print('<span id="permalink-button" style="cursor:pointer;color:blue;text-decoration:underline;">');
-			print('Permalink');
-			print('</span>');
-			
-			print('</strong>');
-			
-			print('<span id="permalink-value" style="display:none;">');
-			print('<input id="permalink-value-text" style="height:18px;" class="select-input-contents" type="text" size="30" value="');
-			print($this->that->handler->domain->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]));
-			print('/?id=');
-			print($this->that->entry['assignment'][0]['id']);
-			print('">');
-			print('</span>');
-			print('</span>');
-			print('</div>');
-			
+
 			return TRUE;
 		}
-		
+
 		public function DisplaySmall() {
-			print('<div style="margin-right:5px;white-space:nowrap;display: inline-block" class="border-2px background-color-gray15 float-right">');
-			print('<span class="comments-link-box" style="font-family:arial, tahoma;margin:3px;padding:0px;display:inline-block;">');
-			
-						// Display Social Media
-						// -------------------------------------------------------
-			
 			$acceptable = [
 				'facebook'=>TRUE,
 				'google.bookmarks'=>TRUE,
 				'reddit'=>TRUE,
 				'twitter'=>TRUE,
 			];
-			
-			$current_language_code = $this->that->handler->language->getLanguageCode();
-			
-				#TODO: Clean up this trash.
-				
+
 			$social_media_share_links_args = [
 				'handler'=>$this->that->handler,
 				'globals'=>$this->that->globals,
@@ -86,243 +66,83 @@
 				'domainobject'=>$this->that->handler->domain,
 				'socialmedia'=>$this->that->social_media,
 				'sharewithtext'=>$this->that->share_with_text,
-				'url'=>$this->that->handler->domain->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]) . '/?id=' . $this->that->entry['assignment'][0]['id'],
+				'url'=>$this->PermalinkURL(),
 				'title'=>$this->that->header_title_text,
-				'desc'=>$instructions_content_text,
+				'desc'=>'',
 				'provider'=>$this->that->handler->domain->primary_domain_lowercased,
 			];
 			$social_media_share_links = $this->that->social_media->GetSocialMediaSiteLinks_WithShareLinks($social_media_share_links_args);
 			$social_media_nice_names = $this->that->social_media->GetSocialMediaSites_NiceNames();
-			
+
+			print('<span class="share-small">');
+
 			foreach($this->that->social_media->GetSocialMediaSites_WithShareLinks_OrderedByPopularity() as $social_media_code) {
-							// Gather Data
-							// -------------------------------------------------------
 				if($acceptable[$social_media_code]) {
-					$social_media_share_link = $social_media_share_links[$social_media_code];
-					$social_media_nice_name = $social_media_nice_names[$social_media_code];
-					
-								// Start Div
-								// -------------------------------------------------------
-					
-					
-					print('<div class="float-left margin-0px" title="' . $this->that->share_with_text . ' ' . $social_media_nice_name . '">');
-					
-								// Display Language Option
-								// -------------------------------------------------------
-					
-					print('<div class="font-family-tahoma margin-0px">');
-					print('<a href="' . $social_media_share_link . '" target="_blank" rel="nofollow">');
-					
-					if($this->that->text_only) {
-						print('Share on ' . $social_media_nice_name);
-					} else {
-						print('<img height="19" src="' . $this->that->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/image/social-media-logo-icons-opaque-background/' . $social_media_code . '.png" class="web-icons-image-div-source">');
-					}
-					
-					print('</a>');
-					print('</div>');
-					#print($native_language_key . "|" . $native_language_name . "|" . $language_flag_filename . "<BR><BR>");
-					
-								// End Div
-								// -------------------------------------------------------
-					
-					print('</div>');
+					$this->DisplayShareLink([
+						'url'=>$social_media_share_links[$social_media_code],
+						'code'=>$social_media_code,
+						'name'=>$social_media_nice_names[$social_media_code],
+					]);
 				}
 			}
-			
+
 			print('</span>');
-			print('</div>');
-		}
-		
-		public function Display() {
-						// Share Links Header
-					
-					// -------------------------------------------------------------
-					
-			print('<a name="share"></a>');
-			
-			print('<center>');
-			print('<div class="horizontal-center width-95percent">');
-			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-			print('<h2 class="horizontal-left margin-5px font-family-arial">');
-			print('Share');
-			print('</h2>');
-			print('</div>');
-			print('</div>');
-			print('</center>');
-				
-						// Finish Share Links Header
-					
-					// -------------------------------------------------------------
-										
-			print('<div class="clear-float"></div>');
-				
-						// Start Display Share Options
-					
-					// -------------------------------------------------------------
-			
-			print('<center>');
-			print('<div class="border-2px background-color-gray13 margin-5px horizontal-center width-90percent">');
-			print('<div class="border-2px background-color-gray15 margin-5px horizontal-left font-family-arial">');
-			print('<div class="margin-5px horizontal-left font-family-arial">');
-			
-						// Display "Share" Text
-					
-					// -------------------------------------------------------------
-			
-			print('<div class="float-left border-2px margin-5px background-color-gray13">');
-			print('<div class="margin-5px">');
-			print('<strong>Permalink for Sharing :</strong>');
-			print('</div>');
-			print('</div>');
-				
-						// Finish "Share" Text
-					
-					// -------------------------------------------------------------
-										
-			print('<div class="clear-float"></div>');
-				
-						// Display Permalink
-					
-					// -------------------------------------------------------------
-			
-			print('<center>');
-			print('<div class="margin-5px horizontal-center width-90percent">');
-			print('<div class="margin-5px border-2px background-color-gray13 float-left">');
-			print('<div class="margin-5px horizontal-left font-family-arial float-left">');
-			print('<input class="select-input-contents" type="text" size="100" value="');
-			print($this->that->handler->domain->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]));
-			print('/?id=');
-			print($this->that->entry['assignment'][0]['id']);
-			print('">');
-			print('</div>');
-			print('</div>');
-			print('<div class="clear-float"></div>');
-			print('</div>');
-			print('</center>');
-			
-						// Display Social Networking Options
-					
-					// -------------------------------------------------------------
-			
-			$this->hard_display();
-			
-						// End Display Share Options
-					
-					// -------------------------------------------------------------
-					
-			print('</div>');
-			print('</div>');
-			print('</div>');
-			print('</center>');
-			
+
 			return TRUE;
 		}
-		
-		public function hard_display() {
-						// Start Div
-						// -------------------------------------------------------
-			
-			print('<script src="/javascript/web-icons.js"></script>');
-			
-			print('
-<STYLE>
-	.web-icons-image-div {
-		float:left;
-		position:relative;
-		cursor:pointer;
-	}
-	
-	.web-icons-image-div-source {
-		z-index:100;
-		position:relative;
-	}
-</STYLE>');
-			
-			
-			if($this->that->share_text) {
-				print("<div 'class'='width-90percent horizontal-center margin-top-14px border-1px'>");
-				print("<div 'class'='display-inline-block'>");
-				
-						// Display "Share" Text
-						// -------------------------------------------------------
-				
-				print('<table border="0" class="padding-0px margin-0px">');
-				print('<tr valign="top">');
-				print('<td valign="top">');
-				print('<div class="font-family-tahoma font-size-150percent margin-10px border-2px background-color-gray10"><span class="margin-5px"><nobr>' . $this->that->share_text . ' :</nobr></span></div>');
-				print('</td>');
-				print('<td>');
+
+		public function DisplayShareLink($args) {
+			$name = $args['name'];
+
+			print('<a class="share-link" href="' . $args['url'] . '" target="_blank" rel="nofollow noopener" title="' . htmlentities($this->that->share_with_text . ' ' . $name) . '">');
+
+			if($this->that->text_only) {
+				print('Share on ' . $name);
+			} else {
+				print('<img alt="' . htmlentities($name) . '" width="20" height="20" src="/image/social-media-logo-icons-opaque-background/' . $args['code'] . '.png">');
 			}
-			
-						// Display Social Media
-						// -------------------------------------------------------
-			
-			$current_language_code = $this->that->handler->language->getLanguageCode();
-			
+
+			print('</a>');
+
+			return TRUE;
+		}
+
+		public function Display() {
+			print('<section class="block share" id="share">');
+			print('<h2 class="block-title">Share</h2>');
+
+			print('<p class="field">');
+			print('<label for="share-permalink">Permalink</label>');
+			print('<input id="share-permalink" class="select-input-contents" type="text" readonly value="' . htmlspecialchars($this->PermalinkURL(), ENT_QUOTES, 'UTF-8') . '">');
+			print('</p>');
+
+			$this->hard_display();
+
+			print('</section>');
+
+			return TRUE;
+		}
+
+		public function hard_display() {
+			if($this->that->share_text) {
+				print('<p class="share-label">' . $this->that->share_text . '</p>');
+			}
+
 			$social_media_share_links = $this->that->social_media->GetSocialMediaSiteLinks_WithShareLinks($this->that->social_media_share_link_args);
 			$social_media_nice_names = $this->that->social_media->GetSocialMediaSites_NiceNames();
-			
+
+			print('<div class="share-links">');
+
 			foreach($this->that->social_media->GetSocialMediaSites_WithShareLinks_OrderedByPopularity() as $social_media_code) {
-							// Gather Data
-							// -------------------------------------------------------
-							
-				$social_media_share_link = $social_media_share_links[$social_media_code];
-				$social_media_nice_name = $social_media_nice_names[$social_media_code];
-				
-							// Start Div
-							// -------------------------------------------------------
-				
-				
-				print('<div class="float-left margin-0px" title="' . $this->that->share_with_text . ' ' . $social_media_nice_name . '">');
-				
-							// Display Language Option
-							// -------------------------------------------------------
-				
-				print('<div class="font-family-tahoma margin-0px web-icons-image-div">');
-				print('<a href="' . $social_media_share_link . '" target="_blank" rel="nofollow">');
-				
-				if($this->that->text_only) {
-					print('Share on ' . $social_media_nice_name);
-				} else {
-					print('<img src="' . $this->that->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/image/social-media-logo-icons-opaque-background/' . $social_media_code . '.png" class="web-icons-image-div-source">');
-				}
-				
-				print('</a>');
-				print('</div>');
-				#print($native_language_key . "|" . $native_language_name . "|" . $language_flag_filename . "<BR><BR>");
-				
-							// End Div
-							// -------------------------------------------------------
-				
-				print('</div>');
+				$this->DisplayShareLink([
+					'url'=>$social_media_share_links[$social_media_code],
+					'code'=>$social_media_code,
+					'name'=>$social_media_nice_names[$social_media_code],
+				]);
 			}
-			
-						// Start Div
-						// -------------------------------------------------------
-			
-			print('<div class="clear-float"></div>');
-			
-						// Conclude Table
-						// -------------------------------------------------------
-			
-			if($this->that->share_text) {
-				print('</td>');
-				print('</tr>');
-				print('</table>');
-				
-							// Start Div
-							// -------------------------------------------------------
-				
-				print('<div class="clear-float"></div>');
-				
-							// End Div
-							// -------------------------------------------------------
-				
-				print('</div>');
-				print('</div>');
-			}
-			
+
+			print('</div>');
+
 			return TRUE;
 		}
 	}

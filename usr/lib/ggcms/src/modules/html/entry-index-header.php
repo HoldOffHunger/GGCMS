@@ -20,196 +20,65 @@
 			$this->record_list_count = count($this->that->record_list);
 		}
 		
+			/*
+				The head of an index page -- a site's front page, a section's
+				list -- with a paragraph of introduction and, beside it, the
+				section's figures.  sub_text is the introduction, as HTML;
+				sub2_text is the aside; sub_title is the aside's hover text.
+			*/
+
 		public function Display() {
+			print('<a id="top"></a>');
+
+			$this->DisplaySiteBar();
+
 			$images = $this->getImages();
-			$primary_image = $images['primary'];
-			$header_cluster = $images['headercluster'];
-			
-			$this->Display_OpeningBlock();
-			
-			$this->Display_LeftIcons(['primary_image'=>$primary_image]);
-			$this->Display_CenterText();
-			$this->Display_RightIcons(['header_cluster'=>$header_cluster]);
-			
-			$this->Display_ClosingBlock();
-			
-			return TRUE;
-		}
-		
-		public function Display_ClosingBlock() {
-			print('</tr></tbody></table>');
+
+			print('<div class="page-head page-head-index">');
+			print('<div class="page-head-inner">');
+
+			$this->DisplayPageHeadImage(['image'=>$images['primary']]);
+
+			print('<div class="page-head-text">');
+			$this->DisplayKicker();
+			print('<h1 class="page-title">' . $this->TitleText() . '</h1>');
+			$this->DisplayIntroduction();
 			print('</div>');
-			
-			return TRUE;
-		}
-		
-		public function Display_LeftIcons($args) {
-			$primary_image = $args['primary_image'];
-			
-			if(!$primary_image) {
-				return TRUE;
-			}
-			
-			$directory = implode('/', str_split($primary_image['FileDirectory']));
-			
-			print('<table width="100%"><tbody><tr>');
-			
-			print('<td width="1"><center><div class="float-left padding-5-px">');
-			
-			print('<div class="border-2px margin-5px background-color-gray10 ">');
-			
-	#		print('<a href="/image/' . $directory . '/' . $primary_image['FileName'] . '" target="_blank">');
-			
-			print('<a href="/">');
-			
-			print('<img style="max-width:200px;max-height:200px;" src="/image/' . $directory . '/' . $primary_image['IconFileName'] . '" ');
-			
-			if($primary_image['Title'] || $primary_image['Description']) {
-				print('title="');
-				if($primary_image['Title']) {
-					print(htmlentities($primary_image['Title']));
-					
-					if($primary_image['Description']) {
-						print(': ');
-					}
-				}
-				
-				if($primary_image['Description']) {
-					print(htmlentities($primary_image['Description']));
-				}
-				print('" ');
-			}
-			
-			print('>');
-			
-			print('</a>');	
-			
+
+			$this->DisplayPageHeadCluster(['images'=>$images['headercluster']]);
+
 			print('</div>');
-			
 			print('</div>');
-			
-			print('</center></td>');
-			
-			return TRUE;
-		}
-		
-		public function Display_CenterText_Opening() {
-			print('<td>');
-			
-			return TRUE;
-		}
-		
-		public function Display_CenterText_Closing() {
-			print('</td>');
-			
-			return TRUE;
-		}
-		
-		public function Display_CenterText_TextBlock($args) {
-			if($args['text'] === '') {
-				return FALSE;
-			}
-			print('<div style="display: inline-block;" class="span-header-1">');
-			print('<h1 style="margin:5px;padding:5px;display: inline-block;border:black 2px solid;background-color:#FFFFFF;" class="header-1 margin-0px horizontal-center vertical-center">');
-			print($args['text']);
-			print('</h1>');
-			print('</div>');
-			
+
 			return TRUE;
 		}
 
-		public function Display_CenterText_getMainText() {
-			$text = '';
-			
-			if(count($this->that->record_list) > 2) {
-				$parent = $this->that->record_list[count($this->that->record_list) - 2];
-				$text .= $parent['Title'];
-				$text .= ' &mdash; ';
+		public function TitleText() {
+			if(strlen((string) $this->main_text)) {
+				return $this->main_text;
 			}
-			
-			$text .= $this->that->entry['Title'];		#	FORMERLY -->	print($this->that->header_title_text);
-			
-			if($this->that->entry['Subtitle']) {
-				$text .= ': ';
-				$text .= $this->that->entry['Subtitle'];
-			}
-			
-			return $text;
-		}
-		
-		public function Display_CenterText_getSecondaryText() {
-			$associations = $this->that->entry['association'];
-			$author_association = $this->getAuthorAssociation(['associations'=>$associations]);
-			$author_entry = $author_association['entry'];
-			
-			$text = '';
-			
-			if($author_entry && $author_entry['id']) {		
-				$text .= 'By ' . $author_entry['Title'];
-				if($this->time_frame) {
-					$text .= ' ';
-					$text .= '(';
-					$text .= $this->time_frame;
-					$text .= ')';
-				};
-			} else {
-				if($this->time_frame) {
-					$text .= $this->time_frame;
-				};
-			}
-			
-			return $text;
-		}
-		
-		public function Display_CenterText() {
-			$this->Display_CenterText_Opening();
-			
-			$this->Display_CenterText_TextBlock(['text'=>$this->main_text]);
-						
-			print('<div class="clear-float;"></div>');
-			
-			$this->Display_CenterText_SubTextBlock(['text'=>$this->sub_text, 'title'=>$this->sub_title, 'subtitle'=>$this->sub2_text]);
 
-			print('<div class="clear-float;"></div>');
-			
-			$this->Display_CenterText_Closing();
+			return $this->that->entry['Title'];
 		}
-		
-		public function Display_CenterText_SubTextBlock($args) {
-			if($args['text'] === '') {
-				return FALSE;
+
+		public function DisplayIntroduction() {
+			if(strlen((string) $this->sub_text)) {
+				print('<div class="page-intro">' . $this->sub_text . '</div>');
 			}
-			
-			print('<center style="font-family:arial;">');
-			print('<div class="horizontal-center" style="width:90%; background-color:#fff;">');
-			print('<div class="border-2px margin-5px float-left" style="background-color:#fff;"');
-			
-			if($args['title']) {
-				print(' title="');
-				print(htmlentities($args['title']));
-				print('"');
+
+			if(strlen((string) $this->sub2_text)) {
+				print('<p class="page-aside"');
+
+				if($this->sub_title) {
+					print(' title="' . htmlentities($this->sub_title) . '"');
+				}
+
+				print('>' . $this->sub2_text . '</p>');
 			}
-			
-			print('>');
-			
-			print('<strong>');
-			
-			if($args['subtitle']) {
-				print('<h3 style="margin:5px;padding:5px;border:black 2px solid;background-color:#CCC; float:right; font-family: arial;" class="padding-0px margin-5px font-family-arial">' . $args['subtitle'] . '</h3>');
-			}
-			
-			print($args['text']);
-			
-			print('</strong>');
-			
-			print('</div>');
-			print('</div>');
-			print('</center>');
-			
-			print('<div class="clear-float"></div>');
+
 			return TRUE;
 		}
-		
+
 		public function getImages() {
 						# BT: NEW EDGE CASE: main image display on a document that only has child-documents and no textbody itself (fix, fix fix!!!! this is an in-use edge-case!)
 		

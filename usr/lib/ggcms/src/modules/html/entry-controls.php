@@ -19,59 +19,28 @@
 		
 		public function DisplayHeader_Title($args) {
 			$that = $args['that'];
-			
-		#	print("BT:");
-		#	print_r($that->record_list);
-		#	print_r(array_keys($that));
-			
-			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-			print('<h2 class="horizontal-left margin-5px font-family-arial">');
-			print('Entry ' . $that->entry['id']);
-			print('</h2>');
-			print('</div>');
-			
-			print('<div class="border-2px background-color-gray15 margin-5px float-left"');
+
+			print('<span class="admin-bar-id">Entry ' . $that->entry['id'] . '</span>');
+
 			if($that->entry['Publish']) {
-				print(' style="background-color:' . $that->handler->globals->SuccessColour() . '"');
+				print('<span class="admin-bar-status is-public">Public</span>');
 			} else {
-				print(' style="background-color:' . $that->handler->globals->FailColour() . '"');
+				print('<span class="admin-bar-status is-private">Private</span>');
 			}
-			print('>');
-			print('<h2 class="horizontal-left margin-5px font-family-arial">');
-			if($that->entry['Publish']) {
-				print('Public');
-			} else {
-				print('Private');
-			}
-			print('</h2>');
-			print('</div>');
-			
+
 			if($that->entry['entrypermission'][0]['user']['Username']){
-				print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-				print('<span style="font-size:0.90em; margin:2px;" class="horizontal-left font-family-arial">');
-				print('From: ');
-				
-				print('<a target="_parent" href="/users.php?action=viewuser&user=');
-				print(urlencode($that->entry['entrypermission'][0]['user']['Username']));
-				print('">');
-				print($that->entry['entrypermission'][0]['user']['Username']);
-				print('</a>');
-				
-				print(' [id: ');
-				print($that->entry['entrypermission'][0]['user']['id']);
-				print(']');
-				print('<br>');
-				print(' (');
-				print($that->entry['entrypermission'][0]['user']['EmailAddress']);
-				print(')');
-				
+				$user = $that->entry['entrypermission'][0]['user'];
+
+				print('<span class="admin-bar-owner">From ');
+				print('<a target="_parent" href="/users.php?action=viewuser&amp;user=' . urlencode($user['Username']) . '">' . $user['Username'] . '</a>');
+				print(' [id: ' . $user['id'] . ']');
+				print(' (' . $user['EmailAddress'] . ')');
 				print('</span>');
-				print('</div>');
 			}
-			
+
 			return TRUE;
 		}
-		
+
 		public function DisplayHeader_BreadCrumbs($args) {
 
 				/*
@@ -100,31 +69,23 @@
 			
 			$file_display = $this->getFileDisplay(['file'=>$file]);
 			
-			print('<div class="border-2px background-color-gray15 margin-5px float-right">');
-			print('<p class="horizontal-left margin-5px font-family-arial">');
-			print('<code>');
-			print($file_display);
-			print('</code>');
-			print('</p>');
-			print('</div>');
+			print('<code class="admin-bar-file">' . $file_display . '</code>');
 			
 			return TRUE;
 		}
 		
 		public function DisplayHeader_Start() {
-			print('<center>');
-			print('<div class="horizontal-center width-90percent">');
-			
+			print('<div class="admin-bar-head">');
+
 			return TRUE;
 		}
-		
+
 		public function DisplayHeader_End() {
 			print('</div>');
-			print('</center>');
-			
+
 			return TRUE;
 		}
-		
+
 		public function Display_Header($args) {
 			$this->DisplayHeader_Start();
 			
@@ -137,93 +98,54 @@
 		}
 		
 		public function Display_Links_Edit($args) {
-			print('<div class="margin-top-5px" style="float:left;margin-left:50px;">');
-			
-			print('<div class="float-left margin-5px border-2px background-color-gray13">');
-			print('<p class="font-family-arial margin-5px">');
-			print('<a target="_parent" href="modify.php?action=Edit">EDIT</a>');
-			print('</p>');
-			print('</div>');
-			
-			print('<div class="float-left margin-5px border-2px background-color-gray13">');
-			print('<p class="font-family-arial margin-5px">');
-			print('<a target="_parent" href="modify.php?action=Add">ADD</a>');
-			print('</p>');
-			print('</div>');
-			
-			print('<div class="float-left margin-5px border-2px background-color-gray13">');
-			print('<p class="font-family-arial margin-5px">');
-			print('<a target="_parent" href="transfer.php">TRANSFER</a>');
-			print('</p>');
-			print('</div>');
-			
-			print('<div class="float-left margin-5px border-2px background-color-gray13">');
-			print('<p class="font-family-arial margin-5px">');
-			print('<a target="_parent" href="chapterify.php">CHAPTERIFY</a>');
-			print('</p>');
-			print('</div>');
-			
-			print('</div>');
-			
+			print('<nav class="admin-bar-links" aria-label="Edit">');
+			print('<a target="_parent" href="modify.php?action=Edit">Edit</a>');
+			print('<a target="_parent" href="modify.php?action=Add">Add</a>');
+			print('<a target="_parent" href="transfer.php">Transfer</a>');
+			print('<a target="_parent" href="chapterify.php">Chapterify</a>');
+			print('</nav>');
+
 			return TRUE;
 		}
-		
+
 		public function Display_Links_View($args) {
-			print('<div class="margin-top-5px" style="float:right;margin-right:50px;">');
-			
-			print('<div class="float-left margin-5px border-2px background-color-gray13">');
-			print('<p class="font-family-arial margin-5px">');
-			print('<a target="_parent" href="/">HOME</a>');
-			print('</p>');
-			print('</div>');
-			
-			print('<div class="float-left margin-5px border-2px background-color-gray13">');
-			print('<p class="font-family-arial margin-5px">');
-			print('<a target="_parent" href="view.php">VIEW</a>');
-			print('</p>');
-			print('</div>');
-			
-			print('<div class="float-left margin-5px border-2px background-color-gray13">');
-			print('<p class="font-family-arial margin-5px">');
-			print('<a target="_parent" href="view.php?action=index">INDEX</a>');
-			print('</p>');
-			print('</div>');
-			
-			print('</div>');
-			
+			print('<nav class="admin-bar-links" aria-label="View">');
+			print('<a target="_parent" href="/">Home</a>');
+			print('<a target="_parent" href="view.php">View</a>');
+			print('<a target="_parent" href="view.php?action=index">Index</a>');
+			print('</nav>');
+
 			return TRUE;
 		}
-		
+
 		public function Display_Links($args) {
 			$this->Display_Links_Edit($args);
 			$this->Display_Links_View($args);
-			
-			
+
 			return TRUE;
 		}
-		
+
+			/*
+				Administrators only -- every caller checks.  A slim bar above
+				the page, apart from what readers see.
+			*/
+
 		public function Display_Start($args) {
-			print('<div class="horizontal-center width-95percent margin-top-5px border-2px">');
-			
+			print('<div class="admin-bar">');
+
 			return TRUE;
 		}
-		
+
 		public function Display_End($args) {
-			print('<div class="clear-float">');
 			print('</div>');
-			
-			print('</div>');
-			
+
 			return TRUE;
 		}
-		
+
 		public function Display_Separator($args) {
-			print('<div class="clear-float">');
-			print('</div>');
-			
 			return TRUE;
 		}
-		
+
 		public function getFileDisplay($args) {
 			$file = $args['file'];
 			
@@ -263,27 +185,16 @@
 		
 		public function showNotPublishedNote($args) {
 			$that = $args['that'];
-			
+
 			if($that->entry['Publish'] === 1 || $that->isUserAdmin()) {
 				return FALSE;
 			}
-			
-			print('<div style="width:50%;" class="horizontal-center">');
-			print('<div style="text-align:left;" class="font-family-arial width-100percent background-color-gray14 border-2px margin-top-5px">');
-			
-			print('<div style="float:left;border:2px solid black;background-color:' . $that->handler->globals->FailColour() . '; margin:3px;">');
-			print('<h3 style="font-size:2em;margin:0px;margin:3px;">');
-			print('<i>');
-			print('Unpublished!');
-			print('</i>');
-			print('</h3>');
+
+			print('<div class="notice notice-warning">');
+			print('<p><strong>Not yet published.</strong> Only you, its author, can see this page.</p>');
+			print('<p>To add chapters or other records, use <a target="_parent" href="modify.php?action=Add">Add</a>; to change it, <a target="_parent" href="modify.php?action=Edit">Edit</a>. All your pending submissions are on your <a target="_parent" href="/user-panel.php">user panel</a>.</p>');
 			print('</div>');
-			
-			print('<p style="margin:2px;">This work is not yet published yet!  Only you, the creator, are able to view it.  If you would like to add chapters or other records, please use the <a target="_parent" href="modify.php?action=Add">Add Link</a>; if you would like to edit your edit, use the <a target="_parent" href="modify.php?action=Edit">Edit Link</a>.  To view all of your current, pending, unpublished submissions, please use the <a target="_parent" href="/user-panel.php">User Panel</a>.</p>');
-			
-			print('</div>');
-			print('</div>');
-			
+
 			return TRUE;
 		}
 	}

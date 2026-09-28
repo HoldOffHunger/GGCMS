@@ -1,36 +1,40 @@
 <?php
 
+		/*
+			A section's newest entries, as cards, with a way to the whole
+			list after them.  The date an entry was catalogued leads its
+			card; then its year, title and author, a passage, and its tags.
+		*/
+
 	class module_indexnew extends module_spacing {
 		public $that;
 		public $entrysort;
 		public $header_text;
-		
+
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->entrysort = $args['entrysort'];
-			
+
 			if(array_key_exists('header_text', $args)) {
 				$this->header_text = $args['header_text'];
 			} else {
 				$this->header_text = 'Newest Additions';
 			}
 		}
-		
+
 		public function Display() {
+			print('<section class="block index-new children" aria-labelledby="index-new-title">');
+
 			$this->Display_Header();
-						
-			print('<div class="clear-float"></div>');
-			
-			print('<div class="horizontal-center width-90percent">');
-			
+
+			print('<div class="entry-list">');
 			$this->Display_Children();
-			
-			$this->Display_BrowseLink();
-			
 			print('</div>');
-			
-			return TRUE;
-			
+
+			$this->Display_BrowseLink();
+
+			print('</section>');
+
 			return TRUE;
 		}
 
@@ -40,361 +44,229 @@
 					'child'=>$child,
 				]);
 			}
-			
+
 			return TRUE;
 		}
-		
+
+		public function ChildURL($args) {
+			$url = $args['child']['Code'] . '/view.php';
+
+			if($this->that->entry['ChildAction']) {
+				$url .= '?action=' . $this->that->entry['ChildAction'];
+			}
+
+			return $url;
+		}
+
 		public function Display_displayImage($args) {
 			$child = $args['child'];
-			
+
 			$display_image = $this->Display_getImage([
 				'child'=>$child,
 			]);
-			
+
 			if($display_image) {
-				print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-				print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-				print('<div class="height-100px width-100px background-color-gray0">');
-				print('<div class="vertical-specialcenter">');
-				print('<a href="' . $child['Code'] . '/view.php');
-
-				if($this->that->entry['ChildAction']) {
-					print('?action=' . $this->that->entry['ChildAction']);
-				}
-
-				print('">');
-				print('<img width="');
-				print(ceil($display_image['IconPixelWidth'] / 2));
-				print('" height="');
-				print(ceil($display_image['IconPixelHeight'] / 2));
-				print('" src="');
-				print($this->that->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]));
-				print('/image/');
-				print(implode('/', str_split($display_image['FileDirectory'])));
-				print('/');
-				print($display_image['IconFileName']);
-				print('">');
+				print('<a class="entry-card-image" href="' . $this->ChildURL(['child'=>$child]) . '" tabindex="-1" aria-hidden="true">');
+				print('<img alt="" loading="lazy" width="' . ceil($display_image['IconPixelWidth'] / 2) . '" height="' . ceil($display_image['IconPixelHeight'] / 2) . '" src="/image/' . implode('/', str_split($display_image['FileDirectory'])) . '/' . $display_image['IconFileName'] . '">');
 				print('</a>');
-				print('</div>');
-				print('</div>');
-				print('</div>');
-				print('</div>');
 			}
-			
+
 			return TRUE;
 		}
 
 		public function Display_Child($args) {
 			$child = $args['child'];
-			
-			print('<div class="horizontal-center width-100percent background-color-gray14 border-2px margin-top-5px">');
-			
+			$url = $this->ChildURL(['child'=>$child]);
+			$author = $child['association'][0]['entry'] ?? NULL;
+
+			print('<article class="entry-card">');
+
 			$this->Display_displayImage([
 				'child'=>$child,
 			]);
-			
-			$child_title = '<a href="' . $child['Code'] . '/view.php';
 
-			if($this->that->entry['ChildAction']) {
-				$child_title .= '?action=' . $this->that->entry['ChildAction'];
-			}
-			
-			$child_title .= '">';
-			
+			print('<div class="entry-card-body">');
+
+			$meta = [];
+
 			$creation_date = explode(' ', $child['OriginalCreationDate'])[0];
-			
-			$child_title .= date("M d, Y", strtotime($creation_date));
-			$child_title .= '</a>';
-			
-			$div_mouseover = '';
-			
-			if($child['textbody']) {
-				$text_bodies = $child['textbody'];
-				
-				$text_body_count = count($text_bodies);
-				if($text_body_count) {
-					$first_textbody = $text_bodies[0];
-					
-					$div_mouseover .= number_format($first_textbody['WordCount']) . ' Words / ' . number_format($first_textbody['CharacterCount']) . ' Characters';
-				}
-			} else {
-				$grand_children = $child['children'];
-				
-				if($grand_children && is_array($grand_children)) {
-					$grand_children_count = count($grand_children);
-					
-					if($grand_children_count) {
-						$grand_child_display = $this->entrysort->Sort(['entries'=>$grand_children]);
-						
-						$grand_child = NULL;
-						foreach($grand_child_display as $single_grand_child) {
-							if(!$grand_child) {
-								$full_grand_child = $single_grand_child;
-								$grand_child = $single_grand_child['textbody'][0];
-							}
-						}
-						
-						$div_mouseover .= $full_grand_child['Title'] . ' : ' . number_format($grand_child['WordCount']) . ' Words / ' . number_format($grand_child['CharacterCount']) . ' Characters';
+			$meta[] = '<time class="entry-card-date" datetime="' . $creation_date . '">Catalogued ' . date("j M Y", strtotime($creation_date)) . '</time>';
+
+			$time_frame = $this->PublicationYear(['child'=>$child]);
+
+			if($time_frame) {
+				$meta[] = $time_frame;
+			}
+
+			$words = $this->WordCount(['child'=>$child]);
+
+			if($words) {
+				$meta[] = number_format($words) . ' words';
+			}
+
+			print('<h3 class="entry-card-title"><a href="' . $url . '">');
+			print($child['Title']);
+
+			if($child['Subtitle']) {
+				print('<span class="entry-card-subtitle">: ' . $child['Subtitle'] . '</span>');
+			}
+
+			print('</a>');
+
+			if(!empty($author['Title'])) {
+				print('<span class="entry-card-by">, by <a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . '">' . $author['Title'] . '</a></span>');
+			}
+
+			print('</h3>');
+
+			print('<p class="entry-card-meta">' . implode('<span class="dot" aria-hidden="true"> &middot; </span>', $meta) . '</p>');
+
+			print('<p class="entry-card-excerpt">');
+			$this->Display_Passage(['child'=>$child]);
+			print('</p>');
+
+			$this->Display_Tags(['child'=>$child]);
+
+			print('</div>');
+			print('</article>');
+
+			return TRUE;
+		}
+
+		public function PublicationYear($args) {
+			$child = $args['child'];
+
+			if(!$child['eventdate']) {
+				return '';
+			}
+
+			foreach($child['eventdate'] as $child_event) {
+				if($child_event['Title'] == 'Publication') {
+					if($child_event['EventDateTime'] != '0000-00-00 00:00:00') {
+						return explode('-', $child_event['EventDateTime'])[0];
 					}
+
+					return '';
 				}
 			}
 
-			
-			print('<div id="header_backgroundimageurl" class="border-2px background-color-gray15 margin-5px float-left" title="' . $div_mouseover . '">');
-	
-			print('<div class="span-header-3"><h3 style="margin:5px;padding:5px;display: inline-block;border:black 2px solid;background-color:#FFFFFF;" class="header-3 padding-0px margin-5px horizontal-left font-family-tahoma">' . $child_title . '</h3></div>');
-	
-			print('</div>');
-			
-			
-			print('<p class="horizontal-left margin-5px font-family-arial">');
-			
-			$time_frame = '';
-			
-			if($child['eventdate']) {
-				$child_event_count = count($child['eventdate']);
-				for($i = 0; $i < $child_event_count; $i++) {
-					$child_event = $child['eventdate'][$i];
-						
-					if($child_event['Title'] == 'Publication') {
-						$publication_event = $child_event;
-					}
-					
-					if($publication_event) {
-						$i = $child_event_count;
-					}
-				}
-				
-				if($publication_event) {
-					if($publication_event['EventDateTime'] != '0000-00-00 00:00:00') {
-						$event_date_pieces = explode('-', $publication_event['EventDateTime']);
-						$year = $event_date_pieces[0];
-						$time_frame .= $year;
-					} else {
-						$time_frame .= '?';
-					}
-					
-					unset($publication_event);
-				}
+			return '';
+		}
+
+		public function WordCount($args) {
+			$child = $args['child'];
+
+			if($child['textbody'] && count($child['textbody'])) {
+				return (int) $child['textbody'][0]['WordCount'];
 			}
-			
-			if($time_frame) {
-				print($time_frame);
+
+			return 0;
+		}
+
+		public function Display_Passage($args) {
+			$child = $args['child'];
+
+			if($child['description'] && $child['description'][0] && $child['description'][0]['Description']) {
+				print('<em>' . $child['description'][0]['Description'] . '</em> ');
 			}
-			
-			if($child['Title'] || $child['Subtitle'] || $child['association'][0]['entry']['Title']) {
-				if($time_frame) {
-					print(' ~ ');
-				}
-				
-				print('<strong>');
-				print('<a href="' . $child['Code'] . '/view.php');
-				
-				if($this->that->entry['ChildAction']) {
-					print('?action=' . $this->that->entry['ChildAction']);
-				}
-				
-				print('">');
-				
-				if($child['Title']) {
-					print($child['Title']);
-				}
-				if($child['Title'] && $child['Subtitle']) {
-					print(' : ');
-				}
-				if($child['Subtitle']) {
-					print($child['Subtitle']);
-				}
-				print('</a>');
-				print(' ');
-				
-				if($child['association'][0]['entry']['Title']) {
-					print(', by ');
-					print('<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$child['association'][0]['entry']['Code']]) . '">');
-					print($child['association'][0]['entry']['Title']);
-					print('</a> ');
-				}
-				print('</strong>');
-			}
-			
-			if($child['description']) {
-				$description = $child['description'][0];
-				
-				if($description && $description['Description']) {
-					print('<em>');
-					if($time_frame || $child['Subtitle']) {
-						print(' : ');
-					}
-					
-					print($description['Description']);
-					print(' ');
-					print('</em>');
-					
-					if($description['Source']) {
-						$source = $description['Source'];
-						
-						if(strlen($source) > 50) {
-							$source = substr($source, 0, 50) . '...';
-						}
-						
-						print(' (From : ' . $source . '.)');
-					}
-				}
-			}
-			
+
 			if($child['quote']) {
 				$child_quotes = $child['quote'];
-				$child_quotes_count = count($child_quotes);
-				$max_limit = $child_quotes_count;
-				if($max_limit > 3) {
-					$max_limit = 3;
-				}
 				shuffle($child_quotes);
+				$max_limit = min(3, count($child_quotes));
+
 				for($i = 0; $i < $max_limit; $i++) {
 					$quote = $child_quotes[$i];
+
 					if($quote && $quote['Quote']) {
-						print(' <br>&bull; ');
-						print('"');
-						print(str_replace('"', '\'', $quote['Quote']));
-						print('"');
-						
-						if($quote['Source']) {
-							$source = $quote['Source'];
-							
-							if(strlen($source) > 50) {
-								$source = substr($source, 0, 50) . '...';
-							}
-							
-							print(' (From : ' . $source . '.)');
-						}
+						print('<span class="entry-card-quote">&ldquo;' . str_replace('"', '\'', $quote['Quote']) . '&rdquo;</span> ');
 					}
 				}
-			} else {
-				$printed = 0;
-				if($child['textbody']) {
-					$text_bodies = $child['textbody'];
-					
-					$text_body_count = count($text_bodies);
-					if($text_body_count) {
-						$text_display = $this->that->cleanser_object->FormatListOutput([
-							'text'=>$text_bodies[0]['FirstThousandCharacters'],
-						]);
-						
-						if($text_display) {
-							$printed = 1;
-							print('<br>');
-							print($text_display);
-							
-							if($text_bodies[0]['Source']) {
-								$source = $text_bodies[0]['Source'];
-								
-								if(strlen($source) > 50) {
-									$source = substr($source, 0, 50) . '...';
-								}
-								
-								print(' (From : ' . $source . '.)');
-							}
-						}
+
+				return TRUE;
+			}
+
+			if($child['textbody'] && count($child['textbody'])) {
+				$text_display = $this->that->cleanser_object->FormatListOutput([
+					'text'=>$child['textbody'][0]['FirstThousandCharacters'],
+				]);
+
+				if($text_display) {
+					print($text_display);
+
+					if($child['textbody'][0]['Source']) {
+						print(' <span class="source">(' . $this->ShortSource(['source'=>$child['textbody'][0]['Source']]) . ')</span>');
 					}
-				}
-				
-				if(!$printed) {
-					$grand_children = $child['children'];
-					
-					if($grand_children && is_array($grand_children)) {
-						$grand_children_count = count($grand_children);
-						
-						if($grand_children_count) {
-							$grand_child_display = $this->entrysort->Sort(['entries'=>$grand_children]);
-							
-							$grand_child = NULL;
-							foreach($grand_child_display as $single_grand_child) {
-								if(!$grand_child) {
-									$grand_child = $single_grand_child['textbody'][0];
-								}
-							}
-							$text_display = $this->that->cleanser_object->FormatListOutput([
-								'text'=>$grand_child['FirstThousandCharacters'],
-							]);
-							print($text_display);
-						}
-					}
+
+					return TRUE;
 				}
 			}
-			
-			print('</p>');
-			
-					// Finish Float
-				
-				// -------------------------------------------------------------
-									
-			print('<div class="clear-float"></div>');
-			
-					// Tags
-				
-				// -------------------------------------------------------------
-			
-			if($child['tag']){
-				$tag_count = count($child['tag']);
-				
-				if($tag_count) {
-					$tags = $child['tag'];
-					$max_limit = $tag_count;
-					if($max_limit > 10) {
-						$max_limit = 10;
+
+			$grand_children = $child['children'];
+
+			if($grand_children && is_array($grand_children) && count($grand_children)) {
+				$grand_child = NULL;
+
+				foreach($this->entrysort->Sort(['entries'=>$grand_children]) as $single_grand_child) {
+					if(!$grand_child) {
+						$grand_child = $single_grand_child['textbody'][0];
 					}
-					shuffle($tags);
-					
-					for($i = 0; $i < $max_limit; $i++) {
-						$tag = $tags[$i];
-						print('<div class="border-2px background-color-gray15 margin-left-5px margin-bottom-5px float-left">');
-						print('<span class="horizontal-left margin-5px font-family-arial">');
-						print('<a href="/view.php?action=browseByTag&tag=' . urlencode($tag['Tag']) . '">');
-						print($tag['Tag']);
-					
-						print(' (');
-						print(number_format($this->that->tag_counts[$tag['Tag']]));
-						print(')');
-						
-						print('</a>');
-						print('</span>');
-						print('</div>');
-					}
-					
-							// Finish Float
-						
-						// -------------------------------------------------------------
-											
-					print('<div class="clear-float"></div>');
 				}
+
+				print($this->that->cleanser_object->FormatListOutput([
+					'text'=>$grand_child['FirstThousandCharacters'],
+				]));
 			}
-			
-			print('</div>');
-			
+
 			return TRUE;
 		}
-		
+
+		public function ShortSource($args) {
+			$source = trim(strip_tags((string) $args['source']));
+
+			return strlen($source) > 50 ? substr($source, 0, 50) . '...' : $source;
+		}
+
+		public function Display_Tags($args) {
+			$child = $args['child'];
+
+			if(!$child['tag'] || !count($child['tag'])) {
+				return FALSE;
+			}
+
+			$tags = $child['tag'];
+			shuffle($tags);
+			$max_limit = min(10, count($tags));
+
+			print('<ul class="chips chips-small">');
+
+			for($i = 0; $i < $max_limit; $i++) {
+				$tag = $tags[$i];
+				$count = (int) $this->that->tag_counts[$tag['Tag']];
+
+				print('<li><a href="/view.php?action=browseByTag&amp;tag=' . urlencode($tag['Tag']) . '">' . $tag['Tag']);
+
+				if($count > 1) {
+					print(' <span class="chip-count">' . number_format($count) . '</span>');
+				}
+
+				print('</a></li>');
+			}
+
+			print('</ul>');
+
+			return TRUE;
+		}
+
 		public function Display_Header() {
-			print('<center>');
-			print('<div class="horizontal-center width-95percent">');
-			print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-			print('<h2 class="horizontal-left margin-5px font-family-arial font-size-250percent">');
-			print('<strong>');
-			
-			print($this->header_text);
-			
-			print('</strong>');
-			print('</h2>');
-			print('</div>');
-			print('</div>');
-			print('</center>');
-			
+			print('<h2 class="block-title" id="index-new-title">' . $this->header_text . '</h2>');
+
 			return TRUE;
 		}
-		
+
 		public function Display_getImage($args) {
 			$child = $args['child'];
-			
+
 			if($child['image']) {
 				$child_images = $child['image'];
 				$child_image_count = count($child_images);
@@ -402,18 +274,18 @@
 					shuffle($child_images);
 					$child_image = $child_images[0];
 					$display_image = $child_image;
-					
+
 					return $display_image;
 				}
 			}
-			
+
 			if(!empty($this->that->master_record['image'][0])) {
 				return $this->that->master_record['image'][0];
 			}
-			
+
 			return NULL;
 		}
-		
+
 		public function Display_BrowseLink() {
 			$count = count($this->that->record_list);
 			if($count !== 0 && array_key_exists($count-2, $this->that->record_list)) {
@@ -424,30 +296,13 @@
 				$adjective = $this->that->entry['ChildAdjective'];
 				$noun_plural = $this->that->entry['ChildNounPlural'];
 			}
-		
-			print('<div class="horizontal-center width-50percent">');
-			print('<div class="horizontal-center width-100percent background-color-gray14 border-2px margin-top-5px">');
-			print('<h3 class="margin-5px">');
-			print('<a href="view.php?action=browse">');
-			print('<span class="font-family-tahoma">');
-			print('Browse the Complete Selection of ');
-			print($this->that->children_count);
-			print(' ');
-			print($adjective);
-			print(' ');
-			print($noun_plural);
-			print('</span>');
+
+			print('<p class="browse-all">');
+			print('<a class="btn btn-line" href="view.php?action=browse">');
+			print('Browse all ' . number_format((int) $this->that->children_count) . ' ' . strtolower(trim($adjective . ' ' . $noun_plural)) . ' &rarr;');
 			print('</a>');
-			print('</h3>');
-			print('</div>');
-			print('</div>');
-			
-			
-	#		print("<PRE>");
-	#		$count = count($this->that->record_list);
-	#		print_r($this->that->record_list[$count-1]);
-	#		print("</PRE>");
-			
+			print('</p>');
+
 			return TRUE;
 		}
 	}

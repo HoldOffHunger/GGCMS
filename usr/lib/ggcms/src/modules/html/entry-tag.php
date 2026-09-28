@@ -2,95 +2,54 @@
 
 	class module_entrytag extends module_spacing {
 		public $that;
-		
+
 		public function __construct($args) {
 			$this->that = $args['that'];
 		}
-		
+
 		public function BackToTopLinkBox() {
-			print('<div style="margin-right:50px;white-space:nowrap;display: inline-block" class="border-2px background-color-gray13 float-right">');
-			print('<span class="comments-link-box" style="font-family:arial, tahoma;margin:3px;padding:0px;display:inline-block;">');
-			print('<strong>');
-			
-			print('<a href="#top">');
-			print('<nobr>');
-			print('Back to Top');
-			print('</nobr>');
-			print('</a>');
-			
-			print('</strong>');
-			print('</span>');
-			print('</div>');
-			
+			print('<a class="to-top" href="#top">Back to top</a>');
+
 			return TRUE;
 		}
-		
+
+			/*
+				The entry's tags, each with how many entries on the site share
+				it -- a count of 1 says nothing, so it is left off.
+			*/
+
 		public function Display($args) {
-			if($this->that->entry['tag'] && $this->that->counts['tag']) {
-						// Description Header
-					
-					// -------------------------------------------------------------
-					
-				print('<a name="tag"></a>');
-				
-				print('<center>');
-				print('<div class="horizontal-center width-95percent">');
-				print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-				print('<h2 class="horizontal-left margin-5px font-family-arial">');
-				print('Tags');
-				print('</h2>');
-				print('</div>');
-				print('</div>');
-				print('</center>');
-				
-				$this->BackToTopLinkBox();
-				
-						// Finish Description Header
-					
-					// -------------------------------------------------------------
-										
-				print('<div class="clear-float"></div>');
-				
-						// Show Tags
-					
-					// -------------------------------------------------------------
-				
-				print('<center>');
-				print('<div class="border-2px background-color-gray13 margin-5px horizontal-center width-90percent">');
-				print('<div class="border-2px background-color-gray15 margin-5px horizontal-left">');
-				
-				$tags = $this->that->entry['tag'];
-				
-				$max_limit = $this->that->counts['tag'];
-				
-				shuffle($tags);
-				
-				for($i = 0; $i < $max_limit; $i++) {
-					$tag = $tags[$i];
-					print('<div class="border-2px background-color-gray13 margin-left-5px margin-top-5px margin-bottom-5px float-left">');
-					print('<span class="horizontal-left margin-5px font-family-arial">');
-					print('<a href="/view.php?action=browseByTag&tag=' . urlencode($tag['Tag']) . '">');
-					print($tag['Tag']);
-					
-					print(' (');
-					print(number_format($this->that->tag_counts[$tag['Tag']]));
-					print(')');
-					
-					print('</a>');
-					print('</span>');
-					print('</div>');
-				}
-						// Finish Float
-					
-					// -------------------------------------------------------------
-										
-				print('<div class="clear-float"></div>');
-				
-				print('</div>');
-				print('</div>');
-				print('</center>');
+			if(!$this->that->entry['tag'] || !$this->that->counts['tag']) {
+				return TRUE;
 			}
-			
+
+			print('<section class="block tags" id="tag">');
+			print('<h2 class="block-title">Tags</h2>');
+			print('<ul class="chips">');
+
+			$tags = $this->that->entry['tag'];
+
+			$max_limit = $this->that->counts['tag'];
+
+			shuffle($tags);
+
+			for($i = 0; $i < $max_limit; $i++) {
+				$tag = $tags[$i];
+				$count = (int) $this->that->tag_counts[$tag['Tag']];
+
+				print('<li><a href="/view.php?action=browseByTag&amp;tag=' . urlencode($tag['Tag']) . '">');
+				print($tag['Tag']);
+
+				if($count > 1) {
+					print(' <span class="chip-count">' . number_format($count) . '</span>');
+				}
+
+				print('</a></li>');
+			}
+
+			print('</ul>');
+			print('</section>');
+
 			return TRUE;
 		}
 	}

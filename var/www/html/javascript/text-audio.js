@@ -113,7 +113,7 @@ $(document).ready(function(e) {
 		if(paused) {
 			lastpause = Date.now();
 			window.speechSynthesis.resume();
-			$(this).html('<img width="20" src="/image/media-controls/pause.png" style="margin-right:5px;">Pause');
+			$(this).text('Pause');
 			
 			myTimeout = setTimeout(myTimer, 10000);	// without this, the speaking stops after 30 seconds, wtf?
 			utterance.onend = function() {clearTimeout(myTimeout); }
@@ -146,7 +146,7 @@ $(document).ready(function(e) {
 			
 			
 			$('#start-on').val(currentword);*/
-			$(this).html('<img width="20" src="/image/media-controls/pause.png" style="margin-right:5px;">Unpause');
+			$(this).text('Resume');
 		}
 		
 		//$('#start-on')
@@ -175,8 +175,8 @@ $(document).ready(function(e) {
 		window.speechSynthesis.cancel();	// clean the buffer
 		if(!listening) {
 			listening = true;
-			$(this).html('<img width="20" src="/image/media-controls/stop.png" style="margin-right:5px;">Stop');
-			var pausebutton = $('<button id="pause-button" class="font-family-arial" style="font-size:1em;"><img width="20" src="/image/media-controls/pause.png" style="margin-right:5px;">Pause</button>');
+			$(this).text('Stop');
+			var pausebutton = $('<button type="button" id="pause-button" class="btn btn-line">Pause</button>');
 			pausebutton.insertAfter(this);
 			pausebutton.on('click', pauseFunction);
 			listenToPhrase();
@@ -189,7 +189,6 @@ $(document).ready(function(e) {
 			}, incrementWordNumberInterval());
 			
 			$('#start-on').prop('readonly', true);
-			$('#start-on').css('background-color', '#EEE');
 		//	$('#start-on').prop('disabled', true);
 		} else {
 			$('#start-on').val(1);
@@ -201,13 +200,12 @@ $(document).ready(function(e) {
 			clearInterval(wordtimeout);
 			currentwordnumber = 1;
 			$('#start-on').prop('readonly', false);
-			$('#start-on').css('background-color', '#FFF');
 		//	$('#start-on').prop('disabled', false);
 		}
 	});
 	
 	function resetPlayButton() {
-		$('#play-text-as-audio').html('<img width="20" src="/image/media-controls/play.png" style="margin-right:0px;"> Listen');
+		$('#play-text-as-audio').text('Listen');
 	}
 	
 	resetPlayButton();

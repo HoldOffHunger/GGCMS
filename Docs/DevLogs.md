@@ -9,6 +9,26 @@ live installation rather than estimated.
 
 ## 2026, September 28
 
+- The redesign's first stage. Every page now links one stylesheet built for
+  its site from cascade layers -- reset, base, legacy, components, site --
+  instead of the one style.php generated per page, and has a doctype: none
+  ever had, so every browser drew every page in quirks mode. style.php's
+  atomic classes are frozen into the legacy layer, so markup not yet
+  converted looks as it did. The shared modules print semantic markup now:
+  a site bar on every page, page heads, breadcrumbs, a reading sheet at a
+  comfortable measure, the formats grouped by what they are for, catalogue
+  records with a citation to copy, entry cards, a next-and-previous that
+  asks to be read, a proper comment form. Night reading is a site's switch.
+  The two typefaces are self-hosted, so no page reports a visit to a font
+  host. The first site themed is described in the configuration repository.
+
+- The old navigation's "last entry" was the farthest one back, not the one
+  just before: the younger siblings run in reading order, and it took the
+  first. Previous is now the last of them.
+
+- The query recorder printed every query, with its backtrace, at the foot of
+  every page an administrator loaded. It is behind `?showqueries=1` now.
+
 - Nobody could sign in. Google is the only way in, and Google now refuses to
   start `platform.js`, the library every sign-in page loaded: its button drew,
   then failed with "idpiframe_initialization_failed". Revoltlib had no client
