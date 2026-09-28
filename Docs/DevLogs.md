@@ -17,6 +17,13 @@ live installation rather than estimated.
   its single-suggestion view never showed the suggestion at all. Both escape
   what a visitor wrote, and both show it.
 
+- `transfer.php`, which moves an entry and everything beneath it, was open to
+  any Google sign-in: it never said it was admin-only. What stopped it was a
+  bug that also stopped every administrator -- each transfer died on its
+  reservation backup before moving anything. It is admin-only first, then
+  mended; it works for the first time, reserves the old path, and refuses a
+  move that would hang a branch from its own descendant.
+
 - `Handler.php` begins to split along its stages. Measured over the 405-page
   crawl, everything before rendering costs about 80 KB and 1 ms of a median
   7.8 ms request -- opcache holds the code -- so the split is for clarity, not

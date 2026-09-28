@@ -63,6 +63,7 @@
 		['login-results', [], 3],
 		['view-votes', [], 9],
 		['warroom-escaping', [], 4],
+		['transfer-entry', [], 7],
 		['session-auth-error', [], 2],
 		['session-token-type', [], 6],
 		['session-recheck', [], 5],

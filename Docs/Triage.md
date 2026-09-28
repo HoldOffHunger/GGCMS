@@ -718,7 +718,26 @@ connection succeeds, the failure needs a durable non-database fallback that can
 be recovered into the ISE table later; attempting the ordinary logging path
 again would only recurse into the same fault.
 
-### `transfer.php` uses undefined locals around a live assignment update
+### `transfer.php` uses undefined locals around a live assignment update (resolved 28 September 2026)
+
+Worse than recorded: `transfer.php` was never admin-only. It declared only
+`RequiresLogin()`, and `AdminOnly()` defaults to FALSE, so any Google sign-in
+could move any entry anywhere -- and the only thing that stopped it was this
+entry's bug. The undefined `$entry` made the reservation backup insert a row
+with no `Entryid`, MySQL refused, and every transfer, an administrator's
+included, died with a 500 before the move. Proved on Fumiko: a non-admin's
+request got that 500.
+
+It is admin-only now, and that went in first. The parent search is read from
+where it is stored, a missing parent is refused, the backup is given the entry,
+a refused update is reported, and a move under the entry itself or anything
+beneath it -- which would hang the branch from its own descendant, off the site
+-- is refused. On Fumiko a non-admin is sent to login and nothing moves, an
+administrator's move works for the first time and reserves the old path, and a
+move of `people` under its own child is refused. The `transfer-entry` fixture
+covers each, the same-code conflict included.
+
+The finding as first recorded:
 
 The transfer model is sound: moving a whole branch requires changing only the
 one assignment that places its root. The current admin script has two concrete

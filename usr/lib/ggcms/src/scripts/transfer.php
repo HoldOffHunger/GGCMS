@@ -23,6 +23,19 @@
 		public function RequiresLogin() {
 			return TRUE;
 		}
+			
+			/*
+				Moving an entry rewrites the assignment that places it, so
+				everything beneath it moves too.  This was only RequiresLogin(),
+				and AdminOnly() is FALSE by default: any Google sign-in could
+				move any entry anywhere.  It never quite could, because the
+				move died on the reservation backup first; that is fixed below,
+				so this had to come first.
+			*/
+		
+		public function AdminOnly() {
+			return TRUE;
+		}
 		
 		public function search() {
 			$this->SetORMBasics();
@@ -78,13 +91,28 @@
 						'fieldvalue'=>$this->target_parent,
 						'matchlike'=>FALSE,
 					];
+						
+						/*
+							The result went to new_parent_results and the test read
+							$record_results, which was never set: a parent that did
+							not exist, or a failed search, went unnoticed.
+						*/
 					
-					$this->new_parent_results = $this->SearchForEntries($orm_match_args)[0];
+					$record_results = $this->SearchForEntries($orm_match_args);
 					
-					if($record_results['error']) {
-						$this->admin_errors[] = $record_results;
-					} else {
-						$this->selections = $record_results;
+					if(!empty($record_results['error']) || empty($record_results[0]['id'])) {
+						$this->admin_errors[] = ['There is no entry ' . $this->target_parent . ' to move this under.'];
+						
+						return TRUE;
+					}
+					
+					$this->new_parent_results = $record_results[0];
+					$this->selections = $record_results;
+					
+					if($this->TargetIsWithinEntry()) {
+						$this->admin_errors[] = ['An entry cannot be moved under itself or anything beneath it.'];
+						
+						return TRUE;
 					}
 					
 					$assignment = $this->entry['assignment'][0];
@@ -100,13 +128,60 @@
 					
 					$this->entry_update_args = $entry_update_args;
 					
-					$this->BackupEntryCodeReservation(['entry'=>$entry, 'old_entry'=>$backup_record, 'record_list'=>$this->record_list]);
+						/*
+							The old path is reserved so its links still find the
+							entry.  $entry and $backup_record were never set here,
+							so the reservation went in with no Entryid, MySQL
+							refused it, and every transfer died before moving
+							anything.  A move keeps the entry's code; only its path
+							changes, so it is the old entry and the new.
+						*/
 					
-					return $this->entry_update = $this->handler->db_access->UpdateRecord($entry_update_args)[0];
+					$this->BackupEntryCodeReservation(['entry'=>$this->entry, 'old_entry'=>$this->entry, 'record_list'=>$this->record_list]);
+					
+					$update_results = $this->handler->db_access->UpdateRecord($entry_update_args);
+					
+					if(!empty($update_results['line'])) {
+						$this->admin_errors[] = ['The entry could not be moved.'];
+						
+						return TRUE;
+					}
+					
+					return $this->entry_update = $update_results[0];
 				}
 			}
 			
 			return TRUE;
+		}
+			
+			/*
+				Is the target the entry itself, or somewhere beneath it?  Then
+				the move would hang the branch from its own descendant, a loop
+				with no way back to the root, and the whole branch would vanish
+				from the site.  Walks up from the target; fifty steps is far
+				deeper than any site.
+			*/
+		
+		public function TargetIsWithinEntry() {
+			$current = $this->target_parent;
+			
+			for($steps = 0; $current && $steps < 50; $steps++) {
+				if($current === (int)$this->entry['id']) {
+					return TRUE;
+				}
+				
+				$assignment = $this->handler->db_access->GetRecords([
+					'type'=>'Assignment',
+					'definition'=>[
+						'Childid'=>$current,
+					],
+					'limit'=>1,
+				]);
+				
+				$current = (int)($assignment[0]['Parentid'] ?? 0);
+			}
+			
+			return FALSE;
 		}
 		
 		public function SetTargetParent() {
