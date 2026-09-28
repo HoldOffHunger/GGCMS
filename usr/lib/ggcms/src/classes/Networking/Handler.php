@@ -2439,8 +2439,22 @@
 			return FALSE;
 		}
 		
+			/*
+				Twice in one request now and then: handle404Image() loads the
+				Image format, and when it serves nothing -- a .php name under
+				/image/ that is also a script's name -- the request goes on to
+				load a format again.  ggreq() is plain require, and a second
+				AbstractBaseFormat was a fatal.
+			*/
+		
 		public function HandleRequest_Content_Format_GetFormatObject() {
-			ggreq('classes/Format/Base/AbstractBaseFormat.php');
+			if(!class_exists('AbstractBaseFormat', FALSE)) {
+				ggreq('classes/Format/Base/AbstractBaseFormat.php');
+			}
+			
+			if(class_exists($this->script_format, FALSE)) {
+				return TRUE;
+			}
 
 			return ggreq('classes/Format/' . $this->script_format . '.php');
 		}
