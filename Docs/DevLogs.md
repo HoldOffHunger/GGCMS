@@ -47,6 +47,16 @@ live installation rather than estimated.
   that holds one fails politely instead of taking the page down. Storing
   emoji at all still waits on the utf8mb4 conversion.
 
+- The weekly human count had revoltlib up 300% and earthfluent up 1,663%.
+  Nearly all of it was two new scripted-browser farms, one page per address
+  on a 1920x1080 screen: Linux Chrome that presses a key first, and Windows
+  Chrome in en-US claiming an Asian timezone, arriving from nowhere.
+  `human_stats.php` leaves both out now. Revoltlib's real week is about 220
+  people, up a fifth; earthfluent's remainder is the Windows farm again in
+  Western timezones, which cannot be told from real readers view by view,
+  so it stays counted.
+
+
 
 - `modify.php` let any signed-in reader delete any entry on any site -- one
   GET did it -- because its Delete asked who may see an entry, and asked

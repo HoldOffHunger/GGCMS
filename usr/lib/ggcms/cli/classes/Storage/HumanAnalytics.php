@@ -281,7 +281,7 @@
 			print('  --referrer matches the site a visit arrived from.' . "\n\n");
 			print('  Crawlers that name themselves -- a user agent saying bot, spider, crawler or' . "\n");
 			print('  headless -- are left out unless --bots is given.' . "\n\n");
-			print('  Views from the scripted-browser farm -- one exact screen, language and timezone,' . "\n");
+			print('  Views from the scripted-browser farms -- fingerprints no reader shares,' . "\n");
 			print('  see isFarm() -- are left out unless --farm is given.' . "\n\n");
 
 			return TRUE;
@@ -570,19 +570,56 @@
 		}
 
 			/*
-				The scripted-browser farm.  From the beacon's first day, 14 September
-				2026, most counted "readers" shared one fingerprint exactly: a
-				1920x1080 screen, zh-CN, Asia/Shanghai, a new Chinese address on every
-				view, one page and gone -- 268 of wordweight's 269 views.  They fake
-				the wheel and pointer events the beacon waits for, so no interaction
-				test catches them.  Only the exact triple is matched: a real reader in
-				Shanghai on a different screen, or anyone reporting UTC, is kept.
+				The scripted-browser farms.  Each fakes the interaction the beacon
+				waits for, so no interaction test catches them; each has a
+				fingerprint no reader shares.
+
+				The first, from the beacon's first day, 14 September 2026: a
+				1920x1080 screen, zh-CN, Asia/Shanghai, a new Chinese address on
+				every view, one page and gone -- 268 of wordweight's 269 views.
+
+				Two more, from 23 September, measured over the fortnight to the
+				28th across every site.  Both keep to 1920x1080 and one page per
+				address, and both came from a new address every time:
+
+				  Linux desktop Chrome whose first move is a key press, about a
+				  second in: 989 of 1,028 1080p Linux Chrome views, nearly all
+				  America/New_York.  Among views on every other screen, a key
+				  press came first 5 times in 631.
+
+				  Windows Chrome, en-US, claiming an Asian timezone or UTC, and
+				  arriving from nowhere: 669 of 677 such views had no referrer.
+				  Real readers on other screens have one about half the time.  A
+				  genuine reader in Singapore on a 1080p Windows Chrome, typing
+				  the address, is lost with them; there were at most a handful.
+
+				Only these exact combinations are matched: the same reader on a
+				phone, in Firefox, or following a link is kept.
 			*/
 
 		public function isFarm($args) {
 			$view = $args['view'];
 
-			return $view['screen'] === '1920x1080' && $view['language'] === 'zh-CN' && $view['timezone'] === 'Asia/Shanghai';
+			if($view['screen'] !== '1920x1080') {
+				return FALSE;
+			}
+
+			if($view['language'] === 'zh-CN' && $view['timezone'] === 'Asia/Shanghai') {
+				return TRUE;
+			}
+
+			$agent = $view['agent'];
+			$desktop_chrome = strpos($agent, 'Chrome/') !== FALSE && strpos($agent, 'Edg/') === FALSE && strpos($agent, 'Mobile') === FALSE;
+
+			if($desktop_chrome && strpos($agent, 'Linuxx86_64') !== FALSE && strpos($agent, 'Android') === FALSE && $view['event'] === 'keydown') {
+				return TRUE;
+			}
+
+			if($desktop_chrome && strpos($agent, 'WindowsNT') !== FALSE && $view['language'] === 'en-US' && $view['referrer'] === '' && ($view['timezone'] === 'UTC' || strpos($view['timezone'], 'Asia/') === 0)) {
+				return TRUE;
+			}
+
+			return FALSE;
 		}
 
 			/*
