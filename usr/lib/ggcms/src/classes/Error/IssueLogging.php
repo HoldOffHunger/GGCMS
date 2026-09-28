@@ -1063,6 +1063,8 @@
 			];
 			#print("<PRE>");
 			#print_r($internal_server_issue_insert_args);
+			$internal_server_issue_insert_args = $this->StorableValues(['values'=>$internal_server_issue_insert_args]);
+			
 			$this->internal_server_issue = $this->handler->db_access->CreateCountedRecord($internal_server_issue_insert_args);
 			
 			#print_r($this->internal_server_issue);

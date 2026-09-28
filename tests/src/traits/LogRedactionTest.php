@@ -92,6 +92,32 @@
 			$this->assertStringNotContainsString('hunter2', $loggable['post'], 'a posted password never reaches the log');
 			$this->assertStringNotContainsString('[secret] => s', $loggable['get']);
 		}
+
+		public function testStorableValues() {
+			$subject = new LogRedactionTestSubject();
+			$substitute = mb_substitute_character();
+
+			$storable = $subject->StorableValues(['values'=>[
+				'url'=>"/foo\xC0\xAE/",
+				'definition'=>[
+					'URL'=>"/people\u{1F600}/",
+					'Kept'=>'/café/ and ✓',
+					'count'=>3,
+					'nothing'=>NULL,
+				],
+			]]);
+
+			$this->assertSame("/foo\u{FFFD}\u{FFFD}/", $storable['url'], 'bytes that are not UTF-8 are replaced, each one');
+			$this->assertSame("/people\u{FFFD}/", $storable['definition']['URL'], 'an emoji is more than utf8mb3 holds');
+			$this->assertSame('/café/ and ✓', $storable['definition']['Kept'], 'anything the tables can hold is untouched');
+			$this->assertSame(3, $storable['definition']['count']);
+			$this->assertNull($storable['definition']['nothing']);
+			$this->assertSame($substitute, mb_substitute_character(), 'the substitute character is put back');
+
+			foreach(['url', 'definition'] as $key) {
+				$this->assertTrue(mb_check_encoding(print_r($storable[$key], TRUE), 'UTF-8'));
+			}
+		}
 	}
 
 ?>

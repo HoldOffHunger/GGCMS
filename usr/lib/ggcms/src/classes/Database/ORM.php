@@ -884,9 +884,42 @@
 			return $new_master_records;
 		}
 		
+			// CodeCanExist()
+			// Tests: ORMTest::testCodeCanExist()
+			// Test file: tests/src/classes/Database/ORMTest.php
+			/*
+				Whether an entry could have this code at all.  The path's codes
+				come straight from the URL, and Entry.Code is utf8mb3: given
+				bytes that are not UTF-8, or an emoji, MySQL throws rather than
+				answer, and every such link was a 500 where it should be a 404.
+				A code the column cannot hold names nothing, so there is no
+				need to ask.  After a move to utf8mb4, only the first test
+				stays true.
+			*/
+		
+		public function CodeCanExist($args) {
+			$code = $args['code'];
+			
+			if(!is_string($code)) {
+				return TRUE;
+			}
+			
+			if(!mb_check_encoding($code, 'UTF-8')) {
+				return FALSE;
+			}
+			
+			return !preg_match('/[\x{10000}-\x{10FFFF}]/u', $code);
+		}
+		
 		public function GetRecordTree($args) {
 			if(count($args['codelist']) === 0) {
 				return [];
+			}
+			
+			foreach($args['codelist'] as $code) {
+				if(!$this->CodeCanExist(['code'=>$code])) {
+					return [];		# names no entry, and MySQL would throw at being asked
+				}
 			}
 			
 			$entries_list = $this->GetRecordTree_GetEntries($args);

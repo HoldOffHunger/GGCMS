@@ -196,11 +196,14 @@
 					swallowed.
 				*/
 			
+			$internal_server_error_insert_args = $this->StorableValues(['values'=>$internal_server_error_insert_args]);
+			
 			try {
 				return $this->internal_server_error = $this->handler->db_access->CreateCountedRecord($internal_server_error_insert_args);
 			} catch (Throwable $throwable) {
 				$this->indicateBackupFailure([
 					'error'=>$error . ' | unlogged: ' . $throwable->getMessage(),
+					'trace'=>$stack_trace,
 				]);
 
 				return FALSE;
@@ -214,6 +217,7 @@
 				'event'=>'GGCMS error backup failure',
 				'host'=>$_SERVER['HTTP_HOST'] ?? '',
 				'error'=>$error,
+				'trace'=>$args['trace'] ?? '',
 			], JSON_INVALID_UTF8_SUBSTITUTE));
 			print('<p>Unable to save the error report.</p>');
 			return TRUE;

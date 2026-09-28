@@ -822,6 +822,32 @@ running it anywhere.
 `utf8mb3` is deprecated in MySQL 8.0 and slated for removal, so this has a
 deadline attached whether or not the corruption is hit first.
 
+**It is live, and it is a 500 (28 September 2026).** A scanner asking
+earthfluent for `/.env.production%c0%ae/` turned it up. MySQL does not
+truncate a comparison: given a parameter the column cannot hold, it throws,
+and the engine does not catch it. Measured on the live sites, all of these were
+500s on every site: bytes that are not UTF-8 anywhere in a path, and an emoji
+anywhere in a path or a query string. The recorder failed the same way, so none
+of them left an ISE row.
+
+Fixed in code the same day: a path whose codes the Code column cannot hold
+names no entry and is a 404 before any query (`ORM::CodeCanExist()`), and
+both loggers scrub what they record to what the tables hold
+(`LogRedaction::StorableValues()`). Malformed bytes are fixed everywhere,
+because `Param()` already cleans them. An emoji is not: any parameter that
+reaches a comparison still throws -- `users.php?action=viewuser&user=` plus an
+emoji is the one found -- and the answer to that is the conversion, not a
+guard at every lookup.
+
+Measured on production for the conversion: 617 tables in 19 databases are
+`utf8mb3`, 2.7 GB in all, beside 50 already `utf8mb4` and 14 `latin1`. The
+page size is 16 KB, so indexes may be 3,072 bytes. One index will not convert
+as it is: `InternalServerIssueOld.URL_index`, 1,024 characters, which is 4,096
+bytes in `utf8mb4`, in each database that has one. The largest tables are
+revoltlib's `InternalServerIssueOld` (917 MB), `RecordChange` (646 MB) and
+`TextBody` (362 MB).
+
+
 ### earthfluent.com
 
 Two faults, possibly one cause. Its certificate is still expired (the renewal

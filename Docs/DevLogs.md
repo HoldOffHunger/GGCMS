@@ -32,6 +32,17 @@ live installation rather than estimated.
   `user-panel`, `chapterify` and `modify`. A new script has to be decided,
   rather than open by default.
 
+- A scanner found that `/.env.production%c0%ae/` was a 500 on earthfluent, and
+  the same was true on every site of any path with bytes that are not UTF-8,
+  or with an emoji anywhere in the path or query string. The tables are
+  utf8mb3, and MySQL throws rather than compare or store what they cannot
+  hold; the error recorder failed the same way, so nothing was ever recorded.
+  Those paths are 404s now and the records are written, with U+FFFD where the
+  unholdable characters were. The last of it -- an emoji in a parameter that
+  is looked up -- waits on converting the tables to utf8mb4, which is measured
+  in Triage and not yet decided.
+
+
 - `Handler.php` begins to split along its stages. Measured over the 405-page
   crawl, everything before rendering costs about 80 KB and 1 ms of a median
   7.8 ms request -- opcache holds the code -- so the split is for clarity, not

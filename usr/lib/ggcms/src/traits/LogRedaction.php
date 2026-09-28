@@ -128,6 +128,44 @@
 			);
 		}
 
+			// StorableValues()
+			// Tests: LogRedactionTest::testStorableValues()
+			// Test file: tests/src/traits/LogRedactionTest.php
+			/*
+				What a visitor sent is recorded as sent, but the tables that
+				hold it are utf8mb3, and MySQL throws rather than store bytes
+				that are not UTF-8 at all, or characters past three bytes, which
+				is every emoji.  So /foo%c0%ae/, or any link with an emoji in
+				it, was a 500 -- and the 500 could not be recorded either, for
+				the same reason.  Each such character becomes U+FFFD, so the
+				record keeps its shape and still shows where something was.
+				Once the tables are utf8mb4 the emoji replacement can go; the
+				malformed-byte one stays.
+			*/
+
+		public function StorableValues($args) {
+			$values = $args['values'];
+
+			if(is_array($values)) {
+				foreach($values as $key => $value) {
+					$values[$key] = $this->StorableValues(['values'=>$value]);
+				}
+
+				return $values;
+			}
+
+			if(!is_string($values)) {
+				return $values;
+			}
+
+			$substitute = mb_substitute_character();
+			mb_substitute_character(0xFFFD);
+			$values = mb_scrub($values, 'UTF-8');
+			mb_substitute_character($substitute);
+
+			return preg_replace('/[\x{10000}-\x{10FFFF}]/u', "\u{FFFD}", $values);
+		}
+
 			// LoggableServerVariables()
 			// Tests: LogRedactionTest::testLoggableServerVariables()
 			// Test file: tests/src/traits/LogRedactionTest.php
