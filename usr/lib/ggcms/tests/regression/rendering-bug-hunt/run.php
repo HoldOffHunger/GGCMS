@@ -61,6 +61,7 @@
 		['session-write-errors', [], 4],
 		['session-lookup-error', [], 2],
 		['login-results', [], 3],
+		['view-votes', [], 9],
 		['session-auth-error', [], 2],
 		['session-token-type', [], 6],
 		['session-recheck', [], 5],

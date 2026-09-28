@@ -1271,44 +1271,63 @@
 		
 			// BT: Here
 		
+			/*
+				The four actions like-dislike.js posts to view.json.  The
+				dispatcher calls them with no arguments, and downvote() and
+				undodownvote() required one: an ArgumentCountError, so a
+				downvote was a 500 for everyone.  None looked at whether there
+				was a user or an entry, so an anonymous vote reached an insert
+				with no Userid, which MySQL refused -- another 500 -- and every
+				action said Success whatever happened.  Success now means the
+				database did it.
+			*/
+		
 		public function upvote() {
-			$this->SetUserAndEntry();
-			$likedislike = $this->GetUserLike([]);
-			$likedislike = $this->SetUserLike(['likedislike'=>$likedislike, 'liked'=>1]);
-			
-			return $this->rpc_results = [
-				'Success'=>1,
-			];
+			return $this->Vote(['liked'=>1]);
 		}
 		
 		public function undoupvote() {
-			$this->SetUserAndEntry();
-			$likedislike = $this->GetUserLike([]);
-			$this->RemoveUserVote(['likedislike'=>$likedislike]);
-			
-			return $this->rpc_results = [
-				'Success'=>1,
-			];
+			return $this->Unvote();
 		}
 		
-		public function downvote($args) {
-			$this->SetUserAndEntry($args);
-			$likedislike = $this->GetUserLike([]);
-			$likedislike = $this->SetUserLike(['likedislike'=>$likedislike, 'liked'=>0]);
-			
-			return $this->rpc_results = [
-				'Success'=>1,
-			];
+		public function downvote() {
+			return $this->Vote(['liked'=>0]);
 		}
 		
-		public function undodownvote($args) {
-			$this->SetUserAndEntry($args);
-			$likedislike = $this->GetUserLike([]);
-			$this->RemoveUserVote(['likedislike'=>$likedislike]);
+		public function undodownvote() {
+			return $this->Unvote();
+		}
+		
+		public function Vote($args) {
+			if(!$this->SetUserAndEntry()) {
+				return $this->rpc_results = ['Success'=>0];
+			}
 			
-			return $this->rpc_results = [
-				'Success'=>1,
-			];
+			$likedislike = $this->GetUserLike([]);
+			$saved = $this->SetUserLike(['likedislike'=>$likedislike, 'liked'=>$args['liked']]);
+			
+			return $this->rpc_results = ['Success'=>$saved ? 1 : 0];
+		}
+			
+			/*
+				Undoing a vote that is not there is already done: success, and
+				nothing touched.
+			*/
+		
+		public function Unvote() {
+			if(!$this->SetUserAndEntry()) {
+				return $this->rpc_results = ['Success'=>0];
+			}
+			
+			$likedislike = $this->GetUserLike([]);
+			
+			if(!$likedislike) {
+				return $this->rpc_results = ['Success'=>1];
+			}
+			
+			$removed = $this->RemoveUserVote(['likedislike'=>$likedislike]);
+			
+			return $this->rpc_results = ['Success'=>$removed ? 1 : 0];
 		}
 		
 		public function SetUserAndEntry() {
@@ -1344,6 +1363,10 @@
 			
 			$user_vote = $this->handler->db_access->GetRecords($user_upvote_args);
 			
+			if(!empty($user_vote['line']) || empty($user_vote[0]['id'])) {
+				return NULL;
+			}
+			
 			return $user_vote[0];
 		}
 		
@@ -1366,7 +1389,11 @@
 						],
 					];
 					
-					$likedislike = $this->handler->db_access->UpdateRecord($likedislike_update_args)[0];
+					$update_results = $this->handler->db_access->UpdateRecord($likedislike_update_args);
+					
+					if(!empty($update_results['line'])) {
+						return FALSE;
+					}
 				}
 			} else {
 				$likedislike_update_args = [
@@ -1378,7 +1405,12 @@
 					],
 				];
 				
-				$likedislike = $this->handler->db_access->CreateRecord($likedislike_update_args)[0];
+					// CreateRecord() returns the row itself; [0] of it was nothing
+				$likedislike = $this->handler->db_access->CreateRecord($likedislike_update_args);
+				
+				if(!empty($likedislike['line']) || empty($likedislike['id'])) {
+					return FALSE;
+				}
 			}
 			
 			return $likedislike;
@@ -1394,7 +1426,9 @@
 				'sqlbindstring'=>'i',
 			];
 			
-			return $this->handler->db_access->DeleteRecords($likedislike_delete_args);
+			$delete_results = $this->handler->db_access->DeleteRecords($likedislike_delete_args);
+			
+			return empty($delete_results['line']);
 		}
 	}
 

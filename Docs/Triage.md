@@ -230,7 +230,17 @@ and make cookie security independent of cookie persistence. Test active,
 expired, refreshed and logged-out tokens in both ordinary authentication and
 admin error display.
 
-### Like/dislike actions disagree across JavaScript, dispatch and database layers
+### Like/dislike actions disagree across JavaScript, dispatch and database layers (resolved 28 September 2026, but for the client)
+
+The four actions take no arguments and share `Vote()` and `Unvote()`. With no
+user or no entry they answer `Success: 0` and write nothing -- an anonymous vote
+had reached an insert with no `Userid`, which MySQL refused, a 500 -- and
+downvoting, an `ArgumentCountError` for everyone, works. Undo with no vote is
+a success that touches nothing. `Success` is 1 only when the database did the
+write. The `view-votes` fixture covers each case, including a refused insert.
+Still open: `like-dislike.js` reuses one request object for every click.
+
+The finding as first recorded:
 
 The live `like-dislike.js` client posts all four actions to `view.json`, but the
 HTML/JSON action dispatcher invokes the selected method with no arguments.
