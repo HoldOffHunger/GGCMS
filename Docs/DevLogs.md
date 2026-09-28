@@ -7,6 +7,17 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, September 28
+
+- `Handler.php` begins to split along its stages. Measured over the 405-page
+  crawl, everything before rendering costs about 80 KB and 1 ms of a median
+  7.8 ms request -- opcache holds the code -- so the split is for clarity, not
+  memory. The first piece, `classes/Networking/Handler/HandlerRedirects.php`,
+  takes the 26 redirect-and-repair functions, two fifths of the file and the
+  part that keeps growing. It keeps no state: every property is still
+  Handler's, reached through `$this->handler`. The crawl plus 44 deliberately
+  mangled URLs came out the same, status, Location and body.
+
 ## 2026, September 27
 
 - The hosts moved from PHP 8.1 to 8.5.11 at 20:03 UTC. 8.1 had come from

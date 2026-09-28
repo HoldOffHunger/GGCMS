@@ -8,11 +8,18 @@ class DispatchFixture extends Handler {
  public $logs;
  
  public $before_content = TRUE, $error_404 = FALSE, $error404redirect;
- public $unavailable_entry = NULL, $authentication, $issue_logging;
+ public $unavailable_entry = NULL, $authentication, $issue_logging, $redirects;
  public $resolves, $repairs, $content_result, $content_calls = 0, $repair_calls = 0;
  public function __construct($resolves, $repairs, $result) {
   $this->resolves=$resolves; $this->repairs=$repairs; $this->content_result=$result;
   $this->authentication=(object)['user_session'=>['UserAdmin.id'=>0]];
+  // The 404 chain's redirects live in HandlerRedirects since 28 September 2026
+  $this->redirects=new class {
+   public function handleReservedCodeRedirect() { return FALSE; }
+   public function handleMatchingCodeRedirect() { return FALSE; }
+   public function handleScriptRedirect() { return FALSE; }
+   public function handleMisplacedScriptRedirect() { return FALSE; }
+  };
   $this->issue_logging=new class {
    public $logs=[];
    public function createLog($args) { $this->logs[]=$args; }
@@ -26,10 +33,6 @@ class DispatchFixture extends Handler {
  public function RepairEntryPath() { $this->repair_calls++; return $this->repairs; }
  public function HandleRequest_Content() { $this->content_calls++; return $this->content_result; }
  public function isScriptImage() { return FALSE; }
- public function handleReservedCodeRedirect() { return FALSE; }
- public function handleMatchingCodeRedirect() { return FALSE; }
- public function handleScriptRedirect() { return FALSE; }
- public function handleMisplacedScriptRedirect() { return FALSE; }
 }
 $failures=0; $reports=[];
 foreach([
