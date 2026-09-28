@@ -147,6 +147,12 @@
 			}
 
 			print('</div>');
+
+				// the title and author, with the entry's picture beside them when it has one
+			$image = $this->Display_Image_GetRandomImage(['entry'=>$grandchild]);
+
+			print('<div class="stack-heading' . ($image ? ' has-image' : '') . '">');
+			print('<div class="stack-heading-text">');
 			print('<h3 class="stack-title"><a href="' . $url . '">' . $grandchild['Title'] . '</a></h3>');
 
 			$author = $this->Author(['entry'=>$grandchild]);
@@ -154,6 +160,16 @@
 			if($author) {
 				print('<p class="stack-author">' . $author['Title'] . '</p>');
 			}
+
+			print('</div>');
+
+			if($image) {
+				print('<a class="stack-image" href="' . $url . '" tabindex="-1" aria-hidden="true">');
+				print('<img alt="" loading="lazy" src="' . $this->ImageURL(['image'=>$image, 'icon'=>TRUE]) . '">');
+				print('</a>');
+			}
+
+			print('</div>');
 
 			if($passage['text']) {
 				print('<blockquote class="stack-passage">' . $passage['text'] . '</blockquote>');
@@ -242,10 +258,12 @@
 			return $images[0];
 		}
 
+			// the small version, where a picture is shown small and the entry has one
 		public function ImageURL($args) {
 			$image = $args['image'];
+			$file = (!empty($args['icon']) && $image['IconFileName']) ? $image['IconFileName'] : $image['FileName'];
 
-			return '/image/' . implode('/', str_split($image['FileDirectory'])) . '/' . $image['FileName'];
+			return '/image/' . implode('/', str_split($image['FileDirectory'])) . '/' . $file;
 		}
 	}
 

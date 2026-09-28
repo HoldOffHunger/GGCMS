@@ -440,6 +440,30 @@
 	letter-spacing: 0;
 }
 
+	/* a picture tipped in beside the title, when the entry has one */
+
+.stack-heading.has-image {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto;
+	gap: 1rem;
+	align-items: start;
+}
+
+.stack-heading-text {
+	display: grid;
+	gap: .35rem;
+	min-width: 0;
+}
+
+.stack-image img {
+	display: block;
+	width: 4.5rem;
+	height: 4.5rem;
+	object-fit: cover;
+	border: 1px solid var(--rule);
+	background: var(--ground);
+}
+
 .stack-title {
 	margin: 0;
 	font: 600 1.25rem/1.25 var(--serif);
