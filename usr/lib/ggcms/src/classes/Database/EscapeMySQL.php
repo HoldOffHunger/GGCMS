@@ -243,12 +243,21 @@
 			return $cleansed_query;
 		}
 		
+			// EscapeMySQLQuery_EscapeDateTime()
+			// Tests: EscapeMySQLTest::testEscapeMySQLQuery_EscapeDateTime()
+			// Test file: tests/src/classes/Database/EscapeMySQLTest.php
+			/*
+				A value that merely contained NOW or DATE went into the SQL
+				as it was, so anything could, given those letters somewhere
+				in it.  Only NOW() itself, or NOW() moved by a whole number
+				of some unit, is SQL; everything else is escaped as a date.
+			*/
 		public function EscapeMySQLQuery_EscapeDateTime ($args) {
 			$query = $args['query'];
-			str_ireplace('NOW','NOW',$query,$query_dynamic_now_syntax_count);
-			str_ireplace('DATE','DATE',$query,$query_dynamic_date_syntax_count);
 			
-			if($query_dynamic_now_syntax_count || $query_dynamic_date_syntax_count) {
+			$date_expression = '/\A(NOW\(\)|DATE_(ADD|SUB)\(NOW\(\), INTERVAL \d+ (SECOND|MINUTE|HOUR|DAY|WEEK|MONTH|YEAR)\))\z/i';
+			
+			if(preg_match($date_expression, (string)$query)) {
 				$cleansed_query = $query;
 			} else {
 				$query_date_and_time_explosion = explode(' ', $query);
