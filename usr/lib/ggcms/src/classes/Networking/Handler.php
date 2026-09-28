@@ -1181,19 +1181,74 @@
 		}
 		
 		public function handleSrvLocalFiles() {
-			$filename = $_SERVER['REQUEST_URI'];
+			$file = $this->SrvLocalFile(['requesturi'=>$_SERVER['REQUEST_URI']]);
 			
-			if(strlen($filename) !== 0) {
-				$good_filename = mb_substr($filename, 1);
-				
-				if(data_isfile($good_filename, $this)) {
-					data_reqfile($good_filename, $this);
-					
-					return TRUE;
-				}
+			if(!$file) {
+				return FALSE;
 			}
 			
-			return FALSE;
+			foreach($file['headers'] as $header) {
+				header($header);
+			}
+			
+			return (bool)readfile($file['location']);
+		}
+			
+			// SrvLocalFile()
+			// Tests: HandlerTest::testSrvLocalFile()
+			// Test file: tests/src/classes/Networking/HandlerTest.php
+			/*
+				The files a site keeps beside its images -- favicons, manifests,
+				search engines' verification pages, the word-game demos -- and
+				the headers to send with each.  They went out through
+				print(file_get_contents()) with no Content-Type, so PHP called
+				everything text/html, and the name came from the whole
+				REQUEST_URI, query string and all.
+				
+				Anything under image/ is Image::ImageRequest()'s, which serves
+				only images; never .php, whose source would be printed; SVG
+				sandboxed, since it is XML and can carry a script; nosniff on
+				everything.
+			*/
+		
+		public function SrvLocalFile($args) {
+			$path = ltrim((string)parse_url((string)$args['requesturi'], PHP_URL_PATH), '/');
+			
+			if($path === '' || str_starts_with(strtolower($path), 'image/')) {
+				return FALSE;
+			}
+			
+			$extension = strtolower(pathinfo($path, PATHINFO_EXTENSION));
+			
+			if(in_array($extension, ['php', 'phtml', 'phar', 'inc'], TRUE)) {
+				return FALSE;
+			}
+			
+			if(!data_isfile($path, $this)) {
+				return FALSE;
+			}
+			
+			if(!class_exists('MIMEType')) {
+				ggreq('classes/Networking/MIMEType.php');		# plain require, so once
+			}
+			$mimetypes = (new MIMEType(['handler'=>$this]))->GetMIMETypeCodes();
+			
+			$mimetype = $mimetypes[$extension] ?? 'application/octet-stream';
+			
+			$headers = [
+				'Content-Type: ' . $mimetype,
+				'X-Content-Type-Options: nosniff',
+			];
+			
+			if($mimetype === 'image/svg+xml') {
+				$headers[] = 'Content-Security-Policy: sandbox';
+			}
+			
+			return [
+				'location'=>GGCMS_DATA_DIR . $this->domain->primary_domain_lowercased . '/www/' . $path,
+				'mimetype'=>$mimetype,
+				'headers'=>$headers,
+			];
 		}
 		
 		public function handle404Image() {
@@ -1203,7 +1258,6 @@
 			
 			
 			if(count($url_pieces) > 2) {
-				$last_piece = $url_pieces[-1];
 				$first_piece = $url_pieces[1];
 				
 				if($first_piece === 'image') {
@@ -1213,14 +1267,14 @@
 					$this->HandleRequest_Content_Format_GetFormatObject();
 					
 					$this->script = new $this->script_format(['handler'=>$this]);
+						
+						/*
+							What Display() answers.  This returned TRUE whether or
+							not an image was sent, so a missing or refused one was
+							an empty 200 and never reached the image 404 below.
+						*/
 					
-				#	$this->script = $this->HandleRequest_Content_Format_InstantiateFormatObject();
-					if(!$this->script->Display()) {
-					
-					#	return $this->imageRedirect();
-					}
-					
-					return TRUE;
+					return (bool)$this->script->Display();
 				}
 			}
 			return FALSE;
@@ -1230,7 +1284,7 @@
 			$url_pieces = explode('/', $_SERVER['REQUEST_URI']);
 			
 			if(count($url_pieces) > 2) {
-				$last_piece = $url_pieces[-1];
+				$last_piece = end($url_pieces);		# [-1] is a key named -1 in PHP, not the last item
 				$first_piece = $url_pieces[1];
 				
 				if($first_piece === 'image' && strlen($last_piece) === 0) {	# are you searching for a directory like example.com/image/blahblahblablhablh/1/2/3/ ?  Then come along!

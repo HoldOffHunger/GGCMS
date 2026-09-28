@@ -38,6 +38,12 @@
 				'tif'=>'image/tiff',
 				'svg'=>'image/svg+xml',
 				'svgz'=>'image/svg+xml',
+				'webp'=>'image/webp',				# newer than the list above; 185 of them on the sites
+				'jfif'=>'image/jpeg',
+				'avif'=>'image/avif',
+				'apng'=>'image/apng',
+				'ogg'=>'audio/ogg',
+				'webmanifest'=>'application/manifest+json',
 				
 					// Archives
 					// ---------------------------------------------------------

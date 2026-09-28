@@ -349,6 +349,18 @@ the same token remains present in HTML.
 
 ### Image upload accepts active content and its validation skips records
 
+Half resolved, 27 September 2026: **serving**. `Image::ImageRequest()` now serves
+only raster image types from `/image/`, by the path alone, with `nosniff`;
+`.html`, `.svg`, `.php` and anything else there end in the image 404. The files
+beside the images go through `Handler::SrvLocalFile()`, with a real
+Content-Type, `nosniff`, SVG sandboxed and `.php` never printed. So an upload
+with an active name can no longer run as a page on the domain. **Uploading**
+still accepts what it is given -- the checks below are still wanted -- and one
+such file is on the host already: a 2017 copy of `master-c.php` at
+`revoltlib.com/www/image/6/master-c.php`, harmless now, but worth removing.
+
+The finding as first recorded:
+
 `modify::SetRecordFromQuery()` accepts the browser-supplied upload name and a
 user-editable `image_FileName`; no server-side file signature or decoded-image
 allowlist is checked before `move_uploaded_file()` places the bytes under the

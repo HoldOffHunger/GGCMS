@@ -115,6 +115,14 @@ live installation rather than estimated.
   safe. `dbstatus::KillDisconnectedImages()` was left inert on purpose: fixing
   its path would arm an unreviewed file deleter.
 
+- Every `.webp` and `.jfif` image on the sites -- 410 of them -- had been
+  coming back as an empty page: the MIME table `Image.php` served from had
+  never heard of either. It serves from its own list of image types now, by
+  the path alone, and nothing that can carry a script. The files beside the
+  images get a real Content-Type. Fumiko's databases were brought to
+  production's schema; until then `users.php` exports 500ed there on the new
+  `PasswordHash` column.
+
 ## 2026, September 26
 
 - Every error and issue row on every site had been storing the request it came
