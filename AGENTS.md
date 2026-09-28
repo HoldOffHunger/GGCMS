@@ -70,6 +70,7 @@ stranded that way for three weeks.
 | [Development/Conventions.md](Development/Conventions.md) | Project vocabulary — ISE, ISI, and what already exists |
 | [Docs/Triage.md](Docs/Triage.md) | Known-open issues, with the evidence |
 | [Docs/Testing.md](Docs/Testing.md) | Before changing a tested function, and after changing any |
+| [Docs/Styling.md](Docs/Styling.md) | Before touching a stylesheet, `style.php`, or any markup's classes |
 
 ## Checking on production
 
