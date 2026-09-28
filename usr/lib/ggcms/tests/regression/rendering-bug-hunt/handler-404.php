@@ -4,11 +4,28 @@ set_error_handler(function($n, $m) { throw new ErrorException($m, 0, $n); });
 function ggreq($path) { require_once dirname(__DIR__, 3) . '/src/' . $path; }
 ggreq('traits/ReverseDNSNotation.php');
 ggreq('classes/Networking/Handler.php');
+ggreq('classes/Networking/Handler/HandlerContent.php');
+// Handler's stages live in classes/Networking/Handler/ since 28 September 2026.  Files and the entry path
+// are stood in whole; content only for rendering, so the 404 page checked below is the real one.
+class DispatchFixtureFiles {
+ public function handle404Image() { return FALSE; }
+ public function handleSrvLocalFiles() { return FALSE; }
+ public function isScriptImage() { return FALSE; }
+}
+class DispatchFixtureEntryPath {
+ public $handler;
+ public function __construct($args) { $this->handler=$args['handler']; }
+ public function EntryPathResolves() { return $this->handler->resolves; }
+ public function RepairEntryPath() { $this->handler->repair_calls++; return $this->handler->repairs; }
+}
+class DispatchFixtureContent extends HandlerContent {
+ public function HandleRequest_Content() { $this->handler->content_calls++; return $this->handler->content_result; }
+}
 class DispatchFixture extends Handler {
  public $logs;
- 
+
  public $before_content = TRUE, $error_404 = FALSE, $error404redirect;
- public $unavailable_entry = NULL, $authentication, $issue_logging, $redirects;
+ public $unavailable_entry = NULL, $authentication, $issue_logging, $redirects, $file_handler, $entry_path_handler, $content_handler;
  public $resolves, $repairs, $content_result, $content_calls = 0, $repair_calls = 0;
  public function __construct($resolves, $repairs, $result) {
   $this->resolves=$resolves; $this->repairs=$repairs; $this->content_result=$result;
@@ -20,6 +37,9 @@ class DispatchFixture extends Handler {
    public function handleScriptRedirect() { return FALSE; }
    public function handleMisplacedScriptRedirect() { return FALSE; }
   };
+  $this->file_handler=new DispatchFixtureFiles();
+  $this->entry_path_handler=new DispatchFixtureEntryPath(['handler'=>$this]);
+  $this->content_handler=new DispatchFixtureContent(['handler'=>$this]);
   $this->issue_logging=new class {
    public $logs=[];
    public function createLog($args) { $this->logs[]=$args; }
@@ -27,12 +47,6 @@ class DispatchFixture extends Handler {
  }
  public function __destruct() {}
  public function getArgs() { return ['handler'=>$this]; }
- public function handle404Image() { return FALSE; }
- public function handleSrvLocalFiles() { return FALSE; }
- public function EntryPathResolves() { return $this->resolves; }
- public function RepairEntryPath() { $this->repair_calls++; return $this->repairs; }
- public function HandleRequest_Content() { $this->content_calls++; return $this->content_result; }
- public function isScriptImage() { return FALSE; }
 }
 $failures=0; $reports=[];
 foreach([

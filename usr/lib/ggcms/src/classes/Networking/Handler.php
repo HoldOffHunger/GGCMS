@@ -52,10 +52,14 @@
 		public $user_tracking;
 		public $redirects;
 		public $script_handler;
+		public $file_handler;
+		public $entry_path_handler;
+		public $content_handler;
 		public function __construct() {
 			
 			$this->Construct_Redirects();
 			$this->Construct_ScriptHandler();
+			$this->Construct_StageHandlers();
 			$this->LocalHostHandling();
 			
 			
@@ -161,6 +165,30 @@
 			}
 			
 			return $this->script_handler = new HandlerScript($this->getArgs());
+		}
+			
+			/*
+				The last three stages of a request, each in its own class and
+				none keeping anything of its own: files answered from disk,
+				whether the path walks the entry graph, and rendering.
+			*/
+		
+		public function Construct_StageHandlers() {
+			$stages = [
+				'file_handler'=>'HandlerFiles',
+				'entry_path_handler'=>'HandlerEntryPath',
+				'content_handler'=>'HandlerContent',
+			];
+			
+			foreach($stages as $property => $classname) {
+				if(!class_exists($classname, FALSE)) {
+					ggreq('classes/Networking/Handler/' . $classname . '.php');
+				}
+				
+				$this->$property = new $classname($this->getArgs());
+			}
+			
+			return TRUE;
 		}
 		
 		public function getArgs() {
@@ -564,11 +592,11 @@
 		public function HandleRequest_ServeContent() {
 			$this->before_content = FALSE;
 
-			if($this->handle404Image()) {
+			if($this->file_handler->handle404Image()) {
 				return TRUE;
 			}
 			
-			if($this->handleSrvLocalFiles()) {
+			if($this->file_handler->handleSrvLocalFiles()) {
 				return TRUE;
 			}
 			
@@ -579,15 +607,15 @@
 					constructed a format and a script first.
 				*/
 
-			if($this->EntryPathResolves() || $this->RepairEntryPath()) {
-				if($this->HandleRequest_Content()) {
+			if($this->entry_path_handler->EntryPathResolves() || $this->entry_path_handler->RepairEntryPath()) {
+				if($this->content_handler->HandleRequest_Content()) {
 					return TRUE;
 				}
 			}
 			
 			ggreq('classes/Networking/Error404.php');
-			if($this->isScriptImage()) {
-				$this->HandleRequest_Error_404();	# BT: FIXME, special error 404 for images?
+			if($this->file_handler->isScriptImage()) {
+				$this->content_handler->HandleRequest_Error_404();	# BT: FIXME, special error 404 for images?
 			} else {
 				ggreq('classes/Networking/Error404Redirect.php');
 				$this->error404redirect = new Error404Redirect([
@@ -597,7 +625,7 @@
 					if(!$this->redirects->handleMatchingCodeRedirect()) {
 						if(!$this->redirects->handleScriptRedirect()) {
 							if(!$this->redirects->handleMisplacedScriptRedirect()) {
-								$this->HandleRequest_Error_404();
+								$this->content_handler->HandleRequest_Error_404();
 							}
 						}
 					}
@@ -605,183 +633,6 @@
 			}
 			
 			return TRUE;
-		}
-		
-		/*
-			Does this path name a real walk through the entry graph?
-
-			HandleRequest_Content builds a format object and a script object before
-			it finds out, and both pull in class files -- AbstractBaseFormat, the
-			format, view, base_format and the traits.  A request for a path that
-			names nothing paid for all of it and then answered 404.  On 3 September
-			2026 the majority of traffic to this host was exactly that.
-
-			The question is cheap to ask first.  ORM is already in memory --
-			StandardLibraries requires it before this class is constructed -- its
-			constructor wants nothing but the handler, and GetRecordTree is row
-			cached.  So this costs one query, often none, and loads nothing.
-
-			The test is ValidateOrm's, because it is the same question: every
-			segment of the path must have resolved to a record.  A shorter answer
-			than the path means some segment named nothing.
-
-			Only entry walks are asked.  The front page has no segments, and
-			style.php, sitemap.php, robots.php and search.php are not paths through
-			the graph at all; all of them answer TRUE and carry on untouched.
-		*/
-
-		public function EntryPathResolves() {
-			if(!is_array($this->object_list) || (count($this->object_list) === 0)) {
-				return TRUE;		# the front page names no entry
-			}
-
-			if($this->script_name !== 'view.php') {
-				return TRUE;		# not a walk through the entry graph
-			}
-
-			if(!$this->EntryPathRequired()) {
-				return TRUE;		# this site's paths name something other than entries
-			}
-
-			if(!$this->db_access) {
-				return TRUE;		# nothing to ask; let the old path answer
-			}
-
-			if(!$this->orm) {
-				$this->orm = new ORM(['handler'=>$this]);
-			}
-
-			$this->resolved_record_list = $this->orm->GetRecordTree([
-				'codelist'=>$this->object_list,
-				'availabilitylimit'=>1,
-			]);
-
-			if(!is_array($this->resolved_record_list)) {
-				return FALSE;
-			}
-
-			return (count($this->object_list) === count($this->resolved_record_list));
-		}
-
-		/*
-			Whether this site's view.php paths are walks through the entry graph
-			at all.
-
-			Every site's are bar wordweight's.  /funerate/ there is a word from
-			alldictionaries, which display_wordweight looks up for itself, and
-			names no entry.  Asked of EntryPathResolves it answered 404, and did
-			so for every word on the site from 3 September 2026 until this
-			existed.
-
-			Script-level AbstractGlobals config, in the shape Dictionary_enabled
-			already uses.  Absent config or an absent method means required,
-			which is the behaviour before this existed.
-		*/
-
-		public function EntryPathRequired() {
-			if(!isset($this->abstractglobals->script)) {
-				return TRUE;
-			}
-
-			if(!is_object($this->abstractglobals->script)) {
-				return TRUE;
-			}
-
-			if(!method_exists($this->abstractglobals->script, 'EntryPath_required')) {
-				return TRUE;
-			}
-
-			return $this->abstractglobals->script->EntryPath_required([
-				'action'=>$this->desired_action,
-			]);
-		}
-
-		/*
-			A path that named nothing, corrected and answered rather than
-			redirected.
-
-			This can only run where EntryPathResolves has already said no,
-			which is the one place in the request where the corrections are
-			known and nothing has been loaded to render with.  So the request
-			is rewritten and carried forward -- the chain is never re-entered,
-			no file is required twice, and the invariant every ggreq in this
-			codebase rests on is untouched.
-
-			The handlers are asked what they would have redirected to rather
-			than allowed to send it.  All three want only db_access and
-			script_name, both of which exist long before a format or a script
-			does.
-
-			handleScriptRedirect is deliberately absent: it reads
-			$this->script->script->redirect_script, and there is no script
-			object here yet.  It keeps its redirect, below, where there is.
-		*/
-
-		public function RepairEntryPath() {
-			while($this->repair_count < 3) {
-				if($this->RepairEntryPath_Once()) {
-					return TRUE;
-				}
-
-				if(strlen($this->redirect_url)) {
-					return FALSE;		# a correction we may not make ourselves
-				}
-
-				if(!$this->last_repair_changed) {
-					return FALSE;		# nothing left to correct
-				}
-			}
-
-			return FALSE;
-		}
-
-		/*
-			One correction.  '/x/view.php' becomes '/x/', which on the next
-			pass becomes '/parent/x/', which resolves.  So the caller keeps
-			asking while something is still changing, up to three times.
-		*/
-
-		public function RepairEntryPath_Once() {
-			$this->last_repair_changed = FALSE;
-
-			$this->collect_redirect = TRUE;
-			$this->redirect_url = '';
-
-			$this->redirects->handleReservedCodeRedirect();
-
-			if(!$this->redirect_url) {
-				$this->redirects->handleMatchingCodeRedirect();
-			}
-
-			if(!$this->redirect_url) {
-				$this->redirects->handleMisplacedScriptRedirect();
-			}
-
-			$this->collect_redirect = FALSE;
-
-			$target = $this->redirect_url;
-
-			if(strlen($target) === 0) {
-				return FALSE;
-			}
-
-				/*
-					Off this host, or a scheme change, or not a GET: those are
-					redirects for good reasons and are left as redirects.  The
-					url is put back so the chain below sends it.
-				*/
-
-			$this->redirect_url = '';
-
-			if(!$this->redirects->RepairInsteadOfRedirect(['url'=>$target])) {
-				$this->redirect_url = $target;
-
-				return FALSE;
-			}
-
-			$this->last_repair_changed = TRUE;
-
-			return $this->EntryPathResolves();
 		}
 
 		public function HandleRequest_EndRequest() {
@@ -861,149 +712,6 @@
 			return TRUE;
 		}
 		
-		public function handleSrvLocalFiles() {
-			$file = $this->SrvLocalFile(['requesturi'=>$_SERVER['REQUEST_URI']]);
-			
-			if(!$file) {
-				return FALSE;
-			}
-			
-			foreach($file['headers'] as $header) {
-				header($header);
-			}
-			
-			return (bool)readfile($file['location']);
-		}
-			
-			// SrvLocalFile()
-			// Tests: HandlerTest::testSrvLocalFile()
-			// Test file: tests/src/classes/Networking/HandlerTest.php
-			/*
-				The files a site keeps beside its images -- favicons, manifests,
-				search engines' verification pages, the word-game demos -- and
-				the headers to send with each.  They went out through
-				print(file_get_contents()) with no Content-Type, so PHP called
-				everything text/html, and the name came from the whole
-				REQUEST_URI, query string and all.
-				
-				Anything under image/ is Image::ImageRequest()'s, which serves
-				only images; never .php, whose source would be printed; SVG
-				sandboxed, since it is XML and can carry a script; nosniff on
-				everything.
-			*/
-		
-		public function SrvLocalFile($args) {
-			$path = ltrim((string)parse_url((string)$args['requesturi'], PHP_URL_PATH), '/');
-			
-			if($path === '' || str_starts_with(strtolower($path), 'image/')) {
-				return FALSE;
-			}
-			
-			$extension = strtolower(pathinfo($path, PATHINFO_EXTENSION));
-			
-			if(in_array($extension, ['php', 'phtml', 'phar', 'inc'], TRUE)) {
-				return FALSE;
-			}
-			
-			if(!data_isfile($path, $this)) {
-				return FALSE;
-			}
-			
-			if(!class_exists('MIMEType')) {
-				ggreq('classes/Networking/MIMEType.php');		# plain require, so once
-			}
-			$mimetypes = (new MIMEType(['handler'=>$this]))->GetMIMETypeCodes();
-			
-			$mimetype = $mimetypes[$extension] ?? 'application/octet-stream';
-			
-			$headers = [
-				'Content-Type: ' . $mimetype,
-				'X-Content-Type-Options: nosniff',
-			];
-			
-			if($mimetype === 'image/svg+xml') {
-				$headers[] = 'Content-Security-Policy: sandbox';
-			}
-			
-			return [
-				'location'=>GGCMS_DATA_DIR . $this->domain->primary_domain_lowercased . '/www/' . $path,
-				'mimetype'=>$mimetype,
-				'headers'=>$headers,
-			];
-		}
-		
-		public function handle404Image() {
-			#return FALSE;	 // hrm, is this a img src=??? problem?
-			$url_pieces = explode('/', $_SERVER['REQUEST_URI']);
-			
-			
-			
-			if(count($url_pieces) > 2) {
-				$first_piece = $url_pieces[1];
-				
-				if($first_piece === 'image') {
-	#				ggreq();
-					$this->script_format = 'Image';
-					
-					$this->HandleRequest_Content_Format_GetFormatObject();
-					
-					$this->script = new $this->script_format(['handler'=>$this]);
-						
-						/*
-							What Display() answers.  This returned TRUE whether or
-							not an image was sent, so a missing or refused one was
-							an empty 200 and never reached the image 404 below.
-						*/
-					
-					return (bool)$this->script->Display();
-				}
-			}
-			return FALSE;
-		}
-		
-		public function isScriptImage() {
-			$extension = strtolower(pathinfo($_SERVER['REQUEST_URI'], PATHINFO_EXTENSION));
-			$image_extension_hash = $this->imageFileExtensionsHash();
-			
-			if($image_extension_hash[$extension]) {
-				return TRUE;	# we never want to redirect image 404's the way to redirect entry 404's
-			}
-			
-			return FALSE;
-		}
-		
-		public function imageFileExtensionsHash() {
-			$image_file_extensions = $this->imageFileExtensions();
-			$image_file_extensions_hash = [];
-			
-			foreach($image_file_extensions as $image_file_extension) {
-				$image_file_extensions_hash[$image_file_extension] = TRUE;
-			}
-			
-			return $image_file_extensions_hash;
-		}
-		
-		public function imageFileExtensions() {
-			return [
-				'apng',
-				'avif',
-				'bmp',
-				'cur',
-				'gif',
-				'ico',
-				'jfif',
-				'jpeg',
-				'jpg',
-				'pjp',
-				'pjpeg',
-				'png',
-				'svg',
-				'tif',
-				'tiff',
-				'webp',
-			];
-		}
-		
 		public function ValidateReferrals() {
 			if(!$this->domain->ValidateReferringWebsite()) {
 				print('Error 403 - You done been smote.');
@@ -1053,181 +761,6 @@
 					$this->user_tracking->RecordUserTracking();
 				}
 			}
-			
-			return TRUE;
-		}
-		
-		public function HandleRequest_Content() {
-			$client_location = GGCMS_DIR . $this->domain->primary_domain_lowercased . $_SERVER['SCRIPT_URL'];
-			
-			$shared_location = GGCMS_DIR . GGCMS_REFERENCE_DOMAIN . $_SERVER['SCRIPT_URL'];
-			
-			if(!is_file($client_location) && is_file($shared_location)) {
-				ggreq('classes/Networking/MIMEType.php');
-				
-				$mimetype = new MIMEType($this->getArgs());
-				$mimetypes = $mimetype->GetMIMETypeCodes();
-				
-				$desired_content_header = $mimetypes[$this->script_extension];
-				
-				if($desired_content_header) {
-					$header_text = 'Content-type: ' . $desired_content_header . '; charset=utf-8';
-					header($header_text);
-				}
-				
-				if($desired_content_header == 'text/html') {
-					return require($shared_location);
-				} else {
-					return readfile($shared_location);
-				}
-			}
-			
-			if(!is_file($this->script_location) || !$this->script_format) {
-				return FALSE;
-			}
-			
-			$this->HandleRequest_Content_Format_GetFormatObject();
-			$this->script = $this->HandleRequest_Content_Format_InstantiateFormatObject();
-			
-			if($this->script->CanAccess()) {
-				return $this->HandleRequest_Content_Format();
-			}
-			
-			return FALSE;
-		}
-		
-		public function HandleRequest_Content_Format() {
-			$this->CheckSecurity();
-			
-			$this->Construct_UpgradeDBAccess();
-			
-			#	print("BT: ACCESS?");
-			if($this->access) {
-			#	print("BT: ACCESS!");
-				if(method_exists($this->script->script, $this->desired_action)) {
-		#			print("BT: METH!" . $this->desired_action . "|");
-					$desired_action = $this->desired_action;
-					$response = $this->script->Display();
-					return $response;		# BT: FIXME ?  use $desired_action var pls; NO!
-				}
-			} else {
-				if($this->authentication->redirect) {
-						# handle security-triggered redirect
-					$other_script_args = $this->HandleRequest_Content_Format_InstantiateFormatObject_PartialArgs();
-					$other_script_args['redirect'] = $this->script->redirect_object;
-					return ($this->authentication->RedirectToNewURL($other_script_args));
-				}
-			}
-			
-			return FALSE;
-		}
-		
-			/*
-				Twice in one request now and then: handle404Image() loads the
-				Image format, and when it serves nothing -- a .php name under
-				/image/ that is also a script's name -- the request goes on to
-				load a format again.  ggreq() is plain require, and a second
-				AbstractBaseFormat was a fatal.
-			*/
-		
-		public function HandleRequest_Content_Format_GetFormatObject() {
-			if(!class_exists('AbstractBaseFormat', FALSE)) {
-				ggreq('classes/Format/Base/AbstractBaseFormat.php');
-			}
-			
-			if(class_exists($this->script_format, FALSE)) {
-				return TRUE;
-			}
-
-			return ggreq('classes/Format/' . $this->script_format . '.php');
-		}
-		
-		public function HandleRequest_Content_Format_InstantiateFormatObject() {
-			$script_format_args = $this->HandleRequest_Content_Format_InstantiateFormatObject_Args();
-			
-			return (new $this->script_format($script_format_args));
-		}
-		
-		public function HandleRequest_Content_Format_InstantiateFormatObject_Args() {
-			return [
-				'handler'=>$this,
-				'firstcall'=>1,
-				'authentication'=>$this->authentication,
-				'version'=>$this->version,
-				'versionobject'=>$this->version_object,
-				'cleanser'=>$this->cleanser,
-				'query'=>$this->query,
-				'dbaccess'=>$this->db_access,
-				'globals'=>$this->globals,
-				'domain'=>$this->domain,
-				'time'=>$this->time,
-				'cookie'=>$this->cookie,
-				'language'=>$this->language,
-				'desiredscript'=>$this->desired_script,
-				'desiredaction'=>$this->desired_action,
-				'dictionary'=>$this->dictionary,
-				'objectlist'=>$this->object_list,
-				'objectcode'=>$this->object_code,
-				'objectparent'=>$this->object_parent,
-				'scriptname'=>$this->script_name,
-				'scriptfile'=>$this->script_file,
-				'scriptclassname'=>$this->script_classname,
-				'scriptextension'=>$this->script_extension,
-				'scriptformat'=>$this->script_format,
-				'scriptformatlower'=>$this->script_format_lower,
-				'scriptlocation'=>$this->script_location,
-				'googleapi'=>$this->google_api,
-			];
-		}
-		
-		public function HandleRequest_Content_Format_InstantiateFormatObject_PartialArgs() {
-			return [
-				'handler'=>$this,
-				'firstcall'=>0,
-				'cleanser'=>$this->cleanser,
-				'dbaccess'=>$this->db_access,
-				'language'=>$this->language,
-				'globals'=>$this->globals,
-				'domain'=>$this->domain,
-				'objectcode'=>$this->object_code,
-				'objectlist'=>$this->object_list,
-				'scriptclassname'=>$this->script_classname,
-				'scriptextension'=>$this->script_extension,
-				'scriptformat'=>$this->script_format,
-			];
-		}
-		
-		public function HandleRequest_Error_404() {
-			$this->error_404 = TRUE;
-
-				/*
-					Nothing in this codebase set a status code here, so every
-					dead URL on every site answered 200 with an apology page.
-
-					A crawler that receives 200 has been told the URL is real and
-					comes back for it, forever, and the page cache will not store
-					an error page -- so each visit is a full render.  Measured on
-					31 August 2026: /w.php, a WordPress probe for a file that has
-					never existed, cost 30.6 seconds of work and returned 200.
-					There are thousands of such requests a day.
-
-					Search engines call this a soft 404 and index the apology.
-
-					The redirect handlers upstream of this method have already
-					had their chance, so anything arriving here is a genuine dead
-					end and can say so.
-				*/
-
-			http_response_code(404);
-
-			$error_404 = new Error404($this->getArgs());
-
-			$error_404->Display([]);
-			
-			$this->issue_logging->createLog([
-				'issuetype'=>'404',
-				'description'=>'404 URL',
-			]);
 			
 			return TRUE;
 		}

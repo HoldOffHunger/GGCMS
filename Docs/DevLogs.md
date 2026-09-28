@@ -24,6 +24,14 @@ live installation rather than estimated.
   script stage runs on every request and had never been tested; it has four
   tests now.
 
+- The last three stages followed: `HandlerFiles`, `HandlerEntryPath` and
+  `HandlerContent`. Handler is about 770 lines -- its properties, the
+  constructor that builds the world, `HandleRequest()` conducting the stages
+  in order, and the end of the request -- with each stage beside it in
+  `classes/Networking/Handler/`. Every move was made by the tokenizer and
+  proved by the crawl, 44 mangled URLs, and images and files served from
+  disk, all unchanged.
+
 - A link pasted out of prose -- `revoltlib.com/people)` -- 404ed on the host,
   though the engine has repaired exactly that for years. nginx gives every
   dotless path a trailing slash first, so the engine saw `/people)/`; and a

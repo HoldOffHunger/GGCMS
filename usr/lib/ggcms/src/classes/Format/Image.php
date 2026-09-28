@@ -85,7 +85,7 @@
 			/*
 				Raster images and nothing that can carry a script.  Not SVG:
 				it is XML, and can.  Every SVG on the sites is a top-level icon,
-				served by Handler::handleSrvLocalFiles(), not an upload.
+				served by HandlerFiles::handleSrvLocalFiles(), not an upload.
 			*/
 		
 		public function ServableImageTypes() {
