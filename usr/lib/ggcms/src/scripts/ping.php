@@ -78,8 +78,13 @@
 			
 			$curl_resource = curl_init();
 			curl_setopt($curl_resource, CURLOPT_URL, $this->url);
-			curl_setopt($curl_resource, CURLOPT_PROTOCOLS_STR, 'http,https');
-			curl_setopt($curl_resource, CURLOPT_REDIR_PROTOCOLS_STR, 'http,https');
+			if(defined('CURLOPT_PROTOCOLS_STR')) {		# libcurl 7.85 and later; the host's jammy has 7.81
+				curl_setopt($curl_resource, CURLOPT_PROTOCOLS_STR, 'http,https');
+				curl_setopt($curl_resource, CURLOPT_REDIR_PROTOCOLS_STR, 'http,https');
+			} else {
+				curl_setopt($curl_resource, CURLOPT_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
+				curl_setopt($curl_resource, CURLOPT_REDIR_PROTOCOLS, CURLPROTO_HTTP | CURLPROTO_HTTPS);
+			}
 			curl_setopt($curl_resource, CURLOPT_RESOLVE, $destination['resolve']);
 			curl_setopt($curl_resource, CURLOPT_CONNECTTIMEOUT, 10);
 			curl_setopt($curl_resource, CURLOPT_TIMEOUT, 30);
