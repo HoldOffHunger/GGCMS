@@ -51,9 +51,11 @@
 		public $error_404;
 		public $user_tracking;
 		public $redirects;
+		public $script_handler;
 		public function __construct() {
 			
 			$this->Construct_Redirects();
+			$this->Construct_ScriptHandler();
 			$this->LocalHostHandling();
 			
 			
@@ -72,10 +74,10 @@
 			$this->Construct_Language();
 			$this->Construct_Action();
 			$this->Construct_ObjectsAndScripts();
-			$this->Construct_ScriptName();
-			$this->Construct_ScriptFileAndExtension();
-			$this->Construct_ScriptClassname();
-			$this->Construct_ScriptFormat();
+			$this->script_handler->Construct_ScriptName();
+			$this->script_handler->Construct_ScriptFileAndExtension();
+			$this->script_handler->Construct_ScriptClassname();
+			$this->script_handler->Construct_ScriptFormat();
 			$this->Construct_Globals();
 			$this->Construct_SiteLanguages();
 			$this->Construct_ProductionSite();
@@ -83,10 +85,10 @@
 			$this->Construct_Dictionaries();
 			$this->Construct_PresetAuthentication();
 			
-			$this->CheckPermalinkRedirect();
+			$this->redirects->CheckPermalinkRedirect();
 			
 			if($this->script_name) {
-				$this->Construct_ScriptLocation();
+				$this->script_handler->Construct_ScriptLocation();
 				$this->Construct_SocialMedia();
 			}
 		}
@@ -145,6 +147,20 @@
 			}
 			
 			return $this->redirects = new HandlerRedirects($this->getArgs());
+		}
+			
+			/*
+				The script stage -- which script, file, class, format and
+				extension answer this request -- lives in HandlerScript.php,
+				and keeps nothing of its own either.
+			*/
+		
+		public function Construct_ScriptHandler() {
+			if(!class_exists('HandlerScript', FALSE)) {
+				ggreq('classes/Networking/Handler/HandlerScript.php');
+			}
+			
+			return $this->script_handler = new HandlerScript($this->getArgs());
 		}
 		
 		public function getArgs() {
@@ -459,144 +475,6 @@
 			}
 		}
 		
-		public function Construct_ScriptName() {
-			$cleanser_args = [
-				'input'=>$this->desired_script,
-			];
-			
-			$this->script_name = $this->cleanser->CleanseInput($cleanser_args)['cleansedinput'];
-			
-			if(!$this->script_name) {
-				$this->Construct_ScriptName_SetScriptNameDefault();
-			}
-			
-			return TRUE;
-		}
-		
-		public function CheckPermalinkRedirect() {
-			$permalink_id = (int)$this->query->Parameter(['parameter'=>'id']);
-			
-			if($this->PermalinkRedirect(['permalink_id'=>$permalink_id])) {
-				return FALSE;
-			}
-			
-			return TRUE;
-		}
-		
-		public function PermalinkRedirect($args) {
-			$permalink_id = $args['permalink_id'];
-			
-			if($permalink_id) {
-				$assignment_record_args = [
-					'type'=>'Assignment',
-					'definition'=>[
-						'id'=>$permalink_id,
-					],
-				];
-				
-				$assignment = $this->db_access->GetRecords($assignment_record_args);
-				
-				if($assignment && $assignment[0] && $assignment[0]['id']) {
-					$this->BuildRedirect(['assignment'=>$assignment[0], 'permalink_id'=>$permalink_id]);
-					return TRUE;
-				} else {
-					$this->issue_logging->createLog([
-						'issuetype'=>'BadPermalink',
-						'description'=>'Invalid Permalink ID: ' . $permalink_id,
-					]);
-				}
-			}
-			
-			return FALSE;
-		}
-		
-		public function BuildRedirect($args) {
-			$assignment = $args['assignment'];
-			$permalink_id = $args['permalink_id'];
-			
-			if(!$this->orm) {
-				$this->orm = new ORM($this->getArgs());
-			}
-			
-			$entry_records = $this->orm->SearchForEntries([
-				'fieldname'=>'id',
-				'fieldvalue'=>$assignment['Childid'],
-				'assignmentid'=>$permalink_id,
-				'includeunpublished'=>TRUE,
-			])[0];
-			
-			if(!$entry_records || count($entry_records) === 0) {
-			#	print("NONE");
-				return FALSE;
-			}
-			
-			$redirect_url = '';
-			
-			if($_SERVER['HTTPS'] === 'on') {
-				$redirect_url .= 'https://';
-			} else {
-				$redirect_url .= 'http://';
-			}
-			$redirect_url .= $this->domain->primary_domain_lowercased;
-			
-			$entry_record_count = count($entry_records['parents']);
-			for($i = 0; $i < $entry_record_count; $i++) {
-				$entry_record = $entry_records['parents'][$i];
-				$redirect_url .= '/' . $entry_record['Code'];
-			}
-			
-			$action = $this->desired_action;
-			
-			if($action === 'Edit') {
-				$redirect_url .= '/modify.php';
-			} else {
-				$redirect_url .= '/';
-			}
-			
-			if($this->desired_action && $this->desired_action !== 'display') {
-				if($action !== 'Edit') {
-					$redirect_url .= 'view.php';
-				}
-				$redirect_url .= '?action=' . $this->desired_action;
-			}
-			
-			return $this->redirect_url = $redirect_url;
-		}
-		
-		public function Construct_ScriptFileAndExtension() {
-			$script_name_pieces = explode('.', $this->script_name);
-			array_pop($script_name_pieces);
-			$this->script_file = implode('.', $script_name_pieces);
-			$this->script_extension = pathinfo($this->script_name, PATHINFO_EXTENSION);
-			
-			return TRUE;
-		}
-		
-		public function Construct_ScriptClassname() {
-			$this->script_classname = str_replace('-', '', $this->script_file);
-			
-			return TRUE;
-		}
-		
-		public function Construct_ScriptFormat() {
-			$this->script_format = $this->Construct_ScriptFormat_DetermineScriptFormat();
-			$this->script_format_lower = $this->Construct_ScriptFormatLower_DetermineScriptFormatLower();
-			
-			return TRUE;
-		}
-		
-		public function Construct_ScriptLocation() {
-			switch($this->script_format) {
-				case 'CSS':
-					$this->script_location = GGCMS_DIR . 'scripts/style.php';
-					break;
-				
-				default:
-					$this->script_location = GGCMS_DIR . 'scripts/' . $this->script_file . '.php';
-					break;
-			}
-		}
-		
 		public function Construct_SocialMedia() {
 			$this->google_api = new Google($this->getArgs());
 			
@@ -611,219 +489,6 @@
 			}
 			
 			return TRUE;
-		}
-		
-		public function Construct_ScriptName_SetScriptNameDefault() {
-			return $this->script_name = 'view.php';
-		}
-		
-			# one day: https://gist.github.com/aymen-mouelhi/82c93fbcd25f091f2c13faa5e0d61760
-		public function Construct_ScriptFormat_DetermineScriptFormat() {
-			switch ($this->script_extension) {
-				case '':
-				case 'php':
-				case 'php3':
-				case 'cfm':
-				case 'cgi':
-				case 'asp':
-				case 'aspx':
-				case 'htm':
-				case 'html':
-				case 'xhtml':
-				case 'phtml':
-				case 'shtml':
-				case 'rhtml':
-				case 'dll':
-				case 'py':
-				case 'rb':
-				case 'php4':
-				case 'pl':
-				case 'wss':
-				case 'jspx':
-				case 'do':
-				case 'action':
-				case 'axd':
-				case 'asx':
-				case 'asmx':
-				case 'ashx':
-				case 'svc':
-				case 'jsp':
-				case 'yaws':
-				case 'kt':
-				case 'adp':
-				case 'hta':
-				case 'rjs':
-				case 'erb':
-				case 'htc':
-				case 'dtl':
-				case 'mvc':
-					return 'HTML';
-					
-				case 'css':
-					return 'CSS';
-					
-				case 'xml':
-					return 'XML';
-					
-				case 'txt':
-					return 'TXT';
-				
-				case 'pdf':
-					return 'PDF';
-					
-				case 'rtf':
-					return 'RTF';
-					
-				case 'epub':
-					return 'EPub';
-					
-				case 'daisy':
-					return 'DAISY';
-					
-				case 'json':
-					return 'JSON';
-					
-				case 'csv':
-					return 'CSV';
-					
-				case 'sgml':
-					return 'SGML';
-					
-				case 'tex':
-					return 'TEX';
-					
-				case 'opds':
-					return 'OPDS';
-					
-				case 'rdf':
-					return 'RDF';
-					
-				case 'rss':
-					return 'RSS';
-					
-				case 'atom':
-					return 'ATOM';
-					
-				case 'brf':
-					return 'BRF';
-					
-					/*
-				case 'apng':
-				case 'avif':
-				case 'bmp':
-				case 'cur':
-				case 'gif':
-				case 'ico':
-				case 'jfif':
-				case 'jpeg':
-				case 'jpg':
-				case 'pjp':
-				case 'pjpeg':
-				case 'png':
-				case 'svg':
-				case 'tif':
-				case 'tiff':
-				case 'webp':
-					return 'Image';
-					*/
-					
-				default:
-					return '';
-			}
-		}
-		
-		public function Construct_ScriptFormatLower_DetermineScriptFormatLower() {
-			switch ($this->script_extension) {
-				case '':
-				case 'php':
-				case 'php3':
-				case 'cfm':
-				case 'cgi':
-				case 'asp':
-				case 'aspx':
-				case 'htm':
-				case 'html':
-				case 'xhtml':
-				case 'phtml':
-				case 'shtml':
-				case 'rhtml':
-				case 'dll':
-				case 'py':
-				case 'rb':
-				case 'php4':
-				case 'pl':
-				case 'wss':
-				case 'jspx':
-				case 'do':
-				case 'action':
-				case 'axd':
-				case 'asx':
-				case 'asmx':
-				case 'ashx':
-				case 'svc':
-				case 'jsp':
-				case 'yaws':
-				case 'kt':
-				case 'adp':
-				case 'hta':
-				case 'rjs':
-				case 'erb':
-				case 'htc':
-				case 'dtl':
-				case 'mvc':
-					return 'html';
-					
-				case 'css':
-					return 'css';
-					
-				case 'xml':
-					return 'xml';
-					
-				case 'txt':
-					return 'txt';
-					
-				case 'pdf':
-					return 'pdf';
-					
-				case 'rtf':
-					return 'rtf';
-					
-				case 'epub':
-					return 'epub';
-					
-				case 'daisy':
-					return 'daisy';
-				
-				case 'json':
-					return 'json';
-					
-				case 'csv':
-					return 'csv';
-					
-				case 'sgml':
-					return 'sgml';
-					
-				case 'tex':
-					return 'tex';
-					
-				case 'opds':
-					return 'opds';
-					
-				case 'rdf':
-					return 'rdf';
-					
-				case 'rss':
-					return 'rss';
-					
-				case 'atom':
-					return 'atom';
-					
-				case 'brf':
-					return 'brf';
-					
-				default:
-					return '';
-			}
 		}
 		
 		public function HandleRequest() {

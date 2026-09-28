@@ -18,6 +18,18 @@ live installation rather than estimated.
   Handler's, reached through `$this->handler`. The crawl plus 44 deliberately
   mangled URLs came out the same, status, Location and body.
 
+- The second piece, `HandlerScript`, works out which script, file, class,
+  format and extension answer a request; the permalink redirects joined
+  `HandlerRedirects`. Handler is down to about 1,240 lines from 2,552. The
+  script stage runs on every request and had never been tested; it has four
+  tests now.
+
+- A link pasted out of prose -- `revoltlib.com/people)` -- 404ed on the host,
+  though the engine has repaired exactly that for years. nginx gives every
+  dotless path a trailing slash first, so the engine saw `/people)/`; and a
+  repair answered in place never went back through nginx for its slash. Both
+  are handled, and every such form now reaches the page, canonical to it.
+
 ## 2026, September 27
 
 - The hosts moved from PHP 8.1 to 8.5.11 at 20:03 UTC. 8.1 had come from

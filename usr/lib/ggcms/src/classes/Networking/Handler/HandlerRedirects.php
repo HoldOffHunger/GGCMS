@@ -245,7 +245,7 @@
 				
 				if($assignment && $assignment[0] && $assignment[0]['id']) {
 					$permalink_id = (int)$assignment[0]['id'];
-					$redirect_url = $this->handler->BuildRedirect(['permalink_id'=>$permalink_id, 'assignment'=>$assignment[0]]);
+					$redirect_url = $this->BuildRedirect(['permalink_id'=>$permalink_id, 'assignment'=>$assignment[0]]);
 					if($redirect_url) {
 						$this->handler->redirect_url = $redirect_url;
 						return $this->handleRedirect();
@@ -703,7 +703,7 @@
 			
 			$assignment = $this->handler->db_access->GetRecords($assignment_record_args)[0];
 			
-			$redirect_url = $this->handler->BuildRedirect(['assignment'=>$assignment, 'permalink_id'=>$assignment['id']]);
+			$redirect_url = $this->BuildRedirect(['assignment'=>$assignment, 'permalink_id'=>$assignment['id']]);
 			
 			if($redirect_url) {
 				return $this->handleRedirect();
@@ -908,13 +908,13 @@
 			$this->handler->Construct_Query();
 			$this->handler->Construct_Action();
 			$this->handler->Construct_ObjectsAndScripts();
-			$this->handler->Construct_ScriptName();
-			$this->handler->Construct_ScriptFileAndExtension();
-			$this->handler->Construct_ScriptClassname();
-			$this->handler->Construct_ScriptFormat();
+			$this->handler->script_handler->Construct_ScriptName();
+			$this->handler->script_handler->Construct_ScriptFileAndExtension();
+			$this->handler->script_handler->Construct_ScriptClassname();
+			$this->handler->script_handler->Construct_ScriptFormat();
 
 			if($this->handler->script_name) {
-				$this->handler->Construct_ScriptLocation();
+				$this->handler->script_handler->Construct_ScriptLocation();
 			}
 
 				/*
@@ -1017,6 +1017,96 @@
 			header('Location: ' . $location);
 			
 			return TRUE;
+		}
+		
+		public function CheckPermalinkRedirect() {
+			$permalink_id = (int)$this->handler->query->Parameter(['parameter'=>'id']);
+			
+			if($this->PermalinkRedirect(['permalink_id'=>$permalink_id])) {
+				return FALSE;
+			}
+			
+			return TRUE;
+		}
+		
+		public function PermalinkRedirect($args) {
+			$permalink_id = $args['permalink_id'];
+			
+			if($permalink_id) {
+				$assignment_record_args = [
+					'type'=>'Assignment',
+					'definition'=>[
+						'id'=>$permalink_id,
+					],
+				];
+				
+				$assignment = $this->handler->db_access->GetRecords($assignment_record_args);
+				
+				if($assignment && $assignment[0] && $assignment[0]['id']) {
+					$this->BuildRedirect(['assignment'=>$assignment[0], 'permalink_id'=>$permalink_id]);
+					return TRUE;
+				} else {
+					$this->handler->issue_logging->createLog([
+						'issuetype'=>'BadPermalink',
+						'description'=>'Invalid Permalink ID: ' . $permalink_id,
+					]);
+				}
+			}
+			
+			return FALSE;
+		}
+		
+		public function BuildRedirect($args) {
+			$assignment = $args['assignment'];
+			$permalink_id = $args['permalink_id'];
+			
+			if(!$this->handler->orm) {
+				$this->handler->orm = new ORM($this->handler->getArgs());
+			}
+			
+			$entry_records = $this->handler->orm->SearchForEntries([
+				'fieldname'=>'id',
+				'fieldvalue'=>$assignment['Childid'],
+				'assignmentid'=>$permalink_id,
+				'includeunpublished'=>TRUE,
+			])[0];
+			
+			if(!$entry_records || count($entry_records) === 0) {
+			#	print("NONE");
+				return FALSE;
+			}
+			
+			$redirect_url = '';
+			
+			if($_SERVER['HTTPS'] === 'on') {
+				$redirect_url .= 'https://';
+			} else {
+				$redirect_url .= 'http://';
+			}
+			$redirect_url .= $this->handler->domain->primary_domain_lowercased;
+			
+			$entry_record_count = count($entry_records['parents']);
+			for($i = 0; $i < $entry_record_count; $i++) {
+				$entry_record = $entry_records['parents'][$i];
+				$redirect_url .= '/' . $entry_record['Code'];
+			}
+			
+			$action = $this->handler->desired_action;
+			
+			if($action === 'Edit') {
+				$redirect_url .= '/modify.php';
+			} else {
+				$redirect_url .= '/';
+			}
+			
+			if($this->handler->desired_action && $this->handler->desired_action !== 'display') {
+				if($action !== 'Edit') {
+					$redirect_url .= 'view.php';
+				}
+				$redirect_url .= '?action=' . $this->handler->desired_action;
+			}
+			
+			return $this->handler->redirect_url = $redirect_url;
 		}
 	}
 
