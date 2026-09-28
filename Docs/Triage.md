@@ -890,6 +890,15 @@ bytes in `utf8mb4`, in each database that has one. The largest tables are
 revoltlib's `InternalServerIssueOld` (917 MB), `RecordChange` (646 MB) and
 `TextBody` (362 MB).
 
+**The rest of the 500s, the same evening.** `DBAccess::ExecuteStatement()`
+now catches MySQL's 3988 -- the refusal to convert -- at the one place every
+prepared query runs. A SELECT that asks for what no utf8mb3 column can hold
+matches nothing and answers empty; a write that meets it is a failed write,
+returned the way every other failed write is. Anything else still throws. The
+conversion to utf8mb4 is still the real fix -- until it happens, a comment or
+title with an emoji in it cannot be saved -- but it no longer takes a page down.
+
+
 
 ### earthfluent.com
 

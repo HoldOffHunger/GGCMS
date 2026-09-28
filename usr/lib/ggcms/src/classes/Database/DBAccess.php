@@ -455,7 +455,13 @@
 				$objects = [];
 	#			print_r($query);
 				$execute_line = __LINE__;
-				if(!$statement->execute()) {
+				$executed = $this->ExecuteStatement(['statement'=>$statement, 'query'=>$query]);
+				
+				if($executed === NULL) {
+					return [];		# asked for what no row can hold
+				}
+				
+				if(!$executed) {
 					$get_error_args = [
 						'specifictype'=>'Execute',
 						'query'=>$query,
@@ -494,6 +500,40 @@
 			return $this->GetError($get_error_args);
 			
 			# http://php.net/manual/en/language.constants.predefined.php
+		}
+		
+			// ExecuteStatement()
+			// Tests: DBAccessTest::testExecuteStatement()
+			// Test file: tests/src/classes/Database/DBAccessTest.php
+			/*
+				Runs a prepared statement, answering whether it ran -- or NULL
+				when it asked for a value no column could hold, and so matches
+				nothing.
+				
+				The tables are utf8mb3.  Asked to compare a column with an emoji,
+				or with bytes that are not UTF-8, MySQL throws 3988 rather than
+				answer, and every such lookup was a 500: a username with an emoji
+				in the query string, a search for one.  No row can hold what the
+				column cannot store, so for a SELECT the answer is simply none.
+				A write that meets it is a failed write, reported the way every
+				other failed write is, rather than a 500.  Anything else still
+				throws.  Once the tables are utf8mb4, this stops happening.
+			*/
+		
+		public function ExecuteStatement($args) {
+			try {
+				return $args['statement']->execute();
+			} catch(mysqli_sql_exception $exception) {
+				if($exception->getCode() !== 3988) {
+					throw $exception;
+				}
+				
+				if(preg_match('/^\s*SELECT\b/i', $args['query'])) {
+					return NULL;
+				}
+				
+				return FALSE;
+			}
 		}
 		
 		public function GetError($args) {

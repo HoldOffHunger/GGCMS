@@ -42,6 +42,12 @@ live installation rather than estimated.
   is looked up -- waits on converting the tables to utf8mb4, which is measured
   in Triage and not yet decided.
 
+- The emoji half followed: every query now runs through one place that
+  catches MySQL's refusal, so a lookup for an emoji finds nothing and a save
+  that holds one fails politely instead of taking the page down. Storing
+  emoji at all still waits on the utf8mb4 conversion.
+
+
 - `modify.php` let any signed-in reader delete any entry on any site -- one
   GET did it -- because its Delete asked who may see an entry, and asked
   before loading it. Only an administrator, or a reader withdrawing their own
