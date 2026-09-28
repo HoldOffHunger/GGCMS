@@ -2913,7 +2913,7 @@
 			
 			foreach($users as $user) {
 				if($user && $user['id']) {
-					unset($user['Password']);
+					unset($user['Password'], $user['PasswordHash']);
 				}
 				$userlist[$user['id']] = $user;
 			}
@@ -2961,7 +2961,7 @@
 			
 			foreach($entries as $entry) {
 				if($entry && $entry['id']) {
-					unset($entry['Password']);
+					unset($entry['Password'], $entry['PasswordHash']);
 					
 					$entry_parents = $this->orm->GetEntryParents(['entry'=>$entry]);
 					
@@ -3019,7 +3019,7 @@
 			
 			foreach($entries as $entry) {
 				if($entry && $entry['id']) {
-					unset($entry['Password']);
+					unset($entry['Password'], $entry['PasswordHash']);
 					
 					$entry_parents = $this->orm->GetEntryParents(['entry'=>$entry]);
 					

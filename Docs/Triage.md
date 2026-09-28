@@ -457,7 +457,30 @@ normalization, successful-reset behavior and limits shared across domains.
 Verify current reverse-proxy or WAF policy before deployment, since no upstream
 login-specific limit is documented in this repository.
 
-### User passwords use unsalted single-pass SHA-256
+### User passwords use unsalted single-pass SHA-256 (resolved 27 September 2026, upgrading as people sign in)
+
+New passwords are `password_hash()` in a new `User.PasswordHash` column,
+checked with `password_verify()`. An account still on SHA-256 is checked that
+way, compared in constant time, and on that success is rehashed and its old
+`Password` set back to the column default, so each account upgrades the next
+time its owner signs in. A username with no account is checked against a decoy
+bcrypt hash, so it answers no faster than a real one. `SimpleORM` strips
+`PasswordHash` wherever it stripped `Password`, and admin cloning copies it.
+`AuthenticationTest` covers both kinds of hash, the upgrade, and a login again
+on the new hash; on Fumiko a probe account on SHA-256 signed in, was upgraded
+to `$2y$12$`, and signed in again.
+
+**The column must exist before this is deployed** -- the ORM names every column
+it knows in its SELECT, so without it every login fails:
+
+```sql
+ALTER TABLE clonefrom.User ADD COLUMN PasswordHash varchar(255) NOT NULL DEFAULT '' AFTER Password;
+ALTER TABLE <each site>.User ADD COLUMN PasswordHash varchar(255) NOT NULL DEFAULT '' AFTER Password;
+```
+
+`User.Password` stays until no account is left on SHA-256; then it can go.
+
+The finding as first recorded:
 
 `Authentication::Login()` computes `hash('sha256', $password)` and asks MySQL
 to compare its 32 decoded bytes directly with `User.Password`. The schema fixes
@@ -477,6 +500,31 @@ ordinary password-login accounts accidentally during migration.
 Test legacy login and upgrade, modern login, wrong passwords, copied admin
 accounts and Google-created accounts before removing the legacy branch. Do not
 log either plaintext passwords or stored password material during migration.
+
+### A blank username and the password seed signed in as a Google account (resolved 27 September 2026)
+
+Google sign-in created each account with no username and a password of
+SHA-256 of `globals->passwordseed`. `NewRandomPasswordSeed()` returns one
+fixed string for every site, and the public repository's
+`etc/ggcms/clonefrom.php` prints the very value the sites use. `Login()`
+matched a blank username like any other, so the login form, with the
+username left empty and that string as the password, signed in as the first
+such account. Proved on Fumiko with a probe account: it reached
+`user-panel.php` with a session. Last night's copies of all nineteen
+databases held no account on the current seed, so no one was exposed yet;
+every Google sign-in from now would have been.
+
+`Login()` now refuses a blank username before any lookup, and Google
+sign-in creates accounts with no password at all.
+`AuthenticationTest::testLoginRefusesBlankUsername()` fails on the code before.
+
+Still worth doing on the host: many older Google accounts share one password
+hash from an earlier seed -- 40 of revoltlib's 46 users, 4 of them with a
+username, which the blank-username refusal does not cover. That seed was never
+committed, but those rows are best cleared:
+`UPDATE User SET Password = DEFAULT(Password) WHERE Password = <that shared hash>`,
+per site, after checking none is an administrator. `passwordseed` itself is now
+read by nothing in the engine.
 
 ### First-time Google login passes the empty lookup to `Login_Successful()` (resolved 26 September 2026)
 

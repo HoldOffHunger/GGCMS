@@ -191,7 +191,7 @@
 		}
 		
 			// Login()
-			// Tests: AuthenticationTest::testLogin(), AuthenticationTest::testLoginLimits()
+			// Tests: AuthenticationTest::testLogin(), AuthenticationTest::testLoginLimits(), AuthenticationTest::testLoginRefusesBlankUsername()
 			// Test file: tests/src/classes/Security/AuthenticationTest.php
 			/*
 				Refused before the password is looked at, so a guess made
@@ -201,6 +201,24 @@
 		public function Login($args) {
 			$username = $args['username'];
 			$password = $args['password'];
+				
+				/*
+					Google sign-in makes accounts with no username, and gave
+					every one of them the same password: SHA-256 of the site's
+					password seed, which is one fixed string for every site and
+					is printed in the public repository's clonefrom.php.  The
+					lookup below matched a blank username like any other, so
+					that seed signed in as any of them.  A blank username is
+					never a password login.
+				*/
+			
+			if(!is_string($username) || trim($username) === '' || !is_string($password)) {
+				return $this->Login_Failure([
+					'username'=>$username,
+					'password'=>$password,
+					'hashed_password'=>'',
+				]);
+			}
 			
 			$address = $this->LoginAttempt_ClientAddress();
 			
@@ -219,18 +237,10 @@
 				]);
 			}
 			
-			$hashed_password = hash('sha256', $password);
-			
 			$user_record_args = [
 				'type'=>'User',
 				'definition'=>[
 					'Username'=>$username,
-					'RAW'=>[
-						'Password'=>[
-							'=',
-							'UNHEX(\'' . $hashed_password . '\')',
-						],
-					],
 				],
 				'limit'=>1,
 				'joins'=>[
@@ -245,7 +255,19 @@
 				throw new RuntimeException('Unable to verify login credentials.');
 			}
 			
-			if($user_account) {
+			$verify_password_args = [
+				'useraccount'=>$user_account[0] ?? NULL,
+				'password'=>$password,
+			];
+			
+			if($this->Login_VerifyPassword($verify_password_args)) {
+				$this->Login_UpgradePassword([
+					'useraccount'=>$user_account[0],
+					'password'=>$password,
+				]);
+				
+				unset($user_account[0]['Password'], $user_account[0]['PasswordHash']);
+				
 				$this->LoginAttempt_Clear(['username'=>$username, 'address'=>$address]);
 				
 				$this->user_account = $user_account;
@@ -265,10 +287,108 @@
 				$login_failure_args = [
 					'username'=>$username,
 					'password'=>$password,
-					'hashed_password'=>$hashed_password,
+					'hashed_password'=>'',
 				];
 				return $this->Login_Failure($login_failure_args);
 			}
+		}
+			
+			// Passwords
+			// -----------------------------------------------------------------
+			
+			/*
+				Passwords were one pass of unsalted SHA-256 in User.Password,
+				so equal passwords stored equal and a copied database could be
+				guessed at billions a second.  New ones are password_hash() in
+				User.PasswordHash: bcrypt, salted, and slow on purpose.  An
+				account still on SHA-256 is checked that way once more, and
+				on that success is rehashed and its old Password cleared, so
+				each account upgrades the next time its owner signs in.
+			*/
+			
+			// Login_VerifyPassword()
+			// Tests: AuthenticationTest::testLogin_VerifyPassword(), AuthenticationTest::testLogin()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
+		public function Login_VerifyPassword($args) {
+			$user_account = $args['useraccount'];
+			$password = $args['password'];
+			
+			if(!$user_account) {
+				password_verify($password, $this->Login_DecoyHash());		# as slow as a real check, so a missing account does not answer faster
+				return FALSE;
+			}
+			
+			$password_hash = (string)($user_account['PasswordHash'] ?? '');
+			
+			if(strlen($password_hash)) {
+				return password_verify($password, $password_hash);
+			}
+				
+				// The ORM selects binary columns as HEX(), so this is 64 hex digits
+			$legacy_hash = strtolower((string)($user_account['Password'] ?? ''));
+			
+			if(strlen($legacy_hash) !== 64) {
+				return FALSE;
+			}
+			
+			return hash_equals($legacy_hash, hash('sha256', $password));
+		}
+			
+			// Login_UpgradePassword()
+			// Tests: AuthenticationTest::testLogin_UpgradePassword()
+			// Test file: tests/src/classes/Security/AuthenticationTest.php
+		public function Login_UpgradePassword($args) {
+			$user_account = $args['useraccount'];
+			$password = $args['password'];
+			
+			$password_hash = (string)($user_account['PasswordHash'] ?? '');
+			
+			if(strlen($password_hash) && !password_needs_rehash($password_hash, PASSWORD_DEFAULT)) {
+				return FALSE;
+			}
+			
+			$user_update_args = [
+				'type'=>'User',
+				'update'=>[
+					'PasswordHash'=>password_hash($password, PASSWORD_DEFAULT),
+					'RAW'=>[
+						'Password'=>[
+							'=',
+							'DEFAULT(Password)',
+						],
+					],
+				],
+				'where'=>[
+					'id'=>$user_account['id'],
+				],
+			];
+			
+			$user_update_results = $this->handler->db_access->UpdateRecord($user_update_args);
+				
+				/*
+					The login itself has succeeded, so a failed upgrade does not
+					undo it; the account simply upgrades next time.
+				*/
+			
+			if(!empty($user_update_results['line'])) {
+				$this->LoginAttempt_LogIssue([
+					'issuetype'=>'Password Upgrade Failed',
+					'description'=>'Could not store a password_hash() for user ' . $user_account['id'] . '; they signed in on the old hash and will upgrade on a later login.',
+				]);
+				
+				return FALSE;
+			}
+			
+			return TRUE;
+		}
+			
+			/*
+				A real bcrypt hash of a random string nobody kept, at the
+				default cost, so checking it takes as long as a real password.
+			*/
+		
+		public function Login_DecoyHash() {
+			return '$2y$12$roI3guxzk8SIsnotIzf5t.nLi2C9Ct6GDj6SM0YHU3p0SV8n1rymG';
 		}
 		
 		public function Logout() {
@@ -637,11 +757,11 @@
 			// Tests: AuthenticationTest::testLoginAttempt_ClientAddress()
 			// Test file: tests/src/classes/Security/AuthenticationTest.php
 		public function LoginAttempt_ClientAddress() {
-			$forwarded = explode(',', (string)$_SERVER['HTTP_X_FORWARDED_FOR']);
+			$forwarded = explode(',', (string)($_SERVER['HTTP_X_FORWARDED_FOR'] ?? ''));
 			$address = trim(end($forwarded));
 			
 			if(!filter_var($address, FILTER_VALIDATE_IP)) {
-				$address = (string)$_SERVER['REMOTE_ADDR'];
+				$address = (string)($_SERVER['REMOTE_ADDR'] ?? '');
 			}
 			
 			$packed = filter_var($address, FILTER_VALIDATE_IP) ? inet_pton($address) : FALSE;

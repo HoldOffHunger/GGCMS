@@ -2563,6 +2563,16 @@
 					'Extra' => '',
 				],
 				
+				'PasswordHash' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
 				'EmailAddress' => [
 					'Type' => 'varchar(255)',
 					'TypeBase' => 'varchar',

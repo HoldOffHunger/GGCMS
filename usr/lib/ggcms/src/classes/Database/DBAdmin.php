@@ -594,6 +594,7 @@
 						'id'=>$user_account['id'],
 						'Username'=>$user_account['Username'],
 						'Password'=>pack("H*", $user_account['Password']),
+						'PasswordHash'=>$user_account['PasswordHash'],
 						'EmailAddress'=>$user_account['EmailAddress'],
 					];
 					

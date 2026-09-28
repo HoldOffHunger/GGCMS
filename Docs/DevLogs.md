@@ -94,6 +94,19 @@ live installation rather than estimated.
   wrong passwords were kept, the fourth was refused uncounted, and the one ISI
   carried the account and address with the password redacted.
 
+- Passwords move from one pass of unsalted SHA-256 to `password_hash()`, in a
+  new `User.PasswordHash` column that must be added on every site before
+  deploying. Each account upgrades itself the next time its owner signs in.
+  On the way, a worse hole: every account Google sign-in made had no username
+  and the same password, SHA-256 of a seed the public repository prints, and a
+  blank username was a valid login. It is refused now, and Google accounts get
+  no password. No account on the current seed existed yet.
+
+- The rendering bug hunt's own runner, `tests/regression/rendering-bug-hunt/run.php`,
+  had 48 of its fixture runs failing before any of today's work -- most dying
+  outright with exit 255 -- and still does. Its login fixture, which today's
+  limits broke, is updated to the new contract and passes.
+
 ## 2026, September 26
 
 - Every error and issue row on every site had been storing the request it came

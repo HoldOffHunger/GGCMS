@@ -1062,6 +1062,7 @@ CREATE TABLE `User` (
   `id` int NOT NULL AUTO_INCREMENT,
   `Username` varchar(255) NOT NULL DEFAULT '',
   `Password` binary(32) NOT NULL DEFAULT '0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
+  `PasswordHash` varchar(255) NOT NULL DEFAULT '',
   `EmailAddress` varchar(255) NOT NULL DEFAULT '',
   `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
@@ -1076,7 +1077,7 @@ CREATE TABLE `User` (
 
 LOCK TABLES `User` WRITE;
 /*!40000 ALTER TABLE `User` DISABLE KEYS */;
-INSERT INTO `User` VALUES (1,'holdoffhunger',_binary ')Ll≠æ$o4|lß\ﬁ≈êdn˙\Ê<ê˘V∑\Êƒ∂\◊˛9É','holdoffhunger@gmail.com','0000-00-00 00:00:00','0000-00-00 00:00:00');
+INSERT INTO `User` VALUES (1,'holdoffhunger',_binary ')Ll≠æ$o4|lß\ﬁ≈êdn˙\Ê<ê˘V∑\Êƒ∂\◊˛9É','','holdoffhunger@gmail.com','0000-00-00 00:00:00','0000-00-00 00:00:00');
 /*!40000 ALTER TABLE `User` ENABLE KEYS */;
 UNLOCK TABLES;
 

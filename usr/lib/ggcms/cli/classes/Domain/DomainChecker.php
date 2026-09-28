@@ -335,6 +335,7 @@
 					'id',
 					'Username',
 					'Password',
+					'PasswordHash',
 					'EmailAddress',
 				]
 			;

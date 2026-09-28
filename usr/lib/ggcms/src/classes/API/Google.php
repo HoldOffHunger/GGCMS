@@ -72,17 +72,18 @@
 						$this->handler->authentication->Login_Successful(['useraccount'=>$user_account]);
 						$results['newuser'] = 0;
 					} else {
-						$hashed_password = hash('sha256', $this->handler->globals->passwordseed);
+							/*
+								No password.  Every account made here used to get
+								SHA-256 of the password seed, one fixed string
+								for every site, so any of them could be signed
+								into with it and a blank username.  A Google
+								account signs in through Google alone.
+							*/
+						
 						$user_record_args = [
 							'type'=>'User',
 							'definition'=>[
 								'EmailAddress'=>$email_address,
-								'RAW'=>[
-									'Password'=>[
-										'=',
-										'UNHEX(\'' . $hashed_password . '\')',
-									],
-								],
 							],
 						];
 						

@@ -9,7 +9,7 @@
 
 	class AuthenticationTestDatabase {
 		public $session_row;
-		public $accounts = [];			# username => password
+		public $users = [];				# username => User row, Password as the HEX() the ORM selects
 		public $attempts = [];			# LoginAttempt rows
 		public $missing_types = [];		# tables to answer as absent
 		public $queries = [];
@@ -30,13 +30,7 @@
 			}
 
 			if($args['type'] === 'User') {
-				$password = $this->accounts[$definition['Username']] ?? NULL;
-
-				if($password !== NULL && $definition['RAW']['Password'][1] === "UNHEX('" . hash('sha256', $password) . "')") {
-					return [['id'=>7, 'Username'=>$definition['Username'], 'EmailAddress'=>'reader@example.test', 'UserAdmin.id'=>NULL]];
-				}
-
-				return [];
+				return isset($this->users[$definition['Username']]) ? [$this->users[$definition['Username']]] : [];
 			}
 
 			return $this->session_row ? [$this->session_row] : [];
@@ -44,6 +38,20 @@
 
 		public function UpdateRecord($args) {
 			$this->updates[] = $args;
+
+			if($args['type'] === 'User') {
+				foreach($this->users as $username => $row) {
+					if($row['id'] === $args['where']['id']) {
+						if(isset($args['update']['PasswordHash'])) {
+							$this->users[$username]['PasswordHash'] = $args['update']['PasswordHash'];
+						}
+						if(($args['update']['RAW']['Password'][1] ?? NULL) === 'DEFAULT(Password)') {
+							$this->users[$username]['Password'] = '30' . str_repeat('00', 31);
+						}
+					}
+				}
+			}
+
 			return [];
 		}
 
@@ -116,8 +124,12 @@
 			$cookie = new AuthenticationTestCookie();
 			$cookie->token = $args['token'] ?? NULL;
 
-			$database->accounts = $args['accounts'] ?? [];
 			$database->missing_types = $args['missingtypes'] ?? [];
+
+				// Accounts still on unsalted SHA-256, as every account was
+			foreach($args['accounts'] ?? [] as $username => $password) {
+				$database->users[$username] = ['id'=>count($database->users) + 7, 'Username'=>$username, 'Password'=>strtoupper(hash('sha256', $password)), 'PasswordHash'=>'', 'EmailAddress'=>'reader@example.test', 'UserAdmin.id'=>NULL];
+			}
 
 			$handler = (object)['cookie_token'=>NULL, 'cookie'=>$cookie, 'db_access'=>$database, 'issue_logging'=>new AuthenticationTestIssueLogging()];
 
@@ -231,6 +243,74 @@
 			$this->assertSame([], $database->attempts, "success clears that address's failures for the account");
 			$this->assertSame(60, strlen($authentication->handler->cookie->set[0]['value']), 'and signs in');
 			$this->assertSame([], $this->issueTypes(['authentication'=>$authentication]));
+
+			$this->assertArrayNotHasKey('Password', $authentication->user_account[0], 'no password material is passed on');
+			$this->assertArrayNotHasKey('PasswordHash', $authentication->user_account[0]);
+
+			$row = $database->users['reader'];
+			$this->assertTrue(password_verify('right horse', $row['PasswordHash']), 'the SHA-256 account was upgraded by signing in');
+			$this->assertSame('30' . str_repeat('00', 31), $row['Password'], 'and its old hash cleared');
+
+			$this->assertSame('Success', $this->login(['authentication'=>$authentication, 'address'=>'198.51.100.7', 'password'=>'right horse']), 'and signs in again on the new hash');
+			$this->assertSame('Failure', $this->login(['authentication'=>$authentication, 'address'=>'198.51.100.7', 'password'=>'wrong']));
+		}
+
+			/*
+				Google sign-in made its accounts with no username and gave
+				every one the same password, SHA-256 of a seed printed in the
+				public repository.  A blank username never reaches the
+				lookup, whatever the password.
+			*/
+
+		public function testLoginRefusesBlankUsername() {
+			$_SERVER['REMOTE_ADDR'] = '127.0.0.1';
+
+			$authentication = $this->newAuthentication(['accounts'=>['' =>'the-published-seed']]);
+			$database = $authentication->handler->db_access;
+
+			foreach(['', '   '] as $username) {
+				$result = $authentication->Login(['username'=>$username, 'password'=>'the-published-seed']);
+
+				$this->assertSame('Failure', $result['status'], 'username "' . $username . '"');
+			}
+
+			$this->assertSame([], $database->queries, 'nothing was even looked up');
+			$this->assertSame('Failure', $authentication->Login(['username'=>['reader'], 'password'=>'x'])['status'], 'an array is not a username');
+		}
+
+		public function testLogin_VerifyPassword() {
+			$authentication = $this->newAuthentication([]);
+
+			$legacy = ['id'=>7, 'Password'=>strtoupper(hash('sha256', 'right horse')), 'PasswordHash'=>''];
+			$modern = ['id'=>7, 'Password'=>'30' . str_repeat('00', 31), 'PasswordHash'=>password_hash('right horse', PASSWORD_DEFAULT)];
+
+			$cases = [
+				['SHA-256, right',			$legacy,	'right horse',	TRUE],
+				['SHA-256, wrong',			$legacy,	'wrong horse',	FALSE],
+				['bcrypt, right',			$modern,	'right horse',	TRUE],
+				['bcrypt, wrong',			$modern,	'wrong horse',	FALSE],
+				['bcrypt ignores the old column',	['Password'=>$legacy['Password']] + $modern,	'right horse',	TRUE],
+				['cleared, no hash: nothing matches',	['id'=>7, 'Password'=>'30' . str_repeat('00', 31), 'PasswordHash'=>''],	'',	FALSE],
+				['no account',				NULL,		'right horse',	FALSE],
+			];
+
+			foreach($cases as [$label, $account, $password, $expected]) {
+				$this->assertSame($expected, $authentication->Login_VerifyPassword(['useraccount'=>$account, 'password'=>$password]), $label);
+			}
+
+			$this->assertSame(['algo'=>'2y', 'algoName'=>'bcrypt', 'options'=>['cost'=>12]], password_get_info($authentication->Login_DecoyHash()), 'the decoy costs what a real check costs');
+		}
+
+		public function testLogin_UpgradePassword() {
+			$authentication = $this->newAuthentication(['accounts'=>['reader'=>'right horse']]);
+			$database = $authentication->handler->db_access;
+
+			$this->assertTrue($authentication->Login_UpgradePassword(['useraccount'=>$database->users['reader'], 'password'=>'right horse']));
+			$this->assertSame(['id'=>7], $database->updates[0]['where']);
+			$this->assertSame(['=', 'DEFAULT(Password)'], $database->updates[0]['update']['RAW']['Password']);
+
+			$this->assertFalse($authentication->Login_UpgradePassword(['useraccount'=>$database->users['reader'], 'password'=>'right horse']), 'a current bcrypt hash is left alone');
+			$this->assertCount(1, $database->updates);
 		}
 
 			/*
