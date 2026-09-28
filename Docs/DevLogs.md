@@ -47,6 +47,13 @@ live installation rather than estimated.
   before loading it. Only an administrator, or a reader withdrawing their own
   still-unpublished submission, may delete now.
 
+- A reader's suggested edit -- filed as an unpublished copy for an
+  administrator -- was a 500 every time, and the crash turned out to be
+  protecting the site: past it, the copy's save would have deleted the live
+  entry's image files. It is filed cleanly now, and the original is left
+  exactly as it was.
+
+
 
 
 - `Handler.php` begins to split along its stages. Measured over the 405-page

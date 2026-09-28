@@ -834,7 +834,25 @@
 			return $record_types;
 		}
 		
+			/*
+				Whether this update changes the entry itself.  An administrator's
+				does.  A reader's does not: SetRecordFromQuery_Entry() gives it
+				no id, and it is filed as a new unpublished copy pointing back
+				at the original through OriginalEntryid, for an administrator to
+				accept.  The original is not touched -- so there is nothing of
+				it to back up, no path of it to reserve, and none of its files
+				to remove.
+			*/
+		
+		public function UpdatesInPlace() {
+			return !empty($this->entry['id']) && !empty($this->entry_unset['id']) && (string)$this->entry['id'] === (string)$this->entry_unset['id'];
+		}
+		
 		public function BackupOldRecord() {
+			if(!$this->UpdatesInPlace()) {
+				return TRUE;		# a reader's copy leaves the original as it was
+			}
+			
 			$entry = $this->entry;
 			$backup_record = $this->entry_unset;
 			
@@ -1115,7 +1133,7 @@
 					$records_to_delete = $unformatted_saved_records;
 				}
 				
-				if($child_record_type === 'image') {
+				if($child_record_type === 'image' && $this->UpdatesInPlace()) {		# a reader's copy shares the original's files
 					#print("BT: DELETE CHILD IMAGES!");
 					$image_directory_location = $this->GetImageFolderDirectory();
 					
@@ -1126,8 +1144,8 @@
 						$preserved_record_id_hash[$record_id_to_keep] = TRUE;
 					}
 					
-					foreach($this->entry_unset['image'] as $image) {
-						if(!$preserved_record_id_hash[$image['id']]) {
+					foreach($this->entry_unset['image'] ?? [] as $image) {
+						if(empty($preserved_record_id_hash[$image['id']])) {
 							$records_to_delete[] = $image;
 						}
 					}

@@ -65,6 +65,7 @@
 		['warroom-escaping', [], 4],
 		['transfer-entry', [], 7],
 		['modify-delete', [], 8],
+		['modify-reader-copy', [], 8],
 		['session-auth-error', [], 2],
 		['session-token-type', [], 6],
 		['session-recheck', [], 5],

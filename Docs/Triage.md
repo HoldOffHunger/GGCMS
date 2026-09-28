@@ -739,6 +739,28 @@ the button only when it is true. The `modify-delete` fixture covers each case.
 Whether it was ever used on the live sites is not known: the request logs do
 not say who was signed in. Deleting by GET is part of the CSRF entry above.
 
+### A reader's suggested edit crashed, and would have deleted the original's images (resolved 28 September 2026)
+
+A reader's Update is meant to file a new unpublished copy, pointing back at the
+original through `OriginalEntryid`. On Fumiko it was a 500 every time: the
+backup step reserved the original's path for the copy, which has no id yet,
+and MySQL refused the null `Entryid` -- the same crash `transfer.php` had.
+
+The crash was the only thing between a reader and the original's image files.
+With it out of the way, the step that tidies removed images walked the
+original's images, found none of them among the copy's, and unlinked every
+file -- proved on Fumiko: the row stayed and the picture was gone.
+
+`UpdatesInPlace()` now says whether an update changes the entry itself (an
+administrator's) or files a copy (a reader's). The backup -- path reservation
+and change records -- and the file removal run only in place. On Fumiko a
+reader's suggestion now leaves the original exactly as it was and files the
+copy; an administrator's rename still reserves the old path and records the
+change. The `modify-reader-copy` fixture covers both.
+
+Not fixed here: deleting an entry never removes its image files, because
+`Delete()` never sets `entry_unset`, which that step reads.
+
 ### `transfer.php` uses undefined locals around a live assignment update (resolved 28 September 2026)
 
 Worse than recorded: `transfer.php` was never admin-only. It declared only
