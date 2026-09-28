@@ -5,7 +5,7 @@ $source=file_get_contents(dirname(__DIR__,3).'/src/scripts/users.php');
 $start=strpos($source,'public function SetUser()');$end=strpos($source,'public function SetUserComments(', $start);
 if($start===FALSE||$end===FALSE){throw new Exception('Method boundaries missing');}
 eval('class UserLookupMethod {'.substr($source,$start,$end-$start).'}');
-class UserLookupFixture extends UserLookupMethod {public $params;public function Param($name){return $this->params[$name]??'';}}
+class UserLookupFixture extends UserLookupMethod {public $user;public $handler;public $params;public function Param($name){return $this->params[$name]??'';}}
 $failed=0;
 foreach(['no-params','missing-name','missing-id','found-name','found-id','fallback-id'] as $mode){
  $fixture=new UserLookupFixture();

@@ -18,5 +18,14 @@
 		$abstract_base_format_methods .= $method_source[0];
 	}
 
-	eval('class AbstractBaseFormat {' . $abstract_base_format_methods . '}');
+		/*
+			And every property the real class declares, so a format built on
+			the stand-in may set what it sets on the real one.  PHP 8.2 and
+			later deprecate any other, and these fixtures fail on a
+			deprecation.
+		*/
+
+	preg_match_all('/^\t\tpublic \$\w+;/m', $abstract_base_format_source, $abstract_base_format_properties);
+
+	eval('class AbstractBaseFormat {' . implode('', $abstract_base_format_properties[0]) . $abstract_base_format_methods . '}');
 ?>

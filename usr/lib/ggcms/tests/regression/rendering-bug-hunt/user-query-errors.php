@@ -4,7 +4,7 @@ set_error_handler(function($level,$message){throw new ErrorException($message,0,
 $source=file_get_contents(dirname(__DIR__,3).'/src/scripts/users.php');$methods='';
 foreach(['SetUserComments','SetUserLikesDislikes'] as $name){$start=strpos($source,'public function '.$name.'(');$end=strpos($source,'public function ',$start+16);if($start===FALSE||$end===FALSE){throw new Exception('Boundaries missing');}$methods.=substr($source,$start,$end-$start);}
 eval('class UserQueryMethods {'.$methods.'}');
-class UserQueryFixture extends UserQueryMethods {
+class UserQueryFixture extends UserQueryMethods {public $likedislikes;public $comments;public $handler;
  public $calls=[],$user=['id'=>7];
  public function SetRecordEntries($args){$this->calls[]='full';return $args['records'];}
  public function SetLimitedRecordEntries($args){$this->calls[]='limited';return $args['records'];}

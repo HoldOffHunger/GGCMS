@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 set_error_handler(function($level,$message){throw new ErrorException($message,0,$level);});
 function ggreq($path){require_once dirname(__DIR__,3).'/src/'.$path;}
-class UserExportSortingFixture {
+class UserExportSortingFixture {public $likes_count;public $comments_count;public $likedislikes;public $comments;public $user;public $handler;public $script_format_lower;
  public function Param($name){return FALSE;}
  public function render(){include dirname(__DIR__,3).'/src/templates/default/users/exportuser.php';}
 }

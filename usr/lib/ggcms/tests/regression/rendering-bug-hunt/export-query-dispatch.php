@@ -31,12 +31,14 @@ class Handler {
 $index=file_get_contents(dirname(__DIR__,6).'/var/www/html/index.php');
 $start=strpos($index,'$handler = NULL;');$end=strpos($index,'$page_output =',$start);
 $block=str_replace("require(GGCMS_DIR . 'classes/StandardLibraries.php');",'',substr($index,$start,$end-$start));
-$failed=0;
+$failed=0;$lines=[];
 foreach(['comments','likes','success'] as $mode){
  Handler::$mode=$mode;http_response_code(200);ob_start();eval($block);$output=ob_get_clean();
  $action=Handler::$action;
  $expected=$mode==='comments'?[]:($mode==='likes'?['hydrate','comment-count']:['hydrate','comment-count','hydrate','like-count','attributes','templates']);
  $ok=$action->calls===$expected && $action->handler->db_access->calls===($mode==='comments'?1:2) && http_response_code()===($mode==='success'?200:500) && $output===($mode==='success'?'Export completed':'Server error');
- echo ($ok?'PASS ':'FAIL ').'export query dispatch '.$mode.PHP_EOL;if(!$ok){$failed++;}
+ $lines[]=($ok?'PASS ':'FAIL ').'export query dispatch '.$mode.PHP_EOL;if(!$ok){$failed++;}
 }
+// Printed after the loop: in the CLI, output before a case marks headers sent, and PHP 8.5 then refuses http_response_code().
+echo implode('',$lines);
 exit($failed?1:0);

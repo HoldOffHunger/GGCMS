@@ -2,7 +2,7 @@
 error_reporting(E_ALL);set_error_handler(function($n,$m){throw new ErrorException($m,0,$n);});
 require __DIR__.'/abstract-base-format-stub.php';
 require dirname(__DIR__,3).'/src/classes/Format/OPDS.php';
-class OPDSFixture extends OPDS {public function __construct(){}public function SetAuthor(){return $this->script->record_to_use['Title'];}public function SetDescription(){return $this->script->record_to_use['Title'];}}
+class OPDSFixture extends OPDS {public $opds_filename;public function __construct(){}public function SetAuthor(){return $this->script->record_to_use['Title'];}public function SetDescription(){return $this->script->record_to_use['Title'];}}
 $failed=0;$_SERVER['REDIRECT_URL']='/book/view.opds';
 foreach(['Plain','A & B','<b>Title</b>','Literal &amp; entity','A "quoted" category'] as $title){$shown=html_entity_decode($title,ENT_QUOTES|ENT_HTML5,'UTF-8');
  $feed=new OPDSFixture();$feed->handler=(object)['cleanser'=>(object)['utf8_characters'=>new class{public function SystemCharSet(){return 'UTF-8';}}]];$feed->opds_filename='book';

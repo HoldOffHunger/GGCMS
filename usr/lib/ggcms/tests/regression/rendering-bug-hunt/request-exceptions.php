@@ -14,7 +14,7 @@ class RequestLogger {
  public static $calls=0;
  public function mylog($error,$level,$trace){self::$calls++;if(Handler::$mode==='logger-error'){print('partial logger');throw new RuntimeException('private logging diagnostic');}http_response_code(500);print('Configured server error');}
 }
-$failed=0;
+$failed=0;$lines=[];
 foreach(['success','exception','type-error','constructor','logger-error'] as $mode){
  Handler::$mode=$mode;RequestLogger::$calls=0;http_response_code(200);$request_failed=FALSE;
  ob_start();
@@ -22,6 +22,8 @@ foreach(['success','exception','type-error','constructor','logger-error'] as $mo
   $expected=$mode==='success'?'partial content':(in_array($mode,['exception','type-error'])?'Configured server error':'Internal Server Error');
   $ok=$output===$expected && http_response_code()===($mode==='success'?200:500) && $request_failed===($mode!=='success');
  }catch(Throwable $error){ob_end_clean();$ok=FALSE;}
- echo ($ok?'PASS ':'FAIL ').'request exception mode='.$mode.PHP_EOL;if(!$ok){$failed++;}
+ $lines[]=($ok?'PASS ':'FAIL ').'request exception mode='.$mode.PHP_EOL;if(!$ok){$failed++;}
 }
+// Printed after the loop: in the CLI, output before a case marks headers sent, and PHP 8.5 then refuses http_response_code().
+echo implode('',$lines);
 exit($failed?1:0);

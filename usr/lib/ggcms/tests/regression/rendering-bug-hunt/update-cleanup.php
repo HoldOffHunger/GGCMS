@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 set_error_handler(function($n,$m){throw new ErrorException($m,0,$n);});
 $source=file_get_contents(dirname(__DIR__, 3) . '/src/scripts/modify.php');
 $start=strpos($source,'public function Update()');$end=strpos($source,'public function Delete()', $start);
-eval('class UpdateFixture { '.substr($source,$start,$end-$start).'
+eval('class UpdateFixture {public $save_status;public $saveattemptresults;public $savepreparedresults;public $saveaccepted;public $entryid; '.substr($source,$start,$end-$start).'
  public $parent=["id"=>1];public $entry=["id"=>7];public $entry_unset=["association"=>[]];public $calls=[];
  public function Param($name){return FALSE;}
  public function DeleteChildRecordsForUpdate(){return FALSE;}

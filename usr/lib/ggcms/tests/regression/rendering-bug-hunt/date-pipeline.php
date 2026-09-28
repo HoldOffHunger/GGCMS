@@ -5,7 +5,7 @@ $root=dirname(__DIR__,3).'/src/';
 require $root.'traits/scripts/SimpleORM.php';
 $source=file_get_contents($root.'scripts/modify.php');
 $start=strpos($source,'public function PrepareRecordForSaving_EventDate()');$end=strpos($source,'public function PrepareRecordForSaving_Association()', $start);
-eval('class DatePipelineFixture {use SimpleORM;public $eventdate;public $entry=["id"=>7];public $handler;public function isUserAdmin(){return TRUE;}'.substr($source,$start,$end-$start).'}');
+eval('class DatePipelineFixture {public $eventdate_unsaved;use SimpleORM;public $eventdate_unprepared;public function __construct(){$this->entry=["id"=>7];}public $eventdate;public $entry;public $handler;public function isUserAdmin(){return TRUE;}'.substr($source,$start,$end-$start).'}');
 $defaults=['id'=>0,'Entryid'=>7,'swapped'=>FALSE,'EventTime'=>'','Title'=>''];
 $cases=[
  'empty'=>[[],[]],

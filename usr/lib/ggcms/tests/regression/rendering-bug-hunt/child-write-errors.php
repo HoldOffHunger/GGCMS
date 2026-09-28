@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 set_error_handler(function($n,$m){throw new ErrorException($m,0,$n);});
 require dirname(__DIR__,3).'/src/traits/scripts/SimpleORM.php';
-class ChildWriteFixture {use SimpleORM;public $rows,$rows_unsaved,$handler,$entry=['id'=>7],$errors=[],$admin_errors=[];public function isUserAdmin(){return TRUE;}}
+class ChildWriteFixture {use SimpleORM;public function __construct(){$this->entry=['id'=>7];$this->errors=[];$this->admin_errors=[];}public $entry;public $rows,$rows_unsaved,$handler;public $errors;public $admin_errors;public function isUserAdmin(){return TRUE;}}
 $failed=0;
 foreach([FALSE,TRUE] as $list){foreach([FALSE,TRUE] as $update){foreach(['success','message','empty-message'] as $mode){
  $row=['id'=>$update?9:0,'Entryid'=>7,'Tag'=>'submitted','swapped'=>FALSE];

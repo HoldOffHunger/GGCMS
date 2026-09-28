@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 set_error_handler(function($level,$message){throw new ErrorException($message,0,$level);});
 function ggreq($path) {}
 class module_entrysort { public function __construct($args){} public function Sort($args){return $args['entries'];} }
-class UserExportFixture {
+class UserExportFixture {public $likedislikes;public $likes_count;public $comments_count;public $comments;public $user;public $script_format_lower;public $handler;
  public function Param($name){return FALSE;}
  public function render(){include dirname(__DIR__,3).'/src/templates/default/users/exportuser.php';}
 }

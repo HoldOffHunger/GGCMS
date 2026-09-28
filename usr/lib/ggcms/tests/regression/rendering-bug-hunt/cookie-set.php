@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 set_error_handler(function($level,$message){throw new \ErrorException($message,0,$level);});
 $source=file_get_contents(dirname(__DIR__,3).'/src/classes/Networking/Cookie.php');
 $start=strpos($source,'public function SetCookie(');$end=strpos($source,'public function GetCookie(',$start);
-eval('namespace CookieSetFixture; class Cookie {'.substr($source,$start,$end-$start).'public function TemporaryCookieExpirationTime(){return 10;}public function PermanentCookieExpirationTime(){return 20;}public function DeleteCookieExpirationTime(){return -10;}public function CookiePath(){return "/";}public function CookieHTTPOnlyOption(){return FALSE;}}');
+eval('namespace CookieSetFixture; class Cookie {public $handler;'.substr($source,$start,$end-$start).'public function TemporaryCookieExpirationTime(){return 10;}public function PermanentCookieExpirationTime(){return 20;}public function DeleteCookieExpirationTime(){return -10;}public function CookiePath(){return "/";}public function CookieHTTPOnlyOption(){return FALSE;}}');
 function setcookie(...$args){$GLOBALS['cookie_args']=$args;return $GLOBALS['cookie_result'];}
 $failed=0;
 foreach(['default','secure','permanent','delete','failure'] as $mode){

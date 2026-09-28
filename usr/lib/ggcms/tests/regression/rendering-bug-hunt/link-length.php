@@ -6,7 +6,7 @@ $failures=0;
 $source=file_get_contents(dirname(__DIR__, 3) . '/src/scripts/modify.php');
 $start=strpos($source,'public function ValidateRecordForSaving_Link()');
 $end=strpos($source,'public function ValidateRecordForSaving_EventDate()', $start);
-eval('class LinkFixture {public $link; public $errors=[];'.substr($source,$start,$end-$start).'}');
+eval('class LinkFixture {public $handler;public $link; public $errors=[];'.substr($source,$start,$end-$start).'}');
 foreach(['Title','URL'] as $field){foreach(['a',hex2bin('c3a9')] as $character){foreach([255,256] as $length){
  $fixture=new LinkFixture();$fixture->handler=(object)['cleanser'=>(object)['utf8_characters'=>new UTF8Characters()]];$row=['Title'=>'Link','URL'=>'https://example.test/'];$row[$field]=str_repeat($character,$length);$fixture->link=[$row];
  $actual=$fixture->ValidateRecordForSaving_Link();$expected=$length<=255;

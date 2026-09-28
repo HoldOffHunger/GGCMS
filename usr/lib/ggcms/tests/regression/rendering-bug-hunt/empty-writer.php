@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 $warnings=[];set_error_handler(function($n,$m)use(&$warnings){$warnings[]=$m;return TRUE;});
 require dirname(__DIR__, 3) . '/src/traits/scripts/SimpleORM.php';
-class EmptyWriterFixture {use SimpleORM;public $rows;public $entry=['id'=>7];public $handler;public function isUserAdmin(){return TRUE;}}
+class EmptyWriterFixture {public $rows_unsaved;use SimpleORM;public function __construct(){$this->entry=['id'=>7];}public $rows;public $entry;public $handler;public function isUserAdmin(){return TRUE;}}
 $failed=0;
 foreach([[],[['id'=>0,'Entryid'=>7,'Title'=>'Event','EventDateTime'=>'1900-00-00 00:00:00','swapped'=>FALSE]]] as $rows){
  $warnings=[];$fixture=new EmptyWriterFixture();$fixture->rows=$rows;

@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 set_error_handler(function($n,$m){throw new ErrorException($m,0,$n);});
 require __DIR__.'/abstract-base-format-stub.php';
 require dirname(__DIR__,3).'/src/classes/Format/ATOM.php';
-$feed=new ATOM();$feed->version_float=1.0;
+$feed=new ATOM();
 $feed->handler=(object)['cleanser'=>(object)['utf8_characters'=>new class {public function SystemCharSet(){return 'UTF-8';}}]];
 $failed=0;
 foreach([

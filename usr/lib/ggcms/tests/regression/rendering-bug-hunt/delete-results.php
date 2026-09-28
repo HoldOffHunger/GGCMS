@@ -5,7 +5,7 @@ $source=file_get_contents(dirname(__DIR__, 3) . '/src/scripts/modify.php');
 $start=strpos($source,'public function Delete()');
 $end=strpos($source,'public function Save()', $start);
 $method=substr($source,$start,$end-$start);
-eval('class DeleteFixture { '.$method.'
+eval('class DeleteFixture {public $save_status;public $delete_in_progress; '.$method.'
  public $stage; public $calls=[]; public $saveattemptresults=FALSE;
  public function canUserAccess(){return TRUE;}
  public function SetOrmBasics(){}
