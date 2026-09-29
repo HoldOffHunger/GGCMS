@@ -251,7 +251,10 @@
 				
 				print("\t" . '<title>');
 						
-				print($this->script->HTMLTitle());
+					// HTMLTitle() prints the title itself; what it returns is a
+					// title template's require() -- 1 -- which printed here
+					// stuck a "1" on the end of every page that has one.
+				$this->script->HTMLTitle();
 				print('</title>');
 				
 				print("\n");
