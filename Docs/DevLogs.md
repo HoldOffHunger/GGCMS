@@ -43,6 +43,32 @@ live installation rather than estimated.
   the latest update. Marking the review store shipped wrote bare line feeds
   into a file of carriage returns; it now keeps each line's own ending.
 
+- EarthFluent's lessons, words, languages and every-lesson pages take the
+  new look -- a postcard from where the language is spoken at the head of
+  each, the words on cards -- and the lesson template's HTML goes from 4,489
+  lines to about 480. Restyling them turned up that most of what a lesson
+  does had quietly stopped working:
+
+  - The Listen buttons chose a voice for the language and then spoke a
+    fresh utterance with neither voice nor language, so every Spanish,
+    Hindi or Korean word was read in the browser's English voice.
+  - google-cse.js opened with google.load('search'), Google's retired Web
+    Search API. It threw, the Programmable Search element below it never
+    loaded, and so no lesson showed a word's pictures and no quiz had
+    anything to ask about. Without the dead call both work again.
+  - Pronunciation compared what recognition heard with the lesson word
+    exactly, capitals and full stop included, so "Estupendo." never
+    matched estupendo.
+  - Record relations default siblings to off, and EarthFluent had no file
+    turning them on: every lesson had lost its previous and next and its
+    quizzes over several lessons. Once on, GetSiblings ordered the ten
+    either side by ListTitleSortKey, which every lesson leaves empty, so
+    "previous" named a lesson from elsewhere in the course; the title now
+    breaks the tie.
+  - A page with a title template -- EarthFluent's word pages, RevoltSource's
+    quote pages -- had "1" on the end of its title, the value of the
+    template's require printed after it.
+
 ## 2026, September 28
 
 - The front page's numbers are drawn at random, four at a time, from every
