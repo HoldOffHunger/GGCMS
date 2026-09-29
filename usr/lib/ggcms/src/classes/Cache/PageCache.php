@@ -550,7 +550,17 @@
 
 			$temporary_location = $location . '.' . getmypid() . '.tmp';
 
+				/*
+					A write that fails can still leave its file behind: on a full
+					volume the file is created and then nothing goes into it.
+					Returning without removing it left 45,105 .tmp files in the
+					page cache, all but two of them empty, written between 16 and
+					26 September 2026.
+				*/
+
 			if(@file_put_contents($temporary_location, $output) === FALSE) {
+				@unlink($temporary_location);
+
 				return FALSE;
 			}
 
@@ -612,6 +622,8 @@
 			$temporary_location = $location . '.' . getmypid() . '.tmp';
 
 			if(@file_put_contents($temporary_location, $compressed) === FALSE) {
+				@unlink($temporary_location);		# see WriteCache()
+
 				return FALSE;
 			}
 

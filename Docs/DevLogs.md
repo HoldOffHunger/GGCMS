@@ -7,6 +7,17 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, September 29
+
+- The page cache writes each page to a temporary file and renames it into
+  place. When the write itself failed, the temporary file was left behind:
+  45,105 of them had built up between 16 and 26 September, all but two
+  empty, 32,123 of them RevoltLib's. A failed write now removes its file,
+  as a failed rename already did, and the leftovers are gone.
+
+- About pages fetch the site's figures, as the front page does, so the
+  number boxes can appear there too. RevoltLib's is the first to show them.
+
 ## 2026, September 28
 
 - The front page's numbers are drawn at random, four at a time, from every
