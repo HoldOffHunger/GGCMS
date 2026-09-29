@@ -18,6 +18,13 @@ live installation rather than estimated.
 - About pages fetch the site's figures, as the front page does, so the
   number boxes can appear there too. RevoltLib's is the first to show them.
 
+- Every EarthFluent language page listed none of its lessons. A section
+  with more than 400 children is shown by index(), which never counted its
+  records, so a template reading those counts saw none and hid the list --
+  along with the language's saying and instructions. index() now counts
+  last, as display() does; Copyleft License's and WordWeight's section
+  pages and the default index read the same counts and show theirs again.
+
 ## 2026, September 28
 
 - The front page's numbers are drawn at random, four at a time, from every
