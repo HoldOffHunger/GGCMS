@@ -423,7 +423,6 @@
 
 		public function getBlockingHTML() {
 			return [
-				'_',
 				'&nbsp;',
 				'<br>',
 				'<br >',
@@ -442,6 +441,13 @@
 			$text_display = $text_bodies[0]['FirstThousandCharacters'];
 			
 			$text_display = preg_replace('/Image::(\d+)(\s+)/', '', $text_display);
+				/*
+					A line of underscores is a divider, and goes; a single one is
+					part of a word or an address -- archive.org/details/img110_202310
+					-- and stays.  Every underscore used to go.
+				*/
+
+			$text_display = preg_replace('/_{3,}/', ' ', $text_display);
 			$text_display = str_replace($this->getBlockingHTML(), ' ', $text_display);
 	#		$text_display = str_replace('<hr>', ' ', $text_display);
 			$text_display = trim(strip_tags($text_display));
