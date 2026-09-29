@@ -84,6 +84,67 @@
 			return TRUE;
 		}
 
+			/*
+				The pictures at the head of a page whose entries are pictures
+				first -- reading-page.php's pictures_first.  Each is shown
+				whole, from its full file, unless that file is a raw scan too
+				large to send with the page (MasereelGroup holds three at
+				eleven thousand pixels and more); those show their icon and
+				link to the scan, saying how big it is.
+			*/
+
+		public function DisplayLead() {
+			if(!$this->canDisplay()) {
+				return FALSE;
+			}
+
+			$largest_inline_width = 2400;
+
+			foreach($this->that->entry['image'] as $image) {
+				if(!$image || empty($image['id'])) {
+					continue;
+				}
+
+				$directory = '/image/' . implode('/', str_split($image['FileDirectory'])) . '/';
+				$whole = ((int) $image['PixelWidth'] > 0 && (int) $image['PixelWidth'] <= $largest_inline_width);
+				$alt = htmlentities((string) ($image['Title'] ?: $this->that->entry['Title']));
+
+				print('<figure class="lead-picture' . ($whole ? '' : ' is-scan') . '">');
+				print('<a href="' . $directory . $image['FileName'] . '" target="_blank">');
+
+				if($whole) {
+					print('<img alt="' . $alt . '" width="' . (int) $image['PixelWidth'] . '" height="' . (int) $image['PixelHeight'] . '" src="' . $directory . $image['FileName'] . '">');
+				}
+				else {
+					print('<img alt="' . $alt . '" width="' . (int) $image['IconPixelWidth'] . '" height="' . (int) $image['IconPixelHeight'] . '" src="' . $directory . $image['IconFileName'] . '">');
+				}
+
+				print('</a>');
+
+				if(!$whole || $image['Title'] || $image['Description']) {
+					print('<figcaption>');
+
+					if($image['Title']) {
+						print('<span class="lead-picture-title">' . $image['Title'] . '</span> ');
+					}
+
+					if($image['Description']) {
+						print('<span class="lead-picture-note">' . $image['Description'] . '</span> ');
+					}
+
+					if(!$whole) {
+						print('<a href="' . $directory . $image['FileName'] . '" target="_blank">The full scan, ' . number_format((int) $image['PixelWidth']) . ' &times; ' . number_format((int) $image['PixelHeight']) . ' pixels</a>');
+					}
+
+					print('</figcaption>');
+				}
+
+				print('</figure>');
+			}
+
+			return TRUE;
+		}
+
 		public function canDisplay() {
 			if(!$this->that->entry['image'] || $this->that->counts['image'] === 0) {
 				return FALSE;

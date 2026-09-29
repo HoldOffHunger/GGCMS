@@ -18,17 +18,24 @@
 			               where the entry has none to show -- a chapter
 			  authors      how many associations to show as author cards;
 			               0 for all of them
+			  pictures_first
+			               TRUE for a site whose entries are pictures before
+			               they are text -- MasereelGroup's woodcuts -- to
+			               show the images under the title, in .lead-pictures,
+			               rather than after everything else
 		*/
 
 	class module_readingpage extends module_spacing {
 		public $that;
 		public $chapters;
 		public $authors;
+		public $pictures_first;
 
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->chapters = array_key_exists('chapters', $args) ? $args['chapters'] : 'Chapters';
 			$this->authors = array_key_exists('authors', $args) ? (int) $args['authors'] : 0;
+			$this->pictures_first = !empty($args['pictures_first']);
 
 			foreach([
 				'entry-association', 'entry-comments', 'entry-controls', 'entry-date', 'entry-description',
@@ -99,6 +106,14 @@
 
 			print('</div>');
 
+			$images = new module_entryimage(['that'=>$that]);
+
+			if($this->pictures_first) {
+				print('<div class="lead-pictures">');
+				$images->DisplayLead();
+				print('</div>');
+			}
+
 			$description = new module_entrydescription(['that'=>$that, 'header'=>'']);
 			$description->Display();
 
@@ -122,8 +137,9 @@
 
 			$entrydate->DisplayEventDatesHistory();
 
-			$images = new module_entryimage(['that'=>$that]);
-			$images->Display(['header'=>'Images']);
+			if(!$this->pictures_first) {
+				$images->Display(['header'=>'Images']);
+			}
 
 			$links = new module_entrylink(['that'=>$that]);
 			$links->Display([]);
