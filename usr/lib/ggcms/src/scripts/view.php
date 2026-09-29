@@ -1089,12 +1089,21 @@
 			
 			$this->SetTagCounts();
 			$this->SetSocialMediaBasics();
-			
+
+				/*
+					As display() does, last: templates read $this->counts, and
+					without it an index showed none of its children.  display()
+					hands any entry with more than 400 children to this action,
+					so every EarthFluent language page listed no lessons.
+				*/
+
+			$this->CountRecords();
+
 			$this->FormatErrors();
-			
+
 			return TRUE;
 		}
-		
+
 						// Dictionary Functionality
 						// ---------------------------------------------
 		
