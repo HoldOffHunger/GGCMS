@@ -69,6 +69,21 @@ live installation rather than estimated.
     quote pages -- had "1" on the end of its title, the value of the
     template's require printed after it.
 
+- MasereelGroup's three largest scans, 11,000 pixels wide and 12.2 MB
+  between them, had never been shrunk: shrink_images.php measured each
+  file with identify, which decoded all 140 million pixels, met the host's
+  ImageMagick limit and called them unreadable -- then reported that every
+  image fitted. identify now reads only the header. They are 330 KB, the
+  originals are on archive.org and in the image backup.
+
+- MasereelGroup takes the new look, set as a woodcut: black ink on cream,
+  one red, poster type. Its three text templates were copies of the old
+  default page and are now the reading page, which gains a pictures_first
+  switch so a book leads with its print. Building it turned up that every
+  excerpt dropped its underscores, breaking the addresses of the scans on
+  archive.org, and that the front page's figures read "0 days to read it
+  all" and "about 0 printed pages" on an archive of 4,375 words.
+
 ## 2026, September 28
 
 - The front page's numbers are drawn at random, four at a time, from every
