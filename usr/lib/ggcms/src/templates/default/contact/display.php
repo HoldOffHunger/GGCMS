@@ -68,10 +68,6 @@
 		
 		// -------------------------------------------------------------
 	
-	print('<div class="width-50percent border-1px horizontal-center margin-top-22px">');
-
-	print('<center><h2 class="margin-5px font-family-tahoma">' . $this->handler->abstractglobals->language_script->ContactUs() . ' :</h2></center>');
-	
 	if($this->handler->abstractglobals->script->GetEmailContact()) {
 		$contact = $this->handler->abstractglobals->script->GetEmailContact();
 	} else {
@@ -94,15 +90,16 @@
 		$created_on = $this->handler->globals->SiteCreatedOn();
 	}
 	
-	print(
-			'<div class="padding-5px horizontal-left font-family-arial">' .
-			'<p class="margin-0px margin-top-5px"><strong>' . $this->handler->abstractglobals->language_script->SiteCreator() . ' :</strong> ' . $creator . '</p>' .
-			'<p class="margin-0px margin-top-5px"><strong>' . $this->handler->abstractglobals->language_script->SiteCreatedOn() . ' :</strong> ' . $created_on . '</p>' .
-			'<p class="margin-0px margin-top-5px"><strong>' . $this->handler->abstractglobals->language_script->ContactCreator() . ' :</strong> ' . $contact . '</p>' .
-			'</div>');
-	
-	
-	print('</div>');
+		// who made the site, when, and how to reach them, as a catalogue record
+
+	print('<section class="block contact record" aria-labelledby="contact-title">');
+	print('<h2 class="block-title" id="contact-title">' . $this->handler->abstractglobals->language_script->ContactUs() . '</h2>');
+	print('<dl>');
+	print('<div><dt>' . $this->handler->abstractglobals->language_script->SiteCreator() . '</dt><dd>' . $creator . '</dd></div>');
+	print('<div><dt>' . $this->handler->abstractglobals->language_script->SiteCreatedOn() . '</dt><dd>' . $created_on . '</dd></div>');
+	print('<div><dt>' . $this->handler->abstractglobals->language_script->ContactCreator() . '</dt><dd>' . $contact . '</dd></div>');
+	print('</dl>');
+	print('</section>');
 	
 			// Display Languages
 		

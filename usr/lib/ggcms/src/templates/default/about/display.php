@@ -42,7 +42,7 @@
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>'About ' . $this->master_record['Title'],
-		'sub_text'=>'A Little Bit More about ' . $this->master_record['Subtitle'],
+		'sub_text'=>$this->master_record['Subtitle'] ? 'A Little Bit More about ' . $this->master_record['Subtitle'] : '',
 		'sub2_text'=>$sub2_text,
 		'sub_title'=>$sub_title,
 	]);
@@ -86,13 +86,10 @@
 		
 		// -------------------------------------------------------------
 	
-	$divider->displaystart($divider_instruction_area_start_args);
-	
-	print('<center><h2 class="margin-5px font-family-tahoma">' . $about_header_title_text . '</h2></center>');
-	
-	print('<div class="padding-5px horizontal-left font-family-arial">' . $about_content_text . '</div>');
-	
-	$divider->displayend($divider_end_args);
+	print('<section class="block about" aria-labelledby="about-title">');
+	print('<h2 class="block-title" id="about-title">' . $about_header_title_text . '</h2>');
+	print('<div class="prose">' . $about_content_text . '</div>');
+	print('</section>');
 	
 			// Display Final Ending Navigation
 		

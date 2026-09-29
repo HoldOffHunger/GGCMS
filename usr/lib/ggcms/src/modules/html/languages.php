@@ -10,9 +10,14 @@
 		}
 		
 		public function display() {
+				// nothing to choose between on a site written in one language
+			if(count(array_intersect_key($this->language_object->GetListOfNativeLanguageNames(), $this->language_object->GetListOfSupportedLanguageCodes())) < 2) {
+				return FALSE;
+			}
+
 						// Start Div
 						// -------------------------------------------------------
-			
+
 			print('<div class="width-90percent horizontal-center margin-top-14px border-1px">');
 			
 						// Start Div

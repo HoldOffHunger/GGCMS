@@ -67,6 +67,13 @@
 	font-weight: 500;
 }
 
+	/* a contact page's labels are longer than a catalogue card's */
+
+.contact.record dl div {
+	grid-template-columns: 10rem minmax(0, 1fr);
+	font-size: 1rem;
+}
+
 .record dd {
 	margin: 0;
 	color: var(--ink);
