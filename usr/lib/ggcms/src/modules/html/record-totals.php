@@ -155,10 +155,19 @@
 				'note'=>'Books, essays, letters and interviews',
 			];
 
+				/*
+					Rounded to a precision the size deserves.  To the nearest
+					thousand alone, MasereelGroup's 4,375 words were "about 0
+					printed pages".
+				*/
+
+			$pages = $words / 300;
+			$pages = ($pages >= 1000) ? round($pages, -3) : (($pages >= 100) ? round($pages, -1) : max(1, round($pages)));
+
 			$figures[] = [
 				'figure'=>number_format($words),
 				'label'=>'Words',
-				'note'=>'About ' . number_format(round($words / 300, -3)) . ' printed pages',
+				'note'=>'About ' . number_format($pages) . ' printed ' . (($pages == 1) ? 'page' : 'pages'),
 			];
 
 			$figures[] = [
@@ -167,11 +176,16 @@
 				'note'=>'From EPUB and PDF to Braille and DAISY',
 			];
 
-			$figures[] = [
-				'figure'=>number_format(round($words / 250 / 60 / 24)),
-				'label'=>'Days to read it all',
-				'note'=>'At 250 words a minute, never stopping to sleep',
-			];
+				// a site that can be read in an afternoon has no days to count
+			$days = $words / 250 / 60 / 24;
+
+			if($days >= 1) {
+				$figures[] = [
+					'figure'=>number_format(round($days)),
+					'label'=>'Days to read it all',
+					'note'=>'At 250 words a minute, never stopping to sleep',
+				];
+			}
 
 			$since = $this->SinceFigure(['that'=>$that, 'formats'=>$formats]);
 
