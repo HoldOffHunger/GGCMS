@@ -2877,7 +2877,6 @@
 			
 			if($save_image_results) {
 				$i = 0;
-				$imagick = new Imagick();
 				for($i = 0; $i < count($this->image); $i++) {
 					$image = $this->image[$i];
 					if(!$image['OriginalCreationDate'] || $this->isUserAdmin()) {

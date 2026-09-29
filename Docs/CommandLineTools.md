@@ -536,9 +536,12 @@ because `modify.php` will not save for nobody — and that is correct.
 
 ##### Creating an entry
 
-`--path` names the **parent**. The base is the parent's rendered Edit form, but a
-`Save` carrying no entry id creates a child rather than updating what it read,
-and the parent is left alone:
+`--path` names the **parent**. A `Save` reads back the parent's **Add** form --
+"Add Child to Current Entry", empty but for its defaults -- and an `Update`
+reads the **Edit** form, filled with the entry as it stands. Reading the Edit
+form for a Save once copied the parent's quote, description and picture into
+every new child, so the two are kept apart. The new child is filed beneath the
+parent, and the parent is left alone:
 
 ```bash
 php modify_entry.php masereelgroup.com --path=/books/ --user=ADMIN \
@@ -548,6 +551,10 @@ php modify_entry.php masereelgroup.com --path=/books/ --user=ADMIN \
 That adds `/books/arc-lamps/` beneath `/books/` and does not touch the Books
 entry itself. It is worth confirming that afterwards rather than assuming it:
 the parent's `LastModificationDate` should be exactly what it was.
+
+A checkbox the form ticks by default, such as `subtitle-smart-title-case`, is
+switched off by posting it empty (`--field='subtitle-smart-title-case='`), which
+is what a browser does by leaving it out.
 
 ##### Array fields need their brackets
 

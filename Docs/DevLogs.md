@@ -25,6 +25,18 @@ live installation rather than estimated.
   last, as display() does; Copyleft License's and WordWeight's section
   pages and the default index read the same counts and show theirs again.
 
+- modify_entry.php, asked to create an entry, read back the parent's Edit
+  form and posted it as a Save, so the new child carried off the parent's
+  quote, description and picture. A Save now reads the Add form, empty but
+  for its defaults, and an Update the Edit form. Saving no longer needs
+  Imagick when there are no pictures, either: modify.php made an Imagick
+  object on every save and never used it.
+
+- The translation review tool skips a record whose kind is structural or
+  whose proposal is a note in parentheses. Applied, the Spanish review would
+  have put "(needs investigating, not translating)" on three pages as the
+  word.
+
 ## 2026, September 28
 
 - The front page's numbers are drawn at random, four at a time, from every

@@ -317,6 +317,7 @@
 				. ' ' . escapeshellarg($this->domain)
 				. ' --path=' . escapeshellarg($this->path)
 				. ' --user=' . escapeshellarg($this->user)
+				. ' --action=' . escapeshellarg($this->action)
 				. ' --dump-form'
 					//  NUL, not /dev/null, on Windows: cmd cannot open a path that does not
 					//  exist, fails the whole command, and the form reads back as nothing.
@@ -339,13 +340,25 @@
 		}
 
 			/*
-				Renders the Edit form and prints its fields as JSON between two
-				markers, so the parent can find them in among whatever else the
-				engine decided to say.
+				Renders the form the verb belongs to and prints its fields as JSON
+				between two markers, so the parent can find them in among whatever
+				else the engine decided to say.
+
+				The two verbs have two forms, as they do in the admin panel.  Add
+				-- "add a child to the current entry" -- renders an empty form
+				that posts Save, and the child is made beneath the entry at
+				--path.  Edit -- "change the current entry" -- renders the entry's
+				own fields and posts Update.  Reading the Edit form for a Save made
+				the new child a copy of its parent: its quote, description, tags
+				and pictures, all posted back as the child's.
 			*/
 
+		public function formAction() {
+			return ($this->action === 'Save') ? 'Add' : 'Edit';
+		}
+
 		public function dumpForm() {
-			$this->fakeRequest(['action'=>'Edit', 'post'=>[]]);
+			$this->fakeRequest(['action'=>$this->formAction(), 'post'=>[]]);
 
 			require(GGCMS_DIR . 'classes/StandardLibraries.php');
 
@@ -554,7 +567,7 @@
 			$base = $args['base'];
 			$post = $args['post'];
 
-			print('Form     : ' . count($base) . ' field(s) read back from the rendered Edit form' . PHP_EOL);
+			print('Form     : ' . count($base) . ' field(s) read back from the rendered ' . $this->formAction() . ' form' . PHP_EOL);
 
 			if(count($this->clear)) {
 				print('Clearing : ' . implode(', ', $this->clear) . PHP_EOL);
@@ -588,10 +601,11 @@
 				where naming one field would silently destroy the rest.  Passing
 				only --field=Title=x would have taken every image with it.
 
-				So the first pass asks the engine to render the Edit form and the
+				So the first pass asks the engine to render the verb's form -- Edit
+				for an Update, Add for a Save, see formAction() -- and the
 				second posts it back.  The base state is whatever modify.php
 				itself just put on the page, which means there is no field list
-				to maintain here and never will be: add a field to Edit.php and
+				to maintain here and never will be: add a field to Edit.php or Add.php and
 				this carries it without being told.  It is the same argument the
 				header of this file makes about not reimplementing modify.php.
 
@@ -618,14 +632,14 @@
 			$base = $this->fetchFormFields();
 
 			if($base === NULL) {
-				print('Refused  : could not read the Edit form back.  Run the same' . PHP_EOL);
+				print('Refused  : could not read the ' . $this->formAction() . ' form back.  Run the same' . PHP_EOL);
 				print('           command with --dump-form to see what the engine said.' . PHP_EOL);
 
 				return FALSE;
 			}
 
 			if(!count($base)) {
-				print('Refused  : the Edit form rendered no fields, so there is no' . PHP_EOL);
+				print('Refused  : the ' . $this->formAction() . ' form rendered no fields, so there is no' . PHP_EOL);
 				print('           safe base to post back.  Check that --path resolves:' . PHP_EOL);
 				print('           a 404 still reports a save and writes nothing.' . PHP_EOL);
 
