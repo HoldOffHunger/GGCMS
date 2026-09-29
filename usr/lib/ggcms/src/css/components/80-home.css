@@ -187,7 +187,13 @@
 	position: relative;
 	z-index: 1;
 	width: min(100% - 2 * var(--gutter), var(--page-width));
-	margin: -4.25rem auto 0;
+	margin: 2rem auto 0;
+}
+
+	/* after a masthead, the figures rise into its dark band */
+
+.masthead ~ .stats {
+	margin-top: -4.25rem;
 }
 
 	/*

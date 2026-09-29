@@ -42,7 +42,9 @@
 			}
 			
 			#$this->SetChildRecords([]);
-			#$this->SetEntryChildRecordStats([]);
+
+				// the archive's figures, as the front page has them (view.php's index())
+			$this->SetEntryChildRecordStats([]);
 			#$this->SetEntryAssociatedRecordStats([]);
 			#$this->SetSimpleChildAssociationRecords();
 			
