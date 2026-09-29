@@ -14,8 +14,16 @@
 			$this->that = $args['that'];
 		}
 
+			// A site's own front page has no assignment to number; its permalink is the site itself.
 		public function PermalinkURL() {
-			return $this->that->handler->domain->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]) . '/?id=' . $this->that->entry['assignment'][0]['id'];
+			$site = $this->that->handler->domain->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]);
+			$id = $this->that->entry['assignment'][0]['id'] ?? '';
+
+			if(!$id) {
+				return $site . '/';
+			}
+
+			return $site . '/?id=' . $id;
 		}
 
 		public function DisplayPermalink() {

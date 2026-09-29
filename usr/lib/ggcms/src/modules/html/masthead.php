@@ -15,17 +15,21 @@
 			  intro       HTML for the introduction; the entry's own text
 			              when not given
 			  searchhint  the search box's placeholder
+			  picture     TRUE to show the site's own picture beside the
+			              name -- a one-page site whose picture is its face
 		*/
 
 	class module_masthead extends module_entryindexheader {
 		public $intro;
 		public $search_hint;
+		public $picture;
 
 		public function __construct($args) {
 			parent::__construct($args);
 
 			$this->intro = $args['intro'];
 			$this->search_hint = $args['searchhint'];
+			$this->picture = !empty($args['picture']);
 		}
 
 		public function Display() {
@@ -54,8 +58,40 @@
 
 			$this->DisplayQuote();
 
+			if($this->picture) {
+				$this->DisplayPicture();
+			}
+
 			print('</div>');
 			print('</header>');
+
+			return TRUE;
+		}
+
+			/*
+				The site's own picture, full size: the master record's first
+				image that is not its header backdrop.  On a front page the
+				pictures are the master record's, as the backdrop's are.
+			*/
+
+		public function DisplayPicture() {
+			$picture = NULL;
+			$images = !empty($this->that->master_record['image']) ? $this->that->master_record['image'] : $this->that->entry['image'];
+
+			foreach((array) $images as $image) {
+				if($image && !empty($image['id']) && $image['Description'] !== 'header') {
+					$picture = $image;
+					break;
+				}
+			}
+
+			if(!$picture) {
+				return FALSE;
+			}
+
+			print('<figure class="masthead-picture">');
+			print('<img alt="" src="' . $this->ImageURL(['image'=>$picture]) . '"' . $this->ImageTitle(['image'=>$picture]) . '>');
+			print('</figure>');
 
 			return TRUE;
 		}
