@@ -18,6 +18,16 @@ the date.
 
 Target is no more than roughly 200 corrections per wave.
 
+Waves shipped:
+
+| Language | Date | Rows changed | Announced at |
+|---|---|---|---|
+| Spanish | 29 September 2026 | 176 | `/updates/spanish-translations-corrected/` |
+
+The Spanish wave marked 177 records shipped, but one was `grave` → `grave`: a
+reviewer's "no change needed" written as a proposal. Count a wave by the rows
+it changes, not the records it marks, before the number goes into an update.
+
 ## Record fields
 
 | Field | Meaning |

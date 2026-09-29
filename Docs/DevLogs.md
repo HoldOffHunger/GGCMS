@@ -37,6 +37,12 @@ live installation rather than estimated.
   have put "(needs investigating, not translating)" on three pages as the
   word.
 
+- EarthFluent's first wave of Spanish corrections is live: 176 words, from
+  the turkey that was Turquía to the copy that was dupdo. It is announced
+  on the site's new Updates page, and the front page carries a line about
+  the latest update. Marking the review store shipped wrote bare line feeds
+  into a file of carriage returns; it now keeps each line's own ending.
+
 ## 2026, September 28
 
 - The front page's numbers are drawn at random, four at a time, from every

@@ -294,7 +294,7 @@
 				}
 
 				if($trimmed === 'status: proposed' && isset($shipped_ids[$current_id])) {
-					$output[] = 'status: shipped ' . date('Y-m-d') . "\n";
+					$output[] = 'status: shipped ' . date('Y-m-d') . substr($line, strlen($trimmed));
 					continue;
 				}
 

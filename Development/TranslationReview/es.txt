@@ -16,7 +16,7 @@ reason: Turquía is the country. The bird is the pavo. English "Turkey" and
   list gave it none, so it picked the proper noun.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "pavo"
   — "Ave del orden de las Galliformes"; and s.v. "Turquía" as a toponym.
-status: proposed
+status: shipped 2026-09-29
 
 id: 45
 entryid: 70
@@ -31,7 +31,7 @@ reason: Translated one word at a time. "Ray" became rayo, a bolt of lightning,
   rather than the fish. Nobody has ever called this animal a rayo manta.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "mantarraya" and s.v. "rayo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 17
 entryid: 35
@@ -47,7 +47,7 @@ reason: Pescado is fish that has been caught — fish as food. A fish that is
 source: Real Academia Española, Diccionario de la lengua española, s.v. "pez"
   — "Animal vertebrado acuático"; s.v. "pescado" — "Pez comestible sacado del
   agua".
-status: proposed
+status: shipped 2026-09-29
 
 id: 16
 entryid: 33
@@ -61,7 +61,7 @@ kind: untranslated
 reason: Passed through unchanged. Spanish has its own word.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "jerbo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 22
 entryid: 41
@@ -76,7 +76,7 @@ reason: Passed through unchanged. Ardilla listada — "striped squirrel" — is
   the standard name.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "ardilla"; the listada qualifier is the usual name for Tamias.
-status: proposed
+status: shipped 2026-09-29
 
 id: 3
 entryid: 18
@@ -91,7 +91,7 @@ reason: Missing the acute accent. Dragón is stressed on the last syllable and
   ends in n, so the tilde is required.
 source: Real Academia Española, Ortografía de la lengua española, on the
   accentuation of agudas ending in -n; and s.v. "dragón".
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 2: animals 46-84, verbs 1068-1133 ---
 
@@ -107,7 +107,7 @@ reason: A calque of the English. Spanish has its own name, and orca is what
   the animal is called.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "orca" — "Cetáceo de la familia de los Delfínidos".
-status: proposed
+status: shipped 2026-09-29
 
 id: 66
 permalink: 90
@@ -121,7 +121,7 @@ reason: Invented compound. A cheetah is not a kind of leopard, and no Spanish
   speaker says leopardo cazador.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "guepardo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 78
 permalink: 102
@@ -135,7 +135,7 @@ reason: Pollo is the meat, and a young bird. The animal on a farm is a
   gallina. Same fault as Fish rendered as pescado.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "gallina" and s.v. "pollo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 73
 permalink: 97
@@ -149,7 +149,7 @@ reason: English title casing applied to Spanish, which does not capitalise
   every word. The set phrase is abeja melífera.
 source: Real Academia Española, Ortografía de la lengua española, on
   capitalisation in Spanish; and s.v. "melífero".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1099
 permalink: 1123
@@ -163,7 +163,7 @@ reason: An ascensor is an elevator. The English verb was read as a noun, which
   is the single most common failure across this vocabulary.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "levantar" and s.v. "ascensor".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1098
 permalink: 1122
@@ -177,7 +177,7 @@ reason: La prensa is the newspapers. The verb is presionar, or pulsar for a
   button.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "prensa" and s.v. "presionar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1082
 permalink: 1106
@@ -190,7 +190,7 @@ kind: wrong-word
 reason: Descanso is a rest — the noun sense of "a break". The verb is romper.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "romper" and s.v. "descanso".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1076
 permalink: 1100
@@ -203,7 +203,7 @@ kind: untranslated
 reason: Passed through unchanged.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "poner".
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 3: verbs 1134-1243 ---
 
@@ -219,7 +219,7 @@ reason: DEP is Descanse En Paz -- Rest In Peace. The English was read as the
   acronym RIP rather than the verb.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "rasgar"; DEP is the standard Spanish funerary abbreviation.
-status: proposed
+status: shipped 2026-09-29
 
 id: 1171
 permalink: 1195
@@ -232,7 +232,7 @@ kind: wrong-word
 reason: A reloj is the thing on your wrist. The verb is mirar, or ver.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "reloj" and s.v. "mirar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1210
 permalink: 1234
@@ -245,7 +245,7 @@ kind: wrong-word
 reason: A monitor is the screen. The verb is mostrar, or exhibir.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "mostrar" and s.v. "monitor".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1224
 permalink: 1248
@@ -260,7 +260,7 @@ reason: Two faults at once. "Found" was read as the past tense of find rather
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "fundar".
 displaced: encontró | 3sg preterite of encontrar
-status: proposed
+status: shipped 2026-09-29
 
 id: 1234
 permalink: 1258
@@ -273,7 +273,7 @@ kind: wrong-word
 reason: A sensación is a sensation, the noun. The verb is sentir.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "sentir".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1238
 permalink: 1262
@@ -286,7 +286,7 @@ kind: wrong-word
 reason: El amor is the noun. The verb is amar, or querer of a person.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "amar"
   and s.v. "amor".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1243
 permalink: 1267
@@ -299,7 +299,7 @@ kind: wrong-word
 reason: La risa is laughter. The verb is reír.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "reír"
   and s.v. "risa".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1205
 permalink: 1229
@@ -313,7 +313,7 @@ reason: Un enfoque is an approach in the sense of a method. Approaching
   something is acercarse.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "acercar" and s.v. "enfoque".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1235
 permalink: 1259
@@ -328,7 +328,7 @@ reason: Conjugated and carrying a pronoun -- me gusta is "I like it". A
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "gustar".
 displaced: me gusta | 1sg present indicative of gustar, with pronoun
-status: proposed
+status: shipped 2026-09-29
 
 id: 1144
 permalink: 1168
@@ -342,7 +342,7 @@ reason: Ven is the imperative, "come here". The list wants the infinitive.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "venir".
 displaced: ven | 2sg informal imperative of venir
-status: proposed
+status: shipped 2026-09-29
 
 id: 1169
 permalink: 1193
@@ -356,7 +356,7 @@ reason: Formal imperative, and capitalised. Twice wrong for a vocabulary list.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "esperar".
 displaced: espere | 3sg formal imperative of esperar
-status: proposed
+status: shipped 2026-09-29
 
 id: 1177
 permalink: 1201
@@ -370,7 +370,7 @@ reason: Third person present -- "it contains" -- and capitalised.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "contener".
 displaced: contiene | 3sg present indicative of contener
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 4: verbs 1244-1353 ---
 
@@ -386,7 +386,7 @@ reason: A capa pluvial is a cope in the ecclesiastical sense -- the cloak a
   priest wears in procession. The verb is afrontar, or sobrellevar.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "capa"
   and s.v. "afrontar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1309
 permalink: 1333
@@ -399,7 +399,7 @@ kind: wrong-word
 reason: A golondrina is the bird. The verb is tragar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "golondrina" and s.v. "tragar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1293
 permalink: 1317
@@ -412,7 +412,7 @@ kind: wrong-word
 reason: A lavabo is the basin in a bathroom. The verb is hundirse.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "lavabo" and s.v. "hundir".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1297
 permalink: 1321
@@ -426,7 +426,7 @@ reason: A diapositiva is a photographic or presentation slide. The verb is
   deslizarse.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "diapositiva" and s.v. "deslizar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1310
 permalink: 1334
@@ -439,7 +439,7 @@ kind: wrong-word
 reason: A grifo is the tap on a sink. The verb is tocar, or golpear ligeramente.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "grifo" and s.v. "tocar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1277
 permalink: 1301
@@ -452,7 +452,7 @@ kind: wrong-word
 reason: Un tramo is a stretch of road or a section. The verb is estirar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "tramo" and s.v. "estirar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1262
 permalink: 1286
@@ -466,7 +466,7 @@ reason: Claro is the adjective. Read as an adjective rather than a verb, which
   is the noun fault wearing a different hat.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "despejar" and s.v. "claro".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1256
 permalink: 1280
@@ -479,7 +479,7 @@ kind: wrong-word
 reason: El sueño is a dream, and also sleep. The verb is soñar.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "soñar"
   and s.v. "sueño".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1251
 permalink: 1275
@@ -492,7 +492,7 @@ kind: wrong-word
 reason: El odio is the noun. The verb is odiar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "odiar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1302
 permalink: 1326
@@ -506,7 +506,7 @@ reason: The noun phrase, "a shrug of the shoulders", where the action is
   encogerse de hombros.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "encoger".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1323
 permalink: 1347
@@ -521,7 +521,7 @@ reason: Third person present, or the informal imperative. Either way not the
 displaced: recuerda | 3sg present indicative of recordar
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "recordar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1327
 permalink: 1351
@@ -535,7 +535,7 @@ reason: Present subjunctive, which doubles as the formal imperative.
 displaced: explique | 3sg present subjunctive of explicar
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "explicar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1347
 permalink: 1371
@@ -549,7 +549,7 @@ reason: Informal imperative.
 displaced: imagina | 2sg informal imperative of imaginar
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "imaginar".
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 5: verbs 1354-1463 ---
 
@@ -566,7 +566,7 @@ reason: Not a Spanish word, and not a word in any language. Something mangled
   one of its kind so far, so worth watching for rather than assuming unique.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "copiar". "Dupdo" does not appear in the dictionary.
-status: proposed
+status: shipped 2026-09-29
 
 id: 1429
 permalink: 1453
@@ -580,7 +580,7 @@ reason: Desperdicios is refuse in the sense of rubbish. The verb is rechazar,
   or negarse.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "desperdicio" and s.v. "rechazar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1422
 permalink: 1446
@@ -594,7 +594,7 @@ reason: Exprimir is to squeeze -- juice out of a lemon. Expressing a thought is
   expresar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "exprimir" and s.v. "expresar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1431
 permalink: 1455
@@ -607,7 +607,7 @@ kind: wrong-word
 reason: La media is the statistical mean. The verb is significar.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "media"
   and s.v. "significar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1398
 permalink: 1422
@@ -620,7 +620,7 @@ kind: wrong-word
 reason: Un espectáculo is a show in the theatrical sense. The verb is mostrar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "espectáculo" and s.v. "mostrar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1365
 permalink: 1389
@@ -633,7 +633,7 @@ kind: wrong-word
 reason: Atención is attention. The verb is enfocar, or concentrarse.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "enfocar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1419
 permalink: 1443
@@ -647,7 +647,7 @@ reason: Gracias is the word you say, not the verb. Thanking someone is
   agradecer.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "agradecer".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1409
 permalink: 1433
@@ -660,7 +660,7 @@ kind: wrong-word
 reason: Una mentira is a lie, the noun. The verb is mentir.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "mentir".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1455
 permalink: 1479
@@ -674,7 +674,7 @@ reason: Una dirección is where post is delivered. Addressing a person or a
   problem is dirigirse a, or abordar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "dirigir" and s.v. "dirección".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1360
 permalink: 1384
@@ -687,7 +687,7 @@ kind: wrong-word
 reason: Directo is the adjective. The verb is dirigir.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "dirigir".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1368
 permalink: 1392
@@ -701,7 +701,7 @@ reason: Third person present, or the informal imperative.
 displaced: canta | 3sg present indicative of cantar
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "cantar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1423
 permalink: 1447
@@ -715,7 +715,7 @@ reason: Third person present, or the informal imperative.
 displaced: escucha | 3sg present indicative of escuchar
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "escuchar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1407
 permalink: 1431
@@ -729,7 +729,7 @@ reason: A prepositional phrase meaning "in agreement", not a verb. The verb
   phrase is estar de acuerdo, or acordar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "acuerdo".
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 6: verbs 1464-1573 ---
 
@@ -746,7 +746,7 @@ reason: Un compromiso is a commitment or an engagement to be married. It is not
   is worse than an obvious error -- a learner has no reason to doubt it.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "compromiso"; and s.v. "transigir" for the verb.
-status: proposed
+status: shipped 2026-09-29
 
 id: 1471
 permalink: 1495
@@ -759,7 +759,7 @@ kind: wrong-word
 reason: Un juez is the person in the robes. The verb is juzgar.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "juez"
   and s.v. "juzgar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1515
 permalink: 1539
@@ -772,7 +772,7 @@ kind: wrong-word
 reason: Una ola is a wave in the sea. Waving a hand is saludar con la mano.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "ola"
   and s.v. "saludar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1522
 permalink: 1546
@@ -786,7 +786,7 @@ reason: Gratis is the adjective, free of charge. Setting something free is
   liberar. Two different senses of one English word, and it took the price one.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "gratis" and s.v. "liberar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1500
 permalink: 1524
@@ -800,7 +800,7 @@ reason: Un monitor is the screen. The verb is supervisar. The same fault as
   display rendered as monitor, from the other direction.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "monitor" and s.v. "supervisar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1532
 permalink: 1556
@@ -814,7 +814,7 @@ reason: The noun, and carrying its definite article. A vocabulary entry that
   begins with el teaches the learner to say "the respect" where a verb belongs.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "respetar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1540
 permalink: 1564
@@ -828,7 +828,7 @@ reason: El trabajo is the job. The verb is trabajar. One of the commonest verbs
   in the language, taught as a noun.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "trabajar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1561
 permalink: 1585
@@ -841,7 +841,7 @@ kind: wrong-word
 reason: Propio is the adjective -- my own house. Owning something is poseer.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "propio" and s.v. "poseer".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1543
 permalink: 1567
@@ -854,7 +854,7 @@ kind: wrong-word
 reason: La paga is the wages. The verb is pagar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "pagar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1497
 permalink: 1521
@@ -868,7 +868,7 @@ reason: Un beso is a kiss, the noun, and capitalised besides. The verb is
   besar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "besar".
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 7: verbs 1574-1587, nouns 8097-8382 ---
 #
@@ -887,7 +887,7 @@ reason: Formar is the verb, to form. This is the noun list, and the noun is
   formulario for a form to fill in, or forma for a shape.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "formulario" and s.v. "formar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8241
 permalink: 8265
@@ -900,7 +900,7 @@ kind: wrong-class
 reason: Buscar is the verb. The noun is búsqueda.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "búsqueda".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8233
 permalink: 8257
@@ -913,7 +913,7 @@ kind: wrong-class
 reason: Cortar is the verb. The noun is corte.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "corte".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8113
 permalink: 8137
@@ -926,7 +926,7 @@ kind: wrong-class
 reason: Necesitar is the verb. The noun is necesidad.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "necesidad".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8300
 permalink: 8324
@@ -939,7 +939,7 @@ kind: wrong-class
 reason: Oler is the verb. The noun is olor.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "olor".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8334
 permalink: 8358
@@ -953,7 +953,7 @@ reason: Estar is to be. A stand is a puesto at a market, or a tribuna at a
   ground. Neither is a state of being.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "puesto" and s.v. "estar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8180
 permalink: 8204
@@ -967,7 +967,7 @@ reason: Un gol is scored in football. A goal you are working towards is a meta,
   or an objetivo. Capitalised as well.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "gol"
   and s.v. "meta".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8161
 permalink: 8185
@@ -981,7 +981,7 @@ reason: Una celda is a prison cell, or a cell in a spreadsheet. The one in a
   body is una célula.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "célula" and s.v. "celda".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8349
 permalink: 8373
@@ -994,7 +994,7 @@ kind: wrong-word
 reason: Una ciudad is a city. A borough is a district within one.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "distrito" and s.v. "ciudad".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8358
 permalink: 8382
@@ -1008,7 +1008,7 @@ reason: Cuesta abajo means downhill -- a direction, not a thing. A slope is una
   pendiente, or una cuesta.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "pendiente" and s.v. "cuesta".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8273
 permalink: 8297
@@ -1022,7 +1022,7 @@ reason: Un enredo is a tangle, or a muddle. Involvement is participación, or
   implicación.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "enredo" and s.v. "participación".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8324
 permalink: 8348
@@ -1036,7 +1036,7 @@ reason: Riesgo is risk, and is already the translation given for risk twelve
   rows earlier. A venture is una empresa.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "empresa" and s.v. "riesgo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8374
 permalink: 8398
@@ -1050,7 +1050,7 @@ reason: Popular is an adjective, and not even the right sense -- it read pop as
   short for popular. The noun is un estallido, a bang.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "estallido".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8259
 permalink: 8283
@@ -1064,7 +1064,7 @@ reason: El significado is the meaning of a thing. Its significance -- how much
   it matters -- is su importancia.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "importancia" and s.v. "significado".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8263
 permalink: 8287
@@ -1078,7 +1078,7 @@ reason: Un choque is a collision, and is already the translation given for
   crash. Emotional or medical shock is una conmoción.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "conmoción" and s.v. "choque".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8293
 permalink: 8317
@@ -1091,7 +1091,7 @@ kind: untranslated
 reason: Passed through unchanged.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "suerte".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8143
 permalink: 8167
@@ -1104,7 +1104,7 @@ kind: untranslated
 reason: Passed through unchanged.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "fuente".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8190
 permalink: 8214
@@ -1118,7 +1118,7 @@ reason: Passed through unchanged. It happens to be a real Spanish word -- the
   subjunctive of causar -- which is why it will not look wrong at a glance.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "causa".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8131
 permalink: 8155
@@ -1132,7 +1132,7 @@ reason: Missing the accent. Unión is stressed on the last syllable and ends in
   n, so it takes the tilde.
 source: Real Academia Española, Ortografía de la lengua española, on agudas
   ending in -n; and s.v. "unión".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8201
 permalink: 8225
@@ -1146,7 +1146,7 @@ reason: Carrying its definite article, as respect did. A vocabulary entry is
   the word, not the phrase.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "seguridad".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1586
 permalink: 1610
@@ -1161,7 +1161,7 @@ reason: El alquiler is rent -- what you pay for a flat. Hiring a person is
   is also duplicated at id 1587, identically wrong.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "contratar" and s.v. "alquiler".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1581
 permalink: 1605
@@ -1174,7 +1174,7 @@ kind: wrong-class
 reason: El comercio is commerce, the noun. The verb is comerciar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "comerciar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 1583
 permalink: 1607
@@ -1187,7 +1187,7 @@ kind: wrong-class
 reason: Una apuesta is a bet, the noun. The verb is apostar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "apostar".
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 8: nouns 8383-8682 ---
 
@@ -1204,7 +1204,7 @@ reason: Un altavoz is the loudspeaker on a wall. A person speaking is un
   teacher, worker, doctor -- and one of them is a piece of audio equipment.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "altavoz" and s.v. "orador".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8670
 permalink: 8694
@@ -1218,7 +1218,7 @@ reason: It sits between mrs and sir, so this is the title rather than the verb.
   Perder is to lose. The title is señorita.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "señorita".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8413
 permalink: 8437
@@ -1231,7 +1231,7 @@ kind: wrong-sense
 reason: El tacón is the heel of a shoe. The one on your foot is el talón.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "talón"
   and s.v. "tacón".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8494
 permalink: 8518
@@ -1243,7 +1243,7 @@ proposed: edad
 kind: wrong-word
 reason: Años is years, plural. Age is la edad.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "edad".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8522
 permalink: 8546
@@ -1257,7 +1257,7 @@ reason: Una licenciatura is a university degree specifically, and it arrives
   with its article. A degree of temperature or of angle is un grado.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "grado"
   and s.v. "licenciatura".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8480
 permalink: 8504
@@ -1272,7 +1272,7 @@ reason: The row above gives left as izquierda, feminine. Its pair is derecha.
   meets the two side by side and is taught a mismatched pair.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "derecha" and s.v. "derecho".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8570
 permalink: 8594
@@ -1286,7 +1286,7 @@ reason: Missing the accent. Círculo is esdrújula -- stressed on the third
   syllable from the end -- and those always take one.
 source: Real Academia Española, Ortografía de la lengua española, on esdrújulas;
   and s.v. "círculo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8501
 permalink: 8525
@@ -1300,7 +1300,7 @@ reason: La distancia is distance, and is already the translation given for
   distance. A range of things is una gama; a range of reach is un alcance.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "gama"
   and s.v. "alcance".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8487
 permalink: 8511
@@ -1314,7 +1314,7 @@ reason: Una tarifa is a fare or a price list. A rate -- of interest, of change,
   of unemployment -- is una tasa.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "tasa"
   and s.v. "tarifa".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8386
 permalink: 8410
@@ -1328,7 +1328,7 @@ reason: La visión is sight, and is already the translation given for vision.
   Insight is perspicacia, or comprensión.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "perspicacia" and s.v. "visión".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8457
 permalink: 8481
@@ -1342,7 +1342,7 @@ reason: Deletrear is the verb, to say the letters. This is the noun list, and a
   spell is un hechizo.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "hechizo" and s.v. "deletrear".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8544
 permalink: 8568
@@ -1356,7 +1356,7 @@ reason: Comenzando is the gerund -- beginning as in "while beginning". The noun
   is el comienzo.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "comienzo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8593
 permalink: 8617
@@ -1369,7 +1369,7 @@ kind: wrong-class
 reason: Contar is the verb. The noun is un recuento.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "recuento".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8591
 permalink: 8615
@@ -1382,7 +1382,7 @@ kind: wrong-class
 reason: Retrasar is the verb. The noun is un retraso.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "retraso".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8539
 permalink: 8563
@@ -1395,7 +1395,7 @@ kind: wrong-class
 reason: Equilibrar is the verb. The noun is el equilibrio.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "equilibrio".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8409
 permalink: 8433
@@ -1408,7 +1408,7 @@ kind: wrong-class
 reason: Filtrar is the verb. The noun is un filtro.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "filtro".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8651
 permalink: 8675
@@ -1421,7 +1421,7 @@ kind: wrong-class
 reason: Individual is the adjective. The person is un individuo.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "individuo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8640
 permalink: 8664
@@ -1435,7 +1435,7 @@ reason: Passed through unchanged, in the middle of a list of people that
   translated cleanly on either side of it.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "oficial".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8441
 permalink: 8465
@@ -1449,7 +1449,7 @@ reason: Passed through unchanged. The medical sense is un derrame cerebral; a
   stroke of a brush or an oar is una pincelada or una brazada.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "derrame".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8635
 permalink: 8659
@@ -1463,7 +1463,7 @@ reason: Padre is father, and is already the translation given for father twelve
   rows earlier. A parent of either sex is un progenitor.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "progenitor" and s.v. "padre".
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 9: nouns 8683-8982 ---
 
@@ -1480,7 +1480,7 @@ reason: Será is "will be" -- the future tense of ser, an auxiliary read as
   the legal document.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "voluntad" and s.v. "ser".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8864
 permalink: 8888
@@ -1495,7 +1495,7 @@ reason: Vdo is an abbreviation, not a word -- and it abbreviates viudo, the
   wrong gender, and not something anybody says aloud.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "viuda".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8732
 permalink: 8756
@@ -1510,7 +1510,7 @@ reason: Un ventilador is the electric fan on the ceiling. A supporter is un
   appliance.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "aficionado" and s.v. "ventilador".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8702
 permalink: 8726
@@ -1525,7 +1525,7 @@ reason: Un hidalgo is a minor nobleman of the old Spanish gentry -- Don Quixote
   caballero.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "hidalgo" and s.v. "caballero".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8836
 permalink: 8860
@@ -1539,7 +1539,7 @@ reason: Una impresora is the machine on the desk. A person who prints is un
   impresor, which is what a list of occupations wants.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "impresor" and s.v. "impresora".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8842
 permalink: 8866
@@ -1553,7 +1553,7 @@ reason: Un notario is a notary, a different office entirely. A commissioner is
   un comisario, or un comisionado.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "comisario" and s.v. "notario".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8901
 permalink: 8925
@@ -1567,7 +1567,7 @@ reason: Passed through unchanged, between country and party, both of which
   translated.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "escuela".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8749
 permalink: 8773
@@ -1582,7 +1582,7 @@ reason: Hembra is the female of an animal. Applied to a person it is crude.
   mismatched as well: masculino and femenino, or hombre and mujer.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "hembra" and s.v. "mujer".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8834
 permalink: 8858
@@ -1597,7 +1597,7 @@ reason: Prima is the feminine. Every other kinship word in this list takes the
   inconsistent with its own neighbours.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "primo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8883
 permalink: 8907
@@ -1611,7 +1611,7 @@ reason: Missing the accent, and capitalised. Órgano is esdrújula and always
   takes one.
 source: Real Academia Española, Ortografía de la lengua española, on esdrújulas;
   and s.v. "órgano".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8772
 permalink: 8796
@@ -1624,7 +1624,7 @@ kind: orthography
 reason: Missing the accent on anímico, which is esdrújula.
 source: Real Academia Española, Ortografía de la lengua española; and s.v.
   "anímico".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8912
 permalink: 8936
@@ -1638,7 +1638,7 @@ reason: La corte is a royal court, and el corte is a cut. A court of law is un
   tribunal or un juzgado. Capitalised besides.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "tribunal" and s.v. "corte".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8974
 permalink: 8998
@@ -1652,7 +1652,7 @@ reason: El lucro carries a whiff of profiteering -- ánimo de lucro is what a
   charity declares it has none of. Ordinary profit is beneficio or ganancia.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "lucro"
   and s.v. "beneficio".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8686
 permalink: 8710
@@ -1666,7 +1666,7 @@ reason: Dominar is the verb, to master. This list is people, and a master is un
   maestro or un amo.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "maestro" and s.v. "dominar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8777
 permalink: 8801
@@ -1680,7 +1680,7 @@ reason: Relativo is the adjective. A relative in a family is un pariente, which
   is what a list of people wants.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "pariente" and s.v. "relativo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8888
 permalink: 8912
@@ -1693,7 +1693,7 @@ kind: wrong-class
 reason: Delegar is the verb. The person is un delegado.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "delegado".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8982
 permalink: 9006
@@ -1707,7 +1707,7 @@ reason: Firmar is to sign your name. The noun is una señal, or un letrero for
   one on a wall.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "señal"
   and s.v. "firmar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8954
 permalink: 8978
@@ -1720,7 +1720,7 @@ kind: wrong-class
 reason: Cargar is the verb, to load or to charge. The noun is un cargo.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "cargo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8765
 permalink: 8789
@@ -1733,7 +1733,7 @@ kind: wrong-class
 reason: Dormir is the verb. The noun is el sueño.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "sueño".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8728
 permalink: 8752
@@ -1745,7 +1745,7 @@ proposed: paseo
 kind: wrong-class
 reason: Caminar is the verb. A walk is un paseo, or una caminata.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "paseo".
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 10: nouns 8983-9284, plus mechanical sweeps ---
 
@@ -1778,7 +1778,7 @@ reason: Read as the computing acronym and shouted back in capitals. A police
   raid is una redada; a military one is una incursión.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "redada".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9213
 permalink: 9237
@@ -1793,7 +1793,7 @@ reason: La resignación is resignation in the sense of accepting one's fate.
   means the other thing.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "dimisión" and s.v. "resignación".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9214
 permalink: 9238
@@ -1808,7 +1808,7 @@ reason: La simpatía is likeability -- being charming company. Sympathy for
   false friends between the two languages.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "simpatía" and s.v. "compasión".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9144
 permalink: 9168
@@ -1823,7 +1823,7 @@ reason: Personalizado is an adjective meaning customised, from the software
   costumbre.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "costumbre".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9151
 permalink: 9175
@@ -1837,7 +1837,7 @@ reason: La tolerancia is tolerance. An allowance of money is una asignación,
   or un subsidio.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "asignación" and s.v. "tolerancia".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9001
 permalink: 9025
@@ -1851,7 +1851,7 @@ reason: El habla is the faculty of speech -- what you lose after a stroke. A
   speech delivered to a room is un discurso.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "discurso" and s.v. "habla".
-status: proposed
+status: shipped 2026-09-29
 
 id: 8984
 permalink: 9008
@@ -1866,7 +1866,7 @@ reason: Una fiesta is a party, and is already the translation given for party
   un día festivo.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "vacaciones" and s.v. "fiesta".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9279
 permalink: 9303
@@ -1880,7 +1880,7 @@ reason: Un alboroto is a commotion, a racket. A riot is un disturbio, or un
   motín.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "disturbio" and s.v. "alboroto".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9146
 permalink: 9170
@@ -1894,7 +1894,7 @@ reason: Un enlace is a link, and is already the translation given for link. A
   bond between people is un vínculo; a financial one is un bono.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "vínculo" and s.v. "bono".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9258
 permalink: 9282
@@ -1907,7 +1907,7 @@ kind: untranslated
 reason: Passed through unchanged.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "diálogo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9016
 permalink: 9040
@@ -1920,7 +1920,7 @@ kind: wrong-class
 reason: Subir is the verb. The noun is una subida, or un aumento.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "subida".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9029
 permalink: 9053
@@ -1933,7 +1933,7 @@ kind: wrong-class
 reason: Sonreír is the verb. The noun is una sonrisa.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "sonrisa".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9072
 permalink: 9096
@@ -1947,7 +1947,7 @@ reason: Leyendo is the gerund -- reading as in "while reading". The noun is la
   lectura.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "lectura".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9058
 permalink: 9082
@@ -1961,7 +1961,7 @@ reason: Conceder is the verb, to grant. The money is una subvención, or una
   beca for a student.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "subvención".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9015
 permalink: 9039
@@ -1976,7 +1976,7 @@ reason: Missing the accent. One of nine -cion words across the whole Spanish
   this one stretch of rows, so it is a bad batch rather than a general fault.
 source: Real Academia Española, Ortografía de la lengua española, on agudas
   ending in -n.
-status: proposed
+status: shipped 2026-09-29
 
 id: 9034
 permalink: 9058
@@ -1988,7 +1988,7 @@ proposed: tradición
 kind: orthography
 reason: Missing the accent. Same batch as protection.
 source: Real Academia Española, Ortografía de la lengua española.
-status: proposed
+status: shipped 2026-09-29
 
 id: 9041
 permalink: 9065
@@ -2000,7 +2000,7 @@ proposed: conversación
 kind: orthography
 reason: Missing the accent. Same batch.
 source: Real Academia Española, Ortografía de la lengua española.
-status: proposed
+status: shipped 2026-09-29
 
 id: 9023
 permalink: 9047
@@ -2012,7 +2012,7 @@ proposed: generación
 kind: orthography
 reason: Missing the accent, and capitalised. Same batch.
 source: Real Academia Española, Ortografía de la lengua española.
-status: proposed
+status: shipped 2026-09-29
 
 id: 9229
 permalink: 9253
@@ -2024,7 +2024,7 @@ proposed: celebración
 kind: orthography
 reason: Missing the accent. Same batch.
 source: Real Academia Española, Ortografía de la lengua española.
-status: proposed
+status: shipped 2026-09-29
 
 id: 8988
 permalink: 9012
@@ -2037,7 +2037,7 @@ kind: orthography
 reason: Missing the accent. Mayoría breaks the diphthong on the i and needs the
   tilde to say so.
 source: Real Academia Española, Ortografía de la lengua española, on hiatus.
-status: proposed
+status: shipped 2026-09-29
 
 # --- The ten disagreeing pairs, resolved by lesson ---
 
@@ -2054,7 +2054,7 @@ reason: An appearance adjective, so this is lean meaning thin -- delgado. The
   across would teach a learner that thin means to lean on something.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "delgado".
-status: proposed
+status: shipped 2026-09-29
 
 id: 10168
 permalink: 10192
@@ -2068,7 +2068,7 @@ reason: A social adjective, so this is cross meaning angry -- enfadado, or
   enojado in Latin America. The other cross, in Nouns - Objects, is cruzar.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "enfadado".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9979
 permalink: 10003
@@ -2082,7 +2082,7 @@ reason: A quality adjective, so this is sound meaning solid or reliable --
   sólido. The other sound, in Nouns - Concepts, is the noise.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "sólido".
-status: proposed
+status: shipped 2026-09-29
 
 id: 10350
 permalink: 10374
@@ -2097,7 +2097,7 @@ reason: An appearance adjective, so this is darling meaning lovely --
   endearment, which is a noun and belongs where it is.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "encantador".
-status: proposed
+status: shipped 2026-09-29
 
 id: 10234
 permalink: 10258
@@ -2113,7 +2113,7 @@ reason: No change needed, which is why it looked untranslated. A feeling
   that happens to be the same in both languages.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "grave".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9869
 permalink: 9893
@@ -2127,7 +2127,7 @@ reason: An objects lesson, so this is the thing rather than the action --
   cepillo, which is what the other brush already says.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "cepillo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9813
 permalink: 9837
@@ -2141,7 +2141,7 @@ reason: Ensayo in both lessons -- an essay is an essay whether it is an object
   or a book.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "ensayo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 10306
 permalink: 10330
@@ -2154,7 +2154,7 @@ kind: untranslated
 reason: The colour, as in the Adjectives - Colors lesson that already has it.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "marrón".
-status: proposed
+status: shipped 2026-09-29
 
 id: 10307
 permalink: 10331
@@ -2168,7 +2168,7 @@ reason: The colour. The Adjectives - Colors row has it capitalised, which wants
   fixing there as well.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "amarillo".
-status: proposed
+status: shipped 2026-09-29
 
 id: 10311
 permalink: 10335
@@ -2181,7 +2181,7 @@ kind: untranslated
 reason: The colour. The Adjectives - Colors row has it capitalised too.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "rosado".
-status: proposed
+status: shipped 2026-09-29
 
 # --- Wave 1 candidates, block 11: nouns 9285-9548 ---
 
@@ -2196,7 +2196,7 @@ kind: wrong-word
 reason: Mía is the possessive, mine as in belonging to me. In a lesson about
   places it is una mina, where coal comes from.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "mina".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9539
 permalink: 9563
@@ -2210,7 +2210,7 @@ reason: Apuntalar is the verb, to shore something up, to prop it. A shore in a
   places lesson is la orilla, or la costa.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "orilla" and s.v. "apuntalar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9526
 permalink: 9550
@@ -2224,7 +2224,7 @@ reason: Un recurso is a resource, and is already the translation given for
   resource. A resort you go on holiday to is un centro turístico.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "recurso" and s.v. "turístico".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9421
 permalink: 9445
@@ -2238,7 +2238,7 @@ reason: Mucho is the adverb, a lot meaning much. In a places lesson a lot is un
   solar, or una parcela, a piece of ground.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "solar"
   and s.v. "mucho".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9497
 permalink: 9521
@@ -2252,7 +2252,7 @@ reason: Un ajuste is a setting on a dial. The setting of a place or a story is
   el entorno, or el escenario.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "entorno" and s.v. "ajuste".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9536
 permalink: 9560
@@ -2266,7 +2266,7 @@ reason: Un compuesto is a chemical compound. A walled compound in a places
   lesson is un recinto.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "recinto" and s.v. "compuesto".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9538
 permalink: 9562
@@ -2280,7 +2280,7 @@ reason: Un aterrizaje is what an aeroplane does. The landing at the top of the
   stairs, which is the one a places lesson wants, is el rellano.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "rellano" and s.v. "aterrizaje".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9471
 permalink: 9495
@@ -2294,7 +2294,7 @@ reason: Un cuarto is a room of any kind, and capitalised besides. The one you
   sleep in is el dormitorio, or la habitación.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "dormitorio".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9440
 permalink: 9464
@@ -2308,7 +2308,7 @@ reason: Universidad is already the translation given for university, twelve
   rows earlier. A college is un instituto.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "instituto".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9466
 permalink: 9490
@@ -2322,7 +2322,7 @@ reason: Passed through unchanged. In a places lesson this is el patio; the unit
   of measurement would be la yarda.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "patio".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9521
 permalink: 9545
@@ -2336,7 +2336,7 @@ reason: Passed through unchanged, and the Spanish differs only by an accent,
   which is how it slipped past.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "océano".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9531
 permalink: 9555
@@ -2349,7 +2349,7 @@ kind: untranslated
 reason: Passed through unchanged.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "guardería".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9326
 permalink: 9350
@@ -2361,7 +2361,7 @@ proposed: arte
 kind: untranslated
 reason: Passed through unchanged, and one letter short of correct.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "arte".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9387
 permalink: 9411
@@ -2374,7 +2374,7 @@ kind: untranslated
 reason: Passed through unchanged.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "noción".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9318
 permalink: 9342
@@ -2387,7 +2387,7 @@ kind: wrong-class
 reason: Interesar is the verb. The noun is el interés.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "interés".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9338
 permalink: 9362
@@ -2400,7 +2400,7 @@ kind: wrong-class
 reason: Responder is the verb. The noun is la respuesta.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "respuesta".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9385
 permalink: 9409
@@ -2412,7 +2412,7 @@ proposed: ser
 kind: wrong-class
 reason: Siendo is the gerund, being as in while being. A being is un ser.
 source: Real Academia Española, Diccionario de la lengua española, s.v. "ser".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9391
 permalink: 9415
@@ -2425,7 +2425,7 @@ kind: wrong-class
 reason: Pensando is the gerund. The noun is el pensamiento.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "pensamiento".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9418
 permalink: 9442
@@ -2438,7 +2438,7 @@ kind: wrong-class
 reason: Centrar is the verb. The noun is el centro.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "centro".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9472
 permalink: 9496
@@ -2452,7 +2452,7 @@ reason: Almacenar is the verb, to store. In a places lesson a store is una
   tienda.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "tienda" and s.v. "almacenar".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9492
 permalink: 9516
@@ -2465,7 +2465,7 @@ kind: wrong-class
 reason: Acampar is the verb. The place is un campamento.
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "campamento".
-status: proposed
+status: shipped 2026-09-29
 
 id: 9293
 permalink: 9317
@@ -2478,7 +2478,7 @@ kind: orthography
 reason: Missing the accent. One of the nine, and the only one outside the
   9015 to 9229 cluster.
 source: Real Academia Española, Ortografía de la lengua española.
-status: proposed
+status: shipped 2026-09-29
 
 id: 9416
 permalink: 9440
