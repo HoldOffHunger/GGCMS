@@ -4,6 +4,7 @@
 	clireq('traits/DBAccess.php');
 	clireq('traits/DomainValidation.php');
 	clireq('traits/ErrorCLI.php');
+	clireq('classes/Entries/TranslationReviewStore.php');
 
 	/*
 		Applies the corrections in Development/TranslationReview/<lang>.txt to
@@ -151,81 +152,16 @@
 			return is_file($this->store_location);
 		}
 
-			/*
-				Records are blank-line separated, one `key: value` per line, and
-				a value may continue onto following lines indented by spaces.
-				Comment lines start with #.
-			*/
+			// the store itself is read and narrowed by TranslationReviewStore
 
 		public function readStore() {
-			$records = [];
-			$record = [];
-			$key = '';
+			$store = new TranslationReviewStore([
+				'location'=>$this->store_location,
+				'language'=>$this->language,
+				'limit'=>$this->limit,
+			]);
 
-			$lines = file($this->store_location);
-
-			foreach($lines as $line) {
-				$line = rtrim($line, "\r\n");
-
-				if(substr($line, 0, 1) === '#') {
-					continue;
-				}
-
-				if(trim($line) === '') {
-					if(count($record)) {
-						$records[] = $record;
-						$record = [];
-					}
-
-					continue;
-				}
-
-				if(substr($line, 0, 2) === '  ' && $key) {
-					$record[$key] .= ' ' . trim($line);
-					continue;
-				}
-
-				$pieces = explode(':', $line, 2);
-
-				if(count($pieces) !== 2) {
-					continue;
-				}
-
-				$key = trim($pieces[0]);
-				$record[$key] = trim($pieces[1]);
-			}
-
-			if(count($record)) {
-				$records[] = $record;
-			}
-
-			return $this->filterRecords(['records'=>$records]);
-		}
-
-		public function filterRecords($args) {
-			$filtered = [];
-
-			foreach($args['records'] as $record) {
-				if(!isset($record['id']) || !isset($record['proposed'])) {
-					continue;
-				}
-
-				if($record['status'] !== 'proposed') {
-					continue;
-				}
-
-				if($record['lang'] !== $this->language) {
-					continue;
-				}
-
-				$filtered[] = $record;
-
-				if(count($filtered) >= $this->limit) {
-					break;
-				}
-			}
-
-			return $filtered;
+			return $store->Read();
 		}
 
 			// Applying
