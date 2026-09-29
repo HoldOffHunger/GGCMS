@@ -395,13 +395,20 @@
 				The [0] suffix takes the first frame only.  Without it a
 				multi-frame file makes identify print one line per frame, and
 				the parse below silently reads the first of many.
+
+				-ping reads the header and not the pixels, which is all three
+				numbers need.  Without it identify decoded the whole image, and
+				masereelgroup's 140-megapixel scans met the host's ImageMagick
+				policy as "cache resources exhausted" -- so every tool here
+				called them unreadable, and shrink_images.php, whose own resize
+				already coped with them, never got as far as trying.
 			*/
 
 		public function identifyImage($args) {
 			$path = $args['path'];
 
 			$command = $this->imageMagickCommand(['tool'=>'identify']);
-			$command .= ' -format "%w %h %Q" ' . escapeshellarg($path . '[0]') . ' 2>' . $this->nullDevice();
+			$command .= ' -ping -format "%w %h %Q" ' . escapeshellarg($path . '[0]') . ' 2>' . $this->nullDevice();
 
 			$output = trim((string)shell_exec($command));
 
