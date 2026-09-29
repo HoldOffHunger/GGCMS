@@ -2287,11 +2287,18 @@
 				
 				$sql .= 'WHERE Entry1.Publish = 1 AND Entry1.ListTitle ' . $type_operator . ' ? ';
 				
-				$sql .= 'ORDER BY Entry1.ListTitleSortKey ';
-				
-				if($type_operator == '<') {
-					$sql .= ' DESC ';
-				}
+					/*
+						The siblings are chosen by ListTitle, so they are ordered
+						by it too once the sort key has had its say.  Most entries
+						leave ListTitleSortKey empty -- every EarthFluent lesson
+						does -- and ordering by that alone handed back ten
+						lessons in no order, so "previous" and "next" named
+						lessons from elsewhere in the course.
+					*/
+
+				$direction = ($type_operator == '<') ? ' DESC' : '';
+
+				$sql .= 'ORDER BY Entry1.ListTitleSortKey' . $direction . ', Entry1.ListTitle' . $direction . ' ';
 				
 				$sql .= 'LIMIT 10;';
 				
