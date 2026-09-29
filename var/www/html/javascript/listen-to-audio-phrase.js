@@ -6,7 +6,19 @@ window.speechSynthesis.onvoiceschanged = function ()
 	updateLanguage();
 }
 
+	// The language goes on the utterance as well as the voice: a device with no
+	// voice for exactly this code (es-ES but not es-US, say) still picks one for
+	// the language rather than reading Spanish in English.
+
 function updateLanguage() {
+	if(!languagecode)
+	{
+		return;
+	}
+
+	utterance.voice = null;
+	utterance.lang = languagecode;
+
 	voices = window.speechSynthesis.getVoices();
 	for(i = 0; i < voices.length; i++)
 	{
@@ -91,8 +103,8 @@ $(document).ready(function(event){
 		}
 		
 		updateLanguage();
-		
-		var utterance = new SpeechSynthesisUtterance();
+
+			// the utterance updateLanguage() just set up, not a new one without its voice
 		utterance.text = phrase;
 		window.speechSynthesis.speak(utterance);
 	});
