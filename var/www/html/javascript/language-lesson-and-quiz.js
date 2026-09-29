@@ -57,7 +57,7 @@ $(document).ready(function(event){
 		if(rightanswer == givenanswer)
 		{
 			$('#error-message').html('Correct!');
-			$('#message-container').css('background-color','#00CC00');
+			$('#message-container').removeClass('is-wrong').addClass('is-right');
 			questionindex++;
 			if(quizquestions.length < (questionindex + 1))
 			{
@@ -90,7 +90,7 @@ $(document).ready(function(event){
 		else
 		{
 			$('#error-message').html('Incorrect.');
-			$('#message-container').css('background-color','#FF8800');
+			$('#message-container').removeClass('is-right').addClass('is-wrong');
 		}
 	});
 	
@@ -136,7 +136,7 @@ $(document).ready(function(event){
 		}
 		
 		showSearch(searchterm);
-		$('#message-container').css('background-color','#FFFFFF');
+		$('#message-container').removeClass('is-right is-wrong');
 		$('#answer-results-container').show();
 		$('#error-message').html('Select the Answers When You are Ready');
 	});

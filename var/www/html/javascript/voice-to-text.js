@@ -154,6 +154,13 @@ $(document).ready(function(event){
 		return checkForCorrectness();
 	};
 	
+		// Recognition capitalises and punctuates as it likes ("Estupendo.", "¡Hola!"),
+		// and the lesson stores the bare word, so both sides are compared plain.
+
+	function sayable(text) {
+		return $.trim(String(text).toLowerCase().replace(/[¡!¿?.,;:"'«»]/g, ''));
+	}
+
 	function checkForCorrectness(e) {
 		var matched = false;
 		var word = $('#pronunciation-area').val();
@@ -163,7 +170,7 @@ $(document).ready(function(event){
 		for(i = 0; i < possiblematches.length; i++) {
 			var possiblematch = possiblematches[i];
 			
-			if($(possiblematch).val() == word)
+			if(sayable($(possiblematch).val()) == sayable(word))
 			{
 				matched = true;
 				matchedlessonword = possiblematch;
@@ -171,13 +178,10 @@ $(document).ready(function(event){
 			}
 		}
 		
-		$('.pronounce-nonenglish-words-hidden').parent('div').css('background-color', '#FFFFFF');
-		
+			// a word once said stays marked, so the list shows how far the reader has come
 		if(matched) {
-			$(matchedlessonword).parent('div').css('background-color', '#00CC00');
+			$(matchedlessonword).parent('div').addClass('is-said');
 			$(matchedlessonword).parent('div').attr('title', 'Pronounced correctly');
-			$(matchedlessonword).parent('div').css('font-weight', 'bold');
-			$(matchedlessonword).parent('div').css('outline', '3px solid #000000');
 			return true;
 		}
 		
