@@ -11,16 +11,6 @@ $(document).ready(function(e) {
 		}, delay);
 	});
 	
-	var clicked = 0;
-	
-	$('.input-area').click(function(e) {
-		if(!clicked)
-		{
-			$(this).val('');
-			clicked = 1;
-		}
-	});
-	
 	$('.sort-button').click(function(e) {
 		sortWords();
 	});

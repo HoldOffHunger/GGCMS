@@ -7,18 +7,8 @@ $(document).ready(function(event){
 			clearTimeout(timeout);
 		}
 		timeout = setTimeout(function() {
-			sortWords();
+			removeDuplicates();
 		}, delay);
-	});
-	
-	var clicked = 0;
-	
-	$('.input-area').click(function(e) {
-		if(!clicked)
-		{
-			$(this).val('');
-			clicked = 1;
-		}
 	});
 	
 	$('.remove-duplicates-button').click(function(e) {
@@ -41,7 +31,7 @@ $(document).ready(function(event){
 		return 'Waiting for User';
 	}
 
-	function sortWords() {
+	function removeDuplicates() {
 		dedupedwords = $('.input-area').val().split(/\n/);
 		
 		if($('#trim-whitespace').prop("checked"))

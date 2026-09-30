@@ -103,16 +103,6 @@ $(document).ready(function(e){
 		return true;
 	});
 	
-		/* $('.input-area').click(function(e) {...})
-		
-			Clear the input area of its default instruction set when input area is clicked.
-		
-		*/
-	
-	$('.input-area').click(function(e) {
-		return initiateApp();
-	});
-	
 		/* $('.find-keywords-button').click(function(e) {...})
 		
 			User clicked the "Find Keywords" button.
@@ -185,24 +175,6 @@ $(document).ready(function(e){
 		return findKeywords();
 	});
 	
-		/* initiateApp()
-		
-			Clear the input area of its default instruction set.
-			
-			Bound to many event handlers.
-		
-		*/
-		
-	var started = false;
-	
-	function initiateApp() {
-		if(!started) {
-			$('.input-area').val('');
-			started = true;
-		}
-		
-		return true;
-	}
 	
 					// Input Cleanup
 					// ---------------------------------------------------------
