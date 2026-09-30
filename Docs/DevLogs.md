@@ -84,6 +84,18 @@ live installation rather than estimated.
   archive.org, and that the front page's figures read "0 days to read it
   all" and "about 0 printed pages" on an archive of 4,375 words.
 
+- The six text tools -- RemoveSpacing, RemoveBlankLines,
+  RemoveDuplicateLines, SortWords, ListKeywords, PronounceThat -- share one
+  workbench page, text-tool.php, each in its own colour, with CodeMirror's
+  line numbers in the boxes. Testing them live first found every tool's
+  button blank, and RemoveDuplicateLines doing nothing at all: its button
+  called a function that did not exist, under a class its script did not
+  listen for. All six cleared the input on its first click, which with a
+  real placeholder only erased what a reader had pasted. PronounceThat told
+  every voice it was reading English, and often listed no voices at all.
+  Their About pages, a few thousand lines each in twelve languages, keep
+  the old look for now.
+
 ## 2026, September 28
 
 - The front page's numbers are drawn at random, four at a time, from every
