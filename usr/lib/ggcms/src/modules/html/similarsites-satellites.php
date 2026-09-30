@@ -864,7 +864,9 @@
 			return $site_info_pieces;
 		}
 		
-		public function display_Header()
+			// The heading over the list, in the reader's language
+
+		public function HeaderText()
 		{
 			$language = $this->language;
 			
@@ -934,8 +936,13 @@
 					break;
 			}
 			
+			return $header;
+		}
+		
+		public function display_Header()
+		{
 			print('<h3>');
-			print($header);
+			print($this->HeaderText());
 			print('</h3>');
 		}
 		
@@ -977,6 +984,51 @@
 			print('</div>');
 			
 			print('</div>');
+		}
+
+			/*
+				The same sites as cards, for the new-style tool pages (see
+				text-tool.php): each one's name and slogan, linking to it in
+				the reader's language, the current site left out.
+			*/
+
+		public function DisplayCards()
+		{
+			$language_code = $this->language->language_code;
+
+			$sites = [];
+
+			foreach($this->getSites() as $site_info_piece) {
+				if($site_info_piece['domain'] != $this->site) {
+					$sites[] = $site_info_piece;
+				}
+			}
+
+			if(!$sites) {
+				return FALSE;
+			}
+
+			print('<section class="block page-wide sister-sites" aria-labelledby="sister-sites-title">');
+			print('<h2 class="block-title" id="sister-sites-title">' . $this->HeaderText() . '</h2>');
+			print('<div class="sister-grid">');
+
+			foreach($sites as $site_info_piece) {
+				$url = 'https://' . $site_info_piece['domain'] . '/';
+
+				if($language_code && $language_code != 'en') {
+					$url .= '?language=' . $language_code;
+				}
+
+				print('<a class="sister-card" href="' . $url . '" title="' . str_replace('"', '&quot;', $site_info_piece['description']) . '">');
+				print('<span class="sister-card-name">' . $site_info_piece['title'] . '</span>');
+				print('<span class="sister-card-slogan">' . $site_info_piece['slogan'] . '</span>');
+				print('</a>');
+			}
+
+			print('</div>');
+			print('</section>');
+
+			return TRUE;
 		}
 	}
 
