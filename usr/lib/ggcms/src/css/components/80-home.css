@@ -78,6 +78,12 @@
 	text-wrap: balance;
 }
 
+	/* a name with a word of nine letters or more -- ANARCHIST -- a size down, to fit its column */
+
+.masthead-title-long {
+	font-size: clamp(2.4rem, 5.2vw, 4.4rem);
+}
+
 .masthead-title em {
 	display: block;
 	font-style: normal;
@@ -432,6 +438,14 @@
 .coll-list a:hover {
 	color: var(--accent-ink);
 	text-decoration: underline;
+}
+
+.coll-note {
+	margin: .35rem 0 0;
+	padding: .6rem 0 0;
+	border-top: 1px solid var(--rule);
+	font: 400 .98rem/1.45 var(--serif);
+	color: var(--ink-2);
 }
 
 .coll-author {

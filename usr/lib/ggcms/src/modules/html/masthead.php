@@ -48,7 +48,7 @@
 				print('<p class="masthead-kicker">' . $this->that->entry['Subtitle'] . '</p>');
 			}
 
-			print('<h1 class="masthead-title">' . $this->Wordmark() . '</h1>');
+			print('<h1 class="masthead-title' . (($this->LongestWord() > 8) ? ' masthead-title-long' : '') . '">' . $this->Wordmark() . '</h1>');
 
 			$this->DisplayIntro();
 			$this->DisplaySearch();
@@ -122,6 +122,18 @@
 			$last = array_pop($words);
 
 			return implode(' ', $words) . ' <em>' . $last . '</em>';
+		}
+
+			/*
+				The longest word the wordmark sets on a line of its own.  At
+				full size a word of nine letters -- ANARCHIST -- is wider than
+				the masthead's column, and broke as ANARCHI, ST.
+			*/
+
+		public function LongestWord() {
+			$words = preg_split('/\s+/', trim(strip_tags(str_replace('<em>', ' ', $this->Wordmark()))));
+
+			return max(array_map('mb_strlen', $words));
 		}
 
 		public function DisplayBackdrop() {

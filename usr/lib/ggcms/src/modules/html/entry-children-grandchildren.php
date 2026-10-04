@@ -11,17 +11,32 @@
 
 			Links are relative, as they always were: this is printed on the
 			page whose children these are.
+
+			Switches:
+			  header  the collections' heading; The collections by default
+			  kicker  the label over each card's name; Collection by default,
+			          Document on AnarchistCode, whose sections are three
+			          documents and nothing in them
+			  more    the card's closing link; Browse and the name by
+			          default
+
+			A section with nothing in it to list shows its description
+			instead.
 		*/
 
 	class module_entrychildrengrandchildren extends module_spacing {
 		public $that;
 		public $header;
 		public $entrysort;
+		public $kicker;
+		public $more;
 
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->header = $args['header'];
 			$this->entrysort = $args['entrysort'];
+			$this->kicker = !empty($args['kicker']) ? $args['kicker'] : 'Collection';
+			$this->more = !empty($args['more']) ? $args['more'] : NULL;
 		}
 
 		public function Display() {
@@ -64,7 +79,7 @@
 			}
 
 			print('<div class="coll-body">');
-			print('<p class="kicker">Collection</p>');
+			print('<p class="kicker">' . $this->kicker . '</p>');
 			print('<h3 class="coll-title"><a href="' . $url . '">' . $child['Title'] . '</a></h3>');
 
 			if($child['Subtitle']) {
@@ -89,9 +104,11 @@
 				}
 
 				print('</ul>');
+			} elseif($child['description'] && $child['description'][0] && $child['description'][0]['Description']) {
+				print('<p class="coll-note">' . preg_replace('/Image::(\d+)/', '', $child['description'][0]['Description']) . '</p>');
 			}
 
-			print('<a class="coll-more" href="' . $url . '">Browse ' . $child['Title'] . ' &rarr;</a>');
+			print('<a class="coll-more" href="' . $url . '">' . ($this->more ? $this->more : 'Browse ' . $child['Title']) . ' &rarr;</a>');
 			print('</div>');
 			print('</article>');
 
