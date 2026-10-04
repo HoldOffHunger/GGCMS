@@ -31,6 +31,10 @@
 			               RevoltLink's -- to lead with the way out to it, and
 			               show each child's site on its card; 'archived' for
 			               sites long gone, sent to the Wayback Machine
+			  body         a text the template makes itself rather than reads
+			               from the record -- AnarchistCode's code of conduct,
+			               privacy policy and terms, written by the engine's
+			               traits -- as HTML, set where the record's text goes
 		*/
 
 	class module_readingpage extends module_spacing {
@@ -40,6 +44,7 @@
 		public $pictures_first;
 		public $counted;
 		public $directory;
+		public $body;
 
 		public function __construct($args) {
 			$this->that = $args['that'];
@@ -48,6 +53,7 @@
 			$this->pictures_first = !empty($args['pictures_first']);
 			$this->counted = !empty($args['counted']) ? $args['counted'] : 'chapters';
 			$this->directory = !empty($args['directory']) ? $args['directory'] : FALSE;
+			$this->body = $args['body'] ?? NULL;
 
 			foreach([
 				'entry-association', 'entry-comments', 'entry-controls', 'entry-date', 'entry-description',
@@ -101,7 +107,7 @@
 
 			print('<div class="actions">');
 
-			if($that->entry['textbody'] && $that->counts['textbody']) {
+			if(($that->entry['textbody'] && $that->counts['textbody']) || $this->body !== NULL) {
 				$formats->DisplayListen();
 			}
 
@@ -140,6 +146,12 @@
 
 			$textbody = new module_entrytextbody(['that'=>$that, 'noalts'=>TRUE]);
 			$textbody->Display();
+
+			if($this->body !== NULL) {
+				print('<section class="block text document" id="textbody"><div class="prose text-to-play-as-audio">');
+				print($this->body);
+				print('</div></section>');
+			}
 
 				// The formats are in the sidebar already, so not again here.
 
