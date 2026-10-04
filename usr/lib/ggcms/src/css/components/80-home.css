@@ -386,6 +386,21 @@
 	object-fit: cover;
 }
 
+	/*
+		A picture that is a logo, lettered to its edges -- a sister site's
+		mark on OurUprising -- shown whole rather than cropped.
+	*/
+
+.coll-image-whole {
+	background: var(--paper);
+	border-bottom: 1px solid var(--rule);
+}
+
+.coll-image-whole img {
+	object-fit: contain;
+	padding: .75rem;
+}
+
 .coll-body {
 	display: grid;
 	gap: .5rem;
