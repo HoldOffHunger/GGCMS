@@ -251,6 +251,20 @@
 			$parent_count = $args['parent_count'];
 			$meta = [];
 
+				/*
+					A directory's child is a site: where it is, and the way to
+					it.  outlinks is TRUE, or 'archived' for sites long gone.
+				*/
+
+			if(!empty($list_args['outlinks']) && $child['link'] && count($child['link']) > 0) {
+				require_once(GGCMS_DIR . 'modules/html/entry-link.php');
+				$entry_link = new module_entrylink(['that'=>$this->that]);
+				$url = $child['link'][0]['URL'];
+				$archived = $list_args['outlinks'] === 'archived';
+
+				$meta[] = '<a class="entry-card-site" target="_parent" href="' . htmlspecialchars($entry_link->VisitURL(['url'=>$url, 'archived'=>$archived]), ENT_QUOTES, 'UTF-8') . '" rel="noopener">' . htmlspecialchars($entry_link->Host(['url'=>$url]), ENT_QUOTES, 'UTF-8') . ($archived ? ', archived' : '') . '</a>';
+			}
+
 			if($child['association'] && count($child['association']) > 0) {
 				$writings = [];
 				$roles = [];

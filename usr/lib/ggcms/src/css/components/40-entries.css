@@ -297,6 +297,54 @@
 }
 
 	/*
+		A directory entry's way out to the site, under its title: the one
+		thing a reader came to the page for, so it is the page's one button.
+	*/
+
+.visit {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .6rem;
+	margin: 1.25rem 0 1.75rem;
+}
+
+.visit-link {
+	display: inline-flex;
+	flex-direction: column;
+	gap: .15rem;
+	max-width: 100%;
+	padding: .7rem 1.1rem;
+	background: var(--accent-fill);
+	color: var(--on-accent);
+	text-decoration: none;
+	border-radius: 2px;
+}
+
+.visit-link:hover,
+.visit-link:focus-visible {
+	background: var(--accent-fill-hover);
+	color: var(--on-accent);
+}
+
+.visit-label {
+	font-weight: 600;
+}
+
+.visit-label::after {
+	content: " \2192";
+}
+
+.visit-host {
+	font-size: .8125rem;
+	opacity: .85;
+	overflow-wrap: anywhere;
+}
+
+.entry-card-site {
+	overflow-wrap: anywhere;
+}
+
+	/*
 		Cards printed one after another by an older template's own loop,
 		outside an .entry-list, still need their gap.
 	*/

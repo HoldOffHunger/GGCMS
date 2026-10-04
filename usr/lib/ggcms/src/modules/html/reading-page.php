@@ -27,6 +27,10 @@
 			               they are text -- MasereelGroup's woodcuts -- to
 			               show the images under the title, in .lead-pictures,
 			               rather than after everything else
+			  directory    TRUE for an entry that is a link to another site --
+			               RevoltLink's -- to lead with the way out to it, and
+			               show each child's site on its card; 'archived' for
+			               sites long gone, sent to the Wayback Machine
 		*/
 
 	class module_readingpage extends module_spacing {
@@ -35,6 +39,7 @@
 		public $authors;
 		public $pictures_first;
 		public $counted;
+		public $directory;
 
 		public function __construct($args) {
 			$this->that = $args['that'];
@@ -42,6 +47,7 @@
 			$this->authors = array_key_exists('authors', $args) ? (int) $args['authors'] : 0;
 			$this->pictures_first = !empty($args['pictures_first']);
 			$this->counted = !empty($args['counted']) ? $args['counted'] : 'chapters';
+			$this->directory = !empty($args['directory']) ? $args['directory'] : FALSE;
 
 			foreach([
 				'entry-association', 'entry-comments', 'entry-controls', 'entry-date', 'entry-description',
@@ -123,6 +129,12 @@
 			$description = new module_entrydescription(['that'=>$that, 'header'=>'']);
 			$description->Display();
 
+			$links = new module_entrylink(['that'=>$that]);
+
+			if($this->directory) {
+				$links->DisplayLead(['archived'=>$this->directory === 'archived']);
+			}
+
 			$quotes = new module_entryquotes(['that'=>$that]);
 			$quotes->Display(['max'=>1, 'header'=>'']);
 
@@ -138,6 +150,7 @@
 					'count'=>$that->counts['children'],
 					'alts'=>FALSE,
 					'stats'=>TRUE,
+					'outlinks'=>$this->directory,
 				]);
 			}
 
@@ -147,8 +160,9 @@
 				$images->Display(['header'=>'Images']);
 			}
 
-			$links = new module_entrylink(['that'=>$that]);
-			$links->Display([]);
+			if(!$this->directory) {
+				$links->Display([]);
+			}
 
 			print('<div class="asterism" aria-hidden="true">&#x2042;</div>');
 
