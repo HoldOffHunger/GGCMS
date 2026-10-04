@@ -104,7 +104,18 @@
 		public function Wordmark() {
 			$words = preg_split('/\s+/', trim(strip_tags($this->that->entry['Title'])));
 
+				/*
+					A name run together -- RevoltSource, RevoltLink -- splits where
+					its last word begins.  Left whole it is one word too long for
+					the masthead and broke wherever the line ran out: REVOLTS,
+					OURCE.
+				*/
+
 			if(count($words) < 2) {
+				if(preg_match('/^(.+\p{Ll})(\p{Lu}.*)$/u', $words[0], $parts)) {
+					return $parts[1] . '<em>' . $parts[2] . '</em>';
+				}
+
 				return implode(' ', $words);
 			}
 
