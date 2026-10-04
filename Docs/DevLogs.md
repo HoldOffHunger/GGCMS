@@ -18,6 +18,19 @@ live installation rather than estimated.
   masthead broke the site's name as REVOLTS / OURCE, and a name run
   together now splits where its last word begins.
 
+- RevoltLink takes the same look, in green, and most of the live site had
+  the same fault in a larger way: its templates were named for a master
+  record coded revoltlink, so the struggles and all 11,816 link pages
+  showed the dump. A link's page now leads with a button to the site, and
+  every link under Inactive Sites goes to the Wayback Machine instead.
+
+- Refilling RevoltSource's cache on the server, one page at a time, took
+  the server's single CPU from a load of 2 to 31 while a scripted-browser
+  farm was sending 800 to 900 requests a minute from about 11,000
+  addresses, most of them EarthFluent quiz addresses no cache can hold. A
+  quarter of all requests were timing out. The server's warm was stopped
+  and RevoltSource warmed on Fumiko instead: 5,993 pages in 131 seconds.
+
 ## 2026, September 29
 
 - The page cache writes each page to a temporary file and renames it into
