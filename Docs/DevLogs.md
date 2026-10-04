@@ -37,6 +37,18 @@ live installation rather than estimated.
   from the privacy policy's, and the code of conduct and the terms were
   both headed "Privacy Policy".
 
+- OurUprising, the blog of 302 essays, takes the look in ember orange,
+  and the whole Revolt family is done. Every genre page -- Politics,
+  Property, Literature -- had fallen through to display.php, a debugging
+  page that printed the raw records to readers; genres have a template
+  now, and display.php is a reading-page fallback.
+
+- RevoltSource's documents would fit many times over: the documents
+  volume has 21 GB free, and a full set of every format for its 6,000
+  pages is about 300 MB. Its PDFs work on quote and people pages; the
+  struggle pages and the People and Writings indexes hand back the web
+  page instead, because their new templates render only HTML.
+
 - The stats tool's farm filter missed most of EarthFluent's visitors
   today: the same Windows Chrome at 1920x1080 in en-US with no referrer,
   now claiming New York, Sao Paulo and Paris rather than UTC or Asia.
