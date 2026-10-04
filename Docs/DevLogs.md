@@ -31,6 +31,19 @@ live installation rather than estimated.
   quarter of all requests were timing out. The server's warm was stopped
   and RevoltSource warmed on Fumiko instead: 5,993 pages in 131 seconds.
 
+- AnarchistCode takes the look, in violet. Its three documents are
+  written by the engine's traits rather than stored as text, so the
+  reading page takes them as a body. The three templates had been copied
+  from the privacy policy's, and the code of conduct and the terms were
+  both headed "Privacy Policy".
+
+- The stats tool's farm filter missed most of EarthFluent's visitors
+  today: the same Windows Chrome at 1920x1080 in en-US with no referrer,
+  now claiming New York, Sao Paulo and Paris rather than UTC or Asia.
+  67 of the day's 69 counted visitors were the farm. The beacon log
+  records each address, so the filter could match the cloud networks the
+  farm runs from instead of a fingerprint it keeps changing.
+
 ## 2026, September 29
 
 - The page cache writes each page to a temporary file and renames it into
