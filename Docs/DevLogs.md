@@ -7,6 +7,17 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, October 4
+
+- RevoltSource takes RevoltLib's look, in blue. Its six struggles --
+  Social Struggle and the rest, at the top of the site -- had no template
+  and fell through to the engine's placeholder, so every reader who opened
+  one was shown a dump of the record's fields. They are the reading page
+  now, as are its quote collections. People and Writings, with more than
+  400 entries each, had fallen back to the old default index. The
+  masthead broke the site's name as REVOLTS / OURCE, and a name run
+  together now splits where its last word begins.
+
 ## 2026, September 29
 
 - The page cache writes each page to a temporary file and renames it into
