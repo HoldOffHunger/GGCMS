@@ -210,9 +210,25 @@
 	box-shadow: var(--shadow);
 }
 
+	/*
+		A site that leaves figures out -- RevoltLink has three -- has as
+		many columns as it shows on a wide screen, and on a narrow one its
+		odd figure out spans the row, rather than leaving a grey hole.
+	*/
+
+.stats-panel:not(:has(> .stat[hidden])) > .stat:last-child:nth-child(odd) {
+	grid-column: 1 / -1;
+}
+
 @media (min-width: 900px) {
 	.stats-panel {
-		grid-template-columns: repeat(4, minmax(0, 1fr));
+		grid-template-columns: none;
+		grid-auto-flow: column;
+		grid-auto-columns: minmax(0, 1fr);
+	}
+
+	.stats-panel:not(:has(> .stat[hidden])) > .stat:last-child:nth-child(odd) {
+		grid-column: auto;
 	}
 }
 

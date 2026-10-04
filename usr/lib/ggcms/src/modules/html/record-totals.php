@@ -93,12 +93,20 @@
 				  texts  what the records are, under their count; books, essays,
 				         letters and interviews by default.  RevoltSource's are
 				         quotes, not books.
+				  noun   what the count is called; Texts by default, Links on
+				         RevoltLink
+				  leave_out
+				         figures that mean nothing for the site -- words, days,
+				         formats or since -- as a list.  A directory of links has
+				         no printed pages and nothing to read for days.
 		*/
 
 		public function DisplayStats($args) {
 			$that = $args['that'];
 			$show = !empty($args['show']) ? (int) $args['show'] : 4;
-			$figures = $this->StatFigures(['that'=>$that, 'texts'=>$args['texts'] ?? NULL]);
+			$figures = $this->StatFigures(['that'=>$that, 'texts'=>$args['texts'] ?? NULL, 'noun'=>$args['noun'] ?? NULL]);
+			$leave_out = $args['leave_out'] ?? [];
+			$figures = array_values(array_filter($figures, function ($figure) use ($leave_out) { return !in_array($figure['key'], $leave_out, TRUE); }));
 
 			if(!$figures) {
 				return FALSE;
@@ -153,8 +161,9 @@
 			$texts = (int) $stats['ChildRecordCount'];
 
 			$figures[] = [
+				'key'=>'texts',
 				'figure'=>number_format($texts),
-				'label'=>'Texts',
+				'label'=>!empty($args['noun']) ? $args['noun'] : 'Texts',
 				'note'=>!empty($args['texts']) ? $args['texts'] : 'Books, essays, letters and interviews',
 			];
 
@@ -168,12 +177,14 @@
 			$pages = ($pages >= 1000) ? round($pages, -3) : (($pages >= 100) ? round($pages, -1) : max(1, round($pages)));
 
 			$figures[] = [
+				'key'=>'words',
 				'figure'=>number_format($words),
 				'label'=>'Words',
 				'note'=>'About ' . number_format($pages) . ' printed ' . (($pages == 1) ? 'page' : 'pages'),
 			];
 
 			$figures[] = [
+				'key'=>'formats',
 				'figure'=>number_format(count($formats->getFormats())),
 				'label'=>'Formats for every text',
 				'note'=>'From EPUB and PDF to Braille and DAISY',
@@ -184,6 +195,7 @@
 
 			if($days >= 1) {
 				$figures[] = [
+					'key'=>'days',
 					'figure'=>number_format(round($days)),
 					'label'=>'Days to read it all',
 					'note'=>'At 250 words a minute, never stopping to sleep',
@@ -220,6 +232,7 @@
 			$years = (int) floor((time() - $opened) / (365.2425 * 24 * 60 * 60));
 
 			return [
+				'key'=>'since',
 				'figure'=>date('Y', $opened),
 				'label'=>'Around since',
 				'note'=>$years >= 2 ? ucfirst($args['formats']->NumberWord(['number'=>$years])) . ' years of free reading' : 'Open since ' . date('j F Y', $opened),
