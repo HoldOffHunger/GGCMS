@@ -503,7 +503,7 @@
 		}
 
 			// handleBadLinkRedirect()
-			// Tests: HandlerRedirectsTest::testHandleBadLinkRedirect()
+			// Tests: HandlerRedirectsTest::testHandleBadLinkRedirect(), HandlerRedirectsTest::testHandleBadLinkRedirectLeavesNamedEntries()
 			// Test file: tests/src/classes/Networking/Handler/HandlerRedirectsTest.php
 		public function handleBadLinkRedirect() {	// handles, i.e., "website.com/page)" or "website.com/page)."
 			if($_GET['stopredirect']) {		// don't allow multiple redirects
@@ -524,6 +524,26 @@
 			$candidate = $trailing_slash ? substr($trimmed_url, 0, -1) : $trimmed_url;
 			
 			$new_url = $this->cleanseURL(['url'=>$candidate]);
+			
+				/*
+					A path that already names published entries is not a bad
+					link, whatever it ends in.  Counted on 4 October 2026: 926
+					of revoltlink's entry codes end in a bracket --
+					action-against-poisoning-(aap) -- as do 23 of
+					copyleftlicense's, and ten codes across the sites end in an
+					apostrophe.  Stripping the last character repaired every one
+					of those pages into a 404, and the page-cache warmer refused
+					them all because it was rendering exactly what production
+					served.
+
+					Asked only when there is something to strip, so an ordinary
+					request never pays for it, and only of a path with no query
+					string -- with one, the end being stripped is the query's.
+				*/
+			
+			if(($new_url !== $candidate) && (strpos($candidate, '?') === FALSE) && $this->handler->entry_path_handler->EntryPathNamesEntries()) {
+				return FALSE;
+			}
 			
 			if($new_url !== $candidate) {
 				$redirect_url = '';

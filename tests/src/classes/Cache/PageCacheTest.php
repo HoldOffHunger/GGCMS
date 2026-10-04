@@ -93,6 +93,8 @@
 				'/some/entry/view.php?page=2'=>'/some/entry/view.php',
 				'/css/view/display.css'=>'/css/view/display.css',
 				'/a_b-c.d,e~f/'=>'/a_b-c.d,e~f/',
+				'/groups/action-against-poisoning-(aap)/'=>'/groups/action-against-poisoning-(aap)/',
+				'/groups/action-against-poisoning-%28aap%29/'=>FALSE,
 				''=>FALSE,
 				'relative/path'=>FALSE,
 				'/../etc/passwd'=>FALSE,

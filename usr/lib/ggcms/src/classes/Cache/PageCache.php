@@ -130,9 +130,16 @@
 				percent sign is refused rather than decoded: decoding here
 				would let %2e%2e%2f become ../ after validation, which is the
 				classic way out of a cache directory.
+
+				Brackets are allowed.  They cannot climb out of a directory,
+				browsers send them unencoded, and nginx's $uri carries them
+				as they came, so the file written here is the file try_files
+				looks for.  1,564 of revoltlink's entry codes contain one,
+				and until 4 October 2026 not one of those pages could be
+				cached.
 			*/
 
-			if(!preg_match('#\A[A-Za-z0-9/_.,~-]*\z#', $uri)) {
+			if(!preg_match('#\A[A-Za-z0-9/_.,~()-]*\z#', $uri)) {
 				return FALSE;
 			}
 

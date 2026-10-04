@@ -101,6 +101,7 @@
 			$handler = $this->newWithoutConstructor(['class'=>'Handler']);
 			$handler->db_access = new class { public function DBEnd() { return TRUE; } };
 			$handler->domain = (object)['primary_domain_lowercased'=>'example.com'];
+			$handler->entry_path_handler = new class { public function EntryPathNamesEntries() { return FALSE; } };
 
 			$redirects = new class(['handler'=>$handler]) extends HandlerRedirects {
 				public function handleRedirect() { return TRUE; }
@@ -135,6 +136,41 @@
 			$_GET = ['stopredirect'=>'1'];
 
 			$this->assertFalse($redirects->handleBadLinkRedirect(), 'never twice');
+		}
+
+			/*
+				926 of revoltlink's entry codes end in a bracket, and stripping
+				it as copy-paste debris turned every one of those pages into a
+				404.  A path that already names entries is left as it came; a
+				query string's end is still the query's to lose.
+			*/
+
+		public function testHandleBadLinkRedirectLeavesNamedEntries() {
+			$handler = $this->newWithoutConstructor(['class'=>'Handler']);
+			$handler->db_access = new class { public function DBEnd() { return TRUE; } };
+			$handler->domain = (object)['primary_domain_lowercased'=>'example.com'];
+			$handler->entry_path_handler = new class { public function EntryPathNamesEntries() { return TRUE; } };
+
+			$redirects = new class(['handler'=>$handler]) extends HandlerRedirects {
+				public function handleRedirect() { return TRUE; }
+			};
+
+			$_SERVER['HTTPS'] = 'on';
+			$_GET = [];
+
+			foreach(['/groups/action-against-poisoning-(aap)/', '/groups/action-against-poisoning-(aap)', '/food/veggin\'/'] as $entry) {
+				$_SERVER['REQUEST_URI'] = $entry;
+				$handler->redirect_url = NULL;
+
+				$this->assertFalse($redirects->handleBadLinkRedirect(), $entry . ' names an entry and is left alone');
+				$this->assertNull($handler->redirect_url, $entry);
+			}
+
+			$_SERVER['REQUEST_URI'] = '/groups/action-against-poisoning-(aap)/?page=2)';
+			$handler->redirect_url = NULL;
+
+			$this->assertTrue($redirects->handleBadLinkRedirect(), 'a bracket on the query is still debris');
+			$this->assertSame('https://example.com/groups/action-against-poisoning-(aap)/?page=2&stopredirect=1', $handler->redirect_url);
 		}
 
 			/*

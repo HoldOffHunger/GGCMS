@@ -71,6 +71,41 @@
 			return (count($this->handler->object_list) === count($this->handler->resolved_record_list));
 		}
 
+		// EntryPathNamesEntries()
+		// Tests: HandlerEntryPathTest::testEntryPathNamesEntries()
+		// Test file: tests/src/classes/Networking/Handler/HandlerEntryPathTest.php
+		/*
+			Whether the path, exactly as it stands, walks the entry graph to
+			published entries.
+
+			EntryPathResolves answers TRUE to everything it has no business
+			refusing -- the front page, the other scripts, a site whose paths
+			are not entry walks -- because what it decides is whether to 404.
+			This decides something narrower: whether the path names pages, so
+			that nothing on the end of it can be a mistake.  Only a view.php
+			walk that resolved in full answers TRUE.
+		*/
+
+		public function EntryPathNamesEntries() {
+			if(!is_array($this->handler->object_list) || (count($this->handler->object_list) === 0)) {
+				return FALSE;
+			}
+
+			if($this->handler->script_name !== 'view.php') {
+				return FALSE;
+			}
+
+			if(!$this->EntryPathRequired()) {
+				return FALSE;
+			}
+
+			if(!$this->handler->db_access) {
+				return FALSE;
+			}
+
+			return $this->EntryPathResolves();
+		}
+
 		/*
 			Whether this site's view.php paths are walks through the entry graph
 			at all.

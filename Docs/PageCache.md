@@ -126,7 +126,8 @@ read-only mount must make the site slow, never broken.
 The cache key is the request URI, and the request URI is entirely
 attacker-controlled. `PageCache::SafePath()` rejects:
 
-* anything not matching `[A-Za-z0-9/_.,~-]`
+* anything not matching `[A-Za-z0-9/_.,~()-]` — brackets are allowed because
+  browsers send them unencoded and 1,564 of revoltlink's entry codes have one
 * **any percent sign** — refused rather than decoded, because decoding after
   validation is how `%2e%2e%2f` becomes `../`
 * `..` and `//` anywhere
