@@ -1,5 +1,11 @@
 <?php
 
+	/*
+		Please, if you need to modify entries via cli, use this cli file:
+
+			usr/lib/ggcms/cli/scripts/internal/entries/modify_entry.php
+	*/
+
 	ggreq('traits/scripts/DBFunctions.php');
 	ggreq('traits/scripts/SimpleErrors.php');
 	ggreq('traits/scripts/SimpleForms.php');
