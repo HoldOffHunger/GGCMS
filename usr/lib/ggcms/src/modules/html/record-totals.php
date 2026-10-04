@@ -90,12 +90,15 @@
 
 				Switches:
 				  show   how many figures to show at once; 4 by default
+				  texts  what the records are, under their count; books, essays,
+				         letters and interviews by default.  RevoltSource's are
+				         quotes, not books.
 		*/
 
 		public function DisplayStats($args) {
 			$that = $args['that'];
 			$show = !empty($args['show']) ? (int) $args['show'] : 4;
-			$figures = $this->StatFigures(['that'=>$that]);
+			$figures = $this->StatFigures(['that'=>$that, 'texts'=>$args['texts'] ?? NULL]);
 
 			if(!$figures) {
 				return FALSE;
@@ -152,7 +155,7 @@
 			$figures[] = [
 				'figure'=>number_format($texts),
 				'label'=>'Texts',
-				'note'=>'Books, essays, letters and interviews',
+				'note'=>!empty($args['texts']) ? $args['texts'] : 'Books, essays, letters and interviews',
 			];
 
 				/*

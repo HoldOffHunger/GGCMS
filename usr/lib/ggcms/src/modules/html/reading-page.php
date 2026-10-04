@@ -16,6 +16,10 @@
 			Switches:
 			  chapters     the heading over the entry's children, or FALSE
 			               where the entry has none to show -- a chapter
+			  counted      what the count beside that heading counts; chapters
+			               by default.  It counts everything below the entry,
+			               so RevoltSource's six topics, with their themes and
+			               quotes, are 174 entries rather than 174 chapters
 			  authors      how many associations to show as author cards;
 			               0 for all of them
 			  pictures_first
@@ -30,12 +34,14 @@
 		public $chapters;
 		public $authors;
 		public $pictures_first;
+		public $counted;
 
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->chapters = array_key_exists('chapters', $args) ? $args['chapters'] : 'Chapters';
 			$this->authors = array_key_exists('authors', $args) ? (int) $args['authors'] : 0;
 			$this->pictures_first = !empty($args['pictures_first']);
+			$this->counted = !empty($args['counted']) ? $args['counted'] : 'chapters';
 
 			foreach([
 				'entry-association', 'entry-comments', 'entry-controls', 'entry-date', 'entry-description',
@@ -126,7 +132,7 @@
 				// The formats are in the sidebar already, so not again here.
 
 			if($this->chapters && $that->children && $that->counts['children'] !== 0) {
-				$children = new module_entrychildren(['that'=>$that, 'entrysort'=>new module_entrysort(['that'=>$that]), 'header'=>$this->chapters]);
+				$children = new module_entrychildren(['that'=>$that, 'entrysort'=>new module_entrysort(['that'=>$that]), 'header'=>$this->chapters, 'counted'=>$this->counted]);
 				$children->Display_Entries([
 					'entries'=>$that->children,
 					'count'=>$that->counts['children'],

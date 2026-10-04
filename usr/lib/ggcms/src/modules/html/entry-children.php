@@ -4,11 +4,13 @@
 		public $that;
 		public $header;
 		public $entrysort;
+		public $counted;
 		
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->header = $args['header'];
 			$this->entrysort = $args['entrysort'];
+			$this->counted = !empty($args['counted']) ? $args['counted'] : 'chapters';
 		}
 		
 		public function Display() {
@@ -50,7 +52,7 @@
 					$date_epoch_time = strtotime($this->that->child_record_stats['LastModificationDate']);
 
 					print('<p class="list-stats" title="Last updated ' . date("F d, Y; H:i:s", $date_epoch_time) . '">');
-					print(number_format($this->that->child_record_stats['ChildRecordCount']) . ' chapters');
+					print(number_format($this->that->child_record_stats['ChildRecordCount']) . ' ' . $this->counted);
 					print('<span class="dot" aria-hidden="true"> &middot; </span>');
 					print(number_format($this->that->child_record_stats['ChildWordCount']) . ' words');
 					print('</p>');
