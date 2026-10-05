@@ -43,6 +43,17 @@ live installation rather than estimated.
   page that printed the raw records to readers; genres have a template
   now, and display.php is a reading-page fallback.
 
+- OurUprising, the hub, shows every site the configuration classifies
+  revolutionary -- seven, from RevoltLib to MasereelGroup -- as cards
+  with their pictures, read from each site's own master record.
+
+- Every search on WordWeight failed. A word it held went out as a 404
+  with a Location header no browser follows on a 404, and Cloudflare
+  kept it; a word it did not hold ended the page in a 500. Both are
+  fixed, and WordWeight takes the look in brass: the look-up box in the
+  masthead, a word's definitions on the same catalogue cards RevoltLib's
+  tag pages use, and its book adverts labelled as adverts.
+
 - RevoltSource's documents would fit many times over: the documents
   volume has 21 GB free, and a full set of every format for its 6,000
   pages is about 300 MB. Its PDFs work on quote and people pages; the
