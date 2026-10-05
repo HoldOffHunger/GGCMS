@@ -1003,6 +1003,38 @@
 			return FALSE;
 		}
 		
+			/*
+				Whether this entry comes in the formats beyond the web page --
+				PDF, EPUB, plain text and the rest.  Every entry does, unless
+				it has nothing under it, neither children nor anything
+				associated with it, on a site that keeps its formats to the
+				entries that list something: ShowAlternateFormatsOnLeaves() in
+				etc/ggcms/clonefrom/site/identity.php.  A document carries an
+				entry's children after the entry itself, so one of
+				RevoltSource's quotes is already in its theme's PDF.
+		
+				The head's alternate links, the reading page's formats, and
+				module_entryformats all ask here.
+			*/
+		
+		public function OffersAlternateFormats() {
+			if(!$this->entry || !$this->entry['id'] || $this->desired_action !== 'display') {
+				return TRUE;
+			}
+			
+			if($this->children_count || $this->counts['children'] || $this->counts['associated']) {
+				return TRUE;
+			}
+			
+			$site = $this->handler->abstractglobals->site;
+			
+			if(!is_object($site) || !method_exists($site, 'ShowAlternateFormatsOnLeaves')) {
+				return TRUE;
+			}
+			
+			return $site->ShowAlternateFormatsOnLeaves();
+		}
+		
 		public function display_wordweight_setORM() {
 			$this->SetORM();
 			$this->SetMasterRecord();

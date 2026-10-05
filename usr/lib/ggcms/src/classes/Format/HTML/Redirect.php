@@ -153,14 +153,25 @@
 			return (bool)conf_isfile('clonefrom/language_scripts/' . $script_file . '/en.php');
 		}
 
-		public function ShowAlternateFormats($args) {
-			$site = $args['script']->handler->abstractglobals->site;
+			/*
+				And not for an entry the site keeps to the web page -- one of
+				RevoltSource's quotes, whose documents are its theme's.  See
+				OffersAlternateFormats() in view.php.
+			*/
 
-			if(!is_object($site) || !method_exists($site, 'ShowAlternateFormats')) {
-				return TRUE;
+		public function ShowAlternateFormats($args) {
+			$script = $args['script'];
+			$site = $script->handler->abstractglobals->site;
+
+			if(is_object($site) && method_exists($site, 'ShowAlternateFormats') && !$site->ShowAlternateFormats()) {
+				return FALSE;
 			}
 
-			return $site->ShowAlternateFormats();
+			if(method_exists($script, 'OffersAlternateFormats')) {
+				return $script->OffersAlternateFormats();
+			}
+
+			return TRUE;
 		}
 
 		public function SetBaseDirectory() {

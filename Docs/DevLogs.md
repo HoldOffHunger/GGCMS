@@ -60,6 +60,22 @@ live installation rather than estimated.
   struggle pages and the People and Writings indexes hand back the web
   page instead, because their new templates render only HTML.
 
+- Every format but the web page is now one module, entry-formats.php.
+  Each older template had carried several hundred lines of its own copy,
+  and the templates written for the reading page carried none, so on
+  RevoltSource, RevoltLink and OurUprising a PDF came back as the web
+  page and a text file came back empty. Twelve templates use it now, and
+  an index's documents are the whole collection rather than the page's
+  newest few: People is a 1 MB PDF.
+
+- A document carries an entry's children after the entry itself, so a
+  theme's PDF already holds its quotes. A site can now keep the formats
+  to the entries that list something -- ShowAlternateFormatsOnLeaves() in
+  its identity -- and RevoltSource and RevoltLink do: 4,290 quotes and
+  10,046 links offer only their on-screen editions, stop advertising
+  documents in the head, and send a request for one on to their theme's
+  or section's.
+
 - The stats tool's farm filter missed most of EarthFluent's visitors
   today: the same Windows Chrome at 1920x1080 in en-US with no referrer,
   now claiming New York, Sao Paulo and Paris rather than UTC or Asia.

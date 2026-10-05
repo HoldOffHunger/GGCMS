@@ -13,6 +13,10 @@
 				$reading_page = new module_readingpage(['that'=>$this, 'chapters'=>'Chapters']);
 				$reading_page->Display(['file'=>__FILE__]);
 
+			and every other format -- the printer-friendly and inverted-colour
+			pages too, which are the plain document -- is module_entryformats's,
+			in entry-formats.php.
+
 			Switches:
 			  chapters     the heading over the entry's children, or FALSE
 			               where the entry has none to show -- a chapter
@@ -111,7 +115,10 @@
 				$formats->DisplayListen();
 			}
 
-			print('<a class="action" href="#formats">Download<span class="action-count">' . count($formats->getFormats()) . ' formats</span></a>');
+			if($formats->OffersDownloads()) {
+				print('<a class="action" href="#formats">Download<span class="action-count">' . count($formats->getFormats()) . ' formats</span></a>');
+			}
+
 			print('<a class="action" href="#cite">Cite</a>');
 			$share->DisplayPermalink();
 
@@ -200,7 +207,7 @@
 			$record->DisplayRecord();
 
 			print('<section class="panel" id="formats" aria-labelledby="formats-title">');
-			print('<h2 class="panel-title" id="formats-title">Download or listen</h2>');
+			print('<h2 class="panel-title" id="formats-title">' . ($formats->OffersDownloads() ? 'Download or listen' : 'Other editions') . '</h2>');
 			$formats->DisplayFormats();
 			print('</section>');
 

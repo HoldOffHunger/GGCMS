@@ -30,7 +30,13 @@
 			}
 
 			print('<details class="formats-menu">');
-			print('<summary class="action">Download<span class="action-count">' . count($this->getFormats()) . ' formats</span></summary>');
+
+			if($this->OffersDownloads()) {
+				print('<summary class="action">Download<span class="action-count">' . count($this->getFormats()) . ' formats</span></summary>');
+			} else {
+				print('<summary class="action">Other editions</summary>');
+			}
+
 			$this->DisplayFormats();
 			print('</details>');
 
@@ -222,7 +228,36 @@
 			return isset($words[$args['number']]) ? $words[$args['number']] : number_format($args['number']);
 		}
 
+			/*
+				Every format the entry comes in.  An entry the site keeps to the
+				web page comes only on screen: its documents are its parent's,
+				and asking for one goes there.  See OffersAlternateFormats() in
+				view.php.
+			*/
+
+		public function OffersDownloads() {
+			if(!method_exists($this->that, 'OffersAlternateFormats')) {
+				return TRUE;
+			}
+
+			return $this->that->OffersAlternateFormats();
+		}
+
 		public function getFormats() {
+			$formats = $this->getAllFormats();
+
+			if($this->OffersDownloads()) {
+				return $formats;
+			}
+
+			$groups = $this->getFormatGroups();
+
+			return array_values(array_filter($formats, function($format) use ($groups) {
+				return in_array($format['type'], $groups['On screen']);
+			}));
+		}
+
+		public function getAllFormats() {
 			return [
 				[
 					'text'=>'Mobile<br>Version',

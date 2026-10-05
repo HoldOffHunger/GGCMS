@@ -106,6 +106,22 @@
 			return TRUE;
 		}
 
+			/*
+				Whether an entry with nothing under it -- a single quote, a
+				single link -- comes in those formats too.  A document carries
+				an entry's children after the entry itself, so a collection's
+				PDF already holds every quote in it.  FALSE keeps such an entry
+				to the web page and its on-screen editions, and a request for
+				one of its documents goes to its parent's.
+
+				TRUE for a site whose single entries are texts in their own
+				right, books and essays.
+			*/
+
+		public function ShowAlternateFormatsOnLeaves() {
+			return TRUE;
+		}
+
 				// Infrastructure
 				// -----------------------------------------------
 
