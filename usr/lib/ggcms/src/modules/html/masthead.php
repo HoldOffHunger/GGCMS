@@ -15,6 +15,13 @@
 			  intro       HTML for the introduction; the entry's own text
 			              when not given
 			  searchhint  the search box's placeholder
+			  searchaction
+			              where the search box sends its words; /search.php
+			              by default, / on WordWeight, whose front page
+			              looks a word up.  A site that names its own shows
+			              the box even with the menu's site search turned off
+			  searchbutton
+			              the button's word; Search by default
 			  picture     TRUE to show the site's own picture beside the
 			              name -- a one-page site whose picture is its face
 		*/
@@ -22,6 +29,8 @@
 	class module_masthead extends module_entryindexheader {
 		public $intro;
 		public $search_hint;
+		public $search_action;
+		public $search_button;
 		public $picture;
 
 		public function __construct($args) {
@@ -29,6 +38,8 @@
 
 			$this->intro = $args['intro'];
 			$this->search_hint = $args['searchhint'];
+			$this->search_action = !empty($args['searchaction']) ? $args['searchaction'] : '/search.php';
+			$this->search_button = !empty($args['searchbutton']) ? $args['searchbutton'] : 'Search';
 			$this->picture = !empty($args['picture']);
 		}
 
@@ -163,16 +174,16 @@
 		}
 
 		public function DisplaySearch() {
-			if(!$this->that->handler->globals->mainmenu['search']['enabled']) {
+			if(!$this->that->handler->globals->mainmenu['search']['enabled'] && $this->search_action === '/search.php') {
 				return FALSE;
 			}
 
 			$hint = $this->search_hint ? $this->search_hint : 'Search';
 
-			print('<form class="masthead-search" role="search" action="/search.php" method="get">');
+			print('<form class="masthead-search" role="search" action="' . $this->search_action . '" method="get">');
 			print('<label class="sr-only" for="masthead-search-input">Search</label>');
 			print('<input id="masthead-search-input" type="search" name="search" placeholder="' . htmlspecialchars($hint, ENT_QUOTES, 'UTF-8') . '">');
-			print('<button class="btn btn-primary" type="submit">Search</button>');
+			print('<button class="btn btn-primary" type="submit">' . $this->search_button . '</button>');
 			print('</form>');
 
 			return TRUE;
