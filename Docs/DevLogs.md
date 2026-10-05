@@ -54,6 +54,17 @@ live installation rather than estimated.
   masthead, a word's definitions on the same catalogue cards RevoltLib's
   tag pages use, and its book adverts labelled as adverts.
 
+- Webster's 1913 has its accents back. Somewhere after June 2020 the
+  dictionary was moved in a way that turned every non-ASCII letter into
+  "?" -- "F. r?volution", "(Zo?l.)", "AS. be?ftan" -- and cut some values
+  off at the first one, 290 definitions among them. The June 2020 dump
+  still had them, so 19,457 values were restored from it: 10,062
+  etymologies, 7,444 definitions, 1,794 pronunciations, a few parts of
+  speech and one headword. A value was restored only where today's text
+  was exactly the 2020 text damaged that way, and every difference
+  between the two was. The live values replaced are in
+  /root/dict-restore-undo-20261005-014941.json.
+
 - RevoltSource's documents would fit many times over: the documents
   volume has 21 GB free, and a full set of every format for its 6,000
   pages is about 300 MB. Its PDFs work on quote and people pages; the
