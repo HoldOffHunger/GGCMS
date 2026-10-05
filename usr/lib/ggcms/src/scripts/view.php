@@ -1042,12 +1042,23 @@
 			$this->search_term = $this->Param('search');
 			
 			if($this->search_term) {
-				$this->definitions = $this->handler->dictionary->LookupWords(['words'=>[$this->search_term]])[strtolower($this->search_term)];
+				$this->definitions = $this->handler->dictionary->LookupWords(['words'=>[$this->search_term]])[strtolower($this->search_term)] ?? [];
 				
+					// a word the dictionaries do not hold is NULL, and count(NULL) ended the page in a 500
 				$this->definition_count = count($this->definitions);
 				
+					/*
+						A word the dictionaries hold goes to its own page.  This
+						returned what header() returns, which is nothing, so the
+						look-up went out as a 404 carrying a Location no browser
+						follows on a 404 -- every search on WordWeight said not
+						found, and Cloudflare kept that answer.
+					*/
+
 				if($this->definition_count) {
-					return header('Location: ' . $this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/' . $this->search_term . '/view.php');
+					header('Location: ' . $this->handler->domain->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/' . rawurlencode($this->search_term) . '/view.php', TRUE, 302);
+
+					exit;
 				}
 			}
 			
