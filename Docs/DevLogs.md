@@ -34,6 +34,15 @@ live installation rather than estimated.
   absent. The confirm check had let dumps reach a week old before calling
   them stale; it now allows 26 hours, so one missed night fails.
 
+- The cluster went from MySQL 8.0.45 to 8.4.11, ahead of DigitalOcean's
+  forced upgrade on 30 October, with a fresh backup of all 21 databases
+  taken first. The panel showed 8.4 at once, but the server didn't switch
+  until 18:48 UTC, about ten minutes later. The switch cost 38 "server has
+  gone away" errors in the same second, then nothing. The upgrade moved
+  the cluster to a new node, and the private address answered again. The
+  sites went back to the private host and kept verified TLS. The fault
+  had been on the old node, not in the network.
+
 ## 2026, October 4
 
 - RevoltSource takes RevoltLib's look, in blue. Its six struggles --
