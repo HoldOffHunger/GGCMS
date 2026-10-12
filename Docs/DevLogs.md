@@ -43,6 +43,22 @@ live installation rather than estimated.
   sites went back to the private host and kept verified TLS. The fault
   had been on the old node, not in the network.
 
+- The server's single CPU was carrying about 55 requests' worth of work
+  at any moment. In 77 minutes Apache took 30,000 requests and spent
+  257,000 seconds on them, a page waited nine seconds, and 4,700
+  visitors gave up. The traffic broke down like this: favicons and two
+  entry images copied off disk by PHP; three scripted-browser farms, each
+  pinned to one build of desktop Chrome, asking with no referrer from a
+  new address every time; Baiduspider, which sent no readers at all; and
+  a PDF collector, msh-pdfmin. nginx now serves each site's own files
+  from /srv/ggcms/<site>/www/. It refuses the three farms when they bring
+  no referrer, and both crawlers, in robots.txt, Apache and nginx alike.
+  In the first ten minutes afterwards Apache spent 143 seconds of work a
+  minute against 3,300 before, a request took 0.7 seconds against 8.7,
+  and the load average fell from about 20 to under 1. Traffic varies by
+  the hour, so some of that is a quieter moment, but most of it is the
+  queue draining.
+
 ## 2026, October 4
 
 - RevoltSource takes RevoltLib's look, in blue. Its six struggles --
