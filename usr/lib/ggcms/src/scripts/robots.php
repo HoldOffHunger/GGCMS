@@ -638,6 +638,18 @@
 					//  Builds research datasets from the images and text
 
 				'MathPicDatasetCrawler',
+
+					//  A search engine that sends these sites no readers: not one
+					//  visit from Baidu in any site's reader log, September and
+					//  October 2026, against 2,461 of its requests in 77 minutes
+					//  on 12 October, every one a render.
+
+				'Baiduspider',
+
+					//  Names no operator, and takes the documents: 336 of
+					//  RevoltLib's PDFs in the same 77 minutes
+
+				'msh-pdfmin',
 			];
 		}
 
