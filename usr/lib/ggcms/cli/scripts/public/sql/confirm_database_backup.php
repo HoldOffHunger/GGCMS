@@ -29,7 +29,7 @@
 		ARGUMENTS -- all optional:
 
 			--domain=NAME          only sites matching this substring
-			--max-age-hours=N      staleness threshold, default 168 (a week)
+			--max-age-hours=N      staleness threshold, default 26, which catches one missed night
 			--min-bytes=N          below this a dump is TINY, default 1024
 			--shrink-percent=N     warn when a dump is this much smaller than
 			                       the previous archived one, default 25

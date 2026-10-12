@@ -109,7 +109,15 @@
 
 		public function readArguments() {
 			$this->only_domain    = $this->argumentValue('domain', '');
-			$this->max_age_hours  = (int) $this->argumentValue('max-age-hours', 168);
+				/*
+					26 hours, not the week it used to be. The dumps run nightly
+					at 03:15 and this reads them at 06:30, so a good dump is
+					about three hours old and one night's miss makes the newest
+					about 27. A week let the October 2026 outage pass here
+					twice, as "All 17 sites pass".
+				*/
+
+			$this->max_age_hours  = (int) $this->argumentValue('max-age-hours', 26);
 			$this->min_bytes      = (int) $this->argumentValue('min-bytes', 1024);
 			$this->shrink_percent = (int) $this->argumentValue('shrink-percent', 25);
 			$this->deep           = $this->argumentPresent('deep');

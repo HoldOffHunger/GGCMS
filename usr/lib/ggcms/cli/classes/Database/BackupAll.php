@@ -73,6 +73,29 @@
 			$this->readArguments();
 			$this->bannerMessage();
 
+				/*
+					Asked first, because every check below turns an
+					unreachable server into something milder. --all-databases
+					found no databases and quietly backed up fewer sites, and
+					databaseExists() answered "no" for every one. From 11
+					October 2026 the private network to the cluster was dead,
+					and two nights' runs reported all seventeen sites as
+					retired, told the reader to delete their configuration,
+					and exited 1, which cron doesn't mail.
+				*/
+
+			$unreachable = $this->serverUnreachable();
+
+			if(strlen($unreachable)) {
+				print("Cannot reach the database server, so nothing was backed up:
+  " . $unreachable . "
+");
+				print("Every existing dump was left where it was.
+");
+
+				return 2;
+			}
+
 			$sites = $this->siteList();
 
 			if(!count($sites)) {
@@ -183,6 +206,21 @@
 			return $sites;
 		}
 
+		public function serverUnreachable() {
+			$output = [];
+			$exit_code = 0;
+
+			exec('mysql -N -e ' . escapeshellarg('SELECT 1') . ' 2>&1', $output, $exit_code);
+
+			if($exit_code === 0 && trim(implode('', $output)) === '1') {
+				return '';
+			}
+
+			$message = trim(implode(' ', $output));
+
+			return strlen($message) ? $message : 'mysql exited ' . $exit_code . ' and said nothing';
+		}
+
 		public function liveDatabases() {
 			$command = 'mysql -N -e ' . escapeshellarg('SHOW DATABASES') . ' 2>/dev/null';
 
@@ -206,6 +244,10 @@
 				backup failure and must not exit 2, because a nightly alarm that
 				is always wrong is one nobody reads. It is reported, it warns,
 				and the fix is to delete the stale configuration.
+
+				So the answer must really be "no". TRUE and FALSE are the
+				server's answer; NULL means it gave none, and that is a
+				failure, never a retired site.
 			*/
 
 		public function databaseExists($database) {
@@ -214,7 +256,17 @@
 				"'" . str_replace("'", '', $database) . "'"
 			) . ' 2>/dev/null';
 
-			return trim((string) shell_exec($command)) === '1';
+			$answer = trim((string) shell_exec($command));
+
+			if($answer === '1') {
+				return TRUE;
+			}
+
+			if($answer === '0') {
+				return FALSE;
+			}
+
+			return NULL;
 		}
 
 			// One site
@@ -241,7 +293,15 @@
 				}
 			}
 
-			if(!$this->databaseExists($database)) {
+			$exists = $this->databaseExists($database);
+
+			if($exists === NULL) {
+				$result['note'] = 'the server did not answer whether `' . $database . '` exists; previous backup left in place';
+
+				return $result;
+			}
+
+			if(!$exists) {
 				$result['status'] = 'NO_DB';
 				$result['note']   = 'no database named `' . $database . '`; retired site? delete the stale config';
 

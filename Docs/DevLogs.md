@@ -27,6 +27,13 @@ live installation rather than estimated.
   verified. The backup clients read `/root/.my.cnf`, which still named the
   private host, so it was changed to match and now verifies too.
 
+- Neither alarm went off, and both now would. The backup asks the server
+  for a plain `SELECT 1` before anything else. If there's no answer, it
+  prints the client's own error and exits 2, which cron mails. A site is
+  called retired only when the server actually says its database is
+  absent. The confirm check had let dumps reach a week old before calling
+  them stale; it now allows 26 hours, so one missed night fails.
+
 ## 2026, October 4
 
 - RevoltSource takes RevoltLib's look, in blue. Its six struggles --
