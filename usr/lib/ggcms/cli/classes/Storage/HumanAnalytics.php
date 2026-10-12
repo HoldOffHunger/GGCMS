@@ -593,6 +593,22 @@
 				  genuine reader in Singapore on a 1080p Windows Chrome, typing
 				  the address, is lost with them; there were at most a handful.
 
+				Two more, measured on 12 October 2026 over the fortnight since the
+				RevoltLib restyle.  Both pin one exact Chrome build, which no
+				reader keeps for long, since Chrome updates itself.  Both send
+				one en-US view per address with no referrer:
+
+				  Linux Chrome 150.0.0.0 whose first move is the mouse: 327 of
+				  RevoltLib's 1,006 remaining views and 25 of RevoltSource's 43,
+				  every one in a mainland US timezone.  It took RevoltLib's bounce
+				  rate from about 80% to 87.5% and hid the restyle's gain.  Linux
+				  Chrome 150 on any other screen: 3 views, all sites together.
+
+				  Windows Chrome 151.0.0.0 in a timezone outside Asia: the third
+				  farm above, since moved to New York, Sao Paulo and Paris.  It was
+				  667 of EarthFluent's 744 remaining views.  Chrome 151 on Windows
+				  appears on no screen but 1920x1080 on any site.
+
 				Only these exact combinations are matched: the same reader on a
 				phone, in Firefox, or following a link is kept.
 			*/
@@ -617,6 +633,16 @@
 
 			if($desktop_chrome && strpos($agent, 'WindowsNT') !== FALSE && $view['language'] === 'en-US' && $view['referrer'] === '' && ($view['timezone'] === 'UTC' || strpos($view['timezone'], 'Asia/') === 0)) {
 				return TRUE;
+			}
+
+			if($view['language'] === 'en-US' && $view['referrer'] === '') {
+				if($desktop_chrome && strpos($agent, 'Linuxx86_64') !== FALSE && strpos($agent, 'Chrome/150.0.0.0') !== FALSE && $view['event'] === 'mousemove') {
+					return TRUE;
+				}
+
+				if($desktop_chrome && strpos($agent, 'WindowsNT') !== FALSE && strpos($agent, 'Chrome/151.0.0.0') !== FALSE) {
+					return TRUE;
+				}
 			}
 
 			return FALSE;
