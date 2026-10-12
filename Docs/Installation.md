@@ -238,7 +238,22 @@ mysqli.default_user = <user>
 mysqli.default_pw   = <password>
 mysqli.default_host = <host>
 mysqli.default_port = <port>
+ggcms.database_ca   = <path to the database's CA certificate>
 ```
+
+`ggcms.database_ca` is optional. When it is set, every connection the engine
+opens is TLS, and the server's certificate must be signed by that CA and name
+`mysqli.default_host`; a server that can't do TLS is refused. Leave it out for a
+database on the same machine or a private network. Set it whenever the database
+is reached over the internet. Without it the password crosses in plain text, and
+DigitalOcean's "SSL required" didn't stop that: the cluster accepted plain-text
+connections. A DigitalOcean cluster's CA comes from
+`GET /v2/databases/<id>/ca` (base64; this host's doctl is too old for `get-ca`)
+and lives at `/etc/ssl/certs/ggcms-database-ca.crt`.
+
+The `mysql` and `mysqldump` clients used by the backups don't read these files.
+They read `/root/.my.cnf`, which needs the same host plus
+`ssl-mode=VERIFY_IDENTITY` and `ssl-ca=`.
 
 The CLI SAPI reads its own configuration and needs the same file in
 `/etc/php/8.5/cli/conf.d/`, or the tools in `cli/` will not connect.

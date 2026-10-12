@@ -365,13 +365,7 @@
 			$this->db_link = NULL;
 
 			try {
-				$this->db_link = new mysqli(
-					ini_get('mysqli.default_host'),
-					ini_get('mysqli.default_user'),
-					ini_get('mysqli.default_pw'),
-					$this->dictionary_db(),
-					ini_get('mysqli.default_port'),
-				);
+				$this->db_link = ggcms_mysqli($this->dictionary_db());
 			} catch (Exception $e) {
 				$this->db_link = NULL;
 			}
@@ -380,13 +374,7 @@
 				$this->db_link = NULL;
 
 				try {
-					$this->db_link = new mysqli(
-						ini_get('mysqli.default_host'),
-						ini_get('mysqli.default_user'),
-						ini_get('mysqli.default_pw'),
-						$this->dictionary_db(),
-						ini_get('mysqli.default_port'),
-					);
+					$this->db_link = ggcms_mysqli($this->dictionary_db());
 				} catch (Exception $e) {
 					$this->db_link = NULL;
 				}

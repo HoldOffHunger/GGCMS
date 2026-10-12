@@ -26,13 +26,7 @@
 				$database = $this->host;
 			}
 
-			return $this->db_link = new mysqli(
-				ini_get("mysqli.default_host"),
-				ini_get("mysqli.default_user"),
-				ini_get("mysqli.default_pw"),
-				$database,
-				ini_get("mysqli.default_port")
-			);
+			return $this->db_link = ggcms_mysqli($database);
 		}
 		
 		public function runQuery($args) {

@@ -97,13 +97,7 @@
 			$this->db_link = NULL;
 
 			try {
-				$this->db_link = new mysqli(
-					ini_get("mysqli.default_host"),
-					ini_get("mysqli.default_user"),
-					ini_get("mysqli.default_pw"),
-					$this->database,
-					ini_get("mysqli.default_port")
-				);
+				$this->db_link = ggcms_mysqli($this->database);
 			} catch (Exception $e) {
 				$this->db_link = NULL;
 
@@ -119,12 +113,7 @@
 				$this->db_link = NULL;
 
 				try {
-					$this->db_link = new mysqli(
-						ini_get("mysqli.default_host"),
-						ini_get("mysqli.default_user"),
-						ini_get("mysqli.default_pw"),
-						$this->database
-					);
+					$this->db_link = ggcms_mysqli($this->database, FALSE);
 				} catch (Exception $e) {
 					$this->db_link = NULL;
 				}

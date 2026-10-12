@@ -108,8 +108,10 @@ it is why `check_domain.php` occasionally reports a CAA record that does not
 exist.
 
 So the address is written into `/etc/hosts`, which glibc consults before DNS.
-TLS is unaffected — mysqli still connects *by hostname*, so the certificate
-still verifies against it.
+mysqli still connects *by hostname*, so when `ggcms.database_ca` turns TLS on
+(see Installation.md), the certificate is verified against that name, not
+against the pinned address. Until 12 Oct 2026 the engine didn't use TLS at all,
+whatever this line used to say.
 
 **This is a pin, not a fact.** DigitalOcean can move the address on failover
 or during maintenance, and a stale pin takes all seventeen sites down. That is

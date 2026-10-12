@@ -67,6 +67,63 @@
 		return print(file_get_contents($file_location));
 	}
 	
+		/*
+			Every database link the engine and its CLI open comes from here,
+			so how they connect is decided once.
+
+			Credentials are the mysqli.default_* settings.  If php.ini also
+			names ggcms.database_ca, a CA certificate file, the link is TLS:
+			the server's certificate must be signed by that CA and must name
+			the host asked for, and a server that can't do TLS is refused
+			rather than quietly talked to in plain text.  Without the setting
+			the link is plain, which suits a database on the same machine or
+			on a private network.
+
+			Production needed it on 12 Oct 2026, when the private network to
+			the managed database died after DigitalOcean's maintenance and
+			the sites moved to its public address.  That carried the database
+			password across the internet unencrypted until this existed.
+
+			get_cfg_var() and not ini_get(): ini_get() only answers for
+			settings an extension declares, and nothing declares ggcms.*.
+			get_cfg_var() reads php.ini as written.
+
+			A refused connection throws mysqli_sql_exception, exactly as
+			`new mysqli` did under PHP 8's default report mode.  $use_port is
+			FALSE only for DBAccess's old second attempt, which never passed
+			one.
+		*/
+
+	function ggcms_mysqli($database = '', $use_port = TRUE) {
+		$link = mysqli_init();
+		$flags = 0;
+
+		$certificate_authority = get_cfg_var('ggcms.database_ca');
+
+		if($certificate_authority) {
+			$link->ssl_set(NULL, NULL, $certificate_authority, NULL, NULL);
+			$flags = MYSQLI_CLIENT_SSL;
+		}
+
+		$port = NULL;
+
+		if($use_port && ini_get('mysqli.default_port')) {
+			$port = (int)ini_get('mysqli.default_port');
+		}
+
+		$link->real_connect(
+			ini_get('mysqli.default_host'),
+			ini_get('mysqli.default_user'),
+			ini_get('mysqli.default_pw'),
+			$database,
+			$port,
+			NULL,
+			$flags
+		);
+
+		return $link;
+	}
+
 	function FormatDate($args) {
 		$date = $args['date'];
 		

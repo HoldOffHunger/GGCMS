@@ -7,6 +7,26 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, October 12
+
+- From the evening of 10 October, the server couldn't reach the database
+  over DigitalOcean's private network. That was the cluster's Saturday
+  maintenance window. The cluster restarted, and its private address,
+  10.116.0.3, has answered nothing since. Cached pages went on loading, so
+  nothing looked wrong, but every fresh render returned a 500, and the
+  backups for 11 and 12 October never ran. The backup script reported all
+  seventeen sites as "no database; retired site? delete the stale config",
+  and the morning confirm check said all seventeen passed.
+
+- The sites now reach the database at its public address, which its
+  firewall limits to this droplet. That showed the engine had never used
+  TLS. On the private network it didn't matter. On the public address the
+  database password would have crossed the internet in plain text. Every
+  connection now goes through one function, `ggcms_mysqli()`. When php.ini
+  names `ggcms.database_ca`, the link is TLS and the certificate is
+  verified. The backup clients read `/root/.my.cnf`, which still named the
+  private host, so it was changed to match and now verifies too.
+
 ## 2026, October 4
 
 - RevoltSource takes RevoltLib's look, in blue. Its six struggles --
