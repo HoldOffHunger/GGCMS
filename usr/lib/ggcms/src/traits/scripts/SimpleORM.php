@@ -2227,21 +2227,80 @@
 				];
 			}
 			
+			$joins = [
+				'JOIN'=>[
+					'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = Tag.Entryid',
+					'Entry'=>'Entry.id = Tag.Entryid AND Entry.Publish = 1',
+				],
+			];
+
+				/*
+					Choose the forty, then fetch them, as SetRandomTextBodyRecords()
+					does.  This was GROUP BY Tag.Tag ORDER BY RAND() LIMIT 40 over
+					whole rows: revoltlib.com/anarchism/ has 82,781 tags under it,
+					19,196 of them different, and grouping them all to keep forty
+					took 1.5 seconds on a quiet live database and 6 to 9 under
+					load.  A random 200 by id and name, made distinct here, took
+					0.64.  A tag on many entries is now likelier to be drawn,
+					which suits a tag cloud.
+				*/
+
+			$get_random_ids_where = [
+				'type'=>'Tag',
+				'select'=>'Tag.id, Tag.Tag',
+				'definition'=>$definition,
+				'joins'=>$joins,
+				'limit'=>'200',
+				'orderby'=>'RAND()',
+			];
+			$random_ids = $this->handler->db_access->GetRecords($get_random_ids_where);
+
+			$tag_ids = [];
+			$tags_seen = [];
+
+			if(is_array($random_ids)) {
+				foreach($random_ids as $random_id) {
+					if(!is_array($random_id) || !$random_id['id']) {
+						continue;
+					}
+
+					$tag_key = mb_strtolower(trim((string)$random_id['Tag']));		// GROUP BY ignored case too
+
+					if(array_key_exists($tag_key, $tags_seen)) {
+						continue;
+					}
+
+					$tags_seen[$tag_key] = TRUE;
+					$tag_ids[] = (int)$random_id['id'];
+
+					if(count($tag_ids) >= 40) {
+						break;
+					}
+				}
+			}
+
+			if(!count($tag_ids)) {
+				return $this->tags_random = [];
+			}
+
 			$get_record_where = [
 				'type'=>'Tag',
-				'definition'=>$definition,
-				'joins'=>[
-					'JOIN'=>[
-						'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = Tag.Entryid',
-						'Entry'=>'Entry.id = Tag.Entryid AND Entry.Publish = 1',
+				'definition'=>[
+					'RAW'=>[
+						'Tag.id'=>[
+							'IN',
+							'(' . implode(',', $tag_ids) . ')',
+						],
 					],
 				],
-				'limit'=>'40',
-				'orderby'=>'RAND()',
-				'groupby'=>'Tag.Tag',		# needed or it errors out?
+				'joins'=>$joins,
 			];
 			$tags_random = $this->handler->db_access->GetRecords($get_record_where);
-			
+
+			if(is_array($tags_random)) {
+				shuffle($tags_random);		// IN() hands them back in id order
+			}
+
 			return $this->tags_random = $this->FilterValidChildren(['children'=>$tags_random]);
 		}
 		
