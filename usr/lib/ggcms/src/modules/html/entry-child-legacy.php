@@ -422,7 +422,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 					$author_popup = 1;
 				}
 
-				$child_title .= '<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . '"';
+				$child_title .= '<a href="' . $this->that->EntryAssociationURL(['section'=>$this->that->handler->globals->AssociationSectionCode(), 'code'=>$author['Code']]) . '"';
 
 				if($author_popup) {
 					$child_title .= ' title="' . str_replace('"', '&quot;', $author['Title']) . '"';
@@ -600,7 +600,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			
 			if(!empty($author['Title'])) {
 				print(', by ');
-				print('<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . $this->link_suffix . '">');
+				print('<a href="' . $this->that->EntryAssociationURL(['section'=>$this->that->handler->globals->AssociationSectionCode(), 'code'=>$author['Code']]) . $this->link_suffix . '">');
 				print($author['Title']);
 				print('</a>');
 			}

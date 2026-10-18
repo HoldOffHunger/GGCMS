@@ -149,7 +149,7 @@
 				$author_text = 'By ';
 
 				if(method_exists($this->that, 'EntryAssociationURL')) {
-					$author_text .= '<a class="page-byline-author" href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author_entry['Code']]) . '">' . $author_entry['Title'] . '</a>';
+					$author_text .= '<a class="page-byline-author" href="' . $this->that->EntryAssociationURL(['section'=>$this->that->handler->globals->AssociationSectionCode(), 'code'=>$author_entry['Code']]) . '">' . $author_entry['Title'] . '</a>';
 				} else {
 					$author_text .= $author_entry['Title'];
 				}
@@ -357,7 +357,7 @@
 				
 					# People Page Stuff
 				
-				if($this->that->parent['Code'] === 'people' || $this->that->counts['textbody'] === 0) {
+				if($this->that->parent['Code'] === $this->that->handler->globals->AssociationSectionCode() || $this->that->counts['textbody'] === 0) {
 					$images = $entry['image'];
 					
 					if($images) {
@@ -424,7 +424,7 @@
 				
 					# People Page Stuff
 				
-				if($this->that->parent['Code'] === 'people') {
+				if($this->that->parent['Code'] === $this->that->handler->globals->AssociationSectionCode()) {
 					$images = $entry['image'];
 					
 					if($images) {

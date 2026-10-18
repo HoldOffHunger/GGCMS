@@ -99,7 +99,7 @@
 			if($this->title_style === 'author' && $child['association'] && count($child['association'])) {
 				$author = $child['association'][0]['entry'];
 
-				$title .= '<span class="entry-card-by">, by <a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . '">' . $author['Title'] . '</a></span>';
+				$title .= '<span class="entry-card-by">, by <a href="' . $this->that->EntryAssociationURL(['section'=>$this->that->handler->globals->AssociationSectionCode(), 'code'=>$author['Code']]) . '">' . $author['Title'] . '</a></span>';
 			}
 
 			return $title;
@@ -148,7 +148,7 @@
 			}
 
 			if(!empty($author['Title'])) {
-				$meta[] = 'by <a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . $this->link_suffix . '">' . $author['Title'] . '</a>';
+				$meta[] = 'by <a href="' . $this->that->EntryAssociationURL(['section'=>$this->that->handler->globals->AssociationSectionCode(), 'code'=>$author['Code']]) . $this->link_suffix . '">' . $author['Title'] . '</a>';
 			}
 
 			return $meta;

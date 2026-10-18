@@ -517,6 +517,8 @@ inside.
 | `--path=` | asked for | The entry, or for a creation its **parent** |
 | `--user=` | none | `ADMIN`, or a user id. Required to save |
 | `--field=` | none | `Name=Value`, repeatable. `Name[]=` for array fields |
+| `--fields-json=` | none | A file of fields, files and clears, for a program to post |
+| `--file=` | none | `Image[]=/path/to/picture.jpg`, repeatable. Uploads an image |
 | `--clear=` | none | Drop a record type before applying fields |
 | `--action=` | `Save` | The verb posted to `modify.php` |
 | `--dump-form` | off | Print the entry's form as JSON and stop |
@@ -533,6 +535,12 @@ use it.
 **Saving needs somebody to save as.** Pass `--user=ADMIN` for the administrator
 account or `--user=<id>` for a particular one. Without it the tool refuses,
 because `modify.php` will not save for nobody — and that is correct.
+
+`ADMIN` is refused on a site with more than one administrator, rather than
+guessing which of them the work belongs to; yallhearingthis has two. Name one
+with `--user=<id>`. Until 18 October 2026 that failed on every site: the lookup
+joined `UserAdmin` and asked for a bare `id`, which MySQL refused as ambiguous,
+and the dump came back as an empty form.
 
 ##### Creating an entry
 
@@ -587,6 +595,40 @@ a scalar prints its value bare. Read that list before adding `--apply`:
 
 A successful save clears the page cache for every page the change touches and
 names the files it removed — see [PageCache.md](PageCache.md).
+
+##### From a program: `--fields-json`
+
+A transcript runs to thousands of characters, with newlines and both kinds of
+quote, and every shell between a caller and PHP wants to reinterpret some of
+them. A file carries it untouched:
+
+```json
+{"fields": {"Title": "Sonar", "Text": ["<p>...</p>"], "textbody_Language": ["en"]},
+ "files": {"Image": ["/mnt/e/pictures/sonar.jpg"]},
+ "clear": ["Image"]}
+```
+
+A list is an array field, so the brackets `--field` needs are implied. A
+`--field` on the command line beats the same name in the file, so a person can
+override one value without editing it. The YallHearingThis filler in
+`E:\AIWorkers\yallhearingthis` posts every record this way, through
+`wsl --exec`, which skips the shell altogether.
+
+##### Images: `--file`
+
+`--file=Image[]=/path/to/picture.jpg` uploads a picture, positionally: the nth
+file belongs to the nth `image_Title[]`, and `--file=Image[]=` leaves a slot
+without one. The file is copied into the temporary directory first and the
+copy is what modify.php files away, so the original stays where it was.
+
+modify.php stores an upload with `move_uploaded_file()`, which refuses anything
+PHP did not receive in the request's POST -- the point of it, and why the shell
+could not attach an image before. It now goes through modify.php's
+`MoveUploadedFile()`, which asks the handler `IsCLIUpload()` first. Handler
+always answers no; CLIHandler answers yes for exactly the paths EntryModifier
+staged, and those alone are moved with `rename()`. Every web request still
+meets `move_uploaded_file()`. The method sits just above `DeleteFiles()`, inside
+the stretch of modify.php the `image-upload-move` regression lifts out and runs.
 
 ### Images — `scripts/internal/images/`
 

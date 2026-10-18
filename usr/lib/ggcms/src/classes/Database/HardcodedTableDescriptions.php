@@ -206,6 +206,15 @@
 			];
 		}
 		
+			/*
+				Association's own columns.  This once held a copy of Assignment's
+				(Parentid, Childid), so the read-back after an Update selected
+				columns the table does not have, and modify.php died halfway
+				through saving any entry that carried associations -- after its
+				other records were written, so each retry added another set.
+				Found 18 October 2026 by modify_entry.php on yallhearingthis.
+			*/
+
 		public function HardcodedTable_Association() {
 			return [
 				'id' => [
@@ -217,8 +226,8 @@
 					'Default' => '',
 					'Extra' => 'auto_increment',
 				],
-				
-				'Parentid' => [
+
+				'Entryid' => [
 					'Type' => 'int',
 					'TypeBase' => 'int',
 					'TypeAttribute' => '',
@@ -227,8 +236,8 @@
 					'Default' => 0,
 					'Extra' => '',
 				],
-				
-				'Childid' => [
+
+				'ChosenEntryid' => [
 					'Type' => 'int',
 					'TypeBase' => 'int',
 					'TypeAttribute' => '',
@@ -237,7 +246,27 @@
 					'Default' => 0,
 					'Extra' => '',
 				],
-				
+
+				'Type' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '',
+					'Extra' => '',
+				],
+
+				'SubType' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '',
+					'Extra' => '',
+				],
+
 				'OriginalCreationDate' => [
 					'Type' => 'datetime',
 					'TypeBase' => 'datetime',

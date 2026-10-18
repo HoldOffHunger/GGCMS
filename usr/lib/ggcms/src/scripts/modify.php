@@ -992,7 +992,7 @@
 				'Tag'=>['Tag'],
 				'Link'=>['URL'],
 				'EventDate'=>['Title'],
-				'Association'=>['Childid'],
+				'Association'=>['ChosenEntryid'],	# was Childid, an Assignment column; a re-pointed association went unrecorded
 		#		'AvailabilityDateRange'=>'',
 				'Definition'=>['Term'],
 			];
@@ -2938,7 +2938,7 @@
 						$new_icon_file_location = $new_image_directory . $file['icon_name'];
 						$new_standard_file_location = $new_image_directory . $file['standard_name'];
 						
-						if(!move_uploaded_file($file['tmp_name'], $new_file_location)) {
+						if(!$this->MoveUploadedFile(['from'=>$file['tmp_name'], 'to'=>$new_file_location])) {
 							$this->errors[] = ['The replacement image could not be stored. Please try again.'];
 							return FALSE;
 						}
@@ -3057,7 +3057,30 @@
 			
 			return $save_image_results;
 		}
-		
+
+			/*
+				move_uploaded_file() refuses any file PHP did not receive in this
+				request's POST, which is the point of it -- and also why
+				modify_entry.php could not attach an image at all.  The shell
+				stages its files itself, and CLIHandler vouches for exactly those
+				paths and no others.  Every web request still goes through
+				move_uploaded_file(); Handler::IsCLIUpload() is always FALSE there.
+
+				Kept just above DeleteFiles(), inside the stretch of this file the
+				image-upload-move regression lifts out and runs.
+			*/
+
+		public function MoveUploadedFile($args) {
+			$from = $args['from'];
+			$to = $args['to'];
+
+			if(isset($this->handler) && $this->handler->IsCLIUpload(['file'=>$from])) {
+				return rename($from, $to);
+			}
+
+			return move_uploaded_file($from, $to);
+		}
+
 		public function DeleteFiles($args) {
 			$files = $args['files'];
 			

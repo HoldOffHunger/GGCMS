@@ -106,7 +106,7 @@
 						
 						if($this->action) {
 							print('?action=' . $this->action);
-						} elseif($i === 0 || $record['Code'] === 'people') {
+						} elseif($i === 0 || $record['Code'] === $this->that->handler->globals->AssociationSectionCode()) {
 							print('?action=index');
 						}
 						

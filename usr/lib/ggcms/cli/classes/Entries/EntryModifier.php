@@ -34,6 +34,7 @@
 		public $show_response;
 		public $dump_form;
 		public $fields;
+		public $files;
 		public $clear;
 
 		public function bannerMessageText() {
@@ -124,6 +125,13 @@
 				'intl'=>'php8.1-intl',
 				'xml'=>'php8.1-xml',
 				'zip'=>'php8.1-zip',
+
+					//  Missing, it is not a warning but a fatal halfway through a save: the
+					//  entry and its text are written, then the image fields die and leave
+					//  rows with no file behind them.  It did exactly that on Fumiko on 18
+					//  October 2026, to two artists and four shows, before this was added.
+
+				'imagick'=>'php8.1-imagick',
 			];
 
 			$missing = [];
@@ -162,7 +170,10 @@
 			$this->show_response = $this->flag(['name'=>'show-response']);
 			$this->dump_form = $this->flag(['name'=>'dump-form']);
 			$this->fields = $this->fieldArguments();
+			$this->files = $this->fileArguments();
 			$this->clear = $this->clearArguments();
+
+			$this->readFieldsJSON(['file'=>$this->option(['name'=>'fields-json', 'default'=>''])]);
 
 			return TRUE;
 		}
@@ -232,6 +243,167 @@
 			}
 
 			return $fields;
+		}
+
+			/*
+				--fields-json=/path/to/record.json, for a program rather than a
+				person.  A transcript runs to thousands of characters, with
+				newlines and both kinds of quote, and every shell between the
+				caller and PHP wants to reinterpret some of them.  A file carries
+				it untouched.
+
+				{"fields": {"Title": "...", "Text": ["..."]}, "files": {"Image": ["/path.jpg"]},
+				 "clear": ["Image"]}
+
+				A list is an array field -- the brackets --field needs are implied.
+				Anything also given as --field on the command line wins, so a
+				person can override one value without editing the file.
+			*/
+
+		public function readFieldsJSON($args) {
+			$file = $args['file'];
+
+			if(!strlen($file)) {
+				return TRUE;
+			}
+
+			$record = json_decode((string) @file_get_contents($file), TRUE);
+
+			if(!is_array($record)) {
+				return $this->cancelAction(['message'=>'--fields-json could not be read as JSON: ' . $file]);
+			}
+
+			$fields = (isset($record['fields']) && is_array($record['fields'])) ? $record['fields'] : [];
+
+			foreach($fields as $name => $value) {
+				if(!array_key_exists($name, $this->fields)) {
+					$this->fields[$name] = is_array($value) ? array_values(array_map('strval', $value)) : (string) $value;
+				}
+			}
+
+			$files = (isset($record['files']) && is_array($record['files'])) ? $record['files'] : [];
+
+			foreach($files as $name => $paths) {
+				if(!array_key_exists($name, $this->files)) {
+					$this->files[$name] = array_values(array_map('strval', (array) $paths));
+				}
+			}
+
+			$clear = (isset($record['clear']) && is_array($record['clear'])) ? $record['clear'] : [];
+
+			$this->clear = array_values(array_unique(array_merge($this->clear, array_map('strval', $clear))));
+
+			return TRUE;
+		}
+
+			/*
+				--file=Image[]=/path/to/picture.jpg, repeated, one per image.
+
+				Positional, like every other array field: the nth file belongs to
+				the nth image_Title[].  An empty path, --file=Image[]=, posts no
+				file in that slot, which is what a browser does for an image row
+				left as it was.  Only array names are taken, because the one file
+				field modify.php reads, Image, is read as an array.
+			*/
+
+		public function fileArguments() {
+			$files = [];
+
+			foreach($this->argv as $argument) {
+				if(strpos($argument, '--file=') !== 0) {
+					continue;
+				}
+
+				$pieces = explode('=', substr($argument, strlen('--file=')), 2);
+
+				if(count($pieces) !== 2 || substr($pieces[0], -2) !== '[]') {
+					continue;
+				}
+
+				$files[substr($pieces[0], 0, -2)][] = $pieces[1];
+			}
+
+			return $files;
+		}
+
+			/*
+				Copies each file into the temporary directory and builds $_FILES
+				the shape PHP gives a browser's upload: one array per attribute,
+				indexed by position.  The originals are never moved -- modify.php
+				renames what it is handed, and handing it the caller's own file
+				would take it away from them.
+
+				Returns the staged paths, so CLIHandler can vouch for them and
+				whatever modify.php did not take can be removed afterwards.
+			*/
+
+		public function stageFiles() {
+			$_FILES = [];
+			$staged = [];
+
+			foreach($this->files as $name => $paths) {
+				$upload = ['name'=>[], 'type'=>[], 'tmp_name'=>[], 'error'=>[], 'size'=>[]];
+
+				foreach($paths as $path) {
+					if(!strlen($path)) {
+						$upload['name'][] = '';
+						$upload['type'][] = '';
+						$upload['tmp_name'][] = '';
+						$upload['error'][] = UPLOAD_ERR_NO_FILE;
+						$upload['size'][] = 0;
+
+						continue;
+					}
+
+					$temporary = tempnam(sys_get_temp_dir(), 'ggcms-upload-');
+
+					if($temporary === FALSE || !copy($path, $temporary)) {
+						return NULL;
+					}
+
+					$staged[] = $temporary;
+
+					$upload['name'][] = basename($path);
+					$upload['type'][] = (string) mime_content_type($temporary);
+					$upload['tmp_name'][] = $temporary;
+					$upload['error'][] = UPLOAD_ERR_OK;
+					$upload['size'][] = filesize($temporary);
+				}
+
+				$_FILES[$name] = $upload;
+			}
+
+			return $staged;
+		}
+
+		public function unstageFiles($args) {
+			foreach($args['staged'] as $temporary) {
+				if(is_file($temporary)) {
+					unlink($temporary);
+				}
+			}
+
+			return TRUE;
+		}
+
+			/*
+				Refused before anything is posted.  A missing file would otherwise
+				arrive as a copy() failure halfway through, or worse, as an image
+				row with no file behind it.
+			*/
+
+		public function missingFiles() {
+			$missing = [];
+
+			foreach($this->files as $paths) {
+				foreach($paths as $path) {
+					if(strlen($path) && !is_readable($path)) {
+						$missing[] = $path;
+					}
+				}
+			}
+
+			return $missing;
 		}
 
 		public function reportIntent() {
@@ -585,6 +757,12 @@
 				printf('  %-22s %s' . PHP_EOL, $name, $shown);
 			}
 
+			foreach($this->files as $name => $paths) {
+				foreach($paths as $path) {
+					printf('  %-22s %s' . PHP_EOL, $name . ' (file)', strlen($path) ? $path . ' (' . number_format((int) @filesize($path)) . ' bytes)' : '(none in this slot)');
+				}
+			}
+
 			return TRUE;
 		}
 
@@ -650,6 +828,14 @@
 
 			$this->reportPlan(['base'=>$base, 'post'=>$post]);
 
+			$missing = $this->missingFiles();
+
+			if(count($missing)) {
+				print(PHP_EOL . 'Refused  : cannot read ' . implode(', ', $missing) . PHP_EOL);
+
+				return FALSE;
+			}
+
 			if(!$this->apply) {
 				print(PHP_EOL . 'Dry run.  Nothing was written.  Add --apply to run it.' . PHP_EOL);
 
@@ -657,6 +843,14 @@
 			}
 
 			$this->fakeRequest(['post'=>$post]);
+
+			$staged = $this->stageFiles();
+
+			if($staged === NULL) {
+				print('Refused  : could not copy a file into ' . sys_get_temp_dir() . ' to upload it.' . PHP_EOL);
+
+				return FALSE;
+			}
 
 			require(GGCMS_DIR . 'classes/StandardLibraries.php');
 
@@ -668,9 +862,12 @@
 			ob_start();
 			$handler = new CLIHandler();
 			$handler->SetCLIUser(['user'=>$this->user]);
+			$handler->SetCLIUploads(['files'=>$staged]);
 			$handler->HandleRequest();
 			$output = ob_get_contents();
 			ob_end_clean();
+
+			$this->unstageFiles(['staged'=>$staged]);
 
 			return $this->reportResult([
 				'handler'=>$handler,
@@ -721,6 +918,24 @@
 
 			print('Status   : ' . ($status ? $status : '(none reported)') . PHP_EOL);
 			print('Response : ' . strlen($output) . ' bytes' . PHP_EOL);
+
+				/*
+					"Save attempted, but failed." is all save_status says; the
+					reasons are in $script->errors, one array per complaint, and
+					the page that would have shown them is the one discarded
+					above.  So they are printed here, always, since a failure
+					with no reason is the thing this tool exists to avoid.
+				*/
+
+			$errors = (isset($script->errors) && is_array($script->errors)) ? $script->errors : [];
+
+			foreach($errors as $error) {
+				print('Error    : ' . strip_tags(implode(' ', (array) $error)) . PHP_EOL);
+			}
+
+			if($this->show_response) {
+				print(PHP_EOL . '--- response ---' . PHP_EOL . trim(strip_tags($output)) . PHP_EOL . '--- end ---' . PHP_EOL);
+			}
 
 				/*
 					No status means Save() was never reached, and the response is

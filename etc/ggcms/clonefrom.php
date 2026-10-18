@@ -207,6 +207,17 @@
 			];
 		}
 		
+			/*
+				The section an association points into: the people a writing is
+				by, on RevoltLib and most sites.  Author links, bylines and the
+				association cards build their URLs from it.  YallHearingThis
+				points its shows at /artists/ instead.
+			*/
+
+		public function AssociationSectionCode() {
+			return 'people';
+		}
+
 		public function AssociationEntryCodes() {
 			return [
 				'*'=>[

@@ -332,7 +332,7 @@
 			$document .= $this->entrydate->getSimpleDisplay_TXT();
 
 			if($entry['association'] && $counts['association']) {
-				$document .= $this->getHeading_TXT(['title'=>'People']);
+				$document .= $this->getHeading_TXT(['title'=>$this->that->handler->globals->ModifiableFieldDisplay()['Association']]);
 
 				foreach($entry['association'] as $association) {
 					$document .= $association['SubType'] . ' : ' . $association['entry']['Title'] . "\n\n";

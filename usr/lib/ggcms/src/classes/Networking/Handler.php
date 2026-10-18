@@ -267,7 +267,18 @@
 				$this->authentication->ReAuthenticate();
 			}
 		}
-		
+
+			/*
+				A web request's files arrive through PHP's own upload handling and
+				nothing else, so nothing here vouches for one.  CLIHandler answers
+				TRUE for the files modify_entry.php staged -- see
+				modify.php's MoveUploadedFile().
+			*/
+
+		public function IsCLIUpload($args) {
+			return FALSE;
+		}
+
 		public function Construct_Cleanser() {
 			$cleanser = new HandleInput($this->getArgs());
 			return $this->cleanser = $cleanser;

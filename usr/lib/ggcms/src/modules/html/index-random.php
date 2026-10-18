@@ -122,7 +122,7 @@
 						$popup_title = 1;
 					}
 					
-					$child_title .= '<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . '"';
+					$child_title .= '<a href="' . $this->that->EntryAssociationURL(['section'=>$this->that->handler->globals->AssociationSectionCode(), 'code'=>$author['Code']]) . '"';
 					
 					if($popup_title)
 					{

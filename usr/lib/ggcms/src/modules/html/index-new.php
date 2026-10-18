@@ -114,7 +114,7 @@
 			print('</a>');
 
 			if(!empty($author['Title'])) {
-				print('<span class="entry-card-by">, by <a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . '">' . $author['Title'] . '</a></span>');
+				print('<span class="entry-card-by">, by <a href="' . $this->that->EntryAssociationURL(['section'=>$this->that->handler->globals->AssociationSectionCode(), 'code'=>$author['Code']]) . '">' . $author['Title'] . '</a></span>');
 			}
 
 			print('</h3>');

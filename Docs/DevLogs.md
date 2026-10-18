@@ -7,6 +7,46 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, October 18
+
+- Updating an entry that had associations killed modify.php partway through.
+  The engine's hardcoded description of the `Association` table was a copy of
+  `Assignment`'s, with `Parentid` and `Childid` where `Entryid`,
+  `ChosenEntryid`, `Type` and `SubType` belong. So the read-back after an
+  Update selected columns the table doesn't have. The entry's other records
+  were already written by then, and each retry added another set: three
+  quotes, three links, three dates on one test show. A comparison of every
+  hardcoded description against the live schema found only this one wrong.
+  modify.php also named `Childid` as Association's primary field, so the
+  change history never recorded an association moved to a different entry,
+  only deletions.
+
+- `modify_entry.php --user=<id>` had never worked. The lookup joined
+  `UserAdmin` and asked for a bare `id`, which MySQL refused as ambiguous, and
+  the dump came back as an empty form. Every site with one administrator uses
+  `ADMIN` and never noticed. YallHearingThis has two administrators, so it
+  needs an id.
+
+- `modify_entry.php` can attach a picture now (`--file=Image[]=`). modify.php
+  stores uploads with `move_uploaded_file()`, which refuses any file PHP didn't
+  receive in the POST. It now asks the handler first: Handler never vouches for
+  a file, and CLIHandler vouches only for the paths it staged itself. Every web
+  request still goes through `move_uploaded_file()`. The tool also takes
+  `--fields-json`, a file of fields for a program to post, because a transcript
+  doesn't survive two shells. It prints modify.php's own errors when a save
+  fails, where before it said only "Save attempted, but failed." And it refuses
+  to run without Imagick, which it had needed all along but never checked for.
+  Without Imagick a save died at the image step, after the text was written.
+
+- The section an association points into is configuration now:
+  `AssociationSectionCode()`, `people` unless a site says otherwise. Twelve
+  author links, bylines and checks had `people` written into them.
+  YallHearingThis points its shows at `/artists/`.
+
+- YallHearingThis was filled in on Fumiko: a Shows section and an Artists
+  section, five shows and two artists, made by the new AIWorkers job that will
+  do the remaining videos, about 1,770 in all. Nothing has reached production.
+
 ## 2026, October 12
 
 - From the evening of 10 October, the server couldn't reach the database

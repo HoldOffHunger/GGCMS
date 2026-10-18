@@ -143,10 +143,18 @@
 				return FALSE;
 			}
 
+				/*
+					Qualified, because UserAdmin has an id too and the join makes a
+					bare one ambiguous -- MySQL refused the query outright, so no
+					--user=<id> had ever run.  GetRecordWhere() finds no type for a
+					dotted key and binds it as a string; MySQL compares that to an
+					int column without complaint.
+				*/
+
 			$user_args = [
 				'type'=>'User',
 				'definition'=>[
-					'id'=>intval($id),
+					'User.id'=>intval($id),
 				],
 				'limit'=>1,
 				'joins'=>[

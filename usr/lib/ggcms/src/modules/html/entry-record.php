@@ -45,7 +45,7 @@
 			$author = $this->Author();
 
 			if($author) {
-				$fields['Author'] = '<a href="' . $this->that->EntryAssociationURL(['section'=>'people', 'code'=>$author['Code']]) . '">' . $author['Title'] . '</a>';
+				$fields['Author'] = '<a href="' . $this->that->EntryAssociationURL(['section'=>$this->that->handler->globals->AssociationSectionCode(), 'code'=>$author['Code']]) . '">' . $author['Title'] . '</a>';
 			}
 
 			$words = $this->WordCount();

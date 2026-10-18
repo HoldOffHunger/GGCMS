@@ -41,7 +41,7 @@
 			if(!empty($args['parent_code'])) {
 				$parent_code = $args['parent_code'];
 			} else {
-				$parent_code = 'people';
+				$parent_code = $this->that->handler->globals->AssociationSectionCode();
 			}
 
 			$associations = $this->that->entry['association'];

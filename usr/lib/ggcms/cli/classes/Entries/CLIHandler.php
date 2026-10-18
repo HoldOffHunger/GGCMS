@@ -67,6 +67,33 @@
 		public function CLIAuthenticationError() {
 			return $this->authentication->cli_error;
 		}
+
+			/*
+				The files EntryModifier copied into the temporary directory for
+				this one request.  move_uploaded_file() refuses them, because PHP
+				did not receive them, so modify.php asks here first -- and only a
+				path on this list, compared after resolving, is moved by rename.
+				Anything else in $_FILES still meets move_uploaded_file() and
+				fails as it would on the web.
+			*/
+
+		public $cli_uploads = [];
+
+		public function SetCLIUploads($args) {
+			$this->cli_uploads = [];
+
+			foreach($args['files'] as $file) {
+				$this->cli_uploads[] = realpath($file);
+			}
+
+			return TRUE;
+		}
+
+		public function IsCLIUpload($args) {
+			$file = realpath($args['file']);
+
+			return $file !== FALSE && in_array($file, $this->cli_uploads, TRUE);
+		}
 	}
 
 ?>
