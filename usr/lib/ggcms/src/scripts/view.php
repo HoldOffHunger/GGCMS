@@ -492,6 +492,35 @@
 						// View Functionality
 						// ---------------------------------------------
 		
+			/*
+				A site that wrote index_<code>.php for an entry and no
+				display_<code>.php wants that entry shown as an index, however
+				few children it has.  Only the count used to decide, so
+				revoltlib.com/feminism/, with fewer than 400, never reached the
+				index_feminism.php written for it and fell through to the
+				default display.php -- "Green Gluon CMS installed and running
+				properly" over a raw dump of the entry.
+		
+				Only where there is no display template: revoltsource's quotes
+				and yallhearingthis's shows have both, and their small sections
+				are meant to use the display one.  The paths are the ones
+				HandleRequires() looks for.
+			*/
+		
+		public function HasOnlyIndexTemplate() {
+			if(!$this->entry || !$this->entry['id'] || $this->entry['Code'] === 'index') {
+				return FALSE;
+			}
+			
+			$template_directory = GGCMS_DIR . 'templates/' . $this->handler->domain->host . '/' . $this->script_file . '/';
+			
+			if(is_file($template_directory . 'display_' . $this->entry['Code'] . '.php')) {
+				return FALSE;
+			}
+			
+			return is_file($template_directory . 'index_' . $this->entry['Code'] . '.php');
+		}
+		
 		public function display() {
 			$this->SetORMBasics();
 			
@@ -513,7 +542,7 @@
 			
 			$this->SetChildRecordCount();
 			
-			if($this->children_count > 400) {
+			if($this->children_count > 400 || $this->HasOnlyIndexTemplate()) {
 				$this->desired_action = 'index';	// you don't want this page
 				return $this->index();
 			}
