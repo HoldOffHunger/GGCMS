@@ -343,7 +343,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			$full_child_title = $child['Title'];
 
 			if(strlen($full_child_title) > $title_max) {
-				$full_child_title = substr($full_child_title, 0, $title_max) . '...';
+				$full_child_title = mb_strcut($full_child_title, 0, $title_max) . '...';
 				$title_popup = 1;
 			}
 
@@ -353,7 +353,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 				$full_child_subtitle = $child['Subtitle'];
 
 				if(strlen($full_child_subtitle) > $title_max) {
-					$full_child_subtitle = substr($full_child_subtitle, 0, $title_max) . '...';
+					$full_child_subtitle = mb_strcut($full_child_subtitle, 0, $title_max) . '...';
 				}
 
 				$full_child_title .= $full_child_subtitle;
@@ -395,7 +395,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			$popup_title = 0;
 
 			if(strlen($child_title_full) > $title_max) {
-				$child_title_full = substr($child_title_full, 0, $title_max) . '...';
+				$child_title_full = mb_strcut($child_title_full, 0, $title_max) . '...';
 				$popup_title = 1;
 			}
 
@@ -418,7 +418,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 				$author_popup = 0;
 
 				if(strlen($author_title) > 20) {
-					$author_title = substr($author_title, 0, 20) . '...';
+					$author_title = mb_strcut($author_title, 0, 20) . '...';
 					$author_popup = 1;
 				}
 
@@ -678,7 +678,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 				$text_display = strip_tags($first_textbody['FirstThousandCharacters']);
 
 				if(strlen($text_display) > 750) {
-					$text_display = substr($text_display, 0, 750) . '...';
+					$text_display = mb_strcut($text_display, 0, 750) . '...';
 				}
 			}
 
@@ -735,7 +735,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			}
 
 			if(strlen($source) > 50) {
-				$source = substr($source, 0, 50) . '...';
+				$source = mb_strcut($source, 0, 50) . '...';
 			}
 
 			print(' (From : ' . $source . '.)');

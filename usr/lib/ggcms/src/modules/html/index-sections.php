@@ -193,7 +193,7 @@
 			foreach($this->that->textbodies_random as $textbody) {
 				$this->DisplayPassage([
 					'item'=>$textbody,
-					'text'=>$this->that->cleanser_object->FormatListOutput(['text'=>substr($textbody['Text'], 0, 500)]),
+					'text'=>$this->that->cleanser_object->FormatListOutput(['text'=>mb_strcut($textbody['Text'], 0, 500)]),
 					'class'=>'passage-text',
 				]);
 			}

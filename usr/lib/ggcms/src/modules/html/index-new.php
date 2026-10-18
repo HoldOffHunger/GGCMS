@@ -224,7 +224,7 @@
 		public function ShortSource($args) {
 			$source = trim(strip_tags((string) $args['source']));
 
-			return strlen($source) > 50 ? substr($source, 0, 50) . '...' : $source;
+			return strlen($source) > 50 ? mb_strcut($source, 0, 50) . '...' : $source;
 		}
 
 		public function Display_Tags($args) {

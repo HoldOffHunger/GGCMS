@@ -389,7 +389,7 @@
 					$popup_title = 0;
 					if(strlen($grandchild_title_full) > $title_max)
 					{
-						$grandchild_title_full = substr($grandchild_title_full, 0, $title_max) . '...';
+						$grandchild_title_full = mb_strcut($grandchild_title_full, 0, $title_max) . '...';
 						$popup_title = 1;
 					}
 					
@@ -417,7 +417,7 @@
 						$popup_title = 0;
 						if(strlen($grandchild_author_full_title) > 20)
 						{
-							$grandchild_author_full_title = substr($grandchild_author_full_title, 0, 20) . '...';
+							$grandchild_author_full_title = mb_strcut($grandchild_author_full_title, 0, 20) . '...';
 							$popup_title = 1;
 						}
 						
@@ -571,7 +571,7 @@
 								
 								if(strlen($source) > 50)
 								{
-									$source = substr($source, 0, 50) . '...';
+									$source = mb_strcut($source, 0, 50) . '...';
 								}
 								
 								print(' (From : ' . $source . '.)');
@@ -605,7 +605,7 @@
 									
 									if(strlen($source) > 50)
 									{
-										$source = substr($source, 0, 50) . '...';
+										$source = mb_strcut($source, 0, 50) . '...';
 									}
 									
 									print(' (From : ' . $source . '.)');
@@ -629,7 +629,7 @@
 								
 								if(strlen($text_display) > 750)
 								{
-									$text_display = substr($text_display, 0, 750) . '...';
+									$text_display = mb_strcut($text_display, 0, 750) . '...';
 								}
 								
 								if($text_display)
@@ -647,7 +647,7 @@
 										
 										if(strlen($source) > 50)
 										{
-											$source = substr($source, 0, 50) . '...';
+											$source = mb_strcut($source, 0, 50) . '...';
 										}
 										
 										print(' (From : ' . $source . '.)');

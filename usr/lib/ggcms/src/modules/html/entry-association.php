@@ -217,7 +217,7 @@
 			$source = $args['source'];
 
 			if(strlen($source) > 50) {
-				$source = substr($source, 0, 50) . '...';
+				$source = mb_strcut($source, 0, 50) . '...';
 			}
 
 			return $source;

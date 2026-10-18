@@ -438,7 +438,7 @@
 			$popup_title = 0;
 			if(strlen($full_child_title) > $title_max)
 			{
-				$full_child_title = substr($full_child_title, 0, $title_max) . '...';
+				$full_child_title = mb_strcut($full_child_title, 0, $title_max) . '...';
 				$popup_title = 1;
 			}
 			
@@ -474,7 +474,7 @@
 						{
 							$child_title_source .= ' (From ' . $full_entry_title . ')';
 						}
-						$full_entry_title = substr($full_entry_title, 0, $title_max) . '...';
+						$full_entry_title = mb_strcut($full_entry_title, 0, $title_max) . '...';
 					}
 					
 					$full_child_title .= $full_entry_title;

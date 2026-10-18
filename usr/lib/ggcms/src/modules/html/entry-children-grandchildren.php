@@ -257,7 +257,7 @@
 			$source = trim(strip_tags((string) $args['source']));
 
 			if(strlen($source) > 40) {
-				$source = substr($source, 0, 40) . '...';
+				$source = mb_strcut($source, 0, 40) . '...';
 			}
 
 			return $source;

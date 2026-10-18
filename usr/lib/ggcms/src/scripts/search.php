@@ -279,7 +279,7 @@
 									'<strong><em>' .
 									$search_term_piece .
 									'</em></strong>' .
-									substr($text_right_side, 0, $string_length) . '...';
+									mb_strcut($text_right_side, 0, $string_length) . '...';
 							} else {
 								$j = $search_term_piece_text_pieces_count;
 								$earlyexit = 1;

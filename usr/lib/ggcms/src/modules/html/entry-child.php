@@ -216,7 +216,7 @@
 				$text_display = strip_tags($first_textbody['FirstThousandCharacters']);
 
 				if(strlen($text_display) > 750) {
-					$text_display = substr($text_display, 0, 750) . '...';
+					$text_display = mb_strcut($text_display, 0, 750) . '...';
 				}
 			}
 
@@ -269,7 +269,7 @@
 			}
 
 			if(strlen($source) > 50) {
-				$source = substr($source, 0, 50) . '...';
+				$source = mb_strcut($source, 0, 50) . '...';
 			}
 
 			print(' <span class="source">(' . $source . ')</span>');

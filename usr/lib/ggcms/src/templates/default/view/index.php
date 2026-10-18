@@ -521,7 +521,7 @@
 		print('">');
 		print('<blockquote class="margin-top-0px"><p class="horizontal-left margin-5px font-family-arial">');
 		print('<a href="' . $textbody['Entry.Code'] . '/view.php">');
-		$good_text = strip_tags(substr($textbody['Text'], 0, 500));
+		$good_text = strip_tags(mb_strcut($textbody['Text'], 0, 500));
 		$good_text = str_replace('  ', ' ', $good_text);
 		$good_text = str_replace('  ', ' ', $good_text);
 		$good_text = str_replace('  ', ' ', $good_text);

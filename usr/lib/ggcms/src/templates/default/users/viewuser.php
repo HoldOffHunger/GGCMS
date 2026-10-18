@@ -288,7 +288,7 @@
 			
 			if(strlen($full_comment_title) > $title_max)
 			{
-				$full_comment_title = substr($full_comment_title, 0, $title_max) . '...';
+				$full_comment_title = mb_strcut($full_comment_title, 0, $title_max) . '...';
 				$title_popup = 1;
 			}
 			
@@ -300,7 +300,7 @@
 				
 				if(strlen($full_comment_subtitle) > $title_max)
 				{
-					$full_comment_subtitle = substr($full_comment_subtitle, 0, $title_max) . '...';
+					$full_comment_subtitle = mb_strcut($full_comment_subtitle, 0, $title_max) . '...';
 					$title_popup = 1;
 				}
 				
@@ -596,7 +596,7 @@
 			
 			if(strlen($full_like_title) > $title_max)
 			{
-				$full_like_title = substr($full_like_title, 0, $title_max) . '...';
+				$full_like_title = mb_strcut($full_like_title, 0, $title_max) . '...';
 				$title_popup = 1;
 			}
 			
@@ -608,7 +608,7 @@
 					
 					if(strlen($last_parent_title) > $title_max)
 					{
-						$last_parent_title = substr($last_parent_title, 0, $title_max) . '...';
+						$last_parent_title = mb_strcut($last_parent_title, 0, $title_max) . '...';
 						$title_popup = 1;
 					}
 					
@@ -828,7 +828,7 @@
 						
 						if(strlen($source) > 50)
 						{
-							$source = substr($source, 0, 50) . '...';
+							$source = mb_strcut($source, 0, 50) . '...';
 						}
 						
 						print(' (From : ' . $source . '.)');
@@ -862,7 +862,7 @@
 							
 							if(strlen($source) > 50)
 							{
-								$source = substr($source, 0, 50) . '...';
+								$source = mb_strcut($source, 0, 50) . '...';
 							}
 							
 							print(' (From : ' . $source . '.)');
@@ -889,7 +889,7 @@
 						
 						if(strlen($text_display) > 750)
 						{
-							$text_display = substr($text_display, 0, 750) . '...';
+							$text_display = mb_strcut($text_display, 0, 750) . '...';
 						}
 						
 						if($text_display)
@@ -904,7 +904,7 @@
 								
 								if(strlen($source) > 50)
 								{
-									$source = substr($source, 0, 50) . '...';
+									$source = mb_strcut($source, 0, 50) . '...';
 								}
 								
 								print(' (From : ' . $source . '.)');
@@ -942,7 +942,7 @@
 							
 							if(strlen($text_display) > 750)
 							{
-								$text_display = substr($text_display, 0, 750) . '...';
+								$text_display = mb_strcut($text_display, 0, 750) . '...';
 							}
 							print($text_display);
 						}
