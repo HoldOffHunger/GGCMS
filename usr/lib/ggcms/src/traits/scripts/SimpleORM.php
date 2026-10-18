@@ -2065,20 +2065,66 @@
 				];
 			}
 			
-			$get_record_where = [
-				'type'=>'TextBody',
-				'definition'=>$definition,
-				'joins'=>[
-					'JOIN'=>[
-						'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = TextBody.Entryid',
-						'Entry'=>'Entry.id = TextBody.Entryid AND Entry.Publish = 1',
-					],
+			$joins = [
+				'JOIN'=>[
+					'Assignment'=>'Assignment.Parentid = ' . $this->entry['id'] . ' AND Assignment.Childid = TextBody.Entryid',
+					'Entry'=>'Entry.id = TextBody.Entryid AND Entry.Publish = 1',
 				],
+			];
+
+				/*
+					Choose the five, then fetch them.  ORDER BY RAND() sorts
+					every row it is given, and given whole rows it carries every
+					child's entire Text through the sort to keep five of them.
+					revoltlib.com/anarchism/ has thousands of children holding
+					hundreds of megabytes of text: on 18 October 2026 that one
+					query took 98 seconds on the live database, nginx gave up at
+					60, and the page could only ever be cached by hand.  The same
+					sort over ids alone took 0.75 seconds.
+				*/
+
+			$get_random_ids_where = [
+				'type'=>'TextBody',
+				'select'=>'TextBody.id',
+				'definition'=>$definition,
+				'joins'=>$joins,
 				'limit'=>'5',
 				'orderby'=>'RAND()',
 			];
+			$random_ids = $this->handler->db_access->GetRecords($get_random_ids_where);
+
+			$textbody_ids = [];
+
+			if(is_array($random_ids)) {
+				foreach($random_ids as $random_id) {
+					if(is_array($random_id) && $random_id['id']) {
+						$textbody_ids[] = (int)$random_id['id'];
+					}
+				}
+			}
+
+			if(!count($textbody_ids)) {
+				return $this->textbodies_random = [];
+			}
+
+			$get_record_where = [
+				'type'=>'TextBody',
+				'definition'=>[
+					'RAW'=>[
+						'TextBody.id'=>[
+							'IN',
+							'(' . implode(',', $textbody_ids) . ')',
+						],
+					],
+				],
+				'joins'=>$joins,
+			];
 			$textbodies_random = $this->handler->db_access->GetRecords($get_record_where);
-			
+
+			if(is_array($textbodies_random)) {
+				shuffle($textbodies_random);		// IN() hands them back in id order
+			}
+
 			return $this->textbodies_random = $this->FilterValidChildren(['children'=>$textbodies_random]);
 		}
 		
