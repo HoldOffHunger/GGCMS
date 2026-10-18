@@ -39,6 +39,12 @@
 			               from the record -- AnarchistCode's code of conduct,
 			               privacy policy and terms, written by the engine's
 			               traits -- as HTML, set where the record's text goes
+			  lead         HTML the template makes to stand under the title,
+			               ahead of the description -- YallHearingThis's video
+			               player, built from the show's YouTube link
+			  associated   the heading over the entries that associate to this
+			               one -- an artist's shows, a person's works -- or
+			               FALSE, the default, to leave them out
 		*/
 
 	class module_readingpage extends module_spacing {
@@ -49,6 +55,8 @@
 		public $counted;
 		public $directory;
 		public $body;
+		public $lead;
+		public $associated;
 
 		public function __construct($args) {
 			$this->that = $args['that'];
@@ -58,6 +66,8 @@
 			$this->counted = !empty($args['counted']) ? $args['counted'] : 'chapters';
 			$this->directory = !empty($args['directory']) ? $args['directory'] : FALSE;
 			$this->body = $args['body'] ?? NULL;
+			$this->lead = $args['lead'] ?? NULL;
+			$this->associated = !empty($args['associated']) ? $args['associated'] : FALSE;
 
 			foreach([
 				'entry-association', 'entry-comments', 'entry-controls', 'entry-date', 'entry-description',
@@ -139,6 +149,10 @@
 				print('</div>');
 			}
 
+			if($this->lead !== NULL) {
+				print('<div class="lead-media">' . $this->lead . '</div>');
+			}
+
 			$description = new module_entrydescription(['that'=>$that, 'header'=>'']);
 			$description->Display();
 
@@ -171,6 +185,20 @@
 					'stats'=>TRUE,
 					'outlinks'=>$this->directory,
 				]);
+			}
+
+			if($this->associated) {
+				require_once(GGCMS_DIR . 'modules/html/entry-list.php');
+				require_once(GGCMS_DIR . 'modules/html/entry-associated.php');
+
+				$associated = new module_entryassociated([
+					'that'=>$that,
+					'header'=>$this->associated,
+					'entrysort'=>new module_entrysort(['that'=>$that]),
+					'entrylist'=>new module_entrylist(['that'=>$that, 'entrydate'=>$entrydate]),
+					'iframe'=>'',
+				]);
+				$associated->Display(['header'=>$this->associated, 'hide_stats'=>TRUE]);
 			}
 
 			$entrydate->DisplayEventDatesHistory();

@@ -3075,7 +3075,18 @@
 			$to = $args['to'];
 
 			if(isset($this->handler) && $this->handler->IsCLIUpload(['file'=>$from])) {
-				return rename($from, $to);
+					/*
+						tempnam() made the staged copy 0600, and rename() keeps that,
+						so the original was readable by nobody but the shell's user
+						and the web server answered it with the image 404.  The mode
+						move_uploaded_file() gives is set here too.
+					*/
+
+				if(!rename($from, $to)) {
+					return FALSE;
+				}
+
+				return chmod($to, 0666 & ~umask());
 			}
 
 			return move_uploaded_file($from, $to);
