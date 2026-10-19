@@ -856,6 +856,8 @@
 		
 		$this->displayAssociationTypes();
 		$this->displayAssociationSubTypes();
+		ggreq('modules/html/modify-text-field.php');
+		
 		$elements = $this->modifiableRecordTypes();
 		
 		foreach ($elements as $element)
@@ -894,146 +896,63 @@
 			
 			switch($element) {
 				case 'Title':
-					$type_args = [
-						'type'=>'text',
+					$text_field = new module_modifytextfield([
+						'that'=>$this,
 						'name'=>'Title',
-						'size'=>60,
-						'value'=>$this->entry['Title'],
-						'maxlength'=>255,
-					];
+						'noamericanize'=>TRUE,
+					]);
+					$text_field->Display();
 					
-					$form->DisplayFormField($type_args);
-					
-					if($this->handler->globals->TitleAutoIncrement()) {
-						print('<input type="checkbox" value="1" name="autoincrement-title" id="autoincrement-title" ');
-						
-						if($this->handler->globals->AutoGenerateTitleDefault()) {
-							print('CHECKED="CHECKED"');
-						}
-						
-						print(' /> Autoincrement Title');
-					}
-					
-					if($this->handler->globals->TitleAutoSmartTitleCase()) {
-						print('<input type="checkbox" value="1" name="title-smart-title-case" id="title-smart-title-case" ');
-						
-						if($this->handler->globals->AutoGenerateTitleDefault()) {
-							print('CHECKED="CHECKED"');
-						}
-						
-						print(' /> Smart Title-Case');
-					}
-					
-					if($this->handler->globals->TitleDeRomanizeNumbers()) {
-						print('<input type="checkbox" value="1" name="title-de-romanize-numbers" id="title-de-romanize-numbers" ');
-						
-						#if($this->handler->globals->AutoGenerateTitleDefault()) {
-						#	print('CHECKED="CHECKED"');
-						#}
-						
-						print(' /> De-Romanize Numbers');
-					}
-				
 					break;
 				
 				case 'Subtitle':
-					$type_args = array(
-						'type'=>'text',
+					$text_field = new module_modifytextfield([
+						'that'=>$this,
 						'name'=>'Subtitle',
-						'size'=>60,
-						'value'=>$this->entry['Subtitle'],
-						'maxlength'=>255,
-					);
-					
-					$form->DisplayFormField($type_args);
-					
-					if($this->handler->globals->SubTitleAutoSmartTitleCase()) {
-						print('<input type="checkbox" value="1" name="subtitle-smart-title-case" id="subtitle-smart-title-case" ');
-						
-						if($this->handler->globals->AutoGenerateTitleDefault()) {
-							print('CHECKED="CHECKED"');
-						}
-						
-						print(' /> Smart Title-Case');
-					}
+						'noamericanize'=>TRUE,
+					]);
+					$text_field->Display();
 					
 					break;
 				
 				case 'List Title':
-					$type_args = array(
-						'type'=>'text',
+					$text_field = new module_modifytextfield([
+						'that'=>$this,
 						'name'=>'ListTitle',
-						'size'=>60,
-						'value'=>$this->entry['ListTitle'],
-						'maxlength'=>255,
-					);
-					
-					$form->DisplayFormField($type_args);
+						'noamericanize'=>TRUE,
+						'nolisttitlecase'=>TRUE,
+					]);
+					$text_field->Display();
 					
 					break;
 				
 				case 'List Title Sort Key':
-					$type_args = [
-						'type'=>'text',
-						'name'=>'ListTitleSortKey',
-						'size'=>60,
-						'value'=>$this->entry['ListTitleSortKey'],
-						'maxlength'=>255,
-					];
-					
-					$form->DisplayFormField($type_args);
+					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'ListTitleSortKey']);
+					$text_field->Display();
 					
 					break;
 					
 				case 'Code':
-					$type_args = array(
-						'type'=>'text',
-						'name'=>'Code',
-						'size'=>60,
-						'value'=>$this->entry['Code'],
-						'maxlength'=>255,
-					);
-					
-					$form->DisplayFormField($type_args);
+					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'Code']);
+					$text_field->Display();
 					
 					break;
 					
 				case 'Child Adjective':
-					$type_args = [
-						'type'=>'text',
-						'name'=>'ChildAdjective',
-						'size'=>60,
-						'value'=>$this->entry['ChildAdjective'],
-						'maxlength'=>255,
-					];
-					
-					$form->DisplayFormField($type_args);
+					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'ChildAdjective']);
+					$text_field->Display();
 					
 					break;
 					
 				case 'Child Noun':
-					$type_args = [
-						'type'=>'text',
-						'name'=>'ChildNoun',
-						'size'=>60,
-						'value'=>$this->entry['ChildNoun'],
-						'maxlength'=>255,
-					];
-					
-					$form->DisplayFormField($type_args);
+					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'ChildNoun']);
+					$text_field->Display();
 					
 					break;
 					
 				case 'Child Noun Plural':
-					$type_args = [
-						'type'=>'text',
-						'name'=>'ChildNounPlural',
-						'size'=>60,
-						'value'=>$this->entry['ChildNounPlural'],
-						'maxlength'=>255,
-					];
-					
-					$form->DisplayFormField($type_args);
+					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'ChildNounPlural']);
+					$text_field->Display();
 					
 					break;
 					
