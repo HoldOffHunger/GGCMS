@@ -375,6 +375,7 @@ print('<center><h4>Form Unavailable</h4></center>');
 		$this->displayAssociationSubTypes();
 		
 		ggreq('modules/html/modify-text-field.php');
+		ggreq('modules/html/modify-availability.php');
 		
 		$elements = $this->modifiableRecordTypes();
 		$subtle_hints = $this->SubtleFieldHints();
@@ -511,49 +512,15 @@ print('<center><h4>Form Unavailable</h4></center>');
 					break;
 					
 				case 'Availability Start':
-					$availability_start_args = [
-						'type'=>'text',
-						'name'=>'AvailabilityStartDate[]',
-						'size'=>20,
-						'class'=>'datepicker',
-						'value'=>$this->availabilitydaterange[0]['AvailabilityStartDate'],
-					];
+					$availability_field = new module_modifyavailability(['that'=>$this, 'part'=>'Start']);
+					$availability_field->Display();
 					
-					$form->DisplayFormField($availability_start_args);
-					
-					$availability_start_args = [
-						'type'=>'text',
-						'name'=>'AvailabilityStartTime[]',
-						'size'=>20,
-						'class'=>'timepicker',
-						'value'=>$this->availabilitydaterange[0]['AvailabilityStartTime'],
-					];
-					
-					$form->DisplayFormField($availability_start_args);
-				
 					break;
 					
 				case 'Availability End':
-					$availability_end_args = [
-						'type'=>'text',
-						'name'=>'AvailabilityEndDate[]',
-						'size'=>20,
-						'class'=>'datepicker',
-						'value'=>$this->availabilitydaterange[0]['AvailabilityEndDate'],
-					];
+					$availability_field = new module_modifyavailability(['that'=>$this, 'part'=>'End']);
+					$availability_field->Display();
 					
-					$form->DisplayFormField($availability_end_args);
-					
-					$availability_end_args = [
-						'type'=>'text',
-						'name'=>'AvailabilityEndTime[]',
-						'size'=>20,
-						'class'=>'timepicker',
-						'value'=>$this->availabilitydaterange[0]['AvailabilityEndTime'],
-					];
-					
-					$form->DisplayFormField($availability_end_args);
-				
 					break;
 					
 				case 'Description':

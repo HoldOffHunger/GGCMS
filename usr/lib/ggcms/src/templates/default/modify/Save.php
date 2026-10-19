@@ -748,6 +748,7 @@ print($element_text);
 			// -------------------------------------------------------------
 		
 		ggreq('modules/html/modify-text-field.php');
+		ggreq('modules/html/modify-availability.php');
 		
 		$elements = $this->modifiableRecordTypes();
 		
@@ -876,51 +877,8 @@ print($element);
 					break;
 					
 				case 'Availability Dates':
-					foreach ($this->availabilitydaterange as $availabilitydaterange)
-					{
-						$availability_start_args = array(
-							'type'=>'text',
-							'name'=>'AvailabilityStartDate[]',
-							'size'=>20,
-							'class'=>'datepicker',
-							'value'=>$availabilitydaterange['AvailabilityStartDate'],
-						);
-						
-						$form->DisplayFormField($availability_start_args);
-						
-						$availability_start_args = array(
-							'type'=>'text',
-							'name'=>'AvailabilityStartTime[]',
-							'size'=>20,
-							'class'=>'timepicker',
-							'value'=>$availabilitydaterange['AvailabilityStartTime'],
-						);
-						
-						$form->DisplayFormField($availability_start_args);
-						
-print('<br>');
-						
-						
-						$availability_end_args = array(
-							'type'=>'text',
-							'name'=>'AvailabilityEndDate[]',
-							'size'=>20,
-							'class'=>'datepicker',
-							'value'=>$availabilitydaterange['AvailabilityEndDate'],
-						);
-						
-						$form->DisplayFormField($availability_end_args);
-						
-						$availability_end_args = array(
-							'type'=>'text',
-							'name'=>'AvailabilityEndTime[]',
-							'size'=>20,
-							'class'=>'timepicker',
-							'value'=>$availabilitydaterange['AvailabilityEndTime'],
-						);
-						
-						$form->DisplayFormField($availability_end_args);
-					}
+					$availability_field = new module_modifyavailability(['that'=>$this]);
+					$availability_field->Display();
 					
 					break;
 					
