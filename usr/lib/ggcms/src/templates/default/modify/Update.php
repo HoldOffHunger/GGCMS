@@ -1067,14 +1067,12 @@
 					break;
 
 				case 'Publish':
-					
-					print('<input type="checkbox" name="Publish" value="1"');
-					
-					if($this->entry['Publish'] === 1) {
-						print(' CHECKED="CHECKED');
-					}
-					
-					print('>');
+					ggreq('modules/html/modify-publish.php');
+					$publish_field = new module_modifypublish([
+						'that'=>$this,
+						'unclosedchecked'=>TRUE,
+					]);
+					$publish_field->Display();
 					
 					break;
 				
