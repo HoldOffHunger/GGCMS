@@ -20,6 +20,9 @@
 			                   or hidden, and the value is NULL on the
 			                   last two
 
+			and may override any other step of Display() it does
+			differently.
+
 			Afterwards $this->displayed says whether any value had a row,
 			and $this->last holds the last value looked at, accepted or
 			not.  Both are read by fields that lean on them.
@@ -45,6 +48,7 @@
 
 			foreach($this->Values() as $value) {
 				$this->last = $value;
+				$this->DisplayAny(['value'=>$value]);
 
 				if($this->Accepts(['value'=>$value])) {
 					$this->DisplayValue(['value'=>$value]);
@@ -58,6 +62,11 @@
 			$this->DisplayHidden();
 			$this->DisplayList();
 
+			return TRUE;
+		}
+
+			// before each value, accepted or not; nothing here, and Image's thumbnail
+		public function DisplayAny($args) {
 			return TRUE;
 		}
 
