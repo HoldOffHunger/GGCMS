@@ -11,7 +11,7 @@ describes one of *his* live sites is not.
 |---|---|---|
 | Reference site configuration | `etc/ggcms/clonefrom.php` and `etc/ggcms/clonefrom/` | 66 files |
 | Reference template set | `usr/lib/ggcms/src/templates/default/` | 842 files |
-| Reference database | `usr/lib/ggcms/cli/sql/clonefrom.sql` | 40 KB |
+| Reference database | `usr/lib/ggcms/cli/sql/clonefrom.sql` | 43 KB |
 
 The config tree carries one directory per thing a site can decide:
 

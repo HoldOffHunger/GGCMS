@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 8.0.30, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.46, for Linux (x86_64)
 --
--- Host: <redacted>      Database: clonefrom
+-- Host: <redacted>    Database: clonefrom
 -- ------------------------------------------------------
--- Server version	8.0.28
+-- Server version	8.4.11
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -14,17 +14,6 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-SET @MYSQLDUMP_TEMP_LOG_BIN = @@SESSION.SQL_LOG_BIN;
-SET @@SESSION.SQL_LOG_BIN= 0;
-
---
--- GTID state at the beginning of the backup 
---
-
-SET @@GLOBAL.GTID_PURGED=/*!80000 '+'*/ '084cd5c8-0589-11ed-85ef-cecf5c009eb4:1-1693,
-5d8f1a0f-ad86-11ec-bde0-323bd252f440:1-20,
-6b492ca4-a806-11ec-b492-2a677a7e602d:1-20,
-7c5d6f8e-40b0-11ec-93b9-b6b326df9aa4:1-27';
 
 --
 -- Table structure for table `Assignment`
@@ -298,9 +287,11 @@ CREATE TABLE `Entry` (
   `ChildAdjective` varchar(255) NOT NULL DEFAULT '',
   `ChildNoun` varchar(255) NOT NULL DEFAULT '',
   `ChildNounPlural` varchar(255) NOT NULL DEFAULT '',
+  `ChildAction` varchar(255) NOT NULL DEFAULT '',
   `GrandChildAdjective` varchar(255) NOT NULL DEFAULT '',
   `GrandChildNoun` varchar(255) NOT NULL DEFAULT '',
   `GrandChildNounPlural` varchar(255) NOT NULL DEFAULT '',
+  `GrandChildAction` varchar(255) NOT NULL DEFAULT '',
   `OriginalEntryid` int NOT NULL DEFAULT '0',
   `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
@@ -447,6 +438,75 @@ LOCK TABLES `EventDate` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `Form`
+--
+
+DROP TABLE IF EXISTS `Form`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `Form` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Entryid` int NOT NULL DEFAULT '0',
+  `FormType` varchar(255) NOT NULL DEFAULT '',
+  `PublicAccessStart` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `PublicAccessEnd` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `FirstModified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Entryid` (`Entryid`),
+  KEY `FormType` (`FormType`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Form`
+--
+
+LOCK TABLES `Form` WRITE;
+/*!40000 ALTER TABLE `Form` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Form` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `FormQuestion`
+--
+
+DROP TABLE IF EXISTS `FormQuestion`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `FormQuestion` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Entryid` int NOT NULL DEFAULT '0',
+  `Formid` int NOT NULL DEFAULT '0',
+  `RecordTable` varchar(255) NOT NULL DEFAULT '',
+  `RecordField` varchar(255) NOT NULL DEFAULT '',
+  `Prompt` varchar(255) NOT NULL DEFAULT '',
+  `Hint` varchar(255) NOT NULL DEFAULT '',
+  `FullDescription` varchar(1023) NOT NULL DEFAULT '',
+  `WidthQuantity` int NOT NULL DEFAULT '0',
+  `WidthUnit` varchar(255) NOT NULL DEFAULT '',
+  `HeightQuantity` int NOT NULL DEFAULT '0',
+  `HeightUnit` varchar(255) NOT NULL DEFAULT '',
+  `RowPosition` int NOT NULL DEFAULT '0',
+  `ColumnPosition` int NOT NULL DEFAULT '0',
+  `FirstModified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Entryid` (`Entryid`),
+  KEY `Formid` (`Formid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `FormQuestion`
+--
+
+LOCK TABLES `FormQuestion` WRITE;
+/*!40000 ALTER TABLE `FormQuestion` DISABLE KEYS */;
+/*!40000 ALTER TABLE `FormQuestion` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `Image`
 --
 
@@ -517,92 +577,6 @@ LOCK TABLES `ImageTranslation` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `ImageSearch`
---
-
-DROP TABLE IF EXISTS `ImageSearch`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `ImageSearch` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `Term` varchar(255) NOT NULL DEFAULT '',
-  `ResultCount` int NOT NULL DEFAULT '0',
-  `LastSearchDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `Term` (`Term`),
-  KEY `LastSearchDate` (`LastSearchDate`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `ImageSearch`
---
-
-LOCK TABLES `ImageSearch` WRITE;
-/*!40000 ALTER TABLE `ImageSearch` DISABLE KEYS */;
-/*!40000 ALTER TABLE `ImageSearch` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `ImageSearchResult`
---
-
-DROP TABLE IF EXISTS `ImageSearchResult`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `ImageSearchResult` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `ImageSearchid` int NOT NULL DEFAULT '0',
-  `URL` varchar(2048) NOT NULL DEFAULT '',
-  `ThumbnailURL` varchar(2048) NOT NULL DEFAULT '',
-  `Ordering` int NOT NULL DEFAULT '0',
-  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  PRIMARY KEY (`id`),
-  KEY `ImageSearchid` (`ImageSearchid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `ImageSearchResult`
---
-
-LOCK TABLES `ImageSearchResult` WRITE;
-/*!40000 ALTER TABLE `ImageSearchResult` DISABLE KEYS */;
-/*!40000 ALTER TABLE `ImageSearchResult` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `APIQuota`
---
-
-DROP TABLE IF EXISTS `APIQuota`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `APIQuota` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `Service` varchar(64) NOT NULL DEFAULT '',
-  `QuotaDate` date NOT NULL DEFAULT '0000-00-00',
-  `RequestCount` int NOT NULL DEFAULT '0',
-  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `Service_QuotaDate` (`Service`,`QuotaDate`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `APIQuota`
---
-
-LOCK TABLES `APIQuota` WRITE;
-/*!40000 ALTER TABLE `APIQuota` DISABLE KEYS */;
-/*!40000 ALTER TABLE `APIQuota` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `InternalServerError`
 --
 
@@ -657,7 +631,7 @@ CREATE TABLE `InternalServerErrorInstance` (
   KEY `Errorid` (`Errorid`),
   KEY `OriginalCreationDate` (`OriginalCreationDate`),
   KEY `LastModificationDate` (`LastModificationDate`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -667,6 +641,40 @@ CREATE TABLE `InternalServerErrorInstance` (
 LOCK TABLES `InternalServerErrorInstance` WRITE;
 /*!40000 ALTER TABLE `InternalServerErrorInstance` DISABLE KEYS */;
 /*!40000 ALTER TABLE `InternalServerErrorInstance` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `InternalServerErrorOld`
+--
+
+DROP TABLE IF EXISTS `InternalServerErrorOld`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `InternalServerErrorOld` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Resolved` tinyint(1) NOT NULL DEFAULT '0',
+  `ErrorMessage` text NOT NULL,
+  `URL` varchar(1024) NOT NULL DEFAULT '',
+  `ServerVariable` text NOT NULL,
+  `PostVariable` text NOT NULL,
+  `GetVariable` text NOT NULL,
+  `EnvironmentVariables` text NOT NULL,
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Resolved` (`Resolved`),
+  KEY `OriginalCreationDate` (`OriginalCreationDate`),
+  KEY `LastModificationDate` (`LastModificationDate`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `InternalServerErrorOld`
+--
+
+LOCK TABLES `InternalServerErrorOld` WRITE;
+/*!40000 ALTER TABLE `InternalServerErrorOld` DISABLE KEYS */;
+/*!40000 ALTER TABLE `InternalServerErrorOld` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -681,10 +689,10 @@ CREATE TABLE `InternalServerIssue` (
   `Signature` char(64) NOT NULL DEFAULT '',
   `Script` varchar(255) NOT NULL DEFAULT '',
   `IncidentCount` int NOT NULL DEFAULT '1',
+  `Resolved` tinyint(1) NOT NULL DEFAULT '0',
   `IssueType` varchar(512) NOT NULL DEFAULT '',
   `URL` varchar(1024) NOT NULL DEFAULT '',
   `Description` varchar(2048) NOT NULL DEFAULT '',
-  `Resolved` tinyint(1) NOT NULL DEFAULT '0',
   `ServerVariable` text NOT NULL,
   `PostVariable` text NOT NULL,
   `GetVariable` text NOT NULL,
@@ -692,11 +700,9 @@ CREATE TABLE `InternalServerIssue` (
   `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`),
   UNIQUE KEY `Signature` (`Signature`),
-  KEY `IssueType` (`IssueType`),
   KEY `Resolved` (`Resolved`),
   KEY `OriginalCreationDate` (`OriginalCreationDate`),
-  KEY `LastModificationDate` (`LastModificationDate`),
-  KEY `URL_index` (`URL`)
+  KEY `LastModificationDate` (`LastModificationDate`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -726,7 +732,7 @@ CREATE TABLE `InternalServerIssueInstance` (
   KEY `Issueid` (`Issueid`),
   KEY `OriginalCreationDate` (`OriginalCreationDate`),
   KEY `LastModificationDate` (`LastModificationDate`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -736,6 +742,42 @@ CREATE TABLE `InternalServerIssueInstance` (
 LOCK TABLES `InternalServerIssueInstance` WRITE;
 /*!40000 ALTER TABLE `InternalServerIssueInstance` DISABLE KEYS */;
 /*!40000 ALTER TABLE `InternalServerIssueInstance` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `InternalServerIssueOld`
+--
+
+DROP TABLE IF EXISTS `InternalServerIssueOld`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `InternalServerIssueOld` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `IssueType` varchar(512) NOT NULL DEFAULT '',
+  `URL` varchar(1024) NOT NULL DEFAULT '',
+  `Description` varchar(2048) NOT NULL DEFAULT '',
+  `Resolved` tinyint(1) NOT NULL DEFAULT '0',
+  `ServerVariable` text NOT NULL,
+  `PostVariable` text NOT NULL,
+  `GetVariable` text NOT NULL,
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `IssueType` (`IssueType`),
+  KEY `Resolved` (`Resolved`),
+  KEY `OriginalCreationDate` (`OriginalCreationDate`),
+  KEY `LastModificationDate` (`LastModificationDate`),
+  KEY `URL_index` (`URL`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `InternalServerIssueOld`
+--
+
+LOCK TABLES `InternalServerIssueOld` WRITE;
+/*!40000 ALTER TABLE `InternalServerIssueOld` DISABLE KEYS */;
+/*!40000 ALTER TABLE `InternalServerIssueOld` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -882,6 +924,34 @@ CREATE TABLE `LookupListItem` (
 LOCK TABLES `LookupListItem` WRITE;
 /*!40000 ALTER TABLE `LookupListItem` DISABLE KEYS */;
 /*!40000 ALTER TABLE `LookupListItem` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `PrimaryHostRecord`
+--
+
+DROP TABLE IF EXISTS `PrimaryHostRecord`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `PrimaryHostRecord` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `RecordKey` varchar(255) NOT NULL DEFAULT '',
+  `RecordValue` varchar(255) NOT NULL DEFAULT '',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Parentid` (`RecordKey`),
+  KEY `Childid` (`RecordValue`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `PrimaryHostRecord`
+--
+
+LOCK TABLES `PrimaryHostRecord` WRITE;
+/*!40000 ALTER TABLE `PrimaryHostRecord` DISABLE KEYS */;
+/*!40000 ALTER TABLE `PrimaryHostRecord` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1192,7 +1262,6 @@ LOCK TABLES `UserSession` WRITE;
 /*!40000 ALTER TABLE `UserSession` DISABLE KEYS */;
 /*!40000 ALTER TABLE `UserSession` ENABLE KEYS */;
 UNLOCK TABLES;
-SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -1203,4 +1272,4 @@ SET @@SESSION.SQL_LOG_BIN = @MYSQLDUMP_TEMP_LOG_BIN;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-09-08 16:47:14
+-- Dump completed

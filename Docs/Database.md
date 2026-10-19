@@ -2,13 +2,21 @@
 
 The schema, the constraints it runs under, and what to do when adding to it.
 
-The base schema for a new site is `usr/lib/ggcms/cli/sql/clonefrom.sql` — 32
-tables, InnoDB. Every live site is a clone of it, and
+The base schema for a new site is `usr/lib/ggcms/cli/sql/clonefrom.sql` — 39
+tables, InnoDB, dumped from the live `clonefrom` database. Every live site is a
+clone of it, and
 `DomainChecker::checkClonefrom()` compares each host's field descriptions back
 against the live `clonefrom` database, so drift between a site and the base
 schema is detectable rather than theoretical.
 
 ## `clonefrom` is a live database, not just a file
+
+The live database is the reference; the file is a dump of it. They drifted
+once: the file was dumped in September 2022 and missed `Entry.ChildAction`,
+`PrimaryHostRecord` and five other tables the code relies on, while carrying
+three image-search tables no database ever had. It was regenerated from the
+live database on 19 October 2026. When the schema changes, change `clonefrom`
+first and dump it again, with the host line redacted.
 
 There is a real `clonefrom` database on the host alongside the seventeen sites,
 and it exists so that a missing table can be restored from it in one statement:
@@ -51,7 +59,10 @@ CREATE TABLE `Entry` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 ```
 
-Four things are invariant across all 32 tables, and new tables match them:
+Four things are invariant across the tables, and new tables match them.
+`Form` and `FormQuestion` are the exception that predates the rule: their two
+dates are `FirstModified` and `LastModified`, which `check_schema.php` reports
+as a spine finding on every site that has them.
 
 * **`id int NOT NULL AUTO_INCREMENT`, `PRIMARY KEY (id)`.** No exceptions, no
   composite primary keys, no natural keys. A relational row has its own unique
