@@ -42,6 +42,41 @@ echo "==> pulling"
 cd "$REPO"
 git pull --ff-only
 
+		#  Both repositories are pulled before anything is copied, and the
+		#  configuration goes in ahead of the engine.  The configuration
+		#  checkout used to be pulled halfway through, after the engine was
+		#  already in place: on 18 October 2026 a new entry-child.php landed
+		#  at 23:05:15, the clonefrom.php that defines AssociationSectionCode()
+		#  for it at 23:05:18 after a network round trip, and two RevoltLib
+		#  pages in between died on "Call to undefined method
+		#  globals::AssociationSectionCode()".  Configuration only adds
+		#  methods that new engine code calls, so copied first it is merely
+		#  early; copied second it is missing.
+
+CONFIG="${GGCMS_CONFIG_REPO:-/opt/ggcms-config}"
+
+if [ -d "$CONFIG/.git" ]; then
+	( cd "$CONFIG" && git pull --ff-only )
+fi
+
+echo "==> config    -> /etc/ggcms/"
+
+		#  No --delete.  Sites may hold local configuration that is not
+		#  tracked, and losing it silently would be unrecoverable.
+
+rsync -a "$REPO/etc/ggcms/" /etc/ggcms/
+
+		#  Site configuration, from the second repository -- see below for
+		#  what that repository is.  No --delete: a host may carry a domain
+		#  this checkout does not know about, and deleting a site's config
+		#  would take that site down with nothing to restore from but this
+		#  repository's history.
+
+if [ -d "$CONFIG/etc/ggcms" ]; then
+	echo "==> site config   -> /etc/ggcms/"
+	rsync -a "$CONFIG/etc/ggcms/" /etc/ggcms/
+fi
+
 echo "==> engine    -> /usr/lib/ggcms/"
 
 		#  --delete here is deliberate: /usr/lib/ggcms is pure code, and a
@@ -80,13 +115,6 @@ echo "==> templates -> /usr/lib/ggcms/src/templates/"
 
 rsync -a --delete "$REPO/usr/lib/ggcms/src/templates/default/" /usr/lib/ggcms/src/templates/default/
 
-echo "==> config    -> /etc/ggcms/"
-
-		#  No --delete.  Sites may hold local configuration that is not
-		#  tracked, and losing it silently would be unrecoverable.
-
-rsync -a "$REPO/etc/ggcms/" /etc/ggcms/
-
 echo "==> docroot   -> /var/www/html/"
 
 		#  No --delete.  The page cache lives under the document root and
@@ -119,12 +147,8 @@ cp -a "$REPO/var/www/ggcms_cli_directories.php" /var/www/
 		#  rsync-from-git fails quietly and leaves Apache reading nothing.
 		#  Enabling stays a deliberate one-time act on the host.
 
-CONFIG="${GGCMS_CONFIG_REPO:-/opt/ggcms-config}"
-
 if [ -d "$CONFIG/.git" ]; then
 	echo "==> server config -> /etc/apache2/"
-
-	( cd "$CONFIG" && git pull --ff-only )
 
 	for available in conf-available sites-available mods-available; do
 		if [ -d "$CONFIG/etc/apache2/$available" ]; then
@@ -154,20 +178,14 @@ if [ -d "$CONFIG/.git" ]; then
 		fi
 	done
 
-		#  Site configuration and site templates, which live here rather
-		#  than in the public engine repository because they describe real
-		#  sites: per-domain overrides, and the com.<site>.php files that
-		#  hold database credentials.
+		#  Site templates, which live here rather than in the public engine
+		#  repository because they describe real sites.  Site configuration
+		#  -- per-domain overrides, and the com.<site>.php files that hold
+		#  database credentials -- went in before the engine, above.
 		#
-		#  No --delete on either.  A host may carry a domain this checkout
-		#  does not know about, and deleting a site's config or its
-		#  templates would take that site down with nothing to restore
-		#  from but this repository's history.
-
-	if [ -d "$CONFIG/etc/ggcms" ]; then
-		echo "==> site config   -> /etc/ggcms/"
-		rsync -a "$CONFIG/etc/ggcms/" /etc/ggcms/
-	fi
+		#  No --delete.  A host may carry a domain this checkout does not
+		#  know about, and deleting a site's templates would take that site
+		#  down with nothing to restore from but this repository's history.
 
 	if [ -d "$CONFIG/usr/lib/ggcms/src/templates" ]; then
 		echo "==> site templates -> /usr/lib/ggcms/src/templates/"
