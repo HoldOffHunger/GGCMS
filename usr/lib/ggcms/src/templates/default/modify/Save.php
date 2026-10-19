@@ -990,27 +990,12 @@ print($element);
 					break;
 				
 				case 'Save':
-print('<center>');
-					
-					
-					$type_args = [
-						'type'=>'submit',
-						'name'=>'Save',
-						'value'=>'Save',
-					];
-					
-					$form->DisplayFormField($type_args);
-					
-					$type_args = [
-						'type'=>'hidden',
-						'name'=>'action',
-						'value'=>'Save',
-					];
-					
-					$form->DisplayFormField($type_args);
-					
-print('</center>');
-					
+					ggreq('modules/html/modify-submit.php');
+					$submit_field = new module_modifysubmit([
+						'that'=>$this,
+						'save'=>TRUE,
+					]);
+					$submit_field->Display();
 					
 					break;
 			}

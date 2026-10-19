@@ -601,66 +601,9 @@ print('<center><h4>Form Unavailable</h4></center>');
 					break;
 				
 				case 'Save':
-						// Save Button
-						// -----------------------------------------------------
-						
-					print('<center>Update This Entry : ');
-					
-					$type_args = [
-						'type'=>'submit',
-						'name'=>'Update',
-						'value'=>'Update',
-					];
-					
-					$form->DisplayFormField($type_args);
-					
-print('</center>');
-					
-					
-					if($this->parent['id']) {
-						if($this->canUserDelete()) {
-								// Save/Delete Button Separator
-								// -----------------------------------------------------
-							
-							$separate_cells_args = [
-								'cellwidth'=>'50%',
-								'cellvalign'=>'top',
-							];
-							$table->DisplayComponent_SeparateCells($separate_cells_args);
-							
-							// Delete Button
-							// -----------------------------------------------------
-						
-print('<center>');
-							
-							
-							$type_args = [
-								'type'=>'submit',
-								'name'=>'Delete',
-								'value'=>'Delete',
-								'class'=>'confirm',
-							];
-							
-							$form->DisplayFormField($type_args);
-							
-print('</center>');
-							
-						}
-					}
-					
-						// Hidden Action
-						// -----------------------------------------------------
-					
-					$type_args = [
-						'type'=>'hidden',
-						'name'=>'action',
-						'value'=>'Update',
-					];
-					
-					$form->DisplayFormField($type_args);
-					
-print('</center>');
-					
+					ggreq('modules/html/modify-submit.php');
+					$submit_field = new module_modifysubmit(['that'=>$this]);
+					$submit_field->Display();
 					
 					break;
 			}
