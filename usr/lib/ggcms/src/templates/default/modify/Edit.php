@@ -309,313 +309,58 @@
 		}
 	}
 	
-	if(count($this->admin_errors) || count($this->errors))
-	{
-				// Display Form Elements : Start
-			
-			// -------------------------------------------------------------
+			// Display Form Elements
 		
-		$divider_padding_start_args = array(
-			'class'=>'horizontal-center width-80percent margin-top-5px border-2px',
-		);
+		// -------------------------------------------------------------
+	
+	ggreq('modules/html/modify-fields.php');
+	$fields = new module_modifyfields([
+		'that'=>$this,
+		'fields'=>[
+			'Title'=>[],
+			'Subtitle'=>[],
+			'List Title'=>[],
+			'List Title Sort Key'=>[],
+			'Code'=>[],
+			'Child Adjective'=>[],
+			'Child Noun'=>[],
+			'Child Noun Plural'=>[],
+			'Grand Child Adjective'=>[],
+			'Grand Child Noun'=>[],
+			'Grand Child Noun Plural'=>[],
+			'Entry Translation'=>[],
+			'Availability Start'=>[],
+			'Availability End'=>[],
+			'Description'=>[],
+			'Quote'=>[],
+			'Text Body'=>[],
+			'Image'=>[],
+			'Image Translation'=>[],
+			'Tag'=>[],
+			'Link'=>[],
+			'Event Date'=>[],
+			'Association'=>[],
+			'Definition'=>[],
+			'Publish'=>[],
+			'Save'=>[],
+		],
+	]);
+	
+	$divider->displaystart(['class'=>'horizontal-center width-80percent margin-top-5px border-2px']);
+	
+	if(count($this->admin_errors) || count($this->errors)) {
+		$fields->DisplayUnavailable();
 		
-		$divider->displaystart($divider_padding_start_args);
-		
-				// Display Form Elements : Unavailable Message
-			
-			// -------------------------------------------------------------
-			
-		$table_start_args = array(
-			'id'=>$element,
-			'tableclass'=>'width-100percent blank-element',
-			'tableborder'=>'3',
-			'cellvalign'=>'top',
-		);
-		$table->DisplayComponent_StartTable($table_start_args);
-		
-print('<center><h4>Form Unavailable</h4></center>');
-		
-		
-		$table_end_args = [
-		];
-		$table->DisplayComponent_EndTable($table_end_args);
-		
-				// Display Form Elements : End
-			
-			// -------------------------------------------------------------
-		
-		$divider_end_args = array(
-		);
-		$divider->displayend($divider_end_args);
+		$divider->displayend([]);
 	} else {
-				// Display Form Elements : Start
-			
-			// -------------------------------------------------------------
-		
-		$divider_padding_start_args = array(
-			'class'=>'horizontal-center width-80percent margin-top-5px border-2px',
-		);
-		
-		$divider->displaystart($divider_padding_start_args);
-		
-		$start_form_args = [
+		$form->StartForm([
 			'action'=>0,
 			'method'=>'post',
 			'files'=>1,
 			'formclass'=>'margin-0px',
-		];
+		]);
 		
-		$form->StartForm($start_form_args);
-		
-				// Display Form Elements : Standard Elements
-			
-			// -------------------------------------------------------------
-		
-		$this->displayAssociationTypes();
-		$this->displayAssociationSubTypes();
-		
-		ggreq('modules/html/modify-text-field.php');
-		ggreq('modules/html/modify-availability.php');
-		
-		$elements = $this->modifiableRecordTypes();
-		$subtle_hints = $this->SubtleFieldHints();
-		$hints = $this->ActiveFieldHints();
-		
-		foreach ($elements as $element) {
-			if($element !== 'Save') {
-				$table_start_args = [
-					'id'=>$element,
-					'tableclass'=>'width-100percent blank-element',
-					'tableborder'=>'3',
-					'cellvalign'=>'top',
-				];
-				$table->DisplayComponent_StartTable($table_start_args);
-				
-				if($subtle_hints[$element]) {
-					print('<div title="');
-					print(htmlentities($subtle_hints[$element]));
-					print('">');
-				}
-				
-				print($this->ElementDisplay(['element'=>$element]));
-				
-				if($element === 'Code') {
-					print(' (For Page)');
-				}
-				
-				$element_hint = $hints[$element];
-				
-				if($element_hint) {
-					print('<div style="max-width:200px;">');
-					print($element_hint);
-					print('</div>');
-				}
-				
-				if($subtle_hints[$element]) {
-					print('</div>');
-				}
-				
-				$separate_cells_args = [
-					'cellwidth'=>'80%',
-					'cellvalign'=>'top',
-				];
-				$table->DisplayComponent_SeparateCells($separate_cells_args);
-			} else {
-				$table_start_args = [
-					'id'=>$element,
-					'tableclass'=>'width-100percent blank-element',
-					'tableborder'=>'3',
-					'cellvalign'=>'top',
-					'cellcolspan'=>2,
-				];
-				$table->DisplayComponent_StartTable($table_start_args);
-			}
-			
-			if($subtle_hints[$element]) {
-				print('<div title="');
-				print(htmlentities($subtle_hints[$element]));
-				print('">');
-			}
-			
-			switch($element) {
-				case 'Title':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'Title']);
-					$text_field->Display();
-					
-					break;
-				
-				case 'Subtitle':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'Subtitle']);
-					$text_field->Display();
-					
-					break;
-				
-				case 'List Title':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'ListTitle']);
-					$text_field->Display();
-					
-					break;
-				
-				case 'List Title Sort Key':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'ListTitleSortKey']);
-					$text_field->Display();
-					
-					break;
-					
-				case 'Code':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'Code']);
-					$text_field->Display();
-					
-					break;
-					
-				case 'Child Adjective':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'ChildAdjective']);
-					$text_field->Display();
-					
-					break;
-					
-				case 'Child Noun':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'ChildNoun']);
-					$text_field->Display();
-					
-					break;
-					
-				case 'Child Noun Plural':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'ChildNounPlural']);
-					$text_field->Display();
-					
-					break;
-					
-				case 'Grand Child Adjective':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'GrandChildAdjective']);
-					$text_field->Display();
-					
-					break;
-					
-				case 'Grand Child Noun':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'GrandChildNoun']);
-					$text_field->Display();
-					
-					break;
-					
-				case 'Grand Child Noun Plural':
-					$text_field = new module_modifytextfield(['that'=>$this, 'name'=>'GrandChildNounPlural']);
-					$text_field->Display();
-					
-					break;
-					
-				case 'Entry Translation':
-					ggreq('modules/html/modify-entry-translation.php');
-					$entry_translation_field = new module_modifyentrytranslation(['that'=>$this]);
-					$entry_translation_field->Display();
-					
-					break;
-					
-				case 'Availability Start':
-					$availability_field = new module_modifyavailability(['that'=>$this, 'part'=>'Start']);
-					$availability_field->Display();
-					
-					break;
-					
-				case 'Availability End':
-					$availability_field = new module_modifyavailability(['that'=>$this, 'part'=>'End']);
-					$availability_field->Display();
-					
-					break;
-					
-				case 'Description':
-					ggreq('modules/html/modify-description.php');
-					$description_field = new module_modifydescription(['that'=>$this]);
-					$description_field->Display();
-					
-					break;
-					
-				case 'Quote':
-					ggreq('modules/html/modify-quote.php');
-					$quote_field = new module_modifyquote(['that'=>$this]);
-					$quote_field->Display();
-					
-					break;
-					
-				case 'Text Body':
-					ggreq('modules/html/modify-text-body.php');
-					$text_body_field = new module_modifytextbody(['that'=>$this]);
-					$text_body_field->Display();
-					
-					break;
-				
-				case 'Image':
-					ggreq('modules/html/modify-image.php');
-					$image_field = new module_modifyimage(['that'=>$this]);
-					$image_field->Display();
-					
-					break;
-					
-				case 'Image Translation':
-					ggreq('modules/html/modify-image-translation.php');
-					$image_translation_field = new module_modifyimagetranslation(['that'=>$this]);
-					$image_translation_field->Display();
-					
-					break;
-				
-				case 'Tag':
-					ggreq('modules/html/modify-tag.php');
-					$tag_field = new module_modifytag(['that'=>$this]);
-					$tag_field->Display();
-					
-					break;
-					
-				case 'Link':
-					ggreq('modules/html/modify-link.php');
-					$link_field = new module_modifylink(['that'=>$this]);
-					$link_field->Display();
-					
-					break;
-				
-				case 'Event Date':
-					ggreq('modules/html/modify-event-date.php');
-					$event_date_field = new module_modifyeventdate(['that'=>$this]);
-					$event_date_field->Display();
-					
-					break;
-				
-				case 'Association':
-					ggreq('modules/html/modify-association.php');
-					$association_field = new module_modifyassociation(['that'=>$this]);
-					$association_field->Display();
-					
-					break;
-				
-				case 'Definition':
-					ggreq('modules/html/modify-definition.php');
-					$definition_field = new module_modifydefinition(['that'=>$this]);
-					$definition_field->Display();
-					
-					break;
-				
-				case 'Publish':
-					ggreq('modules/html/modify-publish.php');
-					$publish_field = new module_modifypublish(['that'=>$this]);
-					$publish_field->Display();
-					
-					break;
-				
-				case 'Save':
-					ggreq('modules/html/modify-submit.php');
-					$submit_field = new module_modifysubmit(['that'=>$this]);
-					$submit_field->Display();
-					
-					break;
-			}
-			
-			if($subtle_hints[$element]) {
-				print('</div>');
-			}
-			
-			$table_end_args = [
-			];
-			$table->DisplayComponent_EndTable($table_end_args);
-		}
+		$fields->Display();
 	}
 	
 			// Display Form Elements : End
