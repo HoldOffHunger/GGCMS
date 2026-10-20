@@ -5,9 +5,6 @@
 		/*
 			An entry's image translations on a modify.php form: the title,
 			file name, description and language.
-
-			As Edit always printed them, the blank row's button reads Add
-			Image.
 		*/
 
 	class module_modifyimagetranslation extends module_modifyrecords {
@@ -25,10 +22,6 @@
 
 		public function AddLabel() {
 			return 'Add Image Translation';
-		}
-
-		public function BlankAddLabel() {
-			return 'Add Image';
 		}
 
 		public function DisplayFields($args) {

@@ -7,8 +7,7 @@
 			source, the three cleaning checkboxes and its language.
 
 			As Edit always printed them: the hidden row has no checkboxes,
-			only a row's checkboxes have a size, and the blank row is
-			followed by a stray </div> (DisplayBlank()).
+			and only a row's checkboxes have a size.
 		*/
 
 	class module_modifytextbody extends module_modifyrecords {
@@ -26,14 +25,6 @@
 
 		public function AddLabel() {
 			return 'Add Text';
-		}
-
-		public function DisplayBlank() {
-			parent::DisplayBlank();
-
-			$this->divider->displayend([]);
-
-			return TRUE;
 		}
 
 		public function DisplayFields($args) {
