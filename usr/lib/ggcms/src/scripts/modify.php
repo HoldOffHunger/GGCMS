@@ -3731,7 +3731,7 @@
 				$image_hint = 'If submitting for a new person record, submit that person\'s portraits and indicate in the Title or Description the site where the image came from.  If submitting text somewhere else, make sure to identify the proper copyright-holder of the image in the Title or the Description.  Creative-Commons-licensed material is encouraged.';
 				$tag_hint = 'You may submit optional tags associated with this submission here.';
 				$link_hint = 'You may submit a link associated with this submission here.  If submitting a person record, it is recommended that you include a Wikipedia link, if available.';
-				$event_date_hint = 'You may set a negative value, for instance, &quot;-571-00-00&quot;, to indicate the year 571 BCE.';
+				$event_date_hint = 'You may set a negative value, for instance, "-571-00-00", to indicate the year 571 BCE.';
 				$association_hint = 'Select the author here, and if necessary, add additional people records for co-authors, translators, editors, and the like.';
 				$publish_hint = 'If checked, this will be publicly available, otherwise, it will not be publicly available, and only visible to admin and the user who created it.';
 				
@@ -3741,7 +3741,7 @@
 			return [
 				'Title'=>$title_hint,
 				'Subtitle'=>$subtitle_hint,
-				'List Title'=>$list_title_hunt,
+				'List Title'=>$list_title_hint,
 				'List Title Sort Key'=>$list_title_sort_key_hint,
 				'Code'=>$code_hint,
 				'Description'=>$description_hint,
