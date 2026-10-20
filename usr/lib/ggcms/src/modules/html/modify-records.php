@@ -173,6 +173,27 @@
 			return $args['name'] . ($args['mode'] === 'hidden' ? '-Hidden' : '[]');
 		}
 
+			// The source a text was taken from.
+
+		public function DisplaySource($args) {
+			$this->that->SourceDisplay();
+
+			$source_args = [
+				'type'=>'text',
+				'name'=>$this->Name($args),
+				'size'=>30,
+				'maxlength'=>512,
+			];
+
+			if($args['mode'] === 'row') {
+				$source_args['value'] = $args['record']['Source'];
+			}
+
+			$this->form->DisplayFormField($source_args);
+
+			return TRUE;
+		}
+
 			// A record's language, or English for a new one.
 
 		public function Language($args) {

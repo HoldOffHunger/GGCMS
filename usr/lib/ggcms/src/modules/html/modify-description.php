@@ -58,30 +58,11 @@
 
 			$this->form->DisplayFormField($text_args);
 
-			$this->DisplaySource($args);
+			$this->DisplaySource(['name'=>$this->prefix . '_Source', 'record'=>$record, 'mode'=>$mode]);
 
 			print($mode === 'hidden' ? 'Language :' : 'Language : ');
 
 			$this->DisplayLanguage(['name'=>$this->prefix . '_Language', 'record'=>$record, 'mode'=>$mode]);
-
-			return TRUE;
-		}
-
-		public function DisplaySource($args) {
-			$this->that->SourceDisplay();
-
-			$source_args = [
-				'type'=>'text',
-				'name'=>$this->Name(['name'=>$this->prefix . '_Source', 'mode'=>$args['mode']]),
-				'size'=>30,
-				'maxlength'=>512,
-			];
-
-			if($args['mode'] === 'row') {
-				$source_args['value'] = $args['record']['Source'];
-			}
-
-			$this->form->DisplayFormField($source_args);
 
 			return TRUE;
 		}
