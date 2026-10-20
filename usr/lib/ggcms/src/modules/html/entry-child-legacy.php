@@ -37,8 +37,14 @@
 			                  title alone, cut at 50; 'full' the title uncut
 			'linksuffix'      appended to the child's links, as '?action=index'
 			'rootchildlinks'  TRUE starts the child's own links with /
+			'linkprefix'      put before the child's code in its own links,
+			                  as 'writings/' for a grandchild listed on
+			                  the page of its grandparent
 'publicationyear' FALSE leaves out the year of the child's
 			                  Publication event, as the people pages do
+			'lifespan'        TRUE shows the years of the child's birth and
+			                  death, "(1869 &ndash; 1940)", in place of the
+			                  Publication year, as a front page lists people
 			'detailline'      'length' (default) opens the details with the
 			                  word and character count; 'subtitle' with the
 			                  subtitle in bold; 'linkedsubtitle' with the
@@ -80,6 +86,8 @@
 		public $title_style;
 		public $link_suffix;
 		public $root_child_links;
+		public $link_prefix;
+		public $life_span;
 		public $publication_year;
 		public $detail_line;
 		public $header_level;
@@ -108,6 +116,8 @@
 			$this->title_style = $args['titlestyle'] ?? 'subtitle';
 			$this->link_suffix = $args['linksuffix'] ?? '';
 			$this->root_child_links = $args['rootchildlinks'] ?? FALSE;
+			$this->link_prefix = $args['linkprefix'] ?? '';
+			$this->life_span = $args['lifespan'] ?? FALSE;
 $this->publication_year = $args['publicationyear'] ?? TRUE;
 			$this->detail_line = $args['detailline'] ?? 'length';
 			$this->header_level = $args['headerlevel'] ?? 3;
@@ -381,7 +391,7 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 		}
 
 		public function ChildURL() {
-			return ($this->root_child_links ? '/' : '') . $this->child['Code'] . '/view.php' . $this->link_suffix;
+			return ($this->root_child_links ? '/' : '') . $this->link_prefix . $this->child['Code'] . '/view.php' . $this->link_suffix;
 		}
 
 		public function ChildTitle_Author() {
@@ -484,6 +494,10 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 		}
 
 		public function TimeFrame() {
+			if($this->life_span) {
+				return $this->LifeSpan();
+			}
+
 			$child = $this->child;
 			$time_frame = '';
 			$publication_event = NULL;
@@ -514,6 +528,52 @@ $this->publication_year = $args['publicationyear'] ?? TRUE;
 			}
 
 			return $time_frame;
+		}
+
+			/*
+				The years of birth and death, as module_entryassociation's
+				LifeYears() writes them on an author's card.  That module is
+				not borrowed here: its constructor fills the page's own
+				associations from its parent's.
+			*/
+
+		public function LifeSpan() {
+			$birth_event = NULL;
+			$death_event = NULL;
+
+			foreach((array) $this->child['eventdate'] as $child_event) {
+				if($child_event['Title'] === 'Birth Day') {
+					$birth_event = $child_event;
+				} elseif($child_event['Title'] === 'Death Day') {
+					$death_event = $child_event;
+				}
+			}
+
+			if(!$birth_event && !$death_event) {
+				return '';
+			}
+
+			$years = [];
+
+			foreach([$birth_event, $death_event] as $event) {
+				if($event && $event['id'] && $event['EventDateTime'] != '0000-00-00 00:00:00') {
+					$years[] = $this->LifeSpanYear(['event'=>$event]);
+				} else {
+					$years[] = '?';
+				}
+			}
+
+			return '(' . implode(' &ndash; ', $years) . ')';
+		}
+
+		public function LifeSpanYear($args) {
+			if(!class_exists('module_entrychildren')) {
+				ggreq('modules/html/entry-children.php');
+			}
+
+			$entry_children = new module_entrychildren(['that'=>$this->that, 'header'=>'', 'entrysort'=>$this->entrysort]);
+
+			return $entry_children->FormatDate(['date'=>explode('-', $args['event']['EventDateTime'])[0] . '-00-00']);
 		}
 
 		public function DisplayTimeFrameAndLength($args) {
