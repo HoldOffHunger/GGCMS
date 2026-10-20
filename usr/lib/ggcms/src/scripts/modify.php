@@ -1277,6 +1277,16 @@
 						// Record Setting
 						// ---------------------------------------------
 		
+		public function FlattenLineBreaks($args) {
+			$text = $args['text'];
+			
+			if(!is_string($text)) {
+				return $text;
+			}
+			
+			return preg_replace('/[ \t]*[\r\n]+[ \t]*/', ' ', $text);
+		}
+		
 		public function SetRecordFromQuery_Entry() {
 			if($this->entry && !$this->entry_unset) {
 				$this->entry_unset = $this->entry;
@@ -1306,6 +1316,10 @@
 				} else {
 					$this->entry['OriginalEntryid'] = 0;
 				}
+			}
+			
+			foreach($this->entry as $field => $value) {		# one-line fields: a pasted line break becomes a space
+				$this->entry[$field] = $this->FlattenLineBreaks(['text'=>$value]);
 			}
 			
 			if($this->handler->desired_action === 'Save') {
