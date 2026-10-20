@@ -26,7 +26,7 @@ CONFIG="${GGCMS_CONFIG_REPO:-/mnt/e/GreenGluonCMS_Unhireable}"
 mkdir -p --mode=755 /etc/ggcms /usr/lib/ggcms /var/log/ggcms /srv/ggcms /var/www/html
 
 echo "==> engine, templates, config, docroot"
-rsync -a --delete --exclude 'src/data' --exclude 'src/templates/' "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
+rsync -a --delete --exclude 'src/data' --exclude 'src/templates/' --exclude 'src/modules/private/' "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
 mkdir -p /usr/lib/ggcms/src/templates/default
 rsync -a --delete "$REPO/usr/lib/ggcms/src/templates/default/" /usr/lib/ggcms/src/templates/default/
 rsync -a "$REPO/etc/ggcms/" /etc/ggcms/
@@ -35,6 +35,11 @@ cp -a "$REPO/var/www/ggcms_install_directories.php" /var/www/
 cp -a "$REPO/var/www/ggcms_cli_directories.php" /var/www/
 rsync -a "$CONFIG/etc/ggcms/" /etc/ggcms/
 rsync -a "$CONFIG/usr/lib/ggcms/src/templates/" /usr/lib/ggcms/src/templates/
+		#  as deploy.sh does: the private repository's own modules
+if [ -d "$CONFIG/usr/lib/ggcms/src/modules/private" ]; then
+	mkdir -p /usr/lib/ggcms/src/modules/private
+	rsync -a --delete "$CONFIG/usr/lib/ggcms/src/modules/private/" /usr/lib/ggcms/src/modules/private/
+fi
 
 echo "==> apache"
 		#  Production's top-level files, confs and module settings.  Not its

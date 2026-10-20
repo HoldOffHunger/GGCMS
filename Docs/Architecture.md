@@ -398,6 +398,7 @@ nowhere else.
 | Per-domain config, language scripts | `/etc/ggcms/<domain>/` and `/etc/ggcms/com.<site>/` |
 | Shared defaults inherited by all sites | `/etc/ggcms/clonefrom/` |
 | Per-site templates | `usr/lib/ggcms/src/templates/<site>/` |
+| Private modules, from GreenGluonCMS_Unhireable | `usr/lib/ggcms/src/modules/private/`, loaded with `ggreq('modules/private/...')` |
 | Shared scripts | `usr/lib/ggcms/src/scripts/` |
 | Format-specific script bases | `usr/lib/ggcms/src/scripts/Format/<FORMAT>/` |
 

@@ -105,8 +105,12 @@ echo "==> engine    -> /usr/lib/ggcms/"
 		#  it already has alone, instead of deleting them and restoring
 		#  them a moment later -- or, if the checkout is missing, deleting
 		#  them and stopping there.
+		#
+		#  src/modules/private/ is excluded for the same reason: it holds
+		#  the modules that belong to the private repository, synced below
+		#  with the site templates.
 
-rsync -a --delete --exclude 'src/data' --exclude 'src/templates/' "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
+rsync -a --delete --exclude 'src/data' --exclude 'src/templates/' --exclude 'src/modules/private/' "$REPO/usr/lib/ggcms/" /usr/lib/ggcms/
 
 echo "==> templates -> /usr/lib/ggcms/src/templates/"
 
@@ -190,6 +194,18 @@ if [ -d "$CONFIG/.git" ]; then
 	if [ -d "$CONFIG/usr/lib/ggcms/src/templates" ]; then
 		echo "==> site templates -> /usr/lib/ggcms/src/templates/"
 		rsync -a "$CONFIG/usr/lib/ggcms/src/templates/" /usr/lib/ggcms/src/templates/
+	fi
+
+		#  Private modules: the modules that, like the site templates, hold
+		#  what is particular to real sites, loaded as any other with
+		#  ggreq('modules/private/...').  The folder belongs wholly to this
+		#  repository, so it gets --delete scoped to itself, as the default
+		#  templates do in the engine's.
+
+	if [ -d "$CONFIG/usr/lib/ggcms/src/modules/private" ]; then
+		echo "==> private modules -> /usr/lib/ggcms/src/modules/private/"
+		mkdir -p /usr/lib/ggcms/src/modules/private
+		rsync -a --delete "$CONFIG/usr/lib/ggcms/src/modules/private/" /usr/lib/ggcms/src/modules/private/
 	fi
 else
 	echo "==> server config -- no checkout at $CONFIG, skipping"
