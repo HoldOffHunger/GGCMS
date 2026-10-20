@@ -92,11 +92,9 @@
 		
 		// -------------------------------------------------------------
 	
-	if($this->authentication_object->user_session['UserAdmin.id']) {
-		ggreq('modules/html/entry-controls.php');
-		$entry_controls = new module_entrycontrols;
-		$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
-	}
+	ggreq('modules/html/view-top-bar.php');
+	$viewtopbar = new module_viewtopbar(['that'=>$this]);
+	$viewtopbar->DisplayAdminControls(['file'=>__FILE__]);
 	
 			// Sort Selected Record List
 		
