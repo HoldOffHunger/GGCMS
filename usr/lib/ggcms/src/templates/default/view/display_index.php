@@ -37,31 +37,6 @@
 	ggreq('modules/html/entry-sort.php');
 	$entrysort = new module_entrysort(['that'=>$this]);
 	
-			// Mouseover Values
-		
-		// -------------------------------------------------------------
-	
-	$div_mouseover = '';
-	$image_mouseover = '';
-	
-	if($this->entry['quote'] && $this->entry['quote'][0]) {
-		$random_quote = $this->entry['quote'][array_rand($this->entry['quote'], 1)];
-		
-		$div_mouseover = '&quot;' . str_replace('"', '\'', $random_quote['Quote']) . '&quot; -- ' . str_replace('"', '\'', $random_quote['Source']);
-	}
-	
-	if($this->entry['description'] && $this->entry['description'][0]) {
-		$description = $this->entry['description'][0];
-		
-		$image_mouseover = str_replace('"', '\'', $description['Description']);
-	}
-	
-	if($this->entry['image'][0] && $this->entry['image'][0]['id']) {
-		$image = $this->entry['image'][0];
-		
-		$image_mouseover .= ' (' . $image['Description'] . ')';
-	}
-	
 			// Basic Divider Arguments
 		
 		// -------------------------------------------------------------
@@ -758,49 +733,9 @@
 		
 		// -------------------------------------------------------------
 	
-	ggreq('modules/html/socialmediasharelinks.php');
-	$social_media_share_links_args = [
-		'globals'=>$this->handler->globals,
-		'textonly'=>$this->mobile_friendly,
-		'languageobject'=>$this->language_object,
-		'divider'=>$divider,
-		'domainobject'=>$this->domain_object,
-		'socialmedia'=>$this->social_media,
-		'sharewithtext'=>'Share With',
-		'socialmediasharelinkargs'=>[
-			'url'=>$this->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]) . '/',
-			'title'=>$this->header_title_text,
-			'desc'=>$image_mouseover,
-			'provider'=>$this->domain_object->primary_domain_lowercased,
-		],
-	];
-	$social_media_share_links = new module_socialmediasharelinks($social_media_share_links_args);
-	
-				// Start Display Share Options
-			
-			// -------------------------------------------------------------
-
-	print('<center>');
-	print('<div class="margin-5px float-left">');
-		
-				// Display Social Networking Options
-			
-			// -------------------------------------------------------------
-	
-	$social_media_share_links->display();
-	
-				// End Display Share Options
-			
-			// -------------------------------------------------------------
-	
-	print('</div>');
-	print('</center>');
-		
-				// Finish Textbody Header
-			
-			// -------------------------------------------------------------
-	
-	print('<div class="clear-float"></div>');
+	ggreq('modules/html/index-share.php');
+	$index_share = new module_indexshare(['that'=>$this, 'boxed'=>TRUE]);
+	$index_share->Display();
 	
 			// Display Final Ending Navigation
 		
