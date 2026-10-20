@@ -23,16 +23,25 @@
 			called -- Slug(), AddLabel() -- and prints its inputs in
 			DisplayFields(), given the record and the mode: row, blank or
 			hidden.  The rest it overrides only where it differs.
+
+			On Add there are no records yet, so only the blank, the hidden
+			row and the list are printed.
+
+			Switches:
+			  adding  for Add.php: a new entry, whose blank row some kinds
+			          fill or mark as Add has, for the Replicate button
 		*/
 
 	class module_modifyrecords extends module_spacing {
 		public $that;
+		public $adding;
 		public $form;
 		public $divider;
 		public $last_record;
 
 		public function __construct($args) {
 			$this->that = $args['that'];
+			$this->adding = $args['adding'];
 
 			$this->form = new module_form;
 			$this->divider = new module_divider;
@@ -42,7 +51,7 @@
 			$displayed = FALSE;
 			$this->last_record = NULL;
 
-			foreach($this->Records() as $record) {
+			foreach((array)$this->Records() as $record) {
 				$this->last_record = $record;
 
 				$this->DisplayRecordStart(['record'=>$record]);
@@ -173,7 +182,8 @@
 			return $args['name'] . ($args['mode'] === 'hidden' ? '-Hidden' : '[]');
 		}
 
-			// The source a text was taken from.
+			// The source a text was taken from, with a class where one is
+			// given.
 
 		public function DisplaySource($args) {
 			$this->that->SourceDisplay();
@@ -187,6 +197,10 @@
 
 			if($args['mode'] === 'row') {
 				$source_args['value'] = $args['record']['Source'];
+			}
+
+			if(!empty($args['class'])) {
+				$source_args['class'] = $args['class'];
 			}
 
 			$this->form->DisplayFormField($source_args);

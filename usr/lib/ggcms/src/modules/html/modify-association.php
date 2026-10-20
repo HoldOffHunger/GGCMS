@@ -48,12 +48,15 @@
 			return TRUE;
 		}
 
+			// Add's blank choice is marked for the Replicate button to fill.
+
 		public function DisplayChosenEntry($args) {
 			$mode = $args['mode'];
 			$name = $this->Name(['name'=>'ChosenEntryid', 'mode'=>$mode]);
+			$class = $this->adding && $mode === 'blank' ? 'ChosenEntryid' : NULL;
 
 			if($this->that->showAssociationRawIds()) {
-				$id_args = ['type'=>'text', 'name'=>$name, 'size'=>40, 'maxlength'=>255];
+				$id_args = ['type'=>'text', 'name'=>$name, 'size'=>40, 'maxlength'=>255, 'class'=>$class];
 
 				if($mode === 'row') {
 					$id_args['value'] = $args['record']['ChosenEntryid'];
@@ -70,7 +73,7 @@
 				$associations_args = ['selected'=>$args['record']['ChosenEntryid'], 'defaultblankoption'=>TRUE];
 			}
 
-			print('<select name="' . $name . '">');
+			print('<select' . ($class ? ' class="' . $class . '"' : '') . ' name="' . $name . '">');
 			$this->that->displayAssociations($associations_args);
 			print('</select>');
 

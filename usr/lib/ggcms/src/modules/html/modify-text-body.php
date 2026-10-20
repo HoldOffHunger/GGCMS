@@ -40,21 +40,14 @@
 			$record = $args['record'];
 			$mode = $args['mode'];
 
-			$text_args = [
-				'type'=>'textarea',
-				'name'=>$this->Name(['name'=>'Text', 'mode'=>$mode]),
-				'cols'=>60,
-				'rows'=>20,
-				'class'=>'float-left',
-			];
+			$this->DisplayText($args);
 
-			if($mode === 'row') {
-				$text_args['value'] = $record['Text'];
-			}
-
-			$this->form->DisplayFormField($text_args);
-
-			$this->DisplaySource(['name'=>'textbody_Source', 'record'=>$record, 'mode'=>$mode]);
+			$this->DisplaySource([
+				'name'=>'textbody_Source',
+				'record'=>$record,
+				'mode'=>$mode,
+				'class'=>$this->Replicated($args) ? 'textbody_Source' : NULL,
+			]);
 
 			if($mode !== 'hidden') {
 				$this->DisplayCheckboxes(['mode'=>$mode]);
@@ -65,6 +58,39 @@
 			$this->DisplayLanguage(['name'=>'textbody_Language', 'record'=>$record, 'mode'=>$mode]);
 
 			return TRUE;
+		}
+
+			// Adding, the blank text has the focus where the site generates
+			// titles; otherwise the title has it.
+
+		public function DisplayText($args) {
+			$mode = $args['mode'];
+
+			$text_args = [
+				'type'=>'textarea',
+				'name'=>$this->Name(['name'=>'Text', 'mode'=>$mode]),
+				'cols'=>60,
+				'rows'=>20,
+				'class'=>'float-left',
+			];
+
+			if($mode === 'row') {
+				$text_args['value'] = $args['record']['Text'];
+			}
+
+			if($this->Replicated($args) && $this->that->handler->globals->AutoGenerateTitleDefault()) {
+				$text_args['autofocus'] = TRUE;
+			}
+
+			$this->form->DisplayFormField($text_args);
+
+			return TRUE;
+		}
+
+			// Add's blank text, whose source the Replicate button fills.
+
+		public function Replicated($args) {
+			return $this->adding && $args['mode'] === 'blank';
 		}
 
 		public function DisplayCheckboxes($args) {
@@ -84,6 +110,7 @@
 					'name'=>$name . '[]',
 					'value'=>1,
 					'maxlength'=>512,
+					'checked'=>$this->Checked(['name'=>$name]),
 				];
 
 				if($args['mode'] === 'row') {
@@ -93,6 +120,22 @@
 				$this->form->DisplayFormField($checkbox_args);
 
 				print("<br>");
+			}
+
+			return TRUE;
+		}
+
+			// A new entry's text is cleaned up by default, and formatted as
+			// HTML where the site says so; an entry being modified has them
+			// unticked.
+
+		public function Checked($args) {
+			if(!$this->adding) {
+				return FALSE;
+			}
+
+			if($args['name'] === 'textbody_HTMLFormatting') {
+				return $this->that->handler->globals->AddEntryHTMLFormatting();
 			}
 
 			return TRUE;

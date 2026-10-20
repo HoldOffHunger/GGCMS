@@ -94,9 +94,15 @@
 		}
 
 			// A row's number, with its id; the hidden row's, without, and
-			// counted here, since the hidden row is printed once.
+			// counted here, since the hidden row is printed once.  None on
+			// Add, which has no images yet to reorder and does not load
+			// index-adjustment.js, without which the button submits the form.
 
 		public function DisplayIndex($args) {
+			if($this->adding) {
+				return FALSE;
+			}
+
 			if($args['mode'] === 'row') {
 				print('<button id="index-adjustment-' . $this->index . '" class="index-adjustment" data-type="image" data-index="' . $this->index . '">');
 			} elseif($args['mode'] === 'hidden') {

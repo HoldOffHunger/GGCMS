@@ -4,7 +4,7 @@
 	require_once(GGCMS_DIR . 'modules/html/table.php');
 
 		/*
-			The form of a modify.php page -- Edit, Save, Update: a table
+			The form of a modify.php page -- Add, Edit, Save, Update: a table
 			per modifiable field, in the order modifiableRecordTypes()
 			gives, each with its heading and hints on the left and its
 			inputs on the right, and the buttons last.
@@ -19,14 +19,19 @@
 			form whether or not they opened it.
 
 			Switches:
-			  action  Save, for Save.php: a Save button and no Delete, and
-			          Publish ticked for a new entry; Update otherwise, as
-			          Edit and Update submit
+			  action  Save, for Add.php and Save.php: a Save button and no
+			          Delete, and Publish ticked for a new entry; Update
+			          otherwise, as Edit and Update submit
+			  adding  for Add.php: a blank form for a new entry, whose
+			          $that->entry is still the entry it goes under, so
+			          nothing is filled in from it; the title or the text
+			          has the focus, and the checkboxes take Add's defaults
 		*/
 
 	class module_modifyform extends module_spacing {
 		public $that;
 		public $action;
+		public $adding;
 		public $form;
 		public $table;
 		public $subtle_hints;
@@ -36,6 +41,7 @@
 		public function __construct($args) {
 			$this->that = $args['that'];
 			$this->action = !empty($args['action']) ? $args['action'] : 'Update';
+			$this->adding = $args['adding'];
 
 			$this->form = new module_form;
 			$this->table = new module_table;
@@ -197,7 +203,10 @@
 
 				$class = 'module_modify' . str_replace('-', '', $file);
 
-				$this->record_modules[$file] = new $class(['that'=>$this->that]);
+				$this->record_modules[$file] = new $class([
+					'that'=>$this->that,
+					'adding'=>$this->adding,
+				]);
 			}
 
 			return $this->record_modules[$file];
@@ -208,18 +217,27 @@
 
 			// The entry's own text fields, each named as its heading without
 			// spaces, with the checkboxes after it that the site turns on.
+			// Adding, they are empty, and the title has the focus unless the
+			// site generates titles, when the text has it.
 
 		public function DisplayText($args) {
 			$element = $args['element'];
 			$name = str_replace(' ', '', $element);
 
-			$this->form->DisplayFormField([
+			$text_args = [
 				'type'=>'text',
 				'name'=>$name,
 				'size'=>60,
-				'value'=>$this->that->entry[$name],
 				'maxlength'=>255,
-			]);
+			];
+
+			if(!$this->adding) {
+				$text_args['value'] = $this->that->entry[$name];
+			} elseif($element === 'Title' && !$this->that->handler->globals->AutoGenerateTitleDefault()) {
+				$text_args['autofocus'] = TRUE;
+			}
+
+			$this->form->DisplayFormField($text_args);
 
 			foreach($this->Checkboxes()[$element] as $checkbox_name => $checkbox) {
 				$this->DisplayCheckbox(['name'=>$checkbox_name, 'checkbox'=>$checkbox]);
@@ -231,6 +249,7 @@
 		public function DisplayCheckbox($args) {
 			$checkbox = $args['checkbox'];
 			$globals = $this->that->handler->globals;
+			$default = $this->adding ? $checkbox['adding'] : $checkbox['default'];
 
 			if(!$globals->{$checkbox['global']}()) {
 				return FALSE;
@@ -238,7 +257,7 @@
 
 			print('<input type="checkbox" value="1" name="' . $args['name'] . '" id="' . $args['name'] . '" ');
 
-			if(!empty($checkbox['default']) && $globals->{$checkbox['default']}()) {
+			if($default === TRUE || (!empty($default) && $globals->{$default}())) {
 				print('CHECKED="CHECKED"');
 			}
 
@@ -248,24 +267,26 @@
 		}
 
 			// Each text field's checkboxes: the global that shows it and,
-			// where it is ticked by default, the global that says so.  The
-			// defaults commented out are as they were in Edit.php.
+			// where it is ticked by default, the global that says so --
+			// 'default' for an entry being modified, 'adding' for a new one,
+			// where TRUE is always.  The defaults commented out are as they
+			// were in Edit.php; Add.php had them, and has them still.
 
 		public function Checkboxes() {
 			return [
 				'Title'=>[
-					'autoincrement-title'=>['global'=>'TitleAutoIncrement', 'label'=>'Autoincrement Title', 'default'=>'AutoGenerateTitleDefault'],
-					'title-smart-title-case'=>['global'=>'TitleAutoSmartTitleCase', 'label'=>'Smart Title-Case', 'default'=>'AutoGenerateTitleDefault'],
-					'title-americanize'=>['global'=>'TitleAmericanize', 'label'=>'Americanize'],		# 'default'=>'AmericanizeTitleDefault'
+					'autoincrement-title'=>['global'=>'TitleAutoIncrement', 'label'=>'Autoincrement Title', 'default'=>'AutoGenerateTitleDefault', 'adding'=>'AutoGenerateTitleDefault'],
+					'title-smart-title-case'=>['global'=>'TitleAutoSmartTitleCase', 'label'=>'Smart Title-Case', 'default'=>'AutoGenerateTitleDefault', 'adding'=>TRUE],
+					'title-americanize'=>['global'=>'TitleAmericanize', 'label'=>'Americanize', 'adding'=>'AmericanizeTitleDefault'],		# 'default'=>'AmericanizeTitleDefault'
 					'title-de-romanize-numbers'=>['global'=>'TitleDeRomanizeNumbers', 'label'=>'De-Romanize Numbers'],		# 'default'=>'AutoGenerateTitleDefault'
 				],
 				'Subtitle'=>[
-					'subtitle-smart-title-case'=>['global'=>'SubTitleAutoSmartTitleCase', 'label'=>'Smart Title-Case', 'default'=>'AutoGenerateTitleDefault'],
-					'subtitle-americanize'=>['global'=>'SubtitleAmericanize', 'label'=>'Americanize'],		# 'default'=>'AmericanizeSubtitleDefault'
+					'subtitle-smart-title-case'=>['global'=>'SubTitleAutoSmartTitleCase', 'label'=>'Smart Title-Case', 'default'=>'AutoGenerateTitleDefault', 'adding'=>TRUE],
+					'subtitle-americanize'=>['global'=>'SubtitleAmericanize', 'label'=>'Americanize', 'adding'=>'AmericanizeSubtitleDefault'],		# 'default'=>'AmericanizeSubtitleDefault'
 				],
 				'List Title'=>[
-					'listtitle-smart-title-case'=>['global'=>'ListTitleAutoSmartTitleCase', 'label'=>'Smart Title-Case'],		# 'default'=>'AutoGenerateTitleDefault'
-					'listtitle-americanize'=>['global'=>'ListTitleAmericanize', 'label'=>'Americanize'],		# 'default'=>'AmericanizeListTitleDefault'
+					'listtitle-smart-title-case'=>['global'=>'ListTitleAutoSmartTitleCase', 'label'=>'Smart Title-Case', 'adding'=>TRUE],		# 'default'=>'AutoGenerateTitleDefault'
+					'listtitle-americanize'=>['global'=>'ListTitleAmericanize', 'label'=>'Americanize', 'adding'=>'AmericanizeListTitleDefault'],		# 'default'=>'AmericanizeListTitleDefault'
 				],
 				'List Title Sort Key'=>[],
 				'Code'=>[],
@@ -320,9 +341,12 @@
 			// Buttons
 			// -------------------------------------------------
 
+			// Add's Save button has a label before it, as Edit's Update
+			// button does; Save's never had one.
+
 		public function DisplayButtons() {
 			if($this->action === 'Save') {
-				print('<center>');
+				print($this->adding ? '<center>Save This Entry : ' : '<center>');
 				$this->form->DisplayFormField(['type'=>'submit', 'name'=>'Save', 'value'=>'Save']);
 			} else {
 				print('<center>Update This Entry : ');
