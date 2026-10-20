@@ -31,14 +31,13 @@
 		public function DisplayFields($args) {
 			$record = $args['record'];
 			$mode = $args['mode'];
-			$row = $mode === 'row';
 
 			$this->that->TitleDisplay();
 
 			$title_args = ['type'=>'text', 'name'=>$this->Name(['name'=>'link_Title', 'mode'=>$mode]), 'size'=>40, 'maxlength'=>255];
 			$url_args = ['type'=>'text', 'name'=>$this->Name(['name'=>'URL', 'mode'=>$mode]), 'size'=>40];
 
-			if($row) {
+			if($mode === 'row') {
 				$title_args['value'] = $record['Title'];
 				$url_args['value'] = $record['URL'];
 			}

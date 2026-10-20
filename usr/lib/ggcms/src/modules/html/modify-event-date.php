@@ -61,6 +61,14 @@
 
 			$this->DisplayLanguage(['name'=>'eventdate_Language', 'record'=>$args['record'], 'mode'=>$mode]);
 
+			$this->DisplayApproximate($args);
+
+			return TRUE;
+		}
+
+		public function DisplayApproximate($args) {
+			$mode = $args['mode'];
+
 			print('Approximate : ');
 
 			$this->form->DisplayFormField([

@@ -116,40 +116,36 @@
 			return TRUE;
 		}
 
+			// The lines for a field with many records, or NULL for a field
+			// the table leaves empty.  Descriptions, quotes and text bodies
+			// share TextLines(), by their records and their text's field.
+
 		public function Lines($args) {
-			switch($args['element']) {
-				case 'Entry Translation':
-					return $this->EntryTranslationLines();
+			$element = $args['element'];
 
-				case 'Description':
-					return $this->TextLines(['records'=>$this->that->description, 'field'=>'Description']);
+			$texts = [
+				'Description'=>['records'=>'description', 'field'=>'Description'],
+				'Quote'=>['records'=>'quote', 'field'=>'Quote'],
+				'Text Body'=>['records'=>'textbody', 'field'=>'Text'],
+			];
 
-				case 'Quote':
-					return $this->TextLines(['records'=>$this->that->quote, 'field'=>'Quote']);
+			if(array_key_exists($element, $texts)) {
+				return $this->TextLines(['records'=>$this->that->{$texts[$element]['records']}, 'field'=>$texts[$element]['field']]);
+			}
 
-				case 'Text Body':
-					return $this->TextLines(['records'=>$this->that->textbody, 'field'=>'Text']);
+			$methods = [
+				'Entry Translation'=>'EntryTranslationLines',
+				'Image'=>'ImageLines',
+				'Image Translation'=>'ImageTranslationLines',
+				'Tag'=>'TagLines',
+				'Link'=>'LinkLines',
+				'Event Date'=>'EventDateLines',
+				'Association'=>'AssociationLines',
+				'Definition'=>'DefinitionLines',
+			];
 
-				case 'Image':
-					return $this->ImageLines();
-
-				case 'Image Translation':
-					return $this->ImageTranslationLines();
-
-				case 'Tag':
-					return $this->TagLines();
-
-				case 'Link':
-					return $this->LinkLines();
-
-				case 'Event Date':
-					return $this->EventDateLines();
-
-				case 'Association':
-					return $this->AssociationLines();
-
-				case 'Definition':
-					return $this->DefinitionLines();
+			if(array_key_exists($element, $methods)) {
+				return $this->{$methods[$element]}();
 			}
 
 			return NULL;

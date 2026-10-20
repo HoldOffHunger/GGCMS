@@ -38,6 +38,20 @@
 		public function DisplayFields($args) {
 			$record = $args['record'];
 			$mode = $args['mode'];
+
+			$this->DisplayText($args);
+
+			$this->DisplaySource(['name'=>$this->prefix . '_Source', 'record'=>$record, 'mode'=>$mode]);
+
+			print($mode === 'hidden' ? 'Language :' : 'Language : ');
+
+			$this->DisplayLanguage(['name'=>$this->prefix . '_Language', 'record'=>$record, 'mode'=>$mode]);
+
+			return TRUE;
+		}
+
+		public function DisplayText($args) {
+			$mode = $args['mode'];
 			$row = $mode === 'row';
 
 			$text_args = [
@@ -49,7 +63,7 @@
 			];
 
 			if($row) {
-				$text_args['value'] = $record[$this->text_name];
+				$text_args['value'] = $args['record'][$this->text_name];
 			}
 
 			if($row || ($mode === 'blank' && $this->blank_maxlength)) {
@@ -57,12 +71,6 @@
 			}
 
 			$this->form->DisplayFormField($text_args);
-
-			$this->DisplaySource(['name'=>$this->prefix . '_Source', 'record'=>$record, 'mode'=>$mode]);
-
-			print($mode === 'hidden' ? 'Language :' : 'Language : ');
-
-			$this->DisplayLanguage(['name'=>$this->prefix . '_Language', 'record'=>$record, 'mode'=>$mode]);
 
 			return TRUE;
 		}
