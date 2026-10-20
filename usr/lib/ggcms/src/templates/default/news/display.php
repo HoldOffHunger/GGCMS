@@ -720,90 +720,17 @@
 		
 		$entryheader->Display();
 		
-				// Admin Controls
+				// Admin Controls and Top Bar
 			
 			// -------------------------------------------------------------
 		
-		if($this->authentication_object->user_session['UserAdmin.id']) {
-			ggreq('modules/html/entry-controls.php');
-			$entry_controls = new module_entrycontrols;
-			$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
-		}
-		
-				// Start Top Bar
-			
-			// -------------------------------------------------------------
-		
-		print('<div class="horizontal-center width-100percent margin-top-5px">');
-		
-				// Breadcrumbs Info
-			
-			// -------------------------------------------------------------
-			
-		ggreq('modules/html/breadcrumbs.php');
-		$breadcrumbs = new module_breadcrumbs([
+		ggreq('modules/html/view-top-bar.php');
+		$viewtopbar = new module_viewtopbar([
 			'that'=>$this,
 			'subpage'=>'News',
+			'width'=>'100percent',
 		]);
-		$breadcrumbs->Display();
-		
-				// Login Info
-			
-			// -------------------------------------------------------------
-			
-		ggreq('modules/html/auth.php');
-		$auth = new module_auth(['that'=>$this]);
-		$auth->Display();
-		
-				// Like/Dislike Buttons
-			
-			// -------------------------------------------------------------
-			
-	#	ggreq('modules/html/entry-likes.php');
-	#	$entry_likes = new module_entrylikes(['that'=>$this]);
-	#	$entry_likes->Display();
-		
-				// Comments Link-Box
-			
-			// -------------------------------------------------------------
-		
-	#	$entry_comments->DisplayLinkBox();
-		
-				// Image Link-Box
-			
-			// -------------------------------------------------------------
-		
-	#	$entry_image->DisplayLinkBox();
-		
-				// Quote Link-Box
-			
-			// -------------------------------------------------------------
-		
-	#	$entry_quotes->DisplayLinkBox();
-		
-				// Permalink
-			
-			// -------------------------------------------------------------
-		
-	#	$entry_share->DisplayPermalink();
-		
-				// Share Links
-			
-			// -------------------------------------------------------------
-		
-	#	$entry_share->DisplaySmall();
-		
-				// End Top Bar
-			
-			// -------------------------------------------------------------
-		
-		print('</div>');
-		
-				// Finish Breadcrumb Trails
-			
-			// -------------------------------------------------------------
-		
-		print('<div class="clear-float"></div>');
+		$viewtopbar->Display(['file'=>__FILE__]);
 		
 				// Display Associations
 			
