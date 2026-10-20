@@ -203,111 +203,13 @@
 		$divider->displayend($divider_end_args);
 	}
 	
-			// Display Admin Errors
-		
-		// -------------------------------------------------------------
-	
-	$error_header_displayed = 0;
-	
-	if($this->authentication_object->CheckAuthenticationForCurrentObject_IsAdmin() && count($this->admin_errors))
-	{
-		$error_header_displayed = 1;
-		$divider->displaystart($divider_padding_start_args);
-		
-		$version_list_display_args = [
-			'options'=>[
-				'tableheaders'=>0,
-				'tableclass'=>'width-50percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-				'rowclass'=>'border-1px horizontal-left',
-				'cellclass'=>[
-					'border-1px vertical-top horizontal-center font-size-150percent',
-					'border-1px width-100percent vertical-top horizontal-center',
-				],
-			],
-			'list'=>[
-				[
-					'There was an error with your submission.',
-				],
-			],
-		];
-		$generic_list->Display($version_list_display_args);
-		
-		$divider->displayend($divider_end_args);
-		
-		foreach($this->admin_errors_display as $admin_error_to_display)
-		{
-			$divider->displaystart($divider_padding_start_args);
-			
-			$version_list_display_args = [
-				'options'=>[
-					'tableheaders'=>0,
-					'tableclass'=>'width-70percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-					'rowclass'=>'border-1px horizontal-left',
-					'cellclass'=>[
-						'border-1px vertical-top',
-						'border-1px width-100percent vertical-top',
-					],
-				],
-				'list'=>$admin_error_to_display,
-			];
-			$generic_list->Display($version_list_display_args);
-			
-			$divider->displayend($divider_end_args);
-		}
-	}
-	
 			// Display Errors
 		
 		// -------------------------------------------------------------
 	
-	if(count($this->errors))
-	{
-		if(!$error_header_displayed)
-		{
-			$divider->displaystart($divider_padding_start_args);
-			
-			$version_list_display_args = [
-				'options'=>[
-					'tableheaders'=>0,
-					'tableclass'=>'width-50percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-					'rowclass'=>'border-1px horizontal-left',
-					'cellclass'=>[
-						'border-1px vertical-top horizontal-center font-size-150percent',
-						'border-1px width-100percent vertical-top horizontal-center',
-					],
-				],
-				'list'=>[
-					[
-						'There was an error with your submission.',
-					],
-				],
-			];
-			$generic_list->Display($version_list_display_args);
-			
-			$divider->displayend($divider_end_args);
-		}
-		
-		foreach($this->errors_display as $error_to_display)
-		{
-			$divider->displaystart($divider_padding_start_args);
-			
-			$version_list_display_args = array(
-				'options'=>array(
-					'tableheaders'=>0,
-					'tableclass'=>'width-70percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-					'rowclass'=>'border-1px horizontal-left',
-					'cellclass'=>array(
-						'border-1px vertical-top',
-						'border-1px width-100percent vertical-top',
-					),
-				),
-				'list'=>$error_to_display,
-			);
-			$generic_list->Display($version_list_display_args);
-			
-			$divider->displayend($divider_end_args);
-		}
-	}
+	ggreq('modules/html/modify-errors.php');
+	$errors = new module_modifyerrors(['that'=>$this]);
+	$errors->Display();
 	
 			// Display Form Elements
 		
