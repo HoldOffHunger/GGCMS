@@ -94,58 +94,13 @@
 	$divider_end_args = [
 	];
 	
-			// Admin Controls
+			// Admin Controls and Top Bar
 		
 		// -------------------------------------------------------------
 	
-	if($this->authentication_object->user_session['UserAdmin.id']) {
-		ggreq('modules/html/entry-controls.php');
-		$entry_controls = new module_entrycontrols;
-		$entry_controls->Display(['that'=>$this, 'file'=>__FILE__]);
-	}
-	
-				// Start Top Bar
-			
-			// -------------------------------------------------------------
-		
-		print('<div class="horizontal-center width-95percent margin-top-5px">');
-		
-				// Breadcrumbs Info
-			
-			// -------------------------------------------------------------
-		
-		ggreq('modules/html/breadcrumbs.php');
-		$breadcrumbs = new module_breadcrumbs(['that'=>$this]);
-		$breadcrumbs->Display();
-		
-				// Login Info
-			
-			// -------------------------------------------------------------
-			
-		ggreq('modules/html/auth.php');
-		$auth = new module_auth(['that'=>$this]);
-		$auth->Display();
-		
-				// End Top Bar
-			
-			// -------------------------------------------------------------
-		
-		print('</div>');
-	
-			// Finish Breadcrumb Trails
-		
-		// -------------------------------------------------------------
-							
-	$clear_float_divider_start_args = [
-		'class'=>'clear-float',
-	];
-	
-	$divider->displaystart($clear_float_divider_start_args);
-	
-	$clear_float_divider_end_args = [
-	];
-	
-	$divider->displayend($clear_float_divider_end_args);
+	ggreq('modules/html/view-top-bar.php');
+	$viewtopbar = new module_viewtopbar(['that'=>$this]);
+	$viewtopbar->Display(['file'=>__FILE__]);
 	
 			// View Selected Record List
 		
