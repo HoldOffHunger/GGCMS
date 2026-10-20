@@ -4,19 +4,22 @@
 	require_once(GGCMS_DIR . 'modules/html/list/generic.php');
 
 		/*
-			The boxes above a modify.php form -- Edit, Save, Update: what
-			is being modified, the primary-record note, and the errors.
+			The boxes above a modify.php form -- Add, Edit, Save, Update:
+			what is being modified, the primary-record note, and the errors.
 
 			A template calls the ones it shows, in its own order:
-			DisplayEntryInfo() is Edit's table of the entry and the last
-			ones edited; DisplayStatus() is Save's and Update's line of
-			what was saved and how it went.
+			DisplayEntryInfo() is Add's and Edit's table of the entry and
+			the last ones added or edited; DisplayStatus() is Save's and
+			Update's line of what was saved and how it went.
 
 			Switches:
 			  padded  give each box the margin-5px padding-5px divider, as
-			          Edit does; Save and Update never set one
-			  adding  for DisplayStatus(): the parent being added to, as
-			          Save shows, rather than the entry being updated
+			          Add and Edit do; Save and Update never set one
+			  adding  a new entry is being added: for DisplayEntryInfo(),
+			          the entry it goes under -- on Add still $that->entry --
+			          the last one added, and the Replicate button, as Add
+			          shows; for DisplayStatus(), the parent being added to,
+			          as Save shows, rather than the entry being updated
 		*/
 
 	class module_modifynotices extends module_spacing {
@@ -39,14 +42,7 @@
 			// -------------------------------------------------
 
 		public function DisplayEntryInfo() {
-			$entry = $this->that->entry;
-
-			$info_list = [
-				['<nobr>Updating Entry:</nobr>', $this->that->GetHyperlinkedEntryView(['entry'=>$entry, 'entrylist'=>$this->that->record_list])],
-				['<nobr>Updating Entry ID:</nobr>', $entry['id']],
-			];
-
-			$info_list = array_merge($info_list, $this->RecentEntryRows());
+			$info_list = array_merge($this->EntryRows(), $this->RecentEntryRows());
 
 			if(!$this->that->isUserAdmin()) {
 				$info_list[] = [
@@ -54,20 +50,50 @@
 				];
 			}
 
+			if($this->adding) {
+				$info_list[] = $this->ReplicateRow();
+			}
+
 			$this->DisplayBox(['list'=>$info_list]);
+
+			if($this->adding) {
+				$this->DisplayReplicateScript();
+			}
 
 			return TRUE;
 		}
 
-			// The last entries edited, and added or edited unpublished, where
-			// there are any.
+			// The entry being updated and its id; or, adding, the entry the
+			// new one goes under, which has its own id.
+
+		public function EntryRows() {
+			$entry = $this->that->entry;
+			$entry_link = $this->that->GetHyperlinkedEntryView(['entry'=>$entry, 'entrylist'=>$this->that->record_list]);
+
+			if($this->adding) {
+				return [
+					['<nobr>Adding Entry To:</nobr>', $entry_link],
+				];
+			}
+
+			return [
+				['<nobr>Updating Entry:</nobr>', $entry_link],
+				['<nobr>Updating Entry ID:</nobr>', $entry['id']],
+			];
+		}
+
+			// The last entries added or edited, and added or edited
+			// unpublished, where there are any.
 
 		public function RecentEntryRows() {
-			$recent = [
-				'<nobr>Last Edited Entry:</nobr>'=>$this->that->last_edited_entry,
-				'<nobr>Last Unpublished Add:</nobr>'=>$this->that->last_unpublished_add,
-				'<nobr>Last Unpublished Edit:</nobr>'=>$this->that->last_unpublished_edit,
-			];
+			if($this->adding) {
+				$recent = ['<nobr>Last Added Entry:</nobr>'=>$this->that->last_added_entry];
+			} else {
+				$recent = ['<nobr>Last Edited Entry:</nobr>'=>$this->that->last_edited_entry];
+			}
+
+			$recent['<nobr>Last Unpublished Add:</nobr>'] = $this->that->last_unpublished_add;
+			$recent['<nobr>Last Unpublished Edit:</nobr>'] = $this->that->last_unpublished_edit;
 
 			$rows = [];
 
@@ -90,6 +116,35 @@
 			}
 
 			return $link . '</a>';
+		}
+
+			// The Replicate button copies the last added entry's source and
+			// association into the form -- replicate-last-added-record.js,
+			// reading the script below.  Explained in a tooltip to anyone
+			// but an admin.
+
+		public function ReplicateRow() {
+			if($this->that->isUserAdmin()) {
+				return [
+					'<span>Replicate?</span>',
+					'<span><button id="ReplicateLastAddedOptions" value="Replicate Last Added Options">Replicate Last Added Options</button></span>',
+				];
+			}
+
+			return [
+				'<span title="This is for copying over some of the options from the last time you edited, namely, Source and Association.">Replicate?</span>',
+				'<span title="This is for copying over some of the options from the last time you edited, namely, Source and Association."><button id="ReplicateLastAddedOptions" value="Replicate Last Added Options">Replicate Last Added Options</button></span>',
+			];
+		}
+
+		public function DisplayReplicateScript() {
+			print('<script type="text/javascript">');
+			print('var ReplicateLastAddedOptions = ');
+			print(json_encode($this->that->last_added_entry));
+			print(';');
+			print('</script>');
+
+			return TRUE;
 		}
 
 		public function DisplayStatus() {

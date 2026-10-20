@@ -38,252 +38,26 @@
 		
 		// -------------------------------------------------------------
 	
-	ggreq('modules/html/entry-header.php');
-	ggreq('modules/html/entry-index-header.php');
-	$entryindexheader = new module_entryindexheader([
+	ggreq('modules/html/modify-header.php');
+	$modifyheader = new module_modifyheader([
 		'that'=>$this,
-		'main_text'=>'Adding Entry To &mdash; ' . $this->entry['Title'],
-		'sub_text'=>'',
+		'heading'=>'Adding Entry To',
+		'subpage'=>'Add Entry',
 	]);
+	$modifyheader->Display();
 	
-	$entryindexheader->Display();
-	
-			// Basic Divider Arguments
+			// Display Notices
 		
 		// -------------------------------------------------------------
 	
-	$divider_padding_start_args = [
-		'class'=>'margin-5px padding-5px',
-	];
-	
-	$divider_end_args = [
-	];
-		
-				// Start Top Bar
-			
-			// -------------------------------------------------------------
-		
-		print('<div class="horizontal-center margin-top-5px" style="width:100%;">');
-		
-				// Breadcrumbs Info
-			
-			// -------------------------------------------------------------
-			
-		ggreq('modules/html/breadcrumbs.php');
-		$breadcrumbs = new module_breadcrumbs([
-			'that'=>$this,
-			'subpage'=>'Add Entry',
-		]);
-		$breadcrumbs->Display();
-		
-				// Login Info
-			
-			// -------------------------------------------------------------
-			
-		ggreq('modules/html/auth.php');
-		$auth = new module_auth(['that'=>$this, 'noredirect'=>TRUE]);
-		$auth->Display();
-		
-		print('<div class="clear-float"></div>');
-	
-			// Display Parent Record Info
-		
-		// -------------------------------------------------------------
-	
-	$divider->displaystart($divider_padding_start_args);
-	
-	$info_list = [
-			[
-				'<nobr>Adding Entry To:</nobr>', $this->GetHyperlinkedEntryView(['entry'=>$this->entry, 'entrylist'=>$this->record_list]),
-			],
-		];
-	
-	$last_added_entry = $this->last_added_entry;
-	
-	if($last_added_entry && $last_added_entry['id']) {
-		$last_added_entry_url = '<a href="' . $last_added_entry['Code'] . '/view.php">' . $last_added_entry['Title'];
-		if($last_added_entry['Subtitle']) {
-			$last_added_entry_url .= ' : ' . $last_added_entry['Subtitle'];
-		}
-		$last_added_entry_url .= '</a>';
-		
-		$info_list[] = [
-			'<nobr>Last Added Entry:</nobr>', $last_added_entry_url,
-		];
-	}
-	
-	$last_edited_entry = $this->last_unpublished_add;
-	
-	if($last_edited_entry && $last_edited_entry['id'])
-	{
-		$last_edited_entry_url = '<a href="' . $last_edited_entry['Code'] . '/view.php">' . $last_edited_entry['Title'];
-		if($last_edited_entry['Subtitle']) {
-			$last_edited_entry_url .= ' : ' . $last_edited_entry['Subtitle'];
-		}
-		$last_edited_entry_url .= '</a>';
-		
-		$info_list[] = [
-			'<nobr>Last Unpublished Add:</nobr>', $last_edited_entry_url,
-		];
-	}
-	
-	$last_edited_entry = $this->last_unpublished_edit;
-	
-	if($last_edited_entry && $last_edited_entry['id'])
-	{
-		$last_edited_entry_url = '<a href="' . $last_edited_entry['Code'] . '/view.php">' . $last_edited_entry['Title'];
-		if($last_edited_entry['Subtitle']) {
-			$last_edited_entry_url .= ' : ' . $last_edited_entry['Subtitle'];
-		}
-		$last_edited_entry_url .= '</a>';
-		
-		$info_list[] = [
-			'<nobr>Last Unpublished Edit:</nobr>', $last_edited_entry_url,
-		];
-	}
-	
-	if(!$this->isUserAdmin()) {
-		$info_list[] = [
-			'<nobr>Want extra help?</nobr>', 'Not sure what something does?  Just float your cursor over it!  That should cause a popup to appear that will help you.  Still lost?  Then just <a href="/contact.php">Contact Us</a> and we\'ll help you get connected with our community!',
-		];
-	}
-	
-	if($this->isUserAdmin()) {
-		$info_list[] = [
-			'<span>Replicate?</span>',
-			'<span><button id="ReplicateLastAddedOptions" value="Replicate Last Added Options">Replicate Last Added Options</button></span>',
-		];
-
-	} else {
-		$info_list[] = [
-			'<span title="This is for copying over some of the options from the last time you edited, namely, Source and Association.">Replicate?</span>',
-			'<span title="This is for copying over some of the options from the last time you edited, namely, Source and Association."><button id="ReplicateLastAddedOptions" value="Replicate Last Added Options">Replicate Last Added Options</button></span>',
-		];
-	}
-	
-	$version_list_display_args = [
-		'options'=>[
-			'tableheaders'=>0,
-			'tableclass'=>'width-70percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-			'rowclass'=>'border-1px horizontal-left',
-			'cellclass'=>[
-				'border-1px vertical-top',
-				'border-1px width-100percent vertical-top',
-			],
-		],
-		'list'=>$info_list,
-	];
-	$generic_list->Display($version_list_display_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	print('<script type="text/javascript">');
-	print('var ReplicateLastAddedOptions = ');
-	print(json_encode($last_added_entry));
-	print(';');
-	print('</script>');
-	
-			// Display Admin Errors
-		
-		// -------------------------------------------------------------
-	
-	$error_header_displayed = 0;
-	
-	if($this->authentication_object->CheckAuthenticationForCurrentObject_IsAdmin() && count($this->admin_errors))
-	{
-		$error_header_displayed = 1;
-		$divider->displaystart($divider_padding_start_args);
-		
-		$version_list_display_args = [
-			'options'=>[
-				'tableheaders'=>0,
-				'tableclass'=>'width-50percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-				'rowclass'=>'border-1px horizontal-left',
-				'cellclass'=>[
-					'border-1px vertical-top horizontal-center font-size-150percent',
-					'border-1px width-100percent vertical-top horizontal-center',
-				],
-			],
-			'list'=>[
-				[
-					'There was an error with your submission.',
-				],
-			],
-		];
-		$generic_list->Display($version_list_display_args);
-		
-		$divider->displayend($divider_end_args);
-		
-		foreach($this->admin_errors_display as $admin_error_to_display) {
-			$divider->displaystart($divider_padding_start_args);
-			
-			$version_list_display_args = [
-				'options'=>[
-					'tableheaders'=>0,
-					'tableclass'=>'width-70percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-					'rowclass'=>'border-1px horizontal-left',
-					'cellclass'=>[
-						'border-1px vertical-top',
-						'border-1px width-100percent vertical-top',
-					],
-				],
-				'list'=>$admin_error_to_display,
-			];
-			$generic_list->Display($version_list_display_args);
-			
-			$divider->displayend($divider_end_args);
-		}
-	}
-	
-			// Display Errors
-		
-		// -------------------------------------------------------------
-	
-	if(count($this->errors)) {
-		if(!$error_header_displayed) {
-			$divider->displaystart($divider_padding_start_args);
-			
-			$version_list_display_args = [
-				'options'=>[
-					'tableheaders'=>0,
-					'tableclass'=>'width-50percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-					'rowclass'=>'border-1px horizontal-left',
-					'cellclass'=>[
-						'border-1px vertical-top horizontal-center font-size-150percent',
-						'border-1px width-100percent vertical-top horizontal-center',
-					],
-				],
-				'list'=>[
-					[
-						'There was an error with your submission.',
-					],
-				],
-			];
-			$generic_list->Display($version_list_display_args);
-			
-			$divider->displayend($divider_end_args);
-		}
-		
-		foreach($this->errors_display as $error_to_display) {
-			$divider->displaystart($divider_padding_start_args);
-			
-			$version_list_display_args = [
-				'options'=>[
-					'tableheaders'=>0,
-					'tableclass'=>'width-70percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-					'rowclass'=>'border-1px horizontal-left',
-					'cellclass'=>[
-						'border-1px vertical-top',
-						'border-1px width-100percent vertical-top',
-					],
-				],
-				'list'=>$error_to_display,
-			];
-			$generic_list->Display($version_list_display_args);
-			
-			$divider->displayend($divider_end_args);
-		}
-	}
+	ggreq('modules/html/modify-notices.php');
+	$modifynotices = new module_modifynotices([
+		'that'=>$this,
+		'padded'=>TRUE,
+		'adding'=>TRUE,
+	]);
+	$modifynotices->DisplayEntryInfo();
+	$modifynotices->DisplayErrors();
 	
 	if(count($this->admin_errors) || count($this->errors)) {
 				// Display Form Elements : Start
