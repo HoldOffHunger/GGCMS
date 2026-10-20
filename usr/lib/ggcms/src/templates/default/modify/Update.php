@@ -5,27 +5,23 @@
 		
 		// -------------------------------------------------------------
 
-	require(GGCMS_DIR . 'modules/spacing.php');
+	ggreq('modules/spacing.php');
 	
-	require(GGCMS_DIR . 'modules/html/text.php');
-	$text = new module_text;
+	ggreq('modules/html/text.php');
 	
-	require(GGCMS_DIR . 'modules/html/form.php');
+	ggreq('modules/html/form.php');
 	$form = new module_form;
 	
-	require(GGCMS_DIR . 'modules/html/divider.php');
+	ggreq('modules/html/divider.php');
 	$divider = new module_divider;
 	
-	require(GGCMS_DIR . 'modules/html/table.php');
-	$table = new module_table;
+	ggreq('modules/html/table.php');
 	
-	require(GGCMS_DIR . 'modules/html/list/generic.php');
-	$generic_list = new module_genericlist;
+	ggreq('modules/html/list/generic.php');
 	
-	require(GGCMS_DIR . 'modules/html/header.php');
-	$header = new module_header;
+	ggreq('modules/html/header.php');
 	
-	require(GGCMS_DIR . 'modules/html/navigation.php');
+	ggreq('modules/html/navigation.php');
 	$navigation_args = [
 		'globals'=>$this->handler->globals,
 		'languageobject'=>$this->language_object,
@@ -38,8 +34,8 @@
 		
 		// -------------------------------------------------------------
 	
-	require(GGCMS_DIR . 'modules/html/entry-header.php');
-	require(GGCMS_DIR . 'modules/html/entry-index-header.php');
+	ggreq('modules/html/entry-header.php');
+	ggreq('modules/html/entry-index-header.php');
 	$entryindexheader = new module_entryindexheader([
 		'that'=>$this,
 		'main_text'=>(!empty($this->saveattemptresults) ? 'Updated!' : 'Update result') . ' &mdash; ' . $this->entry['Title'],
@@ -59,7 +55,7 @@
 			
 			// -------------------------------------------------------------
 			
-		require(GGCMS_DIR . 'modules/html/breadcrumbs.php');
+		ggreq('modules/html/breadcrumbs.php');
 		$breadcrumbs = new module_breadcrumbs([
 			'that'=>$this,
 			'subpage'=>!empty($this->saveattemptresults) ? 'Updated Entry' : 'Update Result',
@@ -70,7 +66,7 @@
 			
 			// -------------------------------------------------------------
 			
-		require(GGCMS_DIR . 'modules/html/auth.php');
+		ggreq('modules/html/auth.php');
 		$auth = new module_auth(['that'=>$this, 'noredirect'=>TRUE]);
 		$auth->Display();
 		
@@ -100,22 +96,14 @@
 	$errors = new module_modifyerrors(['that'=>$this, 'unpadded'=>TRUE]);
 	$errors->Display();
 	
-			// Display Form Elements : Start
+			// Display Form Elements
 		
 		// -------------------------------------------------------------
 	
-	$divider_padding_start_args = array(
-		'class'=>'horizontal-center width-80percent margin-top-5px border-2px',
-	);
+	$divider->displaystart(['class'=>'horizontal-center width-80percent margin-top-5px border-2px']);
 	
-	$divider->displaystart($divider_padding_start_args);
-	
-			// Display Form Save Results
-		
-		// -------------------------------------------------------------
-	
-	if($this->saveattemptresults)
-	{
+			// what was written, when it was; the form again, when it was not
+	if($this->saveattemptresults) {
 		ggreq('modules/html/modify-results.php');
 		$results = new module_modifyresults([
 			'that'=>$this,
@@ -123,29 +111,8 @@
 			'imagetranslations'=>TRUE,
 			'eventdescriptions'=>TRUE,
 		]);
-		
 		$results->Display();
-	}
-	else
-	
-			// Re-Display Form
-		
-		// -------------------------------------------------------------
-	
-	{
-		$start_form_args = [
-			'action'=>0,
-			'method'=>'post',
-			'files'=>1,
-			'formclass'=>'margin-0px',
-		];
-		
-		$form->StartForm($start_form_args);
-		
-				// Display Form Elements : Standard Elements
-			
-			// -------------------------------------------------------------
-		
+	} else {
 		ggreq('modules/html/modify-fields.php');
 		$fields = new module_modifyfields([
 			'that'=>$this,
@@ -218,6 +185,13 @@
 			],
 		]);
 		
+		$form->StartForm([
+			'action'=>0,
+			'method'=>'post',
+			'files'=>1,
+			'formclass'=>'margin-0px',
+		]);
+		
 		$fields->Display();
 	}
 	
@@ -225,18 +199,10 @@
 		
 		// -------------------------------------------------------------
 	
-	$end_form_args = [
-	];
-	$form->EndForm($end_form_args);
+	$form->EndForm([]);
+	$divider->displayend([]);
 	
-	$divider_end_args = [
-	];
-	$divider->displayend($divider_end_args);
-	
-	$bottom_navigation_args = [
-		'thispage'=>'Update',
-	];
-	$navigation->DisplayBottomNavigation($bottom_navigation_args);
+	$navigation->DisplayBottomNavigation(['thispage'=>'Update']);
 	
 	print('</div>');
 	

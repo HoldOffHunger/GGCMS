@@ -8,7 +8,6 @@
 	ggreq('modules/spacing.php');
 	
 	ggreq('modules/html/text.php');
-	$text = new module_text;
 	
 	ggreq('modules/html/form.php');
 	$form = new module_form;
@@ -17,13 +16,10 @@
 	$divider = new module_divider;
 	
 	ggreq('modules/html/table.php');
-	$table = new module_table;
 	
 	ggreq('modules/html/list/generic.php');
-	$generic_list = new module_genericlist;
 	
 	ggreq('modules/html/header.php');
-	$header = new module_header;
 	
 	ggreq('modules/html/navigation.php');
 	$navigation_args = [
@@ -164,18 +160,10 @@
 		
 		// -------------------------------------------------------------
 	
-	$end_form_args = [
-	];
-	$form->EndForm($end_form_args);
+	$form->EndForm([]);
+	$divider->displayend([]);
 	
-	$divider_end_args = [
-	];
-	$divider->displayend($divider_end_args);
-	
-	$bottom_navigation_args = [
-		'thispage'=>'Edit',
-	];
-	$navigation->DisplayBottomNavigation($bottom_navigation_args);
+	$navigation->DisplayBottomNavigation(['thispage'=>'Edit']);
 	
 	print('</div>');
 	
