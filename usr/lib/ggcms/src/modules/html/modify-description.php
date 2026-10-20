@@ -7,7 +7,8 @@
 			source and its language.
 
 			Quotes are entered the same way and extend this
-			(modify-quote.php), changing only the names below.
+			(modify-quote.php), changing only the names below and
+			$blank_maxlength, whether the blank row's text has a maxlength.
 		*/
 
 	class module_modifydescription extends module_modifyrecords {
@@ -16,6 +17,7 @@
 		public $prefix = 'description';
 		public $slug = 'description';
 		public $add_label = 'Add Description';
+		public $blank_maxlength = FALSE;
 
 		public function Records() {
 			return $this->that->{$this->records_name};
@@ -48,6 +50,9 @@
 
 			if($row) {
 				$text_args['value'] = $record[$this->text_name];
+			}
+
+			if($row || ($mode === 'blank' && $this->blank_maxlength)) {
 				$text_args['maxlength'] = 512;
 			}
 
