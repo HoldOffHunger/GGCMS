@@ -61,6 +61,8 @@
 		public function DisplayRow($args) {
 			parent::DisplayRow($args);
 
+	//		print('<input type="hidden" id="image_index-adjustment-' . $this->index . '" name="image_index-adjustment[]" value="0" />');
+
 			$this->index++;
 
 			return TRUE;
