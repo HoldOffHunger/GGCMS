@@ -678,6 +678,9 @@
 		ggreq('modules/html/modify-entry-translation.php');
 		$modifyentrytranslation = new module_modifyentrytranslation(['that'=>$this]);
 		
+		ggreq('modules/html/modify-image-translation.php');
+		$modifyimagetranslation = new module_modifyimagetranslation(['that'=>$this]);
+		
 		$this->displayAssociationTypes();
 		$this->displayAssociationSubTypes();
 		$elements = $this->modifiableRecordTypes();
@@ -1262,6 +1265,11 @@ print('File : ');
 					
 					break;
 				
+				case 'Image Translation':
+					$modifyimagetranslation->Display();
+					
+					break;
+					
 				case 'Tag':
 					$modifytag->Display();
 					
