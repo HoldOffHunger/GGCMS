@@ -687,6 +687,9 @@
 		ggreq('modules/html/modify-event-date.php');
 		$modifyeventdate = new module_modifyeventdate(['that'=>$this]);
 		
+		ggreq('modules/html/modify-definition.php');
+		$modifydefinition = new module_modifydefinition(['that'=>$this]);
+		
 		$this->displayAssociationTypes();
 		$this->displayAssociationSubTypes();
 		$elements = $this->modifiableRecordTypes();
@@ -969,6 +972,11 @@ print('<br>');
 					
 					break;
 
+				case 'Definition':
+					$modifydefinition->Display();
+					
+					break;
+					
 				case 'Publish':
 					
 					print('<input type="checkbox" name="Publish" value="1"');
