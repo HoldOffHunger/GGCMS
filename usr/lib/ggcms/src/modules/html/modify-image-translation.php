@@ -6,10 +6,8 @@
 			An entry's image translations on a modify.php form: the title,
 			file name, description and language.
 
-			As Edit always printed them: the blank row's button reads Add
-			Image, and the hidden row's language is named
-			imagetranslation_Language[], not -Hidden, so it is submitted
-			with the real rows.
+			As Edit always printed them, the blank row's button reads Add
+			Image.
 		*/
 
 	class module_modifyimagetranslation extends module_modifyrecords {
@@ -59,21 +57,10 @@
 			return TRUE;
 		}
 
-			// Edit, Save and Update have always named the hidden row's
-			// language [], not -Hidden, so the hidden row sends one and
-			// each added translation's language arrives one place late.
-			// Add never did, and does not now.
-
 		public function DisplayLanguageSelect($args) {
-			$name = 'imagetranslation_Language[]';
-
-			if($this->adding) {
-				$name = $this->Name(['name'=>'imagetranslation_Language', 'mode'=>$args['mode']]);
-			}
-
 			$this->form->DisplayFormField([
 				'type'=>'select',
-				'name'=>$name,
+				'name'=>$this->Name(['name'=>'imagetranslation_Language', 'mode'=>$args['mode']]),
 				'options'=>$this->that->SelectableLanguages,
 				'selected'=>$this->Language($args),
 			]);
