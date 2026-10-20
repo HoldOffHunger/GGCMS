@@ -46,6 +46,9 @@
 			return $this->that->link;
 		}
 
+			// Accepts()
+			// Tests: ModifyLinkTest::testAccepts()
+			// Test file: tests/src/modules/html/ModifyLinkTest.php
 		public function Accepts($args) {
 			$link = $args['value'];
 

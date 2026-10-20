@@ -130,6 +130,9 @@
 			return TRUE;
 		}
 
+			// DisplayField()
+			// Tests: ModifyFieldsTest::testDisplayField()
+			// Test file: tests/src/modules/html/ModifyFieldsTest.php
 			// Save and Update's association rows lean on whether the tag rows printed any; see modify-association.php
 		public function DisplayField($args) {
 			$element = $args['element'];

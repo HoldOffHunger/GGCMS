@@ -175,6 +175,9 @@
 			return NULL;
 		}
 
+			// Lines()
+			// Tests: ModifyResultsTest::testLines()
+			// Test file: tests/src/modules/html/ModifyResultsTest.php
 			// the lines, one under the other, or N/A when there are none
 		public function Lines($args) {
 			if(count($args['lines'])) {
@@ -296,6 +299,9 @@
 			return $this->Lines(['lines'=>$lines]);
 		}
 
+			// EventDateBrackets()
+			// Tests: ModifyResultsTest::testEventDateBrackets()
+			// Test file: tests/src/modules/html/ModifyResultsTest.php
 		public function EventDateBrackets($args) {
 			$eventdate = $args['eventdate'];
 
@@ -312,6 +318,9 @@
 			return ' (' . implode(' ~ ', $parts) . ')';
 		}
 
+			// Associations()
+			// Tests: ModifyResultsTest::testAssociations()
+			// Test file: tests/src/modules/html/ModifyResultsTest.php
 		public function Associations() {
 			$lines = [];
 
@@ -326,6 +335,9 @@
 			return $this->Lines(['lines'=>$lines]);
 		}
 
+			// Definitions()
+			// Tests: ModifyResultsTest::testDefinitions()
+			// Test file: tests/src/modules/html/ModifyResultsTest.php
 		public function Definitions() {
 			$lines = [];
 

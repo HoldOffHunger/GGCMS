@@ -53,6 +53,9 @@
 			return $args['value'] && strlen($args['value']['ChosenEntryid']);
 		}
 
+			// Follows()
+			// Tests: ModifyAssociationTest::testFollows()
+			// Test file: tests/src/modules/html/ModifyAssociationTest.php
 		public function Follows() {
 			return $this->followtags ? $this->tagsdisplayed : $this->displayed;
 		}

@@ -118,6 +118,9 @@
 			// Data
 			// -------------------------------------------------
 
+			// Approximate()
+			// Tests: ModifyEventDateTest::testApproximate()
+			// Test file: tests/src/modules/html/ModifyEventDateTest.php
 		public function Approximate($args) {
 			if($args['row'] === 'value') {
 				return $args['value']['Approximate'];

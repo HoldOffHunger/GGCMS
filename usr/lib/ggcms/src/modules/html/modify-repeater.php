@@ -43,6 +43,9 @@
 			$this->divider = new module_divider;
 		}
 
+			// Display()
+			// Tests: ModifyRepeaterTest::testDisplay(), ModifyRepeaterTest::testDisplayBlank()
+			// Test file: tests/src/modules/html/ModifyRepeaterTest.php
 		public function Display() {
 			$this->displayed = 0;
 
@@ -160,6 +163,9 @@
 			return $this->displayed;
 		}
 
+			// Name()
+			// Tests: ModifyRepeaterTest::testName()
+			// Test file: tests/src/modules/html/ModifyRepeaterTest.php
 			// the input's name on this row: Name[] on a value or blank row, Name-Hidden on the hidden one
 		public function Name($args) {
 			return $args['name'] . ($args['row'] === 'hidden' ? '-Hidden' : '[]');
