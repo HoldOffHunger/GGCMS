@@ -79,46 +79,9 @@
 		
 		// -------------------------------------------------------------
 	
-	print('<center><div style="width:70%;">');
-	print('<table style="width:100%;" class="border-2px background-color-gray13 margin-top-5px">');
-
-	print('<tbody><tr class="border-1px horizontal-left">');
-
-	print('<td class="border-1px vertical-top">');
-
-	print('<nobr>Adding Entry To:</nobr>');
-
-	print('</td>');
-
-	print('<td class="border-1px width-100percent vertical-top">');
-
-	print($this->GetHyperlinkedEntryView([
-		'entry'=>$this->parent,
-		'entrylist'=>$this->record_list,
-	]));
-
-	print('</td>');
-
-	print('</tr>');
-
-	print('<tr class="border-1px horizontal-left">');
-
-	print('<td class="border-1px vertical-top">');
-
-	print('<nbr>Status:');
-
-	print('</nbr></td>');
-
-	print('<td class="border-1px width-100percent vertical-top">');
-	
-	print($this->save_status);
-	
-	print('</td>');
-
-	print('</tr>');
-
-	print('</tbody></table>');
-	print('</div></center>');
+	ggreq('modules/html/modify-save-status.php');
+	$save_status = new module_modifysavestatus(['that'=>$this, 'adding'=>TRUE]);
+	$save_status->Display();
 	
 			// Display Errors
 		
