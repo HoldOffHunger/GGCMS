@@ -41,19 +41,11 @@
 		// -------------------------------------------------------------
 	
 	$div_mouseover = '';
-	$image_mouseover = '';
 	
 	if($this->entry['quote'] && $this->entry['quote'][0]) {
 		$random_quote = $this->entry['quote'][array_rand($this->entry['quote'], 1)];
 		
 		$div_mouseover = '&quot;' . str_replace('"', '\'', $random_quote['Quote']) . '&quot; -- ' . str_replace('"', '\'', $random_quote['Source']);
-	}
-	
-	if($this->entry['description'] && $this->entry['description'][0])
-	{
-		$description = $this->entry['description'][0];
-		
-		$image_mouseover = str_replace('"', '\'', $description['Description']);
 	}
 	
 			// Display Header
@@ -684,44 +676,9 @@
 		
 		// -------------------------------------------------------------
 	
-	ggreq('modules/html/socialmediasharelinks.php');
-	$social_media_share_links_args = [
-		'globals'=>$this->handler->globals,
-		'textonly'=>$this->mobile_friendly,
-		'languageobject'=>$this->language_object,
-		'divider'=>$divider,
-		'domainobject'=>$this->domain_object,
-		'socialmedia'=>$this->social_media,
-		'sharewithtext'=>'Share With',
-		'socialmediasharelinkargs'=>[
-			'url'=>$this->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>1, 'www'=>1]) . '/anarchism.php?action=index',
-			'title'=>$this->header_title_text,
-			'desc'=>$image_mouseover,
-			'provider'=>$this->domain_object->primary_domain_lowercased,
-		],
-	];
-	$social_media_share_links = new module_socialmediasharelinks($social_media_share_links_args);
-		
-				// Display Social Networking Options
-			
-			// -------------------------------------------------------------
-	
-	$social_media_share_links->display();
-		
-				// Finish Textbody Header
-			
-			// -------------------------------------------------------------
-	
-	$clear_float_divider_start_args = [
-		'class'=>'clear-float',
-	];
-	
-	$divider->displaystart($clear_float_divider_start_args);
-	
-	$clear_float_divider_end_args = [
-	];
-	
-	$divider->displayend($clear_float_divider_end_args);
+	ggreq('modules/html/index-share.php');
+	$index_share = new module_indexshare(['that'=>$this]);
+	$index_share->Display();
 			
 			// Debug
 		
