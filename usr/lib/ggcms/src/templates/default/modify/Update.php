@@ -38,43 +38,14 @@
 		
 		// -------------------------------------------------------------
 	
-	require(GGCMS_DIR . 'modules/html/entry-header.php');
-	require(GGCMS_DIR . 'modules/html/entry-index-header.php');
-	$entryindexheader = new module_entryindexheader([
+	ggreq('modules/html/modify-header.php');
+	$modifyheader = new module_modifyheader([
 		'that'=>$this,
-		'main_text'=>(!empty($this->saveattemptresults) ? 'Updated!' : 'Update result') . ' &mdash; ' . $this->entry['Title'],
-		'sub_text'=>'',
+		'heading'=>!empty($this->saveattemptresults) ? 'Updated!' : 'Update result',
+		'subpage'=>!empty($this->saveattemptresults) ? 'Updated Entry' : 'Update Result',
 	]);
-	
-	$entryindexheader->Display();
-	
-		
-				// Start Top Bar
-			
-			// -------------------------------------------------------------
-		
-		print('<div class="horizontal-center margin-top-5px" style="width:100%;">');
-		
-				// Breadcrumbs Info
-			
-			// -------------------------------------------------------------
-			
-		require(GGCMS_DIR . 'modules/html/breadcrumbs.php');
-		$breadcrumbs = new module_breadcrumbs([
-			'that'=>$this,
-			'subpage'=>!empty($this->saveattemptresults) ? 'Updated Entry' : 'Update Result',
-		]);
-		$breadcrumbs->Display();
-		
-				// Login Info
-			
-			// -------------------------------------------------------------
-			
-		require(GGCMS_DIR . 'modules/html/auth.php');
-		$auth = new module_auth(['that'=>$this, 'noredirect'=>TRUE]);
-		$auth->Display();
-		
-		print('<div class="clear-float"></div>');
+	$modifyheader->Display();
+
 		
 			// Display Parent Record Info
 		

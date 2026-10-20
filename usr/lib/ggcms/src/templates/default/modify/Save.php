@@ -38,42 +38,14 @@
 		
 		// -------------------------------------------------------------
 	
-	ggreq('modules/html/entry-header.php');
-	ggreq('modules/html/entry-index-header.php');
-	$entryindexheader = new module_entryindexheader([
+	ggreq('modules/html/modify-header.php');
+	$modifyheader = new module_modifyheader([
 		'that'=>$this,
-		'main_text'=>(!empty($this->saveattemptresults) ? 'Saved!' : 'Save result') . ' &mdash; ' . $this->entry['Title'],
-		'sub_text'=>'',
+		'heading'=>!empty($this->saveattemptresults) ? 'Saved!' : 'Save result',
+		'subpage'=>!empty($this->saveattemptresults) ? 'Saved Entry' : 'Save Result',
 	]);
-	
-	$entryindexheader->Display();
-		
-				// Start Top Bar
-			
-			// -------------------------------------------------------------
-		
-		print('<div class="horizontal-center margin-top-5px" style="width:100%;">');
-		
-				// Breadcrumbs Info
-			
-			// -------------------------------------------------------------
-			
-		ggreq('modules/html/breadcrumbs.php');
-		$breadcrumbs = new module_breadcrumbs([
-			'that'=>$this,
-			'subpage'=>!empty($this->saveattemptresults) ? 'Saved Entry' : 'Save Result',
-		]);
-		$breadcrumbs->Display();
-		
-				// Login Info
-			
-			// -------------------------------------------------------------
-			
-		ggreq('modules/html/auth.php');
-		$auth = new module_auth(['that'=>$this, 'noredirect'=>TRUE]);
-		$auth->Display();
-		
-		print('<div class="clear-float"></div>');
+	$modifyheader->Display();
+
 	
 			// Display Parent Record Info
 		

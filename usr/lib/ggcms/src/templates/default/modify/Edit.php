@@ -38,15 +38,13 @@
 		
 		// -------------------------------------------------------------
 	
-	ggreq('modules/html/entry-header.php');
-	ggreq('modules/html/entry-index-header.php');
-	$entryindexheader = new module_entryindexheader([
+	ggreq('modules/html/modify-header.php');
+	$modifyheader = new module_modifyheader([
 		'that'=>$this,
-		'main_text'=>'Editing &mdash; ' . $this->entry['Title'],
-		'sub_text'=>'',
+		'heading'=>'Editing',
+		'subpage'=>'Edit Entry',
 	]);
-	
-	$entryindexheader->Display();
+	$modifyheader->Display();
 
 
 /*
@@ -64,33 +62,6 @@
 	
 	$divider_end_args = [
 	];
-		
-				// Start Top Bar
-			
-			// -------------------------------------------------------------
-		
-		print('<div class="horizontal-center margin-top-5px" style="width:100%;">');
-		
-				// Breadcrumbs Info
-			
-			// -------------------------------------------------------------
-			
-		ggreq('modules/html/breadcrumbs.php');
-		$breadcrumbs = new module_breadcrumbs([
-			'that'=>$this,
-			'subpage'=>'Edit Entry',
-		]);
-		$breadcrumbs->Display();
-		
-				// Login Info
-			
-			// -------------------------------------------------------------
-			
-		ggreq('modules/html/auth.php');
-		$auth = new module_auth(['that'=>$this, 'noredirect'=>TRUE]);
-		$auth->Display();
-		
-		print('<div class="clear-float"></div>');
 	
 			// Display Parent Record Info
 		
