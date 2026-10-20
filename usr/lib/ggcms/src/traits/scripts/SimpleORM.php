@@ -716,7 +716,13 @@
 				
 				if($association_count) {
 					for($i = 0; $i < $association_count; $i++) {
-						$this->entry['association'][$i]['entry'] = $this->GetRecordAndChildren(['entry'=>['id'=>$this->entry['association'][$i]['ChosenEntryid']]])[0];
+						$chosen_entry = $this->GetRecordAndChildren(['entry'=>['id'=>$this->entry['association'][$i]['ChosenEntryid']]])[0];
+
+						if(!$chosen_entry) {
+							continue;	# chosen entry deleted; left without an 'entry', as SetAssociationRecordsForEntries() does
+						}
+
+						$this->entry['association'][$i]['entry'] = $chosen_entry;
 						$this->entry['association'][$i]['entry']['parents'] = $this->GetEntryParents(['entry'=>['id'=>$this->entry['association'][$i]['ChosenEntryid']]])['parents'];
 					}
 				}
@@ -3514,6 +3520,14 @@
 			return $this->orm->DeleteAssignment($delete_assignment_args);
 		}
 		
+		public function DeleteChosenAssociations() {
+			$delete_chosen_associations_args = [
+				'entry'=>$this->entry,
+			];
+
+			return $this->orm->DeleteChosenAssociations($delete_chosen_associations_args);
+		}
+
 		public function DeleteRecordTree($args) {
 			return $this->orm->DeleteRecordTree($args);
 		}

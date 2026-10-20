@@ -682,6 +682,18 @@
 		public function GetEntryParents_SortRecords($args) {
 			$entry = $args['entry'];
 			$parents = $args['parents'];
+
+				/*
+					No row at all means the entry has no Assignment -- deleted, or
+					never placed.  An association left pointing at a deleted entry
+					lands here, and count(null) is a fatal in PHP 8, so one stale
+					row took down every page that loaded it.
+				*/
+
+			if(!is_array($parents)) {
+				return [$entry];
+			}
+
 			$parents_count = count($parents);
 			
 			$parent_objects = [];
@@ -2623,6 +2635,33 @@
 			return $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
 		}
 		
+		/*
+			An Association row belongs to the entry that made it (Entryid), so
+			DeleteChildRecordsForUpdate() takes those away with the entry.  The
+			rows other entries made pointing AT this one (ChosenEntryid) stayed
+			behind.
+
+			Not harmless, unlike an orphaned Assignment: the other entry still
+			loads the association, asks for the parents of an entry that has
+			no Assignment any more, and its Edit form fataled on count(null).
+		*/
+
+		public function DeleteChosenAssociations($args) {
+			$entry = $args['entry'];
+
+			$sql = 'DELETE FROM Association WHERE ChosenEntryid = ?;';
+			$sql_bind_string = 'i';
+			$record_values = [$entry['id']];
+
+			$fill_arrays_from_db_args = [
+				'query'=>$sql,
+				'sqlbindstring'=>$sql_bind_string,
+				'recordvalues'=>$record_values,
+			];
+
+			return $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
+		}
+
 		public function DeleteChildRecords($args) {
 			$entry = $args['parent'];
 			$record_type = $args['recordtype'];

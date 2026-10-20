@@ -365,6 +365,13 @@
 					$this->save_status = 'Delete incomplete: the entry was deleted, but its assignment could not be deleted.';
 					return TRUE;
 				}
+
+				$delete_chosen_associations_results = $this->DeleteChosenAssociations();
+				if(!empty($delete_chosen_associations_results['line'])) {
+					$this->saveattemptresults = FALSE;
+					$this->save_status = 'Delete incomplete: the entry was deleted, but associations other entries made to it could not be deleted.';
+					return TRUE;
+				}
 				
 				$this->save_status = 'Delete successful.  The information deleted is available below as a confirmation of what was deleted.';
 				$this->saveattemptresults = TRUE;
