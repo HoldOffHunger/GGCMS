@@ -95,83 +95,10 @@
 			// Display Parent Record Info
 		
 		// -------------------------------------------------------------
-		
-	$divider->displaystart($divider_padding_start_args);
 	
-	$info_list = [
-			[
-				'<nobr>Updating Entry:</nobr>', $this->GetHyperlinkedEntryView(['entry'=>$this->entry, 'entrylist'=>$this->record_list]),],
-			[
-				'<nobr>Updating Entry ID:</nobr>', $this->entry['id'],
-			],
-		];
-	
-	$last_edited_entry = $this->last_edited_entry;
-	
-	if($last_edited_entry && $last_edited_entry['id'])
-	{
-		$last_edited_entry_url = '<a href="' . $last_edited_entry['Code'] . '/view.php">' . $last_edited_entry['Title'];
-		if($last_edited_entry['Subtitle']) {
-			$last_edited_entry_url .= ' : ' . $last_edited_entry['Subtitle'];
-		}
-		$last_edited_entry_url .= '</a>';
-		
-		$info_list[] = [
-			'<nobr>Last Edited Entry:</nobr>', $last_edited_entry_url,
-		];
-	}
-	
-	$last_edited_entry = $this->last_unpublished_add;
-	
-	if($last_edited_entry && $last_edited_entry['id'])
-	{
-		$last_edited_entry_url = '<a href="' . $last_edited_entry['Code'] . '/view.php">' . $last_edited_entry['Title'];
-		if($last_edited_entry['Subtitle']) {
-			$last_edited_entry_url .= ' : ' . $last_edited_entry['Subtitle'];
-		}
-		$last_edited_entry_url .= '</a>';
-		
-		$info_list[] = [
-			'<nobr>Last Unpublished Add:</nobr>', $last_edited_entry_url,
-		];
-	}
-	
-	$last_edited_entry = $this->last_unpublished_edit;
-	
-	if($last_edited_entry && $last_edited_entry['id'])
-	{
-		$last_edited_entry_url = '<a href="' . $last_edited_entry['Code'] . '/view.php">' . $last_edited_entry['Title'];
-		if($last_edited_entry['Subtitle']) {
-			$last_edited_entry_url .= ' : ' . $last_edited_entry['Subtitle'];
-		}
-		$last_edited_entry_url .= '</a>';
-		
-		$info_list[] = [
-			'<nobr>Last Unpublished Edit:</nobr>', $last_edited_entry_url,
-		];
-	}
-	
-	if(!$this->isUserAdmin()) {
-		$info_list[] = [
-			'<nobr>Want extra help?</nobr>', 'Not sure what something does?  Just float your cursor over it!  That should cause a popup to appear that will help you.  Still lost?  Then just <a href="/contact.php">Contact Us</a> and we\'ll help you get connected with our community!',
-		];
-	}
-	
-	$version_list_display_args = [
-		'options'=>[
-			'tableheaders'=>0,
-			'tableclass'=>'width-70percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-			'rowclass'=>'border-1px horizontal-left',
-			'cellclass'=>[
-				'border-1px vertical-top',
-				'border-1px width-100percent vertical-top',
-			],
-		],
-		'list'=>$info_list,
-	];
-	$generic_list->Display($version_list_display_args);
-	
-	$divider->displayend($divider_end_args);
+	ggreq('modules/html/modify-entry-summary.php');
+	$entry_summary = new module_modifyentrysummary(['that'=>$this]);
+	$entry_summary->Display();
 	
 			// Display Master Record Instructions
 		
