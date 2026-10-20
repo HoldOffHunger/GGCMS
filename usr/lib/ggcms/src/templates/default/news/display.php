@@ -30,9 +30,6 @@
 		ggreq('modules/html/entry-quote.php');
 		$entry_quotes = new module_entryquotes(['that'=>$this]);
 		
-		ggreq('modules/html/entry-sort.php');
-		$entrysort = new module_entrysort(['that'=>$this]);
-		
 				// Timeframe and Header
 			
 			// -------------------------------------------------------------
@@ -48,23 +45,8 @@
 			
 			// -------------------------------------------------------------
 	
-		ggreq('modules/html/text.php');
-		$text = new module_text;
-		
-		ggreq('modules/html/form.php');
-		$form = new module_form;
-		
 		ggreq('modules/html/divider.php');
 		$divider = new module_divider;
-		
-		ggreq('modules/html/table.php');
-		$table = new module_table;
-		
-		ggreq('modules/html/list/generic.php');
-		$generic_list = new module_genericlist;
-		
-		ggreq('modules/html/header.php');
-		$header = new module_header;
 		
 		ggreq('modules/html/navigation.php');
 		$navigation_args = [
@@ -115,65 +97,13 @@
 			
 		$entry_quotes->Display(['max'=>1, 'header'=>'']);
 		
-		print('<div class="horizontal-center width-95percent">');
-		
-		print('<div class="border-2px background-color-gray15 margin-5px float-left">');
-		print('<h2 class="horizontal-left margin-5px font-family-arial">');
-		print('New Items');
-		print('</h2>');
-		print('</div>');
-		
-		print('<div class="border-2px background-color-gray15 margin-5px float-right">');
-		
-		print('<p style="margin:5px;padding:0px;font-family:\'arial\', \'tahoma\';">');
-		
-		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=20">');
-		print('20 Items');
-		print('</a>');
-		
-		print(' | ');
-		
-		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=50">');
-		print('50 Items');
-		print('</a>');
-		
-		print(' | ');
-		
-		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=100">');
-		print('100 Items');
-		print('</a>');
-		
-		print(' | ');
-		
-		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=500">');
-		print('500 Items');
-		print('</a>');
-		
-		print(' | ');
-		
-		print('<a href="' . $this->domain_object->GetPrimaryDomain(['lowercase'=>1, 'www'=>1]) . '/news.php?items=1000">');
-		print('1,000 Items');
-		print('</a>');
-		
-		print('</p>');
-		
-	#	print('<h2 class="horizontal-left margin-5px font-family-arial">');
-	#	print('New Items');
-	#	print('</h2>');
-		print('</div>');
-		
-		print('</div>');
-		
-				// Display Children
+				// Display New Items
 			
 			// -------------------------------------------------------------
-		ggreq('modules/html/entry-children.php');
-		$entry_children = new module_entrychildren(['that'=>$this, 'entrysort'=>$entrysort, 'header'=>'']);
-		$entry_children->Display_Entries([
-			'entries'=>$this->newest_entries,
-			'count'=>count($this->newest_entries),
-			'datefield'=>'OriginalCreationDate',
-		]);
+		
+		ggreq('modules/html/news-items.php');
+		$news_items = new module_newsitems(['that'=>$this]);
+		$news_items->Display();
 		
 				// DEBUG
 			
