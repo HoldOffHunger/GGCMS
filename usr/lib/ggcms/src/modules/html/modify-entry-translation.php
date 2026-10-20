@@ -6,9 +6,8 @@
 			An entry's translations on a modify.php form: the title,
 			subtitle, list title, list title sort key and language.
 
-			As Edit always printed them: the hidden row has no subtitle, so
-			a translation added with the Add button has none, and a row's
-			"List Title Sort Key: " has no space before its colon.
+			As Edit always printed them, a row's "List Title Sort Key: " has
+			no space before its colon.
 		*/
 
 	class module_modifyentrytranslation extends module_modifyrecords {
@@ -37,10 +36,6 @@
 				'ListTitle'=>'List Title : ',
 				'ListTitleSortKey'=>$mode === 'row' ? 'List Title Sort Key: ' : 'List Title Sort Key : ',
 			];
-
-			if($mode === 'hidden') {
-				unset($fields['Subtitle']);
-			}
 
 			foreach($fields as $field => $label) {
 				if($label) {
