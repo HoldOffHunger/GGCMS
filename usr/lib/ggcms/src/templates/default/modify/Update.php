@@ -125,30 +125,9 @@
 		
 		// -------------------------------------------------------------
 	
-	if(!count($this->record_list)) {
-		$divider->displaystart($divider_padding_start_args);
-		
-		$version_list_display_args = array(
-			'options'=>array(
-				'tableheaders'=>0,
-				'tableclass'=>'width-70percent horizontal-center border-2px background-color-gray13 margin-top-5px',
-				'rowclass'=>'border-1px horizontal-left',
-				'cellclass'=>array(
-					'border-1px vertical-top',
-					'border-1px width-100percent vertical-top',
-				),
-			),
-			'list'=>[
-				[
-					'<nobr>Editing Primary Entry Record:</nobr>',
-					'The Code should be the case-sensitive version of the domain URL for this host.',
-				],
-			],
-		);
-		$generic_list->Display($version_list_display_args);
-		
-		$divider->displayend($divider_end_args);
-	}
+	ggreq('modules/html/modify-master-record.php');
+	$master_record = new module_modifymasterrecord(['that'=>$this, 'unpadded'=>TRUE]);
+	$master_record->Display();
 	
 			// Display Errors
 		
