@@ -7,6 +7,26 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, October 24
+
+- A generated code that a sibling already holds is now unblocked instead of
+  refused. Pushing 13,625 quotes onto RevoltLib turned up eighteen paths that
+  two entries share. Fourteen were true copies and went, but four were
+  different works the generator had given one code, because it stops at 40 or
+  50 characters and the words that told them apart came last: Morris's
+  "Honesty is the Best Policy" parts 1 and 2, Charlotte Wilson's June and
+  September instalments, two translations of Tolstoy's "The Two Brothers and
+  the Gold", and Pannekoek's 1936 article beside his book. The URL always
+  opened the later one, so the earlier one could never be reached. Saving
+  through such a path is worse: modify.php read one twin's form and wrote it
+  over the other. Now, when the suggested code is taken, the words both titles
+  share are chopped (filler all at once, then content words, rightmost first,
+  never the first word or the one before the difference) until the first
+  differing word fits: `honesty-best-policy-inconvenience-part-1-morris-william`.
+  When no word differs ("Workers Councils" beside "Workers' Councils"), the
+  code is left alone and validation still says "already in use". A code a
+  person typed is never changed.
+
 ## 2026, October 18
 
 - Updating an entry that had associations killed modify.php partway through.

@@ -1359,7 +1359,7 @@
 			}
 			
 			if(strlen($this->entry['Code']) === 0) {		# do this last, after all the other auto-generates
-				$this->entry['Code'] = $this->GenerateEntryCode();
+				$this->entry['Code'] = $this->GenerateUnblockedEntryCode();
 			}
 			
 			return TRUE;
@@ -1821,6 +1821,32 @@
 			return $validation_results;
 		}
 		
+			/*
+				The sibling already holding a code, or FALSE -- the question
+				ValidateRecordForSaving_Entry_Code() asks, for a candidate code,
+				so GenerateUnblockedEntryCode() can ask it before validation does.
+			*/
+		public function EntryCodeHolder($args) {
+			$record_list = $this->object_list;
+
+			if($this->desired_action === 'Save') {
+				$record_list[] = $args['code'];
+			} else {
+				$record_list[count($record_list) - 1] = $args['code'];
+			}
+
+			$holders = $this->CheckRecordTree([
+				'recordlist'=>$record_list,
+				'availabilitylimit'=>1,
+			]);
+
+			if(count($holders) && $holders[count($holders) - 1]['id'] != $this->entry['id']) {
+				return $holders[count($holders) - 1];
+			}
+
+			return FALSE;
+		}
+
 		public function ValidateRecordForSaving_Entry_Code() {
 			$record_list_to_check_code = $this->object_list;
 			
@@ -2280,7 +2306,7 @@
 		#	print($this->entry['Code']);
 			if(strlen($this->entry['Code']) === 0) {
 		#		print("BT: GENERATE!!!!");
-				$this->entry['Code'] = $this->GenerateEntryCode([]);
+				$this->entry['Code'] = $this->GenerateUnblockedEntryCode();
 				if(strlen($this->entry['Code']) === 0) {
 					die ("NO CODE!");
 				}

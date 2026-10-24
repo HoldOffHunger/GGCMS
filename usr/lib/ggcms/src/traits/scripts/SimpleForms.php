@@ -286,11 +286,10 @@
 			return ucfirst($full_title_text);
 		}
 		
-		public function GenerateEntryCode() {
-			$values = [
-				$this->entry['Title'],
-				$this->entry['Subtitle'],
-			];
+		public function GenerateEntryCode($args = []) {
+			$values = isset($args['titlewords'])
+				? [implode(' ', $args['titlewords'])]		# the title and subtitle with words chopped, from GenerateUnblockedEntryCode()
+				: [$this->entry['Title'], $this->entry['Subtitle']];
 			
 			foreach($this->tag as $tag) {
 				$values[] = $tag['Tag'];
@@ -300,6 +299,91 @@
 			$values[] = $this->description[0]['Description'];
 			
 			return $this->GenerateURLCodeFromValues(['values'=>$values]);
+		}
+			
+			/*
+				A generated code that a sibling already holds, unblocked before
+				validation sees it.  The generator stops at 40 or 50 characters,
+				so two titles that differ only at the end -- "Honesty is the Best
+				Policy, Or, The Inconvenience of Stealing, Part 1" and "... Part
+				2" -- once got one code, and the second entry could never be
+				reached.  Here the words both titles share are chopped, one at a
+				time, until the first word that differs fits under the cap.  When
+				no word differs ("Workers Councils" beside "Workers' Councils"),
+				the code is left as it was and validation says "already in use",
+				as it always has.  Only a generated code is unblocked: a code a
+				person typed is theirs.
+			*/
+		public function GenerateUnblockedEntryCode() {
+			$code = $this->GenerateEntryCode();
+			
+			if(!$this->isUserAdmin()) {
+				return $code;		# a submission's code already ends in its user and the time
+			}
+			
+			$words = $this->EntryCodeWords(['text'=>$this->entry['Title'] . ' ' . $this->entry['Subtitle']]);
+			
+			while($holder = $this->EntryCodeHolder(['code'=>$code])) {
+				$chop = $this->EntryCodeWordsToChop(['words'=>$words, 'holder'=>$holder]);
+
+				if(!$chop) {
+					return $code;
+				}
+
+				foreach($chop as $index) {		# highest first, so the lower indexes stay put
+					array_splice($words, $index, 1);
+				}
+
+				$code = $this->GenerateEntryCode(['titlewords'=>$words]);
+			}
+			
+			return $code;
+		}
+			
+			/*
+				Which words to chop, as indexes into words, highest first; none
+				when nothing can go.  Every word before the first one the holder's
+				title lacks is shared.  All the shared filler goes at once, then
+				content words one at a time, rightmost first -- but never the
+				first word, which names the thing, nor the one just before the
+				difference, which keeps "part" with "1" and "by" with "r n bain".
+			*/
+		public function EntryCodeWordsToChop($args) {
+			$words = $args['words'];
+			$holder_words = array_flip($this->EntryCodeWords(['text'=>$args['holder']['Title'] . ' ' . $args['holder']['Subtitle']]));
+			
+			$difference = FALSE;
+			
+			foreach($words as $index=>$word) {
+				if(!isset($holder_words[$word])) {
+					$difference = $index;
+					break;
+				}
+			}
+			
+			if($difference === FALSE || $difference < 3) {
+				return [];		# nothing differs, or only the first two words stand before the difference
+			}
+
+			$choppable = range($difference - 2, 1);
+
+			$filler = array_values(array_filter($choppable, fn($index) => $this->isWordCommon(['word'=>$words[$index]])));
+
+			return $filler ?: [$choppable[0]];
+		}
+			
+			// A title's words as the generator writes them: lowercase, unaccented, no punctuation
+		public function EntryCodeWords($args) {
+			$value = $this->GenerateURLCodeFromValue_FormatValue(['value'=>str_replace(['—', '–'], '-', $args['text'])]);
+			$words = [];
+			
+			foreach(preg_split('/[\s]+/', $value) as $word) {
+				if(strlen($word) && $word !== '-') {
+					$words[] = preg_replace('/[\x{0300}-\x{036f}]/u', '', normalizer_normalize($word, Normalizer::FORM_D));
+				}
+			}
+			
+			return $words;
 		}
 		
 		public function GenerateURLCodeFromValues_MaxLength() {
@@ -438,7 +522,7 @@
 			$new_value = $args['value'];
 			$pieces = $args['pieces'];
 			$current_length = $args['current_length'];
-			$mode = $args['mode'];		// 'strip-leading-and-trailing-articles'
+			$mode = $args['mode'] ?? NULL;		// 'strip-leading-and-trailing-articles'
 			
 			if(strlen($new_value) === 0) {
 				return [
@@ -447,7 +531,7 @@
 				];
 			}
 				# MORE: https://www.fileformat.info/info/unicode/block/latin_supplement/index.htm
-			if($args['max_length']) {
+			if($args['max_length'] ?? NULL) {
 				$max_length = $args['max_length'];
 			} else {
 				$max_length = $this->GenerateURLCodeFromValues_MaxLength();
