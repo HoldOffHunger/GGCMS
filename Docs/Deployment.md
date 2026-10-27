@@ -68,8 +68,16 @@ It will:
    bypasses read and write permission checks but not execute. This is the cause
    of `Permission denied` followed by `sudo: command not found`.
 6. `chown -R www-data` and reset `/var/www` to 755.
-7. Flush the page cache, because changed code makes every cached page suspect.
-8. `apache2ctl configtest`, then reload Apache.
+7. `apache2ctl configtest`, then **restart** Apache, not reload. A reload
+   keeps opcache, and on 3 September 2026 that left a new file compiled against
+   an old one on live pages. The restart costs about a second of connections
+   that nginx holds anyway.
+8. Sync nginx's config from the configuration repository, and reload nginx only
+   if `nginx -t` passes.
+
+The page cache is **not** flushed. It lives under the document root, which is
+synced without `--delete`, and a deploy leaves it alone. Clear it by hand only
+when a change alters what a page renders.
 
 ## What deployment does not touch
 
