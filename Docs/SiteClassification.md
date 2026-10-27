@@ -61,6 +61,31 @@ For the same reason, classifications are set only from an explicit decision by
 the site's owner. They are not inferred from the site's name, its content, or
 its neighbours in the configuration directory.
 
+## Site shape
+
+`SiteShape()` is the companion record: what shape the site's content takes.
+It returns `'onepage'`, `'multipage'`, `'snowflake'`, `'dictionary'`, or
+`'unstated'`.
+
+- **onepage** — a tool whose whole site is one Entry record.
+- **multipage** — an ordinary tree of entries.
+- **snowflake** — many pages whose branches repeat one pattern; on a language
+  site, every language carries the same lessons for the same words. It counts
+  as multi-page.
+- **dictionary** — pages fed by the shared `dictionaries` database rather than
+  the site's own Entry table, so `/x/` is the word *x*. The site's Entry table
+  may hold a single record. It counts as multi-page.
+
+```php
+$this->handler->globals->SiteIsOnePage()
+$this->handler->globals->SiteIsMultiPage()   // TRUE for snowflake and dictionary too
+```
+
+The same rule applies as for classification: the owner decides, and
+`'unstated'` is the default. A site's Entry count is evidence for the ruling,
+not the ruling — a site can hold one Entry and serve many pages from other
+tables.
+
 ## Where the values live
 
 In the private configuration repository, in each site's `etc/ggcms/<host>.php`.
