@@ -7,6 +7,18 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, October 27
+
+- The Linux Chrome farm in human analytics is now caught whatever its build.
+  In October it sent RevoltLib about 270,000 beacon views from some 169,000
+  addresses, 34 times September's whole log. The key-press rule already
+  dropped those, but about 520 views across all sites opened with a mouse move,
+  carried Chrome 149 to 156 and a Google referrer, and slipped past the
+  Chrome 150 rule. RevoltLib's month went from 1,239 visitors to 841, its
+  bounce rate from 83.3% to 76.1%, and EarthFluent's from 339 visitors to 227.
+  1080p Linux desktop Chrome in en-US with an American timezone now counts as
+  the farm. In September that rule matched no view the older rules kept.
+
 ## 2026, October 24
 
 - A generated code that a sibling already holds is now unblocked instead of

@@ -609,8 +609,19 @@
 				  667 of EarthFluent's 744 remaining views.  Chrome 151 on Windows
 				  appears on no screen but 1920x1080 on any site.
 
+				The Linux farm grew, measured on 27 October 2026 over the month.
+				It sent RevoltLib about 270,000 key-press views from some 169,000
+				addresses, which the key-press rule already drops, and about 520
+				views across all sites whose first move is the mouse instead: Linux
+				Chrome 149 to 156, en-US, American timezones, mostly with a Google
+				referrer, so the Chrome 150 rule missed them.  400 were RevoltLib's
+				and 113 EarthFluent's.  So 1080p Linux desktop Chrome in en-US
+				with an American timezone is now dropped whatever its build, move
+				or referrer.  Across every site in September that matched no view
+				the older rules kept.
+
 				Only these exact combinations are matched: the same reader on a
-				phone, in Firefox, or following a link is kept.
+				phone, in Firefox, or on another screen is kept.
 			*/
 
 		public function isFarm($args) {
@@ -635,11 +646,11 @@
 				return TRUE;
 			}
 
-			if($view['language'] === 'en-US' && $view['referrer'] === '') {
-				if($desktop_chrome && strpos($agent, 'Linuxx86_64') !== FALSE && strpos($agent, 'Chrome/150.0.0.0') !== FALSE && $view['event'] === 'mousemove') {
-					return TRUE;
-				}
+			if($desktop_chrome && strpos($agent, 'Linuxx86_64') !== FALSE && strpos($agent, 'Android') === FALSE && $view['language'] === 'en-US' && strpos($view['timezone'], 'America/') === 0) {
+				return TRUE;
+			}
 
+			if($view['language'] === 'en-US' && $view['referrer'] === '') {
 				if($desktop_chrome && strpos($agent, 'WindowsNT') !== FALSE && strpos($agent, 'Chrome/151.0.0.0') !== FALSE) {
 					return TRUE;
 				}
