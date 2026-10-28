@@ -40,6 +40,11 @@ if [ -d "$CONFIG/usr/lib/ggcms/src/modules/private" ]; then
 	mkdir -p /usr/lib/ggcms/src/modules/private
 	rsync -a --delete "$CONFIG/usr/lib/ggcms/src/modules/private/" /usr/lib/ggcms/src/modules/private/
 fi
+		#  as deploy.sh does: the network's house ads, served as files
+if [ -d "$CONFIG/var/www/html/houseads" ]; then
+	mkdir -p /var/www/html/houseads
+	rsync -a --delete "$CONFIG/var/www/html/houseads/" /var/www/html/houseads/
+fi
 
 echo "==> apache"
 		#  Production's top-level files, confs and module settings.  Not its
