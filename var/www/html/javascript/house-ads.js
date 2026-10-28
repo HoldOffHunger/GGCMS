@@ -27,7 +27,11 @@
 	Each ad plays for at least thirty seconds and is changed at the end
 	of a whole loop, so a reader never sees one cut off mid-shot.  Readers
 	who ask for reduced motion get the end card as a still and no changes.
-	The x hides an ad for the rest of the visit.
+
+	The x hides an ad for the rest of the visit.  For a signed-in reader
+	it hides it for good: the page, rendered live for them and never
+	cached, carries data-reader and the codes they have closed before in
+	data-hidden, and closing another posts it to /hidehousead.php.
 */
 
 (function() {
@@ -39,6 +43,8 @@
 
 	var classification = script.getAttribute('data-classification');
 	var shape = script.getAttribute('data-shape');
+	var reader = script.getAttribute('data-reader') === '1';
+	var remembered = (script.getAttribute('data-hidden') || '').split(' ').filter(Boolean);
 	var host = location.hostname.replace(/^www\./, '');
 	var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -66,7 +72,7 @@
 		return 0;
 	}
 
-	function hiddenCodes() {
+	function visitCodes() {
 		try {
 			return JSON.parse(sessionStorage.getItem(HIDDEN_KEY) || '[]');
 		} catch(e) {
@@ -74,13 +80,28 @@
 		}
 	}
 
+	function hiddenCodes() {
+		return remembered.concat(visitCodes());
+	}
+
 	function hide(code) {
-		var codes = hiddenCodes();
+		var codes = visitCodes();
 		codes.push(code);
 
 		try {
 			sessionStorage.setItem(HIDDEN_KEY, JSON.stringify(codes));
 		} catch(e) {}
+
+		if(reader) {
+			remembered.push(code);
+
+			fetch('/hidehousead.php', {
+				method: 'POST',
+				credentials: 'same-origin',
+				keepalive: true,
+				body: new URLSearchParams({code: code}),
+			}).catch(function() {});
+		}
 	}
 
 	function pick(catalogue, current) {
@@ -142,7 +163,7 @@
 		slot.innerHTML =
 			'<a rel="noopener"><img alt="" decoding="async"></a>' +
 			'<div class="house-ad-label"><span>From our network</span>' +
-			'<button type="button" class="house-ad-close" aria-label="Hide this ad">×</button></div>';
+			'<button type="button" class="house-ad-close" aria-label="' + (reader ? 'Never show me this ad again' : 'Hide this ad') + '">×</button></div>';
 
 		if(where.after) {
 			where.after.parentNode.insertBefore(slot, where.after.nextSibling);

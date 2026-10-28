@@ -2677,7 +2677,61 @@
 				],
 			];
 		}
-		
+
+		public function HardcodedTable_UserHiddenHouseAd() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+
+				'Userid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+
+				'AdCode' => [
+					'Type' => 'varchar(64)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 64,
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => '',
+					'Extra' => '',
+				],
+
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+
 		public function HardcodedTable_UserPermission() {
 			return [
 				'id' => [

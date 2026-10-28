@@ -8,8 +8,10 @@
 		public $language;
 		public $google_api;
 		public $globals;
-		
+		public $handler;
+
 		public function __construct($args) {
+			$this->handler = $args['handler'] ?? NULL;
 			$this->desired_action = $args['desiredaction'];
 			$this->script_file = $args['scriptfile'];
 			$this->domain_object = $args['domainobject'];
@@ -347,7 +349,7 @@
 				}
 
 				if($this->HouseAdsEnabled()) {
-					print("\n\t" . '<script src="/javascript/house-ads.js" data-classification="' . htmlspecialchars($this->globals->SiteClassification(), ENT_QUOTES, 'UTF-8') . '" data-shape="' . htmlspecialchars($this->globals->SiteShape(), ENT_QUOTES, 'UTF-8') . '" defer></script>');
+					print("\n\t" . '<script src="/javascript/house-ads.js" data-classification="' . htmlspecialchars($this->globals->SiteClassification(), ENT_QUOTES, 'UTF-8') . '" data-shape="' . htmlspecialchars($this->globals->SiteShape(), ENT_QUOTES, 'UTF-8') . '"' . $this->HouseAdsReaderAttributes() . ' defer></script>');
 				}
 			}
 			
@@ -434,6 +436,34 @@
 			}
 
 			return $this->script_file === 'view';
+		}
+
+			/*
+				For a signed-in reader, the ads they have closed for good, and
+				a mark that closing one should be remembered.  Nothing for
+				anyone else, which is what keeps a cached page -- only ever an
+				anonymous one -- the same for everybody.
+			*/
+
+			// HouseAdsReaderAttributes()
+			// Tests: ClientSideIncludesTest::testHouseAdsReaderAttributes()
+			// Test file: tests/src/classes/Format/HTML/ClientSideIncludesTest.php
+		public function HouseAdsReaderAttributes() {
+			if(!is_object($this->handler)) {
+				return '';
+			}
+
+			if(!class_exists('HouseAds')) {
+				ggreq('classes/Networking/HouseAds.php');
+			}
+
+			$house_ads = new HouseAds(['handler'=>$this->handler]);
+
+			if(!$house_ads->UserId()) {
+				return '';
+			}
+
+			return ' data-reader="1" data-hidden="' . htmlspecialchars(implode(' ', $house_ads->HiddenCodes()), ENT_QUOTES, 'UTF-8') . '"';
 		}
 
 			/*

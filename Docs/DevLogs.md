@@ -22,6 +22,15 @@ live installation rather than estimated.
   syncs them into the docroot, where nginx serves them without Apache.
   Nineteen ads, 77 files, 4.7 MB in all.
 
+- Closing a house ad now lasts. Anyone's x hides it for the visit; a
+  signed-in reader's posts to `/hidehousead.php`, which keeps it in the new
+  `UserHiddenHouseAd` table, and their pages carry the list in the script
+  tag. Those pages are always rendered live, so the cache never holds one
+  reader's list for another. The table is not a content write and flushes
+  nothing. It needs creating in `clonefrom` and every site's database before
+  the code that reads it is deployed; until then a lookup finds nothing and
+  ads simply come back.
+
 - The Linux Chrome farm in human analytics is now caught whatever its build.
   In October it sent RevoltLib about 270,000 beacon views from some 169,000
   addresses, 34 times September's whole log. The key-press rule already

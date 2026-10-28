@@ -1142,6 +1142,7 @@
 				'InternalServerIssueInstance',
 				'UserSession',
 				'LoginAttempt',		# or every wrong password would flush the site's page cache
+				'UserHiddenHouseAd',	# a reader's own choice; cached pages are anonymous and never show it
 
 					/*
 						Derived statistics, recomputed and rewritten during an

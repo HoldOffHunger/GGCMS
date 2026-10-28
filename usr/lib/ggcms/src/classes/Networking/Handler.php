@@ -559,6 +559,10 @@
 				return FALSE;
 			}
 
+			if($this->handleHouseAdHide()) {
+				return FALSE;
+			}
+
 			if($this->redirects->SecureRequired()) {
 				return $this->redirects->SecureRedirect();
 			}
@@ -770,6 +774,31 @@
 			$user_tracking->RecordHumanBeacon();
 
 			http_response_code(204);
+
+			return TRUE;
+		}
+
+			/*
+				house-ads.js posts here when a signed-in reader closes an ad,
+				so it is never shown to them again.  Answered as early as the
+				beacon and for the same reason: it is a small write and no
+				page.  Whatever the answer -- 204, or 403 for no reader --
+				TRUE ends the request there.
+			*/
+
+		public function handleHouseAdHide() {
+			if($_SERVER['REQUEST_METHOD'] !== 'POST') {
+				return FALSE;
+			}
+
+			if(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) !== '/hidehousead.php') {
+				return FALSE;
+			}
+
+			ggreq('classes/Networking/HouseAds.php');
+
+			$house_ads = new HouseAds($this->getArgs());
+			$house_ads->HandleHideRequest();
 
 			return TRUE;
 		}

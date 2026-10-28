@@ -80,8 +80,9 @@
 				'language'=>$this->language,
 				'googleapi'=>$this->google_api,
 				'globals'=>$this->globals,
+				'handler'=>$this->handler,
 			];
-			
+
 			$this->clientsideincludes_object = new ClientSideIncludes($js_and_css_args);
 		}
 		

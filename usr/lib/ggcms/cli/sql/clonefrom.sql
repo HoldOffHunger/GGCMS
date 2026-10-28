@@ -1147,7 +1147,7 @@ CREATE TABLE `User` (
 
 LOCK TABLES `User` WRITE;
 /*!40000 ALTER TABLE `User` DISABLE KEYS */;
-INSERT INTO `User` VALUES (1,'holdoffhunger',_binary ')Ll≠æ$o4|lß\ﬁ≈êdn˙\Ê<ê˘V∑\Êƒ∂\◊˛9É','','holdoffhunger@gmail.com','0000-00-00 00:00:00','0000-00-00 00:00:00');
+INSERT INTO `User` VALUES (1,'holdoffhunger',_binary ')LlÔøΩÔøΩ$o4|lÔøΩ\ÔøΩ≈êdnÔøΩ\ÔøΩ<ÔøΩÔøΩVÔøΩ\ÔøΩƒ∂\ÔøΩÔøΩ9ÔøΩ','','holdoffhunger@gmail.com','0000-00-00 00:00:00','0000-00-00 00:00:00');
 /*!40000 ALTER TABLE `User` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1177,6 +1177,25 @@ LOCK TABLES `UserAdmin` WRITE;
 INSERT INTO `UserAdmin` VALUES (1,1,'0000-00-00 00:00:00','0000-00-00 00:00:00');
 /*!40000 ALTER TABLE `UserAdmin` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `UserHiddenHouseAd`
+--
+
+DROP TABLE IF EXISTS `UserHiddenHouseAd`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `UserHiddenHouseAd` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Userid` int NOT NULL DEFAULT '0',
+  `AdCode` varchar(64) NOT NULL DEFAULT '',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Userid` (`Userid`),
+  KEY `AdCode` (`AdCode`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
 --
 -- Table structure for table `UserPermission`
