@@ -2366,7 +2366,14 @@
 					$strip_url = $strip_urls[$index];
 					$americanize_vocabulary = $americanize_vocabularies[$index];
 					$html_formatting = $html_formattings[$index];
-					
+
+						# <pre> blocks stay as saved: see PreformattedBlocks.php
+					if(!class_exists('PreformattedBlocks')) {
+						ggreq('classes/Format/HTML/PreformattedBlocks.php');	# plain require, and this runs once a text body
+					}
+					$preformatted_blocks = new PreformattedBlocks;
+					$textbody['Text'] = $preformatted_blocks->SetAside(['text'=>$textbody['Text']]);
+
 					if($html_formatting) {
 						$text = $textbody['Text'];
 						
@@ -2485,7 +2492,9 @@
 					#print("!!!");
 					#print $textbody['Text'];
 					#print("|||!!!");
-					
+
+					$textbody['Text'] = $preformatted_blocks->Restore(['text'=>$textbody['Text']]);
+
 					$textbody['WordCount'] = str_word_count(strip_tags($textbody['Text']));
 					$textbody['CharacterCount'] = strlen($textbody['Text']);
 					

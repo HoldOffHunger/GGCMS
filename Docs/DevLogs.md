@@ -7,6 +7,28 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, October 28
+
+- Saving an entry no longer wrecks a `<pre>` block in its text. modify.php
+  runs every text body through DOMDocument and then collapses each run of
+  whitespace to one space, which is harmless in a paragraph and ruinous where
+  the whitespace is the text. The Affero GPL's fifteen-line "how to apply"
+  block came back as three lines, and its `<year>` and `<name of author>`
+  placeholders as `<year></year>` and `<name></name>`. 24 of CopyleftLicense's
+  licenses keep text that way. Each block is now set aside before the tidying
+  and put back byte for byte after it (`PreformattedBlocks`).
+
+- That was found by the first job to need it: 435 of CopyleftLicense's
+  entries had the zero-padded sort form, "Version 00001.00000", in
+  `ListTitle`, from before `ListTitleSortKey` existed, and lists showed it to
+  readers. Blanking both fields and saving lets modify.php fill them in again.
+  Run on Fumiko, every one of the 24 `<pre>` blocks matched production's
+  exactly afterwards.
+
+- `deploy.sh` replaces itself when it pulls, and bash carries on with the copy
+  it started with. The 27 October deploy therefore ran without its new house
+  ads step, and the ads' files reached the docroot only on a second run.
+
 ## 2026, October 27
 
 - The sites now advertise one another. `javascript/house-ads.js` picks from
