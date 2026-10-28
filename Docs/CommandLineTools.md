@@ -297,6 +297,7 @@ the box and a wrong guess is worse than no guess. It names each one instead.
 | `list_databases.php` | Lists databases |
 | `mysql_connect.php` | Connection test |
 | `check_schema.php` | Confirms the tables exist, match the spine, and hold nothing the config forbids fetching |
+| `clonefrom_push.php` | Creates `clonefrom`'s tables in every site that lacks them -- see below |
 | `syncdown.php` | Copies production databases down to a workstation's MySQL -- see below |
 
 `check_schema.php` runs three checks and prints only what is wrong:
@@ -322,6 +323,28 @@ error log sideways to discover thirteen sites in exactly that state.
 `clonefrom` is the reference for the first two checks rather than a list kept
 inside the tool, so adding a table to the schema does not require remembering
 that this file exists.
+
+#### `clonefrom_push.php`
+
+A new table is made once, in `clonefrom`, and pushed out from there: every
+site gets `CREATE TABLE site.Table LIKE clonefrom.Table`, so the same columns
+and indexes, empty. It is the pipeline the sites have always used, done by
+hand until 27 October 2026.
+
+```bash
+clonefrom_push.php --table=UserHiddenHouseAd           # what it would create
+clonefrom_push.php --table=UserHiddenHouseAd --apply   # create it
+clonefrom_push.php --database=sortwords --apply        # one site, every missing table
+```
+
+Nothing is written without `--apply`. It only ever creates: a table a site
+already has is left alone however it differs, because a column that disagrees
+is `check_schema.php`'s to report and a person's to settle. A site is a
+database with an `Entry` table and a `com.<database>.php` configuration, which
+keeps out the shared dictionaries and the archived copies kept beside a site
+(`revoltlib_live`, `masereelgroup_old`); those it passes over are named in the
+report. Runs from a checkout too, with `GGCMS_CONFIG_REPO` and
+`GGCMS_WORK_DIR` set, against whatever MySQL that PHP is configured for.
 
 #### `syncdown.php`
 

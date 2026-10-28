@@ -31,6 +31,14 @@ live installation rather than estimated.
   the code that reads it is deployed; until then a lookup finds nothing and
   ads simply come back.
 
+- `clonefrom_push.php` makes the old hand pipeline a command: make a table in
+  `clonefrom`, then push it to every site with `CREATE TABLE ... LIKE`. Dry
+  run unless `--apply`, creates only, never alters. On Fumiko it pushed
+  `UserHiddenHouseAd` to all seventeen sites, and passed over
+  `revoltlib_live`, `revoltlib_jan2022` and `masereelgroup_old`, which hold
+  an `Entry` table but are archives; the first draft would have written into
+  them too.
+
 - The Linux Chrome farm in human analytics is now caught whatever its build.
   In October it sent RevoltLib about 270,000 beacon views from some 169,000
   addresses, 34 times September's whole log. The key-press rule already

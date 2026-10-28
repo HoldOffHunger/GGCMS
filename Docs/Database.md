@@ -31,7 +31,8 @@ reconcile, and no chance of typing the schema out slightly differently from the
 one `check_schema.php` will compare it against.
 
 This is the repair for anything `check_schema.php` reports as *missing —
-present in clonefrom*. Measured 1 September 2026, that was
+present in clonefrom*, and `clonefrom_push.php` does it for every site at once.
+A new table is made in `clonefrom` first and pushed from there. Measured 1 September 2026, that was
 `EntryCodeReservation` on earthfluent, `PrimaryHostRecord` on sortwords and
 wordweight, and `Form` and `FormQuestion` across nine sites.
 
