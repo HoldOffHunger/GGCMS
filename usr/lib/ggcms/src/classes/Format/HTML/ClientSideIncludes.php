@@ -345,6 +345,10 @@
 				if($this->NightReadingEnabled()) {
 					print("\n\t" . '<script src="/javascript/night-reading.js" defer></script>');
 				}
+
+				if($this->HouseAdsEnabled()) {
+					print("\n\t" . '<script src="/javascript/house-ads.js" data-classification="' . htmlspecialchars($this->globals->SiteClassification(), ENT_QUOTES, 'UTF-8') . '" data-shape="' . htmlspecialchars($this->globals->SiteShape(), ENT_QUOTES, 'UTF-8') . '" defer></script>');
+				}
 			}
 			
 			return TRUE;
@@ -401,6 +405,35 @@
 
 		public function NightReadingEnabled() {
 			return is_object($this->globals) && method_exists($this->globals, 'NightReading') && $this->globals->NightReading();
+		}
+
+			/*
+				The network's house ads: the sites advertising one another.
+				Only on view pages, and only where the site has taken part and
+				said what it is -- house-ads.js chooses from the catalogue by
+				the site's classification and shape, and with either unstated
+				it would have nothing honest to choose by.  The page carries
+				the same script for every reader, so the page cache is
+				untouched; which ad shows is decided in the browser.
+			*/
+
+			// HouseAdsEnabled()
+			// Tests: ClientSideIncludesTest::testHouseAdsEnabled()
+			// Test file: tests/src/classes/Format/HTML/ClientSideIncludesTest.php
+		public function HouseAdsEnabled() {
+			if(!is_object($this->globals) || !method_exists($this->globals, 'HouseAds') || !$this->globals->HouseAds()) {
+				return FALSE;
+			}
+
+			if(!method_exists($this->globals, 'SiteClassification') || !method_exists($this->globals, 'SiteShape')) {
+				return FALSE;
+			}
+
+			if($this->globals->SiteClassification() === 'unstated' || $this->globals->SiteShape() === 'unstated') {
+				return FALSE;
+			}
+
+			return $this->script_file === 'view';
 		}
 
 			/*

@@ -19,9 +19,12 @@ $this->handler->globals->SiteIsCommercial()
 $this->handler->globals->SiteIsRevolutionary()
 ```
 
-## Nothing reads it yet, and that is the point
+## A record first, a behaviour second
 
-This is a record, not a behaviour. It was added because the question gets asked
+This is a record before it is a behaviour. The first thing to read it is the
+house ads (`javascript/house-ads.js`), which choose what a site may advertise
+from its classification and shape, and print nothing for a site where either
+is unstated. It was added because the question gets asked
 constantly and answered from memory every time:
 
 - can this site sit behind a third party that terminates its TLS?

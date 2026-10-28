@@ -207,6 +207,19 @@ if [ -d "$CONFIG/.git" ]; then
 		mkdir -p /usr/lib/ggcms/src/modules/private
 		rsync -a --delete "$CONFIG/usr/lib/ggcms/src/modules/private/" /usr/lib/ggcms/src/modules/private/
 	fi
+
+		#  House ads: the network's sites advertising one another, which
+		#  name real sites and so live in this repository.  Into the docroot
+		#  rather than beside the engine so that nginx serves them as files
+		#  and an ad never wakes Apache.  The folder is wholly this
+		#  repository's, so --delete scoped to it takes a retired ad off
+		#  every site.  See javascript/house-ads.js.
+
+	if [ -d "$CONFIG/var/www/html/houseads" ]; then
+		echo "==> house ads -> /var/www/html/houseads/"
+		mkdir -p /var/www/html/houseads
+		rsync -a --delete "$CONFIG/var/www/html/houseads/" /var/www/html/houseads/
+	fi
 else
 	echo "==> server config -- no checkout at $CONFIG, skipping"
 fi

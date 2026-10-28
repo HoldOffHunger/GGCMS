@@ -75,6 +75,44 @@
 			$this->assertSame('/css/build/default.aaaaaaaaaa.css', $includes($manifest, 'othersite')->BuiltStylesheet());
 			$this->assertFalse($includes([], 'somesite')->BuiltStylesheet(), 'no build yet');
 		}
+
+			/*
+				House ads only on view pages of a site that takes part and
+				has said both what it is and what shape it is.  A public
+				install's globals know none of this and get no script.
+			*/
+
+		public function testHouseAdsEnabled() {
+			$includes = function($script, $globals) {
+				return new ClientSideIncludes([
+					'desiredaction'=>'display',
+					'scriptfile'=>$script,
+					'domainobject'=>NULL,
+					'language'=>NULL,
+					'googleapi'=>NULL,
+					'globals'=>$globals,
+				]);
+			};
+
+			$site = function($takes_part, $classification, $shape) {
+				return new class($takes_part, $classification, $shape) {
+					public function __construct(public $takes_part, public $classification, public $shape) {}
+					public function HouseAds() { return $this->takes_part; }
+					public function SiteClassification() { return $this->classification; }
+					public function SiteShape() { return $this->shape; }
+				};
+			};
+
+			$this->assertTrue($includes('view', $site(TRUE, 'revolutionary', 'multipage'))->HouseAdsEnabled());
+			$this->assertTrue($includes('view', $site(TRUE, 'commercial', 'onepage'))->HouseAdsEnabled());
+
+			$this->assertFalse($includes('modify', $site(TRUE, 'commercial', 'onepage'))->HouseAdsEnabled(), 'not a view page');
+			$this->assertFalse($includes('view', $site(FALSE, 'revolutionary', 'multipage'))->HouseAdsEnabled(), 'opted out');
+			$this->assertFalse($includes('view', $site(TRUE, 'unstated', 'multipage'))->HouseAdsEnabled(), 'unclassified');
+			$this->assertFalse($includes('view', $site(TRUE, 'commercial', 'unstated'))->HouseAdsEnabled(), 'no shape');
+			$this->assertFalse($includes('view', new stdClass)->HouseAdsEnabled(), 'a public install');
+			$this->assertFalse($includes('view', NULL)->HouseAdsEnabled(), 'no globals');
+		}
 	}
 
 ?>

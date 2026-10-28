@@ -9,6 +9,19 @@ live installation rather than estimated.
 
 ## 2026, October 27
 
+- The sites now advertise one another. `javascript/house-ads.js` picks from
+  `/houseads/catalogue.json` by the host's classification and shape: a
+  revolutionary site shows only revolutionary sites and the bookshop, a
+  commercial site everything but the one-page tools, and a one-page tool
+  everything, the other tools a third as often. Reading pages get a 300x250
+  rectangle after the first paragraph, on the side away from the first
+  `Image::N` picture; one-page tools get a 5:1 banner under the tool. Each ad
+  plays at least thirty seconds and changes on a loop boundary. Everything is
+  chosen in the browser, so the page cache serves one page to everyone. The
+  ads name real sites, so they live in the private repository and deploy.sh
+  syncs them into the docroot, where nginx serves them without Apache.
+  Nineteen ads, 77 files, 4.7 MB in all.
+
 - The Linux Chrome farm in human analytics is now caught whatever its build.
   In October it sent RevoltLib about 270,000 beacon views from some 169,000
   addresses, 34 times September's whole log. The key-press rule already
