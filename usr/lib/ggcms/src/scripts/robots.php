@@ -602,6 +602,19 @@
 				//
 				//  Search engines that send readers back -- Googlebot, Bingbot,
 				//  DuckDuckBot, PetalBot, SeekportBot -- are deliberately absent and stay welcome.
+				//
+				//  This list is also enforced on the server, outside this repo, in
+				//  GGCMS_Unhireable: the $ggcms_refused_bot map in
+				//  etc/nginx/sites-available/ggcms.conf answers these agents 403
+				//  before the page cache, and etc/apache2/conf-available/block-bots.conf
+				//  refuses them again at Apache.  THE THREE LISTS MUST STAY IDENTICAL:
+				//  allowing or refusing a crawler here and not there leaves robots.txt
+				//  saying one thing while the server does another.  robots.txt itself
+				//  stays readable to every refused agent in both.
+				//
+				//  The same nginx file also refuses three scripted-browser farms by
+				//  their exact Chrome build ($ggcms_farm_agent), when they ask with no
+				//  referrer.  They name no bot, so nothing here can address them.
 
 			return [
 
