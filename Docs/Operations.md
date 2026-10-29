@@ -149,7 +149,7 @@ microseconds instead of 0.3 seconds:
 ```apache
 #  /etc/apache2/conf-available/block-bots.conf
 
-SetEnvIfNoCase User-Agent "(GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|Claude-Web|Google-Extended|Applebot-Extended|PerplexityBot|meta-externalagent|Bytespider|CCBot|Diffbot|Omgilibot|ImagesiftBot|Amazonbot|AhrefsBot|SemrushBot|DataForSeoBot|MJ12bot|DotBot|BLEXBot|Claude-SearchBot|Amzn-SearchBot|MathPicDatasetCrawler)" ggcms_refused_bot
+SetEnvIfNoCase User-Agent "(GPTBot|ClaudeBot|anthropic-ai|Claude-Web|Google-Extended|Applebot-Extended|meta-externalagent|Bytespider|CCBot|Diffbot|Omgilibot|ImagesiftBot|Amazonbot|AhrefsBot|SemrushBot|DataForSeoBot|MJ12bot|DotBot|BLEXBot|MathPicDatasetCrawler|Baiduspider|msh-pdfmin)" ggcms_refused_bot
 
 <Directory /var/www/html>
 	<RequireAny>
@@ -192,10 +192,24 @@ refuses, so the polite refusal and the enforced ones never disagree. **Search
 engines are absent from all three** — Googlebot, Bingbot, DuckDuckBot, PetalBot
 and SeekportBot send readers. The list is AI crawlers and SEO-tool spiders only.
 
+**So are the AI search crawlers that cite their sources** — OAI-SearchBot,
+ChatGPT-User, Claude-SearchBot, PerplexityBot and Amzn-SearchBot. They fetch a
+page to quote and link it, and refusing them kept these sites out of AI
+answers: 5 readers arrived from chatgpt.com in September and October 2026,
+against 13 from Gemini, which reads through Googlebot. They were let back in on
+29 October 2026. The crawlers that train models and send nothing back —
+GPTBot, ClaudeBot, Google-Extended and the rest — stay refused.
+
+The authoritative copies of the Apache and nginx lists are in
+GGCMS_Unhireable (`etc/apache2/conf-available/block-bots.conf` and
+`etc/nginx/sites-available/ggcms.conf`). The snippet above is a copy; when
+they disagree, they win.
+
 To check it took, and to watch the effect:
 
 ```bash
 curl -s -o /dev/null -w '%{http_code}\n' -A 'GPTBot' -H 'Host: revoltlib.com' http://127.0.0.1/
+curl -s -o /dev/null -w '%{http_code}\n' -A 'OAI-SearchBot/1.0' -H 'Host: revoltlib.com' http://127.0.0.1/
 uptime
 ```
 
