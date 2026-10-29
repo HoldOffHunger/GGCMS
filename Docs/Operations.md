@@ -192,28 +192,29 @@ refuses, so the polite refusal and the enforced ones never disagree. **Search
 engines are absent from all three** — Googlebot, Bingbot, DuckDuckBot, PetalBot
 and SeekportBot send readers. The list is AI crawlers and SEO-tool spiders only.
 
-**So are the AI search crawlers that cite their sources** — OAI-SearchBot,
-ChatGPT-User, Claude-SearchBot, PerplexityBot and Amzn-SearchBot. They fetch a
-page to quote and link it, and refusing them kept these sites out of AI
-answers: 5 readers arrived from chatgpt.com in September and October 2026,
-against 13 from Gemini, which reads through Googlebot. They were let back in on
-29 October 2026. The crawlers that train models and send nothing back —
-GPTBot, ClaudeBot, Google-Extended and the rest — stay refused.
+**The AI search crawlers are absent too, since 29 October 2026.**
+OAI-SearchBot, ChatGPT-User, Claude-SearchBot, PerplexityBot and Amzn-SearchBot
+fetch a page to quote and link it in an answer, so refusing them kept these
+sites out of AI answers: 5 readers arrived from chatgpt.com in September and
+October, against 13 from Gemini, which reads through Googlebot. What stays
+refused is the training crawlers, the SEO-tool spiders, and agents that send no
+readers at all (Baiduspider, msh-pdfmin). Allowing or refusing one means
+changing all three lists in the same deploy.
 
-The authoritative copies of the Apache and nginx lists are in
-GGCMS_Unhireable (`etc/apache2/conf-available/block-bots.conf` and
-`etc/nginx/sites-available/ggcms.conf`). The snippet above is a copy; when
-they disagree, they win.
+On the sites behind Cloudflare, two more things can refuse a crawler before it
+reaches nginx: the dashboard's AI-bot blocking, and its edge cache, which can
+serve an old robots.txt for hours after a deploy. Purge `/robots.txt` there
+after changing the lists.
 
 To check it took, and to watch the effect:
 
 ```bash
 curl -s -o /dev/null -w '%{http_code}\n' -A 'GPTBot' -H 'Host: revoltlib.com' http://127.0.0.1/
-curl -s -o /dev/null -w '%{http_code}\n' -A 'OAI-SearchBot/1.0' -H 'Host: revoltlib.com' http://127.0.0.1/
 uptime
 ```
 
-The first should print `403`. Load should fall over the following minutes.
+The first should print `403`; the same with `-A 'OAI-SearchBot'` should print
+`200`. Load should fall over the following minutes.
 Reverse it with `a2disconf block-bots && systemctl reload apache2`.
 
 ## Packages that quietly take a URL path
