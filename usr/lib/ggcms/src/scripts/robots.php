@@ -602,6 +602,10 @@
 				//
 				//  Search engines that send readers back -- Googlebot, Bingbot,
 				//  DuckDuckBot, PetalBot, SeekportBot -- are deliberately absent and stay welcome.
+				//  So are the AI search crawlers that cite and link the page they read --
+				//  OAI-SearchBot, ChatGPT-User, Claude-SearchBot, PerplexityBot,
+				//  Amzn-SearchBot.  Refusing them kept these sites out of AI answers;
+				//  in September and October 2026, 5 readers arrived from chatgpt.com.
 				//
 				//  This list is also enforced on the server, outside this repo, in
 				//  GGCMS_Unhireable: the $ggcms_refused_bot map in
@@ -621,14 +625,11 @@
 					//  Trains models on the content and sends nothing back
 
 				'GPTBot',
-				'ChatGPT-User',
-				'OAI-SearchBot',
 				'ClaudeBot',
 				'anthropic-ai',
 				'Claude-Web',
 				'Google-Extended',
 				'Applebot-Extended',
-				'PerplexityBot',
 				'meta-externalagent',
 				'Bytespider',
 				'CCBot',
@@ -636,8 +637,6 @@
 				'Omgilibot',
 				'ImagesiftBot',
 				'Amazonbot',
-				'Claude-SearchBot',
-				'Amzn-SearchBot',
 
 					//  Resells the crawl as a marketing product
 
