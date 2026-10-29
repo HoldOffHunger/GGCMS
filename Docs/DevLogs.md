@@ -9,6 +9,23 @@ live installation rather than estimated.
 
 ## 2026, October 29
 
+- A generated PDF now says where it came from on every page, so one passed
+  around on its own -- uploaded to the Internet Archive, printed -- still
+  points back to its site. `PDFPageFrame`, a subclass of the vendored
+  `HTMLtoPDF`, fills tFPDF's empty `Header()` and `Footer()`: the chapter's
+  title across the top, the document's address and the page number across
+  the bottom. A book's PDF opens on a cover (title, people, "From the library
+  at RevoltLib.com" and the link), and each child of 500 words or more starts
+  a page of its own; a theme's quotes and a section's links run on as before.
+  The engine's `module_entryformats` and RevoltLib's two book templates both
+  build it. Their HTML changes, so `PDF::Display()` rebuilds every cached book
+  PDF the next time it is asked for.
+
+- `warm_page_cache.php --format=pdf --parents-only --depth=2` builds every
+  RevoltLib book's PDF in one run, without the chapters and without the
+  sections above them. Fumiko had none: `src/data/pdf/revoltlib/` was empty,
+  because nothing had ever warmed a PDF.
+
 - The AI search crawlers that cite their sources may read the sites again:
   OAI-SearchBot, ChatGPT-User, Claude-SearchBot, PerplexityBot and
   Amzn-SearchBot. They had been refused alongside the training crawlers, which

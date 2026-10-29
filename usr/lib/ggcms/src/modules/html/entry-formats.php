@@ -171,6 +171,99 @@
 			return $this->that->domain_object->GetPrimaryDomain(['insecure'=>1, 'lowercase'=>0, 'www'=>1]) . '/';
 		}
 
+			/*
+				Where the document is read online: the entry's own page, on the
+				site's own spelling of its name -- RevoltLib.com, not
+				revoltlib.com.  The PDF's cover links to it, and PDFPageFrame
+				prints it at the foot of every page.
+			*/
+
+		public function getDocumentURL() {
+			$that = $this->that;
+
+			$codes = array_filter((array)$that->object_list, 'strlen');
+			$path = $codes ? implode('/', $codes) . '/' : '';
+
+			return $that->domain_object->GetPrimaryDomain(['secure'=>1, 'lowercase'=>0]) . '/' . $path;
+		}
+
+				// The PDF's cover and chapters
+				// -------------------------------------------------------------
+
+			/*
+				A PDF travels on its own -- uploaded, printed, passed around -- so
+				its first page says what it is and where the rest of the library
+				is.  The anchor at the end starts the document itself on a page
+				of its own; PDFPageFrame reads it.  Every other format is
+				unchanged.
+			*/
+
+		public function getDocument_PDFCover() {
+			$that = $this->that;
+
+			if($that->script_format_lower !== 'pdf') {
+				return '';
+			}
+
+			$entry = $that->entry;
+			$cover = '<h1>' . $entry['Title'] . '</h1>' . "\n";
+
+			if($entry['Subtitle']) {
+				$cover .= '<h2>' . $entry['Subtitle'] . '</h2>' . "\n";
+			}
+
+			foreach((array)($entry['association'] ?? []) as $association) {
+				$cover .= '<p>' . $association['SubType'] . ' : ' . $association['entry']['Title'] . '</p>' . "\n";
+			}
+
+			return $cover . $this->getDocument_PDFCover_Site() . $this->getDocument_PDFAnchor(['title'=>$entry['Title']]);
+		}
+
+		public function getDocument_PDFCover_Site() {
+			$url = $this->getDocumentURL();
+			$address = rtrim(preg_replace('#^https?://#i', '', $url), '/');
+
+			$site = '<p>&nbsp;</p><p>&nbsp;</p>' . "\n";
+			$site .= '<p>From the library at</p>' . "\n";
+			$site .= '<h2>' . $this->that->domain_object->primary_domain . '</h2>' . "\n";
+			$site .= '<p><a href="' . $url . '">' . $address . '</a></p>' . "\n";
+
+			return $site;
+		}
+
+			/*
+				A child long enough to be a chapter starts a page of its own and
+				names the pages after it.  A theme's quotes or a section's links
+				are not chapters: a page each would be hundreds of near-empty
+				pages, so they run on as before.
+			*/
+
+		public function getDocument_PDFChapterMarker($args) {
+			$child = $args['child'];
+
+			if($this->that->script_format_lower !== 'pdf' || empty($child['textbody'])) {
+				return '';
+			}
+
+			if((int)$child['textbody'][0]['WordCount'] < $this->getPDFChapterMinimumWords()) {
+				return '';
+			}
+
+			return $this->getDocument_PDFAnchor(['title'=>$this->getChildTitle(['child'=>$child])]);
+		}
+
+		public function getPDFChapterMinimumWords() {
+			return 500;
+		}
+
+			// The title is rawurlencode()d: HTMLtoPDF splits a tag's attributes on spaces
+
+		public function getDocument_PDFAnchor($args) {
+			$title = html_entity_decode((string)$args['title'], ENT_QUOTES | ENT_HTML5, 'UTF-8');
+
+			return '<a name="ggcms-chapter:' . rawurlencode($title) . '"></a>' . "\n";
+		}
+
 				// The document, as HTML
 				// -------------------------------------------------------------
 
@@ -179,7 +272,9 @@
 			$entry = $that->entry;
 			$counts = $that->counts;
 
-			$document = '<h1>' . $entry['Title'] . '</h1>' . "\n";
+			$document = $this->getDocument_PDFCover();
+
+			$document .= '<h1>' . $entry['Title'] . '</h1>' . "\n";
 
 			if($entry['Subtitle']) {
 				$document .= '<h2>' . $entry['Subtitle'] . '</h2>' . "\n";
@@ -265,6 +360,7 @@
 				$document .= '<p><b>Sections (Content) :</b></p>' . "\n";
 
 				foreach($children as $child) {
+					$document .= $this->getDocument_PDFChapterMarker(['child'=>$child]);
 					$document .= '<p>&bull; ' . $this->getChildTitle(['child'=>$child]) . '</p>';
 
 					if(!empty($child['description'])) {

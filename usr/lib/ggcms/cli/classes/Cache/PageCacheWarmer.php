@@ -25,6 +25,15 @@
 		  --url=<path>    render exactly one path and exit
 		  (neither)       list, then spawn --url workers, --jobs at a time
 
+		--parents-only narrows the list to the entries with something under
+		them: the books rather than their chapters.  --depth=<n> keeps only
+		the entries <n> codes deep, so on RevoltLib --depth=2 is the books
+		without the sections above them, whose documents would be every book
+		in the section at once.  --format=pdf with both builds every book's
+		PDF, which is what goes to the Internet Archive:
+
+			warm_page_cache.php --domain=revoltlib.com --format=pdf --parents-only --depth=2 --jobs=4
+
 		One page per process, deliberately.  index.php ends in exit(), the
 		render pipeline carries static and global state, and a run touching
 		twelve thousand pages is the worst possible place to discover which
@@ -57,6 +66,8 @@
 				'limit'=>0,
 				'jobs'=>1,
 				'skip-cached'=>FALSE,
+				'parents-only'=>FALSE,
+				'depth'=>0,
 				'dry-run'=>FALSE,
 				'quiet'=>FALSE,
 			];
@@ -93,6 +104,7 @@
 			}
 
 			$options['limit'] = (int) $options['limit'];
+			$options['depth'] = (int) $options['depth'];
 			$options['jobs'] = max(1, (int) $options['jobs']);
 
 			return $options;
@@ -150,13 +162,27 @@
 			expensive render the engine performs, something is crawling
 			view.brf?mode=dotted across the library, and it is the format whose
 			missing-glyph faults are still open.
+
+			PDF is not a page-cache format at all.  PDF::Display() keeps each
+			document under src/data/pdf/<site>/ itself, and rebuilds it when its
+			template's HTML changes, so asking for view.pdf is the whole of
+			warming it; PageCache refuses the output, and that is expected.
 		*/
 
 		public function FormatSuffixes() {
 			return [
 				'html'=>'',
 				'brf'=>'view.brf',
+				'pdf'=>'view.pdf',
 			];
+		}
+
+		public function IsAtDepth($path) {
+			return substr_count(trim($path, '/'), '/') + 1 === $this->options['depth'];
+		}
+
+		public function KeepsItsOwnFile() {
+			return $this->options['format'] === 'pdf';
 		}
 
 		public function FormatPath($path) {
@@ -189,6 +215,7 @@
 			$rows = $sitemap->GetEntrySiteMapCodes([]);
 
 			$paths = ['/'];
+			$parents = [];
 
 				/*
 					From E2, not E1.
@@ -233,9 +260,23 @@
 				for($depth = 1; $depth <= count($codes); $depth++) {
 					$paths[] = '/' . implode('/', array_slice($codes, 0, $depth)) . '/';
 				}
+
+				for($depth = 1; $depth < count($codes); $depth++) {
+					$parents[] = '/' . implode('/', array_slice($codes, 0, $depth)) . '/';
+				}
 			}
 
+				/*
+					The site root is everything's parent, and its document would
+					be the whole library; it is left out.
+				*/
+
+			$paths = $this->options['parents-only'] ? $parents : $paths;
 			$paths = array_values(array_unique($paths));
+
+			if($this->options['depth'] > 0) {
+				$paths = array_values(array_filter($paths, [$this, 'IsAtDepth']));
+			}
 
 			foreach($paths as $key => $path) {
 				$paths[$key] = $this->FormatPath($path);
@@ -283,7 +324,7 @@
 			$written = $page_cache->WriteCache(['output'=>$output]);
 
 			if(!$this->options['quiet']) {
-				print(($written ? 'wrote  ' : 'refused') . ' ' . strlen($output) . "\t" . $path . "\n");
+				print(($written ? 'wrote  ' : ($this->KeepsItsOwnFile() ? 'built  ' : 'refused')) . ' ' . strlen($output) . "\t" . $path . "\n");
 			}
 
 			return $written;

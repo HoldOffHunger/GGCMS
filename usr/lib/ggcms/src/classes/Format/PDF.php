@@ -13,6 +13,7 @@
 		
 		public function Construct_Requires_Extras() {
 			depreq('php-html-to-pdf/php-html-to-pdf.php');
+			ggreq('classes/Format/PDFPageFrame.php');
 			
 			return TRUE;
 		}
@@ -70,7 +71,7 @@
 		
 		public function SetPDFObject() {
 			$meta_data = $this->SetPDFObject_MetaData();
-			$pdf_object = new HTMLtoPDF($meta_data);
+			$pdf_object = new PDFPageFrame($meta_data);
 			$this->pdf_object = $pdf_object;
 			
 			return $this->pdf_object = $pdf_object;
@@ -81,8 +82,20 @@
 			$pdf_data = $this->script->pdf_data;
 			
 			$pdf_data['Creator'] = $this->version_object->GetSoftwareName() . ', v. ' . $this->version_object->GetSoftwareVersion();
+			$pdf_data['documenturl'] = $this->SetPDFObject_MetaData_DocumentURL();
 			
 			return $pdf_data;
+		}
+		
+			// The templates have already run, and loaded both of these if they use them; require_once, so they are not declared twice
+		
+		public function SetPDFObject_MetaData_DocumentURL() {
+			require_once(GGCMS_DIR . 'modules/spacing.php');
+			require_once(GGCMS_DIR . 'modules/html/entry-formats.php');
+			
+			$formats = new module_entryformats(['that'=>$this->script]);
+			
+			return $formats->getDocumentURL();
 		}
 	}
 	
