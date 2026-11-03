@@ -346,6 +346,24 @@ keeps out the shared dictionaries and the archived copies kept beside a site
 report. Runs from a checkout too, with `GGCMS_CONFIG_REPO` and
 `GGCMS_WORK_DIR` set, against whatever MySQL that PHP is configured for.
 
+A new column goes the same way since 3 November 2026: one `ALTER TABLE` by
+hand on `clonefrom`, then the push, one named column at a time.
+
+```bash
+mysql -e "ALTER TABLE clonefrom.TextBody ADD COLUMN SpellCheckImmune tinyint(1) NOT NULL DEFAULT '0' AFTER CharacterCount"
+clonefrom_push.php --column=TextBody.SpellCheckImmune           # which sites lack it
+clonefrom_push.php --column=TextBody.SpellCheckImmune --apply   # add it
+```
+
+The definition is read from `clonefrom`'s `information_schema` -- type,
+character set, nullability, default -- and the column goes after the one it
+follows there, or at the end when a site lacks that neighbour too. It only
+adds, to a site that has the table and lacks the column. There is deliberately
+no "every missing column" sweep: `check_schema.php` reports drift that is
+explained history as well as drift that is a mistake, and telling them apart
+is a person's job. An auto-increment or generated column is refused; add one
+of those by hand.
+
 #### `syncdown.php`
 
 A workstation that renders pages or tests changes is only as good as its copy
