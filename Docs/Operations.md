@@ -149,7 +149,7 @@ microseconds instead of 0.3 seconds:
 ```apache
 #  /etc/apache2/conf-available/block-bots.conf
 
-SetEnvIfNoCase User-Agent "(GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|Claude-Web|Google-Extended|Applebot-Extended|PerplexityBot|meta-externalagent|Bytespider|CCBot|Diffbot|Omgilibot|ImagesiftBot|Amazonbot|AhrefsBot|SemrushBot|DataForSeoBot|MJ12bot|DotBot|BLEXBot|Claude-SearchBot|Amzn-SearchBot|MathPicDatasetCrawler)" ggcms_refused_bot
+SetEnvIfNoCase User-Agent "(GPTBot|ClaudeBot|anthropic-ai|Claude-Web|Google-Extended|Applebot-Extended|meta-externalagent|Bytespider|CCBot|Diffbot|Omgilibot|ImagesiftBot|Amazonbot|AhrefsBot|SemrushBot|DataForSeoBot|MJ12bot|DotBot|BLEXBot|MathPicDatasetCrawler|Baiduspider|msh-pdfmin)" ggcms_refused_bot
 
 <Directory /var/www/html>
 	<RequireAny>
@@ -192,6 +192,20 @@ refuses, so the polite refusal and the enforced ones never disagree. **Search
 engines are absent from all three** — Googlebot, Bingbot, DuckDuckBot, PetalBot
 and SeekportBot send readers. The list is AI crawlers and SEO-tool spiders only.
 
+**The AI search crawlers are absent too, since 29 October 2026.**
+OAI-SearchBot, ChatGPT-User, Claude-SearchBot, PerplexityBot and Amzn-SearchBot
+fetch a page to quote and link it in an answer, so refusing them kept these
+sites out of AI answers: 5 readers arrived from chatgpt.com in September and
+October, against 13 from Gemini, which reads through Googlebot. What stays
+refused is the training crawlers, the SEO-tool spiders, and agents that send no
+readers at all (Baiduspider, msh-pdfmin). Allowing or refusing one means
+changing all three lists in the same deploy.
+
+On the sites behind Cloudflare, two more things can refuse a crawler before it
+reaches nginx: the dashboard's AI-bot blocking, and its edge cache, which can
+serve an old robots.txt for hours after a deploy. Purge `/robots.txt` there
+after changing the lists.
+
 To check it took, and to watch the effect:
 
 ```bash
@@ -199,7 +213,8 @@ curl -s -o /dev/null -w '%{http_code}\n' -A 'GPTBot' -H 'Host: revoltlib.com' ht
 uptime
 ```
 
-The first should print `403`. Load should fall over the following minutes.
+The first should print `403`; the same with `-A 'OAI-SearchBot'` should print
+`200`. Load should fall over the following minutes.
 Reverse it with `a2disconf block-bots && systemctl reload apache2`.
 
 ## Packages that quietly take a URL path

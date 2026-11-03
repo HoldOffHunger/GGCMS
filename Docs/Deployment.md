@@ -48,6 +48,16 @@ before cloning — see [Operations.md](Operations.md).
 
 ## Deploying
 
+The host pulls from **Codeberg**, which is the canonical repository, for both
+`/opt/ggcms` and `/opt/ggcms-config`. Work merged on GitHub is not deployable
+until GitHub `main` has been pushed to Codeberg `main`. That is always a plain
+fast-forward; never force it. Before deploying, check the commit is there:
+
+```bash
+git -C /opt/ggcms fetch && git -C /opt/ggcms log origin/main -1
+git -C /opt/ggcms-config fetch && git -C /opt/ggcms-config log origin/main -1
+```
+
 ```bash
 /opt/ggcms/bin/deploy.sh
 ```

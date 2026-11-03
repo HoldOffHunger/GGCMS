@@ -267,7 +267,8 @@ against a copy of the host's log. Read-only.
 It found its first use on the day it was written: on 14 September 2026 only 8%
 of pages came from the cache, 73% of renders carried a query string, and
 `crawlers` put Claude-SearchBot and Amzn-SearchBot at the top with 18,000 and
-4,000 renders in three hours -- both now refused.
+4,000 renders in three hours -- both refused then, and let back in on 29
+October 2026 because they cite and link what they read.
 
 ### Installation — `scripts/public/install/`
 

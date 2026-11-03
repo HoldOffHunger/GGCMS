@@ -40,6 +40,24 @@ live installation rather than estimated.
   and RevoltLib from production's 2 November dump (15,461 entries, about 17
   minutes to load). PHP 8.5 and the other sites' databases are not back yet.
 
+## 2026, October 29
+
+- The AI search crawlers that cite their sources may read the sites again:
+  OAI-SearchBot, ChatGPT-User, Claude-SearchBot, PerplexityBot and
+  Amzn-SearchBot. They had been refused alongside the training crawlers, which
+  kept these sites out of AI answers: 5 readers came from chatgpt.com in
+  September and October, against 13 from Gemini, which reads through
+  Googlebot. robots.php and both server lists in GGCMS_Unhireable dropped the
+  same five, so the three still agree. GPTBot, ClaudeBot and the other
+  training crawlers stay refused. Checked live: OAI-SearchBot gets 200,
+  GPTBot 403.
+
+- The merges sat on GitHub while the host pulled from Codeberg, so the first
+  deploy attempt would have redeployed the old code. Both repositories were
+  fast-forwarded on Codeberg before deploying. Cloudflare went on serving
+  anarchistcode.com's old robots.txt for a while afterwards; the origin was
+  already serving the new one.
+
 ## 2026, October 28
 
 - Saving an entry no longer wrecks a `<pre>` block in its text. modify.php
