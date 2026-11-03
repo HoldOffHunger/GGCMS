@@ -26,6 +26,15 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Kashghar'=>[
+					'khashgar',
+				],
+				'Kurdistan'=>[
+					'kurdestan',
+				],
+				'Künstlerroman'=>[
+					'kunstleroman',
+				],
 				'kabar'=>[
 					'kaber',
 				],
@@ -57,6 +66,9 @@
 				],
 				'kachina'=>[
 					'kachini',
+				],
+				'kaempferol'=>[
+					'kaempherol',
 				],
 				'kaffeeklatsch'=>[
 					'kaffeeklatch',
@@ -106,6 +118,7 @@
 				],
 				'kallikrein'=>[
 					'kallikrien',
+					'kallekrein',
 				],
 				'kallikreins'=>[
 					'kallikriens',
@@ -115,6 +128,9 @@
 				],
 				'kampuchean-occupied'=>[
 					'kampuchean occupied',
+				],
+				'kanosamine'=>[
+					'kansosamine',
 				],
 				'kantar'=>[
 					'kentar',
@@ -143,8 +159,23 @@
 				'karroo'=>[
 					'karoo',
 				],
+				'karyogram'=>[
+					'karogram',
+				],
 				'karyokinesis'=>[
 					'karyokinisis',
+				],
+				'karyopyknosis'=>[
+					'karyopycnosis',
+				],
+				'karyorrhexic'=>[
+					'karyorhexic',
+				],
+				'karyothecal'=>[
+					'keriothecal',
+				],
+				'karyotype'=>[
+					'karotype',
 				],
 				'kasbah'=>[
 					'kasba',
@@ -152,8 +183,14 @@
 				'kasbahs'=>[
 					'kasbas',
 				],
+				'kasugamycin'=>[
+					'kasugamicin',
+				],
 				'katcina'=>[
 					'katcini',
+				],
+				'katoptron'=>[
+					'kataptron',
 				],
 				'katzenjammer'=>[
 					'katzenjamner',
@@ -295,6 +332,9 @@
 					'kept kept',
 					'kept kept kept',
 				],
+				'keratinaceous'=>[
+					'keratinacious',
+				],
 				'keratinization'=>[
 					'keratinazation',
 				],
@@ -313,9 +353,30 @@
 				'keratinizing'=>[
 					'keratinazing',
 				],
+				'keratinocyte'=>[
+					'kerotinocyte',
+					'kertinocyte',
+				],
+				'keratoacanthoma'=>[
+					'kerathoacanthoma',
+					'keratocanthoma',
+				],
+				'keratoconjunctival'=>[
+					'keratoconjuctival',
+				],
+				'keratoconjunctivitis'=>[
+					'keratoconjuctivitis',
+				],
+				'keratoconus'=>[
+					'keratokonus',
+				],
 				'kerchief'=>[
 					'kercheif',
 					'kerchif',
+				],
+				'kerfuffle'=>[
+					'caffufle',
+					'cafuffle',
 				],
 				'kerria'=>[
 					'keria',
@@ -323,8 +384,20 @@
 				'kerry'=>[
 					'kery',
 				],
+				'kestrel'=>[
+					'kestral',
+				],
 				'ketamine'=>[
 					'ketamini',
+				],
+				'ketogenetic'=>[
+					'ketogenesic',
+				],
+				'ketoglutarate'=>[
+					'ketogluterate',
+				],
+				'ketone'=>[
+					'keytone',
 				],
 				'key'=>[
 					'key key',
@@ -353,6 +426,9 @@
 				],
 				'khirkahs'=>[
 					'khirkas',
+				],
+				'khubz'=>[
+					'kebz',
 				],
 				'kibbe'=>[
 					'kibe',
@@ -448,6 +524,9 @@
 				'kilobar'=>[
 					'kilober',
 				],
+				'kilobecquerel'=>[
+					'kilobequerel',
+				],
 				'kilocalorie'=>[
 					'kilocalorei',
 					'kilocalori',
@@ -475,6 +554,7 @@
 				],
 				'kinase'=>[
 					'kinise',
+					'kianse',
 				],
 				'kinases'=>[
 					'kinises',
@@ -482,6 +562,10 @@
 				'kind'=>[
 					'kind kind',
 					'kind kind kind',
+				],
+				'kind of'=>[
+					'kind\'ve',
+					'kindof',
 				],
 				'kindergarten'=>[
 					'kindergarden',
@@ -493,6 +577,11 @@
 					'kindergardens',
 					'kindnergardens',
 					'kindnergartens',
+				],
+				'kindergartner'=>[
+					'kindegardner',
+					'kindergardener',
+					'kindergardner',
 				],
 				'kindhearted'=>[
 					'kindherted',
@@ -516,6 +605,9 @@
 				'kinematics'=>[
 					'kinimatics',
 				],
+				'kinematogram'=>[
+					'kinomatogram',
+				],
 				'kines'=>[
 					'kinis',
 				],
@@ -530,6 +622,9 @@
 				],
 				'kinesthesia'=>[
 					'kinisthesia',
+				],
+				'kinesthetic'=>[
+					'kinesthesic',
 				],
 				'kinesthetically'=>[
 					'kinisthetically',
@@ -548,6 +643,7 @@
 				],
 				'kinetoplast'=>[
 					'kinitoplast',
+					'kintoplast',
 				],
 				'kinetoscope'=>[
 					'kinetocope',
@@ -570,6 +666,9 @@
 				],
 				'kinin'=>[
 					'kinan',
+				],
+				'kininogen'=>[
+					'kinogen',
 				],
 				'kinins'=>[
 					'kinans',
@@ -904,9 +1003,13 @@
 					'knowledgeible',
 					'kowledgeable',
 				],
+				'knowledgeableness'=>[
+					'knowledgableness',
+				],
 				'knowledgeably'=>[
 					'knowlegeably',
 					'kowledgeably',
+					'knowledgably',
 				],
 				'knowledges'=>[
 					'knowleges',
@@ -935,11 +1038,17 @@
 				'knucklehead'=>[
 					'knucklehed',
 				],
+				'knurled'=>[
+					'gnurled',
+				],
 				'koine'=>[
 					'koini',
 				],
 				'koines'=>[
 					'koinis',
+				],
+				'koinobiont'=>[
+					'kionobiont',
 				],
 				'kolkhosy'=>[
 					'kolkhocy',
@@ -992,6 +1101,7 @@
 				],
 				'kumquat'=>[
 					'kumqaut',
+					'komquat',
 				],
 				'kundalini'=>[
 					'kundalina',
@@ -1016,6 +1126,13 @@
 				],
 				'kyar'=>[
 					'kyer',
+				],
+				'kymograph'=>[
+					'chimograph',
+					'kimograph',
+				],
+				'kynurenine'=>[
+					'kinurenine',
 				],
 			];
 		}

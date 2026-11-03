@@ -32,6 +32,16 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Qantas'=>[
+					'quantas',
+				],
+				'Quebec'=>[
+					'qubec',
+					'qubeck',
+				],
+				'Qur\'an'=>[
+					'qu\'ran',
+				],
 				'qabalah'=>[
 					'qabala',
 				],
@@ -40,6 +50,9 @@
 				],
 				'qindar'=>[
 					'qinder',
+				],
+				'qinghaosu'=>[
+					'quinghaosu',
 				],
 				'qintar'=>[
 					'qinter',
@@ -65,6 +78,9 @@
 				'quadplex'=>[
 					'qaudplex',
 				],
+				'quadragenarian'=>[
+					'quadragenerian',
+				],
 				'quadrangle'=>[
 					'qaudrangle',
 				],
@@ -75,6 +91,9 @@
 				'quadrant'=>[
 					'qaudrant',
 					'quadrent',
+				],
+				'quadrantal'=>[
+					'quadrantial',
 				],
 				'quadraphonic'=>[
 					'qaudraphonic',
@@ -96,6 +115,9 @@
 				],
 				'quadratics'=>[
 					'qaudratics',
+				],
+				'quadratojugal'=>[
+					'quadrojugal',
 				],
 				'quadrature'=>[
 					'qaudrature',
@@ -130,6 +152,9 @@
 				'quadriga'=>[
 					'qaudriga',
 				],
+				'quadrigeminal'=>[
+					'quadrageminal',
+				],
 				'quadrilateral'=>[
 					'qaudrilateral',
 				],
@@ -152,6 +177,12 @@
 				],
 				'quadrillionths'=>[
 					'qaudrillionths',
+				],
+				'quadrimodal'=>[
+					'quadramodal',
+				],
+				'quadriparesis'=>[
+					'quadraparesis',
 				],
 				'quadripartite'=>[
 					'qaudripartite',
@@ -217,6 +248,9 @@
 				'quadruplet'=>[
 					'qaudruplet',
 				],
+				'quadruplex'=>[
+					'quadraplex',
+				],
 				'quadruplicate'=>[
 					'qaudruplicate',
 				],
@@ -241,6 +275,7 @@
 				'quadrupole'=>[
 					'qaudrupole',
 					'quadrapole',
+					'quadropole',
 				],
 				'quads'=>[
 					'qauds',
@@ -409,6 +444,7 @@
 					'qaundary',
 					'quandery',
 					'quandry',
+					'quandrary',
 				],
 				'quandong'=>[
 					'qaundong',
@@ -684,6 +720,9 @@
 				'quasi'=>[
 					'qausi',
 				],
+				'quasibinomial'=>[
+					'quasibinominal',
+				],
 				'quasicrystal'=>[
 					'qausicrystal',
 				],
@@ -751,6 +790,12 @@
 				'quattrocento'=>[
 					'qauttrocento',
 					'quattrocanto',
+				],
+				'quattuorvir'=>[
+					'quatuorvir',
+				],
+				'quattuorvirate'=>[
+					'quatuorvirate',
 				],
 				'quaver'=>[
 					'qauver',
@@ -845,9 +890,11 @@
 					'quicklyu',
 					'quicky',
 					'quikly',
+					'quickley',
 				],
 				'quiescence'=>[
 					'quiescance',
+					'quiesence',
 				],
 				'quiescent'=>[
 					'queiscent',
@@ -1017,6 +1064,7 @@
 				],
 				'quodlibet'=>[
 					'qodlibet',
+					'quodilibet',
 				],
 				'quodlibets'=>[
 					'qodlibets',
@@ -1091,6 +1139,7 @@
 				'quotable'=>[
 					'qotable',
 					'quotible',
+					'quoteable',
 				],
 				'quotably'=>[
 					'qotably',

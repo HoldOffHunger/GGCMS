@@ -26,6 +26,9 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Largactil'=>[
+					'largactyl',
+				],
 				'Leagers'=>[
 					'Leaqers',
 				],
@@ -54,6 +57,7 @@
 				],
 				'label'=>[
 					'lable',
+					'labell',
 				],
 				'labeled'=>[
 					'labellled',
@@ -75,6 +79,7 @@
 				'laboratory'=>[
 					'labatory',
 					'labratory',
+					'labouratory',
 				],
 				'laborer'=>[
 					'1aborer',
@@ -87,6 +92,12 @@
 				'laboriously'=>[
 					'laborously',
 					'labouriously',
+				],
+				'laboriousness'=>[
+					'labouriousness',
+				],
+				'labyrinth'=>[
+					'labryinth',
 				],
 				'labyrinthian'=>[
 					'labyrinthan',
@@ -109,14 +120,29 @@
 				'lack'=>[
 					'laclr',
 				],
+				'lackadaisical'=>[
+					'laxadaisical',
+				],
 				'lacrosse'=>[
 					'lacrose',
 				],
 				'lactary'=>[
 					'lactery',
 				],
+				'lactimidomycin'=>[
+					'lactidomycin',
+				],
+				'lactitol'=>[
+					'lactitiol',
+				],
 				'lactobacillus'=>[
 					'lactobacilus',
+				],
+				'lactometer'=>[
+					'lactimeter',
+				],
+				'lactose'=>[
+					'laxtose',
 				],
 				'lacunar'=>[
 					'lacuner',
@@ -199,6 +225,13 @@
 				'lambda'=>[
 					'lamda',
 				],
+				'lambdoid'=>[
+					'lamboid',
+					'lamdoid',
+				],
+				'lambdoidal'=>[
+					'lamboidal',
+				],
 				'lambency'=>[
 					'lambensy',
 				],
@@ -213,6 +246,9 @@
 				],
 				'lamellibranch'=>[
 					'lamelibranch',
+				],
+				'lamellipodium'=>[
+					'lamellopodium',
 				],
 				'lamely'=>[
 					'lamly',
@@ -282,6 +318,10 @@
 				],
 				'laminitises'=>[
 					'laminatises',
+				],
+				'lamivudine'=>[
+					'lamifudine',
+					'lamuvidine',
 				],
 				'lammed'=>[
 					'lamned',
@@ -399,6 +439,7 @@
 				],
 				'languor'=>[
 					'langor',
+					'langour',
 				],
 				'languorous'=>[
 					'langorous',
@@ -431,8 +472,14 @@
 				'lanthanide'=>[
 					'lenthanide',
 				],
+				'lanthanoid'=>[
+					'lantanoid',
+				],
 				'lanthanum'=>[
 					'lenthanum',
+				],
+				'lantibiotic'=>[
+					'lanthibiotic',
 				],
 				'laparoscope'=>[
 					'laparocope',
@@ -466,6 +513,7 @@
 				],
 				'laparotomy'=>[
 					'laperotomy',
+					'laparatomy',
 				],
 				'lapidarian'=>[
 					'lapidaran',
@@ -520,6 +568,7 @@
 					'laryngocope',
 					'laryngocsope',
 					'laryngosope',
+					'laryngeoscope',
 				],
 				'larynx'=>[
 					'larnyx',
@@ -557,6 +606,7 @@
 				],
 				'lasso'=>[
 					'laso',
+					'lassoo',
 				],
 				'last'=>[
 					'last last',
@@ -641,6 +691,10 @@
 				'latrine'=>[
 					'latrini',
 				],
+				'latrunculin'=>[
+					'lantrunculin',
+					'latranculin',
+				],
 				'latvian-occupied'=>[
 					'latvian occupied',
 				],
@@ -659,6 +713,9 @@
 				],
 				'laughable'=>[
 					'laughible',
+				],
+				'laulimalide'=>[
+					'laulilamide',
 				],
 				'launch'=>[
 					'lauch',
@@ -894,6 +951,13 @@
 				'lecithinase'=>[
 					'lecithinise',
 				],
+				'lecithotrophic'=>[
+					'lecithotropic',
+					'lecitotrophic',
+				],
+				'lecithotrophy'=>[
+					'lecitotrophy',
+				],
 				'lectionary'=>[
 					'lectionery',
 				],
@@ -951,6 +1015,9 @@
 					'legendery',
 					'legendry',
 				],
+				'legerdemain'=>[
+					'ledgerdemain',
+				],
 				'legged'=>[
 					'leged',
 				],
@@ -1000,6 +1067,7 @@
 				],
 				'legitimacy'=>[
 					'legitimasy',
+					'legitimity',
 				],
 				'legitimate'=>[
 					'legimate',
@@ -1167,6 +1235,9 @@
 				'lense'=>[
 					'lence',
 				],
+				'lensless'=>[
+					'lenseless',
+				],
 				'lent'=>[
 					'lant',
 				],
@@ -1200,8 +1271,27 @@
 				'leopards'=>[
 					'leoperds',
 				],
+				'lepetodrilid'=>[
+					'lepetodrillid',
+				],
+				'lepidocrocite'=>[
+					'lepidicrocite',
+					'lepodocrocite',
+				],
+				'leporine'=>[
+					'laprine',
+				],
 				'leprosy'=>[
 					'leprocy',
+				],
+				'leptokurtic'=>[
+					'leptocurtic',
+				],
+				'leptomeningeal'=>[
+					'leptomeningial',
+				],
+				'leptomeninges'=>[
+					'leptomeniges',
 				],
 				'lesbian'=>[
 					'lesban',
@@ -1261,6 +1351,24 @@
 					'luekemia',
 					'lukemia',
 				],
+				'leukoaraiosis'=>[
+					'leukoariosis',
+				],
+				'leukocytoclastic'=>[
+					'leucocytoclastic',
+				],
+				'leukocytopenia'=>[
+					'leucocytopenia',
+				],
+				'leukocytotropic'=>[
+					'leukocytotrophic',
+				],
+				'leukocyturia'=>[
+					'leucocytouria',
+				],
+				'leukodystrophy'=>[
+					'leukodystropy',
+				],
 				'leukopoiesis'=>[
 					'leukopoeisis',
 					'leukopoisis',
@@ -1271,6 +1379,14 @@
 				'leukotriene'=>[
 					'leukotreine',
 					'leukotrine',
+					'leucotriene',
+				],
+				'leupeptin'=>[
+					'leupepdine',
+					'luepeptin',
+				],
+				'levamisole'=>[
+					'lavamisol',
 				],
 				'levant'=>[
 					'levent',
@@ -1295,14 +1411,26 @@
 				'leveling'=>[
 					'levellling',
 				],
+				'levetiracetam'=>[
+					'leviteracetam',
+				],
 				'leviable'=>[
 					'leviible',
 				],
 				'levitate'=>[
 					'levetate',
 				],
+				'levofloxacin'=>[
+					'lexofloxacin',
+				],
+				'levonorgestrel'=>[
+					'levonogestrel',
+				],
 				'levorotary'=>[
 					'levorotery',
+				],
+				'lexicographical'=>[
+					'lexigraphical',
 				],
 				'lexicon'=>[
 					'lexion',
@@ -1392,6 +1520,9 @@
 				'licentiously'=>[
 					'licentously',
 				],
+				'lichenase'=>[
+					'lichinase',
+				],
 				'lichened'=>[
 					'lichend',
 				],
@@ -1403,6 +1534,7 @@
 				],
 				'lidocaine'=>[
 					'lidocaini',
+					'idocaine',
 				],
 				'lie'=>[
 					'lei',
@@ -1521,8 +1653,14 @@
 				'lignocellulose'=>[
 					'lignocelulose',
 				],
+				'lignoceric'=>[
+					'lignoseric',
+				],
 				'ligular'=>[
 					'liguler',
+				],
+				'ligustroside'=>[
+					'ligstroside',
 				],
 				'likable'=>[
 					'likeable',
@@ -1632,6 +1770,10 @@
 				],
 				'lincolnshire'=>[
 					'linconshire',
+				],
+				'lincomycin'=>[
+					'lincomysin',
+					'lyncomicin',
 				],
 				'line'=>[
 					'line line',
@@ -1752,11 +1894,61 @@
 				'lioness'=>[
 					'liones',
 				],
+				'liothyronine'=>[
+					'lyothyronine',
+				],
+				'lipidated'=>[
+					'lipodated',
+				],
+				'lipidomic'=>[
+					'lipodomic',
+				],
+				'lipoarabinomannan'=>[
+					'lipoarabinomanan',
+					'lipoarabinomanann',
+				],
+				'lipodystrophic'=>[
+					'lipodistrophic',
+				],
+				'lipodystrophy'=>[
+					'lipodistrophy',
+				],
+				'lipofectamine'=>[
+					'lifectamine',
+				],
+				'lipofuscin'=>[
+					'lipofucsin',
+					'lipofusin',
+				],
+				'lipofuscinosis'=>[
+					'lipofuchsinosis',
+				],
+				'lipohypertrophy'=>[
+					'lypohypertrophy',
+				],
+				'lipophilic'=>[
+					'lypophilic',
+				],
+				'lipophosphoglycan'=>[
+					'lypophosphoglycan',
+				],
+				'lipopolysaccharide'=>[
+					'lypopolysaccharide',
+				],
 				'lipoprotein'=>[
 					'lipoprotien',
 				],
+				'lipoproteinaceous'=>[
+					'lipoproteinacious',
+				],
 				'lipoproteins'=>[
 					'lipoprotiens',
+				],
+				'lipoteichoic'=>[
+					'lipotechoic',
+				],
+				'lipotropic'=>[
+					'lipotrophic',
 				],
 				'lippened'=>[
 					'lippend',
@@ -1844,6 +2036,11 @@
 					'literallly',
 					'literaly',
 					'litterally',
+					'litrally',
+					'litreally',
+					'litteraly',
+					'litterly',
+					'liturally',
 				],
 				'literarinesses'=>[
 					'literarinisses',
@@ -1862,6 +2059,12 @@
 				],
 				'lithely'=>[
 					'lithly',
+				],
+				'lithopedion'=>[
+					'lithopedian',
+				],
+				'lithostathine'=>[
+					'lithostatine',
 				],
 				'lithotripsy'=>[
 					'lithotripcy',
@@ -1911,6 +2114,9 @@
 				'lived'=>[
 					'liued',
 				],
+				'livelihood'=>[
+					'livelyhood',
+				],
 				'lively'=>[
 					'liveally',
 					'livealy',
@@ -1937,6 +2143,9 @@
 				],
 				'living'=>[
 					'livmg',
+				],
+				'lixiviation'=>[
+					'lixivation',
 				],
 				'llama'=>[
 					'lllama',
@@ -1986,6 +2195,9 @@
 					'loblolely',
 					'loblollly',
 				],
+				'lobotomy'=>[
+					'labotomy',
+				],
 				'locally'=>[
 					'localy',
 				],
@@ -2007,6 +2219,9 @@
 				],
 				'locomotive'=>[
 					'locamotive',
+				],
+				'locomotor'=>[
+					'locomoter',
 				],
 				'locular'=>[
 					'loculer',
@@ -2032,6 +2247,7 @@
 					'logarithmicalaly',
 					'logarithmicalely',
 					'logarithmicallly',
+					'logarithmicly',
 				],
 				'logged'=>[
 					'llogged',
@@ -2137,6 +2353,9 @@
 				'longeing'=>[
 					'longieng',
 				],
+				'longevous'=>[
+					'longevious',
+				],
 				'longheadedness'=>[
 					'longhededness',
 				],
@@ -2148,6 +2367,7 @@
 				],
 				'longitudinal'=>[
 					'longitudinil',
+					'longtitudinal',
 				],
 				'longitudinally'=>[
 					'longitudinalally',
@@ -2155,6 +2375,7 @@
 					'longitudinalely',
 					'longitudinallly',
 					'longitudinilly',
+					'longintudinally',
 				],
 				'longline'=>[
 					'longlini',
@@ -2188,6 +2409,12 @@
 				'loosened'=>[
 					'loosend',
 				],
+				'loperamide'=>[
+					'loperimide',
+				],
+				'lophotrochozoan'=>[
+					'locotrophozoan',
+				],
 				'loppers'=>[
 					'lopers',
 				],
@@ -2203,6 +2430,7 @@
 				'loquacious'=>[
 					'loqaucious',
 					'loquacous',
+					'loquatious',
 				],
 				'loquaciously'=>[
 					'loqauciously',
@@ -2210,12 +2438,16 @@
 				],
 				'loquaciousness'=>[
 					'loqauciousness',
+					'loquatiousness',
 				],
 				'loquacity'=>[
 					'loqaucity',
 				],
 				'loquat'=>[
 					'loqaut',
+				],
+				'loratadine'=>[
+					'loratidine',
 				],
 				'lordly'=>[
 					'lordally',
@@ -2306,6 +2538,9 @@
 					'loveable',
 					'lovible',
 				],
+				'lovastatin'=>[
+					'lavastatin',
+				],
 				'love'=>[
 					'loev',
 					'love love',
@@ -2391,6 +2626,12 @@
 					'lucidely',
 					'lucidlly',
 				],
+				'luciferase'=>[
+					'lusiferase',
+				],
+				'lucifugous'=>[
+					'lucifugus',
+				],
 				'luckily'=>[
 					'luckially',
 					'luckialy',
@@ -2400,6 +2641,9 @@
 				],
 				'lucky'=>[
 					'lukcy',
+				],
+				'lucrative'=>[
+					'lucerative',
 				],
 				'luggage'=>[
 					'lugage',
@@ -2413,6 +2657,9 @@
 				'lugubriously'=>[
 					'lugubrously',
 				],
+				'lukast'=>[
+					'leukast',
+				],
 				'lull'=>[
 					'lul',
 				],
@@ -2421,6 +2668,12 @@
 				],
 				'lumbar'=>[
 					'lumbbar',
+				],
+				'lumboperitoneal'=>[
+					'lumboperitonial',
+				],
+				'lumefantrine'=>[
+					'lumafantrine',
 				],
 				'lumina'=>[
 					'lumini',
@@ -2461,6 +2714,15 @@
 				],
 				'luminism'=>[
 					'luminasm',
+				],
+				'luminography'=>[
+					'lumenography',
+				],
+				'luminometer'=>[
+					'lumenometer',
+				],
+				'luminosity'=>[
+					'luminousity',
 				],
 				'lummox'=>[
 					'lumnox',
@@ -2507,6 +2769,9 @@
 				'lusciously'=>[
 					'luscously',
 				],
+				'lustrous'=>[
+					'lusterous',
+				],
 				'lutein'=>[
 					'lutien',
 				],
@@ -2531,6 +2796,9 @@
 				'luteinizing'=>[
 					'luteinazing',
 					'lutienizing',
+				],
+				'lutidine'=>[
+					'lutidiene',
 				],
 				'luxuriance'=>[
 					'luxurience',
@@ -2559,17 +2827,70 @@
 				'lying'=>[
 					'lieing',
 				],
+				'lymphangiomyomatosis'=>[
+					'lymphangiomyelomatosis',
+				],
+				'lymphocytic'=>[
+					'lymphacytic',
+				],
+				'lymphocytotropic'=>[
+					'lymphocytotrophic',
+				],
+				'lymphohematopoietic'=>[
+					'lymphohematopoeitic',
+					'lymphohemopoietic',
+				],
+				'lymphohistiocytic'=>[
+					'lymphohistocytic',
+				],
+				'lymphohistiocytosis'=>[
+					'lymphohistocytosis',
+				],
 				'lymphokine'=>[
 					'lymphokini',
+				],
+				'lymphopenia'=>[
+					'lymphophenia',
+				],
+				'lymphoplasmacytoid'=>[
+					'lymphoplasmocytoid',
+				],
+				'lymphoproliferation'=>[
+					'lymphoproloferation',
+				],
+				'lymphotropic'=>[
+					'lymphatrophic',
+					'lymphotrophic',
 				],
 				'lyonnaise'=>[
 					'lyonaise',
 				],
+				'lyophilized'=>[
+					'lyophylized',
+				],
+				'lyotropic'=>[
+					'lysotropic',
+				],
 				'lyrately'=>[
 					'lyratly',
 				],
+				'lysianassid'=>[
+					'lyssianassid',
+				],
 				'lysine'=>[
 					'lysini',
+				],
+				'lysophospholipase'=>[
+					'lysophopholipase',
+				],
+				'lysosomotropic'=>[
+					'lysomotropic',
+					'lysosomatropic',
+					'lysosomotrophic',
+					'lysozomotropic',
+				],
+				'lysostaphin'=>[
+					'lisostaphine',
 				],
 				'lyssa'=>[
 					'lysa',

@@ -53,6 +53,9 @@
 				'dabblings'=>[
 					'dablings',
 				],
+				'dacarbazine'=>[
+					'decarbazine',
+				],
 				'dachshund'=>[
 					'daschund',
 				],
@@ -61,6 +64,9 @@
 				],
 				'dacquoises'=>[
 					'dacqoises',
+				],
+				'dactinomycin'=>[
+					'dactinomicine',
 				],
 				'dactylologies'=>[
 					'dactylologeis',
@@ -84,6 +90,7 @@
 				],
 				'daguerreotype'=>[
 					'daguereotype',
+					'daguerrotype',
 				],
 				'daguerreotyped'=>[
 					'daguereotyped',
@@ -104,6 +111,7 @@
 				],
 				'daguerreotypy'=>[
 					'daguereotypy',
+					'daguerrotypy',
 				],
 				'dahabeah'=>[
 					'dahabea',
@@ -160,6 +168,9 @@
 					'daially',
 					'daialy',
 					'dailly',
+				],
+				'daiquiri'=>[
+					'daquiri',
 				],
 				'daisy'=>[
 					'daicy',
@@ -243,6 +254,10 @@
 				],
 				'danceable'=>[
 					'danceible',
+					'dancable',
+				],
+				'danceathon'=>[
+					'dancathon',
 				],
 				'dancing'=>[
 					'danceing',
@@ -321,6 +336,9 @@
 					'dastardaly',
 					'dastardely',
 					'dastardlly',
+				],
+				'dasymetric'=>[
+					'dasometric',
 				],
 				'data'=>[
 					'datas',
@@ -427,6 +445,12 @@
 				'de peyster'=>[
 					'depester',
 				],
+				'deacetylase'=>[
+					'deactylase',
+				],
+				'deacetylation'=>[
+					'deactylation',
+				],
 				'deacidification'=>[
 					'decidification',
 				],
@@ -454,6 +478,9 @@
 				],
 				'deadening'=>[
 					'dedening',
+				],
+				'deadenylation'=>[
+					'deadenylylation',
 				],
 				'deadline'=>[
 					'deadlini',
@@ -490,6 +517,9 @@
 				'deafening'=>[
 					'defening',
 				],
+				'deafferentation'=>[
+					'deafferenation',
+				],
 				'deal'=>[
 					'dael',
 					'deal deal',
@@ -511,6 +541,7 @@
 				],
 				'deaminase'=>[
 					'deaminise',
+					'diaminase',
 				],
 				'deaminate'=>[
 					'deaminite',
@@ -536,6 +567,7 @@
 				],
 				'dearth'=>[
 					'derth',
+					'dirth',
 				],
 				'deary'=>[
 					'deery',
@@ -544,6 +576,9 @@
 					'death death',
 					'death death death',
 					'deth',
+				],
+				'death threat'=>[
+					'deathreat',
 				],
 				'deathlessly'=>[
 					'deathlessally',
@@ -645,6 +680,15 @@
 				'decahedrons'=>[
 					'decaedrons',
 				],
+				'decalcified'=>[
+					'descalcified',
+				],
+				'decalogies'=>[
+					'decologies',
+				],
+				'decalogy'=>[
+					'decology',
+				],
 				'decant'=>[
 					'decont',
 				],
@@ -705,6 +749,9 @@
 				'deceivingly'=>[
 					'decievingly',
 				],
+				'deceleratory'=>[
+					'decelleratory',
+				],
 				'december'=>[
 					'decemeber',
 					'decemer',
@@ -756,6 +803,7 @@
 				],
 				'dechlorination'=>[
 					'dechlorinition',
+					'dechorination',
 				],
 				'dechlorinations'=>[
 					'dechlorinitions',
@@ -823,6 +871,9 @@
 				],
 				'declaratively'=>[
 					'declarativly',
+				],
+				'declare'=>[
+					'declaire',
 				],
 				'declared'=>[
 					'decered',
@@ -931,6 +982,12 @@
 				'decoratively'=>[
 					'decorativly',
 				],
+				'decorous'=>[
+					'decourous',
+				],
+				'decorrelation'=>[
+					'decorrellation',
+				],
 				'decouple'=>[
 					'decuplate',
 					'decuple',
@@ -993,6 +1050,9 @@
 				],
 				'defamation'=>[
 					'diffamation',
+				],
+				'defasciculation'=>[
+					'defasiculation',
 				],
 				'defeasance'=>[
 					'defeasence',
@@ -1081,11 +1141,21 @@
 				'deferential'=>[
 					'deferantial',
 				],
+				'deferoxamine'=>[
+					'deferoxime',
+					'deferoximine',
+					'deferrioxamine',
+					'deferroxamine',
+					'deforoxamine',
+					'defroxamine',
+					'defuroxamine',
+				],
 				'deferral'=>[
 					'deferal',
 				],
 				'deferred'=>[
 					'defered',
+					'deffered',
 				],
 				'deferring'=>[
 					'defering',
@@ -1252,6 +1322,9 @@
 				'defusing'=>[
 					'defuisng',
 				],
+				'defuzzification'=>[
+					'defuzzyfication',
+				],
 				'degeneracies'=>[
 					'degeneraceis',
 					'degeneracis',
@@ -1261,6 +1334,9 @@
 				],
 				'degenerately'=>[
 					'degeneratly',
+				],
+				'degeneration'=>[
+					'degeration',
 				],
 				'deglamorization'=>[
 					'deglamourization',
@@ -1276,6 +1352,9 @@
 				],
 				'deglamorizing'=>[
 					'deglamourizing',
+				],
+				'deglycosylation'=>[
+					'deglycosilation',
 				],
 				'degradable'=>[
 					'degradible',
@@ -1320,6 +1399,9 @@
 				'dehumidifies'=>[
 					'dehumidifeis',
 					'dehumidifis',
+				],
+				'dehydration'=>[
+					'dehydratation',
 				],
 				'deice'=>[
 					'diece',
@@ -1536,6 +1618,7 @@
 				],
 				'delinquency'=>[
 					'delinquensy',
+					'delinquincy',
 				],
 				'delinquent'=>[
 					'delinquant',
@@ -1589,6 +1672,9 @@
 				'deltoidei'=>[
 					'deltoidie',
 				],
+				'deltorphin'=>[
+					'deltrophin',
+				],
 				'delusion'=>[
 					'deluison',
 				],
@@ -1614,6 +1700,9 @@
 				],
 				'delusivenesses'=>[
 					'deluisvenesses',
+				],
+				'demagogue'=>[
+					'demogogue',
 				],
 				'demagogueries'=>[
 					'demagoguereis',
@@ -1644,6 +1733,7 @@
 				],
 				'demented'=>[
 					'demanted',
+					'dimented',
 				],
 				'dementedly'=>[
 					'dementedally',
@@ -1653,6 +1743,11 @@
 				],
 				'dementia'=>[
 					'demantia',
+					'dimensia',
+					'dimentia',
+				],
+				'demetallated'=>[
+					'demetalated',
 				],
 				'demimondaine'=>[
 					'demimondaini',
@@ -1707,6 +1802,9 @@
 				],
 				'demokrat'=>[
 					'deraokrat',
+				],
+				'demonetized'=>[
+					'demonitized',
 				],
 				'demonian'=>[
 					'demonan',
@@ -1764,6 +1862,9 @@
 				'demoralizingly'=>[
 					'demouralizingly',
 				],
+				'demulcent'=>[
+					'demulcant',
+				],
 				'demurely'=>[
 					'demurly',
 				],
@@ -1776,15 +1877,33 @@
 				'demurrer'=>[
 					'demurer',
 				],
+				'demyelinating'=>[
+					'demylinating',
+				],
+				'demyelination'=>[
+					'demyelization',
+				],
 				'denar'=>[
 					'dener',
 				],
 				'denary'=>[
 					'denery',
 				],
+				'dendritic'=>[
+					'dentritic',
+				],
+				'dendritogenesis'=>[
+					'dentritogenesis',
+				],
+				'dendrogram'=>[
+					'dendogram',
+				],
 				'dendrologies'=>[
 					'dendrologeis',
 					'dendrologis',
+				],
+				'dendrophylliid'=>[
+					'dendrophyliid',
 				],
 				'deniabilities'=>[
 					'deniabiliteis',
@@ -1797,8 +1916,17 @@
 					'deneir',
 					'denir',
 				],
+				'denigrate'=>[
+					'denegrate',
+				],
 				'denigrating'=>[
 					'denegrating',
+				],
+				'denitrification'=>[
+					'dentrification',
+				],
+				'denitrifier'=>[
+					'dentrifier',
 				],
 				'denitrifiers'=>[
 					'denitrifeirs',
@@ -1823,11 +1951,20 @@
 				'denominator'=>[
 					'denominitor',
 				],
+				'denosumab'=>[
+					'denasumab',
+				],
 				'dense'=>[
 					'dence',
 				],
 				'densely'=>[
 					'densly',
+				],
+				'densimetric'=>[
+					'densometric',
+				],
+				'densimetrically'=>[
+					'densometrically',
 				],
 				'dent'=>[
 					'dant',
@@ -1988,10 +2125,26 @@
 				],
 				'deodorant'=>[
 					'deodorent',
+					'deoderant',
 				],
 				'deontologies'=>[
 					'deontologeis',
 					'deontologis',
+				],
+				'deoxyadenosine'=>[
+					'deoxyadenine',
+				],
+				'deoxycholate'=>[
+					'deoxylate',
+				],
+				'deoxypyridoxine'=>[
+					'deoxypiridoxine',
+				],
+				'deoxyribonuclease'=>[
+					'deoxiribonuclease',
+				],
+				'deoxyuridine'=>[
+					'desoxiuridine',
 				],
 				'departed'=>[
 					'deperted',
@@ -2038,6 +2191,9 @@
 				'departure'=>[
 					'depature',
 					'deperture',
+				],
+				'depauperate'=>[
+					'depaurate',
 				],
 				'depend'=>[
 					'depend depend',
@@ -2098,6 +2254,9 @@
 					'deplorabely',
 					'deplorablly',
 				],
+				'depolymerizing'=>[
+					'depolymerizating',
+				],
 				'deportable'=>[
 					'deportible',
 				],
@@ -2149,6 +2308,9 @@
 				'deputable'=>[
 					'deputible',
 				],
+				'depyrimidination'=>[
+					'depyrimidation',
+				],
 				'deracinate'=>[
 					'deracinite',
 				],
@@ -2160,6 +2322,12 @@
 				],
 				'derealizations'=>[
 					'derelizations',
+				],
+				'dereferenceable'=>[
+					'dereferencable',
+				],
+				'derelict'=>[
+					'derilict',
 				],
 				'derepressing'=>[
 					'derepresing',
@@ -2179,6 +2347,9 @@
 				'derivatively'=>[
 					'derivativly',
 				],
+				'derivatization'=>[
+					'derivitization',
+				],
 				'derived'=>[
 					'derivated',
 					'deriviated',
@@ -2191,6 +2362,18 @@
 				'dermatologies'=>[
 					'dermatologeis',
 					'dermatologis',
+				],
+				'dermatomyositis'=>[
+					'dematomyositis',
+				],
+				'dermatophytosis'=>[
+					'dermathopytosis',
+				],
+				'dermcidin'=>[
+					'dermicidin',
+				],
+				'dermotropic'=>[
+					'dermotrophic',
 				],
 				'derogatory'=>[
 					'derogitory',
@@ -2308,6 +2491,7 @@
 					'decsription',
 					'desription',
 					'discription',
+					'desciption',
 				],
 				'descriptive'=>[
 					'decriptive',
@@ -2337,6 +2521,9 @@
 					'desert desert',
 					'desert desert desert',
 				],
+				'deserve'=>[
+					'diserve',
+				],
 				'desexualization'=>[
 					'desexaulization',
 				],
@@ -2355,6 +2542,7 @@
 				],
 				'desiccate'=>[
 					'desicate',
+					'dessicate',
 				],
 				'desiccated'=>[
 					'desicated',
@@ -2378,6 +2566,8 @@
 				],
 				'desiccator'=>[
 					'desicator',
+					'dessicator',
+					'dessiccator',
 				],
 				'desiccators'=>[
 					'desicators',
@@ -2386,6 +2576,7 @@
 					'desgin',
 					'design design',
 					'design design design',
+					'desighn',
 				],
 				'designate'=>[
 					'desginate',
@@ -2434,8 +2625,20 @@
 				'desistance'=>[
 					'desistence',
 				],
+				'desloratadine'=>[
+					'desloratidine',
+				],
 				'desmidian'=>[
 					'desmidan',
+				],
+				'desmoglein'=>[
+					'desmogelin',
+				],
+				'desmosomal'=>[
+					'desomosomal',
+				],
+				'desmosterol'=>[
+					'demosterol',
 				],
 				'desolately'=>[
 					'desolatly',
@@ -2468,6 +2671,8 @@
 				'despicable'=>[
 					'despicible',
 					'dispicable',
+					'despecable',
+					'despiccable',
 				],
 				'despicably'=>[
 					'despicabally',
@@ -2585,6 +2790,12 @@
 					'desultorineses',
 					'desultorinisses',
 				],
+				'desynchronisation'=>[
+					'dysynchronisation',
+				],
+				'desynchronization'=>[
+					'desychronization',
+				],
 				'detach'=>[
 					'detatch',
 				],
@@ -2655,6 +2866,9 @@
 				'detention'=>[
 					'detantion',
 				],
+				'deter'=>[
+					'deterr',
+				],
 				'detergencies'=>[
 					'detergenceis',
 					'detergencis',
@@ -2664,6 +2878,9 @@
 				],
 				'detergent'=>[
 					'detergant',
+				],
+				'deteriorate'=>[
+					'deteriate',
 				],
 				'deterioration'=>[
 					'deteriation',
@@ -2684,6 +2901,7 @@
 				'determinacy'=>[
 					'determinasy',
 					'determinicy',
+					'determinancy',
 				],
 				'determinant'=>[
 					'determinent',
@@ -2798,6 +3016,9 @@
 					'detremental',
 					'detrimantal',
 				],
+				'detritivore'=>[
+					'detritovore',
+				],
 				'detroit'=>[
 					'detriot',
 				],
@@ -2813,9 +3034,25 @@
 					'detumescance',
 					'detumesence',
 				],
+				'detyrosination'=>[
+					'detrysosination',
+				],
+				'deubiquitinase'=>[
+					'deubiquinase',
+					'deubiquitilase',
+				],
+				'deubiquitinated'=>[
+					'deubiquitilated',
+				],
 				'deuteranomalies'=>[
 					'deuteranomaleis',
 					'deuteranomalis',
+				],
+				'deuteranope'=>[
+					'deutranope',
+				],
+				'deuterochloroform'=>[
+					'deuteriochloroform',
 				],
 				'devastate'=>[
 					'devestate',
@@ -2827,6 +3064,9 @@
 				'devastation'=>[
 					'devestation',
 					'devistation',
+				],
+				'devazepide'=>[
+					'devazipide',
 				],
 				'devein'=>[
 					'devien',
@@ -2850,6 +3090,9 @@
 				],
 				'developer'=>[
 					'developper',
+				],
+				'developing'=>[
+					'developping',
 				],
 				'development'=>[
 					'developement',
@@ -2894,6 +3137,9 @@
 				'devised'=>[
 					'divised',
 				],
+				'devitellinized'=>[
+					'devitelinized',
+				],
 				'devolutionary'=>[
 					'devolutionery',
 				],
@@ -2915,9 +3161,16 @@
 				'dewberry'=>[
 					'dewbery',
 				],
+				'dexamethasone'=>[
+					'dexamethosome',
+					'dexamethosone',
+				],
 				'dexie'=>[
 					'dexei',
 					'dexi',
+				],
+				'dexiotropic'=>[
+					'dexiotropal',
 				],
 				'dexterousness'=>[
 					'dexterousnes',
@@ -2928,6 +3181,9 @@
 				'dextrorotary'=>[
 					'dextrorotery',
 				],
+				'dextrous'=>[
+					'dexterious',
+				],
 				'dhurrie'=>[
 					'dhurie',
 				],
@@ -2937,8 +3193,20 @@
 				'diabaté'=>[
 					'diabate',
 				],
+				'diachronic'=>[
+					'diacronic',
+				],
 				'diactinic'=>[
 					'diactinac',
+				],
+				'diadromous'=>[
+					'iadromous',
+				],
+				'diagnosability'=>[
+					'diagnosibility',
+				],
+				'diagnose'=>[
+					'diagnoze',
 				],
 				'diagnoseable'=>[
 					'diagnoseble',
@@ -2958,6 +3226,9 @@
 				'diagramming'=>[
 					'diagramning',
 				],
+				'dialectal'=>[
+					'dialectual',
+				],
 				'dialectician'=>[
 					'dialectican',
 				],
@@ -2967,11 +3238,21 @@
 				'dialog'=>[
 					'dialouge',
 				],
+				'dialysis'=>[
+					'dyalisis',
+				],
 				'diamante'=>[
 					'diamente',
 				],
 				'diamine'=>[
 					'diamini',
+				],
+				'diaminobenzidine'=>[
+					'diaminobenzidene',
+					'diaminobenzidone',
+				],
+				'diaminofluorene'=>[
+					'diaminofluorine',
 				],
 				'diamond'=>[
 					'daimond',
@@ -2987,9 +3268,22 @@
 				'diaphaneity'=>[
 					'diaphaniety',
 				],
+				'diaphanization'=>[
+					'diafanization',
+				],
+				'diaphanous'=>[
+					'diaphonous',
+				],
+				'diaphorase'=>[
+					'diaforase',
+				],
+				'diaphragmatic'=>[
+					'diapharmatic',
+				],
 				'diarrhea'=>[
 					'diarhea',
 					'diarrhe',
+					'diarea',
 				],
 				'diarrheic'=>[
 					'diarrhiec',
@@ -2997,11 +3291,20 @@
 				'diary'=>[
 					'diery',
 				],
+				'diaschisis'=>[
+					'diachisis',
+				],
+				'diasterane'=>[
+					'disterane',
+				],
 				'diastrophically'=>[
 					'diastrophicaly',
 				],
 				'diazepam'=>[
 					'diazapam',
+				],
+				'diazotroph'=>[
+					'diazatroph',
 				],
 				'dibbed'=>[
 					'dibed',
@@ -3024,6 +3327,16 @@
 				'dibbukim'=>[
 					'dibukim',
 				],
+				'dichalcogenide'=>[
+					'dichacolgenide',
+					'dichalkogenide',
+				],
+				'dichalcogenides'=>[
+					'dichalkogenides',
+				],
+				'dichotomically'=>[
+					'dicotomically',
+				],
 				'dichotomously'=>[
 					'dichotomousally',
 					'dichotomousaly',
@@ -3032,6 +3345,16 @@
 				],
 				'dichotomousness'=>[
 					'dichotomousnes',
+				],
+				'dichroic'=>[
+					'dichoric',
+				],
+				'dicistrovirus'=>[
+					'discistrovirus',
+					'discitrovirus',
+				],
+				'dickwad'=>[
+					'dickwod',
 				],
 				'diclinies'=>[
 					'diclinaes',
@@ -3068,11 +3391,17 @@
 				'didapper'=>[
 					'didaper',
 				],
+				'diddle'=>[
+					'dittle',
+				],
 				'diddly'=>[
 					'diddally',
 					'diddaly',
 					'diddely',
 					'diddlly',
+				],
+				'dideoxycytidine'=>[
+					'dideoxycitidine',
 				],
 				'didie'=>[
 					'didei',
@@ -3081,6 +3410,9 @@
 				'didn\'t'=>[
 					'did\'nt',
 					'didnt',
+				],
+				'didn’t'=>[
+					'didint',
 				],
 				'die'=>[
 					'dei',
@@ -3118,6 +3450,9 @@
 					'deilectric',
 					'dilectric',
 				],
+				'dielectrophoresis'=>[
+					'dieletrophoresis',
+				],
 				'diencephalic'=>[
 					'deincephalic',
 					'dincephalic',
@@ -3149,6 +3484,9 @@
 				'dietetic'=>[
 					'deitetic',
 					'ditetic',
+				],
+				'dietetician'=>[
+					'dietetitian',
 				],
 				'dietetics'=>[
 					'deitetics',
@@ -3185,6 +3523,7 @@
 					'different different different',
 					'differnt',
 					'diffrent',
+					'difrent',
 				],
 				'differentiable'=>[
 					'differantiable',
@@ -3196,6 +3535,9 @@
 				'differential'=>[
 					'differantial',
 				],
+				'differentially'=>[
+					'differentialy',
+				],
 				'differentiate'=>[
 					'differantiate',
 				],
@@ -3204,10 +3546,12 @@
 				],
 				'differentiation'=>[
 					'differantiation',
+					'differentation',
 				],
 				'differently'=>[
 					'diferently',
 					'differantly',
+					'differentley',
 				],
 				'differentness'=>[
 					'differentnes',
@@ -3237,6 +3581,9 @@
 				],
 				'diffidently'=>[
 					'diffidantly',
+				],
+				'diffractometer'=>[
+					'difractometer',
 				],
 				'diffused'=>[
 					'difused',
@@ -3297,6 +3644,10 @@
 				'diffusivity'=>[
 					'diffuisvity',
 				],
+				'diffusometry'=>[
+					'diffusimetry',
+					'diffusiometry',
+				],
 				'digamma'=>[
 					'digamna',
 				],
@@ -3322,6 +3673,9 @@
 				'digitately'=>[
 					'digitatly',
 				],
+				'digitigrade'=>[
+					'digitgrade',
+				],
 				'dignified'=>[
 					'dignifeid',
 					'dignifid',
@@ -3329,6 +3683,9 @@
 				'dignitary'=>[
 					'dignatary',
 					'dignitery',
+				],
+				'dignity'=>[
+					'diginity',
 				],
 				'digress'=>[
 					'digres',
@@ -3343,8 +3700,23 @@
 				'digressively'=>[
 					'digressivly',
 				],
+				'dihydrodipicolinate'=>[
+					'dihydropicolinate',
+				],
+				'dihydrotestosterone'=>[
+					'dihydrotesterone',
+				],
+				'dihydroxyphenylisatin'=>[
+					'dihydrophenylisatin',
+				],
+				'diktat'=>[
+					'dictat',
+				],
 				'dilapidate'=>[
 					'delapidate',
+				],
+				'dilapidated'=>[
+					'delapidated',
 				],
 				'dilatabilities'=>[
 					'dilatabiliteis',
@@ -3358,6 +3730,9 @@
 				],
 				'dilation'=>[
 					'dialation',
+				],
+				'dilatometry'=>[
+					'dilutometry',
 				],
 				'dilatorinesses'=>[
 					'dilatorinisses',
@@ -3416,6 +3791,9 @@
 				],
 				'dimensional'=>[
 					'dimentional',
+				],
+				'dimensionality'=>[
+					'dimentionality',
 				],
 				'dimensionless'=>[
 					'dimensionles',
@@ -3556,14 +3934,27 @@
 				'dinosaurian'=>[
 					'dinosauran',
 				],
+				'dinucleotide'=>[
+					'denucleotide',
+				],
+				'dinutuximab'=>[
+					'dinituximab',
+				],
 				'dioecious'=>[
 					'dioecous',
+					'dioeceous',
 				],
 				'dioecy'=>[
 					'dioesy',
 				],
 				'dionysian'=>[
 					'dionysan',
+				],
+				'diosgenin'=>[
+					'disogenin',
+				],
+				'dioxolane'=>[
+					'dioxalane',
 				],
 				'diphenhydramine'=>[
 					'diphenhydramini',
@@ -3585,6 +3976,9 @@
 					'diphtongs',
 					'dipthongs',
 				],
+				'diploblastic'=>[
+					'dipoblastic',
+				],
 				'diplococci'=>[
 					'diplococi',
 				],
@@ -3593,6 +3987,9 @@
 				],
 				'diplomacy'=>[
 					'diplomasy',
+				],
+				'diplopia'=>[
+					'dipoplia',
 				],
 				'dipolar'=>[
 					'dipoler',
@@ -3615,6 +4012,9 @@
 				],
 				'dippy'=>[
 					'dipy',
+				],
+				'dipterocarpaceous'=>[
+					'dipterocarpacious',
 				],
 				'diquat'=>[
 					'diqaut',
@@ -3655,6 +4055,9 @@
 				],
 				'dirigible'=>[
 					'dirigable',
+				],
+				'dirofilariasis'=>[
+					'dirofilariosis',
 				],
 				'disabilities'=>[
 					'disabilites',
@@ -3838,6 +4241,7 @@
 				],
 				'disappointing'=>[
 					'disapointing',
+					'dissapointing',
 				],
 				'disappointingly'=>[
 					'disapointingly',
@@ -3914,6 +4318,9 @@
 				'disassembling'=>[
 					'disasembling',
 				],
+				'disassembly'=>[
+					'dissassembly',
+				],
 				'disassociate'=>[
 					'disasociate',
 				],
@@ -3926,11 +4333,17 @@
 				'disassociations'=>[
 					'disasociations',
 				],
+				'disassortative'=>[
+					'dissortative',
+				],
 				'disaster'=>[
 					'diaster',
 				],
 				'disastrous'=>[
 					'disasterous',
+				],
+				'disastrously'=>[
+					'disasterously',
 				],
 				'disbar'=>[
 					'disber',
@@ -3959,6 +4372,8 @@
 				],
 				'disbursement'=>[
 					'disbursemant',
+					'dispersement',
+					'dispursement',
 				],
 				'disc'=>[
 					'dic',
@@ -4075,6 +4490,9 @@
 				],
 				'disciplining'=>[
 					'disciplinang',
+				],
+				'discission'=>[
+					'discision',
 				],
 				'disclaim'=>[
 					'diclaim',
@@ -4652,6 +5070,8 @@
 					'dicsriminate',
 					'discriminite',
 					'disriminate',
+					'descriminate',
+					'discreminate',
 				],
 				'discriminated'=>[
 					'dicriminated',
@@ -4674,6 +5094,8 @@
 					'dicsrimination',
 					'discriminition',
 					'disrimination',
+					'descrimination',
+					'discremination',
 				],
 				'discriminations'=>[
 					'dicriminations',
@@ -4827,6 +5249,7 @@
 				],
 				'disgusting'=>[
 					'disguisting',
+					'discusting',
 				],
 				'disharmonious'=>[
 					'disharmonous',
@@ -4937,6 +5360,7 @@
 				],
 				'disingenuous'=>[
 					'disingenous',
+					'disingenious',
 				],
 				'disingenuously'=>[
 					'disingenously',
@@ -4954,6 +5378,10 @@
 				'disintegration'=>[
 					'desintegration',
 				],
+				'disintegrin'=>[
+					'desintegrin',
+					'distintegrin',
+				],
 				'disinterested'=>[
 					'distinterested',
 				],
@@ -4962,6 +5390,12 @@
 					'disinterestedaly',
 					'disinterestedely',
 					'disinterestedlly',
+				],
+				'disinterred'=>[
+					'disintered',
+				],
+				'disinterring'=>[
+					'disintering',
 				],
 				'disinvestment'=>[
 					'disinvestmant',
@@ -5018,6 +5452,12 @@
 					'dismisively',
 					'dismissivly',
 				],
+				'dismutase'=>[
+					'diamutase',
+				],
+				'dismutation'=>[
+					'diamutation',
+				],
 				'disobedience'=>[
 					'disobedeince',
 					'disobediance',
@@ -5029,6 +5469,9 @@
 					'disobediant',
 					'dissobediant',
 					'dissobedient',
+				],
+				'disoproxil'=>[
+					'desoproxil',
 				],
 				'disorderedly'=>[
 					'disorderedally',
@@ -5134,6 +5577,21 @@
 					'dispassionatelly',
 					'dispassionatly',
 				],
+				'dispel'=>[
+					'disspell',
+				],
+				'dispelled'=>[
+					'disspelled',
+				],
+				'dispelling'=>[
+					'disspelling',
+				],
+				'dispels'=>[
+					'disspells',
+				],
+				'dispensability'=>[
+					'dispensibility',
+				],
 				'dispensable'=>[
 					'dispensible',
 				],
@@ -5184,6 +5642,7 @@
 				],
 				'displaceable'=>[
 					'displaceble',
+					'displacable',
 				],
 				'displacement'=>[
 					'displacemant',
@@ -5298,6 +5757,9 @@
 				'disrespectable'=>[
 					'disrespectible',
 				],
+				'disrotatory'=>[
+					'disrotary',
+				],
 				'disruptively'=>[
 					'disruptivly',
 				],
@@ -5329,6 +5791,9 @@
 				],
 				'dissection'=>[
 					'disection',
+				],
+				'dissections'=>[
+					'disections',
 				],
 				'disseise'=>[
 					'dissiese',
@@ -5616,6 +6081,9 @@
 				'distantnesses'=>[
 					'distentnesses',
 				],
+				'distensibility'=>[
+					'distensability',
+				],
 				'distensible'=>[
 					'distensable',
 				],
@@ -5764,6 +6232,10 @@
 				'ditheists'=>[
 					'dithiests',
 				],
+				'dithiothreitol'=>[
+					'dithiotreitol',
+					'ditiotreitol',
+				],
 				'dithyrambically'=>[
 					'dithyrambicalally',
 					'dithyrambicalaly',
@@ -5796,6 +6268,9 @@
 				],
 				'diversionary'=>[
 					'diversionery',
+				],
+				'diverticula'=>[
+					'diverticulae',
 				],
 				'diverticular'=>[
 					'diverticuler',
@@ -5878,6 +6353,9 @@
 				'divorce'=>[
 					'devorce',
 				],
+				'divorceable'=>[
+					'divorcable',
+				],
 				'divulgence'=>[
 					'divulgance',
 				],
@@ -5941,6 +6419,9 @@
 				],
 				'docilely'=>[
 					'docilly',
+				],
+				'docosahexaenoic'=>[
+					'docosahexanoic',
 				],
 				'doctor'=>[
 					'doctor doctor',
@@ -6012,6 +6493,10 @@
 					'does\'nt',
 					'doesnt',
 					'dosen\'t',
+					'dosent',
+				],
+				'doesn’t'=>[
+					'doesint',
 				],
 				'dog'=>[
 					'dog dog',
@@ -6104,6 +6589,15 @@
 					'doign',
 					'domg',
 					'donig',
+				],
+				'dolichocephalic'=>[
+					'dolicocephalic',
+				],
+				'dolichocephaly'=>[
+					'dolicocephaly',
+				],
+				'dolichofacial'=>[
+					'dolicofacial',
 				],
 				'doll'=>[
 					'dol',
@@ -6217,6 +6711,9 @@
 					'done done',
 					'done done done',
 				],
+				'donepezil'=>[
+					'donezepil',
+				],
 				'donna'=>[
 					'dona',
 				],
@@ -6296,11 +6793,17 @@
 				'doppelgänger'=>[
 					'doppleganger',
 				],
+				'doravirine'=>[
+					'doravidine',
+				],
 				'dormancy'=>[
 					'dormansy',
 				],
 				'dormant'=>[
 					'dorment',
+				],
+				'dormice'=>[
+					'doormice',
 				],
 				'dorr'=>[
 					'dor',
@@ -6325,6 +6828,9 @@
 					'dorsoventralaly',
 					'dorsoventralely',
 					'dorsoventrallly',
+				],
+				'dorvilleid'=>[
+					'dorvelleid',
 				],
 				'doss'=>[
 					'dosss',
@@ -6364,6 +6870,9 @@
 				],
 				'doublespeaks'=>[
 					'doublespeks',
+				],
+				'doubloon'=>[
+					'dubloon',
 				],
 				'doubly'=>[
 					'doubally',
@@ -6409,6 +6918,9 @@
 					'down down',
 					'down down down',
 				],
+				'down to'=>[
+					'downto',
+				],
 				'downfall'=>[
 					'downfal',
 				],
@@ -6439,6 +6951,10 @@
 				'doxie'=>[
 					'doxei',
 					'doxi',
+				],
+				'doxorubicin'=>[
+					'doxorubin',
+					'doxyrubicin',
 				],
 				'doxycycline'=>[
 					'doxycyclini',
@@ -6478,6 +6994,9 @@
 				],
 				'draftsman'=>[
 					'draftman',
+				],
+				'draggable'=>[
+					'dragable',
 				],
 				'dragger'=>[
 					'drager',
@@ -6763,6 +7282,9 @@
 				'drippy'=>[
 					'dripy',
 				],
+				'driselase'=>[
+					'drieselase',
+				],
 				'drive'=>[
 					'dirve',
 					'drive drive',
@@ -6787,6 +7309,7 @@
 				],
 				'dromedary'=>[
 					'dromedery',
+					'dromadery',
 				],
 				'drop'=>[
 					'drop drop',
@@ -6812,6 +7335,9 @@
 				],
 				'dropsy'=>[
 					'dropcy',
+				],
+				'drosophilid'=>[
+					'drosopholid',
 				],
 				'dross'=>[
 					'dros',
@@ -6989,6 +7515,10 @@
 					'dulaly',
 					'dullly',
 				],
+				'duloxetine'=>[
+					'dulexetine',
+					'duloxentine',
+				],
 				'duly'=>[
 					'duely',
 				],
@@ -7000,6 +7530,7 @@
 				],
 				'dummkopf'=>[
 					'dumnkopf',
+					'dumbkopf',
 				],
 				'dummy'=>[
 					'dumny',
@@ -7115,6 +7646,9 @@
 					'duplexiteis',
 					'duplexitis',
 				],
+				'duplicate'=>[
+					'dublicate',
+				],
 				'duplication'=>[
 					'duplicaiton',
 				],
@@ -7149,6 +7683,9 @@
 					'durng',
 					'durring',
 					'duting',
+				],
+				'durophagous'=>[
+					'durophageous',
 				],
 				'durr'=>[
 					'dur',
@@ -7234,6 +7771,15 @@
 				'dynorphin'=>[
 					'dynourphin',
 				],
+				'dysautonomia'=>[
+					'disautonomia',
+				],
+				'dysbiosis'=>[
+					'sysbiosis',
+				],
+				'dysembryoplastic'=>[
+					'disembryoplastic',
+				],
 				'dysenteries'=>[
 					'dysentereis',
 					'dysenteris',
@@ -7241,14 +7787,36 @@
 				'dysentery'=>[
 					'dysentary',
 				],
+				'dyserythropoiesis'=>[
+					'dyserithropoiesis',
+					'dyserythropoeisis',
+				],
+				'dysfibrinogenemia'=>[
+					'dysfibrogenemia',
+				],
 				'dysfunction'=>[
 					'disfunction',
 				],
 				'dysfunctional'=>[
 					'disfunctional',
 				],
+				'dysgenic'=>[
+					'disgenic',
+				],
+				'dyshidrosis'=>[
+					'dishydrosis',
+				],
+				'dyshomeostasis'=>[
+					'dishomeostasis',
+				],
+				'dyskeratotic'=>[
+					'dyskertotic',
+				],
 				'dyskinesia'=>[
 					'dyskinisia',
+				],
+				'dyslipidemia'=>[
+					'dyslipedemia',
 				],
 				'dysmenorrhea'=>[
 					'dysmenorhea',
@@ -7263,8 +7831,38 @@
 					'dysmenorrhiec',
 					'dysmenourrheic',
 				],
+				'dysmetabolic'=>[
+					'dismetabolic',
+				],
+				'dysmorphology'=>[
+					'dismorphology',
+				],
 				'dyspepsy'=>[
 					'dyspepcy',
+				],
+				'dyspeptic'=>[
+					'dispeptic',
+				],
+				'dysregulate'=>[
+					'disregulate',
+				],
+				'dysregulated'=>[
+					'disregulated',
+				],
+				'dysregulates'=>[
+					'disregulates',
+				],
+				'dysregulating'=>[
+					'disregulating',
+				],
+				'dysregulation'=>[
+					'disregulation',
+				],
+				'dyssynchronous'=>[
+					'dysynchronous',
+				],
+				'dysthymia'=>[
+					'dysthemia',
 				],
 				'dystopia'=>[
 					'distopia',
@@ -7272,9 +7870,21 @@
 				'dystopian'=>[
 					'dystopan',
 				],
+				'dystroferric'=>[
+					'distroferric',
+				],
+				'dystroglycan'=>[
+					'distroglycan',
+				],
 				'dystrophies'=>[
 					'dystropheis',
 					'dystrophis',
+				],
+				'dystrophin'=>[
+					'dytrophin',
+				],
+				'dystrophinopathy'=>[
+					'dystrophynopathy',
 				],
 				'dystrophy'=>[
 					'distrophy',

@@ -32,6 +32,12 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Teesside'=>[
+					'teeside',
+				],
+				'Teletubby'=>[
+					'tellytubby',
+				],
 				'tabbouleh'=>[
 					'tabouleh',
 				],
@@ -74,11 +80,34 @@
 					'tachistocsope',
 					'tachistosope',
 				],
+				'tachistoscopic'=>[
+					'tachistosopic',
+					'tachystocopic',
+				],
 				'tachyarrhythmia'=>[
 					'tachyarhythmia',
+					'tachyarrythmia',
+				],
+				'tachylectin'=>[
+					'techylectin',
+				],
+				'tachymeter'=>[
+					'tachymetre',
+				],
+				'tachyonic'=>[
+					'tachionic',
+				],
+				'tachyplesin'=>[
+					'tachyplegin',
+				],
+				'tachyzoite'=>[
+					'trachyzoite',
 				],
 				'tacrine'=>[
 					'tacrini',
+				],
+				'tacrolimus'=>[
+					'tacrolymus',
 				],
 				'tactic'=>[
 					'tactict',
@@ -98,6 +127,9 @@
 				],
 				'tactual'=>[
 					'tactaul',
+				],
+				'taeniasis'=>[
+					'taeniosis',
 				],
 				'taggant'=>[
 					'tagant',
@@ -286,12 +318,19 @@
 				],
 				'tangent'=>[
 					'tangant',
+					'tangeant',
+				],
+				'tangentially'=>[
+					'tangientially',
 				],
 				'tangerine'=>[
 					'tangerini',
 				],
 				'tangible'=>[
 					'tangable',
+				],
+				'tanglegram'=>[
+					'tangelogram',
 				],
 				'tango notturno'=>[
 					'tango noturno',
@@ -336,6 +375,9 @@
 				'tannoy'=>[
 					'tanoy',
 				],
+				'tanshinone'=>[
+					'tanshinnone',
+				],
 				'tansy'=>[
 					'tancy',
 				],
@@ -363,6 +405,12 @@
 				'tantrum'=>[
 					'tentrum',
 				],
+				'tanycyte'=>[
+					'tanicyte',
+				],
+				'taphonomic'=>[
+					'tafonomic',
+				],
 				'tappable'=>[
 					'tappible',
 				],
@@ -381,6 +429,9 @@
 				],
 				'tarantula'=>[
 					'tarentula',
+				],
+				'tardative'=>[
+					'tarditive',
 				],
 				'targetable'=>[
 					'targetible',
@@ -414,6 +465,9 @@
 				'tarry'=>[
 					'tary',
 				],
+				'tarsorrhaphy'=>[
+					'tarsorraphy',
+				],
 				'tartar'=>[
 					'tarter',
 				],
@@ -437,6 +491,10 @@
 				],
 				'tassel'=>[
 					'tasel',
+					'tassle',
+				],
+				'tasseled'=>[
+					'tassled',
 				],
 				'tassie'=>[
 					'tasie',
@@ -495,6 +553,9 @@
 					'tautologousaly',
 					'tautologousely',
 					'tautologouslly',
+				],
+				'tautomerase'=>[
+					'tauromerase',
 				],
 				'taxable'=>[
 					'taxible',
@@ -598,6 +659,10 @@
 				'teat'=>[
 					'tet',
 				],
+				'tebufenozide'=>[
+					'tebufenoxide',
+					'tefubenozide',
+				],
 				'techie'=>[
 					'techei',
 					'techi',
@@ -660,6 +725,9 @@
 				'teenybopper'=>[
 					'teenyboper',
 				],
+				'teeshirt'=>[
+					'teashirt',
+				],
 				'teeth'=>[
 					'teetb',
 					'teeth teeth',
@@ -704,6 +772,8 @@
 				'telangiectasia'=>[
 					'telangeictasia',
 					'telangictasia',
+					'telangiectesia',
+					'teleangiectasia',
 				],
 				'telecommute'=>[
 					'telecomnute',
@@ -716,6 +786,20 @@
 				],
 				'telekinetically'=>[
 					'telekinitically',
+				],
+				'telencephalon'=>[
+					'telecephalon',
+					'tencephalon',
+				],
+				'teleoconch'=>[
+					'teloconch',
+				],
+				'teleomorph'=>[
+					'teliomorph',
+					'telomorph',
+				],
+				'telephone'=>[
+					'telefone',
 				],
 				'teleprocessing'=>[
 					'teleprocesing',
@@ -756,6 +840,9 @@
 				'telling'=>[
 					'teling',
 				],
+				'tellinid'=>[
+					'tellenid',
+				],
 				'telltale'=>[
 					'teltale',
 				],
@@ -774,6 +861,16 @@
 					'tellly',
 					'tely',
 				],
+				'telomeric'=>[
+					'telemeric',
+				],
+				'telopeptide'=>[
+					'teleopeptide',
+					'tellopeptide',
+				],
+				'telotrophic'=>[
+					'telotropic',
+				],
 				'temerarious'=>[
 					'temerarous',
 				],
@@ -783,6 +880,9 @@
 					'temerariousely',
 					'temerariouslly',
 					'temerarously',
+				],
+				'temozolomide'=>[
+					'temozolamide',
 				],
 				'temperament'=>[
 					'temperment',
@@ -830,6 +930,18 @@
 				'temporary'=>[
 					'temporery',
 				],
+				'temporoammonic'=>[
+					'temperoammonic',
+				],
+				'temporomandibular'=>[
+					'temperomandibular',
+				],
+				'temporoparietal'=>[
+					'tempoparietal',
+				],
+				'temporospatial'=>[
+					'temperospatial',
+				],
 				'ten'=>[
 					'ten ten',
 					'ten ten ten',
@@ -854,6 +966,9 @@
 					'tennant',
 					'tenent',
 				],
+				'tenascin'=>[
+					'tenacin',
+				],
 				'tendance'=>[
 					'tendence',
 				],
@@ -869,6 +984,9 @@
 				'tendency'=>[
 					'tendancy',
 					'tendensy',
+				],
+				'tendentially'=>[
+					'tendencially',
 				],
 				'tendentious'=>[
 					'tendantious',
@@ -898,6 +1016,9 @@
 					'tendonitis',
 					'tendinatis',
 				],
+				'tendinopathy'=>[
+					'tendonopathy',
+				],
 				'tenebrious'=>[
 					'tenebrous',
 				],
@@ -906,6 +1027,9 @@
 					'tennament',
 					'tennement',
 					'tenemant',
+				],
+				'teniposide'=>[
+					'tenoposide',
 				],
 				'tenner'=>[
 					'tener',
@@ -966,6 +1090,7 @@
 				],
 				'tentacular'=>[
 					'tentaculer',
+					'tenticular',
 				],
 				'tentage'=>[
 					'tantage',
@@ -988,6 +1113,9 @@
 				'tenty'=>[
 					'tanty',
 				],
+				'tenuinucellate'=>[
+					'teninucellate',
+				],
 				'tenuous'=>[
 					'tenous',
 				],
@@ -1007,17 +1135,41 @@
 					'tenture',
 					'tenur',
 				],
+				'tephritid'=>[
+					'tephiritid',
+				],
 				'tepidly'=>[
 					'tepidally',
 					'tepidaly',
 					'tepidely',
 					'tepidlly',
 				],
+				'tera amp'=>[
+					'teraamp',
+				],
 				'terahertz'=>[
 					'teraertz',
 				],
 				'terahertzes'=>[
 					'teraertzes',
+				],
+				'teratocarcinoma'=>[
+					'tetracarcinoma',
+				],
+				'teratogenic'=>[
+					'atretogenic',
+				],
+				'teratoid'=>[
+					'terratoid',
+				],
+				'teratoma'=>[
+					'theratoma',
+				],
+				'teratozoospermia'=>[
+					'tetrazoospermia',
+				],
+				'terawatts'=>[
+					'terrawatts',
 				],
 				'tercentenary'=>[
 					'tercantenary',
@@ -1032,6 +1184,9 @@
 				],
 				'terefah'=>[
 					'terefa',
+				],
+				'terfenadine'=>[
+					'terfanadine',
 				],
 				'term'=>[
 					'term term',
@@ -1101,6 +1256,12 @@
 				'ternately'=>[
 					'ternatly',
 				],
+				'terpineol'=>[
+					'terpenol',
+				],
+				'terpinolene'=>[
+					'terpinoline',
+				],
 				'terpsichorean'=>[
 					'terpsichoren',
 				],
@@ -1165,6 +1326,7 @@
 					'terribaly',
 					'terribely',
 					'terriblly',
+					'terribley',
 				],
 				'terricolous'=>[
 					'tericolous',
@@ -1271,6 +1433,9 @@
 				'testamentary'=>[
 					'testamentery',
 				],
+				'testes'=>[
+					'testies',
+				],
 				'testicle'=>[
 					'testical',
 				],
@@ -1309,6 +1474,7 @@
 				],
 				'tetrahedrally'=>[
 					'tetraedrally',
+					'tetrahedrically',
 				],
 				'tetrahedrite'=>[
 					'tetraedrite',
@@ -1331,8 +1497,39 @@
 				'tetrahymenas'=>[
 					'tetraymenas',
 				],
+				'tetrameric'=>[
+					'terameric',
+				],
+				'tetramerization'=>[
+					'tetramization',
+				],
+				'tetramethylsilane'=>[
+					'tetramethysilane',
+				],
+				'tetrandrine'=>[
+					'terandrine',
+				],
+				'tetraodontid'=>[
+					'tetradontid',
+				],
+				'tetraodontiform'=>[
+					'tetradontiform',
+				],
+				'tetrapyrrole'=>[
+					'tetrapyrole',
+				],
+				'tetrapyrroles'=>[
+					'tetrapyrrols',
+				],
+				'tetrazolium'=>[
+					'terazolium',
+					'tetrozolium',
+				],
 				'tetrazzini'=>[
 					'tetrazzina',
+				],
+				'textilinin'=>[
+					'textililin',
 				],
 				'texts'=>[
 					'textes',
@@ -1344,8 +1541,14 @@
 					'textaury',
 					'textuery',
 				],
+				'tezosentan'=>[
+					'tenzosentan',
+				],
 				'thai-occupied'=>[
 					'thai occupied',
+				],
+				'thalamocortical'=>[
+					'thalomocortical',
 				],
 				'thalassaemia'=>[
 					'thalasaemia',
@@ -1449,6 +1652,9 @@
 				'the small'=>[
 					'thesmall',
 				],
+				'theanine'=>[
+					'theonine',
+				],
 				'theater'=>[
 					'theather',
 					'theter',
@@ -1461,6 +1667,7 @@
 				],
 				'theatrical'=>[
 					'thetrical',
+					'theaterical',
 				],
 				'theatricalism'=>[
 					'thetricalism',
@@ -1549,6 +1756,9 @@
 					'theophyline',
 					'theophyllini',
 				],
+				'theorem'=>[
+					'theorum',
+				],
 				'theoretical'=>[
 					'theroretical',
 				],
@@ -1567,6 +1777,9 @@
 				'therapeutic'=>[
 					'therapuetic',
 					'therepeutic',
+				],
+				'therapeutical'=>[
+					'theraputical',
 				],
 				'therapeutics'=>[
 					'therapuetics',
@@ -1618,6 +1831,9 @@
 				'therian'=>[
 					'theran',
 				],
+				'therianthrope'=>[
+					'theriantrope',
+				],
 				'theriomorphic'=>[
 					'theriomourphic',
 				],
@@ -1630,6 +1846,9 @@
 				'thermonuclear'=>[
 					'thermonucleer',
 					'thermonucler',
+				],
+				'thermophilic'=>[
+					'thermophillic',
 				],
 				'thermoreceptor'=>[
 					'thermoureceptor',
@@ -1656,13 +1875,31 @@
 				'thermoremanent'=>[
 					'thermouremanent',
 				],
+				'thermospermine'=>[
+					'themospermine',
+				],
 				'thermostable'=>[
 					'thermostible',
+				],
+				'thermotaxis'=>[
+					'themotaxis',
+				],
+				'therophyte'=>[
+					'terophyte',
+				],
+				'therophytic'=>[
+					'terophytic',
+				],
+				'theropod'=>[
+					'therapod',
 				],
 				'these'=>[
 					'theese',
 					'these these',
 					'these these these',
+				],
+				'theses'=>[
+					'thesises',
 				],
 				'thespian'=>[
 					'thespan',
@@ -1683,6 +1920,24 @@
 				],
 				'they make'=>[
 					'they makes',
+				],
+				'they\'d'=>[
+					'theyd',
+				],
+				'thiacloprid'=>[
+					'thiocloprid',
+				],
+				'thiamethoxam'=>[
+					'thiomethoxam',
+				],
+				'thiazolidendione'=>[
+					'thiazoladendione',
+				],
+				'thiazolidinedione'=>[
+					'thiazolidione',
+					'thiazolindione',
+					'thiazolinedione',
+					'thioazolidinedione',
 				],
 				'thick'=>[
 					'thick thick',
@@ -1711,6 +1966,18 @@
 				],
 				'thievish'=>[
 					'theivish',
+				],
+				'thigmotactic'=>[
+					'tigmotactic',
+				],
+				'thigmotaxic'=>[
+					'thygmotaxic',
+				],
+				'thigmotaxis'=>[
+					'thygmotaxis',
+				],
+				'thigmotropic'=>[
+					'thigmotrophic',
 				],
 				'thill'=>[
 					'thil',
@@ -1778,8 +2045,26 @@
 				'thinner'=>[
 					'thiner',
 				],
+				'thioacetazone'=>[
+					'thiacetazone',
+				],
+				'thiophilic'=>[
+					'thiophillic',
+				],
+				'thioredoxin'=>[
+					'theoredoxin',
+				],
 				'thioridazine'=>[
 					'thioridazini',
+				],
+				'thiosulfuranyl'=>[
+					'thiosulphuranyl',
+				],
+				'thioureylene'=>[
+					'thiourylene',
+				],
+				'thioxanthene'=>[
+					'thioxanthine',
 				],
 				'third'=>[
 					'third third',
@@ -1823,11 +2108,21 @@
 				'tholeiite'=>[
 					'tholieite',
 				],
+				'thoracentesis'=>[
+					'toracentesis',
+				],
+				'thoracoabdominal'=>[
+					'thoracicoabdominal',
+				],
+				'thoracolumbar'=>[
+					'thoracicolumber',
+				],
 				'thorough'=>[
 					'thorogh',
 					'thorugh',
 					'thourough',
 					'thruogh',
+					'thourogh',
 				],
 				'thoroughbass'=>[
 					'thoroughbas',
@@ -1923,11 +2218,18 @@
 				],
 				'threonine'=>[
 					'threonini',
+					'threonone',
 				],
 				'threshold'=>[
 					'threshhold',
 					'thresold',
 					'treshold',
+				],
+				'thresholds'=>[
+					'threshholds',
+				],
+				'thriftiness'=>[
+					'thriftyness',
 				],
 				'thrill'=>[
 					'thril',
@@ -1935,11 +2237,48 @@
 				'thriller'=>[
 					'thriler',
 				],
+				'thrombocythemia'=>[
+					'trombocythemia',
+				],
+				'thrombocytopenia'=>[
+					'thrombocypenia',
+					'thromobocytopenia',
+				],
+				'thromboembolitic'=>[
+					'thromboembolistic',
+				],
+				'thrombogenic'=>[
+					'thromogenic',
+				],
 				'thrombokinase'=>[
 					'thrombokinise',
 				],
 				'thrombokinases'=>[
 					'thrombokinises',
+				],
+				'thrombopoiesis'=>[
+					'thrombopoesis',
+				],
+				'thrombopoietin'=>[
+					'throbopoietin',
+					'trombopoietine',
+				],
+				'thrombospondin'=>[
+					'trombospondin',
+				],
+				'thromboxane'=>[
+					'thomboxane',
+					'tromboxan',
+					'tromboxane',
+				],
+				'throttle'=>[
+					'throddle',
+				],
+				'throttled'=>[
+					'throddled',
+				],
+				'throttling'=>[
+					'throddling',
 				],
 				'through'=>[
 					'throgh',
@@ -1997,6 +2336,9 @@
 					'thus thus',
 					'thus thus thus',
 				],
+				'thus far'=>[
+					'thusfar',
+				],
 				'thusly'=>[
 					'thusally',
 					'thusaly',
@@ -2009,17 +2351,36 @@
 					'thwartely',
 					'thwartlly',
 				],
+				'thylakoid'=>[
+					'tylakoid',
+				],
+				'thylakoidal'=>[
+					'tilacoidal',
+				],
 				'thymidine'=>[
 					'thymidini',
 				],
 				'thymine'=>[
 					'thymini',
 				],
+				'thymopoiesis'=>[
+					'thymopoesis',
+					'thymopoieisis',
+				],
+				'thymoquinone'=>[
+					'thymoquinine',
+				],
+				'thyrotoxicosis'=>[
+					'thyreotoxicosis',
+				],
 				'thyroxine'=>[
 					'thyroxini',
 				],
 				'tiananmen'=>[
 					'tianenmen','tienanmen',
+				],
+				'tianeptine'=>[
+					'tianepine',
 				],
 				'tibetan'=>[
 					'thibetan',
@@ -2029,6 +2390,9 @@
 				],
 				'ticcing'=>[
 					'ticing',
+				],
+				'ticlopidine'=>[
+					'toclopidine',
 				],
 				'tiddly'=>[
 					'tiddally',
@@ -2057,14 +2421,23 @@
 				'tied'=>[
 					'teid',
 				],
+				'tiemannite'=>[
+					'tiemmannite',
+				],
 				'tier'=>[
 					'teir',
 				],
 				'ties'=>[
 					'teis',
 				],
+				'tigecycline'=>[
+					'tigercycline',
+				],
 				'tightened'=>[
 					'tightend',
+				],
+				'tightly'=>[
+					'tightley',
 				],
 				'tijuana'=>[
 					'tiajuana',
@@ -2177,6 +2550,7 @@
 				],
 				'tinnitus'=>[
 					'tinitus',
+					'tinnitis',
 				],
 				'tinny'=>[
 					'tinnny',
@@ -2223,11 +2597,17 @@
 				'titian'=>[
 					'titan',
 				],
+				'titivate'=>[
+					'titavate',
+				],
 				'title'=>[
 					'tittle',
 				],
 				'titrant'=>[
 					'titrent',
+				],
+				'titrimetrically'=>[
+					'titrimetically',
 				],
 				'titular'=>[
 					'tituler',
@@ -2240,6 +2620,9 @@
 				],
 				'titulary'=>[
 					'titulery',
+				],
+				'tizanidine'=>[
+					'tinzanidine',
 				],
 				'to'=>[
 					'to to',
@@ -2283,6 +2666,9 @@
 				'tobacconist'=>[
 					'tobaconist',
 				],
+				'tobaccos'=>[
+					'tabaccos',
+				],
 				'toboggan'=>[
 					'tobogan',
 				],
@@ -2313,6 +2699,9 @@
 				'toccate'=>[
 					'tocate',
 				],
+				'tocopherol'=>[
+					'tocophenol',
+				],
 				'today'=>[
 					'todya',
 				],
@@ -2321,6 +2710,9 @@
 				],
 				'toea'=>[
 					'toeae',
+				],
+				'tofogliflozin'=>[
+					'topogliflozin',
 				],
 				'together'=>[
 					'tegether',
@@ -2374,6 +2766,9 @@
 				],
 				'tolerate'=>[
 					'tolelate',
+				],
+				'tolerogenic'=>[
+					'toleragenic',
 				],
 				'tolkien'=>[
 					'tolkein',
@@ -2467,6 +2862,7 @@
 				],
 				'tonsillar'=>[
 					'tonsiller',
+					'tonsular',
 				],
 				'tonsillectomy'=>[
 					'tonsilectomy',
@@ -2524,6 +2920,9 @@
 				'topiary'=>[
 					'topiery',
 				],
+				'topiramate'=>[
+					'topimarate',
+				],
 				'topknot'=>[
 					'topkot',
 				],
@@ -2535,6 +2934,12 @@
 				],
 				'topminnow'=>[
 					'topminow',
+				],
+				'topography'=>[
+					'topogeography',
+				],
+				'toponymist'=>[
+					'toponomist',
 				],
 				'topper'=>[
 					'toper',
@@ -2560,12 +2965,17 @@
 				'torment'=>[
 					'tormant',
 				],
+				'tornado'=>[
+					'tornadoe',
+					'tornato',
+				],
 				'tornadoes'=>[
 					'tornados',
 					'tornaodes',
 				],
 				'toroid'=>[
 					'toriod',
+					'torroid',
 				],
 				'toroidal'=>[
 					'toriodal',
@@ -2595,6 +3005,9 @@
 				'torrs'=>[
 					'tors',
 				],
+				'torsos'=>[
+					'torsoes',
+				],
 				'tortellini'=>[
 					'tortelini',
 					'tortellina',
@@ -2618,11 +3031,15 @@
 				'tortoiseshell'=>[
 					'tortoiseshel',
 				],
+				'tortricid'=>[
+					'torticid',
+				],
 				'tortuosities'=>[
 					'tortosities',
 				],
 				'tortuosity'=>[
 					'tortosity',
+					'tortuousity',
 				],
 				'tortuous'=>[
 					'tortous',
@@ -2667,6 +3084,7 @@
 					'totalaly',
 					'totalely',
 					'totallly',
+					'totalley',
 				],
 				'totipotency'=>[
 					'totipotensy',
@@ -2705,6 +3123,7 @@
 					'toward toward',
 					'toward toward toward',
 					'towrad',
+					'torward',
 				],
 				'towardly'=>[
 					'towardally',
@@ -2714,6 +3133,7 @@
 				],
 				'towards'=>[
 					'tor-ards',
+					'torwards',
 				],
 				'town'=>[
 					'town town',
@@ -2734,8 +3154,23 @@
 					'toxicologicalely',
 					'toxicologicallly',
 				],
+				'toxicology'=>[
+					'toxilogy',
+				],
 				'trabecular'=>[
 					'trabeculer',
+				],
+				'trabeculation'=>[
+					'trebaculation',
+				],
+				'trabeculoplasty'=>[
+					'trabeculoplasy',
+				],
+				'traceable'=>[
+					'tracable',
+				],
+				'tracheal'=>[
+					'tarcheal',
 				],
 				'tracheary'=>[
 					'tracheery',
@@ -2748,6 +3183,9 @@
 				],
 				'tracheitises'=>[
 					'trachietises',
+				],
+				'tracheobronchial'=>[
+					'tracheobrochial',
 				],
 				'tracheolar'=>[
 					'tracheoler',
@@ -2886,6 +3324,9 @@
 				'transactinide'=>[
 					'transactinade',
 				],
+				'transacylase'=>[
+					'transacyclase',
+				],
 				'transalpine'=>[
 					'transalpini',
 				],
@@ -2984,16 +3425,41 @@
 					'trancsriptional',
 					'transriptional',
 				],
+				'transcriptionally'=>[
+					'transcriptionnally',
+				],
+				'transcriptomics'=>[
+					'transciptomics',
+				],
 				'transcutaneous'=>[
 					'trancsutaneous',
 					'trancutaneous',
 					'transutaneous',
+				],
+				'transcytosis'=>[
+					'trancytosis',
+					'transyctosis',
+				],
+				'transdimensional'=>[
+					'transdimentional',
+				],
+				'transducible'=>[
+					'transduceable',
 				],
 				'transductant'=>[
 					'transductent',
 				],
 				'transept'=>[
 					'transcept',
+				],
+				'transesophageal'=>[
+					'transesophoegal',
+				],
+				'transfectability'=>[
+					'transfectibility',
+				],
+				'transfected'=>[
+					'tranfected',
 				],
 				'transfer'=>[
 					'transferr',
@@ -3009,6 +3475,7 @@
 				],
 				'transferrin'=>[
 					'transferin',
+					'transferritin',
 				],
 				'transferring'=>[
 					'transfering',
@@ -3029,6 +3496,9 @@
 				'transformed'=>[
 					'tranformed',
 					'trasformed',
+				],
+				'transforming'=>[
+					'transformating',
 				],
 				'transfusible'=>[
 					'transfuisble',
@@ -3077,6 +3547,15 @@
 				'transilluminate'=>[
 					'transilluminite',
 				],
+				'transillumination'=>[
+					'transilumination',
+				],
+				'transilluminator'=>[
+					'transiluminator',
+				],
+				'transiluminator'=>[
+					'transluminator',
+				],
 				'transistor'=>[
 					'transister',
 				],
@@ -3116,6 +3595,12 @@
 					'translucentaly',
 					'translucentely',
 					'translucentlly',
+				],
+				'transluminant'=>[
+					'transluminent',
+				],
+				'transluminescence'=>[
+					'transilluminescence',
 				],
 				'transmarine'=>[
 					'transmarini',
@@ -3221,6 +3706,9 @@
 				'transports'=>[
 					'tranpsorts',
 				],
+				'transsarcolemmal'=>[
+					'transarcolemmal',
+				],
 				'transsexual'=>[
 					'transexual',
 					'transsexaul',
@@ -3237,6 +3725,19 @@
 				'transshipping'=>[
 					'transshiping',
 				],
+				'transsphenoidal'=>[
+					'transphenoid',
+					'transphenoidal',
+				],
+				'transsynaptically'=>[
+					'transynaptically',
+				],
+				'transthyretin'=>[
+					'tranthyretin',
+				],
+				'transubstantiation'=>[
+					'transsubstantiation',
+				],
 				'transvaluating'=>[
 					'transvalauting',
 				],
@@ -3246,6 +3747,12 @@
 				'transvaluations'=>[
 					'transvalautions',
 				],
+				'transxiphoid'=>[
+					'transxyphoid',
+				],
+				'trapezoid'=>[
+					'trapazoid',
+				],
 				'trapper'=>[
 					'traper',
 				],
@@ -3254,6 +3761,9 @@
 				],
 				'trass'=>[
 					'tras',
+				],
+				'trastuzumab'=>[
+					'transtuzumab',
 				],
 				'travel'=>[
 					'travei',
@@ -3268,6 +3778,9 @@
 				],
 				'travels'=>[
 					'traveis',
+				],
+				'traversability'=>[
+					'traversibility',
 				],
 				'travertine'=>[
 					'travertini',
@@ -3350,6 +3863,10 @@
 				],
 				'trellis'=>[
 					'trelis',
+					'trelice',
+				],
+				'tremendous'=>[
+					'tremendious',
 				],
 				'tremolo'=>[
 					'tremelo',
@@ -3400,6 +3917,12 @@
 				'triable'=>[
 					'triible',
 				],
+				'triacylglycerol'=>[
+					'triacyclglycerol',
+				],
+				'triamcinolone'=>[
+					'triamcilonone',
+				],
 				'triangle'=>[
 					'traingle',
 					'triangle triangle',
@@ -3423,6 +3946,9 @@
 				'tributary'=>[
 					'tributery',
 				],
+				'tricaine'=>[
+					'tricane',
+				],
 				'trichina'=>[
 					'trichini',
 				],
@@ -3438,11 +3964,22 @@
 				'trichinize'=>[
 					'trichinaze',
 				],
+				'trichlorobiphenyls'=>[
+					'trichlorodiphenyls',
+				],
+				'trichostatin'=>[
+					'trichostain',
+					'tricostatin',
+					'trychostatin',
+				],
 				'trichotomously'=>[
 					'trichotomousally',
 					'trichotomousaly',
 					'trichotomousely',
 					'trichotomouslly',
+				],
+				'trichotomy'=>[
+					'tricotomy',
 				],
 				'tricksy'=>[
 					'trickcy',
@@ -3517,6 +4054,15 @@
 				],
 				'trigging'=>[
 					'triging',
+				],
+				'triglyceride'=>[
+					'trygliceride',
+				],
+				'trihydroxymethylanthraquinone'=>[
+					'trioxymethylanthraquinone',
+				],
+				'triiodothyronine'=>[
+					'triidothyronine',
 				],
 				'trilinear'=>[
 					'trilineer',
@@ -3617,11 +4163,17 @@
 				'trippy'=>[
 					'tripy',
 				],
+				'triptych'=>[
+					'tryptich',
+				],
 				'trisaccharide'=>[
 					'trisacharide',
 				],
 				'trisaccharides'=>[
 					'trisacharides',
+				],
+				'triskaidekaphobia'=>[
+					'tricadecaphobia',
 				],
 				'trisoctahedra'=>[
 					'trisoctaedra',
@@ -3645,6 +4197,12 @@
 				'triumphant'=>[
 					'triumphent',
 				],
+				'triungulin'=>[
+					'tringulin',
+				],
+				'trivariate'=>[
+					'trivarite',
+				],
 				'trivia'=>[
 					'triva',
 				],
@@ -3660,8 +4218,15 @@
 				'trochanter'=>[
 					'trochenter',
 				],
+				'trochanteric'=>[
+					'throcanteric',
+					'trocantheric',
+				],
 				'trochlear'=>[
 					'trochleer',
+				],
+				'trochophore'=>[
+					'trocophore',
 				],
 				'trod'=>[
 					'treaded',
@@ -3684,14 +4249,37 @@
 					'trolely',
 					'trollly',
 				],
+				'trombiculid'=>[
+					'thrombiculid',
+				],
+				'tromethamine'=>[
+					'tormethamine',
+				],
 				'trommel'=>[
 					'tromnel',
+				],
+				'trompe l\'oeil'=>[
+					'tromp-l\'oeil',
 				],
 				'trophallaxis'=>[
 					'trophalaxis',
 				],
+				'trophectoderm'=>[
+					'trofectoderm',
+				],
+				'trophoblast'=>[
+					'throphoblast',
+				],
+				'trophotropism'=>[
+					'trophotrophism',
+				],
 				'tropocollagen'=>[
 					'tropocolagen',
+				],
+				'tropomyosin'=>[
+					'thropomyosin',
+					'topomyosin',
+					'tropomysin',
 				],
 				'trotsky'=>[
 					'trotksy',
@@ -3787,6 +4375,27 @@
 					'try try',
 					'try try try',
 				],
+				'try square'=>[
+					'trisquare',
+				],
+				'trying'=>[
+					'trieing',
+				],
+				'trypanosomiasis'=>[
+					'trepanosomiasis',
+					'trypanosomaiasis',
+				],
+				'trypsination'=>[
+					'trypination',
+				],
+				'trypsinization'=>[
+					'tripsinization',
+					'trypinization',
+					'trypsynization',
+				],
+				'tryptophan'=>[
+					'trytophan',
+				],
 				'tsar'=>[
 					'tser',
 				],
@@ -3824,11 +4433,25 @@
 				'tubercular'=>[
 					'tuberculer',
 				],
+				'tuberomammillary'=>[
+					'tuberomamillary',
+					'tuberomammilary',
+				],
+				'tubocapsanolide'=>[
+					'tubocapsenolide',
+				],
 				'tubocurarine'=>[
 					'tubocurarini',
+					'turbocurarine',
 				],
 				'tubular'=>[
 					'tubuler',
+				],
+				'tubulovesicular'=>[
+					'tubovesicular',
+				],
+				'tubulovillous'=>[
+					'tubullovillous',
 				],
 				'tuckahoe'=>[
 					'tuckaoe',
@@ -3902,6 +4525,7 @@
 				],
 				'tumultuous'=>[
 					'tumultous',
+					'tumultuos',
 				],
 				'tumultuously'=>[
 					'tumultously',
@@ -3955,6 +4579,9 @@
 					'turbelarian',
 					'turbellaran',
 				],
+				'turbidimeter'=>[
+					'turbidometer',
+				],
 				'turbinal'=>[
 					'turbinil',
 				],
@@ -3996,6 +4623,9 @@
 				],
 				'turkish-occupied'=>[
 					'turkish occupied',
+				],
+				'turmeric'=>[
+					'tumeric',
 				],
 				'turn'=>[
 					'turn turn',
@@ -4070,10 +4700,14 @@
 				'tweak'=>[
 					'twek',
 				],
+				'tweaker'=>[
+					'tweeker',
+				],
 				'twelfth'=>[
 					'twefth',
 					'twelth',
 					'twelveth',
+					'twelvth',
 				],
 				'twelve years'=>[
 					'twelve year',
@@ -4148,6 +4782,15 @@
 				'twopenny'=>[
 					'twopeny',
 				],
+				'tychoplankton'=>[
+					'thycoplankton',
+				],
+				'tychoplanktonic'=>[
+					'thycoplanktonic',
+				],
+				'tympanogram'=>[
+					'tympaniogram',
+				],
 				'typable'=>[
 					'typible',
 				],
@@ -4162,6 +4805,9 @@
 					'typecript',
 					'typecsript',
 					'typesript',
+				],
+				'typhoon'=>[
+					'thypoon',
 				],
 				'typical'=>[
 					'tipical',
@@ -4181,6 +4827,9 @@
 				],
 				'tyrannicide'=>[
 					'tyranicide',
+				],
+				'tyrannid'=>[
+					'tyrranid',
 				],
 				'tyrannies'=>[
 					'tyranies',

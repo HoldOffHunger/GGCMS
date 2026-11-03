@@ -32,14 +32,39 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'USNORTHCOM'=>[
+					'usnorcom',
+				],
 				'u-boat'=>[
 					'uboat',
 				],
 				'uakari'=>[
 					'aukari',
 				],
+				'ubiquitinase'=>[
+					'ubiquinase',
+				],
+				'ubiquitinate'=>[
+					'ubiquinate',
+				],
+				'ubiquitinated'=>[
+					'ubiquinated',
+				],
+				'ubiquitinating'=>[
+					'ubiquinating',
+				],
+				'ubiquitination'=>[
+					'ubiquination',
+				],
+				'ubiquitinylated'=>[
+					'ubiquitinilated',
+				],
 				'ubiquitous'=>[
 					'ubiquitious',
+					'ubiquetous',
+				],
+				'ubiquitylation'=>[
+					'ubiquitilation',
 				],
 				'ugandan-occupied'=>[
 					'ugandan occupied',
@@ -120,6 +145,9 @@
 				'ultrafeminine'=>[
 					'ultrafeminane',
 				],
+				'ultrafiltration'=>[
+					'ultrainfiltration',
+				],
 				'ultraglamorous'=>[
 					'ultraglamourous',
 				],
@@ -150,6 +178,9 @@
 				'ultrahuman'=>[
 					'ultrauman',
 				],
+				'ultramafic'=>[
+					'ultrafamic',
+				],
 				'ultramarine'=>[
 					'ultramarini',
 				],
@@ -178,6 +209,9 @@
 				],
 				'umbelliferous'=>[
 					'umbeliferous',
+				],
+				'umbrage'=>[
+					'umbridge',
 				],
 				'umbrella'=>[
 					'umbrela',
@@ -296,6 +330,7 @@
 				],
 				'unaffordable'=>[
 					'unaffordible',
+					'unafordable',
 				],
 				'unaggressive'=>[
 					'unaggresive',
@@ -341,8 +376,14 @@
 				'unamusing'=>[
 					'unamuisng',
 				],
+				'unanaesthetized'=>[
+					'unanaethetized',
+				],
 				'unanalyzable'=>[
 					'unanalyzible',
+				],
+				'unanimity'=>[
+					'unamity',
 				],
 				'unanimous'=>[
 					'unaminous',
@@ -551,6 +592,8 @@
 					'unbeleivable',
 					'unbelievible',
 					'unbelivable',
+					'unbelieveable',
+					'unbeliveable',
 				],
 				'unbelievably'=>[
 					'unbelievabally',
@@ -706,6 +749,9 @@
 				'unchauvinistic'=>[
 					'unchauvinastic',
 				],
+				'uncheesy'=>[
+					'uncheesey',
+				],
 				'unchivalrously'=>[
 					'unchivalrousally',
 					'unchivalrousaly',
@@ -732,6 +778,7 @@
 				],
 				'uncinate'=>[
 					'uncinite',
+					'unicinate',
 				],
 				'uncini'=>[
 					'uncina',
@@ -789,6 +836,8 @@
 				'uncomfortable'=>[
 					'uncomfrotable',
 					'uncomfortible',
+					'uncomfertable',
+					'unconfortable',
 				],
 				'uncommercial'=>[
 					'uncomnercial',
@@ -927,6 +976,9 @@
 				'uncountable'=>[
 					'uncountible',
 				],
+				'uncouth'=>[
+					'uncooth',
+				],
 				'uncovenanted'=>[
 					'uncovenented',
 				],
@@ -1049,6 +1101,9 @@
 				'undergarment'=>[
 					'undergarmant',
 				],
+				'underglycosylation'=>[
+					'underglycolysation',
+				],
 				'undergraduate'=>[
 					'undergradaute',
 				],
@@ -1090,6 +1145,9 @@
 				],
 				'underneath'=>[
 					'underneth',
+				],
+				'undernutrition'=>[
+					'undenutrition',
 				],
 				'underpants'=>[
 					'underpents',
@@ -1228,6 +1286,9 @@
 					'undeis',
 					'undis',
 				],
+				'undifferentiated'=>[
+					'undifferenciated',
+				],
 				'undigestible'=>[
 					'undigestable',
 				],
@@ -1313,6 +1374,12 @@
 				'undular'=>[
 					'unduler',
 				],
+				'undulate'=>[
+					'ondulate',
+				],
+				'undulatory'=>[
+					'ondulatory',
+				],
 				'unduly'=>[
 					'undually',
 					'undualy',
@@ -1331,6 +1398,9 @@
 					'unearthely',
 					'unearthlly',
 					'unerthly',
+				],
+				'uneasiness'=>[
+					'uneaseness',
 				],
 				'uneasy'=>[
 					'uneacy',
@@ -1359,12 +1429,16 @@
 					'unnemployment',
 					'unemploymant',
 				],
+				'unencyclopedic'=>[
+					'uncyclopedic',
+				],
 				'unendurable'=>[
 					'unendurible',
 				],
 				'unenforceable'=>[
 					'unenforceble',
 					'unenforceible',
+					'unenforcable',
 				],
 				'unenlightened'=>[
 					'unenlightend',
@@ -1417,6 +1491,9 @@
 					'unexceptionabaly',
 					'unexceptionabely',
 					'unexceptionablly',
+				],
+				'unexchangeable'=>[
+					'unexchangable',
 				],
 				'unexcitable'=>[
 					'unexcitible',
@@ -1510,6 +1587,9 @@
 				'unfledged'=>[
 					'unfleged',
 				],
+				'unfocusable'=>[
+					'unfocussable',
+				],
 				'unforeseeable'=>[
 					'unforeseeble',
 					'unforeseeible',
@@ -1519,6 +1599,7 @@
 				],
 				'unforgettable'=>[
 					'unforgettible',
+					'unforgetable',
 				],
 				'unforgivable'=>[
 					'unforgivible',
@@ -1532,6 +1613,7 @@
 					'unfortunatley',
 					'unfortunatly',
 					'unfortuntely',
+					'unfortunally',
 				],
 				'unfrequented'=>[
 					'unfrequanted',
@@ -1693,6 +1775,13 @@
 					'unindentified',
 					'unidantified',
 					'unidentifid',
+					'unidentifed',
+				],
+				'unidirectional'=>[
+					'uni-directional',
+				],
+				'unidirectionally'=>[
+					'undirectionally',
 				],
 				'unified'=>[
 					'unifed',
@@ -1876,6 +1965,9 @@
 					'united stats',
 					'unites states',
 					'untied states',
+				],
+				'univariate'=>[
+					'unvariate',
 				],
 				'universally'=>[
 					'universaly',
@@ -2265,6 +2357,7 @@
 					'uneasurable',
 					'unmeasurible',
 					'unmesurable',
+					'unmeasureable',
 				],
 				'unmeasured'=>[
 					'umeasured',
@@ -2765,6 +2858,7 @@
 				],
 				'unobtrusive'=>[
 					'unobtruisve',
+					'unobstrusive',
 				],
 				'unobtrusively'=>[
 					'unobtruisvely',
@@ -2790,6 +2884,10 @@
 				],
 				'unopposed'=>[
 					'unoposed',
+					'unapposed',
+				],
+				'unoprostone'=>[
+					'unoprostane',
 				],
 				'unordered'=>[
 					'unourdered',
@@ -2867,6 +2965,9 @@
 				],
 				'unpersuasive'=>[
 					'unpersausive',
+				],
+				'unphosphorylated'=>[
+					'unphosphoryated',
 				],
 				'unplanned'=>[
 					'unplaned',
@@ -2963,6 +3064,7 @@
 				'unpronounceable'=>[
 					'unpronounceble',
 					'unpronounceible',
+					'unpronouncable',
 				],
 				'unpropitious'=>[
 					'unpropitous',
@@ -3050,6 +3152,7 @@
 				'unreasonable'=>[
 					'unreasonible',
 					'unresonable',
+					'unreasonnable',
 				],
 				'unreasonably'=>[
 					'unreasonabally',
@@ -3333,6 +3436,9 @@
 				'unseparated'=>[
 					'unseperated',
 				],
+				'unsequenceable'=>[
+					'unsequencable',
+				],
 				'unserious'=>[
 					'unserous',
 				],
@@ -3374,6 +3480,9 @@
 				'unskilled'=>[
 					'unskiled',
 				],
+				'unskippable'=>[
+					'unskipable',
+				],
 				'unsnagging'=>[
 					'unsnaging',
 				],
@@ -3396,6 +3505,7 @@
 				],
 				'unsolvable'=>[
 					'unsolvible',
+					'unsolveable',
 				],
 				'unsoncy'=>[
 					'unsonsy',
@@ -3679,6 +3789,9 @@
 				'unweary'=>[
 					'unweery',
 				],
+				'unweddable'=>[
+					'unwedable',
+				],
 				'unweighed'=>[
 					'unwieghed',
 				],
@@ -3749,6 +3862,9 @@
 				'up'=>[
 					'up up',
 					'up up up',
+				],
+				'up stick'=>[
+					'upstick',
 				],
 				'up the'=>[
 					'upthe',
@@ -3865,6 +3981,9 @@
 				'uraei'=>[
 					'uraie',
 				],
+				'uraeus'=>[
+					'ureaus',
+				],
 				'uraninite'=>[
 					'uraninate',
 				],
@@ -3876,6 +3995,9 @@
 					'urbanisticalaly',
 					'urbanisticalely',
 					'urbanisticallly',
+				],
+				'urbilaterian'=>[
+					'urbilatarian',
 				],
 				'urea'=>[
 					'ure',
@@ -3889,11 +4011,20 @@
 				'uredinium'=>[
 					'uredinaum',
 				],
+				'urediospore'=>[
+					'uridiospore',
+				],
 				'ureic'=>[
 					'uriec',
 				],
 				'ureide'=>[
 					'uriede',
+				],
+				'ureteroenteric'=>[
+					'uretroenteric',
+				],
+				'ureteroscope'=>[
+					'uteroscope',
 				],
 				'urethroscope'=>[
 					'urethrocope',
@@ -3914,6 +4045,9 @@
 				],
 				'uridine'=>[
 					'uridini',
+				],
+				'uridylyltransferase'=>[
+					'uridyltransferase',
 				],
 				'urinal'=>[
 					'urinil',
@@ -3970,6 +4104,12 @@
 				'urokinases'=>[
 					'urokinises',
 				],
+				'uropygial'=>[
+					'uropygical',
+				],
+				'urothelial'=>[
+					'urotheial',
+				],
 				'ursine'=>[
 					'ursini',
 				],
@@ -3986,6 +4126,9 @@
 				],
 				'usage'=>[
 					'useage',
+				],
+				'usages'=>[
+					'useages',
 				],
 				'usance'=>[
 					'usence',
@@ -4012,6 +4155,7 @@
 				],
 				'useless'=>[
 					'useles',
+					'usless',
 				],
 				'userboxen'=>[
 					'userboxev',
@@ -4048,9 +4192,16 @@
 				],
 				'usurp'=>[
 					'usurpate',
+					'upsurp',
 				],
 				'uterine'=>[
 					'uterini',
+				],
+				'uteroplacental'=>[
+					'uroplacental',
+				],
+				'utilisation'=>[
+					'ultilisation',
 				],
 				'utilitarian'=>[
 					'utilitaran',

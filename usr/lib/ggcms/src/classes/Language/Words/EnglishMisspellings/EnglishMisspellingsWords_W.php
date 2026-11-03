@@ -32,6 +32,12 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'West Flanders'=>[
+					'west-flanders',
+				],
+				'Wikipedia'=>[
+					'wikepedia',
+				],
 				'wabble'=>[
 					'wable',
 				],
@@ -82,6 +88,7 @@
 				],
 				'waggly'=>[
 					'wagly',
+					'waggily',
 				],
 				'waggon'=>[
 					'wagon',
@@ -308,6 +315,9 @@
 					'was\'nt',
 					'wasnt',
 				],
+				'wasn’t'=>[
+					'wasint',
+				],
 				'wastery'=>[
 					'wastary',
 				],
@@ -460,6 +470,7 @@
 				],
 				'weasel'=>[
 					'wesel',
+					'weasal',
 				],
 				'weasely'=>[
 					'weasly',
@@ -521,6 +532,9 @@
 				'webcast'=>[
 					'webcasted',
 				],
+				'weblog'=>[
+					'webblog',
+				],
 				'website'=>[
 					'wbesite',
 					'webiste',
@@ -549,6 +563,9 @@
 				'week'=>[
 					'week week',
 					'week week week',
+				],
+				'week-old'=>[
+					'weekold',
 				],
 				'weekend'=>[
 					'weekened',
@@ -580,6 +597,7 @@
 					'weight weight weight',
 					'weigth',
 					'wieght',
+					'weighth',
 				],
 				'weighted'=>[
 					'wieghted',
@@ -608,6 +626,9 @@
 				],
 				'weirdie'=>[
 					'wierdie',
+				],
+				'weirdly'=>[
+					'wierdly',
 				],
 				'weirdo'=>[
 					'wierdo',
@@ -978,6 +999,7 @@
 				'wheatear'=>[
 					'weatear',
 					'wheateer',
+					'wheater',
 				],
 				'wheatears'=>[
 					'weatears',
@@ -1338,6 +1360,7 @@
 				'wherewithal'=>[
 					'werewithal',
 					'wherewital',
+					'wherewithall',
 				],
 				'wherewithals'=>[
 					'werewithals',
@@ -2831,6 +2854,9 @@
 				'winsomely'=>[
 					'winsomly',
 				],
+				'winsorizing'=>[
+					'windsorizing',
+				],
 				'winter'=>[
 					'winter winter',
 					'winter winter winter',
@@ -2979,6 +3005,9 @@
 				],
 				'woggish'=>[
 					'wogish',
+				],
+				'wojak'=>[
+					'wojack',
 				],
 				'woke'=>[
 					'wok',
@@ -3187,6 +3216,9 @@
 				'worshiper'=>[
 					'worshipper',
 				],
+				'worst-case'=>[
+					'worse-case',
+				],
 				'worthless'=>[
 					'a-orthless',
 					'worthles',
@@ -3203,6 +3235,10 @@
 				'worthy of exploiting'=>[
 					'worthily of exploding',
 				],
+				'wortmannin'=>[
+					'wortamanin',
+					'wortamannin',
+				],
 				'would'=>[
 					'owudl',
 					'owuld',
@@ -3215,6 +3251,9 @@
 				],
 				'would have'=>[
 					'would of',
+				],
+				'would\'ve'=>[
+					'wouldve',
 				],
 				'wouldn\'t'=>[
 					'would\'nt',
@@ -3326,6 +3365,9 @@
 				],
 				'www'=>[
 					'www.www',
+				],
+				'wybutosine'=>[
+					'wybotusine',
 				],
 				'wynn'=>[
 					'wyn',

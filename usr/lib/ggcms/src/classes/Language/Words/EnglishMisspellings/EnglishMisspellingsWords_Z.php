@@ -32,6 +32,9 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Zacchaeus'=>[
+					'zaccheaus',
+				],
 				'zaffar'=>[
 					'zaffer',
 				],
@@ -56,8 +59,17 @@
 				'zaptiahs'=>[
 					'zaptias',
 				],
+				'zardaverine'=>[
+					'zadaverine',
+				],
 				'zeal'=>[
 					'zel',
+				],
+				'zearalenone'=>[
+					'zearelenone',
+				],
+				'zeaxanthin'=>[
+					'zexanthin',
 				],
 				'zebra'=>[
 					'zeebra',
@@ -94,6 +106,9 @@
 				],
 				'zeppelin'=>[
 					'zepelin',
+				],
+				'zettabyte'=>[
+					'zetabyte',
 				],
 				'zidovudine'=>[
 					'zidovudini',
@@ -132,6 +147,9 @@
 				'zigzagging'=>[
 					'zigzaging',
 				],
+				'zigzaggy'=>[
+					'zigzagy',
+				],
 				'zill'=>[
 					'zil',
 				],
@@ -159,6 +177,9 @@
 				'zionists'=>[
 					'sionists',
 				],
+				'ziphiid'=>[
+					'ziphid',
+				],
 				'zipper'=>[
 					'ziper',
 				],
@@ -173,6 +194,12 @@
 				],
 				'zoea'=>[
 					'zoe',
+				],
+				'zolazepam'=>[
+					'zolazepan',
+				],
+				'zoledronic'=>[
+					'zolendronic',
 				],
 				'zombie'=>[
 					'zombei',
@@ -196,8 +223,15 @@
 				'zoomorphs'=>[
 					'zoomourphs',
 				],
+				'zoophilic'=>[
+					'zoophyllic',
+				],
 				'zooxanthella'=>[
 					'zooxenthella',
+				],
+				'zooxanthellate'=>[
+					'zooxantellate',
+					'zooxanthelate',
 				],
 				'zouave'=>[
 					'zoauve',
@@ -216,6 +250,9 @@
 					'zucchina',
 					'zuchini',
 				],
+				'zygomatic'=>[
+					'zigomatic',
+				],
 				'zygomorphic'=>[
 					'zygomourphic',
 				],
@@ -224,6 +261,15 @@
 				],
 				'zygomorphy'=>[
 					'zygomourphy',
+				],
+				'zymographic'=>[
+					'zimographic',
+				],
+				'zymography'=>[
+					'zimography',
+				],
+				'zymosan'=>[
+					'zymozan',
 				],
 			];
 		}

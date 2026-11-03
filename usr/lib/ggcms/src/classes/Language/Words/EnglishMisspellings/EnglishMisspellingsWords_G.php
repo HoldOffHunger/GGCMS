@@ -32,6 +32,9 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Gurbantünggüt'=>[
+					'gubantunggut',
+				],
 				'gabbarts'=>[
 					'gabarts',
 				],
@@ -92,6 +95,9 @@
 				'gadoliniums'=>[
 					'gadolinaums',
 				],
+				'gadopentetate'=>[
+					'gadopentate',
+				],
 				'gaeing'=>[
 					'gaieng',
 				],
@@ -140,6 +146,19 @@
 				'galactic'=>[
 					'galatic',
 				],
+				'galactitol'=>[
+					'galacitol',
+					'galacticol',
+				],
+				'galactocerebroside'=>[
+					'galactocerebrocide',
+				],
+				'galactogogue'=>[
+					'galactologue',
+				],
+				'galactopoiesis'=>[
+					'galactopoesis',
+				],
 				'galactorrhea'=>[
 					'galactorhea',
 					'galactorrhe',
@@ -152,6 +171,9 @@
 				],
 				'galactosamines'=>[
 					'galactosaminis',
+				],
+				'galactosyltransferase'=>[
+					'galactosyltranferase',
 				],
 				'galah'=>[
 					'gala',
@@ -221,6 +243,9 @@
 					'galinaceous',
 					'galliniceous',
 				],
+				'galline'=>[
+					'galine',
+				],
 				'galling'=>[
 					'galing',
 				],
@@ -238,6 +263,9 @@
 				'gallivanting'=>[
 					'galliventing',
 				],
+				'gallocatechin'=>[
+					'galocatechin',
+				],
 				'gallon'=>[
 					'galon',
 				],
@@ -254,6 +282,18 @@
 					'galally',
 					'galaly',
 					'gallly',
+				],
+				'galore'=>[
+					'gallore',
+				],
+				'galvanic'=>[
+					'galvonic',
+				],
+				'galvanize'=>[
+					'galvinize',
+				],
+				'galvanometric'=>[
+					'galvonometric',
 				],
 				'galvanoscope'=>[
 					'galvanocope',
@@ -285,11 +325,20 @@
 				'gamesomely'=>[
 					'gamesomly',
 				],
+				'gametocidal'=>[
+					'gametocydal',
+				],
+				'gametocytaemia'=>[
+					'gametocitaemia',
+				],
 				'gamine'=>[
 					'gamini',
 				],
 				'gamma'=>[
 					'gamna',
+				],
+				'gammaridean'=>[
+					'gammaridian',
 				],
 				'gammas'=>[
 					'gamnas',
@@ -302,6 +351,9 @@
 				],
 				'gammon'=>[
 					'gamnon',
+				],
+				'gammopathy'=>[
+					'gammapathy',
 				],
 				'gammy'=>[
 					'gamny',
@@ -368,6 +420,10 @@
 				],
 				'garment'=>[
 					'garmant',
+					'garmet',
+				],
+				'garnered'=>[
+					'garned',
 				],
 				'garnierite'=>[
 					'garneirite',
@@ -430,6 +486,9 @@
 				'gasoline'=>[
 					'gasolini',
 				],
+				'gasometric'=>[
+					'gazometric',
+				],
 				'gassed'=>[
 					'gased',
 				],
@@ -440,17 +499,32 @@
 					'gascy',
 					'gasy',
 				],
+				'gastrectomy'=>[
+					'gastroctomy',
+				],
 				'gastroduodenal'=>[
 					'gastrododenal',
 				],
 				'gastroenteritis'=>[
 					'gastroanteritis',
 				],
+				'gastroesophageal'=>[
+					'gastroesopheal',
+				],
+				'gastrografin'=>[
+					'gastrographin',
+				],
+				'gastrointestinally'=>[
+					'gastrointestinaly',
+				],
 				'gastronomically'=>[
 					'gastronomicalally',
 					'gastronomicalaly',
 					'gastronomicalely',
 					'gastronomicallly',
+				],
+				'gastroparesis'=>[
+					'gasteroparesis',
 				],
 				'gastroscopes'=>[
 					'gastrocopes',
@@ -476,12 +550,18 @@
 				'gastrular'=>[
 					'gastruler',
 				],
+				'gastrulation'=>[
+					'gastulation',
+				],
 				'gather'=>[
 					'gather gather',
 					'gather gather gather',
 				],
 				'gathering'=>[
 					'gethering',
+				],
+				'gatifloxacin'=>[
+					'gatifoxacin',
 				],
 				'gauchely'=>[
 					'gauchly',
@@ -533,6 +613,9 @@
 				'gearing'=>[
 					'gering',
 				],
+				'gecarcinid'=>[
+					'geocarcinid',
+				],
 				'geeing'=>[
 					'geieng',
 				],
@@ -575,11 +658,17 @@
 				'gelatinizing'=>[
 					'gelatinazing',
 				],
+				'geldanamycin'=>[
+					'galdanamycin',
+				],
 				'gelidly'=>[
 					'gelidally',
 					'gelidaly',
 					'gelidely',
 					'gelidlly',
+				],
+				'gemcitabine'=>[
+					'gencitabine',
 				],
 				'gemeinschaft'=>[
 					'gemeinchaft',
@@ -598,6 +687,9 @@
 				],
 				'geminiani'=>[
 					'geminani',
+				],
+				'geminivirus'=>[
+					'germinivirus',
 				],
 				'gemma'=>[
 					'gemna',
@@ -661,8 +753,17 @@
 				'generalcy'=>[
 					'generalsy',
 				],
+				'generalisability'=>[
+					'generalisibility',
+				],
+				'generalisable'=>[
+					'generaliseable',
+				],
 				'generalissimo'=>[
 					'generalisimo',
+				],
+				'generalizability'=>[
+					'generalizablity',
 				],
 				'generally'=>[
 					'genarally',
@@ -689,9 +790,24 @@
 				'genesis'=>[
 					'genisis',
 				],
+				'genetic'=>[
+					'gentic',
+				],
+				'geneticin'=>[
+					'genecitin',
+				],
+				'geniculate'=>[
+					'genticulate',
+				],
+				'geniculocalcarine'=>[
+					'geniculocalcerine',
+				],
 				'genie'=>[
 					'genei',
 					'geni',
+				],
+				'geniohyoid'=>[
+					'genohyoid',
 				],
 				'genisteins'=>[
 					'genistiens',
@@ -703,14 +819,27 @@
 					'genitourinery',
 					'genitouriniry',
 				],
+				'genius'=>[
+					'genious',
+				],
 				'genius or genus'=>[
 					'genuis',
 				],
 				'gennakers'=>[
 					'genakers',
 				],
+				'genomic'=>[
+					'gemonic',
+				],
 				'gent'=>[
 					'gant',
+				],
+				'gentamicin'=>[
+					'gentimicin',
+				],
+				'gentamycin'=>[
+					'gantamycin',
+					'genamycin',
 				],
 				'genteel'=>[
 					'ganteel',
@@ -727,6 +856,9 @@
 				],
 				'gentile'=>[
 					'gantile',
+				],
+				'gentisate'=>[
+					'gantisate',
 				],
 				'gentle'=>[
 					'gentle gentle',
@@ -771,6 +903,9 @@
 				],
 				'genuinenesses'=>[
 					'genuininesses',
+				],
+				'geocodable'=>[
+					'geocodeable',
 				],
 				'geodesy'=>[
 					'geodecy',
@@ -830,17 +965,26 @@
 				'geosyncline'=>[
 					'geosynclini',
 				],
+				'geotactic'=>[
+					'geotaxic',
+				],
 				'geotectonically'=>[
 					'geotectonicalally',
 					'geotectonicalaly',
 					'geotectonicalely',
 					'geotectonicallly',
 				],
+				'geotropic'=>[
+					'geotrophic',
+				],
 				'gerah'=>[
 					'gera',
 				],
 				'gerahs'=>[
 					'geras',
+				],
+				'geranylgeranylation'=>[
+					'geranylgeranlyation',
 				],
 				'gerent'=>[
 					'gerant',
@@ -1116,6 +1260,7 @@
 				],
 				'giblets'=>[
 					'jiblets',
+					'gibblets',
 				],
 				'gibraltar'=>[
 					'gibralter',
@@ -1263,6 +1408,9 @@
 				'gigahertzes'=>[
 					'gigaertzes',
 					'jigahertzes',
+				],
+				'gigamp'=>[
+					'gigaamp',
 				],
 				'gigantean'=>[
 					'jigantean',
@@ -1664,6 +1812,9 @@
 					'gingerlly',
 					'jingerly',
 				],
+				'gingerol'=>[
+					'ginerol',
+				],
 				'gingerroot'=>[
 					'gingeroot',
 					'jingerroot',
@@ -1715,6 +1866,7 @@
 				],
 				'gingivectomy'=>[
 					'ginjivectomy',
+					'gengivectomy',
 				],
 				'gingivitis'=>[
 					'ginjivitis',
@@ -1736,6 +1888,9 @@
 				],
 				'ginkgoes'=>[
 					'jinkgoes',
+				],
+				'ginkgophyte'=>[
+					'ginkophyte',
 				],
 				'ginkgos'=>[
 					'jinkgos',
@@ -1773,6 +1928,9 @@
 				],
 				'ginsengs'=>[
 					'jinsengs',
+				],
+				'ginsenoside'=>[
+					'gingenoside',
 				],
 				'ginzo'=>[
 					'jinzo',
@@ -2085,6 +2243,7 @@
 				],
 				'gizzard'=>[
 					'jizzard',
+					'gizard',
 				],
 				'gizzards'=>[
 					'jizzards',
@@ -2095,6 +2254,9 @@
 				'glacier'=>[
 					'glaceir',
 					'glacir',
+				],
+				'glacifluvial'=>[
+					'glazifluvial',
 				],
 				'glad'=>[
 					'glad glad',
@@ -2196,6 +2358,7 @@
 				],
 				'gleam'=>[
 					'glem',
+					'gleem',
 				],
 				'glean'=>[
 					'glen',
@@ -2215,6 +2378,9 @@
 				'glimmering'=>[
 					'glimnering',
 				],
+				'gliotoxin'=>[
+					'gliatoxin',
+				],
 				'glistened'=>[
 					'glistend',
 				],
@@ -2232,6 +2398,9 @@
 				],
 				'globby'=>[
 					'globy',
+				],
+				'globes'=>[
+					'glodes',
 				],
 				'globosely'=>[
 					'globosly',
@@ -2251,6 +2420,16 @@
 				],
 				'glomerular'=>[
 					'glomeruler',
+					'glomular',
+				],
+				'glomerulogenesis'=>[
+					'glomeruligenesis',
+				],
+				'glomerulonephritis'=>[
+					'glomeruronephritis',
+				],
+				'glomerulus'=>[
+					'glomerulum',
 				],
 				'glomming'=>[
 					'glomning',
@@ -2281,11 +2460,49 @@
 				'gloxinia'=>[
 					'gloxinaa',
 				],
+				'glucanase'=>[
+					'gluconase',
+				],
 				'glucinic'=>[
 					'glucinac',
 				],
+				'glucoamylase'=>[
+					'glucomylase',
+				],
+				'glucocerebrosidase'=>[
+					'glucocerobrosidase',
+				],
+				'glucocorticoid'=>[
+					'glaucocorticoid',
+					'glococorticoid',
+					'glycocorticoid',
+				],
+				'gluconeogenesis'=>[
+					'glucanogenesis',
+					'gluconeongenesis',
+				],
 				'glucosamine'=>[
 					'glucosamini',
+				],
+				'glucuronidase'=>[
+					'glucoronidase',
+					'glycaronidase',
+				],
+				'glucuronidation'=>[
+					'glucoronidation',
+					'glucuronydation',
+				],
+				'glucuronide'=>[
+					'glucoronide',
+				],
+				'glucuronosyl'=>[
+					'glucoronosyl',
+				],
+				'glucuronoxylan'=>[
+					'glucuroxylan',
+				],
+				'glucuronyltransferase'=>[
+					'glucoronyltransferase',
 				],
 				'glued-back instrument'=>[
 					'glue back instruments',
@@ -2302,20 +2519,61 @@
 				'gluons'=>[
 					'glons',
 				],
+				'glutamic'=>[
+					'glytamic',
+				],
 				'glutamine'=>[
 					'glutamini',
+					'clutamine',
+				],
+				'glutaraldehyde'=>[
+					'glutaldehyde',
+					'gluteraldehyde',
+				],
+				'glutarimide'=>[
+					'gluterimide',
+				],
+				'glutathione'=>[
+					'gluthatione',
 				],
 				'glutei'=>[
 					'glutie',
 				],
+				'gluttony'=>[
+					'glutony',
+				],
 				'glycine'=>[
 					'glycini',
+				],
+				'glycocholate'=>[
+					'glycocholenate',
+				],
+				'glycolaldehyde'=>[
+					'glycoaldehyde',
+				],
+				'glycolysis'=>[
+					'glycosis',
+				],
+				'glycophorin'=>[
+					'glycoporin',
 				],
 				'glycoprotein'=>[
 					'glycoprotien',
 				],
 				'glycoproteins'=>[
 					'glycoprotiens',
+				],
+				'glycosylase'=>[
+					'glycocylase',
+				],
+				'glycosylated'=>[
+					'glycoslated',
+				],
+				'glycosylation'=>[
+					'glycosilation',
+				],
+				'glycosylphosphatidylinositol'=>[
+					'glycosylphosphatydilinositol',
 				],
 				'gnar'=>[
 					'gner',
@@ -2331,6 +2589,12 @@
 				],
 				'gnathal'=>[
 					'gnatal',
+				],
+				'gnathostome'=>[
+					'ganathostome',
+					'ganthostome',
+					'gnasthostome',
+					'gnatostome',
 				],
 				'gneiss'=>[
 					'gneis',
@@ -2385,6 +2649,9 @@
 				],
 				'gobbles'=>[
 					'gobles',
+				],
+				'goddamn'=>[
+					'godamm',
 				],
 				'goddess'=>[
 					'goddes',
@@ -2450,6 +2717,12 @@
 					'gollly',
 					'goly',
 				],
+				'gomphotheriid'=>[
+					'gomphoteriid',
+				],
+				'gonadotropin'=>[
+					'gonodotropin',
+				],
 				'gondolier'=>[
 					'gondoleir',
 					'gondolir',
@@ -2457,6 +2730,12 @@
 				'gone'=>[
 					'gone gone',
 					'gone gone gone',
+				],
+				'goniodysgenesis'=>[
+					'goniodisgenesis',
+				],
+				'goniosynechialysis'=>[
+					'goniosynechiolysis',
 				],
 				'gonococcal'=>[
 					'gonococal',
@@ -2466,6 +2745,9 @@
 				],
 				'gonococcus'=>[
 					'gonococus',
+				],
+				'gonocyte'=>[
+					'genocyte',
 				],
 				'gonorrhea'=>[
 					'gonorhea',
@@ -2479,6 +2761,15 @@
 				'gonorrheas'=>[
 					'gonorheas',
 					'gonourrheas',
+				],
+				'gonorynchiform'=>[
+					'gonorhynchiform',
+				],
+				'gonostomatid'=>[
+					'gonostomatiid',
+				],
+				'gonotrophic'=>[
+					'gonotropic',
 				],
 				'gonzález'=>[
 					'gonzalez',
@@ -2564,6 +2855,7 @@
 				'govern'=>[
 					'govern govern',
 					'govern govern govern',
+					'govorn',
 				],
 				'governance'=>[
 					'governence',
@@ -2689,6 +2981,9 @@
 					'gracelessely',
 					'gracelesslly',
 				],
+				'gracilization'=>[
+					'gracialisation',
+				],
 				'gracious'=>[
 					'gracous',
 				],
@@ -2759,8 +3054,15 @@
 				'gramercy'=>[
 					'gramersy',
 				],
+				'gramicidin'=>[
+					'grimicidin',
+				],
 				'graminivorous'=>[
 					'graminavorous',
+					'gramenivorous',
+				],
+				'graminoid'=>[
+					'gramminoid',
 				],
 				'gramma'=>[
 					'gramna',
@@ -2798,6 +3100,12 @@
 				'gramme'=>[
 					'gramne',
 				],
+				'grammotoxin'=>[
+					'grammatoxin',
+				],
+				'grampa'=>[
+					'granpa',
+				],
 				'granary'=>[
 					'granery',
 				],
@@ -2813,6 +3121,9 @@
 				],
 				'granddaughter'=>[
 					'grandaughter',
+				],
+				'granddog'=>[
+					'grandog',
 				],
 				'grandeur'=>[
 					'grandure',
@@ -2842,6 +3153,9 @@
 				],
 				'grandiosely'=>[
 					'grandiosly',
+				],
+				'grandisin'=>[
+					'grandidisin',
 				],
 				'grandly'=>[
 					'grandally',
@@ -2903,6 +3217,19 @@
 				'granular'=>[
 					'granuler',
 				],
+				'granulocytopenia'=>[
+					'granulocytopoenia',
+				],
+				'granulopoiesis'=>[
+					'granulopoeisis',
+					'granulopoesis',
+				],
+				'granulovacuolar'=>[
+					'granulovaculoar',
+				],
+				'granulysin'=>[
+					'granulolysin',
+				],
 				'grapevine'=>[
 					'grapevini',
 				],
@@ -2937,6 +3264,7 @@
 				'grateful'=>[
 					'gratefull',
 					'greatful',
+					'greatfull',
 				],
 				'gratefully'=>[
 					'greatfully',
@@ -2962,6 +3290,9 @@
 					'gravimetricalaly',
 					'gravimetricalely',
 					'gravimetricallly',
+				],
+				'gravitropic'=>[
+					'gravitrophic',
 				],
 				'gray'=>[
 					'gray gray',
@@ -3006,6 +3337,7 @@
 				],
 				'greatly'=>[
 					'greately',
+					'greatley',
 				],
 				'grecian'=>[
 					'greecian',
@@ -3092,6 +3424,9 @@
 				'greiges'=>[
 					'grieges',
 				],
+				'greigite'=>[
+					'griegite',
+				],
 				'greisen'=>[
 					'griesen',
 				],
@@ -3156,6 +3491,12 @@
 				],
 				'grippe'=>[
 					'gripppe',
+				],
+				'griselimycin'=>[
+					'griselmycin',
+				],
+				'griseofulvin'=>[
+					'griseofluvin',
 				],
 				'grislinesses'=>[
 					'grislinisses',
@@ -3319,6 +3660,7 @@
 				],
 				'guaiac'=>[
 					'gauiac',
+					'guaic',
 				],
 				'guaiacol'=>[
 					'gauiacol',
@@ -3348,6 +3690,9 @@
 				'guanidine'=>[
 					'gaunidine',
 					'guanidini',
+				],
+				'guanidinium'=>[
+					'guanidinum',
 				],
 				'guanin'=>[
 					'gaunin',
@@ -3505,6 +3850,7 @@
 				],
 				'guesstimate'=>[
 					'guestimate',
+					'guestament',
 				],
 				'guesswork'=>[
 					'gueswork',
@@ -3573,6 +3919,7 @@
 				],
 				'guitarist'=>[
 					'guitarrist',
+					'gitarrist',
 				],
 				'gular'=>[
 					'guler',
@@ -3580,11 +3927,17 @@
 				'gulf'=>[
 					'gulph',
 				],
+				'gulfs'=>[
+					'gulves',
+				],
 				'gull'=>[
 					'gul',
 				],
 				'gullet'=>[
 					'gulet',
+				],
+				'gullibility'=>[
+					'gullability',
 				],
 				'gullible'=>[
 					'gulible',
@@ -3741,6 +4094,9 @@
 				],
 				'gynecocracy'=>[
 					'gynecocrasy',
+				],
+				'gynecomastia'=>[
+					'gynacomastia',
 				],
 				'gypseian'=>[
 					'gypsean',

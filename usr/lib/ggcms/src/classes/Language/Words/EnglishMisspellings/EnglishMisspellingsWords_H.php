@@ -32,8 +32,23 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Harris'=>[
+					'haris',
+				],
+				'Hatshepsut'=>[
+					'hatshetsup',
+				],
+				'Hemingwayesque'=>[
+					'hemmingwayesque',
+				],
+				'Heraclitus'=>[
+					'heraclydus',
+				],
 				'haar'=>[
 					'haer',
+				],
+				'habaneros'=>[
+					'habaneroes',
 				],
 				'habdalah'=>[
 					'habdala',
@@ -48,11 +63,18 @@
 				'habeas corpus'=>[
 					'habeus corpus',
 				],
+				'haberdashery'=>[
+					'habadashery',
+				],
 				'habit'=>[
 					'habbit',
 				],
+				'habitability'=>[
+					'habability',
+				],
 				'habitable'=>[
 					'habitible',
+					'habituable',
 				],
 				'habits'=>[
 					'habbits',
@@ -121,6 +143,60 @@
 				],
 				'haeing'=>[
 					'haieng',
+				],
+				'haemagglutination'=>[
+					'haemagglutation',
+					'haemaglutination',
+					'haemoaglutination',
+					'heamagglutination',
+				],
+				'haemagglutinin'=>[
+					'haemaglutinine',
+					'haemmaglutinin',
+					'heamagglutinin',
+				],
+				'haematobium'=>[
+					'heamatobium',
+				],
+				'haematophagous'=>[
+					'haematophagus',
+				],
+				'haematopoietic'=>[
+					'haematopoeitic',
+				],
+				'haematoxylin'=>[
+					'haematoxilin',
+					'haematoxiline',
+					'haemotoxilin',
+					'heamatoxilin',
+					'heamatoxylin',
+				],
+				'haemochromatosis'=>[
+					'heamochromatosis',
+				],
+				'haemocompatibility'=>[
+					'haematocompatibility',
+				],
+				'haemodynamic'=>[
+					'heamodynamic',
+				],
+				'haemogram'=>[
+					'heamogram',
+				],
+				'haemolysin'=>[
+					'haemolysan',
+				],
+				'haemopoiesis'=>[
+					'haemopoesis',
+				],
+				'haemopoietic'=>[
+					'haemopoetic',
+				],
+				'haemorrhage'=>[
+					'heamorrhage',
+				],
+				'haemosporidian'=>[
+					'haemosporidan',
 				],
 				'haftarah'=>[
 					'haftara',
@@ -238,6 +314,9 @@
 				'halalahs'=>[
 					'halalas',
 				],
+				'halcyon'=>[
+					'halycon',
+				],
 				'half'=>[
 					'half half',
 					'half half half',
@@ -309,8 +388,20 @@
 				'hallway'=>[
 					'halway',
 				],
+				'haloduracin'=>[
+					'haloduricin',
+				],
+				'halofenozide'=>[
+					'halofenazide',
+				],
+				'halofuginone'=>[
+					'halofugidone',
+				],
 				'halomorphic'=>[
 					'halomourphic',
+				],
+				'halophytic'=>[
+					'halophylic',
 				],
 				'halterbreaking'=>[
 					'halterbreking',
@@ -321,8 +412,14 @@
 				'halvahs'=>[
 					'halvas',
 				],
+				'halved'=>[
+					'halfed',
+				],
 				'halves'=>[
 					'halfs',
+				],
+				'halving'=>[
+					'halfing',
 				],
 				'hamantaschen'=>[
 					'hamentaschen',
@@ -498,6 +595,15 @@
 				'hapless'=>[
 					'haples',
 				],
+				'haploinsufficiency'=>[
+					'haploinsuficiency',
+				],
+				'haplosporidian'=>[
+					'haplospridian',
+				],
+				'haplotype'=>[
+					'halotype',
+				],
 				'haply'=>[
 					'hapally',
 					'hapaly',
@@ -538,6 +644,12 @@
 					'happy happy',
 					'happy happy happy',
 					'hapy',
+				],
+				'haptotactic'=>[
+					'haptotatic',
+				],
+				'harangue'=>[
+					'harrang',
 				],
 				'harangues'=>[
 					'harrangues',
@@ -593,6 +705,9 @@
 				'hardened'=>[
 					'hardend',
 				],
+				'harderian'=>[
+					'hardarian',
+				],
 				'hardheadedly'=>[
 					'hardheadedally',
 					'hardheadedaly',
@@ -646,6 +761,9 @@
 				],
 				'harness'=>[
 					'harnes',
+				],
+				'harpacticoid'=>[
+					'harpactocoid',
 				],
 				'harquebusier'=>[
 					'harquebuiser',
@@ -741,6 +859,9 @@
 					'hvea',
 					'kave',
 				],
+				'haven\'t'=>[
+					'havent',
+				],
 				'havened'=>[
 					'havend',
 				],
@@ -763,6 +884,9 @@
 				],
 				'hazardous'=>[
 					'hazerdous',
+				],
+				'hazelnut'=>[
+					'hazlenut',
 				],
 				'he'=>[
 					'he he',
@@ -787,6 +911,9 @@
 				],
 				'headboard'=>[
 					'hedboard',
+				],
+				'headcanon'=>[
+					'headcannon',
 				],
 				'headdress'=>[
 					'heddress',
@@ -1097,6 +1224,18 @@
 				'heavyweights'=>[
 					'heavywieghts',
 				],
+				'hebephilia'=>[
+					'hebophilia',
+				],
+				'hebephiliac'=>[
+					'hebophiliac',
+				],
+				'hebephilic'=>[
+					'hebophilic',
+				],
+				'hebephrenic'=>[
+					'hebrephrenic',
+				],
 				'hectares'=>[
 					'hecatres',
 				],
@@ -1153,6 +1292,10 @@
 				],
 				'hedges'=>[
 					'heges',
+				],
+				'hee-haw'=>[
+					'he-haw',
+					'hi-haw',
 				],
 				'heidelberg'=>[
 					'heidelburg',
@@ -1282,11 +1425,26 @@
 					'heldantenors',
 					'heldentenours',
 				],
+				'helicase'=>[
+					'helixase',
+				],
+				'helicopter'=>[
+					'helicoptor',
+				],
+				'helictite'=>[
+					'helectite',
+				],
 				'heliocentric'=>[
 					'heliocantric',
 				],
 				'heliometrically'=>[
 					'heliometricaly',
+				],
+				'heliomycin'=>[
+					'heliomicin',
+				],
+				'heliozoan'=>[
+					'heliozoon',
 				],
 				'hell'=>[
 					'hel',
@@ -1319,6 +1477,7 @@
 				'help'=>[
 					'help help',
 					'help help help',
+					'hlep',
 				],
 				'helpable'=>[
 					'helpible',
@@ -1344,9 +1503,18 @@
 					'hemagglutinites',
 					'hemaglutinates',
 				],
+				'hemagglutinating'=>[
+					'hemaglutinating',
+				],
+				'hemagglutination'=>[
+					'hemaglutination',
+				],
 				'hemagglutinin'=>[
 					'hemagglutinan',
 					'hemaglutinin',
+					'haemaglutinin',
+					'hemagglutin',
+					'hemaglutin',
 				],
 				'hemagglutinins'=>[
 					'hemagglutinans',
@@ -1358,9 +1526,23 @@
 				'hematinic'=>[
 					'hematinac',
 				],
+				'hematocytometer'=>[
+					'hematocytomer',
+				],
 				'hematopoiesis'=>[
 					'hematopoeisis',
 					'hematopoisis',
+					'haematopoesis',
+				],
+				'hematopoietic'=>[
+					'hematopoeitic',
+					'hematopoetic',
+				],
+				'hematoxylin'=>[
+					'hamatoxylin',
+					'hemaroxylin',
+					'hematoxilin',
+					'hemoxylin',
 				],
 				'hemerocallis'=>[
 					'hemerocalis',
@@ -1374,6 +1556,16 @@
 				'hemicelluloses'=>[
 					'hemiceluloses',
 				],
+				'hemicorporectomy'=>[
+					'hemicorpectomy',
+				],
+				'hemidesmosome'=>[
+					'hemidemosome',
+					'hemodesmosome',
+				],
+				'hemihepatectomy'=>[
+					'hemihepatecomy',
+				],
 				'hemimorphic'=>[
 					'hemimourphic',
 				],
@@ -1383,6 +1575,19 @@
 				'hemimorphisms'=>[
 					'hemimourphisms',
 				],
+				'hemiparesis'=>[
+					'haemiparesis',
+					'hemiparesia',
+				],
+				'hemiplegia'=>[
+					'haemiplegia',
+				],
+				'hemiscrotectomy'=>[
+					'hemiscrototomy',
+				],
+				'hemisphericity'=>[
+					'hemispherity',
+				],
 				'hemline'=>[
 					'hemlini',
 				],
@@ -1391,6 +1596,20 @@
 				],
 				'hemmer'=>[
 					'hemner',
+				],
+				'hemochorial'=>[
+					'hemichorial',
+				],
+				'hemochromatosis'=>[
+					'hemochomatosis',
+				],
+				'hemocytometer'=>[
+					'hemacytomer',
+					'hemocytomer',
+					'homocytometer',
+				],
+				'hemodilution'=>[
+					'hemodilation',
 				],
 				'hemodynamically'=>[
 					'hemodynamicalally',
@@ -1404,6 +1623,9 @@
 				],
 				'hemoflagellates'=>[
 					'hemoflagelates',
+				],
+				'hemoglobin'=>[
+					'hemaglobin',
 				],
 				'hemopoiesis'=>[
 					'hemopoeisis',
@@ -1428,6 +1650,7 @@
 				],
 				'hemorrhagic'=>[
 					'hemourrhagic',
+					'hemorraghic',
 				],
 				'hemorrhaging'=>[
 					'hemourrhaging',
@@ -1435,6 +1658,7 @@
 				'hemorrhoid'=>[
 					'hemorhoid',
 					'hemourrhoid',
+					'hemroid',
 				],
 				'hemorrhoidal'=>[
 					'hemorhoidal',
@@ -1446,6 +1670,12 @@
 				],
 				'hemorrhoids'=>[
 					'hemourrhoids',
+				],
+				'hemotoxic'=>[
+					'hematoxic',
+				],
+				'hemotoxicity'=>[
+					'hematoxicity',
 				],
 				'hence'=>[
 					'hcncc',
@@ -1502,6 +1732,10 @@
 				],
 				'heparin'=>[
 					'heperin',
+					'heparine',
+				],
+				'heparinization'=>[
+					'heparanization',
 				],
 				'heparinized'=>[
 					'heparinazed',
@@ -1509,6 +1743,30 @@
 				],
 				'heparins'=>[
 					'heperins',
+				],
+				'hepatectomy'=>[
+					'hapetectomy',
+				],
+				'hepatitis'=>[
+					'hepatititis',
+				],
+				'hepatobiliary'=>[
+					'hepatobillary',
+					'hepatobilliary',
+				],
+				'hepatocellular'=>[
+					'heptatocellular',
+				],
+				'hepatocyte'=>[
+					'heptocyte',
+					'hypatocyte',
+				],
+				'hepatolenticular'=>[
+					'hepatoleticular',
+				],
+				'hepatoma'=>[
+					'hapatoma',
+					'heptoma',
 				],
 				'hepatomegaly'=>[
 					'hepatomegaally',
@@ -1519,12 +1777,37 @@
 				'hepatopancreas'=>[
 					'hepatopancres',
 				],
+				'hepatosplenic'=>[
+					'hepatoesplenic',
+				],
+				'hepatosplenomegaly'=>[
+					'hepatosplenomagaly',
+				],
+				'hepatosteatosis'=>[
+					'hepatosteosis',
+				],
+				'hepatotoxin'=>[
+					'hapatotoxin',
+					'heptotoxin',
+				],
+				'hepoxilins'=>[
+					'hepoxylins',
+				],
+				'heptageniid'=>[
+					'heptageneiid',
+				],
+				'heptamer'=>[
+					'haptamer',
+				],
 				'heptathlon'=>[
 					'heptathalon',
 				],
 				'her'=>[
 					'her her',
 					'her her her',
+				],
+				'herbivorous'=>[
+					'herbivourous',
 				],
 				'here'=>[
 					'here here',
@@ -1538,6 +1821,9 @@
 				],
 				'hereditary'=>[
 					'hereditery',
+				],
+				'heregulin'=>[
+					'herregulin',
 				],
 				'herein'=>[
 					'herien',
@@ -1568,8 +1854,14 @@
 				'heritage'=>[
 					'hertiage',
 				],
+				'hermaphrodite'=>[
+					'hermafrodite',
+				],
 				'hermeneutically'=>[
 					'hermeneuticaly',
+				],
+				'herniorrhaphy'=>[
+					'herniorraphy',
 				],
 				'heroes'=>[
 					'heros',
@@ -1616,6 +1908,21 @@
 				'hessian'=>[
 					'hessan',
 				],
+				'heteroanamnesis'=>[
+					'heteroanamnesia',
+				],
+				'heterochromatin'=>[
+					'heterocromatin',
+				],
+				'heterodimer'=>[
+					'retrodimer',
+				],
+				'heterodimeric'=>[
+					'heterdimeric',
+				],
+				'heterodimerize'=>[
+					'hetereodimerize',
+				],
 				'heteroecious'=>[
 					'heteroecous',
 				],
@@ -1624,9 +1931,14 @@
 				],
 				'heterogeneity'=>[
 					'heterogeniety',
+					'hetereogeneity',
+					'heterogenecity',
 				],
 				'heterogeneous'=>[
 					'heterogenous',
+				],
+				'heterokaryotic'=>[
+					'heterocaryotic',
 				],
 				'heterologously'=>[
 					'heterologousally',
@@ -1649,6 +1961,11 @@
 				'heterophyllous'=>[
 					'heterophylous',
 				],
+				'heteroscedasticity'=>[
+					'heteroscadacity',
+					'heteroscedacity',
+					'heteroschedasticity',
+				],
 				'heterosexual'=>[
 					'heterosexaul',
 				],
@@ -1666,6 +1983,9 @@
 				'heterosexuals'=>[
 					'heterosexauls',
 				],
+				'heterosporous'=>[
+					'heteroporous',
+				],
 				'heterothallic'=>[
 					'heterothalic',
 				],
@@ -1675,8 +1995,26 @@
 				'heterothallisms'=>[
 					'heterothalisms',
 				],
+				'heterotic'=>[
+					'heteritic',
+				],
+				'heterotopic'=>[
+					'etherotopic',
+				],
+				'heterozygosity'=>[
+					'heterosigosity',
+					'heterozigosity',
+					'heterozygocity',
+					'heterozygousity',
+				],
+				'heuristic'=>[
+					'huristic',
+				],
 				'hewable'=>[
 					'hewible',
+				],
+				'hexagenarian'=>[
+					'hexagenerian',
 				],
 				'hexahedra'=>[
 					'hexaedra',
@@ -1687,14 +2025,26 @@
 				'hexahedrons'=>[
 					'hexaedrons',
 				],
+				'hexahistidine'=>[
+					'hexahistide',
+				],
 				'hexahydrate'=>[
 					'hexaydrate',
 				],
 				'hexahydrates'=>[
 					'hexaydrates',
 				],
+				'hexamethyldisilazane'=>[
+					'hexamethyldisilizane',
+				],
+				'hexamethylenetetramine'=>[
+					'hexamethyltetramine',
+				],
 				'hexaplar'=>[
 					'hexapler',
+				],
+				'hexasaccharide'=>[
+					'hexosaccharide',
 				],
 				'hexereis'=>[
 					'hexeries',
@@ -1754,6 +2104,9 @@
 				],
 				'hiding'=>[
 					'hidding',
+				],
+				'hidrosis'=>[
+					'hydrosis',
 				],
 				'hie'=>[
 					'hei',
@@ -1815,6 +2168,9 @@
 				'hierophantic'=>[
 					'hierophentic',
 				],
+				'hierophants'=>[
+					'heirophants',
+				],
 				'hies'=>[
 					'heis',
 				],
@@ -1829,8 +2185,14 @@
 				'high-level rank'=>[
 					'high level rank',
 				],
+				'high-profile'=>[
+					'highprofile',
+				],
 				'high-profile gigs'=>[
 					'high profile gigs',
+				],
+				'high-resolution'=>[
+					'highresolution',
 				],
 				'higher'=>[
 					'heigher',
@@ -1845,6 +2207,26 @@
 				],
 				'highlands'=>[
 					'higlands',
+				],
+				'highlight'=>[
+					'highlite',
+					'hightlight',
+					'hilight',
+				],
+				'highlighted'=>[
+					'highlited',
+					'hilighted',
+				],
+				'highlighter'=>[
+					'highliter',
+				],
+				'highlighting'=>[
+					'highliting',
+					'hilighting',
+				],
+				'highlights'=>[
+					'highlites',
+					'hilights',
 				],
 				'highness'=>[
 					'highnes',
@@ -1963,6 +2345,9 @@
 				'hippo'=>[
 					'hipo',
 				],
+				'hippocampal'=>[
+					'hypocampal',
+				],
 				'hippocampus'=>[
 					'hipocampus',
 				],
@@ -1992,6 +2377,9 @@
 					'hersute',
 					'hirsuit',
 				],
+				'hirsutism'=>[
+					'hirsuitism',
+				],
 				'his'=>[
 					'his his',
 					'his his his',
@@ -2013,8 +2401,21 @@
 				'histaminergic'=>[
 					'histaminirgic',
 				],
+				'histatin'=>[
+					'hystatin',
+				],
 				'histidine'=>[
 					'histidini',
+					'histadine',
+				],
+				'histidyl'=>[
+					'hystidyl',
+				],
+				'histiocytic'=>[
+					'histocytic',
+				],
+				'histiocytoma'=>[
+					'histocytoma',
 				],
 				'histochemically'=>[
 					'histochemicalally',
@@ -2026,8 +2427,23 @@
 				'histocompatibility'=>[
 					'histocompatability',
 				],
+				'histologically'=>[
+					'hystologically',
+				],
+				'histomorphometric'=>[
+					'histomophometric',
+				],
+				'histomorphometry'=>[
+					'histomophometry',
+				],
+				'histopathology'=>[
+					'histophatology',
+				],
 				'historian'=>[
 					'historan',
+				],
+				'historical'=>[
+					'hystorical',
 				],
 				'history'=>[
 					'hisory',
@@ -2036,6 +2452,18 @@
 					'history history history',
 					'histroy',
 					'hitory',
+				],
+				'histotroph'=>[
+					'histiotroph',
+				],
+				'histotrophic'=>[
+					'histiotrophic',
+				],
+				'histotrophy'=>[
+					'histotropy',
+				],
+				'histotropism'=>[
+					'histiotropism',
 				],
 				'histrionically'=>[
 					'histrionicaly',
@@ -2223,8 +2651,14 @@
 					'hollly',
 					'holliy',
 				],
+				'holocaust'=>[
+					'holocost',
+				],
 				'holographically'=>[
 					'holographicaly',
+				],
+				'holophrastic'=>[
+					'holophasic',
 				],
 				'holothurian'=>[
 					'holothuran',
@@ -2265,6 +2699,9 @@
 				'homemakings'=>[
 					'homakings',
 				],
+				'homeodomain'=>[
+					'homodomain',
+				],
 				'homeomorphic'=>[
 					'homeomourphic',
 				],
@@ -2274,8 +2711,17 @@
 				'homeomorphisms'=>[
 					'homeomourphisms',
 				],
+				'homeopathic'=>[
+					'homiopathic',
+				],
 				'homeopathically'=>[
 					'homeopathicaly',
+				],
+				'homeostasis'=>[
+					'homostasis',
+				],
+				'homeotropic'=>[
+					'homeotrophic',
 				],
 				'homepage'=>[
 					'hompage',
@@ -2297,6 +2743,7 @@
 				'homie'=>[
 					'homei',
 					'homi',
+					'hoomie',
 				],
 				'homily'=>[
 					'homially',
@@ -2341,6 +2788,9 @@
 				'homocercy'=>[
 					'homocersy',
 				],
+				'homodimeric'=>[
+					'homeodimeric',
+				],
 				'homogeneities'=>[
 					'homogenieties',
 				],
@@ -2366,6 +2816,9 @@
 				'homoiousians'=>[
 					'homoiouisans',
 				],
+				'homologation'=>[
+					'homoligation',
+				],
 				'homomorphic'=>[
 					'homomourphic',
 				],
@@ -2378,12 +2831,18 @@
 				'homonuclear'=>[
 					'homonucleer',
 				],
+				'homooligomer'=>[
+					'homologomer',
+				],
 				'homoousian'=>[
 					'homoouisan',
 					'homoousan',
 				],
 				'homoousians'=>[
 					'homoouisans',
+				],
+				'homophilous'=>[
+					'homophyllous',
 				],
 				'homophyly'=>[
 					'homophyally',
@@ -2396,6 +2855,16 @@
 				],
 				'homopolar'=>[
 					'homopoler',
+				],
+				'homopolymer'=>[
+					'holopolymer',
+				],
+				'homoscedastic'=>[
+					'homocedastic',
+				],
+				'homoscedasticity'=>[
+					'homescedasticity',
+					'homoschedasticity',
 				],
 				'homosexual'=>[
 					'homosexaul',
@@ -2415,11 +2884,29 @@
 					'homostyely',
 					'homostylly',
 				],
+				'homosynaptic'=>[
+					'homeosynaptic',
+				],
+				'homothety'=>[
+					'homotethy',
+				],
 				'homotransplant'=>[
 					'homotransplent',
 				],
 				'homotransplants'=>[
 					'homotransplents',
+				],
+				'homotropic'=>[
+					'homotrophic',
+				],
+				'homozygosity'=>[
+					'homozigosity',
+					'homozygocity',
+					'homozygozity',
+				],
+				'homozygous'=>[
+					'homozigous',
+					'homozygeous',
 				],
 				'honduran-occupied'=>[
 					'honduran occupied',
@@ -2429,6 +2916,7 @@
 					'honestaly',
 					'honestely',
 					'honestlly',
+					'honestley',
 				],
 				'honeyed'=>[
 					'honied',
@@ -2448,6 +2936,7 @@
 					'honorible',
 					'honoruable',
 					'honuourable',
+					'honerable',
 				],
 				'honorableness'=>[
 					'honourableness',
@@ -2579,6 +3068,9 @@
 				'hoping'=>[
 					'hopeing',
 				],
+				'hoplologist'=>[
+					'hopologist',
+				],
 				'hopper'=>[
 					'hoper',
 				],
@@ -2604,6 +3096,9 @@
 				],
 				'hordeins'=>[
 					'hordiens',
+				],
+				'horicyclic'=>[
+					'horiciclic',
 				],
 				'hornswoggle'=>[
 					'hornswogle',
@@ -2635,6 +3130,9 @@
 				],
 				'horriblenesses'=>[
 					'horiblenesses',
+				],
+				'horribly'=>[
+					'horribley',
 				],
 				'horrid'=>[
 					'horid',
@@ -3164,6 +3662,9 @@
 				'hyaline'=>[
 					'hyalini',
 				],
+				'hybridoma'=>[
+					'hydridoma',
+				],
 				'hydralazine'=>[
 					'hydralazini',
 				],
@@ -3172,6 +3673,7 @@
 				],
 				'hydraulic'=>[
 					'hydralic',
+					'hydrolic',
 				],
 				'hydrazine'=>[
 					'hydrazini',
@@ -3182,8 +3684,23 @@
 					'hydrocephaely',
 					'hydrocephally',
 				],
+				'hydrochlorothiazide'=>[
+					'hydroclorotiazide',
+				],
 				'hydrocolloid'=>[
 					'hydrocoloid',
+				],
+				'hydrodilatation'=>[
+					'hydrodilation',
+				],
+				'hydrodynamically'=>[
+					'hydrodynamicaly',
+				],
+				'hydroelectrolytic'=>[
+					'hydroeletrolytic',
+				],
+				'hydrofluorocarbon'=>[
+					'hydroflurocarbon',
 				],
 				'hydrokinetic'=>[
 					'hydrokinitic',
@@ -3209,8 +3726,14 @@
 				'hydrophobic'=>[
 					'hydropobic',
 				],
+				'hydroplethysmometer'=>[
+					'hydropletismometer',
+				],
 				'hydropsy'=>[
 					'hydropcy',
+				],
+				'hydrosalpinx'=>[
+					'hydrosalphinx',
 				],
 				'hydrostatically'=>[
 					'hydrostaticaly',
@@ -3221,11 +3744,23 @@
 					'hydrothermalely',
 					'hydrothermallly',
 				],
+				'hydrotropic'=>[
+					'hydrotrophic',
+				],
+				'hydroxamate'=>[
+					'hydroxymate',
+				],
+				'hydroxychloroquine'=>[
+					'hydrochloroquine',
+				],
 				'hydroxylamine'=>[
 					'hydroxylamini',
 				],
 				'hydroxylamines'=>[
 					'hydroxylaminis',
+				],
+				'hydroxylase'=>[
+					'hydroxilase',
 				],
 				'hydroxyproline'=>[
 					'hydroxyprolini',
@@ -3235,6 +3770,7 @@
 				],
 				'hydroxyurea'=>[
 					'hydroxyure',
+					'hydroxyuria',
 				],
 				'hydroxyzines'=>[
 					'hydroxyzinis',
@@ -3258,10 +3794,17 @@
 					'hygenic',
 					'hyginic',
 				],
+				'hygienist'=>[
+					'hygenist',
+				],
 				'hygroscopic'=>[
 					'hygrocopic',
 					'hygrocsopic',
 					'hygrosopic',
+					'hydroscopic',
+				],
+				'hygroscopicity'=>[
+					'hydroscopicity',
 				],
 				'hymnary'=>[
 					'hymnery',
@@ -3271,6 +3814,7 @@
 					'hyocyamine',
 					'hyoscyamini',
 					'hyosyamine',
+					'hyosciamine',
 				],
 				'hyoscyamines'=>[
 					'hyoscyaminis',
@@ -3278,8 +3822,33 @@
 				'hyperaggressive'=>[
 					'hyperagressive',
 				],
+				'hyperalgesia'=>[
+					'hyperlagesia',
+				],
+				'hyperandrogenism'=>[
+					'hyperandrogen',
+				],
+				'hyperarchimedean'=>[
+					'hyperarchimedian',
+				],
+				'hypercalciuria'=>[
+					'hypercalcuria',
+				],
+				'hypercapnia'=>[
+					'hypercapnea',
+				],
+				'hypercapnic'=>[
+					'hypercapneic',
+				],
 				'hypercautious'=>[
 					'hypercautous',
+				],
+				'hypercholesterolemia'=>[
+					'hypercholosterolemia',
+					'hypercolesterolemia',
+				],
+				'hyperchromism'=>[
+					'hyperchroism',
 				],
 				'hypercoagulable'=>[
 					'hypercoagulible',
@@ -3306,11 +3875,33 @@
 				'hypercritically'=>[
 					'hypercriticaly',
 				],
+				'hyperesthesia'=>[
+					'hyperasthesia',
+				],
+				'hyperexcitability'=>[
+					'hyperexcitablity',
+				],
 				'hyperexcitable'=>[
 					'hyperexcitible',
 				],
 				'hyperfastidious'=>[
 					'hyperfastidous',
+				],
+				'hyperferritinemia'=>[
+					'hyperferritenemia',
+				],
+				'hypergeometric'=>[
+					'hypergenometric',
+					'hypogeometric',
+				],
+				'hyperhidrosis'=>[
+					'hyperhydrosis',
+				],
+				'hyperhomocysteinemia'=>[
+					'hyperhomocystinemia',
+				],
+				'hyperhomocysteinemic'=>[
+					'hyperhomocystinemic',
 				],
 				'hyperimmune'=>[
 					'hyperimnune',
@@ -3327,11 +3918,15 @@
 				'hyperimmunizing'=>[
 					'hyperimnunizing',
 				],
+				'hyperinsulinemic'=>[
+					'hyperisulinemic',
+				],
 				'hyperinsulinism'=>[
 					'hyperinsulinasm',
 				],
 				'hyperintense'=>[
 					'hyperintence',
+					'hyperintese',
 				],
 				'hyperirritable'=>[
 					'hyperiritable',
@@ -3352,8 +3947,18 @@
 				'hyperkinetic'=>[
 					'hyperkinitic',
 				],
+				'hyperlactatemia'=>[
+					'hyperlactataemia',
+				],
+				'hyperluminous'=>[
+					'hyperliminous',
+				],
 				'hypermutable'=>[
 					'hypermutible',
+				],
+				'hyperostosis'=>[
+					'hyperosteosis',
+					'hypertostosis',
 				],
 				'hyperparasite'=>[
 					'hyperperasite',
@@ -3367,11 +3972,18 @@
 				'hyperparasitism'=>[
 					'hyperperasitism',
 				],
+				'hyperphenylalaninemia'=>[
+					'hyperphenilalaninemia',
+				],
 				'hyperpituitary'=>[
 					'hyperpituitery',
 				],
 				'hyperpneic'=>[
 					'hyperpniec',
+				],
+				'hyperprolactinemia'=>[
+					'hyperprolactemia',
+					'hyperprolactenemia',
 				],
 				'hyperreactive'=>[
 					'hypereactive',
@@ -3422,6 +4034,9 @@
 				'hypertense'=>[
 					'hypertence',
 				],
+				'hypertrophic'=>[
+					'hypertropic',
+				],
 				'hyperventilate'=>[
 					'hypervantilate',
 				],
@@ -3431,11 +4046,29 @@
 				'hyphened'=>[
 					'hyphend',
 				],
+				'hypnagogic'=>[
+					'hynagogic',
+				],
 				'hypnotize'=>[
 					'hyptonize',
 				],
 				'hypoallergenic'=>[
 					'hypoalergenic',
+				],
+				'hypocapnia'=>[
+					'hypocapnea',
+				],
+				'hypochlorite'=>[
+					'hypochloride',
+				],
+				'hypocholesterolemic'=>[
+					'hipocholesterolemic',
+				],
+				'hypochondroplasia'=>[
+					'hypochodroplasia',
+				],
+				'hypocorism'=>[
+					'hypochorism',
 				],
 				'hypocrisy'=>[
 					'hypocracy',
@@ -3446,6 +4079,7 @@
 				'hypocrite'=>[
 					'hypocricy ',
 					'hypocrit',
+					'hypocrate',
 				],
 				'hypocrites'=>[
 					'hypocrits',
@@ -3453,14 +4087,54 @@
 				'hypocritical'=>[
 					'hyprocritical',
 				],
+				'hypodiploid'=>[
+					'hipodiploid',
+				],
 				'hypoglossal'=>[
 					'hypoglosal',
+				],
+				'hypoglycorrhachia'=>[
+					'hypoglycorrhacia',
+				],
+				'hypogonadotropic'=>[
+					'hypogonadotrophic',
+				],
+				'hypohidrosis'=>[
+					'hypohydrosis',
+				],
+				'hypohidrotic'=>[
+					'hypohydrotic',
+				],
+				'hyponatremia'=>[
+					'hyponathemia',
+				],
+				'hypoperfusion'=>[
+					'hyoperfusion',
+				],
+				'hypophysiotropic'=>[
+					'hypophyseotropic',
+					'hypophysiotrophic',
 				],
 				'hypopituitary'=>[
 					'hypopituitery',
 				],
+				'hypoplasia'=>[
+					'hypophasia',
+				],
 				'hypopneic'=>[
 					'hypopniec',
+				],
+				'hyporeflexia'=>[
+					'hypoflexia',
+				],
+				'hypothalamic'=>[
+					'hyperthalamic',
+				],
+				'hypothesis'=>[
+					'hypothosis',
+				],
+				'hypothiocyanite'=>[
+					'hypothiocyanate',
 				],
 				'hypoxanthine'=>[
 					'hypoxanthini',
@@ -3471,6 +4145,9 @@
 				],
 				'hyssop'=>[
 					'hysop',
+				],
+				'hysterectomy'=>[
+					'historectomy',
 				],
 			];
 		}

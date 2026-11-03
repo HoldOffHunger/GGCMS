@@ -35,6 +35,9 @@
 				'Jacobinism'=>[
 					'Jaoobinism',
 				],
+				'Japanese'=>[
+					'japonese',
+				],
 				'jabbed'=>[
 					'jabed',
 				],
@@ -67,6 +70,7 @@
 				],
 				'jackass'=>[
 					'jackas',
+					'jackarse',
 				],
 				'jackhammer'=>[
 					'jackhamner',
@@ -79,6 +83,9 @@
 				],
 				'jackhammers'=>[
 					'jackhamners',
+				],
+				'jackknife'=>[
+					'jacknife',
 				],
 				'jackrabbit'=>[
 					'jackrabit',
@@ -131,6 +138,16 @@
 				],
 				'jaguarundi'=>[
 					'jagaurundi',
+				],
+				'jalapenos'=>[
+					'jalapenoes',
+				],
+				'jalapeño'=>[
+					'halapeno',
+				],
+				'jalapeños'=>[
+					'halapenoes',
+					'halapenos',
 				],
 				'jalousie'=>[
 					'jalouise',
@@ -283,6 +300,9 @@
 				'jellyfish'=>[
 					'jelyfish',
 				],
+				'jelq'=>[
+					'jelk',
+				],
 				'jemmy'=>[
 					'jemny',
 				],
@@ -328,6 +348,7 @@
 				'jeopardy'=>[
 					'jeapardy',
 					'jeoperdy',
+					'jepoardy',
 				],
 				'jerrican'=>[
 					'jerican',
@@ -352,6 +373,9 @@
 				],
 				'jetliner'=>[
 					'jetlinir',
+				],
+				'jettable'=>[
+					'jetable',
 				],
 				'jeweler'=>[
 					'jewler',
@@ -436,6 +460,9 @@
 				'jinns'=>[
 					'jins',
 				],
+				'jitterbug'=>[
+					'jidderbug',
+				],
 				'jitterbugged'=>[
 					'jitterbuged',
 				],
@@ -444,6 +471,9 @@
 				],
 				'jittery'=>[
 					'jittary',
+				],
+				'jjimjilbang'=>[
+					'jimjilbang',
 				],
 				'joan miró'=>[
 					'joan miro',
@@ -640,6 +670,9 @@
 				'jubilant'=>[
 					'jubilent',
 				],
+				'jubilantly'=>[
+					'jubilently',
+				],
 				'jubilarian'=>[
 					'jubilaran',
 				],
@@ -783,6 +816,15 @@
 				],
 				'juvenile'=>[
 					'juvinile',
+				],
+				'juxtacentromeric'=>[
+					'juxtacentromic',
+				],
+				'juxtacrine'=>[
+					'justacrine',
+				],
+				'juxtaposition'=>[
+					'juxtoposition',
 				],
 				'jérémie'=>[
 					'jeremie',

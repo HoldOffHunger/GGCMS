@@ -32,6 +32,15 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Saracen'=>[
+					'sarcen',
+				],
+				'Sha\'ban'=>[
+					'sha\'aban',
+				],
+				'Superbowl'=>[
+					'superbowel',
+				],
 				'aspects'=>[
 					'spects',
 				],
@@ -52,6 +61,9 @@
 				],
 				'sabermetrician'=>[
 					'sabermetrican',
+				],
+				'sabkha'=>[
+					'sabhka',
 				],
 				'saboteur'=>[
 					'saboter',
@@ -139,6 +151,10 @@
 				'saccharomycetes'=>[
 					'sacharomycetes',
 				],
+				'saccharopine'=>[
+					'saccaropine',
+					'saccharapine',
+				],
 				'saccular'=>[
 					'sacculer',
 					'sacular',
@@ -176,6 +192,9 @@
 				'sacrificial'=>[
 					'sacraficial',
 				],
+				'sacrilege'=>[
+					'sacrelige',
+				],
 				'sacrilegious'=>[
 					'sacreligious',
 					'sacrilegous',
@@ -190,6 +209,9 @@
 				'sacriligious'=>[
 					'sacreligious',
 				],
+				'sacrococcygeal'=>[
+					'sacrococygeal',
+				],
 				'saddened'=>[
 					'saddend',
 				],
@@ -197,6 +219,7 @@
 					'sadally',
 					'sadaly',
 					'sadlly',
+					'aadly',
 				],
 				'safe'=>[
 					'safe safe',
@@ -219,6 +242,12 @@
 				'safety'=>[
 					'saftey',
 					'safty',
+				],
+				'safranin'=>[
+					'saphranin',
+				],
+				'safranine'=>[
+					'sarranine',
 				],
 				'sagacious'=>[
 					'sagacous',
@@ -267,8 +296,19 @@
 				'saggy'=>[
 					'sagy',
 				],
+				'sagittal'=>[
+					'saggital',
+				],
+				'sagittally'=>[
+					'saggittally',
+					'sagitally',
+					'sagittaly',
+				],
 				'sagittary'=>[
 					'sagittery',
+				],
+				'sagopilone'=>[
+					'sagupilone',
 				],
 				'saguaro'=>[
 					'sagauro',
@@ -359,6 +399,9 @@
 				'salesman'=>[
 					'saleman',
 				],
+				'salicylamide'=>[
+					'salicyclamide',
+				],
 				'salicylate'=>[
 					'salycilate',
 				],
@@ -399,6 +442,9 @@
 				'salinize'=>[
 					'salinaze',
 				],
+				'salinomycin'=>[
+					'salnomycin',
+				],
 				'salivary'=>[
 					'salivery',
 				],
@@ -425,6 +471,7 @@
 				],
 				'salmonella'=>[
 					'salmonela',
+					'samonella',
 				],
 				'salmonellosis'=>[
 					'salmonelosis',
@@ -435,9 +482,15 @@
 				'salpiglossis'=>[
 					'salpiglosis',
 				],
+				'salpingectomy'=>[
+					'salphingectomy',
+				],
 				'salt'=>[
 					'salt salt',
 					'salt salt salt',
+				],
+				'saltbush'=>[
+					'saltbrush',
 				],
 				'saltcellar'=>[
 					'saltceller',
@@ -456,6 +509,7 @@
 				],
 				'salutary'=>[
 					'salutery',
+					'salutory',
 				],
 				'salutatorian'=>[
 					'salutatoran',
@@ -561,6 +615,9 @@
 				],
 				'sanguinarily'=>[
 					'sanguinirily',
+				],
+				'sanguinarine'=>[
+					'sanquinarine',
 				],
 				'sanguinary'=>[
 					'sanguinery',
@@ -677,6 +734,9 @@
 					'sapientely',
 					'sapientlly',
 				],
+				'saponin'=>[
+					'sponin',
+				],
 				'sapped'=>[
 					'saped',
 				],
@@ -704,6 +764,9 @@
 				'sapphisms'=>[
 					'saphisms',
 				],
+				'sapphist'=>[
+					'saphist',
+				],
 				'sapphists'=>[
 					'saphists',
 				],
@@ -722,6 +785,12 @@
 				'sappy'=>[
 					'sapy',
 				],
+				'saprolegniasis'=>[
+					'saprolegniosis',
+				],
+				'saquinavir'=>[
+					'sequinavir',
+				],
 				'saraswati'=>[
 					'saraswathi',
 				],
@@ -736,12 +805,35 @@
 				],
 				'sarcolemma'=>[
 					'sarcolemna',
+					'sacrolemma',
+				],
+				'sarcolemmal'=>[
+					'sacolemmal',
+					'sarolemmal',
+				],
+				'sarcolipin'=>[
+					'sarcopilin',
+				],
+				'sarcolytic'=>[
+					'sacrolytic',
+				],
+				'sarcomatoid'=>[
+					'sacromatoid',
+				],
+				'sarcoplasmic'=>[
+					'sarcoplastic',
+				],
+				'sarcopterygian'=>[
+					'sarcopterigian',
 				],
 				'sardar'=>[
 					'sarder',
 				],
 				'sardine'=>[
 					'sardini',
+				],
+				'sarkosyl'=>[
+					'sarcosol',
 				],
 				'sarracenia'=>[
 					'saracenia',
@@ -1215,6 +1307,9 @@
 				'scapulary'=>[
 					'scapulery',
 				],
+				'scapulocoracoid'=>[
+					'scapulacoracoid',
+				],
 				'scar'=>[
 					'sscar',
 					'csar',
@@ -1573,21 +1668,36 @@
 					'chistosomiasis',
 					'cshistosomiasis',
 					'shistosomiasis',
+					'schistomiasis',
+					'schistosomasis',
 				],
 				'schizo'=>[
 					'chizo',
 					'cshizo',
 					'shizo',
 				],
+				'schizogony'=>[
+					'schiozogony',
+				],
 				'schizoid'=>[
 					'chizoid',
 					'cshizoid',
 					'shizoid',
 				],
+				'schizont'=>[
+					'shizont',
+				],
+				'schizontocidal'=>[
+					'shizontocidal',
+				],
+				'schizonts'=>[
+					'shizonts',
+				],
 				'schizophrenia'=>[
 					'chizophrenia',
 					'cshizophrenia',
 					'shizophrenia',
+					'schitzophrenia',
 				],
 				'schizophrenic'=>[
 					'chizophrenic',
@@ -1885,6 +1995,9 @@
 				'schwarmereis'=>[
 					'schwarmeries',
 				],
+				'sciaphilous'=>[
+					'sciophyllous',
+				],
 				'sciatic'=>[
 					'ciatic',
 					'csiatic',
@@ -1950,6 +2063,9 @@
 					'scimiter',
 					'simitar',
 				],
+				'scintigraphy'=>[
+					'scyntigraphy',
+				],
 				'scintillantly'=>[
 					'scintillantally',
 					'scintillantaly',
@@ -1984,6 +2100,9 @@
 					'csion',
 					'sion',
 				],
+				'sciophilous'=>[
+					'skiophilous',
+				],
 				'scirocco'=>[
 					'cirocco',
 					'csirocco',
@@ -2016,6 +2135,9 @@
 					'scisortail',
 					'sissortail',
 				],
+				'sciurid'=>[
+					'scurid',
+				],
 				'sclaff'=>[
 					'claff',
 					'cslaff',
@@ -2039,10 +2161,22 @@
 					'cslerite',
 					'slerite',
 				],
+				'sclerochronological'=>[
+					'schlerochronological',
+				],
 				'scleroderma'=>[
 					'cleroderma',
 					'csleroderma',
 					'sleroderma',
+				],
+				'sclerophyll'=>[
+					'schlerophyll',
+				],
+				'sclerophyllous'=>[
+					'schlerophyllous',
+					'schlerophylous',
+					'sclerophillous',
+					'sclerophylous',
 				],
 				'scleroprotein'=>[
 					'cleroprotein',
@@ -2057,6 +2191,12 @@
 					'clerosis',
 					'cslerosis',
 					'slerosis',
+				],
+				'sclerostin'=>[
+					'schlerostin',
+				],
+				'sclerotherapy'=>[
+					'schlerotherapy',
 				],
 				'sclerotic'=>[
 					'clerotic',
@@ -2194,6 +2334,9 @@
 					'coria',
 					'csoria',
 					'soria',
+				],
+				'scoriaceous'=>[
+					'scoracious',
 				],
 				'scorn'=>[
 					'sccorn',
@@ -2496,6 +2639,9 @@
 					'creenplay',
 					'csreenplay',
 					'sreenplay',
+				],
+				'screenshotting'=>[
+					'screenshoting',
 				],
 				'screenwriter'=>[
 					'creenwriter',
@@ -2937,6 +3083,7 @@
 					'currilous',
 					'scurilous',
 					'surrilous',
+					'scurillous',
 				],
 				'scurrilousness'=>[
 					'scurilousness',
@@ -2994,6 +3141,7 @@
 					'csuttlebutt',
 					'cuttlebutt',
 					'suttlebutt',
+					'scuttlebug',
 				],
 				'scutum'=>[
 					'csutum',
@@ -3009,6 +3157,9 @@
 					'csuzzy',
 					'cuzzy',
 					'suzzy',
+				],
+				'scyphozoan'=>[
+					'schyphozoan',
 				],
 				'scythe'=>[
 					'csythe',
@@ -3196,6 +3347,12 @@
 				'seclusivenesses'=>[
 					'secluisvenesses',
 				],
+				'secoiridoid'=>[
+					'secoridoid',
+				],
+				'secologanin'=>[
+					'secologonin',
+				],
 				'second'=>[
 					'second second',
 					'second second second',
@@ -3244,6 +3401,9 @@
 					'secertly',
 					'secrectly',
 				],
+				'secretome'=>[
+					'secrotome',
+				],
 				'sectarian'=>[
 					'sectaran',
 				],
@@ -3280,6 +3440,7 @@
 				'sedentary'=>[
 					'sedantary',
 					'sedentery',
+					'sedentory',
 				],
 				'sedge'=>[
 					'sege',
@@ -3378,6 +3539,13 @@
 				],
 				'segmented'=>[
 					'segmanted',
+					'segemented',
+				],
+				'segments'=>[
+					'segements',
+				],
+				'segue'=>[
+					'segueway',
 				],
 				'sei'=>[
 					'sie',
@@ -3534,6 +3702,9 @@
 				'seized'=>[
 					'siezed',
 				],
+				'seizes'=>[
+					'siezes',
+				],
 				'seizin'=>[
 					'siezin',
 				],
@@ -3548,6 +3719,9 @@
 				],
 				'sejant'=>[
 					'sejent',
+				],
+				'sekali'=>[
+					'scarly',
 				],
 				'selachian'=>[
 					'selachan',
@@ -3576,6 +3750,7 @@
 				],
 				'selenious'=>[
 					'selenous',
+					'seleneous',
 				],
 				'self'=>[
 					'self self',
@@ -3633,6 +3808,9 @@
 				'semantics'=>[
 					'sementics',
 				],
+				'semaphorin'=>[
+					'semophorin',
+				],
 				'semblable'=>[
 					'semblible',
 				],
@@ -3657,6 +3835,9 @@
 				'sememic'=>[
 					'semic',
 				],
+				'semiallogeneic'=>[
+					'semiallogenic',
+				],
 				'semiannual'=>[
 					'semiannaul',
 					'semianual',
@@ -3666,6 +3847,9 @@
 				],
 				'semiaquatic'=>[
 					'semiaqautic',
+				],
+				'semicarbazide'=>[
+					'semicarbacide',
 				],
 				'semicentennial'=>[
 					'semicantennial',
@@ -3759,6 +3943,9 @@
 				'seminiferous'=>[
 					'seminaferous',
 				],
+				'semiochemical'=>[
+					'semochemical',
+				],
 				'semiotician'=>[
 					'semiotican',
 				],
@@ -3774,6 +3961,7 @@
 				'semipermeable'=>[
 					'semipermeble',
 					'semipermeible',
+					'semipermiable',
 				],
 				'semipious'=>[
 					'semipous',
@@ -3784,11 +3972,18 @@
 				'semiprecious'=>[
 					'semiprecous',
 				],
+				'semiquantitative'=>[
+					'semiquantative',
+					'semiquantitive',
+				],
 				'semiquaver'=>[
 					'semiqauver',
 				],
 				'semiquavers'=>[
 					'semiqauvers',
+				],
+				'semirecumbent'=>[
+					'semirecumbant',
 				],
 				'semireligious'=>[
 					'semireligous',
@@ -3812,6 +4007,9 @@
 				'semitransparent'=>[
 					'semitransparant',
 					'semitransperent',
+				],
+				'semivariogram'=>[
+					'semiovariogram',
 				],
 				'semiweekly'=>[
 					'semiweekally',
@@ -3930,9 +4128,11 @@
 					'sensitivty',
 					'sensitvity',
 					'senstivity',
+					'sensivity',
 				],
 				'sensorineural'=>[
 					'sensoriniural',
+					'sensioneural',
 				],
 				'sensual'=>[
 					'sensaul',
@@ -4057,6 +4257,7 @@
 				'separable'=>[
 					'separible',
 					'seperable',
+					'separatable',
 				],
 				'separableness'=>[
 					'seperableness',
@@ -4119,6 +4320,9 @@
 				'separets'=>[
 					'seperates',
 				],
+				'sepharose'=>[
+					'separose',
+				],
 				'seppuku'=>[
 					'sepuku',
 				],
@@ -4159,6 +4363,9 @@
 				'septuagenarians'=>[
 					'septaugenarians',
 				],
+				'sepulchral'=>[
+					'sepulcheral',
+				],
 				'sequacious'=>[
 					'seqaucious',
 					'sequacous',
@@ -4172,6 +4379,18 @@
 				'sequel'=>[
 					'sequal',
 				],
+				'sequela'=>[
+					'sequaela',
+					'sequala',
+					'sequella',
+				],
+				'sequelae'=>[
+					'sequaelae',
+					'sequalae',
+				],
+				'sequencability'=>[
+					'sequencibility',
+				],
 				'sequence'=>[
 					'sequance',
 				],
@@ -4184,6 +4403,12 @@
 				'sequential'=>[
 					'sequantial',
 					'sequencial',
+				],
+				'sequestosome'=>[
+					'sequestrosome',
+				],
+				'sequestrectomy'=>[
+					'sequestectomy',
 				],
 				'sequoia'=>[
 					'seqoia',
@@ -4224,12 +4449,23 @@
 				],
 				'seriously'=>[
 					'serously',
+					'seriousley',
 				],
 				'serjeant'=>[
 					'serjeent',
 				],
+				'serology'=>[
+					'sorology',
+				],
+				'seroprevalence'=>[
+					'seroprevalance',
+					'seroprevelance',
+				],
 				'serotinal'=>[
 					'serotinil',
+				],
+				'serotonergic'=>[
+					'seretonergic',
 				],
 				'serpent'=>[
 					'serpant',
@@ -4274,6 +4510,7 @@
 				'serviceable'=>[
 					'serviceble',
 					'serviceible',
+					'servicable',
 				],
 				'serviceableness'=>[
 					'servicebleness',
@@ -4387,6 +4624,11 @@
 					'severley',
 					'severly',
 				],
+				'sevoflurane'=>[
+					'servoflurane',
+					'sevofluorane',
+					'sevoflurance',
+				],
 				'sewable'=>[
 					'sewible',
 				],
@@ -4395,6 +4637,8 @@
 				],
 				'sexagenarian'=>[
 					'sexagenaran',
+					'sexagenerian',
+					'sextagenarian',
 				],
 				'sexdecillion'=>[
 					'sexdecilion',
@@ -4404,6 +4648,12 @@
 				],
 				'sexennials'=>[
 					'sexenials',
+				],
+				'sexier'=>[
+					'sexyer',
+				],
+				'sexiness'=>[
+					'sexyness',
 				],
 				'sextant'=>[
 					'sextent',
@@ -4723,6 +4973,7 @@
 				],
 				'sheriff'=>[
 					'sherif',
+					'sherrif',
 				],
 				'sherry'=>[
 					'shery',
@@ -4755,6 +5006,9 @@
 					'sheis',
 					'shis',
 				],
+				'shiftiness'=>[
+					'shiftyness',
+				],
 				'shiftlessly'=>[
 					'shiftlessally',
 					'shiftlessaly',
@@ -4778,6 +5032,9 @@
 				],
 				'shillalahs'=>[
 					'shillalas',
+				],
+				'shillelagh'=>[
+					'shelele',
 				],
 				'shillelah'=>[
 					'shillela',
@@ -4918,6 +5175,9 @@
 				'shofar'=>[
 					'shofer',
 				],
+				'shogaol'=>[
+					'shagaol',
+				],
 				'shogging'=>[
 					'shoging',
 				],
@@ -5010,6 +5270,9 @@
 				'should have'=>[
 					'should of',
 				],
+				'should\'ve'=>[
+					'shouldve',
+				],
 				'shoulder'=>[
 					'shoulder shoulder',
 					'shoulder shoulder shoulder',
@@ -5033,6 +5296,9 @@
 				],
 				'showerhead'=>[
 					'showerhed',
+				],
+				'showiness'=>[
+					'showyness',
 				],
 				'showing'=>[
 					'showng',
@@ -5096,6 +5362,12 @@
 					'shyaly',
 					'shylly',
 				],
+				'sialoglycoprotein'=>[
+					'siloglycoprotein',
+				],
+				'sialylated'=>[
+					'sialyated',
+				],
 				'sibb'=>[
 					'sib',
 				],
@@ -5116,6 +5388,9 @@
 				],
 				'sibilant'=>[
 					'sibilent',
+				],
+				'siboglinid'=>[
+					'siboglonid',
 				],
 				'siccan'=>[
 					'sican',
@@ -5155,6 +5430,10 @@
 				'side effects'=>[
 					'side affects',
 				],
+				'side-effect'=>[
+					'side-affect',
+					'site-effect',
+				],
 				'sidebar'=>[
 					'sideber',
 				],
@@ -5177,6 +5456,9 @@
 				],
 				'sieged'=>[
 					'seiged',
+				],
+				'sieges'=>[
+					'seiges',
 				],
 				'sieging'=>[
 					'seiging',
@@ -5234,6 +5516,9 @@
 				],
 				'sightseeing'=>[
 					'sightseieng',
+				],
+				'sigmoid'=>[
+					'sygmoid',
 				],
 				'sigmoidoscopies'=>[
 					'sigmoidocopies',
@@ -5328,6 +5613,9 @@
 				'siladharas'=>[
 					'siladhara',
 				],
+				'silcrete'=>[
+					'silicrete',
+				],
 				'silence'=>[
 					'silance',
 				],
@@ -5376,6 +5664,9 @@
 				'silverberry'=>[
 					'silverbery',
 				],
+				'silvopasture'=>[
+					'sylvopasture',
+				],
 				'simar'=>[
 					'simer',
 				],
@@ -5415,12 +5706,22 @@
 				'simmers'=>[
 					'simners',
 				],
+				'simoleon'=>[
+					'samoleon',
+					'semoleon',
+				],
+				'simpatico'=>[
+					'sympatico',
+				],
 				'simple'=>[
 					'simple simple',
 					'simple simple simple',
 				],
 				'simpler'=>[
 					'simplier',
+				],
+				'simplices'=>[
+					'simplicies',
 				],
 				'simplicity'=>[
 					'simplicty',
@@ -5441,6 +5742,9 @@
 				'simulcast'=>[
 					'simulcasted',
 				],
+				'simuliid'=>[
+					'simulid',
+				],
 				'simultaneities'=>[
 					'simultanieties',
 				],
@@ -5456,6 +5760,12 @@
 					'simultaneousely',
 					'simultaneouslly',
 					'simultanously',
+				],
+				'simvastatin'=>[
+					'simavastatin',
+				],
+				'sinapate'=>[
+					'synapate',
 				],
 				'sinapism'=>[
 					'sinipism',
@@ -5579,6 +5889,9 @@
 				'sirocco'=>[
 					'siroco',
 				],
+				'siroheme'=>[
+					'syroheme',
+				],
 				'sirra'=>[
 					'sira',
 				],
@@ -5614,11 +5927,17 @@
 					'sit sit',
 					'sit sit sit',
 				],
+				'sitagliptin'=>[
+					'sitaglibtin',
+				],
 				'sitar'=>[
 					'siter',
 				],
 				'sithence'=>[
 					'sithance',
+				],
+				'sitoindoside'=>[
+					'sitoendoside',
 				],
 				'situate'=>[
 					'sitaute',
@@ -5684,14 +6003,26 @@
 				'skagerrak'=>[
 					'skagerak',
 				],
+				'skedaddle'=>[
+					'skadaddle',
+				],
 				'skein'=>[
 					'skien',
+				],
+				'skeletogenesis'=>[
+					'skelotogenesis',
 				],
 				'skell'=>[
 					'skel',
 				],
 				'skerry'=>[
 					'skery',
+				],
+				'skeuomorphic'=>[
+					'skeumorphic',
+				],
+				'skeuomorphism'=>[
+					'skeumorphism',
 				],
 				'skiable'=>[
 					'skiible',
@@ -5716,6 +6047,9 @@
 				'skies'=>[
 					'skeis',
 					'skis',
+				],
+				'skiing'=>[
+					'skiiing',
 				],
 				'skill'=>[
 					'skil',
@@ -5787,8 +6121,14 @@
 				'skirret'=>[
 					'skiret',
 				],
+				'skis'=>[
+					'skiis',
+				],
 				'skittery'=>[
 					'skittary',
+				],
+				'skittish'=>[
+					'skiddish',
 				],
 				'skiwear'=>[
 					'skiweer',
@@ -5976,6 +6316,7 @@
 					'slightaly',
 					'slightely',
 					'slightlly',
+					'slightley',
 				],
 				'slily'=>[
 					'slially',
@@ -6459,8 +6800,14 @@
 				'social'=>[
 					'socail',
 				],
+				'socialism'=>[
+					'sozialism',
+				],
 				'socialismo'=>[
 					'socialism0',
+				],
+				'socialist'=>[
+					'sozialist',
 				],
 				'socialization'=>[
 					'socialisastion',
@@ -6498,12 +6845,18 @@
 					'soduko',
 					'suduko',
 				],
+				'sodomite'=>[
+					'somdomite',
+				],
 				'sofar'=>[
 					'sofer',
 				],
 				'soft'=>[
 					'soft soft',
 					'soft soft soft',
+				],
+				'soft-pedal'=>[
+					'soft-peddle',
 				],
 				'softball'=>[
 					'softbal',
@@ -6540,6 +6893,13 @@
 				'soil'=>[
 					'soil soil',
 					'soil soil soil',
+				],
+				'sojourn'=>[
+					'sojorn',
+					'sojurn',
+				],
+				'solanaceous'=>[
+					'solenaceous',
 				],
 				'solar'=>[
 					'soler',
@@ -6629,6 +6989,12 @@
 				'solitudinarians'=>[
 					'solitudinirians',
 				],
+				'solpugid'=>[
+					'solphugid',
+				],
+				'solubilisation'=>[
+					'solublisation',
+				],
 				'soluble'=>[
 					'soluable',
 				],
@@ -6662,6 +7028,19 @@
 				'somali-occupied'=>[
 					'somali occupied',
 				],
+				'somatoparaphrenia'=>[
+					'somatoparaphenia',
+				],
+				'somatosensory'=>[
+					'sematosensory',
+				],
+				'somatostatin'=>[
+					'samatostatin',
+					'somatostain',
+				],
+				'somatotype'=>[
+					'stomatotype',
+				],
 				'sombrely'=>[
 					'sombrly',
 				],
@@ -6670,6 +7049,9 @@
 					'soem',
 					'some some',
 					'some some some',
+				],
+				'somebody'=>[
+					'sombody',
 				],
 				'someone'=>[
 					'somone',
@@ -6818,6 +7200,9 @@
 				'soon after'=>[
 					'soonafter',
 				],
+				'sopaipilla'=>[
+					'sopapilla',
+				],
 				'sophisticated'=>[
 					'sophicated',
 					'suphisticated',
@@ -6843,6 +7228,9 @@
 				],
 				'soppy'=>[
 					'sopy',
+				],
+				'sorbitol'=>[
+					'sorbital',
 				],
 				'sorcerer'=>[
 					'sorceror',
@@ -6875,6 +7263,9 @@
 				'sorry'=>[
 					'sory',
 				],
+				'sort of'=>[
+					'sort\'ve',
+				],
 				'sortie'=>[
 					'sortei',
 					'sorti',
@@ -6901,6 +7292,9 @@
 				'sound box'=>[
 					'soundbox',
 				],
+				'soundbite'=>[
+					'soundbyte',
+				],
 				'soundlessly'=>[
 					'soundlessally',
 					'soundlessaly',
@@ -6917,6 +7311,9 @@
 				],
 				'soup'=>[
 					'suop',
+				],
+				'soursop'=>[
+					'soursap',
 				],
 				'south'=>[
 					'sourth',
@@ -7018,6 +7415,9 @@
 				'soybean'=>[
 					'soyabean',
 				],
+				'soyjak'=>[
+					'soyjack',
+				],
 				'space'=>[
 					'space space',
 					'space space space',
@@ -7106,6 +7506,9 @@
 				'sparest'=>[
 					'sperest',
 				],
+				'sparfloxacin'=>[
+					'spafloxacin',
+				],
 				'sparged'=>[
 					'sperged',
 				],
@@ -7158,11 +7561,38 @@
 					'spartini',
 					'spertina',
 				],
+				'spasm'=>[
+					'spazm',
+				],
+				'spasmolytic'=>[
+					'spasmolithic',
+				],
+				'spatangoid'=>[
+					'spantagoid',
+				],
 				'spathal'=>[
 					'spatal',
 				],
 				'spatial'=>[
 					'spacial',
+				],
+				'spatialization'=>[
+					'spacialization',
+				],
+				'spatialize'=>[
+					'spacialize',
+				],
+				'spatiocultural'=>[
+					'spacio-cultural',
+				],
+				'spatiostructural'=>[
+					'spaciostructural',
+				],
+				'spatiotemporal'=>[
+					'spaciotemporal',
+				],
+				'spatiotemporally'=>[
+					'spaciotemporally',
 				],
 				'speak'=>[
 					'speak speak',
@@ -7263,6 +7693,18 @@
 				'spectator'=>[
 					'specator',
 				],
+				'spectinomycin'=>[
+					'specinomycin',
+				],
+				'spectral'=>[
+					'specteral',
+				],
+				'spectratyping'=>[
+					'spectrotyping',
+				],
+				'spectrofluorimetrically'=>[
+					'spectrofluorometrically',
+				],
 				'spectrometry'=>[
 					'spectometry',
 				],
@@ -7270,6 +7712,7 @@
 					'spectrocope',
 					'spectrocsope',
 					'spectrosope',
+					'spectrascope',
 				],
 				'spectroscopists'=>[
 					'spectrocopists',
@@ -7280,6 +7723,7 @@
 					'spectrocopy',
 					'spectrocsopy',
 					'spectrosopy',
+					'spectronomy',
 				],
 				'specular'=>[
 					'speculer',
@@ -7347,14 +7791,23 @@
 				'spermary'=>[
 					'spermery',
 				],
+				'spermatogonium'=>[
+					'spermatogomium',
+				],
 				'spermatozoa'=>[
 					'spermatazoa',
 				],
 				'spermatozoon'=>[
 					'spermatazoon',
 				],
+				'spermidine'=>[
+					'spermadine',
+				],
 				'sperrylite'=>[
 					'sperylite',
+				],
+				'sphenisciform'=>[
+					'spheniciform',
 				],
 				'spheres'=>[
 					'spehers',
@@ -7362,11 +7815,21 @@
 				'spherical'=>[
 					'sperical',
 				],
+				'spheroplasting'=>[
+					'spheroblasting',
+				],
 				'spherular'=>[
 					'spheruler',
 				],
+				'sphingoid'=>[
+					'spingoid',
+				],
 				'sphingosine'=>[
 					'sphingosini',
+				],
+				'sphygmomanometer'=>[
+					'sphygmanometer',
+					'sphygomanometer',
 				],
 				'spiccato'=>[
 					'spicato',
@@ -7506,6 +7969,9 @@
 				'spinny'=>[
 					'spiny',
 				],
+				'spinophilin'=>[
+					'spinophillin',
+				],
 				'spinors'=>[
 					'spinours',
 				],
@@ -7521,6 +7987,9 @@
 					'spintharicopes',
 					'spintharicsopes',
 					'spintharisopes',
+				],
+				'spiperone'=>[
+					'siperone',
 				],
 				'spiracular'=>[
 					'spiraculer',
@@ -7581,14 +8050,30 @@
 				'spirulina'=>[
 					'spirulini',
 				],
+				'splanchnocranium'=>[
+					'splachnocranium',
+					'splancnocranium',
+				],
 				'splendent'=>[
 					'splendant',
+				],
+				'splendid'=>[
+					'splended',
+				],
+				'splendorous'=>[
+					'splendourous',
+				],
+				'splenocyte'=>[
+					'spenocyte',
 				],
 				'splenomegaly'=>[
 					'splenomegaally',
 					'splenomegaaly',
 					'splenomegaely',
 					'splenomegally',
+				],
+				'spliceosomal'=>[
+					'splicesomal',
 				],
 				'spline'=>[
 					'splini',
@@ -7606,6 +8091,9 @@
 				'splitting'=>[
 					'spliting',
 				],
+				'splurge'=>[
+					'spurlge',
+				],
 				'spluttery'=>[
 					'spluttary',
 				],
@@ -7620,6 +8108,7 @@
 					'speaked',
 					'spoke spoke',
 					'spoke spoke spoke',
+					'spoak',
 				],
 				'spokesman'=>[
 					'spokeman',
@@ -7636,8 +8125,17 @@
 				'spondylitis'=>[
 					'spondilitis',
 				],
+				'spondylodiscitis'=>[
+					'spondilodiskitis',
+				],
+				'spondylolisthesis'=>[
+					'spondylolithesis',
+				],
 				'spongeous'=>[
 					'sponteous',
+				],
+				'spongocoel'=>[
+					'spongeocoel',
 				],
 				'sponsor'=>[
 					'sponser',
@@ -7694,6 +8192,9 @@
 				],
 				'sporular'=>[
 					'sporuler',
+				],
+				'sporulate'=>[
+					'sporolate',
 				],
 				'spot'=>[
 					'spot spot',
@@ -7766,6 +8267,9 @@
 				],
 				'spun off'=>[
 					'spunoff',
+				],
+				'spuriosity'=>[
+					'spuriousity',
 				],
 				'spurious'=>[
 					'spurous',
@@ -7977,6 +8481,9 @@
 				'squeak'=>[
 					'squek',
 				],
+				'squealing'=>[
+					'squealling',
+				],
 				'squeamish'=>[
 					'squemish',
 				],
@@ -8019,6 +8526,9 @@
 				],
 				'squirrely'=>[
 					'squirrly',
+				],
+				'squishiness'=>[
+					'squishyness',
 				],
 				'squoosh'=>[
 					'sqoosh',
@@ -8077,6 +8587,9 @@
 				],
 				'staccato'=>[
 					'stacato',
+				],
+				'stadiometer'=>[
+					'standiometer',
 				],
 				'stage name'=>[
 					'stage-name',
@@ -8259,6 +8772,9 @@
 				'staphylococcus'=>[
 					'staphylococus',
 				],
+				'staphylokinase'=>[
+					'staphlokinase',
+				],
 				'star'=>[
 					'star star',
 					'star star star',
@@ -8302,6 +8818,9 @@
 				'static'=>[
 					'stastic',
 				],
+				'statically'=>[
+					'staticly',
+				],
 				'statics'=>[
 					'stastics',
 				],
@@ -8333,6 +8852,9 @@
 				'statuesquely'=>[
 					'statuesquly',
 				],
+				'status'=>[
+					'statis',
+				],
 				'status quo'=>[
 					'statu quo',
 				],
@@ -8341,6 +8863,12 @@
 				],
 				'statutory'=>[
 					'statuatory',
+				],
+				'staurosporine'=>[
+					'starosporine',
+					'staruosporine',
+					'straurosporine',
+					'stuarosporine',
 				],
 				'stay'=>[
 					'stay stay',
@@ -8366,6 +8894,7 @@
 				],
 				'steadily'=>[
 					'steadly',
+					'stedily',
 				],
 				'steady'=>[
 					'stedy',
@@ -8399,6 +8928,9 @@
 				],
 				'steatorrhea'=>[
 					'steatorhea',
+				],
+				'steatosis'=>[
+					'statosis',
 				],
 				'steel'=>[
 					'steel steel',
@@ -8494,11 +9026,18 @@
 				'steradian'=>[
 					'steradan',
 				],
+				'stereolithography'=>[
+					'sterolithography',
+				],
 				'stereologically'=>[
 					'stereologicalally',
 					'stereologicalaly',
 					'stereologicalely',
 					'stereologicallly',
+				],
+				'stereology'=>[
+					'steriology',
+					'sterology',
 				],
 				'stereoregular'=>[
 					'stereoreguler',
@@ -8507,6 +9046,7 @@
 					'stereocope',
 					'stereocsope',
 					'stereosope',
+					'steroscope',
 				],
 				'stereoscopic'=>[
 					'stereocopic',
@@ -8518,11 +9058,24 @@
 					'stereocsopy',
 					'stereosopy',
 				],
+				'stereotactic'=>[
+					'sterotactic',
+				],
+				'stereotaxic'=>[
+					'stereotoxic',
+					'sterotaxic',
+				],
+				'stereotypic'=>[
+					'sterotypic',
+				],
 				'stereotypically'=>[
 					'stereotypicalally',
 					'stereotypicalaly',
 					'stereotypicalely',
 					'stereotypicallly',
+				],
+				'sterically'=>[
+					'stearically',
 				],
 				'sterilant'=>[
 					'sterilent',
@@ -8537,13 +9090,28 @@
 					'stermost',
 					'sternost',
 				],
+				'sternocostal'=>[
+					'stenocostal',
+				],
+				'sternomastoid'=>[
+					'stemomastoid',
+				],
 				'steroid'=>[
 					'steriod',
+				],
+				'steroidogenesis'=>[
+					'stereoideogenesis',
+				],
+				'steroidogenic'=>[
+					'stereoideogenic',
 				],
 				'stethoscope'=>[
 					'stethocope',
 					'stethocsope',
 					'stethosope',
+				],
+				'stibogluconate'=>[
+					'stibugluconate',
 				],
 				'stick'=>[
 					'stick stick',
@@ -8559,6 +9127,12 @@
 				],
 				'stiffened'=>[
 					'stiffend',
+				],
+				'stifle'=>[
+					'stiffle',
+				],
+				'stigmergic'=>[
+					'stygmergic',
 				],
 				'still'=>[
 					'stil',
@@ -8625,6 +9199,17 @@
 				'stoical'=>[
 					'soical',
 				],
+				'stoically'=>[
+					'stoicly',
+				],
+				'stoichiometric'=>[
+					'stechiometric',
+					'stoichometric',
+				],
+				'stoichiometry'=>[
+					'stoichimetry',
+					'stoichometry',
+				],
 				'stole'=>[
 					'stealed',
 					'stoled',
@@ -8634,6 +9219,9 @@
 				],
 				'stomach'=>[
 					'stomache',
+				],
+				'stomatogastric'=>[
+					'somatogastric',
 				],
 				'stonable'=>[
 					'stonible',
@@ -8663,6 +9251,9 @@
 					'stop stop',
 					'stop stop stop',
 					'stpo',
+				],
+				'stoppable'=>[
+					'stopable',
 				],
 				'stoppage'=>[
 					'stopage',
@@ -8762,6 +9353,7 @@
 				],
 				'straitjacket'=>[
 					'straightjacket',
+					'straight-jacket',
 				],
 				'strand'=>[
 					'strnad',
@@ -8795,6 +9387,9 @@
 				'strass'=>[
 					'stras',
 				],
+				'stratagem'=>[
+					'strategem',
+				],
 				'strategic'=>[
 					'startegic',
 					'stategic',
@@ -8811,6 +9406,12 @@
 				],
 				'stratford'=>[
 					'stradford',
+				],
+				'stratified'=>[
+					'stratificated',
+				],
+				'stratigraphic'=>[
+					'starigraphic',
 				],
 				'stratocracy'=>[
 					'stratocrasy',
@@ -8893,6 +9494,9 @@
 				'strenuousnesses'=>[
 					'strenousnesses',
 				],
+				'streptavidin'=>[
+					'streptovidin',
+				],
 				'streptobacillus'=>[
 					'streptobacilus',
 				],
@@ -8911,6 +9515,13 @@
 				'streptokinases'=>[
 					'streptokinises',
 				],
+				'streptomycin'=>[
+					'streptamycin',
+				],
+				'streptozotocin'=>[
+					'strepozotocin',
+					'strepzotocin',
+				],
 				'stress'=>[
 					'stres',
 				],
@@ -8922,6 +9533,9 @@
 					'stretch stretch',
 					'stretch stretch stretch',
 				],
+				'striatal'=>[
+					'striatial',
+				],
 				'stricken'=>[
 					'striken',
 				],
@@ -8931,6 +9545,9 @@
 				'strictly'=>[
 					'strickly',
 					'stricly',
+				],
+				'strictosidine'=>[
+					'stictosidine',
 				],
 				'stridence'=>[
 					'stridance',
@@ -8995,6 +9612,9 @@
 				],
 				'stroller'=>[
 					'stroler',
+				],
+				'stromelysin'=>[
+					'stromolysin',
 				],
 				'strong'=>[
 					'storng',
@@ -9075,6 +9695,7 @@
 				],
 				'stubborn'=>[
 					'stuborn',
+					'stubbourn',
 				],
 				'stubborner'=>[
 					'stuborner',
@@ -9135,6 +9756,9 @@
 					'studeid',
 					'studid',
 				],
+				'studies'=>[
+					'studys',
+				],
 				'studio'=>[
 					'sutdio',
 				],
@@ -9160,6 +9784,9 @@
 					'studdying',
 					'studing',
 				],
+				'stuff'=>[
+					'stuf',
+				],
 				'stull'=>[
 					'stul',
 				],
@@ -9178,17 +9805,26 @@
 				'stunningly'=>[
 					'stuningly',
 				],
+				'stutter'=>[
+					'studder',
+				],
 				'stuttering'=>[
 					'studdering',
 				],
 				'stygian'=>[
 					'stygan',
 				],
+				'stygobitic'=>[
+					'sytogobitic',
+				],
 				'stylar'=>[
 					'styler',
 				],
 				'style'=>[
 					'sytle',
+				],
+				'stylopod'=>[
+					'styplopod',
 				],
 				'stylus'=>[
 					'stilus',
@@ -9258,6 +9894,9 @@
 				'subantarctic'=>[
 					'subentarctic',
 				],
+				'subarachnoidal'=>[
+					'subarachnoideal',
+				],
 				'subassembly'=>[
 					'subasembly',
 					'subassembally',
@@ -9295,6 +9934,9 @@
 				'subcabinet'=>[
 					'subcabinit',
 				],
+				'subcallosal'=>[
+					'subcalossal',
+				],
 				'subcapsular'=>[
 					'subcapsuler',
 				],
@@ -9313,6 +9955,12 @@
 				'subcellular'=>[
 					'subcelluler',
 					'subcelular',
+				],
+				'subchondral'=>[
+					'subchondrial',
+				],
+				'subchronic'=>[
+					'subchromic',
 				],
 				'subclavian'=>[
 					'subclavan',
@@ -9383,6 +10031,15 @@
 				'subduals'=>[
 					'subdauls',
 				],
+				'subendocardial'=>[
+					'subendocarial',
+				],
+				'subepicardially'=>[
+					'subepicardically',
+				],
+				'suberoylanilide'=>[
+					'suberoxylanilide',
+				],
 				'subfamily'=>[
 					'subfamially',
 					'subfamialy',
@@ -9431,6 +10088,9 @@
 				'sublethal'=>[
 					'subletal',
 				],
+				'sublethally'=>[
+					'sublethaly',
+				],
 				'sublibrarian'=>[
 					'sublibraran',
 				],
@@ -9477,6 +10137,9 @@
 					'submaxilary',
 					'submaxillery',
 				],
+				'submembranous'=>[
+					'submembraneous',
+				],
 				'submergence'=>[
 					'submergance',
 				],
@@ -9490,6 +10153,9 @@
 					'submicrocopic',
 					'submicrocsopic',
 					'submicrosopic',
+				],
+				'submillisecond'=>[
+					'submilisecond',
 				],
 				'subminiature'=>[
 					'subminaature',
@@ -9529,6 +10195,9 @@
 				],
 				'subnuclear'=>[
 					'subnucleer',
+				],
+				'subocular'=>[
+					'subacular',
 				],
 				'suborbicular'=>[
 					'suborbiculer',
@@ -9577,8 +10246,23 @@
 					'subparalel',
 					'subperallel',
 				],
+				'subpellicular'=>[
+					'subpelicular',
+				],
+				'subperichondrial'=>[
+					'subperichondral',
+				],
+				'subperiosteal'=>[
+					'subperiostial',
+				],
 				'subphylar'=>[
 					'subphyler',
+				],
+				'subplasmalemmal'=>[
+					'subplasmalemal',
+				],
+				'subplatysmal'=>[
+					'subplastymal',
 				],
 				'subpoena'=>[
 					'sepina',
@@ -9589,6 +10273,9 @@
 				],
 				'subpotency'=>[
 					'subpotensy',
+				],
+				'subpreputial'=>[
+					'subprepucial',
 				],
 				'subprofessional'=>[
 					'subprofesional',
@@ -9601,6 +10288,10 @@
 				],
 				'subroutine'=>[
 					'subroutini',
+				],
+				'subsarcolemmal'=>[
+					'subsarcolemal',
+					'subsarcollemal',
 				],
 				'subscience'=>[
 					'subsciance',
@@ -9759,6 +10450,7 @@
 				],
 				'subtilely'=>[
 					'subtilly',
+					'subtily',
 				],
 				'subtly'=>[
 					'subtlely',
@@ -9784,17 +10476,26 @@
 				'subtrahends'=>[
 					'subtraends',
 				],
+				'subungual'=>[
+					'subungal',
+				],
 				'suburb'=>[
 					'suberb',
 				],
 				'suburban'=>[
 					'suburbian',
 				],
+				'suburbanite'=>[
+					'surburbanite',
+				],
 				'subvened'=>[
 					'subvend',
 				],
 				'subventionary'=>[
 					'subventionery',
+				],
+				'subventricular'=>[
+					'subventrical',
 				],
 				'subversionary'=>[
 					'subversionery',
@@ -9804,6 +10505,9 @@
 				],
 				'subvisible'=>[
 					'subvisable',
+				],
+				'subxiphoid'=>[
+					'subxyphoid',
 				],
 				'succah'=>[
 					'sucah',
@@ -10040,6 +10744,7 @@
 				'suffix'=>[
 					'suffix suffix',
 					'suffix suffix suffix',
+					'sufix',
 				],
 				'suffolk'=>[
 					'sufolk',
@@ -10095,6 +10800,7 @@
 				'suggestion'=>[
 					'sugestion',
 					'suggesion',
+					'sugjestion',
 				],
 				'suggestions'=>[
 					'sugestions',
@@ -10136,9 +10842,32 @@
 				],
 				'sulfadiazine'=>[
 					'sulfadiazini',
+					'sulfadiazene',
+				],
+				'sulfadoxine'=>[
+					'sufadoxine',
+				],
+				'sulfamethoprim'=>[
+					'sulmethoprim',
+				],
+				'sulfamethoxazole'=>[
+					'sulfametoxazole',
+					'sulfomethoxazole',
 				],
 				'sulfonylurea'=>[
 					'sulfonylure',
+				],
+				'sulforaphane'=>[
+					'sulforphane',
+				],
+				'sulfoxide'=>[
+					'sulfonide',
+				],
+				'sulfur'=>[
+					'sulfer',
+				],
+				'sulfurylase'=>[
+					'surfurylase',
 				],
 				'sullen'=>[
 					'sulen',
@@ -10218,6 +10947,9 @@
 				],
 				'summons'=>[
 					'sumnons',
+				],
+				'sumoylation'=>[
+					'sumorylation',
 				],
 				'sumptuary'=>[
 					'sumptaury',
@@ -10353,6 +11085,9 @@
 				'superceeds'=>[
 					'supercedes',
 				],
+				'superchiasmatic'=>[
+					'superochiasmatic',
+				],
 				'superciliary'=>[
 					'superciliery',
 				],
@@ -10399,6 +11134,7 @@
 				],
 				'superficial'=>[
 					'superfical',
+					'supraficial',
 				],
 				'superficies'=>[
 					'superficeis',
@@ -10430,6 +11166,9 @@
 				'superhardened'=>[
 					'superhardend',
 				],
+				'superheroes'=>[
+					'superheros',
+				],
 				'superhumanness'=>[
 					'superhumaness',
 				],
@@ -10441,6 +11180,9 @@
 				],
 				'superindividual'=>[
 					'superindividaul',
+				],
+				'superintend'=>[
+					'supertend',
 				],
 				'superintendence'=>[
 					'superintendance',
@@ -10833,14 +11575,47 @@
 				'suppuration'=>[
 					'supuration',
 				],
+				'suppurative'=>[
+					'supparative',
+					'supurative',
+				],
+				'suprachiasmatic'=>[
+					'superchiasmic',
+					'supraquiasmatic',
+				],
+				'suprachoroid'=>[
+					'supracoroid',
+				],
+				'supraesophageal'=>[
+					'supraoesophageal',
+				],
+				'suprailiac'=>[
+					'suprailliac',
+				],
 				'supraliminal'=>[
 					'supraliminil',
+				],
+				'supralittoral'=>[
+					'superlittoral',
+					'supralitoral',
+				],
+				'supramammillary'=>[
+					'supramamillary',
 				],
 				'supramolecular'=>[
 					'supramoleculer',
 				],
+				'supranuclear'=>[
+					'sovranuclear',
+				],
 				'suprasegmental'=>[
 					'suprasegmantal',
+				],
+				'supratemporal'=>[
+					'supretemporal',
+				],
+				'suprathreshold'=>[
+					'suprathreshhold',
 				],
 				'supremacist'=>[
 					'supremist',
@@ -11705,8 +12480,15 @@
 				'sustenance'=>[
 					'sustenence',
 				],
+				'sustentacular'=>[
+					'sustenacular',
+				],
 				'susurration'=>[
 					'susuration',
+					'sussuration',
+				],
+				'susurrations'=>[
+					'sussurations',
 				],
 				'suzerainty'=>[
 					'suzerainity',
@@ -11934,6 +12716,7 @@
 					'sycophent',
 					'synchophant',
 					'syncophant',
+					'psychophant',
 				],
 				'sycophantism'=>[
 					'sycophentism',
@@ -11994,11 +12777,29 @@
 				'symmetrize'=>[
 					'symnetrize',
 				],
+				'symmetrized'=>[
+					'symmetricized',
+				],
 				'symmetry'=>[
 					'simetry',
 					'symetry',
 					'symmmetry',
 					'symnetry',
+				],
+				'sympathectomy'=>[
+					'sympatectomy',
+				],
+				'sympathoadrenal'=>[
+					'sympatoadrenal',
+				],
+				'sympathoexcitatory'=>[
+					'sympathoexcitory',
+				],
+				'sympathotropic'=>[
+					'sympathotrophic',
+				],
+				'sympathovagal'=>[
+					'symphatovagal',
 				],
 				'sympathy'=>[
 					'symptahy',
@@ -12013,23 +12814,91 @@
 					'symphoniouslly',
 					'symphonously',
 				],
+				'symplectic'=>[
+					'simplectic',
+				],
+				'symplesiomorphy'=>[
+					'synplesiomorphy',
+				],
 				'symposia'=>[
 					'symposiums',
 				],
 				'symposium'=>[
 					'symposum',
 				],
+				'symptom'=>[
+					'sympton',
+				],
 				'symptomatic'=>[
 					'sympotamitc',
 				],
+				'symptomatology'=>[
+					'simptomatology',
+					'sintomatology',
+				],
 				'symptoms'=>[
 					'symptomes',
+				],
+				'synanthropic'=>[
+					'synantropic',
+					'synathropic',
+				],
+				'synanthropically'=>[
+					'synantropically',
+				],
+				'synaptodendritic'=>[
+					'synaptodentritic',
+				],
+				'synaptogenesis'=>[
+					'synapsogenesis',
+				],
+				'synaptoneurosome'=>[
+					'synaptosoneurosome',
+				],
+				'synaptosomal'=>[
+					'sinaptosomal',
+					'synoptosomal',
+				],
+				'synaptotropic'=>[
+					'synaptotrophic',
+				],
+				'syncarpal'=>[
+					'sincarpal',
 				],
 				'synchroneities'=>[
 					'synchronieties',
 				],
 				'synchroneity'=>[
 					'synchroniety',
+				],
+				'synchronise'=>[
+					'syncronise',
+				],
+				'synchronised'=>[
+					'syncronised',
+				],
+				'synchronises'=>[
+					'syncronises',
+				],
+				'synchronising'=>[
+					'syncronising',
+				],
+				'synchronize'=>[
+					'syncronize',
+				],
+				'synchronized'=>[
+					'syncronized',
+				],
+				'synchronizes'=>[
+					'syncronizes',
+				],
+				'synchronizing'=>[
+					'syncronizing',
+				],
+				'synchronous'=>[
+					'synchronus',
+					'syncronous',
+					'syncronus',
 				],
 				'synchronously'=>[
 					'synchronousally',
@@ -12046,6 +12915,19 @@
 				'syncline'=>[
 					'synclini',
 				],
+				'syncretism'=>[
+					'syncraticism',
+				],
+				'syncytial'=>[
+					'syncitial',
+				],
+				'syncytin'=>[
+					'syncitin',
+				],
+				'syncytiotrophoblast'=>[
+					'synchiotrophoblast',
+					'synctiotrophoblast',
+				],
 				'syndactyly'=>[
 					'syndactyally',
 					'syndactyaly',
@@ -12058,8 +12940,29 @@
 					'synecdochicalely',
 					'synecdochicallly',
 				],
+				'synechiolysis'=>[
+					'synechialysis',
+				],
+				'synecological'=>[
+					'sinecological',
+				],
+				'synecology'=>[
+					'sinecology',
+				],
+				'synergistic'=>[
+					'sinergistic',
+				],
+				'synergohymenotropic'=>[
+					'synergohymenotrophic',
+				],
 				'syngeneic'=>[
 					'syngeniec',
+				],
+				'syngnathid'=>[
+					'sygnathid',
+				],
+				'synonymizing'=>[
+					'synonimising',
 				],
 				'synonymous'=>[
 					'synonomous',
@@ -12074,8 +12977,14 @@
 					'synthetise',
 					'synthetize',
 				],
+				'synthetase'=>[
+					'synthatase',
+				],
 				'synthetic'=>[
 					'synthetical',
+				],
+				'synucleinopathy'=>[
+					'synucleopathy',
 				],
 				'syphilis'=>[
 					'syphillis',
@@ -12098,6 +13007,9 @@
 				],
 				'systems'=>[
 					'sytems',
+				],
+				'systolic'=>[
+					'cystolic',
 				],
 				'séamus'=>[
 					'seamus',

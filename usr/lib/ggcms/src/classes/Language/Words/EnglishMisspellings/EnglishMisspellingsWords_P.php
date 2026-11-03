@@ -32,8 +32,45 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Pan-Asian'=>[
+					'panasian',
+				],
+				'Parvati'=>[
+					'parvathi',
+					'parvathy',
+				],
+				'Philippines'=>[
+					'filippines',
+				],
+				'Phoenician'=>[
+					'phoenecian',
+				],
+				'Phoenicians'=>[
+					'phoenecians',
+				],
+				'Pollyanna'=>[
+					'polyanna',
+				],
+				'Portugal'=>[
+					'portugual',
+				],
+				'Pre-Raphaelitism'=>[
+					'pre-raphaelism',
+				],
+				'Pyrrhic'=>[
+					'pyhrric',
+				],
 				'paced'=>[
 					'pased',
+				],
+				'pachygyria'=>[
+					'pachigyria',
+				],
+				'pachymetry'=>[
+					'pachimetry',
+				],
+				'pachynema'=>[
+					'pachyneme',
 				],
 				'pacific'=>[
 					'pacfic',
@@ -50,6 +87,12 @@
 					'pacifisticalaly',
 					'pacifisticalely',
 					'pacifisticallly',
+				],
+				'paclitaxel'=>[
+					'paciltaxel',
+				],
+				'paclobutrazol'=>[
+					'paclabutrazol',
 				],
 				'paddy doherty'=>[
 					'paddy dougherty',
@@ -78,6 +121,9 @@
 				'paean'=>[
 					'paen',
 				],
+				'paediatric'=>[
+					'paediatic',
+				],
 				'paediatrician'=>[
 					'paediatrican',
 				],
@@ -96,8 +142,14 @@
 				'paedomorphosis'=>[
 					'paedomourphosis',
 				],
+				'paedophile'=>[
+					'peadophile',
+				],
 				'paella'=>[
 					'paela',
+				],
+				'paeoniflorin'=>[
+					'paconiflorin',
 				],
 				'page'=>[
 					'page page',
@@ -117,9 +169,13 @@
 				],
 				'paginate'=>[
 					'paginite',
+					'pagenate',
 				],
 				'pagination'=>[
 					'paginition',
+				],
+				'paging'=>[
+					'pageing',
 				],
 				'pagurian'=>[
 					'paguran',
@@ -181,6 +237,9 @@
 				'palace of fine arts'=>[
 					'palace of fine arta',
 				],
+				'palaeontological'=>[
+					'palaeotological',
+				],
 				'palatable'=>[
 					'palatible',
 				],
@@ -190,8 +249,20 @@
 				'palatine'=>[
 					'palatini',
 				],
+				'palatinose'=>[
+					'palitinose',
+				],
 				'palely'=>[
 					'pally',
+				],
+				'paleodistribution'=>[
+					'paleaodistribution',
+				],
+				'paleoenvironmental'=>[
+					'paleoenviromental',
+				],
+				'paleospinothalamic'=>[
+					'paleospinothalmic',
 				],
 				'palestinian'=>[
 					'palistian',
@@ -242,11 +313,20 @@
 				'palmately'=>[
 					'palmatly',
 				],
+				'palmatine'=>[
+					'palamatine',
+				],
 				'palpable'=>[
 					'palpible',
 				],
 				'palsy'=>[
 					'palcy',
+				],
+				'paludification'=>[
+					'plaudification',
+				],
+				'palynological'=>[
+					'palinological',
 				],
 				'palynologically'=>[
 					'palynologicalally',
@@ -270,9 +350,20 @@
 				],
 				'pancreatectomy'=>[
 					'pancretectomy',
+					'pancreactectomy',
+					'pancreatechtomy',
+				],
+				'pancreaticoduodenectomy'=>[
+					'pancreaticodudenectomy',
 				],
 				'pancreatitis'=>[
 					'pancretitis',
+				],
+				'pancreatobiliary'=>[
+					'pancreatobilary',
+				],
+				'pandemic'=>[
+					'pandamic',
 				],
 				'panel'=>[
 					'panal',
@@ -324,6 +415,10 @@
 				],
 				'pannikin'=>[
 					'panikin',
+				],
+				'panobinostat'=>[
+					'panabinostat',
+					'panbinostat',
 				],
 				'panoply'=>[
 					'panopally',
@@ -435,6 +530,7 @@
 				],
 				'papaverine'=>[
 					'papaverini',
+					'papavarine',
 				],
 				'paper'=>[
 					'paper paper',
@@ -449,14 +545,29 @@
 				'paphian'=>[
 					'paphan',
 				],
+				'papilionoid'=>[
+					'papillionoid',
+				],
 				'papillar'=>[
 					'papiller',
 				],
 				'papillary'=>[
 					'papillery',
 				],
+				'papilliform'=>[
+					'papiliform',
+				],
 				'papilloma'=>[
 					'papiloma',
+				],
+				'papillomatosis'=>[
+					'papilomatosis',
+				],
+				'papillomavirus'=>[
+					'papilomavirus',
+				],
+				'papillotomy'=>[
+					'papilotomy',
 				],
 				'pappadam'=>[
 					'papadam',
@@ -479,11 +590,23 @@
 				'papua new guinea'=>[
 					'papa new guinea',
 				],
+				'papulacandin'=>[
+					'papulocandin',
+				],
 				'papular'=>[
 					'papuler',
 				],
+				'papulosis'=>[
+					'papulosisis',
+				],
 				'papyrian'=>[
 					'papyran',
+				],
+				'paraaortic'=>[
+					'paraortic',
+				],
+				'parabasalid'=>[
+					'parabasilid',
 				],
 				'parabiosis'=>[
 					'perabiosis',
@@ -528,6 +651,9 @@
 				],
 				'parachutist'=>[
 					'perachutist',
+				],
+				'paracoccidioidomycosis'=>[
+					'paracoccidiodomycosis',
 				],
 				'paracrine'=>[
 					'peracrine',
@@ -603,6 +729,9 @@
 				],
 				'paraesthesias'=>[
 					'peraesthesias',
+				],
+				'parafascicular'=>[
+					'parafasicular',
 				],
 				'paraffin'=>[
 					'peraffin',
@@ -684,6 +813,9 @@
 				'parakeets'=>[
 					'parrakeets',
 				],
+				'parakeratosis'=>[
+					'perikaretosis',
+				],
 				'parakite'=>[
 					'perakite',
 				],
@@ -731,6 +863,9 @@
 					'paralelepiped',
 					'perallelepiped',
 				],
+				'parallelepipedal'=>[
+					'parallepipedal',
+				],
 				'parallelepipeds'=>[
 					'perallelepipeds',
 				],
@@ -744,6 +879,9 @@
 				],
 				'parallelisms'=>[
 					'perallelisms',
+				],
+				'parallelizable'=>[
+					'parallellizable',
 				],
 				'parallelled'=>[
 					'perallelled',
@@ -773,6 +911,12 @@
 				'paralogisms'=>[
 					'peralogisms',
 				],
+				'paralogous'=>[
+					'paraloguous',
+				],
+				'paralogy'=>[
+					'parology',
+				],
 				'paralyse'=>[
 					'peralyse',
 				],
@@ -781,6 +925,7 @@
 				],
 				'paralytic'=>[
 					'peralytic',
+					'paraletic',
 				],
 				'paralytically'=>[
 					'peralytically',
@@ -830,8 +975,15 @@
 				'parament'=>[
 					'perament',
 				],
+				'paramesonephric'=>[
+					'paramesonephic',
+				],
 				'parameter'=>[
 					'perameter',
+					'parametre',
+				],
+				'parameterisation'=>[
+					'paramaterisation',
 				],
 				'parameterize'=>[
 					'perameterize',
@@ -899,6 +1051,8 @@
 				],
 				'paramyxovirus'=>[
 					'peramyxovirus',
+					'paramixovirus',
+					'paramyovirus',
 				],
 				'paramyxoviruses'=>[
 					'peramyxoviruses',
@@ -940,15 +1094,24 @@
 					'paranourmals',
 					'peranormals',
 				],
+				'paraoxonase'=>[
+					'paroxonase',
+				],
 				'parapet'=>[
 					'perapet',
 				],
 				'parapets'=>[
 					'perapets',
 				],
+				'parapharyngeal'=>[
+					'parapharingeal',
+				],
 				'paraphernalia'=>[
 					'paraphenalia',
 					'peraphernalia',
+				],
+				'paraphilia'=>[
+					'paraphillia',
 				],
 				'paraphrasable'=>[
 					'paraphrasible',
@@ -985,6 +1148,9 @@
 				'parapodium'=>[
 					'perapodium',
 				],
+				'parapophysis'=>[
+					'paraphophysis',
+				],
 				'parapsychology'=>[
 					'perapsychology',
 				],
@@ -1002,6 +1168,12 @@
 					'pararosanilinis',
 					'perarosanilines',
 				],
+				'parasagittal'=>[
+					'parasaggital',
+				],
+				'parasagittally'=>[
+					'parasagitally',
+				],
 				'parasail'=>[
 					'perasail',
 				],
@@ -1013,6 +1185,9 @@
 				],
 				'parasang'=>[
 					'perasang',
+				],
+				'paraselene'=>[
+					'parselene',
 				],
 				'parasexual'=>[
 					'parasexaul',
@@ -1051,9 +1226,11 @@
 				],
 				'parasiticidal'=>[
 					'perasiticidal',
+					'parasitocidal',
 				],
 				'parasiticide'=>[
 					'perasiticide',
+					'paraciticide',
 				],
 				'parasiticides'=>[
 					'perasiticides',
@@ -1081,12 +1258,14 @@
 				],
 				'parasitoid'=>[
 					'perasitoid',
+					'parasitioid',
 				],
 				'parasitologic'=>[
 					'perasitologic',
 				],
 				'parasitological'=>[
 					'perasitological',
+					'parasitiological',
 				],
 				'parasitologies'=>[
 					'perasitologies',
@@ -1111,6 +1290,10 @@
 				],
 				'parasympathetic'=>[
 					'perasympathetic',
+					'parasympathic',
+				],
+				'parasymphyseal'=>[
+					'parasymphysial',
 				],
 				'parasyntheses'=>[
 					'perasyntheses',
@@ -1168,6 +1351,9 @@
 				],
 				'paravane'=>[
 					'peravane',
+				],
+				'paraventricular'=>[
+					'paraventrical',
 				],
 				'parawing'=>[
 					'perawing',
@@ -1321,6 +1507,7 @@
 				],
 				'paresthesia'=>[
 					'peresthesia',
+					'parasthesia',
 				],
 				'paresthesias'=>[
 					'peresthesias',
@@ -1377,15 +1564,22 @@
 				],
 				'parietes'=>[
 					'perietes',
+					'parieties',
 				],
 				'parings'=>[
 					'perings',
+				],
+				'paripinnate'=>[
+					'parapinnate',
 				],
 				'parishioner'=>[
 					'perishioner',
 				],
 				'parishioners'=>[
 					'perishioners',
+				],
+				'parisyllabic'=>[
+					'parasyllabic',
 				],
 				'parkade'=>[
 					'perkade',
@@ -1479,8 +1673,13 @@
 				'paroles'=>[
 					'peroles',
 				],
+				'paromomycin'=>[
+					'paramomycin',
+					'paramonomycin',
+				],
 				'paronomasia'=>[
 					'peronomasia',
+					'paranomasia',
 				],
 				'paronomasias'=>[
 					'peronomasias',
@@ -1646,9 +1845,14 @@
 				],
 				'parthenogenesis'=>[
 					'perthenogenesis',
+					'pathenogenesis',
 				],
 				'parthenogenetic'=>[
 					'perthenogenetic',
+					'pathenogenetic',
+				],
+				'parthenogenetically'=>[
+					'pathenogenetically',
 				],
 				'partial'=>[
 					'pertial',
@@ -1731,6 +1935,7 @@
 				'particle'=>[
 					'partical',
 					'perticle',
+					'particel',
 				],
 				'particleboard'=>[
 					'perticleboard',
@@ -1799,6 +2004,7 @@
 					'particularlly',
 					'particulary',
 					'perticularly',
+					'particuly',
 				],
 				'particulate'=>[
 					'perticulate',
@@ -1877,6 +2083,9 @@
 				'partnerships'=>[
 					'pertnerships',
 				],
+				'partograph'=>[
+					'parthograph',
+				],
 				'partons'=>[
 					'pertons',
 				],
@@ -1921,6 +2130,9 @@
 				'parures'=>[
 					'perures',
 				],
+				'parvalbumin'=>[
+					'paravalbumin',
+				],
 				'parvenu'=>[
 					'pervenu',
 				],
@@ -1929,6 +2141,7 @@
 				],
 				'parvovirus'=>[
 					'pervovirus',
+					'parovirus',
 				],
 				'parvoviruses'=>[
 					'pervoviruses',
@@ -2046,6 +2259,9 @@
 					'past past',
 					'past past past',
 				],
+				'past master'=>[
+					'pastmaster',
+				],
 				'pasteurize'=>[
 					'pasturize',
 				],
@@ -2119,6 +2335,22 @@
 				'pathetically'=>[
 					'pathetioally',
 				],
+				'pathoadaptation'=>[
+					'pathoadaption',
+				],
+				'pathogenic'=>[
+					'pathologenic',
+				],
+				'pathognomonic'=>[
+					'pathonogmonic',
+					'pathonomonic',
+				],
+				'pathophysiological'=>[
+					'pathophysical',
+				],
+				'pathopoiesis'=>[
+					'pathopoiesia',
+				],
 				'patience'=>[
 					'pateince',
 					'patiance',
@@ -2187,6 +2419,9 @@
 				'patriotic'=>[
 					'patrotic',
 				],
+				'patronymic'=>[
+					'patrionymic',
+				],
 				'patsy'=>[
 					'patcy',
 				],
@@ -2202,11 +2437,17 @@
 				'patternless'=>[
 					'patternles',
 				],
+				'paucibacillary'=>[
+					'paucibaciliary',
+				],
 				'paul nougé'=>[
 					'paul nouge',
 				],
 				'paul valery'=>[
 					'pole valery',
+				],
+				'pave'=>[
+					'pathe',
 				],
 				'pavement'=>[
 					'pavemant',
@@ -2244,15 +2485,22 @@
 				'pea'=>[
 					'pe',
 				],
+				'peabrain'=>[
+					'peebrain',
+				],
 				'peace'=>[
 					'pece',
 				],
 				'peaceable'=>[
 					'peaceble',
 					'peaceible',
+					'peacable',
 				],
 				'peaceablenesses'=>[
 					'peaceblenesses',
+				],
+				'peaceably'=>[
+					'peacably',
 				],
 				'peaceful'=>[
 					'peacefull',
@@ -2385,6 +2633,12 @@
 				'peccavis'=>[
 					'pecavis',
 				],
+				'pectate lyase'=>[
+					'pectatlyase',
+				],
+				'pectinacean'=>[
+					'pectenacean',
+				],
 				'pectinate'=>[
 					'pectinite',
 				],
@@ -2437,6 +2691,9 @@
 					'pedlar',
 					'pedler',
 				],
+				'pedestrial'=>[
+					'pedestral',
+				],
 				'pedestrian'=>[
 					'pedestran',
 				],
@@ -2446,8 +2703,14 @@
 				'pedicular'=>[
 					'pediculer',
 				],
+				'pedicure'=>[
+					'peticure',
+				],
 				'pediment'=>[
 					'pedimant',
+				],
+				'pediplain'=>[
+					'pediplane',
 				],
 				'pedlar'=>[
 					'pedler',
@@ -2455,8 +2718,20 @@
 				'pedlary'=>[
 					'pedlery',
 				],
+				'pedobarography'=>[
+					'pedabarography',
+				],
+				'pedography'=>[
+					'podography',
+				],
+				'peduncle'=>[
+					'penduncle',
+				],
 				'peduncular'=>[
 					'pedunculer',
+				],
+				'pedunculated'=>[
+					'penduculated',
 				],
 				'peelable'=>[
 					'peelible',
@@ -2495,6 +2770,12 @@
 				'pellet'=>[
 					'pelet',
 				],
+				'pelletable'=>[
+					'pellettable',
+				],
+				'pelleted'=>[
+					'pelletted',
+				],
 				'peloponnese'=>[
 					'peloponnes',
 				],
@@ -2506,6 +2787,9 @@
 				],
 				'peltately'=>[
 					'peltatly',
+				],
+				'pelvicalyceal'=>[
+					'pelvocalyceal',
 				],
 				'pembina'=>[
 					'pembini',
@@ -2573,6 +2857,7 @@
 				],
 				'penicillin'=>[
 					'penicilin',
+					'penacilin',
 				],
 				'penicillinase'=>[
 					'penicilinase',
@@ -2738,6 +3023,9 @@
 				'pentad'=>[
 					'pantad',
 				],
+				'pentafluorophenyl'=>[
+					'pentafluorphenyl',
+				],
 				'pentagon'=>[
 					'pantagon',
 				],
@@ -2755,12 +3043,16 @@
 				],
 				'pentamidine'=>[
 					'pentamidini',
+					'pentamdine',
 				],
 				'pentane'=>[
 					'pantane',
 				],
 				'pentapeptide'=>[
 					'pantapeptide',
+				],
+				'pentastome'=>[
+					'pentasome',
 				],
 				'pentazocine'=>[
 					'pentazocini',
@@ -2771,11 +3063,20 @@
 				'pentium'=>[
 					'pentum',
 				],
+				'pentobarbital'=>[
+					'pentabarbitol',
+					'pentobarbitol',
+				],
 				'pentobarbitone'=>[
 					'pantobarbitone',
+					'pentabarbitone',
 				],
 				'pentose'=>[
 					'pantose',
+				],
+				'pentoxifylline'=>[
+					'pentoxyfiline',
+					'pentoxyfylline',
 				],
 				'pentyl'=>[
 					'pantyl',
@@ -2847,6 +3148,16 @@
 				'peppy'=>[
 					'pepy',
 				],
+				'peptidase'=>[
+					'pepsidase',
+				],
+				'peptide'=>[
+					'petide',
+				],
+				'peptidoglycan'=>[
+					'peptidoglican',
+					'petidoglycan',
+				],
 				'per annum'=>[
 					'per anum',
 				],
@@ -2860,6 +3171,9 @@
 				'perceived'=>[
 					'percepted',
 					'percieved',
+				],
+				'perceives'=>[
+					'percieves',
 				],
 				'perceiving'=>[
 					'percieving',
@@ -2900,6 +3214,9 @@
 					'percipeint',
 					'percipint',
 				],
+				'percolate'=>[
+					'perculate',
+				],
 				'percussion'=>[
 					'pecussionn',
 					'percusion',
@@ -2912,6 +3229,9 @@
 				],
 				'percussively'=>[
 					'percussivly',
+				],
+				'percutaneous'=>[
+					'precutaneous',
 				],
 				'percutaneously'=>[
 					'percutaneousally',
@@ -2980,6 +3300,9 @@
 				'perfidiously'=>[
 					'perfidously',
 				],
+				'perfluorobutane'=>[
+					'perflurobutane',
+				],
 				'perform'=>[
 					'peform',
 					'perfom',
@@ -3038,11 +3361,61 @@
 					'perhpas',
 					'perphas',
 				],
+				'periadnexal'=>[
+					'periadnexial',
+				],
+				'periaqueductal'=>[
+					'periacquaductal',
+					'periacqueductal',
+					'periaquaductal',
+				],
+				'peribronchial'=>[
+					'peribroncheal',
+				],
+				'peribronchiolar'=>[
+					'peribroncheolar',
+				],
+				'pericarditis'=>[
+					'pericariditis',
+				],
+				'pericarpial'=>[
+					'percarpial',
+				],
+				'pericentromeric'=>[
+					'percentromeric',
+					'pericentomeric',
+					'pericentromic',
+				],
+				'perichondrial'=>[
+					'perichondreal',
+				],
+				'pericyte'=>[
+					'periocyte',
+				],
+				'peridialytic'=>[
+					'perdialytic',
+				],
+				'periepididymal'=>[
+					'periepididimal',
+				],
+				'perikarya'=>[
+					'perykarya',
+				],
+				'perikaryon'=>[
+					'pericaryon',
+					'perikarion',
+				],
+				'perimicrovillar'=>[
+					'perimicrovilar',
+				],
 				'perimorph'=>[
 					'perimourph',
 				],
 				'perimorphs'=>[
 					'perimourphs',
+				],
+				'perimysium'=>[
+					'perimycium',
 				],
 				'perinatal'=>[
 					'perinital',
@@ -3057,11 +3430,38 @@
 					'period period',
 					'period period period',
 				],
+				'periodogram'=>[
+					'peridogram',
+				],
+				'periodontal'=>[
+					'peridontal',
+					'periondontal',
+				],
+				'periosteal'=>[
+					'periostal',
+					'periostial',
+					'perisoteal',
+				],
+				'periosteally'=>[
+					'periostially',
+				],
+				'periosteum'=>[
+					'periostium',
+				],
 				'peripatetic'=>[
 					'peripathetic',
 				],
 				'peripeteia'=>[
 					'peripetiea',
+				],
+				'peripetia'=>[
+					'perpetia',
+				],
+				'peripubertal'=>[
+					'peripuberal',
+				],
+				'perirhinal'=>[
+					'perihinal',
 				],
 				'periscope'=>[
 					'pericope',
@@ -3074,14 +3474,23 @@
 				'perishing'=>[
 					'purishing',
 				],
+				'perispinal'=>[
+					'perispinous',
+				],
 				'perissodactyl'=>[
 					'perisodactyl',
+				],
+				'perisylvian'=>[
+					'perisilvian',
 				],
 				'peritrichously'=>[
 					'peritrichousally',
 					'peritrichousaly',
 					'peritrichousely',
 					'peritrichouslly',
+				],
+				'perivitelline'=>[
+					'perivitalline',
 				],
 				'periwigged'=>[
 					'periwiged',
@@ -3113,6 +3522,9 @@
 				'permeability'=>[
 					'permebility',
 				],
+				'permeabilized'=>[
+					'permeabelized',
+				],
 				'permeable'=>[
 					'permeble',
 					'permeible',
@@ -3126,6 +3538,9 @@
 				'permian'=>[
 					'perman',
 				],
+				'permineralization'=>[
+					'perimineralization',
+				],
 				'permissible'=>[
 					'permisible',
 					'permissable',
@@ -3133,6 +3548,10 @@
 				'permission'=>[
 					'permision',
 					'premission',
+					'permition',
+				],
+				'permissions'=>[
+					'permitions',
 				],
 				'permissive'=>[
 					'permisive',
@@ -3149,11 +3568,47 @@
 				'permitting'=>[
 					'permiting',
 				],
+				'permittivity'=>[
+					'permitivity',
+				],
 				'pernicious'=>[
 					'pernicous',
 				],
 				'perniciously'=>[
 					'pernicously',
+				],
+				'peroxidase'=>[
+					'perioxidase',
+					'poroxidase',
+				],
+				'peroxidation'=>[
+					'perioxidation',
+				],
+				'peroxide'=>[
+					'perioxide',
+				],
+				'peroxiredoxin'=>[
+					'peroxidorexin',
+					'preoxiredoxin',
+					'proxiredoxin',
+				],
+				'peroxisomal'=>[
+					'perioxisomal',
+					'perixosomal',
+					'peroxismal',
+					'peroxysomal',
+				],
+				'peroxisome'=>[
+					'paroxysome',
+					'perixosome',
+					'peroxysome',
+					'proxisome',
+				],
+				'peroxydisulfate'=>[
+					'peroxidisulfate',
+				],
+				'peroxynitrite'=>[
+					'peroxinitrate',
 				],
 				'perpendicular'=>[
 					'perpendiculer',
@@ -3263,6 +3718,9 @@
 				'perspicaciously'=>[
 					'perspicacously',
 				],
+				'perspicuity'=>[
+					'perspecuity',
+				],
 				'perspicuous'=>[
 					'perspicous',
 				],
@@ -3312,6 +3770,9 @@
 				'pertaining'=>[
 					'pertainang',
 				],
+				'pertechnetate'=>[
+					'pertecnetate',
+				],
 				'pertinacious'=>[
 					'pertinacous',
 					'pertinicious',
@@ -3346,11 +3807,18 @@
 					'pertely',
 					'pertlly',
 				],
+				'pertrochanteric'=>[
+					'pretrochanteric',
+				],
 				'perturbation'=>[
 					'pertubation',
 				],
 				'perturbations'=>[
 					'pertubations',
+				],
+				'perusal'=>[
+					'persual',
+					'perusual',
 				],
 				'peruse'=>[
 					'puruse',
@@ -3373,6 +3841,9 @@
 				'pervious'=>[
 					'pervous',
 				],
+				'perylenequinone'=>[
+					'perilenequinone',
+				],
 				'pessary'=>[
 					'pessery',
 					'pessiary',
@@ -3391,6 +3862,9 @@
 				],
 				'petahertzes'=>[
 					'petaertzes',
+				],
+				'petechial'=>[
+					'petecchial',
 				],
 				'petiolar'=>[
 					'petioler',
@@ -3456,6 +3930,31 @@
 				'pfennig'=>[
 					'pfenig',
 				],
+				'phacoemulsification'=>[
+					'phacomulcification',
+				],
+				'phaeohyphomycotic'=>[
+					'phaeotracheomycotic',
+				],
+				'phagocyte'=>[
+					'fagosite',
+					'phygocyte',
+				],
+				'phagocytosing'=>[
+					'phagocytozing',
+				],
+				'phagocytosis'=>[
+					'phogocytosis',
+				],
+				'phagolysosome'=>[
+					'phagolyososome',
+				],
+				'phagotype'=>[
+					'phagotope',
+				],
+				'phalangeal'=>[
+					'phalengeal',
+				],
 				'phalanstery'=>[
 					'phalanstary',
 				],
@@ -3465,6 +3964,13 @@
 				'phallocentric'=>[
 					'phallocantric',
 					'phalocentric',
+				],
+				'phalloidin'=>[
+					'palloidin',
+					'phaloidin',
+				],
+				'phallus'=>[
+					'phallace',
 				],
 				'phantasm'=>[
 					'phentasm',
@@ -3482,14 +3988,27 @@
 				'pharaoh'=>[
 					'pharoah',
 				],
+				'pharaohs'=>[
+					'pharoahs',
+				],
 				'pharmaceutic'=>[
 					'pharmacuetic',
 				],
 				'pharmaceutical'=>[
 					'pharmacuetical',
+					'pharmatheutical',
 				],
 				'pharmaceuticals'=>[
 					'pharmacueticals',
+				],
+				'pharmacogenetic'=>[
+					'phamacogenetic',
+				],
+				'pharmacogeneticists'=>[
+					'pharmocogeneticists',
+				],
+				'pharmacognosist'=>[
+					'pharmacognocist',
 				],
 				'pharmacognosy'=>[
 					'pharmacognocy',
@@ -3509,11 +4028,21 @@
 				'pharmacopoeias'=>[
 					'pharmacopoieas',
 				],
+				'pharmacoresistance'=>[
+					'pharmacoresistancy',
+				],
+				'pharmacovigilance'=>[
+					'pharmacolovigilance',
+					'pharmacovigilence',
+				],
 				'pharmacy'=>[
 					'pharmasy',
 				],
 				'pharyngeal'=>[
 					'pharyngel',
+				],
+				'pharyngotonsillitis'=>[
+					'pharyngotonsilitis',
 				],
 				'phase'=>[
 					'phasis',
@@ -3522,8 +4051,15 @@
 					'pheasent',
 					'phesant',
 				],
+				'phelloderm'=>[
+					'pheloderm',
+				],
 				'phenanthrene'=>[
 					'phenenthrene',
+				],
+				'phenanthroline'=>[
+					'phenanthrolene',
+					'phenathroline',
 				],
 				'phencyclidine'=>[
 					'phencyclidini',
@@ -3536,8 +4072,14 @@
 					'phemetrazines',
 					'phenetrazines',
 				],
+				'phenoloxidase'=>[
+					'phenoloxydase',
+				],
 				'phenolphthalein'=>[
 					'phenolphthalien',
+				],
+				'phenom'=>[
+					'pheenom',
 				],
 				'phenomena'=>[
 					'phenonmena',
@@ -3555,12 +4097,22 @@
 				'phenothiazine'=>[
 					'phenothiazini',
 				],
+				'phenotype'=>[
+					'pheneotype',
+					'pherotype',
+				],
+				'phenotypic'=>[
+					'pherotypic',
+				],
 				'phentolamine'=>[
 					'phantolamine',
 					'phentolamini',
 				],
 				'phenylalanine'=>[
 					'phenylalanini',
+				],
+				'phenylboronic'=>[
+					'phenyboronic',
 				],
 				'phenylephrine'=>[
 					'phenylephrini',
@@ -3571,8 +4123,16 @@
 				'phenylthioureas'=>[
 					'phenylthioures',
 				],
+				'pheochromocytoma'=>[
+					'phaerochromocytoma',
+					'phenochromocytoma',
+					'pheochromcytoma',
+					'pheochromoctyoma',
+					'pheochromytoma',
+				],
 				'pheromone'=>[
 					'feromone',
+					'pheremone',
 				],
 				'philadelphia'=>[
 					'philadephia',
@@ -3635,6 +4195,15 @@
 				'phillips talbot'=>[
 					'philip talbot',
 				],
+				'philology'=>[
+					'filology',
+				],
+				'philopatric'=>[
+					'phylopatric',
+				],
+				'philopatry'=>[
+					'phylopatry',
+				],
 				'philosopher'=>[
 					'philisopher',
 					'philospher',
@@ -3665,6 +4234,22 @@
 					'philsophy',
 					'pldlosopliy',
 				],
+				'phlebography'=>[
+					'flebography',
+				],
+				'phlebotomine'=>[
+					'phebotomine',
+					'phlebotamine',
+				],
+				'phloroglucinol'=>[
+					'fluoroglucinol',
+				],
+				'phlorotannin'=>[
+					'pholorotannin',
+				],
+				'phlyctenular'=>[
+					'phylectenular',
+				],
 				'phocine'=>[
 					'phocini',
 				],
@@ -3690,15 +4275,33 @@
 				'phonograph'=>[
 					'phongraph',
 				],
+				'phonological'=>[
+					'phonolological',
+				],
 				'phoresy'=>[
 					'phorecy',
+				],
+				'phosphatase'=>[
+					'phosphotase',
+				],
+				'phosphatome'=>[
+					'phosphotome',
 				],
 				'phosphine'=>[
 					'phosphini',
 				],
+				'phosphinothricin'=>[
+					'phosphoinothricin',
+				],
 				'phosphocreatine'=>[
 					'phosphocreatini',
 					'phosphocretine',
+				],
+				'phosphoglycerate'=>[
+					'phosphoglucerate',
+				],
+				'phosphoinositide'=>[
+					'phosphoinoside',
 				],
 				'phosphokinase'=>[
 					'phosphokinise',
@@ -3706,11 +4309,23 @@
 				'phosphokinases'=>[
 					'phosphokinises',
 				],
+				'phospholamban'=>[
+					'phospholambin',
+				],
+				'phosphopantetheine'=>[
+					'phosphopanteine',
+				],
 				'phosphoprotein'=>[
 					'phosphoprotien',
 				],
 				'phosphoproteins'=>[
 					'phosphoprotiens',
+				],
+				'phosphoproteomics'=>[
+					'phosphoroproteomics',
+				],
+				'phosphorelay'=>[
+					'phosphorely',
 				],
 				'phosphoresce'=>[
 					'phosphorece',
@@ -3733,11 +4348,39 @@
 					'phosphorecsing',
 					'phosphoresing',
 				],
+				'phosphorolysis'=>[
+					'phospholysis',
+				],
+				'phosphorothioate'=>[
+					'phosphothioate',
+				],
+				'phosphorous'=>[
+					'phosphourous',
+				],
+				'phosphorylated'=>[
+					'phosphophorylated',
+				],
+				'phosphorylating'=>[
+					'phosphoylating',
+				],
+				'phosphorylation'=>[
+					'phosphorilation',
+					'phosphoylation',
+				],
+				'photoactivatable'=>[
+					'photoactivatible',
+				],
+				'photobionic'=>[
+					'photobiontic',
+				],
 				'photochemically'=>[
 					'photochemicalally',
 					'photochemicalaly',
 					'photochemicalely',
 					'photochemicallly',
+				],
+				'photoconvertible'=>[
+					'photoconvertable',
 				],
 				'photocopier'=>[
 					'photocopeir',
@@ -3770,6 +4413,7 @@
 				],
 				'photograph'=>[
 					'photgraph',
+					'fotograph',
 				],
 				'photographic'=>[
 					'photgraphic',
@@ -3777,8 +4421,14 @@
 				'photographs'=>[
 					'photgraphs',
 				],
+				'photoinitiator'=>[
+					'photoinitiatior',
+				],
 				'photokinesis'=>[
 					'photokinisis',
+				],
+				'photomixotrophic'=>[
+					'photomyxotrophic',
 				],
 				'photomultiplier'=>[
 					'photomultipleir',
@@ -3788,17 +4438,29 @@
 					'photonucleer',
 					'photonucler',
 				],
+				'photophilous'=>[
+					'photophylous',
+				],
 				'photoreaction'=>[
 					'photorection',
 				],
 				'photoscanning'=>[
 					'photoscaning',
 				],
+				'photosensitivity'=>[
+					'photosensibility',
+				],
+				'photospheric'=>[
+					'photosferic',
+				],
 				'phototropically'=>[
 					'phototropicalally',
 					'phototropicalaly',
 					'phototropicalely',
 					'phototropicallly',
+				],
+				'phototropin'=>[
+					'phototrophin',
 				],
 				'phrase'=>[
 					'phrase phrase',
@@ -3816,6 +4478,14 @@
 				'phthalocyanine'=>[
 					'phthalocyanini',
 				],
+				'phycobiliprotein'=>[
+					'phycobiloprotein',
+				],
+				'phycoerythrin'=>[
+					'phicoerytrin',
+					'phycoerythin',
+					'pycoerythrin',
+				],
 				'phylactery'=>[
 					'phylactary',
 				],
@@ -3825,8 +4495,32 @@
 				'phyllary'=>[
 					'phyllery',
 				],
+				'phylloclade'=>[
+					'phyloclade',
+				],
+				'phyllomorph'=>[
+					'phylomorph',
+				],
+				'phylloquinone'=>[
+					'phyloquinone',
+				],
+				'phyllostomid'=>[
+					'phylostomid',
+				],
+				'phyllotactic'=>[
+					'phylotactic',
+				],
+				'phyllotaxis'=>[
+					'phylotaxis',
+				],
+				'phyllotaxy'=>[
+					'phylotaxy',
+				],
 				'phylloxera'=>[
 					'phyloxera',
+				],
+				'phylogenetic'=>[
+					'pylogenetic',
 				],
 				'physical'=>[
 					'fysical',
@@ -3834,15 +4528,28 @@
 					'phyiscal',
 					'physicial',
 				],
+				'physically'=>[
+					'phisically',
+				],
 				'physician'=>[
 					'phvsician',
 					'physican',
+				],
+				'physiognomic'=>[
+					'physiogenomic',
 				],
 				'physiologically'=>[
 					'physiologicalally',
 					'physiologicalaly',
 					'physiologicalely',
 					'physiologicallly',
+				],
+				'physiotherapeutic'=>[
+					'physiotherapic',
+				],
+				'physisorbed'=>[
+					'physicosorbed',
+					'physisorped',
 				],
 				'physostigmine'=>[
 					'physostigmini',
@@ -3852,6 +4559,26 @@
 					'phytochemicalaly',
 					'phytochemicalely',
 					'phytochemicallly',
+				],
+				'phytocoenological'=>[
+					'fitocenological',
+				],
+				'phytoestrogen'=>[
+					'fitoestrogen',
+				],
+				'phytohemagglutinin'=>[
+					'phytohemagglutin',
+					'phytohemaglutinin',
+					'phytohemaglutinine',
+				],
+				'phytohormone'=>[
+					'photohormone',
+				],
+				'phytosterol'=>[
+					'fitosterol',
+				],
+				'phytotoxic'=>[
+					'phytoxic',
 				],
 				'piacular'=>[
 					'piaculer',
@@ -3864,6 +4591,9 @@
 				],
 				'picante'=>[
 					'picente',
+				],
+				'picaridin'=>[
+					'picaridine',
 				],
 				'piccalilli'=>[
 					'picalilli',
@@ -3883,6 +4613,12 @@
 				],
 				'pickaninny'=>[
 					'pickaniny',
+				],
+				'picornavirus'=>[
+					'piconavirus',
+				],
+				'picrocrocin'=>[
+					'picocrocin',
 				],
 				'picture'=>[
 					'pictue',
@@ -4069,12 +4805,21 @@
 				'pilular'=>[
 					'piluler',
 				],
+				'pimelimidate'=>[
+					'pimelidate',
+				],
 				'pimento'=>[
 					'pimanto',
 				],
 				'pimiento'=>[
 					'pimeinto',
 					'piminto',
+				],
+				'pimientos'=>[
+					'pimientoes',
+				],
+				'pimonidazole'=>[
+					'pimonidozole',
 				],
 				'pinafore'=>[
 					'pinifore',
@@ -4111,6 +4856,9 @@
 				],
 				'pinealectomizes'=>[
 					'pinelectomizes',
+				],
+				'pinealectomy'=>[
+					'pinealoctomy',
 				],
 				'pineapple'=>[
 					'pinapple',
@@ -4237,6 +4985,9 @@
 				'pinny'=>[
 					'piny',
 				],
+				'pinocytosis'=>[
+					'pintocytosis',
+				],
 				'pinscher'=>[
 					'pincher',
 					'pincsher',
@@ -4262,9 +5013,13 @@
 				],
 				'piperazine'=>[
 					'piperazini',
+					'piperizine',
 				],
 				'piperidine'=>[
 					'piperidini',
+				],
+				'pipetting'=>[
+					'pippetting',
 				],
 				'pipped'=>[
 					'piped',
@@ -4363,12 +5118,24 @@
 				'pituitary'=>[
 					'pituitery',
 				],
+				'pityriasis'=>[
+					'pitryasis',
+				],
+				'pixelate'=>[
+					'pixillate',
+				],
 				'pixie'=>[
 					'pixei',
 					'pixi',
 				],
+				'pizzeria'=>[
+					'pizzaria',
+				],
 				'placable'=>[
 					'placible',
+				],
+				'placard'=>[
+					'plackard',
 				],
 				'place'=>[
 					'palce',
@@ -4390,11 +5157,18 @@
 				'placenta'=>[
 					'placanta',
 				],
+				'placentalian'=>[
+					'placentarian',
+				],
 				'placentation'=>[
 					'placantation',
 				],
 				'placing'=>[
 					'placeing',
+				],
+				'placozoan'=>[
+					'placazoan',
+					'plocozoan',
 				],
 				'plagiarise'=>[
 					'plagarise',
@@ -4408,6 +5182,8 @@
 				'plagiarism'=>[
 					'plagarism',
 					'plagiarist>=plagarist',
+					'plaigarism',
+					'plaigiarism',
 				],
 				'plagiarist'=>[
 					'plagarist',
@@ -4426,6 +5202,12 @@
 				],
 				'plagiary'=>[
 					'plagiery',
+				],
+				'plagiotropic'=>[
+					'plagiotrophic',
+				],
+				'plagiotropy'=>[
+					'plagiotrophy',
 				],
 				'plague'=>[
 					'plauge',
@@ -4456,6 +5238,9 @@
 				'planarian'=>[
 					'planaran',
 				],
+				'planchette'=>[
+					'planchete',
+				],
 				'plane'=>[
 					'plane plane',
 					'plane plane plane',
@@ -4467,6 +5252,9 @@
 				'planetary'=>[
 					'planetery',
 				],
+				'planetesimal'=>[
+					'planetessimal',
+				],
 				'plangency'=>[
 					'plangensy',
 				],
@@ -4475,6 +5263,15 @@
 					'planimetricalaly',
 					'planimetricalely',
 					'planimetricallly',
+				],
+				'planktivore'=>[
+					'plankivore',
+				],
+				'planktonic'=>[
+					'planctonic',
+				],
+				'planktonically'=>[
+					'planctonically',
 				],
 				'planned'=>[
 					'planed',
@@ -4511,8 +5308,35 @@
 				'plants'=>[
 					'plents',
 				],
+				'plaque'=>[
+					'placque',
+				],
+				'plasmablastic'=>[
+					'plasmoblastic',
+				],
+				'plasmacytoma'=>[
+					'plasmocytoma',
+				],
+				'plasmacytosis'=>[
+					'plasmocytosis',
+				],
 				'plasmalemma'=>[
 					'plasmalemna',
+				],
+				'plasmalogen'=>[
+					'plasmologen',
+				],
+				'plasmapheresis'=>[
+					'plasmapharesis',
+				],
+				'plasmid'=>[
+					'plamid',
+				],
+				'plasminogen'=>[
+					'plaminogen',
+				],
+				'plasmodesmatal'=>[
+					'plasmadesmatal',
 				],
 				'plaster'=>[
 					'plastor',
@@ -4525,6 +5349,9 @@
 				],
 				'plateau'=>[
 					'plateu',
+				],
+				'platensimycin'=>[
+					'paltensimycin',
 				],
 				'platform'=>[
 					'platfrom',
@@ -4559,6 +5386,12 @@
 				],
 				'platitudinizing'=>[
 					'platitudinazing',
+				],
+				'platyhelminth'=>[
+					'platyelminth',
+				],
+				'platykurtic'=>[
+					'platycurtotic',
 				],
 				'platyrrhine'=>[
 					'platyrhine',
@@ -4668,6 +5501,9 @@
 				'pleat'=>[
 					'plet',
 				],
+				'pleb'=>[
+					'pleeb',
+				],
 				'plebeian'=>[
 					'plebean',
 					'plebian',
@@ -4681,6 +5517,15 @@
 					'plebicsite',
 					'plebinite',
 					'plebisite',
+				],
+				'plebs'=>[
+					'pleebs',
+				],
+				'pleckstrin'=>[
+					'plackstrin',
+					'plecstrin',
+					'plekstrin',
+					'plextrin',
 				],
 				'pledge'=>[
 					'plege',
@@ -4718,6 +5563,19 @@
 				'pleiotaxy'=>[
 					'plieotaxy',
 				],
+				'pleiotropic'=>[
+					'peiotropic',
+					'pleiotrophic',
+					'pleotropic',
+					'plieotropic',
+					'pliotropic',
+				],
+				'pleiotropically'=>[
+					'pleotropically',
+				],
+				'pleiotropy'=>[
+					'pleotrophy',
+				],
 				'plenary'=>[
 					'plenery',
 				],
@@ -4739,6 +5597,7 @@
 				],
 				'pleomorphism'=>[
 					'pleomourphism',
+					'pleamorphism',
 				],
 				'pleomorphisms'=>[
 					'pleomourphisms',
@@ -4749,8 +5608,17 @@
 					'pleonasticalely',
 					'pleonasticallly',
 				],
+				'pleotropic'=>[
+					'pleotrophic',
+				],
 				'plethora'=>[
 					'plethura',
+				],
+				'plethysmographic'=>[
+					'plethymographic',
+				],
+				'plethysmography'=>[
+					'plethymography',
 				],
 				'pleurisy'=>[
 					'pleuricy',
@@ -4779,12 +5647,18 @@
 					'pleir',
 					'plir',
 				],
+				'pliers'=>[
+					'pliars',
+				],
 				'plies'=>[
 					'pleis',
 					'plis',
 				],
 				'plisse'=>[
 					'plise',
+				],
+				'pluggable'=>[
+					'plugable',
 				],
 				'plugging'=>[
 					'pluging',
@@ -4816,6 +5690,10 @@
 				],
 				'pluripotent'=>[
 					'pluripotant',
+					'pleuripotent',
+				],
+				'pluripotentiality'=>[
+					'pluripotenciality',
 				],
 				'plutocracy'=>[
 					'plutocrasy',
@@ -4829,14 +5707,33 @@
 				'pluvious'=>[
 					'pluvous',
 				],
+				'pneumatocele'=>[
+					'pneumatocoel',
+				],
+				'pneumatophore'=>[
+					'pneumatopore',
+				],
 				'pneumococcal'=>[
 					'pneumococal',
+					'pneumonococcal',
 				],
 				'pneumococcus'=>[
 					'pneumococus',
 				],
+				'pneumotachograph'=>[
+					'pneumotachygraph',
+				],
+				'pneumotonometer'=>[
+					'pneumatonometer',
+				],
+				'pneumotonometry'=>[
+					'pneumatonometry',
+				],
 				'pococurante'=>[
 					'pococurente',
+				],
+				'podocyte'=>[
+					'prodocyte',
 				],
 				'poem'=>[
 					'pem',
@@ -4866,8 +5763,16 @@
 				'poignant'=>[
 					'poignent',
 				],
+				'poikilothermic'=>[
+					'poikylothermic',
+				],
 				'poinsettia'=>[
 					'poinsetta',
+					'pointsettia',
+				],
+				'poinsettias'=>[
+					'poinsettas',
+					'pointsettias',
 				],
 				'point'=>[
 					'piont',
@@ -4896,11 +5801,17 @@
 				'poisoning'=>[
 					'poisining',
 				],
+				'poivrade'=>[
+					'poiverade',
+				],
 				'pokable'=>[
 					'pokible',
 				],
 				'pokeberry'=>[
 					'pokebery',
+				],
+				'poker'=>[
+					'pocker',
 				],
 				'pokémon'=>[
 					'pokemon',
@@ -4911,6 +5822,9 @@
 				'polar'=>[
 					'poler',
 				],
+				'polarizability'=>[
+					'polarizibility',
+				],
 				'poleis'=>[
 					'polies',
 				],
@@ -4920,8 +5834,17 @@
 				'polestar'=>[
 					'polester',
 				],
+				'policresulin'=>[
+					'polycresulin',
+				],
 				'policy'=>[
 					'polisy',
+				],
+				'poliglecaprone'=>[
+					'polyglecaprone',
+				],
+				'poliomyelitis'=>[
+					'polimyelities',
 				],
 				'polish-occupied'=>[
 					'polish occupied',
@@ -4951,6 +5874,12 @@
 				'politics'=>[
 					'pollitics',
 					'poltics',
+				],
+				'polka'=>[
+					'poka',
+				],
+				'polka dot'=>[
+					'poke-a-dot',
 				],
 				'poll'=>[
 					'polll',
@@ -5013,12 +5942,59 @@
 				'poltergeist'=>[
 					'poltergiest',
 				],
+				'polyacrylamide'=>[
+					'polyacrilamide',
+					'polyacrylimide',
+				],
+				'polyamorous'=>[
+					'polyamourous',
+				],
+				'polyangiitis'=>[
+					'polyangitis',
+				],
+				'polybrene'=>[
+					'polybrane',
+				],
+				'polychromator'=>[
+					'polychrometer',
+				],
+				'polycistronic'=>[
+					'polycystronic',
+				],
 				'polyclinic'=>[
 					'polyclinac',
 				],
 				'polycrystalline'=>[
 					'polycrystaline',
 					'polycrystallini',
+				],
+				'polycythaemia'=>[
+					'polycytaemia',
+				],
+				'polydactyly'=>[
+					'polydactily',
+				],
+				'polydipsia'=>[
+					'polydypsia',
+				],
+				'polydipsic'=>[
+					'polydypsic',
+				],
+				'polyethyleneimine'=>[
+					'polyethylenimine',
+				],
+				'polygynandrous'=>[
+					'polygynadrous',
+					'polygynandric',
+				],
+				'polygynous'=>[
+					'polygyneous',
+				],
+				'polykaryotic'=>[
+					'polycaryotic',
+				],
+				'polylactide'=>[
+					'polyactide',
 				],
 				'polymorph'=>[
 					'polymourph',
@@ -5048,9 +6024,15 @@
 				'polymorphs'=>[
 					'polymourphs',
 				],
+				'polyneuropathy'=>[
+					'polineuropathy',
+				],
 				'polynuclear'=>[
 					'polynucleer',
 					'polynucler',
+				],
+				'polyomavirus'=>[
+					'polymavirus',
 				],
 				'polyparies'=>[
 					'polyperies',
@@ -5074,6 +6056,9 @@
 				],
 				'polysaccharides'=>[
 					'polysacharides',
+				],
+				'polysomy'=>[
+					'polisomy',
 				],
 				'polysyllabic'=>[
 					'polysylabic',
@@ -5118,8 +6103,14 @@
 				'pommy'=>[
 					'pomny',
 				],
+				'ponasterone'=>[
+					'ponesterone',
+				],
 				'pontine'=>[
 					'pontini',
+				],
+				'pontoporiid'=>[
+					'pontoporid',
 				],
 				'pooftah'=>[
 					'poofta',
@@ -5189,6 +6180,9 @@
 				'poppyheads'=>[
 					'popyheads',
 				],
+				'popsicle'=>[
+					'popcycle',
+				],
 				'popsy'=>[
 					'popcy',
 				],
@@ -5237,6 +6231,9 @@
 				],
 				'porcupine'=>[
 					'porcupini',
+				],
+				'porphyrin'=>[
+					'prophyrin',
 				],
 				'porrect'=>[
 					'porect',
@@ -5360,6 +6357,9 @@
 				'posset'=>[
 					'poset',
 				],
+				'possibilities'=>[
+					'possiblities',
+				],
 				'possibility'=>[
 					'posibility',
 					'possibilty',
@@ -5373,6 +6373,7 @@
 				],
 				'possibly'=>[
 					'posibly',
+					'possibley',
 				],
 				'possum'=>[
 					'posum',
@@ -5402,8 +6403,14 @@
 				'postclassical'=>[
 					'postclasical',
 				],
+				'postcommissural'=>[
+					'postcomissural',
+				],
 				'postcoronary'=>[
 					'postcoronery',
+				],
+				'postdepositional'=>[
+					'postdepositational',
 				],
 				'postdevaluation'=>[
 					'postdevalaution',
@@ -5417,11 +6424,20 @@
 				'postemergency'=>[
 					'postemergensy',
 				],
+				'postencephalitic'=>[
+					'postencephalytic',
+				],
 				'posteriorly'=>[
 					'posteriorally',
 					'posterioraly',
 					'posteriorely',
 					'posteriorlly',
+				],
+				'posterobuccally'=>[
+					'posterobucally',
+				],
+				'posterolaterally'=>[
+					'poserolaterally',
 				],
 				'postexperience'=>[
 					'postexperiance',
@@ -5501,6 +6517,9 @@
 				'postsecondary'=>[
 					'postsecondery',
 				],
+				'posttransfection'=>[
+					'postransfection',
+				],
 				'posttransfusion'=>[
 					'posttransfuison',
 				],
@@ -5517,6 +6536,13 @@
 				],
 				'postwar'=>[
 					'postwer',
+				],
+				'postzygapophysis'=>[
+					'postzygaphophysis',
+					'postzygopophysis',
+				],
+				'postzygodiapophyseal'=>[
+					'postzygadiapophyseal',
 				],
 				'posy'=>[
 					'pocy',
@@ -5583,6 +6609,9 @@
 				],
 				'pourparler'=>[
 					'pourperler',
+				],
+				'povidone'=>[
+					'povidine',
 				],
 				'power'=>[
 					'power power',
@@ -5688,6 +6717,9 @@
 				'pre-columbian'=>[
 					'pre-colombian',
 				],
+				'preabsorption'=>[
+					'preabsorbtion',
+				],
 				'preaccusing'=>[
 					'preaccuisng',
 				],
@@ -5699,6 +6731,9 @@
 				],
 				'preadaptation'=>[
 					'predaptation',
+				],
+				'preadipocyte'=>[
+					'predipocyte',
 				],
 				'preadolescence'=>[
 					'preadolecence',
@@ -5790,6 +6825,9 @@
 				],
 				'preceding'=>[
 					'preceeding',
+				],
+				'prechiasmatic'=>[
+					'prechiamatic',
 				],
 				'precinct'=>[
 					'precint',
@@ -5970,6 +7008,9 @@
 				'predictively'=>[
 					'predictivly',
 				],
+				'predilection'=>[
+					'predeliction',
+				],
 				'prediscoveries'=>[
 					'predicoveries',
 					'predicsoveries',
@@ -6000,6 +7041,7 @@
 					'predominantlly',
 					'predominatly',
 					'predominintly',
+					'predominently',
 				],
 				'predominate'=>[
 					'predominite',
@@ -6058,6 +7100,9 @@
 				'prefabbing'=>[
 					'prefabing',
 				],
+				'prefectural'=>[
+					'perfectural',
+				],
 				'prefer'=>[
 					'preferr',
 					'preffer',
@@ -6087,6 +7132,9 @@
 				'preferring'=>[
 					'prefering',
 				],
+				'prefibrillar'=>[
+					'prefibrillary',
+				],
 				'prefiguratively'=>[
 					'prefigurativeally',
 					'prefigurativealy',
@@ -6100,6 +7148,9 @@
 				],
 				'prefinancing'=>[
 					'prefinincing',
+				],
+				'prefix'=>[
+					'preffix',
 				],
 				'prefocusing'=>[
 					'prefocuisng',
@@ -6172,6 +7223,7 @@
 				],
 				'preliminarily'=>[
 					'preliminirily',
+					'preliminarly',
 				],
 				'preliminary'=>[
 					'preliminery',
@@ -6195,6 +7247,12 @@
 				],
 				'premalignant'=>[
 					'premalignent',
+				],
+				'premammillary'=>[
+					'premammilary',
+				],
+				'premature'=>[
+					'primature',
 				],
 				'prematurely'=>[
 					'prematurly',
@@ -6280,6 +7338,9 @@
 				],
 				'prentice'=>[
 					'prantice',
+				],
+				'prenuptial'=>[
+					'prenuptual',
 				],
 				'preobtaining'=>[
 					'preobtainang',
@@ -6390,6 +7451,9 @@
 				'preperformance'=>[
 					'preperformence',
 				],
+				'prepharyngeal'=>[
+					'propharyngeal',
+				],
 				'preponderance'=>[
 					'preponderence',
 				],
@@ -6447,6 +7511,9 @@
 				'preprimary'=>[
 					'preprimery',
 				],
+				'preproenkephalin'=>[
+					'preproenkaphalin',
+				],
 				'preprofessional'=>[
 					'preprofesional',
 				],
@@ -6469,6 +7536,9 @@
 					'prepubecsent',
 					'prepubescant',
 					'prepubesent',
+				],
+				'preputial'=>[
+					'prepucial',
 				],
 				'prequalified'=>[
 					'preqaulified',
@@ -6772,6 +7842,9 @@
 				'presweetened'=>[
 					'presweetend',
 				],
+				'presymptomatic'=>[
+					'presymtomatic',
+				],
 				'pretence'=>[
 					'pretance',
 				],
@@ -6946,6 +8019,9 @@
 				'prill'=>[
 					'pril',
 				],
+				'prilocaine'=>[
+					'pilocaine',
+				],
 				'primacy'=>[
 					'primasy',
 				],
@@ -6997,6 +8073,7 @@
 					'primordal',
 					'primordeal',
 					'primourdial',
+					'primoradial',
 				],
 				'primordially'=>[
 					'primourdially',
@@ -7053,6 +8130,9 @@
 				],
 				'priscilla'=>[
 					'pricilla',
+				],
+				'prismatic'=>[
+					'primastic',
 				],
 				'prison'=>[
 					'prision',
@@ -7128,6 +8208,12 @@
 				'pro tem'=>[
 					'protem',
 				],
+				'proatherogenic'=>[
+					'protherogenic',
+				],
+				'probabilistic'=>[
+					'probabalistic',
+				],
 				'probability'=>[
 					'probablity',
 					'probalibity',
@@ -7146,6 +8232,7 @@
 					'probablv',
 					'probaly',
 					'propably',
+					'probabley',
 				],
 				'probationary'=>[
 					'probationery',
@@ -7182,6 +8269,9 @@
 				'proceeds'=>[
 					'procedes',
 				],
+				'procellariiform'=>[
+					'procelariiform',
+				],
 				'process'=>[
 					'proccess',
 					'proces',
@@ -7202,6 +8292,9 @@
 					'processionalaly',
 					'processionalely',
 					'processionallly',
+				],
+				'processivity'=>[
+					'proccessivity',
 				],
 				'processor'=>[
 					'procesor',
@@ -7226,6 +8319,9 @@
 					'procla- mations',
 					'procla-mations',
 					'proclimations',
+				],
+				'proclivity'=>[
+					'preclivity',
 				],
 				'proconsular'=>[
 					'proconsuler',
@@ -7254,6 +8350,9 @@
 				'procreative'=>[
 					'procretive',
 				],
+				'procymidone'=>[
+					'procimidone',
+				],
 				'prodigious'=>[
 					'prodigous',
 				],
@@ -7263,10 +8362,16 @@
 				'prodigy'=>[
 					'progidy',
 				],
+				'prodromal'=>[
+					'predormal',
+				],
 				'produce'=>[
 					'produce produce',
 					'produce produce produce',
 					'produoe',
+				],
+				'produced'=>[
+					'prodused',
 				],
 				'producible'=>[
 					'producable',
@@ -7338,8 +8443,17 @@
 				'profitable'=>[
 					'profitible',
 				],
+				'profited'=>[
+					'profitted',
+				],
+				'profiting'=>[
+					'profitting',
+				],
 				'profligacy'=>[
 					'profligasy',
+				],
+				'profligate'=>[
+					'prolifigate',
 				],
 				'profusely'=>[
 					'profusly',
@@ -7353,6 +8467,15 @@
 				],
 				'profusive'=>[
 					'profuisve',
+				],
+				'progestogenic'=>[
+					'progestagenic',
+				],
+				'proggie'=>[
+					'progie',
+				],
+				'prognathous'=>[
+					'prognatheous',
 				],
 				'program'=>[
 					'prgoram',
@@ -7372,6 +8495,9 @@
 				],
 				'programmatic'=>[
 					'programnatic',
+				],
+				'programmatically'=>[
+					'programatically',
 				],
 				'programme'=>[
 					'programne',
@@ -7422,14 +8548,27 @@
 				'prohibitively'=>[
 					'prohibitivly',
 				],
+				'prohypertrophic'=>[
+					'prohypertropic',
+				],
+				'proinflammatory'=>[
+					'porinflammatory',
+					'proinflamatory',
+				],
 				'projectively'=>[
 					'projectivly',
+				],
+				'prokaryotic'=>[
+					'procaryotic',
 				],
 				'prolately'=>[
 					'prolatly',
 				],
 				'prolegomena'=>[
 					'prologomena',
+				],
+				'prolegomenon'=>[
+					'prologomenon',
 				],
 				'proletarian'=>[
 					'proletaran',
@@ -7454,6 +8593,9 @@
 					'prolixaly',
 					'prolixely',
 					'prolixlly',
+				],
+				'prolonged'=>[
+					'prolongued',
 				],
 				'prolusion'=>[
 					'proluison',
@@ -7507,6 +8649,9 @@
 				'promissory'=>[
 					'promisory',
 				],
+				'promnesic'=>[
+					'promnestic',
+				],
 				'promotion'=>[
 					'premotion',
 				],
@@ -7515,6 +8660,9 @@
 					'promptaly',
 					'promptely',
 					'promptlly',
+				],
+				'promyelocytic'=>[
+					'promyelotic',
 				],
 				'pronely'=>[
 					'pronly',
@@ -7559,8 +8707,17 @@
 				'proofread'=>[
 					'proof-read',
 				],
+				'proopiomelanocortin'=>[
+					'propiomelanocortin',
+				],
+				'propaedeutically'=>[
+					'propaedeuticly',
+				],
 				'propaganda'=>[
 					'propoganda',
+				],
+				'propagandist'=>[
+					'propogandist',
 				],
 				'propagate'=>[
 					'propogate',
@@ -7617,6 +8774,15 @@
 				'prophesy'=>[
 					'prophescy',
 					'prophecsy',
+				],
+				'propidium'=>[
+					'propridium',
+				],
+				'propiolactone'=>[
+					'propriolactone',
+				],
+				'propionate'=>[
+					'proprionate',
 				],
 				'propitious'=>[
 					'propitous',
@@ -7675,6 +8841,10 @@
 					'propreity',
 					'proprity',
 				],
+				'proprioceptive'=>[
+					'propioceptive',
+					'proprioreceptive',
+				],
 				'prosateur'=>[
 					'prosater',
 				],
@@ -7687,6 +8857,7 @@
 					'prociutto',
 					'procsiutto',
 					'prosiutto',
+					'proscuitto',
 				],
 				'proscribe'=>[
 					'procribe',
@@ -7726,11 +8897,20 @@
 				'pross'=>[
 					'prosss',
 				],
+				'prostanoid'=>[
+					'prostenoid',
+				],
 				'prostate cancer'=>[
 					'prostrate cancer',
 				],
+				'prosthetic'=>[
+					'prostetic',
+				],
 				'prostitution'=>[
 					'prostituion',
+				],
+				'prostomium'=>[
+					'prostonium',
 				],
 				'prosy'=>[
 					'procy',
@@ -7751,9 +8931,25 @@
 				'protagonists\''=>[
 					'protaganists\'',
 				],
+				'protamine'=>[
+					'proteamine',
+				],
+				'proteasomal'=>[
+					'proteosomal',
+					'protesomal',
+				],
+				'proteasomally'=>[
+					'proteosomally',
+				],
+				'proteasome'=>[
+					'protesome',
+				],
 				'protect'=>[
 					'protect protect',
 					'protect protect protect',
+				],
+				'protectability'=>[
+					'protectibility',
 				],
 				'protectant'=>[
 					'protectent',
@@ -7776,6 +8972,7 @@
 				'proteinaceous'=>[
 					'proteiniceous',
 					'protienaceous',
+					'proteinacious',
 				],
 				'proteinase'=>[
 					'proteinise',
@@ -7783,12 +8980,29 @@
 				],
 				'proteinuria'=>[
 					'protienuria',
+					'proteinurea',
 				],
 				'protensively'=>[
 					'protensivly',
 				],
+				'proteoglycan'=>[
+					'progeoglycan',
+					'protoglycan',
+				],
+				'proteosome'=>[
+					'proteostome',
+				],
+				'proteostasis'=>[
+					'proteoastasis',
+				],
 				'prothonotary'=>[
 					'prothonotery',
+				],
+				'protocerebrum'=>[
+					'protocerebron',
+				],
+				'protochlorophyllide'=>[
+					'protochlorophilide',
 				],
 				'protocol'=>[
 					'protocal',
@@ -7802,21 +9016,40 @@
 				'protolanguages'=>[
 					'protolangauges',
 				],
+				'protomer'=>[
+					'protamer',
+				],
+				'proton'=>[
+					'protron',
+				],
 				'protonotary'=>[
 					'protonotery',
 				],
 				'protoplanetary'=>[
 					'protoplanetery',
 				],
+				'protoporphyrin'=>[
+					'proptoporphyrin',
+					'protoporphirin',
+					'protoporphorin',
+				],
+				'protoporphyrinogen'=>[
+					'protophorphyrinogen',
+				],
 				'protostar'=>[
 					'protoster',
+				],
+				'prototypical'=>[
+					'protypical',
 				],
 				'protrusible'=>[
 					'protruisble',
 					'protrusable',
+					'protusible',
 				],
 				'protrusion'=>[
 					'protruison',
+					'protusion',
 				],
 				'protrusions'=>[
 					'protruisons',
@@ -7840,12 +9073,16 @@
 				],
 				'protuberant'=>[
 					'protuberent',
+					'protruberant',
 				],
 				'protuberantly'=>[
 					'protuberantally',
 					'protuberantaly',
 					'protuberantely',
 					'protuberantlly',
+				],
+				'protumorigenic'=>[
+					'protumorgenic',
 				],
 				'proudhonian'=>[
 					'proudbonian',
@@ -7906,6 +9143,9 @@
 				'provocateur'=>[
 					'provocater',
 				],
+				'provocation'=>[
+					'provacation',
+				],
 				'provocatively'=>[
 					'provocativly',
 				],
@@ -7952,6 +9192,12 @@
 					'pruriant',
 					'prurint',
 				],
+				'pruritogen'=>[
+					'puritogen',
+				],
+				'pruritus'=>[
+					'pruritis',
+				],
 				'prussia'=>[
 					'prusssia',
 				],
@@ -7975,6 +9221,12 @@
 				],
 				'pseudo-'=>[
 					'psuedo-',
+				],
+				'pseudocoelom'=>[
+					'pseudocoelum',
+				],
+				'pseudogenization'=>[
+					'pseudonization',
 				],
 				'pseudomorph'=>[
 					'pseudomourph',
@@ -8012,8 +9264,14 @@
 					'psuedonims',
 					'psuedonyms',
 				],
+				'pseudophakic'=>[
+					'psuedophakic',
+				],
 				'pseudopregnancy'=>[
 					'pseudopregnansy',
+				],
+				'pseudoprogression'=>[
+					'psuedoprogression',
 				],
 				'pseudoscience'=>[
 					'pseudocience',
@@ -8037,11 +9295,15 @@
 					'pseudocorpion',
 					'pseudocsorpion',
 					'pseudosorpion',
+					'pseudoscorpian',
 				],
 				'pseudoscorpions'=>[
 					'pseudocorpions',
 					'pseudocsorpions',
 					'pseudosorpions',
+				],
+				'pseudosubstrate'=>[
+					'psuedosubstrate',
 				],
 				'psilocybin'=>[
 					'psilocibin',
@@ -8049,6 +9311,9 @@
 				],
 				'psittacine'=>[
 					'psittacini',
+				],
+				'psoriatic'=>[
+					'psoriasic',
 				],
 				'psst'=>[
 					'pst',
@@ -8130,8 +9395,18 @@
 				'psychosomatic'=>[
 					'pyschosomatic',
 				],
+				'psychostimulant'=>[
+					'phychostimulant',
+				],
 				'psywar'=>[
 					'psywer',
+				],
+				'pteridophyte'=>[
+					'petridophyte',
+					'pteriodophyte',
+				],
+				'pterodactyl'=>[
+					'terodactyl',
 				],
 				'pubescence'=>[
 					'pubescance',
@@ -8156,6 +9431,7 @@
 					'publicaly',
 					'publicely',
 					'publiclly',
+					'publickally',
 				],
 				'publish'=>[
 					'publsh',
@@ -8175,6 +9451,9 @@
 				],
 				'pudency'=>[
 					'pudensy',
+				],
+				'puerile'=>[
+					'purile',
 				],
 				'puerilely'=>[
 					'puerilly',
@@ -8255,6 +9534,9 @@
 				'pulsar'=>[
 					'pulser',
 				],
+				'pulsatility'=>[
+					'pulsitility',
+				],
 				'pulse-beat'=>[
 					'pulsebeat',
 				],
@@ -8292,11 +9574,17 @@
 				'pumpkins'=>[
 					'pumkins',
 				],
+				'punaglandin'=>[
+					'puniglandin',
+				],
 				'punched-paper rolls'=>[
 					'punched paper rolls',
 				],
 				'punches'=>[
 					'punchs',
+				],
+				'punctiform'=>[
+					'ponctiform',
 				],
 				'punctilious'=>[
 					'punctilous',
@@ -8334,6 +9622,9 @@
 					'pungentaly',
 					'pungentely',
 					'pungentlly',
+				],
+				'punicalagin'=>[
+					'punicalgin',
 				],
 				'punishment'=>[
 					'punishmant',
@@ -8385,6 +9676,9 @@
 				],
 				'pupillary'=>[
 					'pupillery',
+				],
+				'pupilled'=>[
+					'pupiled',
 				],
 				'pupped'=>[
 					'puped',
@@ -8460,8 +9754,17 @@
 				'purine'=>[
 					'purini',
 				],
+				'purinergic'=>[
+					'purinogenic',
+				],
+				'purinosome'=>[
+					'purineosome',
+				],
 				'purloining'=>[
 					'purloinang',
+				],
+				'purport'=>[
+					'proport',
 				],
 				'purpose'=>[
 					'pirpose',
@@ -8492,6 +9795,9 @@
 				],
 				'purposively'=>[
 					'purposivly',
+				],
+				'purpurogallin'=>[
+					'purpogallin',
 				],
 				'purr'=>[
 					'pur',
@@ -8582,6 +9888,9 @@
 				'putamina'=>[
 					'putamini',
 				],
+				'putative'=>[
+					'pupative',
+				],
 				'putatively'=>[
 					'putativly',
 				],
@@ -8590,6 +9899,9 @@
 				],
 				'putrescible'=>[
 					'putrescable',
+				],
+				'putrescine'=>[
+					'putrescein',
 				],
 				'puts'=>[
 					'put\'s',
@@ -8602,6 +9914,16 @@
 				'putting'=>[
 					'puting',
 				],
+				'pycnidiospore'=>[
+					'pcynidiospore',
+					'picnidiospore',
+				],
+				'pycnometry'=>[
+					'picnometry',
+				],
+				'pycnomorphic'=>[
+					'pyknomorphic',
+				],
 				'pyknoses'=>[
 					'pykoses',
 				],
@@ -8611,32 +9933,62 @@
 				'pyknotic'=>[
 					'pykotic',
 				],
+				'pylephlebitis'=>[
+					'pyelophlebitis',
+				],
+				'pyocyanin'=>[
+					'pyocianin',
+				],
+				'pyogranuloma'=>[
+					'pyrogranuloma',
+				],
+				'pyogranulomatous'=>[
+					'pyrogranulomatous',
+				],
 				'pyorrhea'=>[
 					'pyorhea',
 				],
 				'pyracantha'=>[
 					'pyracentha',
 				],
+				'pyramid'=>[
+					'piramid',
+				],
 				'pyridine'=>[
 					'pyridini',
+				],
+				'pyridostigmine'=>[
+					'pyridostigimine',
 				],
 				'pyridoxamine'=>[
 					'pyridoxamini',
 				],
 				'pyridoxine'=>[
 					'pyridoxini',
+					'pyroxidine',
 				],
 				'pyrimethamine'=>[
 					'pyrimethamini',
+					'perimethamine',
 				],
 				'pyrimidine'=>[
 					'pyrimidini',
+					'pyramidine',
+				],
+				'pyriproxyfen'=>[
+					'piriproxyfen',
 				],
 				'pyrolusite'=>[
 					'pyroluiste',
 				],
 				'pyrolusites'=>[
 					'pyroluistes',
+				],
+				'pyrolysis'=>[
+					'pyrolisis',
+				],
+				'pyrolytic'=>[
+					'pyrolitic',
 				],
 				'pyromancy'=>[
 					'pyromansy',
@@ -8649,6 +10001,9 @@
 				],
 				'pyromorphites'=>[
 					'pyromourphites',
+				],
+				'pyrophosphorylase'=>[
+					'phrophosphorylase',
 				],
 				'pyrophyllite'=>[
 					'pyrophylite',
@@ -8667,6 +10022,19 @@
 				],
 				'pyrrole'=>[
 					'pyrole',
+				],
+				'pyrrolidine'=>[
+					'pyrolidine',
+					'pyrollidine',
+				],
+				'pyrrolidone'=>[
+					'pyrolidone',
+				],
+				'pyrrolidonyl'=>[
+					'pyrolidonyl',
+				],
+				'pyrvinium'=>[
+					'pyruvinium',
 				],
 				'pyxie'=>[
 					'pyxei',

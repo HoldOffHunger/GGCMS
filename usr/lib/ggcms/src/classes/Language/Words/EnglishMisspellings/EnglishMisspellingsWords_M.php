@@ -32,8 +32,35 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'MDPV'=>[
+					'mdvp',
+				],
+				'Magdalene'=>[
+					'madalene',
+				],
+				'Malmö'=>[
+					'malmo',
+				],
+				'Malpighian'=>[
+					'malphigian',
+				],
 				'Marie'=>[
 					'mariie',
+				],
+				'Milky Way'=>[
+					'milkyway',
+				],
+				'Minié ball'=>[
+					'miniball',
+				],
+				'Mirrleesian'=>[
+					'mirrlesian',
+				],
+				'Mitsubishi'=>[
+					'mistubishi',
+				],
+				'Moldovanness'=>[
+					'moldovaness',
 				],
 				'maar'=>[
 					'maer',
@@ -118,6 +145,15 @@
 					'macrocosmicalely',
 					'macrocosmicallly',
 				],
+				'macrocyclization'=>[
+					'macrocylization',
+				],
+				'macrofilaricide'=>[
+					'macrofilariacide',
+				],
+				'macroglobulinemia'=>[
+					'macrogloblinemia',
+				],
 				'macromolecular'=>[
 					'macromoleculer',
 				],
@@ -128,6 +164,15 @@
 					'macronutreint',
 					'macronutriant',
 					'macronutrint',
+				],
+				'macropinocytosis'=>[
+					'marcopinocytosis',
+				],
+				'macropodid'=>[
+					'macropodoid',
+				],
+				'macropterous'=>[
+					'macroptyrous',
 				],
 				'macroscopic'=>[
 					'macrocopic',
@@ -186,6 +231,9 @@
 				'madrigalian'=>[
 					'madrigalan',
 				],
+				'magainin'=>[
+					'megainin',
+				],
 				'magazine'=>[
 					'magazini',
 				],
@@ -227,6 +275,12 @@
 				'magnetic'=>[
 					'magentic',
 				],
+				'magnetoencephalography'=>[
+					'magnetencephalography',
+				],
+				'magnetometry'=>[
+					'magnetometery',
+				],
 				'magnificence'=>[
 					'magnificance',
 				],
@@ -246,6 +300,9 @@
 				],
 				'magniloquence'=>[
 					'magniloquance',
+				],
+				'magnoflorine'=>[
+					'magniflorine',
 				],
 				'magnolia'=>[
 					'magolia',
@@ -482,11 +539,24 @@
 					'makeing',
 					'mkaing',
 				],
+				'malabsorption'=>[
+					'malabsorbtion',
+					'maladsorption',
+				],
+				'malabsorptive'=>[
+					'malabsorbtive',
+				],
 				'malacca'=>[
 					'malaca',
 				],
 				'malaccas'=>[
 					'malacas',
+				],
+				'malacostracan'=>[
+					'malacostracean',
+				],
+				'maladaptation'=>[
+					'maladaption',
 				],
 				'maladjustment'=>[
 					'maladjustmant',
@@ -590,6 +660,9 @@
 					'maloccluisons',
 					'maloclusions',
 				],
+				'malolactic'=>[
+					'malolactate',
+				],
 				'maltese'=>[
 					'maltesian',
 				],
@@ -602,8 +675,14 @@
 				'malthusians'=>[
 					'mallthusians',
 				],
+				'maltoside'=>[
+					'moltoside',
+				],
 				'malvasian'=>[
 					'malvasan',
+				],
+				'mamillothalamic'=>[
+					'mamallothalamic',
 				],
 				'mamma'=>[
 					'mamna',
@@ -849,6 +928,9 @@
 				'mannan'=>[
 					'manan',
 				],
+				'mannanoligosaccharide'=>[
+					'manannoligosaccharide',
+				],
 				'manned'=>[
 					'maned',
 				],
@@ -914,8 +996,16 @@
 				'mannose'=>[
 					'manose',
 				],
+				'manoeuvrability'=>[
+					'maneuvreability',
+				],
 				'manoeuvre'=>[
 					'maneovre',
+					'maneouvre',
+					'manouvre',
+				],
+				'manoeuvre and maneuver'=>[
+					'manoever',
 				],
 				'manorial'=>[
 					'manourial',
@@ -1010,11 +1100,17 @@
 					'map map',
 					'map map map',
 				],
+				'mappability'=>[
+					'mapability',
+				],
 				'mappable'=>[
 					'mappible',
 				],
 				'mapping'=>[
 					'maping',
+				],
+				'marafivirus'=>[
+					'marifivirus',
 				],
 				'marasca'=>[
 					'maraca',
@@ -1263,6 +1359,7 @@
 					'macarpone',
 					'macsarpone',
 					'masarpone',
+					'marscapone',
 				],
 				'mascon'=>[
 					'macon',
@@ -1360,6 +1457,7 @@
 				'massacre'=>[
 					'masacre',
 					'massacer',
+					'massacker',
 				],
 				'massage'=>[
 					'masage',
@@ -1408,6 +1506,21 @@
 				],
 				'mastery'=>[
 					'mastary',
+				],
+				'mastication'=>[
+					'mastification',
+				],
+				'masturbate'=>[
+					'masterbate',
+				],
+				'masturbated'=>[
+					'masterbated',
+				],
+				'masturbates'=>[
+					'masterbates',
+				],
+				'masturbating'=>[
+					'masterbating',
 				],
 				'masturbation'=>[
 					'masterbation',
@@ -1561,6 +1674,9 @@
 				'mayoral'=>[
 					'mayorial',
 				],
+				'maytansinoid'=>[
+					'maytansanoid',
+				],
 				'mcharg'=>[
 					'mettaig',
 				],
@@ -1654,6 +1770,7 @@
 					'measaly',
 					'measely',
 					'measlly',
+					'measily',
 				],
 				'measurabilities'=>[
 					'mesurabilities',
@@ -1661,6 +1778,7 @@
 				'measurable'=>[
 					'measurible',
 					'mesurable',
+					'measureable',
 				],
 				'measure'=>[
 					'measuer',
@@ -1702,6 +1820,10 @@
 				'meaty'=>[
 					'mety',
 				],
+				'mebibyte'=>[
+					'megibyte',
+					'mibibyte',
+				],
 				'mecca'=>[
 					'meca',
 				],
@@ -1721,6 +1843,9 @@
 				'mechanoreceptor'=>[
 					'mechanoureceptor',
 				],
+				'mechanosensilla'=>[
+					'mechanosensillae',
+				],
 				'medalist'=>[
 					'medallist',
 				],
@@ -1729,6 +1854,12 @@
 				],
 				'medallist'=>[
 					'medalist',
+				],
+				'medetomidine'=>[
+					'medetomizine',
+					'meditomedine',
+					'meditomidine',
+					'metedomidine',
 				],
 				'mediacy'=>[
 					'mediasy',
@@ -1751,6 +1882,9 @@
 				'medicable'=>[
 					'medicible',
 				],
+				'medical'=>[
+					'medicle',
+				],
 				'medicinal'=>[
 					'medicinil',
 				],
@@ -1758,6 +1892,7 @@
 					'medacine',
 					'medcine',
 					'medicini',
+					'medecine',
 				],
 				'mediciny'=>[
 					'mediciney',
@@ -1770,6 +1905,9 @@
 					'medival',
 					'mideval',
 					'midieval',
+					'medieveal',
+					'mid-evil',
+					'midevil',
 				],
 				'medievalism'=>[
 					'medeivalism',
@@ -1806,6 +1944,9 @@
 				'medullary'=>[
 					'medullery',
 				],
+				'medulloblastoma'=>[
+					'medullablastoma',
+				],
 				'meerkat'=>[
 					'meerkrat',
 				],
@@ -1818,6 +1959,12 @@
 					'meeeting',
 					'metting',
 				],
+				'mefenamic'=>[
+					'mefanamic',
+				],
+				'mega-amp'=>[
+					'megaamp',
+				],
 				'megahertz'=>[
 					'megaertz',
 				],
@@ -1829,6 +1976,15 @@
 				],
 				'megahits'=>[
 					'megaits',
+				],
+				'megakaryocytic'=>[
+					'megakaryotic',
+				],
+				'megakaryocytopoiesis'=>[
+					'megakaryocytopoesis',
+				],
+				'megalencephaly'=>[
+					'megaencephaly',
 				],
 				'megaparsec'=>[
 					'megapersec',
@@ -1853,6 +2009,9 @@
 				],
 				'megillahs'=>[
 					'megillas',
+				],
+				'meglitinides'=>[
+					'metaglinides',
 				],
 				'meinie'=>[
 					'meinae',
@@ -1881,8 +2040,28 @@
 				'melanian'=>[
 					'melanan',
 				],
+				'melanophore'=>[
+					'melanaphore',
+					'melanopore',
+				],
 				'melbourne-based'=>[
 					'melbourne based',
+				],
+				'melezitose'=>[
+					'melizitoze',
+				],
+				'melibiose'=>[
+					'mellibiose',
+					'melobiose',
+				],
+				'melismatic'=>[
+					'mellismatic',
+				],
+				'melittin'=>[
+					'mellitin',
+				],
+				'melitzanosalata'=>[
+					'melzanosalata',
 				],
 				'mell'=>[
 					'mel',
@@ -1890,6 +2069,7 @@
 				'mellifluous'=>[
 					'melifluous',
 					'melliflous',
+					'mellifulous',
 				],
 				'mellifluously'=>[
 					'melliflously',
@@ -1924,6 +2104,9 @@
 					'melody melody',
 					'melody melody melody',
 				],
+				'melphalan'=>[
+					'melphalin',
+				],
 				'member'=>[
 					'meber',
 					'meber', 'memebr',
@@ -1949,6 +2132,7 @@
 				],
 				'membrane'=>[
 					'mbrane',
+					'membrain',
 				],
 				'membraned'=>[
 					'mbraned',
@@ -2162,9 +2346,15 @@
 					'mens',
 					'mens\'',
 				],
+				'menadione'=>[
+					'menedione',
+				],
 				'menagerie'=>[
 					'menagerei',
 					'menageri',
+				],
+				'menaquinone'=>[
+					'menoquinone',
 				],
 				'mendacious'=>[
 					'mendacous',
@@ -2178,14 +2368,27 @@
 				'mendicant'=>[
 					'mendicent',
 				],
+				'meningeal'=>[
+					'meningial',
+				],
 				'meningococcal'=>[
 					'meningococal',
+					'meningoccocal',
 				],
 				'meningococcic'=>[
 					'meningococic',
 				],
 				'meningococcus'=>[
 					'meningococus',
+				],
+				'meningoencephalitis'=>[
+					'menigoencephalitis',
+				],
+				'meningoencephalomyelitis'=>[
+					'menigioencephalomyelitis',
+				],
+				'meningothelial'=>[
+					'meningiothelial',
 				],
 				'meniscus'=>[
 					'menicsus',
@@ -2284,6 +2487,9 @@
 				'meperidine'=>[
 					'meperidini',
 				],
+				'mepivacaine'=>[
+					'mepivicaine',
+				],
 				'mercantile'=>[
 					'mercentile',
 				],
@@ -2337,6 +2543,9 @@
 					'mercilessely',
 					'mercilesslly',
 				],
+				'mercurochrome'=>[
+					'mercurichrome',
+				],
 				'mercy'=>[
 					'mersy',
 				],
@@ -2364,6 +2573,9 @@
 				'meridian'=>[
 					'meridan',
 				],
+				'meristematic'=>[
+					'myristematic',
+				],
 				'meritocracy'=>[
 					'meritocrasy',
 				],
@@ -2383,6 +2595,12 @@
 				'meromorphic'=>[
 					'meromourphic',
 				],
+				'meroplasmodium'=>[
+					'mesoplasmodium',
+				],
+				'merotelically'=>[
+					'merotely',
+				],
 				'merriment'=>[
 					'meriment',
 				],
@@ -2401,6 +2619,9 @@
 				'mesalliance'=>[
 					'mesallience',
 				],
+				'mesangial'=>[
+					'messangial',
+				],
 				'mescal'=>[
 					'mecal',
 					'mecsal',
@@ -2411,8 +2632,18 @@
 					'mecslun',
 					'meslun',
 				],
+				'mesencephalic'=>[
+					'mesenphalic',
+				],
+				'mesenchymal'=>[
+					'mesenchimal',
+				],
+				'mesenchyme'=>[
+					'mexenchyme',
+				],
 				'mesentery'=>[
 					'mesentary',
+					'mesentry',
 				],
 				'meshed'=>[
 					'meshod',
@@ -2430,6 +2661,21 @@
 				'mesian'=>[
 					'mesan',
 				],
+				'mesmerise'=>[
+					'mesmorise',
+				],
+				'mesocorticolimbic'=>[
+					'misocorticolimbic',
+				],
+				'mesoeucrocodylian'=>[
+					'mesoeucrocodilian',
+				],
+				'mesograzer'=>[
+					'mezograzer',
+				],
+				'mesokurtic'=>[
+					'mesocurtic',
+				],
 				'mesomorph'=>[
 					'mesomourph',
 				],
@@ -2445,10 +2691,20 @@
 				'mesomorphy'=>[
 					'mesomourphy',
 				],
+				'mesophilous'=>[
+					'mesophylous',
+				],
+				'mesosalpinx'=>[
+					'mesosalphinx',
+				],
 				'mesoscale'=>[
 					'mesocale',
 					'mesocsale',
 					'mesosale',
+				],
+				'mesoscopic'=>[
+					'mesocopic',
+					'mezoscopic',
 				],
 				'mess'=>[
 					'mes',
@@ -2458,6 +2714,7 @@
 				],
 				'messaging'=>[
 					'messeging',
+					'messageing',
 				],
 				'messeigneurs'=>[
 					'messiegneurs',
@@ -2497,6 +2754,22 @@
 					'mescy',
 					'mesy',
 				],
+				'metabisulfite'=>[
+					'metabisulfide',
+				],
+				'metabisulphite'=>[
+					'metabisulphate',
+					'metasulphate',
+				],
+				'metabolome'=>[
+					'metabalome',
+				],
+				'metabotropic'=>[
+					'metabotrophic',
+				],
+				'metacarpophalangeal'=>[
+					'metacarpophangeal',
+				],
 				'metal'=>[
 					'metal metal',
 					'metal metal metal',
@@ -2506,6 +2779,9 @@
 				],
 				'metalanguages'=>[
 					'metalangauges',
+				],
+				'metallated'=>[
+					'metalated',
 				],
 				'metallic'=>[
 					'metalic',
@@ -2522,8 +2798,22 @@
 				'metallography'=>[
 					'metalography',
 				],
+				'metallophilic'=>[
+					'metallophillic',
+					'metalophillic',
+				],
 				'metallophone'=>[
 					'metalophone',
+				],
+				'metalloproteinase'=>[
+					'metaloproteinase',
+				],
+				'metallothionein'=>[
+					'metallothioneine',
+					'metalothionein',
+				],
+				'metallotolerant'=>[
+					'metalotolerant',
 				],
 				'metallurgic'=>[
 					'metalurgic',
@@ -2568,8 +2858,17 @@
 					'metamorphysis',
 					'metamourphosis',
 				],
+				'metaphor'=>[
+					'metaphore',
+				],
+				'metaphylactic'=>[
+					'metaphylatic',
+				],
 				'metaphysician'=>[
 					'metaphysican',
+				],
+				'metaproterenol'=>[
+					'metaprotenerol',
 				],
 				'metasequoia'=>[
 					'metaseqoia',
@@ -2580,18 +2879,38 @@
 				'metastable'=>[
 					'metastible',
 				],
+				'metastasize'=>[
+					'metastisize',
+				],
+				'metastatic'=>[
+					'meastatic',
+					'metastastic',
+				],
+				'metatherian'=>[
+					'methatherian',
+				],
 				'meteoroic'=>[
 					'meteroic',
 				],
 				'meteorological'=>[
 					'metereological',
 				],
+				'meteorologist'=>[
+					'meterologist',
+				],
 				'meteorology'=>[
 					'meterology',
 					'metorology',
 				],
+				'methacrylate'=>[
+					'metacrylate',
+				],
 				'methamphetamine'=>[
 					'methamphetamini',
+					'metamphetamine',
+				],
+				'methanotrophic'=>[
+					'methanotropic',
 				],
 				'methaqualone'=>[
 					'methaqaulone',
@@ -2612,11 +2931,24 @@
 					'method method',
 					'method method method',
 				],
+				'methotrexate'=>[
+					'methrotrexate',
+					'metothrexate',
+				],
+				'methoxamine'=>[
+					'metoxamine',
+				],
+				'methoxyflurane'=>[
+					'methoxyfluorane',
+				],
 				'methylamine'=>[
 					'methylamini',
 				],
 				'methylcellulose'=>[
 					'methylcelulose',
+				],
+				'methylome'=>[
+					'methlyome',
 				],
 				'methylxanthine'=>[
 					'methylxanthini',
@@ -2626,9 +2958,24 @@
 					'methylxanthinis',
 					'methylxenthines',
 				],
+				'methysergide'=>[
+					'methisergide',
+				],
 				'metier'=>[
 					'meteir',
 					'metir',
+				],
+				'metomidate'=>[
+					'methomidate',
+				],
+				'metonymy'=>[
+					'metonomy',
+				],
+				'metoprolol'=>[
+					'metroprolol',
+				],
+				'metrical'=>[
+					'meterical',
 				],
 				'metropolitan'=>[
 					'metropolian',
@@ -2648,6 +2995,9 @@
 				'mezzanine'=>[
 					'mezzanini',
 				],
+				'miRNAome'=>[
+					'mirnome',
+				],
 				'miami'=>[
 					'maimi',
 				],
@@ -2665,6 +3015,16 @@
 					'michgian',
 					'mishigan',
 				],
+				'microaerobic'=>[
+					'microanaerobic',
+				],
+				'microalbuminuria'=>[
+					'microalbinuria',
+					'microalbuminia',
+				],
+				'microalga'=>[
+					'micoalga',
+				],
 				'microbalance'=>[
 					'microbalence',
 				],
@@ -2674,14 +3034,23 @@
 				'microbian'=>[
 					'microban',
 				],
+				'microbicide'=>[
+					'micobicide',
+				],
 				'microcephaly'=>[
 					'microcephaally',
 					'microcephaaly',
 					'microcephaely',
 					'microcephally',
 				],
+				'microchimeric'=>[
+					'microcimeric',
+				],
 				'microcline'=>[
 					'microclini',
+				],
+				'micrococcal'=>[
+					'microccocal',
 				],
 				'micrococcus'=>[
 					'micrococus',
@@ -2692,24 +3061,49 @@
 					'microcosmicalely',
 					'microcosmicallly',
 				],
+				'microcystin'=>[
+					'microcysteine',
+				],
 				'microearthquake'=>[
 					'microearthqauke',
 					'microerthquake',
 				],
 				'microfibrillar'=>[
 					'microfibriller',
+					'microfibrilar',
 				],
 				'microfilament'=>[
 					'microfilamant',
 				],
+				'microfilaricide'=>[
+					'microfilariacide',
+				],
 				'microfilmable'=>[
 					'microfilmible',
+				],
+				'microglia'=>[
+					'microglias',
+				],
+				'microinjection'=>[
+					'microejection',
+				],
+				'microiontophoretic'=>[
+					'microionophoretic',
+				],
+				'microiontophoretically'=>[
+					'microionophoretically',
+				],
+				'micromanometer'=>[
+					'micronanometer',
 				],
 				'microminiature'=>[
 					'microminaature',
 				],
 				'micromolar'=>[
 					'micromoler',
+				],
+				'micromoles'=>[
+					'micromolars',
 				],
 				'micromorphology'=>[
 					'micromourphology',
@@ -2730,6 +3124,9 @@
 				],
 				'micropylar'=>[
 					'micropyler',
+				],
+				'microsatellite'=>[
+					'microstellate',
 				],
 				'microscope'=>[
 					'microcope',
@@ -2764,20 +3161,34 @@
 				'microseismicity'=>[
 					'microsiesmicity',
 				],
+				'microsporidiosis'=>[
+					'microporidiosis',
+					'microspordiosis',
+				],
 				'microsporophyll'=>[
 					'microsporophyl',
+				],
+				'microthrombi'=>[
+					'microthrombii',
 				],
 				'microtubular'=>[
 					'microtubuler',
 				],
 				'microvascular'=>[
 					'microvasculer',
+					'micovascular',
+				],
+				'microvasculature'=>[
+					'microvasculture',
 				],
 				'microvillar'=>[
 					'microviller',
 				],
 				'microwaveable'=>[
 					'microwaveible',
+				],
+				'micturition'=>[
+					'micturation',
 				],
 				'mid-february'=>[
 					'mid february',
@@ -2804,6 +3215,9 @@
 				],
 				'midpoint'=>[
 					'mid-point',
+				],
+				'midsagittally'=>[
+					'midsagitally',
 				],
 				'midstream'=>[
 					'midstrem',
@@ -2839,6 +3253,9 @@
 					'mightialy',
 					'mightiely',
 					'mightilly',
+				],
+				'mightn\'t'=>[
+					'mightened',
 				],
 				'migraine'=>[
 					'migraini',
@@ -2919,6 +3336,7 @@
 				'millenarian'=>[
 					'milenarian',
 					'millenaran',
+					'millennarian',
 				],
 				'millenary'=>[
 					'millenery',
@@ -2984,6 +3402,7 @@
 				],
 				'millimolar'=>[
 					'millimoler',
+					'milimolar',
 				],
 				'milliner'=>[
 					'millinir',
@@ -3001,6 +3420,7 @@
 				],
 				'millionaire'=>[
 					'milionaire',
+					'millionare',
 				],
 				'millionairess'=>[
 					'milionairess',
@@ -3297,6 +3717,9 @@
 				'minischool'=>[
 					'minaschool',
 				],
+				'minocycline'=>[
+					'minocydine',
+				],
 				'minuscule'=>[
 					'minascule',
 					'minicsule',
@@ -3306,6 +3729,9 @@
 					'minucsule',
 					'minucule',
 					'minusule',
+				],
+				'minusculely'=>[
+					'minusculy',
 				],
 				'minuscules'=>[
 					'minascules',
@@ -3456,6 +3882,10 @@
 				'mirror'=>[
 					'miror',
 				],
+				'mirtazapine'=>[
+					'mitazapine',
+					'mitrazepine',
+				],
 				'mirthlessly'=>[
 					'mirthlessally',
 					'mirthlessaly',
@@ -3485,6 +3915,12 @@
 					'misalaly',
 					'misalely',
 					'misallly',
+				],
+				'misandrist'=>[
+					'misandryist',
+				],
+				'misannotated'=>[
+					'missannotated',
 				],
 				'misanthrope'=>[
 					'misenthrope',
@@ -3687,6 +4123,12 @@
 					'miscable',
 					'misible',
 				],
+				'misclassification'=>[
+					'missclassification',
+				],
+				'misclassified'=>[
+					'missclassified',
+				],
 				'misclassify'=>[
 					'miclassify',
 					'micslassify',
@@ -3791,6 +4233,11 @@
 				],
 				'miserable'=>[
 					'miserible',
+					'misrable',
+					'misserable',
+				],
+				'miserably'=>[
+					'miserabley',
 				],
 				'miserly'=>[
 					'miserally',
@@ -3819,6 +4266,9 @@
 				],
 				'misfocusing'=>[
 					'misfocuisng',
+				],
+				'misfolding'=>[
+					'missfolding',
 				],
 				'misgovernment'=>[
 					'misgoverment',
@@ -3890,8 +4340,12 @@
 				'mismarriages'=>[
 					'mismariages',
 				],
+				'misogynism'=>[
+					'mysogynism',
+				],
 				'misogynist'=>[
 					'mysogynist',
+					'mysogenist',
 				],
 				'misogynistic'=>[
 					'mysogynistic',
@@ -4050,6 +4504,10 @@
 					'mispelling',
 					'misspeling',
 				],
+				'misspelt'=>[
+					'mispelt',
+					'misspellt',
+				],
 				'misstep'=>[
 					'mistep',
 				],
@@ -4083,6 +4541,23 @@
 				],
 				'mithraic'=>[
 					'mythraic',
+				],
+				'mitochondrial'=>[
+					'mithocondrial',
+					'mitochrondrial',
+				],
+				'mitochondrion'=>[
+					'mitochondrium',
+				],
+				'mitomycin'=>[
+					'mytomicin',
+				],
+				'mitosis'=>[
+					'mitotis',
+				],
+				'mitoxantrone'=>[
+					'mithoxantrone',
+					'mitoxanthrone',
 				],
 				'mitsvah'=>[
 					'mitsva',
@@ -4143,6 +4618,9 @@
 					'mizzemasts',
 					'mizzenasts',
 				],
+				'mnemonic'=>[
+					'mneumonic',
+				],
 				'mo ghile mear'=>[
 					'mo ghille mear',
 				],
@@ -4154,6 +4632,12 @@
 				],
 				'moccasins'=>[
 					'moccassins',
+				],
+				'mochatine'=>[
+					'mokatine',
+				],
+				'moclobemide'=>[
+					'meclobemide',
 				],
 				'model'=>[
 					'modle',
@@ -4172,6 +4656,7 @@
 					'moden',
 					'modern modern',
 					'modern modern modern',
+					'mordern',
 				],
 				'modernize'=>[
 					'modernise',
@@ -4261,11 +4746,15 @@
 					'molluc',
 					'mollucs',
 					'mollus',
+					'molusc',
 				],
 				'molluscan'=>[
 					'mollucan',
 					'mollucsan',
 					'mollusan',
+				],
+				'molluscicidal'=>[
+					'moluscicidal',
 				],
 				'molluscicide'=>[
 					'mollucicide',
@@ -4281,6 +4770,9 @@
 					'molaly',
 					'mollly',
 					'moly',
+				],
+				'molybdopterin'=>[
+					'molydopterin',
 				],
 				'moment'=>[
 					'moent',
@@ -4317,6 +4809,9 @@
 				'momentum'=>[
 					'momantum',
 				],
+				'mometasone'=>[
+					'momentasone',
+				],
 				'momma'=>[
 					'momna',
 				],
@@ -4328,6 +4823,9 @@
 				],
 				'mommy'=>[
 					'momny',
+				],
+				'monacanthid'=>[
+					'monocanthid',
 				],
 				'monaco'=>[
 					'monacco',
@@ -4356,8 +4854,12 @@
 				'monecious'=>[
 					'monecous',
 				],
+				'monetarily'=>[
+					'monitarily',
+				],
 				'monetary'=>[
 					'monetery',
+					'monitary',
 				],
 				'money'=>[
 					'moeny',
@@ -4385,6 +4887,9 @@
 					'moneis',
 					'monis',
 				],
+				'monimolimnion'=>[
+					'monolimnion',
+				],
 				'monitor'=>[
 					'moniter',
 				],
@@ -4400,8 +4905,20 @@
 				'monoamine'=>[
 					'monoamini',
 				],
+				'monochromator'=>[
+					'monochrometer',
+				],
+				'monocistronic'=>[
+					'monocystronic',
+				],
+				'monocle'=>[
+					'monicle',
+				],
 				'monoclinic'=>[
 					'monoclinac',
+				],
+				'monoclonal'=>[
+					'monocolonal',
 				],
 				'monocracy'=>[
 					'monocrasy',
@@ -4419,6 +4936,9 @@
 					'monocularely',
 					'monocularlly',
 				],
+				'monocytotropic'=>[
+					'monocytotrophic',
+				],
 				'monoecious'=>[
 					'monoecous',
 				],
@@ -4427,6 +4947,9 @@
 				],
 				'monofilament'=>[
 					'monofilamant',
+				],
+				'monoisotopic'=>[
+					'monoisotropic',
 				],
 				'monolingual'=>[
 					'monolingaul',
@@ -4464,6 +4987,13 @@
 				'mononuclear'=>[
 					'mononucleer',
 					'mononucler',
+				],
+				'monophthong'=>[
+					'monopthong',
+				],
+				'monophyletic'=>[
+					'monophylic',
+					'monophylletic',
 				],
 				'monophyly'=>[
 					'monophyally',
@@ -4536,6 +5066,9 @@
 				'monotypic'=>[
 					'montypic',
 				],
+				'monoubiquitinated'=>[
+					'monoubiquinated',
+				],
 				'monovular'=>[
 					'monovuler',
 				],
@@ -4559,6 +5092,12 @@
 				],
 				'monstrance'=>[
 					'monstrence',
+				],
+				'monstrous'=>[
+					'monsterous',
+				],
+				'monstrously'=>[
+					'monsterously',
 				],
 				'monteith'=>[
 					'montieth',
@@ -4758,6 +5297,9 @@
 				],
 				'morbilli'=>[
 					'mourbilli',
+				],
+				'morbillivirus'=>[
+					'morbilivirus',
 				],
 				'morceau'=>[
 					'mourceau',
@@ -4979,6 +5521,7 @@
 				],
 				'morphallaxis'=>[
 					'mourphallaxis',
+					'morpholaxis',
 				],
 				'morphed'=>[
 					'mourphed',
@@ -5078,6 +5621,7 @@
 				],
 				'morphometric'=>[
 					'mourphometric',
+					'morphemetric',
 				],
 				'morphometries'=>[
 					'mourphometries',
@@ -5112,6 +5656,9 @@
 				],
 				'morro'=>[
 					'moro',
+				],
+				'morroniside'=>[
+					'morronoside',
 				],
 				'morros'=>[
 					'mourros',
@@ -5182,6 +5729,7 @@
 				'mortgage'=>[
 					'morgage',
 					'mourtgage',
+					'mortage',
 				],
 				'mortgagee'=>[
 					'mourtgagee',
@@ -5274,6 +5822,9 @@
 				'morulations'=>[
 					'mourulations',
 				],
+				'mosaicism'=>[
+					'mozaicism',
+				],
 				'moss'=>[
 					'mos',
 				],
@@ -5335,6 +5886,9 @@
 				'motorcar'=>[
 					'motorcer',
 				],
+				'motorcycle'=>[
+					'motorcicle',
+				],
 				'mottoes'=>[
 					'mottos',
 				],
@@ -5393,6 +5947,7 @@
 				],
 				'mousseline'=>[
 					'mousselini',
+					'mouseline',
 				],
 				'mousy'=>[
 					'moucy',
@@ -5400,6 +5955,9 @@
 				'mouth'=>[
 					'mouth mouth',
 					'mouth mouth mouth',
+				],
+				'mouthful'=>[
+					'mouthfull',
 				],
 				'mouthpart'=>[
 					'mouthpert',
@@ -5457,6 +6015,9 @@
 				'mozzarella'=>[
 					'mozzarela',
 				],
+				'msg'=>[
+					'mssg',
+				],
 				'much'=>[
 					'much much',
 					'much much much',
@@ -5470,11 +6031,30 @@
 					'mucilaginousely',
 					'mucilaginouslly',
 				],
+				'muckraking'=>[
+					'muckracking',
+				],
+				'mucociliary'=>[
+					'mucocilliary',
+				],
+				'mucopolysaccharidosis'=>[
+					'mucopolysaccaridosis',
+				],
 				'mucoprotein'=>[
 					'mucoprotien',
 				],
+				'mucopurulent'=>[
+					'mucopurelent',
+					'mucopurulant',
+				],
+				'mucosal'=>[
+					'mucousal',
+				],
 				'mucous'=>[
 					'mucuous',
+				],
+				'mucoviscidose'=>[
+					'mucovidose',
 				],
 				'mudguard'=>[
 					'mudgaurd',
@@ -5532,6 +6112,9 @@
 				'mujahidin'=>[
 					'mujaidin',
 				],
+				'mulatto'=>[
+					'mullato',
+				],
 				'mulberry'=>[
 					'mulbery',
 				],
@@ -5572,9 +6155,19 @@
 				'multicellular'=>[
 					'multicelluler',
 					'multicelular',
+					'multicelluar',
 				],
 				'multichannel'=>[
 					'multichanel',
+				],
+				'multiciliated'=>[
+					'multicilated',
+				],
+				'multicistronic'=>[
+					'multicystronic',
+				],
+				'multicollinearity'=>[
+					'multicolinearity',
 				],
 				'multicurrencies'=>[
 					'multicurencies',
@@ -5597,6 +6190,9 @@
 				],
 				'multifarious'=>[
 					'multifarous',
+				],
+				'multiferroicity'=>[
+					'multiferrocity',
 				],
 				'multifilament'=>[
 					'multifilamant',
@@ -5625,6 +6221,9 @@
 				],
 				'multimember'=>[
 					'multimber',
+				],
+				'multimeric'=>[
+					'mulitmeric',
 				],
 				'multimillennial'=>[
 					'multimillenial',
@@ -5712,6 +6311,9 @@
 				'multisense'=>[
 					'multisence',
 				],
+				'multitude'=>[
+					'multitide',
+				],
 				'multivalence'=>[
 					'multivalance',
 				],
@@ -5720,6 +6322,9 @@
 				],
 				'multivariable'=>[
 					'multivariible',
+				],
+				'multivesicular'=>[
+					'multivescicular',
 				],
 				'multivoltine'=>[
 					'multivoltini',
@@ -5838,6 +6443,9 @@
 				'murine'=>[
 					'murini',
 				],
+				'muropeptide'=>[
+					'meuropeptide',
+				],
 				'murr'=>[
 					'mur',
 				],
@@ -5866,6 +6474,7 @@
 				],
 				'muscarinic'=>[
 					'muscarinac',
+					'muscuranic',
 				],
 				'muscat'=>[
 					'mucat',
@@ -5910,6 +6519,9 @@
 					'mucsulature',
 					'muculature',
 					'musulature',
+				],
+				'musculocutaneous'=>[
+					'musulocutaneous',
 				],
 				'musculoskeletal'=>[
 					'mucsuloskeletal',
@@ -6056,6 +6668,9 @@
 				'mutable'=>[
 					'mutible',
 				],
+				'mutagenicity'=>[
+					'mutagenecity',
+				],
 				'mutant'=>[
 					'mutent',
 				],
@@ -6067,6 +6682,9 @@
 				],
 				'mutely'=>[
 					'mutly',
+				],
+				'mutilate'=>[
+					'mutiliate',
 				],
 				'mutilations'=>[
 					'mutilatons',
@@ -6108,11 +6726,49 @@
 				'mycelian'=>[
 					'mycelan',
 				],
+				'mycobacterial'=>[
+					'myobacterial',
+				],
+				'mycophenolate'=>[
+					'mycofenolate',
+				],
 				'mycorrhiza'=>[
 					'mycorhiza',
 				],
+				'mycorrhizal'=>[
+					'mycorrhyzal',
+				],
+				'mycorrhizospheric'=>[
+					'mycorhizospheric',
+				],
 				'myelinated'=>[
 					'myelinited',
+				],
+				'myelitis'=>[
+					'myletis',
+				],
+				'myeloablative'=>[
+					'myoablative',
+				],
+				'myeloblastosis'=>[
+					'myeoloblastosis',
+					'myoblastosis',
+				],
+				'myelogram'=>[
+					'mielogram',
+				],
+				'myeloma'=>[
+					'myelum',
+				],
+				'myeloperoxidase'=>[
+					'mieloperoxidase',
+					'myeloperoxydase',
+				],
+				'myelopoiesis'=>[
+					'myelopoeisis',
+				],
+				'myiasis'=>[
+					'miasis',
 				],
 				'mylar'=>[
 					'myler',
@@ -6123,12 +6779,48 @@
 				'mynahs'=>[
 					'mynas',
 				],
+				'myo-wun'=>[
+					'may-woon',
+				],
+				'myofascial'=>[
+					'myofacial',
+				],
 				'myofibrillar'=>[
 					'myofibriller',
+				],
+				'myopiagenic'=>[
+					'myopiogenic',
+				],
+				'myositic'=>[
+					'mysositic',
+				],
+				'myositis'=>[
+					'mysositis',
+				],
+				'myosuppressin'=>[
+					'myosupressin',
+				],
+				'myotomy'=>[
+					'mysiotomy',
 				],
 				'myriad'=>[
 					'miriad',
 					'myraid',
+				],
+				'myricetin'=>[
+					'myrecetin',
+				],
+				'myristate'=>[
+					'meristate',
+				],
+				'myristoylation'=>[
+					'myristolation',
+				],
+				'myrmecochory'=>[
+					'mirmecochory',
+				],
+				'myrmecophilous'=>[
+					'mymecophilous',
 				],
 				'myrrh'=>[
 					'myrh',
@@ -6153,6 +6845,15 @@
 				],
 				'mythopoeic'=>[
 					'mythopoiec',
+				],
+				'myxococcal'=>[
+					'myxoccocal',
+				],
+				'myxopapillary'=>[
+					'mixopapillary',
+				],
+				'myxozoan'=>[
+					'myzozoan',
 				],
 				'mötley crüe'=>[
 					'motley crue',

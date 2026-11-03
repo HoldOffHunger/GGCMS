@@ -32,6 +32,12 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Rachmanism'=>[
+					'rackmanism',
+				],
+				'Rottweiler'=>[
+					'rottweiller',
+				],
 				'rabbet'=>[
 					'rabet',
 				],
@@ -120,6 +126,7 @@
 				],
 				'racquetball'=>[
 					'racquetbal',
+					'raquetball',
 				],
 				'radar'=>[
 					'rader',
@@ -158,11 +165,20 @@
 					'radiochemicalely',
 					'radiochemicallly',
 				],
+				'radioimmunosorbent'=>[
+					'radioimmunosorbant',
+				],
+				'radioiodinated'=>[
+					'radioiodonated',
+				],
 				'radiolarian'=>[
 					'radiolaran',
 				],
 				'radiolucency'=>[
 					'radiolucensy',
+				],
+				'radiometric'=>[
+					'radiomeric',
 				],
 				'radular'=>[
 					'raduler',
@@ -304,6 +320,9 @@
 					'rallly',
 					'raly',
 				],
+				'raloxifene'=>[
+					'reloxifene',
+				],
 				'rambunctious'=>[
 					'rambunctous',
 				],
@@ -317,6 +336,9 @@
 				'ramie'=>[
 					'ramei',
 					'rami',
+				],
+				'ramification'=>[
+					'ramnification',
 				],
 				'rammed'=>[
 					'ramned',
@@ -351,6 +373,9 @@
 				'rampart'=>[
 					'rampert',
 				],
+				'ramphastid'=>[
+					'rhamphastid',
+				],
 				'ran'=>[
 					'ran ran',
 					'ran ran ran',
@@ -360,6 +385,9 @@
 				],
 				'rance'=>[
 					'rence',
+				],
+				'randomly'=>[
+					'randomally',
 				],
 				'range'=>[
 					'range range',
@@ -387,6 +415,9 @@
 					'rapaciousely',
 					'rapaciouslly',
 					'rapacously',
+				],
+				'rapamycin'=>[
+					'rapamycine',
 				],
 				'rapidly'=>[
 					'rapidally',
@@ -455,6 +486,7 @@
 				],
 				'rapport'=>[
 					'raport',
+					'repoire',
 				],
 				'rapporteur'=>[
 					'raporteur',
@@ -547,6 +579,9 @@
 				'ratiocinators'=>[
 					'ratiocinitors',
 				],
+				'ratiometric'=>[
+					'ratiomeric',
+				],
 				'rationalize'=>[
 					'raticnalize',
 				],
@@ -579,6 +614,9 @@
 				],
 				'raúl'=>[
 					'raul',
+				],
+				'reabsorptive'=>[
+					'reabsorbtive',
 				],
 				'reaccede'=>[
 					'reacede',
@@ -628,6 +666,9 @@
 				'reacclimatizing'=>[
 					'reaclimatizing',
 					'recclimatizing',
+				],
+				'reaccommodation'=>[
+					'reaccomodation',
 				],
 				'reaccreditation'=>[
 					'reacreditation',
@@ -707,6 +748,9 @@
 					'read read',
 					'read read read',
 					'raed',
+				],
+				'readability'=>[
+					'readibility',
 				],
 				'readable'=>[
 					'readible',
@@ -827,6 +871,7 @@
 					'reallly',
 					'realy',
 					'relly',
+					'realley',
 				],
 				'realm'=>[
 					'relm',
@@ -1033,6 +1078,12 @@
 				'rebbetzins'=>[
 					'rebetzins',
 				],
+				'rebeccamycin'=>[
+					'rebaccamycin',
+				],
+				'rebel'=>[
+					'rebble',
+				],
 				'rebellion'=>[
 					'rebelion',
 					'rebellian',
@@ -1043,6 +1094,9 @@
 				],
 				'rebelliously'=>[
 					'rebellously',
+				],
+				'reboxetine'=>[
+					'ruboxetine',
 				],
 				'rebroadcast'=>[
 					'rebroadcasted',
@@ -1088,6 +1142,9 @@
 				],
 				'recces'=>[
 					'reces',
+				],
+				'recede'=>[
+					'receed',
 				],
 				'receded'=>[
 					'receeded',
@@ -1160,6 +1217,9 @@
 				'recessionary'=>[
 					'recessionery',
 				],
+				'recessive'=>[
+					'resessive',
+				],
 				'recessively'=>[
 					'recessivly',
 				],
@@ -1184,6 +1244,9 @@
 					'recipiant',
 					'recipint',
 				],
+				'reciprocal'=>[
+					'reciprical',
+				],
 				'reckless'=>[
 					'reckles',
 					'wreckless',
@@ -1193,6 +1256,9 @@
 				],
 				'reclassify'=>[
 					'reclasify',
+				],
+				'reclinable'=>[
+					'reclineable',
 				],
 				'reclinate'=>[
 					'reclinite',
@@ -1273,6 +1339,9 @@
 				],
 				'recombine'=>[
 					'recombini',
+				],
+				'recombinogenic'=>[
+					'recombogenic',
 				],
 				'recommence'=>[
 					'recommance',
@@ -1508,8 +1577,18 @@
 					'rectilinearely',
 					'rectilinearlly',
 				],
+				'rectosigmoid'=>[
+					'rectosygmoid',
+				],
+				'rectovesical'=>[
+					'rectovesicular',
+				],
+				'rectovestibular'=>[
+					'retrovestibular',
+				],
 				'recumbency'=>[
 					'recumbensy',
+					'recumbancy',
 				],
 				'recuperate'=>[
 					'recouperate',
@@ -1536,6 +1615,9 @@
 				],
 				'recusing'=>[
 					'recuisng',
+				],
+				'recycle'=>[
+					'recicle',
 				],
 				'red'=>[
 					'red red',
@@ -1587,6 +1669,9 @@
 					'redicsover',
 					'redisover',
 				],
+				'redispersibility'=>[
+					'redispersability',
+				],
 				'redline'=>[
 					'redlini',
 				],
@@ -1618,6 +1703,9 @@
 				],
 				'reducible'=>[
 					'reducable',
+				],
+				'reductase'=>[
+					'reducatase',
 				],
 				'redundancy'=>[
 					'redundansy',
@@ -1834,6 +1922,9 @@
 				'refrigerant'=>[
 					'refrigerent',
 				],
+				'refrigerate'=>[
+					'refridgerate',
+				],
 				'refrigeration'=>[
 					'refridgeration',
 				],
@@ -1878,6 +1969,9 @@
 				'reggaes'=>[
 					'regaes',
 				],
+				'reggaeton'=>[
+					'reggeaton',
+				],
 				'regiment'=>[
 					'regimant',
 				],
@@ -1898,6 +1992,7 @@
 					'region region region',
 					'regoin',
 					'reigon',
+					'rigion',
 				],
 				'regional'=>[
 					'regionial',
@@ -1991,6 +2086,9 @@
 				],
 				'rehousing'=>[
 					'rehouisng',
+				],
+				'rehydration'=>[
+					'rehydratation',
 				],
 				'rei'=>[
 					'rie',
@@ -2288,6 +2386,9 @@
 				'reinterprets'=>[
 					'rienterprets',
 				],
+				'reinterring'=>[
+					'reintering',
+				],
 				'reinterviewing'=>[
 					'rienterviewing',
 				],
@@ -2336,6 +2437,9 @@
 				],
 				'reinvestment'=>[
 					'rienvestment',
+				],
+				'reinvestor'=>[
+					'reinvester',
 				],
 				'reinvigorate'=>[
 					'rienvigorate',
@@ -2412,6 +2516,9 @@
 				'reknotting'=>[
 					'rekotting',
 				],
+				'relatable'=>[
+					'realatable',
+				],
 				'related'=>[
 					'realted',
 				],
@@ -2438,6 +2545,13 @@
 				],
 				'relaxant'=>[
 					'relaxent',
+				],
+				'relaxosome'=>[
+					'relaxasome',
+					'relaxome',
+				],
+				'releasability'=>[
+					'releaseability',
 				],
 				'releasable'=>[
 					'releasible',
@@ -2476,6 +2590,7 @@
 				'relevance'=>[
 					'relevence',
 					'revelance',
+					'relavence',
 				],
 				'relevancy'=>[
 					'relevansy',
@@ -2485,6 +2600,7 @@
 					'relavent',
 					'relevent',
 					'revelant',
+					'relavant',
 				],
 				'reliability'=>[
 					'reliablity',
@@ -2577,6 +2693,7 @@
 				],
 				'remanence'=>[
 					'remanance',
+					'remenance',
 				],
 				'remanned'=>[
 					'remaned',
@@ -2592,6 +2709,7 @@
 					'remarkabaly',
 					'remarkabely',
 					'remarkablly',
+					'remarkabley',
 				],
 				'remarry'=>[
 					'remary',
@@ -2652,6 +2770,9 @@
 				'remembrances'=>[
 					'rembrances',
 					'rememberances',
+				],
+				'remifentanil'=>[
+					'remifentanyl',
 				],
 				'reminisce'=>[
 					'reminasce',
@@ -2960,6 +3081,9 @@
 					'reoriant',
 					'reorint',
 				],
+				'reovirus'=>[
+					'rheovirus',
+				],
 				'repaid'=>[
 					'repayed',
 				],
@@ -3013,6 +3137,10 @@
 					'repeatly',
 					'repetedly',
 				],
+				'repechage'=>[
+					'repecharge',
+					'repercharge',
+				],
 				'repel'=>[
 					'repell',
 				],
@@ -3021,6 +3149,7 @@
 				],
 				'repellency'=>[
 					'repellensy',
+					'repellancy',
 				],
 				'repellent'=>[
 					'repelent',
@@ -3046,6 +3175,7 @@
 				'repetition'=>[
 					'repetion',
 					'repitition',
+					'repeatation',
 				],
 				'repetitious'=>[
 					'repetitous',
@@ -3066,6 +3196,9 @@
 				],
 				'repine'=>[
 					'repini',
+				],
+				'replaceable'=>[
+					'replacable',
 				],
 				'replacement'=>[
 					'replacemant',
@@ -3140,9 +3273,13 @@
 					'represenative',
 					'representitive',
 					'representive',
+					'reperesentative',
 				],
 				'representatives'=>[
 					'representives',
+				],
+				'representativity'=>[
+					'representivity',
 				],
 				'represented'=>[
 					'repersented',
@@ -3194,6 +3331,10 @@
 				'reprobance'=>[
 					'reprobence',
 				],
+				'reproducibility'=>[
+					'reproducability',
+					'reproduceability',
+				],
 				'reproducible'=>[
 					'reproducable',
 				],
@@ -3228,6 +3369,9 @@
 				],
 				'repudiating'=>[
 					'repudating',
+				],
+				'repudiation'=>[
+					'repuditation',
 				],
 				'repugnance'=>[
 					'repugnence',
@@ -3320,6 +3464,9 @@
 					'rescuse',
 					'resue',
 				],
+				'resealable'=>[
+					'resilable',
+				],
 				'research'=>[
 					'reasearch',
 					'reseach',
@@ -3351,6 +3498,9 @@
 				'resentment'=>[
 					'resenment',
 					'resentmant',
+				],
+				'reserpine'=>[
+					'rezerpine',
 				],
 				'reservoir'=>[
 					'resevoir',
@@ -3437,6 +3587,7 @@
 				'resistance'=>[
 					'resislance',
 					'resistence',
+					'reisistance',
 				],
 				'resistant'=>[
 					'resistent',
@@ -3465,11 +3616,21 @@
 				'resonant'=>[
 					'resonent',
 				],
+				'resorufin'=>[
+					'resofurin',
+					'resorfurin',
+				],
 				'resource'=>[
 					'resourse',
 				],
 				'resources'=>[
 					'resrouces',
+				],
+				'respatialization'=>[
+					'respacialization',
+				],
+				'respatialize'=>[
+					'respacialize',
 				],
 				'respect'=>[
 					'repect',
@@ -3706,6 +3867,11 @@
 					'resucsitator',
 					'resusitator',
 				],
+				'resveratrol'=>[
+					'reservatrol',
+					'resveretrol',
+					'reversatrol',
+				],
 				'retable'=>[
 					'retible',
 				],
@@ -3718,11 +3884,17 @@
 				'retaliation'=>[
 					'retailation',
 				],
+				'retard'=>[
+					'reatard',
+				],
 				'retardant'=>[
 					'retardent',
 				],
 				'retardants'=>[
 					'retardents',
+				],
+				'retarded'=>[
+					'retarted',
 				],
 				'retear'=>[
 					'reteer',
@@ -3750,6 +3922,15 @@
 				],
 				'reticular'=>[
 					'reticuler',
+				],
+				'reticulated'=>[
+					'retulated',
+				],
+				'reticulin'=>[
+					'reticullin',
+				],
+				'reticulospinal'=>[
+					'reticospinal',
 				],
 				'retie'=>[
 					'retei',
@@ -3781,6 +3962,15 @@
 				],
 				'retinitis'=>[
 					'retinatis',
+				],
+				'retinoblastoma'=>[
+					'rentinoblastoma',
+				],
+				'retinochoroidal'=>[
+					'retinochorodial',
+				],
+				'retinopathy'=>[
+					'reinopathy',
 				],
 				'retinular'=>[
 					'retinuler',
@@ -3837,8 +4027,13 @@
 				'retroactively'=>[
 					'retroactivly',
 				],
+				'retrobulbar'=>[
+					'retrobulbal',
+					'retrobulber',
+				],
 				'retrogradely'=>[
 					'retrogradly',
+					'retrogradally',
 				],
 				'retrogression'=>[
 					'retrogresion',
@@ -3852,6 +4047,10 @@
 				],
 				'retroperitoneal'=>[
 					'retroperitonel',
+					'retroperirenal',
+				],
+				'retroperitoneum'=>[
+					'retroperitonium',
 				],
 				'retrospectively'=>[
 					'retrospectiveally',
@@ -3859,6 +4058,10 @@
 					'retrospectiveely',
 					'retrospectivelly',
 					'retrospectivly',
+				],
+				'retrosplenial'=>[
+					'retroplenial',
+					'retrospenial',
 				],
 				'retsina'=>[
 					'retsini',
@@ -3962,6 +4165,9 @@
 				'reverential'=>[
 					'reverantial',
 				],
+				'reverently'=>[
+					'reverantly',
+				],
 				'reverie'=>[
 					'reverei',
 					'reveri',
@@ -4059,6 +4265,33 @@
 				'rhabdomancy'=>[
 					'rhabdomansy',
 				],
+				'rhabdomere'=>[
+					'rhabomere',
+				],
+				'rhabdomyolysis'=>[
+					'rabdomyolysis',
+				],
+				'rhabdomyosarcoma'=>[
+					'habdomyosarcoma',
+					'rabdomyosarcoma',
+					'rhabdmyosarcoma',
+					'rhabdomyossarcoma',
+				],
+				'rhabdosphincter'=>[
+					'rabdosphincter',
+				],
+				'rhabdovirus'=>[
+					'rhabovirus',
+				],
+				'rhamnogalacturonan'=>[
+					'ramnogalacturonan',
+				],
+				'rhamnulokinase'=>[
+					'ramnulokinase',
+				],
+				'rhathymia'=>[
+					'rathymia',
+				],
 				'rhea'=>[
 					'rhe',
 				],
@@ -4067,6 +4300,10 @@
 				],
 				'rhetorician'=>[
 					'rhetorican',
+					'rhetoritician',
+				],
+				'rheumatological'=>[
+					'reumatological',
 				],
 				'rhinal'=>[
 					'rhinil',
@@ -4080,16 +4317,50 @@
 				'rhinitis'=>[
 					'rhinatis',
 				],
+				'rhinoceros'=>[
+					'rhinocerus',
+				],
+				'rhinocerotid'=>[
+					'rhinocerothid',
+				],
+				'rhinorrhea'=>[
+					'rhinorhea',
+				],
 				'rhinoscopy'=>[
 					'rhinocopy',
 					'rhinocsopy',
 					'rhinosopy',
 				],
+				'rhizosphere'=>[
+					'rizosphere',
+				],
+				'rhodanase'=>[
+					'rhodonase',
+				],
 				'rhode island'=>[
 					'rode island',
 				],
+				'rhodococosis'=>[
+					'rhodoccocosis',
+					'rhodococcosis',
+				],
+				'rhodolith'=>[
+					'rodholith',
+				],
 				'rhodope mountains'=>[
 					'rodopi mountain',
+				],
+				'rhombencephalon'=>[
+					'rhombencephon',
+				],
+				'rhomboencephalic'=>[
+					'romboencephalic',
+				],
+				'rhynchocephalian'=>[
+					'rhyncocephalian',
+				],
+				'rhynchophylline'=>[
+					'rhyncophylline',
 				],
 				'rhythm'=>[
 					'rhythem',
@@ -4102,6 +4373,10 @@
 				],
 				'riant'=>[
 					'rient',
+				],
+				'ribavirin'=>[
+					'rebavirin',
+					'rivabirin',
 				],
 				'ribband'=>[
 					'riband',
@@ -4133,6 +4408,13 @@
 				'ribonuclease'=>[
 					'ribonuclese',
 				],
+				'ribonucleoprotein'=>[
+					'riboncleoprotein',
+					'ribonulceoprotein',
+				],
+				'riboprobe'=>[
+					'ripoprobe',
+				],
 				'ricercar'=>[
 					'ricercer',
 				],
@@ -4146,6 +4428,9 @@
 				],
 				'riches'=>[
 					'richs',
+				],
+				'rickettsias'=>[
+					'rickettsiaes',
 				],
 				'ricochet'=>[
 					'richochet',
@@ -4174,6 +4459,12 @@
 				],
 				'riel'=>[
 					'reil',
+				],
+				'rifampicin'=>[
+					'rafampacin',
+				],
+				'rifapentine'=>[
+					'rifapentene',
 				],
 				'rifely'=>[
 					'rifly',
@@ -4225,8 +4516,14 @@
 				'rigorous'=>[
 					'rigourous',
 				],
+				'rijsttafel'=>[
+					'rijstaffel',
+				],
 				'rill'=>[
 					'ril',
+				],
+				'rimantadine'=>[
+					'remantadine',
 				],
 				'rimmed'=>[
 					'rimned',
@@ -4333,8 +4630,16 @@
 					'rise rise',
 					'rise rise rise',
 				],
+				'risedronate'=>[
+					'residronate',
+					'risendronate',
+				],
 				'risible'=>[
 					'risable',
+					'riseable',
+				],
+				'risk-averse'=>[
+					'risk-adverse',
 				],
 				'risperdal'=>[
 					'risperidal',
@@ -4369,8 +4674,14 @@
 				'rituals'=>[
 					'ritauls',
 				],
+				'rituximab'=>[
+					'rituximub',
+				],
 				'rivalry'=>[
 					'rivarly',
+				],
+				'rivastigmine'=>[
+					'revastigmine',
 				],
 				'river'=>[
 					'river river',
@@ -4450,6 +4761,9 @@
 				'rockhopper'=>[
 					'rockhoper',
 				],
+				'rocuronium'=>[
+					'recuronium',
+				],
 				'rodent'=>[
 					'rodant',
 				],
@@ -4483,6 +4797,9 @@
 					'rol',
 					'roll roll',
 					'roll roll roll',
+				],
+				'rollaboard'=>[
+					'rollerboard',
 				],
 				'rollback'=>[
 					'rolback',
@@ -4574,6 +4891,9 @@
 					'rocsoe',
 					'rosoe',
 				],
+				'roscovitine'=>[
+					'rocovitine',
+				],
 				'rose'=>[
 					'rose rose',
 					'rose rose rose',
@@ -4590,17 +4910,30 @@
 				'roseolar'=>[
 					'roseoler',
 				],
+				'rosetophylous'=>[
+					'rosetophilous',
+				],
+				'rosiglitazone'=>[
+					'resiglitazone',
+					'risoglitazone',
+				],
 				'rostellar'=>[
 					'rosteller',
 				],
 				'rosy'=>[
 					'rocy',
 				],
+				'rotamer'=>[
+					'rotomer',
+				],
 				'rotary'=>[
 					'rotery',
 				],
 				'rotatively'=>[
 					'rotativly',
+				],
+				'rotavirus'=>[
+					'rotovirus',
 				],
 				'rotisserie'=>[
 					'rotiserie',
@@ -4621,6 +4954,7 @@
 				],
 				'roughly'=>[
 					'rougly',
+					'roughtly',
 				],
 				'round'=>[
 					'round round',
@@ -4762,6 +5096,9 @@
 				'rubious'=>[
 					'rubous',
 				],
+				'rubrerythrin'=>[
+					'ruberythrin',
+				],
 				'rubrician'=>[
 					'rubrican',
 				],
@@ -4861,6 +5198,7 @@
 				],
 				'rumbustious'=>[
 					'rumbustous',
+					'rumbustuous',
 				],
 				'rumbustiously'=>[
 					'rumbustiousally',
@@ -4962,6 +5300,9 @@
 				],
 				'runcinate'=>[
 					'runcinite',
+				],
+				'runnable'=>[
+					'runable',
 				],
 				'runnel'=>[
 					'runel',

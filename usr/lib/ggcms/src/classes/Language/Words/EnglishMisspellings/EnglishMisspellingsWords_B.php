@@ -32,6 +32,18 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Bobbittise'=>[
+					'bobbitise',
+				],
+				'Bobbittize'=>[
+					'bobbitize',
+				],
+				'Bolshevism'=>[
+					'bolschevism',
+				],
+				'Boralean'=>[
+					'boraelan',
+				],
 				'babbitries'=>[
 					'babitries',
 				],
@@ -168,6 +180,15 @@
 				'bacillary'=>[
 					'bacillery',
 				],
+				'bacilloscopic'=>[
+					'baciloscopic',
+				],
+				'bacilloscopist'=>[
+					'baciloscopist',
+				],
+				'bacilloscopy'=>[
+					'baciloscopy',
+				],
 				'bacillus'=>[
 					'bacilus',
 				],
@@ -216,6 +237,9 @@
 				],
 				'backlogging'=>[
 					'backloging',
+				],
+				'backpacker'=>[
+					'bagpacker',
 				],
 				'backpedal'=>[
 					'backpeddle',
@@ -279,6 +303,12 @@
 				'backwoodsy'=>[
 					'backwoodcy',
 				],
+				'baclofen'=>[
+					'baclophen',
+				],
+				'bactericidal'=>[
+					'antibactericidal',
+				],
 				'bactericidally'=>[
 					'bactericidaly',
 				],
@@ -289,6 +319,23 @@
 				'bacteriophagies'=>[
 					'bacteriophageis',
 					'bacteriophagis',
+				],
+				'bacterivorous'=>[
+					'bacteriovorous',
+				],
+				'bacterivory'=>[
+					'bacteriovory',
+				],
+				'bactoprenol'=>[
+					'bactophenol',
+				],
+				'baculoviral'=>[
+					'bacculoviral',
+				],
+				'baculovirus'=>[
+					'bacculovirus',
+					'baclovirus',
+					'buculovirus',
 				],
 				'bad'=>[
 					'bad bad',
@@ -315,6 +362,7 @@
 				'badminton'=>[
 					'badmiton',
 					'badmitton',
+					'badmitten',
 				],
 				'baffled'=>[
 					'baffeld',
@@ -345,6 +393,9 @@
 				'bahadurs'=>[
 					'baadurs',
 				],
+				'bahanji'=>[
+					'behenji',
+				],
 				'bahraini-occupied'=>[
 					'bahraini occupied',
 				],
@@ -370,8 +421,14 @@
 				'bakeapple'=>[
 					'bakeaple',
 				],
+				'balaenopterid'=>[
+					'balanaeopterid',
+				],
 				'balance'=>[
 					'balence',
+				],
+				'balanceable'=>[
+					'balancable',
 				],
 				'balances'=>[
 					'balanzes',
@@ -419,11 +476,23 @@
 				'ballistic'=>[
 					'balistic',
 				],
+				'ballistically'=>[
+					'balistically',
+				],
 				'ballistics'=>[
 					'balistics',
 				],
+				'ballistocardiogram'=>[
+					'balistocardiogram',
+				],
 				'balloon'=>[
 					'baloon',
+				],
+				'ballooner'=>[
+					'balloonneer',
+				],
+				'ballooners'=>[
+					'balloonneers',
 				],
 				'ballot'=>[
 					'balot',
@@ -489,6 +558,9 @@
 				'banausic'=>[
 					'banauisc',
 				],
+				'banchan'=>[
+					'panchan',
+				],
 				'band'=>[
 					'band band',
 					'band band band',
@@ -504,6 +576,9 @@
 				],
 				'bandleader'=>[
 					'bandleder',
+				],
+				'bandlimitedness'=>[
+					'bandlimitness',
 				],
 				'bandwidth'=>[
 					'bandwith',
@@ -546,6 +621,9 @@
 				],
 				'bannable'=>[
 					'bannible',
+				],
+				'banned'=>[
+					'banend',
 				],
 				'banner'=>[
 					'baner',
@@ -592,6 +670,9 @@
 					'bar bar',
 					'bar bar bar',
 				],
+				'bar mitzvah'=>[
+					'barmitzvah',
+				],
 				'barbadian-occupied'=>[
 					'barbadian occupied',
 				],
@@ -634,6 +715,12 @@
 					'barfely',
 					'barflly',
 				],
+				'barista'=>[
+					'barrista',
+				],
+				'baristas'=>[
+					'barristas',
+				],
 				'barn-like'=>[
 					'barnlike',
 				],
@@ -648,6 +735,12 @@
 				],
 				'baroquely'=>[
 					'baroquly',
+				],
+				'barotropic'=>[
+					'barothropic',
+				],
+				'barotropy'=>[
+					'barotrophy',
 				],
 				'barquentine'=>[
 					'barquentini',
@@ -753,6 +846,9 @@
 				'barrow'=>[
 					'barow',
 				],
+				'barycenter'=>[
+					'baricenter',
+				],
 				'barère'=>[
 					'barere',
 				],
@@ -791,6 +887,13 @@
 					'basicallly',
 					'basicaly',
 					'basicly',
+					'bassically',
+				],
+				'basidiomycete'=>[
+					'basidomycete',
+				],
+				'basidiospore'=>[
+					'basidospore',
 				],
 				'basilar'=>[
 					'basiler',
@@ -800,6 +903,9 @@
 				],
 				'basinal'=>[
 					'basinil',
+				],
+				'basipetal'=>[
+					'basipedal',
 				],
 				'basketball'=>[
 					'basketbal',
@@ -839,6 +945,9 @@
 					'bat bat',
 					'bat bat bat',
 				],
+				'bat mitzvah'=>[
+					'batmitzvah',
+				],
 				'batallion'=>[
 					'batalian',
 					'batalion',
@@ -851,6 +960,13 @@
 				],
 				'batches'=>[
 					'batchs',
+				],
+				'bathocuproine'=>[
+					'bathocuprione',
+					'bathrocuproine',
+				],
+				'bathophenanthroline'=>[
+					'bathophenantroline',
 				],
 				'bathroom'=>[
 					'bathrooom',
@@ -901,6 +1017,12 @@
 				],
 				'bazar'=>[
 					'bazer',
+				],
+				'bazillion'=>[
+					'bzillion',
+				],
+				'bazillionaire'=>[
+					'bzillionaire',
 				],
 				'be'=>[
 					'be be',
@@ -1046,6 +1168,7 @@
 					'beautyfull',
 					'beutiful',
 					'bueatiful',
+					'beautyful',
 				],
 				'beautifullest'=>[
 					'beutifullest',
@@ -1065,6 +1188,9 @@
 					'beauty beauty',
 					'beauty beauty beauty',
 					'beuty',
+				],
+				'beauvericin'=>[
+					'bauvericin',
 				],
 				'beaux'=>[
 					'beux',
@@ -1113,6 +1239,9 @@
 				'beclogging'=>[
 					'becloging',
 				],
+				'beclomethasone'=>[
+					'belcomethasone',
+				],
 				'become'=>[
 					'bacome',
 					'beceme',
@@ -1136,6 +1265,9 @@
 				],
 				'bedabbling'=>[
 					'bedabling',
+				],
+				'bedaquiline'=>[
+					'bedaquilline',
 				],
 				'bedarkened'=>[
 					'bedarkend',
@@ -1287,6 +1419,9 @@
 				'begoggledbewiggingbraggiest'=>[
 					'begoggledbewiggingbragiest',
 				],
+				'begomovirus'=>[
+					'begamovirus',
+				],
 				'begorah'=>[
 					'begora',
 				],
@@ -1409,6 +1544,7 @@
 					'believeable',
 					'believible',
 					'belivable',
+					'beleaveable',
 				],
 				'believe'=>[
 					'beleave',
@@ -1425,6 +1561,7 @@
 				],
 				'believer'=>[
 					'beliver',
+					'beleiver',
 				],
 				'believers'=>[
 					'beleivers',
@@ -1456,6 +1593,9 @@
 				'belladonna'=>[
 					'beladonna',
 					'belladona',
+				],
+				'belladonnine'=>[
+					'belladonine',
 				],
 				'belle'=>[
 					'bele',
@@ -1497,6 +1637,9 @@
 					'bellweather',
 					'belwether',
 				],
+				'bellwethers'=>[
+					'bellweathers',
+				],
 				'belly'=>[
 					'belally',
 					'belaly',
@@ -1505,6 +1648,9 @@
 				],
 				'belongingnesses'=>[
 					'belongingneses',
+				],
+				'belostomatid'=>[
+					'belostomid',
 				],
 				'bemaddened'=>[
 					'bemaddend',
@@ -1521,6 +1667,9 @@
 				'benches'=>[
 					'benchs',
 				],
+				'bendamustine'=>[
+					'benadamustine',
+				],
 				'beneath'=>[
 					'beneth',
 				],
@@ -1529,6 +1678,7 @@
 				],
 				'beneficence'=>[
 					'beneficance',
+					'beneficience',
 				],
 				'beneficial'=>[
 					'benefical',
@@ -1558,6 +1708,9 @@
 				],
 				'benevolentness'=>[
 					'benevolantness',
+				],
+				'benfotiamine'=>[
+					'benfotamine',
 				],
 				'benghazi'=>[
 					'bengahzi',
@@ -1597,6 +1750,9 @@
 				'benthal'=>[
 					'bental',
 				],
+				'benthivorous'=>[
+					'bentivorous',
+				],
 				'benthos'=>[
 					'banthos',
 				],
@@ -1609,8 +1765,22 @@
 				'bents'=>[
 					'bants',
 				],
+				'benzamidine'=>[
+					'benzamindine',
+					'benzaminidine',
+					'benzanidine',
+				],
 				'benzanthracenes'=>[
 					'benzenthracenes',
+				],
+				'benzbromarone'=>[
+					'benzbromorone',
+				],
+				'benzenoid'=>[
+					'benzoid',
+				],
+				'benzidine'=>[
+					'bonzidine',
 				],
 				'benzocaine'=>[
 					'benzocaini',
@@ -1618,10 +1788,16 @@
 				'benzodiazepine'=>[
 					'benzodiazapine',
 					'benzodiazepini',
+					'benzodiapine',
+					'benzodiazepene',
 				],
 				'benzodiazepines'=>[
 					'benzodiazapines',
 					'benzodiazepinis',
+				],
+				'benzonase'=>[
+					'bensonase',
+					'benzoase',
 				],
 				'bequeathal'=>[
 					'bequeatal',
@@ -1716,8 +1892,12 @@
 				'betrayed'=>[
 					'betrayeed',
 				],
+				'betroth'=>[
+					'bethroth',
+				],
 				'betrothal'=>[
 					'betrotal',
+					'bethrothal',
 				],
 				'better'=>[
 					'beter',
@@ -1743,6 +1923,9 @@
 				],
 				'between its'=>[
 					'between it\'s',
+				],
+				'betweenness'=>[
+					'betweeness',
 				],
 				'betweennesses'=>[
 					'betweenesses',
@@ -1822,6 +2005,9 @@
 					'bibliotherapeis',
 					'bibliotherapis',
 				],
+				'bicalutamide'=>[
+					'bicultamide',
+				],
 				'bicentenary'=>[
 					'bicentenery',
 				],
@@ -1835,6 +2021,31 @@
 				'biceps'=>[
 					'bicep',
 				],
+				'bicinchoninic'=>[
+					'bicinchonic',
+					'bicinchronic',
+					'bicinchroninic',
+				],
+				'bicistronic'=>[
+					'bicystronic',
+				],
+				'biclonal'=>[
+					'bioclonal',
+				],
+				'bicommissural'=>[
+					'bicomissural',
+					'bicommisural',
+				],
+				'bicondylar'=>[
+					'bicondilar',
+				],
+				'bicuculline'=>[
+					'biccuculine',
+					'bicucculine',
+				],
+				'bicycle'=>[
+					'bycicle',
+				],
 				'biddable'=>[
 					'biddible',
 				],
@@ -1843,6 +2054,7 @@
 				],
 				'bidentate'=>[
 					'bidantate',
+					'bidendate',
 				],
 				'bidirectionally'=>[
 					'bidirectionaly',
@@ -1868,6 +2080,9 @@
 					'beinnium',
 					'bienium',
 					'binnium',
+				],
+				'biepicondylar'=>[
+					'biepicondilar',
 				],
 				'bier'=>[
 					'beir',
@@ -1895,8 +2110,14 @@
 					'big big',
 					'big big big',
 				],
+				'big-boob'=>[
+					'bigboob',
+				],
 				'bigeminal'=>[
 					'bigeminil',
+				],
+				'biggest'=>[
+					'bigest',
 				],
 				'biggety'=>[
 					'bigety',
@@ -1945,6 +2166,9 @@
 				],
 				'bilaterally'=>[
 					'bilateraly',
+				],
+				'bilaterian'=>[
+					'bilatarian',
 				],
 				'bilberry'=>[
 					'bilbery',
@@ -2129,9 +2353,15 @@
 				'binuclear'=>[
 					'binucleer',
 				],
+				'bioavailability'=>[
+					'bioavailibility',
+				],
 				'biochemistries'=>[
 					'biochemistreis',
 					'biochemistris',
+				],
+				'biocompatibility'=>[
+					'biocompability',
 				],
 				'biocompatible'=>[
 					'biocompatable',
@@ -2152,6 +2382,9 @@
 				'bioengineerings'=>[
 					'bioenginierings',
 				],
+				'biofragmentable'=>[
+					'biofragmental',
+				],
 				'biogenetically'=>[
 					'biogeneticaly',
 				],
@@ -2164,6 +2397,12 @@
 				],
 				'biography'=>[
 					'biographie',
+				],
+				'bioimpedance'=>[
+					'bioimpedence',
+				],
+				'biological'=>[
+					'bological',
 				],
 				'bioluminescence'=>[
 					'bioluminecence',
@@ -2178,6 +2417,9 @@
 					'bioluminescant',
 					'bioluminesent',
 					'bioluminiscent',
+				],
+				'bioluminometric'=>[
+					'bioluminometic',
 				],
 				'biomass'=>[
 					'biomas',
@@ -2195,6 +2437,9 @@
 				'biometrician'=>[
 					'biometrican',
 				],
+				'biomimetic'=>[
+					'bimimetic',
+				],
 				'biomolecular'=>[
 					'biomoleculer',
 				],
@@ -2203,6 +2448,9 @@
 				],
 				'biomorphs'=>[
 					'biomourphs',
+				],
+				'biopersistence'=>[
+					'biopersistance',
 				],
 				'biopiracy'=>[
 					'biopirasy',
@@ -2236,6 +2484,12 @@
 					'biocsope',
 					'biosope',
 				],
+				'biosilicification'=>[
+					'biosilification',
+				],
+				'biospeleologist'=>[
+					'biospeologist',
+				],
 				'biostatistician'=>[
 					'biostatistican',
 				],
@@ -2246,6 +2500,9 @@
 				'biotelemetries'=>[
 					'biotelemetreis',
 					'biotelemetris',
+				],
+				'bioturbation'=>[
+					'bioturbidation',
 				],
 				'biparental'=>[
 					'biperental',
@@ -2291,6 +2548,15 @@
 				'biparty'=>[
 					'biperty',
 				],
+				'biperiden'=>[
+					'biperidine',
+				],
+				'biphenotypic'=>[
+					'biophenotypic',
+				],
+				'biphosphonate'=>[
+					'biphosphanate',
+				],
 				'bipinnate'=>[
 					'bipinate',
 				],
@@ -2306,6 +2572,9 @@
 				],
 				'bipropellants'=>[
 					'bipropellents',
+				],
+				'bipyridinium'=>[
+					'bipyridylium',
 				],
 				'biquadratic'=>[
 					'biqaudratic',
@@ -2339,6 +2608,9 @@
 				'birrs'=>[
 					'birs',
 				],
+				'bisbenzimide'=>[
+					'bisbenimide',
+				],
 				'biscuit'=>[
 					'bicsuit',
 					'bicuit',
@@ -2358,6 +2630,9 @@
 				],
 				'bismuthal'=>[
 					'bismutal',
+				],
+				'bisphosphonate'=>[
+					'biophosphonate',
 				],
 				'bit'=>[
 					'bit bit',
@@ -2430,9 +2705,11 @@
 				'bizarre'=>[
 					'bizaare',
 					'bizare',
+					'bizzare',
 				],
 				'bizarrely'=>[
 					'bizarrly',
+					'bizzarely',
 				],
 				'bizarreness'=>[
 					'bizareness',
@@ -2570,6 +2847,15 @@
 					'blasphemousely',
 					'blasphemouslly',
 				],
+				'blasticidin'=>[
+					'blastacidin',
+				],
+				'blastocyst'=>[
+					'bastocyst',
+				],
+				'blastodisc'=>[
+					'blastodics',
+				],
 				'blastular'=>[
 					'blastuler',
 				],
@@ -2578,6 +2864,9 @@
 				],
 				'blatant'=>[
 					'blatent',
+				],
+				'blatantly'=>[
+					'blatently',
 				],
 				'bleach'=>[
 					'blech',
@@ -2594,6 +2883,9 @@
 				'bleat'=>[
 					'blet',
 				],
+				'blebbistatin'=>[
+					'bebbistatin',
+				],
 				'blebby'=>[
 					'bleby',
 				],
@@ -2608,6 +2900,9 @@
 				],
 				'blent'=>[
 					'blant',
+				],
+				'blepharicerid'=>[
+					'blepharocerid',
 				],
 				'bless'=>[
 					'bles',
@@ -2784,6 +3079,7 @@
 				],
 				'blunderbuss'=>[
 					'blunderbus',
+					'blunderbust',
 				],
 				'blustery'=>[
 					'blustary',
@@ -2960,8 +3256,14 @@
 				'bolls'=>[
 					'bols',
 				],
+				'bologna'=>[
+					'balogna',
+				],
 				'bolometrically'=>[
 					'bolometricaly',
+				],
+				'bolyeriid'=>[
+					'bolyerid',
 				],
 				'bomb in'=>[
 					'bombin',
@@ -3080,6 +3382,9 @@
 				'bootlessnesses'=>[
 					'bootlessneses',
 				],
+				'bootscanning'=>[
+					'bootscaning',
+				],
 				'bootstrapped'=>[
 					'bootstraped',
 				],
@@ -3095,6 +3400,9 @@
 				'born'=>[
 					'born born',
 					'born born born',
+				],
+				'borohydride'=>[
+					'borohydrate',
 				],
 				'borrelia'=>[
 					'borelia',
@@ -3124,6 +3432,9 @@
 				'boston'=>[
 					'bost',
 				],
+				'bostrichid'=>[
+					'bostrychid',
+				],
 				'botfly'=>[
 					'botfally',
 					'botfaly',
@@ -3135,9 +3446,13 @@
 					'both both',
 					'both both both',
 					'boths',
+					'bolth',
 				],
 				'both the'=>[
 					'the both the',
+				],
+				'botryoid'=>[
+					'botyroid',
 				],
 				'bottom'=>[
 					'bottom bottom',
@@ -3187,6 +3502,9 @@
 					'bouilabaisses',
 					'bouillabaises',
 				],
+				'bouillon'=>[
+					'boullion',
+				],
 				'boulevardier'=>[
 					'boulevardeir',
 					'boulevardir',
@@ -3199,6 +3517,9 @@
 				],
 				'bouleversements'=>[
 					'bouleversemants',
+				],
+				'bounceable'=>[
+					'bouncable',
 				],
 				'bouncy'=>[
 					'bounsy',
@@ -3276,6 +3597,12 @@
 				'bovinity'=>[
 					'bovinaty',
 				],
+				'bow-wow'=>[
+					'baw-waw',
+				],
+				'bowdlerised'=>[
+					'bowlderised',
+				],
 				'bowknot'=>[
 					'bowkot',
 				],
@@ -3333,9 +3660,21 @@
 				'brabbling'=>[
 					'brabling',
 				],
+				'brachiocephalic'=>[
+					'bracheocephalic',
+				],
 				'brachycephalies'=>[
 					'brachycephaleis',
 					'brachycephalis',
+				],
+				'brachycranic'=>[
+					'brachychronic',
+				],
+				'brachydactyly'=>[
+					'brachydactily',
+				],
+				'brachygnathism'=>[
+					'brachygnatism',
 				],
 				'brackish'=>[
 					'brakish',
@@ -3343,14 +3682,24 @@
 				'brackishnesses'=>[
 					'brackishneses',
 				],
+				'bradyarrhythmia'=>[
+					'bradyarrythmia',
+				],
 				'bradykinin'=>[
 					'bradykinan',
 				],
 				'bradykinins'=>[
 					'bradykinans',
 				],
+				'bradytroph'=>[
+					'braditroph',
+				],
+				'bradytrophy'=>[
+					'braditrophy',
+				],
 				'braggadocio'=>[
 					'bragadocio',
+					'braggadoccio',
 				],
 				'braggadocios'=>[
 					'bragadocios',
@@ -3406,12 +3755,18 @@
 				'brainteaser'=>[
 					'brainteser',
 				],
+				'brakeman'=>[
+					'breakman',
+				],
 				'branch'=>[
 					'branch branch',
 					'branch branch branch',
 				],
 				'branches'=>[
 					'branchs',
+				],
+				'branchiostegal'=>[
+					'branchiostegial',
 				],
 				'brannigan'=>[
 					'branigan',
@@ -3433,6 +3788,12 @@
 				'brassiere'=>[
 					'brasseire',
 					'brassire',
+				],
+				'brassinolide'=>[
+					'brasinolide',
+				],
+				'brassinosteroid'=>[
+					'brassinosteriod',
 				],
 				'brassy'=>[
 					'brascy',
@@ -3542,6 +3903,7 @@
 				],
 				'breakfast'=>[
 					'brekfast',
+					'breakfest',
 				],
 				'breaking'=>[
 					'breking',
@@ -3584,6 +3946,7 @@
 				],
 				'breaststroke'=>[
 					'breststroke',
+					'breastroke',
 				],
 				'breaststroker'=>[
 					'breststroker',
@@ -3669,6 +4032,9 @@
 				'bred'=>[
 					'breeded',
 				],
+				'brefeldin'=>[
+					'brefaldin',
+				],
 				'bremsstrahlung'=>[
 					'bremsstralung',
 					'bremstrahlung',
@@ -3690,6 +4056,9 @@
 				],
 				'brevetcy'=>[
 					'brevetsy',
+				],
+				'brevetoxin'=>[
+					'brevitoxin',
 				],
 				'breviary'=>[
 					'breviery',
@@ -3755,6 +4124,9 @@
 				],
 				'brightened'=>[
 					'brightend',
+				],
+				'brightly'=>[
+					'brightley',
 				],
 				'brightness'=>[
 					'brightnes',
@@ -3911,6 +4283,9 @@
 				'bromocriptines'=>[
 					'bromocriptinis',
 				],
+				'bromodeoxyuridine'=>[
+					'bromodeoxiuridine',
+				],
 				'bronchiectases'=>[
 					'broncheictases',
 					'bronchictases',
@@ -3921,6 +4296,10 @@
 				],
 				'bronchiolar'=>[
 					'bronchioler',
+					'bronchioloar',
+				],
+				'bronchodilatory'=>[
+					'bronchodilatatory',
 				],
 				'bronchoscope'=>[
 					'bronchocope',
@@ -3953,6 +4332,9 @@
 					'bronchocopists',
 					'bronchocsopists',
 					'bronchosopists',
+				],
+				'brontotheriid'=>[
+					'brontotherid',
 				],
 				'brosy'=>[
 					'brocy',
@@ -4011,6 +4393,9 @@
 				'brucellosis'=>[
 					'brucelosis',
 				],
+				'bruh'=>[
+					'bruhe',
+				],
 				'brummagem'=>[
 					'brumnagem',
 				],
@@ -4032,6 +4417,9 @@
 				],
 				'bruxelles'=>[
 					'bruxels',
+				],
+				'bryozoan'=>[
+					'bryozan',
 				],
 				'bubba'=>[
 					'buba',
@@ -4119,8 +4507,20 @@
 				'buccinators'=>[
 					'bucinators',
 				],
+				'buccolingual'=>[
+					'buccalingual',
+				],
+				'buccolingually'=>[
+					'bucolingually',
+				],
+				'buccopharyngeal'=>[
+					'buccophayngeal',
+				],
 				'buckyballs'=>[
 					'buckybals',
+				],
+				'buclizine'=>[
+					'buclicine',
 				],
 				'buddha'=>[
 					'buddah',
@@ -4152,6 +4552,9 @@
 				'buena vista social club'=>[
 					'buenavista social club',
 				],
+				'bufadienolide'=>[
+					'bufodienolide',
+				],
 				'buffaloberries'=>[
 					'buffaloberies',
 					'buffaloberreis',
@@ -4162,6 +4565,9 @@
 				],
 				'buffaloes'=>[
 					'buffalos',
+				],
+				'buffoon'=>[
+					'bafoon',
 				],
 				'buffooneries'=>[
 					'buffoonereis',
@@ -4181,6 +4587,7 @@
 				],
 				'buggery'=>[
 					'bugery',
+					'boggery',
 				],
 				'bugginess'=>[
 					'buginess',
@@ -4232,11 +4639,20 @@
 				'built-in'=>[
 					'build-in',
 				],
+				'bukkake'=>[
+					'bukakke',
+				],
 				'bulbar'=>[
 					'bulber',
 				],
 				'bulgarian-occupied'=>[
 					'bulgarian occupied',
+				],
+				'bulimia'=>[
+					'bulemia',
+				],
+				'bulimic'=>[
+					'bulemic',
 				],
 				'bull'=>[
 					'bul',
@@ -4286,6 +4702,9 @@
 					'bullheadednes',
 					'bullhededness',
 				],
+				'bullies'=>[
+					'bullys',
+				],
 				'bullion'=>[
 					'bulion',
 				],
@@ -4327,6 +4746,9 @@
 				'bullyragging'=>[
 					'bullyraging',
 				],
+				'bumetanide'=>[
+					'bumetamide',
+				],
 				'bummalo'=>[
 					'bumnalo',
 				],
@@ -4358,6 +4780,9 @@
 				],
 				'bunchberry'=>[
 					'bunchbery',
+				],
+				'bungarotoxin'=>[
+					'bungaroxin',
 				],
 				'bunn'=>[
 					'bun',
@@ -4409,11 +4834,27 @@
 				'buoys'=>[
 					'bouys',
 				],
+				'bupivacaine'=>[
+					'bipuvacaine',
+					'bipuvicane',
+					'bupivicaine',
+				],
 				'buppie'=>[
 					'bupie',
 				],
 				'buppy'=>[
 					'bupy',
+				],
+				'buprenorphine'=>[
+					'bupremorphine',
+					'buprenorfine',
+					'buprenorphrine',
+					'burenorphine',
+					'burpenorphine',
+					'burprenorphine',
+				],
+				'burakumin'=>[
+					'barakumin',
 				],
 				'burden'=>[
 					'buden',
@@ -4521,6 +4962,9 @@
 				'buried'=>[
 					'burried',
 				],
+				'burikko'=>[
+					'burriko',
+				],
 				'burlesquely'=>[
 					'burlesquly',
 				],
@@ -4571,6 +5015,9 @@
 				],
 				'burthened'=>[
 					'burthend',
+				],
+				'burundanga'=>[
+					'burandanga',
 				],
 				'burundian-occupied'=>[
 					'burundian occupied',
@@ -4656,10 +5103,14 @@
 					'busteir',
 					'bustir',
 				],
+				'bustle'=>[
+					'bussle',
+				],
 				'busy'=>[
 					'bucy',
 					'busy busy',
 					'busy busy busy',
+					'bizy',
 				],
 				'but'=>[
 					'bitt',
@@ -4694,6 +5145,9 @@
 				],
 				'buttress'=>[
 					'buttres',
+				],
+				'butyraldehyde'=>[
+					'butylaldehyde',
 				],
 				'buy'=>[
 					'buy buy',

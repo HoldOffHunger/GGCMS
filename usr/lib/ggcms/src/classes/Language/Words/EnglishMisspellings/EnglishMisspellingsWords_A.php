@@ -32,6 +32,28 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Albuquerque'=>[
+					'albequerque',
+					'alberquerque',
+				],
+				'Alsatian'=>[
+					'alsation',
+				],
+				'Anishinaabe'=>[
+					'aanishnaabe',
+				],
+				'Apennine'=>[
+					'appenine',
+				],
+				'Ashtead'=>[
+					'ashstead',
+				],
+				'Asperger\'s'=>[
+					'asberger\'s',
+				],
+				'Azerbaijan'=>[
+					'azerbajian',
+				],
 				'a'=>[
 					'a a',
 					'a a a',
@@ -41,6 +63,9 @@
 				],
 				'a bit of'=>[
 					'abit of',
+				],
+				'a cappella'=>[
+					'acapella',
 				],
 				'a couple of years later'=>[
 					'a couple years later',
@@ -95,6 +120,9 @@
 				],
 				'aarrgh'=>[
 					'aargh',
+				],
+				'abamectin'=>[
+					'abacmectin',
 				],
 				'abandon'=>[
 					'abondon',
@@ -198,6 +226,12 @@
 					'abdominil',
 					'adominal',
 				],
+				'abdominally'=>[
+					'abdomenally',
+				],
+				'abdominoplasty'=>[
+					'abdomenoplasty',
+				],
 				'abecedarian'=>[
 					'abecedaran',
 				],
@@ -243,12 +277,16 @@
 				],
 				'abhorrent'=>[
 					'abhorent',
+					'abhorrant',
 				],
 				'abhorrently'=>[
 					'abhorently',
 				],
 				'abidance'=>[
 					'abidence',
+				],
+				'abietadienic'=>[
+					'abietadenic',
 				],
 				'abilities'=>[
 					'abbilities',
@@ -274,6 +312,9 @@
 				],
 				'ableism'=>[
 					'abliesm',
+				],
+				'abluminal'=>[
+					'ablumenal',
 				],
 				'ablutionary'=>[
 					'ablutionery',
@@ -337,12 +378,14 @@
 				],
 				'aborigine'=>[
 					'aborigini',
+					'aboriginie',
 				],
 				'abortifacient'=>[
 					'abortifaceint',
 					'abortifaciant',
 					'abortifacint',
 					'abortificant',
+					'abortificient',
 				],
 				'abortifacients'=>[
 					'abortifaceints',
@@ -371,11 +414,17 @@
 				'abradants'=>[
 					'abradents',
 				],
+				'abrasion'=>[
+					'abration',
+				],
 				'abrasively'=>[
 					'abrasivly',
 				],
 				'abreast'=>[
 					'abrest',
+				],
+				'abreuvoir'=>[
+					'abbreuvoir',
 				],
 				'abruptly'=>[
 					'abruptally',
@@ -404,6 +453,10 @@
 				],
 				'abseil'=>[
 					'absiel',
+					'absail',
+				],
+				'abseiling'=>[
+					'absailing',
 				],
 				'absence'=>[
 					'absance',
@@ -457,6 +510,7 @@
 				],
 				'absorbance'=>[
 					'absorbence',
+					'absorvance',
 				],
 				'absorbancy'=>[
 					'absorbansy',
@@ -484,8 +538,12 @@
 					'absorptiviteis',
 					'absorptivitis',
 				],
+				'absorptivity'=>[
+					'absorbtivity',
+				],
 				'abstemious'=>[
 					'abstemous',
+					'abstenious',
 				],
 				'abstemiously'=>[
 					'abstemously',
@@ -496,6 +554,7 @@
 				'abstinence'=>[
 					'abstinance',
 					'abstinince',
+					'abstenance',
 				],
 				'abstractedly'=>[
 					'abstractedally',
@@ -536,6 +595,9 @@
 				],
 				'abundantly'=>[
 					'abundently',
+				],
+				'abusable'=>[
+					'abuseable',
 				],
 				'abusively'=>[
 					'abuisvely',
@@ -578,6 +640,7 @@
 				],
 				'acanthocephalan'=>[
 					'acenthocephalan',
+					'acantocephalan',
 				],
 				'acanthus'=>[
 					'acenthus',
@@ -723,6 +786,7 @@
 				],
 				'acceptability'=>[
 					'aceptability',
+					'acceptibility',
 				],
 				'acceptable'=>[
 					'acceptible',
@@ -823,6 +887,7 @@
 				],
 				'accessibility'=>[
 					'acessibility',
+					'accessability',
 				],
 				'accessible'=>[
 					'accesible',
@@ -920,6 +985,7 @@
 					'accidentially',
 					'accidently',
 					'acidentally',
+					'accidentily',
 				],
 				'accidentalness'=>[
 					'accidantalness',
@@ -1099,9 +1165,13 @@
 					'accomnodative',
 					'acommodative',
 				],
+				'accommodativity'=>[
+					'accomodativity',
+				],
 				'accommodator'=>[
 					'accomnodator',
 					'acommodator',
+					'accomodator',
 				],
 				'accommodators'=>[
 					'accomnodators',
@@ -1468,6 +1538,7 @@
 				],
 				'accumulation'=>[
 					'acumulation',
+					'accummulation',
 				],
 				'accumulations'=>[
 					'acumulations',
@@ -1606,8 +1677,41 @@
 				'acellular'=>[
 					'acelluler',
 				],
+				'acepromazine'=>[
+					'acepromacine',
+					'aceprozamine',
+					'aceptromazine',
+				],
+				'acerbate'=>[
+					'ascerbate',
+				],
+				'aceruloplasminemia'=>[
+					'acaeruloplasminemia',
+				],
 				'acetabular'=>[
 					'acetabuler',
+				],
+				'acetaminophen'=>[
+					'acetominophen',
+				],
+				'acetazolamide'=>[
+					'acetazolamine',
+					'acetazolomide',
+					'acetozolamide',
+					'azetasolamide',
+					'azetazolamide',
+				],
+				'acetoclastic'=>[
+					'aceticlastic',
+				],
+				'acetogenin'=>[
+					'actogenin',
+				],
+				'acetonitrile'=>[
+					'actonitrile',
+				],
+				'acetosyringone'=>[
+					'actosyringone',
 				],
 				'acetylcholine'=>[
 					'acetylcholini',
@@ -1615,8 +1719,14 @@
 				'acetylcholines'=>[
 					'acetylcholinis',
 				],
+				'acetylenic'=>[
+					'acetilenic',
+				],
 				'achiev'=>[
 					'acheive',
+				],
+				'achievable'=>[
+					'achieveable',
 				],
 				'achieve'=>[
 					'acheive',
@@ -1669,6 +1779,7 @@
 				'acknowledge'=>[
 					'acknowlege',
 					'ackowledge',
+					'acknowlage',
 				],
 				'acknowledged'=>[
 					'acknolwedged',
@@ -1704,8 +1815,14 @@
 				'aclinic'=>[
 					'aclinac',
 				],
+				'aconitic'=>[
+					'acotinic',
+				],
 				'acoustic'=>[
 					'accoustic',
+				],
+				'acoustically'=>[
+					'acousticly',
 				],
 				'acoustician'=>[
 					'acoustican',
@@ -1738,6 +1855,7 @@
 					'acquiecse',
 					'acquiese',
 					'acquisce',
+					'aquiesce',
 				],
 				'acquiescence'=>[
 					'acqueiscence',
@@ -1802,6 +1920,9 @@
 				'acquisitiveness'=>[
 					'acquisitivenes',
 				],
+				'acquit'=>[
+					'aquit',
+				],
 				'acquittance'=>[
 					'acquittence',
 				],
@@ -1811,6 +1932,8 @@
 				],
 				'acreage'=>[
 					'acrege',
+					'acerage',
+					'acrage',
 				],
 				'acridly'=>[
 					'acridally',
@@ -1837,6 +1960,9 @@
 				'acrobatically'=>[
 					'acrobaticaly',
 				],
+				'acrocentric'=>[
+					'akrocentric',
+				],
 				'acrolein'=>[
 					'acrolien',
 				],
@@ -1848,6 +1974,12 @@
 				],
 				'acronymically'=>[
 					'acronymicaly',
+				],
+				'acrophase'=>[
+					'achrophase',
+				],
+				'acrosome'=>[
+					'acorosome',
 				],
 				'across'=>[
 					'accros',
@@ -1919,6 +2051,9 @@
 				'actinomorphy'=>[
 					'actinomourphy',
 				],
+				'actinorhodin'=>[
+					'actinohodin',
+				],
 				'actionable'=>[
 					'actionible',
 				],
@@ -1936,6 +2071,9 @@
 				],
 				'activities'=>[
 					'activites',
+				],
+				'actomyosin'=>[
+					'actamyosin',
 				],
 				'actress'=>[
 					'actres',
@@ -1968,6 +2106,9 @@
 					'actualy',
 					'acually',
 					'acutally',
+					'acctually',
+					'accually',
+					'actally',
 				],
 				'actuary'=>[
 					'actaury',
@@ -2015,6 +2156,9 @@
 				'adamantine'=>[
 					'adamantini',
 					'adamentine',
+				],
+				'adamantly'=>[
+					'adamently',
 				],
 				'adaptabilities'=>[
 					'adaptabiliteis',
@@ -2097,6 +2241,12 @@
 				'adenine'=>[
 					'adenini',
 				],
+				'adenomatosis'=>[
+					'adeomatosis',
+				],
+				'adenomatous'=>[
+					'adeomatous',
+				],
 				'adenosine'=>[
 					'adenosini',
 				],
@@ -2126,6 +2276,9 @@
 				'adherent'=>[
 					'adherant',
 				],
+				'adhesin'=>[
+					'adhesine',
+				],
 				'adhesively'=>[
 					'adhesivly',
 				],
@@ -2135,6 +2288,23 @@
 				'adieu'=>[
 					'adeiu',
 					'adiu',
+				],
+				'adimensionalised'=>[
+					'adimentionalised',
+				],
+				'adiponectin'=>[
+					'adinopectin',
+					'adiponection',
+					'adyponectin',
+				],
+				'adiponectinemia'=>[
+					'adiponecinemia',
+				],
+				'adipophilin'=>[
+					'adipophillin',
+				],
+				'adiposity'=>[
+					'adipocity',
 				],
 				'adjacence'=>[
 					'adjacance',
@@ -2172,6 +2342,9 @@
 				'adjournments'=>[
 					'adjourments',
 					'adjournents',
+				],
+				'adjudicate'=>[
+					'ajudicate',
 				],
 				'adjust'=>[
 					'adlust',
@@ -2240,6 +2413,7 @@
 					'adminastration',
 					'administartion',
 					'adminstration',
+					'administeration',
 				],
 				'administrations'=>[
 					'adminastrations',
@@ -2257,6 +2431,7 @@
 				],
 				'administratrix'=>[
 					'adminastratrix',
+					'administratix',
 				],
 				'admirabilities'=>[
 					'admirabiliteis',
@@ -2333,6 +2508,7 @@
 				],
 				'adorable'=>[
 					'adorible',
+					'adoreable',
 				],
 				'adornment'=>[
 					'adorment',
@@ -2346,17 +2522,39 @@
 					'adrenalectomeis',
 					'adrenalectomis',
 				],
+				'adrenalectomize'=>[
+					'adrenolectomize',
+				],
 				'adrenaline'=>[
 					'adrenalini',
 				],
 				'adrenergically'=>[
 					'adrenergicaly',
 				],
+				'adrenocortical'=>[
+					'adenocortical',
+				],
+				'adrenocorticotropic'=>[
+					'adenocorticotropic',
+				],
+				'adrenomedullary'=>[
+					'adrenamedullary',
+				],
+				'adrenomedullin'=>[
+					'adrenomedulin',
+					'adrenomodullin',
+				],
+				'adriamycin'=>[
+					'adryamicin',
+				],
 				'adscititious'=>[
 					'adcititious',
 					'adcsititious',
 					'adscititous',
 					'adsititious',
+				],
+				'adsorption'=>[
+					'adsorbtion',
 				],
 				'adulterer'=>[
 					'adulteer',
@@ -2370,6 +2568,9 @@
 				],
 				'advance'=>[
 					'advence',
+				],
+				'advanceable'=>[
+					'advancable',
 				],
 				'advancement'=>[
 					'advancemant',
@@ -2498,6 +2699,9 @@
 				'aequorins'=>[
 					'aeqorins',
 				],
+				'aerenchymatic'=>[
+					'arenchymatic',
+				],
 				'aerial'=>[
 					'aeriel',
 				],
@@ -2512,12 +2716,18 @@
 					'aerei',
 					'aeri',
 				],
+				'aerobraking'=>[
+					'aerobreaking',
+				],
 				'aerodynamically'=>[
 					'aerodynamicalally',
 					'aerodynamicalaly',
 					'aerodynamicalely',
 					'aerodynamicallly',
 					'aerodynamicaly',
+				],
+				'aerogenic'=>[
+					'areogenic',
 				],
 				'aerogramme'=>[
 					'aerogramne',
@@ -2610,6 +2820,9 @@
 				'affidavit'=>[
 					'affadavit',
 				],
+				'affidavits'=>[
+					'affadavits',
+				],
 				'affiliate'=>[
 					'affilate',
 					'affiliat',
@@ -2634,6 +2847,9 @@
 				],
 				'affirmance'=>[
 					'affirmence',
+				],
+				'affirmation'=>[
+					'afformation',
 				],
 				'affirmatively'=>[
 					'affirmativly',
@@ -2679,14 +2895,19 @@
 				],
 				'aficionado'=>[
 					'afficionado',
+					'affectionado',
 				],
 				'afield'=>[
 					'afeild',
 					'afild',
 				],
+				'aflatoxin'=>[
+					'alfatoxin',
+				],
 				'aforementioned'=>[
 					'afore-mentioned',
 					'aforemantioned',
+					'aformentioned',
 				],
 				'afraid'=>[
 					'affraid',
@@ -2765,6 +2986,9 @@
 				'agar'=>[
 					'ager',
 				],
+				'agaricomycetous'=>[
+					'agaricomyceteous',
+				],
 				'age'=>[
 					'age age',
 					'age age age',
@@ -2783,6 +3007,9 @@
 				],
 				'agency'=>[
 					'agensy',
+				],
+				'agenda'=>[
+					'adjenda',
 				],
 				'agent'=>[
 					'agant',
@@ -2940,6 +3167,7 @@
 				],
 				'aggravate'=>[
 					'agravate',
+					'aggrevate',
 				],
 				'aggravated'=>[
 					'agravated',
@@ -2994,6 +3222,9 @@
 				'aggregatively'=>[
 					'aggregativly',
 					'agregatively',
+				],
+				'aggresome'=>[
+					'aggregesome',
 				],
 				'aggress'=>[
 					'agress',
@@ -3089,6 +3320,12 @@
 				'aglimmer'=>[
 					'aglimner',
 				],
+				'agmatine'=>[
+					'agmantine',
+				],
+				'agnolotti'=>[
+					'agnoletti',
+				],
 				'ago'=>[
 					'ago ago',
 					'ago ago ago',
@@ -3183,6 +3420,9 @@
 				'agroforestries'=>[
 					'agroforestreis',
 					'agroforestris',
+				],
+				'agroinfiltration'=>[
+					'argoinfiltration',
 				],
 				'agronomically'=>[
 					'agronomicaly',
@@ -3336,6 +3576,9 @@
 				'alar'=>[
 					'aler',
 				],
+				'alarm clock'=>[
+					'alarmclock',
+				],
 				'alarmed'=>[
 					'allarmed',
 				],
@@ -3351,6 +3594,9 @@
 				'albeit'=>[
 					'albiet',
 				],
+				'albendazole'=>[
+					'abendazole',
+				],
 				'albinal'=>[
 					'albinil',
 				],
@@ -3365,6 +3611,9 @@
 				],
 				'album'=>[
 					'album album',
+				],
+				'albuminuria'=>[
+					'albuminurea',
 				],
 				'alcahest'=>[
 					'alcaest',
@@ -3389,6 +3638,9 @@
 				'alcoholically'=>[
 					'alcoholicaly',
 				],
+				'alcoholism'=>[
+					'alkoholism',
+				],
 				'alcools'=>[
 					'alcohols',
 				],
@@ -3401,19 +3653,34 @@
 					'alderfely',
 					'alderflly',
 				],
+				'aldosterone'=>[
+					'aldosterol',
+				],
+				'aleatory'=>[
+					'alleatory',
+				],
 				'alecithal'=>[
 					'alecital',
 				],
 				'alegar'=>[
 					'aleger',
 				],
+				'alendronate'=>[
+					'aledronate',
+				],
 				'alexandrine'=>[
 					'alexandrini',
+				],
+				'alfentanil'=>[
+					'alfentanyl',
 				],
 				'alfresco'=>[
 					'alfreco',
 					'alfrecso',
 					'alfreso',
+				],
+				'alfuzosin'=>[
+					'afluzosin',
 				],
 				'algebraic'=>[
 					'algebraical',
@@ -3513,6 +3780,7 @@
 				],
 				'aliquot'=>[
 					'aliqot',
+					'aliquote',
 				],
 				'aliquots'=>[
 					'aliqots',
@@ -3546,6 +3814,7 @@
 				],
 				'alkalinization'=>[
 					'alkalinazation',
+					'alcalinization',
 				],
 				'alkalinizations'=>[
 					'alkalinazations',
@@ -3662,8 +3931,22 @@
 				'allelomorphs'=>[
 					'allelomourphs',
 				],
+				'allelopathic'=>[
+					'allellopathic',
+					'allelopathetic',
+					'alleopathic',
+				],
 				'allelopathies'=>[
 					'alelopathies',
+				],
+				'allelopathy'=>[
+					'alleopathy',
+				],
+				'allelotyping'=>[
+					'alellotyping',
+				],
+				'allemande'=>[
+					'allemand',
 				],
 				'allergen'=>[
 					'alergen',
@@ -3714,6 +3997,9 @@
 				'alligator'=>[
 					'aligator',
 				],
+				'alliinase'=>[
+					'allinase',
+				],
 				'alliteration'=>[
 					'aliteration',
 				],
@@ -3747,6 +4033,11 @@
 				'allocate'=>[
 					'alocate',
 				],
+				'allochthonous'=>[
+					'allochotonous',
+					'allochtonous',
+					'allocthonous',
+				],
 				'allod'=>[
 					'alod',
 				],
@@ -3773,11 +4064,17 @@
 				'allopatrically'=>[
 					'allopatricaly',
 				],
+				'allophanate'=>[
+					'allophonate',
+				],
 				'allophone'=>[
 					'allopone',
 				],
 				'allophones'=>[
 					'allopones',
+				],
+				'allophycocyanin'=>[
+					'allophycocyan',
 				],
 				'allopolyploid'=>[
 					'alopolyploid',
@@ -3787,6 +4084,9 @@
 				],
 				'allopolyploidy'=>[
 					'alopolyploidy',
+				],
+				'allopregnanolone'=>[
+					'allopregnanalone',
 				],
 				'allopurinol'=>[
 					'alopurinol',
@@ -3957,6 +4257,9 @@
 					'alreayd',
 					'alredy',
 				],
+				'alrighty'=>[
+					'allrighty',
+				],
 				'also'=>[
 					'allso',
 					'alos',
@@ -3987,6 +4290,10 @@
 				],
 				'altered'=>[
 					'alterated',
+					'alterred',
+				],
+				'altering'=>[
+					'alterring',
 				],
 				'alternate'=>[
 					'a1ternate',
@@ -3996,6 +4303,7 @@
 				],
 				'alternative'=>[
 					'altenative',
+					'alternatative',
 				],
 				'alternatively'=>[
 					'alternativly',
@@ -4047,8 +4355,17 @@
 				'alvan'=>[
 					'a1van',
 				],
+				'alvarezsaurid'=>[
+					'alvaresaurid',
+				],
 				'alveolar'=>[
 					'alveoler',
+				],
+				'alveolate'=>[
+					'aveolate',
+				],
+				'alveolus'=>[
+					'alveolous',
 				],
 				'alvine'=>[
 					'alvini',
@@ -4080,6 +4397,7 @@
 				'amantadine'=>[
 					'amantadini',
 					'amentadine',
+					'amatadine',
 				],
 				'amaranth'=>[
 					'amarenth',
@@ -4130,6 +4448,9 @@
 				'ambidexterities'=>[
 					'ambidexteriteis',
 					'ambidexteritis',
+				],
+				'ambidextrous'=>[
+					'ambidexterous',
 				],
 				'ambidextrously'=>[
 					'ambidextrousally',
@@ -4197,6 +4518,12 @@
 				],
 				'ambulant'=>[
 					'ambulent',
+				],
+				'ameboid'=>[
+					'amyboid',
+				],
+				'amelogenin'=>[
+					'ameloginin',
 				],
 				'amenable'=>[
 					'amenible',
@@ -4271,6 +4598,10 @@
 					'ameis',
 					'amis',
 				],
+				'amiloride'=>[
+					'ameloride',
+					'amyloride',
+				],
 				'amine'=>[
 					'amini',
 				],
@@ -4294,6 +4625,9 @@
 					'aminophylines',
 					'aminophyllinis',
 				],
+				'aminopterin'=>[
+					'amniopterin',
+				],
 				'aminopyrine'=>[
 					'aminopyrini',
 				],
@@ -4306,6 +4640,9 @@
 				],
 				'amitriptylines'=>[
 					'amitriptylinis',
+				],
+				'amlodipine'=>[
+					'amplodipine',
 				],
 				'ammeter'=>[
 					'amneter',
@@ -4399,6 +4736,24 @@
 				],
 				'amniocentesis'=>[
 					'amniocantesis',
+				],
+				'amniocyte'=>[
+					'aminocyte',
+				],
+				'amniocytes'=>[
+					'aminocytes',
+				],
+				'amodiaquine'=>[
+					'amodiaquone',
+				],
+				'amoebocyte'=>[
+					'amaebocyte',
+				],
+				'amoeboflagellate'=>[
+					'amoebaflagellate',
+				],
+				'amoebozoan'=>[
+					'amoebazoan',
 				],
 				'among'=>[
 					'amon',
@@ -4540,6 +4895,9 @@
 				'amoxycillin'=>[
 					'amoxycilin',
 				],
+				'amperometric'=>[
+					'ampelometric',
+				],
 				'amphetamine'=>[
 					'amphetamini',
 				],
@@ -4558,9 +4916,21 @@
 					'amphiboely',
 					'amphibolly',
 				],
+				'amphicoelous'=>[
+					'amphycoelous',
+				],
 				'amphidiploidies'=>[
 					'amphidiploideis',
 					'amphidiploidis',
+				],
+				'amphipathic'=>[
+					'amphipatic',
+					'amphiphatic',
+				],
+				'amphiphilic'=>[
+					'amphilic',
+					'amphiphillic',
+					'amphiphylic',
 				],
 				'amphitheater'=>[
 					'amphitheter',
@@ -4568,9 +4938,13 @@
 				],
 				'amphitheaters'=>[
 					'amphitheters',
+					'ampitheaters',
 				],
 				'amphitheatre'=>[
 					'ampitheatre',
+				],
+				'amphitheatres'=>[
+					'ampitheatres',
 				],
 				'amphitheatric'=>[
 					'amphithetric',
@@ -4578,8 +4952,20 @@
 				'amphitheatrical'=>[
 					'amphithetrical',
 				],
+				'amphotericin'=>[
+					'amphotericine',
+				],
+				'amphotropic'=>[
+					'amphotrophic',
+				],
 				'ampicillin'=>[
 					'ampicilin',
+				],
+				'amplectant'=>[
+					'amplectent',
+				],
+				'amplification'=>[
+					'amplication',
 				],
 				'amplifier'=>[
 					'amplifeir',
@@ -4590,6 +4976,9 @@
 					'ampaly',
 					'amplly',
 				],
+				'ampoule'=>[
+					'ampoul',
+				],
 				'ampule'=>[
 					'ampoule',
 				],
@@ -4598,6 +4987,13 @@
 				],
 				'ampullary'=>[
 					'ampullery',
+				],
+				'ampulliform'=>[
+					'ampilliform',
+					'ampuliform',
+				],
+				'amsacrine'=>[
+					'amascrine',
 				],
 				'amusement'=>[
 					'amusemant',
@@ -4610,6 +5006,26 @@
 				],
 				'amusingnesses'=>[
 					'amuisngnesses',
+				],
+				'amyloid'=>[
+					'amiloid',
+				],
+				'amyloidogenic'=>[
+					'amiloidogenic',
+				],
+				'amyloidogenicity'=>[
+					'amyloidogenecity',
+				],
+				'amyloplast'=>[
+					'amiloplast',
+				],
+				'amyopathic'=>[
+					'amyopatic',
+				],
+				'amyotrophic'=>[
+					'amylotrophic',
+					'amyolotrophic',
+					'amyotropic',
 				],
 				'an'=>[
 					'a an ',
@@ -4634,6 +5050,9 @@
 				'an issue'=>[
 					'a issue',
 				],
+				'anabolitic'=>[
+					'anabolytic',
+				],
 				'anachronously'=>[
 					'anachronousally',
 					'anachronousaly',
@@ -4648,6 +5067,9 @@
 				],
 				'anaemia'=>[
 					'aneamia',
+				],
+				'anaerobic'=>[
+					'anacrobic',
 				],
 				'anaerobically'=>[
 					'anaerobicaly',
@@ -4698,8 +5120,21 @@
 					'analagous',
 					'analogeous',
 				],
+				'analogously'=>[
+					'analagously',
+				],
+				'analyse'=>[
+					'analise',
+				],
+				'analysers'=>[
+					'analysors',
+				],
 				'analysis'=>[
 					'anaylsis',
+					'analyzis',
+				],
+				'analyst'=>[
+					'analyist',
 				],
 				'analytic'=>[
 					'analitic',
@@ -4708,14 +5143,23 @@
 					'analyzabiliteis',
 					'analyzabilitis',
 				],
+				'anamnestic'=>[
+					'anamestic',
+				],
 				'anamorphic'=>[
 					'anamourphic',
 				],
 				'anaphorically'=>[
 					'anaphoricaly',
 				],
+				'anaphylatoxin'=>[
+					'anaflatoxin',
+				],
 				'anaphylaxis'=>[
 					'anaphalaxis',
+				],
+				'anaplerotic'=>[
+					'aneuplerotic',
 				],
 				'anarchism'=>[
 					'anachism',
@@ -4727,6 +5171,18 @@
 				'anarchy'=>[
 					'anachy',
 					'anarachy',
+				],
+				'anastomosis'=>[
+					'anastamosis',
+				],
+				'anastomotic'=>[
+					'anastamotic',
+				],
+				'anastrozole'=>[
+					'anastrazole',
+				],
+				'anatomical'=>[
+					'anathomical',
 				],
 				'ancestor'=>[
 					'ancester',
@@ -4762,6 +5218,7 @@
 					'ancilary',
 					'ancillery',
 					'ancilliary',
+					'anciliary',
 				],
 				'and'=>[
 					'aand',
@@ -4829,11 +5286,18 @@
 				'androcentric'=>[
 					'androcantric',
 				],
+				'andrographolide'=>[
+					'angrographolide',
+				],
 				'androgynous'=>[
 					'androgenous',
+					'androgonous',
 				],
 				'androgyny'=>[
 					'androgeny',
+				],
+				'androstenolone'=>[
+					'androsteneolone',
 				],
 				'andré'=>[
 					'andre',
@@ -4860,6 +5324,19 @@
 					'anelasticiteis',
 					'anelasticitis',
 				],
+				'anelloni'=>[
+					'anneloni',
+				],
+				'anellovirus'=>[
+					'anellivirus',
+					'annellovirus',
+				],
+				'anemone'=>[
+					'anenome',
+				],
+				'anemophilous'=>[
+					'anemophylous',
+				],
 				'anencephaly'=>[
 					'anencephaally',
 					'anencephaaly',
@@ -4871,6 +5348,18 @@
 				],
 				'anesthetically'=>[
 					'anestheticaly',
+				],
+				'anesthetization'=>[
+					'anesthization',
+				],
+				'anesthetize'=>[
+					'anesthesize',
+				],
+				'anesthetized'=>[
+					'anesthesized',
+				],
+				'aneuploid'=>[
+					'anueploid',
 				],
 				'aneurysm'=>[
 					'anurism',
@@ -4911,11 +5400,30 @@
 				'angioedema'=>[
 					'angiodema',
 				],
+				'angiogenic'=>[
+					'angeogenic',
+				],
+				'angiopoietin'=>[
+					'angioprotein',
+				],
+				'angiotensin'=>[
+					'agiotensin',
+					'angiotension',
+				],
+				'anglicized'=>[
+					'anglecized',
+				],
 				'angolan-occupied'=>[
 					'angolan occupied',
 				],
+				'anguilliform'=>[
+					'anguiliform',
+				],
 				'angular'=>[
 					'anguler',
+				],
+				'anhidrosis'=>[
+					'anhydrosis',
 				],
 				'aniline'=>[
 					'anilini',
@@ -4950,6 +5458,9 @@
 					'animatronicallly',
 					'animatronicaly',
 				],
+				'aniseed'=>[
+					'anniseed',
+				],
 				'aniseikonia'=>[
 					'anisiekonia',
 				],
@@ -4959,6 +5470,12 @@
 				'aniseikonic'=>[
 					'anisiekonic',
 				],
+				'anisokaryosis'=>[
+					'anisocarioses',
+				],
+				'anisomycin'=>[
+					'anysomicin',
+				],
 				'anisotropically'=>[
 					'anisotropicalally',
 					'anisotropicalaly',
@@ -4966,8 +5483,14 @@
 					'anisotropicallly',
 					'anisotropicaly',
 				],
+				'anisotropy'=>[
+					'anisotrophy',
+				],
 				'ankle'=>[
 					'ankel',
+				],
+				'ankyrin'=>[
+					'ankryin',
 				],
 				'anna'=>[
 					'amma',
@@ -5003,6 +5526,12 @@
 				],
 				'annelid'=>[
 					'anelid',
+				],
+				'annellated'=>[
+					'anellated',
+				],
+				'annellation'=>[
+					'anellation',
 				],
 				'annex'=>[
 					'anex',
@@ -5056,10 +5585,16 @@
 				'annotation'=>[
 					'anotation',
 				],
+				'annotator'=>[
+					'annotater',
+				],
 				'announce'=>[
 					'annonce',
 					'annouce',
 					'anounce',
+				],
+				'announceable'=>[
+					'announcable',
 				],
 				'announced'=>[
 					'annouced',
@@ -5201,6 +5736,9 @@
 					'annonamous',
 					'anonomous',
 				],
+				'anopheline'=>[
+					'anophelene',
+				],
 				'anoraks'=>[
 					'anouraks',
 				],
@@ -5233,6 +5771,7 @@
 				],
 				'anorexigenic'=>[
 					'anourexigenic',
+					'anorexogenic',
 				],
 				'anorexy'=>[
 					'anourexy',
@@ -5257,6 +5796,9 @@
 				],
 				'anorthositic'=>[
 					'anourthositic',
+				],
+				'anosognosia'=>[
+					'anosagnosia',
 				],
 				'another'=>[
 					'ancther',
@@ -5285,6 +5827,10 @@
 				'antagonist'=>[
 					'antogonist',
 					'entagonist',
+					'antabonist',
+				],
+				'antagonistically'=>[
+					'antagonically',
 				],
 				'antagonize'=>[
 					'entagonize',
@@ -5325,6 +5871,13 @@
 				'antechamber'=>[
 					'entechamber',
 				],
+				'anteciliary'=>[
+					'anticiliary',
+				],
+				'antecubital'=>[
+					'antecubal',
+					'anticubital',
+				],
 				'anted'=>[
 					'ented',
 				],
@@ -5355,6 +5908,9 @@
 				'antennae'=>[
 					'antenae',
 				],
+				'antennomere'=>[
+					'antennomer',
+				],
 				'antennular'=>[
 					'antennuler',
 				],
@@ -5376,8 +5932,30 @@
 				'anterior'=>[
 					'enterior',
 				],
+				'anterograde'=>[
+					'anteriograde',
+				],
+				'anterolateral'=>[
+					'anteriolateral',
+				],
+				'anterolaterally'=>[
+					'anteriolaterally',
+				],
+				'anterolingual'=>[
+					'anteriolingual',
+				],
+				'anteromedial'=>[
+					'anteriomedial',
+					'anteriormedial',
+				],
+				'anteromedially'=>[
+					'anteriomedially',
+				],
 				'anteroom'=>[
 					'enteroom',
+				],
+				'anteroventrally'=>[
+					'antroventrally',
 				],
 				'antes'=>[
 					'entes',
@@ -5426,11 +6004,16 @@
 				'anthracnose'=>[
 					'enthracnose',
 				],
+				'anthracycline'=>[
+					'anthacyclin',
+				],
 				'anthranilate'=>[
 					'enthranilate',
+					'anthranylate',
 				],
 				'anthraquinone'=>[
 					'enthraquinone',
+					'anthroquinone',
 				],
 				'anthraquinones'=>[
 					'enthraquinones',
@@ -5498,6 +6081,9 @@
 					'anthropomourphs',
 					'enthropomorphs',
 				],
+				'anthroponotic'=>[
+					'anthoponotic',
+				],
 				'anthropopathism'=>[
 					'enthropopathism',
 				],
@@ -5512,6 +6098,9 @@
 				'anthropophagus'=>[
 					'enthropophagus',
 				],
+				'anthropophilic'=>[
+					'anthropophylic',
+				],
 				'anthroposophies'=>[
 					'anthroposopheis',
 					'anthroposophis',
@@ -5520,14 +6109,26 @@
 				'anthroposophy'=>[
 					'enthroposophy',
 				],
+				'anthroposphere'=>[
+					'antroposphere',
+				],
 				'anti-apartheid'=>[
 					'antiapartheid',
+				],
+				'anti-fascist'=>[
+					'anti-facist',
+				],
+				'anti-inflammatory'=>[
+					'antinflammatory',
 				],
 				'antiabortion'=>[
 					'entiabortion',
 				],
 				'antiabortionist'=>[
 					'entiabortionist',
+				],
+				'antiaggregant'=>[
+					'antiagregant',
 				],
 				'antiaggression'=>[
 					'antiagression',
@@ -5554,6 +6155,9 @@
 				],
 				'antiaphrodisiac'=>[
 					'entiaphrodisiac',
+				],
+				'antiapoptotic'=>[
+					'antiapoptic',
 				],
 				'antiar'=>[
 					'antar',
@@ -5590,6 +6194,9 @@
 				'antibiotics'=>[
 					'antibotics',
 				],
+				'antibodies'=>[
+					'antibodys',
+				],
 				'antibody'=>[
 					'entibody',
 				],
@@ -5607,6 +6214,9 @@
 				],
 				'antibusing'=>[
 					'antibuisng',
+				],
+				'antibutyrylcholinesterasic'=>[
+					'antibutyrylcholinestrasic',
 				],
 				'antic'=>[
 					'entic',
@@ -5651,6 +6261,9 @@
 				'anticlericalism'=>[
 					'enticlericalism',
 				],
+				'anticlimactic'=>[
+					'anticlimatic',
+				],
 				'anticlimactical'=>[
 					'enticlimactical',
 				],
@@ -5660,6 +6273,7 @@
 				'anticlinal'=>[
 					'anticlinil',
 					'enticlinal',
+					'anticlinical',
 				],
 				'anticline'=>[
 					'anticlini',
@@ -5892,6 +6506,7 @@
 				'antihistamine'=>[
 					'antihistamini',
 					'entihistamine',
+					'antihystamine',
 				],
 				'antihistamines'=>[
 					'antihistaminis',
@@ -5918,11 +6533,17 @@
 				'antihysterics'=>[
 					'entihysterics',
 				],
+				'antiinflammatory'=>[
+					'antiflammatory',
+				],
 				'antiknock'=>[
 					'antikock',
 				],
 				'antiknocks'=>[
 					'antikocks',
+				],
+				'antileishmanial'=>[
+					'antileishmanicidal',
 				],
 				'antileprosy'=>[
 					'antileprocy',
@@ -6062,6 +6683,9 @@
 				'antimusics'=>[
 					'antimuiscs',
 				],
+				'antimycotic'=>[
+					'antimicotic',
+				],
 				'antinarrative'=>[
 					'antinarative',
 					'entinarrative',
@@ -6151,6 +6775,10 @@
 				],
 				'antipasto'=>[
 					'entipasto',
+					'antipasta',
+				],
+				'antipatharian'=>[
+					'antipatherian',
 				],
 				'antipathetic'=>[
 					'entipathetic',
@@ -6306,6 +6934,9 @@
 					'antireligous',
 					'entireligious',
 				],
+				'antirheumatics'=>[
+					'antiheumatics',
+				],
 				'antiritualism'=>[
 					'antiritaulism',
 					'entiritualism',
@@ -6354,6 +6985,9 @@
 					'anticsorbutics',
 					'antisorbutics',
 				],
+				'antiseborrheic'=>[
+					'antiseborrhoic',
+				],
 				'antisecrecy'=>[
 					'antisecresy',
 				],
@@ -6362,6 +6996,9 @@
 				],
 				'antiseizure'=>[
 					'antisiezure',
+				],
+				'antisemitic'=>[
+					'antisemetic',
 				],
 				'antisense'=>[
 					'antisence',
@@ -6505,6 +7142,9 @@
 				'antitumoral'=>[
 					'antitumoural',
 				],
+				'antitumorigenic'=>[
+					'antitumorogenic',
+				],
 				'antitumors'=>[
 					'antitumours',
 				],
@@ -6610,6 +7250,7 @@
 					'apertment',
 					'appartmant',
 					'appartment',
+					'appartement',
 				],
 				'apartmental'=>[
 					'apertmental',
@@ -6622,6 +7263,9 @@
 				],
 				'apathetically'=>[
 					'apatheticaly',
+				],
+				'apatite'=>[
+					'appatite',
 				],
 				'apennines'=>[
 					'apenines',
@@ -6637,14 +7281,23 @@
 					'aperiodiciteis',
 					'aperiodicitis',
 				],
+				'aperture'=>[
+					'apeture',
+				],
 				'aphelian'=>[
 					'aphelan',
+				],
+				'apheresis'=>[
+					'aphoresis',
 				],
 				'aphidian'=>[
 					'aphidan',
 				],
 				'aphoristically'=>[
 					'aphoristicaly',
+				],
+				'aphthous'=>[
+					'apthous',
 				],
 				'apian'=>[
 					'apan',
@@ -6654,6 +7307,9 @@
 				],
 				'apiary'=>[
 					'apiery',
+				],
+				'apicomplexan'=>[
+					'apicocomplexan',
 				],
 				'apiece'=>[
 					'apeice',
@@ -6668,8 +7324,14 @@
 				'apneic'=>[
 					'apniec',
 				],
+				'apocalypse'=>[
+					'apocolypse',
+				],
 				'apocalyptically'=>[
 					'apocalypticaly',
+				],
+				'apocrine'=>[
+					'aporcine',
 				],
 				'apodictically'=>[
 					'apodicticaly',
@@ -6709,6 +7371,12 @@
 				'apoplectically'=>[
 					'apoplecticaly',
 				],
+				'apoptosis'=>[
+					'apopotosis',
+				],
+				'apoptotic'=>[
+					'apoptopic',
+				],
 				'aposematically'=>[
 					'aposematicaly',
 				],
@@ -6736,6 +7404,7 @@
 				],
 				'appalled'=>[
 					'apalled',
+					'appaled',
 				],
 				'appalling'=>[
 					'apalling',
@@ -6799,6 +7468,7 @@
 					'apparantly',
 					'apparantty',
 					'appparantly',
+					'appearantly',
 				],
 				'apparentness'=>[
 					'aparentness',
@@ -6907,6 +7577,7 @@
 				'appellation'=>[
 					'apellation',
 					'appelation',
+					'appilation',
 				],
 				'appellations'=>[
 					'apellations',
@@ -6957,6 +7628,7 @@
 				],
 				'appendices'=>[
 					'apendices',
+					'appendeces',
 				],
 				'appendicitis'=>[
 					'apendicitis',
@@ -6967,6 +7639,9 @@
 				'appendicular'=>[
 					'apendicular',
 					'appendiculer',
+				],
+				'appendicularian'=>[
+					'apendicularian',
 				],
 				'appendix'=>[
 					'apendix',
@@ -7022,6 +7697,9 @@
 				],
 				'appetite'=>[
 					'apetite',
+				],
+				'appetitive'=>[
+					'appetetive',
 				],
 				'appetizer'=>[
 					'apetizer',
@@ -7324,6 +8002,9 @@
 				'appressed'=>[
 					'apressed',
 				],
+				'appressorial'=>[
+					'appresorial',
+				],
 				'appressorium'=>[
 					'apressorium',
 				],
@@ -7419,6 +8100,9 @@
 				'approx.'=>[
 					'aprox.',
 				],
+				'approximability'=>[
+					'approximatibility',
+				],
 				'approximate'=>[
 					'aproximate',
 				],
@@ -7464,11 +8148,24 @@
 					'apirl',
 					'apnl',
 				],
+				'apropos'=>[
+					'apropo',
+				],
+				'aprotinin'=>[
+					'apoprotinin',
+					'approtinin',
+					'aproptin',
+					'aprotanin',
+				],
 				'aptitude'=>[
 					'eptitude',
 				],
 				'aptitudinally'=>[
 					'aptitudinaly',
+				],
+				'apyrimidinic'=>[
+					'apyramidinic',
+					'apyrimidic',
 				],
 				'aqua'=>[
 					'aqau',
@@ -7478,6 +8175,7 @@
 				],
 				'aquaculture'=>[
 					'aqauculture',
+					'acquaculture',
 				],
 				'aquaculturist'=>[
 					'aqauculturist',
@@ -7537,6 +8235,9 @@
 				'aquifer'=>[
 					'aquifier',
 				],
+				'aquifers'=>[
+					'acquifiers',
+				],
 				'aquiline'=>[
 					'aquilini',
 				],
@@ -7546,14 +8247,21 @@
 				'arabic'=>[
 					'aranic',
 				],
+				'arabinogalactan'=>[
+					'atabinogalactan',
+				],
 				'arable'=>[
 					'arible',
+				],
+				'arachidonic'=>[
+					'arachedonic',
 				],
 				'araneid'=>[
 					'aranied',
 				],
 				'araucarian'=>[
 					'araucaran',
+					'auracarian',
 				],
 				'arbitrageur'=>[
 					'arbitrager',
@@ -7572,6 +8280,13 @@
 					'abritrary',
 					'arbitary',
 					'arbitrery',
+					'abitrary',
+				],
+				'arboreal'=>[
+					'aboreal',
+				],
+				'arboreality'=>[
+					'arboriality',
 				],
 				'arborescence'=>[
 					'arborescance',
@@ -7589,6 +8304,16 @@
 				'arboretum'=>[
 					'arboretium',
 				],
+				'arboricultural'=>[
+					'aboricultural',
+				],
+				'arboriculturist'=>[
+					'aboriculturist',
+					'aboriculturists',
+				],
+				'arborization'=>[
+					'aborization',
+				],
 				'arcadian'=>[
 					'arcadan',
 				],
@@ -7597,6 +8322,12 @@
 				],
 				'arccosines'=>[
 					'arcosines',
+				],
+				'archaea'=>[
+					'archeae',
+				],
+				'archaeal'=>[
+					'archaral',
 				],
 				'archaeologic'=>[
 					'archaelogic',
@@ -7654,6 +8385,9 @@
 				'archimedean'=>[
 					'archimedian',
 				],
+				'archipallium'=>[
+					'archopallium',
+				],
 				'architect'=>[
 					'archetect',
 				],
@@ -7672,6 +8406,7 @@
 					'archetecture',
 					'archiptecture',
 					'architechture',
+					'arquitecture',
 				],
 				'archive'=>[
 					'achive',
@@ -7694,6 +8429,9 @@
 				],
 				'arctic ocean'=>[
 					'artic ocean',
+				],
+				'arctocyonid'=>[
+					'artocyonid',
 				],
 				'arcuate'=>[
 					'arcaute',
@@ -7747,8 +8485,14 @@
 					'are\'nt',
 					'arn\'t',
 				],
+				'areolae and areolas'=>[
+					'areolaes',
+				],
 				'areolar'=>[
 					'areoler',
+				],
+				'argatroban'=>[
+					'argotroban',
 				],
 				'argent'=>[
 					'argant',
@@ -7773,6 +8517,8 @@
 				'arginine'=>[
 					'arginane',
 					'arginini',
+					'argenine',
+					'arginene',
 				],
 				'arginines'=>[
 					'arginanes',
@@ -7813,6 +8559,9 @@
 				'arguments'=>[
 					'arguements',
 				],
+				'argyrophilic'=>[
+					'agryophillic',
+				],
 				'ariary'=>[
 					'ariery',
 				],
@@ -7829,8 +8578,12 @@
 				'aristocracy'=>[
 					'aristocrasy',
 				],
+				'arithmetic'=>[
+					'arithmatic',
+				],
 				'arithmetically'=>[
 					'arithmeticaly',
+					'arithmatically',
 				],
 				'arithmetician'=>[
 					'arithmetican',
@@ -7895,6 +8648,9 @@
 				],
 				'armónico'=>[
 					'armonico',
+				],
+				'aromatase'=>[
+					'aromotase',
 				],
 				'aromatherapies'=>[
 					'aromatherapeis',
@@ -8021,12 +8777,25 @@
 				],
 				'arrhythmia'=>[
 					'arhythmia',
+					'irrhythmia',
 				],
 				'arrhythmias'=>[
 					'arhythmias',
 				],
 				'arrhythmic'=>[
 					'arhythmic',
+				],
+				'arrhythmogenesis'=>[
+					'arhythmogenesis',
+					'arrythmogenesis',
+				],
+				'arrhythmogenic'=>[
+					'arhythmogenic',
+					'arrythmogenic',
+					'arrythymogenic',
+				],
+				'arrhythmogenicity'=>[
+					'arrythmogenicity',
 				],
 				'arriba'=>[
 					'ariba',
@@ -8045,8 +8814,14 @@
 				'arrived'=>[
 					'arrivde',
 				],
+				'arrivederci'=>[
+					'arrividerci',
+				],
 				'arriviste'=>[
 					'ariviste',
+				],
+				'arrière-pensée'=>[
+					'arrierepensee',
 				],
 				'arroba'=>[
 					'aroba',
@@ -8099,6 +8874,9 @@
 				'arroyo'=>[
 					'aroyo',
 				],
+				'arrythmogenic'=>[
+					'arythmogenic',
+				],
 				'arsace'=>[
 					'arbace',
 				],
@@ -8107,6 +8885,9 @@
 				],
 				'arsenious'=>[
 					'arsenous',
+				],
+				'arsenosugar'=>[
+					'arenosugar',
 				],
 				'arsine'=>[
 					'arsini',
@@ -8121,6 +8902,12 @@
 					'art art',
 					'art art art',
 				],
+				'artemisinin'=>[
+					'artemesinin',
+				],
+				'arteriogenesis'=>[
+					'arterogenesis',
+				],
 				'arteriographies'=>[
 					'arteriographeis',
 					'arteriographis',
@@ -8128,14 +8915,41 @@
 				'arteriolar'=>[
 					'arterioler',
 				],
+				'arteriovenous'=>[
+					'arterovenous',
+				],
 				'artery'=>[
 					'artary',
+				],
+				'artesunate'=>[
+					'artusenate',
+				],
+				'arthralgia'=>[
+					'anthralgia',
+					'arthrialgia',
 				],
 				'arthritically'=>[
 					'arthriticaly',
 				],
 				'arthritis'=>[
 					'arthiritis',
+				],
+				'arthrodesis'=>[
+					'athrodesis',
+				],
+				'arthrodial'=>[
+					'arthroidal',
+				],
+				'arthropathy'=>[
+					'arthopathy',
+				],
+				'arthropod'=>[
+					'anthropod',
+					'arthopod',
+				],
+				'arthroscopic'=>[
+					'anthroscopic',
+					'arthrocopic',
 				],
 				'arthroscopies'=>[
 					'arthrocopies',
@@ -8147,11 +8961,17 @@
 					'arthrocsopy',
 					'arthrosopy',
 				],
+				'arthrospore'=>[
+					'arthospore',
+				],
 				'article'=>[
 					'artical',
 					'artice',
 					'articel',
 					'artilce',
+				],
+				'articles'=>[
+					'articals',
 				],
 				'articulable'=>[
 					'articulible',
@@ -8190,6 +9010,12 @@
 				'artilleryman'=>[
 					'artileryman',
 				],
+				'artiodactyl'=>[
+					'arteriodactyl',
+				],
+				'artisanal'=>[
+					'artisinal',
+				],
 				'artnews'=>[
 					'art news',
 				],
@@ -8201,6 +9027,9 @@
 				],
 				'artsy'=>[
 					'artcy',
+				],
+				'arytenoid'=>[
+					'arythenoid',
 				],
 				'as'=>[
 					'as as',
@@ -8351,6 +9180,9 @@
 					'acsites',
 					'asites',
 				],
+				'ascomycetous'=>[
+					'ascomyceteous',
+				],
 				'ascorbate'=>[
 					'acorbate',
 					'acsorbate',
@@ -8379,11 +9211,17 @@
 				'asea'=>[
 					'ase',
 				],
+				'aseptically'=>[
+					'asceptically',
+				],
 				'asexual'=>[
 					'asexaul',
 				],
 				'ashlar'=>[
 					'ashler',
+				],
+				'asialylated'=>[
+					'asialyated',
 				],
 				'aside'=>[
 					'asside',
@@ -8391,10 +9229,14 @@
 				'asinine'=>[
 					'asinane',
 					'asinini',
+					'assinine',
 				],
 				'asininely'=>[
 					'asinanely',
 					'asininly',
+				],
+				'asininery'=>[
+					'assininery',
 				],
 				'asininities'=>[
 					'asininaties',
@@ -8425,6 +9267,9 @@
 				'asparagines'=>[
 					'asperagines',
 				],
+				'asparaginyl'=>[
+					'asparginyl',
+				],
 				'asparagus'=>[
 					'asperagus',
 				],
@@ -8452,6 +9297,12 @@
 				'asphalt'=>[
 					'ashphalt',
 					'aspalt',
+				],
+				'asphyctic'=>[
+					'asphytic',
+				],
+				'aspidorhynchiform'=>[
+					'aspidorynchiform',
 				],
 				'aspirant'=>[
 					'aspirent',
@@ -8598,6 +9449,7 @@
 				],
 				'assiduous'=>[
 					'assidous',
+					'assidious',
 				],
 				'assiduously'=>[
 					'assidously',
@@ -8666,6 +9518,7 @@
 				'assist'=>[
 					'asist',
 					'assisst',
+					'asisst',
 				],
 				'assistance'=>[
 					'asistance',
@@ -8697,6 +9550,7 @@
 					'associaite',
 					'assoicate',
 					'asssociate',
+					'assoziate',
 				],
 				'associated'=>[
 					'asociated',
@@ -8712,12 +9566,16 @@
 					'asociation',
 					'assocation',
 					'associaiton',
+					'assoziation',
 				],
 				'associationism'=>[
 					'asociationism',
 				],
 				'associationisms'=>[
 					'asociationisms',
+				],
+				'associationistic'=>[
+					'associonistic',
 				],
 				'associationists'=>[
 					'asociationists',
@@ -8806,12 +9664,22 @@
 				'astonishment'=>[
 					'astonishmant',
 				],
+				'astragaloside'=>[
+					'astrogaloside',
+				],
 				'astringency'=>[
 					'astringensy',
 				],
 				'astrobiologies'=>[
 					'astrobiologeis',
 					'astrobiologis',
+				],
+				'astrocytoma'=>[
+					'astocytoma',
+				],
+				'astrogliosis'=>[
+					'astriogliosis',
+					'astroglosis',
 				],
 				'astrologically'=>[
 					'astrologicaly',
@@ -8856,8 +9724,18 @@
 					'asymetry',
 					'asymnetry',
 				],
+				'asymptote'=>[
+					'asymtope',
+				],
 				'asymptotically'=>[
 					'asymptoticaly',
+				],
+				'asynchronicity'=>[
+					'asyncronicity',
+				],
+				'asynchronous'=>[
+					'asynchronus',
+					'asyncronous',
 				],
 				'asynchronously'=>[
 					'asynchronousally',
@@ -8876,6 +9754,9 @@
 					'at the at the',
 					'athe',
 					'atthe',
+				],
+				'atazanavir'=>[
+					'atzanavir',
 				],
 				'atelier'=>[
 					'ateleir',
@@ -8899,11 +9780,21 @@
 				'atheistically'=>[
 					'athiestically',
 				],
+				'atheists'=>[
+					'athiests',
+				],
 				'athenian'=>[
 					'athenean',
 				],
 				'athenians'=>[
 					'atheneans',
+				],
+				'atherectomy'=>[
+					'artherectomy',
+				],
+				'atherogenic'=>[
+					'artherogenic',
+					'arthrogenic',
 				],
 				'atheroscleroses'=>[
 					'atherocleroses',
@@ -8915,11 +9806,19 @@
 					'atheroclerosis',
 					'atherocslerosis',
 					'atheroslerosis',
+					'artherosclerosis',
+					'atheroscleroma',
 				],
 				'atherosclerotic'=>[
 					'atheroclerotic',
 					'atherocslerotic',
 					'atheroslerotic',
+				],
+				'atherothrombotic'=>[
+					'artherothrombotic',
+				],
+				'athetosis'=>[
+					'atheosis',
 				],
 				'athlete'=>[
 					'athelete',
@@ -8932,6 +9831,10 @@
 				],
 				'athénée royal'=>[
 					'athénée royale',
+				],
+				'atipamezole'=>[
+					'antipamozole',
+					'atipamazole',
 				],
 				'atlanta'=>[
 					'altanta',
@@ -8965,9 +9868,15 @@
 				],
 				'atonable'=>[
 					'atonible',
+					'atoneable',
 				],
 				'atone'=>[
 					'attone',
+				],
+				'atorvastatin'=>[
+					'atorvastin',
+					'atorvostatin',
+					'atrovastatin',
 				],
 				'atrabilious'=>[
 					'atrabilous',
@@ -8977,6 +9886,13 @@
 				],
 				'atrazine'=>[
 					'atrazini',
+				],
+				'atresia'=>[
+					'athresia',
+				],
+				'atrioventricular'=>[
+					'artrioventricular',
+					'atriocentricular',
 				],
 				'atrocious'=>[
 					'atrocous',
@@ -9275,11 +10191,23 @@
 				'australian-occupied'=>[
 					'australian occupied',
 				],
+				'australidelphian'=>[
+					'australodelphian',
+				],
+				'australidelphians'=>[
+					'australodelphians',
+				],
+				'australis'=>[
+					'austrealis',
+				],
 				'austrian'=>[
 					'austran',
 				],
 				'austrian-occupied'=>[
 					'austrian occupied',
+				],
+				'autapomorphy'=>[
+					'autopomorphy',
 				],
 				'autecious'=>[
 					'autecous',
@@ -9383,9 +10311,17 @@
 				'autochthonous'=>[
 					'autochtonous',
 					'autoctonous',
+					'autocthonous',
+					'autothonous',
+				],
+				'autochtonous'=>[
+					'authochtonous',
 				],
 				'autocorrelation'=>[
 					'autocorelation',
+				],
+				'autocorrelogram'=>[
+					'autocorrellogram',
 				],
 				'autocracy'=>[
 					'autocrasy',
@@ -9393,11 +10329,24 @@
 				'autocratically'=>[
 					'autocraticaly',
 				],
+				'autocrinally'=>[
+					'autocrinely',
+				],
+				'autodeubiquitinate'=>[
+					'autodeubiquinate',
+				],
+				'autodeubiquitination'=>[
+					'autodeubiquination',
+				],
 				'autoecious'=>[
 					'autoecous',
 				],
 				'autoeciously'=>[
 					'autoecously',
+				],
+				'autogenous'=>[
+					'authogenous',
+					'autogeneous',
 				],
 				'autographically'=>[
 					'autographicaly',
@@ -9430,12 +10379,31 @@
 				'automorphisms'=>[
 					'automourphisms',
 				],
+				'autonomic'=>[
+					'automonic',
+				],
 				'autonomie'=>[
 					'antonomie',
 					'aptonomie',
 				],
+				'autonomous'=>[
+					'authonomous',
+					'automous',
+				],
+				'autophagic'=>[
+					'authofagic',
+				],
+				'autophagosome'=>[
+					'autophagasome',
+				],
 				'autopsy'=>[
 					'autopcy',
+				],
+				'autoradiograph'=>[
+					'audioradiograph',
+				],
+				'autoradiography'=>[
+					'audioradiography',
 				],
 				'autosuggest'=>[
 					'autosugest',
@@ -9473,6 +10441,12 @@
 				'auxinic'=>[
 					'auxinac',
 				],
+				'auxotrophic'=>[
+					'auxotropic',
+				],
+				'auxotrophy'=>[
+					'auxotropy',
+				],
 				'availabilities'=>[
 					'availabiliteis',
 					'availabilitis',
@@ -9484,6 +10458,7 @@
 					'avalable',
 					'avaliable',
 					'avalible',
+					'avaidable',
 				],
 				'availablenesses'=>[
 					'availableneses',
@@ -9526,6 +10501,9 @@
 				'averaged'=>[
 					'averageed',
 				],
+				'avermectin'=>[
+					'avemectin',
+				],
 				'aversely'=>[
 					'aversly',
 				],
@@ -9546,6 +10524,9 @@
 				],
 				'avicular'=>[
 					'aviculer',
+				],
+				'avocado'=>[
+					'avacado',
 				],
 				'avocationally'=>[
 					'avocationaly',
@@ -9606,12 +10587,18 @@
 				'awesomely'=>[
 					'awesomly',
 				],
+				'awesomest'=>[
+					'awsomest',
+				],
 				'awkward'=>[
 					'ackward',
 					'akward',
 				],
 				'awoke'=>[
 					'awaked',
+				],
+				'axenic'=>[
+					'anexic',
 				],
 				'axillar'=>[
 					'axiller',
@@ -9630,12 +10617,19 @@
 				],
 				'axisymmetric'=>[
 					'axisymnetric',
+					'axissymmetric',
 				],
 				'axisymmetrical'=>[
 					'axisymnetrical',
 				],
 				'axisymmetries'=>[
 					'axisymnetries',
+				],
+				'axonopathic'=>[
+					'axopathic',
+				],
+				'axoplasmic'=>[
+					'axonoplasmic',
 				],
 				'ayah'=>[
 					'aya',
@@ -9646,6 +10640,7 @@
 				'ayahuasca'=>[
 					'ayahausca',
 					'ayauasca',
+					'iowaska',
 				],
 				'ayahuascas'=>[
 					'ayauascas',
@@ -9657,8 +10652,13 @@
 				'ayatollahs'=>[
 					'ayatollas',
 				],
+				'azaperone'=>[
+					'azaparone',
+				],
 				'azathioprine'=>[
 					'azathioprini',
+					'azathiopurine',
+					'azothioprine',
 				],
 				'azerbaijan'=>[
 					'azerbajan',
@@ -9677,6 +10677,15 @@
 				],
 				'azines'=>[
 					'azinis',
+				],
+				'azithromycin'=>[
+					'azithromyicin',
+				],
+				'azocasein'=>[
+					'asocasein',
+				],
+				'azoxystrobin'=>[
+					'azoxysyrobin',
 				],
 			];
 		}

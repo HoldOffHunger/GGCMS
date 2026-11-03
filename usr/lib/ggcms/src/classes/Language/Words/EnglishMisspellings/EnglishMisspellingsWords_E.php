@@ -32,6 +32,12 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Esperanto'=>[
+					'esparanto',
+				],
+				'Europeanness'=>[
+					'europeaness',
+				],
 				'each'=>[
 					'cach',
 					'each each',
@@ -307,6 +313,7 @@
 				'eccentric'=>[
 					'eccantric',
 					'ecentric',
+					'eccenteric',
 				],
 				'eccentrically'=>[
 					'ecentrically',
@@ -376,6 +383,12 @@
 				'eccrine'=>[
 					'ecrine',
 				],
+				'ecdysteroid'=>[
+					'edysteroid',
+				],
+				'ecdysteroidogenesis'=>[
+					'ecydsteroidogenesis',
+				],
 				'echinacea'=>[
 					'echinicea',
 				],
@@ -384,6 +397,9 @@
 				],
 				'echini'=>[
 					'echina',
+				],
+				'echinocandin'=>[
+					'equinocandin',
 				],
 				'echinococci'=>[
 					'echinococi',
@@ -397,6 +413,12 @@
 				'echinococcus'=>[
 					'echinococus',
 				],
+				'echocardiographic'=>[
+					'echocardiogaphic',
+				],
+				'echoendoscopy'=>[
+					'ecoendoscopy',
+				],
 				'eclaircissement'=>[
 					'eclaircisement',
 					'eclaircissemant',
@@ -407,6 +429,9 @@
 				],
 				'eclipse'=>[
 					'eclispe',
+				],
+				'eclogue'=>[
+					'ecologue',
 				],
 				'eclogues'=>[
 					'edogues',
@@ -437,12 +462,18 @@
 				'economy'=>[
 					'ecomony',
 				],
+				'econophysics'=>[
+					'econonophysics',
+				],
 				'ecophysiologies'=>[
 					'ecophysiologeis',
 					'ecophysiologis',
 				],
 				'ecoterrorism'=>[
 					'ecoterorism',
+				],
+				'ecotropic'=>[
+					'ecotrophic',
 				],
 				'ecraseur'=>[
 					'ecraser',
@@ -454,6 +485,16 @@
 					'extacy',
 					'extasy',
 				],
+				'ectodomain'=>[
+					'extodomain',
+				],
+				'ectoenzymatic'=>[
+					'ecoenzymatic',
+				],
+				'ectoenzyme'=>[
+					'ecoenzyme',
+					'ektoenzyme',
+				],
 				'ectomorph'=>[
 					'ectomourph',
 				],
@@ -462,6 +503,10 @@
 				],
 				'ectomorphs'=>[
 					'ectomourphs',
+				],
+				'ectomycorrhizal'=>[
+					'ectomycorhizal',
+					'ectomycorrizal',
 				],
 				'ectoparasite'=>[
 					'ectoperasite',
@@ -472,11 +517,23 @@
 				'ectoparasitic'=>[
 					'ectoperasitic',
 				],
+				'ectotherm'=>[
+					'ecotherm',
+				],
 				'ecuadorean-occupied'=>[
 					'ecuadorean occupied',
 				],
 				'edacious'=>[
 					'edacous',
+				],
+				'edaphic'=>[
+					'eudaphic',
+				],
+				'edaphology'=>[
+					'edafology',
+				],
+				'eddoes'=>[
+					'eddos',
 				],
 				'edelweiss'=>[
 					'edelwiess',
@@ -530,6 +587,10 @@
 				],
 				'edited'=>[
 					'editied',
+					'editted',
+				],
+				'editing'=>[
+					'editting',
 				],
 				'edition'=>[
 					'edtion',
@@ -591,6 +652,8 @@
 					'effectiveely',
 					'effectivelly',
 					'effectivly',
+					'effectiveley',
+					'effectivley',
 				],
 				'effectual'=>[
 					'effectaul',
@@ -683,6 +746,7 @@
 					'efflorecsence',
 					'efflorescance',
 					'effloresence',
+					'efflorescense',
 				],
 				'efflorescences'=>[
 					'efflorecences',
@@ -736,6 +800,9 @@
 				],
 				'effusivenesses'=>[
 					'effuisvenesses',
+				],
+				'eflornithine'=>[
+					'eflorinithine',
 				],
 				'efraín'=>[
 					'efrain',
@@ -814,6 +881,7 @@
 					'aggregious',
 					'agregious',
 					'egregous',
+					'egrecious',
 				],
 				'egregiously'=>[
 					'egregiousally',
@@ -835,11 +903,17 @@
 				'egyptian-occupied'=>[
 					'egyptian occupied',
 				],
+				'ehrlichiosis'=>[
+					'erhlichiosis',
+				],
 				'eicosanoid'=>[
 					'iecosanoid',
 				],
 				'eicosanoids'=>[
 					'iecosanoids',
+				],
+				'eicosenoic'=>[
+					'eicosenic',
 				],
 				'eide'=>[
 					'iede',
@@ -907,10 +981,12 @@
 				],
 				'eighteen'=>[
 					'ieghteen',
+					'eightteen',
 				],
 				'eighteenth'=>[
 					'eighteanth',
 					'ieghteenth',
+					'eightteenth',
 				],
 				'eighteenths'=>[
 					'ieghteenths',
@@ -969,6 +1045,12 @@
 				'eirenic'=>[
 					'ierenic',
 				],
+				'eisegesis'=>[
+					'isogesis',
+				],
+				'eisegetical'=>[
+					'isogetical',
+				],
 				'eisteddfod'=>[
 					'iesteddfod',
 				],
@@ -986,6 +1068,9 @@
 					'either either either',
 					'iether',
 				],
+				'ejectosome'=>[
+					'ejectisome',
+				],
 				'eked'=>[
 					'eeked',
 				],
@@ -994,6 +1079,9 @@
 				],
 				'eking'=>[
 					'eeking',
+				],
+				'ekpwele'=>[
+					'epkwele',
 				],
 				'el dorado'=>[
 					'elderado',
@@ -1055,6 +1143,18 @@
 					'electrifeis',
 					'electrifis',
 				],
+				'electrochemiluminescence'=>[
+					'electrochemiluminiscence',
+				],
+				'electrocompetent'=>[
+					'electrocompetant',
+				],
+				'electrocute'=>[
+					'electricute',
+				],
+				'electrodesiccation'=>[
+					'electrodessication',
+				],
 				'electrokinetic'=>[
 					'electrokinitic',
 				],
@@ -1064,11 +1164,39 @@
 				'electroless'=>[
 					'electroles',
 				],
+				'electroluminescent'=>[
+					'electroluscent',
+				],
+				'electromyographic'=>[
+					'electromygraphic',
+				],
 				'electron'=>[
 					'electon',
 				],
 				'electronic'=>[
 					'eletronic',
+				],
+				'electropherogram'=>[
+					'electroferogram',
+					'electrophenogram',
+					'electrospherogram',
+				],
+				'electrophilic'=>[
+					'electrophylic',
+				],
+				'electrophoresis'=>[
+					'electrophoriesis',
+					'eletrophoresis',
+				],
+				'electrophoretic'=>[
+					'electroporetic',
+					'eletrophoretic',
+				],
+				'electrophoretically'=>[
+					'electrophorectically',
+				],
+				'electroporation'=>[
+					'electropation',
 				],
 				'electroscope'=>[
 					'electrocope',
@@ -1079,6 +1207,9 @@
 					'electrocopes',
 					'electrocsopes',
 					'electrosopes',
+				],
+				'electrostriction'=>[
+					'electrorestriction',
 				],
 				'electroweak'=>[
 					'electrowek',
@@ -1172,6 +1303,12 @@
 				'ellipse'=>[
 					'elipse',
 				],
+				'ellipsoid'=>[
+					'elliptoid',
+				],
+				'ellipticity'=>[
+					'elipticity',
+				],
 				'ells'=>[
 					'els',
 				],
@@ -1203,6 +1340,9 @@
 				],
 				'eluate'=>[
 					'elaute',
+				],
+				'elucidate'=>[
+					'ellucidate',
 				],
 				'eluent'=>[
 					'eluant',
@@ -1341,6 +1481,9 @@
 					'embracereis',
 					'embraceris',
 				],
+				'embrithopod'=>[
+					'embrythopod',
+				],
 				'embryologically'=>[
 					'embryologicalally',
 					'embryologicalaly',
@@ -1413,6 +1556,9 @@
 					'emision',
 					'emmision',
 					'emmission',
+				],
+				'emissivity'=>[
+					'emmisivity',
 				],
 				'emit'=>[
 					'emitt',
@@ -1557,6 +1703,13 @@
 				'empressement'=>[
 					'empresement',
 				],
+				'emtansine'=>[
+					'emtasine',
+				],
+				'emtricitabine'=>[
+					'emtracitabine',
+					'entricitabine',
+				],
 				'emulatively'=>[
 					'emulativly',
 				],
@@ -1595,8 +1748,14 @@
 				'enamors'=>[
 					'enamours',
 				],
+				'enanthate'=>[
+					'enantate',
+				],
 				'enantiomer'=>[
 					'enentiomer',
+				],
+				'enantiomeric'=>[
+					'enatiomeric',
 				],
 				'enantiomorph'=>[
 					'enantiomourph',
@@ -1618,8 +1777,20 @@
 					'enantiomourphs',
 					'enentiomorphs',
 				],
+				'enantioselectivity'=>[
+					'enantioselecitivity',
+				],
 				'enceinte'=>[
 					'enciente',
+				],
+				'encephalitogenic'=>[
+					'encephalatogenic',
+				],
+				'encephalomyocarditis'=>[
+					'encephlomyocarditis',
+				],
+				'encephalopathy'=>[
+					'encephelopathy',
 				],
 				'enchainment'=>[
 					'enchaiment',
@@ -1692,6 +1863,7 @@
 					'encyclpedia',
 					'encylopedia',
 					'eyncyclopedia',
+					'enciclopedia',
 				],
 				'end'=>[
 					'end end',
@@ -1719,6 +1891,19 @@
 				'endless'=>[
 					'endles',
 				],
+				'endocannabinoid'=>[
+					'endocanabinoid',
+				],
+				'endocapillary'=>[
+					'endocapilliary',
+				],
+				'endochondral'=>[
+					'endochondreal',
+					'endochondrial',
+				],
+				'endocrinal'=>[
+					'endochrinal',
+				],
 				'endocrine'=>[
 					'endocrini',
 				],
@@ -1726,8 +1911,23 @@
 					'endocrinologeis',
 					'endocrinologis',
 				],
+				'endodermis'=>[
+					'endodermin',
+				],
 				'endoliths'=>[
 					'endolithes',
+				],
+				'endolysin'=>[
+					'entolysin',
+				],
+				'endomesoderm'=>[
+					'entomesoderm',
+				],
+				'endometrioid'=>[
+					'endometroid',
+				],
+				'endometriosis'=>[
+					'endometrosis',
 				],
 				'endomorph'=>[
 					'endomourph',
@@ -1750,8 +1950,15 @@
 				'endomorphy'=>[
 					'endomourphy',
 				],
+				'endomysium'=>[
+					'endomycium',
+				],
 				'endonuclease'=>[
 					'endonuclese',
+					'ectonuclease',
+				],
+				'endonucleotidic'=>[
+					'endonucleotic',
 				],
 				'endoparasite'=>[
 					'endoperasite',
@@ -1767,6 +1974,21 @@
 				],
 				'endoparasitisms'=>[
 					'endoperasitisms',
+				],
+				'endophytic'=>[
+					'endophitic',
+				],
+				'endopiriform'=>[
+					'endoperiform',
+				],
+				'endoplasmatic'=>[
+					'endoplasmitic',
+				],
+				'endopolyploid'=>[
+					'endoploid',
+				],
+				'endopolyploidy'=>[
+					'endoploidy',
 				],
 				'endorsement'=>[
 					'endorsemant',
@@ -1785,11 +2007,20 @@
 					'endoscopeis',
 					'endoscopis',
 				],
+				'endosomolytic'=>[
+					'endosmolytic',
+				],
+				'endostatin'=>[
+					'endostain',
+				],
 				'endotracheal'=>[
 					'endotrachel',
 				],
 				'endowment'=>[
 					'endowmant',
+				],
+				'endozoochory'=>[
+					'endozoocory',
 				],
 				'endurable'=>[
 					'endurible',
@@ -1814,6 +2045,9 @@
 				'enforceability'=>[
 					'enforcebility',
 				],
+				'enforceable'=>[
+					'enforcable',
+				],
 				'enframement'=>[
 					'enframent',
 				],
@@ -1822,6 +2056,10 @@
 				],
 				'enfranchisement'=>[
 					'enfranchisemant',
+				],
+				'enfuvirtide'=>[
+					'enfurvirtide',
+					'enfurvitide',
 				],
 				'engage'=>[
 					'enage',
@@ -1842,6 +2080,7 @@
 					'enginer',
 					'enginner',
 					'enginier',
+					'engineerer',
 				],
 				'engineering'=>[
 					'engeneering',
@@ -1977,6 +2216,9 @@
 				'enrichment'=>[
 					'enrichmant',
 				],
+				'enrofloxacin'=>[
+					'enrofloxazine',
+				],
 				'enroll'=>[
 					'enrole',
 					'enrol',
@@ -1993,6 +2235,9 @@
 					'enconce',
 					'encsonce',
 					'ensonce',
+				],
+				'enshittification'=>[
+					'enshitification',
 				],
 				'enshrine'=>[
 					'enshrini',
@@ -2015,6 +2260,9 @@
 				],
 				'ensuing'=>[
 					'ensueing',
+				],
+				'ensure'=>[
+					'enshure',
 				],
 				'ensuring'=>[
 					'ensureing',
@@ -2040,11 +2288,17 @@
 				'entera'=>[
 					'antera',
 				],
+				'enterable'=>[
+					'entrable',
+				],
 				'entered'=>[
 					'entred',
 				],
 				'enteric'=>[
 					'anteric',
+				],
+				'enteroaggregative'=>[
+					'enteroagregative',
 				],
 				'enterobacteria'=>[
 					'anterobacteria',
@@ -2054,6 +2308,9 @@
 				],
 				'enterobacterium'=>[
 					'anterobacterium',
+				],
+				'enterochromaffin'=>[
+					'enterochromaffine',
 				],
 				'enterococcal'=>[
 					'enterococal',
@@ -2071,18 +2328,31 @@
 				'enterocolitises'=>[
 					'anterocolitises',
 				],
+				'enterocyte'=>[
+					'entherocyte',
+				],
+				'enterodiol'=>[
+					'enterodial',
+				],
 				'enterogastrone'=>[
 					'anterogastrone',
 				],
 				'enterogastrones'=>[
 					'anterogastrones',
 				],
+				'enterohemorrhagic'=>[
+					'enterohemorragic',
+				],
 				'enterokinase'=>[
 					'enterokinise',
+				],
+				'enterotropic'=>[
+					'enterotrophic',
 				],
 				'enterprise'=>[
 					'enteprise',
 					'anterprise',
+					'emterprise',
 				],
 				'enterprising'=>[
 					'anterprising',
@@ -2207,11 +2477,26 @@
 					'entomologicalely',
 					'entomologicallly',
 				],
+				'entomopathogenic'=>[
+					'enthomopathogenic',
+					'entomopathogenetic',
+				],
 				'entomophagous'=>[
 					'antomophagous',
 				],
 				'entomophilous'=>[
 					'antomophilous',
+					'entomolophilous',
+				],
+				'entopeduncular'=>[
+					'entopenduncular',
+				],
+				'entopterygoid'=>[
+					'enteropterygoid',
+				],
+				'entorhinal'=>[
+					'enthorhinal',
+					'enthorinal',
 				],
 				'entourage'=>[
 					'antourage',
@@ -2271,6 +2556,9 @@
 				],
 				'entrepreneurs'=>[
 					'entrepeneurs',
+				],
+				'entrepreneurship'=>[
+					'entrepeneurship',
 				],
 				'entropy'=>[
 					'antropy',
@@ -2337,6 +2625,13 @@
 					'enviroments',
 					'environents',
 				],
+				'enwreathe'=>[
+					'enwreath',
+				],
+				'enzalutamide'=>[
+					'enalutamide',
+					'enzulatamide',
+				],
 				'eohippus'=>[
 					'eohipus',
 				],
@@ -2351,6 +2646,9 @@
 				],
 				'eosinic'=>[
 					'eosinac',
+				],
+				'eosinophilic'=>[
+					'eosiniphilic',
 				],
 				'eparchial'=>[
 					'eperchial',
@@ -2386,6 +2684,12 @@
 				'epeirogeny'=>[
 					'epierogeny',
 				],
+				'epenthesis'=>[
+					'epinthesis',
+				],
+				'epenthetic'=>[
+					'epinthetic',
+				],
 				'ephah'=>[
 					'epha',
 				],
@@ -2399,14 +2703,32 @@
 					'ephemeraliteis',
 					'ephemeralitis',
 				],
+				'epibolic'=>[
+					'epobolic',
+				],
 				'epiboly'=>[
 					'epiboally',
 					'epiboaly',
 					'epiboely',
 					'epibolly',
 				],
+				'epicanthal'=>[
+					'epicantal',
+				],
+				'epicardial'=>[
+					'epicarial',
+				],
+				'epicardium'=>[
+					'epicaridium',
+				],
+				'epicene'=>[
+					'epicine',
+				],
 				'epicenter'=>[
 					'epicanter',
+				],
+				'epicondyle'=>[
+					'epicondyl',
 				],
 				'epicontinental'=>[
 					'epicontinantal',
@@ -2418,6 +2740,18 @@
 				'epidemiologies'=>[
 					'epidemiologeis',
 					'epidemiologis',
+				],
+				'epidemiology'=>[
+					'epidemology',
+				],
+				'epididymis'=>[
+					'epididymus',
+				],
+				'epididymoorchitis'=>[
+					'epidiymoorchitis',
+				],
+				'epigallocatechin'=>[
+					'epigallocathechin',
 				],
 				'epigrammatic'=>[
 					'epigramnatic',
@@ -2459,6 +2793,9 @@
 				'epilepsy'=>[
 					'epilepcy',
 				],
+				'epimysial'=>[
+					'epimyseal',
+				],
 				'epinasty'=>[
 					'epinisty',
 				],
@@ -2468,9 +2805,15 @@
 				'epineurium'=>[
 					'epiniurium',
 				],
+				'epiphyseal'=>[
+					'epipophyseal',
+				],
 				'epiphytologies'=>[
 					'epiphytologeis',
 					'epiphytologis',
+				],
+				'epipsammic'=>[
+					'episammic',
 				],
 				'epirogenies'=>[
 					'epirogeneis',
@@ -2500,6 +2843,9 @@
 				'episodes'=>[
 					'kpisodes',
 				],
+				'episomally'=>[
+					'episomaly',
+				],
 				'epistasy'=>[
 					'epistacy',
 				],
@@ -2510,12 +2856,30 @@
 				'epistolary'=>[
 					'epistolery',
 				],
+				'epitenon'=>[
+					'epitendon',
+				],
+				'epithelial'=>[
+					'epithelical',
+				],
+				'epitheliotropic'=>[
+					'epitheliotrophic',
+				],
 				'epitome'=>[
 					'epitomy',
+				],
+				'epizootic'=>[
+					'epizoonotic',
+				],
+				'epizootiological'=>[
+					'epizootological',
 				],
 				'epizootiologies'=>[
 					'epizootiologeis',
 					'epizootiologis',
+				],
+				'epoxomicin'=>[
+					'epoxomycin',
 				],
 				'equability'=>[
 					'eqaubility',
@@ -2553,6 +2917,9 @@
 				],
 				'equality'=>[
 					'eqaulity',
+				],
+				'equalization'=>[
+					'equilisation',
 				],
 				'equalizations'=>[
 					'eqaulizations',
@@ -2627,6 +2994,9 @@
 					'equidistantlly',
 					'equidistently',
 				],
+				'equilateral'=>[
+					'equilater',
+				],
 				'equilibrium'=>[
 					'equilibium',
 					'equilibrum',
@@ -2639,6 +3009,9 @@
 				],
 				'equinely'=>[
 					'equinly',
+				],
+				'equinox'=>[
+					'equinoxe',
 				],
 				'equipment'=>[
 					'equippment',
@@ -2672,6 +3045,9 @@
 				],
 				'equitant'=>[
 					'equitent',
+				],
+				'equithesin'=>[
+					'equithesine',
 				],
 				'equivalence'=>[
 					'equivalance',
@@ -2708,12 +3084,24 @@
 					'erested',
 					'errected',
 				],
+				'eremitic'=>[
+					'eremetic',
+				],
+				'ergodic'=>[
+					'egodic',
+				],
 				'ergometries'=>[
 					'ergometreis',
 					'ergometris',
 				],
 				'ergotamine'=>[
 					'ergotamini',
+				],
+				'ergothioneine'=>[
+					'ergothionene',
+				],
+				'eriodictyol'=>[
+					'eriodictoyl',
 				],
 				'eritrean-occupied'=>[
 					'eritrean occupied',
@@ -2729,6 +3117,9 @@
 				],
 				'erodent'=>[
 					'erodant',
+				],
+				'erodibility'=>[
+					'erodability',
 				],
 				'erodible'=>[
 					'erodable',
@@ -2789,6 +3180,7 @@
 				],
 				'erroneous'=>[
 					'eroneous',
+					'errorneous',
 				],
 				'erroneousness'=>[
 					'eroneousness',
@@ -2821,6 +3213,15 @@
 				'eruptively'=>[
 					'eruptivly',
 				],
+				'erythematosus'=>[
+					'erythematosis',
+				],
+				'erythematous'=>[
+					'erythemateous',
+				],
+				'erythroid'=>[
+					'erithroid',
+				],
 				'erythropoieses'=>[
 					'erythropoeises',
 					'erythropoises',
@@ -2828,14 +3229,18 @@
 				'erythropoiesis'=>[
 					'erythropoeisis',
 					'erythropoisis',
+					'erythropoesis',
 				],
 				'erythropoietic'=>[
 					'erythropoeitic',
 					'erythropoitic',
+					'erythropoetic',
 				],
 				'erythropoietin'=>[
 					'erythropoeitin',
 					'erythropoitin',
+					'erythropoetin',
+					'erythroprotein',
 				],
 				'erythropoietins'=>[
 					'erythropoeitins',
@@ -2913,6 +3318,7 @@
 					'ecarpment',
 					'ecsarpment',
 					'esarpment',
+					'excarpment',
 				],
 				'escars'=>[
 					'ecars',
@@ -2945,6 +3351,9 @@
 					'ecshew',
 					'eshew',
 				],
+				'escitalopram'=>[
+					'ascitalopram',
+				],
 				'escolar'=>[
 					'ecolar',
 					'ecsolar',
@@ -2976,6 +3385,9 @@
 					'ecudo',
 					'esudo',
 				],
+				'escutcheonectomy'=>[
+					'escutheonectomy',
+				],
 				'eskar'=>[
 					'esker',
 				],
@@ -3000,6 +3412,9 @@
 					'especialely',
 					'especiallly',
 					'especialy',
+					'espeically',
+					'espesially',
+					'exspecially',
 				],
 				'esperance'=>[
 					'esperence',
@@ -3072,6 +3487,9 @@
 					'establishme',
 					'establishmant',
 				],
+				'esterase'=>[
+					'estearase',
+				],
 				'esthetician'=>[
 					'esthetican',
 				],
@@ -3090,6 +3508,13 @@
 				],
 				'estoppel'=>[
 					'estopel',
+					'estoppal',
+				],
+				'estradiol'=>[
+					'extradiol',
+				],
+				'estramustine'=>[
+					'extramustine',
 				],
 				'estrellas de areito'=>[
 					'estreas de areito',
@@ -3112,6 +3537,9 @@
 					'ec cetera',
 					'etcetera',
 				],
+				'etanercept'=>[
+					'eternacept',
+				],
 				'etc'=>[
 					'ect',
 				],
@@ -3123,6 +3551,9 @@
 				],
 				'etesian'=>[
 					'etesan',
+				],
+				'ethacrynic'=>[
+					'ethacrinic',
 				],
 				'ethanolamine'=>[
 					'ethanolamini',
@@ -3176,8 +3607,35 @@
 					'ethnoscince',
 					'ethnosience',
 				],
+				'etiological'=>[
+					'ethiological',
+				],
+				'etiopathogenesis'=>[
+					'aethiopatogenesis',
+					'ethiopathogenesis',
+				],
+				'etiopathogenetic'=>[
+					'ethiopathogenetic',
+				],
+				'etiopathogenic'=>[
+					'ethiopathogenic',
+				],
+				'etiopathological'=>[
+					'aethiopathological',
+					'ethiopathological',
+				],
+				'etiopathology'=>[
+					'ethiopathology',
+				],
+				'etoposide'=>[
+					'ectoposide',
+				],
 				'etymology'=>[
 					'ethymology',
+					'etimology',
+				],
+				'euchromatin'=>[
+					'eurochromatin',
 				],
 				'euclidean'=>[
 					'euclidian',
@@ -3185,11 +3643,23 @@
 				'euclidian'=>[
 					'euclidan',
 				],
+				'eudemine'=>[
+					'eudamine',
+				],
 				'eugeosyncline'=>[
 					'eugeosynclini',
 				],
 				'eugeosynclines'=>[
 					'eugeosynclinis',
+				],
+				'euhedrally'=>[
+					'euedrally',
+				],
+				'eukaryotic'=>[
+					'eukariotic',
+				],
+				'eulerian'=>[
+					'eularian',
 				],
 				'eulogistically'=>[
 					'eulogisticalally',
@@ -3199,6 +3669,9 @@
 				],
 				'eulogy'=>[
 					'euology',
+				],
+				'eumenorrheic'=>[
+					'eumenorrhoic',
 				],
 				'euonymus'=>[
 					'eonymus',
@@ -3217,6 +3690,7 @@
 				],
 				'euphausiid'=>[
 					'euphauisid',
+					'euphasiid',
 				],
 				'euphausiids'=>[
 					'euphauisids',
@@ -3245,14 +3719,32 @@
 				'europeans'=>[
 					'europians',
 				],
+				'euryhaline'=>[
+					'eurohaline',
+				],
+				'eurythermal'=>[
+					'eurithermal',
+				],
+				'eurythermic'=>[
+					'eurithermic',
+				],
 				'eustacy'=>[
 					'eustasy',
 				],
 				'eustasy'=>[
 					'eustacy',
 				],
+				'euthanasia'=>[
+					'euthenasia',
+				],
 				'eutherian'=>[
 					'eutheran',
+				],
+				'eutrophic'=>[
+					'euthropic',
+				],
+				'eutrophication'=>[
+					'eutrophization',
 				],
 				'evacuant'=>[
 					'evacaunt',
@@ -3305,6 +3797,9 @@
 					'evanecent',
 					'evanecsent',
 					'evanesent',
+				],
+				'evangelistic'=>[
+					'evangalistic',
 				],
 				'evasively'=>[
 					'evasivly',
@@ -3388,6 +3883,7 @@
 					'every every',
 					'every every every',
 					'eveyr',
+					'evry',
 				],
 				'every time'=>[
 					'everytime',
@@ -3401,6 +3897,7 @@
 				'everyone'=>[
 					'every one',
 					'every-one',
+					'evryone',
 				],
 				'everything'=>[
 					'evervthing',
@@ -3471,6 +3968,9 @@
 				'exacerbated'=>[
 					'exerbated',
 				],
+				'exacerbation'=>[
+					'excerbation',
+				],
 				'exact'=>[
 					'exact exact',
 					'exact exact exact',
@@ -3484,6 +3984,7 @@
 				'exaggerate'=>[
 					'exagerate',
 					'exagerrate',
+					'exaggregate',
 				],
 				'exaggerated'=>[
 					'exagerated',
@@ -3625,6 +4126,13 @@
 				],
 				'exchangeability'=>[
 					'exchangebility',
+					'exchangability',
+				],
+				'exchangeable'=>[
+					'exchangable',
+				],
+				'excimer'=>[
+					'eximer',
 				],
 				'excipient'=>[
 					'excipeint',
@@ -3641,12 +4149,28 @@
 					'exciteable',
 					'excitible',
 				],
+				'excitatory'=>[
+					'excitory',
+				],
 				'excite'=>[
 					'excite excite',
 					'excite excite excite',
 				],
 				'excitement'=>[
 					'excitemant',
+				],
+				'excitonic'=>[
+					'exitonic',
+				],
+				'excitotoxic'=>[
+					'exitotoxic',
+				],
+				'excitotoxicity'=>[
+					'excitotoxity',
+					'exitotoxicity',
+				],
+				'excitotoxin'=>[
+					'exitotoxin',
 				],
 				'excludabilities'=>[
 					'excludabiliteis',
@@ -3752,11 +4276,17 @@
 					'excrecsently',
 					'excresently',
 				],
+				'excruciate'=>[
+					'excrutiate',
+				],
 				'excruciating'=>[
 					'excrutiating',
 				],
 				'excurrent'=>[
 					'excurent',
+				],
+				'excursion'=>[
+					'excusion',
 				],
 				'excursively'=>[
 					'excursivly',
@@ -3777,6 +4307,9 @@
 				'executive'=>[
 					'exective',
 				],
+				'exemestane'=>[
+					'exemestene',
+				],
 				'exemplar'=>[
 					'exempler',
 				],
@@ -3793,6 +4326,9 @@
 					'exampt',
 					'excempt',
 				],
+				'exenatide'=>[
+					'excenatide',
+				],
 				'exequatur'=>[
 					'exeqautur',
 				],
@@ -3806,6 +4342,7 @@
 					'exercise exercise',
 					'exercise exercise exercise',
 					'exercize',
+					'exersize',
 				],
 				'exerted'=>[
 					'extered',
@@ -3907,6 +4444,7 @@
 				'exist'=>[
 					'exsist',
 					'exsit',
+					'excist',
 				],
 				'existence'=>[
 					'existance',
@@ -3937,6 +4475,9 @@
 				'exocrine'=>[
 					'exocrini',
 				],
+				'exonerate'=>[
+					'exhonorate',
+				],
 				'exonuclease'=>[
 					'exonuclese',
 				],
@@ -3950,12 +4491,21 @@
 				'exorbitantly'=>[
 					'exorbitently',
 				],
+				'exorheic'=>[
+					'exhoreic',
+				],
+				'exoskeletal'=>[
+					'axoskeletal',
+				],
 				'exoskeleton'=>[
 					'exoskelaton',
 				],
 				'exothermicities'=>[
 					'exothermiciteis',
 					'exothermicitis',
+				],
+				'exotropia'=>[
+					'extropia',
 				],
 				'expandabilities'=>[
 					'expandabiliteis',
@@ -4034,6 +4584,9 @@
 				'expedite'=>[
 					'expidite',
 				],
+				'expedited'=>[
+					'expidited',
+				],
 				'expeditionary'=>[
 					'expeditionery',
 				],
@@ -4082,6 +4635,9 @@
 					'experience experience experience',
 					'exprience',
 					'experince',
+				],
+				'experienceable'=>[
+					'experiencable',
 				],
 				'experienced'=>[
 					'expereinced',
@@ -4208,6 +4764,9 @@
 				'exponentially'=>[
 					'exponantially',
 				],
+				'exponentiate'=>[
+					'expotentiate',
+				],
 				'exponentiation'=>[
 					'exponantiation',
 				],
@@ -4220,6 +4779,9 @@
 				],
 				'expressely'=>[
 					'expressedly',
+				],
+				'expressibility'=>[
+					'expressability',
 				],
 				'expressible'=>[
 					'expressable',
@@ -4263,6 +4825,9 @@
 				],
 				'exsanguinate'=>[
 					'exsanguinite',
+				],
+				'exsanguination'=>[
+					'exanguination',
 				],
 				'exsanguinations'=>[
 					'exsanguinitions',
@@ -4316,6 +4881,9 @@
 				'extension '=>[
 					'extention',
 				],
+				'extensional'=>[
+					'extentional',
+				],
 				'extensions'=>[
 					'extentions',
 				],
@@ -4357,6 +4925,9 @@
 					'exerternal',
 					'extemal',
 				],
+				'exteroceptive'=>[
+					'extroceptive',
+				],
 				'exterritorial'=>[
 					'exteritorial',
 				],
@@ -4371,6 +4942,10 @@
 				],
 				'extinguisher'=>[
 					'extinguiser',
+				],
+				'extirpate'=>[
+					'extrapate',
+					'extripate',
 				],
 				'extol'=>[
 					'extoll',
@@ -4388,6 +4963,9 @@
 					'extracelluler',
 					'extracelular',
 				],
+				'extrachromosomal'=>[
+					'extracromosomal',
+				],
 				'extracorporeal'=>[
 					'extracorporel',
 				],
@@ -4403,6 +4981,9 @@
 				],
 				'extraditable'=>[
 					'extraditible',
+				],
+				'extradite'=>[
+					'extradict',
 				],
 				'extrahepatic'=>[
 					'extraepatic',
@@ -4428,6 +5009,10 @@
 					'extrordinary',
 					'extraordinery',
 					'extraordiniry',
+					'extrodinary',
+				],
+				'extrapolate'=>[
+					'extrapalate',
 				],
 				'extraterrestrial'=>[
 					'extraterestrial',
@@ -4458,6 +5043,12 @@
 					'extravagantely',
 					'extravagantlly',
 				],
+				'extravasation'=>[
+					'extravasion',
+					'extravastion',
+					'extravation',
+					'extravazation',
+				],
 				'extravascular'=>[
 					'extravacsular',
 					'extravacular',
@@ -4466,6 +5057,9 @@
 				],
 				'extravehicular'=>[
 					'extravehiculer',
+				],
+				'extravillous'=>[
+					'extrovillous',
 				],
 				'extreme'=>[
 					'extreem',
@@ -4496,6 +5090,9 @@
 				'exuberant'=>[
 					'exhuberant',
 					'exuberent',
+				],
+				'exudates'=>[
+					'exsudates',
 				],
 				'exultance'=>[
 					'exultence',
@@ -4548,6 +5145,9 @@
 				],
 				'ezekiel'=>[
 					'ezekeil',
+				],
+				'ezetimibe'=>[
+					'ezetemide',
 				],
 				'èze'=>[
 					'eze',

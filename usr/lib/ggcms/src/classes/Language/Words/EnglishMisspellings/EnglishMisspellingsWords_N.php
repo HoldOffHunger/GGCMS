@@ -32,6 +32,21 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'NORTHCOM'=>[
+					'norcom',
+				],
+				'Nadège'=>[
+					'nadege',
+				],
+				'Norwegianness'=>[
+					'norwegianess',
+				],
+				'Norwegians'=>[
+					'norweigans',
+				],
+				'Nyírtass'=>[
+					'nyirtass',
+				],
 				'nagged'=>[
 					'naged',
 				],
@@ -58,6 +73,12 @@
 				],
 				'naivety'=>[
 					'naivity',
+				],
+				'nakfa'=>[
+					'nafka',
+				],
+				'naloxone'=>[
+					'naxalone',
 				],
 				'namable'=>[
 					'namible',
@@ -91,6 +112,9 @@
 				'nandina'=>[
 					'nandini',
 				],
+				'nandrolone'=>[
+					'nadrolone',
+				],
 				'nannoplankton'=>[
 					'nanoplankton',
 				],
@@ -100,10 +124,28 @@
 				'nanny'=>[
 					'nany',
 				],
+				'nanofluid'=>[
+					'mamofluid',
+				],
+				'nanolith'=>[
+					'nannolith',
+				],
+				'nanopowder'=>[
+					'nanopower',
+				],
 				'nanoscale'=>[
 					'nanocale',
 					'nanocsale',
 					'nanosale',
+				],
+				'naphazoline'=>[
+					'nafazoline',
+				],
+				'naphthaldehyde'=>[
+					'napthaldehyde',
+				],
+				'naphthalene'=>[
+					'napthalene',
 				],
 				'naphthylamines'=>[
 					'naphthylaminis',
@@ -125,6 +167,12 @@
 				],
 				'narcissism'=>[
 					'narcisism',
+				],
+				'narcoguerrilla'=>[
+					'narcoguerilla',
+				],
+				'narcoguerrillas'=>[
+					'narcoguerillas',
 				],
 				'narcolepsy'=>[
 					'narcolepcy',
@@ -190,6 +238,9 @@
 					'nascient',
 					'nasent',
 				],
+				'nasopharyngeal'=>[
+					'nasopharngeal',
+				],
 				'natant'=>[
 					'natent',
 				],
@@ -207,6 +258,7 @@
 					'nationl',
 					'nationnal',
 					'natioual',
+					'natinoal',
 				],
 				'nationalities'=>[
 					'nationalites',
@@ -230,6 +282,9 @@
 				],
 				'natively'=>[
 					'nativly',
+				],
+				'natriuretic'=>[
+					'naturetic',
 				],
 				'natural'=>[
 					'natrual',
@@ -275,6 +330,7 @@
 				],
 				'navigable'=>[
 					'navigible',
+					'navagable',
 				],
 				'navigation'=>[
 					'navagation',
@@ -288,6 +344,9 @@
 				],
 				'nazareth'=>[
 					'nazereth',
+				],
+				'naïveté'=>[
+					'naivite',
 				],
 				'neap'=>[
 					'nep',
@@ -362,6 +421,7 @@
 					'nesessary', 'nessecary',
 					'nessacary',
 					'nessecary',
+					'necessarry',
 				],
 				'necessitarian'=>[
 					'necessitaran',
@@ -409,6 +469,14 @@
 				'necropsy'=>[
 					'necropcy',
 				],
+				'necrotized'=>[
+					'necroticized',
+				],
+				'necrotrophic'=>[
+					'necrotropic',
+					'nectrophic',
+					'nectrotrophic',
+				],
 				'nectar'=>[
 					'necter',
 				],
@@ -417,6 +485,12 @@
 				],
 				'nectary'=>[
 					'nectery',
+				],
+				'nectomonad'=>[
+					'nectonomad',
+				],
+				'nectridean'=>[
+					'nectridian',
 				],
 				'need'=>[
 					'ened',
@@ -443,8 +517,12 @@
 					'nefariouslly',
 					'nefarously',
 				],
+				'nefazodone'=>[
+					'nefazadone',
+				],
 				'negative'=>[
 					'negitive',
+					'negatative',
 				],
 				'negatively'=>[
 					'negativley',
@@ -525,11 +603,18 @@
 				'neighbour'=>[
 					'nieghbour',
 				],
+				'neighbourhood'=>[
+					'neighboorhood',
+				],
 				'neist'=>[
 					'niest',
 				],
 				'neither'=>[
 					'niether',
+				],
+				'nektobenthic'=>[
+					'nectobenthic',
+					'nectobentonic',
 				],
 				'nelly'=>[
 					'nelally',
@@ -537,14 +622,36 @@
 					'nellly',
 					'nely',
 				],
+				'nematode'=>[
+					'nematoad',
+				],
+				'nemesis'=>[
+					'nemisis',
+				],
 				'neoclassicism'=>[
 					'neoclasicism',
+				],
+				'neocuproine'=>[
+					'neocuprine',
+					'neocuprione',
 				],
 				'neomorph'=>[
 					'neomourph',
 				],
+				'neonatology'=>[
+					'neonatalogy',
+				],
+				'neoplastic'=>[
+					'neoplasic',
+				],
+				'neoselachian'=>[
+					'neoselacian',
+				],
 				'neostigmine'=>[
 					'neostigmini',
+				],
+				'neoteleostean'=>[
+					'neoteleostian',
 				],
 				'nepalese-occupied'=>[
 					'nepalese occupied',
@@ -561,8 +668,31 @@
 				'nephelinitic'=>[
 					'nephelinatic',
 				],
+				'nephelometric'=>[
+					'nefelometric',
+				],
+				'nephelometry'=>[
+					'nefelometry',
+				],
 				'nephew'=>[
 					'newphew',
+				],
+				'nephrectomy'=>[
+					'nefrectomy',
+				],
+				'nephropathy'=>[
+					'nepheropathy',
+					'nepropathy',
+				],
+				'nephrotoxicity'=>[
+					'nefrotoxicity',
+				],
+				'nephroureterectomy'=>[
+					'nephrouretectomy',
+				],
+				'neprilysin'=>[
+					'nephrilysin',
+					'neprylisin',
 				],
 				'nereis'=>[
 					'neries',
@@ -593,18 +723,32 @@
 				],
 				'neuraminidase'=>[
 					'neuraminadase',
+					'neurominidase',
 				],
 				'neuraminidases'=>[
 					'neuraminadases',
 				],
+				'neurepithelium'=>[
+					'neuropithelium',
+				],
 				'neurilemma'=>[
 					'neurilemna',
 				],
+				'neurocysticercosis'=>[
+					'neurocystocerciosis',
+				],
+				'neuroectodermal'=>[
+					'neutroectodermal',
+				],
 				'neuroendocrine'=>[
 					'neuroendocrini',
+					'neuroendorine',
 				],
 				'neurofibrillary'=>[
 					'neurofibrillery',
+				],
+				'neurofilament'=>[
+					'neurophilament',
 				],
 				'neurohumor'=>[
 					'neurohumour',
@@ -615,14 +759,26 @@
 				'neurohumors'=>[
 					'neurohumours',
 				],
+				'neurohypophysis'=>[
+					'neurohypophyisis',
+				],
 				'neurological'=>[
 					'nuerological',
+				],
+				'neuromesenchymal'=>[
+					'neuromesenchimal',
 				],
 				'neuromuscular'=>[
 					'neuromucsular',
 					'neuromucular',
 					'neuromusculer',
 					'neuromusular',
+				],
+				'neuroophthalmological'=>[
+					'neuroopthalmological',
+				],
+				'neuropeptidergic'=>[
+					'neuropetidergic',
 				],
 				'neuroscience'=>[
 					'neurocience',
@@ -642,11 +798,33 @@
 					'neurocsientists',
 					'neurosientists',
 				],
+				'neurosignalling'=>[
+					'neurosignaling',
+				],
+				'neurosyphilis'=>[
+					'neurosyphillis',
+				],
 				'neurotic'=>[
 					'nuerotic',
 				],
 				'neurotransmitter'=>[
 					'nuerotransmitter',
+					'neurotransmiter',
+				],
+				'neurotransmitters'=>[
+					'neurotransmiters',
+				],
+				'neurotrophic'=>[
+					'neuritotrophic',
+					'neutrotrophic',
+				],
+				'neurotrophin'=>[
+					'neurotophin',
+					'neutrophin',
+					'neutrotrophin',
+				],
+				'neurotropism'=>[
+					'neuronotropism',
 				],
 				'neutral'=>[
 					'nuetral',
@@ -668,6 +846,9 @@
 					'nethertheless',
 					'neveretheless',
 					'nevertheles',
+				],
+				'nevirapine'=>[
+					'niverapine',
 				],
 				'new'=>[
 					'new new',
@@ -782,6 +963,9 @@
 				'nicknamed'=>[
 					'nick named',
 				],
+				'nicotianamine'=>[
+					'nicothianamine',
+				],
 				'nicotinamide'=>[
 					'nicotinimide',
 				],
@@ -790,9 +974,16 @@
 				],
 				'nicotine'=>[
 					'nicotini',
+					'nicotene',
 				],
 				'nicotinic'=>[
 					'nicotinac',
+				],
+				'nidamental'=>[
+					'nidimental',
+				],
+				'nidicolous'=>[
+					'nidiculous',
 				],
 				'niece'=>[
 					'neice',
@@ -811,6 +1002,11 @@
 				],
 				'nifedipine'=>[
 					'nifedipini',
+					'nifedepine',
+					'nifidepine',
+				],
+				'niftiness'=>[
+					'niftyness',
 				],
 				'nigerian-occupied'=>[
 					'nigerian occupied',
@@ -896,8 +1092,15 @@
 				'nightwear'=>[
 					'nightweer',
 				],
+				'nigrostriatal'=>[
+					'negrostriatal',
+					'nigostriatal',
+				],
 				'nil'=>[
 					'nill',
+				],
+				'nilutamide'=>[
+					'nilutamine',
 				],
 				'nimious'=>[
 					'nimous',
@@ -974,6 +1177,7 @@
 				],
 				'nitrocellulose'=>[
 					'nitrocelulose',
+					'nitrocellulase',
 				],
 				'nitroglycerines'=>[
 					'nitroglycerinis',
@@ -984,8 +1188,14 @@
 				'nitroparaffins'=>[
 					'nitroperaffins',
 				],
+				'nitroprusside'=>[
+					'introprusside',
+				],
 				'nitrosamine'=>[
 					'nitrosamini',
+				],
+				'nivellate'=>[
+					'nivelate',
 				],
 				'nixie'=>[
 					'nixei',
@@ -1021,6 +1231,11 @@
 				],
 				'nocent'=>[
 					'nocant',
+				],
+				'nocodazole'=>[
+					'nocadazole',
+					'nocadozole',
+					'nocodasole',
 				],
 				'noctuoid'=>[
 					'noctoid',
@@ -1097,6 +1312,12 @@
 				'nominee'=>[
 					'nominie',
 				],
+				'nomogram'=>[
+					'normogram',
+				],
+				'non sequitur'=>[
+					'non-sequiteur',
+				],
 				'non-capitalist'=>[
 					'noncapitalist',
 				],
@@ -1144,6 +1365,7 @@
 				],
 				'nonagenarian'=>[
 					'nonagenaran',
+					'nanogenarian',
 				],
 				'nonaggression'=>[
 					'nonaggresion',
@@ -1165,6 +1387,9 @@
 				],
 				'nonambiguous'=>[
 					'nonambigous',
+				],
+				'nonambulatory'=>[
+					'nonabulatory',
 				],
 				'nonappearance'=>[
 					'nonapearance',
@@ -1253,6 +1478,7 @@
 					'noncommittalely',
 					'noncommittallly',
 					'noncomnittally',
+					'noncomittally',
 				],
 				'noncommutative'=>[
 					'noncomnutative',
@@ -1892,6 +2118,9 @@
 					'nomonogamous',
 					'nononogamous',
 				],
+				'nonmonotonic'=>[
+					'nonomonotonic',
+				],
 				'nonmoral'=>[
 					'nomoral',
 					'nonmoural',
@@ -2010,6 +2239,9 @@
 				'nonnuclear'=>[
 					'nonnucleer',
 					'nonuclear',
+				],
+				'nonnude'=>[
+					'nonude',
 				],
 				'nonnutritious'=>[
 					'nonnutritous',
@@ -2194,6 +2426,9 @@
 				'nonsaponifiable'=>[
 					'nonsaponifiible',
 				],
+				'nonscarring'=>[
+					'nonscaring',
+				],
 				'nonscheduled'=>[
 					'noncheduled',
 					'noncsheduled',
@@ -2210,6 +2445,7 @@
 				],
 				'nonsense'=>[
 					'nonsence',
+					'nonesense',
 				],
 				'nonsensuous'=>[
 					'nonsensous',
@@ -2219,6 +2455,9 @@
 				],
 				'nonserious'=>[
 					'nonserous',
+				],
+				'nonserotypeable'=>[
+					'nonserotypable',
 				],
 				'nonshrinkable'=>[
 					'nonshrinkible',
@@ -2252,6 +2491,9 @@
 				],
 				'nonsymmetrical'=>[
 					'nonsymnetrical',
+				],
+				'nonsyndromic'=>[
+					'nonsindromic',
 				],
 				'nonterminating'=>[
 					'nonterminiting',
@@ -2309,10 +2551,12 @@
 				],
 				'noradrenergic'=>[
 					'nouradrenergic',
+					'noradrenenergic',
 				],
 				'norepinephrine'=>[
 					'norepinephrini',
 					'nourepinephrine',
+					'norephinephrine',
 				],
 				'norepinephrines'=>[
 					'norepinephrinis',
@@ -2323,6 +2567,9 @@
 				],
 				'norethindrones'=>[
 					'nourethindrones',
+				],
+				'norflurazon'=>[
+					'norflurazone',
 				],
 				'norites'=>[
 					'nourites',
@@ -2414,6 +2661,12 @@
 				'normless'=>[
 					'nourmless',
 				],
+				'normocapnia'=>[
+					'normocapnea',
+				],
+				'normochromic'=>[
+					'normocromic',
+				],
 				'normotensive'=>[
 					'nourmotensive',
 				],
@@ -2428,6 +2681,15 @@
 				],
 				'normothermic'=>[
 					'nourmothermic',
+				],
+				'normoxic'=>[
+					'nomoxic',
+				],
+				'norovirus'=>[
+					'novovirus',
+				],
+				'norteño'=>[
+					'norteno',
 				],
 				'north'=>[
 					'north north',
@@ -2577,6 +2839,9 @@
 					'nosepeice',
 					'nosepice',
 				],
+				'nosocomial'=>[
+					'nasocomial',
+				],
 				'nosy'=>[
 					'nocy',
 				],
@@ -2594,6 +2859,7 @@
 				],
 				'notably'=>[
 					'noteably',
+					'notablely',
 				],
 				'notary'=>[
 					'notery',
@@ -2741,18 +3007,34 @@
 				],
 				'nuclei'=>[
 					'nuclie',
+					'nucleii',
 				],
 				'nuclein'=>[
 					'nuclien',
 				],
+				'nucleofector'=>[
+					'nucleofactor',
+				],
 				'nucleolar'=>[
 					'nucleoler',
+				],
+				'nucleophilicity'=>[
+					'nucleophylicity',
+				],
+				'nucleoplasmin'=>[
+					'nuceloplasmin',
 				],
 				'nucleoprotein'=>[
 					'nucleoprotien',
 				],
 				'nucleoproteins'=>[
 					'nucleoprotiens',
+				],
+				'nucleoside'=>[
+					'nucleocide',
+				],
+				'nucleotidic'=>[
+					'nucleotic',
 				],
 				'nucleus'=>[
 					'nucleas',
@@ -2778,6 +3060,7 @@
 					'nuisanse',
 					'nuisence',
 					'nusance',
+					'nuissance',
 				],
 				'null'=>[
 					'nul',
@@ -2799,6 +3082,9 @@
 				],
 				'nullipara'=>[
 					'nullipera',
+				],
+				'nullizygosity'=>[
+					'nullizygozity',
 				],
 				'number'=>[
 					'number number',
@@ -2842,8 +3128,17 @@
 				'nuptial'=>[
 					'nuptual',
 				],
+				'nuptiality'=>[
+					'nuptuality',
+				],
+				'nuptials'=>[
+					'nuptuals',
+				],
 				'nuremberg'=>[
 					'nuremburg',
+				],
+				'nursing'=>[
+					'nurshing',
 				],
 				'nurturance'=>[
 					'nurturence',
@@ -2862,6 +3157,7 @@
 				],
 				'nutritious'=>[
 					'nutritous',
+					'nutricious',
 				],
 				'nutritiously'=>[
 					'nutritously',
@@ -2880,6 +3176,9 @@
 				],
 				'nutsy'=>[
 					'nutcy',
+				],
+				'nychthemeral'=>[
+					'nyctemeral',
 				],
 				'nympholepsy'=>[
 					'nympholepcy',

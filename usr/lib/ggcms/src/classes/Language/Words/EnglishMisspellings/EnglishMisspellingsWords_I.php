@@ -32,12 +32,24 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Iliad'=>[
+					'illiad',
+				],
+				'Indo-Pacific'=>[
+					'indopacific',
+				],
+				'Islamophobes'=>[
+					'islamaphobes',
+				],
 				'i'=>[
 					'i i',
 					'i i i',
 				],
 				'i would'=>[
 					'iwould',
+				],
+				'icariin'=>[
+					'icarrin',
 				],
 				'ice'=>[
 					'ice ice',
@@ -52,8 +64,17 @@
 				'icelandic-occupied'=>[
 					'icelandic occupied',
 				],
+				'ichthyoid'=>[
+					'icthyoid',
+				],
+				'ichthyoplankton'=>[
+					'icthyoplankton',
+				],
 				'ichthyosaurian'=>[
 					'ichthyosauran',
+				],
+				'icicle'=>[
+					'icycle',
 				],
 				'icily'=>[
 					'icially',
@@ -62,6 +83,9 @@
 				],
 				'icing'=>[
 					'iceing',
+				],
+				'icodextrin'=>[
+					'icodextran',
 				],
 				'iconoclastic'=>[
 					'iconclastic',
@@ -77,6 +101,9 @@
 				],
 				'icosahedrons'=>[
 					'icosaedrons',
+				],
+				'ictogenesis'=>[
+					'ictiogenesis',
 				],
 				'idea'=>[
 					'diea',
@@ -125,6 +152,7 @@
 				'identical'=>[
 					'idantical',
 					'identicial',
+					'identicle',
 				],
 				'identically'=>[
 					'idantically',
@@ -208,9 +236,22 @@
 				],
 				'ideology'=>[
 					'idealogy',
+					'idiology',
+				],
+				'idioblast'=>[
+					'ideoblast',
+				],
+				'idiocentric'=>[
+					'ideocentric',
 				],
 				'idiocy'=>[
 					'idiosy',
+				],
+				'idiolect'=>[
+					'ideolect',
+				],
+				'idiolectic'=>[
+					'ideolectic',
 				],
 				'idiomorphic'=>[
 					'idiomourphic',
@@ -220,6 +261,16 @@
 				],
 				'idiosyncratic'=>[
 					'ideosyncratic',
+					'idyosincratic',
+				],
+				'idiosyncraticity'=>[
+					'idiosyncracity',
+				],
+				'idioventricular'=>[
+					'ideoventricular',
+				],
+				'idolatry'=>[
+					'idolatory',
 				],
 				'idoneities'=>[
 					'idonieties',
@@ -334,6 +385,16 @@
 				'ileitis'=>[
 					'ilietis',
 				],
+				'iliolumbar'=>[
+					'ileolumbar',
+					'illiolumbar',
+				],
+				'iliophagous'=>[
+					'illiophagous',
+				],
+				'iliopsoas'=>[
+					'ileopsoas',
+				],
 				'illatively'=>[
 					'illativly',
 				],
@@ -345,6 +406,7 @@
 				],
 				'illegal'=>[
 					'ilegal',
+					'illeagle',
 				],
 				'illegality'=>[
 					'ilegality',
@@ -534,6 +596,7 @@
 				],
 				'illustrate'=>[
 					'ilustrate',
+					'illistrate',
 				],
 				'illustrated'=>[
 					'illistrated',
@@ -570,6 +633,7 @@
 				],
 				'imaginable'=>[
 					'imaginible',
+					'imagineable',
 				],
 				'imaginableness'=>[
 					'imaginibleness',
@@ -623,6 +687,12 @@
 				'imagines'=>[
 					'imaginis',
 				],
+				'imagological'=>[
+					'imageological',
+				],
+				'imatinib'=>[
+					'imatanib',
+				],
 				'imbalance'=>[
 					'imbalence',
 					'inbalance',
@@ -633,11 +703,24 @@
 				'imboldened'=>[
 					'imboldend',
 				],
+				'imfuckingpossible'=>[
+					'infuckingpossible',
+				],
+				'imidazole'=>[
+					'imidizole',
+					'immidazole',
+				],
+				'imidazolinone'=>[
+					'imidazalinone',
+				],
 				'imine'=>[
 					'imini',
 				],
 				'imines'=>[
 					'iminis',
+				],
+				'iminium'=>[
+					'imminium',
 				],
 				'imipramine'=>[
 					'imipramini',
@@ -697,6 +780,9 @@
 				],
 				'immanentists'=>[
 					'imnanentists',
+				],
+				'immarcescible'=>[
+					'immarcessible',
 				],
 				'immaterial'=>[
 					'imnaterial',
@@ -780,6 +866,7 @@
 					'imnediately',
 					'inmediately',
 					'lmmediately',
+					'immeadiately',
 				],
 				'immediateness'=>[
 					'imnediateness',
@@ -953,6 +1040,7 @@
 				'immittance'=>[
 					'immittence',
 					'imnittance',
+					'immitance',
 				],
 				'immittances'=>[
 					'imnittances',
@@ -1174,6 +1262,18 @@
 				'immunize'=>[
 					'imnunize',
 				],
+				'immunoabsorbance'=>[
+					'immunoadsorbance',
+				],
+				'immunoabsorbent'=>[
+					'immunoabsorbant',
+				],
+				'immunoadsorbtion'=>[
+					'immunoabsorbtion',
+				],
+				'immunoadsorption'=>[
+					'immunoadsorbtion',
+				],
 				'immunoassay'=>[
 					'immunoasay',
 					'imnunoassay',
@@ -1188,8 +1288,12 @@
 				'immunoblots'=>[
 					'imnunoblots',
 				],
+				'immunoblotted'=>[
+					'immunobloted',
+				],
 				'immunoblotting'=>[
 					'imnunoblotting',
+					'immunobloting',
 				],
 				'immunoblottings'=>[
 					'imnunoblottings',
@@ -1210,6 +1314,9 @@
 					'immunocompetant',
 					'imnunocompetent',
 				],
+				'immunocytochemical'=>[
+					'immunocitochemical',
+				],
 				'immunodeficient'=>[
 					'imnunodeficient',
 				],
@@ -1222,6 +1329,15 @@
 				'immunodiffusion'=>[
 					'immunodiffuison',
 					'imnunodiffusion',
+				],
+				'immunofluorescence'=>[
+					'immunoflourescence',
+				],
+				'immunofluorescent'=>[
+					'immunoflourescent',
+				],
+				'immunofluorometry'=>[
+					'immunofluorimetry',
 				],
 				'immunogeneses'=>[
 					'imnunogeneses',
@@ -1240,12 +1356,19 @@
 				],
 				'immunogenicity'=>[
 					'imnunogenicity',
+					'immunogenecity',
 				],
 				'immunoglobulin'=>[
 					'imnunoglobulin',
 				],
 				'immunoglobulins'=>[
 					'imnunoglobulins',
+				],
+				'immunohistochemical'=>[
+					'immunohystochemical',
+				],
+				'immunolabel'=>[
+					'immunolable',
 				],
 				'immunologic'=>[
 					'imnunologic',
@@ -1273,23 +1396,49 @@
 				'immunology'=>[
 					'imnunology',
 				],
+				'immunometric'=>[
+					'immunodimetric',
+				],
 				'immunomodulator'=>[
 					'imnunomodulator',
 				],
+				'immunomodulatory'=>[
+					'immunomodulary',
+					'immunomodulatary',
+				],
 				'immunopathology'=>[
 					'imnunopathology',
+				],
+				'immunoperoxidase'=>[
+					'immunoperoxydase',
+				],
+				'immunophilin'=>[
+					'immunophillin',
+				],
+				'immunoprecipitable'=>[
+					'immunoprecipitatable',
 				],
 				'immunoreactive'=>[
 					'immunorective',
 					'immunoureactive',
 					'imnunoreactive',
 				],
+				'immunoselection'=>[
+					'immunosection',
+				],
+				'immunosorbance'=>[
+					'immunosorbence',
+				],
 				'immunosorbent'=>[
 					'immunosorbant',
 					'imnunosorbent',
+					'immunosolvent',
 				],
 				'immunosorbents'=>[
 					'imnunosorbents',
+				],
+				'immunostimulation'=>[
+					'immunosimulation',
 				],
 				'immunosuppress'=>[
 					'immunosupress',
@@ -1297,12 +1446,30 @@
 				],
 				'immunosuppressant'=>[
 					'immunosupressant',
+					'immunosuppresant',
+				],
+				'immunosuppression'=>[
+					'immunosuppresion',
+					'immunosupression',
+				],
+				'immunosuppressive'=>[
+					'immunosuppresive',
+					'immunosupressive',
+				],
+				'immunosuppressor'=>[
+					'immunosupressor',
 				],
 				'immunotherapies'=>[
 					'imnunotherapies',
 				],
 				'immunotherapy'=>[
 					'imnunotherapy',
+				],
+				'immunoturbidimetry'=>[
+					'immunoturbimetry',
+				],
+				'immunoturbidometric'=>[
+					'immunoturbidiometric',
 				],
 				'immure'=>[
 					'imnure',
@@ -1353,6 +1520,9 @@
 				],
 				'imparadising'=>[
 					'imperadising',
+				],
+				'imparisyllabic'=>[
+					'imparasyllabic',
 				],
 				'imparity'=>[
 					'imperity',
@@ -1517,6 +1687,9 @@
 				'imperial'=>[
 					'empirial',
 					'impenal',
+				],
+				'imperialism'=>[
+					'emperialism',
 				],
 				'imperious'=>[
 					'imperous',
@@ -1933,6 +2106,9 @@
 				'in which'=>[
 					'inwhich',
 				],
+				'in-between'=>[
+					'imbetween',
+				],
 				'inabilities'=>[
 					'inibilities',
 				],
@@ -1948,6 +2124,7 @@
 					'inaccessable',
 					'inacessible',
 					'iniccessible',
+					'unaccessable',
 				],
 				'inaccessibly'=>[
 					'inaccessibally',
@@ -2383,6 +2560,9 @@
 				'incapable'=>[
 					'incapible',
 				],
+				'incapacitated'=>[
+					'noncapacitated',
+				],
 				'incardinations'=>[
 					'incardinitions',
 				],
@@ -2416,6 +2596,9 @@
 				'incentive'=>[
 					'incantive',
 				],
+				'inceptisol'=>[
+					'inceptosol',
+				],
 				'inceptively'=>[
 					'inceptivly',
 				],
@@ -2447,6 +2630,9 @@
 				],
 				'inchoately'=>[
 					'inchoatly',
+				],
+				'inchoative'=>[
+					'inchoactive',
 				],
 				'inchoatively'=>[
 					'inchoativly',
@@ -2511,6 +2697,9 @@
 				],
 				'inclemency'=>[
 					'inclemensy',
+				],
+				'inclement'=>[
+					'inclimate',
 				],
 				'inclinable'=>[
 					'inclinible',
@@ -2611,6 +2800,7 @@
 				'incommodious'=>[
 					'incommodous',
 					'incomnodious',
+					'incommodius',
 				],
 				'incommodiously'=>[
 					'incommodiousally',
@@ -2691,6 +2881,7 @@
 				],
 				'incompetent'=>[
 					'incompetant',
+					'incompitant',
 				],
 				'incomplete'=>[
 					'uncomplete',
@@ -2849,6 +3040,9 @@
 					'incontrolable',
 					'incontrollible',
 				],
+				'incontrovertible'=>[
+					'incontravertable',
+				],
 				'inconvenience'=>[
 					'inconveneince',
 					'inconveniance',
@@ -2959,6 +3153,11 @@
 				'incredible'=>[
 					'increadible',
 					'incredable',
+					'increadable',
+					'incrediable',
+				],
+				'incredibly'=>[
+					'incredibley',
 				],
 				'incredulously'=>[
 					'incredulousally',
@@ -3300,6 +3499,9 @@
 				'indignant'=>[
 					'indignent',
 				],
+				'indigoidine'=>[
+					'indigodine',
+				],
 				'indinavir'=>[
 					'indinivir',
 				],
@@ -3345,6 +3547,9 @@
 					'indicsriminate',
 					'indiscriminite',
 					'indisriminate',
+				],
+				'indiscriminately'=>[
+					'indiscriminantly',
 				],
 				'indispensable'=>[
 					'indispensible',
@@ -3487,6 +3692,9 @@
 					'indolant',
 					'indolennt',
 				],
+				'indolinium'=>[
+					'indolinum',
+				],
 				'indomitable'=>[
 					'indomitible',
 				],
@@ -3495,6 +3703,9 @@
 				],
 				'inducement'=>[
 					'inducemant',
+				],
+				'inducibility'=>[
+					'inductibility',
 				],
 				'inducible'=>[
 					'inducable',
@@ -3644,6 +3855,7 @@
 					'inefficiant',
 					'inefficint',
 					'inifficient',
+					'unefficient',
 				],
 				'inefficiently'=>[
 					'inifficiently',
@@ -3787,6 +3999,7 @@
 					'inevatible',
 					'inevitible',
 					'inivitable',
+					'enevitable',
 				],
 				'inevitableness'=>[
 					'inivitableness',
@@ -4006,6 +4219,7 @@
 				],
 				'infantilize'=>[
 					'infentilize',
+					'infantalize',
 				],
 				'infantilized'=>[
 					'infentilized',
@@ -4035,9 +4249,16 @@
 				'infeasibilities'=>[
 					'infesibilities',
 				],
+				'infeasibility'=>[
+					'imfeasibility',
+				],
 				'infeasible'=>[
 					'infeasable',
 					'infesible',
+					'imfeasible',
+				],
+				'infeasibly'=>[
+					'imfeasibly',
 				],
 				'infection'=>[
 					'infecion',
@@ -4061,9 +4282,15 @@
 				'inferential'=>[
 					'inferantial',
 				],
+				'inferolateral'=>[
+					'inferiolateral',
+				],
 				'inferrible'=>[
 					'inferible',
 					'inferrable',
+				],
+				'infestation'=>[
+					'inestation',
 				],
 				'infield'=>[
 					'infeild',
@@ -4079,6 +4306,7 @@
 				'infiltrate'=>[
 					'infilitrate',
 					'inflitrate',
+					'infultrate',
 				],
 				'infinite'=>[
 					'infinate',
@@ -4165,6 +4393,7 @@
 				],
 				'inflatable'=>[
 					'inflatible',
+					'inflateable',
 				],
 				'inflationary'=>[
 					'inflationery',
@@ -4183,6 +4412,7 @@
 					'inflorecsence',
 					'inflorescance',
 					'infloresence',
+					'influorescence',
 				],
 				'influence'=>[
 					'ihiluence',
@@ -4191,6 +4421,8 @@
 				],
 				'influenceable'=>[
 					'influenceible',
+					'influencable',
+					'influencible',
 				],
 				'influenced'=>[
 					'influented',
@@ -4206,6 +4438,9 @@
 				],
 				'infobahns'=>[
 					'infobans',
+				],
+				'infomercial'=>[
+					'infommercial',
 				],
 				'informant'=>[
 					'informent',
@@ -4269,6 +4504,9 @@
 				'infringement'=>[
 					'infringemant',
 				],
+				'infrutescence'=>[
+					'infrutescense',
+				],
 				'infundibular'=>[
 					'infundibuler',
 				],
@@ -4325,6 +4563,9 @@
 				],
 				'ingenuousnesses'=>[
 					'ingenousnesses',
+				],
+				'ingest'=>[
+					'injest',
 				],
 				'ingestible'=>[
 					'ingestable',
@@ -4814,6 +5055,7 @@
 					'innoculate',
 					'inocolate',
 					'inolucate',
+					'inocubate',
 				],
 				'inoculated'=>[
 					'innoculated',
@@ -4822,6 +5064,9 @@
 				'inoculation'=>[
 					'innoculation',
 					'inolucation',
+				],
+				'inoculative'=>[
+					'innoculative',
 				],
 				'inoffensively'=>[
 					'inoffensivly',
@@ -4918,6 +5163,7 @@
 					'incribe',
 					'incsribe',
 					'insribe',
+					'enscribe',
 				],
 				'inscription'=>[
 					'incription',
@@ -4994,6 +5240,7 @@
 				],
 				'insidious'=>[
 					'insidous',
+					'incidious',
 				],
 				'insidiously'=>[
 					'insidiousally',
@@ -5040,6 +5287,9 @@
 				],
 				'insistence'=>[
 					'insistance',
+				],
+				'insistences'=>[
+					'insistances',
 				],
 				'insistency'=>[
 					'insistensy',
@@ -5111,6 +5361,12 @@
 					'instilation',
 					'instillation',
 				],
+				'installed'=>[
+					'instaled',
+				],
+				'installing'=>[
+					'instaling',
+				],
 				'installment'=>[
 					'installmant',
 					'instalment',
@@ -5155,6 +5411,7 @@
 				],
 				'instantiation'=>[
 					'instatiation',
+					'instanciation',
 				],
 				'instantiations'=>[
 					'instentiations',
@@ -5251,6 +5508,7 @@
 				],
 				'instrumentation'=>[
 					'instrumantation',
+					'instrumention',
 				],
 				'instruments'=>[
 					'instrtinielits',
@@ -5299,9 +5557,13 @@
 				],
 				'insufficiently'=>[
 					'insufficently',
+					'insufficiantly',
 				],
 				'insular'=>[
 					'insuler',
+				],
+				'insulinotropic'=>[
+					'insulinotrophic',
 				],
 				'insuperable'=>[
 					'insuperible',
@@ -5444,6 +5706,7 @@
 				'intelligentsia'=>[
 					'inteligentsia',
 					'intelligantsia',
+					'intelligensia',
 				],
 				'intelligentsias'=>[
 					'inteligentsias',
@@ -5525,6 +5788,9 @@
 				'interactively'=>[
 					'interactivly',
 				],
+				'interactor'=>[
+					'interacter',
+				],
 				'interagency'=>[
 					'interagensy',
 				],
@@ -5536,6 +5802,9 @@
 				],
 				'intercalary'=>[
 					'intercalery',
+				],
+				'intercardinal'=>[
+					'intercardial',
 				],
 				'intercellular'=>[
 					'intercelluler',
@@ -5563,8 +5832,15 @@
 				'interchannel'=>[
 					'interchanel',
 				],
+				'interciliary'=>[
+					'intercilliary',
+				],
 				'intercollegiate'=>[
 					'intercolegiate',
+				],
+				'intercommissural'=>[
+					'intercomissural',
+					'intercommisural',
 				],
 				'intercommunal'=>[
 					'intercomnunal',
@@ -5592,6 +5868,9 @@
 				],
 				'intercomparison'=>[
 					'intercomperison',
+				],
+				'intercondylar'=>[
+					'intercondyllar',
 				],
 				'interconnect'=>[
 					'interconect',
@@ -5672,13 +5951,21 @@
 					'inteersted',
 					'interseted',
 					'intersted',
+					'intrested',
+				],
+				'interesterified'=>[
+					'interestified',
 				],
 				'interesting'=>[
 					'intersting',
 					'intresting',
+					'interresting',
 				],
 				'interests'=>[
 					'inteersts',
+				],
+				'interfamilial'=>[
+					'interfamiliar',
 				],
 				'interfere'=>[
 					'intefere',
@@ -5694,6 +5981,9 @@
 				],
 				'interfering'=>[
 					'interfearing',
+				],
+				'interflavonoid'=>[
+					'interflavanoid',
 				],
 				'interfusing'=>[
 					'interfuisng',
@@ -5815,6 +6105,9 @@
 				'intermembrane'=>[
 					'intermbrane',
 				],
+				'intermembranous'=>[
+					'intermembraneous',
+				],
 				'intermenstrual'=>[
 					'intermenstraul',
 				],
@@ -5840,6 +6133,7 @@
 					'intermitant',
 					'intermitent',
 					'intermittant',
+					'intermitten',
 				],
 				'intermittently'=>[
 					'intermitantly',
@@ -5883,8 +6177,17 @@
 				'interoceanic'=>[
 					'interocenic',
 				],
+				'interocular'=>[
+					'interoccular',
+				],
 				'interoperable'=>[
 					'interoperible',
+				],
+				'interosseous'=>[
+					'interroseous',
+				],
+				'interpalpebral'=>[
+					'interpalpabral',
 				],
 				'interparish'=>[
 					'interperish',
@@ -5949,6 +6252,7 @@
 				],
 				'interpreted'=>[
 					'interpretted',
+					'interpretated',
 				],
 				'interpreter'=>[
 					'interpretor',
@@ -6191,6 +6495,7 @@
 				],
 				'intolerable'=>[
 					'intolerible',
+					'intollerable',
 				],
 				'intolerance'=>[
 					'intolerence',
@@ -6207,18 +6512,56 @@
 				'intoxicant'=>[
 					'intoxicent',
 				],
+				'intracanalicular'=>[
+					'intracanicular',
+				],
+				'intracardiac'=>[
+					'intercardiac',
+				],
+				'intracardially'=>[
+					'intracardinally',
+				],
 				'intracellular'=>[
 					'intracelluler',
 					'intracelular',
 				],
 				'intracellularly'=>[
 					'intracelularly',
+					'intracellulary',
 				],
 				'intracerebrally'=>[
 					'intracerebraly',
 				],
+				'intracerebroventricular'=>[
+					'intracereboventricular',
+					'intracerebrocentricular',
+				],
+				'intracerebroventricularly'=>[
+					'intracerebroventrically',
+				],
+				'intracoelomic'=>[
+					'intracoelemic',
+				],
+				'intracranial'=>[
+					'intracranical',
+				],
 				'intractable'=>[
 					'intractible',
+				],
+				'intracytoplasmic'=>[
+					'intercytoplasmic',
+				],
+				'intraductal'=>[
+					'interductal',
+				],
+				'intraduodenal'=>[
+					'intradoudenal',
+				],
+				'intraerythrocytic'=>[
+					'intraerythocytic',
+				],
+				'intragenic'=>[
+					'intrageneic',
 				],
 				'intramolecular'=>[
 					'intramoleculer',
@@ -6236,6 +6579,19 @@
 					'intramucsularly',
 					'intramucularly',
 					'intramusularly',
+				],
+				'intramyocardial'=>[
+					'intermyocardial',
+				],
+				'intramyocellular'=>[
+					'intramyoceullular',
+				],
+				'intramyofibrillar'=>[
+					'intramyofibral',
+					'intramyofibrilar',
+				],
+				'intranasally'=>[
+					'intrasanally',
 				],
 				'intransigence'=>[
 					'intransigeence',
@@ -6260,6 +6616,7 @@
 				],
 				'intraocular'=>[
 					'intraoculer',
+					'intraoccular',
 				],
 				'intraocularly'=>[
 					'intraocularally',
@@ -6267,14 +6624,34 @@
 					'intraocularely',
 					'intraocularlly',
 				],
+				'intraparenchymal'=>[
+					'intraparenchimal',
+				],
 				'intraperitoneal'=>[
 					'intraperitonel',
+					'interperitoneal',
+				],
+				'intraperitoneally'=>[
+					'interperitoneally',
+					'intraperitonealy',
+					'intraperitonially',
 				],
 				'intrapreneur'=>[
 					'intraprener',
 				],
+				'intrathecal'=>[
+					'intratheral',
+				],
+				'intratonsillar'=>[
+					'intratonsilar',
+				],
 				'intrauterine'=>[
 					'intrauterini',
+					'interuterine',
+				],
+				'intravasation'=>[
+					'intravasion',
+					'intravastion',
 				],
 				'intravascular'=>[
 					'intravacsular',
@@ -6287,11 +6664,17 @@
 					'intravacularly',
 					'intravasularly',
 				],
+				'intravenous'=>[
+					'intraveneous',
+				],
 				'intravenously'=>[
 					'intravenousally',
 					'intravenousaly',
 					'intravenousely',
 					'intravenouslly',
+				],
+				'intraventricularly'=>[
+					'intraventricularlly',
 				],
 				'intricacy'=>[
 					'intricasy',
@@ -6301,6 +6684,9 @@
 				],
 				'intriguing'=>[
 					'intriuing',
+				],
+				'intrinsic'=>[
+					'instrinsic',
 				],
 				'introduce'=>[
 					'inctroduce',
@@ -6320,6 +6706,9 @@
 				],
 				'intromission'=>[
 					'intromision',
+				],
+				'introspective'=>[
+					'interospective',
 				],
 				'introspectively'=>[
 					'introspectiveally',
@@ -6422,6 +6811,9 @@
 				],
 				'invaginate'=>[
 					'invaginite',
+				],
+				'invaginated'=>[
+					'envaginated',
 				],
 				'invagination'=>[
 					'invaginition',
@@ -6589,6 +6981,9 @@
 				'invoke'=>[
 					'envoke',
 				],
+				'involucrin'=>[
+					'involukrin',
+				],
 				'involuntariness'=>[
 					'involuntariniss',
 				],
@@ -6635,6 +7030,19 @@
 				'iodine'=>[
 					'iodini',
 				],
+				'iodixanol'=>[
+					'iodoxanol',
+					'ioxidanol',
+				],
+				'iodonium'=>[
+					'iodinium',
+				],
+				'ionomycin'=>[
+					'inomycin',
+				],
+				'ionophore'=>[
+					'ionofore',
+				],
 				'ionospherically'=>[
 					'ionosphericalally',
 					'ionosphericalaly',
@@ -6642,8 +7050,14 @@
 					'ionosphericallly',
 					'ionosphericaly',
 				],
+				'ionotropic'=>[
+					'ionotrophic',
+				],
 				'ipecacuanhas'=>[
 					'ipecacaunhas',
+				],
+				'ipsilateral'=>[
+					'ispilateral',
 				],
 				'iranian'=>[
 					'irannian',
@@ -6684,6 +7098,10 @@
 					'iridecent',
 					'iridecsent',
 					'iridesent',
+					'irridescent',
+				],
+				'irinotecan'=>[
+					'irrinotecan',
 				],
 				'irish-occupied'=>[
 					'irish occupied',
@@ -6749,6 +7167,9 @@
 				],
 				'irradiates'=>[
 					'iradiates',
+				],
+				'irradiating'=>[
+					'irridiating',
 				],
 				'irradiation'=>[
 					'iradiation',
@@ -6927,6 +7348,7 @@
 				'irrelevancy'=>[
 					'irelevancy',
 					'irrelevansy',
+					'irrelevency',
 				],
 				'irrelevant'=>[
 					'irelevant',
@@ -6983,6 +7405,7 @@
 					'ireparable',
 					'irreparible',
 					'irreperable',
+					'irrepearable',
 				],
 				'irreparableness'=>[
 					'ireparableness',
@@ -7000,10 +7423,14 @@
 					'irrepealible',
 					'irrepelable',
 				],
+				'irreplaceability'=>[
+					'irreplacebility',
+				],
 				'irreplaceable'=>[
 					'ireplaceable',
 					'irreplaceble',
 					'irreplaceible',
+					'irreplacable',
 				],
 				'irreplaceably'=>[
 					'ireplaceably',
@@ -7031,6 +7458,7 @@
 					'iresistable',
 					'iresistible',
 					'irresistable',
+					'irrisistible',
 				],
 				'irresistibly'=>[
 					'iresistably',
@@ -7093,6 +7521,7 @@
 				],
 				'irreversibility'=>[
 					'ireversibility',
+					'irreversability',
 				],
 				'irreversible'=>[
 					'ireversible',
@@ -7140,6 +7569,7 @@
 				'irritable'=>[
 					'iritable',
 					'irritible',
+					'irratable',
 				],
 				'irritablenesses'=>[
 					'iritablenesses',
@@ -7207,6 +7637,9 @@
 					'icshia',
 					'ishia',
 				],
+				'ischiatic'=>[
+					'ischatic',
+				],
 				'ischium'=>[
 					'ichium',
 					'icshium',
@@ -7229,6 +7662,9 @@
 					'is\'nt',
 					'isnt',
 				],
+				'isn’t'=>[
+					'isint',
+				],
 				'isoagglutinin'=>[
 					'isoagglutinan',
 					'isoaglutinin',
@@ -7236,6 +7672,9 @@
 				'isoagglutinins'=>[
 					'isoagglutinans',
 					'isoaglutinins',
+				],
+				'isoalloxazine'=>[
+					'isoalloxasine',
 				],
 				'isoalloxazines'=>[
 					'isoalloxazinis',
@@ -7249,11 +7688,27 @@
 				'isobar'=>[
 					'isober',
 				],
+				'isobologram'=>[
+					'isolobogram',
+					'isolobologram',
+				],
+				'isobutyrate'=>[
+					'isobutylate',
+				],
+				'isocapnic'=>[
+					'isocapneic',
+				],
+				'isocaudomer'=>[
+					'isocaudamer',
+				],
 				'isocheim'=>[
 					'isochiem',
 				],
 				'isocheims'=>[
 					'isochiems',
+				],
+				'isochorismatase'=>[
+					'isochorisimatase',
 				],
 				'isochronously'=>[
 					'isochronousally',
@@ -7269,6 +7724,23 @@
 				],
 				'isocracy'=>[
 					'isocrasy',
+				],
+				'isocratically'=>[
+					'isochratically',
+				],
+				'isoelectrofocusing'=>[
+					'isolectrofocusing',
+				],
+				'isoflavonoid'=>[
+					'isoflavanoid',
+				],
+				'isoflavonone'=>[
+					'isoflavanone',
+				],
+				'isoflurane'=>[
+					'isoflourane',
+					'isoflurance',
+					'isolurane',
 				],
 				'isogeneic'=>[
 					'isogeniec',
@@ -7306,6 +7778,18 @@
 				'isoprenaline'=>[
 					'isoprenalini',
 				],
+				'isopycnic'=>[
+					'isopyknic',
+				],
+				'isoquercetin'=>[
+					'isoquercitin',
+				],
+				'isoquercitrin'=>[
+					'isoquercetrin',
+				],
+				'isosbestic'=>[
+					'isobestic',
+				],
 				'isosceles'=>[
 					'isoceles',
 					'isocseles',
@@ -7316,6 +7800,12 @@
 				],
 				'isostasy'=>[
 					'isostacy',
+				],
+				'isotopic'=>[
+					'isotopical',
+				],
+				'isotropic'=>[
+					'isotrophic',
 				],
 				'israel'=>[
 					'isreal',
@@ -7368,6 +7858,9 @@
 				'it was'=>[
 					'irwas',
 				],
+				'it\'ll'=>[
+					'itll',
+				],
 				'it\'s'=>[
 					'i\'ts',
 					'its\'',
@@ -7387,6 +7880,9 @@
 				],
 				'iterance'=>[
 					'iterence',
+				],
+				'iteroparous'=>[
+					'interoparous',
 				],
 				'ithaca'=>[
 					'ihaca',
@@ -7408,6 +7904,10 @@
 					'itinerery',
 					'itinery',
 					'itinirary',
+				],
+				'itraconazole'=>[
+					'intraconazole',
+					'itroconazole',
 				],
 				'its'=>[
 					'its its',

@@ -32,6 +32,9 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Ottawan'=>[
+					'ottowan',
+				],
 				'countries'=>[
 					'ocuntries',
 				],
@@ -149,8 +152,12 @@
 				'obliviously'=>[
 					'oblivously',
 				],
+				'obloquy'=>[
+					'obloquoy',
+				],
 				'obnoxious'=>[
 					'obnoxous',
+					'abnoxious',
 				],
 				'obnoxiously'=>[
 					'obnoxously',
@@ -247,6 +254,9 @@
 					'obsolescentely',
 					'obsolescentlly',
 				],
+				'obsolete'=>[
+					'obselete',
+				],
 				'obsoletely'=>[
 					'obsoletly',
 				],
@@ -263,6 +273,9 @@
 				'obstinacy'=>[
 					'obstinasy',
 					'obstinicy',
+				],
+				'obstinant'=>[
+					'obstinent',
 				],
 				'obstinate'=>[
 					'obstinite',
@@ -281,6 +294,9 @@
 					'obstreperousaly',
 					'obstreperousely',
 					'obstreperouslly',
+				],
+				'obstructive'=>[
+					'obstractive',
 				],
 				'obtainabilities'=>[
 					'obtainibilities',
@@ -349,6 +365,7 @@
 					'ocasion',
 					'ocassion',
 					'occassion',
+					'occation',
 				],
 				'occasional'=>[
 					'ocasional',
@@ -368,6 +385,7 @@
 					'occasionaly',
 					'occassionally',
 					'occassionaly',
+					'occasionly',
 				],
 				'occasioned'=>[
 					'ocasioned',
@@ -515,6 +533,7 @@
 					'occurrance',
 					'ocurrance',
 					'ocurrence',
+					'occerence',
 				],
 				'occurrences'=>[
 					'occurances',
@@ -560,6 +579,15 @@
 				'ochlocracy'=>[
 					'ochlocrasy',
 				],
+				'octacalcium'=>[
+					'octocalcium',
+				],
+				'octadecadienoate'=>[
+					'octadecadienate',
+				],
+				'octadecanoid'=>[
+					'octodecanoid',
+				],
 				'octagon'=>[
 					'octogon',
 				],
@@ -584,8 +612,17 @@
 				'octahedrons'=>[
 					'octaedrons',
 				],
+				'octameric'=>[
+					'octomeric',
+				],
 				'octant'=>[
 					'octent',
+				],
+				'octapeptide'=>[
+					'octopeptide',
+				],
+				'octasaccharide'=>[
+					'octosaccharide',
 				],
 				'octastyle'=>[
 					'octostyle',
@@ -612,16 +649,40 @@
 				],
 				'octogenarian'=>[
 					'octogenaran',
+					'octagenarian',
 				],
 				'octonary'=>[
 					'octonery',
+				],
+				'octonion'=>[
+					'octonian',
+				],
+				'octopine'=>[
+					'octapine',
+				],
+				'octopus'=>[
+					'octapus',
 				],
 				'octosyllable'=>[
 					'octosylable',
 					'octosyllible',
 				],
+				'octoword'=>[
+					'octaword',
+				],
+				'octuplex'=>[
+					'octaplex',
+					'octoplex',
+				],
 				'ocular'=>[
 					'oculer',
+					'occular',
+				],
+				'oculodentodigital'=>[
+					'occulodentodigital',
+				],
+				'oculomotor'=>[
+					'occulomotor',
 				],
 				'odah'=>[
 					'oda',
@@ -655,6 +716,9 @@
 				'odiously'=>[
 					'odously',
 				],
+				'odontogenesis'=>[
+					'odonotogenesis',
+				],
 				'odontoglossum'=>[
 					'odontoglosum',
 				],
@@ -670,11 +734,27 @@
 				'odorous'=>[
 					'odourous',
 				],
+				'odorously'=>[
+					'odourously',
+				],
+				'odorousness'=>[
+					'odourousness',
+				],
 				'odyssey'=>[
 					'odysey',
 				],
+				'oedema'=>[
+					'odema',
+				],
+				'oenophile'=>[
+					'oenaphile',
+				],
+				'oesophageal'=>[
+					'oseophageal',
+				],
 				'oeuvre'=>[
 					'ouevre',
+					'ouvre',
 				],
 				'of'=>[
 					'od',
@@ -795,6 +875,10 @@
 				],
 				'offshoot'=>[
 					'offshot',
+					'off-shoot',
+				],
+				'ofloxacin'=>[
+					'oxfloxacin',
 				],
 				'often'=>[
 					'fte',
@@ -848,6 +932,9 @@
 				'olea'=>[
 					'ole',
 				],
+				'olecranon'=>[
+					'olecronon',
+				],
 				'oleic'=>[
 					'oliec',
 				],
@@ -857,6 +944,34 @@
 				'oleomargarine'=>[
 					'oleomargarini',
 				],
+				'oleosome'=>[
+					'oleasome',
+				],
+				'olfactomedin'=>[
+					'olflactomedin',
+				],
+				'olfactometer'=>[
+					'oflactometer',
+				],
+				'oligoadenylate'=>[
+					'oligodenylate',
+				],
+				'oligoastrocytoma'=>[
+					'olioastrocytoma',
+				],
+				'oligodendroglial'=>[
+					'oligodendrogial',
+				],
+				'oligodendroglioma'=>[
+					'oligodendoglioma',
+					'oliodendroglioma',
+				],
+				'oligomeric'=>[
+					'oligometric',
+				],
+				'oligonucleotide'=>[
+					'oliogonucleotide',
+				],
 				'oligopoly'=>[
 					'oligopoally',
 					'oligopoaly',
@@ -865,6 +980,10 @@
 				],
 				'oligosaccharide'=>[
 					'oligosacharide',
+				],
+				'oligotrophic'=>[
+					'oligotropical',
+					'oligrotrophic',
 				],
 				'olivary'=>[
 					'olivery',
@@ -881,6 +1000,9 @@
 				'omani-occupied'=>[
 					'omani occupied',
 				],
+				'ombrophilous'=>[
+					'ombrophylous',
+				],
 				'omelet'=>[
 					'omelette',
 				],
@@ -892,6 +1014,9 @@
 				],
 				'omentum'=>[
 					'omantum',
+				],
+				'omicron'=>[
+					'omricon',
 				],
 				'ominous'=>[
 					'omnious',
@@ -951,9 +1076,11 @@
 					'omnisceint',
 					'omniscint',
 					'omnisient',
+					'omniscent',
 				],
 				'omnivorous'=>[
 					'omniverous',
+					'omnivourous',
 				],
 				'omnivorously'=>[
 					'omniverously',
@@ -979,12 +1106,21 @@
 					'once once',
 					'once once once',
 				],
+				'oncostatin'=>[
+					'oncostation',
+				],
+				'oncosuppressor'=>[
+					'oncosupressor',
+				],
 				'one'=>[
 					'one one',
 					'one one one',
 				],
 				'one\'s rights'=>[
 					'ones\' rights',
+				],
+				'one-sidedly'=>[
+					'one-sidely',
 				],
 				'oneiric'=>[
 					'onieric',
@@ -1014,6 +1150,7 @@
 				],
 				'onomatopoeia'=>[
 					'onomatopoiea',
+					'onomatapoeia',
 				],
 				'onomatopoeias'=>[
 					'onomatopoieas',
@@ -1034,6 +1171,9 @@
 				],
 				'oompahs'=>[
 					'oompas',
+				],
+				'oozooid'=>[
+					'oozoid',
 				],
 				'opah'=>[
 					'opa',
@@ -1076,6 +1216,7 @@
 				],
 				'opening'=>[
 					'oppening',
+					'openning',
 				],
 				'openly'=>[
 					'openely',
@@ -1091,6 +1232,9 @@
 				'openmouthedness'=>[
 					'opemouthedness',
 					'openouthedness',
+				],
+				'openness'=>[
+					'openess',
 				],
 				'operable'=>[
 					'operible',
@@ -1110,6 +1254,7 @@
 				'operation'=>[
 					'opertion',
 					'opperation',
+					'opration',
 				],
 				'operations'=>[
 					'operatons',
@@ -1129,6 +1274,12 @@
 				'ophidian'=>[
 					'ophidan',
 				],
+				'ophiolitic'=>[
+					'ophiolithic',
+				],
+				'ophiuroid'=>[
+					'ophiruoid',
+				],
 				'ophthalmic'=>[
 					'opthalmic',
 				],
@@ -1136,16 +1287,19 @@
 					'opthalmologist',
 					'opthamologist',
 					'opthomologist',
+					'optomologist',
 				],
 				'ophthalmology'=>[
 					'opthalmology',
 					'opthamology',
 					'opthomology',
+					'ophthamology',
 				],
 				'ophthalmoscope'=>[
 					'ophthalmocope',
 					'ophthalmocsope',
 					'ophthalmosope',
+					'opthalmoscope',
 				],
 				'ophthalmoscopes'=>[
 					'ophthalmocopes',
@@ -1156,6 +1310,7 @@
 					'ophthalmocopic',
 					'ophthalmocsopic',
 					'ophthalmosopic',
+					'ophthalmascopic',
 				],
 				'opine'=>[
 					'opinate',
@@ -1190,6 +1345,10 @@
 				],
 				'opioids'=>[
 					'opiods',
+				],
+				'opisthokont'=>[
+					'ophistokont',
+					'opistokont',
 				],
 				'opossum'=>[
 					'opposum',
@@ -1364,6 +1523,12 @@
 				'oppugning'=>[
 					'opugning',
 				],
+				'opsonization'=>[
+					'opsinization',
+				],
+				'opsonophagocytosis'=>[
+					'opsonophagocytis',
+				],
 				'optatively'=>[
 					'optativly',
 				],
@@ -1387,6 +1552,9 @@
 				],
 				'option'=>[
 					'opfion',
+				],
+				'optokinetic'=>[
+					'optocinetic',
 				],
 				'opulence'=>[
 					'opulance',
@@ -1507,6 +1675,9 @@
 				'oreide'=>[
 					'oriede',
 				],
+				'orexigenic'=>[
+					'orexogenic',
+				],
 				'organ'=>[
 					'organ organ',
 					'organ organ organ',
@@ -1543,6 +1714,9 @@
 				],
 				'organometallic'=>[
 					'organometalic',
+				],
+				'organophosphorus'=>[
+					'organophorous',
 				],
 				'oriel'=>[
 					'oreil',
@@ -1654,6 +1828,7 @@
 					'ornithicshian',
 					'ornithischan',
 					'ornithishian',
+					'ornithsichian',
 				],
 				'orpine'=>[
 					'orpini',
@@ -1670,6 +1845,12 @@
 				'orris'=>[
 					'oris',
 				],
+				'orthochromatophilic'=>[
+					'orthochromatophillic',
+				],
+				'orthodromic'=>[
+					'orthodromical',
+				],
 				'orthogonal'=>[
 					'orthagonal',
 					'orthgonal',
@@ -1678,8 +1859,42 @@
 					'orthagonally',
 					'orthogonaly',
 				],
+				'orthokeratosis'=>[
+					'ortokeratosis',
+				],
+				'orthologue'=>[
+					'ortologue',
+				],
 				'orthomolecular'=>[
 					'orthomoleculer',
+				],
+				'orthomyxovirus'=>[
+					'orthomixovirus',
+				],
+				'orthopantomogram'=>[
+					'orthopentamogram',
+				],
+				'orthoprosthesis'=>[
+					'arthroprothesis',
+				],
+				'orthopteroid'=>[
+					'orthropteroid',
+				],
+				'orthopyroxene'=>[
+					'orthopyroxine',
+				],
+				'orthorexic'=>[
+					'orthorectic',
+				],
+				'orthotopically'=>[
+					'orthoptopically',
+					'ortotopically',
+				],
+				'oryzavirus'=>[
+					'orzavirus',
+				],
+				'oryzenin'=>[
+					'oryzein',
 				],
 				'osar'=>[
 					'oser',
@@ -1695,6 +1910,9 @@
 					'ocsillation',
 					'oscilation',
 					'osillation',
+				],
+				'oscillatory'=>[
+					'oscillatary',
 				],
 				'oscillograph'=>[
 					'ocillograph',
@@ -1740,8 +1958,14 @@
 				'osmious'=>[
 					'osmous',
 				],
+				'osmolality'=>[
+					'osmlolality',
+				],
 				'osmolar'=>[
 					'osmoler',
+				],
+				'osmolyte'=>[
+					'osmolite',
 				],
 				'osmoregulation'=>[
 					'osmouregulation',
@@ -1761,6 +1985,9 @@
 				'ossein'=>[
 					'ossien',
 				],
+				'osseous'=>[
+					'osseus',
+				],
 				'ossia'=>[
 					'osia',
 				],
@@ -1777,6 +2004,9 @@
 					'ossaury',
 					'ossuery',
 				],
+				'osteichthyan'=>[
+					'osteichthian',
+				],
 				'osteitis'=>[
 					'ostietis',
 				],
@@ -1789,6 +2019,8 @@
 				'ostentatious'=>[
 					'ostantatious',
 					'ostentatous',
+					'ostentacious',
+					'ostentious',
 				],
 				'ostentatiously'=>[
 					'ostentatiousally',
@@ -1796,6 +2028,52 @@
 					'ostentatiousely',
 					'ostentatiouslly',
 					'ostentatously',
+				],
+				'osteoarticular'=>[
+					'osetoarticular',
+				],
+				'osteocalcin'=>[
+					'osteoclacin',
+				],
+				'osteochondral'=>[
+					'osteochrondral',
+				],
+				'osteoclastogenesis'=>[
+					'oesteoclastogenesis',
+				],
+				'osteocyte'=>[
+					'octeocyte',
+				],
+				'osteogenesis'=>[
+					'esteogenesis',
+					'oseogenesis',
+					'osetogenesis',
+				],
+				'osteogenic'=>[
+					'osterogenic',
+				],
+				'osteoinduction'=>[
+					'osseoinduction',
+				],
+				'osteoinductivity'=>[
+					'osseoinductivity',
+				],
+				'osteophilic'=>[
+					'osteophylic',
+				],
+				'osteopontin'=>[
+					'osteoponin',
+					'osteopontinin',
+				],
+				'osteoprotegerin'=>[
+					'osteoprotegrin',
+					'osteoprotogerin',
+				],
+				'osteotendinous'=>[
+					'osteotendineous',
+				],
+				'osteotropism'=>[
+					'osteotrophism',
 				],
 				'ostiary'=>[
 					'ostiery',
@@ -1808,6 +2086,17 @@
 				],
 				'ostiolar'=>[
 					'ostioler',
+				],
+				'ostiomeatal'=>[
+					'osteomeatal',
+				],
+				'ostracization'=>[
+					'ostricization',
+				],
+				'ostracize'=>[
+					'ostrasize',
+					'ostricize',
+					'ostrisize',
 				],
 				'other'=>[
 					'otehr',
@@ -1829,6 +2118,10 @@
 					'otehrs',
 					'otheres',
 					'tohers',
+				],
+				'otherwise'=>[
+					'otherweise',
+					'otherwize',
 				],
 				'otherworldly'=>[
 					'otherworldally',
@@ -2312,6 +2605,9 @@
 				'overexplaining'=>[
 					'overexplainang',
 				],
+				'overextension'=>[
+					'overextention',
+				],
 				'overfamiliar'=>[
 					'overfamilar',
 					'overfamilier',
@@ -2537,6 +2833,9 @@
 					'overeliance',
 					'overrelience',
 				],
+				'overreliant'=>[
+					'overeliant',
+				],
 				'overreported'=>[
 					'overeported',
 				],
@@ -2549,6 +2848,9 @@
 				],
 				'overresponds'=>[
 					'overesponds',
+				],
+				'overridden'=>[
+					'overriden',
 				],
 				'override'=>[
 					'over-ride',
@@ -2680,6 +2982,9 @@
 				'overweened'=>[
 					'overweend',
 				],
+				'overweening'=>[
+					'overweaning',
+				],
 				'overweigh'=>[
 					'overwiegh',
 				],
@@ -2716,6 +3021,12 @@
 				'oviparous'=>[
 					'oviperous',
 				],
+				'oviposition'=>[
+					'ovoposition',
+				],
+				'ovotransferrin'=>[
+					'ovotransferin',
+				],
 				'ovoviviparous'=>[
 					'ovoviviperous',
 				],
@@ -2736,6 +3047,12 @@
 				'ownable'=>[
 					'ownible',
 				],
+				'oxacillinase'=>[
+					'oxacilinase',
+				],
+				'oxcarbazepine'=>[
+					'oxicarbazepine',
+				],
 				'oxen'=>[
 					'oxens',
 					'oxes',
@@ -2749,6 +3066,13 @@
 				'oxidatively'=>[
 					'oxidativly',
 				],
+				'oximetric'=>[
+					'oxymetric',
+				],
+				'oxybuprocaine'=>[
+					'oxibuprocain',
+					'oxibuprocaine',
+				],
 				'oxygen'=>[
 					'oxigen',
 					'oxyen',
@@ -2760,6 +3084,9 @@
 				],
 				'oxygenation'=>[
 					'oxigenation',
+				],
+				'oxyluciferin'=>[
+					'oxiluciferin',
 				],
 				'oxymora'=>[
 					'oxymoura',
@@ -2779,6 +3106,9 @@
 				],
 				'oxytetracycline'=>[
 					'oxytetracyclini',
+				],
+				'oxytocinergic'=>[
+					'oxytonergic',
 				],
 			];
 		}

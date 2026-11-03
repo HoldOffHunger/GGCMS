@@ -83,8 +83,12 @@
 				'yarrow'=>[
 					'yarow',
 				],
+				'ych a fi'=>[
+					'ach-y-fi',
+				],
 				'yea'=>[
 					'ye',
+					'yeay',
 				],
 				'yeah'=>[
 					'yea',

@@ -64,6 +64,9 @@
 				'Catalina'=>[
 					'Cataline',
 				],
+				'Caucasian'=>[
+					'caucasion',
+				],
 				'Celsius'=>[
 					'Celcius',
 				],
@@ -77,8 +80,17 @@
 					'Chattisgarh',
 					'Chhatisgarh',
 				],
+				'China'=>[
+					'chona',
+				],
 				'Chinese'=>[
 					'Chineese',
+				],
+				'Chipageddon'=>[
+					'chipaggedon',
+				],
+				'Chongqing'=>[
+					'chongquing',
 				],
 				'Christmas'=>[
 					'Chrismas',
@@ -95,6 +107,12 @@
 				],
 				'Coventry'=>[
 					'Conventry',
+				],
+				'Cretaceous'=>[
+					'cretacious',
+				],
+				'Croatian'=>[
+					'croation',
 				],
 				'caballero'=>[
 					'cabalero',
@@ -163,6 +181,7 @@
 				],
 				'cabinet'=>[
 					'cabinit',
+					'cabinent',
 				],
 				'cabinetmaker'=>[
 					'cabinitmaker',
@@ -193,6 +212,9 @@
 				'cachaíto'=>[
 					'cachaito',
 				],
+				'cachectic'=>[
+					'cachetic',
+				],
 				'cachinnate'=>[
 					'cachinate',
 				],
@@ -204,6 +226,10 @@
 				],
 				'cachinnations'=>[
 					'cachinations',
+				],
+				'cacodylate'=>[
+					'caccodylate',
+					'cacodyrate',
 				],
 				'cacographies'=>[
 					'cacographeis',
@@ -227,12 +253,18 @@
 				'cadaver'=>[
 					'cadavre',
 				],
+				'cadaveric'=>[
+					'cadevaric',
+				],
 				'caddie'=>[
 					'caddei',
 					'caddi',
 				],
 				'cadence'=>[
 					'cadance',
+				],
+				'cadences'=>[
+					'cadances',
 				],
 				'cadency'=>[
 					'cadensy',
@@ -307,6 +339,12 @@
 				'calcanei'=>[
 					'calcanie',
 				],
+				'calcaneocuboid'=>[
+					'calcanceocuboid',
+				],
+				'calcaneus'=>[
+					'calcaneous',
+				],
 				'calcar'=>[
 					'calcer',
 				],
@@ -316,8 +354,14 @@
 				'calcine'=>[
 					'calcini',
 				],
+				'calcineurin'=>[
+					'calcinurin',
+				],
 				'calcining'=>[
 					'calcinang',
+				],
+				'calcitriol'=>[
+					'caclitriol',
 				],
 				'calcspar'=>[
 					'calcsper',
@@ -359,6 +403,9 @@
 				'caliber'=>[
 					'calibur',
 				],
+				'calicoblastic'=>[
+					'calcicoblastic',
+				],
 				'caliph'=>[
 					'calph',
 				],
@@ -394,11 +441,18 @@
 				'calling'=>[
 					'caling',
 				],
+				'calliopiid'=>[
+					'calliopid',
+				],
 				'callipygian'=>[
 					'callipygan',
+					'calipygian',
 				],
 				'callithumpian'=>[
 					'callithumpan',
+				],
+				'callosal'=>[
+					'calossal',
 				],
 				'callous'=>[
 					'calous',
@@ -412,6 +466,12 @@
 				'callusing'=>[
 					'calluisng',
 				],
+				'calmidazolium'=>[
+					'calmidozolium',
+				],
+				'calmodulin'=>[
+					'calomodulin',
+				],
 				'calorie'=>[
 					'calorei',
 					'calori',
@@ -420,11 +480,30 @@
 					'calorimetreis',
 					'calorimetris',
 				],
+				'calreticulin'=>[
+					'calrecticulin',
+					'culreticulin',
+				],
+				'calretinin'=>[
+					'calretenin',
+				],
+				'calsequestrin'=>[
+					'calcequestrin',
+					'calequestrin',
+					'calsequesterin',
+				],
 				'calumnious'=>[
 					'calumnous',
 				],
 				'calumniously'=>[
 					'calumnously',
+				],
+				'calvarial'=>[
+					'calavarial',
+					'calivarial',
+					'calverial',
+					'caviarial',
+					'clavarial',
 				],
 				'calvarian'=>[
 					'calvaran',
@@ -435,11 +514,20 @@
 				'calves'=>[
 					'calfs',
 				],
+				'calycophoran'=>[
+					'calicophoran',
+				],
 				'calycular'=>[
 					'calyculer',
 				],
 				'calypsonian'=>[
 					'calypsonan',
+				],
+				'calyptrate'=>[
+					'calypterate',
+				],
+				'camalexin'=>[
+					'camelexin',
 				],
 				'camaraderie'=>[
 					'camaraderei',
@@ -448,6 +536,7 @@
 					'camraderie',
 					'comradarie',
 					'comraderie',
+					'comaraderie',
 				],
 				'camaraderies'=>[
 					'camaradereis',
@@ -479,10 +568,14 @@
 				],
 				'camouflage'=>[
 					'camoflage',
+					'camoflague',
 				],
 				'camouflageable'=>[
 					'camouflageble',
 					'camouflageible',
+				],
+				'camouflaged'=>[
+					'camoflaged',
 				],
 				'camp'=>[
 					'camo',
@@ -493,12 +586,22 @@
 					'campain',
 					'capaign',
 				],
+				'campaniform'=>[
+					'companiform',
+				],
 				'campanologies'=>[
 					'campanologeis',
 					'campanologis',
 				],
+				'camptothecin'=>[
+					'campothecin',
+					'campothecine',
+				],
 				'campusing'=>[
 					'campuisng',
+				],
+				'campylobacteriosis'=>[
+					'camplyobacteriosis',
 				],
 				'canadian'=>[
 					'canadain',
@@ -509,9 +612,14 @@
 				],
 				'canalicular'=>[
 					'canaliculer',
+					'canilicular',
 				],
 				'canary'=>[
 					'canery',
+				],
+				'canavanine'=>[
+					'canavinine',
+					'cannavanine',
 				],
 				'cancellation'=>[
 					'cancelation',
@@ -555,6 +663,9 @@
 				'canine'=>[
 					'canini',
 				],
+				'caniniform'=>[
+					'canniniform',
+				],
 				'caninity'=>[
 					'caninaty',
 				],
@@ -593,6 +704,10 @@
 				],
 				'cannibal'=>[
 					'canibal',
+					'cannabal',
+				],
+				'cannibalise'=>[
+					'cannabalise',
 				],
 				'cannibalised'=>[
 					'canibalised',
@@ -603,17 +718,23 @@
 				'cannibalising'=>[
 					'canibalising',
 				],
+				'cannibalism'=>[
+					'cannabalism',
+					'kannibalism',
+				],
 				'cannibalisms'=>[
 					'canibalisms',
 				],
 				'cannibalistic'=>[
 					'canibalistic',
+					'cannabalistic',
 				],
 				'cannibalization'=>[
 					'canibalization',
 				],
 				'cannibalize'=>[
 					'canibalize',
+					'cannabalize',
 				],
 				'cannibalized'=>[
 					'canibalized',
@@ -700,6 +821,7 @@
 				],
 				'cantaloupe'=>[
 					'centaloupe',
+					'cantalope',
 				],
 				'cantankerous'=>[
 					'centankerous',
@@ -735,9 +857,13 @@
 				],
 				'canthaxanthin'=>[
 					'canthaxenthin',
+					'canthazanthin',
 				],
 				'canthi'=>[
 					'centhi',
+				],
+				'canthomeatal'=>[
+					'cantomeatal',
 				],
 				'canthus'=>[
 					'centhus',
@@ -810,6 +936,7 @@
 				],
 				'capable'=>[
 					'capible',
+					'capeable',
 				],
 				'capacious'=>[
 					'capacous',
@@ -841,6 +968,9 @@
 				],
 				'cape town'=>[
 					'capetown',
+				],
+				'capecitabine'=>[
+					'cabecitabine',
 				],
 				'capellini'=>[
 					'capellina',
@@ -878,6 +1008,7 @@
 				],
 				'capitalize'=>[
 					'captialize',
+					'capitolize',
 				],
 				'capitally'=>[
 					'capitalally',
@@ -898,6 +1029,9 @@
 				'capoeira'=>[
 					'capoiera',
 				],
+				'capoeirista'=>[
+					'capoierista',
+				],
 				'capped'=>[
 					'caped',
 				],
@@ -916,11 +1050,15 @@
 					'cappucinos',
 					'capuccinos',
 				],
+				'capreomycin'=>[
+					'capriomycin',
+				],
 				'capricci'=>[
 					'caprici',
 				],
 				'capriccio'=>[
 					'capricio',
+					'caprichio',
 				],
 				'capriccios'=>[
 					'capricios',
@@ -933,6 +1071,12 @@
 				],
 				'capriciousness'=>[
 					'capriciousnes',
+				],
+				'capsazepine'=>[
+					'capazepine',
+				],
+				'capsid'=>[
+					'caspid',
 				],
 				'capsular'=>[
 					'capsuler',
@@ -991,8 +1135,35 @@
 				'caravansary'=>[
 					'caravansery',
 				],
+				'carbamazepine'=>[
+					'carbemazepine',
+					'carmazapine',
+				],
+				'carbamidomethylation'=>[
+					'carboamidomethylation',
+				],
+				'carbamoylphosphate'=>[
+					'carbamoyphosphate',
+				],
+				'carbazole'=>[
+					'carbozole',
+				],
+				'carbenicillin'=>[
+					'carbecillin',
+				],
+				'carbenoxolone'=>[
+					'carbenexolone',
+					'carbenoxalone',
+					'carbenoxelone',
+				],
 				'carbine'=>[
 					'carbini',
+				],
+				'carbocyanine'=>[
+					'carbocyanide',
+				],
+				'carbocyclic'=>[
+					'carbacyclic',
 				],
 				'carbonnade'=>[
 					'carbonade',
@@ -1000,11 +1171,45 @@
 				'carbonnades'=>[
 					'carbonades',
 				],
+				'carbothioamide'=>[
+					'carbothiamide',
+				],
+				'carboxydotrophic'=>[
+					'carboxidotrophic',
+				],
+				'carboxydotrophy'=>[
+					'carboxidotrophy',
+				],
+				'carboxyfluorescein'=>[
+					'carboxyfluoroscein',
+				],
+				'carboxylic'=>[
+					'carboxycylic',
+				],
+				'carboxyltransferase'=>[
+					'carboxytransferase',
+				],
 				'carbuncular'=>[
 					'carbunculer',
 				],
+				'carburetor'=>[
+					'carburator',
+				],
 				'carcass'=>[
 					'carcas',
+					'carcus',
+				],
+				'carcharhinid'=>[
+					'charcharhinid',
+				],
+				'carcinoembryonic'=>[
+					'carcinoembrionic',
+				],
+				'carcinogenesis'=>[
+					'carinogenesis',
+				],
+				'carcinoma'=>[
+					'carminoma',
 				],
 				'cardinal'=>[
 					'cardinil',
@@ -1020,9 +1225,22 @@
 				'cardinality'=>[
 					'cardinility',
 				],
+				'cardioechographic'=>[
+					'cardioecographic',
+				],
 				'cardiologies'=>[
 					'cardiologeis',
 					'cardiologis',
+				],
+				'cardiomyocyte'=>[
+					'cadiomyocyte',
+					'cordiomyocyte',
+				],
+				'cardiomyopathy'=>[
+					'cardiomiopathy',
+				],
+				'cardiomyotomy'=>[
+					'cardiomyoectomy',
 				],
 				'cardiopathies'=>[
 					'cardiopatheis',
@@ -1030,6 +1248,9 @@
 				],
 				'cardiopulmonary'=>[
 					'cardiopulmonery',
+				],
+				'cardiotropic'=>[
+					'cardiotrophic',
 				],
 				'cardiovascular'=>[
 					'cardiovacsular',
@@ -1120,9 +1341,14 @@
 				],
 				'carnitine'=>[
 					'carnitini',
+					'cartinine',
 				],
 				'carnivorous'=>[
 					'carniverous',
+					'carnivourous',
+				],
+				'carotenoid'=>[
+					'crotenoid',
 				],
 				'carousing'=>[
 					'carouisng',
@@ -1158,6 +1384,10 @@
 				],
 				'carpetbagging'=>[
 					'carpetbaging',
+				],
+				'carprofen'=>[
+					'caprofen',
+					'carpofen',
 				],
 				'carr'=>[
 					'carrr',
@@ -1266,9 +1496,13 @@
 				],
 				'cartridge'=>[
 					'cartrige',
+					'cardridge',
 				],
 				'cartulary'=>[
 					'cartulery',
+				],
+				'carvacrol'=>[
+					'calvacrol',
 				],
 				'casbah'=>[
 					'casba',
@@ -1313,6 +1547,9 @@
 				'casino'=>[
 					'casnio',
 				],
+				'caspase'=>[
+					'capsase',
+				],
 				'cassava'=>[
 					'casava',
 				],
@@ -1341,11 +1578,17 @@
 					'castabiliteis',
 					'castabilitis',
 				],
+				'castanospermine'=>[
+					'castonospermine',
+				],
 				'casteism'=>[
 					'castiesm',
 				],
 				'castellated'=>[
 					'castelated',
+				],
+				'castilianization'=>[
+					'castillanization',
 				],
 				'casual'=>[
 					'casaul',
@@ -1369,12 +1612,21 @@
 				'cat purred'=>[
 					'catpurred',
 				],
+				'catabolized'=>[
+					'catabolyzed',
+				],
 				'cataclysmically'=>[
 					'cataclysmicalally',
 					'cataclysmicalaly',
 					'cataclysmicalely',
 					'cataclysmicallly',
 					'cataclysmicaly',
+				],
+				'catadioptric'=>[
+					'catadioptic',
+				],
+				'catalase'=>[
+					'calatase',
 				],
 				'catalepsy'=>[
 					'catalepcy',
@@ -1385,6 +1637,15 @@
 				'catalogue'=>[
 					'catalouge',
 				],
+				'catalyst'=>[
+					'catylist',
+				],
+				'cataplectic'=>[
+					'catapletic',
+				],
+				'cataplerotic'=>[
+					'kataplerotic',
+				],
 				'catarrh'=>[
 					'catarh',
 				],
@@ -1393,6 +1654,7 @@
 				],
 				'catastrophe'=>[
 					'catatrophe',
+					'catastrophy',
 				],
 				'catches'=>[
 					'catchs',
@@ -1406,8 +1668,17 @@
 				'catchpenny'=>[
 					'catchpeny',
 				],
+				'catechism'=>[
+					'catachism',
+				],
 				'catecholamine'=>[
 					'catecholamini',
+					'cathecholamine',
+				],
+				'catecholaminergic'=>[
+					'catacholaminergic',
+					'catecholinergic',
+					'cathecolaminergic',
 				],
 				'catecholamines'=>[
 					'catecholaminis',
@@ -1426,6 +1697,7 @@
 					'catagory',
 					'catergory',
 					'cathegory',
+					'categorie',
 				],
 				'catenary'=>[
 					'catenery',
@@ -1434,6 +1706,16 @@
 					'caterpilar',
 					'caterpiller',
 					'catterpilar',
+				],
+				'catharanthine'=>[
+					'catharantine',
+				],
+				'cathelicidin'=>[
+					'cathilicidin',
+				],
+				'cathepsin'=>[
+					'capthepsin',
+					'cathapsin',
 				],
 				'catholic'=>[
 					'cathlic',
@@ -1456,6 +1738,9 @@
 				],
 				'caught'=>[
 					'catched',
+				],
+				'causative'=>[
+					'causitive',
 				],
 				'cause'=>[
 					'casue',
@@ -1499,12 +1784,20 @@
 				],
 				'cavalry'=>[
 					'cavarly',
+					'calvalry',
 				],
 				'cavatina'=>[
 					'cavatini',
 				],
 				'caveat'=>[
 					'cavet',
+				],
+				'caveolin'=>[
+					'calveolin',
+					'caveloin',
+				],
+				'cavernosal'=>[
+					'cavernoursal',
 				],
 				'caviar'=>[
 					'cavar',
@@ -1516,6 +1809,7 @@
 				],
 				'cavitary'=>[
 					'cavitery',
+					'cavitory',
 				],
 				'caète'=>[
 					'caéte',
@@ -1539,11 +1833,30 @@
 				'ceaselessnesses'=>[
 					'ceselessnesses',
 				],
+				'cecidomyiid'=>[
+					'cecidomyid',
+				],
 				'cedar'=>[
 					'ceder',
 				],
 				'cedary'=>[
 					'cedery',
+				],
+				'cefoperazone'=>[
+					'cephaperazone',
+				],
+				'cefotaxime'=>[
+					'cefataxime',
+				],
+				'cefpodoxime'=>[
+					'cefopodoxime',
+				],
+				'ceftazidime'=>[
+					'cefazidime',
+				],
+				'ceftriaxone'=>[
+					'ceftriaxome',
+					'cetriaxone',
 				],
 				'ceiba'=>[
 					'cieba',
@@ -1580,6 +1893,7 @@
 				],
 				'ceilometer'=>[
 					'cielometer',
+					'celiometer',
 				],
 				'ceilometers'=>[
 					'cielometers',
@@ -1630,6 +1944,7 @@
 				],
 				'cello'=>[
 					'celo',
+					'chello',
 				],
 				'cellophane'=>[
 					'celophane',
@@ -1691,6 +2006,9 @@
 				],
 				'censoriousness'=>[
 					'censoriousnes',
+				],
+				'censorship'=>[
+					'sensorship',
 				],
 				'census'=>[
 					'cencus',
@@ -1768,6 +2086,9 @@
 				'centimorgans'=>[
 					'centimourgans',
 				],
+				'centipoise'=>[
+					'centripoise',
+				],
 				'centner'=>[
 					'cantner',
 				],
@@ -1803,6 +2124,7 @@
 				],
 				'centrally'=>[
 					'centraly',
+					'centerally',
 				],
 				'centre'=>[
 					'cantre',
@@ -1812,6 +2134,7 @@
 				],
 				'centric'=>[
 					'cantric',
+					'centeric',
 				],
 				'centricities'=>[
 					'centriciteis',
@@ -1827,11 +2150,29 @@
 				'centrifugations'=>[
 					'cantrifugations',
 				],
+				'centrilobular'=>[
+					'cetrilobular',
+				],
 				'centring'=>[
 					'cantring',
 				],
+				'centripetal'=>[
+					'centripedal',
+				],
 				'centrist'=>[
 					'cantrist',
+				],
+				'centrodiapophyseal'=>[
+					'centrodiaphophyseal',
+				],
+				'centroidal'=>[
+					'certroidal',
+				],
+				'centronucleation'=>[
+					'centranucleation',
+				],
+				'centroparietal'=>[
+					'centraparietal',
 				],
 				'centrosymmetric'=>[
 					'cantrosymmetric',
@@ -1866,11 +2207,30 @@
 					'ceoltoirí',
 					'ceoltóiri',
 				],
+				'cephalalgia'=>[
+					'cephalagia',
+				],
+				'cephalexin'=>[
+					'cephelixin',
+				],
+				'cephalometric'=>[
+					'cephalomeric',
+				],
 				'cephaloridines'=>[
 					'cephaloridinis',
 				],
+				'cephalothin'=>[
+					'cefalothin',
+					'cephalotin',
+				],
 				'cepheids'=>[
 					'cephieds',
+				],
+				'ceramide'=>[
+					'caramide',
+				],
+				'ceratobranchial'=>[
+					'certobranchial',
 				],
 				'ceratopsian'=>[
 					'ceratopsan',
@@ -1878,8 +2238,17 @@
 				'cercarian'=>[
 					'cercaran',
 				],
+				'cercopithecoid'=>[
+					'cercopitecoid',
+				],
+				'cercosporin'=>[
+					'cercosporine',
+				],
 				'cereal'=>[
 					'cerel',
+				],
+				'cerebella'=>[
+					'cerebellae',
 				],
 				'cerebellar'=>[
 					'cerebeller',
@@ -1916,6 +2285,9 @@
 				'ceremony'=>[
 					'cerimony',
 				],
+				'ceric'=>[
+					'cerric',
+				],
 				'cernuous'=>[
 					'cernous',
 				],
@@ -1938,6 +2310,10 @@
 				'certified'=>[
 					'certifed',
 				],
+				'ceruloplasmin'=>[
+					'cerruloplasmin',
+					'coeruloplasmin',
+				],
 				'cerusite'=>[
 					'ceruiste',
 				],
@@ -1946,6 +2322,9 @@
 				],
 				'cervical'=>[
 					'cervial',
+				],
+				'cervicofacial'=>[
+					'cervicofascial',
 				],
 				'cesarian'=>[
 					'cesaran',
@@ -1956,11 +2335,17 @@
 				'cessation'=>[
 					'cesation',
 				],
+				'cetrimide'=>[
+					'cetramide',
+				],
 				'chaconne'=>[
 					'chacone',
 				],
 				'chadian-occupied'=>[
 					'chadian occupied',
+				],
+				'chagrined'=>[
+					'chagrinned',
 				],
 				'chagrinning'=>[
 					'chagrining',
@@ -2019,6 +2404,9 @@
 				],
 				'challenging'=>[
 					'chalenging',
+				],
+				'chamaeleonid'=>[
+					'chameleonid',
 				],
 				'chammied'=>[
 					'chamnied',
@@ -2172,6 +2560,10 @@
 				'chaos'=>[
 					'choas',
 				],
+				'chaotropic'=>[
+					'chaotrophic',
+					'choatropic',
+				],
 				'chaparajos'=>[
 					'chaperajos',
 				],
@@ -2207,6 +2599,7 @@
 					'charachter',
 					'charater',
 					'charcter',
+					'charecter',
 				],
 				'characteries'=>[
 					'charactereis',
@@ -2280,6 +2673,9 @@
 				],
 				'chase'=>[
 					'chasr',
+				],
+				'chasmogamous'=>[
+					'chamogamous',
 				],
 				'chasse'=>[
 					'chassse',
@@ -2360,6 +2756,9 @@
 				'checkreins'=>[
 					'checkriens',
 				],
+				'cheddar'=>[
+					'chedder',
+				],
 				'cheddary'=>[
 					'cheddery',
 				],
@@ -2399,6 +2798,16 @@
 				'cheetahs'=>[
 					'cheetas',
 				],
+				'cheilitis'=>[
+					'chelitis',
+				],
+				'chelerythrine'=>[
+					'chelerythryne',
+					'chelethrine',
+				],
+				'cheliped'=>[
+					'chelipod',
+				],
 				'chelonian'=>[
 					'chelonan',
 				],
@@ -2409,12 +2818,38 @@
 					'chemcially',
 					'chemicaly',
 				],
+				'chemifluorescence'=>[
+					'chemifluoresence',
+				],
+				'chemiluminescent'=>[
+					'chemoluminiscent',
+				],
+				'chemioluminescence'=>[
+					'quimioluminescence',
+					'quimioluminiscence',
+				],
 				'chemistry'=>[
 					'chem',
 					'chemestry',
 				],
+				'chemocompetent'=>[
+					'chimiocompetent',
+				],
 				'chemokine'=>[
 					'chemokini',
+					'chymokine',
+				],
+				'chemolithotrophic'=>[
+					'chemolithotropic',
+				],
+				'chemoprophylaxis'=>[
+					'chemophrophylaxis',
+				],
+				'chemoproteomic'=>[
+					'chemiproteomic',
+				],
+				'chemoproteomics'=>[
+					'chemiproteomics',
 				],
 				'chemoreception'=>[
 					'chemoureception',
@@ -2437,6 +2872,9 @@
 				'chemotaxonomies'=>[
 					'chemotaxonomeis',
 					'chemotaxonomis',
+				],
+				'chemotherapy'=>[
+					'quimiotherapy',
 				],
 				'cherry'=>[
 					'chery',
@@ -2671,6 +3109,9 @@
 				'chiromancy'=>[
 					'chiromansy',
 				],
+				'chiropractor'=>[
+					'chiropracteur',
+				],
 				'chirr'=>[
 					'chir',
 				],
@@ -2680,14 +3121,34 @@
 				'chirrup'=>[
 					'chirup',
 				],
+				'chirurgical'=>[
+					'cirurgical',
+				],
 				'chivalrousness'=>[
 					'chivalrousnes',
 				],
 				'chivareeing'=>[
 					'chivareieng',
 				],
+				'chlamydiosis'=>[
+					'chlamydiasis',
+				],
+				'chlamydospore'=>[
+					'chlamidospore',
+				],
+				'chloralose'=>[
+					'choralose',
+				],
 				'chloramine'=>[
 					'chloramini',
+				],
+				'chloramphenicol'=>[
+					'chloranphenicol',
+					'chlorophenical',
+					'choramphenicol',
+				],
+				'chlorhexidine'=>[
+					'chlorhexidene',
 				],
 				'chlorinate'=>[
 					'chlorinite',
@@ -2703,20 +3164,33 @@
 				'chlorinity'=>[
 					'chlorinaty',
 				],
+				'chlorohydrin'=>[
+					'chorohydrin',
+				],
 				'chlorophyll'=>[
 					'chlorophyl',
 				],
 				'chlorophyllous'=>[
 					'chlorophylous',
 				],
+				'chlorophyte'=>[
+					'chorophyte',
+				],
 				'chloroquine'=>[
 					'chloroquini',
 				],
 				'chlorpromazine'=>[
 					'chlorpromazini',
+					'chloropromazine',
 				],
 				'chlorpromazines'=>[
 					'chlorpromazinis',
+				],
+				'chlortetracycline'=>[
+					'chorotetracycline',
+				],
+				'choanoflagellate'=>[
+					'coanoflagellate',
 				],
 				'chock-full'=>[
 					'chalk-full',
@@ -2754,6 +3228,13 @@
 				'chokecherry'=>[
 					'chokechery',
 				],
+				'cholangiocarcinoma'=>[
+					'cholangocarcinoma',
+					'cholioangiocarcinoma',
+				],
+				'cholecystectomy'=>[
+					'cholestectomy',
+				],
 				'cholecystokinin'=>[
 					'cholecystokinan',
 				],
@@ -2768,6 +3249,7 @@
 				],
 				'cholinergic'=>[
 					'cholinirgic',
+					'chorinergic',
 				],
 				'cholinergically'=>[
 					'cholinergicalally',
@@ -2782,6 +3264,32 @@
 				],
 				'cholinesterases'=>[
 					'cholinisterases',
+				],
+				'chondrichthian'=>[
+					'chondrychthian',
+				],
+				'chondrichthyan'=>[
+					'chondricthyan',
+				],
+				'chondriosome'=>[
+					'chondrosome',
+				],
+				'chondrodysplasia'=>[
+					'chrondrodysplasia',
+				],
+				'chondrogenesis'=>[
+					'chrondrogenesis',
+				],
+				'chondrogenic'=>[
+					'condrogenic',
+				],
+				'chondroitin'=>[
+					'chondrotin',
+				],
+				'chondroitinase'=>[
+					'chondrotinase',
+					'chrondroitinase',
+					'condroitinase',
 				],
 				'chooses'=>[
 					'choosed',
@@ -2805,20 +3313,33 @@
 				'choreiform'=>[
 					'chorieform',
 				],
+				'choreoathetosis'=>[
+					'choreoatheosis',
+				],
 				'chorine'=>[
 					'chorini',
 				],
 				'chorioallantoic'=>[
 					'chorioalantoic',
 					'chorioallentoic',
+					'chorioalantoid',
 				],
 				'chorioallantois'=>[
 					'chorioalantois',
 					'chorioallentois',
 				],
+				'chorioamnionitis'=>[
+					'chorioamniotitis',
+				],
 				'chorographies'=>[
 					'chorographeis',
 					'chorographis',
+				],
+				'choroiditis'=>[
+					'chorioditis',
+				],
+				'choropleth'=>[
+					'chloropleth',
 				],
 				'chorusing'=>[
 					'choruisng',
@@ -2843,18 +3364,33 @@
 					'christei',
 					'christi',
 				],
+				'chromalveolate'=>[
+					'chromoalveolate',
+				],
 				'chromatinic'=>[
 					'chromatinac',
+				],
+				'chromatography'=>[
+					'choromatography',
 				],
 				'chrominance'=>[
 					'chrominence',
 					'chrominince',
+				],
+				'chromogenic'=>[
+					'chromagenic',
+				],
+				'chromogranin'=>[
+					'chromagranin',
 				],
 				'chromoprotein'=>[
 					'chromoprotien',
 				],
 				'chromoproteins'=>[
 					'chromoprotiens',
+				],
+				'chromotherapy'=>[
+					'chromatherapy',
 				],
 				'chronic'=>[
 					'chronical',
@@ -2889,11 +3425,21 @@
 					'chronotherapeis',
 					'chronotherapis',
 				],
+				'chronotropic'=>[
+					'chonotropic',
+					'chronotrophic',
+				],
 				'chrysanthemum'=>[
 					'chrysenthemum',
 				],
 				'chrysanthemums'=>[
 					'chrysenthemums',
+				],
+				'chrysolaminarin'=>[
+					'chrysolaminaran',
+				],
+				'chrysomonad'=>[
+					'cristamonad',
 				],
 				'chthonian'=>[
 					'chthonan',
@@ -2993,6 +3539,12 @@
 				'chutzpahs'=>[
 					'chutzpas',
 				],
+				'chymotrypsin'=>[
+					'chemotrypsin',
+				],
+				'chytridiomycosis'=>[
+					'chytridiomyosis',
+				],
 				'château'=>[
 					'chateau',
 				],
@@ -3002,6 +3554,9 @@
 					'ciceely',
 					'cicelly',
 					'cicly',
+				],
+				'cichlid'=>[
+					'cichild',
 				],
 				'cicisbeism'=>[
 					'cicisbiesm',
@@ -3018,14 +3573,21 @@
 				'cilantro'=>[
 					'cilentro',
 				],
+				'cilengitide'=>[
+					'cilengetide',
+				],
 				'ciliary'=>[
 					'ciliery',
 				],
 				'ciliately'=>[
 					'ciliatly',
 				],
+				'cilostazol'=>[
+					'cilastazol',
+				],
 				'cimetidine'=>[
 					'cimetidini',
+					'cimitedine',
 				],
 				'cincinnati'=>[
 					'cincinatti',
@@ -3073,6 +3635,9 @@
 				'cinnamon'=>[
 					'cinamon',
 				],
+				'cinnamons'=>[
+					'cinamons',
+				],
 				'cinquain'=>[
 					'cinqauin',
 				],
@@ -3088,8 +3653,14 @@
 				'cioppino'=>[
 					'ciopino',
 				],
+				'ciprofloxacin'=>[
+					'cirofloxacin',
+				],
 				'circadian'=>[
 					'circadan',
+				],
+				'circadianly'=>[
+					'circadially',
 				],
 				'circinate'=>[
 					'circinite',
@@ -3134,6 +3705,7 @@
 				],
 				'circumcised'=>[
 					'circumcized',
+					'circumsised',
 				],
 				'circumference'=>[
 					'circumferance',
@@ -3196,6 +3768,9 @@
 					'circumspectely',
 					'circumspectlly',
 				],
+				'circumsporozoite'=>[
+					'circumsporozite',
+				],
 				'circumstance'=>[
 					'circumstence',
 				],
@@ -3229,6 +3804,7 @@
 				],
 				'circumvent'=>[
 					'circumvant',
+					'circumwent',
 				],
 				'circumventions'=>[
 					'circumvantions',
@@ -3293,6 +3869,7 @@
 				],
 				'citrulline'=>[
 					'citrullini',
+					'citruline',
 				],
 				'citrusy'=>[
 					'citrucy',
@@ -3334,6 +3911,9 @@
 				'clad'=>[
 					'cladded',
 					'claded',
+				],
+				'cladoceran'=>[
+					'caldoceran',
 				],
 				'claimant'=>[
 					'claiment',
@@ -3462,6 +4042,13 @@
 				'clarinet'=>[
 					'clarinit',
 				],
+				'clarithromycin'=>[
+					'clarythromicin',
+					'clarythromycin',
+				],
+				'clarity'=>[
+					'clairty',
+				],
 				'clary'=>[
 					'clery',
 				],
@@ -3531,6 +4118,9 @@
 				'clattery'=>[
 					'clattary',
 				],
+				'claustrofobia'=>[
+					'clustrofobia',
+				],
 				'claustrophobia'=>[
 					'claustraphobia',
 				],
@@ -3547,6 +4137,12 @@
 				'clavieristic'=>[
 					'claveiristic',
 					'claviristic',
+				],
+				'claviform'=>[
+					'calviform',
+				],
+				'clavulanic'=>[
+					'clavulamic',
 				],
 				'claymore'=>[
 					'claymoure',
@@ -3625,6 +4221,9 @@
 				'cleat'=>[
 					'clet',
 				],
+				'cleavable'=>[
+					'clivable',
+				],
 				'cleavage'=>[
 					'clevage',
 				],
@@ -3656,6 +4255,9 @@
 					'clementaly',
 					'clementely',
 					'clementlly',
+				],
+				'clenbuterol'=>[
+					'clentuberol',
 				],
 				'clerestories'=>[
 					'clerestoreis',
@@ -3715,6 +4317,11 @@
 				'clinician'=>[
 					'clinacian',
 					'clinican',
+					'clinitian',
+					'clinition',
+				],
+				'clinicopathological'=>[
+					'clinopathological',
 				],
 				'clinics'=>[
 					'clinacs',
@@ -3736,6 +4343,9 @@
 				],
 				'cliquishnesses'=>[
 					'cliquishneses',
+				],
+				'clitorectomy'=>[
+					'clitodectomy',
 				],
 				'clobber'=>[
 					'clober',
@@ -3761,6 +4371,12 @@
 				'clodhopping'=>[
 					'clodhoping',
 				],
+				'clofazimine'=>[
+					'clofozamine',
+				],
+				'clofibrate'=>[
+					'clofibriate',
+				],
 				'clogger'=>[
 					'cloger',
 				],
@@ -3775,6 +4391,15 @@
 				],
 				'clonidine'=>[
 					'clonidini',
+				],
+				'clonogenicity'=>[
+					'clonogenity',
+				],
+				'cloperastine'=>[
+					'clopersatine',
+				],
+				'clopidogrel'=>[
+					'clopidrogrel',
 				],
 				'clopping'=>[
 					'cloping',
@@ -3801,6 +4426,9 @@
 				'clothier'=>[
 					'clotheir',
 					'clothir',
+				],
+				'clotrimazole'=>[
+					'clatrimazole',
 				],
 				'cloudberries'=>[
 					'cloudberies',
@@ -4077,17 +4705,27 @@
 				'coccidia'=>[
 					'cocidia',
 				],
+				'coccidioidomycosis'=>[
+					'coccidiomycosis',
+				],
 				'coccidioses'=>[
 					'cocidioses',
 				],
 				'coccidiosis'=>[
 					'cocidiosis',
 				],
+				'coccidiostat'=>[
+					'coccidostat',
+					'cocidiostat',
+				],
 				'coccidium'=>[
 					'cocidium',
 				],
 				'coccids'=>[
 					'cocids',
+				],
+				'coccobacillary'=>[
+					'cocobacillary',
 				],
 				'coccoid'=>[
 					'cocoid',
@@ -4141,6 +4779,12 @@
 				],
 				'cocksurenesses'=>[
 					'cocksureneses',
+				],
+				'cocrystallization'=>[
+					'cocrystalization',
+				],
+				'cocrystallized'=>[
+					'cocrystalized',
 				],
 				'cocurricular'=>[
 					'cocuricular',
@@ -4220,6 +4864,16 @@
 				'coelacanth'=>[
 					'coelacenth',
 				],
+				'coelenterazine'=>[
+					'colenterazine',
+					'coleranterazine',
+				],
+				'coelomic'=>[
+					'coelemic',
+				],
+				'coelurosaur'=>[
+					'coleurosaur',
+				],
 				'coenamor'=>[
 					'coenamour',
 				],
@@ -4277,6 +4931,9 @@
 				'cogency'=>[
 					'cogensy',
 				],
+				'cogenesis'=>[
+					'congenesis',
+				],
 				'cogent'=>[
 					'cogant',
 				],
@@ -4304,10 +4961,16 @@
 				'cognizant'=>[
 					'cognizent',
 				],
+				'cognomen'=>[
+					'congomen',
+				],
 				'cognoscente'=>[
 					'cognocente',
 					'cognocsente',
 					'cognosente',
+				],
+				'cognoscenti'=>[
+					'cognescenti',
 				],
 				'cognoscible'=>[
 					'cognoscable',
@@ -4415,6 +5078,7 @@
 				],
 				'colchicine'=>[
 					'colchicini',
+					'colchizine',
 				],
 				'colcothar'=>[
 					'colcother',
@@ -4424,6 +5088,9 @@
 				],
 				'coldheartedness'=>[
 					'coldhertedness',
+				],
+				'colibacillosis'=>[
+					'colibacilosis',
 				],
 				'colinear'=>[
 					'colineer',
@@ -4463,6 +5130,12 @@
 				],
 				'collagenase'=>[
 					'colagenase',
+				],
+				'collagenic'=>[
+					'callogenic',
+				],
+				'collagraphy'=>[
+					'collography',
 				],
 				'collapse'=>[
 					'colapse',
@@ -4515,6 +5188,7 @@
 				],
 				'colleagues'=>[
 					'collegues',
+					'colleages',
 				],
 				'colleagueship'=>[
 					'collegueship',
@@ -4665,6 +5339,9 @@
 					'colloquialiteis',
 					'colloquialitis',
 				],
+				'colloquies'=>[
+					'colloquys',
+				],
 				'colloquium'=>[
 					'coloquium',
 				],
@@ -4690,6 +5367,9 @@
 				'collywobbles'=>[
 					'collywobles',
 					'colywobbles',
+				],
+				'colocalization'=>[
+					'colocolization',
 				],
 				'colombian-occupied'=>[
 					'colombian occupied',
@@ -4720,6 +5400,9 @@
 				'colony'=>[
 					'collony',
 				],
+				'colopexy'=>[
+					'coloplexy',
+				],
 				'colorable'=>[
 					'colorible',
 				],
@@ -4728,6 +5411,13 @@
 				],
 				'colorfulnesses'=>[
 					'colorfulneses',
+				],
+				'colorimetric'=>[
+					'colonimetric',
+					'colorometric',
+				],
+				'colorimetrically'=>[
+					'colorometrically',
 				],
 				'colorimetries'=>[
 					'colorimetreis',
@@ -4755,6 +5445,9 @@
 				'colporteur'=>[
 					'colporter',
 				],
+				'colposcopy'=>[
+					'coloposcopy',
+				],
 				'columbary'=>[
 					'columbery',
 				],
@@ -4774,6 +5467,12 @@
 				],
 				'columnar'=>[
 					'columner',
+				],
+				'colvasone'=>[
+					'calvasone',
+				],
+				'comandante'=>[
+					'commandante',
 				],
 				'combatant'=>[
 					'combatent',
@@ -5054,6 +5753,7 @@
 				],
 				'commensurate'=>[
 					'comnensurate',
+					'commeasurate',
 				],
 				'commensurately'=>[
 					'commensuratly',
@@ -5275,9 +5975,11 @@
 				],
 				'commissural'=>[
 					'comnissural',
+					'comissural',
 				],
 				'commissure'=>[
 					'comnissure',
+					'commisure',
 				],
 				'commissures'=>[
 					'comnissures',
@@ -5536,6 +6238,7 @@
 				'communication'=>[
 					'communciation',
 					'comnunication',
+					'comunication',
 				],
 				'communicational'=>[
 					'comnunicational',
@@ -5687,11 +6390,20 @@
 				'commy'=>[
 					'comny',
 				],
+				'comonotonic'=>[
+					'commonotic',
+				],
+				'comonotonicity'=>[
+					'commonotonicity',
+				],
 				'comorbid'=>[
 					'comourbid',
 				],
 				'compactible'=>[
 					'compactable',
+				],
+				'companies'=>[
+					'companys',
 				],
 				'companion'=>[
 					'componion',
@@ -5710,11 +6422,13 @@
 				],
 				'comparability'=>[
 					'comperability',
+					'comparibility',
 				],
 				'comparable'=>[
 					'compareable',
 					'comparible',
 					'comperable',
+					'comprable',
 				],
 				'comparableness'=>[
 					'comparablenes',
@@ -5859,6 +6573,9 @@
 				'compatibleness'=>[
 					'compatiblenes',
 				],
+				'compatriot'=>[
+					'compatriate',
+				],
 				'compellation'=>[
 					'compelation',
 				],
@@ -5898,17 +6615,23 @@
 				'competition'=>[
 					'competion',
 					'competiton',
+					'conpetition',
 				],
 				'competitive'=>[
 					'competative',
 					'competive',
+					'competetive',
 				],
 				'competitively'=>[
 					'competitivly',
 					'competively',
+					'competetively',
 				],
 				'competitor'=>[
 					'competor',
+				],
+				'compilation'=>[
+					'compiliation',
 				],
 				'compilation album'=>[
 					'complication album',
@@ -5978,6 +6701,7 @@
 				],
 				'complementarity'=>[
 					'complemantarity',
+					'complimentarity',
 				],
 				'complementary'=>[
 					'complemantary',
@@ -6113,6 +6837,9 @@
 					'comprimize',
 					'compromize',
 				],
+				'compromised'=>[
+					'compromized',
+				],
 				'comptroller'=>[
 					'comptroler',
 				],
@@ -6124,6 +6851,9 @@
 				],
 				'compulsiveness'=>[
 					'compulsivenes',
+				],
+				'compulsorily'=>[
+					'compulsarily',
 				],
 				'compunctious'=>[
 					'compunctous',
@@ -6140,6 +6870,7 @@
 				],
 				'comrade'=>[
 					'com rade',
+					'comrad',
 				],
 				'comradelinesses'=>[
 					'comradelinisses',
@@ -6147,11 +6878,33 @@
 				'comrades'=>[
 					'com rades',
 				],
+				'comradeship'=>[
+					'comradship',
+				],
+				'conalbumin'=>[
+					'conoalbumin',
+				],
+				'concanavalin'=>[
+					'concavalin',
+					'concavaline',
+				],
+				'concatemerization'=>[
+					'concatamerization',
+				],
+				'concatemerize'=>[
+					'concatamerize',
+				],
+				'concatemerized'=>[
+					'concatamerized',
+				],
 				'concavely'=>[
 					'concavly',
 				],
 				'conceal'=>[
 					'concel',
+				],
+				'concede'=>[
+					'conceed',
 				],
 				'concededly'=>[
 					'concededally',
@@ -6222,6 +6975,7 @@
 				],
 				'concentric'=>[
 					'concantric',
+					'coencentric',
 				],
 				'concentrically'=>[
 					'concantrically',
@@ -6314,6 +7068,9 @@
 				'concert'=>[
 					'conert',
 				],
+				'concerted'=>[
+					'conserted',
+				],
 				'concertina'=>[
 					'concertini',
 				],
@@ -6338,6 +7095,9 @@
 				],
 				'concessively'=>[
 					'concessivly',
+				],
+				'conchostracan'=>[
+					'concostracan',
 				],
 				'concierge'=>[
 					'conceirge',
@@ -6504,6 +7264,9 @@
 				'condense'=>[
 					'condence',
 				],
+				'condenser'=>[
+					'condensor',
+				],
 				'condensible'=>[
 					'condensable',
 				],
@@ -6511,6 +7274,7 @@
 					'condecend',
 					'condecsend',
 					'condesend',
+					'condenscend',
 				],
 				'condescendence'=>[
 					'condecendence',
@@ -6591,6 +7355,9 @@
 				],
 				'conductress'=>[
 					'conductres',
+				],
+				'condyle'=>[
+					'chondyle',
 				],
 				'confabbed'=>[
 					'confabed',
@@ -6717,6 +7484,9 @@
 				'confluence'=>[
 					'confluance',
 				],
+				'confocal'=>[
+					'concocal',
+				],
 				'conform'=>[
 					'coform',
 				],
@@ -6725,6 +7495,9 @@
 				],
 				'conformance'=>[
 					'conformence',
+				],
+				'conformational'=>[
+					'comformational',
 				],
 				'confoundedly'=>[
 					'confoundedally',
@@ -6782,6 +7555,9 @@
 				'congolese-occupied'=>[
 					'congolese occupied',
 				],
+				'congophilic'=>[
+					'congiophilic',
+				],
 				'congratulate'=>[
 					'congradulate',
 				],
@@ -6835,8 +7611,17 @@
 				'congruousnesses'=>[
 					'congrousnesses',
 				],
+				'conical'=>[
+					'concial',
+				],
 				'conidian'=>[
 					'conidan',
+				],
+				'conidiogenesis'=>[
+					'condiogenesis',
+				],
+				'conidiophore'=>[
+					'condiophore',
 				],
 				'conine'=>[
 					'conini',
@@ -6856,12 +7641,21 @@
 				'conjoins'=>[
 					'cojoins',
 				],
+				'conjugacy'=>[
+					'conjugancy',
+				],
 				'conjugalities'=>[
 					'conjugaliteis',
 					'conjugalitis',
 				],
 				'conjugately'=>[
 					'conjugatly',
+				],
+				'conjunction'=>[
+					'conjuction',
+				],
+				'conjunctival'=>[
+					'conjuctival',
 				],
 				'conjunctively'=>[
 					'conjunctivly',
@@ -7033,6 +7827,9 @@
 				'conquian'=>[
 					'conquan',
 				],
+				'conrotatory'=>[
+					'conrotary',
+				],
 				'consanguineous'=>[
 					'consanguinious',
 				],
@@ -7066,6 +7863,7 @@
 					'conscientous',
 					'conscintious',
 					'consientious',
+					'consciencious',
 				],
 				'conscientiously'=>[
 					'concientiously',
@@ -7136,6 +7934,7 @@
 				'consecutive'=>[
 					'concecutive',
 					'consective',
+					'consequtive',
 				],
 				'consecutively'=>[
 					'consecutivly',
@@ -7325,8 +8124,12 @@
 				'conspicuousness'=>[
 					'conspicousness',
 				],
+				'conspiracism'=>[
+					'conspiricism',
+				],
 				'conspiracy'=>[
 					'conspirasy',
+					'conspirancy',
 				],
 				'constable'=>[
 					'constible',
@@ -7454,6 +8257,7 @@
 				],
 				'consummation'=>[
 					'consumnation',
+					'consommation',
 				],
 				'consummations'=>[
 					'consumnations',
@@ -7542,6 +8346,9 @@
 					'contemplativeely',
 					'contemplativelly',
 					'contemplativly',
+				],
+				'contemplators'=>[
+					'contemplaters',
 				],
 				'contemporaneity'=>[
 					'contemporaniety',
@@ -7721,6 +8528,9 @@
 				'continuos'=>[
 					'continos',
 				],
+				'continuosity'=>[
+					'continuousity',
+				],
 				'continuous'=>[
 					'continious',
 					'continous',
@@ -7729,6 +8539,7 @@
 				],
 				'continuously'=>[
 					'continously',
+					'continuosly',
 				],
 				'continuousness'=>[
 					'continousness',
@@ -7736,6 +8547,9 @@
 				],
 				'continuum'=>[
 					'continum',
+				],
+				'contortion'=>[
+					'contorsion',
 				],
 				'contrabassists'=>[
 					'contrabasists',
@@ -7778,6 +8592,9 @@
 				'contradictories'=>[
 					'contradictoreis',
 					'contradictoris',
+				],
+				'contrapuntal'=>[
+					'contrapunctal',
 				],
 				'contrapuntally'=>[
 					'contrapuntalally',
@@ -8052,6 +8869,9 @@
 				'conversion'=>[
 					'convertion',
 				],
+				'conversions'=>[
+					'convertions',
+				],
 				'converted'=>[
 					'coverted',
 				],
@@ -8065,6 +8885,9 @@
 				],
 				'convertible'=>[
 					'convertable',
+				],
+				'convexity'=>[
+					'convexivity',
 				],
 				'convexly'=>[
 					'convexally',
@@ -8082,6 +8905,9 @@
 					'convivialiteis',
 					'convivialitis',
 				],
+				'convolvulus'=>[
+					'convulvulus',
+				],
 				'convulsant'=>[
 					'convulsent',
 				],
@@ -8098,6 +8924,9 @@
 					'cookei',
 					'cooki',
 				],
+				'cookware'=>[
+					'cookwear',
+				],
 				'coolant'=>[
 					'coolent',
 				],
@@ -8110,6 +8939,10 @@
 					'cooally',
 					'cooaly',
 					'coollly',
+				],
+				'coomassie'=>[
+					'commassie',
+					'coomasie',
 				],
 				'cooperate'=>[
 					'co- operate',
@@ -8196,6 +9029,9 @@
 				'coordinator'=>[
 					'co-odrinator',
 				],
+				'copacetic'=>[
+					'copesettic',
+				],
 				'coparcenaries'=>[
 					'coparcenareis',
 					'coparcenaris',
@@ -8235,9 +9071,15 @@
 				'copartnerships'=>[
 					'copertnerships',
 				],
+				'cophenetic'=>[
+					'cophenatic',
+				],
 				'copier'=>[
 					'copeir',
 					'copir',
+				],
+				'copiotrophic'=>[
+					'copiotropic',
 				],
 				'copious'=>[
 					'copous',
@@ -8310,6 +9152,12 @@
 				'coprocessor'=>[
 					'coprocesor',
 				],
+				'coprophagy'=>[
+					'corpophagy',
+				],
+				'coproporphyrinogen'=>[
+					'coproporhyrinogen',
+				],
 				'coproprietors'=>[
 					'copropreitors',
 					'copropritors',
@@ -8327,6 +9175,9 @@
 				'copyrightable'=>[
 					'copyrightible',
 				],
+				'coquette'=>[
+					'cocquette',
+				],
 				'coquettishness'=>[
 					'coquettishnes',
 				],
@@ -8336,8 +9187,14 @@
 				'coquina'=>[
 					'coquini',
 				],
+				'coraciiform'=>[
+					'coraciform',
+				],
 				'coralberry'=>[
 					'coralbery',
+				],
+				'corallimorph'=>[
+					'coralomorph',
 				],
 				'corbeil'=>[
 					'corbiel',
@@ -8439,8 +9296,17 @@
 					'corollery',
 					'correlary',
 				],
+				'coronagraphy'=>[
+					'coronography',
+				],
+				'coronarography'=>[
+					'coronariography',
+				],
 				'coronary'=>[
 					'coronery',
+				],
+				'coronatine'=>[
+					'coranatine',
 				],
 				'corporalities'=>[
 					'corporaliteis',
@@ -8530,9 +9396,12 @@
 				],
 				'correlate'=>[
 					'corelate',
+					'corrolate',
 				],
 				'correlation'=>[
 					'corelation',
+					'cerrelation',
+					'collelation',
 				],
 				'correlational'=>[
 					'corelational',
@@ -8726,8 +9595,17 @@
 					'corseteire',
 					'corsetire',
 				],
+				'corticoamygdalohippocampectomy'=>[
+					'corticoamigdalohippocampectomy',
+				],
+				'corticosteroid'=>[
+					'costicosteroid',
+				],
 				'cortina'=>[
 					'cortini',
+				],
+				'corundum'=>[
+					'curundum',
 				],
 				'corvina'=>[
 					'corvini',
@@ -8812,9 +9690,14 @@
 				'cotinine'=>[
 					'cotinane',
 					'cotinini',
+					'conitine',
+					'continine',
 				],
 				'cotinines'=>[
 					'cotinanes',
+				],
+				'cotrimoxazole'=>[
+					'cotrimaxozole',
 				],
 				'cottar'=>[
 					'cotter',
@@ -8840,8 +9723,12 @@
 					'coudl',
 					'could could',
 				],
+				'could\'ve'=>[
+					'couldve',
+				],
 				'couldn\'t'=>[
 					'coudn\'t',
+					'couldnt',
 				],
 				'councillor'=>[
 					'councilor',
@@ -8884,6 +9771,7 @@
 				],
 				'counterfeit'=>[
 					'counterfiet',
+					'counterfit',
 				],
 				'counterfeited'=>[
 					'counterfieted',
@@ -8899,6 +9787,9 @@
 				],
 				'counterfeits'=>[
 					'counterfiets',
+				],
+				'counterguerrilla'=>[
+					'counterguerilla',
 				],
 				'counterinstance'=>[
 					'counterinstence',
@@ -8955,6 +9846,9 @@
 				],
 				'counterreforms'=>[
 					'countereforms',
+				],
+				'counterregulatory'=>[
+					'counteregulatory',
 				],
 				'counterresponse'=>[
 					'counteresponse',
@@ -9052,8 +9946,17 @@
 					'courir',
 					'coururier',
 				],
+				'course'=>[
+					'cource',
+				],
 				'court'=>[
 					'cout',
+				],
+				'court-martial'=>[
+					'court-marshal',
+				],
+				'courteous'=>[
+					'curtious',
 				],
 				'courteousnesses'=>[
 					'courteousneses',
@@ -9152,6 +10055,9 @@
 					'cowrei',
 					'cowri',
 				],
+				'coxsackievirus'=>[
+					'coxsakievirus',
+				],
 				'coxswaining'=>[
 					'coxswainang',
 				],
@@ -9203,6 +10109,9 @@
 					'crackely',
 					'cracklly',
 				],
+				'cradle'=>[
+					'craddle',
+				],
 				'craftily'=>[
 					'craftly',
 				],
@@ -9221,9 +10130,18 @@
 				'cranberry'=>[
 					'cranbery',
 				],
+				'craniectomy'=>[
+					'crainiectomy',
+				],
+				'craniometric'=>[
+					'craneometric',
+				],
 				'craniometries'=>[
 					'craniometreis',
 					'craniometris',
+				],
+				'craniopharyngioma'=>[
+					'craniopharyngeoma',
 				],
 				'crann úll'=>[
 					'crann ull',
@@ -9312,6 +10230,9 @@
 				'creatinines'=>[
 					'creatinanes',
 				],
+				'creatinuria'=>[
+					'creatininuria',
+				],
 				'creation'=>[
 					'ceration',
 					'cretion',
@@ -9335,6 +10256,7 @@
 				],
 				'creator'=>[
 					'cretor',
+					'creater',
 				],
 				'creature'=>[
 					'creture',
@@ -9351,6 +10273,7 @@
 				],
 				'credence'=>[
 					'credance',
+					'creedence',
 				],
 				'credent'=>[
 					'credant',
@@ -9383,6 +10306,9 @@
 				'credible'=>[
 					'credable',
 				],
+				'credibly'=>[
+					'credibley',
+				],
 				'creditabilities'=>[
 					'creditabiliteis',
 					'creditabilitis',
@@ -9398,6 +10324,9 @@
 				],
 				'creminis'=>[
 					'creminas',
+				],
+				'crenarchaeal'=>[
+					'chrenarchaeal',
 				],
 				'crenately'=>[
 					'crenatly',
@@ -9461,6 +10390,9 @@
 				],
 				'cribbled'=>[
 					'cribled',
+				],
+				'cricothyrotomy'=>[
+					'criothyrotomy',
 				],
 				'cried'=>[
 					'creid',
@@ -9541,6 +10473,7 @@
 				],
 				'criteria'=>[
 					'criterions',
+					'criterior',
 				],
 				'criterion'=>[
 					'critereon',
@@ -9561,6 +10494,7 @@
 				'criticism'=>[
 					'critiscism',
 					'critisism',
+					'critisizm',
 				],
 				'criticize'=>[
 					'critiscize',
@@ -9571,6 +10505,9 @@
 				],
 				'critics'=>[
 					'criticists',
+				],
+				'critocracy'=>[
+					'krytocracy',
 				],
 				'croatian-occupied'=>[
 					'croatian occupied',
@@ -9587,8 +10524,14 @@
 				'crocodilian'=>[
 					'crocodilan',
 				],
+				'crocodyliform'=>[
+					'crocodiliform',
+				],
 				'croissant'=>[
 					'croissent',
+				],
+				'cromoglycate'=>[
+					'chromoglycate',
 				],
 				'cromwell'=>[
 					'cromwel',
@@ -9687,6 +10630,9 @@
 					'crotchetineses',
 					'crotchetinisses',
 				],
+				'croup'=>[
+					'croop',
+				],
 				'croupier'=>[
 					'croupeir',
 					'croupir',
@@ -9715,6 +10661,9 @@
 				],
 				'crucifixion'=>[
 					'crucifiction',
+				],
+				'crucifixions'=>[
+					'crucifictions',
 				],
 				'crudely'=>[
 					'crudly',
@@ -9755,15 +10704,27 @@
 				'cruzeiro'=>[
 					'cruziero',
 				],
+				'cryoanesthetized'=>[
+					'cryoanesthesized',
+				],
 				'cryobiologies'=>[
 					'cryobiologeis',
 					'cryobiologis',
+				],
+				'cryodesiccator'=>[
+					'cryodessicator',
+				],
+				'cryolysate'=>[
+					'cryolisate',
 				],
 				'cryoprotectant'=>[
 					'cryoprotectent',
 				],
 				'cryoprotectants'=>[
 					'cryoprotectents',
+				],
+				'cryoresistance'=>[
+					'cryoresistence',
 				],
 				'cryosurgeries'=>[
 					'cryosurgereis',
@@ -9784,9 +10745,17 @@
 				],
 				'cryptococcosis'=>[
 					'cryptococosis',
+					'cryptoccocosis',
 				],
 				'cryptococcus'=>[
 					'cryptococus',
+				],
+				'cryptorchid'=>[
+					'chryptorchid',
+				],
+				'cryptorchidism'=>[
+					'cryptochidism',
+					'cryptochoridism',
 				],
 				'cryptozoologies'=>[
 					'cryptozoologeis',
@@ -9853,6 +10822,15 @@
 				],
 				'cubbyholes'=>[
 					'cubyholes',
+				],
+				'cuboctahedral'=>[
+					'cuboctohedral',
+				],
+				'cucurbit'=>[
+					'curcubit',
+				],
+				'cucurbitacin'=>[
+					'curcubitacin',
 				],
 				'cudbear'=>[
 					'cudbeer',
@@ -9980,6 +10958,9 @@
 				'cunningnesses'=>[
 					'cuningnesses',
 				],
+				'cupellation'=>[
+					'copellation',
+				],
 				'cuppa'=>[
 					'cupa',
 				],
@@ -10012,6 +10993,9 @@
 				],
 				'curacy'=>[
 					'curasy',
+				],
+				'curarimimetic'=>[
+					'curaremimetic',
 				],
 				'curassow'=>[
 					'currasow',
@@ -10171,6 +11155,9 @@
 				'cut'=>[
 					'cutted',
 				],
+				'cutaneotropic'=>[
+					'cutaneotrophic',
+				],
 				'cutely'=>[
 					'cutly',
 				],
@@ -10211,11 +11198,20 @@
 				'cutline'=>[
 					'cutlini',
 				],
+				'cuttable'=>[
+					'cutable',
+				],
 				'cyan'=>[
 					'cxan',
 				],
 				'cyanine'=>[
 					'cyanini',
+				],
+				'cyanoborohydride'=>[
+					'cyanoborohydrate',
+				],
+				'cyanocobalamin'=>[
+					'cyanocobolamin',
 				],
 				'cyanocobalamine'=>[
 					'cyanocobalamini',
@@ -10230,6 +11226,12 @@
 					'cyclicaliteis',
 					'cyclicalitis',
 				],
+				'cycloartenol'=>[
+					'cycloartinol',
+				],
+				'cycloheximide'=>[
+					'cyclohexamide',
+				],
 				'cyclohexylamine'=>[
 					'cyclohexylamini',
 				],
@@ -10241,6 +11243,17 @@
 				],
 				'cycloparaffins'=>[
 					'cycloperaffins',
+				],
+				'cyclopentolate'=>[
+					'cyclopenolate',
+				],
+				'cyclophilin'=>[
+					'cyclophylin',
+					'cyclophyllin',
+					'cycophilin',
+				],
+				'cyclophosphamide'=>[
+					'cyclophsophamide',
 				],
 				'cycloserine'=>[
 					'cycloserini',
@@ -10275,6 +11288,9 @@
 				'cyproheptadines'=>[
 					'cyproheptadinis',
 				],
+				'cystathionine'=>[
+					'cystathione',
+				],
 				'cysteine'=>[
 					'cysteini',
 					'cystiene',
@@ -10288,15 +11304,52 @@
 				'cysteins'=>[
 					'cystiens',
 				],
+				'cystic'=>[
+					'cyctic',
+				],
 				'cystine'=>[
 					'cystini',
+				],
+				'cystotome'=>[
+					'cystostome',
+				],
+				'cystourethrography'=>[
+					'cystourethography',
+				],
+				'cytapheretic'=>[
+					'cytopheretic',
+				],
+				'cytidine'=>[
+					'cystidine',
+				],
+				'cytidyl'=>[
+					'cystidyl',
+				],
+				'cytoarchitectonic'=>[
+					'cryoarchitectonic',
+				],
+				'cytoarchitecture'=>[
+					'citoarchitecture',
+				],
+				'cytochalasin'=>[
+					'catachalasin',
+					'cytocholasin',
 				],
 				'cytochemistries'=>[
 					'cytochemistreis',
 					'cytochemistris',
 				],
+				'cytocompatibility'=>[
+					'cytocompatability',
+				],
+				'cytogenetic'=>[
+					'citogenetic',
+				],
 				'cytogenetically'=>[
 					'cytogeneticaly',
+				],
+				'cytokeratin'=>[
+					'cytocheratin',
 				],
 				'cytokine'=>[
 					'cytokini',
@@ -10307,11 +11360,24 @@
 				'cytokinin'=>[
 					'cytokinan',
 				],
+				'cytomegalovirus'=>[
+					'megalovirus',
+				],
 				'cytomembrane'=>[
 					'cytombrane',
 				],
 				'cytomembranes'=>[
 					'cytombranes',
+				],
+				'cytometric'=>[
+					'cytomeric',
+					'cytrometric',
+				],
+				'cytometry'=>[
+					'citometry',
+				],
+				'cytoplasmic'=>[
+					'cycloplasmic',
 				],
 				'cytoplasmically'=>[
 					'cytoplasmicalally',
@@ -10320,8 +11386,38 @@
 					'cytoplasmicallly',
 					'cytoplasmicaly',
 				],
+				'cytoreductive'=>[
+					'cytoreproductive',
+				],
 				'cytosine'=>[
 					'cytosini',
+					'cytocine',
+				],
+				'cytoskeletal'=>[
+					'cycloskeletal',
+					'cytosceletal',
+				],
+				'cytoskeleton'=>[
+					'cystoskeleton',
+				],
+				'cytosol'=>[
+					'sitosol',
+				],
+				'cytosolic'=>[
+					'cytostolic',
+				],
+				'cytotoxic'=>[
+					'cytoxic',
+				],
+				'cytotoxicity'=>[
+					'cytoxicity',
+				],
+				'cytotropic'=>[
+					'cytotopic',
+					'cytotrophic',
+				],
+				'cytotropically'=>[
+					'cytotopically',
 				],
 				'czar'=>[
 					'czer',

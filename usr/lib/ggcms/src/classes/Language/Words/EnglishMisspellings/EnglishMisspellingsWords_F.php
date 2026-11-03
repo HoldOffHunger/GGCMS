@@ -32,6 +32,9 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Florodora'=>[
+					'floradora',
+				],
 				'fabricant'=>[
 					'fabricent',
 				],
@@ -61,9 +64,14 @@
 				],
 				'facilitate'=>[
 					'faciliate',
+					'fascilitate',
 				],
 				'facilitated'=>[
 					'faciliated',
+					'fasciliated',
+				],
+				'facilitatory'=>[
+					'facilitory',
 				],
 				'facilities'=>[
 					'facilites',
@@ -71,6 +79,9 @@
 				'facility'=>[
 					'facillity',
 					'faculity',
+				],
+				'facioscapulohumeral'=>[
+					'fascioscapulohumeral',
 				],
 				'facsimile'=>[
 					'facimile',
@@ -128,12 +139,16 @@
 				'fadeins'=>[
 					'fadiens',
 				],
+				'fadrozole'=>[
+					'fadrazole',
+				],
 				'faerie'=>[
 					'faerei',
 					'faeri',
 				],
 				'faggot'=>[
 					'fagot',
+					'faggit',
 				],
 				'faggoting'=>[
 					'fagoting',
@@ -143,6 +158,9 @@
 				],
 				'faggotries'=>[
 					'fagotries',
+				],
+				'faggots'=>[
+					'faggits',
 				],
 				'faggy'=>[
 					'fagy',
@@ -408,6 +426,9 @@
 				'farmstead'=>[
 					'farmsted',
 				],
+				'farnesoid'=>[
+					'farsenoid',
+				],
 				'farraginous'=>[
 					'faraginous',
 				],
@@ -488,6 +509,9 @@
 				'fascinator'=>[
 					'fascinitor',
 				],
+				'fasciocutaneous'=>[
+					'fasciocutaneus',
+				],
 				'fascioliases'=>[
 					'facioliases',
 					'facsioliases',
@@ -497,6 +521,12 @@
 					'facioliasis',
 					'facsioliasis',
 					'fasioliasis',
+				],
+				'fasciolopsiasis'=>[
+					'faciolopsiasis',
+				],
+				'fasciotomy'=>[
+					'faciotomy',
 				],
 				'fascism'=>[
 					'faschism',
@@ -509,6 +539,7 @@
 					'facist',
 					'facsist',
 					'fasist',
+					'faschist',
 				],
 				'fashion'=>[
 					'fasion',
@@ -747,6 +778,9 @@
 				'featurette'=>[
 					'feturette',
 				],
+				'febrile'=>[
+					'ferbile',
+				],
 				'february'=>[
 					'fabruary',
 					'febrary',
@@ -907,6 +941,10 @@
 					'fellly',
 					'fely',
 				],
+				'felodipine'=>[
+					'felodopine',
+					'felopdipine',
+				],
 				'felonious'=>[
 					'felonous',
 				],
@@ -995,6 +1033,13 @@
 				],
 				'femoral'=>[
 					'femoural',
+					'femural',
+				],
+				'femoxetine'=>[
+					'femoxitine',
+				],
+				'fenarimol'=>[
+					'feranimol',
 				],
 				'fencible'=>[
 					'fencable',
@@ -1007,6 +1052,9 @@
 				],
 				'fenny'=>[
 					'feny',
+				],
+				'fenoldopam'=>[
+					'fenolopam',
 				],
 				'fentanyl'=>[
 					'fantanyl',
@@ -1056,6 +1104,8 @@
 				],
 				'ferredoxin'=>[
 					'feredoxin',
+					'ferridoxin',
+					'ferrodoxin',
 				],
 				'ferrel'=>[
 					'ferel',
@@ -1095,6 +1145,9 @@
 				],
 				'ferrocene'=>[
 					'ferocene',
+				],
+				'ferrochelatase'=>[
+					'ferrochetalase',
 				],
 				'ferroconcrete'=>[
 					'feroconcrete',
@@ -1136,6 +1189,9 @@
 				'ferromanganeses'=>[
 					'feromanganeses',
 				],
+				'ferroportin'=>[
+					'ferriportin',
+				],
 				'ferrosilicon'=>[
 					'ferosilicon',
 				],
@@ -1147,6 +1203,9 @@
 				],
 				'ferrous'=>[
 					'ferous',
+				],
+				'ferroxidase'=>[
+					'feroxidase',
 				],
 				'ferruginous'=>[
 					'feruginous',
@@ -1162,6 +1221,9 @@
 				],
 				'ferryboat'=>[
 					'feryboat',
+				],
+				'fersolate'=>[
+					'fesolate',
 				],
 				'fertile'=>[
 					'furtile',
@@ -1278,14 +1340,42 @@
 				'fibrillar'=>[
 					'fibriller',
 				],
+				'fibrillary'=>[
+					'fibriliary',
+				],
 				'fibrillation'=>[
 					'fibrilation',
+				],
+				'fibrillization'=>[
+					'fibrilisation',
+				],
+				'fibrillogenicity'=>[
+					'fibrilogenicity',
+				],
+				'fibrinogen'=>[
+					'fabrinogen',
+				],
+				'fibrocavitary'=>[
+					'fibrocavitatory',
+				],
+				'fibronectin'=>[
+					'fibrinectin',
+					'fibronetic',
+				],
+				'fibronection'=>[
+					'fironection',
+				],
+				'fibrous'=>[
+					'fiberous',
 				],
 				'fibrovascular'=>[
 					'fibrovacsular',
 					'fibrovacular',
 					'fibrovasculer',
 					'fibrovasular',
+				],
+				'fibroxanthoma'=>[
+					'fibroxantoma',
 				],
 				'fiction'=>[
 					'fictin',
@@ -1309,6 +1399,9 @@
 				],
 				'fictitiously'=>[
 					'fictitously',
+				],
+				'fidaxomicin'=>[
+					'fidaxomycin',
 				],
 				'fiddler'=>[
 					'fillder',
@@ -1425,6 +1518,7 @@
 				'fifty'=>[
 					'fify',
 					'fil\'ty',
+					'fivety',
 				],
 				'fig'=>[
 					'fig fig',
@@ -1454,6 +1548,9 @@
 				'figurine'=>[
 					'figurini',
 				],
+				'filaggrin'=>[
+					'fillagrin',
+				],
 				'filagreeing'=>[
 					'filagreieng',
 				],
@@ -1461,6 +1558,7 @@
 					'filiament',
 					'fillament',
 					'filamant',
+					'filiment',
 				],
 				'filamentary'=>[
 					'filamentery',
@@ -1470,6 +1568,17 @@
 				],
 				'filarian'=>[
 					'filaran',
+				],
+				'filariasis'=>[
+					'filariosis',
+					'filiariasis',
+					'filiarisis',
+				],
+				'filarioid'=>[
+					'filaroid',
+				],
+				'filibuster'=>[
+					'filabuster',
 				],
 				'filigreeing'=>[
 					'filigreieng',
@@ -1532,11 +1641,20 @@
 					'filmaking',
 					'filmnaking',
 				],
+				'filopodial'=>[
+					'fillopodial',
+				],
+				'filopodium'=>[
+					'filapodium',
+				],
 				'filterable'=>[
 					'filterible',
 				],
 				'filtrable'=>[
 					'filtrible',
+				],
+				'filtrates'=>[
+					'filterates',
 				],
 				'finable'=>[
 					'finible',
@@ -1579,6 +1697,9 @@
 					'finence',
 					'finince',
 				],
+				'financeable'=>[
+					'financable',
+				],
 				'finances'=>[
 					'finaances',
 				],
@@ -1596,6 +1717,9 @@
 					'financeir',
 					'financir',
 					'finincier',
+				],
+				'finasteride'=>[
+					'finsteride',
 				],
 				'find'=>[
 					'fidn',
@@ -1924,12 +2048,16 @@
 				],
 				'flagellar'=>[
 					'flageller',
+					'flagellular',
 				],
 				'flagellated'=>[
 					'flagelated',
 				],
 				'flagellation'=>[
 					'flagelation',
+				],
+				'flagellomeres'=>[
+					'flagellomers',
 				],
 				'flagged'=>[
 					'flaged',
@@ -2050,8 +2178,22 @@
 				'flatulency'=>[
 					'flatulensy',
 				],
+				'flavanone'=>[
+					'flavonone',
+				],
+				'flavivirus'=>[
+					'flavovirus',
+				],
+				'flavonolignan'=>[
+					'flavolignan',
+				],
+				'flavopiridol'=>[
+					'falvopiridol',
+					'flavoperidol',
+				],
 				'flavoprotein'=>[
 					'flavoprotien',
+					'favoprotein',
 				],
 				'flavoproteins'=>[
 					'flavoprotiens',
@@ -2228,6 +2370,10 @@
 				'flocculi'=>[
 					'floculi',
 				],
+				'flocculonodular'=>[
+					'floccunodular',
+					'floculonodular',
+				],
 				'flocculus'=>[
 					'floculus',
 				],
@@ -2236,6 +2382,9 @@
 				],
 				'floggable'=>[
 					'flogable',
+				],
+				'flogging'=>[
+					'floging',
 				],
 				'floggings'=>[
 					'flogings',
@@ -2252,6 +2401,7 @@
 				],
 				'floppy'=>[
 					'flopy',
+					'floppie',
 				],
 				'florence'=>[
 					'florance',
@@ -2287,6 +2437,9 @@
 				'flotillas'=>[
 					'floatillas',
 				],
+				'flotillin'=>[
+					'flotilin',
+				],
 				'flouncy'=>[
 					'flounsy',
 				],
@@ -2311,24 +2464,44 @@
 				'flown'=>[
 					'flewn',
 				],
+				'fluanisone'=>[
+					'fluanizone',
+				],
 				'flubbers'=>[
 					'flubers',
 				],
 				'flubbing'=>[
 					'flubing',
 				],
+				'fluconazole'=>[
+					'fuconazole',
+				],
 				'fluctuate'=>[
 					'fluxuate',
 					'fluctaute',
 				],
+				'fluctuated'=>[
+					'fluxuated',
+				],
+				'fluctuates'=>[
+					'fluxuates',
+				],
 				'fluctuating'=>[
 					'fluctauting',
+					'fluxuating',
 				],
 				'fluctuation'=>[
 					'fluctaution',
+					'fluxuation',
 				],
 				'fluctuational'=>[
 					'fluctautional',
+				],
+				'fluctuations'=>[
+					'fluxuations',
+				],
+				'fludarabine'=>[
+					'fudarabine',
 				],
 				'fluency'=>[
 					'fluensy',
@@ -2348,6 +2521,9 @@
 					'fluidely',
 					'fluidlly',
 				],
+				'flumethrin'=>[
+					'flumenthrin',
+				],
 				'flummeries'=>[
 					'flumneries',
 				],
@@ -2362,6 +2538,10 @@
 				],
 				'fluor'=>[
 					'flor',
+				],
+				'fluoranthene'=>[
+					'fluoranthane',
+					'fluoranthrene',
 				],
 				'fluorene'=>[
 					'florene',
@@ -2384,6 +2564,9 @@
 					'fluorecsein',
 					'fluorescien',
 					'fluoresein',
+				],
+				'fluoresceinated'=>[
+					'fluorescinated',
 				],
 				'fluoresceins'=>[
 					'floresceins',
@@ -2526,9 +2709,17 @@
 				],
 				'fluorochrome'=>[
 					'florochrome',
+					'fluochrome',
 				],
 				'fluorochromes'=>[
 					'florochromes',
+				],
+				'fluorodeoxyglucose'=>[
+					'flourodeoxyglucose',
+					'fluordeoxyglucose',
+				],
+				'fluorodeoxyuridine'=>[
+					'flourodeoxyuridine',
 				],
 				'fluorographic'=>[
 					'florographic',
@@ -2549,12 +2740,25 @@
 				],
 				'fluorometric'=>[
 					'florometric',
+					'fluometric',
 				],
 				'fluorometries'=>[
 					'florometries',
 				],
 				'fluorometry'=>[
 					'florometry',
+				],
+				'fluorophore'=>[
+					'fluoreophore',
+					'flurophore',
+				],
+				'fluorophosphonate'=>[
+					'fluorophosphanate',
+				],
+				'fluoroquinolone'=>[
+					'flouroquinolone',
+					'fluoquinolone',
+					'fluroquinolone',
 				],
 				'fluoroscope'=>[
 					'floroscope',
@@ -2614,6 +2818,7 @@
 				],
 				'fluorouracil'=>[
 					'florouracil',
+					'flurouracil',
 				],
 				'fluorouracils'=>[
 					'florouracils',
@@ -2641,11 +2846,23 @@
 				'fluphenazines'=>[
 					'fluphenazinis',
 				],
+				'flupirtine'=>[
+					'flupirtrine',
+				],
+				'flurbiprofen'=>[
+					'flubiprofen',
+				],
 				'flurry'=>[
 					'flury',
 				],
+				'fluticasone'=>[
+					'flucticasone',
+				],
 				'fluttery'=>[
 					'fluttary',
+				],
+				'fluvastatin'=>[
+					'fulvastatin',
 				],
 				'fly'=>[
 					'fly fly',
@@ -2670,6 +2887,7 @@
 				],
 				'focaccia'=>[
 					'focacia',
+					'foccacia',
 				],
 				'focaccias'=>[
 					'focacias',
@@ -2736,6 +2954,12 @@
 				],
 				'folliculitis'=>[
 					'foliculitis',
+				],
+				'folliculogenesis'=>[
+					'foliculogenesis',
+				],
+				'follistatin'=>[
+					'follostatin',
 				],
 				'follow'=>[
 					'follow follow',
@@ -2986,6 +3210,7 @@
 					'fobearance',
 					'forbearence',
 					'forberance',
+					'forebearance',
 				],
 				'forbearances'=>[
 					'fobearances',
@@ -3112,6 +3337,9 @@
 				],
 				'forcing'=>[
 					'focing',
+				],
+				'forcurse'=>[
+					'forecurse',
 				],
 				'forded'=>[
 					'foded',
@@ -3530,6 +3758,9 @@
 				],
 				'foremen'=>[
 					'foemen',
+				],
+				'forementioned'=>[
+					'formentioned',
 				],
 				'foremilk'=>[
 					'foemilk',
@@ -4175,6 +4406,7 @@
 				'forgettable'=>[
 					'fogettable',
 					'forgettible',
+					'forgetable',
 				],
 				'forgetter'=>[
 					'fogetter',
@@ -4190,6 +4422,7 @@
 				],
 				'forgivable'=>[
 					'fogivable',
+					'forgiveable',
 				],
 				'forgivably'=>[
 					'fogivably',
@@ -4450,6 +4683,7 @@
 				],
 				'formate'=>[
 					'fomate',
+					'fromate',
 				],
 				'formation'=>[
 					'fomation',
@@ -4565,6 +4799,9 @@
 				],
 				'formols'=>[
 					'fomols',
+				],
+				'formoterol'=>[
+					'formeterol',
 				],
 				'forms'=>[
 					'foms',
@@ -4717,6 +4954,11 @@
 				],
 				'forsakes'=>[
 					'fosakes',
+				],
+				'forskolin'=>[
+					'forkolin',
+					'forscolin',
+					'foskolin',
 				],
 				'forsook'=>[
 					'foresook',
@@ -4884,6 +5126,9 @@
 					'fourty',
 					'foty',
 				],
+				'forty-one'=>[
+					'fourty-one',
+				],
 				'fortyish'=>[
 					'fotyish',
 				],
@@ -4935,6 +5180,7 @@
 				],
 				'fossa'=>[
 					'fosa',
+					'foosa',
 				],
 				'fosse'=>[
 					'fose',
@@ -5140,6 +5386,9 @@
 				],
 				'freak'=>[
 					'frek',
+				],
+				'freaking'=>[
+					'freaken',
 				],
 				'freakishnesses'=>[
 					'frekishnesses',
@@ -5358,6 +5607,9 @@
 				'fritillary'=>[
 					'fritillery',
 				],
+				'frivolous'=>[
+					'frivilous',
+				],
 				'frizzly'=>[
 					'frizzally',
 					'frizzaly',
@@ -5423,6 +5675,9 @@
 				'frontline'=>[
 					'frontlini',
 				],
+				'frontomedial'=>[
+					'frontomedian',
+				],
 				'frotteur'=>[
 					'frotter',
 				],
@@ -5438,6 +5693,9 @@
 				],
 				'frozennesses'=>[
 					'frozenesses',
+				],
+				'fructose'=>[
+					'frustose',
 				],
 				'fructuous'=>[
 					'fructous',
@@ -5472,6 +5730,9 @@
 				'frustrated'=>[
 					'frustated',
 				],
+				'frustule'=>[
+					'frustrule',
+				],
 				'frustum'=>[
 					'frustrum',
 				],
@@ -5489,6 +5750,15 @@
 				],
 				'fubsy'=>[
 					'fubcy',
+				],
+				'fuchsia'=>[
+					'fuschia',
+				],
+				'fuchsias'=>[
+					'fuschias',
+				],
+				'fucosyllactose'=>[
+					'fucosylactose',
 				],
 				'fucoxanthin'=>[
 					'fucoxenthin',
@@ -5563,6 +5833,18 @@
 				'fulminate'=>[
 					'fulminite',
 				],
+				'fumarase'=>[
+					'fumerase',
+				],
+				'fumarate'=>[
+					'fumerate',
+				],
+				'fumfered'=>[
+					'fumferred',
+				],
+				'fumfering'=>[
+					'fumferring',
+				],
 				'fumigant'=>[
 					'fumigent',
 				],
@@ -5572,6 +5854,9 @@
 				],
 				'function'=>[
 					'funtion',
+				],
+				'functionality'=>[
+					'funtionality',
 				],
 				'functionally'=>[
 					'functionaly',
@@ -5598,6 +5883,9 @@
 				],
 				'fungible'=>[
 					'fungable',
+				],
+				'fungizone'=>[
+					'fungisone',
 				],
 				'funicular'=>[
 					'funiculer',
@@ -5634,6 +5922,7 @@
 				],
 				'furanose'=>[
 					'fuanose',
+					'funarose',
 				],
 				'furanoses'=>[
 					'fuanoses',
@@ -5649,6 +5938,7 @@
 				],
 				'furazolidone'=>[
 					'fuazolidone',
+					'furaxolidone',
 				],
 				'furbearer'=>[
 					'fubearer',
@@ -5869,6 +6159,8 @@
 				],
 				'furosemide'=>[
 					'fuosemide',
+					'frosemide',
+					'furosamide',
 				],
 				'furosemides'=>[
 					'fuosemides',
@@ -6082,6 +6374,9 @@
 				'fustian'=>[
 					'fustan',
 				],
+				'fusulinid'=>[
+					'fusilinid',
+				],
 				'futhark'=>[
 					'futhroc',
 				],
@@ -6090,6 +6385,12 @@
 				],
 				'futilitarian'=>[
 					'futilitaran',
+				],
+				'futon'=>[
+					'futton',
+				],
+				'fuzzification'=>[
+					'fuzzyfication',
 				],
 				'félix baloy'=>[
 					'felix lavoy',

@@ -32,6 +32,9 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'Vitruvian'=>[
+					'vetruvian',
+				],
 				'vacancy'=>[
 					'vacansy',
 					'vacency',
@@ -96,6 +99,7 @@
 				],
 				'vacuolation'=>[
 					'vacolation',
+					'vascuolation',
 				],
 				'vacuolations'=>[
 					'vacolations',
@@ -117,6 +121,9 @@
 				],
 				'vacuousnesses'=>[
 					'vacousnesses',
+				],
+				'vacutainer'=>[
+					'vaccutainer',
 				],
 				'vacuum'=>[
 					'vaccum',
@@ -227,6 +234,9 @@
 				'valiant'=>[
 					'valient',
 				],
+				'validate'=>[
+					'valudate',
+				],
 				'validly'=>[
 					'validally',
 					'validaly',
@@ -235,6 +245,10 @@
 				],
 				'valine'=>[
 					'valini',
+				],
+				'valinomycin'=>[
+					'vanilomycin',
+					'volonomycin',
 				],
 				'valium'=>[
 					'vallium',
@@ -249,6 +263,9 @@
 				],
 				'valparaiso'=>[
 					'valpariso',
+				],
+				'valproate'=>[
+					'valporate',
 				],
 				'valuable'=>[
 					'valauble',
@@ -285,11 +302,17 @@
 				'van trees'=>[
 					'van tress',
 				],
+				'vancomycin'=>[
+					'vanomycin',
+				],
 				'vanguard'=>[
 					'vangaurd',
 				],
 				'vanilla'=>[
 					'vanila',
+				],
+				'vanilloid'=>[
+					'vallinoid',
 				],
 				'vanish'=>[
 					'vannish',
@@ -311,6 +334,12 @@
 					'vapidely',
 					'vapidlly',
 				],
+				'vaporise'=>[
+					'vapourise',
+				],
+				'varenicline'=>[
+					'varenidine',
+				],
 				'variable'=>[
 					'varable',
 					'varible',
@@ -327,6 +356,12 @@
 				],
 				'variation'=>[
 					'varietion',
+				],
+				'varicellovirus'=>[
+					'varizellovirus',
+				],
+				'varicocele'=>[
+					'variocele',
 				],
 				'varied'=>[
 					'vareid',
@@ -372,6 +407,9 @@
 					'variosly',
 					'varously',
 				],
+				'varmint'=>[
+					'varmit',
+				],
 				'varsity'=>[
 					'varisty',
 				],
@@ -385,10 +423,16 @@
 					'vasculer',
 					'vasular',
 				],
+				'vascularity'=>[
+					'vacularity',
+				],
 				'vascularization'=>[
 					'vacsularization',
 					'vacularization',
 					'vasularization',
+				],
+				'vascularized'=>[
+					'vascolarized',
 				],
 				'vasculature'=>[
 					'vacsulature',
@@ -408,6 +452,10 @@
 				],
 				'vasopressin'=>[
 					'vasopresin',
+					'vasopression',
+				],
+				'vasotocin'=>[
+					'vasoctocin',
 				],
 				'vassal'=>[
 					'vasal',
@@ -451,6 +499,10 @@
 				],
 				'vector-borne'=>[
 					'vector-born',
+				],
+				'vecuronium'=>[
+					'vencuronium',
+					'vercuronium',
 				],
 				'vegetable'=>[
 					'vegatable',
@@ -498,9 +550,13 @@
 				'vehement'=>[
 					'vehemant',
 				],
+				'vehemently'=>[
+					'viamently',
+				],
 				'vehicle'=>[
 					'vechicle',
 					'vehichle',
+					'vehical',
 				],
 				'vehicular'=>[
 					'vehiculer',
@@ -550,6 +606,9 @@
 				'veiny'=>[
 					'vieny',
 				],
+				'velamentous'=>[
+					'velimentous',
+				],
 				'velamina'=>[
 					'velamini',
 				],
@@ -561,6 +620,9 @@
 				],
 				'vellum'=>[
 					'velum',
+				],
+				'venacavography'=>[
+					'venocavography',
 				],
 				'vendable'=>[
 					'vendible',
@@ -590,8 +652,19 @@
 				'venice'=>[
 					'vemce',
 				],
+				'venipuncture'=>[
+					'veinipuncture',
+					'venapuncture',
+					'venupuncture',
+				],
+				'venlafaxine'=>[
+					'venlaxafine',
+				],
 				'venomous'=>[
 					'venemous',
+				],
+				'venoocclusive'=>[
+					'venooclusive',
 				],
 				'vent'=>[
 					'vant',
@@ -608,9 +681,16 @@
 				'ventral'=>[
 					'vantral',
 				],
+				'ventricle'=>[
+					'ventrical',
+				],
 				'ventricular'=>[
 					'vantricular',
 					'ventriculer',
+					'bentricular',
+				],
+				'ventriculoperitoneal'=>[
+					'ventriculoperitioneal',
 				],
 				'ventriloquism'=>[
 					'vantriloquism',
@@ -620,6 +700,9 @@
 				],
 				'ventriloquize'=>[
 					'vantriloquize',
+				],
+				'ventroflexion'=>[
+					'ventriflexion',
 				],
 				'ventrolateral'=>[
 					'vantrolateral',
@@ -663,6 +746,7 @@
 				],
 				'veratridine'=>[
 					'veratridini',
+					'veratridin',
 				],
 				'verb'=>[
 					'verb verb',
@@ -670,6 +754,9 @@
 				],
 				'verbally'=>[
 					'verbaly',
+				],
+				'verbatim'=>[
+					'verbatum',
 				],
 				'verbiage'=>[
 					'verbage',
@@ -795,8 +882,14 @@
 					'vyer',
 					'vyre',
 				],
+				'vesicoureteral'=>[
+					'vesicouretral',
+				],
 				'vesicular'=>[
 					'vesiculer',
+				],
+				'vesiculation'=>[
+					'vessiculation',
 				],
 				'vespertilian'=>[
 					'vespertilan',
@@ -815,6 +908,9 @@
 				],
 				'vestibular'=>[
 					'vestibuler',
+				],
+				'vestimentiferan'=>[
+					'vestimeniferan',
 				],
 				'vesuvian'=>[
 					'vesuvan',
@@ -880,6 +976,9 @@
 				],
 				'vibrant'=>[
 					'vibrent',
+				],
+				'vibraphonist'=>[
+					'vibrophonist',
 				],
 				'vicar'=>[
 					'vicer',
@@ -964,6 +1063,9 @@
 				],
 				'victoriously'=>[
 					'victorously',
+				],
+				'victrola'=>[
+					'victrolla',
 				],
 				'victual'=>[
 					'victaul',
@@ -1060,11 +1162,17 @@
 				'vigorous'=>[
 					'vigourous',
 				],
+				'vildagliptin'=>[
+					'vidagliptin',
+				],
 				'vilely'=>[
 					'villy',
 				],
 				'vilified'=>[
 					'villified',
+				],
+				'vilifies'=>[
+					'villifies',
 				],
 				'vilify'=>[
 					'villify',
@@ -1117,6 +1225,9 @@
 				'villus'=>[
 					'vilus',
 				],
+				'vimentin'=>[
+					'viementin',
+				],
 				'vimina'=>[
 					'vimini',
 				],
@@ -1157,6 +1268,9 @@
 				],
 				'vincristine'=>[
 					'vincristini',
+				],
+				'vinculum'=>[
+					'vinculun',
 				],
 				'vindictively'=>[
 					'vindictivly',
@@ -1231,6 +1345,7 @@
 				],
 				'violoncello'=>[
 					'violoncelo',
+					'violincello',
 				],
 				'virescence'=>[
 					'virescance',
@@ -1261,6 +1376,12 @@
 				],
 				'virilely'=>[
 					'virilly',
+				],
+				'virion'=>[
+					'viron',
+				],
+				'virioplankton'=>[
+					'vibrioplankton',
 				],
 				'virtual'=>[
 					'virtaul',
@@ -1335,6 +1456,9 @@
 					'vicseral',
 					'viseral',
 				],
+				'viscerally'=>[
+					'vicerally',
+				],
 				'viscid'=>[
 					'vicid',
 					'vicsid',
@@ -1383,6 +1507,7 @@
 					'vicous',
 					'vicsous',
 					'visous',
+					'viscuous',
 				],
 				'viscus'=>[
 					'vicsus',
@@ -1438,6 +1563,9 @@
 				'visual'=>[
 					'visaul',
 				],
+				'visualisation'=>[
+					'vizualisation',
+				],
 				'visualization'=>[
 					'vizualization',
 				],
@@ -1460,8 +1588,21 @@
 					'viticulturalely',
 					'viticulturallly',
 				],
+				'vitiligo'=>[
+					'vitligo',
+				],
+				'vitreoretinal'=>[
+					'vireoretinal',
+					'vitroretinal',
+				],
+				'vitreoretinopathy'=>[
+					'vitroretinopathy',
+				],
 				'vitrine'=>[
 					'vitrini',
+				],
+				'vitronectin'=>[
+					'vetronectin',
 				],
 				'vittle'=>[
 					'vittel',
@@ -1553,6 +1694,9 @@
 				'volar'=>[
 					'voler',
 				],
+				'volatile'=>[
+					'volitile',
+				],
 				'volcanic'=>[
 					'vulcanic',
 				],
@@ -1570,6 +1714,10 @@
 				],
 				'volleyball'=>[
 					'volleybal',
+					'vollyball',
+				],
+				'voltohmmeter'=>[
+					'voltohmeter',
 				],
 				'voluntarinesses'=>[
 					'voluntarinisses',
@@ -1577,6 +1725,7 @@
 				'voluntary'=>[
 					'volontary',
 					'voluntery',
+					'volentary',
 				],
 				'volunteer'=>[
 					'volonteer',
@@ -1607,6 +1756,12 @@
 				'voluptuousness'=>[
 					'voluptousness',
 				],
+				'volutrauma'=>[
+					'volotrauma',
+				],
+				'vomeronasal'=>[
+					'vemoronasal',
+				],
 				'voracious'=>[
 					'voracous',
 				],
@@ -1623,12 +1778,18 @@
 				'votary'=>[
 					'votery',
 				],
+				'vote-a-rama'=>[
+					'vote-o-rama',
+				],
 				'votively'=>[
 					'votivly',
 				],
 				'vowel'=>[
 					'vowel vowel',
 					'vowel vowel vowel',
+				],
+				'voxelated'=>[
+					'voxellated',
 				],
 				'voyageur'=>[
 					'voyager',
@@ -1662,6 +1823,8 @@
 				],
 				'vulnerable'=>[
 					'vulnerible',
+					'vulnurable',
+					'vunerable',
 				],
 				'vulnerably'=>[
 					'vulnerabally',
