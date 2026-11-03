@@ -2413,6 +2413,11 @@
 				$text = $text_lookup[$search_results[$search_index]['TextBody_id']];
 				$assignment = $assignment_lookup[$search_results[$search_index]['TextBody_Entryid']];
 				
+				if($text['SpellCheckImmune']) {		# invented words on purpose
+					unset($search_results[$search_index]);
+					continue;
+				}
+				
 				$matched_words = [];
 				
 				foreach($misspellings as $misspelling) {
@@ -2448,7 +2453,7 @@
 			$entry_start_id = $args['entrystartid'];
 			$entry_end_id = $args['entryendid'];
 			
-			$where = 'Entryid >= ' . $entry_start_id . ' AND Entryid <= ' . $entry_end_id . ' ';
+			$where = 'Entryid >= ' . $entry_start_id . ' AND Entryid <= ' . $entry_end_id . ' AND SpellCheckImmune = 0 ';
 			
 			$sql = 'SELECT Text, Entryid FROM TextBody WHERE ' . $where;
 			

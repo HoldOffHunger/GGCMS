@@ -2358,6 +2358,7 @@
 			$strip_urls = $this->Param('textbody_StripURLs');
 			$americanize_vocabularies = $this->Param('textbody_AmericanizeVocabulary');
 			$html_formattings = $this->Param('textbody_HTMLFormatting');
+			$spell_check_immunes = $this->Param('textbody_SpellCheckImmune');
 			$american_british_spellings = 0;
 			$index = 0;
 			
@@ -2366,6 +2367,9 @@
 					$strip_url = $strip_urls[$index];
 					$americanize_vocabulary = $americanize_vocabularies[$index];
 					$html_formatting = $html_formattings[$index];
+
+						# set only on a text with words, or a blank row's 0 would make it worth saving
+					$textbody['SpellCheckImmune'] = $spell_check_immunes[$index] ? 1 : 0;
 
 						# <pre> blocks stay as saved: see PreformattedBlocks.php
 					if(!class_exists('PreformattedBlocks')) {

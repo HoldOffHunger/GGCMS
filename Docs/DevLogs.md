@@ -7,6 +7,39 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 3
+
+- A text body can be marked **Spell Check Immune** on modify.php, stored in a
+  new `TextBody.SpellCheckImmune` (`tinyint(1)`, default 0). It is for texts
+  written in invented words on purpose. The first is RevoltLib's Book 3,
+  Chapter 3 of Alan Moore's *Jerusalem*, "Round the Bend" (entry 7090): its
+  4,255 coinages filled the AI Workers spellcheck's queue for whole night
+  shifts, and it had been skipped by hand. The spellcheck and the misspelling
+  harvester in the AI Workers now pass over a marked text, and so do both
+  dbstatus.php `DetectBadText` searches.
+
+- The checkbox sits with the three cleaning boxes and is read the way they
+  are, positionally from `textbody_SpellCheckImmune[]`. Unlike them it is
+  stored, so an entry being edited shows what its text has. It is set only on
+  a text with words in it, since a blank row's 0 would otherwise make the row
+  look worth saving. On Fumiko, entry 7090 was ticked, saved with the box as
+  shown, unticked and saved again through `modify_entry.php`; the column
+  followed each time, and the text's checksum never changed.
+
+- `clonefrom_push.php --column=Table.Column` pushes a new column out from
+  `clonefrom` the way it already pushed tables: the definition is read from
+  `clonefrom`'s `information_schema`, the column goes after the one it follows
+  there, and only a site that lacks it is touched. It names one column at a
+  time on purpose. **The column must be on every site before the code is
+  deployed**, because modify.php now writes `SpellCheckImmune` with every text
+  body it saves, and a site without it would refuse the save.
+
+- Fumiko's Ubuntu was rebuilt from scratch after the 1 November accident:
+  Ubuntu 24.04 under WSL 1, MySQL 8.0.46 with production's `sql_mode`, PHP 8.1
+  with mod_php and `imagick` for the site and the CLI, PHP 8.4 for PHPUnit,
+  and RevoltLib from production's 2 November dump (15,461 entries, about 17
+  minutes to load). PHP 8.5 and the other sites' databases are not back yet.
+
 ## 2026, October 28
 
 - Saving an entry no longer wrecks a `<pre>` block in its text. modify.php

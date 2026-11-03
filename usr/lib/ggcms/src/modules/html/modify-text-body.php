@@ -4,7 +4,8 @@
 
 		/*
 			An entry's text bodies on a modify.php form: the text, its
-			source, the three cleaning checkboxes and its language.
+			source, the three cleaning checkboxes, whether the spellcheck
+			skips it, and its language.
 
 			As Edit always printed them: the hidden row has no checkboxes,
 			and only a row's checkboxes have a size.
@@ -41,7 +42,7 @@
 			]);
 
 			if($mode !== 'hidden') {
-				$this->DisplayCheckboxes(['mode'=>$mode]);
+				$this->DisplayCheckboxes(['record'=>$record, 'mode'=>$mode]);
 			}
 
 			print('Language : ');
@@ -89,6 +90,7 @@
 				'textbody_StripURLs'=>'Strip URLs : ',
 				'textbody_AmericanizeVocabulary'=>'Americanize Vocabulary : ',
 				'textbody_HTMLFormatting'=>'HTML Formatting : ',
+				'textbody_SpellCheckImmune'=>'Spell Check Immune : ',
 			];
 
 			print("<br>");
@@ -101,7 +103,7 @@
 					'name'=>$name . '[]',
 					'value'=>1,
 					'maxlength'=>512,
-					'checked'=>$this->Checked(['name'=>$name]),
+					'checked'=>$this->Checked(['name'=>$name, 'record'=>$args['record']]),
 				];
 
 				if($args['mode'] === 'row') {
@@ -118,9 +120,14 @@
 
 			// A new entry's text is cleaned up by default, and formatted as
 			// HTML where the site says so; an entry being modified has them
-			// unticked.
+			// unticked.  Spell Check Immune is stored, not a cleaning, so it
+			// shows what the text has.
 
 		public function Checked($args) {
+			if($args['name'] === 'textbody_SpellCheckImmune') {
+				return $args['record'] && $args['record']['SpellCheckImmune'];
+			}
+
 			if(!$this->adding) {
 				return FALSE;
 			}

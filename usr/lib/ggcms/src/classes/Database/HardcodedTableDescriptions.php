@@ -2527,7 +2527,17 @@
 					'Default' => 0,
 					'Extra' => '',
 				],
-				
+
+				'SpellCheckImmune' => [
+					'Type' => 'tinyint(1)',
+					'TypeBase' => 'tinyint',
+					'TypeAttribute' => 1,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 0,
+					'Extra' => '',
+				],
+
 				'Entryid' => [
 					'Type' => 'int',
 					'TypeBase' => 'int',

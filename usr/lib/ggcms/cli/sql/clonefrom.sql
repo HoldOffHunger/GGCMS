@@ -1103,6 +1103,7 @@ CREATE TABLE `TextBody` (
   `Language` varchar(32) NOT NULL DEFAULT '',
   `WordCount` int NOT NULL DEFAULT '0',
   `CharacterCount` int NOT NULL DEFAULT '0',
+  `SpellCheckImmune` tinyint(1) NOT NULL DEFAULT '0',
   `Entryid` int NOT NULL DEFAULT '0',
   `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
