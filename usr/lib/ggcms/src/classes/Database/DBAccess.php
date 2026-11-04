@@ -1516,6 +1516,8 @@
 						$page_cache->FlushDomain([]);
 					}
 				}
+
+				$this->PurgeEdgeCacheNow(['pagecache'=>$page_cache]);
 			} catch (Throwable $throwable) {
 				# cache maintenance must never break a write -- and a
 				# redeclare is an Error, which Exception does not catch,
@@ -1524,6 +1526,44 @@
 			}
 
 			return TRUE;
+		}
+
+			/*
+				Cloudflare keeps its own copy of every public page for four
+				hours and cannot see the flush above, so it is purged over the
+				same scope: one page for a like, the whole zone otherwise.
+				After the origin flush, so a reader the purge sends back to the
+				origin cannot be handed the page the flush was clearing.
+			*/
+
+		public function PurgeEdgeCacheNow($args) {
+			$page_cache = $args['pagecache'];
+
+			if(!class_exists('EdgeCache')) {
+				ggreq('classes/Cache/EdgeCache.php');
+			}
+
+			$edge_cache = new EdgeCache([]);
+
+			if($edge_cache->Token() === FALSE) {
+				return FALSE;
+			}
+
+			$hosts = $this->PageCacheHostsToFlush();
+			$domain = $hosts ? $hosts[0] : $page_cache->SafeHost();
+
+			if($domain === FALSE) {
+				return FALSE;
+			}
+
+			if($this->page_cache_dirty_scope === 'page') {
+				return $edge_cache->PurgePage([
+					'domain'=>$domain,
+					'path'=>$page_cache->SafePath(),
+				]);
+			}
+
+			return $edge_cache->PurgeDomain(['domain'=>$domain]);
 		}
 
 	}

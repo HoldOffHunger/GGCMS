@@ -52,9 +52,16 @@ live installation rather than estimated.
   pages send none, so they could be kept and shown to others, and its 404 with
   a Location header was. The new rule replaces it.
 
-- Cloudflare does not see the origin's page-cache flush. An edit or a deploy
-  can take up to four hours to reach readers on the edge until something
-  purges the zone.
+- Cloudflare does not see the origin's page-cache flush, so an edit or a
+  deploy would have reached readers on the edge up to four hours late. A
+  write now purges the edge over the same scope the origin flush clears: the
+  whole zone for content, the one page under both hostnames for a like. The
+  translation writer purges its domain, and a deploy purges every zone, last,
+  once Apache is serving the new code. The token lives in php.ini as
+  `ggcms.cloudflare_token`. Without it every purge quietly does nothing.
+
+- Correction: deploy.sh has never flushed the origin page cache, though
+  PageCache.md said it did. The page now says so.
 
 ## 2026, November 3
 

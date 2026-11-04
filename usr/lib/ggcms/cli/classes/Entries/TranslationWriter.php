@@ -364,6 +364,20 @@
 				print('NOTE: nothing was flushed for either hostname.  If pages still show the old word, clear the cache by hand -- see Docs/PageCache.md.' . PHP_EOL);
 			}
 
+			if(!class_exists('EdgeCache')) {
+				ggreq('classes/Cache/EdgeCache.php');
+			}
+
+			$edge_cache = new EdgeCache([]);
+
+			if($edge_cache->Token() !== FALSE) {
+				if($edge_cache->PurgeDomain(['domain'=>$this->domain])) {
+					print('Purged Cloudflare\'s cache for ' . $this->domain . '.' . PHP_EOL);
+				} else {
+					print('NOTE: Cloudflare\'s cache for ' . $this->domain . ' was not purged; readers on the edge may see the old word for up to four hours.' . PHP_EOL);
+				}
+			}
+
 			print(PHP_EOL);
 
 			return $flushed_any;

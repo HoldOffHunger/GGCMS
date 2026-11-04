@@ -195,8 +195,9 @@ rm -rf /mnt/nyc01/ggcms_cache/pages/revoltlib.com  # flush one domain
 rm -rf /mnt/nyc01/ggcms_cache/pages/*              # flush everything
 ```
 
-`bin/deploy.sh` flushes automatically, because changed code makes every cached
-page suspect.
+`bin/deploy.sh` does **not** flush this cache, whatever an earlier version of
+this page said; it purges only Cloudflare's (below). Flush by hand after a
+deploy that changes what a page renders.
 
 To confirm a page is being served from cache rather than rendered, time it
 twice. A miss takes seconds; a hit takes milliseconds.
@@ -224,10 +225,21 @@ nothing else. **Never switch the edge TTL to "respect origin"** or to a fixed
 TTL: a response with no Cache-Control would then be cached for Cloudflare's
 default two hours, and signed-in, query-string and error pages send none.
 
-`cf-cache-status: HIT` means the request never reached the droplet. A
-domain flush here does **not** clear the edge; a changed page can be four
-hours old there until the zone is purged
-(`POST /zones/<id>/purge_cache {"purge_everything":true}`).
+`cf-cache-status: HIT` means the request never reached the droplet.
+
+`EdgeCache` purges the edge over the same scope the origin flush clears, from
+`DBAccess::FlushPageCacheNow()` at shutdown, after the origin flush: the whole
+zone for a content write, one page under both hostnames for a like.
+`TranslationWriter` purges its domain, and `bin/deploy.sh` runs
+`purge_edge_cache.php --all` last. All of it reads the API token from
+`ggcms.cloudflare_token` in `/etc/php/8.5/{apache2,cli}/conf.d/99-ggcms-cloudflare.ini`,
+never committed. Without the token every purge is a silent no-op, and the
+edge serves a changed page up to four hours late. By hand:
+
+```bash
+php /usr/lib/ggcms/cli/scripts/public/cache/purge_edge_cache.php --domain=revoltlib.com
+php /usr/lib/ggcms/cli/scripts/public/cache/purge_edge_cache.php --all
+```
 
 To turn the edge cache off on a zone, set the rule's `enabled` to false, or
 PUT an empty rules list to

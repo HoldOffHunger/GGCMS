@@ -96,7 +96,7 @@ the first sentence, whether or not it is bad news.
 ## Rules
 
 **Never commit a secret.** Database credentials live on the live host as
-`mysqli.default_*` directives in `/etc/php/8.5/{apache2,cli}/conf.d/99-ggcms-database.ini`,
+`mysqli.default_*` directives in `/etc/php/8.5/{apache2,cli}/conf.d/99-ggcms-database.ini`, and the Cloudflare token as `ggcms.cloudflare_token` in `99-ggcms-cloudflare.ini` beside it,
 beside the stock `php.ini`.  Neither is ever committed. Site content under `/srv/ggcms/` and everything in `/var/log/` are
 likewise out. Check `.gitignore` before adding a path.
 

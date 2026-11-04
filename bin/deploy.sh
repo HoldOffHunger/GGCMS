@@ -313,4 +313,18 @@ if [ -d "$CONFIG/etc/nginx/sites-available" ]; then
 fi
 
 
+		#  Cloudflare keeps every public page for four hours and cannot see a
+		#  deploy, so changed code would reach readers on the edge hours late.
+		#  Last, once Apache serves the new code: purged earlier, the edge
+		#  could refill from the old.  A failed purge warns and goes on -- the
+		#  deploy itself has worked, and the pages age out on their own.
+
+echo "==> purging Cloudflare's cache"
+purge_status=0
+php /usr/lib/ggcms/cli/scripts/public/cache/purge_edge_cache.php --all --quiet || purge_status=$?
+case $purge_status in
+	0|1) ;;
+	*) echo "deploy: Cloudflare purge failed for the zones above; they will age out within four hours" >&2 ;;
+esac
+
 echo "==> deployed $(git rev-parse --short HEAD)"
