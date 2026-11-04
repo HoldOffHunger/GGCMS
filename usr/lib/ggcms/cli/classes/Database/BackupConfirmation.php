@@ -242,9 +242,20 @@
 				$result['notes'][] = 'no "Dump completed" marker; the dump stopped early';
 			}
 
+				/*
+					A site whose NightlyDatabaseBackup() is FALSE is not
+					dumped, so its newest dump ages by design.  Every other
+					check still applies: the dump that is kept had better be a
+					whole one.
+				*/
+
 			if($age_hours > $this->max_age_hours) {
-				$failures[] = 'STALE';
-				$result['notes'][] = 'older than ' . $this->max_age_hours . 'h';
+				if($this->nightlyBackupWanted(['domain'=>$domain])) {
+					$failures[] = 'STALE';
+					$result['notes'][] = 'older than ' . $this->max_age_hours . 'h';
+				} else {
+					$result['notes'][] = 'nightly backup off; kept dump is ' . $result['age'] . ' old';
+				}
 			}
 
 			if(!$this->declaresCharset($path)) {

@@ -34,6 +34,50 @@
 			return $this->databaseDumpRoot() . $args['domain'] . '/' . $args['type'] . '/';
 		}
 
+			/*
+				Whether this site's NightlyDatabaseBackup() global says yes.
+				See etc/ggcms/clonefrom/site/backup.php.
+
+				Asked of a separate php process per site, because every domain
+				override declares the same class name -- right for the engine,
+				where one request serves one domain, and fatal here, where one
+				process walks all of them.  SchemaChecker gets round the same
+				thing by reading the files as text, which is fine for a report
+				and not for a switch.
+
+				Fails open.  With no switch installed, or one that cannot be
+				read, the answer is "back it up": a broken setting must not be
+				the reason a backup stopped.
+			*/
+
+		public function nightlyBackupWanted($args) {
+			$domain = $args['domain'];
+
+			$shared_location = GGCMS_CONFIG_DIR . 'clonefrom/site/backup.php';
+
+			if(!is_file($shared_location)) {
+				return TRUE;
+			}
+
+			$reversed_domain = implode('.', array_reverse(explode('.', $domain)));
+			$domain_location = GGCMS_CONFIG_DIR . $reversed_domain . '/site/backup.php';
+
+			$code = 'require ' . var_export($shared_location, TRUE) . '; $classname = "AbstractGlobals_Site_backup";';
+
+			if(is_file($domain_location)) {
+				$code .= ' require ' . var_export($domain_location, TRUE) . '; $classname .= "_override";';
+			}
+
+			$code .= ' $globals = new $classname; print($globals->NightlyDatabaseBackup() ? "yes" : "no");';
+
+			$output = [];
+			$exit_code = 0;
+
+			exec(escapeshellarg(PHP_BINARY) . ' -r ' . escapeshellarg($code) . ' 2>/dev/null', $output, $exit_code);
+
+			return !($exit_code === 0 && trim(implode('', $output)) === 'no');
+		}
+
 		public function generateCurrentBackupFilename($args) {
 			$base_filename = $args['base_filename'];
 			$extension = $args['extension'];

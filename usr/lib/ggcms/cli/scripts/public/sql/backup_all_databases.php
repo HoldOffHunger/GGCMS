@@ -41,6 +41,10 @@
 			--no-gzip        write plain .sql instead of .sql.gz. The whole
 			                 estate compresses from about 7 GB to 433 MB, so
 			                 gzip is the default and this is the escape hatch.
+			--force          dump every site, including those whose
+			                 NightlyDatabaseBackup() global is FALSE -- every
+			                 site's, by default, since 4 November 2026. See
+			                 etc/ggcms/clonefrom/site/backup.php.
 			--dry-run        print the mysqldump command for each site and
 			                 write nothing
 			--quiet          summary only

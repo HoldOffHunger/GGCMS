@@ -61,6 +61,7 @@
 		public $gzip;
 		public $dry_run;
 		public $quiet;
+		public $force;
 		public $last_stderr_file;
 
 		public function bannerMessageText() {
@@ -107,10 +108,19 @@
 			$results = [];
 
 			foreach($sites as $domain => $database) {
-				$result = $this->backupSite([
-					'domain'   => $domain,
-					'database' => $database,
-				]);
+				if($this->force || $this->nightlyBackupWanted(['domain'=>$domain])) {
+					$result = $this->backupSite([
+						'domain'   => $domain,
+						'database' => $database,
+					]);
+				} else {
+					$result = [
+						'domain' => $domain,
+						'status' => 'OFF',
+						'size'   => '-',
+						'note'   => 'NightlyDatabaseBackup() is FALSE; previous backup left in place',
+					];
+				}
 
 				$results[] = $result;
 
@@ -140,6 +150,7 @@
 			$this->gzip        = !$this->argumentPresent('no-gzip');
 			$this->dry_run     = $this->argumentPresent('dry-run');
 			$this->quiet       = $this->argumentPresent('quiet');
+			$this->force       = $this->argumentPresent('force');
 
 			return TRUE;
 		}

@@ -323,6 +323,12 @@ they run. Install as root's crontab:
 cannot run unattended and are not scheduled.  `crontab -l` on the host is the
 authority; the full lines, redirections and mail tests included, are there.
 
+The 03:15 backup still runs, but since 4 November 2026 it dumps only the sites
+whose `NightlyDatabaseBackup()` global is TRUE, and by default none are -- see
+`etc/ggcms/clonefrom/site/backup.php`. Each site's newest dump is kept, and
+`confirm_database_backup.php` does not call it stale. `--force` dumps every
+site regardless.
+
 Cron mails its output to root. `You have new mail` at login is a signal, not
 decoration — it was present, unread, throughout the outage.
 
