@@ -7,6 +7,35 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 4
+
+- Twenty-seven "metric has returned to an acceptable level" mails from the
+  database cluster's monitors were load hovering at a threshold, not a fault.
+  The cluster had been up 23 days, backups and the confirm check passed, and
+  no site had an open 500. The load was real, though: in one hour RevoltLib
+  took 28,233 of the host's 46,216 requests, its median render took 15.25
+  seconds, half the requests that reached the engine ended with the visitor
+  giving up (499), and Apache was running 41 processes against a ceiling of 40.
+
+- The Sogou spider made 5,435 of those renders, a third of RevoltLib's
+  engine work, and not one visitor came from sogou.com all day. It is now
+  refused with Baiduspider in all three lists: `robots.php`, Apache's
+  `block-bots.conf` and nginx's `$ggcms_refused_bot` map. It can still read
+  robots.txt.
+
+- `/houseads/catalogue.json` took 54 seconds to load. It is a plain file on
+  disk, but nginx's list of file types it answers itself had no `json`, so
+  every page with a house ad sent it through Apache to queue behind PHP: 619
+  times in that hour. With `json` in the list it answered in 0.07 seconds.
+  A `.json` that is not on disk still falls through to the engine as before.
+  It now carries the same four-hour `Cache-Control` as the other static files,
+  so a change to the house ads can take up to four hours to reach a reader.
+
+- RevoltLib's DNS moved to Cloudflare. The eleven sites already there were
+  found to have no HTML cached at Cloudflare's edge (`cf-cache-status:
+  DYNAMIC`), because Cloudflare caches pages only under a Cache Rule. Until
+  one exists, Cloudflare takes connections and bots off the host, not renders.
+
 ## 2026, November 3
 
 - A text body can be marked **Spell Check Immune** on modify.php, stored in a

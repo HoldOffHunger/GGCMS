@@ -658,6 +658,12 @@
 
 				'Baiduspider',
 
+					//  The same again: not one visitor arrived from sogou.com on
+					//  4 November 2026, against 5,435 renders of RevoltLib in one
+					//  hour of it -- a third of that site's engine work.
+
+				'Sogou',
+
 					//  Names no operator, and takes the documents: 336 of
 					//  RevoltLib's PDFs in the same 77 minutes
 

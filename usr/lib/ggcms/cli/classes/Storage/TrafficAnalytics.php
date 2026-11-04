@@ -368,7 +368,7 @@
 				return FALSE;
 			}
 
-			if(preg_match('/\.(?:css|js|png|jpe?g|gif|ico|svg|webp|woff2?|ttf|eot|txt|xml)$/i', $request['path'])) {
+			if(preg_match('/\.(?:css|js|png|jpe?g|gif|ico|svg|webp|woff2?|ttf|eot|json|txt|xml)$/i', $request['path'])) {
 				return FALSE;
 			}
 

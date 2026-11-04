@@ -149,7 +149,7 @@ microseconds instead of 0.3 seconds:
 ```apache
 #  /etc/apache2/conf-available/block-bots.conf
 
-SetEnvIfNoCase User-Agent "(GPTBot|ClaudeBot|anthropic-ai|Claude-Web|Google-Extended|Applebot-Extended|meta-externalagent|Bytespider|CCBot|Diffbot|Omgilibot|ImagesiftBot|Amazonbot|AhrefsBot|SemrushBot|DataForSeoBot|MJ12bot|DotBot|BLEXBot|MathPicDatasetCrawler|Baiduspider|msh-pdfmin)" ggcms_refused_bot
+SetEnvIfNoCase User-Agent "(GPTBot|ClaudeBot|anthropic-ai|Claude-Web|Google-Extended|Applebot-Extended|meta-externalagent|Bytespider|CCBot|Diffbot|Omgilibot|ImagesiftBot|Amazonbot|AhrefsBot|SemrushBot|DataForSeoBot|MJ12bot|DotBot|BLEXBot|MathPicDatasetCrawler|Baiduspider|Sogou|msh-pdfmin)" ggcms_refused_bot
 
 <Directory /var/www/html>
 	<RequireAny>
