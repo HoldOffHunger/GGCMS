@@ -137,125 +137,16 @@
 			// Display Column #2 : User Management
 		
 		// -------------------------------------------------------------
-		
-				// Column #2, Users : List Args
-			
-			// -------------------------------------------------------------
 	
-	$user_hideable_args = [
-		'options'=>[
-			'domainobject'=>$this->domain_object,
-		],
-		'list'=>[
-			[
-				'text'=>'User Management',
-				'link'=>' ',
-				'mouseover'=>'User Management',
-				[
-					'text'=>'View All Users',
-					'link'=>'userstatus.php?action=ViewAllUsers',
-					'mouseover'=>'View All Users',
-				],
-			],
-			[
-				'text'=>'Comments',
-				'link'=>' ',
-				'mouseover'=>'Comment System',
-				[
-					'text'=>'Review Pending Comments',
-					'link'=>'userstatus.php?action=ReviewComments',
-					'mouseover'=>'Review Pending Comments',
-				],
-				[
-					'text'=>'Review Rejected Comments',
-					'link'=>'userstatus.php?action=ReviewRejectedComments',
-					'mouseover'=>'Review Rejected Comments',
-				],
-				[
-					'text'=>'Review Accepted Comments',
-					'link'=>'userstatus.php?action=ReviewAcceptedComments',
-					'mouseover'=>'Review Accepted Comments',
-				],
-			],
-			[
-				'text'=>'Suggestions',
-				'link'=>' ',
-				'mouseover'=>'Suggestion System',
-				[
-					'text'=>'Review Pending Suggestions',
-					'link'=>'userstatus.php?action=ReviewSuggestions',
-					'mouseover'=>'Review Pending Suggestions',
-				],
-				[
-					'text'=>'Review Rejected Suggestions',
-					'link'=>'userstatus.php?action=ReviewRejectedSuggestions',
-					'mouseover'=>'Review Rejected Suggestions',
-				],
-				[
-					'text'=>'Review Accepted Suggestions',
-					'link'=>'userstatus.php?action=ReviewAcceptedSuggestions',
-					'mouseover'=>'Review Accepted Suggestions',
-				],
-			],
-			[
-				'text'=>'Site Statistics',
-				'link'=>' ',
-				'mouseover'=>'Site Statistics',
-				[
-					'text'=>'Page Statistics',
-					'link'=>'userstatus.php?action=PageStatistics',
-					'mouseover'=>'Page Statistics',
-				],
-			],
-		],
-	];
-		
-				// Column #1, Tools : Secondary Header Args
-			
-			// -------------------------------------------------------------
-	
-	$header_secondary_panel01_args = [
+	$users_panel = new module_mastercpanel([
+		'that'=>$this,
+		'menu'=>'users',
 		'title'=>'Users',
 		'image'=>'master-c/users-icon.jpg',
 		'divmouseover'=>'Toolage',
 		'imagemouseover'=>'Toolage Imageryage!',
-		'level'=>2,
-		'divclass'=>'horizontal-center width-100percent border-bottom-1px background-color-gray13',
-		'textclass'=>'margin-0px padding-0px vertical-center padding-top-14px',
-		'imagedivclass'=>'background-color-gray10 margin-5px',
-		'imageclass'=>'border-1px width-50px',
-		'domainobject'=>$this->domain_object,
-		'leftimageenable'=>1,
-		'rightimageenable'=>1,
-	];
-		
-				// Column #1, Tools : Display
-			
-			// -------------------------------------------------------------
-	
-	$divider->displaystart($divider_one_third_start_args);
-	
-	$divider->displaystart($divider_padding_special_start_args);
-	
-	$divider->displaystart($divider_frame_start_args);
-	
-	$header->display($header_secondary_panel01_args);
-	
-	$divider->displaystart($divider_case_start_args);
-	
-	$divider->displaystart($divider_padding_start_args);
-	
-	$hideable->display($user_hideable_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
+	]);
+	$users_panel->Display();
 	
 			// Display Column #2 : 3rd Party Management
 		
