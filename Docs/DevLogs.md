@@ -31,10 +31,30 @@ live installation rather than estimated.
   It now carries the same four-hour `Cache-Control` as the other static files,
   so a change to the house ads can take up to four hours to reach a reader.
 
-- RevoltLib's DNS moved to Cloudflare. The eleven sites already there were
-  found to have no HTML cached at Cloudflare's edge (`cf-cache-status:
-  DYNAMIC`), because Cloudflare caches pages only under a Cache Rule. Until
-  one exists, Cloudflare takes connections and bots off the host, not renders.
+- All seventeen sites are now behind Cloudflare: RevoltLib, HoldOffHunger,
+  Masereel Group, Our Uprising, RevoltLink and RevoltSource joined the eleven
+  already there. Each new zone's edge certificate took a few minutes to issue
+  after the zone went active, and until it did, HTTPS through Cloudflare failed
+  its handshake.
+
+- The eleven older zones had been caching no HTML at the edge
+  (`cf-cache-status: DYNAMIC`), because Cloudflare caches a page only under a
+  Cache Rule. Every zone now has the same single rule: a `GET` or `HEAD` with
+  no `loggedin` or `AuthenticationToken` cookie is eligible, and the edge TTL
+  is "use Cache-Control if present, bypass if not". The origin already sends
+  `public` only on pages PageCache would store, so Cloudflare keeps exactly
+  those, for four hours. Checked through the edge: anonymous pages went MISS
+  then HIT on all seventeen; signed-in requests, query strings, 404s and
+  login.php all bypassed.
+
+- WordWeight's earlier rule was "respect origin", which caches a page with no
+  Cache-Control for Cloudflare's default two hours. Signed-in and query-string
+  pages send none, so they could be kept and shown to others, and its 404 with
+  a Location header was. The new rule replaces it.
+
+- Cloudflare does not see the origin's page-cache flush. An edit or a deploy
+  can take up to four hours to reach readers on the edge until something
+  purges the zone.
 
 ## 2026, November 3
 

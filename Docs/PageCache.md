@@ -205,6 +205,34 @@ twice. A miss takes seconds; a hit takes milliseconds.
 curl -s -o /dev/null -w '%{time_total}s\n' https://revoltlib.com/
 ```
 
+## Cloudflare's edge cache
+
+Since 4 November 2026 every site is behind Cloudflare, and each zone has one
+Cache Rule (phase `http_request_cache_settings`):
+
+```
+(http.request.method in {"GET" "HEAD"}
+  and not lower(http.cookie) contains "loggedin"
+  and not lower(http.cookie) contains "authenticationtoken")
+→ eligible for cache; edge TTL "use cache-control if present, bypass if not";
+  browser TTL respects origin
+```
+
+So the edge keeps exactly what the origin marks `Cache-Control: public` —
+`PageCache::BrowserCacheHeader` and nginx's `location /` blocks — and
+nothing else. **Never switch the edge TTL to "respect origin"** or to a fixed
+TTL: a response with no Cache-Control would then be cached for Cloudflare's
+default two hours, and signed-in, query-string and error pages send none.
+
+`cf-cache-status: HIT` means the request never reached the droplet. A
+domain flush here does **not** clear the edge; a changed page can be four
+hours old there until the zone is purged
+(`POST /zones/<id>/purge_cache {"purge_everything":true}`).
+
+To turn the edge cache off on a zone, set the rule's `enabled` to false, or
+PUT an empty rules list to
+`/zones/<id>/rulesets/phases/http_request_cache_settings/entrypoint`.
+
 ## Known gaps
 
 * **`RecordUserStatistics` never runs on a cache hit.** Traffic served from
