@@ -186,6 +186,10 @@
 				'sacred'=>[
 					'sacerd',
 				],
+				'sacredness'=>[
+					'sacrednes',
+					'sacrednesss',
+				],
 				'sacrifice'=>[
 					'sacrafice',
 				],
@@ -212,6 +216,10 @@
 				'sacrococcygeal'=>[
 					'sacrococygeal',
 				],
+				'sacrosanctness'=>[
+					'sacrosanctnes',
+					'sacrosanctnesss',
+				],
 				'saddened'=>[
 					'saddend',
 				],
@@ -220,6 +228,10 @@
 					'sadaly',
 					'sadlly',
 					'aadly',
+				],
+				'sadness'=>[
+					'sadnes',
+					'sadnesss',
 				],
 				'safe'=>[
 					'safe safe',
@@ -238,6 +250,10 @@
 					'safley',
 					'safly',
 					'sefely',
+				],
+				'safeness'=>[
+					'safenes',
+					'safenesss',
 				],
 				'safety'=>[
 					'saftey',
@@ -267,6 +283,9 @@
 				],
 				'sagely'=>[
 					'sagly',
+				],
+				'sageness'=>[
+					'sagenesss',
 				],
 				'saggar'=>[
 					'sagar',
@@ -362,6 +381,10 @@
 				'sainte-anne-de-la-pérade'=>[
 					'sainte-anne-de-la-perade',
 				],
+				'saintliness'=>[
+					'saintlines',
+					'saintlinesss',
+				],
 				'saintly'=>[
 					'saintally',
 					'saintaly',
@@ -380,6 +403,10 @@
 					'salaciousely',
 					'salaciouslly',
 					'salacously',
+				],
+				'salaciousness'=>[
+					'salaciousnes',
+					'salaciousnesss',
 				],
 				'salamander'=>[
 					'salmander',
@@ -460,6 +487,10 @@
 					'sallowely',
 					'sallowlly',
 				],
+				'sallowness'=>[
+					'sallownes',
+					'sallownesss',
+				],
 				'sally'=>[
 					'salally',
 					'salaly',
@@ -481,6 +512,11 @@
 				],
 				'salpiglossis'=>[
 					'salpiglosis',
+					'salpiglosssis',
+				],
+				'salpiglossises'=>[
+					'salpiglosises',
+					'salpiglosssises',
 				],
 				'salpingectomy'=>[
 					'salphingectomy',
@@ -501,11 +537,26 @@
 				'saltine'=>[
 					'saltini',
 				],
+				'saltiness'=>[
+					'saltinesss',
+				],
 				'salubrious'=>[
 					'salubrous',
 				],
 				'salubriously'=>[
 					'salubrously',
+				],
+				'salubriousness'=>[
+					'salubriousnes',
+					'salubriousnesss',
+				],
+				'salubriousnesses'=>[
+					'salubriousneses',
+					'salubriousnessses',
+				],
+				'salutariness'=>[
+					'salutarines',
+					'salutarinesss',
 				],
 				'salutary'=>[
 					'salutery',
@@ -538,6 +589,7 @@
 				],
 				'sameness'=>[
 					'samenes',
+					'samenesss',
 				],
 				'samoan-occupied'=>[
 					'samoan occupied',
@@ -562,6 +614,10 @@
 				],
 				'sanctimoniously'=>[
 					'sanctimonously',
+				],
+				'sanctimoniousness'=>[
+					'sanctimoniousnes',
+					'sanctimoniousnesss',
 				],
 				'sanctuaries'=>[
 					'sanctauries',
@@ -597,12 +653,28 @@
 					'sandfely',
 					'sandflly',
 				],
+				'sandglass'=>[
+					'sandglas',
+					'sandglasss',
+				],
+				'sandglasses'=>[
+					'sandglases',
+					'sandglassses',
+				],
+				'sandiness'=>[
+					'sandines',
+					'sandinesss',
+				],
 				'sandwich'=>[
 					'sandwhich',
 					'sanwhich',
 				],
 				'sanely'=>[
 					'sanly',
+				],
+				'saneness'=>[
+					'sanenes',
+					'sanenesss',
 				],
 				'sangar'=>[
 					'sanger',
@@ -628,6 +700,14 @@
 				],
 				'sanguinely'=>[
 					'sanguinly',
+				],
+				'sanguineness'=>[
+					'sanguinenes',
+					'sanguinenesss',
+				],
+				'sanguinenesses'=>[
+					'sanguineneses',
+					'sanguinenessses',
 				],
 				'sanguineous'=>[
 					'sanguinious',
@@ -734,6 +814,10 @@
 					'sapientely',
 					'sapientlly',
 				],
+				'sapless'=>[
+					'saples',
+					'saplesss',
+				],
 				'saponin'=>[
 					'sponin',
 				],
@@ -778,6 +862,8 @@
 				],
 				'sappiness'=>[
 					'sapiness',
+					'sappines',
+					'sappinesss',
 				],
 				'sapping'=>[
 					'saping',
@@ -832,6 +918,14 @@
 				'sardine'=>[
 					'sardini',
 				],
+				'sargassum'=>[
+					'sargasssum',
+					'sargasum',
+				],
+				'sargassums'=>[
+					'sargasssums',
+					'sargasums',
+				],
 				'sarkosyl'=>[
 					'sarcosol',
 				],
@@ -857,14 +951,64 @@
 				],
 				'sass'=>[
 					'sas',
+					'sasss',
+				],
+				'sassafras'=>[
+					'sasafras',
+					'sasssafras',
+				],
+				'sassafrases'=>[
+					'sasafrases',
+					'sasssafrases',
+				],
+				'sassed'=>[
+					'sased',
+					'sasssed',
+				],
+				'sassenach'=>[
+					'sasenach',
+					'sasssenach',
+				],
+				'sassenachs'=>[
+					'sasenachs',
+					'sasssenachs',
+				],
+				'sasses'=>[
+					'sassses',
+				],
+				'sassier'=>[
+					'sasier',
+					'sasssier',
+				],
+				'sassiest'=>[
+					'sasiest',
+					'sasssiest',
+				],
+				'sassily'=>[
+					'sasily',
+					'sasssily',
+				],
+				'sassiness'=>[
+					'sasiness',
+					'sassines',
+					'sassinesss',
+					'sasssiness',
+				],
+				'sassing'=>[
+					'sasssing',
 				],
 				'sassy'=>[
 					'sascy',
 					'sasy',
+					'sasssy',
 				],
 				'sat'=>[
 					'sat sat',
 					'sat sat sat',
+				],
+				'sateless'=>[
+					'sateles',
+					'satelesss',
 				],
 				'satellite'=>[
 					'satalite',
@@ -892,6 +1036,14 @@
 				],
 				'satirize'=>[
 					'satarize',
+				],
+				'satisfactoriness'=>[
+					'satisfactorines',
+					'satisfactorinesss',
+				],
+				'satisfactorinesses'=>[
+					'satisfactorineses',
+					'satisfactorinessses',
 				],
 				'satisfiable'=>[
 					'satisfiible',
@@ -924,6 +1076,10 @@
 				'sauce'=>[
 					'suace',
 				],
+				'sauciness'=>[
+					'saucines',
+					'saucinesss',
+				],
 				'saucy'=>[
 					'sausy',
 				],
@@ -941,6 +1097,10 @@
 				],
 				'savagely'=>[
 					'savagly',
+				],
+				'savageness'=>[
+					'savagenes',
+					'savagenesss',
 				],
 				'savanna'=>[
 					'savana',
@@ -966,6 +1126,14 @@
 				],
 				'saving'=>[
 					'saveing',
+				],
+				'savoriness'=>[
+					'savorines',
+					'savorinesss',
+				],
+				'savorless'=>[
+					'savorles',
+					'savorlesss',
 				],
 				'savvy'=>[
 					'savy',
@@ -1018,6 +1186,10 @@
 				'scabbarding'=>[
 					'scabarding',
 				],
+				'scabbiness'=>[
+					'scabbines',
+					'scabbinesss',
+				],
 				'scabble'=>[
 					'scable',
 				],
@@ -1045,6 +1217,10 @@
 					'cabrous',
 					'csabrous',
 					'sabrous',
+				],
+				'scabrousness'=>[
+					'scabrousnes',
+					'scabrousnesss',
 				],
 				'scabs'=>[
 					'cabs',
@@ -1105,6 +1281,10 @@
 					'scale scale',
 					'scale scale scale',
 				],
+				'scaleless'=>[
+					'scaleles',
+					'scalelesss',
+				],
 				'scalene'=>[
 					'calene',
 					'csalene',
@@ -1114,6 +1294,10 @@
 					'caler',
 					'csaler',
 					'saler',
+				],
+				'scaliness'=>[
+					'scalines',
+					'scalinesss',
 				],
 				'scall'=>[
 					'scalll',
@@ -1271,6 +1455,14 @@
 					'sant',
 					'sceant',
 				],
+				'scantiness'=>[
+					'scantines',
+					'scantinesss',
+				],
+				'scantness'=>[
+					'scantnes',
+					'scantnesss',
+				],
 				'scants'=>[
 					'scents',
 				],
@@ -1342,6 +1534,10 @@
 					'scarecly',
 					'scarely',
 				],
+				'scarceness'=>[
+					'scarcenes',
+					'scarcenesss',
+				],
 				'scarcity'=>[
 					'carcity',
 					'csarcity',
@@ -1371,6 +1567,9 @@
 					'carify',
 					'csarify',
 					'sarify',
+				],
+				'scariness'=>[
+					'scarinesss',
 				],
 				'scarious'=>[
 					'scarous',
@@ -1546,6 +1745,10 @@
 					'csent',
 					'sceeant',
 					'secnt',
+				],
+				'scentless'=>[
+					'scentles',
+					'scentlesss',
 				],
 				'scepter'=>[
 					'cepter',
@@ -1828,6 +2031,10 @@
 					'schollar',
 					'sholar',
 				],
+				'scholarliness'=>[
+					'scholarlines',
+					'scholarlinesss',
+				],
 				'scholarly'=>[
 					'cholarly',
 					'csholarly',
@@ -1939,6 +2146,11 @@
 					'cshoolmistress',
 					'schoolmistres',
 					'shoolmistress',
+					'schoolmistresss',
+				],
+				'schoolmistresses'=>[
+					'schoolmistreses',
+					'schoolmistressses',
 				],
 				'schoolroom'=>[
 					'choolroom',
@@ -1995,6 +2207,19 @@
 					'cshuss',
 					'schus',
 					'shuss',
+					'schusss',
+				],
+				'schussed'=>[
+					'schused',
+					'schusssed',
+				],
+				'schusses'=>[
+					'schuses',
+					'schussses',
+				],
+				'schussing'=>[
+					'schusing',
+					'schusssing',
 				],
 				'schwa'=>[
 					'chwa',
@@ -2128,21 +2353,46 @@
 					'cission',
 					'csission',
 					'sission',
+					'scision',
+					'scisssion',
+				],
+				'scissions'=>[
+					'scisions',
+					'scisssions',
 				],
 				'scissor'=>[
 					'cissor',
 					'csissor',
 					'scisor',
 					'sissor',
+					'scisssor',
+				],
+				'scissored'=>[
+					'scisored',
+					'scisssored',
+				],
+				'scissoring'=>[
+					'scisoring',
+					'scisssoring',
 				],
 				'scissors'=>[
 					'sissors',
+					'scisors',
+					'scisssors',
 				],
 				'scissortail'=>[
 					'cissortail',
 					'csissortail',
 					'scisortail',
 					'sissortail',
+				],
+				'scissure'=>[
+					'scisssure',
+					'scisure',
+				],
+				'scissures'=>[
+					'scisssures',
+					'scisures',
 				],
 				'sciurid'=>[
 					'scurid',
@@ -2338,6 +2588,7 @@
 					'csoreless',
 					'scoreles',
 					'soreless',
+					'scorelesss',
 				],
 				'scoria'=>[
 					'coria',
@@ -2351,6 +2602,10 @@
 					'sccorn',
 					'csorn',
 					'sorn',
+				],
+				'scornfulness'=>[
+					'scornfulnes',
+					'scornfulnesss',
 				],
 				'scorpion'=>[
 					'corpion',
@@ -2472,6 +2727,10 @@
 				'scraggiest'=>[
 					'scragiest',
 				],
+				'scragginess'=>[
+					'scraggines',
+					'scragginesss',
+				],
 				'scragglier'=>[
 					'scraglier',
 				],
@@ -2559,8 +2818,14 @@
 				'scrappiest'=>[
 					'scrapiest',
 				],
+				'scrappiness'=>[
+					'scrappines',
+					'scrappinesss',
+				],
 				'scrappinesses'=>[
 					'scrapinesses',
+					'scrappineses',
+					'scrappinessses',
 				],
 				'scrapple'=>[
 					'scraple',
@@ -2581,6 +2846,10 @@
 					'csratchboard',
 					'sratchboard',
 				],
+				'scratchiness'=>[
+					'scratchines',
+					'scratchinesss',
+				],
 				'scratchy'=>[
 					'cratchy',
 					'csratchy',
@@ -2590,6 +2859,10 @@
 					'crawl',
 					'csrawl',
 					'srawl',
+				],
+				'scrawniness'=>[
+					'scrawnines',
+					'scrawninesss',
 				],
 				'scrawny'=>[
 					'crawny',
@@ -2674,6 +2947,10 @@
 					'crewdriver',
 					'csrewdriver',
 					'srewdriver',
+				],
+				'screwiness'=>[
+					'screwines',
+					'screwinesss',
 				],
 				'screwup'=>[
 					'crewup',
@@ -2810,6 +3087,10 @@
 					'csrounge',
 					'srounge',
 				],
+				'scrounginess'=>[
+					'scroungines',
+					'scrounginesss',
+				],
 				'scrub'=>[
 					'crub',
 					'csrub',
@@ -2842,6 +3123,10 @@
 					'cruff',
 					'csruff',
 					'sruff',
+				],
+				'scruffiness'=>[
+					'scruffines',
+					'scruffinesss',
 				],
 				'scruffy'=>[
 					'cruffy',
@@ -2886,6 +3171,10 @@
 					'crupulous',
 					'csrupulous',
 					'srupulous',
+				],
+				'scrupulousness'=>[
+					'scrupulousnes',
+					'scrupulousnesss',
 				],
 				'scrutable'=>[
 					'scrutible',
@@ -2998,6 +3287,12 @@
 					'csulptress',
 					'culptress',
 					'sulptress',
+					'sculptres',
+					'sculptresss',
+				],
+				'sculptresses'=>[
+					'sculptreses',
+					'sculptressses',
 				],
 				'sculpture'=>[
 					'csulpture',
@@ -3083,6 +3378,10 @@
 					'curf',
 					'surf',
 				],
+				'scurfiness'=>[
+					'scurfines',
+					'scurfinesss',
+				],
 				'scurrile'=>[
 					'scurile',
 				],
@@ -3098,12 +3397,18 @@
 				],
 				'scurrilousness'=>[
 					'scurilousness',
+					'scurrilousnes',
+					'scurrilousnesss',
 				],
 				'scurry'=>[
 					'csurry',
 					'curry',
 					'scury',
 					'surry',
+				],
+				'scurviness'=>[
+					'scurvines',
+					'scurvinesss',
 				],
 				'scurvy'=>[
 					'csurvy',
@@ -3218,13 +3523,27 @@
 				'seamanship'=>[
 					'semanship',
 				],
+				'seaminess'=>[
+					'seaminesss',
+				],
 				'seamless'=>[
 					'seamles',
 					'seemless',
 					'semless',
+					'seamlesss',
+				],
+				'seamlessly'=>[
+					'seamlesly',
+					'seamlesssly',
 				],
 				'seamstress'=>[
 					'semstress',
+					'seamstres',
+					'seamstresss',
+				],
+				'seamstresses'=>[
+					'seamstreses',
+					'seamstressses',
 				],
 				'seamy'=>[
 					'semy',
@@ -3275,6 +3594,7 @@
 				'seasickness'=>[
 					'seasicknes',
 					'sesickness',
+					'seasicknesss',
 				],
 				'seaside'=>[
 					'seside',
@@ -3287,6 +3607,14 @@
 				],
 				'seasonable'=>[
 					'seasonible',
+				],
+				'seasonableness'=>[
+					'seasonablenes',
+					'seasonablenesss',
+				],
+				'seasonablenesses'=>[
+					'seasonableneses',
+					'seasonablenessses',
 				],
 				'seasonal'=>[
 					'sesonal',
@@ -3304,6 +3632,10 @@
 				],
 				'seating'=>[
 					'seting',
+				],
+				'seaworthiness'=>[
+					'seaworthines',
+					'seaworthinesss',
 				],
 				'seaworthinesses'=>[
 					'seworthinesses',
@@ -3329,9 +3661,31 @@
 				'secession'=>[
 					'seccesion',
 					'secesion',
+					'secesssion',
+				],
+				'secessional'=>[
+					'secesional',
+					'secesssional',
 				],
 				'secessionism'=>[
 					'secesionism',
+					'secesssionism',
+				],
+				'secessionisms'=>[
+					'secesionisms',
+					'secesssionisms',
+				],
+				'secessionist'=>[
+					'secesionist',
+					'secesssionist',
+				],
+				'secessionists'=>[
+					'secesionists',
+					'secesssionists',
+				],
+				'secessions'=>[
+					'secesions',
+					'secesssions',
 				],
 				'secludedly'=>[
 					'secludedally',
@@ -3354,6 +3708,8 @@
 				],
 				'seclusiveness'=>[
 					'secluisveness',
+					'seclusivenes',
+					'seclusivenesss',
 				],
 				'seclusivenesses'=>[
 					'secluisvenesses',
@@ -3368,6 +3724,10 @@
 					'second second',
 					'second second second',
 					'secound',
+				],
+				'secondariness'=>[
+					'secondarines',
+					'secondarinesss',
 				],
 				'secondary'=>[
 					'sccondary',
@@ -3408,6 +3768,10 @@
 				'secretionary'=>[
 					'secretionery',
 				],
+				'secretiveness'=>[
+					'secretivenes',
+					'secretivenesss',
+				],
 				'secretly'=>[
 					'secertly',
 					'secrectly',
@@ -3445,8 +3809,16 @@
 				'sedately'=>[
 					'sedatly',
 				],
+				'sedateness'=>[
+					'sedatenes',
+					'sedatenesss',
+				],
 				'sedative'=>[
 					'sedatative',
+				],
+				'sedentariness'=>[
+					'sedentarines',
+					'sedentarinesss',
 				],
 				'sedentary'=>[
 					'sedantary',
@@ -3481,8 +3853,32 @@
 				'seditiously'=>[
 					'seditously',
 				],
+				'seditiousness'=>[
+					'seditiousnes',
+					'seditiousnesss',
+				],
 				'seducible'=>[
 					'seducable',
+				],
+				'seductiveness'=>[
+					'seductivenes',
+					'seductivenesss',
+				],
+				'seductress'=>[
+					'seductres',
+					'seductresss',
+				],
+				'seductresses'=>[
+					'seductreses',
+					'seductressses',
+				],
+				'sedulousness'=>[
+					'sedulousnes',
+					'sedulousnesss',
+				],
+				'sedulousnesses'=>[
+					'sedulousneses',
+					'sedulousnessses',
 				],
 				'see'=>[
 					'see see',
@@ -3494,6 +3890,20 @@
 				'seed'=>[
 					'seed seed',
 					'seed seed seed',
+				],
+				'seediness'=>[
+					'seedines',
+					'seedinesss',
+				],
+				'seedless'=>[
+					'seedles',
+					'seedlesss',
+				],
+				'seedlessness'=>[
+					'seedlesness',
+					'seedlessnes',
+					'seedlessnesss',
+					'seedlesssness',
 				],
 				'seeing'=>[
 					'seeeing',
@@ -3520,6 +3930,10 @@
 				'seemingly'=>[
 					'seamingly',
 				],
+				'seemliness'=>[
+					'seemlines',
+					'seemlinesss',
+				],
 				'seemly'=>[
 					'seemally',
 					'seemaly',
@@ -3531,6 +3945,10 @@
 				],
 				'seems to involve'=>[
 					'seems to involved',
+				],
+				'seeress'=>[
+					'seeres',
+					'seeresss',
 				],
 				'seggar'=>[
 					'segar',
@@ -3749,6 +4167,10 @@
 				'seldom'=>[
 					'seldomly',
 				],
+				'seldomness'=>[
+					'seldomnes',
+					'seldomnesss',
+				],
 				'select'=>[
 					'select select',
 					'select select select',
@@ -3758,6 +4180,14 @@
 				],
 				'selection'=>[
 					'selction',
+				],
+				'selectiveness'=>[
+					'selectivenes',
+					'selectivenesss',
+				],
+				'selectness'=>[
+					'selectnes',
+					'selectnesss',
 				],
 				'selenious'=>[
 					'selenous',
@@ -3788,8 +4218,27 @@
 				'self-seeking'=>[
 					'selfseeking',
 				],
+				'selfishness'=>[
+					'selfishnes',
+					'selfishnesss',
+				],
 				'selfless'=>[
 					'selfles',
+					'selflesss',
+				],
+				'selflessly'=>[
+					'selflesly',
+					'selflesssly',
+				],
+				'selflessness'=>[
+					'selflesness',
+					'selflessnes',
+					'selflessnesss',
+					'selflesssness',
+				],
+				'selfness'=>[
+					'selfnes',
+					'selfnesss',
 				],
 				'sell'=>[
 					'sel',
@@ -3875,6 +4324,7 @@
 				],
 				'semiclassical'=>[
 					'semiclasical',
+					'semiclasssical',
 				],
 				'semicommercial'=>[
 					'semicomnercial',
@@ -3887,6 +4337,7 @@
 				],
 				'semidarkness'=>[
 					'semidarknes',
+					'semidarknesss',
 				],
 				'semideifying'=>[
 					'semidiefying',
@@ -3912,6 +4363,14 @@
 				],
 				'semiflexible'=>[
 					'semiflexable',
+				],
+				'semigloss'=>[
+					'semiglos',
+					'semiglosss',
+				],
+				'semiglosses'=>[
+					'semigloses',
+					'semiglossses',
 				],
 				'semilegendary'=>[
 					'semilegendery',
@@ -3984,6 +4443,14 @@
 				'semiprecious'=>[
 					'semiprecous',
 				],
+				'semiprofessional'=>[
+					'semiprofesional',
+					'semiprofesssional',
+				],
+				'semiprofessionals'=>[
+					'semiprofesionals',
+					'semiprofesssionals',
+				],
 				'semiquantitative'=>[
 					'semiquantative',
 					'semiquantitive',
@@ -4037,6 +4504,14 @@
 				],
 				'semolina'=>[
 					'semolini',
+				],
+				'sempstress'=>[
+					'sempstres',
+					'sempstresss',
+				],
+				'sempstresses'=>[
+					'sempstreses',
+					'sempstressses',
 				],
 				'senary'=>[
 					'senery',
@@ -4120,21 +4595,38 @@
 				],
 				'senseless'=>[
 					'senseles',
+					'senselesss',
 				],
 				'senselessly'=>[
 					'senselessally',
 					'senselessaly',
 					'senselessely',
 					'senselesslly',
+					'senselesly',
+					'senselesssly',
+				],
+				'senselessness'=>[
+					'senselesness',
+					'senselessnes',
+					'senselessnesss',
+					'senselesssness',
 				],
 				'sensible'=>[
 					'sensable',
+				],
+				'sensibleness'=>[
+					'sensiblenes',
+					'sensiblenesss',
 				],
 				'sensibly'=>[
 					'sensably',
 				],
 				'sensitively'=>[
 					'sensitivly',
+				],
+				'sensitiveness'=>[
+					'sensitivenes',
+					'sensitivenesss',
 				],
 				'sensitivity'=>[
 					'sensitivty',
@@ -4176,6 +4668,14 @@
 				'sensualizes'=>[
 					'sensaulizes',
 				],
+				'sensualness'=>[
+					'sensualnes',
+					'sensualnesss',
+				],
+				'sensualnesses'=>[
+					'sensualneses',
+					'sensualnessses',
+				],
 				'sensuosities'=>[
 					'sensosities',
 				],
@@ -4190,6 +4690,8 @@
 				],
 				'sensuousness'=>[
 					'sensousness',
+					'sensuousnes',
+					'sensuousnesss',
 				],
 				'sensuousnesses'=>[
 					'sensousnesses',
@@ -4221,6 +4723,10 @@
 					'sententiousely',
 					'sententiouslly',
 					'sententously',
+				],
+				'sententiousness'=>[
+					'sententiousnes',
+					'sententiousnesss',
 				],
 				'senti'=>[
 					'santi',
@@ -4295,6 +4801,8 @@
 				],
 				'separateness'=>[
 					'seperateness',
+					'separatenes',
+					'separatenesss',
 				],
 				'separatenesses'=>[
 					'seperatenesses',
@@ -4434,6 +4942,10 @@
 				'serenely'=>[
 					'serenly',
 				],
+				'sereneness'=>[
+					'serenenes',
+					'serenenesss',
+				],
 				'sergeancy'=>[
 					'sergeansy',
 				],
@@ -4462,6 +4974,10 @@
 				'seriously'=>[
 					'serously',
 					'seriousley',
+				],
+				'seriousness'=>[
+					'seriousnes',
+					'seriousnesss',
 				],
 				'serjeant'=>[
 					'serjeent',
@@ -4526,6 +5042,12 @@
 				],
 				'serviceableness'=>[
 					'servicebleness',
+					'serviceablenes',
+					'serviceablenesss',
+				],
+				'serviceablenesses'=>[
+					'serviceableneses',
+					'serviceablenessses',
 				],
 				'serviceberries'=>[
 					'serviceberies',
@@ -4544,6 +5066,10 @@
 				'servilely'=>[
 					'servilly',
 				],
+				'servileness'=>[
+					'servilenes',
+					'servilenesss',
+				],
 				'serving'=>[
 					'surving',
 				],
@@ -4554,8 +5080,17 @@
 				'sesquipedalian'=>[
 					'sesquipedalan',
 				],
+				'sessile'=>[
+					'sesile',
+					'sesssile',
+				],
 				'session'=>[
 					'sesion',
+					'sesssion',
+				],
+				'sessions'=>[
+					'sesions',
+					'sesssions',
 				],
 				'sestina'=>[
 					'sestini',
@@ -4636,6 +5171,10 @@
 					'severley',
 					'severly',
 				],
+				'severeness'=>[
+					'severenes',
+					'severenesss',
+				],
 				'sevoflurane'=>[
 					'servoflurane',
 					'sevofluorane',
@@ -4666,6 +5205,28 @@
 				],
 				'sexiness'=>[
 					'sexyness',
+					'sexines',
+					'sexinesss',
+				],
+				'sexless'=>[
+					'sexles',
+					'sexlesss',
+				],
+				'sexlessly'=>[
+					'sexlesly',
+					'sexlesssly',
+				],
+				'sexlessness'=>[
+					'sexlesness',
+					'sexlessnes',
+					'sexlessnesss',
+					'sexlesssness',
+				],
+				'sexlessnesses'=>[
+					'sexlesnesses',
+					'sexlessneses',
+					'sexlessnessses',
+					'sexlesssnesses',
 				],
 				'sextant'=>[
 					'sextent',
@@ -4693,6 +5254,8 @@
 				],
 				'shabbiness'=>[
 					'shabiness',
+					'shabbines',
+					'shabbinesss',
 				],
 				'shabbinesses'=>[
 					'shabinesses',
@@ -4700,14 +5263,34 @@
 				'shabby'=>[
 					'shaby',
 				],
+				'shadeless'=>[
+					'shadeles',
+					'shadelesss',
+				],
 				'shadfly'=>[
 					'shadfally',
 					'shadfaly',
 					'shadfely',
 					'shadflly',
 				],
+				'shadiness'=>[
+					'shadines',
+					'shadinesss',
+				],
 				'shadow'=>[
 					'shaddow',
+				],
+				'shadowiness'=>[
+					'shadowines',
+					'shadowinesss',
+				],
+				'shadowinesses'=>[
+					'shadowineses',
+					'shadowinessses',
+				],
+				'shadowless'=>[
+					'shadowles',
+					'shadowlesss',
 				],
 				'shaggier'=>[
 					'shagier',
@@ -4717,6 +5300,8 @@
 				],
 				'shagginess'=>[
 					'shaginess',
+					'shaggines',
+					'shagginesss',
 				],
 				'shagginesses'=>[
 					'shaginesses',
@@ -4745,6 +5330,10 @@
 				'shahs'=>[
 					'shas',
 				],
+				'shakiness'=>[
+					'shakines',
+					'shakinesss',
+				],
 				'shall'=>[
 					'shal',
 					'shall shall',
@@ -4765,6 +5354,10 @@
 					'shallowely',
 					'shallowlly',
 				],
+				'shallowness'=>[
+					'shallownes',
+					'shallownesss',
+				],
 				'shaly'=>[
 					'shaally',
 					'shaaly',
@@ -4779,14 +5372,35 @@
 					'shamefacedely',
 					'shamefacedlly',
 				],
+				'shamefacedness'=>[
+					'shamefacednes',
+					'shamefacednesss',
+				],
+				'shamefacednesses'=>[
+					'shamefacedneses',
+					'shamefacednessses',
+				],
+				'shamefulness'=>[
+					'shamefulnes',
+					'shamefulnesss',
+				],
 				'shameless'=>[
 					'shameles',
+					'shamelesss',
 				],
 				'shamelessly'=>[
 					'shamelessally',
 					'shamelessaly',
 					'shamelessely',
 					'shamelesslly',
+					'shamelesly',
+					'shamelesssly',
+				],
+				'shamelessness'=>[
+					'shamelesness',
+					'shamelessnes',
+					'shamelessnesss',
+					'shamelesssness',
 				],
 				'shammas'=>[
 					'shamnas',
@@ -4852,11 +5466,27 @@
 					'shape shape',
 					'shape shape shape',
 				],
+				'shapeless'=>[
+					'shapeles',
+					'shapelesss',
+				],
 				'shapelessly'=>[
 					'shapelessally',
 					'shapelessaly',
 					'shapelessely',
 					'shapelesslly',
+					'shapelesly',
+					'shapelesssly',
+				],
+				'shapelessness'=>[
+					'shapelesness',
+					'shapelessnes',
+					'shapelessnesss',
+					'shapelesssness',
+				],
+				'shapeliness'=>[
+					'shapelines',
+					'shapelinesss',
 				],
 				'shapely'=>[
 					'shapeally',
@@ -4910,6 +5540,10 @@
 					'sharpei',
 					'sharpi',
 				],
+				'sharpness'=>[
+					'sharpnes',
+					'sharpnesss',
+				],
 				'shave'=>[
 					'shawe',
 				],
@@ -4948,8 +5582,16 @@
 				'sheepberry'=>[
 					'sheepbery',
 				],
+				'sheepishness'=>[
+					'sheepishnes',
+					'sheepishnesss',
+				],
 				'sheepshearing'=>[
 					'sheepshering',
+				],
+				'sheerness'=>[
+					'sheernes',
+					'sheernesss',
 				],
 				'sheet'=>[
 					'sheet sheet',
@@ -4983,6 +5625,11 @@
 				],
 				'shepherdess'=>[
 					'shepherdes',
+					'shepherdesss',
+				],
+				'shepherdesses'=>[
+					'shepherdeses',
+					'shepherdessses',
 				],
 				'sheriff'=>[
 					'sherif',
@@ -5021,12 +5668,26 @@
 				],
 				'shiftiness'=>[
 					'shiftyness',
+					'shiftines',
+					'shiftinesss',
+				],
+				'shiftless'=>[
+					'shiftles',
+					'shiftlesss',
 				],
 				'shiftlessly'=>[
 					'shiftlessally',
 					'shiftlessaly',
 					'shiftlessely',
 					'shiftlesslly',
+					'shiftlesly',
+					'shiftlesssly',
+				],
+				'shiftlessness'=>[
+					'shiftlesness',
+					'shiftlessnes',
+					'shiftlessnesss',
+					'shiftlesssness',
 				],
 				'shigella'=>[
 					'shigela',
@@ -5092,6 +5753,10 @@
 				'shinily'=>[
 					'shinaly',
 				],
+				'shininess'=>[
+					'shinines',
+					'shininesss',
+				],
 				'shining'=>[
 					'shinang',
 					'shineing',
@@ -5147,6 +5812,10 @@
 				'shirr'=>[
 					'shir',
 				],
+				'shirtless'=>[
+					'shirtles',
+					'shirtlesss',
+				],
 				'shittah'=>[
 					'shitta',
 				],
@@ -5180,9 +5849,17 @@
 				'shnorrers'=>[
 					'shnourrers',
 				],
+				'shoddiness'=>[
+					'shoddines',
+					'shoddinesss',
+				],
 				'shoe'=>[
 					'shoe shoe',
 					'shoe shoe shoe',
+				],
+				'shoeless'=>[
+					'shoeles',
+					'shoelesss',
 				],
 				'shoeshine'=>[
 					'shoeshini',
@@ -5232,6 +5909,10 @@
 					'shore shore',
 					'shore shore shore',
 				],
+				'shoreless'=>[
+					'shoreles',
+					'shorelesss',
+				],
 				'shoreline'=>[
 					'shorelini',
 				],
@@ -5262,6 +5943,14 @@
 					'shortaly',
 					'shortely',
 					'shortlly',
+				],
+				'shortness'=>[
+					'shortnes',
+					'shortnesss',
+				],
+				'shortsightedness'=>[
+					'shortsightednes',
+					'shortsightednesss',
 				],
 				'shot'=>[
 					'shooted',
@@ -5314,6 +6003,8 @@
 				],
 				'showiness'=>[
 					'showyness',
+					'showines',
+					'showinesss',
 				],
 				'showing'=>[
 					'showng',
@@ -5334,6 +6025,18 @@
 				'shrewd'=>[
 					'shrewed',
 				],
+				'shrewdness'=>[
+					'shrewdnes',
+					'shrewdnesss',
+				],
+				'shrewishness'=>[
+					'shrewishnes',
+					'shrewishnesss',
+				],
+				'shrewishnesses'=>[
+					'shrewishneses',
+					'shrewishnessses',
+				],
 				'shriek'=>[
 					'shreak',
 					'shreik',
@@ -5341,6 +6044,10 @@
 				],
 				'shrill'=>[
 					'shril',
+				],
+				'shrillness'=>[
+					'shrillnes',
+					'shrillnesss',
 				],
 				'shrine'=>[
 					'shrini',
@@ -5353,6 +6060,10 @@
 				],
 				'shrubbiest'=>[
 					'shrubiest',
+				],
+				'shrubbiness'=>[
+					'shrubbines',
+					'shrubbinesss',
 				],
 				'shrubby'=>[
 					'shruby',
@@ -5376,6 +6087,10 @@
 					'shyally',
 					'shyaly',
 					'shylly',
+				],
+				'shyness'=>[
+					'shynes',
+					'shynesss',
 				],
 				'sialoglycoprotein'=>[
 					'siloglycoprotein',
@@ -5425,6 +6140,9 @@
 				'sickened'=>[
 					'sickend',
 				],
+				'sickliness'=>[
+					'sicklinesss',
+				],
 				'sickly'=>[
 					'sickally',
 					'sickaly',
@@ -5433,6 +6151,11 @@
 				],
 				'sickness'=>[
 					'sicknes',
+					'sicknesss',
+				],
+				'sicknesses'=>[
+					'sickneses',
+					'sicknessses',
 				],
 				'side'=>[
 					'side side',
@@ -5514,14 +6237,39 @@
 					'sight sight',
 					'sight sight sight',
 				],
+				'sightedness'=>[
+					'sightednes',
+					'sightednesss',
+				],
+				'sightless'=>[
+					'sightles',
+					'sightlesss',
+				],
 				'sightlessly'=>[
 					'sightlessally',
 					'sightlessaly',
 					'sightlessely',
 					'sightlesslly',
+					'sightlesly',
+					'sightlesssly',
+				],
+				'sightlessness'=>[
+					'sightlesness',
+					'sightlessnes',
+					'sightlessnesss',
+					'sightlesssness',
+				],
+				'sightlessnesses'=>[
+					'sightlesnesses',
+					'sightlessneses',
+					'sightlessnessses',
+					'sightlesssnesses',
 				],
 				'sightline'=>[
 					'sightlini',
+				],
+				'sightliness'=>[
+					'sightlinesss',
 				],
 				'sightly'=>[
 					'sightally',
@@ -5659,11 +6407,19 @@
 				'siliquous'=>[
 					'siliqous',
 				],
+				'silkiness'=>[
+					'silkines',
+					'silkinesss',
+				],
 				'sill'=>[
 					'sil',
 				],
 				'sillimanite'=>[
 					'silimanite',
+				],
+				'silliness'=>[
+					'sillines',
+					'sillinesss',
 				],
 				'silly'=>[
 					'silally',
@@ -5680,6 +6436,10 @@
 				],
 				'silverberry'=>[
 					'silverbery',
+				],
+				'silveriness'=>[
+					'silverines',
+					'silverinesss',
 				],
 				'silvopasture'=>[
 					'sylvopasture',
@@ -5734,6 +6494,10 @@
 					'simple simple',
 					'simple simple simple',
 				],
+				'simpleness'=>[
+					'simplenes',
+					'simplenesss',
+				],
 				'simpler'=>[
 					'simplier',
 				],
@@ -5778,6 +6542,14 @@
 					'simultaneouslly',
 					'simultanously',
 				],
+				'simultaneousness'=>[
+					'simultaneousnes',
+					'simultaneousnesss',
+				],
+				'simultaneousnesses'=>[
+					'simultaneousneses',
+					'simultaneousnessses',
+				],
 				'simvastatin'=>[
 					'simavastatin',
 				],
@@ -5797,6 +6569,10 @@
 					'sincerley',
 					'sincerly',
 				],
+				'sincereness'=>[
+					'sincerenes',
+					'sincerenesss',
+				],
 				'sinecure'=>[
 					'sinicure',
 				],
@@ -5813,6 +6589,10 @@
 					'sinfoneitta',
 					'sinfonitta',
 				],
+				'sinfulness'=>[
+					'sinfulnes',
+					'sinfulnesss',
+				],
 				'sing'=>[
 					'sing sing',
 					'sing sing sing',
@@ -5826,6 +6606,10 @@
 				],
 				'single-handedly'=>[
 					'single-handily',
+				],
+				'singleness'=>[
+					'singlenes',
+					'singlenesss',
 				],
 				'singly'=>[
 					'singally',
@@ -5843,8 +6627,16 @@
 				'singular'=>[
 					'singuler',
 				],
+				'singularness'=>[
+					'singularnes',
+					'singularnesss',
+				],
 				'sinister'=>[
 					'sinaster',
+				],
+				'sinisterness'=>[
+					'sinisternes',
+					'sinisternesss',
 				],
 				'sinisternesses'=>[
 					'sinasternesses',
@@ -5854,6 +6646,10 @@
 				],
 				'sinistrous'=>[
 					'sinastrous',
+				],
+				'sinless'=>[
+					'sinles',
+					'sinlesss',
 				],
 				'sinned'=>[
 					'sined',
@@ -5881,9 +6677,13 @@
 				],
 				'sinuousness'=>[
 					'sinousness',
+					'sinuousnes',
+					'sinuousnesss',
 				],
 				'sinuousnesses'=>[
 					'sinousnesses',
+					'sinuousneses',
+					'sinuousnessses',
 				],
 				'sinusitis'=>[
 					'sinuistis',
@@ -5924,14 +6724,39 @@
 			#	'sirree'=>[
 			#		'siree',
 			#	],
+				'sissier'=>[
+					'sisier',
+					'sisssier',
+				],
+				'sissies'=>[
+					'sisies',
+					'sisssies',
+				],
+				'sissiest'=>[
+					'sisiest',
+					'sisssiest',
+				],
+				'sissified'=>[
+					'sisified',
+					'sisssified',
+				],
 				'sissy'=>[
 					'siscy',
 					'sisy',
+					'sisssy',
+				],
+				'sissyish'=>[
+					'sisssyish',
+					'sisyish',
 				],
 				'sister'=>[
 					'sister sister',
 					'sister sister sister',
 					'sistor',
+				],
+				'sisterliness'=>[
+					'sisterlines',
+					'sisterlinesss',
 				],
 				'sisterly'=>[
 					'sisterally',
@@ -6005,6 +6830,10 @@
 				'sizable'=>[
 					'sizible',
 				],
+				'sizableness'=>[
+					'sizablenes',
+					'sizablenesss',
+				],
 				'sizar'=>[
 					'sizer',
 				],
@@ -6015,6 +6844,10 @@
 				'sizeable'=>[
 					'sizeble',
 					'sizeible',
+				],
+				'sizeableness'=>[
+					'sizeablenes',
+					'sizeablenesss',
 				],
 				'siúler'=>[
 					'siuler',
@@ -6037,11 +6870,23 @@
 				'skerry'=>[
 					'skery',
 				],
+				'sketchiness'=>[
+					'sketchines',
+					'sketchinesss',
+				],
 				'skeuomorphic'=>[
 					'skeumorphic',
 				],
 				'skeuomorphism'=>[
 					'skeumorphism',
+				],
+				'skewness'=>[
+					'skewnes',
+					'skewnesss',
+				],
+				'skewnesses'=>[
+					'skewneses',
+					'skewnessses',
 				],
 				'skiable'=>[
 					'skiible',
@@ -6094,6 +6939,10 @@
 			#	'skillfully'=>[
 			#		'skilfully',
 			#	],
+				'skillfulness'=>[
+					'skillfulnes',
+					'skillfulnesss',
+				],
 				'skimmed'=>[
 					'skimned',
 				],
@@ -6103,9 +6952,17 @@
 				'skimmings'=>[
 					'skimnings',
 				],
+				'skimpiness'=>[
+					'skimpines',
+					'skimpinesss',
+				],
 				'skin'=>[
 					'skin skin',
 					'skin skin skin',
+				],
+				'skinless'=>[
+					'skinles',
+					'skinlesss',
 				],
 				'skinned'=>[
 					'skined',
@@ -6121,6 +6978,8 @@
 				],
 				'skinniness'=>[
 					'skininess',
+					'skinnines',
+					'skinninesss',
 				],
 				'skinninesses'=>[
 					'skininesses',
@@ -6151,6 +7010,10 @@
 				],
 				'skittish'=>[
 					'skiddish',
+				],
+				'skittishness'=>[
+					'skittishnes',
+					'skittishnesss',
 				],
 				'skiwear'=>[
 					'skiweer',
@@ -6203,6 +7066,10 @@
 				'slackened'=>[
 					'slackend',
 				],
+				'slackness'=>[
+					'slacknes',
+					'slacknesss',
+				],
 				'slaggier'=>[
 					'slagier',
 				],
@@ -6221,6 +7088,14 @@
 				'slammings'=>[
 					'slamnings',
 				],
+				'slanginess'=>[
+					'slangines',
+					'slanginesss',
+				],
+				'slanginesses'=>[
+					'slangineses',
+					'slanginessses',
+				],
 				'slanguage'=>[
 					'slangauge',
 				],
@@ -6235,6 +7110,14 @@
 				],
 				'slaphappy'=>[
 					'slaphapy',
+				],
+				'slatternliness'=>[
+					'slatternlines',
+					'slatternlinesss',
+				],
+				'slatternlinesses'=>[
+					'slatternlineses',
+					'slatternlinessses',
 				],
 				'slatternly'=>[
 					'slatternally',
@@ -6258,8 +7141,16 @@
 				'slave-owners'=>[
 					'slaveowners',
 				],
+				'slavishness'=>[
+					'slavishnes',
+					'slavishnesss',
+				],
 				'slavocracy'=>[
 					'slavocrasy',
+				],
+				'sleaziness'=>[
+					'sleazines',
+					'sleazinesss',
 				],
 				'sleazy'=>[
 					'slezy',
@@ -6292,18 +7183,35 @@
 				'sleekened'=>[
 					'sleekend',
 				],
+				'sleekness'=>[
+					'sleeknes',
+					'sleeknesss',
+				],
 				'sleep'=>[
 					'sleep sleep',
 					'sleep sleep sleep',
 				],
+				'sleepiness'=>[
+					'sleepines',
+					'sleepinesss',
+				],
 				'sleepless'=>[
 					'sleeples',
+					'sleeplesss',
 				],
 				'sleeplessly'=>[
 					'sleeplessally',
 					'sleeplessaly',
 					'sleeplessely',
 					'sleeplesslly',
+					'sleeplesly',
+					'sleeplesssly',
+				],
+				'sleeplessness'=>[
+					'sleeplesness',
+					'sleeplessnes',
+					'sleeplessnesss',
+					'sleeplesssness',
 				],
 				'sleepwear'=>[
 					'sleepweer',
@@ -6311,6 +7219,10 @@
 				],
 				'sleeve'=>[
 					'sleave',
+				],
+				'sleeveless'=>[
+					'sleeveles',
+					'sleevelesss',
 				],
 				'sleigh'=>[
 					'sliegh',
@@ -6321,8 +7233,16 @@
 				'sleight of hand'=>[
 					'slight of hand',
 				],
+				'slenderness'=>[
+					'slendernes',
+					'slendernesss',
+				],
 				'slickened'=>[
 					'slickend',
+				],
+				'slickness'=>[
+					'slicknes',
+					'slicknesss',
 				],
 				'slid'=>[
 					'slided',
@@ -6341,10 +7261,18 @@
 					'slightlly',
 					'slightley',
 				],
+				'slightness'=>[
+					'slightnes',
+					'slightnesss',
+				],
 				'slily'=>[
 					'slially',
 					'slialy',
 					'slilly',
+				],
+				'sliminess'=>[
+					'slimines',
+					'sliminesss',
 				],
 				'slimmed'=>[
 					'slimned',
@@ -6352,11 +7280,19 @@
 				'slimmer'=>[
 					'slimner',
 				],
+				'slimness'=>[
+					'slimnes',
+					'slimnesss',
+				],
 				'slimpsy'=>[
 					'slimpcy',
 				],
 				'slimsy'=>[
 					'slimcy',
+				],
+				'slinkiness'=>[
+					'slinkines',
+					'slinkinesss',
 				],
 				'slip'=>[
 					'slip slip',
@@ -6376,6 +7312,10 @@
 				],
 				'slipper'=>[
 					'sliper',
+				],
+				'slipperiness'=>[
+					'slipperines',
+					'slipperinesss',
 				],
 				'slipperinesses'=>[
 					'sliperinesses',
@@ -6408,11 +7348,23 @@
 				'slogging'=>[
 					'sloging',
 				],
+				'sloppiness'=>[
+					'sloppines',
+					'sloppinesss',
+				],
 				'slopping'=>[
 					'sloping',
 				],
 				'sloppy'=>[
 					'slopy',
+				],
+				'slothfulness'=>[
+					'slothfulnes',
+					'slothfulnesss',
+				],
+				'slovenliness'=>[
+					'slovenlines',
+					'slovenlinesss',
 				],
 				'slovenly'=>[
 					'slovenally',
@@ -6424,11 +7376,19 @@
 					'slow slow',
 					'slow slow slow',
 				],
+				'slowness'=>[
+					'slownes',
+					'slownesss',
+				],
 				'slubbering'=>[
 					'slubering',
 				],
 				'sluggard'=>[
 					'slugard',
+				],
+				'sluggardliness'=>[
+					'sluggardlines',
+					'sluggardlinesss',
 				],
 				'sluggardly'=>[
 					'slugardly',
@@ -6456,6 +7416,8 @@
 				],
 				'sluggishness'=>[
 					'slugishness',
+					'sluggishnes',
+					'sluggishnesss',
 				],
 				'sluggishnesses'=>[
 					'slugishnesses',
@@ -6478,10 +7440,18 @@
 				'slurry'=>[
 					'slury',
 				],
+				'slushiness'=>[
+					'slushines',
+					'slushinesss',
+				],
 				'slyly'=>[
 					'slyally',
 					'slyaly',
 					'slylly',
+				],
+				'slyness'=>[
+					'slynes',
+					'slynesss',
 				],
 				'small'=>[
 					'smal',
@@ -6503,11 +7473,27 @@
 				'smallmouth'=>[
 					'smalmouth',
 				],
+				'smallness'=>[
+					'smallnes',
+					'smallnesss',
+				],
 				'smallpox'=>[
 					'smalpox',
 				],
+				'smarminess'=>[
+					'smarmines',
+					'smarminesss',
+				],
+				'smarminesses'=>[
+					'smarmineses',
+					'smarminessses',
+				],
 				'smartened'=>[
 					'smartend',
+				],
+				'smartness'=>[
+					'smartnes',
+					'smartnesss',
 				],
 				'smear'=>[
 					'smeer',
@@ -6520,6 +7506,10 @@
 					'smel',
 					'smell smell',
 					'smell smell smell',
+				],
+				'smelliness'=>[
+					'smellines',
+					'smellinesss',
 				],
 				'smelly'=>[
 					'smelally',
@@ -6549,6 +7539,11 @@
 				],
 				'smokeless'=>[
 					'smokeles',
+					'smokelesss',
+				],
+				'smokiness'=>[
+					'smokines',
+					'smokinesss',
 				],
 				'smongst'=>[
 					'amoungst',
@@ -6562,6 +7557,10 @@
 				'smoothie'=>[
 					'smoothei',
 					'smoothi',
+				],
+				'smoothness'=>[
+					'smoothnes',
+					'smoothnesss',
 				],
 				'smooths'=>[
 					'smoothes',
@@ -6590,6 +7589,14 @@
 				'smuggling'=>[
 					'smuggiling',
 				],
+				'smugness'=>[
+					'smugnes',
+					'smugnesss',
+				],
+				'smuttiness'=>[
+					'smuttines',
+					'smuttinesss',
+				],
 				'snaggier'=>[
 					'snagier',
 				],
@@ -6611,8 +7618,16 @@
 				'snapper'=>[
 					'snaper',
 				],
+				'snappiness'=>[
+					'snappines',
+					'snappinesss',
+				],
 				'snappish'=>[
 					'snapish',
+				],
+				'snappishness'=>[
+					'snappishnes',
+					'snappishnesss',
 				],
 				'snappishnesses'=>[
 					'snapishnesses',
@@ -6620,11 +7635,19 @@
 				'snappy'=>[
 					'snapy',
 				],
+				'snazziness'=>[
+					'snazzines',
+					'snazzinesss',
+				],
 				'sneak'=>[
 					'snek',
 				],
 				'sneaked'=>[
 					'snuck',
+				],
+				'sneakiness'=>[
+					'sneakines',
+					'sneakinesss',
 				],
 				'sneaking'=>[
 					'sneking',
@@ -6640,6 +7663,10 @@
 				],
 				'snidely'=>[
 					'snidly',
+				],
+				'snideness'=>[
+					'snidenes',
+					'snidenesss',
 				],
 				'snigger'=>[
 					'sniger',
@@ -6677,6 +7704,10 @@
 				'snippety'=>[
 					'snipety',
 				],
+				'snippiness'=>[
+					'snippines',
+					'snippinesss',
+				],
 				'snippy'=>[
 					'snipy',
 				],
@@ -6694,6 +7725,8 @@
 				],
 				'snobbishness'=>[
 					'snobishness',
+					'snobbishnes',
+					'snobbishnesss',
 				],
 				'snobbishnesses'=>[
 					'snobishnesses',
@@ -6706,6 +7739,14 @@
 				],
 				'snollygoster'=>[
 					'snolygoster',
+				],
+				'snoopiness'=>[
+					'snoopines',
+					'snoopinesss',
+				],
+				'snootiness'=>[
+					'snootines',
+					'snootinesss',
 				],
 				'snorers'=>[
 					'snourers',
@@ -6744,6 +7785,10 @@
 				'snorting'=>[
 					'snourting',
 				],
+				'snottiness'=>[
+					'snottines',
+					'snottinesss',
+				],
 				'snow'=>[
 					'snow snow',
 					'snow snow snow',
@@ -6760,6 +7805,10 @@
 				'snowfield'=>[
 					'snowfeild',
 					'snowfild',
+				],
+				'snowiness'=>[
+					'snowines',
+					'snowinesss',
 				],
 				'snubbiness'=>[
 					'snubiness',
@@ -6791,6 +7840,10 @@
 				'snuggles'=>[
 					'snugles',
 				],
+				'snugness'=>[
+					'snugnes',
+					'snugnesss',
+				],
 				'so'=>[
 					'so so',
 					'so so so',
@@ -6798,11 +7851,19 @@
 				'soapberry'=>[
 					'soapbery',
 				],
+				'soapiness'=>[
+					'soapines',
+					'soapinesss',
+				],
 				'soapsudsy'=>[
 					'soapsudcy',
 				],
 				'soar'=>[
 					'soer',
+				],
+				'soberness'=>[
+					'sobernes',
+					'sobernesss',
 				],
 				'sobriety'=>[
 					'sobreity',
@@ -6819,6 +7880,14 @@
 				],
 				'sociable'=>[
 					'sociible',
+				],
+				'sociableness'=>[
+					'sociablenes',
+					'sociablenesss',
+				],
+				'sociablenesses'=>[
+					'sociableneses',
+					'sociablenessses',
 				],
 				'social'=>[
 					'socail',
@@ -6860,6 +7929,8 @@
 				],
 				'soddenness'=>[
 					'soddeness',
+					'soddennes',
+					'soddennesss',
 				],
 				'soddennesses'=>[
 					'soddenesses',
@@ -6892,10 +7963,20 @@
 				],
 				'softheartedness'=>[
 					'softhertedness',
+					'softheartednes',
+					'softheartednesss',
+				],
+				'softheartednesses'=>[
+					'softheartedneses',
+					'softheartednessses',
 				],
 				'softie'=>[
 					'softei',
 					'softi',
+				],
+				'softness'=>[
+					'softnes',
+					'softnesss',
 				],
 				'software'=>[
 					'softwares',
@@ -6906,6 +7987,10 @@
 				],
 				'soggiest'=>[
 					'sogiest',
+				],
+				'sogginess'=>[
+					'soggines',
+					'sogginesss',
 				],
 				'sogginesses'=>[
 					'soginesses',
@@ -6973,6 +8058,8 @@
 				],
 				'solemnness'=>[
 					'solemness',
+					'solemnnes',
+					'solemnnesss',
 				],
 				'solemnnesses'=>[
 					'solemnesses',
@@ -6986,6 +8073,10 @@
 				'solfeggios'=>[
 					'solfegios',
 				],
+				'solicitousness'=>[
+					'solicitousnes',
+					'solicitousnesss',
+				],
 				'solid'=>[
 					'sollid',
 				],
@@ -6998,8 +8089,16 @@
 					'solidely',
 					'solidlly',
 				],
+				'solidness'=>[
+					'solidnes',
+					'solidnesss',
+				],
 				'soliloquy'=>[
 					'soliliquy',
+				],
+				'solitariness'=>[
+					'solitarines',
+					'solitarinesss',
 				],
 				'solitary'=>[
 					'solatary',
@@ -7064,8 +8163,16 @@
 				'somatotype'=>[
 					'stomatotype',
 				],
+				'somberness'=>[
+					'sombernes',
+					'sombernesss',
+				],
 				'sombrely'=>[
 					'sombrly',
+				],
+				'sombreness'=>[
+					'sombrenes',
+					'sombrenesss',
 				],
 				'some'=>[
 					'smoe',
@@ -7129,6 +8236,11 @@
 				],
 				'songstress'=>[
 					'songstres',
+					'songstresss',
+				],
+				'songstresses'=>[
+					'songstreses',
+					'songstressses',
 				],
 				'songwriter'=>[
 					'song writer',
@@ -7202,6 +8314,8 @@
 				],
 				'sonorousness'=>[
 					'sonourousness',
+					'sonorousnes',
+					'sonorousnesss',
 				],
 				'sonorousnesses'=>[
 					'sonourousnesses',
@@ -7222,6 +8336,14 @@
 				],
 				'soon after'=>[
 					'soonafter',
+				],
+				'sootiness'=>[
+					'sootines',
+					'sootinesss',
+				],
+				'sootinesses'=>[
+					'sootineses',
+					'sootinessses',
 				],
 				'sopaipilla'=>[
 					'sopapilla',
@@ -7246,6 +8368,10 @@
 				'sophomoric'=>[
 					'sophomouric',
 				],
+				'soppiness'=>[
+					'soppines',
+					'soppinesss',
+				],
 				'sopping'=>[
 					'soping',
 				],
@@ -7258,6 +8384,17 @@
 				'sorcerer'=>[
 					'sorceror',
 				],
+				'sorceress'=>[
+					'sorceresss',
+				],
+				'sorceresses'=>[
+					'sorcereses',
+					'sorceressses',
+				],
+				'sordidness'=>[
+					'sordidnes',
+					'sordidnesss',
+				],
 				'sordini'=>[
 					'sordina',
 				],
@@ -7268,17 +8405,29 @@
 					'sorelly',
 					'sorly',
 				],
+				'soreness'=>[
+					'sorenes',
+					'sorenesss',
+				],
 				'sorghum'=>[
 					'sorgham',
 				],
 				'sorrel'=>[
 					'sorrrel',
 				],
+				'sorriness'=>[
+					'sorrines',
+					'sorrinesss',
+				],
 				'sorrow'=>[
 					'sorow',
 				],
 				'sorrowful'=>[
 					'sorowful',
+				],
+				'sorrowfulness'=>[
+					'sorrowfulnes',
+					'sorrowfulnesss',
 				],
 				'sorrowfulnesses'=>[
 					'sorowfulnesses',
@@ -7305,8 +8454,24 @@
 					'seeked',
 					'sollght',
 				],
+				'soulfulness'=>[
+					'soulfulnes',
+					'soulfulnesss',
+				],
 				'soulless'=>[
 					'souless',
+					'soulles',
+					'soullesss',
+				],
+				'soullessly'=>[
+					'soullesly',
+					'soullesssly',
+				],
+				'soullessness'=>[
+					'soullesness',
+					'soullessnes',
+					'soullessnesss',
+					'soullesssness',
 				],
 				'sound'=>[
 					'soudn',
@@ -7319,11 +8484,20 @@
 				'soundbite'=>[
 					'soundbyte',
 				],
+				'soundless'=>[
+					'soundles',
+					'soundlesss',
+				],
 				'soundlessly'=>[
 					'soundlessally',
 					'soundlessaly',
 					'soundlessely',
 					'soundlesslly',
+					'soundlesly',
+					'soundlesssly',
+				],
+				'soundness'=>[
+					'soundnesss',
 				],
 				'sounds'=>[
 					'soudns',
@@ -7335,6 +8509,22 @@
 				],
 				'soup'=>[
 					'suop',
+				],
+				'sourceless'=>[
+					'sourceles',
+					'sourcelesss',
+				],
+				'sourness'=>[
+					'sournes',
+					'sournesss',
+				],
+				'sourpuss'=>[
+					'sourpus',
+					'sourpusss',
+				],
+				'sourpusses'=>[
+					'sourpuses',
+					'sourpussses',
 				],
 				'soursop'=>[
 					'soursap',
@@ -7447,11 +8637,23 @@
 					'space space',
 					'space space space',
 				],
+				'spaceless'=>[
+					'spaceles',
+					'spacelesss',
+				],
+				'spaciness'=>[
+					'spacines',
+					'spacinesss',
+				],
 				'spacious'=>[
 					'spacous',
 				],
 				'spaciously'=>[
 					'spacously',
+				],
+				'spaciousness'=>[
+					'spaciousnes',
+					'spaciousnesss',
 				],
 				'spacy'=>[
 					'spasy',
@@ -7522,6 +8724,10 @@
 					'sparly',
 					'sperely',
 				],
+				'spareness'=>[
+					'sparenes',
+					'sparenesss',
+				],
 				'spareribs'=>[
 					'spereribs',
 				],
@@ -7539,6 +8745,10 @@
 				],
 				'sparing'=>[
 					'spering',
+				],
+				'sparingness'=>[
+					'sparingnes',
+					'sparingnesss',
 				],
 				'sparkle'=>[
 					'sperkle',
@@ -7574,6 +8784,10 @@
 					'sparcely',
 					'sparsley',
 					'sparsly',
+				],
+				'sparseness'=>[
+					'sparsenes',
+					'sparsenesss',
 				],
 				'spartans'=>[
 					'spartons',
@@ -7661,6 +8875,10 @@
 				'specialized'=>[
 					'speciallized',
 				],
+				'specialness'=>[
+					'specialnes',
+					'specialnesss',
+				],
 				'specialties'=>[
 					'specialtes',
 				],
@@ -7706,6 +8924,10 @@
 				],
 				'speciously'=>[
 					'specously',
+				],
+				'speciousness'=>[
+					'speciousnes',
+					'speciousnesss',
 				],
 				'spectacular'=>[
 					'spectaculer',
@@ -7769,10 +8991,25 @@
 				'speechless'=>[
 					'speachless',
 					'speechles',
+					'speechlesss',
+				],
+				'speechlessly'=>[
+					'speechlesly',
+					'speechlesssly',
+				],
+				'speechlessness'=>[
+					'speechlesness',
+					'speechlessnes',
+					'speechlessnesss',
+					'speechlesssness',
 				],
 				'speed'=>[
 					'speed speed',
 					'speed speed speed',
+				],
+				'speediness'=>[
+					'speedines',
+					'speedinesss',
 				],
 				'speil'=>[
 					'spiel',
@@ -7783,6 +9020,7 @@
 				'speiss'=>[
 					'speis',
 					'spiess',
+					'speisss',
 				],
 				'spell'=>[
 					'spel',
@@ -7833,6 +9071,10 @@
 				'sperrylite'=>[
 					'sperylite',
 				],
+				'spessartite'=>[
+					'spesartite',
+					'spesssartite',
+				],
 				'sphenisciform'=>[
 					'spheniciform',
 				],
@@ -7864,6 +9106,10 @@
 				'spiccatos'=>[
 					'spicatos',
 				],
+				'spiciness'=>[
+					'spicines',
+					'spicinesss',
+				],
 				'spicular'=>[
 					'spiculer',
 				],
@@ -7890,6 +9136,10 @@
 				'spies'=>[
 					'speis',
 					'spis',
+				],
+				'spikiness'=>[
+					'spikines',
+					'spikinesss',
 				],
 				'spill'=>[
 					'spil',
@@ -7938,12 +9188,22 @@
 				],
 				'spineless'=>[
 					'spiniless',
+					'spineles',
+					'spinelesss',
 				],
 				'spinelessly'=>[
 					'spinelessally',
 					'spinelessaly',
 					'spinelessely',
 					'spinelesslly',
+					'spinelesly',
+					'spinelesssly',
+				],
+				'spinelessness'=>[
+					'spinelesness',
+					'spinelessnes',
+					'spinelessnesss',
+					'spinelesssness',
 				],
 				'spinet'=>[
 					'spinit',
@@ -8037,6 +9297,10 @@
 					'spiritedely',
 					'spiritedlly',
 				],
+				'spiritless'=>[
+					'spiritles',
+					'spiritlesss',
+				],
 				'spiritual'=>[
 					'spiritaul',
 					'spirtual',
@@ -8078,9 +9342,17 @@
 				'spirulina'=>[
 					'spirulini',
 				],
+				'spitefulness'=>[
+					'spitefulnes',
+					'spitefulnesss',
+				],
 				'splanchnocranium'=>[
 					'splachnocranium',
 					'splancnocranium',
+				],
+				'splashiness'=>[
+					'splashines',
+					'splashinesss',
 				],
 				'splendent'=>[
 					'splendant',
@@ -8163,6 +9435,10 @@
 				'spongeous'=>[
 					'sponteous',
 				],
+				'sponginess'=>[
+					'spongines',
+					'sponginesss',
+				],
 				'spongocoel'=>[
 					'spongeocoel',
 				],
@@ -8194,6 +9470,10 @@
 					'spontaneousely',
 					'spontaneouslly',
 				],
+				'spookiness'=>[
+					'spookines',
+					'spookinesss',
+				],
 				'sporadic'=>[
 					'sporadical',
 					'sporatic',
@@ -8204,8 +9484,20 @@
 				'sporran'=>[
 					'sporan',
 				],
+				'sportiness'=>[
+					'sportines',
+					'sportinesss',
+				],
 				'sportively'=>[
 					'sportivly',
+				],
+				'sportiveness'=>[
+					'sportivenes',
+					'sportivenesss',
+				],
+				'sportivenesses'=>[
+					'sportiveneses',
+					'sportivenessses',
 				],
 				'sports car'=>[
 					'sportscar',
@@ -8231,9 +9523,24 @@
 				],
 				'spotless'=>[
 					'spotles',
+					'spotlesss',
+				],
+				'spotlessly'=>[
+					'spotlesly',
+					'spotlesssly',
+				],
+				'spotlessness'=>[
+					'spotlesness',
+					'spotlessnes',
+					'spotlessnesss',
+					'spotlesssness',
 				],
 				'spotted'=>[
 					'spoted',
+				],
+				'spottiness'=>[
+					'spottines',
+					'spottinesss',
 				],
 				'spouse'=>[
 					'spouce',
@@ -8266,6 +9573,10 @@
 				'spriggiest'=>[
 					'sprigiest',
 				],
+				'sprightliness'=>[
+					'sprightlines',
+					'sprightlinesss',
+				],
 				'sprightlinesses'=>[
 					'sprightlinisses',
 				],
@@ -8285,11 +9596,23 @@
 				'springfield'=>[
 					'spingfield',
 				],
+				'springiness'=>[
+					'springines',
+					'springinesss',
+				],
 				'sprucely'=>[
 					'sprucly',
 				],
+				'spruceness'=>[
+					'sprucenes',
+					'sprucenesss',
+				],
 				'sprucy'=>[
 					'sprusy',
+				],
+				'spryness'=>[
+					'sprynes',
+					'sprynesss',
 				],
 				'spun'=>[
 					'spinned',
@@ -8305,6 +9628,10 @@
 				],
 				'spuriously'=>[
 					'spurously',
+				],
+				'spuriousness'=>[
+					'spuriousnes',
+					'spuriousnesss',
 				],
 				'spurned'=>[
 					'spured',
@@ -8322,6 +9649,14 @@
 				],
 				'sputtery'=>[
 					'sputtary',
+				],
+				'spyglass'=>[
+					'spyglas',
+					'spyglasss',
+				],
+				'spyglasses'=>[
+					'spyglases',
+					'spyglassses',
 				],
 				'squab'=>[
 					'sqaub',
@@ -8365,6 +9700,8 @@
 				],
 				'squalidness'=>[
 					'sqaulidness',
+					'squalidnes',
+					'squalidnesss',
 				],
 				'squall'=>[
 					'sqaull',
@@ -8429,6 +9766,10 @@
 					'squarelly',
 					'squarly',
 				],
+				'squareness'=>[
+					'squarenes',
+					'squarenesss',
+				],
 				'squarer'=>[
 					'sqaurer',
 				],
@@ -8455,12 +9796,18 @@
 				],
 				'squashiness'=>[
 					'sqaushiness',
+					'squashines',
+					'squashinesss',
 				],
 				'squashy'=>[
 					'sqaushy',
 				],
 				'squat'=>[
 					'sqaut',
+				],
+				'squatness'=>[
+					'squatnes',
+					'squatnesss',
 				],
 				'squatnesses'=>[
 					'sqautnesses',
@@ -8510,11 +9857,19 @@
 				'squeak'=>[
 					'squek',
 				],
+				'squeakiness'=>[
+					'squeakines',
+					'squeakinesss',
+				],
 				'squealing'=>[
 					'squealling',
 				],
 				'squeamish'=>[
 					'squemish',
+				],
+				'squeamishness'=>[
+					'squeamishnes',
+					'squeamishnesss',
 				],
 				'squegged'=>[
 					'squeged',
@@ -8666,6 +10021,14 @@
 			#	'staggy'=>[
 			#		'stagy',
 			#	],
+				'staginess'=>[
+					'stagines',
+					'staginesss',
+				],
+				'staginesses'=>[
+					'stagineses',
+					'staginessses',
+				],
 				'stagnancy'=>[
 					'stagnansy',
 				],
@@ -8679,6 +10042,10 @@
 					'staidely',
 					'staidlly',
 				],
+				'staidness'=>[
+					'staidnes',
+					'staidnesss',
+				],
 				'stainabilities'=>[
 					'stainibilities',
 				],
@@ -8687,6 +10054,7 @@
 				],
 				'stainless'=>[
 					'stainles',
+					'stainlesss',
 				],
 				'stainlessly'=>[
 					'stainlessally',
@@ -8706,6 +10074,10 @@
 				'stalely'=>[
 					'stally',
 				],
+				'staleness'=>[
+					'stalenes',
+					'stalenesss',
+				],
 				'stall'=>[
 					'stal',
 				],
@@ -8714,6 +10086,14 @@
 				],
 				'stalwart'=>[
 					'stallwart',
+				],
+				'stalwartness'=>[
+					'stalwartnes',
+					'stalwartnesss',
+				],
+				'stalwartnesses'=>[
+					'stalwartneses',
+					'stalwartnessses',
 				],
 				'stamened'=>[
 					'stamend',
@@ -8758,6 +10138,14 @@
 				],
 				'standing'=>[
 					'standlng',
+				],
+				'standoffishness'=>[
+					'standoffishnes',
+					'standoffishnesss',
+				],
+				'standoffishnesses'=>[
+					'standoffishneses',
+					'standoffishnessses',
 				],
 				'stands'=>[
 					'stansd',
@@ -8810,6 +10198,18 @@
 					'star star star',
 					'ster',
 				],
+				'starchiness'=>[
+					'starchines',
+					'starchinesss',
+				],
+				'starkness'=>[
+					'starknes',
+					'starknesss',
+				],
+				'starless'=>[
+					'starles',
+					'starlesss',
+				],
 				'starry'=>[
 					'stary',
 				],
@@ -8829,6 +10229,20 @@
 					'state state',
 					'state state state',
 					'stste',
+				],
+				'stateless'=>[
+					'stateles',
+					'statelesss',
+				],
+				'statelessness'=>[
+					'statelesness',
+					'statelessnes',
+					'statelessnesss',
+					'statelesssness',
+				],
+				'stateliness'=>[
+					'statelines',
+					'statelinesss',
 				],
 				'stately'=>[
 					'stateally',
@@ -8894,6 +10308,10 @@
 				'statutory'=>[
 					'statuatory',
 				],
+				'staunchness'=>[
+					'staunchnes',
+					'staunchnesss',
+				],
 				'staurosporine'=>[
 					'starosporine',
 					'staruosporine',
@@ -8919,12 +10337,19 @@
 				'steadfast'=>[
 					'stedfast',
 				],
+				'steadfastness'=>[
+					'steadfastnesss',
+				],
 				'steadfastnesses'=>[
 					'stedfastnesses',
 				],
 				'steadily'=>[
 					'steadly',
 					'stedily',
+				],
+				'steadiness'=>[
+					'steadines',
+					'steadinesss',
 				],
 				'steady'=>[
 					'stedy',
@@ -8938,6 +10363,10 @@
 				'stealth'=>[
 					'stelth',
 				],
+				'stealthiness'=>[
+					'stealthines',
+					'stealthinesss',
+				],
 				'steam'=>[
 					'steam steam',
 					'steam steam steam',
@@ -8945,6 +10374,10 @@
 				],
 				'steamboat'=>[
 					'stemboat',
+				],
+				'steaminess'=>[
+					'steamines',
+					'steaminesss',
 				],
 				'steamroller'=>[
 					'steamroler',
@@ -8969,6 +10402,10 @@
 				'steelhead'=>[
 					'steelhed',
 				],
+				'steeliness'=>[
+					'steelines',
+					'steelinesss',
+				],
 				'steely'=>[
 					'steeally',
 					'steealy',
@@ -8978,6 +10415,10 @@
 				],
 				'steepened'=>[
 					'steepend',
+				],
+				'steepness'=>[
+					'steepnes',
+					'steepnesss',
 				],
 				'stein'=>[
 					'stien',
@@ -8994,6 +10435,10 @@
 				],
 				'stellular'=>[
 					'stelluler',
+				],
+				'stemless'=>[
+					'stemles',
+					'stemlesss',
 				],
 				'stemma'=>[
 					'stemna',
@@ -9120,6 +10565,10 @@
 					'stermost',
 					'sternost',
 				],
+				'sternness'=>[
+					'sternnes',
+					'sternnesss',
+				],
 				'sternocostal'=>[
 					'stenocostal',
 				],
@@ -9140,12 +10589,24 @@
 					'stethocsope',
 					'stethosope',
 				],
+				'stewardess'=>[
+					'stewardes',
+					'stewardesss',
+				],
+				'stewardesses'=>[
+					'stewardeses',
+					'stewardessses',
+				],
 				'stibogluconate'=>[
 					'stibugluconate',
 				],
 				'stick'=>[
 					'stick stick',
 					'stick stick stick',
+				],
+				'stickiness'=>[
+					'stickines',
+					'stickinesss',
 				],
 				'stied'=>[
 					'steid',
@@ -9157,6 +10618,10 @@
 				],
 				'stiffened'=>[
 					'stiffend',
+				],
+				'stiffness'=>[
+					'stiffnes',
+					'stiffnesss',
 				],
 				'stifle'=>[
 					'stiffle',
@@ -9180,6 +10645,7 @@
 				'stillness'=>[
 					'stillnes',
 					'stilness',
+					'stillnesss',
 				],
 				'stilly'=>[
 					'stilally',
@@ -9187,8 +10653,16 @@
 					'stilely',
 					'stillly',
 				],
+				'stiltedness'=>[
+					'stiltednes',
+					'stiltednesss',
+				],
 				'stimulant'=>[
 					'stimulent',
+				],
+				'stinginess'=>[
+					'stingines',
+					'stinginesss',
 				],
 				'stipendiary'=>[
 					'stipendiery',
@@ -9211,6 +10685,10 @@
 					'stochasticalely',
 					'stochasticallly',
 				],
+				'stockiness'=>[
+					'stockines',
+					'stockinesss',
+				],
 				'stockinette'=>[
 					'stockinitte',
 				],
@@ -9225,6 +10703,10 @@
 				],
 				'stockjobbings'=>[
 					'stockjobings',
+				],
+				'stodginess'=>[
+					'stodgines',
+					'stodginesss',
 				],
 				'stoical'=>[
 					'soical',
@@ -9247,6 +10729,10 @@
 				'stolen'=>[
 					'stoln',
 				],
+				'stolidness'=>[
+					'stolidnes',
+					'stolidnesss',
+				],
 				'stomach'=>[
 					'stomache',
 				],
@@ -9266,8 +10752,16 @@
 					'stonefely',
 					'stoneflly',
 				],
+				'stoneless'=>[
+					'stoneles',
+					'stonelesss',
+				],
 				'stonewall'=>[
 					'stonewal',
+				],
+				'stoniness'=>[
+					'stonines',
+					'stoninesss',
 				],
 				'stonyhearted'=>[
 					'stonyherted',
@@ -9316,6 +10810,10 @@
 					'storise',
 					'storys',
 				],
+				'storminess'=>[
+					'stormines',
+					'storminesss',
+				],
 				'story'=>[
 					'sotry',
 					'stopry',
@@ -9331,12 +10829,25 @@
 				],
 				'stoss'=>[
 					'stos',
+					'stosss',
 				],
 				'stoutened'=>[
 					'stoutend',
 				],
 				'stouthearted'=>[
 					'stoutherted',
+				],
+				'stoutheartedness'=>[
+					'stoutheartednes',
+					'stoutheartednesss',
+				],
+				'stoutheartednesses'=>[
+					'stoutheartedneses',
+					'stoutheartednessses',
+				],
+				'stoutness'=>[
+					'stoutnes',
+					'stoutnesss',
 				],
 				'straggle'=>[
 					'stragle',
@@ -9373,6 +10884,14 @@
 				'straightened'=>[
 					'straightend',
 				],
+				'straightforwardness'=>[
+					'straightforwardnes',
+					'straightforwardnesss',
+				],
+				'straightness'=>[
+					'straightnes',
+					'straightnesss',
+				],
 				'strained'=>[
 					'strainid',
 				],
@@ -9387,6 +10906,10 @@
 				#	'straightjacket',
 					'straight-jacket',
 				],
+				'straitness'=>[
+					'straitnes',
+					'straitnesss',
+				],
 				'strand'=>[
 					'strnad',
 				],
@@ -9400,6 +10923,15 @@
 				],
 				'strangeness'=>[
 					'strangenes',
+					'strangenesss',
+				],
+				'strapless'=>[
+					'straples',
+					'straplesss',
+				],
+				'straplesses'=>[
+					'strapleses',
+					'straplessses',
 				],
 				'strappado'=>[
 					'strapado',
@@ -9522,6 +11054,8 @@
 				],
 				'strenuousness'=>[
 					'strenousness',
+					'strenuousnes',
+					'strenuousnesss',
 				],
 				'strenuousnesses'=>[
 					'strenousnesses',
@@ -9556,14 +11090,42 @@
 				],
 				'stress'=>[
 					'stres',
+					'stresss',
+				],
+				'stressed'=>[
+					'stresed',
+					'stresssed',
+				],
+				'stresses'=>[
+					'streses',
+					'stressses',
 				],
 				'stressful'=>[
 					'stresful',
+					'stresssful',
+				],
+				'stressfulness'=>[
+					'stresfulness',
+					'stressfulnes',
+					'stressfulnesss',
+					'stresssfulness',
+				],
+				'stressing'=>[
+					'stresing',
+					'stresssing',
+				],
+				'stressor'=>[
+					'stresor',
+					'stresssor',
 				],
 				'stretch'=>[
 					'strech',
 					'stretch stretch',
 					'stretch stretch stretch',
+				],
+				'stretchiness'=>[
+					'stretchines',
+					'stretchinesss',
 				],
 				'striatal'=>[
 					'striatial',
@@ -9577,6 +11139,10 @@
 				'strictly'=>[
 					'strickly',
 					'stricly',
+				],
+				'strictness'=>[
+					'strictnes',
+					'strictnesss',
 				],
 				'strictosidine'=>[
 					'stictosidine',
@@ -9617,6 +11183,10 @@
 				'stringent'=>[
 					'stingent',
 					'stringant',
+				],
+				'stringiness'=>[
+					'stringines',
+					'stringinesss',
 				],
 				'stringpiece'=>[
 					'stringpeice',
@@ -9665,6 +11235,10 @@
 				'strophanthin'=>[
 					'strophenthin',
 				],
+				'stroppiness'=>[
+					'stroppines',
+					'stroppinesss',
+				],
 				'stroppy'=>[
 					'stropy',
 				],
@@ -9699,6 +11273,10 @@
 				'structured'=>[
 					'stuctured',
 				],
+				'structureless'=>[
+					'structureles',
+					'structurelesss',
+				],
 				'struggle'=>[
 					'slruggle',
 					'strugle',
@@ -9718,6 +11296,14 @@
 				],
 				'strychnine'=>[
 					'strychnini',
+				],
+				'stubbiness'=>[
+					'stubbines',
+					'stubbinesss',
+				],
+				'stubbinesses'=>[
+					'stubbineses',
+					'stubbinessses',
 				],
 				'stubble'=>[
 					'stuble',
@@ -9741,6 +11327,8 @@
 				'stubbornness'=>[
 					'stubborness',
 					'stubornness',
+					'stubbornnes',
+					'stubbornnesss',
 				],
 				'stubbornnesses'=>[
 					'stubbornesses',
@@ -9800,6 +11388,10 @@
 				'studiously'=>[
 					'studously',
 				],
+				'studiousness'=>[
+					'studiousnes',
+					'studiousnesss',
+				],
 				'studly'=>[
 					'studally',
 					'studaly',
@@ -9819,6 +11411,10 @@
 				'stuff'=>[
 					'stuf',
 				],
+				'stuffiness'=>[
+					'stuffines',
+					'stuffinesss',
+				],
 				'stull'=>[
 					'stul',
 				],
@@ -9837,6 +11433,14 @@
 				'stunningly'=>[
 					'stuningly',
 				],
+				'stupidness'=>[
+					'stupidnes',
+					'stupidnesss',
+				],
+				'sturdiness'=>[
+					'sturdines',
+					'sturdinesss',
+				],
 				'stutter'=>[
 					'studder',
 				],
@@ -9854,6 +11458,10 @@
 				],
 				'style'=>[
 					'sytle',
+				],
+				'stylishness'=>[
+					'stylishnes',
+					'stylishnesss',
 				],
 				'stylopod'=>[
 					'styplopod',
@@ -9896,6 +11504,10 @@
 				'suavely'=>[
 					'suavly',
 				],
+				'suaveness'=>[
+					'suavenes',
+					'suavenesss',
+				],
 				'suavenesses'=>[
 					'sauvenesses',
 				],
@@ -9935,6 +11547,7 @@
 					'subassembaly',
 					'subassembely',
 					'subassemblly',
+					'subasssembly',
 				],
 				'subaudible'=>[
 					'subaudable',
@@ -9994,6 +11607,22 @@
 				'subchronic'=>[
 					'subchromic',
 				],
+				'subclass'=>[
+					'subclas',
+					'subclasss',
+				],
+				'subclasses'=>[
+					'subclases',
+					'subclassses',
+				],
+				'subclassification'=>[
+					'subclasification',
+					'subclasssification',
+				],
+				'subclassify'=>[
+					'subclasify',
+					'subclasssify',
+				],
 				'subclavian'=>[
 					'subclavan',
 				],
@@ -10002,6 +11631,10 @@
 				],
 				'subclinically'=>[
 					'subclinacally',
+				],
+				'subcommission'=>[
+					'subcommision',
+					'subcommisssion',
 				],
 				'subcommissioned'=>[
 					'subcomnissioned',
@@ -10024,6 +11657,10 @@
 					'subconsciousely',
 					'subconsciouslly',
 					'subconscously',
+				],
+				'subconsciousness'=>[
+					'subconsciousnes',
+					'subconsciousnesss',
 				],
 				'subcontinent'=>[
 					'subcontinant',
@@ -10111,6 +11748,18 @@
 				'subjectively'=>[
 					'subjectivly',
 				],
+				'subjectiveness'=>[
+					'subjectivenes',
+					'subjectivenesss',
+				],
+				'subjectivenesses'=>[
+					'subjectiveneses',
+					'subjectivenessses',
+				],
+				'subjectless'=>[
+					'subjectles',
+					'subjectlesss',
+				],
 				'subjects'=>[
 					'subcjects',
 				],
@@ -10131,6 +11780,10 @@
 				],
 				'sublimely'=>[
 					'sublimly',
+				],
+				'sublimeness'=>[
+					'sublimenes',
+					'sublimenesss',
 				],
 				'subliminal'=>[
 					'subliminil',
@@ -10194,12 +11847,26 @@
 				],
 				'submission'=>[
 					'submision',
+					'submisssion',
+				],
+				'submissions'=>[
+					'submisions',
+					'submisssions',
 				],
 				'submissive'=>[
 					'submisive',
+					'submisssive',
 				],
 				'submissively'=>[
 					'submissivly',
+					'submisively',
+					'submisssively',
+				],
+				'submissiveness'=>[
+					'submisiveness',
+					'submissivenes',
+					'submissivenesss',
+					'submisssiveness',
 				],
 				'submit'=>[
 					'submitt',
@@ -10312,6 +11979,11 @@
 				],
 				'subprofessional'=>[
 					'subprofesional',
+					'subprofesssional',
+				],
+				'subprofessionals'=>[
+					'subprofesionals',
+					'subprofesssionals',
 				],
 				'subreptitious'=>[
 					'subreptitous',
@@ -10485,6 +12157,10 @@
 					'subtilly',
 					'subtily',
 				],
+				'subtleness'=>[
+					'subtlenes',
+					'subtlenesss',
+				],
 				'subtly'=>[
 					'subtlely',
 					'subtley',
@@ -10535,6 +12211,10 @@
 				],
 				'subversively'=>[
 					'subversivly',
+				],
+				'subversiveness'=>[
+					'subversivenes',
+					'subversivenesss',
 				],
 				'subvisible'=>[
 					'subvisable',
@@ -10593,9 +12273,12 @@
 					'success success',
 					'success success success',
 					'sucess',
+					'successs',
 				],
 				'successes'=>[
 					'sucesses',
+					'succeses',
+					'successses',
 				],
 				'successful'=>[
 					'spelling: sucessful',
@@ -10605,6 +12288,7 @@
 					'sucesful',
 					'sucessful',
 					'sucessfull',
+					'successsful',
 				],
 				'successfully'=>[
 					'succesfully',
@@ -10613,6 +12297,7 @@
 					'sucesfuly',
 					'sucessfully',
 					'sucessfuly',
+					'successsfully',
 				],
 				'successfulness'=>[
 					'sucessfulness',
@@ -10621,6 +12306,11 @@
 					'succesion',
 					'sucesion',
 					'sucession',
+					'successsion',
+				],
+				'successional'=>[
+					'succesional',
+					'successsional',
 				],
 				'successionally'=>[
 					'successionalally',
@@ -10628,16 +12318,23 @@
 					'successionalely',
 					'successionallly',
 					'sucessionally',
+					'succesionally',
+					'successsionally',
 				],
 				'successions'=>[
 					'sucessions',
+					'succesions',
+					'successsions',
 				],
 				'successive'=>[
 					'succesive',
 					'sucessive',
+					'successsive',
 				],
 				'successively'=>[
 					'successivly',
+					'succesively',
+					'successsively',
 				],
 				'successiveness'=>[
 					'sucessiveness',
@@ -10647,6 +12344,11 @@
 					'successer',
 					'sucessor',
 					'sucsessor',
+					'successsor',
+				],
+				'successors'=>[
+					'succesors',
+					'successsors',
 				],
 				'succinate'=>[
 					'succinite',
@@ -10659,6 +12361,10 @@
 				'succinctest'=>[
 					'sucinctest',
 				],
+				'succinctness'=>[
+					'succinctnes',
+					'succinctnesss',
+				],
 				'succinctnesses'=>[
 					'sucinctnesses',
 				],
@@ -10668,6 +12374,10 @@
 				],
 				'succor'=>[
 					'sucor',
+				],
+				'succorless'=>[
+					'succorles',
+					'succorlesss',
 				],
 				'succors'=>[
 					'sucors',
@@ -10715,6 +12425,14 @@
 				'succuss'=>[
 					'sucuss',
 				],
+				'succussion'=>[
+					'succusion',
+					'succusssion',
+				],
+				'succussions'=>[
+					'succusions',
+					'succusssions',
+				],
 				'such'=>[
 					'such such',
 					'such such such',
@@ -10741,6 +12459,8 @@
 				],
 				'suddenness'=>[
 					'suddeness',
+					'suddennes',
+					'suddennesss',
 				],
 				'suddennesses'=>[
 					'suddenesses',
@@ -10808,6 +12528,18 @@
 				'sugarcane'=>[
 					'sugercane',
 				],
+				'sugariness'=>[
+					'sugarines',
+					'sugarinesss',
+				],
+				'sugarinesses'=>[
+					'sugarineses',
+					'sugarinessses',
+				],
+				'sugarless'=>[
+					'sugarles',
+					'sugarlesss',
+				],
 				'sugary'=>[
 					'sugery',
 				],
@@ -10847,6 +12579,8 @@
 				],
 				'suggestiveness'=>[
 					'sugestiveness',
+					'suggestivenes',
+					'suggestivenesss',
 				],
 				'suggests'=>[
 					'sugests',
@@ -10866,6 +12600,10 @@
 				],
 				'suitable'=>[
 					'suitible',
+				],
+				'suitableness'=>[
+					'suitablenes',
+					'suitablenesss',
 				],
 				'sukkah'=>[
 					'sukka',
@@ -10902,11 +12640,17 @@
 				'sulfurylase'=>[
 					'surfurylase',
 				],
+				'sulkiness'=>[
+					'sulkines',
+					'sulkinesss',
+				],
 				'sullen'=>[
 					'sulen',
 				],
 				'sullenness'=>[
 					'sulleness',
+					'sullennes',
+					'sullennesss',
 				],
 				'sullennesses'=>[
 					'sullenesses',
@@ -10917,6 +12661,10 @@
 					'sullly',
 					'suly',
 				],
+				'sultriness'=>[
+					'sultrines',
+					'sultrinesss',
+				],
 				'sumedho'=>[
 					'sumedo',
 				],
@@ -10925,6 +12673,10 @@
 				],
 				'summand'=>[
 					'sumnand',
+				],
+				'summariness'=>[
+					'summarines',
+					'summarinesss',
 				],
 				'summarizations'=>[
 					'sumnarizations',
@@ -10996,6 +12748,8 @@
 				],
 				'sumptuousness'=>[
 					'sumptousness',
+					'sumptuousnes',
+					'sumptuousnesss',
 				],
 				'sumptuousnesses'=>[
 					'sumptousnesses',
@@ -11010,15 +12764,28 @@
 				'sunbonnets'=>[
 					'sunbonets',
 				],
+				'sundress'=>[
+					'sundresss',
+				],
+				'sundresses'=>[
+					'sundreses',
+					'sundressses',
+				],
 				'sundries'=>[
 					'sundreis',
 					'sundris',
 				],
 				'sunglass'=>[
 					'sunglas',
+					'sunglasss',
+				],
+				'sunglasses'=>[
+					'sunglases',
+					'sunglassses',
 				],
 				'sunless'=>[
 					'sunles',
+					'sunlesss',
 				],
 				'sunn'=>[
 					'sunnn',
@@ -11041,6 +12808,10 @@
 				],
 				'sunniest'=>[
 					'suniest',
+				],
+				'sunniness'=>[
+					'sunnines',
+					'sunninesss',
 				],
 				'sunns'=>[
 					'suns',
@@ -11134,6 +12905,18 @@
 					'superciliouslly',
 					'supercilously',
 				],
+				'superciliousness'=>[
+					'superciliousnes',
+					'superciliousnesss',
+				],
+				'superclass'=>[
+					'superclas',
+					'superclasss',
+				],
+				'superclasses'=>[
+					'superclases',
+					'superclassses',
+				],
 				'supercollider'=>[
 					'supercolider',
 				],
@@ -11169,6 +12952,10 @@
 					'superfical',
 					'supraficial',
 				],
+				'superficialness'=>[
+					'superficialnes',
+					'superficialnesss',
+				],
 				'superficies'=>[
 					'superficeis',
 					'superficis',
@@ -11188,6 +12975,8 @@
 				],
 				'superfluousness'=>[
 					'superflousness',
+					'superfluousnes',
+					'superfluousnesss',
 				],
 				'supergiant'=>[
 					'supergient',
@@ -11195,6 +12984,14 @@
 				'supergovernment'=>[
 					'supergoverment',
 					'supergovernent',
+				],
+				'supergrass'=>[
+					'supergras',
+					'supergrasss',
+				],
+				'supergrasses'=>[
+					'supergrases',
+					'supergrassses',
 				],
 				'superhardened'=>[
 					'superhardend',
@@ -11234,6 +13031,10 @@
 				],
 				'superlatively'=>[
 					'superlativly',
+				],
+				'superlativeness'=>[
+					'superlativenes',
+					'superlativenesss',
 				],
 				'superliner'=>[
 					'superlinir',
@@ -11345,9 +13146,15 @@
 				],
 				'supersession'=>[
 					'supercession',
+					'supersesion',
+					'supersesssion',
 				],
 				'supersessionism'=>[
 					'supercessionism',
+				],
+				'supersessions'=>[
+					'supersesions',
+					'supersesssions',
 				],
 				'supersexuality'=>[
 					'supersexaulity',
@@ -11393,6 +13200,10 @@
 				],
 				'supinely'=>[
 					'supinly',
+				],
+				'supineness'=>[
+					'supinenes',
+					'supinenesss',
 				],
 				'supper'=>[
 					'suppper',
@@ -11441,6 +13252,10 @@
 				],
 				'supplementing'=>[
 					'suplementing',
+				],
+				'suppleness'=>[
+					'supplenes',
+					'supplenesss',
 				],
 				'suppletion'=>[
 					'supletion',
@@ -11507,6 +13322,8 @@
 				],
 				'supportiveness'=>[
 					'suportiveness',
+					'supportivenes',
+					'supportivenesss',
 				],
 				'supports'=>[
 					'suports',
@@ -11550,6 +13367,10 @@
 					'supositious',
 					'suppositous',
 				],
+				'suppositiousness'=>[
+					'suppositiousnes',
+					'suppositiousnesss',
+				],
 				'supposititious'=>[
 					'suposititious',
 					'supposititous',
@@ -11565,33 +13386,52 @@
 					'suppres',
 					'supress',
 					'surpress',
+					'suppresss',
+				],
+				'suppressant'=>[
+					'suppresant',
+					'suppresssant',
+				],
+				'suppressants'=>[
+					'suppresants',
+					'suppresssants',
 				],
 				'suppressed'=>[
 					'suppresed', 'supressed',
 					'supressed',
 					'surpressed',
+					'suppresed',
+					'suppresssed',
 				],
 				'suppresses'=>[
 					'supresses',
 					'surpesses',
+					'suppreses',
+					'suppressses',
 				],
 				'suppressibility'=>[
 					'supressibility',
 				],
 				'suppressible'=>[
 					'suppressable',
+					'suppresible',
+					'suppresssible',
 				],
 				'suppressing'=>[
 					'supressing',
 					'surpressing',
+					'suppresing',
+					'suppresssing',
 				],
 				'suppression'=>[
 					'suppresion',
 					'supression',
+					'suppresssion',
 				],
 				'suppressive'=>[
 					'suppresive',
 					'supressive',
+					'suppresssive',
 				],
 				'suppressiveness'=>[
 					'supressiveness',
@@ -11599,9 +13439,11 @@
 				'suppressor'=>[
 					'suppresor',
 					'supressor',
+					'suppresssor',
 				],
 				'suppressors'=>[
 					'suppresors',
+					'suppresssors',
 				],
 				'suppurate'=>[
 					'supurate',
@@ -11660,6 +13502,10 @@
 				],
 				'supremely'=>[
 					'supremly',
+				],
+				'supremeness'=>[
+					'supremenes',
+					'supremenesss',
 				],
 				'sura'=>[
 					'sua',
@@ -11770,6 +13616,7 @@
 				],
 				'sureness'=>[
 					'sueness',
+					'surenesss',
 				],
 				'surenesses'=>[
 					'suenesses',
@@ -12008,6 +13855,8 @@
 				],
 				'surliness'=>[
 					'suliness',
+					'surlines',
+					'surlinesss',
 				],
 				'surlinesses'=>[
 					'sulinesses',
@@ -12078,13 +13927,17 @@
 				'surpass'=>[
 					'supass',
 					'surpas',
+					'surpasss',
 				],
 				'surpassable'=>[
 					'supassable',
+					'surpasable',
+					'surpasssable',
 				],
 				'surpassed'=>[
 					'supassed',
 					'surpased',
+					'surpasssed',
 				],
 				'surpasser'=>[
 					'supasser',
@@ -12094,13 +13947,18 @@
 				],
 				'surpasses'=>[
 					'supasses',
+					'surpases',
+					'surpassses',
 				],
 				'surpassing'=>[
 					'supassing',
 					'surpasing',
+					'surpasssing',
 				],
 				'surpassingly'=>[
 					'supassingly',
+					'surpasingly',
+					'surpasssingly',
 				],
 				'surplice'=>[
 					'suplice',
@@ -12132,12 +13990,14 @@
 				],
 				'surplussed'=>[
 					'suplussed',
+					'surplusssed',
 				],
 				'surplusses'=>[
 					'suplusses',
 				],
 				'surplussing'=>[
 					'suplussing',
+					'surplusssing',
 				],
 				'surprint'=>[
 					'suprint',
@@ -12270,6 +14130,10 @@
 					'surrepetitiously',
 					'surreptiously',
 					'surreptitously',
+				],
+				'surreptitiousness'=>[
+					'surreptitiousnes',
+					'surreptitiousnesss',
 				],
 				'surrey'=>[
 					'surey',
@@ -12499,8 +14363,26 @@
 				'suspiciously'=>[
 					'suspicously',
 				],
+				'suspiciousness'=>[
+					'suspiciousnes',
+					'suspiciousnesss',
+				],
+				'suspiciousnesses'=>[
+					'suspiciousneses',
+					'suspiciousnessses',
+				],
 				'suss'=>[
 					'sus',
+					'susss',
+				],
+				'sussed'=>[
+					'susssed',
+				],
+				'susses'=>[
+					'sussses',
+				],
+				'sussing'=>[
+					'susssing',
 				],
 				'sustain'=>[
 					'substain',
@@ -12574,6 +14456,14 @@
 					'swamp based',
 					'swampbased',
 				],
+				'swampiness'=>[
+					'swampines',
+					'swampinesss',
+				],
+				'swankiness'=>[
+					'swankines',
+					'swankinesss',
+				],
 				'swanneries'=>[
 					'swaneries',
 				],
@@ -12588,6 +14478,14 @@
 				],
 				'swapped'=>[
 					'swaped',
+				],
+				'swarthiness'=>[
+					'swarthines',
+					'swarthinesss',
+				],
+				'swarthinesses'=>[
+					'swarthineses',
+					'swarthinessses',
 				],
 				'swarthmore'=>[
 					'swathmore',
@@ -12605,6 +14503,10 @@
 				],
 				'sweater'=>[
 					'sweter',
+				],
+				'sweatiness'=>[
+					'sweatines',
+					'sweatinesss',
 				],
 				'sweatpants'=>[
 					'sweatpents',
@@ -12646,6 +14548,10 @@
 					'sweetei',
 					'sweeti',
 				],
+				'sweetness'=>[
+					'sweetnes',
+					'sweetnesss',
+				],
 				'swell'=>[
 					'swel',
 				],
@@ -12658,6 +14564,10 @@
 				'swept'=>[
 					'sweeped',
 					'sweept',
+				],
+				'swiftness'=>[
+					'swiftnes',
+					'swiftnesss',
 				],
 				'swiggers'=>[
 					'swigers',
@@ -12709,6 +14619,7 @@
 				],
 				'swiss'=>[
 					'swis',
+					'swisss',
 				],
 				'swiss-occupied'=>[
 					'swiss occupied',
@@ -12871,6 +14782,10 @@
 				'symptomatology'=>[
 					'simptomatology',
 					'sintomatology',
+				],
+				'symptomless'=>[
+					'symptomles',
+					'symptomlesss',
 				],
 				'symptoms'=>[
 					'symptomes',

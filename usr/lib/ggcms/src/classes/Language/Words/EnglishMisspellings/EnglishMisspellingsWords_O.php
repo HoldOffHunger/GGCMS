@@ -56,6 +56,10 @@
 				'o\'neil'=>[
 					'o neil',
 				],
+				'oafishness'=>[
+					'oafishnes',
+					'oafishnesss',
+				],
 				'oaxaca'=>[
 					'oaxac',
 				],
@@ -73,6 +77,10 @@
 				],
 				'obdurately'=>[
 					'obduratly',
+				],
+				'obdurateness'=>[
+					'obduratenes',
+					'obduratenesss',
 				],
 				'obeah'=>[
 					'obea',
@@ -106,6 +114,10 @@
 				'obesely'=>[
 					'obesly',
 				],
+				'obeseness'=>[
+					'obesenes',
+					'obesenesss',
+				],
 				'obey'=>[
 					'cbey',
 				],
@@ -125,11 +137,31 @@
 				'objectionable'=>[
 					'objectionible',
 				],
+				'objectionableness'=>[
+					'objectionablenes',
+					'objectionablenesss',
+				],
 				'objective'=>[
 					'objetive',
 				],
+				'objectiveness'=>[
+					'objectivenes',
+					'objectivenesss',
+				],
+				'objectless'=>[
+					'objectles',
+					'objectlesss',
+				],
 				'oblately'=>[
 					'oblatly',
+				],
+				'oblateness'=>[
+					'oblatenes',
+					'oblatenesss',
+				],
+				'oblatenesses'=>[
+					'oblateneses',
+					'oblatenessses',
 				],
 				'obligately'=>[
 					'obligatly',
@@ -140,17 +172,33 @@
 				'obliged'=>[
 					'obligued',
 				],
+				'obligingness'=>[
+					'obligingnes',
+					'obligingnesss',
+				],
+				'obligingnesses'=>[
+					'obligingneses',
+					'obligingnessses',
+				],
 				'oblique'=>[
 					'obligue',
 				],
 				'obliquely'=>[
 					'obliquly',
 				],
+				'obliqueness'=>[
+					'obliquenes',
+					'obliquenesss',
+				],
 				'oblivious'=>[
 					'oblivous',
 				],
 				'obliviously'=>[
 					'oblivously',
+				],
+				'obliviousness'=>[
+					'obliviousnes',
+					'obliviousnesss',
 				],
 				'obloquy'=>[
 					'obloquoy',
@@ -161,6 +209,10 @@
 				],
 				'obnoxiously'=>[
 					'obnoxously',
+				],
+				'obnoxiousness'=>[
+					'obnoxiousnes',
+					'obnoxiousnesss',
 				],
 				'obscene'=>[
 					'obcene',
@@ -189,6 +241,14 @@
 				'obscurely'=>[
 					'obscurly',
 				],
+				'obscureness'=>[
+					'obscurenes',
+					'obscurenesss',
+				],
+				'obscurenesses'=>[
+					'obscureneses',
+					'obscurenessses',
+				],
 				'obscurity'=>[
 					'obcsurity',
 					'obcurity',
@@ -199,6 +259,10 @@
 				],
 				'obsequiously'=>[
 					'obsequously',
+				],
+				'obsequiousness'=>[
+					'obsequiousnes',
+					'obsequiousnesss',
 				],
 				'observable'=>[
 					'observible',
@@ -221,17 +285,56 @@
 				],
 				'obsess'=>[
 					'obses',
+					'obsesss',
+				],
+				'obsessed'=>[
+					'obsesed',
+					'obsesssed',
+				],
+				'obsesses'=>[
+					'obseses',
+					'obsessses',
+				],
+				'obsessing'=>[
+					'obsesing',
+					'obsesssing',
 				],
 				'obsession'=>[
 					'obsesion',
 					'obssession',
+					'obsesssion',
+				],
+				'obsessional'=>[
+					'obsesional',
+					'obsesssional',
+				],
+				'obsessionally'=>[
+					'obsesionally',
+					'obsesssionally',
+				],
+				'obsessions'=>[
+					'obsesions',
+					'obsesssions',
 				],
 				'obsessive'=>[
 					'obsesive',
 					'obssessive',
+					'obsesssive',
 				],
 				'obsessively'=>[
 					'obsessivly',
+					'obsesively',
+					'obsesssively',
+				],
+				'obsessiveness'=>[
+					'obsesiveness',
+					'obsessivenes',
+					'obsessivenesss',
+					'obsesssiveness',
+				],
+				'obsessives'=>[
+					'obsesives',
+					'obsesssives',
 				],
 				'obsidian'=>[
 					'obsidan',
@@ -259,6 +362,14 @@
 				],
 				'obsoletely'=>[
 					'obsoletly',
+				],
+				'obsoleteness'=>[
+					'obsoletenes',
+					'obsoletenesss',
+				],
+				'obsoletenesses'=>[
+					'obsoleteneses',
+					'obsoletenessses',
 				],
 				'obstacle'=>[
 					'obstacal',
@@ -295,8 +406,16 @@
 					'obstreperousely',
 					'obstreperouslly',
 				],
+				'obstreperousness'=>[
+					'obstreperousnes',
+					'obstreperousnesss',
+				],
 				'obstructive'=>[
 					'obstractive',
+				],
+				'obstructiveness'=>[
+					'obstructivenes',
+					'obstructivenesss',
 				],
 				'obtainabilities'=>[
 					'obtainibilities',
@@ -327,6 +446,8 @@
 				],
 				'obtrusiveness'=>[
 					'obtruisveness',
+					'obtrusivenes',
+					'obtrusivenesss',
 				],
 				'obtrusivenesses'=>[
 					'obtruisvenesses',
@@ -339,6 +460,10 @@
 				],
 				'obtusely'=>[
 					'obtusly',
+				],
+				'obtuseness'=>[
+					'obtusenes',
+					'obtusenesss',
 				],
 				'obtusities'=>[
 					'obtuisties',
@@ -354,6 +479,10 @@
 				],
 				'obviously'=>[
 					'obvously',
+				],
+				'obviousness'=>[
+					'obviousnes',
+					'obviousnesss',
 				],
 				'ocarina'=>[
 					'ocarini',
@@ -482,6 +611,10 @@
 				],
 				'occultism'=>[
 					'ocultism',
+				],
+				'occultness'=>[
+					'occultnes',
+					'occultnesss',
 				],
 				'occults'=>[
 					'ocults',
@@ -707,6 +840,10 @@
 					'oddaly',
 					'oddlly',
 				],
+				'oddness'=>[
+					'oddnes',
+					'oddnesss',
+				],
 				'odea'=>[
 					'ode',
 				],
@@ -715,6 +852,10 @@
 				],
 				'odiously'=>[
 					'odously',
+				],
+				'odiousness'=>[
+					'odiousnes',
+					'odiousnesss',
 				],
 				'odontogenesis'=>[
 					'odonotogenesis',
@@ -728,8 +869,17 @@
 				'odoriferous'=>[
 					'odouriferous',
 				],
+				'odoriferousness'=>[
+					'odoriferousnes',
+					'odoriferousnesss',
+				],
 				'odorless'=>[
 					'odorles',
+					'odorlesss',
+				],
+				'odorlessly'=>[
+					'odorlesly',
+					'odorlesssly',
 				],
 				'odorous'=>[
 					'odourous',
@@ -739,9 +889,20 @@
 				],
 				'odorousness'=>[
 					'odourousness',
+					'odorousnes',
+					'odorousnesss',
+				],
+				'odyssean'=>[
+					'odysean',
+					'odysssean',
 				],
 				'odyssey'=>[
 					'odysey',
+					'odysssey',
+				],
+				'odysseys'=>[
+					'odyseys',
+					'odyssseys',
 				],
 				'oedema'=>[
 					'odema',
@@ -801,12 +962,24 @@
 				'offense'=>[
 					'offensce',
 				],
+				'offenseless'=>[
+					'offenseles',
+					'offenselesss',
+				],
 				'offensively'=>[
 					'offensivly',
+				],
+				'offensiveness'=>[
+					'offensivenes',
+					'offensivenesss',
 				],
 				'offer'=>[
 					'offer offer',
 					'offer offer offer',
+				],
+				'offhandedness'=>[
+					'offhandednes',
+					'offhandednesss',
 				],
 				'office'=>[
 					'offce',
@@ -860,6 +1033,14 @@
 					'officiouslly',
 					'officously',
 				],
+				'officiousness'=>[
+					'officiousnes',
+					'officiousnesss',
+				],
+				'offishness'=>[
+					'offishnes',
+					'offishnesss',
+				],
 				'offline'=>[
 					'offlini',
 				],
@@ -893,6 +1074,10 @@
 				],
 				'ogress'=>[
 					'ogres',
+					'ogresss',
+				],
+				'ogresses'=>[
+					'ogressses',
 				],
 				'oh'=>[
 					'oh oh',
@@ -907,6 +1092,10 @@
 				'oil'=>[
 					'oil oil',
 					'oil oil oil',
+				],
+				'oiliness'=>[
+					'oilines',
+					'oilinesss',
 				],
 				'ointment'=>[
 					'ointmant',
@@ -925,6 +1114,10 @@
 				'oldie'=>[
 					'oldei',
 					'oldi',
+				],
+				'oldness'=>[
+					'oldnes',
+					'oldnesss',
 				],
 				'oldsquaw'=>[
 					'oldsqauw',
@@ -1022,13 +1215,24 @@
 				'ominous'=>[
 					'omnious',
 				],
+				'ominousness'=>[
+					'ominousnes',
+					'ominousnesss',
+				],
 				'omissible'=>[
 					'omissable',
+					'omisible',
+					'omisssible',
 				],
 				'omission'=>[
 					'omision',
 					'ommision',
 					'ommission',
+					'omisssion',
+				],
+				'omissions'=>[
+					'omisions',
+					'omisssions',
 				],
 				'omit'=>[
 					'omitt',
@@ -1049,6 +1253,9 @@
 				],
 				'ommatidium'=>[
 					'omnatidium',
+				],
+				'omnibusses'=>[
+					'omnibussses',
 				],
 				'omnicompetence'=>[
 					'omnicompetance',
@@ -1085,6 +1292,10 @@
 				],
 				'omnivorously'=>[
 					'omniverously',
+				],
+				'omnivorousness'=>[
+					'omnivorousnes',
+					'omnivorousnesss',
 				],
 				'on'=>[
 					'on on',
@@ -1135,6 +1346,11 @@
 				],
 				'oneness'=>[
 					'onenes',
+					'onenesss',
+				],
+				'onerousness'=>[
+					'onerousnes',
+					'onerousnesss',
 				],
 				'online'=>[
 					'onlini',
@@ -1173,6 +1389,10 @@
 				'oompahs'=>[
 					'oompas',
 				],
+				'ooziness'=>[
+					'oozines',
+					'oozinesss',
+				],
 				'oozooid'=>[
 					'oozoid',
 				],
@@ -1193,6 +1413,10 @@
 				'opaquely'=>[
 					'opaquly',
 				],
+				'opaqueness'=>[
+					'opaquenes',
+					'opaquenesss',
+				],
 				'open'=>[
 					'open open',
 					'open open open',
@@ -1208,6 +1432,10 @@
 					'openhandedaly',
 					'openhandedely',
 					'openhandedlly',
+				],
+				'openhandedness'=>[
+					'openhandednes',
+					'openhandednesss',
 				],
 				'openhearted'=>[
 					'openherted',
@@ -1236,6 +1464,8 @@
 				],
 				'openness'=>[
 					'openess',
+					'opennes',
+					'opennesss',
 				],
 				'operable'=>[
 					'operible',
@@ -1353,6 +1583,12 @@
 				],
 				'opossum'=>[
 					'opposum',
+					'oposssum',
+					'oposum',
+				],
+				'opossums'=>[
+					'oposssums',
+					'oposums',
 				],
 				'opponency'=>[
 					'opponensy',
@@ -1373,9 +1609,13 @@
 				],
 				'opportuneness'=>[
 					'oportuneness',
+					'opportunenes',
+					'opportunenesss',
 				],
 				'opportunenesses'=>[
 					'oportunenesses',
+					'opportuneneses',
+					'opportunenessses',
 				],
 				'opportunism'=>[
 					'oppourtunism',
@@ -1440,6 +1680,8 @@
 				],
 				'oppositeness'=>[
 					'opositeness',
+					'oppositenes',
+					'oppositenesss',
 				],
 				'oppositenesses'=>[
 					'opositenesses',
@@ -1461,38 +1703,61 @@
 				'oppress'=>[
 					'oppres',
 					'opress',
+					'oppresss',
 				],
 				'oppressed'=>[
 					'oppremed',
 					'opressed',
+					'oppresed',
+					'oppresssed',
 				],
 				'oppresses'=>[
 					'opresses',
+					'oppreses',
+					'oppressses',
 				],
 				'oppressing'=>[
 					'opressing',
+					'oppresing',
+					'oppresssing',
 				],
 				'oppression'=>[
 					'oppresion',
 					'oppresision',
 					'opresion',
 					'opression',
+					'oppresssion',
+				],
+				'oppressions'=>[
+					'oppresions',
+					'oppresssions',
 				],
 				'oppressive'=>[
 					'oppresive',
 					'opressive',
+					'oppresssive',
 				],
 				'oppressively'=>[
 					'oppressivly',
+					'oppresively',
+					'oppresssively',
 				],
 				'oppressiveness'=>[
 					'opressiveness',
+					'oppresiveness',
+					'oppressivenes',
+					'oppressivenesss',
+					'oppresssiveness',
 				],
 				'oppressor'=>[
 					'opressor',
+					'oppresor',
+					'oppresssor',
 				],
 				'oppressors'=>[
 					'opressors',
+					'oppresors',
+					'oppresssors',
 				],
 				'opprobrious'=>[
 					'opprobrous',
@@ -1586,6 +1851,10 @@
 				'oracular'=>[
 					'oraculer',
 				],
+				'orangeness'=>[
+					'orangenes',
+					'orangenesss',
+				],
 				'orbicular'=>[
 					'orbiculer',
 				],
@@ -1627,6 +1896,14 @@
 				'ordered'=>[
 					'orderes',
 				],
+				'orderless'=>[
+					'orderles',
+					'orderlesss',
+				],
+				'orderliness'=>[
+					'orderlines',
+					'orderlinesss',
+				],
 				'orderly'=>[
 					'orderally',
 					'orderaly',
@@ -1653,6 +1930,10 @@
 					'ordinariely',
 					'ordinarilly',
 					'ordinirily',
+				],
+				'ordinariness'=>[
+					'ordinarines',
+					'ordinarinesss',
 				],
 				'ordinarinesses'=>[
 					'ordinirinesses',
@@ -1822,6 +2103,14 @@
 				'ornately'=>[
 					'ornatly',
 				],
+				'ornateness'=>[
+					'ornatenes',
+					'ornatenesss',
+				],
+				'orneriness'=>[
+					'ornerines',
+					'ornerinesss',
+				],
 				'ornithine'=>[
 					'ornithini',
 				],
@@ -1983,28 +2272,69 @@
 				],
 				'ossa'=>[
 					'osa',
+					'osssa',
 				],
 				'ossein'=>[
 					'ossien',
+					'osein',
+					'osssein',
 				],
 				'osseous'=>[
 					'osseus',
+					'oseous',
+					'ossseous',
 				],
 				'ossia'=>[
 					'osia',
 				],
+				'ossicle'=>[
+					'osicle',
+					'osssicle',
+				],
+				'ossicles'=>[
+					'osicles',
+					'osssicles',
+				],
 				'ossicular'=>[
 					'ossiculer',
 				],
+				'ossiferous'=>[
+					'osiferous',
+					'osssiferous',
+				],
+				'ossific'=>[
+					'osific',
+					'osssific',
+				],
 				'ossification'=>[
 					'osification',
+					'osssification',
+				],
+				'ossified'=>[
+					'osified',
+					'osssified',
+				],
+				'ossifies'=>[
+					'osifies',
+					'osssifies',
+				],
+				'ossifrage'=>[
+					'osifrage',
+					'osssifrage',
 				],
 				'ossify'=>[
 					'osify',
+					'osssify',
+				],
+				'ossifying'=>[
+					'osifying',
+					'osssifying',
 				],
 				'ossuary'=>[
 					'ossaury',
 					'ossuery',
+					'osssuary',
+					'osuary',
 				],
 				'osteichthyan'=>[
 					'osteichthian',
@@ -2030,6 +2360,14 @@
 					'ostentatiousely',
 					'ostentatiouslly',
 					'ostentatously',
+				],
+				'ostentatiousness'=>[
+					'ostentatiousnes',
+					'ostentatiousnesss',
+				],
+				'ostentatiousnesses'=>[
+					'ostentatiousneses',
+					'ostentatiousnessses',
 				],
 				'osteoarticular'=>[
 					'osetoarticular',
@@ -2115,6 +2453,11 @@
 				],
 				'otherness'=>[
 					'othernes',
+					'othernesss',
+				],
+				'othernesses'=>[
+					'otherneses',
+					'othernessses',
 				],
 				'others'=>[
 					'otehrs',
@@ -2124,6 +2467,14 @@
 				'otherwise'=>[
 					'otherweise',
 					'otherwize',
+				],
+				'otherworldliness'=>[
+					'otherworldlines',
+					'otherworldlinesss',
+				],
+				'otherworldlinesses'=>[
+					'otherworldlineses',
+					'otherworldlinessses',
 				],
 				'otherworldly'=>[
 					'otherworldally',
@@ -2191,11 +2542,31 @@
 				'outcast'=>[
 					'outcasted',
 				],
+				'outclass'=>[
+					'outclas',
+					'outclasss',
+				],
+				'outclassed'=>[
+					'outclased',
+					'outclasssed',
+				],
+				'outclasses'=>[
+					'outclases',
+					'outclassses',
+				],
+				'outclassing'=>[
+					'outclasing',
+					'outclasssing',
+				],
 				'outcome'=>[
 					'outcone',
 				],
 				'outcropped'=>[
 					'outcroped',
+				],
+				'outcross'=>[
+					'outcros',
+					'outcrosss',
 				],
 				'outdance'=>[
 					'outdence',
@@ -2251,6 +2622,22 @@
 				'outgrinned'=>[
 					'outgrined',
 				],
+				'outguess'=>[
+					'outgues',
+					'outguesss',
+				],
+				'outguessed'=>[
+					'outguesed',
+					'outguesssed',
+				],
+				'outguesses'=>[
+					'outgueses',
+					'outguessses',
+				],
+				'outguessing'=>[
+					'outguesing',
+					'outguesssing',
+				],
 				'outgunning'=>[
 					'outguning',
 				],
@@ -2278,6 +2665,10 @@
 				],
 				'outjuggling'=>[
 					'outjugling',
+				],
+				'outlandishness'=>[
+					'outlandishnes',
+					'outlandishnesss',
 				],
 				'outlier'=>[
 					'outleir',
@@ -2320,6 +2711,14 @@
 				],
 				'outrageous'=>[
 					'outragous',
+				],
+				'outrageousness'=>[
+					'outrageousnes',
+					'outrageousnesss',
+				],
+				'outrageousnesses'=>[
+					'outrageousneses',
+					'outrageousnessses',
 				],
 				'outrance'=>[
 					'outrence',
@@ -2383,6 +2782,8 @@
 				],
 				'outspokenness'=>[
 					'outspokeness',
+					'outspokennes',
+					'outspokennesss',
 				],
 				'outspokennesses'=>[
 					'outspokenesses',
@@ -2465,6 +2866,7 @@
 				'overaggressive'=>[
 					'overaggresive',
 					'overagressive',
+					'overaggresssive',
 				],
 				'overall'=>[
 					'overal',
@@ -2484,6 +2886,24 @@
 				'overarranges'=>[
 					'overaranges',
 				],
+				'overassertive'=>[
+					'overasertive',
+					'overasssertive',
+				],
+				'overassertiveness'=>[
+					'overasertiveness',
+					'overassertivenes',
+					'overassertivenesss',
+					'overasssertiveness',
+				],
+				'overassured'=>[
+					'overasssured',
+					'overasured',
+				],
+				'overattentiveness'=>[
+					'overattentivenes',
+					'overattentivenesss',
+				],
 				'overbalance'=>[
 					'overbalence',
 				],
@@ -2492,6 +2912,14 @@
 				],
 				'overbearing'=>[
 					'overbering',
+				],
+				'overbearingness'=>[
+					'overbearingnes',
+					'overbearingnesss',
+				],
+				'overbearingnesses'=>[
+					'overbearingneses',
+					'overbearingnessses',
 				],
 				'overborrowed'=>[
 					'overborowed',
@@ -2564,6 +2992,22 @@
 				],
 				'overdominances'=>[
 					'overdomininces',
+				],
+				'overdress'=>[
+					'overdres',
+					'overdresss',
+				],
+				'overdressed'=>[
+					'overdresed',
+					'overdresssed',
+				],
+				'overdresses'=>[
+					'overdreses',
+					'overdressses',
+				],
+				'overdressing'=>[
+					'overdresing',
+					'overdresssing',
 				],
 				'overdubbed'=>[
 					'overdubed',
@@ -2651,6 +3095,10 @@
 				'overglamorizing'=>[
 					'overglamourizing',
 				],
+				'overhastiness'=>[
+					'overhastines',
+					'overhastinesss',
+				],
 				'overhead'=>[
 					'overhed',
 				],
@@ -2686,6 +3134,10 @@
 				'overimaginative'=>[
 					'overimaginitive',
 				],
+				'overimpress'=>[
+					'overimpres',
+					'overimpresss',
+				],
 				'overindulgence'=>[
 					'overindulgance',
 				],
@@ -2701,6 +3153,10 @@
 				],
 				'overissuances'=>[
 					'overissaunces',
+				],
+				'overissue'=>[
+					'overisssue',
+					'overisue',
 				],
 				'overkill'=>[
 					'overkil',
@@ -2748,6 +3204,11 @@
 				],
 				'overpass'=>[
 					'overpas',
+					'overpasss',
+				],
+				'overpasses'=>[
+					'overpases',
+					'overpassses',
 				],
 				'overpersuade'=>[
 					'overpersaude',
@@ -2767,6 +3228,10 @@
 				'overpersuasions'=>[
 					'overpersausions',
 				],
+				'overpessimistic'=>[
+					'overpesimistic',
+					'overpesssimistic',
+				],
 				'overprescribe'=>[
 					'overprecribe',
 					'overprecsribe',
@@ -2779,6 +3244,7 @@
 				],
 				'overpressure'=>[
 					'overpresure',
+					'overpresssure',
 				],
 				'overprogrammed'=>[
 					'overprogramned',
@@ -2896,6 +3362,10 @@
 				'overseas'=>[
 					'overses',
 				],
+				'oversensitiveness'=>[
+					'oversensitivenes',
+					'oversensitivenesss',
+				],
 				'overserious'=>[
 					'overserous',
 				],
@@ -2917,6 +3387,22 @@
 				],
 				'overstraining'=>[
 					'overstrainang',
+				],
+				'overstress'=>[
+					'overstres',
+					'overstresss',
+				],
+				'overstressed'=>[
+					'overstresed',
+					'overstresssed',
+				],
+				'overstresses'=>[
+					'overstreses',
+					'overstressses',
+				],
+				'overstressing'=>[
+					'overstresing',
+					'overstresssing',
 				],
 				'oversubscribe'=>[
 					'oversubcribe',
@@ -2955,6 +3441,10 @@
 				],
 				'overtipped'=>[
 					'overtiped',
+				],
+				'overtness'=>[
+					'overtnes',
+					'overtnesss',
 				],
 				'overtopped'=>[
 					'overtoped',

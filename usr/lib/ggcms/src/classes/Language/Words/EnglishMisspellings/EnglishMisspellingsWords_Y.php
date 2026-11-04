@@ -183,6 +183,10 @@
 					'yellowely',
 					'yellowlly',
 				],
+				'yellowness'=>[
+					'yellownes',
+					'yellownesss',
+				],
 				'yellowtail'=>[
 					'yelowtail',
 				],
@@ -287,6 +291,10 @@
 				],
 				'youthened'=>[
 					'youthend',
+				],
+				'youthfulness'=>[
+					'youthfulnes',
+					'youthfulnesss',
 				],
 				'yuan'=>[
 					'yaun',

@@ -51,6 +51,10 @@
 				'zamindar'=>[
 					'zaminder',
 				],
+				'zaniness'=>[
+					'zanines',
+					'zaninesss',
+				],
 				'zapper'=>[
 					'zaper',
 				],
@@ -65,6 +69,10 @@
 				],
 				'zeal'=>[
 					'zel',
+				],
+				'zealousness'=>[
+					'zealousnes',
+					'zealousnesss',
 				],
 				'zearalenone'=>[
 					'zearelenone',
@@ -107,6 +115,10 @@
 				],
 				'zeppelin'=>[
 					'zepelin',
+				],
+				'zestfulness'=>[
+					'zestfulnes',
+					'zestfulnesss',
 				],
 				'zettabyte'=>[
 					'zetabyte',

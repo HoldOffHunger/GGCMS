@@ -258,9 +258,17 @@
 				'cadaveric'=>[
 					'cadevaric',
 				],
+				'cadaverousness'=>[
+					'cadaverousnes',
+					'cadaverousnesss',
+				],
 				'caddie'=>[
 					'caddei',
 					'caddi',
+				],
+				'caddishness'=>[
+					'caddishnes',
+					'caddishnesss',
 				],
 				'cadence'=>[
 					'cadance',
@@ -308,6 +316,14 @@
 				'cafés'=>[
 					'cafes',
 				],
+				'cageyness'=>[
+					'cageynes',
+					'cageynesss',
+				],
+				'caginess'=>[
+					'cagines',
+					'caginesss',
+				],
 				'cahier'=>[
 					'caier',
 				],
@@ -328,6 +344,12 @@
 				],
 				'caisson'=>[
 					'casion',
+					'caison',
+					'caissson',
+				],
+				'caissons'=>[
+					'caisons',
+					'caisssons',
 				],
 				'calamar'=>[
 					'calamer',
@@ -337,6 +359,10 @@
 				],
 				'calamine'=>[
 					'calamini',
+				],
+				'calamitousness'=>[
+					'calamitousnes',
+					'calamitousnesss',
 				],
 				'calcanei'=>[
 					'calcanie',
@@ -464,14 +490,26 @@
 				'callousing'=>[
 					'callouisng',
 				],
+				'callousness'=>[
+					'callousnes',
+					'callousnesss',
+				],
 				'callow'=>[
 					'calow',
+				],
+				'callowness'=>[
+					'callownes',
+					'callownesss',
 				],
 				'callusing'=>[
 					'calluisng',
 				],
 				'calmidazolium'=>[
 					'calmidozolium',
+				],
+				'calmness'=>[
+					'calmnes',
+					'calmnesss',
 				],
 				'calmodulin'=>[
 					'calomodulin',
@@ -546,6 +584,12 @@
 					'camaradereis',
 					'camaraderis',
 				],
+				'camass'=>[
+					'camasss',
+				],
+				'camasses'=>[
+					'camassses',
+				],
 				'came back'=>[
 					'cameback',
 				],
@@ -597,6 +641,9 @@
 					'campanologeis',
 					'campanologis',
 				],
+				'campiness'=>[
+					'campinesss',
+				],
 				'camptothecin'=>[
 					'campothecin',
 					'campothecine',
@@ -647,6 +694,10 @@
 					'candadate',
 					'canidate',
 				],
+				'candidness'=>[
+					'candidnes',
+					'candidnesss',
+				],
 				'candied'=>[
 					'candeid',
 					'canddied',
@@ -658,6 +709,10 @@
 				],
 				'candleberry'=>[
 					'candlebery',
+				],
+				'candyfloss'=>[
+					'candyflos',
+					'candyflosss',
 				],
 				'canfield'=>[
 					'canfeild',
@@ -754,6 +809,10 @@
 				'cannikin'=>[
 					'canikin',
 				],
+				'canniness'=>[
+					'cannines',
+					'canninesss',
+				],
 				'cannoli'=>[
 					'canoli',
 				],
@@ -802,6 +861,9 @@
 				'canoeist'=>[
 					'canoiest',
 				],
+				'canoness'=>[
+					'canonesss',
+				],
 				'canonical'=>[
 					'cannonical',
 				],
@@ -837,6 +899,10 @@
 					'cantankerousaly',
 					'cantankerousely',
 					'cantankerouslly',
+				],
+				'cantankerousness'=>[
+					'cantankerousnes',
+					'cantankerousnesss',
 				],
 				'cantata'=>[
 					'centata',
@@ -932,6 +998,22 @@
 				'canvass'=>[
 					'canvasss',
 				],
+				'canvassed'=>[
+					'canvasssed',
+				],
+				'canvasser'=>[
+					'canvassser',
+				],
+				'canvassers'=>[
+					'canvasers',
+					'canvasssers',
+				],
+				'canvasses'=>[
+					'canvassses',
+				],
+				'canvassing'=>[
+					'canvasssing',
+				],
 				'capabilities'=>[
 					'capabiliteis',
 					'capabilites',
@@ -953,6 +1035,10 @@
 					'capaciousely',
 					'capaciouslly',
 					'capacously',
+				],
+				'capaciousness'=>[
+					'capaciousnes',
+					'capaciousnesss',
 				],
 				'capacitance'=>[
 					'capacitence',
@@ -1077,6 +1163,7 @@
 				],
 				'capriciousness'=>[
 					'capriciousnes',
+					'capriciousnesss',
 				],
 				'capsazepine'=>[
 					'capazepine',
@@ -1098,6 +1185,10 @@
 				],
 				'captiously'=>[
 					'captously',
+				],
+				'captiousness'=>[
+					'captiousnes',
+					'captiousnesss',
 				],
 				'captiousnesses'=>[
 					'captiousneses',
@@ -1205,6 +1296,10 @@
 				'carcass'=>[
 					'carcas',
 					'carcus',
+					'carcasss',
+				],
+				'carcasses'=>[
+					'carcassses',
 				],
 				'carcharhinid'=>[
 					'charcharhinid',
@@ -1282,14 +1377,45 @@
 					'carefulely',
 					'carefullly',
 				],
+				'carefulness'=>[
+					'carefulnes',
+					'carefulnesss',
+				],
 				'careless'=>[
 					'careles',
+					'carelesss',
+				],
+				'carelessly'=>[
+					'carelesly',
+					'carelesssly',
+				],
+				'carelessness'=>[
+					'carelesness',
+					'carelessnes',
+					'carelessnesss',
+					'carelesssness',
 				],
 				'carelessnesses'=>[
 					'carelessneses',
 				],
 				'caress'=>[
 					'caresss',
+				],
+				'caressed'=>[
+					'caresssed',
+				],
+				'caresser'=>[
+					'caressser',
+				],
+				'caresses'=>[
+					'caressses',
+				],
+				'caressing'=>[
+					'caresssing',
+				],
+				'caressive'=>[
+					'caresive',
+					'caresssive',
 				],
 				'caressively'=>[
 					'caressivly',
@@ -1343,6 +1469,10 @@
 				'carmine'=>[
 					'carmini',
 				],
+				'carnassial'=>[
+					'carnasial',
+					'carnasssial',
+				],
 				'carnelian'=>[
 					'carnelan',
 				],
@@ -1353,6 +1483,10 @@
 				'carnivorous'=>[
 					'carniverous',
 					'carnivourous',
+				],
+				'carnivorousness'=>[
+					'carnivorousnes',
+					'carnivorousnesss',
 				],
 				'carotenoid'=>[
 					'crotenoid',
@@ -1491,6 +1625,10 @@
 				'carryover'=>[
 					'caryover',
 				],
+				'carsickness'=>[
+					'carsicknes',
+					'carsicknesss',
+				],
 				'cartilage'=>[
 					'cartilege',
 					'cartilidge',
@@ -1549,6 +1687,10 @@
 					'casheir',
 					'cashir',
 				],
+				'cashless'=>[
+					'cashles',
+					'cashlesss',
+				],
 				'casini'=>[
 					'casina',
 				],
@@ -1558,29 +1700,106 @@
 				'caspase'=>[
 					'capsase',
 				],
+				'cassaba'=>[
+					'casssaba',
+				],
+				'cassareep'=>[
+					'casareep',
+					'casssareep',
+				],
+				'cassareeps'=>[
+					'casareeps',
+					'casssareeps',
+				],
+				'cassation'=>[
+					'casation',
+					'casssation',
+				],
 				'cassava'=>[
 					'casava',
+					'casssava',
+				],
+				'cassavas'=>[
+					'casavas',
+					'casssavas',
 				],
 				'casserole'=>[
 					'caserole',
+					'cassserole',
+				],
+				'casseroled'=>[
+					'caseroled',
+					'cassseroled',
+				],
+				'casseroles'=>[
+					'caseroles',
+					'cassseroles',
+				],
+				'casseroling'=>[
+					'caseroling',
+					'cassseroling',
 				],
 				'cassette'=>[
 					'casette',
 					'cassete',
+					'casssette',
+				],
+				'cassettes'=>[
+					'casssettes',
 				],
 				'cassia'=>[
 					'casia',
+					'casssia',
+				],
+				'cassias'=>[
+					'casssias',
+				],
+				'cassimere'=>[
+					'casssimere',
 				],
 				'cassina'=>[
 					'cassini',
 				],
+				'cassino'=>[
+					'casssino',
+				],
+				'cassinos'=>[
+					'casssinos',
+				],
 				'cassis'=>[
 					'casis',
+					'casssis',
+				],
+				'cassiterite'=>[
+					'casiterite',
+					'casssiterite',
+				],
+				'cassiterites'=>[
+					'casiterites',
+					'casssiterites',
+				],
+				'cassock'=>[
+					'casock',
+					'casssock',
+				],
+				'cassocks'=>[
+					'casocks',
+					'casssocks',
+				],
+				'cassoulet'=>[
+					'casoulet',
+					'casssoulet',
+				],
+				'cassowaries'=>[
+					'casowaries',
+					'casssowaries',
 				],
 				'cassowary'=>[
 					'cassawory',
 					'cassowarry',
 					'cassowery',
+					'casowary',
+					'casssowary',
 				],
 				'castabilities'=>[
 					'castabiliteis',
@@ -1600,6 +1819,10 @@
 				],
 				'casual'=>[
 					'casaul',
+				],
+				'casualness'=>[
+					'casualnes',
+					'casualnesss',
 				],
 				'casualnesses'=>[
 					'casaulnesses',
@@ -1673,6 +1896,10 @@
 					'catchfely',
 					'catchflly',
 				],
+				'catchiness'=>[
+					'catchines',
+					'catchinesss',
+				],
 				'catchpenny'=>[
 					'catchpeny',
 				],
@@ -1738,8 +1965,18 @@
 				'cattery'=>[
 					'cattary',
 				],
+				'cattiness'=>[
+					'cattines',
+					'cattinesss',
+				],
 				'caucusing'=>[
 					'caucuisng',
+				],
+				'caucussed'=>[
+					'caucusssed',
+				],
+				'caucussing'=>[
+					'caucusssing',
 				],
 				'caudillismo'=>[
 					'caudilismo',
@@ -1756,6 +1993,10 @@
 				],
 				'caused'=>[
 					'casued',
+				],
+				'causeless'=>[
+					'causeles',
+					'causelesss',
 				],
 				'causes'=>[
 					'casues',
@@ -1778,6 +2019,10 @@
 				],
 				'cautiously'=>[
 					'cautously',
+				],
+				'cautiousness'=>[
+					'cautiousnes',
+					'cautiousnesss',
 				],
 				'cautiousnesses'=>[
 					'cautiousneses',
@@ -1828,15 +2073,22 @@
 				'ceaseless'=>[
 					'ceaseles',
 					'ceseless',
+					'ceaselesss',
 				],
 				'ceaselessly'=>[
 					'ceaselessally',
 					'ceaselessaly',
 					'ceaselessely',
 					'ceaselesslly',
+					'ceaselesly',
+					'ceaselesssly',
 				],
 				'ceaselessness'=>[
 					'ceselessness',
+					'ceaselesness',
+					'ceaselessnes',
+					'ceaselessnesss',
+					'ceaselesssness',
 				],
 				'ceaselessnesses'=>[
 					'ceselessnesses',
@@ -2014,6 +2266,7 @@
 				],
 				'censoriousness'=>[
 					'censoriousnes',
+					'censoriousnesss',
 				],
 				'censorship'=>[
 					'sensorship',
@@ -2290,6 +2543,10 @@
 					'ceremoniouslly',
 					'ceremonously',
 				],
+				'ceremoniousness'=>[
+					'ceremoniousnes',
+					'ceremoniousnesss',
+				],
 				'ceremony'=>[
 					'cerimony',
 				],
@@ -2329,6 +2586,12 @@
 				'cerusites'=>[
 					'ceruistes',
 				],
+				'cerussite'=>[
+					'cerusssite',
+				],
+				'cerussites'=>[
+					'cerusssites',
+				],
 				'cervical'=>[
 					'cervial',
 				],
@@ -2340,9 +2603,43 @@
 				],
 				'cess'=>[
 					'ces',
+					'cesss',
 				],
 				'cessation'=>[
 					'cesation',
+					'cesssation',
+				],
+				'cessations'=>[
+					'cesations',
+					'cesssations',
+				],
+				'cession'=>[
+					'cesion',
+					'cesssion',
+				],
+				'cessionary'=>[
+					'cesionary',
+					'cesssionary',
+				],
+				'cessions'=>[
+					'cesions',
+					'cesssions',
+				],
+				'cesspit'=>[
+					'cespit',
+					'cessspit',
+				],
+				'cesspits'=>[
+					'cespits',
+					'cessspits',
+				],
+				'cesspool'=>[
+					'cespool',
+					'cessspool',
+				],
+				'cesspools'=>[
+					'cespools',
+					'cessspools',
 				],
 				'cetrimide'=>[
 					'cetramide',
@@ -2391,6 +2688,10 @@
 				'chalcedonies'=>[
 					'chalcedoneis',
 					'chalcedonis',
+				],
+				'chalkiness'=>[
+					'chalkines',
+					'chalkinesss',
 				],
 				'challah'=>[
 					'challa',
@@ -2460,6 +2761,10 @@
 				'chanchullo'=>[
 					'chancullo',
 				],
+				'chanciness'=>[
+					'chancines',
+					'chancinesss',
+				],
 				'chancy'=>[
 					'chansy',
 				],
@@ -2490,12 +2795,21 @@
 				'changeableness'=>[
 					'changeablenes',
 					'changebleness',
+					'changeablenesss',
 				],
 				'changeably'=>[
 					'changeabally',
 					'changeabaly',
 					'changeabely',
 					'changeablly',
+				],
+				'changeless'=>[
+					'changeles',
+					'changelesss',
+				],
+				'changelessly'=>[
+					'changelesly',
+					'changelesssly',
 				],
 				'changelessness'=>[
 					'changelessnes',
@@ -2556,6 +2870,10 @@
 				],
 				'chanticleer'=>[
 					'chenticleer',
+				],
+				'chantress'=>[
+					'chantres',
+					'chantresss',
 				],
 				'chantry'=>[
 					'chentry',
@@ -2620,6 +2938,10 @@
 				'characteristics'=>[
 					'charistics',
 				],
+				'characterless'=>[
+					'characterles',
+					'characterlesss',
+				],
 				'characters'=>[
 					'charachters',
 				],
@@ -2655,6 +2977,7 @@
 				],
 				'charitableness'=>[
 					'charitablenes',
+					'charitablenesss',
 				],
 				'charlatanries'=>[
 					'charlatanreis',
@@ -2663,6 +2986,10 @@
 				'charlie'=>[
 					'charlei',
 					'charli',
+				],
+				'charmless'=>[
+					'charmles',
+					'charmlesss',
 				],
 				'charr'=>[
 					'char',
@@ -2689,17 +3016,40 @@
 				'chasse'=>[
 					'chassse',
 				],
+				'chassed'=>[
+					'chasssed',
+				],
+				'chasseing'=>[
+					'chassseing',
+				],
+				'chassepot'=>[
+					'chasepot',
+					'chasssepot',
+				],
 				'chasseur'=>[
 					'chasser',
+					'chaseur',
+					'chassseur',
+				],
+				'chassidic'=>[
+					'chasssidic',
+				],
+				'chassidism'=>[
+					'chasssidism',
 				],
 				'chassis'=>[
 					'chasis',
+					'chasssis',
 				],
 				'chastely'=>[
 					'chastly',
 				],
 				'chastened'=>[
 					'chastend',
+				],
+				'chasteness'=>[
+					'chastenes',
+					'chastenesss',
 				],
 				'chateau'=>[
 					'chateu',
@@ -2726,8 +3076,15 @@
 				'chattery'=>[
 					'chattary',
 				],
+				'chattiness'=>[
+					'chattines',
+					'chattinesss',
+				],
 				'chauffeur'=>[
 					'chauffer',
+				],
+				'chausses'=>[
+					'chaussses',
 				],
 				'chautauqua'=>[
 					'chautauqau',
@@ -2750,6 +3107,10 @@
 				'cheapened'=>[
 					'cheapend',
 				],
+				'cheapness'=>[
+					'cheapnes',
+					'cheapnesss',
+				],
 				'cheat'=>[
 					'chet',
 				],
@@ -2771,20 +3132,44 @@
 				'cheddary'=>[
 					'cheddery',
 				],
+				'cheekiness'=>[
+					'cheekines',
+					'cheekinesss',
+				],
 				'cheerful'=>[
 					'chearful',
+				],
+				'cheerfulness'=>[
+					'cheerfulnes',
+					'cheerfulnesss',
 				],
 				'cheerfulnesses'=>[
 					'cheerfulneses',
 				],
+				'cheeriness'=>[
+					'cheerines',
+					'cheerinesss',
+				],
 				'cheerleader'=>[
 					'cheerleder',
+				],
+				'cheerless'=>[
+					'cheerles',
+					'cheerlesss',
 				],
 				'cheerlessly'=>[
 					'cheerlessally',
 					'cheerlessaly',
 					'cheerlessely',
 					'cheerlesslly',
+					'cheerlesly',
+					'cheerlesssly',
+				],
+				'cheerlessness'=>[
+					'cheerlesness',
+					'cheerlessnes',
+					'cheerlessnesss',
+					'cheerlesssness',
 				],
 				'cheerly'=>[
 					'cheerally',
@@ -2797,6 +3182,10 @@
 				],
 				'cheeseparings'=>[
 					'cheeseperings',
+				],
+				'cheesiness'=>[
+					'cheesines',
+					'cheesinesss',
 				],
 				'cheesy'=>[
 					'cheecy',
@@ -2898,6 +3287,21 @@
 					'ches',
 					'chesss',
 				],
+				'chessboard'=>[
+					'chesboard',
+					'chesssboard',
+				],
+				'chessboards'=>[
+					'chesboards',
+					'chesssboards',
+				],
+				'chessman'=>[
+					'chesssman',
+				],
+				'chessmen'=>[
+					'chesmen',
+					'chesssmen',
+				],
 				'chesterfield'=>[
 					'chesterfeild',
 					'chesterfild',
@@ -2905,6 +3309,10 @@
 				'chesterfields'=>[
 					'chesterfeilds',
 					'chesterfilds',
+				],
+				'chestiness'=>[
+					'chestines',
+					'chestinesss',
 				],
 				'chetah'=>[
 					'cheta',
@@ -2915,6 +3323,10 @@
 				'chevalier'=>[
 					'chevaleir',
 					'chevalir',
+				],
+				'chewiness'=>[
+					'chewines',
+					'chewinesss',
 				],
 				'chiaroscurist'=>[
 					'chiarocsurist',
@@ -2945,6 +3357,14 @@
 				],
 				'chickenhearted'=>[
 					'chickenherted',
+				],
+				'chickenheartedness'=>[
+					'chickenheartednes',
+					'chickenheartednesss',
+				],
+				'chicness'=>[
+					'chicnes',
+					'chicnesss',
 				],
 				'chief'=>[
 					'cheif',
@@ -2996,8 +3416,22 @@
 				'childbirth'=>[
 					'childbird',
 				],
+				'childishness'=>[
+					'childishnes',
+					'childishnesss',
+				],
 				'childishnesses'=>[
 					'childishneses',
+				],
+				'childless'=>[
+					'childles',
+					'childlesss',
+				],
+				'childlessness'=>[
+					'childlesness',
+					'childlessnes',
+					'childlessnesss',
+					'childlesssness',
 				],
 				'childly'=>[
 					'childally',
@@ -3025,6 +3459,14 @@
 			#	'chilli'=>[
 			#		'chili',
 			#	],
+				'chilliness'=>[
+					'chillines',
+					'chillinesss',
+				],
+				'chillness'=>[
+					'chillnes',
+					'chillnesss',
+				],
 				'chilly'=>[
 					'chilally',
 					'chilaly',
@@ -3080,6 +3522,10 @@
 				'chining'=>[
 					'chinang',
 				],
+				'chinless'=>[
+					'chinles',
+					'chinlesss',
+				],
 				'chinoiserie'=>[
 					'chinoiserei',
 					'chinoiseri',
@@ -3090,6 +3536,10 @@
 				],
 				'chinquapin'=>[
 					'chinqaupin',
+				],
+				'chintziness'=>[
+					'chintzines',
+					'chintzinesss',
 				],
 				'chinwagging'=>[
 					'chinwaging',
@@ -3122,6 +3572,10 @@
 				'chiropractor'=>[
 					'chiropracteur',
 				],
+				'chirpiness'=>[
+					'chirpines',
+					'chirpinesss',
+				],
 				'chirr'=>[
 					'chir',
 				],
@@ -3136,6 +3590,7 @@
 				],
 				'chivalrousness'=>[
 					'chivalrousnes',
+					'chivalrousnesss',
 				],
 				'chivareeing'=>[
 					'chivareieng',
@@ -3223,6 +3678,14 @@
 				'choicely'=>[
 					'choicly',
 				],
+				'choiceness'=>[
+					'choicenes',
+					'choicenesss',
+				],
+				'choicenesses'=>[
+					'choiceneses',
+					'choicenessses',
+				],
 				'chokeberries'=>[
 					'chokeberies',
 					'chokeberreis',
@@ -3306,6 +3769,10 @@
 					'choosed',
 					'choses',
 				],
+				'choosiness'=>[
+					'choosines',
+					'choosinesss',
+				],
 				'choosing'=>[
 					'chosing',
 				],
@@ -3314,6 +3781,10 @@
 				],
 				'chopper'=>[
 					'choper',
+				],
+				'choppiness'=>[
+					'choppines',
+					'choppinesss',
 				],
 				'choppy'=>[
 					'chopy',
@@ -3355,6 +3826,12 @@
 				'chorusing'=>[
 					'choruisng',
 				],
+				'chorussed'=>[
+					'chorusssed',
+				],
+				'chorussing'=>[
+					'chorusssing',
+				],
 				'chose'=>[
 					'chosed',
 				],
@@ -3377,6 +3854,10 @@
 				],
 				'chromalveolate'=>[
 					'chromoalveolate',
+				],
+				'chromaticness'=>[
+					'chromaticnes',
+					'chromaticnesss',
 				],
 				'chromatinic'=>[
 					'chromatinac',
@@ -3466,6 +3947,8 @@
 				],
 				'chubbiness'=>[
 					'chubiness',
+					'chubbines',
+					'chubbinesss',
 				],
 				'chubbinesses'=>[
 					'chubinesses',
@@ -3497,11 +3980,19 @@
 				'chummier'=>[
 					'chumnier',
 				],
+				'chumminess'=>[
+					'chummines',
+					'chumminesss',
+				],
 				'chumminesses'=>[
 					'chumninesses',
 				],
 				'chummy'=>[
 					'chumny',
+				],
+				'chunkiness'=>[
+					'chunkines',
+					'chunkinesss',
 				],
 				'chunnel'=>[
 					'chunel',
@@ -3519,6 +4010,10 @@
 					'cuhrntch',
 					'curch',
 				],
+				'churchless'=>[
+					'churchles',
+					'churchlesss',
+				],
 				'churchlinesses'=>[
 					'churchlineses',
 					'churchlinisses',
@@ -3528,6 +4023,10 @@
 					'churchaly',
 					'churchely',
 					'churchlly',
+				],
+				'churlishness'=>[
+					'churlishnes',
+					'churlishnesss',
 				],
 				'churlishnesses'=>[
 					'churlishneses',
@@ -3691,6 +4190,7 @@
 				],
 				'circuitousness'=>[
 					'circuitousnes',
+					'circuitousnesss',
 				],
 				'circular'=>[
 					'circuler',
@@ -3749,6 +4249,7 @@
 					'circumcsissile',
 					'circumscisile',
 					'circumsissile',
+					'circumscisssile',
 				],
 				'circumscribe'=>[
 					'circumcribe',
@@ -3853,6 +4354,10 @@
 				],
 				'cislunar'=>[
 					'cisluner',
+				],
+				'cissoid'=>[
+					'cisoid',
+					'cisssoid',
 				],
 				'cissy'=>[
 					'ciscy',
@@ -3962,6 +4467,10 @@
 					'clairvoyantlly',
 					'clairvoyently',
 				],
+				'clamminess'=>[
+					'clammines',
+					'clamminesss',
+				],
 				'clamminesses'=>[
 					'clamninesses',
 				],
@@ -3996,6 +4505,8 @@
 				],
 				'clamorousness'=>[
 					'clamourousness',
+					'clamorousnes',
+					'clamorousnesss',
 				],
 				'clamorousnesses'=>[
 					'clamourousnesses',
@@ -4029,6 +4540,8 @@
 				],
 				'clannishness'=>[
 					'clanishness',
+					'clannishnes',
+					'clannishnesss',
 				],
 				'clannishnesses'=>[
 					'clanishnesses',
@@ -4075,8 +4588,13 @@
 					'clas',
 					'classs',
 				],
+				'classed'=>[
+					'clased',
+					'classsed',
+				],
 				'classes'=>[
 					'clases',
+					'classses',
 				],
 				'classic'=>[
 					'clasic',
@@ -4086,24 +4604,76 @@
 					'clasical',
 					'classsical',
 				],
+				'classicalism'=>[
+					'clasicalism',
+					'classsicalism',
+				],
 				'classicalities'=>[
 					'clasicalities',
+				],
+				'classicality'=>[
+					'clasicality',
+					'classsicality',
 				],
 				'classically'=>[
 					'clasically',
 					'classicaly',
+					'classsically',
 				],
 				'classicism'=>[
 					'clasicism',
+					'classsicism',
+				],
+				'classicist'=>[
+					'classsicist',
+				],
+				'classicists'=>[
+					'clasicists',
+					'classsicists',
+				],
+				'classicize'=>[
+					'clasicize',
+					'classsicize',
+				],
+				'classicized'=>[
+					'clasicized',
+					'classsicized',
+				],
+				'classicizes'=>[
+					'clasicizes',
+					'classsicizes',
+				],
+				'classicizing'=>[
+					'clasicizing',
+					'classsicizing',
 				],
 				'classics'=>[
 					'clasics',
+					'classsics',
+				],
+				'classier'=>[
+					'clasier',
+					'classsier',
+				],
+				'classiest'=>[
+					'clasiest',
+					'classsiest',
+				],
+				'classifiable'=>[
+					'clasifiable',
+					'classsifiable',
 				],
 				'classification'=>[
 					'clasification',
+					'classsification',
+				],
+				'classifications'=>[
+					'clasifications',
+					'classsifications',
 				],
 				'classificatory'=>[
 					'clasificatory',
+					'classsificatory',
 				],
 				'classified'=>[
 					'clasified',
@@ -4112,27 +4682,93 @@
 					'classifid',
 					'classsified',
 				],
+				'classifieds'=>[
+					'clasifieds',
+					'classsifieds',
+				],
 				'classifier'=>[
 					'classifeir',
 					'classifir',
+					'clasifier',
+					'classsifier',
+				],
+				'classifiers'=>[
+					'clasifiers',
+					'classsifiers',
+				],
+				'classifies'=>[
+					'clasifies',
+					'classsifies',
 				],
 				'classify'=>[
 					'clasify',
+					'classsify',
+				],
+				'classifying'=>[
+					'clasifying',
+					'classsifying',
+				],
+				'classily'=>[
+					'clasily',
+					'classsily',
+				],
+				'classiness'=>[
+					'clasiness',
+					'classines',
+					'classinesss',
+					'classsiness',
+				],
+				'classing'=>[
+					'clasing',
+					'classsing',
+				],
+				'classism'=>[
+					'clasism',
+					'classsism',
+				],
+				'classist'=>[
+					'clasist',
+					'classsist',
 				],
 				'classless'=>[
 					'classles',
 					'classsles',
 					'classsless',
+					'clasless',
+					'classlesss',
+				],
+				'classlessness'=>[
+					'claslessness',
+					'classlesness',
+					'classlessnes',
+					'classlessnesss',
+					'classlesssness',
+					'classslessness',
 				],
 				'classmate'=>[
 					'clasmate',
+					'classsmate',
+				],
+				'classmates'=>[
+					'clasmates',
+					'classsmates',
 				],
 				'classroom'=>[
 					'clasroom',
+					'classsroom',
+				],
+				'classrooms'=>[
+					'clasrooms',
+					'classsrooms',
+				],
+				'classwork'=>[
+					'classswork',
+					'claswork',
 				],
 				'classy'=>[
 					'clascy',
 					'clasy',
+					'classsy',
 				],
 				'clattery'=>[
 					'clattary',
@@ -4178,6 +4814,10 @@
 				'cleaner'=>[
 					'clener',
 				],
+				'cleanliness'=>[
+					'cleanlines',
+					'cleanlinesss',
+				],
 				'cleanlinesses'=>[
 					'clenlinesses',
 				],
@@ -4187,6 +4827,10 @@
 					'cleanely',
 					'cleanlly',
 					'clenly',
+				],
+				'cleanness'=>[
+					'cleannes',
+					'cleannesss',
 				],
 				'cleannesses'=>[
 					'cleanesses',
@@ -4232,6 +4876,10 @@
 				],
 				'clearly'=>[
 					'claerly',
+				],
+				'clearness'=>[
+					'clearnes',
+					'clearnesss',
 				],
 				'clearstories'=>[
 					'clearstoreis',
@@ -4297,6 +4945,10 @@
 					'clerkely',
 					'clerklly',
 				],
+				'cleverness'=>[
+					'clevernes',
+					'clevernesss',
+				],
 				'clickable'=>[
 					'clickible',
 				],
@@ -4360,6 +5012,10 @@
 				'clipping'=>[
 					'cliping',
 				],
+				'cliquishness'=>[
+					'cliquishnes',
+					'cliquishnesss',
+				],
 				'cliquishnesses'=>[
 					'cliquishneses',
 				],
@@ -4377,6 +5033,10 @@
 				],
 				'clobbers'=>[
 					'clobers',
+				],
+				'cloddishness'=>[
+					'cloddishnes',
+					'cloddishnesss',
 				],
 				'cloddishnesses'=>[
 					'cloddishneses',
@@ -4430,6 +5090,10 @@
 				'closely-related'=>[
 					'closely related',
 				],
+				'closeness'=>[
+					'closenes',
+					'closenesss',
+				],
 				'clothesline'=>[
 					'clotheslini',
 				],
@@ -4438,9 +5102,11 @@
 				],
 				'clothespress'=>[
 					'clothespres',
+					'clothespresss',
 				],
 				'clothespresses'=>[
 					'clothespreses',
+					'clothespressses',
 				],
 				'clothier'=>[
 					'clotheir',
@@ -4457,6 +5123,14 @@
 				'cloudberry'=>[
 					'cloudbery',
 				],
+				'cloudiness'=>[
+					'cloudines',
+					'cloudinesss',
+				],
+				'cloudless'=>[
+					'cloudles',
+					'cloudlesss',
+				],
 				'cloudlessly'=>[
 					'cloudlessally',
 					'cloudlessaly',
@@ -4471,11 +5145,19 @@
 				'cloverleaf'=>[
 					'cloverlef',
 				],
+				'clownishness'=>[
+					'clownishnes',
+					'clownishnesss',
+				],
 				'clownishnesses'=>[
 					'clownishneses',
 				],
 				'cloxacillin'=>[
 					'cloxacilin',
+				],
+				'cloyingness'=>[
+					'cloyingnes',
+					'cloyingnesss',
 				],
 				'clozapine'=>[
 					'clozapini',
@@ -4516,6 +5198,11 @@
 				],
 				'clueless'=>[
 					'clueles',
+					'cluelesss',
+				],
+				'clumsiness'=>[
+					'clumsines',
+					'clumsinesss',
 				],
 				'clumsy'=>[
 					'clumcy',
@@ -4568,6 +5255,10 @@
 				'coaches'=>[
 					'coachs',
 				],
+				'coadjutress'=>[
+					'coadjutres',
+					'coadjutresss',
+				],
 				'coagency'=>[
 					'coagensy',
 				],
@@ -4609,6 +5300,10 @@
 				],
 				'coarsened'=>[
 					'coarsend',
+				],
+				'coarseness'=>[
+					'coarsenes',
+					'coarsenesss',
 				],
 				'coast'=>[
 					'caost',
@@ -4792,6 +5487,10 @@
 				'cockeyednesses'=>[
 					'cockeyedneses',
 				],
+				'cockiness'=>[
+					'cockines',
+					'cockinesss',
+				],
 				'cockleshell'=>[
 					'cockleshel',
 				],
@@ -4938,6 +5637,10 @@
 					'coerciviteis',
 					'coercivitis',
 				],
+				'coessential'=>[
+					'coesential',
+					'coesssential',
+				],
 				'coevolutionary'=>[
 					'coevolutionery',
 				],
@@ -4973,6 +5676,10 @@
 				],
 				'cognately'=>[
 					'cognatly',
+				],
+				'cognateness'=>[
+					'cognatenes',
+					'cognatenesss',
 				],
 				'cognitively'=>[
 					'cognitivly',
@@ -5023,6 +5730,10 @@
 				],
 				'cohesively'=>[
 					'cohesivly',
+				],
+				'cohesiveness'=>[
+					'cohesivenes',
+					'cohesivenesss',
 				],
 				'cohesivenesses'=>[
 					'cohesiveneses',
@@ -5114,6 +5825,10 @@
 				'coldheartedness'=>[
 					'coldhertedness',
 				],
+				'coldness'=>[
+					'coldnes',
+					'coldnesss',
+				],
 				'colibacillosis'=>[
 					'colibacilosis',
 				],
@@ -5180,6 +5895,10 @@
 				],
 				'collard'=>[
 					'colard',
+				],
+				'collarless'=>[
+					'collarles',
+					'collarlesss',
 				],
 				'collate'=>[
 					'colate',
@@ -5253,6 +5972,10 @@
 				],
 				'collectively'=>[
 					'collectivly',
+				],
+				'collectiveness'=>[
+					'collectivenes',
+					'collectivenesss',
 				],
 				'collectivising'=>[
 					'colectivising',
@@ -5436,6 +6159,18 @@
 				'colorant'=>[
 					'colorent',
 				],
+				'colorblindness'=>[
+					'colorblindnes',
+					'colorblindnesss',
+				],
+				'colorfastness'=>[
+					'colorfastnes',
+					'colorfastnesss',
+				],
+				'colorfulness'=>[
+					'colorfulnes',
+					'colorfulnesss',
+				],
 				'colorfulnesses'=>[
 					'colorfulneses',
 				],
@@ -5452,28 +6187,55 @@
 				],
 				'colorless'=>[
 					'colorles',
+					'colorlesss',
 				],
 				'colorlessly'=>[
 					'colorlessally',
 					'colorlessaly',
 					'colorlessely',
 					'colorlesslly',
+					'colorlesly',
+					'colorlesssly',
+				],
+				'colorlessness'=>[
+					'colorlesness',
+					'colorlessnes',
+					'colorlessnesss',
+					'colorlesssness',
 				],
 				'colossal'=>[
 					'collosal',
 					'colosal',
+					'colosssal',
+				],
+				'colossally'=>[
+					'colosally',
+					'colosssally',
 				],
 				'colosseum'=>[
 					'coloseum',
+					'colossseum',
+				],
+				'colossi'=>[
+					'colosssi',
 				],
 				'colossus'=>[
 					'colosus',
+					'colosssus',
+				],
+				'colossuses'=>[
+					'colosssuses',
+					'colosuses',
 				],
 				'colporteur'=>[
 					'colporter',
 				],
 				'colposcopy'=>[
 					'coloposcopy',
+				],
+				'coltishness'=>[
+					'coltishnes',
+					'coltishnesss',
 				],
 				'columbary'=>[
 					'columbery',
@@ -5517,6 +6279,10 @@
 			#	],
 				'combatively'=>[
 					'combativly',
+				],
+				'combativeness'=>[
+					'combativenes',
+					'combativenesss',
 				],
 				'combination'=>[
 					'combinition',
@@ -5562,6 +6328,10 @@
 				'comediennes'=>[
 					'comedienes',
 				],
+				'comeliness'=>[
+					'comelines',
+					'comelinesss',
+				],
 				'comely'=>[
 					'comeally',
 					'comealy',
@@ -5588,8 +6358,17 @@
 				'comfortable'=>[
 					'comfortible',
 				],
+				'comfortableness'=>[
+					'comfortablenes',
+					'comfortablenesss',
+				],
 				'comfortless'=>[
 					'comfortles',
+					'comfortlesss',
+				],
+				'comicalness'=>[
+					'comicalnes',
+					'comicalnesss',
 				],
 				'coming'=>[
 					'comming',
@@ -5939,27 +6718,39 @@
 				'commissar'=>[
 					'commisser',
 					'comnissar',
+					'commisar',
+					'commisssar',
 				],
 				'commissarial'=>[
 					'comnissarial',
+					'commisarial',
+					'commisssarial',
 				],
 				'commissariat'=>[
 					'commisariat',
 					'comnissariat',
+					'commisssariat',
 				],
 				'commissariats'=>[
 					'comnissariats',
+					'commisariats',
+					'commisssariats',
 				],
 				'commissaries'=>[
 					'comnissaries',
+					'commisaries',
+					'commisssaries',
 				],
 				'commissars'=>[
 					'comnissars',
+					'commisars',
+					'commisssars',
 				],
 				'commissary'=>[
 					'commisary',
 					'commissery',
 					'comnissary',
+					'commisssary',
 				],
 				'commission'=>[
 					'comision',
@@ -5967,13 +6758,17 @@
 					'comission', 'commision',
 					'commision',
 					'comnission',
+					'commisssion',
 				],
 				'commissionaire'=>[
 					'commisionaire',
 					'comnissionaire',
+					'commisssionaire',
 				],
 				'commissionaires'=>[
 					'comnissionaires',
+					'commisionaires',
+					'commisssionaires',
 				],
 				'commissioned'=>[
 					'comisioned',
@@ -5981,26 +6776,36 @@
 					'comissioned', 'commisioned', 'commisssioned',
 					'commisioned',
 					'comnissioned',
+					'commisssioned',
 				],
 				'commissioner'=>[
 					'comisioner',
 					'comissioner',
 					'commisioner',
 					'comnissioner',
+					'commisssioner',
 				],
 				'commissioners'=>[
 					'comnissioners',
+					'commisioners',
+					'commisssioners',
+				],
+				'commissionership'=>[
+					'commisionership',
+					'commisssionership',
 				],
 				'commissioning'=>[
 					'comisioning',
 					'comissioning',
 					'commisioning',
 					'comnissioning',
+					'commisssioning',
 				],
 				'commissions'=>[
 					'comisions',
 					'comissions',
 					'commisions',
+					'commisssions',
 				],
 				'commissural'=>[
 					'comnissural',
@@ -6009,6 +6814,7 @@
 				'commissure'=>[
 					'comnissure',
 					'commisure',
+					'commisssure',
 				],
 				'commissures'=>[
 					'comnissures',
@@ -6111,6 +6917,11 @@
 				'commodiousness'=>[
 					'commodiousnes',
 					'comnodiousness',
+					'commodiousnesss',
+				],
+				'commodiousnesses'=>[
+					'commodiousneses',
+					'commodiousnessses',
 				],
 				'commodities'=>[
 					'comnodities',
@@ -6155,6 +6966,8 @@
 				],
 				'commonness'=>[
 					'comnonness',
+					'commonnes',
+					'commonnesss',
 				],
 				'commonnesses'=>[
 					'commonesses',
@@ -6165,6 +6978,12 @@
 				],
 				'commonplaceness'=>[
 					'comnonplaceness',
+					'commonplacenes',
+					'commonplacenesss',
+				],
+				'commonplacenesses'=>[
+					'commonplaceneses',
+					'commonplacenessses',
 				],
 				'commonplaces'=>[
 					'comnonplaces',
@@ -6285,6 +7104,14 @@
 					'communicativelly',
 					'communicativly',
 					'comnunicatively',
+				],
+				'communicativeness'=>[
+					'communicativenes',
+					'communicativenesss',
+				],
+				'communicativenesses'=>[
+					'communicativeneses',
+					'communicativenessses',
 				],
 				'communicator'=>[
 					'comnunicator',
@@ -6431,6 +7258,10 @@
 				'compactible'=>[
 					'compactable',
 				],
+				'compactness'=>[
+					'compactnes',
+					'compactnesss',
+				],
 				'companies'=>[
 					'companys',
 				],
@@ -6439,6 +7270,14 @@
 				],
 				'companionable'=>[
 					'companionible',
+				],
+				'companionableness'=>[
+					'companionablenes',
+					'companionablenesss',
+				],
+				'companionablenesses'=>[
+					'companionableneses',
+					'companionablenessses',
 				],
 				'company'=>[
 					'compagny',
@@ -6560,12 +7399,27 @@
 				],
 				'compass'=>[
 					'compas',
+					'compasss',
+				],
+				'compassed'=>[
+					'compased',
+					'compasssed',
+				],
+				'compasses'=>[
+					'compases',
+					'compassses',
+				],
+				'compassing'=>[
+					'compasing',
+					'compasssing',
 				],
 				'compassion'=>[
 					'compasion',
+					'compasssion',
 				],
 				'compassionate'=>[
 					'compasionate',
+					'compasssionate',
 				],
 				'compassionated'=>[
 					'compasionated',
@@ -6576,6 +7430,8 @@
 					'compassionateely',
 					'compassionatelly',
 					'compassionatly',
+					'compasionately',
+					'compasssionately',
 				],
 				'compassionates'=>[
 					'compasionates',
@@ -6621,6 +7477,10 @@
 					'compendiouslly',
 					'compendously',
 				],
+				'compendiousness'=>[
+					'compendiousnes',
+					'compendiousnesss',
+				],
 				'compensable'=>[
 					'compensible',
 				],
@@ -6655,6 +7515,10 @@
 					'competitivly',
 					'competively',
 					'competetively',
+				],
+				'competitiveness'=>[
+					'competitivenes',
+					'competitivenesss',
 				],
 				'competitor'=>[
 					'competor',
@@ -6751,6 +7615,10 @@
 				'completely'=>[
 					'completly',
 				],
+				'completeness'=>[
+					'completenes',
+					'completenesss',
+				],
 				'completenesses'=>[
 					'completeneses',
 				],
@@ -6762,6 +7630,14 @@
 					'complexaly',
 					'complexely',
 					'complexlly',
+				],
+				'complexness'=>[
+					'complexnes',
+					'complexnesss',
+				],
+				'complexnesses'=>[
+					'complexneses',
+					'complexnessses',
 				],
 				'compliance'=>[
 					'complience',
@@ -6814,8 +7690,16 @@
 					'composately',
 					'compositly',
 				],
+				'compositeness'=>[
+					'compositenes',
+					'compositenesss',
+				],
 				'compositions'=>[
 					'compoisitions',
+				],
+				'compossible'=>[
+					'composible',
+					'composssible',
 				],
 				'comprehendible'=>[
 					'comprehendable',
@@ -6833,11 +7717,17 @@
 					'comprehensivelly',
 					'comprehensivly',
 				],
+				'comprehensiveness'=>[
+					'comprehensivenes',
+					'comprehensivenesss',
+				],
 				'compress'=>[
 					'compres',
+					'compresss',
 				],
 				'compressed'=>[
 					'compresed',
+					'compresssed',
 				],
 				'compressedly'=>[
 					'compressedally',
@@ -6845,21 +7735,53 @@
 					'compressedely',
 					'compressedlly',
 				],
+				'compresses'=>[
+					'compreses',
+					'compressses',
+				],
+				'compressibilities'=>[
+					'compresibilities',
+					'compresssibilities',
+				],
+				'compressibility'=>[
+					'compresibility',
+					'compresssibility',
+				],
 				'compressible'=>[
 					'compresible',
 					'compressable',
+					'compresssible',
+				],
+				'compressing'=>[
+					'compresing',
+					'compresssing',
 				],
 				'compression'=>[
 					'compresion',
+					'compresssion',
+				],
+				'compressional'=>[
+					'compresional',
+					'compresssional',
+				],
+				'compressions'=>[
+					'compresions',
+					'compresssions',
 				],
 				'compressive'=>[
 					'compresive',
+					'compresssive',
 				],
 				'compressively'=>[
 					'compressivly',
 				],
 				'compressor'=>[
 					'compresor',
+					'compresssor',
+				],
+				'compressors'=>[
+					'compresors',
+					'compresssors',
 				],
 				'compromise'=>[
 					'comprimise',
@@ -6880,9 +7802,18 @@
 				],
 				'compulsiveness'=>[
 					'compulsivenes',
+					'compulsivenesss',
 				],
 				'compulsorily'=>[
 					'compulsarily',
+				],
+				'compulsoriness'=>[
+					'compulsorines',
+					'compulsorinesss',
+				],
+				'compunctionless'=>[
+					'compunctionles',
+					'compunctionlesss',
 				],
 				'compunctious'=>[
 					'compunctous',
@@ -6929,6 +7860,10 @@
 				'concavely'=>[
 					'concavly',
 				],
+				'concaveness'=>[
+					'concavenes',
+					'concavenesss',
+				],
 				'conceal'=>[
 					'concel',
 				],
@@ -6952,6 +7887,8 @@
 				],
 				'conceitedness'=>[
 					'concietedness',
+					'conceitednes',
+					'conceitednesss',
 				],
 				'conceitednesses'=>[
 					'concietednesses',
@@ -7112,15 +8049,40 @@
 				'concession'=>[
 					'concesion',
 					'consession',
+					'concesssion',
 				],
 				'concessionaire'=>[
 					'concesionaire',
+					'concesssionaire',
+				],
+				'concessionaires'=>[
+					'concesionaires',
+					'concesssionaires',
+				],
+				'concessional'=>[
+					'concesional',
+					'concesssional',
 				],
 				'concessionary'=>[
 					'concessionery',
+					'concesionary',
+					'concesssionary',
 				],
 				'concessioner'=>[
 					'concesioner',
+					'concesssioner',
+				],
+				'concessioners'=>[
+					'concesioners',
+					'concesssioners',
+				],
+				'concessions'=>[
+					'concesions',
+					'concesssions',
+				],
+				'concessive'=>[
+					'concesive',
+					'concesssive',
 				],
 				'concessively'=>[
 					'concessivly',
@@ -7142,6 +8104,10 @@
 					'conciliarely',
 					'conciliarlly',
 				],
+				'conciliatoriness'=>[
+					'conciliatorines',
+					'conciliatorinesss',
+				],
 				'concinnities'=>[
 					'concinities',
 				],
@@ -7150,6 +8116,10 @@
 				],
 				'concisely'=>[
 					'concisly',
+				],
+				'conciseness'=>[
+					'concisenes',
+					'concisenesss',
 				],
 				'conclusion'=>[
 					'concluison',
@@ -7172,6 +8142,7 @@
 				'conclusiveness'=>[
 					'concluisveness',
 					'conclusivenes',
+					'conclusivenesss',
 				],
 				'concomitance'=>[
 					'concomitence',
@@ -7214,6 +8185,10 @@
 				'concretely'=>[
 					'concertely',
 					'concretly',
+				],
+				'concreteness'=>[
+					'concretenes',
+					'concretenesss',
 				],
 				'concretenesses'=>[
 					'concreteneses',
@@ -7273,8 +8248,33 @@
 				'concurring'=>[
 					'concuring',
 				],
+				'concuss'=>[
+					'concus',
+					'concusss',
+				],
+				'concussed'=>[
+					'concused',
+					'concusssed',
+				],
+				'concusses'=>[
+					'concuses',
+					'concussses',
+				],
+				'concussing'=>[
+					'concusing',
+					'concusssing',
+				],
 				'concussion'=>[
 					'concusion',
+					'concusssion',
+				],
+				'concussions'=>[
+					'concusions',
+					'concusssions',
+				],
+				'concussive'=>[
+					'concusive',
+					'concusssive',
 				],
 				'condemn'=>[
 					'condem',
@@ -7373,6 +8373,10 @@
 				'conducive'=>[
 					'condusive',
 				],
+				'conduciveness'=>[
+					'conducivenes',
+					'conducivenesss',
+				],
 				'conductance'=>[
 					'conductence',
 				],
@@ -7384,6 +8388,11 @@
 				],
 				'conductress'=>[
 					'conductres',
+					'conductresss',
+				],
+				'conductresses'=>[
+					'conductreses',
+					'conductressses',
 				],
 				'condyle'=>[
 					'chondyle',
@@ -7430,12 +8439,31 @@
 				],
 				'confess'=>[
 					'confes',
+					'confesss',
+				],
+				'confessed'=>[
+					'confesed',
+					'confesssed',
+				],
+				'confessedly'=>[
+					'confesedly',
+					'confesssedly',
+				],
+				'confesses'=>[
+					'confeses',
+					'confessses',
+				],
+				'confessing'=>[
+					'confesing',
+					'confesssing',
 				],
 				'confession'=>[
 					'confesion',
+					'confesssion',
 				],
 				'confessional'=>[
 					'confesional',
+					'confesssional',
 				],
 				'confessionally'=>[
 					'confesionally',
@@ -7444,8 +8472,21 @@
 					'confessionalely',
 					'confessionallly',
 				],
+				'confessionals'=>[
+					'confesionals',
+					'confesssionals',
+				],
+				'confessions'=>[
+					'confesions',
+					'confesssions',
+				],
 				'confessor'=>[
 					'confesor',
+					'confesssor',
+				],
+				'confessors'=>[
+					'confesors',
+					'confesssors',
 				],
 				'confidant'=>[
 					'confidaent',
@@ -7534,6 +8575,10 @@
 					'confoundedely',
 					'confoundedlly',
 				],
+				'confoundedness'=>[
+					'confoundednes',
+					'confoundednesss',
+				],
 				'confraternities'=>[
 					'confraterniteis',
 					'confraternitis',
@@ -7549,6 +8594,10 @@
 					'confusedaly',
 					'confusedely',
 					'confusedlly',
+				],
+				'confusedness'=>[
+					'confusednes',
+					'confusednesss',
 				],
 				'confusednesses'=>[
 					'confusedneses',
@@ -7567,6 +8616,14 @@
 				],
 				'confusions'=>[
 					'confuisons',
+				],
+				'congenialness'=>[
+					'congenialnes',
+					'congenialnesss',
+				],
+				'congenialnesses'=>[
+					'congenialneses',
+					'congenialnessses',
 				],
 				'congeries'=>[
 					'congereis',
@@ -7602,25 +8659,49 @@
 				'congress'=>[
 					'congerss',
 					'congres',
+					'congresss',
 				],
 				'congresses'=>[
 					'congersses',
+					'congreses',
+					'congressses',
 				],
 				'congressional'=>[
 					'congerssional',
 					'congresional',
+					'congresssional',
+				],
+				'congressionally'=>[
+					'congresionally',
+					'congresssionally',
 				],
 				'congressman'=>[
 					'congresman',
+					'congresssman',
+				],
+				'congressmen'=>[
+					'congresmen',
+					'congresssmen',
 				],
 				'congresspeople'=>[
 					'congrespeople',
+					'congressspeople',
 				],
 				'congressperson'=>[
 					'congresperson',
+					'congresssperson',
+				],
+				'congresspersons'=>[
+					'congrespersons',
+					'congressspersons',
 				],
 				'congresswoman'=>[
 					'congreswoman',
+					'congressswoman',
+				],
+				'congresswomen'=>[
+					'congressswomen',
+					'congreswomen',
 				],
 				'congruence'=>[
 					'congruance',
@@ -7636,9 +8717,13 @@
 				],
 				'congruousness'=>[
 					'congrousness',
+					'congruousnes',
+					'congruousnesss',
 				],
 				'congruousnesses'=>[
 					'congrousnesses',
+					'congruousneses',
+					'congruousnessses',
 				],
 				'conical'=>[
 					'concial',
@@ -7724,6 +8809,8 @@
 				],
 				'connectedness'=>[
 					'conectedness',
+					'connectednes',
+					'connectednesss',
 				],
 				'connectednesses'=>[
 					'conectednesses',
@@ -7795,12 +8882,21 @@
 					'connoiseur',
 					'connoisser',
 					'conoisseur',
+					'connoissseur',
 				],
 				'connoisseurs'=>[
 					'conoisseurs',
+					'connoiseurs',
+					'connoissseurs',
 				],
 				'connoisseurship'=>[
 					'conoisseurship',
+					'connoiseurship',
+					'connoissseurship',
+				],
+				'connoisseurships'=>[
+					'connoiseurships',
+					'connoissseurships',
 				],
 				'connotation'=>[
 					'cannotation',
@@ -7884,6 +8980,7 @@
 					'concsienceless',
 					'conscienceles',
 					'consienceless',
+					'consciencelesss',
 				],
 				'conscientious'=>[
 					'concientious',
@@ -7903,6 +9000,10 @@
 					'conscientously',
 					'conscintiously',
 					'consientiously',
+				],
+				'conscientiousness'=>[
+					'conscientiousnes',
+					'conscientiousnesss',
 				],
 				'conscionable'=>[
 					'concionable',
@@ -7936,6 +9037,8 @@
 					'conciousnesses',
 					'concsiousnesses',
 					'consiousnesses',
+					'consciousneses',
+					'consciousnessses',
 				],
 				'conscript'=>[
 					'concript',
@@ -7968,6 +9071,10 @@
 				],
 				'consecutively'=>[
 					'consecutivly',
+				],
+				'consecutiveness'=>[
+					'consecutivenes',
+					'consecutivenesss',
 				],
 				'consensual'=>[
 					'consensaul',
@@ -8028,6 +9135,10 @@
 				'conservatively'=>[
 					'conservativly',
 				],
+				'conservativeness'=>[
+					'conservativenes',
+					'conservativenesss',
+				],
 				'conservatories'=>[
 					'conservatoreis',
 					'conservatoris',
@@ -8051,6 +9162,10 @@
 				],
 				'considerately'=>[
 					'consideratly',
+				],
+				'considerateness'=>[
+					'consideratenes',
+					'consideratenesss',
 				],
 				'consideration'=>[
 					'conideration',
@@ -8153,6 +9268,8 @@
 				],
 				'conspicuousness'=>[
 					'conspicousness',
+					'conspicuousnes',
+					'conspicuousnesss',
 				],
 				'conspiracism'=>[
 					'conspiricism',
@@ -8241,6 +9358,10 @@
 				'constructively'=>[
 					'constructivly',
 				],
+				'constructiveness'=>[
+					'constructivenes',
+					'constructivenesss',
+				],
 				'consubstantial'=>[
 					'consubstential',
 				],
@@ -8307,6 +9428,7 @@
 				],
 				'contagiousness'=>[
 					'contagiousnes',
+					'contagiousnesss',
 				],
 				'contain'=>[
 					'countain',
@@ -8386,6 +9508,14 @@
 				'contemporaneous'=>[
 					'contemporaneus',
 				],
+				'contemporaneousness'=>[
+					'contemporaneousnes',
+					'contemporaneousnesss',
+				],
+				'contemporaneousnesses'=>[
+					'contemporaneousneses',
+					'contemporaneousnessses',
+				],
 				'contemporaries'=>[
 					'contamporaries',
 					'contemporareis',
@@ -8416,8 +9546,16 @@
 					'contemptuousely',
 					'contemptuouslly',
 				],
+				'contemptuousness'=>[
+					'contemptuousnes',
+					'contemptuousnesss',
+				],
 				'content'=>[
 					'contant',
+				],
+				'contentedness'=>[
+					'contentednes',
+					'contentednesss',
 				],
 				'contentednesses'=>[
 					'contantednesses',
@@ -8439,6 +9577,8 @@
 				],
 				'contentiousness'=>[
 					'contantiousness',
+					'contentiousnes',
+					'contentiousnesss',
 				],
 				'contentment'=>[
 					'contentmant',
@@ -8449,8 +9589,16 @@
 					'conterminousely',
 					'conterminouslly',
 				],
+				'conterminousness'=>[
+					'conterminousnes',
+					'conterminousnesss',
+				],
 				'contestant'=>[
 					'contestent',
+				],
+				'contextless'=>[
+					'contextles',
+					'contextlesss',
 				],
 				'contextual'=>[
 					'contextaul',
@@ -8479,6 +9627,11 @@
 				'contiguousness'=>[
 					'contigousness',
 					'contiguousnes',
+					'contiguousnesss',
+				],
+				'contiguousnesses'=>[
+					'contiguousneses',
+					'contiguousnessses',
 				],
 				'continence'=>[
 					'continance',
@@ -8574,6 +9727,11 @@
 				'continuousness'=>[
 					'continousness',
 					'continuousnes',
+					'continuousnesss',
+				],
+				'continuousnesses'=>[
+					'continuousneses',
+					'continuousnessses',
 				],
 				'continuum'=>[
 					'continum',
@@ -8581,14 +9739,23 @@
 				'contortion'=>[
 					'contorsion',
 				],
+				'contrabass'=>[
+					'contrabasss',
+				],
+				'contrabasses'=>[
+					'contrabases',
+					'contrabassses',
+				],
 				'contrabassists'=>[
 					'contrabasists',
 				],
 				'contrabassoon'=>[
 					'contrabasoon',
+					'contrabasssoon',
 				],
 				'contrabassoons'=>[
 					'contrabasoons',
+					'contrabasssoons',
 				],
 				'contractible'=>[
 					'contractable',
@@ -8643,6 +9810,10 @@
 					'contrareity',
 					'contrarity',
 				],
+				'contrariness'=>[
+					'contrarines',
+					'contrarinesss',
+				],
 				'contrarinesses'=>[
 					'contrarineses',
 					'contrarinisses',
@@ -8683,6 +9854,10 @@
 				'contritely'=>[
 					'contrately',
 					'contritly',
+				],
+				'contriteness'=>[
+					'contritenes',
+					'contritenesss',
 				],
 				'contritenesses'=>[
 					'contriteneses',
@@ -8972,6 +10147,10 @@
 					'cooaly',
 					'coollly',
 				],
+				'coolness'=>[
+					'coolnes',
+					'coolnesss',
+				],
 				'coomassie'=>[
 					'commassie',
 					'coomasie',
@@ -9018,6 +10197,8 @@
 				],
 				'cooperativeness'=>[
 					'co-operativeness',
+					'cooperativenes',
+					'cooperativenesss',
 				],
 				'cooperatives'=>[
 					'co- operatives',
@@ -9121,6 +10302,10 @@
 				'copiously'=>[
 					'copously',
 				],
+				'copiousness'=>[
+					'copiousnes',
+					'copiousnesss',
+				],
 				'coplanar'=>[
 					'coplaner',
 				],
@@ -9185,6 +10370,11 @@
 				],
 				'coprocessor'=>[
 					'coprocesor',
+					'coprocesssor',
+				],
+				'coprocessors'=>[
+					'coprocesors',
+					'coprocesssors',
 				],
 				'coprophagy'=>[
 					'corpophagy',
@@ -9214,6 +10404,7 @@
 				],
 				'coquettishness'=>[
 					'coquettishnes',
+					'coquettishnesss',
 				],
 				'coquilhatville'=>[
 					'coquihatville',
@@ -9251,6 +10442,7 @@
 				],
 				'cordless'=>[
 					'cordles',
+					'cordlesss',
 				],
 				'cordwainer'=>[
 					'cordwainir',
@@ -9310,6 +10502,10 @@
 				'cornfield'=>[
 					'cornfeild',
 					'cornfild',
+				],
+				'corniness'=>[
+					'cornines',
+					'corninesss',
 				],
 				'cornmeal'=>[
 					'cormeal',
@@ -9421,6 +10617,10 @@
 				],
 				'correctively'=>[
 					'correctivly',
+				],
+				'correctness'=>[
+					'correctnes',
+					'correctnesss',
 				],
 				'correctnesses'=>[
 					'corectnesses',
@@ -9582,6 +10782,8 @@
 				],
 				'corrosiveness'=>[
 					'corosiveness',
+					'corrosivenes',
+					'corrosivenesss',
 				],
 				'corrosivenesses'=>[
 					'corosivenesses',
@@ -9620,6 +10822,10 @@
 					'corruptaly',
 					'corruptely',
 					'corruptlly',
+				],
+				'corruptness'=>[
+					'corruptnes',
+					'corruptnesss',
 				],
 				'corruptnesses'=>[
 					'coruptnesses',
@@ -9691,15 +10897,43 @@
 				],
 				'coss'=>[
 					'cos',
+					'cosss',
+				],
+				'cosses'=>[
+					'cossses',
 				],
 				'cosset'=>[
 					'coset',
+					'cossset',
+				],
+				'cosseted'=>[
+					'cossseted',
+				],
+				'cosseting'=>[
+					'cossseting',
+				],
+				'cossets'=>[
+					'cosssets',
+				],
+				'cossetted'=>[
+					'cosssetted',
+				],
+				'cossetting'=>[
+					'cosssetting',
 				],
 				'costa rican-occupied'=>[
 					'costa rican occupied',
 				],
 				'costar'=>[
 					'coster',
+				],
+				'costless'=>[
+					'costles',
+					'costlesss',
+				],
+				'costliness'=>[
+					'costlines',
+					'costlinesss',
 				],
 				'costly'=>[
 					'costally',
@@ -9771,6 +11005,13 @@
 			#	'councillor'=>[
 			#		'councilor',
 			#	],
+				'coulisse'=>[
+					'coulise',
+					'coulissse',
+				],
+				'coulisses'=>[
+					'coulissses',
+				],
 				'councilor'=>[
 					'councellor',
 				],
@@ -9862,6 +11103,7 @@
 				],
 				'counterpressure'=>[
 					'counterpresure',
+					'counterpresssure',
 				],
 				'counterrallied'=>[
 					'counterallied',
@@ -9939,12 +11181,18 @@
 				],
 				'countess'=>[
 					'countes',
+					'countesss',
+				],
+				'countesses'=>[
+					'counteses',
+					'countessses',
 				],
 				'countian'=>[
 					'countan',
 				],
 				'countless'=>[
 					'countles',
+					'countlesss',
 				],
 				'countlessly'=>[
 					'countlessally',
@@ -9973,6 +11221,10 @@
 					'coutny',
 					'couty',
 				],
+				'courageousness'=>[
+					'courageousnes',
+					'courageousnesss',
+				],
 				'courant'=>[
 					'courent',
 				],
@@ -9996,6 +11248,10 @@
 				'courteous'=>[
 					'curtious',
 				],
+				'courteousness'=>[
+					'courteousnes',
+					'courteousnesss',
+				],
 				'courteousnesses'=>[
 					'courteousneses',
 				],
@@ -10005,6 +11261,10 @@
 				'courtier'=>[
 					'courteir',
 					'courtir',
+				],
+				'courtliness'=>[
+					'courtlines',
+					'courtlinesss',
 				],
 				'courtly'=>[
 					'courtally',
@@ -10077,6 +11337,18 @@
 					'covertely',
 					'covertlly',
 				],
+				'covertness'=>[
+					'covertnes',
+					'covertnesss',
+				],
+				'covetousness'=>[
+					'covetousnes',
+					'covetousnesss',
+				],
+				'cowardliness'=>[
+					'cowardlines',
+					'cowardlinesss',
+				],
 				'cowardlinesses'=>[
 					'cowardlinisses',
 				],
@@ -10104,12 +11376,19 @@
 					'coyaly',
 					'coylly',
 				],
+				'coyness'=>[
+					'coynesss',
+				],
 				'cozened'=>[
 					'cozend',
 				],
 				'cozie'=>[
 					'cozei',
 					'cozi',
+				],
+				'coziness'=>[
+					'cozines',
+					'cozinesss',
 				],
 				'crabbed'=>[
 					'crabed',
@@ -10119,9 +11398,13 @@
 				],
 				'crabbedness'=>[
 					'crabedness',
+					'crabbednes',
+					'crabbednesss',
 				],
 				'crabbednesses'=>[
 					'crabednesses',
+					'crabbedneses',
+					'crabbednessses',
 				],
 				'crabbers'=>[
 					'crabers',
@@ -10135,11 +11418,19 @@
 				'crabbily'=>[
 					'crabily',
 				],
+				'crabbiness'=>[
+					'crabbines',
+					'crabbinesss',
+				],
 				'crabbing'=>[
 					'crabing',
 				],
 				'crabby'=>[
 					'craby',
+				],
+				'crabgrass'=>[
+					'crabgras',
+					'crabgrasss',
 				],
 				'crackly'=>[
 					'crackally',
@@ -10153,8 +11444,16 @@
 				'craftily'=>[
 					'craftly',
 				],
+				'craftiness'=>[
+					'craftines',
+					'craftinesss',
+				],
 				'craggiest'=>[
 					'cragiest',
+				],
+				'cragginess'=>[
+					'craggines',
+					'cragginesss',
 				],
 				'cragginesses'=>[
 					'craginesses',
@@ -10180,6 +11479,10 @@
 				],
 				'craniopharyngioma'=>[
 					'craniopharyngeoma',
+				],
+				'crankiness'=>[
+					'crankines',
+					'crankinesss',
 				],
 				'crann úll'=>[
 					'crann ull',
@@ -10217,9 +11520,43 @@
 				],
 				'crass'=>[
 					'cras',
+					'crasss',
+				],
+				'crasser'=>[
+					'crassser',
+				],
+				'crassest'=>[
+					'crasest',
+					'crasssest',
+				],
+				'crassitude'=>[
+					'crasitude',
+					'crasssitude',
+				],
+				'crassitudes'=>[
+					'crasitudes',
+					'crasssitudes',
+				],
+				'crassly'=>[
+					'crasly',
+					'crasssly',
+				],
+				'crassness'=>[
+					'crasness',
+					'crassnes',
+					'crassnesss',
+					'crasssness',
+				],
+				'crassulaceous'=>[
+					'crasssulaceous',
+					'crasulaceous',
 				],
 				'cravened'=>[
 					'cravend',
+				],
+				'cravenness'=>[
+					'cravennes',
+					'cravennesss',
 				],
 				'cravennesses'=>[
 					'cravenesses',
@@ -10230,17 +11567,33 @@
 					'crawely',
 					'crawlly',
 				],
+				'craziness'=>[
+					'crazines',
+					'crazinesss',
+				],
 				'creak'=>[
 					'crek',
 				],
+				'creakiness'=>[
+					'creakines',
+					'creakinesss',
+				],
 				'cream'=>[
 					'crem',
+				],
+				'creaminess'=>[
+					'creamines',
+					'creaminesss',
 				],
 				'creamy'=>[
 					'cremy',
 				],
 				'crease'=>[
 					'crese',
+				],
+				'creaseless'=>[
+					'creaseles',
+					'creaselesss',
 				],
 				'creasy'=>[
 					'creacy',
@@ -10288,6 +11641,10 @@
 				],
 				'creatively'=>[
 					'creativly',
+				],
+				'creativeness'=>[
+					'creativenes',
+					'creativenesss',
 				],
 				'creativenesses'=>[
 					'cretivenesses',
@@ -10354,8 +11711,20 @@
 				'creditable'=>[
 					'creditible',
 				],
+				'creditworthiness'=>[
+					'creditworthines',
+					'creditworthinesss',
+				],
+				'credulousness'=>[
+					'credulousnes',
+					'credulousnesss',
+				],
 				'credulousnesses'=>[
 					'credulousneses',
+				],
+				'creepiness'=>[
+					'creepines',
+					'creepinesss',
 				],
 				'cremini'=>[
 					'cremina',
@@ -10395,6 +11764,11 @@
 				],
 				'cress'=>[
 					'cres',
+					'cresss',
+				],
+				'cresset'=>[
+					'creset',
+					'cressset',
 				],
 				'cressy'=>[
 					'crescy',
@@ -10406,11 +11780,23 @@
 					'crestfalleness',
 					'crestfallennes',
 				],
+				'crestless'=>[
+					'crestles',
+					'crestlesss',
+				],
 				'cretinism'=>[
 					'cretinasm',
 				],
 				'cretonne'=>[
 					'cretone',
+				],
+				'crevasse'=>[
+					'crevase',
+					'crevassse',
+				],
+				'crevasses'=>[
+					'crevases',
+					'crevassses',
 				],
 				'cribbage'=>[
 					'cribage',
@@ -10504,11 +11890,39 @@
 				'crispened'=>[
 					'crispend',
 				],
+				'crispiness'=>[
+					'crispines',
+					'crispinesss',
+				],
+				'crispness'=>[
+					'crispnes',
+					'crispnesss',
+				],
 				'crisscross'=>[
 					'criscross',
 					'criscsross',
 					'crisscros',
 					'crissross',
+					'crisscrosss',
+					'crissscross',
+				],
+				'crisscrossed'=>[
+					'criscrossed',
+					'crisscrosed',
+					'crisscrosssed',
+					'crissscrossed',
+				],
+				'crisscrosses'=>[
+					'criscrosses',
+					'crisscroses',
+					'crisscrossses',
+					'crissscrosses',
+				],
+				'crisscrossing'=>[
+					'criscrossing',
+					'crisscrosing',
+					'crisscrosssing',
+					'crissscrossing',
 				],
 				'criteria'=>[
 					'criterions',
@@ -10526,6 +11940,14 @@
 				],
 				'critically'=>[
 					'criticaly',
+				],
+				'criticalness'=>[
+					'criticalnes',
+					'criticalnesss',
+				],
+				'criticalnesses'=>[
+					'criticalneses',
+					'criticalnessses',
 				],
 				'criticise'=>[
 					'critiscise',
@@ -10548,6 +11970,10 @@
 				'critocracy'=>[
 					'krytocracy',
 				],
+				'croakiness'=>[
+					'croakines',
+					'croakinesss',
+				],
 				'croatian-occupied'=>[
 					'croatian occupied',
 				],
@@ -10568,12 +11994,22 @@
 				],
 				'croissant'=>[
 					'croissent',
+					'croisant',
+					'croisssant',
+				],
+				'croissants'=>[
+					'croisants',
+					'croisssants',
 				],
 				'cromoglycate'=>[
 					'chromoglycate',
 				],
 				'cromwell'=>[
 					'cromwel',
+				],
+				'crookedness'=>[
+					'crookednes',
+					'crookednesss',
 				],
 				'cropper'=>[
 					'croper',
@@ -10590,13 +12026,88 @@
 				],
 				'cross'=>[
 					'cros',
+					'crosss',
+				],
+				'crossarm'=>[
+					'crosarm',
+					'crosssarm',
 				],
 				'crossbar'=>[
 					'crosbar',
 					'crossber',
+					'crosssbar',
+				],
+				'crossbars'=>[
+					'crosbars',
+					'crosssbars',
+				],
+				'crossbeam'=>[
+					'crosbeam',
+					'crosssbeam',
+				],
+				'crossbeams'=>[
+					'crosbeams',
+					'crosssbeams',
+				],
+				'crossbill'=>[
+					'crosbill',
+					'crosssbill',
+				],
+				'crossbills'=>[
+					'crosbills',
+					'crosssbills',
+				],
+				'crossbones'=>[
+					'crosbones',
+					'crosssbones',
 				],
 				'crossbow'=>[
 					'crosbow',
+					'crosssbow',
+				],
+				'crossbowman'=>[
+					'crosbowman',
+					'crosssbowman',
+				],
+				'crossbowmen'=>[
+					'crosbowmen',
+					'crosssbowmen',
+				],
+				'crossbows'=>[
+					'crosbows',
+					'crosssbows',
+				],
+				'crossbred'=>[
+					'crosbred',
+					'crosssbred',
+				],
+				'crossbreed'=>[
+					'crosbreed',
+					'crosssbreed',
+				],
+				'crossbreeding'=>[
+					'crosbreeding',
+					'crosssbreeding',
+				],
+				'crossbreeds'=>[
+					'crosbreeds',
+					'crosssbreeds',
+				],
+				'crosscheck'=>[
+					'croscheck',
+					'crossscheck',
+				],
+				'crosschecked'=>[
+					'croschecked',
+					'crossschecked',
+				],
+				'crosschecking'=>[
+					'croschecking',
+					'crossschecking',
+				],
+				'crosschecks'=>[
+					'croschecks',
+					'crossschecks',
 				],
 				'crosscourt'=>[
 					'croscourt',
@@ -10609,61 +12120,227 @@
 					'crosscurent',
 					'crosscurrant',
 					'crossurrent',
+					'crossscurrent',
 				],
 				'crosscurrents'=>[
 					'crosscurents',
+					'croscurrents',
+					'crossscurrents',
 				],
 				'crosscut'=>[
 					'croscsut',
 					'croscut',
 					'crossut',
+					'crossscut',
+				],
+				'crosscuts'=>[
+					'croscuts',
+					'crossscuts',
 				],
 				'crosscutting'=>[
 					'croscsutting',
 					'croscutting',
 					'crossutting',
+					'crossscutting',
 				],
 				'crosse'=>[
 					'crose',
+					'crossse',
+				],
+				'crossed'=>[
+					'crosed',
+					'crosssed',
+				],
+				'crosser'=>[
+					'crossser',
+				],
+				'crosses'=>[
+					'croses',
+					'crossses',
+				],
+				'crossest'=>[
+					'crosest',
+					'crosssest',
 				],
 				'crossfire'=>[
 					'crosfire',
+					'crosssfire',
+				],
+				'crossfires'=>[
+					'crosfires',
+					'crosssfires',
+				],
+				'crosshair'=>[
+					'croshair',
+					'crossshair',
+				],
+				'crosshatch'=>[
+					'croshatch',
+					'crossshatch',
+				],
+				'crosshatched'=>[
+					'croshatched',
+					'crossshatched',
+				],
+				'crosshatches'=>[
+					'croshatches',
+					'crossshatches',
+				],
+				'crosshatching'=>[
+					'croshatching',
+					'crossshatching',
+				],
+				'crosshead'=>[
+					'croshead',
+					'crossshead',
+				],
+				'crossheads'=>[
+					'crosheads',
+					'crosssheads',
 				],
 				'crossing'=>[
 					'crosing',
+					'crosssing',
+				],
+				'crossings'=>[
+					'crosings',
+					'crosssings',
+				],
+				'crossjacks'=>[
+					'crosjacks',
+					'crosssjacks',
+				],
+				'crosslet'=>[
+					'crossslet',
 				],
 				'crosslinguistic'=>[
 					'croslinguistic',
 				],
+				'crossly'=>[
+					'crosly',
+					'crosssly',
+				],
+				'crossness'=>[
+					'crosness',
+					'crossnes',
+					'crossnesss',
+					'crosssness',
+				],
 				'crossopterygian'=>[
 					'crosopterygian',
 					'crossopterygan',
+					'crosssopterygian',
+				],
+				'crossopterygians'=>[
+					'crosopterygians',
+					'crosssopterygians',
 				],
 				'crossover'=>[
 					'crosover',
+					'crosssover',
+				],
+				'crossovers'=>[
+					'crosovers',
+					'crosssovers',
+				],
+				'crosspatch'=>[
+					'crospatch',
+					'crossspatch',
+				],
+				'crosspatches'=>[
+					'crospatches',
+					'crossspatches',
 				],
 				'crosspiece'=>[
 					'crosspeice',
 					'crosspice',
+					'crospiece',
+					'crossspiece',
+				],
+				'crosspieces'=>[
+					'crospieces',
+					'crossspieces',
+				],
+				'crosspollinate'=>[
+					'crospollinate',
+					'crossspollinate',
+				],
+				'crosspollination'=>[
+					'crospollination',
+					'crossspollination',
+				],
+				'crossroad'=>[
+					'crosroad',
+					'crosssroad',
+				],
+				'crossroads'=>[
+					'crosroads',
+					'crosssroads',
 				],
 				'crosstalk'=>[
 					'crostalk',
+					'crossstalk',
 				],
 				'crosstie'=>[
 					'crosstei',
 					'crossti',
+					'crossstie',
+					'crostie',
+				],
+				'crossties'=>[
+					'crosssties',
+					'crosties',
 				],
 				'crosstown'=>[
 					'crostown',
+					'crossstown',
+				],
+				'crosstree'=>[
+					'crossstree',
+					'crostree',
 				],
 				'crosswalk'=>[
 					'croswalk',
+					'crossswalk',
+				],
+				'crosswalks'=>[
+					'crossswalks',
+					'croswalks',
+				],
+				'crossway'=>[
+					'crosssway',
+					'crosway',
+				],
+				'crossways'=>[
+					'crosssways',
+					'crosways',
+				],
+				'crosswind'=>[
+					'crossswind',
+					'croswind',
+				],
+				'crosswinds'=>[
+					'crossswinds',
+					'croswinds',
+				],
+				'crosswise'=>[
+					'crossswise',
+					'croswise',
 				],
 				'crossword'=>[
 					'crosword',
+					'crosssword',
+				],
+				'crosswords'=>[
+					'crossswords',
+					'croswords',
 				],
 				'crostini'=>[
 					'crostina',
+				],
+				'crotchetiness'=>[
+					'crotchetines',
+					'crotchetinesss',
 				],
 				'crotchetinesses'=>[
 					'crotchetineses',
@@ -10684,6 +12361,10 @@
 				],
 				'crowberry'=>[
 					'crowbery',
+				],
+				'crowdedness'=>[
+					'crowdednes',
+					'crowdednesss',
 				],
 				'crowstepped'=>[
 					'crowsteped',
@@ -10707,8 +12388,20 @@
 				'crudely'=>[
 					'crudly',
 				],
+				'crudeness'=>[
+					'crudenes',
+					'crudenesss',
+				],
+				'cruelness'=>[
+					'cruelnes',
+					'cruelnesss',
+				],
 				'cruises'=>[
 					'crusies',
+				],
+				'crumbliness'=>[
+					'crumblines',
+					'crumblinesss',
 				],
 				'crumbly'=>[
 					'crumbally',
@@ -10725,6 +12418,10 @@
 				'crummy'=>[
 					'crumny',
 				],
+				'crunchiness'=>[
+					'crunchines',
+					'crunchinesss',
+				],
 				'cruor'=>[
 					'cror',
 				],
@@ -10739,6 +12436,10 @@
 				],
 				'crustacean'=>[
 					'crustacen',
+				],
+				'crustiness'=>[
+					'crustines',
+					'crustinesss',
 				],
 				'cruzeiro'=>[
 					'cruziero',
@@ -10879,15 +12580,30 @@
 				'cueing'=>[
 					'cuieng',
 				],
+				'cuirass'=>[
+					'cuiras',
+					'cuirasss',
+				],
+				'cuirasses'=>[
+					'cuirases',
+					'cuirassses',
+				],
 				'cuirassier'=>[
 					'cuirasseir',
 					'cuirassir',
+					'cuirasier',
+					'cuirasssier',
+				],
+				'cuirassiers'=>[
+					'cuirasiers',
+					'cuirasssiers',
 				],
 				'cuisine'=>[
 					'cuisini',
 				],
 				'cuisse'=>[
 					'cuise',
+					'cuissse',
 				],
 				'culinarian'=>[
 					'culinaran',
@@ -10942,8 +12658,16 @@
 					'cultura',
 					'culutral',
 				],
+				'cumbersomeness'=>[
+					'cumbersomenes',
+					'cumbersomenesss',
+				],
 				'cumbrance'=>[
 					'cumbrence',
+				],
+				'cumbrousness'=>[
+					'cumbrousnes',
+					'cumbrousnesss',
 				],
 				'cummer'=>[
 					'cumner',
@@ -10965,6 +12689,10 @@
 				],
 				'cumulatively'=>[
 					'cumulativly',
+				],
+				'cumulativeness'=>[
+					'cumulativenes',
+					'cumulativenesss',
 				],
 				'cuneately'=>[
 					'cuneatly',
@@ -11040,6 +12768,12 @@
 				],
 				'curassow'=>[
 					'currasow',
+					'curasow',
+					'curasssow',
+				],
+				'curassows'=>[
+					'curasows',
+					'curasssows',
 				],
 				'curatively'=>[
 					'curativly',
@@ -11048,6 +12782,10 @@
 			#	'curb'=>[
 			#		'kerb',
 			#	],
+				'cureless'=>[
+					'cureles',
+					'curelesss',
+				],
 				'curia'=>[
 					'cuna',
 				],
@@ -11064,10 +12802,22 @@
 				'curiously'=>[
 					'curously',
 				],
+				'curiousness'=>[
+					'curiousnes',
+					'curiousnesss',
+				],
+				'curliness'=>[
+					'curlines',
+					'curlinesss',
+				],
 				'curly'=>[
 					'curally',
 					'curaly',
 					'curlly',
+				],
+				'curmudgeonliness'=>[
+					'curmudgeonlines',
+					'curmudgeonlinesss',
 				],
 				'curr'=>[
 					'cur',
@@ -11102,6 +12852,14 @@
 					'currentely',
 					'currentlly',
 					'curretly',
+				],
+				'currentness'=>[
+					'currentnes',
+					'currentnesss',
+				],
+				'currentnesses'=>[
+					'currentneses',
+					'currentnessses',
 				],
 				'curricle'=>[
 					'curicle',
@@ -11140,6 +12898,10 @@
 				'cursively'=>[
 					'cursivly',
 				],
+				'cursoriness'=>[
+					'cursorines',
+					'cursorinesss',
+				],
 				'curtesy'=>[
 					'curtecy',
 				],
@@ -11149,8 +12911,16 @@
 					'curtely',
 					'curtlly',
 				],
+				'curtness'=>[
+					'curtnes',
+					'curtnesss',
+				],
 				'curtsy'=>[
 					'curtcy',
+				],
+				'curvaceousness'=>[
+					'curvaceousnes',
+					'curvaceousnesss',
 				],
 				'curvacious'=>[
 					'curvacous',
@@ -11164,16 +12934,50 @@
 					'curvilinerity',
 					'curviliniarity',
 				],
+				'curviness'=>[
+					'curvines',
+					'curvinesss',
+				],
 				'cuscus'=>[
 					'cucsus',
 					'cucus',
 					'cusus',
 				],
+				'cushiness'=>[
+					'cushines',
+					'cushinesss',
+				],
 				'cuss'=>[
 					'cus',
+					'cusss',
 				],
 				'cussed'=>[
 					'cused',
+					'cusssed',
+				],
+				'cussedly'=>[
+					'cusedly',
+					'cusssedly',
+				],
+				'cussedness'=>[
+					'cusedness',
+					'cussednes',
+					'cussednesss',
+					'cusssedness',
+				],
+				'cussednesses'=>[
+					'cusednesses',
+					'cussedneses',
+					'cussednessses',
+					'cusssednesses',
+				],
+				'cusses'=>[
+					'cuses',
+					'cussses',
+				],
+				'cussing'=>[
+					'cusing',
+					'cusssing',
 				],
 				'cusso'=>[
 					'cuso',
@@ -11202,6 +13006,10 @@
 				],
 				'cutely'=>[
 					'cutly',
+				],
+				'cuteness'=>[
+					'cutenes',
+					'cutenesss',
 				],
 				'cutesy'=>[
 					'cutecy',
@@ -11235,6 +13043,12 @@
 			#	'cutlass'=>[
 			#		'cutlas',
 			#	],
+				'cutlass'=>[
+					'cutlasss',
+				],
+				'cutlasses'=>[
+					'cutlassses',
+				],
 				'cutlery'=>[
 					'cultery',
 				],
@@ -11312,6 +13126,10 @@
 				],
 				'cypress'=>[
 					'cypres',
+					'cypresss',
+				],
+				'cypresses'=>[
+					'cypressses',
 				],
 				'cyprian'=>[
 					'cypran',

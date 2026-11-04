@@ -118,6 +118,8 @@
 				],
 				'vacuousness'=>[
 					'vacousness',
+					'vacuousnes',
+					'vacuousnesss',
 				],
 				'vacuousnesses'=>[
 					'vacousnesses',
@@ -178,6 +180,10 @@
 				'vaguely'=>[
 					'vaguly',
 				],
+				'vagueness'=>[
+					'vaguenes',
+					'vaguenesss',
+				],
 				'vahine'=>[
 					'vahini',
 					'vaine',
@@ -191,6 +197,10 @@
 					'vaingloriousely',
 					'vaingloriouslly',
 					'vainglorously',
+				],
+				'vaingloriousness'=>[
+					'vaingloriousnes',
+					'vaingloriousnesss',
 				],
 				'valance'=>[
 					'valence',
@@ -243,6 +253,10 @@
 					'validely',
 					'validlly',
 				],
+				'validness'=>[
+					'validnes',
+					'validnesss',
+				],
 				'valine'=>[
 					'valini',
 				],
@@ -290,8 +304,16 @@
 					'value value',
 					'value value value',
 				],
+				'valueless'=>[
+					'valueles',
+					'valuelesss',
+				],
 				'valvar'=>[
 					'valver',
+				],
+				'valveless'=>[
+					'valveles',
+					'valvelesss',
 				],
 				'valvular'=>[
 					'valvuler',
@@ -334,8 +356,16 @@
 					'vapidely',
 					'vapidlly',
 				],
+				'vapidness'=>[
+					'vapidnes',
+					'vapidnesss',
+				],
 				'vaporise'=>[
 					'vapourise',
+				],
+				'vaporousness'=>[
+					'vaporousnes',
+					'vaporousnesss',
 				],
 				'varenicline'=>[
 					'varenidine',
@@ -344,6 +374,10 @@
 					'varable',
 					'varible',
 					'variible',
+				],
+				'variableness'=>[
+					'variablenes',
+					'variablenesss',
 				],
 				'variance'=>[
 					'varience',
@@ -460,9 +494,24 @@
 				'vassal'=>[
 					'vasal',
 					'vasall',
+					'vasssal',
+				],
+				'vassalage'=>[
+					'vasalage',
+					'vasssalage',
+				],
+				'vassalize'=>[
+					'vasalize',
+					'vasssalize',
 				],
 				'vassals'=>[
 					'vasalls',
+					'vasals',
+					'vasssals',
+				],
+				'vastness'=>[
+					'vastnes',
+					'vastnesss',
 				],
 				'vaticinal'=>[
 					'vaticinil',
@@ -532,6 +581,10 @@
 				],
 				'vegetatively'=>[
 					'vegetativly',
+				],
+				'vegetativeness'=>[
+					'vegetativenes',
+					'vegetativenesss',
 				],
 				'vegged'=>[
 					'veged',
@@ -633,6 +686,10 @@
 				'venerable'=>[
 					'venerible',
 				],
+				'venerableness'=>[
+					'venerablenes',
+					'venerablenesss',
+				],
 				'venetian'=>[
 					'venetan',
 				],
@@ -649,6 +706,14 @@
 					'vengeence',
 					'vengence',
 				],
+				'vengefulness'=>[
+					'vengefulnes',
+					'vengefulnesss',
+				],
+				'vengefulnesses'=>[
+					'vengefulneses',
+					'vengefulnessses',
+				],
 				'venice'=>[
 					'vemce',
 				],
@@ -662,6 +727,10 @@
 				],
 				'venomous'=>[
 					'venemous',
+				],
+				'venomousness'=>[
+					'venomousnes',
+					'venomousnesss',
 				],
 				'venoocclusive'=>[
 					'venooclusive',
@@ -719,8 +788,16 @@
 				'venturesomely'=>[
 					'venturesomly',
 				],
+				'venturesomeness'=>[
+					'venturesomenes',
+					'venturesomenesss',
+				],
 				'venturi'=>[
 					'vanturi',
+				],
+				'venturousness'=>[
+					'venturousnes',
+					'venturousnesss',
 				],
 				'venular'=>[
 					'venuler',
@@ -739,6 +816,10 @@
 			#	'verandah'=>[
 			#		'veranda',
 			#	],
+				'veraciousness'=>[
+					'veraciousnes',
+					'veraciousnesss',
+				],
 				'verandahed'=>[
 					'verandaed',
 				],
@@ -765,6 +846,10 @@
 				],
 				'verbosely'=>[
 					'verbosly',
+				],
+				'verboseness'=>[
+					'verbosenes',
+					'verbosenesss',
 				],
 				'verdancy'=>[
 					'verdansy',
@@ -839,6 +924,10 @@
 					'verneir',
 					'vernir',
 				],
+				'vernissage'=>[
+					'vernisage',
+					'vernisssage',
+				],
 				'vernon'=>[
 					'vermon',
 				],
@@ -905,6 +994,11 @@
 				],
 				'vessel'=>[
 					'vesel',
+					'vesssel',
+				],
+				'vessels'=>[
+					'vesels',
+					'vesssels',
 				],
 				'vestiary'=>[
 					'vestiery',
@@ -947,6 +1041,10 @@
 				'vexatiously'=>[
 					'vexatously',
 				],
+				'vexatiousness'=>[
+					'vexatiousnes',
+					'vexatiousnesss',
+				],
 				'vexillar'=>[
 					'vexiller',
 				],
@@ -983,6 +1081,14 @@
 				'vibraphonist'=>[
 					'vibrophonist',
 				],
+				'vibrissa'=>[
+					'vibrisa',
+					'vibrisssa',
+				],
+				'vibrissae'=>[
+					'vibrisae',
+					'vibrisssae',
+				],
 				'vicar'=>[
 					'vicer',
 				],
@@ -998,6 +1104,10 @@
 					'vicariousely',
 					'vicariouslly',
 					'vicarously',
+				],
+				'vicariousness'=>[
+					'vicariousnes',
+					'vicariousnesss',
 				],
 				'vice versa'=>[
 					'vice-versa',
@@ -1023,6 +1133,7 @@
 				],
 				'vichyssoise'=>[
 					'vichysoise',
+					'vichysssoise',
 				],
 				'vicinage'=>[
 					'vicinige',
@@ -1052,8 +1163,20 @@
 					'viscousely',
 					'viscously',
 				],
+				'viciousness'=>[
+					'viciousnes',
+					'viciousnesss',
+				],
 				'vicissitude'=>[
 					'vicisitude',
+					'vicisssitude',
+				],
+				'vicissitudes'=>[
+					'vicisssitudes',
+				],
+				'vicissitudinous'=>[
+					'vicisitudinous',
+					'vicisssitudinous',
 				],
 				'vicodin'=>[
 					'vicoden',
@@ -1061,11 +1184,19 @@
 				'vicous'=>[
 					'viscous',
 				],
+				'victimless'=>[
+					'victimles',
+					'victimlesss',
+				],
 				'victorious'=>[
 					'victorous',
 				],
 				'victoriously'=>[
 					'victorously',
+				],
+				'victoriousness'=>[
+					'victoriousnes',
+					'victoriousnesss',
 				],
 				'victrola'=>[
 					'victrolla',
@@ -1081,6 +1212,11 @@
 				],
 				'videocassette'=>[
 					'videocasette',
+					'videocasssette',
+				],
+				'videocassettes'=>[
+					'videocasettes',
+					'videocasssettes',
 				],
 				'videoconference'=>[
 					'videoconferance',
@@ -1139,6 +1275,10 @@
 					'veiwing',
 					'viwing',
 				],
+				'viewless'=>[
+					'viewles',
+					'viewlesss',
+				],
 				'viewpoint'=>[
 					'veiwpoint',
 					'viwpoint',
@@ -1162,14 +1302,26 @@
 				'vigor'=>[
 					'vigeur',
 				],
+				'vigorless'=>[
+					'vigorles',
+					'vigorlesss',
+				],
 				'vigorous'=>[
 					'vigourous',
+				],
+				'vigorousness'=>[
+					'vigorousnes',
+					'vigorousnesss',
 				],
 				'vildagliptin'=>[
 					'vidagliptin',
 				],
 				'vilely'=>[
 					'villy',
+				],
+				'vileness'=>[
+					'vilenes',
+					'vilenesss',
 				],
 				'vilified'=>[
 					'villified',
@@ -1206,10 +1358,24 @@
 				],
 				'villainess'=>[
 					'villainiss',
+					'villaines',
+					'villainesss',
+				],
+				'villainesses'=>[
+					'villaineses',
+					'villainessses',
 				],
 				'villainous'=>[
 					'vilainous',
 					'villianous',
+				],
+				'villainousness'=>[
+					'villainousnes',
+					'villainousnesss',
+				],
+				'villainousnesses'=>[
+					'villainousneses',
+					'villainousnessses',
 				],
 				'villains'=>[
 					'villans',
@@ -1259,6 +1425,8 @@
 				],
 				'vinasse'=>[
 					'vinisse',
+					'vinase',
+					'vinassse',
 				],
 				'vinasses'=>[
 					'vinisses',
@@ -1277,6 +1445,10 @@
 				],
 				'vindictively'=>[
 					'vindictivly',
+				],
+				'vindictiveness'=>[
+					'vindictivenes',
+					'vindictivenesss',
 				],
 				'vined'=>[
 					'vinid',
@@ -1398,6 +1570,10 @@
 					'virtuallly',
 					'virtualy',
 				],
+				'virtueless'=>[
+					'virtueles',
+					'virtuelesss',
+				],
 				'virtuosa'=>[
 					'virtosa',
 				],
@@ -1433,6 +1609,8 @@
 				],
 				'virtuousness'=>[
 					'virtousness',
+					'virtuousnes',
+					'virtuousnesss',
 				],
 				'virtuousnesses'=>[
 					'virtousnesses',
@@ -1505,12 +1683,25 @@
 					'vicsountess',
 					'viscountes',
 					'visountess',
+					'viscountesss',
+				],
+				'viscountesses'=>[
+					'viscounteses',
+					'viscountessses',
 				],
 				'viscous'=>[
 					'vicous',
 					'vicsous',
 					'visous',
 					'viscuous',
+				],
+				'viscousness'=>[
+					'viscousnes',
+					'viscousnesss',
+				],
+				'viscousnesses'=>[
+					'viscousneses',
+					'viscousnessses',
 				],
 				'viscus'=>[
 					'vicsus',
@@ -1528,6 +1719,10 @@
 				],
 				'vision'=>[
 					'vison',
+				],
+				'visionariness'=>[
+					'visionarines',
+					'visionarinesss',
 				],
 				'visionarinesses'=>[
 					'visionarinisses',
@@ -1601,6 +1796,10 @@
 				'vitreoretinopathy'=>[
 					'vitroretinopathy',
 				],
+				'vitreousness'=>[
+					'vitreousnes',
+					'vitreousnesss',
+				],
 				'vitrine'=>[
 					'vitrini',
 				],
@@ -1623,6 +1822,10 @@
 					'vivaciouslly',
 					'vivacously',
 				],
+				'vivaciousness'=>[
+					'vivaciousnes',
+					'vivaciousnesss',
+				],
 				'vivandiere'=>[
 					'vivandeire',
 					# vivandire: an accepted spelling, not a slip (AmericanBritishWords_V: vivandier)
@@ -1639,6 +1842,10 @@
 					'vividaly',
 					'vividely',
 					'vividlly',
+				],
+				'vividness'=>[
+					'vividnes',
+					'vividnesss',
 				],
 				'viviparous'=>[
 					'viviperous',
@@ -1668,19 +1875,36 @@
 				'vocatively'=>[
 					'vocativly',
 				],
+				'vociferousness'=>[
+					'vociferousnes',
+					'vociferousnesss',
+				],
 				'voice'=>[
 					'vioce',
 					'voice voice',
 					'voice voice voice',
 				],
+				'voicedness'=>[
+					'voicednes',
+					'voicednesss',
+				],
 				'voiceless'=>[
 					'voiceles',
+					'voicelesss',
 				],
 				'voicelessly'=>[
 					'voicelessally',
 					'voicelessaly',
 					'voicelessely',
 					'voicelesslly',
+					'voicelesly',
+					'voicelesssly',
+				],
+				'voicelessness'=>[
+					'voicelesness',
+					'voicelessnes',
+					'voicelessnesss',
+					'voicelesssness',
 				],
 				'voidable'=>[
 					'voidible',
@@ -1725,6 +1949,18 @@
 				'voltohmmeter'=>[
 					'voltohmeter',
 				],
+				'volubleness'=>[
+					'volublenes',
+					'volublenesss',
+				],
+				'voluminousness'=>[
+					'voluminousnes',
+					'voluminousnesss',
+				],
+				'voluntariness'=>[
+					'voluntarines',
+					'voluntarinesss',
+				],
 				'voluntarinesses'=>[
 					'voluntarinisses',
 				],
@@ -1761,6 +1997,8 @@
 				],
 				'voluptuousness'=>[
 					'voluptousness',
+					'voluptuousnes',
+					'voluptuousnesss',
 				],
 				'volutrauma'=>[
 					'volotrauma',
@@ -1778,6 +2016,10 @@
 					'voraciouslly',
 					'voracously',
 				],
+				'voraciousness'=>[
+					'voraciousnes',
+					'voraciousnesss',
+				],
 				'votable'=>[
 					'votible',
 				],
@@ -1787,8 +2029,20 @@
 				'vote-a-rama'=>[
 					'vote-o-rama',
 				],
+				'voteless'=>[
+					'voteles',
+					'votelesss',
+				],
 				'votively'=>[
 					'votivly',
+				],
+				'voussoir'=>[
+					'vousoir',
+					'vousssoir',
+				],
+				'voussoirs'=>[
+					'vousoirs',
+					'vousssoirs',
 				],
 				'vowel'=>[
 					'vowel vowel',

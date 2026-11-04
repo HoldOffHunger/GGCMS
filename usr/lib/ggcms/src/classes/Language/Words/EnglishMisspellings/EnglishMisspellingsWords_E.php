@@ -51,6 +51,10 @@
 			#	'eager'=>[
 			#		'eger',
 			#	],
+				'eagerness'=>[
+					'eagernes',
+					'eagernesss',
+				],
 				'eagle'=>[
 					'egle',
 				],
@@ -65,6 +69,9 @@
 				'earl'=>[
 					'erl',
 				],
+				'earless'=>[
+					'earlesss',
+				],
 				'earlier'=>[
 					'ealier',
 					'eariler',
@@ -72,6 +79,9 @@
 				],
 				'earliest'=>[
 					'ealiest',
+				],
+				'earliness'=>[
+					'earlinesss',
 				],
 				'early'=>[
 					'earely',
@@ -98,6 +108,10 @@
 					'earnestaly',
 					'earnestely',
 					'earnestlly',
+				],
+				'earnestness'=>[
+					'earnestnes',
+					'earnestnesss',
 				],
 				'earnestnesses'=>[
 					'ernestnesses',
@@ -133,8 +147,16 @@
 				'earthenwares'=>[
 					'erthenwares',
 				],
+				'earthiness'=>[
+					'earthines',
+					'earthinesss',
+				],
 				'earthinesses'=>[
 					'erthinesses',
+				],
+				'earthliness'=>[
+					'earthlines',
+					'earthlinesss',
 				],
 				'earthlinesses'=>[
 					'earthlinisses',
@@ -169,6 +191,10 @@
 				'earwigged'=>[
 					'earwiged',
 				],
+				'earwitness'=>[
+					'earwitnes',
+					'earwitnesss',
+				],
 				'ease'=>[
 					'ease ease',
 					'ease ease ease',
@@ -188,6 +214,10 @@
 					'easiely',
 					'easilly',
 					'esily',
+				],
+				'easiness'=>[
+					'easines',
+					'easinesss',
 				],
 				'east'=>[
 					'east east',
@@ -539,6 +569,8 @@
 				],
 				'edelweiss'=>[
 					'edelwiess',
+					'edelweis',
+					'edelweisss',
 				],
 				'edelweisses'=>[
 					'edelwiesses',
@@ -561,6 +593,8 @@
 				],
 				'edgeless'=>[
 					'egeless',
+					'edgeles',
+					'edgelesss',
 				],
 					# eger: an accepted spelling, not a slip (AmericanBritishWords_E: eger)
 			#	'edger'=>[
@@ -578,12 +612,20 @@
 				'edgewise'=>[
 					'egewise',
 				],
+				'edginess'=>[
+					'edgines',
+					'edginesss',
+				],
 				'edibilities'=>[
 					'edibiliteis',
 					'edibilitis',
 				],
 				'edible'=>[
 					'edable',
+				],
+				'edibleness'=>[
+					'ediblenes',
+					'ediblenesss',
 				],
 				'editable'=>[
 					'editible',
@@ -600,6 +642,10 @@
 				],
 				'editor'=>[
 					'editior',
+				],
+				'editress'=>[
+					'editres',
+					'editresss',
 				],
 				'educable'=>[
 					'educible',
@@ -623,6 +669,14 @@
 					'edutaiments',
 					'edutainents',
 				],
+				'eelgrass'=>[
+					'eelgras',
+					'eelgrasss',
+				],
+				'eelgrasses'=>[
+					'eelgrases',
+					'eelgrassses',
+				],
 				'eels'=>[
 					'eles',
 				],
@@ -637,6 +691,8 @@
 				],
 				'eeriness'=>[
 					'eerieness',
+					'eerines',
+					'eerinesss',
 				],
 				'effable'=>[
 					'effible',
@@ -659,6 +715,10 @@
 					'effectiveley',
 					'effectivley',
 				],
+				'effectiveness'=>[
+					'effectivenes',
+					'effectivenesss',
+				],
 				'effectual'=>[
 					'effectaul',
 				],
@@ -669,9 +729,13 @@
 				],
 				'effectualness'=>[
 					'effectaulness',
+					'effectualnes',
+					'effectualnesss',
 				],
 				'effectualnesses'=>[
 					'effectaulnesses',
+					'effectualneses',
+					'effectualnessses',
 				],
 				'effectuate'=>[
 					'effectaute',
@@ -709,6 +773,10 @@
 				'effetely'=>[
 					'effetly',
 				],
+				'effeteness'=>[
+					'effetenes',
+					'effetenesss',
+				],
 				'efficacious'=>[
 					'efficacous',
 				],
@@ -718,6 +786,14 @@
 					'efficaciousely',
 					'efficaciouslly',
 					'efficacously',
+				],
+				'efficaciousness'=>[
+					'efficaciousnes',
+					'efficaciousnesss',
+				],
+				'efficaciousnesses'=>[
+					'efficaciousneses',
+					'efficaciousnessses',
 				],
 				'efficacy'=>[
 					'efficasy',
@@ -773,6 +849,17 @@
 				],
 				'effortless'=>[
 					'effortles',
+					'effortlesss',
+				],
+				'effortlessly'=>[
+					'effortlesly',
+					'effortlesssly',
+				],
+				'effortlessness'=>[
+					'effortlesness',
+					'effortlessnes',
+					'effortlessnesss',
+					'effortlesssness',
 				],
 				'efforts'=>[
 					'effords',
@@ -801,6 +888,8 @@
 				],
 				'effusiveness'=>[
 					'effuisveness',
+					'effusivenes',
+					'effusivenesss',
 				],
 				'effusivenesses'=>[
 					'effuisvenesses',
@@ -882,6 +971,10 @@
 					'egocantricities',
 					'egocentricitis',
 				],
+				'egoless'=>[
+					'egoles',
+					'egolesss',
+				],
 				'egregious'=>[
 					'aggregious',
 					'agregious',
@@ -895,8 +988,25 @@
 					'egregiouslly',
 					'egregously',
 				],
+				'egregiousness'=>[
+					'egregiousnes',
+					'egregiousnesss',
+				],
 				'egress'=>[
 					'egres',
+					'egresss',
+				],
+				'egresses'=>[
+					'egreses',
+					'egressses',
+				],
+				'egression'=>[
+					'egresion',
+					'egresssion',
+				],
+				'egressions'=>[
+					'egresions',
+					'egresssions',
 				],
 				'egypt'=>[
 					'eqypt',
@@ -1097,6 +1207,14 @@
 				'elaborately'=>[
 					'elaboratly',
 				],
+				'elaborateness'=>[
+					'elaboratenes',
+					'elaboratenesss',
+				],
+				'elatedness'=>[
+					'elatednes',
+					'elatednesss',
+				],
 				'elderberry'=>[
 					'elderbery',
 				],
@@ -1255,6 +1373,8 @@
 				],
 				'elementariness'=>[
 					'elementariniss',
+					'elementarines',
+					'elementarinesss',
 				],
 				'elementary'=>[
 					'elemantary',
@@ -1364,6 +1484,8 @@
 				],
 				'elusiveness'=>[
 					'eluisveness',
+					'elusivenes',
+					'elusivenesss',
 				],
 				'elusivenesses'=>[
 					'eluisvenesses',
@@ -1414,6 +1536,7 @@
 					'embaress',
 					'embarras',
 					'embarress',
+					'embarrasss',
 				],
 				'embarrassable'=>[
 					'embarrassible',
@@ -1421,13 +1544,21 @@
 				'embarrassed'=>[
 					'embarassed',
 					'embarrased',
+					'embarrasssed',
+				],
+				'embarrasses'=>[
+					'embarrases',
+					'embarrassses',
 				],
 				'embarrassing'=>[
 					'embarassing',
 					'embarrasing',
+					'embarrasssing',
 				],
 				'embarrassingly'=>[
 					'embarassingly',
+					'embarrasingly',
+					'embarrasssingly',
 				],
 				'embarrassment'=>[
 					'embarassment',
@@ -1435,13 +1566,21 @@
 					'embarrasment',
 					'embarressment',
 					'embarrassmant',
+					'embarrasssment',
 				],
 				'embarrassments'=>[
 					'embarassments',
+					'embarrasments',
+					'embarrasssments',
+				],
+				'embassies'=>[
+					'embasies',
+					'embasssies',
 				],
 				'embassy'=>[
 					'embascy',
 					'embasy',
+					'embasssy',
 				],
 				'embattlement'=>[
 					'embattlemant',
@@ -1481,6 +1620,35 @@
 				],
 				'emboss'=>[
 					'embos',
+					'embosss',
+				],
+				'embossed'=>[
+					'embosed',
+					'embosssed',
+				],
+				'embosser'=>[
+					'emboser',
+					'embossser',
+				],
+				'embossers'=>[
+					'embosers',
+					'embosssers',
+				],
+				'embosses'=>[
+					'emboses',
+					'embossses',
+				],
+				'embossing'=>[
+					'embosing',
+					'embosssing',
+				],
+				'embossment'=>[
+					'embosment',
+					'embosssment',
+				],
+				'embossments'=>[
+					'embosments',
+					'embosssments',
 				],
 				'embraceries'=>[
 					'embracereis',
@@ -1488,6 +1656,10 @@
 				],
 				'embrithopod'=>[
 					'embrythopod',
+				],
+				'embroideress'=>[
+					'embroideres',
+					'embroideresss',
 				],
 				'embryologically'=>[
 					'embryologicalally',
@@ -1549,6 +1721,8 @@
 				'emissaries'=>[
 					'emmisaries',
 					'emmisarries',
+					'emisaries',
+					'emisssaries',
 				],
 				'emissary'=>[
 					'emisary',
@@ -1556,14 +1730,30 @@
 					'emmisary',
 					'emmissary',
 					'emissery',
+					'emisssary',
 				],
 				'emission'=>[
 					'emision',
 					'emmision',
 					'emmission',
+					'emisssion',
+				],
+				'emissions'=>[
+					'emisions',
+					'emisssions',
+				],
+				'emissive'=>[
+					'emisive',
+					'emisssive',
+				],
+				'emissivities'=>[
+					'emisivities',
+					'emisssivities',
 				],
 				'emissivity'=>[
 					'emmisivity',
+					'emisivity',
+					'emisssivity',
 				],
 				'emit'=>[
 					'emitt',
@@ -1621,12 +1811,17 @@
 				],
 				'emotionless'=>[
 					'emotionles',
+					'emotionlesss',
 				],
 				'emotionlessly'=>[
 					'emotionlessally',
 					'emotionlessaly',
 					'emotionlessely',
 					'emotionlesslly',
+				],
+				'emotiveness'=>[
+					'emotivenes',
+					'emotivenesss',
 				],
 				'emotivities'=>[
 					'emotiviteis',
@@ -1706,9 +1901,19 @@
 				],
 				'empress'=>[
 					'empres',
+					'empresss',
 				],
 				'empressement'=>[
 					'empresement',
+					'empresssement',
+				],
+				'empresses'=>[
+					'empreses',
+					'empressses',
+				],
+				'emptiness'=>[
+					'emptines',
+					'emptinesss',
 				],
 				'emtansine'=>[
 					'emtasine',
@@ -1827,9 +2032,12 @@
 				'enchantress'=>[
 					'enchantres',
 					'enchentress',
+					'enchantresss',
 				],
 				'enchantresses'=>[
 					'enchentresses',
+					'enchantreses',
+					'enchantressses',
 				],
 				'encina'=>[
 					'encini',
@@ -1847,6 +2055,27 @@
 				],
 				'encompass'=>[
 					'encompas',
+					'encompasss',
+				],
+				'encompassed'=>[
+					'encompased',
+					'encompasssed',
+				],
+				'encompasses'=>[
+					'encompases',
+					'encompassses',
+				],
+				'encompassing'=>[
+					'encompasing',
+					'encompasssing',
+				],
+				'encompassment'=>[
+					'encompasment',
+					'encompasssment',
+				],
+				'encompassments'=>[
+					'encompasments',
+					'encompasssments',
 				],
 				'encounter'=>[
 					'encouter',
@@ -1904,6 +2133,17 @@
 				],
 				'endless'=>[
 					'endles',
+					'endlesss',
+				],
+				'endlessly'=>[
+					'endlesly',
+					'endlesssly',
+				],
+				'endlessness'=>[
+					'endlesness',
+					'endlessnes',
+					'endlessnesss',
+					'endlesssness',
 				],
 				'endocannabinoid'=>[
 					'endocanabinoid',
@@ -2117,8 +2357,24 @@
 				'english-occupied'=>[
 					'english occupied',
 				],
+				'engross'=>[
+					'engrosss',
+				],
+				'engrossed'=>[
+					'engrosed',
+					'engrosssed',
+				],
+				'engrosses'=>[
+					'engroses',
+					'engrossses',
+				],
 				'engrossing'=>[
 					'engrosing',
+					'engrosssing',
+				],
+				'engrossment'=>[
+					'engrosment',
+					'engrosssment',
 				],
 				'enhance'=>[
 					'enhence',
@@ -2218,6 +2474,8 @@
 				],
 				'enormousness'=>[
 					'enourmousness',
+					'enormousnes',
+					'enormousnesss',
 				],
 				'enormousnesses'=>[
 					'enourmousnesses',
@@ -2611,6 +2869,10 @@
 				'enviously'=>[
 					'envously',
 				],
+				'enviousness'=>[
+					'enviousnes',
+					'enviousnesss',
+				],
 				'environment'=>[
 					'enivoriment',
 					'enviorment',
@@ -2720,6 +2982,14 @@
 				'ephemeralities'=>[
 					'ephemeraliteis',
 					'ephemeralitis',
+				],
+				'ephemeralness'=>[
+					'ephemeralnes',
+					'ephemeralnesss',
+				],
+				'ephemeralnesses'=>[
+					'ephemeralneses',
+					'ephemeralnessses',
 				],
 				'epibolic'=>[
 					'epobolic',
@@ -3061,6 +3331,10 @@
 				'equitable'=>[
 					'equitible',
 				],
+				'equitableness'=>[
+					'equitablenes',
+					'equitablenesss',
+				],
 				'equitant'=>[
 					'equitent',
 				],
@@ -3089,6 +3363,10 @@
 					'equivocaliteis',
 					'equivocalitis',
 				],
+				'equivocalness'=>[
+					'equivocalnes',
+					'equivocalnesss',
+				],
 				'eradicate'=>[
 					'erradicate',
 				],
@@ -3101,6 +3379,10 @@
 				'erected'=>[
 					'erested',
 					'errected',
+				],
+				'erectness'=>[
+					'erectnes',
+					'erectnesss',
 				],
 				'eremitic'=>[
 					'eremetic',
@@ -3154,6 +3436,10 @@
 				'erosion'=>[
 					'errosion',
 				],
+				'erosiveness'=>[
+					'erosivenes',
+					'erosivenesss',
+				],
 				'erosivities'=>[
 					'erosiviteis',
 					'erosivitis',
@@ -3202,12 +3488,20 @@
 				],
 				'erroneousness'=>[
 					'eroneousness',
+					'erroneousnes',
+					'erroneousnesss',
 				],
 				'erroneousnesses'=>[
 					'eroneousnesses',
+					'erroneousneses',
+					'erroneousnessses',
 				],
 				'error'=>[
 					'eror',
+				],
+				'errorless'=>[
+					'errorles',
+					'errorlesss',
 				],
 				'errors'=>[
 					'erors',
@@ -3447,17 +3741,63 @@
 				],
 				'espresso'=>[
 					'espreso',
+					'espressso',
+				],
+				'espressos'=>[
+					'espresos',
+					'espresssos',
 				],
 				'essai sur sénèque'=>[
 					'esai sur seneque',
 				],
 				'essay'=>[
 					'esay',
+					'esssay',
+				],
+				'essayed'=>[
+					'esayed',
+					'esssayed',
+				],
+				'essayer'=>[
+					'esayer',
+					'esssayer',
+				],
+				'essayers'=>[
+					'esayers',
+					'esssayers',
+				],
+				'essaying'=>[
+					'esaying',
+					'esssaying',
+				],
+				'essayist'=>[
+					'esayist',
+					'esssayist',
+				],
+				'essayistic'=>[
+					'esayistic',
+					'esssayistic',
+				],
+				'essayists'=>[
+					'esayists',
+					'esssayists',
+				],
+				'essays'=>[
+					'esays',
+					'esssays',
+				],
+				'esse'=>[
+					'essse',
 				],
 				'essence'=>[
 					'esence',
 					'essense',
 					'essance',
+					'esssence',
+				],
+				'essences'=>[
+					'esences',
+					'esssences',
 				],
 				'essential'=>[
 					'esential',
@@ -3466,25 +3806,53 @@
 					'essentual',
 					'essesital',
 					'essantial',
+					'esssential',
 				],
 				'essentialism'=>[
 					'esentialism',
 					'essantialism',
+					'esssentialism',
+				],
+				'essentialist'=>[
+					'esentialist',
+					'esssentialist',
 				],
 				'essentialities'=>[
 					'essentialiteis',
 					'essentialitis',
+					'esentialities',
+					'esssentialities',
+				],
+				'essentiality'=>[
+					'esentiality',
+					'esssentiality',
 				],
 				'essentialize'=>[
 					'esentialize',
 					'essantialize',
+					'esssentialize',
 				],
 				'essentially'=>[
 					'esentially',
 					'essentialy',
+					'esssentially',
+				],
+				'essentialness'=>[
+					'esentialness',
+					'essentialnes',
+					'essentialnesss',
+					'esssentialness',
 				],
 				'essentialnesses'=>[
 					'essantialnesses',
+					'esentialnesses',
+					'essentialneses',
+					'essentialnessses',
+					'esssentialnesses',
+				],
+				'essentials'=>[
+					'esentials',
+					'esssentials',
 				],
 				'esses'=>[
 					'eses',
@@ -3567,6 +3935,10 @@
 				'etchant'=>[
 					'etchent',
 				],
+				'eternalness'=>[
+					'eternalnes',
+					'eternalnesss',
+				],
 				'etesian'=>[
 					'etesan',
 				],
@@ -3585,6 +3957,10 @@
 				],
 				'etherealization'=>[
 					'etherelization',
+				],
+				'etherealness'=>[
+					'etherealnes',
+					'etherealnesss',
 				],
 				'etherealnesses'=>[
 					'etherelnesses',
@@ -3822,6 +4198,10 @@
 				'evasively'=>[
 					'evasivly',
 				],
+				'evasiveness'=>[
+					'evasivenes',
+					'evasivenesss',
+				],
 				'even'=>[
 					'even even',
 					'even even even',
@@ -3835,10 +4215,17 @@
 					'evenhandedely',
 					'evenhandedlly',
 				],
+				'evenhandedness'=>[
+					'evenhandednes',
+					'evenhandednesss',
+				],
 				'evening'=>[
 					'evening evening',
 					'evening evening evening',
 					'evining',
+				],
+				'evenness'=>[
+					'evennesss',
 				],
 				'event'=>[
 					'event event',
@@ -3847,6 +4234,10 @@
 				],
 				'eventful'=>[
 					'evantful',
+				],
+				'eventfulness'=>[
+					'eventfulnes',
+					'eventfulnesss',
 				],
 				'events'=>[
 					'evens',
@@ -3947,6 +4338,10 @@
 				'evil'=>[
 					'evol',
 				],
+				'evilness'=>[
+					'evilnes',
+					'evilnesss',
+				],
 				'evincible'=>[
 					'evincable',
 				],
@@ -3970,6 +4365,10 @@
 				],
 				'evocatively'=>[
 					'evocativly',
+				],
+				'evocativeness'=>[
+					'evocativenes',
+					'evocativenesss',
 				],
 				'evolution'=>[
 					'evalution',
@@ -3998,6 +4397,10 @@
 					'exactaly',
 					'exactely',
 					'exactlly',
+				],
+				'exactness'=>[
+					'exactnes',
+					'exactnesss',
 				],
 				'exaggerate'=>[
 					'exagerate',
@@ -4129,6 +4532,11 @@
 				],
 				'excess'=>[
 					'exces',
+					'excesss',
+				],
+				'excesses'=>[
+					'exceses',
+					'excessses',
 				],
 				'excessive'=>[
 					'eccessive',
@@ -4137,6 +4545,20 @@
 				],
 				'excessively'=>[
 					'excessivly',
+					'excesively',
+					'excesssively',
+				],
+				'excessiveness'=>[
+					'excesiveness',
+					'excessivenes',
+					'excessivenesss',
+					'excesssiveness',
+				],
+				'excessivenesses'=>[
+					'excesivenesses',
+					'excessiveneses',
+					'excessivenessses',
+					'excesssivenesses',
 				],
 				'exchange'=>[
 					'exchnage',
@@ -4166,6 +4588,14 @@
 				'excitable'=>[
 					'exciteable',
 					'excitible',
+				],
+				'excitableness'=>[
+					'excitablenes',
+					'excitablenesss',
+				],
+				'excitablenesses'=>[
+					'excitableneses',
+					'excitablenessses',
 				],
 				'excitatory'=>[
 					'excitory',
@@ -4222,6 +4652,8 @@
 				],
 				'exclusiveness'=>[
 					'excluisveness',
+					'exclusivenes',
+					'exclusivenesss',
 				],
 				'exclusivenesses'=>[
 					'excluisvenesses',
@@ -4309,6 +4741,10 @@
 				'excursively'=>[
 					'excursivly',
 				],
+				'excursiveness'=>[
+					'excursivenes',
+					'excursivenesss',
+				],
 				'excusing'=>[
 					'excuisng',
 				],
@@ -4333,6 +4769,8 @@
 				],
 				'exemplariness'=>[
 					'exemplariniss',
+					'exemplarines',
+					'exemplarinesss',
 				],
 				'exemplarinesses'=>[
 					'exemplarinisses',
@@ -4378,9 +4816,17 @@
 				'exhaustively'=>[
 					'exhaustivly',
 				],
+				'exhaustiveness'=>[
+					'exhaustivenes',
+					'exhaustivenesss',
+				],
 				'exhaustivities'=>[
 					'exhaustiviteis',
 					'exhaustivitis',
+				],
+				'exhaustless'=>[
+					'exhaustles',
+					'exhaustlesss',
 				],
 				'exhaustlessly'=>[
 					'exhaustlessally',
@@ -4443,6 +4889,8 @@
 				],
 				'exiguousness'=>[
 					'exigousness',
+					'exiguousnes',
+					'exiguousnesss',
 				],
 				'exiguousnesses'=>[
 					'exigousnesses',
@@ -4551,6 +4999,10 @@
 				'expansively'=>[
 					'expansivly',
 				],
+				'expansiveness'=>[
+					'expansivenes',
+					'expansivenesss',
+				],
 				'expect'=>[
 					'expect expect',
 					'expect expect expect',
@@ -4618,6 +5070,10 @@
 					'expeditiouslly',
 					'expeditously',
 				],
+				'expeditiousness'=>[
+					'expeditiousnes',
+					'expeditiousnesss',
+				],
 				'expel'=>[
 					'expell',
 				],
@@ -4645,6 +5101,10 @@
 				],
 				'expensively'=>[
 					'expensivly',
+				],
+				'expensiveness'=>[
+					'expensivenes',
+					'expensivenesss',
 				],
 				'experience'=>[
 					'expereince',
@@ -4705,6 +5165,10 @@
 					'expertely',
 					'expertlly',
 				],
+				'expertness'=>[
+					'expertnes',
+					'expertnesss',
+				],
 				'expiable'=>[
 					'expiible',
 				],
@@ -4744,6 +5208,10 @@
 					'explicitely',
 					'explictly',
 				],
+				'explicitness'=>[
+					'explicitnes',
+					'explicitnesss',
+				],
 				'exploit'=>[
 					'exploitate',
 					'exuloit',
@@ -4773,6 +5241,10 @@
 				'explosively'=>[
 					'explosivly',
 				],
+				'explosiveness'=>[
+					'explosivenes',
+					'explosivenesss',
+				],
 				'exponent'=>[
 					'exponant',
 				],
@@ -4794,30 +5266,81 @@
 				],
 				'express'=>[
 					'expres',
+					'expresss',
+				],
+				'expressed'=>[
+					'expresed',
+					'expresssed',
 				],
 				'expressely'=>[
 					'expressedly',
+				],
+				'expresses'=>[
+					'expreses',
+					'expressses',
 				],
 				'expressibility'=>[
 					'expressability',
 				],
 				'expressible'=>[
 					'expressable',
+					'expresible',
+					'expresssible',
+				],
+				'expressing'=>[
+					'expresing',
+					'expresssing',
 				],
 				'expression'=>[
 					'expresion',
+					'expresssion',
 				],
 				'expressionism'=>[
 					'expresionism',
+					'expresssionism',
+				],
+				'expressionist'=>[
+					'expresionist',
+					'expresssionist',
+				],
+				'expressionistic'=>[
+					'expresionistic',
+					'expresssionistic',
+				],
+				'expressionists'=>[
+					'expresionists',
+					'expresssionists',
 				],
 				'expressionless'=>[
 					'expressionles',
+					'expresionless',
+					'expressionlesss',
+					'expresssionless',
+				],
+				'expressionlessly'=>[
+					'expresionlessly',
+					'expressionlesly',
+					'expressionlesssly',
+					'expresssionlessly',
+				],
+				'expressions'=>[
+					'expresions',
+					'expresssions',
 				],
 				'expressive'=>[
 					'expresive',
+					'expresssive',
 				],
 				'expressively'=>[
 					'expressivly',
+					'expresively',
+					'expresssively',
+				],
+				'expressiveness'=>[
+					'expresiveness',
+					'expressivenes',
+					'expressivenesss',
+					'expresssiveness',
 				],
 				'expressivities'=>[
 					'expressiviteis',
@@ -4825,6 +5348,7 @@
 				],
 				'expressivity'=>[
 					'expresivity',
+					'expresssivity',
 				],
 				'expressly'=>[
 					'expressedly',
@@ -4833,13 +5357,23 @@
 					'expressally',
 					'expressaly',
 					'expresslly',
+					'expresssly',
 				],
 				'expressway'=>[
 					'expresway',
+					'expresssway',
+				],
+				'expressways'=>[
+					'expresssways',
+					'expresways',
 				],
 				'exquisitely'=>[
 					'exquisately',
 					'exquisitly',
+				],
+				'exquisiteness'=>[
+					'exquisitenes',
+					'exquisitenesss',
 				],
 				'exsanguinate'=>[
 					'exsanguinite',
@@ -4874,6 +5408,14 @@
 				],
 				'extemporaneity'=>[
 					'extemporaniety',
+				],
+				'extemporaneousness'=>[
+					'extemporaneousnes',
+					'extemporaneousnesss',
+				],
+				'extemporariness'=>[
+					'extemporarines',
+					'extemporarinesss',
 				],
 				'extemporary'=>[
 					'extemporery',
@@ -4912,6 +5454,10 @@
 				'extensively'=>[
 					'exten-sively',
 					'extensivly',
+				],
+				'extensiveness'=>[
+					'extensivenes',
+					'extensivenesss',
 				],
 				'extent'=>[
 					'extint',
@@ -5014,6 +5560,14 @@
 				'extramusical'=>[
 					'extramuiscal',
 				],
+				'extraneousness'=>[
+					'extraneousnes',
+					'extraneousnesss',
+				],
+				'extraneousnesses'=>[
+					'extraneousneses',
+					'extraneousnessses',
+				],
 				'extranuclear'=>[
 					'extranucleer',
 					'extranucler',
@@ -5091,6 +5645,10 @@
 					'extremley',
 					'extremly',
 				],
+				'extremeness'=>[
+					'extremenes',
+					'extremenesss',
+				],
 				'extremophile'=>[
 					'extremeophile',
 				],
@@ -5145,6 +5703,18 @@
 				'eyedroppers'=>[
 					'eyedropers',
 				],
+				'eyeglass'=>[
+					'eyeglas',
+					'eyeglasss',
+				],
+				'eyeglasses'=>[
+					'eyeglases',
+					'eyeglassses',
+				],
+				'eyeless'=>[
+					'eyeles',
+					'eyelesss',
+				],
 				'eyeliner'=>[
 					'eyelinir',
 				],
@@ -5158,6 +5728,11 @@
 				],
 				'eyewitness'=>[
 					'eyewitnes',
+					'eyewitnesss',
+				],
+				'eyewitnesses'=>[
+					'eyewitneses',
+					'eyewitnessses',
 				],
 				'eyrie'=>[
 					'eyrei',

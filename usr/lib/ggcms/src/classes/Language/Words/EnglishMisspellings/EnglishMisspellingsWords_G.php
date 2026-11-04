@@ -49,6 +49,8 @@
 				],
 				'gabbiness'=>[
 					'gabiness',
+					'gabbines',
+					'gabbinesss',
 				],
 				'gabbinesses'=>[
 					'gabinesses',
@@ -209,6 +211,10 @@
 				'gallbladder'=>[
 					'galbladder',
 				],
+				'galleass'=>[
+					'galleas',
+					'galleasss',
+				],
 				'gallein'=>[
 					'gallien',
 				],
@@ -267,6 +273,9 @@
 				'gallocatechin'=>[
 					'galocatechin',
 				],
+				'galloglass'=>[
+					'galloglasss',
+				],
 				'gallon'=>[
 					'galon',
 				],
@@ -320,6 +329,10 @@
 				'gamely'=>[
 					'gamly',
 				],
+				'gameness'=>[
+					'gamenes',
+					'gamenesss',
+				],
 				'gameplay'=>[
 					'gamplay',
 				],
@@ -334,6 +347,9 @@
 				],
 				'gamine'=>[
 					'gamini',
+				],
+				'gaminess'=>[
+					'gaminesss',
 				],
 				'gamma'=>[
 					'gamna',
@@ -419,6 +435,10 @@
 					'gargantaun',
 					'gargentuan',
 				],
+				'garishness'=>[
+					'garishnes',
+					'garishnesss',
+				],
 				'garment'=>[
 					'garmant',
 					'garmet',
@@ -467,6 +487,8 @@
 				],
 				'garrulousness'=>[
 					'garulousness',
+					'garrulousnes',
+					'garrulousnesss',
 				],
 				'garrulousnesses'=>[
 					'garulousnesses',
@@ -495,13 +517,40 @@
 				],
 				'gassed'=>[
 					'gased',
+					'gasssed',
 				],
 				'gasser'=>[
 					'gaser',
+					'gassser',
+				],
+				'gasses'=>[
+					'gassses',
+				],
+				'gassier'=>[
+					'gasier',
+					'gasssier',
+				],
+				'gassiest'=>[
+					'gasiest',
+					'gasssiest',
+				],
+				'gassiness'=>[
+					'gasiness',
+					'gassines',
+					'gassinesss',
+					'gasssiness',
+				],
+				'gassing'=>[
+					'gasssing',
+				],
+				'gassings'=>[
+					'gasings',
+					'gasssings',
 				],
 				'gassy'=>[
 					'gascy',
 					'gasy',
+					'gasssy',
 				],
 				'gastrectomy'=>[
 					'gastroctomy',
@@ -570,18 +619,50 @@
 				'gauchely'=>[
 					'gauchly',
 				],
+				'gaucheness'=>[
+					'gauchenes',
+					'gauchenesss',
+				],
+				'gaudiness'=>[
+					'gaudines',
+					'gaudinesss',
+				],
 				'gauge'=>[
 					'guage',
 				],
 				'gauleiters'=>[
 					'gaulieters',
 				],
+				'gauntness'=>[
+					'gauntnes',
+					'gauntnesss',
+				],
 				'gauss'=>[
 					'gaus',
+					'gausss',
+				],
+				'gausses'=>[
+					'gaussses',
+				],
+				'gaussian'=>[
+					'gausian',
+					'gausssian',
+				],
+				'gaussmeter'=>[
+					'gausmeter',
+					'gausssmeter',
+				],
+				'gauziness'=>[
+					'gauzines',
+					'gauzinesss',
 				],
 				'gave'=>[
 					'gave gave',
 					'gave gave gave',
+				],
+				'gawkiness'=>[
+					'gawkines',
+					'gawkinesss',
 				],
 				'gawsy'=>[
 					'gawcy',
@@ -593,6 +674,9 @@
 					'gayally',
 					'gayaly',
 					'gaylly',
+				],
+				'gayness'=>[
+					'gaynesss',
 				],
 				'gazar'=>[
 					'gazer',
@@ -672,6 +756,10 @@
 					'gelidely',
 					'gelidlly',
 				],
+				'gelidness'=>[
+					'gelidnes',
+					'gelidnesss',
+				],
 				'gemcitabine'=>[
 					'gencitabine',
 				],
@@ -730,6 +818,10 @@
 					'gendarmerei',
 					'gendarmeri',
 				],
+				'genderless'=>[
+					'genderles',
+					'genderlesss',
+				],
 				'genealogically'=>[
 					'genelogically',
 				],
@@ -766,6 +858,11 @@
 				],
 				'generalissimo'=>[
 					'generalisimo',
+					'generalisssimo',
+				],
+				'generalissimos'=>[
+					'generalisimos',
+					'generalisssimos',
 				],
 				'generalizability'=>[
 					'generalizablity',
@@ -792,6 +889,10 @@
 				'generic'=>[
 					'generical',
 				],
+				'generousness'=>[
+					'generousnes',
+					'generousnesss',
+				],
 				'genesis'=>[
 					'genisis',
 				],
@@ -800,6 +901,10 @@
 				],
 				'geneticin'=>[
 					'genecitin',
+				],
+				'genialness'=>[
+					'genialnes',
+					'genialnesss',
 				],
 				'geniculate'=>[
 					'genticulate',
@@ -849,6 +954,10 @@
 				'genteel'=>[
 					'ganteel',
 				],
+				'genteelness'=>[
+					'genteelnes',
+					'genteelnesss',
+				],
 				'gentes'=>[
 					'gantes',
 				],
@@ -861,6 +970,10 @@
 				],
 				'gentile'=>[
 					'gantile',
+				],
+				'gentilesse'=>[
+					'gentilese',
+					'gentilessse',
 				],
 				'gentisate'=>[
 					'gantisate',
@@ -878,6 +991,10 @@
 				],
 				'gentlemen\'s'=>[
 					'gentlemens',
+				],
+				'gentleness'=>[
+					'gentlenes',
+					'gentlenesss',
 				],
 				'gently'=>[
 					'gantly',
@@ -905,6 +1022,10 @@
 				],
 				'genuinen'=>[
 					'genuirie',
+				],
+				'genuineness'=>[
+					'genuinenes',
+					'genuinenesss',
 				],
 				'genuinenesses'=>[
 					'genuininesses',
@@ -1011,6 +1132,14 @@
 				'germanely'=>[
 					'germanly',
 				],
+				'germaneness'=>[
+					'germanenes',
+					'germanenesss',
+				],
+				'germanenesses'=>[
+					'germaneneses',
+					'germanenessses',
+				],
 				'germinabilities'=>[
 					'germinibilities',
 				],
@@ -1048,6 +1177,7 @@
 				],
 				'gesso'=>[
 					'geso',
+					'gessso',
 				],
 				'gesture'=>[
 					'gseture',
@@ -1086,6 +1216,10 @@
 				'gharry'=>[
 					'ghary',
 				],
+				'ghastliness'=>[
+					'ghastlines',
+					'ghastlinesss',
+				],
 				'ghastlinesses'=>[
 					'ghastlinisses',
 				],
@@ -1094,6 +1228,10 @@
 					'ghastaly',
 					'ghastely',
 					'ghastlly',
+				],
+				'ghostliness'=>[
+					'ghostlines',
+					'ghostlinesss',
 				],
 				'ghostlinesses'=>[
 					'ghostlinisses',
@@ -1104,6 +1242,10 @@
 					'ghostely',
 					'ghostlly',
 				],
+				'ghoulishness'=>[
+					'ghoulishnes',
+					'ghoulishnesss',
+				],
 				'giant'=>[
 					'gient',
 					'jiant',
@@ -1111,9 +1253,12 @@
 				'giantess'=>[
 					'gientess',
 					'jiantess',
+					'giantesss',
 				],
 				'giantesses'=>[
 					'jiantesses',
+					'gianteses',
+					'giantessses',
 				],
 				'giantism'=>[
 					'jiantism',
@@ -1236,6 +1381,14 @@
 					'gibously',
 					'jibbously',
 				],
+				'gibbousness'=>[
+					'gibbousnes',
+					'gibbousnesss',
+				],
+				'gibbousnesses'=>[
+					'gibbousneses',
+					'gibbousnessses',
+				],
 				'gibbsite'=>[
 					'gibsite',
 					'jibbsite',
@@ -1299,6 +1452,8 @@
 				],
 				'giddiness'=>[
 					'jiddiness',
+					'giddines',
+					'giddinesss',
 				],
 				'giddinesses'=>[
 					'jiddinesses',
@@ -1346,6 +1501,8 @@
 				],
 				'giftedness'=>[
 					'jiftedness',
+					'giftednes',
+					'giftednesss',
 				],
 				'giftednesses'=>[
 					'jiftednesses',
@@ -1808,6 +1965,8 @@
 				'gingerliness'=>[
 					'gingerliniss',
 					'jingerliness',
+					'gingerlines',
+					'gingerlinesss',
 				],
 				'gingerlinesses'=>[
 					'gingerlinisses',
@@ -2080,6 +2239,8 @@
 				],
 				'girlishness'=>[
 					'jirlishness',
+					'girlishnes',
+					'girlishnesss',
 				],
 				'girlishnesses'=>[
 					'jirlishnesses',
@@ -2276,6 +2437,10 @@
 				'gladiolar'=>[
 					'gladioler',
 				],
+				'gladness'=>[
+					'gladnes',
+					'gladnesss',
+				],
 				'gladsomely'=>[
 					'gladsomly',
 				],
@@ -2338,6 +2503,10 @@
 			#	'glamorousness'=>[
 			#		'glamourousness',
 			#	],
+				'glamorousness'=>[
+					'glamorousnes',
+					'glamorousnesss',
+				],
 				'glamorousnesses'=>[
 					'glamourousnesses',
 				],
@@ -2363,13 +2532,106 @@
 					'glass glass',
 					'glass glass glass',
 					'glas',
+					'glasss',
+				],
+				'glassblower'=>[
+					'glasblower',
+					'glasssblower',
+				],
+				'glassblowers'=>[
+					'glasblowers',
+					'glasssblowers',
+				],
+				'glassblowing'=>[
+					'glasblowing',
+					'glasssblowing',
+				],
+				'glassed'=>[
+					'glased',
+					'glasssed',
+				],
+				'glasses'=>[
+					'glases',
+					'glassses',
+				],
+				'glassful'=>[
+					'glasful',
+					'glasssful',
+				],
+				'glassfuls'=>[
+					'glasfuls',
+					'glasssfuls',
+				],
+				'glasshouse'=>[
+					'glashouse',
+					'glassshouse',
+				],
+				'glasshouses'=>[
+					'glashouses',
+					'glassshouses',
+				],
+				'glassier'=>[
+					'glasssier',
+				],
+				'glassiest'=>[
+					'glasiest',
+					'glasssiest',
+				],
+				'glassily'=>[
+					'glasily',
+					'glasssily',
+				],
+				'glassine'=>[
+					'glasine',
+					'glasssine',
+				],
+				'glassiness'=>[
+					'glasiness',
+					'glassinesss',
+					'glasssiness',
+				],
+				'glassing'=>[
+					'glasing',
+					'glasssing',
+				],
+				'glassless'=>[
+					'glasless',
+					'glassles',
+					'glasslesss',
+					'glasssless',
 				],
 				'glassware'=>[
 					'glasware',
+					'glasssware',
+				],
+				'glasswork'=>[
+					'glassswork',
+					'glaswork',
+				],
+				'glassworker'=>[
+					'glasssworker',
+					'glasworker',
+				],
+				'glassworkers'=>[
+					'glasssworkers',
+					'glasworkers',
+				],
+				'glassworks'=>[
+					'glasssworks',
+					'glasworks',
+				],
+				'glasswort'=>[
+					'glassswort',
+					'glaswort',
+				],
+				'glassworts'=>[
+					'glasssworts',
+					'glasworts',
 				],
 				'glassy'=>[
 					'glascy',
 					'glasy',
+					'glasssy',
 				],
 				'glazier'=>[
 					'glazeir',
@@ -2382,6 +2644,10 @@
 				'glean'=>[
 					'glen',
 				],
+				'gleefulness'=>[
+					'gleefulnes',
+					'gleefulnesss',
+				],
 				'gleization'=>[
 					'gliezation',
 				],
@@ -2390,6 +2656,10 @@
 				],
 				'glibber'=>[
 					'gliber',
+				],
+				'glibness'=>[
+					'glibnes',
+					'glibnesss',
 				],
 				'glimmer'=>[
 					'glimner',
@@ -2400,11 +2670,43 @@
 				'gliotoxin'=>[
 					'gliatoxin',
 				],
+				'glissade'=>[
+					'glisade',
+					'glisssade',
+				],
+				'glissaded'=>[
+					'glisaded',
+					'glisssaded',
+				],
+				'glissades'=>[
+					'glisades',
+					'glisssades',
+				],
+				'glissading'=>[
+					'glisading',
+					'glisssading',
+				],
+				'glissandi'=>[
+					'glisandi',
+					'glisssandi',
+				],
+				'glissando'=>[
+					'glisando',
+					'glisssando',
+				],
+				'glissandos'=>[
+					'glisandos',
+					'glisssandos',
+				],
 				'glistened'=>[
 					'glistend',
 				],
 				'glittery'=>[
 					'glittary',
+				],
+				'glitziness'=>[
+					'glitzines',
+					'glitzinesss',
 				],
 				'global'=>[
 					'globial',
@@ -2426,6 +2728,14 @@
 				],
 				'globular'=>[
 					'globuler',
+				],
+				'globularness'=>[
+					'globularnes',
+					'globularnesss',
+				],
+				'globularnesses'=>[
+					'globularneses',
+					'globularnessses',
 				],
 				'glockenspiel'=>[
 					'glockenspeil',
@@ -2453,28 +2763,133 @@
 				'glomming'=>[
 					'glomning',
 				],
+				'gloominess'=>[
+					'gloomines',
+					'gloominesss',
+				],
 				'glorious'=>[
 					'glorous',
 				],
 				'gloriously'=>[
 					'glorously',
 				],
+				'gloriousness'=>[
+					'gloriousnes',
+					'gloriousnesss',
+				],
 				'gloss'=>[
 					'glos',
+					'glosss',
 				],
 				'glossa'=>[
 					'glosa',
+					'glosssa',
+				],
+				'glossal'=>[
+					'glosal',
+					'glosssal',
+				],
+				'glossarial'=>[
+					'glosarial',
+					'glosssarial',
+				],
+				'glossaries'=>[
+					'glosaries',
+					'glosssaries',
 				],
 				'glossary'=>[
 					'glosary',
 					'glossery',
+					'glosssary',
+				],
+				'glossas'=>[
+					'glosssas',
+				],
+				'glossator'=>[
+					'glosator',
+					'glosssator',
+				],
+				'glossectomy'=>[
+					'glosectomy',
+					'glosssectomy',
+				],
+				'glossed'=>[
+					'glosssed',
+				],
+				'glossematics'=>[
+					'glosematics',
+					'glosssematics',
+				],
+				'glosseme'=>[
+					'gloseme',
+					'glossseme',
+				],
+				'glosser'=>[
+					'glossser',
+				],
+				'glosses'=>[
+					'glossses',
+				],
+				'glossier'=>[
+					'glosier',
+					'glosssier',
+				],
+				'glossies'=>[
+					'glosies',
+					'glosssies',
+				],
+				'glossiest'=>[
+					'glosiest',
+					'glosssiest',
+				],
+				'glossily'=>[
+					'glosily',
+					'glosssily',
+				],
+				'glossiness'=>[
+					'glosiness',
+					'glossinesss',
+					'glosssiness',
+				],
+				'glossing'=>[
+					'glosssing',
+				],
+				'glossitis'=>[
+					'glositis',
+					'glosssitis',
+				],
+				'glossitises'=>[
+					'glositises',
+					'glosssitises',
+				],
+				'glossographer'=>[
+					'glosographer',
+					'glosssographer',
+				],
+				'glossography'=>[
+					'glosography',
+					'glosssography',
 				],
 				'glossolalia'=>[
 					'glosolalia',
+					'glosssolalia',
+				],
+				'glossolalic'=>[
+					'glosolalic',
+					'glosssolalic',
+				],
+				'glossology'=>[
+					'glosology',
+					'glosssology',
+				],
+				'glossotomy'=>[
+					'glosotomy',
+					'glosssotomy',
 				],
 				'glossy'=>[
 					'gloscy',
 					'glosy',
+					'glosssy',
 				],
 				'gloxinia'=>[
 					'gloxinaa',
@@ -2529,8 +2944,20 @@
 				'glueing'=>[
 					'gluieng',
 				],
+				'gluiness'=>[
+					'gluines',
+					'gluinesss',
+				],
+				'gluinesses'=>[
+					'gluineses',
+					'gluinessses',
+				],
 				'glummest'=>[
 					'glumnest',
+				],
+				'glumness'=>[
+					'glumnes',
+					'glumnesss',
 				],
 				'gluon'=>[
 					'glon',
@@ -2557,6 +2984,14 @@
 				],
 				'glutei'=>[
 					'glutie',
+				],
+				'glutinousness'=>[
+					'glutinousnes',
+					'glutinousnesss',
+				],
+				'glutinousnesses'=>[
+					'glutinousneses',
+					'glutinousnessses',
 				],
 				'gluttony'=>[
 					'glutony',
@@ -2618,6 +3053,7 @@
 				'gneiss'=>[
 					'gneis',
 					'gniess',
+					'gneisss',
 				],
 				'gnocchi'=>[
 					'gnochi',
@@ -2629,6 +3065,10 @@
 				'goalie'=>[
 					'goalei',
 					'goali',
+				],
+				'goalless'=>[
+					'goalles',
+					'goallesss',
 				],
 				'goanna'=>[
 					'goana',
@@ -2677,12 +3117,30 @@
 					'goddes', 'godess',
 					'goddes\', \'godess',
 					'godess',
+					'goddesss',
 				],
 				'goddesses'=>[
 					'godesses',
+					'goddeses',
+					'goddessses',
 				],
 				'godless'=>[
 					'godles',
+					'godlesss',
+				],
+				'godlessly'=>[
+					'godlesly',
+					'godlesssly',
+				],
+				'godlessness'=>[
+					'godlesness',
+					'godlessnes',
+					'godlessnesss',
+					'godlesssness',
+				],
+				'godliness'=>[
+					'godlines',
+					'godlinesss',
 				],
 				'godly'=>[
 					'godally',
@@ -2751,6 +3209,10 @@
 					'gone gone',
 					'gone gone gone',
 				],
+				'goneness'=>[
+					'gonenes',
+					'gonenesss',
+				],
 				'goniodysgenesis'=>[
 					'goniodisgenesis',
 				],
@@ -2805,9 +3267,17 @@
 			#	'goodbye'=>[
 			#		'goodby',
 			#	],
+				'goodheartedness'=>[
+					'goodheartednes',
+					'goodheartednesss',
+				],
 				'goodie'=>[
 					'goodei',
 					'goodi',
+				],
+				'goodliness'=>[
+					'goodlines',
+					'goodlinesss',
 				],
 				'goodly'=>[
 					'goodally',
@@ -2817,9 +3287,14 @@
 				],
 				'goodness'=>[
 					'goodnes',
+					'goodnesss',
 				],
 				'goodwill'=>[
 					'goodwil',
+				],
+				'goofiness'=>[
+					'goofines',
+					'goofinesss',
 				],
 				'googly'=>[
 					'googally',
@@ -2839,23 +3314,94 @@
 				'goosy'=>[
 					'goocy',
 				],
+				'gorgeousness'=>[
+					'gorgeousnes',
+					'gorgeousnesss',
+				],
 				'gorgonian'=>[
 					'gorgonan',
 				],
 				'gorilla'=>[
 					'gorila',
 				],
+				'goriness'=>[
+					'gorines',
+					'gorinesss',
+				],
+				'gormless'=>[
+					'gormles',
+					'gormlesss',
+				],
+				'gormlessly'=>[
+					'gormlesly',
+					'gormlesssly',
+				],
+				'gormlessness'=>[
+					'gormlesness',
+					'gormlessnes',
+					'gormlessnesss',
+					'gormlesssness',
+				],
 				'gorsy'=>[
 					'gorcy',
+				],
+				'gossamer'=>[
+					'gosamer',
+					'gosssamer',
+				],
+				'gossamery'=>[
+					'gosamery',
+					'gosssamery',
 				],
 				'gossan'=>[
 					'gosan',
 				],
+				'gosse'=>[
+					'gossse',
+				],
 				'gossip'=>[
 					'gosip',
+					'gosssip',
+				],
+				'gossiped'=>[
+					'gosiped',
+					'gosssiped',
+				],
+				'gossiper'=>[
+					'gosiper',
+					'gosssiper',
+				],
+				'gossipers'=>[
+					'gosipers',
+					'gosssipers',
+				],
+				'gossiping'=>[
+					'gosiping',
+					'gosssiping',
 				],
 				'gossipmonger'=>[
 					'gosipmonger',
+					'gosssipmonger',
+				],
+				'gossipped'=>[
+					'gosipped',
+					'gosssipped',
+				],
+				'gossipping'=>[
+					'gosipping',
+					'gosssipping',
+				],
+				'gossips'=>[
+					'gosips',
+					'gosssips',
+				],
+				'gossipy'=>[
+					'gosipy',
+					'gosssipy',
+				],
+				'gossoon'=>[
+					'gosoon',
+					'gosssoon',
 				],
 				'got'=>[
 					'got got',
@@ -2873,6 +3419,10 @@
 				'gounaris'=>[
 					'gounares',
 				],
+				'goutiness'=>[
+					'goutines',
+					'goutinesss',
+				],
 				'govern'=>[
 					'govern govern',
 					'govern govern govern',
@@ -2886,6 +3436,11 @@
 				],
 				'governess'=>[
 					'governes',
+					'governesss',
+				],
+				'governesses'=>[
+					'governeses',
+					'governessses',
 				],
 				'governessy'=>[
 					'governescy',
@@ -2996,11 +3551,27 @@
 				'grabby'=>[
 					'graby',
 				],
+				'gracefulness'=>[
+					'gracefulnes',
+					'gracefulnesss',
+				],
+				'graceless'=>[
+					'graceles',
+					'gracelesss',
+				],
 				'gracelessly'=>[
 					'gracelessally',
 					'gracelessaly',
 					'gracelessely',
 					'gracelesslly',
+					'gracelesly',
+					'gracelesssly',
+				],
+				'gracelessness'=>[
+					'gracelesness',
+					'gracelessnes',
+					'gracelessnesss',
+					'gracelesssness',
 				],
 				'gracilization'=>[
 					'gracialisation',
@@ -3010,6 +3581,10 @@
 				],
 				'graciously'=>[
 					'gracously',
+				],
+				'graciousness'=>[
+					'graciousnes',
+					'graciousnesss',
 				],
 				'gradient'=>[
 					'gradeint',
@@ -3033,6 +3608,8 @@
 				],
 				'gradualness'=>[
 					'gradaulness',
+					'gradualnes',
+					'gradualnesss',
 				],
 				'gradualnesses'=>[
 					'gradaulnesses',
@@ -3061,6 +3638,10 @@
 				],
 				'grainier'=>[
 					'grainaer',
+				],
+				'graininess'=>[
+					'grainines',
+					'graininesss',
 				],
 				'graininesses'=>[
 					'grainanesses',
@@ -3175,6 +3756,10 @@
 				'grandiosely'=>[
 					'grandiosly',
 				],
+				'grandioseness'=>[
+					'grandiosenes',
+					'grandiosenesss',
+				],
 				'grandisin'=>[
 					'grandidisin',
 				],
@@ -3192,6 +3777,10 @@
 					'grandmotheraly',
 					'grandmotherely',
 					'grandmotherlly',
+				],
+				'grandness'=>[
+					'grandnes',
+					'grandnesss',
 				],
 				'grandniece'=>[
 					'grandneice',
@@ -3254,6 +3843,10 @@
 				'grapevine'=>[
 					'grapevini',
 				],
+				'graphicness'=>[
+					'graphicnes',
+					'graphicnesss',
+				],
 				'grappa'=>[
 					'grapa',
 				],
@@ -3267,20 +3860,54 @@
 					'grass grass',
 					'grass grass grass',
 					'gras',
+					'grasss',
+				],
+				'grassed'=>[
+					'grased',
+					'grasssed',
+				],
+				'grasses'=>[
+					'grases',
+					'grassses',
 				],
 				'grasshopper'=>[
 					'grashopper',
 					'grasshoper',
+					'grassshopper',
 				],
 				'grasshoppers'=>[
 					'grasshopers',
+					'grashoppers',
+					'grassshoppers',
+				],
+				'grassier'=>[
+					'grasier',
+					'grasssier',
+				],
+				'grassiest'=>[
+					'grasiest',
+					'grasssiest',
+				],
+				'grassing'=>[
+					'grasing',
+					'grasssing',
 				],
 				'grassland'=>[
 					'grasland',
+					'grasssland',
+				],
+				'grasslands'=>[
+					'graslands',
+					'grassslands',
+				],
+				'grassroots'=>[
+					'grasroots',
+					'grasssroots',
 				],
 				'grassy'=>[
 					'grascy',
 					'grasy',
+					'grasssy',
 				],
 				'grateful'=>[
 					'gratefull',
@@ -3290,11 +3917,19 @@
 				'gratefully'=>[
 					'greatfully',
 				],
+				'gratefulness'=>[
+					'gratefulnes',
+					'gratefulnesss',
+				],
 				'gratineeing'=>[
 					'gratineieng',
 				],
 				'gratuitous'=>[
 					'gratuitious',
+				],
+				'gratuitousness'=>[
+					'gratuitousnes',
+					'gratuitousnesss',
 				],
 				'gravelly'=>[
 					'gravelally',
@@ -3305,6 +3940,10 @@
 				],
 				'gravely'=>[
 					'gravly',
+				],
+				'graveness'=>[
+					'gravenes',
+					'gravenesss',
 				],
 				'gravimetrically'=>[
 					'gravimetricalally',
@@ -3319,11 +3958,22 @@
 					'gray gray',
 					'gray gray gray',
 				],
+				'grayness'=>[
+					'graynesss',
+				],
 				'grease'=>[
 					'grese',
 				],
+				'greaseless'=>[
+					'greaseles',
+					'greaselesss',
+				],
 				'greasepaint'=>[
 					'gresepaint',
+				],
+				'greasiness'=>[
+					'greasines',
+					'greasinesss',
 				],
 				'greasinesses'=>[
 					'greasinisses',
@@ -3360,8 +4010,16 @@
 					'greately',
 					'greatley',
 				],
+				'greatness'=>[
+					'greatnes',
+					'greatnesss',
+				],
 				'grecian'=>[
 					'greecian',
+				],
+				'greediness'=>[
+					'greedines',
+					'greedinesss',
 				],
 				'greedinesses'=>[
 					'greedinisses',
@@ -3423,12 +4081,19 @@
 				],
 				'greenness'=>[
 					'greeness',
+					'greennes',
+					'greennesss',
 				],
 				'greennesses'=>[
 					'greenesses',
 				],
 				'greensickness'=>[
 					'greensicknes',
+					'greensicknesss',
+				],
+				'greensicknesses'=>[
+					'greensickneses',
+					'greensicknessses',
 				],
 				'greeted'=>[
 					'greated',
@@ -3438,6 +4103,10 @@
 				],
 				'gregariously'=>[
 					'gregarously',
+				],
+				'gregariousness'=>[
+					'gregariousnes',
+					'gregariousnesss',
 				],
 				'greige'=>[
 					'griege',
@@ -3467,10 +4136,18 @@
 				'grenadine'=>[
 					'grenadini',
 				],
+				'gressorial'=>[
+					'gresorial',
+					'gresssorial',
+				],
 				'grew'=>[
 					'grew grew',
 					'grew grew grew',
 					'growed',
+				],
+				'greynesses'=>[
+					'greyneses',
+					'greynessses',
 				],
 				'gribble'=>[
 					'grible',
@@ -3501,14 +4178,26 @@
 					'greviously',
 					'grivously',
 				],
+				'grievousness'=>[
+					'grievousnes',
+					'grievousnesss',
+				],
 				'grill'=>[
 					'gril',
 				],
 				'grille'=>[
 					'grile',
 				],
+				'griminess'=>[
+					'grimines',
+					'griminesss',
+				],
 				'grimmest'=>[
 					'grimnest',
+				],
+				'grimness'=>[
+					'grimnes',
+					'grimnesss',
 				],
 				'grippe'=>[
 					'gripppe',
@@ -3518,6 +4207,10 @@
 				],
 				'griseofulvin'=>[
 					'griseofluvin',
+				],
+				'grisliness'=>[
+					'grislines',
+					'grislinesss',
 				],
 				'grislinesses'=>[
 					'grislinisses',
@@ -3537,6 +4230,10 @@
 					'gristely',
 					'gristlly',
 				],
+				'grittiness'=>[
+					'grittines',
+					'grittinesss',
+				],
 				'grittinesses'=>[
 					'grittinisses',
 				],
@@ -3548,6 +4245,10 @@
 				],
 				'groggiest'=>[
 					'grogiest',
+				],
+				'grogginess'=>[
+					'groggines',
+					'grogginesss',
 				],
 				'grogginesses'=>[
 					'grogginisses',
@@ -3565,17 +4266,55 @@
 				'grommets'=>[
 					'gromnets',
 				],
+				'grooviness'=>[
+					'groovines',
+					'groovinesss',
+				],
 				'gross'=>[
 					'gros',
+					'grosss',
+				],
+				'grossed'=>[
+					'grosssed',
+				],
+				'grosser'=>[
+					'grossser',
+				],
+				'grosses'=>[
+					'grossses',
+				],
+				'grossest'=>[
+					'grosssest',
+				],
+				'grossing'=>[
+					'grosssing',
+				],
+				'grossly'=>[
+					'grosssly',
+				],
+				'grossness'=>[
+					'grosness',
+					'grossnes',
+					'grossnesss',
+					'grosssness',
 				],
 				'grossular'=>[
 					'grossuler',
 				],
 				'grossularite'=>[
 					'grosularite',
+					'grosssularite',
 				],
 				'grotesquely'=>[
 					'grotesquly',
+				],
+				'grotesqueness'=>[
+					'grotesquenes',
+					'grotesquenesss',
+				],
+				'grouchiness'=>[
+					'grouchines',
+					'grouchinesss',
 				],
 				'grouchinesses'=>[
 					'grouchinisses',
@@ -3602,6 +4341,19 @@
 				],
 				'groundless'=>[
 					'groundles',
+					'groundlesss',
+				],
+				'groundlessly'=>[
+					'groundlesly',
+					'groundlesssly',
+				],
+				'groundmass'=>[
+					'groundmas',
+					'groundmasss',
+				],
+				'groundmasses'=>[
+					'groundmases',
+					'groundmassses',
 				],
 				'groundswell'=>[
 					'groundswel',
@@ -3647,6 +4399,8 @@
 				],
 				'grubbiness'=>[
 					'grubiness',
+					'grubbines',
+					'grubbinesss',
 				],
 				'grubbinesses'=>[
 					'grubbinisses',
@@ -3655,8 +4409,20 @@
 				'grubby'=>[
 					'gruby',
 				],
+				'grudgingness'=>[
+					'grudgingnes',
+					'grudgingnesss',
+				],
 				'gruesomely'=>[
 					'gruesomly',
+				],
+				'gruesomeness'=>[
+					'gruesomenes',
+					'gruesomenesss',
+				],
+				'gruffness'=>[
+					'gruffnes',
+					'gruffnesss',
 				],
 				'grummet'=>[
 					'grumnet',
@@ -3664,8 +4430,16 @@
 				'grummets'=>[
 					'grumnets',
 				],
+				'grumpiness'=>[
+					'grumpines',
+					'grumpinesss',
+				],
 				'grumpinesses'=>[
 					'grumpinisses',
+				],
+				'grunginess'=>[
+					'grungines',
+					'grunginesss',
 				],
 				'guacamole'=>[
 					'gaucamole',
@@ -3799,6 +4573,10 @@
 				'guarded'=>[
 					'gaurded',
 				],
+				'guardedness'=>[
+					'guardednes',
+					'guardednesss',
+				],
 				'guardhouse'=>[
 					'gaurdhouse',
 				],
@@ -3870,13 +4648,50 @@
 					'guess guess',
 					'guess guess guess',
 					'gues',
+					'guesss',
+				],
+				'guessable'=>[
+					'guesable',
+					'guesssable',
+				],
+				'guessed'=>[
+					'guesed',
+					'guesssed',
+				],
+				'guesser'=>[
+					'gueser',
+					'guessser',
+				],
+				'guessers'=>[
+					'guesers',
+					'guesssers',
+				],
+				'guesses'=>[
+					'gueses',
+					'guessses',
+				],
+				'guessing'=>[
+					'guesing',
+					'guesssing',
 				],
 				'guesstimate'=>[
 					'guestimate',
 					'guestament',
+					'guessstimate',
+				],
+				'guesstimated'=>[
+					'guessstimated',
+				],
+				'guesstimates'=>[
+					'guessstimates',
+					'guestimates',
+				],
+				'guesstimating'=>[
+					'guessstimating',
 				],
 				'guesswork'=>[
 					'gueswork',
+					'guessswork',
 				],
 				'guest-starred'=>[
 					'guest stared',
@@ -3901,11 +4716,23 @@
 				'guildhall'=>[
 					'guildhal',
 				],
+				'guileless'=>[
+					'guileles',
+					'guilelesss',
+				],
 				'guilelessly'=>[
 					'guilelessally',
 					'guilelessaly',
 					'guilelessely',
 					'guilelesslly',
+					'guilelesly',
+					'guilelesssly',
+				],
+				'guilelessness'=>[
+					'guilelesness',
+					'guilelessnes',
+					'guilelessnesss',
+					'guilelesssness',
 				],
 				'guillotine'=>[
 					'guillotini',
@@ -3917,14 +4744,24 @@
 				'guilt'=>[
 					'giult',
 				],
+				'guiltiness'=>[
+					'guiltines',
+					'guiltinesss',
+				],
 				'guiltinesses'=>[
 					'guiltinisses',
+				],
+				'guiltless'=>[
+					'guiltles',
+					'guiltlesss',
 				],
 				'guiltlessly'=>[
 					'guiltlessally',
 					'guiltlessaly',
 					'guiltlessely',
 					'guiltlesslly',
+					'guiltlesly',
+					'guiltlesssly',
 				],
 				'guinea'=>[
 					'guine',
@@ -3987,8 +4824,14 @@
 				'gummiest'=>[
 					'gumniest',
 				],
+				'gumminess'=>[
+					'gummines',
+					'gumminesss',
+				],
 				'gumminesses'=>[
 					'gumninesses',
+					'gummineses',
+					'gumminessses',
 				],
 				'gummite'=>[
 					'gumnite',
@@ -4076,12 +4919,66 @@
 				'gurry'=>[
 					'gury',
 				],
+				'gushiness'=>[
+					'gushines',
+					'gushinesss',
+				],
 				'gusset'=>[
 					'guset',
+					'gussset',
+				],
+				'gusseted'=>[
+					'guseted',
+					'gussseted',
+				],
+				'gusseting'=>[
+					'guseting',
+					'gussseting',
+				],
+				'gussets'=>[
+					'gusets',
+					'gusssets',
+				],
+				'gussie'=>[
+					'gusssie',
+				],
+				'gussied'=>[
+					'gusied',
+					'gusssied',
+				],
+				'gussies'=>[
+					'gusssies',
 				],
 				'gussy'=>[
 					'guscy',
 					'gusy',
+					'gusssy',
+				],
+				'gussying'=>[
+					'gusssying',
+					'gusying',
+				],
+				'gustiness'=>[
+					'gustines',
+					'gustinesss',
+				],
+				'gutless'=>[
+					'gutles',
+					'gutlesss',
+				],
+				'gutlessness'=>[
+					'gutlesness',
+					'gutlessnes',
+					'gutlessnesss',
+					'gutlesssness',
+				],
+				'gutsiness'=>[
+					'gutsines',
+					'gutsinesss',
+				],
+				'gutsinesses'=>[
+					'gutsineses',
+					'gutsinessses',
 				],
 				'gutsy'=>[
 					'gutcy',
@@ -4144,6 +5041,11 @@
 				],
 				'gyrocompass'=>[
 					'gyrocompas',
+					'gyrocompasss',
+				],
+				'gyrocompasses'=>[
+					'gyrocompases',
+					'gyrocompassses',
 				],
 				'gyrofrequency'=>[
 					'gyrofrequensy',
