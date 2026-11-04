@@ -6372,9 +6372,10 @@
 				'rushes'=>[
 					'rushs',
 				],
-				'russ'=>[
-					'russs',
-				],
+					# russ: a name (Russ, short for Russell), and names stay out of this list
+			#	'russ'=>[
+			#		'russs',
+			#	],
 				'russet'=>[
 					'ruset',
 					'russset',

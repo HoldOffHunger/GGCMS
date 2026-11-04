@@ -6530,7 +6530,8 @@
 					'disssections',
 				],
 				'dissector'=>[
-					'disector',
+					# disector: a real word in stereology, D. C. Sterio's 1984 counting method (the disector, the physical disector), not a slip
+				#	'disector',
 					'disssector',
 				],
 				'dissectors'=>[

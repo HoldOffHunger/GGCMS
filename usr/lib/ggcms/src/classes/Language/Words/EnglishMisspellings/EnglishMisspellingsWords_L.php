@@ -652,10 +652,11 @@
 					'las',
 					'lasss',
 				],
-				'lassen'=>[
-					'lasen',
-					'lasssen',
-				],
+					# lassen: a name in English (Lassen Peak, Lassen County) and German for "let", so lasen is German's "read", not a slip
+			#	'lassen'=>[
+			#		'lasen',
+			#		'lasssen',
+			#	],
 				'lasses'=>[
 					'lassses',
 				],
@@ -2373,10 +2374,11 @@
 			#	'lissomely'=>[
 			#		'lissomly',
 			#	],
-				'lissajous'=>[
-					'lisajous',
-					'lisssajous',
-				],
+					# lissajous: a name (Jules Lissajous, the Lissajous curve), and names stay out of this list
+			#	'lissajous'=>[
+			#		'lisajous',
+			#		'lisssajous',
+			#	],
 				'lissom'=>[
 					'lisssom',
 				],

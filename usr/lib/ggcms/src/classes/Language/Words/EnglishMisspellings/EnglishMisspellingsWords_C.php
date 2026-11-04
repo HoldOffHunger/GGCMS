@@ -344,11 +344,13 @@
 				],
 				'caisson'=>[
 					'casion',
-					'caison',
+					# caison: an accepted spelling of caisson (Wiktionary), not a slip
+				#	'caison',
 					'caissson',
 				],
 				'caissons'=>[
-					'caisons',
+					# caisons: an accepted spelling of caissons (Wiktionary), not a slip
+				#	'caisons',
 					'caisssons',
 				],
 				'calamar'=>[
@@ -4356,7 +4358,8 @@
 					'cisluner',
 				],
 				'cissoid'=>[
-					'cisoid',
+					# cisoid: a real word, the chemists' conformation (cisoid, transoid), not a slip for the curve cissoid
+				#	'cisoid',
 					'cisssoid',
 				],
 				'cissy'=>[

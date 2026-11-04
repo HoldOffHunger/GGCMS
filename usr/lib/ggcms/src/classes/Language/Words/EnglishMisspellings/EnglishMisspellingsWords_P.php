@@ -6524,9 +6524,10 @@
 				'poisoning'=>[
 					'poisining',
 				],
-				'poisson'=>[
-					'poissson',
-				],
+					# poisson: a name (Siméon Poisson, the Poisson distribution) and French for fish, and names stay out of this list
+			#	'poisson'=>[
+			#		'poissson',
+			#	],
 				'poivrade'=>[
 					'poiverade',
 				],

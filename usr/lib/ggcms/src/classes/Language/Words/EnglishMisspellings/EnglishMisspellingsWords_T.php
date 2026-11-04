@@ -4342,7 +4342,8 @@
 					'transssexuality',
 				],
 				'transsexuals'=>[
-					'transexuals',
+					# transexuals: an accepted spelling of transsexuals (Wiktionary), not a slip
+				#	'transexuals',
 					'transssexuals',
 				],
 				'transship'=>[

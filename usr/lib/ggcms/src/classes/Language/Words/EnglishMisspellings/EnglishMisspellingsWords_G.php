@@ -4684,7 +4684,8 @@
 				],
 				'guesstimates'=>[
 					'guessstimates',
-					'guestimates',
+					# guestimates: an accepted spelling of guesstimates (Wiktionary), not a slip
+				#	'guestimates',
 				],
 				'guesstimating'=>[
 					'guessstimating',
