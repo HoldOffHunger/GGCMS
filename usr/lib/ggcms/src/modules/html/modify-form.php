@@ -61,11 +61,19 @@
 			$this->subtle_hints = $this->that->SubtleFieldHints();
 			$this->hints = $this->that->ActiveFieldHints();
 
-			foreach($this->that->modifiableRecordTypes() as $element) {
+			foreach($this->Elements() as $element) {
 				$this->DisplayElement(['element'=>$element]);
 			}
 
 			return TRUE;
+		}
+
+			// The fields, in the order they are printed: the site's
+			// modifiable record types.  A site's own form, extending this
+			// one, may add to them.
+
+		public function Elements() {
+			return $this->that->modifiableRecordTypes();
 		}
 
 		public function DisplayEnd() {
@@ -106,7 +114,7 @@
 
 			$this->DisplaySubtleHintStart(['hint'=>$this->subtle_hints[$element]]);
 
-			print($this->that->ElementDisplay(['element'=>$element]));
+			print($this->HeadingText($args));
 
 			if($element === 'Code') {
 				print(' (For Page)');
@@ -121,6 +129,12 @@
 			$this->DisplaySubtleHintEnd(['hint'=>$this->subtle_hints[$element]]);
 
 			return TRUE;
+		}
+
+			// A field's heading is its name as the site displays it.
+
+		public function HeadingText($args) {
+			return $this->that->ElementDisplay(['element'=>$args['element']]);
 		}
 
 			// A subtle hint is a tooltip over the heading, and again over
@@ -199,7 +213,7 @@
 			$file = $args['file'];
 
 			if(!$this->record_modules[$file]) {
-				require_once(GGCMS_DIR . 'modules/html/modify-' . $file . '.php');
+				require_once($this->RecordModuleFile($args));
 
 				$class = 'module_modify' . str_replace('-', '', $file);
 
@@ -210,6 +224,13 @@
 			}
 
 			return $this->record_modules[$file];
+		}
+
+			// Where a record module is: modify-<file>.php beside this one.
+			// A site's own form may keep some of its own elsewhere.
+
+		public function RecordModuleFile($args) {
+			return GGCMS_DIR . 'modules/html/modify-' . $args['file'] . '.php';
 		}
 
 			// Single values

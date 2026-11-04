@@ -77,6 +77,12 @@ etc/ggcms/*
 usr/lib/ggcms/src/templates/*
 !usr/lib/ggcms/src/templates/default/
 
+#  The private modules -- what is particular to real sites, beside their
+#  templates in the private repository -- land here when deploy or
+#  local_sync.sh syncs them, or when a proof links them in.
+
+usr/lib/ggcms/src/modules/private
+
 # ---------------------------------------------------------------------------
 #  PHPUnit, installed by `composer install` for the tests under tests/.
 #  A development tool: it lives outside usr/lib/ggcms/, so deploy.sh never
