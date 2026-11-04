@@ -18,6 +18,8 @@
 	ggreq('modules/html/list/generic.php');
 	$generic_list = new module_genericlist;
 	
+	ggreq('modules/html/master-c-panel.php');
+	
 			// Display Header
 		
 		// -------------------------------------------------------------
@@ -107,120 +109,16 @@
 			// Display Column #2 : Administration
 		
 		// -------------------------------------------------------------
-		
-				// Column #2, Administration : List Args
-			
-			// -------------------------------------------------------------
 	
-	$user_hideable_args = [
-		'options'=>[
-			'domainobject'=>$this->domain_object,
-		],
-		'list'=>[
-			[
-				'text'=>'Administration',
-				'link'=>' ',
-				'mouseover'=>'Administration',
-				[
-					'text'=>'View All Domains',
-					'link'=>'admin.php?action=ViewAllDomains',
-					'mouseover'=>'View All Domains',
-				],
-			],
-			[
-				'text'=>'War Room',
-				'link'=>' ',
-				'mouseover'=>'No Fighting!',
-				[
-					'text'=>'This Host',
-					'link'=>' ',
-					'mouseover'=>'No Fighting!',
-					[
-						'text'=>'This Host',
-						'link'=>'warroom.php?host=' . $this->domain_object->host,
-						'mouseover'=>'View War Room for This Host',
-					],
-					[
-						'text'=>'This Host - 100 Most Recent',
-						'link'=>'warroom.php?limit=100&host=' . $this->domain_object->host,
-						'mouseover'=>'View War Room for This Host',
-					],
-					[
-						'text'=>'This Host - 1,000 Most Recent',
-						'link'=>'warroom.php?limit=1000&host=' . $this->domain_object->host,
-						'mouseover'=>'View War Room for This Host',
-					],
-				],
-				[
-					'text'=>'All Hosts',
-					'link'=>' ',
-					'mouseover'=>'No Fighting!',
-					[
-						'text'=>'All Hosts',
-						'link'=>'warroom.php',
-						'mouseover'=>'View War Room for All Hosts',
-					],
-					[
-						'text'=>'All Hosts - 100 Most Recent',
-						'link'=>'warroom.php?limit=100',
-						'mouseover'=>'View War Room for All Hosts',
-					],
-					[
-						'text'=>'All Hosts - 1,000 Most Recent',
-						'link'=>'warroom.php?limit=1000',
-						'mouseover'=>'View War Room for All Hosts',
-					],
-				],
-			],
-		],
-	];
-		
-				// Column #1, Administration : Secondary Header Args
-			
-			// -------------------------------------------------------------
-	
-	$header_secondary_panel01_args = [
+	$administration_panel = new module_mastercpanel([
+		'that'=>$this,
+		'menu'=>'administration',
 		'title'=>'Admin',
 		'image'=>'master-c/admin-icon.jpg',
 		'divmouseover'=>'Toolage',
 		'imagemouseover'=>'Toolage Imageryage!',
-		'level'=>2,
-		'divclass'=>'horizontal-center width-100percent border-bottom-1px background-color-gray13',
-		'textclass'=>'margin-0px padding-0px vertical-center padding-top-14px',
-		'imagedivclass'=>'background-color-gray10 margin-5px',
-		'imageclass'=>'border-1px width-50px',
-		'domainobject'=>$this->domain_object,
-		'leftimageenable'=>1,
-		'rightimageenable'=>1,
-	];
-		
-				// Column #1, 3rd Party : Display
-			
-			// -------------------------------------------------------------
-	
-	$divider->displaystart($divider_one_third_start_args);
-	
-	$divider->displaystart($divider_padding_special_start_args);
-	
-	$divider->displaystart($divider_frame_start_args);
-	
-	$header->display($header_secondary_panel01_args);
-	
-	$divider->displaystart($divider_case_start_args);
-	
-	$divider->displaystart($divider_padding_start_args);
-	
-	$hideable->display($user_hideable_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
+	]);
+	$administration_panel->Display();
 	
 			// Display Column #1 : Entry Management
 		
