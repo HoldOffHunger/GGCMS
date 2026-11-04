@@ -314,12 +314,14 @@
 				'maharaja'=>[
 					'maaraja',
 				],
-				'maharajah'=>[
-					'maharaja',
-				],
-				'maharajahs'=>[
-					'maharajas',
-				],
+					# maharaja: an accepted spelling, not a slip (AmericanBritishWords_M: maharajah)
+			#	'maharajah'=>[
+			#		'maharaja',
+			#	],
+					# maharajas: an accepted spelling, not a slip (AmericanBritishWords_M: maharajahes)
+			#	'maharajahs'=>[
+			#		'maharajas',
+			#	],
 				'maharajas'=>[
 					'maarajas',
 				],
@@ -363,7 +365,8 @@
 					'majongg',
 				],
 				'mahjonggs'=>[
-					'mahjongs',
+					# mahjongs: an accepted spelling, not a slip (AmericanBritishWords_M: mah-jonggs)
+				#	'mahjongs',
 					'majonggs',
 				],
 				'mahjongs'=>[
@@ -475,9 +478,10 @@
 					'maintinance',
 					'maitenance',
 				],
-				'maize'=>[
-					'maise',
-				],
+					# maise: an accepted spelling, not a slip (AmericanBritishWords_M: Maize)
+			#	'maize'=>[
+			#		'maise',
+			#	],
 				'majestic'=>[
 					'magestic',
 				],
@@ -850,7 +854,8 @@
 				],
 				'maneuver'=>[
 					'maneover',
-					'manoeuvre',
+					# manoeuvre: an accepted spelling, not a slip (AmericanBritishWords_M: maneuver)
+				#	'manoeuvre',
 					'manouver',
 					'manuever',
 					'manuver',
@@ -863,9 +868,10 @@
 					'manoeuverable',
 					'manouverable',
 				],
-				'maneuvering'=>[
-					'manoeuvering',
-				],
+					# manoeuvering: an accepted spelling, not a slip (AmericanBritishWords_M: maneuvering)
+			#	'maneuvering'=>[
+			#		'manoeuvering',
+			#	],
 				'maneuvers'=>[
 					'manouvers',
 					'manuevers',
@@ -966,12 +972,14 @@
 					'mannerely',
 					'mannerlly',
 				],
-				'mannikin'=>[
-					'manikin',
-				],
-				'mannikins'=>[
-					'manikins',
-				],
+					# manikin: an accepted spelling, not a slip (AmericanBritishWords_M: manikin)
+			#	'mannikin'=>[
+			#		'manikin',
+			#	],
+					# manikins: an accepted spelling, not a slip (AmericanBritishWords_M: manikins)
+			#	'mannikins'=>[
+			#		'manikins',
+			#	],
 				'mannish'=>[
 					'manish',
 				],
@@ -1331,18 +1339,22 @@
 				'martínez'=>[
 					'martinez',
 				],
-				'marveled'=>[
-					'marvelled',
-				],
-				'marveling'=>[
-					'marvelling',
-				],
-				'marvelous'=>[
-					'marvellous',
-				],
-				'marvelously'=>[
-					'marvellously',
-				],
+					# marvelled: an accepted spelling, not a slip (AmericanBritishWords_M: marveled)
+			#	'marveled'=>[
+			#		'marvelled',
+			#	],
+					# marvelling: an accepted spelling, not a slip (AmericanBritishWords_M: marveling)
+			#	'marveling'=>[
+			#		'marvelling',
+			#	],
+					# marvellous: an accepted spelling, not a slip (AmericanBritishWords_M: marvelous)
+			#	'marvelous'=>[
+			#		'marvellous',
+			#	],
+					# marvellously: an accepted spelling, not a slip (AmericanBritishWords_M: marvelously)
+			#	'marvelously'=>[
+			#		'marvellously',
+			#	],
 				'marxist'=>[
 					'marixist',
 				],
@@ -1684,9 +1696,10 @@
 					'me me',
 					'me me me',
 				],
-				'mead'=>[
-					'med',
-				],
+					# med: an accepted spelling, not a slip (AmericanBritishWords_M: Med)
+			#	'mead'=>[
+			#		'med',
+			#	],
 				'meadow'=>[
 					'medow',
 				],
@@ -1846,15 +1859,17 @@
 				'mechanosensilla'=>[
 					'mechanosensillae',
 				],
-				'medalist'=>[
-					'medallist',
-				],
+					# medallist: an accepted spelling, not a slip (AmericanBritishWords_M: medalist)
+			#	'medalist'=>[
+			#		'medallist',
+			#	],
 				'medallion'=>[
 					'medalion',
 				],
-				'medallist'=>[
-					'medalist',
-				],
+					# medalist: an accepted spelling, not a slip (AmericanBritishWords_M: medalist)
+			#	'medallist'=>[
+			#		'medalist',
+			#	],
 				'medetomidine'=>[
 					'medetomizine',
 					'meditomedine',
@@ -1899,7 +1914,8 @@
 				],
 				'medieval'=>[
 					'medeival',
-					'mediaeval',
+					# mediaeval: an accepted spelling, not a slip (AmericanBritishWords_M: medieval)
+				#	'mediaeval',
 					'medievel',
 					'medievil',
 					'medival',
@@ -2515,11 +2531,13 @@
 				],
 				'merchandise'=>[
 					'mechandise',
-					'merchandize',
+					# merchandize: an accepted spelling, not a slip (AmericanBritishWords_M: merchandise)
+				#	'merchandize',
 				],
-				'merchandises'=>[
-					'merchandizes',
-				],
+					# merchandizes: an accepted spelling, not a slip (AmericanBritishWords_M: merchandises)
+			#	'merchandises'=>[
+			#		'merchandizes',
+			#	],
 				'merchant'=>[
 					'merchat',
 					'merchent',
@@ -3432,9 +3450,10 @@
 				'millionth'=>[
 					'milionth',
 				],
-				'millipede'=>[
-					'millepede',
-				],
+					# millepede: an accepted spelling, not a slip (AmericanBritishWords_M: millipede)
+			#	'millipede'=>[
+			#		'millepede',
+			#	],
 				'milliradian'=>[
 					'milliradan',
 				],
@@ -3724,7 +3743,8 @@
 					'minascule',
 					'minicsule',
 					'minicule',
-					'miniscule',
+					# miniscule: an accepted spelling, not a slip (AmericanBritishWords_M: minuscule)
+				#	'miniscule',
 					'minisule',
 					'minucsule',
 					'minucule',
@@ -3737,7 +3757,8 @@
 					'minascules',
 					'minicsules',
 					'minicules',
-					'miniscules',
+					# miniscules: an accepted spelling, not a slip (AmericanBritishWords_M: minuscules)
+				#	'miniscules',
 					'minisules',
 					'minucsules',
 					'minucules',
@@ -4218,12 +4239,14 @@
 				],
 				'misdemeanor'=>[
 					'misdameanor',
-					'misdemeanour',
+					# misdemeanour: an accepted spelling, not a slip (AmericanBritishWords_M: misdemeanor)
+				#	'misdemeanour',
 					'misdemenor',
 				],
 				'misdemeanors'=>[
 					'misdameanors',
-					'misdemeanours',
+					# misdemeanours: an accepted spelling, not a slip (AmericanBritishWords_M: misdemeanors)
+				#	'misdemeanours',
 					'misdemenors',
 				],
 				'misdescriptions'=>[
@@ -4308,9 +4331,10 @@
 				'misjoining'=>[
 					'misjoinang',
 				],
-				'misjudgment'=>[
-					'misjudgement',
-				],
+					# misjudgement: an accepted spelling, not a slip (AmericanBritishWords_M: misjudgment)
+			#	'misjudgment'=>[
+			#		'misjudgement',
+			#	],
 				'misknow'=>[
 					'miskow',
 				],
@@ -4658,9 +4682,10 @@
 					'modern modern modern',
 					'mordern',
 				],
-				'modernize'=>[
-					'modernise',
-				],
+					# modernise: an accepted spelling, not a slip (AmericanBritishWords_M: modernize)
+			#	'modernize'=>[
+			#		'modernise',
+			#	],
 				'modernnesses'=>[
 					'modernesses',
 				],
@@ -4762,9 +4787,10 @@
 					'mollusicide',
 					'moluscicide',
 				],
-				'mollusk'=>[
-					'mollusc',
-				],
+					# mollusc: an accepted spelling, not a slip (AmericanBritishWords_M: mollusk)
+			#	'mollusk'=>[
+			#		'mollusc',
+			#	],
 				'molly'=>[
 					'molally',
 					'molaly',
@@ -4966,9 +4992,10 @@
 				'monometallic'=>[
 					'monometalic',
 				],
-				'monometallism'=>[
-					'monometalism',
-				],
+					# monometalism: an accepted spelling, not a slip (AmericanBritishWords_M: monometalism)
+			#	'monometallism'=>[
+			#		'monometalism',
+			#	],
 				'monomolecular'=>[
 					'monomoleculer',
 				],
@@ -5977,7 +6004,8 @@
 					'moutonee',
 				],
 				'movable'=>[
-					'moveable',
+					# moveable: an accepted spelling, not a slip (AmericanBritishWords_M: movable)
+				#	'moveable',
 					'movible',
 				],
 				'move'=>[
@@ -6336,7 +6364,8 @@
 					'mumbau',
 				],
 				'mumm'=>[
-					'mum',
+					# mum: an accepted spelling, not a slip (AmericanBritishWords_M: mom)
+				#	'mum',
 					'mumn',
 				],
 				'mummed'=>[
@@ -6659,12 +6688,14 @@
 				'must have'=>[
 					'must of',
 				],
-				'mustache'=>[
-					'moustache',
-				],
-				'mustaches'=>[
-					'moustaches',
-				],
+					# moustache: an accepted spelling, not a slip (AmericanBritishWords_M: mustache)
+			#	'mustache'=>[
+			#		'moustache',
+			#	],
+					# moustaches: an accepted spelling, not a slip (AmericanBritishWords_M: mustaches)
+			#	'mustaches'=>[
+			#		'moustaches',
+			#	],
 				'mutable'=>[
 					'mutible',
 				],
@@ -6773,12 +6804,14 @@
 				'mylar'=>[
 					'myler',
 				],
-				'mynah'=>[
-					'myna',
-				],
-				'mynahs'=>[
-					'mynas',
-				],
+					# myna: an accepted spelling, not a slip (AmericanBritishWords_M: myna)
+			#	'mynah'=>[
+			#		'myna',
+			#	],
+					# mynas: an accepted spelling, not a slip (AmericanBritishWords_M: mynas)
+			#	'mynahs'=>[
+			#		'mynas',
+			#	],
 				'myo-wun'=>[
 					'may-woon',
 				],

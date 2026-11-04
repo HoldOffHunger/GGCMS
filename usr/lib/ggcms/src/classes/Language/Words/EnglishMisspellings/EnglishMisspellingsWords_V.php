@@ -735,15 +735,17 @@
 					'veraciouslly',
 					'veracously',
 				],
-				'verandah'=>[
-					'veranda',
-				],
+					# veranda: an accepted spelling, not a slip (AmericanBritishWords_V: veranda)
+			#	'verandah'=>[
+			#		'veranda',
+			#	],
 				'verandahed'=>[
 					'verandaed',
 				],
-				'verandahs'=>[
-					'verandas',
-				],
+					# verandas: an accepted spelling, not a slip (AmericanBritishWords_V: verandas)
+			#	'verandahs'=>[
+			#		'verandas',
+			#	],
 				'veratridine'=>[
 					'veratridini',
 					'veratridin',
@@ -825,9 +827,10 @@
 				'vermicular'=>[
 					'vermiculer',
 				],
-				'vermilion'=>[
-					'vermillion',
-				],
+					# vermillion: an accepted spelling, not a slip (AmericanBritishWords_V: vermilion)
+			#	'vermilion'=>[
+			#		'vermillion',
+			#	],
 				'vernacular'=>[
 					'venacular',
 					'vernaculer',
@@ -1622,7 +1625,8 @@
 				],
 				'vivandiere'=>[
 					'vivandeire',
-					'vivandire',
+					# vivandire: an accepted spelling, not a slip (AmericanBritishWords_V: vivandier)
+				#	'vivandire',
 				],
 				'vivary'=>[
 					'vivery',
@@ -1684,10 +1688,12 @@
 				'voidance'=>[
 					'voidence',
 				],
-				'voilà'=>[
-					'walla',
-					'wallah',
-				],
+					# walla: an accepted spelling, not a slip (AmericanBritishWords_W: wallah)
+					# wallah: an accepted spelling, not a slip (AmericanBritishWords_W: wallah)
+			#	'voilà'=>[
+			#		'walla',
+			#		'wallah',
+			#	],
 				'volant'=>[
 					'volent',
 				],

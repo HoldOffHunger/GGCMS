@@ -855,7 +855,8 @@
 					'lep',
 				],
 				'leaped'=>[
-					'leapt',
+					# leapt: an accepted spelling, not a slip (AmericanBritishWords_L: leaped)
+				#	'leapt',
 					'lept',
 				],
 				'leapfrog'=>[
@@ -882,7 +883,8 @@
 					'lern',
 				],
 				'learned'=>[
-					'learnt',
+					# learnt: an accepted spelling, not a slip (AmericanBritishWords_L: learned)
+				#	'learnt',
 					'lerned',
 					'lernt',
 				],
@@ -1399,9 +1401,10 @@
 					'level level level',
 					'levle',
 				],
-				'leveled'=>[
-					'levelled',
-				],
+					# levelled: an accepted spelling, not a slip (AmericanBritishWords_L: leveled)
+			#	'leveled'=>[
+			#		'levelled',
+			#	],
 				'levelheaded'=>[
 					'levelheded',
 				],
@@ -1466,9 +1469,10 @@
 					'libell',
 					'lible',
 				],
-				'libelous'=>[
-					'libellous',
-				],
+					# libellous: an accepted spelling, not a slip (AmericanBritishWords_L: libelous)
+			#	'libelous'=>[
+			#		'libellous',
+			#	],
 				'liberian-occupied'=>[
 					'liberian occupied',
 				],
@@ -1663,7 +1667,8 @@
 					'ligstroside',
 				],
 				'likable'=>[
-					'likeable',
+					# likeable: an accepted spelling, not a slip (AmericanBritishWords_L: likable)
+				#	'likeable',
 					'likible',
 				],
 				'like'=>[
@@ -1844,9 +1849,10 @@
 				'lingually'=>[
 					'lingaully',
 				],
-				'linguine'=>[
-					'linguini',
-				],
+					# linguini: an accepted spelling, not a slip (AmericanBritishWords_L: linguine)
+			#	'linguine'=>[
+			#		'linguini',
+			#	],
 				'linguistic'=>[
 					'languistic',
 					'libguistic',
@@ -2000,9 +2006,10 @@
 				'lisa lân'=>[
 					'lisa lan',
 				],
-				'lissomely'=>[
-					'lissomly',
-				],
+					# lissomly: an accepted spelling, not a slip (AmericanBritishWords_L: lissomely)
+			#	'lissomely'=>[
+			#		'lissomly',
+			#	],
 				'list'=>[
 					'list list',
 					'list list list',
@@ -2098,7 +2105,8 @@
 					'little little little',
 				],
 				'livable'=>[
-					'liveable',
+					# liveable: an accepted spelling, not a slip (AmericanBritishWords_L: livable)
+				#	'liveable',
 					'livible',
 				],
 				'live'=>[
@@ -2455,9 +2463,10 @@
 					'lordely',
 					'lordlly',
 				],
-				'lorry'=>[
-					'lory',
-				],
+					# lory: an accepted spelling, not a slip (AmericanBritishWords_L: lory)
+			#	'lorry'=>[
+			#		'lory',
+			#	],
 				'los angeles'=>[
 					'los angles',
 				],
@@ -2535,7 +2544,8 @@
 					'loucy',
 				],
 				'lovable'=>[
-					'loveable',
+					# loveable: an accepted spelling, not a slip (AmericanBritishWords_L: lovable)
+				#	'loveable',
 					'lovible',
 				],
 				'lovastatin'=>[

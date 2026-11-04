@@ -89,9 +89,10 @@
 				'ukrainian-occupied'=>[
 					'ukrainian occupied',
 				],
-				'ukulele'=>[
-					'ukelele',
-				],
+					# ukelele: an accepted spelling, not a slip (AmericanBritishWords_U: ukulele)
+			#	'ukulele'=>[
+			#		'ukelele',
+			#	],
 				'ulnar'=>[
 					'ulner',
 				],
@@ -482,9 +483,10 @@
 				'unarmed'=>[
 					'umarmed',
 				],
-				'unarmored'=>[
-					'unarmoured',
-				],
+					# unarmoured: an accepted spelling, not a slip (AmericanBritishWords_U: unarmored)
+			#	'unarmored'=>[
+			#		'unarmoured',
+			#	],
 				'unary'=>[
 					'unery',
 				],
@@ -1663,9 +1665,10 @@
 				'unglamorized'=>[
 					'unglamourized',
 				],
-				'unglamorous'=>[
-					'unglamourous',
-				],
+					# unglamourous: an accepted spelling, not a slip (AmericanBritishWords_U: unglamourous)
+			#	'unglamorous'=>[
+			#		'unglamourous',
+			#	],
 				'ungodly'=>[
 					'ungodally',
 					'ungodaly',
@@ -1738,9 +1741,10 @@
 					'unhoely',
 					'unholly',
 				],
-				'unhonored'=>[
-					'unhonoured',
-				],
+					# unhonoured: an accepted spelling, not a slip (AmericanBritishWords_U: unhonored)
+			#	'unhonored'=>[
+			#		'unhonoured',
+			#	],
 				'unhousing'=>[
 					'unhouisng',
 				],
@@ -1750,9 +1754,10 @@
 					'unhumanely',
 					'unhumanlly',
 				],
-				'unhumorous'=>[
-					'unhumourous',
-				],
+					# unhumourous: an accepted spelling, not a slip (AmericanBritishWords_U: unhumorous)
+			#	'unhumorous'=>[
+			#		'unhumourous',
+			#	],
 				'unhurried'=>[
 					'unhurreid',
 					'unhuried',
@@ -2518,13 +2523,15 @@
 					'uningling',
 				],
 				'unmistakable'=>[
-					'unmistakeable',
+					# unmistakeable: an accepted spelling, not a slip (AmericanBritishWords_U: unmistakable)
+				#	'unmistakeable',
 					'umistakable',
 					'unistakable',
 					'unmistakible',
 				],
 				'unmistakably'=>[
-					'unmistakeably',
+					# unmistakeably: an accepted spelling, not a slip (AmericanBritishWords_U: unmistakably)
+				#	'unmistakeably',
 					'umistakably',
 					'unistakably',
 					'unmistakabally',
@@ -3536,9 +3543,10 @@
 				'unspiritual'=>[
 					'unspiritaul',
 				],
-				'unspoiled'=>[
-					'unspoilt',
-				],
+					# unspoilt: an accepted spelling, not a slip (AmericanBritishWords_U: unspoiled)
+			#	'unspoiled'=>[
+			#		'unspoilt',
+			#	],
 				'unstable'=>[
 					'unstible',
 				],
@@ -4121,7 +4129,8 @@
 					'us us us',
 				],
 				'usable'=>[
-					'useable',
+					# useable: an accepted spelling, not a slip (AmericanBritishWords_U: usable)
+				#	'useable',
 					'usible',
 				],
 				'usage'=>[

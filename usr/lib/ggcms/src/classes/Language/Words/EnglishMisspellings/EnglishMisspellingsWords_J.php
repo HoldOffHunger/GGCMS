@@ -362,9 +362,10 @@
 				'jerusalem'=>[
 					'jersualem',
 				],
-				'jess'=>[
-					'jes',
-				],
+					# jes: an accepted spelling, not a slip (AmericanBritishWords_J: Jes)
+			#	'jess'=>[
+			#		'jes',
+			#	],
 				'jesse'=>[
 					'jese',
 				],
@@ -391,24 +392,27 @@
 				'jib'=>[
 					'jibb',
 				],
-				'jibed'=>[
-					'jibbed',
-				],
+					# jibbed: an accepted spelling, not a slip (AmericanBritishWords_J: jibbed)
+			#	'jibed'=>[
+			#		'jibbed',
+			#	],
 				'jiber'=>[
 					'jibber',
 				],
 				'jibers'=>[
 					'jibbers',
 				],
-				'jibing'=>[
-					'jibbing',
-				],
+					# jibbing: an accepted spelling, not a slip (AmericanBritishWords_J: jibbing)
+			#	'jibing'=>[
+			#		'jibbing',
+			#	],
 				'jibboom'=>[
 					'jiboom',
 				],
-				'jibbs'=>[
-					'jibs',
-				],
+					# jibs: an accepted spelling, not a slip (AmericanBritishWords_J: jibs)
+			#	'jibbs'=>[
+			#		'jibs',
+			#	],
 				'jigger'=>[
 					'jiger',
 				],
@@ -684,7 +688,8 @@
 					'judgemant',
 				],
 				'judgment'=>[
-					'judgement',
+					# judgement: an accepted spelling, not a slip (AmericanBritishWords_J: judgment)
+				#	'judgement',
 					'judgmant',
 				],
 				'judicable'=>[

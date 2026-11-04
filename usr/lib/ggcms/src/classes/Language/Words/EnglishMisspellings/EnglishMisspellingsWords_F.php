@@ -147,15 +147,18 @@
 					'faeri',
 				],
 				'faggot'=>[
-					'fagot',
+					# fagot: an accepted spelling, not a slip (AmericanBritishWords_F: fagot)
+				#	'fagot',
 					'faggit',
 				],
-				'faggoting'=>[
-					'fagoting',
-				],
-				'faggotings'=>[
-					'fagotings',
-				],
+					# fagoting: an accepted spelling, not a slip (AmericanBritishWords_F: fagoting)
+			#	'faggoting'=>[
+			#		'fagoting',
+			#	],
+					# fagotings: an accepted spelling, not a slip (AmericanBritishWords_F: fagotings)
+			#	'faggotings'=>[
+			#		'fagotings',
+			#	],
 				'faggotries'=>[
 					'fagotries',
 				],
@@ -189,9 +192,10 @@
 				'fainer'=>[
 					'fainir',
 				],
-				'fainthearted'=>[
-					'faint-hearted',
-				],
+					# faint-hearted: an accepted spelling, not a slip (AmericanBritishWords_F: fainthearted)
+			#	'fainthearted'=>[
+			#		'faint-hearted',
+			#	],
 				'faintheartedly'=>[
 					'fainthertedly',
 				],
@@ -669,7 +673,8 @@
 				'fear'=>[
 					'fear fear',
 					'fear fear fear',
-					'feer',
+					# feer: an accepted spelling, not a slip (AmericanBritishWords_F: feer)
+				#	'feer',
 					'fer',
 				],
 				'feared'=>[
@@ -763,7 +768,8 @@
 				],
 				'feature'=>[
 					'feauture',
-					'feture',
+					# feture: an accepted spelling, not a slip (AmericanBritishWords_F: feture)
+				#	'feture',
 				],
 				'featured'=>[
 					'fetured',
@@ -1614,9 +1620,10 @@
 				'filler'=>[
 					'filer',
 				],
-				'fillet'=>[
-					'filet',
-				],
+					# filet: an accepted spelling, not a slip (AmericanBritishWords_F: fillet)
+			#	'fillet'=>[
+			#		'filet',
+			#	],
 				'filling'=>[
 					'fillling',
 				],
@@ -2427,9 +2434,10 @@
 					'floscy',
 					'flosy',
 				],
-				'flotation'=>[
-					'floatation',
-				],
+					# floatation: an accepted spelling, not a slip (AmericanBritishWords_F: flotation)
+			#	'flotation'=>[
+			#		'floatation',
+			#	],
 				'flotilla'=>[
 					'floatilla',
 					'flotila',
@@ -2904,9 +2912,10 @@
 				'fogginesses'=>[
 					'foginesses',
 				],
-				'foggy'=>[
-					'fogy',
-				],
+					# fogy: an accepted spelling, not a slip (AmericanBritishWords_F: fogy)
+			#	'foggy'=>[
+			#		'fogy',
+			#	],
 				'foible'=>[
 					'foable',
 				],
@@ -4971,7 +4980,8 @@
 					'fospent',
 				],
 				'forswear'=>[
-					'foreswear',
+					# foreswear: an accepted spelling, not a slip (AmericanBritishWords_F: forswear)
+				#	'foreswear',
 					'forsweer',
 					'foswear',
 				],
@@ -5393,9 +5403,10 @@
 				'freakishnesses'=>[
 					'frekishnesses',
 				],
-				'fred'=>[
-					'ferd',
-				],
+					# ferd: an accepted spelling, not a slip (AmericanBritishWords_F: ferd)
+			#	'fred'=>[
+			#		'ferd',
+			#	],
 				'free'=>[
 					'free free',
 					'free free free',
@@ -5508,7 +5519,8 @@
 				'friar'=>[
 					'frair',
 					'frar',
-					'frier',
+					# frier: an accepted spelling, not a slip (AmericanBritishWords_F: fryer)
+				#	'frier',
 				],
 				'friary'=>[
 					'friery',
@@ -5584,7 +5596,8 @@
 				],
 				'frieze'=>[
 					'freize',
-					'frize',
+					# frize: an accepted spelling, not a slip (AmericanBritishWords_F: frize)
+				#	'frize',
 				],
 				'frigging'=>[
 					'friging',
@@ -5814,9 +5827,10 @@
 				'fuller'=>[
 					'fuler',
 				],
-				'fullness'=>[
-					'fulness',
-				],
+					# fulness: an accepted spelling, not a slip (AmericanBritishWords_F: fullness)
+			#	'fullness'=>[
+			#		'fulness',
+			#	],
 				'fully'=>[
 					'fulally',
 					'fulaly',
@@ -6145,9 +6159,10 @@
 				'furnitures'=>[
 					'funitures',
 				],
-				'furor'=>[
-					'furore',
-				],
+					# furore: an accepted spelling, not a slip (AmericanBritishWords_F: furor)
+			#	'furor'=>[
+			#		'furore',
+			#	],
 				'furore'=>[
 					'fuore',
 				],
@@ -6293,18 +6308,20 @@
 				'furunculosis'=>[
 					'fuunculosis',
 				],
-				'furzes'=>[
-					'fuzes',
-				],
+					# fuzes: an accepted spelling, not a slip (AmericanBritishWords_F: fuzes)
+			#	'furzes'=>[
+			#		'fuzes',
+			#	],
 				'furzier'=>[
 					'fuzier',
 				],
 				'furziest'=>[
 					'fuziest',
 				],
-				'fuse'=>[
-					'fuze',
-				],
+					# fuze: an accepted spelling, not a slip (AmericanBritishWords_F: fuze)
+			#	'fuse'=>[
+			#		'fuze',
+			#	],
 				'fusibilities'=>[
 					'fuisbilities',
 				],
@@ -6346,9 +6363,10 @@
 				'fusillis'=>[
 					'fuisllis',
 				],
-				'fusing'=>[
-					'fuzing',
-				],
+					# fuzing: an accepted spelling, not a slip (AmericanBritishWords_F: fusing)
+			#	'fusing'=>[
+			#		'fuzing',
+			#	],
 				'fusional'=>[
 					'fuisonal',
 				],

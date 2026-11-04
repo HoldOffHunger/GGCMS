@@ -354,7 +354,8 @@
 				'near'=>[
 					'near near',
 					'near near near',
-					'neer',
+					# neer: an accepted spelling, not a slip (AmericanBritishWords_N: neer)
+				#	'neer',
 					'ner',
 				],
 				'nearby'=>[
@@ -1321,22 +1322,26 @@
 				'non-capitalist'=>[
 					'noncapitalist',
 				],
-				'non-commissioned'=>[
-					'noncommissioned',
-				],
-				'non-communist'=>[
-					'noncommunist',
-				],
+					# noncommissioned: an accepted spelling, not a slip (AmericanBritishWords_N: noncommissioned)
+			#	'non-commissioned'=>[
+			#		'noncommissioned',
+			#	],
+					# noncommunist: an accepted spelling, not a slip (AmericanBritishWords_N: noncommunist)
+			#	'non-communist'=>[
+			#		'noncommunist',
+			#	],
 				'non-hierarchical'=>[
 					'nonheirarchical',
 					'nonhierarchical',
 				],
-				'non-participation'=>[
-					'nonparticipation',
-				],
-				'non-political'=>[
-					'nonpolitical',
-				],
+					# nonparticipation: an accepted spelling, not a slip (AmericanBritishWords_N: nonparticipation)
+			#	'non-participation'=>[
+			#		'nonparticipation',
+			#	],
+					# nonpolitical: an accepted spelling, not a slip (AmericanBritishWords_N: nonpolitical)
+			#	'non-political'=>[
+			#		'nonpolitical',
+			#	],
 				'non-western'=>[
 					'nonwestern',
 				],

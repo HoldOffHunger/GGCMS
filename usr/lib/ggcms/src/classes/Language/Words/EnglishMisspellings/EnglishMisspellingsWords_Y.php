@@ -206,12 +206,14 @@
 					'yes yes',
 					'yes yes yes',
 				],
-				'yeshivah'=>[
-					'yeshiva',
-				],
-				'yeshivahs'=>[
-					'yeshivas',
-				],
+					# yeshiva: an accepted spelling, not a slip (AmericanBritishWords_Y: yeshiva)
+			#	'yeshivah'=>[
+			#		'yeshiva',
+			#	],
+					# yeshivas: an accepted spelling, not a slip (AmericanBritishWords_Y: yeshivas)
+			#	'yeshivahs'=>[
+			#		'yeshivas',
+			#	],
 				'yesteryear'=>[
 					'yesteryeer',
 					'yesteryer',

@@ -35,9 +35,10 @@
 				'Zacchaeus'=>[
 					'zaccheaus',
 				],
-				'zaffar'=>[
-					'zaffer',
-				],
+					# zaffer: an accepted spelling, not a slip (AmericanBritishWords_Z: zaffer)
+			#	'zaffar'=>[
+			#		'zaffer',
+			#	],
 				'zagged'=>[
 					'zaged',
 				],
@@ -203,7 +204,8 @@
 				],
 				'zombie'=>[
 					'zombei',
-					'zombi',
+					# zombi: an accepted spelling, not a slip (AmericanBritishWords_Z: zombie)
+				#	'zombi',
 				],
 				'zonary'=>[
 					'zonery',

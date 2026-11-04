@@ -278,9 +278,10 @@
 				'idoneity'=>[
 					'idoniety',
 				],
-				'idyll'=>[
-					'idyl',
-				],
+					# idyl: an accepted spelling, not a slip (AmericanBritishWords_I: idyl)
+			#	'idyll'=>[
+			#		'idyl',
+			#	],
 				'idyllic'=>[
 					'idylic',
 				],
@@ -297,9 +298,10 @@
 				'iggs'=>[
 					'igs',
 				],
-				'ignitible'=>[
-					'ignitable',
-				],
+					# ignitable: an accepted spelling, not a slip (AmericanBritishWords_I: ignitable)
+			#	'ignitible'=>[
+			#		'ignitable',
+			#	],
 				'ignominious'=>[
 					'ignominaous',
 					'ignominous',
@@ -5352,9 +5354,10 @@
 				'instability'=>[
 					'unstability',
 				],
-				'install'=>[
-					'instal',
-				],
+					# instal: an accepted spelling, not a slip (AmericanBritishWords_I: install)
+			#	'install'=>[
+			#		'instal',
+			#	],
 				'installation'=>[
 					'instalation',
 					'installtion',
@@ -5369,7 +5372,8 @@
 				],
 				'installment'=>[
 					'installmant',
-					'instalment',
+					# instalment: an accepted spelling, not a slip (AmericanBritishWords_I: installment)
+				#	'instalment',
 					'intallment',
 				],
 				'installments'=>[
@@ -5436,9 +5440,10 @@
 					'insted',
 					'isntead',
 				],
-				'instill'=>[
-					'instil',
-				],
+					# instil: an accepted spelling, not a slip (AmericanBritishWords_I: instill)
+			#	'instill'=>[
+			#		'instil',
+			#	],
 				'instinctively'=>[
 					'instinctivly',
 					'instinctually',

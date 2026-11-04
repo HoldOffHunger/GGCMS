@@ -108,12 +108,14 @@
 					'rabeis',
 					'rabis',
 				],
-				'raccoon'=>[
-					'racoon',
-				],
-				'raccoons'=>[
-					'racoons',
-				],
+					# racoon: an accepted spelling, not a slip (AmericanBritishWords_R: raccoon)
+			#	'raccoon'=>[
+			#		'racoon',
+			#	],
+					# racoons: an accepted spelling, not a slip (AmericanBritishWords_R: raccoons)
+			#	'raccoons'=>[
+			#		'racoons',
+			#	],
 				'race'=>[
 					'race race',
 					'race race race',
@@ -308,12 +310,14 @@
 					'rasied',
 					'rised',
 				],
-				'rajah'=>[
-					'raja',
-				],
-				'rajahs'=>[
-					'rajas',
-				],
+					# raja: an accepted spelling, not a slip (AmericanBritishWords_R: rajah)
+			#	'rajah'=>[
+			#		'raja',
+			#	],
+					# rajas: an accepted spelling, not a slip (AmericanBritishWords_R: rajahes)
+			#	'rajahs'=>[
+			#		'rajas',
+			#	],
 				'rally'=>[
 					'ralally',
 					'ralaly',
@@ -1550,9 +1554,10 @@
 				'recruiting'=>[
 					'recruting',
 				],
-				'recrystallize'=>[
-					'recrystalize',
-				],
+					# recrystalize: an accepted spelling, not a slip (AmericanBritishWords_R: recrystalize)
+			#	'recrystallize'=>[
+			#		'recrystalize',
+			#	],
 				'rectangular'=>[
 					'rectanguler',
 				],
@@ -1742,9 +1747,10 @@
 				'reentry'=>[
 					'reantry',
 				],
-				'reequipped'=>[
-					'reequiped',
-				],
+					# reequiped: an accepted spelling, not a slip (AmericanBritishWords_R: reequiped)
+			#	'reequipped'=>[
+			#		'reequiped',
+			#	],
 				'reevaluated'=>[
 					'reevalauted',
 					'revaluated',
@@ -2254,7 +2260,8 @@
 					'rcinforccd',
 				],
 				'reinforcement'=>[
-					'reenforcement',
+					# reenforcement: an accepted spelling, not a slip (AmericanBritishWords_R: reenforcement)
+				#	'reenforcement',
 					'reinforcemant',
 					'rienforcement',
 				],
@@ -2838,12 +2845,14 @@
 				'remnants'=>[
 					'remanants',
 				],
-				'remodeled'=>[
-					'remodelled',
-				],
-				'remodeling'=>[
-					'remodelling',
-				],
+					# remodelled: an accepted spelling, not a slip (AmericanBritishWords_R: remodeled)
+			#	'remodeled'=>[
+			#		'remodelled',
+			#	],
+					# remodelling: an accepted spelling, not a slip (AmericanBritishWords_R: remodeling)
+			#	'remodeling'=>[
+			#		'remodelling',
+			#	],
 				'remoistened'=>[
 					'remoistend',
 				],
@@ -4125,15 +4134,17 @@
 				'reveal'=>[
 					'revel',
 				],
-				'revealing'=>[
-					'reveling',
-				],
+					# reveling: an accepted spelling, not a slip (AmericanBritishWords_R: reveling)
+			#	'revealing'=>[
+			#		'reveling',
+			#	],
 				'reveille'=>[
 					'revielle',
 				],
-				'reveling'=>[
-					'revelling',
-				],
+					# revelling: an accepted spelling, not a slip (AmericanBritishWords_R: reveling)
+			#	'reveling'=>[
+			#		'revelling',
+			#	],
 				'revenue'=>[
 					'revnue',
 				],
@@ -4717,9 +4728,10 @@
 				'roan inish'=>[
 					'roan irish',
 				],
-				'roar'=>[
-					'roer',
-				],
+					# roer: an accepted spelling, not a slip (AmericanBritishWords_R: roer)
+			#	'roar'=>[
+			#		'roer',
+			#	],
 				'robbed'=>[
 					'rob bed',
 				],
@@ -5074,9 +5086,10 @@
 				'rubbishy'=>[
 					'rubishy',
 				],
-				'rubble'=>[
-					'ruble',
-				],
+					# ruble: an accepted spelling, not a slip (AmericanBritishWords_R: ruble)
+			#	'rubble'=>[
+			#		'ruble',
+			#	],
 				'rubbled'=>[
 					'rubled',
 				],
@@ -5269,24 +5282,28 @@
 				'rumor'=>[
 					'rummor',
 				],
-				'rumored'=>[
-					'rumoured',
-				],
-				'rumoring'=>[
-					'rumouring',
-				],
-				'rumormonger'=>[
-					'rumourmonger',
-				],
+					# rumoured: an accepted spelling, not a slip (AmericanBritishWords_R: rumored)
+			#	'rumored'=>[
+			#		'rumoured',
+			#	],
+					# rumouring: an accepted spelling, not a slip (AmericanBritishWords_R: rumoring)
+			#	'rumoring'=>[
+			#		'rumouring',
+			#	],
+					# rumourmonger: an accepted spelling, not a slip (AmericanBritishWords_R: rumormonger)
+			#	'rumormonger'=>[
+			#		'rumourmonger',
+			#	],
 				'rumormongering'=>[
 					'rumourmongering',
 				],
 				'rumormongerings'=>[
 					'rumourmongerings',
 				],
-				'rumormongers'=>[
-					'rumourmongers',
-				],
+					# rumourmongers: an accepted spelling, not a slip (AmericanBritishWords_R: rumormongers)
+			#	'rumormongers'=>[
+			#		'rumourmongers',
+			#	],
 				'rumors'=>[
 					'rumouors',
 				],

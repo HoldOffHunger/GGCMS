@@ -540,7 +540,8 @@
 					'delt',
 				],
 				'deaminase'=>[
-					'deaminise',
+					# deaminise: an accepted spelling, not a slip (AmericanBritishWords_D: deaminate)
+				#	'deaminise',
 					'diaminase',
 				],
 				'deaminate'=>[
@@ -609,7 +610,8 @@
 					'deber',
 				],
 				'debatable'=>[
-					'debateable',
+					# debateable: an accepted spelling, not a slip (AmericanBritishWords_D: debatable)
+				#	'debateable',
 					'debatible',
 				],
 				'debaucheries'=>[
@@ -692,9 +694,10 @@
 				'decant'=>[
 					'decont',
 				],
-				'decanter'=>[
-					'decenter',
-				],
+					# decenter: an accepted spelling, not a slip (AmericanBritishWords_D: decenter)
+			#	'decanter'=>[
+			#		'decenter',
+			#	],
 				'decasualization'=>[
 					'decasaulization',
 				],
@@ -1104,9 +1107,10 @@
 				'defendants'=>[
 					'defendents',
 				],
-				'defended'=>[
-					'defensed',
-				],
+					# defensed: an accepted spelling, not a slip (AmericanBritishWords_D: defensed)
+			#	'defended'=>[
+			#		'defensed',
+			#	],
 				'defender'=>[
 					'defendor',
 				],
@@ -1706,7 +1710,8 @@
 				],
 				'demagogueries'=>[
 					'demagoguereis',
-					'demagogueris',
+					# demagogueris: an accepted spelling, not a slip (AmericanBritishWords_D: demagogueris)
+				#	'demagogueris',
 				],
 				'demandant'=>[
 					'demandent',
@@ -1719,12 +1724,14 @@
 				],
 				'demeanor'=>[
 					'damenor',
-					'demeanour',
+					# demeanour: an accepted spelling, not a slip (AmericanBritishWords_D: demeanor)
+				#	'demeanour',
 					'demenor',
 				],
-				'demeanors'=>[
-					'demeanours',
-				],
+					# demeanours: an accepted spelling, not a slip (AmericanBritishWords_D: demeanors)
+			#	'demeanors'=>[
+			#		'demeanours',
+			#	],
 				'demeanour'=>[
 					'demenour',
 				],
@@ -2221,9 +2228,10 @@
 				'dependants'=>[
 					'depenedaats',
 				],
-				'dependence'=>[
-					'dependance',
-				],
+					# dependance: an accepted spelling, not a slip (AmericanBritishWords_D: dependance)
+			#	'dependence'=>[
+			#		'dependance',
+			#	],
 				'dependencies'=>[
 					'dependenceis',
 					'dependencis',
@@ -2431,13 +2439,15 @@
 					'decendant',
 					'decendent',
 					'decsendant',
-					'descendent',
+					# descendent: an accepted spelling, not a slip (AmericanBritishWords_D: descendant)
+				#	'descendent',
 					'descendnat',
 					'descentant',
 					'desendant',
 				],
 				'descendants'=>[
-					'descendents',
+					# descendents: an accepted spelling, not a slip (AmericanBritishWords_D: descendants)
+				#	'descendents',
 					'descendnats',
 				],
 				'descended'=>[
@@ -2447,7 +2457,8 @@
 					'decendant',
 					'decendent',
 					'decsendent',
-					'descendant',
+					# descendant: an accepted spelling, not a slip (AmericanBritishWords_D: descendant)
+				#	'descendant',
 					'desendent',
 				],
 				'descendents'=>[
@@ -3232,9 +3243,10 @@
 				'dialectician'=>[
 					'dialectican',
 				],
-				'dialed'=>[
-					'dialled',
-				],
+					# dialled: an accepted spelling, not a slip (AmericanBritishWords_D: dialed)
+			#	'dialed'=>[
+			#		'dialled',
+			#	],
 				'dialog'=>[
 					'dialouge',
 				],
@@ -4378,7 +4390,8 @@
 				'disc'=>[
 					'dic',
 					'dics',
-					'dis',
+					# dis: an accepted spelling, not a slip (AmericanBritishWords_D: dis)
+				#	'dis',
 				],
 				'discard'=>[
 					'dicard',
@@ -4394,7 +4407,8 @@
 				'discernible'=>[
 					'dicernible',
 					'dicsernible',
-					'discernable',
+					# discernable: an accepted spelling, not a slip (AmericanBritishWords_D: discernible)
+				#	'discernable',
 					'disernible',
 				],
 				'discerning'=>[
@@ -5130,7 +5144,8 @@
 				'discs'=>[
 					'dics',
 					'dicss',
-					'diss',
+					# diss: an accepted spelling, not a slip (AmericanBritishWords_D: dis)
+				#	'diss',
 				],
 				'discursive'=>[
 					'dicsursive',
@@ -5279,42 +5294,51 @@
 					'disheartenmants',
 					'dishertenments',
 				],
-				'dishonor'=>[
-					'dishonour',
-				],
+					# dishonour: an accepted spelling, not a slip (AmericanBritishWords_D: dishonor)
+			#	'dishonor'=>[
+			#		'dishonour',
+			#	],
 				'dishonorable'=>[
 					'dishonorible',
-					'dishonourable',
+					# dishonourable: an accepted spelling, not a slip (AmericanBritishWords_D: dishonorable)
+				#	'dishonourable',
 				],
 				'dishonorably'=>[
 					'dishonorabally',
 					'dishonorabaly',
 					'dishonorabely',
 					'dishonorablly',
-					'dishonourably',
+					# dishonourably: an accepted spelling, not a slip (AmericanBritishWords_D: dishonorably)
+				#	'dishonourably',
 				],
-				'dishonored'=>[
-					'dishonoured',
-				],
-				'dishonorer'=>[
-					'dishonourer',
-				],
-				'dishonorers'=>[
-					'dishonourers',
-				],
-				'dishonoring'=>[
-					'dishonouring',
-				],
-				'dishonors'=>[
-					'dishonours',
-				],
+					# dishonoured: an accepted spelling, not a slip (AmericanBritishWords_D: dishonored)
+			#	'dishonored'=>[
+			#		'dishonoured',
+			#	],
+					# dishonourer: an accepted spelling, not a slip (AmericanBritishWords_D: dishonorer)
+			#	'dishonorer'=>[
+			#		'dishonourer',
+			#	],
+					# dishonourers: an accepted spelling, not a slip (AmericanBritishWords_D: dishonorers)
+			#	'dishonorers'=>[
+			#		'dishonourers',
+			#	],
+					# dishonouring: an accepted spelling, not a slip (AmericanBritishWords_D: dishonoring)
+			#	'dishonoring'=>[
+			#		'dishonouring',
+			#	],
+					# dishonours: an accepted spelling, not a slip (AmericanBritishWords_D: dishonors)
+			#	'dishonors'=>[
+			#		'dishonours',
+			#	],
 				'disillusion'=>[
 					'disilluison',
 					'disilusion',
 				],
 				'disillusioned'=>[
 					'disilluisoned',
-					'disillusionized',
+					# disillusionized: an accepted spelling, not a slip (AmericanBritishWords_D: disillusionized)
+				#	'disillusionized',
 				],
 				'disillusioning'=>[
 					'disilluisoning',
@@ -5763,9 +5787,10 @@
 				'disruptively'=>[
 					'disruptivly',
 				],
-				'diss'=>[
-					'dis',
-				],
+					# dis: an accepted spelling, not a slip (AmericanBritishWords_D: dis)
+			#	'diss'=>[
+			#		'dis',
+			#	],
 				'dissatisfaction'=>[
 					'disatisfaction',
 				],
@@ -6087,9 +6112,10 @@
 				'distensible'=>[
 					'distensable',
 				],
-				'distill'=>[
-					'distil',
-				],
+					# distil: an accepted spelling, not a slip (AmericanBritishWords_D: distill)
+			#	'distill'=>[
+			#		'distil',
+			#	],
 				'distillate'=>[
 					'distilate',
 				],
@@ -6370,12 +6396,14 @@
 					'dizements',
 					'dizenents',
 				],
-				'djellabah'=>[
-					'djellaba',
-				],
-				'djellabahs'=>[
-					'djellabas',
-				],
+					# djellaba: an accepted spelling, not a slip (AmericanBritishWords_D: djellaba)
+			#	'djellabah'=>[
+			#		'djellaba',
+			#	],
+					# djellabas: an accepted spelling, not a slip (AmericanBritishWords_D: djellabas)
+			#	'djellabahs'=>[
+			#		'djellabas',
+			#	],
 				'djinn'=>[
 					'djin',
 				],
@@ -6526,7 +6554,8 @@
 				'doggie'=>[
 					'doggei',
 					'doggi',
-					'dogie',
+					# dogie: an accepted spelling, not a slip (AmericanBritishWords_D: dogie)
+				#	'dogie',
 				],
 				'doggish'=>[
 					'dogish',
@@ -6561,9 +6590,10 @@
 				'doggrel'=>[
 					'dogrel',
 				],
-				'doggy'=>[
-					'dogy',
-				],
+					# dogy: an accepted spelling, not a slip (AmericanBritishWords_D: dogie)
+			#	'doggy'=>[
+			#		'dogy',
+			#	],
 				'dogie'=>[
 					'dogei',
 					'dogi',
@@ -6677,9 +6707,10 @@
 				'dominicks'=>[
 					'dominacks',
 				],
-				'dominie'=>[
-					'dominae',
-				],
+					# dominae: an accepted spelling, not a slip (AmericanBritishWords_D: domine)
+			#	'dominie'=>[
+			#		'dominae',
+			#	],
 				'dominies'=>[
 					'dominaes',
 				],
@@ -6898,9 +6929,10 @@
 				'doughtinesses'=>[
 					'doughtinisses',
 				],
-				'dourah'=>[
-					'doura',
-				],
+					# doura: an accepted spelling, not a slip (AmericanBritishWords_D: dora)
+			#	'dourah'=>[
+			#		'doura',
+			#	],
 				'dourahs'=>[
 					'douras',
 				],

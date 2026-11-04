@@ -244,9 +244,10 @@
 				'backpedal'=>[
 					'backpeddle',
 				],
-				'backpedalling'=>[
-					'backpedaling',
-				],
+					# backpedaling: an accepted spelling, not a slip (AmericanBritishWords_B: backpedaling)
+			#	'backpedalling'=>[
+			#		'backpedaling',
+			#	],
 				'backscatter'=>[
 					'backcatter',
 					'backcsatter',
@@ -384,7 +385,8 @@
 					'bagy',
 				],
 				'baghdad'=>[
-					'bagdad',
+					# bagdad: an accepted spelling, not a slip (AmericanBritishWords_B: baghdad)
+				#	'bagdad',
 					'baghad',
 				],
 				'bahadur'=>[
@@ -568,9 +570,10 @@
 				'band\'s style'=>[
 					'bands style',
 				],
-				'bandanna'=>[
-					'bandana',
-				],
+					# bandana: an accepted spelling, not a slip (AmericanBritishWords_B: bandanna)
+			#	'bandanna'=>[
+			#		'bandana',
+			#	],
 				'banderillero'=>[
 					'banderilero',
 				],
@@ -637,9 +640,10 @@
 				'bannerol'=>[
 					'banerol',
 				],
-				'bannister'=>[
-					'banister',
-				],
+					# banister: an accepted spelling, not a slip (AmericanBritishWords_B: banister)
+			#	'bannister'=>[
+			#		'banister',
+			#	],
 				'bannock'=>[
 					'banock',
 				],
@@ -1224,15 +1228,18 @@
 				'bechance'=>[
 					'bechence',
 				],
-				'beclamor'=>[
-					'beclamour',
-				],
-				'beclamoring'=>[
-					'beclamouring',
-				],
-				'beclamors'=>[
-					'beclamours',
-				],
+					# beclamour: an accepted spelling, not a slip (AmericanBritishWords_B: beclamor)
+			#	'beclamor'=>[
+			#		'beclamour',
+			#	],
+					# beclamouring: an accepted spelling, not a slip (AmericanBritishWords_B: beclamoring)
+			#	'beclamoring'=>[
+			#		'beclamouring',
+			#	],
+					# beclamours: an accepted spelling, not a slip (AmericanBritishWords_B: beclamors)
+			#	'beclamors'=>[
+			#		'beclamours',
+			#	],
 				'becloggedbeflagged'=>[
 					'becloggedbeflaged',
 				],
@@ -1407,15 +1414,18 @@
 				'begins'=>[
 					'beigns',
 				],
-				'beglamor'=>[
-					'beglamour',
-				],
-				'beglamoring'=>[
-					'beglamouring',
-				],
-				'beglamors'=>[
-					'beglamours',
-				],
+					# beglamour: an accepted spelling, not a slip (AmericanBritishWords_B: beglamour)
+			#	'beglamor'=>[
+			#		'beglamour',
+			#	],
+					# beglamouring: an accepted spelling, not a slip (AmericanBritishWords_B: beglamouring)
+			#	'beglamoring'=>[
+			#		'beglamouring',
+			#	],
+					# beglamours: an accepted spelling, not a slip (AmericanBritishWords_B: beglamours)
+			#	'beglamors'=>[
+			#		'beglamours',
+			#	],
 				'begoggledbewiggingbraggiest'=>[
 					'begoggledbewiggingbragiest',
 				],
@@ -1452,9 +1462,10 @@
 					'behind behind behind',
 					'behing',
 				],
-				'behoove'=>[
-					'behove',
-				],
+					# behove: an accepted spelling, not a slip (AmericanBritishWords_B: behoove)
+			#	'behoove'=>[
+			#		'behove',
+			#	],
 				'beige'=>[
 					'biege',
 				],
@@ -1586,7 +1597,8 @@
 					'beliqors',
 				],
 				'bell'=>[
-					'bel',
+					# bel: an accepted spelling, not a slip (AmericanBritishWords_B: bel)
+				#	'bel',
 					'bell bell',
 					'bell bell bell',
 				],
@@ -1965,7 +1977,8 @@
 				],
 				'biased'=>[
 					'baised',
-					'biassed',
+					# biassed: an accepted spelling, not a slip (AmericanBritishWords_B: biased)
+				#	'biassed',
 				],
 				'bibb'=>[
 					'bib',
@@ -2955,9 +2968,10 @@
 				'bloggings'=>[
 					'blogings',
 				],
-				'blond'=>[
-					'blonde',
-				],
+					# blonde: an accepted spelling, not a slip (AmericanBritishWords_B: blond)
+			#	'blond'=>[
+			#		'blonde',
+			#	],
 				'blood'=>[
 					'blood blood',
 					'blood blood blood',
@@ -3225,9 +3239,10 @@
 				'boggle'=>[
 					'bogle',
 				],
-				'boggy'=>[
-					'bogy',
-				],
+					# bogy: an accepted spelling, not a slip (AmericanBritishWords_B: bogey)
+			#	'boggy'=>[
+			#		'bogy',
+			#	],
 				'bogie'=>[
 					'bogei',
 					'bogi',
@@ -3306,9 +3321,10 @@
 				'bonnet'=>[
 					'bonet',
 				],
-				'bonny'=>[
-					'bony',
-				],
+					# bony: an accepted spelling, not a slip (AmericanBritishWords_B: bony)
+			#	'bonny'=>[
+			#		'bony',
+			#	],
 				'bonnyclabber'=>[
 					'bonnyclaber',
 					'bonyclabber',
@@ -3629,9 +3645,10 @@
 				'boyar'=>[
 					'boyer',
 				],
-				'boycott'=>[
-					'boycot',
-				],
+					# boycot: an accepted spelling, not a slip (AmericanBritishWords_B: boycott)
+			#	'boycott'=>[
+			#		'boycot',
+			#	],
 				'boyfriend'=>[
 					'boyfreind',
 					'boyfrind',
@@ -3774,9 +3791,10 @@
 				'brant'=>[
 					'brannt',
 				],
-				'brants'=>[
-					'brents',
-				],
+					# brents: an accepted spelling, not a slip (AmericanBritishWords_B: brants)
+			#	'brants'=>[
+			#		'brents',
+			#	],
 				'brass'=>[
 					'bras',
 				],
@@ -4042,12 +4060,14 @@
 				'bremsstrahlungs'=>[
 					'bremsstralungs',
 				],
-				'brent'=>[
-					'brant',
-				],
-				'brents'=>[
-					'brants',
-				],
+					# brant: an accepted spelling, not a slip (AmericanBritishWords_B: brant)
+			#	'brent'=>[
+			#		'brant',
+			#	],
+					# brants: an accepted spelling, not a slip (AmericanBritishWords_B: brants)
+			#	'brents'=>[
+			#		'brants',
+			#	],
 				'brethren'=>[
 					'brethrens',
 				],
@@ -4065,7 +4085,8 @@
 				],
 				'briar'=>[
 					'brar',
-					'brier',
+					# brier: an accepted spelling, not a slip (AmericanBritishWords_B: brier)
+				#	'brier',
 				],
 				'briary'=>[
 					'briery',
@@ -4858,7 +4879,8 @@
 				],
 				'burden'=>[
 					'buden',
-					'burthen',
+					# burthen: an accepted spelling, not a slip (AmericanBritishWords_B: burden)
+				#	'burthen',
 				],
 				'burdened'=>[
 					'burdend',
@@ -4866,9 +4888,10 @@
 				'burdening'=>[
 					'burthening',
 				],
-				'burdens'=>[
-					'burthens',
-				],
+					# burthens: an accepted spelling, not a slip (AmericanBritishWords_B: burdens)
+			#	'burdens'=>[
+			#		'burthens',
+			#	],
 				'burdensome'=>[
 					'burthensome',
 				],
@@ -5032,9 +5055,10 @@
 				'busbar'=>[
 					'busber',
 				],
-				'buses'=>[
-					'busses',
-				],
+					# busses: an accepted spelling, not a slip (AmericanBritishWords_B: buses)
+			#	'buses'=>[
+			#		'busses',
+			#	],
 				'bushwah'=>[
 					'bushwa',
 				],
@@ -5090,15 +5114,17 @@
 					'buisnesswomen',
 					'businisswomen',
 				],
-				'busing'=>[
-					'bussing',
-				],
+					# bussing: an accepted spelling, not a slip (AmericanBritishWords_B: busing)
+			#	'busing'=>[
+			#		'bussing',
+			#	],
 				'buss'=>[
 					'busss',
 				],
-				'busses'=>[
-					'buses',
-				],
+					# buses: an accepted spelling, not a slip (AmericanBritishWords_B: buses)
+			#	'busses'=>[
+			#		'buses',
+			#	],
 				'bustier'=>[
 					'busteir',
 					'bustir',

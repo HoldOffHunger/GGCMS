@@ -947,11 +947,13 @@
 				],
 				'savannah'=>[
 					'savanah',
-					'savanna',
+					# savanna: an accepted spelling, not a slip (AmericanBritishWords_S: Savannah)
+				#	'savanna',
 				],
-				'savannahs'=>[
-					'savannas',
-				],
+					# savannas: an accepted spelling, not a slip (AmericanBritishWords_S: savannas)
+			#	'savannahs'=>[
+			#		'savannas',
+			#	],
 				'savannas'=>[
 					'savanas',
 				],
@@ -1020,7 +1022,8 @@
 					'scable',
 				],
 				'scabby'=>[
-					'cabby',
+					# cabby: an accepted spelling, not a slip (AmericanBritishWords_C: cabby)
+				#	'cabby',
 					'csabby',
 					'sabby',
 					'scaby',
@@ -1716,18 +1719,21 @@
 				'schlep'=>[
 					'chlep',
 					'cshlep',
-					'shlep',
+					# shlep: an accepted spelling, not a slip (AmericanBritishWords_S: schlep)
+				#	'shlep',
 				],
-				'schlepp'=>[
-					'schlep',
-				],
+					# schlep: an accepted spelling, not a slip (AmericanBritishWords_S: schlep)
+			#	'schlepp'=>[
+			#		'schlep',
+			#	],
 				'schlepping'=>[
 					'schleping',
 				],
 				'schlock'=>[
 					'chlock',
 					'cshlock',
-					'shlock',
+					# shlock: an accepted spelling, not a slip (AmericanBritishWords_S: schlock)
+				#	'shlock',
 				],
 				'schlub'=>[
 					'chlub',
@@ -1742,7 +1748,8 @@
 				'schmaltz'=>[
 					'chmaltz',
 					'cshmaltz',
-					'shmaltz',
+					# shmaltz: an accepted spelling, not a slip (AmericanBritishWords_S: schmaltz)
+				#	'shmaltz',
 				],
 				'schmaltzy'=>[
 					'chmaltzy',
@@ -1772,7 +1779,8 @@
 				'schnapps'=>[
 					'chnapps',
 					'cshnapps',
-					'schnaps',
+					# schnaps: an accepted spelling, not a slip (AmericanBritishWords_S: schnapps)
+				#	'schnaps',
 					'shnapps',
 				],
 				'schnitzel'=>[
@@ -1971,7 +1979,8 @@
 				'schtick'=>[
 					'chtick',
 					'cshtick',
-					'shtick',
+					# shtick: an accepted spelling, not a slip (AmericanBritishWords_S: shtick)
+				#	'shtick',
 				],
 				'schubert'=>[
 					'shubert',
@@ -2392,7 +2401,8 @@
 					'souur',
 				],
 				'scourge'=>[
-					'courge',
+					# courge: an accepted spelling, not a slip (AmericanBritishWords_C: corge)
+				#	'courge',
 					'csourge',
 					'sourge',
 				],
@@ -2603,7 +2613,8 @@
 					'sreamer',
 				],
 				'scree'=>[
-					'cree',
+					# cree: an accepted spelling, not a slip (AmericanBritishWords_C: cere)
+				#	'cree',
 					'csree',
 					'sree',
 				],
@@ -3757,9 +3768,10 @@
 					'self self self',
 					'selv',
 				],
-				'self-centered'=>[
-					'self-centred',
-				],
+					# self-centred: an accepted spelling, not a slip (AmericanBritishWords_S: self-centered)
+			#	'self-centered'=>[
+			#		'self-centred',
+			#	],
 				'self-evident'=>[
 					'selfevident',
 				],
@@ -4917,7 +4929,8 @@
 				'shear'=>[
 					'shaer',
 					'sheeer',
-					'sher',
+					# sher: an accepted spelling, not a slip (AmericanBritishWords_S: sher)
+				#	'sher',
 				],
 				'shearwater'=>[
 					'sherwater',
@@ -5146,12 +5159,14 @@
 				'shivas'=>[
 					'shivahs',
 				],
-				'shlepp'=>[
-					'shlep',
-				],
-				'shlepps'=>[
-					'shleps',
-				],
+					# shlep: an accepted spelling, not a slip (AmericanBritishWords_S: schlep)
+			#	'shlepp'=>[
+			#		'shlep',
+			#	],
+					# shleps: an accepted spelling, not a slip (AmericanBritishWords_S: schleps)
+			#	'shlepps'=>[
+			#		'shleps',
+			#	],
 				'shmear'=>[
 					'shmeer',
 				],
@@ -5529,12 +5544,14 @@
 					'sign sign',
 					'sign sign sign',
 				],
-				'signaled'=>[
-					'signalled',
-				],
-				'signaling'=>[
-					'signalling',
-				],
+					# signalled: an accepted spelling, not a slip (AmericanBritishWords_S: signaled)
+			#	'signaled'=>[
+			#		'signalled',
+			#	],
+					# signalling: an accepted spelling, not a slip (AmericanBritishWords_S: signaling)
+			#	'signaling'=>[
+			#		'signalling',
+			#	],
 				'signally'=>[
 					'signalally',
 					'signalaly',
@@ -5874,9 +5891,10 @@
 				'sinusitises'=>[
 					'sinuistises',
 				],
-				'siphon'=>[
-					'syphon',
-				],
+					# syphon: an accepted spelling, not a slip (AmericanBritishWords_S: siphon)
+			#	'siphon'=>[
+			#		'syphon',
+			#	],
 				'sippet'=>[
 					'sipet',
 				],
@@ -5902,9 +5920,10 @@
 				'sirrahs'=>[
 					'sirras',
 				],
-				'sirree'=>[
-					'siree',
-				],
+					# siree: an accepted spelling, not a slip (AmericanBritishWords_S: sirree)
+			#	'sirree'=>[
+			#		'siree',
+			#	],
 				'sissy'=>[
 					'siscy',
 					'sisy',
@@ -6063,15 +6082,18 @@
 					'skilet',
 				],
 				'skillful'=>[
-					'skilful',
+					# skilful: an accepted spelling, not a slip (AmericanBritishWords_S: skillful)
+				#	'skilful',
 					'skillfull',
 				],
-				'skillfull'=>[
-					'skilful',
-				],
-				'skillfully'=>[
-					'skilfully',
-				],
+					# skilful: an accepted spelling, not a slip (AmericanBritishWords_S: skillful)
+			#	'skillfull'=>[
+			#		'skilful',
+			#	],
+					# skilfully: an accepted spelling, not a slip (AmericanBritishWords_S: skillfully)
+			#	'skillfully'=>[
+			#		'skilfully',
+			#	],
 				'skimmed'=>[
 					'skimned',
 				],
@@ -6152,7 +6174,8 @@
 					'skulldugeries',
 				],
 				'skullduggery'=>[
-					'skulduggery',
+					# skulduggery: an accepted spelling, not a slip (AmericanBritishWords_S: skulduggery)
+				#	'skulduggery',
 					'skulldugery',
 				],
 				'sky'=>[
@@ -7260,9 +7283,10 @@
 				'sorrowfulnesses'=>[
 					'sorowfulnesses',
 				],
-				'sorry'=>[
-					'sory',
-				],
+					# sory: an accepted spelling, not a slip (AmericanBritishWords_S: sory)
+			#	'sorry'=>[
+			#		'sory',
+			#	],
 				'sort of'=>[
 					'sort\'ve',
 				],
@@ -7412,9 +7436,10 @@
 					'sowbelely',
 					'sowbellly',
 				],
-				'soybean'=>[
-					'soyabean',
-				],
+					# soyabean: an accepted spelling, not a slip (AmericanBritishWords_S: soybeans)
+			#	'soybean'=>[
+			#		'soyabean',
+			#	],
 				'soyjak'=>[
 					'soyjack',
 				],
@@ -7614,7 +7639,8 @@
 					'speking',
 				],
 				'spear'=>[
-					'speer',
+					# speer: an accepted spelling, not a slip (AmericanBritishWords_S: speer)
+				#	'speer',
 					'sper',
 				],
 				'spearhead'=>[
@@ -7639,7 +7665,8 @@
 					'specialtes',
 				],
 				'specialty'=>[
-					'speciality',
+					# speciality: an accepted spelling, not a slip (AmericanBritishWords_S: specialty)
+				#	'speciality',
 					'specialy',
 				],
 				'specie'=>[
@@ -7997,9 +8024,10 @@
 				'spiral'=>[
 					'sprial',
 				],
-				'spiraling'=>[
-					'spiralling',
-				],
+					# spiralling: an accepted spelling, not a slip (AmericanBritishWords_S: spiraling)
+			#	'spiraling'=>[
+			#		'spiralling',
+			#	],
 				'spirit'=>[
 					'spint',
 				],
@@ -8099,7 +8127,8 @@
 				],
 				'spoiled'=>[
 					'spoilled',
-					'spoilt',
+					# spoilt: an accepted spelling, not a slip (AmericanBritishWords_S: spoiled)
+				#	'spoilt',
 				],
 				'spoiler'=>[
 					'spolier',
@@ -8633,9 +8662,10 @@
 				'stagging'=>[
 					'staggging',
 				],
-				'staggy'=>[
-					'stagy',
-				],
+					# stagy: an accepted spelling, not a slip (AmericanBritishWords_S: stagy)
+			#	'staggy'=>[
+			#		'stagy',
+			#	],
 				'stagnancy'=>[
 					'stagnansy',
 				],
@@ -9289,7 +9319,8 @@
 				'story'=>[
 					'sotry',
 					'stopry',
-					'storey',
+					# storey: an accepted spelling, not a slip (AmericanBritishWords_S: story)
+				#	'storey',
 					'story story',
 					'story story story',
 					'stoyr',
@@ -9352,7 +9383,8 @@
 					'straitend',
 				],
 				'straitjacket'=>[
-					'straightjacket',
+					# straightjacket: an accepted spelling, not a slip (AmericanBritishWords_S: straitjacket)
+				#	'straightjacket',
 					'straight-jacket',
 				],
 				'strand'=>[
@@ -10266,7 +10298,8 @@
 				],
 				'subpoena'=>[
 					'sepina',
-					'subpena',
+					# subpena: an accepted spelling, not a slip (AmericanBritishWords_S: subpoena)
+				#	'subpena',
 				],
 				'subpolar'=>[
 					'subpoler',
@@ -11295,7 +11328,8 @@
 					'supersecresy',
 				],
 				'supersede'=>[
-					'supercede',
+					# supercede: an accepted spelling, not a slip (AmericanBritishWords_S: supersede)
+				#	'supercede',
 					'superceed',
 					'superseed',
 					'supersende',
@@ -12595,7 +12629,8 @@
 				],
 				'sweetbriar'=>[
 					'sweetbrar',
-					'sweetbrier',
+					# sweetbrier: an accepted spelling, not a slip (AmericanBritishWords_S: sweetbrier)
+				#	'sweetbrier',
 				],
 				'sweetbrier'=>[
 					'sweetbreir',
@@ -12750,7 +12785,8 @@
 					'symoblolized',
 				],
 				'symmetallism'=>[
-					'symmetalism',
+					# symmetalism: an accepted spelling, not a slip (AmericanBritishWords_S: symmetalism)
+				#	'symmetalism',
 					'symnetallism',
 				],
 				'symmetric'=>[
@@ -12973,10 +13009,12 @@
 				'synopsis'=>[
 					'sypnosis',
 				],
-				'synthesize'=>[
-					'synthetise',
-					'synthetize',
-				],
+					# synthetise: an accepted spelling, not a slip (AmericanBritishWords_S: synthetize)
+					# synthetize: an accepted spelling, not a slip (AmericanBritishWords_S: synthesize)
+			#	'synthesize'=>[
+			#		'synthetise',
+			#		'synthetize',
+			#	],
 				'synthetase'=>[
 					'synthatase',
 				],

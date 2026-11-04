@@ -187,9 +187,10 @@
 				'galatians'=>[
 					'galations',
 				],
-				'gale'=>[
-					'gae',
-				],
+					# gae: an accepted spelling, not a slip (AmericanBritishWords_G: ge)
+			#	'gale'=>[
+			#		'gae',
+			#	],
 				'galileo'=>[
 					'gallileo',
 				],
@@ -450,12 +451,14 @@
 				'garron'=>[
 					'garon',
 				],
-				'garrote'=>[
-					'garote',
-				],
-				'garrotting'=>[
-					'garotting',
-				],
+					# garote and garotting are accepted spellings, not slips: AmericanBritishWords_G lists
+					# garote, garotte and garrotte beside garrote, and garotting beside garroting.
+			#	'garrote'=>[
+			#		'garote',
+			#	],
+			#	'garrotting'=>[
+			#		'garotting',
+			#	],
 				'garrulity'=>[
 					'garulity',
 				],
@@ -480,9 +483,10 @@
 				'gaseity'=>[
 					'gasiety',
 				],
-				'gases'=>[
-					'gasses',
-				],
+					# gasses: an accepted spelling, not a slip (AmericanBritishWords_G: gases)
+			#	'gases'=>[
+			#		'gasses',
+			#	],
 				'gasoline'=>[
 					'gasolini',
 				],
@@ -605,7 +609,8 @@
 				],
 				'gear'=>[
 					'geer',
-					'ger',
+					# ger: an accepted spelling, not a slip (AmericanBritishWords_G: ger)
+				#	'ger',
 				],
 				'gearbox'=>[
 					'gerbox',
@@ -1143,7 +1148,8 @@
 				],
 				'gibbed'=>[
 					'gibed',
-					'jibbed',
+					# jibbed: an accepted spelling, not a slip (AmericanBritishWords_J: jibbed)
+				#	'jibbed',
 				],
 				'gibber'=>[
 					'giber',
@@ -1200,9 +1206,10 @@
 					'gibetting',
 					'jibbetting',
 				],
-				'gibbing'=>[
-					'jibbing',
-				],
+					# jibbing: an accepted spelling, not a slip (AmericanBritishWords_J: jibbing)
+			#	'gibbing'=>[
+			#		'jibbing',
+			#	],
 				'gibbon'=>[
 					'gibon',
 					'jibbon',
@@ -1714,9 +1721,10 @@
 					'gimnie',
 					'jimmie',
 				],
-				'gimmies'=>[
-					'jimmies',
-				],
+					# jimmies: an accepted spelling, not a slip (AmericanBritishWords_J: jimmies)
+			#	'gimmies'=>[
+			#		'jimmies',
+			#	],
 				'gimped'=>[
 					'jimped',
 				],
@@ -2271,9 +2279,10 @@
 				'gladsomely'=>[
 					'gladsomly',
 				],
-				'glamor'=>[
-					'glamour',
-				],
+					# glamour: an accepted spelling, not a slip (AmericanBritishWords_G: glamour)
+			#	'glamor'=>[
+			#		'glamour',
+			#	],
 				'glamorise'=>[
 					'glamourise',
 				],
@@ -2286,39 +2295,49 @@
 				'glamorising'=>[
 					'glamourising',
 				],
-				'glamorization'=>[
-					'glamourization',
-				],
-				'glamorizations'=>[
-					'glamourizations',
-				],
-				'glamorize'=>[
-					'glamourize',
-				],
-				'glamorized'=>[
-					'glamourized',
-				],
-				'glamorizer'=>[
-					'glamourizer',
-				],
-				'glamorizers'=>[
-					'glamourizers',
-				],
-				'glamorizes'=>[
-					'glamourizes',
-				],
-				'glamorizing'=>[
-					'glamourizing',
-				],
-				'glamorous'=>[
-					'glamourous',
-				],
+					# glamourization: an accepted spelling, not a slip (AmericanBritishWords_G: glamourization)
+			#	'glamorization'=>[
+			#		'glamourization',
+			#	],
+					# glamourizations: an accepted spelling, not a slip (AmericanBritishWords_G: glamourizations)
+			#	'glamorizations'=>[
+			#		'glamourizations',
+			#	],
+					# glamourize: an accepted spelling, not a slip (AmericanBritishWords_G: glamourize)
+			#	'glamorize'=>[
+			#		'glamourize',
+			#	],
+					# glamourized: an accepted spelling, not a slip (AmericanBritishWords_G: glamourized)
+			#	'glamorized'=>[
+			#		'glamourized',
+			#	],
+					# glamourizer: an accepted spelling, not a slip (AmericanBritishWords_G: glamourizer)
+			#	'glamorizer'=>[
+			#		'glamourizer',
+			#	],
+					# glamourizers: an accepted spelling, not a slip (AmericanBritishWords_G: glamourizers)
+			#	'glamorizers'=>[
+			#		'glamourizers',
+			#	],
+					# glamourizes: an accepted spelling, not a slip (AmericanBritishWords_G: glamourizes)
+			#	'glamorizes'=>[
+			#		'glamourizes',
+			#	],
+					# glamourizing: an accepted spelling, not a slip (AmericanBritishWords_G: glamourizing)
+			#	'glamorizing'=>[
+			#		'glamourizing',
+			#	],
+					# glamourous: an accepted spelling, not a slip (AmericanBritishWords_G: glamourous)
+			#	'glamorous'=>[
+			#		'glamourous',
+			#	],
 				'glamorously'=>[
 					'glamourously',
 				],
-				'glamorousness'=>[
-					'glamourousness',
-				],
+					# glamourousness: an accepted spelling, not a slip (AmericanBritishWords_G: glamourousness)
+			#	'glamorousness'=>[
+			#		'glamourousness',
+			#	],
 				'glamorousnesses'=>[
 					'glamourousnesses',
 				],
@@ -2676,9 +2695,10 @@
 				'godunov'=>[
 					'godounov',
 				],
-				'goes'=>[
-					'ges',
-				],
+					# ges: an accepted spelling, not a slip (AmericanBritishWords_G: Ges)
+			#	'goes'=>[
+			#		'ges',
+			#	],
 				'goethe'=>[
 					'gete',
 				],
@@ -2781,9 +2801,10 @@
 				'good riddance'=>[
 					'good riddens',
 				],
-				'goodbye'=>[
-					'goodby',
-				],
+					# goodby: an accepted spelling, not a slip (AmericanBritishWords_G: goodbye)
+			#	'goodbye'=>[
+			#		'goodby',
+			#	],
 				'goodie'=>[
 					'goodei',
 					'goodi',
@@ -3830,14 +3851,16 @@
 					'guerila',
 				],
 				'guerrilla'=>[
-					'guerilla',
+					# guerilla: an accepted spelling, not a slip (AmericanBritishWords_G: guerrilla)
+				#	'guerilla',
 					'guerrala',
 					'guerralla',
 					'guerrila',
 					'guerrilal',
 				],
 				'guerrillas'=>[
-					'guerillas',
+					# guerillas: an accepted spelling, not a slip (AmericanBritishWords_G: guerrillas)
+				#	'guerillas',
 					'guerralas',
 					'guerrallas',
 					'guerrilals',

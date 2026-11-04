@@ -904,7 +904,8 @@
 				'head'=>[
 					'head head',
 					'head head head',
-					'hed',
+					# hed: an accepted spelling, not a slip (AmericanBritishWords_H: hed)
+				#	'hed',
 				],
 				'headache'=>[
 					'hedache',
@@ -2305,9 +2306,10 @@
 				'hindrances'=>[
 					'hinderances',
 				],
-				'hindu'=>[
-					'hindoo',
-				],
+					# hindoo: an accepted spelling, not a slip (AmericanBritishWords_H: Hindu)
+			#	'hindu'=>[
+			#		'hindoo',
+			#	],
 				'hindus'=>[
 					'hindoos',
 				],
@@ -2925,12 +2927,14 @@
 					'bonor',
 					'honord',
 				],
-				'honorabilities'=>[
-					'honourabilities',
-				],
-				'honorability'=>[
-					'honourability',
-				],
+					# honourabilities: an accepted spelling, not a slip (AmericanBritishWords_H: honorabilities)
+			#	'honorabilities'=>[
+			#		'honourabilities',
+			#	],
+					# honourability: an accepted spelling, not a slip (AmericanBritishWords_H: honorability)
+			#	'honorability'=>[
+			#		'honourability',
+			#	],
 				'honorable'=>[
 					'honarable',
 					'honorible',
@@ -2938,15 +2942,18 @@
 					'honuourable',
 					'honerable',
 				],
-				'honorableness'=>[
-					'honourableness',
-				],
-				'honorablenesses'=>[
-					'honourablenesses',
-				],
-				'honorably'=>[
-					'honourably',
-				],
+					# honourableness: an accepted spelling, not a slip (AmericanBritishWords_H: honorableness)
+			#	'honorableness'=>[
+			#		'honourableness',
+			#	],
+					# honourablenesses: an accepted spelling, not a slip (AmericanBritishWords_H: honorablenesses)
+			#	'honorablenesses'=>[
+			#		'honourablenesses',
+			#	],
+					# honourably: an accepted spelling, not a slip (AmericanBritishWords_H: honorably)
+			#	'honorably'=>[
+			#		'honourably',
+			#	],
 				'honorand'=>[
 					'honourand',
 				],
@@ -2977,18 +2984,22 @@
 					'honord',
 					'honorued',
 				],
-				'honoree'=>[
-					'honouree',
-				],
-				'honorees'=>[
-					'honourees',
-				],
-				'honorer'=>[
-					'honourer',
-				],
-				'honorers'=>[
-					'honourers',
-				],
+					# honouree: an accepted spelling, not a slip (AmericanBritishWords_H: honoree)
+			#	'honoree'=>[
+			#		'honouree',
+			#	],
+					# honourees: an accepted spelling, not a slip (AmericanBritishWords_H: honorees)
+			#	'honorees'=>[
+			#		'honourees',
+			#	],
+					# honourer: an accepted spelling, not a slip (AmericanBritishWords_H: honorer)
+			#	'honorer'=>[
+			#		'honourer',
+			#	],
+					# honourers: an accepted spelling, not a slip (AmericanBritishWords_H: honorers)
+			#	'honorers'=>[
+			#		'honourers',
+			#	],
 				'honorific'=>[
 					'honourific',
 				],
@@ -3000,7 +3011,8 @@
 				],
 				'honoring'=>[
 					'bonoring',
-					'honouring',
+					# honouring: an accepted spelling, not a slip (AmericanBritishWords_H: honoring)
+				#	'honouring',
 				],
 				'honourable'=>[
 					'honourible',
@@ -3486,24 +3498,28 @@
 				'humor'=>[
 					'humer',
 				],
-				'humoral'=>[
-					'humoural',
-				],
-				'humored'=>[
-					'humoured',
-				],
+					# humoural: an accepted spelling, not a slip (AmericanBritishWords_H: humoral)
+			#	'humoral'=>[
+			#		'humoural',
+			#	],
+					# humoured: an accepted spelling, not a slip (AmericanBritishWords_H: humored)
+			#	'humored'=>[
+			#		'humoured',
+			#	],
 				'humoresque'=>[
 					'humouresque',
 				],
 				'humoresques'=>[
 					'humouresques',
 				],
-				'humorful'=>[
-					'humourful',
-				],
-				'humoring'=>[
-					'humouring',
-				],
+					# humourful: an accepted spelling, not a slip (AmericanBritishWords_H: humorful)
+			#	'humorful'=>[
+			#		'humourful',
+			#	],
+					# humouring: an accepted spelling, not a slip (AmericanBritishWords_H: humoring)
+			#	'humoring'=>[
+			#		'humouring',
+			#	],
 				'humorist'=>[
 					'humourist',
 				],
@@ -3513,22 +3529,26 @@
 				'humorists'=>[
 					'humourists',
 				],
-				'humorless'=>[
-					'humourless',
-				],
+					# humourless: an accepted spelling, not a slip (AmericanBritishWords_H: humorless)
+			#	'humorless'=>[
+			#		'humourless',
+			#	],
 				'humorlessly'=>[
 					'humorlessally',
 					'humorlessaly',
 					'humorlessely',
 					'humorlesslly',
-					'humourlessly',
+					# humourlessly: an accepted spelling, not a slip (AmericanBritishWords_H: humorlessly)
+				#	'humourlessly',
 				],
-				'humorlessness'=>[
-					'humourlessness',
-				],
-				'humorlessnesses'=>[
-					'humourlessnesses',
-				],
+					# humourlessness: an accepted spelling, not a slip (AmericanBritishWords_H: humorlessness)
+			#	'humorlessness'=>[
+			#		'humourlessness',
+			#	],
+					# humourlessnesses: an accepted spelling, not a slip (AmericanBritishWords_H: humorlessnesses)
+			#	'humorlessnesses'=>[
+			#		'humourlessnesses',
+			#	],
 				'humorous'=>[
 					'humerous',
 					'humourous',
@@ -3542,9 +3562,10 @@
 				'humorousnesses'=>[
 					'humourousnesses',
 				],
-				'humors'=>[
-					'humours',
-				],
+					# humours: an accepted spelling, not a slip (AmericanBritishWords_H: humors)
+			#	'humors'=>[
+			#		'humours',
+			#	],
 				'hundred'=>[
 					'hundered',
 					'hundred hundred',
@@ -3641,24 +3662,30 @@
 					'huscy',
 					'husy',
 				],
-				'hutzpah'=>[
-					'hutzpa',
-				],
-				'hutzpahs'=>[
-					'hutzpas',
-				],
-				'huzzah'=>[
-					'huzza',
-				],
-				'huzzahed'=>[
-					'huzzaed',
-				],
-				'huzzahing'=>[
-					'huzzaing',
-				],
-				'huzzahs'=>[
-					'huzzas',
-				],
+					# hutzpa: an accepted spelling, not a slip (AmericanBritishWords_C: chutzpah)
+			#	'hutzpah'=>[
+			#		'hutzpa',
+			#	],
+					# hutzpas: an accepted spelling, not a slip (AmericanBritishWords_C: chutzpahes)
+			#	'hutzpahs'=>[
+			#		'hutzpas',
+			#	],
+					# huzza: an accepted spelling, not a slip (AmericanBritishWords_H: huzzah)
+			#	'huzzah'=>[
+			#		'huzza',
+			#	],
+					# huzzaed: an accepted spelling, not a slip (AmericanBritishWords_H: huzzahed)
+			#	'huzzahed'=>[
+			#		'huzzaed',
+			#	],
+					# huzzaing: an accepted spelling, not a slip (AmericanBritishWords_H: huzzahing)
+			#	'huzzahing'=>[
+			#		'huzzaing',
+			#	],
+					# huzzas: an accepted spelling, not a slip (AmericanBritishWords_H: huzzahes)
+			#	'huzzahs'=>[
+			#		'huzzas',
+			#	],
 				'hyaline'=>[
 					'hyalini',
 				],

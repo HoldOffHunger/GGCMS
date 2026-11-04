@@ -566,9 +566,10 @@
 				'taxonomy'=>[
 					'taxanomy',
 				],
-				'tea'=>[
-					'tae',
-				],
+					# tae: an accepted spelling, not a slip (AmericanBritishWords_T: te)
+			#	'tea'=>[
+			#		'tae',
+			#	],
 				'teaberry'=>[
 					'teabery',
 				],
@@ -628,7 +629,8 @@
 					'tepot',
 				],
 				'tear'=>[
-					'teer',
+					# teer: an accepted spelling, not a slip (AmericanBritishWords_T: teer)
+				#	'teer',
 					'ter',
 				],
 				'tearable'=>[
@@ -644,9 +646,10 @@
 					'teery',
 					'tery',
 				],
-				'teas'=>[
-					'tes',
-				],
+					# tes: an accepted spelling, not a slip (AmericanBritishWords_T: tes)
+			#	'teas'=>[
+			#		'tes',
+			#	],
 				'tease'=>[
 					'tese',
 				],
@@ -1013,7 +1016,8 @@
 					'tenderheartedlly',
 				],
 				'tendinitis'=>[
-					'tendonitis',
+					# tendonitis: an accepted spelling, not a slip (AmericanBritishWords_T: tendinitis)
+				#	'tendonitis',
 					'tendinatis',
 				],
 				'tendinopathy'=>[
@@ -2285,7 +2289,8 @@
 					'throguh',
 					'through through',
 					'through through through',
-					'thru',
+					# thru: an accepted spelling, not a slip (AmericanBritishWords_T: through)
+				#	'thru',
 				],
 				'through its'=>[
 					'through it\'',
@@ -2723,9 +2728,10 @@
 					'together together together',
 					'togther',
 				],
-				'togged'=>[
-					'toged',
-				],
+					# toged: an accepted spelling, not a slip (AmericanBritishWords_T: togged)
+			#	'togged'=>[
+			#		'toged',
+			#	],
 				'toggery'=>[
 					'togery',
 				],
@@ -3069,12 +3075,14 @@
 					'total total',
 					'total total total',
 				],
-				'totaled'=>[
-					'totalled',
-				],
-				'totaling'=>[
-					'totalling',
-				],
+					# totalled: an accepted spelling, not a slip (AmericanBritishWords_T: totaled)
+			#	'totaled'=>[
+			#		'totalled',
+			#	],
+					# totalling: an accepted spelling, not a slip (AmericanBritishWords_T: totaling)
+			#	'totaling'=>[
+			#		'totalling',
+			#	],
 				'totalitarian'=>[
 					'totalitaran',
 				],
@@ -3318,9 +3326,10 @@
 				'tranny'=>[
 					'trany',
 				],
-				'tranquility'=>[
-					'tranquillity',
-				],
+					# tranquillity: an accepted spelling, not a slip (AmericanBritishWords_T: tranquility)
+			#	'tranquility'=>[
+			#		'tranquillity',
+			#	],
 				'transactinide'=>[
 					'transactinade',
 				],
@@ -4554,11 +4563,13 @@
 				'tunnel-disease'=>[
 					'tunneldisease',
 				],
-				'tunneled'=>[
-					'tunnelled',
-				],
+					# tunnelled: an accepted spelling, not a slip (AmericanBritishWords_T: tunneled)
+			#	'tunneled'=>[
+			#		'tunnelled',
+			#	],
 				'tunneling'=>[
-					'tunnelling',
+					# tunnelling: an accepted spelling, not a slip (AmericanBritishWords_T: tunneling)
+				#	'tunnelling',
 					'tuneling',
 				],
 				'tunny'=>[

@@ -47,9 +47,10 @@
 				'each other'=>[
 					'eachother',
 				],
-				'eager'=>[
-					'eger',
-				],
+					# eger: an accepted spelling, not a slip (AmericanBritishWords_E: eger)
+			#	'eager'=>[
+			#		'eger',
+			#	],
 				'eagle'=>[
 					'egle',
 				],
@@ -82,9 +83,10 @@
 					'earlly',
 					'erly',
 				],
-				'earn'=>[
-					'ern',
-				],
+					# ern: an accepted spelling, not a slip (AmericanBritishWords_E: ern)
+			#	'earn'=>[
+			#		'ern',
+			#	],
 				'earned'=>[
 					'earnt',
 				],
@@ -560,9 +562,10 @@
 				'edgeless'=>[
 					'egeless',
 				],
-				'edger'=>[
-					'eger',
-				],
+					# eger: an accepted spelling, not a slip (AmericanBritishWords_E: eger)
+			#	'edger'=>[
+			#		'eger',
+			#	],
 				'edgers'=>[
 					'egers',
 				],
@@ -625,7 +628,8 @@
 				],
 				'eerie'=>[
 					'eerei',
-					'eery',
+					# eery: an accepted spelling, not a slip (AmericanBritishWords_E: eerie)
+				#	'eery',
 					'eeri',
 				],
 				'eerily'=>[
@@ -828,9 +832,10 @@
 				'egged'=>[
 					'eged',
 				],
-				'egger'=>[
-					'eger',
-				],
+					# eger: an accepted spelling, not a slip (AmericanBritishWords_E: eger)
+			#	'egger'=>[
+			#		'eger',
+			#	],
 				'eggfruit'=>[
 					'egfruit',
 				],
@@ -1677,11 +1682,13 @@
 				],
 				'employee'=>[
 					'emloyee',
-					'employe',
+					# employe: an accepted spelling, not a slip (AmericanBritishWords_E: employe)
+				#	'employe',
 				],
 				'employees'=>[
 					'emloyees',
-					'employes',
+					# employes: an accepted spelling, not a slip (AmericanBritishWords_E: employees)
+				#	'employes',
 				],
 				'employing'=>[
 					'emloying',
@@ -1736,18 +1743,22 @@
 				'enactment'=>[
 					'enactmant',
 				],
-				'enamor'=>[
-					'enamour',
-				],
-				'enamored'=>[
-					'enamoured',
-				],
-				'enamoring'=>[
-					'enamouring',
-				],
-				'enamors'=>[
-					'enamours',
-				],
+					# enamour: an accepted spelling, not a slip (AmericanBritishWords_E: enamor)
+			#	'enamor'=>[
+			#		'enamour',
+			#	],
+					# enamoured: an accepted spelling, not a slip (AmericanBritishWords_E: enamored)
+			#	'enamored'=>[
+			#		'enamoured',
+			#	],
+					# enamouring: an accepted spelling, not a slip (AmericanBritishWords_E: enamoring)
+			#	'enamoring'=>[
+			#		'enamouring',
+			#	],
+					# enamours: an accepted spelling, not a slip (AmericanBritishWords_E: enamors)
+			#	'enamors'=>[
+			#		'enamours',
+			#	],
 				'enanthate'=>[
 					'enantate',
 				],
@@ -1823,12 +1834,14 @@
 				'encina'=>[
 					'encini',
 				],
-				'enclose'=>[
-					'inclose',
-				],
-				'enclosed'=>[
-					'inclosed',
-				],
+					# inclose: an accepted spelling, not a slip (AmericanBritishWords_E: enclose)
+			#	'enclose'=>[
+			#		'inclose',
+			#	],
+					# inclosed: an accepted spelling, not a slip (AmericanBritishWords_E: enclosed)
+			#	'enclosed'=>[
+			#		'inclosed',
+			#	],
 				'enclosure'=>[
 					'encolsure',
 				],
@@ -1850,9 +1863,10 @@
 				'encryption'=>[
 					'encryptiion',
 				],
-				'encumber'=>[
-					'incumber',
-				],
+					# incumber: an accepted spelling, not a slip (AmericanBritishWords_E: encumber)
+			#	'encumber'=>[
+			#		'incumber',
+			#	],
 				'encumbrance'=>[
 					'incumbrance',
 					'encumbrence',
@@ -2221,12 +2235,14 @@
 				],
 				'enroll'=>[
 					'enrole',
-					'enrol',
+					# enrol: an accepted spelling, not a slip (AmericanBritishWords_E: enroll)
+				#	'enrol',
 				],
 				'enrollment'=>[
 					'enrolement',
 					'enrollmant',
-					'enrolment',
+					# enrolment: an accepted spelling, not a slip (AmericanBritishWords_E: enrollment)
+				#	'enrolment',
 				],
 				'ensanguining'=>[
 					'ensanguinang',
@@ -2564,12 +2580,14 @@
 					'antropy',
 				],
 				'entrust'=>[
-					'intrust',
+					# intrust: an accepted spelling, not a slip (AmericanBritishWords_E: entrust)
+				#	'intrust',
 					'antrust',
 				],
-				'entrusted'=>[
-					'intrusted',
-				],
+					# intrusted: an accepted spelling, not a slip (AmericanBritishWords_E: entrusted)
+			#	'entrusted'=>[
+			#		'intrusted',
+			#	],
 				'entry'=>[
 					'antry',
 				],
@@ -4869,9 +4887,10 @@
 					'extendedely',
 					'extendedlly',
 				],
-				'extendible'=>[
-					'extendable',
-				],
+					# extendable: an accepted spelling, not a slip (AmericanBritishWords_E: extendable)
+			#	'extendible'=>[
+			#		'extendable',
+			#	],
 				'extensible'=>[
 					'extensable',
 				],
@@ -4947,9 +4966,10 @@
 					'extrapate',
 					'extripate',
 				],
-				'extol'=>[
-					'extoll',
-				],
+					# extoll: an accepted spelling, not a slip (AmericanBritishWords_E: extol)
+			#	'extol'=>[
+			#		'extoll',
+			#	],
 				'extortionary'=>[
 					'extortionery',
 				],

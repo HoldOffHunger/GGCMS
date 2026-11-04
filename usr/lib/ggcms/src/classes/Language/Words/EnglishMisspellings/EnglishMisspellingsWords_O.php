@@ -1003,9 +1003,10 @@
 				'ombrophilous'=>[
 					'ombrophylous',
 				],
-				'omelet'=>[
-					'omelette',
-				],
+					# omelette: an accepted spelling, not a slip (AmericanBritishWords_O: omelet)
+			#	'omelet'=>[
+			#		'omelette',
+			#	],
 				'omen'=>[
 					'oruen',
 				],
@@ -1601,7 +1602,8 @@
 					'orcien',
 				],
 				'orchestra'=>[
-					'orchester',
+					# orchester: an accepted spelling, not a slip (AmericanBritishWords_O: orchester)
+				#	'orchester',
 					'orchestera',
 				],
 				'orchestral'=>[
@@ -2252,18 +2254,22 @@
 				'outgunning'=>[
 					'outguning',
 				],
-				'outhumor'=>[
-					'outhumour',
-				],
-				'outhumored'=>[
-					'outhumoured',
-				],
-				'outhumoring'=>[
-					'outhumouring',
-				],
-				'outhumors'=>[
-					'outhumours',
-				],
+					# outhumour: an accepted spelling, not a slip (AmericanBritishWords_O: outhumor)
+			#	'outhumor'=>[
+			#		'outhumour',
+			#	],
+					# outhumoured: an accepted spelling, not a slip (AmericanBritishWords_O: outhumored)
+			#	'outhumored'=>[
+			#		'outhumoured',
+			#	],
+					# outhumouring: an accepted spelling, not a slip (AmericanBritishWords_O: outhumoring)
+			#	'outhumoring'=>[
+			#		'outhumouring',
+			#	],
+					# outhumours: an accepted spelling, not a slip (AmericanBritishWords_O: outhumors)
+			#	'outhumors'=>[
+			#		'outhumours',
+			#	],
 				'outjuggled'=>[
 					'outjugled',
 				],
@@ -2651,18 +2657,20 @@
 				'overhear'=>[
 					'overheer',
 				],
-				'overhonor'=>[
-					'overhonour',
-				],
+					# overhonour: an accepted spelling, not a slip (AmericanBritishWords_O: overhonor)
+			#	'overhonor'=>[
+			#		'overhonour',
+			#	],
 				'overhonored'=>[
 					'overhonoured',
 				],
 				'overhonoring'=>[
 					'overhonouring',
 				],
-				'overhonors'=>[
-					'overhonours',
-				],
+					# overhonours: an accepted spelling, not a slip (AmericanBritishWords_O: overhonors)
+			#	'overhonors'=>[
+			#		'overhonours',
+			#	],
 				'overidentified'=>[
 					'overidantified',
 				],

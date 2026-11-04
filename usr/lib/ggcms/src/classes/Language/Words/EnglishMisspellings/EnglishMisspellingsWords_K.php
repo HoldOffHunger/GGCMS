@@ -38,12 +38,14 @@
 				'kabar'=>[
 					'kaber',
 				],
-				'kabbala'=>[
-					'kabala',
-				],
+					# kabala: an accepted spelling, not a slip (AmericanBritishWords_K: kabbalah)
+			#	'kabbala'=>[
+			#		'kabala',
+			#	],
 				'kabbalah'=>[
 					'kabalah',
-					'kabbala',
+					# kabbala: an accepted spelling, not a slip (AmericanBritishWords_K: kabbalah)
+				#	'kabbala',
 				],
 				'kabbalahs'=>[
 					'kabalahs',

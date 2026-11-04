@@ -90,18 +90,22 @@
 					'wagly',
 					'waggily',
 				],
-				'waggon'=>[
-					'wagon',
-				],
-				'waggons'=>[
-					'wagons',
-				],
-				'wagon'=>[
-					'waggon',
-				],
-				'wagons'=>[
-					'waggons',
-				],
+					# wagon: an accepted spelling, not a slip (AmericanBritishWords_W: wagon)
+			#	'waggon'=>[
+			#		'wagon',
+			#	],
+					# wagons: an accepted spelling, not a slip (AmericanBritishWords_W: wagons)
+			#	'waggons'=>[
+			#		'wagons',
+			#	],
+					# waggon: an accepted spelling, not a slip (AmericanBritishWords_W: wagon)
+			#	'wagon'=>[
+			#		'waggon',
+			#	],
+					# waggons: an accepted spelling, not a slip (AmericanBritishWords_W: wagons)
+			#	'wagons'=>[
+			#		'waggons',
+			#	],
 				'wahconda'=>[
 					'waconda',
 				],
@@ -162,9 +166,10 @@
 				'walla'=>[
 					'wala',
 				],
-				'wallah'=>[
-					'walla',
-				],
+					# walla: an accepted spelling, not a slip (AmericanBritishWords_W: wallah)
+			#	'wallah'=>[
+			#		'walla',
+			#	],
 				'wallboard'=>[
 					'walboard',
 				],
@@ -442,7 +447,8 @@
 					'wear wear',
 					'wear wear wear',
 					'weer',
-					'wer',
+					# wer: an accepted spelling, not a slip (AmericanBritishWords_W: wer)
+				#	'wer',
 				],
 				'wearability'=>[
 					'werability',
@@ -766,12 +772,14 @@
 				'whackers'=>[
 					'wackers',
 				],
-				'whackier'=>[
-					'wackier',
-				],
-				'whackiest'=>[
-					'wackiest',
-				],
+					# wackier: an accepted spelling, not a slip (AmericanBritishWords_W: wackier)
+			#	'whackier'=>[
+			#		'wackier',
+			#	],
+					# wackiest: an accepted spelling, not a slip (AmericanBritishWords_W: wackiest)
+			#	'whackiest'=>[
+			#		'wackiest',
+			#	],
 				'whacking'=>[
 					'wacking',
 				],
@@ -784,9 +792,10 @@
 				'whacks'=>[
 					'wacks',
 				],
-				'whacky'=>[
-					'wacky',
-				],
+					# wacky: an accepted spelling, not a slip (AmericanBritishWords_W: wacky)
+			#	'whacky'=>[
+			#		'wacky',
+			#	],
 				'whale'=>[
 					'wale',
 				],
@@ -1946,7 +1955,8 @@
 					'wirlybirds',
 				],
 				'whirr'=>[
-					'whir',
+					# whir: an accepted spelling, not a slip (AmericanBritishWords_W: whir)
+				#	'whir',
 					'wirr',
 				],
 				'whirred'=>[
@@ -2016,7 +2026,8 @@
 					'wiskery',
 				],
 				'whiskey'=>[
-					'whisky',
+					# whisky: an accepted spelling, not a slip (AmericanBritishWords_W: whiskey)
+				#	'whisky',
 					'wiskey',
 				],
 				'whiskeys'=>[
@@ -2738,9 +2749,10 @@
 				'willet'=>[
 					'wilet',
 				],
-				'willful'=>[
-					'wilful',
-				],
+					# wilful: an accepted spelling, not a slip (AmericanBritishWords_W: willful)
+			#	'willful'=>[
+			#		'wilful',
+			#	],
 				'william'=>[
 					'willliam',
 				],
@@ -3069,20 +3081,23 @@
 				'woodsy'=>[
 					'woodcy',
 				],
-				'woollen'=>[
-					'woolen',
-				],
+					# woolen: an accepted spelling, not a slip (AmericanBritishWords_W: woolen)
+			#	'woollen'=>[
+			#		'woolen',
+			#	],
 				'woolly'=>[
 					'woolally',
 					'woolaly',
 					'woolely',
 					'woollly',
-					'wooly',
+					# wooly: an accepted spelling, not a slip (AmericanBritishWords_W: woolly)
+				#	'wooly',
 				],
 				'wooly'=>[
 					'wooally',
 					'wooaly',
-					'woolly',
+					# woolly: an accepted spelling, not a slip (AmericanBritishWords_W: woolly)
+				#	'woolly',
 				],
 				'word'=>[
 					'word word',
@@ -3213,9 +3228,10 @@
 				'worship'=>[
 					'worsbip',
 				],
-				'worshiper'=>[
-					'worshipper',
-				],
+					# worshipper: an accepted spelling, not a slip (AmericanBritishWords_W: worshiper)
+			#	'worshiper'=>[
+			#		'worshipper',
+			#	],
 				'worst-case'=>[
 					'worse-case',
 				],

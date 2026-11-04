@@ -409,7 +409,8 @@
 					'panes',
 				],
 				'pannier'=>[
-					'panier',
+					# panier: an accepted spelling, not a slip (AmericanBritishWords_P: pannier)
+				#	'panier',
 					'panneir',
 					'pannir',
 				],
@@ -810,9 +811,10 @@
 				'parakeet'=>[
 					'perakeet',
 				],
-				'parakeets'=>[
-					'parrakeets',
-				],
+					# parrakeets: an accepted spelling, not a slip (AmericanBritishWords_P: parakeets)
+			#	'parakeets'=>[
+			#		'parrakeets',
+			#	],
 				'parakeratosis'=>[
 					'perikaretosis',
 				],
@@ -1392,9 +1394,10 @@
 				'parchments'=>[
 					'perchments',
 				],
-				'parclose'=>[
-					'perclose',
-				],
+					# perclose: an accepted spelling, not a slip (AmericanBritishWords_P: perclose)
+			#	'parclose'=>[
+			#		'perclose',
+			#	],
 				'pardah'=>[
 					'parda',
 				],
@@ -1696,9 +1699,10 @@
 				'parosmia'=>[
 					'perosmia',
 				],
-				'parotic'=>[
-					'perotic',
-				],
+					# perotic: an accepted spelling, not a slip (AmericanBritishWords_P: perotic)
+			#	'parotic'=>[
+			#		'perotic',
+			#	],
 				'parotid'=>[
 					'perotid',
 				],
@@ -2482,9 +2486,10 @@
 				'payroll'=>[
 					'payrol',
 				],
-				'pea'=>[
-					'pe',
-				],
+					# pe: an accepted spelling, not a slip (AmericanBritishWords_P: pe)
+			#	'pea'=>[
+			#		'pe',
+			#	],
 				'peabrain'=>[
 					'peebrain',
 				],
@@ -2688,7 +2693,8 @@
 					'pedatly',
 				],
 				'peddler'=>[
-					'pedlar',
+					# pedlar: an accepted spelling, not a slip (AmericanBritishWords_P: peddler)
+				#	'pedlar',
 					'pedler',
 				],
 				'pedestrial'=>[
@@ -2881,6 +2887,9 @@
 					'peninsuler',
 					'penisular',
 					'penninsular',
+				],
+				'peninsulas'=>[
+					'peninsulae',
 				],
 				'penitence'=>[
 					'penitance',
@@ -3464,7 +3473,8 @@
 					'perihinal',
 				],
 				'periscope'=>[
-					'pericope',
+					# pericope: an accepted spelling, not a slip (AmericanBritishWords_P: pericope)
+				#	'pericope',
 					'pericsope',
 					'perisope',
 				],
@@ -3543,7 +3553,8 @@
 				],
 				'permissible'=>[
 					'permisible',
-					'permissable',
+					# permissable: an accepted spelling, not a slip (AmericanBritishWords_P: permissable)
+				#	'permissable',
 				],
 				'permission'=>[
 					'permision',
@@ -4257,7 +4268,8 @@
 					'phonecian',
 				],
 				'phoenix'=>[
-					'phenix',
+					# phenix: an accepted spelling, not a slip (AmericanBritishWords_P: phenix)
+				#	'phenix',
 					'pheonix',
 				],
 				'phonetic'=>[
@@ -4982,9 +4994,10 @@
 				'pinnule'=>[
 					'pinule',
 				],
-				'pinny'=>[
-					'piny',
-				],
+					# piny: an accepted spelling, not a slip (AmericanBritishWords_P: piney)
+			#	'pinny'=>[
+			#		'piny',
+			#	],
 				'pinocytosis'=>[
 					'pintocytosis',
 				],
@@ -6670,9 +6683,10 @@
 					'practice practice practice',
 					'pratice',
 				],
-				'practicing'=>[
-					'practising',
-				],
+					# practising: an accepted spelling, not a slip (AmericanBritishWords_P: practicing)
+			#	'practicing'=>[
+			#		'practising',
+			#	],
 				'practitioner'=>[
 					'practicioner',
 					'practioner',
@@ -7076,12 +7090,14 @@
 					'preeminant',
 					'preeminint',
 				],
-				'preempt'=>[
-					'pre-empt',
-				],
-				'preemption'=>[
-					'pre-emption',
-				],
+					# pre-empt: an accepted spelling, not a slip (AmericanBritishWords_P: preempt)
+			#	'preempt'=>[
+			#		'pre-empt',
+			#	],
+					# pre-emption: an accepted spelling, not a slip (AmericanBritishWords_P: preemption)
+			#	'preemption'=>[
+			#		'pre-emption',
+			#	],
 				'preemptively'=>[
 					'preemptivly',
 				],
@@ -7904,9 +7920,10 @@
 				'preventative'=>[
 					'prevantative',
 				],
-				'preventible'=>[
-					'preventable',
-				],
+					# preventable: an accepted spelling, not a slip (AmericanBritishWords_P: preventable)
+			#	'preventible'=>[
+			#		'preventable',
+			#	],
 				'prevention'=>[
 					'prevantion',
 					'preventation',
@@ -8490,7 +8507,8 @@
 					'programnability',
 				],
 				'programmable'=>[
-					'programable',
+					# programable: an accepted spelling, not a slip (AmericanBritishWords_P: programable)
+				#	'programable',
 					'programmmable',
 				],
 				'programmatic'=>[
@@ -8507,7 +8525,8 @@
 					'programned',
 				],
 				'programmer'=>[
-					'programer',
+					# programer: an accepted spelling, not a slip (AmericanBritishWords_P: programmer)
+				#	'programer',
 					'programner',
 				],
 				'programming'=>[
@@ -8733,7 +8752,8 @@
 				],
 				'propellant'=>[
 					'propelant',
-					'propellent',
+					# propellent: an accepted spelling, not a slip (AmericanBritishWords_P: propellant)
+				#	'propellent',
 				],
 				'propelled'=>[
 					'propeled',

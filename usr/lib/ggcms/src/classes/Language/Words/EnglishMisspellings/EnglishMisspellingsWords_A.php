@@ -2184,15 +2184,17 @@
 					'add add',
 					'add add add',
 				],
-				'addable'=>[
-					'addible',
-				],
+					# addible: an accepted spelling, not a slip (AmericanBritishWords_A: addable)
+			#	'addable'=>[
+			#		'addible',
+			#	],
 				'adderall'=>[
 					'adderal',
 				],
-				'addible'=>[
-					'addable',
-				],
+					# addable: an accepted spelling, not a slip (AmericanBritishWords_A: addable)
+			#	'addible'=>[
+			#		'addable',
+			#	],
 				'addition'=>[
 					'additon',
 					'addittion',
@@ -2742,28 +2744,35 @@
 					'aeronauticaly',
 				],
 				'aesthetic'=>[
-					'aesthetical',
+					# aesthetical: an accepted spelling, not a slip (AmericanBritishWords_E: esthetical)
+				#	'aesthetical',
 					'asthetic',
-					'esthetic',
-					'esthetical',
+					# esthetic: an accepted spelling, not a slip (AmericanBritishWords_A: aesthetic)
+				#	'esthetic',
+					# esthetical: an accepted spelling, not a slip (AmericanBritishWords_E: esthetical)
+				#	'esthetical',
 				],
 				'aesthetically'=>[
 					'aestheticaly',
 					'asthetically',
-					'esthetically',
+					# esthetically: an accepted spelling, not a slip (AmericanBritishWords_A: aesthetically)
+				#	'esthetically',
 				],
 				'aesthetician'=>[
 					'aesthetican',
 				],
-				'aestheticism'=>[
-					'estheticism',
-				],
-				'aestheticization'=>[
-					'estheticization',
-				],
-				'aesthetics'=>[
-					'esthetics',
-				],
+					# estheticism: an accepted spelling, not a slip (AmericanBritishWords_E: estheticism)
+			#	'aestheticism'=>[
+			#		'estheticism',
+			#	],
+					# estheticization: an accepted spelling, not a slip (AmericanBritishWords_E: estheticization)
+			#	'aestheticization'=>[
+			#		'estheticization',
+			#	],
+					# esthetics: an accepted spelling, not a slip (AmericanBritishWords_A: aesthetics)
+			#	'aesthetics'=>[
+			#		'esthetics',
+			#	],
 				'afar'=>[
 					'afer',
 				],
@@ -2905,7 +2914,8 @@
 					'alfatoxin',
 				],
 				'aforementioned'=>[
-					'afore-mentioned',
+					# afore-mentioned: an accepted spelling, not a slip (AmericanBritishWords_A: aforementioned)
+				#	'afore-mentioned',
 					'aforemantioned',
 					'aformentioned',
 				],
@@ -2983,9 +2993,10 @@
 				'agapanthus'=>[
 					'agapenthus',
 				],
-				'agar'=>[
-					'ager',
-				],
+					# ager: an accepted spelling, not a slip (AmericanBritishWords_A: ager)
+			#	'agar'=>[
+			#		'ager',
+			#	],
 				'agaricomycetous'=>[
 					'agaricomyceteous',
 				],
@@ -3026,9 +3037,10 @@
 				'aggadahs'=>[
 					'aggadas',
 				],
-				'agger'=>[
-					'ager',
-				],
+					# ager: an accepted spelling, not a slip (AmericanBritishWords_A: ager)
+			#	'agger'=>[
+			#		'ager',
+			#	],
 				'aggie'=>[
 					'aggei',
 					'aggi',
@@ -3302,9 +3314,10 @@
 				'agilely'=>[
 					'agilly',
 				],
-				'aging'=>[
-					'ageing',
-				],
+					# ageing: an accepted spelling, not a slip (AmericanBritishWords_A: aging)
+			#	'aging'=>[
+			#		'ageing',
+			#	],
 				'agitate'=>[
 					'aggitate',
 				],
@@ -3339,7 +3352,8 @@
 				],
 				'agree'=>[
 					'aggree',
-					'agre',
+					# agre: an accepted spelling, not a slip (AmericanBritishWords_A: ager)
+				#	'agre',
 					'agree agree',
 					'agree agree agree',
 				],
@@ -4310,7 +4324,8 @@
 				],
 				'although'=>[
 					'allthough',
-					'altho',
+					# altho: an accepted spelling, not a slip (AmericanBritishWords_A: although)
+				#	'altho',
 					'althought',
 					'altough',
 					'athough',
@@ -4442,9 +4457,10 @@
 				'ambassadress'=>[
 					'ambassadres',
 				],
-				'ambiance'=>[
-					'ambience',
-				],
+					# ambience: an accepted spelling, not a slip (AmericanBritishWords_A: ambiance)
+			#	'ambiance'=>[
+			#		'ambience',
+			#	],
 				'ambidexterities'=>[
 					'ambidexteriteis',
 					'ambidexteritis',
@@ -4460,7 +4476,8 @@
 				],
 				'ambience'=>[
 					'ambeince',
-					'ambiance',
+					# ambiance: an accepted spelling, not a slip (AmericanBritishWords_A: ambiance)
+				#	'ambiance',
 					'ambince',
 				],
 				'ambient'=>[
@@ -4807,15 +4824,18 @@
 				'amorino'=>[
 					'amourino',
 				],
-				'amorist'=>[
-					'amourist',
-				],
-				'amoristic'=>[
-					'amouristic',
-				],
-				'amorists'=>[
-					'amourists',
-				],
+					# amourist: an accepted spelling, not a slip (AmericanBritishWords_A: amorist)
+			#	'amorist'=>[
+			#		'amourist',
+			#	],
+					# amouristic: an accepted spelling, not a slip (AmericanBritishWords_A: amoristic)
+			#	'amoristic'=>[
+			#		'amouristic',
+			#	],
+					# amourists: an accepted spelling, not a slip (AmericanBritishWords_A: amorists)
+			#	'amorists'=>[
+			#		'amourists',
+			#	],
 				'amoroso'=>[
 					'amouroso',
 				],
@@ -4979,9 +4999,10 @@
 				'ampoule'=>[
 					'ampoul',
 				],
-				'ampule'=>[
-					'ampoule',
-				],
+					# ampoule: an accepted spelling, not a slip (AmericanBritishWords_A: ampule)
+			#	'ampule'=>[
+			#		'ampoule',
+			#	],
 				'ampullar'=>[
 					'ampuller',
 				],
@@ -5113,9 +5134,10 @@
 				'analemmata'=>[
 					'analemnata',
 				],
-				'analog'=>[
-					'analogue',
-				],
+					# analogue: an accepted spelling, not a slip (AmericanBritishWords_A: analog)
+			#	'analog'=>[
+			#		'analogue',
+			#	],
 				'analogous'=>[
 					'analagous',
 					'analogeous',
@@ -5535,7 +5557,8 @@
 				],
 				'annex'=>[
 					'anex',
-					'annexe',
+					# annexe: an accepted spelling, not a slip (AmericanBritishWords_A: annex)
+				#	'annexe',
 				],
 				'annexational'=>[
 					'anexational',
@@ -7183,9 +7206,10 @@
 				'antral'=>[
 					'entral',
 				],
-				'antre'=>[
-					'entre',
-				],
+					# entre: an accepted spelling, not a slip (AmericanBritishWords_E: entre)
+			#	'antre'=>[
+			#		'entre',
+			#	],
 				'antres'=>[
 					'entres',
 				],
@@ -8613,12 +8637,14 @@
 				'armored'=>[
 					'armouored',
 				],
-				'armorer'=>[
-					'armourer',
-				],
-				'armorers'=>[
-					'armourers',
-				],
+					# armourer: an accepted spelling, not a slip (AmericanBritishWords_A: armorer)
+			#	'armorer'=>[
+			#		'armourer',
+			#	],
+					# armourers: an accepted spelling, not a slip (AmericanBritishWords_A: armorers)
+			#	'armorers'=>[
+			#		'armourers',
+			#	],
 				'armorial'=>[
 					'armourial',
 				],
@@ -8628,21 +8654,26 @@
 				'armorials'=>[
 					'armourials',
 				],
-				'armories'=>[
-					'armouries',
-				],
-				'armoring'=>[
-					'armouring',
-				],
-				'armorless'=>[
-					'armourless',
-				],
-				'armors'=>[
-					'armours',
-				],
-				'armory'=>[
-					'armoury',
-				],
+					# armouries: an accepted spelling, not a slip (AmericanBritishWords_A: armories)
+			#	'armories'=>[
+			#		'armouries',
+			#	],
+					# armouring: an accepted spelling, not a slip (AmericanBritishWords_A: armoring)
+			#	'armoring'=>[
+			#		'armouring',
+			#	],
+					# armourless: an accepted spelling, not a slip (AmericanBritishWords_A: armorless)
+			#	'armorless'=>[
+			#		'armourless',
+			#	],
+					# armours: an accepted spelling, not a slip (AmericanBritishWords_A: armors)
+			#	'armors'=>[
+			#		'armours',
+			#	],
+					# armoury: an accepted spelling, not a slip (AmericanBritishWords_A: armory)
+			#	'armory'=>[
+			#		'armoury',
+			#	],
 				'army'=>[
 					'amry',
 				],
@@ -8985,9 +9016,10 @@
 				'articulation'=>[
 					'articlation',
 				],
-				'artifact'=>[
-					'artefact',
-				],
+					# artefact: an accepted spelling, not a slip (AmericanBritishWords_A: artifact)
+			#	'artifact'=>[
+			#		'artefact',
+			#	],
 				'artifices'=>[
 					'areifices',
 				],
@@ -9064,7 +9096,8 @@
 				'ascendance'=>[
 					'acendance',
 					'acsendance',
-					'ascendence',
+					# ascendence: an accepted spelling, not a slip (AmericanBritishWords_A: ascendance)
+				#	'ascendence',
 					'asendance',
 				],
 				'ascendancy'=>[
@@ -9077,27 +9110,31 @@
 				'ascendant'=>[
 					'acendant',
 					'acsendant',
-					'ascendent',
+					# ascendent: an accepted spelling, not a slip (AmericanBritishWords_A: ascendant)
+				#	'ascendent',
 					'asendant',
 				],
 				'ascendantly'=>[
 					'ascendently',
 				],
-				'ascendants'=>[
-					'ascendents',
-				],
-				'ascendence'=>[
-					'ascendance',
-				],
+					# ascendents: an accepted spelling, not a slip (AmericanBritishWords_A: ascendants)
+			#	'ascendants'=>[
+			#		'ascendents',
+			#	],
+					# ascendance: an accepted spelling, not a slip (AmericanBritishWords_A: ascendance)
+			#	'ascendence'=>[
+			#		'ascendance',
+			#	],
 				'ascendency'=>[
 					'ascendensy',
 				],
 				'ascendent'=>[
 					'ascendeent',
 				],
-				'ascendents'=>[
-					'ascendants',
-				],
+					# ascendants: an accepted spelling, not a slip (AmericanBritishWords_A: ascendants)
+			#	'ascendents'=>[
+			#		'ascendants',
+			#	],
 				'ascender'=>[
 					'acender',
 					'acsender',
@@ -9430,9 +9467,10 @@
 				'asses'=>[
 					'ases',
 				],
-				'assess'=>[
-					'asses',
-				],
+					# asses: an accepted spelling, not a slip (AmericanBritishWords_A: asses)
+			#	'assess'=>[
+			#		'asses',
+			#	],
 				'assessment'=>[
 					'asessment',
 					'assesment',

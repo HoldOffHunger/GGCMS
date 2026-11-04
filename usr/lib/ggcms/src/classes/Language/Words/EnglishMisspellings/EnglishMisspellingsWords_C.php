@@ -141,12 +141,14 @@
 				'cabbagy'=>[
 					'cabagy',
 				],
-				'cabbala'=>[
-					'cabala',
-				],
+					# cabala: an accepted spelling, not a slip (AmericanBritishWords_K: kabbalah)
+			#	'cabbala'=>[
+			#		'cabala',
+			#	],
 				'cabbalah'=>[
 					'cabalah',
-					'cabbala',
+					# cabbala: an accepted spelling, not a slip (AmericanBritishWords_K: kabbalah)
+				#	'cabbala',
 				],
 				'cabbalahs'=>[
 					'cabalahs',
@@ -397,8 +399,10 @@
 				],
 				'calendar'=>[
 					'calandar',
-					'calander',
-					'calender',
+					# calander: an accepted spelling, not a slip (AmericanBritishWords_C: calander)
+				#	'calander',
+					# calender: an accepted spelling, not a slip (AmericanBritishWords_C: Calender)
+				#	'calender',
 				],
 				'caliber'=>[
 					'calibur',
@@ -621,12 +625,14 @@
 					'canavinine',
 					'cannavanine',
 				],
-				'cancellation'=>[
-					'cancelation',
-				],
-				'cancellous'=>[
-					'cancelous',
-				],
+					# cancelation: an accepted spelling, not a slip (AmericanBritishWords_C: cancelation)
+			#	'cancellation'=>[
+			#		'cancelation',
+			#	],
+					# cancelous: an accepted spelling, not a slip (AmericanBritishWords_C: cancelous)
+			#	'cancellous'=>[
+			#		'cancelous',
+			#	],
 				'candent'=>[
 					'candant',
 				],
@@ -1168,9 +1174,10 @@
 				'carbonnade'=>[
 					'carbonade',
 				],
-				'carbonnades'=>[
-					'carbonades',
-				],
+					# carbonades: an accepted spelling, not a slip (AmericanBritishWords_C: carbonades)
+			#	'carbonnades'=>[
+			#		'carbonades',
+			#	],
 				'carbothioamide'=>[
 					'carbothiamide',
 				],
@@ -1456,9 +1463,10 @@
 				'carroty'=>[
 					'caroty',
 				],
-				'carrousel'=>[
-					'carousel',
-				],
+					# carousel: an accepted spelling, not a slip (AmericanBritishWords_C: carousel)
+			#	'carrousel'=>[
+			#		'carousel',
+			#	],
 				'carrs'=>[
 					'carrrs',
 				],
@@ -2292,7 +2300,8 @@
 					'cernous',
 				],
 				'certain'=>[
-					'ceratin',
+					# ceratin: an accepted spelling, not a slip (AmericanBritishWords_C: ceratin)
+				#	'ceratin',
 					'certian',
 				],
 				'certainly'=>[
@@ -3012,9 +3021,10 @@
 				'chiller'=>[
 					'chiler',
 				],
-				'chilli'=>[
-					'chili',
-				],
+					# chili: an accepted spelling, not a slip (AmericanBritishWords_C: chili)
+			#	'chilli'=>[
+			#		'chili',
+			#	],
 				'chilly'=>[
 					'chilally',
 					'chilaly',
@@ -3167,9 +3177,10 @@
 				'chlorohydrin'=>[
 					'chorohydrin',
 				],
-				'chlorophyll'=>[
-					'chlorophyl',
-				],
+					# chlorophyl: an accepted spelling, not a slip (AmericanBritishWords_C: chlorophyl)
+			#	'chlorophyll'=>[
+			#		'chlorophyl',
+			#	],
 				'chlorophyllous'=>[
 					'chlorophylous',
 				],
@@ -3533,12 +3544,14 @@
 				'churro'=>[
 					'churo',
 				],
-				'chutzpah'=>[
-					'chutzpa',
-				],
-				'chutzpahs'=>[
-					'chutzpas',
-				],
+					# chutzpa: an accepted spelling, not a slip (AmericanBritishWords_C: chutzpah)
+			#	'chutzpah'=>[
+			#		'chutzpa',
+			#	],
+					# chutzpas: an accepted spelling, not a slip (AmericanBritishWords_C: chutzpahes)
+			#	'chutzpahs'=>[
+			#		'chutzpas',
+			#	],
 				'chymotrypsin'=>[
 					'chemotrypsin',
 				],
@@ -3955,21 +3968,26 @@
 				'clammy'=>[
 					'clamny',
 				],
-				'clamor'=>[
-					'clamour',
-				],
-				'clamored'=>[
-					'clamoured',
-				],
-				'clamorer'=>[
-					'clamourer',
-				],
-				'clamorers'=>[
-					'clamourers',
-				],
-				'clamoring'=>[
-					'clamouring',
-				],
+					# clamour: an accepted spelling, not a slip (AmericanBritishWords_C: clamor)
+			#	'clamor'=>[
+			#		'clamour',
+			#	],
+					# clamoured: an accepted spelling, not a slip (AmericanBritishWords_C: clamored)
+			#	'clamored'=>[
+			#		'clamoured',
+			#	],
+					# clamourer: an accepted spelling, not a slip (AmericanBritishWords_C: clamorer)
+			#	'clamorer'=>[
+			#		'clamourer',
+			#	],
+					# clamourers: an accepted spelling, not a slip (AmericanBritishWords_C: clamorers)
+			#	'clamorers'=>[
+			#		'clamourers',
+			#	],
+					# clamouring: an accepted spelling, not a slip (AmericanBritishWords_C: clamoring)
+			#	'clamoring'=>[
+			#		'clamouring',
+			#	],
 				'clamorous'=>[
 					'clamourous',
 				],
@@ -3982,9 +4000,10 @@
 				'clamorousnesses'=>[
 					'clamourousnesses',
 				],
-				'clamors'=>[
-					'clamours',
-				],
+					# clamours: an accepted spelling, not a slip (AmericanBritishWords_C: clamors)
+			#	'clamors'=>[
+			#		'clamours',
+			#	],
 				'clamshell'=>[
 					'clamshel',
 				],
@@ -4528,14 +4547,16 @@
 				],
 				'co-star'=>[
 					'co-starr',
-					'costar',
+					# costar: an accepted spelling, not a slip (AmericanBritishWords_C: costar)
+				#	'costar',
 				],
 				'co-starred'=>[
 					'co-stared',
 				],
 				'co-starring'=>[
 					'co-staring',
-					'costarring',
+					# costarring: an accepted spelling, not a slip (AmericanBritishWords_C: costarring)
+				#	'costarring',
 				],
 				'co-writer'=>[
 					'co writer',
@@ -4874,18 +4895,22 @@
 				'coelurosaur'=>[
 					'coleurosaur',
 				],
-				'coenamor'=>[
-					'coenamour',
-				],
-				'coenamored'=>[
-					'coenamoured',
-				],
-				'coenamoring'=>[
-					'coenamouring',
-				],
-				'coenamors'=>[
-					'coenamours',
-				],
+					# coenamour: an accepted spelling, not a slip (AmericanBritishWords_C: coenamor)
+			#	'coenamor'=>[
+			#		'coenamour',
+			#	],
+					# coenamoured: an accepted spelling, not a slip (AmericanBritishWords_C: coenamored)
+			#	'coenamored'=>[
+			#		'coenamoured',
+			#	],
+					# coenamouring: an accepted spelling, not a slip (AmericanBritishWords_C: coenamoring)
+			#	'coenamoring'=>[
+			#		'coenamouring',
+			#	],
+					# coenamours: an accepted spelling, not a slip (AmericanBritishWords_C: coenamors)
+			#	'coenamors'=>[
+			#		'coenamours',
+			#	],
 				'coenzymatically'=>[
 					'coenzymaticaly',
 				],
@@ -5202,7 +5227,8 @@
 				],
 				'collectable'=>[
 					'colectable',
-					'collectible',
+					# collectible: an accepted spelling, not a slip (AmericanBritishWords_C: collectible)
+				#	'collectible',
 				],
 				'collectanea'=>[
 					'colectanea',
@@ -5215,7 +5241,8 @@
 				],
 				'collectible'=>[
 					'colectible',
-					'collectable',
+					# collectable: an accepted spelling, not a slip (AmericanBritishWords_C: collectible)
+				#	'collectable',
 				],
 				'collection'=>[
 					'colection',
@@ -5480,12 +5507,14 @@
 				'combatants'=>[
 					'combattants',
 				],
-				'combated'=>[
-					'combatted',
-				],
-				'combating'=>[
-					'combatting',
-				],
+					# combatted: an accepted spelling, not a slip (AmericanBritishWords_C: combated)
+			#	'combated'=>[
+			#		'combatted',
+			#	],
+					# combatting: an accepted spelling, not a slip (AmericanBritishWords_C: combating)
+			#	'combating'=>[
+			#		'combatting',
+			#	],
 				'combatively'=>[
 					'combativly',
 				],
@@ -7699,9 +7728,10 @@
 				'connectednesses'=>[
 					'conectednesses',
 				],
-				'connectible'=>[
-					'connectable',
-				],
+					# connectable: an accepted spelling, not a slip (AmericanBritishWords_C: connectable)
+			#	'connectible'=>[
+			#		'connectable',
+			#	],
 				'connecting'=>[
 					'conecting',
 				],
@@ -8876,11 +8906,13 @@
 					'coverted',
 				],
 				'converter'=>[
-					'convertor',
+					# convertor: an accepted spelling, not a slip (AmericanBritishWords_C: converter)
+				#	'convertor',
 					'oonvertetr',
 				],
 				'converters'=>[
-					'convertors',
+					# convertors: an accepted spelling, not a slip (AmericanBritishWords_C: converters)
+				#	'convertors',
 					'oonverters',
 				],
 				'convertible'=>[
@@ -8959,7 +8991,8 @@
 					'co- oporation',
 					'co-opera-tion',
 					'co-opera-ton',
-					'co-operation',
+					# co-operation: an accepted spelling, not a slip (AmericanBritishWords_C: cooperation)
+				#	'co-operation',
 					'co-operaton',
 					'co-oporation',
 					'co-oporaton',
@@ -8972,7 +9005,8 @@
 				'cooperative'=>[
 					'co- operative',
 					'co- oporative',
-					'co-operative',
+					# co-operative: an accepted spelling, not a slip (AmericanBritishWords_C: cooperative)
+				#	'co-operative',
 					'co-oporative',
 				],
 				'cooperatively'=>[
@@ -9432,13 +9466,15 @@
 					'correspondensy',
 				],
 				'correspondent'=>[
-					'corespondent',
+					# corespondent: an accepted spelling, not a slip (AmericanBritishWords_C: corespondent)
+				#	'corespondent',
 					'correspondant',
 					'correspondet',
 					'corrispondant',
 				],
 				'correspondents'=>[
-					'corespondents',
+					# corespondents: an accepted spelling, not a slip (AmericanBritishWords_C: corespondents)
+				#	'corespondents',
 					'correspondants',
 					'corrispondants',
 				],
@@ -9699,9 +9735,10 @@
 				'cotrimoxazole'=>[
 					'cotrimaxozole',
 				],
-				'cottar'=>[
-					'cotter',
-				],
+					# cotter: an accepted spelling, not a slip (AmericanBritishWords_C: cottar)
+			#	'cottar'=>[
+			#		'cotter',
+			#	],
 				'cottonmouth'=>[
 					'cottomouth',
 					'cottonouth',
@@ -9730,9 +9767,10 @@
 					'coudn\'t',
 					'couldnt',
 				],
-				'councillor'=>[
-					'councilor',
-				],
+					# councilor: an accepted spelling, not a slip (AmericanBritishWords_C: councilor)
+			#	'councillor'=>[
+			#		'councilor',
+			#	],
 				'councilor'=>[
 					'councellor',
 				],
@@ -10331,9 +10369,10 @@
 				'crenately'=>[
 					'crenatly',
 				],
-				'crenellations'=>[
-					'crenelations',
-				],
+					# crenelations: an accepted spelling, not a slip (AmericanBritishWords_C: crenelations)
+			#	'crenellations'=>[
+			#		'crenelations',
+			#	],
 				'crepuscular'=>[
 					'crepucsular',
 					'crepucular',
@@ -10783,12 +10822,14 @@
 				'crystallizable'=>[
 					'crystallizible',
 				],
-				'crystallization'=>[
-					'crystalization',
-				],
-				'crystallize'=>[
-					'crystalize',
-				],
+					# crystalization: an accepted spelling, not a slip (AmericanBritishWords_C: crystalization)
+			#	'crystallization'=>[
+			#		'crystalization',
+			#	],
+					# crystalize: an accepted spelling, not a slip (AmericanBritishWords_C: crystalize)
+			#	'crystallize'=>[
+			#		'crystalize',
+			#	],
 				'crystallizes'=>[
 					'cyrstallises',
 					'cyrstallizes',
@@ -11003,9 +11044,10 @@
 				'curatively'=>[
 					'curativly',
 				],
-				'curb'=>[
-					'kerb',
-				],
+					# kerb: an accepted spelling, not a slip (AmericanBritishWords_C: curb)
+			#	'curb'=>[
+			#		'kerb',
+			#	],
 				'curia'=>[
 					'cuna',
 				],
@@ -11189,9 +11231,10 @@
 				'cutinizes'=>[
 					'cutinazes',
 				],
-				'cutlass'=>[
-					'cutlas',
-				],
+					# cutlas: an accepted spelling, not a slip (AmericanBritishWords_C: cutlass)
+			#	'cutlass'=>[
+			#		'cutlas',
+			#	],
 				'cutlery'=>[
 					'cultery',
 				],
