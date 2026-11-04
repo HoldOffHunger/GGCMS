@@ -67,17 +67,22 @@
 				return TRUE;
 			}
 
-			$associations_args = ['defaultblankoption'=>TRUE];
-
-			if($mode === 'row') {
-				$associations_args = ['selected'=>$args['record']['ChosenEntryid'], 'defaultblankoption'=>TRUE];
-			}
-
 			print('<select' . ($class ? ' class="' . $class . '"' : '') . ' name="' . $name . '">');
-			$this->that->displayAssociations($associations_args);
+			$this->that->displayAssociations($this->AssociationsArgs($args));
 			print('</select>');
 
 			return TRUE;
+		}
+
+			// What displayAssociations() is given to list the choices: a
+			// row's choice is selected.
+
+		public function AssociationsArgs($args) {
+			if($args['mode'] === 'row') {
+				return ['selected'=>$args['record']['ChosenEntryid'], 'defaultblankoption'=>TRUE];
+			}
+
+			return ['defaultblankoption'=>TRUE];
 		}
 
 			// The hidden row's inputs have no value at all; the others' have
