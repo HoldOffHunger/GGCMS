@@ -151,110 +151,16 @@
 			// Display Column #2 : 3rd Party Management
 		
 		// -------------------------------------------------------------
-		
-				// Column #2, 3rd Party : List Args
-			
-			// -------------------------------------------------------------
 	
-	$user_hideable_args = [
-		'options'=>[
-			'domainobject'=>$this->domain_object,
-		],
-		'list'=>[
-			[
-				'text'=>'Primary Host Management',
-				'link'=>' ',
-				'mouseover'=>'Primary Host Management',
-				[
-					'text'=>'Clone Primary Host Database',
-					'link'=>'dbstatus.php?action=ClonePrimaryHostDatabase',
-					'mouseover'=>'Clone Primary Host Database',
-				],
-				[
-					'text'=>'Update Primary Host Information',
-					'link'=>$this->domain_object->GetPrimaryDomain(['www'=>1, 'lowercase'=>1]) . '/modify.php?action=Edit',
-					'mouseover'=>'Update Primary Host Information',
-				],
-				[
-					'text'=>'View All Primary Hosts',
-					'link'=>'dbstatus.php?action=ViewAllPrimaryHosts',
-					'mouseover'=>'Clone Primary Host Database',
-				],
-				[
-					'text'=>'View Primary Host Status',
-					'link'=>'dbstatus.php?action=ViewPrimaryHostStatus',
-					'mouseover'=>'View Primary Host Status',
-				],
-				[
-					'text'=>'View Primary Host SEO Status',
-					'link'=>'dbstatus.php?action=ViewPrimaryHostSEOStatus',
-					'mouseover'=>'View All Primary Host SEO Status',
-				],
-			],
-			[
-				'text'=>'Vendor Management',
-				'link'=>' ',
-				'mouseover'=>'Vendor Management',
-				[
-					'text'=>'View All Vendors',
-					'link'=>'dbstatus.php?action=ViewAllVendors',
-					'mouseover'=>'View All Vendors',
-				],
-				[
-					'text'=>'Generate Search Engine Sitemap-Submission Links',
-					'link'=>'dbstatus.php?action=GenerateSearchEngineSitemapSubmissionLinks',
-					'mouseover'=>'Generate Search Engine Sitemap-Submission Links',
-				],
-			],
-		],
-	];
-		
-				// Column #1, 3rd Party : Secondary Header Args
-			
-			// -------------------------------------------------------------
-	
-	$header_secondary_panel01_args = [
+	$thirdparties_panel = new module_mastercpanel([
+		'that'=>$this,
+		'menu'=>'thirdparties',
 		'title'=>'3rd Parties',
 		'image'=>'tools-icon.jpg',
 		'divmouseover'=>'Toolage',
 		'imagemouseover'=>'Toolage Imageryage!',
-		'level'=>2,
-		'divclass'=>'horizontal-center width-100percent border-bottom-1px background-color-gray13',
-		'textclass'=>'margin-0px padding-0px vertical-center padding-top-14px',
-		'imagedivclass'=>'background-color-gray10 margin-5px',
-		'imageclass'=>'border-1px width-50px',
-		'domainobject'=>$this->domain_object,
-		'leftimageenable'=>1,
-		'rightimageenable'=>1,
-	];
-		
-				// Column #1, 3rd Party : Display
-			
-			// -------------------------------------------------------------
-	
-	$divider->displaystart($divider_one_third_start_args);
-	
-	$divider->displaystart($divider_padding_special_start_args);
-	
-	$divider->displaystart($divider_frame_start_args);
-	
-	$header->display($header_secondary_panel01_args);
-	
-	$divider->displaystart($divider_case_start_args);
-	
-	$divider->displaystart($divider_padding_start_args);
-	
-	$hideable->display($user_hideable_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
-	
-	$divider->displayend($divider_end_args);
+	]);
+	$thirdparties_panel->Display();
 	
 			// Display Column #2 : System Testing
 		
