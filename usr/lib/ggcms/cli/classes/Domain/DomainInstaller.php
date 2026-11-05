@@ -58,7 +58,7 @@
 				$this->setGlobals();
 				$this->setMySQLArgs();
 				
-				$this->runMySQLTest([]);
+				$this->runMySQLTest(['display'=>'short']);
 				
 				if($this->userConfirmBuildDatabase()) {
 					$this->buildDatabase();
@@ -123,32 +123,37 @@
 			return $this->cancelAction(['message'=>'User cancelled.']);
 		}
 		
+			/*
+				What DigitalOcean now holds for the domain, read back rather
+				than recited.  This used to print a table of records for the
+				operator to enter by hand, with the server's address as a
+				blank to fill in -- from before the installer wrote them
+				through doctl itself.
+			*/
+
 		public function recommendDNSRecords() {
-			print("\n\n");
+			print(PHP_EOL . PHP_EOL);
 			
-			print('Please install the following DNS records for your domain with your namehost:' . "\n\n");
+			print('DNS records now published for ' . $this->domain . ':' . PHP_EOL . PHP_EOL);
 			
-			$standard_ttl = 3600;
+			$records = [];
 			
-			$name_servers = $this->globals->NameServers();
-			
-			$default_server = '(lamp-server)';
-			
-			$dns_records = $this->getDNSRecords();
-			
-			foreach($name_servers as $name_server) {
-				$dns_records[] = [
-					'Record Type'=>'NS',
-					'Hostname'=>$this->domain,
-					'Value'=>$name_server,
-					'TTL'=>$standard_ttl,
-					'Type'=>'~',
+			foreach($this->getDigitalOceanDNSRecords(['quiet'=>TRUE]) as $record) {
+				$records[] = [
+					'Type'=>$record['Type'],
+					'Name'=>$record['Name'],
+					'Data'=>$record['Data'],
+					'TTL'=>$record['TTL'],
 				];
 			}
 			
-			print(arr2textTable($dns_records));
-
-			print("Then check the whole domain:" . PHP_EOL . PHP_EOL);
+			if($records) {
+				print(arr2textTable($records));
+			} else {
+				print('None -- DigitalOcean has no zone for this domain.' . PHP_EOL);
+			}
+			
+			print(PHP_EOL . 'Then check the whole domain:' . PHP_EOL . PHP_EOL);
 			print("\t\t" . 'php ' . GGCMS_CLI_DIR . 'scripts/internal/domain/check_domain.php ' . $this->domain . PHP_EOL . PHP_EOL);
 
 			return TRUE;
@@ -535,6 +540,12 @@
 		public function buildGGCMSConfigFolder() {
 			$folder_location = GGCMS_CONFIG_DIR . $this->reversed_domain . '/';
 			
+			if(is_dir($folder_location)) {
+				print('GGCMS Config folder `' . $folder_location . '` already exists; kept as it is.' . PHP_EOL . PHP_EOL);
+				
+				return TRUE;
+			}
+			
 			$mkdir_command_base = 'mkdir --mode=744 ' . $folder_location;
 			$chown_command_base = 'chown -R ' . $this->defaultWebServerUser() . ' ' . $folder_location;
 			
@@ -560,9 +571,10 @@
 				return FALSE;
 			}
 
-			$this->formatted_records = $this->getFormattedDomainRecords();
-			
+				# the zone first: listing the records of one that does not exist yet is a 404
 			$this->buildDNSRecords_DigitalOceanConfig();
+			
+			$this->formatted_records = $this->getFormattedDomainRecords();
 			
 		#	$this->buildDNSRecords_NameServers();	# this is hanlded by DigitalOceanConfig, sigh
 			$this->buildDNSRecords_IPv4Addresses();
@@ -573,7 +585,7 @@
 		}
 		
 		public function buildDNSRecords_DigitalOceanConfig() {
-			$command = 'doctl compute domain create ' . $this->domain;
+			$command = 'doctl compute domain create ' . escapeshellarg($this->domain) . ' 2>/dev/null';
 			
 			shell_exec($command);
 			
@@ -729,7 +741,7 @@ Error: POST https://api.digitalocean.com/v2/domains/sortwords.com/records: 422 (
 		
 		public function userConfirmGGCMSConfig() {
 			return $this->basicConfirmDialogue([
-				'message'=>'Ready to build GGCMS config file `' . GGCMS_CONFIG_DIR . $this->domain . '.php`?',
+				'message'=>'Ready to build GGCMS config file `' . GGCMS_CONFIG_DIR . $this->reversed_domain . '.php`?',
 				'argv_index'=>3,
 			]);
 		}
