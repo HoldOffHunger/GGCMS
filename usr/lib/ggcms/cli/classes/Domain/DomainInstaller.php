@@ -63,36 +63,47 @@
 					$this->buildDirectories();
 				}
 				
-				if($this->userConfirmApacheConf()) {
-					$this->buildApacheConf();
-				}
-				
+					/*
+						The order is the dependency order, and it changed when
+						nginx took ports 80 and 443 in front of Apache.  DNS
+						first, because the certificate cannot be issued for a
+						name that resolves nowhere.  The certificate next, through
+						nginx's webroot, because both vhosts below name its
+						files and a vhost naming a missing file stops Apache --
+						every site on the host, not just this one.  Apache, then
+						nginx, last.
+					*/
+
 				if($this->userConfirmGGCMSConfig()) {
 					$this->buildGGCMSConfig();
 				}
-				
+
 				if($this->userConfirmDNSRecords()) {
 					$this->buildDNSRecords();
 				}
-				
+
+				if($this->userConfirmCertBot()) {
+					if($this->waitForDNS()) {
+						$this->certBot();
+					}
+				}
+
+				if($this->userConfirmApacheConf()) {
+					$this->buildApacheConf();
+				}
+
 				if($this->userConfirmApacheEnable()) {
 					$this->enableApacheConf();
 				}
-				
+
 				if($this->userConfirmApacheReload()) {
 					$this->reloadApache();
 				}
-				
-				if($this->userConfirmCertBot()) {
-					$this->certBot();
-				}
-				
-				if($this->userConfirmApacheReload()) {
-					$this->reloadApache();
-				}
-				
+
+				$this->reloadNginx();
+
 				$this->recommendDNSRecords();
-				
+
 				return TRUE;
 			}
 			
@@ -123,10 +134,10 @@
 			}
 			
 			print(arr2textTable($dns_records));
-			
-			print("Please run this command:" . PHP_EOL . PHP_EOL);
-			print("\t\t" . 'sudo certbot --apache -d example.com -d www.example.com' . PHP_EOL . PHP_EOL);
-			
+
+			print("Then check the whole domain:" . PHP_EOL . PHP_EOL);
+			print("\t\t" . 'php ' . GGCMS_CLI_DIR . 'scripts/internal/domain/check_domain.php ' . $this->domain . PHP_EOL . PHP_EOL);
+
 			return TRUE;
 		}
 		
@@ -155,11 +166,14 @@
 				which is what all seventeen sites on this host did, unnoticed,
 				because www was only ever reached over plain HTTP.
 
-				Apache stays running.  The --apache authenticator answers the
-				HTTP-01 challenge through the running server, so stopping it
-				first guarantees the failure this used to cause.  The stop and
-				start belonged to --standalone, which binds port 80 itself, and
-				were carried over to a plugin that cannot use them.
+				Through nginx's webroot.  nginx owns port 80 and its catch-all
+				serves /.well-known/acme-challenge/ from /var/www/html, which
+				is where renewals already answer.  The --apache authenticator
+				this used to run expects Apache on port 80, where it no longer
+				listens, so it could not answer the challenge -- and it rewrote
+				vhosts for port 443, which belongs to nginx.  certonly touches
+				no server configuration at all: the vhosts are written after,
+				knowing the certificate is there.
 
 				And the result is read.  This printed success unconditionally,
 				ignoring what shell_exec returned, so a failed issuance and a
@@ -169,8 +183,9 @@
 		public function certBot() {
 			print("CertBot SSL installing..." . PHP_EOL . PHP_EOL);
 
-			$cert_line = 'certbot';
-			$cert_line .= ' --apache --non-interactive --agree-tos';
+			$cert_line = 'certbot certonly';
+			$cert_line .= ' --webroot -w ' . escapeshellarg($this->acmeWebroot());
+			$cert_line .= ' --non-interactive --agree-tos';
 			$cert_line .= ' --cert-name ' . escapeshellarg($this->domain);
 			$cert_line .= ' -d ' . escapeshellarg($this->domain);
 			$cert_line .= ' -d ' . escapeshellarg('www.' . $this->domain);
@@ -180,10 +195,12 @@
 
 			print($output . PHP_EOL);
 
-			$succeeded = (strpos($output, 'Congratulations') !== FALSE);
+			$succeeded = (strpos($output, 'Successfully received certificate') !== FALSE);
+			$succeeded = $succeeded || (strpos($output, 'Congratulations') !== FALSE);
 			$succeeded = $succeeded || (strpos($output, 'not yet due for renewal') !== FALSE);
+			$succeeded = $succeeded || (strpos($output, 'Certificate not yet due') !== FALSE);
 
-			if(!$succeeded) {
+			if(!$succeeded || !$this->certificateExists()) {
 				print("SSL certificate was NOT installed.  Read the certbot output above." . PHP_EOL . PHP_EOL);
 
 				return FALSE;
@@ -194,108 +211,314 @@
 			return TRUE;
 		}
 
+		public function acmeWebroot() {
+			return '/var/www/html';
+		}
+
+		public function certificateDirectory() {
+			return '/etc/letsencrypt/live/' . $this->domain . '/';
+		}
+
+		public function certificateExists() {
+			return is_file($this->certificateDirectory() . 'fullchain.pem') && is_file($this->certificateDirectory() . 'privkey.pem');
+		}
+
+			/*
+				Let's Encrypt resolves the name itself, from outside, so the
+				question is not whether DigitalOcean holds the record but
+				whether the world can see it.  A public resolver is asked for
+				both names, until both answer with this host's address.  A
+				zone created a moment ago usually answers within a minute;
+				a resolver still holding a failure from before the zone
+				existed can take a few.
+			*/
+
+		public function waitForDNS() {
+			$expected = $this->validIPAddresses(['addresses'=>$this->globals->IPv4Addresses(), 'flag'=>FILTER_FLAG_IPV4]);
+
+			if(!$expected) {
+				print('No IPv4 address in IPv4Addresses(), so there is nothing to wait for.  Certificate skipped.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
+			$names = [$this->domain, 'www.' . $this->domain];
+			$attempts = 40;
+			$pause = 15;
+
+			print('Waiting for ' . implode(' and ', $names) . ' to resolve to ' . $expected[0] . '...' . PHP_EOL);
+
+			for($attempt = 1; $attempt <= $attempts; $attempt++) {
+				$resolved = TRUE;
+
+				foreach($names as $name) {
+					$answer = trim((string) shell_exec('dig +short A ' . escapeshellarg($name) . ' @8.8.8.8 2>/dev/null'));
+
+					if(!in_array($expected[0], preg_split('/\s+/', $answer), TRUE)) {
+						$resolved = FALSE;
+					}
+				}
+
+				if($resolved) {
+					print('Resolved.' . PHP_EOL . PHP_EOL);
+
+					return TRUE;
+				}
+
+				if($attempt < $attempts) {
+					print('.');
+					sleep($pause);
+				}
+			}
+
+			print(PHP_EOL . 'Still not resolving after ' . (($attempts * $pause) / 60) . ' minutes.  Certificate skipped; run this again once `dig ' . $this->domain . '` answers ' . $expected[0] . '.' . PHP_EOL . PHP_EOL);
+
+			return FALSE;
+		}
+
+		public function validIPAddresses($args) {
+			$valid = [];
+
+			foreach((array) $args['addresses'] as $address) {
+				if(filter_var($address, FILTER_VALIDATE_IP, $args['flag'])) {
+					$valid[] = $address;
+				}
+			}
+
+			return $valid;
+		}
+
+			/*
+				A test before the reload.  A reload that fails takes no site
+				down, but the next deploy restarts Apache, and a restart on a
+				configuration that does not validate takes all of them.
+			*/
+
 		public function reloadApache() {
+			print("Testing apache configuration...\n\n");
+
+			$test_output = (string) shell_exec('apache2ctl configtest 2>&1');
+
+			if(strpos($test_output, 'Syntax OK') === FALSE) {
+				print($test_output . PHP_EOL);
+				print("Apache configuration did NOT validate; apache was left running as it was.\n\n");
+
+				return FALSE;
+			}
+
 			print("Reloading apache...\n\n");
-			
-			$reload_apache_line = 'systemctl reload apache2';
-			
-			shell_exec($reload_apache_line);
-			
+
+			shell_exec('systemctl reload apache2');
+
 			print("Successfully reloaded apache.\n\n");
-			
+
 			return TRUE;
 		}
-		
+
 		public function userConfirmApacheReload() {
 			return $this->basicConfirmDialogue([
-				'message'=>'Restart apache?',
+				'message'=>'Reload apache?',
 				'argv_index'=>3,
 			]);
 		}
-		
+
 		public function userConfirmCertBot() {
 			return $this->basicConfirmDialogue([
-				'message'=>'Run CertBot? (Note: This will bring down the server.)',
+				'message'=>'Issue the SSL certificate through nginx\'s webroot?  (Waits for DNS first.)',
 				'argv_index'=>3,
 			]);
 		}
-		
+
+			/*
+				The redirecting vhost always; the secure one only once its
+				certificate exists, because an enabled vhost naming a missing
+				certificate stops Apache from starting at all.
+			*/
+
 		public function enableApacheConf() {
-			$apache_conf_location = '/etc/apache2/sites-available/' . $this->domain . '.conf';
-			
-			print("Enabling Apache Config file `" . $apache_conf_location . "`.\n\n");
-			
-			#$enable_apache_line = 'a2ensite ' . $apache_conf_location;	// a2ensite does not require absolute path here
-			
-			$enable_apache_line = 'a2ensite ' . $this->domain;
-			
-			#print("OWN!" . $enable_apache_line . "!");
-			
-			shell_exec($enable_apache_line);
-			
-			$change_ownership_line = 'chown -R ' . $this->defaultWebServerUser() . ' ' . $apache_conf_location;
-			
-			shell_exec($change_ownership_line);
-			
-			print("Successfully enabled Apache Config file `" . $apache_conf_location . "`.\n\n");
-			
+			$vhosts = [$this->domain];
+
+			if($this->certificateExists()) {
+				$vhosts[] = $this->domain . '-le-ssl';
+			} else {
+				print('No certificate yet, so `' . $this->domain . '-le-ssl.conf` is left disabled.  Run this again once the certificate is issued.' . PHP_EOL . PHP_EOL);
+			}
+
+			foreach($vhosts as $vhost) {
+				$apache_conf_location = $this->apacheConfLocation(['vhost'=>$vhost]);
+
+				print("Enabling Apache Config file `" . $apache_conf_location . "`.\n\n");
+
+				shell_exec('a2ensite ' . escapeshellarg($vhost) . ' 2>&1');
+				shell_exec('chown -R ' . $this->defaultWebServerUser() . ' ' . escapeshellarg($apache_conf_location));
+
+				print("Successfully enabled Apache Config file `" . $apache_conf_location . "`.\n\n");
+			}
+
 			return TRUE;
 		}
-		
+
 		public function userConfirmApacheEnable() {
 			return $this->basicConfirmDialogue([
-				'message'=>'Ready to enable apache config file `' . $this->domain . '.conf`?',
+				'message'=>'Ready to enable the apache config files for `' . $this->domain . '`?',
 				'argv_index'=>3,
 			]);
 		}
-		
+
+		public function apacheConfLocation($args) {
+			return '/etc/apache2/sites-available/' . $args['vhost'] . '.conf';
+		}
+
+			/*
+				Apache sits behind nginx: plain HTTP on 8080, which only ever
+				redirects, and HTTPS on 8443, which serves.  The pair is what
+				every site in the configuration repository carries, and when
+				that repository already has this site's files the deploy has
+				put them here -- they are kept, not overwritten, so the
+				repository stays the one source of them.
+			*/
+
 		public function buildApacheConf() {
-			$file_location = '/etc/apache2/sites-available/' . $this->domain . '.conf';
-			
-			print("Building Apache Config file `" . $file_location . "`.\n\n");
-			
-			$apache_conf =
-				'<VirtualHost *:80>' . "\n" .
-				"\t" . 'ServerAdmin holdoffhunger@gmail.com' . "\n" .
+			$files = [
+				$this->domain=>$this->apacheConfText(),
+				$this->domain . '-le-ssl'=>$this->apacheSSLConfText(),
+			];
+
+			foreach($files as $vhost => $text) {
+				$file_location = $this->apacheConfLocation(['vhost'=>$vhost]);
+
+				if(is_file($file_location)) {
+					print("Apache Config file `" . $file_location . "` already exists; kept as it is.\n\n");
+
+					continue;
+				}
+
+				print("Building Apache Config file `" . $file_location . "`.\n\n");
+
+				file_put_contents($file_location, $text, LOCK_EX);
+
+				print("Successfully built Apache Config file `" . $file_location . "`." . PHP_EOL . PHP_EOL);
+			}
+
+			return TRUE;
+		}
+
+		public function apacheConfText() {
+			return
+				'<VirtualHost *:8080>' . "\n" .
+				"\t" . 'ServerAdmin ' . $this->globals->AdminEmailAddress() . "\n" .
 				"\t" . 'ServerName ' . $this->domain . "\n" .
 				"\t" . 'ServerAlias www.' . $this->domain . "\n" .
 				"\t" . 'DocumentRoot /var/www/html' . "\n" .
 				"\t" . 'ErrorLog ${APACHE_LOG_DIR}/error.log' . "\n" .
 				"\t" . 'CustomLog ${APACHE_LOG_DIR}/access.log combined' . "\n" .
-				'</VirtualHost>';
-			
-			file_put_contents($file_location, $apache_conf, LOCK_EX);
-			
-			print("Successfully built Apache Config file `" . $file_location . "`." . PHP_EOL . PHP_EOL);
-			
+				"\n" .
+				"\t" . 'RewriteEngine On' . "\n" .
+				"\t" . 'RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/' . "\n" .
+				"\t" . 'RewriteRule ^(.*)$ https://' . $this->domain . '$1 [R=301,L]' . "\n" .
+				'</VirtualHost>' . "\n";
+		}
+
+		public function apacheSSLConfText() {
+			return
+				'<IfModule mod_ssl.c>' . "\n" .
+				'<VirtualHost *:8443>' . "\n" .
+				"\t" . 'ServerAdmin ' . $this->globals->AdminEmailAddress() . "\n" .
+				"\t" . 'ServerName ' . $this->domain . "\n" .
+				"\t" . 'ServerAlias www.' . $this->domain . "\n" .
+				"\t" . 'DocumentRoot /var/www/html' . "\n" .
+				"\t" . 'ErrorLog ${APACHE_LOG_DIR}/error.log' . "\n" .
+				"\t" . 'CustomLog ${APACHE_LOG_DIR}/access.log combined' . "\n" .
+				'SSLCertificateFile ' . $this->certificateDirectory() . 'fullchain.pem' . "\n" .
+				'SSLCertificateKeyFile ' . $this->certificateDirectory() . 'privkey.pem' . "\n" .
+				'Include /etc/letsencrypt/options-ssl-apache.conf' . "\n" .
+				'</VirtualHost>' . "\n" .
+				'</IfModule>' . "\n";
+		}
+
+			/*
+				nginx's server blocks are one file in the configuration
+				repository, so a block written here would be overwritten by
+				the next deploy.  The installer checks instead: if the deploy
+				has already delivered this site's block and the certificate
+				it names exists, nginx is tested and reloaded; if not, it says
+				exactly what is missing.  Never reloaded on a failed test --
+				the running configuration keeps serving every other site.
+			*/
+
+		public function reloadNginx() {
+			print("Checking nginx for `" . $this->domain . "`..." . PHP_EOL . PHP_EOL);
+
+			$pattern = 'server_name[[:space:]]+' . str_replace('.', '\\.', $this->domain) . ';';
+			$grep_line = 'grep -RlE ' . escapeshellarg($pattern) . ' /etc/nginx/sites-enabled/ 2>/dev/null';
+			$has_block = strlen(trim((string) shell_exec($grep_line))) > 0;
+
+			if(!$has_block) {
+				print('nginx has no server block for ' . $this->domain . ' yet.  Add one to etc/nginx/sites-available/ggcms.conf in the configuration repository -- copy another site\'s pair -- and deploy.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
+			if(!$this->certificateExists()) {
+				print('nginx has a server block for ' . $this->domain . ', but its certificate does not exist yet, so nginx was not reloaded.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
+			$test_output = (string) shell_exec('nginx -t 2>&1');
+
+			if(strpos($test_output, 'test is successful') === FALSE) {
+				print($test_output . PHP_EOL);
+				print('nginx configuration did NOT validate; nginx was left running as it was.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
+			shell_exec('systemctl reload nginx');
+
+			print('Successfully reloaded nginx.' . PHP_EOL . PHP_EOL);
+
 			return TRUE;
 		}
-		
+
 		public function buildGGCMSConfig() {
 			$this->buildGGCMSConfigFile();
 			$this->buildGGCMSConfigFolder();
-			
+
 			return TRUE;
 		}
-		
+
+			/*
+				Kept when it exists.  A site's configuration lives in the
+				configuration repository and the deploy puts it here, so an
+				empty one written over it would undo the site until the next
+				deploy put it back.
+			*/
+
 		public function buildGGCMSConfigFile() {
 			$file_location = GGCMS_CONFIG_DIR . $this->reversed_domain . '.php';
-			
+
+			if(is_file($file_location)) {
+				print("GGCMS Config file `" . $file_location . "` already exists; kept as it is.\n\n");
+
+				return TRUE;
+			}
+
 			print("Building GGCMS Config file `" . $file_location . "`.\n\n");
-			
+
 			$ggcms_conf =
 				'<?php' . PHP_EOL . PHP_EOL .
 				'	class globals extends defaultglobals {' . PHP_EOL .
-				'	}' . PHP_EOL . PHP_EOL .	
+				'	}' . PHP_EOL . PHP_EOL .
 				'?>';
-			
+
 			file_put_contents($file_location, $ggcms_conf, LOCK_EX);
-			
+
 			print("Successfully built GGCMS Config file `" . $file_location . "`." . PHP_EOL . PHP_EOL);
-			
+
 			return TRUE;
 		}
-		
+
 		public function buildGGCMSConfigFolder() {
 			$folder_location = GGCMS_CONFIG_DIR . $this->reversed_domain . '/';
 			
@@ -310,7 +533,20 @@
 			return TRUE;
 		}
 		
+			/*
+				Refused outright while IPv4Addresses() holds no real address.
+				It shipped as a placeholder sentence, and every A record this
+				wrote carried it as its data -- so a new site's zone pointed
+				nowhere, and the certificate after it could never be issued.
+			*/
+
 		public function buildDNSRecords() {
+			if(!$this->validIPAddresses(['addresses'=>$this->globals->IPv4Addresses(), 'flag'=>FILTER_FLAG_IPV4])) {
+				print('IPv4Addresses() in clonefrom.php holds no real IPv4 address, so no DNS records were written.  Put the droplet\'s address there and run this again.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
 			$this->formatted_records = $this->getFormattedDomainRecords();
 			
 			$this->buildDNSRecords_DigitalOceanConfig();
@@ -373,7 +609,7 @@
 				}
 			}
 			
-			$ip_addresses = $this->globals->IPv4Addresses();
+			$ip_addresses = $this->validIPAddresses(['addresses'=>$this->globals->IPv4Addresses(), 'flag'=>FILTER_FLAG_IPV4]);
 			
 			foreach($name_server_missing as $name_server_missing_id => $truth) {
 				$command = 'doctl compute domain records create ' . $this->domain . ' --record-type "A" --record-name "' . $name_server_missing_id . '" --record-ttl 3600 --record-data "' . $ip_addresses[0] . '"';
@@ -395,7 +631,13 @@
 				}
 			}
 			
-			$ip_addresses = $this->globals->IPv6Addresses();
+			$ip_addresses = $this->validIPAddresses(['addresses'=>$this->globals->IPv6Addresses(), 'flag'=>FILTER_FLAG_IPV6]);
+
+			if(!$ip_addresses) {
+				print('No IPv6 address in IPv6Addresses(), so no AAAA records were written.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
 			
 			foreach($name_server_missing as $name_server_missing_id => $truth) {
 				$command = 'doctl compute domain records create ' . $this->domain . ' --record-type "AAAA" --record-name "' . $name_server_missing_id . '" --record-ttl 3600 --record-data "' . $ip_addresses[0] . '"';
@@ -406,9 +648,23 @@
 			return TRUE;
 		}
 		
+			/*
+				At "@", the zone's apex.  DigitalOcean reads a record name
+				relative to the zone, so the domain written out in full made
+				these records for domain.com.domain.com -- the trap the NS
+				builder above already notes -- and the domain itself was left
+				with no CAA at all.
+			*/
+
 		public function buildDNSRecords_CertificateAuthorities() {
 			#return TRUE;		// broken per https://github.com/digitalocean/doctl/issues/1436
-			
+
+			if(!preg_match('/^[a-z0-9.-]+\.[a-z]+$/i', $this->globals->EncryptionAuthority()) || !filter_var($this->globals->CertificateAuthorityAdminEmailAddress(), FILTER_VALIDATE_EMAIL)) {
+				print('EncryptionAuthority() or AdminEmailAddress() in clonefrom.php is still a placeholder, so no CAA records were written.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
 			$caa_missing = ['iodef'=>TRUE, 'issue'=>TRUE, 'issuewild'=>TRUE,];
 			
 			if(array_key_exists('CAA', $this->formatted_records)) {
@@ -429,7 +685,7 @@
 				
 				#print($caa_missing_id . ":::::::::::::::::::::::::::");
 				
-				$command = 'doctl compute domain records create ' . $this->domain . ' --record-type "CAA" --record-name "' . $this->domain . '" --record-ttl 3600 --record-tag "' . $caa_missing_id . '" --record-data "' . $record_data . '"';
+				$command = 'doctl compute domain records create ' . $this->domain . ' --record-type "CAA" --record-name "@" --record-ttl 3600 --record-tag "' . $caa_missing_id . '" --record-data "' . $record_data . '"';
 				
 				#print($command);
 				#print("\n\n");

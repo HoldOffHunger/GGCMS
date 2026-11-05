@@ -61,7 +61,7 @@ $this->abstractConfirmDialogue([
 | `check_domain_records.php` | Validates DNS records against what they should be |
 | `view_domain_records.php` | Lists the DNS records currently published |
 | `list_domain.php` | Lists installed domains |
-| `install_domain.php` | Stands up a new domain: directories, config, database |
+| `install_domain.php` | Stands up a new domain: database, directories, config, DNS through doctl, certificate through nginx's webroot, Apache vhosts; checks nginx |
 
 `check_domain.php` is the most valuable tool in the repository and the least
 used. Through `DomainChecker` and the `SSL` trait it verifies:
