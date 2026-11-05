@@ -60,18 +60,32 @@
 				
 				$this->runMySQLTest(['display'=>'short']);
 				
-				if($this->userConfirmBuildDatabase()) {
-					$this->buildDatabase();
+					/*
+						Run again on a site that exists, the import would load
+						clonefrom.sql over it -- the dump drops and recreates
+						every table -- and leave a live site empty.  An existing
+						database is kept whole, so the installer can be rerun
+						to finish whatever a first run did not.
+					*/
+
+				if($this->databaseExists()) {
+					print('Database `' . $this->host . '` already exists; kept as it is, and clonefrom.sql is not imported over it.' . PHP_EOL . PHP_EOL);
+				} else {
+					if($this->userConfirmBuildDatabase()) {
+						$this->buildDatabase();
+					}
+
+					if($this->userConfirmSource()) {
+						$this->rebuildCloneFromSource();
+					}
+
+					if($this->userConfirmImport()) {
+						$this->importCloneFromSource();
+					}
 				}
-				
-				if($this->userConfirmSource()) {
-					$this->rebuildCloneFromSource();
-				}
-				
-				if($this->userConfirmImport()) {
-					$this->importCloneFromSource();
-				}
-				
+
+				$this->buildPrimaryEntry();
+
 				if($this->userConfirmDirectories()) {
 					$this->buildDirectories();
 				}
@@ -682,54 +696,82 @@
 			*/
 
 		public function buildDNSRecords_CertificateAuthorities() {
-			#return TRUE;		// broken per https://github.com/digitalocean/doctl/issues/1436
-
 			if(!preg_match('/^[a-z0-9.-]+\.[a-z]+$/i', $this->globals->EncryptionAuthority()) || !filter_var($this->globals->CertificateAuthorityAdminEmailAddress(), FILTER_VALIDATE_EMAIL)) {
 				print('EncryptionAuthority() or AdminEmailAddress() in clonefrom.php is still a placeholder, so no CAA records were written.' . PHP_EOL . PHP_EOL);
 
 				return FALSE;
 			}
 
-			$caa_missing = ['iodef'=>TRUE, 'issue'=>TRUE, 'issuewild'=>TRUE,];
-			
-			if(array_key_exists('CAA', $this->formatted_records)) {
-				foreach($this->formatted_records['CAA'] as $caa_server) {
-					print_r($caa_server);
-					#if(array_key_exists($caa_server['CAA'], $caa_missing)) {
-					#	unset($caa_missing[$caa_server['Name']]);
-					#}
-				}
-			}
-			
-			foreach($caa_missing as $caa_missing_id => $truth) {
-				if($caa_missing_id === 'iodef') {
-					$record_data = 'mailto:' . $this->globals->CertificateAuthorityAdminEmailAddress() . '.';
-				} else {
-					$record_data = $this->globals->EncryptionAuthority() . '.';
-				}
-				
-				#print($caa_missing_id . ":::::::::::::::::::::::::::");
-				
-				$command = 'doctl compute domain records create ' . $this->domain . ' --record-type "CAA" --record-name "@" --record-ttl 3600 --record-tag "' . $caa_missing_id . '" --record-data "' . $record_data . '"';
-				
-				#print($command);
-				#print("\n\n");
-				
-				shell_exec($command);
-			}
-			/*
-			
-				doctl compute domain records create pronouncethat.com --record-type "CAA" --record-name "pronouncethat.com" --record-ttl 3600 --record-tag "iodef" --record-data "mailto:holdoffhunger@gmail.com."
-				doctl compute domain records create pronouncethat.com --record-type "CAA" --record-name "pronouncethat.com" --record-ttl 3600 --record-tag "issue" --record-data "letsencrypt.org."
-				doctl compute domain records create pronouncethat.com --record-type "CAA" --record-name "pronouncethat.com" --record-ttl 3600 --record-tag "issuewild" --record-data "letsencrypt.org."
-				
-				
-Error: POST https://api.digitalocean.com/v2/domains/sortwords.com/records: 422 (request "918e1b30-0c09-4463-b27e-53b9557d4061") Tag can't be empty, Tag can't be empty, Tag can't be blank, Tag must be issue, issuewild and or iodef
+			$existing = $this->existingCAARecords();
 
-			
-			*/
-			
+			foreach($this->wantedCAARecords() as $record) {
+				if(in_array($record['tag'] . ' ' . rtrim($record['data'], '.'), $existing, TRUE)) {
+					continue;
+				}
+
+				$command = 'doctl compute domain records create ' . escapeshellarg($this->domain) . ' --record-type "CAA" --record-name "@" --record-ttl 3600 --record-tag ' . escapeshellarg($record['tag']) . ' --record-data ' . escapeshellarg($record['data']) . ' 2>&1';
+
+				shell_exec($command);
+
+				print('CAA record written: ' . $record['tag'] . ' ' . $record['data'] . PHP_EOL);
+			}
+
+			print(PHP_EOL);
+
 			return TRUE;
+		}
+
+			/*
+				The authority that issues today, and for a commercial site the
+				one Cloudflare would: a commercial site is a candidate for
+				going behind it, Cloudflare's certificates come from Google
+				Trust Services, and a CAA record naming only Let's Encrypt
+				would make that certificate silently never appear.  The domain
+				checker fails a commercial site without it.  Revolutionary
+				sites are left to Let's Encrypt alone, for the reason the
+				checker gives.
+			*/
+
+		public function wantedCAARecords() {
+			$issuers = [$this->globals->EncryptionAuthority()];
+
+			if(method_exists($this->globals, 'SiteIsCommercial') && $this->globals->SiteIsCommercial()) {
+				$issuers[] = 'pki.goog';
+			}
+
+			$records = [];
+
+			foreach($issuers as $issuer) {
+				$records[] = ['tag'=>'issue', 'data'=>$issuer . '.'];
+				$records[] = ['tag'=>'issuewild', 'data'=>$issuer . '.'];
+			}
+
+			$records[] = ['tag'=>'iodef', 'data'=>'mailto:' . $this->globals->CertificateAuthorityAdminEmailAddress() . '.'];
+
+			return $records;
+		}
+
+			/*
+				Read from DigitalOcean's own nameserver rather than from the
+				doctl listing, whose columns do not carry a CAA record's tag,
+				so a second run adds only what the first left out.  Each comes
+				back as `0 issue "letsencrypt.org"`; returned as `issue
+				letsencrypt.org`.
+			*/
+
+		public function existingCAARecords() {
+			$name_servers = $this->globals->NameServers();
+			$output = trim((string) shell_exec('dig +short CAA ' . escapeshellarg($this->domain) . ' @' . escapeshellarg($name_servers[0]) . ' 2>/dev/null'));
+
+			$records = [];
+
+			foreach(preg_split('/\R/', $output) as $line) {
+				if(preg_match('/^\d+\s+(issue|issuewild|iodef)\s+"([^"]*)"/', trim($line), $matches)) {
+					$records[] = $matches[1] . ' ' . rtrim($matches[2], '.');
+				}
+			}
+
+			return $records;
 		}
 		
 		public function userConfirmApacheConf() {
@@ -791,6 +833,99 @@ Error: POST https://api.digitalocean.com/v2/domains/sortwords.com/records: 422 (
 			return TRUE;
 		}
 		
+		public function databaseExists() {
+			$statement = $this->db_link->prepare('SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = ?');
+			$statement->bind_param('s', $this->host);
+			$statement->execute();
+
+			return (bool) $statement->get_result()->fetch_row();
+		}
+
+			/*
+				The site's primary entry: the one Entry assigned under nothing
+				(Childid 0), which the ORM finds every page of the site from,
+				and whose Title, Subtitle and Code the front page, the header
+				and the policies print.  clonefrom.sql carries none, so a site
+				installed without one answered every address with a 404.
+
+				Asked for, never assumed -- the title is the site's to choose.
+				Arguments four to six answer the questions for a scripted run.
+				The code is offered from the title and the domain's ending,
+				"Autonomy Books" on .com becoming AutonomyBooks.com, which is
+				how every site's primary entry has been named.  Kept when one
+				exists.
+			*/
+
+		public function buildPrimaryEntry() {
+			if(!$this->databaseExists()) {
+				print('No database `' . $this->host . '`, so no primary entry was made.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
+			$this->db_link->select_db($this->host);
+
+			$existing = $this->db_link->query('SELECT COUNT(*) FROM Entry JOIN Assignment ON Assignment.Parentid = Entry.id AND Assignment.Childid = 0')->fetch_row();
+
+			if((int) $existing[0] > 0) {
+				print('The primary entry for `' . $this->host . '` already exists; kept as it is.' . PHP_EOL . PHP_EOL);
+
+				return TRUE;
+			}
+
+			$title = $this->promptText(['message'=>'Site title, for the primary entry (you can change this later with modify.php)', 'argv_index'=>4]);
+
+			if(!strlen($title)) {
+				print('No title given, so no primary entry was made.  Run this again to make one.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
+			$subtitle = $this->promptText(['message'=>'Site subtitle, may be empty (you can change this later with modify.php)', 'argv_index'=>5]);
+
+			$domain_parts = explode('.', $this->domain);
+			$suggested_code = preg_replace('/[^A-Za-z0-9-]/', '', $title) . '.' . end($domain_parts);
+
+			$code = $this->promptText(['message'=>'Code for the primary entry (you can change this later with modify.php)', 'argv_index'=>6, 'default'=>$suggested_code]);
+
+			$statement = $this->db_link->prepare('INSERT INTO Entry (Title, Subtitle, ListTitle, ListTitleSortKey, Code, Publish, OriginalCreationDate, LastModificationDate) VALUES (?, ?, ?, ?, ?, 1, NOW(), NOW())');
+			$statement->bind_param('sssss', $title, $subtitle, $title, $title, $code);
+			$statement->execute();
+
+			$entry_id = (int) $this->db_link->insert_id;
+
+			if(!$entry_id) {
+				print('The primary entry could NOT be written.' . PHP_EOL . PHP_EOL);
+
+				return FALSE;
+			}
+
+			$statement = $this->db_link->prepare('INSERT INTO Assignment (Parentid, Childid, OriginalCreationDate, LastModificationDate) VALUES (?, 0, NOW(), NOW())');
+			$statement->bind_param('i', $entry_id);
+			$statement->execute();
+
+			print('Made the primary entry: ' . $title . ($subtitle !== '' ? ' : ' . $subtitle : '') . ' (' . $code . ', Entry ' . $entry_id . ').' . PHP_EOL . PHP_EOL);
+
+			return TRUE;
+		}
+
+		public function promptText($args) {
+			$default = isset($args['default']) ? $args['default'] : '';
+
+			print($args['message'] . ($default !== '' ? ' [' . $default . ']' : '') . ': ');
+
+			if(array_key_exists($args['argv_index'], $this->argv)) {
+				$answer = trim($this->argv[$args['argv_index']]);
+				print($answer . PHP_EOL);
+			} else {
+				$answer = trim((string) fgets($this->handle));
+			}
+
+			print(PHP_EOL);
+
+			return ($answer === '') ? $default : $answer;
+		}
+
 		public function buildDatabase() {
 			print("Building " . $this->host . " database." . PHP_EOL . PHP_EOL);
 			

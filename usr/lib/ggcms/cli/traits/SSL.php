@@ -610,31 +610,51 @@
 		}
 		
 		public function getLetsEncryptRenewal443($args) {
-			$file_location = $args['file_location'];
-			
-			$lets_encrypt_renewal_443_contents = file($file_location);
-			
-			$lets_encrypt_renewal_443_contents[0] = str_replace(' mod_ssl.c', '', $lets_encrypt_renewal_443_contents[0]);
-			$lets_encrypt_renewal_443_contents[1] = str_replace(' *:443', '', $lets_encrypt_renewal_443_contents[1]);
-			
-			$xml = implode('', $lets_encrypt_renewal_443_contents);
-			
-			$xml = str_replace('${APACHE_LOG_DIR}', '/var/log/apache2', $xml);
-			
-			return $this->getLetsEncryptRenewalFormatting(['xml'=>$xml]);
+			return $this->getLetsEncryptRenewalFormatting(['xml'=>$this->vhostAsXML(['file_location'=>$args['file_location']])]);
 		}
 		
 		public function getLetsEncryptRenewal80($args) {
-			$file_location = $args['file_location'];
-			
-			$lets_encrypt_renewal_80_contents = file($file_location);
-			
-			$lets_encrypt_renewal_80_contents[0] = str_replace(' *:80', '', $lets_encrypt_renewal_80_contents[0]);
-			
-			$xml = implode('', $lets_encrypt_renewal_80_contents);
-			$xml = str_replace('${APACHE_LOG_DIR}', '/var/log/apache2', $xml);
-			
-			return $this->getLetsEncryptRenewalFormatting(['xml'=>$xml]);
+			return $this->getLetsEncryptRenewalFormatting(['xml'=>$this->vhostAsXML(['file_location'=>$args['file_location']])]);
+		}
+
+			/*
+				A vhost is not XML, so it is made into some before DOMDocument
+				reads it: only the VirtualHost element and the directives
+				inside it, with the address stripped from its opening tag.
+
+				This used to strip a literal " *:80" and " *:443", and the
+				vhosts have been on 8080 and 8443 since nginx went in front --
+				so every site's check failed, with a page of parser warnings,
+				and the comments that explain the redirect added more: one of
+				them mentions https://www.<site>, which an XML parser takes for
+				an element that never closes.
+			*/
+
+		public function vhostAsXML($args) {
+			$lines = [];
+			$inside = FALSE;
+
+			foreach((array) @file($args['file_location']) as $line) {
+				$line = trim($line);
+
+				if(preg_match('/^<VirtualHost[\s>]/i', $line)) {
+					$inside = TRUE;
+					$lines[] = '<VirtualHost>';
+					continue;
+				}
+
+				if(preg_match('/^<\/VirtualHost>/i', $line)) {
+					$lines[] = '</VirtualHost>';
+					break;
+				}
+
+				if($inside && $line !== '' && $line[0] !== '#') {
+					$lines[] = htmlspecialchars($line, ENT_NOQUOTES | ENT_XML1, 'UTF-8');
+				}
+			}
+
+			return str_replace('${APACHE_LOG_DIR}', '/var/log/apache2', implode("
+", $lines));
 		}
 		
 		public function getLetsEncryptRenewalFormatting($args) {
@@ -648,7 +668,7 @@
 			$nodes = $dom->getElementsByTagName('VirtualHost');
 			$node = $nodes[0];
 			
-			$node_lines = explode(PHP_EOL, $node->nodeValue);
+			$node_lines = preg_split('/\R/', (string) $node->nodeValue);
 			
 			foreach($node_lines as &$node_line) {
 				$node_line = trim($node_line);
