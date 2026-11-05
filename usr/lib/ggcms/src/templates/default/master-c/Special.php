@@ -6,34 +6,8 @@
 
 	ggreq('modules/spacing.php');
 	
-	ggreq('modules/html/text.php');
-	$text = new module_text;
-	
-	ggreq('modules/html/form.php');
-	$form = new module_form;
-	
-	ggreq('modules/html/divider.php');
-	$divider = new module_divider;
-	
-	ggreq('modules/html/table.php');
-	$table = new module_table;
-	
-	ggreq('modules/html/list/generic.php');
-	$generic_list = new module_genericlist;
-	
 	ggreq('modules/html/header.php');
 	$header = new module_header;
-	
-			// Basic Divider Arguments
-		
-		// -------------------------------------------------------------
-	
-	$divider_padding_start_args = [
-		'class'=>'margin-5px padding-5px',
-	];
-	
-	$divider_end_args = [
-	];
 	
 			// Display Header
 		
@@ -78,45 +52,12 @@
 	
 	$header->display($return_to_master_c_args);
 	
-			// Display Form Dividers
+			// Display Results
 		
 		// -------------------------------------------------------------
 	
-	$divider_padding_start_args = [
-		'class'=>'horizontal-center width-70percent margin-top-5px border-2px',
-	];
-	
-	$divider->displaystart($divider_padding_start_args);
-	
-			// Display Form Elements : Start
-		
-		// -------------------------------------------------------------
-	
-	$start_form_args = [
-		'action'=>0,
-		'method'=>'post',
-		'files'=>0,
-		'formclass'=>'margin-0px',
-	];
-	
-	$form->StartForm($start_form_args);
-	
-			// Display Form Elements : Fields
-		
-		// -------------------------------------------------------------
-	
-	$divider_fields_args = [
-		'class'=>'horizontal-center width-100percent margin-top-5px margin-bottom-5px',
-	];
-	
-	$divider->displaystart($divider_fields_args);
-	
-	print('<p class="horizontal-left margin-5px font-family-tahoma">');
-	print($this->results);
-	print('</p>');
-	
-	$divider_end_args = [
-	];
-	$divider->displayend($divider_end_args);
+	ggreq('modules/html/master-c-special-results.php');
+	$special_results = new module_mastercspecialresults(['that'=>$this]);
+	$special_results->Display();
 	
 ?>
