@@ -28,7 +28,20 @@
 		public $answer_type;
 		public $formatted_records;
 		public $source_filename;
-		
+
+			/*
+				No database selected.  DBAccess connects to the domain's own
+				database, which is right for every tool that works on a site
+				that exists -- and fatal here, the one tool whose job is to
+				create it: mysqli throws "Unknown database" before the first
+				question about building it is asked.  Everything after this
+				names its database, or runs the mysql client itself.
+			*/
+
+		public function setMySQLArgs() {
+			return $this->db_link = ggcms_mysqli('');
+		}
+
 		public function installDomain() {
 			$this->setHandle();
 			$this->bannerMessage();
