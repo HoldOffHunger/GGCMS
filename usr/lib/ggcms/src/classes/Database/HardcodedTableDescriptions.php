@@ -2109,6 +2109,70 @@
 			];
 		}
 		
+		public function HardcodedTable_Price() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'PriceValue' => [
+					'Type' => 'decimal(10,2)',
+					'TypeBase' => 'decimal',
+					'TypeAttribute' => '10,2',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0.00',
+					'Extra' => '',
+				],
+				
+				'Currency' => [
+					'Type' => "enum('USD','EUR','GBP','CAD','AUD')",
+					'TypeBase' => 'enum',
+					'TypeAttribute' => "'USD','EUR','GBP','CAD','AUD'",
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 'USD',
+					'Extra' => '',
+				],
+				
+				'Entryid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+		
 		public function HardcodedTable_Quote() {
 			return [
 				'id' => [

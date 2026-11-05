@@ -604,6 +604,7 @@
 				'ImageTranslation',
 				'Tag',
 				'Link',
+				'Price',
 				'EventDate',
 				'AvailabilityDateRange',
 				'Association',

@@ -326,6 +326,7 @@
 				'ImageTranslation'=>FALSE,
 				'Tag'=>TRUE,
 				'Link'=>TRUE,
+				'Price'=>FALSE,
 				'EventDate'=>TRUE,
 				'Association'=>TRUE,
 				'Definition'=>FALSE,

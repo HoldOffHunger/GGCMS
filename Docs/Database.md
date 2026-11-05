@@ -124,12 +124,19 @@ What the schema uses now:
 | `varchar(39)` | 2 | IP addresses — exactly the IPv6 maximum |
 | `mediumtext` | 2 | |
 | `binary(32)` | 1 | a token |
+| `enum(...)` | 2 | a short fixed list: `EntryPermission.Permission`, `Price.Currency` |
+| `decimal(10,2)` | 1 | money: `Price.PriceValue` |
 
 Guidance for new columns, consistent with the above:
 
 * **Ids and anything you will `SUM()`, `MAX()` or `COUNT()`: `int`.** Aggregate
   functions do not work on `VARCHAR`, and an index over integers is the fastest
   thing MySQL does.
+* **Money: `decimal(10,2)`, never `float` or `double`.** A float cannot hold
+  0.10 exactly, and a price that is a cent out is wrong. The currency goes
+  beside it as an `enum` of ISO 4217 codes; `modify.php` reads that list from
+  the table description, so a currency is added in the schema and the
+  description and nowhere else.
 * **Booleans: `tinyint(1)`.** Note this is what `BOOLEAN` is an alias for, and
   that it really stores 0–255 — validate rather than trusting the type.
 * **Anything security-bearing: `binary(x)`.** Read it with `SELECT HEX(field)`

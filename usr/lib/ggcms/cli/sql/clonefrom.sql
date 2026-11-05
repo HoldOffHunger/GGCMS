@@ -955,6 +955,34 @@ LOCK TABLES `PrimaryHostRecord` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `Price`
+--
+
+DROP TABLE IF EXISTS `Price`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `Price` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `PriceValue` decimal(10,2) NOT NULL DEFAULT '0.00',
+  `Currency` enum('USD','EUR','GBP','CAD','AUD') NOT NULL DEFAULT 'USD',
+  `Entryid` int NOT NULL DEFAULT '0',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Entryid` (`Entryid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Price`
+--
+
+LOCK TABLES `Price` WRITE;
+/*!40000 ALTER TABLE `Price` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Price` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `Quote`
 --
 

@@ -704,6 +704,7 @@
 				'quote'=>['Quote', 'quote_'],
 				'tag'=>['Tag', 'tag_'],
 				'link'=>['Link', 'link_'],
+				'price'=>['PriceValue', 'price_'],
 				'eventdate'=>['EventDate', 'eventdate_'],
 				'definition'=>['Definition', 'definition_'],
 				'entrytranslation'=>['EntryTranslation', 'entrytranslation_'],

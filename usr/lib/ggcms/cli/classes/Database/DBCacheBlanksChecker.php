@@ -172,6 +172,7 @@
 				'Image',
 				'ImageTranslation',
 				'Link',
+				'Price',
 				'Quote',
 				'Tag',
 				'TextBody',

@@ -77,6 +77,10 @@
 			return FALSE;
 		}
 		
+		public function Price_enabled() {
+			return FALSE;
+		}
+		
 		public function Quote_enabled() {
 			return FALSE;
 		}

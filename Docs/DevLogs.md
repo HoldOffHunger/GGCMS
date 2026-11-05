@@ -7,7 +7,25 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
-## 2026, November 4
+## 2026, November 5
+
+- Entries can have a price. `Price` is a new child table, beside `Tag` and
+  `Link`: `PriceValue decimal(10,2)` and `Currency enum('USD','EUR','GBP',
+  'CAD','AUD')`. AutonomyBooks is the first site to sell from its own pages
+  rather than send buyers to eBay, and Google Merchant Center will only list
+  a book whose link lands on a page where it can be bought. Each book is to be
+  an entry under `/books/`, made by `modify_entry.php` with its price, photos
+  and eBay link, so the table is wired through the whole of `modify.php`'s
+  pipeline and its form rather than kept as a side file. It is off for every
+  site but AutonomyBooks, in `child_types/enabled.php` and
+  `ShowModifiableFields()`.
+
+- The form's currency select always comes back with a currency chosen, so a
+  row left without an amount would have saved as a price of nothing.
+  `PrepareRecordForSaving_Price()` blanks such a row's currency so the
+  ordinary empty-row rule passes it over. It blanks rather than drops,
+  because the rows are matched to their ids by position.
+
 
 - Small originals can now be upscaled with Real-ESRGAN on a desktop GPU,
   through three tools shaped like the compression pipeline:

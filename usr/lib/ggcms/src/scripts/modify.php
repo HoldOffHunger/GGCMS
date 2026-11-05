@@ -51,6 +51,8 @@
 		public $imagetranslation_unset;
 		public $tag_unset;
 		public $link_unset;
+		public $price;
+		public $price_unset;
 		public $eventdate_unset;
 		public $association_unset;
 		public $availabilitydaterange_unset;
@@ -512,6 +514,10 @@
 				$set_results = FALSE;
 			}
 			
+			if(!$this->SetRecordFromQuery_Price()) {
+				$set_results = FALSE;
+			}
+			
 			if(!$this->SetRecordFromQuery_EventDate()) {
 				$set_results = FALSE;
 			}
@@ -578,6 +584,10 @@
 				$cleanse_results = FALSE;
 			}
 			
+			if(!$this->CleanseRecordFromQuery_Price()) {
+				$cleanse_results = FALSE;
+			}
+			
 			if(!$this->CleanseRecordFromQuery_EventDate()) {
 				$cleanse_results = FALSE;
 			}
@@ -637,6 +647,10 @@
 			}
 			
 			if(!$this->ValidateRecordForSaving_Link()) {
+				$save_results = FALSE;
+			}
+			
+			if(!$this->ValidateRecordForSaving_Price()) {
 				$save_results = FALSE;
 			}
 			
@@ -703,6 +717,10 @@
 			}
 			
 			if(!$this->PrepareRecordForSaving_Link()) {
+				$prepare_results = FALSE;
+			}
+			
+			if(!$this->PrepareRecordForSaving_Price()) {
 				$prepare_results = FALSE;
 			}
 			
@@ -806,6 +824,11 @@
 			if(!$this->SaveRecordFromQuery_Link()) {
 				$save_results = FALSE;
 				$this->errors[] = ['There was a problem with saving the Link.'];
+			}
+			
+			if(!$this->SaveRecordFromQuery_Price()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Price.'];
 			}
 			
 			if(!$this->SaveRecordFromQuery_EventDate()) {
@@ -998,6 +1021,7 @@
 				'ImageTranslation'=>['Title'],
 				'Tag'=>['Tag'],
 				'Link'=>['URL'],
+				'Price'=>['PriceValue'],
 				'EventDate'=>['Title'],
 				'Association'=>['ChosenEntryid'],	# was Childid, an Assignment column; a re-pointed association went unrecorded
 		#		'AvailabilityDateRange'=>'',
@@ -1052,6 +1076,11 @@
 			if(!$this->SaveRecordFromQuery_Link()) {
 				$save_results = FALSE;
 				$this->errors[] = ['There was a problem with saving the Link.'];
+			}
+			
+			if(!$this->SaveRecordFromQuery_Price()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Price.'];
 			}
 			
 			if(!$this->SaveRecordFromQuery_EventDate()) {
@@ -1259,6 +1288,10 @@
 			}
 			
 			if(!$this->FormatSavedRecordFromQuery_Link()) {
+				$format_results = FALSE;
+			}
+			
+			if(!$this->FormatSavedRecordFromQuery_Price()) {
 				$format_results = FALSE;
 			}
 			
@@ -1654,6 +1687,29 @@
 					'Title',
 					'URL',
 					'Language',
+				],
+			];
+			return $this->CleanseRecordFromQuery($cleanse_record_from_query_args);
+		}
+		
+		public function SetRecordFromQuery_Price() {
+			$this->price_unset = $this->price;
+			$set_record_from_query_args = [
+				'variablename'=>'price',
+				'objectdefinition'=>[
+					'PriceValue',
+					'price_Currency',
+				],
+			];
+			return $this->SetRecordFromQuery($set_record_from_query_args);
+		}
+		
+		public function CleanseRecordFromQuery_Price() {
+			$cleanse_record_from_query_args = [
+				'variablename'=>'price',
+				'datastructure'=>[
+					'PriceValue',
+					'Currency',
 				],
 			];
 			return $this->CleanseRecordFromQuery($cleanse_record_from_query_args);
@@ -2137,6 +2193,51 @@
 			}
 			
 			return $validation_results;
+		}
+		
+			/*
+				A plain amount, as PriceValue's decimal(10,2) holds it: up to
+				eight whole digits and two after the point, with no currency
+				sign or thousands separator, which MySQL would quietly turn
+				into a different number.  A blank amount is a blank row and is
+				left to PrepareRecordForSaving_Price().
+			*/
+		
+		public function ValidateRecordForSaving_Price() {
+			$validation_results = TRUE;
+			$currencies = $this->PriceCurrencies();
+			
+			foreach ((array)$this->price as $price) {
+				$amount = trim((string)$price['PriceValue']);
+				
+				if(!strlen($amount)) {
+					continue;
+				}
+				
+				if(!preg_match('/^\d{1,8}(\.\d{1,2})?$/', $amount)) {
+					$this->errors[] = ['Prices must be a plain amount, like 12.50, with no currency sign or commas.'];
+					$validation_results = FALSE;
+				}
+				
+				if(!in_array($price['Currency'], $currencies, TRUE)) {
+					$this->errors[] = ['Prices must be in one of these currencies: ' . implode(', ', $currencies) . '.'];
+					$validation_results = FALSE;
+				}
+			}
+			
+			return $validation_results;
+		}
+		
+			/*
+				The currencies a Price may be in, read from the Currency enum
+				in Price's table description, so the list is kept in one
+				place beside the schema rather than again here.
+			*/
+		
+		public function PriceCurrencies() {
+			$description = $this->handler->db_access->GetRecordDescription(['type'=>'Price']);
+			
+			return explode(',', str_replace("'", '', $description['Currency']['TypeAttribute']));
 		}
 		
 		public function ValidateRecordForSaving_EventDate() {
@@ -2679,6 +2780,33 @@
 			return TRUE;
 		}
 		
+			/*
+				The currency is a select and always comes back chosen, so a
+				row left without an amount would otherwise look filled in and
+				be saved as a price of nothing.  Blanking its currency too
+				lets SaveRecordFromQuery_Base() pass it over like any other
+				empty row.  It is blanked rather than dropped, because the
+				rows are matched to their ids by position.
+			*/
+		
+		public function PrepareRecordForSaving_Price() {
+			$prices = [];
+			
+			foreach ((array)$this->price as $price) {
+				$price['PriceValue'] = trim((string)$price['PriceValue']);
+				
+				if(!strlen($price['PriceValue'])) {
+					$price['Currency'] = '';
+				}
+				
+				$prices[] = $price;
+			}
+			
+			$this->price = $prices;
+			
+			return TRUE;
+		}
+		
 		public function PrepareRecordForSaving_EventDate() {
 			$this->eventdate_unprepared = $this->eventdate;
 			
@@ -3189,6 +3317,15 @@
 			return $this->SaveRecordFromQuery_Base($save_record_from_query_args);
 		}
 		
+		public function SaveRecordFromQuery_Price() {
+			$save_record_from_query_args = [
+				'objectname'=>'price',
+				'objecttype'=>'Price',
+			];
+			
+			return $this->SaveRecordFromQuery_Base($save_record_from_query_args);
+		}
+		
 		public function SaveRecordFromQuery_EventDate() {
 			$save_record_from_query_args = [
 				'objectname'=>'eventdate',
@@ -3348,6 +3485,15 @@
 			$format_args = [
 				'recordtype'=>'link',
 				'recordfields'=>['Title', 'Description', 'URL', 'Language'],
+			];
+			
+			return $this->FormatSavedRecordFromQuery_Base($format_args);
+		}
+		
+		public function FormatSavedRecordFromQuery_Price() {
+			$format_args = [
+				'recordtype'=>'price',
+				'recordfields'=>['PriceValue', 'Currency'],
 			];
 			
 			return $this->FormatSavedRecordFromQuery_Base($format_args);
@@ -3559,6 +3705,10 @@
 			
 			if($modifiable_fields['Link']) {
 				$elements[] = 'Link';
+			}
+			
+			if($modifiable_fields['Price']) {
+				$elements[] = 'Price';
 			}
 			
 			if($modifiable_fields['EventDate']) {
@@ -3791,6 +3941,7 @@
 				$image_hint = 'If submitting for a new person record, submit that person\'s portraits and indicate in the Title or Description the site where the image came from.  If submitting text somewhere else, make sure to identify the proper copyright-holder of the image in the Title or the Description.  Creative-Commons-licensed material is encouraged.';
 				$tag_hint = 'You may submit optional tags associated with this submission here.';
 				$link_hint = 'You may submit a link associated with this submission here.  If submitting a person record, it is recommended that you include a Wikipedia link, if available.';
+				$price_hint = 'The price this is offered at, as a plain amount like 12.50, and its currency.';
 				$event_date_hint = 'You may set a negative value, for instance, "-571-00-00", to indicate the year 571 BCE.';
 				$association_hint = 'Select the author here, and if necessary, add additional people records for co-authors, translators, editors, and the like.';
 				$publish_hint = 'If checked, this will be publicly available, otherwise, it will not be publicly available, and only visible to admin and the user who created it.';
@@ -3810,6 +3961,7 @@
 				'Image'=>$image_hint,
 				'Tag'=>$tag_hint,
 				'Link'=>$link_hint,
+				'Price'=>$price_hint,
 				'Event Date'=>$event_date_hint,
 				'Association'=>$association_hint,
 				'Publish'=>$publish_hint,

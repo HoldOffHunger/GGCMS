@@ -203,6 +203,7 @@
 				'Image Translation'=>'image-translation',
 				'Tag'=>'tag',
 				'Link'=>'link',
+				'Price'=>'price',
 				'Event Date'=>'event-date',
 				'Association'=>'association',
 				'Definition'=>'definition',

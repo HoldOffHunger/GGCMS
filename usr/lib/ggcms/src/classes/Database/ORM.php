@@ -22,6 +22,7 @@
 				'ImageTranslation'=>'imagetranslation',
 				'Tag'=>'tag',
 				'Link'=>'link',
+				'Price'=>'price',
 				'EventDate'=>'eventdate',
 				'AvailabilityDateRange'=>'availabilitydaterange',
 				'Assignment'=>'assignment',
@@ -43,6 +44,7 @@
 				'ImageTranslation'=>'imagetranslation',
 				'Tag'=>'tag',
 				'Link'=>'link',
+				'Price'=>'price',
 				'EventDate'=>'eventdate',
 				'Association'=>'association',
 				'AvailabilityDateRange'=>'availabilitydaterange',
@@ -62,6 +64,7 @@
 				'ImageTranslation',
 				'Tag',
 				'Link',
+				'Price',
 				'EventDate',
 				'AvailabilityDateRange',
 				'Association',
@@ -86,6 +89,10 @@
 				case 'Association':
 				case 'Definition':
 					$recordtype = $field;
+					break;
+				case 'PriceValue':
+				case 'Currency':
+					$recordtype = 'Price';
 					break;
 				case 'AvailabilityStart':
 				case 'AvailabilityEnd':
