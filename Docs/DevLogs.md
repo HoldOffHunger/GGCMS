@@ -9,6 +9,17 @@ live installation rather than estimated.
 
 ## 2026, November 4
 
+- Small originals can now be upscaled with Real-ESRGAN on a desktop GPU,
+  through three tools shaped like the compression pipeline:
+  `export_upscale_candidates.php`, `upscale_export_locally.php` and
+  `import_upscaled_images.php`. An original under 1000 pixels is shown to the
+  reader at its own size, because the engine never enlarges the standard
+  image, so the import remakes the standard and icon from the new original
+  with the engine's own resize and rewrites all the stored dimensions. The
+  detail is invented, so every installed file is recorded in `upscaled.tsv`.
+  The local half was run on a test batch; the server halves have not yet been
+  run against a live site.
+
 - Twenty-seven "metric has returned to an acceptable level" mails from the
   database cluster's monitors were load hovering at a threshold, not a fault.
   The cluster had been up 23 days, backups and the confirm check passed, and

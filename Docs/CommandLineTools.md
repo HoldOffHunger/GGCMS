@@ -688,6 +688,9 @@ the stretch of modify.php the `image-upload-move` regression lifts out and runs.
 | `export_image_candidates.php` | Packages the files worth compressing, for another machine |
 | `compress_export_locally.php` | Compresses such a batch; runs anywhere with cores |
 | `import_compressed_images.php` | Re-checks returned files and installs the ones that pass |
+| `export_upscale_candidates.php` | Packages the originals too small to be worth looking at, for a machine with a GPU |
+| `upscale_export_locally.php` | Upscales such a batch with Real-ESRGAN; runs anywhere with Vulkan |
+| `import_upscaled_images.php` | Re-checks returned originals, remakes their standard and icon, rewrites the dimensions |
 
 The images are the largest thing on this host and the only large thing with no
 other copy of it. `/srv/ggcms` is 6.0 GB, of which revoltlib's image directory
@@ -1164,6 +1167,71 @@ child never returns, which looks exactly like a slow encode and is not.
 `/var/www/ggcms_cli_directories.php`, because it is meant to run on a machine
 with no GGCMS installation. It works its paths out from `__DIR__` instead, and
 needs no database, no domain and no configuration.
+
+### Upscaling small originals
+
+The same export, work elsewhere, re-check and install shape, pointed the
+other way: at originals too small rather than too large. The work is
+Real-ESRGAN, a generative network in a portable ncnn-vulkan build — one
+executable and a `models/` folder, from
+<https://github.com/xinntao/Real-ESRGAN/releases>. It runs on any GPU with
+Vulkan; a GTX 1070 Ti takes four to five seconds a file.
+
+```bash
+# on the server -- dry by default, lists what would go
+export_upscale_candidates.php masereelgroup.com
+export_upscale_candidates.php masereelgroup.com --to=/mnt/nyc01/upscale1 --apply
+
+# fetch it, then on the machine with the card
+upscale_export_locally.php upscale1 --upscaler=/path/to/realesrgan-ncnn-vulkan
+#   or set GGCMS_UPSCALER once; --model=realesrgan-x4plus-anime for line art
+
+# look at upscaled/ by eye, send it back, then on the server
+import_upscaled_images.php masereelgroup.com --from=/mnt/nyc01/upscale1
+import_upscaled_images.php masereelgroup.com --from=/mnt/nyc01/upscale1 --apply
+```
+
+**The detail is invented, not recovered.** On a woodcut or a poster that is
+very nearly free. On a photograph of a real person it can return someone
+subtly not quite them. So every installed file goes into
+`upscaled.tsv` beside the compression ledger, with the model and the size it
+came from, and the export reads that ledger so nothing is upscaled twice.
+
+**What counts as too small.** The engine makes the standard image by fitting
+the original inside 1000×1000 and never enlarges, so an original under 1000 on
+its longer side is shown to the reader at its own size. That is `--below`'s
+default. `--min-side=150` keeps out the ornaments and bullets that are small
+on purpose.
+
+**It touches three files, not one.** Replacing only the original would leave
+the standard image — the one on the page — as small as it was. The import
+remakes the standard and the icon from the new original with the engine's own
+`makeStandardImage()` and `makeIcon()`, through `SimpleImages`, so it cannot
+drift from what an upload would have produced. A variant that comes out at the
+size it already is is left alone. All three files are staged first and renamed
+only once they all exist, then every dimension column that moved is rewritten
+in one `UPDATE`, and the row cache is invalidated before the page cache is
+flushed — as `shrink_images.php` does.
+
+The import refuses, rather than installs, anything where:
+
+| Check | Because |
+|---|---|
+| no backup holds this original at its current size | it is the only copy of what the picture really looked like |
+| the Image row is gone or names another file | there is nothing to correct, or the wrong thing would be |
+| the live file no longer matches the manifest hash | the result answers a question about a file that no longer exists |
+| the returned file does not match its recorded hash | a truncated JPEG is frequently still a valid JPEG |
+| it is not larger, or not the same shape within 1% | the stored dimensions would describe a different picture |
+| a JPEG came back as a PNG or the reverse | `FileName` is not changing, so the extension has to keep telling the truth |
+
+The local half also refuses JPEGs carrying an EXIF rotation: the upscaler
+neither reads nor keeps the tag, so its output would be the stored, sideways
+picture. GIFs are not exported at all, since most worth upscaling are
+animations and the upscaler keeps only the first frame.
+
+Restoring an upscaled image from backup puts the files back but not the
+dimensions. The original's old size is in the ledger's `from` column, and its
+standard was the same size, since both were under 1000.
 
 ## Notes for anyone adding a tool
 
