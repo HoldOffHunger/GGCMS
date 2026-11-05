@@ -342,6 +342,16 @@
 			return TRUE;
 		}
 		
+			/*
+				Only a site that sells things has a return policy.  Off here,
+				so return-policy.php is a 404 everywhere until a site's own
+				globals turn it on.
+			*/
+		
+		public function ReturnPolicyEnabled() {
+			return FALSE;
+		}
+		
 						// Config
 						// -------------------------------------------------------------------
 						
@@ -526,6 +536,24 @@
 					],
 					'enabled'=>$this->MainMenu_Enabled_CodeOfConduct(),
 				],
+				'returnpolicy'=>[
+					'url'=>$this->MainMenu_URL_ReturnPolicy(),
+					'text'=>[
+						'en'=>'Return Policy',
+						'de'=>'Rückgaberecht',
+						'es'=>'Política de devoluciones',
+						'fr'=>'Politique de retour',
+						'ja'=>'返品ポリシー',
+						'it'=>'Politica di reso',
+						'nl'=>'Retourbeleid',
+						'pl'=>'Polityka zwrotów',
+						'pt'=>'Política de devolução',
+						'ru'=>'Правила возврата',
+						'tr'=>'İade politikası',
+						'zh'=>'退货政策',
+					],
+					'enabled'=>$this->MainMenu_Enabled_ReturnPolicy(),
+				],
 				'login'=>[
 					'url'=>$this->MainMenu_URL_Login(),
 					'text'=>[
@@ -600,6 +628,10 @@
 			return '/codeofconduct.php';
 		}
 		
+		public function MainMenu_URL_ReturnPolicy() {
+			return '/return-policy.php';
+		}
+		
 		public function MainMenu_URL_Login() {
 			return '/login.php';
 		}
@@ -659,6 +691,16 @@
 		
 		public function MainMenu_Enabled_CodeOfConduct() {
 			return FALSE;
+		}
+		
+			/*
+				Follows the script itself: a site with no return policy
+				answers /return-policy.php with a 404, so it must not link
+				to it either.
+			*/
+		
+		public function MainMenu_Enabled_ReturnPolicy() {
+			return $this->ReturnPolicyEnabled();
 		}
 		
 		public function MainMenu_Enabled_Login() {

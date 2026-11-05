@@ -112,6 +112,14 @@
 				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'Privacy', 'url'=>$primary_url . '/privacy.php', 'text'=>$privacy_content_text]);
 			}
 			
+			if(!empty($this->globals->mainmenu['returnpolicy']['enabled'])) {
+				$display_text .= $url_divider;
+				
+				$return_policy_content_text = $this->DisplayBottomNavigation_Links_ReturnPolicyText();
+				
+				$display_text .= $this->DisplayBottomNavigation_Link(['current'=>$this_page === 'ReturnPolicy', 'url'=>$primary_url . $this->globals->mainmenu['returnpolicy']['url'], 'text'=>$return_policy_content_text]);
+			}
+			
 			$extra_link = $this->globals->SiteLinks_ExtraURL();
 			
 			if($extra_link) {
@@ -148,6 +156,10 @@
 		
 		public function DisplayBottomNavigation_Links_PrivacyText() {
 			return $this->globals->mainmenu['privacypolicy']['text'][$this->language_object->getLanguageCode()];
+		}
+		
+		public function DisplayBottomNavigation_Links_ReturnPolicyText() {
+			return $this->globals->mainmenu['returnpolicy']['text'][$this->language_object->getLanguageCode()];
 		}
 	}
 
