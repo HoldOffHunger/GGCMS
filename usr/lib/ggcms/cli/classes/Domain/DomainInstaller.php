@@ -906,6 +906,30 @@
 
 			print('Made the primary entry: ' . $title . ($subtitle !== '' ? ' : ' . $subtitle : '') . ' (' . $code . ', Entry ' . $entry_id . ').' . PHP_EOL . PHP_EOL);
 
+			$this->flushPageCache();
+
+			return TRUE;
+		}
+
+			/*
+				Anything the site served before it had a primary entry is in
+				the page cache as a page with no title -- autonomybooks.com's
+				front page said "Untitled" for that reason -- and nginx serves
+				the cached file without asking the engine.  So the site's
+				cache goes, under both names, the moment its entry exists.
+			*/
+
+		public function flushPageCache() {
+			ggreq('classes/Cache/PageCache.php');
+
+			$page_cache = new PageCache(['handler'=>NULL]);
+
+			foreach([$this->domain, 'www.' . $this->domain] as $host) {
+				$page_cache->FlushDomain(['domain'=>$host]);
+			}
+
+			print('Cleared the page cache for ' . $this->domain . ' (' . count($page_cache->RemovedFiles()) . ' file(s)).' . PHP_EOL . PHP_EOL);
+
 			return TRUE;
 		}
 
