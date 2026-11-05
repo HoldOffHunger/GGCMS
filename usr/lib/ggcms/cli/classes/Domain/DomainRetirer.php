@@ -131,11 +131,11 @@
 
 			$this->archive_paths = array_values(array_filter($candidates, 'file_exists'));
 
-			$this->discard_paths = array_values(array_filter([
+			$this->discard_paths = array_values(array_filter(array_merge([
 				'/mnt/nyc01/ggcms_cache/pages/' . $domain . '/',
 				'/mnt/nyc01/ggcms_cache/pages/www.' . $domain . '/',
 				'/mnt/nyc01/ggcms_cache/mysql_db_file_cache/' . $domain . '/',
-			], 'file_exists'));
+			], $this->documentCacheDirectories()), 'file_exists'));
 
 			$this->enabled_sites = array_values(array_filter([
 				$domain,

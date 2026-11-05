@@ -828,6 +828,18 @@
 				print('Created directory owned by ' . $this->defaultWebServerUser() . ': ' . $directory . PHP_EOL);
 			}
 			
+				/*
+					755 and -p, like the format folders they sit in, so a rerun
+					over a site that already has some of them is harmless.
+				*/
+			
+			foreach($this->documentCacheDirectories() as $directory) {
+				shell_exec('mkdir --mode=755 -p ' . escapeshellarg($directory));
+				shell_exec($chown_command_base . escapeshellarg($directory));
+				
+				print('Document cache directory owned by ' . $this->defaultWebServerUser() . ': ' . $directory . PHP_EOL);
+			}
+			
 			print("Successfully built " . $this->host . " directories." . PHP_EOL . PHP_EOL);
 			
 			return TRUE;

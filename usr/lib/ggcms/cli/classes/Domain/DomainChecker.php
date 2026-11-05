@@ -481,6 +481,21 @@
 				}
 			}
 			
+				// The document cache's folders are 755 like the format folders around them, so presence and owner only
+			
+			foreach($this->documentCacheDirectories() as $directory) {
+				if(!is_dir($directory)) {
+					$errors[] = 'missing dir `' . $directory . '`';
+					continue;
+				}
+				
+				$owner_username = posix_getpwuid(fileowner($directory))['name'];
+				
+				if($owner_username !== $default_user) {
+					$errors[] = 'incorrect owner of `' . $directory . '`, ' . $default_user . ' vs. ' . $owner_username;
+				}
+			}
+			
 			$this->DisplaySuccessFailResults(['errors'=>$errors]);
 			
 			/*
