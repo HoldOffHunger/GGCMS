@@ -100,6 +100,20 @@ A page wrongly served from cache is a correctness bug that can show one
 visitor's view to another. A page wrongly *not* cached costs only what the site
 costs today. When in doubt, do not cache.
 
+### Permalinks: the one hit PHP serves
+
+A permalink, `website.com/?id=N` with N an Assignment id, has a query string,
+so nginx never answers it from the tree, and it cannot: only the database knows
+which page N is. `HandlerRedirects::handlePermalinkRedirect` repairs the request
+to the entry's own path, which leaves no query string, and
+`PageCache::ServeCachedPage` then answers it from that path's cached file under
+the same conditions as writing. A permalink costs one Assignment lookup instead
+of a render. One that misses renders the canonical page and writes its cache for
+both addresses.
+
+Until 8 November 2026 permalinks were resolved and then dropped: each one
+rendered the front page, uncached, and crawlers asked for hundreds an hour.
+
 **The minimum-length check earns its place.** earthfluent.com currently returns
 a 334-byte stub with a `200` status. `error_reporting(0)` means it fails
 silently and looks identical to a working page from outside. Without that

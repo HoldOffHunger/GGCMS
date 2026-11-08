@@ -242,6 +242,48 @@
 			$this->assertFalse($page_cache->WriteCache(['output'=>'short']), 'an uncacheable page is not written');
 		}
 
+		public function testServeCachedPage() {
+			$page_cache = $this->newPageCache([]);
+
+			$this->assertFalse($page_cache->ServeCachedPage(), 'nothing cached yet');
+
+			$page_cache->WriteCache(['output'=>$this->htmlPage()]);
+
+			ob_start();
+			$served = $page_cache->ServeCachedPage();
+			$printed = ob_get_clean();
+
+			$this->assertTrue($served);
+			$this->assertSame($this->htmlPage(), $printed);
+			$this->assertTrue($page_cache->handler->served_from_page_cache);
+			$this->assertFalse($page_cache->WriteCache(['output'=>$printed]), 'a page served from its file is not written back over it');
+
+			$refusals = [
+				'a query string left'=>function() { $_SERVER['QUERY_STRING'] = 'page=2'; },
+				'a signed-in visitor'=>function() { $_COOKIE = ['loggedin'=>'1']; },
+				'a POST'=>function() { $_SERVER['REQUEST_METHOD'] = 'POST'; },
+			];
+
+			foreach($refusals as $why => $arrange) {
+				$_SERVER['QUERY_STRING'] = '';
+				$_SERVER['REQUEST_METHOD'] = 'GET';
+				$_COOKIE = [];
+
+				$arrange();
+
+				ob_start();
+				$this->assertFalse($this->newPageCache([])->ServeCachedPage(), $why);
+				$this->assertSame('', ob_get_clean(), $why . ' prints nothing');
+			}
+
+			$_SERVER['QUERY_STRING'] = '';
+			$_SERVER['REQUEST_METHOD'] = 'GET';
+			$_COOKIE = [];
+
+			$this->assertFalse($this->newPageCache(['script'=>'modify.php'])->ServeCachedPage(), 'only a cacheable script');
+			$this->assertFalse($this->newPageCache(['format'=>'CSS'])->ServeCachedPage(), 'only HTML');
+		}
+
 		public function testCompressedLocation() {
 			$this->assertSame('/x/index.html.gz', $this->newPageCache([])->CompressedLocation(['location'=>'/x/index.html']));
 		}

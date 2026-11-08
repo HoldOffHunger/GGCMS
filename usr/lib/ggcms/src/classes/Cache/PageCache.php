@@ -513,6 +513,62 @@
 			return TRUE;
 		}
 
+			// Serving
+			// -------------------------------------------------
+
+			// ServeCachedPage()
+			// Tests: PageCacheTest::testServeCachedPage()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
+			/*
+				Serving is nginx's job, before PHP starts, and almost always it
+				stays that way.  This is for the one request PHP must look at
+				first: a permalink, ?id=N, which names its page only by a row in
+				the database.  Once HandlerRedirects has repaired it to the
+				entry's own path, the request is the canonical page exactly, and
+				this answers it from the same file nginx would have served.
+
+				The conditions are the writing conditions, read the same way:
+				a GET, no query string left, nobody signed in, an HTML view.  A
+				file that would not be cached today is not served either.
+			*/
+
+		public function ServeCachedPage() {
+			if($this->handler->script_format !== 'HTML') {
+				return FALSE;
+			}
+
+			if(!$this->IsCacheable_Method() || !$this->IsCacheable_NoQueryString() || !$this->IsCacheable_Anonymous()) {
+				return FALSE;
+			}
+
+			if(!$this->IsCacheable_Script()) {
+				return FALSE;
+			}
+
+			$location = $this->CacheLocation();
+
+			if($location === FALSE || !is_file($location)) {
+				return FALSE;
+			}
+
+			$page = @file_get_contents($location);
+
+			if($page === FALSE || !$this->IsCacheable_Output(['output'=>$page])) {
+				return FALSE;
+			}
+
+			if(!headers_sent()) {
+				header('Content-Type: text/html; charset=UTF-8');
+				header($this->BrowserCacheHeader());
+			}
+
+			print($page);
+
+			$this->handler->served_from_page_cache = TRUE;
+
+			return TRUE;
+		}
+
 			// Writing
 			// -------------------------------------------------
 
@@ -521,6 +577,10 @@
 			// Test file: tests/src/classes/Cache/PageCacheTest.php
 		public function WriteCache($args) {
 			$output = $args['output'];
+
+			if(!empty($this->handler->served_from_page_cache)) {
+				return FALSE;		# it came from this very file
+			}
 
 			if(!$this->IsCacheable(['output'=>$output])) {
 				return FALSE;

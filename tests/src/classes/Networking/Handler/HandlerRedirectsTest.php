@@ -20,6 +20,43 @@
 		}
 	}
 
+		// A query that answers one value for every parameter
+	class HandlerRedirectsTestQuery {
+		public $value;
+
+		public function __construct($value) {
+			$this->value = $value;
+		}
+
+		public function Parameter($args) {
+			return $this->value;
+		}
+	}
+
+		// Records what a permalink asked handleRedirect for, and repairs or sends as told
+	class HandlerRedirectsTestPermalinks extends HandlerRedirects {
+		public $sent = [];
+		public $repair = TRUE;
+		public $from_cache = TRUE;
+
+		public function handleRedirect() {
+			$this->sent[] = $this->handler->redirect_url;
+
+			if($this->repair) {
+				$this->handler->repair_count = 1;
+				$this->handler->redirect_url = '';
+
+				return FALSE;
+			}
+
+			return TRUE;
+		}
+
+		public function ServePermalinkFromCache() {
+			return $this->from_cache;
+		}
+	}
+
 	class HandlerRedirectsTest extends GGCMSTestCase {
 		protected function setUp(): void {
 			parent::setUp();
@@ -208,6 +245,74 @@
 				$this->assertTrue($redirects->RepairInsteadOfRedirect(['url'=>$target]), $target);
 				$this->assertSame(['path'=>$path, 'query'=>$query], $redirects->repaired, $target);
 			}
+		}
+
+		public function testPermalinkId() {
+			$redirects = $this->newRedirects();
+
+			$cases = [
+				['123', 123],
+				[45460, 45460],
+				['0', 0],
+				['', 0],
+				[NULL, 0],
+				['abc', 0],
+				['12abc', 0],
+				['-5', 0],
+				[' 5', 0],
+				['1.5', 0],
+				[['1'], 0],
+			];
+
+			foreach($cases as [$value, $expected]) {
+				$redirects->handler->query = new HandlerRedirectsTestQuery($value);
+
+				$this->assertSame($expected, $redirects->PermalinkId(), 'id ' . var_export($value, TRUE));
+			}
+		}
+
+			/*
+				A permalink is repaired to its entry and, once repaired, offered
+				to the page cache.  Until 8 November 2026 its address was worked
+				out and dropped, and the front page answered instead.
+			*/
+
+		public function testHandlePermalinkRedirect() {
+			$handler = $this->newWithoutConstructor(['class'=>'Handler']);
+			$handler->db_access = new class { public function DBEnd() { return TRUE; } };
+
+			$redirects = new HandlerRedirectsTestPermalinks(['handler'=>$handler]);
+
+			$_GET = ['id'=>'45460'];
+			$handler->permalink_url = '';
+
+			$this->assertFalse($redirects->handlePermalinkRedirect(), 'no permalink, nothing to do');
+			$this->assertSame([], $redirects->sent);
+
+			$handler->permalink_url = 'https://example.com/english/myth/';
+			$handler->repair_count = 0;
+
+			$this->assertTrue($redirects->handlePermalinkRedirect(), 'repaired and served from the cache');
+			$this->assertSame(['https://example.com/english/myth/'], $redirects->sent, 'id itself is not carried over');
+			$this->assertSame('', $handler->permalink_url, 'acted on once');
+
+			$redirects->sent = [];
+			$redirects->from_cache = FALSE;
+			$handler->permalink_url = 'https://example.com/english/myth/';
+			$handler->repair_count = 0;
+			$_GET = ['id'=>'45460', 'action'=>'browse', 'page'=>'2'];
+
+			$this->assertFalse($redirects->handlePermalinkRedirect(), 'repaired but not cached: the chain carries on and renders it');
+			$this->assertSame(['https://example.com/english/myth/?page=2'], $redirects->sent, 'other parameters travel, action does not');
+
+			$redirects->sent = [];
+			$redirects->repair = FALSE;
+			$handler->permalink_url = 'https://example.com/english/myth/?action=Edit';
+			$handler->repair_count = 0;
+			$_GET = ['id'=>'45460', 'page'=>'2'];
+
+			$this->assertTrue($redirects->handlePermalinkRedirect(), 'sent as a redirect where a site does not repair');
+			$this->assertSame(['https://example.com/english/myth/?action=Edit&page=2'], $redirects->sent);
 		}
 
 		public function testRedirectsToSelf() {

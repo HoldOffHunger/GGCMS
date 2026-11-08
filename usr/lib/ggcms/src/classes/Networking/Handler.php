@@ -48,6 +48,8 @@
 		public $original_redirect_url;
 		public $repair_count;
 		public $repaired_to;
+		public $permalink_url;
+		public $served_from_page_cache;
 		public $error_404;
 		public $user_tracking;
 		public $redirects;
@@ -572,7 +574,11 @@
 			if(!$this->ValidateReferrals()) {
 				return FALSE;
 			}
-			
+
+			if($this->redirects->handlePermalinkRedirect()) {
+				return FALSE;
+			}
+
 			if($this->redirects->handleMailTo()) {
 				return FALSE;
 			}

@@ -1039,14 +1039,128 @@
 			return TRUE;
 		}
 		
+		/*
+			A permalink is any page with ?id=N, where N is an Assignment id --
+			website.com/?id=123 -- and it stands for that assignment's entry
+			wherever the entry lives now.
+
+			Until 8 November 2026 this worked out the entry's address and then
+			dropped it.  BuildRedirect left it in redirect_url, nothing sent it,
+			and the next handler to redirect wrote over it, so every permalink
+			was answered with the page it was sent to: usually the front page,
+			with a query string, so never from the page cache.  Crawlers were
+			asking for 413 different permalinks an hour on earthfluent, and
+			each one paid for a full front-page render.
+
+			The address is kept here and acted on by handlePermalinkRedirect,
+			in the redirect chain, where a redirect can be sent or repaired.
+		*/
+
 		public function CheckPermalinkRedirect() {
-			$permalink_id = (int)$this->handler->query->Parameter(['parameter'=>'id']);
-			
+			$this->handler->permalink_url = '';
+
+			$permalink_id = $this->PermalinkId();
+
+			if(!$permalink_id) {
+				return TRUE;
+			}
+
+			$this->handler->redirect_url = '';
+
 			if($this->PermalinkRedirect(['permalink_id'=>$permalink_id])) {
+				$this->handler->permalink_url = (string)$this->handler->redirect_url;
+				$this->handler->redirect_url = '';
+
 				return FALSE;
 			}
-			
+
 			return TRUE;
+		}
+
+			// PermalinkId()
+			// Tests: HandlerRedirectsTest::testPermalinkId()
+			// Test file: tests/src/classes/Networking/Handler/HandlerRedirectsTest.php
+			/*
+				Digits, or nothing.  An id that is not a number is ignored
+				entirely rather than read as one: (int) made '12abc' a permalink
+				to assignment 12, and logged 'abc' as a bad permalink 0.
+			*/
+
+		public function PermalinkId() {
+			$id = $this->handler->query->Parameter(['parameter'=>'id']);
+
+			if(!is_string($id) && !is_int($id)) {
+				return 0;
+			}
+
+			$id = (string)$id;
+
+			if(!strlen($id) || !ctype_digit($id)) {
+				return 0;
+			}
+
+			return (int)$id;
+		}
+
+			// handlePermalinkRedirect()
+			// Tests: HandlerRedirectsTest::testHandlePermalinkRedirect()
+			// Test file: tests/src/classes/Networking/Handler/HandlerRedirectsTest.php
+			/*
+				A permalink is a link somebody meant to send, so it is answered
+				in place rather than redirected, like any other correction on
+				this host: handleRedirect repairs the request to the entry's own
+				path and the chain carries on to serve it.
+
+				The repaired request has no query string, so it is the canonical
+				page exactly, and if that page is in the cache it is served from
+				there.  A permalink then costs one Assignment lookup instead of a
+				render, and one that missed writes the canonical page's cache on
+				its way out, for the next visitor by either address.
+
+				Any other parameters travel with it, minus id itself and action,
+				which BuildRedirect has already carried over.  A permalink with
+				them is still answered, just not from the cache.
+			*/
+
+		public function handlePermalinkRedirect() {
+			$target = (string)$this->handler->permalink_url;
+
+			if(!strlen($target)) {
+				return FALSE;
+			}
+
+			$this->handler->permalink_url = '';
+
+			$remaining = $_GET;
+
+			unset($remaining['id']);
+			unset($remaining['action']);
+
+			if(count($remaining)) {
+				$target .= ((strpos($target, '?') === FALSE) ? '?' : '&') . http_build_query($remaining);
+			}
+
+			$this->handler->redirect_url = $target;
+
+			if($this->handleRedirect()) {
+				return TRUE;		# sent as a redirect: not a GET, or this site does not repair
+			}
+
+			if(!$this->handler->repair_count) {
+				return FALSE;		# already at the entry's own address
+			}
+
+			return $this->ServePermalinkFromCache();
+		}
+
+		public function ServePermalinkFromCache() {
+			if(!class_exists('PageCache', FALSE)) {
+				ggreq('classes/Cache/PageCache.php');
+			}
+
+			$page_cache = new PageCache(['handler'=>$this->handler]);
+
+			return $page_cache->ServeCachedPage();
 		}
 		
 		public function PermalinkRedirect($args) {
