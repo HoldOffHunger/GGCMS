@@ -1127,8 +1127,26 @@
 			}
 			
 			foreach($child_record_types as $child_record_index => $child_record_type) {
+					/*
+						A type the site has switched off is never read into the
+						form (ORM::GetChildRecords skips it), so it comes back
+						with nothing to keep -- and the branch below would then
+						delete every row of it the entry has.  It is skipped here
+						as it is there.  Found on 8 November 2026, when Price,
+						switched on for AutonomyBooks alone, made every Update on
+						RevoltLib a 500: RevoltLib has no Price table to delete
+						from.  A site that has the table would instead have lost
+						the rows, silently.
+					*/
+
+				$enabled_method = $child_record_index . '_enabled';
+
+				if(method_exists($this->handler->abstractglobals->child_types, $enabled_method) && !$this->handler->abstractglobals->child_types->$enabled_method()) {
+					continue;
+				}
+
 				$unformatted_saved_records = $this->$child_record_type;
-				
+
 				$record_ids_to_keep = [];
 				
 				if(is_array($unformatted_saved_records) && count($unformatted_saved_records) && !$this->delete_in_progress) {
