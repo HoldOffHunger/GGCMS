@@ -68,6 +68,7 @@
 				],
 				'xenophobia'=>[
 					'zenophobia',
+					'xenephobia',
 				],
 				'xenotropic'=>[
 					'xenotrophic',

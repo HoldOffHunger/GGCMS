@@ -1444,6 +1444,12 @@
 				'martini'=>[
 					'martina',
 				],
+				'martyred'=>[
+					'martryed',
+				],
+				'martyrs'=>[
+					'martrys',
+				],
 				'martínez'=>[
 					'martinez',
 				],
@@ -3831,6 +3837,9 @@
 					'millenaran',
 					'millennarian',
 				],
+				'millenarianism'=>[
+					'millennarianism',
+				],
 				'millenary'=>[
 					'millenery',
 				],
@@ -4209,6 +4218,7 @@
 					'minamum',
 					'minimium',
 					'mininum',
+					'minumum',
 				],
 				'mining'=>[
 					'minang',
@@ -5793,6 +5803,7 @@
 					'monopoaly',
 					'monopoely',
 					'monopolly',
+					'monoply',
 				],
 				'monopropellant'=>[
 					'monopropelant',

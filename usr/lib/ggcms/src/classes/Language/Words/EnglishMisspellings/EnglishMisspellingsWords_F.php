@@ -388,6 +388,7 @@
 				],
 				'fanaticism'=>[
 					'fanatism',
+					'fanatacism',
 				],
 				'fancier'=>[
 					'fanceir',
@@ -6702,6 +6703,7 @@
 				],
 				'fulfillment'=>[
 					'lulfilllnellt',
+					'fullfillment',
 				],
 				'fulgently'=>[
 					'fulgentally',
@@ -6786,9 +6788,15 @@
 				'functionary'=>[
 					'functionery',
 				],
+				'functioning'=>[
+					'functionning',
+				],
 				'functionless'=>[
 					'functionles',
 					'functionlesss',
+				],
+				'functions'=>[
+					'fuctions',
 				],
 				'fundamental'=>[
 					'fundametal',

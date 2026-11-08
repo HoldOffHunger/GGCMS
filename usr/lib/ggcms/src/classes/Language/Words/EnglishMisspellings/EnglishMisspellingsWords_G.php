@@ -832,6 +832,7 @@
 					'geneology',
 					'genology',
 					'genelogy',
+					'geneaology',
 				],
 				'genera or genre'=>[
 					'genra',
@@ -876,6 +877,7 @@
 					'generalaly',
 					'generalely',
 					'generallly',
+					'generallv',
 				],
 				'generationally'=>[
 					'generationalally',
@@ -3462,6 +3464,7 @@
 					'govorment',
 					'govrenment',
 					'governmant',
+					'govermnent',
 				],
 				'governmental'=>[
 					'govermental',

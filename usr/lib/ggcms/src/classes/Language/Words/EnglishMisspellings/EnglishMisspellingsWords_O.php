@@ -1637,6 +1637,7 @@
 					'opportuinities',
 					'opportunites',
 					'oppourtunities',
+					'oppurtunities',
 				],
 				'opportunity'=>[
 					'opertunity',

@@ -1603,6 +1603,7 @@
 				],
 				'degrees'=>[
 					'degress',
+					'degreees',
 				],
 				'degression'=>[
 					'degresion',
@@ -2074,6 +2075,7 @@
 					'democratica1',
 					'democratical',
 					'democratio', 'dernocratic',
+					'democractic',
 				],
 				'demographic'=>[
 					'demographical',
@@ -2895,6 +2897,9 @@
 				],
 				'deserve'=>[
 					'diserve',
+				],
+				'deserves'=>[
+					'deserces',
 				],
 				'desexualization'=>[
 					'desexaulization',
@@ -3787,6 +3792,9 @@
 				'dichotomousness'=>[
 					'dichotomousnes',
 				],
+				'dichotomy'=>[
+					'dicotomy',
+				],
 				'dichroic'=>[
 					'dichoric',
 				],
@@ -3965,6 +3973,7 @@
 					'differnt',
 					'diffrent',
 					'difrent',
+					'differenet',
 				],
 				'differentiable'=>[
 					'differantiable',
@@ -4006,10 +4015,12 @@
 					'difficult difficult',
 					'difficult difficult difficult',
 					'dificult',
+					'diflicult',
 				],
 				'difficulties'=>[
 					'difficultites',
 					'dificulties',
+					'difflculties',
 				],
 				'difficulty'=>[
 					'dificult',
@@ -4544,6 +4555,7 @@
 					'directely',
 					'directlly',
 					'driectly',
+					'directiy',
 				],
 				'directness'=>[
 					'directnes',
@@ -4739,6 +4751,7 @@
 				'disappeared'=>[
 					'disapeared',
 					'dissapeared',
+					'dissappeared',
 				],
 				'disappearing'=>[
 					'disapearing',
@@ -4766,6 +4779,7 @@
 				'disappointing'=>[
 					'disapointing',
 					'dissapointing',
+					'dissappointing',
 				],
 				'disappointingly'=>[
 					'disapointingly',
@@ -4775,6 +4789,7 @@
 					'disappointmant',
 					'dissapointment',
 					'dissappointment',
+					'disappointement',
 				],
 				'disappointments'=>[
 					'disapointments',
@@ -5809,6 +5824,9 @@
 					'disembarassing',
 					'disembarrasing',
 					'disembarrasssing',
+				],
+				'disemboweled'=>[
+					'disembowled',
 				],
 				'disembowelments'=>[
 					'disembowelmants',
@@ -7134,6 +7152,9 @@
 					'distinctivenes',
 					'distinctivenesss',
 				],
+				'distinctly'=>[
+					'distinctiy',
+				],
 				'distinctness'=>[
 					'distinctnes',
 					'distinctnesss',
@@ -7236,6 +7257,9 @@
 				],
 				'distributing'=>[
 					'distrbuting',
+				],
+				'distribution'=>[
+					'distrubution',
 				],
 				'distributively'=>[
 					'distributivly',
@@ -8839,6 +8863,9 @@
 				'dumpiness'=>[
 					'dumpines',
 					'dumpinesss',
+				],
+				'dumpster'=>[
+					'dumspter',
 				],
 				'dunderheaded'=>[
 					'dunderheded',

@@ -616,6 +616,9 @@
 				'ratatouille'=>[
 					'ratatouile',
 				],
+				'ratcheting'=>[
+					'racheting',
+				],
 				'rateable'=>[
 					'rateible',
 				],
@@ -1660,6 +1663,7 @@
 					'recogize',
 					'recongize',
 					'reconize',
+					'recongnize',
 				],
 				'recoilless'=>[
 					'recoiless',
@@ -4479,6 +4483,7 @@
 				],
 				'responsibilities'=>[
 					'responsibilites',
+					'responsabilities',
 				],
 				'responsibility'=>[
 					'reponsibility',
@@ -5109,6 +5114,7 @@
 					'revoulution- ary',
 					'revoulution-ary',
 					'revoulutionary',
+					'revoutionary',
 				],
 				'revolutionize'=>[
 					'revolustionise',

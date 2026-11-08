@@ -2044,6 +2044,7 @@
 					'themself',
 					'themselfs',
 					'themsleves',
+					'themsevles',
 				],
 				'then'=>[
 					'hten',
@@ -2443,6 +2444,9 @@
 				],
 				'thoracentesis'=>[
 					'toracentesis',
+				],
+				'thoracic'=>[
+					'thoractic',
 				],
 				'thoracoabdominal'=>[
 					'thoracicoabdominal',
@@ -3773,6 +3777,7 @@
 					'tradicional',
 					'tradional',
 					'traditonal',
+					'tradtional',
 				],
 				'traditionalism'=>[
 					'tradionalism',
@@ -3857,6 +3862,9 @@
 				'traitorousnesses'=>[
 					'traitorousneses',
 					'traitorousnessses',
+				],
+				'trajectory'=>[
+					'tragectory',
 				],
 				'tramcar'=>[
 					'tramcer',
@@ -5002,6 +5010,8 @@
 				],
 				'trotskyist'=>[
 					'trotzkyist',
+					'trotskist',
+					'trotskyst',
 				],
 				'troubadour'=>[
 					'troubador',

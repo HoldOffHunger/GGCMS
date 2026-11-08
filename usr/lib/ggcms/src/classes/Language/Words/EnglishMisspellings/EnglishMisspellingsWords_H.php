@@ -1050,6 +1050,7 @@
 				],
 				'hazardous'=>[
 					'hazerdous',
+					'hasardous',
 				],
 				'hazelnut'=>[
 					'hazlenut',
@@ -2596,6 +2597,7 @@
 					'hismelf',
 					'hisself',
 					'hmself',
+					'himslef',
 				],
 				'hindquarter'=>[
 					'hindqaurter',

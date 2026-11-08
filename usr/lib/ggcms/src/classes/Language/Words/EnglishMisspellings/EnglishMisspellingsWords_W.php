@@ -872,6 +872,9 @@
 					'welaly',
 					'wellly',
 				],
+				'weltanschauung'=>[
+					'weltanschaung',
+				],
 				'weltanschauungs'=>[
 					'weltanchauungs',
 					'weltancshauungs',
@@ -1640,6 +1643,7 @@
 					'whihc',
 					'whoch',
 					'wich',
+					'wihch',
 				],
 				'whichever'=>[
 					'wichever',
@@ -3278,6 +3282,8 @@
 					'withotu',
 					'withought',
 					'witout',
+					'whithout',
+					'wihout',
 				],
 				'without its'=>[
 					'without it\'s',
@@ -3558,6 +3564,7 @@
 				'world'=>[
 					'world world',
 					'world world world',
+					'worid',
 				],
 				'worldliness'=>[
 					'worldlinesss',
@@ -3669,6 +3676,7 @@
 					'wouid',
 					'would would',
 					'would would would',
+					'wouild',
 				],
 				'would have'=>[
 					'would of',

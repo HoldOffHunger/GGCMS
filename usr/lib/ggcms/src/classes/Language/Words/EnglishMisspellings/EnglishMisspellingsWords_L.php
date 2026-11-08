@@ -459,6 +459,7 @@
 					'language language',
 					'language language language',
 					'lanugage',
+					'languge',
 				],
 				'languages'=>[
 					'langauges',
@@ -1180,6 +1181,9 @@
 					'leaved',
 					'left left',
 					'left left left',
+				],
+				'leftist'=>[
+					'lefist',
 				],
 				'leg'=>[
 					'leg leg',
@@ -2004,6 +2008,7 @@
 				],
 				'likelihood'=>[
 					'likelyhood',
+					'liklihood',
 				],
 				'likeliness'=>[
 					'likelines',
@@ -2059,6 +2064,7 @@
 				],
 				'limited'=>[
 					'limitated',
+					'limted',
 				],
 				'limitless'=>[
 					'limitles',
@@ -3472,6 +3478,7 @@
 				],
 				'luxury'=>[
 					'luxary',
+					'luxery',
 				],
 				'lwei'=>[
 					'lwie',

@@ -547,6 +547,7 @@
 					'nessacary',
 					'nessecary',
 					'necessarry',
+					'necssary',
 				],
 				'necessitarian'=>[
 					'necessitaran',
@@ -771,6 +772,7 @@
 				],
 				'neighborhoods'=>[
 					'nieghborhoods',
+					'neighboorhoods',
 				],
 				'neighboring'=>[
 					'neigbouring',
@@ -3289,6 +3291,9 @@
 				],
 				'notoriously'=>[
 					'notorously',
+				],
+				'notwithstanding'=>[
+					'nothwithstanding',
 				],
 				'noun'=>[
 					'noun noun',

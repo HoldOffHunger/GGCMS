@@ -250,6 +250,9 @@
 				'background'=>[
 					'backround',
 				],
+				'backgrounds'=>[
+					'backrounds',
+				],
 				'backhandedly'=>[
 					'backhandedally',
 					'backhandedaly',
@@ -1139,6 +1142,9 @@
 				'battery'=>[
 					'battary',
 				],
+				'battle'=>[
+					'batle',
+				],
 				'battledress'=>[
 					'battledres',
 					'battledresss',
@@ -1873,6 +1879,9 @@
 					'beneficance',
 					'beneficience',
 				],
+				'beneficent'=>[
+					'benificent',
+				],
 				'beneficial'=>[
 					'benefical',
 					'benificial',
@@ -2117,6 +2126,7 @@
 					'btw',
 					'inbetween',
 					'vetween',
+					'hetween',
 				],
 				'between its'=>[
 					'between it\'s',
@@ -4048,11 +4058,13 @@
 				],
 				'bourgeois'=>[
 					'bourgois',
+					'bourgeios',
 				],
 				'bourgeoisie'=>[
 					'borgeoisie',
 					'bourgeoisei',
 					'bourgeoisi',
+					'bougeoisie',
 				],
 				'bourgeoisified'=>[
 					'bourgeoisifeid',
@@ -4726,6 +4738,9 @@
 				'brickfield'=>[
 					'brickfeild',
 					'brickfild',
+				],
+				'bricolage'=>[
+					'briocolage',
 				],
 				'bridgehead'=>[
 					'bridgehed',

@@ -636,6 +636,9 @@
 					'campain',
 					'capaign',
 				],
+				'campaigning'=>[
+					'campaining',
+				],
 				'campaniform'=>[
 					'companiform',
 				],
@@ -1833,6 +1836,7 @@
 					'casualites',
 					'casualtes',
 					'casulaties',
+					'casualities',
 				],
 				'casualty'=>[
 					'casaulty',
@@ -4416,6 +4420,8 @@
 					'civilsation',
 					'civilzation',
 					'cvilization',
+					'civilizaion',
+					'civlization',
 				],
 				'clabber'=>[
 					'claber',
@@ -4879,6 +4885,7 @@
 				],
 				'clearly'=>[
 					'claerly',
+					'clealy',
 				],
 				'clearness'=>[
 					'clearnes',
@@ -6847,6 +6854,7 @@
 					'comitted',
 					'commited',
 					'committted',
+					'committeed',
 				],
 				'committee'=>[
 					'comittee',
@@ -9327,6 +9335,9 @@
 				'constitute'=>[
 					'constititute',
 				],
+				'constituted'=>[
+					'consitituted',
+				],
 				'constitution'=>[
 					'consitution',
 					'constititution',
@@ -9830,6 +9841,9 @@
 				'contrastively'=>[
 					'contrastivly',
 				],
+				'contrasts'=>[
+					'constrasts',
+				],
 				'contravened'=>[
 					'contravend',
 				],
@@ -9841,6 +9855,9 @@
 				],
 				'contredanse'=>[
 					'contredance',
+				],
+				'contribution'=>[
+					'contibution',
 				],
 				'contributively'=>[
 					'contributivly',
@@ -10558,6 +10575,9 @@
 					'corparation',
 					'corperation',
 				],
+				'corporations'=>[
+					'coporations',
+				],
 				'corporeal'=>[
 					'corporel',
 				],
@@ -10996,6 +11016,8 @@
 				'could'=>[
 					'coudl',
 					'could could',
+					'conld',
+					'couid',
 				],
 				'could\'ve'=>[
 					'couldve',
@@ -11075,6 +11097,9 @@
 				],
 				'counterinstance'=>[
 					'counterinstence',
+				],
+				'counterinsurgency'=>[
+					'couterinsurgency',
 				],
 				'counterirritant'=>[
 					'counteriritant',
@@ -11215,6 +11240,7 @@
 				'country'=>[
 					'countrv',
 					'cuontry',
+					'counry',
 				],
 				'countryfied'=>[
 					'countryfeid',
@@ -11700,6 +11726,9 @@
 				'credibilities'=>[
 					'credibiliteis',
 					'credibilitis',
+				],
+				'credibility'=>[
+					'credibilty',
 				],
 				'credible'=>[
 					'credable',

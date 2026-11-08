@@ -876,6 +876,7 @@
 				'question'=>[
 					'question question',
 					'question question question',
+					'questtion',
 				],
 				'questionable'=>[
 					'questionible',
@@ -1113,6 +1114,7 @@
 					'quite quite',
 					'quite quite quite',
 					'qutie',
+					'guite',
 				],
 				'quittance'=>[
 					'quittence',

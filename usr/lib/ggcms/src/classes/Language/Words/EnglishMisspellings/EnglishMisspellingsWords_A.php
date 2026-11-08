@@ -127,6 +127,9 @@
 				'abandon'=>[
 					'abondon',
 				],
+				'abandoned'=>[
+					'abandonded',
+				],
 				'abandonment'=>[
 					'abandoment',
 					'abandonent',
@@ -410,6 +413,7 @@
 					'about about',
 					'about about about',
 					'boaut',
+					'ahout',
 				],
 				'above'=>[
 					'above above',
@@ -1645,6 +1649,7 @@
 				'accumulate'=>[
 					'acccumulate',
 					'acumulate',
+					'accumilate',
 				],
 				'accumulated'=>[
 					'acccumulated',
@@ -1949,6 +1954,9 @@
 				'aclinic'=>[
 					'aclinac',
 				],
+				'acolytes'=>[
+					'acolites',
+				],
 				'aconitic'=>[
 					'acotinic',
 				],
@@ -1970,6 +1978,7 @@
 					'acquiantence',
 					'aquaintance',
 					'aquiantance',
+					'acquintance',
 				],
 				'acquaintances'=>[
 					'acqauintances',
@@ -4713,6 +4722,7 @@
 				],
 				'altogether'=>[
 					'alltogether',
+					'altogther',
 				],
 				'altruistically'=>[
 					'altruisticaly',
@@ -5552,6 +5562,9 @@
 				'anabolitic'=>[
 					'anabolytic',
 				],
+				'anachronism'=>[
+					'anarchronism',
+				],
 				'anachronously'=>[
 					'anachronousally',
 					'anachronousaly',
@@ -5636,6 +5649,7 @@
 				'analysis'=>[
 					'anaylsis',
 					'analyzis',
+					'analyis',
 				],
 				'analyst'=>[
 					'analyist',
@@ -8894,6 +8908,7 @@
 					'arborecent',
 					'arborecsent',
 					'arboresent',
+					'aborescent',
 				],
 				'arboretum'=>[
 					'arboretium',
@@ -9201,6 +9216,9 @@
 				],
 				'aristocracy'=>[
 					'aristocrasy',
+				],
+				'aristocratic'=>[
+					'aristrocratic',
 				],
 				'arithmetic'=>[
 					'arithmatic',
@@ -11168,12 +11186,17 @@
 				'attachment'=>[
 					'attachmant',
 					'attatchment',
+					'atachment',
 				],
 				'attack'=>[
 					'attac',
+					'atack',
 				],
 				'attacked'=>[
 					'attacted',
+				],
+				'attacking'=>[
+					'atacking',
 				],
 				'attainabilities'=>[
 					'attainabiliteis',
@@ -11207,6 +11230,7 @@
 				'attempted'=>[
 					'attemped',
 					'attemted',
+					'atempted',
 				],
 				'attempting'=>[
 					'attemting',
@@ -11532,6 +11556,7 @@
 				'authoritarian'=>[
 					'authoritaran',
 					'authoritorian',
+					'autoritarian',
 				],
 				'authoritarianism'=>[
 					'authroitarianism',

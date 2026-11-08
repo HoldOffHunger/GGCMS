@@ -3468,6 +3468,9 @@
 				'inconsistence'=>[
 					'inconsistance',
 				],
+				'inconsistencies'=>[
+					'inconsistancies',
+				],
 				'inconsistency'=>[
 					'inconsistancy',
 					'inconsistensy',
@@ -3655,6 +3658,7 @@
 				'increase'=>[
 					'encrease',
 					'increse',
+					'inrease',
 				],
 				'increased'=>[
 					'incresed',
@@ -4339,6 +4343,7 @@
 				'industrial'=>[
 					'industiral',
 					'indutrial',
+					'industral',
 				],
 				'industrious'=>[
 					'industrous',
@@ -5499,6 +5504,7 @@
 				],
 				'initiated'=>[
 					'initated',
+					'intitiated',
 				],
 				'initiating'=>[
 					'initating',
@@ -5567,6 +5573,9 @@
 				],
 				'injury'=>[
 					'injuiry',
+				],
+				'injustice'=>[
+					'iniustice',
 				],
 				'inkberries'=>[
 					'inkberies',
@@ -6249,6 +6258,9 @@
 			#	'instill'=>[
 			#		'instil',
 			#	],
+				'instigators'=>[
+					'instogators',
+				],
 				'instinctively'=>[
 					'instinctivly',
 					'instinctually',

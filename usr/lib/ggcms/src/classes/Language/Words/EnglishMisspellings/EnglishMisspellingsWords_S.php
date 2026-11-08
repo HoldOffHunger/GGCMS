@@ -6327,6 +6327,7 @@
 					'signficant',
 					'significent',
 					'signifigant',
+					'signifcant',
 				],
 				'significantly'=>[
 					'signifantly',
@@ -6513,6 +6514,7 @@
 					'simpely',
 					'simpley',
 					'simplly',
+					'simpiy',
 				],
 				'simular'=>[
 					'simuler',
@@ -7914,6 +7916,7 @@
 					'societal',
 					'societary',
 					'socity',
+					'societv',
 				],
 				'sociological'=>[
 					'socialogical',
@@ -8039,6 +8042,7 @@
 				],
 				'soldiers'=>[
 					'soliders',
+					'solidiers',
 				],
 				'soldiery'=>[
 					'soldeiry',
@@ -8609,6 +8613,7 @@
 					'soveriegnty',
 					'soverignity',
 					'soverignty',
+					'sovreignty',
 				],
 				'soviet'=>[
 					'soveit',
@@ -8906,10 +8911,12 @@
 					'specfic',
 					'specif',
 					'specifical',
+					'specifc',
 				],
 				'specifically'=>[
 					'specfically',
 					'specificaly',
+					'specificially',
 				],
 				'specificity'=>[
 					'specifity',
@@ -10540,6 +10547,9 @@
 					'stereotoxic',
 					'sterotaxic',
 				],
+				'stereotypes'=>[
+					'sterotypes',
+				],
 				'stereotypic'=>[
 					'sterotypic',
 				],
@@ -10954,6 +10964,9 @@
 				'stratagem'=>[
 					'strategem',
 				],
+				'stratagems'=>[
+					'strategems',
+				],
 				'strategic'=>[
 					'startegic',
 					'stategic',
@@ -10967,6 +10980,7 @@
 					'startegy',
 					'stradegy',
 					'stratedgy',
+					'stategy',
 				],
 				'stratford'=>[
 					'stradford',
@@ -11287,6 +11301,9 @@
 				],
 				'strugglers'=>[
 					'struglers',
+				],
+				'struggles'=>[
+					'stuggles',
 				],
 				'struggling'=>[
 					'strugling',
@@ -13427,6 +13444,7 @@
 					'suppresion',
 					'supression',
 					'suppresssion',
+					'surpression',
 				],
 				'suppressive'=>[
 					'suppresive',
@@ -14884,6 +14902,9 @@
 					'syndactyaly',
 					'syndactyely',
 					'syndactylly',
+				],
+				'syndicalist'=>[
+					'syndicaist',
 				],
 				'synecdochically'=>[
 					'synecdochicalally',

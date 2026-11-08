@@ -377,6 +377,7 @@
 					'pamflet',
 					'pamphelt',
 					'pamplet',
+					'pamhlet',
 				],
 				'pamphlets'=>[
 					'pamphelts',
@@ -900,6 +901,7 @@
 					'parrallel',
 					'parrallell',
 					'perallel',
+					'paraller',
 				],
 				'parallelepiped'=>[
 					'paralelepiped',
@@ -1673,6 +1675,10 @@
 					'parliamantarian',
 					'parliamentaran',
 					'perliamentarian',
+					'parlamentarian',
+				],
+				'parliamentarianism'=>[
+					'parlimentarianism',
 				],
 				'parliamentary'=>[
 					'parlamentary',
@@ -2096,6 +2102,7 @@
 				],
 				'parties'=>[
 					'perties',
+					'parites',
 				],
 				'parting'=>[
 					'perting',
@@ -2668,6 +2675,9 @@
 				'patness'=>[
 					'patnes',
 					'patnesss',
+				],
+				'patriarchy'=>[
+					'patriachy',
 				],
 				'patrician'=>[
 					'particion',
@@ -6523,6 +6533,7 @@
 				],
 				'poisoning'=>[
 					'poisining',
+					'posioning',
 				],
 					# poisson: a name (Siméon Poisson, the Poisson distribution) and French for fish, and names stay out of this list
 			#	'poisson'=>[
@@ -7794,6 +7805,9 @@
 				],
 				'precinct'=>[
 					'precint',
+				],
+				'precincts'=>[
+					'precints',
 				],
 				'precious'=>[
 					'preaous',
@@ -9695,6 +9709,7 @@
 				],
 				'production'=>[
 					'prodcution',
+					'prodution',
 				],
 				'productively'=>[
 					'productivly',
@@ -9818,6 +9833,7 @@
 				'proffered'=>[
 					'profered',
 					'proferred',
+					'profferred',
 				],
 				'proficiency'=>[
 					'proficeincy',
@@ -9828,6 +9844,9 @@
 					'proficeint',
 					'proficiant',
 					'proficint',
+				],
+				'profit'=>[
+					'proft',
 				],
 				'profitable'=>[
 					'profitible',

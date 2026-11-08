@@ -1063,6 +1063,7 @@
 					'unconsciousely',
 					'unconsciouslly',
 					'unconscously',
+					'unconciously',
 				],
 				'unconsciousness'=>[
 					'unconciousness',
@@ -1413,6 +1414,9 @@
 				],
 				'undersecretary'=>[
 					'undersecretery',
+				],
+				'understand'=>[
+					'undertand',
 				],
 				'understandable'=>[
 					'understandible',
@@ -2191,6 +2195,9 @@
 					'unimaginativelly',
 					'unimaginativly',
 					'unimaginitively',
+				],
+				'unimpaired'=>[
+					'unimpared',
 				],
 				'unimpassioned'=>[
 					'unimpasioned',
@@ -3428,6 +3435,7 @@
 				'unprecedented'=>[
 					'unpresidented',
 					'unprecedanted',
+					'unprecidented',
 				],
 				'unprecedentedly'=>[
 					'unprecedantedly',

@@ -1203,6 +1203,10 @@
 				],
 				'elaborate'=>[
 					'elaborite',
+					'elabourate',
+				],
+				'elaborated'=>[
+					'elabourated',
 				],
 				'elaborately'=>[
 					'elaboratly',
@@ -1210,6 +1214,9 @@
 				'elaborateness'=>[
 					'elaboratenes',
 					'elaboratenesss',
+				],
+				'elaboration'=>[
+					'elabouration',
 				],
 				'elatedness'=>[
 					'elatednes',
@@ -1741,6 +1748,7 @@
 				'emissions'=>[
 					'emisions',
 					'emisssions',
+					'emmissions',
 				],
 				'emissive'=>[
 					'emisive',
@@ -2509,6 +2517,9 @@
 					'enconce',
 					'encsonce',
 					'ensonce',
+				],
+				'ensconced'=>[
+					'esconced',
 				],
 				'enshittification'=>[
 					'enshitification',
@@ -3647,6 +3658,7 @@
 					'echatological',
 					'ecshatological',
 					'eshatological',
+					'eschatalogical',
 				],
 				'eschatology'=>[
 					'echatology',
@@ -4310,6 +4322,7 @@
 				],
 				'everything'=>[
 					'evervthing',
+					'everthing',
 				],
 				'evidence'=>[
 					'evidance',
@@ -5113,6 +5126,7 @@
 					'experience experience experience',
 					'exprience',
 					'experince',
+					'experiece',
 				],
 				'experienceable'=>[
 					'experiencable',
