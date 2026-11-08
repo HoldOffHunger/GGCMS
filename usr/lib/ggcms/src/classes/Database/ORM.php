@@ -1820,24 +1820,36 @@
 				if($order_by === 'RAND()') {
 					$order_by_sql = 'RAND()';
 				} else {
-					$order_by_sql = 'Entry1.' . $order_by;
+					$order_by_sql = 'RankEntry.' . $order_by;
 				}
 			} else {
-				$order_by_sql = 'Entry1.id';
+				$order_by_sql = 'RankEntry.id';
 			}
 
-			$inner = 'SELECT ' . implode(', ', $selects) . ', ';
-			$inner .= 'ROW_NUMBER() OVER (PARTITION BY Assignment1.Parentid ORDER BY ' . $order_by_sql . ') as ggcms_row_number ';
-			$inner .= 'FROM Entry AS Entry1 ';
-			$inner .= 'JOIN Assignment AS Assignment1 ON Assignment1.Parentid IN(';
+			// Rank on bare ids, then fetch whole rows for the winners only.
+			// Ranking with every Entry column selected made MySQL scan all of
+			// Entry and sort every child row at full width: earthfluent's
+			// fourteen language parents have 15,000 children between them, so
+			// keeping five apiece took thirty seconds and pinned the database
+			// at 100% CPU through November 2026.  STRAIGHT_JOIN makes it start
+			// from the Parentid index; the sort is then two integers wide.
+
+			$inner = 'SELECT RankAssignment.id AS ggcms_assignment_id, ';
+			$inner .= 'ROW_NUMBER() OVER (PARTITION BY RankAssignment.Parentid ORDER BY ' . $order_by_sql . ') AS ggcms_row_number ';
+			$inner .= 'FROM Assignment AS RankAssignment ';
+			$inner .= 'STRAIGHT_JOIN Entry AS RankEntry ON RankEntry.id = RankAssignment.Childid ';
+			$inner .= 'WHERE RankAssignment.Parentid IN(';
 			$inner .= implode(', ', array_fill(0, $parent_ids_count, '?'));
-			$inner .= ') AND Assignment1.Childid = Entry1.id ';
+			$inner .= ') ';
 
 			if($args['publish']) {
-				$inner .= 'WHERE Entry1.Publish = 1 ';
+				$inner .= 'AND RankEntry.Publish = 1 ';
 			}
 
-			$sql = 'SELECT * FROM (' . $inner . ') AS ggcms_ranked ';
+			$sql = 'SELECT ' . implode(', ', $selects) . ', ggcms_ranked.ggcms_row_number ';
+			$sql .= 'FROM (' . $inner . ') AS ggcms_ranked ';
+			$sql .= 'JOIN Assignment AS Assignment1 ON Assignment1.id = ggcms_ranked.ggcms_assignment_id ';
+			$sql .= 'JOIN Entry AS Entry1 ON Entry1.id = Assignment1.Childid ';
 
 			if($start_index && $end_index) {
 				$first_row = $start_index;
@@ -1846,7 +1858,7 @@
 				$sql .= 'WHERE ggcms_ranked.ggcms_row_number BETWEEN ' . $first_row . ' AND ' . $last_row . ' ';
 			}
 
-			$sql .= ';';
+			$sql .= 'ORDER BY Assignment1.Parentid, ggcms_ranked.ggcms_row_number;';
 
 			$child_entries = $this->handler->db_access->FillArraysFromDB([
 				'query'=>$sql,
