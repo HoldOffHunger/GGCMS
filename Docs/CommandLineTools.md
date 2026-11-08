@@ -485,10 +485,11 @@ talks to git; see [Deployment.md](Deployment.md).
 | Script | Does |
 |---|---|
 | `apply_translation_review.php` | Applies reviewed translation corrections to `EntryTranslation` |
+| `apply_spellcheck_fixes.php` | Applies reviewed AI Workers spellcheck fixes to `TextBody` |
 | `modify_entry.php` | Drives `modify.php` from a shell — creates and edits entries |
 
-The only tool here that writes content, and the only one that must never be
-scheduled. It changes what visitors read.
+These write content, and none of them may ever be scheduled. They change what
+visitors read.
 
 ```bash
 apply_translation_review.php earthfluent.com --lang=es --limit=20
@@ -520,6 +521,31 @@ After a successful `--apply` it marks those records `shipped` in the store, and
 flushes the page cache for the domain. It passes the domain to `FlushDomain()`
 explicitly, because the engine's own path reads `$_SERVER['HTTP_HOST']`, which
 does not exist in a shell — see [PageCache.md](PageCache.md).
+
+#### `apply_spellcheck_fixes.php`
+
+```bash
+apply_spellcheck_fixes.php revoltlib.com --store=/mnt/e/AIWorkers/data/tasks/task-2.review/fixes.tsv
+apply_spellcheck_fixes.php revoltlib.com --store=/mnt/e/AIWorkers/data/tasks/task-2.review/fixes.tsv --limit=100000 --apply
+```
+
+The store is the `fixes.tsv` that the AI Workers' `ggcms_spellcheck/export_fixes.py`
+writes from a reviewed task: one line per approved fix, with the letters either
+side of the typo in the sentence it was judged in. Dry by default, `--limit`
+20, `--apply` to write, exactly as `apply_translation_review.php`.
+
+The dump the spellcheck read is older than the site, so `SpellcheckFix` changes
+an occurrence only when it stands alone, sits outside every tag, and the letters
+around it (tags stripped, entities decoded, a–z and 0–9 only) still match the
+reviewed sentence. Exactly one occurrence may match; none or several and the fix
+is **skipped and reported**. A text marked Spell Check Immune is never touched.
+The fix takes the case the word had in the text unless the reviewer wrote a
+capital, so a slip that opens a sentence stays capitalized.
+
+Each text is written once, with `WordCount` and `CharacterCount` set the way
+`modify.php` sets them. After `--apply` every line attempted is marked `shipped
+<date>` or `skipped: <reason>` in the store, and the page cache is flushed for
+both hostnames, as above.
 
 #### `modify_entry.php`
 

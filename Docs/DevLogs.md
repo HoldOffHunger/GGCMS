@@ -7,6 +7,50 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 8
+
+- RevoltLib's AI Workers spellcheck finished (task 2): 18,564 typos judged in
+  7,173 texts. The 9,575 the two models agreed on and the dictionary backed
+  were each read in their sentence. 2,099 were rejected, and they were rarely
+  the models mangling a real slip. They were text written that way on
+  purpose: dialect and accents (Denisov's lisp across all of *War and Peace*,
+  Karl Ivanitch in *Boyhood*, Berkman's convicts, *Riddley Walker*), letters
+  that must stay verbatim (Sacco and Vanzetti), pre-1850 spellings, quotations
+  in other languages, words the dictionary does not know, `[sic]`, and OCR
+  spans the fix would have mangled ("wil1", "inhabi tants"). Period spelling is
+  modernised in material from 1850 on and kept before it: Godwin,
+  Wollstonecraft and Shelley keep "recal", "extacy" and "cieling".
+
+- `apply_spellcheck_fixes.php` writes the rest. It changes an occurrence only
+  where the letters around it still match the reviewed sentence, since the
+  spellcheck read an October dump. On Fumiko it applied 7,360 fixes in 2,853
+  texts and skipped 80, mostly sentences edited since. Before it ran, the table
+  was saved to `D:\GGCMS_backups\revoltlib-TextBody-before-spellfix-2026-11-08.sql.gz`.
+
+- 63 texts are now Spell Check Immune: Sacco and Vanzetti's letters and
+  Vanzetti's last statement, Moore's *Voice of the Fire* and *Jerusalem*, the
+  three Digger tracts, *Boyhood*, Ravachol's "A Narrative" and "Prolle
+  Stroll". Narrative chapters where a character's voice is a few lines of
+  dialogue (Denisov, the *Prison Memoirs*) were left checkable, because
+  immunity hides every real slip around the dialogue too.
+
+- Every modify.php Update on a site without a `Price` table was a 500.
+  Only AutonomyBooks has one, and even `clonefrom` does not. Reading child
+  records skipped a type the site has switched off, but
+  `DeleteChildRecordsForUpdate()` did not. A switched-off type comes back from
+  the form with nothing to keep, so it fell into the branch that deletes every
+  row of that type for the entry. With Price that meant a missing table; with a
+  table that exists it would have meant lost rows, silently. The delete loop now
+  checks `_enabled()` as the read does. It was found saving RevoltLib's Lissagaray,
+  Chapter 6, which had held a copy of Chapter 5's text, subtitle, code and
+  pull-quote since 2022 and now has its own.
+
+- 136 slips from the review went into the English misspelling list: each one
+  seen in two or more different sentences and five or more letters long. Left
+  out were anything pyspellchecker, English Wiktionary or the American/British
+  list counts as a word, and valid or period variants such as "cosey",
+  "fusilade" and "surplussage".
+
 ## 2026, November 5
 
 - Entries can have a price. `Price` is a new child table, beside `Tag` and
