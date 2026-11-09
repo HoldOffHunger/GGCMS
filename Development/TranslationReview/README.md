@@ -23,13 +23,13 @@ Waves shipped:
 | Language | Date | Rows changed | Announced at |
 |---|---|---|---|
 | Spanish | 29 September 2026 | 176 | `/updates/spanish-translations-corrected/` |
-| Italian | 26 October 2026 | 164 | not yet announced |
-| French | 1 November 2026 | 415 | not yet announced |
-| German | 9 November 2026 | 362 | not yet announced |
-| Portuguese | 9 November 2026 | 276 | not yet announced |
-| Dutch | 9 November 2026 | 369 | not yet announced |
-| Russian | 9 November 2026 | 156 | not yet announced |
-| Polish | 9 November 2026 | 554 | not yet announced |
+| Italian | 26 October 2026 | 164 | `/updates/translations-corrected-in-seven-languages/` |
+| French | 1 November 2026 | 415 | `/updates/translations-corrected-in-seven-languages/` |
+| German | 9 November 2026 | 362 | `/updates/translations-corrected-in-seven-languages/` |
+| Portuguese | 9 November 2026 | 276 | `/updates/translations-corrected-in-seven-languages/` |
+| Dutch | 9 November 2026 | 369 | `/updates/translations-corrected-in-seven-languages/` |
+| Russian | 9 November 2026 | 156 | `/updates/translations-corrected-in-seven-languages/` |
+| Polish | 9 November 2026 | 554 | `/updates/translations-corrected-in-seven-languages/` |
 
 The 9 November wave was five languages at once: 1,853 suspects from the local models, of which Claude confirmed or
 corrected 1,686, set aside 107 as false alarms or not worth the change, and dropped 60 whose proposal was the current
