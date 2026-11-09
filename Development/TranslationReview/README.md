@@ -23,6 +23,26 @@ Waves shipped:
 | Language | Date | Rows changed | Announced at |
 |---|---|---|---|
 | Spanish | 29 September 2026 | 176 | `/updates/spanish-translations-corrected/` |
+| Italian | 26 October 2026 | 164 | not yet announced |
+| French | 1 November 2026 | 415 | not yet announced |
+| German | 9 November 2026 | 362 | not yet announced |
+| Portuguese | 9 November 2026 | 276 | not yet announced |
+| Dutch | 9 November 2026 | 369 | not yet announced |
+| Russian | 9 November 2026 | 156 | not yet announced |
+| Polish | 9 November 2026 | 554 | not yet announced |
+
+The 9 November wave was five languages at once: 1,853 suspects from the local models, of which Claude confirmed or
+corrected 1,686, set aside 107 as false alarms or not worth the change, and dropped 60 whose proposal was the current
+text. Wherever a batch fault had left the same stray word on many rows (German `Wählerschaft`, Portuguese `México` and
+`quatrocentos`, Dutch `hockey` and `horrorfilm`), every row holding it was read, and 31 more the models had passed were
+corrected. French had shipped by the same swap on 1 November and only now was marked so.
+
+A `structural` record is skipped by `apply_translation_review.php`, so a model's `structural` that is really a plain
+fix (a number written in pieces, `zweitausend, sechzehn`) is recorded as `orthography` instead.
+
+The Italian wave was the first fed by the local models (`E:\AIWorkers\earthfluent`): 220 suspects, of which Claude
+confirmed 164 and set 56 aside as false alarms. It shipped by the guarded table swap in `E:\AIWorkers\ship\`, with the
+pages warmed on Fumiko; the old table is in `earthfluent_before_ship` on the cluster.
 
 The Spanish wave marked 177 records shipped, but one was `grave` → `grave`: a
 reviewer's "no change needed" written as a proposal. Count a wave by the rows

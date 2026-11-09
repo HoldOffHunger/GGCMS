@@ -1,0 +1,3868 @@
+# Portuguese (pt) — EarthFluent translation review
+# Confirmed 9 Nov 2026 by Claude from the local models' suspects (E:\AIWorkers\earthfluent\triage\pt.triage.txt),
+# checked against prod's dump of 1 Nov 2026, with each batch fault widened to the rows the models missed.
+# 276 records. Casing follows the English. Format: see README.md.
+
+id: 840
+entryid: 1093
+permalink: 1093
+lesson: Nouns - Animals, Part 4
+lang: pt
+english: Gerbil
+current: Gerbil
+proposed: Gerbilo
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "Gerbilo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 846
+entryid: 1101
+permalink: 1101
+lesson: Nouns - Animals, Part 6
+lang: pt
+english: Chipmunk
+current: Esquilo
+proposed: Esquilo-listrado
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Esquilo-listrado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 852
+entryid: 1108
+permalink: 1108
+lesson: Nouns - Animals, Part 7
+lang: pt
+english: Mantis
+current: louva a Deus
+proposed: Louva-a-deus
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "Louva-a-deus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 857
+entryid: 1115
+permalink: 1115
+lesson: Nouns - Animals, Part 8
+lang: pt
+english: Bat
+current: Bastão
+proposed: Morcego
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Morcego"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 870
+entryid: 1132
+permalink: 1132
+lesson: Nouns - Animals, Part 12
+lang: pt
+english: Manta Ray
+current: Arraia
+proposed: Arraia-manta
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Arraia-manta"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 894
+entryid: 1162
+permalink: 1162
+lesson: Nouns - Animals, Part 18
+lang: pt
+english: Honey Bee
+current: Abelha mel
+proposed: Abelha-melífera
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Abelha-melífera"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6475
+entryid: 8170
+permalink: 8170
+lesson: Verbs - Activity With Objects, Part 4
+lang: pt
+english: let
+current: deixei
+proposed: deixar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "deixar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6480
+entryid: 8176
+permalink: 8176
+lesson: Verbs - Activity With Objects, Part 5
+lang: pt
+english: act
+current: Aja
+proposed: agir
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "agir"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6483
+entryid: 8180
+permalink: 8180
+lesson: Verbs - Activity With Objects, Part 6
+lang: pt
+english: control
+current: ao controle
+proposed: controlar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "controlar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6487
+entryid: 8185
+permalink: 8185
+lesson: Verbs - Activity With Objects, Part 7
+lang: pt
+english: drop
+current: solta
+proposed: soltar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "soltar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6493
+entryid: 8192
+permalink: 8192
+lesson: Verbs - Activity With Objects, Part 8
+lang: pt
+english: lift
+current: lift
+proposed: levantar
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "levantar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6508
+entryid: 8211
+permalink: 8211
+lesson: Verbs - Activity With Objects, Part 12
+lang: pt
+english: lock
+current: Bloqueio
+proposed: trancar
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "trancar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6518
+entryid: 8224
+permalink: 8224
+lesson: Verbs - Activity With Objects, Part 15
+lang: pt
+english: split
+current: Dividido
+proposed: dividir
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "dividir"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6519
+entryid: 8225
+permalink: 8225
+lesson: Verbs - Activity With Objects, Part 15
+lang: pt
+english: wipe
+current: Limpe
+proposed: limpar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "limpar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6522
+entryid: 8229
+permalink: 8229
+lesson: Verbs - Activity With Objects, Part 16
+lang: pt
+english: twist
+current: torção
+proposed: torcer
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "torcer"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6532
+entryid: 8241
+permalink: 8241
+lesson: Verbs - Activity With Objects, Part 18
+lang: pt
+english: crush
+current: A paixão súbita
+proposed: esmagar
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "esmagar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6533
+entryid: 8242
+permalink: 8242
+lesson: Verbs - Activity With Objects, Part 18
+lang: pt
+english: rip
+current: Descanse em paz
+proposed: rasgar
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "rasgar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6537
+entryid: 8247
+permalink: 8247
+lesson: Verbs - General Activity, Part 1
+lang: pt
+english: see
+current: Vejo
+proposed: ver
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "ver"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6539
+entryid: 8250
+permalink: 8250
+lesson: Verbs - General Activity, Part 2
+lang: pt
+english: look
+current: Veja
+proposed: olhar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "olhar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6544
+entryid: 8256
+permalink: 8256
+lesson: Verbs - General Activity, Part 3
+lang: pt
+english: begin
+current: início
+proposed: começar
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "começar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6546
+entryid: 8259
+permalink: 8259
+lesson: Verbs - General Activity, Part 4
+lang: pt
+english: play
+current: Toque
+proposed: jogar
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "jogar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6566
+entryid: 8284
+permalink: 8284
+lesson: Verbs - General Activity, Part 9
+lang: pt
+english: apply
+current: Aplique
+proposed: aplicar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "aplicar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6567
+entryid: 8285
+permalink: 8285
+lesson: Verbs - General Activity, Part 9
+lang: pt
+english: cover
+current: cover
+proposed: cobrir
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "cobrir"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6584
+entryid: 8306
+permalink: 8306
+lesson: Verbs - General Activity, Part 13
+lang: pt
+english: save
+current: Salve 
+proposed: salvar
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "salvar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6585
+entryid: 8307
+permalink: 8307
+lesson: Verbs - General Activity, Part 13
+lang: pt
+english: tend
+current: Tende
+proposed: tender
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "tender"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6624
+entryid: 8356
+permalink: 8356
+lesson: Verbs - General Activity, Part 23
+lang: pt
+english: exceed
+current: ultrapassarem
+proposed: ultrapassar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "ultrapassar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6637
+entryid: 8372
+permalink: 8372
+lesson: Verbs - Emotional Activity, Part 2
+lang: pt
+english: suffer
+current: Sofra
+proposed: sofrer
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "sofrer"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6638
+entryid: 8374
+permalink: 8374
+lesson: Verbs - Emotional Activity, Part 3
+lang: pt
+english: miss
+current: senhorita
+proposed: sentir falta
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "sentir falta"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6652
+entryid: 8391
+permalink: 8391
+lesson: Verbs - Emotional Activity, Part 6
+lang: pt
+english: pretend
+current: faz de conta
+proposed: fingir
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "fingir"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6657
+entryid: 8397
+permalink: 8397
+lesson: Verbs - Emotional Activity, Part 7
+lang: pt
+english: hesitate
+current: Hesite
+proposed: hesitar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "hesitar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6658
+entryid: 8399
+permalink: 8399
+lesson: Verbs - Physical Activity, Part 1
+lang: pt
+english: run
+current: corre
+proposed: correr
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "correr"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6672
+entryid: 8416
+permalink: 8416
+lesson: Verbs - Physical Activity, Part 4
+lang: pt
+english: fly
+current: mosca
+proposed: voar
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "voar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6675
+entryid: 8420
+permalink: 8420
+lesson: Verbs - Physical Activity, Part 5
+lang: pt
+english: born
+current: nascermos
+proposed: nascer
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "nascer"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6698
+entryid: 8449
+permalink: 8449
+lesson: Verbs - Physical Activity, Part 11
+lang: pt
+english: lean
+current: magro
+proposed: inclinar-se
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "inclinar-se"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6699
+entryid: 8450
+permalink: 8450
+lesson: Verbs - Physical Activity, Part 11
+lang: pt
+english: roll
+current: lista
+proposed: rolar
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "rolar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6702
+entryid: 8454
+permalink: 8454
+lesson: Verbs - Physical Activity, Part 12
+lang: pt
+english: stretch
+current: esticam
+proposed: esticar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "esticar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6711
+entryid: 8465
+permalink: 8465
+lesson: Verbs - Physical Activity, Part 14
+lang: pt
+english: kick
+current: pontapé
+proposed: chutar
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "chutar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6757
+entryid: 8523
+permalink: 8523
+lesson: Verbs - Mental Activity, Part 5
+lang: pt
+english: suppose
+current: Suponha
+proposed: supor
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "supor"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6766
+entryid: 8534
+permalink: 8534
+lesson: Verbs - Mental Activity, Part 7
+lang: pt
+english: notice
+current: aviso prévio
+proposed: notar
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "notar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6769
+entryid: 8538
+permalink: 8538
+lesson: Verbs - Mental Activity, Part 8
+lang: pt
+english: study
+current: estude
+proposed: estudar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "estudar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6817
+entryid: 8598
+permalink: 8598
+lesson: Verbs - Mental Activity, Part 20
+lang: pt
+english: copy
+current: cópia de
+proposed: copiar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "copiar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6828
+entryid: 8612
+permalink: 8612
+lesson: Verbs - Social Activity, Part 3
+lang: pt
+english: meet
+current: Conheça
+proposed: conhecer
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "conhecer"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6860
+entryid: 8652
+permalink: 8652
+lesson: Verbs - Social Activity, Part 11
+lang: pt
+english: confirm
+current: confirme
+proposed: confirmar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "confirmar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6897
+entryid: 8698
+permalink: 8698
+lesson: Verbs - Social Activity, Part 20
+lang: pt
+english: comment
+current: comente
+proposed: comentar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "comentar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6901
+entryid: 8703
+permalink: 8703
+lesson: Verbs - Social Activity, Part 21
+lang: pt
+english: blame
+current: culpa
+proposed: culpar
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "culpar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6903
+entryid: 8706
+permalink: 8706
+lesson: Verbs - Social Activity, Part 22
+lang: pt
+english: dominate
+current: Reclamar
+proposed: dominar
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "dominar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6904
+entryid: 8707
+permalink: 8707
+lesson: Verbs - Social Activity, Part 22
+lang: pt
+english: engage
+current: empenhar
+proposed: envolver-se
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "envolver-se"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6908
+entryid: 8712
+permalink: 8712
+lesson: Verbs - Social Activity, Part 23
+lang: pt
+english: review
+current: Reveja
+proposed: revisar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "revisar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6964
+entryid: 8782
+permalink: 8782
+lesson: Verbs - Economic Activity, Part 1
+lang: pt
+english: work
+current: trabalhos
+proposed: trabalhar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "trabalhar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6986
+entryid: 8810
+permalink: 8810
+lesson: Verbs - Economic Activity, Part 7
+lang: pt
+english: afford
+current: proporcionar
+proposed: poder pagar
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "poder pagar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 6989
+entryid: 8814
+permalink: 8814
+lesson: Verbs - Economic Activity, Part 8
+lang: pt
+english: lack
+current: reunir
+proposed: carecer
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "carecer"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29631
+entryid: 37194
+permalink: 37194
+lesson: Nouns - Concepts, Part 5
+lang: pt
+english: action
+current: açao
+proposed: ação
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "ação"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29742
+entryid: 37332
+permalink: 37332
+lesson: Nouns - Concepts, Part 19
+lang: pt
+english: feeling
+current: sentindo-me
+proposed: sentimento
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "sentimento"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29744
+entryid: 37336
+permalink: 37336
+lesson: Nouns - Concepts, Part 20
+lang: pt
+english: look
+current: Veja
+proposed: olhar
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "olhar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29957
+entryid: 37601
+permalink: 37601
+lesson: Nouns - Concepts, Part 47
+lang: pt
+english: core
+current: testemunho
+proposed: núcleo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "núcleo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29990
+entryid: 37642
+permalink: 37642
+lesson: Nouns - Concepts, Part 51
+lang: pt
+english: pitch
+current: Pitch
+proposed: tom
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "tom"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30092
+entryid: 37770
+permalink: 37770
+lesson: Nouns - Concepts, Part 77
+lang: pt
+english: airline
+current: CIA aérea
+proposed: companhia aérea
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "companhia aérea"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30236
+entryid: 37951
+permalink: 37951
+lesson: Nouns - Measurements, Part 3
+lang: pt
+english: bottom
+current: inferior
+proposed: fundo
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "fundo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30267
+entryid: 37990
+permalink: 37990
+lesson: Nouns - Measurements, Part 7
+lang: pt
+english: age
+current: era
+proposed: idade
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "idade"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30312
+entryid: 38046
+permalink: 38046
+lesson: Nouns - Measurements, Part 13
+lang: pt
+english: evening
+current: tarde
+proposed: noite
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "noite"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30354
+entryid: 38098
+permalink: 38098
+lesson: Nouns - Measurements, Part 18
+lang: pt
+english: balance
+current: equilibrar
+proposed: equilíbrio
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "equilíbrio"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30364
+entryid: 38110
+permalink: 38110
+lesson: Nouns - Measurements, Part 19
+lang: pt
+english: beginning
+current: Começando
+proposed: começo
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "começo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30395
+entryid: 38149
+permalink: 38149
+lesson: Nouns - Measurements, Part 23
+lang: pt
+english: sequence
+current: seqüência
+proposed: sequência
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "sequência"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30424
+entryid: 38186
+permalink: 38186
+lesson: Nouns - Measurements, Part 27
+lang: pt
+english: gap
+current: Gap
+proposed: lacuna
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "lacuna"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30448
+entryid: 38215
+permalink: 38215
+lesson: Nouns - Measurements, Part 30
+lang: pt
+english: frequency
+current: freqüência
+proposed: frequência
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "frequência"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30583
+entryid: 38385
+permalink: 38385
+lesson: Nouns - People, Part 14
+lang: pt
+english: user
+current: do utilizador
+proposed: utilizador
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "utilizador"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30605
+entryid: 38411
+permalink: 38411
+lesson: Nouns - People, Part 16
+lang: pt
+english: speaker
+current: alto falante
+proposed: falante
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "falante"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30679
+entryid: 38504
+permalink: 38504
+lesson: Nouns - People, Part 26
+lang: pt
+english: prince
+current: Principe
+proposed: príncipe
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "príncipe"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30681
+entryid: 38507
+permalink: 38507
+lesson: Nouns - People, Part 26
+lang: pt
+english: dream
+current: Sonhe
+proposed: sonho
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "sonho"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30763
+entryid: 38610
+permalink: 38610
+lesson: Nouns - People, Part 37
+lang: pt
+english: female
+current: fêmea
+proposed: mulher
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "mulher"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30821
+entryid: 38682
+permalink: 38682
+lesson: Nouns - People, Part 44
+lang: pt
+english: relative
+current: relativo
+proposed: parente
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "parente"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 30927
+entryid: 38814
+permalink: 38814
+lesson: Nouns - People, Part 58
+lang: pt
+english: infant
+current: infantil
+proposed: bebê
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "bebê"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31051
+entryid: 38970
+permalink: 38970
+lesson: Nouns - People, Part 74
+lang: pt
+english: pet
+current: animal
+proposed: animal de estimação
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "animal de estimação"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31107
+entryid: 39040
+permalink: 39040
+lesson: Nouns - Society, Part 7
+lang: pt
+english: control
+current: ao controle
+proposed: controle
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "controle"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31111
+entryid: 39046
+permalink: 39046
+lesson: Nouns - Society, Part 8
+lang: pt
+english: act
+current: Aja
+proposed: ato
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "ato"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31156
+entryid: 39101
+permalink: 39101
+lesson: Nouns - Society, Part 15
+lang: pt
+english: charge
+current: carregar
+proposed: acusação
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "acusação"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31158
+entryid: 39104
+permalink: 39104
+lesson: Nouns - Society, Part 16
+lang: pt
+english: demand
+current: exigem
+proposed: demanda
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "demanda"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31210
+entryid: 39169
+permalink: 39169
+lesson: Nouns - Society, Part 29
+lang: pt
+english: review
+current: Reveja
+proposed: revisão
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "revisão"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31217
+entryid: 39178
+permalink: 39178
+lesson: Nouns - Society, Part 31
+lang: pt
+english: trial
+current: tentativas
+proposed: julgamento
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "julgamento"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31226
+entryid: 39189
+permalink: 39189
+lesson: Nouns - Society, Part 33
+lang: pt
+english: protection
+current: protecção
+proposed: proteção
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "proteção"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31229
+entryid: 39193
+permalink: 39193
+lesson: Nouns - Society, Part 34
+lang: pt
+english: play
+current: Toque
+proposed: peça
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "peça"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31232
+entryid: 39196
+permalink: 39196
+lesson: Nouns - Society, Part 34
+lang: pt
+english: comment
+current: comente
+proposed: comentário
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "comentário"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31318
+entryid: 39304
+permalink: 39304
+lesson: Nouns - Society, Part 49
+lang: pt
+english: membership
+current: Associação
+proposed: adesão
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "adesão"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31362
+entryid: 39360
+permalink: 39360
+lesson: Nouns - Society, Part 55
+lang: pt
+english: warning
+current: Atenção
+proposed: aviso
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "aviso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31469
+entryid: 39494
+permalink: 39494
+lesson: Nouns - Society, Part 69
+lang: pt
+english: custom
+current: personalizadas
+proposed: costume
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "costume"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31873
+entryid: 40001
+permalink: 40001
+lesson: Nouns - Ideas, Part 2
+lang: pt
+english: information
+current: em formação
+proposed: informação
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "informação"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31877
+entryid: 40005
+permalink: 40005
+lesson: Nouns - Ideas, Part 2
+lang: pt
+english: idea
+current: idéia
+proposed: ideia
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "ideia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31904
+entryid: 40039
+permalink: 40039
+lesson: Nouns - Ideas, Part 6
+lang: pt
+english: pattern
+current: padronizar
+proposed: padrão
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "padrão"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31906
+entryid: 40041
+permalink: 40041
+lesson: Nouns - Ideas, Part 6
+lang: pt
+english: design
+current: desenhar
+proposed: design
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "design"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 31919
+entryid: 40058
+permalink: 40058
+lesson: Nouns - Ideas, Part 8
+lang: pt
+english: answer
+current: responda
+proposed: resposta
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "resposta"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32040
+entryid: 40210
+permalink: 40210
+lesson: Nouns - Ideas, Part 25
+lang: pt
+english: self
+current: auto
+proposed: eu
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "eu"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32123
+entryid: 40314
+permalink: 40314
+lesson: Nouns - Places, Part 6
+lang: pt
+english: shop
+current: fazer compras
+proposed: loja
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "loja"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32150
+entryid: 40347
+permalink: 40347
+lesson: Nouns - Places, Part 9
+lang: pt
+english: sun
+current: dom
+proposed: sol
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "sol"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32157
+entryid: 40356
+permalink: 40356
+lesson: Nouns - Places, Part 10
+lang: pt
+english: bar
+current: Barra
+proposed: bar
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "bar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32266
+entryid: 40493
+permalink: 40493
+lesson: Nouns - Places, Part 25
+lang: pt
+english: stream
+current: corrente
+proposed: riacho
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "riacho"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32302
+entryid: 40539
+permalink: 40539
+lesson: Nouns - Places, Part 30
+lang: pt
+english: resort
+current: recorrer
+proposed: resort
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "resort"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32347
+entryid: 40595
+permalink: 40595
+lesson: Nouns - Places, Part 36
+lang: pt
+english: grave
+current: grave
+proposed: túmulo
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "túmulo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32362
+entryid: 40614
+permalink: 40614
+lesson: Nouns - Objects, Part 2
+lang: pt
+english: water
+current: agua
+proposed: água
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "água"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32367
+entryid: 40619
+permalink: 40619
+lesson: Nouns - Objects, Part 2
+lang: pt
+english: matter
+current: importam
+proposed: matéria
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "matéria"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32441
+entryid: 40712
+permalink: 40712
+lesson: Nouns - Objects, Part 12
+lang: pt
+english: press
+current: pressione
+proposed: prensa
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "prensa"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32456
+entryid: 40731
+permalink: 40731
+lesson: Nouns - Objects, Part 14
+lang: pt
+english: supply
+current: fornecem
+proposed: suprimento
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "suprimento"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32485
+entryid: 40768
+permalink: 40768
+lesson: Nouns - Objects, Part 18
+lang: pt
+english: fig
+current: FIG
+proposed: figo
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "figo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32533
+entryid: 40827
+permalink: 40827
+lesson: Nouns - Objects, Part 24
+lang: pt
+english: asset
+current: de ativos
+proposed: ativo
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "ativo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32544
+entryid: 40842
+permalink: 40842
+lesson: Nouns - Objects, Part 26
+lang: pt
+english: notice
+current: aviso prévio
+proposed: aviso
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "aviso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32674
+entryid: 41004
+permalink: 41004
+lesson: Nouns - Objects, Part 43
+lang: pt
+english: bomb
+current: bombear
+proposed: bomba
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "bomba"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32763
+entryid: 41116
+permalink: 41116
+lesson: Nouns - Objects, Part 55
+lang: pt
+english: net
+current: líquido
+proposed: rede
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "rede"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32784
+entryid: 41141
+permalink: 41141
+lesson: Nouns - Objects, Part 57
+lang: pt
+english: pot
+current: maconha
+proposed: panela
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "panela"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32832
+entryid: 41202
+permalink: 41202
+lesson: Nouns - Objects, Part 64
+lang: pt
+english: pole
+current: pólo
+proposed: poste
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "poste"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32848
+entryid: 41222
+permalink: 41222
+lesson: Nouns - Objects, Part 66
+lang: pt
+english: patch
+current: Patch
+proposed: remendo
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "remendo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32864
+entryid: 41242
+permalink: 41242
+lesson: Nouns - Objects, Part 68
+lang: pt
+english: lock
+current: Bloqueio
+proposed: fechadura
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "fechadura"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 32887
+entryid: 41270
+permalink: 41270
+lesson: Nouns - Objects, Part 71
+lang: pt
+english: roll
+current: lista
+proposed: rolo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "rolo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33115
+entryid: 41558
+permalink: 41558
+lesson: Adjectives - Quality, Part 5
+lang: pt
+english: clean
+current: limpar \ limpo
+proposed: limpo
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "limpo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33126
+entryid: 41572
+permalink: 41572
+lesson: Adjectives - Quality, Part 7
+lang: pt
+english: lucky
+current: por sorte
+proposed: sortudo
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "sortudo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33138
+entryid: 41586
+permalink: 41586
+lesson: Adjectives - Quality, Part 8
+lang: pt
+english: remote
+current: controlo remoto
+proposed: remoto
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "remoto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33139
+entryid: 41588
+permalink: 41588
+lesson: Adjectives - Quality, Part 8
+lang: pt
+english: plain
+current: avião
+proposed: simples
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "simples"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33141
+entryid: 41591
+permalink: 41591
+lesson: Adjectives - Quality, Part 9
+lang: pt
+english: tight
+current: justa
+proposed: apertado
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "apertado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33163
+entryid: 41617
+permalink: 41617
+lesson: Adjectives - Quality, Part 11
+lang: pt
+english: compact
+current: compactar
+proposed: compacto
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "compacto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33196
+entryid: 41660
+permalink: 41660
+lesson: Adjectives - Quality, Part 16
+lang: pt
+english: sour
+current: azedar
+proposed: azedo
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Priberam / Michaelis, s.v. "azedo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33201
+entryid: 41665
+permalink: 41665
+lesson: Adjectives - Quality, Part 16
+lang: pt
+english: crisp
+current: Crisp
+proposed: crocante
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "crocante"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33381
+entryid: 41891
+permalink: 41891
+lesson: Adjectives - Social, Part 7
+lang: pt
+english: friendly
+current: amigáveis
+proposed: amigável
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "amigável"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33431
+entryid: 41953
+permalink: 41953
+lesson: Adjectives - Social, Part 13
+lang: pt
+english: kind
+current: tipo
+proposed: gentil
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "gentil"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33437
+entryid: 41961
+permalink: 41961
+lesson: Adjectives - Social, Part 14
+lang: pt
+english: bold
+current: negrito
+proposed: ousado
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "ousado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33468
+entryid: 42000
+permalink: 42000
+lesson: Adjectives - Social, Part 18
+lang: pt
+english: daft
+current: Daft
+proposed: tolo
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "tolo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33499
+entryid: 42039
+permalink: 42039
+lesson: Adjectives - Social, Part 22
+lang: pt
+english: cheeky
+current: Cheeky
+proposed: atrevido
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "atrevido"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33546
+entryid: 42098
+permalink: 42098
+lesson: Adjectives - Social, Part 28
+lang: pt
+english: fussy
+current: espalhafatoso
+proposed: exigente
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "exigente"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33547
+entryid: 42099
+permalink: 42099
+lesson: Adjectives - Social, Part 28
+lang: pt
+english: arty
+current: Arty
+proposed: artístico
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "artístico"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33552
+entryid: 42105
+permalink: 42105
+lesson: Adjectives - Social, Part 29
+lang: pt
+english: gaudy
+current: Chamejante
+proposed: chamativo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "chamativo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33558
+entryid: 42113
+permalink: 42113
+lesson: Adjectives - Social, Part 30
+lang: pt
+english: sketchy
+current: esboçado
+proposed: suspeito
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "suspeito"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33560
+entryid: 42115
+permalink: 42115
+lesson: Adjectives - Social, Part 30
+lang: pt
+english: snide
+current: Esconderijo
+proposed: sarcástico
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "sarcástico"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33563
+entryid: 42119
+permalink: 42119
+lesson: Adjectives - Social, Part 30
+lang: pt
+english: skimpy
+current: Fraco
+proposed: escasso
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "escasso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33579
+entryid: 42138
+permalink: 42138
+lesson: Adjectives - Social, Part 32
+lang: pt
+english: ungainly
+current: Desagradável
+proposed: desajeitado
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "desajeitado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33585
+entryid: 42146
+permalink: 42146
+lesson: Adjectives - Social, Part 33
+lang: pt
+english: canny
+current: Canny
+proposed: astuto
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "astuto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33612
+entryid: 42181
+permalink: 42181
+lesson: Adjectives - Feeling, Part 4
+lang: pt
+english: ill
+current: eu vou
+proposed: doente
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "doente"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33643
+entryid: 42220
+permalink: 42220
+lesson: Adjectives - Feeling, Part 8
+lang: pt
+english: welcome
+current: bem vinda
+proposed: bem-vindo
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "bem-vindo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33690
+entryid: 42280
+permalink: 42280
+lesson: Adjectives - Feeling, Part 15
+lang: pt
+english: wry
+current: Wry
+proposed: irônico
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "irônico"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33706
+entryid: 42300
+permalink: 42300
+lesson: Adjectives - Feeling, Part 17
+lang: pt
+english: sane
+current: Sã
+proposed: são
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "são"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33733
+entryid: 42333
+permalink: 42333
+lesson: Adjectives - Feeling, Part 20
+lang: pt
+english: slimey
+current: Slimey
+proposed: viscoso
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "viscoso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33752
+entryid: 42358
+permalink: 42358
+lesson: Adjectives - Feeling, Part 23
+lang: pt
+english: mellow
+current: maduro
+proposed: suave
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "suave"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33760
+entryid: 42367
+permalink: 42367
+lesson: Adjectives - Feeling, Part 24
+lang: pt
+english: fuzzy
+current: Fuzzy
+proposed: confuso
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "confuso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33767
+entryid: 42375
+permalink: 42375
+lesson: Adjectives - Feeling, Part 25
+lang: pt
+english: breezy
+current: Breezy
+proposed: descontraído
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "descontraído"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33769
+entryid: 42378
+permalink: 42378
+lesson: Adjectives - Feeling, Part 26
+lang: pt
+english: zany
+current: Zany
+proposed: excêntrico
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "excêntrico"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33792
+entryid: 42408
+permalink: 42408
+lesson: Adjectives - Appearance, Part 5
+lang: pt
+english: still
+current: ainda
+proposed: parado
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "parado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33794
+entryid: 42410
+permalink: 42410
+lesson: Adjectives - Appearance, Part 5
+lang: pt
+english: round
+current: volta
+proposed: redondo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "redondo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33798
+entryid: 42416
+permalink: 42416
+lesson: Adjectives - Appearance, Part 6
+lang: pt
+english: gross
+current: Bruto
+proposed: nojento
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "nojento"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33802
+entryid: 42420
+permalink: 42420
+lesson: Adjectives - Appearance, Part 6
+lang: pt
+english: neat
+current: puro
+proposed: arrumado
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "arrumado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33822
+entryid: 42446
+permalink: 42446
+lesson: Adjectives - Appearance, Part 9
+lang: pt
+english: lean
+current: Inclinar-se
+proposed: magro
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "magro"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33836
+entryid: 42464
+permalink: 42464
+lesson: Adjectives - Appearance, Part 11
+lang: pt
+english: stout
+current: Forte
+proposed: robusto
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "robusto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33855
+entryid: 42487
+permalink: 42487
+lesson: Adjectives - Appearance, Part 13
+lang: pt
+english: homely
+current: Caseiro
+proposed: feio
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "feio"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33860
+entryid: 42493
+permalink: 42493
+lesson: Adjectives - Appearance, Part 14
+lang: pt
+english: rosey
+current: Rosey
+proposed: rosado
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "rosado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33861
+entryid: 42495
+permalink: 42495
+lesson: Adjectives - Appearance, Part 14
+lang: pt
+english: drab
+current: monótono
+proposed: sem graça
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "sem graça"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33868
+entryid: 42503
+permalink: 42503
+lesson: Adjectives - Appearance, Part 15
+lang: pt
+english: stocky
+current: Cansativo
+proposed: corpulento
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "corpulento"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33877
+entryid: 42515
+permalink: 42515
+lesson: Adjectives - Appearance, Part 16
+lang: pt
+english: chunky
+current: Chunky
+proposed: rechonchudo
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "rechonchudo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33878
+entryid: 42516
+permalink: 42516
+lesson: Adjectives - Appearance, Part 16
+lang: pt
+english: glassy
+current: Vidrado
+proposed: vítreo
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "vítreo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33886
+entryid: 42526
+permalink: 42526
+lesson: Adjectives - Appearance, Part 17
+lang: pt
+english: dumpy
+current: Dumpy
+proposed: atarracado
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "atarracado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38957
+entryid: 48817
+permalink: 48817
+lesson: Nouns - Concepts, Part 68
+lang: pt
+english: disposal
+current: disposição
+proposed: descarte
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "descarte"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39002
+entryid: 48874
+permalink: 48874
+lesson: Adjectives - Quality, Part 17
+lang: pt
+english: fiery
+current: fogosa
+proposed: ardente
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "ardente"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39010
+entryid: 48884
+permalink: 48884
+lesson: Adjectives - Quality, Part 19
+lang: pt
+english: stormy
+current: tormentoso
+proposed: tempestuoso
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "tempestuoso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39012
+entryid: 48886
+permalink: 48886
+lesson: Adjectives - Quality, Part 19
+lang: pt
+english: stale
+current: Obsoleto
+proposed: velho
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "velho"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39026
+entryid: 48904
+permalink: 48904
+lesson: Adjectives - Quality, Part 23
+lang: pt
+english: woolly
+current: Woolly
+proposed: de lã
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "de lã"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39029
+entryid: 48907
+permalink: 48907
+lesson: Adjectives - Quality, Part 23
+lang: pt
+english: grassy
+current: gramíneo
+proposed: gramado
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "gramado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39030
+entryid: 48909
+permalink: 48909
+lesson: Adjectives - Quality, Part 24
+lang: pt
+english: misty
+current: Misty
+proposed: nebuloso
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "nebuloso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39038
+entryid: 48919
+permalink: 48919
+lesson: Adjectives - Quality, Part 26
+lang: pt
+english: spiky
+current: Spiky
+proposed: espetado
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "espetado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39039
+entryid: 48920
+permalink: 48920
+lesson: Adjectives - Quality, Part 26
+lang: pt
+english: steely
+current: Aceso
+proposed: de aço
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "de aço"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39058
+entryid: 48944
+permalink: 48944
+lesson: Adjectives - Quality, Part 31
+lang: pt
+english: frilly
+current: Frilly
+proposed: com babados
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "com babados"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39059
+entryid: 48945
+permalink: 48945
+lesson: Adjectives - Quality, Part 31
+lang: pt
+english: squeaky
+current: Squeaky
+proposed: estridente
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "estridente"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39063
+entryid: 48950
+permalink: 48950
+lesson: Adjectives - Quality, Part 32
+lang: pt
+english: weedy
+current: Weedy
+proposed: franzino
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "franzino"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39066
+entryid: 48954
+permalink: 48954
+lesson: Adjectives - Quality, Part 33
+lang: pt
+english: boney
+current: Bone
+proposed: ossudo
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "ossudo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39076
+entryid: 48967
+permalink: 48967
+lesson: Nouns - Objects, Part 6
+lang: pt
+english: board
+current: borda
+proposed: tábua
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "tábua"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45107
+entryid: 56421
+permalink: 56421
+lesson: Entertainment - Music, Part 5
+lang: pt
+english: rave music
+current: música divertida
+proposed: música rave
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "música rave"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45109
+entryid: 56423
+permalink: 56423
+lesson: Entertainment - Music, Part 5
+lang: pt
+english: drum and bass
+current: tambor e baixo
+proposed: drum and bass
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "drum and bass"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45114
+entryid: 56430
+permalink: 56430
+lesson: Entertainment - Music, Part 6
+lang: pt
+english: caribbean music
+current: música dos caribe
+proposed: música caribenha
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "música caribenha"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45206
+entryid: 56545
+permalink: 56545
+lesson: Entertainment - Film, Part 4
+lang: pt
+english: scifi
+current: scifi
+proposed: ficção científica
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "ficção científica"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45209
+entryid: 56548
+permalink: 56548
+lesson: Entertainment - Film, Part 4
+lang: pt
+english: B-Movie
+current: B-Movie
+proposed: Filme B
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "Filme B"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45211
+entryid: 56552
+permalink: 56552
+lesson: Entertainment - Film, Part 5
+lang: pt
+english: dance dance revolution
+current: revolução da dança dança
+proposed: dance dance revolution
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "dance dance revolution"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45242
+entryid: 56590
+permalink: 56590
+lesson: Entertainment - Sports, Part 4
+lang: pt
+english: cricket
+current: Grilo
+proposed: críquete
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "críquete"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45245
+entryid: 56594
+permalink: 56594
+lesson: Entertainment - Sports, Part 4
+lang: pt
+english: cheerleading
+current: Cheerleading
+proposed: animação de torcida
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "animação de torcida"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45261
+entryid: 56613
+permalink: 56613
+lesson: Entertainment - Sports, Part 6
+lang: pt
+english: unicycling
+current: unicycling
+proposed: andar de monociclo
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "andar de monociclo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45268
+entryid: 56623
+permalink: 56623
+lesson: Entertainment - Gaming, Part 1
+lang: pt
+english: first-person shooter
+current: atirador em primeira pessoa
+proposed: jogo de tiro em primeira pessoa
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "jogo de tiro em primeira pessoa"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45274
+entryid: 56629
+permalink: 56629
+lesson: Entertainment - Gaming, Part 1
+lang: pt
+english: third-person shooter
+current: Atirador em terceira pessoa
+proposed: jogo de tiro em terceira pessoa
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "jogo de tiro em terceira pessoa"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45285
+entryid: 56644
+permalink: 56644
+lesson: Entertainment - Gaming, Part 3
+lang: pt
+english: dungeons and dragons
+current: masmorras e Dragões
+proposed: Dungeons & Dragons
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "Dungeons & Dragons"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45287
+entryid: 56646
+permalink: 56646
+lesson: Entertainment - Gaming, Part 3
+lang: pt
+english: open world game
+current: jogo mundial aberto
+proposed: jogo de mundo aberto
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "jogo de mundo aberto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45295
+entryid: 56656
+permalink: 56656
+lesson: Culture - Calendar, Part 1
+lang: pt
+english: March
+current: marcha
+proposed: Março
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Março"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45299
+entryid: 56662
+permalink: 56662
+lesson: Culture - Calendar, Part 2
+lang: pt
+english: May
+current: Pode
+proposed: Maio
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Maio"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45404
+entryid: 56792
+permalink: 56792
+lesson: Culture - Countries, Part 3
+lang: pt
+english: japan
+current: México
+proposed: Japão
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Japão"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45406
+entryid: 56794
+permalink: 56794
+lesson: Culture - Countries, Part 3
+lang: pt
+english: ethiopia
+current: México
+proposed: Etiópia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Etiópia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45408
+entryid: 56798
+permalink: 56798
+lesson: Culture - Countries, Part 4
+lang: pt
+english: Philippines
+current: México
+proposed: Filipinas
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Filipinas"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45410
+entryid: 56800
+permalink: 56800
+lesson: Culture - Countries, Part 4
+lang: pt
+english: Egypt
+current: México
+proposed: Egito
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Egito"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45412
+entryid: 56802
+permalink: 56802
+lesson: Culture - Countries, Part 4
+lang: pt
+english: Vietnam
+current: México
+proposed: Vietnã
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Vietnã"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45416
+entryid: 56808
+permalink: 56808
+lesson: Culture - Countries, Part 5
+lang: pt
+english: Iran
+current: México
+proposed: Irã
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Irã"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45418
+entryid: 56810
+permalink: 56810
+lesson: Culture - Countries, Part 5
+lang: pt
+english: Turkey
+current: México
+proposed: Turquia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Turquia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45420
+entryid: 56812
+permalink: 56812
+lesson: Culture - Countries, Part 5
+lang: pt
+english: Thailand
+current: México
+proposed: Tailândia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Tailândia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45422
+entryid: 56814
+permalink: 56814
+lesson: Culture - Countries, Part 5
+lang: pt
+english: Congo
+current: México
+proposed: Congo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Congo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45424
+entryid: 56818
+permalink: 56818
+lesson: Culture - Countries, Part 6
+lang: pt
+english: United Kingdom
+current: México
+proposed: Reino Unido
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Reino Unido"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45426
+entryid: 56820
+permalink: 56820
+lesson: Culture - Countries, Part 6
+lang: pt
+english: France
+current: México
+proposed: França
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "França"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45428
+entryid: 56822
+permalink: 56822
+lesson: Culture - Countries, Part 6
+lang: pt
+english: Italy
+current: México
+proposed: Itália
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Itália"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45429
+entryid: 56823
+permalink: 56823
+lesson: Culture - Countries, Part 6
+lang: pt
+english: South Africa
+current: México
+proposed: África do Sul
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "África do Sul"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45431
+entryid: 56827
+permalink: 56827
+lesson: Culture - Countries, Part 7
+lang: pt
+english: South Korea
+current: México
+proposed: Coreia do Sul
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Coreia do Sul"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45433
+entryid: 56829
+permalink: 56829
+lesson: Culture - Countries, Part 7
+lang: pt
+english: North Korea
+current: México
+proposed: Coreia do Norte
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Coreia do Norte"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45435
+entryid: 56831
+permalink: 56831
+lesson: Culture - Countries, Part 7
+lang: pt
+english: Colombia
+current: México
+proposed: Colômbia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Colômbia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45437
+entryid: 56833
+permalink: 56833
+lesson: Culture - Countries, Part 7
+lang: pt
+english: Spain
+current: México
+proposed: Espanha
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Espanha"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45439
+entryid: 56837
+permalink: 56837
+lesson: Culture - Countries, Part 8
+lang: pt
+english: Argentina
+current: México
+proposed: Argentina
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Argentina"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45441
+entryid: 56839
+permalink: 56839
+lesson: Culture - Countries, Part 8
+lang: pt
+english: Ukraine
+current: México
+proposed: Ucrânia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Ucrânia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45443
+entryid: 56841
+permalink: 56841
+lesson: Culture - Countries, Part 8
+lang: pt
+english: Algeria
+current: México
+proposed: Argélia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Argélia"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45445
+entryid: 56843
+permalink: 56843
+lesson: Culture - Countries, Part 8
+lang: pt
+english: Iraq
+current: México
+proposed: Iraque
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Iraque"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45447
+entryid: 56847
+permalink: 56847
+lesson: Culture - Countries, Part 9
+lang: pt
+english: Poland
+current: México
+proposed: Polônia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Polônia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45449
+entryid: 56849
+permalink: 56849
+lesson: Culture - Countries, Part 9
+lang: pt
+english: Canada
+current: México
+proposed: Canadá
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Canadá"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45451
+entryid: 56851
+permalink: 56851
+lesson: Culture - Countries, Part 9
+lang: pt
+english: Morocco
+current: México
+proposed: Marrocos
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Marrocos"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45453
+entryid: 56853
+permalink: 56853
+lesson: Culture - Countries, Part 9
+lang: pt
+english: Peru
+current: México
+proposed: Peru
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Peru"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45455
+entryid: 56857
+permalink: 56857
+lesson: Culture - Ethnicities, Part 1
+lang: pt
+english: chinese
+current: México
+proposed: chinês
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "chinês"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45457
+entryid: 56859
+permalink: 56859
+lesson: Culture - Ethnicities, Part 1
+lang: pt
+english: indian
+current: México
+proposed: indiano
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "indiano"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45458
+entryid: 56860
+permalink: 56860
+lesson: Culture - Ethnicities, Part 1
+lang: pt
+english: american
+current: México
+proposed: americano
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "americano"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45460
+entryid: 56862
+permalink: 56862
+lesson: Culture - Ethnicities, Part 1
+lang: pt
+english: indonesian
+current: México
+proposed: indonésio
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "indonésio"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45463
+entryid: 56867
+permalink: 56867
+lesson: Culture - Ethnicities, Part 2
+lang: pt
+english: brazilian
+current: México
+proposed: brasileiro
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "brasileiro"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45464
+entryid: 56868
+permalink: 56868
+lesson: Culture - Ethnicities, Part 2
+lang: pt
+english: pakistani
+current: México
+proposed: paquistanês
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "paquistanês"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45466
+entryid: 56870
+permalink: 56870
+lesson: Culture - Ethnicities, Part 2
+lang: pt
+english: nigerian
+current: México
+proposed: nigeriano
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "nigeriano"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45493
+entryid: 56903
+permalink: 56903
+lesson: Culture - Ethnicities, Part 5
+lang: pt
+english: Congolese
+current: Congoleses
+proposed: Congolês
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Priberam / Michaelis, s.v. "Congolês"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45544
+entryid: 56967
+permalink: 56967
+lesson: Culture - Capitals, Part 1
+lang: pt
+english: New Delhi, India
+current: Pequim, China
+proposed: Nova Deli, Índia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Nova Deli, Índia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45545
+entryid: 56969
+permalink: 56969
+lesson: Culture - Capitals, Part 1
+lang: pt
+english: Tokyo, Japan
+current: Pequim, China
+proposed: Tóquio, Japão
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Tóquio, Japão"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45547
+entryid: 56971
+permalink: 56971
+lesson: Culture - Capitals, Part 1
+lang: pt
+english: Manila, Philippines
+current: Pequim, China
+proposed: Manila, Filipinas
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Manila, Filipinas"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45550
+entryid: 56975
+permalink: 56975
+lesson: Culture - Capitals, Part 2
+lang: pt
+english: Moscow, Russia
+current: Pequim, China
+proposed: Moscou, Rússia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Moscou, Rússia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45552
+entryid: 56977
+permalink: 56977
+lesson: Culture - Capitals, Part 2
+lang: pt
+english: Cairo, Egypt
+current: Pequim, China
+proposed: Cairo, Egito
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Cairo, Egito"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45553
+entryid: 56979
+permalink: 56979
+lesson: Culture - Capitals, Part 2
+lang: pt
+english: Jakarta, Indonesia
+current: Pequim, China
+proposed: Jacarta, Indonésia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Jacarta, Indonésia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45633
+entryid: 57080
+permalink: 57080
+lesson: Culture - Politics, Part 3
+lang: pt
+english: right-wing
+current: ASA direita
+proposed: de direita
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "de direita"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45674
+entryid: 57131
+permalink: 57131
+lesson: Culture - Politics, Part 8
+lang: pt
+english: ethnicity
+current: nacionalidade
+proposed: etnia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "etnia"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45676
+entryid: 57134
+permalink: 57134
+lesson: Culture - Politics, Part 9
+lang: pt
+english: collectivism
+current: nacionalidade
+proposed: coletivismo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "coletivismo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45677
+entryid: 57136
+permalink: 57136
+lesson: Culture - Politics, Part 9
+lang: pt
+english: individualism
+current: nacionalidade
+proposed: individualismo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "individualismo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45678
+entryid: 57137
+permalink: 57137
+lesson: Culture - Politics, Part 9
+lang: pt
+english: conformity
+current: nacionalidade
+proposed: conformidade
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "conformidade"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45680
+entryid: 57139
+permalink: 57139
+lesson: Culture - Politics, Part 9
+lang: pt
+english: non-conformity
+current: nacionalidade
+proposed: inconformismo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "inconformismo"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45683
+entryid: 57143
+permalink: 57143
+lesson: Culture - Politics, Part 10
+lang: pt
+english: regionalism
+current: nacionalidade
+proposed: regionalismo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "regionalismo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45685
+entryid: 57145
+permalink: 57145
+lesson: Culture - Politics, Part 10
+lang: pt
+english: localism
+current: nacionalidade
+proposed: localismo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "localismo"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45686
+entryid: 57147
+permalink: 57147
+lesson: Culture - Politics, Part 10
+lang: pt
+english: centralization
+current: nacionalidade
+proposed: centralização
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "centralização"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45688
+entryid: 57149
+permalink: 57149
+lesson: Culture - Politics, Part 10
+lang: pt
+english: decentralization
+current: nacionalidade
+proposed: descentralização
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "descentralização"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45691
+entryid: 57153
+permalink: 57153
+lesson: Culture - Politics, Part 11
+lang: pt
+english: vote
+current: nacionalidade
+proposed: voto
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "voto"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45693
+entryid: 57155
+permalink: 57155
+lesson: Culture - Politics, Part 11
+lang: pt
+english: ballot
+current: nacionalidade
+proposed: voto
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "voto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45694
+entryid: 57157
+permalink: 57157
+lesson: Culture - Politics, Part 11
+lang: pt
+english: majority
+current: nacionalidade
+proposed: maioria
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "maioria"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45696
+entryid: 57159
+permalink: 57159
+lesson: Culture - Politics, Part 11
+lang: pt
+english: minority
+current: nacionalidade
+proposed: minoria
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "minoria"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45704
+entryid: 57169
+permalink: 57169
+lesson: Culture - Politics, Part 12
+lang: pt
+english: people
+current: sociedade
+proposed: povo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "povo"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45707
+entryid: 57173
+permalink: 57173
+lesson: Culture - Politics, Part 13
+lang: pt
+english: autocracy
+current: sociedade
+proposed: autocracia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "autocracia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45709
+entryid: 57175
+permalink: 57175
+lesson: Culture - Politics, Part 13
+lang: pt
+english: bill of rights
+current: sociedade
+proposed: declaração de direitos
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "declaração de direitos"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45710
+entryid: 57177
+permalink: 57177
+lesson: Culture - Politics, Part 13
+lang: pt
+english: partisan
+current: sociedade
+proposed: partidário
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "partidário"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45711
+entryid: 57178
+permalink: 57178
+lesson: Culture - Politics, Part 13
+lang: pt
+english: bourgeois
+current: sociedade
+proposed: burguês
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "burguês"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45714
+entryid: 57182
+permalink: 57182
+lesson: Culture - Politics, Part 14
+lang: pt
+english: law
+current: sociedade
+proposed: lei
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "lei"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45716
+entryid: 57184
+permalink: 57184
+lesson: Culture - Politics, Part 14
+lang: pt
+english: bill
+current: sociedade
+proposed: projeto de lei
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "projeto de lei"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45718
+entryid: 57186
+permalink: 57186
+lesson: Culture - Politics, Part 14
+lang: pt
+english: cabinet
+current: sociedade
+proposed: gabinete
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "gabinete"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45719
+entryid: 57188
+permalink: 57188
+lesson: Culture - Politics, Part 14
+lang: pt
+english: candidate
+current: sociedade
+proposed: candidato
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "candidato"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45722
+entryid: 57192
+permalink: 57192
+lesson: Culture - Politics, Part 15
+lang: pt
+english: caucus
+current: sociedade
+proposed: reunião partidária
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "reunião partidária"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45724
+entryid: 57194
+permalink: 57194
+lesson: Culture - Politics, Part 15
+lang: pt
+english: confederalism
+current: sociedade
+proposed: confederalismo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "confederalismo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45726
+entryid: 57196
+permalink: 57196
+lesson: Culture - Politics, Part 15
+lang: pt
+english: common law
+current: sociedade
+proposed: common law
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "common law"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45727
+entryid: 57198
+permalink: 57198
+lesson: Culture - Politics, Part 15
+lang: pt
+english: constituent
+current: sociedade
+proposed: eleitor
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "eleitor"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45730
+entryid: 57202
+permalink: 57202
+lesson: Culture - Politics, Part 16
+lang: pt
+english: constituency
+current: sociedade
+proposed: circunscrição eleitoral
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "circunscrição eleitoral"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45732
+entryid: 57204
+permalink: 57204
+lesson: Culture - Politics, Part 16
+lang: pt
+english: constitution
+current: sociedade
+proposed: constituição
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "constituição"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45734
+entryid: 57206
+permalink: 57206
+lesson: Culture - Politics, Part 16
+lang: pt
+english: demagogue
+current: sociedade
+proposed: demagogo
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "demagogo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45735
+entryid: 57208
+permalink: 57208
+lesson: Culture - Politics, Part 16
+lang: pt
+english: direct democracy
+current: sociedade
+proposed: democracia direta
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "democracia direta"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45738
+entryid: 57212
+permalink: 57212
+lesson: Culture - Politics, Part 17
+lang: pt
+english: participatory democracy
+current: sociedade
+proposed: democracia participativa
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "democracia participativa"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45740
+entryid: 57214
+permalink: 57214
+lesson: Culture - Politics, Part 17
+lang: pt
+english: dystopia
+current: sociedade
+proposed: distopia
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "distopia"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 45747
+entryid: 57223
+permalink: 57223
+lesson: Culture - Politics, Part 18
+lang: pt
+english: grass roots
+current: raizes
+proposed: base popular
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "base popular"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45753
+entryid: 57231
+permalink: 57231
+lesson: Culture - Politics, Part 19
+lang: pt
+english: house of commons
+current: casa dos comuns
+proposed: Câmara dos Comuns
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "Câmara dos Comuns"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45771
+entryid: 57253
+permalink: 57253
+lesson: Culture - Politics, Part 21
+lang: pt
+english: muckraker
+current: muckraker
+proposed: jornalista de denúncia
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "jornalista de denúncia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45786
+entryid: 57272
+permalink: 57272
+lesson: Culture - Politics, Part 23
+lang: pt
+english: lumpenproletariat
+current: lumpenproletariat
+proposed: lumpenproletariado
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "lumpenproletariado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45817
+entryid: 57311
+permalink: 57311
+lesson: Culture - Politics, Part 27
+lang: pt
+english: prime minister
+current: primeiro ministro
+proposed: primeiro-ministro
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "primeiro-ministro"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45820
+entryid: 57315
+permalink: 57315
+lesson: Culture - Politics, Part 28
+lang: pt
+english: prince
+current: Principe
+proposed: príncipe
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Priberam / Michaelis, s.v. "príncipe"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45926
+entryid: 57447
+permalink: 57447
+lesson: Culture - Politics, Part 41
+lang: pt
+english: rank and file
+current: rank and file
+proposed: base
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "base"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45956
+entryid: 57485
+permalink: 57485
+lesson: Adjectives - Numbers, Part 4
+lang: pt
+english: fifteen
+current: Translation error
+proposed: quinze
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "quinze"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45957
+entryid: 57486
+permalink: 57486
+lesson: Adjectives - Numbers, Part 4
+lang: pt
+english: sixteen
+current: Translation error
+proposed: dezesseis
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "dezesseis"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45960
+entryid: 57491
+permalink: 57491
+lesson: Adjectives - Numbers, Part 5
+lang: pt
+english: seventeen
+current: Translation error
+proposed: dezessete
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "dezessete"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45961
+entryid: 57492
+permalink: 57492
+lesson: Adjectives - Numbers, Part 5
+lang: pt
+english: eighteen
+current: Translation error
+proposed: dezoito
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "dezoito"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45963
+entryid: 57494
+permalink: 57494
+lesson: Adjectives - Numbers, Part 5
+lang: pt
+english: nineteen
+current: Translation error
+proposed: dezenove
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Priberam / Michaelis, s.v. "dezenove"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 46005
+entryid: 57547
+permalink: 57547
+lesson: Adjectives - Numbers, Part 11
+lang: pt
+english: five hundred
+current: quatrocentos
+proposed: quinhentos
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "quinhentos"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 46007
+entryid: 57549
+permalink: 57549
+lesson: Adjectives - Numbers, Part 11
+lang: pt
+english: six hundred
+current: quatrocentos
+proposed: seiscentos
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "seiscentos"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 46008
+entryid: 57551
+permalink: 57551
+lesson: Adjectives - Numbers, Part 11
+lang: pt
+english: seven hundred
+current: quatrocentos
+proposed: setecentos
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "setecentos"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 46009
+entryid: 57552
+permalink: 57552
+lesson: Adjectives - Numbers, Part 11
+lang: pt
+english: eight hundred
+current: quatrocentos
+proposed: oitocentos
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "oitocentos"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 46011
+entryid: 57555
+permalink: 57555
+lesson: Adjectives - Numbers, Part 12
+lang: pt
+english: nine hundred
+current: quatrocentos
+proposed: novecentos
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "novecentos"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 46013
+entryid: 57557
+permalink: 57557
+lesson: Adjectives - Numbers, Part 12
+lang: pt
+english: one thousand
+current: quatrocentos
+proposed: mil
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "mil"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 46014
+entryid: 57559
+permalink: 57559
+lesson: Adjectives - Numbers, Part 12
+lang: pt
+english: one thousand, one hundred
+current: quatrocentos
+proposed: mil e cem
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "mil e cem"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 46015
+entryid: 57560
+permalink: 57560
+lesson: Adjectives - Numbers, Part 12
+lang: pt
+english: one thousand, two hundred
+current: quatrocentos
+proposed: mil e duzentos
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Priberam / Michaelis, s.v. "mil e duzentos"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47608
+entryid: 59569
+permalink: 59569
+lesson: Culture - Food and Drink, Part 7
+lang: pt
+english: dip
+current: mergulho
+proposed: molho
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Priberam / Michaelis, s.v. "molho"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09

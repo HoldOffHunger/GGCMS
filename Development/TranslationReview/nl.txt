@@ -1,0 +1,5170 @@
+# Dutch (nl) — EarthFluent translation review
+# Confirmed 9 Nov 2026 by Claude from the local models' suspects (E:\AIWorkers\earthfluent\triage\nl.triage.txt),
+# checked against prod's dump of 1 Nov 2026, with each batch fault widened to the rows the models missed.
+# 369 records. Casing follows the English. Format: see README.md.
+
+id: 657
+entryid: 849
+permalink: 849
+lesson: Nouns - Animals, Part 1
+lang: nl
+english: Komodo Dragon
+current: Komodo Dragon
+proposed: Komodovaran
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "Komodovaran"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 668
+entryid: 863
+permalink: 863
+lesson: Nouns - Animals, Part 4
+lang: nl
+english: Deer
+current: Herten
+proposed: Hert
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "Hert"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 676
+entryid: 873
+permalink: 873
+lesson: Nouns - Animals, Part 6
+lang: nl
+english: Chipmunk
+current: Chipmunk
+proposed: Wangzakeekhoorn
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "Wangzakeekhoorn"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 682
+entryid: 880
+permalink: 880
+lesson: Nouns - Animals, Part 7
+lang: nl
+english: Mantis
+current: Mantis
+proposed: Bidsprinkhaan
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "Bidsprinkhaan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 686
+entryid: 885
+permalink: 885
+lesson: Nouns - Animals, Part 8
+lang: nl
+english: Bat
+current: Knuppel
+proposed: Vleermuis
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "Vleermuis"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 698
+entryid: 900
+permalink: 900
+lesson: Nouns - Animals, Part 11
+lang: nl
+english: Turkey
+current: Turkije
+proposed: Kalkoen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "Kalkoen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 705
+entryid: 914
+permalink: 914
+lesson: Nouns - Animals, Part 13
+lang: nl
+english: Panda Bear
+current: Panda beer
+proposed: Pandabeer
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "Pandabeer"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 720
+entryid: 933
+permalink: 933
+lesson: Nouns - Animals, Part 17
+lang: nl
+english: Koala Bear
+current: Koala beer
+proposed: Koala
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "Koala"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5380
+entryid: 6796
+permalink: 6796
+lesson: Verbs - Activity With Objects, Part 4
+lang: nl
+english: let
+current: laat
+proposed: laten
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "laten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5382
+entryid: 6798
+permalink: 6798
+lesson: Verbs - Activity With Objects, Part 4
+lang: nl
+english: wear
+current: slijtage
+proposed: dragen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "dragen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5383
+entryid: 6800
+permalink: 6800
+lesson: Verbs - Activity With Objects, Part 5
+lang: nl
+english: drive
+current: drive
+proposed: rijden
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "rijden"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5399
+entryid: 6820
+permalink: 6820
+lesson: Verbs - Activity With Objects, Part 9
+lang: nl
+english: deliver
+current: deliver
+proposed: bezorgen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "bezorgen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5401
+entryid: 6822
+permalink: 6822
+lesson: Verbs - Activity With Objects, Part 9
+lang: nl
+english: retain
+current: measureretain
+proposed: bewaren
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "bewaren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5419
+entryid: 6845
+permalink: 6845
+lesson: Verbs - Activity With Objects, Part 14
+lang: nl
+english: pack
+current: pak
+proposed: inpakken
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "inpakken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5420
+entryid: 6846
+permalink: 6846
+lesson: Verbs - Activity With Objects, Part 14
+lang: nl
+english: store
+current: op te slaan
+proposed: opslaan
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "opslaan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5423
+entryid: 6850
+permalink: 6850
+lesson: Verbs - Activity With Objects, Part 15
+lang: nl
+english: split
+current: spleet
+proposed: splitsen
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "splitsen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5427
+entryid: 6855
+permalink: 6855
+lesson: Verbs - Activity With Objects, Part 16
+lang: nl
+english: twist
+current: twist
+proposed: draaien
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "draaien"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5429
+entryid: 6857
+permalink: 6857
+lesson: Verbs - Activity With Objects, Part 16
+lang: nl
+english: repair
+current: insertrepair
+proposed: repareren
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "repareren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5441
+entryid: 6872
+permalink: 6872
+lesson: Verbs - Activity With Objects, Part 18
+lang: nl
+english: rip
+current: Rust in vrede
+proposed: scheuren
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "scheuren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5443
+entryid: 6875
+permalink: 6875
+lesson: Verbs - General Activity, Part 1
+lang: nl
+english: do
+current: do
+proposed: doen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "doen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5464
+entryid: 6903
+permalink: 6903
+lesson: Verbs - General Activity, Part 8
+lang: nl
+english: die
+current: dood gaan
+proposed: sterven
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "sterven"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5465
+entryid: 6904
+permalink: 6904
+lesson: Verbs - General Activity, Part 8
+lang: nl
+english: wait
+current: Wacht
+proposed: wachten
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "wachten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5468
+entryid: 6908
+permalink: 6908
+lesson: Verbs - General Activity, Part 9
+lang: nl
+english: apply
+current: van toepassing zijn
+proposed: toepassen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "toepassen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5471
+entryid: 6911
+permalink: 6911
+lesson: Verbs - General Activity, Part 9
+lang: nl
+english: cut
+current: besnoeiing
+proposed: snijden
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "snijden"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5485
+entryid: 6929
+permalink: 6929
+lesson: Verbs - General Activity, Part 13
+lang: nl
+english: finish
+current: af hebben
+proposed: afmaken
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "afmaken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5506
+entryid: 6955
+permalink: 6955
+lesson: Verbs - General Activity, Part 18
+lang: nl
+english: spread
+current: verspreiding
+proposed: verspreiden
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "verspreiden"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5512
+entryid: 6963
+permalink: 6963
+lesson: Verbs - General Activity, Part 20
+lang: nl
+english: score
+current: partituur
+proposed: scoren
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "scoren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5523
+entryid: 6977
+permalink: 6977
+lesson: Verbs - General Activity, Part 23
+lang: nl
+english: advance
+current: van te voren
+proposed: vooruitgaan
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "vooruitgaan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5532
+entryid: 6988
+permalink: 6988
+lesson: Verbs - Emotional Activity, Part 1
+lang: nl
+english: like
+current: graag willen
+proposed: leuk vinden
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "leuk vinden"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5541
+entryid: 6999
+permalink: 6999
+lesson: Verbs - Emotional Activity, Part 3
+lang: nl
+english: care
+current: zorg
+proposed: geven om
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "geven om"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5545
+entryid: 7004
+permalink: 7004
+lesson: Verbs - Emotional Activity, Part 4
+lang: nl
+english: worry
+current: zorgen
+proposed: zich zorgen maken
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "zich zorgen maken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5548
+entryid: 7008
+permalink: 7008
+lesson: Verbs - Emotional Activity, Part 5
+lang: nl
+english: cope
+current: het hoofd te bieden
+proposed: het hoofd bieden
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "het hoofd bieden"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5560
+entryid: 7023
+permalink: 7023
+lesson: Verbs - Physical Activity, Part 1
+lang: nl
+english: move
+current: verhuizing
+proposed: bewegen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "bewegen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5561
+entryid: 7024
+permalink: 7024
+lesson: Verbs - Physical Activity, Part 1
+lang: nl
+english: stand
+current: stand
+proposed: staan
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "staan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5563
+entryid: 7027
+permalink: 7027
+lesson: Verbs - Physical Activity, Part 2
+lang: nl
+english: reach
+current: berijk
+proposed: bereiken
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "bereiken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5573
+entryid: 7039
+permalink: 7039
+lesson: Verbs - Physical Activity, Part 4
+lang: nl
+english: fly
+current: vlieg
+proposed: vliegen
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "vliegen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5579
+entryid: 7047
+permalink: 7047
+lesson: Verbs - Physical Activity, Part 6
+lang: nl
+english: strike
+current: staking
+proposed: slaan
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "slaan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5581
+entryid: 7049
+permalink: 7049
+lesson: Verbs - Physical Activity, Part 6
+lang: nl
+english: charge
+current: in rekening brengen
+proposed: aanvallen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "aanvallen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5586
+entryid: 7055
+permalink: 7055
+lesson: Verbs - Physical Activity, Part 7
+lang: nl
+english: train
+current: trein
+proposed: trainen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "trainen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5589
+entryid: 7059
+permalink: 7059
+lesson: Verbs - Physical Activity, Part 8
+lang: nl
+english: clean
+current: schoon
+proposed: schoonmaken
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "schoonmaken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5595
+entryid: 7067
+permalink: 7067
+lesson: Verbs - Physical Activity, Part 10
+lang: nl
+english: burn
+current: brandwond
+proposed: branden
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "branden"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5629
+entryid: 7109
+permalink: 7109
+lesson: Verbs - Physical Activity, Part 18
+lang: nl
+english: block
+current: blok
+proposed: blokkeren
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "blokkeren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5634
+entryid: 7115
+permalink: 7115
+lesson: Verbs - Physical Activity, Part 19
+lang: nl
+english: bite
+current: beet
+proposed: bijten
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "bijten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5653
+entryid: 7139
+permalink: 7139
+lesson: Verbs - Mental Activity, Part 3
+lang: nl
+english: draw
+current: trek
+proposed: tekenen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "tekenen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5668
+entryid: 7158
+permalink: 7158
+lesson: Verbs - Mental Activity, Part 7
+lang: nl
+english: record
+current: record
+proposed: opnemen
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "opnemen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5714
+entryid: 7216
+permalink: 7216
+lesson: Verbs - Mental Activity, Part 19
+lang: nl
+english: highlight
+current: hoogtepunt
+proposed: benadrukken
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "benadrukken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5725
+entryid: 7230
+permalink: 7230
+lesson: Verbs - Social Activity, Part 2
+lang: nl
+english: call
+current: telefoontje
+proposed: bellen
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "bellen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5809
+entryid: 7335
+permalink: 7335
+lesson: Verbs - Social Activity, Part 23
+lang: nl
+english: bother
+current: dwars zitten
+proposed: storen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "storen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5825
+entryid: 7355
+permalink: 7355
+lesson: Verbs - Social Activity, Part 27
+lang: nl
+english: date
+current: datum
+proposed: daten
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "daten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5878
+entryid: 7421
+permalink: 7421
+lesson: Verbs - Economic Activity, Part 4
+lang: nl
+english: increase
+current: toename
+proposed: toenemen
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "toenemen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5884
+entryid: 7428
+permalink: 7428
+lesson: Verbs - Economic Activity, Part 5
+lang: nl
+english: employ
+current: dienst
+proposed: in dienst nemen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "in dienst nemen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5893
+entryid: 7440
+permalink: 7440
+lesson: Verbs - Economic Activity, Part 8
+lang: nl
+english: lack
+current: lack
+proposed: ontbreken
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "ontbreken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 5897
+entryid: 7445
+permalink: 7445
+lesson: Verbs - Economic Activity, Part 9
+lang: nl
+english: owe
+current: te danken hebben
+proposed: verschuldigd zijn
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "verschuldigd zijn"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 24961
+entryid: 31353
+permalink: 31353
+lesson: Nouns - Concepts, Part 11
+lang: nl
+english: detail
+current: detail-
+proposed: detail
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "detail"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 24978
+entryid: 31374
+permalink: 31374
+lesson: Nouns - Concepts, Part 13
+lang: nl
+english: heart
+current: hart-
+proposed: hart
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "hart"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25134
+entryid: 31569
+permalink: 31569
+lesson: Nouns - Concepts, Part 33
+lang: nl
+english: mark
+current: Mark
+proposed: markering
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "markering"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25147
+entryid: 31585
+permalink: 31585
+lesson: Nouns - Concepts, Part 35
+lang: nl
+english: cut
+current: besnoeiing
+proposed: snede
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "snede"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25349
+entryid: 31838
+permalink: 31838
+lesson: Nouns - Concepts, Part 61
+lang: nl
+english: cold
+current: koude
+proposed: kou
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "kou"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25362
+entryid: 31853
+permalink: 31853
+lesson: Nouns - Concepts, Part 62
+lang: nl
+english: specimen
+current: specimen
+proposed: exemplaar
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "exemplaar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25370
+entryid: 31863
+permalink: 31863
+lesson: Nouns - Concepts, Part 63
+lang: nl
+english: blow
+current: blazen
+proposed: klap
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "klap"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25372
+entryid: 31867
+permalink: 31867
+lesson: Nouns - Concepts, Part 64
+lang: nl
+english: borough
+current: stad
+proposed: stadsdeel
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "stadsdeel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25403
+entryid: 31906
+permalink: 31906
+lesson: Nouns - Concepts, Part 68
+lang: nl
+english: crash
+current: neerstorten
+proposed: botsing
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "botsing"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25466
+entryid: 31984
+permalink: 31984
+lesson: Nouns - Concepts, Part 76
+lang: nl
+english: mess
+current: knoeien
+proposed: rommel
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "rommel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25474
+entryid: 31994
+permalink: 31994
+lesson: Nouns - Concepts, Part 77
+lang: nl
+english: worth
+current: waard
+proposed: waarde
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "waarde"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25486
+entryid: 32009
+permalink: 32009
+lesson: Nouns - Concepts, Part 78
+lang: nl
+english: essence
+current: essence
+proposed: essentie
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "essentie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25497
+entryid: 32023
+permalink: 32023
+lesson: Nouns - Concepts, Part 80
+lang: nl
+english: heel
+current: hiel-
+proposed: hiel
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "hiel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25537
+entryid: 32073
+permalink: 32073
+lesson: Nouns - Concepts, Part 85
+lang: nl
+english: lifetime
+current: levenslang
+proposed: levensduur
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "levensduur"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25559
+entryid: 32101
+permalink: 32101
+lesson: Nouns - Concepts, Part 88
+lang: nl
+english: capability
+current: geschiktheid
+proposed: bekwaamheid
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "bekwaamheid"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25583
+entryid: 32130
+permalink: 32130
+lesson: Nouns - Concepts, Part 91
+lang: nl
+english: spell
+current: spellen
+proposed: spreuk
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "spreuk"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25609
+entryid: 32163
+permalink: 32163
+lesson: Nouns - Measurements, Part 1
+lang: nl
+english: east
+current: oosten-
+proposed: oosten
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "oosten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25617
+entryid: 32173
+permalink: 32173
+lesson: Nouns - Measurements, Part 2
+lang: nl
+english: fall
+current: vallen
+proposed: herfst
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "herfst"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25664
+entryid: 32231
+permalink: 32231
+lesson: Nouns - Measurements, Part 8
+lang: nl
+english: morning
+current: ochtend-
+proposed: ochtend
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "ochtend"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25668
+entryid: 32237
+permalink: 32237
+lesson: Nouns - Measurements, Part 9
+lang: nl
+english: range
+current: reeks
+proposed: bereik
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "bereik"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25701
+entryid: 32278
+permalink: 32278
+lesson: Nouns - Measurements, Part 13
+lang: nl
+english: standard
+current: standaard-
+proposed: standaard
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "standaard"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25749
+entryid: 32338
+permalink: 32338
+lesson: Nouns - Measurements, Part 19
+lang: nl
+english: pair
+current: paar-
+proposed: paar
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "paar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25757
+entryid: 32348
+permalink: 32348
+lesson: Nouns - Measurements, Part 20
+lang: nl
+english: half
+current: voor de helft
+proposed: helft
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "helft"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25824
+entryid: 32432
+permalink: 32432
+lesson: Nouns - Measurements, Part 29
+lang: nl
+english: load
+current: laden
+proposed: lading
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "lading"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25866
+entryid: 32484
+permalink: 32484
+lesson: Nouns - Measurements, Part 34
+lang: nl
+english: sphere
+current: gebied
+proposed: bol
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "bol"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25884
+entryid: 32506
+permalink: 32506
+lesson: Nouns - People, Part 2
+lang: nl
+english: hand
+current: hand-
+proposed: hand
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "hand"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25897
+entryid: 32523
+permalink: 32523
+lesson: Nouns - People, Part 4
+lang: nl
+english: proletarian
+current: proletarische
+proposed: proletariër
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "proletariër"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25922
+entryid: 32554
+permalink: 32554
+lesson: Nouns - People, Part 7
+lang: nl
+english: back
+current: terug
+proposed: rug
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "rug"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 25999
+entryid: 32650
+permalink: 32650
+lesson: Nouns - People, Part 17
+lang: nl
+english: miss
+current: missen
+proposed: juffrouw
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "juffrouw"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26063
+entryid: 32730
+permalink: 32730
+lesson: Nouns - People, Part 25
+lang: nl
+english: lip
+current: lip-
+proposed: lip
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "lip"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26120
+entryid: 32802
+permalink: 32802
+lesson: Nouns - People, Part 33
+lang: nl
+english: fan
+current: ventilator
+proposed: fan
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "fan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26131
+entryid: 32815
+permalink: 32815
+lesson: Nouns - People, Part 34
+lang: nl
+english: editor
+current: editor
+proposed: redacteur
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "redacteur"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26176
+entryid: 32872
+permalink: 32872
+lesson: Nouns - People, Part 40
+lang: nl
+english: creature
+current: schepsel
+proposed: wezen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "wezen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26226
+entryid: 32934
+permalink: 32934
+lesson: Nouns - People, Part 46
+lang: nl
+english: landlord
+current: landheer
+proposed: verhuurder
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "verhuurder"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26457
+entryid: 33223
+permalink: 33223
+lesson: Nouns - Society, Part 2
+lang: nl
+english: school
+current: school-
+proposed: school
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "school"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26503
+entryid: 33280
+permalink: 33280
+lesson: Nouns - Society, Part 8
+lang: nl
+english: act
+current: handelen
+proposed: daad
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "daad"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26561
+entryid: 33352
+permalink: 33352
+lesson: Nouns - Society, Part 15
+lang: nl
+english: charge
+current: in rekening brengen
+proposed: kosten
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "kosten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26657
+entryid: 33473
+permalink: 33473
+lesson: Nouns - Society, Part 28
+lang: nl
+english: race
+current: race
+proposed: ras
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "ras"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26688
+entryid: 33512
+permalink: 33512
+lesson: Nouns - Society, Part 32
+lang: nl
+english: cash
+current: contant
+proposed: contant geld
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "contant geld"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26738
+entryid: 33574
+permalink: 33574
+lesson: Nouns - Society, Part 38
+lang: nl
+english: regulation
+current: regulatie
+proposed: regelgeving
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "regelgeving"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26855
+entryid: 33720
+permalink: 33720
+lesson: Nouns - Society, Part 53
+lang: nl
+english: mass
+current: massa-
+proposed: massa
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "massa"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26859
+entryid: 33726
+permalink: 33726
+lesson: Nouns - Society, Part 54
+lang: nl
+english: establishment
+current: etablissement
+proposed: instelling
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "instelling"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 26946
+entryid: 33835
+permalink: 33835
+lesson: Nouns - Society, Part 65
+lang: nl
+english: poll
+current: poll
+proposed: peiling
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "peiling"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27005
+entryid: 33909
+permalink: 33909
+lesson: Nouns - Society, Part 73
+lang: nl
+english: routine
+current: routine-
+proposed: routine
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "routine"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27110
+entryid: 34040
+permalink: 34040
+lesson: Nouns - Society, Part 86
+lang: nl
+english: conservation
+current: gesprek
+proposed: natuurbescherming
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "natuurbescherming"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27134
+entryid: 34069
+permalink: 34069
+lesson: Nouns - Society, Part 89
+lang: nl
+english: pass
+current: slagen voor
+proposed: pas
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "pas"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27239
+entryid: 34201
+permalink: 34201
+lesson: Nouns - Society, Part 103
+lang: nl
+english: directory
+current: directory
+proposed: gids
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "gids"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27250
+entryid: 34215
+permalink: 34215
+lesson: Nouns - Society, Part 104
+lang: nl
+english: receipt
+current: ontvangst
+proposed: bon
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "bon"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27278
+entryid: 34250
+permalink: 34250
+lesson: Nouns - Society, Part 108
+lang: nl
+english: riot
+current: herrie
+proposed: rel
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "rel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27287
+entryid: 34261
+permalink: 34261
+lesson: Nouns - Society, Part 109
+lang: nl
+english: tune
+current: toon
+proposed: melodie
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "melodie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27324
+entryid: 34308
+permalink: 34308
+lesson: Nouns - Society, Part 114
+lang: nl
+english: assignment
+current: toewijzing
+proposed: opdracht
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "opdracht"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27382
+entryid: 34380
+permalink: 34380
+lesson: Nouns - Ideas, Part 2
+lang: nl
+english: interest
+current: interesseren
+proposed: interesse
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "interesse"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27405
+entryid: 34408
+permalink: 34408
+lesson: Nouns - Ideas, Part 5
+lang: nl
+english: model
+current: model-
+proposed: model
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "model"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27407
+entryid: 34411
+permalink: 34411
+lesson: Nouns - Ideas, Part 5
+lang: nl
+english: scheme
+current: schema
+proposed: plan
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "plan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27455
+entryid: 34470
+permalink: 34470
+lesson: Nouns - Ideas, Part 11
+lang: nl
+english: arrangement
+current: arrangement
+proposed: regeling
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "regeling"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27457
+entryid: 34474
+permalink: 34474
+lesson: Nouns - Ideas, Part 12
+lang: nl
+english: match
+current: bij elkaar passen
+proposed: wedstrijd
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "wedstrijd"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27607
+entryid: 34661
+permalink: 34661
+lesson: Nouns - Places, Part 1
+lang: nl
+english: world
+current: wereld-
+proposed: wereld
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "wereld"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27632
+entryid: 34692
+permalink: 34692
+lesson: Nouns - Places, Part 4
+lang: nl
+english: land
+current: land-
+proposed: land
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "land"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27634
+entryid: 34694
+permalink: 34694
+lesson: Nouns - Places, Part 4
+lang: nl
+english: field
+current: veld-
+proposed: veld
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "veld"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27665
+entryid: 34733
+permalink: 34733
+lesson: Nouns - Places, Part 8
+lang: nl
+english: college
+current: college
+proposed: hogeschool
+kind: false-friend
+reason: Looks like the English and means something else.
+source: Van Dale, s.v. "hogeschool"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27701
+entryid: 34778
+permalink: 34778
+lesson: Nouns - Places, Part 13
+lang: nl
+english: farm
+current: farm
+proposed: boerderij
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "boerderij"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27716
+entryid: 34797
+permalink: 34797
+lesson: Nouns - Places, Part 15
+lang: nl
+english: yard
+current: werf
+proposed: tuin
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "tuin"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27727
+entryid: 34811
+permalink: 34811
+lesson: Nouns - Places, Part 16
+lang: nl
+english: store
+current: op te slaan
+proposed: winkel
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "winkel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27803
+entryid: 34906
+permalink: 34906
+lesson: Nouns - Places, Part 26
+lang: nl
+english: mine
+current: de mijne
+proposed: mijn
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "mijn"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27842
+entryid: 34955
+permalink: 34955
+lesson: Nouns - Places, Part 31
+lang: nl
+english: nursery
+current: kwekerij
+proposed: kinderdagverblijf
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "kinderdagverblijf"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27856
+entryid: 34972
+permalink: 34972
+lesson: Nouns - Places, Part 33
+lang: nl
+english: landing
+current: landen
+proposed: landingsbaan
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "landingsbaan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27867
+entryid: 34986
+permalink: 34986
+lesson: Nouns - Places, Part 34
+lang: nl
+english: inn
+current: cafe
+proposed: herberg
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "herberg"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27897
+entryid: 35023
+permalink: 35023
+lesson: Nouns - Objects, Part 2
+lang: nl
+english: door
+current: deur-
+proposed: deur
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "deur"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27899
+entryid: 35025
+permalink: 35025
+lesson: Nouns - Objects, Part 2
+lang: nl
+english: matter
+current: er toe doen
+proposed: materie
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "materie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27922
+entryid: 35056
+permalink: 35056
+lesson: Nouns - Objects, Part 6
+lang: nl
+english: board
+current: boord
+proposed: bord
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "bord"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27926
+entryid: 35060
+permalink: 35060
+lesson: Nouns - Objects, Part 6
+lang: nl
+english: hair
+current: haar-
+proposed: haar
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "haar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27931
+entryid: 35067
+permalink: 35067
+lesson: Nouns - Objects, Part 7
+lang: nl
+english: plant
+current: fabriek
+proposed: plant
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "plant"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27947
+entryid: 35087
+permalink: 35087
+lesson: Nouns - Objects, Part 9
+lang: nl
+english: bill
+current: Bill
+proposed: rekening
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "rekening"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 27994
+entryid: 35146
+permalink: 35146
+lesson: Nouns - Objects, Part 15
+lang: nl
+english: radio
+current: radio-
+proposed: radio
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "radio"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28003
+entryid: 35157
+permalink: 35157
+lesson: Nouns - Objects, Part 16
+lang: nl
+english: newspaper
+current: krant-
+proposed: krant
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "krant"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28014
+entryid: 35171
+permalink: 35171
+lesson: Nouns - Objects, Part 18
+lang: nl
+english: gas
+current: gas-
+proposed: gas
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "gas"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28019
+entryid: 35177
+permalink: 35177
+lesson: Nouns - Objects, Part 18
+lang: nl
+english: video
+current: video-
+proposed: video
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "video"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28093
+entryid: 35270
+permalink: 35270
+lesson: Nouns - Objects, Part 28
+lang: nl
+english: photograph
+current: fotograaf
+proposed: foto
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "foto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28179
+entryid: 35377
+permalink: 35377
+lesson: Nouns - Objects, Part 39
+lang: nl
+english: plane
+current: vlak
+proposed: vliegtuig
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "vliegtuig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28193
+entryid: 35395
+permalink: 35395
+lesson: Nouns - Objects, Part 41
+lang: nl
+english: boot
+current: bagageruimte
+proposed: laars
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "laars"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28197
+entryid: 35399
+permalink: 35399
+lesson: Nouns - Objects, Part 41
+lang: nl
+english: ice
+current: ijs-
+proposed: ijs
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "ijs"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28233
+entryid: 35445
+permalink: 35445
+lesson: Nouns - Objects, Part 46
+lang: nl
+english: chip
+current: spaander
+proposed: chip
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "chip"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28248
+entryid: 35464
+permalink: 35464
+lesson: (no lesson)
+lang: nl
+english: disk
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: schijf
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "schijf"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28249
+entryid: 35466
+permalink: 35466
+lesson: (no lesson)
+lang: nl
+english: guitar
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: gitaar
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "gitaar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28251
+entryid: 35468
+permalink: 35468
+lesson: (no lesson)
+lang: nl
+english: journal
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: dagboek
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "dagboek"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28253
+entryid: 35470
+permalink: 35470
+lesson: (no lesson)
+lang: nl
+english: knife
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: mes
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "mes"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28256
+entryid: 35474
+permalink: 35474
+lesson: (no lesson)
+lang: nl
+english: mail
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: post
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "post"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28257
+entryid: 35476
+permalink: 35476
+lesson: (no lesson)
+lang: nl
+english: medicine
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: medicijn
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "medicijn"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28258
+entryid: 35477
+permalink: 35477
+lesson: (no lesson)
+lang: nl
+english: paragraph
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: alinea
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "alinea"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28260
+entryid: 35479
+permalink: 35479
+lesson: (no lesson)
+lang: nl
+english: print
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: afdruk
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "afdruk"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28263
+entryid: 35483
+permalink: 35483
+lesson: (no lesson)
+lang: nl
+english: reserve
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: reservering
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "reservering"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28265
+entryid: 35485
+permalink: 35485
+lesson: (no lesson)
+lang: nl
+english: sand
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: zand
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "zand"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28266
+entryid: 35487
+permalink: 35487
+lesson: (no lesson)
+lang: nl
+english: scope
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: bereik
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "bereik"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28268
+entryid: 35489
+permalink: 35489
+lesson: (no lesson)
+lang: nl
+english: tale
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: verhaal
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "verhaal"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28271
+entryid: 35493
+permalink: 35493
+lesson: (no lesson)
+lang: nl
+english: chemical
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: chemisch
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "chemisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28273
+entryid: 35495
+permalink: 35495
+lesson: (no lesson)
+lang: nl
+english: circuit
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: circuit
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "circuit"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28274
+entryid: 35497
+permalink: 35497
+lesson: (no lesson)
+lang: nl
+english: clock
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: klok
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "klok"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28276
+entryid: 35499
+permalink: 35499
+lesson: (no lesson)
+lang: nl
+english: cream
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: room
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "room"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28279
+entryid: 35503
+permalink: 35503
+lesson: (no lesson)
+lang: nl
+english: salt
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: zout
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "zout"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28281
+entryid: 35505
+permalink: 35505
+lesson: (no lesson)
+lang: nl
+english: pack
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: pakket
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "pakket"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28282
+entryid: 35507
+permalink: 35507
+lesson: (no lesson)
+lang: nl
+english: seed
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: zaad
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "zaad"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28283
+entryid: 35508
+permalink: 35508
+lesson: (no lesson)
+lang: nl
+english: tail
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: staart
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "staart"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28286
+entryid: 35512
+permalink: 35512
+lesson: (no lesson)
+lang: nl
+english: tie
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: das
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "das"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28288
+entryid: 35514
+permalink: 35514
+lesson: (no lesson)
+lang: nl
+english: watch
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: horloge
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "horloge"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28290
+entryid: 35516
+permalink: 35516
+lesson: (no lesson)
+lang: nl
+english: alcohol
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: alcohol
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "alcohol"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28291
+entryid: 35518
+permalink: 35518
+lesson: (no lesson)
+lang: nl
+english: crop
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: oogst
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "oogst"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28294
+entryid: 35522
+permalink: 35522
+lesson: (no lesson)
+lang: nl
+english: net
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: net
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "net"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28296
+entryid: 35524
+permalink: 35524
+lesson: (no lesson)
+lang: nl
+english: snow
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: sneeuw
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "sneeuw"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28298
+entryid: 35526
+permalink: 35526
+lesson: (no lesson)
+lang: nl
+english: tip
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: fooi
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "fooi"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28299
+entryid: 35528
+permalink: 35528
+lesson: (no lesson)
+lang: nl
+english: bowl
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: kom
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "kom"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28302
+entryid: 35532
+permalink: 35532
+lesson: (no lesson)
+lang: nl
+english: catalogue
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: catalogus
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "catalogus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28304
+entryid: 35534
+permalink: 35534
+lesson: (no lesson)
+lang: nl
+english: cheese
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: kaas
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "kaas"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28306
+entryid: 35536
+permalink: 35536
+lesson: (no lesson)
+lang: nl
+english: dish
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: schotel
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "schotel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28307
+entryid: 35538
+permalink: 35538
+lesson: (no lesson)
+lang: nl
+english: shell
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: schelp
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "schelp"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28310
+entryid: 35542
+permalink: 35542
+lesson: (no lesson)
+lang: nl
+english: tube
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: buis
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "buis"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28312
+entryid: 35544
+permalink: 35544
+lesson: (no lesson)
+lang: nl
+english: fabric
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: stof
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "stof"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28314
+entryid: 35546
+permalink: 35546
+lesson: (no lesson)
+lang: nl
+english: label
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: etiket
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "etiket"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28315
+entryid: 35548
+permalink: 35548
+lesson: (no lesson)
+lang: nl
+english: pot
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: pan
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "pan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28317
+entryid: 35551
+permalink: 35551
+lesson: (no lesson)
+lang: nl
+english: smoke
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: rook
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "rook"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28319
+entryid: 35553
+permalink: 35553
+lesson: (no lesson)
+lang: nl
+english: steam
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: stoom
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "stoom"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28321
+entryid: 35555
+permalink: 35555
+lesson: (no lesson)
+lang: nl
+english: tissue
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: zakdoek
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "zakdoek"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28323
+entryid: 35557
+permalink: 35557
+lesson: (no lesson)
+lang: nl
+english: wire
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: draad
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "draad"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28325
+entryid: 35561
+permalink: 35561
+lesson: (no lesson)
+lang: nl
+english: bell
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: bel
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "bel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28327
+entryid: 35563
+permalink: 35563
+lesson: (no lesson)
+lang: nl
+english: brick
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: baksteen
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "baksteen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28329
+entryid: 35565
+permalink: 35565
+lesson: (no lesson)
+lang: nl
+english: movie
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: film
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "film"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28331
+entryid: 35567
+permalink: 35567
+lesson: (no lesson)
+lang: nl
+english: reward
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: beloning
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "beloning"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28333
+entryid: 35571
+permalink: 35571
+lesson: (no lesson)
+lang: nl
+english: vegetable
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: groente
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "groente"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28335
+entryid: 35573
+permalink: 35573
+lesson: (no lesson)
+lang: nl
+english: belt
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: riem
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "riem"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28337
+entryid: 35575
+permalink: 35575
+lesson: (no lesson)
+lang: nl
+english: ceiling
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: plafond
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "plafond"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28339
+entryid: 35577
+permalink: 35577
+lesson: (no lesson)
+lang: nl
+english: check
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: checken
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "checken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28340
+entryid: 35580
+permalink: 35580
+lesson: (no lesson)
+lang: nl
+english: register
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: register
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "register"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28342
+entryid: 35582
+permalink: 35582
+lesson: (no lesson)
+lang: nl
+english: storm
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: storm
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "storm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28344
+entryid: 35584
+permalink: 35584
+lesson: (no lesson)
+lang: nl
+english: album
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: album
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Van Dale, s.v. "album"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28375
+entryid: 35623
+permalink: 35623
+lesson: Nouns - Objects, Part 50
+lang: nl
+english: mail
+current: mail
+proposed: post
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "post"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28376
+entryid: 35625
+permalink: 35625
+lesson: Nouns - Objects, Part 50
+lang: nl
+english: medicine
+current: geneeskunde
+proposed: medicijn
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "medicijn"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28379
+entryid: 35628
+permalink: 35628
+lesson: Nouns - Objects, Part 50
+lang: nl
+english: print
+current: afdrukken
+proposed: afdruk
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "afdruk"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28385
+entryid: 35636
+permalink: 35636
+lesson: Nouns - Objects, Part 51
+lang: nl
+english: scope
+current: strekking
+proposed: bereik
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "bereik"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28406
+entryid: 35662
+permalink: 35662
+lesson: Nouns - Objects, Part 54
+lang: nl
+english: tie
+current: binden
+proposed: das
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "das"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28408
+entryid: 35664
+permalink: 35664
+lesson: Nouns - Objects, Part 54
+lang: nl
+english: watch
+current: kijk maar
+proposed: horloge
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "horloge"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28413
+entryid: 35671
+permalink: 35671
+lesson: Nouns - Objects, Part 55
+lang: nl
+english: net
+current: netto-
+proposed: net
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "net"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28438
+entryid: 35702
+permalink: 35702
+lesson: Nouns - Objects, Part 58
+lang: nl
+english: steam
+current: stoom-
+proposed: stoom
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "stoom"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28483
+entryid: 35759
+permalink: 35759
+lesson: Nouns - Objects, Part 64
+lang: nl
+english: pole
+current: pool
+proposed: paal
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "paal"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28540
+entryid: 35829
+permalink: 35829
+lesson: Nouns - Objects, Part 71
+lang: nl
+english: roll
+current: rollen
+proposed: rol
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "rol"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28541
+entryid: 35831
+permalink: 35831
+lesson: Nouns - Objects, Part 71
+lang: nl
+english: rubbish
+current: onzin
+proposed: afval
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "afval"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28550
+entryid: 35842
+permalink: 35842
+lesson: Nouns - Objects, Part 72
+lang: nl
+english: processor
+current: bewerker
+proposed: processor
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "processor"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28615
+entryid: 35924
+permalink: 35924
+lesson: Nouns - Objects, Part 81
+lang: nl
+english: jet
+current: Jet
+proposed: straalvliegtuig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "straalvliegtuig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28625
+entryid: 35936
+permalink: 35936
+lesson: Nouns - Objects, Part 82
+lang: nl
+english: bronze
+current: bronzen
+proposed: brons
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "brons"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28665
+entryid: 35986
+permalink: 35986
+lesson: Nouns - Objects, Part 87
+lang: nl
+english: carrier
+current: carrier
+proposed: drager
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "drager"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28675
+entryid: 35998
+permalink: 35998
+lesson: Nouns - Objects, Part 88
+lang: nl
+english: pavement
+current: bestrating
+proposed: trottoir
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "trottoir"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28727
+entryid: 36063
+permalink: 36063
+lesson: Adjectives - Quantity, Part 6
+lang: nl
+english: net
+current: netto-
+proposed: netto
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "netto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28732
+entryid: 36070
+permalink: 36070
+lesson: Adjectives - Quantity, Part 7
+lang: nl
+english: sole
+current: zool
+proposed: enige
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "enige"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28803
+entryid: 36158
+permalink: 36158
+lesson: Adjectives - Quality, Part 7
+lang: nl
+english: lucky
+current: Lucky
+proposed: gelukkig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "gelukkig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28849
+entryid: 36215
+permalink: 36215
+lesson: Adjectives - Quality, Part 13
+lang: nl
+english: bleak
+current: guur
+proposed: somber
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "somber"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28856
+entryid: 36224
+permalink: 36224
+lesson: Adjectives - Quality, Part 15
+lang: nl
+english: tricky
+current: tricky
+proposed: lastig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "lastig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28866
+entryid: 36236
+permalink: 36236
+lesson: Adjectives - Quality, Part 17
+lang: nl
+english: split
+current: spleet
+proposed: gespleten
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "gespleten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28869
+entryid: 36240
+permalink: 36240
+lesson: Adjectives - Quality, Part 18
+lang: nl
+english: floppy
+current: floppy
+proposed: slap
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "slap"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28880
+entryid: 36254
+permalink: 36254
+lesson: Adjectives - Quality, Part 21
+lang: nl
+english: hardy
+current: hardy
+proposed: gehard
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "gehard"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28916
+entryid: 36299
+permalink: 36299
+lesson: Adjectives - Quality, Part 27
+lang: nl
+english: quaint
+current: vreemd
+proposed: pittoresk
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "pittoresk"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28933
+entryid: 36320
+permalink: 36320
+lesson: Adjectives - Quality, Part 29
+lang: nl
+english: fruity
+current: fruit
+proposed: fruitig
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "fruitig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28943
+entryid: 36334
+permalink: 36334
+lesson: Adjectives - Quality, Part 31
+lang: nl
+english: frilly
+current: stroken
+proposed: met ruches
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "met ruches"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28956
+entryid: 36349
+permalink: 36349
+lesson: Adjectives - Quality, Part 32
+lang: nl
+english: earthy
+current: aardsgezind
+proposed: aards
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "aards"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 28959
+entryid: 36353
+permalink: 36353
+lesson: Adjectives - Quality, Part 33
+lang: nl
+english: boney
+current: boney
+proposed: benig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "benig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29100
+entryid: 36530
+permalink: 36530
+lesson: Adjectives - Social, Part 18
+lang: nl
+english: dim
+current: verduisteren
+proposed: dom
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "dom"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29157
+entryid: 36600
+permalink: 36600
+lesson: Adjectives - Social, Part 25
+lang: nl
+english: dodgy
+current: dodgy
+proposed: verdacht
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "verdacht"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29169
+entryid: 36616
+permalink: 36616
+lesson: Adjectives - Social, Part 27
+lang: nl
+english: hearty
+current: hartig
+proposed: hartelijk
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "hartelijk"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29174
+entryid: 36622
+permalink: 36622
+lesson: Adjectives - Social, Part 27
+lang: nl
+english: cuddly
+current: aanhalig
+proposed: knuffelig
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "knuffelig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29179
+entryid: 36628
+permalink: 36628
+lesson: Adjectives - Social, Part 28
+lang: nl
+english: classy
+current: classy
+proposed: chic
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "chic"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29182
+entryid: 36632
+permalink: 36632
+lesson: Adjectives - Social, Part 28
+lang: nl
+english: arty
+current: arty
+proposed: artistiek
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "artistiek"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29184
+entryid: 36635
+permalink: 36635
+lesson: Adjectives - Social, Part 29
+lang: nl
+english: brash
+current: breekbaar
+proposed: brutaal
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "brutaal"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29192
+entryid: 36645
+permalink: 36645
+lesson: Adjectives - Social, Part 30
+lang: nl
+english: sketchy
+current: oppervlakkig
+proposed: onbetrouwbaar
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "onbetrouwbaar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29194
+entryid: 36647
+permalink: 36647
+lesson: Adjectives - Social, Part 30
+lang: nl
+english: snide
+current: fals
+proposed: hatelijk
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "hatelijk"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29206
+entryid: 36661
+permalink: 36661
+lesson: Adjectives - Social, Part 31
+lang: nl
+english: sleazy
+current: dun
+proposed: louche
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "louche"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29298
+entryid: 36777
+permalink: 36777
+lesson: Adjectives - Feeling, Part 10
+lang: nl
+english: calm
+current: kalmte
+proposed: rustig
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Van Dale, s.v. "rustig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29319
+entryid: 36803
+permalink: 36803
+lesson: Adjectives - Feeling, Part 13
+lang: nl
+english: foul
+current: vals
+proposed: vies
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "vies"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29352
+entryid: 36844
+permalink: 36844
+lesson: Adjectives - Feeling, Part 17
+lang: nl
+english: numb
+current: verdoven
+proposed: verdoofd
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Van Dale, s.v. "verdoofd"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29358
+entryid: 36852
+permalink: 36852
+lesson: Adjectives - Feeling, Part 18
+lang: nl
+english: heady
+current: koppig
+proposed: bedwelmend
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "bedwelmend"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29375
+entryid: 36873
+permalink: 36873
+lesson: Adjectives - Feeling, Part 20
+lang: nl
+english: slimey
+current: slimey
+proposed: slijmerig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "slijmerig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29392
+entryid: 36894
+permalink: 36894
+lesson: Adjectives - Feeling, Part 22
+lang: nl
+english: slack
+current: speling
+proposed: slap
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "slap"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29403
+entryid: 36908
+permalink: 36908
+lesson: Adjectives - Feeling, Part 24
+lang: nl
+english: fuzzy
+current: fuzzy
+proposed: vaag
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "vaag"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29416
+entryid: 36924
+permalink: 36924
+lesson: Adjectives - Feeling, Part 25
+lang: nl
+english: breezy
+current: winderig
+proposed: luchtig
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "luchtig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29421
+entryid: 36931
+permalink: 36931
+lesson: Adjectives - Feeling, Part 26
+lang: nl
+english: wacky
+current: wacky
+proposed: maf
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "maf"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29467
+entryid: 36988
+permalink: 36988
+lesson: Adjectives - Appearance, Part 6
+lang: nl
+english: sheer
+current: zeeg
+proposed: doorzichtig
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "doorzichtig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29504
+entryid: 37035
+permalink: 37035
+lesson: Adjectives - Appearance, Part 11
+lang: nl
+english: stout
+current: stout
+proposed: gezet
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "gezet"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29515
+entryid: 37048
+permalink: 37048
+lesson: Adjectives - Appearance, Part 12
+lang: nl
+english: baggy
+current: zakkerig
+proposed: wijd
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "wijd"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29527
+entryid: 37064
+permalink: 37064
+lesson: Adjectives - Appearance, Part 14
+lang: nl
+english: rosey
+current: rosey
+proposed: rozig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "rozig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 29544
+entryid: 37085
+permalink: 37085
+lesson: Adjectives - Appearance, Part 16
+lang: nl
+english: chunky
+current: chunky
+proposed: stevig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "stevig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39357
+entryid: 49281
+permalink: 49281
+lesson: Verbs - General Activity, Part 2
+lang: nl
+english: leave
+current: het verlof
+proposed: vertrekken
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "vertrekken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44079
+entryid: 55134
+permalink: 55134
+lesson: Entertainment - Music, Part 3
+lang: nl
+english: folk
+current: mensen
+proposed: volksmuziek
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "volksmuziek"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44099
+entryid: 55159
+permalink: 55159
+lesson: Entertainment - Music, Part 6
+lang: nl
+english: caribbean music
+current: caraïben muziek
+proposed: Caribische muziek
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "Caribische muziek"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44117
+entryid: 55181
+permalink: 55181
+lesson: Entertainment - Music, Part 8
+lang: nl
+english: performer
+current: performer
+proposed: artiest
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "artiest"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44148
+entryid: 55221
+permalink: 55221
+lesson: Entertainment - Books, Part 2
+lang: nl
+english: romance novel
+current: romanse roman
+proposed: romantische roman
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "romantische roman"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44150
+entryid: 55224
+permalink: 55224
+lesson: Entertainment - Books, Part 2
+lang: nl
+english: horror novel
+current: Translation error
+proposed: horrorroman
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "horrorroman"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44157
+entryid: 55233
+permalink: 55233
+lesson: Entertainment - Books, Part 3
+lang: nl
+english: non-fiction novel
+current: non-fiction roman
+proposed: non-fictieboek
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "non-fictieboek"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44161
+entryid: 55239
+permalink: 55239
+lesson: Entertainment - Film, Part 1
+lang: nl
+english: action film
+current: horrorfilm
+proposed: actiefilm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "actiefilm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44163
+entryid: 55241
+permalink: 55241
+lesson: Entertainment - Film, Part 1
+lang: nl
+english: thriller film
+current: horrorfilm
+proposed: thriller
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "thriller"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44165
+entryid: 55243
+permalink: 55243
+lesson: Entertainment - Film, Part 1
+lang: nl
+english: western film
+current: horrorfilm
+proposed: western
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "western"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44168
+entryid: 55247
+permalink: 55247
+lesson: Entertainment - Film, Part 2
+lang: nl
+english: adventure film
+current: horrorfilm
+proposed: avontuurfilm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "avontuurfilm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44169
+entryid: 55249
+permalink: 55249
+lesson: Entertainment - Film, Part 2
+lang: nl
+english: animation
+current: horrorfilm
+proposed: animatiefilm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "animatiefilm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44171
+entryid: 55251
+permalink: 55251
+lesson: Entertainment - Film, Part 2
+lang: nl
+english: war film
+current: horrorfilm
+proposed: oorlogsfilm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "oorlogsfilm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44173
+entryid: 55253
+permalink: 55253
+lesson: Entertainment - Film, Part 2
+lang: nl
+english: romantic film
+current: horrorfilm
+proposed: romantische film
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "romantische film"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44176
+entryid: 55257
+permalink: 55257
+lesson: Entertainment - Film, Part 3
+lang: nl
+english: comedy film
+current: horrorfilm
+proposed: komediefilm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "komediefilm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44177
+entryid: 55259
+permalink: 55259
+lesson: Entertainment - Film, Part 3
+lang: nl
+english: romantic comedy film
+current: horrorfilm
+proposed: romantische komedie
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "romantische komedie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44178
+entryid: 55260
+permalink: 55260
+lesson: Entertainment - Film, Part 3
+lang: nl
+english: musical
+current: horrorfilm
+proposed: musical
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "musical"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44180
+entryid: 55262
+permalink: 55262
+lesson: Entertainment - Film, Part 3
+lang: nl
+english: documentary
+current: horrorfilm
+proposed: documentaire
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "documentaire"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44183
+entryid: 55266
+permalink: 55266
+lesson: Entertainment - Film, Part 4
+lang: nl
+english: fictional film
+current: horrorfilm
+proposed: speelfilm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "speelfilm"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 44185
+entryid: 55268
+permalink: 55268
+lesson: Entertainment - Film, Part 4
+lang: nl
+english: scifi
+current: horrorfilm
+proposed: sciencefictionfilm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "sciencefictionfilm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44186
+entryid: 55270
+permalink: 55270
+lesson: Entertainment - Film, Part 4
+lang: nl
+english: fantasy
+current: horrorfilm
+proposed: fantasyfilm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "fantasyfilm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44188
+entryid: 55272
+permalink: 55272
+lesson: Entertainment - Film, Part 4
+lang: nl
+english: B-Movie
+current: horrorfilm
+proposed: B-film
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "B-film"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 44191
+entryid: 55276
+permalink: 55276
+lesson: Entertainment - Film, Part 5
+lang: nl
+english: dance dance revolution
+current: horrorfilm
+proposed: dance dance revolution
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "dance dance revolution"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44193
+entryid: 55278
+permalink: 55278
+lesson: Entertainment - Film, Part 5
+lang: nl
+english: pinball
+current: horrorfilm
+proposed: flipperkast
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "flipperkast"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44200
+entryid: 55287
+permalink: 55287
+lesson: Entertainment - Sports, Part 1
+lang: nl
+english: racing
+current: hockey
+proposed: racen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "racen"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 44202
+entryid: 55289
+permalink: 55289
+lesson: Entertainment - Sports, Part 1
+lang: nl
+english: soccer
+current: hockey
+proposed: voetbal
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "voetbal"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44203
+entryid: 55291
+permalink: 55291
+lesson: Entertainment - Sports, Part 1
+lang: nl
+english: baseball
+current: hockey
+proposed: honkbal
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "honkbal"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44206
+entryid: 55295
+permalink: 55295
+lesson: Entertainment - Sports, Part 2
+lang: nl
+english: football
+current: hockey
+proposed: American football
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "American football"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44208
+entryid: 55297
+permalink: 55297
+lesson: Entertainment - Sports, Part 2
+lang: nl
+english: acrobatics
+current: hockey
+proposed: acrobatiek
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "acrobatiek"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44210
+entryid: 55299
+permalink: 55299
+lesson: Entertainment - Sports, Part 2
+lang: nl
+english: archery
+current: hockey
+proposed: boogschieten
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "boogschieten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44211
+entryid: 55301
+permalink: 55301
+lesson: Entertainment - Sports, Part 2
+lang: nl
+english: badminton
+current: hockey
+proposed: badminton
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "badminton"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44213
+entryid: 55304
+permalink: 55304
+lesson: Entertainment - Sports, Part 3
+lang: nl
+english: tennis
+current: hockey
+proposed: tennis
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "tennis"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44215
+entryid: 55306
+permalink: 55306
+lesson: Entertainment - Sports, Part 3
+lang: nl
+english: volleyball
+current: hockey
+proposed: volleybal
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "volleybal"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44217
+entryid: 55308
+permalink: 55308
+lesson: Entertainment - Sports, Part 3
+lang: nl
+english: iceskating
+current: hockey
+proposed: schaatsen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "schaatsen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44219
+entryid: 55310
+permalink: 55310
+lesson: Entertainment - Sports, Part 3
+lang: nl
+english: basketball
+current: hockey
+proposed: basketbal
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "basketbal"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44221
+entryid: 55314
+permalink: 55314
+lesson: Entertainment - Sports, Part 4
+lang: nl
+english: cricket
+current: hockey
+proposed: cricket
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "cricket"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44223
+entryid: 55316
+permalink: 55316
+lesson: Entertainment - Sports, Part 4
+lang: nl
+english: ballet
+current: hockey
+proposed: ballet
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "ballet"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44224
+entryid: 55317
+permalink: 55317
+lesson: Entertainment - Sports, Part 4
+lang: nl
+english: cheerleading
+current: hockey
+proposed: cheerleading
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "cheerleading"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44227
+entryid: 55320
+permalink: 55320
+lesson: Entertainment - Sports, Part 4
+lang: nl
+english: gymnastics
+current: hockey
+proposed: gymnastiek
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "gymnastiek"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44228
+entryid: 55323
+permalink: 55323
+lesson: Entertainment - Sports, Part 5
+lang: nl
+english: surfing
+current: hockey
+proposed: surfen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "surfen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44230
+entryid: 55325
+permalink: 55325
+lesson: Entertainment - Sports, Part 5
+lang: nl
+english: skateboarding
+current: hockey
+proposed: skateboarden
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "skateboarden"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44232
+entryid: 55327
+permalink: 55327
+lesson: Entertainment - Sports, Part 5
+lang: nl
+english: dodgeball
+current: hockey
+proposed: trefbal
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "trefbal"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44234
+entryid: 55329
+permalink: 55329
+lesson: Entertainment - Sports, Part 5
+lang: nl
+english: rock climbing
+current: hockey
+proposed: klimmen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "klimmen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44236
+entryid: 55333
+permalink: 55333
+lesson: Entertainment - Sports, Part 6
+lang: nl
+english: kayaking
+current: hockey
+proposed: kajakken
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "kajakken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44238
+entryid: 55335
+permalink: 55335
+lesson: Entertainment - Sports, Part 6
+lang: nl
+english: canoeing
+current: hockey
+proposed: kanoën
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "kanoën"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44240
+entryid: 55337
+permalink: 55337
+lesson: Entertainment - Sports, Part 6
+lang: nl
+english: unicycling
+current: hockey
+proposed: eenwielerrijden
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "eenwielerrijden"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44242
+entryid: 55339
+permalink: 55339
+lesson: Entertainment - Sports, Part 6
+lang: nl
+english: billiards
+current: hockey
+proposed: biljarten
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "biljarten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44244
+entryid: 55343
+permalink: 55343
+lesson: Entertainment - Sports, Part 7
+lang: nl
+english: golf
+current: hockey
+proposed: golf
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "golf"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44245
+entryid: 55344
+permalink: 55344
+lesson: Entertainment - Sports, Part 7
+lang: nl
+english: rc racing
+current: hockey
+proposed: rc-races
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "rc-races"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44247
+entryid: 55346
+permalink: 55346
+lesson: Entertainment - Sports, Part 7
+lang: nl
+english: sailing
+current: hockey
+proposed: zeilen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "zeilen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44249
+entryid: 55348
+permalink: 55348
+lesson: Entertainment - Sports, Part 7
+lang: nl
+english: walking
+current: hockey
+proposed: wandelen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "wandelen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44252
+entryid: 55352
+permalink: 55352
+lesson: Entertainment - Gaming, Part 1
+lang: nl
+english: first-person shooter
+current: hockey
+proposed: first-person shooter
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "first-person shooter"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44253
+entryid: 55354
+permalink: 55354
+lesson: Entertainment - Gaming, Part 1
+lang: nl
+english: mmorpg
+current: hockey
+proposed: mmorpg
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "mmorpg"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44255
+entryid: 55356
+permalink: 55356
+lesson: Entertainment - Gaming, Part 1
+lang: nl
+english: real-time strategy game
+current: hockey
+proposed: realtime strategiespel
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "realtime strategiespel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44257
+entryid: 55358
+permalink: 55358
+lesson: Entertainment - Gaming, Part 1
+lang: nl
+english: third-person shooter
+current: hockey
+proposed: third-person shooter
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "third-person shooter"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44260
+entryid: 55362
+permalink: 55362
+lesson: Entertainment - Gaming, Part 2
+lang: nl
+english: action-adventure game
+current: hockey
+proposed: actie-avontuurspel
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "actie-avontuurspel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44261
+entryid: 55364
+permalink: 55364
+lesson: Entertainment - Gaming, Part 2
+lang: nl
+english: turned-based strategy game
+current: hockey
+proposed: turn-based strategiespel
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "turn-based strategiespel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44262
+entryid: 55365
+permalink: 55365
+lesson: Entertainment - Gaming, Part 2
+lang: nl
+english: survival game
+current: hockey
+proposed: survivalgame
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "survivalgame"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44264
+entryid: 55367
+permalink: 55367
+lesson: Entertainment - Gaming, Part 2
+lang: nl
+english: horror game
+current: hockey
+proposed: horrorgame
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "horrorgame"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44267
+entryid: 55371
+permalink: 55371
+lesson: Entertainment - Gaming, Part 3
+lang: nl
+english: roleplaying game
+current: hockey
+proposed: rollenspel
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "rollenspel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44269
+entryid: 55373
+permalink: 55373
+lesson: Entertainment - Gaming, Part 3
+lang: nl
+english: dungeons and dragons
+current: hockey
+proposed: Dungeons & Dragons
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "Dungeons & Dragons"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44275
+entryid: 55381
+permalink: 55381
+lesson: Culture - Calendar, Part 1
+lang: nl
+english: January
+current: januari-
+proposed: Januari
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "Januari"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44284
+entryid: 55392
+permalink: 55392
+lesson: Culture - Calendar, Part 2
+lang: nl
+english: June
+current: juni-
+proposed: Juni
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "Juni"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44286
+entryid: 55394
+permalink: 55394
+lesson: Culture - Calendar, Part 2
+lang: nl
+english: July
+current: juli-
+proposed: Juli
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "Juli"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44297
+entryid: 55409
+permalink: 55409
+lesson: Culture - Calendar, Part 4
+lang: nl
+english: sunday
+current: december
+proposed: zondag
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "zondag"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44299
+entryid: 55411
+permalink: 55411
+lesson: Culture - Calendar, Part 4
+lang: nl
+english: monday
+current: december
+proposed: maandag
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "maandag"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44301
+entryid: 55413
+permalink: 55413
+lesson: Culture - Calendar, Part 4
+lang: nl
+english: tuesday
+current: december
+proposed: dinsdag
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "dinsdag"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44303
+entryid: 55415
+permalink: 55415
+lesson: Culture - Calendar, Part 4
+lang: nl
+english: wednesday
+current: december
+proposed: woensdag
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "woensdag"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44305
+entryid: 55419
+permalink: 55419
+lesson: Culture - Calendar, Part 5
+lang: nl
+english: thursday
+current: december
+proposed: donderdag
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "donderdag"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44307
+entryid: 55421
+permalink: 55421
+lesson: Culture - Calendar, Part 5
+lang: nl
+english: friday
+current: december
+proposed: vrijdag
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "vrijdag"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44309
+entryid: 55423
+permalink: 55423
+lesson: Culture - Calendar, Part 5
+lang: nl
+english: saturday
+current: december
+proposed: zaterdag
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "zaterdag"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44311
+entryid: 55425
+permalink: 55425
+lesson: Culture - Calendar, Part 5
+lang: nl
+english: weekday
+current: december
+proposed: weekdag
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "weekdag"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44368
+entryid: 55497
+permalink: 55497
+lesson: Culture - Countries, Part 1
+lang: nl
+english: india
+current: Indië
+proposed: India
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "India"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44396
+entryid: 55533
+permalink: 55533
+lesson: Culture - Countries, Part 5
+lang: nl
+english: Iran
+current: Ik rende
+proposed: Iran
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "Iran"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44413
+entryid: 55554
+permalink: 55554
+lesson: Culture - Countries, Part 7
+lang: nl
+english: North Korea
+current: Noord Korea
+proposed: Noord-Korea
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "Noord-Korea"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44458
+entryid: 55610
+permalink: 55610
+lesson: Culture - Ethnicities, Part 4
+lang: nl
+english: Philippine
+current: Filippijns
+proposed: Filipijns
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "Filipijns"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44482
+entryid: 55640
+permalink: 55640
+lesson: Culture - Ethnicities, Part 7
+lang: nl
+english: North Korean
+current: Noord Korea
+proposed: Noord-Koreaans
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "Noord-Koreaans"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44595
+entryid: 55781
+permalink: 55781
+lesson: Culture - Politics, Part 1
+lang: nl
+english: fascism
+current: fascism
+proposed: fascisme
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "fascisme"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44601
+entryid: 55789
+permalink: 55789
+lesson: Culture - Politics, Part 2
+lang: nl
+english: statism
+current: statism
+proposed: etatisme
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "etatisme"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44638
+entryid: 55835
+permalink: 55835
+lesson: Culture - Politics, Part 7
+lang: nl
+english: private property
+current: prive-bezit
+proposed: privébezit
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "privébezit"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44644
+entryid: 55843
+permalink: 55843
+lesson: Culture - Politics, Part 8
+lang: nl
+english: borders
+current: borders
+proposed: grenzen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "grenzen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44661
+entryid: 55864
+permalink: 55864
+lesson: Culture - Politics, Part 10
+lang: nl
+english: localism
+current: localism
+proposed: localisme
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "localisme"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44684
+entryid: 55893
+permalink: 55893
+lesson: Culture - Politics, Part 13
+lang: nl
+english: bill of rights
+current: bill van rechten
+proposed: verklaring van rechten
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "verklaring van rechten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44692
+entryid: 55902
+permalink: 55902
+lesson: Culture - Politics, Part 14
+lang: nl
+english: bill
+current: Bill
+proposed: wetsvoorstel
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "wetsvoorstel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44698
+entryid: 55910
+permalink: 55910
+lesson: Culture - Politics, Part 15
+lang: nl
+english: caucus
+current: caucus
+proposed: partijvergadering
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "partijvergadering"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44701
+entryid: 55914
+permalink: 55914
+lesson: Culture - Politics, Part 15
+lang: nl
+english: common law
+current: Gemenereg
+proposed: common law
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "common law"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44702
+entryid: 55915
+permalink: 55915
+lesson: Culture - Politics, Part 15
+lang: nl
+english: constituent
+current: bestanddeel
+proposed: kiezer
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "kiezer"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44715
+entryid: 55931
+permalink: 55931
+lesson: Culture - Politics, Part 17
+lang: nl
+english: dystopia
+current: dystopia
+proposed: dystopie
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "dystopie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44718
+entryid: 55935
+permalink: 55935
+lesson: Culture - Politics, Part 17
+lang: nl
+english: electorate
+current: keurvorstendom
+proposed: electoraat
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "electoraat"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44722
+entryid: 55940
+permalink: 55940
+lesson: Culture - Politics, Part 18
+lang: nl
+english: grass roots
+current: graswortels
+proposed: basis
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "basis"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44735
+entryid: 55957
+permalink: 55957
+lesson: Culture - Politics, Part 20
+lang: nl
+english: machiavellian
+current: Machiavels-
+proposed: machiavellistisch
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "machiavellistisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44741
+entryid: 55963
+permalink: 55963
+lesson: Culture - Politics, Part 20
+lang: nl
+english: mixed economy
+current: gemixte economie
+proposed: gemengde economie
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "gemengde economie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44745
+entryid: 55969
+permalink: 55969
+lesson: Culture - Politics, Part 21
+lang: nl
+english: muckraker
+current: muckraker
+proposed: onthullingsjournalist
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "onthullingsjournalist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44751
+entryid: 55977
+permalink: 55977
+lesson: Culture - Politics, Part 22
+lang: nl
+english: plebeian
+current: politiek platform
+proposed: plebeïër
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "plebeïër"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44752
+entryid: 55978
+permalink: 55978
+lesson: Culture - Politics, Part 22
+lang: nl
+english: patrician
+current: politiek platform
+proposed: patriciër
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "patriciër"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44754
+entryid: 55980
+permalink: 55980
+lesson: Culture - Politics, Part 22
+lang: nl
+english: plutocracy
+current: politiek platform
+proposed: plutocratie
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "plutocratie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44756
+entryid: 55982
+permalink: 55982
+lesson: Culture - Politics, Part 22
+lang: nl
+english: poll
+current: politiek platform
+proposed: peiling
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "peiling"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44759
+entryid: 55986
+permalink: 55986
+lesson: Culture - Politics, Part 23
+lang: nl
+english: proletariat
+current: politiek platform
+proposed: proletariaat
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "proletariaat"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44760
+entryid: 55988
+permalink: 55988
+lesson: Culture - Politics, Part 23
+lang: nl
+english: lumpenproletariat
+current: politiek platform
+proposed: lumpenproletariaat
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "lumpenproletariaat"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44762
+entryid: 55990
+permalink: 55990
+lesson: Culture - Politics, Part 23
+lang: nl
+english: marxism
+current: politiek platform
+proposed: marxisme
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "marxisme"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44764
+entryid: 55992
+permalink: 55992
+lesson: Culture - Politics, Part 23
+lang: nl
+english: sovietism
+current: politiek platform
+proposed: sovjetisme
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "sovjetisme"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44767
+entryid: 55996
+permalink: 55996
+lesson: Culture - Politics, Part 24
+lang: nl
+english: quota
+current: politiek platform
+proposed: quotum
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "quotum"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44768
+entryid: 55998
+permalink: 55998
+lesson: Culture - Politics, Part 24
+lang: nl
+english: recall
+current: politiek platform
+proposed: terugroeping
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "terugroeping"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44769
+entryid: 55999
+permalink: 55999
+lesson: Culture - Politics, Part 24
+lang: nl
+english: racial profiling
+current: politiek platform
+proposed: etnisch profileren
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "etnisch profileren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44771
+entryid: 56001
+permalink: 56001
+lesson: Culture - Politics, Part 24
+lang: nl
+english: recession
+current: politiek platform
+proposed: recessie
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "recessie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44774
+entryid: 56005
+permalink: 56005
+lesson: Culture - Politics, Part 25
+lang: nl
+english: redistribution
+current: politiek platform
+proposed: herverdeling
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "herverdeling"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44776
+entryid: 56007
+permalink: 56007
+lesson: Culture - Politics, Part 25
+lang: nl
+english: referendum
+current: politiek platform
+proposed: referendum
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "referendum"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44777
+entryid: 56009
+permalink: 56009
+lesson: Culture - Politics, Part 25
+lang: nl
+english: republic
+current: politiek platform
+proposed: republiek
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "republiek"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44779
+entryid: 56011
+permalink: 56011
+lesson: Culture - Politics, Part 25
+lang: nl
+english: repatriation
+current: politiek platform
+proposed: repatriëring
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "repatriëring"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44782
+entryid: 56015
+permalink: 56015
+lesson: Culture - Politics, Part 26
+lang: nl
+english: social justice
+current: politiek platform
+proposed: sociale rechtvaardigheid
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "sociale rechtvaardigheid"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44784
+entryid: 56017
+permalink: 56017
+lesson: Culture - Politics, Part 26
+lang: nl
+english: social engineering
+current: politiek platform
+proposed: social engineering
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "social engineering"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44785
+entryid: 56019
+permalink: 56019
+lesson: Culture - Politics, Part 26
+lang: nl
+english: syndicalism
+current: politiek platform
+proposed: syndicalisme
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "syndicalisme"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44821
+entryid: 56064
+permalink: 56064
+lesson: Culture - Politics, Part 31
+lang: nl
+english: libertarian
+current: libertaire
+proposed: libertair
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "libertair"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44823
+entryid: 56066
+permalink: 56066
+lesson: Culture - Politics, Part 31
+lang: nl
+english: statist
+current: statist
+proposed: etatist
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "etatist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44829
+entryid: 56074
+permalink: 56074
+lesson: Culture - Politics, Part 32
+lang: nl
+english: left-winger
+current: linksbuiten
+proposed: linkser
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "linkser"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44844
+entryid: 56093
+permalink: 56093
+lesson: Culture - Politics, Part 34
+lang: nl
+english: theocrat
+current: theocrat
+proposed: theocraat
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "theocraat"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44848
+entryid: 56097
+permalink: 56097
+lesson: Culture - Politics, Part 34
+lang: nl
+english: inquisitor
+current: inquisitoir
+proposed: inquisiteur
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "inquisiteur"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44881
+entryid: 56139
+permalink: 56139
+lesson: Culture - Politics, Part 39
+lang: nl
+english: sexist
+current: Translation error
+proposed: seksist
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "seksist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44885
+entryid: 56143
+permalink: 56143
+lesson: Culture - Politics, Part 39
+lang: nl
+english: homophobe
+current: homophobe
+proposed: homofoob
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "homofoob"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 44902
+entryid: 56164
+permalink: 56164
+lesson: Culture - Politics, Part 41
+lang: nl
+english: rank and file
+current: Translation error
+proposed: de gewone leden
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "de gewone leden"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45005
+entryid: 56294
+permalink: 56294
+lesson: Adjectives - Numbers, Part 14
+lang: nl
+english: one thousand, eight hundred
+current: achttien honderd
+proposed: achttienhonderd
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "achttienhonderd"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45012
+entryid: 56303
+permalink: 56303
+lesson: Adjectives - Numbers, Part 15
+lang: nl
+english: two thousand, two
+current: tweeduizend, twee
+proposed: tweeduizendtwee
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "tweeduizendtwee"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45039
+entryid: 56336
+permalink: 56336
+lesson: Adjectives - Numbers, Part 18
+lang: nl
+english: two thousand, sixteen
+current: tweeduizend, vijftien
+proposed: tweeduizendzestien
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "tweeduizendzestien"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45045
+entryid: 56344
+permalink: 56344
+lesson: Adjectives - Numbers, Part 19
+lang: nl
+english: two thousand, nineteen
+current: tweeduizend, negentien
+proposed: tweeduizendnegentien
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "tweeduizendnegentien"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45051
+entryid: 56351
+permalink: 56351
+lesson: Adjectives - Numbers, Part 20
+lang: nl
+english: two thousand, one hundred, two
+current: tweeduizend, honderd twee
+proposed: tweeduizendhonderdtwee
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "tweeduizendhonderdtwee"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47431
+entryid: 59346
+permalink: 59346
+lesson: Culture - Food and Drink, Part 7
+lang: nl
+english: dip
+current: onderdompeling
+proposed: dip
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Van Dale, s.v. "dip"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47436
+entryid: 59352
+permalink: 59352
+lesson: Culture - Food and Drink, Part 8
+lang: nl
+english: macaroni
+current: broodrollacaroni
+proposed: macaroni
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Van Dale, s.v. "macaroni"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47452
+entryid: 59372
+permalink: 59372
+lesson: Culture - Food and Drink, Part 12
+lang: nl
+english: energy bar
+current: energie reep
+proposed: energiereep
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Van Dale, s.v. "energiereep"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47464
+entryid: 59387
+permalink: 59387
+lesson: Culture - Food and Drink, Part 15
+lang: nl
+english: seltzer water
+current: seltzer water
+proposed: spuitwater
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "spuitwater"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47466
+entryid: 59390
+permalink: 59390
+lesson: Culture - Food and Drink, Part 16
+lang: nl
+english: soda
+current: soda-
+proposed: frisdrank
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Van Dale, s.v. "frisdrank"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09

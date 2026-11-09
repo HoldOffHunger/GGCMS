@@ -1,0 +1,5072 @@
+# German (de) — EarthFluent translation review
+# Confirmed 9 Nov 2026 by Claude from the local models' suspects (E:\AIWorkers\earthfluent\triage\de.triage.txt),
+# checked against prod's dump of 1 Nov 2026, with each batch fault widened to the rows the models missed.
+# 362 records. Casing follows the English. Format: see README.md.
+
+id: 248
+entryid: 324
+permalink: 324
+lesson: Nouns - Animals, Part 1
+lang: de
+english: Komodo Dragon
+current: Komodo Drache
+proposed: Komodowaran
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Duden, s.v. "Komodowaran"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 261
+entryid: 340
+permalink: 340
+lesson: Nouns - Animals, Part 4
+lang: de
+english: Gerbil
+current: Gerbil
+proposed: Rennmaus
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Rennmaus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 271
+entryid: 353
+permalink: 353
+lesson: Nouns - Animals, Part 6
+lang: de
+english: Chipmunk
+current: Chipmunk
+proposed: Streifenhörnchen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Streifenhörnchen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 299
+entryid: 388
+permalink: 388
+lesson: Nouns - Animals, Part 13
+lang: de
+english: Panda Bear
+current: Panda-Bär
+proposed: Pandabär
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Duden, s.v. "Pandabär"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 305
+entryid: 399
+permalink: 399
+lesson: Nouns - Animals, Part 15
+lang: de
+english: Worm
+current: Gusano
+proposed: Wurm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Wurm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 315
+entryid: 412
+permalink: 412
+lesson: Nouns - Animals, Part 17
+lang: de
+english: Koala Bear
+current: Koala-Bär
+proposed: Koalabär
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Duden, s.v. "Koalabär"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 329
+entryid: 433
+permalink: 433
+lesson: Nouns - Animals, Part 20
+lang: de
+english: Seahorse
+current: Seahorse
+proposed: Seepferdchen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Seepferdchen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2690
+entryid: 3418
+permalink: 3418
+lesson: Verbs - Physical Activity, Part 6
+lang: de
+english: strike
+current: Streik
+proposed: schlagen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "schlagen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2693
+entryid: 3421
+permalink: 3421
+lesson: Verbs - Physical Activity, Part 6
+lang: de
+english: touch
+current: Chargetouch
+proposed: berühren
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "berühren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2696
+entryid: 3425
+permalink: 3425
+lesson: Verbs - Physical Activity, Part 7
+lang: de
+english: nod
+current: Zerstören
+proposed: nicken
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "nicken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2707
+entryid: 3439
+permalink: 3439
+lesson: Verbs - Physical Activity, Part 10
+lang: de
+english: jump
+current: Brennenjump
+proposed: springen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "springen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2708
+entryid: 3440
+permalink: 3440
+lesson: Verbs - Physical Activity, Part 10
+lang: de
+english: slip
+current: Unterhose
+proposed: rutschen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "rutschen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2717
+entryid: 3451
+permalink: 3451
+lesson: Verbs - Physical Activity, Part 12
+lang: de
+english: surround
+current: Besetzen
+proposed: umgeben
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "umgeben"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2719
+entryid: 3454
+permalink: 3454
+lesson: Verbs - Physical Activity, Part 13
+lang: de
+english: construct
+current: Connectconstruct
+proposed: konstruieren
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "konstruieren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2722
+entryid: 3458
+permalink: 3458
+lesson: Verbs - Physical Activity, Part 14
+lang: de
+english: cook
+current: Beschädigt
+proposed: kochen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "kochen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2725
+entryid: 3461
+permalink: 3461
+lesson: Verbs - Physical Activity, Part 14
+lang: de
+english: breathe
+current: Rennen
+proposed: atmen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "atmen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2729
+entryid: 3466
+permalink: 3466
+lesson: Verbs - Physical Activity, Part 15
+lang: de
+english: rush
+current: Entspannung
+proposed: eilen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "eilen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2732
+entryid: 3470
+permalink: 3470
+lesson: Verbs - Physical Activity, Part 16
+lang: de
+english: capture
+current: Erfassung
+proposed: einfangen
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "einfangen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2733
+entryid: 3471
+permalink: 3471
+lesson: Verbs - Physical Activity, Part 16
+lang: de
+english: tackle
+current: Capturetackle
+proposed: tackeln
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "tackeln"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2743
+entryid: 3484
+permalink: 3484
+lesson: Verbs - Physical Activity, Part 19
+lang: de
+english: wander
+current: Schwimmen
+proposed: wandern
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "wandern"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2770
+entryid: 3518
+permalink: 3518
+lesson: Verbs - Mental Activity, Part 5
+lang: de
+english: wonder
+current: Wunder
+proposed: sich fragen
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "sich fragen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2783
+entryid: 3534
+permalink: 3534
+lesson: Verbs - Mental Activity, Part 8
+lang: de
+english: study
+current: Studie
+proposed: studieren
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "studieren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2803
+entryid: 3559
+permalink: 3559
+lesson: Verbs - Mental Activity, Part 13
+lang: de
+english: count
+current: Graf
+proposed: zählen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "zählen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2810
+entryid: 3568
+permalink: 3568
+lesson: Verbs - Mental Activity, Part 15
+lang: de
+english: dismiss
+current: Anerkennung
+proposed: abtun
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "abtun"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2825
+entryid: 3586
+permalink: 3586
+lesson: Verbs - Mental Activity, Part 18
+lang: de
+english: doubt
+current: Zweifel
+proposed: zweifeln
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "zweifeln"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2834
+entryid: 3598
+permalink: 3598
+lesson: Verbs - Social Activity, Part 1
+lang: de
+english: show
+current: Show
+proposed: zeigen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "zeigen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2839
+entryid: 3605
+permalink: 3605
+lesson: Verbs - Social Activity, Part 3
+lang: de
+english: meet
+current: Allowmeet
+proposed: treffen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "treffen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2845
+entryid: 3612
+permalink: 3612
+lesson: Verbs - Social Activity, Part 4
+lang: de
+english: lie
+current: Lüge
+proposed: lügen
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "lügen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2859
+entryid: 3630
+permalink: 3630
+lesson: Verbs - Social Activity, Part 8
+lang: de
+english: listen
+current: Hör mal zu
+proposed: zuhören
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "zuhören"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2868
+entryid: 3641
+permalink: 3641
+lesson: Verbs - Social Activity, Part 10
+lang: de
+english: sign
+current: Bedeutet
+proposed: unterschreiben
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "unterschreiben"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2876
+entryid: 3651
+permalink: 3651
+lesson: Verbs - Social Activity, Part 12
+lang: de
+english: order
+current: Auftrag
+proposed: befehlen
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "befehlen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2881
+entryid: 3657
+permalink: 3657
+lesson: Verbs - Social Activity, Part 13
+lang: de
+english: feed
+current: Futter
+proposed: füttern
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "füttern"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2888
+entryid: 3666
+permalink: 3666
+lesson: Verbs - Social Activity, Part 15
+lang: de
+english: impose
+current: sich aufdrängen
+proposed: auferlegen
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "auferlegen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2916
+entryid: 3701
+permalink: 3701
+lesson: Verbs - Social Activity, Part 22
+lang: de
+english: engage
+current: dominateengage
+proposed: sich beteiligen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "sich beteiligen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2919
+entryid: 3705
+permalink: 3705
+lesson: Verbs - Social Activity, Part 23
+lang: de
+english: bother
+current: Mühe
+proposed: stören
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "stören"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2931
+entryid: 3720
+permalink: 3720
+lesson: Verbs - Social Activity, Part 26
+lang: de
+english: urge
+current: Vertrauen
+proposed: drängen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "drängen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2935
+entryid: 3725
+permalink: 3725
+lesson: Verbs - Social Activity, Part 27
+lang: de
+english: date
+current: Datum
+proposed: daten
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "daten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2940
+entryid: 3731
+permalink: 3731
+lesson: Verbs - Social Activity, Part 28
+lang: de
+english: guarantee
+current: Rücknahmegarantie
+proposed: garantieren
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "garantieren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2951
+entryid: 3745
+permalink: 3745
+lesson: Verbs - Social Activity, Part 31
+lang: de
+english: wave
+current: Anfragewunsch
+proposed: winken
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "winken"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2957
+entryid: 3752
+permalink: 3752
+lesson: Verbs - Social Activity, Part 32
+lang: de
+english: convince
+current: convince
+proposed: überzeugen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "überzeugen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2981
+entryid: 3782
+permalink: 3782
+lesson: Verbs - Economic Activity, Part 2
+lang: de
+english: offer
+current: Produzieren
+proposed: anbieten
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "anbieten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 2997
+entryid: 3803
+permalink: 3803
+lesson: Verbs - Economic Activity, Part 7
+lang: de
+english: afford
+current: gewähren
+proposed: sich leisten
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "sich leisten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3049
+entryid: 3869
+permalink: 3869
+lesson: Verbs - Activity With Objects, Part 7
+lang: de
+english: shake
+current: Shake
+proposed: schütteln
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "schütteln"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3063
+entryid: 3887
+permalink: 3887
+lesson: Verbs - Activity With Objects, Part 11
+lang: de
+english: fix
+current: Fix
+proposed: reparieren
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "reparieren"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3074
+entryid: 3901
+permalink: 3901
+lesson: Verbs - Activity With Objects, Part 14
+lang: de
+english: pack
+current: Pack
+proposed: packen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "packen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3093
+entryid: 3924
+permalink: 3924
+lesson: Verbs - Activity With Objects, Part 18
+lang: de
+english: rip
+current: Ruhe in Frieden
+proposed: reißen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "reißen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3099
+entryid: 3932
+permalink: 3932
+lesson: Verbs - General Activity, Part 2
+lang: de
+english: look
+current: look
+proposed: schauen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "schauen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3113
+entryid: 3949
+permalink: 3949
+lesson: Verbs - General Activity, Part 5
+lang: de
+english: win
+current: Sieg
+proposed: gewinnen
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "gewinnen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3143
+entryid: 3987
+permalink: 3987
+lesson: Verbs - General Activity, Part 13
+lang: de
+english: save
+current: save
+proposed: retten
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "retten"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3178
+entryid: 4031
+permalink: 4031
+lesson: Verbs - General Activity, Part 22
+lang: de
+english: expose
+current: Expose
+proposed: aussetzen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "aussetzen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3197
+entryid: 4055
+permalink: 4055
+lesson: Verbs - Emotional Activity, Part 3
+lang: de
+english: miss
+current: Fräulein
+proposed: vermissen
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "vermissen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3202
+entryid: 4061
+permalink: 4061
+lesson: Verbs - Emotional Activity, Part 4
+lang: de
+english: cry
+current: Schrei
+proposed: weinen
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "weinen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3222
+entryid: 4086
+permalink: 4086
+lesson: Verbs - Physical Activity, Part 2
+lang: de
+english: walk
+current: walk
+proposed: gehen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "gehen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3229
+entryid: 4095
+permalink: 4095
+lesson: Verbs - Physical Activity, Part 4
+lang: de
+english: turn
+current: Wende
+proposed: drehen
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "drehen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 3231
+entryid: 4097
+permalink: 4097
+lesson: Verbs - Physical Activity, Part 4
+lang: de
+english: fly
+current: Fliege
+proposed: fliegen
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "fliegen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15077
+entryid: 18966
+permalink: 18966
+lesson: Nouns - Concepts, Part 3
+lang: de
+english: form
+current: bilden
+proposed: Form
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "Form"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15144
+entryid: 19050
+permalink: 19050
+lesson: Nouns - Concepts, Part 20
+lang: de
+english: look
+current: Schau
+proposed: Blick
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "Blick"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15253
+entryid: 19186
+permalink: 19186
+lesson: Nouns - Concepts, Part 47
+lang: de
+english: core
+current: Ader
+proposed: Kern
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Kern"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15359
+entryid: 19319
+permalink: 19319
+lesson: Nouns - Concepts, Part 74
+lang: de
+english: bulk
+current: Bulk
+proposed: Menge
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Menge"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15439
+entryid: 19419
+permalink: 19419
+lesson: Nouns - Measurements, Part 1
+lang: de
+english: west
+current: West-
+proposed: Westen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Westen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15440
+entryid: 19421
+permalink: 19421
+lesson: Nouns - Measurements, Part 2
+lang: de
+english: summer
+current: Sommer-
+proposed: Sommer
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Sommer"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15442
+entryid: 19423
+permalink: 19423
+lesson: Nouns - Measurements, Part 2
+lang: de
+english: fall
+current: fallen
+proposed: Herbst
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Herbst"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15503
+entryid: 19499
+permalink: 19499
+lesson: Nouns - Measurements, Part 17
+lang: de
+english: scale
+current: Rahmen
+proposed: Maßstab
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Maßstab"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15509
+entryid: 19507
+permalink: 19507
+lesson: Nouns - Measurements, Part 19
+lang: de
+english: shape
+current: gestalten
+proposed: Form
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "Form"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15517
+entryid: 19517
+permalink: 19517
+lesson: Nouns - Measurements, Part 21
+lang: de
+english: sample
+current: Sample
+proposed: Probe
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Probe"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15540
+entryid: 19546
+permalink: 19546
+lesson: Nouns - Measurements, Part 27
+lang: de
+english: round
+current: runden
+proposed: Runde
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "Runde"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15561
+entryid: 19572
+permalink: 19572
+lesson: Nouns - Measurements, Part 32
+lang: de
+english: count
+current: Graf
+proposed: Zählung
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Zählung"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15635
+entryid: 19665
+permalink: 19665
+lesson: Nouns - People, Part 17
+lang: de
+english: executive
+current: Exekutive
+proposed: Führungskraft
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Führungskraft"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15693
+entryid: 19739
+permalink: 19739
+lesson: Nouns - People, Part 33
+lang: de
+english: fan
+current: Ventilator
+proposed: Fan
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Fan"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15740
+entryid: 19797
+permalink: 19797
+lesson: Nouns - People, Part 44
+lang: de
+english: relative
+current: relativ
+proposed: Verwandter
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "Verwandter"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15774
+entryid: 19840
+permalink: 19840
+lesson: Nouns - People, Part 53
+lang: de
+english: operator
+current: Operator
+proposed: Bediener
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Bediener"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15776
+entryid: 19842
+permalink: 19842
+lesson: Nouns - People, Part 53
+lang: de
+english: professional
+current: Professional
+proposed: Profi
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Profi"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15785
+entryid: 19854
+permalink: 19854
+lesson: Nouns - People, Part 56
+lang: de
+english: sergeant
+current: Sergeant
+proposed: Feldwebel
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Feldwebel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15791
+entryid: 19861
+permalink: 19861
+lesson: Nouns - People, Part 57
+lang: de
+english: fellow
+current: Fellow
+proposed: Kollege
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Kollege"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15857
+entryid: 19944
+permalink: 19944
+lesson: Nouns - People, Part 74
+lang: de
+english: palm
+current: Palme
+proposed: Handfläche
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Handfläche"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15978
+entryid: 20096
+permalink: 20096
+lesson: Nouns - Society, Part 31
+lang: de
+english: trial
+current: Versuch
+proposed: Prozess
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Prozess"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15988
+entryid: 20108
+permalink: 20108
+lesson: Nouns - Society, Part 33
+lang: de
+english: rise
+current: erhebt euch
+proposed: Anstieg
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "Anstieg"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 15992
+entryid: 20113
+permalink: 20113
+lesson: Nouns - Society, Part 34
+lang: de
+english: belief
+current: Glauben
+proposed: Glaube
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "Glaube"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16088
+entryid: 20234
+permalink: 20234
+lesson: Nouns - Society, Part 59
+lang: de
+english: resolution
+current: Lösung
+proposed: Beschluss
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Beschluss"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16227
+entryid: 20408
+permalink: 20408
+lesson: Nouns - Society, Part 94
+lang: de
+english: banking
+current: Banking
+proposed: Bankwesen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Bankwesen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16243
+entryid: 20428
+permalink: 20428
+lesson: Nouns - Society, Part 98
+lang: de
+english: raid
+current: Raid
+proposed: Überfall
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Überfall"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16268
+entryid: 20459
+permalink: 20459
+lesson: Nouns - Society, Part 104
+lang: de
+english: receipt
+current: Eingang
+proposed: Quittung
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Quittung"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16347
+entryid: 20558
+permalink: 20558
+lesson: Nouns - Ideas, Part 5
+lang: de
+english: model
+current: Modell-
+proposed: Modell
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Modell"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16355
+entryid: 20568
+permalink: 20568
+lesson: Nouns - Ideas, Part 7
+lang: de
+english: thought
+current: habe gedacht
+proposed: Gedanke
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "Gedanke"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16535
+entryid: 20794
+permalink: 20794
+lesson: Nouns - Places, Part 23
+lang: de
+english: peak
+current: Haupt
+proposed: Gipfel
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Gipfel"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16570
+entryid: 20838
+permalink: 20838
+lesson: Nouns - Places, Part 32
+lang: de
+english: cliff
+current: Cliff
+proposed: Klippe
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Klippe"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16575
+entryid: 20844
+permalink: 20844
+lesson: Nouns - Places, Part 33
+lang: de
+english: avenue
+current: Avenue
+proposed: Allee
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Allee"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16597
+entryid: 20872
+permalink: 20872
+lesson: Nouns - Objects, Part 3
+lang: de
+english: table
+current: Tabelle
+proposed: Tisch
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Tisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16632
+entryid: 20916
+permalink: 20916
+lesson: Nouns - Objects, Part 12
+lang: de
+english: press
+current: Drücken Sie
+proposed: Presse
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "Presse"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16641
+entryid: 20927
+permalink: 20927
+lesson: Nouns - Objects, Part 14
+lang: de
+english: rock
+current: Rock
+proposed: Felsen
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Felsen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16666
+entryid: 20959
+permalink: 20959
+lesson: Nouns - Objects, Part 21
+lang: de
+english: painting
+current: Malerei
+proposed: Gemälde
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Gemälde"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16690
+entryid: 20989
+permalink: 20989
+lesson: Nouns - Objects, Part 27
+lang: de
+english: acid
+current: Acid
+proposed: Säure
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Säure"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16725
+entryid: 21032
+permalink: 21032
+lesson: Nouns - Objects, Part 35
+lang: de
+english: motor
+current: Motor-
+proposed: Motor
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Motor"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16739
+entryid: 21050
+permalink: 21050
+lesson: Nouns - Objects, Part 39
+lang: de
+english: plane
+current: Ebene
+proposed: Flugzeug
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Flugzeug"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16745
+entryid: 21057
+permalink: 21057
+lesson: Nouns - Objects, Part 40
+lang: de
+english: prize
+current: Preis-
+proposed: Preis
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Preis"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16757
+entryid: 21072
+permalink: 21072
+lesson: Nouns - Objects, Part 43
+lang: de
+english: silver
+current: Silber-
+proposed: Silber
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Silber"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16763
+entryid: 21080
+permalink: 21080
+lesson: Nouns - Objects, Part 45
+lang: de
+english: steel
+current: stehlen
+proposed: Stahl
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Stahl"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16781
+entryid: 21103
+permalink: 21103
+lesson: Nouns - Objects, Part 50
+lang: de
+english: mail
+current: Mail
+proposed: Post
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Post"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16811
+entryid: 21140
+permalink: 21140
+lesson: Nouns - Objects, Part 57
+lang: de
+english: label
+current: Etikette
+proposed: Etikett
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Etikett"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16812
+entryid: 21141
+permalink: 21141
+lesson: Nouns - Objects, Part 57
+lang: de
+english: pot
+current: Pot
+proposed: Topf
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Topf"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16825
+entryid: 21158
+permalink: 21158
+lesson: Nouns - Objects, Part 61
+lang: de
+english: register
+current: Neu registrieren
+proposed: Register
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "Register"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16851
+entryid: 21190
+permalink: 21190
+lesson: Nouns - Objects, Part 67
+lang: de
+english: vat
+current: Wat
+proposed: Bottich
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Bottich"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16866
+entryid: 21209
+permalink: 21209
+lesson: Nouns - Objects, Part 71
+lang: de
+english: roll
+current: rollen
+proposed: Rolle
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "Rolle"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16870
+entryid: 21214
+permalink: 21214
+lesson: Nouns - Objects, Part 72
+lang: de
+english: kit
+current: Kit
+proposed: Bausatz
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Bausatz"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16910
+entryid: 21264
+permalink: 21264
+lesson: Nouns - Objects, Part 82
+lang: de
+english: bronze
+current: Bronze-
+proposed: Bronze
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Bronze"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 16990
+entryid: 21364
+permalink: 21364
+lesson: Adjectives - Quality, Part 4
+lang: de
+english: joint
+current: Joint
+proposed: gemeinsam
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "gemeinsam"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17046
+entryid: 21434
+permalink: 21434
+lesson: Adjectives - Quality, Part 18
+lang: de
+english: floppy
+current: Floppy
+proposed: schlaff
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "schlaff"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17077
+entryid: 21473
+permalink: 21473
+lesson: Adjectives - Quality, Part 26
+lang: de
+english: steely
+current: Steely
+proposed: stählern
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "stählern"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17099
+entryid: 21500
+permalink: 21500
+lesson: Adjectives - Quality, Part 31
+lang: de
+english: fizzy
+current: Fizzy
+proposed: sprudelnd
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "sprudelnd"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17101
+entryid: 21503
+permalink: 21503
+lesson: Adjectives - Quality, Part 32
+lang: de
+english: weedy
+current: Weedy
+proposed: schmächtig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "schmächtig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17162
+entryid: 21579
+permalink: 21579
+lesson: Adjectives - Social, Part 14
+lang: de
+english: bold
+current: Fett gedruckt
+proposed: mutig
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "mutig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17177
+entryid: 21598
+permalink: 21598
+lesson: Adjectives - Social, Part 18
+lang: de
+english: dim
+current: Dim
+proposed: beschränkt
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "beschränkt"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17178
+entryid: 21599
+permalink: 21599
+lesson: Adjectives - Social, Part 18
+lang: de
+english: daft
+current: Daft
+proposed: dämlich
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "dämlich"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17205
+entryid: 21633
+permalink: 21633
+lesson: Adjectives - Social, Part 25
+lang: de
+english: staunch
+current: stillen
+proposed: standhaft
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "standhaft"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17219
+entryid: 21650
+permalink: 21650
+lesson: Adjectives - Social, Part 28
+lang: de
+english: arty
+current: Arty
+proposed: künstlerisch
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "künstlerisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17220
+entryid: 21652
+permalink: 21652
+lesson: Adjectives - Social, Part 29
+lang: de
+english: brash
+current: Schürzen
+proposed: frech
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "frech"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17225
+entryid: 21658
+permalink: 21658
+lesson: Adjectives - Social, Part 30
+lang: de
+english: snide
+current: Snide
+proposed: hämisch
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "hämisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17231
+entryid: 21665
+permalink: 21665
+lesson: Adjectives - Social, Part 31
+lang: de
+english: sleazy
+current: Sleazy
+proposed: schmierig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "schmierig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17236
+entryid: 21672
+permalink: 21672
+lesson: Adjectives - Social, Part 33
+lang: de
+english: trusty
+current: Vertrauensvoll
+proposed: treu
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "treu"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17238
+entryid: 21674
+permalink: 21674
+lesson: Adjectives - Social, Part 33
+lang: de
+english: canny
+current: Canny
+proposed: geschickt
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "geschickt"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17289
+entryid: 21738
+permalink: 21738
+lesson: Adjectives - Feeling, Part 13
+lang: de
+english: foul
+current: Foul
+proposed: ekelhaft
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "ekelhaft"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17296
+entryid: 21747
+permalink: 21747
+lesson: Adjectives - Feeling, Part 15
+lang: de
+english: wry
+current: Wry
+proposed: ironisch
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "ironisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17304
+entryid: 21757
+permalink: 21757
+lesson: Adjectives - Feeling, Part 17
+lang: de
+english: sane
+current: Gesund
+proposed: vernünftig
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "vernünftig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17305
+entryid: 21758
+permalink: 21758
+lesson: Adjectives - Feeling, Part 17
+lang: de
+english: shrill
+current: schrillen
+proposed: schrill
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "schrill"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17306
+entryid: 21759
+permalink: 21759
+lesson: Adjectives - Feeling, Part 17
+lang: de
+english: numb
+current: betäuben
+proposed: taub
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "taub"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17311
+entryid: 21765
+permalink: 21765
+lesson: Adjectives - Feeling, Part 18
+lang: de
+english: sublime
+current: sublimieren
+proposed: erhaben
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Duden, s.v. "erhaben"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17318
+entryid: 21774
+permalink: 21774
+lesson: Adjectives - Feeling, Part 20
+lang: de
+english: slimey
+current: Schlank
+proposed: schleimig
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "schleimig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17321
+entryid: 21778
+permalink: 21778
+lesson: Adjectives - Feeling, Part 21
+lang: de
+english: dour
+current: Dour
+proposed: mürrisch
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "mürrisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17328
+entryid: 21787
+permalink: 21787
+lesson: Adjectives - Feeling, Part 23
+lang: de
+english: mellow
+current: Mellow
+proposed: entspannt
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "entspannt"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17340
+entryid: 21802
+permalink: 21802
+lesson: Adjectives - Feeling, Part 26
+lang: de
+english: bubbly
+current: sprudelnd
+proposed: quirlig
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "quirlig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17341
+entryid: 21803
+permalink: 21803
+lesson: Adjectives - Feeling, Part 26
+lang: de
+english: zany
+current: Zany
+proposed: skurril
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "skurril"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17362
+entryid: 21829
+permalink: 21829
+lesson: Adjectives - Appearance, Part 5
+lang: de
+english: round
+current: runden
+proposed: rund
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "rund"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17384
+entryid: 21857
+permalink: 21857
+lesson: Adjectives - Appearance, Part 11
+lang: de
+english: stout
+current: Stout
+proposed: stämmig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "stämmig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17396
+entryid: 21872
+permalink: 21872
+lesson: Adjectives - Appearance, Part 14
+lang: de
+english: rosey
+current: Rosey
+proposed: rosig
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "rosig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17401
+entryid: 21878
+permalink: 21878
+lesson: Adjectives - Appearance, Part 15
+lang: de
+english: ruddy
+current: Ruddy
+proposed: rötlich
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "rötlich"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 17404
+entryid: 21882
+permalink: 21882
+lesson: Adjectives - Appearance, Part 16
+lang: de
+english: husky
+current: heiser
+proposed: kräftig
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "kräftig"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 40966
+entryid: 51237
+permalink: 51237
+lesson: Entertainment - Music, Part 4
+lang: de
+english: trip hop
+current: Reise hop
+proposed: Trip-Hop
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Trip-Hop"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 40972
+entryid: 51245
+permalink: 51245
+lesson: Entertainment - Music, Part 5
+lang: de
+english: drum and bass
+current: Trommel und Bass
+proposed: Drum and Bass
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Drum and Bass"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 40977
+entryid: 51251
+permalink: 51251
+lesson: Entertainment - Music, Part 6
+lang: de
+english: goth music
+current: goth musik
+proposed: Gothic-Musik
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Gothic-Musik"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 40986
+entryid: 51263
+permalink: 51263
+lesson: Entertainment - Music, Part 7
+lang: de
+english: music band
+current: Musik Band
+proposed: Musikband
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Musikband"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41025
+entryid: 51311
+permalink: 51311
+lesson: Entertainment - Books, Part 1
+lang: de
+english: fictional novel
+current: fiktiven Roman
+proposed: fiktiver Roman
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "fiktiver Roman"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41072
+entryid: 51370
+permalink: 51370
+lesson: Entertainment - Film, Part 4
+lang: de
+english: scifi
+current: scifi
+proposed: Science-Fiction
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Science-Fiction"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41077
+entryid: 51377
+permalink: 51377
+lesson: Entertainment - Film, Part 5
+lang: de
+english: dance dance revolution
+current: Tanztanz Revolution
+proposed: Dance Dance Revolution
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Dance Dance Revolution"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41145
+entryid: 51461
+permalink: 51461
+lesson: Entertainment - Gaming, Part 1
+lang: de
+english: third-person shooter
+current: Dritter-Shooter
+proposed: Third-Person-Shooter
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Third-Person-Shooter"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41158
+entryid: 51477
+permalink: 51477
+lesson: Entertainment - Gaming, Part 3
+lang: de
+english: dungeons and dragons
+current: Verliese und Drachen
+proposed: Dungeons & Dragons
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Dungeons & Dragons"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41171
+entryid: 51494
+permalink: 51494
+lesson: Culture - Calendar, Part 2
+lang: de
+english: May
+current: Kann
+proposed: Mai
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Mai"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41233
+entryid: 51572
+permalink: 51572
+lesson: Culture - Religion, Part 5
+lang: de
+english: Christian
+current: Christian
+proposed: Christ
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Christ"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41239
+entryid: 51578
+permalink: 51578
+lesson: Culture - Religion, Part 5
+lang: de
+english: Hindu
+current: Hindu-
+proposed: Hindu
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Hindu"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41289
+entryid: 51641
+permalink: 51641
+lesson: Culture - Countries, Part 5
+lang: de
+english: Iran
+current: Ich rannte
+proposed: Iran
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Iran"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41290
+entryid: 51643
+permalink: 51643
+lesson: Culture - Countries, Part 5
+lang: de
+english: Turkey
+current: Truthahn
+proposed: Türkei
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Türkei"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41339
+entryid: 51703
+permalink: 51703
+lesson: Culture - Ethnicities, Part 2
+lang: de
+english: nigerian
+current: nigerianischen
+proposed: nigerianisch
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "nigerianisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41340
+entryid: 51705
+permalink: 51705
+lesson: Culture - Ethnicities, Part 2
+lang: de
+english: bengali
+current: Bengali
+proposed: bengalisch
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "bengalisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41343
+entryid: 51709
+permalink: 51709
+lesson: Culture - Ethnicities, Part 3
+lang: de
+english: russian
+current: Translation error
+proposed: russisch
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "russisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41351
+entryid: 51719
+permalink: 51719
+lesson: Culture - Ethnicities, Part 4
+lang: de
+english: Philippine
+current: Philippinischen
+proposed: Philippinisch
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "Philippinisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41362
+entryid: 51732
+permalink: 51732
+lesson: Culture - Ethnicities, Part 5
+lang: de
+english: Thai
+current: Siamesisch
+proposed: Thailändisch
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Thailändisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41376
+entryid: 51750
+permalink: 51750
+lesson: Culture - Ethnicities, Part 7
+lang: de
+english: North Korean
+current: Nord Korea
+proposed: Nordkoreanisch
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Nordkoreanisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41389
+entryid: 51767
+permalink: 51767
+lesson: Culture - Ethnicities, Part 9
+lang: de
+english: Polish
+current: Polieren
+proposed: Polnisch
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Polnisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41409
+entryid: 51791
+permalink: 51791
+lesson: Culture - Languages, Part 2
+lang: de
+english: Javanese
+current: Javanischen
+proposed: Javanisch
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Duden, s.v. "Javanisch"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41561
+entryid: 51982
+permalink: 51982
+lesson: Culture - Politics, Part 10
+lang: de
+english: localism
+current: lokalismus
+proposed: Lokalpatriotismus
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Lokalpatriotismus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41587
+entryid: 52014
+permalink: 52014
+lesson: Culture - Politics, Part 13
+lang: de
+english: partisan
+current: Partisan
+proposed: Parteigänger
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Parteigänger"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41599
+entryid: 52029
+permalink: 52029
+lesson: Culture - Politics, Part 15
+lang: de
+english: caucus
+current: caucus
+proposed: Fraktionssitzung
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Fraktionssitzung"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41623
+entryid: 52059
+permalink: 52059
+lesson: Culture - Politics, Part 18
+lang: de
+english: federalism
+current: Wählerschaft
+proposed: Föderalismus
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Föderalismus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41624
+entryid: 52060
+permalink: 52060
+lesson: Culture - Politics, Part 18
+lang: de
+english: grass roots
+current: Wählerschaft
+proposed: Basis
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Basis"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 41626
+entryid: 52062
+permalink: 52062
+lesson: Culture - Politics, Part 18
+lang: de
+english: hegemony
+current: Wählerschaft
+proposed: Hegemonie
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Hegemonie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41627
+entryid: 52064
+permalink: 52064
+lesson: Culture - Politics, Part 18
+lang: de
+english: senate
+current: Wählerschaft
+proposed: Senat
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Senat"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 41630
+entryid: 52068
+permalink: 52068
+lesson: Culture - Politics, Part 19
+lang: de
+english: house of commons
+current: Wählerschaft
+proposed: Unterhaus
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Unterhaus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41632
+entryid: 52070
+permalink: 52070
+lesson: Culture - Politics, Part 19
+lang: de
+english: incumbent
+current: Wählerschaft
+proposed: Amtsinhaber
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Amtsinhaber"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41634
+entryid: 52072
+permalink: 52072
+lesson: Culture - Politics, Part 19
+lang: de
+english: jingoism
+current: Wählerschaft
+proposed: Jingoismus
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Jingoismus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41635
+entryid: 52074
+permalink: 52074
+lesson: Culture - Politics, Part 19
+lang: de
+english: lobbyist
+current: Wählerschaft
+proposed: Lobbyist
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Lobbyist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41638
+entryid: 52078
+permalink: 52078
+lesson: Culture - Politics, Part 20
+lang: de
+english: machiavellian
+current: Wählerschaft
+proposed: machiavellistisch
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "machiavellistisch"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 41640
+entryid: 52080
+permalink: 52080
+lesson: Culture - Politics, Part 20
+lang: de
+english: mandate
+current: Wählerschaft
+proposed: Mandat
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Mandat"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 41642
+entryid: 52082
+permalink: 52082
+lesson: Culture - Politics, Part 20
+lang: de
+english: mercantilism
+current: Wählerschaft
+proposed: Merkantilismus
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Merkantilismus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41643
+entryid: 52084
+permalink: 52084
+lesson: Culture - Politics, Part 20
+lang: de
+english: mixed economy
+current: Wählerschaft
+proposed: Mischwirtschaft
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Mischwirtschaft"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41646
+entryid: 52088
+permalink: 52088
+lesson: Culture - Politics, Part 21
+lang: de
+english: monopoly
+current: Wählerschaft
+proposed: Monopol
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Monopol"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41648
+entryid: 52090
+permalink: 52090
+lesson: Culture - Politics, Part 21
+lang: de
+english: muckraker
+current: Wählerschaft
+proposed: Enthüllungsjournalist
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Enthüllungsjournalist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41650
+entryid: 52092
+permalink: 52092
+lesson: Culture - Politics, Part 21
+lang: de
+english: oligarchy
+current: Wählerschaft
+proposed: Oligarchie
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Oligarchie"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 41651
+entryid: 52094
+permalink: 52094
+lesson: Culture - Politics, Part 21
+lang: de
+english: political platform
+current: Wählerschaft
+proposed: Parteiprogramm
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Parteiprogramm"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41653
+entryid: 52097
+permalink: 52097
+lesson: Culture - Politics, Part 22
+lang: de
+english: plebeian
+current: Wählerschaft
+proposed: Plebejer
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Plebejer"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 41655
+entryid: 52099
+permalink: 52099
+lesson: Culture - Politics, Part 22
+lang: de
+english: patrician
+current: Wählerschaft
+proposed: Patrizier
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Patrizier"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 41657
+entryid: 52101
+permalink: 52101
+lesson: Culture - Politics, Part 22
+lang: de
+english: plutocracy
+current: Wählerschaft
+proposed: Plutokratie
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Plutokratie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41659
+entryid: 52103
+permalink: 52103
+lesson: Culture - Politics, Part 22
+lang: de
+english: poll
+current: Wählerschaft
+proposed: Umfrage
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Umfrage"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41667
+entryid: 52113
+permalink: 52113
+lesson: Culture - Politics, Part 23
+lang: de
+english: sovietism
+current: sowjetismus
+proposed: Sowjetismus
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Duden, s.v. "Sowjetismus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41687
+entryid: 52139
+permalink: 52139
+lesson: Culture - Politics, Part 26
+lang: de
+english: social engineering
+current: soziale Entwicklung
+proposed: Social Engineering
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Social Engineering"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41733
+entryid: 52197
+permalink: 52197
+lesson: Culture - Politics, Part 32
+lang: de
+english: left-winger
+current: linker flügelspieler
+proposed: Linker
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Linker"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41735
+entryid: 52199
+permalink: 52199
+lesson: Culture - Politics, Part 32
+lang: de
+english: communist
+current: linker flügelspieler
+proposed: Kommunist
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Kommunist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41736
+entryid: 52200
+permalink: 52200
+lesson: Culture - Politics, Part 32
+lang: de
+english: capitalist
+current: linker flügelspieler
+proposed: Kapitalist
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Kapitalist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41739
+entryid: 52204
+permalink: 52204
+lesson: Culture - Politics, Part 33
+lang: de
+english: democrat
+current: linker flügelspieler
+proposed: Demokrat
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Demokrat"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41741
+entryid: 52206
+permalink: 52206
+lesson: Culture - Politics, Part 33
+lang: de
+english: monarchist
+current: linker flügelspieler
+proposed: Monarchist
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Monarchist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41742
+entryid: 52208
+permalink: 52208
+lesson: Culture - Politics, Part 33
+lang: de
+english: parliamentarian
+current: linker flügelspieler
+proposed: Parlamentarier
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Parlamentarier"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41744
+entryid: 52210
+permalink: 52210
+lesson: Culture - Politics, Part 33
+lang: de
+english: political party
+current: linker flügelspieler
+proposed: politische Partei
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "politische Partei"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41747
+entryid: 52214
+permalink: 52214
+lesson: Culture - Politics, Part 34
+lang: de
+english: militarist
+current: linker flügelspieler
+proposed: Militarist
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Militarist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41749
+entryid: 52216
+permalink: 52216
+lesson: Culture - Politics, Part 34
+lang: de
+english: theocrat
+current: linker flügelspieler
+proposed: Theokrat
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Theokrat"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41750
+entryid: 52218
+permalink: 52218
+lesson: Culture - Politics, Part 34
+lang: de
+english: military officer
+current: linker flügelspieler
+proposed: Offizier
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Offizier"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41751
+entryid: 52219
+permalink: 52219
+lesson: Culture - Politics, Part 34
+lang: de
+english: inquisitor
+current: linker flügelspieler
+proposed: Inquisitor
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Inquisitor"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41754
+entryid: 52223
+permalink: 52223
+lesson: Culture - Politics, Part 35
+lang: de
+english: syndicalist
+current: linker flügelspieler
+proposed: Syndikalist
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Syndikalist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41756
+entryid: 52225
+permalink: 52225
+lesson: Culture - Politics, Part 35
+lang: de
+english: totalitarian
+current: linker flügelspieler
+proposed: totalitär
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "totalitär"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41758
+entryid: 52227
+permalink: 52227
+lesson: Culture - Politics, Part 35
+lang: de
+english: marxist
+current: linker flügelspieler
+proposed: Marxist
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Marxist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41759
+entryid: 52229
+permalink: 52229
+lesson: Culture - Politics, Part 35
+lang: de
+english: soviet
+current: linker flügelspieler
+proposed: Sowjet
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Sowjet"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41762
+entryid: 52233
+permalink: 52233
+lesson: Culture - Politics, Part 36
+lang: de
+english: mayor
+current: linker flügelspieler
+proposed: Bürgermeister
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Bürgermeister"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41764
+entryid: 52235
+permalink: 52235
+lesson: Culture - Politics, Part 36
+lang: de
+english: governor
+current: linker flügelspieler
+proposed: Gouverneur
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Gouverneur"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41766
+entryid: 52237
+permalink: 52237
+lesson: Culture - Politics, Part 36
+lang: de
+english: city council
+current: linker flügelspieler
+proposed: Stadtrat
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Stadtrat"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41767
+entryid: 52239
+permalink: 52239
+lesson: Culture - Politics, Part 36
+lang: de
+english: town council
+current: linker flügelspieler
+proposed: Gemeinderat
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Gemeinderat"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41770
+entryid: 52243
+permalink: 52243
+lesson: Culture - Politics, Part 37
+lang: de
+english: senator
+current: linker flügelspieler
+proposed: Senator
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Senator"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41771
+entryid: 52244
+permalink: 52244
+lesson: Culture - Politics, Part 37
+lang: de
+english: congress
+current: linker flügelspieler
+proposed: Kongress
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Kongress"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41773
+entryid: 52246
+permalink: 52246
+lesson: Culture - Politics, Part 37
+lang: de
+english: congressman
+current: linker flügelspieler
+proposed: Abgeordneter
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Abgeordneter"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41775
+entryid: 52248
+permalink: 52248
+lesson: Culture - Politics, Part 37
+lang: de
+english: congresswoman
+current: linker flügelspieler
+proposed: Abgeordnete
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Abgeordnete"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41777
+entryid: 52252
+permalink: 52252
+lesson: Culture - Politics, Part 38
+lang: de
+english: sexism
+current: linker flügelspieler
+proposed: Sexismus
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Sexismus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41779
+entryid: 52254
+permalink: 52254
+lesson: Culture - Politics, Part 38
+lang: de
+english: racism
+current: linker flügelspieler
+proposed: Rassismus
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Rassismus"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41781
+entryid: 52256
+permalink: 52256
+lesson: Culture - Politics, Part 38
+lang: de
+english: homophobia
+current: linker flügelspieler
+proposed: Homophobie
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Homophobie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41783
+entryid: 52258
+permalink: 52258
+lesson: Culture - Politics, Part 38
+lang: de
+english: intolerance
+current: linker flügelspieler
+proposed: Intoleranz
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Intoleranz"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41785
+entryid: 52262
+permalink: 52262
+lesson: Culture - Politics, Part 39
+lang: de
+english: sexist
+current: linker flügelspieler
+proposed: Sexist
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Sexist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41787
+entryid: 52264
+permalink: 52264
+lesson: Culture - Politics, Part 39
+lang: de
+english: racist
+current: linker flügelspieler
+proposed: Rassist
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Rassist"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41788
+entryid: 52265
+permalink: 52265
+lesson: Culture - Politics, Part 39
+lang: de
+english: homophobe
+current: linker flügelspieler
+proposed: Homophober
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Homophober"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41790
+entryid: 52267
+permalink: 52267
+lesson: Culture - Politics, Part 39
+lang: de
+english: bigot
+current: linker flügelspieler
+proposed: Fanatiker
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Fanatiker"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41792
+entryid: 52271
+permalink: 52271
+lesson: Culture - Politics, Part 40
+lang: de
+english: immigration
+current: linker flügelspieler
+proposed: Einwanderung
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Einwanderung"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41794
+entryid: 52273
+permalink: 52273
+lesson: Culture - Politics, Part 40
+lang: de
+english: immigrant
+current: linker flügelspieler
+proposed: Einwanderer
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Einwanderer"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41805
+entryid: 52286
+permalink: 52286
+lesson: Culture - Politics, Part 41
+lang: de
+english: rank and file
+current: Rang und Datei
+proposed: Basis
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Basis"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41895
+entryid: 52399
+permalink: 52399
+lesson: Adjectives - Numbers, Part 12
+lang: de
+english: one thousand, one hundred
+current: Eintausendeinhundert
+proposed: eintausendeinhundert
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Duden, s.v. "eintausendeinhundert"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41900
+entryid: 52405
+permalink: 52405
+lesson: Adjectives - Numbers, Part 13
+lang: de
+english: one thousand, three hundred
+current: ein tausend drei hundert
+proposed: eintausenddreihundert
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Duden, s.v. "eintausenddreihundert"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41943
+entryid: 52458
+permalink: 52458
+lesson: Adjectives - Numbers, Part 18
+lang: de
+english: two thousand, sixteen
+current: zweitausend, sechzehn
+proposed: zweitausendsechzehn
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Duden, s.v. "zweitausendsechzehn"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 41947
+entryid: 52464
+permalink: 52464
+lesson: Adjectives - Numbers, Part 19
+lang: de
+english: two thousand, eighteen
+current: zweitausend, achtzehn
+proposed: zweitausendachtzehn
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Duden, s.v. "zweitausendachtzehn"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 46999
+entryid: 58800
+permalink: 58800
+lesson: Culture - Food and Drink, Part 6
+lang: de
+english: German fries
+current: Deutsche Pommes
+proposed: Bratkartoffeln
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Bratkartoffeln"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47004
+entryid: 58806
+permalink: 58806
+lesson: Culture - Food and Drink, Part 7
+lang: de
+english: dip
+current: tauchen
+proposed: Dip
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Dip"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47021
+entryid: 58827
+permalink: 58827
+lesson: Culture - Food and Drink, Part 11
+lang: de
+english: ramen soup
+current: ramen suppe
+proposed: Ramensuppe
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Ramensuppe"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54027
+entryid: 67654
+permalink: 67654
+lesson: Phrases - Manners, Part 9
+lang: de
+english: Great!
+current: Groß!
+proposed: Super!
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Super!"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54089
+entryid: 67731
+permalink: 67731
+lesson: Phrases - Concern, Part 3
+lang: de
+english: Is it no bother?
+current: Ist es nicht ärgerlich?
+proposed: Macht es Ihnen keine Umstände?
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Macht es Ihnen keine Umstände?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54133
+entryid: 67787
+permalink: 67787
+lesson: Phrases - Concern, Part 9
+lang: de
+english: My throat is sore.
+current: Mein Hals ist wund.
+proposed: Ich habe Halsschmerzen.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich habe Halsschmerzen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54176
+entryid: 67841
+permalink: 67841
+lesson: (no lesson)
+lang: de
+english: Is this area always so safe?
+current: Translation error
+proposed: Ist diese Gegend immer so sicher?
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Ist diese Gegend immer so sicher?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54187
+entryid: 67857
+permalink: 67857
+lesson: (no lesson)
+lang: de
+english: Have you eaten?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hast du schon gegessen?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Hast du schon gegessen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54189
+entryid: 67859
+permalink: 67859
+lesson: (no lesson)
+lang: de
+english: I ate already.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich habe schon gegessen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich habe schon gegessen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54191
+entryid: 67861
+permalink: 67861
+lesson: (no lesson)
+lang: de
+english: I'm hungry.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich habe Hunger.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich habe Hunger."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54192
+entryid: 67862
+permalink: 67862
+lesson: (no lesson)
+lang: de
+english: Are you hungry?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hast du Hunger?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Hast du Hunger?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54194
+entryid: 67866
+permalink: 67866
+lesson: (no lesson)
+lang: de
+english: Are you allergic to anything?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hast du irgendwelche Allergien?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Hast du irgendwelche Allergien?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54196
+entryid: 67868
+permalink: 67868
+lesson: (no lesson)
+lang: de
+english: I am allergic to nuts.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich bin allergisch gegen Nüsse.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich bin allergisch gegen Nüsse."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54198
+entryid: 67870
+permalink: 67870
+lesson: (no lesson)
+lang: de
+english: Do you have any diet concerns I should worry about?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Haben Sie irgendwelche Ernährungseinschränkungen, die ich beachten sollte?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Haben Sie irgendwelche Ernährungseinschränkungen, die ich beachten sollte?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54200
+entryid: 67872
+permalink: 67872
+lesson: (no lesson)
+lang: de
+english: I have been a Vegan my entire civilized life.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich bin mein ganzes zivilisiertes Leben lang Veganer.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich bin mein ganzes zivilisiertes Leben lang Veganer."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54202
+entryid: 67876
+permalink: 67876
+lesson: (no lesson)
+lang: de
+english: I'm thirsty.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich habe Durst.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich habe Durst."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54204
+entryid: 67878
+permalink: 67878
+lesson: (no lesson)
+lang: de
+english: Are you thirsty?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hast du Durst?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Hast du Durst?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54205
+entryid: 67879
+permalink: 67879
+lesson: (no lesson)
+lang: de
+english: I want a snack.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich möchte einen Snack.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich möchte einen Snack."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54207
+entryid: 67881
+permalink: 67881
+lesson: (no lesson)
+lang: de
+english: Do you have any snacks?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hast du irgendwelche Snacks?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Hast du irgendwelche Snacks?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54210
+entryid: 67885
+permalink: 67885
+lesson: (no lesson)
+lang: de
+english: Is there salt?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Gibt es Salz?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Gibt es Salz?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54211
+entryid: 67887
+permalink: 67887
+lesson: (no lesson)
+lang: de
+english: Is there pepper?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Gibt es Pfeffer?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Gibt es Pfeffer?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54213
+entryid: 67889
+permalink: 67889
+lesson: (no lesson)
+lang: de
+english: Please pass me the salt.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Gib mir bitte das Salz.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Gib mir bitte das Salz."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54215
+entryid: 67891
+permalink: 67891
+lesson: (no lesson)
+lang: de
+english: Please pass me the pepper.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Bitte reich mir den Pfeffer.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Bitte reich mir den Pfeffer."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54218
+entryid: 67895
+permalink: 67895
+lesson: (no lesson)
+lang: de
+english: I would like to eat downtown.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich möchte in der Innenstadt essen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich möchte in der Innenstadt essen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54219
+entryid: 67897
+permalink: 67897
+lesson: (no lesson)
+lang: de
+english: Let's go to the café.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Gehen wir ins Café.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Gehen wir ins Café."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54220
+entryid: 67898
+permalink: 67898
+lesson: (no lesson)
+lang: de
+english: Do you know a good place to eat?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kennst du ein gutes Restaurant?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Kennst du ein gutes Restaurant?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54222
+entryid: 67900
+permalink: 67900
+lesson: (no lesson)
+lang: de
+english: Can you take me somewhere with good food?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kannst du mich irgendwohin bringen, wo es gutes Essen gibt?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Kannst du mich irgendwohin bringen, wo es gutes Essen gibt?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54225
+entryid: 67904
+permalink: 67904
+lesson: (no lesson)
+lang: de
+english: What restaurant is good?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Welches Restaurant ist gut?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Welches Restaurant ist gut?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54227
+entryid: 67906
+permalink: 67906
+lesson: (no lesson)
+lang: de
+english: What food is good?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Welches Essen ist gut?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Welches Essen ist gut?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54228
+entryid: 67908
+permalink: 67908
+lesson: (no lesson)
+lang: de
+english: Do you know of any good food?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kennst du etwas Gutes zum Essen?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Kennst du etwas Gutes zum Essen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54230
+entryid: 67910
+permalink: 67910
+lesson: (no lesson)
+lang: de
+english: Where do you go when you're hungry?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Wohin gehst du, wenn du hungrig bist?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Wohin gehst du, wenn du hungrig bist?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54233
+entryid: 67914
+permalink: 67914
+lesson: (no lesson)
+lang: de
+english: How does it taste?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Wie schmeckt es?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Wie schmeckt es?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54235
+entryid: 67916
+permalink: 67916
+lesson: (no lesson)
+lang: de
+english: It's delicious.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Es ist lecker.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Es ist lecker."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54236
+entryid: 67918
+permalink: 67918
+lesson: (no lesson)
+lang: de
+english: Do you enjoy eating apples?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Isst du gerne Äpfel?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Isst du gerne Äpfel?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54237
+entryid: 67919
+permalink: 67919
+lesson: (no lesson)
+lang: de
+english: I love eating oranges!
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich liebe es, Orangen zu essen!
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich liebe es, Orangen zu essen!"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54240
+entryid: 67923
+permalink: 67923
+lesson: (no lesson)
+lang: de
+english: Can I have some water.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kann ich etwas Wasser haben?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Kann ich etwas Wasser haben?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54242
+entryid: 67925
+permalink: 67925
+lesson: (no lesson)
+lang: de
+english: Yes, there is water in the refrigerator.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ja, es ist Wasser im Kühlschrank.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ja, es ist Wasser im Kühlschrank."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54244
+entryid: 67927
+permalink: 67927
+lesson: (no lesson)
+lang: de
+english: I'd like some water, too.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich möchte auch etwas Wasser.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich möchte auch etwas Wasser."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54245
+entryid: 67929
+permalink: 67929
+lesson: (no lesson)
+lang: de
+english: The water is available to anyone.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Das Wasser ist für jeden verfügbar.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Das Wasser ist für jeden verfügbar."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54248
+entryid: 67933
+permalink: 67933
+lesson: (no lesson)
+lang: de
+english: I would like to go to the bakery.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich möchte zur Bäckerei gehen.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich möchte zur Bäckerei gehen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54250
+entryid: 67935
+permalink: 67935
+lesson: (no lesson)
+lang: de
+english: What's at the bakery?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Was gibt es in der Bäckerei?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Was gibt es in der Bäckerei?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54252
+entryid: 67937
+permalink: 67937
+lesson: (no lesson)
+lang: de
+english: Do you need a napkin?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Brauchst du eine Serviette?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Brauchst du eine Serviette?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54253
+entryid: 67939
+permalink: 67939
+lesson: (no lesson)
+lang: de
+english: I need a napkin.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich brauche eine Serviette.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich brauche eine Serviette."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54255
+entryid: 67942
+permalink: 67942
+lesson: (no lesson)
+lang: de
+english: Can I have some more bread please?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kann ich noch etwas Brot haben, bitte?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Kann ich noch etwas Brot haben, bitte?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54257
+entryid: 67944
+permalink: 67944
+lesson: (no lesson)
+lang: de
+english: Yes, there is bread for everyone.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ja, es gibt Brot für jeden.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ja, es gibt Brot für jeden."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54259
+entryid: 67946
+permalink: 67946
+lesson: (no lesson)
+lang: de
+english: Can we have a menu please?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Können wir bitte eine Speisekarte haben?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Können wir bitte eine Speisekarte haben?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54261
+entryid: 67948
+permalink: 67948
+lesson: (no lesson)
+lang: de
+english: This is what I want from the menu.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Das möchte ich von der Speisekarte.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Das möchte ich von der Speisekarte."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54263
+entryid: 67952
+permalink: 67952
+lesson: (no lesson)
+lang: de
+english: Have you ever had French Fries?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hast du schon mal Pommes gegessen?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Hast du schon mal Pommes gegessen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54265
+entryid: 67954
+permalink: 67954
+lesson: (no lesson)
+lang: de
+english: Yes, I've had French Fries, and they are my favorite food.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ja, ich habe schon Pommes frites gegessen, und sie sind mein Lieblingsessen.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ja, ich habe schon Pommes frites gegessen, und sie sind mein Lieblingsessen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54267
+entryid: 67956
+permalink: 67956
+lesson: (no lesson)
+lang: de
+english: He likes soymilk, but not real milk.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Er mag Sojamilch, aber keine echte Milch.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Er mag Sojamilch, aber keine echte Milch."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54269
+entryid: 67958
+permalink: 67958
+lesson: (no lesson)
+lang: de
+english: Do you like sugar in your cereal?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Magst du Zucker in deinem Müsli?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Magst du Zucker in deinem Müsli?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54270
+entryid: 67961
+permalink: 67961
+lesson: (no lesson)
+lang: de
+english: I would like to order salad.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich möchte einen Salat bestellen.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich möchte einen Salat bestellen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54272
+entryid: 67963
+permalink: 67963
+lesson: (no lesson)
+lang: de
+english: There is your salad.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hier ist dein Salat.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Hier ist dein Salat."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54274
+entryid: 67965
+permalink: 67965
+lesson: (no lesson)
+lang: de
+english: Where is my order?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Wo ist meine Bestellung?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Wo ist meine Bestellung?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54276
+entryid: 67967
+permalink: 67967
+lesson: (no lesson)
+lang: de
+english: Here is your order.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hier ist Ihre Bestellung.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Hier ist Ihre Bestellung."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54278
+entryid: 67971
+permalink: 67971
+lesson: (no lesson)
+lang: de
+english: Does it taste good?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Schmeckt es gut?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Schmeckt es gut?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54280
+entryid: 67973
+permalink: 67973
+lesson: (no lesson)
+lang: de
+english: I don't like the taste at all.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich mag den Geschmack überhaupt nicht.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich mag den Geschmack überhaupt nicht."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54282
+entryid: 67975
+permalink: 67975
+lesson: (no lesson)
+lang: de
+english: Is the restaurant crowded?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ist das Restaurant voll?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ist das Restaurant voll?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54283
+entryid: 67976
+permalink: 67976
+lesson: (no lesson)
+lang: de
+english: There's not many people at the restaurant.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Es sind nicht viele Leute im Restaurant.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Es sind nicht viele Leute im Restaurant."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54286
+entryid: 67981
+permalink: 67981
+lesson: (no lesson)
+lang: de
+english: Do you have a table near the window?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hast du einen Tisch in der Nähe des Fensters?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Hast du einen Tisch in der Nähe des Fensters?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54287
+entryid: 67982
+permalink: 67982
+lesson: (no lesson)
+lang: de
+english: I haven't finished eating.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich habe noch nicht fertig gegessen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich habe noch nicht fertig gegessen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54289
+entryid: 67984
+permalink: 67984
+lesson: (no lesson)
+lang: de
+english: I'll have a cup of tea, please.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich hätte gerne eine Tasse Tee, bitte.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich hätte gerne eine Tasse Tee, bitte."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54291
+entryid: 67986
+permalink: 67986
+lesson: (no lesson)
+lang: de
+english: I'll have a bottle of water, please.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich hätte gerne eine Flasche Wasser, bitte.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich hätte gerne eine Flasche Wasser, bitte."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54294
+entryid: 67990
+permalink: 67990
+lesson: (no lesson)
+lang: de
+english: The food is delicious.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Das Essen ist lecker.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Das Essen ist lecker."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54295
+entryid: 67992
+permalink: 67992
+lesson: (no lesson)
+lang: de
+english: What's your favorite food?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Was ist dein Lieblingsessen?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Was ist dein Lieblingsessen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54297
+entryid: 67994
+permalink: 67994
+lesson: (no lesson)
+lang: de
+english: My favorite food is sushi.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Mein Lieblingsessen ist Sushi.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Mein Lieblingsessen ist Sushi."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54298
+entryid: 67995
+permalink: 67995
+lesson: (no lesson)
+lang: de
+english: Sushi is delicious.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Sushi ist lecker.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Sushi ist lecker."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54301
+entryid: 67999
+permalink: 67999
+lesson: (no lesson)
+lang: de
+english: Is there anything good in the refrigerator?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Gibt es etwas Gutes im Kühlschrank?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Gibt es etwas Gutes im Kühlschrank?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54303
+entryid: 68001
+permalink: 68001
+lesson: (no lesson)
+lang: de
+english: There are some apples in the refrigerator.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Es sind ein paar Äpfel im Kühlschrank.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Es sind ein paar Äpfel im Kühlschrank."
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 54304
+entryid: 68003
+permalink: 68003
+lesson: (no lesson)
+lang: de
+english: Waiter!
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kellner!
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Kellner!"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54306
+entryid: 68005
+permalink: 68005
+lesson: (no lesson)
+lang: de
+english: Waitress!
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kellnerin!
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Kellnerin!"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54309
+entryid: 68009
+permalink: 68009
+lesson: (no lesson)
+lang: de
+english: Do you like Chinese or Japanese food better?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Magst du lieber chinesisches oder japanisches Essen?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Magst du lieber chinesisches oder japanisches Essen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54311
+entryid: 68011
+permalink: 68011
+lesson: (no lesson)
+lang: de
+english: I like Chinese food better, because I love the noodles.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich mag chinesisches Essen lieber, weil ich die Nudeln liebe.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich mag chinesisches Essen lieber, weil ich die Nudeln liebe."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54312
+entryid: 68013
+permalink: 68013
+lesson: (no lesson)
+lang: de
+english: I like Japanese food better, because I love the sushi.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich mag japanisches Essen lieber, weil ich Sushi liebe.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich mag japanisches Essen lieber, weil ich Sushi liebe."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54313
+entryid: 68014
+permalink: 68014
+lesson: (no lesson)
+lang: de
+english: I like either Chinese or Japanese food.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich mag entweder chinesisches oder japanisches Essen.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich mag entweder chinesisches oder japanisches Essen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54316
+entryid: 68018
+permalink: 68018
+lesson: (no lesson)
+lang: de
+english: I like French soups.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich mag französische Suppen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich mag französische Suppen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54318
+entryid: 68020
+permalink: 68020
+lesson: (no lesson)
+lang: de
+english: I like Italian pastas.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich mag italienische Pasta.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich mag italienische Pasta."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54320
+entryid: 68022
+permalink: 68022
+lesson: (no lesson)
+lang: de
+english: I like American food.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich mag amerikanisches Essen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich mag amerikanisches Essen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54321
+entryid: 68024
+permalink: 68024
+lesson: (no lesson)
+lang: de
+english: I like British food.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich mag britisches Essen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich mag britisches Essen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54324
+entryid: 68028
+permalink: 68028
+lesson: (no lesson)
+lang: de
+english: Can I have one glass of water please?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kann ich bitte ein Glas Wasser haben?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Kann ich bitte ein Glas Wasser haben?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54326
+entryid: 68030
+permalink: 68030
+lesson: (no lesson)
+lang: de
+english: Can I have two glasses of water please?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kann ich bitte zwei Gläser Wasser haben?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Kann ich bitte zwei Gläser Wasser haben?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54328
+entryid: 68032
+permalink: 68032
+lesson: (no lesson)
+lang: de
+english: Can I have three glasses of water please?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kann ich bitte drei Gläser Wasser haben?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Kann ich bitte drei Gläser Wasser haben?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54329
+entryid: 68034
+permalink: 68034
+lesson: (no lesson)
+lang: de
+english: Can I have four glasses of water please?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kann ich bitte vier Gläser Wasser haben?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Kann ich bitte vier Gläser Wasser haben?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54331
+entryid: 68037
+permalink: 68037
+lesson: (no lesson)
+lang: de
+english: What are you going to have?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Was wirst du essen?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Was wirst du essen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54333
+entryid: 68039
+permalink: 68039
+lesson: (no lesson)
+lang: de
+english: I don't know what I'm going to have.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich weiß nicht, was ich nehmen werde.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich weiß nicht, was ich nehmen werde."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54335
+entryid: 68041
+permalink: 68041
+lesson: (no lesson)
+lang: de
+english: What on the menu do you recommend?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Was können Sie mir auf der Speisekarte empfehlen?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Was können Sie mir auf der Speisekarte empfehlen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54337
+entryid: 68043
+permalink: 68043
+lesson: (no lesson)
+lang: de
+english: Can I see the menu?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kann ich die Speisekarte sehen?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Kann ich die Speisekarte sehen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54339
+entryid: 68047
+permalink: 68047
+lesson: (no lesson)
+lang: de
+english: What would you like to drink?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Was möchten Sie trinken?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Was möchten Sie trinken?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54387
+entryid: 68108
+permalink: 68108
+lesson: Phrases - Food, Part 3
+lang: de
+english: I'm thirsty.
+current: Translation error
+proposed: Ich habe Durst.
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Ich habe Durst."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54425
+entryid: 68155
+permalink: 68155
+lesson: Phrases - Food, Part 8
+lang: de
+english: Can I have some water.
+current: Kann ich etwas Wasser haben.
+proposed: Kann ich etwas Wasser haben?
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Duden, s.v. "Kann ich etwas Wasser haben?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54516
+entryid: 68270
+permalink: 68270
+lesson: (no lesson)
+lang: de
+english: What would you like to drink?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Was möchten Sie trinken?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Was möchten Sie trinken?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54517
+entryid: 68271
+permalink: 68271
+lesson: (no lesson)
+lang: de
+english: I would like some whiskey.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich hätte gerne etwas Whiskey.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich hätte gerne etwas Whiskey."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54519
+entryid: 68273
+permalink: 68273
+lesson: (no lesson)
+lang: de
+english: What would you like to eat?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Was möchten Sie essen?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Was möchten Sie essen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54521
+entryid: 68275
+permalink: 68275
+lesson: (no lesson)
+lang: de
+english: I would like a falafel.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich hätte gerne eine Falafel.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich hätte gerne eine Falafel."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54523
+entryid: 68279
+permalink: 68279
+lesson: (no lesson)
+lang: de
+english: Do you want some tea?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Möchtest du etwas Tee?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Möchtest du etwas Tee?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54525
+entryid: 68281
+permalink: 68281
+lesson: (no lesson)
+lang: de
+english: Do you want some water?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Möchtest du etwas Wasser?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Möchtest du etwas Wasser?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54527
+entryid: 68283
+permalink: 68283
+lesson: (no lesson)
+lang: de
+english: Is there anything you want to eat?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Möchtest du etwas essen?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Möchtest du etwas essen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54529
+entryid: 68285
+permalink: 68285
+lesson: (no lesson)
+lang: de
+english: Is there anything you want to drink?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Möchtest du etwas trinken?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Möchtest du etwas trinken?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54531
+entryid: 68289
+permalink: 68289
+lesson: (no lesson)
+lang: de
+english: Do you want coffee or tea?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Möchtest du Kaffee oder Tee?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Möchtest du Kaffee oder Tee?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54532
+entryid: 68290
+permalink: 68290
+lesson: (no lesson)
+lang: de
+english: Would you like some wine?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Möchtest du etwas Wein?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Möchtest du etwas Wein?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54534
+entryid: 68292
+permalink: 68292
+lesson: (no lesson)
+lang: de
+english: I like to eat olives.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich esse gerne Oliven.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich esse gerne Oliven."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54536
+entryid: 68294
+permalink: 68294
+lesson: (no lesson)
+lang: de
+english: I cannot eat olives.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich kann keine Oliven essen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich kann keine Oliven essen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54539
+entryid: 68298
+permalink: 68298
+lesson: (no lesson)
+lang: de
+english: Are you full?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Bist du satt?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Bist du satt?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54540
+entryid: 68300
+permalink: 68300
+lesson: (no lesson)
+lang: de
+english: I'm full.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich bin satt.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich bin satt."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54542
+entryid: 68302
+permalink: 68302
+lesson: (no lesson)
+lang: de
+english: I usually have coffee with breakfast.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich trinke normalerweise Kaffee zum Frühstück.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich trinke normalerweise Kaffee zum Frühstück."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54544
+entryid: 68304
+permalink: 68304
+lesson: (no lesson)
+lang: de
+english: I don't drink with breakfast.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich trinke nichts zum Frühstück.
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Ich trinke nichts zum Frühstück."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54547
+entryid: 68308
+permalink: 68308
+lesson: (no lesson)
+lang: de
+english: Have you eaten yet?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hast du schon gegessen?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Hast du schon gegessen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54548
+entryid: 68310
+permalink: 68310
+lesson: (no lesson)
+lang: de
+english: I haven't eaten yet.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich habe noch nicht gegessen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich habe noch nicht gegessen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54549
+entryid: 68311
+permalink: 68311
+lesson: (no lesson)
+lang: de
+english: Did you have dinner yet?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Hast du schon zu Abend gegessen?
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Hast du schon zu Abend gegessen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54551
+entryid: 68313
+permalink: 68313
+lesson: (no lesson)
+lang: de
+english: I haven't had dinner yet.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich habe noch nicht zu Abend gegessen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich habe noch nicht zu Abend gegessen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54554
+entryid: 68317
+permalink: 68317
+lesson: (no lesson)
+lang: de
+english: Are you going to breakfast?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Gehst du zum Frühstück?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Gehst du zum Frühstück?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54556
+entryid: 68319
+permalink: 68319
+lesson: (no lesson)
+lang: de
+english: I am going to dinner.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich gehe zum Abendessen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ich gehe zum Abendessen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54557
+entryid: 68321
+permalink: 68321
+lesson: (no lesson)
+lang: de
+english: When will you go to lunch?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Wann gehst du zum Mittagessen?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Wann gehst du zum Mittagessen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54559
+entryid: 68323
+permalink: 68323
+lesson: (no lesson)
+lang: de
+english: This is just a snack.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Das ist nur ein Snack.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Das ist nur ein Snack."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54562
+entryid: 68327
+permalink: 68327
+lesson: (no lesson)
+lang: de
+english: Do you want something to eat?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Möchtest du etwas essen?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Möchtest du etwas essen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54564
+entryid: 68329
+permalink: 68329
+lesson: (no lesson)
+lang: de
+english: Yes, I would like something to eat.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ja, ich hätte gerne etwas zu essen.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Ja, ich hätte gerne etwas zu essen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54565
+entryid: 68330
+permalink: 68330
+lesson: (no lesson)
+lang: de
+english: When will the food be ready?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Wann ist das Essen fertig?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Wann ist das Essen fertig?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54566
+entryid: 68332
+permalink: 68332
+lesson: (no lesson)
+lang: de
+english: The food will be ready in fifteen minutes.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Das Essen ist in fünfzehn Minuten fertig.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Das Essen ist in fünfzehn Minuten fertig."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54569
+entryid: 68336
+permalink: 68336
+lesson: (no lesson)
+lang: de
+english: Where is the bathroom?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Wo ist die Toilette?
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Wo ist die Toilette?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54571
+entryid: 68338
+permalink: 68338
+lesson: (no lesson)
+lang: de
+english: I need to use the bathroom.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ich muss mal auf die Toilette.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ich muss mal auf die Toilette."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54573
+entryid: 68340
+permalink: 68340
+lesson: (no lesson)
+lang: de
+english: Where is that?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Wo ist das?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Wo ist das?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54574
+entryid: 68342
+permalink: 68342
+lesson: (no lesson)
+lang: de
+english: Can you tell me where?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Kannst du mir sagen, wo?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Kannst du mir sagen, wo?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54577
+entryid: 68346
+permalink: 68346
+lesson: (no lesson)
+lang: de
+english: How far away is it?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Wie weit ist es?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Wie weit ist es?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54579
+entryid: 68348
+permalink: 68348
+lesson: (no lesson)
+lang: de
+english: How close is it?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Wie nah ist es?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Wie nah ist es?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54580
+entryid: 68349
+permalink: 68349
+lesson: (no lesson)
+lang: de
+english: Is it far?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ist es weit?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ist es weit?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54582
+entryid: 68351
+permalink: 68351
+lesson: (no lesson)
+lang: de
+english: Is it close?
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Ist es nah?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Ist es nah?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54584
+entryid: 68355
+permalink: 68355
+lesson: (no lesson)
+lang: de
+english: It is far away.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Es ist weit weg.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Es ist weit weg."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54586
+entryid: 68357
+permalink: 68357
+lesson: (no lesson)
+lang: de
+english: It is close by.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Es ist in der Nähe.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Es ist in der Nähe."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54588
+entryid: 68359
+permalink: 68359
+lesson: (no lesson)
+lang: de
+english: It is in the next town.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Es ist in der nächsten Stadt.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Es ist in der nächsten Stadt."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54590
+entryid: 68361
+permalink: 68361
+lesson: (no lesson)
+lang: de
+english: It is just outside of town.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Es ist direkt außerhalb der Stadt.
+kind: corrupt
+reason: The row holds an error message or mangled text, not a translation.
+source: Duden, s.v. "Es ist direkt außerhalb der Stadt."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54592
+entryid: 68365
+permalink: 68365
+lesson: (no lesson)
+lang: de
+english: It's only two miles.
+current: The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+proposed: Es sind nur zwei Meilen.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Es sind nur zwei Meilen."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54949
+entryid: 68812
+permalink: 68812
+lesson: Phrases - Travel, Part 37
+lang: de
+english: We have no vacancies.
+current: Wir haben keine offenen Stellen.
+proposed: Wir haben keine freien Zimmer.
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Wir haben keine freien Zimmer."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 54951
+entryid: 68814
+permalink: 68814
+lesson: Phrases - Travel, Part 37
+lang: de
+english: Does the hotel have any vacancies?
+current: Hat das Hotel freie Stellen?
+proposed: Hat das Hotel freie Zimmer?
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Duden, s.v. "Hat das Hotel freie Zimmer?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 55162
+entryid: 69077
+permalink: 69077
+lesson: Phrases - Comparison, Part 1
+lang: de
+english: St. Petersburg is more serene than Barcelona.
+current: St. Petersburg ist heiterer als Barcelona.
+proposed: St. Petersburg ist ruhiger als Barcelona.
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "St. Petersburg ist ruhiger als Barcelona."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 55219
+entryid: 69149
+permalink: 69149
+lesson: Phrases - People, Part 3
+lang: de
+english: Is John an activist?
+current: Translating...
+proposed: Ist John ein Aktivist?
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Ist John ein Aktivist?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 55221
+entryid: 69151
+permalink: 69151
+lesson: Phrases - People, Part 3
+lang: de
+english: I heard that John is an activist.
+current: Translating...
+proposed: Ich habe gehört, dass John ein Aktivist ist.
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Ich habe gehört, dass John ein Aktivist ist."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 55222
+entryid: 69153
+permalink: 69153
+lesson: Phrases - People, Part 3
+lang: de
+english: Can you help her?
+current: Translating...
+proposed: Kannst du ihr helfen?
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Kannst du ihr helfen?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 55224
+entryid: 69155
+permalink: 69155
+lesson: Phrases - People, Part 3
+lang: de
+english: Are you going to help her?
+current: Translating...
+proposed: Wirst du ihr helfen?
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Duden, s.v. "Wirst du ihr helfen?"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: shipped 2026-11-09
+
+id: 55247
+entryid: 69184
+permalink: 69184
+lesson: Phrases - People, Part 6
+lang: de
+english: How many people are there?
+current: Translation error
+proposed: Wie viele Personen sind da?
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Wie viele Personen sind da?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 55303
+entryid: 69253
+permalink: 69253
+lesson: (no lesson)
+lang: de
+english: What does your son do?
+current: Translating...
+proposed: Was macht dein Sohn?
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Was macht dein Sohn?"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 55304
+entryid: 69254
+permalink: 69254
+lesson: (no lesson)
+lang: de
+english: My son studies web development technologies.
+current: Translating...
+proposed: Mein Sohn studiert Webentwicklungstechnologien.
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Duden, s.v. "Mein Sohn studiert Webentwicklungstechnologien."
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09

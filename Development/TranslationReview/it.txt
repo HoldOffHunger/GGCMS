@@ -1,0 +1,2143 @@
+# Italian (it) — EarthFluent translation review
+# Confirmed 26 Oct 2026 by Claude from the local models' 220 suspects (E:\AIWorkers\earthfluent\triage\it.triage.txt);
+# 164 confirmed, 56 were false alarms and are left out. Checked against prod's live rows that day.
+# 5,433 Italian rows in EntryTranslation. Format: see README.md.
+
+id: 181
+entryid: 240
+permalink: 240
+lesson: Nouns - Animals, Part 4
+lang: it
+english: Gerbil
+current: Gerbil
+proposed: Gerbillo
+kind: untranslated
+reason: The English was passed through. The Italian name of the animal is gerbillo.
+source: Vocabolario Treccani, s.v. "gerbillo"
+status: shipped 2026-10-26
+
+id: 187
+entryid: 248
+permalink: 248
+lesson: Nouns - Animals, Part 6
+lang: it
+english: Chipmunk
+current: Chipmunk
+proposed: Tamia
+kind: untranslated
+reason: The English was passed through. The chipmunk is the tamia in Italian.
+source: Vocabolario Treccani, s.v. "tamia"
+status: shipped 2026-10-26
+
+id: 210
+entryid: 277
+permalink: 277
+lesson: Nouns - Animals, Part 12
+lang: it
+english: Manta Ray
+current: Manta Ray
+proposed: Manta
+kind: untranslated
+reason: The English was passed through. In Italian the fish is simply the manta.
+source: Vocabolario Treccani, s.v. "manta"
+status: shipped 2026-10-26
+
+id: 236
+entryid: 309
+permalink: 309
+lesson: Nouns - Animals, Part 18
+lang: it
+english: Stingray
+current: Stingray
+proposed: Pastinaca
+kind: untranslated
+reason: The English was passed through. The stingray is the pastinaca; a razza is a skate, a different fish.
+source: Vocabolario Treccani, s.v. "pastinaca" and s.v. "razza"
+status: shipped 2026-10-26
+
+id: 2143
+entryid: 2731
+permalink: 2731
+lesson: Verbs - Activity With Objects, Part 1
+lang: it
+english: make
+current: rendere
+proposed: fare
+kind: wrong-sense
+reason: Rendere is make in the sense of make someone happy. The plain verb make, in a list of activities with objects, is fare.
+source: Vocabolario Treccani, s.v. "fare" and s.v. "rendere"
+status: shipped 2026-10-26
+
+id: 2178
+entryid: 2775
+permalink: 2775
+lesson: Verbs - Activity With Objects, Part 10
+lang: it
+english: ride
+current: cavalcata
+proposed: cavalcare
+kind: wrong-class
+reason: Cavalcata is the noun, a ride. The list wants the verb.
+source: Vocabolario Treccani, s.v. "cavalcare"
+status: shipped 2026-10-26
+
+id: 2244
+entryid: 2857
+permalink: 2857
+lesson: Verbs - General Activity, Part 8
+lang: it
+english: watch
+current: orologio
+proposed: guardare
+kind: wrong-class
+reason: Orologio is a watch on the wrist. The list is verbs: to watch is guardare.
+source: Vocabolario Treccani, s.v. "guardare"
+status: shipped 2026-10-26
+
+id: 2274
+entryid: 2895
+permalink: 2895
+lesson: Verbs - General Activity, Part 16
+lang: it
+english: enable
+current: enable
+proposed: abilitare
+kind: untranslated
+reason: The English was passed through. To enable is abilitare.
+source: Vocabolario Treccani, s.v. "abilitare"
+status: shipped 2026-10-26
+
+id: 2275
+entryid: 2896
+permalink: 2896
+lesson: Verbs - General Activity, Part 16
+lang: it
+english: check
+current: dai un'occhiata
+proposed: controllare
+kind: wrong-form
+reason: Dai un'occhiata is an informal command, take a look. The list wants the infinitive.
+source: Vocabolario Treccani, s.v. "controllare"
+displaced: dai un'occhiata | 2sg informal imperative of dare un'occhiata
+status: shipped 2026-10-26
+
+id: 2285
+entryid: 2909
+permalink: 2909
+lesson: Verbs - General Activity, Part 19
+lang: it
+english: display
+current: display
+proposed: mostrare
+kind: untranslated
+reason: The English was passed through. To display is mostrare.
+source: Vocabolario Treccani, s.v. "mostrare"
+status: shipped 2026-10-26
+
+id: 2328
+entryid: 2962
+permalink: 2962
+lesson: Verbs - Emotional Activity, Part 5
+lang: it
+english: hurt
+current: male
+proposed: ferire
+kind: wrong-class
+reason: Male is a noun or an adverb, pain or badly. The list wants the verb to hurt, which is ferire.
+source: Vocabolario Treccani, s.v. "ferire"
+status: shipped 2026-10-26
+
+id: 2354
+entryid: 2996
+permalink: 2996
+lesson: Verbs - Physical Activity, Part 5
+lang: it
+english: born
+current: Nato
+proposed: nato
+kind: orthography
+reason: Right word, wrong casing: every other verb in these lists is lower case.
+source: Vocabolario Treccani, s.v. "nascere" (past participle nato)
+status: shipped 2026-10-26
+
+id: 2369
+entryid: 3015
+permalink: 3015
+lesson: Verbs - Physical Activity, Part 9
+lang: it
+english: climb
+current: scalata
+proposed: arrampicarsi
+kind: wrong-class
+reason: Scalata is the noun, a climb. The verb is arrampicarsi.
+source: Vocabolario Treccani, s.v. "arrampicarsi"
+status: shipped 2026-10-26
+
+id: 2406
+entryid: 3061
+permalink: 3061
+lesson: Verbs - Physical Activity, Part 18
+lang: it
+english: shrug
+current: alzata di spalle
+proposed: alzare le spalle
+kind: wrong-class
+reason: Alzata di spalle is the noun, a shrug. The verb is alzare le spalle.
+source: Vocabolario Treccani, s.v. "spalla" (alzare le spalle)
+status: shipped 2026-10-26
+
+id: 2418
+entryid: 3076
+permalink: 3076
+lesson: Verbs - Physical Activity, Part 21
+lang: it
+english: creep
+current: strisciamento
+proposed: strisciare
+kind: wrong-class
+reason: Strisciamento is the noun. To creep is strisciare.
+source: Vocabolario Treccani, s.v. "strisciare"
+status: shipped 2026-10-26
+
+id: 2427
+entryid: 3087
+permalink: 3087
+lesson: Verbs - Mental Activity, Part 2
+lang: it
+english: read
+current: read
+proposed: leggere
+kind: untranslated
+reason: The English was passed through. To read is leggere.
+source: Vocabolario Treccani, s.v. "leggere"
+status: shipped 2026-10-26
+
+id: 2468
+entryid: 3139
+permalink: 3139
+lesson: Verbs - Mental Activity, Part 13
+lang: it
+english: focus
+current: messa a fuoco
+proposed: concentrarsi
+kind: wrong-class
+reason: Messa a fuoco is a camera's focus, a noun. The mental verb is concentrarsi.
+source: Vocabolario Treccani, s.v. "concentrare" (concentrarsi)
+status: shipped 2026-10-26
+
+id: 2482
+entryid: 3157
+permalink: 3157
+lesson: Verbs - Mental Activity, Part 17
+lang: it
+english: guess
+current: indovina
+proposed: indovinare
+kind: wrong-form
+reason: Indovina is a command, guess! The list wants the infinitive.
+source: Vocabolario Treccani, s.v. "indovinare"
+displaced: indovina | 2sg imperative of indovinare
+status: shipped 2026-10-26
+
+id: 2532
+entryid: 3219
+permalink: 3219
+lesson: Verbs - Social Activity, Part 9
+lang: it
+english: refuse
+current: rifiuto
+proposed: rifiutare
+kind: wrong-form
+reason: Rifiuto is I refuse, or the noun a refusal. The list wants the infinitive.
+source: Vocabolario Treccani, s.v. "rifiutare"
+displaced: rifiuto | 1sg present of rifiutare
+status: shipped 2026-10-26
+
+id: 2600
+entryid: 3305
+permalink: 3305
+lesson: Verbs - Social Activity, Part 27
+lang: it
+english: date
+current: Data
+proposed: frequentare
+kind: wrong-class
+reason: Data is a calendar date, a noun. To date someone is frequentare.
+source: Vocabolario Treccani, s.v. "frequentare"
+status: shipped 2026-10-26
+
+id: 2641
+entryid: 3356
+permalink: 3356
+lesson: Verbs - Economic Activity, Part 1
+lang: it
+english: need
+current: bisogno
+proposed: avere bisogno
+kind: wrong-class
+reason: Bisogno is the noun, a need. The verb is avere bisogno (di).
+source: Vocabolario Treccani, s.v. "bisogno"
+status: shipped 2026-10-26
+
+id: 12786
+entryid: 16100
+permalink: 16100
+lesson: Nouns - Concepts, Part 21
+lang: it
+english: goal
+current: obbiettivo
+proposed: obiettivo
+kind: orthography
+reason: Obbiettivo is an old variant. The standard spelling, and the one a learner will meet, is obiettivo.
+source: Vocabolario Treccani, s.v. "obiettivo"
+status: shipped 2026-10-26
+
+id: 12822
+entryid: 16145
+permalink: 16145
+lesson: Nouns - Concepts, Part 30
+lang: it
+english: objective
+current: obbiettivo
+proposed: obiettivo
+kind: orthography
+reason: Obbiettivo is an old variant. The standard spelling is obiettivo.
+source: Vocabolario Treccani, s.v. "obiettivo"
+status: shipped 2026-10-26
+
+id: 12841
+entryid: 16169
+permalink: 16169
+lesson: Nouns - Concepts, Part 35
+lang: it
+english: weather
+current: tempo metereologico
+proposed: tempo meteorologico
+kind: orthography
+reason: Metereologico is a common misspelling of meteorologico.
+source: Vocabolario Treccani, s.v. "meteorologico"
+status: shipped 2026-10-26
+
+id: 12872
+entryid: 16208
+permalink: 16208
+lesson: Nouns - Concepts, Part 43
+lang: it
+english: break
+current: rompere
+proposed: pausa
+kind: wrong-class
+reason: Rompere is the verb, to break. A break as a noun, among concepts, is a pausa.
+source: Vocabolario Treccani, s.v. "pausa"
+status: shipped 2026-10-26
+
+id: 13093
+entryid: 16484
+permalink: 16484
+lesson: Nouns - Measurements, Part 5
+lang: it
+english: rate
+current: Vota
+proposed: Tasso
+kind: wrong-word
+reason: Vota means vote! The measurement rate is tasso.
+source: Vocabolario Treccani, s.v. "tasso"
+displaced: Vota | imperative of votare
+status: shipped 2026-10-26
+
+id: 13118
+entryid: 16515
+permalink: 16515
+lesson: Nouns - Measurements, Part 11
+lang: it
+english: bit
+current: po
+proposed: Pezzetto
+kind: corrupt
+reason: Po is a fragment of un po'. A bit, as a measure, is a pezzetto.
+source: Vocabolario Treccani, s.v. "pezzetto"
+status: shipped 2026-10-26
+
+id: 13479
+entryid: 16967
+permalink: 16967
+lesson: Nouns - People, Part 68
+lang: it
+english: collector
+current: collettore
+proposed: collezionista
+kind: wrong-sense
+reason: Collettore is a pipe or a manifold. A person who collects is a collezionista.
+source: Vocabolario Treccani, s.v. "collezionista" and s.v. "collettore"
+status: shipped 2026-10-26
+
+id: 13589
+entryid: 17104
+permalink: 17104
+lesson: Nouns - Society, Part 21
+lang: it
+english: post
+current: inviare
+proposed: posta
+kind: wrong-class
+reason: Inviare is the verb, to send. The post is posta.
+source: Vocabolario Treccani, s.v. "posta"
+status: shipped 2026-10-26
+
+id: 13864
+entryid: 17448
+permalink: 17448
+lesson: Nouns - Society, Part 90
+lang: it
+english: sympathy
+current: simpatia
+proposed: compassione
+kind: false-friend
+reason: Simpatia means liking someone. Sympathy, feeling for someone's trouble, is compassione.
+source: Vocabolario Treccani, s.v. "simpatia" and s.v. "compassione"
+status: shipped 2026-10-26
+
+id: 13879
+entryid: 17467
+permalink: 17467
+lesson: Nouns - Society, Part 94
+lang: it
+english: allegation
+current: allegazione
+proposed: accusa
+kind: wrong-word
+reason: Allegazione is the filing of a document in a case. An allegation is an accusa.
+source: Vocabolario Treccani, s.v. "allegazione" and s.v. "accusa"
+status: shipped 2026-10-26
+
+id: 13880
+entryid: 17468
+permalink: 17468
+lesson: Nouns - Society, Part 94
+lang: it
+english: banking
+current: bancario
+proposed: attività bancaria
+kind: wrong-class
+reason: Bancario is the adjective. Banking, the activity, is attività bancaria.
+source: Vocabolario Treccani, s.v. "bancario"
+status: shipped 2026-10-26
+
+id: 13940
+entryid: 17543
+permalink: 17543
+lesson: Nouns - Society, Part 109
+lang: it
+english: tune
+current: sintonizzare
+proposed: melodia
+kind: wrong-class
+reason: Sintonizzare is to tune a radio, a verb. A tune is a melodia.
+source: Vocabolario Treccani, s.v. "melodia"
+status: shipped 2026-10-26
+
+id: 14008
+entryid: 17628
+permalink: 17628
+lesson: Nouns - Ideas, Part 7
+lang: it
+english: thought
+current: pensato
+proposed: pensiero
+kind: wrong-form
+reason: Pensato is a past participle. A thought is a pensiero.
+source: Vocabolario Treccani, s.v. "pensiero"
+status: shipped 2026-10-26
+
+id: 14037
+entryid: 17664
+permalink: 17664
+lesson: Nouns - Ideas, Part 14
+lang: it
+english: content
+current: soddisfare
+proposed: contenuto
+kind: wrong-class
+reason: Soddisfare is a verb, to satisfy. Content as a noun is contenuto.
+source: Vocabolario Treccani, s.v. "contenuto"
+status: shipped 2026-10-26
+
+id: 14075
+entryid: 17712
+permalink: 17712
+lesson: Nouns - Ideas, Part 24
+lang: it
+english: focus
+current: messa a fuoco
+proposed: attenzione
+kind: wrong-sense
+reason: Messa a fuoco is a camera's focus. Focus as an idea is attenzione.
+source: Vocabolario Treccani, s.v. "attenzione"
+status: shipped 2026-10-26
+
+id: 14117
+entryid: 17764
+permalink: 17764
+lesson: Nouns - Places, Part 4
+lang: it
+english: land
+current: sbarcare
+proposed: terra
+kind: wrong-class
+reason: Sbarcare is the verb, to land. Land as a place is terra.
+source: Vocabolario Treccani, s.v. "terra"
+status: shipped 2026-10-26
+
+id: 14127
+entryid: 17777
+permalink: 17777
+lesson: Nouns - Places, Part 7
+lang: it
+english: set
+current: impostato
+proposed: set
+kind: wrong-class
+reason: Impostato is a participle, set up. A set, the place where a film is shot, is a set in Italian too.
+source: Vocabolario Treccani, s.v. "set"
+status: shipped 2026-10-26
+
+id: 14167
+entryid: 17827
+permalink: 17827
+lesson: Nouns - Places, Part 17
+lang: it
+english: household
+current: domestico
+proposed: nucleo familiare
+kind: wrong-class
+reason: Domestico is the adjective. A household is a nucleo familiare.
+source: Vocabolario Treccani, s.v. "nucleo" (nucleo familiare)
+status: shipped 2026-10-26
+
+id: 14190
+entryid: 17855
+permalink: 17855
+lesson: Nouns - Places, Part 22
+lang: it
+english: cottage
+current: Cottage
+proposed: Villino
+kind: untranslated
+reason: The English was passed through. A cottage is a villino.
+source: Vocabolario Treccani, s.v. "villino"
+status: shipped 2026-10-26
+
+id: 14220
+entryid: 17893
+permalink: 17893
+lesson: Nouns - Places, Part 30
+lang: it
+english: resort
+current: ricorrere
+proposed: località turistica
+kind: wrong-class
+reason: Ricorrere is to resort to something, a verb. A holiday resort is a località turistica.
+source: Vocabolario Treccani, s.v. "località"
+status: shipped 2026-10-26
+
+id: 14233
+entryid: 17909
+permalink: 17909
+lesson: Nouns - Places, Part 33
+lang: it
+english: shore
+current: puntellare
+proposed: riva
+kind: wrong-class
+reason: Puntellare is to shore up, a verb. A shore is a riva.
+source: Vocabolario Treccani, s.v. "riva"
+status: shipped 2026-10-26
+
+id: 14252
+entryid: 17933
+permalink: 17933
+lesson: Nouns - Objects, Part 2
+lang: it
+english: matter
+current: importa
+proposed: materia
+kind: wrong-form
+reason: Importa is it matters. Matter, the stuff things are made of, is materia.
+source: Vocabolario Treccani, s.v. "materia"
+displaced: importa | 3sg present of importare
+status: shipped 2026-10-26
+
+id: 14261
+entryid: 17945
+permalink: 17945
+lesson: Nouns - Objects, Part 5
+lang: it
+english: light
+current: leggero
+proposed: luce
+kind: wrong-class
+reason: Leggero is light as in not heavy. Light among objects is luce.
+source: Vocabolario Treccani, s.v. "luce"
+status: shipped 2026-10-26
+
+id: 14314
+entryid: 18011
+permalink: 18011
+lesson: Nouns - Objects, Part 18
+lang: it
+english: fig
+current: Figura
+proposed: Fico
+kind: wrong-word
+reason: Figura is a figure. The fruit is the fico.
+source: Vocabolario Treccani, s.v. "fico"
+status: shipped 2026-10-26
+
+id: 14329
+entryid: 18030
+permalink: 18030
+lesson: Nouns - Objects, Part 22
+lang: it
+english: cabinet
+current: Consiglio dei ministri
+proposed: Armadietto
+kind: wrong-sense
+reason: The Consiglio dei ministri is a government cabinet. The piece of furniture is an armadietto.
+source: Vocabolario Treccani, s.v. "armadietto"
+status: shipped 2026-10-26
+
+id: 14337
+entryid: 18040
+permalink: 18040
+lesson: Nouns - Objects, Part 24
+lang: it
+english: wood
+current: legna
+proposed: legno
+kind: wrong-sense
+reason: Legna is firewood. Wood, the material, is legno.
+source: Vocabolario Treccani, s.v. "legno" and s.v. "legna"
+status: shipped 2026-10-26
+
+id: 14393
+entryid: 18110
+permalink: 18110
+lesson: Nouns - Objects, Part 38
+lang: it
+english: cross
+current: attraversare
+proposed: croce
+kind: wrong-class
+reason: Attraversare is to cross, a verb. A cross is a croce.
+source: Vocabolario Treccani, s.v. "croce"
+status: shipped 2026-10-26
+
+id: 14405
+entryid: 18125
+permalink: 18125
+lesson: Nouns - Objects, Part 41
+lang: it
+english: boot
+current: avvio
+proposed: stivale
+kind: wrong-word
+reason: Avvio is a computer starting up. A boot is a stivale.
+source: Vocabolario Treccani, s.v. "stivale"
+status: shipped 2026-10-26
+
+id: 14461
+entryid: 18195
+permalink: 18195
+lesson: Nouns - Objects, Part 55
+lang: it
+english: net
+current: netto
+proposed: rete
+kind: wrong-word
+reason: Netto is net as in net weight. A net is a rete.
+source: Vocabolario Treccani, s.v. "rete"
+status: shipped 2026-10-26
+
+id: 14484
+entryid: 18223
+permalink: 18223
+lesson: Nouns - Objects, Part 60
+lang: it
+english: check
+current: dai un'occhiata
+proposed: assegno
+kind: wrong-word
+reason: Dai un'occhiata is take a look. A check, the object, is an assegno.
+source: Vocabolario Treccani, s.v. "assegno"
+status: shipped 2026-10-26
+
+id: 14511
+entryid: 18257
+permalink: 18257
+lesson: Nouns - Objects, Part 67
+lang: it
+english: vat
+current: I.V.A
+proposed: tino
+kind: wrong-word
+reason: I.V.A. is VAT, the tax. A vat is a tino.
+source: Vocabolario Treccani, s.v. "tino"
+status: shipped 2026-10-26
+
+id: 14527
+entryid: 18277
+permalink: 18277
+lesson: Nouns - Objects, Part 71
+lang: it
+english: rubbish
+current: sciocchezze
+proposed: rifiuti
+kind: wrong-sense
+reason: Sciocchezze is rubbish as in nonsense. Rubbish among objects is rifiuti.
+source: Vocabolario Treccani, s.v. "rifiuto" (rifiuti)
+status: shipped 2026-10-26
+
+id: 14577
+entryid: 18340
+permalink: 18340
+lesson: Nouns - Objects, Part 84
+lang: it
+english: satellite
+current: satellitare
+proposed: satellite
+kind: wrong-class
+reason: Satellitare is the adjective. The object is a satellite.
+source: Vocabolario Treccani, s.v. "satellite"
+status: shipped 2026-10-26
+
+id: 14590
+entryid: 18356
+permalink: 18356
+lesson: Nouns - Objects, Part 87
+lang: it
+english: bureau
+current: ufficio
+proposed: scrittoio
+kind: wrong-sense
+reason: Ufficio is an office. A bureau among objects is a writing desk, a scrittoio.
+source: Vocabolario Treccani, s.v. "scrittoio"
+status: shipped 2026-10-26
+
+id: 14624
+entryid: 18399
+permalink: 18399
+lesson: Adjectives - Quantity, Part 7
+lang: it
+english: spare
+current: scorta
+proposed: di riserva
+kind: wrong-class
+reason: Scorta is a noun, a supply. Spare as an adjective is di riserva.
+source: Vocabolario Treccani, s.v. "riserva" (di riserva)
+status: shipped 2026-10-26
+
+id: 14716
+entryid: 18514
+permalink: 18514
+lesson: Adjectives - Quality, Part 21
+lang: it
+english: hardy
+current: ardito
+proposed: resistente
+kind: wrong-sense
+reason: Ardito means daring. Hardy is resistente.
+source: Vocabolario Treccani, s.v. "resistente" and s.v. "ardito"
+status: shipped 2026-10-26
+
+id: 14737
+entryid: 18540
+permalink: 18540
+lesson: Adjectives - Quality, Part 26
+lang: it
+english: slick
+current: chiazza di petrolio
+proposed: scivoloso
+kind: wrong-class
+reason: Chiazza di petrolio is an oil slick, a noun. Slick as an adjective is scivoloso.
+source: Vocabolario Treccani, s.v. "scivoloso"
+status: shipped 2026-10-26
+
+id: 14753
+entryid: 18561
+permalink: 18561
+lesson: Adjectives - Quality, Part 31
+lang: it
+english: frilly
+current: frilly
+proposed: pieno di fronzoli
+kind: untranslated
+reason: The English was passed through. Frilly is pieno di fronzoli.
+source: Vocabolario Treccani, s.v. "fronzolo"
+status: shipped 2026-10-26
+
+id: 14761
+entryid: 18571
+permalink: 18571
+lesson: Adjectives - Quality, Part 33
+lang: it
+english: boney
+current: Boney
+proposed: ossuto
+kind: untranslated
+reason: The English was passed through. Boney is ossuto.
+source: Vocabolario Treccani, s.v. "ossuto"
+status: shipped 2026-10-26
+
+id: 14765
+entryid: 18576
+permalink: 18576
+lesson: Adjectives - Social, Part 1
+lang: it
+english: good
+current: bene
+proposed: buono
+kind: wrong-class
+reason: Bene is the adverb, well. Good is buono.
+source: Vocabolario Treccani, s.v. "buono"
+status: shipped 2026-10-26
+
+id: 14813
+entryid: 18636
+permalink: 18636
+lesson: Adjectives - Social, Part 13
+lang: it
+english: smart
+current: inteligente
+proposed: intelligente
+kind: orthography
+reason: Inteligente is the Spanish spelling. Italian doubles the l.
+source: Vocabolario Treccani, s.v. "intelligente"
+status: shipped 2026-10-26
+
+id: 14819
+entryid: 18643
+permalink: 18643
+lesson: Adjectives - Social, Part 14
+lang: it
+english: bold
+current: grassetto
+proposed: audace
+kind: wrong-sense
+reason: Grassetto is bold type. Bold, in people, is audace.
+source: Vocabolario Treccani, s.v. "audace"
+status: shipped 2026-10-26
+
+id: 14821
+entryid: 18646
+permalink: 18646
+lesson: Adjectives - Social, Part 15
+lang: it
+english: divine
+current: divine
+proposed: divino
+kind: wrong-form
+reason: Divine is the feminine plural. The list takes the masculine singular.
+source: Vocabolario Treccani, s.v. "divino"
+displaced: divine | feminine plural of divino
+status: shipped 2026-10-26
+
+id: 14828
+entryid: 18654
+permalink: 18654
+lesson: Adjectives - Social, Part 16
+lang: it
+english: dumb
+current: muto
+proposed: stupido
+kind: wrong-sense
+reason: Muto is unable to speak. Dumb in a social list is stupido.
+source: Vocabolario Treccani, s.v. "stupido"
+status: shipped 2026-10-26
+
+id: 14834
+entryid: 18662
+permalink: 18662
+lesson: Adjectives - Social, Part 18
+lang: it
+english: dim
+current: offuscare
+proposed: fioco
+kind: wrong-class
+reason: Offuscare is a verb, to dim. Dim as an adjective is fioco.
+source: Vocabolario Treccani, s.v. "fioco"
+status: shipped 2026-10-26
+
+id: 14939
+entryid: 18793
+permalink: 18793
+lesson: Adjectives - Feeling, Part 11
+lang: it
+english: grave
+current: tomba
+proposed: grave
+kind: wrong-class
+reason: Tomba is a grave, a noun. Grave as a feeling is grave in Italian too.
+source: Vocabolario Treccani, s.v. "grave"
+status: shipped 2026-10-26
+
+id: 14966
+entryid: 18827
+permalink: 18827
+lesson: Adjectives - Feeling, Part 18
+lang: it
+english: heady
+current: impetuoso
+proposed: inebriante
+kind: wrong-sense
+reason: Impetuoso is impetuous. Heady is inebriante.
+source: Vocabolario Treccani, s.v. "inebriante"
+status: shipped 2026-10-26
+
+id: 14975
+entryid: 18838
+permalink: 18838
+lesson: Adjectives - Feeling, Part 20
+lang: it
+english: slimey
+current: po'appiccicoso
+proposed: viscido
+kind: corrupt
+reason: Po'appiccicoso is mangled, a bit sticky with the space lost. Slimy is viscido.
+source: Vocabolario Treccani, s.v. "viscido"
+status: shipped 2026-10-26
+
+id: 14996
+entryid: 18865
+permalink: 18865
+lesson: Adjectives - Feeling, Part 26
+lang: it
+english: bubbly
+current: pieno di bolle
+proposed: vivace
+kind: wrong-sense
+reason: Pieno di bolle is literally full of bubbles. Bubbly as a feeling is vivace.
+source: Vocabolario Treccani, s.v. "vivace"
+status: shipped 2026-10-26
+
+id: 15003
+entryid: 18873
+permalink: 18873
+lesson: Adjectives - Appearance, Part 1
+lang: it
+english: fine
+current: bene
+proposed: fine
+kind: wrong-class
+reason: Bene is the adverb, well. Fine in appearance, thin and delicate, is fine in Italian too.
+source: Vocabolario Treccani, s.v. "fine" (agg.)
+status: shipped 2026-10-26
+
+id: 15018
+entryid: 18892
+permalink: 18892
+lesson: Adjectives - Appearance, Part 5
+lang: it
+english: round
+current: il giro
+proposed: rotondo
+kind: wrong-class
+reason: Il giro is a round or a tour, a noun. Round in shape is rotondo.
+source: Vocabolario Treccani, s.v. "rotondo"
+status: shipped 2026-10-26
+
+id: 15021
+entryid: 18896
+permalink: 18896
+lesson: Adjectives - Appearance, Part 6
+lang: it
+english: sheer
+current: puro
+proposed: trasparente
+kind: wrong-sense
+reason: Puro is sheer as in sheer luck. Sheer in appearance, of cloth, is trasparente.
+source: Vocabolario Treccani, s.v. "trasparente"
+status: shipped 2026-10-26
+
+id: 15046
+entryid: 18927
+permalink: 18927
+lesson: Adjectives - Appearance, Part 12
+lang: it
+english: baggy
+current: cascante
+proposed: largo
+kind: wrong-sense
+reason: Cascante is sagging. Baggy clothes are larghi.
+source: Vocabolario Treccani, s.v. "largo"
+status: shipped 2026-10-26
+
+id: 15052
+entryid: 18935
+permalink: 18935
+lesson: Adjectives - Appearance, Part 14
+lang: it
+english: rosey
+current: rosey
+proposed: roseo
+kind: untranslated
+reason: The English was passed through. Rosy is roseo.
+source: Vocabolario Treccani, s.v. "roseo"
+status: shipped 2026-10-26
+
+id: 15060
+entryid: 18945
+permalink: 18945
+lesson: Adjectives - Appearance, Part 16
+lang: it
+english: husky
+current: rauco
+proposed: robusto
+kind: wrong-sense
+reason: Rauco is a husky voice. Husky in appearance, burly, is robusto.
+source: Vocabolario Treccani, s.v. "robusto"
+status: shipped 2026-10-26
+
+id: 38826
+entryid: 48680
+permalink: 48680
+lesson: Verbs - Mental Activity, Part 5
+lang: it
+english: design
+current: design
+proposed: progettare
+kind: untranslated
+reason: The English was passed through. To design is progettare.
+source: Vocabolario Treccani, s.v. "progettare"
+status: shipped 2026-10-26
+
+id: 39286
+entryid: 49207
+permalink: 49207
+lesson: Verbs - Mental Activity, Part 8
+lang: it
+english: stare
+current: menatap
+proposed: fissare
+kind: wrong-word
+reason: Menatap is Indonesian. To stare is fissare.
+source: Vocabolario Treccani, s.v. "fissare"
+status: shipped 2026-10-26
+
+id: 39355
+entryid: 49279
+permalink: 49279
+lesson: Adjectives - Quality, Part 32
+lang: it
+english: dusky
+current: agak hitam
+proposed: scuro
+kind: wrong-word
+reason: Agak hitam is Indonesian. Dusky is scuro.
+source: Vocabolario Treccani, s.v. "scuro"
+status: shipped 2026-10-26
+
+id: 40928
+entryid: 51190
+permalink: 51190
+lesson: Entertainment - Music, Part 4
+lang: it
+english: trip hop
+current: viaggio hop
+proposed: trip hop
+kind: untranslated
+reason: Viaggio hop translated a genre name word by word. Italian uses trip hop.
+source: Vocabolario Treccani, s.v. "trip hop"
+status: shipped 2026-10-26
+
+id: 40933
+entryid: 51196
+permalink: 51196
+lesson: Entertainment - Music, Part 5
+lang: it
+english: rave music
+current: rave musica
+proposed: musica rave
+kind: untranslated
+reason: Rave musica keeps English word order. In Italian it is musica rave.
+source: Vocabolario Treccani, s.v. "rave"
+status: shipped 2026-10-26
+
+id: 40938
+entryid: 51203
+permalink: 51203
+lesson: Entertainment - Music, Part 6
+lang: it
+english: goth music
+current: musica di goth
+proposed: musica goth
+kind: untranslated
+reason: Musica di goth reads as music by a goth. The genre is musica goth.
+source: Vocabolario Treccani, s.v. "goth"
+status: shipped 2026-10-26
+
+id: 40967
+entryid: 51238
+permalink: 51238
+lesson: Entertainment - Music, Part 9
+lang: it
+english: party
+current: partito
+proposed: festa
+kind: wrong-sense
+reason: Partito is a political party. A party with music is a festa.
+source: Vocabolario Treccani, s.v. "festa" and s.v. "partito"
+status: shipped 2026-10-26
+
+id: 41037
+entryid: 51327
+permalink: 51327
+lesson: Entertainment - Film, Part 4
+lang: it
+english: fictional film
+current: film fiction
+proposed: film di finzione
+kind: untranslated
+reason: Film fiction half-translates it. A fictional film is a film di finzione.
+source: Vocabolario Treccani, s.v. "finzione"
+status: shipped 2026-10-26
+
+id: 41038
+entryid: 51328
+permalink: 51328
+lesson: Entertainment - Film, Part 4
+lang: it
+english: scifi
+current: scifi
+proposed: fantascienza
+kind: untranslated
+reason: The English was passed through. Sci-fi is fantascienza.
+source: Vocabolario Treccani, s.v. "fantascienza"
+status: shipped 2026-10-26
+
+id: 41042
+entryid: 51332
+permalink: 51332
+lesson: Entertainment - Film, Part 4
+lang: it
+english: B-Movie
+current: B-Movie
+proposed: film di serie B
+kind: untranslated
+reason: The English was passed through. A B-movie is a film di serie B.
+source: Vocabolario Treccani, s.v. "serie" (di serie B)
+status: shipped 2026-10-26
+
+id: 41045
+entryid: 51337
+permalink: 51337
+lesson: Entertainment - Film, Part 5
+lang: it
+english: dance dance revolution
+current: rivoluzione dance dance
+proposed: Dance Dance Revolution
+kind: untranslated
+reason: A game's title, translated word by word. Its name in Italy is its English one.
+source: Konami, Dance Dance Revolution (sold in Italy under its English title)
+status: shipped 2026-10-26
+
+id: 41055
+entryid: 51349
+permalink: 51349
+lesson: Entertainment - Sports, Part 1
+lang: it
+english: racing
+current: da corsa
+proposed: corsa
+kind: wrong-class
+reason: Da corsa is the adjective, for racing. Racing, the sport, is corsa.
+source: Vocabolario Treccani, s.v. "corsa"
+status: shipped 2026-10-26
+
+id: 41090
+entryid: 51392
+permalink: 51392
+lesson: Entertainment - Sports, Part 5
+lang: it
+english: dodgeball
+current: dodgeball
+proposed: palla avvelenata
+kind: untranslated
+reason: The English was passed through. Dodgeball is palla avvelenata.
+source: Vocabolario Treccani, s.v. "palla" (palla avvelenata)
+status: shipped 2026-10-26
+
+id: 41104
+entryid: 51410
+permalink: 51410
+lesson: Entertainment - Sports, Part 7
+lang: it
+english: rc racing
+current: rc corse
+proposed: corse di auto radiocomandate
+kind: untranslated
+reason: Rc corse keeps the English abbreviation and word order. RC racing is corse di auto radiocomandate.
+source: Vocabolario Treccani, s.v. "radiocomandato"
+status: shipped 2026-10-26
+
+id: 41144
+entryid: 51460
+permalink: 51460
+lesson: Culture - Calendar, Part 2
+lang: it
+english: May
+current: Può
+proposed: maggio
+kind: wrong-word
+reason: Può means he can: English May read as the verb. The month is maggio, lower case like the others.
+source: Vocabolario Treccani, s.v. "maggio"
+displaced: Può | 3sg present of potere
+status: shipped 2026-10-26
+
+id: 41230
+entryid: 51567
+permalink: 51567
+lesson: Culture - Religion, Part 7
+lang: it
+english: Jainist
+current: Jainist
+proposed: giainista
+kind: untranslated
+reason: The English was passed through. A Jainist is a giainista.
+source: Vocabolario Treccani, s.v. "giainismo"
+status: shipped 2026-10-26
+
+id: 41267
+entryid: 51614
+permalink: 51614
+lesson: Culture - Countries, Part 5
+lang: it
+english: Iran
+current: Ho corso
+proposed: Iran
+kind: wrong-word
+reason: Ho corso is I ran: the country's name read as English words. Iran is Iran.
+source: Vocabolario Treccani, s.v. "Iran"
+status: shipped 2026-10-26
+
+id: 41269
+entryid: 51616
+permalink: 51616
+lesson: Culture - Countries, Part 5
+lang: it
+english: Turkey
+current: tacchino
+proposed: Turchia
+kind: wrong-word
+reason: Tacchino is the bird. In a list of countries, Turkey is Turchia.
+source: Vocabolario Treccani, s.v. "Turchia" and s.v. "tacchino"
+status: shipped 2026-10-26
+
+id: 41382
+entryid: 51758
+permalink: 51758
+lesson: Culture - Languages, Part 1
+lang: it
+english: Mandarin
+current: Mandarino
+proposed: Cinese mandarino
+kind: wrong-word
+reason: Mandarino on its own is the fruit. The language is cinese mandarino.
+source: Vocabolario Treccani, s.v. "mandarino"
+status: shipped 2026-10-26
+
+id: 41496
+entryid: 51901
+permalink: 51901
+lesson: Culture - Politics, Part 3
+lang: it
+english: right-wing
+current: ala destra
+proposed: di destra
+kind: wrong-class
+reason: Ala destra is the right wing, a noun. Right-wing as an adjective is di destra.
+source: Vocabolario Treccani, s.v. "destra"
+status: shipped 2026-10-26
+
+id: 41598
+entryid: 52028
+permalink: 52028
+lesson: Culture - Politics, Part 15
+lang: it
+english: common law
+current: diritto comune
+proposed: common law
+kind: wrong-word
+reason: Diritto comune is the old continental ius commune, a different system. Italian calls the English one common law.
+source: Vocabolario Treccani, s.v. "common law"
+status: shipped 2026-10-26
+
+id: 41621
+entryid: 52057
+permalink: 52057
+lesson: Culture - Politics, Part 18
+lang: it
+english: grass roots
+current: radici di erba
+proposed: base
+kind: untranslated
+reason: Radici di erba is the English idiom taken literally. The grass roots of a movement are its base.
+source: Vocabolario Treccani, s.v. "base"
+status: shipped 2026-10-26
+
+id: 41629
+entryid: 52067
+permalink: 52067
+lesson: Culture - Politics, Part 19
+lang: it
+english: incumbent
+current: incombente
+proposed: in carica
+kind: wrong-sense
+reason: Incombente means looming. The incumbent, the one in office, is in carica.
+source: Vocabolario Treccani, s.v. "carica" (in carica)
+status: shipped 2026-10-26
+
+id: 41645
+entryid: 52087
+permalink: 52087
+lesson: Culture - Politics, Part 21
+lang: it
+english: muckraker
+current: Muckraker
+proposed: giornalista d'inchiesta
+kind: untranslated
+reason: The English was passed through. A muckraker is a giornalista d'inchiesta.
+source: Vocabolario Treccani, s.v. "inchiesta"
+status: shipped 2026-10-26
+
+id: 41666
+entryid: 52112
+permalink: 52112
+lesson: Culture - Politics, Part 23
+lang: it
+english: sovietism
+current: sovietism
+proposed: sovietismo
+kind: untranslated
+reason: The English was passed through. Sovietism is sovietismo.
+source: Vocabolario Treccani, s.v. "sovietismo"
+status: shipped 2026-10-26
+
+id: 41720
+entryid: 52180
+permalink: 52180
+lesson: Culture - Politics, Part 30
+lang: it
+english: conservative
+current: prudente
+proposed: conservatore
+kind: wrong-sense
+reason: Prudente is cautious. In politics, a conservative is a conservatore.
+source: Vocabolario Treccani, s.v. "conservatore"
+status: shipped 2026-10-26
+
+id: 41780
+entryid: 52255
+permalink: 52255
+lesson: Culture - Politics, Part 37
+lang: it
+english: congressman
+current: congressman
+proposed: membro del Congresso
+kind: untranslated
+reason: The English was passed through. A congressman is a membro del Congresso; a congressista is someone at a conference.
+source: Vocabolario Treccani, s.v. "congressista"
+status: shipped 2026-10-26
+
+id: 41815
+entryid: 52299
+permalink: 52299
+lesson: Culture - Politics, Part 41
+lang: it
+english: rank and file
+current: rango e file
+proposed: militanti di base
+kind: untranslated
+reason: Rango e file is the idiom taken literally. The rank and file are the militanti di base.
+source: Vocabolario Treccani, s.v. "base"
+status: shipped 2026-10-26
+
+id: 41836
+entryid: 52325
+permalink: 52325
+lesson: Adjectives - Numbers, Part 3
+lang: it
+english: nine
+current: otto nove
+proposed: nove
+kind: corrupt
+reason: Otto nove is eight nine. Nine is nove.
+source: Vocabolario Treccani, s.v. "nove"
+status: shipped 2026-10-26
+
+id: 41936
+entryid: 52451
+permalink: 52451
+lesson: Adjectives - Numbers, Part 15
+lang: it
+english: two thousand, one
+current: Duecentouno
+proposed: duemilauno
+kind: wrong-word
+reason: Duecentouno is two hundred and one. Two thousand and one is duemilauno.
+source: Vocabolario Treccani, s.v. "mille" (composti: duemila)
+status: shipped 2026-10-26
+
+id: 41955
+entryid: 52474
+permalink: 52474
+lesson: Adjectives - Numbers, Part 17
+lang: it
+english: two thousand, ten
+current: due cento dieci
+proposed: duemiladieci
+kind: wrong-word
+reason: Due cento dieci is two hundred and ten, written apart. Two thousand and ten is duemiladieci, one word.
+source: Vocabolario Treccani, s.v. "mille" (composti: duemila)
+status: shipped 2026-10-26
+
+id: 41972
+entryid: 52495
+permalink: 52495
+lesson: Adjectives - Numbers, Part 19
+lang: it
+english: two thousand, twenty
+current: duemila, venti
+proposed: duemilaventi
+kind: orthography
+reason: Italian numbers are written as one word: duemilaventi, not duemila, venti.
+source: Vocabolario Treccani, s.v. "mille" (composti: duemila)
+status: shipped 2026-10-26
+
+id: 46915
+entryid: 58694
+permalink: 58694
+lesson: Culture - Food and Drink, Part 7
+lang: it
+english: dip
+current: tuffo
+proposed: salsa
+kind: wrong-sense
+reason: Tuffo is a dive into water. A dip to eat is a salsa.
+source: Vocabolario Treccani, s.v. "salsa"
+status: shipped 2026-10-26
+
+id: 46917
+entryid: 58696
+permalink: 58696
+lesson: Culture - Food and Drink, Part 7
+lang: it
+english: seasoning
+current: stagionatura
+proposed: condimento
+kind: wrong-sense
+reason: Stagionatura is ageing, as of cheese. Seasoning is condimento.
+source: Vocabolario Treccani, s.v. "condimento" and s.v. "stagionatura"
+status: shipped 2026-10-26
+
+id: 46948
+entryid: 58735
+permalink: 58735
+lesson: Culture - Food and Drink, Part 15
+lang: it
+english: seltzer water
+current: acqua Seltzer
+proposed: acqua di seltz
+kind: untranslated
+reason: Acqua Seltzer is half English. Italian writes it acqua di seltz.
+source: Vocabolario Treccani, s.v. "seltz"
+status: shipped 2026-10-26
+
+id: 46950
+entryid: 58738
+permalink: 58738
+lesson: Culture - Food and Drink, Part 16
+lang: it
+english: soda
+current: Soda
+proposed: Bibita gassata
+kind: untranslated
+reason: Soda in Italian is soda ash or soda water. The fizzy drink is a bibita gassata.
+source: Vocabolario Treccani, s.v. "bibita"
+status: shipped 2026-10-26
+
+id: 46963
+entryid: 58754
+permalink: 58754
+lesson: Culture - Food and Drink, Part 19
+lang: it
+english: cider
+current: Cedro
+proposed: Sidro
+kind: wrong-word
+reason: Cedro is the citron, a fruit. Cider is sidro.
+source: Vocabolario Treccani, s.v. "sidro" and s.v. "cedro"
+status: shipped 2026-10-26
+
+id: 51950
+entryid: 65049
+permalink: 65049
+lesson: Phrases - Introductions, Part 5
+lang: it
+english: How do you do, Mr. Paine?
+current: Come fai, signor Paine?
+proposed: Piacere di conoscerla, signor Paine.
+kind: wrong-sense
+reason: Come fai asks how he does something. How do you do is a greeting: piacere di conoscerla.
+source: Vocabolario Treccani, s.v. "piacere" (piacere di conoscerla)
+status: shipped 2026-10-26
+
+id: 52258
+entryid: 65436
+permalink: 65436
+lesson: Phrases - Food, Part 4
+lang: it
+english: Is there salt?
+current: C'è un sale?
+proposed: C'è del sale?
+kind: wrong-word
+reason: Un sale is a salt, a chemical. Is there salt? takes the partitive: c'è del sale?
+source: Vocabolario Treccani, s.v. "sale"
+status: shipped 2026-10-26
+
+id: 52428
+entryid: 65647
+permalink: 65647
+lesson: Phrases - Food, Part 13
+lang: it
+english: There's not many people at the restaurant.
+current: Il ristorante è affollato Non c'è molta gente al ristorante.
+proposed: Non c'è molta gente al ristorante.
+kind: corrupt
+reason: The row holds a second, contradictory sentence in front of the right one.
+source: Row contents (two sentences joined)
+status: shipped 2026-10-26
+
+id: 52429
+entryid: 65649
+permalink: 65649
+lesson: Phrases - Food, Part 14
+lang: it
+english: Do you have a table near the window?
+current: Il ristorante è affollato Non c'è molta gente al restaDo che hai un tavolo vicino alla finestra.
+proposed: Avete un tavolo vicino alla finestra?
+kind: corrupt
+reason: The row holds the end of the previous phrase spliced into this one. Asked of a restaurant, you is avete.
+source: Row contents (two sentences spliced)
+status: shipped 2026-10-26
+
+id: 52486
+entryid: 65721
+permalink: 65721
+lesson: Phrases - Food, Part 20
+lang: it
+english: What on the menu do you recommend?
+current: Cosa succede al menu?
+proposed: Cosa mi consiglia dal menù?
+kind: wrong-word
+reason: Cosa succede al menu? asks what is happening to the menu.
+source: Vocabolario Treccani, s.v. "consigliare"
+status: shipped 2026-10-26
+
+id: 52671
+entryid: 65952
+permalink: 65952
+lesson: Phrases - Travel, Part 15
+lang: it
+english: Are you coming?
+current: Stai venendo?
+proposed: Vieni?
+kind: register
+reason: Stai venendo? is grammatical but not what anyone says. Are you coming? is vieni?
+source: Vocabolario Treccani, s.v. "venire"
+status: shipped 2026-10-26
+
+id: 52678
+entryid: 65961
+permalink: 65961
+lesson: Phrases - Travel, Part 16
+lang: it
+english: Where is the radical bookstore?
+current: Dov'è la libreria produttiva?
+proposed: Dov'è la libreria radicale?
+kind: wrong-word
+reason: Produttiva means productive. A radical bookshop is a libreria radicale.
+source: Vocabolario Treccani, s.v. "radicale"
+status: shipped 2026-10-26
+
+id: 52687
+entryid: 65972
+permalink: 65972
+lesson: Phrases - Travel, Part 17
+lang: it
+english: That way.
+current: Quel modo.
+proposed: Da quella parte.
+kind: wrong-sense
+reason: Quel modo is that manner. That way, giving directions, is da quella parte.
+source: Vocabolario Treccani, s.v. "parte" (da quella parte)
+status: shipped 2026-10-26
+
+id: 52704
+entryid: 65994
+permalink: 65994
+lesson: Phrases - Travel, Part 19
+lang: it
+english: Did your children enjoy California?
+current: I tuoi bambini godono della California?
+proposed: I tuoi bambini si sono divertiti in California?
+kind: wrong-form
+reason: The row is in the present, do your children enjoy. Did they enjoy is the passato prossimo.
+source: Vocabolario Treccani, s.v. "divertire" (divertirsi)
+status: shipped 2026-10-26
+
+id: 52711
+entryid: 66004
+permalink: 66004
+lesson: Phrases - Travel, Part 21
+lang: it
+english: I'm across the street from the pub.
+current: Sono di fronte alla strada dal pub.
+proposed: Sono dall'altra parte della strada rispetto al pub.
+kind: wrong-word
+reason: Di fronte alla strada dal pub doesn't parse in Italian.
+source: Vocabolario Treccani, s.v. "parte" (dall'altra parte)
+status: shipped 2026-10-26
+
+id: 52716
+entryid: 66012
+permalink: 66012
+lesson: Phrases - Travel, Part 22
+lang: it
+english: Can I get a single room?
+current: Vado alla capitale di 1.000. Posso avere una camera singola? Les.
+proposed: Posso avere una camera singola?
+kind: corrupt
+reason: The row has fragments of other phrases on both sides of the right sentence.
+source: Row contents (fragments spliced in)
+status: shipped 2026-10-26
+
+id: 52718
+entryid: 66014
+permalink: 66014
+lesson: Phrases - Travel, Part 22
+lang: it
+english: I would like a double room.
+current: Io vado alla capitale di 1.000 mCan ho un singolo rooI vorrei una camera doppia.
+proposed: Vorrei una camera doppia.
+kind: corrupt
+reason: The row is mangled: fragments of the previous phrase run into this one.
+source: Row contents (fragments spliced in)
+status: shipped 2026-10-26
+
+id: 52762
+entryid: 66070
+permalink: 66070
+lesson: Phrases - Travel, Part 27
+lang: it
+english: It's over here.
+current: È finita qui.
+proposed: È qui.
+kind: wrong-sense
+reason: È finita qui means it ends here. It's over here is è qui.
+source: Vocabolario Treccani, s.v. "qui"
+status: shipped 2026-10-26
+
+id: 52835
+entryid: 66161
+permalink: 66161
+lesson: Phrases - Travel, Part 36
+lang: it
+english: When are you moving?
+current: Quando sei in movimento?
+proposed: Quando ti trasferisci?
+kind: wrong-sense
+reason: In movimento is in motion. Moving house is trasferirsi.
+source: Vocabolario Treccani, s.v. "trasferire" (trasferirsi)
+status: shipped 2026-10-26
+
+id: 52853
+entryid: 66184
+permalink: 66184
+lesson: Phrases - Travel, Part 38
+lang: it
+english: What time is check out?
+current: Qual è il momento di controllare?
+proposed: A che ora è il check-out?
+kind: wrong-word
+reason: Il momento di controllare is the moment to check. Hotels in Italy say check-out.
+source: Vocabolario Treccani, s.v. "check-out"
+status: shipped 2026-10-26
+
+id: 53014
+entryid: 66387
+permalink: 66387
+lesson: Phrases - Travel, Part 56
+lang: it
+english: That is to the West of here.
+current: Quello è all'Occidente di qui.
+proposed: Quello è a ovest di qui.
+kind: wrong-sense
+reason: L'Occidente is the West as a civilisation. West of here is a ovest.
+source: Vocabolario Treccani, s.v. "ovest"
+status: shipped 2026-10-26
+
+id: 53162
+entryid: 66571
+permalink: 66571
+lesson: Phrases - People, Part 3
+lang: it
+english: Are you going to help her?
+current: Lo aiuterai?
+proposed: La aiuterai?
+kind: wrong-word
+reason: Lo is him. Her is la.
+source: Vocabolario Treccani, s.v. "la" (pron.)
+status: shipped 2026-10-26
+
+id: 53272
+entryid: 66708
+permalink: 66708
+lesson: Phrases - People, Part 15
+lang: it
+english: How well-behaved do you expect them to be?
+current: Come ti rendi bene che ti aspetti?
+proposed: Quanto ti aspetti che siano educati?
+kind: wrong-word
+reason: Come ti rendi bene che ti aspetti? doesn't parse in Italian.
+source: Vocabolario Treccani, s.v. "educato"
+status: shipped 2026-10-26
+
+id: 53398
+entryid: 66866
+permalink: 66866
+lesson: Phrases - People, Part 30
+lang: it
+english: Is your mother home?
+current: È la casa di tua madre?
+proposed: Tua madre è a casa?
+kind: wrong-sense
+reason: È la casa di tua madre? asks whether it is your mother's house.
+source: Vocabolario Treccani, s.v. "casa" (a casa)
+status: shipped 2026-10-26
+
+id: 53406
+entryid: 66876
+permalink: 66876
+lesson: Phrases - People, Part 31
+lang: it
+english: Is someone coming?
+current: Qualcuno è venuto?
+proposed: Sta arrivando qualcuno?
+kind: wrong-form
+reason: Qualcuno è venuto? is did someone come. Is someone coming is sta arrivando qualcuno?
+source: Vocabolario Treccani, s.v. "arrivare"
+status: shipped 2026-10-26
+
+id: 53561
+entryid: 67069
+permalink: 67069
+lesson: Phrases - Knowledge, Part 6
+lang: it
+english: You are wrong.
+current: Tui hai torto.
+proposed: Hai torto.
+kind: orthography
+reason: Tui is not Italian; it's a slip for tu, which Italian usually drops.
+source: Vocabolario Treccani, s.v. "torto" (avere torto)
+status: shipped 2026-10-26
+
+id: 53782
+entryid: 67347
+permalink: 67347
+lesson: Phrases - Approval, Part 3
+lang: it
+english: Terrific!
+current: Terrific!
+proposed: Fantastico!
+kind: untranslated
+reason: The English was passed through.
+source: Vocabolario Treccani, s.v. "fantastico"
+status: shipped 2026-10-26
+
+id: 53860
+entryid: 67444
+permalink: 67444
+lesson: Phrases - Time, Part 7
+lang: it
+english: Either time.
+current: O tempo.
+proposed: L'uno o l'altro orario.
+kind: wrong-word
+reason: O tempo reads as or weather. Either time means either of two times.
+source: Vocabolario Treccani, s.v. "orario"
+status: shipped 2026-10-26
+
+id: 53869
+entryid: 67456
+permalink: 67456
+lesson: Phrases - Time, Part 10
+lang: it
+english: It is a quarter past 6.
+current: È un quarto di 6 anni.
+proposed: Sono le sei e un quarto.
+kind: wrong-word
+reason: Un quarto di 6 anni is a quarter of six years. Times take sono le.
+source: Vocabolario Treccani, s.v. "ora" (che ore sono)
+status: shipped 2026-10-26
+
+id: 53961
+entryid: 67571
+permalink: 67571
+lesson: Phrases - Time, Part 22
+lang: it
+english: Either time is fine for me.
+current: Il tempo è bello per me.
+proposed: Per me va bene l'uno o l'altro orario.
+kind: wrong-sense
+reason: Il tempo è bello per me is the weather is nice for me.
+source: Vocabolario Treccani, s.v. "orario"
+status: shipped 2026-10-26
+
+id: 54142
+entryid: 67799
+permalink: 67799
+lesson: Phrases - Social Activity, Part 6
+lang: it
+english: Let's practice English.
+current: Prendiamo l'inglese.
+proposed: Facciamo pratica di inglese.
+kind: wrong-word
+reason: Prendiamo l'inglese is let's take English. To practise is fare pratica.
+source: Vocabolario Treccani, s.v. "pratica"
+status: shipped 2026-10-26
+
+id: 54334
+entryid: 68040
+permalink: 68040
+lesson: Phrases - Social Activity, Part 31
+lang: it
+english: Do you believe that?
+current: Credi che?
+proposed: Ci credi?
+kind: wrong-form
+reason: Credi che? is an unfinished do you believe that... Do you believe it is ci credi?
+source: Vocabolario Treccani, s.v. "credere" (crederci)
+status: shipped 2026-10-26
+
+id: 54384
+entryid: 68103
+permalink: 68103
+lesson: Phrases - Work, Part 2
+lang: it
+english: How is the job?
+current: Come funziona?
+proposed: Com'è il lavoro?
+kind: wrong-sense
+reason: Come funziona? is how does it work.
+source: Vocabolario Treccani, s.v. "lavoro"
+status: shipped 2026-10-26
+
+id: 54399
+entryid: 68122
+permalink: 68122
+lesson: Phrases - Work, Part 4
+lang: it
+english: I have a wedding to attend.
+current: Ho un matrimonio per partecipare.
+proposed: Devo andare a un matrimonio.
+kind: wrong-word
+reason: Ho un matrimonio per partecipare is English word order and doesn't read as Italian.
+source: Vocabolario Treccani, s.v. "matrimonio"
+status: shipped 2026-10-26
+
+id: 54561
+entryid: 68326
+permalink: 68326
+lesson: Phrases - Objects, Part 9
+lang: it
+english: Can you wrap this?
+current: Puoi riempire questo?
+proposed: Puoi incartarlo?
+kind: wrong-word
+reason: Riempire is to fill. To wrap a present is incartare.
+source: Vocabolario Treccani, s.v. "incartare"
+status: shipped 2026-10-26
+
+id: 54672
+entryid: 68465
+permalink: 68465
+lesson: Phrases - Objects, Part 23
+lang: it
+english: Can you mail this?
+current: Puoi inviare questo messaggio?
+proposed: Puoi spedire questo?
+kind: wrong-word
+reason: Inviare questo messaggio is send this message. To mail a parcel is spedire.
+source: Vocabolario Treccani, s.v. "spedire"
+status: shipped 2026-10-26
+
+id: 54708
+entryid: 68510
+permalink: 68510
+lesson: Phrases - Objects, Part 27
+lang: it
+english: Yes, I can hold that.
+current: Sì, posso trattenermi.
+proposed: Sì, posso tenerlo.
+kind: wrong-sense
+reason: Trattenermi is to hold myself back. To hold something is tenerlo.
+source: Vocabolario Treccani, s.v. "tenere"
+status: shipped 2026-10-26
+
+id: 54716
+entryid: 68520
+permalink: 68520
+lesson: Phrases - Objects, Part 28
+lang: it
+english: I am all out.
+current: Sono tutto fuori.
+proposed: Non ne ho più.
+kind: wrong-sense
+reason: Sono tutto fuori is I'm all outside. All out, none left, is non ne ho più.
+source: Vocabolario Treccani, s.v. "più"
+status: shipped 2026-10-26
+
+id: 54822
+entryid: 68653
+permalink: 68653
+lesson: Phrases - Objects, Part 41
+lang: it
+english: Did you break that?
+current: Lo hai interrotto?
+proposed: L'hai rotto?
+kind: wrong-sense
+reason: Interrotto is interrupted. Broken is rotto.
+source: Vocabolario Treccani, s.v. "rompere"
+status: shipped 2026-10-26
+
+id: 54957
+entryid: 68822
+permalink: 68822
+lesson: Phrases - Objects, Part 57
+lang: it
+english: Is the car fixed?
+current: L'auto è fissa?
+proposed: L'auto è riparata?
+kind: wrong-word
+reason: Fissa is fixed in place. Fixed, repaired, is riparata.
+source: Vocabolario Treccani, s.v. "riparare"
+status: shipped 2026-10-26
+
+id: 55015
+entryid: 68895
+permalink: 68895
+lesson: Phrases - Money, Part 4
+lang: it
+english: Is the hummus expensive?
+current: È il costoso hummus?
+proposed: L'hummus è costoso?
+kind: wrong-word
+reason: È il costoso hummus? is is it the expensive hummus.
+source: Vocabolario Treccani, s.v. "costoso"
+status: shipped 2026-10-26
+
+id: 55018
+entryid: 68898
+permalink: 68898
+lesson: Phrases - Money, Part 4
+lang: it
+english: Are the chickpeas expensive?
+current: Sono i ceci costosi?
+proposed: I ceci sono costosi?
+kind: wrong-word
+reason: Sono i ceci costosi? is are they the expensive chickpeas.
+source: Vocabolario Treccani, s.v. "costoso"
+status: shipped 2026-10-26
+
+id: 55080
+entryid: 68976
+permalink: 68976
+lesson: Phrases - Money, Part 12
+lang: it
+english: How much all together?
+current: Quanto tutti insieme?
+proposed: Quanto fa in tutto?
+kind: wrong-word
+reason: Quanto tutti insieme? is how much all the people together.
+source: Vocabolario Treccani, s.v. "tutto" (in tutto)
+status: shipped 2026-10-26
+
+id: 55127
+entryid: 69034
+permalink: 69034
+lesson: Phrases - Money, Part 17
+lang: it
+english: Do you accept British pounds?
+current: Accetti i chili britannici?
+proposed: Accettate le sterline britanniche?
+kind: wrong-word
+reason: Chili are kilos. British pounds are sterline; asked of a shop, you is accettate.
+source: Vocabolario Treccani, s.v. "sterlina"
+status: shipped 2026-10-26
+
+id: 55388
+entryid: 69360
+permalink: 69360
+lesson: Phrases - Translation, Part 5
+lang: it
+english: Forget it.
+current: Dimenticalo.
+proposed: Lascia perdere.
+kind: wrong-sense
+reason: Dimenticalo is literally forget it, a thing. The brush-off forget it! is lascia perdere.
+source: Vocabolario Treccani, s.v. "perdere" (lascia perdere)
+status: shipped 2026-10-26
+
+id: 55389
+entryid: 69362
+permalink: 69362
+lesson: Phrases - Translation, Part 6
+lang: it
+english: How do you pronounce that?
+current: Come pronunci quello?
+proposed: Come si pronuncia?
+kind: register
+reason: Come pronunci quello? asks how you personally say it. Asking about a word is come si pronuncia?
+source: Vocabolario Treccani, s.v. "pronunciare"
+status: shipped 2026-10-26
+
+id: 55405
+entryid: 69382
+permalink: 69382
+lesson: Phrases - Weather, Part 2
+lang: it
+english: Does it snow a lot in Patagonia?
+current: Domina molto in Patagonia?
+proposed: Nevica molto in Patagonia?
+kind: wrong-word
+reason: Domina is it dominates. Does it snow is nevica.
+source: Vocabolario Treccani, s.v. "nevicare"
+status: shipped 2026-10-26
+
+id: 55435
+entryid: 69419
+permalink: 69419
+lesson: Phrases - Weather, Part 9
+lang: it
+english: It's going to storm.
+current: Sta andando a tempesta.
+proposed: Sta per arrivare un temporale.
+kind: wrong-word
+reason: Sta andando a tempesta doesn't read as Italian.
+source: Vocabolario Treccani, s.v. "temporale"
+status: shipped 2026-10-26
+
+id: 55439
+entryid: 69424
+permalink: 69424
+lesson: Phrases - Weather, Part 10
+lang: it
+english: It is storming now.
+current: Ora sta entrando.
+proposed: Adesso c'è un temporale.
+kind: wrong-word
+reason: Ora sta entrando is now he's coming in.
+source: Vocabolario Treccani, s.v. "temporale"
+status: shipped 2026-10-26
+
+id: 55454
+entryid: 69443
+permalink: 69443
+lesson: Phrases - Weather, Part 14
+lang: it
+english: Is it freezing?
+current: È congelato?
+proposed: Fa molto freddo?
+kind: wrong-sense
+reason: È congelato? is is it frozen. Is it freezing, the weather, is fa molto freddo?
+source: Vocabolario Treccani, s.v. "freddo" (fare freddo)
+status: shipped 2026-10-26
+
+id: 55468
+entryid: 69460
+permalink: 69460
+lesson: Phrases - Weather, Part 17
+lang: it
+english: A kite would fly in weather like this.
+current: Un aquilone volava in un tempo come questo.
+proposed: Un aquilone volerebbe con un tempo così.
+kind: wrong-form
+reason: Volava is the past, a kite was flying. Would fly is the conditional, volerebbe.
+source: Vocabolario Treccani, s.v. "volare"
+status: shipped 2026-10-26
+
+id: 55470
+entryid: 69463
+permalink: 69463
+lesson: Adjectives - Colors, Part 1
+lang: it
+english: Orange
+current: arancia
+proposed: arancione
+kind: wrong-class
+reason: Arancia is the fruit. The colour is arancione.
+source: Vocabolario Treccani, s.v. "arancione" and s.v. "arancia"
+status: shipped 2026-10-26
+
+id: 55486
+entryid: 69483
+permalink: 69483
+lesson: Culture - Currencies, Part 1
+lang: it
+english: Brazilian Real
+current: Real Brasiliano
+proposed: Real brasiliano
+kind: orthography
+reason: Nationality adjectives are lower case in Italian, as in Dollaro americano beside it.
+source: Vocabolario Treccani, s.v. "real"
+status: shipped 2026-10-26
+
+id: 55498
+entryid: 69498
+permalink: 69498
+lesson: Culture - Currencies, Part 4
+lang: it
+english: Israeli New Shekel
+current: Israeliano nuovo Shekel
+proposed: Nuovo shekel israeliano
+kind: wrong-form
+reason: Israeliano nuovo Shekel keeps English word order. The adjectives follow: nuovo shekel israeliano.
+source: Vocabolario Treccani, s.v. "shekel"
+status: shipped 2026-10-26
+
+id: 55499
+entryid: 69499
+permalink: 69499
+lesson: Culture - Currencies, Part 4
+lang: it
+english: Japanese Yen
+current: Yen Giapponese
+proposed: Yen giapponese
+kind: orthography
+reason: Nationality adjectives are lower case in Italian, as in Dollaro americano.
+source: Vocabolario Treccani, s.v. "yen"
+status: shipped 2026-10-26
+
+id: 55500
+entryid: 69500
+permalink: 69500
+lesson: Culture - Currencies, Part 4
+lang: it
+english: Korean Won
+current: Vinto coreano
+proposed: Won coreano
+kind: wrong-word
+reason: Vinto is won, the past of vincere. The currency is the won.
+source: Vocabolario Treccani, s.v. "won"
+status: shipped 2026-10-26

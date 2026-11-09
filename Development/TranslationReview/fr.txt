@@ -1,0 +1,5404 @@
+# French (fr) — EarthFluent translation review
+# Confirmed 1 Nov 2026 by Claude from the local models' 426 suspects (E:\AIWorkers\earthfluent\triage\fr.triage.txt),
+# checked against prod's dump of 1 Nov 2026, and with each batch fault widened to every row holding the stray text, flagged or not.
+# 415 records. House style kept: no space before ? or !, casing follows the English. Format: see README.md.
+
+id: 100
+entryid: 137
+permalink: 137
+lesson: Nouns - Animals, Part 4
+lang: fr
+english: Gerbil
+current: Gerbil
+proposed: Gerbille
+kind: untranslated
+reason: The English was passed through. The animal is la gerbille.
+source: Larousse, dictionnaire français-anglais, s.v. "gerbil"
+status: shipped 2026-11-01
+
+id: 106
+entryid: 146
+permalink: 146
+lesson: Nouns - Animals, Part 6
+lang: fr
+english: Chipmunk
+current: Chipmunk
+proposed: Tamia
+kind: untranslated
+reason: The English was passed through. The chipmunk is le tamia.
+source: Larousse, dictionnaire français-anglais, s.v. "chipmunk"
+status: shipped 2026-11-01
+
+id: 156
+entryid: 208
+permalink: 208
+lesson: Nouns - Animals, Part 18
+lang: fr
+english: Stingray
+current: Stingray
+proposed: Pastenague
+kind: untranslated
+reason: The English was passed through. The stingray is la pastenague; a raie is any ray.
+source: Larousse, dictionnaire français-anglais, s.v. "stingray"
+status: shipped 2026-11-01
+
+id: 1618
+entryid: 2074
+permalink: 2074
+lesson: Verbs - Activity With Objects, Part 8
+lang: fr
+english: press
+current: presse
+proposed: appuyer
+kind: wrong-class
+reason: Presse is the noun, the press. To press a button is appuyer.
+source: Larousse, dictionnaire français-anglais, s.v. "press"
+status: shipped 2026-11-01
+
+id: 1625
+entryid: 2083
+permalink: 2083
+lesson: Verbs - Activity With Objects, Part 10
+lang: fr
+english: ride
+current: balade
+proposed: monter
+kind: wrong-class
+reason: Balade is the noun, an outing. To ride a horse or a bike is monter (à cheval, à vélo).
+source: Larousse, dictionnaire français-anglais, s.v. "ride"
+status: shipped 2026-11-01
+
+id: 1639
+entryid: 2100
+permalink: 2100
+lesson: Verbs - Activity With Objects, Part 13
+lang: fr
+english: drag
+current: traîne
+proposed: traîner
+kind: wrong-form
+reason: Traîne is a conjugated form. The list wants the infinitive.
+source: Larousse, dictionnaire français-anglais, s.v. "drag"
+status: shipped 2026-11-01
+
+id: 1724
+entryid: 2207
+permalink: 2207
+lesson: Verbs - General Activity, Part 17
+lang: fr
+english: attempt
+current: tentative
+proposed: tenter
+kind: wrong-class
+reason: Tentative is the noun, an attempt. The list wants the verb.
+source: Larousse, dictionnaire français-anglais, s.v. "attempt"
+status: shipped 2026-11-01
+
+id: 1770
+entryid: 2265
+permalink: 2265
+lesson: Verbs - Emotional Activity, Part 4
+lang: fr
+english: cry
+current: cri
+proposed: pleurer
+kind: wrong-class
+reason: Cri is the noun, a shout. To cry is pleurer.
+source: Larousse, dictionnaire français-anglais, s.v. "cry"
+status: shipped 2026-11-01
+
+id: 1774
+entryid: 2270
+permalink: 2270
+lesson: Verbs - Emotional Activity, Part 5
+lang: fr
+english: cope
+current: chape
+proposed: faire face
+kind: wrong-word
+reason: Chape is a cope, the church vestment. To cope is faire face.
+source: Larousse, dictionnaire français-anglais, s.v. "cope"
+status: shipped 2026-11-01
+
+id: 1787
+entryid: 2286
+permalink: 2286
+lesson: Verbs - Physical Activity, Part 1
+lang: fr
+english: stand
+current: supporter
+proposed: se tenir debout
+kind: wrong-sense
+reason: Supporter is stand in the sense of tolerate. In a list of physical activities, to stand is se tenir debout.
+source: Larousse, dictionnaire français-anglais, s.v. "stand"
+status: shipped 2026-11-01
+
+id: 1794
+entryid: 2295
+permalink: 2295
+lesson: Verbs - Physical Activity, Part 3
+lang: fr
+english: hit
+current: frappé
+proposed: frapper
+kind: wrong-form
+reason: Frappé is the past participle. The list wants the infinitive.
+source: Larousse, dictionnaire français-anglais, s.v. "hit"
+status: shipped 2026-11-01
+
+id: 1799
+entryid: 2301
+permalink: 2301
+lesson: Verbs - Physical Activity, Part 4
+lang: fr
+english: fly
+current: mouche
+proposed: voler
+kind: wrong-sense
+reason: Mouche is the insect. To fly is voler.
+source: Larousse, dictionnaire français-anglais, s.v. "fly"
+status: shipped 2026-11-01
+
+id: 1802
+entryid: 2305
+permalink: 2305
+lesson: Verbs - Physical Activity, Part 5
+lang: fr
+english: born
+current: née
+proposed: né
+kind: wrong-form
+reason: Née is the feminine. The list's form is the masculine, né.
+source: Larousse, dictionnaire français-anglais, s.v. "born"
+status: shipped 2026-11-01
+
+id: 1823
+entryid: 2331
+permalink: 2331
+lesson: Verbs - Physical Activity, Part 10
+lang: fr
+english: slip
+current: caleçon
+proposed: glisser
+kind: wrong-sense
+reason: Slip in French is a pair of briefs. To slip is glisser.
+source: Larousse, dictionnaire français-anglais, s.v. "slip"
+status: shipped 2026-11-01
+
+id: 1829
+entryid: 2339
+permalink: 2339
+lesson: Verbs - Physical Activity, Part 12
+lang: fr
+english: stretch
+current: étendue
+proposed: s'étirer
+kind: wrong-sense
+reason: Étendue is a noun, an expanse. To stretch, as the body does, is s'étirer.
+source: Larousse, dictionnaire français-anglais, s.v. "stretch"
+status: shipped 2026-11-01
+
+id: 1830
+entryid: 2340
+permalink: 2340
+lesson: Verbs - Physical Activity, Part 12
+lang: fr
+english: knock
+current: frappe
+proposed: frapper
+kind: wrong-form
+reason: Frappe is a conjugated form or a noun. The list wants the infinitive.
+source: Larousse, dictionnaire français-anglais, s.v. "knock"
+status: shipped 2026-11-01
+
+id: 1838
+entryid: 2350
+permalink: 2350
+lesson: Verbs - Physical Activity, Part 14
+lang: fr
+english: kick
+current: donner un coup
+proposed: donner un coup de pied
+kind: wrong-sense
+reason: Donner un coup is to hit. A kick is a coup de pied.
+source: Larousse, dictionnaire français-anglais, s.v. "kick"
+status: shipped 2026-11-01
+
+id: 1848
+entryid: 2362
+permalink: 2362
+lesson: Verbs - Physical Activity, Part 16
+lang: fr
+english: tackle
+current: tacle
+proposed: tacler
+kind: wrong-class
+reason: Tacle is the noun. To tackle is tacler.
+source: Larousse, dictionnaire français-anglais, s.v. "tackle"
+status: shipped 2026-11-01
+
+id: 1851
+entryid: 2366
+permalink: 2366
+lesson: Verbs - Physical Activity, Part 17
+lang: fr
+english: practice
+current: entraine toi
+proposed: s'entraîner
+kind: wrong-form
+reason: Entraine toi is a command, practise. The list wants the infinitive.
+source: Larousse, dictionnaire français-anglais, s.v. "practise"
+displaced: entraîne-toi | 2sg imperative of s'entraîner
+status: shipped 2026-11-01
+
+id: 1864
+entryid: 2382
+permalink: 2382
+lesson: Verbs - Physical Activity, Part 20
+lang: fr
+english: brush
+current: brosse
+proposed: brosser
+kind: wrong-class
+reason: Brosse is the noun, a brush. The list wants the verb.
+source: Larousse, dictionnaire français-anglais, s.v. "brush"
+status: shipped 2026-11-01
+
+id: 1868
+entryid: 2387
+permalink: 2387
+lesson: Verbs - Physical Activity, Part 21
+lang: fr
+english: crawl
+current: crawl
+proposed: ramper
+kind: untranslated
+reason: Crawl is the English, which French keeps only for the swimming stroke. To crawl is ramper.
+source: Larousse, dictionnaire français-anglais, s.v. "crawl"
+status: shipped 2026-11-01
+
+id: 1876
+entryid: 2397
+permalink: 2397
+lesson: Verbs - Mental Activity, Part 2
+lang: fr
+english: remember
+current: rappelles toi
+proposed: se souvenir
+kind: wrong-form
+reason: Rappelles toi is a misspelt command, remember. The list wants the infinitive.
+source: Larousse, dictionnaire français-anglais, s.v. "remember"
+displaced: rappelle-toi | 2sg imperative of se rappeler
+status: shipped 2026-11-01
+
+id: 1891
+entryid: 2416
+permalink: 2416
+lesson: Verbs - Mental Activity, Part 6
+lang: fr
+english: regard
+current: ce qui concerne
+proposed: considérer
+kind: wrong-word
+reason: Ce qui concerne is part of the phrase as regards. To regard, a mental act, is considérer.
+source: Larousse, dictionnaire français-anglais, s.v. "regard"
+status: shipped 2026-11-01
+
+id: 1953
+entryid: 2494
+permalink: 2494
+lesson: Verbs - Social Activity, Part 2
+lang: fr
+english: call
+current: appel
+proposed: appeler
+kind: wrong-class
+reason: Appel is the noun, a call. The list wants the verb.
+source: Larousse, dictionnaire français-anglais, s.v. "call"
+status: shipped 2026-11-01
+
+id: 1969
+entryid: 2514
+permalink: 2514
+lesson: Verbs - Social Activity, Part 6
+lang: fr
+english: prove
+current: prove
+proposed: prouver
+kind: untranslated
+reason: The English was passed through. To prove is prouver.
+source: Larousse, dictionnaire français-anglais, s.v. "prove"
+status: shipped 2026-11-01
+
+id: 1976
+entryid: 2522
+permalink: 2522
+lesson: Verbs - Social Activity, Part 7
+lang: fr
+english: express
+current: Express
+proposed: exprimer
+kind: untranslated
+reason: The English was passed through. To express is exprimer.
+source: Larousse, dictionnaire français-anglais, s.v. "express"
+status: shipped 2026-11-01
+
+id: 1982
+entryid: 2530
+permalink: 2530
+lesson: Verbs - Social Activity, Part 9
+lang: fr
+english: fight
+current: bats toi
+proposed: se battre
+kind: wrong-form
+reason: Bats toi is a command, fight. The list wants the infinitive.
+source: Larousse, dictionnaire français-anglais, s.v. "fight"
+displaced: bats-toi | 2sg imperative of se battre
+status: shipped 2026-11-01
+
+id: 2051
+entryid: 2616
+permalink: 2616
+lesson: Verbs - Social Activity, Part 26
+lang: fr
+english: kiss
+current: baiser
+proposed: embrasser
+kind: register
+reason: As a verb, baiser now means to have sex, and is vulgar. To kiss is embrasser.
+source: Larousse, dictionnaire français-anglais, s.v. "kiss" and s.v. "baiser"
+status: shipped 2026-11-01
+
+id: 2069
+entryid: 2639
+permalink: 2639
+lesson: Verbs - Social Activity, Part 31
+lang: fr
+english: wave
+current: vague
+proposed: saluer de la main
+kind: wrong-sense
+reason: Vague is a wave of the sea. To wave, in a list of social acts, is saluer de la main.
+source: Larousse, dictionnaire français-anglais, s.v. "wave"
+status: shipped 2026-11-01
+
+id: 2088
+entryid: 2662
+permalink: 2662
+lesson: Verbs - Social Activity, Part 35
+lang: fr
+english: confess
+current: confess
+proposed: avouer
+kind: untranslated
+reason: The English was passed through. To confess is avouer.
+source: Larousse, dictionnaire français-anglais, s.v. "confess"
+status: shipped 2026-11-01
+
+id: 2092
+entryid: 2667
+permalink: 2667
+lesson: Verbs - Social Activity, Part 36
+lang: fr
+english: obey
+current: obéit
+proposed: obéir
+kind: wrong-form
+reason: Obéit is a conjugated form. The list wants the infinitive.
+source: Larousse, dictionnaire français-anglais, s.v. "obey"
+status: shipped 2026-11-01
+
+id: 2118
+entryid: 2700
+permalink: 2700
+lesson: Verbs - Economic Activity, Part 7
+lang: fr
+english: afford
+current: offrir
+proposed: pouvoir se permettre
+kind: wrong-sense
+reason: Offrir is to offer. To be able to afford something is pouvoir se permettre.
+source: Larousse, dictionnaire français-anglais, s.v. "afford"
+status: shipped 2026-11-01
+
+id: 2140
+entryid: 2727
+permalink: 2727
+lesson: Verbs - Economic Activity, Part 12
+lang: fr
+english: hire
+current: louer
+proposed: embaucher
+kind: wrong-sense
+reason: Louer is to hire a car or a room. In a list of economic acts, to hire someone is embaucher.
+source: Larousse, dictionnaire français-anglais, s.v. "hire"
+status: shipped 2026-11-01
+
+id: 10364
+entryid: 13064
+permalink: 13064
+lesson: (no lesson)
+lang: fr
+english: time
+current: time
+proposed: temps
+kind: untranslated
+reason: The English was passed through. Time is le temps.
+source: Larousse, dictionnaire français-anglais, s.v. "time"
+status: shipped 2026-11-01
+
+id: 10388
+entryid: 13094
+permalink: 13094
+lesson: Nouns - Concepts, Part 6
+lang: fr
+english: subject
+current: assujettir
+proposed: sujet
+kind: wrong-class
+reason: Assujettir is a verb, to subjugate. The noun is sujet.
+source: Larousse, dictionnaire français-anglais, s.v. "subject"
+status: shipped 2026-11-01
+
+id: 10390
+entryid: 13097
+permalink: 13097
+lesson: Nouns - Concepts, Part 7
+lang: fr
+english: force
+current: Obliger
+proposed: force
+kind: wrong-class
+reason: Obliger is a verb, to force. The noun is la force.
+source: Larousse, dictionnaire français-anglais, s.v. "force"
+status: shipped 2026-11-01
+
+id: 10508
+entryid: 13246
+permalink: 13246
+lesson: Nouns - Concepts, Part 38
+lang: fr
+english: flow
+current: couler
+proposed: flux
+kind: wrong-class
+reason: Couler is a verb. The noun, a flow, is le flux.
+source: Larousse, dictionnaire français-anglais, s.v. "flow"
+status: shipped 2026-11-01
+
+id: 10549
+entryid: 13297
+permalink: 13297
+lesson: Nouns - Concepts, Part 49
+lang: fr
+english: fight
+current: bats toi
+proposed: combat
+kind: wrong-class
+reason: Bats toi is a command, fight. The list wants the noun.
+source: Larousse, dictionnaire français-anglais, s.v. "fight"
+displaced: bats-toi | 2sg imperative of se battre
+status: shipped 2026-11-01
+
+id: 10570
+entryid: 13323
+permalink: 13323
+lesson: Nouns - Concepts, Part 54
+lang: fr
+english: import
+current: importer
+proposed: importation
+kind: wrong-class
+reason: Importer is the verb. The noun is importation.
+source: Larousse, dictionnaire français-anglais, s.v. "import"
+status: shipped 2026-11-01
+
+id: 10658
+entryid: 13434
+permalink: 13434
+lesson: Nouns - Concepts, Part 77
+lang: fr
+english: worth
+current: vaut
+proposed: valeur
+kind: wrong-class
+reason: Vaut is a verb form, is worth. The noun is la valeur.
+source: Larousse, dictionnaire français-anglais, s.v. "worth"
+status: shipped 2026-11-01
+
+id: 10732
+entryid: 13526
+permalink: 13526
+lesson: Nouns - Measurements, Part 2
+lang: fr
+english: fall
+current: tomber
+proposed: automne
+kind: wrong-sense
+reason: Tomber is to fall down. In a lesson with summer, winter and spring, fall is the season, l'automne.
+source: Larousse, dictionnaire français-anglais, s.v. "fall"
+status: shipped 2026-11-01
+
+id: 10767
+entryid: 13570
+permalink: 13570
+lesson: Nouns - Measurements, Part 11
+lang: fr
+english: date
+current: rendez-vous amoureux
+proposed: date
+kind: wrong-sense
+reason: A rendez-vous amoureux is a romantic date. Among measurements, a date is la date.
+source: Larousse, dictionnaire français-anglais, s.v. "date"
+status: shipped 2026-11-01
+
+id: 10798
+entryid: 13609
+permalink: 13609
+lesson: Nouns - Measurements, Part 19
+lang: fr
+english: front
+current: de face
+proposed: avant
+kind: wrong-class
+reason: De face is an adverbial phrase, from the front. The noun is l'avant.
+source: Larousse, dictionnaire français-anglais, s.v. "front"
+status: shipped 2026-11-01
+
+id: 10926
+entryid: 13769
+permalink: 13769
+lesson: Nouns - People, Part 17
+lang: fr
+english: miss
+current: manquer
+proposed: mademoiselle
+kind: wrong-sense
+reason: Manquer is the verb, to miss. Among people, a miss is mademoiselle.
+source: Larousse, dictionnaire français-anglais, s.v. "miss"
+status: shipped 2026-11-01
+
+id: 10927
+entryid: 13770
+permalink: 13770
+lesson: Nouns - People, Part 17
+lang: fr
+english: executive
+current: exécutif
+proposed: cadre
+kind: wrong-sense
+reason: Exécutif is the executive branch. A company executive is un cadre.
+source: Larousse, dictionnaire français-anglais, s.v. "executive"
+status: shipped 2026-11-01
+
+id: 10930
+entryid: 13774
+permalink: 13774
+lesson: Nouns - People, Part 18
+lang: fr
+english: band
+current: B: et
+proposed: groupe
+kind: corrupt
+reason: B: et is not a word. A band is un groupe.
+source: Larousse, dictionnaire français-anglais, s.v. "band"
+status: shipped 2026-11-01
+
+id: 10942
+entryid: 13789
+permalink: 13789
+lesson: Nouns - People, Part 21
+lang: fr
+english: master
+current: maîtriser
+proposed: maître
+kind: wrong-class
+reason: Maîtriser is the verb. Among people, a master is un maître.
+source: Larousse, dictionnaire français-anglais, s.v. "master"
+status: shipped 2026-11-01
+
+id: 10971
+entryid: 13826
+permalink: 13826
+lesson: Nouns - People, Part 29
+lang: fr
+english: guest
+current: client
+proposed: invité
+kind: wrong-sense
+reason: Client is a customer. A guest is un invité.
+source: Larousse, dictionnaire français-anglais, s.v. "guest"
+status: shipped 2026-11-01
+
+id: 11034
+entryid: 13904
+permalink: 13904
+lesson: Nouns - People, Part 44
+lang: fr
+english: relative
+current: relatif
+proposed: parent
+kind: false-friend
+reason: Relatif is the adjective, relative to. A relative, a family member, is un parent.
+source: Larousse, dictionnaire français-anglais, s.v. "relative"
+status: shipped 2026-11-01
+
+id: 11082
+entryid: 13965
+permalink: 13965
+lesson: Nouns - People, Part 57
+lang: fr
+english: twin
+current: double
+proposed: jumeau
+kind: wrong-word
+reason: Double is a copy. A twin is un jumeau.
+source: Larousse, dictionnaire français-anglais, s.v. "twin"
+status: shipped 2026-11-01
+
+id: 11192
+entryid: 14102
+permalink: 14102
+lesson: Nouns - Society, Part 10
+lang: fr
+english: practice
+current: entraine toi
+proposed: pratique
+kind: wrong-class
+reason: Entraine toi is a command, practise. The list wants the noun.
+source: Larousse, dictionnaire français-anglais, s.v. "practice"
+displaced: entraîne-toi | 2sg imperative of s'entraîner
+status: shipped 2026-11-01
+
+id: 11204
+entryid: 14117
+permalink: 14117
+lesson: Nouns - Society, Part 13
+lang: fr
+english: firm
+current: raffermir
+proposed: entreprise
+kind: wrong-sense
+reason: Raffermir is a verb, to firm up. A firm, a company, is une entreprise.
+source: Larousse, dictionnaire français-anglais, s.v. "firm"
+status: shipped 2026-11-01
+
+id: 11367
+entryid: 14323
+permalink: 14323
+lesson: Nouns - Society, Part 55
+lang: fr
+english: warning
+current: Attention
+proposed: avertissement
+kind: wrong-class
+reason: Attention is the interjection, look out. The noun is un avertissement.
+source: Larousse, dictionnaire français-anglais, s.v. "warning"
+status: shipped 2026-11-01
+
+id: 11377
+entryid: 14335
+permalink: 14335
+lesson: Nouns - Society, Part 57
+lang: fr
+english: score
+current: But
+proposed: score
+kind: wrong-word
+reason: But is a goal. A score is le score.
+source: Larousse, dictionnaire français-anglais, s.v. "score"
+status: shipped 2026-11-01
+
+id: 11418
+entryid: 14387
+permalink: 14387
+lesson: Nouns - Society, Part 68
+lang: fr
+english: abuse
+current: abuser de
+proposed: abus
+kind: wrong-class
+reason: Abuser de is the verb. The noun is un abus.
+source: Larousse, dictionnaire français-anglais, s.v. "abuse"
+status: shipped 2026-11-01
+
+id: 11422
+entryid: 14392
+permalink: 14392
+lesson: Nouns - Society, Part 69
+lang: fr
+english: custom
+current: Douane
+proposed: coutume
+kind: wrong-sense
+reason: Douane is customs at a border. A custom, a tradition, is une coutume.
+source: Larousse, dictionnaire français-anglais, s.v. "custom"
+status: shipped 2026-11-01
+
+id: 11510
+entryid: 14502
+permalink: 14502
+lesson: Nouns - Society, Part 91
+lang: fr
+english: directive
+current: directif
+proposed: directive
+kind: wrong-class
+reason: Directif is the adjective. The noun is une directive.
+source: Larousse, dictionnaire français-anglais, s.v. "directive"
+status: shipped 2026-11-01
+
+id: 11583
+entryid: 14593
+permalink: 14593
+lesson: Nouns - Society, Part 109
+lang: fr
+english: tune
+current: régler
+proposed: air
+kind: wrong-class
+reason: Régler is a verb, to tune an instrument. A tune is un air.
+source: Larousse, dictionnaire français-anglais, s.v. "tune"
+status: shipped 2026-11-01
+
+id: 11646
+entryid: 14672
+permalink: 14672
+lesson: Nouns - Ideas, Part 6
+lang: fr
+english: theory
+current: theorie
+proposed: théorie
+kind: orthography
+reason: Missing its accent.
+source: Larousse, dictionnaire français-anglais, s.v. "theory"
+status: shipped 2026-11-01
+
+id: 11708
+entryid: 14751
+permalink: 14751
+lesson: Nouns - Ideas, Part 23
+lang: fr
+english: thinking
+current: en pensant
+proposed: pensée
+kind: wrong-form
+reason: En pensant is a gerund, while thinking. The noun is la pensée.
+source: Larousse, dictionnaire français-anglais, s.v. "thinking"
+status: shipped 2026-11-01
+
+id: 11828
+entryid: 14901
+permalink: 14901
+lesson: Nouns - Places, Part 23
+lang: fr
+english: setting
+current: réglage
+proposed: cadre
+kind: wrong-sense
+reason: Réglage is the setting of a machine. Among places, a setting is un cadre.
+source: Larousse, dictionnaire français-anglais, s.v. "setting"
+status: shipped 2026-11-01
+
+id: 11831
+entryid: 14904
+permalink: 14904
+lesson: Nouns - Places, Part 23
+lang: fr
+english: peak
+current: de pointe
+proposed: sommet
+kind: wrong-sense
+reason: De pointe is the adjective, as in peak hours. Among places, a peak is un sommet.
+source: Larousse, dictionnaire français-anglais, s.v. "peak"
+status: shipped 2026-11-01
+
+id: 11842
+entryid: 14918
+permalink: 14918
+lesson: Nouns - Places, Part 26
+lang: fr
+english: mine
+current: mien
+proposed: mine
+kind: wrong-sense
+reason: Mien is the possessive, mine. Among places, a mine is une mine.
+source: Larousse, dictionnaire français-anglais, s.v. "mine"
+status: shipped 2026-11-01
+
+id: 11857
+entryid: 14937
+permalink: 14937
+lesson: Nouns - Places, Part 30
+lang: fr
+english: resort
+current: recours
+proposed: station de vacances
+kind: wrong-sense
+reason: Recours is a last resort. Among places, a resort is une station de vacances.
+source: Larousse, dictionnaire français-anglais, s.v. "resort"
+status: shipped 2026-11-01
+
+id: 11878
+entryid: 14963
+permalink: 14963
+lesson: Nouns - Places, Part 35
+lang: fr
+english: dock
+current: Dock
+proposed: quai
+kind: untranslated
+reason: The English was passed through, capitalised. A dock is un quai.
+source: Larousse, dictionnaire français-anglais, s.v. "dock"
+status: shipped 2026-11-01
+
+id: 11882
+entryid: 14968
+permalink: 14968
+lesson: Nouns - Places, Part 36
+lang: fr
+english: labor hall
+current: Hall de travail
+proposed: bourse du travail
+kind: wrong-word
+reason: Hall de travail is a word-for-word guess. The labour movement's hall is la bourse du travail.
+source: Larousse, dictionnaire français-anglais, s.v. "bourse" (bourse du travail)
+status: shipped 2026-11-01
+
+id: 11983
+entryid: 15095
+permalink: 15095
+lesson: Nouns - Objects, Part 26
+lang: fr
+english: tape
+current: ruban
+proposed: ruban adhésif
+kind: wrong-word
+reason: Ruban alone is a ribbon. Tape is du ruban adhésif.
+source: Larousse, dictionnaire français-anglais, s.v. "tape"
+status: shipped 2026-11-01
+
+id: 12029
+entryid: 15153
+permalink: 15153
+lesson: Nouns - Objects, Part 38
+lang: fr
+english: cross
+current: traverser
+proposed: croix
+kind: wrong-class
+reason: Traverser is the verb, to cross. Among objects, a cross is une croix.
+source: Larousse, dictionnaire français-anglais, s.v. "cross"
+status: shipped 2026-11-01
+
+id: 12041
+entryid: 15168
+permalink: 15168
+lesson: Nouns - Objects, Part 41
+lang: fr
+english: boot
+current: démarrage
+proposed: botte
+kind: wrong-sense
+reason: Démarrage is a computer booting up. Among objects, a boot is une botte.
+source: Larousse, dictionnaire français-anglais, s.v. "boot"
+status: shipped 2026-11-01
+
+id: 12058
+entryid: 15189
+permalink: 15189
+lesson: Nouns - Objects, Part 45
+lang: fr
+english: meat
+current: moi à
+proposed: viande
+kind: corrupt
+reason: Moi à is not a word. Meat is la viande.
+source: Larousse, dictionnaire français-anglais, s.v. "meat"
+status: shipped 2026-11-01
+
+id: 12094
+entryid: 15234
+permalink: 15234
+lesson: Nouns - Objects, Part 54
+lang: fr
+english: watch
+current: regarder
+proposed: montre
+kind: wrong-class
+reason: Regarder is the verb, to watch. Among objects, a watch is une montre.
+source: Larousse, dictionnaire français-anglais, s.v. "watch"
+status: shipped 2026-11-01
+
+id: 12096
+entryid: 15236
+permalink: 15236
+lesson: Nouns - Objects, Part 54
+lang: fr
+english: crop
+current: surgir
+proposed: récolte
+kind: wrong-sense
+reason: Surgir is to crop up. Among objects, a crop is une récolte.
+source: Larousse, dictionnaire français-anglais, s.v. "crop"
+status: shipped 2026-11-01
+
+id: 12097
+entryid: 15238
+permalink: 15238
+lesson: Nouns - Objects, Part 55
+lang: fr
+english: net
+current: net
+proposed: filet
+kind: wrong-sense
+reason: Net in French is the adjective, clean or net. A net is un filet.
+source: Larousse, dictionnaire français-anglais, s.v. "net"
+status: shipped 2026-11-01
+
+id: 12146
+entryid: 15299
+permalink: 15299
+lesson: Nouns - Objects, Part 67
+lang: fr
+english: van
+current: van
+proposed: camionnette
+kind: untranslated
+reason: The English was passed through. A van is une camionnette.
+source: Larousse, dictionnaire français-anglais, s.v. "van"
+status: shipped 2026-11-01
+
+id: 12147
+entryid: 15300
+permalink: 15300
+lesson: Nouns - Objects, Part 67
+lang: fr
+english: vat
+current: T.V.A
+proposed: cuve
+kind: wrong-sense
+reason: T.V.A. is VAT, the tax. A vat is une cuve.
+source: Larousse, dictionnaire français-anglais, s.v. "vat"
+status: shipped 2026-11-01
+
+id: 12247
+entryid: 15425
+permalink: 15425
+lesson: Adjectives - Quantity, Part 3
+lang: fr
+english: light
+current: lumière
+proposed: léger
+kind: wrong-class
+reason: Lumière is the noun, light that shines. The adjective, not heavy, is léger.
+source: Larousse, dictionnaire français-anglais, s.v. "light"
+status: shipped 2026-11-01
+
+id: 12251
+entryid: 15430
+permalink: 15430
+lesson: Adjectives - Quantity, Part 4
+lang: fr
+english: fat
+current: graisse
+proposed: gras
+kind: wrong-class
+reason: Graisse is the noun, fat. The adjective is gras.
+source: Larousse, dictionnaire français-anglais, s.v. "fat"
+status: shipped 2026-11-01
+
+id: 12287
+entryid: 15475
+permalink: 15475
+lesson: Adjectives - Quality, Part 4
+lang: fr
+english: joint
+current: mixte
+proposed: conjoint
+kind: wrong-word
+reason: Mixte means mixed. Joint, as in a joint account, is conjoint.
+source: Larousse, dictionnaire français-anglais, s.v. "joint"
+status: shipped 2026-11-01
+
+id: 12317
+entryid: 15513
+permalink: 15513
+lesson: Adjectives - Quality, Part 12
+lang: fr
+english: sound
+current: du son
+proposed: solide
+kind: wrong-sense
+reason: Du son is a noise. The adjective, sound as in sound advice, is solide.
+source: Larousse, dictionnaire français-anglais, s.v. "sound"
+status: shipped 2026-11-01
+
+id: 12373
+entryid: 15583
+permalink: 15583
+lesson: Adjectives - Quality, Part 26
+lang: fr
+english: spiky
+current: Spiky
+proposed: piquant
+kind: untranslated
+reason: The English was passed through. Spiky is piquant.
+source: Larousse, dictionnaire français-anglais, s.v. "spiky"
+status: shipped 2026-11-01
+
+id: 12376
+entryid: 15586
+permalink: 15586
+lesson: Adjectives - Quality, Part 26
+lang: fr
+english: slick
+current: nappe
+proposed: glissant
+kind: wrong-class
+reason: Nappe is the noun, an oil slick. The adjective is glissant.
+source: Larousse, dictionnaire français-anglais, s.v. "slick"
+status: shipped 2026-11-01
+
+id: 12390
+entryid: 15605
+permalink: 15605
+lesson: Adjectives - Quality, Part 31
+lang: fr
+english: frilly
+current: Frilly
+proposed: à froufrous
+kind: untranslated
+reason: The English was passed through. Frilly is à froufrous.
+source: Larousse, dictionnaire français-anglais, s.v. "frilly"
+status: shipped 2026-11-01
+
+id: 12394
+entryid: 15610
+permalink: 15610
+lesson: Adjectives - Quality, Part 32
+lang: fr
+english: snappy
+current: Snappy
+proposed: vif
+kind: untranslated
+reason: The English was passed through. Snappy is vif.
+source: Larousse, dictionnaire français-anglais, s.v. "snappy"
+status: shipped 2026-11-01
+
+id: 12395
+entryid: 15611
+permalink: 15611
+lesson: Adjectives - Quality, Part 32
+lang: fr
+english: weedy
+current: Mauvaise herbe
+proposed: chétif
+kind: wrong-sense
+reason: Mauvaise herbe is a weed. Weedy, of a person, is chétif.
+source: Larousse, dictionnaire français-anglais, s.v. "weedy"
+status: shipped 2026-11-01
+
+id: 12398
+entryid: 15615
+permalink: 15615
+lesson: Adjectives - Quality, Part 33
+lang: fr
+english: boney
+current: Boney
+proposed: osseux
+kind: untranslated
+reason: The English was passed through. Bony is osseux.
+source: Larousse, dictionnaire français-anglais, s.v. "bony"
+status: shipped 2026-11-01
+
+id: 12408
+entryid: 15627
+permalink: 15627
+lesson: Adjectives - Social, Part 2
+lang: fr
+english: bad
+current: mal
+proposed: mauvais
+kind: wrong-class
+reason: Mal is the adverb or the noun. The adjective is mauvais.
+source: Larousse, dictionnaire français-anglais, s.v. "bad"
+status: shipped 2026-11-01
+
+id: 12431
+entryid: 15656
+permalink: 15656
+lesson: Adjectives - Social, Part 8
+lang: fr
+english: spanish
+current: Espanol
+proposed: espagnol
+kind: wrong-word
+reason: Espanol is the Spanish for Spanish. The French is espagnol.
+source: Larousse, dictionnaire français-anglais, s.v. "Spanish"
+status: shipped 2026-11-01
+
+id: 12451
+entryid: 15681
+permalink: 15681
+lesson: Adjectives - Social, Part 13
+lang: fr
+english: wealthy
+current: riches
+proposed: riche
+kind: wrong-form
+reason: Riches is the plural. The list's form is the singular.
+source: Larousse, dictionnaire français-anglais, s.v. "wealthy"
+status: shipped 2026-11-01
+
+id: 12479
+entryid: 15716
+permalink: 15716
+lesson: Adjectives - Social, Part 20
+lang: fr
+english: blunt
+current: émousser
+proposed: franc
+kind: wrong-sense
+reason: Émousser is a verb, to blunt a blade. Among social adjectives, a blunt person is franc.
+source: Larousse, dictionnaire français-anglais, s.v. "blunt"
+status: shipped 2026-11-01
+
+id: 12499
+entryid: 15741
+permalink: 15741
+lesson: Adjectives - Social, Part 25
+lang: fr
+english: staunch
+current: étancher
+proposed: fidèle
+kind: wrong-class
+reason: Étancher is a verb, to staunch bleeding. A staunch supporter is fidèle.
+source: Larousse, dictionnaire français-anglais, s.v. "staunch"
+status: shipped 2026-11-01
+
+id: 12513
+entryid: 15758
+permalink: 15758
+lesson: Adjectives - Social, Part 28
+lang: fr
+english: arty
+current: Arty
+proposed: artiste
+kind: untranslated
+reason: The English was passed through. Arty is artiste.
+source: Larousse, dictionnaire français-anglais, s.v. "arty"
+status: shipped 2026-11-01
+
+id: 12520
+entryid: 15767
+permalink: 15767
+lesson: Adjectives - Social, Part 30
+lang: fr
+english: flashy
+current: tape à l'oeil
+proposed: tape-à-l'œil
+kind: orthography
+reason: Written with hyphens and the œ ligature.
+source: Larousse, dictionnaire français-anglais, s.v. "flashy"
+status: shipped 2026-11-01
+
+id: 12535
+entryid: 15786
+permalink: 15786
+lesson: Adjectives - Feeling, Part 1
+lang: fr
+english: real
+current: réal
+proposed: réel
+kind: orthography
+reason: Réal is not French. Real is réel.
+source: Larousse, dictionnaire français-anglais, s.v. "real"
+status: shipped 2026-11-01
+
+id: 12548
+entryid: 15802
+permalink: 15802
+lesson: Adjectives - Feeling, Part 4
+lang: fr
+english: ill
+current: mauvais
+proposed: malade
+kind: wrong-sense
+reason: Mauvais is bad. Ill is malade.
+source: Larousse, dictionnaire français-anglais, s.v. "ill"
+status: shipped 2026-11-01
+
+id: 12549
+entryid: 15803
+permalink: 15803
+lesson: Adjectives - Feeling, Part 4
+lang: fr
+english: alienated
+current: Aliéné
+proposed: aliéné
+kind: orthography
+reason: Right word, wrong casing: the English is lower case.
+source: Larousse, dictionnaire français-anglais, s.v. "alienated"
+status: shipped 2026-11-01
+
+id: 12565
+entryid: 15823
+permalink: 15823
+lesson: Adjectives - Feeling, Part 8
+lang: fr
+english: welcome
+current: Bienvenue
+proposed: bienvenu
+kind: wrong-class
+reason: Bienvenue is the greeting or the noun. The adjective is bienvenu.
+source: Larousse, dictionnaire français-anglais, s.v. "welcome"
+status: shipped 2026-11-01
+
+id: 12571
+entryid: 15831
+permalink: 15831
+lesson: Adjectives - Feeling, Part 10
+lang: fr
+english: secure
+current: garantir
+proposed: en sécurité
+kind: wrong-class
+reason: Garantir is a verb, to secure. Feeling secure is être en sécurité.
+source: Larousse, dictionnaire français-anglais, s.v. "secure"
+status: shipped 2026-11-01
+
+id: 12576
+entryid: 15837
+permalink: 15837
+lesson: Adjectives - Feeling, Part 11
+lang: fr
+english: grave
+current: la tombe
+proposed: grave
+kind: wrong-sense
+reason: La tombe is a grave in a cemetery. Among feelings, grave means serious, which is grave.
+source: Larousse, dictionnaire français-anglais, s.v. "grave"
+status: shipped 2026-11-01
+
+id: 12609
+entryid: 15879
+permalink: 15879
+lesson: Adjectives - Feeling, Part 20
+lang: fr
+english: slimey
+current: Slimey
+proposed: gluant
+kind: untranslated
+reason: The English was passed through. Slimy is gluant.
+source: Larousse, dictionnaire français-anglais, s.v. "slimy"
+status: shipped 2026-11-01
+
+id: 12628
+entryid: 15903
+permalink: 15903
+lesson: Adjectives - Feeling, Part 25
+lang: fr
+english: fishy
+current: de poisson
+proposed: louche
+kind: wrong-sense
+reason: De poisson is literal, of fish. Fishy, among feelings, means suspicious: louche.
+source: Larousse, dictionnaire français-anglais, s.v. "fishy"
+status: shipped 2026-11-01
+
+id: 12675
+entryid: 15962
+permalink: 15962
+lesson: Adjectives - Appearance, Part 11
+lang: fr
+english: stout
+current: bière
+proposed: corpulent
+kind: wrong-sense
+reason: Bière is the beer called stout. Stout, of a person, is corpulent.
+source: Larousse, dictionnaire français-anglais, s.v. "stout"
+status: shipped 2026-11-01
+
+id: 12687
+entryid: 15977
+permalink: 15977
+lesson: Adjectives - Appearance, Part 14
+lang: fr
+english: rosey
+current: Rosey
+proposed: rose
+kind: untranslated
+reason: The English was passed through. Rosy is rose.
+source: Larousse, dictionnaire français-anglais, s.v. "rosy"
+status: shipped 2026-11-01
+
+id: 12693
+entryid: 15984
+permalink: 15984
+lesson: Adjectives - Appearance, Part 15
+lang: fr
+english: burly
+current: Courageux
+proposed: costaud
+kind: wrong-word
+reason: Courageux is brave. Burly is costaud.
+source: Larousse, dictionnaire français-anglais, s.v. "burly"
+status: shipped 2026-11-01
+
+id: 12696
+entryid: 15988
+permalink: 15988
+lesson: Adjectives - Appearance, Part 16
+lang: fr
+english: chunky
+current: Chunky
+proposed: costaud
+kind: untranslated
+reason: The English was passed through. Chunky, of a person, is costaud.
+source: Larousse, dictionnaire français-anglais, s.v. "chunky"
+status: shipped 2026-11-01
+
+id: 12701
+entryid: 15994
+permalink: 15994
+lesson: Adjectives - Appearance, Part 17
+lang: fr
+english: dumpy
+current: Dumpy
+proposed: trapu
+kind: untranslated
+reason: The English was passed through. Dumpy is trapu.
+source: Larousse, dictionnaire français-anglais, s.v. "dumpy"
+status: shipped 2026-11-01
+
+id: 38667
+entryid: 48520
+permalink: 48520
+lesson: Adjectives - Quality, Part 30
+lang: fr
+english: arch
+current: cambre
+proposed: arqué
+kind: wrong-class
+reason: Cambre is the noun, the arch of a foot. The adjective, arched, is arqué.
+source: Larousse, dictionnaire français-anglais, s.v. "arch"
+status: shipped 2026-11-01
+
+id: 39905
+entryid: 49909
+permalink: 49909
+lesson: Entertainment - Music, Part 3
+lang: fr
+english: swing
+current: balançoire
+proposed: swing
+kind: wrong-sense
+reason: Balançoire is a playground swing. In music, swing is le swing.
+source: Larousse, dictionnaire français-anglais, s.v. "swing"
+status: shipped 2026-11-01
+
+id: 39908
+entryid: 49913
+permalink: 49913
+lesson: Entertainment - Music, Part 3
+lang: fr
+english: folk
+current: populaire
+proposed: folk
+kind: wrong-sense
+reason: Populaire is popular. In music, folk is le folk.
+source: Larousse, dictionnaire français-anglais, s.v. "folk"
+status: shipped 2026-11-01
+
+id: 40022
+entryid: 50056
+permalink: 50056
+lesson: Entertainment - Film, Part 4
+lang: fr
+english: scifi
+current: Scifi
+proposed: science-fiction
+kind: untranslated
+reason: The English was passed through. Sci-fi is la science-fiction.
+source: Larousse, dictionnaire français-anglais, s.v. "science fiction"
+status: shipped 2026-11-01
+
+id: 40025
+entryid: 50059
+permalink: 50059
+lesson: Entertainment - Film, Part 4
+lang: fr
+english: B-Movie
+current: B-Movie
+proposed: Film de série B
+kind: untranslated
+reason: The English was passed through. A B-movie is un film de série B.
+source: Larousse, dictionnaire français-anglais, s.v. "B movie"
+status: shipped 2026-11-01
+
+id: 40028
+entryid: 50063
+permalink: 50063
+lesson: Entertainment - Film, Part 5
+lang: fr
+english: dance dance revolution
+current: révolution de danse danse
+proposed: dance dance revolution
+kind: wrong-word
+reason: A game's title, translated word for word. Titles keep their name.
+source: The game's French release: Dance Dance Revolution
+status: shipped 2026-11-01
+
+id: 40059
+entryid: 50102
+permalink: 50102
+lesson: Entertainment - Sports, Part 4
+lang: fr
+english: cricket
+current: criquet
+proposed: cricket
+kind: wrong-sense
+reason: Criquet is the insect. The sport is le cricket.
+source: Larousse, dictionnaire français-anglais, s.v. "cricket"
+status: shipped 2026-11-01
+
+id: 40063
+entryid: 50106
+permalink: 50106
+lesson: Entertainment - Sports, Part 4
+lang: fr
+english: cheerleading
+current: Cheerleading
+proposed: cheerleading
+kind: orthography
+reason: Right word, wrong casing: the English is lower case.
+source: Larousse, dictionnaire français-anglais, s.v. "cheerleader"
+status: shipped 2026-11-01
+
+id: 40071
+entryid: 50116
+permalink: 50116
+lesson: Entertainment - Sports, Part 5
+lang: fr
+english: dodgeball
+current: Dodgeball
+proposed: balle aux prisonniers
+kind: untranslated
+reason: The English was passed through. The game is la balle aux prisonniers.
+source: Larousse, dictionnaire français-anglais, s.v. "dodgeball"
+status: shipped 2026-11-01
+
+id: 40079
+entryid: 50126
+permalink: 50126
+lesson: Entertainment - Sports, Part 6
+lang: fr
+english: unicycling
+current: unicycling
+proposed: monocycle
+kind: untranslated
+reason: The English was passed through. Unicycling is le monocycle.
+source: Larousse, dictionnaire français-anglais, s.v. "unicycle"
+status: shipped 2026-11-01
+
+id: 40100
+entryid: 50153
+permalink: 50153
+lesson: Entertainment - Gaming, Part 2
+lang: fr
+english: turned-based strategy game
+current: jeu de stratégie tourné
+proposed: jeu de stratégie au tour par tour
+kind: wrong-word
+reason: Tourné means turned. A turn-based game is au tour par tour.
+source: Larousse, dictionnaire français-anglais, s.v. "turn-based"
+status: shipped 2026-11-01
+
+id: 40112
+entryid: 50167
+permalink: 50167
+lesson: Entertainment - Gaming, Part 3
+lang: fr
+english: puzzle game
+current: puzzle
+proposed: jeu de réflexion
+kind: wrong-word
+reason: Puzzle alone is a jigsaw. A puzzle game is un jeu de réflexion.
+source: Larousse, dictionnaire français-anglais, s.v. "puzzle"
+status: shipped 2026-11-01
+
+id: 40241
+entryid: 50329
+permalink: 50329
+lesson: Culture - Countries, Part 5
+lang: fr
+english: Turkey
+current: dinde
+proposed: Turquie
+kind: wrong-sense
+reason: Dinde is the bird. Among countries, Turkey is la Turquie.
+source: Larousse, dictionnaire français-anglais, s.v. "Turkey"
+status: shipped 2026-11-01
+
+id: 40301
+entryid: 50405
+permalink: 50405
+lesson: Culture - Ethnicities, Part 4
+lang: fr
+english: Philippine
+current: Philippine
+proposed: philippin
+kind: wrong-form
+reason: Philippine is the feminine, and the islands. The adjective, lower case like the rest of the lesson, is philippin.
+source: Larousse, dictionnaire français-anglais, s.v. "Philippine"
+status: shipped 2026-11-01
+
+id: 40320
+entryid: 50429
+permalink: 50429
+lesson: Culture - Ethnicities, Part 7
+lang: fr
+english: South Korean
+current: Sud coréen
+proposed: sud-coréen
+kind: orthography
+reason: Written with a hyphen.
+source: Larousse, dictionnaire français-anglais, s.v. "South Korean"
+status: shipped 2026-11-01
+
+id: 40321
+entryid: 50430
+permalink: 50430
+lesson: Culture - Ethnicities, Part 7
+lang: fr
+english: North Korean
+current: Corée du Nord
+proposed: nord-coréen
+kind: wrong-word
+reason: Corée du Nord is the country. The adjective is nord-coréen.
+source: Larousse, dictionnaire français-anglais, s.v. "North Korean"
+status: shipped 2026-11-01
+
+id: 40323
+entryid: 50432
+permalink: 50432
+lesson: Culture - Ethnicities, Part 7
+lang: fr
+english: Colombian
+current: Corée du Nord
+proposed: colombien
+kind: wrong-word
+reason: Corée du Nord was copied onto this row. Colombian is colombien.
+source: Larousse, dictionnaire français-anglais, s.v. "Colombian"
+status: shipped 2026-11-01
+
+id: 40325
+entryid: 50434
+permalink: 50434
+lesson: Culture - Ethnicities, Part 7
+lang: fr
+english: French
+current: Corée du Nord
+proposed: français
+kind: wrong-word
+reason: Corée du Nord was copied onto this row. French is français.
+source: Larousse, dictionnaire français-anglais, s.v. "French"
+status: shipped 2026-11-01
+
+id: 40386
+entryid: 50510
+permalink: 50510
+lesson: Culture - Capitals, Part 4
+lang: fr
+english: Bangkok, Thailand
+current: Lima, Pérou
+proposed: Bangkok, Thaïlande
+kind: wrong-word
+reason: Lima, Pérou was copied onto this row.
+source: Larousse, dictionnaire français-anglais, s.v. "Thailand"
+status: shipped 2026-11-01
+
+id: 40387
+entryid: 50512
+permalink: 50512
+lesson: Culture - Capitals, Part 4
+lang: fr
+english: Bogotá, Colombia
+current: Lima, Pérou
+proposed: Bogota, Colombie
+kind: wrong-word
+reason: Lima, Pérou was copied onto this row.
+source: Larousse, dictionnaire français-anglais, s.v. "Colombia"
+status: shipped 2026-11-01
+
+id: 40495
+entryid: 50647
+permalink: 50647
+lesson: Culture - Politics, Part 8
+lang: fr
+english: ethnicity
+current: nationalité
+proposed: ethnicité
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40498
+entryid: 50651
+permalink: 50651
+lesson: Culture - Politics, Part 9
+lang: fr
+english: collectivism
+current: nationalité
+proposed: collectivisme
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40499
+entryid: 50653
+permalink: 50653
+lesson: Culture - Politics, Part 9
+lang: fr
+english: individualism
+current: nationalité
+proposed: individualisme
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40500
+entryid: 50654
+permalink: 50654
+lesson: Culture - Politics, Part 9
+lang: fr
+english: conformity
+current: nationalité
+proposed: conformité
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40502
+entryid: 50656
+permalink: 50656
+lesson: Culture - Politics, Part 9
+lang: fr
+english: non-conformity
+current: nationalité
+proposed: non-conformité
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40506
+entryid: 50661
+permalink: 50661
+lesson: Culture - Politics, Part 10
+lang: fr
+english: regionalism
+current: nationalité
+proposed: régionalisme
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40507
+entryid: 50663
+permalink: 50663
+lesson: Culture - Politics, Part 10
+lang: fr
+english: localism
+current: nationalité
+proposed: localisme
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40508
+entryid: 50664
+permalink: 50664
+lesson: Culture - Politics, Part 10
+lang: fr
+english: centralization
+current: nationalité
+proposed: centralisation
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40510
+entryid: 50666
+permalink: 50666
+lesson: Culture - Politics, Part 10
+lang: fr
+english: decentralization
+current: nationalité
+proposed: décentralisation
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40513
+entryid: 50670
+permalink: 50670
+lesson: Culture - Politics, Part 11
+lang: fr
+english: vote
+current: nationalité
+proposed: vote
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40515
+entryid: 50672
+permalink: 50672
+lesson: Culture - Politics, Part 11
+lang: fr
+english: ballot
+current: nationalité
+proposed: bulletin de vote
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40516
+entryid: 50674
+permalink: 50674
+lesson: Culture - Politics, Part 11
+lang: fr
+english: majority
+current: nationalité
+proposed: majorité
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40518
+entryid: 50676
+permalink: 50676
+lesson: Culture - Politics, Part 11
+lang: fr
+english: minority
+current: nationalité
+proposed: minorité
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40521
+entryid: 50680
+permalink: 50680
+lesson: Culture - Politics, Part 12
+lang: fr
+english: altruism
+current: nationalité
+proposed: altruisme
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40523
+entryid: 50682
+permalink: 50682
+lesson: Culture - Politics, Part 12
+lang: fr
+english: community
+current: nationalité
+proposed: communauté
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40524
+entryid: 50684
+permalink: 50684
+lesson: Culture - Politics, Part 12
+lang: fr
+english: society
+current: nationalité
+proposed: société
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40526
+entryid: 50686
+permalink: 50686
+lesson: Culture - Politics, Part 12
+lang: fr
+english: people
+current: nationalité
+proposed: peuple
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 9 to 12 hold "nationalité", which is the French of "nationality". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40539
+entryid: 50702
+permalink: 50702
+lesson: Culture - Politics, Part 14
+lang: fr
+english: bill
+current: facture
+proposed: projet de loi
+kind: wrong-sense
+reason: Facture is a bill to pay. In politics, a bill is un projet de loi.
+source: Larousse, dictionnaire français-anglais, s.v. "bill"
+status: shipped 2026-11-01
+
+id: 40548
+entryid: 50713
+permalink: 50713
+lesson: Culture - Politics, Part 15
+lang: fr
+english: common law
+current: loi commune
+proposed: common law
+kind: wrong-word
+reason: Loi commune is a word-for-word guess. French uses the English term, la common law.
+source: Larousse, dictionnaire français-anglais, s.v. "common law"
+status: shipped 2026-11-01
+
+id: 40570
+entryid: 50741
+permalink: 50741
+lesson: Culture - Politics, Part 18
+lang: fr
+english: grass roots
+current: racines de base
+proposed: la base
+kind: wrong-word
+reason: Racines de base is a word-for-word guess. In politics, the grass roots are la base.
+source: Larousse, dictionnaire français-anglais, s.v. "grass roots"
+status: shipped 2026-11-01
+
+id: 40608
+entryid: 50789
+permalink: 50789
+lesson: Culture - Politics, Part 23
+lang: fr
+english: lumpenproletariat
+current: lumpenproletariat
+proposed: lumpenprolétariat
+kind: orthography
+reason: Missing its accent.
+source: Larousse, dictionnaire français-anglais, s.v. "lumpenproletariat"
+status: shipped 2026-11-01
+
+id: 40612
+entryid: 50793
+permalink: 50793
+lesson: Culture - Politics, Part 23
+lang: fr
+english: sovietism
+current: sovietism
+proposed: soviétisme
+kind: orthography
+reason: Missing its accent.
+source: Trésor de la langue française, s.v. "soviétisme"
+status: shipped 2026-11-01
+
+id: 40659
+entryid: 50852
+permalink: 50852
+lesson: Culture - Politics, Part 29
+lang: fr
+english: soldier
+current: officier de police
+proposed: soldat
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40662
+entryid: 50856
+permalink: 50856
+lesson: Culture - Politics, Part 30
+lang: fr
+english: liberal
+current: officier de police
+proposed: libéral
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40663
+entryid: 50858
+permalink: 50858
+lesson: Culture - Politics, Part 30
+lang: fr
+english: conservative
+current: officier de police
+proposed: conservateur
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40665
+entryid: 50860
+permalink: 50860
+lesson: Culture - Politics, Part 30
+lang: fr
+english: socialist
+current: officier de police
+proposed: socialiste
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40666
+entryid: 50861
+permalink: 50861
+lesson: Culture - Politics, Part 30
+lang: fr
+english: fascist
+current: officier de police
+proposed: fasciste
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40670
+entryid: 50866
+permalink: 50866
+lesson: Culture - Politics, Part 31
+lang: fr
+english: anarchist
+current: officier de police
+proposed: anarchiste
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40671
+entryid: 50868
+permalink: 50868
+lesson: Culture - Politics, Part 31
+lang: fr
+english: libertarian
+current: officier de police
+proposed: libertarien
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40672
+entryid: 50869
+permalink: 50869
+lesson: Culture - Politics, Part 31
+lang: fr
+english: statist
+current: officier de police
+proposed: étatiste
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40674
+entryid: 50871
+permalink: 50871
+lesson: Culture - Politics, Part 31
+lang: fr
+english: authoritarian
+current: officier de police
+proposed: autoritaire
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40677
+entryid: 50875
+permalink: 50875
+lesson: Culture - Politics, Part 32
+lang: fr
+english: right-winger
+current: officier de police
+proposed: homme de droite
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40679
+entryid: 50877
+permalink: 50877
+lesson: Culture - Politics, Part 32
+lang: fr
+english: left-winger
+current: officier de police
+proposed: homme de gauche
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40680
+entryid: 50879
+permalink: 50879
+lesson: Culture - Politics, Part 32
+lang: fr
+english: communist
+current: officier de police
+proposed: communiste
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40682
+entryid: 50881
+permalink: 50881
+lesson: Culture - Politics, Part 32
+lang: fr
+english: capitalist
+current: officier de police
+proposed: capitaliste
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40685
+entryid: 50885
+permalink: 50885
+lesson: Culture - Politics, Part 33
+lang: fr
+english: democrat
+current: officier de police
+proposed: démocrate
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40687
+entryid: 50887
+permalink: 50887
+lesson: Culture - Politics, Part 33
+lang: fr
+english: monarchist
+current: officier de police
+proposed: monarchiste
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40688
+entryid: 50889
+permalink: 50889
+lesson: Culture - Politics, Part 33
+lang: fr
+english: parliamentarian
+current: officier de police
+proposed: parlementaire
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40690
+entryid: 50891
+permalink: 50891
+lesson: Culture - Politics, Part 33
+lang: fr
+english: political party
+current: officier de police
+proposed: parti politique
+kind: wrong-word
+reason: A batch fault: 18 rows in Politics, Parts 29 to 33 hold "officier de police", which is the French of "police officer". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40695
+entryid: 50897
+permalink: 50897
+lesson: Culture - Politics, Part 34
+lang: fr
+english: theocrat
+current: théocrat
+proposed: théocrate
+kind: orthography
+reason: Missing its final e.
+source: Larousse, dictionnaire français-anglais, s.v. "theocrat"
+status: shipped 2026-11-01
+
+id: 40751
+entryid: 50967
+permalink: 50967
+lesson: Culture - Politics, Part 41
+lang: fr
+english: subject
+current: assujettir
+proposed: sujet
+kind: wrong-class
+reason: Assujettir is a verb, to subjugate. A subject of a king is un sujet.
+source: Larousse, dictionnaire français-anglais, s.v. "subject"
+status: shipped 2026-11-01
+
+id: 40753
+entryid: 50969
+permalink: 50969
+lesson: Culture - Politics, Part 41
+lang: fr
+english: rank and file
+current: classer et ranger
+proposed: la base
+kind: wrong-word
+reason: Classer et ranger is to sort and file. The rank and file are la base.
+source: Larousse, dictionnaire français-anglais, s.v. "rank and file"
+status: shipped 2026-11-01
+
+id: 40822
+entryid: 51056
+permalink: 51056
+lesson: Adjectives - Numbers, Part 9
+lang: fr
+english: ninety
+current: quatre vingt dix
+proposed: quatre-vingt-dix
+kind: orthography
+reason: Written with hyphens.
+source: Larousse, dictionnaire français-anglais, s.v. "ninety"
+status: shipped 2026-11-01
+
+id: 40827
+entryid: 51063
+permalink: 51063
+lesson: (no lesson)
+lang: fr
+english: two hundred
+current: cent
+proposed: deux cents
+kind: wrong-word
+reason: A batch fault: 5 rows in Numbers hold "cent", which is the French of "one hundred". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40828
+entryid: 51064
+permalink: 51064
+lesson: (no lesson)
+lang: fr
+english: three hundred
+current: cent
+proposed: trois cents
+kind: wrong-word
+reason: A batch fault: 5 rows in Numbers hold "cent", which is the French of "one hundred". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40830
+entryid: 51066
+permalink: 51066
+lesson: (no lesson)
+lang: fr
+english: four hundred
+current: cent
+proposed: quatre cents
+kind: wrong-word
+reason: A batch fault: 5 rows in Numbers hold "cent", which is the French of "one hundred". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40833
+entryid: 51070
+permalink: 51070
+lesson: (no lesson)
+lang: fr
+english: five hundred
+current: cent
+proposed: cinq cents
+kind: wrong-word
+reason: A batch fault: 5 rows in Numbers hold "cent", which is the French of "one hundred". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40848
+entryid: 51089
+permalink: 51089
+lesson: Adjectives - Numbers, Part 11
+lang: fr
+english: six hundred
+current: six cent
+proposed: six cents
+kind: orthography
+reason: Cent takes an s when multiplied and nothing follows.
+source: Larousse, dictionnaire français-anglais, s.v. "hundred"
+status: shipped 2026-11-01
+
+id: 40877
+entryid: 51126
+permalink: 51126
+lesson: Adjectives - Numbers, Part 15
+lang: fr
+english: two thousand, one
+current: 2001
+proposed: deux mille un
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40879
+entryid: 51128
+permalink: 51128
+lesson: Adjectives - Numbers, Part 15
+lang: fr
+english: two thousand, two
+current: 2001
+proposed: deux mille deux
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40881
+entryid: 51130
+permalink: 51130
+lesson: Adjectives - Numbers, Part 15
+lang: fr
+english: two thousand, three
+current: 2001
+proposed: deux mille trois
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40882
+entryid: 51132
+permalink: 51132
+lesson: Adjectives - Numbers, Part 15
+lang: fr
+english: two thousand, four
+current: 2001
+proposed: deux mille quatre
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40885
+entryid: 51136
+permalink: 51136
+lesson: Adjectives - Numbers, Part 16
+lang: fr
+english: two thousand, five
+current: 2001
+proposed: deux mille cinq
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40886
+entryid: 51137
+permalink: 51137
+lesson: Adjectives - Numbers, Part 16
+lang: fr
+english: two thousand, six
+current: 2001
+proposed: deux mille six
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40888
+entryid: 51139
+permalink: 51139
+lesson: Adjectives - Numbers, Part 16
+lang: fr
+english: two thousand, seven
+current: 2001
+proposed: deux mille sept
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40890
+entryid: 51141
+permalink: 51141
+lesson: Adjectives - Numbers, Part 16
+lang: fr
+english: two thousand, eight
+current: 2001
+proposed: deux mille huit
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40892
+entryid: 51145
+permalink: 51145
+lesson: Adjectives - Numbers, Part 17
+lang: fr
+english: two thousand, nine
+current: 2001
+proposed: deux mille neuf
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40894
+entryid: 51147
+permalink: 51147
+lesson: Adjectives - Numbers, Part 17
+lang: fr
+english: two thousand, ten
+current: 2001
+proposed: deux mille dix
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40896
+entryid: 51149
+permalink: 51149
+lesson: Adjectives - Numbers, Part 17
+lang: fr
+english: two thousand, eleven
+current: 2001
+proposed: deux mille onze
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40898
+entryid: 51151
+permalink: 51151
+lesson: Adjectives - Numbers, Part 17
+lang: fr
+english: two thousand, twelve
+current: 2001
+proposed: deux mille douze
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40899
+entryid: 51154
+permalink: 51154
+lesson: Adjectives - Numbers, Part 18
+lang: fr
+english: two thousand, thirteen
+current: 2001
+proposed: deux mille treize
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40901
+entryid: 51156
+permalink: 51156
+lesson: Adjectives - Numbers, Part 18
+lang: fr
+english: two thousand, fourteen
+current: 2001
+proposed: deux mille quatorze
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40903
+entryid: 51158
+permalink: 51158
+lesson: Adjectives - Numbers, Part 18
+lang: fr
+english: two thousand, fifteen
+current: 2001
+proposed: deux mille quinze
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40904
+entryid: 51159
+permalink: 51159
+lesson: Adjectives - Numbers, Part 18
+lang: fr
+english: two thousand, sixteen
+current: 2001
+proposed: deux mille seize
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40907
+entryid: 51164
+permalink: 51164
+lesson: Adjectives - Numbers, Part 19
+lang: fr
+english: two thousand, seventeen
+current: 2001
+proposed: deux mille dix-sept
+kind: wrong-word
+reason: A batch fault: 18 rows in Numbers, Parts 15 to 19 hold "2001", which is the French of "two thousand, one". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 40915
+entryid: 51173
+permalink: 51173
+lesson: (no lesson)
+lang: fr
+english: two thousand, one hundred, one
+current: deux mille cent deux
+proposed: deux mille cent un
+kind: wrong-word
+reason: Deux mille cent deux is 2102.
+source: Larousse, dictionnaire français-anglais, s.v. "thousand"
+status: shipped 2026-11-01
+
+id: 40929
+entryid: 51191
+permalink: 51191
+lesson: Adjectives - Numbers, Part 21
+lang: fr
+english: two thousand, one hundred, fifty-one
+current: deux milles cent cinquante et un
+proposed: deux mille cent cinquante et un
+kind: orthography
+reason: Mille never takes an s.
+source: Larousse, dictionnaire français-anglais, s.v. "thousand"
+status: shipped 2026-11-01
+
+id: 46802
+entryid: 58553
+permalink: 58553
+lesson: Culture - Food and Drink, Part 1
+lang: fr
+english: meat
+current: moi à
+proposed: viande
+kind: corrupt
+reason: Moi à is not a word. Meat is la viande.
+source: Larousse, dictionnaire français-anglais, s.v. "meat"
+status: shipped 2026-11-01
+
+id: 47866
+entryid: 59900
+permalink: 59900
+lesson: (no lesson)
+lang: fr
+english: I'm good, and you?
+current: I'm good, and you?
+proposed: Je vais bien, et toi?
+kind: untranslated
+reason: The English was passed through.
+source: Larousse, dictionnaire français-anglais, s.v. "good"
+status: shipped 2026-11-01
+
+id: 47876
+entryid: 59913
+permalink: 59913
+lesson: Phrases - Introductions, Part 1
+lang: fr
+english: Hello.
+current: Hello.
+proposed: Bonjour.
+kind: untranslated
+reason: The English was passed through.
+source: Larousse, dictionnaire français-anglais, s.v. "hello"
+status: shipped 2026-11-01
+
+id: 48006
+entryid: 60077
+permalink: 60077
+lesson: Phrases - Manners, Part 12
+lang: fr
+english: That was thoughtless of me.
+current: Cela ne m'a pas pensé.
+proposed: C'était irréfléchi de ma part.
+kind: wrong-word
+reason: Cela ne m'a pas pensé is not French.
+source: Larousse, dictionnaire français-anglais, s.v. "thoughtless"
+status: shipped 2026-11-01
+
+id: 48091
+entryid: 60187
+permalink: 60187
+lesson: Phrases - Concern, Part 8
+lang: fr
+english: Are you afraid?
+current: As tu peur?
+proposed: As-tu peur?
+kind: orthography
+reason: The inverted question takes a hyphen.
+source: Larousse, dictionnaire français-anglais, s.v. "afraid"
+status: shipped 2026-11-01
+
+id: 48104
+entryid: 60202
+permalink: 60202
+lesson: Phrases - Concern, Part 9
+lang: fr
+english: My throat is sore.
+current: Ma gorge est sèche.
+proposed: J'ai mal à la gorge.
+kind: wrong-word
+reason: Sèche is dry. A sore throat is avoir mal à la gorge.
+source: Larousse, dictionnaire français-anglais, s.v. "sore"
+status: shipped 2026-11-01
+
+id: 48231
+entryid: 60380
+permalink: 60380
+lesson: Phrases - Food, Part 25
+lang: fr
+english: I haven't eaten yet.
+current: As-tu déjà mangé?
+proposed: Je n'ai pas encore mangé.
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48232
+entryid: 60381
+permalink: 60381
+lesson: Phrases - Food, Part 25
+lang: fr
+english: Did you have dinner yet?
+current: As-tu déjà mangé?
+proposed: As-tu déjà dîné?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48233
+entryid: 60382
+permalink: 60382
+lesson: Phrases - Food, Part 25
+lang: fr
+english: I haven't had dinner yet.
+current: As-tu déjà mangé?
+proposed: Je n'ai pas encore dîné.
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48234
+entryid: 60384
+permalink: 60384
+lesson: Phrases - Food, Part 26
+lang: fr
+english: Are you going to breakfast?
+current: As-tu déjà mangé?
+proposed: Vas-tu prendre le petit-déjeuner?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48235
+entryid: 60385
+permalink: 60385
+lesson: Phrases - Food, Part 26
+lang: fr
+english: I am going to dinner.
+current: As-tu déjà mangé?
+proposed: Je vais dîner.
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48236
+entryid: 60386
+permalink: 60386
+lesson: Phrases - Food, Part 26
+lang: fr
+english: When will you go to lunch?
+current: As-tu déjà mangé?
+proposed: Quand vas-tu déjeuner?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48237
+entryid: 60387
+permalink: 60387
+lesson: Phrases - Food, Part 26
+lang: fr
+english: This is just a snack.
+current: As-tu déjà mangé?
+proposed: C'est juste un en-cas.
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48238
+entryid: 60389
+permalink: 60389
+lesson: Phrases - Food, Part 27
+lang: fr
+english: Do you want something to eat?
+current: As-tu déjà mangé?
+proposed: Veux-tu manger quelque chose?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48239
+entryid: 60391
+permalink: 60391
+lesson: Phrases - Travel, Part 1
+lang: fr
+english: Where is the bathroom?
+current: As-tu déjà mangé?
+proposed: Où sont les toilettes?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48240
+entryid: 60392
+permalink: 60392
+lesson: Phrases - Travel, Part 1
+lang: fr
+english: I need to use the bathroom.
+current: As-tu déjà mangé?
+proposed: J'ai besoin d'aller aux toilettes.
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48241
+entryid: 60393
+permalink: 60393
+lesson: Phrases - Travel, Part 1
+lang: fr
+english: Where is that?
+current: As-tu déjà mangé?
+proposed: Où est-ce?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48242
+entryid: 60394
+permalink: 60394
+lesson: Phrases - Travel, Part 1
+lang: fr
+english: Can you tell me where?
+current: As-tu déjà mangé?
+proposed: Peux-tu me dire où?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48243
+entryid: 60396
+permalink: 60396
+lesson: Phrases - Travel, Part 2
+lang: fr
+english: How far away is it?
+current: As-tu déjà mangé?
+proposed: À quelle distance est-ce?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48244
+entryid: 60397
+permalink: 60397
+lesson: Phrases - Travel, Part 2
+lang: fr
+english: How close is it?
+current: As-tu déjà mangé?
+proposed: C'est proche comment?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48245
+entryid: 60398
+permalink: 60398
+lesson: Phrases - Travel, Part 2
+lang: fr
+english: Is it far?
+current: As-tu déjà mangé?
+proposed: C'est loin?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48246
+entryid: 60399
+permalink: 60399
+lesson: Phrases - Travel, Part 2
+lang: fr
+english: Is it close?
+current: As-tu déjà mangé?
+proposed: C'est proche?
+kind: wrong-word
+reason: A batch fault: 17 rows in Food, Part 26, and Travel, Parts 1 and 2 hold "As-tu déjà mangé?", which is the French of "Have you eaten yet?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48256
+entryid: 60414
+permalink: 60414
+lesson: Phrases - Travel, Part 7
+lang: fr
+english: Please take me there.
+current: Je vous en prie.
+proposed: Emmenez-moi là-bas, s'il vous plaît.
+kind: wrong-word
+reason: Je vous en prie is you're welcome.
+source: Larousse, dictionnaire français-anglais, s.v. "take"
+status: shipped 2026-11-01
+
+id: 48316
+entryid: 60498
+permalink: 60498
+lesson: Phrases - Travel, Part 31
+lang: fr
+english: Do you travel with your family?
+current: Voyez-vous avec votre famille?
+proposed: Voyagez-vous avec votre famille?
+kind: wrong-word
+reason: Voyez-vous is do you see.
+source: Larousse, dictionnaire français-anglais, s.v. "travel"
+status: shipped 2026-11-01
+
+id: 48329
+entryid: 60517
+permalink: 60517
+lesson: Phrases - Travel, Part 37
+lang: fr
+english: We have no vacancies.
+current: nous n'avons aucun poste vacant.
+proposed: Nous n'avons plus de chambres libres.
+kind: wrong-sense
+reason: Poste vacant is a job vacancy. A hotel's vacancies are chambres libres.
+source: Larousse, dictionnaire français-anglais, s.v. "vacancy"
+status: shipped 2026-11-01
+
+id: 48335
+entryid: 60526
+permalink: 60526
+lesson: Phrases - Travel, Part 40
+lang: fr
+english: Are you here on business?
+current: Puis-je faire un appel ici?
+proposed: Êtes-vous ici pour affaires?
+kind: wrong-word
+reason: A batch fault: 5 rows in Travel, Part 40 hold "Puis-je faire un appel ici?", which is the French of "Can I make a call here?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48336
+entryid: 60527
+permalink: 60527
+lesson: Phrases - Travel, Part 40
+lang: fr
+english: I am here on business.
+current: Puis-je faire un appel ici?
+proposed: Je suis ici pour affaires.
+kind: wrong-word
+reason: A batch fault: 5 rows in Travel, Part 40 hold "Puis-je faire un appel ici?", which is the French of "Can I make a call here?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48337
+entryid: 60528
+permalink: 60528
+lesson: Phrases - Travel, Part 40
+lang: fr
+english: Where is the ATM?
+current: Puis-je faire un appel ici?
+proposed: Où est le distributeur de billets?
+kind: wrong-word
+reason: A batch fault: 5 rows in Travel, Part 40 hold "Puis-je faire un appel ici?", which is the French of "Can I make a call here?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48338
+entryid: 60529
+permalink: 60529
+lesson: Phrases - Travel, Part 40
+lang: fr
+english: There's an ATM down the street.
+current: Puis-je faire un appel ici?
+proposed: Il y a un distributeur de billets au bout de la rue.
+kind: wrong-word
+reason: A batch fault: 5 rows in Travel, Part 40 hold "Puis-je faire un appel ici?", which is the French of "Can I make a call here?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48465
+entryid: 60708
+permalink: 60708
+lesson: Phrases - People, Part 22
+lang: fr
+english: Have you finished?
+current: As tu fini?
+proposed: As-tu fini?
+kind: orthography
+reason: The inverted question takes a hyphen.
+source: Larousse, dictionnaire français-anglais, s.v. "finish"
+status: shipped 2026-11-01
+
+id: 48498
+entryid: 60753
+permalink: 60753
+lesson: Phrases - Emergency, Part 2
+lang: fr
+english: Stop!
+current: Accélère s'il te plaît!
+proposed: Arrête!
+kind: wrong-word
+reason: A batch fault: 4 rows in Emergency, Part 2 hold "Accélère s'il te plaît!", which is the French of "Please hurry!". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48499
+entryid: 60754
+permalink: 60754
+lesson: Phrases - Emergency, Part 2
+lang: fr
+english: Stop now!
+current: Accélère s'il te plaît!
+proposed: Arrête tout de suite!
+kind: wrong-word
+reason: A batch fault: 4 rows in Emergency, Part 2 hold "Accélère s'il te plaît!", which is the French of "Please hurry!". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48500
+entryid: 60755
+permalink: 60755
+lesson: Phrases - Emergency, Part 2
+lang: fr
+english: Don't do that!
+current: Accélère s'il te plaît!
+proposed: Ne fais pas ça!
+kind: wrong-word
+reason: A batch fault: 4 rows in Emergency, Part 2 hold "Accélère s'il te plaît!", which is the French of "Please hurry!". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48517
+entryid: 60777
+permalink: 60777
+lesson: Phrases - Emergency, Part 7
+lang: fr
+english: My feet are sore.
+current: Mes pieds sont malades.
+proposed: J'ai mal aux pieds.
+kind: wrong-word
+reason: Malades is sick. Sore feet are avoir mal aux pieds.
+source: Larousse, dictionnaire français-anglais, s.v. "sore"
+status: shipped 2026-11-01
+
+id: 48530
+entryid: 60794
+permalink: 60794
+lesson: Phrases - Emergency, Part 11
+lang: fr
+english: I am okay.
+current: Je suis d'accord.
+proposed: Je vais bien.
+kind: wrong-sense
+reason: Je suis d'accord is I agree. I am okay is je vais bien.
+source: Larousse, dictionnaire français-anglais, s.v. "okay"
+status: shipped 2026-11-01
+
+id: 48534
+entryid: 60799
+permalink: 60799
+lesson: Phrases - Knowledge, Part 1
+lang: fr
+english: Everyone knows it.
+current: Translation error
+proposed: Tout le monde le sait.
+kind: untranslated
+reason: The translator's placeholder, "Translation error", was saved instead of a translation, across five phrase lessons.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48554
+entryid: 60826
+permalink: 60826
+lesson: Phrases - Knowledge, Part 8
+lang: fr
+english: What happened?
+current: Translating...
+proposed: Que s'est-il passé?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48555
+entryid: 60827
+permalink: 60827
+lesson: Phrases - Knowledge, Part 8
+lang: fr
+english: What is going to happen?
+current: Translating...
+proposed: Que va-t-il se passer?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48556
+entryid: 60828
+permalink: 60828
+lesson: Phrases - Knowledge, Part 8
+lang: fr
+english: Where did it happen?
+current: Translating...
+proposed: Où cela s'est-il passé?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48557
+entryid: 60829
+permalink: 60829
+lesson: Phrases - Knowledge, Part 8
+lang: fr
+english: When did it happen?
+current: Translating...
+proposed: Quand cela s'est-il passé?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48558
+entryid: 60831
+permalink: 60831
+lesson: Phrases - Knowledge, Part 9
+lang: fr
+english: How did it happen?
+current: Translating...
+proposed: Comment cela s'est-il passé?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48559
+entryid: 60832
+permalink: 60832
+lesson: Phrases - Knowledge, Part 9
+lang: fr
+english: Why did it happen?
+current: Translating...
+proposed: Pourquoi cela s'est-il passé?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48560
+entryid: 60833
+permalink: 60833
+lesson: Phrases - Knowledge, Part 9
+lang: fr
+english: Who did it?
+current: Translating...
+proposed: Qui a fait ça?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48561
+entryid: 60834
+permalink: 60834
+lesson: Phrases - Knowledge, Part 9
+lang: fr
+english: Is it going to happen?
+current: Translating...
+proposed: Est-ce que ça va arriver?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48562
+entryid: 60836
+permalink: 60836
+lesson: Phrases - Knowledge, Part 10
+lang: fr
+english: Where did you learn it?
+current: Translating...
+proposed: Où l'as-tu appris?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48563
+entryid: 60837
+permalink: 60837
+lesson: Phrases - Knowledge, Part 10
+lang: fr
+english: I learned it back in America.
+current: Translating...
+proposed: Je l'ai appris en Amérique.
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48564
+entryid: 60838
+permalink: 60838
+lesson: Phrases - Knowledge, Part 10
+lang: fr
+english: Who taught you that?
+current: Translating...
+proposed: Qui t'a appris ça?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48606
+entryid: 60900
+permalink: 60900
+lesson: Phrases - Preparation, Part 10
+lang: fr
+english: Wait for me.
+current: Translation error
+proposed: Attends-moi.
+kind: untranslated
+reason: The translator's placeholder, "Translation error", was saved instead of a translation, across five phrase lessons.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48637
+entryid: 60938
+permalink: 60938
+lesson: Phrases - Time, Part 2
+lang: fr
+english: He's coming late.
+current: Translating...
+proposed: Il arrive en retard.
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48706
+entryid: 61030
+permalink: 61030
+lesson: Phrases - Time, Part 25
+lang: fr
+english: The whole day.
+current: Translating...
+proposed: Toute la journée.
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48707
+entryid: 61031
+permalink: 61031
+lesson: Phrases - Time, Part 25
+lang: fr
+english: The whole week.
+current: Translating...
+proposed: Toute la semaine.
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48709
+entryid: 61034
+permalink: 61034
+lesson: Phrases - Time, Part 26
+lang: fr
+english: What day is it happening?
+current: Quel jour se passe-t-il?
+proposed: Quel jour cela a-t-il lieu?
+kind: wrong-word
+reason: Se passe-t-il has no subject to happen to. To take place is avoir lieu.
+source: Larousse, dictionnaire français-anglais, s.v. "happen"
+status: shipped 2026-11-01
+
+id: 48724
+entryid: 61055
+permalink: 61055
+lesson: Phrases - Time, Part 32
+lang: fr
+english: It is the second week of July.
+current: Translating...
+proposed: C'est la deuxième semaine de juillet.
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48725
+entryid: 61058
+permalink: 61058
+lesson: (no lesson)
+lang: fr
+english: How long is it?
+current: Translating...
+proposed: Combien de temps ça dure?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48726
+entryid: 61059
+permalink: 61059
+lesson: (no lesson)
+lang: fr
+english: How short is it?
+current: Translating...
+proposed: À quel point est-ce court?
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48742
+entryid: 61081
+permalink: 61081
+lesson: Phrases - Social Activity, Part 1
+lang: fr
+english: Can you walk me to the bus stop?
+current: Parlez-moi de vous.
+proposed: Peux-tu m'accompagner jusqu'à l'arrêt de bus?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48744
+entryid: 61083
+permalink: 61083
+lesson: Phrases - Social Activity, Part 1
+lang: fr
+english: I will take you to the bus stop.
+current: Parlez-moi de vous.
+proposed: Je t'emmènerai à l'arrêt de bus.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48747
+entryid: 61087
+permalink: 61087
+lesson: Phrases - Social Activity, Part 2
+lang: fr
+english: I'm married.
+current: Parlez-moi de vous.
+proposed: Je suis marié.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48749
+entryid: 61089
+permalink: 61089
+lesson: Phrases - Social Activity, Part 2
+lang: fr
+english: Are you married?
+current: Parlez-moi de vous.
+proposed: Es-tu marié?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48750
+entryid: 61091
+permalink: 61091
+lesson: Phrases - Social Activity, Part 2
+lang: fr
+english: Do you have mangoes for sale?
+current: Parlez-moi de vous.
+proposed: Avez-vous des mangues à vendre?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48752
+entryid: 61093
+permalink: 61093
+lesson: Phrases - Social Activity, Part 2
+lang: fr
+english: We are sold out.
+current: Parlez-moi de vous.
+proposed: Nous n'en avons plus.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48755
+entryid: 61097
+permalink: 61097
+lesson: Phrases - Social Activity, Part 3
+lang: fr
+english: I need to change clothes.
+current: Parlez-moi de vous.
+proposed: Je dois me changer.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48757
+entryid: 61099
+permalink: 61099
+lesson: Phrases - Social Activity, Part 3
+lang: fr
+english: I need to go home.
+current: Parlez-moi de vous.
+proposed: Je dois rentrer à la maison.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48758
+entryid: 61101
+permalink: 61101
+lesson: Phrases - Social Activity, Part 3
+lang: fr
+english: Where do you live?
+current: Parlez-moi de vous.
+proposed: Où habites-tu?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48759
+entryid: 61102
+permalink: 61102
+lesson: Phrases - Social Activity, Part 3
+lang: fr
+english: I live in Glasgow.
+current: Parlez-moi de vous.
+proposed: J'habite à Glasgow.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48762
+entryid: 61106
+permalink: 61106
+lesson: Phrases - Social Activity, Part 4
+lang: fr
+english: Where is your home?
+current: Parlez-moi de vous.
+proposed: Où est ta maison?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48764
+entryid: 61108
+permalink: 61108
+lesson: Phrases - Social Activity, Part 4
+lang: fr
+english: My home is very far away.
+current: Parlez-moi de vous.
+proposed: Ma maison est très loin.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48766
+entryid: 61110
+permalink: 61110
+lesson: Phrases - Social Activity, Part 4
+lang: fr
+english: Can I visit your home?
+current: Parlez-moi de vous.
+proposed: Puis-je venir chez toi?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48767
+entryid: 61112
+permalink: 61112
+lesson: Phrases - Social Activity, Part 4
+lang: fr
+english: You can visit my home any time.
+current: Parlez-moi de vous.
+proposed: Tu peux venir chez moi quand tu veux.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48770
+entryid: 61116
+permalink: 61116
+lesson: Phrases - Social Activity, Part 5
+lang: fr
+english: Can you check for me?
+current: Parlez-moi de vous.
+proposed: Peux-tu vérifier pour moi?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48772
+entryid: 61118
+permalink: 61118
+lesson: Phrases - Social Activity, Part 5
+lang: fr
+english: Let me check.
+current: Parlez-moi de vous.
+proposed: Laisse-moi vérifier.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48774
+entryid: 61120
+permalink: 61120
+lesson: Phrases - Social Activity, Part 5
+lang: fr
+english: Did you have a look?
+current: Parlez-moi de vous.
+proposed: As-tu jeté un coup d'œil?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48776
+entryid: 61124
+permalink: 61124
+lesson: Phrases - Social Activity, Part 6
+lang: fr
+english: Let's practice English.
+current: Parlez-moi de vous.
+proposed: Pratiquons l'anglais.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48778
+entryid: 61126
+permalink: 61126
+lesson: Phrases - Social Activity, Part 6
+lang: fr
+english: Who would you like to practice with?
+current: Parlez-moi de vous.
+proposed: Avec qui aimerais-tu pratiquer?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48780
+entryid: 61128
+permalink: 61128
+lesson: Phrases - Social Activity, Part 6
+lang: fr
+english: May I speak with Jane?
+current: Parlez-moi de vous.
+proposed: Puis-je parler à Jane?
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48781
+entryid: 61129
+permalink: 61129
+lesson: Phrases - Social Activity, Part 6
+lang: fr
+english: Jane is not here right now.
+current: Parlez-moi de vous.
+proposed: Jane n'est pas là pour le moment.
+kind: wrong-word
+reason: A batch fault: 22 rows in Social Activity, Parts 1 to 6 hold "Parlez-moi de vous.", which is the French of "Tell me about yourself.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48787
+entryid: 61137
+permalink: 61137
+lesson: Phrases - Social Activity, Part 7
+lang: fr
+english: Do you know how to cook?
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: Sais-tu cuisiner?
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48789
+entryid: 61139
+permalink: 61139
+lesson: Phrases - Social Activity, Part 7
+lang: fr
+english: I will cook for you whatever you want.
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: Je te cuisinerai tout ce que tu veux.
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48790
+entryid: 61142
+permalink: 61142
+lesson: Phrases - Social Activity, Part 8
+lang: fr
+english: Are you going to the movie?
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: Vas-tu voir le film?
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48792
+entryid: 61144
+permalink: 61144
+lesson: Phrases - Social Activity, Part 8
+lang: fr
+english: I am going tonight to the theater.
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: Je vais au théâtre ce soir.
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48794
+entryid: 61146
+permalink: 61146
+lesson: Phrases - Social Activity, Part 8
+lang: fr
+english: How was the movie?
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: Comment était le film?
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48796
+entryid: 61148
+permalink: 61148
+lesson: Phrases - Social Activity, Part 8
+lang: fr
+english: I heard the show was really good.
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: J'ai entendu dire que le spectacle était vraiment bien.
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48798
+entryid: 61152
+permalink: 61152
+lesson: Phrases - Social Activity, Part 9
+lang: fr
+english: I would like to make a reservation.
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: Je voudrais faire une réservation.
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48800
+entryid: 61154
+permalink: 61154
+lesson: Phrases - Social Activity, Part 9
+lang: fr
+english: Do you have a reservation?
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: Avez-vous une réservation?
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48802
+entryid: 61156
+permalink: 61156
+lesson: Phrases - Social Activity, Part 9
+lang: fr
+english: Yes, here is my reservation.
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: Oui, voici ma réservation.
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48804
+entryid: 61158
+permalink: 61158
+lesson: Phrases - Social Activity, Part 9
+lang: fr
+english: Are your rooms reserved?
+current: Avez-vous besoin d'aide pour remplir le formulaire?
+proposed: Vos chambres sont-elles réservées?
+kind: wrong-word
+reason: A batch fault: 11 rows in Social Activity, Parts 7 to 9 hold "Avez-vous besoin d'aide pour remplir le formulaire?", which is the French of "Do you need help filling out the form?". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 48806
+entryid: 61161
+permalink: 61161
+lesson: Phrases - Social Activity, Part 1
+lang: fr
+english: Do you have a boyfriend?
+current: As tu un petit ami?
+proposed: As-tu un petit ami?
+kind: orthography
+reason: The inverted question takes a hyphen.
+source: Larousse, dictionnaire français-anglais, s.v. "boyfriend"
+status: shipped 2026-11-01
+
+id: 48837
+entryid: 61195
+permalink: 61195
+lesson: Phrases - Social Activity, Part 1
+lang: fr
+english: Hi, is John there?
+current: Salut, John est-il?
+proposed: Salut, est-ce que John est là?
+kind: wrong-word
+reason: John est-il stops short: is John. There is là.
+source: Larousse, dictionnaire français-anglais, s.v. "there"
+status: shipped 2026-11-01
+
+id: 48856
+entryid: 61216
+permalink: 61216
+lesson: Phrases - Social Activity, Part 1
+lang: fr
+english: I will pick you up tonight.
+current: Je vous choisirai ce soir.
+proposed: Je passerai te chercher ce soir.
+kind: wrong-word
+reason: Choisir is to choose. To pick someone up is passer chercher.
+source: Larousse, dictionnaire français-anglais, s.v. "pick up"
+status: shipped 2026-11-01
+
+id: 48888
+entryid: 61252
+permalink: 61252
+lesson: Phrases - Social Activity, Part 2
+lang: fr
+english: I'm off of work tomorrow.
+current: Je deviens au travail demain.
+proposed: Je ne travaille pas demain.
+kind: wrong-word
+reason: Je deviens au travail is not French.
+source: Larousse, dictionnaire français-anglais, s.v. "off"
+status: shipped 2026-11-01
+
+id: 48955
+entryid: 61328
+permalink: 61328
+lesson: Phrases - Social Activity, Part 3
+lang: fr
+english: Are you new to this?
+current: Êtes-vous novateur à cela?
+proposed: Est-ce nouveau pour vous?
+kind: wrong-word
+reason: Novateur is innovative.
+source: Larousse, dictionnaire français-anglais, s.v. "new"
+status: shipped 2026-11-01
+
+id: 48980
+entryid: 61356
+permalink: 61356
+lesson: Phrases - Social Activity, Part 3
+lang: fr
+english: Every moment is worth laughing about.
+current: Chaque moment mérite de se moquer.
+proposed: Chaque moment mérite qu'on en rie.
+kind: wrong-sense
+reason: Se moquer is to mock. To laugh about is en rire.
+source: Larousse, dictionnaire français-anglais, s.v. "laugh"
+status: shipped 2026-11-01
+
+id: 48987
+entryid: 61363
+permalink: 61363
+lesson: Phrases - Social Activity, Part 3
+lang: fr
+english: How late will you be out?
+current: À quelle date allez-vous sortir?
+proposed: Jusqu'à quelle heure allez-vous sortir?
+kind: wrong-sense
+reason: Date is a day of the calendar. How late asks for an hour.
+source: Larousse, dictionnaire français-anglais, s.v. "late"
+status: shipped 2026-11-01
+
+id: 49170
+entryid: 61587
+permalink: 61587
+lesson: Phrases - Objects, Part 7
+lang: fr
+english: Just a little.
+current: Je l'ai déjà vu.
+proposed: Juste un peu.
+kind: wrong-word
+reason: A batch fault: 10 rows in Objects, Parts 7 to 9 hold "Je l'ai déjà vu.", which is the French of "I have already seen that.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49171
+entryid: 61589
+permalink: 61589
+lesson: Phrases - Objects, Part 7
+lang: fr
+english: Too much.
+current: Je l'ai déjà vu.
+proposed: Trop.
+kind: wrong-word
+reason: A batch fault: 10 rows in Objects, Parts 7 to 9 hold "Je l'ai déjà vu.", which is the French of "I have already seen that.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49174
+entryid: 61593
+permalink: 61593
+lesson: Phrases - Objects, Part 8
+lang: fr
+english: More than that.
+current: Je l'ai déjà vu.
+proposed: Plus que ça.
+kind: wrong-word
+reason: A batch fault: 10 rows in Objects, Parts 7 to 9 hold "Je l'ai déjà vu.", which is the French of "I have already seen that.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49175
+entryid: 61594
+permalink: 61594
+lesson: Phrases - Objects, Part 8
+lang: fr
+english: Less than that.
+current: Je l'ai déjà vu.
+proposed: Moins que ça.
+kind: wrong-word
+reason: A batch fault: 10 rows in Objects, Parts 7 to 9 hold "Je l'ai déjà vu.", which is the French of "I have already seen that.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49177
+entryid: 61596
+permalink: 61596
+lesson: Phrases - Objects, Part 8
+lang: fr
+english: How much?
+current: Je l'ai déjà vu.
+proposed: Combien?
+kind: wrong-word
+reason: A batch fault: 10 rows in Objects, Parts 7 to 9 hold "Je l'ai déjà vu.", which is the French of "I have already seen that.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49179
+entryid: 61598
+permalink: 61598
+lesson: Phrases - Objects, Part 8
+lang: fr
+english: How little?
+current: Je l'ai déjà vu.
+proposed: Combien au minimum?
+kind: wrong-word
+reason: A batch fault: 10 rows in Objects, Parts 7 to 9 hold "Je l'ai déjà vu.", which is the French of "I have already seen that.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49181
+entryid: 61602
+permalink: 61602
+lesson: Phrases - Objects, Part 9
+lang: fr
+english: Just this.
+current: Je l'ai déjà vu.
+proposed: Juste ça.
+kind: wrong-word
+reason: A batch fault: 10 rows in Objects, Parts 7 to 9 hold "Je l'ai déjà vu.", which is the French of "I have already seen that.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49183
+entryid: 61604
+permalink: 61604
+lesson: Phrases - Objects, Part 9
+lang: fr
+english: Nothing else.
+current: Je l'ai déjà vu.
+proposed: Rien d'autre.
+kind: wrong-word
+reason: A batch fault: 10 rows in Objects, Parts 7 to 9 hold "Je l'ai déjà vu.", which is the French of "I have already seen that.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49185
+entryid: 61606
+permalink: 61606
+lesson: Phrases - Objects, Part 9
+lang: fr
+english: Can you wrap this?
+current: Je l'ai déjà vu.
+proposed: Pouvez-vous emballer ceci?
+kind: wrong-word
+reason: A batch fault: 10 rows in Objects, Parts 7 to 9 hold "Je l'ai déjà vu.", which is the French of "I have already seen that.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49227
+entryid: 61659
+permalink: 61659
+lesson: Phrases - Objects, Part 15
+lang: fr
+english: Is this mine?
+current: Cette mine est-elle?
+proposed: Est-ce que c'est à moi?
+kind: wrong-word
+reason: Cette mine est-elle reads mine as a coal mine.
+source: Larousse, dictionnaire français-anglais, s.v. "mine"
+status: shipped 2026-11-01
+
+id: 49237
+entryid: 61671
+permalink: 61671
+lesson: Phrases - Objects, Part 16
+lang: fr
+english: That is my pen.
+current: Translating...
+proposed: C'est mon stylo.
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49238
+entryid: 61673
+permalink: 61673
+lesson: Phrases - Objects, Part 16
+lang: fr
+english: A few.
+current: Translating...
+proposed: Quelques-uns.
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49239
+entryid: 61674
+permalink: 61674
+lesson: Phrases - Objects, Part 16
+lang: fr
+english: A little bit.
+current: Translating...
+proposed: Un petit peu.
+kind: untranslated
+reason: The translator's placeholder, "Translating...", was saved instead of a translation, across Knowledge, Time and Objects phrases.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49328
+entryid: 61784
+permalink: 61784
+lesson: Phrases - Objects, Part 28
+lang: fr
+english: I am all out.
+current: Je suis tous sorti.
+proposed: Je n'en ai plus.
+kind: wrong-word
+reason: Je suis tous sorti is I have all gone out.
+source: Larousse, dictionnaire français-anglais, s.v. "out"
+status: shipped 2026-11-01
+
+id: 49338
+entryid: 61796
+permalink: 61796
+lesson: Phrases - Objects, Part 29
+lang: fr
+english: How much would you like?
+current: Combien aimeriez-vous?
+proposed: Combien en voudriez-vous?
+kind: wrong-word
+reason: Aimeriez-vous needs its object: how many would you like is combien en voudriez-vous.
+source: Larousse, dictionnaire français-anglais, s.v. "like"
+status: shipped 2026-11-01
+
+id: 49360
+entryid: 61826
+permalink: 61826
+lesson: Phrases - Objects, Part 33
+lang: fr
+english: Can I use your phone?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Puis-je utiliser ton téléphone?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49362
+entryid: 61828
+permalink: 61828
+lesson: Phrases - Objects, Part 33
+lang: fr
+english: You may borrow my phone.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Tu peux emprunter mon téléphone.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49363
+entryid: 61829
+permalink: 61829
+lesson: Phrases - Objects, Part 33
+lang: fr
+english: Do you have a number for a taxi?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: As-tu un numéro de taxi?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49365
+entryid: 61831
+permalink: 61831
+lesson: Phrases - Objects, Part 33
+lang: fr
+english: Here is a number for a driving service.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Voici le numéro d'un service de chauffeurs.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49368
+entryid: 61835
+permalink: 61835
+lesson: Phrases - Objects, Part 34
+lang: fr
+english: How much is this?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Combien coûte ceci?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49369
+entryid: 61837
+permalink: 61837
+lesson: Phrases - Objects, Part 34
+lang: fr
+english: How much is that?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Combien coûte cela?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49371
+entryid: 61839
+permalink: 61839
+lesson: Phrases - Objects, Part 34
+lang: fr
+english: Is there more?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Y en a-t-il encore?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49373
+entryid: 61841
+permalink: 61841
+lesson: Phrases - Objects, Part 34
+lang: fr
+english: There is no more.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Il n'y en a plus.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49376
+entryid: 61845
+permalink: 61845
+lesson: Phrases - Objects, Part 35
+lang: fr
+english: You should try it on.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Tu devrais l'essayer.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49377
+entryid: 61847
+permalink: 61847
+lesson: Phrases - Objects, Part 35
+lang: fr
+english: I will try it on.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais l'essayer.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49378
+entryid: 61848
+permalink: 61848
+lesson: Phrases - Objects, Part 35
+lang: fr
+english: What do you want to buy?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Que veux-tu acheter?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49380
+entryid: 61850
+permalink: 61850
+lesson: Phrases - Objects, Part 35
+lang: fr
+english: I want to buy a sandwich.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je veux acheter un sandwich.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49383
+entryid: 61854
+permalink: 61854
+lesson: Phrases - Objects, Part 36
+lang: fr
+english: Can you throw that away for me?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Peux-tu jeter ça pour moi?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49385
+entryid: 61856
+permalink: 61856
+lesson: Phrases - Objects, Part 36
+lang: fr
+english: I will throw it away for you.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais le jeter pour toi.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49386
+entryid: 61858
+permalink: 61858
+lesson: Phrases - Objects, Part 36
+lang: fr
+english: Do you have a pencil?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: As-tu un crayon?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49388
+entryid: 61860
+permalink: 61860
+lesson: Phrases - Objects, Part 36
+lang: fr
+english: I have a pencil.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: J'ai un crayon.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49391
+entryid: 61864
+permalink: 61864
+lesson: Phrases - Objects, Part 37
+lang: fr
+english: How many clothes do you have?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Combien de vêtements as-tu?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49393
+entryid: 61866
+permalink: 61866
+lesson: Phrases - Objects, Part 37
+lang: fr
+english: I think you have too many clothes.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je pense que tu as trop de vêtements.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49394
+entryid: 61868
+permalink: 61868
+lesson: Phrases - Objects, Part 37
+lang: fr
+english: Whose book is that?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: À qui est ce livre?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49395
+entryid: 61869
+permalink: 61869
+lesson: Phrases - Objects, Part 37
+lang: fr
+english: It's my book.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: C'est mon livre.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49398
+entryid: 61873
+permalink: 61873
+lesson: Phrases - Objects, Part 38
+lang: fr
+english: Did you send me flowers?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: M'as-tu envoyé des fleurs?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49400
+entryid: 61875
+permalink: 61875
+lesson: Phrases - Objects, Part 38
+lang: fr
+english: I will send her flowers.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais lui envoyer des fleurs.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49402
+entryid: 61877
+permalink: 61877
+lesson: Phrases - Objects, Part 38
+lang: fr
+english: Do you sell batteries?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Vendez-vous des piles?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49403
+entryid: 61879
+permalink: 61879
+lesson: Phrases - Objects, Part 38
+lang: fr
+english: Where do they sell batteries?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Où vend-on des piles?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49406
+entryid: 61883
+permalink: 61883
+lesson: Phrases - Objects, Part 39
+lang: fr
+english: I have it in my car.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je l'ai dans ma voiture.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49408
+entryid: 61885
+permalink: 61885
+lesson: Phrases - Objects, Part 39
+lang: fr
+english: My luggage is still on the plane.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Mes bagages sont encore dans l'avion.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49410
+entryid: 61887
+permalink: 61887
+lesson: Phrases - Objects, Part 39
+lang: fr
+english: Who made the salad?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Qui a fait la salade?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49411
+entryid: 61889
+permalink: 61889
+lesson: Phrases - Objects, Part 39
+lang: fr
+english: I made this salad.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: J'ai fait cette salade.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49413
+entryid: 61892
+permalink: 61892
+lesson: Phrases - Objects, Part 40
+lang: fr
+english: Where is your luggage?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Où sont tes bagages?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49415
+entryid: 61894
+permalink: 61894
+lesson: Phrases - Objects, Part 40
+lang: fr
+english: My luggage is missing.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Mes bagages ont disparu.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49417
+entryid: 61896
+permalink: 61896
+lesson: Phrases - Objects, Part 40
+lang: fr
+english: My watch was stolen.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: On m'a volé ma montre.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49419
+entryid: 61898
+permalink: 61898
+lesson: Phrases - Objects, Part 40
+lang: fr
+english: Did you see who stole my watch?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: As-tu vu qui a volé ma montre?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49421
+entryid: 61902
+permalink: 61902
+lesson: Phrases - Objects, Part 41
+lang: fr
+english: Can you carry this for me?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Peux-tu porter ça pour moi?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49423
+entryid: 61904
+permalink: 61904
+lesson: Phrases - Objects, Part 41
+lang: fr
+english: I will carry this for you.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais porter ça pour toi.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49425
+entryid: 61906
+permalink: 61906
+lesson: Phrases - Objects, Part 41
+lang: fr
+english: Did you break that?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Est-ce toi qui as cassé ça?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49427
+entryid: 61908
+permalink: 61908
+lesson: Phrases - Objects, Part 41
+lang: fr
+english: I didn't break it on purpose.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je ne l'ai pas cassé exprès.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49429
+entryid: 61912
+permalink: 61912
+lesson: Phrases - People, Part 2
+lang: fr
+english: I can fix that for you.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je peux te réparer ça.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49431
+entryid: 61914
+permalink: 61914
+lesson: Phrases - People, Part 2
+lang: fr
+english: Where are my glasses?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Où sont mes lunettes?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49433
+entryid: 61916
+permalink: 61916
+lesson: Phrases - People, Part 2
+lang: fr
+english: Your glasses are on the book shelf.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Tes lunettes sont sur l'étagère.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49435
+entryid: 61920
+permalink: 61920
+lesson: (no lesson)
+lang: fr
+english: Give me the pen.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Donne-moi le stylo.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49437
+entryid: 61922
+permalink: 61922
+lesson: (no lesson)
+lang: fr
+english: I will give you a pen.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais te donner un stylo.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49439
+entryid: 61924
+permalink: 61924
+lesson: (no lesson)
+lang: fr
+english: What are you wearing?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Qu'est-ce que tu portes?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49441
+entryid: 61926
+permalink: 61926
+lesson: (no lesson)
+lang: fr
+english: What should I wear?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Que devrais-je porter?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49443
+entryid: 61930
+permalink: 61930
+lesson: (no lesson)
+lang: fr
+english: What's in it?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Qu'y a-t-il dedans?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49444
+entryid: 61931
+permalink: 61931
+lesson: (no lesson)
+lang: fr
+english: I don't know what's in it.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je ne sais pas ce qu'il y a dedans.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49446
+entryid: 61933
+permalink: 61933
+lesson: (no lesson)
+lang: fr
+english: Which one do you want?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Lequel veux-tu?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49448
+entryid: 61935
+permalink: 61935
+lesson: (no lesson)
+lang: fr
+english: I'll take this one.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je prends celui-ci.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49451
+entryid: 61939
+permalink: 61939
+lesson: (no lesson)
+lang: fr
+english: Can you please put this in the car for me?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Peux-tu mettre ça dans la voiture pour moi, s'il te plaît?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49452
+entryid: 61941
+permalink: 61941
+lesson: (no lesson)
+lang: fr
+english: I will put it in the car.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais le mettre dans la voiture.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49454
+entryid: 61943
+permalink: 61943
+lesson: (no lesson)
+lang: fr
+english: Where did you put it?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Où l'as-tu mis?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49456
+entryid: 61945
+permalink: 61945
+lesson: (no lesson)
+lang: fr
+english: I put it in the car.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je l'ai mis dans la voiture.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49459
+entryid: 61949
+permalink: 61949
+lesson: (no lesson)
+lang: fr
+english: I like your car.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: J'aime ta voiture.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49460
+entryid: 61951
+permalink: 61951
+lesson: (no lesson)
+lang: fr
+english: I love your motorcycle.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: J'adore ta moto.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49461
+entryid: 61952
+permalink: 61952
+lesson: (no lesson)
+lang: fr
+english: Your car is amazing.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Ta voiture est incroyable.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49463
+entryid: 61954
+permalink: 61954
+lesson: (no lesson)
+lang: fr
+english: Your motorcycle is in need of repair.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Ta moto a besoin d'être réparée.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49466
+entryid: 61958
+permalink: 61958
+lesson: (no lesson)
+lang: fr
+english: Please bring me my jacket.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Apporte-moi ma veste, s'il te plaît.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49468
+entryid: 61960
+permalink: 61960
+lesson: (no lesson)
+lang: fr
+english: Where is your jacket?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Où est ta veste?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49469
+entryid: 61961
+permalink: 61961
+lesson: (no lesson)
+lang: fr
+english: Which is best?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Lequel est le meilleur?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49471
+entryid: 61963
+permalink: 61963
+lesson: (no lesson)
+lang: fr
+english: The red and black one is the best.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Le rouge et noir est le meilleur.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49474
+entryid: 61967
+permalink: 61967
+lesson: (no lesson)
+lang: fr
+english: I have many things to buy.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: J'ai beaucoup de choses à acheter.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49476
+entryid: 61969
+permalink: 61969
+lesson: (no lesson)
+lang: fr
+english: Are you looking to buy many things?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Tu comptes acheter beaucoup de choses?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49477
+entryid: 61970
+permalink: 61970
+lesson: (no lesson)
+lang: fr
+english: Is it ready?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Est-ce prêt?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49478
+entryid: 61972
+permalink: 61972
+lesson: (no lesson)
+lang: fr
+english: When will it be ready?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Quand est-ce que ce sera prêt?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49481
+entryid: 61976
+permalink: 61976
+lesson: (no lesson)
+lang: fr
+english: When will it arrive?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Quand est-ce que ça arrivera?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49483
+entryid: 61978
+permalink: 61978
+lesson: (no lesson)
+lang: fr
+english: It will arrive shortly.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Ça arrivera bientôt.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49485
+entryid: 61980
+permalink: 61980
+lesson: (no lesson)
+lang: fr
+english: How do I use this?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Comment est-ce que j'utilise ceci?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49486
+entryid: 61982
+permalink: 61982
+lesson: (no lesson)
+lang: fr
+english: Use this by pressing here.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Utilise-le en appuyant ici.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49489
+entryid: 61986
+permalink: 61986
+lesson: (no lesson)
+lang: fr
+english: Do you need another key?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: As-tu besoin d'une autre clé?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49491
+entryid: 61988
+permalink: 61988
+lesson: (no lesson)
+lang: fr
+english: I need another key.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: J'ai besoin d'une autre clé.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49492
+entryid: 61989
+permalink: 61989
+lesson: (no lesson)
+lang: fr
+english: My car doesn't work.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Ma voiture ne marche pas.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49494
+entryid: 61991
+permalink: 61991
+lesson: (no lesson)
+lang: fr
+english: Why isn't this working?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Pourquoi est-ce que ça ne marche pas?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49496
+entryid: 61995
+permalink: 61995
+lesson: (no lesson)
+lang: fr
+english: I'm looking for something like this.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je cherche quelque chose comme ceci.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49498
+entryid: 61997
+permalink: 61997
+lesson: (no lesson)
+lang: fr
+english: One like this?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Un comme celui-ci?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49500
+entryid: 61999
+permalink: 61999
+lesson: (no lesson)
+lang: fr
+english: I want to find something like that.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je veux trouver quelque chose comme ça.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49502
+entryid: 62001
+permalink: 62001
+lesson: (no lesson)
+lang: fr
+english: How about one like that?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Et un comme celui-là?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49504
+entryid: 62005
+permalink: 62005
+lesson: (no lesson)
+lang: fr
+english: Can you open the door?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Peux-tu ouvrir la porte?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49506
+entryid: 62007
+permalink: 62007
+lesson: (no lesson)
+lang: fr
+english: I will open the door for you.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais t'ouvrir la porte.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49507
+entryid: 62008
+permalink: 62008
+lesson: (no lesson)
+lang: fr
+english: Is it okay if I open this window?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Est-ce que je peux ouvrir cette fenêtre?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49509
+entryid: 62010
+permalink: 62010
+lesson: (no lesson)
+lang: fr
+english: I'm going to open a window.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais ouvrir une fenêtre.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49511
+entryid: 62014
+permalink: 62014
+lesson: (no lesson)
+lang: fr
+english: Can you pick up your clothes?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Peux-tu ramasser tes vêtements?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49513
+entryid: 62016
+permalink: 62016
+lesson: (no lesson)
+lang: fr
+english: I will pick up my clothes.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais ramasser mes vêtements.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49515
+entryid: 62018
+permalink: 62018
+lesson: (no lesson)
+lang: fr
+english: When will you clean your room?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Quand vas-tu ranger ta chambre?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49517
+entryid: 62020
+permalink: 62020
+lesson: (no lesson)
+lang: fr
+english: I'm cleaning my room right now.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je range ma chambre en ce moment.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49519
+entryid: 62024
+permalink: 62024
+lesson: (no lesson)
+lang: fr
+english: Can you count this for me?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Peux-tu compter ceci pour moi?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49521
+entryid: 62026
+permalink: 62026
+lesson: (no lesson)
+lang: fr
+english: I will count it for you.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je vais le compter pour toi.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49523
+entryid: 62028
+permalink: 62028
+lesson: (no lesson)
+lang: fr
+english: Do you have a clean cup?
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: As-tu une tasse propre?
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49524
+entryid: 62029
+permalink: 62029
+lesson: (no lesson)
+lang: fr
+english: I don't have a cup.
+current: Public Bikes finds searching cyclists. San Francisco-based Public Bikes used Google Shopping campaigns to grow their reach and share the joy of biking far and wide.
+proposed: Je n'ai pas de tasse.
+kind: wrong-word
+reason: A batch fault: 87 rows in Objects, Parts 33 to 41, People, Part 2, and the unfiled phrases after them hold a Google Shopping advert for Public Bikes. Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49533
+entryid: 62043
+permalink: 62043
+lesson: (no lesson)
+lang: fr
+english: Can you fix this?
+current: Can you fix this?
+proposed: Peux-tu réparer ça?
+kind: untranslated
+reason: The English was passed through.
+source: Larousse, dictionnaire français-anglais, s.v. "fix"
+status: shipped 2026-11-01
+
+id: 49789
+entryid: 62366
+permalink: 62366
+lesson: Phrases - Money, Part 6
+lang: fr
+english: I don't have any money.
+current: Translation error
+proposed: Je n'ai pas d'argent.
+kind: untranslated
+reason: The translator's placeholder, "Translation error", was saved instead of a translation, across five phrase lessons.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49794
+entryid: 62371
+permalink: 62371
+lesson: Phrases - Money, Part 6
+lang: fr
+english: Can I buy the same thing?
+current: Je commanderai la même chose.
+proposed: Puis-je acheter la même chose?
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49796
+entryid: 62375
+permalink: 62375
+lesson: Phrases - Money, Part 7
+lang: fr
+english: Who is paying for dinner?
+current: Je commanderai la même chose.
+proposed: Qui paie le dîner?
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49798
+entryid: 62377
+permalink: 62377
+lesson: Phrases - Money, Part 7
+lang: fr
+english: I will pay for dinner.
+current: Je commanderai la même chose.
+proposed: Je paierai le dîner.
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49800
+entryid: 62379
+permalink: 62379
+lesson: Phrases - Money, Part 7
+lang: fr
+english: All of us will pay for dinner.
+current: Je commanderai la même chose.
+proposed: Nous paierons tous le dîner.
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49802
+entryid: 62381
+permalink: 62381
+lesson: Phrases - Money, Part 7
+lang: fr
+english: What is the cost of dinner?
+current: Je commanderai la même chose.
+proposed: Combien coûte le dîner?
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49804
+entryid: 62385
+permalink: 62385
+lesson: Phrases - Money, Part 8
+lang: fr
+english: Did you pay for the tickets?
+current: Je commanderai la même chose.
+proposed: As-tu payé les billets?
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49805
+entryid: 62386
+permalink: 62386
+lesson: Phrases - Money, Part 8
+lang: fr
+english: I will pay for the tickets.
+current: Je commanderai la même chose.
+proposed: Je paierai les billets.
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49807
+entryid: 62388
+permalink: 62388
+lesson: Phrases - Money, Part 8
+lang: fr
+english: When will the tickets be ready?
+current: Je commanderai la même chose.
+proposed: Quand les billets seront-ils prêts?
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49809
+entryid: 62390
+permalink: 62390
+lesson: Phrases - Money, Part 8
+lang: fr
+english: I have the tickets right here.
+current: Je commanderai la même chose.
+proposed: J'ai les billets ici même.
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49812
+entryid: 62394
+permalink: 62394
+lesson: Phrases - Money, Part 9
+lang: fr
+english: Sorry, we don't accept checks.
+current: Je commanderai la même chose.
+proposed: Désolé, nous n'acceptons pas les chèques.
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49813
+entryid: 62396
+permalink: 62396
+lesson: Phrases - Money, Part 9
+lang: fr
+english: Yes, we accept credit cards.
+current: Je commanderai la même chose.
+proposed: Oui, nous acceptons les cartes de crédit.
+kind: wrong-word
+reason: A batch fault: 12 rows in Money, Parts 7 to 9 hold "Je commanderai la même chose.", which is the French of "I'll order the same thing.". Translated afresh from this row's English.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 49817
+entryid: 62400
+permalink: 62400
+lesson: Phrases - Money, Part 9
+lang: fr
+english: Nobody around here will barter, though.
+current: Personne ici n'échouera cependant.
+proposed: Personne ici ne fait de troc, cependant.
+kind: wrong-word
+reason: Échouer is to fail. To barter is faire du troc.
+source: Larousse, dictionnaire français-anglais, s.v. "barter"
+status: shipped 2026-11-01
+
+id: 49835
+entryid: 62423
+permalink: 62423
+lesson: Phrases - Money, Part 12
+lang: fr
+english: How much all together?
+current: Combien tous ensemble?
+proposed: Combien en tout?
+kind: wrong-word
+reason: Tous ensemble is all of us together. How much altogether is combien en tout.
+source: Larousse, dictionnaire français-anglais, s.v. "altogether"
+status: shipped 2026-11-01
+
+id: 49897
+entryid: 62502
+permalink: 62502
+lesson: Phrases - Money, Part 20
+lang: fr
+english: How much does it cost in hours?
+current: Combien coûte en heures?
+proposed: Combien ça coûte en heures?
+kind: wrong-form
+reason: Combien coûte needs its subject.
+source: Larousse, dictionnaire français-anglais, s.v. "cost"
+status: shipped 2026-11-01
+
+id: 49925
+entryid: 62537
+permalink: 62537
+lesson: Phrases - Communication, Part 2
+lang: fr
+english: What?
+current: Quelle?
+proposed: Quoi?
+kind: wrong-word
+reason: Quelle is which, feminine. What? on its own is quoi?
+source: Larousse, dictionnaire français-anglais, s.v. "what"
+status: shipped 2026-11-01
+
+id: 49956
+entryid: 62576
+permalink: 62576
+lesson: Phrases - Communication, Part 6
+lang: fr
+english: Can you take a message for me?
+current: Pouvez-vous me faire un message?
+proposed: Pouvez-vous prendre un message pour moi?
+kind: wrong-word
+reason: Faire un message is not French. To take a message is prendre un message.
+source: Larousse, dictionnaire français-anglais, s.v. "message"
+status: shipped 2026-11-01
+
+id: 49981
+entryid: 62607
+permalink: 62607
+lesson: Phrases - Communication, Part 9
+lang: fr
+english: Sure.
+current: Sûr.
+proposed: Bien sûr.
+kind: register
+reason: Sûr alone is certain. Sure, as a yes, is bien sûr.
+source: Larousse, dictionnaire français-anglais, s.v. "sure"
+status: shipped 2026-11-01
+
+id: 49993
+entryid: 62622
+permalink: 62622
+lesson: Phrases - Communication, Part 11
+lang: fr
+english: This is my phone number.
+current: Translation error
+proposed: C'est mon numéro de téléphone.
+kind: untranslated
+reason: The translator's placeholder, "Translation error", was saved instead of a translation, across five phrase lessons.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 50034
+entryid: 62673
+permalink: 62673
+lesson: Phrases - Communication, Part 16
+lang: fr
+english: I understand.
+current: Translation error
+proposed: Je comprends.
+kind: untranslated
+reason: The translator's placeholder, "Translation error", was saved instead of a translation, across five phrase lessons.
+source: The row's own English; Larousse, dictionnaire français-anglais
+status: shipped 2026-11-01
+
+id: 50059
+entryid: 62705
+permalink: 62705
+lesson: Phrases - Communication, Part 20
+lang: fr
+english: Do you remember?
+current: Te souviens tu?
+proposed: Te souviens-tu?
+kind: orthography
+reason: The inverted question takes a hyphen.
+source: Larousse, dictionnaire français-anglais, s.v. "remember"
+status: shipped 2026-11-01
+
+id: 50154
+entryid: 62824
+permalink: 62824
+lesson: Phrases - Communication, Part 32
+lang: fr
+english: He will call back sometime tomorrow.
+current: Il rappellera demain demain.
+proposed: Il rappellera demain dans la journée.
+kind: wrong-word
+reason: Demain demain repeats tomorrow and drops sometime.
+source: Larousse, dictionnaire français-anglais, s.v. "sometime"
+status: shipped 2026-11-01
+
+id: 50218
+entryid: 62904
+permalink: 62904
+lesson: Phrases - Weather, Part 1
+lang: fr
+english: How is the weather?
+current: Comment est le temps?
+proposed: Quel temps fait-il?
+kind: wrong-word
+reason: Comment est le temps is a word-for-word guess. The weather question is quel temps fait-il.
+source: Larousse, dictionnaire français-anglais, s.v. "weather"
+status: shipped 2026-11-01
+
+id: 50248
+entryid: 62942
+permalink: 62942
+lesson: Phrases - Weather, Part 5
+lang: fr
+english: How hot is it?
+current: Quelle est la chaleur?
+proposed: Quelle température fait-il?
+kind: wrong-word
+reason: Quelle est la chaleur is what is the heat.
+source: Larousse, dictionnaire français-anglais, s.v. "hot"
+status: shipped 2026-11-01
+
+id: 50281
+entryid: 62983
+permalink: 62983
+lesson: Phrases - Weather, Part 9
+lang: fr
+english: It's going to storm.
+current: Ça va à la tempête.
+proposed: Il va y avoir une tempête.
+kind: wrong-word
+reason: Ça va à la tempête is not French.
+source: Larousse, dictionnaire français-anglais, s.v. "storm"
+status: shipped 2026-11-01
+
+id: 50289
+entryid: 62993
+permalink: 62993
+lesson: Phrases - Weather, Part 10
+lang: fr
+english: It is storming now.
+current: C'est maintenant pris en compte.
+proposed: Il y a une tempête en ce moment.
+kind: wrong-word
+reason: C'est maintenant pris en compte is it is now taken into account.
+source: Larousse, dictionnaire français-anglais, s.v. "storm"
+status: shipped 2026-11-01
+
+id: 50342
+entryid: 63059
+permalink: 63059
+lesson: Phrases - Weather, Part 17
+lang: fr
+english: Can you fly a kite in this weather?
+current: Pouvez-vous voler un cerf-volant dans cette météo?
+proposed: Pouvez-vous faire voler un cerf-volant par ce temps?
+kind: wrong-word
+reason: Voler un cerf-volant is to steal a kite. To fly one is faire voler.
+source: Larousse, dictionnaire français-anglais, s.v. "fly"
+status: shipped 2026-11-01

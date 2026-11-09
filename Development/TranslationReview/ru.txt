@@ -1,0 +1,2188 @@
+# Russian (ru) — EarthFluent translation review
+# Confirmed 9 Nov 2026 by Claude from the local models' suspects (E:\AIWorkers\earthfluent\triage\ru.triage.txt),
+# checked against prod's dump of 1 Nov 2026, with each batch fault widened to the rows the models missed.
+# 156 records. Casing follows the English. Format: see README.md.
+
+id: 911
+entryid: 1184
+permalink: 1184
+lesson: Nouns - Animals, Part 2
+lang: ru
+english: Caterpillar
+current: Caterpillar
+proposed: Гусеница
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "Гусеница"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 932
+entryid: 1210
+permalink: 1210
+lesson: Nouns - Animals, Part 7
+lang: ru
+english: Whale
+current: Whale
+proposed: Кит
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "Кит"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 950
+entryid: 1232
+permalink: 1232
+lesson: Nouns - Animals, Part 11
+lang: ru
+english: Turkey
+current: Турция
+proposed: Индейка
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "Индейка"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 961
+entryid: 1246
+permalink: 1246
+lesson: Nouns - Animals, Part 14
+lang: ru
+english: Killer Whale
+current: Киллер-кит
+proposed: Косатка
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "Косатка"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 984
+entryid: 1275
+permalink: 1275
+lesson: Nouns - Animals, Part 20
+lang: ru
+english: Seahorse
+current: Конек
+proposed: Морской конёк
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "Морской конёк"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7027
+entryid: 8861
+permalink: 8861
+lesson: Verbs - Activity With Objects, Part 5
+lang: ru
+english: act
+current: акт
+proposed: действовать
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "действовать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7034
+entryid: 8870
+permalink: 8870
+lesson: Verbs - Activity With Objects, Part 7
+lang: ru
+english: drop
+current: падение
+proposed: ронять
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "ронять"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7059
+entryid: 8901
+permalink: 8901
+lesson: Verbs - Activity With Objects, Part 13
+lang: ru
+english: swing
+current: свинг
+proposed: качать
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "качать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7060
+entryid: 8902
+permalink: 8902
+lesson: Verbs - Activity With Objects, Part 13
+lang: ru
+english: drag
+current: бремя
+proposed: тащить
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "тащить"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7061
+entryid: 8904
+permalink: 8904
+lesson: Verbs - Activity With Objects, Part 14
+lang: ru
+english: pack
+current: пак
+proposed: упаковывать
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "упаковывать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7064
+entryid: 8907
+permalink: 8907
+lesson: Verbs - Activity With Objects, Part 14
+lang: ru
+english: mount
+current: крепление
+proposed: взбираться
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "взбираться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7065
+entryid: 8909
+permalink: 8909
+lesson: Verbs - Activity With Objects, Part 15
+lang: ru
+english: split
+current: Трещина
+proposed: разделить
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "разделить"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7067
+entryid: 8911
+permalink: 8911
+lesson: Verbs - Activity With Objects, Part 15
+lang: ru
+english: balance
+current: balance
+proposed: балансировать
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "балансировать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7069
+entryid: 8914
+permalink: 8914
+lesson: Verbs - Activity With Objects, Part 16
+lang: ru
+english: twist
+current: твист
+proposed: скручивать
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "скручивать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7080
+entryid: 8927
+permalink: 8927
+lesson: Verbs - Activity With Objects, Part 18
+lang: ru
+english: rip
+current: Покойся с миром
+proposed: рвать
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "рвать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7092
+entryid: 8942
+permalink: 8942
+lesson: Verbs - General Activity, Part 3
+lang: ru
+english: going
+current: собирается
+proposed: идти
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "идти"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7094
+entryid: 8945
+permalink: 8945
+lesson: Verbs - General Activity, Part 4
+lang: ru
+english: hear
+current: заслушивать
+proposed: слышать
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "слышать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7153
+entryid: 9019
+permalink: 9019
+lesson: Verbs - General Activity, Part 19
+lang: ru
+english: display
+current: дисплей
+proposed: показывать
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "показывать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7178
+entryid: 9050
+permalink: 9050
+lesson: Verbs - Emotional Activity, Part 1
+lang: ru
+english: like
+current: как
+proposed: нравиться
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "нравиться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7183
+entryid: 9057
+permalink: 9057
+lesson: Verbs - Emotional Activity, Part 3
+lang: ru
+english: miss
+current: Мисс
+proposed: скучать
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "скучать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7184
+entryid: 9058
+permalink: 9058
+lesson: Verbs - Emotional Activity, Part 3
+lang: ru
+english: laugh
+current: смех
+proposed: смеяться
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "смеяться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7213
+entryid: 9094
+permalink: 9094
+lesson: Verbs - Physical Activity, Part 3
+lang: ru
+english: push
+current: От себя
+proposed: толкать
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "толкать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7223
+entryid: 9107
+permalink: 9107
+lesson: Verbs - Physical Activity, Part 6
+lang: ru
+english: strike
+current: забастовка
+proposed: ударять
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "ударять"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7225
+entryid: 9109
+permalink: 9109
+lesson: Verbs - Physical Activity, Part 6
+lang: ru
+english: charge
+current: заряд
+proposed: атаковать
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "атаковать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7241
+entryid: 9129
+permalink: 9129
+lesson: Verbs - Physical Activity, Part 10
+lang: ru
+english: slip
+current: слип
+proposed: поскользнуться
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "поскользнуться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7244
+entryid: 9133
+permalink: 9133
+lesson: Verbs - Physical Activity, Part 11
+lang: ru
+english: roll
+current: рулон
+proposed: катиться
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "катиться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7247
+entryid: 9137
+permalink: 9137
+lesson: Verbs - Physical Activity, Part 12
+lang: ru
+english: stretch
+current: протяжение
+proposed: растягиваться
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "растягиваться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7257
+entryid: 9149
+permalink: 9149
+lesson: Verbs - Physical Activity, Part 14
+lang: ru
+english: race
+current: раса
+proposed: соревноваться
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "соревноваться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7260
+entryid: 9153
+permalink: 9153
+lesson: Verbs - Physical Activity, Part 15
+lang: ru
+english: pause
+current: pause
+proposed: делать паузу
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "делать паузу"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7262
+entryid: 9155
+permalink: 9155
+lesson: Verbs - Physical Activity, Part 15
+lang: ru
+english: rush
+current: порыв
+proposed: спешить
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "спешить"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7267
+entryid: 9162
+permalink: 9162
+lesson: Verbs - Physical Activity, Part 17
+lang: ru
+english: slide
+current: slide
+proposed: скользить
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "скользить"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7268
+entryid: 9163
+permalink: 9163
+lesson: Verbs - Physical Activity, Part 17
+lang: ru
+english: grab
+current: грейфер
+proposed: хватать
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "хватать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7313
+entryid: 9219
+permalink: 9219
+lesson: Verbs - Mental Activity, Part 7
+lang: ru
+english: notice
+current: уведомление
+proposed: замечать
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "замечать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7324
+entryid: 9233
+permalink: 9233
+lesson: Verbs - Mental Activity, Part 10
+lang: ru
+english: concentrate
+current: концентрат
+proposed: концентрироваться
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "концентрироваться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7337
+entryid: 9249
+permalink: 9249
+lesson: Verbs - Mental Activity, Part 13
+lang: ru
+english: focus
+current: фокус
+proposed: сосредотачиваться
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "сосредотачиваться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7350
+entryid: 9265
+permalink: 9265
+lesson: Verbs - Mental Activity, Part 16
+lang: ru
+english: suspect
+current: подозреваемый
+proposed: подозревать
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "подозревать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7360
+entryid: 9278
+permalink: 9278
+lesson: Verbs - Mental Activity, Part 19
+lang: ru
+english: highlight
+current: основной момент
+proposed: выделять
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "выделять"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7412
+entryid: 9343
+permalink: 9343
+lesson: Verbs - Social Activity, Part 12
+lang: ru
+english: order
+current: order
+proposed: заказывать
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "заказывать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7427
+entryid: 9362
+permalink: 9362
+lesson: Verbs - Social Activity, Part 16
+lang: ru
+english: address
+current: address
+proposed: обращаться
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "обращаться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7471
+entryid: 9417
+permalink: 9417
+lesson: Verbs - Social Activity, Part 27
+lang: ru
+english: date
+current: Дата
+proposed: встречаться
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "встречаться"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7487
+entryid: 9437
+permalink: 9437
+lesson: Verbs - Social Activity, Part 31
+lang: ru
+english: wave
+current: волна
+proposed: махать
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "махать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7495
+entryid: 9447
+permalink: 9447
+lesson: Verbs - Social Activity, Part 33
+lang: ru
+english: guide
+current: руководство
+proposed: направлять
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "направлять"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7522
+entryid: 9480
+permalink: 9480
+lesson: Verbs - Economic Activity, Part 3
+lang: ru
+english: spend
+current: проводить
+proposed: тратить
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "тратить"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 7528
+entryid: 9488
+permalink: 9488
+lesson: Verbs - Economic Activity, Part 5
+lang: ru
+english: gain
+current: усиление
+proposed: получать
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "получать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 8094
+entryid: 10199
+permalink: 10199
+lesson: Verbs - Economic Activity, Part 12
+lang: ru
+english: beg
+current: очень прошу
+proposed: умолять
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "умолять"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 33864
+entryid: 42498
+permalink: 42498
+lesson: Nouns - Concepts, Part 11
+lang: ru
+english: detail
+current: подробно
+proposed: деталь
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "деталь"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34164
+entryid: 42877
+permalink: 42877
+lesson: Nouns - Concepts, Part 54
+lang: ru
+english: determination
+current: определение
+proposed: решимость
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "решимость"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34207
+entryid: 42930
+permalink: 42930
+lesson: Nouns - Concepts, Part 59
+lang: ru
+english: horror
+current: ужастик
+proposed: ужас
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "ужас"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34264
+entryid: 43002
+permalink: 43002
+lesson: Nouns - Concepts, Part 63
+lang: ru
+english: attraction
+current: Привлечение
+proposed: притяжение
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "притяжение"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34296
+entryid: 43042
+permalink: 43042
+lesson: Nouns - Concepts, Part 67
+lang: ru
+english: wonder
+current: задаваться вопросом
+proposed: чудо
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "чудо"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34348
+entryid: 43106
+permalink: 43106
+lesson: Nouns - Concepts, Part 73
+lang: ru
+english: insight
+current: в поле зрения
+proposed: прозрение
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "прозрение"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34357
+entryid: 43118
+permalink: 43118
+lesson: Nouns - Concepts, Part 74
+lang: ru
+english: bulk
+current: насыпной
+proposed: масса
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "масса"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34530
+entryid: 43334
+permalink: 43334
+lesson: Nouns - Measurements, Part 2
+lang: ru
+english: fall
+current: падать
+proposed: осень
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "осень"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34659
+entryid: 43496
+permalink: 43496
+lesson: Nouns - Measurements, Part 14
+lang: ru
+english: degree
+current: степень
+proposed: градус
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "градус"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34684
+entryid: 43527
+permalink: 43527
+lesson: Nouns - Measurements, Part 17
+lang: ru
+english: whole
+current: все
+proposed: целое
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "целое"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 34881
+entryid: 43774
+permalink: 43774
+lesson: Nouns - People, Part 7
+lang: ru
+english: foot
+current: фут
+proposed: ступня
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "ступня"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35107
+entryid: 44056
+permalink: 44056
+lesson: Nouns - People, Part 34
+lang: ru
+english: general
+current: Генеральная
+proposed: генерал
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "генерал"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35428
+entryid: 44458
+permalink: 44458
+lesson: Nouns - People, Part 73
+lang: ru
+english: hip
+current: тазобедренный
+proposed: бедро
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "бедро"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35507
+entryid: 44557
+permalink: 44557
+lesson: Nouns - Society, Part 9
+lang: ru
+english: bank
+current: банка
+proposed: банк
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "банк"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35607
+entryid: 44682
+permalink: 44682
+lesson: Nouns - Society, Part 21
+lang: ru
+english: post
+current: после
+proposed: пост
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "пост"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35636
+entryid: 44719
+permalink: 44719
+lesson: Nouns - Society, Part 25
+lang: ru
+english: deal
+current: по рукам
+proposed: сделка
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "сделка"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35683
+entryid: 44777
+permalink: 44777
+lesson: Nouns - Society, Part 30
+lang: ru
+english: past
+current: мимо
+proposed: прошлое
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "прошлое"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35724
+entryid: 44828
+permalink: 44828
+lesson: Nouns - Society, Part 35
+lang: ru
+english: battle
+current: боевой
+proposed: битва
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "битва"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35797
+entryid: 44919
+permalink: 44919
+lesson: Nouns - Society, Part 44
+lang: ru
+english: assembly
+current: сборка
+proposed: собрание
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "собрание"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35875
+entryid: 45018
+permalink: 45018
+lesson: Nouns - Society, Part 54
+lang: ru
+english: establishment
+current: создание
+proposed: учреждение
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "учреждение"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 35920
+entryid: 45073
+permalink: 45073
+lesson: Nouns - Society, Part 59
+lang: ru
+english: resolution
+current: разрешающая способность
+proposed: резолюция
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "резолюция"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 36215
+entryid: 45443
+permalink: 45443
+lesson: Nouns - Society, Part 95
+lang: ru
+english: fiction
+current: фантастика
+proposed: художественная литература
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "художественная литература"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 36633
+entryid: 45970
+permalink: 45970
+lesson: Nouns - Ideas, Part 21
+lang: ru
+english: being
+current: являющийся
+proposed: существо
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "существо"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 36716
+entryid: 46074
+permalink: 46074
+lesson: Nouns - Places, Part 1
+lang: ru
+english: home
+current: Главная
+proposed: дом
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "дом"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 36963
+entryid: 46384
+permalink: 46384
+lesson: Nouns - Places, Part 31
+lang: ru
+english: nursery
+current: питомник
+proposed: детский сад
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "детский сад"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 36996
+entryid: 46425
+permalink: 46425
+lesson: Nouns - Places, Part 35
+lang: ru
+english: dock
+current: док
+proposed: причал
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "причал"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37027
+entryid: 46464
+permalink: 46464
+lesson: Nouns - Objects, Part 3
+lang: ru
+english: table
+current: Таблица
+proposed: стол
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "стол"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37041
+entryid: 46482
+permalink: 46482
+lesson: Nouns - Objects, Part 5
+lang: ru
+english: light
+current: легкий
+proposed: свет
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "свет"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37156
+entryid: 46626
+permalink: 46626
+lesson: Nouns - Objects, Part 19
+lang: ru
+english: bag
+current: мешок
+proposed: сумка
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "сумка"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37311
+entryid: 46820
+permalink: 46820
+lesson: Nouns - Objects, Part 38
+lang: ru
+english: cross
+current: пересекать
+proposed: крест
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "крест"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37318
+entryid: 46827
+permalink: 46827
+lesson: Nouns - Objects, Part 38
+lang: ru
+english: column
+current: колонка
+proposed: колонна
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "колонна"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37355
+entryid: 46874
+permalink: 46874
+lesson: Nouns - Objects, Part 43
+lang: ru
+english: bomb
+current: бомбить
+proposed: бомба
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "бомба"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37386
+entryid: 46915
+permalink: 46915
+lesson: Nouns - Objects, Part 45
+lang: ru
+english: steel
+current: стали
+proposed: сталь
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "сталь"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37449
+entryid: 46994
+permalink: 46994
+lesson: Nouns - Objects, Part 53
+lang: ru
+english: pack
+current: пак
+proposed: упаковка
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "упаковка"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37491
+entryid: 47046
+permalink: 47046
+lesson: Nouns - Objects, Part 58
+lang: ru
+english: steam
+current: Стим
+proposed: пар
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "пар"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37505
+entryid: 47064
+permalink: 47064
+lesson: Nouns - Objects, Part 60
+lang: ru
+english: vegetable
+current: овощной
+proposed: овощ
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "овощ"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37544
+entryid: 47113
+permalink: 47113
+lesson: Nouns - Objects, Part 64
+lang: ru
+english: stick
+current: придерживаться
+proposed: палка
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "палка"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37645
+entryid: 47241
+permalink: 47241
+lesson: Nouns - Objects, Part 77
+lang: ru
+english: uniform
+current: единообразный
+proposed: униформа
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "униформа"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37828
+entryid: 47472
+permalink: 47472
+lesson: Adjectives - Quality, Part 7
+lang: ru
+english: dear
+current: Уважаемые
+proposed: дорогой
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "дорогой"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37839
+entryid: 47485
+permalink: 47485
+lesson: Adjectives - Quality, Part 8
+lang: ru
+english: remote
+current: дистанционный пульт
+proposed: удалённый
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "удалённый"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37841
+entryid: 47487
+permalink: 47487
+lesson: Adjectives - Quality, Part 8
+lang: ru
+english: plain
+current: гладкий
+proposed: простой
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "простой"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37843
+entryid: 47491
+permalink: 47491
+lesson: Adjectives - Quality, Part 9
+lang: ru
+english: tight
+current: в обтяжку
+proposed: узкий
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "узкий"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37880
+entryid: 47537
+permalink: 47537
+lesson: Adjectives - Quality, Part 13
+lang: ru
+english: sandy
+current: Сэнди
+proposed: песчаный
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "песчаный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37882
+entryid: 47541
+permalink: 47541
+lesson: Adjectives - Quality, Part 14
+lang: ru
+english: overnight
+current: с ночевкой
+proposed: ночной
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "ночной"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37917
+entryid: 47584
+permalink: 47584
+lesson: Adjectives - Quality, Part 18
+lang: ru
+english: shaky
+current: непрочный
+proposed: шаткий
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "шаткий"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37929
+entryid: 47599
+permalink: 47599
+lesson: Adjectives - Quality, Part 19
+lang: ru
+english: void
+current: недействительным
+proposed: пустой
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "пустой"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 37967
+entryid: 47646
+permalink: 47646
+lesson: Adjectives - Quality, Part 24
+lang: ru
+english: roast
+current: обжиг
+proposed: жареный
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "жареный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38022
+entryid: 47716
+permalink: 47716
+lesson: Adjectives - Quality, Part 31
+lang: ru
+english: frilly
+current: разукрашенный
+proposed: с оборками
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "с оборками"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38037
+entryid: 47735
+permalink: 47735
+lesson: Adjectives - Quality, Part 33
+lang: ru
+english: boney
+current: Boney
+proposed: костлявый
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "костлявый"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38048
+entryid: 47749
+permalink: 47749
+lesson: Adjectives - Social, Part 1
+lang: ru
+english: right
+current: правильно
+proposed: правильный
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "правильный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38050
+entryid: 47751
+permalink: 47751
+lesson: Adjectives - Social, Part 1
+lang: ru
+english: wrong
+current: неправильно
+proposed: неправильный
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "неправильный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38062
+entryid: 47767
+permalink: 47767
+lesson: Adjectives - Social, Part 2
+lang: ru
+english: early
+current: свободно
+proposed: ранний
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "ранний"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38072
+entryid: 47779
+permalink: 47779
+lesson: Adjectives - Social, Part 3
+lang: ru
+english: poor
+current: бедные
+proposed: бедный
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "бедный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38084
+entryid: 47793
+permalink: 47793
+lesson: Adjectives - Social, Part 4
+lang: ru
+english: safe
+current: безопасно
+proposed: безопасный
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "безопасный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38166
+entryid: 47897
+permalink: 47897
+lesson: Adjectives - Social, Part 14
+lang: ru
+english: bold
+current: жирный
+proposed: смелый
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "смелый"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38195
+entryid: 47934
+permalink: 47934
+lesson: Adjectives - Social, Part 18
+lang: ru
+english: fancy
+current: маскарадный
+proposed: шикарный
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "шикарный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38217
+entryid: 47961
+permalink: 47961
+lesson: Adjectives - Social, Part 20
+lang: ru
+english: clumsy
+current: топорный
+proposed: неуклюжий
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "неуклюжий"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38250
+entryid: 48003
+permalink: 48003
+lesson: Adjectives - Social, Part 25
+lang: ru
+english: lame
+current: ламе
+proposed: хромой
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "хромой"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38267
+entryid: 48025
+permalink: 48025
+lesson: Adjectives - Social, Part 27
+lang: ru
+english: cross
+current: пересекать
+proposed: сердитый
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "сердитый"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38288
+entryid: 48050
+permalink: 48050
+lesson: Adjectives - Social, Part 29
+lang: ru
+english: stealthy
+current: скрытый
+proposed: скрытный
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "скрытный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38350
+entryid: 48128
+permalink: 48128
+lesson: Adjectives - Feeling, Part 4
+lang: ru
+english: warm
+current: тепло
+proposed: тёплый
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "тёплый"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38363
+entryid: 48144
+permalink: 48144
+lesson: Adjectives - Feeling, Part 5
+lang: ru
+english: well
+current: Что ж
+proposed: здоровый
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "здоровый"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38374
+entryid: 48159
+permalink: 48159
+lesson: Adjectives - Feeling, Part 7
+lang: ru
+english: sweet
+current: милая
+proposed: милый
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "милый"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38402
+entryid: 48193
+permalink: 48193
+lesson: Adjectives - Feeling, Part 10
+lang: ru
+english: boring
+current: расточка
+proposed: скучный
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "скучный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38429
+entryid: 48228
+permalink: 48228
+lesson: Adjectives - Feeling, Part 13
+lang: ru
+english: foul
+current: фол
+proposed: мерзкий
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "мерзкий"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38444
+entryid: 48247
+permalink: 48247
+lesson: Adjectives - Feeling, Part 15
+lang: ru
+english: wry
+current: перекошенный
+proposed: ироничный
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "ироничный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38481
+entryid: 48292
+permalink: 48292
+lesson: Adjectives - Feeling, Part 19
+lang: ru
+english: soggy
+current: нудный
+proposed: размокший
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "размокший"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38489
+entryid: 48302
+permalink: 48302
+lesson: Adjectives - Feeling, Part 20
+lang: ru
+english: slimey
+current: Slimey
+proposed: склизкий
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "склизкий"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38494
+entryid: 48309
+permalink: 48309
+lesson: Adjectives - Feeling, Part 21
+lang: ru
+english: stuffy
+current: заложенный
+proposed: душный
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "душный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38510
+entryid: 48329
+permalink: 48329
+lesson: Adjectives - Feeling, Part 23
+lang: ru
+english: mellow
+current: сочный
+proposed: мягкий
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "мягкий"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38528
+entryid: 48352
+permalink: 48352
+lesson: Adjectives - Feeling, Part 25
+lang: ru
+english: fishy
+current: тусклый
+proposed: подозрительный
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "подозрительный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38535
+entryid: 48360
+permalink: 48360
+lesson: Adjectives - Feeling, Part 26
+lang: ru
+english: bubbly
+current: пузырчатый
+proposed: жизнерадостный
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "жизнерадостный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38536
+entryid: 48362
+permalink: 48362
+lesson: Adjectives - Feeling, Part 26
+lang: ru
+english: zany
+current: недотепа
+proposed: чудаковатый
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "чудаковатый"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38543
+entryid: 48371
+permalink: 48371
+lesson: Adjectives - Appearance, Part 1
+lang: ru
+english: clear
+current: Чисто
+proposed: чистый
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "чистый"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38590
+entryid: 48430
+permalink: 48430
+lesson: Adjectives - Appearance, Part 11
+lang: ru
+english: stout
+current: стаут
+proposed: плотный
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "плотный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 38602
+entryid: 48445
+permalink: 48445
+lesson: Adjectives - Appearance, Part 14
+lang: ru
+english: rosey
+current: Рози
+proposed: румяный
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "румяный"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39609
+entryid: 49536
+permalink: 49536
+lesson: Verbs - Economic Activity, Part 5
+lang: ru
+english: employ
+current: использовать
+proposed: нанимать
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "нанимать"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39674
+entryid: 49616
+permalink: 49616
+lesson: Nouns - People, Part 41
+lang: ru
+english: sleep
+current: спать
+proposed: сон
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "сон"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 39686
+entryid: 49631
+permalink: 49631
+lesson: Nouns - People, Part 44
+lang: ru
+english: relative
+current: относительный
+proposed: родственник
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "родственник"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45290
+entryid: 56649
+permalink: 56649
+lesson: Entertainment - Music, Part 3
+lang: ru
+english: folk
+current: люди
+proposed: фолк
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "фолк"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45306
+entryid: 56670
+permalink: 56670
+lesson: Entertainment - Music, Part 5
+lang: ru
+english: dubstep
+current: ДАП СТЕП
+proposed: дабстеп
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Wiktionary (Russian), s.v. "дабстеп"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45313
+entryid: 56678
+permalink: 56678
+lesson: Entertainment - Music, Part 6
+lang: ru
+english: chiptune
+current: чиптюна
+proposed: чиптюн
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "чиптюн"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45380
+entryid: 56762
+permalink: 56762
+lesson: Entertainment - Books, Part 3
+lang: ru
+english: non-fiction novel
+current: романтический роман
+proposed: нон-фикшн
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "нон-фикшн"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45401
+entryid: 56789
+permalink: 56789
+lesson: Entertainment - Film, Part 3
+lang: ru
+english: romantic comedy film
+current: романтический фильм о комедии
+proposed: романтическая комедия
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Wiktionary (Russian), s.v. "романтическая комедия"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45409
+entryid: 56799
+permalink: 56799
+lesson: Entertainment - Film, Part 4
+lang: ru
+english: scifi
+current: SciFi
+proposed: научная фантастика
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "научная фантастика"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45415
+entryid: 56807
+permalink: 56807
+lesson: Entertainment - Film, Part 5
+lang: ru
+english: dance dance revolution
+current: танцевальная революция
+proposed: Dance Dance Revolution
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "Dance Dance Revolution"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45421
+entryid: 56813
+permalink: 56813
+lesson: Entertainment - Film, Part 5
+lang: ru
+english: parachuting
+current: парашютный
+proposed: парашютный спорт
+kind: wrong-class
+reason: Right root, wrong part of speech for this lesson.
+source: Wiktionary (Russian), s.v. "парашютный спорт"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45467
+entryid: 56871
+permalink: 56871
+lesson: Entertainment - Sports, Part 6
+lang: ru
+english: canoeing
+current: гребля
+proposed: гребля на каноэ
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "гребля на каноэ"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45469
+entryid: 56873
+permalink: 56873
+lesson: Entertainment - Sports, Part 6
+lang: ru
+english: unicycling
+current: Unicycling
+proposed: езда на моноцикле
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "езда на моноцикле"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45490
+entryid: 56900
+permalink: 56900
+lesson: Entertainment - Gaming, Part 2
+lang: ru
+english: turned-based strategy game
+current: превращенная стратегия
+proposed: пошаговая стратегия
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "пошаговая стратегия"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45518
+entryid: 56935
+permalink: 56935
+lesson: Culture - Calendar, Part 2
+lang: ru
+english: August
+current: августейший
+proposed: Август
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "Август"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45551
+entryid: 56976
+permalink: 56976
+lesson: Culture - Religion, Part 1
+lang: ru
+english: Vesākha
+current: Vesākha
+proposed: Весак
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "Весак"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45577
+entryid: 57009
+permalink: 57009
+lesson: Culture - Religion, Part 5
+lang: ru
+english: Christian
+current: Кристиан
+proposed: Христианин
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "Христианин"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45588
+entryid: 57023
+permalink: 57023
+lesson: Culture - Religion, Part 6
+lang: ru
+english: Animist
+current: анимиста
+proposed: Анимист
+kind: wrong-form
+reason: Right word, wrong grammatical form: the list wants the dictionary form.
+source: Wiktionary (Russian), s.v. "Анимист"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45590
+entryid: 57025
+permalink: 57025
+lesson: Culture - Religion, Part 6
+lang: ru
+english: Spiritist
+current: спирит
+proposed: Спиритист
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "Спиритист"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45597
+entryid: 57034
+permalink: 57034
+lesson: Culture - Religion, Part 7
+lang: ru
+english: Jainist
+current: Jainist
+proposed: Джайн
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "Джайн"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45695
+entryid: 57158
+permalink: 57158
+lesson: Culture - Ethnicities, Part 4
+lang: ru
+english: Philippine
+current: фант
+proposed: Филиппинский
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "Филиппинский"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45712
+entryid: 57179
+permalink: 57179
+lesson: Culture - Ethnicities, Part 6
+lang: ru
+english: british
+current: Британская
+proposed: британский
+kind: orthography
+reason: Spelling, spacing, hyphenation or casing.
+source: Wiktionary (Russian), s.v. "британский"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45888
+entryid: 57401
+permalink: 57401
+lesson: Culture - Politics, Part 7
+lang: ru
+english: free trade
+current: бесплатный обмен
+proposed: свободная торговля
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "свободная торговля"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45910
+entryid: 57427
+permalink: 57427
+lesson: Culture - Politics, Part 9
+lang: ru
+english: non-conformity
+current: несоответствие
+proposed: нонконформизм
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "нонконформизм"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45978
+entryid: 57513
+permalink: 57513
+lesson: Culture - Politics, Part 18
+lang: ru
+english: grass roots
+current: травы
+proposed: низы
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "низы"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 45987
+entryid: 57524
+permalink: 57524
+lesson: Culture - Politics, Part 19
+lang: ru
+english: incumbent
+current: возложенный
+proposed: действующий
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "действующий"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 46003
+entryid: 57544
+permalink: 57544
+lesson: Culture - Politics, Part 21
+lang: ru
+english: muckraker
+current: выгребатель мусора
+proposed: журналист-расследователь
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "журналист-расследователь"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 46017
+entryid: 57563
+permalink: 57563
+lesson: Culture - Politics, Part 23
+lang: ru
+english: lumpenproletariat
+current: люмпен
+proposed: люмпенпролетариат
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "люмпенпролетариат"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 46138
+entryid: 57715
+permalink: 57715
+lesson: Culture - Politics, Part 41
+lang: ru
+english: rank and file
+current: ранг и файл
+proposed: рядовые члены
+kind: untranslated
+reason: The English was passed through, or a placeholder left where the translation should be.
+source: Wiktionary (Russian), s.v. "рядовые члены"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 46275
+entryid: 57886
+permalink: 57886
+lesson: Adjectives - Numbers, Part 17
+lang: ru
+english: two thousand, ten
+current: 2010
+proposed: две тысячи десять
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "две тысячи десять"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47700
+entryid: 59685
+permalink: 59685
+lesson: Culture - Food and Drink, Part 8
+lang: ru
+english: bread roll
+current: рулет
+proposed: булочка
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "булочка"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47713
+entryid: 59701
+permalink: 59701
+lesson: Culture - Food and Drink, Part 11
+lang: ru
+english: ramen soup
+current: раменский суп
+proposed: рамен
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "рамен"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47724
+entryid: 59715
+permalink: 59715
+lesson: Culture - Food and Drink, Part 14
+lang: ru
+english: orange
+current: оранжевый
+proposed: апельсин
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "апельсин"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47731
+entryid: 59724
+permalink: 59724
+lesson: Culture - Food and Drink, Part 16
+lang: ru
+english: soda
+current: сода
+proposed: газировка
+kind: wrong-sense
+reason: Right area, wrong sense of the English for this lesson.
+source: Wiktionary (Russian), s.v. "газировка"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
+
+id: 47746
+entryid: 59742
+permalink: 59742
+lesson: Culture - Food and Drink, Part 19
+lang: ru
+english: liquor
+current: щелок
+proposed: спиртное
+kind: wrong-word
+reason: A different word entirely, for what the lesson teaches.
+source: Wiktionary (Russian), s.v. "спиртное"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: shipped 2026-11-09
