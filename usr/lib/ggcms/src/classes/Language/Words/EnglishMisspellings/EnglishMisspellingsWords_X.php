@@ -47,6 +47,10 @@
 				],
 				'xanthophyll'=>[
 					'xenthophyll',
+					'xanthophylll',
+				],
+				'xanthophylls'=>[
+					'xanthophyllls',
 				],
 				'xantusiid'=>[
 					'xantusid',
@@ -72,6 +76,10 @@
 				],
 				'xenotropic'=>[
 					'xenotrophic',
+				],
+				'xerographically'=>[
+					'xerographicallly',
+					'xerographicaly',
 				],
 				'xerophilous'=>[
 					'xerophyllous',

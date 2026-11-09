@@ -44,6 +44,21 @@
 				'Boralean'=>[
 					'boraelan',
 				],
+				'baaed'=>[
+					'baaaed',
+				],
+				'baaing'=>[
+					'baaaing',
+				],
+				'baal'=>[
+					'baaal',
+				],
+				'baals'=>[
+					'baaals',
+				],
+				'baas'=>[
+					'baaas',
+				],
 				'babassu'=>[
 					'babasssu',
 					'babasu',
@@ -60,55 +75,95 @@
 				],
 				'babbitt'=>[
 					'babitt',
+					'babbbitt',
+					'babbittt',
 				],
 				'babbitted'=>[
 					'babitted',
+					'babbbitted',
+					'babbittted',
 				],
 				'babbitting'=>[
 					'babitting',
+					'babbbitting',
+					'babbittting',
 				],
 				'babbittries'=>[
 					'babittries',
 				],
 				'babbittry'=>[
 					'babittry',
+					'babbbittry',
+					'babbitttry',
 				],
 				'babbitts'=>[
 					'babitts',
+					'babbbitts',
+					'babbittts',
 				],
 				'babble'=>[
 					'bable',
+					'babbble',
 				],
 				'babbled'=>[
 					'babled',
+					'babbbled',
 				],
 				'babblement'=>[
 					'bablement',
+					'babbblement',
 				],
 				'babblements'=>[
 					'bablements',
 				],
 				'babbler'=>[
 					'babler',
+					'babbbler',
 				],
 				'babblers'=>[
 					'bablers',
+					'babbblers',
 				],
 				'babbles'=>[
 					'bables',
+					'babbbles',
 				],
 				'babbling'=>[
 					'babling',
+					'babbbling',
 				],
 				'babblings'=>[
 					'bablings',
+					'babbblings',
 				],
 				'babies'=>[
 					'babys',
 				],
+				'baboon'=>[
+					'babon',
+					'babooon',
+				],
+				'baboons'=>[
+					'babons',
+					'babooons',
+				],
 				'baby'=>[
 					'baby baby',
 					'baby baby baby',
+				],
+				'babyhood'=>[
+					'babyhod',
+					'babyhoood',
+				],
+				'babysitter'=>[
+					'babysittter',
+				],
+				'babysitters'=>[
+					'babysiters',
+					'babysittters',
+				],
+				'babysitting'=>[
+					'babysittting',
 				],
 				'bacca'=>[
 					'baca',
@@ -119,10 +174,12 @@
 				'baccalaureate'=>[
 					'bacalaureate',
 					'baccalaurete',
+					'bacccalaureate',
 				],
 				'baccalaureates'=>[
 					'bacalaureates',
 					'baccalauretes',
+					'bacccalaureates',
 				],
 				'baccara'=>[
 					'bacara',
@@ -132,34 +189,46 @@
 				],
 				'baccarat'=>[
 					'bacarat',
+					'bacccarat',
 				],
 				'baccarats'=>[
 					'bacarats',
 				],
 				'baccate'=>[
 					'bacate',
+					'bacccate',
 				],
 				'baccated'=>[
 					'bacated',
 				],
 				'bacchanal'=>[
 					'bachanal',
+					'baccchanal',
 				],
 				'bacchanalia'=>[
 					'bachanalia',
+					'baccchanalia',
 				],
 				'bacchanalian'=>[
 					'bacchanalan',
 					'bachanalian',
+					'baccchanalian',
 				],
 				'bacchanalians'=>[
 					'bachanalians',
+					'baccchanalians',
+				],
+				'bacchanalias'=>[
+					'baccchanalias',
+					'bachanalias',
 				],
 				'bacchanals'=>[
 					'bachanals',
+					'baccchanals',
 				],
 				'bacchant'=>[
 					'bachant',
+					'baccchant',
 				],
 				'bacchante'=>[
 					'bachante',
@@ -169,24 +238,59 @@
 				],
 				'bacchants'=>[
 					'bachants',
+					'baccchants',
 				],
 				'bacchic'=>[
 					'bachic',
+					'baccchic',
 				],
 				'bacchii'=>[
 					'bachii',
 				],
 				'bacchius'=>[
 					'bachius',
+					'baccchius',
+				],
+				'baccies'=>[
+					'bacccies',
+					'bacies',
+				],
+				'bacciferous'=>[
+					'baccciferous',
+					'baciferous',
 				],
 				'bacciform'=>[
 					'baciform',
+					'baccciform',
+				],
+				'baccivorous'=>[
+					'bacccivorous',
+					'bacivorous',
+				],
+				'baccy'=>[
+					'bacccy',
+				],
+				'bachelorette'=>[
+					'bachelorete',
+					'bachelorettte',
+				],
+				'bachelorhood'=>[
+					'bachelorhod',
+					'bachelorhoood',
 				],
 				'bacillar'=>[
 					'baciller',
+					'bacilar',
+					'bacilllar',
 				],
 				'bacillary'=>[
 					'bacillery',
+					'bacilary',
+					'bacilllary',
+				],
+				'bacilli'=>[
+					'bacili',
+					'bacillli',
 				],
 				'bacilloscopic'=>[
 					'baciloscopic',
@@ -199,12 +303,17 @@
 				],
 				'bacillus'=>[
 					'bacilus',
+					'bacilllus',
 				],
 				'back'=>[
 					'back back',
 					'back back back',
 					'bakc',
 					'bcak',
+				],
+				'backbitten'=>[
+					'backbiten',
+					'backbittten',
 				],
 				'backbreaking'=>[
 					'backbreking',
@@ -225,6 +334,10 @@
 					'backcrosing',
 					'backcrosssing',
 				],
+				'backdoor'=>[
+					'backdooor',
+					'backdor',
+				],
 				'backdropped'=>[
 					'backdroped',
 				],
@@ -238,6 +351,10 @@
 					'backfeild',
 					'backfild',
 				],
+				'backfill'=>[
+					'backfil',
+					'backfilll',
+				],
 				'backflipped'=>[
 					'backfliped',
 				],
@@ -246,6 +363,8 @@
 				],
 				'backgammon'=>[
 					'backgamnon',
+					'backgammmon',
+					'backgamon',
 				],
 				'background'=>[
 					'backround',
@@ -269,9 +388,11 @@
 				],
 				'backlogged'=>[
 					'backloged',
+					'backloggged',
 				],
 				'backlogging'=>[
 					'backloging',
+					'backloggging',
 				],
 				'backpacker'=>[
 					'bagpacker',
@@ -283,6 +404,20 @@
 			#	'backpedalling'=>[
 			#		'backpedaling',
 			#	],
+				'backpedalled'=>[
+					'backpedallled',
+				],
+				'backpedalling'=>[
+					'backpedallling',
+				],
+				'backroom'=>[
+					'backrom',
+					'backrooom',
+				],
+				'backrooms'=>[
+					'backroms',
+					'backroooms',
+				],
 				'backscatter'=>[
 					'backcatter',
 					'backcsatter',
@@ -303,42 +438,83 @@
 					'backcsatterings',
 					'backsatterings',
 				],
+				'backsheesh'=>[
+					'backsheeesh',
+					'backshesh',
+				],
+				'backsheeshes'=>[
+					'backsheeeshes',
+					'backsheshes',
+				],
 				'backslapped'=>[
 					'backslaped',
+					'backslappped',
 				],
 				'backslapper'=>[
 					'backslaper',
+					'backslappper',
 				],
 				'backslappers'=>[
 					'backslapers',
+					'backslapppers',
 				],
 				'backslapping'=>[
 					'backslaping',
+					'backslappping',
+				],
+				'backslidden'=>[
+					'backsliddden',
+					'backsliden',
 				],
 				'backstabbed'=>[
 					'backstabed',
 				],
 				'backstabber'=>[
 					'backstaber',
+					'backstabbber',
 				],
 				'backstabbers'=>[
 					'backstabers',
+					'backstabbbers',
 				],
 				'backstabbing'=>[
 					'backstabing',
+					'backstabbbing',
 				],
 				'backstabbings'=>[
 					'backstabings',
 				],
 				'backstopped'=>[
 					'backstoped',
+					'backstoppped',
 				],
 				'backstopping'=>[
 					'backstoping',
+					'backstoppping',
+				],
+				'backstreet'=>[
+					'backstreeet',
+					'backstret',
+				],
+				'backstreets'=>[
+					'backstreeets',
+					'backstrets',
 				],
 				'backwardness'=>[
 					'backwardnes',
 					'backwardnesss',
+				],
+				'backwoods'=>[
+					'backwods',
+					'backwooods',
+				],
+				'backwoodsman'=>[
+					'backwodsman',
+					'backwooodsman',
+				],
+				'backwoodsmen'=>[
+					'backwodsmen',
+					'backwooodsmen',
 				],
 				'backwoodsy'=>[
 					'backwoodcy',
@@ -346,11 +522,18 @@
 				'baclofen'=>[
 					'baclophen',
 				],
+				'bacterially'=>[
+					'bacteriallly',
+				],
 				'bactericidal'=>[
 					'antibactericidal',
 				],
 				'bactericidally'=>[
 					'bactericidaly',
+				],
+				'bacteriologically'=>[
+					'bacteriologicallly',
+					'bacteriologicaly',
 				],
 				'bacteriologies'=>[
 					'bacteriologeis',
@@ -387,9 +570,26 @@
 				'badass'=>[
 					'badas',
 				],
+				'badder'=>[
+					'baddder',
+				],
+				'badderlocks'=>[
+					'baddderlocks',
+					'baderlocks',
+				],
+				'baddest'=>[
+					'badddest',
+				],
 				'baddie'=>[
 					'baddei',
 					'baddi',
+					'badddie',
+				],
+				'baddies'=>[
+					'badddies',
+				],
+				'baddy'=>[
+					'badddy',
 				],
 				'badinage'=>[
 					'badinige',
@@ -408,9 +608,35 @@
 					'badnes',
 					'badnesss',
 				],
+				'baffle'=>[
+					'bafffle',
+					'bafle',
+				],
 				'baffled'=>[
 					'baffeld',
 					'baffeled',
+					'bafffled',
+					'bafled',
+				],
+				'bafflement'=>[
+					'baffflement',
+					'baflement',
+				],
+				'baffler'=>[
+					'bafffler',
+					'bafler',
+				],
+				'bafflers'=>[
+					'baffflers',
+					'baflers',
+				],
+				'baffles'=>[
+					'bafffles',
+					'bafles',
+				],
+				'baffling'=>[
+					'bafffling',
+					'bafling',
 				],
 				'bagasse'=>[
 					'bagase',
@@ -420,27 +646,82 @@
 					'bagases',
 					'bagassses',
 				],
+				'bagatelle'=>[
+					'bagatele',
+					'bagatellle',
+				],
+				'bagatelles'=>[
+					'bagateles',
+					'bagatellles',
+				],
 				'baggage'=>[
 					'bagage',
+					'bagggage',
+				],
+				'bagged'=>[
+					'baged',
+					'baggged',
+				],
+				'bagger'=>[
+					'bager',
+					'baggger',
+				],
+				'baggers'=>[
+					'bagers',
+					'bagggers',
+				],
+				'baggie'=>[
+					'bagggie',
+				],
+				'baggier'=>[
+					'bagggier',
+				],
+				'baggies'=>[
+					'bagggies',
+				],
+				'baggiest'=>[
+					'bagggiest',
+				],
+				'baggily'=>[
+					'bagggily',
 				],
 				'bagginess'=>[
 					'baginess',
 					'baggines',
 					'bagginesss',
+					'baggginess',
 				],
 				'bagginesses'=>[
 					'baginesses',
 				],
 				'bagging'=>[
 					'baging',
+					'baggging',
+				],
+				'baggings'=>[
+					'bagggings',
+					'bagings',
 				],
 				'baggy'=>[
 					'bagy',
+					'bagggy',
+				],
+				'baggywrinkle'=>[
+					'bagggywrinkle',
+					'bagywrinkle',
 				],
 				'baghdad'=>[
 					# bagdad: an accepted spelling, not a slip (AmericanBritishWords_B: baghdad)
 				#	'bagdad',
 					'baghad',
+				],
+				'baguette'=>[
+					'baguete',
+					'baguettte',
+				],
+				'baguettes'=>[
+					'baguetes',
+					'baguetttes',
 				],
 				'bahadur'=>[
 					'baadur',
@@ -466,15 +747,33 @@
 				'bailable'=>[
 					'bailible',
 				],
+				'bailee'=>[
+					'baileee',
+				],
+				'bailees'=>[
+					'baileees',
+				],
 				'bailie'=>[
 					'bailei',
 					'baili',
+				],
+				'bailiff'=>[
+					'bailif',
+					'bailifff',
+				],
+				'bailiffs'=>[
+					'bailifffs',
+					'bailifs',
 				],
 				'bailout'=>[
 					'baleout',
 				],
 				'bakeapple'=>[
 					'bakeaple',
+				],
+				'baksheesh'=>[
+					'baksheeesh',
+					'bakshesh',
 				],
 				'balaenopterid'=>[
 					'balanaeopterid',
@@ -490,19 +789,26 @@
 				],
 				'balbriggan'=>[
 					'balbrigan',
+					'balbrigggan',
 				],
 				'balbriggans'=>[
 					'balbrigans',
+					'balbrigggans',
 				],
 				'baldness'=>[
 					'baldnes',
 					'baldnesss',
+				],
+				'baleen'=>[
+					'baleeen',
+					'balen',
 				],
 				'balefully'=>[
 					'balefulally',
 					'balefulaly',
 					'balefulely',
 					'balefullly',
+					'balefuly',
 				],
 				'balefulness'=>[
 					'balefulnes',
@@ -515,41 +821,186 @@
 					'bal',
 					'ball ball',
 					'ball ball ball',
+					'balll',
 				],
 				'ballad'=>[
 					'balad',
+					'balllad',
+				],
+				'ballade'=>[
+					'balade',
+					'balllade',
+				],
+				'balladeer'=>[
+					'baladeer',
+					'balladeeer',
+					'ballladeer',
+				],
+				'balladeers'=>[
+					'baladeers',
+					'balladeeers',
+					'ballladeers',
+				],
+				'ballades'=>[
+					'balades',
+					'balllades',
+				],
+				'balladist'=>[
+					'baladist',
+					'ballladist',
+				],
+				'balladmonger'=>[
+					'baladmonger',
+					'ballladmonger',
+				],
+				'balladry'=>[
+					'baladry',
+					'ballladry',
+				],
+				'ballads'=>[
+					'balads',
+					'balllads',
+				],
+				'ballance'=>[
+					'balllance',
 				],
 				'ballast'=>[
 					'balast',
 					'ballest',
+					'balllast',
+				],
+				'ballasted'=>[
+					'balasted',
+					'balllasted',
+				],
+				'ballasting'=>[
+					'balasting',
+					'balllasting',
+				],
+				'ballasts'=>[
+					'balasts',
+					'balllasts',
+				],
+				'ballboy'=>[
+					'balboy',
+					'balllboy',
 				],
 				'ballcarrier'=>[
 					'ballcarier',
+					'balcarrier',
+					'ballcarrrier',
+					'balllcarrier',
+				],
+				'ballcock'=>[
+					'balcock',
+					'balllcock',
+				],
+				'ballcocks'=>[
+					'balcocks',
+					'balllcocks',
+				],
+				'balled'=>[
+					'ballled',
 				],
 				'ballerina'=>[
 					'balerina',
 					'ballerini',
+					'balllerina',
+				],
+				'ballerinas'=>[
+					'balerinas',
+					'balllerinas',
 				],
 				'ballet'=>[
 					'balet',
+					'balllet',
+				],
+				'balletic'=>[
+					'baletic',
+					'ballletic',
 				],
 				'balletomane'=>[
 					'baletomane',
+					'ballletomane',
+				],
+				'balletomanes'=>[
+					'baletomanes',
+					'ballletomanes',
+				],
+				'ballets'=>[
+					'balllets',
+				],
+				'ballflower'=>[
+					'balflower',
+					'balllflower',
+				],
+				'ballgame'=>[
+					'balgame',
+					'balllgame',
+				],
+				'ballgames'=>[
+					'balgames',
+					'balllgames',
+				],
+				'ballgirl'=>[
+					'balgirl',
+					'balllgirl',
+				],
+				'ballgirls'=>[
+					'balgirls',
+					'balllgirls',
+				],
+				'ballgown'=>[
+					'balgown',
+					'balllgown',
+				],
+				'ballgowns'=>[
+					'balgowns',
+					'balllgowns',
+				],
+				'balling'=>[
+					'ballling',
+				],
+				'ballista'=>[
+					'balllista',
 				],
 				'ballistic'=>[
 					'balistic',
+					'balllistic',
 				],
 				'ballistically'=>[
 					'balistically',
+					'ballisticallly',
+					'ballisticaly',
+					'balllistically',
 				],
 				'ballistics'=>[
 					'balistics',
+					'balllistics',
 				],
 				'ballistocardiogram'=>[
 					'balistocardiogram',
 				],
+				'ballocks'=>[
+					'balllocks',
+					'balocks',
+				],
+				'ballon'=>[
+					'balllon',
+				],
+				'ballonet'=>[
+					'balllonet',
+					'balonet',
+				],
 				'balloon'=>[
 					'baloon',
+					'ballloon',
+					'ballooon',
+				],
+				'ballooned'=>[
+					'balllooned',
+					'balloooned',
+					'balooned',
 				],
 				'ballooner'=>[
 					'balloonneer',
@@ -557,27 +1008,116 @@
 				'ballooners'=>[
 					'balloonneers',
 				],
+				'ballooning'=>[
+					'balllooning',
+					'balloooning',
+					'balooning',
+				],
+				'balloonist'=>[
+					'ballloonist',
+					'ballonist',
+					'ballooonist',
+					'baloonist',
+				],
+				'balloonists'=>[
+					'ballloonists',
+					'ballonists',
+					'ballooonists',
+					'baloonists',
+				],
+				'balloons'=>[
+					'ballloons',
+					'ballooons',
+					'baloons',
+				],
 				'ballot'=>[
 					'balot',
+					'balllot',
+				],
+				'balloted'=>[
+					'ballloted',
+				],
+				'balloter'=>[
+					'ballloter',
+				],
+				'balloting'=>[
+					'ballloting',
+				],
+				'ballots'=>[
+					'balllots',
+				],
+				'ballottement'=>[
+					'balllottement',
+					'ballotement',
+					'ballotttement',
+					'balottement',
 				],
 				'ballpark'=>[
 					'ballperk',
 					'balpark',
+					'balllpark',
 				],
 				'ballparks'=>[
 					'ballperks',
+					'balllparks',
+					'balparks',
 				],
 				'ballplayer'=>[
 					'balplayer',
+					'balllplayer',
+				],
+				'ballplayers'=>[
+					'balllplayers',
+					'balplayers',
 				],
 				'ballpoint'=>[
 					'balpoint',
+					'balllpoint',
+				],
+				'ballpoints'=>[
+					'balllpoints',
+					'balpoints',
 				],
 				'ballroom'=>[
 					'balroom',
+					'balllroom',
+					'ballrom',
+					'ballrooom',
+				],
+				'ballrooms'=>[
+					'balllrooms',
+					'ballroms',
+					'ballroooms',
+					'balrooms',
+				],
+				'balls'=>[
+					'ballls',
+				],
+				'ballsed'=>[
+					'balllsed',
+				],
+				'ballses'=>[
+					'balllses',
+				],
+				'ballsier'=>[
+					'balllsier',
+					'balsier',
+				],
+				'ballsiest'=>[
+					'balllsiest',
+					'balsiest',
+				],
+				'ballsing'=>[
+					'balllsing',
 				],
 				'ballsy'=>[
 					'ballcy',
+					'balllsy',
+					'balsy',
+				],
+				'ballute'=>[
+					'balllute',
+					'balute',
 				],
 				'bally'=>[
 					'balally',
@@ -585,14 +1125,56 @@
 					'ballly',
 					'baly',
 				],
+				'ballyhoo'=>[
+					'balllyhoo',
+					'ballyho',
+					'ballyhooo',
+					'balyhoo',
+				],
+				'ballyhooed'=>[
+					'balllyhooed',
+					'ballyhoed',
+					'ballyhoooed',
+					'balyhooed',
+				],
+				'ballyhooing'=>[
+					'balllyhooing',
+					'ballyhoing',
+					'ballyhoooing',
+					'balyhooing',
+				],
+				'ballyhoos'=>[
+					'balllyhoos',
+					'ballyhooos',
+					'ballyhos',
+					'balyhoos',
+				],
 				'ballyloughlin'=>[
 					'baliloughlin',
 				],
+				'ballyrag'=>[
+					'balllyrag',
+					'balyrag',
+				],
 				'ballyragged'=>[
 					'ballyraged',
+					'balllyragged',
+					'ballyraggged',
+					'balyragged',
 				],
 				'ballyragging'=>[
 					'ballyraging',
+					'balllyragging',
+					'ballyraggging',
+					'balyragging',
+				],
+				'ballyrags'=>[
+					'balllyrags',
+					'balyrags',
+				],
+				'balmacaan'=>[
+					'balmacaaan',
+					'balmacan',
 				],
 				'balminess'=>[
 					'balmines',
@@ -613,11 +1195,42 @@
 				'bambini'=>[
 					'bambina',
 				],
+				'bamboo'=>[
+					'bambo',
+					'bambooo',
+				],
+				'bamboos'=>[
+					'bambooos',
+					'bambos',
+				],
+				'bamboozle'=>[
+					'bambooozle',
+					'bambozle',
+				],
+				'bamboozled'=>[
+					'bambooozled',
+					'bambozled',
+				],
+				'bamboozlement'=>[
+					'bambooozlement',
+					'bambozlement',
+				],
 				'bamboozlements'=>[
 					'bamboozlemants',
 				],
+				'bamboozles'=>[
+					'bambooozles',
+					'bambozles',
+				],
+				'bamboozling'=>[
+					'bambooozling',
+					'bambozling',
+				],
 				'bammed'=>[
 					'bamned',
+				],
+				'banally'=>[
+					'banallly',
 				],
 				'banana'=>[
 					'bannana',
@@ -639,8 +1252,39 @@
 			#	'bandanna'=>[
 			#		'bandana',
 			#	],
+				'bandanna'=>[
+					'bandannna',
+				],
+				'bandannas'=>[
+					'bandannnas',
+				],
+				'banderilla'=>[
+					'banderila',
+					'banderillla',
+				],
+				'banderillas'=>[
+					'banderilas',
+					'banderilllas',
+				],
 				'banderillero'=>[
 					'banderilero',
+					'banderilllero',
+				],
+				'banderilleros'=>[
+					'banderileros',
+					'banderillleros',
+				],
+				'bandicoot'=>[
+					'bandicooot',
+					'bandicot',
+				],
+				'bandicoots'=>[
+					'bandicooots',
+					'bandicots',
+				],
+				'banditti'=>[
+					'banditi',
+					'bandittti',
 				],
 				'bandleader'=>[
 					'bandleder',
@@ -648,14 +1292,31 @@
 				'bandlimitedness'=>[
 					'bandlimitness',
 				],
+				'bandoleer'=>[
+					'bandoleeer',
+					'bandoler',
+				],
+				'bandoleers'=>[
+					'bandoleeers',
+					'bandolers',
+				],
+				'bandurria'=>[
+					'bandurrria',
+				],
 				'bandwidth'=>[
 					'bandwith',
 				],
+				'bandylegged'=>[
+					'bandyleged',
+					'bandyleggged',
+				],
 				'baneberries'=>[
 					'baneberies',
+					'baneberrries',
 				],
 				'baneberry'=>[
 					'banebery',
+					'baneberrry',
 				],
 				'banefully'=>[
 					'banefulally',
@@ -676,11 +1337,35 @@
 				'bankable'=>[
 					'bankible',
 				],
+				'bankbook'=>[
+					'bankbok',
+					'bankboook',
+				],
+				'bankbooks'=>[
+					'bankboks',
+					'bankboooks',
+				],
 				'banknote'=>[
 					'bankote',
 				],
 				'banknotes'=>[
 					'bankotes',
+				],
+				'bankroll'=>[
+					'bankrol',
+					'bankrolll',
+				],
+				'bankrolled'=>[
+					'bankroled',
+					'bankrollled',
+				],
+				'bankrolling'=>[
+					'bankroling',
+					'bankrollling',
+				],
+				'bankrolls'=>[
+					'bankrollls',
+					'bankrols',
 				],
 				'bankruptcy'=>[
 					'backruptcy',
@@ -692,28 +1377,70 @@
 				],
 				'banned'=>[
 					'banend',
+					'bannned',
 				],
 				'banner'=>[
 					'baner',
+					'bannner',
 				],
 				'banneret'=>[
 					'baneret',
+					'bannneret',
+				],
+				'bannerets'=>[
+					'banerets',
+					'bannnerets',
 				],
 				'bannerette'=>[
 					'banerette',
 				],
 				'bannerol'=>[
 					'banerol',
+					'bannnerol',
 				],
 					# banister: an accepted spelling, not a slip (AmericanBritishWords_B: banister)
 			#	'bannister'=>[
 			#		'banister',
 			#	],
+				'banners'=>[
+					'baners',
+					'bannners',
+				],
+				'banning'=>[
+					'bannning',
+				],
+				'bannister'=>[
+					'bannnister',
+				],
+				'bannisters'=>[
+					'bannnisters',
+				],
 				'bannock'=>[
 					'banock',
+					'bannnock',
+				],
+				'bannocks'=>[
+					'bannnocks',
+					'banocks',
 				],
 				'banns'=>[
 					'bannns',
+				],
+				'banquette'=>[
+					'banquete',
+					'banquettte',
+				],
+				'banquettes'=>[
+					'banquetes',
+					'banquetttes',
+				],
+				'banshee'=>[
+					'banshe',
+					'bansheee',
+				],
+				'banshees'=>[
+					'bansheees',
+					'banshes',
 				],
 				'bantam'=>[
 					'bentam',
@@ -748,6 +1475,10 @@
 				'barbarian'=>[
 					'barbaran',
 				],
+				'barbarically'=>[
+					'barbaricallly',
+					'barbaricaly',
+				],
 				'barbarousness'=>[
 					'barbarousnes',
 					'barbarousnesss',
@@ -756,8 +1487,30 @@
 					'barbarousneses',
 					'barbarousnessses',
 				],
+				'barbell'=>[
+					'barbelll',
+				],
+				'barbellate'=>[
+					'barbelate',
+					'barbelllate',
+				],
+				'barbells'=>[
+					'barbellls',
+				],
+				'barberries'=>[
+					'barberrries',
+				],
 				'barberry'=>[
 					'barbery',
+					'barberrry',
+				],
+				'barbette'=>[
+					'barbete',
+					'barbettte',
+				],
+				'barbettes'=>[
+					'barbetes',
+					'barbetttes',
 				],
 				'barbie'=>[
 					'barbei',
@@ -769,11 +1522,29 @@
 				'barbiturates'=>[
 					'barbituates',
 				],
+				'barcarolle'=>[
+					'barcarollle',
+				],
+				'barcarolles'=>[
+					'barcarollles',
+				],
 				'bared'=>[
 					'beared',
 				],
 				'barefacednesses'=>[
 					'barefacedneses',
+				],
+				'barefoot'=>[
+					'barefooot',
+					'barefot',
+				],
+				'barefooted'=>[
+					'barefoooted',
+					'barefoted',
+				],
+				'barelegged'=>[
+					'bareleged',
+					'bareleggged',
 				],
 				'barely'=>[
 					'bareally',
@@ -793,17 +1564,56 @@
 					'barfely',
 					'barflly',
 				],
+				'bargello'=>[
+					'bargelllo',
+					'bargelo',
+				],
+				'bargellos'=>[
+					'bargelllos',
+					'bargelos',
+				],
+				'barhopped'=>[
+					'barhoppped',
+				],
+				'barhopping'=>[
+					'barhoppping',
+				],
+				'barilla'=>[
+					'barila',
+					'barillla',
+				],
+				'barillas'=>[
+					'barilas',
+					'barilllas',
+				],
 				'barista'=>[
 					'barrista',
 				],
 				'baristas'=>[
 					'barristas',
 				],
+				'barkeep'=>[
+					'barkeeep',
+					'barkep',
+				],
+				'barkeeper'=>[
+					'barkeeeper',
+					'barkeper',
+				],
+				'barkeepers'=>[
+					'barkeeepers',
+					'barkepers',
+				],
+				'barkeeps'=>[
+					'barkeeeps',
+					'barkeps',
+				],
 				'barn-like'=>[
 					'barnlike',
 				],
 				'barometrically'=>[
 					'barometricaly',
+					'barometricallly',
 				],
 				'baroness'=>[
 					'barones',
@@ -832,11 +1642,30 @@
 				'barquentine'=>[
 					'barquentini',
 				],
+				'barr'=>[
+					'barrr',
+				],
 				'barrack'=>[
 					'barrrack',
 				],
+				'barracked'=>[
+					'barrracked',
+				],
+				'barracking'=>[
+					'barrracking',
+				],
+				'barrackings'=>[
+					'barackings',
+					'barrrackings',
+				],
+				'barracks'=>[
+					'barrracks',
+				],
 				'barracoon'=>[
 					'baracoon',
+					'barracon',
+					'barracooon',
+					'barrracoon',
 				],
 				'barracouta'=>[
 					'baracouta',
@@ -846,70 +1675,165 @@
 				],
 				'barracuda'=>[
 					'baracuda',
+					'barrracuda',
+				],
+				'barracudas'=>[
+					'baracudas',
+					'barrracudas',
 				],
 				'barrage'=>[
 					'barage',
+					'barrrage',
+				],
+				'barraged'=>[
+					'barrraged',
+				],
+				'barrages'=>[
+					'barrrages',
+				],
+				'barraging'=>[
+					'barrraging',
 				],
 				'barramunda'=>[
 					'baramunda',
+					'barrramunda',
 				],
 				'barramundas'=>[
 					'baramundas',
+					'barrramundas',
 				],
 				'barramundis'=>[
 					'baramundis',
 				],
 				'barranca'=>[
 					'baranca',
+					'barrranca',
 				],
 				'barrator'=>[
 					'barator',
+					'barrrator',
 				],
 				'barratry'=>[
 					'baratry',
+					'barrratry',
+				],
+				'barre'=>[
+					'barrre',
 				],
 				'barred'=>[
 					'bared',
+					'barrred',
 				],
 				'barrel'=>[
 					'barel',
+					'barrrel',
+				],
+				'barreled'=>[
+					'bareled',
+					'barrreled',
 				],
 				'barrelful'=>[
 					'barelful',
 				],
 				'barrelhead'=>[
 					'barelhead',
+					'barrrelhead',
 				],
 				'barrelheads'=>[
 					'barelheads',
 				],
 				'barrelhouse'=>[
 					'barelhouse',
+					'barrrelhouse',
+				],
+				'barrelhouses'=>[
+					'barelhouses',
+					'barrrelhouses',
+				],
+				'barreling'=>[
+					'bareling',
+					'barrreling',
+				],
+				'barrelled'=>[
+					'barelled',
+					'barrellled',
+					'barrrelled',
+				],
+				'barrelling'=>[
+					'barelling',
+					'barrellling',
+					'barrrelling',
+				],
+				'barrels'=>[
+					'barels',
+					'barrrels',
 				],
 				'barren'=>[
 					'baren',
+					'barrren',
+				],
+				'barrener'=>[
+					'barrrener',
+				],
+				'barrenest'=>[
+					'barrrenest',
 				],
 				'barrenness'=>[
 					'barrennes',
 					'barrennesss',
+					'barenness',
+					'barreness',
+					'barrennness',
+					'barrrenness',
 				],
 				'barrennesses'=>[
 					'barrenesses',
 				],
+				'barrens'=>[
+					'barrrens',
+				],
 				'barres'=>[
 					'barrres',
 				],
+				'barret'=>[
+					'baret',
+					'barrret',
+				],
 				'barrette'=>[
 					'barette',
+					'barrete',
+					'barrettte',
+					'barrrette',
+				],
+				'barretter'=>[
+					'barrettter',
+					'barrretter',
+				],
+				'barretters'=>[
+					'baretters',
+					'barrettters',
+					'barrretters',
+				],
+				'barrettes'=>[
+					'barretes',
+					'barretttes',
+					'barrrettes',
 				],
 				'barricade'=>[
 					'baricade',
+					'barrricade',
+				],
+				'barricaded'=>[
+					'baricaded',
+					'barrricaded',
 				],
 				'barricades'=>[
 					'baricades',
+					'barrricades',
 				],
 				'barricading'=>[
 					'baricading',
+					'barrricading',
 				],
 				'barricadoed'=>[
 					'baricadoed',
@@ -917,31 +1841,73 @@
 				'barricadoes'=>[
 					'baricadoes',
 				],
+				'barrie'=>[
+					'barrrie',
+				],
 				'barrier'=>[
 					'barier',
 					'barreir',
 					'barrir',
+					'barrrier',
+				],
+				'barriers'=>[
+					'bariers',
+					'barrriers',
 				],
 				'barring'=>[
 					'baring',
+					'barrring',
+				],
+				'barrings'=>[
+					'barrrings',
 				],
 				'barrio'=>[
 					'bario',
+					'barrrio',
+				],
+				'barrios'=>[
+					'barios',
+					'barrrios',
 				],
 				'barrister'=>[
 					'barister',
+					'barrrister',
+				],
+				'barristers'=>[
+					'baristers',
+					'barrristers',
 				],
 				'barroom'=>[
 					'baroom',
+					'barrom',
+					'barrooom',
+					'barrroom',
+				],
+				'barrooms'=>[
+					'barooms',
+					'barroms',
+					'barroooms',
+					'barrrooms',
 				],
 				'barrow'=>[
 					'barow',
+					'barrrow',
+				],
+				'barrows'=>[
+					'barows',
+					'barrrows',
+				],
+				'barry'=>[
+					'barrry',
 				],
 				'barycenter'=>[
 					'baricenter',
 				],
 				'barère'=>[
 					'barere',
+				],
+				'basally'=>[
+					'basallly',
 				],
 				'bascule'=>[
 					'bacsule',
@@ -954,6 +1920,11 @@
 				],
 				'baseball'=>[
 					'basebal',
+					'baseballl',
+				],
+				'baseballs'=>[
+					'baseballls',
+					'basebals',
 				],
 				'baseless'=>[
 					'baseles',
@@ -977,6 +1948,10 @@
 				],
 				'baserunnings'=>[
 					'baserunings',
+				],
+				'bashfully'=>[
+					'bashfullly',
+					'bashfuly',
 				],
 				'bashfulness'=>[
 					'bashfulnes',
@@ -1015,6 +1990,11 @@
 				],
 				'basketball'=>[
 					'basketbal',
+					'basketballl',
+				],
+				'basketballs'=>[
+					'basketballls',
+					'basketbals',
 				],
 				'bass'=>[
 					'bas',
@@ -1056,18 +2036,26 @@
 				'bassoon'=>[
 					'basoon',
 					'basssoon',
+					'basson',
+					'bassooon',
 				],
 				'bassoonist'=>[
 					'basoonist',
 					'basssoonist',
+					'bassonist',
+					'bassooonist',
 				],
 				'bassoonists'=>[
 					'basoonists',
 					'basssoonists',
+					'bassonists',
+					'bassooonists',
 				],
 				'bassoons'=>[
 					'basoons',
 					'basssoons',
+					'bassons',
+					'bassooons',
 				],
 				'bassos'=>[
 					'basos',
@@ -1076,10 +2064,14 @@
 				'basswood'=>[
 					'bassswood',
 					'baswood',
+					'basswod',
+					'basswoood',
 				],
 				'basswoods'=>[
 					'bassswoods',
 					'baswoods',
+					'basswods',
+					'basswooods',
 				],
 				'bassy'=>[
 					'bascy',
@@ -1087,6 +2079,7 @@
 				],
 				'bastille'=>[
 					'bastile',
+					'bastillle',
 				],
 				'bastinado'=>[
 					'bastinido',
@@ -1111,6 +2104,12 @@
 				'batches'=>[
 					'batchs',
 				],
+				'bathhouse'=>[
+					'bathhhouse',
+				],
+				'bathhouses'=>[
+					'bathhhouses',
+				],
 				'bathocuproine'=>[
 					'bathocuprione',
 					'bathrocuproine',
@@ -1120,6 +2119,11 @@
 				],
 				'bathroom'=>[
 					'bathrooom',
+					'bathrom',
+				],
+				'bathrooms'=>[
+					'bathroms',
+					'bathroooms',
 				],
 				'bathymetrically'=>[
 					'bathymetricaly',
@@ -1132,26 +2136,208 @@
 				'batrachian'=>[
 					'batrachan',
 				],
+				'batt'=>[
+					'battt',
+				],
+				'battalion'=>[
+					'batttalion',
+				],
+				'battalions'=>[
+					'batttalions',
+				],
+				'batted'=>[
+					'battted',
+				],
+				'battement'=>[
+					'batttement',
+				],
+				'batten'=>[
+					'battten',
+				],
 				'battened'=>[
 					'battend',
+					'batttened',
+				],
+				'battening'=>[
+					'batttening',
+				],
+				'battens'=>[
+					'batttens',
+				],
+				'batter'=>[
+					'battter',
+				],
+				'battered'=>[
+					'batered',
+					'batttered',
+				],
+				'batterer'=>[
+					'baterer',
+					'battterer',
+				],
+				'batterers'=>[
+					'baterers',
+					'battterers',
 				],
 				'batterie'=>[
 					'batterei',
 					'batteri',
 				],
+				'batteries'=>[
+					'bateries',
+					'battteries',
+				],
+				'battering'=>[
+					'batering',
+					'batttering',
+				],
+				'batterings'=>[
+					'baterings',
+					'battterings',
+				],
+				'batters'=>[
+					'baters',
+					'battters',
+				],
 				'battery'=>[
 					'battary',
+					'batery',
+					'batttery',
+				],
+				'battier'=>[
+					'batttier',
+				],
+				'battiest'=>[
+					'batttiest',
+				],
+				'battik'=>[
+					'batttik',
+				],
+				'batting'=>[
+					'battting',
 				],
 				'battle'=>[
 					'batle',
+					'batttle',
+				],
+				'battleax'=>[
+					'batleax',
+					'batttleax',
+				],
+				'battleaxe'=>[
+					'batleaxe',
+					'batttleaxe',
+				],
+				'battleaxes'=>[
+					'batleaxes',
+					'batttleaxes',
+				],
+				'battled'=>[
+					'batled',
+					'batttled',
+				],
+				'battledore'=>[
+					'batledore',
+					'batttledore',
+				],
+				'battledores'=>[
+					'batledores',
+					'batttledores',
 				],
 				'battledress'=>[
 					'battledres',
 					'battledresss',
+					'batledress',
+					'batttledress',
 				],
 				'battlefield'=>[
 					'battlefeild',
 					'battlefild',
+					'batlefield',
+					'batttlefield',
+				],
+				'battlefields'=>[
+					'batlefields',
+					'batttlefields',
+				],
+				'battlefront'=>[
+					'batlefront',
+					'batttlefront',
+				],
+				'battlefronts'=>[
+					'batlefronts',
+					'batttlefronts',
+				],
+				'battleground'=>[
+					'batleground',
+					'batttleground',
+				],
+				'battlegrounds'=>[
+					'batlegrounds',
+					'batttlegrounds',
+				],
+				'battlement'=>[
+					'batlement',
+					'batttlement',
+				],
+				'battlemented'=>[
+					'batlemented',
+					'batttlemented',
+				],
+				'battlements'=>[
+					'batlements',
+					'batttlements',
+				],
+				'battleplane'=>[
+					'batleplane',
+					'batttleplane',
+				],
+				'battler'=>[
+					'batttler',
+				],
+				'battlers'=>[
+					'batttlers',
+				],
+				'battles'=>[
+					'batles',
+					'batttles',
+				],
+				'battleship'=>[
+					'batleship',
+					'batttleship',
+				],
+				'battleships'=>[
+					'batleships',
+					'batttleships',
+				],
+				'battlewagon'=>[
+					'batlewagon',
+					'batttlewagon',
+				],
+				'battlewagons'=>[
+					'batlewagons',
+					'batttlewagons',
+				],
+				'battling'=>[
+					'batttling',
+				],
+				'battologize'=>[
+					'batologize',
+					'batttologize',
+				],
+				'battology'=>[
+					'batttology',
+				],
+				'battue'=>[
+					'batttue',
+					'batue',
+				],
+				'battues'=>[
+					'batttues',
+					'batues',
+				],
+				'batty'=>[
+					'battty',
 				],
 				'bauhinia'=>[
 					'bauhinaa',
@@ -1162,28 +2348,77 @@
 				'bauzá'=>[
 					'bauza',
 				],
+				'bawbee'=>[
+					'bawbe',
+					'bawbeee',
+				],
+				'bawbees'=>[
+					'bawbeees',
+					'bawbes',
+				],
 				'bawdiness'=>[
 					'bawdines',
 					'bawdinesss',
 				],
+				'bayberries'=>[
+					'bayberies',
+					'bayberrries',
+				],
 				'bayberry'=>[
 					'baybery',
+					'bayberrry',
 				],
 				'bayonets'=>[
 					'bayonnettes',
 				],
+				'bayonetted'=>[
+					'bayonettted',
+				],
+				'bayonetting'=>[
+					'bayonettting',
+				],
+				'baywood'=>[
+					'baywod',
+					'baywoood',
+				],
 				'bazaar'=>[
 					'baazar',
 					'bazaer',
+					'bazaaar',
+				],
+				'bazaars'=>[
+					'bazaaars',
 				],
 				'bazar'=>[
 					'bazer',
 				],
 				'bazillion'=>[
 					'bzillion',
+					'bazilion',
+					'bazilllion',
 				],
 				'bazillionaire'=>[
 					'bzillionaire',
+				],
+				'bazillions'=>[
+					'bazilions',
+					'bazilllions',
+				],
+				'bazooka'=>[
+					'bazoka',
+					'bazoooka',
+				],
+				'bazookas'=>[
+					'bazokas',
+					'bazoookas',
+				],
+				'bdellium'=>[
+					'bdelium',
+					'bdelllium',
+				],
+				'bdelliums'=>[
+					'bdeliums',
+					'bdellliums',
 				],
 				'be'=>[
 					'be be',
@@ -1203,6 +2438,12 @@
 				],
 				'beachhead'=>[
 					'beachhed',
+					'beachead',
+					'beachhhead',
+				],
+				'beachheads'=>[
+					'beacheads',
+					'beachhheads',
 				],
 				'beachwear'=>[
 					'beachweer',
@@ -1212,6 +2453,10 @@
 				],
 				'bead'=>[
 					'bedd',
+				],
+				'beadroll'=>[
+					'beadrol',
+					'beadrolll',
 				],
 				'beady'=>[
 					'bedy',
@@ -1230,6 +2475,14 @@
 				],
 				'bean'=>[
 					'benn',
+				],
+				'beanball'=>[
+					'beanbal',
+					'beanballl',
+				],
+				'beanballs'=>[
+					'beanballls',
+					'beanbals',
 				],
 				'beanie'=>[
 					'beanei',
@@ -1250,8 +2503,13 @@
 				'bearable'=>[
 					'bearible',
 				],
+				'bearberries'=>[
+					'bearberies',
+					'bearberrries',
+				],
 				'bearberry'=>[
 					'bearbery',
+					'bearberrry',
 				],
 				'beard'=>[
 					'berd',
@@ -1306,6 +2564,10 @@
 				'beaten'=>[
 					'beten',
 				],
+				'beatifically'=>[
+					'beatificallly',
+					'beatificaly',
+				],
 				'beatification'=>[
 					'betification',
 				],
@@ -1351,6 +2613,7 @@
 				],
 				'beautifully'=>[
 					'beautifuly',
+					'beautifullly',
 				],
 				'beautifulness'=>[
 					'beutifulness',
@@ -1374,6 +2637,18 @@
 				'beaver'=>[
 					'bever',
 				],
+				'beaverette'=>[
+					'beaverete',
+					'beaverettte',
+				],
+				'bebeerine'=>[
+					'bebeeerine',
+					'beberine',
+				],
+				'bebeeru'=>[
+					'bebeeeru',
+					'beberu',
+				],
 				'became'=>[
 					'bacame',
 					'beacame',
@@ -1393,6 +2668,7 @@
 				],
 				'beccafico'=>[
 					'becafico',
+					'becccafico',
 				],
 				'beccaficos'=>[
 					'becaficos',
@@ -1435,6 +2711,7 @@
 				],
 				'bedabble'=>[
 					'bedable',
+					'bedabbble',
 				],
 				'bedabbled'=>[
 					'bedabled',
@@ -1451,14 +2728,65 @@
 				'bedarkened'=>[
 					'bedarkend',
 				],
+				'bedazzle'=>[
+					'bedazle',
+					'bedazzzle',
+				],
+				'bedazzled'=>[
+					'bedazled',
+					'bedazzzled',
+				],
+				'bedazzlement'=>[
+					'bedazlement',
+					'bedazzzlement',
+				],
+				'bedazzles'=>[
+					'bedazles',
+					'bedazzzles',
+				],
+				'bedazzling'=>[
+					'bedazling',
+					'bedazzzling',
+				],
 				'beddable'=>[
 					'beddible',
+				],
+				'bedded'=>[
+					'beddded',
+				],
+				'bedder'=>[
+					'beddder',
+				],
+				'bedders'=>[
+					'beddders',
+					'beders',
+				],
+				'bedding'=>[
+					'beddding',
 				],
 				'bedeafened'=>[
 					'bedeafend',
 				],
+				'bedevilled'=>[
+					'bedevillled',
+				],
+				'bedevilling'=>[
+					'bedevillling',
+				],
+				'bedfellow'=>[
+					'bedfelllow',
+					'bedfelow',
+				],
+				'bedfellows'=>[
+					'bedfelllows',
+					'bedfelows',
+				],
 				'bedimmed'=>[
 					'bedimned',
+					'bedimmmed',
+				],
+				'bedimming'=>[
+					'bedimmming',
 				],
 				'bedizened'=>[
 					'bedizend',
@@ -1471,17 +2799,45 @@
 					'bedizements',
 					'bedizenents',
 				],
+				'bedrabble'=>[
+					'bedrabbble',
+					'bedrable',
+				],
 				'bedraggle'=>[
 					'bedragle',
+					'bedragggle',
 				],
 				'bedraggled'=>[
 					'bedragled',
+					'bedragggled',
 				],
 				'bedraggles'=>[
 					'bedragles',
+					'bedragggles',
 				],
 				'bedraggling'=>[
 					'bedragling',
+					'bedragggling',
+				],
+				'bedridden'=>[
+					'bedriddden',
+					'bedriden',
+				],
+				'bedroll'=>[
+					'bedrol',
+					'bedrolll',
+				],
+				'bedrolls'=>[
+					'bedrollls',
+					'bedrols',
+				],
+				'bedroom'=>[
+					'bedrom',
+					'bedrooom',
+				],
+				'bedrooms'=>[
+					'bedroms',
+					'bedroooms',
 				],
 				'bedrugged'=>[
 					'bedruged',
@@ -1489,12 +2845,176 @@
 				'bedrugging'=>[
 					'bedruging',
 				],
+				'bedsheets'=>[
+					'bedsheeets',
+					'bedshets',
+				],
+				'bedsitter'=>[
+					'bedsittter',
+				],
+				'bedsitters'=>[
+					'bedsiters',
+					'bedsittters',
+				],
+				'bedwetting'=>[
+					'bedwettting',
+				],
+				'bee'=>[
+					'beee',
+				],
+				'beebread'=>[
+					'bebread',
+					'beeebread',
+				],
+				'beech'=>[
+					'beeech',
+				],
+				'beechen'=>[
+					'bechen',
+					'beeechen',
+				],
+				'beeches'=>[
+					'beches',
+					'beeeches',
+				],
+				'beechnut'=>[
+					'bechnut',
+					'beeechnut',
+				],
+				'beechnuts'=>[
+					'bechnuts',
+					'beeechnuts',
+				],
+				'beechwood'=>[
+					'bechwood',
+					'beechwod',
+					'beechwoood',
+					'beeechwood',
+				],
+				'beef'=>[
+					'beeef',
+				],
+				'beefalo'=>[
+					'beeefalo',
+					'befalo',
+				],
+				'beefaloes'=>[
+					'beeefaloes',
+					'befaloes',
+				],
+				'beefalos'=>[
+					'beeefalos',
+					'befalos',
+				],
+				'beefaroni'=>[
+					'beeefaroni',
+					'befaroni',
+				],
+				'beefburger'=>[
+					'beeefburger',
+					'befburger',
+				],
+				'beefburgers'=>[
+					'beeefburgers',
+					'befburgers',
+				],
+				'beefcake'=>[
+					'beeefcake',
+					'befcake',
+				],
+				'beefcakes'=>[
+					'beeefcakes',
+					'befcakes',
+				],
+				'beefeater'=>[
+					'beeefeater',
+					'befeater',
+				],
+				'beefeaters'=>[
+					'beeefeaters',
+					'befeaters',
+				],
+				'beefed'=>[
+					'beeefed',
+					'befed',
+				],
+				'beefier'=>[
+					'beeefier',
+				],
+				'beefiest'=>[
+					'beeefiest',
+					'befiest',
+				],
 				'beefiness'=>[
 					'beefines',
 					'beefinesss',
+					'beeefiness',
+					'befiness',
+				],
+				'beefing'=>[
+					'beeefing',
+					'befing',
+				],
+				'beefs'=>[
+					'beeefs',
+				],
+				'beefsteak'=>[
+					'beeefsteak',
+					'befsteak',
+				],
+				'beefsteaks'=>[
+					'beeefsteaks',
+					'befsteaks',
+				],
+				'beefwood'=>[
+					'beeefwood',
+					'beefwod',
+					'beefwoood',
+					'befwood',
+				],
+				'beefwoods'=>[
+					'beeefwoods',
+					'beefwods',
+					'beefwooods',
+					'befwoods',
+				],
+				'beefy'=>[
+					'beeefy',
+				],
+				'beehive'=>[
+					'beeehive',
+					'behive',
+				],
+				'beehives'=>[
+					'beeehives',
+					'behives',
+				],
+				'beekeeper'=>[
+					'beeekeeper',
+					'beekeeeper',
+					'beekeper',
+					'bekeeper',
+				],
+				'beekeepers'=>[
+					'beeekeepers',
+					'beekeeepers',
+					'beekepers',
+					'bekeepers',
+				],
+				'beekeeping'=>[
+					'beeekeeping',
+					'beekeeeping',
+					'beekeping',
+					'bekeeping',
 				],
 				'beeline'=>[
 					'beelini',
+					'beeeline',
+					'beline',
+				],
+				'beelines'=>[
+					'beeelines',
+					'belines',
 				],
 				'beelining'=>[
 					'beelinang',
@@ -1504,14 +3024,154 @@
 					'been been',
 					'been been been',
 				],
+				'beep'=>[
+					'beeep',
+				],
+				'beeped'=>[
+					'beeeped',
+					'beped',
+				],
+				'beeper'=>[
+					'beeeper',
+					'beper',
+				],
+				'beepers'=>[
+					'beeepers',
+					'bepers',
+				],
+				'beeping'=>[
+					'beeeping',
+					'beping',
+				],
+				'beeps'=>[
+					'beeeps',
+				],
+				'beer'=>[
+					'beeer',
+				],
+				'beerier'=>[
+					'beeerier',
+				],
+				'beeriest'=>[
+					'beeeriest',
+				],
+				'beermat'=>[
+					'beeermat',
+					'bermat',
+				],
+				'beermats'=>[
+					'beeermats',
+					'bermats',
+				],
+				'beers'=>[
+					'beeers',
+				],
+				'beery'=>[
+					'beeery',
+				],
+				'bees'=>[
+					'beees',
+				],
+				'beestings'=>[
+					'beeestings',
+				],
+				'beeswax'=>[
+					'beeeswax',
+					'beswax',
+				],
+				'beeswing'=>[
+					'beeeswing',
+					'beswing',
+				],
+				'beet'=>[
+					'beeet',
+				],
+				'beetle'=>[
+					'beeetle',
+				],
+				'beetled'=>[
+					'beeetled',
+				],
+				'beetles'=>[
+					'beeetles',
+				],
+				'beetling'=>[
+					'beeetling',
+				],
+				'beetroot'=>[
+					'beeetroot',
+					'beetrooot',
+					'beetrot',
+					'betroot',
+				],
+				'beetroots'=>[
+					'beeetroots',
+					'beetrooots',
+					'beetrots',
+					'betroots',
+				],
+				'beets'=>[
+					'beeets',
+				],
+				'beeves'=>[
+					'beeeves',
+					'beves',
+				],
+				'beezer'=>[
+					'beeezer',
+					'bezer',
+				],
 				'befall'=>[
 					'befal',
+					'befalll',
+				],
+				'befallen'=>[
+					'befalllen',
+				],
+				'befalling'=>[
+					'befallling',
+				],
+				'befalls'=>[
+					'befallls',
+				],
+				'befell'=>[
+					'befelll',
+				],
+				'befitted'=>[
+					'befittted',
+				],
+				'befitting'=>[
+					'befittting',
+				],
+				'befittingly'=>[
+					'befitingly',
+					'befitttingly',
 				],
 				'beflagging'=>[
 					'beflaging',
 				],
+				'befogged'=>[
+					'befoggged',
+				],
 				'befogging'=>[
 					'befoging',
+					'befoggging',
+				],
+				'befool'=>[
+					'befol',
+					'befoool',
+				],
+				'befooled'=>[
+					'befoled',
+					'befoooled',
+				],
+				'befooling'=>[
+					'befoling',
+					'befoooling',
+				],
+				'befools'=>[
+					'befols',
+					'befoools',
 				],
 				'before'=>[
 					'befoer',
@@ -1525,13 +3185,44 @@
 					'befreind',
 					'befrind',
 				],
+				'befuddle'=>[
+					'befudddle',
+					'befudle',
+				],
+				'befuddled'=>[
+					'befudddled',
+					'befudled',
+				],
+				'befuddlement'=>[
+					'befudddlement',
+					'befudlement',
+				],
+				'befuddles'=>[
+					'befudddles',
+					'befudles',
+				],
+				'befuddling'=>[
+					'befudddling',
+					'befudling',
+				],
 				'began'=>[
 					'began began',
 					'began began began',
 				],
+				'begetter'=>[
+					'begettter',
+				],
+				'begetters'=>[
+					'begeters',
+					'begettters',
+				],
+				'begetting'=>[
+					'begettting',
+				],
 				'beggar'=>[
 					'begar',
 					'begger',
+					'begggar',
 				],
 				'beggardom'=>[
 					'begardom',
@@ -1539,16 +3230,21 @@
 				'beggardoms'=>[
 					'begardoms',
 				],
+				'beggared'=>[
+					'begggared',
+				],
 				'beggaries'=>[
 					'begaries',
 				],
 				'beggaring'=>[
 					'begaring',
+					'begggaring',
 				],
 				'beggarliness'=>[
 					'begarliness',
 					'beggarlines',
 					'beggarlinesss',
+					'begggarliness',
 				],
 				'beggarlinesses'=>[
 					'begarlinesses',
@@ -1560,19 +3256,36 @@
 					'beggaraly',
 					'beggarely',
 					'beggarlly',
+					'begggarly',
+				],
+				'beggars'=>[
+					'begggars',
 				],
 				'beggarweed'=>[
 					'begarweed',
+					'beggarwed',
+					'beggarweeed',
+					'begggarweed',
 				],
 				'beggarweeds'=>[
 					'begarweeds',
+					'beggarweds',
+					'beggarweeeds',
+					'begggarweeds',
 				],
 				'beggary'=>[
 					'begary',
 					'beggery',
+					'begggary',
+				],
+				'begged'=>[
+					'beged',
+					'beggged',
 				],
 				'begging'=>[
 					'beggin',
+					'beggging',
+					'beging',
 				],
 				'begin'=>[
 					'begin begin',
@@ -1582,12 +3295,22 @@
 				'beginner'=>[
 					'begginer',
 					'beginer',
+					'beginnner',
+				],
+				'beginners'=>[
+					'beginers',
+					'beginnners',
 				],
 				'beginning'=>[
 					'beggining',
 					'begginning',
 					'begining',
 					'beginnig',
+					'beginnning',
+				],
+				'beginnings'=>[
+					'beginings',
+					'beginnnings',
 				],
 				'begins'=>[
 					'beigns',
@@ -1619,6 +3342,10 @@
 				'begorrah'=>[
 					'begorra',
 				],
+				'begotten'=>[
+					'begoten',
+					'begottten',
+				],
 				'begrimming'=>[
 					'begrimning',
 				],
@@ -1628,6 +3355,10 @@
 				'behavior'=>[
 					'behaivor',
 					'behavour',
+				],
+				'behaviorally'=>[
+					'behaviorallly',
+					'behavioraly',
 				],
 				'behaviour'=>[
 					'behaviur',
@@ -1644,6 +3375,22 @@
 			#	'behoove'=>[
 			#		'behove',
 			#	],
+				'behoof'=>[
+					'behof',
+					'behooof',
+				],
+				'behoove'=>[
+					'behooove',
+				],
+				'behooved'=>[
+					'behoooved',
+				],
+				'behooves'=>[
+					'behoooves',
+				],
+				'behooving'=>[
+					'behoooving',
+				],
 				'beige'=>[
 					'biege',
 				],
@@ -1778,34 +3525,155 @@
 				'beliquors'=>[
 					'beliqors',
 				],
+				'belittle'=>[
+					'belitle',
+					'belitttle',
+				],
+				'belittled'=>[
+					'belitled',
+					'belitttled',
+				],
+				'belittlement'=>[
+					'belitlement',
+					'belitttlement',
+				],
+				'belittler'=>[
+					'belitler',
+					'belitttler',
+				],
+				'belittles'=>[
+					'belitles',
+					'belitttles',
+				],
+				'belittling'=>[
+					'belitling',
+					'belitttling',
+				],
 				'bell'=>[
 					# bel: an accepted spelling, not a slip (AmericanBritishWords_B: bel)
 				#	'bel',
 					'bell bell',
 					'bell bell bell',
+					'belll',
 				],
 				'belladonna'=>[
 					'beladonna',
 					'belladona',
+					'belladonnna',
+					'bellladonna',
 				],
 				'belladonnine'=>[
 					'belladonine',
 				],
+				'bellarmine'=>[
+					'belarmine',
+					'belllarmine',
+				],
+				'bellarmines'=>[
+					'belarmines',
+					'belllarmines',
+				],
+				'bellbird'=>[
+					'belbird',
+					'belllbird',
+				],
+				'bellbirds'=>[
+					'belbirds',
+					'belllbirds',
+				],
+				'bellbottom'=>[
+					'belbottom',
+					'bellbotom',
+					'bellbotttom',
+					'belllbottom',
+				],
+				'bellbottomed'=>[
+					'belbottomed',
+					'bellbotomed',
+					'bellbotttomed',
+					'belllbottomed',
+				],
+				'bellboy'=>[
+					'belboy',
+					'belllboy',
+				],
+				'bellboys'=>[
+					'belboys',
+					'belllboys',
+				],
 				'belle'=>[
 					'bele',
+					'bellle',
+				],
+				'belled'=>[
+					'bellled',
+				],
+				'belleek'=>[
+					'beleek',
+					'belleeek',
+					'bellek',
+					'bellleek',
+				],
+				'bellerophon'=>[
+					'belerophon',
+					'belllerophon',
+				],
+				'belles'=>[
+					'beles',
+					'bellles',
+				],
+				'belletrism'=>[
+					'beletrism',
+					'bellletrism',
+				],
+				'belletrist'=>[
+					'beletrist',
+					'bellletrist',
+				],
+				'belletristic'=>[
+					'beletristic',
+					'bellletristic',
+				],
+				'belletrists'=>[
+					'beletrists',
+					'bellletrists',
 				],
 				'belleville'=>[
 					'bellevile',
 				],
 				'bellflower'=>[
 					'belflower',
+					'belllflower',
+				],
+				'bellflowers'=>[
+					'belllflowers',
+				],
+				'bellhop'=>[
+					'belhop',
+					'belllhop',
+				],
+				'bellhops'=>[
+					'belhops',
+					'belllhops',
 				],
 				'bellicose'=>[
 					'belicose',
+					'belllicose',
+				],
+				'bellicosity'=>[
+					'belicosity',
+					'belllicosity',
+				],
+				'bellied'=>[
+					'belllied',
+				],
+				'bellies'=>[
+					'belllies',
 				],
 				'belligerence'=>[
 					'beligerence',
 					'belligerance',
+					'bellligerence',
 				],
 				'belligerencies'=>[
 					'beligerencies',
@@ -1815,30 +3683,122 @@
 				'belligerency'=>[
 					'beligerency',
 					'belligerensy',
+					'bellligerency',
 				],
 				'belligerent'=>[
 					'beligerent',
 					'belligerant',
+					'bellligerent',
+				],
+				'belligerently'=>[
+					'beligerently',
+					'bellligerently',
+				],
+				'belligerents'=>[
+					'beligerents',
+					'bellligerents',
+				],
+				'belling'=>[
+					'beling',
+					'bellling',
+				],
+				'bellini'=>[
+					'belini',
+					'belllini',
+				],
+				'bellman'=>[
+					'belllman',
+				],
+				'bellmen'=>[
+					'belllmen',
+					'belmen',
 				],
 				'bellow'=>[
 					'belllow',
 				],
+				'bellowed'=>[
+					'belllowed',
+				],
+				'bellowing'=>[
+					'belllowing',
+				],
 				'bellows'=>[
 					'belows',
+					'belllows',
+				],
+				'bells'=>[
+					'bellls',
 				],
 				'bellwether'=>[
 					'bell-wether',
 					'bellweather',
 					'belwether',
+					'belllwether',
 				],
 				'bellwethers'=>[
 					'bellweathers',
+					'belllwethers',
+				],
+				'bellwort'=>[
+					'belllwort',
+					'belwort',
+				],
+				'bellworts'=>[
+					'belllworts',
+					'belworts',
 				],
 				'belly'=>[
 					'belally',
 					'belaly',
 					'bellly',
 					'bely',
+				],
+				'bellyache'=>[
+					'belllyache',
+					'belyache',
+				],
+				'bellyached'=>[
+					'belllyached',
+					'belyached',
+				],
+				'bellyaches'=>[
+					'belllyaches',
+					'belyaches',
+				],
+				'bellyaching'=>[
+					'belllyaching',
+					'belyaching',
+				],
+				'bellyband'=>[
+					'belllyband',
+					'belyband',
+				],
+				'bellybands'=>[
+					'belllybands',
+					'belybands',
+				],
+				'bellybutton'=>[
+					'belllybutton',
+					'bellybuton',
+					'bellybuttton',
+					'belybutton',
+				],
+				'bellybuttons'=>[
+					'belllybuttons',
+					'bellybutons',
+					'bellybutttons',
+					'belybuttons',
+				],
+				'bellyful'=>[
+					'belllyful',
+					'belyful',
+				],
+				'bellyfuls'=>[
+					'belllyfuls',
+					'belyfuls',
+				],
+				'bellying'=>[
+					'belllying',
 				],
 				'belongingnesses'=>[
 					'belongingneses',
@@ -1886,6 +3846,9 @@
 					'benefical',
 					'benificial',
 				],
+				'beneficially'=>[
+					'beneficiallly',
+				],
 				'beneficiary'=>[
 					'beneficary',
 					'beneficiery',
@@ -1901,6 +3864,9 @@
 				'benefits'=>[
 					'benfits',
 					'benifits',
+				],
+				'benefitting'=>[
+					'benefittting',
 				],
 				'benevolence'=>[
 					'benevolance',
@@ -1935,15 +3901,25 @@
 				],
 				'benne'=>[
 					'bene',
+					'bennne',
 				],
 				'bennet'=>[
 					'benet',
+					'bennnet',
 				],
 				'benni'=>[
 					'beni',
 				],
+				'bennie'=>[
+					'bennnie',
+				],
+				'bennies'=>[
+					'benies',
+					'bennnies',
+				],
 				'benny'=>[
 					'beny',
+					'bennny',
 				],
 				'benny moré'=>[
 					'benny more',
@@ -1970,6 +3946,10 @@
 				],
 				'bents'=>[
 					'bants',
+				],
+				'bentwood'=>[
+					'bentwod',
+					'bentwoood',
 				],
 				'benzamidine'=>[
 					'benzamindine',
@@ -2011,6 +3991,10 @@
 				'bereaved'=>[
 					'bereved',
 				],
+				'beretta'=>[
+					'bereta',
+					'berettta',
+				],
 				'bergamot'=>[
 					'bergamont',
 				],
@@ -2026,23 +4010,94 @@
 				'bernoulli'=>[
 					'bernouilli',
 				],
+				'berra'=>[
+					'berrra',
+				],
+				'berretta'=>[
+					'berreta',
+					'berrettta',
+					'berrretta',
+				],
 				'berried'=>[
 					'beried',
+					'berrried',
+				],
+				'berries'=>[
+					'berrries',
 				],
 				'berry'=>[
 					'bery',
+					'berrry',
+				],
+				'berrying'=>[
+					'berrrying',
+				],
+				'berrylike'=>[
+					'berrrylike',
+					'berylike',
+				],
+				'berseem'=>[
+					'berseeem',
+					'bersem',
 				],
 				'berserk'=>[
 					'beserk',
 				],
+				'berylline'=>[
+					'beryllline',
+				],
 				'beryllium'=>[
 					'berylium',
+					'berylllium',
 				],
 				'bescreened'=>[
 					'bescreend',
 				],
+				'beseech'=>[
+					'besech',
+					'beseeech',
+				],
+				'beseeched'=>[
+					'beseeeched',
+				],
+				'beseecher'=>[
+					'beseeecher',
+				],
+				'beseechers'=>[
+					'besechers',
+					'beseeechers',
+				],
+				'beseeches'=>[
+					'beseeeches',
+				],
+				'beseeching'=>[
+					'beseeeching',
+				],
+				'beseechingly'=>[
+					'besechingly',
+					'beseeechingly',
+				],
+				'beseem'=>[
+					'beseeem',
+					'besem',
+				],
+				'beseemed'=>[
+					'beseeemed',
+					'besemed',
+				],
+				'beseeming'=>[
+					'beseeeming',
+					'beseming',
+				],
+				'beseems'=>[
+					'beseeems',
+					'besems',
+				],
 				'beset'=>[
 					'besetted',
+				],
+				'besetting'=>[
+					'besettting',
 				],
 				'beside the'=>[
 					'besidet he',
@@ -2057,8 +4112,33 @@
 				'besieged'=>[
 					'beseiged',
 				],
+				'beslobber'=>[
+					'beslobbber',
+					'beslober',
+				],
 				'besmear'=>[
 					'besmeer',
+				],
+				'besotted'=>[
+					'besottted',
+				],
+				'besotting'=>[
+					'besottting',
+				],
+				'bespatter'=>[
+					'bespattter',
+				],
+				'bespattered'=>[
+					'bespatered',
+					'bespatttered',
+				],
+				'bespattering'=>[
+					'bespatering',
+					'bespatttering',
+				],
+				'bespatters'=>[
+					'bespaters',
+					'bespattters',
 				],
 				'bespousing'=>[
 					'bespouisng',
@@ -2080,17 +4160,51 @@
 				'bestiality'=>[
 					'beastiality',
 				],
+				'bestially'=>[
+					'bestiallly',
+					'bestialy',
+				],
 				'bestiary'=>[
 					'bestiery',
 				],
+				'bestirred'=>[
+					'bestirrred',
+				],
+				'bestirring'=>[
+					'bestirrring',
+				],
+				'bestraddle'=>[
+					'bestradddle',
+					'bestradle',
+				],
+				'bestridden'=>[
+					'bestriddden',
+					'bestriden',
+				],
+				'bestseller'=>[
+					'bestseler',
+					'bestselller',
+				],
 				'bestsellerdoms'=>[
 					'bestselerdoms',
+				],
+				'bestsellers'=>[
+					'bestselers',
+					'bestselllers',
+				],
+				'bestselling'=>[
+					'bestseling',
+					'bestsellling',
 				],
 				'betaine'=>[
 					'betaini',
 				],
 				'betokened'=>[
 					'betokend',
+				],
+				'betook'=>[
+					'betok',
+					'betoook',
 				],
 				'betrayal'=>[
 					'betrayel',
@@ -2105,13 +4219,48 @@
 					'betrotal',
 					'bethrothal',
 				],
+				'betta'=>[
+					'bettta',
+				],
+				'betted'=>[
+					'bettted',
+				],
 				'better'=>[
 					'beter',
 					'better better',
 					'better better better',
+					'bettter',
+				],
+				'bettered'=>[
+					'betered',
+					'betttered',
+				],
+				'bettering'=>[
+					'betering',
+					'betttering',
 				],
 				'betterment'=>[
 					'bettermant',
+					'beterment',
+					'bettterment',
+				],
+				'betters'=>[
+					'beters',
+					'bettters',
+				],
+				'betting'=>[
+					'bettting',
+				],
+				'bettor'=>[
+					'betor',
+					'betttor',
+				],
+				'bettors'=>[
+					'betors',
+					'betttors',
+				],
+				'betty'=>[
+					'bettty',
 				],
 				'between'=>[
 					'beetween',
@@ -2137,11 +4286,32 @@
 				'betweennesses'=>[
 					'betweenesses',
 				],
+				'betweentimes'=>[
+					'betweeentimes',
+					'betwentimes',
+				],
+				'betweenwhiles'=>[
+					'betweeenwhiles',
+					'betwenwhiles',
+				],
+				'bevelled'=>[
+					'bevellled',
+				],
+				'bevelling'=>[
+					'bevellling',
+				],
+				'bevvies'=>[
+					'bevvvies',
+				],
+				'bevvy'=>[
+					'bevvvy',
+				],
 				'beweary'=>[
 					'beweery',
 				],
 				'bewigged'=>[
 					'bewiged',
+					'bewiggged',
 				],
 				'bewilderedly'=>[
 					'bewilderedally',
@@ -2169,6 +4339,17 @@
 				'biannual'=>[
 					'biannaul',
 					'bianual',
+					'biannnual',
+				],
+				'biannually'=>[
+					'biannnually',
+					'biannuallly',
+					'biannualy',
+					'bianually',
+				],
+				'biannulate'=>[
+					'biannnulate',
+					'bianulate',
 				],
 				'biased'=>[
 					'baised',
@@ -2186,12 +4367,14 @@
 				],
 				'bibb'=>[
 					'bib',
+					'bibbb',
 				],
 				'bibbed'=>[
 					'bibed',
 				],
 				'bibber'=>[
 					'biber',
+					'bibbber',
 				],
 				'bibberies'=>[
 					'biberies',
@@ -2207,6 +4390,14 @@
 				],
 				'bibbs'=>[
 					'bibs',
+				],
+				'biblically'=>[
+					'biblicallly',
+					'biblicaly',
+				],
+				'bibliographically'=>[
+					'bibliographicallly',
+					'bibliographicaly',
 				],
 				'bibliographies'=>[
 					'bibliographeis',
@@ -2231,9 +4422,11 @@
 				'bicentennial'=>[
 					'bicantennial',
 					'bicentenial',
+					'bicentennnial',
 				],
 				'bicentennials'=>[
 					'bicentenials',
+					'bicentennnials',
 				],
 				'biceps'=>[
 					'bicep',
@@ -2248,6 +4441,10 @@
 				],
 				'biclonal'=>[
 					'bioclonal',
+				],
+				'bicollateral'=>[
+					'bicolateral',
+					'bicolllateral',
 				],
 				'bicommissural'=>[
 					'bicomissural',
@@ -2265,6 +4462,27 @@
 				],
 				'biddable'=>[
 					'biddible',
+					'bidable',
+					'bidddable',
+				],
+				'bidden'=>[
+					'biddden',
+				],
+				'bidder'=>[
+					'biddder',
+				],
+				'bidders'=>[
+					'biddders',
+				],
+				'biddies'=>[
+					'bidddies',
+					'bidies',
+				],
+				'bidding'=>[
+					'biddding',
+				],
+				'biddy'=>[
+					'bidddy',
 				],
 				'bidental'=>[
 					'bidantal',
@@ -2275,6 +4493,7 @@
 				],
 				'bidirectionally'=>[
 					'bidirectionaly',
+					'bidirectionallly',
 				],
 				'bield'=>[
 					'beild',
@@ -2287,16 +4506,32 @@
 				],
 				'biennia'=>[
 					'bienia',
+					'biennnia',
 				],
 				'biennial'=>[
 					'beinnial',
 					'bienial',
 					'binnial',
+					'biennnial',
+				],
+				'biennially'=>[
+					'bienially',
+					'bienniallly',
+					'biennnially',
+				],
+				'biennials'=>[
+					'bienials',
+					'biennnials',
 				],
 				'biennium'=>[
 					'beinnium',
 					'bienium',
 					'binnium',
+					'biennnium',
+				],
+				'bienniums'=>[
+					'bieniums',
+					'biennniums',
 				],
 				'biepicondylar'=>[
 					'biepicondilar',
@@ -2311,6 +4546,24 @@
 				'bifarious'=>[
 					'bifarous',
 				],
+				'biff'=>[
+					'bifff',
+				],
+				'biffed'=>[
+					'bifed',
+					'bifffed',
+				],
+				'biffin'=>[
+					'bifffin',
+					'bifin',
+				],
+				'biffing'=>[
+					'bifffing',
+					'bifing',
+				],
+				'biffs'=>[
+					'bifffs',
+				],
 				'bifidly'=>[
 					'bifidally',
 					'bifidaly',
@@ -2322,6 +4575,7 @@
 				],
 				'biflagellate'=>[
 					'biflagelate',
+					'biflagelllate',
 				],
 				'big'=>[
 					'big big',
@@ -2333,8 +4587,21 @@
 				'bigeminal'=>[
 					'bigeminil',
 				],
+				'bigfoot'=>[
+					'bigfooot',
+					'bigfot',
+				],
+				'bigfoots'=>[
+					'bigfooots',
+					'bigfots',
+				],
+				'bigger'=>[
+					'biger',
+					'biggger',
+				],
 				'biggest'=>[
 					'bigest',
+					'bigggest',
 				],
 				'biggety'=>[
 					'bigety',
@@ -2343,6 +4610,23 @@
 					'biggei',
 					'biggi',
 					'bigie',
+					'bigggie',
+				],
+				'biggies'=>[
+					'bigggies',
+					'bigies',
+				],
+				'biggin'=>[
+					'bigggin',
+					'bigin',
+				],
+				'biggins'=>[
+					'bigggins',
+					'bigins',
+				],
+				'biggish'=>[
+					'bigggish',
+					'bigish',
 				],
 				'biggity'=>[
 					'bigity',
@@ -2389,12 +4673,18 @@
 				],
 				'bilaterally'=>[
 					'bilateraly',
+					'bilaterallly',
 				],
 				'bilaterian'=>[
 					'bilatarian',
 				],
+				'bilberries'=>[
+					'bilberies',
+					'bilberrries',
+				],
 				'bilberry'=>[
 					'bilbery',
+					'bilberrry',
 				],
 				'biliary'=>[
 					'biliery',
@@ -2412,6 +4702,10 @@
 				'bilingualisms'=>[
 					'bilingaulisms',
 				],
+				'bilingually'=>[
+					'bilinguallly',
+					'bilingualy',
+				],
 				'bilious'=>[
 					'bilous',
 				],
@@ -2424,54 +4718,183 @@
 				],
 				'bill'=>[
 					'bil',
+					'billl',
+				],
+				'billable'=>[
+					'bilable',
+					'billlable',
+				],
+				'billabong'=>[
+					'bilabong',
+					'billlabong',
 				],
 				'billboard'=>[
 					'bilboard',
+					'billlboard',
+				],
+				'billboards'=>[
+					'bilboards',
+					'billlboards',
+				],
+				'billbug'=>[
+					'bilbug',
+					'billlbug',
+				],
+				'billed'=>[
+					'billled',
 				],
 				'biller'=>[
 					'biler',
 				],
 				'billet'=>[
 					'bilet',
+					'billlet',
+				],
+				'billeted'=>[
+					'billleted',
+				],
+				'billeting'=>[
+					'billleting',
+				],
+				'billets'=>[
+					'bilets',
+					'billlets',
+				],
+				'billfish'=>[
+					'bilfish',
+					'billlfish',
+				],
+				'billfold'=>[
+					'bilfold',
+					'billlfold',
+				],
+				'billfolds'=>[
+					'bilfolds',
+					'billlfolds',
+				],
+				'billhead'=>[
+					'bilhead',
+					'billlhead',
+				],
+				'billhook'=>[
+					'bilhook',
+					'billhok',
+					'billhoook',
+					'billlhook',
+				],
+				'billhooks'=>[
+					'bilhooks',
+					'billhoks',
+					'billhoooks',
+					'billlhooks',
 				],
 				'billiard'=>[
 					'biliard',
+					'billliard',
 				],
 				'billiards'=>[
 					'biliards',
+					'billliards',
+				],
+				'billies'=>[
+					'billlies',
 				],
 				'billing'=>[
 					'biling',
+					'billling',
+				],
+				'billings'=>[
+					'billlings',
 				],
 				'billingsgate'=>[
 					'bilingsgate',
+					'billlingsgate',
 				],
 				'billion'=>[
 					'bilion',
+					'billlion',
 				],
 				'billionaire'=>[
 					'bilionaire',
+					'billlionaire',
+				],
+				'billionaires'=>[
+					'bilionaires',
+					'billlionaires',
 				],
 				'billions'=>[
 					'billlions',
+					'bilions',
 				],
 				'billionth'=>[
 					'bilionth',
+					'billlionth',
+				],
+				'billionths'=>[
+					'bilionths',
+					'billlionths',
 				],
 				'billon'=>[
 					'bilon',
+					'billlon',
 				],
 				'billow'=>[
 					'bilow',
+					'billlow',
+				],
+				'billowed'=>[
+					'billlowed',
+					'bilowed',
+				],
+				'billowier'=>[
+					'billlowier',
+					'bilowier',
+				],
+				'billowiest'=>[
+					'billlowiest',
+					'bilowiest',
+				],
+				'billowing'=>[
+					'billlowing',
+					'bilowing',
+				],
+				'billows'=>[
+					'billlows',
+					'bilows',
+				],
+				'billowy'=>[
+					'billlowy',
+					'bilowy',
+				],
+				'billposter'=>[
+					'billlposter',
+					'bilposter',
+				],
+				'billposters'=>[
+					'billlposters',
+					'bilposters',
 				],
 				'bills'=>[
 					'bils',
+					'billls',
 				],
 				'billy'=>[
 					'bilally',
 					'bilaly',
 					'billly',
 					'bily',
+				],
+				'billycan'=>[
+					'billlycan',
+					'bilycan',
+				],
+				'billycans'=>[
+					'billlycans',
+					'bilycans',
+				],
+				'billycock'=>[
+					'billlycock',
+					'bilycock',
 				],
 				'bilobular'=>[
 					'bilobuler',
@@ -2490,6 +4913,13 @@
 				],
 				'bimetallic'=>[
 					'bimetalic',
+					'bimetalllic',
+				],
+				'bimetallics'=>[
+					'bimetalllics',
+				],
+				'bimetallism'=>[
+					'bimetalllism',
 				],
 				'bimillenary'=>[
 					'bimillenery',
@@ -2543,6 +4973,14 @@
 				'binaural'=>[
 					'biniural',
 				],
+				'binaurally'=>[
+					'binaurallly',
+					'binauraly',
+				],
+				'bindweed'=>[
+					'bindwed',
+					'bindweeed',
+				],
 				'biner'=>[
 					'binir',
 				],
@@ -2560,6 +4998,17 @@
 				],
 				'binnacle'=>[
 					'binacle',
+					'binnnacle',
+				],
+				'binnacles'=>[
+					'binacles',
+					'binnnacles',
+				],
+				'binned'=>[
+					'binnned',
+				],
+				'binning'=>[
+					'binnning',
 				],
 				'binocular'=>[
 					'binoculer',
@@ -2577,11 +5026,23 @@
 				'binomial'=>[
 					'binominal',
 				],
+				'binomially'=>[
+					'binomiallly',
+					'binomialy',
+				],
 				'binuclear'=>[
 					'binucleer',
 				],
 				'bioavailability'=>[
 					'bioavailibility',
+				],
+				'biocellate'=>[
+					'biocelate',
+					'biocelllate',
+				],
+				'biochemically'=>[
+					'biochemicallly',
+					'biochemicaly',
 				],
 				'biochemistries'=>[
 					'biochemistreis',
@@ -2600,20 +5061,31 @@
 					'biodiversiteis',
 					'biodiversitis',
 				],
+				'bioengineer'=>[
+					'bioengineeer',
+					'bioenginer',
+				],
 				'bioengineered'=>[
 					'bioenginiered',
 				],
 				'bioengineering'=>[
 					'bioenginiering',
+					'bioengineeering',
+					'bioenginering',
 				],
 				'bioengineerings'=>[
 					'bioenginierings',
+				],
+				'biofeedback'=>[
+					'biofedback',
+					'biofeeedback',
 				],
 				'biofragmentable'=>[
 					'biofragmental',
 				],
 				'biogenetically'=>[
 					'biogeneticaly',
+					'biogeneticallly',
 				],
 				'biogeographies'=>[
 					'biogeographeis',
@@ -2621,6 +5093,7 @@
 				],
 				'biographically'=>[
 					'biographicaly',
+					'biographicallly',
 				],
 				'biography'=>[
 					'biographie',
@@ -2630,6 +5103,10 @@
 				],
 				'biological'=>[
 					'bological',
+				],
+				'biologically'=>[
+					'biologicallly',
+					'biologicaly',
 				],
 				'bioluminescence'=>[
 					'bioluminecence',
@@ -2676,6 +5153,10 @@
 				],
 				'biomorphs'=>[
 					'biomourphs',
+				],
+				'bionically'=>[
+					'bionicallly',
+					'bionicaly',
 				],
 				'biopersistence'=>[
 					'biopersistance',
@@ -2787,6 +5268,7 @@
 				],
 				'bipinnate'=>[
 					'bipinate',
+					'bipinnnate',
 				],
 				'bipinnately'=>[
 					'bipinnatly',
@@ -2797,6 +5279,7 @@
 				'bipropellant'=>[
 					'bipropelant',
 					'bipropellent',
+					'bipropelllant',
 				],
 				'bipropellants'=>[
 					'bipropellents',
@@ -2827,14 +5310,43 @@
 				'birds'=>[
 					'brids',
 				],
+				'birdseed'=>[
+					'birdseeed',
+				],
 				'birefringence'=>[
 					'birefringance',
 				],
+				'biretta'=>[
+					'bireta',
+					'birettta',
+				],
+				'birettas'=>[
+					'biretas',
+					'biretttas',
+				],
 				'birr'=>[
 					'bir',
+					'birrr',
+				],
+				'birred'=>[
+					'bired',
+					'birrred',
+				],
+				'birring'=>[
+					'biring',
+					'birrring',
 				],
 				'birrs'=>[
 					'birs',
+					'birrrs',
+				],
+				'birthroot'=>[
+					'birthrooot',
+					'birthrot',
+				],
+				'birthroots'=>[
+					'birthrooots',
+					'birthrots',
 				],
 				'bisbenzimide'=>[
 					'bisbenimide',
@@ -2850,11 +5362,19 @@
 				'bisection'=>[
 					'disection',
 				],
+				'biserrate'=>[
+					'biserate',
+					'biserrrate',
+				],
 				'bisexual'=>[
 					'bisexaul',
 				],
 				'bisexualities'=>[
 					'bisexaulities',
+				],
+				'bisexually'=>[
+					'bisexuallly',
+					'bisexualy',
 				],
 				'bismuthal'=>[
 					'bismutal',
@@ -2881,18 +5401,75 @@
 				'bitsy'=>[
 					'bitcy',
 				],
+				'bitted'=>[
+					'bittted',
+				],
 				'bitten'=>[
 					'biten',
+					'bittten',
+				],
+				'bitter'=>[
+					'bittter',
+				],
+				'bitterer'=>[
+					'bittterer',
+				],
+				'bitterest'=>[
+					'bittterest',
+				],
+				'bitterling'=>[
+					'biterling',
+					'bittterling',
+				],
+				'bitterly'=>[
+					'bittterly',
+				],
+				'bittern'=>[
+					'bitern',
+					'bitttern',
 				],
 				'bitterness'=>[
 					'bitternes',
 					'bitternesss',
+					'biterness',
+					'bittterness',
+				],
+				'bitterns'=>[
+					'biterns',
+					'bittterns',
+				],
+				'bitternut'=>[
+					'biternut',
+					'bittternut',
+				],
+				'bitternuts'=>[
+					'biternuts',
+					'bittternuts',
 				],
 				'bitterroot'=>[
 					'bitteroot',
+					'biterroot',
+					'bitterrooot',
+					'bitterrot',
+					'bitterrroot',
+					'bittterroot',
 				],
 				'bitterroots'=>[
 					'bitteroots',
+					'biterroots',
+					'bitterrooots',
+					'bitterrots',
+					'bitterrroots',
+					'bittterroots',
+				],
+				'bitters'=>[
+					'bittters',
+				],
+				'bittersweet'=>[
+					'bitersweet',
+					'bittersweeet',
+					'bitterswet',
+					'bitttersweet',
 				],
 				'bittersweetly'=>[
 					'bittersweetally',
@@ -2900,9 +5477,44 @@
 					'bittersweetely',
 					'bittersweetlly',
 				],
+				'bittersweets'=>[
+					'bitersweets',
+					'bittersweeets',
+					'bitterswets',
+					'bitttersweets',
+				],
+				'bitterweed'=>[
+					'biterweed',
+					'bitterwed',
+					'bitterweeed',
+					'bittterweed',
+				],
+				'bitterweeds'=>[
+					'biterweeds',
+					'bitterweds',
+					'bitterweeeds',
+					'bittterweeds',
+				],
+				'bittier'=>[
+					'bitttier',
+				],
+				'bittiest'=>[
+					'bitttiest',
+				],
 				'bittiness'=>[
 					'bittines',
 					'bittinesss',
+					'bitiness',
+					'bitttiness',
+				],
+				'bitting'=>[
+					'bittting',
+				],
+				'bitts'=>[
+					'bittts',
+				],
+				'bitty'=>[
+					'bittty',
 				],
 				'bituminization'=>[
 					'bituminazation',
@@ -2934,11 +5546,17 @@
 				'bivouac'=>[
 					'bivoauc',
 				],
+				'biweeklies'=>[
+					'biweeeklies',
+					'biweklies',
+				],
 				'biweekly'=>[
 					'biweekally',
 					'biweekaly',
 					'biweekely',
 					'biweeklly',
+					'biweeekly',
+					'biwekly',
 				],
 				'biyearly'=>[
 					'biyearally',
@@ -2950,23 +5568,29 @@
 					'bizaare',
 					'bizare',
 					'bizzare',
+					'bizarrre',
 				],
 				'bizarrely'=>[
 					'bizarrly',
 					'bizzarely',
+					'bizarely',
+					'bizarrrely',
 				],
 				'bizarreness'=>[
 					'bizareness',
 					'bizarrenes',
 					'bizarrenesss',
+					'bizarrreness',
 				],
 				'bizarrenesses'=>[
 					'bizarenesses',
 					'bizarreneses',
 					'bizarrenessses',
+					'bizarrrenesses',
 				],
 				'bizarrerie'=>[
 					'bizarerie',
+					'bizarrrerie',
 				],
 				'bizarreries'=>[
 					'bizareries',
@@ -2976,27 +5600,35 @@
 				],
 				'blabbed'=>[
 					'blabed',
+					'blabbbed',
 				],
 				'blabber'=>[
 					'blaber',
+					'blabbber',
 				],
 				'blabbered'=>[
 					'blabered',
+					'blabbbered',
 				],
 				'blabbering'=>[
 					'blabering',
+					'blabbbering',
 				],
 				'blabbermouth'=>[
 					'blabermouth',
+					'blabbbermouth',
 				],
 				'blabbermouths'=>[
 					'blabermouths',
+					'blabbbermouths',
 				],
 				'blabbers'=>[
 					'blabers',
+					'blabbbers',
 				],
 				'blabbing'=>[
 					'blabing',
+					'blabbbing',
 				],
 				'blabby'=>[
 					'blaby',
@@ -3008,17 +5640,66 @@
 				'black-box testing'=>[
 					'black box testing',
 				],
+				'blackamoor'=>[
+					'blackamooor',
+					'blackamor',
+				],
+				'blackamoors'=>[
+					'blackamooors',
+					'blackamors',
+				],
+				'blackball'=>[
+					'blackbal',
+					'blackballl',
+				],
+				'blackballed'=>[
+					'blackbaled',
+					'blackballled',
+				],
+				'blackballing'=>[
+					'blackbaling',
+					'blackballling',
+				],
+				'blackballs'=>[
+					'blackballls',
+					'blackbals',
+				],
+				'blackberries'=>[
+					'blackberies',
+					'blackberrries',
+				],
 				'blackberry'=>[
 					'blackbery',
+					'blackberrry',
+				],
+				'blackberrying'=>[
+					'blackberrrying',
+					'blackberying',
+				],
+				'blackcurrant'=>[
+					'blackcurant',
+					'blackcurrrant',
+				],
+				'blackcurrants'=>[
+					'blackcurants',
+					'blackcurrrants',
 				],
 				'blackened'=>[
 					'blackend',
+				],
+				'blackfellow'=>[
+					'blackfelllow',
+					'blackfelow',
 				],
 				'blackfly'=>[
 					'blackfally',
 					'blackfaly',
 					'blackfely',
 					'blackflly',
+				],
+				'blackfoot'=>[
+					'blackfooot',
+					'blackfot',
 				],
 				'blackguard'=>[
 					'blackgaurd',
@@ -3038,21 +5719,76 @@
 				'blackguardly'=>[
 					'blackgaurdly',
 				],
+				'blacklegged'=>[
+					'blackleggged',
+				],
+				'blacklegging'=>[
+					'blackleggging',
+				],
 				'blackness'=>[
 					'blacknes',
 					'blacknesss',
 				],
+				'blackpoll'=>[
+					'blackpol',
+					'blackpolll',
+				],
+				'blackpolls'=>[
+					'blackpollls',
+					'blackpols',
+				],
 				'blacktopped'=>[
 					'blacktoped',
+					'blacktoppped',
 				],
 				'blacktopping'=>[
 					'blacktoping',
+					'blacktoppping',
+				],
+				'blackwood'=>[
+					'blackwod',
+					'blackwoood',
+				],
+				'bladder'=>[
+					'bladdder',
+				],
+				'bladdernose'=>[
+					'bladddernose',
+					'bladernose',
+				],
+				'bladdernoses'=>[
+					'bladddernoses',
+					'bladernoses',
+				],
+				'bladdernut'=>[
+					'bladddernut',
+					'bladernut',
+				],
+				'bladders'=>[
+					'bladdders',
+				],
+				'bladderwort'=>[
+					'bladdderwort',
+					'bladerwort',
+				],
+				'bladderworts'=>[
+					'bladdderworts',
+					'bladerworts',
 				],
 				'blaeberries'=>[
 					'blaeberies',
+					'blaeberrries',
+				],
+				'blaeberry'=>[
+					'blaeberrry',
+					'blaebery',
+				],
+				'blagged'=>[
+					'blaggged',
 				],
 				'blagging'=>[
 					'blaging',
+					'blaggging',
 				],
 				'blaggings'=>[
 					'blagings',
@@ -3108,9 +5844,17 @@
 					'blandnes',
 					'blandnesss',
 				],
+				'blankbook'=>[
+					'blankbok',
+					'blankboook',
+				],
 				'blankness'=>[
 					'blanknes',
 					'blanknesss',
+				],
+				'blanquette'=>[
+					'blanquete',
+					'blanquettte',
 				],
 				'blasphemously'=>[
 					'blasphemousally',
@@ -3127,6 +5871,14 @@
 				'blastodisc'=>[
 					'blastodics',
 				],
+				'blastoff'=>[
+					'blastof',
+					'blastofff',
+				],
+				'blastoffs'=>[
+					'blastofffs',
+					'blastofs',
+				],
 				'blastular'=>[
 					'blastuler',
 				],
@@ -3138,6 +5890,12 @@
 				],
 				'blatantly'=>[
 					'blatently',
+				],
+				'blatted'=>[
+					'blattted',
+				],
+				'blatting'=>[
+					'blattting',
 				],
 				'bleach'=>[
 					'blech',
@@ -3171,11 +5929,52 @@
 				'bled'=>[
 					'bleeded',
 				],
+				'bleed'=>[
+					'bleeed',
+				],
+				'bleeder'=>[
+					'bleeeder',
+				],
+				'bleeders'=>[
+					'bleders',
+					'bleeeders',
+				],
 				'bleeding'=>[
 					'bleeeding',
 				],
+				'bleeds'=>[
+					'bleeeds',
+				],
+				'bleep'=>[
+					'bleeep',
+				],
+				'bleeped'=>[
+					'bleeeped',
+				],
+				'bleeper'=>[
+					'bleeeper',
+				],
+				'bleepers'=>[
+					'bleeepers',
+					'blepers',
+				],
+				'bleeping'=>[
+					'bleeeping',
+				],
+				'bleeps'=>[
+					'bleeeps',
+				],
+				'blennies'=>[
+					'blenies',
+					'blennnies',
+				],
+				'blennioid'=>[
+					'blenioid',
+					'blennnioid',
+				],
 				'blenny'=>[
 					'bleny',
+					'blennny',
 				],
 				'blent'=>[
 					'blant',
@@ -3238,6 +6037,8 @@
 				'blissfully'=>[
 					'blisfully',
 					'blisssfully',
+					'blissfullly',
+					'blissfuly',
 				],
 				'blissfulness'=>[
 					'blisfulness',
@@ -3250,6 +6051,10 @@
 				],
 				'blistery'=>[
 					'blistary',
+				],
+				'blithefully'=>[
+					'blithefullly',
+					'blithefuly',
 				],
 				'blithefulness'=>[
 					'blithefulnes',
@@ -3273,15 +6078,36 @@
 					'blitzkreig',
 					'blitzkrig',
 				],
+				'blizzard'=>[
+					'blizzzard',
+				],
+				'blizzards'=>[
+					'blizzzards',
+				],
 				'blobbed'=>[
 					'blobed',
+					'blobbbed',
 				],
 				'blobbing'=>[
 					'blobing',
+					'blobbbing',
 				],
 				'block'=>[
 					'block block',
 					'block block block',
+				],
+				'blogged'=>[
+					'bloggged',
+				],
+				'blogger'=>[
+					'bloggger',
+				],
+				'bloggers'=>[
+					'blogers',
+					'blogggers',
+				],
+				'blogging'=>[
+					'bloggging',
 				],
 				'bloggings'=>[
 					'blogings',
@@ -3297,17 +6123,72 @@
 				'blood'=>[
 					'blood blood',
 					'blood blood blood',
+					'bloood',
+				],
+				'bloodbath'=>[
+					'blodbath',
+					'blooodbath',
+				],
+				'bloodbaths'=>[
+					'blodbaths',
+					'blooodbaths',
+				],
+				'bloodcurdling'=>[
+					'blodcurdling',
+					'blooodcurdling',
+				],
+				'blooded'=>[
+					'bloooded',
+				],
+				'bloodfin'=>[
+					'blodfin',
+					'blooodfin',
 				],
 				'bloodguiltiness'=>[
 					'bloodguiltiniss',
 				],
+				'bloodhound'=>[
+					'blodhound',
+					'blooodhound',
+				],
+				'bloodhounds'=>[
+					'blodhounds',
+					'blooodhounds',
+				],
+				'bloodied'=>[
+					'blodied',
+					'blooodied',
+				],
+				'bloodier'=>[
+					'blodier',
+					'blooodier',
+				],
+				'bloodies'=>[
+					'blodies',
+					'blooodies',
+				],
+				'bloodiest'=>[
+					'blodiest',
+					'blooodiest',
+				],
+				'bloodily'=>[
+					'blodily',
+					'blooodily',
+				],
 				'bloodiness'=>[
 					'bloodines',
 					'bloodinesss',
+					'blodiness',
+					'blooodiness',
+				],
+				'blooding'=>[
+					'bloooding',
 				],
 				'bloodless'=>[
 					'bloodles',
 					'bloodlesss',
+					'blodless',
+					'blooodless',
 				],
 				'bloodlessly'=>[
 					'bloodlessally',
@@ -3316,29 +6197,208 @@
 					'bloodlesslly',
 					'bloodlesly',
 					'bloodlesssly',
+					'blodlessly',
+					'blooodlessly',
 				],
 				'bloodlessness'=>[
 					'bloodlesness',
 					'bloodlessnes',
 					'bloodlessnesss',
 					'bloodlesssness',
+					'blodlessness',
+					'blooodlessness',
+				],
+				'bloodletting'=>[
+					'blodletting',
+					'bloodlettting',
+					'blooodletting',
 				],
 				'bloodline'=>[
 					'bloodlini',
+					'blodline',
+					'blooodline',
+				],
+				'bloodlines'=>[
+					'blodlines',
+					'blooodlines',
+				],
+				'bloodmobile'=>[
+					'blodmobile',
+					'blooodmobile',
+				],
+				'bloodmobiles'=>[
+					'blodmobiles',
+					'blooodmobiles',
+				],
+				'bloodroot'=>[
+					'blodroot',
+					'bloodrooot',
+					'bloodrot',
+					'blooodroot',
+				],
+				'bloodroots'=>[
+					'blodroots',
+					'bloodrooots',
+					'bloodrots',
+					'blooodroots',
+				],
+				'bloods'=>[
+					'blooods',
+				],
+				'bloodshed'=>[
+					'blodshed',
+					'blooodshed',
+				],
+				'bloodshot'=>[
+					'blodshot',
+					'blooodshot',
+				],
+				'bloodsport'=>[
+					'blodsport',
+					'blooodsport',
+				],
+				'bloodsports'=>[
+					'blodsports',
+					'blooodsports',
+				],
+				'bloodstain'=>[
+					'blodstain',
+					'blooodstain',
 				],
 				'bloodstained'=>[
 					'bloodstainid',
+					'blodstained',
+					'blooodstained',
+				],
+				'bloodstains'=>[
+					'blodstains',
+					'blooodstains',
+				],
+				'bloodstock'=>[
+					'blodstock',
+					'blooodstock',
+				],
+				'bloodstone'=>[
+					'blodstone',
+					'blooodstone',
+				],
+				'bloodstones'=>[
+					'blodstones',
+					'blooodstones',
 				],
 				'bloodstream'=>[
 					'bloodstrem',
+					'blodstream',
+					'blooodstream',
+				],
+				'bloodstreams'=>[
+					'blodstreams',
+					'blooodstreams',
+				],
+				'bloodsucker'=>[
+					'blodsucker',
+					'blooodsucker',
+				],
+				'bloodsuckers'=>[
+					'blodsuckers',
+					'blooodsuckers',
+				],
+				'bloodsucking'=>[
+					'blodsucking',
+					'blooodsucking',
+				],
+				'bloodthirstier'=>[
+					'blodthirstier',
+					'blooodthirstier',
+				],
+				'bloodthirstiest'=>[
+					'blodthirstiest',
+					'blooodthirstiest',
+				],
+				'bloodthirstily'=>[
+					'blodthirstily',
+					'blooodthirstily',
 				],
 				'bloodthirstiness'=>[
 					'bloodthirstines',
 					'bloodthirstinesss',
+					'blodthirstiness',
+					'blooodthirstiness',
+				],
+				'bloodthirsty'=>[
+					'blodthirsty',
+					'blooodthirsty',
+				],
+				'bloodworm'=>[
+					'blodworm',
+					'blooodworm',
+				],
+				'bloody'=>[
+					'blody',
+					'blooody',
+				],
+				'bloodying'=>[
+					'blodying',
+					'blooodying',
 				],
 				'bloodymindedness'=>[
 					'bloodymindednes',
 					'bloodymindednesss',
+					'blodymindedness',
+					'blooodymindedness',
+				],
+				'bloom'=>[
+					'blooom',
+				],
+				'bloomed'=>[
+					'blooomed',
+				],
+				'bloomer'=>[
+					'blooomer',
+				],
+				'bloomers'=>[
+					'blooomers',
+				],
+				'bloomery'=>[
+					'blomery',
+					'blooomery',
+				],
+				'bloomier'=>[
+					'blomier',
+					'blooomier',
+				],
+				'bloomiest'=>[
+					'blomiest',
+					'blooomiest',
+				],
+				'blooming'=>[
+					'bloooming',
+				],
+				'blooms'=>[
+					'bloooms',
+				],
+				'bloomy'=>[
+					'blomy',
+					'blooomy',
+				],
+				'bloop'=>[
+					'blooop',
+				],
+				'blooped'=>[
+					'bloooped',
+				],
+				'blooper'=>[
+					'bloooper',
+				],
+				'bloopers'=>[
+					'blooopers',
+					'blopers',
+				],
+				'blooping'=>[
+					'bloooping',
+				],
+				'bloops'=>[
+					'blooops',
 				],
 				'blossom'=>[
 					'bloosom',
@@ -3369,6 +6429,23 @@
 				'blotchiness'=>[
 					'blotchines',
 					'blotchinesss',
+				],
+				'blotted'=>[
+					'blottted',
+				],
+				'blotter'=>[
+					'blottter',
+				],
+				'blotters'=>[
+					'bloters',
+					'blottters',
+				],
+				'blotting'=>[
+					'blottting',
+				],
+				'blotto'=>[
+					'bloto',
+					'blottto',
 				],
 				'blousier'=>[
 					'blouiser',
@@ -3403,12 +6480,15 @@
 				],
 				'blubbed'=>[
 					'blubed',
+					'blubbbed',
 				],
 				'blubber'=>[
 					'bluber',
+					'blubbber',
 				],
 				'blubbered'=>[
 					'blubered',
+					'blubbbered',
 				],
 				'blubberer'=>[
 					'bluberer',
@@ -3416,30 +6496,81 @@
 				'blubberers'=>[
 					'bluberers',
 				],
+				'blubberhead'=>[
+					'blubbberhead',
+					'bluberhead',
+				],
 				'blubbering'=>[
 					'blubering',
+					'blubbbering',
 				],
 				'blubbers'=>[
 					'blubers',
+					'blubbbers',
 				],
 				'blubbery'=>[
 					'blubery',
+					'blubbbery',
 				],
 				'blubbing'=>[
 					'blubing',
+					'blubbbing',
 				],
 				'blue'=>[
 					'blue blue',
 					'blue blue blue',
 				],
+				'bluebell'=>[
+					'bluebel',
+					'bluebelll',
+				],
+				'bluebells'=>[
+					'bluebellls',
+					'bluebels',
+				],
 				'blueberries'=>[
 					'blueberies',
+					'blueberrries',
 				],
 				'blueberry'=>[
 					'bluebery',
+					'blueberrry',
+				],
+				'bluebill'=>[
+					'bluebil',
+					'bluebilll',
+				],
+				'bluebills'=>[
+					'bluebillls',
+					'bluebils',
+				],
+				'blueblood'=>[
+					'blueblod',
+					'bluebloood',
 				],
 				'bluebonnet'=>[
 					'bluebonet',
+					'bluebonnnet',
+				],
+				'bluebonnets'=>[
+					'bluebonets',
+					'bluebonnnets',
+				],
+				'bluebottle'=>[
+					'bluebotle',
+					'bluebotttle',
+				],
+				'bluebottles'=>[
+					'bluebotles',
+					'bluebotttles',
+				],
+				'bluegill'=>[
+					'bluegil',
+					'bluegilll',
+				],
+				'bluegills'=>[
+					'bluegillls',
+					'bluegils',
 				],
 				'bluegrass'=>[
 					'bluegras',
@@ -3467,9 +6598,48 @@
 				'bluesy'=>[
 					'bluecy',
 				],
+				'bluetooth'=>[
+					'bluetoooth',
+					'bluetoth',
+				],
+				'blueweed'=>[
+					'bluewed',
+					'blueweeed',
+				],
+				'blueweeds'=>[
+					'blueweds',
+					'blueweeeds',
+				],
+				'bluff'=>[
+					'blufff',
+				],
+				'bluffed'=>[
+					'blufffed',
+				],
+				'bluffer'=>[
+					'blufffer',
+				],
+				'bluffers'=>[
+					'blufers',
+					'blufffers',
+				],
+				'bluffest'=>[
+					'blufffest',
+				],
+				'bluffing'=>[
+					'blufffing',
+				],
+				'bluffly'=>[
+					'blufffly',
+				],
 				'bluffness'=>[
 					'bluffnes',
 					'bluffnesss',
+					'blufffness',
+					'blufness',
+				],
+				'bluffs'=>[
+					'blufffs',
 				],
 				'blunderbuss'=>[
 					'blunderbus',
@@ -3484,9 +6654,29 @@
 					'bluntnes',
 					'bluntnesss',
 				],
+				'blurred'=>[
+					'blurrred',
+				],
+				'blurrier'=>[
+					'blurier',
+					'blurrrier',
+				],
+				'blurriest'=>[
+					'bluriest',
+					'blurrriest',
+				],
 				'blurriness'=>[
 					'blurrines',
 					'blurrinesss',
+					'bluriness',
+					'blurrriness',
+				],
+				'blurring'=>[
+					'blurrring',
+				],
+				'blurry'=>[
+					'blurrry',
+					'blury',
 				],
 				'blustery'=>[
 					'blustary',
@@ -3502,6 +6692,18 @@
 				'boarded'=>[
 					'borded',
 				],
+				'boardroom'=>[
+					'boardrom',
+					'boardrooom',
+				],
+				'boardrooms'=>[
+					'boardroms',
+					'boardroooms',
+				],
+				'boastfully'=>[
+					'boastfullly',
+					'boastfuly',
+				],
 				'boastfulness'=>[
 					'boastfulnes',
 					'boastfulnesss',
@@ -3513,8 +6715,17 @@
 					'boat boat',
 					'boat boat boat',
 				],
+				'boatbill'=>[
+					'boatbil',
+					'boatbilll',
+				],
+				'boatbills'=>[
+					'boatbillls',
+					'boatbils',
+				],
 				'bobbed'=>[
 					'bobed',
+					'bobbbed',
 				],
 				'bobber'=>[
 					'bober',
@@ -3527,42 +6738,89 @@
 				],
 				'bobbery'=>[
 					'bobery',
+					'bobbbery',
+				],
+				'bobbie'=>[
+					'bobbbie',
+					'bobie',
 				],
 				'bobbies'=>[
 					'bobies',
+					'bobbbies',
 				],
 				'bobbin'=>[
 					'bobin',
+					'bobbbin',
 				],
 				'bobbinet'=>[
 					'bobinet',
+					'bobbbinet',
 				],
 				'bobbinets'=>[
 					'bobinets',
 				],
 				'bobbing'=>[
 					'bobing',
+					'bobbbing',
 				],
 				'bobbins'=>[
 					'bobins',
+					'bobbbins',
+				],
+				'bobbitt'=>[
+					'bobbbitt',
+					'bobbit',
+					'bobbittt',
+					'bobitt',
 				],
 				'bobble'=>[
 					'boble',
+					'bobbble',
 				],
 				'bobbled'=>[
 					'bobled',
+					'bobbbled',
 				],
 				'bobbles'=>[
 					'bobles',
+					'bobbbles',
 				],
 				'bobbling'=>[
 					'bobling',
+					'bobbbling',
 				],
 				'bobby'=>[
 					'boby',
+					'bobbby',
+				],
+				'bobbysocks'=>[
+					'bobbbysocks',
+					'bobysocks',
 				],
 				'bobbysox'=>[
 					'bobysox',
+					'bobbbysox',
+				],
+				'bobbysoxer'=>[
+					'bobbbysoxer',
+					'bobysoxer',
+				],
+				'bobbysoxers'=>[
+					'bobbbysoxers',
+					'bobysoxers',
+				],
+				'bobsledded'=>[
+					'bobsleddded',
+				],
+				'bobsledder'=>[
+					'bobsleddder',
+				],
+				'bobsledders'=>[
+					'bobsleddders',
+					'bobsleders',
+				],
+				'bobsledding'=>[
+					'bobsleddding',
 				],
 				'bobsleigh'=>[
 					'bobsliegh',
@@ -3575,12 +6833,14 @@
 				],
 				'bocce'=>[
 					'boce',
+					'boccce',
 				],
 				'bocces'=>[
 					'boces',
 				],
 				'bocci'=>[
 					'boci',
+					'boccci',
 				],
 				'boccia'=>[
 					'bocia',
@@ -3590,6 +6850,7 @@
 				],
 				'boccie'=>[
 					'bocie',
+					'bocccie',
 				],
 				'boccies'=>[
 					'bocies',
@@ -3599,6 +6860,10 @@
 				],
 				'bodacious'=>[
 					'bodacous',
+				],
+				'bodhisattva'=>[
+					'bodhisatttva',
+					'bodhisatva',
 				],
 				'bodhrán'=>[
 					'bodhran',
@@ -3631,22 +6896,66 @@
 				'bodyguarding'=>[
 					'bodygaurding',
 				],
+				'boffin'=>[
+					'bofffin',
+					'bofin',
+				],
+				'boffins'=>[
+					'bofffins',
+					'bofins',
+				],
+				'boffo'=>[
+					'bofffo',
+				],
+				'boggart'=>[
+					'bogggart',
+				],
+				'bogged'=>[
+					'boggged',
+				],
+				'boggier'=>[
+					'bogggier',
+				],
+				'boggiest'=>[
+					'bogggiest',
+					'bogiest',
+				],
 				'bogginess'=>[
 					'boginess',
 				],
 				'bogginesses'=>[
 					'boginesses',
 				],
+				'bogging'=>[
+					'boggging',
+				],
 				'boggle'=>[
 					'bogle',
+					'bogggle',
 				],
 					# bogy: an accepted spelling, not a slip (AmericanBritishWords_B: bogey)
 			#	'boggy'=>[
 			#		'bogy',
 			#	],
+				'boggled'=>[
+					'bogggled',
+				],
+				'boggles'=>[
+					'bogggles',
+				],
+				'boggling'=>[
+					'bogggling',
+				],
+				'boggy'=>[
+					'bogggy',
+				],
 				'bogie'=>[
 					'bogei',
 					'bogi',
+				],
+				'bogtrotter'=>[
+					'bogtroter',
+					'bogtrottter',
 				],
 				'bogusness'=>[
 					'bogusnes',
@@ -3677,9 +6986,51 @@
 				],
 				'boll'=>[
 					'bol',
+					'bolll',
+				],
+				'bollard'=>[
+					'bolard',
+					'bolllard',
+				],
+				'bollards'=>[
+					'bolards',
+					'bolllards',
+				],
+				'bollix'=>[
+					'bolllix',
+				],
+				'bollixed'=>[
+					'bolllixed',
+				],
+				'bollixes'=>[
+					'bolllixes',
+				],
+				'bollixing'=>[
+					'bolllixing',
+				],
+				'bollocking'=>[
+					'bolllocking',
+					'bolocking',
+				],
+				'bollockings'=>[
+					'bolllockings',
+					'bolockings',
+				],
+				'bollocks'=>[
+					'bolllocks',
+					'bolocks',
 				],
 				'bolls'=>[
 					'bols',
+					'bollls',
+				],
+				'bollworm'=>[
+					'bolllworm',
+					'bolworm',
+				],
+				'bollworms'=>[
+					'bolllworms',
+					'bolworms',
 				],
 				'bologna'=>[
 					'balogna',
@@ -3697,11 +7048,24 @@
 					'bombardeir',
 					'bombardir',
 				],
+				'bombastically'=>[
+					'bombasticallly',
+					'bombasticaly',
+				],
 				'bombinate'=>[
 					'bombinite',
 				],
+				'bombproof'=>[
+					'bombprof',
+					'bombprooof',
+				],
 				'bombshell'=>[
 					'bombshel',
+					'bombshelll',
+				],
+				'bombshells'=>[
+					'bombshellls',
+					'bombshels',
 				],
 				'bona fide'=>[
 					'bonafied',
@@ -3722,6 +7086,13 @@
 					'boneles',
 					'bonelesss',
 				],
+				'bonesetter'=>[
+					'bonesettter',
+				],
+				'bonesetters'=>[
+					'boneseters',
+					'bonesettters',
+				],
 				'bonhomie'=>[
 					'bonhomei',
 					'bonhomi',
@@ -3735,22 +7106,134 @@
 				],
 				'bonnet'=>[
 					'bonet',
+					'bonnnet',
 				],
 					# bony: an accepted spelling, not a slip (AmericanBritishWords_B: bony)
 			#	'bonny'=>[
 			#		'bony',
 			#	],
+				'bonnets'=>[
+					'bonnnets',
+				],
+				'bonnie'=>[
+					'bonnnie',
+				],
+				'bonnier'=>[
+					'bonnnier',
+				],
+				'bonniest'=>[
+					'bonnniest',
+				],
+				'bonny'=>[
+					'bonnny',
+				],
 				'bonnyclabber'=>[
 					'bonnyclaber',
 					'bonyclabber',
+					'bonnnyclabber',
+					'bonnyclabbber',
 				],
 				'bonnyclabbers'=>[
 					'bonnyclabers',
 					'bonyclabbers',
 				],
+				'boo'=>[
+					'booo',
+				],
+				'boob'=>[
+					'booob',
+				],
+				'boobed'=>[
+					'booobed',
+				],
+				'boobies'=>[
+					'booobies',
+				],
+				'boobing'=>[
+					'booobing',
+				],
+				'booboo'=>[
+					'boboo',
+					'boobo',
+					'boobooo',
+					'boooboo',
+				],
+				'booboos'=>[
+					'boboos',
+					'boobooos',
+					'boobos',
+					'boooboos',
+				],
+				'boobs'=>[
+					'booobs',
+				],
+				'booby'=>[
+					'boooby',
+				],
+				'boodle'=>[
+					'booodle',
+				],
+				'boodles'=>[
+					'booodles',
+				],
+				'booed'=>[
+					'boooed',
+				],
+				'booger'=>[
+					'boooger',
+				],
+				'boogerman'=>[
+					'bogerman',
+					'booogerman',
+				],
+				'boogers'=>[
+					'booogers',
+				],
+				'boogeyman'=>[
+					'booogeyman',
+				],
+				'boogeymen'=>[
+					'booogeymen',
+				],
 				'boogie'=>[
 					'boogei',
 					'boogi',
+					'booogie',
+				],
+				'boogied'=>[
+					'booogied',
+				],
+				'boogieing'=>[
+					'booogieing',
+				],
+				'boogieman'=>[
+					'booogieman',
+				],
+				'boogies'=>[
+					'booogies',
+				],
+				'boohoo'=>[
+					'bohoo',
+					'booho',
+					'boohooo',
+					'booohoo',
+				],
+				'boohooed'=>[
+					'boohoooed',
+					'booohooed',
+				],
+				'boohooing'=>[
+					'boohoooing',
+					'booohooing',
+				],
+				'boohoos'=>[
+					'bohoos',
+					'boohooos',
+					'boohos',
+					'booohoos',
+				],
+				'booing'=>[
+					'boooing',
 				],
 				'book'=>[
 					'book book',
@@ -3759,92 +7242,624 @@
 				],
 				'bookable'=>[
 					'bookible',
+					'bokable',
+					'boookable',
+				],
+				'bookbinder'=>[
+					'bokbinder',
+					'boookbinder',
+				],
+				'bookbinderies'=>[
+					'bokbinderies',
+					'boookbinderies',
+				],
+				'bookbinders'=>[
+					'bokbinders',
+					'boookbinders',
+				],
+				'bookbindery'=>[
+					'bokbindery',
+					'boookbindery',
+				],
+				'bookbinding'=>[
+					'bokbinding',
+					'boookbinding',
+				],
+				'bookcase'=>[
+					'bokcase',
+					'boookcase',
+				],
+				'bookcases'=>[
+					'bokcases',
+					'boookcases',
+				],
+				'bookcraft'=>[
+					'bokcraft',
+					'boookcraft',
+				],
+				'booked'=>[
+					'boooked',
+				],
+				'bookend'=>[
+					'bokend',
+					'boookend',
+				],
+				'bookends'=>[
+					'bokends',
+					'boookends',
+				],
+				'booker'=>[
+					'boooker',
 				],
 				'bookie'=>[
 					'bookei',
 					'booki',
+					'bokie',
+					'boookie',
+				],
+				'bookies'=>[
+					'boookies',
+				],
+				'booking'=>[
+					'boooking',
+				],
+				'bookings'=>[
+					'boookings',
+				],
+				'bookish'=>[
+					'bokish',
+					'boookish',
+				],
+				'bookkeeper'=>[
+					'bokkeeper',
+					'bookeeper',
+					'bookkeeeper',
+					'bookkeper',
+					'bookkkeeper',
+					'boookkeeper',
+				],
+				'bookkeepers'=>[
+					'bokkeepers',
+					'bookeepers',
+					'bookkeeepers',
+					'bookkepers',
+					'bookkkeepers',
+					'boookkeepers',
+				],
+				'bookkeeping'=>[
+					'bokkeeping',
+					'bookeeping',
+					'bookkeeeping',
+					'bookkeping',
+					'bookkkeeping',
+					'boookkeeping',
+				],
+				'booklet'=>[
+					'boklet',
+					'boooklet',
+				],
+				'booklets'=>[
+					'boklets',
+					'boooklets',
+				],
+				'booklover'=>[
+					'boklover',
+					'boooklover',
+				],
+				'bookmaker'=>[
+					'bokmaker',
+					'boookmaker',
+				],
+				'bookmakers'=>[
+					'bokmakers',
+					'boookmakers',
+				],
+				'bookmaking'=>[
+					'bokmaking',
+					'boookmaking',
+				],
+				'bookman'=>[
+					'bokman',
+					'boookman',
+				],
+				'bookmark'=>[
+					'bokmark',
+					'boookmark',
+				],
+				'bookmarked'=>[
+					'bokmarked',
+					'boookmarked',
+				],
+				'bookmarker'=>[
+					'bokmarker',
+					'boookmarker',
+				],
+				'bookmarkers'=>[
+					'bokmarkers',
+					'boookmarkers',
+				],
+				'bookmarking'=>[
+					'bokmarking',
+					'boookmarking',
+				],
+				'bookmarks'=>[
+					'bokmarks',
+					'boookmarks',
+				],
+				'bookmobile'=>[
+					'bokmobile',
+					'boookmobile',
+				],
+				'bookmobiles'=>[
+					'bokmobiles',
+					'boookmobiles',
+				],
+				'bookplate'=>[
+					'bokplate',
+					'boookplate',
+				],
+				'bookplates'=>[
+					'bokplates',
+					'boookplates',
+				],
+				'bookrack'=>[
+					'bokrack',
+					'boookrack',
+				],
+				'bookrest'=>[
+					'bokrest',
+					'boookrest',
+				],
+				'books'=>[
+					'boooks',
 				],
 				'bookseller'=>[
 					'bookseler',
+					'bokseller',
+					'bookselller',
+					'boookseller',
+				],
+				'booksellers'=>[
+					'boksellers',
+					'bookselers',
+					'bookselllers',
+					'boooksellers',
+				],
+				'bookshelf'=>[
+					'bokshelf',
+					'boookshelf',
+				],
+				'bookshelves'=>[
+					'bokshelves',
+					'boookshelves',
+				],
+				'bookshop'=>[
+					'bokshop',
+					'boookshop',
+				],
+				'bookshops'=>[
+					'bokshops',
+					'boookshops',
+				],
+				'bookstack'=>[
+					'bokstack',
+					'boookstack',
+				],
+				'bookstall'=>[
+					'bokstall',
+					'bookstal',
+					'bookstalll',
+					'boookstall',
+				],
+				'bookstalls'=>[
+					'bokstalls',
+					'bookstallls',
+					'bookstals',
+					'boookstalls',
+				],
+				'bookstand'=>[
+					'bokstand',
+					'boookstand',
+				],
+				'bookstore'=>[
+					'bokstore',
+					'boookstore',
+				],
+				'bookstores'=>[
+					'bokstores',
+					'boookstores',
+				],
+				'bookwork'=>[
+					'bokwork',
+					'boookwork',
+				],
+				'bookworm'=>[
+					'bokworm',
+					'boookworm',
+				],
+				'bookworms'=>[
+					'bokworms',
+					'boookworms',
+				],
+				'boolean'=>[
+					'bolean',
+					'booolean',
+				],
+				'boom'=>[
+					'booom',
+				],
+				'boombox'=>[
+					'bombox',
+					'booombox',
+				],
+				'boomboxes'=>[
+					'bomboxes',
+					'booomboxes',
+				],
+				'boomed'=>[
+					'bomed',
+					'booomed',
+				],
+				'boomer'=>[
+					'booomer',
+				],
+				'boomerang'=>[
+					'bomerang',
+					'booomerang',
+				],
+				'boomeranged'=>[
+					'bomeranged',
+					'booomeranged',
+				],
+				'boomeranging'=>[
+					'bomeranging',
+					'booomeranging',
+				],
+				'boomerangs'=>[
+					'bomerangs',
+					'booomerangs',
+				],
+				'boomers'=>[
+					'booomers',
+				],
+				'booming'=>[
+					'boming',
+					'boooming',
+				],
+				'boomkin'=>[
+					'bomkin',
+					'booomkin',
+				],
+				'booms'=>[
+					'boooms',
+				],
+				'boon'=>[
+					'booon',
+				],
+				'boondocks'=>[
+					'bondocks',
+					'booondocks',
 				],
 				'boondoggle'=>[
 					'boondogle',
+					'bondoggle',
+					'boondogggle',
+					'booondoggle',
 				],
 				'boondoggled'=>[
 					'boondogled',
+					'bondoggled',
+					'boondogggled',
+					'booondoggled',
 				],
 				'boondoggler'=>[
 					'boondogler',
+					'bondoggler',
+					'boondogggler',
+					'booondoggler',
 				],
 				'boondogglers'=>[
 					'boondoglers',
+					'bondogglers',
+					'boondoggglers',
+					'booondogglers',
 				],
 				'boondoggles'=>[
 					'boondogles',
+					'bondoggles',
+					'boondogggles',
+					'booondoggles',
 				],
 				'boondoggling'=>[
 					'boondogling',
+					'bondoggling',
+					'boondogggling',
+					'booondoggling',
+				],
+				'boong'=>[
+					'booong',
+				],
+				'boonies'=>[
+					'booonies',
+				],
+				'boons'=>[
+					'booons',
+				],
+				'boor'=>[
+					'booor',
+				],
+				'boorish'=>[
+					'booorish',
+					'borish',
+				],
+				'boorishly'=>[
+					'booorishly',
+					'borishly',
 				],
 				'boorishness'=>[
 					'boorishnes',
 					'boorishnesss',
+					'booorishness',
+					'borishness',
 				],
 				'boorishnesses'=>[
 					'boorishneses',
 					'boorishnessses',
+					'booorishnesses',
+					'borishnesses',
+				],
+				'boors'=>[
+					'booors',
 				],
 				'boos'=>[
 					'boo\'s',
+					'booos',
+				],
+				'boost'=>[
+					'booost',
+				],
+				'boosted'=>[
+					'booosted',
+				],
+				'booster'=>[
+					'boooster',
+				],
+				'boosterism'=>[
+					'booosterism',
+					'bosterism',
+				],
+				'boosters'=>[
+					'booosters',
+				],
+				'boosting'=>[
+					'booosting',
+				],
+				'boosts'=>[
+					'booosts',
+				],
+				'boot'=>[
+					'booot',
 				],
 				'bootable'=>[
 					'bootible',
 				],
+				'bootblack'=>[
+					'boootblack',
+					'botblack',
+				],
+				'bootblacks'=>[
+					'boootblacks',
+					'botblacks',
+				],
+				'booted'=>[
+					'boooted',
+				],
+				'bootee'=>[
+					'boootee',
+					'boote',
+					'booteee',
+					'botee',
+				],
+				'bootees'=>[
+					'boootees',
+					'booteees',
+					'bootes',
+					'botees',
+				],
 				'bootery'=>[
 					'bootary',
+					'boootery',
+					'botery',
+				],
+				'booth'=>[
+					'boooth',
+				],
+				'booths'=>[
+					'boooths',
 				],
 				'bootie'=>[
 					'bootei',
 					'booti',
+					'boootie',
+					'botie',
+				],
+				'booties'=>[
+					'boooties',
+					'boties',
+				],
+				'booting'=>[
+					'boooting',
+				],
+				'bootjack'=>[
+					'boootjack',
+					'botjack',
+				],
+				'bootjacks'=>[
+					'boootjacks',
+					'botjacks',
+				],
+				'bootlace'=>[
+					'boootlace',
+					'botlace',
+				],
+				'bootlaces'=>[
+					'boootlaces',
+					'botlaces',
+				],
+				'bootle'=>[
+					'boootle',
+				],
+				'bootleg'=>[
+					'boootleg',
+					'botleg',
 				],
 				'bootlegged'=>[
 					'bootleged',
+					'boootlegged',
+					'bootleggged',
+					'botlegged',
 				],
 				'bootlegger'=>[
 					'bootleger',
+					'boootlegger',
+					'bootleggger',
+					'botlegger',
 				],
 				'bootleggers'=>[
 					'bootlegers',
+					'boootleggers',
+					'bootlegggers',
+					'botleggers',
 				],
 				'bootlegging'=>[
 					'bootleging',
+					'boootlegging',
+					'bootleggging',
+					'botlegging',
+				],
+				'bootlegs'=>[
+					'boootlegs',
+					'botlegs',
 				],
 				'bootless'=>[
 					'bootlesss',
+					'boootless',
 				],
 				'bootlessly'=>[
 					'bootlesly',
 					'bootlesssly',
+					'boootlessly',
 				],
 				'bootlessness'=>[
 					'bootlesness',
 					'bootlessnes',
 					'bootlessnesss',
 					'bootlesssness',
+					'boootlessness',
 				],
 				'bootlessnesses'=>[
 					'bootlessneses',
 				],
+				'bootlick'=>[
+					'boootlick',
+					'botlick',
+				],
+				'bootlicked'=>[
+					'boootlicked',
+					'botlicked',
+				],
+				'bootlicker'=>[
+					'boootlicker',
+				],
+				'bootlickers'=>[
+					'boootlickers',
+				],
+				'bootlicking'=>[
+					'boootlicking',
+					'botlicking',
+				],
+				'bootlicks'=>[
+					'boootlicks',
+					'botlicks',
+				],
+				'boots'=>[
+					'booots',
+				],
 				'bootscanning'=>[
 					'bootscaning',
 				],
+				'bootstrap'=>[
+					'boootstrap',
+					'botstrap',
+				],
 				'bootstrapped'=>[
 					'bootstraped',
+					'boootstrapped',
+					'bootstrappped',
+					'botstrapped',
 				],
 				'bootstrapping'=>[
 					'bootstraping',
+					'boootstrapping',
+					'bootstrappping',
+					'botstrapping',
+				],
+				'bootstraps'=>[
+					'boootstraps',
+					'botstraps',
+				],
+				'booty'=>[
+					'boooty',
+				],
+				'booze'=>[
+					'boooze',
+				],
+				'boozed'=>[
+					'booozed',
+				],
+				'boozer'=>[
+					'booozer',
+				],
+				'boozers'=>[
+					'booozers',
+					'bozers',
+				],
+				'boozes'=>[
+					'booozes',
+				],
+				'boozier'=>[
+					'booozier',
+					'bozier',
+				],
+				'booziest'=>[
+					'boooziest',
+					'boziest',
+				],
+				'boozing'=>[
+					'booozing',
+				],
+				'boozy'=>[
+					'booozy',
 				],
 				'bopped'=>[
 					'boped',
+					'boppped',
+				],
+				'bopper'=>[
+					'boper',
+					'boppper',
+				],
+				'bopping'=>[
+					'boping',
+					'boppping',
+				],
+				'bordello'=>[
+					'bordelllo',
+					'bordelo',
+				],
+				'bordellos'=>[
+					'bordelllos',
+					'bordelos',
 				],
 				'borderline'=>[
 					'borderlini',
@@ -3861,9 +7876,31 @@
 				],
 				'borrow'=>[
 					'borow',
+					'borrrow',
+				],
+				'borrowed'=>[
+					'borowed',
+					'borrrowed',
+				],
+				'borrower'=>[
+					'borower',
+					'borrrower',
+				],
+				'borrowers'=>[
+					'borowers',
+					'borrrowers',
 				],
 				'borrowing'=>[
 					'borowing',
+					'borrrowing',
+				],
+				'borrowings'=>[
+					'borowings',
+					'borrrowings',
+				],
+				'borrows'=>[
+					'borows',
+					'borrrows',
 				],
 				'borscht'=>[
 					'borcht',
@@ -3919,6 +7956,9 @@
 				'bostrichid'=>[
 					'bostrychid',
 				],
+				'botanically'=>[
+					'botanicallly',
+				],
 				'botfly'=>[
 					'botfally',
 					'botfaly',
@@ -3938,41 +7978,133 @@
 				'botryoid'=>[
 					'botyroid',
 				],
+				'bott'=>[
+					'bottt',
+				],
+				'bottle'=>[
+					'botttle',
+				],
+				'bottled'=>[
+					'botled',
+					'botttled',
+				],
+				'bottleful'=>[
+					'botleful',
+					'botttleful',
+				],
+				'bottlefuls'=>[
+					'botlefuls',
+					'botttlefuls',
+				],
+				'bottleneck'=>[
+					'botleneck',
+					'botttleneck',
+				],
+				'bottlenecks'=>[
+					'botlenecks',
+					'botttlenecks',
+				],
+				'bottler'=>[
+					'botler',
+					'botttler',
+				],
+				'bottlers'=>[
+					'botlers',
+					'botttlers',
+				],
+				'bottles'=>[
+					'botles',
+					'botttles',
+				],
+				'bottling'=>[
+					'botling',
+					'botttling',
+				],
 				'bottom'=>[
 					'bottom bottom',
 					'bottom bottom bottom',
+					'botom',
+					'botttom',
+				],
+				'bottomed'=>[
+					'botomed',
+					'botttomed',
+				],
+				'bottoming'=>[
+					'botoming',
+					'botttoming',
+				],
+				'bottomland'=>[
+					'botomland',
+					'botttomland',
+				],
+				'bottomlands'=>[
+					'botomlands',
+					'botttomlands',
 				],
 				'bottomless'=>[
 					'bottomles',
 					'bottomlesss',
+					'botomless',
+					'botttomless',
 				],
 				'bottomlessness'=>[
 					'bottomlessnes',
 				],
 				'bottommost'=>[
 					'bottomnost',
+					'botommost',
+					'bottommmost',
+					'bottomost',
+					'botttommost',
+				],
+				'bottomry'=>[
+					'botomry',
+					'botttomry',
+				],
+				'bottoms'=>[
+					'botoms',
+					'botttoms',
 				],
 				'botzwanian-occupied'=>[
 					'botzwanian occupied',
 				],
 				'bouffant'=>[
 					'bouffent',
+					'boufant',
+					'boufffant',
+				],
+				'bouffants'=>[
+					'boufants',
+					'boufffants',
+				],
+				'bouffe'=>[
+					'boufe',
+					'boufffe',
+				],
+				'bouffes'=>[
+					'boufes',
+					'boufffes',
 				],
 				'bougainvillaea'=>[
 					'bougainvilaea',
 					'bougainvillae',
+					'bougainvilllaea',
 				],
 				'bougainvillaeas'=>[
 					'bougainvilaeas',
 					'bougainvillaes',
+					'bougainvilllaeas',
 				],
 				'bougainvillea'=>[
 					'bougainvilea',
 					'bougainville',
+					'bougainvilllea',
 				],
 				'bougainvilleas'=>[
 					'bougainvileas',
 					'bougainvilles',
+					'bougainvillleas',
 				],
 				'bought'=>[
 					'bought bought',
@@ -3983,14 +8115,26 @@
 					'bouilabaisse',
 					'bouillabaise',
 					'bouillabaissse',
+					'bouilllabaisse',
 				],
 				'bouillabaisses'=>[
 					'bouilabaisses',
 					'bouillabaises',
 					'bouillabaissses',
+					'bouilllabaisses',
+				],
+				'bouilli'=>[
+					'bouili',
+					'bouillli',
 				],
 				'bouillon'=>[
 					'boullion',
+					'bouilllon',
+					'bouilon',
+				],
+				'bouillons'=>[
+					'bouilllons',
+					'bouilons',
 				],
 				'boulevardier'=>[
 					'boulevardeir',
@@ -4052,6 +8196,10 @@
 					'bounteousnes',
 					'bounteousnesss',
 				],
+				'bountifully'=>[
+					'bountifullly',
+					'bountifuly',
+				],
 				'bountifulness'=>[
 					'bountifulnes',
 					'bountifulnesss',
@@ -4111,6 +8259,9 @@
 				'bovinity'=>[
 					'bovinaty',
 				],
+				'bovver'=>[
+					'bovvver',
+				],
 				'bow-wow'=>[
 					'baw-waw',
 				],
@@ -4125,16 +8276,48 @@
 				],
 				'bowlegged'=>[
 					'bowleged',
+					'bowleggged',
 				],
 				'bowline'=>[
 					'bowlini',
+				],
+				'bowllike'=>[
+					'bowlllike',
+				],
+				'bowwow'=>[
+					'bowow',
+					'bowwwow',
+				],
+				'bowwows'=>[
+					'bowows',
+					'bowwwows',
 				],
 				'box'=>[
 					'box box',
 					'box box box',
 				],
+				'boxberries'=>[
+					'boxberies',
+					'boxberrries',
+				],
+				'boxberry'=>[
+					'boxberrry',
+					'boxbery',
+				],
 				'boxcar'=>[
 					'boxcer',
+				],
+				'boxroom'=>[
+					'boxrom',
+					'boxrooom',
+				],
+				'boxrooms'=>[
+					'boxroms',
+					'boxroooms',
+				],
+				'boxwood'=>[
+					'boxwod',
+					'boxwoood',
 				],
 				'boy'=>[
 					'boy boy',
@@ -4147,9 +8330,29 @@
 			#	'boycott'=>[
 			#		'boycot',
 			#	],
+				'boycott'=>[
+					'boycottt',
+				],
+				'boycotted'=>[
+					'boycottted',
+				],
+				'boycotting'=>[
+					'boycottting',
+				],
+				'boycotts'=>[
+					'boycottts',
+				],
 				'boyfriend'=>[
 					'boyfreind',
 					'boyfrind',
+				],
+				'boyhood'=>[
+					'boyhod',
+					'boyhoood',
+				],
+				'boyhoods'=>[
+					'boyhods',
+					'boyhooods',
 				],
 				'boyishness'=>[
 					'boyishnes',
@@ -4157,15 +8360,19 @@
 				],
 				'boysenberries'=>[
 					'boysenberies',
+					'boysenberrries',
 				],
 				'boysenberry'=>[
 					'boysenbery',
+					'boysenberrry',
 				],
 				'brabble'=>[
 					'brable',
+					'brabbble',
 				],
 				'brabbled'=>[
 					'brabled',
+					'brabbbled',
 				],
 				'brabbler'=>[
 					'brabler',
@@ -4175,9 +8382,11 @@
 				],
 				'brabbles'=>[
 					'brables',
+					'brabbbles',
 				],
 				'brabbling'=>[
 					'brabling',
+					'brabbbling',
 				],
 				'brachiocephalic'=>[
 					'bracheocephalic',
@@ -4223,21 +8432,45 @@
 				'braggadocio'=>[
 					'bragadocio',
 					'braggadoccio',
+					'bragggadocio',
 				],
 				'braggadocios'=>[
 					'bragadocios',
+					'bragggadocios',
 				],
 				'braggart'=>[
 					'bragart',
+					'bragggart',
 				],
 				'braggarts'=>[
 					'bragarts',
+					'bragggarts',
+				],
+				'bragged'=>[
+					'braggged',
+				],
+				'bragger'=>[
+					'braggger',
+				],
+				'braggers'=>[
+					'bragggers',
+				],
+				'bragging'=>[
+					'braggging',
 				],
 				'brahma'=>[
 					'brama',
 				],
 				'brahmas'=>[
 					'bramas',
+				],
+				'braille'=>[
+					'braile',
+					'braillle',
+				],
+				'brailles'=>[
+					'brailes',
+					'braillles',
 				],
 				'braillewriters'=>[
 					'brailewriters',
@@ -4324,6 +8557,10 @@
 				],
 				'brannigan'=>[
 					'branigan',
+				],
+				'branny'=>[
+					'brannny',
+					'brany',
 				],
 				'brant'=>[
 					'brannt',
@@ -4421,9 +8658,43 @@
 					'brasy',
 					'brasssy',
 				],
+				'brattice'=>[
+					'bratice',
+					'bratttice',
+				],
+				'bratticed'=>[
+					'braticed',
+					'brattticed',
+				],
+				'brattices'=>[
+					'bratices',
+					'bratttices',
+				],
+				'bratticing'=>[
+					'braticing',
+					'brattticing',
+				],
+				'brattier'=>[
+					'bratier',
+					'bratttier',
+				],
+				'brattiest'=>[
+					'bratiest',
+					'bratttiest',
+				],
 				'brattiness'=>[
 					'brattines',
 					'brattinesss',
+					'bratiness',
+					'bratttiness',
+				],
+				'brattishing'=>[
+					'bratishing',
+					'bratttishing',
+				],
+				'bratty'=>[
+					'brattty',
+					'braty',
 				],
 				'braunschweiger'=>[
 					'braunchweiger',
@@ -4467,6 +8738,8 @@
 				'brazenness'=>[
 					'brazennes',
 					'brazennesss',
+					'brazeness',
+					'brazennness',
 				],
 				'brazennesses'=>[
 					'brazenesses',
@@ -4502,15 +8775,33 @@
 				'breadline'=>[
 					'breadlini',
 				],
+				'breadroot'=>[
+					'breadrooot',
+					'breadrot',
+				],
+				'breadroots'=>[
+					'breadrooots',
+					'breadrots',
+				],
+				'breadstuff'=>[
+					'breadstuf',
+					'breadstufff',
+				],
+				'breadstuffs'=>[
+					'breadstufffs',
+					'breadstufs',
+				],
 				'breadth'=>[
 					'bredth',
 				],
 				'breadwinner'=>[
 					'breadwiner',
 					'bredwinner',
+					'breadwinnner',
 				],
 				'breadwinners'=>[
 					'breadwiners',
+					'breadwinnners',
 				],
 				'breadwinning'=>[
 					'breadwining',
@@ -4579,9 +8870,14 @@
 				],
 				'breastfeed'=>[
 					'brestfeed',
+					'breastfeeed',
 				],
 				'breastfeeding'=>[
 					'brestfeeding',
+					'breastfeeeding',
+				],
+				'breastfeeds'=>[
+					'breastfeeeds',
 				],
 				'breastplate'=>[
 					'brestplate',
@@ -4598,6 +8894,10 @@
 				],
 				'breaststrokes'=>[
 					'breststrokes',
+				],
+				'breastsummer'=>[
+					'breastsumer',
+					'breastsummmer',
 				],
 				'breath'=>[
 					'breth',
@@ -4654,24 +8954,30 @@
 				],
 				'breccia'=>[
 					'brecia',
+					'brecccia',
 				],
 				'breccial'=>[
 					'brecial',
 				],
 				'breccias'=>[
 					'brecias',
+					'brecccias',
 				],
 				'brecciate'=>[
 					'breciate',
+					'breccciate',
 				],
 				'brecciated'=>[
 					'breciated',
+					'breccciated',
 				],
 				'brecciates'=>[
 					'breciates',
+					'breccciates',
 				],
 				'brecciating'=>[
 					'breciating',
+					'breccciating',
 				],
 				'brecciation'=>[
 					'breciation',
@@ -4682,13 +8988,110 @@
 				'bred'=>[
 					'breeded',
 				],
+				'bree'=>[
+					'breee',
+				],
+				'breech'=>[
+					'breeech',
+				],
+				'breechblock'=>[
+					'brechblock',
+					'breeechblock',
+				],
+				'breechblocks'=>[
+					'brechblocks',
+					'breeechblocks',
+				],
+				'breechcloth'=>[
+					'brechcloth',
+					'breeechcloth',
+				],
+				'breechcloths'=>[
+					'brechcloths',
+					'breeechcloths',
+				],
+				'breeches'=>[
+					'breches',
+					'breeeches',
+				],
+				'breeching'=>[
+					'breching',
+					'breeeching',
+				],
+				'breechloader'=>[
+					'brechloader',
+					'breeechloader',
+				],
+				'breed'=>[
+					'breeed',
+				],
+				'breeder'=>[
+					'breeeder',
+				],
+				'breeders'=>[
+					'breders',
+					'breeeders',
+				],
+				'breeding'=>[
+					'breeeding',
+				],
+				'breeds'=>[
+					'breeeds',
+				],
+				'breeks'=>[
+					'breeeks',
+				],
+				'breeze'=>[
+					'breeeze',
+					'breze',
+				],
+				'breezed'=>[
+					'breeezed',
+					'brezed',
+				],
 				'breezeless'=>[
 					'breezeles',
 					'breezelesss',
+					'breeezeless',
+					'brezeless',
+				],
+				'breezes'=>[
+					'breeezes',
+					'brezes',
+				],
+				'breezeway'=>[
+					'breeezeway',
+					'brezeway',
+				],
+				'breezeways'=>[
+					'breeezeways',
+					'brezeways',
+				],
+				'breezier'=>[
+					'breeezier',
+					'brezier',
+				],
+				'breeziest'=>[
+					'breeeziest',
+					'breziest',
+				],
+				'breezily'=>[
+					'breeezily',
+					'brezily',
 				],
 				'breeziness'=>[
 					'breezines',
 					'breezinesss',
+					'breeeziness',
+					'breziness',
+				],
+				'breezing'=>[
+					'breeezing',
+					'brezing',
+				],
+				'breezy'=>[
+					'breeezy',
+					'brezy',
 				],
 				'brefeldin'=>[
 					'brefaldin',
@@ -4715,11 +9118,20 @@
 				'breton'=>[
 					'brenton',
 				],
+				'brett'=>[
+					'brettt',
+				],
 				'brevetcy'=>[
 					'brevetsy',
 				],
 				'brevetoxin'=>[
 					'brevitoxin',
+				],
+				'brevetted'=>[
+					'brevettted',
+				],
+				'brevetting'=>[
+					'brevettting',
 				],
 				'breviary'=>[
 					'breviery',
@@ -4728,6 +9140,26 @@
 					'brar',
 					# brier: an accepted spelling, not a slip (AmericanBritishWords_B: brier)
 				#	'brier',
+				],
+				'briarroot'=>[
+					'briaroot',
+					'briarrooot',
+					'briarrot',
+					'briarrroot',
+				],
+				'briarroots'=>[
+					'briaroots',
+					'briarrooots',
+					'briarrots',
+					'briarrroots',
+				],
+				'briarwood'=>[
+					'briarwod',
+					'briarwoood',
+				],
+				'briarwoods'=>[
+					'briarwods',
+					'briarwooods',
 				],
 				'briary'=>[
 					'briery',
@@ -4739,11 +9171,37 @@
 					'brickfeild',
 					'brickfild',
 				],
+				'brickkiln'=>[
+					'brickiln',
+					'brickkkiln',
+				],
+				'brickkilns'=>[
+					'brickilns',
+					'brickkkilns',
+				],
 				'bricolage'=>[
 					'briocolage',
 				],
+				'bridegroom'=>[
+					'bridegrom',
+					'bridegrooom',
+				],
+				'bridegrooms'=>[
+					'bridegroms',
+					'bridegroooms',
+				],
+				'bridewell'=>[
+					'bridewel',
+					'bridewelll',
+				],
 				'bridgehead'=>[
 					'bridgehed',
+				],
+				'bridoon'=>[
+					'bridooon',
+				],
+				'bridoons'=>[
+					'bridooons',
 				],
 				'brie'=>[
 					'brei',
@@ -4774,6 +9232,14 @@
 				'brier'=>[
 					'breir',
 					'brir',
+				],
+				'brierwood'=>[
+					'brierwod',
+					'brierwoood',
+				],
+				'brierwoods'=>[
+					'brierwods',
+					'brierwooods',
 				],
 				'bries'=>[
 					'breis',
@@ -4811,32 +9277,62 @@
 				],
 				'brill'=>[
 					'bril',
+					'brilll',
 				],
 				'brilliance'=>[
 					'briliance',
 					'brillance',
 					'brillience',
+					'brillliance',
 				],
 				'brilliancy'=>[
 					'brilliansy',
+					'briliancy',
+					'brillliancy',
 				],
 				'brilliant'=>[
 					'briliant',
 					'brillant',
 					'brillient',
+					'brillliant',
 				],
 				'brilliantine'=>[
 					'briliantine',
 					'brilliantini',
 					'brillientine',
+					'brillliantine',
 				],
 				'brilliantines'=>[
 					'brilliantinis',
 					'brillientines',
 				],
+				'brilliantly'=>[
+					'briliantly',
+					'brillliantly',
+				],
+				'brilliants'=>[
+					'briliants',
+					'brillliants',
+				],
+				'brillo'=>[
+					'brilllo',
+					'brilo',
+				],
+				'brills'=>[
+					'brillls',
+				],
+				'brimfull'=>[
+					'brimfulll',
+				],
 				'brimless'=>[
 					'brimles',
 					'brimlesss',
+				],
+				'brimmed'=>[
+					'brimmmed',
+				],
+				'brimmer'=>[
+					'brimmmer',
 				],
 				'brimmers'=>[
 					'brimners',
@@ -4844,6 +9340,7 @@
 				'brimming'=>[
 					'brimnning',
 					'brimning',
+					'brimmming',
 				],
 				'brine'=>[
 					'brini',
@@ -4874,6 +9371,18 @@
 				],
 				'brink'=>[
 					'bnnk',
+				],
+				'briolette'=>[
+					'briolete',
+					'briolettte',
+				],
+				'briquette'=>[
+					'briquete',
+					'briquettte',
+				],
+				'briquettes'=>[
+					'briquetes',
+					'briquetttes',
 				],
 				'brisance'=>[
 					'brisence',
@@ -4917,17 +9426,44 @@
 					'britishnes',
 					'britishnesss',
 				],
+				'britt'=>[
+					'brittt',
+				],
+				'brittle'=>[
+					'britle',
+					'britttle',
+				],
 				'brittlely'=>[
 					'brittlly',
+					'britlely',
+					'britttlely',
 				],
 				'brittleness'=>[
 					'brittlenes',
 					'brittlenesss',
+					'britleness',
+					'britttleness',
+				],
+				'brittler'=>[
+					'britler',
+					'britttler',
+				],
+				'brittlest'=>[
+					'britlest',
+					'britttlest',
 				],
 				'broad'=>[
 					'boroad',
 					'broad broad',
 					'broad broad broad',
+				],
+				'broadbill'=>[
+					'broadbil',
+					'broadbilll',
+				],
+				'broadbills'=>[
+					'broadbillls',
+					'broadbils',
 				],
 				'broadcast'=>[
 					'brodcast',
@@ -4937,6 +9473,10 @@
 				],
 				'broadened'=>[
 					'broadend',
+				],
+				'broadloom'=>[
+					'broadlom',
+					'broadlooom',
 				],
 				'broadly'=>[
 					'broady',
@@ -4949,11 +9489,28 @@
 					'broadnes',
 					'broadnesss',
 				],
+				'broadsheet'=>[
+					'broadsheeet',
+					'broadshet',
+				],
+				'broadsheets'=>[
+					'broadsheeets',
+					'broadshets',
+				],
 				'broccoli'=>[
 					'brocoli',
+					'brocccoli',
 				],
 				'broccolis'=>[
 					'brocolis',
+				],
+				'brochette'=>[
+					'brochete',
+					'brochettte',
+				],
+				'brochettes'=>[
+					'brochetes',
+					'brochetttes',
 				],
 				'broke'=>[
 					'broke broke',
@@ -4966,15 +9523,21 @@
 				'brokenness'=>[
 					'brokennes',
 					'brokennesss',
+					'brokennness',
 				],
 				'brokennesses'=>[
 					'brokenesses',
+				],
+				'brollies'=>[
+					'brolies',
+					'brolllies',
 				],
 				'brolly'=>[
 					'brolally',
 					'brolaly',
 					'brolely',
 					'brollly',
+					'broly',
 				],
 				'brominate'=>[
 					'brominite',
@@ -5044,9 +9607,133 @@
 				'brontotheriid'=>[
 					'brontotherid',
 				],
+				'brooch'=>[
+					'broooch',
+				],
+				'brooches'=>[
+					'broooches',
+				],
+				'brood'=>[
+					'broood',
+				],
+				'brooded'=>[
+					'broooded',
+				],
+				'brooder'=>[
+					'broooder',
+				],
+				'brooders'=>[
+					'broders',
+					'broooders',
+				],
+				'broodier'=>[
+					'brooodier',
+				],
+				'broodiest'=>[
+					'brooodiest',
+				],
+				'broodily'=>[
+					'brooodily',
+				],
 				'broodiness'=>[
 					'broodines',
 					'broodinesss',
+					'brodiness',
+					'brooodiness',
+				],
+				'brooding'=>[
+					'broooding',
+				],
+				'broodingly'=>[
+					'brooodingly',
+				],
+				'broodmare'=>[
+					'brodmare',
+					'brooodmare',
+				],
+				'broodmares'=>[
+					'brodmares',
+					'brooodmares',
+				],
+				'broods'=>[
+					'brooods',
+				],
+				'broody'=>[
+					'brooody',
+				],
+				'brook'=>[
+					'broook',
+				],
+				'brooke'=>[
+					'broooke',
+				],
+				'brooked'=>[
+					'broooked',
+				],
+				'brooking'=>[
+					'broooking',
+				],
+				'brookite'=>[
+					'brokite',
+					'broookite',
+				],
+				'brooklet'=>[
+					'broklet',
+					'broooklet',
+				],
+				'brooklets'=>[
+					'broklets',
+					'broooklets',
+				],
+				'brooklime'=>[
+					'broklime',
+					'broooklime',
+				],
+				'brooklimes'=>[
+					'broklimes',
+					'broooklimes',
+				],
+				'brooks'=>[
+					'broks',
+					'broooks',
+				],
+				'brookweed'=>[
+					'brokweed',
+					'brookwed',
+					'brookweeed',
+					'broookweed',
+				],
+				'brookweeds'=>[
+					'brokweeds',
+					'brookweds',
+					'brookweeeds',
+					'broookweeds',
+				],
+				'broom'=>[
+					'brooom',
+				],
+				'broomcorn'=>[
+					'bromcorn',
+					'brooomcorn',
+				],
+				'broomcorns'=>[
+					'bromcorns',
+					'brooomcorns',
+				],
+				'broomrape'=>[
+					'bromrape',
+					'brooomrape',
+				],
+				'brooms'=>[
+					'broooms',
+				],
+				'broomstick'=>[
+					'bromstick',
+					'brooomstick',
+				],
+				'broomsticks'=>[
+					'bromsticks',
+					'brooomsticks',
 				],
 				'brosy'=>[
 					'brocy',
@@ -5056,6 +9743,14 @@
 					'brotber',
 					'brother brother',
 					'brother brother brother',
+				],
+				'brotherhood'=>[
+					'brotherhod',
+					'brotherhoood',
+				],
+				'brotherhoods'=>[
+					'brotherhods',
+					'brotherhooods',
 				],
 				'brotherliness'=>[
 					'brotherliniss',
@@ -5101,6 +9796,7 @@
 				'brownness'=>[
 					'brownnes',
 					'brownnesss',
+					'brownnness',
 				],
 				'brownnose'=>[
 					'brownose',
@@ -5108,8 +9804,13 @@
 				'brrr'=>[
 					'brr',
 				],
+				'brucelloses'=>[
+					'brucellloses',
+					'bruceloses',
+				],
 				'brucellosis'=>[
 					'brucelosis',
+					'brucelllosis',
 				],
 				'bruh'=>[
 					'bruhe',
@@ -5120,9 +9821,29 @@
 				'bruneian-occupied'=>[
 					'bruneian occupied',
 				],
+				'brunette'=>[
+					'brunete',
+					'brunettte',
+				],
+				'brunettes'=>[
+					'brunetes',
+					'brunetttes',
+				],
 				'brushabilities'=>[
 					'brushabiliteis',
 					'brushabilitis',
+				],
+				'brushoff'=>[
+					'brushof',
+					'brushofff',
+				],
+				'brushoffs'=>[
+					'brushofffs',
+					'brushofs',
+				],
+				'brushwood'=>[
+					'brushwod',
+					'brushwoood',
 				],
 				'bruskness'=>[
 					'brusknes',
@@ -5137,6 +9858,9 @@
 				],
 				'brussels'=>[
 					'brussells',
+				],
+				'brutally'=>[
+					'brutallly',
 				],
 				'brutely'=>[
 					'brutly',
@@ -5153,6 +9877,7 @@
 				],
 				'bubba'=>[
 					'buba',
+					'bubbba',
 				],
 				'bubbas'=>[
 					'bubas',
@@ -5162,12 +9887,15 @@
 				],
 				'bubble'=>[
 					'buble',
+					'bubbble',
 				],
 				'bubbled'=>[
 					'bubled',
+					'bubbbled',
 				],
 				'bubblegum'=>[
 					'bublegum',
+					'bubbblegum',
 				],
 				'bubblegums'=>[
 					'bublegums',
@@ -5183,24 +9911,30 @@
 				],
 				'bubbler'=>[
 					'bubler',
+					'bubbbler',
 				],
 				'bubblers'=>[
 					'bublers',
+					'bubbblers',
 				],
 				'bubbles'=>[
 					'bubles',
+					'bubbbles',
 				],
 				'bubblier'=>[
 					'bublier',
+					'bubbblier',
 				],
 				'bubblies'=>[
 					'bublies',
 				],
 				'bubbliest'=>[
 					'bubliest',
+					'bubbbliest',
 				],
 				'bubbling'=>[
 					'bubling',
+					'bubbbling',
 				],
 				'bubbly'=>[
 					'bubbally',
@@ -5208,31 +9942,48 @@
 					'bubbely',
 					'bubblly',
 					'bubly',
+					'bubbbly',
 				],
 				'bubby'=>[
 					'buby',
 				],
 				'buccal'=>[
 					'bucal',
+					'bucccal',
 				],
 				'buccally'=>[
 					'bucally',
 				],
 				'buccaneer'=>[
 					'bucaneer',
+					'buccaneeer',
+					'bucccaneer',
+				],
+				'buccaneered'=>[
+					'bucaneered',
+					'buccaneeered',
+					'buccanered',
+					'bucccaneered',
 				],
 				'buccaneering'=>[
 					'bucaneering',
+					'buccaneeering',
+					'buccanering',
+					'bucccaneering',
 				],
 				'buccaneerish'=>[
 					'bucaneerish',
 				],
 				'buccaneers'=>[
 					'bucaneers',
+					'buccaneeers',
+					'buccaners',
+					'bucccaneers',
 				],
 				'buccinator'=>[
 					'buccinitor',
 					'bucinator',
+					'bucccinator',
 				],
 				'buccinators'=>[
 					'bucinators',
@@ -5246,15 +9997,69 @@
 				'buccopharyngeal'=>[
 					'buccophayngeal',
 				],
+				'buckaroo'=>[
+					'buckaro',
+					'buckarooo',
+				],
+				'buckaroos'=>[
+					'buckarooos',
+					'buckaros',
+				],
+				'buckeen'=>[
+					'buckeeen',
+					'bucken',
+				],
+				'buckminsterfullerene'=>[
+					'buckminsterfulerene',
+					'buckminsterfulllerene',
+				],
+				'buckshee'=>[
+					'buckshe',
+					'bucksheee',
+				],
+				'buckteeth'=>[
+					'buckteeeth',
+					'buckteth',
+				],
+				'bucktooth'=>[
+					'bucktoooth',
+					'bucktoth',
+				],
+				'bucktoothed'=>[
+					'bucktooothed',
+					'bucktothed',
+				],
+				'buckyball'=>[
+					'buckybal',
+					'buckyballl',
+				],
 				'buckyballs'=>[
 					'buckybals',
 				],
 				'buclizine'=>[
 					'buclicine',
 				],
+				'bucolically'=>[
+					'bucolicallly',
+					'bucolicaly',
+				],
+				'budded'=>[
+					'buddded',
+				],
+				'budder'=>[
+					'buddder',
+				],
 				'buddha'=>[
 					'buddah',
 					'budha',
+					'budddha',
+				],
+				'buddhas'=>[
+					'budddhas',
+				],
+				'buddhi'=>[
+					'budddhi',
+					'budhi',
 				],
 				'buddhism'=>[
 					'buddh\'ism',
@@ -5263,8 +10068,32 @@
 					'buddist',
 					'budhist',
 				],
+				'buddies'=>[
+					'budddies',
+					'budies',
+				],
+				'budding'=>[
+					'buddding',
+				],
+				'buddings'=>[
+					'budddings',
+					'budings',
+				],
+				'buddle'=>[
+					'budddle',
+					'budle',
+				],
 				'buddleia'=>[
 					'buddliea',
+					'budddleia',
+					'budleia',
+				],
+				'buddleias'=>[
+					'budddleias',
+					'budleias',
+				],
+				'buddy'=>[
+					'budddy',
 				],
 				'budgerigar'=>[
 					'budgeriger',
@@ -5285,6 +10114,13 @@
 				'bufadienolide'=>[
 					'bufodienolide',
 				],
+				'buff'=>[
+					'bufff',
+				],
+				'buffalo'=>[
+					'bufalo',
+					'bufffalo',
+				],
 				'buffaloberries'=>[
 					'buffaloberies',
 					'buffaloberreis',
@@ -5293,31 +10129,160 @@
 				'buffaloberry'=>[
 					'buffalobery',
 				],
+				'buffaloed'=>[
+					'bufaloed',
+					'bufffaloed',
+				],
 				'buffaloes'=>[
 					'buffalos',
+					'bufaloes',
+					'bufffaloes',
+				],
+				'buffaloing'=>[
+					'bufaloing',
+					'bufffaloing',
+				],
+				'buffed'=>[
+					'bufffed',
+				],
+				'buffer'=>[
+					'bufffer',
+				],
+				'buffered'=>[
+					'bufered',
+					'bufffered',
+				],
+				'buffering'=>[
+					'bufering',
+					'bufffering',
+				],
+				'buffers'=>[
+					'bufers',
+					'bufffers',
+				],
+				'buffet'=>[
+					'bufet',
+					'bufffet',
+				],
+				'buffeted'=>[
+					'bufeted',
+					'bufffeted',
+				],
+				'buffeter'=>[
+					'bufeter',
+					'bufffeter',
+				],
+				'buffeting'=>[
+					'bufeting',
+					'bufffeting',
+				],
+				'buffetings'=>[
+					'bufetings',
+					'bufffetings',
+				],
+				'buffets'=>[
+					'bufets',
+					'bufffets',
+				],
+				'buffing'=>[
+					'bufffing',
+				],
+				'bufflehead'=>[
+					'buffflehead',
+					'buflehead',
+				],
+				'buffleheads'=>[
+					'bufffleheads',
+					'bufleheads',
+				],
+				'buffo'=>[
+					'bufffo',
+				],
+				'buffon'=>[
+					'bufffon',
+					'bufon',
 				],
 				'buffoon'=>[
 					'bafoon',
+					'bufffoon',
+					'buffooon',
+					'bufoon',
 				],
 				'buffooneries'=>[
 					'buffoonereis',
 					'buffooneris',
 				],
+				'buffoonery'=>[
+					'bufffoonery',
+					'buffonery',
+					'buffooonery',
+					'bufoonery',
+				],
+				'buffoonish'=>[
+					'bufffoonish',
+					'buffonish',
+					'buffooonish',
+					'bufoonish',
+				],
+				'buffoons'=>[
+					'bufffoons',
+					'buffooons',
+					'bufoons',
+				],
+				'buffs'=>[
+					'bufffs',
+				],
+				'buffy'=>[
+					'bufffy',
+				],
+				'bugaboo'=>[
+					'bugabo',
+					'bugabooo',
+				],
+				'bugaboos'=>[
+					'bugabooos',
+					'bugabos',
+				],
 				'bugbear'=>[
 					'bugbeer',
 				],
+				'bugged'=>[
+					'buggged',
+				],
 				'bugger'=>[
 					'buger',
+					'buggger',
+				],
+				'buggered'=>[
+					'bugered',
+					'bugggered',
 				],
 				'buggeries'=>[
 					'bugeries',
+					'bugggeries',
 				],
 				'buggering'=>[
 					'bugering',
+					'bugggering',
+				],
+				'buggers'=>[
+					'bugers',
+					'bugggers',
 				],
 				'buggery'=>[
 					'bugery',
 					'boggery',
+					'bugggery',
+				],
+				'buggier'=>[
+					'bugggier',
+				],
+				'buggies'=>[
+					'bugggies',
+					'bugies',
+				],
+				'buggiest'=>[
+					'bugggiest',
 				],
 				'bugginess'=>[
 					'buginess',
@@ -5325,8 +10290,20 @@
 				'bugginesses'=>[
 					'buginesses',
 				],
+				'bugging'=>[
+					'buggging',
+				],
 				'buggy'=>[
 					'bugy',
+					'bugggy',
+				],
+				'bugleweed'=>[
+					'buglewed',
+					'bugleweeed',
+				],
+				'bugleweeds'=>[
+					'bugleweds',
+					'bugleweeeds',
 				],
 				'bugloss'=>[
 					'buglos',
@@ -5402,15 +10379,44 @@
 				],
 				'bull'=>[
 					'bul',
+					'bulll',
 				],
 				'bulla'=>[
 					'bula',
+					'bullla',
+				],
+				'bullace'=>[
+					'bulace',
+					'bulllace',
+				],
+				'bullaces'=>[
+					'bulaces',
+					'bulllaces',
+				],
+				'bullas'=>[
+					'bulllas',
+				],
+				'bullate'=>[
+					'bulate',
+					'bulllate',
+				],
+				'bullbat'=>[
+					'bulbat',
+					'bulllbat',
+				],
+				'bullbats'=>[
+					'bulbats',
+					'bulllbats',
 				],
 				'bulldog'=>[
 					'buldog',
+					'bullldog',
 				],
 				'bulldogged'=>[
 					'bulldoged',
+					'buldogged',
+					'bulldoggged',
+					'bullldogged',
 				],
 				'bulldogger'=>[
 					'bulldoger',
@@ -5420,64 +10426,268 @@
 				],
 				'bulldogging'=>[
 					'bulldoging',
+					'buldogging',
+					'bulldoggging',
+					'bullldogging',
 				],
 				'bulldoggings'=>[
 					'bulldogings',
 				],
+				'bulldogs'=>[
+					'buldogs',
+					'bullldogs',
+				],
+				'bulldoze'=>[
+					'buldoze',
+					'bullldoze',
+				],
+				'bulldozed'=>[
+					'buldozed',
+					'bullldozed',
+				],
 				'bulldozer'=>[
 					'buldozer',
+					'bullldozer',
+				],
+				'bulldozers'=>[
+					'buldozers',
+					'bullldozers',
+				],
+				'bulldozes'=>[
+					'buldozes',
+					'bullldozes',
+				],
+				'bulldozing'=>[
+					'buldozing',
+					'bullldozing',
+				],
+				'bulled'=>[
+					'buled',
+					'bullled',
 				],
 				'bullet'=>[
 					'bulet',
+					'bulllet',
 				],
 				'bulletin'=>[
 					'buletin',
 					'bulliten',
+					'bullletin',
+				],
+				'bulletined'=>[
+					'buletined',
+					'bullletined',
 				],
 				'bulletining'=>[
 					'bulletinang',
+					'buletining',
+					'bullletining',
 				],
 				'bulletins'=>[
 					'bullitens',
+					'buletins',
+					'bullletins',
 				],
 				'bulletproof'=>[
 					'buletproof',
+					'bulletprof',
+					'bulletprooof',
+					'bullletproof',
+				],
+				'bulletproofed'=>[
+					'buletproofed',
+					'bulletprofed',
+					'bulletprooofed',
+					'bullletproofed',
+				],
+				'bulletproofing'=>[
+					'buletproofing',
+					'bulletprofing',
+					'bulletprooofing',
+					'bullletproofing',
+				],
+				'bulletproofs'=>[
+					'buletproofs',
+					'bulletprofs',
+					'bulletprooofs',
+					'bullletproofs',
+				],
+				'bullets'=>[
+					'bulets',
+					'bulllets',
+				],
+				'bullfight'=>[
+					'bulfight',
+					'bulllfight',
+				],
+				'bullfighter'=>[
+					'bulfighter',
+					'bulllfighter',
+				],
+				'bullfighters'=>[
+					'bulfighters',
+					'bulllfighters',
+				],
+				'bullfighting'=>[
+					'bulfighting',
+					'bulllfighting',
+				],
+				'bullfights'=>[
+					'bulfights',
+					'bulllfights',
+				],
+				'bullfinch'=>[
+					'bulllfinch',
+				],
+				'bullfinches'=>[
+					'bulllfinches',
+				],
+				'bullfrog'=>[
+					'bulfrog',
+					'bulllfrog',
+				],
+				'bullfrogs'=>[
+					'bulfrogs',
+					'bulllfrogs',
+				],
+				'bullhead'=>[
+					'bulhead',
+					'bulllhead',
+				],
+				'bullheaded'=>[
+					'bulheaded',
+					'bulllheaded',
+				],
+				'bullheadedly'=>[
+					'bulheadedly',
+					'bulllheadedly',
 				],
 				'bullheadedness'=>[
 					'bulheadedness',
 					'bullheadednes',
 					'bullhededness',
 					'bullheadednesss',
+					'bulllheadedness',
+				],
+				'bullheads'=>[
+					'bulheads',
+					'bulllheads',
+				],
+				'bullhorn'=>[
+					'bulhorn',
+					'bulllhorn',
+				],
+				'bullhorns'=>[
+					'bulhorns',
+					'bulllhorns',
+				],
+				'bullied'=>[
+					'bulllied',
 				],
 				'bullies'=>[
 					'bullys',
+					'bulies',
+					'bulllies',
+				],
+				'bulling'=>[
+					'buling',
+					'bullling',
 				],
 				'bullion'=>[
 					'bulion',
+					'bulllion',
 				],
 				'bullish'=>[
 					'bulish',
+					'bulllish',
+				],
+				'bullishly'=>[
+					'bulishly',
+					'bulllishly',
 				],
 				'bullishness'=>[
 					'bullishnes',
 					'bullishnesss',
+					'bulishness',
+					'bulllishness',
+				],
+				'bullnose'=>[
+					'bulllnose',
+					'bulnose',
+				],
+				'bullnoses'=>[
+					'bulllnoses',
+					'bulnoses',
 				],
 				'bullock'=>[
 					'bulock',
+					'bulllock',
+				],
+				'bullocks'=>[
+					'bulllocks',
+					'bulocks',
 				],
 				'bullpen'=>[
 					'bulpen',
+					'bulllpen',
+				],
+				'bullpens'=>[
+					'bulllpens',
+					'bulpens',
+				],
+				'bullpup'=>[
+					'bulllpup',
+					'bulpup',
+				],
+				'bullring'=>[
+					'bulllring',
+					'bulring',
+				],
+				'bullrings'=>[
+					'bulllrings',
+					'bulrings',
 				],
 				'bulls'=>[
 					'buls',
+					'bullls',
 				],
 				'bullshit'=>[
 					'bulshit',
+					'bulllshit',
+				],
+				'bullshits'=>[
+					'bulllshits',
+					'bulshits',
+				],
+				'bullshitted'=>[
+					'bulllshitted',
+					'bullshittted',
+					'bulshitted',
+				],
+				'bullshitter'=>[
+					'bulllshitter',
+					'bullshittter',
+					'bulshitter',
+				],
+				'bullshitters'=>[
+					'bulllshitters',
+					'bullshiters',
+					'bullshittters',
+					'bulshitters',
+				],
+				'bullshitting'=>[
+					'bulllshitting',
+					'bullshittting',
+					'bulshitting',
 				],
 				'bullterriers'=>[
 					'bullteriers',
 					'bullterreirs',
 					'bullterrirs',
+				],
+				'bullwhip'=>[
+					'bulllwhip',
+					'bulwhip',
 				],
 				'bullwhipped'=>[
 					'bullwhiped',
@@ -5485,32 +10695,90 @@
 				'bullwhipping'=>[
 					'bullwhiping',
 				],
+				'bullwhips'=>[
+					'bulllwhips',
+					'bulwhips',
+				],
 				'bully'=>[
 					'bulally',
 					'bulaly',
 					'bullly',
 					'buly',
 				],
+				'bullyboy'=>[
+					'bulllyboy',
+					'bulyboy',
+				],
+				'bullyboys'=>[
+					'bulllyboys',
+					'bulyboys',
+				],
+				'bullying'=>[
+					'bulllying',
+					'bulying',
+				],
+				'bullyrag'=>[
+					'bulllyrag',
+					'bulyrag',
+				],
 				'bullyragged'=>[
 					'bullyraged',
+					'bulllyragged',
+					'bullyraggged',
+					'bulyragged',
 				],
 				'bullyragging'=>[
 					'bullyraging',
+					'bulllyragging',
+					'bullyraggging',
+					'bulyragging',
+				],
+				'bullyrags'=>[
+					'bulllyrags',
+					'bulyrags',
+				],
+				'bumbailiff'=>[
+					'bumbailif',
+					'bumbailifff',
+				],
+				'bumblebee'=>[
+					'bumblebe',
+					'bumblebeee',
+				],
+				'bumblebees'=>[
+					'bumblebeees',
+					'bumblebes',
 				],
 				'bumetanide'=>[
 					'bumetamide',
 				],
 				'bummalo'=>[
 					'bumnalo',
+					'bummmalo',
 				],
 				'bummalos'=>[
 					'bumnalos',
 				],
 				'bummed'=>[
 					'bumned',
+					'bummmed',
 				],
 				'bummer'=>[
 					'bumner',
+					'bumer',
+					'bummmer',
+				],
+				'bummers'=>[
+					'bumers',
+					'bummmers',
+				],
+				'bummest'=>[
+					'bumest',
+					'bummmest',
+				],
+				'bumming'=>[
+					'buming',
+					'bummming',
 				],
 				'bumpiness'=>[
 					'bumpines',
@@ -5543,14 +10811,25 @@
 				'bungarotoxin'=>[
 					'bungaroxin',
 				],
+				'bungee'=>[
+					'bungeee',
+				],
+				'bungees'=>[
+					'bungeees',
+				],
 				'bunn'=>[
 					'bun',
+				],
+				'bunnies'=>[
+					'bunies',
+					'bunnnies',
 				],
 				'bunns'=>[
 					'buns',
 				],
 				'bunny'=>[
 					'buny',
+					'bunnny',
 				],
 				'buoy'=>[
 					'bouy',
@@ -5661,6 +10940,10 @@
 				'bureaucratic'=>[
 					'bureacratic',
 				],
+				'bureaucratically'=>[
+					'bureaucraticallly',
+					'bureaucraticaly',
+				],
 				'bureaucratise'=>[
 					'bureucratise',
 				],
@@ -5694,6 +10977,17 @@
 				'bureaux'=>[
 					'bureux',
 				],
+				'burette'=>[
+					'burete',
+					'burettte',
+				],
+				'burettes'=>[
+					'buretes',
+					'buretttes',
+				],
+				'burgee'=>[
+					'burgeee',
+				],
 				'burgess'=>[
 					'burges',
 					'burgesss',
@@ -5715,8 +11009,18 @@
 					'burglariouslly',
 					'burglarously',
 				],
+				'burglarproof'=>[
+					'burglarprof',
+					'burglarprooof',
+				],
 				'burglary'=>[
 					'burglery',
+				],
+				'burgoo'=>[
+					'burgooo',
+				],
+				'burgoos'=>[
+					'burgooos',
 				],
 				'burgundy'=>[
 					'bourgondy',
@@ -5733,6 +11037,10 @@
 				],
 				'burlesquely'=>[
 					'burlesquly',
+				],
+				'burletta'=>[
+					'burleta',
+					'burlettta',
 				],
 				'burliness'=>[
 					'burlines',
@@ -5756,23 +11064,72 @@
 				'burning'=>[
 					'burining',
 				],
+				'burnoose'=>[
+					'burnooose',
+					'burnose',
+				],
+				'burnooses'=>[
+					'burnoooses',
+					'burnoses',
+				],
 				'burr'=>[
 					'bur',
+					'burrr',
+				],
+				'burred'=>[
+					'burrred',
+				],
+				'burrier'=>[
+					'burrrier',
+				],
+				'burriest'=>[
+					'burrriest',
+				],
+				'burring'=>[
+					'burrring',
 				],
 				'burrito'=>[
 					'burito',
+					'burrrito',
+				],
+				'burritos'=>[
+					'buritos',
+					'burrritos',
 				],
 				'burro'=>[
 					'buro',
+					'burrro',
+				],
+				'burros'=>[
+					'burrros',
 				],
 				'burrow'=>[
 					'burow',
+					'burrrow',
+				],
+				'burrowed'=>[
+					'burrrowed',
+				],
+				'burrower'=>[
+					'burrrower',
+				],
+				'burrowers'=>[
+					'burowers',
+					'burrrowers',
+				],
+				'burrowing'=>[
+					'burrrowing',
+				],
+				'burrows'=>[
+					'burrrows',
 				],
 				'burrs'=>[
 					'burs',
+					'burrrs',
 				],
 				'burrstone'=>[
 					'burstone',
+					'burrrstone',
 				],
 				'burry'=>[
 					'bury',
@@ -5792,6 +11149,10 @@
 				'burundian-occupied'=>[
 					'burundian occupied',
 				],
+				'burweed'=>[
+					'burwed',
+					'burweeed',
+				],
 				'bury'=>[
 					'burry',
 				],
@@ -5806,6 +11167,18 @@
 			#	'buses'=>[
 			#		'busses',
 			#	],
+				'bushelled'=>[
+					'bushellled',
+				],
+				'bushelling'=>[
+					'bushellling',
+				],
+				'bushhammer'=>[
+					'bushammer',
+					'bushhamer',
+					'bushhammmer',
+					'bushhhammer',
+				],
 				'bushiness'=>[
 					'bushines',
 					'bushinesss',
@@ -5896,6 +11269,10 @@
 				'bussing'=>[
 					'busssing',
 				],
+				'bustee'=>[
+					'buste',
+					'busteee',
+				],
 				'bustier'=>[
 					'busteir',
 					'bustir',
@@ -5921,43 +11298,248 @@
 					'butadeine',
 					'butadine',
 				],
+				'butt'=>[
+					'buttt',
+				],
+				'butte'=>[
+					'buttte',
+				],
+				'butted'=>[
+					'buttted',
+				],
+				'butter'=>[
+					'buttter',
+				],
 				'butterball'=>[
 					'butterbal',
+					'buterball',
+					'butterballl',
+					'buttterball',
+				],
+				'butterballs'=>[
+					'buterballs',
+					'butterballls',
+					'butterbals',
+					'buttterballs',
+				],
+				'butterbur'=>[
+					'buterbur',
+					'buttterbur',
+				],
+				'butterburs'=>[
+					'buterburs',
+					'buttterburs',
+				],
+				'buttercup'=>[
+					'butercup',
+					'butttercup',
+				],
+				'buttercups'=>[
+					'butercups',
+					'butttercups',
+				],
+				'buttered'=>[
+					'butered',
+					'butttered',
+				],
+				'butterfat'=>[
+					'buterfat',
+					'buttterfat',
+				],
+				'butterfingered'=>[
+					'buterfingered',
+					'buttterfingered',
+				],
+				'butterfingers'=>[
+					'buterfingers',
+					'buttterfingers',
+				],
+				'butterfish'=>[
+					'buterfish',
+					'buttterfish',
+				],
+				'butterflied'=>[
+					'buterflied',
+					'buttterflied',
+				],
+				'butterflies'=>[
+					'buterflies',
+					'buttterflies',
 				],
 				'butterfly'=>[
 					'butterfally',
 					'butterfaly',
 					'butterfely',
 					'butterflly',
+					'buterfly',
+					'buttterfly',
+				],
+				'butterflying'=>[
+					'buterflying',
+					'buttterflying',
+				],
+				'butterier'=>[
+					'buterier',
+					'buttterier',
+				],
+				'butteries'=>[
+					'buteries',
+					'buttteries',
+				],
+				'butteriest'=>[
+					'buteriest',
+					'buttteriest',
+				],
+				'buttering'=>[
+					'butering',
+					'butttering',
+				],
+				'buttermilk'=>[
+					'butermilk',
+					'butttermilk',
+				],
+				'butternut'=>[
+					'buternut',
+					'buttternut',
+				],
+				'butternuts'=>[
+					'buternuts',
+					'buttternuts',
+				],
+				'butters'=>[
+					'buters',
+					'buttters',
 				],
 				'butterscotch'=>[
 					'buttercotch',
 					'buttercsotch',
 					'buttersotch',
+					'buterscotch',
+					'buttterscotch',
 				],
 				'butterscotches'=>[
 					'buttercotches',
 					'buttercsotches',
 					'buttersotches',
 				],
+				'butterwort'=>[
+					'buterwort',
+					'buttterwort',
+				],
+				'butterworts'=>[
+					'buterworts',
+					'buttterworts',
+				],
 				'buttery'=>[
 					'buttary',
+					'butery',
+					'butttery',
+				],
+				'buttes'=>[
+					'butttes',
+				],
+				'butties'=>[
+					'buties',
+					'buttties',
+				],
+				'butting'=>[
+					'buttting',
+				],
+				'buttock'=>[
+					'butock',
+					'butttock',
+				],
+				'buttocks'=>[
+					'butocks',
+					'butttocks',
+				],
+				'button'=>[
+					'buttton',
+				],
+				'buttonball'=>[
+					'butonball',
+					'buttonbal',
+					'buttonballl',
+					'butttonball',
+				],
+				'buttoned'=>[
+					'butttoned',
+				],
+				'buttonhole'=>[
+					'butonhole',
+					'butttonhole',
+				],
+				'buttonholed'=>[
+					'butonholed',
+					'butttonholed',
+				],
+				'buttonholes'=>[
+					'butonholes',
+					'butttonholes',
+				],
+				'buttonholing'=>[
+					'butonholing',
+					'butttonholing',
+				],
+				'buttonhook'=>[
+					'butonhook',
+					'buttonhok',
+					'buttonhoook',
+					'butttonhook',
+				],
+				'buttonhooks'=>[
+					'butonhooks',
+					'buttonhoks',
+					'buttonhoooks',
+					'butttonhooks',
+				],
+				'buttoning'=>[
+					'butttoning',
+				],
+				'buttons'=>[
+					'butttons',
+				],
+				'buttonwood'=>[
+					'butonwood',
+					'buttonwod',
+					'buttonwoood',
+					'butttonwood',
+				],
+				'buttonwoods'=>[
+					'butonwoods',
+					'buttonwods',
+					'buttonwooods',
+					'butttonwoods',
 				],
 				'buttress'=>[
 					'buttres',
 					'buttresss',
+					'butress',
+					'butttress',
 				],
 				'buttressed'=>[
 					'buttresed',
 					'buttresssed',
+					'butressed',
+					'butttressed',
 				],
 				'buttresses'=>[
 					'buttreses',
 					'buttressses',
+					'butresses',
+					'butttresses',
 				],
 				'buttressing'=>[
 					'buttresing',
 					'buttresssing',
+					'butressing',
+					'butttressing',
+				],
+				'butts'=>[
+					'buttts',
+				],
+				'butty'=>[
+					'buttty',
 				],
 				'butyraldehyde'=>[
 					'butylaldehyde',
@@ -5980,8 +11562,47 @@
 				'buying'=>[
 					'buy-ing',
 				],
+				'buzz'=>[
+					'buzzz',
+				],
+				'buzzard'=>[
+					'buzzzard',
+				],
+				'buzzards'=>[
+					'buzzzards',
+				],
+				'buzzed'=>[
+					'buzed',
+					'buzzzed',
+				],
+				'buzzer'=>[
+					'buzer',
+					'buzzzer',
+				],
+				'buzzers'=>[
+					'buzers',
+					'buzzzers',
+				],
+				'buzzes'=>[
+					'buzes',
+					'buzzzes',
+				],
 				'buzzing'=>[
 					'buzzling',
+					'buzing',
+					'buzzzing',
+				],
+				'buzzsaw'=>[
+					'buzsaw',
+					'buzzzsaw',
+				],
+				'buzzword'=>[
+					'buzword',
+					'buzzzword',
+				],
+				'buzzwords'=>[
+					'buzwords',
+					'buzzzwords',
 				],
 				'by'=>[
 					'bv',
@@ -6036,6 +11657,10 @@
 				'byssuses'=>[
 					'bysssuses',
 					'bysuses',
+				],
+				'bystreet'=>[
+					'bystreeet',
+					'bystret',
 				],
 				'byzant'=>[
 					'byzent',

@@ -55,6 +55,12 @@
 				'la fontaine'=>[
 					'lafontaine',
 				],
+				'laager'=>[
+					'laaager',
+				],
+				'laagers'=>[
+					'laaagers',
+				],
 				'label'=>[
 					'lable',
 					'labell',
@@ -62,6 +68,16 @@
 				'labeled'=>[
 					'labellled',
 					'labled',
+				],
+				'labelling'=>[
+					'labellling',
+				],
+				'labellum'=>[
+					'labelllum',
+					'labelum',
+				],
+				'labially'=>[
+					'labiallly',
 				],
 				'labiodental'=>[
 					'labiodantal',
@@ -109,6 +125,7 @@
 				],
 				'laccolith'=>[
 					'lacolith',
+					'lacccolith',
 				],
 				'laciness'=>[
 					'lacines',
@@ -129,9 +146,16 @@
 				'lackadaisical'=>[
 					'laxadaisical',
 				],
+				'lackadaisically'=>[
+					'lackadaisicallly',
+					'lackadaisicaly',
+				],
 				'lackadaisicalness'=>[
 					'lackadaisicalnes',
 					'lackadaisicalnesss',
+				],
+				'laconically'=>[
+					'laconicallly',
 				],
 				'lacrosse'=>[
 					'lacrose',
@@ -146,8 +170,13 @@
 				'lactitol'=>[
 					'lactitiol',
 				],
+				'lactobacilli'=>[
+					'lactobacili',
+					'lactobacillli',
+				],
 				'lactobacillus'=>[
 					'lactobacilus',
+					'lactobacilllus',
 				],
 				'lactometer'=>[
 					'lactimeter',
@@ -164,13 +193,35 @@
 				'lacustrine'=>[
 					'lacustrini',
 				],
+				'ladder'=>[
+					'laddder',
+				],
+				'laddered'=>[
+					'ladddered',
+				],
+				'laddering'=>[
+					'ladddering',
+				],
+				'ladders'=>[
+					'laddders',
+				],
 				'laddie'=>[
 					'laddei',
 					'laddi',
+					'ladddie',
+				],
+				'laddies'=>[
+					'ladddies',
+				],
+				'laddish'=>[
+					'ladddish',
+					'ladish',
 				],
 				'laddishness'=>[
 					'laddishnes',
 					'laddishnesss',
+					'ladddishness',
+					'ladishness',
 				],
 				'laden'=>[
 					'ladden',
@@ -182,25 +233,48 @@
 					'lady lady',
 					'lady lady lady',
 				],
+				'lafayette'=>[
+					'lafayete',
+					'lafayettte',
+				],
 				'laggard'=>[
 					'lagard',
+					'lagggard',
 				],
 				'laggardly'=>[
 					'lagardly',
+					'lagggardly',
 				],
 				'laggardness'=>[
 					'lagardness',
 					'laggardnes',
 					'laggardnesss',
+					'lagggardness',
 				],
 				'laggardnesses'=>[
 					'lagardnesses',
 				],
+				'laggards'=>[
+					'lagards',
+					'lagggards',
+				],
+				'lagged'=>[
+					'laggged',
+				],
+				'lagger'=>[
+					'laggger',
+				],
 				'lagging'=>[
 					'laging',
+					'laggging',
 				],
 				'lagniappe'=>[
 					'lagniape',
+					'lagniapppe',
+				],
+				'lagniappes'=>[
+					'lagniapes',
+					'lagniapppes',
 				],
 				'lagomorph'=>[
 					'lagomourph',
@@ -208,12 +282,26 @@
 				'lagomorphs'=>[
 					'lagomourphs',
 				],
+				'lagoon'=>[
+					'lagooon',
+				],
+				'lagoonal'=>[
+					'lagonal',
+					'lagooonal',
+				],
+				'lagoons'=>[
+					'lagooons',
+				],
 				'lahar'=>[
 					'laar',
 					'laher',
 				],
 				'lahars'=>[
 					'laars',
+				],
+				'laically'=>[
+					'laicallly',
+					'laicaly',
 				],
 				'laid'=>[
 					'layed',
@@ -230,14 +318,36 @@
 					'lake based',
 					'lakebased',
 				],
+				'lalapalooza'=>[
+					'lalapaloooza',
+					'lalapaloza',
+				],
 				'lall'=>[
 					'lal',
 				],
+				'lallation'=>[
+					'lalation',
+					'lalllation',
+				],
+				'lallygag'=>[
+					'lalllygag',
+					'lalygag',
+				],
 				'lallygagged'=>[
 					'lallygaged',
+					'lalllygagged',
+					'lallygaggged',
+					'lalygagged',
 				],
 				'lallygagging'=>[
 					'lallygaging',
+					'lalllygagging',
+					'lallygaggging',
+					'lalygagging',
+				],
+				'lallygags'=>[
+					'lalllygags',
+					'lalygags',
 				],
 				'lambda'=>[
 					'lamda',
@@ -255,17 +365,56 @@
 				'lambent'=>[
 					'lambant',
 				],
+				'lambswool'=>[
+					'lambswol',
+					'lambswoool',
+				],
+				'lamella'=>[
+					'lamela',
+					'lamellla',
+				],
+				'lamellae'=>[
+					'lamelae',
+					'lamelllae',
+				],
 				'lamellar'=>[
 					'lameller',
+					'lamelar',
+					'lamelllar',
+				],
+				'lamellas'=>[
+					'lamelas',
+					'lamelllas',
+				],
+				'lamellate'=>[
+					'lamelate',
+					'lamelllate',
 				],
 				'lamellately'=>[
 					'lamellatly',
 				],
 				'lamellibranch'=>[
 					'lamelibranch',
+					'lamelllibranch',
+				],
+				'lamellibranchs'=>[
+					'lamelibranchs',
+					'lamelllibranchs',
+				],
+				'lamellicorn'=>[
+					'lamelicorn',
+					'lamelllicorn',
+				],
+				'lamelliform'=>[
+					'lameliform',
+					'lamellliform',
 				],
 				'lamellipodium'=>[
 					'lamellopodium',
+				],
+				'lamellirostral'=>[
+					'lamelirostral',
+					'lamelllirostral',
 				],
 				'lamely'=>[
 					'lamly',
@@ -346,16 +495,21 @@
 				],
 				'lammed'=>[
 					'lamned',
+					'lammmed',
 				],
 				'lammergeier'=>[
 					'lammergeeir',
 					'lammergeir',
 					'lammergieer',
 					'lamnergeier',
+					'lamergeier',
+					'lammmergeier',
 				],
 				'lammergeiers'=>[
 					'lammergieers',
 					'lamnergeiers',
+					'lamergeiers',
+					'lammmergeiers',
 				],
 				'lammergeyer'=>[
 					'lamnergeyer',
@@ -363,17 +517,64 @@
 				'lammergeyers'=>[
 					'lamnergeyers',
 				],
+				'lamming'=>[
+					'lammming',
+				],
 				'lamp post'=>[
 					'lampost',
 				],
 				'lamp posts'=>[
 					'lamposts',
 				],
+				'lampoon'=>[
+					'lampon',
+					'lampooon',
+				],
+				'lampooned'=>[
+					'lamponed',
+					'lampoooned',
+				],
+				'lampooner'=>[
+					'lamponer',
+					'lampoooner',
+				],
+				'lampooners'=>[
+					'lamponers',
+					'lampoooners',
+				],
+				'lampoonery'=>[
+					'lamponery',
+					'lampooonery',
+				],
+				'lampooning'=>[
+					'lamponing',
+					'lampoooning',
+				],
+				'lampoonist'=>[
+					'lamponist',
+					'lampooonist',
+				],
+				'lampoons'=>[
+					'lampons',
+					'lampooons',
+				],
 				'lamppost'=>[
 					'lampost',
+					'lampppost',
+				],
+				'lampposts'=>[
+					'lamppposts',
 				],
 				'lance'=>[
 					'lence',
+				],
+				'lancewood'=>[
+					'lancewod',
+					'lancewoood',
+				],
+				'lancewoods'=>[
+					'lancewods',
+					'lancewooods',
 				],
 				'lancinating'=>[
 					'lanciniting',
@@ -389,9 +590,19 @@
 				],
 				'landfall'=>[
 					'landfal',
+					'landfalll',
+				],
+				'landfalls'=>[
+					'landfallls',
+					'landfals',
 				],
 				'landfill'=>[
 					'landfil',
+					'landfilll',
+				],
+				'landfills'=>[
+					'landfillls',
+					'landfils',
 				],
 				'landless'=>[
 					'landles',
@@ -402,12 +613,15 @@
 				],
 				'landlubber'=>[
 					'landluber',
+					'landlubbber',
 				],
 				'landlubberly'=>[
 					'landluberly',
+					'landlubbberly',
 				],
 				'landlubbers'=>[
 					'landlubers',
+					'landlubbbers',
 				],
 				'landlubbing'=>[
 					'landlubing',
@@ -498,9 +712,11 @@
 				],
 				'lanner'=>[
 					'laner',
+					'lannner',
 				],
 				'lanneret'=>[
 					'laneret',
+					'lannneret',
 				],
 				'lannerets'=>[
 					'lanerets',
@@ -536,6 +752,10 @@
 				'laparoscopic'=>[
 					'laperoscopic',
 				],
+				'laparoscopically'=>[
+					'laparoscopicallly',
+					'laparoscopicaly',
+				],
 				'laparoscopies'=>[
 					'laperoscopies',
 				],
@@ -564,8 +784,27 @@
 				'lapidary'=>[
 					'lapidery',
 				],
+				'lapillus'=>[
+					'lapilllus',
+					'lapilus',
+				],
+				'lapped'=>[
+					'lappped',
+				],
 				'lappet'=>[
 					'lapet',
+					'lapppet',
+				],
+				'lappets'=>[
+					'lapets',
+					'lapppets',
+				],
+				'lapping'=>[
+					'lappping',
+				],
+				'lappings'=>[
+					'lapings',
+					'lapppings',
 				],
 				'lapsible'=>[
 					'lapsable',
@@ -601,14 +840,36 @@
 				'largest'=>[
 					'largets',
 				],
+				'larghetto'=>[
+					'largheto',
+					'larghettto',
+				],
 				'larrigan'=>[
 					'larigan',
+					'larrrigan',
 				],
 				'larrikin'=>[
 					'larikin',
+					'larrrikin',
 				],
 				'larrup'=>[
 					'larup',
+					'larrrup',
+				],
+				'larruped'=>[
+					'larrruped',
+					'laruped',
+				],
+				'larruping'=>[
+					'larrruping',
+					'laruping',
+				],
+				'larrups'=>[
+					'larrrups',
+					'larups',
+				],
+				'larry'=>[
+					'larrry',
 				],
 				'larvae'=>[
 					'lavae',
@@ -725,6 +986,15 @@
 					'late late',
 					'late late late',
 				],
+				'lateen'=>[
+					'lateeen',
+				],
+				'lateener'=>[
+					'lateeener',
+				],
+				'lateens'=>[
+					'lateeens',
+				],
 				'lately'=>[
 					'lateally',
 					'latealy',
@@ -760,8 +1030,15 @@
 				'later on'=>[
 					'alter on',
 				],
+				'lateralled'=>[
+					'laterallled',
+				],
+				'lateralling'=>[
+					'laterallling',
+				],
 				'laterally'=>[
 					'lateraly',
+					'laterallly',
 				],
 				'latest'=>[
 					'lastest',
@@ -784,6 +1061,10 @@
 				'latitudinal'=>[
 					'latitudinil',
 				],
+				'latitudinally'=>[
+					'latitudinallly',
+					'latitudinaly',
+				],
 				'latitudinarian'=>[
 					'latitudinaran',
 					'latitudinirian',
@@ -797,6 +1078,43 @@
 				'latrunculin'=>[
 					'lantrunculin',
 					'latranculin',
+				],
+				'latte'=>[
+					'lattte',
+				],
+				'latten'=>[
+					'lattten',
+				],
+				'latter'=>[
+					'lattter',
+				],
+				'latterly'=>[
+					'lattterly',
+				],
+				'lattermost'=>[
+					'latermost',
+					'latttermost',
+				],
+				'lattes'=>[
+					'latttes',
+				],
+				'lattice'=>[
+					'latice',
+					'latttice',
+				],
+				'latticed'=>[
+					'lattticed',
+				],
+				'lattices'=>[
+					'latttices',
+				],
+				'latticework'=>[
+					'laticework',
+					'lattticework',
+				],
+				'latticeworks'=>[
+					'laticeworks',
+					'lattticeworks',
 				],
 				'latvian-occupied'=>[
 					'latvian occupied',
@@ -834,6 +1152,14 @@
 				'launches'=>[
 					'launchs',
 				],
+				'launderette'=>[
+					'launderete',
+					'launderettte',
+				],
+				'launderettes'=>[
+					'launderetes',
+					'launderetttes',
+				],
 				'laundress'=>[
 					'laundres',
 					'laundresss',
@@ -841,6 +1167,14 @@
 				'laundresses'=>[
 					'laundreses',
 					'laundressses',
+				],
+				'laundrette'=>[
+					'laundrete',
+					'laundrettte',
+				],
+				'laundrettes'=>[
+					'laundretes',
+					'laundretttes',
 				],
 				'laundromat'=>[
 					'laundrymat',
@@ -858,6 +1192,10 @@
 				'law'=>[
 					'law law',
 					'law law law',
+				],
+				'lawfully'=>[
+					'lawfullly',
+					'lawfuly',
 				],
 				'lawfulness'=>[
 					'lawfulnes',
@@ -899,8 +1237,32 @@
 				'lay low'=>[
 					'layed low',
 				],
+				'layette'=>[
+					'layete',
+					'layettte',
+				],
+				'layettes'=>[
+					'layetes',
+					'layetttes',
+				],
+				'layoff'=>[
+					'layof',
+					'layofff',
+				],
+				'layoffs'=>[
+					'layofffs',
+					'layofs',
+				],
 				'lazar'=>[
 					'lazer',
+				],
+				'lazaretto'=>[
+					'lazareto',
+					'lazarettto',
+				],
+				'lazarettos'=>[
+					'lazaretos',
+					'lazaretttos',
 				],
 				'laziness'=>[
 					'lazines',
@@ -938,6 +1300,8 @@
 				'leadenness'=>[
 					'leadennes',
 					'leadennesss',
+					'leadeness',
+					'leadennness',
 				],
 				'leadennesses'=>[
 					'leadenesses',
@@ -966,6 +1330,11 @@
 				],
 				'leafhopper'=>[
 					'leafhoper',
+					'leafhoppper',
+				],
+				'leafhoppers'=>[
+					'leafhopers',
+					'leafhopppers',
 				],
 				'leafiness'=>[
 					'leafines',
@@ -977,6 +1346,12 @@
 				],
 				'leaflet'=>[
 					'leflet',
+				],
+				'leafletted'=>[
+					'leaflettted',
+				],
+				'leafletting'=>[
+					'leaflettting',
 				],
 				'leafy'=>[
 					'lefy',
@@ -1015,6 +1390,8 @@
 				],
 				'leanness'=>[
 					'leannesss',
+					'leaness',
+					'leannness',
 				],
 				'leant'=>[
 					'leent',
@@ -1033,9 +1410,11 @@
 				],
 				'leapfrogged'=>[
 					'leapfroged',
+					'leapfroggged',
 				],
 				'leapfrogging'=>[
 					'leapfroging',
+					'leapfroggging',
 				],
 				'leapt'=>[
 					'lept',
@@ -1108,6 +1487,12 @@
 				],
 				'leatherette'=>[
 					'letherette',
+					'leatherete',
+					'leatherettte',
+				],
+				'leatherettes'=>[
+					'leatheretes',
+					'leatheretttes',
 				],
 				'leatheriness'=>[
 					'leatherines',
@@ -1115,6 +1500,12 @@
 				],
 				'leatherwood'=>[
 					'letherwood',
+					'leatherwod',
+					'leatherwoood',
+				],
+				'leatherwoods'=>[
+					'leatherwods',
+					'leatherwooods',
 				],
 				'leave'=>[
 					'leave leave',
@@ -1167,15 +1558,88 @@
 				'ledges'=>[
 					'leges',
 				],
+				'lee'=>[
+					'leee',
+				],
+				'leeboard'=>[
+					'leboard',
+					'leeeboard',
+				],
+				'leech'=>[
+					'leeech',
+				],
+				'leeched'=>[
+					'leeeched',
+				],
+				'leeches'=>[
+					'leeeches',
+				],
+				'leeching'=>[
+					'leeeching',
+				],
+				'leeds'=>[
+					'leeeds',
+				],
+				'leek'=>[
+					'leeek',
+				],
+				'leeks'=>[
+					'leeeks',
+				],
+				'leered'=>[
+					'leeered',
+				],
+				'leerier'=>[
+					'leeerier',
+					'lerier',
+				],
+				'leeriest'=>[
+					'leeeriest',
+					'leriest',
+				],
+				'leerily'=>[
+					'leeerily',
+					'lerily',
+				],
 				'leeriness'=>[
 					'leerines',
 					'leerinesss',
+					'leeeriness',
+					'leriness',
+				],
+				'leering'=>[
+					'leeering',
+				],
+				'leeringly'=>[
+					'leeeringly',
+					'leringly',
+				],
+				'leers'=>[
+					'leeers',
+				],
+				'lees'=>[
+					'leees',
+				],
+				'leet'=>[
+					'leeet',
+				],
+				'leeward'=>[
+					'leeeward',
+					'leward',
 				],
 				'leewardly'=>[
 					'leewardally',
 					'leewardaly',
 					'leewardely',
 					'leewardlly',
+				],
+				'leewards'=>[
+					'leeewards',
+					'lewards',
+				],
+				'leeway'=>[
+					'leeeway',
+					'leway',
 				],
 				'left'=>[
 					'leaved',
@@ -1197,9 +1661,17 @@
 					'legalisticalaly',
 					'legalisticalely',
 					'legalisticallly',
+					'legalisticaly',
 				],
 				'legally'=>[
 					'legaly',
+					'legallly',
+				],
+				'legatee'=>[
+					'legateee',
+				],
+				'legatees'=>[
+					'legateees',
 				],
 				'legend'=>[
 					'ledgend',
@@ -1214,20 +1686,43 @@
 				],
 				'legged'=>[
 					'leged',
+					'leggged',
+				],
+				'leggier'=>[
+					'legggier',
+					'legier',
+				],
+				'leggiest'=>[
+					'legggiest',
+					'legiest',
+				],
+				'leggin'=>[
+					'legggin',
+					'legin',
 				],
 				'legginess'=>[
 					'leginess',
 					'leggines',
 					'legginesss',
+					'leggginess',
 				],
 				'legginesses'=>[
 					'leginesses',
 				],
 				'legging'=>[
 					'leging',
+					'leggging',
+				],
+				'leggings'=>[
+					'legggings',
+				],
+				'leggins'=>[
+					'legggins',
+					'legins',
 				],
 				'leggy'=>[
 					'legy',
+					'legggy',
 				],
 				'legible'=>[
 					'legable',
@@ -1241,9 +1736,11 @@
 				],
 				'legionnaire'=>[
 					'legionaire',
+					'legionnnaire',
 				],
 				'legionnaires'=>[
 					'legionaires',
+					'legionnnaires',
 				],
 				'legislate'=>[
 					'ledgislate',
@@ -1282,6 +1779,10 @@
 				'legless'=>[
 					'legles',
 					'leglesss',
+				],
+				'legroom'=>[
+					'legrom',
+					'legrooom',
 				],
 				'lehua'=>[
 					'lehau',
@@ -1375,9 +1876,15 @@
 				],
 				'lemma'=>[
 					'lemna',
+					'lemmma',
 				],
 				'lemmas'=>[
 					'lemnas',
+					'lemmmas',
+				],
+				'lemmata'=>[
+					'lemata',
+					'lemmmata',
 				],
 				'lemmatize'=>[
 					'lemnatize',
@@ -1385,14 +1892,19 @@
 				'lemmatizing'=>[
 					'lemnatizing',
 				],
+				'lemme'=>[
+					'lemmme',
+				],
 				'lemming'=>[
 					'lemning',
+					'lemmming',
 				],
 				'lemminglike'=>[
 					'lemninglike',
 				],
 				'lemmings'=>[
 					'lemnings',
+					'lemmmings',
 				],
 				'lemongrass'=>[
 					'lemongras',
@@ -1515,6 +2027,13 @@
 				'leptomeninges'=>[
 					'leptomeniges',
 				],
+				'leptophyllous'=>[
+					'leptophylllous',
+					'leptophylous',
+				],
+				'leptorrhine'=>[
+					'leptorrrhine',
+				],
 				'lesbian'=>[
 					'lesban',
 				],
@@ -1532,14 +2051,18 @@
 				'lessee'=>[
 					'lesee',
 					'lesssee',
+					'lesseee',
 				],
 				'lessees'=>[
 					'lesees',
 					'lesssees',
+					'lesseees',
 				],
 				'lesseeship'=>[
 					'leseeship',
 					'lessseeship',
+					'lesseeeship',
+					'lesseship',
 				],
 				'lessen'=>[
 					'lesen',
@@ -1593,16 +2116,82 @@
 				'lethal'=>[
 					'letal',
 				],
+				'lethally'=>[
+					'lethallly',
+				],
+				'lethargically'=>[
+					'lethargicallly',
+					'lethargicaly',
+				],
+				'lett'=>[
+					'lettt',
+				],
 				'letter'=>[
 					'letter letter',
 					'letter letter letter',
+					'lettter',
+				],
+				'letterbox'=>[
+					'leterbox',
+					'lettterbox',
+				],
+				'letterboxes'=>[
+					'leterboxes',
+					'lettterboxes',
+				],
+				'lettered'=>[
+					'letered',
+					'letttered',
+				],
+				'letterer'=>[
+					'leterer',
+					'lettterer',
+				],
+				'letterers'=>[
+					'leterers',
+					'lettterers',
 				],
 				'letterhead'=>[
 					'letterhed',
+					'leterhead',
+					'lettterhead',
+				],
+				'letterheads'=>[
+					'leterheads',
+					'lettterheads',
+				],
+				'lettering'=>[
+					'letering',
+					'letttering',
+				],
+				'letterman'=>[
+					'leterman',
+					'lettterman',
 				],
 				'letterpress'=>[
 					'letterpres',
 					'letterpresss',
+					'leterpress',
+					'lettterpress',
+				],
+				'letters'=>[
+					'leters',
+					'lettters',
+				],
+				'letting'=>[
+					'lettting',
+				],
+				'lettings'=>[
+					'letings',
+					'letttings',
+				],
+				'lettuce'=>[
+					'letttuce',
+					'letuce',
+				],
+				'lettuces'=>[
+					'letttuces',
+					'letuces',
 				],
 				'leucine'=>[
 					'leucini',
@@ -1635,6 +2224,11 @@
 				],
 				'leukorrhea'=>[
 					'leukorhea',
+					'leukorrrhea',
+				],
+				'leukorrheas'=>[
+					'leukorheas',
+					'leukorrrheas',
 				],
 				'leukotriene'=>[
 					'leukotreine',
@@ -1651,8 +2245,14 @@
 				'levant'=>[
 					'levent',
 				],
+				'levee'=>[
+					'leveee',
+				],
 				'leveeing'=>[
 					'leveieng',
+				],
+				'levees'=>[
+					'leveees',
 				],
 				'level'=>[
 					'level level',
@@ -1673,6 +2273,15 @@
 				],
 				'leveling'=>[
 					'levellling',
+				],
+				'levelled'=>[
+					'levellled',
+				],
+				'levellers'=>[
+					'levelllers',
+				],
+				'levelly'=>[
+					'levellly',
 				],
 				'levelness'=>[
 					'levelnes',
@@ -1700,8 +2309,15 @@
 					'lewdnes',
 					'lewdnesss',
 				],
+				'lexically'=>[
+					'lexicallly',
+				],
 				'lexicographical'=>[
 					'lexigraphical',
+				],
+				'lexicographically'=>[
+					'lexicographicallly',
+					'lexicographicaly',
 				],
 				'lexicon'=>[
 					'lexion',
@@ -1729,9 +2345,14 @@
 				],
 				'libber'=>[
 					'liber',
+					'libbber',
+				],
+				'libbers'=>[
+					'libbbers',
 				],
 				'libeccio'=>[
 					'libecio',
+					'libecccio',
 				],
 				'libel'=>[
 					'libell',
@@ -1741,6 +2362,28 @@
 			#	'libelous'=>[
 			#		'libellous',
 			#	],
+				'libelee'=>[
+					'libele',
+					'libeleee',
+				],
+				'libelled'=>[
+					'libellled',
+				],
+				'libeller'=>[
+					'libelller',
+				],
+				'libellers'=>[
+					'libelllers',
+				],
+				'libelling'=>[
+					'libellling',
+				],
+				'libellous'=>[
+					'libelllous',
+				],
+				'liberally'=>[
+					'liberallly',
+				],
 				'liberalness'=>[
 					'liberalnes',
 					'liberalnesss',
@@ -1765,6 +2408,8 @@
 				],
 				'libidinally'=>[
 					'libidinilly',
+					'libidinallly',
+					'libidinaly',
 				],
 				'libidinousness'=>[
 					'libidinousnes',
@@ -1778,6 +2423,26 @@
 					'libarry',
 					'libary',
 					'librery',
+				],
+				'libretti'=>[
+					'libreti',
+					'librettti',
+				],
+				'librettist'=>[
+					'libretist',
+					'libretttist',
+				],
+				'librettists'=>[
+					'libretists',
+					'libretttists',
+				],
+				'libretto'=>[
+					'libreto',
+					'librettto',
+				],
+				'librettos'=>[
+					'libretos',
+					'libretttos',
 				],
 				'libya'=>[
 					'lybia',
@@ -1794,6 +2459,12 @@
 					'liscence',
 					'liscense',
 				],
+				'licensee'=>[
+					'licenseee',
+				],
+				'licensees'=>[
+					'licenseees',
+				],
 				'licentious'=>[
 					'licentous',
 				],
@@ -1804,17 +2475,31 @@
 					'licentiousnes',
 					'licentiousnesss',
 				],
+				'lichee'=>[
+					'liche',
+					'licheee',
+				],
+				'lichees'=>[
+					'licheees',
+				],
 				'lichenase'=>[
 					'lichinase',
 				],
 				'lichened'=>[
 					'lichend',
 				],
+				'lickspittle'=>[
+					'lickspitle',
+					'lickspitttle',
+				],
 				'lictorian'=>[
 					'lictoran',
 				],
 				'lidar'=>[
 					'lider',
+				],
+				'lidded'=>[
+					'liddded',
 				],
 				'lidless'=>[
 					'lidles',
@@ -1874,6 +2559,10 @@
 				'life-changing experience'=>[
 					'life changing experience',
 				],
+				'lifeblood'=>[
+					'lifeblod',
+					'lifebloood',
+				],
 				'lifeguard'=>[
 					'lifegaurd',
 				],
@@ -1903,6 +2592,14 @@
 				'lift'=>[
 					'lift lift',
 					'lift lift lift',
+				],
+				'liftoff'=>[
+					'liftof',
+					'liftofff',
+				],
+				'liftoffs'=>[
+					'liftofffs',
+					'liftofs',
 				],
 				'ligament'=>[
 					'ligamant',
@@ -1957,6 +2654,10 @@
 				'lightning'=>[
 					'lightening',
 				],
+				'lightproof'=>[
+					'lightprof',
+					'lightprooof',
+				],
 				'lightsomely'=>[
 					'lightsomly',
 				],
@@ -1968,6 +2669,7 @@
 				],
 				'lignocellulose'=>[
 					'lignocelulose',
+					'lignocelllulose',
 				],
 				'lignoceric'=>[
 					'lignoseric',
@@ -2009,6 +2711,12 @@
 				'likelihood'=>[
 					'likelyhood',
 					'liklihood',
+					'likelihod',
+					'likelihoood',
+				],
+				'likelihoods'=>[
+					'likelihods',
+					'likelihooods',
 				],
 				'likeliness'=>[
 					'likelines',
@@ -2033,11 +2741,27 @@
 					'likeneses',
 					'likenessses',
 				],
+				'likker'=>[
+					'likkker',
+				],
 				'lilies'=>[
 					'lillies',
 				],
+				'lilliput'=>[
+					'liliput',
+					'lillliput',
+				],
 				'lilliputian'=>[
 					'lilliputan',
+					'liliputian',
+					'lillliputian',
+				],
+				'lilliputians'=>[
+					'liliputians',
+					'lillliputians',
+				],
+				'lilly'=>[
+					'lillly',
 				],
 				'limberness'=>[
 					'limbernes',
@@ -2123,6 +2847,10 @@
 				],
 				'linalool'=>[
 					'linilool',
+					'linaloool',
+				],
+				'linalools'=>[
+					'linaloools',
 				],
 				'lincoln'=>[
 					'linclon',
@@ -2145,6 +2873,9 @@
 				'lineal'=>[
 					'linial',
 				],
+				'lineally'=>[
+					'lineallly',
+				],
 				'lineament'=>[
 					'liniament',
 				],
@@ -2160,8 +2891,15 @@
 				'linebacker'=>[
 					'linibacker',
 				],
+				'linebreeding'=>[
+					'linebreeeding',
+				],
 				'lined'=>[
 					'linid',
+				],
+				'linefeed'=>[
+					'linefed',
+					'linefeeed',
 				],
 				'lineman'=>[
 					'liniman',
@@ -2195,8 +2933,13 @@
 					'lingerei',
 					'lingeri',
 				],
+				'lingonberries'=>[
+					'lingonberies',
+					'lingonberrries',
+				],
 				'lingonberry'=>[
 					'lingonbery',
+					'lingonberrry',
 				],
 				'lingua'=>[
 					'lingau',
@@ -2206,6 +2949,7 @@
 				],
 				'lingually'=>[
 					'lingaully',
+					'linguallly',
 				],
 					# linguini: an accepted spelling, not a slip (AmericanBritishWords_L: linguine)
 			#	'linguine'=>[
@@ -2215,6 +2959,10 @@
 					'languistic',
 					'libguistic',
 					'lingustic',
+				],
+				'linguistically'=>[
+					'linguisticallly',
+					'linguisticaly',
 				],
 				'linguistician'=>[
 					'linguistican',
@@ -2248,12 +2996,24 @@
 				],
 				'linn'=>[
 					'lin',
+					'linnn',
 				],
 				'linnet'=>[
 					'linet',
+					'linnnet',
+				],
+				'linnets'=>[
+					'linets',
+					'linnnets',
 				],
 				'linns'=>[
 					'lins',
+				],
+				'linseed'=>[
+					'linseeed',
+				],
+				'lintelled'=>[
+					'lintellled',
 				],
 				'lioness'=>[
 					'liones',
@@ -2318,15 +3078,29 @@
 				'lipotropic'=>[
 					'lipotrophic',
 				],
+				'lipped'=>[
+					'lippped',
+				],
 				'lippened'=>[
 					'lippend',
+				],
+				'lippier'=>[
+					'lipier',
+					'lipppier',
+				],
+				'lippiest'=>[
+					'lipiest',
+					'lipppiest',
 				],
 				'lippiness'=>[
 					'lippines',
 					'lippinesss',
+					'lipiness',
+					'lipppiness',
 				],
 				'lippy'=>[
 					'lipy',
+					'lipppy',
 				],
 				'liquate'=>[
 					'liqaute',
@@ -2432,6 +3206,10 @@
 					'list list',
 					'list list list',
 				],
+				'listee'=>[
+					'liste',
+					'listeee',
+				],
 				'listen'=>[
 					'listen listen',
 					'listen listen listen',
@@ -2508,6 +3286,10 @@
 					'lithenes',
 					'lithenesss',
 				],
+				'lithographically'=>[
+					'lithographicallly',
+					'lithographicaly',
+				],
 				'lithopedion'=>[
 					'lithopedian',
 				],
@@ -2537,8 +3319,35 @@
 					'litigiousnes',
 					'litigiousnesss',
 				],
+				'litter'=>[
+					'littter',
+				],
 				'litterateur'=>[
 					'litterater',
+				],
+				'litterbug'=>[
+					'literbug',
+					'littterbug',
+				],
+				'litterbugs'=>[
+					'literbugs',
+					'littterbugs',
+				],
+				'littered'=>[
+					'litttered',
+				],
+				'litterer'=>[
+					'littterer',
+				],
+				'litterers'=>[
+					'literers',
+					'littterers',
+				],
+				'littering'=>[
+					'litttering',
+				],
+				'litters'=>[
+					'littters',
 				],
 				'littery'=>[
 					'littary',
@@ -2548,10 +3357,42 @@
 					'littel',
 					'little little',
 					'little little little',
+					'litttle',
+				],
+				'littleneck'=>[
+					'litleneck',
+					'litttleneck',
+				],
+				'littlenecks'=>[
+					'litlenecks',
+					'litttlenecks',
 				],
 				'littleness'=>[
 					'littlenes',
 					'littlenesss',
+					'litleness',
+					'litttleness',
+				],
+				'littler'=>[
+					'litttler',
+				],
+				'littlest'=>[
+					'litlest',
+					'litttlest',
+				],
+				'littoral'=>[
+					'litttoral',
+				],
+				'littorals'=>[
+					'litttorals',
+				],
+				'liturgically'=>[
+					'liturgicallly',
+					'liturgicaly',
+				],
+				'lituus'=>[
+					'litus',
+					'lituuus',
 				],
 				'livable'=>[
 					# liveable: an accepted spelling, not a slip (AmericanBritishWords_L: livable)
@@ -2581,6 +3422,12 @@
 				],
 				'livelihood'=>[
 					'livelyhood',
+					'livelihod',
+					'livelihoood',
+				],
+				'livelihoods'=>[
+					'livelihods',
+					'livelihooods',
 				],
 				'liveliness'=>[
 					'livelines',
@@ -2605,6 +3452,10 @@
 					'liverishnes',
 					'liverishnesss',
 				],
+				'liverpool'=>[
+					'liverpol',
+					'liverpoool',
+				],
 				'livetrapping'=>[
 					'livetraping',
 				],
@@ -2628,11 +3479,23 @@
 				'lixiviation'=>[
 					'lixivation',
 				],
+				'lizzie'=>[
+					'lizie',
+					'lizzzie',
+				],
 				'llama'=>[
 					'lllama',
 				],
+				'llamas'=>[
+					'lllamas',
+				],
 				'llano'=>[
 					'lano',
+					'lllano',
+				],
+				'llanos'=>[
+					'lanos',
+					'lllanos',
 				],
 				'loadstar'=>[
 					'loadster',
@@ -2658,33 +3521,72 @@
 				],
 				'lobbed'=>[
 					'lobed',
+					'lobbbed',
 				],
 				'lobber'=>[
 					'lober',
+					'lobbber',
+				],
+				'lobbers'=>[
+					'lobbbers',
+				],
+				'lobbied'=>[
+					'lobbbied',
+				],
+				'lobbies'=>[
+					'lobbbies',
+					'lobies',
+				],
+				'lobbing'=>[
+					'lobbbing',
 				],
 				'lobby'=>[
 					'loby',
+					'lobbby',
+				],
+				'lobbyer'=>[
+					'lobbbyer',
+					'lobyer',
 				],
 				'lobbygows'=>[
 					'lobygows',
 				],
+				'lobbying'=>[
+					'lobbbying',
+					'lobying',
+				],
+				'lobbyism'=>[
+					'lobbbyism',
+					'lobyism',
+				],
 				'lobbyisms'=>[
 					'lobyisms',
 				],
+				'lobbyist'=>[
+					'lobbbyist',
+					'lobyist',
+				],
 				'lobbyists'=>[
 					'lobyists',
+					'lobbbyists',
+				],
+				'loblollies'=>[
+					'loblolies',
+					'loblolllies',
 				],
 				'loblolly'=>[
 					'loblolally',
 					'loblolaly',
 					'loblolely',
 					'loblollly',
+					'lobloly',
 				],
 				'lobotomy'=>[
 					'labotomy',
 				],
 				'locally'=>[
 					'localy',
+					'locallly',
 				],
 				'locate'=>[
 					'locate locate',
@@ -2708,6 +3610,14 @@
 				'locomotor'=>[
 					'locomoter',
 				],
+				'locoweed'=>[
+					'locowed',
+					'locoweeed',
+				],
+				'locoweeds'=>[
+					'locoweds',
+					'locoweeeds',
+				],
 				'locular'=>[
 					'loculer',
 				],
@@ -2728,9 +3638,11 @@
 				],
 				'loganberries'=>[
 					'loganberies',
+					'loganberrries',
 				],
 				'loganberry'=>[
 					'loganbery',
+					'loganberrry',
 				],
 				'logarithmically'=>[
 					'logarithmicalally',
@@ -2738,30 +3650,54 @@
 					'logarithmicalely',
 					'logarithmicallly',
 					'logarithmicly',
+					'logarithmicaly',
+				],
+				'logbook'=>[
+					'logbok',
+					'logboook',
+				],
+				'logbooks'=>[
+					'logboks',
+					'logboooks',
 				],
 				'logged'=>[
 					'llogged',
+					'loggged',
 				],
 				'logger'=>[
 					'loger',
+					'loggger',
 				],
 				'loggerhead'=>[
 					'logerhead',
+					'logggerhead',
 				],
 				'loggerheads'=>[
 					'logerheads',
+					'logggerheads',
+				],
+				'loggers'=>[
+					'logers',
+					'logggers',
 				],
 				'loggia'=>[
 					'logia',
+					'logggia',
+				],
+				'loggias'=>[
+					'logggias',
 				],
 				'logging'=>[
 					'loging',
+					'loggging',
 				],
 				'loggy'=>[
 					'logy',
+					'logggy',
 				],
 				'logically'=>[
 					'logicaly',
+					'logicallly',
 				],
 				'logicalness'=>[
 					'logicalnes',
@@ -2781,6 +3717,10 @@
 				'loginesses'=>[
 					'logineses',
 					'loginessses',
+				],
+				'logistically'=>[
+					'logisticallly',
+					'logisticaly',
 				],
 				'logistician'=>[
 					'logistican',
@@ -2802,15 +3742,88 @@
 				],
 				'logorrhea'=>[
 					'logorhea',
+					'logorrrhea',
+				],
+				'logorrheas'=>[
+					'logorheas',
+					'logorrrheas',
 				],
 				'logorrheic'=>[
 					'logorrhiec',
 				],
+				'logroll'=>[
+					'logrol',
+					'logrolll',
+				],
+				'logroller'=>[
+					'logroler',
+					'logrolller',
+				],
+				'logrolling'=>[
+					'logroling',
+					'logrollling',
+				],
+				'logwood'=>[
+					'logwod',
+					'logwoood',
+				],
+				'logwoods'=>[
+					'logwods',
+					'logwooods',
+				],
 				'loll'=>[
 					'lol',
+					'lolll',
+				],
+				'lollapaloosa'=>[
+					'lollapalooosa',
+					'lollapalosa',
+					'lolllapaloosa',
+				],
+				'lollapalooza'=>[
+					'lollapaloooza',
+					'lollapaloza',
+					'lolllapalooza',
+				],
+				'lolled'=>[
+					'lollled',
+				],
+				'loller'=>[
+					'lolller',
+				],
+				'lollies'=>[
+					'lolies',
+					'lolllies',
+				],
+				'lolling'=>[
+					'lollling',
 				],
 				'lollipop'=>[
 					'lolipop',
+					'lolllipop',
+				],
+				'lollipops'=>[
+					'lolipops',
+					'lolllipops',
+				],
+				'lollop'=>[
+					'lolllop',
+					'lolop',
+				],
+				'lolloped'=>[
+					'lollloped',
+					'loloped',
+				],
+				'lolloping'=>[
+					'lollloping',
+					'loloping',
+				],
+				'lollops'=>[
+					'lolllops',
+					'lolops',
+				],
+				'lolls'=>[
+					'lollls',
 				],
 				'lolly'=>[
 					'lolally',
@@ -2818,11 +3831,33 @@
 					'lollly',
 					'loly',
 				],
+				'lollygag'=>[
+					'lolllygag',
+					'lolygag',
+				],
 				'lollygagged'=>[
 					'lollygaged',
+					'lolllygagged',
+					'lollygaggged',
+					'lolygagged',
 				],
 				'lollygagging'=>[
 					'lollygaging',
+					'lolllygagging',
+					'lollygaggging',
+					'lolygagging',
+				],
+				'lollygags'=>[
+					'lolllygags',
+					'lolygags',
+				],
+				'lollypop'=>[
+					'lolllypop',
+					'lolypop',
+				],
+				'lollypops'=>[
+					'lolllypops',
+					'lolypops',
 				],
 				'loment'=>[
 					'lomant',
@@ -2888,6 +3923,7 @@
 					'longitudinallly',
 					'longitudinilly',
 					'longintudinally',
+					'longitudinaly',
 				],
 				'longline'=>[
 					'longlini',
@@ -2901,33 +3937,210 @@
 				'longueur'=>[
 					'longuer',
 				],
+				'loo'=>[
+					'looo',
+				],
+				'looby'=>[
+					'loooby',
+				],
 				'loofah'=>[
 					'loofa',
+					'lofah',
+					'looofah',
 				],
 				'loofahs'=>[
 					'loofas',
+					'lofahs',
+					'looofahs',
 				],
 				'look'=>[
 					'look look',
 					'look look look',
+					'loook',
+				],
+				'lookalike'=>[
+					'lokalike',
+					'loookalike',
+				],
+				'lookalikes'=>[
+					'lokalikes',
+					'loookalikes',
+				],
+				'looked'=>[
+					'loooked',
+				],
+				'looker'=>[
+					'loooker',
+				],
+				'lookers'=>[
+					'loookers',
 				],
 				'looking'=>[
 					'loking',
+					'loooking',
+				],
+				'lookout'=>[
+					'lokout',
+					'loookout',
+				],
+				'lookouts'=>[
+					'lokouts',
+					'loookouts',
+				],
+				'looks'=>[
+					'loooks',
+				],
+				'loom'=>[
+					'looom',
+				],
+				'loomed'=>[
+					'looomed',
+				],
+				'looming'=>[
+					'loooming',
+				],
+				'looms'=>[
+					'loooms',
+				],
+				'loon'=>[
+					'looon',
+				],
+				'looney'=>[
+					'loooney',
+				],
+				'looneys'=>[
+					'loooneys',
+				],
+				'loonier'=>[
+					'lonier',
+					'looonier',
+				],
+				'loonies'=>[
+					'lonies',
+					'looonies',
+				],
+				'looniest'=>[
+					'loniest',
+					'loooniest',
 				],
 				'looniness'=>[
 					'loonines',
 					'looninesss',
+					'loniness',
+					'loooniness',
+				],
+				'loons'=>[
+					'looons',
+				],
+				'loony'=>[
+					'looony',
+				],
+				'loop'=>[
+					'looop',
+				],
+				'looped'=>[
+					'loooped',
+				],
+				'looper'=>[
+					'loooper',
+				],
+				'loopers'=>[
+					'looopers',
+				],
+				'loophole'=>[
+					'looophole',
+					'lophole',
+				],
+				'loopholes'=>[
+					'looopholes',
+					'lopholes',
+				],
+				'loopier'=>[
+					'looopier',
+					'lopier',
+				],
+				'loopiest'=>[
+					'looopiest',
+					'lopiest',
+				],
+				'looping'=>[
+					'loooping',
+				],
+				'loops'=>[
+					'looops',
+				],
+				'loopy'=>[
+					'looopy',
+				],
+				'loos'=>[
+					'looos',
+				],
+				'loose'=>[
+					'looose',
+				],
+				'loosed'=>[
+					'looosed',
 				],
 				'loosely'=>[
 					'loosley',
 					'loosly',
+					'looosely',
+				],
+				'loosen'=>[
+					'looosen',
+					'losen',
 				],
 				'loosened'=>[
 					'loosend',
+					'looosened',
+					'losened',
 				],
 				'looseness'=>[
 					'loosenes',
 					'loosenesss',
+					'loooseness',
+					'loseness',
+				],
+				'loosening'=>[
+					'looosening',
+					'losening',
+				],
+				'loosens'=>[
+					'looosens',
+					'losens',
+				],
+				'looser'=>[
+					'loooser',
+				],
+				'loosest'=>[
+					'looosest',
+				],
+				'loosestrife'=>[
+					'looosestrife',
+					'losestrife',
+				],
+				'loosestrifes'=>[
+					'looosestrifes',
+					'losestrifes',
+				],
+				'loot'=>[
+					'looot',
+				],
+				'looted'=>[
+					'loooted',
+				],
+				'looter'=>[
+					'loooter',
+				],
+				'looters'=>[
+					'loooters',
+					'loters',
+				],
+				'looting'=>[
+					'loooting',
+				],
+				'loots'=>[
+					'looots',
 				],
 				'loperamide'=>[
 					'loperimide',
@@ -2935,11 +4148,22 @@
 				'lophotrochozoan'=>[
 					'locotrophozoan',
 				],
+				'lopped'=>[
+					'loppped',
+				],
+				'lopper'=>[
+					'loppper',
+				],
 				'loppers'=>[
 					'lopers',
+					'lopppers',
+				],
+				'lopping'=>[
+					'loppping',
 				],
 				'loppy'=>[
 					'lopy',
+					'lopppy',
 				],
 				'lopsidedly'=>[
 					'lopsidedally',
@@ -2989,6 +4213,31 @@
 			#	'lorry'=>[
 			#		'lory',
 			#	],
+				'lorgnette'=>[
+					'lorgnete',
+					'lorgnettte',
+				],
+				'lorgnettes'=>[
+					'lorgnetes',
+					'lorgnetttes',
+				],
+				'lorikeet'=>[
+					'lorikeeet',
+					'loriket',
+				],
+				'lorikeets'=>[
+					'lorikeeets',
+					'lorikets',
+				],
+				'lorrie'=>[
+					'lorrrie',
+				],
+				'lorries'=>[
+					'lorrries',
+				],
+				'lorry'=>[
+					'lorrry',
+				],
 				'los angeles'=>[
 					'los angles',
 				],
@@ -3028,8 +4277,20 @@
 				'lotahs'=>[
 					'lotas',
 				],
+				'lotta'=>[
+					'lottta',
+				],
+				'lotteries'=>[
+					'loteries',
+					'lottteries',
+				],
 				'lottery'=>[
 					'lottary',
+					'lotery',
+					'lotttery',
+				],
+				'lotto'=>[
+					'lottto',
 				],
 				'loud'=>[
 					'loud loud',
@@ -3145,6 +4406,22 @@
 				'low-down'=>[
 					'lowdown',
 				],
+				'lowball'=>[
+					'lowbal',
+					'lowballl',
+				],
+				'lowballed'=>[
+					'lowbaled',
+					'lowballled',
+				],
+				'lowballing'=>[
+					'lowbaling',
+					'lowballling',
+				],
+				'lowballs'=>[
+					'lowballls',
+					'lowbals',
+				],
 				'lower than'=>[
 					'lower then',
 				],
@@ -3163,6 +4440,15 @@
 				'lowness'=>[
 					'lownesss',
 				],
+				'loyaller'=>[
+					'loyalller',
+				],
+				'loyallest'=>[
+					'loyalllest',
+				],
+				'loyally'=>[
+					'loyallly',
+				],
 				'luau'=>[
 					'lauu',
 				],
@@ -3171,6 +4457,7 @@
 				],
 				'lubber'=>[
 					'luber',
+					'lubbber',
 				],
 				'lubberliness'=>[
 					'luberliness',
@@ -3178,6 +4465,12 @@
 				'lubberlinesses'=>[
 					'lubberlinisses',
 					'luberlinesses',
+				],
+				'lubberly'=>[
+					'lubbberly',
+				],
+				'lubbers'=>[
+					'lubbbers',
 				],
 				'lubricant'=>[
 					'lubricent',
@@ -3245,15 +4538,55 @@
 					'lucrativenes',
 					'lucrativenesss',
 				],
+				'luddite'=>[
+					'ludddite',
+					'ludite',
+				],
+				'luddites'=>[
+					'ludddites',
+					'ludites',
+				],
 				'ludicrousness'=>[
 					'ludicrousnes',
 					'ludicrousnesss',
 				],
+				'luff'=>[
+					'lufff',
+				],
+				'luffa'=>[
+					'lufffa',
+				],
+				'luffas'=>[
+					'lufas',
+					'lufffas',
+				],
+				'luffed'=>[
+					'lufed',
+					'lufffed',
+				],
+				'luffing'=>[
+					'lufffing',
+					'lufing',
+				],
+				'luffs'=>[
+					'lufffs',
+				],
 				'luggage'=>[
 					'lugage',
+					'lugggage',
+				],
+				'lugged'=>[
+					'luggged',
 				],
 				'lugger'=>[
 					'luger',
+					'luggger',
+				],
+				'luggers'=>[
+					'lugggers',
+				],
+				'lugging'=>[
+					'luggging',
 				],
 				'lugubrious'=>[
 					'lugubrous',
@@ -3274,9 +4607,27 @@
 				],
 				'lull'=>[
 					'lul',
+					'lulll',
+				],
+				'lullabies'=>[
+					'lulabies',
+					'lulllabies',
 				],
 				'lullaby'=>[
 					'lulaby',
+					'lulllaby',
+				],
+				'lulled'=>[
+					'lullled',
+				],
+				'lulling'=>[
+					'lullling',
+				],
+				'lulls'=>[
+					'lullls',
+				],
+				'lully'=>[
+					'lullly',
 				],
 				'lumbar'=>[
 					'lumbbar',
@@ -3346,9 +4697,13 @@
 				],
 				'lummox'=>[
 					'lumnox',
+					'lummmox',
+					'lumox',
 				],
 				'lummoxes'=>[
 					'lumnoxes',
+					'lummmoxes',
+					'lumoxes',
 				],
 				'lumpiness'=>[
 					'lumpines',
@@ -3370,8 +4725,32 @@
 				'lunately'=>[
 					'lunatly',
 				],
+				'luncheonette'=>[
+					'luncheonete',
+					'luncheonettte',
+				],
+				'luncheonettes'=>[
+					'luncheonetes',
+					'luncheonetttes',
+				],
 				'lunches'=>[
 					'lunchs',
+				],
+				'lunchroom'=>[
+					'lunchrom',
+					'lunchrooom',
+				],
+				'lunchrooms'=>[
+					'lunchroms',
+					'lunchroooms',
+				],
+				'lunette'=>[
+					'lunete',
+					'lunettte',
+				],
+				'lunettes'=>[
+					'lunetes',
+					'lunetttes',
 				],
 				'lunisolar'=>[
 					'lunisoler',
@@ -3413,6 +4792,10 @@
 					'lusterles',
 					'lusterlesss',
 				],
+				'lustfully'=>[
+					'lustfullly',
+					'lustfuly',
+				],
 				'lustfulness'=>[
 					'lustfulnes',
 					'lustfulnesss',
@@ -3420,6 +4803,10 @@
 				'lustfulnesses'=>[
 					'lustfulneses',
 					'lustfulnessses',
+				],
+				'lustihood'=>[
+					'lustihod',
+					'lustihoood',
 				],
 				'lustiness'=>[
 					'lustines',
@@ -3460,6 +4847,10 @@
 				'lutidine'=>[
 					'lutidiene',
 				],
+				'luvvie'=>[
+					'luvie',
+					'luvvvie',
+				],
 				'luxuriance'=>[
 					'luxurience',
 				],
@@ -3488,6 +4879,16 @@
 				],
 				'lycanthropy'=>[
 					'lycenthropy',
+				],
+				'lychee'=>[
+					'lyche',
+					'lycheee',
+				],
+				'lychees'=>[
+					'lycheees',
+				],
+				'lyddite'=>[
+					'lydddite',
 				],
 				'lying'=>[
 					'lieing',
@@ -3527,8 +4928,12 @@
 					'lymphatrophic',
 					'lymphotrophic',
 				],
+				'lynn'=>[
+					'lynnn',
+				],
 				'lyonnaise'=>[
 					'lyonaise',
+					'lyonnnaise',
 				],
 				'lyophilized'=>[
 					'lyophylized',
@@ -3538,6 +4943,10 @@
 				],
 				'lyrately'=>[
 					'lyratly',
+				],
+				'lyrically'=>[
+					'lyricallly',
+					'lyricaly',
 				],
 				'lysianassid'=>[
 					'lyssianassid',
@@ -3560,6 +4969,9 @@
 				'lyssa'=>[
 					'lysa',
 					'lysssa',
+				],
+				'lytta'=>[
+					'lyttta',
 				],
 				'lópez'=>[
 					'lopez',

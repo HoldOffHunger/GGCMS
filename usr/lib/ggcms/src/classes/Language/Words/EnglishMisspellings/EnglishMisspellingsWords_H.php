@@ -44,8 +44,12 @@
 				'Heraclitus'=>[
 					'heraclydus',
 				],
+				'haaf'=>[
+					'haaaf',
+				],
 				'haar'=>[
 					'haer',
+					'haaar',
 				],
 				'habaneros'=>[
 					'habaneroes',
@@ -82,6 +86,10 @@
 				'habitual'=>[
 					'habitaul',
 				],
+				'habitually'=>[
+					'habituallly',
+					'habitualy',
+				],
 				'habitualness'=>[
 					'habitualnes',
 					'habitualnesss',
@@ -111,8 +119,13 @@
 				'hackamores'=>[
 					'hackamoures',
 				],
+				'hackberries'=>[
+					'hackberies',
+					'hackberrries',
+				],
 				'hackberry'=>[
 					'hackbery',
+					'hackberrry',
 				],
 				'hackly'=>[
 					'hackally',
@@ -133,6 +146,14 @@
 				'had gone'=>[
 					'had went',
 				],
+				'haddock'=>[
+					'hadddock',
+					'hadock',
+				],
+				'haddocks'=>[
+					'hadddocks',
+					'hadocks',
+				],
 				'hadn\'t'=>[
 					'had\'nt',
 					'hadnt',
@@ -144,6 +165,7 @@
 				'haecceity'=>[
 					'haecciety',
 					'haeceity',
+					'haeccceity',
 				],
 				'haeing'=>[
 					'haieng',
@@ -198,6 +220,24 @@
 				],
 				'haemorrhage'=>[
 					'heamorrhage',
+					'haemorhage',
+					'haemorrrhage',
+				],
+				'haemorrhaged'=>[
+					'haemorhaged',
+					'haemorrrhaged',
+				],
+				'haemorrhages'=>[
+					'haemorhages',
+					'haemorrrhages',
+				],
+				'haemorrhaging'=>[
+					'haemorhaging',
+					'haemorrrhaging',
+				],
+				'haemorrhoids'=>[
+					'haemorhoids',
+					'haemorrrhoids',
 				],
 				'haemosporidian'=>[
 					'haemosporidan',
@@ -216,6 +256,11 @@
 				],
 				'hagberries'=>[
 					'hagberies',
+					'hagberrries',
+				],
+				'hagberry'=>[
+					'hagberrry',
+					'hagbery',
 				],
 				'haggadah'=>[
 					'haggada',
@@ -229,6 +274,7 @@
 				],
 				'haggadist'=>[
 					'hagadist',
+					'hagggadist',
 				],
 				'haggadistic'=>[
 					'hagadistic',
@@ -238,14 +284,17 @@
 				],
 				'haggard'=>[
 					'hagard',
+					'hagggard',
 				],
 				'haggardly'=>[
 					'hagardly',
+					'hagggardly',
 				],
 				'haggardness'=>[
 					'hagardness',
 					'haggardnes',
 					'haggardnesss',
+					'hagggardness',
 				],
 				'haggardnesses'=>[
 					'hagardnesses',
@@ -255,12 +304,37 @@
 				],
 				'haggis'=>[
 					'hagis',
+					'hagggis',
+				],
+				'haggises'=>[
+					'hagggises',
+					'hagises',
+				],
+				'haggish'=>[
+					'hagggish',
+					'hagish',
 				],
 				'haggishly'=>[
 					'hagishly',
 				],
 				'haggle'=>[
 					'hagle',
+					'hagggle',
+				],
+				'haggled'=>[
+					'hagggled',
+				],
+				'haggler'=>[
+					'hagggler',
+				],
+				'hagglers'=>[
+					'haggglers',
+				],
+				'haggles'=>[
+					'hagggles',
+				],
+				'haggling'=>[
+					'hagggling',
 				],
 				'haha'=>[
 					'haa',
@@ -280,8 +354,22 @@
 					'hair hair',
 					'hair hair hair',
 				],
+				'hairball'=>[
+					'hairbal',
+					'hairballl',
+				],
+				'hairballs'=>[
+					'hairballls',
+					'hairbals',
+				],
 				'hairbreadth'=>[
 					'hairbredth',
+				],
+				'haircutter'=>[
+					'haircuttter',
+				],
+				'haircutting'=>[
+					'haircuttting',
 				],
 				'hairdresser'=>[
 					'hairdreser',
@@ -313,8 +401,30 @@
 				'hairsbreadth'=>[
 					'hairsbredth',
 				],
+				'hairsplitter'=>[
+					'hairsplittter',
+				],
+				'hairsplitters'=>[
+					'hairspliters',
+					'hairsplittters',
+				],
+				'hairsplitting'=>[
+					'hairsplittting',
+				],
 				'haitian-occupied'=>[
 					'haitian occupied',
+				],
+				'hajj'=>[
+					'hajjj',
+				],
+				'hajjes'=>[
+					'hajjjes',
+				],
+				'hajji'=>[
+					'hajjji',
+				],
+				'hajjis'=>[
+					'hajjjis',
 				],
 				'halakah'=>[
 					'halaka',
@@ -348,6 +458,10 @@
 				'half-sisters'=>[
 					'half sisters',
 				],
+				'halfbreed'=>[
+					'halfbred',
+					'halfbreeed',
+				],
 				'halfhearted'=>[
 					'halfherted',
 				],
@@ -361,58 +475,208 @@
 				],
 				'halfpennies'=>[
 					'halfpenies',
+					'halfpennnies',
 				],
 				'halfpenny'=>[
 					'halfpeny',
+					'halfpennny',
+				],
+				'halfpennyworth'=>[
+					'halfpennnyworth',
+					'halfpenyworth',
+				],
+				'halfwitted'=>[
+					'halfwittted',
 				],
 				'hall'=>[
 					'halll',
 				],
 				'hallah'=>[
 					'halla',
+					'halah',
+					'halllah',
 				],
 				'hallahs'=>[
 					'hallas',
+					'halahs',
+					'halllahs',
+				],
+				'hallel'=>[
+					'halel',
+					'halllel',
+				],
+				'hallels'=>[
+					'halels',
+					'halllels',
+				],
+				'halleluiah'=>[
+					'haleluiah',
+					'hallleluiah',
+				],
+				'halleluiahs'=>[
+					'haleluiahs',
+					'hallleluiahs',
 				],
 				'hallelujah'=>[
 					'halelujah',
 					'halleluja',
+					'halllelujah',
 				],
 				'hallelujahs'=>[
 					'hallelujas',
+					'halelujahs',
+					'halllelujahs',
+				],
+				'halliard'=>[
+					'haliard',
+					'hallliard',
+				],
+				'halliards'=>[
+					'haliards',
+					'hallliards',
 				],
 				'hallmark'=>[
 					'halmark',
+					'halllmark',
+				],
+				'hallmarked'=>[
+					'halllmarked',
+					'halmarked',
+				],
+				'hallmarking'=>[
+					'halllmarking',
+					'halmarking',
+				],
+				'hallmarks'=>[
+					'halllmarks',
+					'halmarks',
+				],
+				'hallo'=>[
+					'halllo',
+				],
+				'halloing'=>[
+					'hallloing',
+				],
+				'halloo'=>[
+					'hallloo',
+					'hallooo',
+				],
+				'hallooed'=>[
+					'halllooed',
+					'halloooed',
+				],
+				'hallooing'=>[
+					'halllooing',
+					'halloooing',
+				],
+				'halloos'=>[
+					'hallloos',
+					'hallooos',
+				],
+				'hallos'=>[
+					'halllos',
+				],
+				'hallow'=>[
+					'halllow',
 				],
 				'hallowed'=>[
 					'halowed',
+					'halllowed',
 				],
 				'halloween'=>[
 					'hallowean',
 				],
+				'hallower'=>[
+					'halllower',
+				],
+				'hallowing'=>[
+					'halllowing',
+				],
+				'hallows'=>[
+					'halllows',
+				],
+				'halls'=>[
+					'hallls',
+				],
+				'hallucinant'=>[
+					'halllucinant',
+					'halucinant',
+				],
 				'hallucinate'=>[
 					'hallucinite',
 					'halucinate',
+					'halllucinate',
+				],
+				'hallucinated'=>[
+					'halllucinated',
+					'halucinated',
+				],
+				'hallucinates'=>[
+					'halllucinates',
+					'halucinates',
+				],
+				'hallucinating'=>[
+					'halllucinating',
+					'halucinating',
 				],
 				'hallucination'=>[
 					'hallucinition',
 					'halucination',
+					'halllucination',
+				],
+				'hallucinational'=>[
+					'halllucinational',
+					'halucinational',
 				],
 				'hallucinations'=>[
 					'hallucinitions',
+					'halllucinations',
+					'halucinations',
+				],
+				'hallucinative'=>[
+					'halllucinative',
+					'halucinative',
+				],
+				'hallucinator'=>[
+					'halllucinator',
+					'halucinator',
 				],
 				'hallucinatory'=>[
 					'hallucinitory',
 					'halucinatory',
+					'halllucinatory',
 				],
 				'hallucinogen'=>[
 					'halucinogen',
+					'halllucinogen',
+				],
+				'hallucinogenic'=>[
+					'halllucinogenic',
+					'halucinogenic',
+				],
+				'hallucinogenics'=>[
+					'halllucinogenics',
+					'halucinogenics',
+				],
+				'hallucinogens'=>[
+					'halllucinogens',
+					'halucinogens',
 				],
 				'hallucinosis'=>[
 					'halucinosis',
+					'halllucinosis',
+				],
+				'hallux'=>[
+					'halllux',
+					'halux',
 				],
 				'hallway'=>[
 					'halway',
+					'halllway',
+				],
+				'hallways'=>[
+					'halllways',
+					'halways',
 				],
 				'haloduracin'=>[
 					'haloduricin',
@@ -468,22 +732,41 @@
 				],
 				'hammed'=>[
 					'hamned',
+					'hammmed',
 				],
 				'hammer'=>[
 					'hamner',
+					'hammmer',
 				],
 				'hammered'=>[
 					'hamnered',
+					'hammmered',
 				],
 				'hammerer'=>[
 					'hamnerer',
+					'hammmerer',
+				],
+				'hammerers'=>[
+					'hamerers',
+					'hammmerers',
 				],
 				'hammerhead'=>[
 					'hammerhed',
 					'hamnerhead',
+					'hamerhead',
+					'hammmerhead',
 				],
 				'hammerheads'=>[
 					'hamnerheads',
+					'hamerheads',
+					'hammmerheads',
+				],
+				'hammering'=>[
+					'hammmering',
+				],
+				'hammerings'=>[
+					'hamerings',
+					'hammmerings',
 				],
 				'hammerkop'=>[
 					'hamnerkop',
@@ -491,30 +774,61 @@
 				'hammerless'=>[
 					'hammerles',
 					'hammerlesss',
+					'hamerless',
+					'hammmerless',
 				],
 				'hammerlock'=>[
 					'hamnerlock',
+					'hamerlock',
+					'hammmerlock',
 				],
 				'hammerlocks'=>[
 					'hamnerlocks',
+					'hamerlocks',
+					'hammmerlocks',
+				],
+				'hammers'=>[
+					'hammmers',
+				],
+				'hammersmith'=>[
+					'hamersmith',
+					'hammmersmith',
 				],
 				'hammertoe'=>[
 					'hamnertoe',
+					'hamertoe',
+					'hammmertoe',
+				],
+				'hammertoes'=>[
+					'hamertoes',
+					'hammmertoes',
+				],
+				'hammier'=>[
+					'hammmier',
 				],
 				'hammiest'=>[
 					'hamniest',
+					'hammmiest',
 				],
 				'hamminesses'=>[
 					'hamninesses',
 				],
+				'hamming'=>[
+					'hammming',
+				],
 				'hammock'=>[
 					'hamnock',
+					'hammmock',
+					'hamock',
 				],
 				'hammocks'=>[
 					'hamnocks',
+					'hammmocks',
+					'hamocks',
 				],
 				'hammy'=>[
 					'hamny',
+					'hammmy',
 				],
 				'hamster'=>[
 					'hampster',
@@ -537,15 +851,57 @@
 				],
 				'handball'=>[
 					'handbal',
+					'handballl',
+				],
+				'handballs'=>[
+					'handballls',
+					'handbals',
 				],
 				'handbarrow'=>[
 					'handbarow',
+					'handbarrrow',
+				],
+				'handbarrows'=>[
+					'handbarows',
+					'handbarrrows',
+				],
+				'handbill'=>[
+					'handbil',
+					'handbilll',
+				],
+				'handbills'=>[
+					'handbillls',
+					'handbils',
+				],
+				'handbook'=>[
+					'handbok',
+					'handboook',
+				],
+				'handbooks'=>[
+					'handboks',
+					'handboooks',
 				],
 				'handcar'=>[
 					'handcer',
 				],
 				'handcrafted'=>[
 					'hand crafted',
+				],
+				'handcuff'=>[
+					'handcuf',
+					'handcufff',
+				],
+				'handcuffed'=>[
+					'handcufed',
+					'handcufffed',
+				],
+				'handcuffing'=>[
+					'handcufffing',
+					'handcufing',
+				],
+				'handcuffs'=>[
+					'handcufffs',
+					'handcufs',
 				],
 				'handedness'=>[
 					'handednes',
@@ -560,15 +916,19 @@
 				],
 				'handicapped'=>[
 					'handicaped',
+					'handicappped',
 				],
 				'handicapper'=>[
 					'handicaper',
+					'handicappper',
 				],
 				'handicappers'=>[
 					'handicapers',
+					'handicapppers',
 				],
 				'handicapping'=>[
 					'handicaping',
+					'handicappping',
 				],
 				'handily'=>[
 					'handially',
@@ -593,6 +953,14 @@
 				'handless'=>[
 					'handlesss',
 				],
+				'handoff'=>[
+					'handof',
+					'handofff',
+				],
+				'handoffs'=>[
+					'handofffs',
+					'handofs',
+				],
 				'hands'=>[
 					'liands',
 				],
@@ -602,6 +970,10 @@
 				'handsomeness'=>[
 					'handsomenes',
 					'handsomenesss',
+				],
+				'handwritten'=>[
+					'handwriten',
+					'handwrittten',
 				],
 				'hangar'=>[
 					'hanger',
@@ -674,6 +1046,7 @@
 					'hapen',
 					'happen happen',
 					'happen happen happen',
+					'happpen',
 				],
 				'happenchance'=>[
 					'hapenchance',
@@ -686,26 +1059,49 @@
 					'hapened',
 					'happend',
 					'happended',
+					'happpened',
 				],
 				'happening'=>[
 					'hapening',
+					'happpening',
+				],
+				'happenings'=>[
+					'hapenings',
+					'happpenings',
+				],
+				'happens'=>[
+					'hapens',
+					'happpens',
 				],
 				'happenstance'=>[
 					'hapenstance',
 					'happenstence',
+					'happpenstance',
 				],
 				'happenstances'=>[
 					'hapenstances',
+					'happpenstances',
+				],
+				'happier'=>[
+					'happpier',
+				],
+				'happiest'=>[
+					'happpiest',
+				],
+				'happily'=>[
+					'happpily',
 				],
 				'happiness'=>[
 					'hapiness',
 					'happines',
 					'happinesss',
+					'happpiness',
 				],
 				'happy'=>[
 					'happy happy',
 					'happy happy happy',
 					'hapy',
+					'happpy',
 				],
 				'haptotactic'=>[
 					'haptotatic',
@@ -773,6 +1169,7 @@
 				],
 				'hardball'=>[
 					'hardbal',
+					'hardballl',
 				],
 				'hardedge'=>[
 					'hardege',
@@ -801,6 +1198,10 @@
 					'hardheartednes',
 					'hardheartednesss',
 				],
+				'hardihood'=>[
+					'hardihod',
+					'hardihoood',
+				],
 				'hardiness'=>[
 					'hardines',
 					'hardinesss',
@@ -826,18 +1227,50 @@
 					'hardcsrabble',
 					'hardscrable',
 					'hardsrabble',
+					'hardscrabbble',
 				],
 				'hardware'=>[
 					'hardwear',
 				],
+				'hardwood'=>[
+					'hardwod',
+					'hardwoood',
+				],
+				'hardwoods'=>[
+					'hardwods',
+					'hardwooods',
+				],
+				'harebell'=>[
+					'harebel',
+					'harebelll',
+				],
+				'harebells'=>[
+					'harebellls',
+					'harebels',
+				],
 				'harebrained'=>[
 					'harebrainid',
+				],
+				'harelipped'=>[
+					'harelippped',
 				],
 				'harkened'=>[
 					'harkend',
 				],
 				'harlequinade'=>[
 					'harlequinide',
+				],
+				'harmattan'=>[
+					'harmatan',
+					'harmatttan',
+				],
+				'harmattans'=>[
+					'harmatans',
+					'harmatttans',
+				],
+				'harmfully'=>[
+					'harmfullly',
+					'harmfuly',
 				],
 				'harmfulness'=>[
 					'harmfulnes',
@@ -856,6 +1289,9 @@
 					'harmlessnes',
 					'harmlessnesss',
 					'harmlesssness',
+				],
+				'harmonically'=>[
+					'harmonicallly',
 				],
 				'harmonious'=>[
 					'harmonous',
@@ -890,6 +1326,30 @@
 				'harpacticoid'=>[
 					'harpactocoid',
 				],
+				'harpoon'=>[
+					'harpon',
+					'harpooon',
+				],
+				'harpooned'=>[
+					'harponed',
+					'harpoooned',
+				],
+				'harpooner'=>[
+					'harponer',
+					'harpoooner',
+				],
+				'harpooners'=>[
+					'harponers',
+					'harpoooners',
+				],
+				'harpooning'=>[
+					'harponing',
+					'harpoooning',
+				],
+				'harpoons'=>[
+					'harpons',
+					'harpooons',
+				],
 				'harquebusier'=>[
 					'harquebuiser',
 				],
@@ -898,35 +1358,68 @@
 				],
 				'harridan'=>[
 					'haridan',
+					'harrridan',
+				],
+				'harridans'=>[
+					'haridans',
+					'harrridans',
 				],
 				'harried'=>[
 					'haried',
+					'harrried',
 				],
 				'harrier'=>[
 					'harier',
 					'harreir',
 					'harrir',
+					'harrrier',
+				],
+				'harriers'=>[
+					'harrriers',
 				],
 				'harries'=>[
 					'haries',
+					'harrries',
+				],
+				'harris'=>[
+					'harrris',
 				],
 				'harrow'=>[
 					'harow',
+					'harrrow',
+				],
+				'harrowed'=>[
+					'harowed',
+					'harrrowed',
 				],
 				'harrowing'=>[
 					'harowing',
+					'harrrowing',
 				],
 				'harrows'=>[
 					'harows',
+					'harrrows',
 				],
 				'harrumph'=>[
 					'harumph',
+					'harrrumph',
 				],
 				'harrumphed'=>[
 					'harumphed',
+					'harrrumphed',
+				],
+				'harrumphing'=>[
+					'harrrumphing',
+				],
+				'harrumphs'=>[
+					'harrrumphs',
 				],
 				'harry'=>[
 					'hary',
+					'harrry',
+				],
+				'harrying'=>[
+					'harrrying',
 				],
 				'harshened'=>[
 					'harshend',
@@ -935,12 +1428,24 @@
 					'harshnes',
 					'harshnesss',
 				],
+				'hartebeest'=>[
+					'hartebeeest',
+					'hartebest',
+				],
+				'hartebeests'=>[
+					'hartebeeests',
+					'hartebests',
+				],
 				'has'=>[
 					'has has',
 					'has has has',
 				],
 				'has gone'=>[
 					'has went',
+				],
+				'hasheesh'=>[
+					'hasheeesh',
+					'hashesh',
 				],
 				'hasn\'t'=>[
 					'has\'nt',
@@ -990,9 +1495,31 @@
 				'hatable'=>[
 					'hatible',
 				],
+				'hatchelled'=>[
+					'hatchellled',
+				],
+				'hatchelling'=>[
+					'hatchellling',
+				],
+				'hatefully'=>[
+					'hatefullly',
+					'hatefuly',
+				],
 				'hatefulness'=>[
 					'hatefulnes',
 					'hatefulnesss',
+				],
+				'hatted'=>[
+					'hattted',
+				],
+				'hatter'=>[
+					'hattter',
+				],
+				'hatters'=>[
+					'hattters',
+				],
+				'hatting'=>[
+					'hattting',
 				],
 				'haughtiness'=>[
 					'haughtines',
@@ -1000,6 +1527,10 @@
 				],
 				'haughtinesses'=>[
 					'haughtinisses',
+				],
+				'haustellum'=>[
+					'haustelllum',
+					'haustelum',
 				],
 				'hauteur'=>[
 					'hauter',
@@ -1034,6 +1565,14 @@
 				'hawaiian-occupied'=>[
 					'hawaiian occupied',
 				],
+				'hawkbill'=>[
+					'hawkbil',
+					'hawkbilll',
+				],
+				'hawkbills'=>[
+					'hawkbillls',
+					'hawkbils',
+				],
 				'hawkishness'=>[
 					'hawkishnes',
 					'hawkishnesss',
@@ -1044,9 +1583,24 @@
 				'hawknoses'=>[
 					'hawkoses',
 				],
+				'hawkweed'=>[
+					'hawkwed',
+					'hawkweeed',
+				],
+				'hawkweeds'=>[
+					'hawkweds',
+					'hawkweeeds',
+				],
 				'hayfield'=>[
 					'hayfeild',
 					'hayfild',
+				],
+				'hayseed'=>[
+					'hayseeed',
+				],
+				'hayseeds'=>[
+					'hayseds',
+					'hayseeeds',
 				],
 				'hazardous'=>[
 					'hazerdous',
@@ -1083,17 +1637,45 @@
 				'headboard'=>[
 					'hedboard',
 				],
+				'headbutt'=>[
+					'headbut',
+					'headbuttt',
+				],
+				'headbutted'=>[
+					'headbuted',
+					'headbuttted',
+				],
+				'headbutting'=>[
+					'headbuting',
+					'headbuttting',
+				],
+				'headbutts'=>[
+					'headbuts',
+					'headbuttts',
+				],
 				'headcanon'=>[
 					'headcannon',
+				],
+				'headcheese'=>[
+					'headcheeese',
+					'headchese',
+				],
+				'headcheeses'=>[
+					'headcheeeses',
+					'headcheses',
 				],
 				'headdress'=>[
 					'heddress',
 					'headdres',
 					'headdresss',
+					'headddress',
+					'headress',
 				],
 				'headdresses'=>[
 					'headdreses',
 					'headdressses',
+					'headddresses',
+					'headresses',
 				],
 				'headed'=>[
 					'heded',
@@ -1186,12 +1768,22 @@
 				],
 				'headroom'=>[
 					'hedroom',
+					'headrom',
+					'headrooom',
 				],
 				'headset'=>[
 					'hedset',
 				],
 				'headshrinker'=>[
 					'hedshrinker',
+				],
+				'headstall'=>[
+					'headstal',
+					'headstalll',
+				],
+				'headstalls'=>[
+					'headstallls',
+					'headstals',
 				],
 				'headstone'=>[
 					'hedstone',
@@ -1218,6 +1810,10 @@
 				'healthful'=>[
 					'heathful',
 					'helthful',
+				],
+				'healthfully'=>[
+					'healthfullly',
+					'healthfuly',
 				],
 				'healthfulness'=>[
 					'healthfulnes',
@@ -1365,9 +1961,18 @@
 				'heartthrob'=>[
 					'hearthrob',
 					'hertthrob',
+					'hearttthrob',
+				],
+				'heartthrobs'=>[
+					'hearthrobs',
+					'hearttthrobs',
 				],
 				'heartwarming'=>[
 					'hertwarming',
+				],
+				'heartwood'=>[
+					'heartwod',
+					'heartwoood',
 				],
 				'hearty'=>[
 					'herty',
@@ -1386,8 +1991,16 @@
 				'heath'=>[
 					'heth',
 				],
+				'heathberry'=>[
+					'heathberrry',
+					'heathbery',
+				],
 				'heather'=>[
 					'hether',
+				],
+				'heatproof'=>[
+					'heatprof',
+					'heatprooof',
 				],
 				'heave'=>[
 					'heve',
@@ -1455,6 +2068,14 @@
 				'hectares'=>[
 					'hecatres',
 				],
+				'hectically'=>[
+					'hecticallly',
+					'hecticaly',
+				],
+				'heddle'=>[
+					'hedddle',
+					'hedle',
+				],
 				'hedge'=>[
 					'hege',
 				],
@@ -1473,6 +2094,7 @@
 				],
 				'hedgehopped'=>[
 					'hegehopped',
+					'hedgehoppped',
 				],
 				'hedgehopper'=>[
 					'hegehopper',
@@ -1484,6 +2106,7 @@
 				'hedgehopping'=>[
 					'hedgehoping',
 					'hegehopping',
+					'hedgehoppping',
 				],
 				'hedgehops'=>[
 					'hegehops',
@@ -1509,35 +2132,115 @@
 				'hedges'=>[
 					'heges',
 				],
+				'hedonistically'=>[
+					'hedonisticallly',
+					'hedonisticaly',
+				],
 				'hee-haw'=>[
 					'he-haw',
 					'hi-haw',
 				],
+				'heed'=>[
+					'heeed',
+				],
+				'heeded'=>[
+					'heeeded',
+				],
+				'heedful'=>[
+					'hedful',
+					'heeedful',
+				],
+				'heedfully'=>[
+					'hedfully',
+					'heedfullly',
+					'heedfuly',
+					'heeedfully',
+				],
 				'heedfulness'=>[
 					'heedfulnes',
 					'heedfulnesss',
+					'hedfulness',
+					'heeedfulness',
 				],
 				'heedfulnesses'=>[
 					'heedfulneses',
 					'heedfulnessses',
 				],
+				'heeding'=>[
+					'heeeding',
+				],
 				'heedless'=>[
 					'heedles',
 					'heedlesss',
+					'hedless',
+					'heeedless',
 				],
 				'heedlessly'=>[
 					'heedlesly',
 					'heedlesssly',
+					'hedlessly',
+					'heeedlessly',
 				],
 				'heedlessness'=>[
 					'heedlesness',
 					'heedlessnes',
 					'heedlessnesss',
 					'heedlesssness',
+					'hedlessness',
+					'heeedlessness',
+				],
+				'heeds'=>[
+					'heeeds',
+				],
+				'heehaw'=>[
+					'heeehaw',
+					'hehaw',
+				],
+				'heehawed'=>[
+					'heeehawed',
+					'hehawed',
+				],
+				'heehawing'=>[
+					'heeehawing',
+					'hehawing',
+				],
+				'heehaws'=>[
+					'heeehaws',
+					'hehaws',
+				],
+				'heel'=>[
+					'heeel',
+				],
+				'heeled'=>[
+					'heeeled',
+				],
+				'heeler'=>[
+					'heeeler',
+				],
+				'heeling'=>[
+					'heeeling',
 				],
 				'heelless'=>[
 					'heelles',
 					'heellesss',
+					'heeelless',
+					'heeless',
+					'heellless',
+				],
+				'heelpiece'=>[
+					'heeelpiece',
+					'helpiece',
+				],
+				'heelpost'=>[
+					'heeelpost',
+					'helpost',
+				],
+				'heels'=>[
+					'heeels',
+				],
+				'heeltap'=>[
+					'heeeltap',
+					'heltap',
 				],
 				'heftiness'=>[
 					'heftines',
@@ -1642,6 +2345,12 @@
 				],
 				'heirloom'=>[
 					'hierloom',
+					'heirlom',
+					'heirlooom',
+				],
+				'heirlooms'=>[
+					'heirloms',
+					'heirloooms',
 				],
 				'heirs'=>[
 					'hiers',
@@ -1678,6 +2387,10 @@
 					'heldantenors',
 					'heldentenours',
 				],
+				'helically'=>[
+					'helicallly',
+					'helicaly',
+				],
 				'helicase'=>[
 					'helixase',
 				],
@@ -1690,6 +2403,10 @@
 				'heliocentric'=>[
 					'heliocantric',
 				],
+				'heliocentrically'=>[
+					'heliocentricallly',
+					'heliocentricaly',
+				],
 				'heliometrically'=>[
 					'heliometricaly',
 				],
@@ -1701,6 +2418,7 @@
 				],
 				'hell'=>[
 					'hel',
+					'helll',
 				],
 				'hellacious'=>[
 					'hellacous',
@@ -1708,28 +2426,124 @@
 				'hellaciously'=>[
 					'hellacously',
 				],
+				'hellbender'=>[
+					'helbender',
+					'helllbender',
+				],
+				'hellbenders'=>[
+					'helbenders',
+					'helllbenders',
+				],
+				'hellbent'=>[
+					'helbent',
+					'helllbent',
+				],
+				'hellbox'=>[
+					'helbox',
+					'helllbox',
+				],
+				'hellcat'=>[
+					'helcat',
+					'helllcat',
+				],
+				'hellcats'=>[
+					'helcats',
+					'helllcats',
+				],
+				'helldiver'=>[
+					'heldiver',
+					'hellldiver',
+				],
+				'hellebore'=>[
+					'helebore',
+					'helllebore',
+				],
 				'heller'=>[
 					'heler',
+					'helller',
+				],
+				'hellers'=>[
+					'helllers',
+				],
+				'helles'=>[
+					'hellles',
+				],
+				'hellfire'=>[
+					'helfire',
+					'helllfire',
+				],
+				'hellfires'=>[
+					'helfires',
+					'helllfires',
 				],
 				'hellgrammite'=>[
 					'helgrammite',
 					'hellgramnite',
+					'hellgrammmite',
+					'helllgrammite',
 				],
 				'hellgrammites'=>[
 					'hellgramnites',
 				],
+				'hellhole'=>[
+					'helhole',
+					'helllhole',
+				],
+				'hellholes'=>[
+					'helholes',
+					'helllholes',
+				],
+				'hellhound'=>[
+					'helhound',
+					'helllhound',
+				],
+				'hellhounds'=>[
+					'helhounds',
+					'helllhounds',
+				],
+				'hellion'=>[
+					'helllion',
+				],
+				'hellions'=>[
+					'helllions',
+				],
 				'hellish'=>[
 					'helish',
+					'helllish',
+				],
+				'hellishly'=>[
+					'helishly',
+					'helllishly',
 				],
 				'hellishness'=>[
 					'hellishnes',
 					'hellishnesss',
+					'helishness',
+					'helllishness',
+				],
+				'hellkite'=>[
+					'helkite',
+					'helllkite',
+				],
+				'hellman'=>[
+					'helllman',
 				],
 				'hello'=>[
 					'heiio',
 					'heilo',
 					'helio',
 					'helo',
+					'helllo',
+				],
+				'hellos'=>[
+					'helllos',
+				],
+				'hells'=>[
+					'hellls',
+				],
+				'helluva'=>[
+					'hellluva',
+					'heluva',
 				],
 				'help'=>[
 					'help help',
@@ -1744,6 +2558,10 @@
 				],
 				'helpful'=>[
 					'helpfull',
+				],
+				'helpfully'=>[
+					'helpfullly',
+					'helpfuly',
 				],
 				'helpfulness'=>[
 					'helpfulnes',
@@ -1763,9 +2581,18 @@
 					'helplessnesss',
 					'helplesssness',
 				],
+				'helpmeet'=>[
+					'helpmeeet',
+					'helpmet',
+				],
+				'helpmeets'=>[
+					'helpmeeets',
+					'helpmets',
+				],
 				'hemagglutinate'=>[
 					'hemagglutinite',
 					'hemaglutinate',
+					'hemaggglutinate',
 				],
 				'hemagglutinated'=>[
 					'hemagglutinited',
@@ -1816,6 +2643,10 @@
 					'hematoxilin',
 					'hemoxylin',
 				],
+				'hematozoon'=>[
+					'hematozon',
+					'hematozooon',
+				],
 				'hemerocallis'=>[
 					'hemerocalis',
 				],
@@ -1824,6 +2655,7 @@
 				],
 				'hemicellulose'=>[
 					'hemicelulose',
+					'hemicelllulose',
 				],
 				'hemicelluloses'=>[
 					'hemiceluloses',
@@ -1865,9 +2697,18 @@
 				],
 				'hemmed'=>[
 					'hemned',
+					'hemmmed',
 				],
 				'hemmer'=>[
 					'hemner',
+					'hemmmer',
+				],
+				'hemmers'=>[
+					'hemers',
+					'hemmmers',
+				],
+				'hemming'=>[
+					'hemmming',
 				],
 				'hemochorial'=>[
 					'hemichorial',
@@ -1913,35 +2754,52 @@
 					'hemmorhage',
 					'hemorhage',
 					'hemourrhage',
+					'hemorrrhage',
 				],
 				'hemorrhaged'=>[
 					'hemourrhaged',
+					'hemorhaged',
+					'hemorrrhaged',
 				],
 				'hemorrhages'=>[
 					'hemourrhages',
+					'hemorhages',
+					'hemorrrhages',
 				],
 				'hemorrhagic'=>[
 					'hemourrhagic',
 					'hemorraghic',
+					'hemorhagic',
+					'hemorrrhagic',
 				],
 				'hemorrhaging'=>[
 					'hemourrhaging',
+					'hemorhaging',
+					'hemorrrhaging',
 				],
 				'hemorrhoid'=>[
 					'hemorhoid',
 					'hemourrhoid',
 					'hemroid',
+					'hemorrrhoid',
 				],
 				'hemorrhoidal'=>[
 					'hemorhoidal',
 					'hemourrhoidal',
+					'hemorrrhoidal',
 				],
 				'hemorrhoidals'=>[
 					'hemorhoidals',
 					'hemourrhoidals',
 				],
+				'hemorrhoidectomy'=>[
+					'hemorhoidectomy',
+					'hemorrrhoidectomy',
+				],
 				'hemorrhoids'=>[
 					'hemourrhoids',
+					'hemorhoids',
+					'hemorrrhoids',
 				],
 				'hemotoxic'=>[
 					'hematoxic',
@@ -1962,15 +2820,30 @@
 				'hendecasyllable'=>[
 					'hendecasylable',
 					'hendecasyllible',
+					'hendecasylllable',
 				],
 				'henna'=>[
 					'hena',
+					'hennna',
+				],
+				'hennaed'=>[
+					'henaed',
+					'hennnaed',
+				],
+				'hennaing'=>[
+					'henaing',
+					'hennnaing',
+				],
+				'hennas'=>[
+					'henas',
+					'hennnas',
 				],
 				'henneries'=>[
 					'heneries',
 				],
 				'hennery'=>[
 					'henery',
+					'hennnery',
 				],
 				'hennishly'=>[
 					'henishly',
@@ -2065,6 +2938,14 @@
 				'hepoxilins'=>[
 					'hepoxylins',
 				],
+				'hepper'=>[
+					'heper',
+					'heppper',
+				],
+				'heppest'=>[
+					'hepest',
+					'hepppest',
+				],
 				'heptageniid'=>[
 					'heptageneiid',
 				],
@@ -2077,6 +2958,10 @@
 				'her'=>[
 					'her her',
 					'her her her',
+				],
+				'heraldically'=>[
+					'heraldicallly',
+					'heraldicaly',
 				],
 				'herbivorous'=>[
 					'herbivourous',
@@ -2124,6 +3009,10 @@
 				'heresy'=>[
 					'herecy',
 				],
+				'heretically'=>[
+					'hereticallly',
+					'hereticaly',
+				],
 				'heritable'=>[
 					'heritible',
 				],
@@ -2135,12 +3024,23 @@
 				],
 				'hermeneutically'=>[
 					'hermeneuticaly',
+					'hermeneuticallly',
+				],
+				'hermetically'=>[
+					'hermeticallly',
+					'hermeticaly',
 				],
 				'herniorrhaphy'=>[
 					'herniorraphy',
+					'herniorhaphy',
+					'herniorrrhaphy',
 				],
 				'heroes'=>[
 					'heros',
+				],
+				'heroically'=>[
+					'heroicallly',
+					'heroicaly',
 				],
 				'heroine'=>[
 					'heroini',
@@ -2150,18 +3050,28 @@
 				],
 				'herrenvolk'=>[
 					'herenvolk',
+					'herrrenvolk',
+				],
+				'herrenvolks'=>[
+					'herenvolks',
+					'herrrenvolks',
 				],
 				'herried'=>[
 					'heried',
 				],
 				'herring'=>[
 					'hering',
+					'herrring',
 				],
 				'herringbone'=>[
 					'heringbone',
+					'herrringbone',
 				],
 				'herringboning'=>[
 					'heringboning',
+				],
+				'herrings'=>[
+					'herrrings',
 				],
 				'herry'=>[
 					'hery',
@@ -2245,11 +3155,15 @@
 				'heteromorphisms'=>[
 					'heteromourphisms',
 				],
+				'heteroousian'=>[
+					'heterooousian',
+				],
 				'heterophyllies'=>[
 					'heterophylies',
 				],
 				'heterophyllous'=>[
 					'heterophylous',
+					'heterophylllous',
 				],
 				'heteroscedasticity'=>[
 					'heteroscadacity',
@@ -2278,6 +3192,7 @@
 				],
 				'heterothallic'=>[
 					'heterothalic',
+					'heterothalllic',
 				],
 				'heterothallism'=>[
 					'heterothalism',
@@ -2291,20 +3206,36 @@
 				'heterotopic'=>[
 					'etherotopic',
 				],
+				'heterotrophically'=>[
+					'heterotrophicallly',
+					'heterotrophicaly',
+				],
 				'heterozygosity'=>[
 					'heterosigosity',
 					'heterozigosity',
 					'heterozygocity',
 					'heterozygousity',
 				],
+				'hettie'=>[
+					'hetie',
+					'hetttie',
+				],
 				'heuristic'=>[
 					'huristic',
+				],
+				'heuristically'=>[
+					'heuristicallly',
+					'heuristicaly',
 				],
 				'hewable'=>[
 					'hewible',
 				],
 				'hexagenarian'=>[
 					'hexagenerian',
+				],
+				'hexagonally'=>[
+					'hexagonallly',
+					'hexagonaly',
 				],
 				'hexahedra'=>[
 					'hexaedra',
@@ -2355,24 +3286,31 @@
 				],
 				'hiccough'=>[
 					'hicough',
+					'hicccough',
 				],
 				'hiccoughed'=>[
 					'hicoughed',
+					'hicccoughed',
 				],
 				'hiccoughing'=>[
 					'hicoughing',
+					'hicccoughing',
 				],
 				'hiccoughs'=>[
 					'hicoughs',
+					'hicccoughs',
 				],
 				'hiccup'=>[
 					'hicup',
+					'hicccup',
 				],
 				'hiccuped'=>[
 					'hicuped',
+					'hicccuped',
 				],
 				'hiccuping'=>[
 					'hicuping',
+					'hicccuping',
 				],
 				'hiccupped'=>[
 					'hicupped',
@@ -2382,12 +3320,23 @@
 				],
 				'hiccups'=>[
 					'hicups',
+					'hicccups',
 				],
 				'hidable'=>[
 					'hidible',
 				],
 				'hidden'=>[
 					'hideen',
+					'hiddden',
+					'hiden',
+				],
+				'hiddenite'=>[
+					'hidddenite',
+					'hidenite',
+				],
+				'hiddenites'=>[
+					'hidddenites',
+					'hidenites',
 				],
 				'hiddennesses'=>[
 					'hiddenesses',
@@ -2422,6 +3371,7 @@
 				'hierarchically'=>[
 					'hierarchially',
 					'hierarchicaly',
+					'hierarchicallly',
 				],
 				'hierarchies'=>[
 					'hierachies',
@@ -2440,6 +3390,9 @@
 					'heiratic',
 					'hiratic',
 				],
+				'hieratically'=>[
+					'hieraticallly',
+				],
 				'hieroglyph'=>[
 					'heiroglyph',
 					'hieroglph',
@@ -2448,6 +3401,10 @@
 				'hieroglyphic'=>[
 					'heiroglyphic',
 					'hiroglyphic',
+				],
+				'hieroglyphically'=>[
+					'hieroglyphicallly',
+					'hieroglyphicaly',
 				],
 				'hieroglyphics'=>[
 					'heiroglyphics',
@@ -2470,6 +3427,23 @@
 				],
 				'higgle'=>[
 					'higle',
+					'higggle',
+				],
+				'higgled'=>[
+					'higggled',
+					'higled',
+				],
+				'higgler'=>[
+					'higggler',
+					'higler',
+				],
+				'higgles'=>[
+					'higggles',
+					'higles',
+				],
+				'higgling'=>[
+					'higggling',
+					'higling',
 				],
 				'high'=>[
 					'high high',
@@ -2488,6 +3462,14 @@
 				'high-resolution'=>[
 					'highresolution',
 				],
+				'highball'=>[
+					'highbal',
+					'highballl',
+				],
+				'highballs'=>[
+					'highballls',
+					'highbals',
+				],
 				'higher'=>[
 					'heigher',
 					'higer',
@@ -2498,10 +3480,18 @@
 				],
 				'highhanded'=>[
 					'highbanded',
+					'highanded',
+					'highhhanded',
+				],
+				'highhandedly'=>[
+					'highandedly',
+					'highhhandedly',
 				],
 				'highhandedness'=>[
 					'highhandednes',
 					'highhandednesss',
+					'highandedness',
+					'highhhandedness',
 				],
 				'highlands'=>[
 					'higlands',
@@ -2557,28 +3547,71 @@
 					'hil',
 					'hill hill',
 					'hill hill hill',
+					'hilll',
 				],
 				'hillary clinton'=>[
 					'hilary clinton',
+				],
+				'hillbillies'=>[
+					'hilbillies',
+					'hillbilies',
+					'hillbilllies',
+					'hilllbillies',
 				],
 				'hillbilly'=>[
 					'hillbilally',
 					'hillbilaly',
 					'hillbilely',
 					'hillbillly',
+					'hilbilly',
+					'hillbily',
+					'hilllbilly',
 				],
 				'hillcrest'=>[
 					'hilcrest',
 				],
+				'hillier'=>[
+					'hilllier',
+				],
+				'hilliest'=>[
+					'hillliest',
+				],
 				'hilliness'=>[
 					'hillines',
 					'hillinesss',
+					'hiliness',
+					'hillliness',
+				],
+				'hillock'=>[
+					'hilllock',
+					'hilock',
+				],
+				'hillocks'=>[
+					'hilllocks',
+					'hilocks',
+				],
+				'hills'=>[
+					'hillls',
 				],
 				'hillside'=>[
 					'hilside',
+					'hilllside',
+				],
+				'hillsides'=>[
+					'hilllsides',
+					'hilsides',
 				],
 				'hilltop'=>[
 					'hiltop',
+					'hillltop',
+				],
+				'hilltops'=>[
+					'hillltops',
+					'hiltops',
+				],
+				'hillwalking'=>[
+					'hilllwalking',
+					'hilwalking',
 				],
 				'hilly'=>[
 					'hilally',
@@ -2620,11 +3653,20 @@
 				'hindus'=>[
 					'hindoos',
 				],
+				'hinnies'=>[
+					'hinies',
+					'hinnnies',
+				],
 				'hinny'=>[
 					'hiny',
+					'hinnny',
 				],
 				'hiphugger'=>[
 					'hiphuger',
+				],
+				'hiphuggers'=>[
+					'hiphugers',
+					'hiphugggers',
 				],
 				'hiply'=>[
 					'hipally',
@@ -2637,17 +3679,32 @@
 				],
 				'hipparch'=>[
 					'hipperch',
+					'hiparch',
+					'hippparch',
 				],
 				'hipparchs'=>[
 					'hipperchs',
 				],
 				'hipped'=>[
 					'hiped',
+					'hippped',
+				],
+				'hipper'=>[
+					'hippper',
+				],
+				'hippest'=>[
+					'hipest',
+					'hipppest',
 				],
 				'hippie'=>[
 					'hipie',
 					'hippei',
 					'hippi',
+					'hipppie',
+				],
+				'hippiedom'=>[
+					'hipiedom',
+					'hipppiedom',
 				],
 				'hippieish'=>[
 					'hippiiesh',
@@ -2655,32 +3712,69 @@
 				'hippienesses'=>[
 					'hipienesses',
 				],
+				'hippies'=>[
+					'hipies',
+					'hipppies',
+				],
+				'hipping'=>[
+					'hippping',
+				],
 				'hippo'=>[
 					'hipo',
+					'hipppo',
 				],
 				'hippocampal'=>[
 					'hypocampal',
 				],
+				'hippocampi'=>[
+					'hipocampi',
+					'hipppocampi',
+				],
 				'hippocampus'=>[
 					'hipocampus',
+					'hipppocampus',
 				],
 				'hippocras'=>[
 					'hipocras',
+					'hipppocras',
 				],
 				'hippodrome'=>[
 					'hipodrome',
+					'hipppodrome',
+				],
+				'hippodromes'=>[
+					'hipodromes',
+					'hipppodromes',
 				],
 				'hippogriff'=>[
 					'hipogriff',
+					'hippogrif',
+					'hippogrifff',
+					'hipppogriff',
+				],
+				'hippopotami'=>[
+					'hipopotami',
+					'hipppopotami',
 				],
 				'hippopotamus'=>[
 					'hipopotamus',
+					'hipppopotamus',
 				],
 				'hippopotamuses'=>[
 					'hipopotamuses',
+					'hipppopotamuses',
+				],
+				'hippopotomonstrosesquipedalian'=>[
+					'hipopotomonstrosesquipedalian',
+					'hipppopotomonstrosesquipedalian',
+				],
+				'hippos'=>[
+					'hipos',
+					'hipppos',
 				],
 				'hippy'=>[
 					'hipy',
+					'hipppy',
 				],
 				'hirable'=>[
 					'hirible',
@@ -2762,6 +3856,8 @@
 				],
 				'histologically'=>[
 					'hystologically',
+					'histologicallly',
+					'histologicaly',
 				],
 				'histomorphometric'=>[
 					'histomophometric',
@@ -2777,6 +3873,10 @@
 				],
 				'historical'=>[
 					'hystorical',
+				],
+				'historically'=>[
+					'historicallly',
+					'historicaly',
 				],
 				'history'=>[
 					'hisory',
@@ -2800,6 +3900,7 @@
 				],
 				'histrionically'=>[
 					'histrionicaly',
+					'histrionicallly',
 				],
 				'hit'=>[
 					'hit hit',
@@ -2811,11 +3912,45 @@
 				'hitches'=>[
 					'hitchs',
 				],
+				'hitchhike'=>[
+					'hitchhhike',
+					'hitchike',
+				],
+				'hitchhiked'=>[
+					'hitchhhiked',
+					'hitchiked',
+				],
+				'hitchhiker'=>[
+					'hitchhhiker',
+					'hitchiker',
+				],
+				'hitchhikers'=>[
+					'hitchhhikers',
+					'hitchikers',
+				],
+				'hitchhikes'=>[
+					'hitchhhikes',
+					'hitchikes',
+				],
+				'hitchhiking'=>[
+					'hitchhhiking',
+					'hitchiking',
+				],
+				'hittable'=>[
+					'hitable',
+					'hitttable',
+				],
 				'hitter'=>[
 					'hitted',
+					'hittter',
+				],
+				'hitters'=>[
+					'hiters',
+					'hittters',
 				],
 				'hitting'=>[
 					'hiting',
+					'hittting',
 				],
 				'hmm'=>[
 					'hmn',
@@ -2851,18 +3986,21 @@
 				],
 				'hobbies'=>[
 					'hobies',
+					'hobbbies',
 				],
 				'hobbing'=>[
 					'hobing',
 				],
 				'hobbit'=>[
 					'hobit',
+					'hobbbit',
 				],
 				'hobbits'=>[
 					'hobits',
 				],
 				'hobble'=>[
 					'hoble',
+					'hobbble',
 				],
 				'hobblebush'=>[
 					'hoblebush',
@@ -2872,37 +4010,56 @@
 				],
 				'hobbled'=>[
 					'hobled',
+					'hobbbled',
 				],
 				'hobbledehoy'=>[
 					'hobledehoy',
+					'hobbbledehoy',
 				],
 				'hobbledehoys'=>[
 					'hobledehoys',
+					'hobbbledehoys',
 				],
 				'hobbler'=>[
 					'hobler',
+					'hobbbler',
+				],
+				'hobblers'=>[
+					'hobbblers',
+					'hoblers',
 				],
 				'hobbles'=>[
 					'hobles',
+					'hobbbles',
+				],
+				'hobbling'=>[
+					'hobbbling',
 				],
 				'hobby'=>[
 					'hoby',
+					'hobbby',
 				],
 				'hobbyhorse'=>[
 					'hobyhorse',
+					'hobbbyhorse',
 				],
 				'hobbyhorses'=>[
 					'hobyhorses',
+					'hobbbyhorses',
 				],
 				'hobbyist'=>[
 					'hobbiest',
 					'hobbist',
+					'hobbbyist',
+					'hobyist',
 				],
 				'hobbyists'=>[
 					'hobyists',
+					'hobbbyists',
 				],
 				'hobnobbed'=>[
 					'hobnobed',
+					'hobnobbbed',
 				],
 				'hobnobber'=>[
 					'hobnober',
@@ -2912,6 +4069,7 @@
 				],
 				'hobnobbing'=>[
 					'hobnobing',
+					'hobnobbbing',
 				],
 				'hobos'=>[
 					'hoboes',
@@ -2919,20 +4077,38 @@
 				'hocusing'=>[
 					'hocuisng',
 				],
+				'hodden'=>[
+					'hoddden',
+					'hoden',
+				],
 				'hodgkin\'s disease'=>[
 					'hodgkins disease',
+				],
+				'hoff'=>[
+					'hofff',
 				],
 				'hogg'=>[
 					'hoggg',
 				],
+				'hogged'=>[
+					'hoggged',
+				],
+				'hogger'=>[
+					'hoggger',
+				],
 				'hogget'=>[
 					'hoget',
 				],
+				'hogging'=>[
+					'hoggging',
+				],
 				'hoggish'=>[
 					'hogish',
+					'hogggish',
 				],
 				'hoggishly'=>[
 					'hogishly',
+					'hogggishly',
 				],
 				'hoggishness'=>[
 					'hogishness',
@@ -2946,12 +4122,31 @@
 				'hogtieing'=>[
 					'hogtiieng',
 				],
+				'hogweed'=>[
+					'hogwed',
+					'hogweeed',
+				],
+				'hogweeds'=>[
+					'hogweds',
+					'hogweeeds',
+				],
 				'hoidened'=>[
 					'hoidend',
+				],
+				'hokku'=>[
+					'hokkku',
 				],
 				'hold'=>[
 					'hold hold',
 					'hold hold hold',
+				],
+				'holdall'=>[
+					'holdal',
+					'holdalll',
+				],
+				'holdalls'=>[
+					'holdallls',
+					'holdals',
 				],
 				'holds'=>[
 					'hold\'s',
@@ -2959,6 +4154,10 @@
 				'hole'=>[
 					'hole hole',
 					'hole hole hole',
+				],
+				'holeproof'=>[
+					'holeprof',
+					'holeprooof',
 				],
 				'holiness'=>[
 					'holines',
@@ -2969,27 +4168,119 @@
 					'hollistic',
 					'wholistic',
 				],
+				'holistically'=>[
+					'holisticallly',
+					'holisticaly',
+				],
 				'holla'=>[
 					'hola',
 				],
 				'holland'=>[
 					'holand',
+					'hollland',
+				],
+				'hollander'=>[
+					'holander',
+					'holllander',
+				],
+				'hollanders'=>[
+					'holanders',
+					'holllanders',
+				],
+				'hollands'=>[
+					'holands',
+					'holllands',
 				],
 				'holler'=>[
 					'holer',
+					'holller',
+				],
+				'hollered'=>[
+					'holllered',
+				],
+				'hollering'=>[
+					'holllering',
+				],
+				'hollers'=>[
+					'holllers',
+				],
+				'hollies'=>[
+					'holllies',
+				],
+				'hollo'=>[
+					'holllo',
+				],
+				'holloed'=>[
+					'hollloed',
+				],
+				'holloes'=>[
+					'hollloes',
+				],
+				'holloing'=>[
+					'hollloing',
+				],
+				'hollos'=>[
+					'holllos',
 				],
 				'hollow'=>[
 					'holow',
+					'holllow',
+				],
+				'holloware'=>[
+					'hollloware',
+					'holoware',
+				],
+				'hollowares'=>[
+					'holllowares',
+					'holowares',
+				],
+				'holloway'=>[
+					'hollloway',
+					'holoway',
+				],
+				'hollowed'=>[
+					'holllowed',
+					'holowed',
+				],
+				'hollower'=>[
+					'holllower',
+					'holower',
+				],
+				'hollowest'=>[
+					'holllowest',
+					'holowest',
+				],
+				'hollowing'=>[
+					'holllowing',
+					'holowing',
 				],
 				'hollowly'=>[
 					'hollowally',
 					'hollowaly',
 					'hollowely',
 					'hollowlly',
+					'holllowly',
+					'holowly',
 				],
 				'hollowness'=>[
 					'hollownes',
 					'hollownesss',
+					'holllowness',
+					'holowness',
+				],
+				'hollows'=>[
+					'holllows',
+					'holows',
+				],
+				'hollowware'=>[
+					'holllowware',
+					'hollowwware',
+					'holowware',
+				],
+				'hollowwares'=>[
+					'holllowwares',
+					'hollowwwares',
+					'holowwares',
 				],
 				'holly'=>[
 					'holally',
@@ -2997,11 +4288,20 @@
 					'hollly',
 					'holliy',
 				],
+				'hollyhock'=>[
+					'holllyhock',
+					'holyhock',
+				],
+				'hollyhocks'=>[
+					'holllyhocks',
+					'holyhocks',
+				],
 				'holocaust'=>[
 					'holocost',
 				],
 				'holographically'=>[
 					'holographicaly',
+					'holographicallly',
 				],
 				'holophrastic'=>[
 					'holophasic',
@@ -3073,6 +4373,7 @@
 				],
 				'homeopathically'=>[
 					'homeopathicaly',
+					'homeopathicallly',
 				],
 				'homeostasis'=>[
 					'homostasis',
@@ -3083,10 +4384,28 @@
 				'homepage'=>[
 					'hompage',
 				],
+				'homeroom'=>[
+					'homerom',
+					'homerooom',
+				],
+				'homerooms'=>[
+					'homeroms',
+					'homeroooms',
+				],
 				'homeschool'=>[
 					'homechool',
 					'homecshool',
 					'homeshool',
+					'homeschol',
+					'homeschoool',
+				],
+				'homeschooler'=>[
+					'homescholer',
+					'homeschoooler',
+				],
+				'homeschooling'=>[
+					'homescholing',
+					'homeschoooling',
 				],
 				'homesickness'=>[
 					'homesicknes',
@@ -3109,6 +4428,10 @@
 					'homei',
 					'homi',
 					'hoomie',
+				],
+				'homiletically'=>[
+					'homileticallly',
+					'homileticaly',
 				],
 				'homily'=>[
 					'homially',
@@ -3214,12 +4537,17 @@
 				'homoousian'=>[
 					'homoouisan',
 					'homoousan',
+					'homooousian',
 				],
 				'homoousians'=>[
 					'homoouisans',
 				],
 				'homophilous'=>[
 					'homophyllous',
+				],
+				'homophonically'=>[
+					'homophonicallly',
+					'homophonicaly',
 				],
 				'homophyly'=>[
 					'homophyally',
@@ -3254,6 +4582,8 @@
 				],
 				'homosexually'=>[
 					'homosexaully',
+					'homosexuallly',
+					'homosexualy',
 				],
 				'homostyly'=>[
 					'homostyally',
@@ -3263,6 +4593,10 @@
 				],
 				'homosynaptic'=>[
 					'homeosynaptic',
+				],
+				'homothallic'=>[
+					'homothalic',
+					'homothalllic',
 				],
 				'homothety'=>[
 					'homotethy',
@@ -3295,8 +4629,40 @@
 					'honestlly',
 					'honestley',
 				],
+				'honeybee'=>[
+					'honeybe',
+					'honeybeee',
+				],
+				'honeybees'=>[
+					'honeybeees',
+					'honeybes',
+				],
 				'honeyed'=>[
 					'honied',
+				],
+				'honeymoon'=>[
+					'honeymon',
+					'honeymooon',
+				],
+				'honeymooned'=>[
+					'honeymoned',
+					'honeymoooned',
+				],
+				'honeymooner'=>[
+					'honeymoner',
+					'honeymoooner',
+				],
+				'honeymooners'=>[
+					'honeymoners',
+					'honeymoooners',
+				],
+				'honeymooning'=>[
+					'honeymoning',
+					'honeymoooning',
+				],
+				'honeymoons'=>[
+					'honeymons',
+					'honeymooons',
 				],
 				'honor'=>[
 					'bonor',
@@ -3379,11 +4745,19 @@
 			#	'honorers'=>[
 			#		'honourers',
 			#	],
+				'honoree'=>[
+					'honoreee',
+				],
+				'honorees'=>[
+					'honoreees',
+				],
 				'honorific'=>[
 					'honourific',
 				],
 				'honorifically'=>[
 					'honourifically',
+					'honorificallly',
+					'honorificaly',
 				],
 				'honorifics'=>[
 					'honourifics',
@@ -3396,32 +4770,224 @@
 				'honourable'=>[
 					'honourible',
 				],
+				'hoo'=>[
+					'hooo',
+				],
+				'hooch'=>[
+					'hoooch',
+				],
+				'hood'=>[
+					'hoood',
+				],
+				'hooded'=>[
+					'hoooded',
+				],
 				'hoodie'=>[
 					'hoodei',
 					'hoodi',
 				],
+				'hooding'=>[
+					'hoooding',
+				],
+				'hoodlum'=>[
+					'hodlum',
+					'hooodlum',
+				],
+				'hoodlumism'=>[
+					'hodlumism',
+					'hooodlumism',
+				],
+				'hoodlums'=>[
+					'hodlums',
+					'hooodlums',
+				],
+				'hoodoo'=>[
+					'hodoo',
+					'hoodo',
+					'hoodooo',
+					'hooodoo',
+				],
+				'hoodooed'=>[
+					'hoodoed',
+					'hoodoooed',
+					'hooodooed',
+				],
+				'hoodooing'=>[
+					'hoodoing',
+					'hoodoooing',
+					'hooodooing',
+				],
+				'hoodoos'=>[
+					'hodoos',
+					'hoodooos',
+					'hoodos',
+					'hooodoos',
+				],
+				'hoods'=>[
+					'hooods',
+				],
+				'hoodwink'=>[
+					'hodwink',
+					'hooodwink',
+				],
+				'hoodwinked'=>[
+					'hodwinked',
+					'hooodwinked',
+				],
+				'hoodwinker'=>[
+					'hodwinker',
+					'hooodwinker',
+				],
+				'hoodwinking'=>[
+					'hodwinking',
+					'hooodwinking',
+				],
+				'hoodwinks'=>[
+					'hodwinks',
+					'hooodwinks',
+				],
+				'hooey'=>[
+					'hoooey',
+				],
+				'hoof'=>[
+					'hooof',
+				],
+				'hoofbeat'=>[
+					'hofbeat',
+					'hooofbeat',
+				],
+				'hoofbound'=>[
+					'hofbound',
+					'hooofbound',
+				],
+				'hoofed'=>[
+					'hofed',
+					'hooofed',
+				],
+				'hoofer'=>[
+					'hooofer',
+				],
+				'hoofers'=>[
+					'hooofers',
+				],
+				'hoofing'=>[
+					'hofing',
+					'hooofing',
+				],
+				'hoofs'=>[
+					'hooofs',
+				],
+				'hook'=>[
+					'hoook',
+				],
 				'hookah'=>[
 					'hooka',
+					'hoookah',
 				],
 				'hookahs'=>[
 					'hookas',
+					'hoookahs',
+				],
+				'hooke'=>[
+					'hoooke',
+				],
+				'hooked'=>[
+					'hoooked',
+				],
+				'hooker'=>[
+					'hoooker',
+				],
+				'hookers'=>[
+					'hoookers',
+				],
+				'hookey'=>[
+					'hoookey',
+				],
+				'hooking'=>[
+					'hoooking',
 				],
 				'hooknose'=>[
 					'hookose',
+					'hoknose',
+					'hoooknose',
 				],
 				'hooknosed'=>[
 					'hookosed',
 				],
 				'hooknoses'=>[
 					'hookoses',
+					'hoknoses',
+					'hoooknoses',
+				],
+				'hooks'=>[
+					'hoooks',
+				],
+				'hookup'=>[
+					'hokup',
+					'hoookup',
+				],
+				'hookups'=>[
+					'hokups',
+					'hoookups',
+				],
+				'hookworm'=>[
+					'hokworm',
+					'hoookworm',
+				],
+				'hookworms'=>[
+					'hokworms',
+					'hoookworms',
+				],
+				'hooky'=>[
+					'hoooky',
+				],
+				'hooligan'=>[
+					'holigan',
+					'hoooligan',
+				],
+				'hooliganism'=>[
+					'holiganism',
+					'hoooliganism',
+				],
+				'hooligans'=>[
+					'holigans',
+					'hoooligans',
 				],
 				'hooly'=>[
 					'hooally',
 					'hooaly',
 					'hoolly',
 				],
+				'hoop'=>[
+					'hooop',
+				],
+				'hooped'=>[
+					'hoooped',
+				],
+				'hooper'=>[
+					'hoooper',
+				],
+				'hooping'=>[
+					'hoooping',
+				],
+				'hoopla'=>[
+					'hooopla',
+					'hopla',
+				],
+				'hoopoe'=>[
+					'hooopoe',
+					'hopoe',
+				],
+				'hoopoes'=>[
+					'hooopoes',
+					'hopoes',
+				],
+				'hoops'=>[
+					'hooops',
+				],
 				'hoorah'=>[
 					'hoora',
+					'hooorah',
 				],
 				'hoorahed'=>[
 					'hooraed',
@@ -3431,12 +4997,86 @@
 				],
 				'hoorahs'=>[
 					'hooras',
+					'hooorahs',
+				],
+				'hooray'=>[
+					'hoooray',
+					'horay',
+				],
+				'hoorayed'=>[
+					'hooorayed',
+					'horayed',
+				],
+				'hooraying'=>[
+					'hoooraying',
+					'horaying',
+				],
+				'hoorays'=>[
+					'hooorays',
+					'horays',
+				],
+				'hoosegow'=>[
+					'hooosegow',
+					'hosegow',
+				],
+				'hoosegows'=>[
+					'hooosegows',
+					'hosegows',
+				],
+				'hoosier'=>[
+					'hooosier',
+				],
+				'hoosiers'=>[
+					'hooosiers',
+				],
+				'hoot'=>[
+					'hooot',
+				],
+				'hootch'=>[
+					'hoootch',
+				],
+				'hooted'=>[
+					'hoooted',
 				],
 				'hootenannies'=>[
 					'hootenanies',
+					'hoootenannies',
+					'hootenannnies',
+					'hotenannies',
 				],
 				'hootenanny'=>[
 					'hootenany',
+					'hoootenanny',
+					'hootenannny',
+					'hotenanny',
+				],
+				'hooter'=>[
+					'hoooter',
+				],
+				'hooters'=>[
+					'hoooters',
+					'hoters',
+				],
+				'hooting'=>[
+					'hoooting',
+				],
+				'hoots'=>[
+					'hooots',
+				],
+				'hoover'=>[
+					'hooover',
+				],
+				'hoovered'=>[
+					'hooovered',
+				],
+				'hoovering'=>[
+					'hooovering',
+				],
+				'hoovers'=>[
+					'hooovers',
+				],
+				'hooves'=>[
+					'hoooves',
 				],
 				'hope'=>[
 					'hope hope',
@@ -3477,11 +5117,34 @@
 				'hoplologist'=>[
 					'hopologist',
 				],
+				'hopped'=>[
+					'hoppped',
+				],
 				'hopper'=>[
 					'hoper',
+					'hoppper',
+				],
+				'hoppers'=>[
+					'hopppers',
+				],
+				'hopping'=>[
+					'hoppping',
 				],
 				'hopple'=>[
 					'hople',
+					'hoppple',
+				],
+				'hoppled'=>[
+					'hopled',
+					'hopppled',
+				],
+				'hopples'=>[
+					'hoples',
+					'hoppples',
+				],
+				'hoppling'=>[
+					'hopling',
+					'hopppling',
 				],
 				'hoppy'=>[
 					'hopy',
@@ -3506,6 +5169,26 @@
 				'horicyclic'=>[
 					'horiciclic',
 				],
+				'horizontally'=>[
+					'horizontallly',
+					'horizontaly',
+				],
+				'hormonally'=>[
+					'hormonallly',
+					'hormonaly',
+				],
+				'hornbill'=>[
+					'hornbil',
+					'hornbilll',
+				],
+				'hornbills'=>[
+					'hornbillls',
+					'hornbils',
+				],
+				'hornbook'=>[
+					'hornbok',
+					'hornboook',
+				],
 				'horniness'=>[
 					'hornines',
 					'horninesss',
@@ -3520,6 +5203,7 @@
 				],
 				'hornswoggle'=>[
 					'hornswogle',
+					'hornswogggle',
 				],
 				'hornswoggled'=>[
 					'hornswogled',
@@ -3537,6 +5221,11 @@
 				],
 				'horrendous'=>[
 					'horendous',
+					'horrrendous',
+				],
+				'horrendously'=>[
+					'horendously',
+					'horrrendously',
 				],
 				'horrent'=>[
 					'horent',
@@ -3545,44 +5234,92 @@
 					'horible',
 					'hornble',
 					'horrable',
+					'horrrible',
 				],
 				'horribleness'=>[
 					'horriblenes',
 					'horriblenesss',
+					'horibleness',
+					'horrribleness',
 				],
 				'horriblenesses'=>[
 					'horiblenesses',
 				],
 				'horribly'=>[
 					'horribley',
+					'horibly',
+					'horrribly',
 				],
 				'horrid'=>[
 					'horid',
+					'horrrid',
+				],
+				'horridly'=>[
+					'horidly',
+					'horrridly',
 				],
 				'horridness'=>[
 					'horidness',
 					'horridnes',
 					'horridnesss',
+					'horrridness',
 				],
 				'horridnesses'=>[
 					'horridneses',
 					'horridnessses',
+					'horidnesses',
+					'horrridnesses',
 				],
 				'horrific'=>[
 					'horific',
+					'horrrific',
+				],
+				'horrifically'=>[
+					'horifically',
+					'horrificallly',
+					'horrificaly',
+					'horrrifically',
+				],
+				'horrification'=>[
+					'horification',
+					'horrrification',
+				],
+				'horrified'=>[
+					'horified',
+					'horrrified',
+				],
+				'horrifies'=>[
+					'horifies',
+					'horrrifies',
 				],
 				'horrify'=>[
 					'horify',
+					'horrrify',
 				],
 				'horrifying'=>[
 					'horifying',
 					'horrifing',
+					'horrrifying',
+				],
+				'horrifyingly'=>[
+					'horifyingly',
+					'horrrifyingly',
+				],
+				'horripilate'=>[
+					'horipilate',
+					'horrripilate',
+				],
+				'horripilation'=>[
+					'horipilation',
+					'horrripilation',
 				],
 				'horror'=>[
 					'horor',
+					'horrror',
 				],
 				'horrors'=>[
 					'horors',
+					'horrrors',
 				],
 				'horse'=>[
 					'horse horse',
@@ -3597,6 +5334,14 @@
 					'horsefely',
 					'horseflly',
 				],
+				'horseleech'=>[
+					'horselech',
+					'horseleeech',
+				],
+				'horseleeches'=>[
+					'horseleches',
+					'horseleeeches',
+				],
 				'horseless'=>[
 					'horseles',
 					'horselesss',
@@ -3604,8 +5349,17 @@
 				'horseshoeing'=>[
 					'horseshoieng',
 				],
+				'horseweed'=>[
+					'horsewed',
+					'horseweeed',
+				],
+				'horseweeds'=>[
+					'horseweds',
+					'horseweeeds',
+				],
 				'horsewhipped'=>[
 					'horsewhiped',
+					'horsewhippped',
 				],
 				'horsewhipper'=>[
 					'horsewhiper',
@@ -3615,6 +5369,7 @@
 				],
 				'horsewhipping'=>[
 					'horsewhiping',
+					'horsewhippping',
 				],
 				'horsiness'=>[
 					'horsines',
@@ -3625,6 +5380,7 @@
 				],
 				'horticulturally'=>[
 					'horticulturaly',
+					'horticulturallly',
 				],
 				'horticulture'=>[
 					'horticultnre',
@@ -3634,6 +5390,8 @@
 				],
 				'hosannah'=>[
 					'hosanna',
+					'hosanah',
+					'hosannnah',
 				],
 				'hosannahs'=>[
 					'hosannas',
@@ -3656,6 +5414,12 @@
 				],
 				'hosted'=>[
 					'hoasted',
+				],
+				'hostelled'=>[
+					'hostellled',
+				],
+				'hostelling'=>[
+					'hostellling',
 				],
 				'hostess'=>[
 					'hostes',
@@ -3682,15 +5446,39 @@
 					'hot hot',
 					'hot hot hot',
 				],
+				'hotblooded'=>[
+					'hotbloded',
+					'hotbloooded',
+				],
 				'hotdogged'=>[
 					'hotdoged',
+					'hotdoggged',
 				],
 				'hotdogger'=>[
 					'hotdoger',
 				],
+				'hotdogging'=>[
+					'hotdoggging',
+				],
 				'hotelier'=>[
 					'hoteleir',
 					'hotelir',
+				],
+				'hotfoot'=>[
+					'hotfooot',
+					'hotfot',
+				],
+				'hotfooted'=>[
+					'hotfoooted',
+					'hotfoted',
+				],
+				'hotfooting'=>[
+					'hotfoooting',
+					'hotfoting',
+				],
+				'hotfoots'=>[
+					'hotfooots',
+					'hotfots',
 				],
 				'hotheadedness'=>[
 					'hotheadednes',
@@ -3711,15 +5499,43 @@
 					'hotnes',
 					'hotnesss',
 				],
+				'hotted'=>[
+					'hottted',
+				],
+				'hottentot'=>[
+					'hotentot',
+					'hotttentot',
+				],
+				'hottentots'=>[
+					'hotentots',
+					'hotttentots',
+				],
+				'hotter'=>[
+					'hottter',
+				],
+				'hottest'=>[
+					'hotest',
+					'hotttest',
+				],
 				'hottie'=>[
 					'hottei',
 					'hotti',
+				],
+				'hotting'=>[
+					'hottting',
 				],
 				'houdah'=>[
 					'houda',
 				],
 				'houdahs'=>[
 					'houdas',
+				],
+				'hoummos'=>[
+					'hoummmos',
+					'houmos',
+				],
+				'houppelande'=>[
+					'houpppelande',
 				],
 				'hour'=>[
 					'hour hour',
@@ -3772,6 +5588,20 @@
 				],
 				'housekeeper'=>[
 					'houskeeper',
+					'housekeeeper',
+					'housekeper',
+				],
+				'housekeepers'=>[
+					'housekeeepers',
+					'housekepers',
+				],
+				'housekeeping'=>[
+					'housekeeeping',
+					'housekeping',
+				],
+				'houseleek'=>[
+					'houseleeek',
+					'houselek',
 				],
 				'houseless'=>[
 					'houseles',
@@ -3793,6 +5623,14 @@
 				],
 				'houseplant'=>[
 					'houseplent',
+				],
+				'houseroom'=>[
+					'houserom',
+					'houserooom',
+				],
+				'houserooms'=>[
+					'houseroms',
+					'houseroooms',
 				],
 				'housewife'=>[
 					'houswife',
@@ -3844,28 +5682,92 @@
 				],
 				'hubbies'=>[
 					'hubies',
+					'hubbbies',
+				],
+				'hubble'=>[
+					'hubbble',
+					'huble',
 				],
 				'hubbly'=>[
 					'hubly',
 				],
 				'hubbub'=>[
 					'hubub',
+					'hubbbub',
 				],
 				'hubbubs'=>[
 					'hububs',
+					'hubbbubs',
 				],
 				'hubby'=>[
 					'huby',
+					'hubbby',
 				],
 				'huckleberries'=>[
 					'huckleberies',
+					'huckleberrries',
 				],
 				'huckleberry'=>[
 					'hucklebery',
+					'huckleberrry',
+				],
+				'huddle'=>[
+					'hudddle',
+					'hudle',
+				],
+				'huddled'=>[
+					'hudddled',
+					'hudled',
+				],
+				'huddler'=>[
+					'hudddler',
+				],
+				'huddles'=>[
+					'hudddles',
+					'hudles',
+				],
+				'huddling'=>[
+					'hudddling',
+					'hudling',
+				],
+				'huff'=>[
+					'hufff',
+				],
+				'huffed'=>[
+					'hufed',
+					'hufffed',
+				],
+				'huffier'=>[
+					'hufffier',
+					'hufier',
+				],
+				'huffiest'=>[
+					'hufffiest',
+					'hufiest',
+				],
+				'huffily'=>[
+					'hufffily',
+					'hufily',
 				],
 				'huffiness'=>[
 					'huffines',
 					'huffinesss',
+					'hufffiness',
+					'hufiness',
+				],
+				'huffing'=>[
+					'hufffing',
+					'hufing',
+				],
+				'huffish'=>[
+					'hufffish',
+					'hufish',
+				],
+				'huffs'=>[
+					'hufffs',
+				],
+				'huffy'=>[
+					'hufffy',
 				],
 				'huge'=>[
 					'huge huge',
@@ -3878,17 +5780,59 @@
 					'hugenes',
 					'hugenesss',
 				],
+				'hugged'=>[
+					'huggged',
+				],
+				'hugger'=>[
+					'huggger',
+				],
+				'hugging'=>[
+					'huggging',
+				],
 				'hugh hefner'=>[
 					'hugh heffner',
 				],
 				'hull'=>[
 					'hul',
+					'hulll',
+				],
+				'hullaballoo'=>[
+					'hulaballoo',
+					'hullaballloo',
+					'hullaballooo',
+					'hulllaballoo',
 				],
 				'hullabaloo'=>[
 					'hulabaloo',
+					'hullabalo',
+					'hullabalooo',
+					'hulllabaloo',
+				],
+				'hullabaloos'=>[
+					'hullabalooos',
+					'hullabalos',
+					'hulllabaloos',
+				],
+				'hulled'=>[
+					'huled',
+					'hullled',
+				],
+				'huller'=>[
+					'huler',
+					'hulller',
+				],
+				'hullers'=>[
+					'hulers',
+					'hulllers',
+				],
+				'hulling'=>[
+					'hullling',
 				],
 				'hullo'=>[
 					'hulo',
+				],
+				'hulls'=>[
+					'hullls',
 				],
 				'human'=>[
 					'human human',
@@ -3901,11 +5845,16 @@
 					'humanenes',
 					'humanenesss',
 				],
+				'humanhood'=>[
+					'humanhod',
+					'humanhoood',
+				],
 				'humanistically'=>[
 					'humanisticalally',
 					'humanisticalaly',
 					'humanisticalely',
 					'humanisticallly',
+					'humanisticaly',
 				],
 				'humanitarian'=>[
 					'humanitaran',
@@ -3919,9 +5868,19 @@
 				'humanness'=>[
 					'humannes',
 					'humannesss',
+					'humaness',
+					'humannness',
 				],
 				'humannesses'=>[
 					'humanesses',
+				],
+				'humblebee'=>[
+					'humblebe',
+					'humblebeee',
+				],
+				'humblebees'=>[
+					'humblebeees',
+					'humblebes',
 				],
 				'humbleness'=>[
 					'humblenes',
@@ -3929,12 +5888,21 @@
 				],
 				'humbugged'=>[
 					'humbuged',
+					'humbuggged',
 				],
 				'humbugger'=>[
 					'humbuger',
+					'humbuggger',
 				],
 				'humbuggeries'=>[
 					'humbugeries',
+				],
+				'humbuggery'=>[
+					'humbugery',
+					'humbugggery',
+				],
+				'humbugging'=>[
+					'humbuggging',
 				],
 				'humidifier'=>[
 					'humidifeir',
@@ -3948,30 +5916,56 @@
 				],
 				'hummable'=>[
 					'humnable',
+					'humable',
+					'hummmable',
 				],
 				'hummed'=>[
 					'humned',
+					'hummmed',
 				],
 				'hummer'=>[
 					'humner',
+					'hummmer',
+				],
+				'hummers'=>[
+					'humers',
+					'hummmers',
+				],
+				'humming'=>[
+					'hummming',
 				],
 				'hummingbird'=>[
 					'humningbird',
+					'humingbird',
+					'hummmingbird',
 				],
 				'hummingbirds'=>[
 					'humningbirds',
+					'humingbirds',
+					'hummmingbirds',
+				],
+				'hummings'=>[
+					'humings',
+					'hummmings',
 				],
 				'hummock'=>[
 					'humnock',
+					'hummmock',
+					'humock',
 				],
 				'hummocks'=>[
 					'humnocks',
+					'hummmocks',
+					'humocks',
 				],
 				'hummocky'=>[
 					'humnocky',
+					'hummmocky',
+					'humocky',
 				],
 				'hummus'=>[
 					'humnus',
+					'hummmus',
 				],
 				'hummuses'=>[
 					'humnuses',
@@ -4061,6 +6055,10 @@
 			#	'humors'=>[
 			#		'humours',
 			#	],
+				'humvee'=>[
+					'humve',
+					'humveee',
+				],
 				'hundred'=>[
 					'hundered',
 					'hundred hundred',
@@ -4098,6 +6096,7 @@
 				],
 				'huppah'=>[
 					'huppa',
+					'hupppah',
 				],
 				'huppahs'=>[
 					'huppas',
@@ -4118,38 +6117,63 @@
 				'hurrah'=>[
 					'hurah',
 					'hurra',
+					'hurrrah',
 				],
 				'hurrahed'=>[
 					'hurraed',
+					'hurahed',
+					'hurrrahed',
 				],
 				'hurrahing'=>[
 					'hurraing',
+					'hurahing',
+					'hurrrahing',
 				],
 				'hurrahs'=>[
 					'hurahs',
 					'hurras',
+					'hurrrahs',
 				],
 				'hurray'=>[
 					'huray',
+					'hurrray',
+				],
+				'hurrayed'=>[
+					'hurayed',
+					'hurrrayed',
+				],
+				'hurraying'=>[
+					'huraying',
+					'hurrraying',
 				],
 				'hurrays'=>[
 					'hurays',
+					'hurrrays',
 				],
 				'hurricane'=>[
 					'huricane',
 					'hurricaine',
+					'hurrricane',
 				],
 				'hurricanes'=>[
 					'huricanes',
+					'hurrricanes',
 				],
 				'hurried'=>[
 					'huried',
 					'hurreid',
 					'hurrid',
+					'hurrried',
+				],
+				'hurriedly'=>[
+					'huriedly',
+					'hurrriedly',
 				],
 				'hurriedness'=>[
 					'hurriednes',
 					'hurriednesss',
+					'huriedness',
+					'hurrriedness',
 				],
 				'hurriednesses'=>[
 					'huriednesses',
@@ -4159,10 +6183,23 @@
 				'hurrier'=>[
 					'hurier',
 				],
+				'hurries'=>[
+					'huries',
+					'hurrries',
+				],
 				'hurry'=>[
 					'hurry hurry',
 					'hurry hurry hurry',
 					'hury',
+					'hurrry',
+				],
+				'hurrying'=>[
+					'hurrrying',
+					'hurying',
+				],
+				'hurtfully'=>[
+					'hurtfullly',
+					'hurtfuly',
 				],
 				'hurtfulness'=>[
 					'hurtfulnes',
@@ -4219,6 +6256,37 @@
 			#	'huzzahs'=>[
 			#		'huzzas',
 			#	],
+				'huzza'=>[
+					'huzzza',
+				],
+				'huzzaed'=>[
+					'huzaed',
+					'huzzzaed',
+				],
+				'huzzah'=>[
+					'huzah',
+					'huzzzah',
+				],
+				'huzzahed'=>[
+					'huzahed',
+					'huzzzahed',
+				],
+				'huzzahing'=>[
+					'huzahing',
+					'huzzzahing',
+				],
+				'huzzahs'=>[
+					'huzahs',
+					'huzzzahs',
+				],
+				'huzzaing'=>[
+					'huzaing',
+					'huzzzaing',
+				],
+				'huzzas'=>[
+					'huzas',
+					'huzzzas',
+				],
 				'hyaline'=>[
 					'hyalini',
 				],
@@ -4235,8 +6303,16 @@
 					'hydralic',
 					'hydrolic',
 				],
+				'hydraulically'=>[
+					'hydraulicallly',
+					'hydraulicaly',
+				],
 				'hydrazine'=>[
 					'hydrazini',
+				],
+				'hydrocellulose'=>[
+					'hydrocelllulose',
+					'hydrocelulose',
 				],
 				'hydrocephaly'=>[
 					'hydrocephaally',
@@ -4256,20 +6332,33 @@
 				'hydrodynamically'=>[
 					'hydrodynamicaly',
 				],
+				'hydroelectrically'=>[
+					'hydroelectricallly',
+					'hydroelectricaly',
+				],
 				'hydroelectrolytic'=>[
 					'hydroeletrolytic',
 				],
 				'hydrofluorocarbon'=>[
 					'hydroflurocarbon',
 				],
+				'hydrographically'=>[
+					'hydrographicallly',
+					'hydrographicaly',
+				],
 				'hydrokinetic'=>[
 					'hydrokinitic',
+				],
+				'hydrologically'=>[
+					'hydrologicallly',
+					'hydrologicaly',
 				],
 				'hydromancy'=>[
 					'hydromansy',
 				],
 				'hydrometallurgy'=>[
 					'hydrometalurgy',
+					'hydrometalllurgy',
 				],
 				'hydromorphic'=>[
 					'hydromourphic',
@@ -4289,6 +6378,10 @@
 				'hydroplethysmometer'=>[
 					'hydropletismometer',
 				],
+				'hydroponically'=>[
+					'hydroponicallly',
+					'hydroponicaly',
+				],
 				'hydropsy'=>[
 					'hydropcy',
 				],
@@ -4297,6 +6390,7 @@
 				],
 				'hydrostatically'=>[
 					'hydrostaticaly',
+					'hydrostaticallly',
 				],
 				'hydrothermally'=>[
 					'hydrothermalally',
@@ -4354,6 +6448,10 @@
 					'hygenic',
 					'hyginic',
 				],
+				'hygienically'=>[
+					'hygienicallly',
+					'hygienicaly',
+				],
 				'hygienist'=>[
 					'hygenist',
 				],
@@ -4369,6 +6467,14 @@
 				'hymnary'=>[
 					'hymnery',
 				],
+				'hymnbook'=>[
+					'hymnbok',
+					'hymnboook',
+				],
+				'hymnbooks'=>[
+					'hymnboks',
+					'hymnboooks',
+				],
 				'hyoscyamine'=>[
 					'hyocsyamine',
 					'hyocyamine',
@@ -4383,6 +6489,14 @@
 					'hypabysal',
 					'hypabysssal',
 				],
+				'hypallage'=>[
+					'hypalage',
+					'hypalllage',
+				],
+				'hypallages'=>[
+					'hypalages',
+					'hypalllages',
+				],
 				'hyperaggressive'=>[
 					'hyperagressive',
 				],
@@ -4394,6 +6508,10 @@
 				],
 				'hyperarchimedean'=>[
 					'hyperarchimedian',
+				],
+				'hyperbolically'=>[
+					'hyperbolicallly',
+					'hyperbolicaly',
 				],
 				'hypercalciuria'=>[
 					'hypercalcuria',
@@ -4425,9 +6543,11 @@
 				],
 				'hypercorrect'=>[
 					'hypercorect',
+					'hypercorrrect',
 				],
 				'hypercorrection'=>[
 					'hypercorection',
+					'hypercorrrection',
 				],
 				'hypercorrectly'=>[
 					'hypercorectly',
@@ -4438,6 +6558,7 @@
 				],
 				'hypercritically'=>[
 					'hypercriticaly',
+					'hypercriticallly',
 				],
 				'hyperesthesia'=>[
 					'hyperasthesia',
@@ -4599,6 +6720,10 @@
 				'hypersomnolence'=>[
 					'hypersomnolance',
 				],
+				'hypersonically'=>[
+					'hypersonicallly',
+					'hypersonicaly',
+				],
 				'hypertense'=>[
 					'hypertence',
 				],
@@ -4617,11 +6742,16 @@
 				'hypnagogic'=>[
 					'hynagogic',
 				],
+				'hypnotically'=>[
+					'hypnoticallly',
+					'hypnoticaly',
+				],
 				'hypnotize'=>[
 					'hyptonize',
 				],
 				'hypoallergenic'=>[
 					'hypoalergenic',
+					'hypoalllergenic',
 				],
 				'hypocapnia'=>[
 					'hypocapnea',
@@ -4654,6 +6784,14 @@
 				],
 				'hypocritical'=>[
 					'hyprocritical',
+				],
+				'hypocritically'=>[
+					'hypocriticallly',
+					'hypocriticaly',
+				],
+				'hypodermically'=>[
+					'hypodermicallly',
+					'hypodermicaly',
 				],
 				'hypodiploid'=>[
 					'hipodiploid',
@@ -4706,6 +6844,10 @@
 				'hypothesis'=>[
 					'hypothosis',
 				],
+				'hypothetically'=>[
+					'hypotheticallly',
+					'hypotheticaly',
+				],
 				'hypothiocyanite'=>[
 					'hypothiocyanate',
 				],
@@ -4722,6 +6864,10 @@
 				],
 				'hysterectomy'=>[
 					'historectomy',
+				],
+				'hysterically'=>[
+					'hystericallly',
+					'hystericaly',
 				],
 			];
 		}

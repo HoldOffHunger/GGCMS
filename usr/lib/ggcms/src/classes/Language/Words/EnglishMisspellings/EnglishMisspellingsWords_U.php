@@ -74,6 +74,13 @@
 				'ubiquitylation'=>[
 					'ubiquitilation',
 				],
+				'udder'=>[
+					'uddder',
+				],
+				'udders'=>[
+					'uddders',
+					'uders',
+				],
 				'ugandan-occupied'=>[
 					'ugandan occupied',
 				],
@@ -105,6 +112,14 @@
 			#	'ukulele'=>[
 			#		'ukelele',
 			#	],
+				'ullage'=>[
+					'ulage',
+					'ulllage',
+				],
+				'ullages'=>[
+					'ulages',
+					'ulllages',
+				],
 				'ulnar'=>[
 					'ulner',
 				],
@@ -214,23 +229,45 @@
 				'ultraserious'=>[
 					'ultraserous',
 				],
+				'ultrasonically'=>[
+					'ultrasonicallly',
+					'ultrasonicaly',
+				],
 				'ultraviolence'=>[
 					'ultraviolance',
 				],
 				'umbellar'=>[
 					'umbeller',
 				],
+				'umbellate'=>[
+					'umbelate',
+					'umbelllate',
+				],
 				'umbelliferous'=>[
 					'umbeliferous',
+					'umbellliferous',
 				],
 				'umbrage'=>[
 					'umbridge',
 				],
 				'umbrella'=>[
 					'umbrela',
+					'umbrellla',
+				],
+				'umbrellas'=>[
+					'umbrelas',
+					'umbrelllas',
 				],
 				'umm'=>[
 					'umn',
+				],
+				'umpteen'=>[
+					'umpteeen',
+					'umpten',
+				],
+				'umpteenth'=>[
+					'umpteeenth',
+					'umptenth',
 				],
 				'unabashed'=>[
 					'unabased',
@@ -244,6 +281,10 @@
 					'unabatedely',
 					'unabatedlly',
 				],
+				'unabbreviated'=>[
+					'unabbbreviated',
+					'unabreviated',
+				],
 				'unable'=>[
 					'unible',
 				],
@@ -252,22 +293,36 @@
 				],
 				'unaccented'=>[
 					'unacented',
+					'unacccented',
+				],
+				'unacceptabilities'=>[
+					'unaccceptabilities',
+					'unaceptabilities',
 				],
 				'unacceptability'=>[
 					'unaceptability',
+					'unaccceptability',
 				],
 				'unacceptable'=>[
 					'unacceptible',
 					'unaceptable',
+					'unaccceptable',
 				],
 				'unacceptably'=>[
 					'unacceptabally',
 					'unacceptabaly',
 					'unacceptabely',
 					'unacceptablly',
+					'unaccceptably',
+					'unaceptably',
+				],
+				'unaccepted'=>[
+					'unacccepted',
+					'unacepted',
 				],
 				'unacclimatized'=>[
 					'unaclimatized',
+					'unaccclimatized',
 				],
 				'unaccommodated'=>[
 					'unaccomnodated',
@@ -276,30 +331,47 @@
 				'unaccommodating'=>[
 					'unaccomnodating',
 					'unacommodating',
+					'unacccommodating',
+					'unaccommmodating',
+					'unaccomodating',
 				],
 				'unaccompanied'=>[
 					'unaccompaneid',
 					'unaccompanid',
 					'unacompanied',
+					'unacccompanied',
+				],
+				'unaccomplished'=>[
+					'unacccomplished',
+					'unacomplished',
+				],
+				'unaccountability'=>[
+					'unacccountability',
+					'unacountability',
 				],
 				'unaccountable'=>[
 					'unaccountible',
 					'unacountable',
+					'unacccountable',
 				],
 				'unaccountably'=>[
 					'unacountably',
+					'unacccountably',
 				],
 				'unaccounted'=>[
 					'unacounted',
+					'unacccounted',
 				],
 				'unaccredited'=>[
 					'unacredited',
+					'unacccredited',
 				],
 				'unacculturated'=>[
 					'unaculturated',
 				],
 				'unaccustomed'=>[
 					'unacustomed',
+					'unacccustomed',
 				],
 				'unaccustomedly'=>[
 					'unacustomedly',
@@ -317,6 +389,8 @@
 				'unaddressed'=>[
 					'unaddresed',
 					'unaddresssed',
+					'unadddressed',
+					'unadressed',
 				],
 				'unadeptly'=>[
 					'unadeptally',
@@ -335,29 +409,41 @@
 				],
 				'unaffected'=>[
 					'uneffected',
+					'unafected',
+					'unafffected',
 				],
 				'unaffectedly'=>[
 					'unaffectedally',
 					'unaffectedaly',
 					'unaffectedely',
 					'unaffectedlly',
+					'unafectedly',
+					'unafffectedly',
 				],
 				'unaffectedness'=>[
 					'unaffectednes',
 					'unaffectednesss',
+					'unafectedness',
+					'unafffectedness',
 				],
 				'unaffectednesses'=>[
 					'unaffectedneses',
 					'unaffectednessses',
 				],
+				'unaffiliated'=>[
+					'unafffiliated',
+					'unafiliated',
+				],
 				'unaffordable'=>[
 					'unaffordible',
 					'unafordable',
+					'unafffordable',
 				],
 				'unaggressive'=>[
 					'unaggresive',
 					'unagressive',
 					'unaggresssive',
+					'unagggressive',
 				],
 				'unalienable'=>[
 					'unaleinable',
@@ -366,6 +452,26 @@
 				],
 				'unalleviated'=>[
 					'unaleviated',
+				],
+				'unallied'=>[
+					'unalied',
+					'unalllied',
+				],
+				'unallocated'=>[
+					'unalllocated',
+					'unalocated',
+				],
+				'unallowable'=>[
+					'unalllowable',
+					'unalowable',
+				],
+				'unalloyed'=>[
+					'unallloyed',
+					'unaloyed',
+				],
+				'unalloyedly'=>[
+					'unallloyedly',
+					'unaloyedly',
 				],
 				'unalterable'=>[
 					'unalterible',
@@ -415,8 +521,13 @@
 					'unanimousnes',
 					'unanimousnesss',
 				],
+				'unannotated'=>[
+					'unannnotated',
+					'unanotated',
+				],
 				'unannounced'=>[
 					'unanounced',
+					'unannnounced',
 				],
 				'unanswerable'=>[
 					'unanswerible',
@@ -439,23 +550,28 @@
 				'unapparent'=>[
 					'unaparent',
 					'unapperent',
+					'unappparent',
 				],
 				'unappealable'=>[
 					'unapealable',
 					'unappealible',
 					'unappelable',
+					'unapppealable',
 				],
 				'unappealing'=>[
 					'unapealing',
 					'unappeling',
+					'unapppealing',
 				],
 				'unappealingly'=>[
 					'unapealingly',
+					'unapppealingly',
 				],
 				'unappeasable'=>[
 					'unapeasable',
 					'unappeasible',
 					'unappesable',
+					'unapppeasable',
 				],
 				'unappeasably'=>[
 					'unappeasabally',
@@ -465,9 +581,11 @@
 				],
 				'unappeased'=>[
 					'unapeased',
+					'unapppeased',
 				],
 				'unappetizing'=>[
 					'unapetizing',
+					'unapppetizing',
 				],
 				'unappetizingly'=>[
 					'unapetizingly',
@@ -479,6 +597,7 @@
 				],
 				'unappreciated'=>[
 					'unapreciated',
+					'unapppreciated',
 				],
 				'unappreciation'=>[
 					'unapreciation',
@@ -488,19 +607,27 @@
 				],
 				'unappreciative'=>[
 					'unapreciative',
+					'unapppreciative',
+				],
+				'unapproachability'=>[
+					'unappproachability',
+					'unaproachability',
 				],
 				'unapproachable'=>[
 					'unapproachible',
 					'unaproachable',
+					'unappproachable',
 				],
 				'unapproachably'=>[
 					'unaproachably',
 				],
 				'unappropriated'=>[
 					'unapropriated',
+					'unapppropriated',
 				],
 				'unapproved'=>[
 					'unaproved',
+					'unappproved',
 				],
 				'unarguable'=>[
 					'unargauble',
@@ -604,18 +731,66 @@
 					'unassumingnessses',
 					'unasumingnesses',
 				],
+				'unattached'=>[
+					'unatached',
+					'unatttached',
+				],
+				'unattainability'=>[
+					'unatainability',
+					'unatttainability',
+				],
 				'unattainable'=>[
 					'unattainible',
+					'unatainable',
+					'unatttainable',
+				],
+				'unattainably'=>[
+					'unatainably',
+					'unatttainably',
+				],
+				'unattained'=>[
+					'unatained',
+					'unatttained',
+				],
+				'unattempted'=>[
+					'unatempted',
+					'unatttempted',
+				],
+				'unattended'=>[
+					'unatended',
+					'unatttended',
+				],
+				'unattenuated'=>[
+					'unatenuated',
+					'unatttenuated',
+				],
+				'unattested'=>[
+					'unatested',
+					'unatttested',
+				],
+				'unattractive'=>[
+					'unatractive',
+					'unatttractive',
 				],
 				'unattractively'=>[
 					'unattractivly',
+					'unatractively',
+					'unatttractively',
 				],
 				'unattractiveness'=>[
 					'unattractivenes',
 					'unattractivenesss',
+					'unatractiveness',
+					'unatttractiveness',
 				],
 				'unattributable'=>[
 					'unattributible',
+					'unatributable',
+					'unatttributable',
+				],
+				'unattributed'=>[
+					'unatributed',
+					'unatttributed',
 				],
 				'unavailable'=>[
 					'unavalable',
@@ -642,8 +817,20 @@
 				'unbalance'=>[
 					'unbalence',
 				],
+				'unbanned'=>[
+					'unbannned',
+				],
+				'unbanning'=>[
+					'unbannning',
+				],
 				'unbar'=>[
 					'unber',
+				],
+				'unbarred'=>[
+					'unbarrred',
+				],
+				'unbarring'=>[
+					'unbarrring',
 				],
 				'unbear'=>[
 					'unbeer',
@@ -658,6 +845,9 @@
 				],
 				'unbeaten'=>[
 					'unbeten',
+				],
+				'unbefitting'=>[
+					'unbefittting',
 				],
 				'unbeknown'=>[
 					'unbekown',
@@ -699,6 +889,10 @@
 				'unbiassedly'=>[
 					'unbiasssedly',
 				],
+				'unbidden'=>[
+					'unbiddden',
+					'unbiden',
+				],
 				'unbilled'=>[
 					'unbiled',
 				],
@@ -709,8 +903,17 @@
 					'unblesed',
 					'unblesssed',
 				],
+				'unbloodied'=>[
+					'unblodied',
+					'unblooodied',
+				],
 				'unbonnet'=>[
 					'unbonet',
+					'unbonnnet',
+				],
+				'unbooked'=>[
+					'unboked',
+					'unboooked',
 				],
 				'unbouncy'=>[
 					'unbounsy',
@@ -755,15 +958,58 @@
 				'unbusy'=>[
 					'unbucy',
 				],
+				'unbutton'=>[
+					'unbuton',
+					'unbuttton',
+				],
+				'unbuttoned'=>[
+					'unbutoned',
+					'unbutttoned',
+				],
+				'unbuttoning'=>[
+					'unbutoning',
+					'unbutttoning',
+				],
+				'unbuttons'=>[
+					'unbutons',
+					'unbutttons',
+				],
+				'uncalled'=>[
+					'uncallled',
+				],
+				'uncancelled'=>[
+					'uncancellled',
+				],
+				'uncannier'=>[
+					'uncanier',
+					'uncannnier',
+				],
+				'uncanniest'=>[
+					'uncaniest',
+					'uncannniest',
+				],
+				'uncannily'=>[
+					'uncanily',
+					'uncannnily',
+				],
 				'uncanniness'=>[
 					'uncannines',
 					'uncanninesss',
+					'uncaniness',
+					'uncannniness',
 				],
 				'uncanninesses'=>[
 					'uncaninesses',
 				],
 				'uncanny'=>[
 					'uncany',
+					'uncannny',
+				],
+				'uncapped'=>[
+					'uncappped',
+				],
+				'uncapping'=>[
+					'uncappping',
 				],
 				'uncapturable'=>[
 					'uncapturible',
@@ -793,11 +1039,13 @@
 					'uncertainess',
 					'uncertainnes',
 					'uncertainnesss',
+					'uncertainnness',
 				],
 				'uncertainnesses'=>[
 					'uncertainesses',
 					'uncertainneses',
 					'uncertainnessses',
+					'uncertainnnesses',
 				],
 				'uncertainty'=>[
 					'uncertainity',
@@ -810,9 +1058,11 @@
 					'unchalengeable',
 					'unchallengeble',
 					'unchallengeible',
+					'unchalllengeable',
 				],
 				'unchallenged'=>[
 					'unchalenged',
+					'unchalllenged',
 				],
 				'unchallenging'=>[
 					'unchalenging',
@@ -829,6 +1079,10 @@
 					'unchangeabaly',
 					'unchangeabely',
 					'unchangeablly',
+				],
+				'uncharacteristically'=>[
+					'uncharacteristicallly',
+					'uncharacteristicaly',
 				],
 				'uncharitable'=>[
 					'uncharitible',
@@ -890,6 +1144,10 @@
 				'uncini'=>[
 					'uncina',
 				],
+				'uncivilly'=>[
+					'uncivillly',
+					'uncivily',
+				],
 				'unclassical'=>[
 					'unclasical',
 					'unclasssical',
@@ -923,6 +1181,7 @@
 				],
 				'uncleanness'=>[
 					'uncleannesss',
+					'uncleannness',
 				],
 				'uncleannesses'=>[
 					'uncleanesses',
@@ -931,17 +1190,26 @@
 					'uncleer',
 					'uncler',
 				],
+				'unclogged'=>[
+					'uncloggged',
+				],
 				'unclogging'=>[
 					'uncloging',
+					'uncloggging',
 				],
 				'unclubbable'=>[
 					'unclubable',
+				],
+				'uncluttered'=>[
+					'unclutered',
+					'unclutttered',
 				],
 				'uncoercively'=>[
 					'uncoercivly',
 				],
 				'uncollected'=>[
 					'uncolected',
+					'uncolllected',
 				],
 				'uncollectible'=>[
 					'uncollectable',
@@ -965,16 +1233,38 @@
 				],
 				'uncommercial'=>[
 					'uncomnercial',
+					'uncomercial',
+					'uncommmercial',
 				],
 				'uncommitted'=>[
 					'uncomnitted',
+					'uncomitted',
+					'uncommittted',
+					'uncommmitted',
 				],
 				'uncommon'=>[
 					'uncomnon',
+					'uncommmon',
+					'uncomon',
+				],
+				'uncommoner'=>[
+					'uncommmoner',
+					'uncomoner',
+				],
+				'uncommonest'=>[
+					'uncommmonest',
+					'uncomonest',
+				],
+				'uncommonly'=>[
+					'uncommmonly',
+					'uncomonly',
 				],
 				'uncommonness'=>[
 					'uncommonnes',
 					'uncommonnesss',
+					'uncommmonness',
+					'uncommonnness',
+					'uncomonness',
 				],
 				'uncommonnesses'=>[
 					'uncommonesses',
@@ -986,10 +1276,14 @@
 				],
 				'uncommunicative'=>[
 					'uncomnunicative',
+					'uncommmunicative',
+					'uncomunicative',
 				],
 				'uncommunicativeness'=>[
 					'uncommunicativenes',
 					'uncommunicativenesss',
+					'uncommmunicativeness',
+					'uncomunicativeness',
 				],
 				'uncommunicativenesses'=>[
 					'uncommunicativeneses',
@@ -1027,6 +1321,10 @@
 					'unconceivible',
 					'unconcievable',
 				],
+				'unconditionally'=>[
+					'unconditionallly',
+					'unconditionaly',
+				],
 				'unconfined'=>[
 					'unconfinid',
 				],
@@ -1038,6 +1336,11 @@
 				],
 				'unconnected'=>[
 					'unconected',
+					'unconnnected',
+				],
+				'unconnectedly'=>[
+					'unconectedly',
+					'unconnnectedly',
 				],
 				'unconquerable'=>[
 					'unconquerible',
@@ -1072,11 +1375,17 @@
 					'unconsciousnes',
 					'unconsciousnesss',
 				],
+				'unconstitutionally'=>[
+					'unconstitutionallly',
+					'unconstitutionaly',
+				],
 				'unconstrained'=>[
 					'unconstrainid',
 				],
 				'unconsummated'=>[
 					'unconsumnated',
+					'unconsumated',
+					'unconsummmated',
 				],
 				'uncontainable'=>[
 					'uncontainible',
@@ -1091,12 +1400,25 @@
 					'uncontantious',
 					'uncontentous',
 				],
+				'uncontrollability'=>[
+					'uncontrolllability',
+				],
 				'uncontrollable'=>[
 					'uncontrolable',
 					'uncontrollible',
+					'uncontrolllable',
+				],
+				'uncontrollably'=>[
+					'uncontrolably',
+					'uncontrolllably',
 				],
 				'uncontrolled'=>[
 					'uncontroled',
+					'uncontrollled',
+				],
+				'uncontroversially'=>[
+					'uncontroversiallly',
+					'uncontroversialy',
 				],
 				'unconventional'=>[
 					'unconvential',
@@ -1104,21 +1426,51 @@
 				],
 				'unconventionally'=>[
 					'unconventionaly',
+					'unconventionallly',
+				],
+				'uncooked'=>[
+					'uncoooked',
+				],
+				'uncool'=>[
+					'uncol',
+					'uncoool',
+				],
+				'uncooperative'=>[
+					'uncoooperative',
+					'uncoperative',
+				],
+				'uncooperatively'=>[
+					'uncoooperatively',
+					'uncoperatively',
 				],
 				'uncoordinated'=>[
 					'uncoordinited',
+					'uncooordinated',
+					'uncordinated',
 				],
 				'uncopyrightable'=>[
 					'uncopyrightible',
 				],
 				'uncorrectable'=>[
 					'uncorrectible',
+					'uncorectable',
+					'uncorrrectable',
 				],
 				'uncorrected'=>[
 					'uncorected',
+					'uncorrrected',
+				],
+				'uncorrelated'=>[
+					'uncorelated',
+					'uncorrrelated',
 				],
 				'uncorroborated'=>[
 					'uncoroborated',
+					'uncorrroborated',
+				],
+				'uncorrupted'=>[
+					'uncorrrupted',
+					'uncorupted',
 				],
 				'uncountable'=>[
 					'uncountible',
@@ -1136,8 +1488,13 @@
 				'uncredentialed'=>[
 					'uncredantialed',
 				],
+				'uncritically'=>[
+					'uncriticallly',
+					'uncriticaly',
+				],
 				'uncropped'=>[
 					'uncroped',
+					'uncroppped',
 				],
 				'uncross'=>[
 					'uncros',
@@ -1161,6 +1518,9 @@
 				],
 				'uncrushable'=>[
 					'uncrushible',
+				],
+				'uncrystallized'=>[
+					'uncrystalllized',
 				],
 				'unctuous'=>[
 					'unctous',
@@ -1217,6 +1577,10 @@
 				'undeliverable'=>[
 					'undeliverible',
 				],
+				'undemocratically'=>[
+					'undemocraticallly',
+					'undemocraticaly',
+				],
 				'undemonstrativeness'=>[
 					'undemonstrativenes',
 					'undemonstrativenesss',
@@ -1250,6 +1614,10 @@
 					'underacheive',
 					'underachive',
 				],
+				'underbellies'=>[
+					'underbelies',
+					'underbelllies',
+				],
 				'underbelly'=>[
 					'underbelally',
 					'underbelaly',
@@ -1257,11 +1625,19 @@
 					'underbellly',
 					'underbely',
 				],
+				'underbidder'=>[
+					'underbiddder',
+				],
+				'underbidding'=>[
+					'underbiddding',
+				],
 				'undercarriage'=>[
 					'undercariage',
+					'undercarrriage',
 				],
 				'undercarriages'=>[
 					'undercariages',
+					'undercarrriages',
 				],
 				'underclass'=>[
 					'underclas',
@@ -1279,9 +1655,25 @@
 					'underclasmen',
 					'underclasssmen',
 				],
+				'undercooked'=>[
+					'undercoked',
+					'undercoooked',
+				],
+				'undercool'=>[
+					'undercol',
+					'undercoool',
+				],
 				'undercurrent'=>[
 					'undercurent',
 					'undercurrant',
+					'undercurrrent',
+				],
+				'undercurrents'=>[
+					'undercurents',
+					'undercurrrents',
+				],
+				'undercutting'=>[
+					'undercuttting',
 				],
 				'underdevelopment'=>[
 					'undevelopment',
@@ -1302,8 +1694,25 @@
 					'underdresing',
 					'underdresssing',
 				],
+				'underfeed'=>[
+					'underfeeed',
+				],
+				'underfeeding'=>[
+					'underfeeeding',
+				],
+				'underfeeds'=>[
+					'underfeeeds',
+				],
 				'underfinanced'=>[
 					'underfininced',
+				],
+				'underfloor'=>[
+					'underflooor',
+					'underflor',
+				],
+				'underfoot'=>[
+					'underfooot',
+					'underfot',
 				],
 				'undergarment'=>[
 					'undergarmant',
@@ -1347,6 +1756,9 @@
 				'underlying'=>[
 					'underlaying',
 				],
+				'undermanned'=>[
+					'undermannned',
+				],
 				'undermine'=>[
 					'undermind',
 					'undermini',
@@ -1374,14 +1786,23 @@
 					'underpases',
 					'underpassses',
 				],
+				'underpinned'=>[
+					'underpinnned',
+				],
 				'underpinning'=>[
 					'underpining',
+					'underpinnning',
 				],
 				'underpinnings'=>[
 					'underpinings',
+					'underpinnnings',
 				],
 				'underprepared'=>[
 					'underprepered',
+				],
+				'underproof'=>[
+					'underprof',
+					'underprooof',
 				],
 				'underpropping'=>[
 					'underproping',
@@ -1391,15 +1812,27 @@
 				],
 				'underrate'=>[
 					'underate',
+					'underrrate',
 				],
 				'underrated'=>[
 					'underated',
+					'underrrated',
+				],
+				'underrates'=>[
+					'underrrates',
+				],
+				'underrating'=>[
+					'underrrating',
 				],
 				'underreact'=>[
 					'undereact',
 				],
 				'underreport'=>[
 					'undereport',
+				],
+				'underrepresented'=>[
+					'underepresented',
+					'underrrepresented',
 				],
 				'underrun'=>[
 					'underun',
@@ -1414,6 +1847,35 @@
 				],
 				'undersecretary'=>[
 					'undersecretery',
+				],
+				'undersell'=>[
+					'undersel',
+					'underselll',
+				],
+				'underselling'=>[
+					'underseling',
+					'undersellling',
+				],
+				'undersells'=>[
+					'undersellls',
+					'undersels',
+				],
+				'undersheriff'=>[
+					'undersherif',
+					'undersherifff',
+				],
+				'undershoot'=>[
+					'undershooot',
+				],
+				'undershooting'=>[
+					'undershoooting',
+				],
+				'undershoots'=>[
+					'undershooots',
+				],
+				'understaffed'=>[
+					'understafed',
+					'understafffed',
 				],
 				'understand'=>[
 					'undertand',
@@ -1430,8 +1892,13 @@
 				'understatement'=>[
 					'understatemant',
 				],
+				'understood'=>[
+					'understod',
+					'understoood',
+				],
 				'understrapper'=>[
 					'understraper',
+					'understrappper',
 				],
 				'understrappers'=>[
 					'understrapers',
@@ -1451,6 +1918,7 @@
 				],
 				'undertook'=>[
 					'undertok',
+					'undertoook',
 				],
 				'underusing'=>[
 					'underuisng',
@@ -1474,6 +1942,18 @@
 				],
 				'underwent'=>[
 					'underwant',
+				],
+				'underwood'=>[
+					'underwod',
+					'underwoood',
+				],
+				'underwoods'=>[
+					'underwods',
+					'underwooods',
+				],
+				'underwritten'=>[
+					'underwriten',
+					'underwrittten',
 				],
 				'undescended'=>[
 					'undecended',
@@ -1500,6 +1980,7 @@
 				],
 				'undeterred'=>[
 					'undetered',
+					'undeterrred',
 				],
 				'undiagnosable'=>[
 					'undiagnosible',
@@ -1510,6 +1991,8 @@
 				],
 				'undifferentiated'=>[
 					'undifferenciated',
+					'undiferentiated',
+					'undiffferentiated',
 				],
 				'undigestible'=>[
 					'undigestable',
@@ -1523,6 +2006,7 @@
 				],
 				'undimmed'=>[
 					'undimned',
+					'undimmmed',
 				],
 				'undine'=>[
 					'undini',
@@ -1617,6 +2101,10 @@
 				'undulatory'=>[
 					'ondulatory',
 				],
+				'undulled'=>[
+					'unduled',
+					'undullled',
+				],
 				'unduly'=>[
 					'undually',
 					'undualy',
@@ -1652,6 +2140,10 @@
 				'uneatable'=>[
 					'uneatible',
 				],
+				'uneconomically'=>[
+					'uneconomicallly',
+					'uneconomicaly',
+				],
 				'unedible'=>[
 					'unedable',
 				],
@@ -1662,9 +2154,15 @@
 					'unembarassed',
 					'unembarrased',
 					'unembarrasssed',
+					'unembarrrassed',
 				],
 				'unembellished'=>[
 					'unembelished',
+					'unembelllished',
+				],
+				'unemotionally'=>[
+					'unemotionallly',
+					'unemotionaly',
 				],
 				'unemployable'=>[
 					'unemployible',
@@ -1687,12 +2185,19 @@
 				'unenlightened'=>[
 					'unenlightend',
 				],
+				'unenrolled'=>[
+					'unenrollled',
+				],
 				'unenterprising'=>[
 					'unanterprising',
 				],
 				'unenthusiastic'=>[
 					'unanthusiastic',
 					'unenthuisastic',
+				],
+				'unenthusiastically'=>[
+					'unenthusiasticallly',
+					'unenthusiasticaly',
 				],
 				'unenviable'=>[
 					'unenviible',
@@ -1706,11 +2211,22 @@
 				'unequaled'=>[
 					'uneqauled',
 				],
+				'unequalled'=>[
+					'unequallled',
+				],
 				'unequally'=>[
 					'unequaly',
+					'unequallly',
 				],
 				'unequals'=>[
 					'uneqauls',
+				],
+				'unequipped'=>[
+					'unequippped',
+				],
+				'unequivocally'=>[
+					'unequivocallly',
+					'unequivocaly',
 				],
 				'unequivocalness'=>[
 					'unequivocalnes',
@@ -1718,6 +2234,11 @@
 				],
 				'unerring'=>[
 					'unering',
+					'unerrring',
+				],
+				'unerringly'=>[
+					'uneringly',
+					'unerrringly',
 				],
 				'unescapable'=>[
 					'unescapible',
@@ -1726,19 +2247,36 @@
 					'unesential',
 					'unesssential',
 				],
+				'unethically'=>[
+					'unethicallly',
+					'unethicaly',
+				],
 				'unevaluated'=>[
 					'unevalauted',
 				],
 				'unevenness'=>[
 					'unevennes',
 					'unevennesss',
+					'unevennness',
+				],
+				'uneventfully'=>[
+					'uneventfullly',
+					'uneventfuly',
 				],
 				'uneventfulness'=>[
 					'uneventfulnes',
 					'uneventfulnesss',
 				],
+				'unexaggerated'=>[
+					'unexagerated',
+					'unexagggerated',
+				],
 				'unexamined'=>[
 					'unexaminid',
+				],
+				'unexcelled'=>[
+					'unexceled',
+					'unexcellled',
 				],
 				'unexceptionable'=>[
 					'unexceptionible',
@@ -1748,6 +2286,10 @@
 					'unexceptionabaly',
 					'unexceptionabely',
 					'unexceptionablly',
+				],
+				'unexceptionally'=>[
+					'unexceptionallly',
+					'unexceptionaly',
 				],
 				'unexchangeable'=>[
 					'unexchangable',
@@ -1789,6 +2331,10 @@
 					'unfairnes',
 					'unfairnesss',
 				],
+				'unfaithfully'=>[
+					'unfaithfullly',
+					'unfaithfuly',
+				],
 				'unfaithfulness'=>[
 					'unfaithfulnes',
 					'unfaithfulnesss',
@@ -1822,6 +2368,14 @@
 					'unfeasable',
 					'unfesible',
 				],
+				'unfeeling'=>[
+					'unfeeeling',
+					'unfeling',
+				],
+				'unfeelingly'=>[
+					'unfeeelingly',
+					'unfelingly',
+				],
 				'unfeigned'=>[
 					'unfiegned',
 				],
@@ -1832,8 +2386,25 @@
 				'unfence'=>[
 					'unfance',
 				],
+				'unfetter'=>[
+					'unfeter',
+					'unfettter',
+				],
+				'unfettered'=>[
+					'unfetered',
+					'unfetttered',
+				],
+				'unfettering'=>[
+					'unfetering',
+					'unfetttering',
+				],
+				'unfetters'=>[
+					'unfeters',
+					'unfettters',
+				],
 				'unfilled'=>[
 					'unfiled',
+					'unfillled',
 				],
 				'unfinished'=>[
 					'unfinnished',
@@ -1843,21 +2414,47 @@
 					'unfitnes',
 					'unfitnesss',
 				],
+				'unfitted'=>[
+					'unfittted',
+				],
+				'unfitting'=>[
+					'unfittting',
+				],
+				'unfittingly'=>[
+					'unfitingly',
+					'unfitttingly',
+				],
 				'unflagging'=>[
 					'unflaging',
+					'unflaggging',
 				],
 				'unflaggingly'=>[
 					'unflagingly',
+					'unflagggingly',
 				],
 				'unflappability'=>[
 					'unflapability',
+					'unflapppability',
 				],
 				'unflappable'=>[
 					'unflapable',
 					'unflappible',
+					'unflapppable',
+				],
+				'unflappably'=>[
+					'unflapably',
+					'unflapppably',
 				],
 				'unflapped'=>[
 					'unflaped',
+				],
+				'unflattering'=>[
+					'unflatering',
+					'unflatttering',
+				],
+				'unflatteringly'=>[
+					'unflateringly',
+					'unflattteringly',
 				],
 				'unfledged'=>[
 					'unfleged',
@@ -1871,16 +2468,33 @@
 				'unforeseeable'=>[
 					'unforeseeble',
 					'unforeseeible',
+					'unforeseable',
+					'unforeseeeable',
 				],
 				'unforeseen'=>[
 					'unforseen',
+					'unforeseeen',
+					'unforesen',
+				],
+				'unforgettability'=>[
+					'unforgetability',
+					'unforgetttability',
 				],
 				'unforgettable'=>[
 					'unforgettible',
 					'unforgetable',
+					'unforgetttable',
+				],
+				'unforgettably'=>[
+					'unforgetably',
+					'unforgetttably',
 				],
 				'unforgivable'=>[
 					'unforgivible',
+				],
+				'unforgotten'=>[
+					'unforgoten',
+					'unforgottten',
 				],
 				'unfortified'=>[
 					'unfortifeid',
@@ -1892,6 +2506,22 @@
 					'unfortunatly',
 					'unfortuntely',
 					'unfortunally',
+				],
+				'unfree'=>[
+					'unfre',
+					'unfreee',
+				],
+				'unfreeze'=>[
+					'unfreeeze',
+					'unfreze',
+				],
+				'unfreezes'=>[
+					'unfreeezes',
+					'unfrezes',
+				],
+				'unfreezing'=>[
+					'unfreeezing',
+					'unfrezing',
 				],
 				'unfrequented'=>[
 					'unfrequanted',
@@ -1914,12 +2544,16 @@
 				],
 				'unfulfillable'=>[
 					'unfulfillible',
+					'unfulfilable',
+					'unfulfilllable',
 				],
 				'unfulfilled'=>[
 					'unfulfiled',
+					'unfulfillled',
 				],
 				'unfunny'=>[
 					'unfuny',
+					'unfunnny',
 				],
 				'unfussy'=>[
 					'unfuscy',
@@ -1969,8 +2603,16 @@
 					'ungodely',
 					'ungodlly',
 				],
+				'ungotten'=>[
+					'ungoten',
+					'ungottten',
+				],
 				'ungovernable'=>[
 					'ungovernible',
+				],
+				'ungracefully'=>[
+					'ungracefullly',
+					'ungracefuly',
 				],
 				'ungracious'=>[
 					'ungracous',
@@ -1988,9 +2630,21 @@
 				],
 				'ungrammatical'=>[
 					'ungramnatical',
+					'ungramatical',
+					'ungrammmatical',
+				],
+				'ungrammatically'=>[
+					'ungramatically',
+					'ungrammaticallly',
+					'ungrammaticaly',
+					'ungrammmatically',
 				],
 				'ungraspable'=>[
 					'ungraspible',
+				],
+				'ungratefully'=>[
+					'ungratefullly',
+					'ungratefuly',
 				],
 				'ungratefulness'=>[
 					'ungratefulnes',
@@ -2019,18 +2673,41 @@
 				'ungular'=>[
 					'unguler',
 				],
+				'unhallow'=>[
+					'unhalllow',
+					'unhalow',
+				],
+				'unhallowed'=>[
+					'unhalllowed',
+					'unhalowed',
+				],
 				'unhandsomely'=>[
 					'unhandsomly',
+				],
+				'unhappier'=>[
+					'unhapier',
+					'unhapppier',
+				],
+				'unhappiest'=>[
+					'unhapiest',
+					'unhapppiest',
+				],
+				'unhappily'=>[
+					'unhapily',
+					'unhapppily',
 				],
 				'unhappiness'=>[
 					'unhappines',
 					'unhappinesss',
+					'unhapiness',
+					'unhapppiness',
 				],
 				'unhappinesses'=>[
 					'unhapinesses',
 				],
 				'unhappy'=>[
 					'unhapy',
+					'unhapppy',
 				],
 				'unharness'=>[
 					'unharnes',
@@ -2067,6 +2744,28 @@
 				'unhedged'=>[
 					'unheged',
 				],
+				'unheeded'=>[
+					'unheded',
+					'unheeeded',
+				],
+				'unheedful'=>[
+					'unhedful',
+					'unheeedful',
+				],
+				'unheedfully'=>[
+					'unhedfully',
+					'unheedfullly',
+					'unheedfuly',
+					'unheeedfully',
+				],
+				'unhelpfully'=>[
+					'unhelpfullly',
+					'unhelpfuly',
+				],
+				'unhidden'=>[
+					'unhiddden',
+					'unhiden',
+				],
 				'unholiness'=>[
 					'unholines',
 					'unholinesss',
@@ -2081,6 +2780,22 @@
 			#	'unhonored'=>[
 			#		'unhonoured',
 			#	],
+				'unhook'=>[
+					'unhok',
+					'unhoook',
+				],
+				'unhooked'=>[
+					'unhoked',
+					'unhoooked',
+				],
+				'unhooking'=>[
+					'unhoking',
+					'unhoooking',
+				],
+				'unhooks'=>[
+					'unhoks',
+					'unhoooks',
+				],
 				'unhousing'=>[
 					'unhouisng',
 				],
@@ -2098,6 +2813,11 @@
 					'unhurreid',
 					'unhuried',
 					'unhurrid',
+					'unhurrried',
+				],
+				'unhurriedly'=>[
+					'unhuriedly',
+					'unhurrriedly',
 				],
 				'unhygienic'=>[
 					'unhygeinic',
@@ -2106,6 +2826,7 @@
 				'unicellular'=>[
 					'unicelluler',
 					'unicelular',
+					'unicelllular',
 				],
 				'unidentifiable'=>[
 					'unidantifiable',
@@ -2158,6 +2879,8 @@
 				],
 				'unilaterally'=>[
 					'unilatreally',
+					'unilaterallly',
+					'unilateraly',
 				],
 				'unilinear'=>[
 					'unilineer',
@@ -2171,6 +2894,10 @@
 				],
 				'unillusioned'=>[
 					'unilluisoned',
+				],
+				'unillustrated'=>[
+					'unilllustrated',
+					'unilustrated',
 				],
 				'unilocular'=>[
 					'uniloculer',
@@ -2238,31 +2965,86 @@
 				'uninitiated'=>[
 					'uninatiated',
 				],
+				'uninstall'=>[
+					'uninstal',
+					'uninstalll',
+				],
+				'uninstallable'=>[
+					'uninstalable',
+					'uninstalllable',
+				],
+				'uninstalled'=>[
+					'uninstaled',
+					'uninstallled',
+				],
+				'uninstaller'=>[
+					'uninstaler',
+					'uninstalller',
+				],
+				'uninstallers'=>[
+					'uninstalers',
+					'uninstalllers',
+				],
+				'uninstalling'=>[
+					'uninstaling',
+					'uninstallling',
+				],
+				'uninstalls'=>[
+					'uninstallls',
+					'uninstals',
+				],
 				'uninsurable'=>[
 					'uninsurible',
 				],
 				'unintellectual'=>[
 					'unintellectaul',
+					'unintelectual',
+					'unintelllectual',
+				],
+				'unintelligence'=>[
+					'uninteligence',
+					'unintellligence',
 				],
 				'unintelligent'=>[
 					'uninteligent',
 					'unintelligant',
+					'unintellligent',
 				],
 				'unintelligently'=>[
 					'unintelligentally',
 					'unintelligentaly',
 					'unintelligentely',
 					'unintelligentlly',
+					'uninteligently',
+					'unintellligently',
+				],
+				'unintelligibilities'=>[
+					'uninteligibilities',
+					'unintellligibilities',
+				],
+				'unintelligibility'=>[
+					'uninteligibility',
+					'unintellligibility',
 				],
 				'unintelligible'=>[
 					'uninteligible',
 					'unintelligable',
+					'unintellligible',
+				],
+				'unintelligibly'=>[
+					'uninteligibly',
+					'unintellligibly',
 				],
 				'unintentional'=>[
 					'unintantional',
 				],
+				'unintentionally'=>[
+					'unintentionallly',
+					'unintentionaly',
+				],
 				'uninterrupted'=>[
 					'uninterupted',
+					'uninterrrupted',
 				],
 				'uninterruptedly'=>[
 					'uninterruptedally',
@@ -2270,6 +3052,7 @@
 					'uninterruptedely',
 					'uninterruptedlly',
 					'uninteruptedly',
+					'uninterrruptedly',
 				],
 				'union'=>[
 					'un1on',
@@ -2338,6 +3121,7 @@
 				],
 				'universally'=>[
 					'universaly',
+					'universallly',
 				],
 				'universities'=>[
 					'univerisities',
@@ -2360,6 +3144,12 @@
 					'univesity',
 					'unversity',
 					'unviersity',
+				],
+				'unjammed'=>[
+					'unjammmed',
+				],
+				'unjamming'=>[
+					'unjammming',
 				],
 				'unjustifiable'=>[
 					'unjustifiible',
@@ -2386,8 +3176,12 @@
 					'unkemptneses',
 					'unkemptnessses',
 				],
+				'unkenned'=>[
+					'unkennned',
+				],
 				'unkennel'=>[
 					'unkenel',
+					'unkennnel',
 				],
 				'unkindliness'=>[
 					'unkindlines',
@@ -2415,9 +3209,11 @@
 				],
 				'unknotted'=>[
 					'unkotted',
+					'unknottted',
 				],
 				'unknotting'=>[
 					'unkotting',
+					'unknottting',
 				],
 				'unknowabilities'=>[
 					'unkowabilities',
@@ -2450,6 +3246,10 @@
 				'unknowns'=>[
 					'unkowns',
 				],
+				'unlawfully'=>[
+					'unlawfullly',
+					'unlawfuly',
+				],
 				'unlawfulness'=>[
 					'unlawfulnes',
 					'unlawfulnesss',
@@ -2470,8 +3270,16 @@
 				'unlethal'=>[
 					'unletal',
 				],
+				'unlettered'=>[
+					'unletered',
+					'unletttered',
+				],
 				'unlike'=>[
 					'ulike',
+				],
+				'unlikelihood'=>[
+					'unlikelihod',
+					'unlikelihoood',
 				],
 				'unlikeliness'=>[
 					'unlikelines',
@@ -2504,8 +3312,34 @@
 				'unlively'=>[
 					'unlivly',
 				],
+				'unloose'=>[
+					'unlooose',
+				],
+				'unloosed'=>[
+					'unlooosed',
+				],
+				'unloosen'=>[
+					'unlooosen',
+					'unlosen',
+				],
 				'unloosened'=>[
 					'unloosend',
+					'unlooosened',
+					'unlosened',
+				],
+				'unloosening'=>[
+					'unlooosening',
+					'unlosening',
+				],
+				'unloosens'=>[
+					'unlooosens',
+					'unlosens',
+				],
+				'unlooses'=>[
+					'unloooses',
+				],
+				'unloosing'=>[
+					'unlooosing',
 				],
 				'unlovable'=>[
 					'unlovible',
@@ -2633,11 +3467,13 @@
 					'umanned',
 					'unanned',
 					'unmaned',
+					'unmannned',
 				],
 				'unmannered'=>[
 					'umannered',
 					'unannered',
 					'unmanered',
+					'unmannnered',
 				],
 				'unmanneredly'=>[
 					'umanneredly',
@@ -2646,6 +3482,8 @@
 					'unmanneredaly',
 					'unmanneredely',
 					'unmanneredlly',
+					'unmaneredly',
+					'unmannneredly',
 				],
 				'unmannerliness'=>[
 					'umannerliness',
@@ -2660,10 +3498,12 @@
 					'unmanneraly',
 					'unmannerely',
 					'unmannerlly',
+					'unmannnerly',
 				],
 				'unmanning'=>[
 					'umanning',
 					'unanning',
+					'unmannning',
 				],
 				'unmannish'=>[
 					'umannish',
@@ -2677,6 +3517,7 @@
 					'umapped',
 					'unapped',
 					'unmaped',
+					'unmappped',
 				],
 				'unmarked'=>[
 					'umarked',
@@ -2691,6 +3532,11 @@
 					'umarred',
 					'unarred',
 					'unmared',
+					'unmarrred',
+				],
+				'unmarriageable'=>[
+					'unmariageable',
+					'unmarrriageable',
 				],
 				'unmarried'=>[
 					'unmarreid',
@@ -2698,6 +3544,7 @@
 					'unarried',
 					'unmaried',
 					'unmarrid',
+					'unmarrried',
 				],
 				'unmarrieds'=>[
 					'umarrieds',
@@ -2787,6 +3634,7 @@
 				'unmeet'=>[
 					'umeet',
 					'uneet',
+					'unmeeet',
 				],
 				'unmeetly'=>[
 					'umeetly',
@@ -2843,6 +3691,8 @@
 				'unmercifully'=>[
 					'umercifully',
 					'unercifully',
+					'unmercifullly',
+					'unmercifuly',
 				],
 				'unmercifulness'=>[
 					'unmercifulnes',
@@ -2908,6 +3758,8 @@
 				'unmilled'=>[
 					'umilled',
 					'unilled',
+					'unmiled',
+					'unmillled',
 				],
 				'unmindful'=>[
 					'umindful',
@@ -3071,6 +3923,8 @@
 				'unmoor'=>[
 					'umoor',
 					'unoor',
+					'unmooor',
+					'unmor',
 				],
 				'unmoored'=>[
 					'umoored',
@@ -3155,6 +4009,8 @@
 				'unmuffle'=>[
 					'umuffle',
 					'unuffle',
+					'unmufffle',
+					'unmufle',
 				],
 				'unmuffled'=>[
 					'umuffled',
@@ -3173,13 +4029,21 @@
 					'unmuiscal',
 					'unusical',
 				],
+				'unmusically'=>[
+					'unmusicallly',
+					'unmusicaly',
+				],
 				'unmuzzle'=>[
 					'umuzzle',
 					'unuzzle',
+					'unmuzle',
+					'unmuzzzle',
 				],
 				'unmuzzled'=>[
 					'umuzzled',
 					'unuzzled',
+					'unmuzled',
+					'unmuzzzled',
 				],
 				'unmuzzles'=>[
 					'umuzzles',
@@ -3200,22 +4064,40 @@
 				'unnameable'=>[
 					'unameable',
 					'unnameible',
+					'unnnameable',
 				],
 				'unnamed'=>[
 					'unnammed',
 					'unamed',
+					'unnnamed',
 				],
 				'unnatural'=>[
 					'un-natural',
 					'unatural',
+					'unnnatural',
+				],
+				'unnaturalized'=>[
+					'unaturalized',
+					'unnnaturalized',
+				],
+				'unnaturally'=>[
+					'unaturally',
+					'unnaturallly',
+					'unnaturaly',
+					'unnnaturally',
 				],
 				'unnaturalness'=>[
 					'unaturalness',
 					'unnaturalnes',
 					'unnaturalnesss',
+					'unnnaturalness',
 				],
 				'unnaturalnesses'=>[
 					'unaturalnesses',
+				],
+				'unnavigable'=>[
+					'unavigable',
+					'unnnavigable',
 				],
 				'unnecessarily'=>[
 					'unneccesarily',
@@ -3223,6 +4105,7 @@
 					'unnecesarily',
 					'unecessarily',
 					'unnecesssarily',
+					'unnnecessarily',
 				],
 				'unnecessary'=>[
 					'un-necessary',
@@ -3233,21 +4116,54 @@
 					'unnessary',
 					'unnecessery',
 					'unnecesssary',
+					'unnnecessary',
 				],
 				'unneeded'=>[
 					'uneeded',
+					'unneded',
+					'unneeeded',
+					'unnneeded',
+				],
+				'unnegotiable'=>[
+					'unegotiable',
+					'unnnegotiable',
+				],
+				'unneighborly'=>[
+					'uneighborly',
+					'unnneighborly',
 				],
 				'unnerve'=>[
 					'unerve',
+					'unnnerve',
+				],
+				'unnerved'=>[
+					'unerved',
+					'unnnerved',
+				],
+				'unnerves'=>[
+					'unerves',
+					'unnnerves',
 				],
 				'unnerving'=>[
 					'un-nerving',
+					'unerving',
+					'unnnerving',
+				],
+				'unnervingly'=>[
+					'unervingly',
+					'unnnervingly',
+				],
+				'unnewsworthy'=>[
+					'unewsworthy',
+					'unnnewsworthy',
 				],
 				'unnilhexium'=>[
 					'unilhexium',
+					'unnnilhexium',
 				],
 				'unnilpentium'=>[
 					'unilpentium',
+					'unnnilpentium',
 				],
 				'unnilpentiums'=>[
 					'unilpentiums',
@@ -3255,6 +4171,7 @@
 				'unnilquadium'=>[
 					'unilquadium',
 					'unnilqaudium',
+					'unnnilquadium',
 				],
 				'unnilquadiums'=>[
 					'unilquadiums',
@@ -3266,12 +4183,19 @@
 					'unoticeable',
 					'unnoticeble',
 					'unnoticeible',
+					'unnnoticeable',
+				],
+				'unnoticeably'=>[
+					'unnnoticeably',
+					'unoticeably',
 				],
 				'unnoticed'=>[
 					'unoticed',
+					'unnnoticed',
 				],
 				'unnumbered'=>[
 					'unumbered',
+					'unnnumbered',
 				],
 				'unobjectionable'=>[
 					'unobjectionible',
@@ -3299,13 +4223,39 @@
 					'unoccupeid',
 					'unoccupid',
 					'unocupied',
+					'unocccupied',
+				],
+				'unoffended'=>[
+					'unofended',
+					'unofffended',
+				],
+				'unoffending'=>[
+					'unofending',
+					'unofffending',
+				],
+				'unoffensive'=>[
+					'unofensive',
+					'unofffensive',
+				],
+				'unoffensively'=>[
+					'unofensively',
+					'unofffensively',
+				],
+				'unoffered'=>[
+					'unofered',
+					'unofffered',
 				],
 				'unofficial'=>[
 					'un-official',
 					'unoffical',
+					'unoffficial',
+					'unoficial',
 				],
 				'unofficially'=>[
 					'unofficialy',
+					'unoffficially',
+					'unofficiallly',
+					'unoficially',
 				],
 				'unopened'=>[
 					'unopend',
@@ -3313,6 +4263,7 @@
 				'unopposed'=>[
 					'unoposed',
 					'unapposed',
+					'unoppposed',
 				],
 				'unoprostone'=>[
 					'unoprostane',
@@ -3360,6 +4311,7 @@
 				'unparalleled'=>[
 					'unparaleled',
 					'unperalleled',
+					'unparallleled',
 				],
 				'unparasitized'=>[
 					'unperasitized',
@@ -3379,6 +4331,10 @@
 				'unpedantic'=>[
 					'unpedentic',
 				],
+				'unpeeled'=>[
+					'unpeeeled',
+					'unpeled',
+				],
 				'unpegged'=>[
 					'unpeged',
 				],
@@ -3397,8 +4353,15 @@
 				'unphosphorylated'=>[
 					'unphosphoryated',
 				],
+				'unpinned'=>[
+					'unpinnned',
+				],
+				'unpinning'=>[
+					'unpinnning',
+				],
 				'unplanned'=>[
 					'unplaned',
+					'unplannned',
 				],
 				'unplausible'=>[
 					'unplauisble',
@@ -3422,12 +4385,18 @@
 				],
 				'unplugged'=>[
 					'unpluged',
+					'unpluggged',
 				],
 				'unplugging'=>[
 					'unpluging',
+					'unpluggging',
+				],
+				'unpolled'=>[
+					'unpollled',
 				],
 				'unpolluted'=>[
 					'unpoluted',
+					'unpollluted',
 				],
 				'unpopular'=>[
 					'unpopuler',
@@ -3484,6 +4453,10 @@
 					'unpretentiousneses',
 					'unpretentiousnessses',
 				],
+				'unpretty'=>[
+					'unprettty',
+					'unprety',
+				],
 				'unprintable'=>[
 					'unprintible',
 				],
@@ -3502,6 +4475,8 @@
 				'unprofessionally'=>[
 					'unprofesionally',
 					'unprofesssionally',
+					'unprofessionallly',
+					'unprofessionaly',
 				],
 				'unprofitable'=>[
 					'unprofitible',
@@ -3515,6 +4490,9 @@
 				'unprogrammable'=>[
 					'unprogrammible',
 					'unprogramnable',
+				],
+				'unprogrammed'=>[
+					'unprogrammmed',
 				],
 				'unprogressive'=>[
 					'unprogresive',
@@ -3584,6 +4562,12 @@
 				'unquoting'=>[
 					'unqoting',
 				],
+				'unravelled'=>[
+					'unravellled',
+				],
+				'unravelling'=>[
+					'unravellling',
+				],
 				'unreachable'=>[
 					'unreachible',
 					'unrechable',
@@ -3601,6 +4585,10 @@
 				],
 				'unrealistic'=>[
 					'unrelistic',
+				],
+				'unrealistically'=>[
+					'unrealisticallly',
+					'unrealisticaly',
 				],
 				'unreality'=>[
 					'unrelity',
@@ -3636,6 +4624,10 @@
 				'unrecognizable'=>[
 					'unrecognizible',
 				],
+				'unrecommended'=>[
+					'unrecomended',
+					'unrecommmended',
+				],
 				'unreconcilable'=>[
 					'unreconcilible',
 				],
@@ -3644,9 +4636,34 @@
 				],
 				'unredeemable'=>[
 					'unredeemible',
+					'unredeeemable',
+					'unredemable',
+				],
+				'unredeemed'=>[
+					'unredeeemed',
+					'unredemed',
 				],
 				'unredressed'=>[
 					'unredresed',
+				],
+				'unreel'=>[
+					'unreeel',
+				],
+				'unreeled'=>[
+					'unreeeled',
+					'unreled',
+				],
+				'unreeling'=>[
+					'unreeeling',
+					'unreling',
+				],
+				'unreels'=>[
+					'unreeels',
+					'unrels',
+				],
+				'unreeve'=>[
+					'unreeeve',
+					'unreve',
 				],
 				'unreferenced'=>[
 					'unrefereced',
@@ -3688,6 +4705,14 @@
 				'unreminiscent'=>[
 					'unreminascent',
 				],
+				'unremitting'=>[
+					'unremiting',
+					'unremittting',
+				],
+				'unremittingly'=>[
+					'unremitingly',
+					'unremitttingly',
+				],
 				'unremovable'=>[
 					'unremovible',
 				],
@@ -3716,6 +4741,10 @@
 					'unrequitednes',
 					'unrequitednesss',
 				],
+				'unresentfully'=>[
+					'unresentfullly',
+					'unresentfuly',
+				],
 				'unresolvable'=>[
 					'unresolvible',
 				],
@@ -3738,6 +4767,10 @@
 				],
 				'unrevolutionary'=>[
 					'unrevolutionery',
+				],
+				'unriddle'=>[
+					'unridddle',
+					'unridle',
 				],
 				'unrigged'=>[
 					'unriged',
@@ -3762,11 +4795,43 @@
 					'unripenes',
 					'unripenesss',
 				],
+				'unrivalled'=>[
+					'unrivallled',
+				],
 				'unroll'=>[
 					'unrol',
+					'unrolll',
+				],
+				'unrolled'=>[
+					'unroled',
+					'unrollled',
+				],
+				'unrolling'=>[
+					'unroling',
+					'unrollling',
+				],
+				'unrolls'=>[
+					'unrollls',
+					'unrols',
 				],
 				'unromantic'=>[
 					'unromentic',
+				],
+				'unromantically'=>[
+					'unromanticallly',
+					'unromanticaly',
+				],
+				'unroof'=>[
+					'unrof',
+					'unrooof',
+				],
+				'unroot'=>[
+					'unrooot',
+					'unrot',
+				],
+				'unruffled'=>[
+					'unrufffled',
+					'unrufled',
 				],
 				'unruliness'=>[
 					'unrulines',
@@ -3777,6 +4842,22 @@
 					'unrualy',
 					'unruely',
 					'unrully',
+				],
+				'unsaddle'=>[
+					'unsadddle',
+					'unsadle',
+				],
+				'unsaddled'=>[
+					'unsadddled',
+					'unsadled',
+				],
+				'unsaddles'=>[
+					'unsadddles',
+					'unsadles',
+				],
+				'unsaddling'=>[
+					'unsadddling',
+					'unsadling',
 				],
 				'unsafely'=>[
 					'unsafly',
@@ -3825,6 +4906,7 @@
 				],
 				'unscarred'=>[
 					'unscared',
+					'unscarrred',
 				],
 				'unscathed'=>[
 					'uncathed',
@@ -3854,6 +4936,8 @@
 					'unchooled',
 					'uncshooled',
 					'unshooled',
+					'unscholed',
+					'unschoooled',
 				],
 				'unscientific'=>[
 					'unsceintific',
@@ -3862,6 +4946,10 @@
 					'unsciantific',
 					'unscintific',
 					'unsientific',
+				],
+				'unscientifically'=>[
+					'unscientificallly',
+					'unscientificaly',
 				],
 				'unscramble'=>[
 					'uncramble',
@@ -3873,6 +4961,8 @@
 					'uncsreened',
 					'unscreend',
 					'unsreened',
+					'unscreeened',
+					'unscrened',
 				],
 				'unscrew'=>[
 					'uncrew',
@@ -3937,18 +5027,43 @@
 				'unseeable'=>[
 					'unseeible',
 				],
+				'unseeded'=>[
+					'unseded',
+					'unseeeded',
+				],
 				'unseeing'=>[
 					'unseieng',
+					'unseeeing',
+				],
+				'unseeingly'=>[
+					'unseeeingly',
+					'unseingly',
+				],
+				'unseemlier'=>[
+					'unseeemlier',
+					'unsemlier',
+				],
+				'unseemliest'=>[
+					'unseeemliest',
+					'unsemliest',
 				],
 				'unseemliness'=>[
 					'unseemlines',
 					'unseemlinesss',
+					'unseeemliness',
+					'unsemliness',
 				],
 				'unseemly'=>[
 					'unseemally',
 					'unseemaly',
 					'unseemely',
 					'unseemlly',
+					'unseeemly',
+					'unsemly',
+				],
+				'unseen'=>[
+					'unseeen',
+					'unsen',
 				],
 				'unselectively'=>[
 					'unselectivly',
@@ -3964,6 +5079,10 @@
 				'unselfishness'=>[
 					'unselfishnes',
 					'unselfishnesss',
+				],
+				'unsellable'=>[
+					'unselable',
+					'unselllable',
 				],
 				'unsentimental'=>[
 					'unsentimantal',
@@ -3981,6 +5100,26 @@
 					'unserviceble',
 					'unserviceible',
 				],
+				'unsettle'=>[
+					'unsetle',
+					'unsetttle',
+				],
+				'unsettled'=>[
+					'unsetled',
+					'unsetttled',
+				],
+				'unsettles'=>[
+					'unsetles',
+					'unsetttles',
+				],
+				'unsettling'=>[
+					'unsetling',
+					'unsetttling',
+				],
+				'unsettlingly'=>[
+					'unsetlingly',
+					'unsetttlingly',
+				],
 				'unshakable'=>[
 					'unshakible',
 				],
@@ -3996,6 +5135,10 @@
 					'unshapeely',
 					'unshapelly',
 					'unshaply',
+				],
+				'unshelled'=>[
+					'unsheled',
+					'unshellled',
 				],
 				'unsightliness'=>[
 					'unsightlines',
@@ -4018,12 +5161,27 @@
 				],
 				'unskilled'=>[
 					'unskiled',
+					'unskillled',
+				],
+				'unskillful'=>[
+					'unskilllful',
+				],
+				'unskillfully'=>[
+					'unskillfullly',
+					'unskillfuly',
+					'unskilllfully',
 				],
 				'unskippable'=>[
 					'unskipable',
 				],
 				'unsnagging'=>[
 					'unsnaging',
+				],
+				'unsnapped'=>[
+					'unsnappped',
+				],
+				'unsnapping'=>[
+					'unsnappping',
 				],
 				'unsociable'=>[
 					'unsociible',
@@ -4033,6 +5191,10 @@
 					'unsociabaly',
 					'unsociabely',
 					'unsociablly',
+				],
+				'unsocially'=>[
+					'unsociallly',
+					'unsocialy',
 				],
 				'unsoldierly'=>[
 					'unsoldeirly',
@@ -4087,6 +5249,9 @@
 			#	'unspoiled'=>[
 			#		'unspoilt',
 			#	],
+				'unspotted'=>[
+					'unspottted',
+				],
 				'unstable'=>[
 					'unstible',
 				],
@@ -4108,18 +5273,40 @@
 				'unsteady'=>[
 					'unstedy',
 				],
+				'unsteel'=>[
+					'unsteeel',
+					'unstel',
+				],
+				'unstirred'=>[
+					'unstirrred',
+				],
 				'unstoppable'=>[
 					'unstopable',
 					'unstoppible',
+					'unstopppable',
+				],
+				'unstoppably'=>[
+					'unstopably',
+					'unstopppably',
 				],
 				'unstopped'=>[
 					'unstoped',
+					'unstoppped',
 				],
 				'unstopper'=>[
 					'unstoper',
 				],
+				'unstopping'=>[
+					'unstoppping',
+				],
 				'unstrained'=>[
 					'unstrainid',
+				],
+				'unstrapped'=>[
+					'unstrappped',
+				],
+				'unstrapping'=>[
+					'unstrappping',
 				],
 				'unstratified'=>[
 					'unstratifeid',
@@ -4144,6 +5331,7 @@
 					'unsucess',
 					'unsucces',
 					'unsuccesss',
+					'unsucccess',
 				],
 				'unsuccessful'=>[
 					'unsuccesful',
@@ -4152,6 +5340,7 @@
 					'unsucessfull',
 					'unsucessful',
 					'unsuccesssful',
+					'unsucccessful',
 				],
 				'unsuccessfully'=>[
 					'unsuccesfully',
@@ -4162,6 +5351,8 @@
 					'unsuccessfulely',
 					'unsuccessfullly',
 					'unsuccesssfully',
+					'unsucccessfully',
+					'unsuccessfuly',
 				],
 				'unsuitable'=>[
 					'unsuitible',
@@ -4173,17 +5364,23 @@
 				'unsullied'=>[
 					'unsulleid',
 					'unsullid',
+					'unsulied',
+					'unsulllied',
 				],
 				'unsupportable'=>[
 					'unsuportable',
 					'unsupportible',
+					'unsuppportable',
 				],
 				'unsupported'=>[
 					'unsuported',
+					'unsuppported',
 				],
 				'unsuppressed'=>[
 					'unsuppresed',
 					'unsuppresssed',
+					'unsupppressed',
+					'unsupressed',
 				],
 				'unsurely'=>[
 					'unsurly',
@@ -4233,9 +5430,13 @@
 				],
 				'unsweetened'=>[
 					'unsweetend',
+					'unsweeetened',
+					'unswetened',
 				],
 				'unsymmetrical'=>[
 					'unsymnetrical',
+					'unsymetrical',
+					'unsymmmetrical',
 				],
 				'unsymmetrically'=>[
 					'unsymmetricalally',
@@ -4244,14 +5445,29 @@
 					'unsymmetricallly',
 					'unsymnetrically',
 				],
+				'unsympathetically'=>[
+					'unsympatheticallly',
+					'unsympatheticaly',
+				],
+				'unsystematically'=>[
+					'unsystematicallly',
+					'unsystematicaly',
+				],
+				'untactfully'=>[
+					'untactfullly',
+					'untactfuly',
+				],
 				'untagged'=>[
 					'untaged',
+					'untaggged',
 				],
 				'untanned'=>[
 					'untaned',
+					'untannned',
 				],
 				'untapped'=>[
 					'untaped',
+					'untappped',
 				],
 				'unteachable'=>[
 					'unteachible',
@@ -4281,6 +5497,9 @@
 					'untill',
 					'uptill',
 				],
+				'untilled'=>[
+					'untillled',
+				],
 				'untimeliness'=>[
 					'untimelines',
 					'untimelinesss',
@@ -4309,10 +5528,15 @@
 				],
 				'untrammeled'=>[
 					'untramneled',
+					'untrameled',
+					'untrammmeled',
 				],
 				'untranslatable'=>[
 					'untranslateable',
 					'untranslatible',
+				],
+				'untravelled'=>[
+					'untravellled',
 				],
 				'untreated'=>[
 					'untreted',
@@ -4323,10 +5547,19 @@
 				],
 				'untrimmed'=>[
 					'untrimned',
+					'untrimmmed',
+				],
+				'untrodden'=>[
+					'untroddden',
+					'untroden',
 				],
 				'untrustworthiness'=>[
 					'untrustworthines',
 					'untrustworthinesss',
+				],
+				'untruthfully'=>[
+					'untruthfullly',
+					'untruthfuly',
 				],
 				'untruthfulness'=>[
 					'untruthfulnes',
@@ -4334,6 +5567,10 @@
 				],
 				'untunable'=>[
 					'untunible',
+				],
+				'untypically'=>[
+					'untypicallly',
+					'untypicaly',
 				],
 				'unusable'=>[
 					'unuseable',
@@ -4346,9 +5583,20 @@
 				'unusually'=>[
 					'unusally',
 					'unusualy',
+					'unusuallly',
 				],
 				'unutterable'=>[
 					'unutterible',
+					'unuterable',
+					'unuttterable',
+				],
+				'unutterably'=>[
+					'unuterably',
+					'unuttterably',
+				],
+				'unuttered'=>[
+					'unutered',
+					'unutttered',
 				],
 				'unvaccinated'=>[
 					'unvaccinited',
@@ -4381,10 +5629,16 @@
 					'unwarantable',
 					'unwarrantible',
 					'unwarrentable',
+					'unwarrrantable',
+				],
+				'unwarrantably'=>[
+					'unwarantably',
+					'unwarrrantably',
 				],
 				'unwarranted'=>[
 					'unwaranted',
 					'unwarrented',
+					'unwarrranted',
 				],
 				'unwary'=>[
 					'unwery',
@@ -4406,6 +5660,7 @@
 				],
 				'unwell'=>[
 					'unwel',
+					'unwelll',
 				],
 				'unwhipped'=>[
 					'unwhiped',
@@ -4430,12 +5685,23 @@
 				'unwifely'=>[
 					'unwifly',
 				],
+				'unwilled'=>[
+					'unwiled',
+					'unwillled',
+				],
 				'unwilling'=>[
 					'unwiling',
+					'unwillling',
+				],
+				'unwillingly'=>[
+					'unwilingly',
+					'unwilllingly',
 				],
 				'unwillingness'=>[
 					'unwillingnes',
 					'unwillingnesss',
+					'unwilingness',
+					'unwilllingness',
 				],
 				'unwinnable'=>[
 					'unwinable',
@@ -4448,9 +5714,18 @@
 					'unwitnesed',
 					'unwitnesssed',
 				],
+				'unwitting'=>[
+					'unwittting',
+				],
+				'unwittingly'=>[
+					'unwitingly',
+					'unwitttingly',
+				],
 				'unwittingness'=>[
 					'unwittingnes',
 					'unwittingnesss',
+					'unwitingness',
+					'unwitttingness',
 				],
 				'unwomanly'=>[
 					'unwomanally',
@@ -4484,14 +5759,31 @@
 					'unworreid',
 					'unworied',
 					'unworrid',
+					'unworrried',
 				],
 				'unworthiness'=>[
 					'unworthines',
 					'unworthinesss',
 				],
+				'unwrapped'=>[
+					'unwrappped',
+				],
+				'unwrapping'=>[
+					'unwrappping',
+				],
+				'unwritten'=>[
+					'unwriten',
+					'unwrittten',
+				],
 				'unyielding'=>[
 					'unyeilding',
 					'unyilding',
+				],
+				'unzipped'=>[
+					'unzippped',
+				],
+				'unzipping'=>[
+					'unzippping',
 				],
 				'up'=>[
 					'up up',
@@ -4533,9 +5825,18 @@
 				],
 				'uphill'=>[
 					'uphil',
+					'uphilll',
+				],
+				'uphills'=>[
+					'uphillls',
+					'uphils',
 				],
 				'upholstery'=>[
 					'upholstary',
+				],
+				'upkeep'=>[
+					'upkeeep',
+					'upkep',
 				],
 				'upon'=>[
 					'apon',
@@ -4546,6 +5847,7 @@
 				],
 				'upped'=>[
 					'uped',
+					'uppped',
 				],
 				'upper'=>[
 					'uppper',
@@ -4553,45 +5855,81 @@
 				],
 				'uppercase'=>[
 					'upercase',
+					'upppercase',
 				],
 				'upperclassman'=>[
 					'uperclassman',
 					'upperclasman',
 					'upperclasssman',
+					'uppperclassman',
 				],
 				'upperclassmen'=>[
 					'uperclassmen',
 					'upperclasmen',
 					'upperclasssmen',
+					'uppperclassmen',
 				],
 				'upperclasswoman'=>[
 					'upperclassswoman',
 					'upperclaswoman',
+					'uperclasswoman',
+					'uppperclasswoman',
 				],
 				'upperclasswomen'=>[
 					'upperclassswomen',
 					'upperclaswomen',
+					'uperclasswomen',
+					'uppperclasswomen',
 				],
 				'uppercut'=>[
 					'upercut',
+					'upppercut',
+				],
+				'uppercuts'=>[
+					'upercuts',
+					'upppercuts',
+				],
+				'uppercutting'=>[
+					'upercutting',
+					'uppercuttting',
+					'upppercutting',
 				],
 				'uppermost'=>[
 					'upmost',
 					'upermost',
+					'upppermost',
+				],
+				'uppers'=>[
+					'upers',
+					'upppers',
+				],
+				'upping'=>[
+					'uping',
+					'uppping',
 				],
 				'uppish'=>[
 					'upish',
+					'upppish',
+				],
+				'uppishly'=>[
+					'upishly',
+					'upppishly',
 				],
 				'uppishness'=>[
 					'uppishnes',
 					'uppishnesss',
+					'upishness',
+					'upppishness',
 				],
 				'uppishnesses'=>[
 					'uppishneses',
 					'uppishnessses',
+					'upishnesses',
+					'upppishnesses',
 				],
 				'uppity'=>[
 					'upity',
+					'upppity',
 				],
 				'uprear'=>[
 					'upreer',
@@ -4616,9 +5954,27 @@
 					'uproariousnes',
 					'uproariousnesss',
 				],
+				'uproot'=>[
+					'uprooot',
+					'uprot',
+				],
+				'uprooted'=>[
+					'uproooted',
+					'uproted',
+				],
 				'uprootedness'=>[
 					'uprootednes',
 					'uprootednesss',
+					'uproootedness',
+					'uprotedness',
+				],
+				'uprooting'=>[
+					'uproooting',
+					'uproting',
+				],
+				'uproots'=>[
+					'uprooots',
+					'uprots',
 				],
 				'uprousing'=>[
 					'uprouisng',
@@ -4634,14 +5990,33 @@
 				'upset'=>[
 					'upsetted',
 				],
+				'upsetting'=>[
+					'upsettting',
+				],
 				'upsoar'=>[
 					'upsoer',
 				],
 				'upstream'=>[
 					'upstrem',
 				],
+				'upsweep'=>[
+					'upsweeep',
+					'upswep',
+				],
+				'upswell'=>[
+					'upswel',
+					'upswelll',
+				],
 				'uptear'=>[
 					'upteer',
+				],
+				'upwell'=>[
+					'upwel',
+					'upwelll',
+				],
+				'upwelling'=>[
+					'upweling',
+					'upwellling',
 				],
 				'uraei'=>[
 					'uraie',
@@ -4815,6 +6190,7 @@
 				],
 				'usefully'=>[
 					'usefuly',
+					'usefullly',
 				],
 				'usefulness'=>[
 					'usefullness',
@@ -4839,6 +6215,14 @@
 				'userboxen'=>[
 					'userboxev',
 				],
+				'usherette'=>[
+					'usherete',
+					'usherettte',
+				],
+				'usherettes'=>[
+					'usheretes',
+					'usheretttes',
+				],
 				'using'=>[
 					'useing',
 				],
@@ -4855,6 +6239,7 @@
 					'usualy',
 					'usully',
 					'ususally',
+					'usuallly',
 				],
 				'usualness'=>[
 					'usualnes',
@@ -4913,14 +6298,49 @@
 				'utricular'=>[
 					'utriculer',
 				],
+				'utter'=>[
+					'uttter',
+				],
+				'utterable'=>[
+					'uterable',
+					'uttterable',
+				],
 				'utterance'=>[
 					'utterence',
+					'uterance',
+					'uttterance',
+				],
+				'utterances'=>[
+					'uterances',
+					'uttterances',
+				],
+				'uttered'=>[
+					'utered',
+					'utttered',
+				],
+				'utterer'=>[
+					'uterer',
+					'uttterer',
+				],
+				'uttering'=>[
+					'utering',
+					'utttering',
 				],
 				'utterly'=>[
 					'utterally',
 					'utteraly',
 					'utterely',
 					'utterlly',
+					'uterly',
+					'uttterly',
+				],
+				'uttermost'=>[
+					'utermost',
+					'utttermost',
+				],
+				'utters'=>[
+					'uters',
+					'uttters',
 				],
 				'uvea'=>[
 					'uve',

@@ -61,6 +61,14 @@
 				'icebreaker'=>[
 					'icebreker',
 				],
+				'icefall'=>[
+					'icefal',
+					'icefalll',
+				],
+				'icefalls'=>[
+					'icefallls',
+					'icefals',
+				],
 				'icelandic-occupied'=>[
 					'icelandic occupied',
 				],
@@ -95,8 +103,16 @@
 				'icodextrin'=>[
 					'icodextran',
 				],
+				'iconically'=>[
+					'iconicallly',
+					'iconicaly',
+				],
 				'iconoclastic'=>[
 					'iconclastic',
+				],
+				'iconoclastically'=>[
+					'iconoclasticallly',
+					'iconoclasticaly',
 				],
 				'icosahedra'=>[
 					'icosaedra',
@@ -138,6 +154,7 @@
 					'idealisticalely',
 					'idealisticallly',
 					'idelistically',
+					'idealisticaly',
 				],
 				'ideally'=>[
 					'idealally',
@@ -165,6 +182,7 @@
 				'identically'=>[
 					'idantically',
 					'identicaly',
+					'identicallly',
 				],
 				'identicalness'=>[
 					'idanticalness',
@@ -230,12 +248,24 @@
 				],
 				'ideogrammatic'=>[
 					'ideogramnatic',
+					'ideogramatic',
+					'ideogrammmatic',
+				],
+				'ideogrammatically'=>[
+					'ideogramatically',
+					'ideogrammaticallly',
+					'ideogrammaticaly',
+					'ideogrammmatically',
 				],
 				'ideogrammic'=>[
 					'ideogramnic',
 				],
 				'ideographically'=>[
 					'ideographicaly',
+				],
+				'ideologically'=>[
+					'ideologicallly',
+					'ideologicaly',
 				],
 				'ideologies'=>[
 					'idealogies',
@@ -269,6 +299,10 @@
 				'idiolectic'=>[
 					'ideolectic',
 				],
+				'idiomatically'=>[
+					'idiomaticallly',
+					'idiomaticaly',
+				],
 				'idiomorphic'=>[
 					'idiomourphic',
 				],
@@ -279,8 +313,15 @@
 					'ideosyncratic',
 					'idyosincratic',
 				],
+				'idiosyncratically'=>[
+					'idiosyncraticallly',
+					'idiosyncraticaly',
+				],
 				'idiosyncraticity'=>[
 					'idiosyncracity',
+				],
+				'idiotically'=>[
+					'idioticallly',
 				],
 				'idioventricular'=>[
 					'ideoventricular',
@@ -310,8 +351,24 @@
 			#	'idyll'=>[
 			#		'idyl',
 			#	],
+				'idyll'=>[
+					'idylll',
+				],
 				'idyllic'=>[
 					'idylic',
+					'idylllic',
+				],
+				'idyllically'=>[
+					'idylically',
+					'idyllicallly',
+					'idyllicaly',
+					'idylllically',
+				],
+				'idyllist'=>[
+					'idylllist',
+				],
+				'idylls'=>[
+					'idyllls',
 				],
 				'if'=>[
 					'if if',
@@ -320,9 +377,22 @@
 				'if he were'=>[
 					'if he was',
 				],
+				'iffier'=>[
+					'ifffier',
+					'ifier',
+				],
+				'iffiest'=>[
+					'ifffiest',
+					'ifiest',
+				],
 				'iffiness'=>[
 					'iffines',
 					'iffinesss',
+					'ifffiness',
+					'ifiness',
+				],
+				'iffy'=>[
+					'ifffy',
 				],
 				'igged'=>[
 					'iged',
@@ -334,6 +404,13 @@
 			#	'ignitible'=>[
 			#		'ignitable',
 			#	],
+				'igloo'=>[
+					'iglooo',
+				],
+				'igloos'=>[
+					'iglooos',
+					'iglos',
+				],
 				'ignobleness'=>[
 					'ignoblenes',
 					'ignoblenesss',
@@ -424,6 +501,10 @@
 				'iguanodon'=>[
 					'igaunodon',
 				],
+				'ikonically'=>[
+					'ikonicallly',
+					'ikonicaly',
+				],
 				'ilea'=>[
 					'ilae',
 				],
@@ -443,8 +524,27 @@
 				'iliopsoas'=>[
 					'ileopsoas',
 				],
+				'ill'=>[
+					'illl',
+				],
+				'illation'=>[
+					'ilation',
+					'illlation',
+				],
+				'illations'=>[
+					'ilations',
+					'illlations',
+				],
+				'illative'=>[
+					'ilative',
+					'illlative',
+				],
 				'illatively'=>[
 					'illativly',
+				],
+				'illaudable'=>[
+					'ilaudable',
+					'illlaudable',
 				],
 				'illaudably'=>[
 					'illaudabally',
@@ -455,38 +555,95 @@
 				'illegal'=>[
 					'ilegal',
 					'illeagle',
+					'illlegal',
+				],
+				'illegalities'=>[
+					'ilegalities',
+					'illlegalities',
 				],
 				'illegality'=>[
 					'ilegality',
+					'illlegality',
 				],
 				'illegalizations'=>[
 					'ilegalizations',
+				],
+				'illegalize'=>[
+					'ilegalize',
+					'illlegalize',
+				],
+				'illegalized'=>[
+					'ilegalized',
+					'illlegalized',
+				],
+				'illegalizes'=>[
+					'ilegalizes',
+					'illlegalizes',
+				],
+				'illegalizing'=>[
+					'ilegalizing',
+					'illlegalizing',
 				],
 				'illegally'=>[
 					'ilegally',
 					'ilegaly',
 					'illegaly',
+					'illegallly',
+					'illlegally',
+				],
+				'illegals'=>[
+					'ilegals',
+					'illlegals',
+				],
+				'illegibility'=>[
+					'ilegibility',
+					'illlegibility',
 				],
 				'illegible'=>[
 					'ilegible',
 					'illegable',
+					'illlegible',
+				],
+				'illegibly'=>[
+					'ilegibly',
+					'illlegibly',
 				],
 				'illegitimacy'=>[
 					'ilegitimacy',
 					'illegimacy',
 					'illegitimasy',
+					'illlegitimacy',
 				],
 				'illegitimate'=>[
 					'ilegitimate',
 					'illegimate',
 					'illegitmate',
+					'illlegitimate',
 				],
 				'illegitimately'=>[
 					'illegitimatly',
+					'ilegitimately',
+					'illlegitimately',
+				],
+				'illiberal'=>[
+					'iliberal',
+					'illliberal',
+				],
+				'illiberality'=>[
+					'iliberality',
+					'illliberality',
+				],
+				'illiberally'=>[
+					'iliberally',
+					'illiberallly',
+					'illiberaly',
+					'illliberally',
 				],
 				'illiberalness'=>[
 					'illiberalnes',
 					'illiberalnesss',
+					'iliberalness',
+					'illliberalness',
 				],
 				'illiberalnesses'=>[
 					'iliberalnesses',
@@ -494,132 +651,261 @@
 				'illicit'=>[
 					'ilicit',
 					'illict',
+					'illlicit',
+				],
+				'illicitly'=>[
+					'ilicitly',
+					'illlicitly',
 				],
 				'illicitness'=>[
 					'illicitnes',
 					'illicitnesss',
+					'ilicitness',
+					'illlicitness',
 				],
 				'illimitable'=>[
 					'ilimitable',
 					'illimitible',
+					'illlimitable',
 				],
 				'illimitableness'=>[
 					'ilimitableness',
 				],
+				'illimitably'=>[
+					'ilimitably',
+					'illlimitably',
+				],
 				'illinium'=>[
 					'illinaum',
+					'ilinium',
+					'illlinium',
 				],
 				'illinois'=>[
 					'illionis',
 				],
 				'illiquid'=>[
 					'iliquid',
+					'illliquid',
 				],
 				'illiteracy'=>[
 					'iliteracy',
 					'illiterasy',
+					'illliteracy',
 				],
 				'illiterate'=>[
 					'iliterate',
+					'illliterate',
 				],
 				'illiterately'=>[
 					'illiteratly',
+					'iliterately',
+					'illliterately',
 				],
 				'illiterateness'=>[
 					'illiteratenes',
 					'illiteratenesss',
+					'iliterateness',
+					'illliterateness',
+				],
+				'illiterates'=>[
+					'iliterates',
+					'illliterates',
 				],
 				'illness'=>[
 					'illnes',
 					'ilness',
 					'illnesss',
+					'illlness',
 				],
 				'illnesses'=>[
 					'illneses',
 					'illnessses',
+					'illlnesses',
+					'ilnesses',
+				],
+				'illocution'=>[
+					'illlocution',
+					'ilocution',
 				],
 				'illocutionary'=>[
 					'illocutionery',
+					'illlocutionary',
+					'ilocutionary',
+				],
+				'illogic'=>[
+					'illlogic',
+					'ilogic',
 				],
 				'illogical'=>[
 					'ilogical',
+					'illlogical',
+				],
+				'illogicality'=>[
+					'illlogicality',
+					'ilogicality',
+				],
+				'illogically'=>[
+					'illlogically',
+					'illogicallly',
+					'illogicaly',
+					'ilogically',
 				],
 				'illogicalnesses'=>[
 					'ilogicalnesses',
 				],
+				'illogics'=>[
+					'illlogics',
+					'ilogics',
+				],
 				'ills'=>[
 					'ils',
+					'illls',
+				],
+				'illume'=>[
+					'illlume',
+					'ilume',
+				],
+				'illumed'=>[
+					'illlumed',
+					'ilumed',
+				],
+				'illumes'=>[
+					'illlumes',
+					'ilumes',
 				],
 				'illuminable'=>[
 					'illuminible',
+					'illluminable',
+					'iluminable',
 				],
 				'illuminance'=>[
 					'illuminence',
 					'illuminince',
 					'iluminance',
+					'illluminance',
+				],
+				'illuminances'=>[
+					'illluminances',
+					'iluminances',
 				],
 				'illuminant'=>[
 					'illuminent',
 					'illuminint',
+					'illluminant',
+					'iluminant',
 				],
 				'illuminants'=>[
 					'illuminints',
+					'illluminants',
+					'iluminants',
 				],
 				'illuminate'=>[
 					'illuminite',
 					'iluminate',
+					'illluminate',
 				],
 				'illuminated'=>[
 					'illuminited',
+					'illluminated',
+					'iluminated',
 				],
 				'illuminates'=>[
 					'illuminites',
+					'illluminates',
+					'iluminates',
 				],
 				'illuminati'=>[
 					'illuminiti',
 				],
+				'illuminating'=>[
+					'illluminating',
+					'iluminating',
+				],
 				'illuminatingly'=>[
 					'illuminitingly',
+					'illluminatingly',
+					'iluminatingly',
 				],
 				'illumination'=>[
 					'illuminition',
 					'ilumination',
+					'illlumination',
+				],
+				'illuminations'=>[
+					'illluminations',
+					'iluminations',
 				],
 				'illuminative'=>[
 					'illuminitive',
 					'iluminative',
+					'illluminative',
 				],
 				'illuminator'=>[
 					'illuminitor',
 					'iluminator',
+					'illluminator',
 				],
 				'illumine'=>[
 					'illumini',
+					'illlumine',
+					'ilumine',
+				],
+				'illumined'=>[
+					'illlumined',
+					'ilumined',
+				],
+				'illumines'=>[
+					'illlumines',
+					'ilumines',
+				],
+				'illuming'=>[
+					'illluming',
+					'iluming',
+				],
+				'illumining'=>[
+					'illlumining',
+					'ilumining',
 				],
 				'illuminism'=>[
 					'illuminasm',
+					'illluminism',
+					'iluminism',
 				],
 				'illuminisms'=>[
 					'illuminasms',
 				],
+				'illuminist'=>[
+					'illluminist',
+					'iluminist',
+				],
 				'illuminists'=>[
 					'illuminasts',
+				],
+				'illuminometer'=>[
+					'illluminometer',
+					'iluminometer',
 				],
 				'illusion'=>[
 					'illuison',
 					'illution',
 					'ilusion',
+					'illlusion',
 				],
 				'illusional'=>[
 					'illuisonal',
+					'illlusional',
+					'ilusional',
 				],
 				'illusionary'=>[
 					'illuisonary',
 					'illusionery',
+					'illlusionary',
+					'ilusionary',
 				],
 				'illusionism'=>[
 					'illuisonism',
 					'ilusionism',
+					'illlusionism',
 				],
 				'illusionisms'=>[
 					'illuisonisms',
@@ -627,65 +913,114 @@
 				'illusionist'=>[
 					'illuisonist',
 					'ilusionist',
+					'illlusionist',
 				],
 				'illusionistic'=>[
 					'illuisonistic',
+					'illlusionistic',
+					'ilusionistic',
 				],
 				'illusionists'=>[
 					'illuisonists',
+					'illlusionists',
+					'ilusionists',
 				],
 				'illusions'=>[
 					'illuisons',
+					'illlusions',
+					'ilusions',
 				],
 				'illusive'=>[
 					'illuisve',
+					'illlusive',
+					'ilusive',
 				],
 				'illusively'=>[
 					'illuisvely',
 					'illusivly',
+					'illlusively',
+					'ilusively',
 				],
 				'illusiveness'=>[
 					'illuisveness',
 					'illusivenes',
 					'illusivenesss',
+					'illlusiveness',
+					'ilusiveness',
 				],
 				'illusivenesses'=>[
 					'illuisvenesses',
+				],
+				'illusorily'=>[
+					'illlusorily',
+					'ilusorily',
 				],
 				'illusoriness'=>[
 					'illusoriniss',
 					'illusorines',
 					'illusorinesss',
+					'illlusoriness',
+					'ilusoriness',
 				],
 				'illusorinesses'=>[
 					'illusorinisses',
 				],
 				'illusory'=>[
 					'ilusory',
+					'illlusory',
 				],
 				'illustrate'=>[
 					'ilustrate',
 					'illistrate',
+					'illlustrate',
 				],
 				'illustrated'=>[
 					'illistrated',
 					'ilustrated',
+					'illlustrated',
+				],
+				'illustrates'=>[
+					'illlustrates',
+					'ilustrates',
 				],
 				'illustrating'=>[
 					'illustring',
+					'illlustrating',
+					'ilustrating',
 				],
 				'illustration'=>[
 					'ilustration',
+					'illlustration',
+				],
+				'illustrational'=>[
+					'illlustrational',
+					'ilustrational',
+				],
+				'illustrations'=>[
+					'illlustrations',
+					'ilustrations',
 				],
 				'illustrative'=>[
 					'ilustrative',
+					'illlustrative',
 				],
 				'illustratively'=>[
 					'illustrativly',
+					'illlustratively',
+					'ilustratively',
+				],
+				'illustrator'=>[
+					'illlustrator',
+					'ilustrator',
+				],
+				'illustrators'=>[
+					'illlustrators',
+					'ilustrators',
 				],
 				'illustrious'=>[
 					'illustrous',
 					'ilustrious',
+					'illlustrious',
 				],
 				'illustriously'=>[
 					'illustriousally',
@@ -693,11 +1028,18 @@
 					'illustriousely',
 					'illustriouslly',
 					'illustrously',
+					'illlustriously',
+					'ilustriously',
 				],
 				'illustriousness'=>[
 					'ilustriousness',
 					'illustriousnes',
 					'illustriousnesss',
+					'illlustriousness',
+				],
+				'illuviation'=>[
+					'illluviation',
+					'iluviation',
 				],
 				'illy'=>[
 					'ily',
@@ -777,6 +1119,12 @@
 				'imbalanced'=>[
 					'inbalanced',
 				],
+				'imbedded'=>[
+					'imbeddded',
+				],
+				'imbedding'=>[
+					'imbeddding',
+				],
 				'imboldened'=>[
 					'imboldend',
 				],
@@ -824,41 +1172,58 @@
 				'immaculacy'=>[
 					'immaculasy',
 					'imnaculacy',
+					'imaculacy',
+					'immmaculacy',
 				],
 				'immaculate'=>[
 					'imnaculate',
+					'imaculate',
+					'immmaculate',
 				],
 				'immaculately'=>[
 					'imnaculately',
+					'imaculately',
+					'immmaculately',
 				],
 				'immaculateness'=>[
 					'immaculatenes',
 					'immaculatenesss',
+					'imaculateness',
+					'immmaculateness',
 				],
 				'immane'=>[
 					'imnane',
 				],
 				'immanence'=>[
 					'immanance',
+					'imanence',
+					'immmanence',
 				],
 				'immanencies'=>[
 					'imnanencies',
 				],
 				'immanency'=>[
 					'immanensy',
+					'imanency',
+					'immmanency',
 				],
 				'immanent'=>[
 					'immanant',
 					'imnanent',
+					'immmanent',
 				],
 				'immanentism'=>[
 					'imnanentism',
+					'imanentism',
+					'immmanentism',
 				],
 				'immanentisms'=>[
 					'imnanentisms',
 				],
 				'immanentist'=>[
 					'imnanentist',
+					'imanentist',
+					'immmanentist',
 				],
 				'immanentistic'=>[
 					'imnanentistic',
@@ -866,14 +1231,22 @@
 				'immanentists'=>[
 					'imnanentists',
 				],
+				'immanently'=>[
+					'imanently',
+					'immmanently',
+				],
 				'immarcescible'=>[
 					'immarcessible',
 				],
 				'immaterial'=>[
 					'imnaterial',
+					'imaterial',
+					'immmaterial',
 				],
 				'immaterialism'=>[
 					'imnaterialism',
+					'imaterialism',
+					'immmaterialism',
 				],
 				'immaterialisms'=>[
 					'imnaterialisms',
@@ -889,40 +1262,74 @@
 				],
 				'immateriality'=>[
 					'imnateriality',
+					'imateriality',
+					'immmateriality',
 				],
 				'immaterialize'=>[
 					'imnaterialize',
+					'imaterialize',
+					'immmaterialize',
 				],
 				'immaterialized'=>[
 					'imnaterialized',
+					'imaterialized',
+					'immmaterialized',
 				],
 				'immaterializes'=>[
 					'imnaterializes',
+					'imaterializes',
+					'immmaterializes',
 				],
 				'immaterializing'=>[
 					'imnaterializing',
+					'imaterializing',
+					'immmaterializing',
+				],
+				'immaterially'=>[
+					'imaterially',
+					'immateriallly',
+					'immaterialy',
+					'immmaterially',
 				],
 				'immaterialness'=>[
 					'immaterialnes',
 					'immaterialnesss',
+					'imaterialness',
+					'immmaterialness',
 				],
 				'immature'=>[
 					'imnature',
+					'imature',
+					'immmature',
 				],
 				'immaturely'=>[
 					'immaturly',
+					'imaturely',
+					'immmaturely',
 				],
 				'immaturities'=>[
 					'imnaturities',
+				],
+				'immaturity'=>[
+					'imaturity',
+					'immmaturity',
+				],
+				'immeasurability'=>[
+					'imeasurability',
+					'immmeasurability',
 				],
 				'immeasurable'=>[
 					'immeasurible',
 					'immesurable',
 					'imneasurable',
+					'imeasurable',
+					'immmeasurable',
 				],
 				'immeasurableness'=>[
 					'immeasurablenes',
 					'immeasurablenesss',
+					'imeasurableness',
+					'immmeasurableness',
 				],
 				'immeasurably'=>[
 					'immeasurabally',
@@ -930,19 +1337,26 @@
 					'immeasurabely',
 					'immeasurablly',
 					'imneasurably',
+					'imeasurably',
+					'immmeasurably',
 				],
 				'immediacies'=>[
 					'imnediacies',
+					'imediacies',
+					'immmediacies',
 				],
 				'immediacy'=>[
 					'immediasy',
 					'imnediacy',
+					'imediacy',
+					'immmediacy',
 				],
 				'immediate'=>[
 					'imediate',
 					'imediately',
 					'imnediate',
 					'imtlledi;ttc',
+					'immmediate',
 				],
 				'immediately'=>[
 					'1mmediately',
@@ -960,17 +1374,22 @@
 					'inmediately',
 					'lmmediately',
 					'immeadiately',
+					'immmediately',
 				],
 				'immediateness'=>[
 					'imnediateness',
 					'immediatenes',
 					'immediatenesss',
+					'imediateness',
+					'immmediateness',
 				],
 				'immediatenesses'=>[
 					'imnediatenesses',
 				],
 				'immedicable'=>[
 					'imnedicable',
+					'imedicable',
+					'immmedicable',
 				],
 				'immedicably'=>[
 					'imnedicably',
@@ -979,11 +1398,17 @@
 					'immemourial',
 					'immorial',
 					'imnemorial',
+					'imemorial',
+					'immmemorial',
 				],
 				'immemorially'=>[
 					'immemourially',
 					'immorially',
 					'imnemorially',
+					'imemorially',
+					'immemoriallly',
+					'immemorialy',
+					'immmemorially',
 				],
 				'immense'=>[
 					'emmense',
@@ -991,36 +1416,51 @@
 					'imense',
 					'immence',
 					'imnense',
+					'immmense',
 				],
 				'immensely'=>[
 					'immensley',
 					'immensly',
+					'imensely',
+					'immmensely',
 				],
 				'immenseness'=>[
 					'imnenseness',
 					'immensenes',
 					'immensenesss',
+					'imenseness',
+					'immmenseness',
 				],
 				'immensenesses'=>[
 					'imnensenesses',
 					'immenseneses',
 					'immensenessses',
+					'imensenesses',
+					'immmensenesses',
 				],
 				'immenser'=>[
 					'imnenser',
 				],
 				'immensities'=>[
 					'imnensities',
+					'imensities',
+					'immmensities',
 				],
 				'immensity'=>[
 					'imnensity',
+					'imensity',
+					'immmensity',
 				],
 				'immensurable'=>[
 					'immensurible',
 					'imnensurable',
+					'imensurable',
+					'immmensurable',
 				],
 				'immerge'=>[
 					'imnerge',
+					'imerge',
+					'immmerge',
 				],
 				'immerged'=>[
 					'imnerged',
@@ -1030,23 +1470,43 @@
 				],
 				'immerse'=>[
 					'imnerse',
+					'imerse',
+					'immmerse',
 				],
 				'immersed'=>[
 					'immeresed',
 					'imnersed',
+					'immmersed',
 				],
 				'immerses'=>[
 					'imnerses',
+					'immmerses',
 				],
 				'immersible'=>[
 					'immersable',
 					'imnersible',
+					'imersible',
+					'immmersible',
+				],
+				'immersing'=>[
+					'immmersing',
 				],
 				'immersion'=>[
 					'imnersion',
+					'imersion',
+					'immmersion',
+				],
+				'immersionism'=>[
+					'imersionism',
+					'immmersionism',
+				],
+				'immersions'=>[
+					'imersions',
+					'immmersions',
 				],
 				'immesh'=>[
 					'imnesh',
+					'immmesh',
 				],
 				'immeshed'=>[
 					'imneshed',
@@ -1056,6 +1516,8 @@
 				],
 				'immethodical'=>[
 					'imnethodical',
+					'imethodical',
+					'immmethodical',
 				],
 				'immethodically'=>[
 					'imnethodically',
@@ -1068,33 +1530,51 @@
 					'immigrent',
 					'imnigrant',
 					'inmigrant',
+					'immmigrant',
+				],
+				'immigrants'=>[
+					'imigrants',
+					'immmigrants',
 				],
 				'immigrate'=>[
 					'imigrate',
 					'imnigrate',
 					'inmigrate',
+					'immmigrate',
 				],
 				'immigrated'=>[
 					'imigrated',
+					'immmigrated',
+				],
+				'immigrates'=>[
+					'imigrates',
+					'immmigrates',
 				],
 				'immigrating'=>[
 					'imnigrating',
+					'imigrating',
+					'immmigrating',
 				],
 				'immigration'=>[
 					'imigration',
 					'imnigration',
 					'inmigration',
+					'immmigration',
 				],
 				'immigrational'=>[
 					'imnigrational',
 				],
 				'immigrations'=>[
 					'imnigrations',
+					'imigrations',
+					'immmigrations',
 				],
 				'imminence'=>[
 					'imminance',
 					'imminince',
 					'imninence',
+					'iminence',
+					'immminence',
 				],
 				'imminencies'=>[
 					'imninencies',
@@ -1109,9 +1589,28 @@
 					'imminant',
 					'imminint',
 					'imninent',
+					'immminent',
+				],
+				'imminently'=>[
+					'iminently',
+					'immminently',
 				],
 				'immingle'=>[
 					'imningle',
+					'imingle',
+					'immmingle',
+				],
+				'immingled'=>[
+					'imingled',
+					'immmingled',
+				],
+				'immingles'=>[
+					'imingles',
+					'immmingles',
+				],
+				'immingling'=>[
+					'imingling',
+					'immmingling',
 				],
 				'immiscibilities'=>[
 					'immicibilities',
@@ -1121,6 +1620,8 @@
 				],
 				'immiscibility'=>[
 					'imniscibility',
+					'imiscibility',
+					'immmiscibility',
 				],
 				'immiscible'=>[
 					'immicible',
@@ -1128,10 +1629,14 @@
 					'immiscable',
 					'immisible',
 					'imniscible',
+					'imiscible',
+					'immmiscible',
 				],
 				'immitigable'=>[
 					'immitigible',
 					'imnitigable',
+					'imitigable',
+					'immmitigable',
 				],
 				'immitigably'=>[
 					'imnitigably',
@@ -1146,12 +1651,29 @@
 				],
 				'immix'=>[
 					'imnix',
+					'immmix',
+				],
+				'immixed'=>[
+					'imixed',
+					'immmixed',
+				],
+				'immixes'=>[
+					'imixes',
+					'immmixes',
 				],
 				'immixing'=>[
 					'imnixing',
+					'imixing',
+					'immmixing',
+				],
+				'immixture'=>[
+					'imixture',
+					'immmixture',
 				],
 				'immobile'=>[
 					'imnobile',
+					'immmobile',
+					'imobile',
 				],
 				'immobilism'=>[
 					'imnobilism',
@@ -1162,29 +1684,47 @@
 				'immobilities'=>[
 					'imnobilities',
 				],
+				'immobility'=>[
+					'immmobility',
+					'imobility',
+				],
 				'immobilization'=>[
 					'imnobilization',
+					'immmobilization',
+					'imobilization',
 				],
 				'immobilizations'=>[
 					'imnobilizations',
 				],
 				'immobilize'=>[
 					'imnobilize',
+					'immmobilize',
+					'imobilize',
 				],
 				'immobilized'=>[
 					'imnobilized',
+					'immmobilized',
+					'imobilized',
 				],
 				'immobilizer'=>[
 					'imnobilizer',
+					'immmobilizer',
+					'imobilizer',
 				],
 				'immobilizers'=>[
 					'imnobilizers',
+					'immmobilizers',
+					'imobilizers',
 				],
 				'immobilizes'=>[
 					'imnobilizes',
+					'immmobilizes',
+					'imobilizes',
 				],
 				'immobilizing'=>[
 					'imnobilizing',
+					'immmobilizing',
+					'imobilizing',
 				],
 				'immoderacies'=>[
 					'imnoderacies',
@@ -1192,18 +1732,26 @@
 				'immoderacy'=>[
 					'immoderasy',
 					'imnoderacy',
+					'immmoderacy',
+					'imoderacy',
 				],
 				'immoderate'=>[
 					'imnoderate',
+					'immmoderate',
+					'imoderate',
 				],
 				'immoderately'=>[
 					'immoderatly',
 					'imnoderately',
+					'immmoderately',
+					'imoderately',
 				],
 				'immoderateness'=>[
 					'imnoderateness',
 					'immoderatenes',
 					'immoderatenesss',
+					'immmoderateness',
+					'imoderateness',
 				],
 				'immoderatenesses'=>[
 					'immoderateneses',
@@ -1211,26 +1759,63 @@
 				],
 				'immoderation'=>[
 					'imnoderation',
+					'immmoderation',
+					'imoderation',
 				],
 				'immoderations'=>[
 					'imnoderations',
+					'immmoderations',
+					'imoderations',
 				],
 				'immodest'=>[
 					'imnodest',
+					'immmodest',
+					'imodest',
 				],
 				'immodesties'=>[
 					'imnodesties',
 				],
+				'immodestly'=>[
+					'immmodestly',
+					'imodestly',
+				],
+				'immodesty'=>[
+					'immmodesty',
+					'imodesty',
+				],
 				'immolate'=>[
 					'imnolate',
+					'immmolate',
+					'imolate',
+				],
+				'immolated'=>[
+					'immmolated',
+					'imolated',
+				],
+				'immolates'=>[
+					'immmolates',
+					'imolates',
+				],
+				'immolating'=>[
+					'immmolating',
+					'imolating',
+				],
+				'immolation'=>[
+					'immmolation',
+					'imolation',
 				],
 				'immolations'=>[
 					'imnolations',
+				],
+				'immolator'=>[
+					'immmolator',
+					'imolator',
 				],
 				'immoral'=>[
 					'immoural',
 					'imnoral',
 					'imoral',
+					'immmoral',
 				],
 				'immoralism'=>[
 					'immouralism',
@@ -1243,6 +1828,8 @@
 				'immoralist'=>[
 					'immouralist',
 					'imnoralist',
+					'immmoralist',
+					'imoralist',
 				],
 				'immoralists'=>[
 					'immouralists',
@@ -1251,17 +1838,27 @@
 				'immoralities'=>[
 					'immouralities',
 					'imnoralities',
+					'immmoralities',
+					'imoralities',
 				],
 				'immorality'=>[
 					'immourality',
 					'imnorality',
+					'immmorality',
+					'imorality',
 				],
 				'immorally'=>[
 					'immourally',
+					'immmorally',
+					'immorallly',
+					'immoraly',
+					'imorally',
 				],
 				'immortal'=>[
 					'immourtal',
 					'imnortal',
+					'immmortal',
+					'imortal',
 				],
 				'immortalise'=>[
 					'immourtalise',
@@ -1286,6 +1883,8 @@
 				'immortality'=>[
 					'immourtality',
 					'imnortality',
+					'immmortality',
+					'imortality',
 				],
 				'immortalization'=>[
 					'immourtalization',
@@ -1294,10 +1893,14 @@
 				'immortalize'=>[
 					'immourtalize',
 					'imnortalize',
+					'immmortalize',
+					'imortalize',
 				],
 				'immortalized'=>[
 					'immourtalized',
 					'imnortalized',
+					'immmortalized',
+					'imortalized',
 				],
 				'immortalizer'=>[
 					'immourtalizer',
@@ -1310,37 +1913,61 @@
 				'immortalizes'=>[
 					'immourtalizes',
 					'imnortalizes',
+					'immmortalizes',
+					'imortalizes',
 				],
 				'immortalizing'=>[
 					'immourtalizing',
 					'imnortalizing',
+					'immmortalizing',
+					'imortalizing',
 				],
 				'immortally'=>[
 					'immourtally',
+					'immmortally',
+					'immortallly',
+					'immortaly',
+					'imortally',
 				],
 				'immortals'=>[
 					'immourtals',
+					'immmortals',
+					'imortals',
 				],
 				'immortelle'=>[
 					'immourtelle',
 					'imnortelle',
+					'immmortelle',
+					'immortele',
+					'immortellle',
+					'imortelle',
 				],
 				'immortelles'=>[
 					'immourtelles',
 					'imnortelles',
+					'immmortelles',
+					'immorteles',
+					'immortellles',
+					'imortelles',
 				],
 				'immotile'=>[
 					'imnotile',
+					'immmotile',
+					'imotile',
 				],
 				'immovabilities'=>[
 					'imnovabilities',
 				],
 				'immovability'=>[
 					'imnovability',
+					'immmovability',
+					'imovability',
 				],
 				'immovable'=>[
 					'immovible',
 					'imnovable',
+					'immmovable',
+					'imovable',
 				],
 				'immovableness'=>[
 					'imnovableness',
@@ -1348,24 +1975,58 @@
 				'immovablenesses'=>[
 					'imnovablenesses',
 				],
+				'immovably'=>[
+					'immmovably',
+					'imovably',
+				],
+				'immoveable'=>[
+					'immmoveable',
+					'imoveable',
+				],
 				'immune'=>[
 					'imnune',
+					'immmune',
+					'imune',
 				],
 				'immunise'=>[
 					'imnunise',
 				],
+				'immunities'=>[
+					'immmunities',
+					'imunities',
+				],
 				'immunity'=>[
 					'immnity',
 					'imnunity',
+					'immmunity',
+					'imunity',
 				],
 				'immunization'=>[
 					'imnunization',
+					'immmunization',
+					'imunization',
 				],
 				'immunizations'=>[
 					'imnunizations',
+					'immmunizations',
+					'imunizations',
 				],
 				'immunize'=>[
 					'imnunize',
+					'immmunize',
+					'imunize',
+				],
+				'immunized'=>[
+					'immmunized',
+					'imunized',
+				],
+				'immunizes'=>[
+					'immmunizes',
+					'imunizes',
+				],
+				'immunizing'=>[
+					'immmunizing',
+					'imunizing',
 				],
 				'immunoabsorbance'=>[
 					'immunoadsorbance',
@@ -1383,6 +2044,8 @@
 					'immunoasay',
 					'imnunoassay',
 					'immunoasssay',
+					'immmunoassay',
+					'imunoassay',
 				],
 				'immunoassayable'=>[
 					'immunoassayible',
@@ -1410,8 +2073,14 @@
 				'immunochemist'=>[
 					'imnunochemist',
 				],
+				'immunochemistries'=>[
+					'immmunochemistries',
+					'imunochemistries',
+				],
 				'immunochemistry'=>[
 					'imnunochemistry',
+					'immmunochemistry',
+					'imunochemistry',
 				],
 				'immunochemists'=>[
 					'imnunochemists',
@@ -1423,8 +2092,14 @@
 				'immunocytochemical'=>[
 					'immunocitochemical',
 				],
+				'immunodeficiency'=>[
+					'immmunodeficiency',
+					'imunodeficiency',
+				],
 				'immunodeficient'=>[
 					'imnunodeficient',
+					'immmunodeficient',
+					'imunodeficient',
 				],
 				'immunodiagnoses'=>[
 					'imnunodiagnoses',
@@ -1456,9 +2131,13 @@
 				],
 				'immunogenetics'=>[
 					'imnunogenetics',
+					'immmunogenetics',
+					'imunogenetics',
 				],
 				'immunogenic'=>[
 					'imnunogenic',
+					'immmunogenic',
+					'imunogenic',
 				],
 				'immunogenicity'=>[
 					'imnunogenicity',
@@ -1466,9 +2145,13 @@
 				],
 				'immunoglobulin'=>[
 					'imnunoglobulin',
+					'immmunoglobulin',
+					'imunoglobulin',
 				],
 				'immunoglobulins'=>[
 					'imnunoglobulins',
+					'immmunoglobulins',
+					'imunoglobulins',
 				],
 				'immunohistochemical'=>[
 					'immunohystochemical',
@@ -1478,9 +2161,13 @@
 				],
 				'immunologic'=>[
 					'imnunologic',
+					'immmunologic',
+					'imunologic',
 				],
 				'immunological'=>[
 					'imnunological',
+					'immmunological',
+					'imunological',
 				],
 				'immunologically'=>[
 					'immunologicalally',
@@ -1489,18 +2176,26 @@
 					'immunologicallly',
 					'immunologicaly',
 					'imnunologically',
+					'immmunologically',
+					'imunologically',
 				],
 				'immunologies'=>[
 					'imnunologies',
 				],
 				'immunologist'=>[
 					'imnunologist',
+					'immmunologist',
+					'imunologist',
 				],
 				'immunologists'=>[
 					'imnunologists',
+					'immmunologists',
+					'imunologists',
 				],
 				'immunology'=>[
 					'imnunology',
+					'immmunology',
+					'imunology',
 				],
 				'immunometric'=>[
 					'immunodimetric',
@@ -1523,6 +2218,10 @@
 				],
 				'immunoprecipitable'=>[
 					'immunoprecipitatable',
+				],
+				'immunoreaction'=>[
+					'immmunoreaction',
+					'imunoreaction',
 				],
 				'immunoreactive'=>[
 					'immunorective',
@@ -1551,29 +2250,49 @@
 					'imnunosuppress',
 					'immunosuppres',
 					'immunosuppresss',
+					'immmunosuppress',
+					'immunosupppress',
+					'imunosuppress',
 				],
 				'immunosuppressant'=>[
 					'immunosupressant',
 					'immunosuppresant',
 					'immunosuppresssant',
+					'immmunosuppressant',
+					'immunosupppressant',
+					'imunosuppressant',
 				],
 				'immunosuppressants'=>[
 					'immunosuppresants',
 					'immunosuppresssants',
+					'immmunosuppressants',
+					'immunosupppressants',
+					'immunosupressants',
+					'imunosuppressants',
 				],
 				'immunosuppression'=>[
 					'immunosuppresion',
 					'immunosupression',
 					'immunosuppresssion',
+					'immmunosuppression',
+					'immunosupppression',
+					'imunosuppression',
 				],
 				'immunosuppressions'=>[
 					'immunosuppresions',
 					'immunosuppresssions',
+					'immmunosuppressions',
+					'immunosupppressions',
+					'immunosupressions',
+					'imunosuppressions',
 				],
 				'immunosuppressive'=>[
 					'immunosuppresive',
 					'immunosupressive',
 					'immunosuppresssive',
+					'immmunosuppressive',
+					'immunosupppressive',
+					'imunosuppressive',
 				],
 				'immunosuppressor'=>[
 					'immunosupressor',
@@ -1583,6 +2302,8 @@
 				],
 				'immunotherapy'=>[
 					'imnunotherapy',
+					'immmunotherapy',
+					'imunotherapy',
 				],
 				'immunoturbidimetry'=>[
 					'immunoturbimetry',
@@ -1590,31 +2311,61 @@
 				'immunoturbidometric'=>[
 					'immunoturbidiometric',
 				],
+				'immuration'=>[
+					'immmuration',
+					'imuration',
+				],
 				'immure'=>[
 					'imnure',
+					'immmure',
+					'imure',
+				],
+				'immured'=>[
+					'immmured',
+					'imured',
+				],
+				'immurement'=>[
+					'immmurement',
+					'imurement',
 				],
 				'immurements'=>[
 					'imnurements',
+					'immmurements',
+					'imurements',
+				],
+				'immures'=>[
+					'immmures',
+					'imures',
 				],
 				'immuring'=>[
 					'imnuring',
+					'immmuring',
+					'imuring',
 				],
 				'immutabilities'=>[
 					'imnutabilities',
 				],
 				'immutability'=>[
 					'imnutability',
+					'immmutability',
+					'imutability',
 				],
 				'immutable'=>[
 					'immuntable',
 					'immutible',
 					'imnutable',
+					'immmutable',
+					'imutable',
 				],
 				'immutableness'=>[
 					'imnutableness',
 				],
 				'immutablenesses'=>[
 					'imnutablenesses',
+				],
+				'immutably'=>[
+					'immmutably',
+					'imutably',
 				],
 				'immy'=>[
 					'imny',
@@ -1640,8 +2391,14 @@
 				'imparadising'=>[
 					'imperadising',
 				],
+				'imparipinnate'=>[
+					'imparipinate',
+					'imparipinnnate',
+				],
 				'imparisyllabic'=>[
 					'imparasyllabic',
+					'imparisylabic',
+					'imparisylllabic',
 				],
 				'imparity'=>[
 					'imperity',
@@ -1681,6 +2438,8 @@
 				],
 				'impartially'=>[
 					'impertially',
+					'impartiallly',
+					'impartialy',
 				],
 				'impartible'=>[
 					'impartable',
@@ -1790,10 +2549,12 @@
 				],
 				'impeccability'=>[
 					'impecability',
+					'impecccability',
 				],
 				'impeccable'=>[
 					'impecable',
 					'impeccible',
+					'impecccable',
 				],
 				'impeccably'=>[
 					'impecably',
@@ -1801,9 +2562,11 @@
 					'impeccabaly',
 					'impeccabely',
 					'impeccablly',
+					'impecccably',
 				],
 				'impeccant'=>[
 					'impecant',
+					'impecccant',
 				],
 				'impecunious'=>[
 					'impecunous',
@@ -1827,6 +2590,27 @@
 				],
 				'impediment'=>[
 					'impedimant',
+				],
+				'impelled'=>[
+					'impellled',
+				],
+				'impellent'=>[
+					'impelent',
+					'impelllent',
+				],
+				'impeller'=>[
+					'impelller',
+				],
+				'impellers'=>[
+					'impelers',
+					'impelllers',
+				],
+				'impelling'=>[
+					'impellling',
+				],
+				'impellor'=>[
+					'impelllor',
+					'impelor',
 				],
 				'impendent'=>[
 					'impendant',
@@ -1890,9 +2674,22 @@
 				'imperialism'=>[
 					'emperialism',
 				],
+				'imperialistically'=>[
+					'imperialisticallly',
+					'imperialisticaly',
+				],
+				'imperially'=>[
+					'imperiallly',
+				],
 				'imperialness'=>[
 					'imperialnes',
 					'imperialnesss',
+				],
+				'imperilled'=>[
+					'imperillled',
+				],
+				'imperilling'=>[
+					'imperillling',
 				],
 				'imperious'=>[
 					'imperous',
@@ -1938,6 +2735,10 @@
 					'impermisible',
 					'impermissable',
 					'impermisssible',
+				],
+				'impersonally'=>[
+					'impersonallly',
+					'impersonaly',
 				],
 				'impertinence'=>[
 					'impertinance',
@@ -2181,6 +2982,10 @@
 				'impracticable'=>[
 					'impracticible',
 				],
+				'impractically'=>[
+					'impracticallly',
+					'impracticaly',
+				],
 				'impracticalness'=>[
 					'impracticalnes',
 					'impracticalnesss',
@@ -2257,6 +3062,8 @@
 				'impressionistically'=>[
 					'impresionistically',
 					'impresssionistically',
+					'impressionisticallly',
+					'impressionisticaly',
 				],
 				'impressionists'=>[
 					'impresionists',
@@ -2356,6 +3163,9 @@
 				],
 				'improvisation'=>[
 					'improvision',
+				],
+				'improvvisatore'=>[
+					'improvvvisatore',
 				],
 				'imprudence'=>[
 					'imprudance',
@@ -2484,6 +3294,7 @@
 					'iniccessibility',
 					'inaccesibility',
 					'inaccesssibility',
+					'inacccessibility',
 				],
 				'inaccessible'=>[
 					'inaccesible',
@@ -2492,6 +3303,7 @@
 					'iniccessible',
 					'unaccessable',
 					'inaccesssible',
+					'inacccessible',
 				],
 				'inaccessibly'=>[
 					'inaccessibally',
@@ -2501,22 +3313,27 @@
 					'inacessibly',
 					'inaccesibly',
 					'inaccesssibly',
+					'inacccessibly',
 				],
 				'inaccuracies'=>[
 					'inacuracies',
+					'inacccuracies',
 				],
 				'inaccuracy'=>[
 					'inaccurasy',
 					'inacuracy',
 					'iniccuracy',
+					'inacccuracy',
 				],
 				'inaccurate'=>[
 					'inacurate',
 					'iniccurate',
+					'inacccurate',
 				],
 				'inaccurately'=>[
 					'inaccuratly',
 					'inacurately',
+					'inacccurately',
 				],
 				'inaction'=>[
 					'iniction',
@@ -2702,6 +3519,7 @@
 					'inaparent',
 					'inapperent',
 					'inipparent',
+					'inappparent',
 				],
 				'inapparently'=>[
 					'inaparently',
@@ -2718,19 +3536,26 @@
 					'inapetence',
 					'inappetance',
 					'inippetence',
+					'inapppetence',
 				],
 				'inappetences'=>[
 					'inapetences',
 					'inippetences',
 				],
+				'inapplicabilities'=>[
+					'inaplicabilities',
+					'inappplicabilities',
+				],
 				'inapplicability'=>[
 					'inaplicability',
 					'inipplicability',
+					'inappplicability',
 				],
 				'inapplicable'=>[
 					'inaplicable',
 					'inapplicible',
 					'inipplicable',
+					'inappplicable',
 				],
 				'inapplicably'=>[
 					'inaplicably',
@@ -2743,6 +3568,7 @@
 				'inapposite'=>[
 					'inaposite',
 					'inipposite',
+					'inappposite',
 				],
 				'inappositely'=>[
 					'inapositely',
@@ -2758,24 +3584,37 @@
 					'inappreciible',
 					'inapreciable',
 					'inippreciable',
+					'inapppreciable',
 				],
 				'inappreciably'=>[
 					'inapreciably',
+					'inapppreciably',
 				],
 				'inappreciative'=>[
 					'inapreciative',
 					'inippreciative',
+					'inapppreciative',
+				],
+				'inapprehensible'=>[
+					'inappprehensible',
+					'inaprehensible',
+				],
+				'inapprehensive'=>[
+					'inappprehensive',
+					'inaprehensive',
 				],
 				'inapproachable'=>[
 					'inapproachible',
 					'inaproachable',
 					'inipproachable',
+					'inappproachable',
 				],
 				'inappropriate'=>[
 					'inappropiate',
 					'inapropriate',
 					'inippropriate',
 					'innappropriate',
+					'inapppropriate',
 				],
 				'inappropriately'=>[
 					'inappropriateally',
@@ -2785,10 +3624,13 @@
 					'inappropriatly',
 					'inapropriately',
 					'inippropriately',
+					'inapppropriately',
 				],
 				'inappropriateness'=>[
 					'inappropriatenes',
 					'inappropriatenesss',
+					'inapppropriateness',
+					'inapropriateness',
 				],
 				'inapt'=>[
 					'inipt',
@@ -2855,19 +3697,26 @@
 				'inattention'=>[
 					'inattantion',
 					'inittention',
+					'inatention',
+					'inatttention',
 				],
 				'inattentive'=>[
 					'inatentive',
 					'inattantive',
 					'inittentive',
+					'inatttentive',
 				],
 				'inattentively'=>[
 					'inattentivly',
+					'inatentively',
+					'inatttentively',
 				],
 				'inattentiveness'=>[
 					'inittentiveness',
 					'inattentivenes',
 					'inattentivenesss',
+					'inatentiveness',
+					'inatttentiveness',
 				],
 				'inaudibilities'=>[
 					'iniudibilities',
@@ -2935,6 +3784,18 @@
 				],
 				'inbeings'=>[
 					'inbiengs',
+				],
+				'inbreed'=>[
+					'inbreeed',
+				],
+				'inbreeder'=>[
+					'inbreeeder',
+				],
+				'inbreeding'=>[
+					'inbreeeding',
+				],
+				'inbreeds'=>[
+					'inbreeeds',
 				],
 				'incalculable'=>[
 					'incalculible',
@@ -3257,6 +4118,8 @@
 				'incommensurable'=>[
 					'incommensurible',
 					'incomnensurable',
+					'incomensurable',
+					'incommmensurable',
 				],
 				'incommensurably'=>[
 					'incommensurabally',
@@ -3267,17 +4130,37 @@
 				],
 				'incommensurate'=>[
 					'incomnensurate',
+					'incomensurate',
+					'incommmensurate',
+				],
+				'incommensurately'=>[
+					'incomensurately',
+					'incommmensurately',
 				],
 				'incommode'=>[
 					'incomnode',
+					'incommmode',
+					'incomode',
+				],
+				'incommoded'=>[
+					'incommmoded',
+					'incomoded',
+				],
+				'incommodes'=>[
+					'incommmodes',
+					'incomodes',
 				],
 				'incommoding'=>[
 					'incomnoding',
+					'incommmoding',
+					'incomoding',
 				],
 				'incommodious'=>[
 					'incommodous',
 					'incomnodious',
 					'incommodius',
+					'incommmodious',
+					'incomodious',
 				],
 				'incommodiously'=>[
 					'incommodiousally',
@@ -3292,23 +4175,32 @@
 				],
 				'incommodity'=>[
 					'incomnodity',
+					'incommmodity',
+					'incomodity',
 				],
 				'incommunicable'=>[
 					'incommunicible',
 					'incomnunicable',
+					'incommmunicable',
+					'incomunicable',
 				],
 				'incommunicably'=>[
 					'incomnunicably',
 				],
 				'incommunicado'=>[
 					'incomnunicado',
+					'incommmunicado',
 				],
 				'incommunicative'=>[
 					'incomnunicative',
+					'incommmunicative',
+					'incomunicative',
 				],
 				'incommutable'=>[
 					'incommutible',
 					'incomnutable',
+					'incommmutable',
+					'incomutable',
 				],
 				'incommutably'=>[
 					'incommutabally',
@@ -3451,6 +4343,9 @@
 				'inconsequential'=>[
 					'inconsequantial',
 				],
+				'inconsequentially'=>[
+					'inconsequentiallly',
+				],
 				'inconsiderable'=>[
 					'inconsiderible',
 				],
@@ -3550,6 +4445,7 @@
 				'incontrollable'=>[
 					'incontrolable',
 					'incontrollible',
+					'incontrolllable',
 				],
 				'incontrovertible'=>[
 					'incontravertable',
@@ -3573,11 +4469,19 @@
 				'inconvincible'=>[
 					'inconvincable',
 				],
+				'incoordinate'=>[
+					'incooordinate',
+					'incordinate',
+				],
 				'incoordination'=>[
 					'incoordinition',
+					'incooordination',
+					'incordination',
 				],
 				'incoordinations'=>[
 					'incoordinitions',
+					'incooordinations',
+					'incordinations',
 				],
 				'incorporate'=>[
 					'encorperate',
@@ -3590,6 +4494,10 @@
 				'incorporeal'=>[
 					'incorporel',
 				],
+				'incorporeally'=>[
+					'incorporeallly',
+					'incorporealy',
+				],
 				'incorporeities'=>[
 					'incorporieties',
 				],
@@ -3599,25 +4507,35 @@
 				'incorrect'=>[
 					'incorect',
 					'inncorect',
+					'incorrrect',
+				],
+				'incorrectly'=>[
+					'incorectly',
+					'incorrrectly',
 				],
 				'incorrectness'=>[
 					'incorectness',
 					'incorrectnes',
 					'incorrectnesss',
+					'incorrrectness',
 				],
 				'incorrectnesses'=>[
 					'incorectnesses',
 				],
 				'incorrigibility'=>[
 					'incorigibility',
+					'incorrrigibility',
 				],
 				'incorrigible'=>[
 					'incorigible',
 					'incorrigable',
+					'incorrrigible',
 				],
 				'incorrigibleness'=>[
 					'incorrigiblenes',
 					'incorrigiblenesss',
+					'incorigibleness',
+					'incorrrigibleness',
 				],
 				'incorrigibles'=>[
 					'incorigibles',
@@ -3627,23 +4545,37 @@
 					'incorrigibaly',
 					'incorrigibely',
 					'incorrigiblly',
+					'incorigibly',
+					'incorrrigibly',
 				],
 				'incorrupt'=>[
 					'incorupt',
+					'incorrrupt',
+				],
+				'incorruptibility'=>[
+					'incorrruptibility',
+					'incoruptibility',
 				],
 				'incorruptible'=>[
 					'incorruptable',
 					'incorruptibe',
 					'incoruptible',
+					'incorrruptible',
 				],
 				'incorruptibles'=>[
 					'incoruptibles',
 				],
 				'incorruptibly'=>[
 					'incoruptibly',
+					'incorrruptibly',
+				],
+				'incorruption'=>[
+					'incorrruption',
+					'incoruption',
 				],
 				'incorruptions'=>[
 					'incoruptions',
+					'incorrruptions',
 				],
 				'incorruptness'=>[
 					'incoruptness',
@@ -3702,6 +4634,10 @@
 				'incrementalism'=>[
 					'incremantalism',
 				],
+				'incrementally'=>[
+					'incrementallly',
+					'incrementaly',
+				],
 				'incriminate'=>[
 					'incriminite',
 				],
@@ -3730,12 +4666,24 @@
 				'incuriously'=>[
 					'incurously',
 				],
+				'incurred'=>[
+					'incurrred',
+				],
 				'incurrence'=>[
 					'incurence',
 					'incurrance',
+					'incurrrence',
+				],
+				'incurrences'=>[
+					'incurences',
+					'incurrrences',
 				],
 				'incurrent'=>[
 					'incurent',
+					'incurrrent',
+				],
+				'incurring'=>[
+					'incurrring',
 				],
 				'incusing'=>[
 					'incuisng',
@@ -3776,6 +4724,9 @@
 				'indecorousnesses'=>[
 					'indecorousneses',
 					'indecorousnessses',
+				],
+				'indeed'=>[
+					'indeeed',
 				],
 				'indefatigable'=>[
 					'indefatigible',
@@ -4022,6 +4973,10 @@
 				'indicted'=>[
 					'indited',
 				],
+				'indictee'=>[
+					'indicte',
+					'indicteee',
+				],
 				'indictment'=>[
 					'indictmant',
 				],
@@ -4031,6 +4986,8 @@
 				],
 				'indifference'=>[
 					'indifferance',
+					'indiference',
+					'indiffference',
 				],
 				'indifferency'=>[
 					'indifferensy',
@@ -4038,12 +4995,16 @@
 				'indifferent'=>[
 					'indiferent',
 					'indifferant',
+					'indiffferent',
 				],
 				'indifferentism'=>[
 					'indifferantism',
+					'indiferentism',
+					'indiffferentism',
 				],
 				'indifferently'=>[
 					'indiferently',
+					'indiffferently',
 				],
 				'indigence'=>[
 					'indigance',
@@ -4109,14 +5070,24 @@
 					'indicreet',
 					'indicsreet',
 					'indisreet',
+					'indiscreeet',
+					'indiscret',
+				],
+				'indiscreetly'=>[
+					'indiscreeetly',
+					'indiscretly',
 				],
 				'indiscreetness'=>[
 					'indiscreetnes',
 					'indiscreetnesss',
+					'indiscreeetness',
+					'indiscretness',
 				],
 				'indiscreetnesses'=>[
 					'indiscreetneses',
 					'indiscreetnessses',
+					'indiscreeetnesses',
+					'indiscretnesses',
 				],
 				'indiscretion'=>[
 					'indicretion',
@@ -4217,6 +5188,10 @@
 				'individualistic'=>[
 					'individaulistic',
 				],
+				'individualistically'=>[
+					'individualisticallly',
+					'individualisticaly',
+				],
 				'individualists'=>[
 					'individaulists',
 				],
@@ -4240,6 +5215,7 @@
 				],
 				'individually'=>[
 					'individaully',
+					'individuallly',
 				],
 				'individuals'=>[
 					'1ndividuals',
@@ -4306,6 +5282,14 @@
 					'indomitablenes',
 					'indomitablenesss',
 				],
+				'indoor'=>[
+					'indooor',
+					'indor',
+				],
+				'indoors'=>[
+					'indooors',
+					'indors',
+				],
 				'indubitable'=>[
 					'indubitible',
 				],
@@ -4320,6 +5304,14 @@
 				],
 				'inductance'=>[
 					'inductence',
+				],
+				'inductee'=>[
+					'inducte',
+					'inducteee',
+				],
+				'inductees'=>[
+					'inducteees',
+					'inductes',
 				],
 				'inductiveness'=>[
 					'inductivenes',
@@ -4345,6 +5337,10 @@
 					'indutrial',
 					'industral',
 				],
+				'industrially'=>[
+					'industriallly',
+					'industrialy',
+				],
 				'industrious'=>[
 					'industrous',
 				],
@@ -4365,8 +5361,21 @@
 					'industry industry',
 					'industry industry industry',
 				],
+				'indwell'=>[
+					'indwel',
+					'indwelll',
+				],
+				'indwelled'=>[
+					'indweled',
+					'indwellled',
+				],
 				'indwelling'=>[
 					'indweling',
+					'indwellling',
+				],
+				'indwells'=>[
+					'indwellls',
+					'indwels',
 				],
 				'inebriated'=>[
 					'inibriated',
@@ -4389,16 +5398,24 @@
 				],
 				'ineffability'=>[
 					'iniffability',
+					'inefability',
+					'inefffability',
 				],
 				'ineffable'=>[
 					'ineffible',
 					'iniffable',
+					'inefable',
+					'inefffable',
 				],
 				'ineffableness'=>[
 					'iniffableness',
 				],
 				'ineffablenesses'=>[
 					'iniffablenesses',
+				],
+				'ineffably'=>[
+					'inefably',
+					'inefffably',
 				],
 				'ineffaceability'=>[
 					'ineffacebility',
@@ -4408,6 +5425,8 @@
 					'ineffaceble',
 					'ineffaceible',
 					'iniffaceable',
+					'inefaceable',
+					'inefffaceable',
 				],
 				'ineffaceably'=>[
 					'ineffaceabally',
@@ -4419,33 +5438,49 @@
 				'ineffective'=>[
 					'iniffective',
 					'uneffective',
+					'inefective',
+					'inefffective',
 				],
 				'ineffectively'=>[
 					'ineffectivly',
 					'iniffectively',
+					'inefectively',
+					'inefffectively',
 				],
 				'ineffectiveness'=>[
 					'iniffectiveness',
 					'ineffectivenes',
 					'ineffectivenesss',
+					'inefectiveness',
+					'inefffectiveness',
 				],
 				'ineffectual'=>[
 					'ineffectaul',
 					'iniffectual',
+					'inefectual',
+					'inefffectual',
 				],
 				'ineffectuality'=>[
 					'ineffectaulity',
 					'iniffectuality',
+					'inefectuality',
+					'inefffectuality',
 				],
 				'ineffectually'=>[
 					'ineffectaully',
 					'iniffectually',
+					'inefectually',
+					'ineffectuallly',
+					'ineffectualy',
+					'inefffectually',
 				],
 				'ineffectualness'=>[
 					'ineffectaulness',
 					'iniffectualness',
 					'ineffectualnes',
 					'ineffectualnesss',
+					'inefectualness',
+					'inefffectualness',
 				],
 				'ineffectualnesses'=>[
 					'ineffectualneses',
@@ -4457,6 +5492,8 @@
 				'inefficacious'=>[
 					'inefficacous',
 					'inifficacious',
+					'ineffficacious',
+					'ineficacious',
 				],
 				'inefficaciously'=>[
 					'inefficacously',
@@ -4465,15 +5502,21 @@
 				'inefficacy'=>[
 					'inefficasy',
 					'inifficacy',
+					'ineffficacy',
+					'ineficacy',
 				],
 				'inefficiencies'=>[
 					'inifficiencies',
+					'ineffficiencies',
+					'ineficiencies',
 				],
 				'inefficiency'=>[
 					'inefficeincy',
 					'inefficiensy',
 					'inefficincy',
 					'inifficiency',
+					'ineffficiency',
+					'ineficiency',
 				],
 				'inefficient'=>[
 					'inefficeint',
@@ -4481,9 +5524,13 @@
 					'inefficint',
 					'inifficient',
 					'unefficient',
+					'ineffficient',
+					'ineficient',
 				],
 				'inefficiently'=>[
 					'inifficiently',
+					'ineffficiently',
+					'ineficiently',
 				],
 				'inefficients'=>[
 					'inifficients',
@@ -4532,6 +5579,10 @@
 				'ineludible'=>[
 					'ineludable',
 				],
+				'inenarrable'=>[
+					'inenarable',
+					'inenarrrable',
+				],
 				'inept'=>[
 					'inipt',
 				],
@@ -4577,14 +5628,24 @@
 					'ineradicablly',
 					'iniradicably',
 				],
+				'inerrable'=>[
+					'inerable',
+					'inerrrable',
+				],
+				'inerrancies'=>[
+					'inerancies',
+					'inerrrancies',
+				],
 				'inerrancy'=>[
 					'inerancy',
 					'inerransy',
 					'inirrancy',
+					'inerrrancy',
 				],
 				'inerrant'=>[
 					'inerant',
 					'inerrent',
+					'inerrrant',
 				],
 				'inert'=>[
 					'inirt',
@@ -4837,16 +5898,31 @@
 					'inextricabely',
 					'inextricablly',
 				],
+				'infallibilism'=>[
+					'infalibilism',
+					'infalllibilism',
+				],
 				'infallibilities'=>[
 					'infalibilities',
+				],
+				'infallibility'=>[
+					'infalibility',
+					'infalllibility',
 				],
 				'infallible'=>[
 					'infalible',
 					'infallable',
+					'infalllible',
 				],
 				'infallibleness'=>[
 					'infalliblenes',
 					'infalliblenesss',
+					'infalibleness',
+					'infalllibleness',
+				],
+				'infallibly'=>[
+					'infalibly',
+					'infalllibly',
 				],
 				'infamousness'=>[
 					'infamousnes',
@@ -4954,12 +6030,26 @@
 				'inferential'=>[
 					'inferantial',
 				],
+				'inferentially'=>[
+					'inferentiallly',
+					'inferentialy',
+				],
+				'infernally'=>[
+					'infernallly',
+					'infernaly',
+				],
 				'inferolateral'=>[
 					'inferiolateral',
+				],
+				'inferred'=>[
+					'inferrred',
 				],
 				'inferrible'=>[
 					'inferible',
 					'inferrable',
+				],
+				'inferring'=>[
+					'inferrring',
 				],
 				'infestation'=>[
 					'inestation',
@@ -4974,6 +6064,16 @@
 				],
 				'infill'=>[
 					'infil',
+					'infilll',
+				],
+				'infilled'=>[
+					'infillled',
+				],
+				'infilling'=>[
+					'infillling',
+				],
+				'infills'=>[
+					'infillls',
 				],
 				'infiltrate'=>[
 					'infilitrate',
@@ -5004,6 +6104,7 @@
 				'infinitesimally'=>[
 					'infinatesimally',
 					'infinitesimaly',
+					'infinitesimallly',
 				],
 				'infinitesimals'=>[
 					'infinatesimals',
@@ -5042,28 +6143,39 @@
 				],
 				'inflammability'=>[
 					'inflamnability',
+					'inflamability',
+					'inflammmability',
 				],
 				'inflammable'=>[
 					'inflammible',
 					'inflamnable',
+					'inflamable',
+					'inflammmable',
 				],
 				'inflammableness'=>[
 					'inflamnableness',
 					'inflammablenes',
 					'inflammablenesss',
+					'inflamableness',
+					'inflammmableness',
 				],
 				'inflammables'=>[
 					'inflamnables',
 				],
 				'inflammably'=>[
 					'inflamnably',
+					'inflamably',
+					'inflammmably',
 				],
 				'inflammation'=>[
 					'inflamation',
 					'inflamnation',
+					'inflammmation',
 				],
 				'inflammations'=>[
 					'inflamnations',
+					'inflamations',
+					'inflammmations',
 				],
 				'inflammatorily'=>[
 					'inflamnatorily',
@@ -5072,6 +6184,7 @@
 					'inflamaory',
 					'inflamatory',
 					'inflamnatory',
+					'inflammmatory',
 				],
 				'inflatable'=>[
 					'inflatible',
@@ -5085,6 +6198,7 @@
 					'inflectionalaly',
 					'inflectionalely',
 					'inflectionallly',
+					'inflectionaly',
 				],
 				'inflectionless'=>[
 					'inflectionles',
@@ -5119,6 +6233,10 @@
 					'influental',
 					'infuential',
 				],
+				'influentially'=>[
+					'influentiallly',
+					'influentialy',
+				],
 				'infobahn'=>[
 					'infoban',
 				],
@@ -5127,6 +6245,10 @@
 				],
 				'infomercial'=>[
 					'infommercial',
+				],
+				'informally'=>[
+					'informallly',
+					'informaly',
 				],
 				'informant'=>[
 					'informent',
@@ -5265,6 +6387,14 @@
 				],
 				'ingestible'=>[
 					'ingestable',
+				],
+				'inglenook'=>[
+					'inglenok',
+					'inglenoook',
+				],
+				'inglenooks'=>[
+					'inglenoks',
+					'inglenoooks',
 				],
 				'inglorious'=>[
 					'inglorous',
@@ -5407,12 +6537,17 @@
 					'inhumaness',
 					'inhumannes',
 					'inhumannesss',
+					'inhumannness',
 				],
 				'inhumannesses'=>[
 					'inhumanesses',
 				],
 				'inimical'=>[
 					'inamical',
+				],
+				'inimically'=>[
+					'inimicallly',
+					'inimicaly',
 				],
 				'inimitable'=>[
 					'inamitable',
@@ -5479,14 +6614,19 @@
 				'initializing'=>[
 					'inatializing',
 				],
+				'initialled'=>[
+					'initiallled',
+				],
 				'initialling'=>[
 					'inatialling',
+					'initiallling',
 				],
 				'initially'=>[
 					'initally',
 					'initialy',
 					'initiially',
 					'intially',
+					'initiallly',
 				],
 				'initialness'=>[
 					'inatialness',
@@ -5579,13 +6719,23 @@
 				],
 				'inkberries'=>[
 					'inkberies',
+					'inkberrries',
 				],
 				'inkberry'=>[
 					'inkbery',
+					'inkberrry',
 				],
 				'inkiness'=>[
 					'inkines',
 					'inkinesss',
+				],
+				'inkwell'=>[
+					'inkwel',
+					'inkwelll',
+				],
+				'inkwells'=>[
+					'inkwellls',
+					'inkwels',
 				],
 				'inmate'=>[
 					'imate',
@@ -5615,19 +6765,27 @@
 					'imost',
 					'inost',
 				],
+				'inn'=>[
+					'innn',
+				],
 				'innards'=>[
 					'inards',
+					'innnards',
 				],
 				'innate'=>[
 					'inate',
+					'innnate',
 				],
 				'innately'=>[
 					'inately',
 					'innatly',
+					'innnately',
 				],
 				'innateness'=>[
 					'innatenes',
 					'innatenesss',
+					'inateness',
+					'innnateness',
 				],
 				'innatenesses'=>[
 					'inatenesses',
@@ -5637,56 +6795,95 @@
 				],
 				'inner'=>[
 					'iner',
+					'innner',
 				],
 				'inner tube'=>[
 					'intertube',
 				],
 				'innermost'=>[
 					'inermost',
+					'innnermost',
 				],
 				'innerness'=>[
 					'inerness',
 					'innernes',
 					'innernesss',
+					'innnerness',
 				],
 				'innernesses'=>[
 					'inernesses',
 				],
 				'innersole'=>[
 					'inersole',
+					'innnersole',
+				],
+				'innersoles'=>[
+					'inersoles',
+					'innnersoles',
 				],
 				'innerspring'=>[
 					'inerspring',
+					'innnerspring',
 				],
 				'innervate'=>[
 					'inervate',
+					'innnervate',
+				],
+				'innervated'=>[
+					'inervated',
+					'innnervated',
+				],
+				'innervates'=>[
+					'inervates',
+					'innnervates',
 				],
 				'innervating'=>[
 					'inervating',
+					'innnervating',
 				],
 				'innervation'=>[
 					'inervation',
+					'innnervation',
 				],
 				'innervations'=>[
 					'inervations',
 				],
 				'innerve'=>[
 					'inerve',
+					'innnerve',
 				],
 				'innerving'=>[
 					'inerving',
 				],
 				'inning'=>[
 					'ining',
+					'innning',
+				],
+				'innings'=>[
+					'inings',
+					'innnings',
+				],
+				'innit'=>[
+					'innnit',
 				],
 				'innkeeper'=>[
 					'inkeeper',
+					'innkeeeper',
+					'innkeper',
+					'innnkeeper',
+				],
+				'innkeepers'=>[
+					'inkeepers',
+					'innkeeepers',
+					'innkepers',
+					'innnkeepers',
 				],
 				'innocence'=>[
 					'innocance',
 					'innocense',
 					'innosense',
 					'inocence',
+					'innnocence',
 				],
 				'innocencies'=>[
 					'inocencies',
@@ -5694,30 +6891,40 @@
 				'innocency'=>[
 					'innocensy',
 					'inocency',
+					'innnocency',
 				],
 				'innocent'=>[
 					'innocant',
 					'inocent',
+					'innnocent',
 				],
 				'innocentest'=>[
 					'inocentest',
 				],
+				'innocently'=>[
+					'innnocently',
+					'inocently',
+				],
 				'innocents'=>[
 					'inocents',
+					'innnocents',
 				],
 				'innocuous'=>[
 					'innocous',
 					'inocuous',
+					'innnocuous',
 				],
 				'innocuously'=>[
 					'innocously',
 					'inocuously',
+					'innnocuously',
 				],
 				'innocuousness'=>[
 					'innocousness',
 					'inocuousness',
 					'innocuousnes',
 					'innocuousnesss',
+					'innnocuousness',
 				],
 				'innocuousnesses'=>[
 					'innocousnesses',
@@ -5726,28 +6933,40 @@
 				'innominate'=>[
 					'innominite',
 					'inominate',
+					'innnominate',
 				],
 				'innovate'=>[
 					'inovate',
+					'innnovate',
 				],
 				'innovated'=>[
 					'inovated',
+					'innnovated',
 				],
 				'innovates'=>[
 					'inovates',
+					'innnovates',
+				],
+				'innovating'=>[
+					'innnovating',
+					'inovating',
 				],
 				'innovation'=>[
 					'innovaton',
 					'inovation',
+					'innnovation',
 				],
 				'innovational'=>[
 					'inovational',
+					'innnovational',
 				],
 				'innovations'=>[
 					'inovations',
+					'innnovations',
 				],
 				'innovative'=>[
 					'inovative',
+					'innnovative',
 				],
 				'innovatively'=>[
 					'innovativly',
@@ -5758,44 +6977,68 @@
 				],
 				'innovator'=>[
 					'inovator',
+					'innnovator',
+				],
+				'innovators'=>[
+					'innnovators',
+					'inovators',
+				],
+				'innovatory'=>[
+					'innnovatory',
+					'inovatory',
 				],
 				'innoxious'=>[
 					'innoxous',
 					'inoxious',
+					'innnoxious',
 				],
 				'inns'=>[
 					'innns',
 				],
 				'innuendo'=>[
 					'inuendo',
+					'innnuendo',
+				],
+				'innuendoes'=>[
+					'innnuendoes',
 				],
 				'innuendoing'=>[
 					'inuendoing',
 				],
 				'innuendos'=>[
 					'inuendos',
+					'innnuendos',
 				],
 				'innumerable'=>[
 					'innumerible',
 					'inumerable',
+					'innnumerable',
 				],
 				'innumerably'=>[
 					'inumerably',
+					'innnumerably',
 				],
 				'innumeracies'=>[
 					'inumeracies',
 				],
 				'innumeracy'=>[
 					'innumerasy',
+					'innnumeracy',
+					'inumeracy',
 				],
 				'innumerate'=>[
 					'inumerate',
+					'innnumerate',
 				],
 				'innumerates'=>[
 					'inumerates',
 				],
 				'innumerous'=>[
 					'inumerous',
+				],
+				'innutrition'=>[
+					'innnutrition',
+					'inutrition',
 				],
 				'inobservance'=>[
 					'inobservence',
@@ -5820,31 +7063,50 @@
 				'inoculative'=>[
 					'innoculative',
 				],
+				'inoffensive'=>[
+					'inofensive',
+					'inofffensive',
+				],
 				'inoffensively'=>[
 					'inoffensivly',
+					'inofensively',
+					'inofffensively',
 				],
 				'inoffensiveness'=>[
 					'inoffensivenes',
 					'inoffensivenesss',
+					'inofensiveness',
+					'inofffensiveness',
+				],
+				'inofficious'=>[
+					'inoffficious',
+					'inoficious',
 				],
 				'inoperable'=>[
 					'inoperible',
 				],
 				'inopportune'=>[
 					'inoportune',
+					'inoppportune',
 				],
 				'inopportunely'=>[
 					'inoportunely',
 					'inopportunly',
+					'inoppportunely',
 				],
 				'inopportuneness'=>[
 					'inoportuneness',
 					'inopportunenes',
 					'inopportunenesss',
+					'inoppportuneness',
 				],
 				'inopportunenesses'=>[
 					'inopportuneneses',
 					'inopportunenessses',
+				],
+				'inopportunity'=>[
+					'inoportunity',
+					'inoppportunity',
 				],
 				'inordinate'=>[
 					'inordinite',
@@ -5863,6 +7125,8 @@
 				],
 				'inorganically'=>[
 					'inourganically',
+					'inorganicallly',
+					'inorganicaly',
 				],
 				'inosine'=>[
 					'inosini',
@@ -5874,6 +7138,9 @@
 				],
 				'input'=>[
 					'inputted',
+				],
+				'inputting'=>[
+					'inputtting',
 				],
 				'inquietude'=>[
 					'inqueitude',
@@ -5897,6 +7164,7 @@
 				],
 				'inquisitorially'=>[
 					'inquisitorialy',
+					'inquisitoriallly',
 				],
 				'insalubrious'=>[
 					'insalubrous',
@@ -6019,6 +7287,12 @@
 				'inseparably'=>[
 					'inseperably',
 				],
+				'insetted'=>[
+					'insettted',
+				],
+				'insetting'=>[
+					'insettting',
+				],
 				'inside the'=>[
 					'insidethe',
 				],
@@ -6140,12 +7414,17 @@
 				],
 				'inspanned'=>[
 					'inspaned',
+					'inspannned',
+				],
+				'inspanning'=>[
+					'inspannning',
 				],
 				'inspiration'=>[
 					'insperation',
 				],
 				'inspirationally'=>[
 					'inspirationaly',
+					'inspirationallly',
 				],
 				'inspired'=>[
 					'inpsired',
@@ -6164,26 +7443,48 @@
 			#	'install'=>[
 			#		'instal',
 			#	],
+				'install'=>[
+					'installl',
+				],
 				'installation'=>[
 					'instalation',
 					'installtion',
 					'instilation',
 					'instillation',
+					'installlation',
+				],
+				'installations'=>[
+					'instalations',
+					'installlations',
 				],
 				'installed'=>[
 					'instaled',
+					'installled',
+				],
+				'installer'=>[
+					'installler',
+				],
+				'installers'=>[
+					'instalers',
+					'installlers',
 				],
 				'installing'=>[
 					'instaling',
+					'installling',
 				],
 				'installment'=>[
 					'installmant',
 					# instalment: an accepted spelling, not a slip (AmericanBritishWords_I: installment)
 				#	'instalment',
 					'intallment',
+					'installlment',
 				],
 				'installments'=>[
 					'intallments',
+					'installlments',
+				],
+				'installs'=>[
+					'installls',
 				],
 				'instance'=>[
 					'instatance',
@@ -6261,6 +7562,27 @@
 				'instigators'=>[
 					'instogators',
 				],
+				'instill'=>[
+					'instilll',
+				],
+				'instilled'=>[
+					'instillled',
+				],
+				'instiller'=>[
+					'instilller',
+				],
+				'instilling'=>[
+					'instillling',
+				],
+				'instillment'=>[
+					'instilllment',
+				],
+				'instillments'=>[
+					'instilllments',
+				],
+				'instills'=>[
+					'instillls',
+				],
 				'instinctively'=>[
 					'instinctivly',
 					'instinctually',
@@ -6285,6 +7607,7 @@
 				],
 				'institutionally'=>[
 					'institutionaly',
+					'institutionallly',
 				],
 				'institutions'=>[
 					'insitutions',
@@ -6327,6 +7650,7 @@
 					'instrumentalaly',
 					'instrumentalely',
 					'instrumentallly',
+					'instrumentaly',
 				],
 				'instrumentation'=>[
 					'instrumantation',
@@ -6356,19 +7680,29 @@
 				'insubstantial'=>[
 					'insubstential',
 				],
+				'insubstantially'=>[
+					'insubstantiallly',
+					'insubstantialy',
+				],
 				'insufferable'=>[
 					'insufferible',
+					'insuferable',
+					'insuffferable',
 				],
 				'insufferably'=>[
 					'insufferabally',
 					'insufferabaly',
 					'insufferabely',
 					'insufferablly',
+					'insuferably',
+					'insuffferably',
 				],
 				'insufficiency'=>[
 					'insufficeincy',
 					'insufficiensy',
 					'insufficincy',
+					'insuffficiency',
+					'insuficiency',
 				],
 				'insufficient'=>[
 					'insufficeint',
@@ -6376,10 +7710,26 @@
 					'insufficiant',
 					'insufficint',
 					'unsufficient',
+					'insuffficient',
+					'insuficient',
 				],
 				'insufficiently'=>[
 					'insufficently',
 					'insufficiantly',
+					'insuffficiently',
+					'insuficiently',
+				],
+				'insufflate'=>[
+					'insuffflate',
+					'insuflate',
+				],
+				'insufflation'=>[
+					'insuffflation',
+					'insuflation',
+				],
+				'insufflations'=>[
+					'insuffflations',
+					'insuflations',
 				],
 				'insular'=>[
 					'insuler',
@@ -6393,15 +7743,18 @@
 				'insupportable'=>[
 					'insuportable',
 					'insupportible',
+					'insuppportable',
 				],
 				'insupportably'=>[
 					'insuportably',
+					'insuppportably',
 				],
 				'insuppressible'=>[
 					'insuppresible',
 					'insuppressable',
 					'insupressible',
 					'insuppresssible',
+					'insupppressible',
 				],
 				'insurance'=>[
 					'insuarnce',
@@ -6419,6 +7772,7 @@
 				],
 				'insurrection'=>[
 					'insurection',
+					'insurrrection',
 				],
 				'insurrectional'=>[
 					'insurectional',
@@ -6426,12 +7780,19 @@
 				'insurrectionary'=>[
 					'insurectionary',
 					'insurrectionery',
+					'insurrrectionary',
 				],
 				'insurrectionist'=>[
 					'insurectionist',
+					'insurrrectionist',
+				],
+				'insurrectionists'=>[
+					'insurectionists',
+					'insurrrectionists',
 				],
 				'insurrections'=>[
 					'insurections',
+					'insurrrections',
 				],
 				'insusceptible'=>[
 					'insuceptible',
@@ -6466,6 +7827,10 @@
 					'intregal',
 					'intrical',
 				],
+				'integrally'=>[
+					'integrallly',
+					'integraly',
+				],
 				'integrate'=>[
 					'intergrate',
 					'intigrate',
@@ -6487,25 +7852,38 @@
 				],
 				'intellect'=>[
 					'intelect',
+					'intelllect',
 				],
 				'intellection'=>[
 					'intelection',
+					'intelllection',
+				],
+				'intellections'=>[
+					'intelections',
+					'intelllections',
 				],
 				'intellective'=>[
 					'intelective',
+					'intelllective',
 				],
 				'intellectively'=>[
 					'intellectivly',
+				],
+				'intellects'=>[
+					'intelects',
+					'intelllects',
 				],
 				'intellectual'=>[
 					'intelectual',
 					'intellectaul',
 					'intellectul',
 					'intelletual',
+					'intelllectual',
 				],
 				'intellectualism'=>[
 					'intelectualism',
 					'intellectaulism',
+					'intelllectualism',
 				],
 				'intellectualist'=>[
 					'intelectualist',
@@ -6514,10 +7892,28 @@
 				'intellectuality'=>[
 					'intelectuality',
 					'intellectaulity',
+					'intelllectuality',
+				],
+				'intellectualization'=>[
+					'intelectualization',
+					'intelllectualization',
 				],
 				'intellectualize'=>[
 					'intelectualize',
 					'intellectaulize',
+					'intelllectualize',
+				],
+				'intellectualized'=>[
+					'intelectualized',
+					'intelllectualized',
+				],
+				'intellectualizes'=>[
+					'intelectualizes',
+					'intelllectualizes',
+				],
+				'intellectualizing'=>[
+					'intelectualizing',
+					'intelllectualizing',
 				],
 				'intellectually'=>[
 					'intellectaully',
@@ -6525,43 +7921,63 @@
 					'intellectualaly',
 					'intellectualely',
 					'intellectuallly',
+					'intelectually',
+					'intellectualy',
+					'intelllectually',
 				],
 				'intellectuals'=>[
 					'intelectuals',
 					'intellectauls',
+					'intelllectuals',
 				],
 				'intelligence'=>[
 					'inteligence',
 					'intelligance',
+					'intellligence',
 				],
 				'intelligencer'=>[
 					'inteligencer',
+					'intellligencer',
+				],
+				'intelligences'=>[
+					'inteligences',
+					'intellligences',
 				],
 				'intelligent'=>[
 					'inteligent',
 					'intellegent',
 					'intelligant',
+					'intellligent',
+				],
+				'intelligently'=>[
+					'inteligently',
+					'intellligently',
 				],
 				'intelligentsia'=>[
 					'inteligentsia',
 					'intelligantsia',
 					'intelligensia',
+					'intellligentsia',
 				],
 				'intelligentsias'=>[
 					'inteligentsias',
 				],
 				'intelligibility'=>[
 					'inteligibility',
+					'intellligibility',
 				],
 				'intelligible'=>[
 					'inteligible',
 					'intelligable',
+					'intellligible',
 				],
 				'intelligibly'=>[
 					'intelligibally',
 					'intelligibaly',
 					'intelligibely',
 					'intelligiblly',
+					'inteligibly',
+					'intellligibly',
 				],
 				'intemperance'=>[
 					'intemperence',
@@ -6609,6 +8025,10 @@
 					'intensifeir',
 					'intensifir',
 				],
+				'intensionally'=>[
+					'intensionallly',
+					'intensionaly',
+				],
 				'intensity'=>[
 					'intesity',
 				],
@@ -6630,6 +8050,10 @@
 				],
 				'intentionality'=>[
 					'intantionality',
+				],
+				'intentionally'=>[
+					'intentionallly',
+					'intentionaly',
 				],
 				'intently'=>[
 					'intentally',
@@ -6656,8 +8080,18 @@
 				'interannual'=>[
 					'interanual',
 				],
+				'interbedded'=>[
+					'interbeddded',
+				],
 				'interbreed'=>[
 					'interbread',
+					'interbreeed',
+				],
+				'interbreeding'=>[
+					'interbreeeding',
+				],
+				'interbreeds'=>[
+					'interbreeeds',
 				],
 				'intercalary'=>[
 					'intercalery',
@@ -6668,6 +8102,7 @@
 				'intercellular'=>[
 					'intercelluler',
 					'intercelular',
+					'intercelllular',
 				],
 				'intercession'=>[
 					'intercesion',
@@ -6717,6 +8152,7 @@
 				],
 				'intercollegiate'=>[
 					'intercolegiate',
+					'intercolllegiate',
 				],
 				'intercommissural'=>[
 					'intercomissural',
@@ -6725,11 +8161,39 @@
 				'intercommunal'=>[
 					'intercomnunal',
 				],
+				'intercommunicate'=>[
+					'intercommmunicate',
+					'intercomunicate',
+				],
+				'intercommunicated'=>[
+					'intercommmunicated',
+					'intercomunicated',
+				],
+				'intercommunicates'=>[
+					'intercommmunicates',
+					'intercomunicates',
+				],
+				'intercommunicating'=>[
+					'intercommmunicating',
+					'intercomunicating',
+				],
+				'intercommunication'=>[
+					'intercommmunication',
+					'intercomunication',
+				],
+				'intercommunicative'=>[
+					'intercommmunicative',
+					'intercomunicative',
+				],
 				'intercommunion'=>[
 					'intercomnunion',
+					'intercommmunion',
+					'intercomunion',
 				],
 				'intercommunions'=>[
 					'intercomnunions',
+					'intercommmunions',
+					'intercomunions',
 				],
 				'intercommunity'=>[
 					'intercomnunity',
@@ -6754,22 +8218,33 @@
 				],
 				'interconnect'=>[
 					'interconect',
+					'interconnnect',
 				],
 				'interconnected'=>[
 					'interconected',
+					'interconnnected',
 				],
 				'interconnectedness'=>[
 					'interconnectednes',
 					'interconnectednesss',
+					'interconectedness',
+					'interconnnectedness',
 				],
 				'interconnecting'=>[
 					'interconecting',
+					'interconnnecting',
 				],
 				'interconnection'=>[
 					'interconection',
+					'interconnnection',
+				],
+				'interconnections'=>[
+					'interconections',
+					'interconnnections',
 				],
 				'interconnects'=>[
 					'interconects',
+					'interconnnects',
 				],
 				'intercorrelate'=>[
 					'intercorelate',
@@ -6799,6 +8274,7 @@
 				'intercurrent'=>[
 					'intercurent',
 					'intercurrant',
+					'intercurrrent',
 				],
 				'interdental'=>[
 					'interdantal',
@@ -6899,6 +8375,10 @@
 					'interor',
 					'interrior',
 				],
+				'interjectionally'=>[
+					'interjectionallly',
+					'interjectionaly',
+				],
 				'interjoining'=>[
 					'interjoinang',
 				],
@@ -6971,15 +8451,31 @@
 				],
 				'intermarriage'=>[
 					'intermariage',
+					'intermarrriage',
 				],
 				'intermarriages'=>[
 					'intermariages',
+					'intermarrriages',
+				],
+				'intermarried'=>[
+					'intermaried',
+					'intermarrried',
+				],
+				'intermarries'=>[
+					'intermaries',
+					'intermarrries',
 				],
 				'intermarry'=>[
 					'intermary',
+					'intermarrry',
 				],
 				'intermarrying'=>[
 					'intermarying',
+					'intermarrrying',
+				],
+				'intermeddle'=>[
+					'intermedddle',
+					'intermedle',
 				],
 				'intermediacy'=>[
 					'intermediasy',
@@ -7003,6 +8499,18 @@
 				'intermenstrual'=>[
 					'intermenstraul',
 				],
+				'intermezzi'=>[
+					'intermezi',
+					'intermezzzi',
+				],
+				'intermezzo'=>[
+					'intermezo',
+					'intermezzzo',
+				],
+				'intermezzos'=>[
+					'intermezos',
+					'intermezzzos',
+				],
 				'interminable'=>[
 					'interminible',
 				],
@@ -7024,28 +8532,49 @@
 					'intermisions',
 					'intermisssions',
 				],
+				'intermitted'=>[
+					'intermittted',
+				],
 				'intermittence'=>[
 					'intermittance',
+					'intermitence',
+					'intermitttence',
+				],
+				'intermittences'=>[
+					'intermitences',
+					'intermitttences',
+				],
+				'intermittencies'=>[
+					'intermitencies',
+					'intermitttencies',
 				],
 				'intermittency'=>[
 					'intermittensy',
+					'intermitency',
+					'intermitttency',
 				],
 				'intermittent'=>[
 					'intermitant',
 					'intermitent',
 					'intermittant',
 					'intermitten',
+					'intermitttent',
 				],
 				'intermittently'=>[
 					'intermitantly',
 					'intermitently',
 					'intermittantly',
+					'intermitttently',
+				],
+				'intermitting'=>[
+					'intermittting',
 				],
 				'intermolecular'=>[
 					'intermoleculer',
 				],
 				'internally'=>[
 					'internaly',
+					'internallly',
 				],
 				'international'=>[
 					'interanational',
@@ -7058,9 +8587,16 @@
 				],
 				'internationally'=>[
 					'internationaly',
+					'internationallly',
 				],
 				'internecine'=>[
 					'internecini',
+				],
+				'internee'=>[
+					'interneee',
+				],
+				'internees'=>[
+					'interneees',
 				],
 				'internment'=>[
 					'interment',
@@ -7080,6 +8616,10 @@
 				],
 				'interocular'=>[
 					'interoccular',
+				],
+				'interoffice'=>[
+					'interofffice',
+					'interofice',
 				],
 				'interoperable'=>[
 					'interoperible',
@@ -7102,11 +8642,33 @@
 				'interparticle'=>[
 					'interperticle',
 				],
+				'interpellant'=>[
+					'interpelant',
+					'interpelllant',
+				],
 				'interpellate'=>[
 					'interpelate',
+					'interpelllate',
+				],
+				'interpellated'=>[
+					'interpelated',
+					'interpelllated',
+				],
+				'interpellates'=>[
+					'interpelates',
+					'interpelllates',
+				],
+				'interpellating'=>[
+					'interpelating',
+					'interpelllating',
+				],
+				'interpellation'=>[
+					'interpelation',
+					'interpelllation',
 				],
 				'interpellations'=>[
 					'interpelations',
+					'interpelllations',
 				],
 				'interperceptual'=>[
 					'interperceptaul',
@@ -7122,6 +8684,7 @@
 				],
 				'interpersonally'=>[
 					'interpersonaly',
+					'interpersonallly',
 				],
 				'interphalangeal'=>[
 					'interphalangel',
@@ -7165,14 +8728,24 @@
 					'interpupilary',
 					'interpupillery',
 				],
+				'interrace'=>[
+					'interace',
+					'interrrace',
+				],
 				'interracial'=>[
 					'interacial',
+					'interrracial',
 				],
 				'interracially'=>[
 					'interacially',
 				],
+				'interradial'=>[
+					'interadial',
+					'interrradial',
+				],
 				'interred'=>[
 					'intered',
+					'interrred',
 				],
 				'interred & interned'=>[
 					'intered',
@@ -7185,17 +8758,29 @@
 				],
 				'interregna'=>[
 					'interegna',
+					'interrregna',
+				],
+				'interregnal'=>[
+					'interegnal',
+					'interrregnal',
 				],
 				'interregnum'=>[
 					'interegnum',
 					'interregum',
 					'interrugum',
+					'interrregnum',
+				],
+				'interregnums'=>[
+					'interegnums',
+					'interrregnums',
 				],
 				'interrelate'=>[
 					'interelate',
+					'interrrelate',
 				],
 				'interrelated'=>[
 					'interelated',
+					'interrrelated',
 				],
 				'interrelatedly'=>[
 					'interelatedly',
@@ -7203,19 +8788,38 @@
 				'interrelatedness'=>[
 					'interrelatednes',
 					'interrelatednesss',
+					'interelatedness',
+					'interrrelatedness',
 				],
 				'interrelatednesses'=>[
 					'interrelatedneses',
 					'interrelatednessses',
+					'interelatednesses',
+					'interrrelatednesses',
+				],
+				'interrelates'=>[
+					'interelates',
+					'interrrelates',
 				],
 				'interrelating'=>[
 					'interelating',
+					'interrrelating',
 				],
 				'interrelation'=>[
 					'interelation',
+					'interrrelation',
 				],
 				'interrelations'=>[
 					'interelations',
+					'interrrelations',
+				],
+				'interrelationship'=>[
+					'interelationship',
+					'interrrelationship',
+				],
+				'interrelationships'=>[
+					'interelationships',
+					'interrrelationships',
 				],
 				'interreligious'=>[
 					'intereligious',
@@ -7224,29 +8828,50 @@
 				'interrenal'=>[
 					'interenal',
 				],
+				'interrex'=>[
+					'interex',
+					'interrrex',
+				],
+				'interring'=>[
+					'interrring',
+				],
 				'interrobang'=>[
 					'interobang',
 				],
 				'interrogate'=>[
 					'interogate',
+					'interrrogate',
+				],
+				'interrogated'=>[
+					'interogated',
+					'interrrogated',
 				],
 				'interrogatees'=>[
 					'interogatees',
 				],
+				'interrogates'=>[
+					'interogates',
+					'interrrogates',
+				],
 				'interrogating'=>[
 					'interogating',
+					'interrrogating',
 				],
 				'interrogation'=>[
 					'interogation',
+					'interrrogation',
 				],
 				'interrogational'=>[
 					'interogational',
+					'interrrogational',
 				],
 				'interrogations'=>[
 					'interogations',
+					'interrrogations',
 				],
 				'interrogative'=>[
 					'interogative',
+					'interrrogative',
 				],
 				'interrogatively'=>[
 					'interogatively',
@@ -7255,18 +8880,31 @@
 					'interrogativeely',
 					'interrogativelly',
 					'interrogativly',
+					'interrrogatively',
 				],
 				'interrogatives'=>[
 					'interogatives',
+					'interrrogatives',
+				],
+				'interrogator'=>[
+					'interogator',
+					'interrrogator',
 				],
 				'interrogatories'=>[
 					'interogatories',
+					'interrrogatories',
+				],
+				'interrogatorily'=>[
+					'interogatorily',
+					'interrrogatorily',
 				],
 				'interrogators'=>[
 					'interogators',
+					'interrrogators',
 				],
 				'interrogatory'=>[
 					'interogatory',
+					'interrrogatory',
 				],
 				'interrogee'=>[
 					'interogee',
@@ -7274,25 +8912,43 @@
 				'interrupt'=>[
 					'interupt',
 					'inturrupt',
+					'interrrupt',
 				],
 				'interrupted'=>[
 					'interupted',
+					'interrrupted',
 				],
 				'interrupter'=>[
 					'interupter',
+					'interrrupter',
+				],
+				'interrupters'=>[
+					'interrrupters',
+					'interupters',
 				],
 				'interruptible'=>[
 					'interruptable',
 					'interuptible',
 				],
+				'interrupting'=>[
+					'interrrupting',
+					'interupting',
+				],
 				'interruption'=>[
 					'interuption',
+					'interrruption',
 				],
 				'interruptions'=>[
 					'interuptions',
+					'interrruptions',
+				],
+				'interruptive'=>[
+					'interrruptive',
+					'interuptive',
 				],
 				'interrupts'=>[
 					'interupts',
+					'interrrupts',
 				],
 				'interscholastic'=>[
 					'intercholastic',
@@ -7322,6 +8978,10 @@
 				'interstellar'=>[
 					'interstelar',
 					'intersteller',
+					'interstelllar',
+				],
+				'interstitially'=>[
+					'interstitiallly',
 				],
 				'intertextual'=>[
 					'intertextaul',
@@ -7348,6 +9008,9 @@
 				'intertwining'=>[
 					'intertwinang',
 				],
+				'intervallic'=>[
+					'intervalllic',
+				],
 				'intervened'=>[
 					'intervend',
 				],
@@ -7366,6 +9029,14 @@
 					'interviw',
 					'inteview',
 				],
+				'interviewee'=>[
+					'interviewe',
+					'intervieweee',
+				],
+				'interviewees'=>[
+					'intervieweees',
+					'interviewes',
+				],
 				'intervisible'=>[
 					'intervisable',
 				],
@@ -7380,6 +9051,10 @@
 				],
 				'intestinal'=>[
 					'intestinil',
+				],
+				'intestinally'=>[
+					'intestinallly',
+					'intestinaly',
 				],
 				'intestine'=>[
 					'intestini',
@@ -7438,6 +9113,7 @@
 				'intracellular'=>[
 					'intracelluler',
 					'intracelular',
+					'intracelllular',
 				],
 				'intracellularly'=>[
 					'intracelularly',
@@ -7569,6 +9245,10 @@
 				'intrapreneur'=>[
 					'intraprener',
 				],
+				'intratelluric'=>[
+					'intratellluric',
+					'intrateluric',
+				],
 				'intrathecal'=>[
 					'intratheral',
 				],
@@ -7621,6 +9301,10 @@
 				],
 				'intrinsic'=>[
 					'instrinsic',
+				],
+				'intrinsically'=>[
+					'intrinsicallly',
+					'intrinsicaly',
 				],
 				'introduce'=>[
 					'inctroduce',
@@ -7694,6 +9378,10 @@
 				],
 				'intuition'=>[
 					'intution',
+				],
+				'intuitionally'=>[
+					'intuitionallly',
+					'intuitionaly',
 				],
 				'intuitive'=>[
 					'intutive',
@@ -7969,6 +9657,12 @@
 					'invisable',
 					'unvisible',
 				],
+				'invitee'=>[
+					'inviteee',
+				],
+				'invitees'=>[
+					'inviteees',
+				],
 				'invoke'=>[
 					'envoke',
 				],
@@ -8090,8 +9784,16 @@
 					'iratenes',
 					'iratenesss',
 				],
+				'irefully'=>[
+					'irefullly',
+					'irefuly',
+				],
 				'ireland'=>[
 					'irland',
+				],
+				'irenically'=>[
+					'irenicallly',
+					'irenicaly',
 				],
 				'iridescence'=>[
 					'iridecence',
@@ -8128,6 +9830,7 @@
 				'ironically'=>[
 					'ironicaly',
 					'ironicly',
+					'ironicallly',
 				],
 				'ironicalness'=>[
 					'ironicalnes',
@@ -8165,36 +9868,66 @@
 					'iromongery',
 					'ironongery',
 				],
+				'ironweed'=>[
+					'ironwed',
+					'ironweeed',
+				],
+				'ironweeds'=>[
+					'ironweds',
+					'ironweeeds',
+				],
+				'ironwood'=>[
+					'ironwod',
+					'ironwoood',
+				],
+				'ironwoods'=>[
+					'ironwods',
+					'ironwooods',
+				],
 				'irradiance'=>[
 					'iradiance',
 					'irradience',
+					'irrradiance',
 				],
 				'irradiant'=>[
 					'iradiant',
+					'irrradiant',
 				],
 				'irradiate'=>[
 					'iradiate',
+					'irrradiate',
 				],
 				'irradiated'=>[
 					'iradiated',
+					'irrradiated',
 				],
 				'irradiates'=>[
 					'iradiates',
+					'irrradiates',
 				],
 				'irradiating'=>[
 					'irridiating',
+					'iradiating',
+					'irrradiating',
 				],
 				'irradiation'=>[
 					'iradiation',
+					'irrradiation',
+				],
+				'irradiative'=>[
+					'iradiative',
+					'irrradiative',
 				],
 				'irradiator'=>[
 					'iradiator',
+					'irrradiator',
 				],
 				'irradicable'=>[
 					'iradicable',
 				],
 				'irrational'=>[
 					'irational',
+					'irrrational',
 				],
 				'irrationalism'=>[
 					'irationalism',
@@ -8213,9 +9946,25 @@
 				],
 				'irrationalities'=>[
 					'irationalities',
+					'irrrationalities',
 				],
 				'irrationality'=>[
 					'irationality',
+					'irrrationality',
+				],
+				'irrationalize'=>[
+					'irationalize',
+					'irrrationalize',
+				],
+				'irrationally'=>[
+					'irationally',
+					'irrationallly',
+					'irrationaly',
+					'irrrationally',
+				],
+				'irrationals'=>[
+					'irationals',
+					'irrrationals',
 				],
 				'irreal'=>[
 					'ireal',
@@ -8223,34 +9972,46 @@
 				'irreclaimable'=>[
 					'ireclaimable',
 					'irreclaimible',
+					'irrreclaimable',
 				],
 				'irreclaimably'=>[
 					'ireclaimably',
+				],
+				'irreconcilability'=>[
+					'ireconcilability',
+					'irrreconcilability',
 				],
 				'irreconcilable'=>[
 					'ireconcilable',
 					'irreconcileable',
 					'irreconcilible',
+					'irrreconcilable',
 				],
 				'irreconcilables'=>[
 					'ireconcilables',
 				],
 				'irreconcilably'=>[
 					'ireconcilably',
+					'irrreconcilably',
 				],
 				'irrecoverable'=>[
 					'irecoverable',
 					'irrecoverible',
+					'irrrecoverable',
 				],
 				'irrecoverableness'=>[
 					'irrecoverablenes',
 					'irrecoverablenesss',
+					'irecoverableness',
+					'irrrecoverableness',
 				],
 				'irrecoverably'=>[
 					'irecoverably',
+					'irrrecoverably',
 				],
 				'irrecusable'=>[
 					'irecusable',
+					'irrrecusable',
 				],
 				'irredeemability'=>[
 					'irremediability',
@@ -8258,12 +10019,19 @@
 				'irredeemable'=>[
 					'iredeemable',
 					'irredeemible',
+					'irredeeemable',
+					'irredemable',
+					'irrredeemable',
 				],
 				'irredeemably'=>[
 					'irredeemabally',
 					'irredeemabaly',
 					'irredeemabely',
 					'irredeemablly',
+					'iredeemably',
+					'irredeeemably',
+					'irredemably',
+					'irrredeemably',
 				],
 				'irredenta'=>[
 					'iredenta',
@@ -8275,23 +10043,36 @@
 				],
 				'irredentism'=>[
 					'irredantism',
+					'iredentism',
+					'irrredentism',
 				],
 				'irredentisms'=>[
 					'irredantisms',
+					'iredentisms',
+					'irrredentisms',
 				],
 				'irredentist'=>[
 					'iredentist',
 					'irredantist',
+					'irrredentist',
 				],
 				'irredentists'=>[
 					'irredantists',
+					'iredentists',
+					'irrredentists',
 				],
 				'irreducibility'=>[
 					'ireducibility',
+					'irrreducibility',
 				],
 				'irreducible'=>[
 					'ireducible',
 					'irreducable',
+					'irrreducible',
+				],
+				'irreducibly'=>[
+					'ireducibly',
+					'irrreducibly',
 				],
 				'irreflexive'=>[
 					'ireflexive',
@@ -8302,6 +10083,7 @@
 				'irreformable'=>[
 					'ireformable',
 					'irreformible',
+					'irrreformable',
 				],
 				'irrefragability'=>[
 					'irefragability',
@@ -8309,19 +10091,32 @@
 				'irrefragable'=>[
 					'irefragable',
 					'irrefragible',
+					'irrrefragable',
 				],
 				'irrefragably'=>[
 					'irrefragabally',
 					'irrefragabaly',
 					'irrefragabely',
 					'irrefragablly',
+					'irefragably',
+					'irrrefragably',
+				],
+				'irrefrangible'=>[
+					'irefrangible',
+					'irrrefrangible',
 				],
 				'irrefutability'=>[
 					'irefutability',
+					'irrrefutability',
 				],
 				'irrefutable'=>[
 					'irefutable',
 					'irrefutible',
+					'irrrefutable',
+				],
+				'irrefutably'=>[
+					'irefutably',
+					'irrrefutably',
 				],
 				'irregardless'=>[
 					'iregardless',
@@ -8332,12 +10127,15 @@
 					'iregular',
 					'irreguler',
 					'unregular',
+					'irrregular',
 				],
 				'irregularities'=>[
 					'iregularities',
+					'irrregularities',
 				],
 				'irregularity'=>[
 					'iregularity',
+					'irrregularity',
 				],
 				'irregularly'=>[
 					'irregularally',
@@ -8346,12 +10144,16 @@
 					'irregularily',
 					'irregulariy',
 					'irregularlly',
+					'iregularly',
+					'irrregularly',
 				],
 				'irregulars'=>[
 					'iregulars',
+					'irrregulars',
 				],
 				'irrelative'=>[
 					'irelative',
+					'irrrelative',
 				],
 				'irrelatively'=>[
 					'irrelativly',
@@ -8359,14 +10161,21 @@
 				'irrelevance'=>[
 					'irelevance',
 					'irrelevence',
+					'irrrelevance',
+				],
+				'irrelevances'=>[
+					'irelevances',
+					'irrrelevances',
 				],
 				'irrelevancies'=>[
 					'irelevancies',
+					'irrrelevancies',
 				],
 				'irrelevancy'=>[
 					'irelevancy',
 					'irrelevansy',
 					'irrelevency',
+					'irrrelevancy',
 				],
 				'irrelevant'=>[
 					'irelevant',
@@ -8374,12 +10183,20 @@
 					'irrelavent',
 					'irrelevent',
 					'irrevelant',
+					'irrrelevant',
 				],
 				'irrelevantly'=>[
 					'irrelevently',
+					'irelevantly',
+					'irrrelevantly',
+				],
+				'irrelievable'=>[
+					'irelievable',
+					'irrrelievable',
 				],
 				'irreligion'=>[
 					'ireligion',
+					'irrreligion',
 				],
 				'irreligionist'=>[
 					'ireligionist',
@@ -8387,9 +10204,14 @@
 				'irreligionists'=>[
 					'ireligionists',
 				],
+				'irreligions'=>[
+					'ireligions',
+					'irrreligions',
+				],
 				'irreligious'=>[
 					'ireligious',
 					'irreligous',
+					'irrreligious',
 				],
 				'irreligiously'=>[
 					'ireligiously',
@@ -8398,10 +10220,13 @@
 					'irreligiousely',
 					'irreligiouslly',
 					'irreligously',
+					'irrreligiously',
 				],
 				'irreligiousness'=>[
 					'irreligiousnes',
 					'irreligiousnesss',
+					'ireligiousness',
+					'irrreligiousness',
 				],
 				'irreligiousnesses'=>[
 					'irreligiousneses',
@@ -8409,20 +10234,26 @@
 				],
 				'irremeable'=>[
 					'iremeable',
+					'irrremeable',
 				],
 				'irremediable'=>[
 					'iremediable',
 					'irremediible',
+					'irrremediable',
 				],
 				'irremediably'=>[
 					'irremediabally',
 					'irremediabaly',
 					'irremediabely',
 					'irremediablly',
+					'iremediably',
+					'irrremediably',
 				],
 				'irremissible'=>[
 					'irremisible',
 					'irremisssible',
+					'iremissible',
+					'irrremissible',
 				],
 				'irremovability'=>[
 					'iremovability',
@@ -8430,21 +10261,30 @@
 				'irremovable'=>[
 					'iremovable',
 					'irremovible',
+					'irrremovable',
+				],
+				'irreparability'=>[
+					'ireparability',
+					'irrreparability',
 				],
 				'irreparable'=>[
 					'ireparable',
 					'irreparible',
 					'irreperable',
 					'irrepearable',
+					'irrreparable',
 				],
 				'irreparableness'=>[
 					'ireparableness',
 					'irreperableness',
 					'irreparablenes',
 					'irreparablenesss',
+					'irrreparableness',
 				],
 				'irreparably'=>[
 					'irreperably',
+					'ireparably',
+					'irrreparably',
 				],
 				'irrepealability'=>[
 					'irepealability',
@@ -8454,6 +10294,7 @@
 					'irepealable',
 					'irrepealible',
 					'irrepelable',
+					'irrrepealable',
 				],
 				'irreplaceability'=>[
 					'irreplacebility',
@@ -8463,6 +10304,7 @@
 					'irreplaceble',
 					'irreplaceible',
 					'irreplacable',
+					'irrreplaceable',
 				],
 				'irreplaceably'=>[
 					'ireplaceably',
@@ -8474,23 +10316,30 @@
 				'irrepressibility'=>[
 					'irrepresibility',
 					'irrepresssibility',
+					'irepressibility',
+					'irrrepressibility',
 				],
 				'irrepressible'=>[
 					'irepressible',
 					'irrepresible',
 					'irrepressable',
 					'irrepresssible',
+					'irrrepressible',
 				],
 				'irrepressibly'=>[
 					'irrepresibly',
 					'irrepresssibly',
+					'irepressibly',
+					'irrrepressibly',
 				],
 				'irreproachable'=>[
 					'ireproachable',
 					'irreproachible',
+					'irrreproachable',
 				],
 				'irreproachably'=>[
 					'ireproachably',
+					'irrreproachably',
 				],
 				'irreproducible'=>[
 					'ireproducible',
@@ -8498,16 +10347,20 @@
 				],
 				'irresistibility'=>[
 					'iresistibility',
+					'irrresistibility',
 				],
 				'irresistible'=>[
 					'iresistable',
 					'iresistible',
 					'irresistable',
 					'irrisistible',
+					'irrresistible',
 				],
 				'irresistibleness'=>[
 					'irresistiblenes',
 					'irresistiblenesss',
+					'iresistibleness',
+					'irrresistibleness',
 				],
 				'irresistibly'=>[
 					'iresistably',
@@ -8517,36 +10370,62 @@
 					'irresistibaly',
 					'irresistibely',
 					'irresistiblly',
+					'irrresistibly',
 				],
 				'irresoluble'=>[
 					'iresoluble',
+					'irrresoluble',
 				],
 				'irresolute'=>[
 					'iresolute',
+					'irrresolute',
 				],
 				'irresolutely'=>[
 					'iresolutely',
 					'irresolutly',
+					'irrresolutely',
 				],
 				'irresoluteness'=>[
 					'iresoluteness',
 					'irresolutenes',
 					'irresolutenesss',
+					'irrresoluteness',
 				],
 				'irresolution'=>[
 					'iresolution',
+					'irrresolution',
 				],
 				'irresolvable'=>[
 					'iresolvable',
 					'irresolvible',
+					'irrresolvable',
+				],
+				'irrespective'=>[
+					'irespective',
+					'irrrespective',
+				],
+				'irrespectively'=>[
+					'irespectively',
+					'irrrespectively',
+				],
+				'irrespirable'=>[
+					'irespirable',
+					'irrrespirable',
+				],
+				'irresponsibility'=>[
+					'iresponsibility',
+					'irrresponsibility',
 				],
 				'irresponsible'=>[
 					'iresponsible',
 					'irresponsable',
+					'irrresponsible',
 				],
 				'irresponsibleness'=>[
 					'irresponsiblenes',
 					'irresponsiblenesss',
+					'iresponsibleness',
+					'irrresponsibleness',
 				],
 				'irresponsiblenesses'=>[
 					'irresponsibleneses',
@@ -8555,22 +10434,43 @@
 				'irresponsibles'=>[
 					'iresponsibles',
 				],
+				'irresponsibly'=>[
+					'iresponsibly',
+					'irrresponsibly',
+				],
 				'irresponsive'=>[
 					'iresponsive',
+					'irrresponsive',
+				],
+				'irretentive'=>[
+					'iretentive',
+					'irrretentive',
+				],
+				'irretrievability'=>[
+					'iretrievability',
+					'irrretrievability',
 				],
 				'irretrievable'=>[
 					'iretrievable',
 					'irretreivable',
 					'irretrievible',
 					'irretrivable',
+					'irrretrievable',
 				],
 				'irretrievableness'=>[
 					'irretrievablenes',
 					'irretrievablenesss',
+					'iretrievableness',
+					'irrretrievableness',
+				],
+				'irretrievably'=>[
+					'iretrievably',
+					'irrretrievably',
 				],
 				'irreverence'=>[
 					'ireverence',
 					'irreverance',
+					'irrreverence',
 				],
 				'irreverences'=>[
 					'ireverences',
@@ -8578,17 +10478,29 @@
 				'irreverent'=>[
 					'ireverent',
 					'irreverant',
+					'irrreverent',
+				],
+				'irreverential'=>[
+					'ireverential',
+					'irrreverential',
 				],
 				'irreverently'=>[
 					'ireverently',
+					'irrreverently',
+				],
+				'irreversibilities'=>[
+					'ireversibilities',
+					'irrreversibilities',
 				],
 				'irreversibility'=>[
 					'ireversibility',
 					'irreversability',
+					'irrreversibility',
 				],
 				'irreversible'=>[
 					'ireversible',
 					'irreversable',
+					'irrreversible',
 				],
 				'irreversibly'=>[
 					'ireversibly',
@@ -8596,18 +10508,26 @@
 					'irreversibaly',
 					'irreversibely',
 					'irreversiblly',
+					'irrreversibly',
 				],
 				'irrevocability'=>[
 					'irevocability',
+					'irrrevocability',
 				],
 				'irrevocable'=>[
 					'irevocable',
 					'irrevocible',
+					'irrrevocable',
 				],
 				'irrevocableness'=>[
 					'irevocableness',
 					'irrevocablenes',
 					'irrevocablenesss',
+					'irrrevocableness',
+				],
+				'irrevocably'=>[
+					'irevocably',
+					'irrrevocably',
 				],
 				'irridenta'=>[
 					'irridanta',
@@ -8618,30 +10538,66 @@
 				'irrigable'=>[
 					'irigable',
 					'irrigible',
+					'irrrigable',
 				],
 				'irrigate'=>[
 					'irigate',
+					'irrrigate',
+				],
+				'irrigated'=>[
+					'irigated',
+					'irrrigated',
+				],
+				'irrigates'=>[
+					'irigates',
+					'irrrigates',
+				],
+				'irrigating'=>[
+					'irigating',
+					'irrrigating',
+				],
+				'irrigation'=>[
+					'irigation',
+					'irrrigation',
+				],
+				'irrigational'=>[
+					'irigational',
+					'irrrigational',
+				],
+				'irrigator'=>[
+					'irigator',
+					'irrrigator',
 				],
 				'irriguous'=>[
 					'irrigous',
+					'iriguous',
+					'irrriguous',
 				],
 				'irritabilities'=>[
 					'iritabilities',
 				],
 				'irritability'=>[
 					'iritability',
+					'irrritability',
 				],
 				'irritable'=>[
 					'iritable',
 					'irritible',
 					'irratable',
+					'irrritable',
 				],
 				'irritableness'=>[
 					'irritablenes',
 					'irritablenesss',
+					'iritableness',
+					'irrritableness',
 				],
 				'irritablenesses'=>[
 					'iritablenesses',
+				],
+				'irritably'=>[
+					'iritably',
+					'irrritably',
 				],
 				'irritancy'=>[
 					'irritansy',
@@ -8649,31 +10605,82 @@
 				'irritant'=>[
 					'iritant',
 					'irritent',
+					'irrritant',
+				],
+				'irritants'=>[
+					'iritants',
+					'irrritants',
 				],
 				'irritate'=>[
 					'iritate',
+					'irrritate',
+				],
+				'irritated'=>[
+					'iritated',
+					'irrritated',
+				],
+				'irritates'=>[
+					'iritates',
+					'irrritates',
+				],
+				'irritating'=>[
+					'iritating',
+					'irrritating',
 				],
 				'irritatingly'=>[
 					'iritatingly',
+					'irrritatingly',
 				],
 				'irritation'=>[
 					'iritation',
 					'irrtation',
+					'irrritation',
+				],
+				'irritations'=>[
+					'iritations',
+					'irrritations',
 				],
 				'irritative'=>[
 					'iritative',
+					'irrritative',
+				],
+				'irritator'=>[
+					'iritator',
+					'irrritator',
 				],
 				'irrotational'=>[
 					'irotational',
 				],
 				'irrupt'=>[
 					'irupt',
+					'irrrupt',
+				],
+				'irrupted'=>[
+					'irrrupted',
+					'irupted',
+				],
+				'irrupting'=>[
+					'irrrupting',
+					'irupting',
+				],
+				'irruption'=>[
+					'irrruption',
+					'iruption',
+				],
+				'irruptions'=>[
+					'irrruptions',
+					'iruptions',
 				],
 				'irruptive'=>[
 					'iruptive',
+					'irrruptive',
 				],
 				'irruptively'=>[
 					'irruptivly',
+				],
+				'irrupts'=>[
+					'irrrupts',
+					'irupts',
 				],
 				'is'=>[
 					'is is',
@@ -8688,8 +10695,17 @@
 				'isaac oviedo'=>[
 					'issac oviedo',
 				],
+				'isabella'=>[
+					'isabellla',
+				],
+				'isabelle'=>[
+					'isabele',
+					'isabellle',
+				],
 				'isallobar'=>[
 					'isallober',
+					'isalllobar',
+					'isalobar',
 				],
 				'ischaemia'=>[
 					'ichaemia',
@@ -8741,6 +10757,7 @@
 				'isoagglutinin'=>[
 					'isoagglutinan',
 					'isoaglutinin',
+					'isoaggglutinin',
 				],
 				'isoagglutinins'=>[
 					'isoagglutinans',
@@ -8789,6 +10806,10 @@
 					'isochronousely',
 					'isochronouslly',
 				],
+				'isochroous'=>[
+					'isochrooous',
+					'isochrous',
+				],
 				'isoclinal'=>[
 					'isoclinil',
 				],
@@ -8831,6 +10852,10 @@
 				'isoline'=>[
 					'isolini',
 				],
+				'isometrically'=>[
+					'isometricallly',
+					'isometricaly',
+				],
 				'isomorph'=>[
 					'isomourph',
 				],
@@ -8851,6 +10876,10 @@
 				],
 				'isomorphs'=>[
 					'isomourphs',
+				],
+				'isooctane'=>[
+					'isoctane',
+					'isoooctane',
 				],
 				'isoprenaline'=>[
 					'isoprenalini',
@@ -8878,8 +10907,16 @@
 				'isostasy'=>[
 					'isostacy',
 				],
+				'isothermally'=>[
+					'isothermallly',
+					'isothermaly',
+				],
 				'isotopic'=>[
 					'isotopical',
+				],
+				'isotopically'=>[
+					'isotopicallly',
+					'isotopicaly',
 				],
 				'isotropic'=>[
 					'isotrophic',
@@ -8993,6 +11030,10 @@
 				'ithaca'=>[
 					'ihaca',
 				],
+				'ithyphallic'=>[
+					'ithyphalic',
+					'ithyphalllic',
+				],
 				'itineracy'=>[
 					'itinerasy',
 				],
@@ -9049,6 +11090,9 @@
 				],
 				'izar'=>[
 					'izer',
+				],
+				'izzard'=>[
+					'izzzard',
 				],
 				'île-de-france'=>[
 					'ile de france',

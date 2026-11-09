@@ -47,23 +47,70 @@
 				'Nyírtass'=>[
 					'nyirtass',
 				],
+				'naan'=>[
+					'naaan',
+				],
+				'naans'=>[
+					'naaans',
+				],
+				'nabbed'=>[
+					'nabbbed',
+				],
+				'nabbing'=>[
+					'nabbbing',
+				],
+				'nacelle'=>[
+					'nacele',
+					'nacellle',
+				],
+				'nacelles'=>[
+					'naceles',
+					'nacellles',
+				],
+				'naff'=>[
+					'nafff',
+				],
+				'naffer'=>[
+					'nafer',
+					'nafffer',
+				],
+				'naffest'=>[
+					'nafest',
+					'nafffest',
+				],
 				'nagged'=>[
 					'naged',
+					'naggged',
 				],
 				'nagger'=>[
 					'nager',
+					'naggger',
 				],
 				'naggers'=>[
 					'nagers',
+					'nagggers',
 				],
 				'naggier'=>[
 					'nagier',
 				],
 				'nagging'=>[
 					'naging',
+					'naggging',
+				],
+				'naggingly'=>[
+					'nagggingly',
+					'nagingly',
 				],
 				'naggy'=>[
 					'nagy',
+				],
+				'nainsook'=>[
+					'nainsok',
+					'nainsoook',
+				],
+				'nainsooks'=>[
+					'nainsoks',
+					'nainsoooks',
 				],
 				'naissance'=>[
 					'naissence',
@@ -102,6 +149,9 @@
 				'name'=>[
 					'name name',
 					'name name name',
+				],
+				'namedropping'=>[
+					'namedroppping',
 				],
 				'nameless'=>[
 					'nameles',
@@ -148,6 +198,25 @@
 				'nandrolone'=>[
 					'nadrolone',
 				],
+				'nankeen'=>[
+					'nankeeen',
+					'nanken',
+				],
+				'nankeens'=>[
+					'nankeeens',
+					'nankens',
+				],
+				'nanna'=>[
+					'nannna',
+				],
+				'nannie'=>[
+					'nanie',
+					'nannnie',
+				],
+				'nannies'=>[
+					'nanies',
+					'nannnies',
+				],
 				'nannoplankton'=>[
 					'nanoplankton',
 				],
@@ -156,12 +225,17 @@
 				],
 				'nanny'=>[
 					'nany',
+					'nannny',
 				],
 				'nanofluid'=>[
 					'mamofluid',
 				],
 				'nanolith'=>[
 					'nannolith',
+				],
+				'nanook'=>[
+					'nanok',
+					'nanoook',
 				],
 				'nanopowder'=>[
 					'nanopower',
@@ -194,9 +268,34 @@
 				],
 				'nappe'=>[
 					'nape',
+					'napppe',
+				],
+				'napped'=>[
+					'nappped',
+				],
+				'napper'=>[
+					'nappper',
+				],
+				'nappers'=>[
+					'napppers',
+				],
+				'nappier'=>[
+					'napppier',
+				],
+				'nappies'=>[
+					'napies',
+					'napppies',
+				],
+				'nappiest'=>[
+					'napiest',
+					'napppiest',
+				],
+				'napping'=>[
+					'nappping',
 				],
 				'nappy'=>[
 					'napy',
+					'napppy',
 				],
 				'narceine'=>[
 					'narciene',
@@ -220,6 +319,8 @@
 				'narcissistically'=>[
 					'narcisistically',
 					'narcisssistically',
+					'narcissisticallly',
+					'narcissisticaly',
 				],
 				'narcissists'=>[
 					'narcisists',
@@ -242,14 +343,51 @@
 				'narcolepsy'=>[
 					'narcolepcy',
 				],
+				'narcotically'=>[
+					'narcoticallly',
+					'narcoticaly',
+				],
+				'narcotrafficking'=>[
+					'narcotraffficking',
+					'narcotraficking',
+				],
+				'nardoo'=>[
+					'nardooo',
+				],
+				'nardoos'=>[
+					'nardooos',
+				],
 				'narrate'=>[
 					'narate',
+					'narrrate',
+				],
+				'narrated'=>[
+					'narated',
+					'narrrated',
+				],
+				'narrates'=>[
+					'narates',
+					'narrrates',
+				],
+				'narrating'=>[
+					'narating',
+					'narrrating',
 				],
 				'narration'=>[
 					'naration',
+					'narrration',
+				],
+				'narrations'=>[
+					'narations',
+					'narrrations',
 				],
 				'narrative'=>[
 					'narative',
+					'narrrative',
+				],
+				'narratives'=>[
+					'naratives',
+					'narrratives',
 				],
 				'narratological'=>[
 					'naratological',
@@ -259,9 +397,19 @@
 				],
 				'narratology'=>[
 					'naratology',
+					'narrratology',
+				],
+				'narrator'=>[
+					'narator',
+					'narrrator',
+				],
+				'narrators'=>[
+					'narators',
+					'narrrators',
 				],
 				'narrow'=>[
 					'narow',
+					'narrrow',
 				],
 				'narrow-minded'=>[
 					'narrowminded',
@@ -272,24 +420,51 @@
 				'narrowcastings'=>[
 					'narowcastings',
 				],
+				'narrowed'=>[
+					'narowed',
+					'narrrowed',
+				],
+				'narrower'=>[
+					'narower',
+					'narrrower',
+				],
+				'narrowest'=>[
+					'narowest',
+					'narrrowest',
+				],
+				'narrowing'=>[
+					'narowing',
+					'narrrowing',
+				],
 				'narrowly'=>[
 					'narrowally',
 					'narrowaly',
 					'narrowely',
 					'narrowlly',
+					'narowly',
+					'narrrowly',
 				],
 				'narrowness'=>[
 					'narrownes',
 					'narrownesss',
+					'narowness',
+					'narrrowness',
 				],
 				'narrownesses'=>[
 					'narownesses',
+				],
+				'narrows'=>[
+					'narows',
+					'narrrows',
 				],
 				'nary'=>[
 					'nery',
 				],
 				'nasalization'=>[
 					'ansalization',
+				],
+				'nasally'=>[
+					'nasallly',
 				],
 				'nascence'=>[
 					'nacence',
@@ -306,6 +481,10 @@
 					'nascant',
 					'nascient',
 					'nasent',
+				],
+				'naseberry'=>[
+					'naseberrry',
+					'nasebery',
 				],
 				'nasopharyngeal'=>[
 					'nasopharngeal',
@@ -333,6 +512,10 @@
 					'natioual',
 					'natinoal',
 				],
+				'nationalistically'=>[
+					'nationalisticallly',
+					'nationalisticaly',
+				],
 				'nationalities'=>[
 					'nationalites',
 				],
@@ -348,6 +531,11 @@
 				],
 				'nationally'=>[
 					'nationaly',
+					'nationallly',
+				],
+				'nationhood'=>[
+					'nationhod',
+					'nationhoood',
 				],
 				'nationwide'=>[
 					'naitonwide',
@@ -359,9 +547,49 @@
 				'natriuretic'=>[
 					'naturetic',
 				],
+				'natter'=>[
+					'nattter',
+				],
+				'nattered'=>[
+					'natttered',
+				],
+				'natterer'=>[
+					'nattterer',
+				],
+				'nattering'=>[
+					'natttering',
+				],
+				'natterjack'=>[
+					'naterjack',
+					'nattterjack',
+				],
+				'natterjacks'=>[
+					'naterjacks',
+					'nattterjacks',
+				],
+				'natters'=>[
+					'nattters',
+				],
+				'nattier'=>[
+					'natier',
+					'natttier',
+				],
+				'nattiest'=>[
+					'natiest',
+					'natttiest',
+				],
+				'nattily'=>[
+					'natily',
+					'natttily',
+				],
 				'nattiness'=>[
 					'nattines',
 					'nattinesss',
+					'natiness',
+					'natttiness',
+				],
+				'natty'=>[
+					'nattty',
 				],
 				'natural'=>[
 					'natrual',
@@ -369,6 +597,10 @@
 					'natural natural',
 					'natural natural natural',
 					'naturual',
+				],
+				'naturalistically'=>[
+					'naturalisticallly',
+					'naturalisticaly',
 				],
 				'naturally'=>[
 					'natuarlly',
@@ -411,6 +643,10 @@
 					'nauseousnes',
 					'nauseousnesss',
 				],
+				'nautically'=>[
+					'nauticallly',
+					'nauticaly',
+				],
 				'navar'=>[
 					'naver',
 				],
@@ -434,6 +670,12 @@
 					'navigationalaly',
 					'navigationalely',
 					'navigationallly',
+				],
+				'navvies'=>[
+					'navvvies',
+				],
+				'navvy'=>[
+					'navvvy',
 				],
 				'nazareth'=>[
 					'nazereth',
@@ -491,8 +733,13 @@
 					'neatnes',
 					'neatnesss',
 				],
+				'nebbich'=>[
+					'nebbbich',
+					'nebich',
+				],
 				'nebbish'=>[
 					'nebish',
+					'nebbbish',
 				],
 				'nebraska'=>[
 					'nebaska',
@@ -655,29 +902,117 @@
 				'need friends'=>[
 					'kneed friends',
 				],
+				'needed'=>[
+					'neded',
+					'neeeded',
+				],
+				'needful'=>[
+					'nedful',
+					'neeedful',
+				],
+				'needfully'=>[
+					'nedfully',
+					'needfullly',
+					'needfuly',
+					'neeedfully',
+				],
 				'needfulness'=>[
 					'needfulnes',
 					'needfulnesss',
+					'nedfulness',
+					'neeedfulness',
+				],
+				'needier'=>[
+					'nedier',
+					'neeedier',
+				],
+				'neediest'=>[
+					'nediest',
+					'neeediest',
 				],
 				'neediness'=>[
 					'needines',
 					'needinesss',
+					'nediness',
+					'neeediness',
+				],
+				'needing'=>[
+					'neding',
+					'neeeding',
+				],
+				'needle'=>[
+					'nedle',
+					'neeedle',
+				],
+				'needlecraft'=>[
+					'nedlecraft',
+					'neeedlecraft',
+				],
+				'needlecrafts'=>[
+					'nedlecrafts',
+					'neeedlecrafts',
+				],
+				'needled'=>[
+					'nedled',
+					'neeedled',
+				],
+				'needlefish'=>[
+					'nedlefish',
+					'neeedlefish',
+				],
+				'needleful'=>[
+					'nedleful',
+					'neeedleful',
+				],
+				'needlepoint'=>[
+					'nedlepoint',
+					'neeedlepoint',
+				],
+				'needler'=>[
+					'nedler',
+					'neeedler',
 				],
 				'needless'=>[
 					'needles',
 					'needlesss',
+					'nedless',
+					'neeedless',
 				],
 				'needlessly'=>[
 					'needlesssly',
+					'nedlessly',
+					'neeedlessly',
 				],
 				'needlessness'=>[
 					'needlesness',
 					'needlessnes',
 					'needlessnesss',
 					'needlesssness',
+					'nedlessness',
+					'neeedlessness',
+				],
+				'needlewoman'=>[
+					'nedlewoman',
+					'neeedlewoman',
+				],
+				'needlewomen'=>[
+					'nedlewomen',
+					'neeedlewomen',
+				],
+				'needlework'=>[
+					'nedlework',
+					'neeedlework',
+				],
+				'needling'=>[
+					'nedling',
+					'neeedling',
 				],
 				'needs'=>[
 					'need\'s',
+					'neeeds',
+				],
+				'needy'=>[
+					'neeedy',
 				],
 				'nefarious'=>[
 					'nefarous',
@@ -711,9 +1046,21 @@
 				'negativity'=>[
 					'negitivity',
 				],
+				'neglectfully'=>[
+					'neglectfullly',
+					'neglectfuly',
+				],
 				'neglectfulness'=>[
 					'neglectfulnes',
 					'neglectfulnesss',
+				],
+				'negligee'=>[
+					'neglige',
+					'negligeee',
+				],
+				'negligees'=>[
+					'negligeees',
+					'negliges',
 				],
 				'negligence'=>[
 					'negligance',
@@ -769,10 +1116,14 @@
 					'neighbourbood',
 					'neightbourhood',
 					'nieghborhood',
+					'neighborhod',
+					'neighborhoood',
 				],
 				'neighborhoods'=>[
 					'nieghborhoods',
 					'neighboorhoods',
+					'neighborhods',
+					'neighborhooods',
 				],
 				'neighboring'=>[
 					'neigbouring',
@@ -809,6 +1160,10 @@
 				'nektobenthic'=>[
 					'nectobenthic',
 					'nectobentonic',
+				],
+				'nellie'=>[
+					'nelie',
+					'nelllie',
 				],
 				'nelly'=>[
 					'nelally',
@@ -852,6 +1207,10 @@
 				],
 				'neomorph'=>[
 					'neomourph',
+				],
+				'neonatally'=>[
+					'neonatallly',
+					'neonataly',
 				],
 				'neonatology'=>[
 					'neonatalogy',
@@ -947,8 +1306,46 @@
 				'nesses'=>[
 					'nessses',
 				],
+				'netball'=>[
+					'netbal',
+					'netballl',
+				],
 				'netherlands'=>[
 					'netherland\'s',
+				],
+				'netiquette'=>[
+					'netiquete',
+					'netiquettte',
+				],
+				'netted'=>[
+					'nettted',
+				],
+				'nettie'=>[
+					'netie',
+					'netttie',
+				],
+				'netting'=>[
+					'nettting',
+				],
+				'nettle'=>[
+					'netle',
+					'netttle',
+				],
+				'nettled'=>[
+					'netled',
+					'netttled',
+				],
+				'nettles'=>[
+					'netles',
+					'netttles',
+				],
+				'nettlesome'=>[
+					'netlesome',
+					'netttlesome',
+				],
+				'nettling'=>[
+					'netling',
+					'netttling',
 				],
 				'nettly'=>[
 					'nettally',
@@ -956,8 +1353,14 @@
 					'nettely',
 					'nettlly',
 				],
+				'netty'=>[
+					'nettty',
+				],
 				'network'=>[
 					'newtork',
+				],
+				'neurally'=>[
+					'neurallly',
 				],
 				'neuraminidase'=>[
 					'neuraminadase',
@@ -971,6 +1374,7 @@
 				],
 				'neurilemma'=>[
 					'neurilemna',
+					'neurilemmma',
 				],
 				'neurocysticercosis'=>[
 					'neurocystocerciosis',
@@ -1002,6 +1406,10 @@
 				],
 				'neurological'=>[
 					'nuerological',
+				],
+				'neurologically'=>[
+					'neurologicallly',
+					'neurologicaly',
 				],
 				'neuromesenchymal'=>[
 					'neuromesenchimal',
@@ -1045,12 +1453,18 @@
 				'neurotic'=>[
 					'nuerotic',
 				],
+				'neurotically'=>[
+					'neuroticallly',
+					'neuroticaly',
+				],
 				'neurotransmitter'=>[
 					'nuerotransmitter',
 					'neurotransmiter',
+					'neurotransmittter',
 				],
 				'neurotransmitters'=>[
 					'neurotransmiters',
+					'neurotransmittters',
 				],
 				'neurotrophic'=>[
 					'neuritotrophic',
@@ -1072,6 +1486,14 @@
 				],
 				'neutralize'=>[
 					'nuetralize',
+				],
+				'neutrally'=>[
+					'neutrallly',
+					'neutraly',
+				],
+				'neutretto'=>[
+					'neutreto',
+					'neutrettto',
 				],
 				'never'=>[
 					'never never',
@@ -1108,6 +1530,9 @@
 					'newbei',
 					'newbi',
 				],
+				'newell'=>[
+					'newelll',
+				],
 				'newfoundland'=>[
 					'foundland',
 				],
@@ -1142,6 +1567,12 @@
 				],
 				'newsletter'=>[
 					'newletter',
+					'newsleter',
+					'newslettter',
+				],
+				'newsletters'=>[
+					'newsleters',
+					'newslettters',
 				],
 				'newsmagazine'=>[
 					'newsmagazini',
@@ -1155,6 +1586,22 @@
 				'newsreader'=>[
 					'newsreder',
 				],
+				'newsreel'=>[
+					'newsreeel',
+					'newsrel',
+				],
+				'newsreels'=>[
+					'newsreeels',
+					'newsrels',
+				],
+				'newsroom'=>[
+					'newsrom',
+					'newsrooom',
+				],
+				'newsrooms'=>[
+					'newsroms',
+					'newsroooms',
+				],
 				'newsstand'=>[
 					'newstand',
 					'newssstand',
@@ -1163,11 +1610,17 @@
 					'newssstands',
 					'newstands',
 				],
+				'newsweeklies'=>[
+					'newsweeeklies',
+					'newsweklies',
+				],
 				'newsweekly'=>[
 					'newsweekally',
 					'newsweekaly',
 					'newsweekely',
 					'newsweeklly',
+					'newsweeekly',
+					'newswekly',
 				],
 				'newsworthiness'=>[
 					'newsworthiniss',
@@ -1182,6 +1635,13 @@
 					'next next',
 					'next next next',
 				],
+				'nextdoor'=>[
+					'nextdooor',
+					'nextdor',
+				],
+				'ngwee'=>[
+					'ngweee',
+				],
 				'niagara'=>[
 					'niagra',
 				],
@@ -1190,12 +1650,33 @@
 				],
 				'nibble'=>[
 					'nible',
+					'nibbble',
+				],
+				'nibbled'=>[
+					'nibbbled',
+					'nibled',
+				],
+				'nibbler'=>[
+					'nibbbler',
+					'nibler',
+				],
+				'nibblers'=>[
+					'nibbblers',
+					'niblers',
+				],
+				'nibbles'=>[
+					'nibbbles',
+					'nibles',
+				],
+				'nibbling'=>[
+					'nibbbling',
 				],
 				'nicaraguan-occupied'=>[
 					'nicaraguan occupied',
 				],
 				'niccolite'=>[
 					'nicolite',
+					'nicccolite',
 				],
 				'nicely'=>[
 					'nicly',
@@ -1235,6 +1716,9 @@
 				'nidamental'=>[
 					'nidimental',
 				],
+				'niddering'=>[
+					'nidddering',
+				],
 				'nidicolous'=>[
 					'nidiculous',
 				],
@@ -1248,6 +1732,8 @@
 				'niello'=>[
 					'neillo',
 					'nillo',
+					'nielllo',
+					'nielo',
 				],
 				'nietzsche'=>[
 					'nietzche',
@@ -1257,6 +1743,12 @@
 					'nifedipini',
 					'nifedepine',
 					'nifidepine',
+				],
+				'niff'=>[
+					'nifff',
+				],
+				'niffy'=>[
+					'nifffy',
 				],
 				'niftiness'=>[
 					'niftyness',
@@ -1269,6 +1761,7 @@
 				],
 				'niggard'=>[
 					'nigard',
+					'nigggard',
 				],
 				'niggarding'=>[
 					'nigarding',
@@ -1277,6 +1770,7 @@
 					'nigardliness',
 					'niggardlines',
 					'niggardlinesss',
+					'nigggardliness',
 				],
 				'niggardlinesses'=>[
 					'nigardlinesses',
@@ -1288,24 +1782,49 @@
 					'niggardaly',
 					'niggardely',
 					'niggardlly',
+					'nigggardly',
+				],
+				'niggards'=>[
+					'nigards',
+					'nigggards',
+				],
+				'nigger'=>[
+					'niggger',
+				],
+				'niggerhead'=>[
+					'nigerhead',
+					'nigggerhead',
+				],
+				'niggers'=>[
+					'nigggers',
 				],
 				'niggle'=>[
 					'nigle',
+					'nigggle',
 				],
 				'niggled'=>[
 					'nigled',
+					'nigggled',
 				],
 				'niggler'=>[
 					'nigler',
+					'nigggler',
+				],
+				'nigglers'=>[
+					'niggglers',
+					'niglers',
 				],
 				'niggles'=>[
 					'nigles',
+					'nigggles',
 				],
 				'niggling'=>[
 					'nigling',
+					'nigggling',
 				],
 				'nigglingly'=>[
 					'niglingly',
+					'niggglingly',
 				],
 				'niggly'=>[
 					'nigly',
@@ -1318,6 +1837,7 @@
 				],
 				'nightclubbed'=>[
 					'nightclubed',
+					'nightclubbbed',
 				],
 				'nightclubber'=>[
 					'nightcluber',
@@ -1327,6 +1847,7 @@
 				],
 				'nightclubbing'=>[
 					'nightclubing',
+					'nightclubbbing',
 				],
 				'nightdress'=>[
 					'nightdres',
@@ -1338,6 +1859,7 @@
 				],
 				'nightfall'=>[
 					'nightfal',
+					'nightfalll',
 				],
 				'nightie'=>[
 					'nightei',
@@ -1352,12 +1874,23 @@
 					'nightely',
 					'nightlly',
 				],
+				'nighttime'=>[
+					'nightime',
+					'nightttime',
+				],
 				'nightwear'=>[
 					'nightweer',
 				],
 				'nigrostriatal'=>[
 					'negrostriatal',
 					'nigostriatal',
+				],
+				'nikkei'=>[
+					'nikei',
+					'nikkkei',
+				],
+				'nikko'=>[
+					'nikkko',
 				],
 				'nil'=>[
 					'nill',
@@ -1372,6 +1905,14 @@
 				'nimious'=>[
 					'nimous',
 				],
+				'nincompoop'=>[
+					'nincompooop',
+					'nincompop',
+				],
+				'nincompoops'=>[
+					'nincompooops',
+					'nincompops',
+				],
 				'nine'=>[
 					'nine nine',
 					'nine nine nine',
@@ -1385,11 +1926,23 @@
 				'nineteen'=>[
 					'niniteen',
 					'ninteen',
+					'nineteeen',
+					'nineten',
+				],
+				'nineteens'=>[
+					'nineteeens',
+					'ninetens',
 				],
 				'nineteenth'=>[
 					'nineteanth',
 					'niniteenth',
 					'ninteenth',
+					'nineteeenth',
+					'ninetenth',
+				],
+				'nineteenths'=>[
+					'nineteeenths',
+					'ninetenths',
 				],
 				'nineties'=>[
 					'ninetys',
@@ -1405,11 +1958,19 @@
 					'nintey',
 					'ninty',
 				],
+				'ninnies'=>[
+					'ninies',
+					'ninnnies',
+				],
 				'ninny'=>[
 					'niny',
+					'ninnny',
 				],
 				'ninnyhammer'=>[
 					'ninyhammer',
+					'ninnnyhammer',
+					'ninnyhamer',
+					'ninnyhammmer',
 				],
 				'ninnyhammers'=>[
 					'ninyhammers',
@@ -1420,21 +1981,47 @@
 				'ninthly'=>[
 					'ninethly',
 				],
+				'nipped'=>[
+					'niped',
+					'nippped',
+				],
 				'nipper'=>[
 					'niper',
+					'nippper',
+				],
+				'nippers'=>[
+					'nipers',
+					'nipppers',
+				],
+				'nippier'=>[
+					'nipier',
+					'nipppier',
+				],
+				'nippiest'=>[
+					'nipiest',
+					'nipppiest',
 				],
 				'nippiness'=>[
 					'nippines',
 					'nippinesss',
+					'nipiness',
+					'nipppiness',
 				],
 				'nipping'=>[
 					'niping',
+					'nippping',
 				],
 				'nipple'=>[
 					'niple',
+					'nippple',
+				],
+				'nipples'=>[
+					'niples',
+					'nippples',
 				],
 				'nippy'=>[
 					'nipy',
+					'nipppy',
 				],
 				'nisei'=>[
 					'nisie',
@@ -1449,12 +2036,15 @@
 				'nitrocellulose'=>[
 					'nitrocelulose',
 					'nitrocellulase',
+					'nitrocelllulose',
 				],
 				'nitroglycerines'=>[
 					'nitroglycerinis',
 				],
 				'nitroparaffin'=>[
 					'nitroperaffin',
+					'nitroparafffin',
+					'nitroparafin',
 				],
 				'nitroparaffins'=>[
 					'nitroperaffins',
@@ -1464,6 +2054,9 @@
 				],
 				'nitrosamine'=>[
 					'nitrosamini',
+				],
+				'nitty'=>[
+					'nittty',
 				],
 				'nivellate'=>[
 					'nivelate',
@@ -1485,8 +2078,18 @@
 				'nobble'=>[
 					'nobbble',
 				],
+				'nobbled'=>[
+					'nobbbled',
+				],
+				'nobbles'=>[
+					'nobbbles',
+				],
+				'nobbling'=>[
+					'nobbbling',
+				],
 				'nobby'=>[
 					'noby',
+					'nobbby',
 				],
 				'nobiliary'=>[
 					'nobiliery',
@@ -1522,11 +2125,30 @@
 				'noctuoid'=>[
 					'noctoid',
 				],
+				'nocturnally'=>[
+					'nocturnallly',
+					'nocturnaly',
+				],
 				'nocuous'=>[
 					'nocous',
 				],
 				'nocuously'=>[
 					'nocously',
+				],
+				'nodded'=>[
+					'noddded',
+				],
+				'nodding'=>[
+					'noddding',
+				],
+				'noddle'=>[
+					'nodddle',
+				],
+				'noddles'=>[
+					'nodddles',
+				],
+				'noddy'=>[
+					'nodddy',
 				],
 				'nodular'=>[
 					'noduler',
@@ -1539,12 +2161,19 @@
 				],
 				'noggin'=>[
 					'nogin',
+					'nogggin',
 				],
 				'nogging'=>[
 					'noging',
+					'noggging',
+				],
+				'noggings'=>[
+					'nogggings',
+					'nogings',
 				],
 				'noggins'=>[
 					'nogins',
+					'nogggins',
 				],
 				'noggs'=>[
 					'nogs',
@@ -1576,6 +2205,10 @@
 					'noiselessnesss',
 					'noiselesssness',
 				],
+				'noisette'=>[
+					'noisete',
+					'noisettte',
+				],
 				'noisiness'=>[
 					'noisines',
 					'noisinesss',
@@ -1594,6 +2227,10 @@
 				'noisy'=>[
 					'noicy',
 				],
+				'nomadically'=>[
+					'nomadicallly',
+					'nomadicaly',
+				],
 				'nomenclature'=>[
 					'nomencalture',
 				],
@@ -1606,6 +2243,9 @@
 				'nominalism'=>[
 					'nominilism',
 				],
+				'nominally'=>[
+					'nominallly',
+				],
 				'nominate'=>[
 					'nominite',
 				],
@@ -1617,6 +2257,12 @@
 				],
 				'nominee'=>[
 					'nominie',
+					'nomine',
+					'nomineee',
+				],
+				'nominees'=>[
+					'nomineees',
+					'nomines',
 				],
 				'nomogram'=>[
 					'normogram',
@@ -1662,6 +2308,7 @@
 				'nonacceptance'=>[
 					'nonacceptence',
 					'nonaceptance',
+					'nonaccceptance',
 				],
 				'nonacceptances'=>[
 					'nonaceptances',
@@ -1672,6 +2319,15 @@
 				],
 				'nonaccredited'=>[
 					'nonacredited',
+					'nonacccredited',
+				],
+				'nonaddicting'=>[
+					'nonadddicting',
+					'nonadicting',
+				],
+				'nonaddictive'=>[
+					'nonadddictive',
+					'nonadictive',
 				],
 				'nonagenarian'=>[
 					'nonagenaran',
@@ -1681,6 +2337,7 @@
 					'nonaggresion',
 					'nonagression',
 					'nonaggresssion',
+					'nonagggression',
 				],
 				'nonaggressions'=>[
 					'nonagressions',
@@ -1689,6 +2346,7 @@
 					'nonagressive',
 					'nonaggresive',
 					'nonaggresssive',
+					'nonagggressive',
 				],
 				'nonalignment'=>[
 					'nonaligment',
@@ -1697,6 +2355,18 @@
 				'nonalignments'=>[
 					'nonaligments',
 					'nonalignents',
+				],
+				'nonallergenic'=>[
+					'nonalergenic',
+					'nonalllergenic',
+				],
+				'nonallergic'=>[
+					'nonalergic',
+					'nonalllergic',
+				],
+				'nonallied'=>[
+					'nonalied',
+					'nonalllied',
 				],
 				'nonambiguous'=>[
 					'nonambigous',
@@ -1708,12 +2378,26 @@
 					'nonapearance',
 					'nonappearence',
 					'nonapperance',
+					'nonapppearance',
 				],
 				'nonappearances'=>[
 					'nonapearances',
+					'nonapppearances',
+				],
+				'nonapplicable'=>[
+					'nonaplicable',
+					'nonappplicable',
+				],
+				'nonapproved'=>[
+					'nonappproved',
+					'nonaproved',
 				],
 				'nonarbitrary'=>[
 					'nonarbitrery',
+				],
+				'nonarrival'=>[
+					'nonarival',
+					'nonarrrival',
 				],
 				'nonassertive'=>[
 					'nonasertive',
@@ -1725,6 +2409,8 @@
 				],
 				'nonattendance'=>[
 					'nonattendence',
+					'nonatendance',
+					'nonatttendance',
 				],
 				'nonbeliever'=>[
 					'nonbeleiver',
@@ -1732,6 +2418,14 @@
 				],
 				'nonbelligerency'=>[
 					'nonbelligerensy',
+				],
+				'nonbelligerent'=>[
+					'nonbeligerent',
+					'nonbellligerent',
+				],
+				'nonbelligerents'=>[
+					'nonbeligerents',
+					'nonbellligerents',
 				],
 				'nonbinary'=>[
 					'nonbinery',
@@ -1741,6 +2435,10 @@
 					'nonbiologicalaly',
 					'nonbiologicalely',
 					'nonbiologicallly',
+				],
+				'nonbook'=>[
+					'nonbok',
+					'nonboook',
 				],
 				'nonbusiness'=>[
 					'nonbuisness',
@@ -1759,6 +2457,8 @@
 				],
 				'noncellular'=>[
 					'noncelluler',
+					'noncelllular',
+					'noncelular',
 				],
 				'nonchalance'=>[
 					'nonchalence',
@@ -1775,8 +2475,16 @@
 				'nonclogging'=>[
 					'noncloging',
 				],
+				'nonclotting'=>[
+					'noncloting',
+					'nonclottting',
+				],
 				'noncoincidence'=>[
 					'noncoincidance',
+				],
+				'noncollectable'=>[
+					'noncolectable',
+					'noncolllectable',
 				],
 				'noncollinear'=>[
 					'noncollineer',
@@ -1787,15 +2495,28 @@
 				'noncombustible'=>[
 					'noncombustable',
 				],
+				'noncommercial'=>[
+					'noncomercial',
+					'noncommmercial',
+				],
+				'noncommercials'=>[
+					'noncomercials',
+					'noncommmercials',
+				],
 				'noncommissioned'=>[
 					'noncommisioned',
 					'noncommisssioned',
+					'noncomissioned',
+					'noncommmissioned',
 				],
 				'noncommitments'=>[
 					'noncomnitments',
 				],
 				'noncommittal'=>[
 					'noncomnittal',
+					'noncomittal',
+					'noncommitttal',
+					'noncommmittal',
 				],
 				'noncommittally'=>[
 					'noncommittalally',
@@ -1804,6 +2525,21 @@
 					'noncommittallly',
 					'noncomnittally',
 					'noncomittally',
+					'noncommittaly',
+					'noncommitttally',
+					'noncommmittally',
+				],
+				'noncommunicable'=>[
+					'noncommmunicable',
+					'noncomunicable',
+				],
+				'noncommunicative'=>[
+					'noncommmunicative',
+					'noncomunicative',
+				],
+				'noncommunist'=>[
+					'noncommmunist',
+					'noncomunist',
 				],
 				'noncommutative'=>[
 					'noncomnutative',
@@ -1836,9 +2572,14 @@
 				'nonconcurrence'=>[
 					'nonconcurence',
 					'nonconcurrance',
+					'nonconcurrrence',
 				],
 				'nonconcurrences'=>[
 					'nonconcurences',
+				],
+				'nonconcurrent'=>[
+					'nonconcurent',
+					'nonconcurrrent',
 				],
 				'noncondensable'=>[
 					'noncondensible',
@@ -1888,6 +2629,14 @@
 				'nonconvertible'=>[
 					'nonconvertable',
 				],
+				'noncooperation'=>[
+					'noncoooperation',
+					'noncoperation',
+				],
+				'noncooperative'=>[
+					'noncoooperative',
+					'noncoperative',
+				],
 				'noncoplanar'=>[
 					'noncoplaner',
 				],
@@ -1902,9 +2651,11 @@
 				],
 				'noncorroding'=>[
 					'noncoroding',
+					'noncorrroding',
 				],
 				'noncorrosive'=>[
 					'noncorosive',
+					'noncorrrosive',
 				],
 				'noncreativities'=>[
 					'noncretivities',
@@ -1912,8 +2663,16 @@
 				'noncredentialed'=>[
 					'noncredantialed',
 				],
+				'noncrystalline'=>[
+					'noncrystaline',
+					'noncrystallline',
+				],
 				'nonculinary'=>[
 					'nonculinery',
+				],
+				'noncurrent'=>[
+					'noncurent',
+					'noncurrrent',
 				],
 				'nondance'=>[
 					'nondence',
@@ -1975,6 +2734,10 @@
 				'nonedible'=>[
 					'nonedable',
 				],
+				'noneffective'=>[
+					'nonefective',
+					'nonefffective',
+				],
 				'nonelementary'=>[
 					'nonelementery',
 				],
@@ -2008,6 +2771,10 @@
 				'nonexistent'=>[
 					'non-existant',
 				],
+				'nonfattening'=>[
+					'nonfatening',
+					'nonfatttening',
+				],
 				'nonfeasance'=>[
 					'nonfeasence',
 				],
@@ -2016,6 +2783,7 @@
 				],
 				'nonferrous'=>[
 					'nonferous',
+					'nonferrrous',
 				],
 				'nonfilterable'=>[
 					'nonfilterible',
@@ -2029,12 +2797,18 @@
 				'nonflammable'=>[
 					'nonflammible',
 					'nonflamnable',
+					'nonflamable',
+					'nonflammmable',
 				],
 				'nonfluency'=>[
 					'nonfluensy',
 				],
 				'nonfluorescent'=>[
 					'nonflorescent',
+				],
+				'nonfood'=>[
+					'nonfod',
+					'nonfoood',
 				],
 				'nonforfeitable'=>[
 					'nonforfeitible',
@@ -2046,6 +2820,13 @@
 				'nonforfeitures'=>[
 					'nonforfietures',
 				],
+				'nonfreezing'=>[
+					'nonfreeezing',
+					'nonfrezing',
+				],
+				'nonfulfillment'=>[
+					'nonfulfilllment',
+				],
 				'nonglamorous'=>[
 					'nonglamourous',
 				],
@@ -2054,6 +2835,7 @@
 				],
 				'nongonococcal'=>[
 					'nongonococal',
+					'nongonococccal',
 				],
 				'nongovernment'=>[
 					'nongoverment',
@@ -2108,6 +2890,14 @@
 				'nonidentity'=>[
 					'nonidantity',
 				],
+				'nonillion'=>[
+					'nonilion',
+					'nonilllion',
+				],
+				'nonillionth'=>[
+					'nonilionth',
+					'nonilllionth',
+				],
 				'nonimmigrant'=>[
 					'nonimmigrent',
 					'nonimnigrant',
@@ -2133,9 +2923,13 @@
 				'noninflammable'=>[
 					'noninflammible',
 					'noninflamnable',
+					'noninflamable',
+					'noninflammmable',
 				],
 				'noninflammatory'=>[
 					'noninflamnatory',
+					'noninflamatory',
+					'noninflammmatory',
 				],
 				'noninflationary'=>[
 					'noninflationery',
@@ -2154,6 +2948,12 @@
 				],
 				'nonintellectual'=>[
 					'nonintellectaul',
+					'nonintelectual',
+					'nonintelllectual',
+				],
+				'nonintellectuals'=>[
+					'nonintelectuals',
+					'nonintelllectuals',
 				],
 				'noninterference'=>[
 					'noninterferance',
@@ -2172,6 +2972,10 @@
 				],
 				'nonirritants'=>[
 					'noniritants',
+				],
+				'nonirritating'=>[
+					'noniritating',
+					'nonirrritating',
 				],
 				'nonissue'=>[
 					'nonisssue',
@@ -2339,6 +3143,7 @@
 					'nometallic',
 					'nonetallic',
 					'nonmetalic',
+					'nonmetalllic',
 				],
 				'nonmetals'=>[
 					'nometals',
@@ -2542,18 +3347,36 @@
 					'nomystical',
 					'nonystical',
 				],
+				'nonnarcotic'=>[
+					'nonarcotic',
+					'nonnnarcotic',
+				],
+				'nonnarcotics'=>[
+					'nonarcotics',
+					'nonnnarcotics',
+				],
 				'nonnarrative'=>[
 					'nonnarative',
+				],
+				'nonnative'=>[
+					'nonative',
+					'nonnnative',
+				],
+				'nonnatives'=>[
+					'nonatives',
+					'nonnnatives',
 				],
 				'nonnecessities'=>[
 					'nonecessities',
 				],
 				'nonnegative'=>[
 					'nonegative',
+					'nonnnegative',
 				],
 				'nonnegotiable'=>[
 					'nonegotiable',
 					'nonnegotiible',
+					'nonnnegotiable',
 				],
 				'nonnegotiables'=>[
 					'nonegotiables',
@@ -2570,9 +3393,14 @@
 				'nonnuclear'=>[
 					'nonnucleer',
 					'nonuclear',
+					'nonnnuclear',
 				],
 				'nonnude'=>[
 					'nonude',
+				],
+				'nonnumerical'=>[
+					'nonnnumerical',
+					'nonumerical',
 				],
 				'nonnutritious'=>[
 					'nonnutritous',
@@ -2583,14 +3411,27 @@
 				],
 				'nonoccupational'=>[
 					'nonocupational',
+					'nonocccupational',
 				],
 				'nonoccurrence'=>[
 					'nonoccurrance',
 					'nonocurrence',
+					'nonocccurrence',
+					'nonoccurrrence',
 				],
 				'nonoccurrences'=>[
 					'nonoccurences',
 					'nonocurrences',
+				],
+				'nonofficial'=>[
+					'nonoffficial',
+					'nonoficial',
+				],
+				'nonofficially'=>[
+					'nonoffficially',
+					'nonofficiallly',
+					'nonofficialy',
+					'nonoficially',
 				],
 				'nonoral'=>[
 					'nonoural',
@@ -2612,6 +3453,10 @@
 				],
 				'nonpar'=>[
 					'nonper',
+				],
+				'nonparallel'=>[
+					'nonparalel',
+					'nonparalllel',
 				],
 				'nonparametric'=>[
 					'nonperametric',
@@ -2647,6 +3492,10 @@
 				'nonpersistent'=>[
 					'nonpersistant',
 				],
+				'nonphysically'=>[
+					'nonphysicallly',
+					'nonphysicaly',
+				],
 				'nonphysician'=>[
 					'nonphysican',
 				],
@@ -2672,8 +3521,16 @@
 				'nonpolarizable'=>[
 					'nonpolarizible',
 				],
+				'nonpolitically'=>[
+					'nonpoliticallly',
+					'nonpoliticaly',
+				],
 				'nonpolitician'=>[
 					'nonpolitican',
+				],
+				'nonpolluting'=>[
+					'nonpollluting',
+					'nonpoluting',
 				],
 				'nonporousness'=>[
 					'nonporousnes',
@@ -2715,18 +3572,26 @@
 				],
 				'nonrecurrent'=>[
 					'nonrecurent',
+					'nonrecurrrent',
 				],
 				'nonrecurring'=>[
 					'nonrecuring',
+					'nonrecurrring',
 				],
 				'nonrecyclable'=>[
 					'nonrecyclible',
+				],
+				'nonredeemable'=>[
+					'nonredeeemable',
+					'nonredemable',
 				],
 				'nonredundant'=>[
 					'nonredundent',
 				],
 				'nonrefillable'=>[
 					'nonrefillible',
+					'nonrefilable',
+					'nonrefilllable',
 				],
 				'nonreligious'=>[
 					'nonreligous',
@@ -2794,6 +3659,10 @@
 					'nonsence',
 					'nonesense',
 				],
+				'nonsensically'=>[
+					'nonsensicallly',
+					'nonsensicaly',
+				],
 				'nonsensuous'=>[
 					'nonsensous',
 				],
@@ -2840,13 +3709,26 @@
 				'nonsuccess'=>[
 					'nonsucces',
 					'nonsuccesss',
+					'nonsucccess',
+					'nonsucess',
 				],
 				'nonsuccessive'=>[
 					'nonsuccesive',
 					'nonsuccesssive',
+					'nonsucccessive',
+					'nonsucessive',
 				],
 				'nonsupport'=>[
 					'nonsuport',
+					'nonsuppport',
+				],
+				'nonsupporting'=>[
+					'nonsuporting',
+					'nonsuppporting',
+				],
+				'nonswimmer'=>[
+					'nonswimer',
+					'nonswimmmer',
 				],
 				'nonsymmetrical'=>[
 					'nonsymnetrical',
@@ -2887,9 +3769,58 @@
 				'nonvoluntary'=>[
 					'nonvoluntery',
 				],
+				'noodle'=>[
+					'nooodle',
+				],
+				'noodled'=>[
+					'nooodled',
+				],
+				'noodlehead'=>[
+					'nodlehead',
+					'nooodlehead',
+				],
+				'noodles'=>[
+					'nooodles',
+				],
+				'noodling'=>[
+					'nooodling',
+				],
+				'nook'=>[
+					'noook',
+				],
+				'nookie'=>[
+					'nokie',
+					'noookie',
+				],
+				'nooks'=>[
+					'noooks',
+				],
+				'nooky'=>[
+					'noooky',
+				],
 				'noon'=>[
 					'noon noon',
 					'noon noon noon',
+					'nooon',
+				],
+				'noonday'=>[
+					'nooonday',
+				],
+				'noons'=>[
+					'nooons',
+				],
+				'noontide'=>[
+					'nontide',
+					'nooontide',
+				],
+				'noontime'=>[
+					'nooontime',
+				],
+				'noose'=>[
+					'nooose',
+				],
+				'nooses'=>[
+					'noooses',
 				],
 				'nor'=>[
 					'nor nor',
@@ -2997,6 +3928,7 @@
 				'normally'=>[
 					'normaly',
 					'nourmally',
+					'normallly',
 				],
 				'normals'=>[
 					'nourmals',
@@ -3196,9 +4128,25 @@
 					'nose nose',
 					'nose nose nose',
 				],
+				'nosebleed'=>[
+					'nosebled',
+					'nosebleeed',
+				],
+				'nosebleeds'=>[
+					'nosebleds',
+					'nosebleeeds',
+				],
 				'nosepiece'=>[
 					'nosepeice',
 					'nosepice',
+				],
+				'nosewheel'=>[
+					'nosewheeel',
+					'nosewhel',
+				],
+				'nosewheels'=>[
+					'nosewheeels',
+					'nosewhels',
 				],
 				'nosiness'=>[
 					'nosines',
@@ -3206,6 +4154,10 @@
 				],
 				'nosocomial'=>[
 					'nasocomial',
+				],
+				'nostalgically'=>[
+					'nostalgicallly',
+					'nostalgicaly',
 				],
 				'nosy'=>[
 					'nocy',
@@ -3232,6 +4184,14 @@
 				'note'=>[
 					'note note',
 					'note note note',
+				],
+				'notebook'=>[
+					'notebok',
+					'noteboook',
+				],
+				'notebooks'=>[
+					'noteboks',
+					'noteboooks',
 				],
 				'noteworthiness'=>[
 					'noteworthines',
@@ -3276,6 +4236,10 @@
 				'notifiable'=>[
 					'notifiible',
 				],
+				'notionally'=>[
+					'notionallly',
+					'notionaly',
+				],
 				'notoriety'=>[
 					'nortoriety',
 					'notariety',
@@ -3309,8 +4273,27 @@
 				'nouvelle'=>[
 					'nouvele',
 				],
+				'novelette'=>[
+					'novelete',
+					'novelettte',
+				],
+				'novelettes'=>[
+					'noveletes',
+					'noveletttes',
+				],
 				'novella'=>[
 					'novela',
+					'novellla',
+				],
+				'novellas'=>[
+					'novelllas',
+				],
+				'novelle'=>[
+					'novele',
+					'novellle',
+				],
+				'novelly'=>[
+					'novellly',
 				],
 				'november'=>[
 					'nobember',
@@ -3353,18 +4336,44 @@
 					'noxiousneses',
 					'noxiousnessses',
 				],
+				'nozzle'=>[
+					'nozzzle',
+				],
+				'nozzles'=>[
+					'nozzzles',
+				],
 				'nuance'=>[
 					'naunce',
 					'nuence',
 				],
+				'nubbier'=>[
+					'nubbbier',
+				],
+				'nubbiest'=>[
+					'nubbbiest',
+				],
 				'nubbin'=>[
 					'nubin',
+					'nubbbin',
 				],
 				'nubbinesses'=>[
 					'nubinesses',
 				],
+				'nubbins'=>[
+					'nubbbins',
+					'nubins',
+				],
 				'nubble'=>[
 					'nuble',
+					'nubbble',
+				],
+				'nubblier'=>[
+					'nubbblier',
+					'nublier',
+				],
+				'nubbliest'=>[
+					'nubbbliest',
+					'nubliest',
 				],
 				'nubbly'=>[
 					'nubbally',
@@ -3372,12 +4381,18 @@
 					'nubbely',
 					'nubblly',
 					'nubly',
+					'nubbbly',
 				],
 				'nubby'=>[
 					'nuby',
+					'nubbby',
 				],
 				'nucellar'=>[
 					'nuceller',
+				],
+				'nucellus'=>[
+					'nucelllus',
+					'nucelus',
 				],
 				'nuclear'=>[
 					'neuclear',
@@ -3428,11 +4443,17 @@
 					'nudei',
 					'nudi',
 				],
+				'nuggar'=>[
+					'nugar',
+					'nugggar',
+				],
 				'nugget'=>[
 					'nuget',
+					'nuggget',
 				],
 				'nuggets'=>[
 					'nugets',
+					'nugggets',
 				],
 				'nuggety'=>[
 					'nugety',
@@ -3445,6 +4466,7 @@
 				],
 				'null'=>[
 					'nul',
+					'nulll',
 				],
 				'nullah'=>[
 					'nulla',
@@ -3457,15 +4479,48 @@
 				],
 				'nullification'=>[
 					'nulification',
+					'nulllification',
+				],
+				'nullifidian'=>[
+					'nulifidian',
+					'nulllifidian',
+				],
+				'nullified'=>[
+					'nulified',
+					'nulllified',
+				],
+				'nullifier'=>[
+					'nulifier',
+					'nulllifier',
+				],
+				'nullifies'=>[
+					'nulifies',
+					'nulllifies',
 				],
 				'nullify'=>[
 					'nulify',
+					'nulllify',
+				],
+				'nullifying'=>[
+					'nulifying',
+					'nulllifying',
 				],
 				'nullipara'=>[
 					'nullipera',
 				],
+				'nullipore'=>[
+					'nulipore',
+					'nulllipore',
+				],
+				'nullity'=>[
+					'nulity',
+					'nulllity',
+				],
 				'nullizygosity'=>[
 					'nullizygozity',
+				],
+				'nulls'=>[
+					'nullls',
 				],
 				'number'=>[
 					'number number',
@@ -3481,6 +4536,12 @@
 				],
 				'numbskull'=>[
 					'numbscul',
+					'numbskul',
+					'numbskulll',
+				],
+				'numbskulls'=>[
+					'numbskullls',
+					'numbskuls',
 				],
 				'numerable'=>[
 					'numerible',
@@ -3494,6 +4555,10 @@
 				],
 				'numerary'=>[
 					'numerery',
+				],
+				'numerically'=>[
+					'numericallly',
+					'numericaly',
 				],
 				'numerous'=>[
 					'numberous',
@@ -3511,16 +4576,43 @@
 				],
 				'nummary'=>[
 					'nummery',
+					'numary',
+					'nummmary',
 				],
 				'nummular'=>[
 					'nummuler',
 					'numnular',
+					'nummmular',
+					'numular',
 				],
 				'nummulite'=>[
 					'numnulite',
+					'nummmulite',
+					'numulite',
+				],
+				'nummulites'=>[
+					'nummmulites',
+					'numulites',
+				],
+				'numskull'=>[
+					'numskul',
+					'numskulll',
+				],
+				'numskulls'=>[
+					'numskullls',
+					'numskuls',
+				],
+				'nunhood'=>[
+					'nunhod',
+					'nunhoood',
+				],
+				'nunneries'=>[
+					'nuneries',
+					'nunnneries',
 				],
 				'nunnery'=>[
 					'nunery',
+					'nunnnery',
 				],
 				'nuptial'=>[
 					'nuptual',
@@ -3546,11 +4638,19 @@
 				'nutant'=>[
 					'nutent',
 				],
+				'nutgall'=>[
+					'nutgal',
+					'nutgalll',
+				],
 				'nutrient'=>[
 					'nutreint',
 					'nutriant',
 					'nutrint',
 					'nutritent',
+				],
+				'nutritionally'=>[
+					'nutritionallly',
+					'nutritionaly',
 				],
 				'nutritious'=>[
 					'nutritous',
@@ -3574,13 +4674,76 @@
 				],
 				'nutshell'=>[
 					'nutshel',
+					'nutshelll',
+				],
+				'nutshells'=>[
+					'nutshellls',
+					'nutshels',
 				],
 				'nutsy'=>[
 					'nutcy',
 				],
+				'nutted'=>[
+					'nuttted',
+				],
+				'nutter'=>[
+					'nuttter',
+				],
+				'nutters'=>[
+					'nuters',
+					'nuttters',
+				],
+				'nuttier'=>[
+					'nutier',
+					'nutttier',
+				],
+				'nuttiest'=>[
+					'nutiest',
+					'nutttiest',
+				],
+				'nuttily'=>[
+					'nutily',
+					'nutttily',
+				],
 				'nuttiness'=>[
 					'nuttines',
 					'nuttinesss',
+					'nutiness',
+					'nutttiness',
+				],
+				'nutting'=>[
+					'nuttting',
+				],
+				'nutty'=>[
+					'nuttty',
+				],
+				'nutwood'=>[
+					'nutwod',
+					'nutwoood',
+				],
+				'nuzzle'=>[
+					'nuzle',
+					'nuzzzle',
+				],
+				'nuzzled'=>[
+					'nuzled',
+					'nuzzzled',
+				],
+				'nuzzler'=>[
+					'nuzler',
+					'nuzzzler',
+				],
+				'nuzzlers'=>[
+					'nuzlers',
+					'nuzzzlers',
+				],
+				'nuzzles'=>[
+					'nuzles',
+					'nuzzzles',
+				],
+				'nuzzling'=>[
+					'nuzling',
+					'nuzzzling',
 				],
 				'nychthemeral'=>[
 					'nyctemeral',

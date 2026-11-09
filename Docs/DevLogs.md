@@ -9,6 +9,16 @@ live installation rather than estimated.
 
 ## 2026, November 8
 
+- The English misspelling list gained 34,572 doubled-letter slips: every
+  doubled letter but "s" typed once or three times (strugles, imigrants,
+  teamates, buzzzer). They come from the AI Workers doubled-letter job, which
+  made about 270,000 slips from 150,887 words. Only words common enough for
+  pyspellchecker to count went in; the 128,076 uncounted Wiktionary words were
+  mostly rare or foreign, and loading them would have made the list about six
+  times larger. Names that pyspellchecker lowercases, dropped slips under five
+  letters, and slips with two possible corrections (weding: wedding or
+  weeding) stayed out. The list now loads at a 52 MB peak, up from 40 MB.
+
 - RevoltLib's AI Workers spellcheck finished (task 2): 18,564 typos judged in
   7,173 texts. The 9,575 the two models agreed on and the dictionary backed
   were each read in their sentence. 2,099 were rejected, and they were rarely

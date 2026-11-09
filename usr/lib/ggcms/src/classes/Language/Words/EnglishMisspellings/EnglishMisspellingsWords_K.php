@@ -46,28 +46,48 @@
 					'kabalah',
 					# kabbala: an accepted spelling, not a slip (AmericanBritishWords_K: kabbalah)
 				#	'kabbala',
+					'kabbbalah',
 				],
 				'kabbalahs'=>[
 					'kabalahs',
 					'kabbalas',
+					'kabbbalahs',
 				],
 				'kabbalas'=>[
 					'kabalas',
 				],
 				'kabbalism'=>[
 					'kabalism',
+					'kabbbalism',
 				],
 				'kabbalisms'=>[
 					'kabalisms',
 				],
 				'kabbalist'=>[
 					'kabalist',
+					'kabbbalist',
+				],
+				'kabbalistic'=>[
+					'kabalistic',
+					'kabbbalistic',
 				],
 				'kabbalists'=>[
 					'kabalists',
 				],
+				'kaboom'=>[
+					'kabom',
+					'kabooom',
+				],
 				'kachina'=>[
 					'kachini',
+				],
+				'kaddish'=>[
+					'kadddish',
+					'kadish',
+				],
+				'kaddishes'=>[
+					'kadddishes',
+					'kadishes',
 				],
 				'kaempferol'=>[
 					'kaempherol',
@@ -76,17 +96,32 @@
 					'kaffeeklatch',
 					'kaffeeklatcsh',
 					'kaffeeklatsh',
+					'kafeeklatsch',
+					'kaffeeeklatsch',
+					'kaffeklatsch',
+					'kafffeeklatsch',
 				],
 				'kaffeeklatsches'=>[
 					'kaffeeklatches',
 					'kaffeeklatcshes',
 					'kaffeeklatshes',
+					'kafeeklatsches',
+					'kaffeeeklatsches',
+					'kaffeklatsches',
+					'kafffeeklatsches',
+				],
+				'kaffir'=>[
+					'kafffir',
 				],
 				'kaffiyah'=>[
 					'kaffiya',
 				],
 				'kaffiyahs'=>[
 					'kaffiyas',
+				],
+				'kaffiyeh'=>[
+					'kafffiyeh',
+					'kafiyeh',
 				],
 				'kahuna'=>[
 					'kauna',
@@ -115,6 +150,10 @@
 				'kaleidoscopic'=>[
 					'kaliedoscopic',
 				],
+				'kaleidoscopically'=>[
+					'kaleidoscopicallly',
+					'kaleidoscopicaly',
+				],
 				'kalian'=>[
 					'kalan',
 				],
@@ -128,8 +167,24 @@
 				'kalsomining'=>[
 					'kalsominang',
 				],
+				'kamaaina'=>[
+					'kamaaaina',
+					'kamaina',
+				],
 				'kampuchean-occupied'=>[
 					'kampuchean occupied',
+				],
+				'kamseen'=>[
+					'kamseeen',
+					'kamsen',
+				],
+				'kangaroo'=>[
+					'kangaro',
+					'kangarooo',
+				],
+				'kangaroos'=>[
+					'kangarooos',
+					'kangaros',
 				],
 				'kanosamine'=>[
 					'kansosamine',
@@ -142,12 +197,21 @@
 				],
 				'kapellmeister'=>[
 					'kapellmiester',
+					'kapelllmeister',
+					'kapelmeister',
 				],
 				'kapellmeisters'=>[
 					'kapellmiesters',
 				],
 				'kappa'=>[
 					'kapa',
+					'kapppa',
+				],
+				'kappas'=>[
+					'kapppas',
+				],
+				'kaputt'=>[
+					'kaputtt',
 				],
 				'karateist'=>[
 					'karatiest',
@@ -155,12 +219,19 @@
 				'karateists'=>[
 					'karatiests',
 				],
+				'karmically'=>[
+					'karmicallly',
+					'karmicaly',
+				],
 				'kaross'=>[
 					'karos',
 					'karosss',
 				],
 				'karroo'=>[
 					'karoo',
+					'karro',
+					'karrooo',
+					'karrroo',
 				],
 				'karyogram'=>[
 					'karogram',
@@ -197,9 +268,17 @@
 				],
 				'katzenjammer'=>[
 					'katzenjamner',
+					'katzenjamer',
+					'katzenjammmer',
 				],
 				'katzenjammers'=>[
 					'katzenjamners',
+				],
+				'kazoo'=>[
+					'kazooo',
+				],
+				'kazoos'=>[
+					'kazooos',
 				],
 				'kbar'=>[
 					'kber',
@@ -236,6 +315,7 @@
 				],
 				'keddah'=>[
 					'kedda',
+					'kedddah',
 				],
 				'keddahs'=>[
 					'keddas',
@@ -248,32 +328,138 @@
 				],
 				'kedgeree'=>[
 					'kegeree',
+					'kedgere',
+					'kedgereee',
 				],
 				'kedgerees'=>[
 					'kegerees',
+					'kedgereees',
+					'kedgeres',
 				],
 				'kedges'=>[
 					'keges',
 				],
+				'keef'=>[
+					'keeef',
+				],
+				'keek'=>[
+					'keeek',
+				],
+				'keel'=>[
+					'keeel',
+				],
+				'keelboat'=>[
+					'keeelboat',
+					'kelboat',
+				],
+				'keeled'=>[
+					'keeeled',
+				],
+				'keelhaul'=>[
+					'keeelhaul',
+					'kelhaul',
+				],
+				'keelhauled'=>[
+					'keeelhauled',
+					'kelhauled',
+				],
+				'keelhauling'=>[
+					'keeelhauling',
+					'kelhauling',
+				],
+				'keelhauls'=>[
+					'keeelhauls',
+					'kelhauls',
+				],
+				'keeling'=>[
+					'keeeling',
+				],
+				'keels'=>[
+					'keeels',
+				],
+				'keelson'=>[
+					'keeelson',
+				],
+				'keelsons'=>[
+					'keeelsons',
+				],
+				'keen'=>[
+					'keeen',
+				],
 				'keened'=>[
 					'keend',
+					'keeened',
+				],
+				'keener'=>[
+					'keeener',
+				],
+				'keenest'=>[
+					'keeenest',
+				],
+				'keening'=>[
+					'keeening',
+				],
+				'keenly'=>[
+					'keeenly',
+					'kenly',
 				],
 				'keenness'=>[
 					'keennes',
 					'keennesss',
+					'keeenness',
+					'keeness',
+					'keennness',
+					'kenness',
+				],
+				'keens'=>[
+					'keeens',
 				],
 				'keep'=>[
 					'keep keep',
 					'keep keep keep',
+					'keeep',
 				],
 				'keepable'=>[
 					'keepible',
+				],
+				'keeper'=>[
+					'keeeper',
+				],
+				'keepers'=>[
+					'keeepers',
+					'kepers',
+				],
+				'keeping'=>[
+					'keeeping',
+				],
+				'keeps'=>[
+					'keeeps',
+				],
+				'keepsake'=>[
+					'keeepsake',
+					'kepsake',
+				],
+				'keepsakes'=>[
+					'keeepsakes',
+					'kepsakes',
+				],
+				'keeshond'=>[
+					'keeeshond',
+					'keshond',
+				],
+				'keeshonds'=>[
+					'keeeshonds',
+					'keshonds',
 				],
 				'keffiyah'=>[
 					'keffiya',
 				],
 				'keffiyahs'=>[
 					'keffiyas',
+				],
+				'keffiyeh'=>[
+					'kefffiyeh',
+					'kefiyeh',
 				],
 				'kegger'=>[
 					'keger',
@@ -299,22 +485,50 @@
 				'keitloas'=>[
 					'kietloas',
 				],
+				'keller'=>[
+					'kelller',
+				],
 				'kelly'=>[
 					'kelally',
 					'kelaly',
 					'kellly',
 				],
+				'kenned'=>[
+					'kennned',
+				],
 				'kennel'=>[
 					'kenel',
+					'kennnel',
+				],
+				'kenneled'=>[
+					'keneled',
+					'kennneled',
 				],
 				'kenneling'=>[
 					'keneling',
+					'kennneling',
 				],
 				'kennelled'=>[
 					'kenelled',
+					'kennellled',
+					'kennnelled',
+				],
+				'kennelling'=>[
+					'kenelling',
+					'kennellling',
+					'kennnelling',
+				],
+				'kennels'=>[
+					'kenels',
+					'kennnels',
 				],
 				'kenning'=>[
 					'kening',
+					'kennning',
+				],
+				'kennings'=>[
+					'kenings',
+					'kennnings',
 				],
 				'kent'=>[
 					'kentt',
@@ -384,6 +598,12 @@
 				'kerfuffle'=>[
 					'caffufle',
 					'cafuffle',
+					'kerfufffle',
+					'kerfufle',
+				],
+				'kerfuffles'=>[
+					'kerfufffles',
+					'kerfufles',
 				],
 				'kerria'=>[
 					'keria',
@@ -406,6 +626,31 @@
 				'ketone'=>[
 					'keytone',
 				],
+				'kettle'=>[
+					'ketle',
+					'ketttle',
+				],
+				'kettledrum'=>[
+					'ketledrum',
+					'ketttledrum',
+				],
+				'kettledrummer'=>[
+					'ketledrummer',
+					'kettledrummmer',
+					'ketttledrummer',
+				],
+				'kettledrums'=>[
+					'ketledrums',
+					'ketttledrums',
+				],
+				'kettleful'=>[
+					'ketleful',
+					'ketttleful',
+				],
+				'kettles'=>[
+					'ketles',
+					'ketttles',
+				],
 				'key'=>[
 					'key key',
 					'key key key',
@@ -418,6 +663,7 @@
 				],
 				'khaddar'=>[
 					'khadder',
+					'khadddar',
 				],
 				'khazakstani-occupied'=>[
 					'khazakstani occupied',
@@ -475,18 +721,39 @@
 				],
 				'kibble'=>[
 					'kible',
+					'kibbble',
+				],
+				'kibbled'=>[
+					'kibbbled',
+					'kibled',
+				],
+				'kibbles'=>[
+					'kibbbles',
+					'kibles',
+				],
+				'kibbling'=>[
+					'kibbbling',
+					'kibling',
 				],
 				'kibbutz'=>[
 					'kibutz',
+					'kibbbutz',
+				],
+				'kibbutzes'=>[
+					'kibbbutzes',
+					'kibutzes',
 				],
 				'kibbutzim'=>[
 					'kibutzim',
+					'kibbbutzim',
 				],
 				'kibbutznik'=>[
 					'kibutznik',
+					'kibbbutznik',
 				],
 				'kibbutzniks'=>[
 					'kibutzniks',
+					'kibbbutzniks',
 				],
 				'kibei'=>[
 					'kibie',
@@ -497,9 +764,88 @@
 				'kiblahs'=>[
 					'kiblas',
 				],
+				'kickball'=>[
+					'kickbal',
+					'kickballl',
+				],
+				'kickoff'=>[
+					'kickof',
+					'kickofff',
+				],
+				'kickoffs'=>[
+					'kickofffs',
+					'kickofs',
+				],
+				'kidded'=>[
+					'kiddded',
+					'kided',
+				],
+				'kidder'=>[
+					'kiddder',
+					'kider',
+				],
+				'kidderminster'=>[
+					'kiddderminster',
+					'kiderminster',
+				],
+				'kidders'=>[
+					'kiddders',
+					'kiders',
+				],
 				'kiddie'=>[
 					'kiddei',
 					'kiddi',
+					'kidddie',
+					'kidie',
+				],
+				'kiddies'=>[
+					'kidddies',
+					'kidies',
+				],
+				'kidding'=>[
+					'kiddding',
+					'kiding',
+				],
+				'kiddingly'=>[
+					'kidddingly',
+					'kidingly',
+				],
+				'kiddish'=>[
+					'kidddish',
+					'kidish',
+				],
+				'kiddo'=>[
+					'kidddo',
+				],
+				'kiddoes'=>[
+					'kidddoes',
+					'kidoes',
+				],
+				'kiddos'=>[
+					'kidddos',
+					'kidos',
+				],
+				'kiddush'=>[
+					'kidddush',
+					'kidush',
+				],
+				'kiddy'=>[
+					'kidddy',
+				],
+				'kidnapped'=>[
+					'kidnappped',
+				],
+				'kidnapper'=>[
+					'kidnappper',
+				],
+				'kidnappers'=>[
+					'kidnapppers',
+				],
+				'kidnapping'=>[
+					'kidnappping',
+				],
+				'kidnappings'=>[
+					'kidnapppings',
 				],
 				'kief'=>[
 					'keif',
@@ -518,15 +864,60 @@
 					'kill kill',
 					'kill kill kill',
 					'kil',
+					'killl',
+				],
+				'killdeer'=>[
+					'killdeeer',
+					'killder',
+					'killldeer',
+				],
+				'killdeers'=>[
+					'killdeeers',
+					'killders',
+					'killldeers',
 				],
 				'killed'=>[
 					'kiled',
+					'killled',
 				],
 				'killer'=>[
 					'kiler',
+					'killler',
+				],
+				'killers'=>[
+					'kilers',
+					'killlers',
+				],
+				'killick'=>[
+					'kilick',
+					'killlick',
+				],
+				'killifish'=>[
+					'kilifish',
+					'killlifish',
+				],
+				'killifishes'=>[
+					'kilifishes',
+					'killlifishes',
 				],
 				'killing'=>[
 					'kiling',
+					'killling',
+				],
+				'killings'=>[
+					'kilings',
+					'killlings',
+				],
+				'killjoy'=>[
+					'kiljoy',
+					'killljoy',
+				],
+				'killjoys'=>[
+					'kiljoys',
+					'killljoys',
+				],
+				'kills'=>[
+					'killls',
 				],
 				'kilobar'=>[
 					'kilober',
@@ -549,6 +940,14 @@
 				],
 				'kiloparsecs'=>[
 					'kilopersecs',
+				],
+				'kilowatt'=>[
+					'kilowat',
+					'kilowattt',
+				],
+				'kilowatts'=>[
+					'kilowats',
+					'kilowattts',
 				],
 				'kinara'=>[
 					'kinira',
@@ -621,6 +1020,10 @@
 					'kindneses',
 					'kindnessses',
 				],
+				'kinematically'=>[
+					'kinematicallly',
+					'kinematicaly',
+				],
 				'kinematics'=>[
 					'kinimatics',
 				],
@@ -651,6 +1054,10 @@
 				'kinetic'=>[
 					'kinitic',
 				],
+				'kinetically'=>[
+					'kineticallly',
+					'kineticaly',
+				],
 				'kinetics'=>[
 					'kinitics',
 				],
@@ -677,6 +1084,10 @@
 				'kingdom'=>[
 					'kingdon',
 				],
+				'kinghood'=>[
+					'kinghod',
+					'kinghoood',
+				],
 				'kingless'=>[
 					'kingles',
 					'kinglesss',
@@ -690,6 +1101,14 @@
 					'kingaly',
 					'kingely',
 					'kinglly',
+				],
+				'kingwood'=>[
+					'kingwod',
+					'kingwoood',
+				],
+				'kingwoods'=>[
+					'kingwods',
+					'kingwooods',
 				],
 				'kinin'=>[
 					'kinan',
@@ -706,12 +1125,30 @@
 				],
 				'kinnikinnick'=>[
 					'kinnikinick',
+					'kinnikinnnick',
+					'kinnnikinnick',
 				],
 				'kinnikinnicks'=>[
 					'kinnikinicks',
 				],
+				'kipped'=>[
+					'kippped',
+				],
 				'kipper'=>[
 					'kiper',
+					'kippper',
+				],
+				'kippered'=>[
+					'kipppered',
+				],
+				'kippering'=>[
+					'kipppering',
+				],
+				'kippers'=>[
+					'kipppers',
+				],
+				'kipping'=>[
+					'kippping',
 				],
 				'kirmess'=>[
 					'kirmesss',
@@ -749,9 +1186,25 @@
 					'kising',
 					'kisssing',
 				],
+				'kissoff'=>[
+					'kissof',
+					'kissofff',
+				],
+				'kissoffs'=>[
+					'kissofffs',
+					'kissofs',
+				],
 				'kissy'=>[
 					'kiscy',
 					'kisy',
+				],
+				'kitchenette'=>[
+					'kitchenete',
+					'kitchenettte',
+				],
+				'kitchenettes'=>[
+					'kitchenetes',
+					'kitchenetttes',
 				],
 				'kitsch'=>[
 					'kitch',
@@ -762,20 +1215,92 @@
 					'kitschines',
 					'kitschinesss',
 				],
+				'kitted'=>[
+					'kittted',
+				],
+				'kitten'=>[
+					'kiten',
+					'kittten',
+				],
 				'kittened'=>[
 					'kittend',
+				],
+				'kittenish'=>[
+					'kitenish',
+					'kitttenish',
+				],
+				'kittenishly'=>[
+					'kitenishly',
+					'kitttenishly',
+				],
+				'kittens'=>[
+					'kitens',
+					'kitttens',
+				],
+				'kitties'=>[
+					'kittties',
+				],
+				'kitting'=>[
+					'kittting',
+				],
+				'kittiwake'=>[
+					'kitiwake',
+					'kitttiwake',
+				],
+				'kittiwakes'=>[
+					'kitiwakes',
+					'kitttiwakes',
+				],
+				'kittle'=>[
+					'kitle',
+					'kitttle',
+				],
+				'kitts'=>[
+					'kittts',
+				],
+				'kitty'=>[
+					'kittty',
+				],
+				'kittycat'=>[
+					'kitttycat',
+					'kitycat',
 				],
 				'klebsiella'=>[
 					'klebseilla',
 					'klebsiela',
 					'klebsilla',
 				],
+				'kleenex'=>[
+					'kleeenex',
+					'klenex',
+				],
+				'kleenexes'=>[
+					'kleeenexes',
+					'klenexes',
+				],
 				'klezmorim'=>[
 					'klezmourim',
+				],
+				'kloof'=>[
+					'klooof',
 				],
 				'klutziness'=>[
 					'klutzines',
 					'klutzinesss',
+				],
+				'knapped'=>[
+					'knappped',
+				],
+				'knapping'=>[
+					'knappping',
+				],
+				'knapweed'=>[
+					'knapwed',
+					'knapweeed',
+				],
+				'knapweeds'=>[
+					'knapweds',
+					'knapweeeds',
 				],
 				'knar'=>[
 					'kner',
@@ -787,16 +1312,100 @@
 				'knead'=>[
 					'kned',
 				],
+				'knee'=>[
+					'kneee',
+				],
+				'kneecap'=>[
+					'knecap',
+					'kneeecap',
+				],
+				'kneecapped'=>[
+					'knecapped',
+					'kneecappped',
+					'kneeecapped',
+				],
+				'kneecapping'=>[
+					'knecapping',
+					'kneecappping',
+					'kneeecapping',
+				],
 				'kneecappings'=>[
 					'kneecapings',
 				],
+				'kneecaps'=>[
+					'knecaps',
+					'kneeecaps',
+				],
+				'kneed'=>[
+					'kneeed',
+				],
+				'kneehole'=>[
+					'kneeehole',
+					'knehole',
+				],
+				'kneeing'=>[
+					'kneeeing',
+				],
+				'kneel'=>[
+					'kneeel',
+				],
+				'kneeled'=>[
+					'kneeeled',
+				],
+				'kneeling'=>[
+					'kneeeling',
+				],
+				'kneels'=>[
+					'kneeels',
+				],
+				'kneepad'=>[
+					'kneeepad',
+					'knepad',
+				],
+				'kneepan'=>[
+					'kneeepan',
+					'knepan',
+				],
+				'kneepans'=>[
+					'kneeepans',
+					'knepans',
+				],
+				'knees'=>[
+					'kneees',
+				],
 				'knell'=>[
 					'knel',
+					'knelll',
+				],
+				'knelled'=>[
+					'knellled',
+				],
+				'knelling'=>[
+					'knellling',
+				],
+				'knells'=>[
+					'knellls',
 				],
 				'knew'=>[
 					'knew knew',
 					'knew knew knew',
 					'knowed',
+				],
+				'knickknack'=>[
+					'knickkknack',
+					'knicknack',
+				],
+				'knickknacks'=>[
+					'knickkknacks',
+					'knicknacks',
+				],
+				'knighthood'=>[
+					'knighthod',
+					'knighthoood',
+				],
+				'knighthoods'=>[
+					'knighthods',
+					'knighthooods',
 				],
 				'knightliness'=>[
 					'knightlines',
@@ -804,6 +1413,19 @@
 				],
 				'knightlinesses'=>[
 					'knightlinisses',
+				],
+				'knitted'=>[
+					'knittted',
+				],
+				'knitter'=>[
+					'knittter',
+				],
+				'knitters'=>[
+					'kniters',
+					'knittters',
+				],
+				'knitting'=>[
+					'knittting',
 				],
 				'knitwear'=>[
 					'knitweer',
@@ -816,13 +1438,17 @@
 				],
 				'knobbed'=>[
 					'kobbed',
+					'knobbbed',
 				],
 				'knobbier'=>[
 					'kobbier',
+					'knobbbier',
+					'knobier',
 				],
 				'knobbiest'=>[
 					'knobiest',
 					'kobbiest',
+					'knobbbiest',
 				],
 				'knobblier'=>[
 					'knoblier',
@@ -839,19 +1465,24 @@
 					'knobblly',
 					'knobly',
 					'kobbly',
+					'knobbbly',
 				],
 				'knobby'=>[
 					'knoby',
 					'kobby',
+					'knobbby',
 				],
 				'knobkerrie'=>[
 					'knobkerrei',
 					'knobkerie',
 					'knobkerri',
 					'kobkerrie',
+					'knobkerrrie',
 				],
 				'knobkerries'=>[
 					'kobkerries',
+					'knobkeries',
+					'knobkerrries',
 				],
 				'knoblike'=>[
 					'koblike',
@@ -891,9 +1522,13 @@
 				],
 				'knockoff'=>[
 					'kockoff',
+					'knockof',
+					'knockofff',
 				],
 				'knockoffs'=>[
 					'kockoffs',
+					'knockofffs',
+					'knockofs',
 				],
 				'knockout'=>[
 					'kockout',
@@ -913,6 +1548,7 @@
 				'knoll'=>[
 					'knol',
 					'koll',
+					'knolll',
 				],
 				'knolled'=>[
 					'kolled',
@@ -928,6 +1564,8 @@
 				],
 				'knolls'=>[
 					'kolls',
+					'knollls',
+					'knols',
 				],
 				'knolly'=>[
 					'kolly',
@@ -977,6 +1615,7 @@
 				],
 				'knotted'=>[
 					'kotted',
+					'knottted',
 				],
 				'knotter'=>[
 					'kotter',
@@ -986,9 +1625,13 @@
 				],
 				'knottier'=>[
 					'kottier',
+					'knotier',
+					'knotttier',
 				],
 				'knottiest'=>[
 					'kottiest',
+					'knotiest',
+					'knotttiest',
 				],
 				'knottily'=>[
 					'kottily',
@@ -997,23 +1640,32 @@
 					'kottiness',
 					'knottines',
 					'knottinesss',
+					'knotiness',
+					'knotttiness',
 				],
 				'knottinesses'=>[
 					'kottinesses',
 					'knottineses',
 					'knottinessses',
+					'knotinesses',
+					'knotttinesses',
 				],
 				'knotting'=>[
 					'kotting',
+					'knottting',
 				],
 				'knottings'=>[
 					'kottings',
 				],
 				'knotty'=>[
 					'kotty',
+					'knottty',
+					'knoty',
 				],
 				'knotweed'=>[
 					'kotweed',
+					'knotwed',
+					'knotweeed',
 				],
 				'knotweeds'=>[
 					'kotweeds',
@@ -1130,15 +1782,61 @@
 				'koinobiont'=>[
 					'kionobiont',
 				],
+				'kokanee'=>[
+					'kokane',
+					'kokaneee',
+				],
 				'kolkhosy'=>[
 					'kolkhocy',
 				],
+				'koodoo'=>[
+					'kodoo',
+					'koodo',
+					'koodooo',
+					'kooodoo',
+				],
+				'koodoos'=>[
+					'kodoos',
+					'koodooos',
+					'koodos',
+					'kooodoos',
+				],
+				'kook'=>[
+					'koook',
+				],
 				'kookaburra'=>[
 					'kookabura',
+					'kokaburra',
+					'kookaburrra',
+					'koookaburra',
+				],
+				'kookaburras'=>[
+					'kokaburras',
+					'kookaburas',
+					'kookaburrras',
+					'koookaburras',
+				],
+				'kookie'=>[
+					'kokie',
+					'koookie',
+				],
+				'kookier'=>[
+					'koookier',
+				],
+				'kookiest'=>[
+					'koookiest',
 				],
 				'kookiness'=>[
 					'kookines',
 					'kookinesss',
+					'kokiness',
+					'koookiness',
+				],
+				'kooks'=>[
+					'koooks',
+				],
+				'kooky'=>[
+					'koooky',
 				],
 				'koppa'=>[
 					'kopa',
@@ -1155,24 +1853,51 @@
 				'kowtow'=>[
 					'cowtow',
 				],
+				'kraal'=>[
+					'kraaal',
+				],
+				'kraals'=>[
+					'kraaals',
+				],
 				'krill'=>[
 					'kril',
+					'krilll',
 				],
 				'krimmer'=>[
 					'krimner',
+					'krimer',
+					'krimmmer',
 				],
 				'krimmers'=>[
 					'krimners',
 				],
+				'kroon'=>[
+					'krooon',
+				],
+				'krooni'=>[
+					'kroooni',
+				],
 				'kropotkin'=>[
 					'kroptkin',
 					'kroptokin',
+				],
+				'krugerrand'=>[
+					'krugerand',
+					'krugerrrand',
+				],
+				'kruller'=>[
+					'kruler',
+					'krulller',
 				],
 				'krummholz'=>[
 					'krumnholz',
 				],
 				'krummhorn'=>[
 					'krumnhorn',
+					'krummmhorn',
+				],
+				'krummhorns'=>[
+					'krummmhorns',
 				],
 				'kruševo'=>[
 					'krusevo',
@@ -1186,6 +1911,10 @@
 				'kummel'=>[
 					'kumnel',
 				],
+				'kummerbund'=>[
+					'kumerbund',
+					'kummmerbund',
+				],
 				'kumquat'=>[
 					'kumqaut',
 					'komquat',
@@ -1198,6 +1927,11 @@
 				],
 				'kurrajong'=>[
 					'kurajong',
+					'kurrrajong',
+				],
+				'kurrajongs'=>[
+					'kurajongs',
+					'kurrrajongs',
 				],
 				'kusso'=>[
 					'kuso',

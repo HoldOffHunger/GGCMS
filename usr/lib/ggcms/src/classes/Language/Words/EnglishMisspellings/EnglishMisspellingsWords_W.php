@@ -40,6 +40,7 @@
 				],
 				'wabble'=>[
 					'wable',
+					'wabbble',
 				],
 				'wackiness'=>[
 					'wackines',
@@ -47,6 +48,48 @@
 				],
 				'wadable'=>[
 					'wadible',
+				],
+				'wadded'=>[
+					'waddded',
+				],
+				'wadding'=>[
+					'waddding',
+				],
+				'waddle'=>[
+					'wadddle',
+				],
+				'waddled'=>[
+					'wadddled',
+				],
+				'waddler'=>[
+					'wadddler',
+				],
+				'waddles'=>[
+					'wadddles',
+				],
+				'waddling'=>[
+					'wadddling',
+				],
+				'waffle'=>[
+					'wafffle',
+					'wafle',
+				],
+				'waffled'=>[
+					'wafffled',
+				],
+				'waffler'=>[
+					'wafffler',
+				],
+				'wafflers'=>[
+					'waffflers',
+					'waflers',
+				],
+				'waffles'=>[
+					'wafffles',
+					'wafles',
+				],
+				'waffling'=>[
+					'wafffling',
 				],
 				'wage worker'=>[
 					'wageworker',
@@ -59,42 +102,61 @@
 				],
 				'wagged'=>[
 					'waged',
+					'waggged',
 				],
 				'wagger'=>[
 					'wager',
+				],
+				'waggeries'=>[
+					'wagggeries',
 				],
 				'waggers'=>[
 					'wagers',
 				],
 				'waggery'=>[
 					'wagery',
+					'wagggery',
 				],
 				'wagging'=>[
 					'waging',
+					'waggging',
 				],
 				'waggish'=>[
 					'wagish',
+					'wagggish',
+				],
+				'waggishly'=>[
+					'wagggishly',
+					'wagishly',
 				],
 				'waggishness'=>[
 					'wagishness',
 					'waggishnes',
 					'waggishnesss',
+					'wagggishness',
 				],
 				'waggishnesses'=>[
 					'wagishnesses',
 				],
 				'waggle'=>[
 					'wagle',
+					'wagggle',
 				],
 				'waggled'=>[
 					'wagled',
+					'wagggled',
 				],
 				'waggles'=>[
 					'wagles',
+					'wagggles',
+				],
+				'waggling'=>[
+					'wagggling',
 				],
 				'waggly'=>[
 					'wagly',
 					'waggily',
+					'wagggly',
 				],
 					# wagon: an accepted spelling, not a slip (AmericanBritishWords_W: wagon)
 			#	'waggon'=>[
@@ -112,6 +174,10 @@
 			#	'wagons'=>[
 			#		'waggons',
 			#	],
+				'wagonette'=>[
+					'wagonete',
+					'wagonettte',
+				],
 				'wahconda'=>[
 					'waconda',
 				],
@@ -124,9 +190,16 @@
 				],
 				'wahoo'=>[
 					'waoo',
+					'wahooo',
 				],
 				'wahoos'=>[
 					'waoos',
+					'wahooos',
+					'wahos',
+				],
+				'wailfully'=>[
+					'wailfullly',
+					'wailfuly',
 				],
 				'wainscot'=>[
 					'waincot',
@@ -137,6 +210,15 @@
 					'waincoting',
 					'waincsoting',
 					'wainsoting',
+				],
+				'wainscotted'=>[
+					'wainscottted',
+				],
+				'wainscotting'=>[
+					'wainscottting',
+				],
+				'wainscottings'=>[
+					'wainscotttings',
 				],
 				'waistline'=>[
 					'waistlini',
@@ -157,11 +239,16 @@
 					'waitresing',
 					'waitresssing',
 				],
+				'waitstaff'=>[
+					'waitstaf',
+					'waitstafff',
+				],
 				'wakefully'=>[
 					'wakefulally',
 					'wakefulaly',
 					'wakefulely',
 					'wakefullly',
+					'wakefuly',
 				],
 				'wakefulness'=>[
 					'wakefulnes',
@@ -182,6 +269,7 @@
 					'wal',
 					'wall wall',
 					'wall wall wall',
+					'walll',
 				],
 				'walla'=>[
 					'wala',
@@ -190,29 +278,145 @@
 			#	'wallah'=>[
 			#		'walla',
 			#	],
+				'wallabies'=>[
+					'walabies',
+					'walllabies',
+				],
+				'wallaby'=>[
+					'walaby',
+					'walllaby',
+				],
+				'wallah'=>[
+					'walllah',
+				],
+				'wallahs'=>[
+					'walllahs',
+				],
+				'wallaroo'=>[
+					'walaroo',
+					'wallaro',
+					'wallarooo',
+					'walllaroo',
+				],
 				'wallboard'=>[
 					'walboard',
+					'walllboard',
+				],
+				'wallchart'=>[
+					'walchart',
+					'walllchart',
+				],
+				'walled'=>[
+					'wallled',
+				],
+				'waller'=>[
+					'walller',
 				],
 				'wallet'=>[
 					'walet',
+					'walllet',
+				],
+				'wallets'=>[
+					'walets',
+					'walllets',
+				],
+				'walleye'=>[
+					'waleye',
+					'wallleye',
+				],
+				'walleyed'=>[
+					'wallleyed',
+				],
+				'walleyes'=>[
+					'waleyes',
+					'wallleyes',
 				],
 				'wallflower'=>[
 					'walflower',
+					'walllflower',
+				],
+				'wallflowers'=>[
+					'walflowers',
+					'walllflowers',
+				],
+				'wallies'=>[
+					'walllies',
+				],
+				'walling'=>[
+					'wallling',
 				],
 				'wallop'=>[
 					'walop',
+					'walllop',
+				],
+				'walloped'=>[
+					'wallloped',
+					'waloped',
+				],
+				'walloper'=>[
+					'wallloper',
+					'waloper',
+				],
+				'walloping'=>[
+					'wallloping',
+					'waloping',
+				],
+				'wallopings'=>[
+					'walllopings',
+					'walopings',
+				],
+				'wallops'=>[
+					'walllops',
+					'walops',
 				],
 				'wallow'=>[
 					'walow',
+					'walllow',
+				],
+				'wallowed'=>[
+					'walllowed',
+					'walowed',
+				],
+				'wallower'=>[
+					'walllower',
+					'walower',
+				],
+				'wallowing'=>[
+					'walllowing',
+					'walowing',
+				],
+				'wallows'=>[
+					'walllows',
+					'walows',
 				],
 				'wallpaper'=>[
 					'walpaper',
+					'walllpaper',
+				],
+				'wallpapered'=>[
+					'walllpapered',
+					'walpapered',
+				],
+				'wallpapering'=>[
+					'walllpapering',
+					'walpapering',
+				],
+				'wallpapers'=>[
+					'walllpapers',
+					'walpapers',
+				],
+				'walls'=>[
+					'wallls',
 				],
 				'wally'=>[
 					'walally',
 					'walaly',
 					'wallly',
 					'waly',
+				],
+				'wanderoo'=>[
+					'wandero',
+					'wanderooo',
 				],
 				'wanly'=>[
 					'wanally',
@@ -221,6 +425,30 @@
 				],
 				'wannabe'=>[
 					'wanabe',
+					'wannnabe',
+				],
+				'wannabee'=>[
+					'wanabee',
+					'wannabeee',
+					'wannnabee',
+				],
+				'wannabees'=>[
+					'wanabees',
+					'wannabeees',
+					'wannnabees',
+				],
+				'wannabes'=>[
+					'wanabes',
+					'wannnabes',
+				],
+				'wanner'=>[
+					'wannner',
+				],
+				'wanness'=>[
+					'wannness',
+				],
+				'wannest'=>[
+					'wannnest',
 				],
 				'want'=>[
 					'want want',
@@ -248,6 +476,8 @@
 				'wantonness'=>[
 					'wantonnes',
 					'wantonnesss',
+					'wantoness',
+					'wantonnness',
 				],
 				'wants'=>[
 					'want\'s',
@@ -267,9 +497,26 @@
 				],
 				'warbonnet'=>[
 					'warbonet',
+					'warbonnnet',
+				],
+				'warbonnets'=>[
+					'warbonets',
+					'warbonnnets',
+				],
+				'wardroom'=>[
+					'wardrom',
+					'wardrooom',
+				],
+				'wardrooms'=>[
+					'wardroms',
+					'wardroooms',
 				],
 				'warehousing'=>[
 					'warehouisng',
+				],
+				'wareroom'=>[
+					'warerom',
+					'warerooom',
 				],
 				'wariness'=>[
 					'warinesss',
@@ -282,6 +529,10 @@
 					'warm warm',
 					'warm warm warm',
 				],
+				'warmblooded'=>[
+					'warmbloded',
+					'warmbloooded',
+				],
 				'warmheartedness'=>[
 					'warmheartednes',
 					'warmheartednesss',
@@ -293,32 +544,110 @@
 				'warrant'=>[
 					'warant',
 					'warrent',
+					'warrrant',
+				],
+				'warrantability'=>[
+					'warantability',
+					'warrrantability',
+				],
+				'warrantable'=>[
+					'warantable',
+					'warrrantable',
 				],
 				'warrantableness'=>[
 					'warantableness',
 				],
+				'warranted'=>[
+					'waranted',
+					'warrranted',
+				],
 				'warrantee'=>[
 					'warantee',
 					'warrentee',
+					'warrante',
+					'warranteee',
+					'warrrantee',
+				],
+				'warrantees'=>[
+					'warantees',
+					'warranteees',
+					'warrantes',
+					'warrrantees',
+				],
+				'warranter'=>[
+					'waranter',
+					'warrranter',
+				],
+				'warrantied'=>[
+					'warantied',
+					'warrrantied',
+				],
+				'warranties'=>[
+					'waranties',
+					'warrranties',
+				],
+				'warranting'=>[
+					'waranting',
+					'warrranting',
 				],
 				'warrantor'=>[
 					'warantor',
+					'warrrantor',
+				],
+				'warrantors'=>[
+					'warantors',
+					'warrrantors',
+				],
+				'warrants'=>[
+					'warants',
+					'warrrants',
 				],
 				'warranty'=>[
 					'waranty',
 					'warrenty',
+					'warrranty',
+				],
+				'warrantying'=>[
+					'warantying',
+					'warrrantying',
+				],
+				'warred'=>[
+					'warrred',
 				],
 				'warren'=>[
 					'waren',
+					'warrren',
 				],
 				'warrener'=>[
 					'warener',
+					'warrrener',
+				],
+				'warreners'=>[
+					'wareners',
+					'warrreners',
+				],
+				'warrens'=>[
+					'warens',
+					'warrrens',
 				],
 				'warrigal'=>[
 					'warigal',
+					'warrrigal',
+				],
+				'warrigals'=>[
+					'warigals',
+					'warrrigals',
+				],
+				'warring'=>[
+					'warrring',
 				],
 				'warrior'=>[
 					'warior',
+					'warrrior',
+				],
+				'warriors'=>[
+					'wariors',
+					'warrriors',
 				],
 				'wary'=>[
 					'wery',
@@ -351,6 +680,14 @@
 				'washburne'=>[
 					'wushburne',
 				],
+				'washhouse'=>[
+					'washhhouse',
+					'washouse',
+				],
+				'washhouses'=>[
+					'washhhouses',
+					'washouses',
+				],
 				'washiness'=>[
 					'washines',
 					'washinesss',
@@ -358,6 +695,14 @@
 				'washington'=>[
 					'washignton',
 					'wshington',
+				],
+				'washroom'=>[
+					'washrom',
+					'washrooom',
+				],
+				'washrooms'=>[
+					'washroms',
+					'washroooms',
 				],
 				'wasn\'t'=>[
 					'was\'nt',
@@ -394,6 +739,10 @@
 					'wasails',
 					'wasssails',
 				],
+				'wastefully'=>[
+					'wastefullly',
+					'wastefuly',
+				],
 				'wastefulness'=>[
 					'wastefulnes',
 					'wastefulnesss',
@@ -417,6 +766,10 @@
 				'watches'=>[
 					'watchs',
 				],
+				'watchfully'=>[
+					'watchfullly',
+					'watchfuly',
+				],
 				'watchfulness'=>[
 					'watchfulnes',
 					'watchfulnesss',
@@ -431,6 +784,11 @@
 				],
 				'waterfall'=>[
 					'waterfal',
+					'waterfalll',
+				],
+				'waterfalls'=>[
+					'waterfallls',
+					'waterfals',
 				],
 				'waterglass'=>[
 					'waterglas',
@@ -446,21 +804,87 @@
 				],
 				'waterlogged'=>[
 					'waterloged',
+					'waterloggged',
 				],
 				'waterlogging'=>[
 					'waterloging',
+				],
+				'watermill'=>[
+					'watermil',
+					'watermilll',
+				],
+				'watermills'=>[
+					'watermillls',
+					'watermils',
+				],
+				'waterproof'=>[
+					'waterprof',
+					'waterprooof',
+				],
+				'waterproofed'=>[
+					'waterprofed',
+					'waterprooofed',
+				],
+				'waterproofing'=>[
+					'waterprofing',
+					'waterprooofing',
+				],
+				'waterproofs'=>[
+					'waterprofs',
+					'waterprooofs',
 				],
 				'waterscape'=>[
 					'watercape',
 					'watercsape',
 					'watersape',
 				],
+				'waterwheel'=>[
+					'waterwheeel',
+					'waterwhel',
+				],
+				'waterwheels'=>[
+					'waterwheeels',
+					'waterwhels',
+				],
 				'watery'=>[
 					'watary',
+				],
+				'watt'=>[
+					'wattt',
+				],
+				'wattage'=>[
+					'watage',
+					'watttage',
+				],
+				'wattle'=>[
+					'watle',
+					'watttle',
+				],
+				'wattled'=>[
+					'watled',
+					'watttled',
+				],
+				'wattles'=>[
+					'watles',
+					'watttles',
+				],
+				'wattling'=>[
+					'watttling',
+				],
+				'wattmeter'=>[
+					'watmeter',
+					'watttmeter',
+				],
+				'watts'=>[
+					'wattts',
 				],
 				'wave'=>[
 					'wave wave',
 					'wave wave wave',
+				],
+				'wavellite'=>[
+					'wavelite',
+					'wavelllite',
 				],
 				'waviness'=>[
 					'wavines',
@@ -472,6 +896,10 @@
 				'waxberry'=>[
 					'waxbery',
 				],
+				'waxbill'=>[
+					'waxbil',
+					'waxbilll',
+				],
 				'waxiness'=>[
 					'waxines',
 					'waxinesss',
@@ -480,6 +908,14 @@
 					'way way',
 					'way way way',
 					'waye',
+				],
+				'waybill'=>[
+					'waybil',
+					'waybilll',
+				],
+				'waybills'=>[
+					'waybillls',
+					'waybils',
 				],
 				'wayless'=>[
 					'waylesss',
@@ -490,6 +926,17 @@
 				'waywardness'=>[
 					'waywardnes',
 					'waywardnesss',
+				],
+				'wayzgoose'=>[
+					'wayzgooose',
+					'wayzgose',
+				],
+				'wazoo'=>[
+					'wazooo',
+				],
+				'wazoos'=>[
+					'wazooos',
+					'wazos',
 				],
 				'we'=>[
 					'wc',
@@ -555,6 +1002,9 @@
 				'weapon'=>[
 					'wepon',
 				],
+				'weaponeer'=>[
+					'weaponeeer',
+				],
 				'weaponless'=>[
 					'weaponles',
 					'weaponlesss',
@@ -602,6 +1052,10 @@
 					'wearisomenes',
 					'wearisomenesss',
 				],
+				'wearproof'=>[
+					'wearprof',
+					'wearprooof',
+				],
 				'weary'=>[
 					'weery',
 					'wery',
@@ -609,6 +1063,9 @@
 				'weasel'=>[
 					'wesel',
 					'weasal',
+				],
+				'weaselly'=>[
+					'weasellly',
 				],
 				'weasely'=>[
 					'weasly',
@@ -652,6 +1109,26 @@
 				],
 				'weatherproof'=>[
 					'wetherproof',
+					'weatherprof',
+					'weatherprooof',
+				],
+				'weatherproofed'=>[
+					'weatherprofed',
+					'weatherprooofed',
+				],
+				'weatherproofing'=>[
+					'weatherprofing',
+					'weatherprooofing',
+				],
+				'weatherproofs'=>[
+					'weatherprofs',
+					'weatherprooofs',
+				],
+				'weatherstripped'=>[
+					'weatherstrippped',
+				],
+				'weatherstripping'=>[
+					'weatherstrippping',
 				],
 				'weave'=>[
 					'weve',
@@ -665,15 +1142,34 @@
 				],
 				'webbed'=>[
 					'webed',
+					'webbbed',
+				],
+				'webbier'=>[
+					'webbbier',
+					'webier',
+				],
+				'webbiest'=>[
+					'webbbiest',
+					'webiest',
 				],
 				'webbing'=>[
 					'webing',
+					'webbbing',
 				],
 				'webby'=>[
 					'weby',
+					'webbby',
 				],
 				'webcast'=>[
 					'webcasted',
+				],
+				'webfeet'=>[
+					'webfeeet',
+					'webfet',
+				],
+				'webfoot'=>[
+					'webfooot',
+					'webfot',
 				],
 				'weblog'=>[
 					'webblog',
@@ -693,6 +1189,19 @@
 					'webstie',
 					'wesbite',
 				],
+				'wedded'=>[
+					'weddded',
+				],
+				'wedder'=>[
+					'weddder',
+				],
+				'wedding'=>[
+					'weddding',
+				],
+				'weddings'=>[
+					'wedddings',
+					'wedings',
+				],
 				'wedge'=>[
 					'wege',
 				],
@@ -711,38 +1220,219 @@
 					'wendsday',
 					'wensday',
 				],
+				'weed'=>[
+					'weeed',
+				],
+				'weeded'=>[
+					'weeeded',
+				],
+				'weeder'=>[
+					'weeeder',
+				],
+				'weeders'=>[
+					'weeeders',
+				],
+				'weedier'=>[
+					'wedier',
+					'weeedier',
+				],
+				'weediest'=>[
+					'wediest',
+					'weeediest',
+				],
 				'weediness'=>[
 					'weedines',
 					'weedinesss',
+					'wediness',
+					'weeediness',
+				],
+				'weeding'=>[
+					'weeeding',
+				],
+				'weedkiller'=>[
+					'wedkiller',
+					'weedkiler',
+					'weedkilller',
+					'weeedkiller',
+				],
+				'weedkillers'=>[
+					'wedkillers',
+					'weedkilers',
+					'weedkilllers',
+					'weeedkillers',
 				],
 				'weedless'=>[
 					'weedlesss',
+					'wedless',
+					'weeedless',
+				],
+				'weeds'=>[
+					'weeeds',
+				],
+				'weedy'=>[
+					'weeedy',
+				],
+				'weeing'=>[
+					'weeeing',
+					'weing',
 				],
 				'week'=>[
 					'week week',
 					'week week week',
+					'weeek',
 				],
 				'week-old'=>[
 					'weekold',
 				],
+				'weekday'=>[
+					'weeekday',
+					'wekday',
+				],
+				'weekdays'=>[
+					'weeekdays',
+					'wekdays',
+				],
 				'weekend'=>[
 					'weekened',
+					'weeekend',
+					'wekend',
+				],
+				'weekended'=>[
+					'weeekended',
+					'wekended',
+				],
+				'weekender'=>[
+					'weeekender',
+					'wekender',
+				],
+				'weekenders'=>[
+					'weeekenders',
+					'wekenders',
+				],
+				'weekending'=>[
+					'weeekending',
+					'wekending',
+				],
+				'weekends'=>[
+					'weeekends',
+					'wekends',
+				],
+				'weeklies'=>[
+					'weeeklies',
+					'weklies',
 				],
 				'weekly'=>[
 					'weekally',
 					'weekaly',
 					'weekely',
 					'weeklly',
+					'weeekly',
+				],
+				'weeknight'=>[
+					'weeeknight',
+					'weknight',
+				],
+				'weeknights'=>[
+					'weeeknights',
+					'weknights',
+				],
+				'weeks'=>[
+					'weeeks',
 				],
 				'weened'=>[
 					'weend',
+					'weeened',
 				],
 				'weenie'=>[
 					'weenei',
 					'weeni',
+					'weeenie',
+					'wenie',
+				],
+				'weenier'=>[
+					'weeenier',
+					'wenier',
+				],
+				'weenies'=>[
+					'weeenies',
+					'wenies',
+				],
+				'weeniest'=>[
+					'weeeniest',
+					'weniest',
+				],
+				'weening'=>[
+					'weeening',
+				],
+				'weensier'=>[
+					'weeensier',
+					'wensier',
+				],
+				'weensiest'=>[
+					'weeensiest',
+					'wensiest',
 				],
 				'weensy'=>[
 					'weency',
+					'weeensy',
+					'wensy',
+				],
+				'weeny'=>[
+					'weeeny',
+				],
+				'weeper'=>[
+					'weeeper',
+					'weper',
+				],
+				'weepers'=>[
+					'weeepers',
+					'wepers',
+				],
+				'weepie'=>[
+					'weeepie',
+					'wepie',
+				],
+				'weepier'=>[
+					'weeepier',
+					'wepier',
+				],
+				'weepies'=>[
+					'weeepies',
+					'wepies',
+				],
+				'weepiest'=>[
+					'weeepiest',
+					'wepiest',
+				],
+				'weepings'=>[
+					'weeepings',
+					'wepings',
+				],
+				'weepy'=>[
+					'weeepy',
+				],
+				'wees'=>[
+					'weees',
+				],
+				'weest'=>[
+					'weeest',
+				],
+				'weever'=>[
+					'weeever',
+				],
+				'weevil'=>[
+					'weeevil',
+				],
+				'weevilly'=>[
+					'weeevilly',
+					'weevillly',
+				],
+				'weevils'=>[
+					'weeevils',
+				],
+				'weevily'=>[
+					'weeevily',
+					'wevily',
 				],
 				'weigela'=>[
 					'wiegela',
@@ -834,6 +1524,7 @@
 					'weli',
 					'well well',
 					'well well well',
+					'welll',
 				],
 				'well conceived'=>[
 					'wellconceived',
@@ -853,19 +1544,61 @@
 				'well-ordered'=>[
 					'wellordered',
 				],
+				'wellborn'=>[
+					'welllborn',
+				],
 				'wellbutrin'=>[
 					'welbutrin',
 				],
+				'welled'=>[
+					'wellled',
+				],
+				'weller'=>[
+					'welller',
+				],
 				'wellhead'=>[
 					'welhead',
+					'welllhead',
+				],
+				'wellheads'=>[
+					'welheads',
+					'welllheads',
+				],
+				'wellie'=>[
+					'welie',
+					'welllie',
+				],
+				'wellies'=>[
+					'welies',
+					'welllies',
+				],
+				'welling'=>[
+					'wellling',
+				],
+				'wellington'=>[
+					'welington',
+					'welllington',
+				],
+				'wellingtons'=>[
+					'welingtons',
+					'welllingtons',
 				],
 				'wellness'=>[
 					'wellnes',
 					'welness',
 					'wellnesss',
+					'welllness',
+				],
+				'wells'=>[
+					'wellls',
 				],
 				'wellspring'=>[
 					'welspring',
+					'welllspring',
+				],
+				'wellsprings'=>[
+					'welllsprings',
+					'welsprings',
 				],
 				'welly'=>[
 					'welally',
@@ -874,11 +1607,14 @@
 				],
 				'weltanschauung'=>[
 					'weltanschaung',
+					'weltanschauuung',
 				],
 				'weltanschauungs'=>[
 					'weltanchauungs',
 					'weltancshauungs',
 					'weltanshauungs',
+					'weltanschaungs',
+					'weltanschauuungs',
 				],
 				'welterweight'=>[
 					'welterwieght',
@@ -931,6 +1667,14 @@
 				'wetness'=>[
 					'wetnes',
 					'wetnesss',
+				],
+				'wettable'=>[
+					'wetable',
+					'wetttable',
+				],
+				'wettest'=>[
+					'wetest',
+					'wetttest',
 				],
 				'whack'=>[
 					'wack',
@@ -1021,12 +1765,16 @@
 				],
 				'whammed'=>[
 					'wammed',
+					'whammmed',
 				],
 				'whammies'=>[
 					'wammies',
+					'whamies',
+					'whammmies',
 				],
 				'whamming'=>[
 					'wamming',
+					'whammming',
 				],
 				'whammo'=>[
 					'wammo',
@@ -1035,6 +1783,8 @@
 				'whammy'=>[
 					'wammy',
 					'whamny',
+					'whammmy',
+					'whamy',
 				],
 				'whamo'=>[
 					'wamo',
@@ -1050,6 +1800,8 @@
 				],
 				'whangee'=>[
 					'wangee',
+					'whange',
+					'whangeee',
 				],
 				'whangees'=>[
 					'wangees',
@@ -1065,6 +1817,7 @@
 				],
 				'whapped'=>[
 					'wapped',
+					'whappped',
 				],
 				'whapper'=>[
 					'wapper',
@@ -1074,6 +1827,7 @@
 				],
 				'whapping'=>[
 					'wapping',
+					'whappping',
 				],
 				'whaps'=>[
 					'waps',
@@ -1124,6 +1878,11 @@
 				'whatchamacallit'=>[
 					'watchamacallit',
 					'whatchamacalit',
+					'whatchamacalllit',
+				],
+				'whatchamacallits'=>[
+					'whatchamacalits',
+					'whatchamacalllits',
 				],
 				'whatever'=>[
 					'watever',
@@ -1208,34 +1967,55 @@
 				],
 				'whee'=>[
 					'wee',
+					'wheee',
 				],
 				'wheedle'=>[
 					'weedle',
+					'whedle',
+					'wheeedle',
 				],
 				'wheedled'=>[
 					'weedled',
+					'whedled',
+					'wheeedled',
 				],
 				'wheedler'=>[
 					'weedler',
+					'whedler',
+					'wheeedler',
 				],
 				'wheedlers'=>[
 					'weedlers',
+					'whedlers',
+					'wheeedlers',
 				],
 				'wheedles'=>[
 					'weedles',
+					'whedles',
+					'wheeedles',
 				],
 				'wheedling'=>[
 					'weedling',
+					'whedling',
+					'wheeedling',
+				],
+				'wheedlingly'=>[
+					'whedlingly',
+					'wheeedlingly',
 				],
 				'wheel'=>[
 					'weel',
 					'wheel wheel',
 					'wheel wheel wheel',
+					'wheeel',
 				],
 				'wheelbarrow'=>[
 					'weelbarrow',
 					'wheelbarow',
 					'wheelbarrel',
+					'wheeelbarrow',
+					'wheelbarrrow',
+					'whelbarrow',
 				],
 				'wheelbarrowed'=>[
 					'weelbarrowed',
@@ -1245,50 +2025,80 @@
 				],
 				'wheelbarrows'=>[
 					'weelbarrows',
+					'wheeelbarrows',
+					'wheelbarows',
+					'wheelbarrrows',
+					'whelbarrows',
 				],
 				'wheelbase'=>[
 					'weelbase',
+					'wheeelbase',
+					'whelbase',
 				],
 				'wheelbases'=>[
 					'weelbases',
+					'wheeelbases',
+					'whelbases',
 				],
 				'wheelchair'=>[
 					'weelchair',
+					'wheeelchair',
+					'whelchair',
 				],
 				'wheelchairs'=>[
 					'weelchairs',
+					'wheeelchairs',
+					'whelchairs',
 				],
 				'wheeled'=>[
 					'weeled',
+					'wheeeled',
+					'wheled',
 				],
 				'wheeler'=>[
 					'weeler',
+					'wheeeler',
+					'wheler',
 				],
 				'wheelers'=>[
 					'weelers',
+					'wheeelers',
+					'whelers',
 				],
 				'wheelhorse'=>[
 					'weelhorse',
+					'wheeelhorse',
+					'whelhorse',
 				],
 				'wheelhorses'=>[
 					'weelhorses',
 				],
 				'wheelhouse'=>[
 					'weelhouse',
+					'wheeelhouse',
+					'whelhouse',
 				],
 				'wheelhouses'=>[
 					'weelhouses',
+					'wheeelhouses',
+					'whelhouses',
 				],
 				'wheelie'=>[
 					'weelie',
 					'wheelei',
 					'wheeli',
+					'wheeelie',
+					'whelie',
 				],
 				'wheelies'=>[
 					'weelies',
+					'wheeelies',
+					'whelies',
 				],
 				'wheeling'=>[
 					'weeling',
+					'wheeeling',
+					'wheling',
 				],
 				'wheelings'=>[
 					'weelings',
@@ -1297,36 +2107,55 @@
 					'weelless',
 					'wheelles',
 					'wheellesss',
+					'wheeelless',
+					'wheeless',
+					'wheellless',
+					'whelless',
 				],
 				'wheelman'=>[
 					'weelman',
+					'wheeelman',
+					'whelman',
 				],
 				'wheelmen'=>[
 					'weelmen',
 				],
 				'wheels'=>[
 					'weels',
+					'wheeels',
+					'whels',
 				],
 				'wheelsman'=>[
 					'weelsman',
+					'wheeelsman',
+					'whelsman',
 				],
 				'wheelsmen'=>[
 					'weelsmen',
 				],
 				'wheelwork'=>[
 					'weelwork',
+					'wheeelwork',
+					'whelwork',
 				],
 				'wheelworks'=>[
 					'weelworks',
+					'wheeelworks',
+					'whelworks',
 				],
 				'wheelwright'=>[
 					'weelwright',
+					'wheeelwright',
+					'whelwright',
 				],
 				'wheelwrights'=>[
 					'weelwrights',
+					'wheeelwrights',
+					'whelwrights',
 				],
 				'wheen'=>[
 					'ween',
+					'wheeen',
 				],
 				'wheens'=>[
 					'weens',
@@ -1357,41 +2186,61 @@
 				],
 				'wheeze'=>[
 					'weeze',
+					'wheeeze',
+					'wheze',
 				],
 				'wheezed'=>[
 					'weezed',
+					'wheeezed',
+					'whezed',
 				],
 				'wheezer'=>[
 					'weezer',
+					'wheeezer',
+					'whezer',
 				],
 				'wheezers'=>[
 					'weezers',
 				],
 				'wheezes'=>[
 					'weezes',
+					'wheeezes',
+					'whezes',
 				],
 				'wheezier'=>[
 					'weezier',
+					'wheeezier',
+					'whezier',
 				],
 				'wheeziest'=>[
 					'weeziest',
+					'wheeeziest',
+					'wheziest',
 				],
 				'wheezily'=>[
 					'weezily',
+					'wheeezily',
+					'whezily',
 				],
 				'wheeziness'=>[
 					'weeziness',
 					'wheezines',
 					'wheezinesss',
+					'wheeeziness',
+					'wheziness',
 				],
 				'wheezinesses'=>[
 					'weezinesses',
 				],
 				'wheezing'=>[
 					'weezing',
+					'wheeezing',
+					'whezing',
 				],
 				'wheezy'=>[
 					'weezy',
+					'wheeezy',
+					'whezy',
 				],
 				'whelk'=>[
 					'welk',
@@ -1558,13 +2407,20 @@
 				],
 				'wherries'=>[
 					'werries',
+					'wheries',
+					'wherrries',
 				],
 				'wherry'=>[
 					'werry',
 					'whery',
+					'wherrry',
 				],
 				'wherrying'=>[
 					'werrying',
+				],
+				'wherryman'=>[
+					'wherrryman',
+					'wheryman',
 				],
 				'wherve'=>[
 					'werve',
@@ -1592,15 +2448,18 @@
 				],
 				'whetted'=>[
 					'wetted',
+					'whettted',
 				],
 				'whetter'=>[
 					'wetter',
+					'whettter',
 				],
 				'whetters'=>[
 					'wetters',
 				],
 				'whetting'=>[
 					'wetting',
+					'whettting',
 				],
 				'whew'=>[
 					'wew',
@@ -1684,9 +2543,12 @@
 				],
 				'whiff'=>[
 					'wiff',
+					'whifff',
 				],
 				'whiffed'=>[
 					'wiffed',
+					'whifed',
+					'whifffed',
 				],
 				'whiffer'=>[
 					'wiffer',
@@ -1696,15 +2558,27 @@
 				],
 				'whiffet'=>[
 					'wiffet',
+					'whifet',
+					'whifffet',
 				],
 				'whiffets'=>[
 					'wiffets',
 				],
+				'whiffing'=>[
+					'whifffing',
+					'whifing',
+				],
 				'whiffle'=>[
 					'wiffle',
+					'whifffle',
+					'whifle',
 				],
 				'whiffled'=>[
 					'wiffled',
+				],
+				'whiffler'=>[
+					'whifffler',
+					'whifler',
 				],
 				'whifflers'=>[
 					'wifflers',
@@ -1714,18 +2588,35 @@
 				],
 				'whiffletree'=>[
 					'wiffletree',
+					'whifffletree',
+					'whiffletre',
+					'whiffletreee',
+					'whifletree',
 				],
 				'whiffletrees'=>[
 					'wiffletrees',
+					'whifffletrees',
+					'whiffletreees',
+					'whiffletres',
+					'whifletrees',
 				],
 				'whiffling'=>[
 					'wiffling',
 				],
 				'whiffs'=>[
 					'wiffs',
+					'whifffs',
+					'whifs',
 				],
 				'whig'=>[
 					'wig',
+				],
+				'whiggish'=>[
+					'whigggish',
+					'whigish',
+				],
+				'whiggism'=>[
+					'whigggism',
 				],
 				'whigmaleerie'=>[
 					'wigmaleerie',
@@ -1806,6 +2697,8 @@
 				],
 				'whimsically'=>[
 					'wimsically',
+					'whimsicallly',
+					'whimsicaly',
 				],
 				'whimsicalness'=>[
 					'wimsicalness',
@@ -1901,12 +2794,14 @@
 				],
 				'whinnied'=>[
 					'winnied',
+					'whinnnied',
 				],
 				'whinnier'=>[
 					'winnier',
 				],
 				'whinnies'=>[
 					'winnies',
+					'whinnnies',
 				],
 				'whinniest'=>[
 					'winniest',
@@ -1914,9 +2809,11 @@
 				'whinny'=>[
 					'whiny',
 					'winny',
+					'whinnny',
 				],
 				'whinnying'=>[
 					'winnying',
+					'whinnnying',
 				],
 				'whins'=>[
 					'wins',
@@ -1950,27 +2847,40 @@
 				],
 				'whipped'=>[
 					'wipped',
+					'whippped',
 				],
 				'whipper'=>[
 					'wipper',
+					'whippper',
 				],
 				'whippers'=>[
 					'wippers',
+					'whipers',
+					'whipppers',
 				],
 				'whippersnapper'=>[
 					'whippersnaper',
 					'wippersnapper',
+					'whipersnapper',
+					'whippersnappper',
+					'whipppersnapper',
 				],
 				'whippersnappers'=>[
 					'whippersnapers',
 					'wippersnappers',
+					'whipersnappers',
+					'whippersnapppers',
+					'whipppersnappers',
 				],
 				'whippet'=>[
 					'whipet',
 					'wippet',
+					'whipppet',
 				],
 				'whippets'=>[
 					'wippets',
+					'whipets',
+					'whipppets',
 				],
 				'whippier'=>[
 					'wippier',
@@ -1981,25 +2891,44 @@
 				'whipping'=>[
 					'whiping',
 					'wipping',
+					'whippping',
 				],
 				'whippings'=>[
 					'wippings',
+					'whipings',
+					'whipppings',
 				],
 				'whippletree'=>[
 					'whipletree',
 					'wippletree',
+					'whippletre',
+					'whippletreee',
+					'whipppletree',
 				],
 				'whippletrees'=>[
 					'wippletrees',
+					'whipletrees',
+					'whippletreees',
+					'whippletres',
+					'whipppletrees',
 				],
 				'whippoorwill'=>[
 					'whipoorwill',
 					'whippoorwil',
 					'wippoorwill',
+					'whippooorwill',
+					'whippoorwilll',
+					'whipporwill',
+					'whipppoorwill',
 				],
 				'whippoorwills'=>[
 					'whipoorwills',
 					'wippoorwills',
+					'whippooorwills',
+					'whippoorwillls',
+					'whippoorwils',
+					'whipporwills',
+					'whipppoorwills',
 				],
 				'whippy'=>[
 					'whipy',
@@ -2037,6 +2966,8 @@
 				],
 				'whipstall'=>[
 					'wipstall',
+					'whipstal',
+					'whipstalll',
 				],
 				'whipstalls'=>[
 					'wipstalls',
@@ -2109,9 +3040,13 @@
 				],
 				'whirlpool'=>[
 					'wirlpool',
+					'whirlpol',
+					'whirlpoool',
 				],
 				'whirlpools'=>[
 					'wirlpools',
+					'whirlpols',
+					'whirlpoools',
 				],
 				'whirls'=>[
 					'wirls',
@@ -2135,9 +3070,11 @@
 					# whir: an accepted spelling, not a slip (AmericanBritishWords_W: whir)
 				#	'whir',
 					'wirr',
+					'whirrr',
 				],
 				'whirred'=>[
 					'wirred',
+					'whirrred',
 				],
 				'whirried'=>[
 					'wirried',
@@ -2147,9 +3084,11 @@
 				],
 				'whirring'=>[
 					'wirring',
+					'whirrring',
 				],
 				'whirrs'=>[
 					'wirrs',
+					'whirrrs',
 				],
 				'whirry'=>[
 					'wirry',
@@ -2186,6 +3125,14 @@
 				],
 				'whisk'=>[
 					'wisk',
+				],
+				'whiskbroom'=>[
+					'whiskbrom',
+					'whiskbrooom',
+				],
+				'whiskbrooms'=>[
+					'whiskbroms',
+					'whiskbroooms',
 				],
 				'whisked'=>[
 					'wisked',
@@ -2400,9 +3347,13 @@
 				],
 				'whitewall'=>[
 					'witewall',
+					'whitewal',
+					'whitewalll',
 				],
 				'whitewalls'=>[
 					'witewalls',
+					'whitewallls',
+					'whitewals',
 				],
 				'whitewash'=>[
 					'witewash',
@@ -2433,9 +3384,13 @@
 				],
 				'whitewood'=>[
 					'witewood',
+					'whitewod',
+					'whitewoood',
 				],
 				'whitewoods'=>[
 					'witewoods',
+					'whitewods',
+					'whitewooods',
 				],
 				'whitey'=>[
 					'witey',
@@ -2478,12 +3433,29 @@
 				],
 				'whittle'=>[
 					'wittle',
+					'whitle',
+					'whitttle',
+				],
+				'whittled'=>[
+					'whitled',
+					'whitttled',
+				],
+				'whittler'=>[
+					'whitler',
+					'whitttler',
 				],
 				'whittlers'=>[
 					'wittlers',
+					'whitlers',
+					'whitttlers',
+				],
+				'whittles'=>[
+					'whitles',
+					'whitttles',
 				],
 				'whittling'=>[
 					'wittling',
+					'whitttling',
 				],
 				'whittlings'=>[
 					'wittlings',
@@ -2499,12 +3471,24 @@
 				],
 				'whizz'=>[
 					'wizz',
+					'whizzz',
+				],
+				'whizzbang'=>[
+					'whizzzbang',
 				],
 				'whizzbangs'=>[
 					'wizzbangs',
+					'whizzzbangs',
 				],
 				'whizzed'=>[
 					'wizzed',
+					'whizzzed',
+				],
+				'whizzes'=>[
+					'whizzzes',
+				],
+				'whizzing'=>[
+					'whizzzing',
 				],
 				'whizzy'=>[
 					'wizzy',
@@ -2523,8 +3507,12 @@
 				'whodunit'=>[
 					'wodunit',
 				],
+				'whodunnit'=>[
+					'whodunnnit',
+				],
 				'whodunnits'=>[
 					'wodunnits',
+					'whodunnnits',
 				],
 				'whoever'=>[
 					'woever',
@@ -2535,6 +3523,14 @@
 					'whole whole whole',
 					'wohle',
 					'wole',
+				],
+				'wholefood'=>[
+					'wholefod',
+					'wholefoood',
+				],
+				'wholefoods'=>[
+					'wholefods',
+					'wholefooods',
 				],
 				'wholehearted'=>[
 					'wholeherted',
@@ -2608,6 +3604,10 @@
 				'wholistic'=>[
 					'wolistic',
 				],
+				'wholistically'=>[
+					'wholisticallly',
+					'wholisticaly',
+				],
 				'wholly'=>[
 					'wholally',
 					'wholaly',
@@ -2654,27 +3654,60 @@
 				],
 				'whoop'=>[
 					'woop',
+					'whooop',
 				],
 				'whooped'=>[
 					'wooped',
+					'whoooped',
 				],
 				'whoopee'=>[
 					'woopee',
+					'whooopee',
+					'whoope',
+					'whoopeee',
+					'whopee',
+				],
+				'whoopees'=>[
+					'whooopees',
+					'whoopeees',
+					'whoopes',
+					'whopees',
 				],
 				'whooper'=>[
 					'wooper',
+					'whoooper',
+				],
+				'whoopers'=>[
+					'whooopers',
+				],
+				'whooping'=>[
+					'whoooping',
 				],
 				'whoopla'=>[
 					'woopla',
+					'whooopla',
+					'whopla',
 				],
 				'whoops'=>[
 					'woops',
+					'whooops',
 				],
 				'whoosh'=>[
 					'woosh',
+					'whosh',
+				],
+				'whooshed'=>[
+					'whoooshed',
+					'whoshed',
+				],
+				'whooshes'=>[
+					'whoooshes',
+					'whoshes',
 				],
 				'whooshing'=>[
 					'wooshing',
+					'whoooshing',
+					'whoshing',
 				],
 				'whoosis'=>[
 					'woosis',
@@ -2687,14 +3720,20 @@
 				],
 				'whopped'=>[
 					'wopped',
+					'whoppped',
 				],
 				'whopper'=>[
 					'whoper',
 					'wopper',
+					'whoppper',
+				],
+				'whoppers'=>[
+					'whopppers',
 				],
 				'whopping'=>[
 					'whoping',
 					'wopping',
+					'whoppping',
 				],
 				'whops'=>[
 					'wops',
@@ -2764,10 +3803,13 @@
 				],
 				'whortleberries'=>[
 					'wortleberries',
+					'whortleberies',
+					'whortleberrries',
 				],
 				'whortleberry'=>[
 					'whortlebery',
 					'wortleberry',
+					'whortleberrry',
 				],
 				'whorts'=>[
 					'worts',
@@ -2801,6 +3843,12 @@
 				'whup'=>[
 					'wup',
 				],
+				'whupped'=>[
+					'whuppped',
+				],
+				'whupping'=>[
+					'whuppping',
+				],
 				'whups'=>[
 					'wups',
 				],
@@ -2831,6 +3879,21 @@
 					'wickednes',
 					'wickednesss',
 				],
+				'wicketkeeper'=>[
+					'wicketkeeeper',
+					'wicketkeper',
+				],
+				'wicketkeepers'=>[
+					'wicketkeeepers',
+					'wicketkepers',
+				],
+				'wicketkeeping'=>[
+					'wicketkeeeping',
+					'wicketkeping',
+				],
+				'widdershins'=>[
+					'widddershins',
+				],
 				'wide'=>[
 					'wide wide',
 					'wide wide wide',
@@ -2849,6 +3912,10 @@
 				'widespread'=>[
 					'widesperead',
 					'widespred',
+				],
+				'widowhood'=>[
+					'widowhod',
+					'widowhoood',
 				],
 				'wield'=>[
 					'weild',
@@ -2873,6 +3940,10 @@
 					'wifes',
 					'wifes\'',
 				],
+				'wifehood'=>[
+					'wifehod',
+					'wifehoood',
+				],
 				'wifeless'=>[
 					'wifeles',
 					'wifelesss',
@@ -2886,6 +3957,7 @@
 				],
 				'wigged'=>[
 					'wiged',
+					'wiggged',
 				],
 				'wiggery'=>[
 					'wigery',
@@ -2895,30 +3967,64 @@
 				],
 				'wigging'=>[
 					'wiging',
+					'wiggging',
+				],
+				'wiggings'=>[
+					'wigggings',
+					'wigings',
+				],
+				'wiggins'=>[
+					'wigggins',
+					'wigins',
 				],
 				'wiggle'=>[
 					'wigle',
+					'wigggle',
 				],
 				'wiggled'=>[
 					'wigled',
+					'wigggled',
 				],
 				'wiggler'=>[
 					'wigler',
+					'wigggler',
+				],
+				'wigglers'=>[
+					'wiggglers',
+					'wiglers',
 				],
 				'wiggles'=>[
 					'wigles',
+					'wigggles',
+				],
+				'wigglier'=>[
+					'wiggglier',
+					'wiglier',
+				],
+				'wiggliest'=>[
+					'wigggliest',
+					'wigliest',
+				],
+				'wiggling'=>[
+					'wigggling',
+					'wigling',
 				],
 				'wiggly'=>[
 					'wigly',
+					'wigggly',
 				],
 				'wiggy'=>[
 					'wigy',
+				],
+				'wigwagged'=>[
+					'wigwaggged',
 				],
 				'wigwaggers'=>[
 					'wigwagers',
 				],
 				'wigwagging'=>[
 					'wigwaging',
+					'wigwaggging',
 				],
 				'wikipedia'=>[
 					'wikipadia',
@@ -2928,6 +4034,27 @@
 				'wild'=>[
 					'wild wild',
 					'wild wild wild',
+				],
+				'wildcatted'=>[
+					'wildcattted',
+				],
+				'wildcatter'=>[
+					'wildcattter',
+				],
+				'wildcatters'=>[
+					'wildcaters',
+					'wildcattters',
+				],
+				'wildcatting'=>[
+					'wildcattting',
+				],
+				'wildebeest'=>[
+					'wildebeeest',
+					'wildebest',
+				],
+				'wildebeests'=>[
+					'wildebeeests',
+					'wildebests',
 				],
 				'wilderness'=>[
 					'wildernes',
@@ -2940,6 +4067,14 @@
 				'wildness'=>[
 					'wildnes',
 					'wildnesss',
+				],
+				'wildwood'=>[
+					'wildwod',
+					'wildwoood',
+				],
+				'wilfully'=>[
+					'wilfullly',
+					'wilfuly',
 				],
 				'wilfulness'=>[
 					'wilfulnes',
@@ -2958,47 +4093,117 @@
 					'will will will',
 					'wiull',
 					'wlil',
+					'willl',
+				],
+				'willable'=>[
+					'wilable',
+					'willlable',
 				],
 				'willed'=>[
 					'wiled',
+					'willled',
 				],
 				'willet'=>[
 					'wilet',
+					'willlet',
 				],
 					# wilful: an accepted spelling, not a slip (AmericanBritishWords_W: willful)
 			#	'willful'=>[
 			#		'wilful',
 			#	],
+				'willets'=>[
+					'wilets',
+					'willlets',
+				],
+				'willful'=>[
+					'willlful',
+				],
+				'willfully'=>[
+					'willfullly',
+					'willfuly',
+					'willlfully',
+				],
 				'willfulness'=>[
 					'willfulnes',
 					'willfulnesss',
+					'willlfulness',
 				],
 				'william'=>[
 					'willliam',
 				],
+				'willie'=>[
+					'wilie',
+					'willlie',
+				],
 				'willies'=>[
 					'willeis',
 					'willis',
+					'willlies',
 				],
 				'willing'=>[
 					'wiling',
+					'willling',
+				],
+				'willingly'=>[
+					'willlingly',
 				],
 				'willingness'=>[
 					'willingess',
 					'willingnes',
 					'willingnesss',
+					'wilingness',
+					'willlingness',
+				],
+				'williwaw'=>[
+					'wiliwaw',
+					'willliwaw',
+				],
+				'williwaws'=>[
+					'wiliwaws',
+					'willliwaws',
 				],
 				'willow'=>[
 					'wilow',
+					'willlow',
+				],
+				'willowier'=>[
+					'willlowier',
+					'wilowier',
+				],
+				'willowiest'=>[
+					'willlowiest',
+					'wilowiest',
+				],
+				'willows'=>[
+					'willlows',
+					'wilows',
+				],
+				'willowware'=>[
+					'willlowware',
+					'willoware',
+					'willowwware',
+					'wilowware',
+				],
+				'willowy'=>[
+					'willlowy',
+					'wilowy',
 				],
 				'willpower'=>[
 					'wilpower',
+					'willlpower',
+				],
+				'wills'=>[
+					'willls',
 				],
 				'willy'=>[
 					'wilally',
 					'wilaly',
 					'willly',
 					'wily',
+				],
+				'willywaw'=>[
+					'willlywaw',
+					'wilywaw',
 				],
 				'wimmin'=>[
 					'wimnin',
@@ -3019,8 +4224,21 @@
 					'wind based',
 					'windbased',
 				],
+				'windchill'=>[
+					'windchil',
+					'windchilll',
+				],
 				'windfall'=>[
 					'windfal',
+					'windfalll',
+				],
+				'windfalls'=>[
+					'windfallls',
+					'windfals',
+				],
+				'windgall'=>[
+					'windgal',
+					'windgalll',
 				],
 				'windiness'=>[
 					'windines',
@@ -3028,6 +4246,11 @@
 				],
 				'windjammer'=>[
 					'windjamner',
+					'windjammmer',
+				],
+				'windjammers'=>[
+					'windjamers',
+					'windjammmers',
 				],
 				'windlass'=>[
 					'windlas',
@@ -3042,6 +4265,19 @@
 				],
 				'windmill'=>[
 					'windmil',
+					'windmilll',
+				],
+				'windmilled'=>[
+					'windmiled',
+					'windmillled',
+				],
+				'windmilling'=>[
+					'windmiling',
+					'windmillling',
+				],
+				'windmills'=>[
+					'windmillls',
+					'windmils',
 				],
 				'window'=>[
 					'window window',
@@ -3058,15 +4294,34 @@
 				'windowsill'=>[
 					'window-sill',
 					'windowsil',
+					'windowsilll',
+				],
+				'windowsills'=>[
+					'windowsillls',
+					'windowsils',
+				],
+				'windproof'=>[
+					'windprof',
+					'windprooof',
 				],
 				'windscreen'=>[
 					'windcreen',
 					'windcsreen',
 					'windsreen',
+					'windscreeen',
+					'windscren',
+				],
+				'windscreens'=>[
+					'windscreeens',
+					'windscrens',
 				],
 				'windshield'=>[
 					'windsheild',
 					'windshild',
+				],
+				'winebibber'=>[
+					'winebibbber',
+					'winebiber',
 				],
 				'wined'=>[
 					'winid',
@@ -3122,15 +4377,64 @@
 				'winnable'=>[
 					'winable',
 					'winnible',
+					'winnnable',
+				],
+				'winnebago'=>[
+					'winebago',
+					'winnnebago',
+				],
+				'winnebagoes'=>[
+					'winebagoes',
+					'winnnebagoes',
+				],
+				'winnebagos'=>[
+					'winebagos',
+					'winnnebagos',
 				],
 				'winner'=>[
 					'winer',
+					'winnner',
+				],
+				'winners'=>[
+					'winnners',
+				],
+				'winnie'=>[
+					'winie',
+					'winnnie',
 				],
 				'winning'=>[
 					'wining',
+					'winnning',
+				],
+				'winningly'=>[
+					'winnningly',
+				],
+				'winnings'=>[
+					'winnnings',
 				],
 				'winnow'=>[
 					'winow',
+					'winnnow',
+				],
+				'winnowed'=>[
+					'winnnowed',
+					'winowed',
+				],
+				'winnower'=>[
+					'winnnower',
+					'winower',
+				],
+				'winnowers'=>[
+					'winnnowers',
+					'winowers',
+				],
+				'winnowing'=>[
+					'winnnowing',
+					'winowing',
+				],
+				'winnows'=>[
+					'winnnows',
+					'winows',
 				],
 				'winsomely'=>[
 					'winsomly',
@@ -3148,6 +4452,17 @@
 				],
 				'winterberry'=>[
 					'winterbery',
+				],
+				'winterfeed'=>[
+					'winterfeeed',
+				],
+				'wintergreen'=>[
+					'wintergreeen',
+					'wintergren',
+				],
+				'winterkill'=>[
+					'winterkil',
+					'winterkilll',
 				],
 				'wintery'=>[
 					'wintary',
@@ -3171,12 +4486,26 @@
 					'wireleses',
 					'wirelessses',
 				],
+				'wiretapped'=>[
+					'wiretappped',
+				],
+				'wiretapper'=>[
+					'wiretappper',
+				],
+				'wiretappers'=>[
+					'wiretapers',
+					'wiretapppers',
+				],
+				'wiretapping'=>[
+					'wiretappping',
+				],
 				'wiriness'=>[
 					'wirines',
 					'wirinesss',
 				],
 				'wirra'=>[
 					'wira',
+					'wirrra',
 				],
 				'wisconsin'=>[
 					'wisconin',
@@ -3204,6 +4533,10 @@
 				'wishes'=>[
 					'wisghes',
 				],
+				'wishfully'=>[
+					'wishfullly',
+					'wishfuly',
+				],
 				'wishfulness'=>[
 					'wishfulnes',
 					'wishfulnesss',
@@ -3214,6 +4547,10 @@
 				],
 				'wiss'=>[
 					'wis',
+				],
+				'wistfully'=>[
+					'wistfullly',
+					'wistfuly',
 				],
 				'wistfulness'=>[
 					'wistfulnes',
@@ -3267,15 +4604,27 @@
 				'withdrawnnesses'=>[
 					'withdrawnesses',
 				],
+				'withheld'=>[
+					'withhheld',
+				],
 				'withhold'=>[
 					'withold',
+					'withhhold',
 				],
 				'withholding'=>[
 					'witholding',
+					'withhholding',
+				],
+				'withholds'=>[
+					'withhholds',
 				],
 				'within'=>[
 					'wihtin',
 					'withing',
+				],
+				'withindoors'=>[
+					'withindooors',
+					'withindors',
 				],
 				'without'=>[
 					'wihtout',
@@ -3287,6 +4636,14 @@
 				],
 				'without its'=>[
 					'without it\'s',
+				],
+				'withoutdoors'=>[
+					'withoutdooors',
+					'withoutdors',
+				],
+				'withstood'=>[
+					'withstod',
+					'withstoood',
 				],
 				'witless'=>[
 					'witles',
@@ -3319,9 +4676,55 @@
 					'witnesing',
 					'witnesssing',
 				],
+				'witted'=>[
+					'wittted',
+				],
+				'wittered'=>[
+					'witttered',
+				],
+				'wittering'=>[
+					'witttering',
+				],
+				'witters'=>[
+					'wittters',
+				],
+				'witticism'=>[
+					'witicism',
+					'wittticism',
+				],
+				'witticisms'=>[
+					'witicisms',
+					'wittticisms',
+				],
+				'wittier'=>[
+					'witttier',
+				],
+				'wittiest'=>[
+					'witiest',
+					'witttiest',
+				],
+				'wittily'=>[
+					'witily',
+					'witttily',
+				],
 				'wittiness'=>[
 					'wittines',
 					'wittinesss',
+					'witiness',
+					'witttiness',
+				],
+				'witting'=>[
+					'wittting',
+				],
+				'wittingly'=>[
+					'witttingly',
+				],
+				'wittol'=>[
+					'witol',
+					'witttol',
+				],
+				'witty'=>[
+					'wittty',
 				],
 				'wizardly'=>[
 					'wizardally',
@@ -3332,16 +4735,45 @@
 				'wizened'=>[
 					'wizend',
 				],
+				'wizzes'=>[
+					'wizzzes',
+				],
 				'wobble'=>[
 					'woble',
+					'wobbble',
+				],
+				'wobbled'=>[
+					'wobbbled',
+					'wobled',
+				],
+				'wobbler'=>[
+					'wobbbler',
+					'wobler',
+				],
+				'wobbles'=>[
+					'wobbbles',
+					'wobles',
+				],
+				'wobblier'=>[
+					'wobbblier',
+					'woblier',
+				],
+				'wobbliest'=>[
+					'wobbbliest',
+					'wobliest',
 				],
 				'wobbliness'=>[
 					'wobliness',
 					'wobblines',
 					'wobblinesss',
+					'wobbbliness',
 				],
 				'wobblinesses'=>[
 					'woblinesses',
+				],
+				'wobbling'=>[
+					'wobbbling',
+					'wobling',
 				],
 				'wobbly'=>[
 					'wobbally',
@@ -3349,9 +4781,20 @@
 					'wobbely',
 					'wobblly',
 					'wobly',
+					'wobbbly',
 				],
 				'woeful'=>[
 					'woful',
+				],
+				'woefuller'=>[
+					'woefulller',
+				],
+				'woefullest'=>[
+					'woefulllest',
+				],
+				'woefully'=>[
+					'woefullly',
+					'woefuly',
 				],
 				'woefulness'=>[
 					'woefulnes',
@@ -3369,8 +4812,12 @@
 				'wolfberry'=>[
 					'wolfbery',
 				],
+				'wolffish'=>[
+					'wolfffish',
+				],
 				'wollastonite'=>[
 					'wolastonite',
+					'wolllastonite',
 				],
 				'wolverine'=>[
 					'wolverini',
@@ -3379,6 +4826,10 @@
 					'vvoman',
 					'woman woman',
 					'woman woman woman',
+				],
+				'womanhood'=>[
+					'womanhod',
+					'womanhoood',
 				],
 				'womanliness'=>[
 					'womanlines',
@@ -3398,6 +4849,9 @@
 				'women\'s'=>[
 					'womens\'',
 				],
+				'wommera'=>[
+					'wommmera',
+				],
 				'won'=>[
 					'won won',
 					'won won won',
@@ -3405,6 +4859,10 @@
 				'wonder'=>[
 					'wonder wonder',
 					'wonder wonder wonder',
+				],
+				'wonderfully'=>[
+					'wonderfullly',
+					'wonderfuly',
 				],
 				'wonderfulness'=>[
 					'wonderfulnes',
@@ -3417,6 +4875,9 @@
 					'wondrousnes',
 					'wondrousnesss',
 				],
+				'woo'=>[
+					'wooo',
+				],
 				'wood'=>[
 					'wood wood',
 					'wood wood wood',
@@ -3424,40 +4885,421 @@
 				],
 				'woodbine'=>[
 					'woodbini',
+					'wodbine',
+					'wooodbine',
+				],
+				'woodblock'=>[
+					'wodblock',
+					'wooodblock',
+				],
+				'woodblocks'=>[
+					'wodblocks',
+					'wooodblocks',
+				],
+				'woodborer'=>[
+					'wodborer',
+					'wooodborer',
+				],
+				'woodborers'=>[
+					'wodborers',
+					'wooodborers',
+				],
+				'woodcarver'=>[
+					'wodcarver',
+					'wooodcarver',
+				],
+				'woodcarvers'=>[
+					'wodcarvers',
+					'wooodcarvers',
+				],
+				'woodcarving'=>[
+					'wodcarving',
+					'wooodcarving',
+				],
+				'woodcarvings'=>[
+					'wodcarvings',
+					'wooodcarvings',
 				],
 				'woodchopper'=>[
 					'woodchoper',
+					'wodchopper',
+					'woodchoppper',
+					'wooodchopper',
+				],
+				'woodchuck'=>[
+					'wodchuck',
+					'wooodchuck',
+				],
+				'woodchucks'=>[
+					'wodchucks',
+					'wooodchucks',
+				],
+				'woodcock'=>[
+					'wodcock',
+					'wooodcock',
+				],
+				'woodcocks'=>[
+					'wodcocks',
+					'wooodcocks',
+				],
+				'woodcraft'=>[
+					'wodcraft',
+					'wooodcraft',
+				],
+				'woodcut'=>[
+					'wodcut',
+					'wooodcut',
+				],
+				'woodcuts'=>[
+					'wodcuts',
+					'wooodcuts',
+				],
+				'woodcutter'=>[
+					'wodcutter',
+					'woodcuttter',
+					'wooodcutter',
+				],
+				'woodcutters'=>[
+					'wodcutters',
+					'woodcuters',
+					'woodcuttters',
+					'wooodcutters',
+				],
+				'woodcutting'=>[
+					'wodcutting',
+					'woodcuttting',
+					'wooodcutting',
+				],
+				'wooded'=>[
+					'woooded',
+				],
+				'wooden'=>[
+					'woooden',
+				],
+				'woodener'=>[
+					'wooodener',
+				],
+				'woodenest'=>[
+					'wooodenest',
+				],
+				'woodenhead'=>[
+					'wodenhead',
+					'wooodenhead',
+				],
+				'woodenly'=>[
+					'wooodenly',
 				],
 				'woodenness'=>[
 					'woodennes',
 					'woodennesss',
+					'wodenness',
+					'woodeness',
+					'woodennness',
+					'wooodenness',
+				],
+				'woodenware'=>[
+					'wodenware',
+					'wooodenware',
 				],
 				'woodie'=>[
 					'woodei',
 					'woodi',
 				],
+				'woodier'=>[
+					'wooodier',
+				],
+				'woodies'=>[
+					'wooodies',
+				],
+				'woodiest'=>[
+					'wodiest',
+					'wooodiest',
+				],
 				'woodiness'=>[
 					'woodines',
 					'woodinesss',
+					'wodiness',
+					'wooodiness',
+				],
+				'wooding'=>[
+					'woooding',
+				],
+				'woodland'=>[
+					'wodland',
+					'wooodland',
+				],
+				'woodlands'=>[
+					'wodlands',
+					'wooodlands',
+				],
+				'woodlice'=>[
+					'wodlice',
+					'wooodlice',
+				],
+				'woodlot'=>[
+					'wodlot',
+					'wooodlot',
+				],
+				'woodlots'=>[
+					'wodlots',
+					'wooodlots',
+				],
+				'woodlouse'=>[
+					'wodlouse',
+					'wooodlouse',
+				],
+				'woodman'=>[
+					'wodman',
+					'wooodman',
+				],
+				'woodmen'=>[
+					'wodmen',
+					'wooodmen',
+				],
+				'woodnote'=>[
+					'wodnote',
+					'wooodnote',
+				],
+				'woodpecker'=>[
+					'wodpecker',
+					'wooodpecker',
+				],
+				'woodpeckers'=>[
+					'wodpeckers',
+					'wooodpeckers',
+				],
+				'woodpile'=>[
+					'wodpile',
+					'wooodpile',
+				],
+				'woodpiles'=>[
+					'wodpiles',
+					'wooodpiles',
+				],
+				'woodprint'=>[
+					'wodprint',
+					'wooodprint',
+				],
+				'woodruff'=>[
+					'wodruff',
+					'woodruf',
+					'woodrufff',
+					'wooodruff',
+				],
+				'woodruffs'=>[
+					'wodruffs',
+					'woodrufffs',
+					'woodrufs',
+					'wooodruffs',
+				],
+				'woods'=>[
+					'wooods',
+				],
+				'woodshed'=>[
+					'wodshed',
+					'wooodshed',
+				],
+				'woodsheds'=>[
+					'wodsheds',
+					'wooodsheds',
+				],
+				'woodsia'=>[
+					'wodsia',
+					'wooodsia',
+				],
+				'woodsias'=>[
+					'wodsias',
+					'wooodsias',
+				],
+				'woodsier'=>[
+					'wodsier',
+					'wooodsier',
+				],
+				'woodsiest'=>[
+					'wodsiest',
+					'wooodsiest',
 				],
 				'woodsiness'=>[
 					'woodsines',
 					'woodsinesss',
+					'wodsiness',
+					'wooodsiness',
+				],
+				'woodsman'=>[
+					'wodsman',
+					'wooodsman',
+				],
+				'woodsmen'=>[
+					'wodsmen',
+					'wooodsmen',
 				],
 				'woodsy'=>[
 					'woodcy',
+					'wodsy',
+					'wooodsy',
 				],
 					# woolen: an accepted spelling, not a slip (AmericanBritishWords_W: woolen)
 			#	'woollen'=>[
 			#		'woolen',
 			#	],
+				'woodward'=>[
+					'wodward',
+					'wooodward',
+				],
+				'woodwaxen'=>[
+					'wodwaxen',
+					'wooodwaxen',
+				],
+				'woodwaxens'=>[
+					'wodwaxens',
+					'wooodwaxens',
+				],
+				'woodwind'=>[
+					'wodwind',
+					'wooodwind',
+				],
+				'woodwinds'=>[
+					'wodwinds',
+					'wooodwinds',
+				],
+				'woodwork'=>[
+					'wodwork',
+					'wooodwork',
+				],
+				'woodworker'=>[
+					'wodworker',
+					'wooodworker',
+				],
+				'woodworkers'=>[
+					'wodworkers',
+					'wooodworkers',
+				],
+				'woodworking'=>[
+					'wodworking',
+					'wooodworking',
+				],
+				'woodworm'=>[
+					'wodworm',
+					'wooodworm',
+				],
+				'woodworms'=>[
+					'wodworms',
+					'wooodworms',
+				],
+				'woody'=>[
+					'wooody',
+				],
+				'wooed'=>[
+					'woooed',
+				],
+				'wooer'=>[
+					'woooer',
+				],
+				'wooers'=>[
+					'woers',
+					'woooers',
+				],
+				'woofer'=>[
+					'wofer',
+					'wooofer',
+				],
+				'woofers'=>[
+					'wofers',
+					'wooofers',
+				],
+				'woofing'=>[
+					'wofing',
+					'wooofing',
+				],
+				'wooing'=>[
+					'woing',
+					'woooing',
+				],
+				'wooings'=>[
+					'woings',
+					'woooings',
+				],
+				'wool'=>[
+					'woool',
+				],
+				'wooled'=>[
+					'woooled',
+				],
+				'woolen'=>[
+					'wolen',
+					'wooolen',
+				],
+				'woolens'=>[
+					'wolens',
+					'wooolens',
+				],
+				'woolfell'=>[
+					'wolfell',
+					'woolfelll',
+					'wooolfell',
+				],
+				'woolgather'=>[
+					'wolgather',
+					'wooolgather',
+				],
+				'woolgathered'=>[
+					'wolgathered',
+					'wooolgathered',
+				],
+				'woolgathering'=>[
+					'wolgathering',
+					'wooolgathering',
+				],
+				'woolgathers'=>[
+					'wolgathers',
+					'wooolgathers',
+				],
+				'woolgrower'=>[
+					'wolgrower',
+					'wooolgrower',
+				],
+				'woolie'=>[
+					'wolie',
+					'wooolie',
+				],
+				'woolier'=>[
+					'wolier',
+					'wooolier',
+				],
+				'woolies'=>[
+					'wolies',
+					'wooolies',
+				],
+				'wooliest'=>[
+					'woliest',
+					'woooliest',
+				],
 				'wooliness'=>[
 					'woolines',
 					'woolinesss',
+					'woliness',
+					'woooliness',
+				],
+				'woollier'=>[
+					'wollier',
+					'woolllier',
+					'wooollier',
+				],
+				'woollies'=>[
+					'woolllies',
+					'wooollies',
+				],
+				'woolliest'=>[
+					'wolliest',
+					'woollliest',
+					'wooolliest',
 				],
 				'woolliness'=>[
 					'woollines',
 					'woollinesss',
+					'wolliness',
+					'woollliness',
+					'wooolliness',
 				],
 				'woolly'=>[
 					'woolally',
@@ -3466,20 +5308,68 @@
 					'woollly',
 					# wooly: an accepted spelling, not a slip (AmericanBritishWords_W: woolly)
 				#	'wooly',
+					'wooolly',
+				],
+				'woolpack'=>[
+					'wolpack',
+					'wooolpack',
+				],
+				'wools'=>[
+					'woools',
+				],
+				'woolsack'=>[
+					'wolsack',
+					'wooolsack',
 				],
 				'wooly'=>[
 					'wooally',
 					'wooaly',
 					# woolly: an accepted spelling, not a slip (AmericanBritishWords_W: woolly)
 				#	'woolly',
+					'woooly',
+				],
+				'woomera'=>[
+					'wooomera',
+				],
+				'woorali'=>[
+					'wooorali',
+					'worali',
+				],
+				'woos'=>[
+					'wooos',
+				],
+				'woozier'=>[
+					'wooozier',
+					'wozier',
+				],
+				'wooziest'=>[
+					'woooziest',
+					'woziest',
+				],
+				'woozily'=>[
+					'wooozily',
+					'wozily',
 				],
 				'wooziness'=>[
 					'woozines',
 					'woozinesss',
+					'woooziness',
+					'woziness',
+				],
+				'woozy'=>[
+					'wooozy',
 				],
 				'word'=>[
 					'word word',
 					'word word word',
+				],
+				'wordbook'=>[
+					'wordbok',
+					'wordboook',
+				],
+				'wordbooks'=>[
+					'wordboks',
+					'wordboooks',
 				],
 				'wordiness'=>[
 					'wordines',
@@ -3526,6 +5416,14 @@
 				'workaholisms'=>[
 					'workaolisms',
 				],
+				'workbook'=>[
+					'workbok',
+					'workboook',
+				],
+				'workbooks'=>[
+					'workboks',
+					'workboooks',
+				],
 				'worked'=>[
 					'workred',
 				],
@@ -3555,11 +5453,35 @@
 					'workpeice',
 					'workpice',
 				],
+				'workroom'=>[
+					'workrom',
+					'workrooom',
+				],
+				'workrooms'=>[
+					'workroms',
+					'workroooms',
+				],
 				'works'=>[
 					'woks',
 				],
+				'worksheet'=>[
+					'worksheeet',
+					'workshet',
+				],
+				'worksheets'=>[
+					'worksheeets',
+					'workshets',
+				],
 				'worktable'=>[
 					'worktible',
+				],
+				'workweek'=>[
+					'workweeek',
+					'workwek',
+				],
+				'workweeks'=>[
+					'workweeeks',
+					'workweks',
 				],
 				'world'=>[
 					'world world',
@@ -3590,11 +5512,47 @@
 					'wormines',
 					'worminesss',
 				],
+				'wormseed'=>[
+					'wormseeed',
+				],
+				'wormseeds'=>[
+					'wormseds',
+					'wormseeeds',
+				],
+				'wormwood'=>[
+					'wormwod',
+					'wormwoood',
+				],
 				'worn'=>[
 					'weared',
 				],
+				'worried'=>[
+					'woried',
+					'worrried',
+				],
+				'worriedly'=>[
+					'woriedly',
+					'worrriedly',
+				],
+				'worrier'=>[
+					'worier',
+					'worrrier',
+				],
+				'worriers'=>[
+					'woriers',
+					'worrriers',
+				],
+				'worries'=>[
+					'wories',
+					'worrries',
+				],
+				'worriment'=>[
+					'woriment',
+					'worrriment',
+				],
 				'worrisome'=>[
 					'worisome',
+					'worrrisome',
 				],
 				'worrisomely'=>[
 					'worrisomly',
@@ -3607,9 +5565,27 @@
 				],
 				'worry'=>[
 					'wory',
+					'worrry',
+				],
+				'worrying'=>[
+					'worrrying',
+					'worying',
+				],
+				'worryingly'=>[
+					'worrryingly',
+					'woryingly',
+				],
+				'worryings'=>[
+					'worrryings',
+					'woryings',
 				],
 				'worrywart'=>[
 					'worywart',
+					'worrrywart',
+				],
+				'worrywarts'=>[
+					'worrrywarts',
+					'worywarts',
 				],
 				'worse than'=>[
 					'worse then',
@@ -3631,6 +5607,22 @@
 			#	'worshiper'=>[
 			#		'worshipper',
 			#	],
+				'worshipfully'=>[
+					'worshipfullly',
+					'worshipfuly',
+				],
+				'worshipped'=>[
+					'worshippped',
+				],
+				'worshipper'=>[
+					'worshippper',
+				],
+				'worshippers'=>[
+					'worshipppers',
+				],
+				'worshipping'=>[
+					'worshippping',
+				],
 				'worst-case'=>[
 					'worse-case',
 				],
@@ -3691,11 +5683,24 @@
 				'wraparound'=>[
 					'wraperound',
 				],
+				'wrapped'=>[
+					'wrappped',
+				],
 				'wrapper'=>[
 					'wraper',
+					'wrappper',
+				],
+				'wrappers'=>[
+					'wrapers',
+					'wrapppers',
 				],
 				'wrapping'=>[
 					'wraping',
+					'wrappping',
+				],
+				'wrappings'=>[
+					'wrapings',
+					'wrapppings',
 				],
 				'wrasse'=>[
 					'wrase',
@@ -3704,6 +5709,10 @@
 				'wrasses'=>[
 					'wrases',
 					'wrassses',
+				],
+				'wrathfully'=>[
+					'wrathfullly',
+					'wrathfuly',
 				],
 				'wrathfulness'=>[
 					'wrathfulnes',
@@ -3738,15 +5747,39 @@
 				],
 				'wriggle'=>[
 					'wrigle',
+					'wrigggle',
+				],
+				'wriggled'=>[
+					'wrigggled',
+					'wrigled',
 				],
 				'wriggler'=>[
 					'wrigler',
+					'wrigggler',
+				],
+				'wrigglers'=>[
+					'wriggglers',
+					'wriglers',
+				],
+				'wriggles'=>[
+					'wrigggles',
+					'wrigles',
+				],
+				'wrigglier'=>[
+					'wriggglier',
+					'wriglier',
 				],
 				'wriggliest'=>[
 					'wrigliest',
+					'wrigggliest',
+				],
+				'wriggling'=>[
+					'wrigggling',
+					'wrigling',
 				],
 				'wriggly'=>[
 					'wrigly',
+					'wrigggly',
 				],
 				'writable'=>[
 					'writible',
@@ -3787,6 +5820,10 @@
 				'wrong'=>[
 					'wrong wrong',
 					'wrong wrong wrong',
+				],
+				'wrongfully'=>[
+					'wrongfullly',
+					'wrongfuly',
 				],
 				'wrongfulness'=>[
 					'wrongfulnes',
@@ -3842,11 +5879,16 @@
 				'www'=>[
 					'www.www',
 				],
+				'wyandotte'=>[
+					'wyandote',
+					'wyandottte',
+				],
 				'wybutosine'=>[
 					'wybotusine',
 				],
 				'wynn'=>[
 					'wyn',
+					'wynnn',
 				],
 				'wynns'=>[
 					'wyns',
