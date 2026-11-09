@@ -252,6 +252,7 @@
 					'daially',
 					'daialy',
 					'dailly',
+					'claily',
 				],
 				'daintiness'=>[
 					'daintines',
@@ -356,6 +357,9 @@
 				'damnable'=>[
 					'damnible',
 				],
+				'damnation'=>[
+					'danination',
+				],
 				'damoiselle'=>[
 					'damoisele',
 					'damoisellle',
@@ -412,9 +416,11 @@
 				'danger'=>[
 					'danger danger',
 					'danger danger danger',
+					'dangcr',
 				],
 				'dangerous'=>[
 					'dangerious',
+					'dangerons',
 				],
 				'dangerousness'=>[
 					'dangerousnes',
@@ -515,6 +521,10 @@
 					'darkroms',
 					'darkroooms',
 				],
+				'dashed'=>[
+					'dafhed',
+					'daslied',
+				],
 				'dasheen'=>[
 					'dasheeen',
 					'dashen',
@@ -545,12 +555,16 @@
 				],
 				'data'=>[
 					'datas',
+					'clata',
 				],
 				'datable'=>[
 					'datible',
 				],
 				'datary'=>[
 					'datery',
+				],
+				'date'=>[
+					'clate',
 				],
 				'datebook'=>[
 					'datebok',
@@ -582,6 +596,15 @@
 					'daugter',
 					'daugther',
 					'duaghter',
+					'claughter',
+					'danghter',
+					'dangliter',
+					'dauglitcr',
+					'daugliter',
+				],
+				'daughters'=>[
+					'danghters',
+					'daugliters',
 				],
 				'daunorubicin'=>[
 					'daunourubicin',
@@ -647,6 +670,9 @@
 					'dayfely',
 					'dayflly',
 				],
+				'daylight'=>[
+					'dayliglit',
+				],
 				'days'=>[
 					'dayes',
 					'dkys',
@@ -681,6 +707,7 @@
 				],
 				'dazzling'=>[
 					'dazzzling',
+					'dazzliug',
 				],
 				'dazzlingly'=>[
 					'dazzzlingly',
@@ -738,6 +765,7 @@
 					'dead dead',
 					'dead dead dead',
 					'ded',
+					'deacl',
 				],
 				'deadened'=>[
 					'deadend',
@@ -818,6 +846,7 @@
 					'deal deal',
 					'deal deal deal',
 					'deael',
+					'cleal',
 				],
 				'dealer'=>[
 					'deler',
@@ -827,6 +856,8 @@
 				],
 				'dealing'=>[
 					'deling',
+					'clealing',
+					'deahng',
 				],
 				'dealt'=>[
 					'dealed',
@@ -859,9 +890,13 @@
 					'dearei',
 					'deari',
 				],
+				'dearly'=>[
+					'deariy',
+				],
 				'dearness'=>[
 					'dearnes',
 					'dearnesss',
+					'deamess',
 				],
 				'dearth'=>[
 					'derth',
@@ -874,6 +909,10 @@
 					'death death',
 					'death death death',
 					'deth',
+					'dcath',
+					'dealh',
+					'deatb',
+					'deatli',
 				],
 				'death threat'=>[
 					'deathreat',
@@ -906,6 +945,9 @@
 					'deathaly',
 					'deathely',
 					'deathlly',
+				],
+				'deaths'=>[
+					'deatlis',
 				],
 				'deathwatches'=>[
 					'dethwatches',
@@ -1080,9 +1122,13 @@
 				'decathlon'=>[
 					'decathalon',
 				],
+				'decease'=>[
+					'deceafe',
+				],
 				'deceased'=>[
 					'decesed',
 					'deseced',
+					'deceafed',
 				],
 				'decedent'=>[
 					'decedant',
@@ -1216,9 +1262,12 @@
 					'decide decide',
 					'decide decide decide',
 					'deside',
+					'decicle',
 				],
 				'decided'=>[
 					'decidde',
+					'decicled',
+					'deeided',
 				],
 				'decidedly'=>[
 					'decidely',
@@ -1274,6 +1323,7 @@
 				'decision'=>[
 					'descision',
 					'dicision',
+					'decifion',
 				],
 				'decisions'=>[
 					'descisions',
@@ -1296,9 +1346,16 @@
 				],
 				'declare'=>[
 					'declaire',
+					'cleclare',
+					'dedare',
+					'deelare',
 				],
 				'declared'=>[
 					'decered',
+					'declarcd',
+				],
+				'declaring'=>[
+					'dedaring',
 				],
 				'declass'=>[
 					'declas',
@@ -1333,6 +1390,9 @@
 				],
 				'decline'=>[
 					'declini',
+				],
+				'declined'=>[
+					'dechned',
 				],
 				'declining'=>[
 					'declinang',
@@ -1634,6 +1694,7 @@
 				'deeply'=>[
 					'deeeply',
 					'deply',
+					'cleeply',
 				],
 				'deepness'=>[
 					'deepnes',
@@ -1720,6 +1781,7 @@
 				],
 				'defeat'=>[
 					'defet',
+					'clefeat',
 				],
 				'defectiveness'=>[
 					'defectivenes',
@@ -1764,6 +1826,9 @@
 				'defender'=>[
 					'defendor',
 				],
+				'defense'=>[
+					'clefense',
+				],
 				'defenseless'=>[
 					'defenseles',
 					'defenselesss',
@@ -1791,6 +1856,7 @@
 				],
 				'defensive'=>[
 					'defencive',
+					'defenfive',
 				],
 				'defensively'=>[
 					'defensivly',
@@ -1916,9 +1982,11 @@
 				'define'=>[
 					'deffine',
 					'defini',
+					'dcfine',
 				],
 				'defined'=>[
 					'deffined',
+					'defned',
 				],
 				'definiendum'=>[
 					'definaendum',
@@ -1933,6 +2001,7 @@
 				],
 				'defining'=>[
 					'definang',
+					'defning',
 				],
 				'definite'=>[
 					'deffinite',
@@ -1947,6 +2016,7 @@
 					'definetly',
 					'definitley',
 					'definitly',
+					'clefinitely',
 				],
 				'definiteness'=>[
 					'definateness',
@@ -1961,6 +2031,7 @@
 					'defination',
 					'definiton',
 					'defintion',
+					'defnition',
 				],
 				'definitional'=>[
 					'definational',
@@ -2124,6 +2195,7 @@
 					'degree degree',
 					'degree degree degree',
 					'degreee',
+					'clegree',
 				],
 				'degrees'=>[
 					'degress',
@@ -2388,6 +2460,14 @@
 				'deliciousnesses'=>[
 					'deliciousneses',
 				],
+				'delight'=>[
+					'clelight',
+					'deligbt',
+					'deliglit',
+				],
+				'delighted'=>[
+					'deliglited',
+				],
 				'delighted bison'=>[
 					'a delighted bison',
 				],
@@ -2398,9 +2478,16 @@
 				'delightednesses'=>[
 					'delightedneses',
 				],
+				'delightful'=>[
+					'delightfnl',
+					'deliglitful',
+				],
 				'delightfully'=>[
 					'delightfullly',
 					'delightfuly',
+				],
+				'delights'=>[
+					'deliglits',
 				],
 				'delineate'=>[
 					'delinete',
@@ -2441,11 +2528,15 @@
 				'deliriousnesses'=>[
 					'deliriousneses',
 				],
+				'deliver'=>[
+					'dehver',
+				],
 				'deliverance'=>[
 					'deliverence',
 				],
 				'delivered'=>[
 					'deliverd',
+					'dehvered',
 				],
 				'dell'=>[
 					'del',
@@ -2493,6 +2584,7 @@
 				],
 				'delusive'=>[
 					'deluisve',
+					'delufive',
 				],
 				'delusively'=>[
 					'deluisvely',
@@ -2518,11 +2610,18 @@
 					# demagogueris: an accepted spelling, not a slip (AmericanBritishWords_D: demagogueris)
 				#	'demagogueris',
 				],
+				'demand'=>[
+					'clemancl',
+					'clemand',
+				],
 				'demandant'=>[
 					'demandent',
 				],
 				'demandants'=>[
 					'demandents',
+				],
+				'demanded'=>[
+					'deinanded',
 				],
 				'demandingnesses'=>[
 					'demandingneses',
@@ -2655,6 +2754,12 @@
 				'demokrat'=>[
 					'deraokrat',
 				],
+				'demolished'=>[
+					'demolislied',
+				],
+				'demon'=>[
+					'dcmon',
+				],
 				'demonetized'=>[
 					'demonitized',
 				],
@@ -2685,8 +2790,13 @@
 				'demonstrate'=>[
 					'demonstate',
 				],
+				'demonstrated'=>[
+					'demonftrated',
+				],
 				'demonstration'=>[
 					'demonstartion',
+					'demonftration',
+					'dernonstration',
 				],
 				'demonstratively'=>[
 					'demonstrativeally',
@@ -2799,6 +2909,9 @@
 				],
 				'deniable'=>[
 					'deniible',
+				],
+				'denied'=>[
+					'clenied',
 				],
 				'denier'=>[
 					'deneir',
@@ -3092,6 +3205,7 @@
 				'departure'=>[
 					'depature',
 					'deperture',
+					'departurc',
 				],
 				'depauperate'=>[
 					'depaurate',
@@ -3142,8 +3256,14 @@
 					'dependancy',
 					'dependensy',
 				],
+				'depends'=>[
+					'depencls',
+				],
 				'depicted'=>[
 					'dipicted',
+				],
+				'depicting'=>[
+					'clepicting',
 				],
 				'depigmentation'=>[
 					'depigmantation',
@@ -3178,12 +3298,21 @@
 					'deporteees',
 					'deportes',
 				],
+				'deposed'=>[
+					'depofed',
+				],
+				'deposing'=>[
+					'depofing',
+				],
 				'depositaries'=>[
 					'depositareis',
 					'depositaris',
 				],
 				'depositary'=>[
 					'depositery',
+				],
+				'deposited'=>[
+					'depofited',
 				],
 				'depositories'=>[
 					'depositoreis',
@@ -3285,6 +3414,13 @@
 					'deprogramning',
 					'deprogrammming',
 				],
+				'depth'=>[
+					'deptb',
+					'deptli',
+				],
+				'depths'=>[
+					'deptlis',
+				],
 				'deputable'=>[
 					'deputible',
 				],
@@ -3318,8 +3454,12 @@
 				'derisible'=>[
 					'derisable',
 				],
+				'derision'=>[
+					'derifion',
+				],
 				'derisively'=>[
 					'derisivly',
+					'clerisively',
 				],
 				'derisiveness'=>[
 					'derisivenes',
@@ -3339,6 +3479,7 @@
 					'deriviated',
 					'dirived',
 					'drived',
+					'clerived',
 				],
 				'dermatitis'=>[
 					'dermititis',
@@ -3420,6 +3561,7 @@
 					'decend',
 					'decsend',
 					'desend',
+					'defcend',
 				],
 				'descendant'=>[
 					'decendant',
@@ -3438,6 +3580,7 @@
 				],
 				'descended'=>[
 					'decended',
+					'defcended',
 				],
 				'descendent'=>[
 					'decendant',
@@ -3462,6 +3605,7 @@
 					'decsent',
 					'descant',
 					'desent',
+					'defcent',
 				],
 				'describe'=>[
 					'decribe',
@@ -3470,14 +3614,22 @@
 					'describe describe describe',
 					'desribe',
 					'discribe',
+					'clescribe',
+					'dcscribe',
+					'descnbe',
 				],
 				'described'=>[
 					'decribed',
 					'descirbed',
 					'discribed',
+					'defcribed',
+					'descnbed',
+					'describecl',
+					'deseribed',
 				],
 				'describes'=>[
 					'discribes',
+					'descnbes',
 				],
 				'describing'=>[
 					'decribing',
@@ -3489,6 +3641,11 @@
 					'desription',
 					'discription',
 					'desciption',
+					'defcription',
+					'descnption',
+				],
+				'descriptions'=>[
+					'defcriptions',
 				],
 				'descriptive'=>[
 					'decriptive',
@@ -3518,12 +3675,39 @@
 				'desert'=>[
 					'desert desert',
 					'desert desert desert',
+					'defert',
+				],
+				'deserted'=>[
+					'deferted',
+				],
+				'deserter'=>[
+					'deferter',
+				],
+				'deserters'=>[
+					'deferters',
+				],
+				'deserting'=>[
+					'deferting',
+				],
+				'desertion'=>[
+					'defertion',
+				],
+				'deserts'=>[
+					'deferts',
 				],
 				'deserve'=>[
 					'diserve',
+					'deferve',
+				],
+				'deserved'=>[
+					'deferved',
 				],
 				'deserves'=>[
 					'deserces',
+					'deferves',
+				],
+				'deserving'=>[
+					'deferving',
 				],
 				'desexualization'=>[
 					'desexaulization',
@@ -3588,6 +3772,8 @@
 					'design design',
 					'design design design',
 					'desighn',
+					'clesign',
+					'defign',
 				],
 				'designate'=>[
 					'desginate',
@@ -3596,6 +3782,9 @@
 					'desgined',
 					'desinged',
 					'dessigned',
+					'clesigned',
+					'defigned',
+					'designecl',
 				],
 				'designedly'=>[
 					'designedally',
@@ -3605,6 +3794,9 @@
 				],
 				'designer'=>[
 					'desinger',
+				],
+				'designing'=>[
+					'defigning',
 				],
 				'designment'=>[
 					'desigment',
@@ -3616,6 +3808,9 @@
 				],
 				'designs'=>[
 					'designes',
+					'clesigns',
+					'defigns',
+					'desigiis',
 				],
 				'desinence'=>[
 					'desinance',
@@ -3626,6 +3821,7 @@
 				'desirable'=>[
 					'desireable',
 					'desirible',
+					'defirable',
 				],
 				'desirableness'=>[
 					'desirablenes',
@@ -3633,6 +3829,23 @@
 				],
 				'desirablenesses'=>[
 					'desirableneses',
+				],
+				'desire'=>[
+					'clesire',
+					'defire',
+					'desirc',
+				],
+				'desired'=>[
+					'defired',
+				],
+				'desires'=>[
+					'defires',
+				],
+				'desiring'=>[
+					'defiring',
+				],
+				'desirous'=>[
+					'defirous',
 				],
 				'desistance'=>[
 					'desistence',
@@ -3677,13 +3890,22 @@
 				],
 				'despair'=>[
 					'dispair',
+					'dcspair',
 				],
 				'despairingly'=>[
 					'disparingly',
 				],
+				'despatch'=>[
+					'despatcli',
+				],
+				'despatched'=>[
+					'despatclied',
+				],
 				'desperate'=>[
 					'desparate',
 					'disperate',
+					'clesperate',
+					'defperate',
 				],
 				'desperately'=>[
 					'deperatedly',
@@ -3706,6 +3928,7 @@
 					'dispicable',
 					'despecable',
 					'despiccable',
+					'defpicable',
 				],
 				'despicableness'=>[
 					'despicablenes',
@@ -3730,8 +3953,16 @@
 				'despiritualizes'=>[
 					'despiritaulizes',
 				],
+				'despise'=>[
+					'defpife',
+				],
+				'despised'=>[
+					'defpifed',
+				],
 				'despite'=>[
 					'dispite',
+					'clespite',
+					'defpile',
 				],
 				'despondence'=>[
 					'despondance',
@@ -3817,6 +4048,9 @@
 				'destining'=>[
 					'destinang',
 				],
+				'destitute'=>[
+					'deftitute',
+				],
 				'destituteness'=>[
 					'destitutenes',
 				],
@@ -3827,25 +4061,33 @@
 					'destory',
 					'destrtoy',
 					'distroy',
+					'deftroy',
 				],
 				'destroyed'=>[
 					'destoryed',
 					'destrtoyed',
+					'deftroyed',
 				],
 				'destroyer'=>[
 					'destoryer',
+					'deftroyer',
 				],
 				'destroying'=>[
 					'destorying',
+					'deftroying',
 				],
 				'destructible'=>[
 					'destructable',
 				],
 				'destruction'=>[
 					'distruction',
+					'destrnction',
+					'destruclion',
+					'destruetion',
 				],
 				'destructive'=>[
 					'distructive',
+					'deftructive',
 				],
 				'destructively'=>[
 					'destructivly',
@@ -3888,6 +4130,7 @@
 				],
 				'detached'=>[
 					'detatched',
+					'detaclied',
 				],
 				'detachedly'=>[
 					'detachedally',
@@ -3900,9 +4143,13 @@
 					'detachmant',
 					'detachmment',
 					'detatchment',
+					'detacliment',
 				],
 				'detachments'=>[
 					'detachmments',
+				],
+				'detail'=>[
+					'cletail',
 				],
 				'detailed'=>[
 					'detailled',
@@ -4026,6 +4273,7 @@
 					'determine determine determine',
 					'determini',
 					'detrmine',
+					'cletermine',
 				],
 				'determined'=>[
 					'determinated',
@@ -4099,6 +4347,10 @@
 				],
 				'detestable'=>[
 					'detestible',
+					'deteftable',
+				],
+				'detested'=>[
+					'detefted',
 				],
 				'detonable'=>[
 					'detonible',
@@ -4193,16 +4445,20 @@
 					'develop develop develop',
 					'develope',
 					'develp',
+					'clevelop',
 				],
 				'developed'=>[
 					'developped',
 					'devolopped',
+					'cleveloped',
+					'devcloped',
 				],
 				'developer'=>[
 					'developper',
 				],
 				'developing'=>[
 					'developping',
+					'cleveloping',
 				],
 				'development'=>[
 					'developement',
@@ -4235,6 +4491,10 @@
 				],
 				'device'=>[
 					'divice',
+				],
+				'devil'=>[
+					'dcvil',
+					'devii',
 				],
 				'devilishness'=>[
 					'devilishnes',
@@ -4356,6 +4616,9 @@
 				'diabaté'=>[
 					'diabate',
 				],
+				'diabolical'=>[
+					'diabohcal',
+				],
 				'diabolically'=>[
 					'diabolicallly',
 					'diabolicaly',
@@ -4395,6 +4658,9 @@
 				'diagonally'=>[
 					'diagonallly',
 					'diagonaly',
+				],
+				'diagram'=>[
+					'cliagram',
 				],
 				'diagrammable'=>[
 					'diagramable',
@@ -4466,6 +4732,7 @@
 				],
 				'diamond'=>[
 					'daimond',
+					'cliamoncl',
 				],
 				'diapausing'=>[
 					'diapauisng',
@@ -4632,6 +4899,8 @@
 					'did did',
 					'did did did',
 					'doed',
+					'clid',
+					'dicl',
 				],
 				'didactically'=>[
 					'didacticallly',
@@ -4703,6 +4972,9 @@
 				'didn’t'=>[
 					'didint',
 				],
+				'didst'=>[
+					'didft',
+				],
 				'die'=>[
 					'dei',
 					'die die',
@@ -4717,6 +4989,7 @@
 				],
 				'died'=>[
 					'deid',
+					'diecl',
 				],
 				'dieffenbachia'=>[
 					'deiffenbachia',
@@ -4805,6 +5078,9 @@
 					'differerence',
 					'diffference',
 					'diffrence',
+					'clifference',
+					'differcnee',
+					'differenee',
 				],
 				'differences'=>[
 					'diferences',
@@ -4826,6 +5102,7 @@
 					'difrent',
 					'differenet',
 					'diffferent',
+					'clifferent',
 				],
 				'differentia'=>[
 					'diferentia',
@@ -4931,12 +5208,17 @@
 					'dificult',
 					'diflicult',
 					'diffficult',
+					'clifficult',
+					'difficnlt',
+					'diffienlt',
 				],
 				'difficulties'=>[
 					'difficultites',
 					'dificulties',
 					'difflculties',
 					'diffficulties',
+					'difficnlties',
+					'difflcnlties',
 				],
 				'difficultly'=>[
 					'diffficultly',
@@ -4946,6 +5228,8 @@
 					'dificult',
 					'dificulty',
 					'diffficulty',
+					'difficnlty',
+					'difficultv',
 				],
 				'diffidence'=>[
 					'diffidance',
@@ -5097,6 +5381,9 @@
 					'digamna',
 					'digama',
 					'digammma',
+				],
+				'digested'=>[
+					'digefted',
 				],
 				'digestibilities'=>[
 					'digestibiliteis',
@@ -5279,6 +5566,7 @@
 				'diligent'=>[
 					'diligant',
 					'dilligent',
+					'dihgent',
 				],
 				'dill'=>[
 					'dil',
@@ -5360,12 +5648,16 @@
 				'diminish'=>[
 					'deminish',
 					'diminash',
+					'diminifh',
+					'diminisli',
 				],
 				'diminishable'=>[
 					'diminashable',
 				],
 				'diminished'=>[
 					'dimished',
+					'diminifhed',
+					'diminislied',
 				],
 				'diminishes'=>[
 					'dimishes',
@@ -5429,6 +5721,7 @@
 				'dimness'=>[
 					'dimnes',
 					'dimnesss',
+					'dininess',
 				],
 				'dimorph'=>[
 					'dimourph',
@@ -5518,6 +5811,7 @@
 				],
 				'dinner'=>[
 					'dinnner',
+					'dinncr',
 				],
 				'dinnered'=>[
 					'dinnnered',
@@ -5668,9 +5962,20 @@
 				'direct'=>[
 					'direct direct',
 					'direct direct direct',
+					'clirect',
+					'direet',
+				],
+				'directed'=>[
+					'directecl',
+					'direeted',
 				],
 				'direction'=>[
 					'directon',
+					'clirection',
+					'dircction',
+					'direclion',
+					'directiou',
+					'direetion',
 				],
 				'directionally'=>[
 					'directionallly',
@@ -5688,6 +5993,9 @@
 					'directlly',
 					'driectly',
 					'directiy',
+					'clirectly',
+					'dircctly',
+					'direetly',
 				],
 				'directness'=>[
 					'directnes',
@@ -5724,11 +6032,17 @@
 					'dirtines',
 					'dirtinesss',
 				],
+				'dirty'=>[
+					'clirty',
+				],
 				'disabilities'=>[
 					'disabilites',
 				],
 				'disable'=>[
 					'disible',
+				],
+				'disabled'=>[
+					'difabled',
 				],
 				'disabusing'=>[
 					'disabuisng',
@@ -5888,12 +6202,14 @@
 				'disagree'=>[
 					'disagre',
 					'disagreee',
+					'difagree',
 				],
 				'disagreeable'=>[
 					'disagreeble',
 					'disagreeible',
 					'disagreable',
 					'disagreeeable',
+					'difagreeable',
 				],
 				'disagreeableness'=>[
 					'disagreeablenes',
@@ -6031,6 +6347,7 @@
 					'dissapointed',
 					'dissappointed',
 					'disapppointed',
+					'difappointed',
 				],
 				'disappointedly'=>[
 					'disapointedly',
@@ -6052,6 +6369,7 @@
 					'dissappointment',
 					'disappointement',
 					'disapppointment',
+					'difappointment',
 				],
 				'disappointments'=>[
 					'disapointments',
@@ -6065,6 +6383,7 @@
 				'disapprobation'=>[
 					'disaprobation',
 					'disappprobation',
+					'difapprobation',
 				],
 				'disapprobations'=>[
 					'disaprobations',
@@ -6203,6 +6522,7 @@
 				],
 				'disaster'=>[
 					'diaster',
+					'disastcr',
 				],
 				'disastrous'=>[
 					'disasterous',
@@ -6268,6 +6588,11 @@
 					'dicern',
 					'dicsern',
 					'disern',
+					'discem',
+				],
+				'discerned'=>[
+					'difcerned',
+					'discemed',
 				],
 				'discernible'=>[
 					'dicernible',
@@ -6280,6 +6605,7 @@
 					'dicerning',
 					'dicserning',
 					'diserning',
+					'difcerning',
 				],
 				'discernment'=>[
 					'dicernment',
@@ -6297,10 +6623,22 @@
 					'dicharge',
 					'dicsharge',
 					'disharge',
+					'difcharge',
+					'difeharge',
+					'discbarge',
+					'discliarge',
 				],
 				'dischargeable'=>[
 					'dischargeble',
 					'dischargeible',
+				],
+				'discharged'=>[
+					'difcharged',
+					'discliargcd',
+					'discliarged',
+				],
+				'discharging'=>[
+					'difcharging',
 				],
 				'disci'=>[
 					'dici',
@@ -6311,6 +6649,10 @@
 					'diciple',
 					'dicsiple',
 					'disiple',
+					'difciple',
+				],
+				'disciples'=>[
+					'difciples',
 				],
 				'discipleships'=>[
 					'dicipleships',
@@ -6360,12 +6702,14 @@
 					'dicsipline',
 					'disciplini',
 					'disipline',
+					'difcipline',
 				],
 				'disciplined'=>[
 					'diciplined',
 					'dicsiplined',
 					'disciplinid',
 					'disiplined',
+					'difciplined',
 				],
 				'disciplining'=>[
 					'disciplinang',
@@ -6377,6 +6721,7 @@
 					'diclaim',
 					'dicslaim',
 					'dislaim',
+					'difclaim',
 				],
 				'disclaimer'=>[
 					'diclaimer',
@@ -6665,12 +7010,14 @@
 					'dicsontent',
 					'discontant',
 					'disontent',
+					'difcontent',
 				],
 				'discontented'=>[
 					'dicontented',
 					'dicsontented',
 					'discontanted',
 					'disontented',
+					'difcontented',
 				],
 				'discontentedly'=>[
 					'dicontentedly',
@@ -6817,6 +7164,7 @@
 					'dicourage',
 					'dicsourage',
 					'disourage',
+					'difcourage',
 				],
 				'discourageable'=>[
 					'dicourageable',
@@ -6827,6 +7175,7 @@
 				],
 				'discouraged'=>[
 					'disencouraged',
+					'difcouraged',
 				],
 				'discouragement'=>[
 					'dicouragement',
@@ -6840,6 +7189,9 @@
 					'discouragemants',
 					'disouragements',
 				],
+				'discouraging'=>[
+					'difcouraging',
+				],
 				'discouragingly'=>[
 					'dicouragingly',
 					'dicsouragingly',
@@ -6849,6 +7201,7 @@
 					'dicourse',
 					'dicsourse',
 					'disourse',
+					'difcourfe',
 				],
 				'discourteous'=>[
 					'dicourteous',
@@ -6879,9 +7232,13 @@
 					'dicover',
 					'dicsover',
 					'disover',
+					'difcover',
 				],
 				'discovered'=>[
 					'dicovered',
+					'difcovered',
+					'discoverecl',
+					'diseovered',
 				],
 				'discovering'=>[
 					'dicovering',
@@ -6895,6 +7252,8 @@
 					'discovary',
 					'discoverey',
 					'disovery',
+					'difcovery',
+					'diseovery',
 				],
 				'discredit'=>[
 					'dicredit',
@@ -6918,6 +7277,7 @@
 					'disreet',
 					'discreeet',
 					'discret',
+					'difcreet',
 				],
 				'discreeter'=>[
 					'discreeeter',
@@ -6979,6 +7339,8 @@
 					'dicretion',
 					'dicsretion',
 					'disretion',
+					'difcretion',
+					'diferetion',
 				],
 				'discretionary'=>[
 					'dicretionary',
@@ -7156,12 +7518,14 @@
 				'disease'=>[
 					'desease',
 					'disese',
+					'difeafe',
 				],
 				'diseased'=>[
 					'disesed',
 				],
 				'diseases'=>[
 					'deseases',
+					'difeafes',
 				],
 				'disembarrass'=>[
 					'disembarass',
@@ -7252,6 +7616,12 @@
 				'disfurnishments'=>[
 					'disfurnishmants',
 				],
+				'disgrace'=>[
+					'difgrace',
+				],
+				'disgraceful'=>[
+					'difgraceful',
+				],
 				'disgracefully'=>[
 					'disgracefullly',
 					'disgracefuly',
@@ -7262,6 +7632,12 @@
 				],
 				'disgruntlements'=>[
 					'disgruntlemants',
+				],
+				'disguise'=>[
+					'difguife',
+				],
+				'disgusted'=>[
+					'difgufted',
 				],
 				'disgusting'=>[
 					'disguisting',
@@ -7303,11 +7679,18 @@
 			#	'dishonor'=>[
 			#		'dishonour',
 			#	],
+				'dishes'=>[
+					'difhes',
+					'dislics',
+				],
 				'dishevelled'=>[
 					'dishevellled',
 				],
 				'dishevelling'=>[
 					'dishevellling',
+				],
+				'dishonest'=>[
+					'dislionest',
 				],
 				'dishonorable'=>[
 					'dishonorible',
@@ -7483,6 +7866,9 @@
 					'disketes',
 					'disketttes',
 				],
+				'dislike'=>[
+					'diflike',
+				],
 				'disloyally'=>[
 					'disloyallly',
 					'disloyaly',
@@ -7576,14 +7962,26 @@
 					'disobedince',
 					'dissobediance',
 					'dissobedience',
+					'difobedicnce',
+					'difobedience',
 				],
 				'disobedient'=>[
 					'disobediant',
 					'dissobediant',
 					'dissobedient',
+					'difobedient',
+				],
+				'disobey'=>[
+					'difobey',
 				],
 				'disoproxil'=>[
 					'desoproxil',
+				],
+				'disorder'=>[
+					'diforder',
+				],
+				'disordered'=>[
+					'difordered',
 				],
 				'disorderedly'=>[
 					'disorderedally',
@@ -7601,6 +7999,9 @@
 					'disorderaly',
 					'disorderely',
 					'disorderlly',
+				],
+				'disorders'=>[
+					'diforders',
 				],
 				'disorient'=>[
 					'disoreint',
@@ -7711,8 +8112,12 @@
 					'dispassionatenessses',
 					'dispasssionatenesses',
 				],
+				'dispatch'=>[
+					'difpatch',
+				],
 				'dispel'=>[
 					'disspell',
+					'dispei',
 				],
 				'dispelled'=>[
 					'disspelled',
@@ -7749,9 +8154,11 @@
 				],
 				'dispense'=>[
 					'dispence',
+					'difpenfe',
 				],
 				'dispensed'=>[
 					'dispenced',
+					'difpenfed',
 				],
 				'dispensing'=>[
 					'dispencing',
@@ -7762,10 +8169,12 @@
 				'disperse'=>[
 					'diperse',
 					'dispere',
+					'difperfe',
 				],
 				'dispersed'=>[
 					'dipersed',
 					'dispered',
+					'difperfed',
 				],
 				'dispersible'=>[
 					'dispersable',
@@ -7797,12 +8206,22 @@
 				'display'=>[
 					'diplay',
 					'dispaly',
+					'clisplay',
+					'difplay',
 				],
 				'displayed'=>[
 					'diplayed',
+					'difplayed',
+				],
+				'displaying'=>[
+					'clisplaying',
+				],
+				'displeased'=>[
+					'difpleafed',
 				],
 				'displeasure'=>[
 					'displesure',
+					'difpleafure',
 				],
 				'displeasures'=>[
 					'displesures',
@@ -7813,6 +8232,25 @@
 				],
 				'disposable'=>[
 					'disposible',
+				],
+				'disposal'=>[
+					'difpofal',
+				],
+				'dispose'=>[
+					'difpofe',
+				],
+				'disposed'=>[
+					'difpofed',
+				],
+				'disposing'=>[
+					'difpofing',
+				],
+				'disposition'=>[
+					'difpofition',
+				],
+				'dispositions'=>[
+					'difpofitions',
+					'dispositioris',
 				],
 				'dispossess'=>[
 					'disposses',
@@ -7884,8 +8322,18 @@
 					'disputatiousnes',
 					'disputatiousnesss',
 				],
+				'dispute'=>[
+					'difpute',
+				],
 				'disputed'=>[
 					'disputeed',
+					'difputed',
+				],
+				'disputes'=>[
+					'difputes',
+				],
+				'disputing'=>[
+					'difputing',
 				],
 				'disqualify'=>[
 					'disqaulify',
@@ -8566,11 +9014,18 @@
 				],
 				'distance'=>[
 					'distence',
+					'diftance',
+					'dislance',
+					'distaiiee',
+					'distancc',
 				],
 				'distant'=>[
 					'distant distant',
 					'distant distant distant',
 					'distent',
+					'clistant',
+					'diftant',
+					'distaut',
 				],
 				'distantness'=>[
 					'distantnes',
@@ -8586,6 +9041,9 @@
 				'distastefulness'=>[
 					'distastefulnes',
 					'distastefulnesss',
+				],
+				'distemper'=>[
+					'diftemper',
 				],
 				'distensibility'=>[
 					'distensability',
@@ -8644,12 +9102,16 @@
 				'distinct'=>[
 					'destinct',
 					'distict',
+					'distinet',
 				],
 				'distinction'=>[
 					'destinction',
 					'disctinction',
 					'distiction',
 					'distinciton',
+					'diftinction',
+					'distinctioii',
+					'distinetion',
 				],
 				'distinctive'=>[
 					'disctinctive',
@@ -8671,6 +9133,8 @@
 				'distinguish'=>[
 					'distiguish',
 					'distingish',
+					'diftinguifh',
+					'distinguisli',
 				],
 				'distinguishable'=>[
 					'distiguishable',
@@ -8685,6 +9149,10 @@
 				'distinguished'=>[
 					'distiguished',
 					'distingished',
+					'diftinguifhed',
+					'distingnished',
+					'distinguisbed',
+					'distinguislied',
 				],
 				'distinguishes'=>[
 					'distiguishes',
@@ -8693,6 +9161,11 @@
 				'distinguishing'=>[
 					'distiguishing',
 					'distinguishgin ',
+					'diftinguifhing',
+					'distinguisliing',
+				],
+				'distorted'=>[
+					'distortccl',
 				],
 				'distortedness'=>[
 					'distortednes',
@@ -8727,6 +9200,7 @@
 				'distress'=>[
 					'distres',
 					'distresss',
+					'diftrefs',
 				],
 				'distressed'=>[
 					'distresed',
@@ -8757,9 +9231,12 @@
 				],
 				'distribute'=>[
 					'distrbute',
+					'diftribute',
 				],
 				'distributed'=>[
 					'distrbuted',
+					'clistributed',
+					'diftributed',
 				],
 				'distributee'=>[
 					'distributeee',
@@ -8769,9 +9246,16 @@
 				],
 				'distributing'=>[
 					'distrbuting',
+					'diftributing',
 				],
 				'distribution'=>[
 					'distrubution',
+					'clistribution',
+					'diftribution',
+					'distnbution',
+				],
+				'distributions'=>[
+					'distnbutions',
 				],
 				'distributively'=>[
 					'distributivly',
@@ -8781,6 +9265,10 @@
 				],
 				'district'=>[
 					'distict',
+					'distnct',
+				],
+				'distrust'=>[
+					'diftruft',
 				],
 				'distrustfully'=>[
 					'distrustfullly',
@@ -8797,15 +9285,19 @@
 				'disturb'=>[
 					'distirb',
 					'distrub',
+					'difturb',
 				],
 				'disturbance'=>[
 					'disturbence',
+					'difturbance',
 				],
 				'disturbances'=>[
 					'distrubances',
+					'difturbances',
 				],
 				'disturbed'=>[
 					'distrubed',
+					'difturbed',
 				],
 				'disusing'=>[
 					'disuisng',
@@ -8821,6 +9313,9 @@
 				'disyllables'=>[
 					'disylables',
 					'disylllables',
+				],
+				'ditch'=>[
+					'ditcli',
 				],
 				'ditchdigger'=>[
 					'ditchdiger',
@@ -8955,6 +9450,8 @@
 				],
 				'divine'=>[
 					'divini',
+					'divinc',
+					'diyine',
 				],
 				'divinely'=>[
 					'divinly',
@@ -9001,9 +9498,11 @@
 					'divisoin',
 					'divison',
 					'divsion',
+					'divifion',
 				],
 				'divisions'=>[
 					'divisons',
+					'divifions',
 				],
 				'divisively'=>[
 					'divisivly',
@@ -9181,6 +9680,10 @@
 				'doctrine'=>[
 					'doctine',
 					'doctrini',
+					'cloctrine',
+					'doctrinc',
+					'doetrine',
+					'dootrine',
 				],
 				'document'=>[
 					'doccument',
@@ -9446,6 +9949,9 @@
 					'doign',
 					'domg',
 					'donig',
+					'cloing',
+					'doiiig',
+					'doiug',
 				],
 				'dolefully'=>[
 					'dolefullly',
@@ -9487,6 +9993,7 @@
 					'tlollars',
 					'dolars',
 					'dolllars',
+					'clollars',
 				],
 				'dolled'=>[
 					'dollled',
@@ -9552,6 +10059,9 @@
 				],
 				'domaine'=>[
 					'domaini',
+				],
+				'domestic'=>[
+					'domeftic',
 				],
 				'domestically'=>[
 					'domesticallly',
@@ -9661,6 +10171,7 @@
 				'done'=>[
 					'done done',
 					'done done done',
+					'doiie',
 				],
 				'donees'=>[
 					'doneees',
@@ -9944,6 +10455,7 @@
 				],
 				'doors'=>[
 					'dooors',
+					'docrs',
 				],
 				'doorsill'=>[
 					'dooorsill',
@@ -10164,6 +10676,8 @@
 				'double'=>[
 					'double double',
 					'double double double',
+					'clouble',
+					'donble',
 				],
 				'double-storied structures'=>[
 					'doubled storied structures',
@@ -10194,6 +10708,9 @@
 					'doubletre',
 					'doubletreee',
 				],
+				'doubling'=>[
+					'doubhng',
+				],
 				'doubloon'=>[
 					'dubloon',
 					'doublon',
@@ -10209,6 +10726,16 @@
 					'doubely',
 					'doublly',
 				],
+				'doubt'=>[
+					'cloubt',
+					'doiibt',
+					'donbt',
+					'douht',
+				],
+				'doubtful'=>[
+					'doubtfiil',
+					'douhtful',
+				],
 				'doubtfully'=>[
 					'doubtfullly',
 					'doubtfuly',
@@ -10220,6 +10747,7 @@
 				'doubtless'=>[
 					'doubtles',
 					'doubtlesss',
+					'doubtlefs',
 				],
 				'doubtlessly'=>[
 					'doubtlessally',
@@ -10234,6 +10762,9 @@
 					'doubtlessnes',
 					'doubtlessnesss',
 					'doubtlesssness',
+				],
+				'doubts'=>[
+					'cloubts',
 				],
 				'doucely'=>[
 					'doucly',
@@ -10289,6 +10820,8 @@
 				'down'=>[
 					'down down',
 					'down down down',
+					'doivn',
+					'dowii',
 				],
 				'down to'=>[
 					'downto',
@@ -10551,6 +11084,9 @@
 				'drawees'=>[
 					'draweees',
 				],
+				'drawing'=>[
+					'clrawing',
+				],
 				'drawly'=>[
 					'drawally',
 					'drawaly',
@@ -10559,9 +11095,11 @@
 				],
 				'drawn'=>[
 					'drawed',
+					'clrawn',
 				],
 				'dread'=>[
 					'dred',
+					'drcad',
 				],
 				'dreadful'=>[
 					'dredful',
@@ -10592,6 +11130,8 @@
 					'dream dream',
 					'dream dream dream',
 					'drem',
+					'dreain',
+					'dreani',
 				],
 				'dreamfulness'=>[
 					'dremfulness',
@@ -10690,6 +11230,8 @@
 					'dress dress',
 					'dress dress dress',
 					'dresss',
+					'clress',
+					'drefs',
 				],
 				'dressage'=>[
 					'dresssage',
@@ -10697,6 +11239,9 @@
 				'dressed'=>[
 					'dresed',
 					'dresssed',
+					'clressecl',
+					'clressed',
+					'dreffed',
 				],
 				'dresser'=>[
 					'dreser',
@@ -10727,6 +11272,7 @@
 				'dressing'=>[
 					'dresing',
 					'dresssing',
+					'dreffing',
 				],
 				'dressings'=>[
 					'dresings',
@@ -10799,6 +11345,9 @@
 					'dreist',
 					'drist',
 				],
+				'drift'=>[
+					'clrift',
+				],
 				'driftwood'=>[
 					'driftwod',
 					'driftwoood',
@@ -10856,6 +11405,9 @@
 					'drink drink',
 					'drink drink drink',
 					'drnik',
+					'clrink',
+					'driiik',
+					'driuk',
 				],
 				'drinkabilities'=>[
 					'drinkabiliteis',
@@ -10866,6 +11418,10 @@
 				],
 				'drinkin'=>[
 					'drinkin\'',
+				],
+				'drinking'=>[
+					'clrinking',
+					'driiiking',
 				],
 				'dripped'=>[
 					'drippped',
@@ -10906,6 +11462,8 @@
 					'dirve',
 					'drive drive',
 					'drive drive drive',
+					'clrive',
+					'dnve',
 				],
 				'driveabilities'=>[
 					'driveabiliteis',
@@ -10930,8 +11488,14 @@
 				'drivelling'=>[
 					'drivellling',
 				],
+				'driven'=>[
+					'clriven',
+				],
 				'drivennesses'=>[
 					'drivenesses',
+				],
+				'driving'=>[
+					'clriving',
 				],
 				'drizzle'=>[
 					'drizle',
@@ -11085,6 +11649,9 @@
 					'droscy',
 					'drosssy',
 					'drosy',
+				],
+				'drought'=>[
+					'drouglit',
 				],
 				'droughtinesses'=>[
 					'droughtinisses',
@@ -11398,6 +11965,9 @@
 					'digged',
 					'dugged',
 				],
+				'duke'=>[
+					'diike',
+				],
 				'dukedom'=>[
 					'dukeship',
 				],
@@ -11410,6 +11980,7 @@
 				'dull'=>[
 					'dul',
 					'dulll',
+					'clull',
 				],
 				'dullard'=>[
 					'dulard',
@@ -11528,6 +12099,9 @@
 				],
 				'dunghills'=>[
 					'dunghillls',
+				],
+				'dunk'=>[
+					'diink',
 				],
 				'dunnage'=>[
 					'dunage',
@@ -11696,6 +12270,10 @@
 					'durng',
 					'durring',
 					'duting',
+					'cluring',
+					'dnring',
+					'duriiig',
+					'duriug',
 				],
 				'durophagous'=>[
 					'durophageous',
@@ -11748,6 +12326,10 @@
 				'dutiable'=>[
 					'dutiible',
 				],
+				'duties'=>[
+					'dnties',
+					'dutics',
+				],
 				'dutifully'=>[
 					'dutifullly',
 					'dutifuly',
@@ -11755,6 +12337,9 @@
 				'dutifulness'=>[
 					'dutifulnes',
 					'dutifulnesss',
+				],
+				'duty'=>[
+					'cluty',
 				],
 				'duumvir'=>[
 					'dumvir',
@@ -11797,6 +12382,7 @@
 				'dwelling'=>[
 					'dweling',
 					'dwellling',
+					'dwelhng',
 				],
 				'dwellings'=>[
 					'dwelings',
@@ -11872,6 +12458,7 @@
 				],
 				'dying'=>[
 					'dieing',
+					'dving',
 				],
 				'dynamically'=>[
 					'dynamicallly',

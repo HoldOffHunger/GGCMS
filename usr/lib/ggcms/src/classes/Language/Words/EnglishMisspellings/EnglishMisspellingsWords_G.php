@@ -238,6 +238,7 @@
 				],
 				'gained'=>[
 					'gainid',
+					'gainecl',
 				],
 				'gainer'=>[
 					'gainir',
@@ -248,6 +249,7 @@
 				],
 				'gaining'=>[
 					'gainang',
+					'gainiug',
 				],
 				'galabiyah'=>[
 					'galabiya',
@@ -636,6 +638,7 @@
 				'game'=>[
 					'game game',
 					'game game game',
+					'gaine',
 				],
 				'game boy'=>[
 					'gameboy',
@@ -857,6 +860,7 @@
 				],
 				'garrisons'=>[
 					'garrrisons',
+					'garrifons',
 				],
 				'garron'=>[
 					'garon',
@@ -1061,9 +1065,20 @@
 				'gather'=>[
 					'gather gather',
 					'gather gather gather',
+					'gathcr',
+					'gatlicr',
+					'gatlier',
+				],
+				'gathered'=>[
+					'gatlicred',
+					'gatliercd',
+					'gatliered',
 				],
 				'gathering'=>[
 					'gethering',
+					'gatbering',
+					'gatlicring',
+					'gatliering',
 				],
 				'gatifloxacin'=>[
 					'gatifoxacin',
@@ -1427,6 +1442,9 @@
 					'gendarmerei',
 					'gendarmeri',
 				],
+				'gender'=>[
+					'gendcr',
+				],
 				'genderless'=>[
 					'genderles',
 					'genderlesss',
@@ -1458,6 +1476,10 @@
 					'general general',
 					'general general general',
 					'genreal',
+					'gcneral',
+					'geiieral',
+					'gencral',
+					'geueral',
 				],
 				'generalcy'=>[
 					'generalsy',
@@ -1489,6 +1511,12 @@
 					'generalely',
 					'generallly',
 					'generallv',
+					'geiierally',
+					'gencrally',
+					'generaily',
+				],
+				'generation'=>[
+					'gencration',
 				],
 				'generationally'=>[
 					'generationalally',
@@ -1504,6 +1532,10 @@
 				],
 				'generically'=>[
 					'genericallly',
+				],
+				'generous'=>[
+					'gencrons',
+					'generons',
 				],
 				'generousness'=>[
 					'generousnes',
@@ -1689,6 +1721,7 @@
 				],
 				'genuine'=>[
 					'genuini',
+					'gennine',
 				],
 				'genuinely'=>[
 					'genuinly',
@@ -1904,6 +1937,7 @@
 				],
 				'gesture'=>[
 					'gseture',
+					'gesturc',
 				],
 				'gesundheit'=>[
 					'gesundhiet',
@@ -1927,6 +1961,7 @@
 				'getting'=>[
 					'gettng',
 					'gettting',
+					'gctting',
 				],
 				'gewurztraminer'=>[
 					'gewurztraminir',
@@ -2334,6 +2369,7 @@
 				],
 				'gifts'=>[
 					'jifts',
+					'gifls',
 				],
 				'giftware'=>[
 					'jiftware',
@@ -3265,6 +3301,9 @@
 				'given'=>[
 					'gived',
 					'jiven',
+					'givcn',
+					'giveu',
+					'giyen',
 				],
 				'givens'=>[
 					'jivens',
@@ -3278,6 +3317,7 @@
 				'gives'=>[
 					'give\'s',
 					'jives',
+					'givcs',
 				],
 				'giving'=>[
 					'giveing',
@@ -3421,6 +3461,9 @@
 				],
 				'glance'=>[
 					'glence',
+				],
+				'glanced'=>[
+					'gianted',
 				],
 				'glandular'=>[
 					'glanduler',
@@ -3767,6 +3810,7 @@
 				],
 				'gloom'=>[
 					'glooom',
+					'gloorn',
 				],
 				'gloomier'=>[
 					'glomier',
@@ -3792,6 +3836,7 @@
 				'gloomy'=>[
 					'glomy',
 					'glooomy',
+					'glooniy',
 				],
 				'gloppier'=>[
 					'glopier',
@@ -3805,15 +3850,25 @@
 					'glopppy',
 					'glopy',
 				],
+				'glorify'=>[
+					'glorifv',
+				],
 				'glorious'=>[
 					'glorous',
+					'glorioiis',
+					'glorions',
 				],
 				'gloriously'=>[
 					'glorously',
+					'glorioufly',
 				],
 				'gloriousness'=>[
 					'gloriousnes',
 					'gloriousnesss',
+				],
+				'glory'=>[
+					'giory',
+					'glorv',
 				],
 				'gloss'=>[
 					'glos',
@@ -4355,6 +4410,9 @@
 					'godron',
 					'godrooon',
 				],
+				'gods'=>[
+					'gocls',
+				],
 				'godspeed'=>[
 					'godsped',
 					'godspeeed',
@@ -4413,11 +4471,14 @@
 					'gogin',
 					'goign',
 					'gonig',
+					'goiiig',
+					'goiug',
 				],
 				'gold'=>[
 					'gold gold',
 					'gold gold gold',
 					'gqld',
+					'golcl',
 				],
 				'goldennesses'=>[
 					'goldenesses',
@@ -4535,6 +4596,7 @@
 					'good good',
 					'good good good',
 					'goood',
+					'goocl',
 				],
 				'good riddance'=>[
 					'good riddens',
@@ -4613,6 +4675,7 @@
 					'goodnes',
 					'goodnesss',
 					'gooodness',
+					'goodnefs',
 				],
 				'goodnight'=>[
 					'godnight',
@@ -4884,6 +4947,9 @@
 				'gorsy'=>[
 					'gorcy',
 				],
+				'gospel'=>[
+					'gofpel',
+				],
 				'gossamer'=>[
 					'gosamer',
 					'gosssamer',
@@ -4983,12 +5049,15 @@
 					'govern govern',
 					'govern govern govern',
 					'govorn',
+					'govem',
 				],
 				'governance'=>[
 					'governence',
+					'govemance',
 				],
 				'governed'=>[
 					'goverened',
+					'govemed',
 				],
 				'governess'=>[
 					'governes',
@@ -5000,6 +5069,9 @@
 				],
 				'governessy'=>[
 					'governescy',
+				],
+				'governing'=>[
+					'goveming',
 				],
 				'government'=>[
 					'govemment',
@@ -5019,11 +5091,18 @@
 					'govrenment',
 					'governmant',
 					'govermnent',
+					'govcmment',
+					'govemmeut',
+					'governmcnt',
+					'governnicnt',
+					'governnient',
+					'goverument',
 				],
 				'governmental'=>[
 					'govermental',
 					'govormental',
 					'governental',
+					'govemmental',
 				],
 				'governmentalism'=>[
 					'govermentalism',
@@ -5058,6 +5137,7 @@
 				'governments'=>[
 					'goverments',
 					'governents',
+					'govemments',
 				],
 				'governor'=>[
 					'gouvener',
@@ -5074,6 +5154,7 @@
 				],
 				'governors'=>[
 					'governours',
+					'govemors',
 				],
 				'governorship'=>[
 					'governourship',
@@ -5121,6 +5202,11 @@
 					'graby',
 					'grabbby',
 				],
+				'grace'=>[
+					'gracc',
+					'graee',
+					'graoe',
+				],
 				'gracefully'=>[
 					'gracefullly',
 					'gracefuly',
@@ -5155,6 +5241,7 @@
 				],
 				'graciously'=>[
 					'gracously',
+					'gracionsly',
 				],
 				'graciousness'=>[
 					'graciousnes',
@@ -5184,6 +5271,7 @@
 				'gradually'=>[
 					'gradualy',
 					'graduallly',
+					'gradnally',
 				],
 				'gradualness'=>[
 					'gradaulness',
@@ -5334,6 +5422,7 @@
 				'grand'=>[
 					'grand grand',
 					'grand grand grand',
+					'grancl',
 				],
 				'grandchild'=>[
 					'granchild',
@@ -5380,6 +5469,7 @@
 				'grandfather'=>[
 					'grand-father',
 					'granfather',
+					'grandfatlier',
 				],
 				'grandfatherly'=>[
 					'grandfatherally',
@@ -5466,6 +5556,10 @@
 				],
 				'grant'=>[
 					'grent',
+					'graut',
+				],
+				'granted'=>[
+					'grauted',
 				],
 				'grantee'=>[
 					'grentee',
@@ -5608,6 +5702,8 @@
 					'gratefull',
 					'greatful',
 					'greatfull',
+					'gratcful',
+					'gratefnl',
 				],
 				'gratefully'=>[
 					'greatfully',
@@ -5725,6 +5821,8 @@
 					'great great',
 					'great great great',
 					'gret',
+					'grcat',
+					'greal',
 				],
 				'greatened'=>[
 					'greatend',
@@ -5732,9 +5830,12 @@
 				'greater'=>[
 					'gerater',
 					'greter',
+					'grealer',
+					'greatcr',
 				],
 				'greatest'=>[
 					'geratest',
+					'greateft',
 				],
 				'greathearted'=>[
 					'greatherted',
@@ -5745,6 +5846,8 @@
 				'greatly'=>[
 					'greately',
 					'greatley',
+					'greatiy',
+					'greatlv',
 				],
 				'greatness'=>[
 					'greatnes',
@@ -5813,6 +5916,9 @@
 					'greeen',
 					'green green',
 					'green green green',
+					'grcen',
+					'grecn',
+					'greeu',
 				],
 				'greenback'=>[
 					'greeenback',
@@ -6171,6 +6277,7 @@
 					'grevious',
 					'grevous',
 					'grivous',
+					'grievons',
 				],
 				'grievously'=>[
 					'greivously',
@@ -6540,6 +6647,7 @@
 				],
 				'grossly'=>[
 					'grosssly',
+					'grofsly',
 				],
 				'grossness'=>[
 					'grosness',
@@ -6592,6 +6700,9 @@
 				'ground'=>[
 					'ground ground',
 					'ground ground ground',
+					'gronnd',
+					'grouncl',
+					'grouud',
 				],
 				'ground-based'=>[
 					'ground based',
@@ -6612,6 +6723,7 @@
 				'groundless'=>[
 					'groundles',
 					'groundlesss',
+					'groundlefs',
 				],
 				'groundlessly'=>[
 					'groundlesly',
@@ -6693,12 +6805,17 @@
 					'grow grow',
 					'grow grow grow',
 					'grwo',
+					'grovv',
+				],
+				'growing'=>[
+					'grovving',
 				],
 				'growlinesses'=>[
 					'growlinisses',
 				],
 				'growth'=>[
 					'growtb',
+					'growtli',
 				],
 				'growthinesses'=>[
 					'growthinisses',
@@ -6925,6 +7042,9 @@
 					'gaurds',
 					'guard=gaurd',
 					'gurad',
+					'giiard',
+					'gnard',
+					'guarcl',
 				],
 				'guardant'=>[
 					'gaurdant',
@@ -6935,6 +7055,7 @@
 				],
 				'guarded'=>[
 					'gaurded',
+					'gnarded',
 				],
 				'guardedness'=>[
 					'guardednes',
@@ -7090,6 +7211,9 @@
 					'guestroms',
 					'guestroooms',
 				],
+				'guests'=>[
+					'gucsts',
+				],
 				'guff'=>[
 					'gufff',
 				],
@@ -7132,6 +7256,7 @@
 					'giude',
 					'guide guide',
 					'guide guide guide',
+					'gnide',
 				],
 				'guidebook'=>[
 					'guidebok',
@@ -7213,6 +7338,8 @@
 				],
 				'guilt'=>[
 					'giult',
+					'giiilt',
+					'gnilt',
 				],
 				'guiltiness'=>[
 					'guiltines',
@@ -7232,6 +7359,9 @@
 					'guiltlesslly',
 					'guiltlesly',
 					'guiltlesssly',
+				],
+				'guilty'=>[
+					'gnilty',
 				],
 				'guinea'=>[
 					'guine',
@@ -7517,6 +7647,9 @@
 				],
 				'gunrunnings'=>[
 					'gunrunings',
+				],
+				'guns'=>[
+					'giins',
 				],
 				'guppies'=>[
 					'gupies',

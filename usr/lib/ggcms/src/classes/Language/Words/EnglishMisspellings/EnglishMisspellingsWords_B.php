@@ -344,6 +344,9 @@
 				'backdropping'=>[
 					'backdroping',
 				],
+				'backed'=>[
+					'backecl',
+				],
 				'backetfuls'=>[
 					'bucketsful',
 				],
@@ -500,6 +503,9 @@
 					'backstreeets',
 					'backstrets',
 				],
+				'backward'=>[
+					'backwarcl',
+				],
 				'backwardness'=>[
 					'backwardnes',
 					'backwardnesss',
@@ -598,6 +604,7 @@
 					'badally',
 					'badaly',
 					'badlly',
+					'hadly',
 				],
 				'badminton'=>[
 					'badmiton',
@@ -780,6 +787,8 @@
 				],
 				'balance'=>[
 					'balence',
+					'balancc',
+					'balauce',
 				],
 				'balanceable'=>[
 					'balancable',
@@ -1330,6 +1339,20 @@
 				'banian'=>[
 					'banan',
 				],
+				'banish'=>[
+					'banisb',
+					'banisli',
+				],
+				'banished'=>[
+					'banifhed',
+					'banislied',
+				],
+				'banishing'=>[
+					'banisliing',
+				],
+				'banishment'=>[
+					'banisliment',
+				],
 				'bank'=>[
 					'bank bank',
 					'bank bank bank',
@@ -1426,6 +1449,9 @@
 				'banns'=>[
 					'bannns',
 				],
+				'banquet'=>[
+					'banqnet',
+				],
 				'banquette'=>[
 					'banquete',
 					'banquettte',
@@ -1459,8 +1485,14 @@
 				'banty'=>[
 					'benty',
 				],
+				'baptism'=>[
+					'haptism',
+				],
 				'baptistery'=>[
 					'baptistary',
+				],
+				'baptized'=>[
+					'haptized',
 				],
 				'bar'=>[
 					'bar bar',
@@ -1553,6 +1585,7 @@
 					'barelly',
 					'barly',
 					'bearly',
+					'barcly',
 				],
 				'bareness'=>[
 					'barenes',
@@ -1629,6 +1662,10 @@
 				'baronetess'=>[
 					'baronetes',
 					'baronetesss',
+				],
+				'barons'=>[
+					'barous',
+					'harons',
 				],
 				'baroquely'=>[
 					'baroquly',
@@ -1727,6 +1764,7 @@
 				'barrel'=>[
 					'barel',
 					'barrrel',
+					'barrcl',
 				],
 				'barreled'=>[
 					'bareled',
@@ -1767,6 +1805,7 @@
 				'barrels'=>[
 					'barels',
 					'barrrels',
+					'harrcls',
 				],
 				'barren'=>[
 					'baren',
@@ -1926,6 +1965,10 @@
 					'baseballls',
 					'basebals',
 				],
+				'based'=>[
+					'basecl',
+					'hased',
+				],
 				'baseless'=>[
 					'baseles',
 					'baselesss',
@@ -1987,6 +2030,12 @@
 				],
 				'basipetal'=>[
 					'basipedal',
+				],
+				'basis'=>[
+					'bafis',
+				],
+				'basket'=>[
+					'bafket',
 				],
 				'basketball'=>[
 					'basketbal',
@@ -2077,6 +2126,9 @@
 					'bascy',
 					'basy',
 				],
+				'bastards'=>[
+					'baftards',
+				],
 				'bastille'=>[
 					'bastile',
 					'bastillle',
@@ -2104,11 +2156,17 @@
 				'batches'=>[
 					'batchs',
 				],
+				'bathe'=>[
+					'batlie',
+				],
 				'bathhouse'=>[
 					'bathhhouse',
 				],
 				'bathhouses'=>[
 					'bathhhouses',
+				],
+				'bathing'=>[
+					'batliing',
 				],
 				'bathocuproine'=>[
 					'bathocuprione',
@@ -2219,6 +2277,9 @@
 				'battle'=>[
 					'batle',
 					'batttle',
+					'battie',
+					'battlc',
+					'hattle',
 				],
 				'battleax'=>[
 					'batleax',
@@ -2426,6 +2487,7 @@
 				],
 				'beach'=>[
 					'bech',
+					'beacli',
 				],
 				'beachcomber'=>[
 					'bechcomber',
@@ -2536,6 +2598,7 @@
 				],
 				'beast'=>[
 					'beest',
+					'beaft',
 				],
 				'beastie'=>[
 					'beastei',
@@ -2554,6 +2617,10 @@
 					'beastaly',
 					'beastely',
 					'beastlly',
+				],
+				'beasts'=>[
+					'beafts',
+					'heasts',
 				],
 				'beat'=>[
 					'beat beat',
@@ -2594,6 +2661,9 @@
 					'beautican',
 					'beutician',
 				],
+				'beauties'=>[
+					'beanties',
+				],
 				'beautification'=>[
 					'beutification',
 				],
@@ -2607,6 +2677,12 @@
 					'beutiful',
 					'bueatiful',
 					'beautyful',
+					'bcautiful',
+					'beantifnl',
+					'beantiful',
+					'beautifiil',
+					'beautifnl',
+					'heautiful',
 				],
 				'beautifullest'=>[
 					'beutifullest',
@@ -2614,6 +2690,8 @@
 				'beautifully'=>[
 					'beautifuly',
 					'beautifullly',
+					'beantifully',
+					'beautifiilly',
 				],
 				'beautifulness'=>[
 					'beutifulness',
@@ -2627,6 +2705,8 @@
 					'beauty beauty',
 					'beauty beauty beauty',
 					'beuty',
+					'beanty',
+					'heauty',
 				],
 				'beauvericin'=>[
 					'bauvericin',
@@ -2655,6 +2735,13 @@
 					'becamae',
 					'becamed',
 					'becomed',
+					'bccame',
+					'becamc',
+					'becanic',
+					'becanie',
+					'becarne',
+					'beeanie',
+					'hecame',
 				],
 				'because'=>[
 					'beacause',
@@ -2665,6 +2752,21 @@
 					'becouse',
 					'becuase',
 					'becuse',
+					'bccanse',
+					'bccausc',
+					'bccause',
+					'becaiise',
+					'becanfe',
+					'becanse',
+					'becaufc',
+					'becaufe',
+					'becausc',
+					'beeanse',
+					'beeause',
+					'hecaiise',
+					'hecanse',
+					'hecause',
+					'heeause',
 				],
 				'beccafico'=>[
 					'becafico',
@@ -2700,14 +2802,29 @@
 				'become'=>[
 					'bacome',
 					'beceme',
+					'becoiiie',
+					'becoine',
+					'becomc',
+					'beconie',
+					'becorne',
+					'beeoine',
+					'beeome',
+					'hecome',
+				],
+				'becomes'=>[
+					'beconies',
+					'beeomes',
+					'hecomes',
 				],
 				'becoming'=>[
 					'becomeing',
 					'becomming',
+					'hecoming',
 				],
 				'bed'=>[
 					'bed bed',
 					'bed bed bed',
+					'becl',
 				],
 				'bedabble'=>[
 					'bedable',
@@ -3023,6 +3140,8 @@
 					'beeen',
 					'been been',
 					'been been been',
+					'beeii',
+					'beeri',
 				],
 				'beep'=>[
 					'beeep',
@@ -3088,6 +3207,7 @@
 				],
 				'beetle'=>[
 					'beeetle',
+					'beelle',
 				],
 				'beetled'=>[
 					'beeetled',
@@ -3180,6 +3300,13 @@
 					'before before before',
 					'beofer',
 					'beofre',
+					'bcfore',
+					'befcre',
+					'beforc',
+					'hefore',
+				],
+				'beforehand'=>[
+					'beforeliand',
 				],
 				'befriend'=>[
 					'befreind',
@@ -3208,6 +3335,8 @@
 				'began'=>[
 					'began began',
 					'began began began',
+					'begau',
+					'hegan',
 				],
 				'begetter'=>[
 					'begettter',
@@ -3291,6 +3420,7 @@
 					'begin begin',
 					'begin begin begin',
 					'beign',
+					'hegin',
 				],
 				'beginner'=>[
 					'begginer',
@@ -3307,6 +3437,11 @@
 					'begining',
 					'beginnig',
 					'beginnning',
+					'bcginning',
+					'begiiining',
+					'beginniug',
+					'beginuing',
+					'heginning',
 				],
 				'beginnings'=>[
 					'beginings',
@@ -3314,6 +3449,7 @@
 				],
 				'begins'=>[
 					'beigns',
+					'bcgins',
 				],
 					# beglamour: an accepted spelling, not a slip (AmericanBritishWords_B: beglamour)
 			#	'beglamor'=>[
@@ -3352,9 +3488,27 @@
 				'beguine'=>[
 					'beguini',
 				],
+				'begun'=>[
+					'begnn',
+				],
+				'behalf'=>[
+					'bchalf',
+					'belialf',
+				],
+				'behave'=>[
+					'beliave',
+					'hehave',
+				],
+				'behaved'=>[
+					'beliaved',
+				],
+				'behaves'=>[
+					'beliaves',
+				],
 				'behavior'=>[
 					'behaivor',
 					'behavour',
+					'beliavior',
 				],
 				'behaviorally'=>[
 					'behaviorallly',
@@ -3366,15 +3520,32 @@
 				'behaviours'=>[
 					'behaviurs',
 				],
+				'beheaded'=>[
+					'heheaded',
+				],
 				'behind'=>[
 					'behind behind',
 					'behind behind behind',
 					'behing',
+					'bchind',
+					'bcliind',
+					'behincl',
+					'behiud',
+					'beliind',
+					'hehind',
 				],
 					# behove: an accepted spelling, not a slip (AmericanBritishWords_B: behoove)
 			#	'behoove'=>[
 			#		'behove',
 			#	],
+				'behold'=>[
+					'bebold',
+					'beliold',
+					'hehold',
+				],
+				'beholder'=>[
+					'beliolder',
+				],
 				'behoof'=>[
 					'behof',
 					'behooof',
@@ -3413,9 +3584,16 @@
 				'being'=>[
 					'beeing',
 					'bieng',
+					'bcing',
+					'beiiig',
+					'beiug',
+					'heing',
 				],
 				'beings'=>[
 					'biengs',
+					'beiiigs',
+					'beiugs',
+					'heings',
 				],
 				'beirut'=>[
 					'beruit',
@@ -3470,6 +3648,8 @@
 					'beleif',
 					'beleive',
 					'belif',
+					'behef',
+					'helief',
 				],
 				'beliefs'=>[
 					'beleives',
@@ -3493,11 +3673,19 @@
 					'believe believe',
 					'believe believe believe',
 					'belive',
+					'bclieve',
+					'beheve',
+					'believc',
+					'belieye',
+					'hclieve',
+					'helieve',
 				],
 				'believed'=>[
 					'beleieved',
 					'beleived',
 					'beleivedbeleives',
+					'beheved',
+					'helieved',
 				],
 				'believer'=>[
 					'beliver',
@@ -3505,13 +3693,16 @@
 				],
 				'believers'=>[
 					'beleivers',
+					'belieyers',
 				],
 				'believes'=>[
 					'beleives',
+					'beheves',
 				],
 				'believing'=>[
 					'beleiving',
 					'beliving',
+					'belieying',
 				],
 				'beliquor'=>[
 					'beliqor',
@@ -3800,11 +3991,21 @@
 				'bellying'=>[
 					'belllying',
 				],
+				'belong'=>[
+					'beloug',
+				],
+				'belonging'=>[
+					'helonging',
+				],
 				'belongingnesses'=>[
 					'belongingneses',
 				],
 				'belostomatid'=>[
 					'belostomid',
+				],
+				'below'=>[
+					'bclow',
+					'helow',
 				],
 				'bemaddened'=>[
 					'bemaddend',
@@ -3821,11 +4022,17 @@
 				'benches'=>[
 					'benchs',
 				],
+				'bend'=>[
+					'bencl',
+				],
 				'bendamustine'=>[
 					'benadamustine',
 				],
 				'beneath'=>[
 					'beneth',
+					'beneatli',
+					'heneath',
+					'heneatli',
 				],
 				'benefactress'=>[
 					'benefactres',
@@ -3857,6 +4064,9 @@
 					'benfit',
 					'benifit',
 					'bennefit',
+					'bcncfit',
+					'bcnefit',
+					'henefit',
 				],
 				'benefited'=>[
 					'benefitted',
@@ -3864,6 +4074,7 @@
 				'benefits'=>[
 					'benfits',
 					'benifits',
+					'bcnefits',
 				],
 				'benefitting'=>[
 					'benefittting',
@@ -3988,6 +4199,9 @@
 				'bequeathal'=>[
 					'bequeatal',
 				],
+				'bequeathed'=>[
+					'bequeatlied',
+				],
 				'bereaved'=>[
 					'bereved',
 				],
@@ -4056,6 +4270,9 @@
 				'beseech'=>[
 					'besech',
 					'beseeech',
+					'befeech',
+					'beseecb',
+					'beseecli',
 				],
 				'beseeched'=>[
 					'beseeeched',
@@ -4095,15 +4312,22 @@
 				],
 				'beset'=>[
 					'besetted',
+					'heset',
 				],
 				'besetting'=>[
 					'besettting',
+				],
+				'beside'=>[
+					'befide',
+					'besidc',
 				],
 				'beside the'=>[
 					'besidet he',
 				],
 				'besides'=>[
 					'beised',
+					'befides',
+					'hesides',
 				],
 				'besiege'=>[
 					'beseige',
@@ -4111,6 +4335,7 @@
 				],
 				'besieged'=>[
 					'beseiged',
+					'befieged',
 				],
 				'beslobber'=>[
 					'beslobbber',
@@ -4124,6 +4349,9 @@
 				],
 				'besotting'=>[
 					'besottting',
+				],
+				'besought'=>[
+					'besouglit',
 				],
 				'bespatter'=>[
 					'bespattter',
@@ -4172,6 +4400,15 @@
 				],
 				'bestirring'=>[
 					'bestirrring',
+				],
+				'bestow'=>[
+					'beftow',
+				],
+				'bestowed'=>[
+					'beftowed',
+				],
+				'bestowing'=>[
+					'beftowing',
 				],
 				'bestraddle'=>[
 					'bestradddle',
@@ -4230,6 +4467,10 @@
 					'better better',
 					'better better better',
 					'bettter',
+					'bctter',
+					'betler',
+					'bettcr',
+					'hetter',
 				],
 				'bettered'=>[
 					'betered',
@@ -4276,6 +4517,13 @@
 					'inbetween',
 					'vetween',
 					'hetween',
+					'bctween',
+					'betiveen',
+					'betvveen',
+					'betwccn',
+					'betwcen',
+					'betwecn',
+					'betweeu',
 				],
 				'between its'=>[
 					'between it\'s',
@@ -4306,6 +4554,9 @@
 				'bevvy'=>[
 					'bevvvy',
 				],
+				'beware'=>[
+					'heware',
+				],
 				'beweary'=>[
 					'beweery',
 				],
@@ -4321,6 +4572,11 @@
 				],
 				'bewilderment'=>[
 					'bewildermant',
+				],
+				'beyond'=>[
+					'bcyond',
+					'beyoncl',
+					'heyond',
 				],
 				'bezant'=>[
 					'bezent',
@@ -5091,6 +5347,9 @@
 					'biogeographeis',
 					'biogeographis',
 				],
+				'biographical'=>[
+					'biograpliical',
+				],
 				'biographically'=>[
 					'biographicaly',
 					'biographicallly',
@@ -5340,6 +5599,12 @@
 					'birs',
 					'birrrs',
 				],
+				'birth'=>[
+					'birtli',
+				],
+				'birthright'=>[
+					'birtliright',
+				],
 				'birthroot'=>[
 					'birthrooot',
 					'birthrot',
@@ -5375,6 +5640,14 @@
 				'bisexually'=>[
 					'bisexuallly',
 					'bisexualy',
+				],
+				'bishop'=>[
+					'bisliop',
+					'hishop',
+				],
+				'bishops'=>[
+					'bifhops',
+					'bisliops',
 				],
 				'bismuthal'=>[
 					'bismutal',
@@ -5636,6 +5909,8 @@
 				'black'=>[
 					'black black',
 					'black black black',
+					'blaek',
+					'hlack',
 				],
 				'black-box testing'=>[
 					'black box testing',
@@ -5804,6 +6079,9 @@
 				],
 				'blame'=>[
 					'blaim',
+					'blamc',
+					'blarne',
+					'hlame',
 				],
 				'blameable'=>[
 					'blameible',
@@ -5834,6 +6112,9 @@
 					'blameworthines',
 					'blameworthinesss',
 				],
+				'blameworthy'=>[
+					'blamewortliy',
+				],
 				'blandly'=>[
 					'blandally',
 					'blandaly',
@@ -5856,11 +6137,17 @@
 					'blanquete',
 					'blanquettte',
 				],
+				'blasphemous'=>[
+					'blafphemous',
+				],
 				'blasphemously'=>[
 					'blasphemousally',
 					'blasphemousaly',
 					'blasphemousely',
 					'blasphemouslly',
+				],
+				'blast'=>[
+					'blaft',
 				],
 				'blasticidin'=>[
 					'blastacidin',
@@ -5928,6 +6215,7 @@
 				],
 				'bled'=>[
 					'bleeded',
+					'blecl',
 				],
 				'bleed'=>[
 					'bleeed',
@@ -5990,6 +6278,7 @@
 					'blesed',
 					'blest',
 					'blesssed',
+					'bleffed',
 				],
 				'blessedly'=>[
 					'blesedly',
@@ -6008,17 +6297,23 @@
 				'blessing'=>[
 					'blesing',
 					'blesssing',
+					'bleffing',
 				],
 				'blessings'=>[
 					'blesings',
 					'blesssings',
+					'hlessings',
 				],
 				'blimpishnesses'=>[
 					'blimpishneses',
 				],
+				'blind'=>[
+					'bliud',
+				],
 				'blindness'=>[
 					'blindnes',
 					'blindnesss',
+					'bhndness',
 				],
 				'blini'=>[
 					'blina',
@@ -6124,6 +6419,9 @@
 					'blood blood',
 					'blood blood blood',
 					'bloood',
+					'biood',
+					'bloocl',
+					'hlood',
 				],
 				'bloodbath'=>[
 					'blodbath',
@@ -6248,6 +6546,7 @@
 				'bloodshed'=>[
 					'blodshed',
 					'blooodshed',
+					'bloodslied',
 				],
 				'bloodshot'=>[
 					'blodshot',
@@ -6328,6 +6627,7 @@
 				'bloodthirsty'=>[
 					'blodthirsty',
 					'blooodthirsty',
+					'bloodtliirsty',
 				],
 				'bloodworm'=>[
 					'blodworm',
@@ -6336,6 +6636,7 @@
 				'bloody'=>[
 					'blody',
 					'blooody',
+					'bloocly',
 				],
 				'bloodying'=>[
 					'blodying',
@@ -6471,6 +6772,9 @@
 					'blowfaly',
 					'blowfely',
 					'blowflly',
+				],
+				'blowing'=>[
+					'biowing',
 				],
 				'blown'=>[
 					'blowed',
@@ -6678,6 +6982,10 @@
 					'blurrry',
 					'blury',
 				],
+				'blush'=>[
+					'blnsh',
+					'blufh',
+				],
 				'blustery'=>[
 					'blustary',
 				],
@@ -6688,6 +6996,7 @@
 					'baord',
 					'board board',
 					'board board board',
+					'boarcl',
 				],
 				'boarded'=>[
 					'borded',
@@ -6699,6 +7008,12 @@
 				'boardrooms'=>[
 					'boardroms',
 					'boardroooms',
+				],
+				'boast'=>[
+					'boaft',
+				],
+				'boasted'=>[
+					'boafted',
 				],
 				'boastfully'=>[
 					'boastfullly',
@@ -6722,6 +7037,9 @@
 				'boatbills'=>[
 					'boatbillls',
 					'boatbils',
+				],
+				'boats'=>[
+					'hoats',
 				],
 				'bobbed'=>[
 					'bobed',
@@ -6874,6 +7192,8 @@
 				],
 				'bodies'=>[
 					'bodys',
+					'bodics',
+					'hodies',
 				],
 				'bodiless'=>[
 					'bodiles',
@@ -6885,10 +7205,13 @@
 					'bodiely',
 					'bodilly',
 					'bodly',
+					'bodilv',
+					'hodily',
 				],
 				'body'=>[
 					'body body',
 					'body body body',
+					'bocly',
 				],
 				'bodyguard'=>[
 					'bodygaurd',
@@ -7085,6 +7408,9 @@
 				'boneless'=>[
 					'boneles',
 					'bonelesss',
+				],
+				'bones'=>[
+					'boncs',
 				],
 				'bonesetter'=>[
 					'bonesettter',
@@ -7910,6 +8236,10 @@
 				'bosnian-occupied'=>[
 					'bosnian occupied',
 				],
+				'bosom'=>[
+					'bofom',
+					'hosom',
+				],
 				'boss'=>[
 					'bos',
 					'bosss',
@@ -7971,6 +8301,7 @@
 					'both both both',
 					'boths',
 					'bolth',
+					'botli',
 				],
 				'both the'=>[
 					'the both the',
@@ -7983,6 +8314,7 @@
 				],
 				'bottle'=>[
 					'botttle',
+					'bottlc',
 				],
 				'bottled'=>[
 					'botled',
@@ -8110,6 +8442,10 @@
 					'bought bought',
 					'bought bought bought',
 					'buyed',
+					'bonght',
+					'bonglit',
+					'bougbt',
+					'bouglit',
 				],
 				'bouillabaisse'=>[
 					'bouilabaisse',
@@ -8161,6 +8497,9 @@
 				],
 				'bound'=>[
 					'binded',
+					'boiiiid',
+					'bonnd',
+					'bouncl',
 				],
 				'boundaries'=>[
 					'boundries',
@@ -8191,6 +8530,9 @@
 					'boundlessnes',
 					'boundlessnesss',
 					'boundlesssness',
+				],
+				'bounds'=>[
+					'bonnds',
 				],
 				'bounteousness'=>[
 					'bounteousnes',
@@ -8349,6 +8691,7 @@
 				'boyhood'=>[
 					'boyhod',
 					'boyhoood',
+					'boyliood',
 				],
 				'boyhoods'=>[
 					'boyhods',
@@ -8475,6 +8818,9 @@
 				'braillewriters'=>[
 					'brailewriters',
 				],
+				'brain'=>[
+					'hrain',
+				],
 				'brained'=>[
 					'brainid',
 				],
@@ -8541,9 +8887,13 @@
 				'branch'=>[
 					'branch branch',
 					'branch branch branch',
+					'brancli',
+					'braneh',
 				],
 				'branches'=>[
 					'branchs',
+					'branehes',
+					'hranclies',
 				],
 				'branchiostegal'=>[
 					'branchiostegial',
@@ -8552,8 +8902,14 @@
 					'branchles',
 					'branchlesss',
 				],
+				'brand'=>[
+					'brancl',
+				],
 				'brandless'=>[
 					'brandlesss',
+				],
+				'brandy'=>[
+					'braiidy',
 				],
 				'brannigan'=>[
 					'branigan',
@@ -8710,9 +9066,12 @@
 				],
 				'brave'=>[
 					'bave',
+					'braye',
+					'hrave',
 				],
 				'bravely'=>[
 					'bravly',
+					'braveiy',
 				],
 				'braveness'=>[
 					'bravenes',
@@ -8760,11 +9119,13 @@
 				],
 				'breach'=>[
 					'brech',
+					'breacli',
 				],
 				'bread'=>[
 					'bread bread',
 					'bread bread bread',
 					'bred',
+					'hread',
 				],
 				'breadbasket'=>[
 					'bredbasket',
@@ -8793,6 +9154,7 @@
 				],
 				'breadth'=>[
 					'bredth',
+					'breadtli',
 				],
 				'breadwinner'=>[
 					'breadwiner',
@@ -8814,6 +9176,7 @@
 					'break break',
 					'break break break',
 					'brek',
+					'hreak',
 				],
 				'breakable'=>[
 					'breakible',
@@ -8840,6 +9203,7 @@
 				],
 				'breaking'=>[
 					'breking',
+					'hreaking',
 				],
 				'breakneck'=>[
 					'brekneck',
@@ -8867,6 +9231,8 @@
 				],
 				'breast'=>[
 					'brest',
+					'breaft',
+					'hreast',
 				],
 				'breastfeed'=>[
 					'brestfeed',
@@ -8901,6 +9267,10 @@
 				],
 				'breath'=>[
 					'breth',
+					'brcatli',
+					'breatb',
+					'breatli',
+					'hreath',
 				],
 				'breathabilities'=>[
 					'breathabiliteis',
@@ -8916,9 +9286,11 @@
 				],
 				'breathe'=>[
 					'brethe',
+					'breatlie',
 				],
 				'breathed'=>[
 					'brethed',
+					'breatlied',
 				],
 				'breather'=>[
 					'brether',
@@ -8929,6 +9301,9 @@
 				],
 				'breathing'=>[
 					'brething',
+					'breathiug',
+					'breatliing',
+					'hreathing',
 				],
 				'breathless'=>[
 					'breathles',
@@ -9114,6 +9489,10 @@
 			#	],
 				'brethren'=>[
 					'brethrens',
+					'brctliren',
+					'bretbren',
+					'bretlircn',
+					'bretliren',
 				],
 				'breton'=>[
 					'brenton',
@@ -9209,6 +9588,7 @@
 				'brief'=>[
 					'breif',
 					'brif',
+					'bricf',
 				],
 				'briefcase'=>[
 					'breifcase',
@@ -9224,6 +9604,7 @@
 				],
 				'briefly'=>[
 					'breifly',
+					'briefiy',
 				],
 				'briefness'=>[
 					'briefnes',
@@ -9260,6 +9641,7 @@
 				'bright'=>[
 					'bright bright',
 					'bright bright bright',
+					'briglit',
 				],
 				'brightened'=>[
 					'brightend',
@@ -9295,6 +9677,8 @@
 					'brillant',
 					'brillient',
 					'brillliant',
+					'brilhant',
+					'hrilliant',
 				],
 				'brilliantine'=>[
 					'briliantine',
@@ -9309,6 +9693,7 @@
 				'brilliantly'=>[
 					'briliantly',
 					'brillliantly',
+					'brilhantly',
 				],
 				'brilliants'=>[
 					'briliants',
@@ -9342,6 +9727,9 @@
 					'brimning',
 					'brimmming',
 				],
+				'brimstone'=>[
+					'brimftone',
+				],
 				'brine'=>[
 					'brini',
 				],
@@ -9357,6 +9745,14 @@
 				'bring'=>[
 					'bring bring',
 					'bring bring bring',
+					'bnng',
+					'hring',
+				],
+				'bringing'=>[
+					'hringing',
+				],
+				'brings'=>[
+					'hrings',
 				],
 				'briniest'=>[
 					'brinaest',
@@ -9452,10 +9848,14 @@
 					'britlest',
 					'britttlest',
 				],
+				'broached'=>[
+					'broaclied',
+				],
 				'broad'=>[
 					'boroad',
 					'broad broad',
 					'broad broad broad',
+					'broacl',
 				],
 				'broadbill'=>[
 					'broadbil',
@@ -9516,6 +9916,10 @@
 					'broke broke',
 					'broke broke broke',
 					'broked',
+				],
+				'broken'=>[
+					'brokcn',
+					'hroken',
 				],
 				'brokenhearted'=>[
 					'brokenherted',
@@ -9738,15 +10142,26 @@
 				'brosy'=>[
 					'brocy',
 				],
+				'broth'=>[
+					'brotli',
+				],
+				'brothel'=>[
+					'brotliei',
+				],
 				'brother'=>[
 					'borther',
 					'brotber',
 					'brother brother',
 					'brother brother brother',
+					'brotlicr',
+					'brotlier',
+					'hrother',
+					'hrotlier',
 				],
 				'brotherhood'=>[
 					'brotherhod',
 					'brotherhoood',
+					'brotlierhood',
 				],
 				'brotherhoods'=>[
 					'brotherhods',
@@ -9765,6 +10180,10 @@
 					'brotheraly',
 					'brotherely',
 					'brotherlly',
+					'brotlierly',
+				],
+				'brothers'=>[
+					'brotliers',
 				],
 				'brought'=>[
 					'brang',
@@ -9774,6 +10193,16 @@
 					'brought brought',
 					'brought brought brought',
 					'brung',
+					'broiight',
+					'broiiglit',
+					'brongbt',
+					'bronght',
+					'bronglit',
+					'brougbt',
+					'brouglit',
+					'hroiight',
+					'hrought',
+					'hrouglit',
 				],
 				'brouhaha'=>[
 					'brouhaa',
@@ -9815,6 +10244,9 @@
 				'bruh'=>[
 					'bruhe',
 				],
+				'bruised'=>[
+					'bruifed',
+				],
 				'brummagem'=>[
 					'brumnagem',
 				],
@@ -9828,6 +10260,9 @@
 				'brunettes'=>[
 					'brunetes',
 					'brunetttes',
+				],
+				'brush'=>[
+					'brusb',
 				],
 				'brushabilities'=>[
 					'brushabiliteis',
@@ -9997,6 +10432,9 @@
 				'buccopharyngeal'=>[
 					'buccophayngeal',
 				],
+				'buck'=>[
+					'biick',
+				],
 				'buckaroo'=>[
 					'buckaro',
 					'buckarooo',
@@ -10107,6 +10545,9 @@
 				'budgie'=>[
 					'budgei',
 					'budgi',
+				],
+				'buds'=>[
+					'biids',
 				],
 				'buena vista social club'=>[
 					'buenavista social club',
@@ -10313,6 +10754,9 @@
 					'build build',
 					'build build build',
 					'buld',
+					'bnild',
+					'builcl',
+					'huild',
 				],
 				'buildable'=>[
 					'buildible',
@@ -10336,16 +10780,23 @@
 					'builiding',
 					'bulding',
 					'buliding',
+					'bnilding',
+					'builcling',
+					'huildiiig',
+					'huilding',
 				],
 				'buildings'=>[
 					'buiidings',
 					'builings',
 					'buldings',
 					'bulidings',
+					'bnildings',
+					'builclings',
 				],
 				'built'=>[
 					'builded',
 					'huilt',
+					'bnilt',
 				],
 				'built-in'=>[
 					'build-in',
@@ -10468,6 +10919,7 @@
 				'bullet'=>[
 					'bulet',
 					'bulllet',
+					'bnllet',
 				],
 				'bulletin'=>[
 					'buletin',
@@ -10515,6 +10967,7 @@
 				'bullets'=>[
 					'bulets',
 					'bulllets',
+					'bnllets',
 				],
 				'bullfight'=>[
 					'bulfight',
@@ -10817,6 +11270,9 @@
 				'bungees'=>[
 					'bungeees',
 				],
+				'bunging'=>[
+					'biinging',
+				],
 				'bunn'=>[
 					'bun',
 				],
@@ -10898,6 +11354,7 @@
 					'buden',
 					# burthen: an accepted spelling, not a slip (AmericanBritishWords_B: burden)
 				#	'burthen',
+					'bnrden',
 				],
 				'burdened'=>[
 					'burdend',
@@ -11028,9 +11485,15 @@
 				'burial'=>[
 					'buriel',
 					'burrial',
+					'bnrial',
+					'bunal',
+				],
+				'burials'=>[
+					'bunals',
 				],
 				'buried'=>[
 					'burried',
+					'bnried',
 				],
 				'burikko'=>[
 					'burriko',
@@ -11061,8 +11524,13 @@
 				'burnable'=>[
 					'burnible',
 				],
+				'burned'=>[
+					'bnrned',
+				],
 				'burning'=>[
 					'burining',
+					'bnrning',
+					'burniiig',
 				],
 				'burnoose'=>[
 					'burnooose',
@@ -11071,6 +11539,10 @@
 				'burnooses'=>[
 					'burnoooses',
 					'burnoses',
+				],
+				'burnt'=>[
+					'biirnt',
+					'bnrnt',
 				],
 				'burr'=>[
 					'bur',
@@ -11140,6 +11612,10 @@
 				'bursary'=>[
 					'bursery',
 				],
+				'burst'=>[
+					'bnrst',
+					'burft',
+				],
 				'burthened'=>[
 					'burthend',
 				],
@@ -11197,6 +11673,11 @@
 					'busness',
 					'bussines',
 					'bussiness',
+					'bnsiness',
+					'bufinefs',
+					'busincss',
+					'husincss',
+					'husiness',
 				],
 				'businesses'=>[
 					'buisnesses',
@@ -11293,6 +11774,7 @@
 					'bitt',
 					'but but',
 					'but but but',
+					'biit',
 				],
 				'butadiene'=>[
 					'butadeine',
@@ -11309,6 +11791,7 @@
 				],
 				'butter'=>[
 					'buttter',
+					'bntter',
 				],
 				'butterball'=>[
 					'butterbal',
@@ -11455,6 +11938,7 @@
 				],
 				'button'=>[
 					'buttton',
+					'bntton',
 				],
 				'buttonball'=>[
 					'butonball',
@@ -11561,6 +12045,7 @@
 				],
 				'buying'=>[
 					'buy-ing',
+					'bnying',
 				],
 				'buzz'=>[
 					'buzzz',

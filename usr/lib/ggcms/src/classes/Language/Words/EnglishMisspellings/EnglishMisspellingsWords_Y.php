@@ -132,6 +132,7 @@
 				],
 				'yards'=>[
 					'yarsd',
+					'vards',
 				],
 				'yarely'=>[
 					'yarly',
@@ -193,6 +194,7 @@
 				],
 				'yearning'=>[
 					'yerning',
+					'yeaming',
 				],
 				'years'=>[
 					'eyars',
@@ -202,6 +204,8 @@
 					'yeasr',
 					'yeras',
 					'yersa',
+					'vears',
+					'ycars',
 				],
 				'yeas'=>[
 					'yes',
@@ -244,6 +248,8 @@
 					'yellow yellow',
 					'yellow yellow yellow',
 					'yelow',
+					'vellow',
+					'ycllow',
 				],
 				'yellowbird'=>[
 					'yelllowbird',
@@ -377,6 +383,10 @@
 			#	'yeshivahs'=>[
 			#		'yeshivas',
 			#	],
+				'yesterday'=>[
+					'vesterday',
+					'yefterday',
+				],
 				'yesteryear'=>[
 					'yesteryeer',
 					'yesteryer',
@@ -456,6 +466,7 @@
 					'you you you',
 					'ytou',
 					'yuo',
+					'yoii',
 				],
 				'you\'re'=>[
 					'youre',
@@ -464,6 +475,11 @@
 					'young young',
 					'young young young',
 					'younge',
+					'voung',
+					'yoiing',
+					'yonng',
+					'youiig',
+					'youug',
 				],
 				'youngberry'=>[
 					'youngbery',
@@ -473,14 +489,32 @@
 					'youger',
 					'yuonger',
 				],
+				'youngest'=>[
+					'yonngest',
+					'youngeft',
+				],
 				'your'=>[
 					'your your',
 					'your your your',
 					'yuor',
+					'yoiir',
+				],
+				'yours'=>[
+					'vours',
+					'yonrs',
 				],
 				'yourself'=>[
 					'yourslef',
 					'youself',
+					'vourself',
+					'yoiirself',
+					'yonrsclf',
+					'yonrself',
+				],
+				'youth'=>[
+					'yonth',
+					'youtb',
+					'youtli',
 				],
 				'youthened'=>[
 					'youthend',
@@ -492,6 +526,9 @@
 				'youthfulness'=>[
 					'youthfulnes',
 					'youthfulnesss',
+				],
+				'youths'=>[
+					'youtlis',
 				],
 				'ytterbia'=>[
 					'yterbia',

@@ -251,6 +251,9 @@
 				'vagrant'=>[
 					'vagrent',
 				],
+				'vague'=>[
+					'vagne',
+				],
 				'vaguely'=>[
 					'vaguly',
 				],
@@ -317,6 +320,7 @@
 				],
 				'valiant'=>[
 					'valient',
+					'vahant',
 				],
 				'validate'=>[
 					'valudate',
@@ -357,6 +361,7 @@
 					'valley valley',
 					'valley valley valley',
 					'vallley',
+					'vallev',
 				],
 				'valleys'=>[
 					'valeys',
@@ -373,6 +378,8 @@
 					'valuble',
 					'valueable',
 					'valuible',
+					'valiiable',
+					'valnable',
 				],
 				'valuables'=>[
 					'valubles',
@@ -390,6 +397,11 @@
 				'value'=>[
 					'value value',
 					'value value value',
+					'valne',
+					'valuc',
+				],
+				'valued'=>[
+					'valned',
 				],
 				'valueless'=>[
 					'valueles',
@@ -454,6 +466,13 @@
 				],
 				'vanish'=>[
 					'vannish',
+					'vanisli',
+				],
+				'vanished'=>[
+					'vanishecl',
+				],
+				'vanity'=>[
+					'vauity',
 				],
 				'vanman'=>[
 					'vaman',
@@ -468,6 +487,9 @@
 				],
 				'vanning'=>[
 					'vannning',
+				],
+				'vanquished'=>[
+					'vanquifhed',
 				],
 				'vantage'=>[
 					'ventage',
@@ -567,6 +589,9 @@
 					'vareity',
 					'variaty',
 					'varity',
+					'vanety',
+					'varietv',
+					'yariety',
 				],
 				'variolar'=>[
 					'varioler',
@@ -650,6 +675,9 @@
 					'vasalls',
 					'vasals',
 					'vasssals',
+				],
+				'vastly'=>[
+					'vaftly',
 				],
 				'vastness'=>[
 					'vastnes',
@@ -813,6 +841,7 @@
 				],
 				'vehemently'=>[
 					'viamently',
+					'veliemently',
 				],
 				'vehicle'=>[
 					'vechicle',
@@ -1031,6 +1060,7 @@
 				],
 				'vent'=>[
 					'vant',
+					'veiit',
 				],
 				'venter'=>[
 					'vanter',
@@ -1228,6 +1258,7 @@
 				'vernacular'=>[
 					'venacular',
 					'vernaculer',
+					'vemacular',
 				],
 				'vernally'=>[
 					'vernallly',
@@ -1270,6 +1301,9 @@
 				'versatility'=>[
 					'versitility',
 				],
+				'verse'=>[
+					'verfe',
+				],
 				'versicular'=>[
 					'versiculer',
 				],
@@ -1277,6 +1311,9 @@
 					'verion',
 					'verison',
 					'versione',
+				],
+				'versus'=>[
+					'verfus',
 				],
 				'vertebra'=>[
 					'vertabra',
@@ -1328,10 +1365,15 @@
 				'vessel'=>[
 					'vesel',
 					'vesssel',
+					'vcssel',
 				],
 				'vessels'=>[
 					'vesels',
 					'vesssels',
+					'veffels',
+				],
+				'vested'=>[
+					'vefted',
 				],
 				'vestiary'=>[
 					'vestiery',
@@ -1489,6 +1531,9 @@
 				'vicereine'=>[
 					'viceriene',
 				],
+				'vices'=>[
+					'viccs',
+				],
 				'vichyssoise'=>[
 					'vichysoise',
 					'vichysssoise',
@@ -1548,6 +1593,7 @@
 				],
 				'victorious'=>[
 					'victorous',
+					'victorions',
 				],
 				'victoriously'=>[
 					'victorously',
@@ -1555,6 +1601,9 @@
 				'victoriousness'=>[
 					'victoriousnes',
 					'victoriousnesss',
+				],
+				'victory'=>[
+					'victorv',
 				],
 				'victrola'=>[
 					'victrolla',
@@ -1622,6 +1671,7 @@
 					'veiw',
 					'view view',
 					'view view view',
+					'vievv',
 				],
 				'viewable'=>[
 					'view-able',
@@ -1656,6 +1706,7 @@
 				],
 				'views'=>[
 					'veiws',
+					'yiews',
 				],
 				'viewy'=>[
 					'veiwy',
@@ -1995,10 +2046,12 @@
 				'violence'=>[
 					'violance',
 					'voilence',
+					'violenee',
 				],
 				'violent'=>[
 					'violant',
 					'voilent',
+					'violcnt',
 				],
 				'violently'=>[
 					'violentally',
@@ -2079,9 +2132,16 @@
 					'virtuallly',
 					'virtualy',
 				],
+				'virtue'=>[
+					'virtne',
+					'yirtue',
+				],
 				'virtueless'=>[
 					'virtueles',
 					'virtuelesss',
+				],
+				'virtues'=>[
+					'virtnes',
 				],
 				'virtuosa'=>[
 					'virtosa',
@@ -2112,6 +2172,8 @@
 				],
 				'virtuous'=>[
 					'virtous',
+					'virtnons',
+					'virtuons',
 				],
 				'virtuously'=>[
 					'virtously',
@@ -2223,12 +2285,16 @@
 				],
 				'visible'=>[
 					'visable',
+					'vifible',
+					'visihle',
+					'yisible',
 				],
 				'visibly'=>[
 					'visably',
 				],
 				'vision'=>[
 					'vison',
+					'vifion',
 				],
 				'visionariness'=>[
 					'visionarines',
@@ -2246,6 +2312,8 @@
 					'visit visit',
 					'visit visit visit',
 					'vist',
+					'vifit',
+					'visil',
 				],
 				'visitable'=>[
 					'visitible',
@@ -2258,9 +2326,11 @@
 				],
 				'visited'=>[
 					'visted',
+					'vifited',
 				],
 				'visiting'=>[
 					'visting',
+					'vifiting',
 				],
 				'visitor'=>[
 					'vistor',
@@ -2415,6 +2485,9 @@
 				'vocals'=>[
 					'volcals',
 				],
+				'vocation'=>[
+					'yocation',
+				],
 				'vocationally'=>[
 					'vocationallly',
 					'vocationaly',
@@ -2430,6 +2503,8 @@
 					'vioce',
 					'voice voice',
 					'voice voice voice',
+					'voicc',
+					'voioe',
 				],
 				'voicedness'=>[
 					'voicednes',
@@ -2537,9 +2612,18 @@
 					'volublenes',
 					'volublenesss',
 				],
+				'volume'=>[
+					'yolume',
+				],
+				'volumes'=>[
+					'volnmes',
+				],
 				'voluminousness'=>[
 					'voluminousnes',
 					'voluminousnesss',
+				],
+				'voluntarily'=>[
+					'voluntanly',
 				],
 				'voluntariness'=>[
 					'voluntarines',
@@ -2674,6 +2758,9 @@
 				'votively'=>[
 					'votivly',
 				],
+				'vouchsafe'=>[
+					'vouchfafe',
+				],
 				'voussoir'=>[
 					'vousoir',
 					'vousssoir',
@@ -2688,6 +2775,9 @@
 				],
 				'voxelated'=>[
 					'voxellated',
+				],
+				'voyage'=>[
+					'voyagc',
 				],
 				'voyageur'=>[
 					'voyager',

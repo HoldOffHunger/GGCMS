@@ -91,6 +91,7 @@
 				'labor'=>[
 					'1abor',
 					'1abour',
+					'lahor',
 				],
 				'laboratory'=>[
 					'labatory',
@@ -127,6 +128,9 @@
 					'lacolith',
 					'lacccolith',
 				],
+				'laced'=>[
+					'laeed',
+				],
 				'laciness'=>[
 					'lacines',
 					'lacinesss',
@@ -153,6 +157,9 @@
 				'lackadaisicalness'=>[
 					'lackadaisicalnes',
 					'lackadaisicalnesss',
+				],
+				'lacked'=>[
+					'lackecl',
 				],
 				'laconically'=>[
 					'laconicallly',
@@ -232,6 +239,7 @@
 				'lady'=>[
 					'lady lady',
 					'lady lady lady',
+					'lacly',
 				],
 				'lafayette'=>[
 					'lafayete',
@@ -305,6 +313,7 @@
 				],
 				'laid'=>[
 					'layed',
+					'laicl',
 				],
 				'laitance'=>[
 					'laitence',
@@ -567,6 +576,7 @@
 				],
 				'lance'=>[
 					'lence',
+					'lanoe',
 				],
 				'lancewood'=>[
 					'lancewod',
@@ -583,6 +593,7 @@
 					'lancl',
 					'land land',
 					'land land land',
+					'laiid',
 				],
 				'land-based'=>[
 					'land based',
@@ -634,6 +645,9 @@
 					'landmases',
 					'landmassses',
 				],
+				'lands'=>[
+					'lancls',
+				],
 				'landscape'=>[
 					'landcape',
 					'landcsape',
@@ -674,6 +688,9 @@
 					'language language language',
 					'lanugage',
 					'languge',
+					'langiiage',
+					'langnage',
+					'languagc',
 				],
 				'languages'=>[
 					'langauges',
@@ -813,6 +830,7 @@
 					'iarge',
 					'large large',
 					'large large large',
+					'largc',
 				],
 				'large-scale'=>[
 					'largescale',
@@ -910,6 +928,9 @@
 					'laserdics',
 					'laserdis',
 				],
+				'lashes'=>[
+					'lafhes',
+				],
 				'lass'=>[
 					'las',
 					'lasss',
@@ -964,6 +985,10 @@
 					'last last',
 					'last last last',
 					'lsat',
+					'laft',
+				],
+				'lasting'=>[
+					'lafting',
 				],
 				'lastingness'=>[
 					'lastingnes',
@@ -1026,6 +1051,7 @@
 				],
 				'later'=>[
 					'lated',
+					'latcr',
 				],
 				'later on'=>[
 					'alter on',
@@ -1081,12 +1107,15 @@
 				],
 				'latte'=>[
 					'lattte',
+					'lalte',
 				],
 				'latten'=>[
 					'lattten',
 				],
 				'latter'=>[
 					'lattter',
+					'lalter',
+					'lattcr',
 				],
 				'latterly'=>[
 					'lattterly',
@@ -1135,6 +1164,8 @@
 				'laugh'=>[
 					'laugh laugh',
 					'laugh laugh laugh',
+					'langh',
+					'laugli',
 				],
 				'laughable'=>[
 					'laughible',
@@ -1143,11 +1174,25 @@
 					'laughablenes',
 					'laughablenesss',
 				],
+				'laughed'=>[
+					'langhed',
+				],
+				'laughing'=>[
+					'langhing',
+					'laugliing',
+				],
+				'laughter'=>[
+					'langhtcr',
+					'laugliter',
+				],
 				'laulimalide'=>[
 					'laulilamide',
 				],
 				'launch'=>[
 					'lauch',
+				],
+				'launched'=>[
+					'launchecl',
 				],
 				'launches'=>[
 					'launchs',
@@ -1192,6 +1237,11 @@
 				'law'=>[
 					'law law',
 					'law law law',
+					'lavv',
+				],
+				'lawful'=>[
+					'lavvful',
+					'lawfiil',
 				],
 				'lawfully'=>[
 					'lawfullly',
@@ -1287,6 +1337,7 @@
 					'lead lead',
 					'lead lead lead',
 					'ledd',
+					'leacl',
 				],
 				'lead belly'=>[
 					'leadbelly',
@@ -1429,12 +1480,16 @@
 					'learn learn learn',
 					'leran',
 					'lern',
+					'learu',
 				],
 				'learned'=>[
 					# learnt: an accepted spelling, not a slip (AmericanBritishWords_L: learned)
 				#	'learnt',
 					'lerned',
 					'lernt',
+					'learncd',
+					'learnecl',
+					'learued',
 				],
 				'learnedness'=>[
 					'learnednes',
@@ -1446,12 +1501,14 @@
 				],
 				'learning'=>[
 					'lerning',
+					'iearning',
 				],
 				'learns'=>[
 					'lerans',
 				],
 				'learnt'=>[
 					'lernt',
+					'leamt',
 				],
 				'leary'=>[
 					'leery',
@@ -1478,9 +1535,12 @@
 					'least least',
 					'least least least',
 					'laest',
+					'ieast',
 				],
 				'leather'=>[
 					'lether',
+					'leatber',
+					'leatlier',
 				],
 				'leatherback'=>[
 					'letherback',
@@ -1511,6 +1571,7 @@
 					'leave leave',
 					'leave leave leave',
 					'leve',
+					'leavc',
 				],
 				'leavened'=>[
 					'leavend',
@@ -1518,6 +1579,9 @@
 				'leaves'=>[
 					'leafs',
 					'leves',
+				],
+				'leaving'=>[
+					'lcaving',
 				],
 				'lebanese-occupied'=>[
 					'lebanese occupied',
@@ -1762,6 +1826,9 @@
 					'ledgislator',
 					'legistlator',
 				],
+				'legislature'=>[
+					'legiflature',
+				],
 				'legitimacy'=>[
 					'legitimasy',
 					'legitimity',
@@ -1835,6 +1902,7 @@
 				'leisure'=>[
 					'leasure',
 					'liesure',
+					'leifure',
 				],
 				'leisured'=>[
 					'liesured',
@@ -1919,6 +1987,8 @@
 					'length length',
 					'length length length',
 					'lenth',
+					'lengtb',
+					'lengtli',
 				],
 				'lengthen'=>[
 					'lenghten',
@@ -1930,8 +2000,12 @@
 					'lengthines',
 					'lengthinesss',
 				],
+				'lengths'=>[
+					'lengtlis',
+				],
 				'lengthy'=>[
 					'lenghty',
+					'lengtliy',
 				],
 				'lenience'=>[
 					'leniance',
@@ -2017,6 +2091,7 @@
 				],
 				'leprosy'=>[
 					'leprocy',
+					'leprofy',
 				],
 				'leptokurtic'=>[
 					'leptocurtic',
@@ -2044,6 +2119,7 @@
 					'lesss',
 					'less less',
 					'less less less',
+					'lefs',
 				],
 				'less than'=>[
 					'less then',
@@ -2072,6 +2148,7 @@
 					'lessend',
 					'lesened',
 					'lesssened',
+					'leffened',
 				],
 				'lessening'=>[
 					'lesening',
@@ -2096,10 +2173,12 @@
 				'lesson'=>[
 					'leson',
 					'lessson',
+					'lcsson',
 				],
 				'lessons'=>[
 					'lesons',
 					'lesssons',
+					'lcssons',
 				],
 				'lessor'=>[
 					'lesor',
@@ -2258,6 +2337,8 @@
 					'level level',
 					'level level level',
 					'levle',
+					'levcl',
+					'leyel',
 				],
 					# levelled: an accepted spelling, not a slip (AmericanBritishWords_L: leveled)
 			#	'leveled'=>[
@@ -2406,6 +2487,10 @@
 				'libertinisms'=>[
 					'libertinasms',
 				],
+				'liberty'=>[
+					'hberty',
+					'libcrty',
+				],
 				'libidinally'=>[
 					'libidinilly',
 					'libidinallly',
@@ -2458,6 +2543,7 @@
 					'licensce',
 					'liscence',
 					'liscense',
+					'licenfe',
 				],
 				'licensee'=>[
 					'licenseee',
@@ -2474,6 +2560,7 @@
 				'licentiousness'=>[
 					'licentiousnes',
 					'licentiousnesss',
+					'licentioufnefs',
 				],
 				'lichee'=>[
 					'liche',
@@ -2593,6 +2680,9 @@
 					'lift lift',
 					'lift lift lift',
 				],
+				'lifted'=>[
+					'lifled',
+				],
 				'liftoff'=>[
 					'liftof',
 					'liftofff',
@@ -2609,12 +2699,17 @@
 					'light light',
 					'light light light',
 					'lite',
+					'hght',
+					'liglit',
 				],
 				'light-year'=>[
 					'lightyear',
 				],
 				'light-years'=>[
 					'lightyears',
+				],
+				'lighted'=>[
+					'liglited',
 				],
 				'lightened'=>[
 					'lightend',
@@ -2646,6 +2741,8 @@
 					'lightaly',
 					'lightely',
 					'lightlly',
+					'ligbtly',
+					'liglitly',
 				],
 				'lightness'=>[
 					'lightnes',
@@ -2653,10 +2750,14 @@
 				],
 				'lightning'=>[
 					'lightening',
+					'liglitning',
 				],
 				'lightproof'=>[
 					'lightprof',
 					'lightprooof',
+				],
+				'lights'=>[
+					'liglits',
 				],
 				'lightsomely'=>[
 					'lightsomly',
@@ -2729,6 +2830,8 @@
 					'likelly',
 					'likley',
 					'likly',
+					'hkely',
+					'likcly',
 				],
 				'likened'=>[
 					'likend',
@@ -2740,6 +2843,10 @@
 				'likenesses'=>[
 					'likeneses',
 					'likenessses',
+				],
+				'likewise'=>[
+					'hkewise',
+					'likewife',
 				],
 				'likker'=>[
 					'likkker',
@@ -2789,6 +2896,9 @@
 				'limited'=>[
 					'limitated',
 					'limted',
+					'hmited',
+					'limitcd',
+					'lirnited',
 				],
 				'limitless'=>[
 					'limitles',
@@ -2806,8 +2916,14 @@
 					'limitlessnesss',
 					'limitlesssness',
 				],
+				'limits'=>[
+					'hmits',
+				],
 				'limmer'=>[
 					'limner',
+				],
+				'limo'=>[
+					'linio',
 				],
 				'limousine'=>[
 					'limouisne',
@@ -2865,6 +2981,7 @@
 				'line'=>[
 					'line line',
 					'line line line',
+					'liiie',
 				],
 				'lineage'=>[
 					'linege',
@@ -2896,6 +3013,7 @@
 				],
 				'lined'=>[
 					'linid',
+					'linecl',
 				],
 				'linefeed'=>[
 					'linefed',
@@ -2919,6 +3037,7 @@
 				],
 				'lines'=>[
 					'linis',
+					'iines',
 				],
 				'linesman'=>[
 					'linisman',
@@ -3014,6 +3133,10 @@
 				],
 				'lintelled'=>[
 					'lintellled',
+				],
+				'lion'=>[
+					'lioii',
+					'liori',
 				],
 				'lioness'=>[
 					'liones',
@@ -3213,6 +3336,7 @@
 				'listen'=>[
 					'listen listen',
 					'listen listen listen',
+					'hsten',
 				],
 				'listenable'=>[
 					'listenible',
@@ -3236,6 +3360,9 @@
 				],
 				'litany'=>[
 					'littany',
+				],
+				'liter'=>[
+					'iiter',
 				],
 				'literacy'=>[
 					'literasy',
@@ -3269,6 +3396,7 @@
 				],
 				'literary'=>[
 					'literery',
+					'hterary',
 				],
 				'literately'=>[
 					'literatly',
@@ -3278,6 +3406,7 @@
 					'literture',
 					'litterature',
 					'liturature',
+					'literatnre',
 				],
 				'lithely'=>[
 					'lithly',
@@ -3358,6 +3487,10 @@
 					'little little',
 					'little little little',
 					'litttle',
+					'httle',
+					'iittle',
+					'liltle',
+					'littlc',
 				],
 				'littleneck'=>[
 					'litleneck',
@@ -3419,6 +3552,9 @@
 				],
 				'lived'=>[
 					'liued',
+					'hved',
+					'livcd',
+					'livecl',
 				],
 				'livelihood'=>[
 					'livelyhood',
@@ -3475,6 +3611,8 @@
 				],
 				'living'=>[
 					'livmg',
+					'hving',
+					'liviiig',
 				],
 				'lixiviation'=>[
 					'lixivation',
@@ -3496,6 +3634,9 @@
 				'llanos'=>[
 					'lanos',
 					'lllanos',
+				],
+				'load'=>[
+					'loacl',
 				],
 				'loadstar'=>[
 					'loadster',
@@ -3896,9 +4037,17 @@
 					'iong',
 					'long long',
 					'long long long',
+					'loiig',
 				],
 				'longeing'=>[
 					'longieng',
+				],
+				'longer'=>[
+					'loiiger',
+					'longcr',
+				],
+				'longest'=>[
+					'longeft',
 				],
 				'longevous'=>[
 					'longevious',
@@ -3908,6 +4057,7 @@
 				],
 				'longing'=>[
 					'ionging',
+					'loiigiiig',
 				],
 				'longings'=>[
 					'iongings',
@@ -3968,6 +4118,7 @@
 				],
 				'looked'=>[
 					'loooked',
+					'lookecl',
 				],
 				'looker'=>[
 					'loooker',
@@ -3978,6 +4129,8 @@
 				'looking'=>[
 					'loking',
 					'loooking',
+					'lookiiig',
+					'lookiug',
 				],
 				'lookout'=>[
 					'lokout',
@@ -4077,6 +4230,8 @@
 				],
 				'loose'=>[
 					'looose',
+					'loofe',
+					'loosc',
 				],
 				'loosed'=>[
 					'looosed',
@@ -4213,6 +4368,9 @@
 			#	'lorry'=>[
 			#		'lory',
 			#	],
+				'lordship'=>[
+					'lordsliip',
+				],
 				'lorgnette'=>[
 					'lorgnete',
 					'lorgnettte',
@@ -4237,6 +4395,7 @@
 				],
 				'lorry'=>[
 					'lorrry',
+					'iorry',
 				],
 				'los angeles'=>[
 					'los angles',
@@ -4250,6 +4409,7 @@
 				'losing'=>[
 					'loosing',
 					'loseing',
+					'iosing',
 				],
 				'loss'=>[
 					'losss',
@@ -4295,6 +4455,7 @@
 				'loud'=>[
 					'loud loud',
 					'loud loud loud',
+					'loucl',
 				],
 				'loudened'=>[
 					'loudend',
@@ -4320,6 +4481,9 @@
 				'loungewear'=>[
 					'loungeweer',
 					'loungewer',
+				],
+				'louse'=>[
+					'loufe',
 				],
 				'lousiest'=>[
 					'louisest',
@@ -4429,6 +4593,12 @@
 					'lowerclasman',
 					'lowerclasssman',
 				],
+				'lowering'=>[
+					'lowenng',
+				],
+				'lowers'=>[
+					'iowers',
+				],
 				'lowliness'=>[
 					'lowlinesss',
 				],
@@ -4512,6 +4682,9 @@
 				],
 				'lucifugous'=>[
 					'lucifugus',
+				],
+				'lucked'=>[
+					'luoked',
 				],
 				'luckily'=>[
 					'luckially',
@@ -4654,6 +4827,9 @@
 				'luminaria'=>[
 					'luminiria',
 				],
+				'luminaries'=>[
+					'luminanes',
+				],
 				'luminary'=>[
 					'luminery',
 					'luminiry',
@@ -4752,6 +4928,9 @@
 					'lunetes',
 					'lunetttes',
 				],
+				'lung'=>[
+					'liing',
+				],
 				'lunisolar'=>[
 					'lunisoler',
 				],
@@ -4787,6 +4966,9 @@
 				'lushness'=>[
 					'lushnes',
 					'lushnesss',
+				],
+				'lust'=>[
+					'liist',
 				],
 				'lusterless'=>[
 					'lusterles',

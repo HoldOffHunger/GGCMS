@@ -128,6 +128,7 @@
 				],
 				'ultimate'=>[
 					'ulitmate',
+					'nltimate',
 				],
 				'ultimately'=>[
 					'ultimatley',
@@ -287,6 +288,8 @@
 				],
 				'unable'=>[
 					'unible',
+					'nnable',
+					'unahle',
 				],
 				'unabusive'=>[
 					'unabuisve',
@@ -876,6 +879,9 @@
 					'unbeleiver',
 					'unbeliver',
 				],
+				'unbelievers'=>[
+					'unbehevers',
+				],
 				'unbelieving'=>[
 					'unbeleiving',
 					'unbeliving',
@@ -1165,6 +1171,9 @@
 				],
 				'unclassy'=>[
 					'unclascy',
+				],
+				'uncle'=>[
+					'nncle',
 				],
 				'uncleanliness'=>[
 					'uncleanlines',
@@ -1605,6 +1614,11 @@
 					'nder',
 					'under under',
 					'under under under',
+					'iinder',
+					'nnder',
+					'uiider',
+					'undcr',
+					'uuder',
 				],
 				'under its'=>[
 					'under it\'s',
@@ -1879,9 +1893,19 @@
 				],
 				'understand'=>[
 					'undertand',
+					'nnderstand',
+					'underfland',
+					'underftand',
+					'understaiid',
+					'understancl',
 				],
 				'understandable'=>[
 					'understandible',
+				],
+				'understanding'=>[
+					'nnderstanding',
+					'underflanding',
+					'underftanding',
 				],
 				'understandingly'=>[
 					'understandingally',
@@ -1889,12 +1913,19 @@
 					'understandingely',
 					'understandinglly',
 				],
+				'understands'=>[
+					'nnderstands',
+				],
 				'understatement'=>[
 					'understatemant',
 				],
 				'understood'=>[
 					'understod',
 					'understoood',
+					'iinderstood',
+					'nndcrstood',
+					'nnderstood',
+					'underftood',
 				],
 				'understrapper'=>[
 					'understraper',
@@ -1912,6 +1943,12 @@
 					'undersuppaly',
 					'undersuppely',
 					'undersupplly',
+				],
+				'undertaken'=>[
+					'nndertaken',
+				],
+				'undertaking'=>[
+					'nndertaking',
 				],
 				'undertenant'=>[
 					'undertenent',
@@ -2064,6 +2101,9 @@
 				'undocumented'=>[
 					'undocumanted',
 				],
+				'undone'=>[
+					'nndone',
+				],
 				'undoubtable'=>[
 					'undoubtible',
 				],
@@ -2132,6 +2172,7 @@
 					'uneaseness',
 					'uneasines',
 					'uneasinesss',
+					'uneafinefs',
 				],
 				'uneasy'=>[
 					'uneacy',
@@ -2331,6 +2372,9 @@
 					'unfairnes',
 					'unfairnesss',
 				],
+				'unfaithful'=>[
+					'unfaitliful',
+				],
 				'unfaithfully'=>[
 					'unfaithfullly',
 					'unfaithfuly',
@@ -2409,6 +2453,9 @@
 				'unfinished'=>[
 					'unfinnished',
 					'unfinashed',
+				],
+				'unfit'=>[
+					'nnfit',
 				],
 				'unfitness'=>[
 					'unfitnes',
@@ -2499,6 +2546,9 @@
 				'unfortified'=>[
 					'unfortifeid',
 					'unfortifid',
+				],
+				'unfortunate'=>[
+					'nnfortnnate',
 				],
 				'unfortunately'=>[
 					'unforetunately',
@@ -2642,6 +2692,9 @@
 				'ungraspable'=>[
 					'ungraspible',
 				],
+				'ungrateful'=>[
+					'nngrateful',
+				],
 				'ungratefully'=>[
 					'ungratefullly',
 					'ungratefuly',
@@ -2695,6 +2748,7 @@
 				'unhappily'=>[
 					'unhapily',
 					'unhapppily',
+					'unliappily',
 				],
 				'unhappiness'=>[
 					'unhappines',
@@ -2708,6 +2762,8 @@
 				'unhappy'=>[
 					'unhapy',
 					'unhapppy',
+					'unbappy',
+					'unliappy',
 				],
 				'unharness'=>[
 					'unharnes',
@@ -2775,6 +2831,8 @@
 					'unhoaly',
 					'unhoely',
 					'unholly',
+					'nnlioly',
+					'unlioly',
 				],
 					# unhonoured: an accepted spelling, not a slip (AmericanBritishWords_U: unhonored)
 			#	'unhonored'=>[
@@ -2853,6 +2911,7 @@
 				],
 				'uniform'=>[
 					'unifrom',
+					'nniform',
 				],
 				'uniformitarian'=>[
 					'uniformitaran',
@@ -2870,6 +2929,9 @@
 				'uniformnesses'=>[
 					'uniformneses',
 					'uniformnessses',
+				],
+				'unify'=>[
+					'nnify',
 				],
 				'unignorable'=>[
 					'unignourable',
@@ -3056,6 +3118,8 @@
 				],
 				'union'=>[
 					'un1on',
+					'iinion',
+					'nnion',
 				],
 				'unions'=>[
 					'un1ons',
@@ -3093,6 +3157,7 @@
 					'unit unit',
 					'unit unit unit',
 					'unti',
+					'iinit',
 				],
 				'unitarian'=>[
 					'unitaran',
@@ -3100,10 +3165,14 @@
 				'unitary'=>[
 					'unitery',
 				],
+				'unite'=>[
+					'nnite',
+				],
 				'united'=>[
 					'unitd',
 					'unitesd',
 					'untied',
+					'nnited',
 				],
 				'united kingdom'=>[
 					'united kingdon',
@@ -3116,12 +3185,19 @@
 					'unites states',
 					'untied states',
 				],
+				'unity'=>[
+					'nnity',
+				],
 				'univariate'=>[
 					'unvariate',
+				],
+				'universal'=>[
+					'univerfal',
 				],
 				'universally'=>[
 					'universaly',
 					'universallly',
+					'univerfally',
 				],
 				'universities'=>[
 					'univerisities',
@@ -3151,6 +3227,10 @@
 				'unjamming'=>[
 					'unjammming',
 				],
+				'unjust'=>[
+					'nnjust',
+					'unjuft',
+				],
 				'unjustifiable'=>[
 					'unjustifiible',
 				],
@@ -3163,6 +3243,7 @@
 					'unjustaly',
 					'unjustely',
 					'unjustlly',
+					'unjuftly',
 				],
 				'unjustness'=>[
 					'unjustnes',
@@ -3242,9 +3323,14 @@
 				'unknown'=>[
 					'unknow',
 					'unkown',
+					'nnknown',
+					'unknowu',
 				],
 				'unknowns'=>[
 					'unkowns',
+				],
+				'unlawful'=>[
+					'unlawfiil',
 				],
 				'unlawfully'=>[
 					'unlawfullly',
@@ -3266,6 +3352,10 @@
 				'unless'=>[
 					'unles',
 					'unlesss',
+					'iinless',
+					'nnless',
+					'unlcss',
+					'unlefs',
 				],
 				'unlethal'=>[
 					'unletal',
@@ -3276,6 +3366,8 @@
 				],
 				'unlike'=>[
 					'ulike',
+					'nnlike',
+					'unlikc',
 				],
 				'unlikelihood'=>[
 					'unlikelihod',
@@ -4117,6 +4209,7 @@
 					'unnecessery',
 					'unnecesssary',
 					'unnnecessary',
+					'unneceffary',
 				],
 				'unneeded'=>[
 					'uneeded',
@@ -4373,12 +4466,16 @@
 				'unpleasant'=>[
 					'unplesant',
 					'unpleasent',
+					'unpleafant',
 				],
 				'unpleasantness'=>[
 					'unpleasantnes',
 					'unpleasentness',
 					'unplesantness',
 					'unpleasantnesss',
+				],
+				'unpleasing'=>[
+					'unpleafing',
 				],
 				'unpledged'=>[
 					'unpleged',
@@ -4415,6 +4512,7 @@
 				],
 				'unpredictable'=>[
 					'unpredictible',
+					'unpreclictable',
 				],
 				'unprepared'=>[
 					'unprepered',
@@ -4582,6 +4680,7 @@
 				],
 				'unreal'=>[
 					'unrel',
+					'nnreal',
 				],
 				'unrealistic'=>[
 					'unrelistic',
@@ -4604,6 +4703,7 @@
 					'unreasonible',
 					'unresonable',
 					'unreasonnable',
+					'unreafonable',
 				],
 				'unreasonableness'=>[
 					'unreasonablenes',
@@ -4842,6 +4942,7 @@
 					'unrualy',
 					'unruely',
 					'unrully',
+					'nnruly',
 				],
 				'unsaddle'=>[
 					'unsadddle',
@@ -4912,6 +5013,7 @@
 					'uncathed',
 					'uncsathed',
 					'unsathed',
+					'unscatlied',
 				],
 				'unscented'=>[
 					'uncented',
@@ -5007,6 +5109,7 @@
 				'unseasonable'=>[
 					'unseasonible',
 					'unsesonable',
+					'unfeafonable',
 				],
 				'unseasonably'=>[
 					'unseasonabally',
@@ -5060,10 +5163,12 @@
 					'unseemlly',
 					'unseeemly',
 					'unsemly',
+					'unfeemly',
 				],
 				'unseen'=>[
 					'unseeen',
 					'unsen',
+					'nnseen',
 				],
 				'unselectively'=>[
 					'unselectivly',
@@ -5228,6 +5333,7 @@
 				'unspeakable'=>[
 					'unspeakible',
 					'unspekable',
+					'unfpeakable',
 				],
 				'unspecifiable'=>[
 					'unspecifiible',
@@ -5496,6 +5602,11 @@
 					'until until until',
 					'untill',
 					'uptill',
+					'iintil',
+					'nntil',
+					'uncil',
+					'unlil',
+					'uutil',
 				],
 				'untilled'=>[
 					'untillled',
@@ -5510,6 +5621,10 @@
 					'untimeely',
 					'untimelly',
 					'untimly',
+				],
+				'unto'=>[
+					'iinto',
+					'uiito',
 				],
 				'untouchable'=>[
 					'untouchible',
@@ -5579,11 +5694,13 @@
 				'unusual'=>[
 					'unsual',
 					'unusaul',
+					'unnsual',
 				],
 				'unusually'=>[
 					'unusally',
 					'unusualy',
 					'unusuallly',
+					'unufually',
 				],
 				'unutterable'=>[
 					'unutterible',
@@ -5665,6 +5782,9 @@
 				'unwhipped'=>[
 					'unwhiped',
 				],
+				'unwholesome'=>[
+					'unwholefome',
+				],
 				'unwholesomely'=>[
 					'unwholesomly',
 				],
@@ -5692,6 +5812,8 @@
 				'unwilling'=>[
 					'unwiling',
 					'unwillling',
+					'nnwilling',
+					'unwilhng',
 				],
 				'unwillingly'=>[
 					'unwilingly',
@@ -5764,6 +5886,9 @@
 				'unworthiness'=>[
 					'unworthines',
 					'unworthinesss',
+				],
+				'unworthy'=>[
+					'unwortliy',
 				],
 				'unwrapped'=>[
 					'unwrappped',
@@ -5841,6 +5966,8 @@
 				'upon'=>[
 					'apon',
 					'opon',
+					'iipon',
+					'upoii',
 				],
 				'upon, apron'=>[
 					'apon',
@@ -5852,6 +5979,8 @@
 				'upper'=>[
 					'uppper',
 					'uper',
+					'npper',
+					'uppcr',
 				],
 				'uppercase'=>[
 					'upercase',
@@ -5934,6 +6063,10 @@
 				'uprear'=>[
 					'upreer',
 				],
+				'upright'=>[
+					'npright',
+					'uprigbt',
+				],
 				'uprightness'=>[
 					'uprightnes',
 					'uprightnesss',
@@ -5995,6 +6128,9 @@
 				],
 				'upsoar'=>[
 					'upsoer',
+				],
+				'upstart'=>[
+					'upftart',
 				],
 				'upstream'=>[
 					'upstrem',
@@ -6070,6 +6206,9 @@
 					'urethrocope',
 					'urethrocsope',
 					'urethrosope',
+				],
+				'urged'=>[
+					'nrged',
 				],
 				'urgency'=>[
 					'urgensy',
@@ -6167,6 +6306,7 @@
 				],
 				'usage'=>[
 					'useage',
+					'ufage',
 				],
 				'usages'=>[
 					'useages',
@@ -6178,15 +6318,24 @@
 					'uise',
 					'use use',
 					'use use use',
+					'iise',
 				],
 				'useable'=>[
 					'useible',
 				],
 				'used'=>[
 					'unsed',
+					'iised',
+					'ufed',
+					'usecl',
 				],
 				'useful'=>[
 					'usefull',
+					'nseful',
+					'ufeful',
+					'uscful',
+					'usefiil',
+					'usefnl',
 				],
 				'usefully'=>[
 					'usefuly',
@@ -6201,6 +6350,7 @@
 					'useles',
 					'usless',
 					'uselesss',
+					'ufelefs',
 				],
 				'uselessly'=>[
 					'uselesly',
@@ -6225,6 +6375,7 @@
 				],
 				'using'=>[
 					'useing',
+					'ufing',
 				],
 				'usual'=>[
 					'usual usual',
@@ -6232,6 +6383,9 @@
 					'usuall',
 					'ususal',
 					'usaul',
+					'ufual',
+					'usiial',
+					'usnal',
 				],
 				'usually'=>[
 					'usally',
@@ -6240,6 +6394,10 @@
 					'usully',
 					'ususally',
 					'usuallly',
+					'nsnally',
+					'ufually',
+					'usnally',
+					'usuallv',
 				],
 				'usualness'=>[
 					'usualnes',
@@ -6270,6 +6428,9 @@
 					'usurpate',
 					'upsurp',
 				],
+				'utensils'=>[
+					'utenfils',
+				],
 				'uterine'=>[
 					'uterini',
 				],
@@ -6285,12 +6446,19 @@
 				'utilities'=>[
 					'utilites',
 				],
+				'utility'=>[
+					'utihty',
+				],
 				'utilize'=>[
 					'utalize',
 				],
 				'utilized'=>[
 					'utilisied',
 					'utilizied',
+				],
+				'utmost'=>[
+					'utinost',
+					'utmoft',
 				],
 				'utopian'=>[
 					'utopan',
@@ -6300,6 +6468,7 @@
 				],
 				'utter'=>[
 					'uttter',
+					'ntter',
 				],
 				'utterable'=>[
 					'uterable',
@@ -6317,6 +6486,7 @@
 				'uttered'=>[
 					'utered',
 					'utttered',
+					'ullered',
 				],
 				'utterer'=>[
 					'uterer',
@@ -6333,6 +6503,8 @@
 					'utterlly',
 					'uterly',
 					'uttterly',
+					'ntterly',
+					'utteriy',
 				],
 				'uttermost'=>[
 					'utermost',

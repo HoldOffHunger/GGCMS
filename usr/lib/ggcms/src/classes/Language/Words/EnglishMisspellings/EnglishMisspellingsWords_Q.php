@@ -402,6 +402,7 @@
 				],
 				'quaint'=>[
 					'qauint',
+					'qnaint',
 				],
 				'quaintly'=>[
 					'quaintally',
@@ -479,9 +480,12 @@
 				],
 				'qualities'=>[
 					'qualites',
+					'qnalities',
 				],
 				'quality'=>[
 					'qaulity',
+					'qnality',
+					'quahty',
 				],
 				'qualm'=>[
 					'qaulm',
@@ -585,6 +589,7 @@
 					'quanity',
 					'quantaty',
 					'quentity',
+					'qnantity',
 				],
 				'quantization'=>[
 					'qauntization',
@@ -627,6 +632,7 @@
 					'quarel',
 					'quarell',
 					'quarrrel',
+					'qnarrel',
 				],
 				'quarreled'=>[
 					'quareled',
@@ -732,6 +738,7 @@
 				'quarter'=>[
 					'qaurter',
 					'quater',
+					'qnarter',
 				],
 				'quarter '=>[
 					'quater',
@@ -787,6 +794,11 @@
 				],
 				'quartern'=>[
 					'qaurtern',
+				],
+				'quarters'=>[
+					'qnartcrs',
+					'qnarters',
+					'quarlers',
 				],
 				'quartersawn'=>[
 					'qaurtersawn',
@@ -1103,6 +1115,11 @@
 					'question question',
 					'question question question',
 					'questtion',
+					'qnestion',
+					'qucftion',
+					'queftion',
+					'queslion',
+					'questiou',
 				],
 				'questionable'=>[
 					'questionible',
@@ -1118,6 +1135,7 @@
 				],
 				'questioned'=>[
 					'questionned',
+					'qnestioned',
 				],
 				'questionless'=>[
 					'questionles',
@@ -1130,6 +1148,11 @@
 				'questionnaires'=>[
 					'questionaires',
 					'questionnnaires',
+				],
+				'questions'=>[
+					'qnestions',
+					'queftions',
+					'questious',
 				],
 				'quibble'=>[
 					'quible',
@@ -1158,6 +1181,7 @@
 				'quick'=>[
 					'quick quick',
 					'quick quick quick',
+					'qnick',
 				],
 				'quickened'=>[
 					'quickend',
@@ -1171,6 +1195,7 @@
 					'quicky',
 					'quikly',
 					'quickley',
+					'qnickly',
 				],
 				'quickness'=>[
 					'quicknes',
@@ -1196,6 +1221,8 @@
 					'quiet quiet',
 					'quiet quiet quiet',
 					'quitt',
+					'qniet',
+					'quict',
 				],
 				'quietened'=>[
 					'quietend',
@@ -1206,6 +1233,8 @@
 				],
 				'quietly'=>[
 					'quitely',
+					'qnietly',
+					'quictly',
 				],
 				'quietness'=>[
 					'quietnes',
@@ -1406,6 +1435,9 @@
 					'quite quite quite',
 					'qutie',
 					'guite',
+					'qiiite',
+					'qnite',
+					'quitc',
 				],
 				'quittance'=>[
 					'quittence',

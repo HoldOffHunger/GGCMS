@@ -19,6 +19,16 @@ live installation rather than estimated.
   letters, and slips with two possible corrections (weding: wedding or
   weeding) stayed out. The list now loads at a 52 MB peak, up from 40 MB.
 
+- It also gained 6,488 scanner misreadings that the AI Workers found recurring
+  across badly scanned Internet Archive books: li for h (tliat, witli), the
+  long s read as f (poffibly, thoufand), rn for m (altemative), and single
+  look-alike letters (papcr, duriug). That is 6,488 of 9,586 candidates. Most
+  of the rest were too short to trust, or pieces of longer words split at a
+  line break (tation, ition). Others were corrections that landed on a rare
+  word (uther for "other") or had two plausible readings (caii: can or call).
+  In a sample of 300, about 98% were right. The misses were real misreadings
+  with the wrong correction (leained gets teamed, not learned).
+
 - RevoltLib's AI Workers spellcheck finished (task 2): 18,564 typos judged in
   7,173 texts. The 9,575 the two models agreed on and the dictionary backed
   were each read in their sentence. 2,099 were rejected, and they were rarely

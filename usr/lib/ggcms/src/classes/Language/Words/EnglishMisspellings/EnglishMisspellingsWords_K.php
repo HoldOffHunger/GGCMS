@@ -431,6 +431,7 @@
 				],
 				'keeping'=>[
 					'keeeping',
+					'keepiug',
 				],
 				'keeps'=>[
 					'keeeps',
@@ -847,6 +848,9 @@
 				'kidnappings'=>[
 					'kidnapppings',
 				],
+				'kids'=>[
+					'kicls',
+				],
 				'kief'=>[
 					'keif',
 				],
@@ -879,6 +883,8 @@
 				'killed'=>[
 					'kiled',
 					'killled',
+					'killcd',
+					'killecl',
 				],
 				'killer'=>[
 					'kiler',
@@ -1010,15 +1016,20 @@
 					'kindaly',
 					'kindely',
 					'kindlly',
+					'kiiidly',
 				],
 				'kindness'=>[
 					'kindenss',
 					'kindnes',
 					'kindnesss',
+					'kindnefs',
 				],
 				'kindnesses'=>[
 					'kindneses',
 					'kindnessses',
+				],
+				'kinds'=>[
+					'kincls',
 				],
 				'kinematically'=>[
 					'kinematicallly',
@@ -1080,9 +1091,11 @@
 				'king'=>[
 					'king king',
 					'king king king',
+					'kiiig',
 				],
 				'kingdom'=>[
 					'kingdon',
+					'kingdoin',
 				],
 				'kinghood'=>[
 					'kinghod',
@@ -1101,6 +1114,9 @@
 					'kingaly',
 					'kingely',
 					'kinglly',
+				],
+				'kings'=>[
+					'kiiigs',
 				],
 				'kingwood'=>[
 					'kingwod',
@@ -1130,6 +1146,9 @@
 				],
 				'kinnikinnicks'=>[
 					'kinnikinicks',
+				],
+				'kinsmen'=>[
+					'kinfmen',
 				],
 				'kipped'=>[
 					'kippped',
@@ -1197,6 +1216,9 @@
 				'kissy'=>[
 					'kiscy',
 					'kisy',
+				],
+				'kitchen'=>[
+					'kitclien',
 				],
 				'kitchenette'=>[
 					'kitchenete',
@@ -1294,6 +1316,9 @@
 				'knapping'=>[
 					'knappping',
 				],
+				'knapsacks'=>[
+					'knapfacks',
+				],
 				'knapweed'=>[
 					'knapwed',
 					'knapweeed',
@@ -1390,6 +1415,7 @@
 					'knew knew',
 					'knew knew knew',
 					'knowed',
+					'kiiew',
 				],
 				'knickknack'=>[
 					'knickkknack',
@@ -1691,6 +1717,10 @@
 					'nkow',
 					'nkwo',
 					'kow',
+					'kiiow',
+					'knoiv',
+					'knovv',
+					'kriow',
 				],
 				'knowable'=>[
 					'kowable',
@@ -1728,6 +1758,14 @@
 					'knowlege',
 					'knowlege ',
 					'kowledge',
+					'knovvledge',
+					'knowiedge',
+					'knowlcclge',
+					'knowlcdgc',
+					'knowlcdge',
+					'knowleclge',
+					'knowledgc',
+					'kuowledge',
 				],
 				'knowledgeable'=>[
 					'knowlegeable',
@@ -1751,6 +1789,10 @@
 					'knowed',
 					'konwn',
 					'kown',
+					'knoivn',
+					'knovvn',
+					'knowii',
+					'knowu',
 				],
 				'knowns'=>[
 					'kowns',
@@ -1760,6 +1802,7 @@
 					'knwos',
 					'konws',
 					'kows',
+					'kuows',
 				],
 				'knubbiest'=>[
 					'knubiest',

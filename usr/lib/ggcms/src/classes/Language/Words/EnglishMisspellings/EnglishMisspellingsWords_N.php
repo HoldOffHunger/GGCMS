@@ -149,6 +149,13 @@
 				'name'=>[
 					'name name',
 					'name name name',
+					'naiiie',
+					'naine',
+					'narne',
+				],
+				'named'=>[
+					'nained',
+					'nanied',
 				],
 				'namedropping'=>[
 					'namedroppping',
@@ -179,6 +186,12 @@
 					'nameely',
 					'namelly',
 					'namly',
+					'nainely',
+					'naniely',
+				],
+				'names'=>[
+					'namcs',
+					'narnes',
 				],
 				'namibia'=>[
 					'nambia',
@@ -537,6 +550,10 @@
 					'nationhod',
 					'nationhoood',
 				],
+				'nations'=>[
+					'iiations',
+					'natious',
+				],
 				'nationwide'=>[
 					'naitonwide',
 					'nationnwide',
@@ -597,6 +614,7 @@
 					'natural natural',
 					'natural natural natural',
 					'naturual',
+					'natnral',
 				],
 				'naturalistically'=>[
 					'naturalisticallly',
@@ -611,6 +629,7 @@
 					'naturaly',
 					'naturely',
 					'naturually',
+					'natnrally',
 				],
 				'naturalness'=>[
 					'naturalnes',
@@ -619,6 +638,10 @@
 				'nature'=>[
 					'nature nature',
 					'nature nature nature',
+					'natiire',
+					'natnre',
+					'naturc',
+					'uature',
 				],
 				'naugahyde'=>[
 					'naugayde',
@@ -692,11 +715,15 @@
 					# neer: an accepted spelling, not a slip (AmericanBritishWords_N: neer)
 				#	'neer',
 					'ner',
+					'iiear',
 				],
 				'nearby'=>[
 					'near by',
 					'nearbye',
 					'nerby',
+				],
+				'nearest'=>[
+					'neareft',
 				],
 				'nearly'=>[
 					'mearly',
@@ -707,6 +734,10 @@
 					'nearlly',
 					'nenrly',
 					'nerly',
+					'ncarly',
+					'neariy',
+					'nearlv',
+					'uearly',
 				],
 				'nearness'=>[
 					'nearnes',
@@ -761,6 +792,7 @@
 				'necessaries'=>[
 					'necesaries',
 					'necesssaries',
+					'neceffaries',
 				],
 				'necessarily'=>[
 					'neccesarily',
@@ -772,6 +804,9 @@
 					'necessarilly',
 					'nessasarily',
 					'necesssarily',
+					'nccessarily',
+					'neceffarily',
+					'necessarilv',
 				],
 				'necessaritarian'=>[
 					'necesaritarian',
@@ -795,6 +830,9 @@
 					'nessecary',
 					'necessarry',
 					'necssary',
+					'neceffary',
+					'necessarv',
+					'uecessary',
 				],
 				'necessitarian'=>[
 					'necessitaran',
@@ -845,6 +883,8 @@
 					'necessaty',
 					'nesessity',
 					'necesssity',
+					'neceffity',
+					'uecessity',
 				],
 				'neck'=>[
 					'neck neck',
@@ -898,6 +938,7 @@
 					'need need',
 					'need need need',
 					'neeed',
+					'neecl',
 				],
 				'need friends'=>[
 					'kneed friends',
@@ -977,6 +1018,7 @@
 					'needlesss',
 					'nedless',
 					'neeedless',
+					'needlefs',
 				],
 				'needlessly'=>[
 					'needlesssly',
@@ -1010,6 +1052,7 @@
 				'needs'=>[
 					'need\'s',
 					'neeeds',
+					'neecls',
 				],
 				'needy'=>[
 					'neeedy',
@@ -1045,6 +1088,9 @@
 				],
 				'negativity'=>[
 					'negitivity',
+				],
+				'neglected'=>[
+					'negletted',
 				],
 				'neglectfully'=>[
 					'neglectfullly',
@@ -1118,6 +1164,9 @@
 					'nieghborhood',
 					'neighborhod',
 					'neighborhoood',
+					'neighborliood',
+					'neigliborhood',
+					'neigliborliood',
 				],
 				'neighborhoods'=>[
 					'nieghborhoods',
@@ -1144,6 +1193,7 @@
 				'neighbors'=>[
 					'neigbors',
 					'neigbours',
+					'neiglibors',
 				],
 				'neighbour'=>[
 					'nieghbour',
@@ -1156,6 +1206,16 @@
 				],
 				'neither'=>[
 					'niether',
+					'iieitlier',
+					'ncithcr',
+					'ncither',
+					'ncitlier',
+					'neillier',
+					'neitber',
+					'neithcr',
+					'neitlicr',
+					'neitlier',
+					'ueitlier',
 				],
 				'nektobenthic'=>[
 					'nectobenthic',
@@ -1250,6 +1310,7 @@
 				],
 				'nephew'=>[
 					'newphew',
+					'nepliew',
 				],
 				'nephrectomy'=>[
 					'nefrectomy',
@@ -1498,6 +1559,9 @@
 				'never'=>[
 					'never never',
 					'never never never',
+					'ncver',
+					'nevcr',
+					'uever',
 				],
 				'nevermore'=>[
 					'nevermoure',
@@ -1507,6 +1571,9 @@
 					'neveretheless',
 					'nevertheles',
 					'neverthelesss',
+					'nevertbeless',
+					'neverthelefs',
+					'nevertlieless',
 				],
 				'nevirapine'=>[
 					'niverapine',
@@ -1516,6 +1583,9 @@
 					'new new new',
 					'neww',
 					'nwe',
+					'iiew',
+					'neiv',
+					'nevv',
 				],
 				'new york'=>[
 					'new yrok',
@@ -1545,6 +1615,7 @@
 					'newaly',
 					'newely',
 					'newlly',
+					'ncwly',
 				],
 				'newly-elected'=>[
 					'newly elected',
@@ -1559,6 +1630,7 @@
 				],
 				'news'=>[
 					'newws',
+					'riews',
 				],
 				'newscast'=>[
 					'newcast',
@@ -1634,6 +1706,7 @@
 					'enxt',
 					'next next',
 					'next next next',
+					'iiext',
 				],
 				'nextdoor'=>[
 					'nextdooor',
@@ -1677,6 +1750,9 @@
 				'niccolite'=>[
 					'nicolite',
 					'nicccolite',
+				],
+				'nice'=>[
+					'iiice',
 				],
 				'nicely'=>[
 					'nicly',
@@ -1829,11 +1905,20 @@
 				'niggly'=>[
 					'nigly',
 				],
+				'nigh'=>[
+					'nigli',
+				],
 				'night'=>[
 					'mght',
 					'night night',
 					'night night night',
 					'nigth',
+					'iiight',
+					'iiiglit',
+					'nigbt',
+					'nighl',
+					'niglit',
+					'uight',
 				],
 				'nightclubbed'=>[
 					'nightclubed',
@@ -1873,6 +1958,9 @@
 					'nightaly',
 					'nightely',
 					'nightlly',
+				],
+				'nights'=>[
+					'niglits',
 				],
 				'nighttime'=>[
 					'nightime',
@@ -1916,6 +2004,7 @@
 				'nine'=>[
 					'nine nine',
 					'nine nine nine',
+					'iiine',
 				],
 				'ninefold'=>[
 					'ninifold',
@@ -1939,6 +2028,7 @@
 					'ninteenth',
 					'nineteeenth',
 					'ninetenth',
+					'nineteentli',
 				],
 				'nineteenths'=>[
 					'nineteeenths',
@@ -1977,6 +2067,7 @@
 				],
 				'ninth'=>[
 					'nineth',
+					'nintli',
 				],
 				'ninthly'=>[
 					'ninethly',
@@ -2094,6 +2185,13 @@
 				'nobiliary'=>[
 					'nobiliery',
 				],
+				'nobility'=>[
+					'nobihty',
+				],
+				'noble'=>[
+					'nohle',
+					'uoble',
+				],
 				'nobleness'=>[
 					'noblenes',
 					'noblenesss',
@@ -2186,6 +2284,8 @@
 				'noise'=>[
 					'noise noise',
 					'noise noise noise',
+					'noife',
+					'noisc',
 				],
 				'noiseless'=>[
 					'noiseles',
@@ -2212,6 +2312,9 @@
 				'noisiness'=>[
 					'noisines',
 					'noisinesss',
+				],
+				'noisome'=>[
+					'noifome',
 				],
 				'noisomely'=>[
 					'noisomly',
@@ -2730,6 +2833,8 @@
 				],
 				'none'=>[
 					'noen',
+					'iione',
+					'noiie',
 				],
 				'nonedible'=>[
 					'nonedable',
@@ -3825,6 +3930,7 @@
 				'nor'=>[
 					'nor nor',
 					'nor nor nor',
+					'iior',
 				],
 				'noradrenalin'=>[
 					'nouradrenalin',
@@ -3988,6 +4094,8 @@
 					'north north',
 					'north north north',
 					'noth',
+					'iiortli',
+					'nortli',
 				],
 				'north-east'=>[
 					'northeast\' & \'northwest',
@@ -4045,6 +4153,7 @@
 					'northen',
 					'nothern',
 					'nourthern',
+					'nortliern',
 				],
 				'northernmost'=>[
 					'northermost',
@@ -4074,6 +4183,7 @@
 				],
 				'northward'=>[
 					'nourthward',
+					'nortliward',
 				],
 				'northwards'=>[
 					'nothwards',
@@ -4159,6 +4269,9 @@
 					'nostalgicallly',
 					'nostalgicaly',
 				],
+				'nostrum'=>[
+					'noftrum',
+				],
 				'nosy'=>[
 					'nocy',
 				],
@@ -4166,6 +4279,7 @@
 					'not not',
 					'not not not',
 					'nto',
+					'iiot',
 				],
 				'not to be'=>[
 					'not te be',
@@ -4193,6 +4307,13 @@
 					'noteboks',
 					'noteboooks',
 				],
+				'noted'=>[
+					'notcd',
+					'notecl',
+				],
+				'notes'=>[
+					'uotes',
+				],
 				'noteworthiness'=>[
 					'noteworthines',
 					'noteworthinesss',
@@ -4203,6 +4324,20 @@
 				'nothing'=>[
 					'nothing nothing',
 					'nothing nothing nothing',
+					'iiotbing',
+					'iiothing',
+					'iiotliing',
+					'nolbing',
+					'nolliing',
+					'notbing',
+					'nothiiig',
+					'nothiug',
+					'notliiiig',
+					'notliing',
+					'notliiug',
+					'notlilng',
+					'uothing',
+					'uotliing',
 				],
 				'nothingness'=>[
 					'nothingnes',
@@ -4214,6 +4349,7 @@
 				'notice'=>[
 					'notice notice',
 					'notice notice notice',
+					'notiee',
 				],
 				'noticeable'=>[
 					'noticable',
@@ -4236,6 +4372,9 @@
 				'notifiable'=>[
 					'notifiible',
 				],
+				'notion'=>[
+					'uotion',
+				],
 				'notionally'=>[
 					'notionallly',
 					'notionaly',
@@ -4252,16 +4391,31 @@
 					'notorios',
 					'notorius',
 					'notorous',
+					'notonous',
 				],
 				'notoriously'=>[
 					'notorously',
+					'notorioufly',
 				],
 				'notwithstanding'=>[
 					'nothwithstanding',
+					'iiotwithstanding',
+					'notwithftanding',
+					'notwitlistanding',
 				],
 				'noun'=>[
 					'noun noun',
 					'noun noun noun',
+				],
+				'nourish'=>[
+					'nourisli',
+				],
+				'nourished'=>[
+					'nourifhed',
+					'nourislied',
+				],
+				'nourishing'=>[
+					'nourifhing',
 				],
 				'nourishment'=>[
 					'nourishmant',
@@ -4313,6 +4467,9 @@
 				'now'=>[
 					'now now',
 					'now now now',
+					'iiow',
+					'noiv',
+					'novv',
 				],
 				'now he'=>[
 					'nowh e',
@@ -4525,10 +4682,29 @@
 				'number'=>[
 					'number number',
 					'number number number',
+					'iinmber',
+					'niimber',
+					'nnmber',
+					'nnniber',
+					'nuinher',
+					'numbcr',
+					'numher',
+					'nuniber',
+					'nurnber',
+					'uumber',
+				],
+				'numbered'=>[
+					'nnmbered',
 				],
 				'numberless'=>[
 					'numberles',
 					'numberlesss',
+				],
+				'numbers'=>[
+					'nnmbers',
+					'nnmhers',
+					'numbcrs',
+					'uumbers',
 				],
 				'numbness'=>[
 					'numbnes',
@@ -4562,6 +4738,10 @@
 				],
 				'numerous'=>[
 					'numberous',
+					'nnmerons',
+					'nnmerous',
+					'nunierous',
+					'uumerous',
 				],
 				'numerousness'=>[
 					'numerousnes',
@@ -4614,6 +4794,9 @@
 					'nunery',
 					'nunnnery',
 				],
+				'nuns'=>[
+					'niins',
+				],
 				'nuptial'=>[
 					'nuptual',
 				],
@@ -4625,6 +4808,9 @@
 				],
 				'nuremberg'=>[
 					'nuremburg',
+				],
+				'nurses'=>[
+					'nurfes',
 				],
 				'nursing'=>[
 					'nurshing',

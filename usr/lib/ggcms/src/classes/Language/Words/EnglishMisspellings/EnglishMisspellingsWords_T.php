@@ -61,6 +61,9 @@
 					'taby',
 					'tabbby',
 				],
+				'tabernacle'=>[
+					'tabemacle',
+				],
 				'tabernacular'=>[
 					'tabernaculer',
 				],
@@ -353,6 +356,9 @@
 				'taken'=>[
 					'takn','takne',
 					'tooked',
+					'takcn',
+					'takeii',
+					'takeu',
 				],
 				'takeoff'=>[
 					'takeof',
@@ -387,6 +393,10 @@
 					'talentles',
 					'talentlesss',
 				],
+				'tales'=>[
+					'lales',
+					'taies',
+				],
 				'talisman'=>[
 					'tallisman',
 				],
@@ -404,6 +414,7 @@
 				'talked'=>[
 					'taked',
 					'talekd',
+					'talkcd',
 				],
 				'talkie'=>[
 					'talkei',
@@ -792,6 +803,9 @@
 					'tarifffs',
 					'tarifs',
 				],
+				'tarnished'=>[
+					'tamished',
+				],
 				'tarradiddle'=>[
 					'taradiddle',
 					'tarradidddle',
@@ -937,6 +951,7 @@
 				],
 				'taste'=>[
 					'tast',
+					'tafte',
 				],
 				'tastefully'=>[
 					'tastefullly',
@@ -1095,6 +1110,11 @@
 				'taught'=>[
 					'teached',
 					'tought',
+					'taiiglit',
+					'tanght',
+					'tanglit',
+					'taugbt',
+					'tauglit',
 				],
 				'tauon'=>[
 					'taon',
@@ -1179,6 +1199,9 @@
 					'teach teach teach',
 					'tecah',
 					'tecch',
+					'teacb',
+					'teacli',
+					'teaeh',
 				],
 				'teachable'=>[
 					'teachible',
@@ -1189,6 +1212,7 @@
 				],
 				'teacher'=>[
 					'techer',
+					'teaclier',
 				],
 				'teacherly'=>[
 					'teacherally',
@@ -1196,11 +1220,24 @@
 					'teacherely',
 					'teacherlly',
 				],
+				'teachers'=>[
+					'teacbers',
+					'teacliers',
+				],
 				'teaches'=>[
 					'teachs',
+					'teacbes',
+					'teaclies',
 				],
 				'teaching'=>[
 					'teching',
+					'tcacliing',
+					'teacbing',
+					'teacliing',
+					'teaebing',
+				],
+				'teachings'=>[
+					'teacliings',
 				],
 				'teahouse'=>[
 					'teaouse',
@@ -1237,6 +1274,9 @@
 				],
 				'team composed of'=>[
 					'team comprised of',
+				],
+				'teamed'=>[
+					'leained',
 				],
 				'teammate'=>[
 					'teamate',
@@ -1352,10 +1392,12 @@
 					'techical',
 					'techilical',
 					'techincal',
+					'teclinical',
 				],
 				'technically'=>[
 					'technicaly',
 					'technicallly',
+					'teclinically',
 				],
 				'technician'=>[
 					'techician',
@@ -1543,6 +1585,8 @@
 					'teeth teeth',
 					'teeth teeth teeth',
 					'teeeth',
+					'tceth',
+					'teetli',
 				],
 				'teethe'=>[
 					'teeethe',
@@ -1746,6 +1790,7 @@
 				'teller'=>[
 					'teler',
 					'telller',
+					'leller',
 				],
 				'tellers'=>[
 					'telers',
@@ -1758,6 +1803,7 @@
 				'telling'=>[
 					'teling',
 					'tellling',
+					'tclling',
 				],
 				'tellingly'=>[
 					'telingly',
@@ -1882,6 +1928,9 @@
 					'temperture',
 					'temprature',
 				],
+				'tempest'=>[
+					'tempeft',
+				],
 				'tempestuous'=>[
 					'tempestous',
 				],
@@ -1896,6 +1945,10 @@
 					'tempestousness',
 					'tempestuousnes',
 					'tempestuousnesss',
+				],
+				'temple'=>[
+					'templc',
+					'ternple',
 				],
 				'temporally'=>[
 					'temporallly',
@@ -2017,6 +2070,9 @@
 					'tendentiousnes',
 					'tendentiousnesss',
 				],
+				'tender'=>[
+					'teiider',
+				],
 				'tenderfeet'=>[
 					'tenderfeeet',
 					'tenderfet',
@@ -2045,6 +2101,7 @@
 				'tenderness'=>[
 					'tendernes',
 					'tendernesss',
+					'tendemess',
 				],
 				'tendinitis'=>[
 					# tendonitis: an accepted spelling, not a slip (AmericanBritishWords_T: tendinitis)
@@ -2176,6 +2233,7 @@
 				],
 				'tenth'=>[
 					'tanth',
+					'tentli',
 				],
 				'tents'=>[
 					'tants',
@@ -2368,6 +2426,7 @@
 				'terrace'=>[
 					'terace',
 					'terrrace',
+					'tcrrace',
 				],
 				'terraced'=>[
 					'teraced',
@@ -2481,6 +2540,8 @@
 					'terible',
 					'terrable',
 					'terrrible',
+					'tcrrible',
+					'terrihle',
 				],
 				'terribleness'=>[
 					'terriblenes',
@@ -2615,6 +2676,8 @@
 					'terriory',
 					'territority',
 					'terrritory',
+					'terntory',
+					'terrilory',
 				],
 				'terror'=>[
 					'teror',
@@ -2782,14 +2845,22 @@
 				'testicular'=>[
 					'testiculer',
 				],
+				'testified'=>[
+					'teftified',
+				],
 				'testimonial'=>[
 					'testamonial',
+				],
+				'testimonies'=>[
+					'teftimonies',
 				],
 				'testimony'=>[
 					'test1mony',
 					'testamony',
 					'testlmony',
 					'testomony',
+					'teftimony',
+					'testiinony',
 				],
 				'testiness'=>[
 					'testines',
@@ -2990,11 +3061,21 @@
 					'than than',
 					'than than than',
 					'thna',
+					'thaii',
+					'tlian',
 				],
 				'thank'=>[
 					'thanbk',
 					'thank thank',
 					'thank thank thank',
+					'thaiik',
+					'tliank',
+				],
+				'thanked'=>[
+					'tlianked',
+				],
+				'thankful'=>[
+					'tliankful',
 				],
 				'thankfully'=>[
 					'thankfullly',
@@ -3003,6 +3084,9 @@
 				'thankfulness'=>[
 					'thankfulnes',
 					'thankfulnesss',
+				],
+				'thanking'=>[
+					'tlianking',
 				],
 				'thankless'=>[
 					'thankles',
@@ -3022,6 +3106,14 @@
 					'thanklessnesss',
 					'thanklesssness',
 				],
+				'thanks'=>[
+					'tbanks',
+					'tlianks',
+				],
+				'thanksgiving'=>[
+					'tbanksgiving',
+					'tlianksgiving',
+				],
 				'that'=>[
 					'htat',
 					'taht',
@@ -3036,6 +3128,7 @@
 					'thta',
 					'thyat',
 					'tyhat',
+					'tliat',
 				],
 				'that are'=>[
 					'thet are',
@@ -3103,6 +3196,10 @@
 				],
 				'theatre'=>[
 					'thetre',
+					'tlieatre',
+				],
+				'theatres'=>[
+					'tlieatres',
 				],
 				'theatrical'=>[
 					'thetrical',
@@ -3127,12 +3224,16 @@
 				],
 				'thee'=>[
 					'theee',
+					'tliee',
 				],
 				'thees'=>[
 					'theees',
 				],
 				'theessink'=>[
 					'theesink',
+				],
+				'theft'=>[
+					'tlieft',
 				],
 				'thein'=>[
 					'thien',
@@ -3150,6 +3251,10 @@
 					'theri',
 					'thier',
 					'tlieir',
+					'cheir',
+					'tbeir',
+					'thcir',
+					'thelr',
 				],
 				'their done'=>[
 					'thier',
@@ -3157,6 +3262,9 @@
 				'theirs'=>[
 					'their\'s',
 					'thiers',
+					'thcirs',
+					'tlicirs',
+					'tlieirs',
 				],
 				'theirselves'=>[
 					'thierselves',
@@ -3172,10 +3280,15 @@
 					'them them',
 					'them them them',
 					'tliem',
+					'theiii',
+					'tlieiii',
 				],
 				'thematically'=>[
 					'thematicallly',
 					'thematicaly',
+				],
+				'theme'=>[
+					'tlieme',
 				],
 				'themselves'=>[
 					'fhemselves', 'theinselves',
@@ -3185,12 +3298,32 @@
 					'themselfs',
 					'themsleves',
 					'themsevles',
+					'tbeinselves',
+					'tbemselves',
+					'tbeniselves',
+					'thcmselves',
+					'theinselves',
+					'themfelves',
+					'themseives',
+					'themselvcs',
+					'themselyes',
+					'theniselvcs',
+					'theniselves',
+					'thernselves',
+					'tlicmselves',
+					'tlieinselves',
+					'tliemsclves',
+					'tliemselvcs',
+					'tliemselves',
+					'tlieniselves',
 				],
 				'then'=>[
 					'hten',
 					'then then',
 					'then then then',
 					'thne',
+					'theii',
+					'tlien',
 				],
 				'thenar'=>[
 					'thener',
@@ -3214,9 +3347,18 @@
 				'theologian'=>[
 					'theologan',
 				],
+				'theologians'=>[
+					'tlieologians',
+				],
+				'theological'=>[
+					'tlieological',
+				],
 				'theologically'=>[
 					'theologicallly',
 					'theologicaly',
+				],
+				'theology'=>[
+					'tlieology',
 				],
 				'theophylline'=>[
 					'theophyline',
@@ -3237,8 +3379,14 @@
 				'theoretician'=>[
 					'theoretican',
 				],
+				'theories'=>[
+					'tlieories',
+				],
 				'theory'=>[
 					'thoery',
+					'tbeory',
+					'tlicory',
+					'tlieory',
 				],
 				'theosophically'=>[
 					'theosophicallly',
@@ -3275,6 +3423,9 @@
 					'thrcc',
 					'thrce',
 					'threc',
+					'chere',
+					'tbere',
+					'tliere',
 				],
 				'there were'=>[
 					'there where',
@@ -3286,14 +3437,43 @@
 					'thenafter',
 					'therafter',
 					'therefter',
+					'tliereafter',
+				],
+				'thereby'=>[
+					'tbereby',
+					'thercby',
+					'therehy',
+					'tlicreby',
+					'tliercby',
+					'tliereby',
+					'tlierehy',
+				],
+				'therefor'=>[
+					'tlierefor',
 				],
 				'therefore'=>[
 					'herefore',
 					'thcreforc',
 					'therfore',
+					'tbcrefore',
+					'tberefore',
+					'thercfore',
+					'tlicrefore',
+					'tliercfore',
+					'tliereforc',
+					'tlierefore',
+				],
+				'therefrom'=>[
+					'tlierefrom',
 				],
 				'therein'=>[
 					'therien',
+					'tberein',
+					'thercin',
+					'tlicrein',
+					'tliercin',
+					'tlierein',
+					'tliereiu',
 				],
 				'thereinafter'=>[
 					'thereinifter',
@@ -3301,6 +3481,26 @@
 				],
 				'thereinto'=>[
 					'theriento',
+				],
+				'thereof'=>[
+					'tliereof',
+				],
+				'thereon'=>[
+					'tliereon',
+				],
+				'thereto'=>[
+					'tliereto',
+				],
+				'thereunto'=>[
+					'tliereunto',
+				],
+				'thereupon'=>[
+					'tliereupon',
+				],
+				'therewith'=>[
+					'therewitli',
+					'tlierewith',
+					'tlierewitli',
 				],
 				'therewithal'=>[
 					'therewital',
@@ -3392,6 +3592,10 @@
 					'theese',
 					'these these',
 					'these these these',
+					'tbese',
+					'thefe',
+					'thesc',
+					'tliese',
 				],
 				'theses'=>[
 					'thesises',
@@ -3437,13 +3641,27 @@
 				'thick'=>[
 					'thick thick',
 					'thick thick thick',
+					'tliick',
 				],
 				'thickened'=>[
 					'thickend',
 				],
+				'thicker'=>[
+					'tliicker',
+				],
+				'thickest'=>[
+					'tliickest',
+				],
+				'thicket'=>[
+					'tliicket',
+				],
+				'thickly'=>[
+					'tliickly',
+				],
 				'thickness'=>[
 					'thicknes',
 					'thicknesss',
+					'tliickness',
 				],
 				'thicknesses'=>[
 					'thickneses',
@@ -3452,6 +3670,7 @@
 				'thief'=>[
 					'theif',
 					'thif',
+					'tliief',
 				],
 				'thiefs'=>[
 					'theifs',
@@ -3470,6 +3689,13 @@
 				'thievishness'=>[
 					'thievishnes',
 					'thievishnesss',
+				],
+				'thigh'=>[
+					'tliigh',
+					'tliigli',
+				],
+				'thighs'=>[
+					'tliighs',
 				],
 				'thigmotactic'=>[
 					'tigmotactic',
@@ -3523,6 +3749,9 @@
 				],
 				'thine'=>[
 					'thini',
+					'thiiie',
+					'thinc',
+					'tliine',
 				],
 				'thing'=>[
 					'hting',
@@ -3531,11 +3760,20 @@
 					'thing thing',
 					'thing thing thing',
 					'thnig',
+					'tbing',
+					'thiiig',
+					'thiug',
+					'tliing',
 				],
 				'things'=>[
 					'thigns',
 					'thigsn',
 					'thnigs',
+					'tbings',
+					'thiiigs',
+					'thiugs',
+					'tliings',
+					'tliiugs',
 				],
 				'thingummies'=>[
 					'thingummmies',
@@ -3552,16 +3790,34 @@
 					'think think think',
 					'thiunk',
 					'tihkn',
+					'tbink',
+					'thiiik',
+					'thiuk',
+					'tliiiik',
+					'tliink',
 				],
 				'thinkable'=>[
 					'thinkible',
 				],
+				'thinker'=>[
+					'tliinker',
+				],
+				'thinkers'=>[
+					'tliinkers',
+				],
 				'thinking'=>[
 					'thikning',
 					'thingking',
+					'thiiiking',
+					'thiuking',
+					'tliinkiiig',
+					'tliinking',
+					'tliiuking',
 				],
 				'thinks'=>[
 					'thikns',
+					'tliiiiks',
+					'tliinks',
 				],
 				'thinned'=>[
 					'thinnned',
@@ -3614,6 +3870,9 @@
 					'third third',
 					'third third third',
 					'thrid',
+					'tbird',
+					'thircl',
+					'tliird',
 				],
 				'thirdly'=>[
 					'thridly',
@@ -3621,15 +3880,25 @@
 					'thirdaly',
 					'thirdely',
 					'thirdlly',
+					'tliirdly',
+				],
+				'thirst'=>[
+					'tbirst',
+					'thirft',
+					'tliirst',
 				],
 				'thirstiness'=>[
 					'thirstines',
 					'thirstinesss',
 				],
+				'thirsty'=>[
+					'tliirsty',
+				],
 				'thirteen'=>[
 					'thirteeen',
 					'thriteen',
 					'thirten',
+					'tliirteen',
 				],
 				'thirteens'=>[
 					'thirteeens',
@@ -3639,6 +3908,7 @@
 					'thirteanth',
 					'thirteeenth',
 					'thirtenth',
+					'tliirteenth',
 				],
 				'thirteenths'=>[
 					'thirteeenths',
@@ -3654,6 +3924,9 @@
 				'thirty'=>[
 					'thrity',
 					'tliirty',
+					'tbirty',
+					'thirtv',
+					'tliirtv',
 				],
 				'this'=>[
 					'bbis',
@@ -3663,6 +3936,12 @@
 					'ths',
 					'thsi',
 					'tihs',
+					'tliis',
+				],
+				'thither'=>[
+					'thitlier',
+					'tliither',
+					'tliitlier',
 				],
 				'tholeiite'=>[
 					'tholieite',
@@ -3679,9 +3958,15 @@
 				'thoracolumbar'=>[
 					'thoracicolumber',
 				],
+				'thorn'=>[
+					'tliorn',
+				],
 				'thorniness'=>[
 					'thornines',
 					'thorninesss',
+				],
+				'thorns'=>[
+					'tliorns',
 				],
 				'thorough'=>[
 					'thorogh',
@@ -3689,6 +3974,10 @@
 					'thourough',
 					'thruogh',
 					'thourogh',
+					'tborougb',
+					'thorougli',
+					'tliorough',
+					'tliorougli',
 				],
 				'thoroughbass'=>[
 					'thoroughbas',
@@ -3700,10 +3989,21 @@
 				'thoroughfare'=>[
 					'throughfare',
 				],
+				'thoroughgoing'=>[
+					'tlioroughgoing',
+				],
 				'thoroughly'=>[
 					'thorougly',
 					'thouroughly',
 					'throughly',
+					'tborougbly',
+					'thoronghly',
+					'thoronglily',
+					'thorougbly',
+					'thorouglily',
+					'tlioronghly',
+					'tlioroughly',
+					'tliorouglily',
 				],
 				'thoroughness'=>[
 					'thoroughnes',
@@ -3716,16 +4016,56 @@
 					'those those those',
 					'thosse',
 					'thsoe',
+					'tbose',
+					'thofe',
+					'thosc',
+					'tliose',
+				],
+				'thou'=>[
+					'thoii',
+					'tliou',
 				],
 				'though'=>[
 					'though though',
 					'though though though',
+					'lliough',
+					'tbough',
+					'tbougli',
+					'thoiigh',
+					'thoiigli',
+					'thongh',
+					'thongli',
+					'thougb',
+					'thougli',
+					'tlioiigh',
+					'tliongh',
+					'tliougb',
+					'tliough',
+					'tliougli',
 				],
 				'thought'=>[
 					'thought thought',
 					'thought thought thought',
 					'throught',
 					'tought',
+					'lliought',
+					'tbonght',
+					'tbougbt',
+					'tbought',
+					'tbouglit',
+					'thoiiglit',
+					'thonght',
+					'thonglit',
+					'thougbt',
+					'thouglit',
+					'tlioiight',
+					'tlionght',
+					'tliougbt',
+					'tliought',
+					'tliouglit',
+				],
+				'thoughtful'=>[
+					'thonghtfnl',
 				],
 				'thoughtfully'=>[
 					'thoughtfullly',
@@ -3756,11 +4096,36 @@
 				'thoughts'=>[
 					'thoughs',
 					'toughts',
+					'tbougbts',
+					'thonghts',
+					'thouglits',
+					'tlioiights',
+					'tlioughts',
+					'tliouglits',
 				],
 				'thousand'=>[
 					'thousand thousand',
 					'thousand thousand thousand',
 					'thousnad',
+					'tbonsand',
+					'tbousand',
+					'thonsaiid',
+					'thonsand',
+					'thoufand',
+					'thousaiid',
+					'tlioiisand',
+					'tlionsand',
+					'tliousaiid',
+					'tliousand',
+					'tliousaud',
+				],
+				'thousands'=>[
+					'tbousands',
+					'thonsands',
+					'thoufands',
+					'thousancls',
+					'tlionsands',
+					'tliousands',
 				],
 				'thraldom'=>[
 					'thraldoin',
@@ -3784,29 +4149,45 @@
 				],
 				'thread'=>[
 					'thred',
+					'threacl',
+					'tlircad',
+					'tliread',
 				],
 				'threadbare'=>[
 					'thredbare',
 				],
+				'threads'=>[
+					'tlircads',
+					'tlireads',
+				],
 				'threat'=>[
 					'threath',
 					'thret',
+					'tlireat',
 				],
 				'threaten'=>[
 					'threten',
+					'tlireaten',
 				],
 				'threatened'=>[
 					'threated',
 					'threatend',
 					'thretened',
+					'tlireatened',
 				],
 				'threatening'=>[
 					'threatning',
+					'tlircatening',
+				],
+				'threats'=>[
+					'tlireats',
 				],
 				'three'=>[
 					'three three',
 					'three three three',
 					'threee',
+					'tbree',
+					'tliree',
 				],
 				'three-year-old who'=>[
 					'three year old who',
@@ -3865,6 +4246,12 @@
 				'thresholds'=>[
 					'threshholds',
 				],
+				'threw'=>[
+					'tlirew',
+				],
+				'thrice'=>[
+					'tlirice',
+				],
 				'thriftiness'=>[
 					'thriftyness',
 					'thriftines',
@@ -3906,9 +4293,18 @@
 					'thripence',
 					'thripppence',
 				],
+				'thrive'=>[
+					'tlirive',
+				],
+				'throat'=>[
+					'tliroat',
+				],
 				'throatiness'=>[
 					'throatines',
 					'throatinesss',
+				],
+				'throats'=>[
+					'tliroats',
 				],
 				'throbbed'=>[
 					'throbbbed',
@@ -3954,6 +4350,15 @@
 					'tromboxan',
 					'tromboxane',
 				],
+				'throne'=>[
+					'tlirone',
+				],
+				'thrones'=>[
+					'tlirones',
+				],
+				'thronging'=>[
+					'tlironging',
+				],
 				'throttle'=>[
 					'throddle',
 					'throtle',
@@ -3988,6 +4393,22 @@
 					'through through through',
 					# thru: an accepted spelling, not a slip (AmericanBritishWords_T: through)
 				#	'thru',
+					'tbrongh',
+					'tbrougb',
+					'tbrough',
+					'tbrougli',
+					'throiigh',
+					'throiigli',
+					'throngb',
+					'throngh',
+					'throngli',
+					'througb',
+					'througli',
+					'tliroiigh',
+					'tlirongh',
+					'tlirougb',
+					'tlirough',
+					'tlirougli',
 				],
 				'through its'=>[
 					'through it\'',
@@ -4005,10 +4426,29 @@
 					'throughtout',
 					'througout',
 					'troughout',
+					'tbrougbout',
+					'thronghont',
+					'throngliout',
+					'throughont',
+					'througliout',
+					'tliroughont',
+					'tliroughout',
+					'tlirougliout',
 				],
 				'throw'=>[
 					'throw throw',
 					'throw throw throw',
+					'tbrow',
+					'tlirow',
+				],
+				'throwing'=>[
+					'tlirowing',
+				],
+				'thrown'=>[
+					'tlirown',
+				],
+				'throws'=>[
+					'tlirows',
 				],
 				'thrummed'=>[
 					'thrummmed',
@@ -4018,6 +4458,12 @@
 				],
 				'thrust'=>[
 					'thrusted',
+					'thrnst',
+					'thruft',
+					'tlirust',
+				],
+				'thrusting'=>[
+					'tlirusting',
 				],
 				'thruston ballard morton'=>[
 					'thurston ballard morton',
@@ -4050,6 +4496,9 @@
 					'thugish',
 					'thugggish',
 				],
+				'thumb'=>[
+					'tliumb',
+				],
 				'thumbstall'=>[
 					'thumbstal',
 					'thumbstalll',
@@ -4057,6 +4506,11 @@
 				'thumbstalls'=>[
 					'thumbstallls',
 					'thumbstals',
+				],
+				'thunder'=>[
+					'thnndcr',
+					'thnnder',
+					'tliunder',
 				],
 				'thunderhead'=>[
 					'thunderhed',
@@ -4075,6 +4529,7 @@
 				'thus'=>[
 					'thus thus',
 					'thus thus thus',
+					'tlius',
 				],
 				'thus far'=>[
 					'thusfar',
@@ -4084,6 +4539,9 @@
 					'thusaly',
 					'thusely',
 					'thuslly',
+				],
+				'thwarted'=>[
+					'tliwarted',
 				],
 				'thwartly'=>[
 					'thwartally',
@@ -4115,6 +4573,9 @@
 				],
 				'thyroxine'=>[
 					'thyroxini',
+				],
+				'thyself'=>[
+					'tliyself',
 				],
 				'tiananmen'=>[
 					'tianenmen','tienanmen',
@@ -4243,6 +4704,9 @@
 				'tigecycline'=>[
 					'tigercycline',
 				],
+				'tight'=>[
+					'tiglit',
+				],
 				'tightened'=>[
 					'tightend',
 				],
@@ -4316,6 +4780,10 @@
 					'time time time',
 					'timne',
 					'tiome',
+					'tiiiie',
+					'tiine',
+					'tinie',
+					'tirne',
 				],
 				'timekeeper'=>[
 					'timekeeeper',
@@ -4362,6 +4830,8 @@
 				],
 				'times'=>[
 					'timees',
+					'tiines',
+					'timcs',
 				],
 				'timescale'=>[
 					'timecale',
@@ -4468,6 +4938,9 @@
 				],
 				'tinny'=>[
 					'tinnny',
+				],
+				'tins'=>[
+					'tiris',
 				],
 				'tinselled'=>[
 					'tinsellled',
@@ -4582,6 +5055,10 @@
 					'tire tire',
 					'tire tire tire',
 				],
+				'tired'=>[
+					'lired',
+					'tircd',
+				],
 				'tiredness'=>[
 					'tirednes',
 					'tirednesss',
@@ -4606,6 +5083,9 @@
 				'tiresomeness'=>[
 					'tiresomenes',
 					'tiresomenesss',
+				],
+				'tiring'=>[
+					'liring',
 				],
 				'tissue'=>[
 					'tisue',
@@ -4646,6 +5126,7 @@
 				],
 				'title'=>[
 					'tittle',
+					'titie',
 				],
 				'titrant'=>[
 					'titrent',
@@ -4837,6 +5318,8 @@
 				],
 				'today'=>[
 					'todya',
+					'loday',
+					'toclay',
 				],
 				'today\'s'=>[
 					'todays',
@@ -4913,6 +5396,15 @@
 					'together together',
 					'together together together',
 					'togther',
+					'logether',
+					'togcther',
+					'togctlier',
+					'togelher',
+					'togellier',
+					'togetber',
+					'togethcr',
+					'togetlicr',
+					'togetlier',
 				],
 					# toged: an accepted spelling, not a slip (AmericanBritishWords_T: togged)
 			#	'togged'=>[
@@ -4979,6 +5471,7 @@
 					'telled',
 					'told told',
 					'told told told',
+					'tolcl',
 				],
 				'tolerable'=>[
 					'tolerible',
@@ -5146,6 +5639,8 @@
 				'tongue'=>[
 					'tounge',
 					'toungue',
+					'tongne',
+					'tonguc',
 				],
 				'tongue-in-cheek'=>[
 					'tongue and cheek',
@@ -5154,6 +5649,9 @@
 				'tongueless'=>[
 					'tongueles',
 					'tonguelesss',
+				],
+				'tongues'=>[
+					'tongncs',
 				],
 				'tonically'=>[
 					'tonicallly',
@@ -5280,6 +5778,7 @@
 				],
 				'tooth'=>[
 					'toooth',
+					'tootli',
 				],
 				'toothache'=>[
 					'tooothache',
@@ -5678,6 +6177,9 @@
 				'tortuousnesses'=>[
 					'tortousnesses',
 				],
+				'torture'=>[
+					'tortnre',
+				],
 				'torturous'=>[
 					'tortous',
 				],
@@ -5730,6 +6232,7 @@
 			#	],
 				'totalitarian'=>[
 					'totalitaran',
+					'totalitanan',
 				],
 				'totalled'=>[
 					'totallled',
@@ -5781,6 +6284,15 @@
 				'touch'=>[
 					'touch touch',
 					'touch touch touch',
+					'tonch',
+					'toucli',
+				],
+				'touched'=>[
+					'touclicd',
+					'touclied',
+				],
+				'touches'=>[
+					'touclies',
 				],
 				'touchhole'=>[
 					'touchhhole',
@@ -5789,6 +6301,11 @@
 				'touchiness'=>[
 					'touchines',
 					'touchinesss',
+				],
+				'touching'=>[
+					'tonching',
+					'touchiug',
+					'toucliing',
 				],
 				'touchline'=>[
 					'touchlini',
@@ -5844,6 +6361,8 @@
 					'toward toward toward',
 					'towrad',
 					'torward',
+					'tovvard',
+					'towarcl',
 				],
 				'towardly'=>[
 					'towardally',
@@ -5884,6 +6403,7 @@
 					'town town',
 					'town town town',
 					'twon',
+					'towii',
 				],
 				'townee'=>[
 					'towneee',
@@ -5895,6 +6415,12 @@
 					'towncape',
 					'towncsape',
 					'townsape',
+				],
+				'township'=>[
+					'townsliip',
+				],
+				'townships'=>[
+					'townsliips',
 				],
 				'toxically'=>[
 					'toxicallly',
@@ -5921,6 +6447,9 @@
 				],
 				'trabeculoplasty'=>[
 					'trabeculoplasy',
+				],
+				'trace'=>[
+					'tracc',
 				],
 				'traceable'=>[
 					'tracable',
@@ -5953,6 +6482,7 @@
 				'track'=>[
 					'track track',
 					'track track track',
+					'lrack',
 				],
 				'track listing'=>[
 					'tracklisting',
@@ -5964,6 +6494,9 @@
 				'trackballs'=>[
 					'trackballls',
 					'trackbals',
+				],
+				'tracked'=>[
+					'trackecl',
 				],
 				'trackless'=>[
 					'trackles',
@@ -5983,6 +6516,7 @@
 				'trade'=>[
 					'trade trade',
 					'trade trade trade',
+					'tracle',
 				],
 				'tradeoff'=>[
 					'tradeof',
@@ -6000,6 +6534,9 @@
 					'tradecsantia',
 					'tradesantia',
 					'tradescentia',
+				],
+				'tradesmen'=>[
+					'tradefmen',
 				],
 				'tradition'=>[
 					'traditionn',
@@ -6087,6 +6624,9 @@
 					'tragicomicallly',
 					'tragicomicaly',
 				],
+				'trail'=>[
+					'traii',
+				],
 				'trailbreaker'=>[
 					'trailbreker',
 				],
@@ -6096,6 +6636,7 @@
 				'train'=>[
 					'train train',
 					'train train train',
+					'traiii',
 				],
 				'trainabilities'=>[
 					'trainibilities',
@@ -6295,6 +6836,7 @@
 					'transcendant',
 					'trancsendent',
 					'transendent',
+					'tranfcendent',
 				],
 				'transcendental'=>[
 					'trancendental',
@@ -6429,6 +6971,7 @@
 				'transformation'=>[
 					'transformaton',
 					'trasformation',
+					'trausformation',
 				],
 				'transformed'=>[
 					'tranformed',
@@ -6563,8 +7106,16 @@
 					'translatablenes',
 					'translatablenesss',
 				],
+				'translate'=>[
+					'tranflate',
+				],
+				'translated'=>[
+					'tranflatcd',
+					'tranflated',
+				],
 				'translation'=>[
 					'trnaslation',
+					'tranflation',
 				],
 				'translator'=>[
 					'translater',
@@ -6622,6 +7173,7 @@
 				],
 				'transmit'=>[
 					'transmitt',
+					'tranfmit',
 				],
 				'transmittable'=>[
 					'transmitable',
@@ -6639,6 +7191,7 @@
 				'transmitted'=>[
 					'transmited',
 					'transmittted',
+					'transmittecl',
 				],
 				'transmitter'=>[
 					'transmiter',
@@ -6671,6 +7224,7 @@
 				'transparent'=>[
 					'transparant',
 					'transperent',
+					'lransparent',
 				],
 				'transparentize'=>[
 					'transperentize',
@@ -6709,6 +7263,9 @@
 				'transpontine'=>[
 					'transpontini',
 				],
+				'transport'=>[
+					'tranfport',
+				],
 				'transportable'=>[
 					'transportible',
 				],
@@ -6718,9 +7275,11 @@
 				],
 				'transported'=>[
 					'tranpsorted',
+					'tranfported',
 				],
 				'transports'=>[
 					'tranpsorts',
+					'tranfports',
 				],
 				'transsarcolemmal'=>[
 					'transarcolemmal',
@@ -6866,8 +7425,12 @@
 				'travellers'=>[
 					'travelllers',
 				],
+				'travelling'=>[
+					'traveliing',
+				],
 				'travels'=>[
 					'traveis',
+					'travcls',
 				],
 				'traversability'=>[
 					'traversibility',
@@ -6884,6 +7447,7 @@
 				],
 				'treachery'=>[
 					'trechery',
+					'treacliery',
 				],
 				'treacly'=>[
 					'treacally',
@@ -6905,6 +7469,7 @@
 				],
 				'treason'=>[
 					'treson',
+					'treafon',
 				],
 				'treasonable'=>[
 					'treasonible',
@@ -6915,12 +7480,15 @@
 				],
 				'treasure'=>[
 					'tresure',
+					'treafure',
 				],
 				'treasurer'=>[
 					'tresurer',
+					'treafurer',
 				],
 				'treasury'=>[
 					'tresury',
+					'treafury',
 				],
 				'treat'=>[
 					'tret',
@@ -6931,6 +7499,7 @@
 				],
 				'treatise'=>[
 					'tretise',
+					'treatife',
 				],
 				'treatment'=>[
 					'treatement',
@@ -6939,6 +7508,7 @@
 				],
 				'treaty'=>[
 					'trety',
+					'trcaty',
 				],
 				'trebbianos'=>[
 					'trebianos',
@@ -6999,6 +7569,8 @@
 				],
 				'trees'=>[
 					'treees',
+					'trces',
+					'trecs',
 				],
 				'treetop'=>[
 					'treeetop',
@@ -7076,6 +7648,9 @@
 				'tremulousness'=>[
 					'tremulousnes',
 					'tremulousnesss',
+				],
+				'trench'=>[
+					'trencli',
 				],
 				'trenchancy'=>[
 					'trenchansy',
@@ -7196,6 +7771,9 @@
 					'triballly',
 					'tribaly',
 				],
+				'tribes'=>[
+					'trihes',
+				],
 				'tribunary'=>[
 					'tribunery',
 				],
@@ -7277,6 +7855,9 @@
 					'treid',
 					'tryed',
 					'trid',
+					'tned',
+					'tricd',
+					'triecl',
 				],
 				'triennial'=>[
 					'treinnial',
@@ -7311,6 +7892,9 @@
 				],
 				'triffids'=>[
 					'trifffids',
+				],
+				'trifling'=>[
+					'trifiing',
 				],
 				'trifluoperazine'=>[
 					'trifloperazine',
@@ -7578,8 +8162,20 @@
 				'tritheistical'=>[
 					'trithiestical',
 				],
+				'triumph'=>[
+					'trinmph',
+					'trinmpli',
+					'triumpb',
+					'triumpli',
+				],
 				'triumphant'=>[
 					'triumphent',
+					'triumpbant',
+					'triumpliaiit',
+					'triumpliant',
+				],
+				'triumphantly'=>[
+					'triumpliantly',
 				],
 				'triungulin'=>[
 					'tringulin',
@@ -7800,6 +8396,14 @@
 					'trobule',
 					'trouble trouble',
 					'trouble trouble trouble',
+					'tronblc',
+					'tronble',
+					'tronhle',
+					'troublc',
+					'trouhle',
+				],
+				'troubles'=>[
+					'tronbles',
 				],
 				'troubleshoot'=>[
 					'troubleshooot',
@@ -7819,6 +8423,9 @@
 				],
 				'troubleshoots'=>[
 					'troubleshooots',
+				],
+				'troublesome'=>[
+					'troublefome',
 				],
 				'troublesomely'=>[
 					'troublesomly',
@@ -7881,6 +8488,7 @@
 				'true'=>[
 					'true true',
 					'true true true',
+					'triie',
 				],
 				'trueness'=>[
 					'truenes',
@@ -7911,6 +8519,8 @@
 					'trually',
 					'trualy',
 					'trully',
+					'triily',
+					'trnly',
 				],
 				'trumpetweed'=>[
 					'trumpetwed',
@@ -7918,6 +8528,9 @@
 				],
 				'trunk'=>[
 					'turnk',
+				],
+				'trunks'=>[
+					'trnnks',
 				],
 				'trunnel'=>[
 					'trunel',
@@ -7949,6 +8562,13 @@
 				'trussing'=>[
 					'trusing',
 					'trusssing',
+				],
+				'trust'=>[
+					'trnst',
+					'truft',
+				],
+				'trusted'=>[
+					'trufted',
 				],
 				'trustee'=>[
 					'truste',
@@ -7982,6 +8602,9 @@
 					'trustineses',
 					'trustinessses',
 				],
+				'trusting'=>[
+					'trufting',
+				],
 				'trustless'=>[
 					'trustles',
 					'trustlesss',
@@ -7995,6 +8618,13 @@
 				'trustworthy'=>[
 					'trustwortby',
 				],
+				'truth'=>[
+					'triith',
+					'triitli',
+					'trnth',
+					'trutb',
+					'trutli',
+				],
 				'truthfully'=>[
 					'truthfullly',
 					'truthfuly',
@@ -8002,6 +8632,11 @@
 				'truthfulness'=>[
 					'truthfulnes',
 					'truthfulnesss',
+				],
+				'truths'=>[
+					'trnths',
+					'trutbs',
+					'trutlis',
 				],
 				'try'=>[
 					'try try',
@@ -8012,6 +8647,7 @@
 				],
 				'trying'=>[
 					'trieing',
+					'tryiug',
 				],
 				'trypanosomiasis'=>[
 					'trepanosomiasis',
@@ -8088,6 +8724,9 @@
 					'tuberomamillary',
 					'tuberomammilary',
 				],
+				'tubes'=>[
+					'tiibes',
+				],
 				'tubocapsanolide'=>[
 					'tubocapsenolide',
 				],
@@ -8141,6 +8780,9 @@
 				'tulle'=>[
 					'tule',
 					'tullle',
+				],
+				'tum'=>[
+					'tuiii',
 				],
 				'tumbleweed'=>[
 					'tumblewed',
@@ -8426,9 +9068,22 @@
 				'turn'=>[
 					'turn turn',
 					'turn turn turn',
+					'tiirn',
 				],
 				'turnable'=>[
 					'turnible',
+				],
+				'turned'=>[
+					'tiirned',
+					'tnrned',
+					'tumed',
+					'turnccl',
+					'turncd',
+				],
+				'turning'=>[
+					'tnrning',
+					'tuming',
+					'turniiig',
 				],
 				'turnoff'=>[
 					'turnof',
@@ -8438,8 +9093,12 @@
 					'turnofffs',
 					'turnofs',
 				],
+				'turnover'=>[
+					'tumover',
+				],
 				'turns'=>[
 					'turnes',
+					'turus',
 				],
 				'turnstile'=>[
 					'turnstyle',
@@ -8476,6 +9135,7 @@
 				],
 				'turtle'=>[
 					'turle',
+					'tnrtle',
 				],
 				'turtles'=>[
 					'turles',
@@ -8688,6 +9348,9 @@
 					'twelveth',
 					'twelvth',
 				],
+				'twelve'=>[
+					'twclve',
+				],
 				'twelve years'=>[
 					'twelve year',
 				],
@@ -8699,17 +9362,28 @@
 					'twntieth',
 					'twantieth',
 					'twentith',
+					'twentietli',
 				],
 				'twenty'=>[
 					'twenty twenty',
 					'twenty twenty twenty',
 					'twanty',
+					'tiventy',
+					'tvventy',
+					'twcnty',
+					'tweiity',
+					'twenly',
+					'twentv',
+					'tweuty',
 				],
 				'twenty-two'=>[
 					'twentytwo',
 				],
 				'twibill'=>[
 					'twibilll',
+				],
+				'twice'=>[
+					'twicc',
 				],
 				'twiddle'=>[
 					'twidddle',
@@ -8757,6 +9431,9 @@
 					'twigy',
 					'twigggy',
 				],
+				'twilight'=>[
+					'twiliglit',
+				],
 				'twill'=>[
 					'twil',
 					'twilll',
@@ -8796,6 +9473,9 @@
 					'twining',
 					'twinnning',
 				],
+				'twisted'=>[
+					'twistecl',
+				],
 				'twitted'=>[
 					'twittted',
 				],
@@ -8825,6 +9505,7 @@
 				'two'=>[
 					'two two',
 					'two two two',
+					'tvvo',
 				],
 				'two-disc album'=>[
 					'two disc album',

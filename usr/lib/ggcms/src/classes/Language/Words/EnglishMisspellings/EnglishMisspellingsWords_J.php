@@ -461,6 +461,7 @@
 				],
 				'jealousies'=>[
 					'jealouises',
+					'jealoufies',
 				],
 				'jealousness'=>[
 					'jealousnes',
@@ -469,6 +470,7 @@
 				'jealousy'=>[
 					'jealoucy',
 					'jelousy',
+					'jealonsy',
 				],
 				'jean'=>[
 					'jen',
@@ -797,6 +799,9 @@
 				],
 				'jetty'=>[
 					'jettty',
+				],
+				'jewel'=>[
+					'jcwel',
 				],
 				'jeweler'=>[
 					'jewler',
@@ -1179,6 +1184,7 @@
 				'joined'=>[
 					'joinde',
 					'joinid',
+					'joiued',
 				],
 				'joiner'=>[
 					'joinir',
@@ -1321,12 +1327,18 @@
 					'jounal',
 					'journey=jorney',
 					'journeys=jorneys',
+					'jonrnal',
+					'joumal',
 				],
 				'journalism'=>[
 					'jornalism',
 				],
 				'journalist'=>[
 					'jornalist',
+					'joumalist',
+				],
+				'journalistic'=>[
+					'joumalistic',
 				],
 				'journalistically'=>[
 					'journalisticallly',
@@ -1340,6 +1352,12 @@
 				],
 				'journey'=>[
 					'journy',
+					'jonrncy',
+					'jonrney',
+					'joumey',
+				],
+				'journeyed'=>[
+					'joumeyed',
 				],
 				'journeys'=>[
 					'journies',
@@ -1457,17 +1475,36 @@
 					'juddders',
 					'juders',
 				],
+				'judge'=>[
+					'jiidge',
+					'jndge',
+				],
+				'judged'=>[
+					'jndged',
+					'judgcd',
+				],
 				'judgement'=>[
 					'judgemant',
+				],
+				'judges'=>[
+					'jiidges',
+					'jndges',
 				],
 				'judgment'=>[
 					# judgement: an accepted spelling, not a slip (AmericanBritishWords_J: judgment)
 				#	'judgement',
 					'judgmant',
+					'jiidgment',
+					'jndgment',
+					'judgmeiit',
 				],
 				'judgmentally'=>[
 					'judgmentallly',
 					'judgmentaly',
+				],
+				'judgments'=>[
+					'jndgments',
+					'judginents',
 				],
 				'judicable'=>[
 					'judicible',
@@ -1492,6 +1529,7 @@
 					'judiciousely',
 					'judiciouslly',
 					'judicously',
+					'judicioufly',
 				],
 				'judiciousness'=>[
 					'judiciousnes',
@@ -1549,6 +1587,9 @@
 				],
 				'jugular'=>[
 					'juguler',
+				],
+				'juice'=>[
+					'juite',
 				],
 				'juiciness'=>[
 					'juicines',
@@ -1629,6 +1670,7 @@
 				'jurisdiction'=>[
 					'jurisdication',
 					'jursidiction',
+					'junsdiction',
 				],
 				'jurisprudence'=>[
 					'jurisprudance',
@@ -1651,6 +1693,17 @@
 					'jsut',
 					'just just',
 					'just just just',
+					'jiist',
+					'juft',
+				],
+				'justice'=>[
+					'jnstice',
+					'juflice',
+					'juftice',
+					'justicc',
+				],
+				'justices'=>[
+					'juftices',
 				],
 				'justiciable'=>[
 					'justiciible',
@@ -1661,6 +1714,22 @@
 				],
 				'justifiable'=>[
 					'justifiible',
+					'juftifiable',
+				],
+				'justification'=>[
+					'juftification',
+				],
+				'justified'=>[
+					'jiistified',
+					'juftified',
+					'justifed',
+				],
+				'justifies'=>[
+					'juftifies',
+				],
+				'justify'=>[
+					'juftify',
+					'justifv',
 				],
 				'justly'=>[
 					'justally',
