@@ -7,6 +7,21 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 10
+
+- The Windows Chrome farm in human analytics moved again and is now caught
+  by its build. All month it had run Windows Chrome 154.0.0.0 at 1920x1080 in
+  en-US with no referrer, claiming Asian timezones, which the farm rule
+  already dropped. At 04:13 UTC today it began claiming New York and Berlin
+  instead: 168 views across the sites, one page per address, 121 of them
+  RevoltLib's, which took the day from 37 visitors to 177. That build in
+  that shape outside Asia had sent 12 views in the two months before, so
+  perhaps a reader a month is lost with it; Chrome 154 arriving from a link,
+  in another language or on another screen is kept. RevoltLib's day is back
+  to 53. Two test readers in New York had been failing since the Linux rule
+  widened on 27 October, which drops them by design; they now read from
+  London.
+
 ## 2026, November 9
 
 - The English misspelling list gained 73,353 slips made by rule, from the

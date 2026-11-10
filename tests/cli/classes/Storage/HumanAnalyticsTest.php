@@ -29,6 +29,7 @@
 			$linux_150 = 'Mozilla/5.0(X11;Linuxx86_64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/150.0.0.0Safari/537.36';
 			$windows_151 = 'Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/151.0.0.0Safari/537.36';
 			$edge_151 = 'Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/151.0.0.0Safari/537.36Edg/151.0.0.0';
+			$windows_154 = 'Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/154.0.0.0Safari/537.36';
 
 			$farm = [
 				'the first farm' => ['language'=>'zh-CN', 'timezone'=>'Asia/Shanghai'],
@@ -37,11 +38,13 @@
 				'Windows Chrome, en-US, UTC, from nowhere' => ['timezone'=>'UTC'],
 				'Linux Chrome 150, mouse first, from nowhere' => ['agent'=>$linux_150, 'timezone'=>'America/Phoenix'],
 				'Windows Chrome 151, en-US, Sao Paulo, from nowhere' => ['agent'=>$windows_151, 'timezone'=>'America/Sao_Paulo'],
+				'Windows Chrome 154, en-US, New York, from nowhere' => ['agent'=>$windows_154],
+				'Windows Chrome 154, en-US, Berlin, from nowhere' => ['agent'=>$windows_154, 'timezone'=>'Europe/Berlin'],
 			];
 
 			$readers = [
 				'Shanghai on another screen' => ['screen'=>'1366x768', 'language'=>'zh-CN', 'timezone'=>'Asia/Shanghai'],
-				'Linux Chrome that moved the mouse first' => ['agent'=>$linux],
+				'Linux Chrome in London that moved the mouse first' => ['agent'=>$linux, 'timezone'=>'Europe/London'],
 				'Linux Chrome, key first, on another screen' => ['agent'=>$linux, 'event'=>'keydown', 'screen'=>'2560x1440'],
 				'Linux Firefox, key first' => ['agent'=>$firefox, 'event'=>'keydown'],
 				'Android Chrome, key first' => ['agent'=>$android, 'event'=>'keydown'],
@@ -50,10 +53,13 @@
 				'Windows Chrome in Singapore, en-GB' => ['timezone'=>'Asia/Singapore', 'language'=>'en-GB'],
 				'Edge in Singapore, from nowhere' => ['timezone'=>'Asia/Singapore', 'agent'=>$edge],
 				'Linux Chrome 150 on another screen' => ['agent'=>$linux_150, 'screen'=>'1440x900'],
-				'Linux Chrome 150, from Wikipedia' => ['agent'=>$linux_150, 'referrer'=>'https://en.wikipedia.org/'],
+				'Linux Chrome 150 in London, from Wikipedia' => ['agent'=>$linux_150, 'referrer'=>'https://en.wikipedia.org/', 'timezone'=>'Europe/London'],
 				'Linux Chrome 150, el-GR' => ['agent'=>$linux_150, 'language'=>'el-GR', 'timezone'=>'Europe/Athens'],
 				'Windows Chrome 151, from marxists.org' => ['agent'=>$windows_151, 'referrer'=>'https://www.marxists.org/'],
 				'Edge 151, from nowhere' => ['agent'=>$edge_151],
+				'Windows Chrome 154, from Wikipedia' => ['agent'=>$windows_154, 'referrer'=>'https://en.wikipedia.org/'],
+				'Windows Chrome 154, en-GB' => ['agent'=>$windows_154, 'language'=>'en-GB', 'timezone'=>'Europe/London'],
+				'Windows Chrome 154 on another screen' => ['agent'=>$windows_154, 'screen'=>'2560x1440'],
 			];
 
 			foreach($farm as $label => $fields) {

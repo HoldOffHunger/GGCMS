@@ -620,6 +620,17 @@
 				or referrer.  Across every site in September that matched no view
 				the older rules kept.
 
+				  Windows Chrome 154.0.0.0 in a timezone outside Asia: the Windows
+				  farm from 23 September, which ran this build in Asian timezones
+				  all month and moved on 10 November 2026 to New York and Berlin.
+				  It was 168 views that day, one page per address, 121 of them
+				  RevoltLib's, which took its visitors from 37 to 177.  The same
+				  fingerprint outside Asia and UTC had sent 12 views across every
+				  site in the two months before, so a reader or two a month on
+				  that build, typing the address, is lost with it.  Chrome 154
+				  arriving from a link, in another language or on another screen
+				  is kept, and was most of the build's real readers.
+
 				Only these exact combinations are matched: the same reader on a
 				phone, in Firefox, or on another screen is kept.
 			*/
@@ -652,6 +663,10 @@
 
 			if($view['language'] === 'en-US' && $view['referrer'] === '') {
 				if($desktop_chrome && strpos($agent, 'WindowsNT') !== FALSE && strpos($agent, 'Chrome/151.0.0.0') !== FALSE) {
+					return TRUE;
+				}
+
+				if($desktop_chrome && strpos($agent, 'WindowsNT') !== FALSE && strpos($agent, 'Chrome/154.0.0.0') !== FALSE) {
 					return TRUE;
 				}
 			}
