@@ -30,6 +30,7 @@ Waves shipped:
 | Dutch | 9 November 2026 | 369 | `/updates/translations-corrected-in-seven-languages/` |
 | Russian | 9 November 2026 | 156 | `/updates/translations-corrected-in-seven-languages/` |
 | Polish | 9 November 2026 | 554 | `/updates/translations-corrected-in-seven-languages/` |
+| Spanish (second) | 10 November 2026 | 172 | not yet announced |
 
 The 9 November wave was five languages at once: 1,853 suspects from the local models, of which Claude confirmed or
 corrected 1,686, set aside 107 as false alarms or not worth the change, and dropped 60 whose proposal was the current
@@ -37,12 +38,12 @@ text. Wherever a batch fault had left the same stray word on many rows (German `
 `quatrocentos`, Dutch `hockey` and `horrorfilm`), every row holding it was read, and 31 more the models had passed were
 corrected. French had shipped by the same swap on 1 November and only now was marked so.
 
-Spanish's second wave, waiting to ship as of 10 November 2026, is the first Spanish pass fed by the local models: 177
+Spanish's second wave, shipped 10 November 2026, is the first Spanish pass fed by the local models: 177
 suspects, of which Claude confirmed 118, corrected 28 where the models found the fault but proposed the wrong fix, and
 set 31 aside as false alarms, proposals that were the current text, or rows the first wave had already settled. The
 untranslated batch between ids 9700 and 10400 was read in full and 25 more rows the models passed over were added, so
-171 records, plus the four left proposed from the first wave. Two of those four are `structural` and will not be
-written, so the wave changes 173 rows.
+171 records, plus the four left proposed from the first wave. Three of those four are `structural` and are not
+written, so the wave changes 172 rows.
 
 A `structural` record is skipped by `apply_translation_review.php`, so a model's `structural` that is really a plain
 fix (a number written in pieces, `zweitausend, sechzehn`) is recorded as `orthography` instead.

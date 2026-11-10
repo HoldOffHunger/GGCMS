@@ -9,6 +9,26 @@ live installation rather than estimated.
 
 ## 2026, November 10
 
+- EarthFluent's second wave of Spanish corrections is live: 172 rows, the
+  first Spanish pass fed by the local models. Iran had been *Corrí* ("I
+  ran"), Stockholm sat in Switzerland, and to fly was the insect. Of the
+  models' 177 suspects, 118 stood as they were, 28 were right about the fault
+  and wrong about the fix (*tacle* for tackle, Portuguese *constituinte* for
+  constituent), and 31 were false alarms or already settled. One stretch of
+  ids had come in untranslated as a batch, so it was read whole and 25 rows
+  the models had passed (knife, sword, brave, and *casual*, which in Spanish
+  means by chance) went in too. Applied on Fumiko over a fresh prod dump,
+  warmed there (72,354 pages, no leaks, no errors) and swapped in under the
+  checksum guard with the pages, so the cache was never cold.
+
+- Measured against Italian's lesson tree, the other twelve courses lack
+  11,276 words between them. Dutch, Polish, Portuguese, Russian and Korean
+  were never given the Phrases lessons at all, about 1,790 phrases each;
+  German has 8 of the 21 phrase categories, and seven courses lack the
+  Currencies and Colours lessons. A local-model job now translates the gaps
+  for review, and a create-only tool will place them. Nine English titles in
+  the Spanish, Japanese and Chinese Phrases lessons read "caf退" for café.
+
 - The Windows Chrome farm in human analytics moved again and is now caught
   by its build. All month it had run Windows Chrome 154.0.0.0 at 1920x1080 in
   en-US with no referrer, claiming Asian timezones, which the farm rule
