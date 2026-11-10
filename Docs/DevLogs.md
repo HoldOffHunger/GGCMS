@@ -34,6 +34,18 @@ live installation rather than estimated.
   mangling, so no re-encoding was needed. The 79 cached pages that showed it
   were dropped to render afresh.
 
+- Comparing every course's English titles with Italian's, slot by slot,
+  found an old find-and-replace that had swapped "German" and "French" for
+  each course's own language. Five courses taught Germany as "Japanesey",
+  "Hindiy", "Dutchy", "Portuguesey" or "Koreany", with translations to match
+  (Japanese 日本語, Portuguese México), and seven had "Italian fries" or the
+  like for French fries. Four had "What does do you work?". Two entries were
+  titled with a form's own "Entry Translation" label, their real words
+  pushed into the subtitle, and Indonesian had "Aku tahu." filed as the
+  English. 26 titles, 19 translations and 21 lesson blurbs are mended on
+  prod, rows backed up first, and 163 cached pages were dropped. The URL
+  slugs (berlin-japanesey) are unchanged, since changing one moves the page.
+
 - The Windows Chrome farm in human analytics moved again and is now caught
   by its build. All month it had run Windows Chrome 154.0.0.0 at 1920x1080 in
   en-US with no referrer, claiming Asian timezones, which the farm rule
