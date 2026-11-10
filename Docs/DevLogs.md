@@ -26,8 +26,13 @@ live installation rather than estimated.
   were never given the Phrases lessons at all, about 1,790 phrases each;
   German has 8 of the 21 phrase categories, and seven courses lack the
   Currencies and Colours lessons. A local-model job now translates the gaps
-  for review, and a create-only tool will place them. Nine English titles in
-  the Spanish, Japanese and Chinese Phrases lessons read "caf退" for café.
+  for review, and a create-only tool will place them.
+
+- Ten English titles in EarthFluent's Phrases lessons read "caf退" for café,
+  damage from DreamHost's unauthorised transfer, and are mended on prod.
+  Every non-ASCII character in the English titles was read: this was the only
+  mangling, so no re-encoding was needed. The 79 cached pages that showed it
+  were dropped to render afresh.
 
 - The Windows Chrome farm in human analytics moved again and is now caught
   by its build. All month it had run Windows Chrome 154.0.0.0 at 1920x1080 in
