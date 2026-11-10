@@ -2520,3 +2520,2405 @@ reason: Left in English, and not a word Spanish shares -- the lesson pairs it
 source: Real Academia Española, Diccionario de la lengua española, s.v.
   "viejo".
 status: proposed
+
+# Spanish (es) — second wave, from the local models' suspects
+# Confirmed 10 Nov 2026 by Claude from E:\AIWorkers\earthfluent\triage\es.triage.txt, checked against prod's dump
+# of 1 Nov 2026, with the untranslated batch (ids 9700-10400) widened to the rows the models passed over.
+
+id: 1109
+entryid: 1436
+permalink: 1436
+lesson: Verbs - Activity With Objects, Part 11
+lang: es
+english: fix
+current: fijar
+proposed: reparar
+kind: wrong-sense
+reason: Fijar is to fasten or set; fixing a broken object is reparar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "reparar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 1114
+entryid: 1442
+permalink: 1442
+lesson: Verbs - Activity With Objects, Part 12
+lang: es
+english: lock
+current: bloquear
+proposed: cerrar con llave
+kind: wrong-sense
+reason: Bloquear is to block or jam. Locking a door or box with a key is cerrar con llave.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "llave"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 1116
+entryid: 1445
+permalink: 1445
+lesson: Verbs - Activity With Objects, Part 13
+lang: es
+english: bend
+current: curva
+proposed: doblar
+kind: wrong-class
+reason: Curva is the noun, a curve. The verb, to bend something, is doblar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "doblar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 1209
+entryid: 1561
+permalink: 1561
+lesson: Verbs - General Activity, Part 18
+lang: es
+english: spread
+current: untado
+proposed: extender
+kind: wrong-form
+reason: Untado is a past participle, smeared, and only of butter and the like. To spread is extender.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "extender"
+displaced: untado | past participle of untar
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 1258
+entryid: 1623
+permalink: 1623
+lesson: Verbs - Emotional Activity, Part 7
+lang: es
+english: sigh
+current: suspiro
+proposed: suspirar
+kind: wrong-class
+reason: Suspiro is the noun, a sigh. The verb is suspirar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "suspirar"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 1286
+entryid: 1658
+permalink: 1658
+lesson: Verbs - Physical Activity, Part 14
+lang: es
+english: kick
+current: patada
+proposed: patear
+kind: wrong-class
+reason: Patada is the noun, a kick. The verb is patear.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "patear"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 1296
+entryid: 1670
+permalink: 1670
+lesson: Verbs - Physical Activity, Part 16
+lang: es
+english: tackle
+current: entrada
+proposed: placar
+kind: wrong-class
+reason: Entrada is the noun. To tackle a player is placar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "placar"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 1337
+entryid: 1722
+permalink: 1722
+lesson: Verbs - Mental Activity, Part 6
+lang: es
+english: intend
+current: intentar
+proposed: pretender
+kind: false-friend
+reason: Intentar is to try. To intend, to mean to do, is pretender.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "pretender"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 1352
+entryid: 1741
+permalink: 1741
+lesson: Verbs - Mental Activity, Part 10
+lang: es
+english: concentrate
+current: concentrado
+proposed: concentrarse
+kind: wrong-form
+reason: Concentrado is the past participle. The verb, to concentrate the mind, is concentrarse.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "concentrar"
+displaced: concentrado | past participle of concentrar
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 1388
+entryid: 1786
+permalink: 1786
+lesson: Verbs - Mental Activity, Part 19
+lang: es
+english: highlight
+current: realce
+proposed: resaltar
+kind: wrong-class
+reason: Realce is the noun. The verb, to highlight, is resaltar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "resaltar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 8173
+entryid: 10298
+permalink: 10298
+lesson: Nouns - Concepts, Part 20
+lang: es
+english: look
+current: Mira
+proposed: mirada
+kind: wrong-class
+reason: Mira is an imperative, look!, in a lesson of nouns. A look is una mirada.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "mirada"
+displaced: mira | 2sg informal imperative of mirar
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 8391
+entryid: 10570
+permalink: 10570
+lesson: Nouns - Concepts, Part 74
+lang: es
+english: bulk
+current: abultar
+proposed: volumen
+kind: wrong-class
+reason: Abultar is a verb, to bulge. Bulk, the noun, is volumen.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "volumen"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 8458
+entryid: 10654
+permalink: 10654
+lesson: Nouns - Concepts, Part 91
+lang: es
+english: spread
+current: untado
+proposed: extensión
+kind: wrong-class
+reason: Untado is a past participle. Spread as a noun, how far something reaches, is extensión.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "extensión"
+displaced: untado | past participle of untar
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 8831
+entryid: 11121
+permalink: 11121
+lesson: Nouns - People, Part 58
+lang: es
+english: infant
+current: infantil
+proposed: bebé
+kind: wrong-class
+reason: Infantil is the adjective, childish or for children. An infant is un bebé.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "bebé"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 8977
+entryid: 11304
+permalink: 11304
+lesson: Nouns - Society, Part 21
+lang: es
+english: post
+current: enviar
+proposed: correo
+kind: wrong-class
+reason: Enviar is the verb. Post, the mail, is correo.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "correo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9595
+entryid: 12097
+permalink: 12097
+lesson: Nouns - Objects, Part 12
+lang: es
+english: item
+current: ít
+proposed: artículo
+kind: corrupt
+reason: Ít is ítem cut short. An item for sale is un artículo.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "artículo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9606
+entryid: 12110
+permalink: 12110
+lesson: Nouns - Objects, Part 14
+lang: es
+english: rock
+current: rock
+proposed: roca
+kind: untranslated
+reason: Spanish rock is the music. The stone is roca.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "roca"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9616
+entryid: 12123
+permalink: 12123
+lesson: Nouns - Objects, Part 17
+lang: es
+english: copy
+current: dupdo
+proposed: copia
+kind: corrupt
+reason: Dupdo is duplicado mangled. A copy is una copia.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "copia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9634
+entryid: 12145
+permalink: 12145
+lesson: Nouns - Objects, Part 21
+lang: es
+english: ship
+current: enviar
+proposed: barco
+kind: wrong-class
+reason: Enviar is the verb, to ship. The ship is un barco.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "barco"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9699
+entryid: 12227
+permalink: 12227
+lesson: Nouns - Objects, Part 38
+lang: es
+english: cross
+current: cruzar
+proposed: cruz
+kind: wrong-class
+reason: Cruzar is the verb. The object, a cross, is una cruz.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cruz"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9745
+entryid: 12285
+permalink: 12285
+lesson: Nouns - Objects, Part 49
+lang: es
+english: knife
+current: knife
+proposed: cuchillo
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cuchillo"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 9750
+entryid: 12292
+permalink: 12292
+lesson: Nouns - Objects, Part 51
+lang: es
+english: reserve
+current: reserve
+proposed: reserva
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "reserva"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9753
+entryid: 12295
+permalink: 12295
+lesson: Nouns - Objects, Part 51
+lang: es
+english: tale
+current: tale
+proposed: cuento
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cuento"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9780
+entryid: 12329
+permalink: 12329
+lesson: Nouns - Objects, Part 58
+lang: es
+english: tissue
+current: tejido
+proposed: pañuelo
+kind: wrong-sense
+reason: Tejido is tissue in the body or a fabric. Among objects it is the paper handkerchief, pañuelo.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "pañuelo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9800
+entryid: 12355
+permalink: 12355
+lesson: Nouns - Objects, Part 64
+lang: es
+english: pole
+current: polo
+proposed: poste
+kind: wrong-sense
+reason: Polo is the North or South Pole. A wooden or metal pole is un poste.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "poste"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9809
+entryid: 12367
+permalink: 12367
+lesson: Nouns - Objects, Part 67
+lang: es
+english: potato
+current: potato
+proposed: patata
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "patata"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9823
+entryid: 12385
+permalink: 12385
+lesson: Nouns - Objects, Part 70
+lang: es
+english: needle
+current: needle
+proposed: aguja
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "aguja"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9832
+entryid: 12397
+permalink: 12397
+lesson: Nouns - Objects, Part 73
+lang: es
+english: rope
+current: rope
+proposed: cuerda
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cuerda"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9837
+entryid: 12403
+permalink: 12403
+lesson: Nouns - Objects, Part 74
+lang: es
+english: fat
+current: fat
+proposed: grasa
+kind: untranslated
+reason: Left in English. Among nouns, fat is grasa; gordo is the adjective.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "grasa"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 9844
+entryid: 12412
+permalink: 12412
+lesson: Nouns - Objects, Part 76
+lang: es
+english: leaflet
+current: leaflet
+proposed: folleto
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "folleto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9850
+entryid: 12419
+permalink: 12419
+lesson: Nouns - Objects, Part 77
+lang: es
+english: cupboard
+current: cupboard
+proposed: armario
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "armario"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 9852
+entryid: 12422
+permalink: 12422
+lesson: Nouns - Objects, Part 78
+lang: es
+english: envelope
+current: envelope
+proposed: sobre
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "sobre"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9859
+entryid: 12431
+permalink: 12431
+lesson: Nouns - Objects, Part 80
+lang: es
+english: sword
+current: sword
+proposed: espada
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "espada"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 9866
+entryid: 12439
+permalink: 12439
+lesson: Nouns - Objects, Part 81
+lang: es
+english: blade
+current: blade
+proposed: hoja
+kind: untranslated
+reason: Left in English. The blade of a knife is its hoja.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "hoja"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9867
+entryid: 12441
+permalink: 12441
+lesson: Nouns - Objects, Part 82
+lang: es
+english: blanket
+current: blanket
+proposed: manta
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "manta"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9875
+entryid: 12451
+permalink: 12451
+lesson: Nouns - Objects, Part 84
+lang: es
+english: satellite
+current: satellite
+proposed: satélite
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "satélite"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9890
+entryid: 12469
+permalink: 12469
+lesson: Nouns - Objects, Part 87
+lang: es
+english: crack
+current: crack
+proposed: grieta
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "grieta"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 9900
+entryid: 12482
+permalink: 12482
+lesson: Adjectives - Quantity, Part 1
+lang: es
+english: large
+current: large
+proposed: grande
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "grande"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 9901
+entryid: 12483
+permalink: 12483
+lesson: Adjectives - Quantity, Part 1
+lang: es
+english: big
+current: big
+proposed: grande
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "grande"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 9905
+entryid: 12488
+permalink: 12488
+lesson: Adjectives - Quantity, Part 2
+lang: es
+english: wide
+current: wide
+proposed: ancho
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "ancho"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9906
+entryid: 12489
+permalink: 12489
+lesson: Adjectives - Quantity, Part 2
+lang: es
+english: heavy
+current: heavy
+proposed: pesado
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "pesado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9913
+entryid: 12498
+permalink: 12498
+lesson: Adjectives - Quantity, Part 4
+lang: es
+english: fat
+current: fat
+proposed: gordo
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "gordo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9926
+entryid: 12514
+permalink: 12514
+lesson: Adjectives - Quantity, Part 7
+lang: es
+english: massive
+current: massive
+proposed: masivo
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "masivo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9931
+entryid: 12521
+permalink: 12521
+lesson: Adjectives - Quantity, Part 9
+lang: es
+english: patchy
+current: irregular de
+proposed: irregular
+kind: orthography
+reason: A stray "de" was left on the end of the word.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "irregular"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9945
+entryid: 12538
+permalink: 12538
+lesson: Adjectives - Quality, Part 3
+lang: es
+english: fresh
+current: fresh
+proposed: fresco
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "fresco"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 9946
+entryid: 12539
+permalink: 12539
+lesson: Adjectives - Quality, Part 3
+lang: es
+english: cheap
+current: cheap
+proposed: barato
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "barato"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9955
+entryid: 12551
+permalink: 12551
+lesson: Adjectives - Quality, Part 6
+lang: es
+english: fast
+current: fast
+proposed: rápido
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "rápido"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9959
+entryid: 12556
+permalink: 12556
+lesson: Adjectives - Quality, Part 7
+lang: es
+english: lucky
+current: lucky
+proposed: afortunado
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "afortunado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9960
+entryid: 12557
+permalink: 12557
+lesson: Adjectives - Quality, Part 7
+lang: es
+english: dear
+current: dear
+proposed: querido
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "querido"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9961
+entryid: 12558
+permalink: 12558
+lesson: Adjectives - Quality, Part 7
+lang: es
+english: flat
+current: flat
+proposed: plano
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "plano"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 9966
+entryid: 12564
+permalink: 12564
+lesson: Adjectives - Quality, Part 8
+lang: es
+english: plain
+current: plain
+proposed: sencillo
+kind: untranslated
+reason: Left in English. Plain as in simple, unadorned, is sencillo; llanura would be a plain, the noun.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "sencillo"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 9977
+entryid: 12578
+permalink: 12578
+lesson: Adjectives - Quality, Part 11
+lang: es
+english: blank
+current: blank
+proposed: en blanco
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "blanco"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 9989
+entryid: 12593
+permalink: 12593
+lesson: Adjectives - Quality, Part 14
+lang: es
+english: obscure
+current: obscure
+proposed: oscuro
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "oscuro"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 10001
+entryid: 12608
+permalink: 12608
+lesson: Adjectives - Quality, Part 17
+lang: es
+english: bland
+current: amable
+proposed: insípido
+kind: wrong-word
+reason: Amable is kind. Bland, without flavour, is insípido.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "insípido"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10038
+entryid: 12654
+permalink: 12654
+lesson: Adjectives - Quality, Part 26
+lang: es
+english: slick
+current: mancha
+proposed: resbaladizo
+kind: wrong-class
+reason: Mancha is a noun, a stain or an oil slick. Slick, slippery, is resbaladizo.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "resbaladizo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10040
+entryid: 12657
+permalink: 12657
+lesson: Adjectives - Quality, Part 27
+lang: es
+english: snowy
+current: snowy
+proposed: nevado
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "nevado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10048
+entryid: 12667
+permalink: 12667
+lesson: Adjectives - Quality, Part 29
+lang: es
+english: juicy
+current: juicy
+proposed: jugoso
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "jugoso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10067
+entryid: 12691
+permalink: 12691
+lesson: Adjectives - Social, Part 1
+lang: es
+english: good
+current: good
+proposed: bueno
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "bueno"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10078
+entryid: 12704
+permalink: 12704
+lesson: Adjectives - Social, Part 3
+lang: es
+english: nice
+current: nice
+proposed: simpático
+kind: untranslated
+reason: Left in English. Of a person, nice is simpático.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "simpático"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 10082
+entryid: 12709
+permalink: 12709
+lesson: Adjectives - Social, Part 4
+lang: es
+english: safe
+current: safe
+proposed: seguro
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "seguro"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 10092
+entryid: 12722
+permalink: 12722
+lesson: Adjectives - Social, Part 7
+lang: es
+english: keen
+current: afilado
+proposed: entusiasta
+kind: wrong-sense
+reason: Afilado is keen as in a sharp blade. Among social adjectives, keen is eager: entusiasta.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "entusiasta"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10100
+entryid: 12732
+permalink: 12732
+lesson: Adjectives - Social, Part 9
+lang: es
+english: mean
+current: media
+proposed: malo
+kind: wrong-word
+reason: Media is the average. Mean, unkind, is malo.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "malo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10103
+entryid: 12736
+permalink: 12736
+lesson: Adjectives - Social, Part 10
+lang: es
+english: loud
+current: loud
+proposed: escandaloso
+kind: untranslated
+reason: Left in English. A loud person is escandaloso; ruidoso is already the lesson's word for noisy.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "escandaloso"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 10106
+entryid: 12740
+permalink: 12740
+lesson: Adjectives - Social, Part 11
+lang: es
+english: curious
+current: curious
+proposed: curioso
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "curioso"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 10107
+entryid: 12741
+permalink: 12741
+lesson: Adjectives - Social, Part 11
+lang: es
+english: unfair
+current: unfair
+proposed: injusto
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "injusto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10110
+entryid: 12745
+permalink: 12745
+lesson: Adjectives - Social, Part 12
+lang: es
+english: lonely
+current: lonely
+proposed: solitario
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "solitario"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10111
+entryid: 12746
+permalink: 12746
+lesson: Adjectives - Social, Part 12
+lang: es
+english: casual
+current: casual
+proposed: informal
+kind: false-friend
+reason: Left in English, where it reads as Spanish casual, which means by chance. Casual in manner is informal.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "informal"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 10120
+entryid: 12757
+permalink: 12757
+lesson: Adjectives - Social, Part 14
+lang: es
+english: bold
+current: bold
+proposed: atrevido
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "atrevido"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10122
+entryid: 12760
+permalink: 12760
+lesson: Adjectives - Social, Part 15
+lang: es
+english: divine
+current: adivinar
+proposed: divino
+kind: wrong-word
+reason: Adivinar is to guess. Divine is divino.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "divino"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10125
+entryid: 12763
+permalink: 12763
+lesson: Adjectives - Social, Part 15
+lang: es
+english: polite
+current: polite
+proposed: educado
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "educado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10127
+entryid: 12766
+permalink: 12766
+lesson: Adjectives - Social, Part 16
+lang: es
+english: noisy
+current: noisy
+proposed: ruidoso
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "ruidoso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10134
+entryid: 12775
+permalink: 12775
+lesson: Adjectives - Social, Part 18
+lang: es
+english: fancy
+current: fancy
+proposed: sofisticado
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "sofisticado"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 10148
+entryid: 12792
+permalink: 12792
+lesson: Adjectives - Social, Part 21
+lang: es
+english: cunning
+current: cunning
+proposed: astuto
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "astuto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10153
+entryid: 12798
+permalink: 12798
+lesson: Adjectives - Social, Part 22
+lang: es
+english: posh
+current: posh
+proposed: elegante
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "elegante"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10174
+entryid: 12825
+permalink: 12825
+lesson: Adjectives - Social, Part 28
+lang: es
+english: arty
+current: pretensioso
+proposed: artístico
+kind: wrong-word
+reason: Pretensioso is pretentious, and misspelt besides (pretencioso). Arty is artístico.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "artístico"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10200
+entryid: 12858
+permalink: 12858
+lesson: Adjectives - Feeling, Part 2
+lang: es
+english: sorry
+current: lo siento
+proposed: arrepentido
+kind: wrong-class
+reason: Lo siento is the apology, I'm sorry. Among adjectives of feeling, sorry is arrepentido.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "arrepentido"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 10204
+entryid: 12863
+permalink: 12863
+lesson: Adjectives - Feeling, Part 3
+lang: es
+english: hot
+current: hot
+proposed: caliente
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "caliente"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10221
+entryid: 12885
+permalink: 12885
+lesson: Adjectives - Feeling, Part 8
+lang: es
+english: smooth
+current: smooth
+proposed: suave
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "suave"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 10224
+entryid: 12889
+permalink: 12889
+lesson: Adjectives - Feeling, Part 9
+lang: es
+english: urgent
+current: urgent
+proposed: urgente
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "urgente"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 10228
+entryid: 12894
+permalink: 12894
+lesson: Adjectives - Feeling, Part 10
+lang: es
+english: brave
+current: brave
+proposed: valiente
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "valiente"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 10231
+entryid: 12897
+permalink: 12897
+lesson: Adjectives - Feeling, Part 10
+lang: es
+english: calm
+current: calm
+proposed: calmado
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "calmado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10238
+entryid: 12906
+permalink: 12906
+lesson: Adjectives - Feeling, Part 12
+lang: es
+english: icy
+current: icy
+proposed: helado
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "helado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10243
+entryid: 12912
+permalink: 12912
+lesson: Adjectives - Feeling, Part 13
+lang: es
+english: coarse
+current: grueso
+proposed: áspero
+kind: wrong-sense
+reason: Grueso is thick. Coarse to the touch is áspero.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "áspero"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 10270
+entryid: 12946
+permalink: 12946
+lesson: Adjectives - Feeling, Part 20
+lang: es
+english: slimey
+current: Slimey
+proposed: viscoso
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "viscoso"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10271
+entryid: 12947
+permalink: 12947
+lesson: Adjectives - Feeling, Part 20
+lang: es
+english: salty
+current: salty
+proposed: salado
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "salado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10295
+entryid: 12977
+permalink: 12977
+lesson: Adjectives - Feeling, Part 26
+lang: es
+english: strong
+current: strong
+proposed: fuerte
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "fuerte"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10299
+entryid: 12982
+permalink: 12982
+lesson: Adjectives - Appearance, Part 1
+lang: es
+english: fine
+current: multa
+proposed: fino
+kind: wrong-sense
+reason: Multa is a fine, the penalty. Fine in appearance is fino.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "fino"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10305
+entryid: 12990
+permalink: 12990
+lesson: Adjectives - Appearance, Part 3
+lang: es
+english: sunny
+current: sunny
+proposed: soleado
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "soleado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10312
+entryid: 12999
+permalink: 12999
+lesson: Adjectives - Appearance, Part 5
+lang: es
+english: pretty
+current: pretty
+proposed: bonito
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "bonito"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10313
+entryid: 13000
+permalink: 13000
+lesson: Adjectives - Appearance, Part 5
+lang: es
+english: still
+current: still
+proposed: quieto
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "quieto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10335
+entryid: 13027
+permalink: 13027
+lesson: Adjectives - Appearance, Part 10
+lang: es
+english: curly
+current: curly
+proposed: rizado
+kind: untranslated
+reason: Left in English. Curly is rizado; ondulado is wavy.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "rizado"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 10336
+entryid: 13029
+permalink: 13029
+lesson: Adjectives - Appearance, Part 11
+lang: es
+english: stout
+current: cerveza negra
+proposed: robusto
+kind: wrong-sense
+reason: Cerveza negra is stout the beer. Stout in build is robusto.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "robusto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10339
+entryid: 13032
+permalink: 13032
+lesson: Adjectives - Appearance, Part 11
+lang: es
+english: shadowy
+current: vago
+proposed: sombrío
+kind: wrong-word
+reason: Vago is vague. Shadowy is sombrío.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "sombrío"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 10348
+entryid: 13044
+permalink: 13044
+lesson: Adjectives - Appearance, Part 14
+lang: es
+english: rosey
+current: Rosey traducción
+proposed: rosado
+kind: corrupt
+reason: The English word and "traducción" were left in the row.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "rosado"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 38678
+entryid: 48532
+permalink: 48532
+lesson: Verbs - Physical Activity, Part 1
+lang: es
+english: stand
+current: estar
+proposed: estar de pie
+kind: wrong-sense
+reason: Estar is to be. To stand is estar de pie.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "pie"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 38683
+entryid: 48538
+permalink: 48538
+lesson: Verbs - Physical Activity, Part 2
+lang: es
+english: catch
+current: captura
+proposed: atrapar
+kind: wrong-class
+reason: Captura is the noun. To catch is atrapar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "atrapar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 38687
+entryid: 48543
+permalink: 48543
+lesson: Verbs - Physical Activity, Part 3
+lang: es
+english: lay
+current: laico
+proposed: poner
+kind: wrong-word
+reason: Laico is lay as in not clergy. To lay something down is poner.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "poner"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 38690
+entryid: 48547
+permalink: 48547
+lesson: Verbs - Physical Activity, Part 4
+lang: es
+english: fly
+current: mosca
+proposed: volar
+kind: wrong-word
+reason: Mosca is the insect. To fly is volar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "volar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 38696
+entryid: 48555
+permalink: 48555
+lesson: Verbs - Physical Activity, Part 6
+lang: es
+english: strike
+current: Huelga
+proposed: golpear
+kind: wrong-sense
+reason: Huelga is a strike by workers. To strike a blow is golpear.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "golpear"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 38703
+entryid: 48563
+permalink: 48563
+lesson: Verbs - Physical Activity, Part 7
+lang: es
+english: train
+current: tren
+proposed: entrenar
+kind: wrong-word
+reason: Tren is the railway train. To train is entrenar.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "entrenar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 38803
+entryid: 48665
+permalink: 48665
+lesson: Nouns - Objects, Part 62
+lang: es
+english: coin
+current: acuñar
+proposed: moneda
+kind: wrong-class
+reason: Acuñar is the verb, to mint. A coin is una moneda.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "moneda"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 39862
+entryid: 49853
+permalink: 49853
+lesson: Entertainment - Music, Part 3
+lang: es
+english: swing
+current: oscilación
+proposed: swing
+kind: wrong-sense
+reason: Oscilación is a physical swing. In a music lesson it is the genre, which Spanish calls swing.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "swing"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 39871
+entryid: 49864
+permalink: 49864
+lesson: Entertainment - Music, Part 5
+lang: es
+english: drum and bass
+current: batería y bajo
+proposed: drum and bass
+kind: wrong-sense
+reason: Batería y bajo is the two instruments. The genre keeps its English name in Spanish.
+source: Wikipedia en español, "Drum and bass"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 39964
+entryid: 49982
+permalink: 49982
+lesson: Entertainment - Film, Part 4
+lang: es
+english: B-Movie
+current: B-Movie
+proposed: película de serie B
+kind: untranslated
+reason: Left in English. Spanish says película de serie B.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "serie"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 39966
+entryid: 49986
+permalink: 49986
+lesson: Entertainment - Film, Part 5
+lang: es
+english: dance dance revolution
+current: danza, danza, revolución
+proposed: Dance Dance Revolution
+kind: wrong-word
+reason: A game's title, translated word for word. It is sold in Spanish under its English name.
+source: Konami's Spanish-market releases, sold as "Dance Dance Revolution"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 39999
+entryid: 50027
+permalink: 50027
+lesson: Entertainment - Sports, Part 4
+lang: es
+english: cricket
+current: Grillo
+proposed: críquet
+kind: wrong-sense
+reason: Grillo is the insect. The sport is críquet.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "críquet"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40026
+entryid: 50060
+permalink: 50060
+lesson: Entertainment - Sports, Part 7
+lang: es
+english: rc racing
+current: rc racing
+proposed: carreras de coches a control remoto
+kind: untranslated
+reason: Left in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "control"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40053
+entryid: 50094
+permalink: 50094
+lesson: Entertainment - Gaming, Part 3
+lang: es
+english: puzzle game
+current: rompecabezas
+proposed: juego de rompecabezas
+kind: wrong-sense
+reason: Rompecabezas alone is the puzzle itself, not the kind of game.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "rompecabezas"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40188
+entryid: 50263
+permalink: 50263
+lesson: Culture - Countries, Part 5
+lang: es
+english: Iran
+current: Corrí
+proposed: Irán
+kind: wrong-word
+reason: Corrí is "I ran". The country is Irán.
+source: Real Academia Española, Diccionario panhispánico de dudas, "Irán"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40267
+entryid: 50361
+permalink: 50361
+lesson: Culture - Ethnicities, Part 5
+lang: es
+english: Congolese
+current: Congoleño
+proposed: congoleño
+kind: orthography
+reason: Nationalities take a small letter in Spanish, as the rest of the lesson does.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "congoleño"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 40277
+entryid: 50375
+permalink: 50375
+lesson: Culture - Ethnicities, Part 7
+lang: es
+english: South Korean
+current: sur coreano
+proposed: surcoreano
+kind: orthography
+reason: Written as one word.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "surcoreano"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40279
+entryid: 50377
+permalink: 50377
+lesson: Culture - Ethnicities, Part 7
+lang: es
+english: North Korean
+current: Corea del Norte
+proposed: norcoreano
+kind: wrong-class
+reason: Corea del Norte is the country. A North Korean is norcoreano.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "norcoreano"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 40283
+entryid: 50381
+permalink: 50381
+lesson: Culture - Ethnicities, Part 7
+lang: es
+english: Spanish
+current: Español
+proposed: español
+kind: orthography
+reason: Nationalities take a small letter in Spanish, as the rest of the lesson does.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "español"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 40285
+entryid: 50385
+permalink: 50385
+lesson: Culture - Ethnicities, Part 8
+lang: es
+english: Argentinian
+current: Argentino
+proposed: argentino
+kind: orthography
+reason: Nationalities take a small letter in Spanish, as the rest of the lesson does.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "argentino"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 40304
+entryid: 50408
+permalink: 50408
+lesson: Culture - Languages, Part 1
+lang: es
+english: English
+current: Inglés
+proposed: inglés
+kind: orthography
+reason: Languages take a small letter in Spanish, as the rest of the lesson does.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "inglés"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 40308
+entryid: 50412
+permalink: 50412
+lesson: Culture - Languages, Part 1
+lang: es
+english: Arabic
+current: Arábica
+proposed: árabe
+kind: wrong-word
+reason: Arábica is the coffee plant. The language is árabe.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "árabe"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40312
+entryid: 50418
+permalink: 50418
+lesson: Culture - Languages, Part 2
+lang: es
+english: Punjabi
+current: punjabi
+proposed: panyabí
+kind: orthography
+reason: The Academy's Spanish spelling.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "panyabí"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40380
+entryid: 50503
+permalink: 50503
+lesson: Culture - Capitals, Part 9
+lang: es
+english: Stockholm, Sweden
+current: Estocolmo, Suiza
+proposed: Estocolmo, Suecia
+kind: wrong-word
+reason: Suiza is Switzerland. Stockholm is in Suecia.
+source: Real Academia Española, Diccionario panhispánico de dudas, "Suecia"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40407
+entryid: 50537
+permalink: 50537
+lesson: Culture - Politics, Part 2
+lang: es
+english: statism
+current: estadismo
+proposed: estatismo
+kind: wrong-word
+reason: Estadismo is a different, rare word. Statism is estatismo.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "estatismo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40436
+entryid: 50574
+permalink: 50574
+lesson: Culture - Politics, Part 6
+lang: es
+english: judiciary
+current: judicial
+proposed: poder judicial
+kind: wrong-class
+reason: Judicial is the adjective. The judiciary is el poder judicial.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "poder"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40503
+entryid: 50657
+permalink: 50657
+lesson: Culture - Politics, Part 14
+lang: es
+english: bill
+current: cuenta
+proposed: proyecto de ley
+kind: wrong-sense
+reason: Cuenta is a bill at a restaurant. A bill in parliament is un proyecto de ley.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "proyecto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40514
+entryid: 50671
+permalink: 50671
+lesson: Culture - Politics, Part 15
+lang: es
+english: constituent
+current: Constitucion
+proposed: elector
+kind: wrong-word
+reason: Constitución is a constitution. A constituent, a voter in a district, is un elector.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "elector"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 40535
+entryid: 50698
+permalink: 50698
+lesson: Culture - Politics, Part 18
+lang: es
+english: grass roots
+current: Raíces
+proposed: bases
+kind: wrong-sense
+reason: Raíces is the roots of a plant. The grass roots of a party are its bases.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "base"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 40559
+entryid: 50728
+permalink: 50728
+lesson: Culture - Politics, Part 21
+lang: es
+english: muckraker
+current: escarbador de vidas ajenas
+proposed: periodista de investigación
+kind: wrong-word
+reason: A muckraker exposes corruption; escarbador de vidas ajenas is a gossip.
+source: Fundéu RAE, "muckraker"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40576
+entryid: 50749
+permalink: 50749
+lesson: Culture - Politics, Part 23
+lang: es
+english: lumpenproletariat
+current: lumpenproletariat
+proposed: lumpenproletariado
+kind: untranslated
+reason: Left in English and German.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "lumpen"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40625
+entryid: 50810
+permalink: 50810
+lesson: Culture - Politics, Part 29
+lang: es
+english: ruler
+current: regla
+proposed: gobernante
+kind: wrong-sense
+reason: Regla is a ruler for drawing lines. In politics it is gobernante.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "gobernante"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40667
+entryid: 50862
+permalink: 50862
+lesson: Culture - Politics, Part 34
+lang: es
+english: theocrat
+current: teocrat
+proposed: teócrata
+kind: untranslated
+reason: Cut short and left half in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "teócrata"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40678
+entryid: 50876
+permalink: 50876
+lesson: Culture - Politics, Part 35
+lang: es
+english: soviet
+current: soviet
+proposed: sóviet
+kind: orthography
+reason: The council, the noun, is sóviet with its accent; soviético is the adjective.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "sóviet"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 40694
+entryid: 50896
+permalink: 50896
+lesson: Culture - Politics, Part 37
+lang: es
+english: congresswoman
+current: mujer participante
+proposed: congresista
+kind: wrong-word
+reason: Mujer participante is a woman taking part. A congresswoman is una congresista.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "congresista"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40736
+entryid: 50948
+permalink: 50948
+lesson: Adjectives - Numbers, Part 1
+lang: es
+english: four
+current: las cuatro
+proposed: cuatro
+kind: orthography
+reason: A stray article: las cuatro is four o'clock.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cuatro"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40762
+entryid: 50982
+permalink: 50982
+lesson: Adjectives - Numbers, Part 5
+lang: es
+english: seventeen
+current: de diecisiete
+proposed: diecisiete
+kind: orthography
+reason: A stray "de" was left in front of the number.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "diecisiete"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 40883
+entryid: 51134
+permalink: 51134
+lesson: Adjectives - Numbers, Part 20
+lang: es
+english: two thousand, one hundred, one
+current: dos mil cien cien
+proposed: dos mil ciento uno
+kind: orthography
+reason: Cien was written twice and the one was lost.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "ciento"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 46696
+entryid: 58421
+permalink: 58421
+lesson: Culture - Food and Drink, Part 7
+lang: es
+english: dip
+current: inmersión
+proposed: salsa para mojar
+kind: wrong-sense
+reason: Inmersión is dipping into liquid. The food is a sauce to dip into.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "salsa"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 46705
+entryid: 58432
+permalink: 58432
+lesson: Culture - Food and Drink, Part 8
+lang: es
+english: bread roll
+current: rollo de pan
+proposed: panecillo
+kind: wrong-word
+reason: Rollo de pan is a word-for-word calque. A bread roll is un panecillo.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "panecillo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 46789
+entryid: 58536
+permalink: 58536
+lesson: Culture - Food and Drink, Part 19
+lang: es
+english: liquor
+current: espíritu
+proposed: licor
+kind: wrong-word
+reason: Espíritu is spirit as in soul. Liquor is licor.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "licor"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 47858
+entryid: 59887
+permalink: 59887
+lesson: Phrases - Introductions, Part 2
+lang: es
+english: How is he?
+current: ¿Como es el?
+proposed: ¿Cómo está él?
+kind: wrong-sense
+reason: ¿Cómo es él? asks what he is like. How is he doing is ¿Cómo está él?, with its accents.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cómo"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 47881
+entryid: 59919
+permalink: 59919
+lesson: Phrases - Introductions, Part 6
+lang: es
+english: I am good.
+current: Soy bueno.
+proposed: Estoy bien.
+kind: wrong-sense
+reason: Soy bueno is "I am a good person". I am well is Estoy bien.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "bien"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 47913
+entryid: 59960
+permalink: 59960
+lesson: Phrases - Manners, Part 4
+lang: es
+english: Cheers!
+current: ¡Aclamaciones!
+proposed: ¡Salud!
+kind: wrong-word
+reason: Aclamaciones is cheering from a crowd. The toast is ¡Salud!
+source: Real Academia Española, Diccionario de la lengua española, s.v. "salud"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 48838
+entryid: 61196
+permalink: 61196
+lesson: Phrases - Travel, Part 2
+lang: es
+english: Is it close?
+current: ¿Está cerrado?
+proposed: ¿Está cerca?
+kind: wrong-word
+reason: Cerrado is closed. Close by is cerca.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cerca"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 48864
+entryid: 61225
+permalink: 61225
+lesson: Phrases - Travel, Part 5
+lang: es
+english: Have you been to St. Petersburg?
+current: ¿Te has alojado en el St. Petersburg?
+proposed: ¿Has estado en San Petersburgo?
+kind: wrong-sense
+reason: This asked whether you stayed at a hotel called the St. Petersburg. The city is San Petersburgo.
+source: Real Academia Española, Ortografía, toponyms: "San Petersburgo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 48937
+entryid: 61307
+permalink: 61307
+lesson: Phrases - Travel, Part 14
+lang: es
+english: How long is the car drive?
+current: ¿Cuánto dura la unidad de coche?
+proposed: ¿Cuánto dura el trayecto en coche?
+kind: wrong-word
+reason: Unidad is a drive in the sense of a disk drive.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "trayecto"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 49611
+entryid: 62142
+permalink: 62142
+lesson: Phrases - Emergency, Part 1
+lang: es
+english: Help me!
+current: ¡Ayuadame!
+proposed: ¡Ayúdame!
+kind: orthography
+reason: Misspelt, and missing its accent.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "ayudar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 49699
+entryid: 62253
+permalink: 62253
+lesson: Phrases - Knowledge, Part 3
+lang: es
+english: Do you study English?
+current: Que estudias estudias ingles
+proposed: ¿Estudias inglés?
+kind: corrupt
+reason: Words repeated and the question marks lost.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "estudiar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 49748
+entryid: 62314
+permalink: 62314
+lesson: Phrases - Knowledge, Part 9
+lang: es
+english: How did it happen?
+current: ¿Como paso?
+proposed: ¿Cómo pasó?
+kind: orthography
+reason: Missing both accents.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cómo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 50171
+entryid: 62846
+permalink: 62846
+lesson: Phrases - Time, Part 24
+lang: es
+english: When are you coming?
+current: ¿Cuando vienes?
+proposed: ¿Cuándo vienes?
+kind: orthography
+reason: Missing its accent.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cuándo"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 50219
+entryid: 62905
+permalink: 62905
+lesson: Phrases - Time, Part 29
+lang: es
+english: For how many nights?
+current: Translating...
+proposed: ¿Para cuántas noches?
+kind: untranslated
+reason: The placeholder "Translating..." was saved in place of the phrase.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "noche"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 50223
+entryid: 62910
+permalink: 62910
+lesson: Phrases - Time, Part 30
+lang: es
+english: Do you have a map of the city?
+current: ¿Cuántas noches tienes un mapa de la ciudad?
+proposed: ¿Tienes un mapa de la ciudad?
+kind: corrupt
+reason: Words from the previous phrase, how many nights, were run into this one.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "mapa"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 50287
+entryid: 62990
+permalink: 62990
+lesson: Phrases - Social Activity, Part 2
+lang: es
+english: We are sold out.
+current: Estamos agotados.
+proposed: Está todo agotado.
+kind: wrong-sense
+reason: Estamos agotados is "we are exhausted". It is the stock that has run out.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "agotar"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 50498
+entryid: 63234
+permalink: 63234
+lesson: Phrases - Social Activity, Part 3
+lang: es
+english: Are you single?
+current: ¿Estas soltero?
+proposed: ¿Estás soltero?
+kind: orthography
+reason: Missing its accent.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "soltero"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 50701
+entryid: 63483
+permalink: 63483
+lesson: Phrases - Objects, Part 7
+lang: es
+english: I have never seen that before.
+current: Pensé que las ropas eran más expensI nunca he visto que before.ve.
+proposed: Nunca he visto eso antes.
+kind: corrupt
+reason: Two phrases were spliced together, half in English.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "ver"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 50935
+entryid: 63777
+permalink: 63777
+lesson: Phrases - Objects, Part 35
+lang: es
+english: I will try it on.
+current: Lo intentaré.
+proposed: Me lo probaré.
+kind: wrong-sense
+reason: Lo intentaré is "I will attempt it". Trying on clothes is probarse.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "probar"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 51006
+entryid: 63866
+permalink: 63866
+lesson: Phrases - Objects, Part 44
+lang: es
+english: I'll take this one.
+current: Tomaré esta.
+proposed: Me llevo este.
+kind: register
+reason: Tomaré esta is understood but not what a shopper says. Choosing to buy is llevarse.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "llevar"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 51009
+entryid: 63871
+permalink: 63871
+lesson: (no lesson)
+lang: es
+english: Can you please put this in the car for me?
+current: ŻPuedes poner esto en el auto para mí?
+proposed: ¿Puedes poner esto en el auto para mí?
+kind: corrupt
+reason: The opening ¿ was mangled into Ż in transit.
+source: Real Academia Española, Ortografía, signos de interrogación
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 51012
+entryid: 63875
+permalink: 63875
+lesson: Phrases - Objects, Part 45
+lang: es
+english: Can you please put this in the car for me?
+current: ŻPuedes poner esto en el auto para mí?
+proposed: ¿Puedes poner esto en el auto para mí?
+kind: corrupt
+reason: The opening ¿ was mangled into Ż in transit.
+source: Real Academia Española, Ortografía, signos de interrogación
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 51061
+entryid: 63936
+permalink: 63936
+lesson: Phrases - Objects, Part 51
+lang: es
+english: One like this?
+current: ¿A uno así?
+proposed: ¿Uno así?
+kind: orthography
+reason: A stray "a" in front of the phrase.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "así"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 51223
+entryid: 64139
+permalink: 64139
+lesson: Phrases - Money, Part 10
+lang: es
+english: What's the dollar exchange rate?
+current: Se cobran 5 dólares y 50 centavos por tWhat es el tipo de cambio del dólar? Tour e.
+proposed: ¿Cuál es el tipo de cambio del dólar?
+kind: corrupt
+reason: Another phrase, about a five-dollar charge, was spliced into this one with English left inside.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "cambio"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 51235
+entryid: 64155
+permalink: 64155
+lesson: Phrases - Money, Part 12
+lang: es
+english: How much all together?
+current: ¿Cuánto están todos juntos?
+proposed: ¿Cuánto es en total?
+kind: wrong-word
+reason: This asks how much they all are together, as people. The total is en total.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "total"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 51335
+entryid: 64280
+permalink: 64280
+lesson: Phrases - Communication, Part 2
+lang: es
+english: Nevermind.
+current: Translating...
+proposed: No importa.
+kind: untranslated
+reason: The placeholder "Translating..." was saved in place of the phrase.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "importar"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 51637
+entryid: 64657
+permalink: 64657
+lesson: Phrases - Translation, Part 6
+lang: es
+english: How do you pronounce that?
+current: ¿Como pronuncias eso?
+proposed: ¿Cómo se pronuncia eso?
+kind: orthography
+reason: Missing its accent.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "pronunciar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 51696
+entryid: 64731
+permalink: 64731
+lesson: Phrases - Weather, Part 5
+lang: es
+english: How hot is it?
+current: ¿Qué tan caliente es?
+proposed: ¿Cuánto calor hace?
+kind: wrong-word
+reason: Asks how hot something is to the touch. Of the weather, Spanish asks how much heat it makes.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "calor"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 51732
+entryid: 64776
+permalink: 64776
+lesson: Phrases - Weather, Part 9
+lang: es
+english: It's going to snow.
+current: Que va a la nieve.
+proposed: Va a nevar.
+kind: wrong-word
+reason: Que va a la nieve is "that goes to the snow".
+source: Real Academia Española, Diccionario de la lengua española, s.v. "nevar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 51734
+entryid: 64778
+permalink: 64778
+lesson: Phrases - Weather, Part 9
+lang: es
+english: It's going to storm.
+current: Va a la tormenta.
+proposed: Va a haber tormenta.
+kind: wrong-word
+reason: Va a la tormenta is "he goes to the storm".
+source: Real Academia Española, Diccionario de la lengua española, s.v. "tormenta"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 51743
+entryid: 64789
+permalink: 64789
+lesson: Phrases - Weather, Part 10
+lang: es
+english: It is storming now.
+current: Ahora está asaltando.
+proposed: Ahora hay tormenta.
+kind: wrong-word
+reason: Está asaltando is "is assaulting", storming a castle.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "tormenta"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 51749
+entryid: 64797
+permalink: 64797
+lesson: Phrases - Weather, Part 11
+lang: es
+english: Did it snow?
+current: ¿Nieve?
+proposed: ¿Nevó?
+kind: wrong-class
+reason: Nieve is the noun, snow. Did it snow is ¿Nevó?
+source: Real Academia Española, Diccionario de la lengua española, s.v. "nevar"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 51843
+entryid: 64915
+permalink: 64915
+lesson: Culture - Currencies, Part 1
+lang: es
+english: British Pound
+current: Libra Brasileña RealBritish
+proposed: Libra esterlina
+kind: corrupt
+reason: Pieces of the Brazilian Real and the English were run together. The pound is libra esterlina.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "libra"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 51848
+entryid: 64921
+permalink: 64921
+lesson: Culture - Currencies, Part 2
+lang: es
+english: Mexican Peso
+current: Peso Mexicano
+proposed: Peso mexicano
+kind: orthography
+reason: Small letter for the adjective, as the rest of the lesson has.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "peso"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 51857
+entryid: 64932
+permalink: 64932
+lesson: Culture - Currencies, Part 3
+lang: es
+english: Czech Koruna
+current: Corona Checa
+proposed: Corona checa
+kind: orthography
+reason: Small letter for the adjective, as the rest of the lesson has.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "corona"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 51858
+entryid: 64934
+permalink: 64934
+lesson: Culture - Currencies, Part 3
+lang: es
+english: Canadian Dollar
+current: Dolar canadiense
+proposed: Dólar canadiense
+kind: orthography
+reason: Missing its accent.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "dólar"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 51860
+entryid: 64936
+permalink: 64936
+lesson: Culture - Currencies, Part 3
+lang: es
+english: Indian Rupee
+current: Dólar canadienseRupia india
+proposed: Rupia india
+kind: corrupt
+reason: The Canadian Dollar was run into the front of it.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "rupia"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 51870
+entryid: 64948
+permalink: 64948
+lesson: Culture - Currencies, Part 4
+lang: es
+english: Korean Won
+current: Coreano ganó
+proposed: Won coreano
+kind: wrong-word
+reason: Coreano ganó is "Korean won", the past tense of winning. The currency is the won.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "won"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 51875
+entryid: 64955
+permalink: 64955
+lesson: Culture - Currencies, Part 5
+lang: es
+english: Forint
+current: Forint
+proposed: Forinto
+kind: untranslated
+reason: Left in English. The Academy's Spanish spelling is forinto.
+source: Real Academia Española, Diccionario de la lengua española, s.v. "forinto"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
