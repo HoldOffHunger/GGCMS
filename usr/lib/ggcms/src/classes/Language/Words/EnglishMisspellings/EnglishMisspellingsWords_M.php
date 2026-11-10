@@ -71,8 +71,32 @@
 				'macabrely'=>[
 					'macabrly',
 				],
+				'macadam'=>[
+					'maadam',
+					'macdam',
+				],
 				'macadamia'=>[
 					'macademia',
+					'macadamai',
+				],
+				'macadamias'=>[
+					'macadamais',
+				],
+				'macao'=>[
+					'macoa',
+				],
+				'macaque'=>[
+					'macaqeu',
+				],
+				'macaques'=>[
+					'macaqeus',
+				],
+				'macarena'=>[
+					'maarena',
+					'macrena',
+				],
+				'macaronies'=>[
+					'macaroneis',
 				],
 				'macaroon'=>[
 					'macarooon',
@@ -93,14 +117,45 @@
 				'maccoll'=>[
 					'maccall',
 				],
+				'macedonia'=>[
+					'macedonai',
+				],
 				'macedonian-occupied'=>[
 					'macedonian occupied',
+				],
+				'macerate'=>[
+					'maceate',
+					'macrate',
+				],
+				'macerated'=>[
+					'maceated',
+					'macrated',
+				],
+				'macerates'=>[
+					'maceates',
+					'macrates',
+				],
+				'macerating'=>[
+					'maceating',
+					'macrating',
+				],
+				'maceration'=>[
+					'maceation',
+					'maceratoin',
+					'maceraton',
+					'macration',
 				],
 				'machiavelli'=>[
 					'machiavel',
 				],
 				'machiavellian'=>[
 					'machiavelllian',
+					'machaivellian',
+					'machiavellain',
+				],
+				'machicolation'=>[
+					'machicolatoin',
+					'machicolaton',
 				],
 				'machinabilities'=>[
 					'machinibilities',
@@ -108,11 +163,20 @@
 				'machinability'=>[
 					'machinibility',
 				],
+				'machinable'=>[
+					'machinible',
+				],
 				'machinate'=>[
 					'machinite',
 				],
 				'machination'=>[
 					'machinition',
+					'machinatoin',
+					'machinaton',
+				],
+				'machinations'=>[
+					'machinatoins',
+					'machinatons',
 				],
 				'machine'=>[
 					'machine machine',
@@ -125,8 +189,12 @@
 					'machinebility',
 					'machiniability',
 				],
+				'machined'=>[
+					'machind',
+				],
 				'machinery'=>[
 					'machiniry',
+					'machinary',
 				],
 				'machines'=>[
 					'macliines',
@@ -161,6 +229,18 @@
 				'macroaggregates'=>[
 					'macroagregates',
 				],
+				'macrobiotic'=>[
+					'macroboitic',
+				],
+				'macrobiotics'=>[
+					'macroboitics',
+				],
+				'macrocephalies'=>[
+					'macrocephaleis',
+				],
+				'macrocephalous'=>[
+					'macrocephaluos',
+				],
 				'macrocosmically'=>[
 					'macrocosmicalally',
 					'macrocosmicalaly',
@@ -171,17 +251,34 @@
 				'macrocyclization'=>[
 					'macrocylization',
 				],
+				'macroeconomic'=>[
+					'macreoconomic',
+				],
+				'macroeconomics'=>[
+					'macreoconomics',
+				],
+				'macroeconomist'=>[
+					'macreoconomist',
+				],
 				'macrofilaricide'=>[
 					'macrofilariacide',
 				],
 				'macroglobulinemia'=>[
 					'macrogloblinemia',
 				],
+				'macroinstruction'=>[
+					'macrionstruction',
+					'macroinstructoin',
+					'macroinstructon',
+				],
 				'macromolecular'=>[
 					'macromoleculer',
 				],
 				'macronuclear'=>[
 					'macronucleer',
+				],
+				'macronucleus'=>[
+					'macronuclues',
 				],
 				'macronutrient'=>[
 					'macronutreint',
@@ -196,11 +293,16 @@
 				],
 				'macropterous'=>[
 					'macroptyrous',
+					'macropteruos',
 				],
 				'macroscopic'=>[
 					'macrocopic',
 					'macrocsopic',
 					'macrosopic',
+				],
+				'macroscopical'=>[
+					'macrocopical',
+					'macrosopical',
 				],
 				'macroscopically'=>[
 					'macrocopically',
@@ -212,8 +314,20 @@
 					'macrosopically',
 					'macroscopicaly',
 				],
+				'maculation'=>[
+					'maculatoin',
+					'maculaton',
+				],
+				'maculations'=>[
+					'maculatoins',
+					'maculatons',
+				],
 				'mad'=>[
 					'niad',
+				],
+				'madcaps'=>[
+					'macaps',
+					'madaps',
 				],
 				'madden'=>[
 					'maddden',
@@ -251,6 +365,9 @@
 					'niade',
 					'rnade',
 				],
+				'madeira'=>[
+					'madiera',
+				],
 				'madeiras'=>[
 					'madieras',
 				],
@@ -264,10 +381,22 @@
 				'mademoiselle'=>[
 					'mademoisele',
 					'mademoisellle',
+					'mademioselle',
 				],
 				'mademoiselles'=>[
 					'mademoiseles',
 					'mademoisellles',
+					'mademioselles',
+				],
+				'madhouse'=>[
+					'madhuose',
+					'madouse',
+					'mahouse',
+				],
+				'madhouses'=>[
+					'madhuoses',
+					'madouses',
+					'mahouses',
 				],
 				'madly'=>[
 					'madally',
@@ -302,6 +431,42 @@
 				],
 				'madrigalian'=>[
 					'madrigalan',
+					'madrigalain',
+				],
+				'madwoman'=>[
+					'madoman',
+					'mawoman',
+				],
+				'madwomen'=>[
+					'madomen',
+					'mawomen',
+				],
+				'maelstrom'=>[
+					'mealstrom',
+				],
+				'maelstroms'=>[
+					'mealstroms',
+				],
+				'maenad'=>[
+					'meanad',
+				],
+				'maenadic'=>[
+					'meanadic',
+				],
+				'maenads'=>[
+					'meanads',
+				],
+				'maestoso'=>[
+					'meastoso',
+				],
+				'maestri'=>[
+					'meastri',
+				],
+				'maestro'=>[
+					'meastro',
+				],
+				'maestros'=>[
+					'meastros',
 				],
 				'maffick'=>[
 					'mafffick',
@@ -319,6 +484,21 @@
 					'maffficks',
 					'maficks',
 				],
+				'mafia'=>[
+					'mafai',
+				],
+				'mafias'=>[
+					'mafais',
+				],
+				'mafiosi'=>[
+					'mafoisi',
+				],
+				'mafioso'=>[
+					'mafoiso',
+				],
+				'mafiosos'=>[
+					'mafoisos',
+				],
 				'magainin'=>[
 					'megainin',
 				],
@@ -331,10 +511,12 @@
 				'maggie'=>[
 					'magggie',
 					'magie',
+					'maggei',
 				],
 				'maggiore'=>[
 					'magggiore',
 					'magiore',
+					'maggoire',
 				],
 				'maggot'=>[
 					'magot',
@@ -356,9 +538,23 @@
 				],
 				'magician'=>[
 					'magican',
+					'magicain',
+				],
+				'magicians'=>[
+					'magicains',
+				],
+				'magicking'=>[
+					'magiking',
+				],
+				'magisterial'=>[
+					'magisterail',
 				],
 				'magisterially'=>[
 					'magisteriallly',
+					'magisterailly',
+				],
+				'magistery'=>[
+					'magistary',
 				],
 				'magistracy'=>[
 					'magistrasy',
@@ -369,15 +565,20 @@
 				'magistrates'=>[
 					'magiftrates',
 				],
+				'magnanimous'=>[
+					'magnanimuos',
+				],
 				'magnanimously'=>[
 					'magnanimousally',
 					'magnanimousaly',
 					'magnanimousely',
 					'magnanimouslly',
+					'magnanimuosly',
 				],
 				'magnanimousness'=>[
 					'magnanimousnes',
 					'magnanimousnesss',
+					'magnanimuosness',
 				],
 				'magnanimousnesses'=>[
 					'magnanimousneses',
@@ -386,8 +587,14 @@
 				'magnate'=>[
 					'magnant',
 				],
+				'magnesia'=>[
+					'magnesai',
+				],
 				'magnesian'=>[
 					'magnesan',
+				],
+				'magnesium'=>[
+					'magnesuim',
 				],
 				'magnet'=>[
 					'magent',
@@ -401,11 +608,36 @@
 					'magneticallly',
 					'magneticaly',
 				],
+				'magnetizable'=>[
+					'magnetizible',
+				],
+				'magnetization'=>[
+					'magnetizatoin',
+					'magnetizaton',
+				],
+				'magnetoelectricity'=>[
+					'magneteolectricity',
+				],
 				'magnetoencephalography'=>[
 					'magnetencephalography',
 				],
 				'magnetometry'=>[
 					'magnetometery',
+				],
+				'magnetostriction'=>[
+					'magnetostrictoin',
+					'magnetostricton',
+				],
+				'magnifiable'=>[
+					'magnifaible',
+				],
+				'magnification'=>[
+					'magnificatoin',
+					'magnificaton',
+				],
+				'magnifications'=>[
+					'magnificatoins',
+					'magnificatons',
 				],
 				'magnificence'=>[
 					'magnificance',
@@ -419,23 +651,61 @@
 					'magnificentaly',
 					'magnificentely',
 					'magnificentlly',
+					'magnificantly',
+				],
+				'magnified'=>[
+					'magnifeid',
 				],
 				'magnifier'=>[
 					'magnifeir',
 					'magnifir',
 				],
+				'magnifiers'=>[
+					'magnifeirs',
+				],
+				'magnifies'=>[
+					'magnifeis',
+				],
 				'magniloquence'=>[
 					'magniloquance',
+					'magniloqeunce',
+				],
+				'magniloquent'=>[
+					'magniloqeunt',
+					'magniloquant',
+				],
+				'magniloquently'=>[
+					'magniloqeuntly',
+					'magniloquantly',
+					'magniloquentely',
 				],
 				'magnoflorine'=>[
 					'magniflorine',
 				],
 				'magnolia'=>[
 					'magolia',
+					'magnolai',
+				],
+				'magnoliaceous'=>[
+					'magnolaiceous',
+					'magnoliaceuos',
+					'magnoliacoeus',
+				],
+				'magnolias'=>[
+					'magnolais',
 				],
 				'magpie'=>[
 					'magpei',
 					'magpi',
+				],
+				'magpies'=>[
+					'magpeis',
+				],
+				'maguey'=>[
+					'mageuy',
+				],
+				'magueys'=>[
+					'mageuys',
 				],
 				'maharaja'=>[
 					'maaraja',
@@ -517,6 +787,7 @@
 				],
 				'mahoganies'=>[
 					'maoganies',
+					'mahoganeis',
 				],
 				'mahogany'=>[
 					'maogany',
@@ -529,9 +800,11 @@
 				],
 				'mahout'=>[
 					'maout',
+					'mahuot',
 				],
 				'mahouts'=>[
 					'maouts',
+					'mahuots',
 				],
 				'mahuang'=>[
 					'mauang',
@@ -548,12 +821,35 @@
 				'mahzors'=>[
 					'mazors',
 				],
+				'maidan'=>[
+					'miadan',
+				],
+				'maiden'=>[
+					'miaden',
+				],
+				'maidenhair'=>[
+					'maidehair',
+					'maidenair',
+					'maidenhiar',
+					'miadenhair',
+				],
 				'maidenhead'=>[
 					'maidenhed',
+					'maidehead',
+					'maidenead',
+					'maidenhaed',
+					'miadenhead',
+				],
+				'maidenheads'=>[
+					'maideheads',
+					'maideneads',
+					'maidenhaeds',
+					'miadenheads',
 				],
 				'maidenhood'=>[
 					'maidenhod',
 					'maidenhoood',
+					'miadenhood',
 				],
 				'maidenlinesses'=>[
 					'maidenlinisses',
@@ -563,20 +859,115 @@
 					'maidenaly',
 					'maidenely',
 					'maidenlly',
+					'miadenly',
+				],
+				'maidens'=>[
+					'miadens',
 				],
 				'maids'=>[
 					'inaids',
+					'miads',
 				],
 				'maidservant'=>[
 					'maidservent',
+					'maidervant',
+					'maiservant',
+					'miadservant',
+				],
+				'maidservants'=>[
+					'maidervants',
+					'maidservents',
+					'maiservants',
+					'miadservants',
+				],
+				'maieutic'=>[
+					'maeiutic',
+					'maiuetic',
+					'miaeutic',
+				],
+				'maigres'=>[
+					'miagres',
+				],
+				'mailable'=>[
+					'mailible',
+					'mialable',
+				],
+				'mailbag'=>[
+					'mialbag',
+				],
+				'mailbags'=>[
+					'maibags',
+					'mailags',
+					'mialbags',
+				],
+				'mailbox'=>[
+					'mialbox',
+				],
+				'mailboxes'=>[
+					'maiboxes',
+					'mailoxes',
+					'mialboxes',
+				],
+				'mailed'=>[
+					'mialed',
+				],
+				'mailer'=>[
+					'mialer',
+				],
+				'mailers'=>[
+					'mialers',
+				],
+				'mailing'=>[
+					'mialing',
+				],
+				'mailings'=>[
+					'mialings',
 				],
 				'maillot'=>[
 					'mailllot',
 					'mailot',
+					'miallot',
 				],
 				'maillots'=>[
 					'mailllots',
 					'mailots',
+					'miallots',
+				],
+				'mailman'=>[
+					'mialman',
+				],
+				'mailmen'=>[
+					'mialmen',
+				],
+				'mails'=>[
+					'mials',
+				],
+				'mailshot'=>[
+					'maishot',
+					'mialshot',
+				],
+				'mailshots'=>[
+					'maishots',
+					'mialshots',
+				],
+				'mailwoman'=>[
+					'mailoman',
+					'maiwoman',
+					'mialwoman',
+				],
+				'maimed'=>[
+					'miamed',
+				],
+				'maimer'=>[
+					'miamer',
+				],
+				'maiming'=>[
+					'maiing',
+					'maming',
+					'miaming',
+				],
+				'maims'=>[
+					'miams',
 				],
 				'main'=>[
 					'main main',
@@ -584,11 +975,59 @@
 					'niain',
 					'rnain',
 				],
+				'mainbrace'=>[
+					'maibrace',
+					'mainrace',
+					'mianbrace',
+				],
+				'mainers'=>[
+					'mianers',
+				],
+				'mainframe'=>[
+					'maiframe',
+					'mainrame',
+					'mianframe',
+				],
+				'mainframes'=>[
+					'maiframes',
+					'mainrames',
+					'mianframes',
+				],
 				'mainland'=>[
 					'mainlaind',
+					'mainand',
+					'mianland',
+				],
+				'mainlands'=>[
+					'mainands',
+					'mianlands',
 				],
 				'mainline'=>[
 					'mainlini',
+					'mailine',
+					'mainine',
+					'mianline',
+				],
+				'mainlined'=>[
+					'mailined',
+					'mainined',
+					'mainlind',
+					'mianlined',
+				],
+				'mainliner'=>[
+					'mailiner',
+					'maininer',
+					'mianliner',
+				],
+				'mainlines'=>[
+					'mailines',
+					'mainines',
+					'mianlines',
+				],
+				'mainlining'=>[
+					'mailining',
+					'mainining',
+					'mianlining',
 				],
 				'mainly'=>[
 					'mainally',
@@ -600,32 +1039,122 @@
 				'mainmast'=>[
 					'maimast',
 					'mainast',
+					'mianmast',
 				],
 				'mainmasts'=>[
 					'maimasts',
 					'mainasts',
+					'mianmasts',
+				],
+				'mainsail'=>[
+					'mainail',
+					'mainsial',
+					'maisail',
+					'miansail',
+				],
+				'mainsails'=>[
+					'mainails',
+					'mainsials',
+					'maisails',
+					'miansails',
 				],
 				'mainsheet'=>[
 					'mainsheeet',
 					'mainshet',
+					'mainheet',
+					'maisheet',
+					'miansheet',
 				],
 				'mainsheets'=>[
 					'mainsheeets',
 					'mainshets',
+					'mainheets',
+					'maisheets',
+					'miansheets',
+				],
+				'mainspring'=>[
+					'mainpring',
+					'maispring',
+					'mianspring',
+				],
+				'mainsprings'=>[
+					'mainprings',
+					'maisprings',
+					'miansprings',
+				],
+				'mainstay'=>[
+					'maintay',
+					'maistay',
+					'mianstay',
+				],
+				'mainstays'=>[
+					'maintays',
+					'maistays',
+					'mianstays',
 				],
 				'mainstream'=>[
 					'mainsteam',
 					'mainstrem',
+					'mainstraem',
+					'maintream',
+					'maistream',
+					'mianstream',
+				],
+				'mainstreamed'=>[
+					'mainstraemed',
+					'mianstreamed',
+				],
+				'mainstreaming'=>[
+					'mainstraeming',
+					'maintreaming',
+					'maistreaming',
+					'mianstreaming',
+				],
+				'mainstreams'=>[
+					'mainstraems',
+					'maintreams',
+					'maistreams',
+					'mianstreams',
 				],
 				'maintain'=>[
 					'inaintain',
 					'rnaintain',
+					'maintian',
+					'miantain',
 				],
 				'maintainability'=>[
 					'maintainibility',
+					'maintaiability',
+					'maintainbility',
+					'maintianability',
+					'miantainability',
+				],
+				'maintainable'=>[
+					'maintainible',
+					'maintianable',
+					'miantainable',
+				],
+				'maintained'=>[
+					'maintaind',
+					'maintianed',
+					'miantained',
+				],
+				'maintainer'=>[
+					'maintianer',
+					'miantainer',
+				],
+				'maintainers'=>[
+					'maintianers',
+					'miantainers',
 				],
 				'maintaining'=>[
 					'maintaing',
+					'maintianing',
+					'miantaining',
+				],
+				'maintains'=>[
+					'maintians',
+					'miantains',
 				],
 				'maintenance'=>[
 					'maintainance',
@@ -637,18 +1166,39 @@
 					'maintenence',
 					'maintinance',
 					'maitenance',
+					'miantenance',
 				],
 					# maise: an accepted spelling, not a slip (AmericanBritishWords_M: Maize)
 			#	'maize'=>[
 			#		'maise',
 			#	],
+				'maintop'=>[
+					'miantop',
+				],
+				'maintops'=>[
+					'mainops',
+					'maitops',
+					'miantops',
+				],
+				'maiolica'=>[
+					'maoilica',
+					'miaolica',
+				],
 				'maisonette'=>[
 					'maisonete',
 					'maisonettte',
+					'miasonette',
 				],
 				'maisonettes'=>[
 					'maisonetes',
 					'maisonetttes',
+					'miasonettes',
+				],
+				'maize'=>[
+					'miaze',
+				],
+				'maizes'=>[
+					'miazes',
 				],
 				'majestic'=>[
 					'magestic',
@@ -656,6 +1206,9 @@
 				'majestically'=>[
 					'majesticallly',
 					'majesticaly',
+				],
+				'majesties'=>[
+					'majesteis',
 				],
 				'major'=>[
 					'major major',
@@ -672,6 +1225,9 @@
 				'majoritarian'=>[
 					'majoritaran',
 				],
+				'majorities'=>[
+					'majoriteis',
+				],
 				'majority'=>[
 					'marjority',
 					'majonty',
@@ -685,9 +1241,13 @@
 				],
 				'majuscular'=>[
 					'majusculer',
+					'majucular',
+					'majusular',
 				],
 				'majuscule'=>[
 					'majiscule',
+					'majucule',
+					'majusule',
 				],
 				'makable'=>[
 					'makible',
@@ -705,6 +1265,18 @@
 					'niake',
 					'rnake',
 				],
+				'makefast'=>[
+					'makeast',
+					'makfast',
+				],
+				'makeover'=>[
+					'makever',
+					'makoever',
+					'makover',
+				],
+				'makeovers'=>[
+					'makoevers',
+				],
 				'makes'=>[
 					'mades',
 					'makse',
@@ -712,11 +1284,29 @@
 					'mkaes',
 					'rnakes',
 				],
+				'makeshift'=>[
+					'makehift',
+					'makshift',
+				],
+				'makeshifts'=>[
+					'makehifts',
+					'makshifts',
+				],
+				'makeup'=>[
+					'makuep',
+				],
+				'makeups'=>[
+					'makueps',
+				],
 				'makeweight'=>[
 					'makewieght',
+					'makeeight',
+					'makweight',
 				],
 				'makeweights'=>[
 					'makewieghts',
+					'makeeights',
+					'makweights',
 				],
 				'makhnovist'=>[
 					'makhno-vist',
@@ -751,6 +1341,9 @@
 				'maladaptation'=>[
 					'maladaption',
 				],
+				'maladies'=>[
+					'maladeis',
+				],
 				'maladjustment'=>[
 					'maladjustmant',
 				],
@@ -763,9 +1356,24 @@
 				'maladministers'=>[
 					'maladminasters',
 				],
+				'maladministration'=>[
+					'maladministratoin',
+					'maladministraton',
+				],
+				'maladroit'=>[
+					'maladriot',
+				],
+				'maladroitly'=>[
+					'maladriotly',
+					'maladroitely',
+				],
 				'maladroitness'=>[
 					'maladroitnes',
 					'maladroitnesss',
+					'maladriotness',
+				],
+				'malaise'=>[
+					'maliase',
 				],
 				'malapportioned'=>[
 					'malaportioned',
@@ -776,11 +1384,21 @@
 				'malar'=>[
 					'maler',
 				],
+				'malaria'=>[
+					'malarai',
+				],
+				'malarial'=>[
+					'malarail',
+				],
 				'malarian'=>[
 					'malaran',
 				],
 				'malarious'=>[
 					'malarous',
+				],
+				'malathion'=>[
+					'malathoin',
+					'malathon',
 				],
 				'malawian-occupied'=>[
 					'malawian occupied',
@@ -794,8 +1412,55 @@
 				'malcolm'=>[
 					'malcom',
 				],
+				'malcontent'=>[
+					'malcontant',
+				],
+				'malcontents'=>[
+					'malcontants',
+				],
+				'maleate'=>[
+					'malaete',
+				],
+				'maleates'=>[
+					'malaetes',
+				],
+				'malediction'=>[
+					'maledictoin',
+					'maledicton',
+				],
+				'maledictions'=>[
+					'maledictoins',
+					'maledictons',
+				],
+				'malefaction'=>[
+					'maleaction',
+					'malefactoin',
+					'malefacton',
+					'malfaction',
+				],
+				'malefactions'=>[
+					'maleactions',
+					'malefactoins',
+					'malefactons',
+					'malfactions',
+				],
+				'malefactor'=>[
+					'maleactor',
+					'malfactor',
+				],
+				'malefactors'=>[
+					'maleactors',
+					'malfactors',
+				],
 				'maleficence'=>[
 					'maleficance',
+				],
+				'maleficent'=>[
+					'maleficant',
+				],
+				'malemute'=>[
+					'maleute',
+					'malmute',
 				],
 				'maleness'=>[
 					'malenes',
@@ -807,15 +1472,58 @@
 				'malevolence'=>[
 					'malevolance',
 				],
+				'malevolent'=>[
+					'malevolant',
+				],
+				'malevolently'=>[
+					'malevolantly',
+					'malevolentely',
+				],
 				'malfeasance'=>[
 					'malfeasence',
 					'malfesance',
+					'malfaesance',
+				],
+				'malfeasant'=>[
+					'malfaesant',
+					'malfeasent',
+				],
+				'malfeasants'=>[
+					'malfaesants',
+					'malfeasents',
+				],
+				'malformation'=>[
+					'malformatoin',
+					'malformaton',
+				],
+				'malformations'=>[
+					'malformatoins',
+					'malformatons',
+				],
+				'malfunction'=>[
+					'malfunctoin',
+					'malfuncton',
+				],
+				'malfunctioned'=>[
+					'malfunctiond',
+					'malfunctoined',
+					'malfunctoned',
+				],
+				'malfunctioning'=>[
+					'malfunctoining',
+					'malfunctoning',
+				],
+				'malfunctions'=>[
+					'malfunctoins',
+					'malfunctons',
 				],
 				'malice'=>[
 					'maliee',
 				],
 				'malicious'=>[
 					'malicous',
+					'maliciuos',
+					'malicoius',
 				],
 				'maliciously'=>[
 					'maliciousally',
@@ -823,22 +1531,45 @@
 					'maliciousely',
 					'maliciouslly',
 					'malicously',
+					'maliciuosly',
+					'malicoiusly',
 				],
 				'maliciousness'=>[
 					'maliciousnes',
 					'maliciousnesss',
+					'maliciuosness',
+					'malicoiusness',
+					'malicousness',
 				],
 				'malignance'=>[
 					'malignence',
 				],
+				'malignancies'=>[
+					'malignanceis',
+					'malignencies',
+				],
 				'malignancy'=>[
 					'malignansy',
+					'malignency',
 				],
 				'malignant'=>[
 					'malignent',
 				],
+				'malignantly'=>[
+					'malignantely',
+					'malignently',
+				],
+				'maligned'=>[
+					'malignd',
+				],
+				'malignly'=>[
+					'malignely',
+				],
 				'malihini'=>[
 					'malihina',
+				],
+				'malingered'=>[
+					'malingerd',
 				],
 				'mall'=>[
 					'mal',
@@ -858,22 +1589,29 @@
 				'malleability'=>[
 					'maleability',
 					'mallleability',
+					'mallaebility',
+					'malleibility',
 				],
 				'malleable'=>[
 					'maleable',
 					'malleble',
 					'malleible',
 					'mallleable',
+					'mallaeble',
 				],
 				'malleableness'=>[
 					'malleablenes',
 					'malleablenesss',
 					'maleableness',
 					'mallleableness',
+					'mallaebleness',
+					'malleibleness',
 				],
 				'malleably'=>[
 					'maleably',
 					'mallleably',
+					'mallaebly',
+					'malleibly',
 				],
 				'mallee'=>[
 					'malee',
@@ -900,6 +1638,7 @@
 				'malleolus'=>[
 					'maleolus',
 					'mallleolus',
+					'malloelus',
 				],
 				'mallet'=>[
 					'malet',
@@ -911,6 +1650,7 @@
 				'malleus'=>[
 					'maleus',
 					'mallleus',
+					'mallues',
 				],
 				'mallomars'=>[
 					'malllomars',
@@ -927,18 +1667,39 @@
 				'malls'=>[
 					'mallls',
 				],
+				'malnourished'=>[
+					'malnuorished',
+				],
+				'malnourishment'=>[
+					'malnourishmant',
+					'malnuorishment',
+				],
+				'malnutrition'=>[
+					'malnutritoin',
+					'malnutriton',
+				],
 				'malocclusion'=>[
 					'maloccluison',
 					'maloclusion',
 					'maloccclusion',
+					'malocclusoin',
+					'maloccluson',
 				],
 				'malocclusions'=>[
 					'maloccluisons',
 					'maloclusions',
 				],
+				'malodorous'=>[
+					'malodoruos',
+				],
+				'malodorously'=>[
+					'malodorousely',
+					'malodoruosly',
+				],
 				'malodorousness'=>[
 					'malodorousnes',
 					'malodorousnesss',
+					'malodoruosness',
 				],
 				'malodorousnesses'=>[
 					'malodorousneses',
@@ -946,6 +1707,25 @@
 				],
 				'malolactic'=>[
 					'malolactate',
+				],
+				'malonylurea'=>[
+					'malonylurae',
+				],
+				'malpighiaceous'=>[
+					'malpighaiceous',
+					'malpighiaceuos',
+					'malpighiacoeus',
+				],
+				'malposition'=>[
+					'malpositoin',
+					'malpositon',
+				],
+				'malpositions'=>[
+					'malpositoins',
+					'malpositons',
+				],
+				'malpractitioner'=>[
+					'malpractitoiner',
 				],
 				'maltese'=>[
 					'maltesian',
@@ -959,11 +1739,64 @@
 				'malthusians'=>[
 					'mallthusians',
 				],
+				'maltier'=>[
+					'malteir',
+				],
+				'maltiest'=>[
+					'malteist',
+				],
 				'maltoside'=>[
 					'moltoside',
 				],
+				'maltreat'=>[
+					'maltraet',
+				],
+				'maltreated'=>[
+					'maltraeted',
+				],
+				'maltreating'=>[
+					'maltraeting',
+				],
+				'maltreatment'=>[
+					'maltraetment',
+					'maltreatmant',
+				],
+				'maltreats'=>[
+					'maltraets',
+				],
+				'malvaceous'=>[
+					'malvaceuos',
+					'malvacoeus',
+				],
+				'malvasia'=>[
+					'malvasai',
+				],
 				'malvasian'=>[
 					'malvasan',
+				],
+				'malvasias'=>[
+					'malvasais',
+				],
+				'malversation'=>[
+					'malversatoin',
+					'malversaton',
+				],
+				'malversations'=>[
+					'malversatoins',
+					'malversatons',
+				],
+				'malvoisie'=>[
+					'malviosie',
+					'malvoisei',
+				],
+				'mamboed'=>[
+					'mambeod',
+				],
+				'mamboing'=>[
+					'mambiong',
+				],
+				'mamie'=>[
+					'mamei',
 				],
 				'mamillothalamic'=>[
 					'mamallothalamic',
@@ -985,10 +1818,12 @@
 					'mamallian',
 					'mammalan',
 					'mammmalian',
+					'mammalain',
 				],
 				'mammalians'=>[
 					'mamalians',
 					'mammmalians',
+					'mammalains',
 				],
 				'mammalities'=>[
 					'mamnalities',
@@ -997,6 +1832,7 @@
 					'mamnalogies',
 					'mamalogies',
 					'mammmalogies',
+					'mammalogeis',
 				],
 				'mammalogist'=>[
 					'mamnalogist',
@@ -1049,10 +1885,12 @@
 				],
 				'mammies'=>[
 					'mammmies',
+					'mammeis',
 				],
 				'mammiferous'=>[
 					'mamiferous',
 					'mammmiferous',
+					'mammiferuos',
 				],
 				'mammilla'=>[
 					'mamnilla',
@@ -1064,6 +1902,7 @@
 					'mammilae',
 					'mammilllae',
 					'mammmillae',
+					'mammillea',
 				],
 				'mammillary'=>[
 					'mammillery',
@@ -1128,37 +1967,56 @@
 					'maii',
 					'rnan',
 				],
+				'manacling'=>[
+					'mancling',
+				],
 				'manageabilities'=>[
 					'managebilities',
+				],
+				'manageability'=>[
+					'managability',
+					'managaebility',
+					'managebility',
+					'manageibility',
 				],
 				'manageable'=>[
 					'managable',
 					'manageble',
 					'manageible',
+					'managaeble',
 				],
 				'manageableness'=>[
 					'managebleness',
 					'manageablenes',
 					'manageablenesss',
+					'managaebleness',
+					'manageibleness',
 				],
 				'manageablenesses'=>[
 					'manageableneses',
 					'manageablenessses',
+					'managaeblenesses',
 				],
 				'manageably'=>[
 					'manageabally',
 					'manageabaly',
 					'manageabely',
 					'manageablly',
+					'managaebly',
+					'manageibly',
 				],
 				'managed'=>[
 					'manged',
+					'maaged',
 				],
 				'management'=>[
 					'managament',
 					'managemant',
 					'managment',
 					'mangement',
+				],
+				'managements'=>[
+					'managemants',
 				],
 				'manager'=>[
 					'ihanager',
@@ -1174,13 +2032,25 @@
 				'managerial'=>[
 					'manageral',
 					'mangerial',
+					'managerail',
 				],
 				'managerially'=>[
 					'manageriallly',
 					'managerialy',
+					'managerailly',
 				],
 				'managers'=>[
 					'ihanagers',
+				],
+				'managerships'=>[
+					'managerhips',
+					'managersips',
+				],
+				'managing'=>[
+					'maaging',
+				],
+				'manakin'=>[
+					'maakin',
 				],
 				'manatee'=>[
 					'manate',
@@ -1204,11 +2074,26 @@
 				'mandatary'=>[
 					'mandatery',
 				],
+				'mandate'=>[
+					'madate',
+				],
+				'mandated'=>[
+					'madated',
+				],
+				'mandates'=>[
+					'madates',
+				],
+				'mandating'=>[
+					'madating',
+				],
 				'mandatory'=>[
 					'manditory',
 				],
 				'mandible'=>[
 					'mandable',
+				],
+				'mandibles'=>[
+					'mandables',
 				],
 				'mandibular'=>[
 					'mandibuler',
@@ -1218,9 +2103,13 @@
 				],
 				'mandrill'=>[
 					'mandrilll',
+					'madrill',
+					'manrill',
 				],
 				'mandrills'=>[
 					'mandrillls',
+					'madrills',
+					'manrills',
 				],
 				'mandé hotel'=>[
 					'mande hotel',
@@ -1236,15 +2125,31 @@
 				'maneuverability'=>[
 					'manoeuverability',
 					'manouverability',
+					'maneuveability',
+					'maneuverbility',
+					'maneuveribility',
+					'manueverability',
 				],
 				'maneuverable'=>[
 					'manoeuverable',
 					'manouverable',
+					'maneuverible',
+					'manueverable',
 				],
 					# manoeuvering: an accepted spelling, not a slip (AmericanBritishWords_M: maneuvering)
 			#	'maneuvering'=>[
 			#		'manoeuvering',
 			#	],
+				'maneuvered'=>[
+					'maneuverd',
+					'manuevered',
+				],
+				'maneuvering'=>[
+					'manuevering',
+				],
+				'maneuverings'=>[
+					'manueverings',
+				],
 				'maneuvers'=>[
 					'manouvers',
 					'manuevers',
@@ -1252,6 +2157,7 @@
 				'manfully'=>[
 					'manfullly',
 					'manfuly',
+					'mafully',
 				],
 				'manfulness'=>[
 					'manfulnes',
@@ -1264,9 +2170,27 @@
 				'manganesian'=>[
 					'manganesan',
 				],
+				'manganous'=>[
+					'manganuos',
+				],
+				'mangetout'=>[
+					'mangetuot',
+				],
+				'mangetouts'=>[
+					'mangetuots',
+				],
+				'mangier'=>[
+					'mangeir',
+				],
+				'mangiest'=>[
+					'mangeist',
+				],
 				'manginess'=>[
 					'mangines',
 					'manginesss',
+				],
+				'mangoes'=>[
+					'mangeos',
 				],
 				'mangosteen'=>[
 					'mangosteeen',
@@ -1275,6 +2199,26 @@
 				'mangosteens'=>[
 					'mangosteeens',
 					'mangostens',
+				],
+				'mangrove'=>[
+					'magrove',
+					'manrove',
+				],
+				'manhandle'=>[
+					'mahandle',
+					'manandle',
+				],
+				'manhandled'=>[
+					'mahandled',
+					'manandled',
+				],
+				'manhandles'=>[
+					'mahandles',
+					'manandles',
+				],
+				'manhandling'=>[
+					'mahandling',
+					'manandling',
 				],
 				'manhattan'=>[
 					'manhatten',
@@ -1285,14 +2229,46 @@
 					'manhatans',
 					'manhatttans',
 				],
+				'manhole'=>[
+					'mahole',
+					'manole',
+				],
+				'manholes'=>[
+					'maholes',
+					'manoles',
+				],
 				'manhood'=>[
 					'manhod',
 					'manhoood',
 					'manliood',
 				],
+				'manhunt'=>[
+					'mahunt',
+					'manunt',
+				],
+				'manhunts'=>[
+					'mahunts',
+					'manunts',
+				],
+				'mania'=>[
+					'manai',
+				],
+				'maniac'=>[
+					'manaic',
+				],
+				'maniacal'=>[
+					'manaical',
+				],
 				'maniacally'=>[
 					'maniacallly',
 					'maniacaly',
+					'manaically',
+				],
+				'maniacs'=>[
+					'manaics',
+				],
+				'manias'=>[
+					'manais',
 				],
 				'manically'=>[
 					'manicallly',
@@ -1306,6 +2282,9 @@
 					'manicotis',
 					'manicotttis',
 				],
+				'manicured'=>[
+					'manicurd',
+				],
 				'manifest'=>[
 					'mainfest',
 					'manifeft',
@@ -1317,17 +2296,24 @@
 					'manfestation',
 					'manifestaton',
 					'manifestion',
+					'manifestatoin',
 				],
 				'manifestations'=>[
 					'manfestations',
 					'manifesttions',
 					'manifetations',
+					'manifestatoins',
+					'manifestatons',
 				],
 				'manifested'=>[
 					'manifefted',
 				],
 				'manifestly'=>[
 					'manifeftly',
+					'manifestely',
+				],
+				'manifestoes'=>[
+					'manifesteos',
 				],
 				'manifestos'=>[
 					'manifestoes',
@@ -1343,6 +2329,19 @@
 					'manile',
 					'manillle',
 				],
+				'manioc'=>[
+					'manoic',
+				],
+				'maniocs'=>[
+					'manoics',
+				],
+				'manipulabilities'=>[
+					'manipulabiliteis',
+					'manipulibilities',
+				],
+				'manipulability'=>[
+					'manipulibility',
+				],
 				'manipulable'=>[
 					'manipulible',
 				],
@@ -1355,6 +2354,14 @@
 				'manipulate'=>[
 					'manpulate',
 				],
+				'manipulation'=>[
+					'manipulatoin',
+					'manipulaton',
+				],
+				'manipulations'=>[
+					'manipulatoins',
+					'manipulatons',
+				],
 				'manipulatively'=>[
 					'manipulativly',
 				],
@@ -1362,11 +2369,22 @@
 					'manipulativenes',
 					'manipulativenesss',
 				],
+				'manitou'=>[
+					'manituo',
+				],
 				'mankind'=>[
 					'mandkind',
 					'inankind',
 					'mankiiid',
 					'maukind',
+					'makind',
+					'manind',
+				],
+				'manlier'=>[
+					'manleir',
+				],
+				'manliest'=>[
+					'manleist',
 				],
 				'manliness'=>[
 					'manlines',
@@ -1401,9 +2419,11 @@
 				'mannequin'=>[
 					'manequin',
 					'mannnequin',
+					'manneqiun',
 				],
 				'mannequins'=>[
 					'mannnequins',
+					'manneqiuns',
 				],
 				'manner'=>[
 					'maner',
@@ -1414,6 +2434,7 @@
 				'mannered'=>[
 					'manered',
 					'mannnered',
+					'mannerd',
 				],
 				'mannerism'=>[
 					'manerism',
@@ -1517,22 +2538,54 @@
 				],
 				'manorial'=>[
 					'manourial',
+					'manorail',
 				],
 				'manorialism'=>[
 					'manourialism',
+					'manorailism',
 				],
 				'manorialisms'=>[
 					'manourialisms',
+				],
+				'manpower'=>[
+					'manower',
+					'mapower',
+				],
+				'manrope'=>[
+					'manope',
+					'marope',
 				],
 				'manse'=>[
 					'mance',
 				],
 				'manservant'=>[
 					'manservent',
+					'manervant',
+					'maservant',
+				],
+				'mansion'=>[
+					'mansoin',
+				],
+				'mansions'=>[
+					'mansoins',
+				],
+				'manslaughter'=>[
+					'manlaughter',
+					'mansaughter',
+					'mansluaghter',
+					'maslaughter',
+				],
+				'manslayer'=>[
+					'manlayer',
+					'mansayer',
+					'maslayer',
 				],
 				'manstopper'=>[
 					'manstoper',
 					'manstoppper',
+				],
+				'mansuetude'=>[
+					'manseutude',
 				],
 				'manta'=>[
 					'menta',
@@ -1542,6 +2595,8 @@
 				],
 				'manteau'=>[
 					'menteau',
+					'mantaeu',
+					'manteua',
 				],
 				'mantel'=>[
 					'mentel',
@@ -1559,6 +2614,9 @@
 					'mantelpeice',
 					'mantelpice',
 					'mentelpiece',
+				],
+				'mantelpieces'=>[
+					'mantelpeices',
 				],
 				'manteltree'=>[
 					'manteltre',
@@ -1596,15 +2654,34 @@
 					'mentle',
 					'mantie',
 				],
+				'mantlepiece'=>[
+					'mantleiece',
+					'mantlepeice',
+					'mantlpiece',
+				],
+				'mantlepieces'=>[
+					'mantleieces',
+					'mantlepeices',
+					'mantlpieces',
+				],
 				'mantra'=>[
 					'mentra',
 				],
 				'mantrap'=>[
 					'mentrap',
+					'manrap',
+					'matrap',
+				],
+				'mantraps'=>[
+					'manraps',
+					'matraps',
 				],
 				'mantua'=>[
 					'mantau',
 					'mentua',
+				],
+				'mantuas'=>[
+					'mantaus',
 				],
 				'manual'=>[
 					'manaul',
@@ -1616,19 +2693,33 @@
 				'manuary'=>[
 					'manuery',
 				],
+				'manubrium'=>[
+					'manubruim',
+				],
+				'manubriums'=>[
+					'manubruims',
+				],
 				'manufactories'=>[
 					'manuactories',
+					'manufactoreis',
 				],
 				'manufacture'=>[
 					'manufature',
 				],
+				'manufactured'=>[
+					'manufacturd',
+				],
 				'manumission'=>[
 					'manumision',
 					'manumisssion',
+					'manumissoin',
+					'manumisson',
 				],
 				'manumissions'=>[
 					'manumisions',
 					'manumisssions',
+					'manumissoins',
+					'manumissons',
 				],
 				'manumitted'=>[
 					'manumittted',
@@ -1643,12 +2734,22 @@
 				'manumitting'=>[
 					'manumittting',
 				],
+				'manured'=>[
+					'manurd',
+				],
+				'manurial'=>[
+					'manurail',
+				],
 				'manuscript'=>[
 					'manucript',
 					'manucsript',
 					'manuscrit',
 					'manuscrpt',
 					'manusript',
+				],
+				'manuscripts'=>[
+					'manucripts',
+					'manusripts',
 				],
 				'many'=>[
 					'many many',
@@ -1663,6 +2764,13 @@
 				'many-sided'=>[
 					'manysided',
 				],
+				'manyfold'=>[
+					'manfold',
+					'manyold',
+				],
+				'manyplies'=>[
+					'manypleis',
+				],
 				'manzanilla'=>[
 					'manzanila',
 					'manzanillla',
@@ -1670,6 +2778,13 @@
 				'map'=>[
 					'map map',
 					'map map map',
+				],
+				'mapmaker'=>[
+					'mapaker',
+				],
+				'mapmakers'=>[
+					'mamakers',
+					'mapakers',
 				],
 				'mappability'=>[
 					'mapability',
@@ -1702,6 +2817,28 @@
 				'maquette'=>[
 					'maquete',
 					'maquettte',
+					'maqeutte',
+				],
+				'maquiladora'=>[
+					'maqiuladora',
+				],
+				'maquiladoras'=>[
+					'maqiuladoras',
+				],
+				'maquis'=>[
+					'maqius',
+				],
+				'marabou'=>[
+					'marabuo',
+				],
+				'marabous'=>[
+					'marabuos',
+				],
+				'marabout'=>[
+					'marabuot',
+				],
+				'marabouts'=>[
+					'marabuots',
 				],
 				'marafivirus'=>[
 					'marifivirus',
@@ -1711,10 +2848,35 @@
 					'maracsa',
 					'marasa',
 				],
+				'marascas'=>[
+					'marasas',
+				],
 				'maraschino'=>[
 					'marachino',
 					'maracshino',
 					'marashino',
+				],
+				'maraschinos'=>[
+					'marachinos',
+					'marashinos',
+				],
+				'maraud'=>[
+					'maruad',
+				],
+				'marauded'=>[
+					'maruaded',
+				],
+				'marauder'=>[
+					'maruader',
+				],
+				'marauders'=>[
+					'maruaders',
+				],
+				'marauding'=>[
+					'maruading',
+				],
+				'marauds'=>[
+					'maruads',
 				],
 				'marbleise'=>[
 					'marbliese',
@@ -1734,6 +2896,9 @@
 				'marbleizes'=>[
 					'marbliezes',
 				],
+				'marbleizing'=>[
+					'marbliezing',
+				],
 				'marcel carné'=>[
 					'marcel carne',
 				],
@@ -1746,6 +2911,11 @@
 				],
 				'marcelling'=>[
 					'marcellling',
+				],
+				'marcescent'=>[
+					'marcecent',
+					'marcescant',
+					'marcesent',
 				],
 				'march'=>[
 					'marcli',
@@ -1769,10 +2939,18 @@
 				'marchioness'=>[
 					'marchiones',
 					'marchionesss',
+					'marchoiness',
 				],
 				'marchionesses'=>[
 					'marchioneses',
 					'marchionessses',
+					'marchoinesses',
+				],
+				'marchland'=>[
+					'marcland',
+				],
+				'marchlands'=>[
+					'marclands',
 				],
 				'mare'=>[
 					'mear',
@@ -1785,6 +2963,9 @@
 				'margarine'=>[
 					'margarini',
 				],
+				'margent'=>[
+					'margant',
+				],
 				'margin'=>[
 					'margain',
 					'margine',
@@ -1794,12 +2975,15 @@
 				],
 				'marginalia'=>[
 					'marginilia',
+					'marginalai',
 				],
 				'marginalities'=>[
 					'marginilities',
 				],
 				'marginalization'=>[
 					'marginilization',
+					'marginalizatoin',
+					'marginalizaton',
 				],
 				'marginalize'=>[
 					'marginilize',
@@ -1813,8 +2997,20 @@
 				'marginate'=>[
 					'marginite',
 				],
+				'marguerite'=>[
+					'margeurite',
+				],
+				'marguerites'=>[
+					'margeurites',
+				],
 				'maria bethânia'=>[
 					'maria bethania',
+				],
+				'mariachi'=>[
+					'maraichi',
+				],
+				'mariachis'=>[
+					'maraichis',
 				],
 				'marie-josé'=>[
 					'marie josé',
@@ -1840,6 +3036,13 @@
 				'marinate'=>[
 					'marinite',
 				],
+				'marinating'=>[
+					'marinting',
+				],
+				'marination'=>[
+					'marinatoin',
+					'marinaton',
+				],
 				'marine'=>[
 					'marini',
 				],
@@ -1849,10 +3052,12 @@
 				'marionette'=>[
 					'marionete',
 					'marionettte',
+					'maroinette',
 				],
 				'marionettes'=>[
 					'marionetes',
 					'marionetttes',
+					'maroinettes',
 				],
 				'maritally'=>[
 					'maritallly',
@@ -1865,6 +3070,14 @@
 				'mark'=>[
 					'mark mark',
 					'mark mark mark',
+				],
+				'markdown'=>[
+					'mardown',
+					'markown',
+				],
+				'markdowns'=>[
+					'mardowns',
+					'markowns',
 				],
 				'marked'=>[
 					'maked',
@@ -1881,6 +3094,11 @@
 					'markct',
 					'niarket',
 				],
+				'marketability'=>[
+					'markeability',
+					'marketbility',
+					'marketibility',
+				],
 				'marketable'=>[
 					'marketible',
 				],
@@ -1893,6 +3111,14 @@
 				'marketing'=>[
 					'marketting',
 				],
+				'marketplace'=>[
+					'markeplace',
+					'marketlace',
+				],
+				'marketplaces'=>[
+					'markeplaces',
+					'marketlaces',
+				],
 				'markka'=>[
 					'markkka',
 				],
@@ -1904,6 +3130,10 @@
 				'markkas'=>[
 					'markkkas',
 				],
+				'markswoman'=>[
+					'marksoman',
+					'markwoman',
+				],
 				'marlinespike'=>[
 					'marlinispike',
 				],
@@ -1914,6 +3144,7 @@
 				],
 				'marmoreal'=>[
 					'marmoureal',
+					'marmorael',
 				],
 				'marmoreally'=>[
 					'marmoureally',
@@ -1921,11 +3152,18 @@
 				'marmorean'=>[
 					'marmourean',
 				],
+				'marocain'=>[
+					'marocian',
+				],
+				'marocains'=>[
+					'marocians',
+				],
 				'maroon'=>[
 					'marooon',
 				],
 				'marooned'=>[
 					'maroooned',
+					'maroond',
 				],
 				'marooning'=>[
 					'maroooning',
@@ -1933,21 +3171,60 @@
 				'maroons'=>[
 					'marooons',
 				],
+				'marque'=>[
+					'marqeu',
+				],
 				'marquee'=>[
 					'marqueee',
+					'marqeue',
 				],
 				'marquees'=>[
 					'marqueees',
+					'marqeues',
+				],
+				'marques'=>[
+					'marqeus',
 				],
 				'marquess'=>[
 					'marquesss',
+					'marqeuss',
 				],
 				'marquesses'=>[
 					'marquessses',
+					'marqeusses',
+				],
+				'marqueterie'=>[
+					'marqeuterie',
+					'marqueterei',
+				],
+				'marqueteries'=>[
+					'marqeuteries',
+					'marquetaries',
+					'marquetereis',
+				],
+				'marquetery'=>[
+					'marqeutery',
+					'marquetary',
+				],
+				'marquetry'=>[
+					'marqeutry',
+				],
+				'marquis'=>[
+					'marqius',
+				],
+				'marquisate'=>[
+					'marqiusate',
+				],
+				'marquise'=>[
+					'marqiuse',
+				],
+				'marquises'=>[
+					'marqiuses',
 				],
 				'marquisette'=>[
 					'marquisete',
 					'marquisettte',
+					'marqiusette',
 				],
 				'marram'=>[
 					'maram',
@@ -1974,15 +3251,22 @@
 					'mariageability',
 					'marriagebility',
 					'marrriageability',
+					'marraigeability',
+					'marriagability',
+					'marriagaebility',
+					'marriageibility',
 				],
 				'marriageable'=>[
 					'mariageable',
 					'marriageble',
 					'marriageible',
 					'marrriageable',
+					'marraigeable',
+					'marriagaeble',
 				],
 				'marriages'=>[
 					'marrriages',
+					'marraiges',
 				],
 				'married'=>[
 					'maried',
@@ -1996,9 +3280,11 @@
 				'marrieds'=>[
 					'marieds',
 					'marrrieds',
+					'marreids',
 				],
 				'marries'=>[
 					'marrries',
+					'marreis',
 				],
 				'marring'=>[
 					'marrring',
@@ -2014,10 +3300,14 @@
 				'marrowbone'=>[
 					'marowbone',
 					'marrrowbone',
+					'marrobone',
+					'marrowone',
 				],
 				'marrowbones'=>[
 					'marowbones',
 					'marrrowbones',
+					'marrobones',
+					'marrowones',
 				],
 				'marrowfat'=>[
 					'marowfat',
@@ -2051,6 +3341,8 @@
 				],
 				'marshall'=>[
 					'marshalll',
+					'marhall',
+					'marsall',
 				],
 				'marshalled'=>[
 					'marshallled',
@@ -2061,9 +3353,25 @@
 				'marshalling'=>[
 					'marshallling',
 				],
+				'marshalships'=>[
+					'marshalhips',
+					'marshalsips',
+				],
+				'marshier'=>[
+					'marsheir',
+				],
+				'marshiest'=>[
+					'marsheist',
+				],
 				'marshiness'=>[
 					'marshines',
 					'marshinesss',
+				],
+				'marshland'=>[
+					'marshand',
+				],
+				'marshlands'=>[
+					'marshands',
 				],
 				'marshmallow'=>[
 					'marshmalow',
@@ -2075,25 +3383,57 @@
 					'marshmalllows',
 					'marshmalows',
 				],
+				'marsupia'=>[
+					'marsupai',
+				],
+				'marsupial'=>[
+					'marsupail',
+				],
+				'marsupials'=>[
+					'marsupails',
+				],
+				'marsupium'=>[
+					'marsupuim',
+				],
 				'martellato'=>[
 					'martelato',
 					'martelllato',
 				],
+				'martial'=>[
+					'martail',
+				],
 				'martially'=>[
 					'martiallly',
 					'martialy',
+					'martailly',
 				],
 				'martian'=>[
 					'martan',
+					'martain',
+				],
+				'martians'=>[
+					'martains',
 				],
 				'martinet'=>[
 					'martinit',
+				],
+				'martingale'=>[
+					'martigale',
+					'martinale',
 				],
 				'martini'=>[
 					'martina',
 				],
 				'martyred'=>[
 					'martryed',
+					'martyrd',
+				],
+				'martyring'=>[
+					'martring',
+				],
+				'martyrization'=>[
+					'martyrizatoin',
+					'martyrizaton',
 				],
 				'martyrs'=>[
 					'martrys',
@@ -2128,10 +3468,20 @@
 				],
 				'marvellously'=>[
 					'marvelllously',
+					'marvellousely',
+					'marvelluosly',
+				],
+				'marvelous'=>[
+					'marveluos',
+				],
+				'marvelously'=>[
+					'marvelousely',
+					'marveluosly',
 				],
 				'marvelousness'=>[
 					'marvelousnes',
 					'marvelousnesss',
+					'marveluosness',
 				],
 				'marxist'=>[
 					'marixist',
@@ -2145,11 +3495,25 @@
 					'macsara',
 					'masara',
 				],
+				'mascaraed'=>[
+					'macaraed',
+					'mascaread',
+				],
+				'mascaraing'=>[
+					'macaraing',
+					'mascariang',
+				],
+				'mascaras'=>[
+					'macaras',
+				],
 				'mascarpone'=>[
 					'macarpone',
 					'macsarpone',
 					'masarpone',
 					'marscapone',
+				],
+				'mascle'=>[
+					'masle',
 				],
 				'mascon'=>[
 					'macon',
@@ -2161,6 +3525,10 @@
 					'macsot',
 					'masot',
 				],
+				'mascots'=>[
+					'macots',
+					'masots',
+				],
 				'masculine'=>[
 					'macsuline',
 					'maculine',
@@ -2170,10 +3538,18 @@
 				],
 				'masculinely'=>[
 					'masculinly',
+					'maculinely',
+					'masulinely',
 				],
 				'masculineness'=>[
 					'masculinenes',
 					'masculinenesss',
+					'maculineness',
+					'masulineness',
+				],
+				'masculines'=>[
+					'maculines',
+					'masulines',
 				],
 				'masculinised'=>[
 					'masculinased',
@@ -2226,13 +3602,49 @@
 				'mashgiah'=>[
 					'mashgia',
 				],
+				'mashie'=>[
+					'mashei',
+				],
+				'mashies'=>[
+					'masheis',
+				],
 				'masochistically'=>[
 					'masochisticallly',
 					'masochisticaly',
 				],
+				'masonries'=>[
+					'masonreis',
+				],
 				'masonry'=>[
 					'masonary',
 					'masonery',
+				],
+				'masque'=>[
+					'masqeu',
+				],
+				'masquer'=>[
+					'masqeur',
+				],
+				'masquerade'=>[
+					'masqeurade',
+				],
+				'masqueraded'=>[
+					'masqeuraded',
+				],
+				'masquerader'=>[
+					'masqeurader',
+				],
+				'masqueraders'=>[
+					'masqeuraders',
+				],
+				'masquerades'=>[
+					'masqeurades',
+				],
+				'masquerading'=>[
+					'masqeurading',
+				],
+				'masques'=>[
+					'masqeus',
 				],
 				'mass'=>[
 					'mas',
@@ -2259,13 +3671,17 @@
 					'massacer',
 					'massacker',
 					'masssacre',
+					'masscre',
 				],
 				'massacred'=>[
 					'masacred',
 					'masssacred',
+					'massacrd',
 				],
 				'massacres'=>[
 					'masssacres',
+					'masacres',
+					'masscres',
 				],
 				'massacring'=>[
 					'masacring',
@@ -2278,6 +3694,7 @@
 				'massaged'=>[
 					'masaged',
 					'masssaged',
+					'massged',
 				],
 				'massages'=>[
 					'masages',
@@ -2286,14 +3703,17 @@
 				'massaging'=>[
 					'masaging',
 					'masssaging',
+					'massging',
 				],
 				'massasauga'=>[
 					'masasauga',
 					'masssasauga',
+					'massasuaga',
 				],
 				'massasaugas'=>[
 					'masasaugas',
 					'masssasaugas',
+					'massasuagas',
 				],
 				'masse'=>[
 					'mase',
@@ -2312,18 +3732,22 @@
 					'masser',
 					'maseur',
 					'massseur',
+					'massuer',
 				],
 				'masseurs'=>[
 					'maseurs',
 					'massseurs',
+					'massuers',
 				],
 				'masseuse'=>[
 					'maseuse',
 					'massseuse',
+					'massuese',
 				],
 				'masseuses'=>[
 					'maseuses',
 					'massseuses',
+					'massueses',
 				],
 				'massif'=>[
 					'masif',
@@ -2375,6 +3799,9 @@
 				'mastabahs'=>[
 					'mastabas',
 				],
+				'mastectomies'=>[
+					'mastectomeis',
+				],
 				'master'=>[
 					'master master',
 					'master master master',
@@ -2385,14 +3812,23 @@
 				'masterclass'=>[
 					'masterclas',
 					'masterclasss',
+					'masteclass',
+					'masterlass',
 				],
 				'masterclasses'=>[
 					'masterclases',
 					'masterclassses',
+					'masteclasses',
+					'masterlasses',
+				],
+				'mastered'=>[
+					'masterd',
 				],
 				'masterfully'=>[
 					'masterfullly',
 					'masterfuly',
+					'mastefully',
+					'masterully',
 				],
 				'masterfulness'=>[
 					'masterfulnes',
@@ -2411,18 +3847,72 @@
 					'masterely',
 					'masterlly',
 				],
+				'mastermind'=>[
+					'mastemind',
+					'masterind',
+				],
+				'masterminded'=>[
+					'masteminded',
+					'masterinded',
+				],
+				'masterminding'=>[
+					'masteminding',
+					'masterinding',
+				],
+				'masterminds'=>[
+					'masteminds',
+					'masterinds',
+				],
 				'masterpiece'=>[
 					'masterpeice',
 					'masterpice',
+					'mastepiece',
+					'masteriece',
+				],
+				'masterpieces'=>[
+					'mastepieces',
+					'masterieces',
+					'masterpeices',
 				],
 				'masters'=>[
 					'mafters',
 				],
+				'masterships'=>[
+					'masterhips',
+					'mastersips',
+				],
+				'mastersinger'=>[
+					'mastesinger',
+				],
+				'masterstroke'=>[
+					'mastertroke',
+					'mastestroke',
+				],
+				'masterwork'=>[
+					'masterork',
+					'mastework',
+				],
+				'masterworks'=>[
+					'masterorks',
+					'masteworks',
+				],
 				'mastery'=>[
 					'mastary',
 				],
+				'masthead'=>[
+					'mashead',
+					'mastead',
+					'masthaed',
+				],
+				'mastheads'=>[
+					'masheads',
+					'masteads',
+					'masthaeds',
+				],
 				'mastication'=>[
 					'mastification',
+					'masticatoin',
+					'masticaton',
 				],
 				'mastiff'=>[
 					'mastif',
@@ -2431,6 +3921,25 @@
 				'mastiffs'=>[
 					'mastifffs',
 					'mastifs',
+				],
+				'mastoid'=>[
+					'mastiod',
+				],
+				'mastoidectomies'=>[
+					'mastiodectomies',
+					'mastoidectomeis',
+				],
+				'mastoidectomy'=>[
+					'mastiodectomy',
+				],
+				'mastoiditides'=>[
+					'mastioditides',
+				],
+				'mastoiditis'=>[
+					'mastioditis',
+				],
+				'mastoids'=>[
+					'mastiods',
 				],
 				'masturbate'=>[
 					'masterbate',
@@ -2446,6 +3955,11 @@
 				],
 				'masturbation'=>[
 					'masterbation',
+					'masturbatoin',
+					'masturbaton',
+				],
+				'masurium'=>[
+					'masuruim',
 				],
 				'match'=>[
 					'match match',
@@ -2455,13 +3969,31 @@
 				'matchable'=>[
 					'matchible',
 				],
+				'matchboard'=>[
+					'matcboard',
+					'matchbaord',
+					'matchoard',
+				],
+				'matchboards'=>[
+					'matcboards',
+					'matchbaords',
+					'matchoards',
+				],
 				'matchbook'=>[
 					'matchbok',
 					'matchboook',
+					'matcbook',
+					'matchook',
 				],
 				'matchbooks'=>[
 					'matchboks',
 					'matchboooks',
+					'matcbooks',
+					'matchooks',
+				],
+				'matchboxes'=>[
+					'matcboxes',
+					'matchoxes',
 				],
 				'matches'=>[
 					'matchs',
@@ -2476,19 +4008,98 @@
 					'matchlessely',
 					'matchlesslly',
 				],
+				'matchlock'=>[
+					'matchock',
+					'matclock',
+				],
+				'matchlocks'=>[
+					'matchocks',
+					'matclocks',
+				],
+				'matchmaker'=>[
+					'matchaker',
+					'matcmaker',
+				],
+				'matchmakers'=>[
+					'matchakers',
+					'matcmakers',
+				],
+				'matchmaking'=>[
+					'matchaking',
+					'matcmaking',
+				],
+				'matchmark'=>[
+					'matchark',
+					'matcmark',
+				],
+				'matchplay'=>[
+					'matchlay',
+					'matcplay',
+				],
+				'matchstick'=>[
+					'matchtick',
+					'matcstick',
+				],
+				'matchsticks'=>[
+					'matchticks',
+					'matcsticks',
+				],
 				'matchwood'=>[
 					'matchwod',
 					'matchwoood',
+					'matchood',
+					'matcwood',
+				],
+				'materfamilias'=>[
+					'materfamilais',
 				],
 				'material'=>[
 					'mateiral',
 					'material material',
 					'material material material',
 					'matenal',
+					'materail',
+				],
+				'materialism'=>[
+					'materailism',
+				],
+				'materialist'=>[
+					'materailist',
+				],
+				'materialistic'=>[
+					'materailistic',
 				],
 				'materialistically'=>[
 					'materialisticallly',
 					'materialisticaly',
+					'materailistically',
+				],
+				'materialists'=>[
+					'materailists',
+				],
+				'materialities'=>[
+					'materailities',
+					'materialiteis',
+				],
+				'materiality'=>[
+					'materaility',
+				],
+				'materialization'=>[
+					'materailization',
+					'materializatoin',
+					'materializaton',
+				],
+				'materialize'=>[
+					'materailize',
+				],
+				'materialized'=>[
+					'materailized',
+				],
+				'materializes'=>[
+					'materailizes',
+				],
+				'materializing'=>[
+					'materailizing',
 				],
 				'materially'=>[
 					'materialally',
@@ -2496,11 +4107,13 @@
 					'materialely',
 					'materiallly',
 					'materialy',
+					'materailly',
 				],
 				'materials'=>[
 					'mateirals',
 					'inaterials',
 					'matenals',
+					'materails',
 				],
 				'materiel'=>[
 					'matereil',
@@ -2531,13 +4144,21 @@
 				'mathematician'=>[
 					'mathematican',
 					'mathmatician',
+					'mathematicain',
 				],
 				'mathematicians'=>[
 					'matheticians',
+					'mathematicains',
 				],
 				'mathematics'=>[
 					'mathamatics',
 					'mathmatics',
+				],
+				'matier'=>[
+					'mateir',
+				],
+				'matiest'=>[
+					'mateist',
 				],
 				'matinal'=>[
 					'matinil',
@@ -2548,20 +4169,70 @@
 				'matrass'=>[
 					'matrasss',
 				],
+				'matresfamilias'=>[
+					'matresfamilais',
+				],
+				'matriarch'=>[
+					'matrairch',
+				],
+				'matriarchal'=>[
+					'matrairchal',
+				],
+				'matriarchate'=>[
+					'matrairchate',
+				],
+				'matriarchates'=>[
+					'matrairchates',
+				],
+				'matriarchic'=>[
+					'matrairchic',
+				],
+				'matriarchies'=>[
+					'matrairchies',
+					'matriarcheis',
+				],
+				'matriarchs'=>[
+					'matrairchs',
+				],
+				'matriarchy'=>[
+					'matrairchy',
+				],
 				'matriculant'=>[
 					'matriculent',
+				],
+				'matriculation'=>[
+					'matriculatoin',
+					'matriculaton',
+				],
+				'matrilineage'=>[
+					'matrilinaege',
+				],
+				'matrilineages'=>[
+					'matrilinaeges',
 				],
 				'matrilineal'=>[
 					'matrilinel',
 					'matrilinial',
+					'matrilinael',
+				],
+				'matrilineality'=>[
+					'matrilinaelity',
 				],
 				'matrilineally'=>[
 					'matrilineallly',
 					'matrilinealy',
+					'matrilinaelly',
+				],
+				'matrimonial'=>[
+					'matrimonail',
 				],
 				'matrimonially'=>[
 					'matrimoniallly',
 					'matrimonialy',
+					'matrimonailly',
+				],
+				'matroclinous'=>[
+					'matroclinuos',
 				],
 				'matronhood'=>[
 					'matronhod',
@@ -2596,6 +4267,7 @@
 				],
 				'mattered'=>[
 					'matttered',
+					'matterd',
 				],
 				'mattering'=>[
 					'matttering',
@@ -2629,6 +4301,7 @@
 				'mattoid'=>[
 					'matoid',
 					'matttoid',
+					'mattiod',
 				],
 				'mattress'=>[
 					'mattres',
@@ -2643,6 +4316,17 @@
 				'matts'=>[
 					'mattts',
 				],
+				'maturation'=>[
+					'maturatoin',
+					'maturaton',
+				],
+				'maturational'=>[
+					'maturatoinal',
+					'maturatonal',
+				],
+				'matured'=>[
+					'maturd',
+				],
 				'maturely'=>[
 					'maturly',
 				],
@@ -2654,6 +4338,9 @@
 					'matureneses',
 					'maturenessses',
 				],
+				'maturities'=>[
+					'maturiteis',
+				],
 				'matutinal'=>[
 					'matutinil',
 				],
@@ -2663,11 +4350,78 @@
 				'matzahs'=>[
 					'matzas',
 				],
+				'maudlin'=>[
+					'muadlin',
+				],
 				'maudlinly'=>[
 					'maudlinally',
 					'maudlinaly',
 					'maudlinely',
 					'maudlinlly',
+				],
+				'mauger'=>[
+					'muager',
+				],
+				'mauled'=>[
+					'mualed',
+				],
+				'mauler'=>[
+					'mualer',
+				],
+				'maulers'=>[
+					'mualers',
+				],
+				'mauling'=>[
+					'mualing',
+				],
+				'mauls'=>[
+					'muals',
+				],
+				'maulstick'=>[
+					'mualstick',
+				],
+				'maulsticks'=>[
+					'mualsticks',
+				],
+				'maund'=>[
+					'muand',
+				],
+				'maunder'=>[
+					'muander',
+				],
+				'maundered'=>[
+					'maunderd',
+					'muandered',
+				],
+				'maundering'=>[
+					'muandering',
+				],
+				'maunders'=>[
+					'muanders',
+				],
+				'maunds'=>[
+					'muands',
+				],
+				'maundy'=>[
+					'muandy',
+				],
+				'mausolea'=>[
+					'mausolae',
+					'muasolea',
+				],
+				'mausoleum'=>[
+					'mausoluem',
+					'muasoleum',
+				],
+				'mausoleums'=>[
+					'mausoluems',
+					'muasoleums',
+				],
+				'mauve'=>[
+					'muave',
+				],
+				'mauvish'=>[
+					'muavish',
 				],
 				'mawkishness'=>[
 					'mawkishnes',
@@ -2680,6 +4434,7 @@
 				'maxillae'=>[
 					'maxilae',
 					'maxilllae',
+					'maxillea',
 				],
 				'maxillary'=>[
 					'maxillery',
@@ -2700,6 +4455,10 @@
 				'maximally'=>[
 					'maximallly',
 				],
+				'maximization'=>[
+					'maximizatoin',
+					'maximizaton',
+				],
 				'maximize'=>[
 					'maximalize',
 				],
@@ -2715,10 +4474,14 @@
 				'maxwell'=>[
 					'maxwel',
 					'maxwelll',
+					'mawell',
+					'maxell',
 				],
 				'maxwells'=>[
 					'maxwellls',
 					'maxwels',
+					'mawells',
+					'maxells',
 				],
 				'may'=>[
 					'may may',
@@ -2732,13 +4495,33 @@
 				'mayapple'=>[
 					'mayaple',
 					'mayappple',
+					'maapple',
+					'maypple',
 				],
 				'mayapples'=>[
 					'mayaples',
 					'mayappples',
+					'maapples',
+					'maypples',
 				],
 				'maybe'=>[
 					'mabye',
+				],
+				'maydays'=>[
+					'mayays',
+				],
+				'mayflies'=>[
+					'maflies',
+					'mayfleis',
+					'maylies',
+				],
+				'mayflower'=>[
+					'maflower',
+					'maylower',
+				],
+				'mayflowers'=>[
+					'maflowers',
+					'maylowers',
 				],
 				'mayfly'=>[
 					'mayfally',
@@ -2749,6 +4532,7 @@
 				'mayonnaise'=>[
 					'mayonaise',
 					'mayonnnaise',
+					'mayonniase',
 				],
 				'mayonnaises'=>[
 					'mayonaises',
@@ -2758,6 +4542,8 @@
 				],
 				'mayoral'=>[
 					'mayorial',
+					'maoral',
+					'mayral',
 				],
 				'mayoress'=>[
 					'mayoresss',
@@ -2766,16 +4552,40 @@
 					'mayoreses',
 					'mayoressses',
 				],
+				'maypole'=>[
+					'mapole',
+					'mayole',
+				],
+				'maypoles'=>[
+					'mapoles',
+					'mayoles',
+				],
 				'maytansinoid'=>[
 					'maytansanoid',
 				],
 				'mayweed'=>[
 					'maywed',
 					'mayweeed',
+					'maweed',
+					'mayeed',
 				],
 				'mayweeds'=>[
 					'mayweds',
 					'mayweeeds',
+					'maweeds',
+					'mayeeds',
+				],
+				'mazier'=>[
+					'mazeir',
+				],
+				'maziest'=>[
+					'mazeist',
+				],
+				'mazourka'=>[
+					'mazuorka',
+				],
+				'mazourkas'=>[
+					'mazuorkas',
 				],
 				'mazzard'=>[
 					'mazzzard',
@@ -2797,15 +4607,45 @@
 			#	],
 				'meadow'=>[
 					'medow',
+					'maedow',
+				],
+				'meadowland'=>[
+					'maedowland',
+					'meadoland',
+					'meadowand',
+				],
+				'meadowlark'=>[
+					'maedowlark',
+					'meadolark',
+					'meadowark',
+				],
+				'meadowlarks'=>[
+					'maedowlarks',
+				],
+				'meadows'=>[
+					'maedows',
 				],
 				'meadowsweet'=>[
 					'medowsweet',
 					'meadowsweeet',
 					'meadowswet',
+					'maedowsweet',
+					'meadosweet',
+					'meadowweet',
+				],
+				'meadowy'=>[
+					'maedowy',
+				],
+				'meager'=>[
+					'maeger',
+				],
+				'meagerly'=>[
+					'maegerly',
 				],
 				'meagerness'=>[
 					'meagernes',
 					'meagernesss',
+					'maegerness',
 				],
 				'meagrely'=>[
 					'meagrly',
@@ -2813,19 +4653,70 @@
 				'meagreness'=>[
 					'meagrenes',
 					'meagrenesss',
+					'maegreness',
 				],
 				'meal'=>[
 					'mel',
 				],
+				'mealie'=>[
+					'maelie',
+					'mealei',
+				],
+				'mealier'=>[
+					'maelier',
+					'mealeir',
+				],
+				'mealies'=>[
+					'maelies',
+					'mealeis',
+				],
+				'mealiest'=>[
+					'maeliest',
+					'mealeist',
+				],
 				'mealiness'=>[
 					'mealines',
 					'mealinesss',
+					'maeliness',
+				],
+				'meals'=>[
+					'maels',
+				],
+				'mealtime'=>[
+					'maeltime',
+					'mealime',
+				],
+				'mealtimes'=>[
+					'maeltimes',
+					'mealimes',
+					'meatimes',
+				],
+				'mealworm'=>[
+					'maelworm',
+					'mealorm',
+					'meaworm',
+				],
+				'mealworms'=>[
+					'maelworms',
+					'mealorms',
+					'meaworms',
 				],
 				'mealy'=>[
 					'meaally',
 					'meaaly',
 					'meally',
 					'mely',
+					'maely',
+				],
+				'mealybug'=>[
+					'maelybug',
+				],
+				'mealybugs'=>[
+					'maelybugs',
+				],
+				'mealymouthed'=>[
+					'maelymouthed',
+					'mealymuothed',
 				],
 				'mean'=>[
 					'mean mean',
@@ -2835,9 +4726,40 @@
 					'niean',
 					'rnean',
 				],
+				'meander'=>[
+					'maender',
+				],
+				'meandered'=>[
+					'maendered',
+					'meanderd',
+				],
+				'meandering'=>[
+					'maendering',
+				],
+				'meanderings'=>[
+					'maenderings',
+				],
+				'meanders'=>[
+					'maenders',
+				],
+				'meandrous'=>[
+					'maendrous',
+					'meandruos',
+				],
+				'meaner'=>[
+					'maener',
+				],
+				'meanest'=>[
+					'maenest',
+				],
 				'meanie'=>[
 					'meanei',
 					'meani',
+					'maenie',
+				],
+				'meanies'=>[
+					'maenies',
+					'meaneis',
 				],
 				'meaning'=>[
 					'mening',
@@ -2845,25 +4767,32 @@
 					'meaniug',
 					'meauing',
 					'nieaning',
+					'maening',
 				],
 				'meaningful'=>[
 					'meaningfull',
 					'meningful',
+					'maeningful',
 				],
 				'meaningfully'=>[
 					'meaningfullly',
 					'meaningfuly',
+					'maeningfully',
+					'meaninfully',
+					'meaningully',
 				],
 				'meaningfulness'=>[
 					'meaningfullness',
 					'meningfulness',
 					'meaningfulnes',
 					'meaningfulnesss',
+					'maeningfulness',
 				],
 				'meaningless'=>[
 					'meaningles',
 					'meningless',
 					'meaninglesss',
+					'maeningless',
 				],
 				'meaninglessly'=>[
 					'meaninglessally',
@@ -2872,6 +4801,7 @@
 					'meaninglesslly',
 					'meaninglesly',
 					'meaninglesssly',
+					'maeninglessly',
 				],
 				'meaninglessness'=>[
 					'meninglessness',
@@ -2879,12 +4809,20 @@
 					'meaninglessnes',
 					'meaninglessnesss',
 					'meaninglesssness',
+					'maeninglessness',
+				],
+				'meaningly'=>[
+					'maeningly',
+				],
+				'meanings'=>[
+					'maenings',
 				],
 				'meanly'=>[
 					'meanally',
 					'meanaly',
 					'meanely',
 					'meanlly',
+					'maenly',
 				],
 				'meanness'=>[
 					'meaness',
@@ -2892,6 +4830,7 @@
 					'meannesss',
 					'meannness',
 					'meannefs',
+					'maenness',
 				],
 				'means'=>[
 					'ineans',
@@ -2899,6 +4838,7 @@
 					'nieaiis',
 					'nieans',
 					'rneans',
+					'maens',
 				],
 				'meant'=>[
 					'meaned',
@@ -2908,17 +4848,35 @@
 					'ment',
 					'mcant',
 					'nieant',
+					'maent',
 				],
 				'meantime'=>[
 					'meentime',
 					'mentime',
+					'maentime',
+					'meanime',
 				],
 				'meanwhile'=>[
 					'meanwhie',
 					'menwhile',
+					'maenwhile',
+					'meanhile',
+					'meawhile',
+				],
+				'meany'=>[
+					'maeny',
 				],
 				'measles'=>[
 					'mesles',
+					'maesles',
+				],
+				'measlier'=>[
+					'maeslier',
+					'measleir',
+				],
+				'measliest'=>[
+					'maesliest',
+					'measleist',
 				],
 				'measly'=>[
 					'measally',
@@ -2934,6 +4892,11 @@
 					'measurible',
 					'mesurable',
 					'measureable',
+					'maesurable',
+				],
+				'measurably'=>[
+					'maesurably',
+					'measuribly',
 				],
 				'measure'=>[
 					'measuer',
@@ -2945,10 +4908,13 @@
 					'measnre',
 					'measurc',
 					'nieasure',
+					'maesure',
 				],
 				'measured'=>[
 					'mesured',
 					'meafured',
+					'maesured',
+					'measurd',
 				],
 				'measuredly'=>[
 					'measuredally',
@@ -2960,57 +4926,131 @@
 					'measureles',
 					'mesureless',
 					'measurelesss',
+					'maesureless',
 				],
 				'measurelessly'=>[
 					'measurelesly',
 					'measurelesssly',
+					'maesurelessly',
+					'measurelessely',
 				],
 				'measurelessness'=>[
 					'measurelesness',
 					'measurelessnes',
 					'measurelessnesss',
 					'measurelesssness',
+					'maesurelessness',
 				],
 				'measurement'=>[
 					'measuremant',
 					'measurment',
 					'mesurement',
+					'maesurement',
+				],
+				'measurements'=>[
+					'maesurements',
+					'measuremants',
+				],
+				'measurer'=>[
+					'maesurer',
 				],
 				'measures'=>[
 					'measuers',
 					'meaures',
 					'meafures',
 					'measnres',
+					'maesures',
 				],
 				'measuring'=>[
 					'measnring',
+					'maesuring',
 				],
 				'meat'=>[
 					'meat meat',
 					'meat meat meat',
 					'maet',
 				],
+				'meataxe'=>[
+					'maetaxe',
+				],
 				'meatball'=>[
 					'meatbal',
 					'meatballl',
+					'maetball',
+					'meaball',
+					'meatall',
 				],
 				'meatballs'=>[
 					'meatballls',
 					'meatbals',
+					'maetballs',
+					'meaballs',
+					'meatalls',
+				],
+				'meath'=>[
+					'maeth',
+				],
+				'meathead'=>[
+					'maethead',
+					'meahead',
+					'meatead',
+					'meathaed',
+				],
+				'meatier'=>[
+					'maetier',
+					'meateir',
+				],
+				'meatiest'=>[
+					'maetiest',
+					'meateist',
 				],
 				'meatiness'=>[
 					'meatines',
 					'meatinesss',
+					'maetiness',
 				],
 				'meatless'=>[
 					'meatles',
 					'meatlesss',
+					'maetless',
+				],
+				'meatloaf'=>[
+					'maetloaf',
+					'mealoaf',
+					'meatlaof',
+					'meatoaf',
+				],
+				'meatloaves'=>[
+					'maetloaves',
+					'mealoaves',
+					'meatlaoves',
+					'meatoaves',
+				],
+				'meatman'=>[
+					'maetman',
+				],
+				'meatmen'=>[
+					'maetmen',
 				],
 				'meatpacking'=>[
 					'metpacking',
+					'maetpacking',
+					'meapacking',
+					'meatacking',
+				],
+				'meats'=>[
+					'maets',
+				],
+				'meatus'=>[
+					'maetus',
+				],
+				'meatuses'=>[
+					'maetuses',
+					'meauses',
 				],
 				'meaty'=>[
 					'mety',
+					'maety',
 				],
 				'mebibyte'=>[
 					'megibyte',
@@ -3033,6 +5073,7 @@
 				],
 				'mechanician'=>[
 					'mechanican',
+					'mechanicain',
 				],
 				'mechanism'=>[
 					'machanism',
@@ -3041,6 +5082,13 @@
 				'mechanistically'=>[
 					'mechanisticallly',
 					'mechanisticaly',
+				],
+				'mechanizable'=>[
+					'mechanizible',
+				],
+				'mechanization'=>[
+					'mechanizatoin',
+					'mechanizaton',
 				],
 				'mechanoreceptor'=>[
 					'mechanoureceptor',
@@ -3055,6 +5103,8 @@
 				'medallion'=>[
 					'medalion',
 					'medalllion',
+					'medalloin',
+					'medallon',
 				],
 					# medalist: an accepted spelling, not a slip (AmericanBritishWords_M: medalist)
 			#	'medallist'=>[
@@ -3063,6 +5113,8 @@
 				'medallions'=>[
 					'medalions',
 					'medalllions',
+					'medalloins',
+					'medallons',
 				],
 				'meddle'=>[
 					'medddle',
@@ -3094,31 +5146,85 @@
 				],
 				'media'=>[
 					'meclia',
+					'medai',
+				],
+				'mediacies'=>[
+					'medaicies',
+					'mediaceis',
 				],
 				'mediacy'=>[
 					'mediasy',
+					'medaicy',
 				],
 				'mediaeval'=>[
 					'medeival',
 					'medeval',
 					'medievel',
 					'medival',
+					'medaieval',
+					'medieaval',
 				],
 				'mediaevally'=>[
 					'mediaevallly',
 					'mediaevaly',
+					'medaievally',
+					'medieavally',
+				],
+				'medial'=>[
+					'medail',
 				],
 				'medially'=>[
 					'mediallly',
+					'medailly',
 				],
 				'median'=>[
 					'medan',
+					'medain',
+				],
+				'medianly'=>[
+					'medainly',
+					'medianely',
+				],
+				'medians'=>[
+					'medains',
 				],
 				'mediant'=>[
 					'medient',
+					'medaint',
+				],
+				'mediants'=>[
+					'medaints',
+					'medients',
+				],
+				'medias'=>[
+					'medais',
 				],
 				'mediately'=>[
 					'mediatly',
+				],
+				'mediation'=>[
+					'medaition',
+					'mediatoin',
+					'mediaton',
+				],
+				'mediative'=>[
+					'medaitive',
+				],
+				'mediatize'=>[
+					'medaitize',
+				],
+				'mediator'=>[
+					'medaitor',
+				],
+				'mediatorial'=>[
+					'medaitorial',
+					'mediatorail',
+				],
+				'mediators'=>[
+					'medaitors',
+				],
+				'mediatory'=>[
+					'medaitory',
 				],
 				'medicable'=>[
 					'medicible',
@@ -3129,6 +5235,17 @@
 				'medically'=>[
 					'medicallly',
 					'medicaly',
+				],
+				'medicament'=>[
+					'medicamant',
+				],
+				'medication'=>[
+					'medicatoin',
+					'medicaton',
+				],
+				'medications'=>[
+					'medicatoins',
+					'medicatons',
 				],
 				'medicinal'=>[
 					'medicinil',
@@ -3168,9 +5285,13 @@
 					'medeivalist',
 					'medivalist',
 				],
+				'medievalists'=>[
+					'medeivalists',
+				],
 				'medievally'=>[
 					'medievallly',
 					'medievaly',
+					'medeivally',
 				],
 				'medina'=>[
 					'medini',
@@ -3180,6 +5301,30 @@
 				],
 				'mediocre'=>[
 					'medicore',
+					'medoicre',
+				],
+				'mediocrely'=>[
+					'mediocrly',
+					'medoicrely',
+				],
+				'mediocrities'=>[
+					'mediocriteis',
+					'medoicrities',
+				],
+				'mediocrity'=>[
+					'medoicrity',
+				],
+				'meditation'=>[
+					'meditatoin',
+					'meditaton',
+				],
+				'meditational'=>[
+					'meditatoinal',
+					'meditatonal',
+				],
+				'meditations'=>[
+					'meditatoins',
+					'meditatons',
 				],
 				'meditatively'=>[
 					'meditativly',
@@ -3198,6 +5343,24 @@
 					'mediterranian',
 					'meditteranean',
 				],
+				'medium'=>[
+					'meduim',
+				],
+				'mediumism'=>[
+					'meduimism',
+				],
+				'mediumistic'=>[
+					'meduimistic',
+				],
+				'mediums'=>[
+					'meduims',
+				],
+				'mediumship'=>[
+					'meduimship',
+				],
+				'medius'=>[
+					'meduis',
+				],
 				'medlar'=>[
 					'medler',
 				],
@@ -3208,6 +5371,7 @@
 				'medullae'=>[
 					'medulae',
 					'medulllae',
+					'medullea',
 				],
 				'medullar'=>[
 					'meduller',
@@ -3264,10 +5428,16 @@
 				'meerschaum'=>[
 					'meeerschaum',
 					'merschaum',
+					'meerchaum',
+					'meerschuam',
+					'meershaum',
 				],
 				'meerschaums'=>[
 					'meeerschaums',
 					'merschaums',
+					'meerchaums',
+					'meerschuams',
+					'meershaums',
 				],
 				'meet'=>[
 					'meeet',
@@ -3285,10 +5455,16 @@
 				'meetinghouse'=>[
 					'meeetinghouse',
 					'metinghouse',
+					'meetinghuose',
+					'meetingouse',
+					'meetinhouse',
 				],
 				'meetinghouses'=>[
 					'meeetinghouses',
 					'metinghouses',
+					'meetinghuoses',
+					'meetingouses',
+					'meetinhouses',
 				],
 				'meetings'=>[
 					'meeetings',
@@ -3296,6 +5472,7 @@
 				'meetly'=>[
 					'meeetly',
 					'metly',
+					'meetely',
 				],
 				'meets'=>[
 					'meeets',
@@ -3305,6 +5482,42 @@
 				],
 				'mega-amp'=>[
 					'megaamp',
+				],
+				'megabits'=>[
+					'megbits',
+				],
+				'megabuck'=>[
+					'megauck',
+					'megbuck',
+				],
+				'megabucks'=>[
+					'megaucks',
+					'megbucks',
+				],
+				'megacycle'=>[
+					'megaycle',
+					'megcycle',
+				],
+				'megacycles'=>[
+					'megaycles',
+					'megcycles',
+				],
+				'megadeath'=>[
+					'megadaeth',
+					'megaeath',
+					'megdeath',
+				],
+				'megadeaths'=>[
+					'megadaeths',
+					'megaeaths',
+					'megdeaths',
+				],
+				'megadose'=>[
+					'megaose',
+					'megdose',
+				],
+				'megafauna'=>[
+					'megafuana',
 				],
 				'megahertz'=>[
 					'megaertz',
@@ -3318,6 +5531,9 @@
 				'megahits'=>[
 					'megaits',
 				],
+				'megajoules'=>[
+					'megajuoles',
+				],
 				'megakaryocytic'=>[
 					'megakaryotic',
 				],
@@ -3327,11 +5543,47 @@
 				'megalencephaly'=>[
 					'megaencephaly',
 				],
+				'megalocardia'=>[
+					'megalocardai',
+				],
+				'megalomania'=>[
+					'megalomanai',
+				],
+				'megalomaniac'=>[
+					'megalomanaic',
+				],
+				'megalomaniacs'=>[
+					'megalomanaics',
+				],
 				'megaparsec'=>[
 					'megapersec',
 				],
 				'megaparsecs'=>[
 					'megapersecs',
+				],
+				'megaphone'=>[
+					'megahone',
+					'megphone',
+				],
+				'megaphoned'=>[
+					'megahoned',
+					'megaphond',
+					'megphoned',
+				],
+				'megaphones'=>[
+					'megahones',
+					'megphones',
+				],
+				'megaphoning'=>[
+					'megahoning',
+					'megphoning',
+				],
+				'megasporangium'=>[
+					'megasporanguim',
+				],
+				'megaspores'=>[
+					'megapores',
+					'megspores',
 				],
 				'megasporophyll'=>[
 					'megasporophyl',
@@ -3342,6 +5594,16 @@
 				],
 				'megastar'=>[
 					'megaster',
+					'megatar',
+					'megstar',
+				],
+				'megastars'=>[
+					'megatars',
+					'megstars',
+				],
+				'megathere'=>[
+					'megahere',
+					'megthere',
 				],
 				'megatonnage'=>[
 					'megatonage',
@@ -3349,6 +5611,14 @@
 				],
 				'megatonnages'=>[
 					'megatonages',
+				],
+				'megatons'=>[
+					'megaons',
+					'megtons',
+				],
+				'megavitamin'=>[
+					'megaitamin',
+					'megvitamin',
 				],
 				'megawatt'=>[
 					'megawat',
@@ -3382,22 +5652,49 @@
 				'meiny'=>[
 					'mieny',
 				],
+				'meioses'=>[
+					'meoises',
+					'mieoses',
+				],
 				'meiosis'=>[
 					'mieosis',
+					'meoisis',
+				],
+				'meiotic'=>[
+					'meoitic',
+					'mieotic',
 				],
 				'meiotically'=>[
 					'meioticallly',
 					'meioticaly',
+					'meoitically',
+					'mieotically',
+				],
+				'meistersinger'=>[
+					'miestersinger',
 				],
 				'meitnerium'=>[
 					'mietnerium',
+					'meitneruim',
 				],
 				'melamine'=>[
 					'melamini',
 				],
+				'melancholia'=>[
+					'melancholai',
+				],
+				'melancholiac'=>[
+					'melancholaic',
+				],
+				'melancholiacs'=>[
+					'melancholaics',
+				],
 				'melancholically'=>[
 					'melancholicallly',
 					'melancholicaly',
+				],
+				'melancholies'=>[
+					'melancholeis',
 				],
 				'melancholy'=>[
 					'melanchoally',
@@ -3410,9 +5707,15 @@
 				'melanian'=>[
 					'melanan',
 				],
+				'melanoid'=>[
+					'melaniod',
+				],
 				'melanophore'=>[
 					'melanaphore',
 					'melanopore',
+				],
+				'melanous'=>[
+					'melanuos',
 				],
 				'melbourne-based'=>[
 					'melbourne based',
@@ -3423,6 +5726,45 @@
 				'melibiose'=>[
 					'mellibiose',
 					'melobiose',
+				],
+				'meliorable'=>[
+					'meliorible',
+					'meloirable',
+				],
+				'meliorate'=>[
+					'meloirate',
+				],
+				'meliorated'=>[
+					'meloirated',
+				],
+				'meliorates'=>[
+					'meloirates',
+				],
+				'meliorating'=>[
+					'meloirating',
+				],
+				'melioration'=>[
+					'melioratoin',
+					'melioraton',
+					'meloiration',
+				],
+				'meliorative'=>[
+					'meloirative',
+				],
+				'meliorism'=>[
+					'meloirism',
+				],
+				'meliorisms'=>[
+					'meloirisms',
+				],
+				'meliorist'=>[
+					'meloirist',
+				],
+				'melioristic'=>[
+					'meloiristic',
+				],
+				'meliorists'=>[
+					'meloirists',
 				],
 				'melismatic'=>[
 					'mellismatic',
@@ -3442,20 +5784,27 @@
 				'melliferous'=>[
 					'meliferous',
 					'mellliferous',
+					'melliferuos',
 				],
 				'mellifluence'=>[
 					'melifluence',
 					'melllifluence',
+					'mellifleunce',
+					'mellifluance',
 				],
 				'mellifluent'=>[
 					'melifluent',
 					'melllifluent',
+					'mellifleunt',
+					'mellifluant',
 				],
 				'mellifluous'=>[
 					'melifluous',
 					'melliflous',
 					'mellifulous',
 					'melllifluous',
+					'melliflouus',
+					'mellifluuos',
 				],
 				'mellifluously'=>[
 					'melliflously',
@@ -3465,6 +5814,8 @@
 					'mellifluouslly',
 					'melifluously',
 					'melllifluously',
+					'melliflouusly',
+					'mellifluuosly',
 				],
 				'mellifluousness'=>[
 					'melliflousness',
@@ -3472,6 +5823,8 @@
 					'mellifluousnesss',
 					'melifluousness',
 					'melllifluousness',
+					'melliflouusness',
+					'mellifluuosness',
 				],
 				'mellon'=>[
 					'melllon',
@@ -3517,11 +5870,23 @@
 					'melllows',
 					'melows',
 				],
+				'melodeon'=>[
+					'melodoen',
+				],
 				'melodically'=>[
 					'melodicallly',
 				],
+				'melodies'=>[
+					'melodeis',
+				],
+				'melodion'=>[
+					'melodoin',
+					'melodon',
+				],
 				'melodious'=>[
 					'melodous',
+					'melodiuos',
+					'melodoius',
 				],
 				'melodiously'=>[
 					'melodiousally',
@@ -3529,10 +5894,15 @@
 					'melodiousely',
 					'melodiouslly',
 					'melodously',
+					'melodiuosly',
+					'melodoiusly',
 				],
 				'melodiousness'=>[
 					'melodiousnes',
 					'melodiousnesss',
+					'melodiuosness',
+					'melodoiusness',
+					'melodousness',
 				],
 				'melodramatically'=>[
 					'melodramaticallly',
@@ -3542,11 +5912,32 @@
 					'melody melody',
 					'melody melody melody',
 				],
+				'meloid'=>[
+					'meliod',
+				],
+				'meloids'=>[
+					'meliods',
+				],
 				'melphalan'=>[
 					'melphalin',
 				],
+				'meltable'=>[
+					'meltible',
+				],
+				'meltdown'=>[
+					'meldown',
+					'meltown',
+				],
+				'meltdowns'=>[
+					'meldowns',
+					'meltowns',
+				],
 				'melting'=>[
 					'meiting',
+				],
+				'meltwater'=>[
+					'meltater',
+					'melwater',
 				],
 				'member'=>[
 					'meber',
@@ -3575,6 +5966,10 @@
 				'memberships'=>[
 					'mberships',
 				],
+				'membranaceous'=>[
+					'membranaceuos',
+					'membranacoeus',
+				],
 				'membranal'=>[
 					'mbranal',
 				],
@@ -3585,6 +5980,10 @@
 				'membraned'=>[
 					'mbraned',
 				],
+				'membraneous'=>[
+					'membraneuos',
+					'membranoeus',
+				],
 				'membranes'=>[
 					'mbranes',
 				],
@@ -3593,6 +5992,7 @@
 				],
 				'membranous'=>[
 					'mbranous',
+					'membranuos',
 				],
 				'membranously'=>[
 					'mbranously',
@@ -3604,6 +6004,7 @@
 				],
 				'mementoes'=>[
 					'mentoes',
+					'mementeos',
 				],
 				'mementos'=>[
 					'mentos',
@@ -3611,18 +6012,24 @@
 				'memetics'=>[
 					'memtics',
 				],
+				'memoir'=>[
+					'memior',
+				],
 				'memoirist'=>[
 					'moirist',
+					'memiorist',
 				],
 				'memoirists'=>[
 					'moirists',
 				],
 				'memoirs'=>[
 					'moirs',
+					'memiors',
 				],
 				'memorabilia'=>[
 					'memourabilia',
 					'morabilia',
+					'memorabilai',
 				],
 				'memorabilities'=>[
 					'memourabilities',
@@ -3631,6 +6038,7 @@
 				'memorability'=>[
 					'memourability',
 					'morability',
+					'memoribility',
 				],
 				'memorable'=>[
 					'memorible',
@@ -3642,6 +6050,7 @@
 					'morableness',
 					'memorablenes',
 					'memorablenesss',
+					'memoribleness',
 				],
 				'memorablenesses'=>[
 					'memourablenesses',
@@ -3650,6 +6059,7 @@
 				'memorably'=>[
 					'memourably',
 					'morably',
+					'memoribly',
 				],
 				'memoranda'=>[
 					'memouranda',
@@ -3688,6 +6098,7 @@
 				'memorialist'=>[
 					'memourialist',
 					'morialist',
+					'memorailist',
 				],
 				'memorialists'=>[
 					'memourialists',
@@ -3696,31 +6107,41 @@
 				'memorialize'=>[
 					'memourialize',
 					'morialize',
+					'memorailize',
 				],
 				'memorialized'=>[
 					'memourialized',
 					'morialized',
+					'memorailized',
 				],
 				'memorializes'=>[
 					'memourializes',
 					'morializes',
+					'memorailizes',
 				],
 				'memorializing'=>[
 					'memourializing',
 					'morializing',
+					'memorailizing',
 				],
 				'memorially'=>[
 					'memourially',
 					'morially',
 					'memoriallly',
+					'memorailly',
 				],
 				'memorials'=>[
 					'memourials',
 					'morials',
+					'memorails',
+				],
+				'memoried'=>[
+					'memoreid',
 				],
 				'memories'=>[
 					'memouries',
 					'mories',
+					'memoreis',
 				],
 				'memorise'=>[
 					'memourise',
@@ -3749,6 +6170,8 @@
 				'memorization'=>[
 					'memourization',
 					'morization',
+					'memorizatoin',
+					'memorizaton',
 				],
 				'memorizations'=>[
 					'memourizations',
@@ -3803,38 +6226,94 @@
 					'mens',
 					'mens\'',
 				],
+				'menaced'=>[
+					'meaced',
+					'menced',
+				],
+				'menaces'=>[
+					'meaces',
+					'mences',
+				],
 				'menadione'=>[
 					'menedione',
+					'menadoine',
+				],
+				'menadiones'=>[
+					'menadoines',
 				],
 				'menagerie'=>[
 					'menagerei',
 					'menageri',
 				],
+				'menageries'=>[
+					'menagaries',
+					'menagereis',
+				],
 				'menaquinone'=>[
 					'menoquinone',
 				],
+				'menarcheal'=>[
+					'menarchael',
+				],
+				'mendable'=>[
+					'mendible',
+				],
 				'mendacious'=>[
 					'mendacous',
+					'mendaciuos',
+					'mendacoius',
 				],
 				'mendaciously'=>[
 					'mendacously',
+					'mendaciousely',
+					'mendaciuosly',
+					'mendacoiusly',
 				],
 				'mendaciousness'=>[
 					'mendaciousnes',
 					'mendaciousnesss',
+					'mendaciuosness',
+					'mendacoiusness',
+					'mendacousness',
+				],
+				'mendelevium'=>[
+					'mendelevuim',
+				],
+				'mendelian'=>[
+					'mendelain',
 				],
 				'mendicancy'=>[
 					'mendicansy',
+					'mendicency',
 				],
 				'mendicant'=>[
 					'mendicent',
 				],
+				'mendicants'=>[
+					'mendicents',
+				],
+				'menfolk'=>[
+					'mefolk',
+					'menolk',
+				],
+				'menfolks'=>[
+					'mefolks',
+					'menolks',
+				],
+				'menial'=>[
+					'menail',
+				],
 				'menially'=>[
 					'meniallly',
 					'menialy',
+					'menailly',
+				],
+				'menials'=>[
+					'menails',
 				],
 				'meningeal'=>[
 					'meningial',
+					'meningael',
 				],
 				'meningococcal'=>[
 					'meningococal',
@@ -3855,10 +6334,33 @@
 				'meningothelial'=>[
 					'meningiothelial',
 				],
+				'menisci'=>[
+					'menici',
+					'menisi',
+				],
+				'meniscoid'=>[
+					'menicoid',
+					'menisciod',
+					'menisoid',
+				],
 				'meniscus'=>[
 					'menicsus',
 					'menicus',
 					'menisus',
+				],
+				'meniscuses'=>[
+					'menicuses',
+					'menisuses',
+				],
+				'menispermaceous'=>[
+					'menispermaceuos',
+					'menispermacoeus',
+				],
+				'menopausal'=>[
+					'menopuasal',
+				],
+				'menopause'=>[
+					'menopuase',
 				],
 				'menorah'=>[
 					'menora',
@@ -3872,11 +6374,13 @@
 					'menorhagia',
 					'menourrhagia',
 					'menorrrhagia',
+					'menorrhagai',
 				],
 				'menorrhagias'=>[
 					'menorhagias',
 					'menourrhagias',
 					'menorrrhagias',
+					'menorrhagais',
 				],
 				'menorrhea'=>[
 					'menourrhea',
@@ -3889,11 +6393,17 @@
 					'mencsh',
 					'mensh',
 				],
+				'menschen'=>[
+					'menchen',
+					'menshen',
+				],
 				'mense'=>[
 					'mence',
 				],
 				'menservants'=>[
 					'menservents',
+					'menervants',
+					'meservants',
 				],
 				'menstrua'=>[
 					'menstrau',
@@ -3904,12 +6414,20 @@
 				'menstruate'=>[
 					'menstraute',
 				],
+				'menstruated'=>[
+					'menstrauted',
+				],
+				'menstruates'=>[
+					'menstrautes',
+				],
 				'menstruating'=>[
 					'menstrauting',
 				],
 				'menstruation'=>[
 					'menstration',
 					'menstraution',
+					'menstruatoin',
+					'menstruaton',
 				],
 				'menstruations'=>[
 					'menstrautions',
@@ -3918,8 +6436,21 @@
 					'menstrum',
 					'menstruuum',
 				],
+				'mensurability'=>[
+					'mensuribility',
+				],
+				'mensurable'=>[
+					'mensurible',
+				],
+				'mensuration'=>[
+					'mensuratoin',
+					'mensuraton',
+				],
 				'menswear'=>[
 					'mensweer',
+					'menswaer',
+					'menwear',
+					'meswear',
 				],
 				'menta'=>[
 					'manta',
@@ -3927,12 +6458,24 @@
 				'mental'=>[
 					'mantal',
 				],
+				'mentalities'=>[
+					'mentaliteis',
+				],
 				'mentality'=>[
 					'mantality',
 				],
 				'mentally'=>[
 					'mentaly',
 					'mentallly',
+					'menally',
+				],
+				'mentation'=>[
+					'mentatoin',
+					'mentaton',
+				],
+				'mentations'=>[
+					'mentatoins',
+					'mentatons',
 				],
 				'mentee'=>[
 					'mantee',
@@ -3944,6 +6487,11 @@
 					'mantion',
 					'mcntion',
 					'mentiou',
+					'mentoin',
+				],
+				'mentionable'=>[
+					'mentionible',
+					'mentoinable',
 				],
 				'mentioned'=>[
 					'maintioned',
@@ -3952,18 +6500,36 @@
 					'mentioiied',
 					'nientioncd',
 					'nientioned',
+					'mentiond',
+					'mentoined',
+				],
+				'mentioning'=>[
+					'mentoining',
 				],
 				'mentions'=>[
 					'mentiones',
+					'mentoins',
 				],
 				'mentor'=>[
 					'mantor',
+				],
+				'mentored'=>[
+					'mentord',
 				],
 				'mentum'=>[
 					'mantum',
 				],
 				'menus'=>[
 					'menns',
+				],
+				'meowed'=>[
+					'moewed',
+				],
+				'meowing'=>[
+					'moewing',
+				],
+				'meows'=>[
+					'moews',
 				],
 				'meperidine'=>[
 					'meperidini',
@@ -3986,6 +6552,13 @@
 				'mercaptopurines'=>[
 					'mercaptopurinis',
 				],
+				'mercenaries'=>[
+					'mercenareis',
+					'merceneries',
+				],
+				'mercenarily'=>[
+					'mercenarly',
+				],
 				'mercenariness'=>[
 					'mercenarines',
 					'mercenarinesss',
@@ -3997,6 +6570,10 @@
 					'mercenery',
 					'mercenray',
 					'mercernary',
+				],
+				'mercerization'=>[
+					'mercerizatoin',
+					'mercerizaton',
 				],
 				'merchandise'=>[
 					'mechandise',
@@ -4016,6 +6593,9 @@
 				],
 				'merchantability'=>[
 					'merchentability',
+					'merchanability',
+					'merchantbility',
+					'merchantibility',
 				],
 				'merchantable'=>[
 					'merchantible',
@@ -4023,6 +6603,12 @@
 				],
 				'merchantman'=>[
 					'merchentman',
+				],
+				'merchants'=>[
+					'merchents',
+				],
+				'mercies'=>[
+					'merceis',
 				],
 				'merciful'=>[
 					'mercifiil',
@@ -4057,16 +6643,33 @@
 					'mercilessnesss',
 					'mercilesssness',
 				],
+				'mercurial'=>[
+					'mercurail',
+				],
+				'mercurialism'=>[
+					'mercurailism',
+				],
+				'mercuriality'=>[
+					'mercuraility',
+				],
+				'mercurialize'=>[
+					'mercurailize',
+				],
 				'mercurially'=>[
 					'mercuriallly',
 					'mercurialy',
+					'mercurailly',
 				],
 				'mercurialness'=>[
 					'mercurialnes',
 					'mercurialnesss',
+					'mercurailness',
 				],
 				'mercurochrome'=>[
 					'mercurichrome',
+				],
+				'mercurous'=>[
+					'mercuruos',
 				],
 				'mercy'=>[
 					'mersy',
@@ -4083,8 +6686,13 @@
 					'mercly',
 					'rnerely',
 				],
+				'merengue'=>[
+					'merengeu',
+				],
 				'meretricious'=>[
 					'meretricous',
+					'meretriciuos',
+					'meretricoius',
 				],
 				'meretriciously'=>[
 					'meretriciousally',
@@ -4092,16 +6700,35 @@
 					'meretriciousely',
 					'meretriciouslly',
 					'meretricously',
+					'meretriciuosly',
+					'meretricoiusly',
 				],
 				'meretriciousness'=>[
 					'meretriciousnes',
 					'meretriciousnesss',
+					'meretriciuosness',
+					'meretricoiusness',
+					'meretricousness',
 				],
 				'mergence'=>[
 					'mergance',
 				],
 				'meridian'=>[
 					'meridan',
+					'meridain',
+				],
+				'meridians'=>[
+					'meridains',
+				],
+				'meridional'=>[
+					'meridoinal',
+					'meridonal',
+				],
+				'meringue'=>[
+					'meringeu',
+				],
+				'meringues'=>[
+					'meringeus',
 				],
 				'meristematic'=>[
 					'myristematic',
@@ -4113,11 +6740,16 @@
 					'meritles',
 					'meritlesss',
 				],
+				'meritocracies'=>[
+					'meritocraceis',
+				],
 				'meritocracy'=>[
 					'meritocrasy',
 				],
 				'meritorious'=>[
 					'meritorous',
+					'meritoriuos',
+					'meritoroius',
 				],
 				'meritoriously'=>[
 					'meritoriousally',
@@ -4125,16 +6757,30 @@
 					'meritoriousely',
 					'meritoriouslly',
 					'meritorously',
+					'meritoriuosly',
+					'meritoroiusly',
 				],
 				'meritoriousness'=>[
 					'meritoriousnes',
 					'meritoriousnesss',
+					'meritoriuosness',
+					'meritoroiusness',
+					'meritorousness',
 				],
 				'merlino'=>[
 					'merliuo',
 				],
+				'mermaid'=>[
+					'mermiad',
+				],
+				'mermaids'=>[
+					'mermiads',
+				],
 				'meromorphic'=>[
 					'meromourphic',
+				],
+				'meronymous'=>[
+					'meronymuos',
 				],
 				'meroplasmodium'=>[
 					'mesoplasmodium',
@@ -4142,18 +6788,28 @@
 				'merotelically'=>[
 					'merotely',
 				],
+				'merozoite'=>[
+					'meroziote',
+				],
+				'merozoites'=>[
+					'meroziotes',
+				],
 				'merrier'=>[
 					'merrrier',
+					'merreir',
 				],
 				'merriest'=>[
 					'merrriest',
+					'merreist',
 				],
 				'merrily'=>[
 					'merrrily',
+					'merrly',
 				],
 				'merriment'=>[
 					'meriment',
 					'merrriment',
+					'merrimant',
 				],
 				'merriness'=>[
 					'merrines',
@@ -4168,14 +6824,20 @@
 				'merrymaker'=>[
 					'merrrymaker',
 					'merymaker',
+					'merrmaker',
+					'merryaker',
 				],
 				'merrymakers'=>[
 					'merrrymakers',
 					'merymakers',
+					'merrmakers',
+					'merryakers',
 				],
 				'merrymaking'=>[
 					'merymaking',
 					'merrrymaking',
+					'merrmaking',
+					'merryaking',
 				],
 				'merrymakings'=>[
 					'merymakings',
@@ -4183,6 +6845,12 @@
 				'merrythought'=>[
 					'merythought',
 					'merrrythought',
+					'merrthought',
+					'merryhought',
+					'merrythuoght',
+				],
+				'merthiolate'=>[
+					'merthoilate',
 				],
 				'mes'=>[
 					'iiies',
@@ -4193,19 +6861,39 @@
 				'mesangial'=>[
 					'messangial',
 				],
+				'mesarch'=>[
+					'mearch',
+					'mesrch',
+				],
 				'mescal'=>[
 					'mecal',
 					'mecsal',
 					'mesal',
+				],
+				'mescalin'=>[
+					'mecalin',
+					'mesalin',
+				],
+				'mescaline'=>[
+					'mecaline',
+					'mesaline',
+				],
+				'mescals'=>[
+					'mecals',
 				],
 				'mesclun'=>[
 					'meclun',
 					'mecslun',
 					'meslun',
 				],
+				'mesdames'=>[
+					'medames',
+					'mesames',
+				],
 				'mesdemoiselles'=>[
 					'mesdemoiseles',
 					'mesdemoisellles',
+					'mesdemioselles',
 				],
 				'meseems'=>[
 					'meseeems',
@@ -4218,6 +6906,10 @@
 				],
 				'mesenchyme'=>[
 					'mexenchyme',
+				],
+				'mesenteries'=>[
+					'mesentaries',
+					'mesentereis',
 				],
 				'mesentery'=>[
 					'mesentary',
@@ -4240,17 +6932,38 @@
 				'meshuggeners'=>[
 					'meshugeners',
 				],
+				'meshwork'=>[
+					'meshork',
+					'meswork',
+				],
+				'meshworks'=>[
+					'meshorks',
+					'mesworks',
+				],
 				'mesian'=>[
 					'mesan',
 				],
 				'mesmerise'=>[
 					'mesmorise',
 				],
+				'mesmerization'=>[
+					'mesmerizatoin',
+					'mesmerizaton',
+				],
+				'mesoamerican'=>[
+					'mesaomerican',
+				],
 				'mesocorticolimbic'=>[
 					'misocorticolimbic',
 				],
 				'mesoeucrocodylian'=>[
 					'mesoeucrocodilian',
+				],
+				'mesoglea'=>[
+					'mesoglae',
+				],
+				'mesognathous'=>[
+					'mesognathuos',
 				],
 				'mesograzer'=>[
 					'mezograzer',
@@ -4273,6 +6986,9 @@
 				'mesomorphy'=>[
 					'mesomourphy',
 				],
+				'mesopause'=>[
+					'mesopuase',
+				],
 				'mesophilous'=>[
 					'mesophylous',
 				],
@@ -4288,6 +7004,23 @@
 					'mesocopic',
 					'mezoscopic',
 				],
+				'mesothelia'=>[
+					'mesothelai',
+				],
+				'mesothelium'=>[
+					'mesotheluim',
+				],
+				'mesothorium'=>[
+					'mesothoruim',
+				],
+				'mesquite'=>[
+					'mequite',
+					'mesqiute',
+					'mesuite',
+				],
+				'mesquites'=>[
+					'mesqiutes',
+				],
 				'mess'=>[
 					'mes',
 					'messs',
@@ -4300,6 +7033,7 @@
 				'messaged'=>[
 					'mesaged',
 					'messsaged',
+					'messged',
 				],
 				'messages'=>[
 					'mesages',
@@ -4310,6 +7044,7 @@
 					'messageing',
 					'mesaging',
 					'messsaging',
+					'messging',
 				],
 				'messed'=>[
 					'mesed',
@@ -4319,6 +7054,7 @@
 					'messiegneurs',
 					'meseigneurs',
 					'messseigneurs',
+					'messeignuers',
 				],
 				'messenger'=>[
 					'mesenger',
@@ -4338,40 +7074,50 @@
 					'messia',
 					'mesiah',
 					'messsiah',
+					'messaih',
 				],
 				'messiahs'=>[
 					'messias',
 					'mesiahs',
 					'messsiahs',
+					'messaihs',
 				],
 				'messiahship'=>[
 					'messiaship',
 					'mesiahship',
 					'messsiahship',
+					'messaihship',
 				],
 				'messiahships'=>[
 					'messiaships',
 					'mesiahships',
 					'messsiahships',
+					'messaihships',
 				],
 				'messianic'=>[
 					'mesianic',
 					'messsianic',
+					'messainic',
 				],
 				'messianism'=>[
 					'mesianism',
 					'messsianism',
+					'messainism',
 				],
 				'messier'=>[
 					'messsier',
+					'messeir',
 				],
 				'messiest'=>[
 					'mesiest',
 					'messsiest',
+					'messeist',
 				],
 				'messieurs'=>[
 					'mesieurs',
 					'messsieurs',
+					'messeiurs',
+					'messiuers',
 				],
 				'messily'=>[
 					'mesily',
@@ -4390,16 +7136,19 @@
 				'messmate'=>[
 					'mesmate',
 					'messsmate',
+					'messate',
 				],
 				'messmates'=>[
 					'mesmates',
 					'messsmates',
+					'messates',
 				],
 				'messroom'=>[
 					'mesroom',
 					'messsroom',
 					'messrom',
 					'messrooom',
+					'messoom',
 				],
 				'messuage'=>[
 					'messauge',
@@ -4419,6 +7168,9 @@
 				'mestee'=>[
 					'meste',
 					'mesteee',
+				],
+				'mestizoes'=>[
+					'mestizeos',
 				],
 				'metabisulfite'=>[
 					'metabisulfide',
@@ -4440,6 +7192,17 @@
 				'metacarpophalangeal'=>[
 					'metacarpophangeal',
 				],
+				'metafiction'=>[
+					'metafictoin',
+					'metaficton',
+				],
+				'metafictional'=>[
+					'metafictoinal',
+					'metafictonal',
+				],
+				'metagnathous'=>[
+					'metagnathuos',
+				],
 				'metal'=>[
 					'metal metal',
 					'metal metal metal',
@@ -4449,6 +7212,12 @@
 				],
 				'metalanguages'=>[
 					'metalangauges',
+				],
+				'metalinguistic'=>[
+					'metalingiustic',
+				],
+				'metalinguistics'=>[
+					'metalingiustics',
 				],
 				'metallated'=>[
 					'metalated',
@@ -4471,6 +7240,7 @@
 				'metalliferous'=>[
 					'metaliferous',
 					'metallliferous',
+					'metalliferuos',
 				],
 				'metalline'=>[
 					'metallini',
@@ -4486,6 +7256,7 @@
 				'metalloid'=>[
 					'metallloid',
 					'metaloid',
+					'metalliod',
 				],
 				'metallophilic'=>[
 					'metallophillic',
@@ -4531,6 +7302,22 @@
 					'metalurgy',
 					'metalllurgy',
 				],
+				'metalwork'=>[
+					'metalork',
+					'metawork',
+				],
+				'metalworker'=>[
+					'metalorker',
+					'metaworker',
+				],
+				'metalworkers'=>[
+					'metalorkers',
+					'metaworkers',
+				],
+				'metalworking'=>[
+					'metalorking',
+					'metaworking',
+				],
 				'metamorphic'=>[
 					'metamourphic',
 				],
@@ -4559,6 +7346,13 @@
 					'metamorphysis',
 					'metamourphosis',
 				],
+				'metamorphous'=>[
+					'metamorphuos',
+				],
+				'metanoia'=>[
+					'metanioa',
+					'metanoai',
+				],
 				'metaphor'=>[
 					'metaphore',
 				],
@@ -4575,6 +7369,13 @@
 				],
 				'metaphysician'=>[
 					'metaphysican',
+					'metaphysicain',
+				],
+				'metaplasia'=>[
+					'metaplasai',
+				],
+				'metaprotein'=>[
+					'metaprotien',
 				],
 				'metaproterenol'=>[
 					'metaprotenerol',
@@ -4584,6 +7385,9 @@
 				],
 				'metasequoias'=>[
 					'metaseqoias',
+				],
+				'metastability'=>[
+					'metastibility',
 				],
 				'metastable'=>[
 					'metastible',
@@ -4601,31 +7405,78 @@
 				],
 				'metatherian'=>[
 					'methatherian',
+					'metatherain',
 				],
 				'metempsychotically'=>[
 					'metempsychoticallly',
 					'metempsychoticaly',
 				],
+				'meteoric'=>[
+					'metoeric',
+				],
 				'meteorically'=>[
 					'meteoricallly',
 					'meteoricaly',
+					'metoerically',
+				],
+				'meteorite'=>[
+					'metoerite',
+				],
+				'meteorites'=>[
+					'metoerites',
+				],
+				'meteoritic'=>[
+					'metoeritic',
+				],
+				'meteoritical'=>[
+					'metoeritical',
+				],
+				'meteoritics'=>[
+					'metoeritics',
+				],
+				'meteorograph'=>[
+					'metoerograph',
 				],
 				'meteoroic'=>[
 					'meteroic',
 				],
+				'meteoroid'=>[
+					'meteoriod',
+					'metoeroid',
+				],
+				'meteoroids'=>[
+					'meteoriods',
+					'metoeroids',
+				],
+				'meteorologic'=>[
+					'metoerologic',
+				],
 				'meteorological'=>[
 					'metereological',
+					'metoerological',
 				],
 				'meteorologically'=>[
 					'meteorologicallly',
 					'meteorologicaly',
+					'metoerologically',
 				],
 				'meteorologist'=>[
 					'meterologist',
+					'metoerologist',
+				],
+				'meteorologists'=>[
+					'metoerologists',
 				],
 				'meteorology'=>[
 					'meterology',
 					'metorology',
+					'metoerology',
+				],
+				'meteors'=>[
+					'metoers',
+				],
+				'metered'=>[
+					'meterd',
 				],
 				'methacrylate'=>[
 					'metacrylate',
@@ -4655,6 +7506,10 @@
 				],
 				'methionine'=>[
 					'methionini',
+					'methoinine',
+				],
+				'methionines'=>[
+					'methoinines',
 				],
 				'method'=>[
 					'method method',
@@ -4676,6 +7531,9 @@
 					'methodologicallly',
 					'methodologicaly',
 				],
+				'methodologies'=>[
+					'methodologeis',
+				],
 				'methods'=>[
 					'metbods',
 					'methocls',
@@ -4684,6 +7542,9 @@
 				'methotrexate'=>[
 					'methrotrexate',
 					'metothrexate',
+				],
+				'methought'=>[
+					'methuoght',
 				],
 				'methoxamine'=>[
 					'metoxamine',
@@ -4711,9 +7572,20 @@
 				'methysergide'=>[
 					'methisergide',
 				],
+				'meticulosities'=>[
+					'meticulositeis',
+				],
+				'meticulous'=>[
+					'meticuluos',
+				],
+				'meticulously'=>[
+					'meticulousely',
+					'meticuluosly',
+				],
 				'meticulousness'=>[
 					'meticulousnes',
 					'meticulousnesss',
+					'meticuluosness',
 				],
 				'metier'=>[
 					'meteir',
@@ -4726,11 +7598,17 @@
 					'metonymicallly',
 					'metonymicaly',
 				],
+				'metonymies'=>[
+					'metonymeis',
+				],
 				'metonymy'=>[
 					'metonomy',
 				],
 				'metoprolol'=>[
 					'metroprolol',
+				],
+				'metralgia'=>[
+					'metralgai',
 				],
 				'metrical'=>[
 					'meterical',
@@ -4739,6 +7617,10 @@
 					'metricallly',
 					'metricaly',
 				],
+				'metrication'=>[
+					'metricatoin',
+					'metricaton',
+				],
 				'metronomically'=>[
 					'metronomicallly',
 					'metronomicaly',
@@ -4746,13 +7628,19 @@
 				'metropolitan'=>[
 					'metropolian',
 				],
+				'metropolitical'=>[
+					'metroolitical',
+					'metrpolitical',
+				],
 				'metrorrhagia'=>[
 					'metrorhagia',
 					'metrorrrhagia',
+					'metrorrhagai',
 				],
 				'metrorrhagias'=>[
 					'metrorhagias',
 					'metrorrrhagias',
+					'metrorrhagais',
 				],
 				'mettle'=>[
 					'metle',
@@ -4764,6 +7652,18 @@
 				],
 				'mexican-occupied'=>[
 					'mexican occupied',
+				],
+				'mezereon'=>[
+					'mezeroen',
+				],
+				'mezereons'=>[
+					'mezeroens',
+				],
+				'mezereum'=>[
+					'mezeruem',
+				],
+				'mezereums'=>[
+					'mezeruems',
 				],
 				'mezuzah'=>[
 					'mezuza',
@@ -4804,9 +7704,48 @@
 				'miami'=>[
 					'maimi',
 				],
+				'miaow'=>[
+					'maiow',
+					'mioaw',
+				],
+				'miaowed'=>[
+					'maiowed',
+					'miawed',
+					'mioawed',
+					'miowed',
+				],
+				'miaowing'=>[
+					'maiowing',
+					'miawing',
+					'mioawing',
+					'miowing',
+				],
+				'miaows'=>[
+					'maiows',
+					'mioaws',
+				],
+				'miasma'=>[
+					'maisma',
+				],
+				'miasmal'=>[
+					'maismal',
+				],
+				'miasmas'=>[
+					'maismas',
+				],
+				'miasmata'=>[
+					'maismata',
+				],
+				'miasmatic'=>[
+					'maismatic',
+				],
+				'miasmic'=>[
+					'maismic',
+				],
 				'miasmically'=>[
 					'miasmicallly',
 					'miasmicaly',
+					'maismically',
 				],
 				'micellar'=>[
 					'miceller',
@@ -4830,6 +7769,9 @@
 					'michgian',
 					'mishigan',
 				],
+				'mickeys'=>[
+					'miceys',
+				],
 				'microaerobic'=>[
 					'microanaerobic',
 				],
@@ -4840,11 +7782,40 @@
 				'microalga'=>[
 					'micoalga',
 				],
+				'microampere'=>[
+					'micraompere',
+				],
+				'microanalyses'=>[
+					'micraonalyses',
+				],
+				'microanalysis'=>[
+					'micranalysis',
+					'micraonalysis',
+					'micronalysis',
+				],
 				'microbalance'=>[
 					'microbalence',
+					'micrbalance',
+					'microalance',
+				],
+				'microbalances'=>[
+					'micrbalances',
+					'microalances',
+					'microbalences',
 				],
 				'microbar'=>[
 					'microber',
+				],
+				'microbe'=>[
+					'micobe',
+					'mirobe',
+				],
+				'microbes'=>[
+					'micobes',
+					'mirobes',
+				],
+				'microbial'=>[
+					'microbail',
 				],
 				'microbian'=>[
 					'microban',
@@ -4852,9 +7823,55 @@
 				'microbicide'=>[
 					'micobicide',
 				],
+				'microbiological'=>[
+					'micrbiological',
+					'microboilogical',
+					'microiological',
+				],
 				'microbiologically'=>[
 					'microbiologicallly',
 					'microbiologicaly',
+					'micrbiologically',
+					'microboilogically',
+					'microiologically',
+				],
+				'microbiologist'=>[
+					'micrbiologist',
+					'microboilogist',
+					'microiologist',
+				],
+				'microbiologists'=>[
+					'microboilogists',
+				],
+				'microbiology'=>[
+					'micrbiology',
+					'microboilogy',
+					'microiology',
+				],
+				'microbrew'=>[
+					'micrbrew',
+					'microrew',
+				],
+				'microbreweries'=>[
+					'microbrewaries',
+					'microbrewereis',
+				],
+				'microbrewery'=>[
+					'microbrewary',
+				],
+				'microburst'=>[
+					'micrburst',
+					'microurst',
+				],
+				'microcapsule'=>[
+					'micrcapsule',
+					'microapsule',
+				],
+				'microcephalies'=>[
+					'microcephaleis',
+				],
+				'microcephalous'=>[
+					'microcephaluos',
 				],
 				'microcephaly'=>[
 					'microcephaally',
@@ -4862,8 +7879,37 @@
 					'microcephaely',
 					'microcephally',
 				],
+				'microchemistry'=>[
+					'micrchemistry',
+					'microhemistry',
+				],
 				'microchimeric'=>[
 					'microcimeric',
+				],
+				'microchip'=>[
+					'micrchip',
+					'microhip',
+				],
+				'microchips'=>[
+					'micrchips',
+					'microhips',
+				],
+				'microcircuit'=>[
+					'micrcircuit',
+					'microcirciut',
+					'microircuit',
+				],
+				'microcircuitry'=>[
+					'microcirciutry',
+				],
+				'microcircuits'=>[
+					'micrcircuits',
+					'microcirciuts',
+					'microircuits',
+				],
+				'microclimate'=>[
+					'micrclimate',
+					'microlimate',
 				],
 				'microcline'=>[
 					'microclini',
@@ -4875,6 +7921,31 @@
 					'micrococus',
 					'micrococccus',
 				],
+				'microcode'=>[
+					'micrcode',
+					'microode',
+				],
+				'microcomputer'=>[
+					'micrcomputer',
+					'microomputer',
+				],
+				'microcomputers'=>[
+					'micrcomputers',
+					'microomputers',
+				],
+				'microcopies'=>[
+					'micrcopies',
+					'microcopeis',
+					'microopies',
+				],
+				'microcopy'=>[
+					'micrcopy',
+					'microopy',
+				],
+				'microcosmic'=>[
+					'micrcosmic',
+					'microosmic',
+				],
 				'microcosmically'=>[
 					'microcosmicalally',
 					'microcosmicalaly',
@@ -4882,16 +7953,69 @@
 					'microcosmicallly',
 					'microcosmicaly',
 				],
+				'microcosmos'=>[
+					'micrcosmos',
+					'microosmos',
+				],
 				'microcrystalline'=>[
 					'microcrystaline',
 					'microcrystallline',
 				],
+				'microcurie'=>[
+					'microcurei',
+				],
 				'microcystin'=>[
 					'microcysteine',
+				],
+				'microdots'=>[
+					'micrdots',
+					'microots',
 				],
 				'microearthquake'=>[
 					'microearthqauke',
 					'microerthquake',
+				],
+				'microeconomic'=>[
+					'micreconomic',
+					'micreoconomic',
+					'microconomic',
+				],
+				'microeconomics'=>[
+					'micreconomics',
+					'micreoconomics',
+					'microconomics',
+				],
+				'microelectronic'=>[
+					'micrelectronic',
+					'micreolectronic',
+					'microlectronic',
+				],
+				'microelectronics'=>[
+					'micrelectronics',
+					'micreolectronics',
+					'microlectronics',
+				],
+				'microelement'=>[
+					'micrelement',
+					'micreolement',
+					'microelemant',
+					'microlement',
+				],
+				'microencapsulate'=>[
+					'micreoncapsulate',
+				],
+				'microencapsulation'=>[
+					'micreoncapsulation',
+					'microencapsulatoin',
+					'microencapsulaton',
+				],
+				'microfiber'=>[
+					'micrfiber',
+					'microiber',
+				],
+				'microfibers'=>[
+					'micrfibers',
+					'microibers',
 				],
 				'microfibrillar'=>[
 					'microfibriller',
@@ -4903,23 +8027,63 @@
 				'microfilaricide'=>[
 					'microfilariacide',
 				],
+				'microfilm'=>[
+					'micrfilm',
+					'microilm',
+				],
 				'microfilmable'=>[
 					'microfilmible',
+				],
+				'microfilmed'=>[
+					'micrfilmed',
+					'microilmed',
+				],
+				'microfilming'=>[
+					'micrfilming',
+					'microilming',
+				],
+				'microfilms'=>[
+					'micrfilms',
+					'microilms',
 				],
 				'microfloppy'=>[
 					'microflopppy',
 					'microflopy',
+					'micrfloppy',
+					'microloppy',
 				],
 				'microglia'=>[
 					'microglias',
 				],
+				'microgram'=>[
+					'micrgram',
+					'microram',
+				],
+				'micrograms'=>[
+					'micrgrams',
+					'microrams',
+				],
+				'micrograph'=>[
+					'micrgraph',
+					'microraph',
+				],
+				'microgravity'=>[
+					'micrgravity',
+					'microravity',
+				],
 				'microgroove'=>[
 					'microgrooove',
 					'microgrove',
+					'micrgroove',
+					'microroove',
 				],
 				'microgrooves'=>[
 					'microgroooves',
 					'microgroves',
+				],
+				'microhenry'=>[
+					'micrhenry',
+					'microenry',
 				],
 				'microinjection'=>[
 					'microejection',
@@ -4930,15 +8094,77 @@
 				'microiontophoretically'=>[
 					'microionophoretically',
 				],
+				'microlight'=>[
+					'micrlight',
+					'microight',
+				],
+				'microlights'=>[
+					'micrlights',
+					'microights',
+				],
+				'micromanage'=>[
+					'micrmanage',
+					'microanage',
+				],
+				'micromanaged'=>[
+					'micrmanaged',
+					'microanaged',
+				],
+				'micromanagement'=>[
+					'micrmanagement',
+					'microanagement',
+					'micromanagemant',
+				],
+				'micromanager'=>[
+					'micrmanager',
+					'microanager',
+				],
+				'micromanages'=>[
+					'micrmanages',
+					'microanages',
+				],
+				'micromanaging'=>[
+					'micrmanaging',
+					'microanaging',
+				],
 				'micromanometer'=>[
 					'micronanometer',
+				],
+				'micrometeorite'=>[
+					'micrmeteorite',
+					'microeteorite',
+					'micrometoerite',
+				],
+				'micrometeorites'=>[
+					'micrometoerites',
+				],
+				'micrometeorology'=>[
+					'micrometoerology',
+				],
+				'micrometer'=>[
+					'micrmeter',
+					'microeter',
+				],
+				'micrometers'=>[
+					'micrmeters',
+					'microeters',
 				],
 				'micromillimeter'=>[
 					'micromilimeter',
 					'micromilllimeter',
+					'micrmillimeter',
+					'microillimeter',
 				],
 				'microminiature'=>[
 					'microminaature',
+				],
+				'microminiaturization'=>[
+					'microminaiturization',
+					'microminiaturizatoin',
+					'microminiaturizaton',
+				],
+				'microminiaturized'=>[
+					'microminaiturized',
 				],
 				'micromolar'=>[
 					'micromoler',
@@ -4948,6 +8174,11 @@
 				],
 				'micromorphology'=>[
 					'micromourphology',
+				],
+				'micronucleus'=>[
+					'micrnucleus',
+					'micronuclues',
+					'microucleus',
 				],
 				'micronutrient'=>[
 					'micronutreint',
@@ -4962,22 +8193,64 @@
 					'microoorganisms',
 					'microrganisms',
 				],
+				'micropaleontology'=>[
+					'micropaloentology',
+				],
+				'microparasite'=>[
+					'microarasite',
+					'micrparasite',
+				],
 				'microparticle'=>[
 					'microperticle',
 				],
 				'microparticles'=>[
 					'microperticles',
 				],
+				'micropathology'=>[
+					'microathology',
+					'micrpathology',
+				],
+				'microphone'=>[
+					'microhone',
+					'micrphone',
+				],
+				'microphones'=>[
+					'microhones',
+					'micrphones',
+				],
+				'microphotograph'=>[
+					'microhotograph',
+					'micrphotograph',
+				],
+				'microphysics'=>[
+					'microhysics',
+					'micrphysics',
+				],
+				'microprint'=>[
+					'microrint',
+					'micrprint',
+				],
 				'microprocessor'=>[
 					'microprocesor',
 					'microprocesssor',
+					'microrocessor',
+					'micrprocessor',
 				],
 				'microprocessors'=>[
 					'microprocesors',
 					'microprocesssors',
 				],
+				'microprogram'=>[
+					'microrogram',
+					'micrprogram',
+				],
 				'micropylar'=>[
 					'micropyler',
+				],
+				'microreader'=>[
+					'microeader',
+					'microraeder',
+					'micrreader',
 				],
 				'microsatellite'=>[
 					'microstellate',
@@ -4986,11 +8259,20 @@
 					'microcope',
 					'microcsope',
 					'microsope',
+					'micrscope',
+				],
+				'microscopes'=>[
+					'microcopes',
+					'microsopes',
 				],
 				'microscopic'=>[
 					'microcopic',
 					'microcsopic',
 					'microsopic',
+				],
+				'microscopical'=>[
+					'microcopical',
+					'microsopical',
 				],
 				'microscopically'=>[
 					'microcopically',
@@ -5002,10 +8284,22 @@
 					'microsopically',
 					'microscopicaly',
 				],
+				'microscopist'=>[
+					'microcopist',
+					'microsopist',
+				],
 				'microscopy'=>[
 					'microcopy',
 					'microcsopy',
 					'microsopy',
+				],
+				'microsecond'=>[
+					'microecond',
+					'micrsecond',
+				],
+				'microseconds'=>[
+					'microeconds',
+					'micrseconds',
 				],
 				'microseism'=>[
 					'microsiesm',
@@ -5016,6 +8310,15 @@
 				'microseismicity'=>[
 					'microsiesmicity',
 				],
+				'microseisms'=>[
+					'microsiesms',
+				],
+				'microsporangium'=>[
+					'microsporanguim',
+				],
+				'microspores'=>[
+					'micrspores',
+				],
 				'microsporidiosis'=>[
 					'microporidiosis',
 					'microspordiosis',
@@ -5024,8 +8327,25 @@
 					'microsporophyl',
 					'microsporophylll',
 				],
+				'microstructure'=>[
+					'microtructure',
+					'micrstructure',
+				],
+				'microsurgery'=>[
+					'microsurgary',
+					'microurgery',
+					'micrsurgery',
+				],
+				'microsurgical'=>[
+					'microurgical',
+					'micrsurgical',
+				],
 				'microthrombi'=>[
 					'microthrombii',
+				],
+				'microtone'=>[
+					'microone',
+					'micrtone',
 				],
 				'microtubular'=>[
 					'microtubuler',
@@ -5044,17 +8364,61 @@
 					'microwat',
 					'microwattt',
 				],
+				'microwavable'=>[
+					'microwavible',
+				],
+				'microwave'=>[
+					'microave',
+					'micrwave',
+				],
 				'microwaveable'=>[
 					'microwaveible',
+					'microwavaeble',
+				],
+				'microwaved'=>[
+					'microaved',
+					'micrwaved',
+				],
+				'microwaves'=>[
+					'microaves',
+					'micrwaves',
+				],
+				'microwaving'=>[
+					'microaving',
+					'micrwaving',
 				],
 				'micturition'=>[
 					'micturation',
+					'micturitoin',
+					'micturiton',
+				],
+				'micturitions'=>[
+					'micturitoins',
+					'micturitons',
 				],
 				'mid'=>[
 					'iiiid',
 				],
 				'mid-february'=>[
 					'mid february',
+				],
+				'midair'=>[
+					'midiar',
+				],
+				'midbrain'=>[
+					'mibrain',
+					'midbrian',
+					'midrain',
+				],
+				'midbrains'=>[
+					'mibrains',
+					'midbrians',
+					'midrains',
+				],
+				'midcourse'=>[
+					'micourse',
+					'midcuorse',
+					'midourse',
 				],
 				'midday'=>[
 					'miday',
@@ -5071,6 +8435,7 @@
 				'middies'=>[
 					'midddies',
 					'midies',
+					'middeis',
 				],
 				'middle'=>[
 					'middle middle',
@@ -5084,14 +8449,22 @@
 				'middlebreaker'=>[
 					'midddlebreaker',
 					'midlebreaker',
+					'middlbreaker',
+					'middlebraeker',
+					'middlereaker',
 				],
 				'middlebreakers'=>[
 					'midddlebreakers',
 					'midlebreakers',
+					'middlbreakers',
+					'middlebraekers',
+					'middlereakers',
 				],
 				'middlebrow'=>[
 					'midddlebrow',
 					'midlebrow',
+					'middlbrow',
+					'middlerow',
 				],
 				'middlebrows'=>[
 					'midddlebrows',
@@ -5112,6 +8485,8 @@
 				'middlemost'=>[
 					'midddlemost',
 					'midlemost',
+					'middleost',
+					'middlmost',
 				],
 				'middles'=>[
 					'midddles',
@@ -5124,11 +8499,15 @@
 					'middlewieght',
 					'midddleweight',
 					'midleweight',
+					'middleeight',
+					'middlweight',
 				],
 				'middleweights'=>[
 					'middlewieghts',
 					'midddleweights',
 					'midleweights',
+					'middleeights',
+					'middlweights',
 				],
 				'middling'=>[
 					'midddling',
@@ -5145,6 +8524,18 @@
 				'midfield'=>[
 					'midfeild',
 					'midfild',
+					'midield',
+					'mifield',
+				],
+				'midfielder'=>[
+					'midfeilder',
+				],
+				'midfielders'=>[
+					'midfeilders',
+				],
+				'midgets'=>[
+					'midets',
+					'migets',
 				],
 				'midinette'=>[
 					'midinete',
@@ -5154,19 +8545,70 @@
 					'midinetes',
 					'midinetttes',
 				],
+				'midiron'=>[
+					'midron',
+					'miiron',
+				],
+				'midirons'=>[
+					'midrons',
+					'miirons',
+				],
+				'midland'=>[
+					'midand',
+					'miland',
+				],
+				'midlands'=>[
+					'midands',
+					'milands',
+				],
+				'midlife'=>[
+					'milife',
+				],
 				'midline'=>[
 					'midlini',
+					'midine',
+				],
+				'midlines'=>[
+					'midines',
+				],
+				'midmost'=>[
+					'midost',
+					'mimost',
 				],
 				'midnight'=>[
 					'inidniglit',
 					'midniglit',
+					'midight',
+					'minight',
+				],
+				'midnights'=>[
+					'midights',
+					'minights',
 				],
 				'midpoint'=>[
 					'mid-point',
+					'midoint',
+					'midpiont',
+					'mipoint',
+				],
+				'midpoints'=>[
+					'midoints',
+					'midpionts',
+					'mipoints',
+				],
+				'midrash'=>[
+					'midash',
+					'mirash',
+				],
+				'midribs'=>[
+					'midibs',
+					'miribs',
 				],
 				'midriff'=>[
 					'midrif',
 					'midrifff',
+					'midiff',
+					'miriff',
 				],
 				'midriffs'=>[
 					'midrifffs',
@@ -5175,38 +8617,111 @@
 				'midsagittally'=>[
 					'midsagitally',
 				],
+				'midsection'=>[
+					'midection',
+					'midsectoin',
+					'midsecton',
+					'misection',
+				],
+				'midsections'=>[
+					'midections',
+					'midsectoins',
+					'midsectons',
+					'misections',
+				],
+				'midsize'=>[
+					'midize',
+					'misize',
+				],
+				'midsized'=>[
+					'midized',
+					'misized',
+				],
 				'midst'=>[
 					'inidst',
 				],
 				'midstream'=>[
 					'midstrem',
+					'midstraem',
+					'midtream',
+					'mistream',
 				],
 				'midsummer'=>[
 					'midsumner',
 					'midsumer',
 					'midsummmer',
+					'midummer',
+					'misummer',
+				],
+				'midterm'=>[
+					'miderm',
+					'miterm',
+				],
+				'midterms'=>[
+					'miderms',
+					'miterms',
+				],
+				'midtown'=>[
+					'midown',
+					'mitown',
+				],
+				'midways'=>[
+					'midays',
+					'miways',
 				],
 				'midweek'=>[
 					'midweeek',
 					'midwek',
+					'mideek',
+					'miweek',
 				],
 				'midweekly'=>[
 					'midweeekly',
 					'midwekly',
+					'mideekly',
+					'miweekly',
 				],
 				'midweeks'=>[
 					'midweeeks',
 					'midweks',
+					'mideeks',
+					'miweeks',
 				],
 				'midwest'=>[
 					'mid-west',
 				],
+				'midwestern'=>[
+					'midestern',
+					'miwestern',
+				],
+				'midwife'=>[
+					'miwife',
+				],
+				'midwiferies'=>[
+					'midwifaries',
+					'midwifereis',
+				],
+				'midwifery'=>[
+					'midwifary',
+				],
+				'midwinter'=>[
+					'midinter',
+					'miwinter',
+				],
 				'midwives'=>[
 					'midwifes',
+					'midives',
+					'miwives',
 				],
 				'midyear'=>[
 					'midyeer',
 					'midyer',
+					'midyaer',
+					'miyear',
+				],
+				'midyears'=>[
+					'midyaers',
+					'miyears',
 				],
 				'mien'=>[
 					'meien',
@@ -5247,6 +8762,12 @@
 					'rnight',
 					'rniglit',
 				],
+				'mightier'=>[
+					'mighteir',
+				],
+				'mightiest'=>[
+					'mighteist',
+				],
 				'mightily'=>[
 					'mightially',
 					'mightialy',
@@ -5273,9 +8794,32 @@
 				],
 				'migraine'=>[
 					'migraini',
+					'migriane',
+				],
+				'migraines'=>[
+					'migrianes',
+				],
+				'migrainous'=>[
+					'migrainuos',
+					'migrianous',
 				],
 				'migrant'=>[
 					'migrent',
+				],
+				'migrants'=>[
+					'migrents',
+				],
+				'migration'=>[
+					'migratoin',
+					'migraton',
+				],
+				'migrational'=>[
+					'migratoinal',
+					'migratonal',
+				],
+				'migrations'=>[
+					'migratoins',
+					'migratons',
 				],
 				'miguelito cuní'=>[
 					'miguelito cuni',
@@ -5286,8 +8830,15 @@
 				'mikvahs'=>[
 					'mikvas',
 				],
+				'miladies'=>[
+					'miladeis',
+				],
 				'mildened'=>[
 					'mildend',
+				],
+				'mildish'=>[
+					'midish',
+					'milish',
 				],
 				'mildness'=>[
 					'mildnes',
@@ -5299,6 +8850,18 @@
 				],
 				'mileage'=>[
 					'milege',
+					'milaege',
+				],
+				'mileages'=>[
+					'milaeges',
+				],
+				'milepost'=>[
+					'mileost',
+					'milpost',
+				],
+				'mileposts'=>[
+					'mileosts',
+					'milposts',
 				],
 				'miles'=>[
 					'iniles',
@@ -5307,30 +8870,72 @@
 				'milesian'=>[
 					'milesan',
 				],
+				'milestone'=>[
+					'milesone',
+					'miletone',
+				],
+				'milestones'=>[
+					'milesones',
+					'miletones',
+				],
+				'milia'=>[
+					'milai',
+				],
+				'miliaria'=>[
+					'milairia',
+					'miliarai',
+				],
 				'miliary'=>[
 					'miliery',
+					'milairy',
 				],
 				'milieu'=>[
 					'mileau',
 					'mileiu',
 					'mileu',
 					'miliu',
+					'miliue',
+				],
+				'milieus'=>[
+					'mileius',
+					'miliues',
+				],
+				'milieux'=>[
+					'mileiux',
+					'miliuex',
 				],
 				'militance'=>[
 					'militence',
 				],
+				'militances'=>[
+					'militences',
+				],
 				'militancy'=>[
 					'militansy',
+					'militency',
 				],
 				'militant'=>[
 					'militent',
 					'miltant',
+				],
+				'militantly'=>[
+					'militantely',
+					'militently',
 				],
 				'militantnesses'=>[
 					'militentnesses',
 				],
 				'militants'=>[
 					'miltants',
+					'militents',
+				],
+				'militaries'=>[
+					'militareis',
+					'militeries',
+				],
+				'militarization'=>[
+					'militarizatoin',
+					'militarizaton',
 				],
 				'military'=>[
 					'militairy',
@@ -5347,22 +8952,65 @@
 					'milita',
 					'mihtia',
 					'mililia',
+					'militai',
+				],
+				'militiaman'=>[
+					'militaiman',
+				],
+				'militiamen'=>[
+					'militaimen',
+				],
+				'militias'=>[
+					'militais',
+				],
+				'milium'=>[
+					'miluim',
 				],
 				'milk'=>[
 					'milk milk',
 					'milk milk milk',
 				],
+				'milkfish'=>[
+					'milfish',
+				],
+				'milkier'=>[
+					'milkeir',
+				],
+				'milkiest'=>[
+					'milkeist',
+				],
 				'milkiness'=>[
 					'milkines',
 					'milkinesss',
 				],
+				'milkmaid'=>[
+					'milkaid',
+					'milkmiad',
+					'milmaid',
+				],
+				'milkmaids'=>[
+					'milkaids',
+					'milkmiads',
+					'milmaids',
+				],
+				'milkshake'=>[
+					'milkhake',
+					'milshake',
+				],
+				'milkshakes'=>[
+					'milkhakes',
+					'milshakes',
+				],
 				'milkweed'=>[
 					'milkwed',
 					'milkweeed',
+					'milweed',
 				],
 				'milkweeds'=>[
 					'milkweds',
 					'milkweeeds',
+					'milkeeds',
+					'milweeds',
 				],
 				'mill'=>[
 					'mil',
@@ -5375,10 +9023,14 @@
 				'millboard'=>[
 					'milboard',
 					'milllboard',
+					'millbaord',
+					'milloard',
 				],
 				'millboards'=>[
 					'milboards',
 					'milllboards',
+					'millbaords',
+					'milloards',
 				],
 				'milldam'=>[
 					'mildam',
@@ -5399,19 +9051,23 @@
 					'millenaran',
 					'millennarian',
 					'milllenarian',
+					'millenarain',
 				],
 				'millenarianism'=>[
 					'millennarianism',
 					'milenarianism',
 					'milllenarianism',
+					'millenarainism',
 				],
 				'millenarianisms'=>[
 					'milenarianisms',
 					'milllenarianisms',
+					'millenarainisms',
 				],
 				'millenarians'=>[
 					'milenarians',
 					'milllenarians',
+					'millenarains',
 				],
 				'millenary'=>[
 					'millenery',
@@ -5423,18 +9079,21 @@
 					'millenia',
 					'millennnia',
 					'milllennia',
+					'millennai',
 				],
 				'millennial'=>[
 					'milennial',
 					'millenial',
 					'millennnial',
 					'milllennial',
+					'millennail',
 				],
 				'millennialism'=>[
 					'millenialism',
 					'milennialism',
 					'millennnialism',
 					'milllennialism',
+					'millennailism',
 				],
 				'millennialisms'=>[
 					'millenialisms',
@@ -5444,6 +9103,9 @@
 					'milennialist',
 					'millennnialist',
 					'milllennialist',
+					'millennailist',
+					'millenniaist',
+					'millennilist',
 				],
 				'millennialists'=>[
 					'millenialists',
@@ -5454,6 +9116,7 @@
 					'millenniallly',
 					'millennnially',
 					'milllennially',
+					'millennailly',
 				],
 				'millennials'=>[
 					'milennials',
@@ -5464,12 +9127,14 @@
 					'millenium',
 					'millennnium',
 					'milllennium',
+					'millennuim',
 				],
 				'millenniums'=>[
 					'milleniums',
 					'milenniums',
 					'millennniums',
 					'milllenniums',
+					'millennuims',
 				],
 				'millepede'=>[
 					'milepede',
@@ -5509,22 +9174,27 @@
 				'milliampere'=>[
 					'miliampere',
 					'millliampere',
+					'millaimpere',
 				],
 				'milliamperes'=>[
 					'miliamperes',
 					'millliamperes',
+					'millaimperes',
 				],
 				'milliard'=>[
 					'miliard',
 					'millliard',
+					'millaird',
 				],
 				'milliards'=>[
 					'miliards',
 					'millliards',
+					'millairds',
 				],
 				'milliary'=>[
 					'milliery',
 					'millliary',
+					'millairy',
 				],
 				'millibar'=>[
 					'milliber',
@@ -5537,10 +9207,12 @@
 				],
 				'millicent'=>[
 					'milllicent',
+					'millicant',
 				],
 				'millie'=>[
 					'milie',
 					'milllie',
+					'millei',
 				],
 				'milligram'=>[
 					'miligram',
@@ -5553,6 +9225,7 @@
 				'millihenries'=>[
 					'milihenries',
 					'milllihenries',
+					'millihenreis',
 				],
 				'millihenry'=>[
 					'milihenry',
@@ -5611,6 +9284,7 @@
 					'milliniry',
 					'milinery',
 					'milllinery',
+					'millinary',
 				],
 				'millines'=>[
 					'milines',
@@ -5629,34 +9303,47 @@
 					'million million',
 					'million million million',
 					'milllion',
+					'milloin',
+					'millon',
 				],
 				'millionaire'=>[
 					'milionaire',
 					'millionare',
 					'milllionaire',
+					'millioniare',
+					'milloinaire',
 				],
 				'millionaires'=>[
 					'milionaires',
 					'milllionaires',
+					'millioniares',
+					'milloinaires',
 				],
 				'millionairess'=>[
 					'milionairess',
 					'millionairesss',
 					'milllionairess',
+					'millioniaress',
+					'milloinairess',
 				],
 				'millionairesses'=>[
 					'millionairessses',
 					'milionairesses',
 					'milllionairesses',
+					'millioniaresses',
+					'milloinairesses',
 				],
 				'millions'=>[
 					'milllions',
 					'milions',
 					'miliions',
+					'milloins',
+					'millons',
 				],
 				'millionth'=>[
 					'milionth',
 					'milllionth',
+					'millointh',
 				],
 					# millepede: an accepted spelling, not a slip (AmericanBritishWords_M: millipede)
 			#	'millipede'=>[
@@ -5665,6 +9352,7 @@
 				'millionths'=>[
 					'milionths',
 					'milllionths',
+					'milloinths',
 				],
 				'millipede'=>[
 					'milipede',
@@ -5696,6 +9384,7 @@
 				'millpond'=>[
 					'milllpond',
 					'milpond',
+					'millond',
 				],
 				'millponds'=>[
 					'milllponds',
@@ -5704,10 +9393,12 @@
 				'millrace'=>[
 					'milllrace',
 					'milrace',
+					'millace',
 				],
 				'millraces'=>[
 					'milllraces',
 					'milraces',
+					'millaces',
 				],
 				'millrun'=>[
 					'milllrun',
@@ -5716,6 +9407,7 @@
 				'millruns'=>[
 					'milllruns',
 					'milruns',
+					'milluns',
 				],
 				'mills'=>[
 					'millls',
@@ -5723,18 +9415,26 @@
 				'millstone'=>[
 					'milstone',
 					'milllstone',
+					'millsone',
+					'milltone',
 				],
 				'millstones'=>[
 					'milllstones',
 					'milstones',
+					'millsones',
+					'milltones',
 				],
 				'millstream'=>[
 					'milstream',
 					'milllstream',
+					'millstraem',
+					'milltream',
 				],
 				'millstreams'=>[
 					'milllstreams',
 					'milstreams',
+					'millstraems',
+					'milltreams',
 				],
 				'milltown malbay'=>[
 					'milton malbay',
@@ -5742,10 +9442,12 @@
 				'millwork'=>[
 					'milwork',
 					'milllwork',
+					'millork',
 				],
 				'millworks'=>[
 					'milllworks',
 					'milworks',
+					'millorks',
 				],
 				'millwright'=>[
 					'milwright',
@@ -5755,18 +9457,48 @@
 					'milllwrights',
 					'milwrights',
 				],
+				'milquetoast'=>[
+					'milqeutoast',
+					'milquetaost',
+				],
+				'milquetoasts'=>[
+					'milqeutoasts',
+					'milquetaosts',
+				],
 				'milreis'=>[
 					'milries',
 				],
 				'mimbar'=>[
 					'mimber',
 				],
+				'mimeograph'=>[
+					'mimoegraph',
+				],
+				'mimeographed'=>[
+					'mimoegraphed',
+				],
+				'mimeographing'=>[
+					'mimoegraphing',
+				],
+				'mimeographs'=>[
+					'mimoegraphs',
+				],
 				'mimetically'=>[
 					'mimeticallly',
 					'mimeticaly',
 				],
+				'mimicking'=>[
+					'mimiking',
+				],
+				'mimicries'=>[
+					'mimicreis',
+				],
 				'mimicry'=>[
 					'mimickry',
+				],
+				'mimosaceous'=>[
+					'mimosaceuos',
+					'mimosacoeus',
 				],
 				'minable'=>[
 					'minible',
@@ -5774,6 +9506,8 @@
 				'minacious'=>[
 					'minacous',
 					'minicious',
+					'minaciuos',
+					'minacoius',
 				],
 				'minae'=>[
 					'minie',
@@ -5784,6 +9518,9 @@
 				'minas'=>[
 					'minis',
 				],
+				'minatorial'=>[
+					'minatorail',
+				],
 				'minatory'=>[
 					'minitory',
 				],
@@ -5791,6 +9528,11 @@
 					'minaudeire',
 					'minaudire',
 					'miniudiere',
+				],
+				'mincemeat'=>[
+					'minceeat',
+					'mincemaet',
+					'mincmeat',
 				],
 				'mincy'=>[
 					'minsy',
@@ -5819,10 +9561,15 @@
 				'mindfully'=>[
 					'mindfullly',
 					'mindfuly',
+					'mindully',
+					'minfully',
 				],
 				'mindfulness'=>[
 					'mindfulnes',
 					'mindfulnesss',
+				],
+				'minding'=>[
+					'miding',
 				],
 				'mindless'=>[
 					'mindles',
@@ -5831,6 +9578,7 @@
 				'mindlessly'=>[
 					'mindlesly',
 					'mindlesssly',
+					'mindlessely',
 				],
 				'mindlessness'=>[
 					'mindlesness',
@@ -5845,6 +9593,10 @@
 					'niinds',
 					'rninds',
 				],
+				'mindsets'=>[
+					'mindets',
+					'minsets',
+				],
 				'mine'=>[
 					'mine mine',
 					'mine mine mine',
@@ -5853,6 +9605,7 @@
 					'mineble',
 					'mineible',
 					'miniable',
+					'minaeble',
 				],
 				'mined'=>[
 					'minid',
@@ -5861,6 +9614,21 @@
 					'minefeild',
 					'minefild',
 					'minifield',
+					'mineield',
+					'minfield',
+				],
+				'minefields'=>[
+					'minefeilds',
+					'mineields',
+					'minfields',
+				],
+				'minelayer'=>[
+					'mineayer',
+					'minlayer',
+				],
+				'minelayers'=>[
+					'mineayers',
+					'minlayers',
 				],
 				'miner'=>[
 					'minir',
@@ -5871,6 +9639,8 @@
 				],
 				'mineralization'=>[
 					'miniralization',
+					'mineralizatoin',
+					'mineralizaton',
 				],
 				'mineralizations'=>[
 					'miniralizations',
@@ -5896,11 +9666,16 @@
 					'minerology',
 					'miniralogy',
 				],
+				'mineraloid'=>[
+					'mineraliod',
+				],
 				'mines'=>[
 					'minis',
 				],
 				'mineshaft'=>[
 					'minishaft',
+					'minehaft',
+					'minshaft',
 				],
 				'minestrone'=>[
 					'ministrone',
@@ -5914,6 +9689,16 @@
 					'minesweeepers',
 					'mineswepers',
 				],
+				'mineworkers'=>[
+					'mineorkers',
+					'minworkers',
+				],
+				'mingier'=>[
+					'mingeir',
+				],
+				'mingiest'=>[
+					'mingeist',
+				],
 				'mini'=>[
 					'inini',
 					'miiii',
@@ -5922,27 +9707,42 @@
 					'minaature',
 					'minature',
 					'miniture',
+					'minaiture',
+				],
+				'miniatures'=>[
+					'minaitures',
+				],
+				'miniaturist'=>[
+					'minaiturist',
 				],
 				'miniaturistic'=>[
 					'minaaturistic',
 				],
 				'miniaturists'=>[
 					'minaaturists',
+					'minaiturists',
 				],
 				'miniaturization'=>[
 					'minaaturization',
+					'minaiturization',
+					'miniaturizatoin',
+					'miniaturizaton',
 				],
 				'miniaturize'=>[
 					'minaaturize',
+					'minaiturize',
 				],
 				'miniaturized'=>[
 					'minaaturized',
+					'minaiturized',
 				],
 				'miniaturizes'=>[
 					'minaaturizes',
+					'minaiturizes',
 				],
 				'miniaturizing'=>[
 					'minaaturizing',
+					'minaiturizing',
 				],
 				'minibar'=>[
 					'minabar',
@@ -5950,9 +9750,19 @@
 				],
 				'minibike'=>[
 					'minabike',
+					'minbike',
+					'miniike',
+				],
+				'minibikes'=>[
+					'minbikes',
+					'miniikes',
 				],
 				'minibus'=>[
 					'minabus',
+				],
+				'minibuses'=>[
+					'minbuses',
+					'miniuses',
 				],
 				'minibusses'=>[
 					'minibussses',
@@ -5960,11 +9770,19 @@
 				'minicab'=>[
 					'minacab',
 				],
+				'minicabs'=>[
+					'mincabs',
+					'miniabs',
+				],
 				'minicam'=>[
 					'minacam',
 				],
 				'minicamp'=>[
 					'minacamp',
+				],
+				'minicams'=>[
+					'mincams',
+					'miniams',
 				],
 				'minicar'=>[
 					'minacar',
@@ -5972,9 +9790,13 @@
 				],
 				'minicomputer'=>[
 					'minacomputer',
+					'mincomputer',
+					'miniomputer',
 				],
 				'minicomputers'=>[
 					'minacomputers',
+					'mincomputers',
+					'miniomputers',
 				],
 				'minicourse'=>[
 					'minacourse',
@@ -5987,6 +9809,12 @@
 				],
 				'minidress'=>[
 					'minadress',
+				],
+				'minified'=>[
+					'minifeid',
+				],
+				'minifies'=>[
+					'minifeis',
 				],
 				'minify'=>[
 					'minafy',
@@ -6030,9 +9858,13 @@
 				],
 				'minimization'=>[
 					'minamization',
+					'minimizatoin',
+					'minimizaton',
 				],
 				'minimizations'=>[
 					'minamizations',
+					'minimizatoins',
+					'minimizatons',
 				],
 				'minimize'=>[
 					'minamize',
@@ -6063,9 +9895,13 @@
 				],
 				'minion'=>[
 					'minaon',
+					'minoin',
+					'minon',
 				],
 				'minions'=>[
 					'minaons',
+					'minoins',
+					'minons',
 				],
 				'minipark'=>[
 					'minapark',
@@ -6085,8 +9921,16 @@
 					'minifters',
 					'miuisters',
 				],
+				'ministrants'=>[
+					'ministrents',
+				],
+				'minivans'=>[
+					'minians',
+					'minvans',
+				],
 				'minnie'=>[
 					'minnnie',
+					'minnei',
 				],
 				'minnows'=>[
 					'minnnows',
@@ -6097,8 +9941,33 @@
 				'minor'=>[
 					'rninor',
 				],
+				'minotaur'=>[
+					'minotuar',
+				],
 				'mint'=>[
 					'miiit',
+				],
+				'mintier'=>[
+					'minteir',
+				],
+				'mintiest'=>[
+					'minteist',
+				],
+				'minuend'=>[
+					'mineund',
+				],
+				'minuends'=>[
+					'mineunds',
+				],
+				'minuet'=>[
+					'mineut',
+				],
+				'minuets'=>[
+					'mineuts',
+				],
+				'minuscular'=>[
+					'minucular',
+					'minusular',
 				],
 				'minuscule'=>[
 					'minascule',
@@ -6129,6 +9998,9 @@
 					'minaseries',
 					'minisereis',
 					'miniseris',
+					'minieries',
+					'minisaries',
+					'minseries',
 				],
 				'minish'=>[
 					'minash',
@@ -6138,9 +10010,13 @@
 				],
 				'miniskirt'=>[
 					'minaskirt',
+					'minikirt',
+					'minskirt',
 				],
 				'miniskirts'=>[
 					'minaskirts',
+					'minikirts',
+					'minskirts',
 				],
 				'ministate'=>[
 					'minastate',
@@ -6157,28 +10033,37 @@
 				],
 				'ministered'=>[
 					'minastered',
+					'ministerd',
 				],
 				'ministerial'=>[
 					'minasterial',
 					'minifterial',
+					'ministerail',
 				],
 				'ministerially'=>[
 					'minasterially',
 					'ministeriallly',
+					'ministerailly',
 				],
 				'ministrant'=>[
 					'minastrant',
+					'ministrent',
 				],
 				'ministration'=>[
 					'minastration',
 					'miniftration',
+					'ministratoin',
+					'ministraton',
 				],
 				'ministrations'=>[
 					'minastrations',
+					'ministratoins',
+					'ministratons',
 				],
 				'ministries'=>[
 					'minastries',
 					'ministeries',
+					'ministreis',
 				],
 				'ministry'=>[
 					'minastry',
@@ -6200,9 +10085,11 @@
 				],
 				'minium'=>[
 					'minaum',
+					'minuim',
 				],
 				'miniums'=>[
 					'minaums',
+					'minuims',
 				],
 				'minivan'=>[
 					'minavan',
@@ -6238,18 +10125,23 @@
 				],
 				'minored'=>[
 					'minoured',
+					'minord',
 				],
 				'minoring'=>[
 					'minouring',
 				],
 				'minorities'=>[
 					'minourities',
+					'minoriteis',
 				],
 				'minority'=>[
 					'minourity',
 				],
 				'minstrelsy'=>[
 					'minstrelcy',
+				],
+				'minuses'=>[
+					'miuses',
 				],
 				'minute'=>[
 					'minute minute',
@@ -6273,15 +10165,45 @@
 					'mintues',
 					'minntes',
 				],
+				'minutia'=>[
+					'minutai',
+				],
+				'minutiae'=>[
+					'minutaie',
+					'minutiea',
+				],
+				'miosis'=>[
+					'moisis',
+				],
+				'miracidium'=>[
+					'miraciduim',
+				],
 				'miracle'=>[
 					'miricle',
+				],
+				'miraculous'=>[
+					'miraculuos',
+				],
+				'miraculously'=>[
+					'miraculousely',
+					'miraculuosly',
 				],
 				'miraculousness'=>[
 					'miraculousnes',
 					'miraculousnesss',
+					'miraculuosness',
 				],
 				'miranda'=>[
 					'meranda',
+				],
+				'mirepoix'=>[
+					'mirepiox',
+				],
+				'mirier'=>[
+					'mireir',
+				],
+				'miriest'=>[
+					'mireist',
 				],
 				'mirror'=>[
 					'miror',
@@ -6290,6 +10212,7 @@
 				'mirrored'=>[
 					'mirored',
 					'mirrrored',
+					'mirrord',
 				],
 				'mirroring'=>[
 					'miroring',
@@ -6353,12 +10276,20 @@
 					'misadddressing',
 					'misadressing',
 				],
+				'misadministration'=>[
+					'misadministratoin',
+					'misadministraton',
+				],
 				'misadventure'=>[
 					'misadvanture',
+				],
+				'misaligned'=>[
+					'misalignd',
 				],
 				'misalignment'=>[
 					'misaligment',
 					'misalignent',
+					'misalignmant',
 				],
 				'misalignments'=>[
 					'misaligments',
@@ -6368,18 +10299,23 @@
 					'misaliance',
 					'misallience',
 					'misallliance',
+					'misallaince',
 				],
 				'misalliances'=>[
 					'misaliances',
 					'misallliances',
+					'misallainces',
+					'misalliences',
 				],
 				'misallied'=>[
 					'misalied',
 					'misalllied',
+					'misalleid',
 				],
 				'misallies'=>[
 					'misalies',
 					'misalllies',
+					'misalleis',
 				],
 				'misallocate'=>[
 					'misalocate',
@@ -6388,6 +10324,8 @@
 				'misallocation'=>[
 					'misalllocation',
 					'misalocation',
+					'misallocatoin',
+					'misallocaton',
 				],
 				'misally'=>[
 					'misalally',
@@ -6424,18 +10362,24 @@
 				'misapplication'=>[
 					'misaplication',
 					'misappplication',
+					'misapplicatoin',
+					'misapplicaton',
 				],
 				'misapplications'=>[
 					'misaplications',
 					'misappplications',
+					'misapplicatoins',
+					'misapplicatons',
 				],
 				'misapplied'=>[
 					'misaplied',
 					'misappplied',
+					'misappleid',
 				],
 				'misapplies'=>[
 					'misaplies',
 					'misappplies',
+					'misappleis',
 				],
 				'misapply'=>[
 					'misaply',
@@ -6474,10 +10418,14 @@
 				'misapprehension'=>[
 					'misaprehension',
 					'misappprehension',
+					'misapprehensoin',
+					'misapprehenson',
 				],
 				'misapprehensions'=>[
 					'misappprehensions',
 					'misaprehensions',
+					'misapprehensoins',
+					'misapprehensons',
 				],
 				'misapprehensive'=>[
 					'misappprehensive',
@@ -6486,26 +10434,36 @@
 				'misappropriate'=>[
 					'misapropriate',
 					'misapppropriate',
+					'misappropraite',
 				],
 				'misappropriated'=>[
 					'misapropriated',
 					'misapppropriated',
+					'misappropraited',
 				],
 				'misappropriates'=>[
 					'misapropriates',
 					'misapppropriates',
+					'misappropraites',
 				],
 				'misappropriating'=>[
 					'misapppropriating',
 					'misapropriating',
+					'misappropraiting',
 				],
 				'misappropriation'=>[
 					'misapppropriation',
 					'misapropriation',
+					'misappropraition',
+					'misappropriatoin',
+					'misappropriaton',
 				],
 				'misappropriations'=>[
 					'misapppropriations',
 					'misapropriations',
+					'misappropraitions',
+					'misappropriatoins',
+					'misappropriatons',
 				],
 				'misattribute'=>[
 					'misatribute',
@@ -6521,15 +10479,59 @@
 					'misbegoten',
 					'misbegottten',
 				],
+				'misbehavior'=>[
+					'misbehavoir',
+				],
+				'misbelief'=>[
+					'misbeleif',
+				],
+				'misbelieve'=>[
+					'misbeleive',
+				],
+				'misbelieved'=>[
+					'misbeleived',
+				],
+				'misbeliever'=>[
+					'misbeleiver',
+				],
+				'misbelievers'=>[
+					'misbeleivers',
+				],
+				'misbelieves'=>[
+					'misbeleives',
+				],
+				'misbelieving'=>[
+					'misbeleiving',
+				],
 				'miscalculate'=>[
 					'micalculate',
 					'micsalculate',
 					'misalculate',
 				],
+				'miscalculated'=>[
+					'micalculated',
+					'misalculated',
+				],
+				'miscalculates'=>[
+					'micalculates',
+					'misalculates',
+				],
+				'miscalculating'=>[
+					'micalculating',
+					'misalculating',
+				],
+				'miscalculation'=>[
+					'micalculation',
+					'misalculation',
+					'miscalculatoin',
+					'miscalculaton',
+				],
 				'miscalculations'=>[
 					'micalculations',
 					'micsalculations',
 					'misalculations',
+					'miscalculatoins',
+					'miscalculatons',
 				],
 				'miscall'=>[
 					'micall',
@@ -6545,6 +10547,8 @@
 				],
 				'miscalls'=>[
 					'miscallls',
+					'micalls',
+					'misalls',
 				],
 				'miscarriage'=>[
 					'micarriage',
@@ -6552,18 +10556,28 @@
 					'misarriage',
 					'miscariage',
 					'miscarrriage',
+					'miscarraige',
 				],
 				'miscarriages'=>[
 					'miscariages',
 					'miscarrriages',
+					'micarriages',
+					'misarriages',
+					'miscarraiges',
 				],
 				'miscarried'=>[
 					'miscaried',
 					'miscarrried',
+					'micarried',
+					'misarried',
+					'miscarreid',
 				],
 				'miscarries'=>[
 					'miscaries',
 					'miscarrries',
+					'micarries',
+					'misarries',
+					'miscarreis',
 				],
 				'miscarry'=>[
 					'micarry',
@@ -6575,16 +10589,28 @@
 				'miscarrying'=>[
 					'miscarrrying',
 					'miscarying',
+					'micarrying',
+					'misarrying',
 				],
 				'miscast'=>[
 					'micast',
 					'micsast',
 					'misast',
 				],
+				'miscasting'=>[
+					'micasting',
+					'misasting',
+				],
+				'miscasts'=>[
+					'micasts',
+					'misasts',
+				],
 				'miscegenation'=>[
 					'micegenation',
 					'micsegenation',
 					'misegenation',
+					'miscegenatoin',
+					'miscegenaton',
 				],
 				'miscegenational'=>[
 					'micegenational',
@@ -6598,6 +10624,7 @@
 					'miscellane',
 					'misellanea',
 					'miscelllanea',
+					'miscellanae',
 				],
 				'miscellaneous'=>[
 					'micellaneous',
@@ -6607,6 +10634,8 @@
 					'miscellanous',
 					'misellaneous',
 					'miscelllaneous',
+					'miscellaneuos',
+					'miscellanoeus',
 				],
 				'miscellaneously'=>[
 					'micellaneously',
@@ -6614,16 +10643,26 @@
 					'misellaneously',
 					'miscelaneously',
 					'miscelllaneously',
+					'miscellaneousely',
+					'miscellaneuosly',
+					'miscellanoeusly',
 				],
 				'miscellaneousness'=>[
 					'miscellaneousnes',
 					'miscellaneousnesss',
 					'miscelaneousness',
 					'miscelllaneousness',
+					'micellaneousness',
+					'miscellaneuosness',
+					'miscellanoeusness',
+					'misellaneousness',
 				],
 				'miscellanies'=>[
 					'miscelanies',
 					'miscelllanies',
+					'micellanies',
+					'miscellaneis',
+					'misellanies',
 				],
 				'miscellanist'=>[
 					'micellanist',
@@ -6640,6 +10679,13 @@
 				],
 				'mischance'=>[
 					'mischence',
+					'michance',
+					'mishance',
+				],
+				'mischances'=>[
+					'michances',
+					'mischences',
+					'mishances',
 				],
 				'mischanneled'=>[
 					'mischaneled',
@@ -6688,12 +10734,17 @@
 					'mischivous',
 					'mishievous',
 					'miscliievous',
+					'mischievuos',
 				],
 				'mischievously'=>[
 					'mischievousally',
 					'mischievousaly',
 					'mischievousely',
 					'mischievouslly',
+					'michievously',
+					'mischeivously',
+					'mischievuosly',
+					'mishievously',
 				],
 				'mischievousness'=>[
 					'michievousness',
@@ -6701,6 +10752,13 @@
 					'mishievousness',
 					'mischievousnes',
 					'mischievousnesss',
+					'mischeivousness',
+					'mischievuosness',
+				],
+				'miscibility'=>[
+					'micibility',
+					'miscability',
+					'misibility',
 				],
 				'miscible'=>[
 					'micible',
@@ -6715,6 +10773,9 @@
 					'missclassified',
 					'misclasified',
 					'misclasssified',
+					'miclassified',
+					'misclassifeid',
+					'mislassified',
 				],
 				'misclassify'=>[
 					'miclassify',
@@ -6729,6 +10790,14 @@
 				'miscommunication'=>[
 					'miscommmunication',
 					'miscomunication',
+					'micommunication',
+					'miscommunicatoin',
+					'miscommunicaton',
+					'misommunication',
+				],
+				'miscomprehended'=>[
+					'micomprehended',
+					'misomprehended',
 				],
 				'miscomputations'=>[
 					'micomputations',
@@ -6737,22 +10806,61 @@
 				],
 				'misconceive'=>[
 					'misconcieve',
+					'miconceive',
+					'misonceive',
+				],
+				'misconceived'=>[
+					'miconceived',
+					'misconcieved',
+					'misonceived',
+				],
+				'misconceiver'=>[
+					'miconceiver',
+					'misconciever',
+					'misonceiver',
 				],
 				'misconceivers'=>[
 					'misconcievers',
 				],
+				'misconceives'=>[
+					'miconceives',
+					'misconcieves',
+					'misonceives',
+				],
 				'misconceiving'=>[
 					'misconcieving',
+					'miconceiving',
+					'misonceiving',
 				],
 				'misconception'=>[
 					'miconception',
 					'micsonception',
 					'misonception',
+					'misconceptoin',
+					'misconcepton',
+				],
+				'misconceptions'=>[
+					'miconceptions',
+					'misconceptoins',
+					'misconceptons',
+					'misonceptions',
 				],
 				'misconduct'=>[
 					'miconduct',
 					'micsonduct',
 					'misonduct',
+				],
+				'misconducted'=>[
+					'miconducted',
+					'misonducted',
+				],
+				'misconducting'=>[
+					'miconducting',
+					'misonducting',
+				],
+				'misconducts'=>[
+					'miconducts',
+					'misonducts',
 				],
 				'misconnected'=>[
 					'misconected',
@@ -6773,11 +10881,43 @@
 					'miconstruction',
 					'micsonstruction',
 					'misonstruction',
+					'misconstructoin',
+					'misconstructon',
+				],
+				'misconstructions'=>[
+					'miconstructions',
+					'misconstructoins',
+					'misconstructons',
+					'misonstructions',
 				],
 				'misconstrue'=>[
 					'miconstrue',
 					'micsonstrue',
 					'misonstrue',
+					'misconstreu',
+				],
+				'misconstrued'=>[
+					'miconstrued',
+					'misconstreud',
+					'misonstrued',
+				],
+				'misconstrues'=>[
+					'miconstrues',
+					'misconstreus',
+					'misonstrues',
+				],
+				'misconstruing'=>[
+					'miconstruing',
+					'misconstriung',
+					'misonstruing',
+				],
+				'miscopy'=>[
+					'micopy',
+					'misopy',
+				],
+				'miscopying'=>[
+					'micopying',
+					'misopying',
 				],
 				'miscorrelation'=>[
 					'miscorelation',
@@ -6792,17 +10932,77 @@
 					'micount',
 					'micsount',
 					'misount',
+					'miscuont',
+				],
+				'miscounted'=>[
+					'micounted',
+					'miscuonted',
+					'misounted',
+				],
+				'miscounting'=>[
+					'micounting',
+					'miscuonting',
+					'misounting',
+				],
+				'miscounts'=>[
+					'micounts',
+					'miscuonts',
+					'misounts',
+				],
+				'miscreance'=>[
+					'micreance',
+					'miscraence',
+					'miscreence',
+					'misreance',
 				],
 				'miscreant'=>[
 					'micreant',
 					'micsreant',
 					'miscreent',
 					'misreant',
+					'miscraent',
+				],
+				'miscreants'=>[
+					'micreants',
+					'miscraents',
+					'miscreents',
+					'misreants',
+				],
+				'miscreated'=>[
+					'micreated',
+					'miscraeted',
+					'misreated',
 				],
 				'miscue'=>[
 					'micsue',
 					'micue',
 					'misue',
+					'misceu',
+				],
+				'miscued'=>[
+					'misceud',
+					'misued',
+				],
+				'miscues'=>[
+					'micues',
+					'misceus',
+					'misues',
+				],
+				'miscuing'=>[
+					'misciung',
+					'misuing',
+				],
+				'misdeal'=>[
+					'misdael',
+				],
+				'misdealing'=>[
+					'misdaeling',
+				],
+				'misdeals'=>[
+					'misdaels',
+				],
+				'misdealt'=>[
+					'misdaelt',
 				],
 				'misdeed'=>[
 					'misdeeed',
@@ -6815,26 +11015,83 @@
 					'misdeeem',
 					'misdem',
 				],
+				'misdemean'=>[
+					'misdemaen',
+				],
 				'misdemeanant'=>[
 					'misdemeanent',
 					'misdemenant',
+					'misdemaenant',
+				],
+				'misdemeaned'=>[
+					'misdemaened',
+					'misdemeand',
+				],
+				'misdemeaning'=>[
+					'misdemaening',
 				],
 				'misdemeanor'=>[
 					'misdameanor',
 					# misdemeanour: an accepted spelling, not a slip (AmericanBritishWords_M: misdemeanor)
 				#	'misdemeanour',
 					'misdemenor',
+					'misdemaenor',
 				],
 				'misdemeanors'=>[
 					'misdameanors',
 					# misdemeanours: an accepted spelling, not a slip (AmericanBritishWords_M: misdemeanors)
 				#	'misdemeanours',
 					'misdemenors',
+					'misdemaenors',
+				],
+				'misdemeans'=>[
+					'misdemaens',
 				],
 				'misdescriptions'=>[
 					'misdecriptions',
 					'misdecsriptions',
 					'misdesriptions',
+				],
+				'misdiagnose'=>[
+					'misdaignose',
+				],
+				'misdiagnosed'=>[
+					'misdaignosed',
+				],
+				'misdiagnoses'=>[
+					'misdaignoses',
+				],
+				'misdiagnosing'=>[
+					'misdaignosing',
+				],
+				'misdiagnosis'=>[
+					'misdaignosis',
+				],
+				'misdial'=>[
+					'misdail',
+				],
+				'misdirection'=>[
+					'misdirectoin',
+					'misdirecton',
+				],
+				'misdirections'=>[
+					'misdirectoins',
+					'misdirectons',
+				],
+				'misdoer'=>[
+					'misdeor',
+				],
+				'misdoes'=>[
+					'misdeos',
+				],
+				'misdoing'=>[
+					'misdiong',
+				],
+				'misdoings'=>[
+					'misdiongs',
+				],
+				'misdoubt'=>[
+					'misduobt',
 				],
 				'miserable'=>[
 					'miserible',
@@ -6845,13 +11102,16 @@
 				'miserableness'=>[
 					'miserablenes',
 					'miserablenesss',
+					'miseribleness',
 				],
 				'miserably'=>[
 					'miserabley',
 					'miferably',
+					'miseribly',
 				],
 				'miseries'=>[
 					'miferies',
+					'misereis',
 				],
 				'miserliness'=>[
 					'miserlines',
@@ -6889,6 +11149,16 @@
 				'misfeasance'=>[
 					'misfeasence',
 					'misfesance',
+					'misfaesance',
+				],
+				'misfeasor'=>[
+					'misfaesor',
+				],
+				'misfield'=>[
+					'misfeild',
+				],
+				'misfired'=>[
+					'misfird',
 				],
 				'misfitted'=>[
 					'misfittted',
@@ -6902,9 +11172,13 @@
 				'misfolding'=>[
 					'missfolding',
 				],
+				'misgoverned'=>[
+					'misgovernd',
+				],
 				'misgovernment'=>[
 					'misgoverment',
 					'misgovernent',
+					'misgovernmant',
 				],
 				'misgovernments'=>[
 					'misgoverments',
@@ -6912,22 +11186,54 @@
 				],
 				'misguidance'=>[
 					'misguidence',
+					'misgiudance',
+				],
+				'misguide'=>[
+					'misgiude',
+				],
+				'misguided'=>[
+					'misgiuded',
+				],
+				'misguidedly'=>[
+					'misgiudedly',
 				],
 				'misguidedness'=>[
 					'misguidednes',
 					'misguidednesss',
+					'misgiudedness',
+				],
+				'misguides'=>[
+					'misgiudes',
+				],
+				'misguiding'=>[
+					'misgiuding',
 				],
 				'mishear'=>[
 					'misheer',
 				],
+				'misheard'=>[
+					'mishaerd',
+				],
+				'mishearing'=>[
+					'mishaering',
+				],
+				'mishears'=>[
+					'mishaers',
+				],
 				'mishitting'=>[
 					'mishittting',
 				],
+				'misidentification'=>[
+					'misidentificatoin',
+					'misidentificaton',
+				],
 				'misidentified'=>[
 					'misidantified',
+					'misidentifeid',
 				],
 				'misidentifies'=>[
 					'misidantifies',
+					'misidentifeis',
 				],
 				'misidentify'=>[
 					'misidantify',
@@ -6938,15 +11244,32 @@
 				'misimpression'=>[
 					'misimpresion',
 					'misimpresssion',
+					'misimpressoin',
+					'misimpresson',
 				],
 				'misinferring'=>[
 					'misinfering',
 				],
+				'misinformation'=>[
+					'misinformatoin',
+					'misinformaton',
+				],
 				'misinformed'=>[
 					'mifinformed',
 				],
+				'misinterpretation'=>[
+					'misinterpretatoin',
+					'misinterpretaton',
+				],
+				'misinterpretations'=>[
+					'misinterpretatoins',
+					'misinterpretatons',
+				],
 				'misinterring'=>[
 					'misintering',
+				],
+				'misjoinder'=>[
+					'misjionder',
 				],
 				'misjoining'=>[
 					'misjoinang',
@@ -6955,6 +11278,18 @@
 			#	'misjudgment'=>[
 			#		'misjudgement',
 			#	],
+				'misjudgement'=>[
+					'misjudgemant',
+				],
+				'misjudgements'=>[
+					'misjudgemants',
+				],
+				'misjudgment'=>[
+					'misjudgmant',
+				],
+				'misjudgments'=>[
+					'misjudgmants',
+				],
 				'misknow'=>[
 					'miskow',
 				],
@@ -6981,11 +11316,25 @@
 				'mislabelling'=>[
 					'mislabellling',
 				],
+				'mislaid'=>[
+					'misliad',
+				],
 				'mislead'=>[
 					'misleaed',
+					'mislaed',
 				],
 				'misleading'=>[
 					'misleding',
+					'mislaeding',
+				],
+				'misleadingly'=>[
+					'mislaedingly',
+				],
+				'misleads'=>[
+					'mislaeds',
+				],
+				'mismanagement'=>[
+					'mismanagemant',
 				],
 				'mismarriages'=>[
 					'mismariages',
@@ -7000,6 +11349,9 @@
 				'misogynistic'=>[
 					'mysogynistic',
 				],
+				'misogynous'=>[
+					'misogynuos',
+				],
 				'misogyny'=>[
 					'mysogyny',
 				],
@@ -7008,6 +11360,13 @@
 				],
 				'misorient'=>[
 					'misorientate',
+					'misoreint',
+					'misoriant',
+				],
+				'misorientation'=>[
+					'misoreintation',
+					'misorientatoin',
+					'misorientaton',
 				],
 				'misparse'=>[
 					'misperse',
@@ -7036,11 +11395,35 @@
 				'misperceive'=>[
 					'mispercieve',
 				],
+				'misperceived'=>[
+					'mispercieved',
+				],
+				'misperceives'=>[
+					'mispercieves',
+				],
 				'misperceiving'=>[
 					'mispercieving',
 				],
+				'misperception'=>[
+					'misperceptoin',
+					'mispercepton',
+				],
+				'misplacement'=>[
+					'misplacemant',
+				],
 				'misplanning'=>[
 					'misplaning',
+				],
+				'mispleading'=>[
+					'misplaeding',
+				],
+				'mispositioned'=>[
+					'mispositiond',
+					'mispositoined',
+					'mispositoned',
+				],
+				'misprision'=>[
+					'misprisoin',
 				],
 				'misprogrammed'=>[
 					'misprogramned',
@@ -7048,23 +11431,49 @@
 				'misprogramming'=>[
 					'misprogramning',
 				],
+				'mispronounce'=>[
+					'mispronuonce',
+				],
 				'mispronounced'=>[
 					'mispronnounced',
+					'mispronuonced',
+				],
+				'mispronounces'=>[
+					'mispronuonces',
+				],
+				'mispronouncing'=>[
+					'mispronuoncing',
 				],
 				'mispronunciation'=>[
 					'mispronounciation',
+					'mispronuncaition',
+					'mispronunciatoin',
+					'mispronunciaton',
+				],
+				'mispronunciations'=>[
+					'mispronuncaitions',
+					'mispronunciatoins',
+					'mispronunciatons',
 				],
 				'misquotation'=>[
 					'misqotation',
+					'misqoutation',
+					'misquotatoin',
+					'misquotaton',
 				],
 				'misquotations'=>[
 					'misqotations',
+					'misqoutations',
+					'misquotatoins',
+					'misquotatons',
 				],
 				'misquote'=>[
 					'misqote',
+					'misqoute',
 				],
 				'misquoted'=>[
 					'misqoted',
+					'misqouted',
 				],
 				'misquoter'=>[
 					'misqoter',
@@ -7074,9 +11483,20 @@
 				],
 				'misquotes'=>[
 					'misqotes',
+					'misqoutes',
 				],
 				'misquoting'=>[
 					'misqoting',
+					'misqouting',
+				],
+				'misreading'=>[
+					'misraeding',
+				],
+				'misreadings'=>[
+					'misraedings',
+				],
+				'misreads'=>[
+					'misraeds',
 				],
 				'misreference'=>[
 					'misreferance',
@@ -7092,6 +11512,7 @@
 				],
 				'misremembered'=>[
 					'misrembered',
+					'misrememberd',
 				],
 				'misremembering'=>[
 					'misrembering',
@@ -7101,6 +11522,17 @@
 				],
 				'misrepresent'=>[
 					'misrepresant',
+				],
+				'misrepresentation'=>[
+					'misrepresentatoin',
+					'misrepresentaton',
+				],
+				'misrepresentations'=>[
+					'misrepresentatoins',
+					'misrepresentatons',
+				],
+				'misrepresents'=>[
+					'misrepresants',
 				],
 				'miss'=>[
 					'mis',
@@ -7142,6 +11574,7 @@
 				'misshapenly'=>[
 					'mishapenly',
 					'missshapenly',
+					'misshapenely',
 				],
 				'misshapes'=>[
 					'mishapes',
@@ -7152,11 +11585,15 @@
 				],
 				'missies'=>[
 					'misssies',
+					'misseis',
 				],
 				'missile'=>[
 					'misile',
 					'missle',
 					'misssile',
+				],
+				'missilery'=>[
+					'missilary',
 				],
 				'missiles'=>[
 					'missles',
@@ -7171,27 +11608,37 @@
 					'mision',
 					'misssion',
 					'miffion',
+					'missoin',
 				],
 				'missionaries'=>[
 					'misionaries',
 					'misssionaries',
+					'missionareis',
+					'missioneries',
+					'missoinaries',
+					'missonaries',
 				],
 				'missionary'=>[
 					'misionary',
 					'missionery',
 					'misssionary',
+					'missoinary',
+					'missonary',
 				],
 				'missioner'=>[
 					'misioner',
 					'misssioner',
+					'missoiner',
 				],
 				'missioners'=>[
 					'misioners',
 					'misssioners',
+					'missoiners',
 				],
 				'missions'=>[
 					'misions',
 					'misssions',
+					'missoins',
 				],
 				'missis'=>[
 					'misis',
@@ -7223,14 +11670,19 @@
 				'misspeak'=>[
 					'mispeak',
 					'missspeak',
+					'misseak',
+					'misspaek',
 				],
 				'misspeaking'=>[
 					'mispeaking',
 					'missspeaking',
+					'misspaeking',
 				],
 				'misspeaks'=>[
 					'mispeaks',
 					'missspeaks',
+					'misseaks',
+					'misspaeks',
 				],
 				'misspell'=>[
 					'missspell',
@@ -7275,10 +11727,12 @@
 				],
 				'misspent'=>[
 					'missspent',
+					'misspant',
 				],
 				'misspoke'=>[
 					'mispoke',
 					'missspoke',
+					'missoke',
 				],
 				'misspoken'=>[
 					'mispoken',
@@ -7295,10 +11749,12 @@
 				'misstatement'=>[
 					'missstatement',
 					'mistatement',
+					'misstatemant',
 				],
 				'misstatements'=>[
 					'missstatements',
 					'mistatements',
+					'misstatemants',
 				],
 				'misstates'=>[
 					'missstates',
@@ -7328,6 +11784,9 @@
 					'misy',
 					'misssy',
 				],
+				'mistakable'=>[
+					'mistakible',
+				],
 				'mistake'=>[
 					'miftake',
 				],
@@ -7335,12 +11794,29 @@
 					'misstaken',
 					'miftaken',
 				],
+				'mistakenly'=>[
+					'mistakenely',
+				],
 				'mistakes'=>[
 					'miftakes',
+				],
+				'misteach'=>[
+					'miseach',
+					'mistach',
+					'mistaech',
+				],
+				'mistier'=>[
+					'misteir',
+				],
+				'mistiest'=>[
+					'misteist',
 				],
 				'mistiness'=>[
 					'mistines',
 					'mistinesss',
+				],
+				'mistletoe'=>[
+					'mistleteo',
 				],
 				'mistook'=>[
 					'mistok',
@@ -7351,6 +11827,30 @@
 					'mistrancsribing',
 					'mistransribing',
 				],
+				'mistranslation'=>[
+					'mistranslatoin',
+					'mistranslaton',
+				],
+				'mistranslations'=>[
+					'mistranslatoins',
+					'mistranslatons',
+				],
+				'mistreat'=>[
+					'mistraet',
+				],
+				'mistreated'=>[
+					'mistraeted',
+				],
+				'mistreating'=>[
+					'mistraeting',
+				],
+				'mistreatment'=>[
+					'mistraetment',
+					'mistreatmant',
+				],
+				'mistreats'=>[
+					'mistraets',
+				],
 				'mistress'=>[
 					'mistres',
 					'mistresss',
@@ -7360,13 +11860,26 @@
 					'mistreses',
 					'mistressses',
 				],
+				'mistrust'=>[
+					'misrust',
+					'mistust',
+				],
+				'mistrusted'=>[
+					'misrusted',
+					'mistusted',
+				],
 				'mistrustfully'=>[
 					'mistrustfullly',
 					'mistrustfuly',
+					'mistrusfully',
+					'mistrustully',
 				],
 				'mistrustfulness'=>[
 					'mistrustfulnes',
 					'mistrustfulnesss',
+				],
+				'mistyping'=>[
+					'mistping',
 				],
 				'misunderstand'=>[
 					'missunderstand',
@@ -7382,15 +11895,34 @@
 				'misusing'=>[
 					'misuisng',
 				],
+				'misvalue'=>[
+					'misvaleu',
+				],
+				'mitered'=>[
+					'miterd',
+				],
 				'mithraic'=>[
 					'mythraic',
+				],
+				'mitigable'=>[
+					'mitigible',
+				],
+				'mitigation'=>[
+					'mitigatoin',
+					'mitigaton',
+				],
+				'mitochondria'=>[
+					'mitochondrai',
 				],
 				'mitochondrial'=>[
 					'mithocondrial',
 					'mitochrondrial',
+					'mitochondrail',
 				],
 				'mitochondrion'=>[
 					'mitochondrium',
+					'mitochondroin',
+					'mitochondron',
 				],
 				'mitomycin'=>[
 					'mytomicin',
@@ -7409,6 +11941,8 @@
 				'mitrailleuse'=>[
 					'mitraileuse',
 					'mitraillleuse',
+					'mitrailluese',
+					'mitrialleuse',
 				],
 				'mitsvah'=>[
 					'mitsva',
@@ -7499,6 +12033,7 @@
 				'mizzensail'=>[
 					'mizensail',
 					'mizzzensail',
+					'mizzensial',
 				],
 				'mizzle'=>[
 					'mizle',
@@ -7526,14 +12061,43 @@
 				'mo ghile mear'=>[
 					'mo ghille mear',
 				],
+				'moaned'=>[
+					'moand',
+				],
+				'moaners'=>[
+					'maoners',
+				],
 				'moat'=>[
 					'inoat',
+				],
+				'moated'=>[
+					'maoted',
+				],
+				'moats'=>[
+					'maots',
 				],
 				'mobbed'=>[
 					'mobbbed',
 				],
 				'mobbing'=>[
 					'mobbbing',
+				],
+				'mobcaps'=>[
+					'mobaps',
+				],
+				'mobilities'=>[
+					'mobiliteis',
+				],
+				'mobilizable'=>[
+					'mobilizible',
+				],
+				'mobilization'=>[
+					'mobilizatoin',
+					'mobilizaton',
+				],
+				'mobilizations'=>[
+					'mobilizatoins',
+					'mobilizatons',
 				],
 				'mobocracy'=>[
 					'mobocrasy',
@@ -7552,8 +12116,26 @@
 				'mochatine'=>[
 					'mokatine',
 				],
+				'mockeries'=>[
+					'mockaries',
+					'mockereis',
+				],
+				'mockery'=>[
+					'mockary',
+				],
+				'mockingbird'=>[
+					'mockinbird',
+					'mockingird',
+				],
+				'mockingbirds'=>[
+					'mockinbirds',
+					'mockingirds',
+				],
 				'moclobemide'=>[
 					'meclobemide',
+				],
+				'modalities'=>[
+					'modaliteis',
 				],
 				'modally'=>[
 					'modallly',
@@ -7574,6 +12156,14 @@
 				'models'=>[
 					'rnodels',
 				],
+				'moderate'=>[
+					'modeate',
+					'modrate',
+				],
+				'moderated'=>[
+					'modeated',
+					'modrated',
+				],
 				'moderately'=>[
 					'moderatley',
 					'moderatly',
@@ -7581,6 +12171,20 @@
 				'moderateness'=>[
 					'moderatenes',
 					'moderatenesss',
+				],
+				'moderates'=>[
+					'modeates',
+					'modrates',
+				],
+				'moderating'=>[
+					'modeating',
+					'modrating',
+				],
+				'moderation'=>[
+					'modeation',
+					'moderatoin',
+					'moderaton',
+					'modration',
 				],
 				'modern'=>[
 					'moden',
@@ -7601,6 +12205,12 @@
 				],
 				'modernization'=>[
 					'modemization',
+					'modernizatoin',
+					'modernizaton',
+				],
+				'modernizations'=>[
+					'modernizatoins',
+					'modernizatons',
 				],
 				'modernize'=>[
 					'modemize',
@@ -7629,24 +12239,47 @@
 					'modestely',
 					'modestlly',
 				],
+				'modifiable'=>[
+					'modifaible',
+				],
 				'modification'=>[
 					'modifaction',
+					'modificatoin',
+					'modificaton',
+				],
+				'modifications'=>[
+					'modificatoins',
+					'modificatons',
 				],
 				'modified'=>[
 					'modfied',
 					'modifed',
+					'modifeid',
 				],
 				'modifier'=>[
 					'modifeir',
 					'modifir',
 				],
+				'modifiers'=>[
+					'modifeirs',
+				],
+				'modifies'=>[
+					'modifeis',
+				],
 				'modillion'=>[
 					'modilion',
 					'modilllion',
+					'modilloin',
+					'modillon',
 				],
 				'modillions'=>[
 					'modilions',
 					'modilllions',
+					'modilloins',
+					'modillons',
+				],
+				'modiolus'=>[
+					'modoilus',
 				],
 				'modishness'=>[
 					'modishnes',
@@ -7655,6 +12288,17 @@
 				'modular'=>[
 					'moduler',
 				],
+				'modularity'=>[
+					'modulerity',
+				],
+				'modulation'=>[
+					'modulatoin',
+					'modulaton',
+				],
+				'modulations'=>[
+					'modulatoins',
+					'modulatons',
+				],
 				'mofette'=>[
 					'mofete',
 					'mofettte',
@@ -7662,27 +12306,111 @@
 				'moggie'=>[
 					'mogie',
 					'mogggie',
+					'moggei',
 				],
 				'moggy'=>[
 					'mogy',
 					'mogggy',
 				],
+				'mohair'=>[
+					'mohiar',
+				],
 				'mohawk'=>[
 					'mowhawk',
+				],
+				'moidore'=>[
+					'miodore',
+				],
+				'moieties'=>[
+					'mioeties',
+					'moeities',
+					'moieteis',
 				],
 				'moiety'=>[
 					'moeity',
 					'moity',
+					'mioety',
+				],
+				'moiled'=>[
+					'mioled',
+				],
+				'moiler'=>[
+					'mioler',
+				],
+				'moiling'=>[
+					'mioling',
+				],
+				'moils'=>[
+					'miols',
+				],
+				'moirai'=>[
+					'miorai',
+					'moiria',
+				],
+				'moire'=>[
+					'miore',
+				],
+				'moires'=>[
+					'miores',
+				],
+				'moist'=>[
+					'miost',
+				],
+				'moisten'=>[
+					'miosten',
 				],
 				'moistened'=>[
 					'moistend',
+					'miostened',
+				],
+				'moistener'=>[
+					'miostener',
+				],
+				'moisteners'=>[
+					'miosteners',
+				],
+				'moistening'=>[
+					'miostening',
+				],
+				'moistens'=>[
+					'miostens',
+				],
+				'moister'=>[
+					'mioster',
+				],
+				'moistest'=>[
+					'miostest',
+				],
+				'moistly'=>[
+					'miostly',
+					'moistely',
 				],
 				'moistness'=>[
 					'moistnes',
 					'moistnesss',
+					'miostness',
 				],
 				'moisture'=>[
 					'moifture',
+					'miosture',
+				],
+				'moisturize'=>[
+					'miosturize',
+				],
+				'moisturized'=>[
+					'miosturized',
+				],
+				'moisturizer'=>[
+					'miosturizer',
+				],
+				'moisturizers'=>[
+					'miosturizers',
+				],
+				'moisturizes'=>[
+					'miosturizes',
+				],
+				'moisturizing'=>[
+					'miosturizing',
 				],
 				'mojarra'=>[
 					'mojara',
@@ -7690,9 +12418,34 @@
 				'molar'=>[
 					'moler',
 				],
+				'molarities'=>[
+					'molariteis',
+				],
 				'molasses'=>[
 					'molases',
 					'molassses',
+				],
+				'moldable'=>[
+					'moldible',
+				],
+				'moldboard'=>[
+					'molboard',
+					'moldbaord',
+					'moldoard',
+				],
+				'moldboards'=>[
+					'molboards',
+					'moldbaords',
+					'moldoards',
+				],
+				'moldered'=>[
+					'molderd',
+				],
+				'moldier'=>[
+					'moldeir',
+				],
+				'moldiest'=>[
+					'moldeist',
 				],
 				'moldiness'=>[
 					'moldines',
@@ -7707,6 +12460,9 @@
 				'molecular'=>[
 					'moleculer',
 				],
+				'molecularity'=>[
+					'moleculerity',
+				],
 				'molecularly'=>[
 					'molecularally',
 					'molecularaly',
@@ -7720,17 +12476,45 @@
 				'molehill'=>[
 					'molehil',
 					'molehilll',
+					'moleill',
+					'molhill',
 				],
 				'molehills'=>[
 					'molehillls',
 					'molehils',
+					'moleills',
+					'molhills',
+				],
+				'moleskin'=>[
+					'molekin',
+					'molskin',
+				],
+				'moleskins'=>[
+					'molekins',
+					'molskins',
 				],
 				'molest'=>[
 					'mollest',
 					'moleft',
 				],
+				'molestation'=>[
+					'molestatoin',
+					'molestaton',
+					'moletation',
+					'molstation',
+				],
+				'molestations'=>[
+					'molestatoins',
+					'molestatons',
+					'moletations',
+					'molstations',
+				],
 				'molested'=>[
 					'molefted',
+				],
+				'molesting'=>[
+					'moleting',
+					'molsting',
 				],
 				'moll'=>[
 					'mol',
@@ -7745,6 +12529,9 @@
 				'mollescent'=>[
 					'molescent',
 					'molllescent',
+					'mollecent',
+					'mollescant',
+					'mollesent',
 				],
 				'mollie'=>[
 					'molie',
@@ -7754,22 +12541,28 @@
 				],
 				'mollies'=>[
 					'molllies',
+					'molleis',
 				],
 				'mollification'=>[
 					'molification',
 					'molllification',
+					'mollificatoin',
+					'mollificaton',
 				],
 				'mollified'=>[
 					'molified',
 					'molllified',
+					'mollifeid',
 				],
 				'mollifier'=>[
 					'molifier',
 					'molllifier',
+					'mollifeir',
 				],
 				'mollifies'=>[
 					'molifies',
 					'molllifies',
+					'mollifeis',
 				],
 				'mollify'=>[
 					'molify',
@@ -7799,6 +12592,8 @@
 				'molluscans'=>[
 					'mollluscans',
 					'moluscans',
+					'mollucans',
+					'mollusans',
 				],
 				'molluscicidal'=>[
 					'moluscicidal',
@@ -7816,10 +12611,14 @@
 				'molluscoid'=>[
 					'mollluscoid',
 					'moluscoid',
+					'mollucoid',
+					'mollusciod',
+					'mollusoid',
 				],
 				'molluscs'=>[
 					'mollluscs',
 					'moluscs',
+					'molluss',
 				],
 				'mollusk'=>[
 					'molllusk',
@@ -7869,8 +12668,14 @@
 					'mollycodling',
 					'molycoddling',
 				],
+				'molybdenous'=>[
+					'molybdenuos',
+				],
 				'molybdopterin'=>[
 					'molydopterin',
+				],
+				'molybdous'=>[
+					'molybduos',
 				],
 				'moment'=>[
 					'moent',
@@ -7892,6 +12697,7 @@
 					'momentarialy',
 					'momentariely',
 					'momentarilly',
+					'momentarly',
 				],
 				'momentariness'=>[
 					'momentarines',
@@ -7912,10 +12718,16 @@
 				],
 				'momentous'=>[
 					'momantous',
+					'momentuos',
+				],
+				'momentously'=>[
+					'momentousely',
+					'momentuosly',
 				],
 				'momentousness'=>[
 					'momentousnes',
 					'momentousnesss',
+					'momentuosness',
 				],
 				'momentum'=>[
 					'momantum',
@@ -7935,6 +12747,7 @@
 					'momnies',
 					'momies',
 					'mommmies',
+					'mommeis',
 				],
 				'mommy'=>[
 					'momny',
@@ -7946,14 +12759,35 @@
 				'monacanthid'=>[
 					'monocanthid',
 				],
+				'monacid'=>[
+					'moacid',
+					'moncid',
+				],
 				'monaco'=>[
 					'monacco',
 				],
+				'monadelphous'=>[
+					'monadelphuos',
+				],
+				'monandrous'=>[
+					'monandruos',
+				],
+				'monanthous'=>[
+					'monanthuos',
+				],
 				'monarch'=>[
 					'monarcli',
+					'moarch',
+					'monrch',
+				],
+				'monarchial'=>[
+					'monarchail',
 				],
 				'monarchical'=>[
 					'monarcliical',
+				],
+				'monarchies'=>[
+					'monarcheis',
 				],
 				'monarchs'=>[
 					'monarclis',
@@ -7964,9 +12798,13 @@
 				'monastary'=>[
 					'monestary',
 				],
+				'monasterial'=>[
+					'monasterail',
+				],
 				'monasteries'=>[
 					'monastries',
 					'monestaries',
+					'monastereis',
 				],
 				'monastery'=>[
 					'monastary',
@@ -7979,23 +12817,43 @@
 				],
 				'monatomic'=>[
 					'monoatomic',
+					'moatomic',
+					'montomic',
+				],
+				'monaural'=>[
+					'monuaral',
 				],
 				'monaurally'=>[
 					'monaurallly',
 					'monauraly',
+					'monuarally',
+				],
+				'monaxial'=>[
+					'monaxail',
 				],
 				'monecian'=>[
 					'monecan',
 				],
 				'monecious'=>[
 					'monecous',
+					'moneciuos',
+					'monecoius',
 				],
 				'monetarily'=>[
 					'monitarily',
+					'monetarly',
 				],
 				'monetary'=>[
 					'monetery',
 					'monitary',
+				],
+				'monetization'=>[
+					'monetizatoin',
+					'monetizaton',
+				],
+				'monetizations'=>[
+					'monetizatoins',
+					'monetizatons',
 				],
 				'money'=>[
 					'moeny',
@@ -8007,6 +12865,17 @@
 					'mouey',
 					'nioney',
 					'rnoney',
+				],
+				'moneybags'=>[
+					'monebags',
+					'moneyags',
+				],
+				'moneyboxes'=>[
+					'moneboxes',
+					'moneyoxes',
+				],
+				'moneyed'=>[
+					'moeyed',
 				],
 				'moneygrubber'=>[
 					'moneygrubbber',
@@ -8027,19 +12896,45 @@
 					'moneyles',
 					'moneylesss',
 				],
+				'moneymaker'=>[
+					'monemaker',
+					'moneyaker',
+				],
+				'moneymakers'=>[
+					'monemakers',
+					'moneyakers',
+				],
+				'moneymaking'=>[
+					'monemaking',
+					'moneyaking',
+				],
 				'mongeese'=>[
 					'mongeeese',
 					'mongese',
+					'mogeese',
+					'moneese',
+				],
+				'mongered'=>[
+					'mongerd',
 				],
 				'mongolian'=>[
 					'mongolan',
+					'mongolain',
 				],
 				'mongolian-occupied'=>[
 					'mongolian occupied',
 				],
+				'mongoloid'=>[
+					'mongoliod',
+				],
+				'mongoloids'=>[
+					'mongoliods',
+				],
 				'mongoose'=>[
 					'mongooose',
 					'mongose',
+					'mogoose',
+					'monoose',
 				],
 				'mongooses'=>[
 					'mongoooses',
@@ -8052,20 +12947,49 @@
 					'moneis',
 					'monis',
 				],
+				'monikered'=>[
+					'monikerd',
+				],
 				'monimolimnion'=>[
 					'monolimnion',
+				],
+				'monition'=>[
+					'monitoin',
+					'moniton',
+				],
+				'monitions'=>[
+					'monitoins',
+					'monitons',
 				],
 				'monitor'=>[
 					'moniter',
 				],
+				'monitored'=>[
+					'monitord',
+				],
+				'monitorial'=>[
+					'monitorail',
+				],
+				'monkery'=>[
+					'monkary',
+				],
+				'monkeyed'=>[
+					'mokeyed',
+					'monkyed',
+				],
 				'monkeys'=>[
 					'monkies',
+					'mokeys',
 				],
 				'monkeyshine'=>[
 					'monkeyshini',
+					'monkeshine',
+					'monkeyhine',
 				],
 				'monkeyshines'=>[
 					'monkeyshinis',
+					'monkeshines',
+					'monkeyhines',
 				],
 				'monkhood'=>[
 					'monkhod',
@@ -8078,12 +13002,32 @@
 				'monkshoods'=>[
 					'monkshods',
 					'monkshooods',
+					'monksoods',
 				],
 				'mono'=>[
 					'niono',
 				],
+				'monoacid'=>[
+					'monaocid',
+					'monocid',
+				],
 				'monoamine'=>[
 					'monoamini',
+				],
+				'monoatomic'=>[
+					'monaotomic',
+					'monotomic',
+				],
+				'monobasic'=>[
+					'monbasic',
+					'monoasic',
+				],
+				'monochasium'=>[
+					'monochasuim',
+				],
+				'monochord'=>[
+					'monchord',
+					'monohord',
 				],
 				'monochromatically'=>[
 					'monochromaticallly',
@@ -8091,6 +13035,10 @@
 				],
 				'monochromator'=>[
 					'monochrometer',
+				],
+				'monochrome'=>[
+					'monchrome',
+					'monohrome',
 				],
 				'monocistronic'=>[
 					'monocystronic',
@@ -8101,8 +13049,17 @@
 				'monoclinic'=>[
 					'monoclinac',
 				],
+				'monoclinous'=>[
+					'monoclinuos',
+				],
 				'monoclonal'=>[
 					'monocolonal',
+				],
+				'monocoque'=>[
+					'monocoqeu',
+				],
+				'monocotyledonous'=>[
+					'monocotyledonuos',
 				],
 				'monocracy'=>[
 					'monocrasy',
@@ -8120,8 +13077,32 @@
 					'monocularely',
 					'monocularlly',
 				],
+				'monocultural'=>[
+					'moncultural',
+					'monoultural',
+				],
+				'monoculture'=>[
+					'monculture',
+					'monoulture',
+				],
+				'monocycle'=>[
+					'moncycle',
+					'monoycle',
+				],
+				'monocycles'=>[
+					'moncycles',
+					'monoycles',
+				],
 				'monocytotropic'=>[
 					'monocytotrophic',
+				],
+				'monodies'=>[
+					'monodeis',
+					'monoies',
+				],
+				'monodrama'=>[
+					'mondrama',
+					'monorama',
 				],
 				'monoecious'=>[
 					'monoecous',
@@ -8131,6 +13112,25 @@
 				],
 				'monofilament'=>[
 					'monofilamant',
+				],
+				'monogamous'=>[
+					'monogamuos',
+				],
+				'monogamously'=>[
+					'monogamousely',
+					'monogamuosly',
+				],
+				'monogenesis'=>[
+					'mongenesis',
+					'monoenesis',
+				],
+				'monogenetic'=>[
+					'mongenetic',
+					'monoenetic',
+				],
+				'monogram'=>[
+					'mongram',
+					'monoram',
 				],
 				'monogrammatic'=>[
 					'monogramatic',
@@ -8142,11 +13142,44 @@
 				'monogramming'=>[
 					'monogrammming',
 				],
+				'monograms'=>[
+					'mongrams',
+					'monorams',
+				],
+				'monograph'=>[
+					'mongraph',
+					'monoraph',
+				],
+				'monographic'=>[
+					'mongraphic',
+					'monoraphic',
+				],
+				'monogynies'=>[
+					'monogyneis',
+				],
+				'monoicous'=>[
+					'moniocous',
+					'monoicuos',
+				],
 				'monoisotopic'=>[
 					'monoisotropic',
 				],
+				'monolatries'=>[
+					'monolatreis',
+				],
+				'monolayer'=>[
+					'monlayer',
+					'monoayer',
+				],
+				'monolayers'=>[
+					'monlayers',
+					'monoayers',
+				],
 				'monolingual'=>[
 					'monolingaul',
+				],
+				'monolingualism'=>[
+					'monolingaulism',
 				],
 				'monolinguals'=>[
 					'monolingauls',
@@ -8157,16 +13190,61 @@
 				'monologging'=>[
 					'monologing',
 				],
+				'monologs'=>[
+					'monlogs',
+					'monoogs',
+				],
+				'monologue'=>[
+					'monologeu',
+				],
+				'monologues'=>[
+					'monologeus',
+				],
+				'monologuist'=>[
+					'monologiust',
+				],
+				'monologuists'=>[
+					'monologiusts',
+				],
+				'monomania'=>[
+					'monomanai',
+				],
+				'monomaniac'=>[
+					'monmaniac',
+					'monoaniac',
+					'monomanaic',
+				],
+				'monomaniacal'=>[
+					'monomanaical',
+				],
+				'monomaniacs'=>[
+					'monmaniacs',
+					'monoaniacs',
+					'monomanaics',
+				],
+				'monomerous'=>[
+					'monomeruos',
+				],
 				'monometallic'=>[
 					'monometalic',
 					'monometalllic',
+					'monmetallic',
+					'monoetallic',
 				],
 					# monometalism: an accepted spelling, not a slip (AmericanBritishWords_M: monometalism)
 			#	'monometallism'=>[
 			#		'monometalism',
 			#	],
+				'monomial'=>[
+					'monomail',
+				],
+				'monomials'=>[
+					'monomails',
+				],
 				'monomolecular'=>[
 					'monomoleculer',
+					'monmolecular',
+					'monoolecular',
 				],
 				'monomorphemic'=>[
 					'monomourphemic',
@@ -8183,10 +13261,26 @@
 				'mononuclear'=>[
 					'mononucleer',
 					'mononucler',
+					'monnuclear',
+					'mononuclaer',
+					'monouclear',
+				],
+				'mononucleosis'=>[
+					'mononucloesis',
+				],
+				'monopetalous'=>[
+					'monopetaluos',
+				],
+				'monophagous'=>[
+					'monophaguos',
 				],
 				'monophonically'=>[
 					'monophonicallly',
 					'monophonicaly',
+				],
+				'monophony'=>[
+					'monohony',
+					'monphony',
 				],
 				'monophthong'=>[
 					'monopthong',
@@ -8200,6 +13294,35 @@
 					'monophyaly',
 					'monophyely',
 					'monophylly',
+				],
+				'monoplane'=>[
+					'monolane',
+					'monplane',
+				],
+				'monoplanes'=>[
+					'monolanes',
+					'monplanes',
+				],
+				'monoplegia'=>[
+					'monoplegai',
+				],
+				'monoploid'=>[
+					'monopliod',
+				],
+				'monopole'=>[
+					'monoole',
+					'monpole',
+				],
+				'monopoles'=>[
+					'monooles',
+					'monpoles',
+				],
+				'monopolies'=>[
+					'monopoleis',
+				],
+				'monopolization'=>[
+					'monopolizatoin',
+					'monopolizaton',
 				],
 				'monopoly'=>[
 					'monopoally',
@@ -8217,9 +13340,15 @@
 				],
 				'monorail'=>[
 					'monourail',
+					'monoail',
+					'monorial',
+					'monrail',
 				],
 				'monorails'=>[
 					'monourails',
+					'monoails',
+					'monorials',
+					'monrails',
 				],
 				'monorchid'=>[
 					'monourchid',
@@ -8250,8 +13379,17 @@
 					'monosacharides',
 					'monosacccharides',
 				],
+				'monosepalous'=>[
+					'monosepaluos',
+				],
+				'monospermous'=>[
+					'monospermuos',
+				],
 				'monostely'=>[
 					'monostly',
+				],
+				'monostylous'=>[
+					'monostyluos',
 				],
 				'monosyllabic'=>[
 					'monosylabic',
@@ -8271,6 +13409,7 @@
 				'monosyllables'=>[
 					'monosylables',
 					'monosylllables',
+					'monosyllibles',
 				],
 				'monosymmetric'=>[
 					'monosymetric',
@@ -8279,16 +13418,57 @@
 				'monotheism'=>[
 					'monothiesm',
 				],
+				'monotheist'=>[
+					'monothiest',
+				],
+				'monotheistic'=>[
+					'monothiestic',
+				],
 				'monotheistical'=>[
 					'monothiestical',
+				],
+				'monotheists'=>[
+					'monothiests',
+				],
+				'monotone'=>[
+					'monoone',
+					'montone',
+				],
+				'monotones'=>[
+					'monoones',
+					'montones',
+				],
+				'monotonic'=>[
+					'monoonic',
+					'montonic',
 				],
 				'monotonically'=>[
 					'monotonicallly',
 					'monotonicaly',
 				],
+				'monotonous'=>[
+					'monotonuos',
+				],
+				'monotonously'=>[
+					'monotonousely',
+					'monotonuosly',
+				],
 				'monotonousness'=>[
 					'monotonousnes',
 					'monotonousnesss',
+					'monotonuosness',
+				],
+				'monotony'=>[
+					'monoony',
+					'montony',
+				],
+				'monotype'=>[
+					'monoype',
+					'montype',
+				],
+				'monotypes'=>[
+					'monoypes',
+					'montypes',
 				],
 				'monotypic'=>[
 					'montypic',
@@ -8296,14 +13476,34 @@
 				'monoubiquitinated'=>[
 					'monoubiquinated',
 				],
+				'monounsaturated'=>[
+					'monuonsaturated',
+				],
+				'monovalence'=>[
+					'monovalance',
+				],
+				'monovalency'=>[
+					'monovalancy',
+				],
+				'monovalent'=>[
+					'monovalant',
+				],
 				'monovular'=>[
 					'monovuler',
 				],
+				'monoxide'=>[
+					'monxide',
+					'mooxide',
+				],
 				'monseigneur'=>[
 					'monseigner',
+					'monseignuer',
+					'monsiegneur',
 				],
 				'monsieur'=>[
 					'monsier',
+					'monseiur',
+					'monsiuer',
 				],
 				'monsignor'=>[
 					'monsignour',
@@ -8319,6 +13519,8 @@
 				],
 				'monsoon'=>[
 					'monsooon',
+					'monoon',
+					'mosoon',
 				],
 				'monsoonal'=>[
 					'monsonal',
@@ -8330,16 +13532,26 @@
 				'monstrance'=>[
 					'monstrence',
 				],
+				'monstrances'=>[
+					'monstrences',
+				],
+				'monstrosities'=>[
+					'monstrositeis',
+				],
 				'monstrous'=>[
 					'monsterous',
 					'monftrous',
+					'monstruos',
 				],
 				'monstrously'=>[
 					'monsterously',
+					'monstrousely',
+					'monstruosly',
 				],
 				'monstrousness'=>[
 					'monstrousnes',
 					'monstrousnesss',
+					'monstruosness',
 				],
 				'monteith'=>[
 					'montieth',
@@ -8353,6 +13565,15 @@
 					'inontli',
 					'montli',
 					'niontli',
+				],
+				'monthlies'=>[
+					'monthies',
+					'monthleis',
+					'montlies',
+				],
+				'monthlong'=>[
+					'monthong',
+					'montlong',
 				],
 				'monthly'=>[
 					'monthally',
@@ -8389,6 +13610,9 @@
 					'monumentallly',
 					'monumentaly',
 				],
+				'monuments'=>[
+					'monumants',
+				],
 				'moo'=>[
 					'mooo',
 				],
@@ -8416,9 +13640,11 @@
 				],
 				'moodier'=>[
 					'mooodier',
+					'moodeir',
 				],
 				'moodiest'=>[
 					'mooodiest',
+					'moodeist',
 				],
 				'moodily'=>[
 					'mooodily',
@@ -8437,10 +13663,12 @@
 				],
 				'mooed'=>[
 					'moooed',
+					'moeod',
 				],
 				'mooing'=>[
 					'moing',
 					'moooing',
+					'moiong',
 				],
 				'moolah'=>[
 					'moola',
@@ -8461,17 +13689,26 @@
 				'moonbeam'=>[
 					'monbeam',
 					'mooonbeam',
+					'moobeam',
+					'moonbaem',
+					'mooneam',
 				],
 				'moonbeams'=>[
 					'monbeams',
 					'mooonbeams',
+					'moobeams',
+					'moonbaems',
+					'mooneams',
 				],
 				'mooncalf'=>[
 					'moncalf',
 					'moooncalf',
+					'moocalf',
+					'moonalf',
 				],
 				'mooned'=>[
 					'moooned',
+					'moond',
 				],
 				'mooney'=>[
 					'moooney',
@@ -8483,16 +13720,21 @@
 				'mooneyes'=>[
 					'moneyes',
 					'moooneyes',
+					'mooeyes',
+					'moonyes',
 				],
 				'moonfish'=>[
 					'monfish',
 					'mooonfish',
+					'moofish',
 				],
 				'moonier'=>[
 					'mooonier',
+					'mooneir',
 				],
 				'mooniest'=>[
 					'moooniest',
+					'mooneist',
 				],
 				'mooning'=>[
 					'moooning',
@@ -8506,14 +13748,20 @@
 				'moonlight'=>[
 					'monlight',
 					'mooonlight',
+					'moolight',
+					'moonight',
 				],
 				'moonlighted'=>[
 					'monlighted',
 					'mooonlighted',
+					'moolighted',
+					'moonighted',
 				],
 				'moonlighter'=>[
 					'monlighter',
 					'mooonlighter',
+					'moolighter',
+					'moonighter',
 				],
 				'moonlighters'=>[
 					'monlighters',
@@ -8522,10 +13770,14 @@
 				'moonlighting'=>[
 					'monlighting',
 					'mooonlighting',
+					'moolighting',
+					'moonighting',
 				],
 				'moonlights'=>[
 					'monlights',
 					'mooonlights',
+					'moolights',
+					'moonights',
 				],
 				'moonlit'=>[
 					'monlit',
@@ -8541,6 +13793,8 @@
 				'moonrise'=>[
 					'monrise',
 					'mooonrise',
+					'moonise',
+					'moorise',
 				],
 				'moons'=>[
 					'mooons',
@@ -8555,6 +13809,8 @@
 				'moonscapes'=>[
 					'monscapes',
 					'mooonscapes',
+					'mooncapes',
+					'moonsapes',
 				],
 				'moonseed'=>[
 					'moonseeed',
@@ -8565,6 +13821,8 @@
 					'moonseds',
 					'moonseeeds',
 					'mooonseeds',
+					'mooneeds',
+					'mooseeds',
 				],
 				'moonset'=>[
 					'monset',
@@ -8574,6 +13832,8 @@
 					'moonshini',
 					'monshine',
 					'mooonshine',
+					'moonhine',
+					'mooshine',
 				],
 				'moonshiner'=>[
 					'monshiner',
@@ -8586,34 +13846,54 @@
 				'moonshines'=>[
 					'monshines',
 					'mooonshines',
+					'moonhines',
+					'mooshines',
 				],
 				'moonshot'=>[
 					'monshot',
 					'mooonshot',
+					'moonhot',
+					'mooshot',
 				],
 				'moonshots'=>[
 					'monshots',
 					'mooonshots',
+					'moonhots',
+					'moonsots',
+					'mooshots',
 				],
 				'moonstone'=>[
 					'monstone',
 					'mooonstone',
+					'moonsone',
+					'moontone',
+					'moostone',
 				],
 				'moonstones'=>[
 					'monstones',
 					'mooonstones',
+					'moonsones',
+					'moontones',
+					'moostones',
 				],
 				'moonstruck'=>[
 					'monstruck',
 					'mooonstruck',
+					'moonsruck',
+					'moontruck',
+					'moostruck',
 				],
 				'moonwalk'=>[
 					'monwalk',
 					'mooonwalk',
+					'moonalk',
+					'moowalk',
 				],
 				'moonwalks'=>[
 					'monwalks',
 					'mooonwalks',
+					'moonalks',
+					'moowalks',
 				],
 				'moonwort'=>[
 					'monwort',
@@ -8632,13 +13912,16 @@
 				'moorage'=>[
 					'mooorage',
 					'morage',
+					'mooage',
 				],
 				'moorages'=>[
 					'mooorages',
 					'morages',
+					'mooages',
 				],
 				'moored'=>[
 					'mooored',
+					'moord',
 				],
 				'moorfowl'=>[
 					'mooorfowl',
@@ -8696,6 +13979,22 @@
 				'moots'=>[
 					'mooots',
 				],
+				'mopboard'=>[
+					'moboard',
+					'mopbaord',
+					'mopoard',
+				],
+				'mopboards'=>[
+					'moboards',
+					'mopbaords',
+					'mopoards',
+				],
+				'mopier'=>[
+					'mopeir',
+				],
+				'mopiest'=>[
+					'mopeist',
+				],
 				'mopped'=>[
 					'moppped',
 				],
@@ -8716,10 +14015,16 @@
 				'moquette'=>[
 					'moquete',
 					'moquettte',
+					'moqeutte',
 				],
 				'moquettes'=>[
 					'moquetes',
 					'moquetttes',
+					'moqeuttes',
+				],
+				'moraceous'=>[
+					'moraceuos',
+					'moracoeus',
 				],
 				'morainal'=>[
 					'mourainal',
@@ -8727,9 +14032,11 @@
 				'moraine'=>[
 					'moraini',
 					'mouraine',
+					'moriane',
 				],
 				'moraines'=>[
 					'mouraines',
+					'morianes',
 				],
 				'morainic'=>[
 					'mourainic',
@@ -8781,12 +14088,15 @@
 				],
 				'moralities'=>[
 					'mouralities',
+					'moraliteis',
 				],
 				'morality'=>[
 					'mourality',
 				],
 				'moralization'=>[
 					'mouralization',
+					'moralizatoin',
+					'moralizaton',
 				],
 				'moralizations'=>[
 					'mouralizations',
@@ -8834,12 +14144,15 @@
 				],
 				'moratoria'=>[
 					'mouratoria',
+					'moratorai',
 				],
 				'moratorium'=>[
 					'mouratorium',
+					'moratoruim',
 				],
 				'moratoriums'=>[
 					'mouratoriums',
+					'moratoruims',
 				],
 				'moratory'=>[
 					'mouratory',
@@ -8884,9 +14197,22 @@
 				],
 				'morceau'=>[
 					'mourceau',
+					'morcaeu',
+					'morceua',
 				],
 				'morceaux'=>[
 					'mourceaux',
+				],
+				'mordacious'=>[
+					'mordaciuos',
+					'mordacoius',
+					'mordacous',
+				],
+				'mordaciously'=>[
+					'mordaciousely',
+					'mordaciuosly',
+					'mordacoiusly',
+					'mordacously',
 				],
 				'mordacities'=>[
 					'mourdacities',
@@ -8900,6 +14226,7 @@
 				'mordancy'=>[
 					'mordansy',
 					'mourdancy',
+					'mordency',
 				],
 				'mordant'=>[
 					'mordent',
@@ -8916,6 +14243,7 @@
 				'mordantly'=>[
 					'mordently',
 					'mourdantly',
+					'mordantely',
 				],
 				'mordants'=>[
 					'mordents',
@@ -8954,6 +14282,9 @@
 				'moreens'=>[
 					'moureens',
 				],
+				'moreish'=>[
+					'moriesh',
+				],
 				'morelle'=>[
 					'mourelle',
 				],
@@ -8984,6 +14315,7 @@
 					'morovor',
 					'moureover',
 					'moreovcr',
+					'moroever',
 				],
 				'moresque'=>[
 					'mouresque',
@@ -9017,9 +14349,11 @@
 				],
 				'morgue'=>[
 					'mourgue',
+					'morgeu',
 				],
 				'morgues'=>[
 					'mourgues',
+					'morgeus',
 				],
 				'moribund'=>[
 					'mouribund',
@@ -9032,9 +14366,15 @@
 				],
 				'morion'=>[
 					'mourion',
+					'moroin',
 				],
 				'morions'=>[
 					'mourions',
+					'moroins',
+				],
+				'morisco'=>[
+					'morico',
+					'moriso',
 				],
 				'morissette'=>[
 					'morisette',
@@ -9140,6 +14480,7 @@
 				],
 				'morphia'=>[
 					'mourphia',
+					'morphai',
 				],
 				'morphias'=>[
 					'mourphias',
@@ -9213,6 +14554,7 @@
 				],
 				'morphologies'=>[
 					'mourphologies',
+					'morphologeis',
 				],
 				'morphologist'=>[
 					'mourphologist',
@@ -9317,12 +14659,19 @@
 				],
 				'mortarboard'=>[
 					'mourtarboard',
+					'mortaboard',
+					'mortarbaord',
+					'mortaroard',
 				],
 				'mortarboards'=>[
 					'mourtarboards',
+					'mortaboards',
+					'mortarbaords',
+					'mortaroards',
 				],
 				'mortared'=>[
 					'mourtared',
+					'mortard',
 				],
 				'mortarless'=>[
 					'mourtarless',
@@ -9338,6 +14687,10 @@
 					'morgage',
 					'mourtgage',
 					'mortage',
+				],
+				'mortgageable'=>[
+					'mortgagaeble',
+					'mortgageible',
 				],
 				'mortgagee'=>[
 					'mourtgagee',
@@ -9371,18 +14724,28 @@
 				'mortician'=>[
 					'mortican',
 					'mourtician',
+					'morticain',
 				],
 				'morticians'=>[
 					'mourticians',
+					'morticains',
 				],
 				'mortification'=>[
 					'mourtification',
+					'mortificatoin',
+					'mortificaton',
 				],
 				'mortifications'=>[
 					'mourtifications',
 				],
+				'mortified'=>[
+					'mortifeid',
+				],
 				'mortifiers'=>[
 					'mourtifiers',
+				],
+				'mortifies'=>[
+					'mortifeis',
 				],
 				'mortify'=>[
 					'mourtify',
@@ -9404,9 +14767,16 @@
 				],
 				'mortmain'=>[
 					'mourtmain',
+					'mortmian',
+				],
+				'mortmains'=>[
+					'mortmians',
 				],
 				'mortuaries'=>[
 					'mourtuaries',
+					'mortauries',
+					'mortuareis',
+					'mortueries',
 				],
 				'mortuary'=>[
 					'mortaury',
@@ -9432,8 +14802,43 @@
 				'morulations'=>[
 					'mourulations',
 				],
+				'mosaic'=>[
+					'mosiac',
+				],
 				'mosaicism'=>[
 					'mozaicism',
+				],
+				'mosaicist'=>[
+					'mosiacist',
+				],
+				'mosaicked'=>[
+					'mosiacked',
+				],
+				'mosaics'=>[
+					'mosiacs',
+				],
+				'mosasaur'=>[
+					'mosasuar',
+				],
+				'moschatel'=>[
+					'mochatel',
+					'moshatel',
+				],
+				'mosque'=>[
+					'mosqeu',
+				],
+				'mosques'=>[
+					'mosqeus',
+				],
+				'mosquito'=>[
+					'mosqiuto',
+				],
+				'mosquitoes'=>[
+					'mosqiutoes',
+					'mosquiteos',
+				],
+				'mosquitos'=>[
+					'mosqiutos',
 				],
 				'moss'=>[
 					'mos',
@@ -9441,24 +14846,34 @@
 				],
 				'mossback'=>[
 					'mosssback',
+					'mosback',
+					'mossack',
 				],
 				'mossbacked'=>[
 					'mosbacked',
 					'mosssbacked',
+					'mossacked',
 				],
 				'mossbacks'=>[
 					'mosbacks',
 					'mosssbacks',
+					'mossacks',
+				],
+				'mossbunker'=>[
+					'mosbunker',
+					'mossunker',
 				],
 				'mosses'=>[
 					'mossses',
 				],
 				'mossier'=>[
 					'mosssier',
+					'mosseir',
 				],
 				'mossiest'=>[
 					'mosiest',
 					'mosssiest',
+					'mosseist',
 				],
 				'mossiness'=>[
 					'mosiness',
@@ -9472,6 +14887,8 @@
 				'mosstrooper'=>[
 					'mosstroooper',
 					'mosstroper',
+					'mossrooper',
+					'mostrooper',
 				],
 				'mossy'=>[
 					'moscy',
@@ -9501,6 +14918,8 @@
 				'mothball'=>[
 					'mothbal',
 					'mothballl',
+					'motball',
+					'mothall',
 				],
 				'mothballed'=>[
 					'mothbaled',
@@ -9513,6 +14932,8 @@
 				'mothballs'=>[
 					'mothballls',
 					'mothbals',
+					'motballs',
+					'mothalls',
 				],
 				'mother'=>[
 					'mother mother',
@@ -9522,9 +14943,42 @@
 					'mothcr',
 					'rnother',
 				],
+				'motherboard'=>[
+					'motheboard',
+					'motherbaord',
+					'motheroard',
+				],
+				'motherboards'=>[
+					'motheboards',
+					'motherbaords',
+					'motheroards',
+				],
+				'mothered'=>[
+					'motherd',
+				],
+				'motherfucker'=>[
+					'mothefucker',
+					'motherucker',
+				],
+				'motherfuckers'=>[
+					'mothefuckers',
+					'motheruckers',
+				],
+				'motherfucking'=>[
+					'mothefucking',
+					'motherucking',
+				],
 				'motherhood'=>[
 					'motherhod',
 					'motherhoood',
+				],
+				'motherland'=>[
+					'motheland',
+					'motherand',
+				],
+				'motherlands'=>[
+					'mothelands',
+					'motherands',
 				],
 				'motherless'=>[
 					'motherles',
@@ -9548,6 +15002,8 @@
 				'mothproof'=>[
 					'mothprof',
 					'mothprooof',
+					'mothroof',
+					'motproof',
 				],
 				'mothproofed'=>[
 					'mothprofed',
@@ -9564,6 +15020,8 @@
 				'mothproofs'=>[
 					'mothprofs',
 					'mothprooofs',
+					'mothroofs',
+					'motproofs',
 				],
 				'moths'=>[
 					'molhs',
@@ -9574,26 +15032,47 @@
 					'motion motion motion',
 					'niotion',
 					'rnotion',
+					'motoin',
+				],
+				'motioned'=>[
+					'motiond',
+					'motoined',
+				],
+				'motioning'=>[
+					'motoining',
 				],
 				'motionless'=>[
 					'motionles',
 					'motionlesss',
+					'motoinless',
 				],
 				'motionlessly'=>[
 					'motionlesly',
 					'motionlesssly',
+					'motionlessely',
+					'motoinlessly',
 				],
 				'motionlessness'=>[
 					'motionlesness',
 					'motionlessnes',
 					'motionlessnesss',
 					'motionlesssness',
+					'motoinlessness',
+				],
+				'motions'=>[
+					'motoins',
 				],
 				'motivated'=>[
 					'motiviated',
 				],
 				'motivation'=>[
 					'motiviation',
+					'motivatoin',
+					'motivaton',
+				],
+				'motivational'=>[
+					'motivatoinal',
+					'motivatonal',
 				],
 				'motivationally'=>[
 					'motivationalally',
@@ -9601,13 +15080,24 @@
 					'motivationalely',
 					'motivationallly',
 				],
+				'motivations'=>[
+					'motivatoins',
+					'motivatons',
+				],
 				'motiveless'=>[
 					'motiveles',
 					'motivelesss',
 				],
+				'motivities'=>[
+					'motiviteis',
+				],
 				'motlier'=>[
 					'inotlier',
 					'niotlier',
+					'motleir',
+				],
+				'motliest'=>[
+					'motleist',
 				],
 				'motocross'=>[
 					'motocros',
@@ -9617,14 +15107,84 @@
 					'motocroses',
 					'motocrossses',
 				],
+				'motoneuron'=>[
+					'motonueron',
+				],
+				'motorbike'=>[
+					'motobike',
+					'motorike',
+				],
+				'motorbikes'=>[
+					'motobikes',
+					'motorikes',
+				],
+				'motorboat'=>[
+					'motoboat',
+					'motorbaot',
+					'motoroat',
+				],
+				'motorboating'=>[
+					'motoboating',
+					'motorbaoting',
+					'motoroating',
+				],
+				'motorboats'=>[
+					'motoboats',
+					'motorbaots',
+					'motoroats',
+				],
+				'motorbuses'=>[
+					'motobuses',
+					'motoruses',
+				],
 				'motorbusses'=>[
 					'motorbussses',
 				],
 				'motorcar'=>[
 					'motorcer',
 				],
+				'motorcars'=>[
+					'motocars',
+					'motorars',
+				],
 				'motorcycle'=>[
 					'motorcicle',
+					'motorycle',
+				],
+				'motorcycles'=>[
+					'motorycles',
+				],
+				'motorcycling'=>[
+					'motorycling',
+				],
+				'motored'=>[
+					'motord',
+				],
+				'motorization'=>[
+					'motorizatoin',
+					'motorizaton',
+				],
+				'motormouth'=>[
+					'motomouth',
+					'motormuoth',
+					'motorouth',
+				],
+				'motormouths'=>[
+					'motomouths',
+					'motormuoths',
+					'motorouths',
+				],
+				'motortruck'=>[
+					'motorruck',
+					'mototruck',
+				],
+				'motortrucks'=>[
+					'motorrucks',
+					'mototrucks',
+				],
+				'motorways'=>[
+					'motorays',
+					'motoways',
 				],
 				'mott'=>[
 					'mottt',
@@ -9651,10 +15211,47 @@
 				'mottoes'=>[
 					'mottos',
 					'motttoes',
+					'motteos',
+				],
+				'moues'=>[
+					'moeus',
+					'muoes',
+				],
+				'mouflon'=>[
+					'muoflon',
+				],
+				'mouflons'=>[
+					'muoflons',
+				],
+				'moujik'=>[
+					'muojik',
+				],
+				'moujiks'=>[
+					'muojiks',
+				],
+				'moulin'=>[
+					'muolin',
+				],
+				'mound'=>[
+					'muond',
+				],
+				'mounded'=>[
+					'muonded',
+				],
+				'mounding'=>[
+					'muonding',
+				],
+				'mounds'=>[
+					'muonds',
 				],
 				'mount'=>[
 					'mount mount',
 					'mount mount mount',
+					'muont',
+				],
+				'mountable'=>[
+					'mountible',
+					'muontable',
 				],
 				'mountain'=>[
 					'mountain mountain',
@@ -9662,6 +15259,7 @@
 					'mountian',
 					'monntain',
 					'mouutain',
+					'muontain',
 				],
 				'mountain-based'=>[
 					'mountain based',
@@ -9670,23 +15268,35 @@
 				'mountaineer'=>[
 					'mountainier',
 					'mountaineeer',
+					'mountianeer',
+					'muontaineer',
 				],
 				'mountaineered'=>[
 					'mountaineeered',
+					'mountaineerd',
+					'mountianeered',
+					'muontaineered',
 				],
 				'mountaineering'=>[
 					'mountainiering',
 					'mountaineeering',
+					'mountianeering',
+					'muontaineering',
 				],
 				'mountaineerings'=>[
 					'mountainierings',
 				],
 				'mountaineers'=>[
 					'mountaineeers',
+					'mountianeers',
+					'muontaineers',
 				],
 				'mountainous'=>[
 					'mountaineous',
 					'mountanous',
+					'mountainuos',
+					'mountianous',
+					'muontainous',
 				],
 				'mountainously'=>[
 					'mountainousally',
@@ -9697,69 +15307,236 @@
 				'mountains'=>[
 					'inountains',
 					'monntains',
+					'mountians',
+					'muontains',
+				],
+				'mountainside'=>[
+					'mountainide',
+					'mountaiside',
+					'mountianside',
+					'muontainside',
+				],
+				'mountainsides'=>[
+					'mountainides',
+					'mountaisides',
+					'mountiansides',
+					'muontainsides',
+				],
+				'mountaintop'=>[
+					'mountiantop',
+					'muontaintop',
+				],
+				'mountaintops'=>[
+					'mountainops',
+					'mountaitops',
+					'mountiantops',
+					'muontaintops',
+				],
+				'mountainy'=>[
+					'mountiany',
+					'muontainy',
+				],
+				'mountebank'=>[
+					'muontebank',
+				],
+				'mountebankery'=>[
+					'mountebankary',
+					'muontebankery',
+				],
+				'mountebanks'=>[
+					'muontebanks',
 				],
 				'mounted'=>[
 					'monnted',
+					'muonted',
+				],
+				'mounter'=>[
+					'muonter',
+				],
+				'mounters'=>[
+					'muonters',
+				],
+				'mountie'=>[
+					'mountei',
+					'muontie',
+				],
+				'mounties'=>[
+					'mounteis',
+					'muonties',
+				],
+				'mounting'=>[
+					'muonting',
+				],
+				'mountings'=>[
+					'muontings',
+				],
+				'mounts'=>[
+					'muonts',
+				],
+				'mourn'=>[
+					'muorn',
+				],
+				'mourned'=>[
+					'mournd',
+					'muorned',
+				],
+				'mourner'=>[
+					'muorner',
+				],
+				'mourners'=>[
+					'muorners',
+				],
+				'mournful'=>[
+					'muornful',
 				],
 				'mournfully'=>[
 					'mournfullly',
 					'mournfuly',
+					'mourfully',
+					'mournully',
+					'muornfully',
 				],
 				'mournfulness'=>[
 					'mournfulnes',
 					'mournfulnesss',
+					'muornfulness',
 				],
 				'mourning'=>[
 					'mourniug',
+					'muorning',
+				],
+				'mourns'=>[
+					'muorns',
+				],
+				'mouse'=>[
+					'muose',
+				],
+				'mousebird'=>[
+					'mousbird',
+					'mouseird',
+					'muosebird',
+				],
+				'moused'=>[
+					'muosed',
+				],
+				'mousepad'=>[
+					'muosepad',
+				],
+				'mouser'=>[
+					'muoser',
+				],
+				'mousers'=>[
+					'muosers',
+				],
+				'mouses'=>[
+					'muoses',
+				],
+				'mousetail'=>[
+					'mouseail',
+					'mousetial',
+					'moustail',
+					'muosetail',
+				],
+				'mousetrap'=>[
+					'mouserap',
+					'moustrap',
+					'muosetrap',
 				],
 				'mousetrapped'=>[
 					'mousetraped',
 					'mousetrappped',
+					'mouserapped',
+					'moustrapped',
+					'muosetrapped',
 				],
 				'mousetrapping'=>[
 					'mousetraping',
 					'mousetrappping',
+					'mouserapping',
+					'moustrapping',
+					'muosetrapping',
+				],
+				'mousetraps'=>[
+					'mouseraps',
+					'moustraps',
+					'muosetraps',
+				],
+				'mousey'=>[
+					'muosey',
+				],
+				'mousier'=>[
+					'mouseir',
+					'muosier',
 				],
 				'mousiest'=>[
 					'mouisest',
+					'mouseist',
+					'muosiest',
 				],
 				'mousiness'=>[
 					'mouisness',
 					'mousines',
 					'mousinesss',
+					'muosiness',
 				],
 				'mousinesses'=>[
 					'mouisnesses',
+				],
+				'mousing'=>[
+					'muosing',
 				],
 				'mousings'=>[
 					'mouisngs',
 				],
 				'moussaka'=>[
 					'mousssaka',
+					'muossaka',
 				],
 				'moussakas'=>[
 					'mousakas',
 					'mousssakas',
+					'muossakas',
 				],
 				'mousse'=>[
 					'moussse',
+					'muosse',
 				],
 				'moussed'=>[
 					'mousssed',
+					'muossed',
 				],
 				'mousseline'=>[
 					'mousselini',
 					'mouseline',
 					'moussseline',
+					'muosseline',
 				],
 				'mousses'=>[
 					'moussses',
+					'muosses',
 				],
 				'moussing'=>[
 					'mousssing',
+					'muossing',
+				],
+				'moustache'=>[
+					'muostache',
+				],
+				'moustaches'=>[
+					'muostaches',
+				],
+				'moustachio'=>[
+					'moustachoi',
+					'muostachio',
+				],
+				'moustachioed'=>[
+					'moustachieod',
+					'moustachoied',
+					'muostachioed',
 				],
 				'mousy'=>[
 					'moucy',
+					'muosy',
 				],
 				'mouth'=>[
 					'mouth mouth',
@@ -9770,24 +15547,82 @@
 					'niouth',
 					'nioutli',
 					'rnouth',
+					'muoth',
+				],
+				'mouthed'=>[
+					'muothed',
 				],
 				'mouthful'=>[
 					'mouthfull',
+					'muothful',
+				],
+				'mouthfuls'=>[
+					'muothfuls',
+				],
+				'mouthier'=>[
+					'moutheir',
+					'muothier',
+				],
+				'mouthiest'=>[
+					'moutheist',
+					'muothiest',
 				],
 				'mouthiness'=>[
 					'mouthines',
 					'mouthinesss',
+					'muothiness',
+				],
+				'mouthing'=>[
+					'muothing',
+				],
+				'mouthorgan'=>[
+					'mouthrgan',
+					'moutorgan',
+					'muothorgan',
 				],
 				'mouthpart'=>[
 					'mouthpert',
+					'mouthart',
+					'moutpart',
+					'muothpart',
+				],
+				'mouthparts'=>[
+					'moutharts',
+					'moutparts',
+					'muothparts',
 				],
 				'mouthpiece'=>[
 					'mouthpeice',
 					'mouthpicce',
 					'mouthpice',
+					'mouthiece',
+					'moutpiece',
+					'muothpiece',
+				],
+				'mouthpieces'=>[
+					'mouthieces',
+					'mouthpeices',
+					'moutpieces',
+					'muothpieces',
 				],
 				'mouths'=>[
 					'moutlis',
+					'muoths',
+				],
+				'mouthwash'=>[
+					'mouthash',
+					'moutwash',
+					'muothwash',
+				],
+				'mouthwashes'=>[
+					'mouthashes',
+					'moutwashes',
+					'muothwashes',
+				],
+				'mouthwatering'=>[
+					'mouthatering',
+					'moutwatering',
+					'muothwatering',
 				],
 				'mouthwateringly'=>[
 					'mouthwateringally',
@@ -9795,8 +15630,17 @@
 					'mouthwateringely',
 					'mouthwateringlly',
 				],
+				'mouthy'=>[
+					'muothy',
+				],
+				'mouton'=>[
+					'muoton',
+				],
 				'moutonnee'=>[
 					'moutonee',
+				],
+				'movabilities'=>[
+					'movabiliteis',
 				],
 				'movable'=>[
 					# moveable: an accepted spelling, not a slip (AmericanBritishWords_M: movable)
@@ -9817,16 +15661,32 @@
 					'inove',
 					'rnove',
 				],
+				'moveability'=>[
+					'movaebility',
+					'movebility',
+					'moveibility',
+				],
 				'moveable'=>[
 					'moveible',
+					'movaeble',
 				],
 				'moveableness'=>[
 					'moveablenes',
 					'moveablenesss',
+					'movaebleness',
+					'moveibleness',
 				],
 				'moveablenesses'=>[
 					'moveableneses',
 					'moveablenessses',
+				],
+				'moveables'=>[
+					'movaebles',
+					'moveibles',
+				],
+				'moveably'=>[
+					'movaebly',
+					'moveibly',
 				],
 				'moved'=>[
 					'inoved',
@@ -9841,18 +15701,30 @@
 				],
 				'movements'=>[
 					'niovements',
+					'movemants',
 				],
 				'movie'=>[
 					'movei',
 					'movi',
 				],
+				'moviedom'=>[
+					'moveidom',
+				],
 				'moviegoer'=>[
 					'moveigoer',
 					'movigoer',
+					'moviegeor',
+				],
+				'moviegoers'=>[
+					'moveigoers',
+					'moviegeors',
 				],
 				'moviemaker'=>[
 					'moveimaker',
 					'movimaker',
+				],
+				'movies'=>[
+					'moveis',
 				],
 				'moving'=>[
 					'moveing',
@@ -9860,6 +15732,9 @@
 				'moxie'=>[
 					'moxei',
 					'moxi',
+				],
+				'mozambique'=>[
+					'mozambiqeu',
 				],
 				'mozzarella'=>[
 					'mozzarela',
@@ -9898,17 +15773,39 @@
 					'muchneses',
 					'muchnessses',
 				],
+				'mucilaginous'=>[
+					'mucilaginuos',
+				],
 				'mucilaginously'=>[
 					'mucilaginousally',
 					'mucilaginousaly',
 					'mucilaginousely',
 					'mucilaginouslly',
 				],
+				'muckier'=>[
+					'muckeir',
+				],
+				'muckiest'=>[
+					'muckeist',
+				],
+				'muckrake'=>[
+					'muckake',
+					'mucrake',
+				],
 				'muckraking'=>[
 					'muckracking',
+					'muckaking',
+					'mucraking',
+				],
+				'muckworm'=>[
+					'muckorm',
+					'mucworm',
 				],
 				'mucociliary'=>[
 					'mucocilliary',
+				],
+				'mucoid'=>[
+					'muciod',
 				],
 				'mucopolysaccharidosis'=>[
 					'mucopolysaccaridosis',
@@ -9925,22 +15822,34 @@
 				],
 				'mucous'=>[
 					'mucuous',
+					'mucuos',
 				],
 				'mucoviscidose'=>[
 					'mucovidose',
 				],
+				'mucoviscidosis'=>[
+					'mucovicidosis',
+					'mucovisidosis',
+				],
+				'mudcats'=>[
+					'mudats',
+				],
 				'muddied'=>[
 					'mudddied',
+					'muddeid',
 				],
 				'muddier'=>[
 					'mudddier',
+					'muddeir',
 				],
 				'muddies'=>[
 					'mudddies',
 					'mudies',
+					'muddeis',
 				],
 				'muddiest'=>[
 					'mudddiest',
+					'muddeist',
 				],
 				'muddily'=>[
 					'mudddily',
@@ -9962,10 +15871,12 @@
 				'muddlehead'=>[
 					'mudddlehead',
 					'mudlehead',
+					'muddlehaed',
 				],
 				'muddleheaded'=>[
 					'mudddleheaded',
 					'mudleheaded',
+					'muddlehaeded',
 				],
 				'muddler'=>[
 					'mudddler',
@@ -9986,11 +15897,55 @@
 					'mudddying',
 					'mudying',
 				],
+				'mudfish'=>[
+					'mudish',
+					'mufish',
+				],
+				'mudflap'=>[
+					'mudlap',
+					'muflap',
+				],
+				'mudflaps'=>[
+					'mudlaps',
+					'muflaps',
+				],
+				'mudflat'=>[
+					'mudlat',
+					'muflat',
+				],
+				'mudflats'=>[
+					'mudlats',
+					'muflats',
+				],
+				'mudflow'=>[
+					'mudlow',
+					'muflow',
+				],
+				'mudflows'=>[
+					'mudlows',
+					'muflows',
+				],
 				'mudguard'=>[
 					'mudgaurd',
+					'muduard',
+					'muguard',
 				],
 				'mudguards'=>[
 					'mudgaurds',
+					'muduards',
+					'muguards',
+				],
+				'mudlark'=>[
+					'mudark',
+					'mulark',
+				],
+				'mudpack'=>[
+					'mudack',
+					'mupack',
+				],
+				'mudpacks'=>[
+					'mudacks',
+					'mupacks',
 				],
 				'mudpuppy'=>[
 					'mudpupy',
@@ -9998,24 +15953,60 @@
 				'mudroom'=>[
 					'mudrom',
 					'mudrooom',
+					'mudoom',
+					'muroom',
 				],
 				'mudrooms'=>[
 					'mudroms',
 					'mudroooms',
+					'mudooms',
+					'murooms',
 				],
 				'mudskipper'=>[
 					'mudskiper',
 					'mudskippper',
+					'mudkipper',
+					'muskipper',
 				],
 				'mudskippers'=>[
 					'mudskipers',
 					'mudskipppers',
 				],
+				'mudslide'=>[
+					'mudlide',
+					'muslide',
+				],
+				'mudslides'=>[
+					'mudlides',
+					'muslides',
+				],
+				'mudslinging'=>[
+					'mudlinging',
+					'muslinging',
+				],
+				'mudstone'=>[
+					'mudtone',
+					'mustone',
+				],
+				'muenster'=>[
+					'meunster',
+				],
+				'muensters'=>[
+					'meunsters',
+				],
+				'muesli'=>[
+					'meusli',
+				],
+				'mueslis'=>[
+					'meuslis',
+				],
 				'muezzin'=>[
 					'muezzzin',
+					'meuzzin',
 				],
 				'muezzins'=>[
 					'muezzzins',
+					'meuzzins',
 				],
 				'muff'=>[
 					'mufff',
@@ -10083,10 +16074,12 @@
 				'muggier'=>[
 					'mugggier',
 					'mugier',
+					'muggeir',
 				],
 				'muggiest'=>[
 					'mugggiest',
 					'mugiest',
+					'muggeist',
 				],
 				'mugginess'=>[
 					'muginess',
@@ -10120,6 +16113,18 @@
 					'mugy',
 					'mugggy',
 				],
+				'mugshot'=>[
+					'mughot',
+					'mushot',
+				],
+				'mugshots'=>[
+					'mughots',
+					'mugsots',
+					'mushots',
+				],
+				'mugwumpery'=>[
+					'mugwumpary',
+				],
 				'muhly'=>[
 					'muhally',
 					'muhaly',
@@ -10150,6 +16155,7 @@
 				],
 				'mulattoes'=>[
 					'mulatttoes',
+					'mulatteos',
 				],
 				'mulattos'=>[
 					'mulatttos',
@@ -10157,6 +16163,7 @@
 				'mulberries'=>[
 					'mulberies',
 					'mulberrries',
+					'mulberreis',
 				],
 				'mulberry'=>[
 					'mulbery',
@@ -10175,6 +16182,9 @@
 				'muleteers'=>[
 					'muleteeers',
 					'muleters',
+				],
+				'muliebrity'=>[
+					'muleibrity',
 				],
 				'mulishness'=>[
 					'mulishnes',
@@ -10248,14 +16258,21 @@
 				'mullion'=>[
 					'mulion',
 					'mulllion',
+					'mulloin',
+					'mullon',
 				],
 				'mullioned'=>[
 					'mulioned',
 					'mulllioned',
+					'mulliond',
+					'mulloined',
+					'mulloned',
 				],
 				'mullions'=>[
 					'mulions',
 					'mulllions',
+					'mulloins',
+					'mullons',
 				],
 				'mullite'=>[
 					'mulite',
@@ -10271,6 +16288,10 @@
 				'multiagency'=>[
 					'multiagensy',
 				],
+				'multiangular'=>[
+					'multaingular',
+					'multianguler',
+				],
 				'multicellular'=>[
 					'multicelluler',
 					'multicelular',
@@ -10280,6 +16301,7 @@
 				'multicellularity'=>[
 					'multicelllularity',
 					'multicelularity',
+					'multicellulerity',
 				],
 				'multichannel'=>[
 					'multichanel',
@@ -10294,8 +16316,27 @@
 				'multicollinearity'=>[
 					'multicolinearity',
 				],
+				'multicolored'=>[
+					'multicolord',
+				],
 				'multicurrencies'=>[
 					'multicurencies',
+				],
+				'multidimensional'=>[
+					'multidimensoinal',
+					'multidimensonal',
+				],
+				'multidimensionality'=>[
+					'multidimensoinality',
+				],
+				'multidirectional'=>[
+					'multidirectoinal',
+					'multidirectonal',
+				],
+				'multidisciplinary'=>[
+					'multidiciplinary',
+					'multidisciplinery',
+					'multidisiplinary',
 				],
 				'multidiscipline'=>[
 					'multidicipline',
@@ -10312,13 +16353,25 @@
 					'multifamialy',
 					'multifamiely',
 					'multifamilly',
+					'multifamly',
 				],
 				'multifarious'=>[
 					'multifarous',
+					'multifariuos',
+					'multifaroius',
+				],
+				'multifariously'=>[
+					'multifariousely',
+					'multifariuosly',
+					'multifaroiusly',
+					'multifarously',
 				],
 				'multifariousness'=>[
 					'multifariousnes',
 					'multifariousnesss',
+					'multifariuosness',
+					'multifaroiusness',
+					'multifarousness',
 				],
 				'multiferroicity'=>[
 					'multiferrocity',
@@ -10326,12 +16379,32 @@
 				'multifilament'=>[
 					'multifilamant',
 				],
+				'multiflorous'=>[
+					'multifloruos',
+				],
+				'multifoil'=>[
+					'multifiol',
+				],
+				'multifoliate'=>[
+					'multifolaite',
+				],
+				'multifunction'=>[
+					'multifunctoin',
+					'multifuncton',
+				],
+				'multifunctional'=>[
+					'multifunctoinal',
+					'multifunctonal',
+				],
 				'multilaterally'=>[
 					'multilateralally',
 					'multilateralaly',
 					'multilateralely',
 					'multilaterallly',
 					'multilateraly',
+				],
+				'multilayered'=>[
+					'multilayerd',
 				],
 				'multilingual'=>[
 					'multilingaul',
@@ -10349,6 +16422,9 @@
 				'multimanned'=>[
 					'multimaned',
 				],
+				'multimedia'=>[
+					'multimedai',
+				],
 				'multimember'=>[
 					'multimber',
 				],
@@ -10361,27 +16437,37 @@
 				'multimillion'=>[
 					'multimilion',
 					'multimilllion',
+					'multimilloin',
+					'multimillon',
 				],
 				'multimillionaire'=>[
 					'multimilionaire',
 					'multimilllionaire',
+					'multimillioniare',
+					'multimilloinaire',
 				],
 				'multimillionaires'=>[
 					'multimilionaires',
 					'multimilllionaires',
+					'multimillioniares',
+					'multimilloinaires',
 				],
 				'multimolecular'=>[
 					'multimoleculer',
 				],
 				'multinational'=>[
 					'multinitional',
+					'multinatoinal',
+					'multinatonal',
 				],
 				'multinationals'=>[
 					'multinitionals',
+					'multinatoinals',
 				],
 				'multinuclear'=>[
 					'multinucleer',
 					'multinucler',
+					'multinuclaer',
 				],
 				'multinucleate'=>[
 					'multinuclete',
@@ -10397,6 +16483,7 @@
 				],
 				'multiparous'=>[
 					'multiperous',
+					'multiparuos',
 				],
 				'multiparticle'=>[
 					'multiperticle',
@@ -10417,13 +16504,29 @@
 				],
 				'multiplication'=>[
 					'mutiplication',
+					'multiplicatoin',
+					'multiplicaton',
+				],
+				'multiplications'=>[
+					'multiplicatoins',
+					'multiplicatons',
+				],
+				'multiplicities'=>[
+					'multipliciteis',
 				],
 				'multiplied'=>[
 					'multiplyed',
+					'multipleid',
 				],
 				'multiplier'=>[
 					'multipleir',
 					'multiplir',
+				],
+				'multipliers'=>[
+					'multipleirs',
+				],
+				'multiplies'=>[
+					'multipleis',
 				],
 				'multiply'=>[
 					'mulitply',
@@ -10453,6 +16556,9 @@
 				'multiprogramming'=>[
 					'multiprogrammming',
 				],
+				'multiracial'=>[
+					'multiracail',
+				],
 				'multireligious'=>[
 					'multireligous',
 				],
@@ -10465,14 +16571,33 @@
 					'mnltitude',
 					'muititude',
 				],
+				'multitudinous'=>[
+					'multitudinuos',
+				],
+				'multitudinously'=>[
+					'multitudinousely',
+					'multitudinuosly',
+				],
+				'multiunit'=>[
+					'multuinit',
+				],
+				'multiuse'=>[
+					'multuise',
+				],
 				'multivalence'=>[
 					'multivalance',
+				],
+				'multivalency'=>[
+					'multivalancy',
 				],
 				'multivalent'=>[
 					'multivalant',
 				],
 				'multivariable'=>[
 					'multivariible',
+				],
+				'multivariate'=>[
+					'multivaraite',
 				],
 				'multivesicular'=>[
 					'multivescicular',
@@ -10485,6 +16610,10 @@
 				],
 				'mumbai'=>[
 					'mumbau',
+				],
+				'mumbled'=>[
+					'mubled',
+					'mumled',
 				],
 				'mumm'=>[
 					# mum: an accepted spelling, not a slip (AmericanBritishWords_M: mom)
@@ -10511,6 +16640,7 @@
 					'mumnery',
 					'mumery',
 					'mummmery',
+					'mummary',
 				],
 				'mummichog'=>[
 					'mumnichog',
@@ -10521,11 +16651,14 @@
 				'mummies'=>[
 					'mumnies',
 					'mummmies',
+					'mummeis',
 				],
 				'mummification'=>[
 					'mumnification',
 					'mumification',
 					'mummmification',
+					'mummificatoin',
+					'mummificaton',
 				],
 				'mummifications'=>[
 					'mumnifications',
@@ -10534,11 +16667,13 @@
 					'mumnified',
 					'mumified',
 					'mummmified',
+					'mummifeid',
 				],
 				'mummifies'=>[
 					'mumnifies',
 					'mumifies',
 					'mummmifies',
+					'mummifeis',
 				],
 				'mummify'=>[
 					'mumnify',
@@ -10581,6 +16716,7 @@
 					'muncipalities',
 					'municipalites',
 					'municipalties',
+					'municipaliteis',
 				],
 				'municipality'=>[
 					'muncipality',
@@ -10593,6 +16729,36 @@
 				],
 				'munificence'=>[
 					'munificance',
+				],
+				'munificent'=>[
+					'munificant',
+				],
+				'munificently'=>[
+					'munificantly',
+					'munificentely',
+				],
+				'muniment'=>[
+					'munimant',
+				],
+				'munition'=>[
+					'munitoin',
+					'muniton',
+				],
+				'munitioned'=>[
+					'munitiond',
+					'munitoined',
+					'munitoned',
+				],
+				'munitioner'=>[
+					'munitoiner',
+				],
+				'munitioning'=>[
+					'munitoining',
+					'munitoning',
+				],
+				'munitions'=>[
+					'munitoins',
+					'munitons',
 				],
 				'muonic'=>[
 					'monic',
@@ -10617,6 +16783,7 @@
 				'murdered'=>[
 					'inurdered',
 					'mnrdered',
+					'murderd',
 				],
 				'murderer'=>[
 					'muderer',
@@ -10633,9 +16800,17 @@
 				'murdering'=>[
 					'mudering',
 				],
+				'murderous'=>[
+					'murderuos',
+				],
+				'murderously'=>[
+					'murderousely',
+					'murderuosly',
+				],
 				'murderousness'=>[
 					'murderousnes',
 					'murderousnesss',
+					'murderuosness',
 				],
 				'murderousnesses'=>[
 					'murderousneses',
@@ -10644,15 +16819,41 @@
 				'murein'=>[
 					'murien',
 				],
+				'muriate'=>[
+					'muraite',
+				],
 				'murine'=>[
 					'murini',
+				],
+				'murkier'=>[
+					'murkeir',
+				],
+				'murkiest'=>[
+					'murkeist',
 				],
 				'murkiness'=>[
 					'murkines',
 					'murkinesss',
 				],
+				'murmuration'=>[
+					'murmuratoin',
+					'murmuraton',
+				],
+				'murmurations'=>[
+					'murmuratoins',
+					'murmuratons',
+				],
+				'murmured'=>[
+					'murmurd',
+				],
+				'murmurous'=>[
+					'murmuruos',
+				],
 				'muropeptide'=>[
 					'meuropeptide',
+				],
+				'murphies'=>[
+					'murpheis',
 				],
 				'murr'=>[
 					'mur',
@@ -10660,6 +16861,7 @@
 				'murrain'=>[
 					'murain',
 					'murrrain',
+					'murrian',
 				],
 				'murray'=>[
 					'murrray',
@@ -10689,10 +16891,34 @@
 				'murry'=>[
 					'mury',
 				],
+				'musaceous'=>[
+					'musaceuos',
+					'musacoeus',
+				],
 				'musca'=>[
 					'muca',
 					'mucsa',
 					'musa',
+				],
+				'muscadel'=>[
+					'mucadel',
+					'musadel',
+				],
+				'muscadels'=>[
+					'mucadels',
+					'musadels',
+				],
+				'muscadine'=>[
+					'mucadine',
+					'musadine',
+				],
+				'muscadines'=>[
+					'mucadines',
+					'musadines',
+				],
+				'muscarine'=>[
+					'mucarine',
+					'musarine',
 				],
 				'muscarinic'=>[
 					'muscarinac',
@@ -10708,6 +16934,13 @@
 					'mucsatel',
 					'musatel',
 				],
+				'muscatels'=>[
+					'mucatels',
+					'musatels',
+				],
+				'muscats'=>[
+					'musats',
+				],
 				'muscid'=>[
 					'mucssid',
 					'mucsid',
@@ -10718,25 +16951,73 @@
 					'mucsle',
 					'musle',
 				],
+				'musclebound'=>[
+					'muclebound',
+					'musclbound',
+					'musclebuond',
+					'muscleound',
+					'muslebound',
+				],
+				'muscled'=>[
+					'mucled',
+					'musled',
+				],
 				'muscleman'=>[
 					'mucleman',
 					'mucsleman',
 					'musleman',
 				],
+				'musclemen'=>[
+					'muclemen',
+					'muslemen',
+				],
 				'muscles'=>[
 					'muscels',
 					'mnscles',
+					'mucles',
+					'musles',
+				],
+				'muscling'=>[
+					'mucling',
+					'musling',
+				],
+				'muscly'=>[
+					'mucly',
+					'musly',
+				],
+				'muscovado'=>[
+					'mucovado',
+					'musovado',
 				],
 				'muscovite'=>[
 					'mucovite',
 					'mucsovite',
 					'musovite',
 				],
+				'muscovites'=>[
+					'mucovites',
+					'musovites',
+				],
+				'muscovy'=>[
+					'mucovy',
+					'musovy',
+				],
 				'muscular'=>[
 					'mucsular',
 					'mucular',
 					'musculer',
 					'musular',
+				],
+				'muscularity'=>[
+					'mucularity',
+					'musculerity',
+					'musularity',
+				],
+				'muscularly'=>[
+					'mucularly',
+					'muscularily',
+					'musculerly',
+					'musularly',
 				],
 				'musculature'=>[
 					'mucsulature',
@@ -10750,6 +17031,9 @@
 					'mucsuloskeletal',
 					'muculoskeletal',
 					'musuloskeletal',
+				],
+				'museology'=>[
+					'musoelogy',
 				],
 				'musette'=>[
 					'musete',
@@ -10765,6 +17049,15 @@
 					'musuem',
 					'musueum',
 				],
+				'museums'=>[
+					'musuems',
+				],
+				'mushier'=>[
+					'musheir',
+				],
+				'mushiest'=>[
+					'musheist',
+				],
 				'mushiness'=>[
 					'mushines',
 					'mushinesss',
@@ -10772,6 +17065,8 @@
 				'mushroom'=>[
 					'mushrom',
 					'mushrooom',
+					'mushoom',
+					'musroom',
 				],
 				'mushroomed'=>[
 					'mushromed',
@@ -10780,10 +17075,14 @@
 				'mushrooming'=>[
 					'mushroming',
 					'mushroooming',
+					'mushooming',
+					'musrooming',
 				],
 				'mushrooms'=>[
 					'mushroms',
 					'mushroooms',
+					'mushooms',
+					'musrooms',
 				],
 				'music'=>[
 					'muisc',
@@ -10853,15 +17152,20 @@
 				'musician'=>[
 					'muiscian',
 					'musican',
+					'musicain',
 				],
 				'musicianly'=>[
 					'muiscianly',
+					'musicainly',
+					'musicianely',
 				],
 				'musicians'=>[
 					'muiscians',
+					'musicains',
 				],
 				'musicianship'=>[
 					'muiscianship',
+					'musicainship',
 				],
 				'musicianships'=>[
 					'muiscianships',
@@ -10913,12 +17217,24 @@
 					'muskei',
 					'muski',
 				],
+				'muskier'=>[
+					'muskeir',
+				],
+				'muskies'=>[
+					'muskeis',
+				],
+				'muskiest'=>[
+					'muskeist',
+				],
 				'muskiness'=>[
 					'muskines',
 					'muskinesss',
 				],
 				'musquash'=>[
 					'musqaush',
+				],
+				'musquashes'=>[
+					'musqaushes',
 				],
 				'muss'=>[
 					'mus',
@@ -10941,10 +17257,12 @@
 				'mussier'=>[
 					'musier',
 					'musssier',
+					'musseir',
 				],
 				'mussiest'=>[
 					'musiest',
 					'musssiest',
+					'musseist',
 				],
 				'mussily'=>[
 					'musily',
@@ -10988,6 +17306,24 @@
 			#	'mustaches'=>[
 			#		'moustaches',
 			#	],
+				'mustache'=>[
+					'musache',
+					'mustche',
+				],
+				'mustaches'=>[
+					'musaches',
+					'mustches',
+				],
+				'mustachio'=>[
+					'mustachoi',
+				],
+				'mustachioed'=>[
+					'mustachieod',
+					'mustachoied',
+				],
+				'mustachios'=>[
+					'mustachois',
+				],
 				'mustee'=>[
 					'musteee',
 				],
@@ -10996,6 +17332,13 @@
 				],
 				'mustered'=>[
 					'muftered',
+					'musterd',
+				],
+				'mustier'=>[
+					'musteir',
+				],
+				'mustiest'=>[
+					'musteist',
 				],
 				'mustiness'=>[
 					'mustines',
@@ -11018,9 +17361,23 @@
 				'mutant'=>[
 					'mutent',
 				],
+				'mutation'=>[
+					'mutatoin',
+					'mutaton',
+				],
+				'mutational'=>[
+					'mutatoinal',
+					'mutatonal',
+				],
 				'mutationally'=>[
 					'mutationallly',
 					'mutationaly',
+					'mutatoinally',
+					'mutatonally',
+				],
+				'mutations'=>[
+					'mutatoins',
+					'mutatons',
 				],
 				'mutedly'=>[
 					'mutedally',
@@ -11035,11 +17392,19 @@
 					'mutenes',
 					'mutenesss',
 				],
+				'muticous'=>[
+					'muticuos',
+				],
 				'mutilate'=>[
 					'mutiliate',
 				],
+				'mutilation'=>[
+					'mutilatoin',
+					'mutilaton',
+				],
 				'mutilations'=>[
 					'mutilatons',
+					'mutilatoins',
 				],
 				'mutineer'=>[
 					'mutineeer',
@@ -11047,6 +17412,19 @@
 				'mutineers'=>[
 					'mutineeers',
 					'mutiners',
+				],
+				'mutinied'=>[
+					'mutineid',
+				],
+				'mutinies'=>[
+					'mutineis',
+				],
+				'mutinous'=>[
+					'mutinuos',
+				],
+				'mutinously'=>[
+					'mutinousely',
+					'mutinuosly',
 				],
 				'mutiny'=>[
 					'mutny',
@@ -11059,6 +17437,7 @@
 				],
 				'muttered'=>[
 					'mutttered',
+					'mutterd',
 				],
 				'mutterer'=>[
 					'muttterer',
@@ -11083,14 +17462,22 @@
 				'muttonchops'=>[
 					'mutonchops',
 					'mutttonchops',
+					'muttochops',
+					'muttonhops',
 				],
 				'muttonhead'=>[
 					'mutonhead',
 					'mutttonhead',
+					'muttohead',
+					'muttonead',
+					'muttonhaed',
 				],
 				'muttonheads'=>[
 					'mutonheads',
 					'mutttonheads',
+					'muttoheads',
+					'muttoneads',
+					'muttonhaeds',
 				],
 				'muttony'=>[
 					'mutony',
@@ -11109,9 +17496,13 @@
 				'mutualist'=>[
 					'mutaulist',
 				],
+				'mutualistic'=>[
+					'mutaulistic',
+				],
 				'mutualistically'=>[
 					'mutualisticallly',
 					'mutualisticaly',
+					'mutaulistically',
 				],
 				'mutuality'=>[
 					'mutaulity',
@@ -11128,6 +17519,7 @@
 				'mutually'=>[
 					'mutualy',
 					'mutuallly',
+					'mutaully',
 				],
 				'mutular'=>[
 					'mutuler',
@@ -11150,10 +17542,12 @@
 				'muzzier'=>[
 					'muzier',
 					'muzzzier',
+					'muzzeir',
 				],
 				'muzziest'=>[
 					'muziest',
 					'muzzziest',
+					'muzzeist',
 				],
 				'muzzily'=>[
 					'muzily',
@@ -11176,10 +17570,14 @@
 				'muzzleloader'=>[
 					'muzleloader',
 					'muzzzleloader',
+					'muzzlelaoder',
 				],
 				'muzzleloading'=>[
 					'muzleloading',
 					'muzzzleloading',
+					'muzzlelaoding',
+					'muzzleoading',
+					'muzzlloading',
 				],
 				'muzzles'=>[
 					'muzles',
@@ -11197,14 +17595,41 @@
 					'my my my',
 					'iiiy',
 				],
+				'myalgia'=>[
+					'myalgai',
+				],
+				'myalgias'=>[
+					'myalgais',
+				],
 				'myall'=>[
 					'myalll',
+				],
+				'myasthenia'=>[
+					'myasthenai',
+				],
+				'mycelia'=>[
+					'mycelai',
+				],
+				'mycelial'=>[
+					'mycelail',
 				],
 				'mycelian'=>[
 					'mycelan',
 				],
+				'mycelium'=>[
+					'myceluim',
+				],
+				'mycetozoan'=>[
+					'mycetozaon',
+				],
+				'mycobacteria'=>[
+					'mycobacterai',
+				],
 				'mycobacterial'=>[
 					'myobacterial',
+				],
+				'mycobacterium'=>[
+					'mycobacteruim',
 				],
 				'mycologically'=>[
 					'mycologicallly',
@@ -11223,6 +17648,12 @@
 				'mycorrhizospheric'=>[
 					'mycorhizospheric',
 				],
+				'mydriasis'=>[
+					'mydraisis',
+				],
+				'mydriatic'=>[
+					'mydraitic',
+				],
 				'myelinated'=>[
 					'myelinited',
 				],
@@ -11239,6 +17670,9 @@
 				'myelogram'=>[
 					'mielogram',
 				],
+				'myeloid'=>[
+					'myeliod',
+				],
 				'myeloma'=>[
 					'myelum',
 				],
@@ -11251,6 +17685,7 @@
 				],
 				'myiasis'=>[
 					'miasis',
+					'myaisis',
 				],
 				'mylar'=>[
 					'myler',
@@ -11263,14 +17698,35 @@
 			#	'mynahs'=>[
 			#		'mynas',
 			#	],
+				'mylohyoid'=>[
+					'mylohyiod',
+				],
 				'myo-wun'=>[
 					'may-woon',
+				],
+				'myocardia'=>[
+					'myocardai',
+				],
+				'myocardial'=>[
+					'myocardail',
+				],
+				'myocardiograph'=>[
+					'myocardoigraph',
+				],
+				'myocardium'=>[
+					'myocarduim',
+				],
+				'myocardiums'=>[
+					'myocarduims',
 				],
 				'myofascial'=>[
 					'myofacial',
 				],
 				'myofibrillar'=>[
 					'myofibriller',
+				],
+				'myopia'=>[
+					'myopai',
 				],
 				'myopiagenic'=>[
 					'myopiogenic',
@@ -11291,9 +17747,30 @@
 				'myotomy'=>[
 					'mysiotomy',
 				],
+				'myotonia'=>[
+					'myotonai',
+				],
+				'myotonias'=>[
+					'myotonais',
+				],
 				'myriad'=>[
 					'miriad',
 					'myraid',
+				],
+				'myriads'=>[
+					'myraids',
+				],
+				'myriagram'=>[
+					'myraigram',
+				],
+				'myriameter'=>[
+					'myraimeter',
+				],
+				'myriapod'=>[
+					'myraipod',
+				],
+				'myriapods'=>[
+					'myraipods',
 				],
 				'myricetin'=>[
 					'myrecetin',
@@ -11307,12 +17784,19 @@
 				'myrmecochory'=>[
 					'mirmecochory',
 				],
+				'myrmecophagous'=>[
+					'myrmecophaguos',
+				],
 				'myrmecophilous'=>[
 					'mymecophilous',
 				],
 				'myrrh'=>[
 					'myrh',
 					'myrrrh',
+				],
+				'myrtaceous'=>[
+					'myrtaceuos',
+					'myrtacoeus',
 				],
 				'myself'=>[
 					'mysef',
@@ -11322,8 +17806,13 @@
 					'niyself',
 					'rnyself',
 				],
+				'mystagogue'=>[
+					'mystagogeu',
+				],
 				'mysteries'=>[
 					'myfteries',
+					'mystaries',
+					'mystereis',
 				],
 				'mysterious'=>[
 					'misterious',
@@ -11331,14 +17820,22 @@
 					'mysterous',
 					'mystenous',
 					'mysterions',
+					'mysteriuos',
+					'mysteroius',
 				],
 				'mysteriously'=>[
 					'mysterously',
 					'mystenously',
+					'mysteriousely',
+					'mysteriuosly',
+					'mysteroiusly',
 				],
 				'mysteriousness'=>[
 					'mysteriousnes',
 					'mysteriousnesss',
+					'mysteriuosness',
+					'mysteroiusness',
+					'mysterousness',
 				],
 				'mystery'=>[
 					'mistery',
@@ -11355,6 +17852,19 @@
 					'mysticalnes',
 					'mysticalnesss',
 				],
+				'mystification'=>[
+					'mystificatoin',
+					'mystificaton',
+				],
+				'mystified'=>[
+					'mystifeid',
+				],
+				'mystifies'=>[
+					'mystifeis',
+				],
+				'mystique'=>[
+					'mystiqeu',
+				],
 				'mystère'=>[
 					'mystere',
 				],
@@ -11362,9 +17872,34 @@
 					'mythicallly',
 					'mythicaly',
 				],
+				'mythmaker'=>[
+					'mythaker',
+					'mytmaker',
+				],
+				'mythmaking'=>[
+					'mythaking',
+					'mytmaking',
+				],
 				'mythologically'=>[
 					'mythologicallly',
 					'mythologicaly',
+				],
+				'mythologies'=>[
+					'mythologeis',
+				],
+				'mythomania'=>[
+					'mythomanai',
+				],
+				'mythomaniac'=>[
+					'mythomanaic',
+				],
+				'mythopeic'=>[
+					'mythopiec',
+				],
+				'mythopoeia'=>[
+					'mythopeoia',
+					'mythopoeai',
+					'mythopoiea',
 				],
 				'mythopoeic'=>[
 					'mythopoiec',

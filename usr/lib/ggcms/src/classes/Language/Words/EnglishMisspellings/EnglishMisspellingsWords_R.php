@@ -65,6 +65,8 @@
 					'rabbinite',
 					'rabinate',
 					'rabbbinate',
+					'rabbiate',
+					'rabbnate',
 				],
 				'rabbinates'=>[
 					'rabbinites',
@@ -117,10 +119,12 @@
 				'rabbitfish'=>[
 					'rabbbitfish',
 					'rabitfish',
+					'rabbifish',
 				],
 				'rabbiting'=>[
 					'rabiting',
 					'rabbbiting',
+					'rabbting',
 				],
 				'rabbitries'=>[
 					'rabitries',
@@ -140,6 +144,7 @@
 				'rabblement'=>[
 					'rablement',
 					'rabbblement',
+					'rabblemant',
 				],
 				'rabblements'=>[
 					'rablements',
@@ -184,9 +189,78 @@
 					'race race',
 					'race race race',
 				],
+				'racecourse'=>[
+					'raccourse',
+					'racecuorse',
+					'raceourse',
+				],
+				'racecourses'=>[
+					'raccourses',
+					'racecuorses',
+					'raceourses',
+				],
+				'racegoer'=>[
+					'racegeor',
+				],
+				'racegoers'=>[
+					'racegeors',
+				],
+				'racehorse'=>[
+					'raceorse',
+					'rachorse',
+				],
+				'racehorses'=>[
+					'raceorses',
+					'rachorses',
+				],
+				'racetrack'=>[
+					'racerack',
+					'ractrack',
+				],
+				'racetracks'=>[
+					'raceracks',
+					'ractracks',
+				],
+				'raceways'=>[
+					'raceays',
+					'racways',
+				],
+				'racial'=>[
+					'racail',
+				],
+				'racialism'=>[
+					'racailism',
+				],
+				'racialist'=>[
+					'racailist',
+				],
+				'racialistic'=>[
+					'racailistic',
+				],
+				'racialists'=>[
+					'racailists',
+				],
+				'racialization'=>[
+					'racailization',
+					'racializatoin',
+					'racializaton',
+				],
+				'racialize'=>[
+					'racailize',
+				],
 				'racially'=>[
 					'raciallly',
 					'racialy',
+					'racailly',
+				],
+				'racier'=>[
+					'raceir',
+				],
+				'raciest'=>[
+					'raceist',
+				],
+				'racily'=>[
+					'racly',
 				],
 				'raciness'=>[
 					'racinesss',
@@ -194,12 +268,15 @@
 				'racketball'=>[
 					'racketbal',
 					'racketballl',
+					'rackeball',
+					'racketall',
 				],
 				'racketeer'=>[
 					'racketeeer',
 				],
 				'racketeered'=>[
 					'racketeeered',
+					'racketeerd',
 				],
 				'racketeering'=>[
 					'racketeeering',
@@ -207,8 +284,21 @@
 				'racketeers'=>[
 					'racketeeers',
 				],
+				'racketier'=>[
+					'racketeir',
+				],
+				'racketiest'=>[
+					'racketeist',
+				],
 				'raconteur'=>[
 					'raconter',
+					'racontuer',
+				],
+				'raconteurs'=>[
+					'racontuers',
+				],
+				'raconteuse'=>[
+					'racontuese',
 				],
 				'racoon'=>[
 					'racooon',
@@ -218,18 +308,33 @@
 				],
 				'racquet'=>[
 					'raquet',
+					'racqeut',
 				],
 				'racquetball'=>[
 					'racquetbal',
 					'raquetball',
 					'racquetballl',
+					'racqeutball',
 				],
 				'racquetballs'=>[
 					'racquetballls',
 					'racquetbals',
+					'racqeutballs',
+				],
+				'racquets'=>[
+					'racqeuts',
 				],
 				'radar'=>[
 					'rader',
+				],
+				'radarscope'=>[
+					'radarcope',
+					'radarsope',
+					'radascope',
+				],
+				'radarscopes'=>[
+					'radarcopes',
+					'radarsopes',
 				],
 				'raddle'=>[
 					'radddle',
@@ -243,31 +348,97 @@
 				'raddling'=>[
 					'radddling',
 				],
+				'radial'=>[
+					'radail',
+				],
 				'radially'=>[
 					'radiallly',
 					'radialy',
+					'radailly',
+				],
+				'radials'=>[
+					'radails',
 				],
 				'radian'=>[
 					'radan',
+					'radain',
 				],
 				'radiance'=>[
 					'radience',
+					'radaince',
+				],
+				'radiancies'=>[
+					'radaincies',
+					'radianceis',
+					'radiencies',
 				],
 				'radiancy'=>[
 					'radiansy',
+					'radaincy',
+					'radiency',
+				],
+				'radians'=>[
+					'radains',
 				],
 				'radiant'=>[
 					'radient',
+					'radaint',
+				],
+				'radiantly'=>[
+					'radaintly',
+					'radiantely',
+					'radiently',
+				],
+				'radiate'=>[
+					'radaite',
+				],
+				'radiated'=>[
+					'radaited',
 				],
 				'radiately'=>[
 					'radiatly',
 				],
+				'radiates'=>[
+					'radaites',
+				],
 				'radiating'=>[
 					'racliating',
+					'radaiting',
+				],
+				'radiation'=>[
+					'radaition',
+					'radiatoin',
+					'radiaton',
+				],
+				'radiational'=>[
+					'radaitional',
+					'radiatoinal',
+					'radiatonal',
 				],
 				'radiationally'=>[
 					'radiationallly',
 					'radiationaly',
+					'radaitionally',
+					'radiatoinally',
+					'radiatonally',
+				],
+				'radiations'=>[
+					'radaitions',
+					'radiatoins',
+					'radiatons',
+				],
+				'radiative'=>[
+					'radaitive',
+				],
+				'radiator'=>[
+					'radaitor',
+				],
+				'radiators'=>[
+					'radaitors',
+				],
+				'radicalization'=>[
+					'radicalizatoin',
+					'radicalizaton',
 				],
 				'radically'=>[
 					'radicallly',
@@ -280,6 +451,7 @@
 				'radicchio'=>[
 					'radichio',
 					'radiccchio',
+					'radicchoi',
 				],
 				'radicular'=>[
 					'radiculer',
@@ -291,9 +463,54 @@
 					'radio radio',
 					'radio radio radio',
 					'raclio',
+					'radoi',
+				],
+				'radioactivate'=>[
+					'radiactivate',
+					'radiaoctivate',
+					'radioctivate',
+					'radoiactivate',
+				],
+				'radioactive'=>[
+					'radiactive',
+					'radiaoctive',
+					'radioctive',
+					'radoiactive',
 				],
 				'radioactively'=>[
 					'radioactivly',
+					'radiactively',
+					'radiaoctively',
+					'radioctively',
+					'radoiactively',
+				],
+				'radioactivity'=>[
+					'radiactivity',
+					'radiaoctivity',
+					'radioctivity',
+					'radoiactivity',
+				],
+				'radiobiology'=>[
+					'radibiology',
+					'radioboilogy',
+					'radioiology',
+					'radoibiology',
+				],
+				'radiobroadcast'=>[
+					'radibroadcast',
+					'radiobraodcast',
+					'radioroadcast',
+					'radoibroadcast',
+				],
+				'radiocarbon'=>[
+					'radicarbon',
+					'radioarbon',
+					'radoicarbon',
+				],
+				'radiochemical'=>[
+					'radichemical',
+					'radiohemical',
+					'radoichemical',
 				],
 				'radiochemically'=>[
 					'radiochemicalally',
@@ -301,36 +518,326 @@
 					'radiochemicalely',
 					'radiochemicallly',
 				],
+				'radiochemistry'=>[
+					'radichemistry',
+					'radiohemistry',
+					'radoichemistry',
+				],
 				'radiocommunication'=>[
 					'radiocommmunication',
 					'radiocomunication',
+					'radicommunication',
+					'radiocommunicatoin',
+					'radiocommunicaton',
+					'radioommunication',
+					'radoicommunication',
+				],
+				'radioed'=>[
+					'radieod',
+					'radoied',
+				],
+				'radioelement'=>[
+					'radielement',
+					'radieolement',
+					'radioelemant',
+					'radiolement',
+					'radoielement',
+				],
+				'radiogalaxies'=>[
+					'radigalaxies',
+					'radioalaxies',
+					'radiogalaxeis',
+					'radoigalaxies',
+				],
+				'radiogalaxy'=>[
+					'radigalaxy',
+					'radioalaxy',
+					'radoigalaxy',
+				],
+				'radiogram'=>[
+					'radigram',
+					'radioram',
+					'radoigram',
+				],
+				'radiograms'=>[
+					'radigrams',
+					'radiorams',
+					'radoigrams',
+				],
+				'radiograph'=>[
+					'radigraph',
+					'radioraph',
+					'radoigraph',
+				],
+				'radiographer'=>[
+					'radoigrapher',
+				],
+				'radiographers'=>[
+					'radoigraphers',
+				],
+				'radiographic'=>[
+					'radigraphic',
+					'radioraphic',
+					'radoigraphic',
 				],
 				'radiographically'=>[
 					'radiographicallly',
 					'radiographicaly',
+					'radoigraphically',
+				],
+				'radiographs'=>[
+					'radoigraphs',
+				],
+				'radiography'=>[
+					'radoigraphy',
 				],
 				'radioimmunosorbent'=>[
 					'radioimmunosorbant',
 				],
+				'radioing'=>[
+					'radiiong',
+					'radoiing',
+				],
 				'radioiodinated'=>[
 					'radioiodonated',
 				],
+				'radioisotope'=>[
+					'radiiosotope',
+					'radiisotope',
+					'radiosotope',
+					'radoiisotope',
+				],
+				'radioisotopes'=>[
+					'radiiosotopes',
+					'radoiisotopes',
+				],
 				'radiolarian'=>[
 					'radiolaran',
+					'radiolarain',
+					'radoilarian',
+				],
+				'radiolarians'=>[
+					'radiolarains',
+					'radoilarians',
+				],
+				'radiolocation'=>[
+					'radilocation',
+					'radiolocatoin',
+					'radiolocaton',
+					'radioocation',
+					'radoilocation',
+				],
+				'radiolocations'=>[
+					'radilocations',
+					'radiolocatoins',
+					'radiolocatons',
+					'radioocations',
+					'radoilocations',
+				],
+				'radiologic'=>[
+					'radilogic',
+					'radioogic',
+					'radoilogic',
+				],
+				'radiological'=>[
+					'radilogical',
+					'radioogical',
+					'radoilogical',
 				],
 				'radiologically'=>[
 					'radiologicallly',
 					'radiologicaly',
+					'radoilogically',
+				],
+				'radiologist'=>[
+					'radoilogist',
+				],
+				'radiologists'=>[
+					'radoilogists',
+				],
+				'radiology'=>[
+					'radoilogy',
 				],
 				'radiolucency'=>[
 					'radiolucensy',
 				],
+				'radiolucent'=>[
+					'radiolucant',
+					'radoilucent',
+				],
+				'radioluminescence'=>[
+					'radioluminecence',
+					'radioluminescance',
+					'radioluminesence',
+					'radoiluminescence',
+				],
+				'radioman'=>[
+					'radoiman',
+				],
+				'radiomen'=>[
+					'radoimen',
+				],
+				'radiometeorograph'=>[
+					'radiometoerograph',
+					'radoimeteorograph',
+				],
+				'radiometer'=>[
+					'radimeter',
+					'radioeter',
+					'radoimeter',
+				],
+				'radiometers'=>[
+					'radimeters',
+					'radioeters',
+					'radoimeters',
+				],
 				'radiometric'=>[
 					'radiomeric',
+					'radimetric',
+					'radioetric',
+					'radoimetric',
 				],
 				'radiometrically'=>[
 					'radiometricallly',
 					'radiometricaly',
+					'radoimetrically',
+				],
+				'radiometry'=>[
+					'radoimetry',
+				],
+				'radiomicrometer'=>[
+					'radoimicrometer',
+				],
+				'radionuclide'=>[
+					'radoinuclide',
+				],
+				'radiopacity'=>[
+					'radoipacity',
+				],
+				'radiopaque'=>[
+					'radiopaqeu',
+					'radoipaque',
+				],
+				'radiophone'=>[
+					'radiohone',
+					'radiphone',
+					'radoiphone',
+				],
+				'radiophones'=>[
+					'radiohones',
+					'radiphones',
+					'radoiphones',
+				],
+				'radiophonic'=>[
+					'radoiphonic',
+				],
+				'radiophotograph'=>[
+					'radiohotograph',
+					'radiphotograph',
+					'radoiphotograph',
+				],
+				'radios'=>[
+					'radois',
+				],
+				'radioscope'=>[
+					'radiocope',
+					'radiosope',
+					'radiscope',
+					'radoiscope',
+				],
+				'radioscopic'=>[
+					'radiocopic',
+					'radiosopic',
+					'radoiscopic',
+				],
+				'radioscopy'=>[
+					'radiocopy',
+					'radiosopy',
+					'radoiscopy',
+				],
+				'radiosensitive'=>[
+					'radioensitive',
+					'radisensitive',
+					'radoisensitive',
+				],
+				'radiosonde'=>[
+					'radoisonde',
+				],
+				'radiosondes'=>[
+					'radoisondes',
+				],
+				'radiosurgery'=>[
+					'radiosurgary',
+					'radiourgery',
+					'radisurgery',
+					'radoisurgery',
+				],
+				'radiotelegram'=>[
+					'radioelegram',
+					'raditelegram',
+					'radoitelegram',
+				],
+				'radiotelegraph'=>[
+					'radioelegraph',
+					'raditelegraph',
+					'radoitelegraph',
+				],
+				'radiotelegraphic'=>[
+					'radoitelegraphic',
+				],
+				'radiotelegraphs'=>[
+					'radoitelegraphs',
+				],
+				'radiotelegraphy'=>[
+					'radoitelegraphy',
+				],
+				'radiotelephone'=>[
+					'radioelephone',
+					'raditelephone',
+					'radoitelephone',
+				],
+				'radiotelephones'=>[
+					'radioelephones',
+					'raditelephones',
+					'radoitelephones',
+				],
+				'radiotelephonic'=>[
+					'radoitelephonic',
+				],
+				'radiotelephony'=>[
+					'radoitelephony',
+				],
+				'radiotherapist'=>[
+					'radioherapist',
+					'raditherapist',
+					'radoitherapist',
+				],
+				'radiotherapists'=>[
+					'radoitherapists',
+				],
+				'radiotherapy'=>[
+					'radioherapy',
+					'raditherapy',
+					'radoitherapy',
+				],
+				'radiothorium'=>[
+					'radiothoruim',
+					'radoithorium',
+				],
+				'radiotransparent'=>[
+					'radioransparent',
+					'radiotransparant',
+					'raditransparent',
+					'radoitransparent',
+				],
+				'radium'=>[
+					'raduim',
+				],
+				'radius'=>[
+					'raduis',
+				],
+				'radiuses'=>[
+					'raduises',
 				],
 				'radular'=>[
 					'raduler',
@@ -340,6 +847,7 @@
 				],
 				'raffia'=>[
 					'rafffia',
+					'raffai',
 				],
 				'raffinate'=>[
 					'raffinite',
@@ -386,6 +894,7 @@
 				'rafflesia'=>[
 					'raffflesia',
 					'raflesia',
+					'rafflesai',
 				],
 				'raffling'=>[
 					'rafffling',
@@ -418,10 +927,12 @@
 				'raggedier'=>[
 					'ragedier',
 					'ragggedier',
+					'raggedeir',
 				],
 				'raggediest'=>[
 					'ragediest',
 					'ragggediest',
+					'raggedeist',
 				],
 				'raggedly'=>[
 					'ragedly',
@@ -464,9 +975,27 @@
 				'raggy'=>[
 					'ragy',
 				],
+				'ragout'=>[
+					'raguot',
+				],
+				'ragouts'=>[
+					'raguots',
+					'raguts',
+					'raouts',
+				],
+				'ragtags'=>[
+					'ragags',
+				],
+				'ragtime'=>[
+					'ragime',
+					'ratime',
+				],
 				'ragweed'=>[
 					'ragwed',
 					'ragweeed',
+				],
+				'raiders'=>[
+					'riaders',
 				],
 				'raidió éireann'=>[
 					'radio éireann',
@@ -478,37 +1007,173 @@
 				'railcar'=>[
 					'railcer',
 				],
+				'railcard'=>[
+					'raicard',
+					'railard',
+					'rialcard',
+				],
+				'railcards'=>[
+					'raicards',
+					'railards',
+					'rialcards',
+				],
+				'railhead'=>[
+					'raihead',
+					'railead',
+					'railhaed',
+					'rialhead',
+				],
+				'railheads'=>[
+					'raiheads',
+					'raileads',
+					'railhaeds',
+					'rialheads',
+				],
+				'railings'=>[
+					'rialings',
+				],
 				'railleries'=>[
 					'raileries',
 					'raillleries',
+					'raillaries',
+					'raillereis',
+					'rialleries',
 				],
 				'raillery'=>[
 					'railery',
 					'railllery',
+					'raillary',
+					'riallery',
 				],
 				'railroad'=>[
 					'rail road',
+					'raiload',
+					'railraod',
+					'rairoad',
+					'rialroad',
+				],
+				'railroaded'=>[
+					'railraoded',
+					'rialroaded',
+				],
+				'railroader'=>[
+					'railraoder',
+					'rialroader',
+				],
+				'railroaders'=>[
+					'railraoders',
+					'rialroaders',
+				],
+				'railroading'=>[
+					'railraoding',
+					'rialroading',
+				],
+				'railroads'=>[
+					'railoads',
+					'railraods',
+					'rairoads',
+					'rialroads',
 				],
 				'railway'=>[
 					'railwaye',
+					'rialway',
+				],
+				'railwayman'=>[
+					'rialwayman',
+				],
+				'railwaymen'=>[
+					'rialwaymen',
+				],
+				'railways'=>[
+					'railays',
+					'raiways',
+					'rialways',
 				],
 				'raiment'=>[
 					'raimant',
+					'riament',
 				],
 				'rain'=>[
 					'rain rain',
 					'rain rain rain',
 				],
+				'rainband'=>[
+					'raiband',
+					'rainand',
+					'rianband',
+				],
+				'rainbow'=>[
+					'rianbow',
+				],
+				'rainbows'=>[
+					'rianbows',
+				],
+				'raincloud'=>[
+					'raicloud',
+					'raincluod',
+					'rainloud',
+					'riancloud',
+				],
+				'rainclouds'=>[
+					'raiclouds',
+					'raincluods',
+					'rainlouds',
+					'rianclouds',
+				],
+				'raincoat'=>[
+					'raicoat',
+					'raincaot',
+					'rainoat',
+					'riancoat',
+				],
+				'raincoats'=>[
+					'raicoats',
+					'raincaots',
+					'rainoats',
+					'riancoats',
+				],
+				'raindrop'=>[
+					'raidrop',
+					'rainrop',
+					'riandrop',
+				],
+				'raindrops'=>[
+					'raidrops',
+					'rainrops',
+					'riandrops',
+				],
 				'rainfall'=>[
 					'rainfal',
 					'rainfalll',
+					'raifall',
+					'rainall',
+					'rianfall',
 				],
 				'rainfalls'=>[
 					'rainfallls',
 					'rainfals',
+					'raifalls',
+					'rainalls',
+					'rianfalls',
+				],
+				'rainforest'=>[
+					'raiforest',
+					'rainorest',
+					'rianforest',
+				],
+				'rainforests'=>[
+					'raiforests',
+					'rainorests',
+					'rianforests',
 				],
 				'rainier'=>[
 					'rainaer',
+					'raineir',
+					'rianier',
+				],
+				'rainiest'=>[
+					'raineist',
+					'rianiest',
 				],
 				'rainily'=>[
 					'rainaly',
@@ -516,6 +1181,7 @@
 				'raininess'=>[
 					'rainines',
 					'raininesss',
+					'rianiness',
 				],
 				'raining'=>[
 					'rainang',
@@ -523,26 +1189,37 @@
 				'rainless'=>[
 					'rainles',
 					'rainlesss',
+					'rianless',
 				],
 				'rainmaker'=>[
 					'raimaker',
 					'rainaker',
+					'rianmaker',
 				],
 				'rainmakers'=>[
 					'raimakers',
 					'rainakers',
+					'rianmakers',
 				],
 				'rainmaking'=>[
 					'raimaking',
 					'rainaking',
+					'rianmaking',
 				],
 				'rainmakings'=>[
 					'raimakings',
 					'rainakings',
 				],
+				'rainout'=>[
+					'rainuot',
+					'rianout',
+				],
 				'rainproof'=>[
 					'rainprof',
 					'rainprooof',
+					'rainroof',
+					'raiproof',
+					'rianproof',
 				],
 				'rainsquall'=>[
 					'rainsqaull',
@@ -550,8 +1227,26 @@
 				'rainsqualls'=>[
 					'rainsqaulls',
 				],
+				'rainstorm'=>[
+					'raintorm',
+					'raistorm',
+					'rianstorm',
+				],
+				'rainstorms'=>[
+					'raintorms',
+					'raistorms',
+					'rianstorms',
+				],
+				'rainwater'=>[
+					'rainater',
+					'raiwater',
+					'rianwater',
+				],
 				'rainwear'=>[
 					'rainweer',
+				],
+				'rainy'=>[
+					'riany',
 				],
 				'raisable'=>[
 					'raisible',
@@ -561,6 +1256,7 @@
 					'raise raise raise',
 					'raife',
 					'raisc',
+					'riase',
 				],
 				'raised'=>[
 					'rasied',
@@ -576,15 +1272,29 @@
 			#	'rajahs'=>[
 			#		'rajas',
 			#	],
+				'raisers'=>[
+					'riasers',
+				],
 				'raises'=>[
 					'raifes',
+				],
+				'raisin'=>[
+					'riasin',
 				],
 				'raising'=>[
 					'raifing',
 				],
+				'raisings'=>[
+					'riasings',
+				],
+				'raisins'=>[
+					'riasins',
+				],
 				'rakehell'=>[
 					'rakehel',
 					'rakehelll',
+					'rakeell',
+					'rakhell',
 				],
 				'rakishness'=>[
 					'rakishnes',
@@ -597,14 +1307,17 @@
 				'rallied'=>[
 					'ralied',
 					'ralllied',
+					'ralleid',
 				],
 				'rallier'=>[
 					'ralier',
 					'ralllier',
+					'ralleir',
 				],
 				'rallies'=>[
 					'ralies',
 					'ralllies',
+					'ralleis',
 				],
 				'ralline'=>[
 					'raline',
@@ -624,8 +1337,13 @@
 				'raloxifene'=>[
 					'reloxifene',
 				],
+				'rambled'=>[
+					'rabled',
+				],
 				'rambunctious'=>[
 					'rambunctous',
+					'rambunctiuos',
+					'rambunctoius',
 				],
 				'rambunctiously'=>[
 					'rambunctiousally',
@@ -633,10 +1351,21 @@
 					'rambunctiousely',
 					'rambunctiouslly',
 					'rambunctously',
+					'rambunctiuosly',
+					'rambunctoiusly',
 				],
 				'rambunctiousness'=>[
 					'rambunctiousnes',
 					'rambunctiousnesss',
+					'rambunctiuosness',
+					'rambunctoiusness',
+					'rambunctousness',
+				],
+				'ramequin'=>[
+					'rameqiun',
+				],
+				'ramequins'=>[
+					'rameqiuns',
 				],
 				'ramie'=>[
 					'ramei',
@@ -644,6 +1373,21 @@
 				],
 				'ramification'=>[
 					'ramnification',
+					'ramificatoin',
+					'ramificaton',
+				],
+				'ramifications'=>[
+					'ramificatoins',
+					'ramificatons',
+				],
+				'ramified'=>[
+					'ramifeid',
+				],
+				'ramifies'=>[
+					'ramifeis',
+				],
+				'ramjets'=>[
+					'rajets',
 				],
 				'rammed'=>[
 					'ramned',
@@ -675,14 +1419,49 @@
 				'ramosely'=>[
 					'ramosly',
 				],
+				'rampage'=>[
+					'rapage',
+				],
+				'rampaged'=>[
+					'rampged',
+					'rapaged',
+				],
+				'rampageous'=>[
+					'rampageuos',
+					'rampagoeus',
+				],
+				'rampager'=>[
+					'rapager',
+				],
+				'rampages'=>[
+					'rapages',
+				],
+				'rampaging'=>[
+					'rampging',
+					'rapaging',
+				],
 				'rampancy'=>[
 					'rampansy',
+					'rampency',
 				],
 				'rampant'=>[
 					'rampent',
+					'ramant',
+					'rapant',
+				],
+				'rampantly'=>[
+					'rampantely',
+					'rampently',
 				],
 				'rampart'=>[
 					'rampert',
+					'ramart',
+					'rapart',
+				],
+				'ramparts'=>[
+					'ramarts',
+					'ramprts',
+					'raparts',
 				],
 				'ramphastid'=>[
 					'rhamphastid',
@@ -692,6 +1471,10 @@
 				],
 				'ramrodding'=>[
 					'ramroddding',
+				],
+				'ramrods'=>[
+					'ramods',
+					'rarods',
 				],
 				'ran'=>[
 					'ran ran',
@@ -703,9 +1486,29 @@
 				'rance'=>[
 					'rence',
 				],
+				'rancheria'=>[
+					'rancherai',
+				],
 				'rancidness'=>[
 					'rancidnes',
 					'rancidnesss',
+				],
+				'rancorous'=>[
+					'rancoruos',
+				],
+				'rancorously'=>[
+					'rancorousely',
+					'rancoruosly',
+				],
+				'randier'=>[
+					'randeir',
+				],
+				'randiest'=>[
+					'randeist',
+				],
+				'randomization'=>[
+					'randomizatoin',
+					'randomizaton',
 				],
 				'randomly'=>[
 					'randomally',
@@ -724,6 +1527,16 @@
 					'range range',
 					'range range range',
 				],
+				'rangefinders'=>[
+					'rangeinders',
+					'rangfinders',
+				],
+				'rangier'=>[
+					'rangeir',
+				],
+				'rangiest'=>[
+					'rangeist',
+				],
 				'ranginess'=>[
 					'rangines',
 					'ranginesss',
@@ -731,10 +1544,27 @@
 				'rangoon'=>[
 					'rangon',
 					'rangooon',
+					'ragoon',
+					'ranoon',
+				],
+				'rankings'=>[
+					'ranings',
 				],
 				'rankness'=>[
 					'ranknes',
 					'ranknesss',
+				],
+				'ransack'=>[
+					'ranack',
+					'rasack',
+				],
+				'ransacked'=>[
+					'ranacked',
+					'rasacked',
+				],
+				'ransacks'=>[
+					'ranacks',
+					'rasacks',
 				],
 				'ransom'=>[
 					'ranfom',
@@ -752,8 +1582,14 @@
 				'ranular'=>[
 					'ranuler',
 				],
+				'ranunculaceous'=>[
+					'ranunculaceuos',
+					'ranunculacoeus',
+				],
 				'rapacious'=>[
 					'rapacous',
+					'rapaciuos',
+					'rapacoius',
 				],
 				'rapaciously'=>[
 					'rapaciousally',
@@ -761,16 +1597,22 @@
 					'rapaciousely',
 					'rapaciouslly',
 					'rapacously',
+					'rapaciuosly',
+					'rapacoiusly',
 				],
 				'rapaciousness'=>[
 					'rapaciousnes',
 					'rapaciousnesss',
+					'rapaciuosness',
+					'rapacoiusness',
+					'rapacousness',
 				],
 				'rapamycin'=>[
 					'rapamycine',
 				],
 				'rapeseed'=>[
 					'rapeseeed',
+					'rapseed',
 				],
 				'rapidly'=>[
 					'rapidally',
@@ -788,6 +1630,9 @@
 				'rapier'=>[
 					'rapeir',
 					'rapir',
+				],
+				'rapiers'=>[
+					'rapeirs',
 				],
 				'rapine'=>[
 					'rapini',
@@ -866,10 +1711,12 @@
 					'raporteur',
 					'rapporter',
 					'rappporteur',
+					'rapportuer',
 				],
 				'rapporteurs'=>[
 					'raporteurs',
 					'rappporteurs',
+					'rapportuers',
 				],
 				'rapports'=>[
 					'raports',
@@ -883,6 +1730,7 @@
 				'rapprochements'=>[
 					'raprochements',
 					'rappprochements',
+					'rapprochemants',
 				],
 				'rapscallion'=>[
 					'rapcallion',
@@ -890,22 +1738,64 @@
 					'rapsallion',
 					'rapscalion',
 					'rapscalllion',
+					'rapscalloin',
+					'rapscallon',
 				],
 				'rapscallions'=>[
 					'rapscalions',
 					'rapscalllions',
+					'rapcallions',
+					'rapsallions',
+					'rapscalloins',
+					'rapscallons',
+				],
+				'raptly'=>[
+					'raptely',
 				],
 				'raptness'=>[
 					'raptnes',
 					'raptnesss',
 				],
+				'raptorial'=>[
+					'raptorail',
+				],
 				'raptorially'=>[
 					'raptoriallly',
 					'raptorialy',
+					'raptorailly',
+				],
+				'rapturous'=>[
+					'rapturuos',
+				],
+				'rapturously'=>[
+					'rapturousely',
+					'rapturuosly',
+				],
+				'rarebits'=>[
+					'rarbits',
+					'rareits',
+				],
+				'rarefaction'=>[
+					'rareaction',
+					'rarefactoin',
+					'rarefacton',
+					'rarfaction',
+				],
+				'rarefactions'=>[
+					'rareactions',
+					'rarefactoins',
+					'rarefactons',
+					'rarfactions',
+				],
+				'rarefiable'=>[
+					'rarefaible',
 				],
 				'rarefied'=>[
 					'rarefeid',
 					'rarefid',
+				],
+				'rarefies'=>[
+					'rarefeis',
 				],
 				'rarely'=>[
 					'rareally',
@@ -924,14 +1814,35 @@
 					'rarifeid',
 					'rarifid',
 				],
+				'rarifies'=>[
+					'rarifeis',
+				],
+				'rarities'=>[
+					'rariteis',
+				],
 				'rascal'=>[
 					'racal',
 					'racsal',
 					'rasal',
 				],
+				'rascalities'=>[
+					'racalities',
+					'rasalities',
+					'rascaliteis',
+				],
+				'rascality'=>[
+					'racality',
+					'rasality',
+				],
 				'rascally'=>[
 					'rascallly',
 					'rascaly',
+					'racally',
+					'rasally',
+				],
+				'rascals'=>[
+					'racals',
+					'rasals',
 				],
 				'rash'=>[
 					'rasli',
@@ -940,14 +1851,24 @@
 					'rashnes',
 					'rashnesss',
 				],
+				'rasorial'=>[
+					'rasorail',
+				],
 				'raspberries'=>[
 					'raspberies',
 					'raspberrries',
+					'raspberreis',
 				],
 				'raspberry'=>[
 					'rasberry',
 					'raspbery',
 					'raspberrry',
+				],
+				'raspier'=>[
+					'raspeir',
+				],
+				'raspiest'=>[
+					'raspeist',
 				],
 				'raspiness'=>[
 					'raspines',
@@ -959,15 +1880,27 @@
 				'ratable'=>[
 					'ratible',
 				],
+				'ratafia'=>[
+					'ratafai',
+				],
+				'ratafias'=>[
+					'ratafais',
+				],
 				'ratatouille'=>[
 					'ratatouile',
 					'ratatouillle',
+					'ratatoiulle',
+					'ratatuoille',
+				],
+				'ratbags'=>[
+					'rabags',
 				],
 				'ratcheting'=>[
 					'racheting',
 				],
 				'rateable'=>[
 					'rateible',
+					'rataeble',
 				],
 				'rather'=>[
 					'rather rather',
@@ -990,60 +1923,172 @@
 					'rathskelers',
 					'rathskelllers',
 				],
+				'ratifiable'=>[
+					'ratifaible',
+				],
+				'ratification'=>[
+					'ratificatoin',
+					'ratificaton',
+				],
+				'ratifications'=>[
+					'ratificatoins',
+					'ratificatons',
+				],
+				'ratified'=>[
+					'ratifeid',
+				],
+				'ratifier'=>[
+					'ratifeir',
+				],
+				'ratifiers'=>[
+					'ratifeirs',
+				],
+				'ratifies'=>[
+					'ratifeis',
+				],
 				'ratine'=>[
 					'ratini',
 				],
+				'ratio'=>[
+					'ratoi',
+				],
 				'ratiocinate'=>[
 					'ratiocinite',
+					'ratoicinate',
 				],
 				'ratiocinated'=>[
 					'ratiocinited',
+					'ratoicinated',
 				],
 				'ratiocinates'=>[
 					'ratiocinites',
+					'ratoicinates',
 				],
 				'ratiocinating'=>[
 					'ratiociniting',
+					'ratoicinating',
 				],
 				'ratiocination'=>[
 					'ratiocinition',
+					'ratiocinatoin',
+					'ratiocinaton',
+					'ratoicination',
 				],
 				'ratiocinations'=>[
 					'ratiocinitions',
 				],
 				'ratiocinative'=>[
 					'ratiocinitive',
+					'ratoicinative',
 				],
 				'ratiocinator'=>[
 					'ratiocinitor',
+					'ratoicinator',
 				],
 				'ratiocinators'=>[
 					'ratiocinitors',
+					'ratoicinators',
 				],
 				'ratiometric'=>[
 					'ratiomeric',
 				],
 				'ration'=>[
 					'ratioii',
+					'ratoin',
+				],
+				'rational'=>[
+					'ratoinal',
+					'ratonal',
+				],
+				'rationale'=>[
+					'ratoinale',
+				],
+				'rationales'=>[
+					'ratoinales',
+				],
+				'rationalism'=>[
+					'ratoinalism',
+				],
+				'rationalist'=>[
+					'ratoinalist',
+				],
+				'rationalistic'=>[
+					'ratoinalistic',
 				],
 				'rationalistically'=>[
 					'rationalisticallly',
 					'rationalisticaly',
+					'ratoinalistically',
+				],
+				'rationalists'=>[
+					'ratoinalists',
+				],
+				'rationalities'=>[
+					'rationaliteis',
+					'ratoinalities',
+				],
+				'rationality'=>[
+					'ratoinality',
+				],
+				'rationalization'=>[
+					'rationalizatoin',
+					'rationalizaton',
+					'ratoinalization',
+				],
+				'rationalizations'=>[
+					'rationalizatoins',
+					'rationalizatons',
+					'ratoinalizations',
 				],
 				'rationalize'=>[
 					'raticnalize',
+					'ratoinalize',
+				],
+				'rationalized'=>[
+					'ratoinalized',
+				],
+				'rationalizer'=>[
+					'ratoinalizer',
+				],
+				'rationalizes'=>[
+					'ratoinalizes',
+				],
+				'rationalizing'=>[
+					'ratoinalizing',
 				],
 				'rationally'=>[
 					'rationallly',
 					'rationaly',
+					'ratoinally',
+					'ratonally',
 				],
 				'rationalness'=>[
 					'rationalnes',
 					'rationalnesss',
+					'ratoinalness',
 				],
 				'rationalnesses'=>[
 					'rationalneses',
 					'rationalnessses',
+				],
+				'rationals'=>[
+					'ratoinals',
+				],
+				'rationed'=>[
+					'rationd',
+					'ratoined',
+				],
+				'rationing'=>[
+					'ratoining',
+				],
+				'rations'=>[
+					'ratoins',
+				],
+				'ratios'=>[
+					'ratois',
+				],
+				'ratlines'=>[
+					'ralines',
 				],
 				'ratoon'=>[
 					'ratooon',
@@ -1068,9 +2113,11 @@
 				],
 				'rattier'=>[
 					'ratttier',
+					'ratteir',
 				],
 				'rattiest'=>[
 					'ratttiest',
+					'ratteist',
 				],
 				'rattiness'=>[
 					'rattines',
@@ -1095,19 +2142,29 @@
 				'rattleboxes'=>[
 					'ratleboxes',
 					'ratttleboxes',
+					'rattlboxes',
+					'rattleoxes',
 				],
 				'rattlebrain'=>[
 					'ratlebrain',
 					'ratttlebrain',
+					'rattlbrain',
+					'rattlebrian',
+					'rattlerain',
 				],
 				'rattlebrained'=>[
 					'rattlebrainid',
 					'ratlebrained',
 					'ratttlebrained',
+					'rattlebraind',
+					'rattlebrianed',
 				],
 				'rattlebrains'=>[
 					'ratlebrains',
 					'ratttlebrains',
+					'rattlbrains',
+					'rattlebrians',
+					'rattlerains',
 				],
 				'rattled'=>[
 					'ratttled',
@@ -1115,6 +2172,9 @@
 				'rattlehead'=>[
 					'ratlehead',
 					'ratttlehead',
+					'rattleead',
+					'rattlehaed',
+					'rattlhead',
 				],
 				'rattlepate'=>[
 					'ratlepate',
@@ -1134,18 +2194,26 @@
 				'rattlesnake'=>[
 					'ratlesnake',
 					'ratttlesnake',
+					'rattlenake',
+					'rattlsnake',
 				],
 				'rattlesnakes'=>[
 					'ratlesnakes',
 					'ratttlesnakes',
+					'rattlenakes',
+					'rattlsnakes',
 				],
 				'rattletrap'=>[
 					'ratletrap',
 					'ratttletrap',
+					'rattlerap',
+					'rattltrap',
 				],
 				'rattletraps'=>[
 					'ratletraps',
 					'ratttletraps',
+					'rattleraps',
+					'rattltraps',
 				],
 				'rattlin\''=>[
 					'ratlin\'',
@@ -1179,13 +2247,47 @@
 				'ratty'=>[
 					'rattty',
 				],
+				'raucous'=>[
+					'raucuos',
+					'ruacous',
+				],
+				'raucously'=>[
+					'raucousely',
+					'raucuosly',
+					'ruacously',
+				],
 				'raucousness'=>[
 					'raucousnes',
 					'raucousnesss',
+					'raucuosness',
+					'ruacousness',
+				],
+				'raunchier'=>[
+					'rauncheir',
+					'ruanchier',
+				],
+				'raunchiest'=>[
+					'rauncheist',
+					'ruanchiest',
+				],
+				'raunchily'=>[
+					'ruanchily',
 				],
 				'raunchiness'=>[
 					'raunchines',
 					'raunchinesss',
+					'ruanchiness',
+				],
+				'raunchy'=>[
+					'ruanchy',
+				],
+				'rauwolfia'=>[
+					'rauwolfai',
+					'ruawolfia',
+				],
+				'rauwolfias'=>[
+					'rauwolfais',
+					'ruawolfias',
 				],
 				'ravelled'=>[
 					'ravellled',
@@ -1193,12 +2295,25 @@
 				'ravelling'=>[
 					'ravellling',
 				],
+				'ravelment'=>[
+					'ravelmant',
+				],
 				'ravened'=>[
 					'ravend',
+				],
+				'ravenous'=>[
+					'ravenuos',
+					'raveous',
+					'ravnous',
+				],
+				'ravenously'=>[
+					'ravenousely',
+					'ravenuosly',
 				],
 				'ravenousness'=>[
 					'ravenousnes',
 					'ravenousnesss',
+					'ravenuosness',
 				],
 				'ravenousnesses'=>[
 					'ravenousneses',
@@ -1207,6 +2322,23 @@
 				'ravine'=>[
 					'ravini',
 				],
+				'ravioli'=>[
+					'ravoili',
+				],
+				'raviolis'=>[
+					'ravoilis',
+				],
+				'ravishment'=>[
+					'ravishmant',
+				],
+				'rawboned'=>[
+					'rawbond',
+					'rawoned',
+				],
+				'rawhide'=>[
+					'rahide',
+					'rawide',
+				],
 				'rawness'=>[
 					'rawnes',
 					'rawnesss',
@@ -1214,19 +2346,38 @@
 				'rayah'=>[
 					'raya',
 				],
+				'rayleigh'=>[
+					'rayliegh',
+				],
 				'rayless'=>[
 					'raylesss',
 				],
 				'razee'=>[
 					'razeee',
 				],
+				'razorback'=>[
+					'razoback',
+					'razorack',
+				],
+				'razorbacks'=>[
+					'razobacks',
+					'razoracks',
+				],
 				'razorbill'=>[
 					'razorbil',
 					'razorbilll',
+					'razobill',
+					'razorill',
 				],
 				'razorbills'=>[
 					'razorbillls',
 					'razorbils',
+					'razobills',
+					'razorills',
+				],
+				'razorblades'=>[
+					'razoblades',
+					'razorlades',
 				],
 				'razz'=>[
 					'razzz',
@@ -1246,6 +2397,7 @@
 				'razzia'=>[
 					'razia',
 					'razzzia',
+					'razzai',
 				],
 				'razzing'=>[
 					'razzzing',
@@ -1258,6 +2410,23 @@
 				],
 				'raúl'=>[
 					'raul',
+				],
+				'reabsorb'=>[
+					'raebsorb',
+				],
+				'reabsorbed'=>[
+					'raebsorbed',
+				],
+				'reabsorbing'=>[
+					'raebsorbing',
+				],
+				'reabsorbs'=>[
+					'raebsorbs',
+				],
+				'reabsorption'=>[
+					'raebsorption',
+					'reabsorptoin',
+					'reabsorpton',
 				],
 				'reabsorptive'=>[
 					'reabsorbtive',
@@ -1341,6 +2510,11 @@
 					'reacb',
 					'reacli',
 					'reath',
+					'raech',
+				],
+				'reachable'=>[
+					'raechable',
+					'reachible',
 				],
 				'reached'=>[
 					'eached',
@@ -1349,58 +2523,167 @@
 					'reaclied',
 					'reaehed',
 				],
+				'reacher'=>[
+					'raecher',
+				],
 				'reaches'=>[
 					'reachs',
 					'reacbes',
+					'raeches',
 				],
 				'reaching'=>[
 					'reacbing',
 					'reacliiiig',
 					'reacliing',
+					'raeching',
 				],
 				'reacquaint'=>[
 					'reacqauint',
+					'raecquaint',
+					'reacquiant',
+				],
+				'reacquaintance'=>[
+					'raecquaintance',
+					'reacqauintance',
+					'reacquaintence',
+					'reacquiantance',
+				],
+				'reacquainted'=>[
+					'raecquainted',
+					'reacqauinted',
+					'reacquianted',
+				],
+				'reacquainting'=>[
+					'raecquainting',
+					'reacqauinting',
+					'reacquianting',
 				],
 				'reacquaints'=>[
 					'reacqauints',
+					'raecquaints',
+					'reacquiants',
 				],
 				'reacquire'=>[
 					'recquire',
+					'raecquire',
+					'reacqiure',
+				],
+				'reacquired'=>[
+					'raecquired',
+					'reacqiured',
+					'reacquird',
+				],
+				'reacquires'=>[
+					'raecquires',
+					'reacqiures',
+				],
+				'reacquiring'=>[
+					'raecquiring',
+					'reacqiuring',
+				],
+				'reacquisition'=>[
+					'raecquisition',
+					'reacqiusition',
+					'reacquisitoin',
+					'reacquisiton',
 				],
 				'react'=>[
 					'rect',
+					'raect',
 				],
 				'reactance'=>[
 					'reactence',
+					'raectance',
+				],
+				'reactances'=>[
+					'raectances',
+					'reactences',
 				],
 				'reactant'=>[
 					'reactent',
+					'raectant',
+				],
+				'reactants'=>[
+					'raectants',
+					'reactents',
+				],
+				'reacted'=>[
+					'raected',
+				],
+				'reacting'=>[
+					'raecting',
 				],
 				'reaction'=>[
 					'rection',
+					'raection',
+					'reactoin',
+					'reacton',
+				],
+				'reactionaries'=>[
+					'raectionaries',
+					'reactionareis',
+					'reactioneries',
+					'reactoinaries',
+					'reactonaries',
 				],
 				'reactionary'=>[
 					'reactionery',
 					'recationary',
 					'rectionary',
+					'raectionary',
+					'reactoinary',
+					'reactonary',
 				],
 				'reactionaryisms'=>[
 					'rectionaryisms',
 				],
+				'reactions'=>[
+					'raections',
+					'reactoins',
+					'reactons',
+				],
 				'reactivate'=>[
 					'rectivate',
+					'raectivate',
 				],
 				'reactivated'=>[
 					'reactived',
+					'raectivated',
+				],
+				'reactivates'=>[
+					'raectivates',
+				],
+				'reactivating'=>[
+					'raectivating',
+				],
+				'reactivation'=>[
+					'raectivation',
+					'reactivatoin',
+					'reactivaton',
 				],
 				'reactive'=>[
 					'rective',
+					'raective',
 				],
 				'reactively'=>[
 					'reactivly',
 				],
+				'reactivities'=>[
+					'raectivities',
+					'reactiviteis',
+				],
+				'reactivity'=>[
+					'raectivity',
+				],
 				'reactor'=>[
 					'recctor',
+					'raector',
+				],
+				'reactors'=>[
+					'raectors',
+				],
+				'reacts'=>[
+					'raects',
 				],
 				'read'=>[
 					'read read',
@@ -1408,40 +2691,73 @@
 					'raed',
 					'reacl',
 				],
+				'readabilities'=>[
+					'raedabilities',
+					'reaabilities',
+					'readabiliteis',
+					'readbilities',
+					'readibilities',
+				],
 				'readability'=>[
 					'readibility',
+					'raedability',
+					'reaability',
+					'readbility',
 				],
 				'readable'=>[
 					'readible',
 					'redable',
+					'raedable',
 				],
 				'readableness'=>[
 					'readablenes',
 					'readablenesss',
+					'raedableness',
+					'readibleness',
+				],
+				'readably'=>[
+					'raedably',
+					'readibly',
+				],
+				'readapt'=>[
+					'raedapt',
+				],
+				'readapted'=>[
+					'raedapted',
+				],
+				'readapting'=>[
+					'raedapting',
+				],
+				'readapts'=>[
+					'raedapts',
 				],
 				'readdress'=>[
 					'readdres',
 					'readdresss',
 					'readddress',
 					'readress',
+					'raeddress',
 				],
 				'readdressed'=>[
 					'readdresed',
 					'readdresssed',
 					'readddressed',
 					'readressed',
+					'raeddressed',
 				],
 				'readdresses'=>[
 					'readdreses',
 					'readdressses',
 					'readddresses',
 					'readresses',
+					'raeddresses',
 				],
 				'readdressing'=>[
 					'readdresing',
 					'readdresssing',
 					'readddressing',
 					'readressing',
+					'raeddressing',
 				],
 				'reader'=>[
 					'reder',
@@ -1455,9 +2771,29 @@
 				],
 				'readership'=>[
 					'redership',
+					'raedership',
+				],
+				'readerships'=>[
+					'raederships',
+					'readerhips',
+					'readersips',
+				],
+				'readied'=>[
+					'raedied',
+					'readeid',
+				],
+				'readier'=>[
+					'raedier',
+					'readeir',
+				],
+				'readies'=>[
+					'raedies',
+					'readeis',
 				],
 				'readiest'=>[
 					'readieft',
+					'raediest',
+					'readeist',
 				],
 				'readily'=>[
 					'readially',
@@ -1467,65 +2803,163 @@
 					'readly',
 					'redily',
 					'reaclily',
+					'raedily',
 				],
 				'readiness'=>[
 					'readines',
 					'readinesss',
 					'readinefs',
+					'raediness',
 				],
 				'reading'=>[
 					'reding',
 					'rcading',
+					'raeding',
+				],
+				'readings'=>[
+					'raedings',
+				],
+				'readjourn'=>[
+					'raedjourn',
+					'readjuorn',
+				],
+				'readjust'=>[
+					'raedjust',
+					'readust',
+					'reajust',
+				],
+				'readjusted'=>[
+					'raedjusted',
+				],
+				'readjusting'=>[
+					'raedjusting',
+				],
+				'readjustment'=>[
+					'raedjustment',
+					'readjustmant',
+				],
+				'readjustments'=>[
+					'raedjustments',
+					'readjustmants',
+				],
+				'readjusts'=>[
+					'raedjusts',
 				],
 				'readmission'=>[
 					'readmision',
 					'readmisssion',
+					'raedmission',
+					'readission',
+					'readmissoin',
+					'readmisson',
+					'reamission',
+				],
+				'readmit'=>[
+					'raedmit',
+				],
+				'readmits'=>[
+					'raedmits',
 				],
 				'readmittance'=>[
 					'readmitance',
 					'readmitttance',
+					'raedmittance',
+					'readmittence',
 				],
 				'readmitted'=>[
 					'readmittted',
+					'raedmitted',
 				],
 				'readmitting'=>[
 					'readmittting',
+					'raedmitting',
+				],
+				'readopt'=>[
+					'raedopt',
+				],
+				'readopted'=>[
+					'raedopted',
+					'readpted',
+					'reaopted',
+				],
+				'readopting'=>[
+					'raedopting',
+				],
+				'readoption'=>[
+					'raedoption',
+					'readoptoin',
+					'readopton',
+					'readption',
+					'reaoption',
+				],
+				'readopts'=>[
+					'raedopts',
+				],
+				'readout'=>[
+					'raedout',
+					'readuot',
+				],
+				'readouts'=>[
+					'raedouts',
+					'readuots',
+					'readuts',
+					'reaouts',
+				],
+				'reads'=>[
+					'raeds',
 				],
 				'ready'=>[
 					'ready ready',
 					'ready ready ready',
 					'redy',
 					'reacly',
+					'raedy',
+				],
+				'readying'=>[
+					'raedying',
 				],
 				'reaffirm'=>[
 					'reffirm',
 					'reafffirm',
 					'reafirm',
+					'raeffirm',
 				],
 				'reaffirmation'=>[
 					'reafffirmation',
 					'reafirmation',
+					'raeffirmation',
+					'reaffirmatoin',
+					'reaffirmaton',
 				],
 				'reaffirmations'=>[
 					'reafffirmations',
 					'reafirmations',
+					'raeffirmations',
+					'reaffirmatoins',
+					'reaffirmatons',
 				],
 				'reaffirmed'=>[
 					'reafffirmed',
 					'reafirmed',
+					'raeffirmed',
 				],
 				'reaffirming'=>[
 					'reafffirming',
 					'reafirming',
+					'raeffirming',
 				],
 				'reaffirms'=>[
 					'reafffirms',
 					'reafirms',
+					'raeffirms',
 				],
 				'reafforestation'=>[
 					'refforestation',
 					'reaffforestation',
 					'reaforestation',
+					'raefforestation',
+					'reafforestatoin',
+					'reafforestaton',
 				],
 				'reagan'=>[
 					'regan',
@@ -1533,6 +2967,11 @@
 				'reagent'=>[
 					'reagant',
 					'regent',
+					'raegent',
+				],
+				'reagents'=>[
+					'raegents',
+					'reagants',
 				],
 				'reaggregate'=>[
 					'reagregate',
@@ -1563,16 +3002,40 @@
 					'real time',
 					'realtime',
 				],
+				'reales'=>[
+					'raeles',
+				],
 				'realgar'=>[
 					'realger',
+					'raelgar',
+				],
+				'realgars'=>[
+					'raelgars',
+				],
+				'realign'=>[
+					'raelign',
+				],
+				'realigned'=>[
+					'raeligned',
+					'realignd',
+				],
+				'realigning'=>[
+					'raeligning',
 				],
 				'realignment'=>[
 					'realigment',
 					'realignent',
+					'raelignment',
+					'realignmant',
 				],
 				'realignments'=>[
 					'realigments',
 					'realignents',
+					'raelignments',
+					'realignmants',
+				],
+				'realigns'=>[
+					'raeligns',
 				],
 				'realism'=>[
 					'relism',
@@ -1582,48 +3045,82 @@
 				],
 				'realistic'=>[
 					'relistic',
+					'raelistic',
 				],
 				'realistically'=>[
 					'realisticallly',
 					'realisticaly',
+					'raelistically',
+				],
+				'realities'=>[
+					'raelities',
+					'realiteis',
 				],
 				'reality'=>[
 					'reallity',
 					'relity',
 					'reahty',
+					'raelity',
+				],
+				'realizable'=>[
+					'raelizable',
+					'realizible',
 				],
 				'realization'=>[
 					'relization',
+					'raelization',
+					'realizatoin',
+					'realizaton',
+				],
+				'realizations'=>[
+					'raelizations',
+					'realizatoins',
+					'realizatons',
 				],
 				'realize'=>[
 					'relize',
 					'reahze',
+					'raelize',
 				],
 				'realized'=>[
 					'relized',
 					'reahzed',
 					'realizecl',
+					'raelized',
+				],
+				'realizes'=>[
+					'raelizes',
+				],
+				'realizing'=>[
+					'raelizing',
 				],
 				'reallocate'=>[
 					'realocate',
 					'rellocate',
 					'realllocate',
+					'raellocate',
 				],
 				'reallocated'=>[
 					'realllocated',
 					'realocated',
+					'raellocated',
 				],
 				'reallocates'=>[
 					'realllocates',
 					'realocates',
+					'raellocates',
 				],
 				'reallocating'=>[
 					'realllocating',
 					'realocating',
+					'raellocating',
 				],
 				'reallocation'=>[
 					'realllocation',
 					'realocation',
+					'raellocation',
+					'reallocatoin',
+					'reallocaton',
 				],
 				'really'=>[
 					'erally',
@@ -1642,27 +3139,94 @@
 				],
 				'realm'=>[
 					'relm',
+					'raelm',
+				],
+				'realms'=>[
+					'raelms',
 				],
 				'realness'=>[
 					'realnes',
 					'realnesss',
+					'raelness',
 				],
 				'realpolitik'=>[
 					'relpolitik',
+					'raelpolitik',
+				],
+				'realtor'=>[
+					'raeltor',
+				],
+				'realtors'=>[
+					'raeltors',
 				],
 				'realty'=>[
 					'relty',
+					'raelty',
 				],
 				'ream'=>[
 					'rem',
 				],
+				'reamed'=>[
+					'raemed',
+				],
+				'reamer'=>[
+					'raemer',
+				],
+				'reamers'=>[
+					'raemers',
+				],
+				'reaming'=>[
+					'raeming',
+				],
+				'reams'=>[
+					'raems',
+				],
+				'reanalyses'=>[
+					'raenalyses',
+				],
+				'reanalysis'=>[
+					'raenalysis',
+				],
+				'reanalyze'=>[
+					'raenalyze',
+				],
+				'reanalyzed'=>[
+					'raenalyzed',
+				],
+				'reanalyzes'=>[
+					'raenalyzes',
+				],
+				'reanalyzing'=>[
+					'raenalyzing',
+				],
+				'reanimate'=>[
+					'raenimate',
+				],
+				'reanimated'=>[
+					'raenimated',
+				],
+				'reanimates'=>[
+					'raenimates',
+				],
+				'reanimating'=>[
+					'raenimating',
+				],
+				'reanimation'=>[
+					'raenimation',
+					'reanimatoin',
+					'reanimaton',
+				],
 				'reannex'=>[
 					'reanex',
 					'reannnex',
+					'raennex',
 				],
 				'reannexation'=>[
 					'reanexation',
 					'reannnexation',
+					'raennexation',
+					'reannexatoin',
+					'reannexaton',
 				],
 				'reannexations'=>[
 					'reanexations',
@@ -1673,48 +3237,84 @@
 				'reapable'=>[
 					'reapible',
 				],
+				'reaped'=>[
+					'raeped',
+				],
+				'reaper'=>[
+					'raeper',
+				],
+				'reapers'=>[
+					'raepers',
+				],
+				'reaping'=>[
+					'raeping',
+				],
 				'reappear'=>[
 					'reapear',
 					'reappeer',
 					'reapper',
 					'reapppear',
+					'raeppear',
+					'reappaer',
 				],
 				'reappearance'=>[
 					'reappearence',
 					'reapearance',
 					'reapppearance',
+					'raeppearance',
+					'reappaerance',
 				],
 				'reappearances'=>[
 					'reapearances',
 					'reapppearances',
+					'raeppearances',
+					'reappaerances',
+					'reappearences',
 				],
 				'reappeared'=>[
 					'reapeared',
 					'reapppeared',
+					'raeppeared',
+					'reappaered',
+					'reappeard',
 				],
 				'reappearing'=>[
 					'reapearing',
 					'reapppearing',
+					'raeppearing',
+					'reappaering',
 				],
 				'reappears'=>[
 					'reapears',
 					'reapppears',
+					'raeppears',
+					'reappaers',
 				],
 				'reapplication'=>[
 					'reaplication',
 					'reappplication',
+					'raepplication',
+					'reapplicatoin',
+					'reapplicaton',
 				],
 				'reapplications'=>[
 					'reaplications',
 					'reappplications',
+					'raepplications',
+					'reapplicatoins',
+					'reapplicatons',
 				],
 				'reapplied'=>[
 					'reaplied',
 					'reappplied',
+					'raepplied',
+					'reappleid',
 				],
 				'reapplies'=>[
 					'reaplies',
 					'reappplies',
+					'raepplies',
+					'reappleis',
 				],
 				'reapply'=>[
 					'reaply',
@@ -1723,26 +3323,37 @@
 					'reappely',
 					'reapplly',
 					'reappply',
+					'raepply',
 				],
 				'reapplying'=>[
 					'reaplying',
 					'reappplying',
+					'raepplying',
 				],
 				'reappoint'=>[
 					'reapoint',
 					'reapppoint',
+					'raeppoint',
+					'reappiont',
 				],
 				'reappointed'=>[
 					'reapointed',
 					'reapppointed',
+					'raeppointed',
+					'reappionted',
 				],
 				'reappointing'=>[
 					'reapointing',
 					'reapppointing',
+					'raeppointing',
+					'reappionting',
 				],
 				'reappointment'=>[
 					'reapointment',
 					'reapppointment',
+					'raeppointment',
+					'reappiontment',
+					'reappointmant',
 				],
 				'reappointments'=>[
 					'reapointments',
@@ -1750,18 +3361,30 @@
 				'reappoints'=>[
 					'reapoints',
 					'reapppoints',
+					'raeppoints',
+					'reappionts',
 				],
 				'reapportion'=>[
 					'reaportion',
 					'reappportion',
+					'raepportion',
+					'reapportoin',
+					'reapporton',
 				],
 				'reapportioned'=>[
 					'reaportioned',
 					'reappportioned',
+					'raepportioned',
+					'reapportiond',
+					'reapportoined',
+					'reapportoned',
 				],
 				'reapportioning'=>[
 					'reaportioning',
 					'reappportioning',
+					'raepportioning',
+					'reapportoining',
+					'reapportoning',
 				],
 				'reapportionment'=>[
 					'reaportionment',
@@ -1770,35 +3393,52 @@
 					'reapportionmant',
 					'repportionment',
 					'reappportionment',
+					'raepportionment',
+					'reapportoinment',
 				],
 				'reapportions'=>[
 					'reaportions',
 					'reappportions',
+					'raepportions',
+					'reapportoins',
+					'reapportons',
 				],
 				'reappraisal'=>[
 					'reapraisal',
 					'reppraisal',
 					'reapppraisal',
+					'raeppraisal',
+					'reappriasal',
 				],
 				'reappraisals'=>[
 					'reapppraisals',
 					'reapraisals',
+					'raeppraisals',
+					'reappriasals',
 				],
 				'reappraise'=>[
 					'reapraise',
 					'reapppraise',
+					'raeppraise',
+					'reappriase',
 				],
 				'reappraised'=>[
 					'reapppraised',
 					'reapraised',
+					'raeppraised',
+					'reappriased',
 				],
 				'reappraises'=>[
 					'reapppraises',
 					'reapraises',
+					'raeppraises',
+					'reappriases',
 				],
 				'reappraising'=>[
 					'reapppraising',
 					'reapraising',
+					'raeppraising',
+					'reappriasing',
 				],
 				'reapprove'=>[
 					'reaprove',
@@ -1809,16 +3449,57 @@
 				'reapproves'=>[
 					'reaproves',
 				],
+				'reaps'=>[
+					'raeps',
+				],
 				'rear'=>[
 					'reer',
 					'rer',
 				],
+				'reared'=>[
+					'raered',
+				],
 				'rearguard'=>[
 					'reargaurd',
 					'rerguard',
+					'raerguard',
+					'reaguard',
+					'rearuard',
+				],
+				'rearguards'=>[
+					'raerguards',
+					'reaguards',
+					'reargaurds',
+					'rearuards',
+				],
+				'rearing'=>[
+					'raering',
 				],
 				'rearm'=>[
 					'rerm',
+					'raerm',
+				],
+				'rearmament'=>[
+					'raermament',
+					'rearmamant',
+				],
+				'rearmed'=>[
+					'raermed',
+				],
+				'rearming'=>[
+					'raerming',
+				],
+				'rearmost'=>[
+					'raermost',
+					'reamost',
+					'rearost',
+				],
+				'rearms'=>[
+					'raerms',
+				],
+				'rearouse'=>[
+					'raerouse',
+					'rearuose',
 				],
 				'rearousing'=>[
 					'rearouisng',
@@ -1827,39 +3508,80 @@
 					'rearange',
 					'rerrange',
 					'rearrrange',
+					'raerrange',
 				],
 				'rearranged'=>[
 					'rearanged',
 					'rearrranged',
+					'raerranged',
 				],
 				'rearrangement'=>[
 					'rearangement',
 					'rearrrangement',
+					'raerrangement',
+					'rearrangemant',
 				],
 				'rearrangements'=>[
 					'rearangements',
 					'rearrrangements',
+					'raerrangements',
+					'rearrangemants',
 				],
 				'rearranges'=>[
 					'rearanges',
 					'rearrranges',
+					'raerranges',
 				],
 				'rearranging'=>[
 					'rearanging',
 					'rearrranging',
+					'raerranging',
 				],
 				'rearrest'=>[
 					'rearest',
 					'rearrrest',
+					'raerrest',
 				],
 				'rearrested'=>[
 					'rearrrested',
+					'raerrested',
 				],
 				'rearresting'=>[
 					'rearrresting',
+					'raerresting',
 				],
 				'rearrests'=>[
 					'rearrrests',
+					'raerrests',
+				],
+				'rears'=>[
+					'raers',
+				],
+				'rearward'=>[
+					'raerward',
+				],
+				'rearwards'=>[
+					'raerwards',
+				],
+				'reascend'=>[
+					'raescend',
+					'reacend',
+					'reasend',
+				],
+				'reascended'=>[
+					'raescended',
+					'reacended',
+					'reasended',
+				],
+				'reascending'=>[
+					'raescending',
+					'reacending',
+					'reasending',
+				],
+				'reascends'=>[
+					'raescends',
+					'reacends',
+					'reasends',
 				],
 				'reason'=>[
 					'reaon',
@@ -1868,78 +3590,115 @@
 					'reson',
 					'rcason',
 					'reafon',
+					'raeson',
 				],
 				'reasonabilities'=>[
 					'resonabilities',
+				],
+				'reasonability'=>[
+					'raesonability',
+					'reasoability',
+					'reasonbility',
+					'reasonibility',
 				],
 				'reasonable'=>[
 					'reasonible',
 					'resonable',
 					'reafonable',
 					'reasonahle',
+					'raesonable',
 				],
 				'reasonableness'=>[
 					'reasonablenes',
 					'reasonablenesss',
+					'raesonableness',
+					'reasonibleness',
 				],
 				'reasonably'=>[
 					'reafonably',
+					'raesonably',
+					'reasonibly',
+				],
+				'reasoned'=>[
+					'raesoned',
+					'reasond',
+				],
+				'reasoner'=>[
+					'raesoner',
+				],
+				'reasoners'=>[
+					'raesoners',
 				],
 				'reasoning'=>[
 					'resoning',
 					'reafoning',
+					'raesoning',
 				],
 				'reasonless'=>[
 					'reasonles',
 					'reasonlesss',
+					'raesonless',
 				],
 				'reasons'=>[
 					'reaons',
 					'reasosn',
 					'rcasons',
 					'reafons',
+					'raesons',
 				],
 				'reassemble'=>[
 					'reasemble',
 					'ressemble',
 					'reasssemble',
+					'raessemble',
 				],
 				'reassembled'=>[
 					'reasembled',
 					'reasssembled',
+					'raessembled',
 				],
 				'reassembles'=>[
 					'reasembles',
 					'reasssembles',
+					'raessembles',
 				],
 				'reassembling'=>[
 					'reasembling',
 					'reasssembling',
+					'raessembling',
 				],
 				'reassembly'=>[
 					'reasembly',
 					'reasssembly',
+					'raessembly',
 				],
 				'reassert'=>[
 					'reasert',
 					'ressert',
 					'reasssert',
+					'raessert',
 				],
 				'reasserted'=>[
 					'reaserted',
 					'reassserted',
+					'raesserted',
 				],
 				'reasserting'=>[
 					'reaserting',
 					'reassserting',
+					'raesserting',
 				],
 				'reassertion'=>[
 					'reasertion',
 					'reasssertion',
+					'raessertion',
+					'reassertoin',
+					'reasserton',
 				],
 				'reasserts'=>[
 					'reaserts',
 					'reassserts',
+					'raesserts',
 				],
 				'reassess'=>[
 					'reasses',
@@ -1947,163 +3706,270 @@
 					'reasess',
 					'reassesss',
 					'reasssess',
+					'raessess',
 				],
 				'reassessed'=>[
 					'reasessed',
 					'reassesed',
 					'reassesssed',
 					'reasssessed',
+					'raessessed',
 				],
 				'reassesses'=>[
 					'reasesses',
 					'reasseses',
 					'reassessses',
 					'reasssesses',
+					'raessesses',
 				],
 				'reassessing'=>[
 					'reasessing',
 					'reassesing',
 					'reassesssing',
 					'reasssessing',
+					'raessessing',
 				],
 				'reassessment'=>[
 					'reasessment',
 					'reassesment',
 					'reassesssment',
 					'reasssessment',
+					'raessessment',
+					'reassessmant',
 				],
 				'reassessments'=>[
 					'reasessments',
 					'reassesments',
 					'reassesssments',
 					'reasssessments',
+					'raessessments',
+					'reassessmants',
 				],
 				'reassign'=>[
 					'reasign',
 					'reasssign',
+					'raessign',
 				],
 				'reassigned'=>[
 					'reasigned',
 					'reasssigned',
+					'raessigned',
+					'reassignd',
 				],
 				'reassigning'=>[
 					'reasigning',
 					'reasssigning',
+					'raessigning',
 				],
 				'reassignment'=>[
 					'reassigment',
 					'reassignent',
 					'reasignment',
 					'reasssignment',
+					'raessignment',
+					'reassignmant',
 				],
 				'reassignments'=>[
 					'reassigments',
 					'reassignents',
 					'reasignments',
 					'reasssignments',
+					'raessignments',
+					'reassignmants',
 				],
 				'reassigns'=>[
 					'reasigns',
 					'reasssigns',
+					'raessigns',
 				],
 				'reassume'=>[
 					'reasssume',
 					'reasume',
+					'raessume',
 				],
 				'reassuming'=>[
 					'reasssuming',
 					'reasuming',
+					'raessuming',
 				],
 				'reassurance'=>[
 					'reassurence',
 					'reasssurance',
 					'reasurance',
+					'raessurance',
 				],
 				'reassurances'=>[
 					'reasssurances',
 					'reasurances',
+					'raessurances',
+					'reassurences',
 				],
 				'reassure'=>[
 					'reasure',
 					'ressure',
 					'reasssure',
+					'raessure',
 				],
 				'reassured'=>[
 					'reasssured',
 					'reasured',
+					'raessured',
+					'reassurd',
 				],
 				'reassures'=>[
 					'reasssures',
+					'raessures',
 				],
 				'reassuring'=>[
 					'reasssuring',
 					'reasuring',
+					'raessuring',
 				],
 				'reassuringly'=>[
 					'reasssuringly',
 					'reasuringly',
+					'raessuringly',
+				],
+				'reata'=>[
+					'raeta',
 				],
 				'reattach'=>[
 					'reatach',
 					'reatttach',
+					'raettach',
 				],
 				'reattached'=>[
 					'reatached',
 					'reatttached',
+					'raettached',
 				],
 				'reattaches'=>[
 					'reataches',
 					'reatttaches',
+					'raettaches',
 				],
 				'reattaching'=>[
 					'reataching',
 					'reatttaching',
+					'raettaching',
 				],
 				'reattachment'=>[
 					'reatachment',
 					'reatttachment',
+					'raettachment',
+					'reattachmant',
 				],
 				'reattain'=>[
 					'reatain',
 					'reatttain',
+					'raettain',
+					'reattian',
 				],
 				'reattained'=>[
 					'reatained',
 					'reatttained',
+					'raettained',
+					'reattaind',
+					'reattianed',
 				],
 				'reattaining'=>[
 					'reataining',
 					'reatttaining',
+					'raettaining',
+					'reattianing',
 				],
 				'reattainment'=>[
 					'reatainment',
 					'reatttainment',
+					'raettainment',
+					'reattainmant',
+					'reattianment',
 				],
 				'reattains'=>[
 					'reatains',
 					'reatttains',
+					'raettains',
+					'reattians',
 				],
 				'reattempt'=>[
 					'reatempt',
 					'reatttempt',
+					'raettempt',
 				],
 				'reattempted'=>[
 					'reatempted',
 					'reatttempted',
+					'raettempted',
 				],
 				'reattempting'=>[
 					'reatempting',
 					'reatttempting',
+					'raettempting',
 				],
 				'reattempts'=>[
 					'reatempts',
 					'reatttempts',
+					'raettempts',
 				],
 				'reauthorization'=>[
 					'reuthorization',
+					'raeuthorization',
+					'reauthorizatoin',
+					'reauthorizaton',
+					'reuathorization',
+				],
+				'reauthorize'=>[
+					'raeuthorize',
+					'reuathorize',
+				],
+				'reauthorized'=>[
+					'raeuthorized',
+					'reuathorized',
+				],
+				'reauthorizes'=>[
+					'raeuthorizes',
+					'reuathorizes',
+				],
+				'reauthorizing'=>[
+					'raeuthorizing',
+					'reuathorizing',
+				],
+				'reave'=>[
+					'raeve',
+				],
+				'reaved'=>[
+					'raeved',
+				],
+				'reaver'=>[
+					'raever',
+				],
+				'reaves'=>[
+					'raeves',
+				],
+				'reaving'=>[
+					'raeving',
+				],
+				'reawake'=>[
+					'raewake',
+				],
+				'reawaked'=>[
+					'raewaked',
+				],
+				'reawaken'=>[
+					'raewaken',
 				],
 				'reawakened'=>[
 					'reawakend',
+					'raewakened',
+				],
+				'reawakening'=>[
+					'raewakening',
+				],
+				'reawakens'=>[
+					'raewakens',
+				],
+				'reawoke'=>[
+					'raewoke',
 				],
 				'rebalance'=>[
 					'rebalence',
@@ -2113,6 +3979,15 @@
 				],
 				'rebarbatively'=>[
 					'rebarbativly',
+				],
+				'rebatable'=>[
+					'rebatible',
+				],
+				'rebatement'=>[
+					'rebatemant',
+				],
+				'rebatoes'=>[
+					'rebateos',
 				],
 				'rebbe'=>[
 					'rebe',
@@ -2140,30 +4015,58 @@
 					'rebelion',
 					'rebellian',
 					'rebelllion',
+					'rebelloin',
+					'rebellon',
 				],
 				'rebellions'=>[
 					'rebelions',
 					'rebelllions',
+					'rebelloins',
+					'rebellons',
 				],
 				'rebellious'=>[
 					'rebelious',
 					'rebellous',
 					'rebelllious',
 					'rehellious',
+					'rebelliuos',
+					'rebelloius',
 				],
 				'rebelliously'=>[
 					'rebellously',
 					'rebeliously',
 					'rebellliously',
+					'rebelliousely',
+					'rebelliuosly',
+					'rebelloiusly',
 				],
 				'rebelliousness'=>[
 					'rebelliousnes',
 					'rebelliousnesss',
 					'rebeliousness',
 					'rebellliousness',
+					'rebelliuosness',
+					'rebelloiusness',
+					'rebellousness',
 				],
 				'rebidding'=>[
 					'rebiddding',
+				],
+				'reboant'=>[
+					'rebaont',
+					'reboent',
+				],
+				'reboil'=>[
+					'rebiol',
+				],
+				'reboiled'=>[
+					'rebioled',
+				],
+				'reboiling'=>[
+					'rebioling',
+				],
+				'reboils'=>[
+					'rebiols',
 				],
 				'rebook'=>[
 					'reboook',
@@ -2184,11 +4087,33 @@
 					'rebooots',
 					'rebots',
 				],
+				'rebound'=>[
+					'rebuond',
+				],
+				'rebounded'=>[
+					'rebuonded',
+				],
+				'rebounding'=>[
+					'rebuonding',
+				],
+				'rebounds'=>[
+					'rebuonds',
+				],
 				'reboxetine'=>[
 					'ruboxetine',
 				],
 				'rebroadcast'=>[
 					'rebroadcasted',
+					'rebraodcast',
+				],
+				'rebroadcasted'=>[
+					'rebraodcasted',
+				],
+				'rebroadcasting'=>[
+					'rebraodcasting',
+				],
+				'rebroadcasts'=>[
+					'rebraodcasts',
 				],
 				'rebuff'=>[
 					'rebuf',
@@ -2206,16 +4131,37 @@
 					'rebufffs',
 					'rebufs',
 				],
+				'rebuild'=>[
+					'rebiuld',
+				],
 				'rebuilding'=>[
 					'rebulding',
+					'rebiulding',
+				],
+				'rebuilds'=>[
+					'rebiulds',
 				],
 				'rebuilt'=>[
 					'rebuilded',
 					'rehuilt',
+					'rebiult',
+				],
+				'reburial'=>[
+					'reburail',
+				],
+				'reburials'=>[
+					'reburails',
+				],
+				'reburied'=>[
+					'rebureid',
+				],
+				'reburies'=>[
+					'rebureis',
 				],
 				'rebuttable'=>[
 					'rebutable',
 					'rebutttable',
+					'rebuttible',
 				],
 				'rebuttal'=>[
 					'rebuttle',
@@ -2242,11 +4188,41 @@
 				'recalcitrance'=>[
 					'recalcitrence',
 				],
+				'recalcitrancies'=>[
+					'recalcitranceis',
+					'recalcitrencies',
+				],
 				'recalcitrancy'=>[
 					'recalcitransy',
+					'recalcitrency',
 				],
 				'recalcitrant'=>[
 					'recalcitrent',
+				],
+				'recalcitrantly'=>[
+					'recalcitrantely',
+					'recalcitrently',
+				],
+				'recalculation'=>[
+					'recalculatoin',
+					'recalculaton',
+				],
+				'recalculations'=>[
+					'recalculatoins',
+					'recalculatons',
+				],
+				'recalesce'=>[
+					'recalece',
+					'recalese',
+				],
+				'recalescence'=>[
+					'recalecence',
+					'recalescance',
+					'recalesence',
+				],
+				'recalibration'=>[
+					'recalibratoin',
+					'recalibraton',
 				],
 				'recall'=>[
 					'recal',
@@ -2265,6 +4241,26 @@
 				'recant'=>[
 					'recont',
 				],
+				'recantation'=>[
+					'recantatoin',
+					'recantaton',
+				],
+				'recantations'=>[
+					'recantatoins',
+					'recantatons',
+				],
+				'recapitalization'=>[
+					'recapitalizatoin',
+					'recapitalizaton',
+				],
+				'recapitulation'=>[
+					'recapitulatoin',
+					'recapitulaton',
+				],
+				'recapitulations'=>[
+					'recapitulatoins',
+					'recapitulatons',
+				],
 				'recappable'=>[
 					'recapable',
 				],
@@ -2274,6 +4270,13 @@
 				'recapping'=>[
 					'recaping',
 					'recappping',
+				],
+				'recaption'=>[
+					'recaptoin',
+					'recapton',
+				],
+				'recaptured'=>[
+					'recapturd',
 				],
 				'recast'=>[
 					'recasted',
@@ -2298,9 +4301,25 @@
 				'receipt'=>[
 					'reciept',
 				],
+				'receipted'=>[
+					'reciepted',
+				],
+				'receipting'=>[
+					'reciepting',
+				],
+				'receiptor'=>[
+					'recieptor',
+				],
+				'receipts'=>[
+					'reciepts',
+				],
 				'receivable'=>[
 					'receivible',
 					'recievable',
+				],
+				'receivables'=>[
+					'receivibles',
+					'recievables',
 				],
 				'receive'=>[
 					'receive receive',
@@ -2326,6 +4345,9 @@
 				'receiver'=>[
 					'reciever',
 				],
+				'receivers'=>[
+					'recievers',
+				],
 				'receivership'=>[
 					'recievership',
 				],
@@ -2340,8 +4362,15 @@
 					'recieving',
 					'rccciving',
 				],
+				'recencies'=>[
+					'recenceis',
+				],
 				'recency'=>[
 					'recensy',
+				],
+				'recension'=>[
+					'recensoin',
+					'recenson',
 				],
 				'recent'=>[
 					'recant',
@@ -2352,10 +4381,27 @@
 					'recenly',
 					'recentley',
 					'recentyl',
+					'recentely',
 				],
 				'recentness'=>[
 					'recentnes',
 					'recentnesss',
+				],
+				'reception'=>[
+					'receptoin',
+					'recepton',
+				],
+				'receptionist'=>[
+					'receptoinist',
+					'receptonist',
+				],
+				'receptionists'=>[
+					'receptoinists',
+					'receptonists',
+				],
+				'receptions'=>[
+					'receptoins',
+					'receptons',
 				],
 				'receptively'=>[
 					'receptivly',
@@ -2383,23 +4429,32 @@
 				'recession'=>[
 					'recesion',
 					'recesssion',
+					'recessoin',
+					'recesson',
 				],
 				'recessional'=>[
 					'recesional',
 					'recesssional',
+					'recessoinal',
+					'recessonal',
 				],
 				'recessionals'=>[
 					'recesionals',
 					'recesssionals',
+					'recessoinals',
 				],
 				'recessionary'=>[
 					'recessionery',
 					'recesionary',
 					'recesssionary',
+					'recessoinary',
+					'recessonary',
 				],
 				'recessions'=>[
 					'recesions',
 					'recesssions',
+					'recessoins',
+					'recessons',
 				],
 				'recessive'=>[
 					'resessive',
@@ -2432,8 +4487,18 @@
 				'rechannelling'=>[
 					'rechanelling',
 				],
+				'rechargeable'=>[
+					'rechargaeble',
+					'rechargeible',
+				],
+				'rechartered'=>[
+					'recharterd',
+				],
 				'rechristened'=>[
 					'rechristend',
+				],
+				'recidivous'=>[
+					'recidivuos',
 				],
 				'recipe'=>[
 					'recepe',
@@ -2443,6 +4508,10 @@
 				'recipes'=>[
 					'recipies',
 				],
+				'recipience'=>[
+					'recipeince',
+					'recipiance',
+				],
 				'recipient'=>[
 					'recepient',
 					'recipeint',
@@ -2450,8 +4519,15 @@
 					'recipiant',
 					'recipint',
 				],
+				'recipients'=>[
+					'recipeints',
+					'recipiants',
+				],
 				'reciprocal'=>[
 					'reciprical',
+				],
+				'reciprocalities'=>[
+					'reciprocaliteis',
 				],
 				'reciprocally'=>[
 					'reciprocallly',
@@ -2461,6 +4537,22 @@
 					'reciprocalnes',
 					'reciprocalnesss',
 				],
+				'reciprocation'=>[
+					'reciprocatoin',
+					'reciprocaton',
+				],
+				'recirculation'=>[
+					'recirculatoin',
+					'recirculaton',
+				],
+				'recitation'=>[
+					'recitatoin',
+					'recitaton',
+				],
+				'recitations'=>[
+					'recitatoins',
+					'recitatons',
+				],
 				'reckless'=>[
 					'reckles',
 					'wreckless',
@@ -2469,6 +4561,7 @@
 				'recklessly'=>[
 					'recklesly',
 					'recklesssly',
+					'recklessely',
 				],
 				'recklessness'=>[
 					'wrecklessness',
@@ -2477,17 +4570,55 @@
 					'recklessnesss',
 					'recklesssness',
 				],
+				'reckoned'=>[
+					'reckond',
+				],
+				'reclaim'=>[
+					'recliam',
+				],
+				'reclaimable'=>[
+					'reclaimible',
+					'recliamable',
+				],
+				'reclaimant'=>[
+					'reclaiment',
+					'recliamant',
+				],
+				'reclaimed'=>[
+					'recliamed',
+				],
+				'reclaimer'=>[
+					'recliamer',
+				],
+				'reclaiming'=>[
+					'recliaming',
+				],
+				'reclaims'=>[
+					'recliams',
+				],
+				'reclamation'=>[
+					'reclamatoin',
+					'reclamaton',
+				],
+				'reclamations'=>[
+					'reclamatoins',
+					'reclamatons',
+				],
 				'reclassification'=>[
 					'reclasification',
 					'reclasssification',
+					'reclassificatoin',
+					'reclassificaton',
 				],
 				'reclassified'=>[
 					'reclasified',
 					'reclasssified',
+					'reclassifeid',
 				],
 				'reclassifies'=>[
 					'reclasifies',
 					'reclasssifies',
+					'reclassifeis',
 				],
 				'reclassify'=>[
 					'reclasify',
@@ -2506,11 +4637,16 @@
 				'recline'=>[
 					'reclini',
 				],
+				'reclined'=>[
+					'reclind',
+				],
 				'recliner'=>[
 					'reclinir',
 				],
 				'reclusion'=>[
 					'recluison',
+					'reclusoin',
+					'recluson',
 				],
 				'reclusions'=>[
 					'recluisons',
@@ -2535,14 +4671,32 @@
 				'recognise'=>[
 					'recogise',
 				],
+				'recognition'=>[
+					'recognitoin',
+					'recogniton',
+				],
+				'recognitions'=>[
+					'recognitoins',
+					'recognitons',
+				],
+				'recognizable'=>[
+					'recognizible',
+				],
 				'recognizably'=>[
 					'recognizabally',
 					'recognizabaly',
 					'recognizabely',
 					'recognizablly',
+					'recognizibly',
 				],
 				'recognizance'=>[
 					'recognizence',
+				],
+				'recognizances'=>[
+					'recognizences',
+				],
+				'recognizant'=>[
+					'recognizent',
 				],
 				'recognize'=>[
 					'recoginise',
@@ -2557,11 +4711,27 @@
 				'recognizee'=>[
 					'recognizeee',
 				],
+				'recoil'=>[
+					'reciol',
+				],
+				'recoiled'=>[
+					'recioled',
+				],
+				'recoiling'=>[
+					'recioling',
+				],
 				'recoilless'=>[
 					'recoiless',
 					'recoilles',
 					'recoillesss',
 					'recoillless',
+					'reciolless',
+				],
+				'recoils'=>[
+					'reciols',
+				],
+				'recoin'=>[
+					'recion',
 				],
 				'recoinage'=>[
 					'recoinige',
@@ -2584,14 +4754,25 @@
 				'recollection'=>[
 					'recolection',
 					'recolllection',
+					'recollectoin',
+					'recollecton',
 				],
 				'recollections'=>[
 					'recolections',
 					'recolllections',
+					'recollectoins',
+					'recollectons',
 				],
 				'recollects'=>[
 					'recolects',
 					'recolllects',
+				],
+				'recolonization'=>[
+					'recolonizatoin',
+					'recolonizaton',
+				],
+				'recolored'=>[
+					'recolord',
 				],
 				'recombinant'=>[
 					'recombinent',
@@ -2602,6 +4783,8 @@
 				],
 				'recombination'=>[
 					'recombinition',
+					'recombinatoin',
+					'recombinaton',
 				],
 				'recombinational'=>[
 					'recombinitional',
@@ -2611,6 +4794,9 @@
 				],
 				'recombine'=>[
 					'recombini',
+				],
+				'recombined'=>[
+					'recombind',
 				],
 				'recombinogenic'=>[
 					'recombogenic',
@@ -2629,6 +4815,7 @@
 					'recomnencement',
 					'recomencement',
 					'recommmencement',
+					'recommencemant',
 				],
 				'recommencements'=>[
 					'recomnencements',
@@ -2636,6 +4823,7 @@
 				'recommences'=>[
 					'recomences',
 					'recommmences',
+					'recommances',
 				],
 				'recommencing'=>[
 					'recomencing',
@@ -2652,16 +4840,21 @@
 					'recomnendable',
 					'recomendable',
 					'recommmendable',
+					'recommendible',
 				],
 				'recommendation'=>[
 					'recomendation',
 					'recomnendation',
 					'recommmendation',
+					'recommendatoin',
+					'recommendaton',
 				],
 				'recommendations'=>[
 					'recomnendations',
 					'recomendations',
 					'recommmendations',
+					'recommendatoins',
+					'recommendatons',
 				],
 				'recommendatory'=>[
 					'recomnendatory',
@@ -2688,6 +4881,8 @@
 					'recommisssion',
 					'recomission',
 					'recommmission',
+					'recommissoin',
+					'recommisson',
 				],
 				'recommissioned'=>[
 					'recomnissioned',
@@ -2695,6 +4890,9 @@
 					'recommisssioned',
 					'recomissioned',
 					'recommmissioned',
+					'recommissiond',
+					'recommissoined',
+					'recommissoned',
 				],
 				'recommissioning'=>[
 					'recomnissioning',
@@ -2702,6 +4900,8 @@
 					'recommisssioning',
 					'recomissioning',
 					'recommmissioning',
+					'recommissoining',
+					'recommissoning',
 				],
 				'recommissions'=>[
 					'recomnissions',
@@ -2709,6 +4909,8 @@
 					'recommisssions',
 					'recomissions',
 					'recommmissions',
+					'recommissoins',
+					'recommissons',
 				],
 				'recommit'=>[
 					'recomnit',
@@ -2718,6 +4920,7 @@
 				'recommitment'=>[
 					'recomitment',
 					'recommmitment',
+					'recommitmant',
 				],
 				'recommitments'=>[
 					'recomnitments',
@@ -2741,8 +4944,30 @@
 					'recompence',
 					'recompenfe',
 				],
+				'recompilation'=>[
+					'recompilatoin',
+					'recompilaton',
+				],
+				'recompilations'=>[
+					'recompilatoins',
+					'recompilatons',
+				],
+				'recomputation'=>[
+					'recomputatoin',
+					'recomputaton',
+				],
+				'reconceive'=>[
+					'reconcieve',
+				],
+				'reconception'=>[
+					'reconceptoin',
+					'reconcepton',
+				],
 				'reconceptualize'=>[
 					'reconceptaulize',
+				],
+				'reconcilability'=>[
+					'reconcilibility',
 				],
 				'reconcilable'=>[
 					'reconcilible',
@@ -2750,11 +4975,31 @@
 				'reconcile'=>[
 					'reconciliate',
 				],
+				'reconcilement'=>[
+					'reconcilemant',
+				],
 				'reconciliation'=>[
 					'reconcilation',
+					'reconcilaition',
+					'reconciliatoin',
+					'reconciliaton',
+				],
+				'reconciliations'=>[
+					'reconcilaitions',
+					'reconciliatoins',
+					'reconciliatons',
+				],
+				'reconciliatory'=>[
+					'reconcilaitory',
+				],
+				'recondensation'=>[
+					'recondensatoin',
+					'recondensaton',
 				],
 				'recondense'=>[
 					'recondence',
+					'recodense',
+					'reconense',
 				],
 				'reconditely'=>[
 					'recondately',
@@ -2768,6 +5013,71 @@
 					'reconditeneses',
 					'reconditenessses',
 				],
+				'recondition'=>[
+					'reconditoin',
+					'reconditon',
+				],
+				'reconditioned'=>[
+					'reconditiond',
+					'reconditoined',
+					'reconditoned',
+				],
+				'reconditioning'=>[
+					'reconditoining',
+					'reconditoning',
+				],
+				'reconditions'=>[
+					'reconditoins',
+					'reconditons',
+				],
+				'reconduct'=>[
+					'recoduct',
+					'reconuct',
+				],
+				'reconfigurable'=>[
+					'reconfigurible',
+				],
+				'reconfiguration'=>[
+					'reconfiguratoin',
+					'reconfiguraton',
+				],
+				'reconfigurations'=>[
+					'reconfiguratoins',
+					'reconfiguratons',
+				],
+				'reconfigure'=>[
+					'recofigure',
+					'reconigure',
+				],
+				'reconfigured'=>[
+					'recofigured',
+					'reconfigurd',
+					'reconigured',
+				],
+				'reconfigures'=>[
+					'recofigures',
+					'reconigures',
+				],
+				'reconfiguring'=>[
+					'recofiguring',
+					'reconiguring',
+				],
+				'reconfirm'=>[
+					'recofirm',
+					'reconirm',
+				],
+				'reconfirmation'=>[
+					'reconfirmatoin',
+					'reconfirmaton',
+				],
+				'reconfirmations'=>[
+					'reconfirmatoins',
+					'reconfirmatons',
+				],
+				'reconfirms'=>[
+					'recofirms',
+					'reconirms',
+				],
 				'reconnaissance'=>[
 					'reconaisance',
 					'reconaissance',
@@ -2775,12 +5085,15 @@
 					'reconnaissence',
 					'reconnaisssance',
 					'reconnnaissance',
+					'reconniassance',
 				],
 				'reconnaissances'=>[
 					'reconaissances',
 					'reconnaisances',
 					'reconnaisssances',
 					'reconnnaissances',
+					'reconnaissences',
+					'reconniassances',
 				],
 				'reconnect'=>[
 					'reconect',
@@ -2797,6 +5110,8 @@
 				'reconnection'=>[
 					'reconection',
 					'reconnnection',
+					'reconnectoin',
+					'reconnecton',
 				],
 				'reconnections'=>[
 					'reconections',
@@ -2808,22 +5123,28 @@
 				'reconnoiter'=>[
 					'reconoiter',
 					'reconnnoiter',
+					'reconnioter',
 				],
 				'reconnoitered'=>[
 					'reconoitered',
 					'reconnnoitered',
+					'reconniotered',
+					'reconnoiterd',
 				],
 				'reconnoiterer'=>[
 					'reconnnoiterer',
 					'reconoiterer',
+					'reconnioterer',
 				],
 				'reconnoitering'=>[
 					'reconoitering',
 					'reconnnoitering',
+					'reconniotering',
 				],
 				'reconnoiters'=>[
 					'reconnnoiters',
 					'reconoiters',
+					'reconnioters',
 				],
 				'reconnoitre'=>[
 					'reconoitre',
@@ -2831,8 +5152,86 @@
 				'reconnoitring'=>[
 					'reconoitring',
 				],
+				'reconquer'=>[
+					'reconqeur',
+				],
+				'reconquered'=>[
+					'reconqeured',
+					'reconquerd',
+				],
+				'reconquering'=>[
+					'reconqeuring',
+				],
+				'reconquers'=>[
+					'reconqeurs',
+				],
+				'reconquest'=>[
+					'reconqeust',
+					'reconuest',
+					'recoquest',
+				],
+				'reconsecration'=>[
+					'reconsecratoin',
+					'reconsecraton',
+				],
+				'reconsideration'=>[
+					'reconsideratoin',
+					'reconsideraton',
+				],
+				'reconsidered'=>[
+					'reconsiderd',
+				],
+				'reconsign'=>[
+					'reconign',
+					'recosign',
+				],
+				'reconsigned'=>[
+					'reconigned',
+					'reconsignd',
+					'recosigned',
+				],
+				'reconsigning'=>[
+					'reconigning',
+					'recosigning',
+				],
+				'reconsignment'=>[
+					'reconsignmant',
+				],
+				'reconsigns'=>[
+					'reconigns',
+					'recosigns',
+				],
+				'reconstitution'=>[
+					'reconstitutoin',
+					'reconstituton',
+				],
 				'reconstructible'=>[
 					'reconstructable',
+				],
+				'reconstruction'=>[
+					'reconstructoin',
+					'reconstructon',
+				],
+				'reconstructional'=>[
+					'reconstructoinal',
+					'reconstructonal',
+				],
+				'reconstructionary'=>[
+					'reconstructionery',
+					'reconstructoinary',
+					'reconstructonary',
+				],
+				'reconstructionism'=>[
+					'reconstructoinism',
+					'reconstructonism',
+				],
+				'reconstructionist'=>[
+					'reconstructoinist',
+					'reconstructonist',
+				],
+				'reconstructions'=>[
+					'reconstructoins',
+					'reconstructons',
 				],
 				'recontaminate'=>[
 					'recontaminite',
@@ -2848,15 +5247,27 @@
 				],
 				'recontamination'=>[
 					'recontaminition',
+					'recontaminatoin',
+					'recontaminaton',
 				],
 				'recontextualize'=>[
 					'recontextaulize',
+				],
+				'recontract'=>[
+					'reconract',
+					'recotract',
 				],
 				'recontré'=>[
 					'recontre',
 				],
 				'reconvened'=>[
 					'reconvend',
+				],
+				'reconversion'=>[
+					'reconersion',
+					'reconversoin',
+					'reconverson',
+					'recoversion',
 				],
 				'reconveyance'=>[
 					'reconveyence',
@@ -2875,6 +5286,12 @@
 					'recoks',
 					'recoooks',
 				],
+				'recopied'=>[
+					'recopeid',
+				],
+				'recopies'=>[
+					'recopeis',
+				],
 				'record'=>[
 					'record record',
 					'record record record',
@@ -2883,26 +5300,124 @@
 					'rccord',
 					'recorcl',
 				],
+				'recordable'=>[
+					'recordible',
+				],
 				'recorded'=>[
 					'recoreded',
 				],
+				'recount'=>[
+					'recuont',
+				],
+				'recountal'=>[
+					'recuontal',
+				],
+				'recounted'=>[
+					'recuonted',
+				],
+				'recounting'=>[
+					'recuonting',
+				],
+				'recounts'=>[
+					'recuonts',
+				],
+				'recoup'=>[
+					'recuop',
+				],
+				'recoupable'=>[
+					'recoupible',
+					'recuopable',
+				],
+				'recouped'=>[
+					'recuoped',
+				],
+				'recouping'=>[
+					'recuoping',
+				],
+				'recouple'=>[
+					'recuople',
+				],
+				'recoupment'=>[
+					'recoupmant',
+					'recuopment',
+				],
+				'recoups'=>[
+					'recuops',
+				],
 				'recourse'=>[
 					'recourfe',
+					'recuorse',
+				],
+				'recoverable'=>[
+					'recoverible',
+				],
+				'recovered'=>[
+					'recoverd',
+				],
+				'recoveries'=>[
+					'recovaries',
+					'recovereis',
+				],
+				'recovery'=>[
+					'recovary',
 				],
 				'recreance'=>[
 					'recreence',
+					'recraence',
 				],
 				'recreancy'=>[
 					'recreansy',
+					'recraency',
+					'recreency',
+				],
+				'recreant'=>[
+					'recraent',
+					'recreent',
+				],
+				'recreantly'=>[
+					'recraently',
+					'recreantely',
+					'recreently',
+				],
+				'recreants'=>[
+					'recraents',
+					'recreents',
 				],
 				'recreate'=>[
 					'recrete',
+					'recraete',
+				],
+				'recreated'=>[
+					'recraeted',
+				],
+				'recreates'=>[
+					'recraetes',
+				],
+				'recreating'=>[
+					'recraeting',
 				],
 				'recreation'=>[
 					'recretion',
+					'recraetion',
+					'recreatoin',
+					'recreaton',
 				],
 				'recreational'=>[
 					'recretional',
+					'recraetional',
+					'recreatoinal',
+					'recreatonal',
+				],
+				'recreations'=>[
+					'recraetions',
+					'recreatoins',
+					'recreatons',
+				],
+				'recreative'=>[
+					'recraetive',
+				],
+				'recrement'=>[
+					'recremant',
 				],
 				'recriminate'=>[
 					'recriminite',
@@ -2918,9 +5433,13 @@
 				],
 				'recrimination'=>[
 					'recriminition',
+					'recriminatoin',
+					'recriminaton',
 				],
 				'recriminations'=>[
 					'recriminitions',
+					'recriminatoins',
+					'recriminatons',
 				],
 				'recriminative'=>[
 					'recriminitive',
@@ -2944,26 +5463,69 @@
 					'recrosing',
 					'recrosssing',
 				],
+				'recrudesce'=>[
+					'recrudece',
+					'recrudese',
+				],
+				'recrudesced'=>[
+					'recrudeced',
+					'recrudesed',
+				],
 				'recrudescence'=>[
 					'recrudescance',
+					'recrudecence',
+					'recrudesence',
 				],
 				'recrudescences'=>[
 					'recrudecences',
 					'recrudecsences',
 					'recrudesences',
 				],
+				'recrudescent'=>[
+					'recrudecent',
+					'recrudescant',
+					'recrudesent',
+				],
+				'recrudesces'=>[
+					'recrudeces',
+					'recrudeses',
+				],
+				'recrudescing'=>[
+					'recrudecing',
+					'recrudesing',
+				],
+				'recruit'=>[
+					'recriut',
+				],
 				'recruited'=>[
 					'recruted',
+					'recriuted',
+				],
+				'recruiter'=>[
+					'recriuter',
+				],
+				'recruiters'=>[
+					'recriuters',
 				],
 				'recruiting'=>[
 					'recruting',
+					'recriuting',
 				],
 					# recrystalize: an accepted spelling, not a slip (AmericanBritishWords_R: recrystalize)
 			#	'recrystallize'=>[
 			#		'recrystalize',
 			#	],
+				'recruitment'=>[
+					'recriutment',
+					'recruitmant',
+				],
+				'recruits'=>[
+					'recriuts',
+				],
 				'recrystallization'=>[
 					'recrystalllization',
+					'recrystallizatoin',
+					'recrystallizaton',
 				],
 				'recrystallize'=>[
 					'recrystalllize',
@@ -2983,26 +5545,67 @@
 				'rectangular'=>[
 					'rectanguler',
 				],
+				'rectangularities'=>[
+					'rectangulariteis',
+				],
+				'rectangularity'=>[
+					'rectangulerity',
+				],
 				'rectangularly'=>[
 					'rectangularally',
 					'rectangularaly',
 					'rectangularely',
 					'rectangularlly',
 				],
+				'rectifiable'=>[
+					'rectifaible',
+				],
+				'rectification'=>[
+					'rectificatoin',
+					'rectificaton',
+				],
+				'rectifications'=>[
+					'rectificatoins',
+					'rectificatons',
+				],
+				'rectified'=>[
+					'rectifeid',
+				],
 				'rectifier'=>[
 					'rectifeir',
 					'rectifir',
+				],
+				'rectifiers'=>[
+					'rectifeirs',
+				],
+				'rectifies'=>[
+					'rectifeis',
+				],
+				'rectilineal'=>[
+					'rectilinael',
 				],
 				'rectilinear'=>[
 					'rectilineer',
 					'rectiliner',
 					'rectiliniar',
+					'rectilinaer',
+				],
+				'rectilinearity'=>[
+					'rectilinaerity',
 				],
 				'rectilinearly'=>[
 					'rectilinearally',
 					'rectilinearaly',
 					'rectilinearely',
 					'rectilinearlly',
+					'rectilinaerly',
+					'rectilinearily',
+				],
+				'rectorial'=>[
+					'rectorail',
+				],
+				'rectories'=>[
+					'rectoreis',
 				],
 				'rectosigmoid'=>[
 					'rectosygmoid',
@@ -3017,8 +5620,22 @@
 					'recumbensy',
 					'recumbancy',
 				],
+				'recumbent'=>[
+					'recumbant',
+				],
+				'recumbently'=>[
+					'recumbantly',
+					'recumbentely',
+				],
+				'recuperable'=>[
+					'recuperible',
+				],
 				'recuperate'=>[
 					'recouperate',
+				],
+				'recuperation'=>[
+					'recuperatoin',
+					'recuperaton',
 				],
 				'recurred'=>[
 					'recurrred',
@@ -3031,6 +5648,7 @@
 				'recurrences'=>[
 					'recurences',
 					'recurrrences',
+					'recurrances',
 				],
 				'recurrent'=>[
 					'recurent',
@@ -3040,23 +5658,50 @@
 				'recurrently'=>[
 					'recurently',
 					'recurrrently',
+					'recurrantly',
+					'recurrentely',
 				],
 				'recurring'=>[
 					'reccuring',
 					'recuring',
 					'recurrring',
 				],
+				'recursion'=>[
+					'recursoin',
+					'recurson',
+				],
+				'recursions'=>[
+					'recursoins',
+					'recursons',
+				],
 				'recursively'=>[
 					'recursivly',
 				],
+				'recusance'=>[
+					'recusence',
+				],
+				'recusancies'=>[
+					'recusanceis',
+					'recusencies',
+				],
 				'recusancy'=>[
 					'recusansy',
+					'recusency',
 				],
 				'recusant'=>[
 					'recusent',
 				],
+				'recusants'=>[
+					'recusents',
+				],
 				'recusing'=>[
 					'recuisng',
+				],
+				'recyclable'=>[
+					'recyclible',
+				],
+				'recyclables'=>[
+					'recyclibles',
 				],
 				'recycle'=>[
 					'recicle',
@@ -3065,13 +5710,73 @@
 					'red red',
 					'red red red',
 				],
+				'redacted'=>[
+					'redcted',
+				],
+				'redacting'=>[
+					'redcting',
+				],
+				'redaction'=>[
+					'redactoin',
+					'redacton',
+					'redction',
+				],
+				'redactor'=>[
+					'redctor',
+				],
+				'redactors'=>[
+					'redctors',
+				],
+				'redacts'=>[
+					'redcts',
+				],
+				'redbird'=>[
+					'rebird',
+					'redird',
+				],
+				'redbirds'=>[
+					'rebirds',
+					'redirds',
+				],
+				'redbreast'=>[
+					'rebreast',
+					'redbraest',
+					'redreast',
+				],
+				'redbreasts'=>[
+					'rebreasts',
+					'redbraests',
+					'redreasts',
+				],
+				'redbrick'=>[
+					'redrick',
+				],
+				'redbuds'=>[
+					'reduds',
+				],
+				'redbugs'=>[
+					'rebugs',
+				],
+				'redcaps'=>[
+					'redaps',
+				],
+				'redcoat'=>[
+					'redcaot',
+					'redoat',
+				],
+				'redcoats'=>[
+					'redcaots',
+					'redoats',
+				],
 				'redcurrant'=>[
 					'redcurant',
 					'redcurrrant',
+					'redcurrent',
 				],
 				'redcurrants'=>[
 					'redcurants',
 					'redcurrrants',
+					'redcurrents',
 				],
 				'redd'=>[
 					'reddd',
@@ -3110,6 +5815,18 @@
 					'redddishness',
 					'redishness',
 				],
+				'redecoration'=>[
+					'redecoratoin',
+					'redecoraton',
+				],
+				'rededication'=>[
+					'rededicatoin',
+					'rededicaton',
+				],
+				'rededications'=>[
+					'rededicatoins',
+					'rededicatons',
+				],
 				'redeem'=>[
 					'redeeem',
 					'redem',
@@ -3117,6 +5834,7 @@
 				'redeemable'=>[
 					'redeeemable',
 					'redemable',
+					'redeemible',
 				],
 				'redeemed'=>[
 					'redeeemed',
@@ -3141,34 +5859,120 @@
 				'redefine'=>[
 					'redefini',
 				],
+				'redefined'=>[
+					'redefind',
+				],
 				'redefining'=>[
 					'redefinang',
 				],
 				'redefinition'=>[
 					'redefination',
+					'redefinitoin',
+					'redefiniton',
 				],
 				'redefinitions'=>[
 					'redefinations',
+					'redefinitoins',
+					'redefinitons',
+				],
+				'redelivered'=>[
+					'redeliverd',
+				],
+				'redelivery'=>[
+					'redelivary',
+				],
+				'redemption'=>[
+					'redemptoin',
+					'redempton',
+				],
+				'redemptional'=>[
+					'redemptoinal',
+					'redemptonal',
+				],
+				'redemptioner'=>[
+					'redemptoiner',
+				],
+				'redeployment'=>[
+					'redeploymant',
 				],
 				'redescriptions'=>[
 					'redecriptions',
 					'redecsriptions',
 					'redesriptions',
 				],
+				'redesigned'=>[
+					'redesignd',
+				],
 				'redetermination'=>[
 					'redeterminition',
+					'redeterminatoin',
+					'redeterminaton',
+				],
+				'redeterminations'=>[
+					'redeterminatoins',
+					'redeterminatons',
 				],
 				'redetermine'=>[
 					'redetermini',
+				],
+				'redetermined'=>[
+					'redetermind',
 				],
 				'redetermining'=>[
 					'redeterminang',
 				],
 				'redevelopment'=>[
 					'redevelopement',
+					'redevelopmant',
+				],
+				'redevelopments'=>[
+					'redevelopmants',
+				],
+				'redfish'=>[
+					'refish',
+				],
+				'redhead'=>[
+					'redead',
+				],
+				'redheaded'=>[
+					'redeaded',
+					'redhaeded',
+				],
+				'redheads'=>[
+					'redeads',
+					'redhaeds',
+				],
+				'redial'=>[
+					'redail',
+				],
+				'redialed'=>[
+					'redailed',
+				],
+				'redialing'=>[
+					'redailing',
+				],
+				'redials'=>[
+					'redails',
+				],
+				'redintegrate'=>[
+					'redntegrate',
+				],
+				'redintegration'=>[
+					'redintegratoin',
+					'redintegraton',
+					'redntegration',
 				],
 				'redipping'=>[
 					'rediping',
+				],
+				'redirection'=>[
+					'redirectoin',
+					'redirecton',
+				],
+				'rediscount'=>[
+					'redicount',
+					'rediscuont',
+					'redisount',
 				],
 				'rediscountable'=>[
 					'redicountable',
@@ -3181,9 +5985,35 @@
 					'redicsover',
 					'redisover',
 				],
+				'rediscovered'=>[
+					'redicovered',
+					'rediscoverd',
+					'redisovered',
+				],
+				'rediscoveries'=>[
+					'redicoveries',
+					'rediscovaries',
+					'rediscovereis',
+					'redisoveries',
+				],
+				'rediscovering'=>[
+					'redicovering',
+					'redisovering',
+				],
+				'rediscovers'=>[
+					'redicovers',
+					'redisovers',
+				],
+				'rediscovery'=>[
+					'redicovery',
+					'rediscovary',
+					'redisovery',
+				],
 				'rediscussed'=>[
 					'rediscused',
 					'rediscusssed',
+					'redicussed',
+					'redisussed',
 				],
 				'redispersibility'=>[
 					'redispersability',
@@ -3210,9 +6040,26 @@
 				'redistillation'=>[
 					'redistilation',
 					'redistilllation',
+					'redistillatoin',
+					'redistillaton',
+				],
+				'redistribution'=>[
+					'redistributoin',
+					'redistributon',
 				],
 				'redline'=>[
 					'redlini',
+					'redine',
+				],
+				'redlined'=>[
+					'redined',
+					'redlind',
+				],
+				'redlines'=>[
+					'redines',
+				],
+				'redlining'=>[
+					'redining',
 				],
 				'redlinings'=>[
 					'redlinangs',
@@ -3222,9 +6069,21 @@
 					'redaly',
 					'redlly',
 				],
+				'redneck'=>[
+					'reneck',
+				],
+				'rednecks'=>[
+					'renecks',
+				],
 				'redness'=>[
 					'rednes',
 					'rednesss',
+				],
+				'redoes'=>[
+					'redeos',
+				],
+				'redoing'=>[
+					'rediong',
 				],
 				'redolence'=>[
 					'redolance',
@@ -3234,17 +6093,64 @@
 				],
 				'redolent'=>[
 					'redolant',
+					'redlent',
+					'redoent',
+				],
+				'redolently'=>[
+					'redolantly',
+					'redolentely',
+				],
+				'redouble'=>[
+					'reduoble',
+				],
+				'redoubled'=>[
+					'reduobled',
+				],
+				'redoubles'=>[
+					'reduobles',
+				],
+				'redoubling'=>[
+					'reduobling',
+				],
+				'redoubt'=>[
+					'reduobt',
 				],
 				'redoubtable'=>[
 					'redoubtible',
+					'reduobtable',
+				],
+				'redoubtably'=>[
+					'redoubtibly',
+					'reduobtably',
+				],
+				'redoubts'=>[
+					'reduobts',
+				],
+				'redound'=>[
+					'reduond',
+				],
+				'redounded'=>[
+					'reduonded',
+				],
+				'redounding'=>[
+					'reduonding',
+				],
+				'redounds'=>[
+					'reduonds',
 				],
 				'redpoll'=>[
 					'redpol',
 					'redpolll',
+					'redoll',
 				],
 				'redpolls'=>[
 					'redpollls',
 					'redpols',
+					'redolls',
+				],
+				'redraft'=>[
+					'redaft',
+					'reraft',
 				],
 				'redress'=>[
 					'redres',
@@ -3278,19 +6184,77 @@
 				'redroot'=>[
 					'redrooot',
 					'redrot',
+					'redoot',
 				],
 				'redroots'=>[
 					'redrooots',
 					'redrots',
+					'redoots',
+				],
+				'redshank'=>[
+					'redhank',
+					'redsank',
+					'reshank',
+				],
+				'redshift'=>[
+					'redhift',
+				],
+				'redshifts'=>[
+					'redhifts',
+				],
+				'redskin'=>[
+					'redkin',
+				],
+				'redskins'=>[
+					'redkins',
+				],
+				'redstart'=>[
+					'redsart',
+					'redtart',
+				],
+				'redstarts'=>[
+					'redsarts',
+					'redtarts',
+				],
+				'redstone'=>[
+					'redsone',
+					'redtone',
 				],
 				'redubbing'=>[
 					'redubing',
+				],
+				'reducibility'=>[
+					'reducability',
 				],
 				'reducible'=>[
 					'reducable',
 				],
 				'reductase'=>[
 					'reducatase',
+				],
+				'reduction'=>[
+					'reductoin',
+					'reducton',
+				],
+				'reductionism'=>[
+					'reductoinism',
+					'reductonism',
+				],
+				'reductionist'=>[
+					'reductoinist',
+					'reductonist',
+				],
+				'reductionists'=>[
+					'reductoinists',
+					'reductonists',
+				],
+				'reductions'=>[
+					'reductoins',
+					'reductons',
+				],
+				'redundancies'=>[
+					'redundanceis',
+					'redundencies',
 				],
 				'redundancy'=>[
 					'redundansy',
@@ -3301,6 +6265,11 @@
 				],
 				'redundantly'=>[
 					'redundently',
+					'redundantely',
+				],
+				'reduplication'=>[
+					'reduplicatoin',
+					'reduplicaton',
 				],
 				'reduplicatively'=>[
 					'reduplicativeally',
@@ -3309,13 +6278,21 @@
 					'reduplicativelly',
 					'reduplicativly',
 				],
+				'redwings'=>[
+					'rewings',
+				],
 				'redwood'=>[
 					'redwod',
 					'redwoood',
+					'redood',
 				],
 				'redwoods'=>[
 					'redwods',
 					'redwooods',
+					'redoods',
+				],
+				'redyeing'=>[
+					'redyieng',
 				],
 				'reebok'=>[
 					'reeebok',
@@ -3327,33 +6304,43 @@
 				'reechoed'=>[
 					'rechoed',
 					'reeechoed',
+					'reecheod',
 				],
 				'reechoes'=>[
 					'rechoes',
 					'reeechoes',
+					'reecheos',
 				],
 				'reechoing'=>[
 					'rechoing',
 					'reeechoing',
+					'reechiong',
 				],
 				'reed'=>[
 					'reeed',
 				],
 				'reedbird'=>[
 					'reeedbird',
+					'reebird',
+					'reedird',
 				],
 				'reedbirds'=>[
 					'reeedbirds',
+					'reebirds',
+					'reedirds',
 				],
 				'reedbuck'=>[
 					'reeedbuck',
+					'reeduck',
 				],
 				'reedier'=>[
 					'reeedier',
+					'reedeir',
 				],
 				'reediest'=>[
 					'rediest',
 					'reeediest',
+					'reedeist',
 				],
 				'reediness'=>[
 					'reedines',
@@ -3402,6 +6389,8 @@
 				'reeducation'=>[
 					'reducation',
 					'reeeducation',
+					'reeducatoin',
+					'reeducaton',
 				],
 				'reedy'=>[
 					'reeedy',
@@ -3448,6 +6437,7 @@
 				'reelable'=>[
 					'reeelable',
 					'relable',
+					'reelible',
 				],
 				'reelect'=>[
 					'reeelect',
@@ -3464,10 +6454,14 @@
 				'reelection'=>[
 					'reeelection',
 					'relection',
+					'reelectoin',
+					'reelecton',
 				],
 				'reelections'=>[
 					'reeelections',
 					'relections',
+					'reelectoins',
+					'reelectons',
 				],
 				'reelects'=>[
 					'reeelects',
@@ -3509,10 +6503,12 @@
 				'reembodied'=>[
 					'reeembodied',
 					'rembodied',
+					'reembodeid',
 				],
 				'reembodies'=>[
 					'reeembodies',
 					'rembodies',
+					'reembodeis',
 				],
 				'reembody'=>[
 					'reeembody',
@@ -3574,6 +6570,7 @@
 				'reemployment'=>[
 					'reeemployment',
 					'remployment',
+					'reemploymant',
 				],
 				'reemploys'=>[
 					'reeemploys',
@@ -3595,10 +6592,12 @@
 				'reenactment'=>[
 					'reeenactment',
 					'renactment',
+					'reenactmant',
 				],
 				'reenactments'=>[
 					'reeenactments',
 					'renactments',
+					'reenactmants',
 				],
 				'reenacts'=>[
 					'reeenacts',
@@ -3651,6 +6650,7 @@
 				'reenlistment'=>[
 					'reeenlistment',
 					'renlistment',
+					'reenlistmant',
 				],
 				'reenlists'=>[
 					'reeenlists',
@@ -3662,6 +6662,7 @@
 				],
 				'reentered'=>[
 					'reeentered',
+					'reenterd',
 				],
 				'reentering'=>[
 					'reeentering',
@@ -3677,6 +6678,7 @@
 				'reentries'=>[
 					'reeentries',
 					'rentries',
+					'reentreis',
 				],
 				'reentry'=>[
 					'reantry',
@@ -3690,20 +6692,24 @@
 				'reequip'=>[
 					'reeequip',
 					'requip',
+					'reeqiup',
 				],
 				'reequipped'=>[
 					'reeequipped',
 					'reequippped',
 					'requipped',
+					'reeqiupped',
 				],
 				'reequipping'=>[
 					'reeequipping',
 					'reequippping',
 					'requipping',
+					'reeqiupping',
 				],
 				'reequips'=>[
 					'reeequips',
 					'requips',
+					'reeqiups',
 				],
 				'reese'=>[
 					'reeese',
@@ -3730,9 +6736,11 @@
 				'reestablishment'=>[
 					'reeestablishment',
 					'restablishment',
+					'reestablishmant',
 				],
 				'reevaluate'=>[
 					'reeevaluate',
+					'reevalaute',
 				],
 				'reevaluated'=>[
 					'reevalauted',
@@ -3745,12 +6753,19 @@
 				],
 				'reevaluating'=>[
 					'reeevaluating',
+					'reevalauting',
 				],
 				'reevaluation'=>[
 					'reeevaluation',
+					'reevalaution',
+					'reevaluatoin',
+					'reevaluaton',
 				],
 				'reevaluations'=>[
 					'reeevaluations',
+					'reevalautions',
+					'reevaluatoins',
+					'reevaluatons',
 				],
 				'reeve'=>[
 					'reeeve',
@@ -3768,11 +6783,15 @@
 					'reexaminition',
 					'reeexamination',
 					'rexamination',
+					'reexaminatoin',
+					'reexaminaton',
 				],
 				'reexaminations'=>[
 					'reexaminitions',
 					'reeexaminations',
 					'rexaminations',
+					'reexaminatoins',
+					'reexaminatons',
 				],
 				'reexamine'=>[
 					'reexamini',
@@ -3782,6 +6801,7 @@
 				'reexamined'=>[
 					'reeexamined',
 					'rexamined',
+					'reexamind',
 				],
 				'reexamines'=>[
 					'reeexamines',
@@ -3802,23 +6822,29 @@
 				'reexperience'=>[
 					'reexperiance',
 					'rexperience',
+					'reexpereince',
 				],
 				'reexplain'=>[
 					'reeexplain',
 					'rexplain',
+					'reexplian',
 				],
 				'reexplained'=>[
 					'reeexplained',
 					'rexplained',
+					'reexplaind',
+					'reexplianed',
 				],
 				'reexplaining'=>[
 					'reexplainang',
 					'reeexplaining',
 					'rexplaining',
+					'reexplianing',
 				],
 				'reexplains'=>[
 					'reeexplains',
 					'rexplains',
+					'reexplians',
 				],
 				'reexport'=>[
 					'reeexport',
@@ -3836,8 +6862,40 @@
 					'reeexports',
 					'rexports',
 				],
+				'refaced'=>[
+					'reaced',
+					'refced',
+				],
+				'refaces'=>[
+					'reaces',
+					'refces',
+				],
+				'refashion'=>[
+					'refashoin',
+					'refashon',
+				],
+				'refashioned'=>[
+					'refashiond',
+					'refashoined',
+					'refashoned',
+				],
+				'refashioning'=>[
+					'refashoining',
+					'refashoning',
+				],
+				'refashions'=>[
+					'refashoins',
+					'refashons',
+				],
 				'refastened'=>[
 					'refastend',
+				],
+				'refection'=>[
+					'refectoin',
+					'refecton',
+				],
+				'refectories'=>[
+					'refectoreis',
 				],
 				'refence'=>[
 					'refance',
@@ -3845,6 +6903,9 @@
 				'refer'=>[
 					'referr',
 					'refferr',
+				],
+				'referable'=>[
+					'referible',
 				],
 				'referee'=>[
 					'referree',
@@ -3856,6 +6917,7 @@
 				],
 				'refereeing'=>[
 					'refereeeing',
+					'refereieng',
 				],
 				'referees'=>[
 					'refereees',
@@ -3876,6 +6938,7 @@
 					'referencs',
 					'refernces',
 					'refrences',
+					'referances',
 				],
 				'referendum'=>[
 					'rejerendumi.e.',
@@ -3883,9 +6946,16 @@
 				'referent'=>[
 					'referant',
 				],
+				'referential'=>[
+					'referentail',
+				],
 				'referentially'=>[
 					'referentiallly',
 					'referentialy',
+					'referentailly',
+				],
+				'referents'=>[
+					'referants',
 				],
 				'referral'=>[
 					'referal',
@@ -3929,6 +6999,7 @@
 				'refillable'=>[
 					'refilable',
 					'refilllable',
+					'refillible',
 				],
 				'refilled'=>[
 					'refillled',
@@ -3952,6 +7023,7 @@
 				],
 				'refinances'=>[
 					'refininces',
+					'refinences',
 				],
 				'refine'=>[
 					'refini',
@@ -3963,8 +7035,16 @@
 					'refinemant',
 					'refiniment',
 				],
+				'refinements'=>[
+					'refinemants',
+				],
+				'refineries'=>[
+					'refinaries',
+					'refinereis',
+				],
 				'refinery'=>[
 					'refiniry',
+					'refinary',
 				],
 				'refinish'=>[
 					'refinash',
@@ -3987,17 +7067,43 @@
 				'reflagging'=>[
 					'reflaging',
 				],
+				'reflate'=>[
+					'refate',
+				],
+				'reflation'=>[
+					'reflatoin',
+					'reflaton',
+				],
 				'reflationary'=>[
 					'reflationery',
+					'reflatoinary',
+					'reflatonary',
+				],
+				'reflations'=>[
+					'reflatoins',
+					'reflatons',
 				],
 				'reflectance'=>[
 					'reflectence',
+				],
+				'reflectances'=>[
+					'reflectences',
 				],
 				'reflected'=>[
 					'refiected',
 				],
 				'reflection'=>[
 					'refiection',
+					'reflectoin',
+					'reflecton',
+				],
+				'reflectional'=>[
+					'reflectoinal',
+					'reflectonal',
+				],
+				'reflections'=>[
+					'reflectoins',
+					'reflectons',
 				],
 				'reflectively'=>[
 					'reflectivly',
@@ -4005,6 +7111,12 @@
 				'reflectiveness'=>[
 					'reflectivenes',
 					'reflectivenesss',
+				],
+				'reflectivities'=>[
+					'reflectiviteis',
+				],
+				'reflexively'=>[
+					'reflexivly',
 				],
 				'reflexiveness'=>[
 					'reflexivenes',
@@ -4014,8 +7126,30 @@
 					'reflexiveneses',
 					'reflexivenessses',
 				],
+				'reflexivities'=>[
+					'reflexiviteis',
+				],
+				'refloat'=>[
+					'reflaot',
+				],
+				'refloated'=>[
+					'reflaoted',
+				],
+				'refloating'=>[
+					'reflaoting',
+				],
+				'refloats'=>[
+					'reflaots',
+				],
+				'reflower'=>[
+					'refower',
+				],
 				'refluence'=>[
 					'refluance',
+				],
+				'refluent'=>[
+					'refleunt',
+					'refluant',
 				],
 				'refly'=>[
 					'refally',
@@ -4034,12 +7168,34 @@
 				'refocussing'=>[
 					'refocusssing',
 				],
+				'reforestation'=>[
+					'reforestatoin',
+					'reforestaton',
+				],
 				'reform'=>[
 					're-form',
 					'refrom',
 				],
 				'reform-minded'=>[
 					'reform minded',
+				],
+				'reformable'=>[
+					'reformible',
+				],
+				'reformation'=>[
+					'reformatoin',
+					'reformaton',
+				],
+				'reformational'=>[
+					'reformatoinal',
+					'reformatonal',
+				],
+				'reformations'=>[
+					'reformatoins',
+					'reformatons',
+				],
+				'reformatories'=>[
+					'reformatoreis',
 				],
 				'reformatted'=>[
 					'reformattted',
@@ -4056,6 +7212,35 @@
 				'reforms'=>[
 					're-forms',
 				],
+				'reformulation'=>[
+					'reformulatoin',
+					'reformulaton',
+				],
+				'reformulations'=>[
+					'reformulatoins',
+					'reformulatons',
+				],
+				'refortified'=>[
+					'refortifeid',
+				],
+				'refortifies'=>[
+					'refortifeis',
+				],
+				'refound'=>[
+					'refuond',
+				],
+				'refraction'=>[
+					'refractoin',
+					'refracton',
+				],
+				'refractional'=>[
+					'refractoinal',
+					'refractonal',
+				],
+				'refractions'=>[
+					'refractoins',
+					'refractons',
+				],
 				'refractively'=>[
 					'refractivly',
 				],
@@ -4067,6 +7252,12 @@
 					'refractiveneses',
 					'refractivenessses',
 				],
+				'refractivities'=>[
+					'refractiviteis',
+				],
+				'refractories'=>[
+					'refractoreis',
+				],
 				'refractoriness'=>[
 					'refractorines',
 					'refractorinesss',
@@ -4075,16 +7266,35 @@
 					'refractorineses',
 					'refractorinessses',
 				],
+				'refrain'=>[
+					'refain',
+					'refrian',
+					'rerain',
+				],
+				'refrained'=>[
+					'refraind',
+					'refrianed',
+				],
 				'refraining'=>[
 					'refrainang',
+					'refaining',
+					'refrianing',
+					'reraining',
 				],
 				'refrainment'=>[
 					'refraiment',
 					'refrainent',
+					'refrainmant',
+					'refrianment',
 				],
 				'refrainments'=>[
 					'refraiments',
 					'refrainents',
+				],
+				'refrains'=>[
+					'refains',
+					'refrians',
+					'rerains',
 				],
 				'refrangible'=>[
 					'refrangable',
@@ -4113,23 +7323,45 @@
 				'refreshment'=>[
 					'refreshmant',
 				],
+				'refreshments'=>[
+					'refreshmants',
+				],
 				'refrigerant'=>[
 					'refrigerent',
+				],
+				'refrigerants'=>[
+					'refrigerents',
 				],
 				'refrigerate'=>[
 					'refridgerate',
 				],
 				'refrigeration'=>[
 					'refridgeration',
+					'refrigeratoin',
+					'refrigeraton',
 				],
 				'refrigerator'=>[
 					'refridgerator',
 				],
+				'refuel'=>[
+					'refeul',
+				],
+				'refueled'=>[
+					'refeuled',
+				],
+				'refueling'=>[
+					'refeuling',
+				],
 				'refuelled'=>[
 					'refuellled',
+					'refeulled',
 				],
 				'refuelling'=>[
 					'refuellling',
+					'refeulling',
+				],
+				'refuels'=>[
+					'refeuls',
 				],
 				'refuge'=>[
 					'refiige',
@@ -4142,6 +7374,22 @@
 				],
 				'refulgence'=>[
 					'refulgance',
+				],
+				'refulgent'=>[
+					'refulgant',
+				],
+				'refulgently'=>[
+					'refulgantly',
+					'refulgentely',
+				],
+				'refundable'=>[
+					'refundible',
+				],
+				'refurbishment'=>[
+					'refurbishmant',
+				],
+				'refurbishments'=>[
+					'refurbishmants',
 				],
 				'refusal'=>[
 					'refufal',
@@ -4167,8 +7415,31 @@
 					'refnsing',
 					'refufing',
 				],
+				'refutable'=>[
+					'refutible',
+				],
+				'refutably'=>[
+					'refutibly',
+				],
+				'refutation'=>[
+					'refutatoin',
+					'refutaton',
+				],
+				'refutations'=>[
+					'refutatoins',
+					'refutatons',
+				],
 				'refute'=>[
 					'refule',
+				],
+				'regained'=>[
+					'regaind',
+				],
+				'regalement'=>[
+					'regalemant',
+				],
+				'regalia'=>[
+					'regalai',
 				],
 				'regally'=>[
 					'regallly',
@@ -4193,6 +7464,10 @@
 				'regardlessly'=>[
 					'regardlesly',
 					'regardlesssly',
+					'regardlessely',
+				],
+				'regathered'=>[
+					'regatherd',
 				],
 				'regatta'=>[
 					'regata',
@@ -4201,6 +7476,13 @@
 				'regattas'=>[
 					'regatas',
 					'regatttas',
+				],
+				'regelation'=>[
+					'regelatoin',
+					'regelaton',
+				],
+				'regencies'=>[
+					'regenceis',
 				],
 				'regency'=>[
 					'regensy',
@@ -4211,12 +7493,21 @@
 				'regenerately'=>[
 					'regeneratly',
 				],
+				'regeneration'=>[
+					'regeneratoin',
+					'regeneraton',
+				],
+				'regenerations'=>[
+					'regeneratoins',
+					'regeneratons',
+				],
 				'regent'=>[
 					'regant',
 				],
 				'reggae'=>[
 					'regae',
 					'regggae',
+					'reggea',
 				],
 				'reggaes'=>[
 					'regaes',
@@ -4226,9 +7517,17 @@
 				],
 				'reggie'=>[
 					'regggie',
+					'reggei',
 				],
 				'regiment'=>[
 					'regimant',
+				],
+				'regimentation'=>[
+					'regimentatoin',
+					'regimentaton',
+				],
+				'regiments'=>[
+					'regimants',
 				],
 				'regina'=>[
 					'regini',
@@ -4248,14 +7547,28 @@
 					'regoin',
 					'reigon',
 					'rigion',
+					'regon',
 				],
 				'regional'=>[
 					'regionial',
 					'regoinal',
+					'regonal',
+				],
+				'regionalism'=>[
+					'regoinalism',
+				],
+				'regionalisms'=>[
+					'regoinalisms',
 				],
 				'regionally'=>[
 					'regionallly',
 					'regionaly',
+					'regoinally',
+					'regonally',
+				],
+				'regions'=>[
+					'regoins',
+					'regons',
 				],
 				'regisseur'=>[
 					'regisser',
@@ -4263,14 +7576,32 @@
 				'register'=>[
 					'registrate',
 				],
+				'registered'=>[
+					'registerd',
+				],
+				'registrable'=>[
+					'registrible',
+				],
 				'registrant'=>[
 					'registrent',
+				],
+				'registrants'=>[
+					'registrents',
 				],
 				'registrar'=>[
 					'registrer',
 				],
 				'registration'=>[
 					'registeration',
+					'registratoin',
+					'registraton',
+				],
+				'registrations'=>[
+					'registratoins',
+					'registratons',
+				],
+				'registries'=>[
+					'registreis',
 				],
 				'registry'=>[
 					'registery',
@@ -4303,10 +7634,14 @@
 				'regression'=>[
 					'regresion',
 					'regresssion',
+					'regressoin',
+					'regresson',
 				],
 				'regressions'=>[
 					'regresions',
 					'regresssions',
+					'regressoins',
+					'regressons',
 				],
 				'regressive'=>[
 					'regresive',
@@ -4330,6 +7665,8 @@
 				'regretfully'=>[
 					'regretfullly',
 					'regretfuly',
+					'regrefully',
+					'regretully',
 				],
 				'regretfulness'=>[
 					'regretfulnes',
@@ -4346,6 +7683,7 @@
 					'regrettablly',
 					'regretably',
 					'regretttably',
+					'regrettibly',
 				],
 				'regretted'=>[
 					'regrettted',
@@ -4356,6 +7694,21 @@
 				'regretting'=>[
 					'regrettting',
 				],
+				'reground'=>[
+					'regruond',
+				],
+				'regroup'=>[
+					'regruop',
+				],
+				'regrouped'=>[
+					'regruoped',
+				],
+				'regrouping'=>[
+					'regruoping',
+				],
+				'regroups'=>[
+					'regruops',
+				],
 				'regulable'=>[
 					'regulible',
 				],
@@ -4363,10 +7716,36 @@
 					'reguler',
 					'regnlar',
 				],
+				'regularities'=>[
+					'regulariteis',
+				],
+				'regularity'=>[
+					'regulerity',
+				],
+				'regularization'=>[
+					'regularizatoin',
+					'regularizaton',
+				],
 				'regularly'=>[
 					'reguarly',
 					'regularily',
 					'regulary',
+					'regulerly',
+				],
+				'regulars'=>[
+					'regulers',
+				],
+				'regulation'=>[
+					'regulatoin',
+					'regulaton',
+				],
+				'regulations'=>[
+					'regulatoins',
+					'regulatons',
+				],
+				'regurgitation'=>[
+					'regurgitatoin',
+					'regurgitaton',
 				],
 				'rehabbed'=>[
 					'rehabbbed',
@@ -4381,6 +7760,10 @@
 				'rehabilitant'=>[
 					'rehabilitent',
 				],
+				'rehabilitation'=>[
+					'rehabilitatoin',
+					'rehabilitaton',
+				],
 				'rehammers'=>[
 					'rehamners',
 				],
@@ -4389,18 +7772,73 @@
 				],
 				'rehear'=>[
 					'reheer',
+					'rehaer',
+				],
+				'reheard'=>[
+					'rehaerd',
+				],
+				'rehearing'=>[
+					'rehaering',
+				],
+				'rehearings'=>[
+					'rehaerings',
+				],
+				'rehears'=>[
+					'rehaers',
 				],
 				'rehearsal'=>[
 					'rehersal',
+					'rehaersal',
+				],
+				'rehearsals'=>[
+					'rehaersals',
 				],
 				'rehearse'=>[
 					'reherse',
+					'rehaerse',
+				],
+				'rehearsed'=>[
+					'rehaersed',
+				],
+				'rehearser'=>[
+					'rehaerser',
+				],
+				'rehearses'=>[
+					'rehaerses',
+				],
+				'rehearsing'=>[
+					'rehaersing',
+				],
+				'reheat'=>[
+					'rehaet',
+				],
+				'reheated'=>[
+					'rehaeted',
+				],
+				'reheating'=>[
+					'rehaeting',
+				],
+				'reheats'=>[
+					'rehaets',
 				],
 				'rehemming'=>[
 					'rehemning',
 				],
+				'rehired'=>[
+					'rehird',
+				],
+				'rehouse'=>[
+					'rehuose',
+				],
+				'rehoused'=>[
+					'rehuosed',
+				],
+				'rehouses'=>[
+					'rehuoses',
+				],
 				'rehousing'=>[
 					'rehouisng',
+					'rehuosing',
 				],
 				'rehydration'=>[
 					'rehydratation',
@@ -4427,30 +7865,85 @@
 				'reif'=>[
 					'rief',
 				],
+				'reification'=>[
+					'reificatoin',
+					'reificaton',
+					'riefication',
+				],
+				'reifications'=>[
+					'reificatoins',
+					'reificatons',
+					'riefications',
+				],
+				'reificatory'=>[
+					'rieficatory',
+				],
+				'reified'=>[
+					'reifeid',
+					'riefied',
+				],
+				'reifies'=>[
+					'reifeis',
+					'riefies',
+				],
 				'reifs'=>[
 					'riefs',
 				],
 				'reify'=>[
 					'riefy',
 				],
+				'reifying'=>[
+					'riefying',
+				],
 				'reign'=>[
 					'riegn',
 					'rcign',
 				],
+				'reigned'=>[
+					'reignd',
+					'riegned',
+				],
+				'reigning'=>[
+					'riegning',
+				],
 				'reignite'=>[
 					'riegnite',
 				],
+				'reignited'=>[
+					'riegnited',
+				],
+				'reignites'=>[
+					'riegnites',
+				],
+				'reigniting'=>[
+					'riegniting',
+				],
+				'reigns'=>[
+					'riegns',
+				],
 				'reimbursable'=>[
 					'riembursable',
+					'reimbursible',
 				],
 				'reimburse'=>[
 					'riemburse',
 				],
+				'reimbursed'=>[
+					'riembursed',
+				],
 				'reimbursement'=>[
 					'riembursement',
+					'reimbursemant',
 				],
 				'reimbursements'=>[
 					'riembursements',
+					'reimbursemants',
+				],
+				'reimburses'=>[
+					'riemburses',
+				],
+				'reimbursing'=>[
+					'riembursing',
 				],
 				'reimmerse'=>[
 					'reimnerse',
@@ -4473,26 +7966,48 @@
 				'reimportations'=>[
 					'riemportations',
 				],
+				'reimporting'=>[
+					'riemporting',
+				],
 				'reimpose'=>[
 					'riempose',
 				],
+				'reimposed'=>[
+					'riemposed',
+				],
+				'reimposes'=>[
+					'riemposes',
+				],
+				'reimposing'=>[
+					'riemposing',
+				],
 				'reimposition'=>[
 					'riemposition',
+					'reimpositoin',
+					'reimpositon',
 				],
 				'reimpositions'=>[
 					'riempositions',
+					'reimpositoins',
+					'reimpositons',
 				],
 				'reimpress'=>[
 					'reimpres',
 					'reimpresss',
+					'riempress',
 				],
 				'reimpression'=>[
 					'reimpresion',
 					'riempression',
 					'reimpresssion',
+					'reimpressoin',
+					'reimpresson',
 				],
 				'reimpressions'=>[
 					'riempressions',
+				],
+				'reimprison'=>[
+					'riemprison',
 				],
 				'rein'=>[
 					'rien',
@@ -4511,12 +8026,18 @@
 				],
 				'reincarnation'=>[
 					'riencarnation',
+					'reincarnatoin',
+					'reincarnaton',
 				],
 				'reincarnations'=>[
 					'riencarnations',
+					'reincarnatoins',
+					'reincarnatons',
 				],
 				'reincorporate'=>[
 					'riencorporate',
+					'reicorporate',
+					'reinorporate',
 				],
 				'reincorporated'=>[
 					'riencorporated',
@@ -4529,14 +8050,24 @@
 				],
 				'reincorporation'=>[
 					'riencorporation',
+					'reicorporation',
+					'reincorporatoin',
+					'reincorporaton',
+					'reinorporation',
+				],
+				'reincur'=>[
+					'riencur',
 				],
 				'reindeer'=>[
 					'riendeer',
 					'reindeeer',
 					'reinder',
+					'reideer',
+					'reineer',
 				],
 				'reindeers'=>[
 					'reindeeers',
+					'riendeers',
 				],
 				'reindictment'=>[
 					'riendictment',
@@ -4544,23 +8075,48 @@
 				'reindictments'=>[
 					'riendictments',
 				],
+				'reinduce'=>[
+					'rienduce',
+				],
 				'reindustrialize'=>[
 					'riendustrialize',
+				],
+				'reined'=>[
+					'reind',
+					'riened',
 				],
 				'reinfect'=>[
 					'rienfect',
 				],
+				'reinfected'=>[
+					'rienfected',
+				],
+				'reinfecting'=>[
+					'rienfecting',
+				],
 				'reinfection'=>[
 					'rienfection',
+					'reinfectoin',
+					'reinfecton',
 				],
 				'reinfections'=>[
 					'rienfections',
+					'reinfectoins',
+					'reinfectons',
+				],
+				'reinfects'=>[
+					'rienfects',
 				],
 				'reinfestation'=>[
 					'rienfestation',
 				],
 				'reinfestations'=>[
 					'rienfestations',
+				],
+				'reinflame'=>[
+					'reiflame',
+					'reinlame',
+					'rienflame',
 				],
 				'reinflate'=>[
 					'rienflate',
@@ -4571,6 +8127,8 @@
 				'reinforce'=>[
 					'reforce',
 					'rienforce',
+					'reiforce',
+					'reinorce',
 				],
 				'reinforceable'=>[
 					'reinforceible',
@@ -4578,6 +8136,9 @@
 				],
 				'reinforced'=>[
 					'rcinforccd',
+					'reiforced',
+					'reinorced',
+					'rienforced',
 				],
 				'reinforcement'=>[
 					# reenforcement: an accepted spelling, not a slip (AmericanBritishWords_R: reenforcement)
@@ -4587,12 +8148,38 @@
 				],
 				'reinforcements'=>[
 					'rienforcements',
+					'reinforcemants',
 				],
 				'reinforcer'=>[
 					'rienforcer',
 				],
+				'reinforcers'=>[
+					'rienforcers',
+				],
+				'reinforces'=>[
+					'reiforces',
+					'reinorces',
+					'rienforces',
+				],
+				'reinforcing'=>[
+					'reiforcing',
+					'reinorcing',
+					'rienforcing',
+				],
+				'reinfuse'=>[
+					'reifuse',
+					'reinuse',
+					'rienfuse',
+				],
 				'reinfusing'=>[
 					'reinfuisng',
+				],
+				'reinfusion'=>[
+					'reifusion',
+					'reinfusoin',
+					'reinfuson',
+					'reinusion',
+					'rienfusion',
 				],
 				'reinhabit'=>[
 					'rienhabit',
@@ -4602,6 +8189,15 @@
 				],
 				'reining'=>[
 					'reinang',
+					'riening',
+				],
+				'reinitialize'=>[
+					'reinitailize',
+					'rienitialize',
+				],
+				'reinitialized'=>[
+					'reinitailized',
+					'rienitialized',
 				],
 				'reinitiate'=>[
 					'reinatiate',
@@ -4634,6 +8230,9 @@
 					'reinervations',
 					'riennervations',
 				],
+				'reinoculate'=>[
+					'rienoculate',
+				],
 				'reinoculated'=>[
 					'rienoculated',
 				],
@@ -4645,6 +8244,8 @@
 				],
 				'reinoculation'=>[
 					'rienoculation',
+					'reinoculatoin',
+					'reinoculaton',
 				],
 				'reinoculations'=>[
 					'rienoculations',
@@ -4652,11 +8253,36 @@
 				'reins'=>[
 					'riens',
 				],
+				'reinscribe'=>[
+					'reincribe',
+					'reinsribe',
+					'rienscribe',
+				],
 				'reinsert'=>[
 					'riensert',
 				],
+				'reinserted'=>[
+					'rienserted',
+				],
+				'reinserting'=>[
+					'rienserting',
+				],
+				'reinsertion'=>[
+					'reinsertoin',
+					'reinserton',
+					'riensertion',
+				],
 				'reinsertions'=>[
 					'riensertions',
+				],
+				'reinserts'=>[
+					'rienserts',
+				],
+				'reinspect'=>[
+					'rienspect',
+				],
+				'reinspected'=>[
+					'rienspected',
 				],
 				'reinspecting'=>[
 					'rienspecting',
@@ -4667,10 +8293,16 @@
 				'reinspections'=>[
 					'rienspections',
 				],
+				'reinspects'=>[
+					'rienspects',
+				],
 				'reinstall'=>[
 					'reinstal',
 					'rienstall',
 					'reinstalll',
+					'reinsall',
+					'reintall',
+					'reistall',
 				],
 				'reinstallation'=>[
 					'rienstallation',
@@ -4681,25 +8313,84 @@
 				'reinstalled'=>[
 					'reinstaled',
 					'reinstallled',
+					'reintalled',
+					'reistalled',
+					'rienstalled',
 				],
 				'reinstalling'=>[
 					'reinstaling',
 					'reinstallling',
+					'reintalling',
+					'reistalling',
+					'rienstalling',
 				],
 				'reinstate'=>[
 					'rienstate',
+					'reintate',
+					'reistate',
+				],
+				'reinstated'=>[
+					'reintated',
+					'reistated',
+					'rienstated',
+				],
+				'reinstatement'=>[
+					'reinstatemant',
+					'reintatement',
+					'reistatement',
+					'rienstatement',
 				],
 				'reinstatements'=>[
 					'rienstatements',
 				],
+				'reinstates'=>[
+					'reintates',
+					'reistates',
+					'rienstates',
+				],
+				'reinstating'=>[
+					'reintating',
+					'reistating',
+					'rienstating',
+				],
+				'reinstruct'=>[
+					'rienstruct',
+				],
 				'reinsurance'=>[
 					'reinsurence',
+					'riensurance',
 				],
 				'reinsure'=>[
 					'riensure',
+					'reinure',
+					'reisure',
+				],
+				'reinsured'=>[
+					'reinsurd',
+					'riensured',
+				],
+				'reinsures'=>[
+					'riensures',
+				],
+				'reinsuring'=>[
+					'riensuring',
 				],
 				'reintegrate'=>[
 					'rientegrate',
+				],
+				'reintegrated'=>[
+					'rientegrated',
+				],
+				'reintegrates'=>[
+					'rientegrates',
+				],
+				'reintegrating'=>[
+					'rientegrating',
+				],
+				'reintegration'=>[
+					'reintegratoin',
+					'reintegraton',
+					'rientegration',
 				],
 				'reintegrations'=>[
 					'rientegrations',
@@ -4712,6 +8403,16 @@
 				],
 				'reinterpret'=>[
 					'rienterpret',
+				],
+				'reinterpretation'=>[
+					'reinterpretatoin',
+					'reinterpretaton',
+					'rienterpretation',
+				],
+				'reinterpretations'=>[
+					'reinterpretatoins',
+					'reinterpretatons',
+					'rienterpretations',
 				],
 				'reinterpreted'=>[
 					'rienterpreted',
@@ -4740,11 +8441,18 @@
 				'reintroduces'=>[
 					'rientroduces',
 				],
+				'reintroducing'=>[
+					'rientroducing',
+				],
 				'reintroduction'=>[
 					'rientroduction',
+					'reintroductoin',
+					'reintroducton',
 				],
 				'reintroductions'=>[
 					'rientroductions',
+					'reintroductoins',
+					'reintroductons',
 				],
 				'reinvade'=>[
 					'rienvade',
@@ -4752,12 +8460,43 @@
 				'reinvent'=>[
 					'reinvant',
 					'rienvent',
+					'reinent',
+					'reivent',
+				],
+				'reinvented'=>[
+					'rienvented',
+				],
+				'reinventing'=>[
+					'reinenting',
+					'reiventing',
+					'rienventing',
+				],
+				'reinvention'=>[
+					'reinventoin',
+					'reinventon',
+					'rienvention',
 				],
 				'reinventions'=>[
 					'rienventions',
+					'reinventoins',
+					'reinventons',
+				],
+				'reinvents'=>[
+					'reinents',
+					'reinvants',
+					'reivents',
+					'rienvents',
 				],
 				'reinvest'=>[
 					'rienvest',
+					'reivest',
+				],
+				'reinvested'=>[
+					'reivested',
+					'rienvested',
+				],
+				'reinvestigate'=>[
+					'rienvestigate',
 				],
 				'reinvestigated'=>[
 					'rienvestigated',
@@ -4770,21 +8509,39 @@
 				],
 				'reinvestigation'=>[
 					'rienvestigation',
+					'reinvestigatoin',
+					'reinvestigaton',
+				],
+				'reinvesting'=>[
+					'rienvesting',
 				],
 				'reinvestment'=>[
 					'rienvestment',
+					'reinvestmant',
 				],
 				'reinvestor'=>[
 					'reinvester',
 				],
+				'reinvests'=>[
+					'reivests',
+					'rienvests',
+				],
 				'reinvigorate'=>[
 					'rienvigorate',
+				],
+				'reinvigorated'=>[
+					'rienvigorated',
+				],
+				'reinvigorates'=>[
+					'rienvigorates',
 				],
 				'reinvigorating'=>[
 					'rienvigorating',
 				],
 				'reinvigoration'=>[
 					'rienvigoration',
+					'reinvigoratoin',
+					'reinvigoraton',
 				],
 				'reinvigorations'=>[
 					'rienvigorations',
@@ -4799,27 +8556,68 @@
 					'reisue',
 					'riessue',
 					'reisssue',
+					'reisseu',
 				],
 				'reissued'=>[
 					'reisssued',
 					'reisued',
+					'reisseud',
+					'riessued',
 				],
 				'reissues'=>[
 					'reisssues',
 					'reisues',
+					'reisseus',
+					'riessues',
 				],
 				'reissuing'=>[
 					'reisssuing',
 					'reisuing',
+					'reissiung',
+					'riessuing',
+				],
+				'reiterant'=>[
+					'reiterent',
+					'rieterant',
 				],
 				'reiterate'=>[
 					'rieterate',
+				],
+				'reiterated'=>[
+					'rieterated',
+				],
+				'reiterates'=>[
+					'rieterates',
+				],
+				'reiterating'=>[
+					'rieterating',
+				],
+				'reiteration'=>[
+					'reiteratoin',
+					'reiteraton',
+					'rieteration',
+				],
+				'reiterations'=>[
+					'reiteratoins',
+					'reiteratons',
+					'rieterations',
+				],
+				'reiterative'=>[
+					'rieterative',
 				],
 				'reiteratively'=>[
 					'reiterativly',
 				],
 				'reive'=>[
 					'rieve',
+				],
+				'rejection'=>[
+					'rejectoin',
+					'rejecton',
+				],
+				'rejections'=>[
+					'rejectoins',
+					'rejectons',
 				],
 				'rejigged'=>[
 					'rejiged',
@@ -4832,6 +8630,7 @@
 				'rejiggered'=>[
 					'rejigered',
 					'rejigggered',
+					'rejiggerd',
 				],
 				'rejiggering'=>[
 					'rejigering',
@@ -4844,11 +8643,56 @@
 				'rejigging'=>[
 					'rejiggging',
 				],
+				'rejoice'=>[
+					'rejioce',
+				],
+				'rejoiced'=>[
+					'rejioced',
+				],
+				'rejoicer'=>[
+					'rejiocer',
+				],
+				'rejoices'=>[
+					'rejioces',
+				],
+				'rejoicing'=>[
+					'rejiocing',
+				],
+				'rejoicings'=>[
+					'rejiocings',
+				],
+				'rejoin'=>[
+					'rejion',
+				],
+				'rejoinder'=>[
+					'rejionder',
+				],
+				'rejoinders'=>[
+					'rejionders',
+				],
+				'rejoined'=>[
+					'rejioned',
+					'rejoind',
+				],
+				'rejoining'=>[
+					'rejioning',
+				],
+				'rejoins'=>[
+					'rejions',
+				],
 				'rejuggling'=>[
 					'rejugling',
 				],
 				'rejuvenate'=>[
 					'rejuvinate',
+				],
+				'rejuvenation'=>[
+					'rejuvenatoin',
+					'rejuvenaton',
+				],
+				'rejuvenations'=>[
+					'rejuvenatoins',
+					'rejuvenatons',
 				],
 				'rejuvenescence'=>[
 					'rejuvenecence',
@@ -4882,8 +8726,12 @@
 				'relabelling'=>[
 					'relabellling',
 				],
+				'relaid'=>[
+					'reliad',
+				],
 				'relatable'=>[
 					'realatable',
+					'relatible',
 				],
 				'related'=>[
 					'realted',
@@ -4898,13 +8746,31 @@
 				],
 				'relation'=>[
 					'realtion',
+					'relatoin',
+					'relaton',
+				],
+				'relational'=>[
+					'relatoinal',
+					'relatonal',
 				],
 				'relationally'=>[
 					'relationallly',
 					'relationaly',
+					'relatoinally',
+					'relatonally',
+				],
+				'relations'=>[
+					'relatoins',
+					'relatons',
 				],
 				'relationship'=>[
 					'relationsliip',
+					'relatoinship',
+				],
+				'relationships'=>[
+					'relationhips',
+					'relationsips',
+					'relatoinships',
 				],
 				'relative'=>[
 					'realtive',
@@ -4929,24 +8795,62 @@
 					'relativisticallly',
 					'relativisticaly',
 				],
+				'relaunch'=>[
+					'reluanch',
+				],
+				'relaunched'=>[
+					'reluanched',
+				],
+				'relaunches'=>[
+					'reluanches',
+				],
+				'relaunching'=>[
+					'reluanching',
+				],
 				'relaxant'=>[
 					'relaxent',
+				],
+				'relaxants'=>[
+					'relaxents',
+				],
+				'relaxation'=>[
+					'relaxatoin',
+					'relaxaton',
+				],
+				'relaxations'=>[
+					'relaxatoins',
+					'relaxatons',
 				],
 				'relaxosome'=>[
 					'relaxasome',
 					'relaxome',
+				],
+				'relearn'=>[
+					'relaern',
+				],
+				'relearned'=>[
+					'relaerned',
+					'relearnd',
+				],
+				'relearning'=>[
+					'relaerning',
+				],
+				'relearns'=>[
+					'relaerns',
 				],
 				'releasability'=>[
 					'releaseability',
 				],
 				'releasable'=>[
 					'releasible',
+					'relaesable',
 				],
 				'release'=>[
 					'realease',
 					'relase',
 					'relesae',
 					'relese',
+					'relaese',
 				],
 				'released'=>[
 					'realeased',
@@ -4956,8 +8860,15 @@
 					'releafed',
 					'releasecl',
 				],
+				'releaser'=>[
+					'relaeser',
+				],
 				'releases'=>[
 					'realeases',
+					'relaeses',
+				],
+				'releasing'=>[
+					'relaesing',
 				],
 				'relegate'=>[
 					'relagate',
@@ -4967,6 +8878,8 @@
 				],
 				'relegation'=>[
 					'relagation',
+					'relegatoin',
+					'relegaton',
 				],
 				'relent'=>[
 					'relant',
@@ -4979,6 +8892,7 @@
 				'relentlessly'=>[
 					'relentlesly',
 					'relentlesssly',
+					'relentlessely',
 				],
 				'relentlessness'=>[
 					'relentlesness',
@@ -4994,6 +8908,7 @@
 				'relevancy'=>[
 					'relevansy',
 					'revelancy',
+					'relevency',
 				],
 				'relevant'=>[
 					'relavent',
@@ -5001,22 +8916,43 @@
 					'revelant',
 					'relavant',
 				],
+				'relevantly'=>[
+					'relevantely',
+					'relevently',
+				],
+				'reliabilities'=>[
+					'relaibilities',
+					'reliabiliteis',
+				],
 				'reliability'=>[
 					'reliablity',
+					'relaibility',
 				],
 				'reliable'=>[
 					'reliible',
+					'relaible',
 				],
 				'reliableness'=>[
 					'reliablenes',
 					'reliablenesss',
+					'relaibleness',
+				],
+				'reliably'=>[
+					'relaibly',
 				],
 				'reliance'=>[
 					'relience',
 					'rehance',
+					'relaince',
 				],
 				'reliant'=>[
 					'relient',
+					'relaint',
+				],
+				'reliantly'=>[
+					'relaintly',
+					'reliantely',
+					'reliently',
 				],
 				'relic'=>[
 					'rclic',
@@ -5024,10 +8960,19 @@
 				'relicense'=>[
 					'relicence',
 				],
+				'relied'=>[
+					'releid',
+				],
 				'relief'=>[
 					'releif',
 					'relif',
 					'rclief',
+				],
+				'reliefs'=>[
+					'releifs',
+				],
+				'relies'=>[
+					'releis',
 				],
 				'relieve'=>[
 					'releave',
@@ -5041,21 +8986,64 @@
 					'releiver',
 					'reliver',
 				],
+				'relievers'=>[
+					'releivers',
+				],
+				'relieves'=>[
+					'releives',
+				],
+				'relieving'=>[
+					'releiving',
+				],
+				'religieuse'=>[
+					'religeiuse',
+					'religiuese',
+				],
+				'religieux'=>[
+					'religeiux',
+					'religiuex',
+				],
 				'religion'=>[
 					'religon',
 					'rcligion',
 					'rehgion',
 					'religiou',
+					'religoin',
+				],
+				'religionism'=>[
+					'religoinism',
+					'religonism',
+				],
+				'religionist'=>[
+					'religoinist',
+					'religonist',
+				],
+				'religionists'=>[
+					'religoinists',
+					'religonists',
 				],
 				'religions'=>[
 					'religons',
 					'rehgions',
+					'religoins',
+				],
+				'religiose'=>[
+					'religoise',
+				],
+				'religiosities'=>[
+					'religiositeis',
+					'religoisities',
+				],
+				'religiosity'=>[
+					'religoisity',
 				],
 				'religious'=>[
 					'rehgious',
 					'religeous',
 					'religous',
 					'religioiis',
+					'religiuos',
+					'religoius',
 				],
 				'religiously'=>[
 					'religiousally',
@@ -5064,27 +9052,87 @@
 					'religiouslly',
 					'religously',
 					'religioufly',
+					'religiuosly',
+					'religoiusly',
 				],
 				'religiousness'=>[
 					'religiousnes',
 					'religiousnesss',
+					'religiuosness',
+					'religoiusness',
+					'religousness',
 				],
 				'reline'=>[
 					'relini',
 				],
+				'relined'=>[
+					'relind',
+				],
+				'relinquish'=>[
+					'relinqiush',
+				],
 				'relinquished'=>[
 					'relinuished',
 					'reliquished',
+					'relinqiushed',
+				],
+				'relinquisher'=>[
+					'relinqiusher',
+				],
+				'relinquishes'=>[
+					'relinqiushes',
+				],
+				'relinquishing'=>[
+					'relinqiushing',
+				],
+				'relinquishment'=>[
+					'relinqiushment',
+					'relinquishmant',
 				],
 				'reliquaries'=>[
 					'reliqauries',
+					'reliquareis',
+					'reliqueries',
 				],
 				'reliquary'=>[
 					'reliqaury',
 					'reliquery',
 				],
+				'reliquiae'=>[
+					'reliqiuae',
+					'reliquaie',
+					'reliquiea',
+				],
 				'relish'=>[
 					'relisli',
+				],
+				'relishable'=>[
+					'relishible',
+				],
+				'relivable'=>[
+					'relivible',
+				],
+				'reload'=>[
+					'relaod',
+				],
+				'reloaded'=>[
+					'relaoded',
+				],
+				'reloading'=>[
+					'relaoding',
+				],
+				'reloads'=>[
+					'relaods',
+				],
+				'relocatable'=>[
+					'relocatible',
+				],
+				'relocation'=>[
+					'relocatoin',
+					'relocaton',
+				],
+				'relucent'=>[
+					'relucant',
 				],
 				'reluctance'=>[
 					'reluctence',
@@ -5095,6 +9143,13 @@
 				'reluctant'=>[
 					'reluctent',
 					'rclnctant',
+				],
+				'reluctantly'=>[
+					'reluctantely',
+					'reluctently',
+				],
+				'reluctivities'=>[
+					'reluctiviteis',
 				],
 				'relumining'=>[
 					'reluminang',
@@ -5109,10 +9164,26 @@
 				],
 				'remainder'=>[
 					'remaincler',
+					'remiander',
+				],
+				'remaindered'=>[
+					'remainderd',
+					'remiandered',
+				],
+				'remaindering'=>[
+					'remiandering',
+				],
+				'remainderman'=>[
+					'remianderman',
+				],
+				'remainders'=>[
+					'remianders',
 				],
 				'remained'=>[
 					'remaned',
 					'reniained',
+					'remaind',
+					'remianed',
 				],
 				'remaining'=>[
 					'remaing',
@@ -5120,16 +9191,24 @@
 					'remainin',
 					'remaning',
 					'rcmaining',
+					'remianing',
 				],
 				'remains'=>[
 					'reinaiiis',
 					'reinains',
 					'remaius',
 					'reniains',
+					'remians',
+				],
+				'remandment'=>[
+					'remandmant',
 				],
 				'remanence'=>[
 					'remanance',
 					'remenance',
+				],
+				'remanent'=>[
+					'remanant',
 				],
 				'remanned'=>[
 					'remaned',
@@ -5147,6 +9226,7 @@
 				'remarkableness'=>[
 					'remarkablenes',
 					'remarkablenesss',
+					'remarkibleness',
 				],
 				'remarkably'=>[
 					'remarkabally',
@@ -5154,22 +9234,30 @@
 					'remarkabely',
 					'remarkablly',
 					'remarkabley',
+					'remarkibly',
+				],
+				'remarque'=>[
+					'remarqeu',
 				],
 				'remarriage'=>[
 					'remariage',
 					'remarrriage',
+					'remarraige',
 				],
 				'remarriages'=>[
 					'remariages',
 					'remarrriages',
+					'remarraiges',
 				],
 				'remarried'=>[
 					'remaried',
 					'remarrried',
+					'remarreid',
 				],
 				'remarries'=>[
 					'remaries',
 					'remarrries',
+					'remarreis',
 				],
 				'remarry'=>[
 					'remary',
@@ -5181,16 +9269,49 @@
 				],
 				'remastered'=>[
 					'remaster',
+					'remasterd',
+				],
+				'rematerialized'=>[
+					'rematerailized',
 				],
 				'rembrance'=>[
 					'rememberance',
 				],
+				'remeasure'=>[
+					'remaesure',
+				],
+				'remeasured'=>[
+					'remaesured',
+					'remeasurd',
+				],
+				'remeasures'=>[
+					'remaesures',
+				],
+				'remeasuring'=>[
+					'remaesuring',
+				],
 				'remediable'=>[
 					'remediible',
+					'remedaible',
+				],
+				'remedial'=>[
+					'remedail',
 				],
 				'remedially'=>[
 					'remediallly',
 					'remedialy',
+					'remedailly',
+				],
+				'remediation'=>[
+					'remedaition',
+					'remediatoin',
+					'remediaton',
+				],
+				'remedied'=>[
+					'remedeid',
+				],
+				'remedies'=>[
+					'remedeis',
 				],
 				'remediless'=>[
 					'remediles',
@@ -5213,6 +9334,7 @@
 				],
 				'rememberable'=>[
 					'remberable',
+					'rememberible',
 				],
 				'remembered'=>[
 					'rembered',
@@ -5245,9 +9367,14 @@
 				'remembrances'=>[
 					'rembrances',
 					'rememberances',
+					'remembrences',
 				],
 				'remifentanil'=>[
 					'remifentanyl',
+				],
+				'remigration'=>[
+					'remigratoin',
+					'remigraton',
 				],
 				'reminisce'=>[
 					'reminasce',
@@ -5257,6 +9384,8 @@
 				],
 				'reminisced'=>[
 					'reminasced',
+					'reminiced',
+					'reminised',
 				],
 				'reminiscence'=>[
 					'reminascence',
@@ -5267,6 +9396,9 @@
 				],
 				'reminiscences'=>[
 					'reminascences',
+					'reminicences',
+					'reminiscances',
+					'reminisences',
 				],
 				'reminiscent'=>[
 					'reminascent',
@@ -5288,12 +9420,21 @@
 					'reminiscentaly',
 					'reminiscentely',
 					'reminiscentlly',
+					'reminicently',
+					'reminiscantly',
+					'reminisently',
 				],
 				'reminiscer'=>[
 					'reminascer',
 				],
 				'reminisces'=>[
 					'reminasces',
+					'reminices',
+					'reminises',
+				],
+				'reminiscing'=>[
+					'reminicing',
+					'reminising',
 				],
 				'remiss'=>[
 					'remis',
@@ -5302,6 +9443,7 @@
 				'remissibility'=>[
 					'remisibility',
 					'remisssibility',
+					'remissability',
 				],
 				'remissible'=>[
 					'remissable',
@@ -5311,19 +9453,25 @@
 				'remissibly'=>[
 					'remisibly',
 					'remisssibly',
+					'remissably',
 				],
 				'remission'=>[
 					'remision',
 					'remisssion',
 					'remiffion',
+					'remissoin',
+					'remisson',
 				],
 				'remissions'=>[
 					'remisions',
 					'remisssions',
+					'remissoins',
+					'remissons',
 				],
 				'remissly'=>[
 					'remisly',
 					'remisssly',
+					'remissely',
 				],
 				'remissness'=>[
 					'remisness',
@@ -5334,6 +9482,7 @@
 				'remittable'=>[
 					'remitable',
 					'remitttable',
+					'remittible',
 				],
 				'remittal'=>[
 					'remital',
@@ -5376,6 +9525,7 @@
 				],
 				'remnants'=>[
 					'remanants',
+					'remnents',
 				],
 					# remodelled: an accepted spelling, not a slip (AmericanBritishWords_R: remodeled)
 			#	'remodeled'=>[
@@ -5391,11 +9541,18 @@
 				'remodelling'=>[
 					'remodellling',
 				],
+				'remodification'=>[
+					'remodificatoin',
+					'remodificaton',
+				],
 				'remoistened'=>[
 					'remoistend',
 				],
 				'remonstrance'=>[
 					'remonstrence',
+				],
+				'remonstrances'=>[
+					'remonstrences',
 				],
 				'remonstrant'=>[
 					'remonstrent',
@@ -5405,6 +9562,18 @@
 					'remonstrantaly',
 					'remonstrantely',
 					'remonstrantlly',
+					'remonstrently',
+				],
+				'remonstrants'=>[
+					'remonstrents',
+				],
+				'remonstration'=>[
+					'remonstratoin',
+					'remonstraton',
+				],
+				'remonstrations'=>[
+					'remonstratoins',
+					'remonstratons',
 				],
 				'remonstratively'=>[
 					'remonstrativeally',
@@ -5412,6 +9581,9 @@
 					'remonstrativeely',
 					'remonstrativelly',
 					'remonstrativly',
+				],
+				'remontant'=>[
+					'remontent',
 				],
 				'remora'=>[
 					'remoura',
@@ -5432,6 +9604,8 @@
 					'remoursefully',
 					'remorsefullly',
 					'remorsefuly',
+					'remorseully',
+					'remorsfully',
 				],
 				'remorsefulness'=>[
 					'remoursefulness',
@@ -5470,11 +9644,42 @@
 					'remotenes',
 					'remotenesss',
 				],
+				'remotion'=>[
+					'remotoin',
+					'remoton',
+				],
+				'remotions'=>[
+					'remotoins',
+					'remotons',
+				],
+				'remount'=>[
+					'remuont',
+				],
+				'remounted'=>[
+					'remuonted',
+				],
+				'remounting'=>[
+					'remuonting',
+				],
+				'remounts'=>[
+					'remuonts',
+				],
 				'removable'=>[
 					'removible',
 				],
+				'removably'=>[
+					'removibly',
+				],
 				'remove'=>[
 					'reomove',
+				],
+				'remuneration'=>[
+					'remuneratoin',
+					'remuneraton',
+				],
+				'remunerations'=>[
+					'remuneratoins',
+					'remuneratons',
 				],
 				'remuneratively'=>[
 					'remunerativly',
@@ -5484,10 +9689,13 @@
 					'renaissence',
 					'rennaisance',
 					'renaisssance',
+					'reniassance',
 				],
 				'renaissances'=>[
 					'renaisances',
 					'renaisssances',
+					'renaissences',
+					'reniassances',
 				],
 				'renascence'=>[
 					'renacence',
@@ -5495,23 +9703,78 @@
 					'renascance',
 					'renasence',
 				],
+				'renascences'=>[
+					'renacences',
+					'renascances',
+					'renasences',
+				],
+				'renascent'=>[
+					'renacent',
+					'renascant',
+					'renasent',
+				],
+				'renationalized'=>[
+					'renatoinalized',
+				],
+				'rencounter'=>[
+					'rencuonter',
+				],
 				'render'=>[
 					'renc/tr',
 				],
+				'rendered'=>[
+					'renderd',
+				],
 				'rendezvous'=>[
 					'rendevous',
+					'rendezvuos',
+				],
+				'rendezvoused'=>[
+					'rendezvuosed',
+				],
+				'rendezvouses'=>[
+					'rendezvuoses',
 				],
 				'rendezvousing'=>[
 					'rendezvouisng',
+					'rendezvuosing',
 				],
 				'rendible'=>[
 					'rendable',
+				],
+				'rendition'=>[
+					'renditoin',
+					'renditon',
+				],
+				'renditions'=>[
+					'renditoins',
+					'renditons',
 				],
 				'rendzina'=>[
 					'rendzini',
 				],
 				'rendzinas'=>[
 					'rendzinis',
+				],
+				'renegotiable'=>[
+					'renegotaible',
+				],
+				'renegotiate'=>[
+					'renegotaite',
+				],
+				'renegotiated'=>[
+					'renegotaited',
+				],
+				'renegotiates'=>[
+					'renegotaites',
+				],
+				'renegotiating'=>[
+					'renegotaiting',
+				],
+				'renegotiation'=>[
+					'renegotaition',
+					'renegotiatoin',
+					'renegotiaton',
 				],
 				'renewable'=>[
 					'renewible',
@@ -5530,6 +9793,9 @@
 				],
 				'renitency'=>[
 					'renitensy',
+				],
+				'renitent'=>[
+					'renitant',
 				],
 				'renminbi'=>[
 					'reminbi',
@@ -5560,9 +9826,43 @@
 				],
 				'renomination'=>[
 					'renominition',
+					'renominatoin',
+					'renominaton',
 				],
 				'renominations'=>[
 					'renominitions',
+				],
+				'renormalization'=>[
+					'renormalizatoin',
+					'renormalizaton',
+				],
+				'renotification'=>[
+					'renotificatoin',
+					'renotificaton',
+				],
+				'renounce'=>[
+					'renuonce',
+				],
+				'renounceable'=>[
+					'renouncaeble',
+					'renounceible',
+					'renuonceable',
+				],
+				'renounced'=>[
+					'renuonced',
+				],
+				'renouncement'=>[
+					'renouncemant',
+					'renuoncement',
+				],
+				'renouncer'=>[
+					'renuoncer',
+				],
+				'renounces'=>[
+					'renuonces',
+				],
+				'renouncing'=>[
+					'renuoncing',
 				],
 				'renovascular'=>[
 					'renovasculer',
@@ -5572,6 +9872,12 @@
 				],
 				'renovation'=>[
 					'rennovation',
+					'renovatoin',
+					'renovaton',
+				],
+				'renovations'=>[
+					'renovatoins',
+					'renovatons',
 				],
 				'renown'=>[
 					'reknown',
@@ -5581,9 +9887,16 @@
 					'renound',
 					'renouned',
 					'renowed',
+					'renownd',
+				],
+				'rensselaerite'=>[
+					'rensselearite',
 				],
 				'rent'=>[
 					'reant',
+				],
+				'rentable'=>[
+					'rentible',
 				],
 				'rental'=>[
 					'rantal',
@@ -5596,9 +9909,39 @@
 				],
 				'rentier'=>[
 					'rantier',
+					'renteir',
+				],
+				'rentiers'=>[
+					'renteirs',
 				],
 				'rents'=>[
 					'reants',
+				],
+				'renumbered'=>[
+					'renumberd',
+				],
+				'renunciant'=>[
+					'renuncaint',
+					'renuncient',
+				],
+				'renunciation'=>[
+					'renuncaition',
+					'renunciatoin',
+					'renunciaton',
+				],
+				'renunciations'=>[
+					'renuncaitions',
+					'renunciatoins',
+					'renunciatons',
+				],
+				'renunciative'=>[
+					'renuncaitive',
+				],
+				'renunciatory'=>[
+					'renuncaitory',
+				],
+				'renvoi'=>[
+					'renvio',
 				],
 				'rené'=>[
 					'rene',
@@ -5611,6 +9954,9 @@
 				'reoccupation'=>[
 					'reocupation',
 					'reocccupation',
+					'reoccupatoin',
+					'reoccupaton',
+					'roeccupation',
 				],
 				'reoccupations'=>[
 					'reocupations',
@@ -5618,27 +9964,35 @@
 				'reoccupied'=>[
 					'reocccupied',
 					'reocupied',
+					'reoccupeid',
+					'roeccupied',
 				],
 				'reoccupies'=>[
 					'reocccupies',
 					'reocupies',
+					'reoccupeis',
+					'roeccupies',
 				],
 				'reoccupy'=>[
 					'reocupy',
 					'reocccupy',
+					'roeccupy',
 				],
 				'reoccupying'=>[
 					'reocupying',
 					'reocccupying',
+					'roeccupying',
 				],
 				'reoccur'=>[
 					'reocur',
 					'reocccur',
+					'roeccur',
 				],
 				'reoccurred'=>[
 					'reocccurred',
 					'reoccurrred',
 					'reocurred',
+					'roeccurred',
 				],
 				'reoccurrence'=>[
 					'reoccurrance',
@@ -5646,6 +10000,7 @@
 					'reocccurrence',
 					'reoccurence',
 					'reoccurrrence',
+					'roeccurrence',
 				],
 				'reoccurrences'=>[
 					'reocurrences',
@@ -5654,13 +10009,25 @@
 					'reocurring',
 					'reocccurring',
 					'reoccurrring',
+					'roeccurring',
 				],
 				'reoccurs'=>[
 					'reocurs',
 					'reocccurs',
+					'roeccurs',
+				],
+				'reopen'=>[
+					'roepen',
 				],
 				'reopened'=>[
 					'reopend',
+					'roepened',
+				],
+				'reopening'=>[
+					'roepening',
+				],
+				'reopens'=>[
+					'roepens',
 				],
 				'reopposed'=>[
 					'reoposed',
@@ -5671,32 +10038,161 @@
 				'reopposing'=>[
 					'reoposing',
 				],
+				'reorder'=>[
+					'roerder',
+				],
+				'reordered'=>[
+					'reorderd',
+					'roerdered',
+				],
+				'reordering'=>[
+					'roerdering',
+				],
+				'reorders'=>[
+					'roerders',
+				],
+				'reorganization'=>[
+					'reorganizatoin',
+					'reorganizaton',
+					'roerganization',
+				],
+				'reorganizations'=>[
+					'reorganizatoins',
+					'reorganizatons',
+					'roerganizations',
+				],
+				'reorganize'=>[
+					'roerganize',
+				],
+				'reorganized'=>[
+					'roerganized',
+				],
+				'reorganizes'=>[
+					'roerganizes',
+				],
+				'reorganizing'=>[
+					'roerganizing',
+				],
 				'reorient'=>[
 					'reoreint',
 					'reoriant',
 					'reorint',
+					'roerient',
+				],
+				'reorientate'=>[
+					'reoreintate',
+					'roerientate',
+				],
+				'reorientated'=>[
+					'reoreintated',
+					'roerientated',
+				],
+				'reorientates'=>[
+					'reoreintates',
+					'roerientates',
+				],
+				'reorientating'=>[
+					'reoreintating',
+					'roerientating',
+				],
+				'reorientation'=>[
+					'reoreintation',
+					'reorientatoin',
+					'reorientaton',
+					'roerientation',
+				],
+				'reoriented'=>[
+					'reoreinted',
+					'roeriented',
+				],
+				'reorienting'=>[
+					'reoreinting',
+					'roerienting',
+				],
+				'reorients'=>[
+					'reoreints',
+					'reoriants',
+					'roerients',
 				],
 				'reovirus'=>[
 					'rheovirus',
 				],
 				'repaid'=>[
 					'repayed',
+					'repiad',
+				],
+				'repaint'=>[
+					'repiant',
+				],
+				'repainted'=>[
+					'repianted',
+				],
+				'repainting'=>[
+					'repianting',
+				],
+				'repaints'=>[
+					'repiants',
+				],
+				'repair'=>[
+					'repiar',
+				],
+				'repairable'=>[
+					'repairible',
+					'repiarable',
+				],
+				'repaired'=>[
+					'repaird',
+					'repiared',
+					'repired',
+				],
+				'repairer'=>[
+					'repiarer',
+				],
+				'repairers'=>[
+					'repiarers',
+				],
+				'repairing'=>[
+					'repiaring',
+					'repiring',
+				],
+				'repairman'=>[
+					'repiarman',
+				],
+				'repairmen'=>[
+					'repiarmen',
 				],
 				'repairs'=>[
 					'rcpairs',
+					'repiars',
+					'repirs',
+				],
+				'repairwoman'=>[
+					'repairoman',
+					'repaiwoman',
+					'repiarwoman',
 				],
 				'reparable'=>[
 					'reparible',
 					'reperable',
 				],
+				'reparably'=>[
+					'reparibly',
+				],
 				'reparation'=>[
 					'reperation',
+					'reparatoin',
+					'reparaton',
 				],
 				'reparations'=>[
 					'reperations',
+					'reparatoins',
+					'reparatons',
 				],
 				'reparative'=>[
 					'reperative',
+				],
+				'reparatory'=>[
+					'reperatory',
 				],
 				'reparks'=>[
 					'reperks',
@@ -5708,6 +10204,17 @@
 				],
 				'repartition'=>[
 					'repertition',
+					'repartitoin',
+					'repartiton',
+				],
+				'repartitioned'=>[
+					'repartitiond',
+					'repartitoined',
+					'repartitoned',
+				],
+				'repartitioning'=>[
+					'repartitoining',
+					'repartitoning',
 				],
 				'repartitions'=>[
 					'repertitions',
@@ -5716,20 +10223,84 @@
 					'repas',
 					'repasss',
 				],
+				'repatriate'=>[
+					'repatraite',
+				],
+				'repatriated'=>[
+					'repatraited',
+				],
+				'repatriates'=>[
+					'repatraites',
+				],
+				'repatriating'=>[
+					'repatraiting',
+				],
+				'repatriation'=>[
+					'repatraition',
+					'repatriatoin',
+					'repatriaton',
+				],
+				'repatriations'=>[
+					'repatraitions',
+					'repatriatoins',
+					'repatriatons',
+				],
+				'repayable'=>[
+					'repayible',
+				],
+				'repayment'=>[
+					'repaymant',
+				],
+				'repayments'=>[
+					'repaymants',
+				],
 				'repeal'=>[
 					'repel',
+					'repael',
+				],
+				'repealable'=>[
+					'repaelable',
+					'repealible',
+				],
+				'repealed'=>[
+					'repaeled',
+				],
+				'repealer'=>[
+					'repaeler',
+				],
+				'repealing'=>[
+					'repaeling',
+				],
+				'repeals'=>[
+					'repaels',
 				],
 				'repeat'=>[
 					'repeat repeat',
 					'repeat repeat repeat',
 					'repet',
+					'repaet',
 				],
 				'repeatabilities'=>[
 					'repetabilities',
 				],
+				'repeatability'=>[
+					'repaetability',
+					'repeaability',
+					'repeatbility',
+					'repeatibility',
+				],
+				'repeatable'=>[
+					'repaetable',
+					'repeatible',
+				],
+				'repeatably'=>[
+					'repaetably',
+					'repeatibly',
+				],
 				'repeated'=>[
 					'repeted',
 					'repeatecl',
+					'repaeted',
 				],
 				'repeatedly'=>[
 					'repeatedally',
@@ -5738,6 +10309,19 @@
 					'repeatedlly',
 					'repeatly',
 					'repetedly',
+					'repaetedly',
+				],
+				'repeater'=>[
+					'repaeter',
+				],
+				'repeaters'=>[
+					'repaeters',
+				],
+				'repeating'=>[
+					'repaeting',
+				],
+				'repeats'=>[
+					'repaets',
 				],
 				'repechage'=>[
 					'repecharge',
@@ -5761,6 +10345,7 @@
 				'repellence'=>[
 					'repelence',
 					'repelllence',
+					'repellance',
 				],
 				'repellency'=>[
 					'repellensy',
@@ -5775,6 +10360,7 @@
 				'repellently'=>[
 					'repelently',
 					'repelllently',
+					'repellentely',
 				],
 				'repellents'=>[
 					'repelents',
@@ -5797,13 +10383,27 @@
 				'repentant'=>[
 					'repentent',
 				],
+				'repentantly'=>[
+					'repentantely',
+					'repentently',
+				],
+				'repenter'=>[
+					'repnter',
+				],
+				'repeople'=>[
+					'repoeple',
+				],
 				'repercussion'=>[
 					'repercusion',
 					'repercusssion',
+					'repercussoin',
+					'repercusson',
 				],
 				'repercussions'=>[
 					'repercusions',
 					'repercusssions',
+					'repercussoins',
+					'repercussons',
 				],
 				'repercussive'=>[
 					'repercusive',
@@ -5813,14 +10413,32 @@
 					'repertoir',
 					'repetoire',
 					'reåertoire',
+					'repertiore',
+				],
+				'repertoires'=>[
+					'repertiores',
+				],
+				'repertorial'=>[
+					'repertorail',
+				],
+				'repertories'=>[
+					'repertoreis',
 				],
 				'repetition'=>[
 					'repetion',
 					'repitition',
 					'repeatation',
+					'repetitoin',
+					'repetiton',
+				],
+				'repetitions'=>[
+					'repetitoins',
+					'repetitons',
 				],
 				'repetitious'=>[
 					'repetitous',
+					'repetitiuos',
+					'repetitoius',
 				],
 				'repetitiously'=>[
 					'repetitiousally',
@@ -5828,10 +10446,15 @@
 					'repetitiousely',
 					'repetitiouslly',
 					'repetitously',
+					'repetitiuosly',
+					'repetitoiusly',
 				],
 				'repetitiousness'=>[
 					'repetitiousnes',
 					'repetitiousnesss',
+					'repetitiuosness',
+					'repetitoiusness',
+					'repetitousness',
 				],
 				'repetitive'=>[
 					'repetetive',
@@ -5847,8 +10470,13 @@
 				'repine'=>[
 					'repini',
 				],
+				'repined'=>[
+					'repind',
+				],
 				'replaceable'=>[
 					'replacable',
+					'replacaeble',
+					'replaceible',
 				],
 				'replaced'=>[
 					'replacecl',
@@ -5856,11 +10484,17 @@
 				'replacement'=>[
 					'replacemant',
 				],
+				'replacements'=>[
+					'replacemants',
+				],
 				'replacing'=>[
 					'replaceing',
 				],
 				'replant'=>[
 					'replent',
+				],
+				'replants'=>[
+					'replents',
 				],
 				'repledge'=>[
 					'replege',
@@ -5874,6 +10508,9 @@
 				'replenishable'=>[
 					'replenishible',
 				],
+				'replenishment'=>[
+					'replenishmant',
+				],
 				'repletely'=>[
 					'repletly',
 				],
@@ -5881,8 +10518,41 @@
 					'repletenes',
 					'repletenesss',
 				],
+				'repletion'=>[
+					'repletoin',
+					'repleton',
+				],
+				'replicability'=>[
+					'replicibility',
+				],
+				'replicable'=>[
+					'replicible',
+				],
+				'replicating'=>[
+					'replicting',
+				],
+				'replication'=>[
+					'replicatoin',
+					'replicaton',
+				],
+				'replications'=>[
+					'replicatoins',
+					'replicatons',
+				],
 				'replied'=>[
 					'rephed',
+					'repied',
+					'repleid',
+				],
+				'replier'=>[
+					'repleir',
+				],
+				'repliers'=>[
+					'repleirs',
+				],
+				'replies'=>[
+					'repies',
+					'repleis',
 				],
 				'replotted'=>[
 					'replottted',
@@ -5894,6 +10564,12 @@
 					'reply reply',
 					'reply reply reply',
 					'rcply',
+				],
+				'replying'=>[
+					'repying',
+				],
+				'reportable'=>[
+					'reportible',
 				],
 				'reported'=>[
 					'rcported',
@@ -5909,12 +10585,35 @@
 				'reporter'=>[
 					'reportor',
 				],
+				'reportorial'=>[
+					'reportorail',
+				],
 				'reposed'=>[
 					'repofed',
 				],
 				'reposefully'=>[
 					'reposefullly',
 					'reposefuly',
+				],
+				'reposition'=>[
+					'repositoin',
+					'repositon',
+				],
+				'repositioned'=>[
+					'repositiond',
+					'repositoined',
+					'repositoned',
+				],
+				'repositioning'=>[
+					'repositoining',
+					'repositoning',
+				],
+				'repositions'=>[
+					'repositoins',
+					'repositons',
+				],
+				'repositories'=>[
+					'repositoreis',
 				],
 				'repossess'=>[
 					'reposses',
@@ -5943,12 +10642,16 @@
 					'repossesion',
 					'repossesssion',
 					'reposssession',
+					'repossessoin',
+					'repossesson',
 				],
 				'repossessions'=>[
 					'reposessions',
 					'repossesions',
 					'repossesssions',
 					'reposssessions',
+					'repossessoins',
+					'repossessons',
 				],
 				'repp'=>[
 					'reppp',
@@ -5963,8 +10666,18 @@
 					'reps',
 					'reppps',
 				],
+				'reprehensibility'=>[
+					'reprehensability',
+				],
 				'reprehensible'=>[
 					'reprehensable',
+				],
+				'reprehensibly'=>[
+					'reprehensably',
+				],
+				'reprehension'=>[
+					'reprehensoin',
+					'reprehenson',
 				],
 				'represent'=>[
 					'represant',
@@ -5972,6 +10685,8 @@
 					'represent represent represent',
 					'representate',
 					'reprefent',
+					'repesent',
+					'reresent',
 				],
 				'representable'=>[
 					'representible',
@@ -5979,6 +10694,19 @@
 				'representation'=>[
 					'represantation',
 					'reprefentation',
+					'representatoin',
+					'representaton',
+				],
+				'representational'=>[
+					'representatoinal',
+					'representatonal',
+				],
+				'representationalism'=>[
+					'representatoinalism',
+				],
+				'representations'=>[
+					'representatoins',
+					'representatons',
 				],
 				'representative'=>[
 					'represantative',
@@ -5987,6 +10715,9 @@
 					'representive',
 					'reperesentative',
 					'reprefentative',
+				],
+				'representatively'=>[
+					'representativly',
 				],
 				'representativeness'=>[
 					'representativenes',
@@ -6001,6 +10732,8 @@
 				'represented'=>[
 					'repersented',
 					'reprefented',
+					'repesented',
+					'reresented',
 				],
 				'representing'=>[
 					'repersenting',
@@ -6009,6 +10742,9 @@
 				'represents'=>[
 					'repersents',
 					'represesnt',
+					'repesents',
+					'represants',
+					'reresents',
 				],
 				'repress'=>[
 					'repres',
@@ -6038,10 +10774,14 @@
 				'repression'=>[
 					'represion',
 					'represssion',
+					'repressoin',
+					'represson',
 				],
 				'repressions'=>[
 					'represions',
 					'represssions',
+					'repressoins',
+					'repressons',
 				],
 				'repressive'=>[
 					'represive',
@@ -6050,6 +10790,7 @@
 				'repressively'=>[
 					'represively',
 					'represssively',
+					'repressivly',
 				],
 				'repressiveness'=>[
 					'represiveness',
@@ -6061,12 +10802,32 @@
 					'represor',
 					'represssor',
 				],
+				'reprice'=>[
+					'repice',
+					'rerice',
+				],
 				'reprieve'=>[
 					'repreive',
 					'reprive',
 				],
+				'reprieved'=>[
+					'repreived',
+				],
+				'reprieves'=>[
+					'repreives',
+				],
+				'reprieving'=>[
+					'repreiving',
+				],
 				'reprise'=>[
 					'reprize',
+					'repise',
+				],
+				'reprises'=>[
+					'repises',
+				],
+				'reprising'=>[
+					'repising',
 				],
 				'repristinate'=>[
 					'repristinite',
@@ -6090,24 +10851,62 @@
 					'reproacb',
 					'reproacli',
 					'reproaeli',
+					'repoach',
+					'repraoch',
+					'reroach',
+				],
+				'reproachable'=>[
+					'repraochable',
+					'reproachible',
+				],
+				'reproached'=>[
+					'repraoched',
+				],
+				'reproacher'=>[
+					'repraocher',
 				],
 				'reproaches'=>[
 					'reproaclies',
+					'repoaches',
+					'repraoches',
+					'reroaches',
+				],
+				'reproachful'=>[
+					'repraochful',
 				],
 				'reproachfully'=>[
 					'reproachfullly',
 					'reproachfuly',
+					'repraochfully',
+					'reproacfully',
+					'reproachully',
 				],
 				'reproachfulness'=>[
 					'reproachfulnes',
 					'reproachfulnesss',
+					'repraochfulness',
+				],
+				'reproaching'=>[
+					'repraoching',
+				],
+				'reproachingly'=>[
+					'repraochingly',
 				],
 				'reproachless'=>[
 					'reproachles',
 					'reproachlesss',
+					'repraochless',
 				],
 				'reprobance'=>[
 					'reprobence',
+				],
+				'reprobation'=>[
+					'reprobatoin',
+					'reprobaton',
+				],
+				'reprobations'=>[
+					'reprobatoins',
+					'reprobatons',
 				],
 				'reprocess'=>[
 					'reproces',
@@ -6137,6 +10936,15 @@
 					'reproducibaly',
 					'reproducibely',
 					'reproduciblly',
+					'reproducably',
+				],
+				'reproduction'=>[
+					'reproductoin',
+					'reproducton',
+				],
+				'reproductions'=>[
+					'reproductoins',
+					'reproductons',
 				],
 				'reproductively'=>[
 					'reproductivly',
@@ -6156,6 +10964,7 @@
 				'reproof'=>[
 					'reprof',
 					'reprooof',
+					'repoof',
 				],
 				'reproofed'=>[
 					'reprofed',
@@ -6168,9 +10977,28 @@
 				'reproofs'=>[
 					'reprofs',
 					'reprooofs',
+					'repoofs',
+				],
+				'reprovable'=>[
+					'reprovible',
+				],
+				'reprover'=>[
+					'repover',
+					'rerover',
+				],
+				'reproving'=>[
+					'repoving',
+					'reroving',
+				],
+				'reptant'=>[
+					'reptent',
 				],
 				'reptilian'=>[
 					'reptilan',
+					'reptilain',
+				],
+				'reptilians'=>[
+					'reptilains',
 				],
 				'republic'=>[
 					'repubic',
@@ -6179,14 +11007,44 @@
 				'republican'=>[
 					'repubican',
 				],
+				'republication'=>[
+					'republicatoin',
+					'republicaton',
+				],
+				'republications'=>[
+					'republicatoins',
+					'republicatons',
+				],
 				'repudiate'=>[
 					'repudate',
+					'repudaite',
+				],
+				'repudiated'=>[
+					'repudaited',
+				],
+				'repudiates'=>[
+					'repudaites',
 				],
 				'repudiating'=>[
 					'repudating',
+					'repudaiting',
 				],
 				'repudiation'=>[
 					'repuditation',
+					'repudaition',
+					'repudiatoin',
+					'repudiaton',
+				],
+				'repudiations'=>[
+					'repudaitions',
+					'repudiatoins',
+					'repudiatons',
+				],
+				'repudiator'=>[
+					'repudaitor',
+				],
+				'repudiators'=>[
+					'repudaitors',
 				],
 				'repugnance'=>[
 					'repugnence',
@@ -6196,6 +11054,19 @@
 				],
 				'repugnant'=>[
 					'repugnent',
+				],
+				'repugnantly'=>[
+					'repugnantely',
+					'repugnently',
+				],
+				'repugned'=>[
+					'repugnd',
+				],
+				'repulsion'=>[
+					'repulsoin',
+				],
+				'repulsions'=>[
+					'repulsoins',
 				],
 				'repulsively'=>[
 					'repulsivly',
@@ -6207,31 +11078,66 @@
 				'repunctuations'=>[
 					'repunctautions',
 				],
+				'reputability'=>[
+					'reputibility',
+				],
 				'reputable'=>[
 					'reputible',
 				],
+				'reputably'=>[
+					'reputibly',
+				],
 				'reputation'=>[
 					'reputatioii',
+					'reputatoin',
+					'reputaton',
+				],
+				'reputations'=>[
+					'reputatoins',
+					'reputatons',
 				],
 				'requalifies'=>[
 					'reqaulifies',
 				],
 				'request'=>[
 					'requeft',
+					'reqeust',
 				],
 				'requested'=>[
 					'requefted',
+					'reqeusted',
+				],
+				'requester'=>[
+					'reqeuster',
+				],
+				'requesting'=>[
+					'reqeusting',
 				],
 				'requests'=>[
 					'requefts',
+					'reqeusts',
 				],
 				'requiem'=>[
 					'requeim',
 					'requim',
+					'reqiuem',
+				],
+				'requiems'=>[
+					'reqiuems',
+					'requeims',
 				],
 				'requiescat'=>[
 					'requeiscat',
 					'requiscat',
+					'reqiuescat',
+					'requiecat',
+					'requiesat',
+				],
+				'requiescats'=>[
+					'reqiuescats',
+					'requeiscats',
+					'requiecats',
+					'requiesats',
 				],
 				'require'=>[
 					'recquire',
@@ -6239,51 +11145,180 @@
 					'require require',
 					'require require require',
 					'reqnire',
+					'reqiure',
 				],
 				'required'=>[
 					'reqiiired',
 					'reqnired',
+					'reqiured',
+					'requird',
 				],
 				'requirement'=>[
 					'requiremant',
+					'reqiurement',
 				],
 				'requirements'=>[
 					'reqnirements',
+					'reqiurements',
+					'requiremants',
 				],
 				'requires'=>[
 					'reqiures',
 					'reqiiires',
 				],
+				'requiring'=>[
+					'reqiuring',
+				],
 				'requisite'=>[
 					'requifite',
+					'reqiusite',
+				],
+				'requisitely'=>[
+					'reqiusitely',
+					'requisitly',
+				],
+				'requisites'=>[
+					'reqiusites',
 				],
 				'requisition'=>[
 					'requisiton',
 					'requisitioii',
+					'reqiusition',
+					'requisitoin',
 				],
 				'requisitioned'=>[
 					'requisitoned',
+					'reqiusitioned',
+					'requisitiond',
+					'requisitoined',
+				],
+				'requisitioner'=>[
+					'reqiusitioner',
+					'requisitoiner',
+				],
+				'requisitioning'=>[
+					'reqiusitioning',
+					'requisitoining',
+					'requisitoning',
+				],
+				'requisitions'=>[
+					'reqiusitions',
+					'requisitoins',
+					'requisitons',
+				],
+				'requitable'=>[
+					'reqiutable',
+					'requitible',
+				],
+				'requital'=>[
+					'reqiutal',
+				],
+				'requite'=>[
+					'reqiute',
+				],
+				'requited'=>[
+					'reqiuted',
+				],
+				'requiter'=>[
+					'reqiuter',
+				],
+				'requiters'=>[
+					'reqiuters',
+				],
+				'requites'=>[
+					'reqiutes',
+				],
+				'requiting'=>[
+					'reqiuting',
+				],
+				'reradiate'=>[
+					'reradaite',
+				],
+				'reread'=>[
+					'reraed',
+				],
+				'rereading'=>[
+					'reraeding',
+				],
+				'rereads'=>[
+					'reraeds',
+				],
+				'reregistration'=>[
+					'reregistratoin',
+					'reregistraton',
+				],
+				'rerelease'=>[
+					'rerelaese',
+				],
+				'reremouse'=>[
+					'reremuose',
 				],
 				'rerolled'=>[
 					'rerollled',
 				],
+				'reroute'=>[
+					'reruote',
+				],
+				'rerouted'=>[
+					'reruoted',
+				],
+				'reroutes'=>[
+					'reruotes',
+				],
+				'rerouting'=>[
+					'reruoting',
+				],
 				'rerunning'=>[
 					'rerunnning',
+				],
+				'resalable'=>[
+					'resalible',
 				],
 				'rescale'=>[
 					'recale',
 					'recsale',
 					'resale',
 				],
+				'rescales'=>[
+					'recales',
+				],
 				'reschedule'=>[
 					'rechedule',
 					'recshedule',
 					'reshedule',
 				],
+				'rescheduled'=>[
+					'recheduled',
+					'resheduled',
+				],
+				'reschedules'=>[
+					'rechedules',
+					'reshedules',
+				],
+				'rescheduling'=>[
+					'recheduling',
+					'resheduling',
+				],
 				'rescind'=>[
 					'recind',
 					'recsind',
 					'resind',
+				],
+				'rescindable'=>[
+					'recindable',
+					'resindable',
+				],
+				'rescinded'=>[
+					'recinded',
+					'resinded',
+				],
+				'rescinding'=>[
+					'recinding',
+					'resinding',
+				],
+				'rescinds'=>[
+					'recinds',
+					'resinds',
 				],
 				'rescission'=>[
 					'recission',
@@ -6291,10 +11326,13 @@
 					'rescision',
 					'resission',
 					'rescisssion',
+					'rescissoin',
+					'rescisson',
 				],
 				'rescissory'=>[
 					'rescisory',
 					'rescisssory',
+					'resissory',
 				],
 				'rescore'=>[
 					'recore',
@@ -6304,6 +11342,8 @@
 				'rescreen'=>[
 					'rescreeen',
 					'rescren',
+					'recreen',
+					'resreen',
 				],
 				'rescreened'=>[
 					'rescreend',
@@ -6312,6 +11352,10 @@
 					'recript',
 					'recsript',
 					'resript',
+				],
+				'rescripts'=>[
+					'recripts',
+					'resripts',
 				],
 				'rescuable'=>[
 					'rescuible',
@@ -6322,9 +11366,45 @@
 					'rescure',
 					'rescuse',
 					'resue',
+					'resceu',
+				],
+				'rescued'=>[
+					'recued',
+					'resceud',
+				],
+				'rescuer'=>[
+					'recuer',
+					'resceur',
+				],
+				'rescuers'=>[
+					'recuers',
+					'resceurs',
+					'resuers',
+				],
+				'rescues'=>[
+					'recues',
+					'resceus',
+				],
+				'rescuing'=>[
+					'recuing',
+					'resciung',
+				],
+				'reseal'=>[
+					'resael',
 				],
 				'resealable'=>[
 					'resilable',
+					'resaelable',
+					'resealible',
+				],
+				'resealed'=>[
+					'resaeled',
+				],
+				'resealing'=>[
+					'resaeling',
+				],
+				'reseals'=>[
+					'resaels',
 				],
 				'research'=>[
 					'reasearch',
@@ -6332,6 +11412,46 @@
 					'reserach',
 					'reserch',
 					'researeh',
+					'resaerch',
+				],
+				'researched'=>[
+					'resaerched',
+				],
+				'researcher'=>[
+					'resaercher',
+				],
+				'researchers'=>[
+					'resaerchers',
+				],
+				'researches'=>[
+					'resaerches',
+				],
+				'researching'=>[
+					'resaerching',
+				],
+				'reseat'=>[
+					'resaet',
+				],
+				'reseated'=>[
+					'resaeted',
+				],
+				'reseating'=>[
+					'resaeting',
+				],
+				'reseats'=>[
+					'resaets',
+				],
+				'resection'=>[
+					'resectoin',
+					'resecton',
+				],
+				'resectional'=>[
+					'resectoinal',
+					'resectonal',
+				],
+				'resections'=>[
+					'resectoins',
+					'resectons',
 				],
 				'reseed'=>[
 					'reseeed',
@@ -6344,6 +11464,14 @@
 				],
 				'reseeds'=>[
 					'reseeeds',
+				],
+				'resegregation'=>[
+					'resegregatoin',
+					'resegregaton',
+				],
+				'reselection'=>[
+					'reselectoin',
+					'reselecton',
 				],
 				'resell'=>[
 					'resel',
@@ -6366,6 +11494,9 @@
 					'resemblence',
 					'ressemblance',
 					'refemblance',
+				],
+				'resemblances'=>[
+					'resemblences',
 				],
 				'resemble'=>[
 					'ressemble',
@@ -6392,6 +11523,8 @@
 				'resentfully'=>[
 					'resentfullly',
 					'resentfuly',
+					'resenfully',
+					'resentully',
 				],
 				'resentfulness'=>[
 					'resentfulnes',
@@ -6401,8 +11534,22 @@
 					'resenment',
 					'resentmant',
 				],
+				'resentments'=>[
+					'resentmants',
+				],
 				'reserpine'=>[
 					'rezerpine',
+				],
+				'reservable'=>[
+					'reservible',
+				],
+				'reservation'=>[
+					'reservatoin',
+					'reservaton',
+				],
+				'reservations'=>[
+					'reservatoins',
+					'reservatons',
 				],
 				'reserve'=>[
 					'referve',
@@ -6416,13 +11563,16 @@
 				],
 				'reservoir'=>[
 					'resevoir',
+					'reservior',
 				],
 				'reservoirs'=>[
 					'resservoirs',
+					'reserviors',
 				],
 				'resettable'=>[
 					'resetable',
 					'resetttable',
+					'resettible',
 				],
 				'resetting'=>[
 					'resettting',
@@ -6438,6 +11588,7 @@
 				'resettlement'=>[
 					'resetlement',
 					'resetttlement',
+					'resettlemant',
 				],
 				'resettles'=>[
 					'resetles',
@@ -6449,6 +11600,9 @@
 				],
 				'resharpened'=>[
 					'resharpend',
+				],
+				'reshipment'=>[
+					'reshipmant',
 				],
 				'reshipped'=>[
 					'reshiped',
@@ -6492,8 +11646,16 @@
 					'refidence',
 					'residcnce',
 				],
+				'residences'=>[
+					'residances',
+				],
+				'residencies'=>[
+					'residancies',
+					'residenceis',
+				],
 				'residency'=>[
 					'residensy',
+					'residancy',
 				],
 				'resident'=>[
 					'residant',
@@ -6501,11 +11663,17 @@
 				],
 				'residential'=>[
 					'residantial',
+					'residentail',
 				],
 				'residentially'=>[
 					'residantially',
 					'residentiallly',
 					'residentialy',
+					'residentailly',
+				],
+				'residentiary'=>[
+					'residentairy',
+					'residentiery',
 				],
 				'residents'=>[
 					'residants',
@@ -6524,6 +11692,10 @@
 				],
 				'residually'=>[
 					'residuallly',
+					'residaully',
+				],
+				'residuals'=>[
+					'residauls',
 				],
 				'residuary'=>[
 					'residaury',
@@ -6531,6 +11703,10 @@
 				],
 				'residue'=>[
 					'refidue',
+					'resideu',
+				],
+				'residues'=>[
+					'resideus',
 				],
 				'residuum'=>[
 					'residum',
@@ -6539,8 +11715,17 @@
 				'resign'=>[
 					'refign',
 				],
+				'resignation'=>[
+					'resignatoin',
+					'resignaton',
+				],
+				'resignations'=>[
+					'resignatoins',
+					'resignatons',
+				],
 				'resigned'=>[
 					'refigned',
+					'resignd',
 				],
 				'resignedly'=>[
 					'resignedally',
@@ -6557,11 +11742,17 @@
 					'resileincy',
 					'resiliensy',
 					'resilincy',
+					'resiliancy',
 				],
 				'resilient'=>[
 					'resileint',
 					'resiliant',
 					'resilint',
+				],
+				'resiliently'=>[
+					'resileintly',
+					'resiliantly',
+					'resilientely',
 				],
 				'resinate'=>[
 					'resinite',
@@ -6571,6 +11762,18 @@
 				],
 				'resinating'=>[
 					'resiniting',
+				],
+				'resiniferous'=>[
+					'resiniferuos',
+				],
+				'resinoid'=>[
+					'resiniod',
+				],
+				'resinoids'=>[
+					'resiniods',
+				],
+				'resinous'=>[
+					'resinuos',
 				],
 				'resistance'=>[
 					'resislance',
@@ -6600,6 +11803,11 @@
 				'resituating'=>[
 					'resitauting',
 				],
+				'resocialization'=>[
+					'resocailization',
+					'resocializatoin',
+					'resocializaton',
+				],
 				'resoftened'=>[
 					'resoftend',
 				],
@@ -6615,18 +11823,42 @@
 				],
 				'resolution'=>[
 					'refolution',
+					'resolutoin',
+					'resoluton',
 				],
 				'resolutions'=>[
 					'refolutions',
+					'resolutoins',
+					'resolutons',
+				],
+				'resolvability'=>[
+					'resolvibility',
 				],
 				'resolved'=>[
 					'refolved',
 				],
+				'resolvent'=>[
+					'resolvant',
+				],
+				'resolvents'=>[
+					'resolvants',
+				],
 				'resonance'=>[
 					'resonence',
 				],
+				'resonances'=>[
+					'resonences',
+				],
 				'resonant'=>[
 					'resonent',
+				],
+				'resonantly'=>[
+					'resonantely',
+					'resonently',
+				],
+				'resorption'=>[
+					'resorptoin',
+					'resorpton',
 				],
 				'resort'=>[
 					'refort',
@@ -6641,21 +11873,51 @@
 					'resofurin',
 					'resorfurin',
 				],
+				'resound'=>[
+					'resuond',
+				],
+				'resounded'=>[
+					'resuonded',
+				],
+				'resounding'=>[
+					'resuonding',
+				],
+				'resoundingly'=>[
+					'resuondingly',
+				],
+				'resounds'=>[
+					'resuonds',
+				],
 				'resource'=>[
 					'resourse',
 					'refource',
+					'resuorce',
+				],
+				'resourced'=>[
+					'resuorced',
+				],
+				'resourceful'=>[
+					'resuorceful',
 				],
 				'resourcefully'=>[
 					'resourcefullly',
 					'resourcefuly',
+					'resourceully',
+					'resourcfully',
+					'resuorcefully',
 				],
 				'resourcefulness'=>[
 					'resourcefulnes',
 					'resourcefulnesss',
+					'resuorcefulness',
 				],
 				'resources'=>[
 					'resrouces',
 					'resourees',
+					'resuorces',
+				],
+				'resourcing'=>[
+					'resuorcing',
 				],
 				'respatialization'=>[
 					'respacialization',
@@ -6670,8 +11932,16 @@
 					'respcct',
 					'respeet',
 				],
+				'respectability'=>[
+					'respecability',
+					'respectbility',
+					'respectibility',
+				],
 				'respectable'=>[
 					'respectible',
+				],
+				'respectably'=>[
+					'respectibly',
 				],
 				'respected'=>[
 					'repected',
@@ -6680,6 +11950,8 @@
 				'respectfully'=>[
 					'respectfullly',
 					'respectfuly',
+					'respecfully',
+					'respectully',
 				],
 				'respectfulness'=>[
 					'respectfulnes',
@@ -6721,6 +11993,13 @@
 				'respirable'=>[
 					'respirible',
 				],
+				'respiration'=>[
+					'respiratoin',
+					'respiraton',
+				],
+				'respired'=>[
+					'respird',
+				],
 				'respiritualize'=>[
 					'respiritaulize',
 				],
@@ -6733,8 +12012,13 @@
 				'resplendence'=>[
 					'resplendance',
 				],
+				'resplendencies'=>[
+					'resplendancies',
+					'resplendenceis',
+				],
 				'resplendency'=>[
 					'resplendensy',
+					'resplendancy',
 				],
 				'resplendent'=>[
 					'resplendant',
@@ -6748,6 +12032,9 @@
 				],
 				'responded'=>[
 					'responsed',
+				],
+				'respondence'=>[
+					'respondance',
 				],
 				'respondent'=>[
 					'respondant',
@@ -6766,6 +12053,7 @@
 				'responsibilities'=>[
 					'responsibilites',
 					'responsabilities',
+					'responsibiliteis',
 				],
 				'responsibility'=>[
 					'reponsibility',
@@ -6782,10 +12070,18 @@
 				'responsibleness'=>[
 					'responsiblenes',
 					'responsiblenesss',
+					'responsableness',
 				],
 				'responsiblenesses'=>[
 					'responsibleneses',
 					'responsiblenessses',
+				],
+				'responsibly'=>[
+					'responsably',
+				],
+				'responsion'=>[
+					'responsoin',
+					'responson',
 				],
 				'responsive'=>[
 					'reponsive',
@@ -6822,6 +12118,19 @@
 					'restafffs',
 					'restafs',
 				],
+				'restartable'=>[
+					'restartible',
+				],
+				'restarts'=>[
+					'resarts',
+					'restrts',
+				],
+				'restatement'=>[
+					'restatemant',
+				],
+				'restatements'=>[
+					'restatemants',
+				],
 				'restaurant'=>[
 					'restarant',
 					'restaraunt',
@@ -6835,15 +12144,29 @@
 				],
 				'restauranteur'=>[
 					'restauranter',
+					'restaurantuer',
+					'restuaranteur',
+				],
+				'restauranteurs'=>[
+					'restaurantuers',
+					'restuaranteurs',
 				],
 				'restaurants'=>[
 					'restarants',
 					'restaraunts',
 					'resteraunts',
 					'resturants',
+					'restaurents',
+					'restuarants',
 				],
 				'restaurateur'=>[
 					'restaurater',
+					'restauratuer',
+					'restuarateur',
+				],
+				'restaurateurs'=>[
+					'restauratuers',
+					'restuarateurs',
 				],
 				'rested'=>[
 					'refted',
@@ -6853,10 +12176,14 @@
 				],
 				'restfullest'=>[
 					'restfulllest',
+					'resfullest',
+					'restullest',
 				],
 				'restfully'=>[
 					'restfullly',
 					'restfuly',
+					'resfully',
+					'restully',
 				],
 				'restfulness'=>[
 					'restfulnes',
@@ -6873,8 +12200,21 @@
 				'resting'=>[
 					'refting',
 				],
+				'restitch'=>[
+					'resitch',
+					'resttch',
+				],
+				'restitching'=>[
+					'resitching',
+					'resttching',
+				],
 				'restitution'=>[
 					'reftitution',
+					'restitutoin',
+					'restituton',
+				],
+				'restively'=>[
+					'restivly',
 				],
 				'restiveness'=>[
 					'restivenes',
@@ -6887,6 +12227,7 @@
 				'restlessly'=>[
 					'restlesly',
 					'restlesssly',
+					'restlessely',
 				],
 				'restlessness'=>[
 					'restlesness',
@@ -6894,9 +12235,18 @@
 					'restlessnesss',
 					'restlesssness',
 				],
+				'restorable'=>[
+					'restorible',
+				],
 				'restoration'=>[
 					'resoration',
 					'restauration',
+					'restoratoin',
+					'restoraton',
+				],
+				'restorations'=>[
+					'restoratoins',
+					'restoratons',
 				],
 				'restore'=>[
 					'resore',
@@ -6905,31 +12255,57 @@
 				'restored'=>[
 					'rcftored',
 					'reftored',
+					'restord',
 				],
 				'restoring'=>[
 					'refloring',
 					'reftoring',
 				],
+				'restraighten'=>[
+					'restriaghten',
+				],
 				'restrain'=>[
 					'reftrain',
+					'resrain',
+					'restrian',
 				],
 				'restrainable'=>[
 					'restrainible',
+					'restrianable',
 				],
 				'restrained'=>[
 					'reftrained',
+					'restraind',
+					'restrianed',
 				],
 				'restrainedly'=>[
 					'restrainedally',
 					'restrainedaly',
 					'restrainedely',
 					'restrainedlly',
+					'restrianedly',
+				],
+				'restrainer'=>[
+					'restrianer',
+				],
+				'restrainers'=>[
+					'restrianers',
 				],
 				'restraining'=>[
 					'reftraining',
+					'resraining',
+					'restrianing',
+				],
+				'restrains'=>[
+					'resrains',
+					'restrians',
 				],
 				'restraint'=>[
 					'reftraint',
+					'restriant',
+				],
+				'restraints'=>[
+					'restriants',
 				],
 				'restrengthened'=>[
 					'restrengthend',
@@ -6946,9 +12322,13 @@
 				'restriction'=>[
 					'i;estriction',
 					'resrtiction',
+					'restrictoin',
+					'restricton',
 				],
 				'restrictions'=>[
 					'resrtictions',
+					'restrictoins',
+					'restrictons',
 				],
 				'restrictively'=>[
 					'restrictivly',
@@ -6960,16 +12340,41 @@
 				'restricts'=>[
 					'resrticts',
 				],
+				'restring'=>[
+					'resring',
+				],
+				'restringing'=>[
+					'resringing',
+				],
+				'restrings'=>[
+					'resrings',
+				],
 				'restroom'=>[
 					'restrom',
 					'restrooom',
+					'resroom',
+					'restoom',
 				],
 				'restrooms'=>[
 					'restroms',
 					'restroooms',
+					'resrooms',
+					'restooms',
+				],
+				'restructured'=>[
+					'restructurd',
+				],
+				'restrung'=>[
+					'resrung',
 				],
 				'rests'=>[
 					'rcsts',
+				],
+				'restudied'=>[
+					'restudeid',
+				],
+				'restudies'=>[
+					'restudeis',
 				],
 				'restuff'=>[
 					'restuf',
@@ -6978,16 +12383,36 @@
 				'resubmission'=>[
 					'resubmision',
 					'resubmisssion',
+					'resubmissoin',
+					'resubmisson',
 				],
 				'resubmissions'=>[
 					'resubmisions',
 					'resubmisssions',
+					'resubmissoins',
+					'resubmissons',
 				],
 				'resubmitted'=>[
 					'resubmittted',
 				],
 				'resubmitting'=>[
 					'resubmittting',
+				],
+				'resubscribe'=>[
+					'resubcribe',
+					'resubsribe',
+				],
+				'resubscribed'=>[
+					'resubcribed',
+					'resubsribed',
+				],
+				'resubscribes'=>[
+					'resubcribes',
+					'resubsribes',
+				],
+				'resubscribing'=>[
+					'resubcribing',
+					'resubsribing',
 				],
 				'result'=>[
 					'result result',
@@ -7000,6 +12425,9 @@
 				'resultant'=>[
 					'resultent',
 				],
+				'resultants'=>[
+					'resultents',
+				],
 				'resulting'=>[
 					'resuIting',
 					'reulting',
@@ -7011,6 +12439,9 @@
 					'resiilts',
 					'resnlts',
 					'resulls',
+				],
+				'resumable'=>[
+					'resumible',
 				],
 				'resume'=>[
 					'reassume',
@@ -7025,16 +12456,26 @@
 				'resummons'=>[
 					'resumnons',
 				],
+				'resumption'=>[
+					'resumptoin',
+					'resumpton',
+				],
+				'resumptions'=>[
+					'resumptoins',
+					'resumptons',
+				],
 				'resupinate'=>[
 					'resupinite',
 				],
 				'resupplied'=>[
 					'resuplied',
 					'resuppplied',
+					'resuppleid',
 				],
 				'resupplies'=>[
 					'resuplies',
 					'resuppplies',
+					'resuppleis',
 				],
 				'resupply'=>[
 					'resuply',
@@ -7050,6 +12491,12 @@
 				],
 				'resurgence'=>[
 					'resurgance',
+				],
+				'resurgences'=>[
+					'resurgances',
+				],
+				'resurgent'=>[
+					'resurgant',
 				],
 				'resurrect'=>[
 					'resurect',
@@ -7067,6 +12514,8 @@
 					'ressurection',
 					'resurection',
 					'resurrrection',
+					'resurrectoin',
+					'resurrecton',
 				],
 				'resurrectional'=>[
 					'resurectional',
@@ -7074,14 +12523,20 @@
 				'resurrectionism'=>[
 					'resurectionism',
 					'resurrrectionism',
+					'resurrectoinism',
+					'resurrectonism',
 				],
 				'resurrectionist'=>[
 					'resurectionist',
 					'resurrrectionist',
+					'resurrectoinist',
+					'resurrectonist',
 				],
 				'resurrections'=>[
 					'resurections',
 					'resurrrections',
+					'resurrectoins',
+					'resurrectons',
 				],
 				'resurrects'=>[
 					'resurects',
@@ -7092,33 +12547,129 @@
 					'resucsitate',
 					'resusitate',
 				],
+				'resuscitated'=>[
+					'resucitated',
+					'resusitated',
+				],
+				'resuscitates'=>[
+					'resucitates',
+					'resusitates',
+				],
+				'resuscitating'=>[
+					'resucitating',
+					'resusitating',
+				],
+				'resuscitation'=>[
+					'resucitation',
+					'resuscitatoin',
+					'resuscitaton',
+					'resusitation',
+				],
 				'resuscitations'=>[
 					'resucitations',
 					'resucsitations',
 					'resusitations',
+				],
+				'resuscitative'=>[
+					'resucitative',
+					'resusitative',
 				],
 				'resuscitator'=>[
 					'resucitator',
 					'resucsitator',
 					'resusitator',
 				],
+				'resuscitators'=>[
+					'resucitators',
+					'resusitators',
+				],
 				'resveratrol'=>[
 					'reservatrol',
 					'resveretrol',
 					'reversatrol',
 				],
+				'resynchronization'=>[
+					'resynchronizatoin',
+					'resynchronizaton',
+				],
 				'retable'=>[
 					'retible',
 				],
+				'retailers'=>[
+					'retialers',
+				],
+				'retailings'=>[
+					'retialings',
+				],
+				'retain'=>[
+					'retian',
+				],
+				'retainability'=>[
+					'retaiability',
+					'retainbility',
+					'retainibility',
+					'retianability',
+				],
+				'retainable'=>[
+					'retainible',
+					'retianable',
+				],
+				'retained'=>[
+					'retaind',
+					'retianed',
+				],
 				'retainer'=>[
 					'retainir',
+					'retianer',
+				],
+				'retainers'=>[
+					'retianers',
+				],
+				'retaining'=>[
+					'retianing',
+				],
+				'retainment'=>[
+					'retainmant',
+					'retianment',
 				],
 				'retaken'=>[
 					'ertaken',
 				],
+				'retaliate'=>[
+					'retalaite',
+				],
+				'retaliated'=>[
+					'retalaited',
+				],
+				'retaliates'=>[
+					'retalaites',
+				],
+				'retaliating'=>[
+					'retalaiting',
+				],
 				'retaliation'=>[
 					'retailation',
 					'rctaliation',
+					'retalaition',
+					'retaliatoin',
+					'retaliaton',
+				],
+				'retaliations'=>[
+					'retalaitions',
+					'retaliatoins',
+					'retaliatons',
+				],
+				'retaliative'=>[
+					'retalaitive',
+				],
+				'retaliator'=>[
+					'retalaitor',
+				],
+				'retaliators'=>[
+					'retalaitors',
+				],
+				'retaliatory'=>[
+					'retalaitory',
 				],
 				'retard'=>[
 					'reatard',
@@ -7129,8 +12680,27 @@
 				'retardants'=>[
 					'retardents',
 				],
+				'retardation'=>[
+					'retardatoin',
+					'retardaton',
+				],
 				'retarded'=>[
 					'retarted',
+				],
+				'retardment'=>[
+					'retardmant',
+				],
+				'retaught'=>[
+					'retuaght',
+				],
+				'reteach'=>[
+					'retaech',
+				],
+				'reteaches'=>[
+					'retaeches',
+				],
+				'reteaching'=>[
+					'retaeching',
 				],
 				'retear'=>[
 					'reteer',
@@ -7149,13 +12719,33 @@
 				],
 				'retention'=>[
 					'retantion',
+					'retentoin',
+					'retenton',
+				],
+				'retentions'=>[
+					'retentoins',
+					'retentons',
+				],
+				'retentively'=>[
+					'retentivly',
 				],
 				'retentiveness'=>[
 					'retentivenes',
 					'retentivenesss',
 				],
+				'retentivities'=>[
+					'retentiviteis',
+				],
+				'rethought'=>[
+					'rethuoght',
+				],
+				'retiarius'=>[
+					'retairius',
+					'retiaruis',
+				],
 				'retiary'=>[
 					'retiery',
+					'retairy',
 				],
 				'reticence'=>[
 					'reticance',
@@ -7166,11 +12756,23 @@
 				'reticent'=>[
 					'reticant',
 				],
+				'reticently'=>[
+					'reticantly',
+					'reticentely',
+				],
 				'reticular'=>[
 					'reticuler',
 				],
 				'reticulated'=>[
 					'retulated',
+				],
+				'reticulation'=>[
+					'reticulatoin',
+					'reticulaton',
+				],
+				'reticulations'=>[
+					'reticulatoins',
+					'reticulatons',
 				],
 				'reticulin'=>[
 					'reticullin',
@@ -7181,6 +12783,12 @@
 				'retie'=>[
 					'retei',
 					'reti',
+				],
+				'retied'=>[
+					'reteid',
+				],
+				'reties'=>[
+					'reteis',
 				],
 				'retightened'=>[
 					'retightend',
@@ -7218,11 +12826,26 @@
 				'retinopathy'=>[
 					'reinopathy',
 				],
+				'retinoscope'=>[
+					'retinocope',
+					'retinosope',
+				],
+				'retinoscopy'=>[
+					'retinocopy',
+					'retinosopy',
+				],
+				'retinue'=>[
+					'retineu',
+				],
+				'retinues'=>[
+					'retineus',
+				],
 				'retinular'=>[
 					'retinuler',
 				],
 				'retired'=>[
 					'reired',
+					'retird',
 				],
 				'retiree'=>[
 					'retireee',
@@ -7232,6 +12855,9 @@
 				],
 				'retirement'=>[
 					'retiremant',
+				],
+				'retirements'=>[
+					'retiremants',
 				],
 				'retiringness'=>[
 					'retiringnes',
@@ -7257,9 +12883,55 @@
 					'retols',
 					'retoools',
 				],
+				'retorsion'=>[
+					'retorsoin',
+					'retorson',
+				],
+				'retortion'=>[
+					'retortoin',
+					'retorton',
+				],
+				'retouch'=>[
+					'retuoch',
+				],
+				'retouched'=>[
+					'retuoched',
+				],
+				'retouches'=>[
+					'retuoches',
+				],
+				'retouching'=>[
+					'retuoching',
+				],
+				'retraceable'=>[
+					'retracaeble',
+					'retraceible',
+				],
+				'retraction'=>[
+					'retractoin',
+					'retracton',
+				],
+				'retractions'=>[
+					'retractoins',
+					'retractons',
+				],
+				'retrain'=>[
+					'retrian',
+				],
+				'retrained'=>[
+					'retraind',
+					'retrianed',
+				],
 				'retrainee'=>[
 					'retraine',
 					'retraineee',
+					'retrianee',
+				],
+				'retraining'=>[
+					'retrianing',
+				],
+				'retrains'=>[
+					'retrians',
 				],
 				'retransferring'=>[
 					'retransfering',
@@ -7267,10 +12939,14 @@
 				'retransmission'=>[
 					'retransmision',
 					'retransmisssion',
+					'retransmissoin',
+					'retransmisson',
 				],
 				'retransmissions'=>[
 					'retransmisions',
 					'retransmisssions',
+					'retransmissoins',
+					'retransmissons',
 				],
 				'retransmitted'=>[
 					'retransmittted',
@@ -7278,16 +12954,53 @@
 				'retransmitting'=>[
 					'retransmittting',
 				],
+				'retread'=>[
+					'retraed',
+				],
+				'retreaded'=>[
+					'retraeded',
+				],
+				'retreading'=>[
+					'retraeding',
+				],
+				'retreads'=>[
+					'retraeds',
+				],
 				'retreat'=>[
 					'ertreat',
 					'retret',
 					'retrcat',
+					'retraet',
 				],
 				'retreated'=>[
 					'retreatde',
+					'retraeted',
+				],
+				'retreating'=>[
+					'retraeting',
+				],
+				'retreats'=>[
+					'retraets',
 				],
 				'retrenchment'=>[
 					'retrenchmant',
+				],
+				'retrenchments'=>[
+					'retrenchmants',
+				],
+				'retrial'=>[
+					'retrail',
+				],
+				'retrials'=>[
+					'retrails',
+				],
+				'retribution'=>[
+					'retributoin',
+					'retributon',
+				],
+				'retributions'=>[
+					'retributoins',
+					'retributons',
 				],
 				'retributively'=>[
 					'retributivly',
@@ -7300,9 +13013,16 @@
 					'retreis',
 					'retris',
 				],
+				'retrievable'=>[
+					'retreivable',
+					'retrievible',
+				],
 				'retrieval'=>[
 					'retreival',
 					'retrival',
+				],
+				'retrievals'=>[
+					'retreivals',
 				],
 				'retrieve'=>[
 					'retreive',
@@ -7316,11 +13036,40 @@
 					'retreiver',
 					'retriver',
 				],
+				'retrievers'=>[
+					'retreivers',
+				],
+				'retrieves'=>[
+					'retreives',
+				],
+				'retrieving'=>[
+					'retreiving',
+				],
 				'retrimmed'=>[
 					'retrimned',
 				],
+				'retroact'=>[
+					'retraoct',
+				],
+				'retroaction'=>[
+					'retraoction',
+					'retroactoin',
+					'retroacton',
+					'retroction',
+				],
+				'retroactive'=>[
+					'retraoctive',
+					'retroctive',
+				],
 				'retroactively'=>[
 					'retroactivly',
+					'retraoctively',
+					'retroctively',
+				],
+				'retroactivity'=>[
+					'retractivity',
+					'retraoctivity',
+					'retroctivity',
 				],
 				'retrobulbar'=>[
 					'retrobulbal',
@@ -7329,20 +13078,80 @@
 				'retrocession'=>[
 					'retrocesion',
 					'retrocesssion',
+					'retrocessoin',
+					'retrocesson',
+				],
+				'retrochoir'=>[
+					'retrchoir',
+					'retrochior',
+					'retrohoir',
 				],
 				'retrodden'=>[
 					'retroddden',
 					'retroden',
 				],
+				'retrofire'=>[
+					'retrfire',
+					'retroire',
+				],
+				'retrofired'=>[
+					'retrfired',
+					'retrofird',
+					'retroired',
+				],
+				'retrofires'=>[
+					'retrfires',
+					'retroires',
+				],
+				'retrofiring'=>[
+					'retrfiring',
+					'retroiring',
+				],
+				'retrofits'=>[
+					'retrfits',
+					'retroits',
+				],
 				'retrofitted'=>[
 					'retrofittted',
+					'retrfitted',
+					'retroitted',
 				],
 				'retrofitting'=>[
 					'retrofittting',
+					'retrfitting',
+					'retroitting',
+				],
+				'retroflex'=>[
+					'retrflex',
+					'retrolex',
+				],
+				'retroflexion'=>[
+					'retroflexoin',
+					'retroflexon',
+				],
+				'retroflexions'=>[
+					'retroflexoins',
+					'retroflexons',
+				],
+				'retrogradation'=>[
+					'retrogradatoin',
+					'retrogradaton',
+				],
+				'retrograde'=>[
+					'retrgrade',
+					'retrorade',
 				],
 				'retrogradely'=>[
 					'retrogradly',
 					'retrogradally',
+				],
+				'retrogrades'=>[
+					'retrgrades',
+					'retrorades',
+				],
+				'retrograding'=>[
+					'retrgrading',
+					'retrorading',
 				],
 				'retrogress'=>[
 					'retrogres',
@@ -7363,6 +13172,8 @@
 				'retrogression'=>[
 					'retrogresion',
 					'retrogresssion',
+					'retrogressoin',
+					'retrogresson',
 				],
 				'retrogressive'=>[
 					'retrogresive',
@@ -7384,6 +13195,18 @@
 				'retroperitoneum'=>[
 					'retroperitonium',
 				],
+				'retrorocket'=>[
+					'retroocket',
+					'retrrocket',
+				],
+				'retrorockets'=>[
+					'retroockets',
+					'retrrockets',
+				],
+				'retrospection'=>[
+					'retrospectoin',
+					'retrospecton',
+				],
 				'retrospectively'=>[
 					'retrospectiveally',
 					'retrospectivealy',
@@ -7394,6 +13217,30 @@
 				'retrosplenial'=>[
 					'retroplenial',
 					'retrospenial',
+				],
+				'retroversion'=>[
+					'retroersion',
+					'retroversoin',
+					'retroverson',
+					'retrversion',
+				],
+				'retroversions'=>[
+					'retroersions',
+					'retroversoins',
+					'retroversons',
+					'retrversions',
+				],
+				'retrovirus'=>[
+					'retroirus',
+					'retrvirus',
+				],
+				'retroviruses'=>[
+					'retroiruses',
+					'retrviruses',
+				],
+				'retrusion'=>[
+					'retrusoin',
+					'retruson',
 				],
 				'retsina'=>[
 					'retsini',
@@ -7417,6 +13264,9 @@
 				'returnable'=>[
 					'returnible',
 				],
+				'returnables'=>[
+					'returnibles',
+				],
 				'returned'=>[
 					'erturned',
 					'retruned',
@@ -7426,6 +13276,7 @@
 					'retnrned',
 					'retumed',
 					'returiied',
+					'returnd',
 				],
 				'returnee'=>[
 					'returneee',
@@ -7441,8 +13292,72 @@
 				'returns'=>[
 					'retums',
 				],
+				'reunification'=>[
+					'reunificatoin',
+					'reunificaton',
+					'ruenification',
+				],
+				'reunified'=>[
+					'reunifeid',
+					'ruenified',
+				],
+				'reunifies'=>[
+					'reunifeis',
+					'ruenifies',
+				],
+				'reunify'=>[
+					'ruenify',
+				],
+				'reunifying'=>[
+					'ruenifying',
+				],
+				'reunion'=>[
+					'reunoin',
+					'reunon',
+					'ruenion',
+				],
+				'reunionist'=>[
+					'reunoinist',
+					'reunonist',
+					'ruenionist',
+				],
+				'reunions'=>[
+					'reunoins',
+					'reunons',
+					'ruenions',
+				],
 				'reunite'=>[
 					'reunit',
+					'ruenite',
+				],
+				'reunited'=>[
+					'ruenited',
+				],
+				'reunites'=>[
+					'ruenites',
+				],
+				'reuniting'=>[
+					'rueniting',
+				],
+				'reupholster'=>[
+					'ruepholster',
+				],
+				'reupholstered'=>[
+					'reupholsterd',
+					'ruepholstered',
+				],
+				'reupholstering'=>[
+					'ruepholstering',
+				],
+				'reupholsters'=>[
+					'ruepholsters',
+				],
+				'reusable'=>[
+					'reusible',
+					'ruesable',
+				],
+				'reuse'=>[
+					'ruese',
 				],
 				'revaccinate'=>[
 					'revaccinite',
@@ -7468,6 +13383,10 @@
 					'revaccinitions',
 					'revacinations',
 				],
+				'revalidation'=>[
+					'revalidatoin',
+					'revalidaton',
+				],
 				'revaluate'=>[
 					'revalaute',
 				],
@@ -7476,14 +13395,57 @@
 				],
 				'revaluation'=>[
 					'revalaution',
+					'revaluatoin',
+					'revaluaton',
+				],
+				'revaluations'=>[
+					'revalautions',
+					'revaluatoins',
+					'revaluatons',
+				],
+				'revalue'=>[
+					'revaleu',
+				],
+				'revalued'=>[
+					'revaleud',
+				],
+				'revalues'=>[
+					'revaleus',
+				],
+				'revaluing'=>[
+					'revaliung',
 				],
 				'reveal'=>[
 					'revel',
+					'revael',
 				],
 					# reveling: an accepted spelling, not a slip (AmericanBritishWords_R: reveling)
 			#	'revealing'=>[
 			#		'reveling',
 			#	],
+				'revealable'=>[
+					'revaelable',
+					'revealible',
+				],
+				'revealed'=>[
+					'revaeled',
+				],
+				'revealing'=>[
+					'revaeling',
+				],
+				'revealingly'=>[
+					'revaelingly',
+				],
+				'revealings'=>[
+					'revaelings',
+				],
+				'revealment'=>[
+					'revaelment',
+					'revealmant',
+				],
+				'reveals'=>[
+					'revaels',
+				],
 				'reveille'=>[
 					'revielle',
 					'reveile',
@@ -7495,6 +13457,18 @@
 			#	],
 				'revel'=>[
 					'revei',
+				],
+				'revelation'=>[
+					'revelatoin',
+					'revelaton',
+				],
+				'revelationist'=>[
+					'revelatoinist',
+					'revelatonist',
+				],
+				'revelations'=>[
+					'revelatoins',
+					'revelatons',
 				],
 				'revelled'=>[
 					'revellled',
@@ -7508,15 +13482,31 @@
 				'revelling'=>[
 					'revellling',
 				],
+				'revelries'=>[
+					'revelreis',
+				],
+				'revenant'=>[
+					'revenent',
+				],
 				'revengefully'=>[
 					'revengefullly',
 					'revengefuly',
+					'revengeully',
+					'revengfully',
 				],
 				'revenue'=>[
 					'revnue',
+					'reveneu',
+				],
+				'revenuer'=>[
+					'reveneur',
+				],
+				'revenuers'=>[
+					'reveneurs',
 				],
 				'revenues'=>[
 					'revnues',
+					'reveneus',
 				],
 				'reverberant'=>[
 					'reverberent',
@@ -7526,13 +13516,26 @@
 					'reverberantaly',
 					'reverberantely',
 					'reverberantlly',
+					'reverberently',
 				],
 				'reverberation'=>[
 					'reveberation',
 					'reverbration',
+					'reverberatoin',
+					'reverberaton',
+				],
+				'reverberations'=>[
+					'reverberatoins',
+					'reverberatons',
+				],
+				'revered'=>[
+					'reverd',
 				],
 				'reverence'=>[
 					'reverance',
+				],
+				'reverences'=>[
+					'reverances',
 				],
 				'reverend'=>[
 					'reverand',
@@ -7542,17 +13545,27 @@
 				],
 				'reverential'=>[
 					'reverantial',
+					'reverentail',
 				],
 				'reverentially'=>[
 					'reverentiallly',
 					'reverentialy',
+					'reverentailly',
 				],
 				'reverently'=>[
 					'reverantly',
+					'reverentely',
 				],
 				'reverie'=>[
 					'reverei',
 					'reveri',
+				],
+				'reveries'=>[
+					'revereis',
+				],
+				'reverification'=>[
+					'reverificatoin',
+					'reverificaton',
 				],
 				'reverse'=>[
 					'reverese',
@@ -7564,11 +13577,36 @@
 				'reversible'=>[
 					'reversable',
 				],
+				'reversibly'=>[
+					'reversably',
+				],
+				'reversion'=>[
+					'reversoin',
+					'reverson',
+				],
 				'reversionary'=>[
 					'reversionery',
+					'reversoinary',
+					'reversonary',
+				],
+				'reversioner'=>[
+					'reversoiner',
+				],
+				'reversioners'=>[
+					'reversoiners',
+				],
+				'reversions'=>[
+					'reversoins',
+					'reversons',
 				],
 				'revertible'=>[
 					'revertable',
+				],
+				'revetment'=>[
+					'revetmant',
+				],
+				'revetments'=>[
+					'revetmants',
 				],
 				'revetted'=>[
 					'revettted',
@@ -7580,6 +13618,10 @@
 					'reveiw',
 					'reviw',
 				],
+				'reviewable'=>[
+					'reveiwable',
+					'reviewible',
+				],
 				'reviewed'=>[
 					'reveiwed',
 				],
@@ -7590,17 +13632,84 @@
 				'reviewers'=>[
 					'reveiwers',
 				],
+				'reviewing'=>[
+					'reveiwing',
+				],
+				'reviews'=>[
+					'reveiws',
+				],
+				'revilement'=>[
+					'revilemant',
+				],
+				'revisable'=>[
+					'revisible',
+				],
+				'revision'=>[
+					'revisoin',
+					'revison',
+				],
 				'revisionary'=>[
 					'revisionery',
+					'revisoinary',
+					'revisonary',
+				],
+				'revisionism'=>[
+					'revisoinism',
+					'revisonism',
+				],
+				'revisionist'=>[
+					'revisoinist',
+					'revisonist',
+				],
+				'revisionists'=>[
+					'revisoinists',
+					'revisonists',
+				],
+				'revisions'=>[
+					'revisoins',
+					'revisons',
 				],
 				'revisualization'=>[
 					'revisaulization',
 				],
+				'revitalization'=>[
+					'revitalizatoin',
+					'revitalizaton',
+				],
+				'revivable'=>[
+					'revivible',
+				],
+				'revivification'=>[
+					'revivificatoin',
+					'revivificaton',
+				],
+				'revivified'=>[
+					'revivifeid',
+				],
+				'revivifies'=>[
+					'revivifeis',
+				],
 				'reviviscence'=>[
 					'reviviscance',
+					'revivicence',
+					'revivisence',
 				],
 				'revocable'=>[
 					'revocible',
+				],
+				'revocation'=>[
+					'revocatoin',
+					'revocaton',
+				],
+				'revocations'=>[
+					'revocatoins',
+					'revocatons',
+				],
+				'revoice'=>[
+					'revioce',
+				],
+				'revokable'=>[
+					'revokible',
 				],
 				'revolution'=>[
 					'recolution',
@@ -7611,6 +13720,12 @@
 					'revolutoin',
 					'revoluton',
 					'revoulution',
+				],
+				'revolutionaries'=>[
+					'revolutionareis',
+					'revolutioneries',
+					'revolutoinaries',
+					'revolutonaries',
 				],
 				'revolutionary'=>[
 					'revoltitionary',
@@ -7627,9 +13742,52 @@
 					'revoulution-ary',
 					'revoulutionary',
 					'revoutionary',
+					'revolutonary',
+				],
+				'revolutionism'=>[
+					'revolutoinism',
+					'revolutonism',
+				],
+				'revolutionist'=>[
+					'revolutoinist',
+					'revolutonist',
+				],
+				'revolutionists'=>[
+					'revolutoinists',
+					'revolutonists',
 				],
 				'revolutionize'=>[
 					'revolustionise',
+					'revolutoinize',
+				],
+				'revolutionized'=>[
+					'revolutoinized',
+				],
+				'revolutionizer'=>[
+					'revolutoinizer',
+				],
+				'revolutionizes'=>[
+					'revolutoinizes',
+				],
+				'revolutionizing'=>[
+					'revolutoinizing',
+				],
+				'revolutions'=>[
+					'revolutoins',
+					'revolutons',
+				],
+				'revolvable'=>[
+					'revolvible',
+				],
+				'revue'=>[
+					'reveu',
+				],
+				'revues'=>[
+					'reveus',
+				],
+				'revulsion'=>[
+					'revulsoin',
+					'revulson',
 				],
 				'revved'=>[
 					'revvved',
@@ -7643,6 +13801,18 @@
 				'rewear'=>[
 					'reweer',
 				],
+				'reweave'=>[
+					'rewaeve',
+				],
+				'reweaved'=>[
+					'rewaeved',
+				],
+				'reweaves'=>[
+					'rewaeves',
+				],
+				'reweaving'=>[
+					'rewaeving',
+				],
 				'rewedded'=>[
 					'reweddded',
 				],
@@ -7652,8 +13822,26 @@
 				'reweigh'=>[
 					'rewiegh',
 				],
+				'reweighed'=>[
+					'rewieghed',
+				],
+				'reweighing'=>[
+					'rewieghing',
+				],
+				'reweighs'=>[
+					'rewieghs',
+				],
 				'rewidened'=>[
 					'rewidend',
+				],
+				'rewindable'=>[
+					'rewindible',
+				],
+				'rewired'=>[
+					'rewird',
+				],
+				'rewound'=>[
+					'rewuond',
 				],
 				'rewrapped'=>[
 					'rewraped',
@@ -7665,8 +13853,15 @@
 					'rewriten',
 					'rewrittten',
 				],
+				'rewrought'=>[
+					'rewruoght',
+				],
+				'rezoned'=>[
+					'rezond',
+				],
 				'rhabdomancy'=>[
 					'rhabdomansy',
+					'rhabdomency',
 				],
 				'rhabdomere'=>[
 					'rhabomere',
@@ -7686,6 +13881,10 @@
 				'rhabdovirus'=>[
 					'rhabovirus',
 				],
+				'rhamnaceous'=>[
+					'rhamnaceuos',
+					'rhamnacoeus',
+				],
 				'rhamnogalacturonan'=>[
 					'ramnogalacturonan',
 				],
@@ -7696,11 +13895,45 @@
 					'rhapsodicallly',
 					'rhapsodicaly',
 				],
+				'rhapsodies'=>[
+					'rhapsodeis',
+				],
 				'rhathymia'=>[
 					'rathymia',
 				],
 				'rhea'=>[
 					'rhe',
+				],
+				'rhenium'=>[
+					'rhenuim',
+				],
+				'rheological'=>[
+					'rhoelogical',
+				],
+				'rheologies'=>[
+					'rheologeis',
+					'rhoelogies',
+				],
+				'rheology'=>[
+					'rhoelogy',
+				],
+				'rheometer'=>[
+					'rhoemeter',
+				],
+				'rheostat'=>[
+					'rhoestat',
+				],
+				'rheostatic'=>[
+					'rhoestatic',
+				],
+				'rheostats'=>[
+					'rhoestats',
+				],
+				'rheotaxis'=>[
+					'rhoetaxis',
+				],
+				'rheotropism'=>[
+					'rhoetropism',
 				],
 				'rhetoric'=>[
 					'rethoric',
@@ -7715,22 +13948,60 @@
 				'rhetorician'=>[
 					'rhetorican',
 					'rhetoritician',
+					'rhetoricain',
+				],
+				'rhetoricians'=>[
+					'rhetoricains',
+				],
+				'rheum'=>[
+					'rhuem',
+				],
+				'rheumatic'=>[
+					'rhuematic',
 				],
 				'rheumatically'=>[
 					'rheumaticallly',
 					'rheumaticaly',
+					'rhuematically',
+				],
+				'rheumatics'=>[
+					'rhuematics',
+				],
+				'rheumatism'=>[
+					'rhuematism',
+				],
+				'rheumatoid'=>[
+					'rheumatiod',
+					'rhuematoid',
 				],
 				'rheumatological'=>[
 					'reumatological',
 				],
+				'rheumier'=>[
+					'rheumeir',
+					'rhuemier',
+				],
+				'rheumiest'=>[
+					'rheumeist',
+					'rhuemiest',
+				],
+				'rheumy'=>[
+					'rhuemy',
+				],
 				'rhinal'=>[
 					'rhinil',
+				],
+				'rhinarium'=>[
+					'rhinaruim',
 				],
 				'rhinencephalon'=>[
 					'rhinincephalon',
 				],
 				'rhinestone'=>[
 					'rhinistone',
+				],
+				'rhinestoned'=>[
+					'rhinestond',
 				],
 				'rhinitis'=>[
 					'rhinatis',
@@ -7741,6 +14012,9 @@
 				'rhinocerotid'=>[
 					'rhinocerothid',
 				],
+				'rhinoplasties'=>[
+					'rhinoplasteis',
+				],
 				'rhinorrhea'=>[
 					'rhinorhea',
 				],
@@ -7748,6 +14022,21 @@
 					'rhinocopy',
 					'rhinocsopy',
 					'rhinosopy',
+				],
+				'rhizobium'=>[
+					'rhizobuim',
+				],
+				'rhizocarpous'=>[
+					'rhizocarpuos',
+				],
+				'rhizoid'=>[
+					'rhiziod',
+				],
+				'rhizoids'=>[
+					'rhiziods',
+				],
+				'rhizomorphous'=>[
+					'rhizomorphuos',
 				],
 				'rhizosphere'=>[
 					'rizosphere',
@@ -7757,6 +14046,12 @@
 				],
 				'rhode island'=>[
 					'rode island',
+				],
+				'rhodian'=>[
+					'rhodain',
+				],
+				'rhodium'=>[
+					'rhoduim',
 				],
 				'rhodococosis'=>[
 					'rhodoccocosis',
@@ -7774,8 +14069,18 @@
 				'rhomboencephalic'=>[
 					'romboencephalic',
 				],
+				'rhomboid'=>[
+					'rhombiod',
+				],
+				'rhomboidal'=>[
+					'rhombiodal',
+				],
+				'rhomboids'=>[
+					'rhombiods',
+				],
 				'rhynchocephalian'=>[
 					'rhyncocephalian',
+					'rhynchocephalain',
 				],
 				'rhynchophylline'=>[
 					'rhyncophylline',
@@ -7797,8 +14102,12 @@
 					'rhythmles',
 					'rhythmlesss',
 				],
+				'rialto'=>[
+					'railto',
+				],
 				'riant'=>[
 					'rient',
+					'raint',
 				],
 				'ribavirin'=>[
 					'rebavirin',
@@ -7837,6 +14146,8 @@
 				'ribbonfish'=>[
 					'ribonfish',
 					'ribbbonfish',
+					'ribbofish',
+					'ribbonish',
 				],
 				'ribbonfishes'=>[
 					'ribonfishes',
@@ -7856,12 +14167,22 @@
 					'ribbonwod',
 					'ribbonwoood',
 					'ribonwood',
+					'ribbonood',
+					'ribbowood',
 				],
 				'ribby'=>[
 					'riby',
 				],
+				'ribcage'=>[
+					'ribage',
+					'ricage',
+				],
 				'ribonuclease'=>[
 					'ribonuclese',
+					'ribonuclaese',
+				],
+				'ribonucleic'=>[
+					'ribonucliec',
 				],
 				'ribonucleoprotein'=>[
 					'riboncleoprotein',
@@ -7869,6 +14190,14 @@
 				],
 				'riboprobe'=>[
 					'ripoprobe',
+				],
+				'ricebird'=>[
+					'ricbird',
+					'riceird',
+				],
+				'ricebirds'=>[
+					'ricbirds',
+					'riceirds',
 				],
 				'ricercar'=>[
 					'ricercer',
@@ -7898,6 +14227,12 @@
 					'richnes',
 					'richnesss',
 				],
+				'ricketier'=>[
+					'ricketeir',
+				],
+				'ricketiest'=>[
+					'ricketeist',
+				],
 				'ricketiness'=>[
 					'ricketines',
 					'ricketinesss',
@@ -7909,11 +14244,17 @@
 				'rickettsia'=>[
 					'ricketsia',
 					'ricketttsia',
+					'rickettsai',
 				],
 				'rickettsias'=>[
 					'rickettsiaes',
 					'ricketsias',
 					'ricketttsias',
+					'rickettsais',
+				],
+				'rickrack'=>[
+					'rickack',
+					'ricrack',
 				],
 				'ricochet'=>[
 					'richochet',
@@ -7983,15 +14324,35 @@
 				'ridgeline'=>[
 					'ridgelini',
 				],
+				'ridgepole'=>[
+					'ridgeole',
+					'ridgpole',
+				],
+				'ridgepoles'=>[
+					'ridgeoles',
+					'ridgpoles',
+				],
+				'ridgier'=>[
+					'ridgeir',
+				],
+				'ridgiest'=>[
+					'ridgeist',
+				],
 				'ridiculous'=>[
 					'rediculous',
 					'ndiculous',
 					'ridiciilous',
 					'ridicnlons',
+					'ridiculuos',
+				],
+				'ridiculously'=>[
+					'ridiculousely',
+					'ridiculuosly',
 				],
 				'ridiculousness'=>[
 					'ridiculousnes',
 					'ridiculousnesss',
+					'ridiculuosness',
 				],
 				'riding'=>[
 					'ricling',
@@ -8002,6 +14363,12 @@
 				],
 				'riel'=>[
 					'reil',
+				],
+				'riesling'=>[
+					'reisling',
+				],
+				'rieslings'=>[
+					'reislings',
 				],
 				'rifampicin'=>[
 					'rafampacin',
@@ -8042,6 +14409,9 @@
 				'riffs'=>[
 					'rifffs',
 				],
+				'riflery'=>[
+					'riflary',
+				],
 				'rigadoon'=>[
 					'rigadon',
 					'rigadooon',
@@ -8080,6 +14450,13 @@
 				'righteous'=>[
 					'rightous',
 					'rigliteous',
+					'righteuos',
+					'rightoeus',
+				],
+				'righteously'=>[
+					'righteousely',
+					'righteuosly',
+					'rightoeusly',
 				],
 				'righteousness'=>[
 					'righteousnes',
@@ -8088,6 +14465,8 @@
 					'righteonsness',
 					'rigliteonsness',
 					'rigliteousness',
+					'righteuosness',
+					'rightoeusness',
 				],
 				'rightful'=>[
 					'riglitful',
@@ -8095,6 +14474,8 @@
 				'rightfully'=>[
 					'rightfullly',
 					'rightfuly',
+					'righfully',
+					'rightully',
 				],
 				'rightfulness'=>[
 					'rightfulnes',
@@ -8108,6 +14489,10 @@
 					'rightiy',
 					'riglitly',
 				],
+				'rightmost'=>[
+					'righmost',
+					'rightost',
+				],
 				'rightness'=>[
 					'rightnes',
 					'rightnesss',
@@ -8117,11 +14502,34 @@
 					'rigbts',
 					'riglits',
 				],
+				'rightsize'=>[
+					'righsize',
+					'rightize',
+				],
+				'rightsized'=>[
+					'righsized',
+					'rightized',
+				],
+				'rightsizes'=>[
+					'righsizes',
+					'rightizes',
+				],
+				'rigidified'=>[
+					'rigidifeid',
+				],
+				'rigidifies'=>[
+					'rigidifeis',
+				],
+				'rigidities'=>[
+					'rigiditeis',
+				],
 				'rigidly'=>[
 					'rigidally',
 					'rigidaly',
 					'rigidely',
 					'rigidlly',
+					'rigdly',
+					'riidly',
 				],
 				'rigidness'=>[
 					'rigidnes',
@@ -8132,16 +14540,26 @@
 				],
 				'rigorous'=>[
 					'rigourous',
+					'rigoruos',
 				],
 				'rigorously'=>[
 					'rigoroufly',
+					'rigorousely',
+					'rigoruosly',
 				],
 				'rigorousness'=>[
 					'rigorousnes',
 					'rigorousnesss',
+					'rigoruosness',
 				],
 				'rijsttafel'=>[
 					'rijstaffel',
+				],
+				'rilievo'=>[
+					'rileivo',
+				],
+				'rilievos'=>[
+					'rileivos',
 				],
 				'rill'=>[
 					'ril',
@@ -8162,6 +14580,12 @@
 				],
 				'rimantadine'=>[
 					'remantadine',
+				],
+				'rimier'=>[
+					'rimeir',
+				],
+				'rimiest'=>[
+					'rimeist',
 				],
 				'rimless'=>[
 					'rimles',
@@ -8184,10 +14608,25 @@
 				'rimosely'=>[
 					'rimosly',
 				],
+				'rimrock'=>[
+					'rimock',
+					'rirock',
+				],
 				'ring'=>[
 					'ring ring',
 					'ring ring ring',
 					'riiig',
+				],
+				'ringdove'=>[
+					'rindove',
+					'ringove',
+				],
+				'ringdoves'=>[
+					'rindoves',
+					'ringoves',
+				],
+				'ringent'=>[
+					'ringant',
 				],
 				'ringgit'=>[
 					'ringit',
@@ -8199,6 +14638,44 @@
 				],
 				'ringleader'=>[
 					'ringleder',
+					'ringeader',
+					'ringlaeder',
+					'rinleader',
+				],
+				'ringleaders'=>[
+					'ringeaders',
+					'ringlaeders',
+					'rinleaders',
+				],
+				'ringlets'=>[
+					'ringets',
+					'rinlets',
+				],
+				'ringmaster'=>[
+					'ringaster',
+					'rinmaster',
+				],
+				'ringmasters'=>[
+					'ringasters',
+					'rinmasters',
+				],
+				'ringside'=>[
+					'ringide',
+					'rinside',
+				],
+				'ringtail'=>[
+					'ringail',
+					'ringtial',
+					'rintail',
+				],
+				'ringtails'=>[
+					'ringails',
+					'ringtials',
+					'rintails',
+				],
+				'ringworm'=>[
+					'ringorm',
+					'rinworm',
 				],
 				'rinse'=>[
 					'rince',
@@ -8211,13 +14688,48 @@
 					'rio de janero',
 					'rio de janiero',
 				],
+				'rioted'=>[
+					'roited',
+				],
+				'rioter'=>[
+					'roiter',
+				],
+				'rioters'=>[
+					'roiters',
+				],
+				'rioting'=>[
+					'roiting',
+				],
+				'riotous'=>[
+					'riotuos',
+					'roitous',
+				],
+				'riotously'=>[
+					'riotousely',
+					'riotuosly',
+					'roitously',
+				],
 				'riotousness'=>[
 					'riotousnes',
 					'riotousnesss',
+					'riotuosness',
+					'roitousness',
+				],
+				'riots'=>[
+					'roits',
 				],
 				'riparian'=>[
 					'riparan',
 					'riperian',
+					'riparain',
+				],
+				'ripcord'=>[
+					'ricord',
+					'ripord',
+				],
+				'ripcords'=>[
+					'ricords',
+					'ripords',
 				],
 				'ripely'=>[
 					'riply',
@@ -8228,6 +14740,9 @@
 				'ripeness'=>[
 					'ripenes',
 					'ripenesss',
+				],
+				'ripieno'=>[
+					'ripeino',
 				],
 				'ripoff'=>[
 					'ripof',
@@ -8279,10 +14794,12 @@
 				'ripplier'=>[
 					'riplier',
 					'rippplier',
+					'rippleir',
 				],
 				'rippliest'=>[
 					'ripliest',
 					'ripppliest',
+					'rippleist',
 				],
 				'rippling'=>[
 					'ripppling',
@@ -8310,6 +14827,18 @@
 				'ripsnorting'=>[
 					'ripsnourting',
 				],
+				'ripstop'=>[
+					'riptop',
+					'ristop',
+				],
+				'riptide'=>[
+					'ripide',
+					'ritide',
+				],
+				'riptides'=>[
+					'ripides',
+					'ritides',
+				],
 				'rise'=>[
 					'rise rise',
 					'rise rise rise',
@@ -8318,12 +14847,24 @@
 					'residronate',
 					'risendronate',
 				],
+				'risibility'=>[
+					'risability',
+				],
 				'risible'=>[
 					'risable',
 					'riseable',
 				],
+				'risibly'=>[
+					'risably',
+				],
 				'risk-averse'=>[
 					'risk-adverse',
+				],
+				'riskier'=>[
+					'riskeir',
+				],
+				'riskiest'=>[
+					'riskeist',
 				],
 				'riskiness'=>[
 					'riskines',
@@ -8377,11 +14918,20 @@
 					'ritualisticallly',
 					'ritualisticaly',
 				],
+				'ritualists'=>[
+					'ritaulists',
+				],
 				'ritualizations'=>[
 					'ritaulizations',
 				],
 				'ritualize'=>[
 					'ritaulize',
+				],
+				'ritualized'=>[
+					'ritaulized',
+				],
+				'ritualizes'=>[
+					'ritaulizes',
 				],
 				'ritualizing'=>[
 					'ritaulizing',
@@ -8389,12 +14939,19 @@
 				'ritually'=>[
 					'rituallly',
 					'ritualy',
+					'ritaully',
 				],
 				'rituals'=>[
 					'ritauls',
 				],
 				'rituximab'=>[
 					'rituximub',
+				],
+				'ritzier'=>[
+					'ritzeir',
+				],
+				'ritziest'=>[
+					'ritzeist',
 				],
 				'ritziness'=>[
 					'ritzines',
@@ -8409,6 +14966,9 @@
 				'rivalling'=>[
 					'rivallling',
 				],
+				'rivalries'=>[
+					'rivalreis',
+				],
 				'rivalry'=>[
 					'rivarly',
 				],
@@ -8420,14 +14980,48 @@
 					'river river river',
 					'rivcr',
 				],
+				'riverbank'=>[
+					'rivebank',
+					'riverank',
+				],
+				'riverbanks'=>[
+					'rivebanks',
+					'riveranks',
+				],
+				'riverbeds'=>[
+					'rivebeds',
+				],
+				'riverboat'=>[
+					'riveboat',
+					'riverbaot',
+					'riveroat',
+				],
+				'riverboats'=>[
+					'riveboats',
+					'riverbaots',
+					'riveroats',
+				],
+				'riverfront'=>[
+					'rivefront',
+					'riverront',
+				],
 				'riverhead'=>[
 					'riverhed',
+					'rivehead',
+					'riveread',
+					'riverhaed',
 				],
 				'riverine'=>[
 					'riverini',
 				],
 				'riverside'=>[
 					'rivrside',
+					'riveride',
+					'riveside',
+				],
+				'riversides'=>[
+					'riverides',
+					'rivesides',
 				],
 				'rivetted'=>[
 					'rivettted',
@@ -8435,35 +15029,185 @@
 				'rivetting'=>[
 					'rivettting',
 				],
+				'riviera'=>[
+					'riveira',
+				],
+				'rivieras'=>[
+					'riveiras',
+				],
 				'riviere'=>[
 					'riveire',
 					'rivire',
+				],
+				'roach'=>[
+					'raoch',
+				],
+				'roaches'=>[
+					'raoches',
 				],
 				'road'=>[
 					'road road',
 					'road road road',
 				],
+				'roadability'=>[
+					'raodability',
+					'roaability',
+					'roadbility',
+					'roadibility',
+				],
+				'roadbed'=>[
+					'raodbed',
+				],
+				'roadbeds'=>[
+					'raodbeds',
+					'roabeds',
+				],
+				'roadblock'=>[
+					'raodblock',
+					'roablock',
+					'roadlock',
+				],
+				'roadblocked'=>[
+					'raodblocked',
+					'roablocked',
+					'roadlocked',
+				],
+				'roadblocking'=>[
+					'raodblocking',
+					'roablocking',
+					'roadlocking',
+				],
+				'roadblocks'=>[
+					'raodblocks',
+				],
+				'roadhog'=>[
+					'raodhog',
+				],
+				'roadhouse'=>[
+					'raodhouse',
+					'roadhuose',
+					'roadouse',
+					'roahouse',
+				],
+				'roadhouses'=>[
+					'raodhouses',
+					'roadhuoses',
+					'roadouses',
+					'roahouses',
+				],
 				'roadie'=>[
 					'roadei',
 					'roadi',
+					'raodie',
+				],
+				'roadies'=>[
+					'raodies',
+					'roadeis',
 				],
 				'roadkill'=>[
 					'roadkil',
 					'roadkilll',
+					'raodkill',
+					'roadill',
+					'roakill',
 				],
 				'roadrunner'=>[
 					'roadruner',
 					'roadrunnner',
+					'raodrunner',
+					'roadunner',
+					'roarunner',
 				],
 				'roadrunners'=>[
 					'roadruners',
 					'roadrunnners',
+					'raodrunners',
+					'roadunners',
+					'roarunners',
 				],
 				'roads'=>[
 					'roacls',
+					'raods',
+				],
+				'roadshow'=>[
+					'raodshow',
+					'roadhow',
+					'roashow',
+				],
+				'roadshows'=>[
+					'raodshows',
+					'roadhows',
+					'roashows',
+				],
+				'roadside'=>[
+					'raodside',
+					'roadide',
+					'roaside',
+				],
+				'roadsides'=>[
+					'raodsides',
+					'roadides',
+					'roasides',
+				],
+				'roadsigns'=>[
+					'raodsigns',
+					'roadigns',
+					'roasigns',
+				],
+				'roadstead'=>[
+					'raodstead',
+					'roadstaed',
+				],
+				'roadsteads'=>[
+					'raodsteads',
+					'roadstaeds',
+				],
+				'roadster'=>[
+					'raodster',
+				],
+				'roadsters'=>[
+					'raodsters',
+				],
+				'roadway'=>[
+					'raodway',
+				],
+				'roadways'=>[
+					'raodways',
+					'roadays',
+					'roaways',
+				],
+				'roadwork'=>[
+					'raodwork',
+					'roadork',
+					'roawork',
+				],
+				'roadworks'=>[
+					'raodworks',
+					'roadorks',
+					'roaworks',
 				],
 				'roadworthiness'=>[
 					'roadworthiniss',
+				],
+				'roadworthy'=>[
+					'raodworthy',
+					'roadorthy',
+					'roaworthy',
+				],
+				'roamed'=>[
+					'raomed',
+				],
+				'roamer'=>[
+					'raomer',
+				],
+				'roamers'=>[
+					'raomers',
+				],
+				'roaming'=>[
+					'raoming',
+				],
+				'roams'=>[
+					'raoms',
 				],
 				'roan inish'=>[
 					'roan irish',
@@ -8472,6 +15216,49 @@
 			#	'roar'=>[
 			#		'roer',
 			#	],
+				'roanoke'=>[
+					'raonoke',
+				],
+				'roans'=>[
+					'raons',
+				],
+				'roared'=>[
+					'raored',
+					'roard',
+				],
+				'roarer'=>[
+					'raorer',
+				],
+				'roarers'=>[
+					'raorers',
+				],
+				'roaring'=>[
+					'raoring',
+				],
+				'roars'=>[
+					'raors',
+				],
+				'roast'=>[
+					'raost',
+				],
+				'roasted'=>[
+					'raosted',
+				],
+				'roaster'=>[
+					'raoster',
+				],
+				'roasters'=>[
+					'raosters',
+				],
+				'roasting'=>[
+					'raosting',
+				],
+				'roastings'=>[
+					'raostings',
+				],
+				'roasts'=>[
+					'raosts',
+				],
 				'robbed'=>[
 					'rob bed',
 					'robbbed',
@@ -8482,6 +15269,8 @@
 				'robberies'=>[
 					'roberies',
 					'robbberies',
+					'robbaries',
+					'robbereis',
 				],
 				'robbers'=>[
 					'robbbers',
@@ -8489,6 +15278,7 @@
 				'robbery'=>[
 					'robery',
 					'robbbery',
+					'robbary',
 				],
 				'robbin'=>[
 					'robbbin',
@@ -8502,12 +15292,20 @@
 				'robert cinnamond'=>[
 					'robert cinnamon',
 				],
+				'robinia'=>[
+					'robinai',
+				],
+				'roborant'=>[
+					'roborent',
+				],
 				'robotically'=>[
 					'roboticallly',
 					'roboticaly',
 				],
 				'robustious'=>[
 					'robustous',
+					'robustiuos',
+					'robustoius',
 				],
 				'robustiously'=>[
 					'robustously',
@@ -8525,10 +15323,16 @@
 				'rocaille'=>[
 					'rocaile',
 					'rocaillle',
+					'rocialle',
 				],
 				'rocailles'=>[
 					'rocailes',
 					'rocaillles',
+					'rocialles',
+				],
+				'rochambeau'=>[
+					'rochambaeu',
+					'rochambeua',
 				],
 				'rock'=>[
 					'rock rock',
@@ -8541,8 +15345,24 @@
 					'rockabillly',
 					'rockabily',
 				],
+				'rockaway'=>[
+					'rocaway',
+					'rockway',
+				],
+				'rockbound'=>[
+					'rocbound',
+					'rockbuond',
+					'rockound',
+				],
 				'rockefeller'=>[
 					'rockerfeller',
+				],
+				'rockeries'=>[
+					'rockaries',
+					'rockereis',
+				],
+				'rockery'=>[
+					'rockary',
 				],
 				'rocketeer'=>[
 					'rocketeeer',
@@ -8550,13 +15370,24 @@
 				'rockfall'=>[
 					'rockfal',
 					'rockfalll',
+					'rocfall',
 				],
 				'rockfalls'=>[
 					'rockfallls',
 					'rockfals',
+					'rocfalls',
+				],
+				'rockfish'=>[
+					'rocfish',
 				],
 				'rockhopper'=>[
 					'rockhoper',
+				],
+				'rockier'=>[
+					'rockeir',
+				],
+				'rockiest'=>[
+					'rockeist',
 				],
 				'rockiness'=>[
 					'rockines',
@@ -8566,13 +15397,24 @@
 					'rockon',
 					'rockooon',
 				],
+				'rockrose'=>[
+					'rockose',
+					'rocrose',
+				],
+				'rockroses'=>[
+					'rockoses',
+					'rocroses',
+				],
 				'rockweed'=>[
 					'rockwed',
 					'rockweeed',
+					'rocweed',
 				],
 				'rockweeds'=>[
 					'rockweds',
 					'rockweeeds',
+					'rockeeds',
+					'rocweeds',
 				],
 				'rocuronium'=>[
 					'recuronium',
@@ -8589,26 +15431,126 @@
 				'rodents'=>[
 					'rodants',
 				],
+				'rodeo'=>[
+					'rodoe',
+				],
+				'rodeos'=>[
+					'rodoes',
+				],
 				'rodríguez'=>[
 					'rodriguez',
 				],
+				'roebuck'=>[
+					'reobuck',
+				],
+				'roebucks'=>[
+					'reobucks',
+				],
+				'roentgen'=>[
+					'reontgen',
+				],
 				'roentgenogram'=>[
 					'roantgenogram',
+					'reontgenogram',
+				],
+				'roentgenograms'=>[
+					'reontgenograms',
+				],
+				'roentgenograph'=>[
+					'reontgenograph',
 				],
 				'roentgenography'=>[
 					'roantgenography',
 				],
 				'roentgenology'=>[
 					'roantgenology',
+					'reontgenology',
+				],
+				'roentgenoscope'=>[
+					'reontgenoscope',
+					'roentgenocope',
+					'roentgenosope',
+				],
+				'roentgenotherapy'=>[
+					'reontgenotherapy',
+				],
+				'roentgens'=>[
+					'reontgens',
+				],
+				'rogation'=>[
+					'rogatoin',
+					'rogaton',
+				],
+				'rogations'=>[
+					'rogatoins',
+					'rogatons',
+				],
+				'rogered'=>[
+					'rogerd',
+				],
+				'rogue'=>[
+					'rogeu',
+				],
+				'roguery'=>[
+					'rogeury',
+					'roguary',
+				],
+				'roguish'=>[
+					'rogiush',
+				],
+				'roguishly'=>[
+					'rogiushly',
 				],
 				'roguishness'=>[
 					'roguishnes',
 					'roguishnesss',
+					'rogiushness',
+				],
+				'roiled'=>[
+					'rioled',
+				],
+				'roilier'=>[
+					'riolier',
+					'roileir',
+				],
+				'roiliest'=>[
+					'rioliest',
+					'roileist',
+				],
+				'roiling'=>[
+					'rioling',
+				],
+				'roils'=>[
+					'riols',
 				],
 				'roily'=>[
 					'roially',
 					'roialy',
 					'roilly',
+					'rioly',
+				],
+				'roister'=>[
+					'rioster',
+				],
+				'roistered'=>[
+					'riostered',
+					'roisterd',
+				],
+				'roisterer'=>[
+					'riosterer',
+				],
+				'roisterers'=>[
+					'riosterers',
+				],
+				'roistering'=>[
+					'riostering',
+				],
+				'roisterous'=>[
+					'riosterous',
+					'roisteruos',
+				],
+				'roisters'=>[
+					'riosters',
 				],
 				'roll'=>[
 					'rol',
@@ -8626,10 +15568,12 @@
 				'rollback'=>[
 					'rolback',
 					'rolllback',
+					'rollack',
 				],
 				'rollbacks'=>[
 					'rolbacks',
 					'rolllbacks',
+					'rollacks',
 				],
 				'rolled'=>[
 					'rollled',
@@ -8641,6 +15585,8 @@
 				'rollerblade'=>[
 					'rolerblade',
 					'rolllerblade',
+					'rolleblade',
+					'rollerlade',
 				],
 				'rollerblading'=>[
 					'rolerblading',
@@ -8649,6 +15595,9 @@
 				'rollercoaster'=>[
 					'rolercoaster',
 					'rolllercoaster',
+					'rollecoaster',
+					'rollercaoster',
+					'rolleroaster',
 				],
 				'rollers'=>[
 					'rolers',
@@ -8657,10 +15606,15 @@
 				'rollerskate'=>[
 					'rolerskate',
 					'rolllerskate',
+					'rollerkate',
+					'rollersate',
+					'rolleskate',
 				],
 				'rollerskating'=>[
 					'rolerskating',
 					'rolllerskating',
+					'rollerkating',
+					'rolleskating',
 				],
 				'rollick'=>[
 					'rolick',
@@ -8698,6 +15652,7 @@
 				'rollover'=>[
 					'rolover',
 					'rolllover',
+					'rollver',
 				],
 				'rollovers'=>[
 					'rolllovers',
@@ -8712,15 +15667,26 @@
 				],
 				'romaine'=>[
 					'romaini',
+					'romiane',
+				],
+				'romaines'=>[
+					'romianes',
 				],
 				'romance'=>[
 					'romence',
+				],
+				'romanesque'=>[
+					'romanesqeu',
 				],
 				'romanian horă'=>[
 					'romanian hora',
 				],
 				'romanian-occupied'=>[
 					'romanian occupied',
+				],
+				'romanization'=>[
+					'romanizatoin',
+					'romanizaton',
 				],
 				'romantic'=>[
 					'romatic',
@@ -8735,6 +15701,17 @@
 				],
 				'romanticize'=>[
 					'romenticize',
+				],
+				'romeo'=>[
+					'romoe',
+				],
+				'rondeau'=>[
+					'rondaeu',
+					'rondeua',
+				],
+				'rondeaux'=>[
+					'rondaeux',
+					'rondeuax',
 				],
 				'rondelle'=>[
 					'rondele',
@@ -8773,10 +15750,13 @@
 				'roofgarden'=>[
 					'rofgarden',
 					'rooofgarden',
+					'roofarden',
+					'roogarden',
 				],
 				'roofie'=>[
 					'rofie',
 					'rooofie',
+					'roofei',
 				],
 				'roofing'=>[
 					'rofing',
@@ -8801,18 +15781,24 @@
 				'rooftops'=>[
 					'roftops',
 					'roooftops',
+					'roofops',
+					'rootops',
 				],
 				'rooftree'=>[
 					'roftree',
 					'rooftre',
 					'rooftreee',
 					'roooftree',
+					'roofree',
+					'rootree',
 				],
 				'rooftrees'=>[
 					'roftrees',
 					'rooftreees',
 					'rooftres',
 					'roooftrees',
+					'roofrees',
+					'rootrees',
 				],
 				'rook'=>[
 					'roook',
@@ -8823,10 +15809,13 @@
 				'rookeries'=>[
 					'rokeries',
 					'roookeries',
+					'rookaries',
+					'rookereis',
 				],
 				'rookery'=>[
 					'rokery',
 					'roookery',
+					'rookary',
 				],
 				'rookie'=>[
 					'rookei',
@@ -8836,6 +15825,7 @@
 				],
 				'rookies'=>[
 					'roookies',
+					'rookeis',
 				],
 				'rooking'=>[
 					'roooking',
@@ -8884,9 +15874,11 @@
 				],
 				'roomier'=>[
 					'rooomier',
+					'roomeir',
 				],
 				'roomiest'=>[
 					'rooomiest',
+					'roomeist',
 				],
 				'roominess'=>[
 					'roomines',
@@ -8977,6 +15969,8 @@
 				],
 				'rootlets'=>[
 					'roootlets',
+					'roolets',
+					'rootets',
 				],
 				'rootlike'=>[
 					'roootlike',
@@ -8988,10 +15982,14 @@
 				'rootstock'=>[
 					'roootstock',
 					'rotstock',
+					'roostock',
+					'roottock',
 				],
 				'rootstocks'=>[
 					'roootstocks',
 					'rotstocks',
+					'roostocks',
+					'roottocks',
 				],
 				'ropable'=>[
 					'ropible',
@@ -9000,11 +15998,49 @@
 					'rope rope',
 					'rope rope rope',
 				],
+				'ropedancer'=>[
+					'ropdancer',
+					'ropeancer',
+				],
+				'ropedancers'=>[
+					'ropdancers',
+					'ropeancers',
+				],
+				'ropeways'=>[
+					'ropeays',
+					'ropways',
+				],
+				'ropier'=>[
+					'ropeir',
+				],
+				'ropiest'=>[
+					'ropeist',
+				],
+				'roque'=>[
+					'roqeu',
+				],
+				'roquelaure'=>[
+					'roqeulaure',
+					'roqueluare',
+				],
 				'rorqual'=>[
 					'rorqaul',
 				],
+				'rorquals'=>[
+					'rorqauls',
+				],
+				'rosaceous'=>[
+					'rosaceuos',
+					'rosacoeus',
+				],
 				'rosarian'=>[
 					'rosaran',
+				],
+				'rosaries'=>[
+					'rosareis',
+				],
+				'rosarium'=>[
+					'rosaruim',
 				],
 				'rosary'=>[
 					'rosery',
@@ -9013,6 +16049,7 @@
 					'rocoe',
 					'rocsoe',
 					'rosoe',
+					'rosceo',
 				],
 				'roscovitine'=>[
 					'rocovitine',
@@ -9021,8 +16058,27 @@
 					'rose rose',
 					'rose rose rose',
 				],
+				'roseate'=>[
+					'rosaete',
+				],
 				'roseately'=>[
 					'roseatly',
+				],
+				'rosebuds'=>[
+					'rosbuds',
+					'roseuds',
+				],
+				'rosebush'=>[
+					'rosbush',
+					'roseush',
+				],
+				'rosebushes'=>[
+					'rosbushes',
+					'roseushes',
+				],
+				'rosefish'=>[
+					'roseish',
+					'rosfish',
 				],
 				'rosella'=>[
 					'rosela',
@@ -9033,6 +16089,11 @@
 				],
 				'rosemary'=>[
 					'rosemery',
+					'roseary',
+					'rosmary',
+				],
+				'roseola'=>[
+					'rosoela',
 				],
 				'roseolar'=>[
 					'roseoler',
@@ -9049,17 +16110,39 @@
 				'rosettes'=>[
 					'rosetttes',
 				],
+				'rosewater'=>[
+					'roswater',
+				],
 				'rosewood'=>[
 					'rosewod',
 					'rosewoood',
+					'roseood',
+					'roswood',
 				],
 				'rosewoods'=>[
 					'rosewods',
 					'rosewooods',
+					'roseoods',
+					'roswoods',
+				],
+				'rosie'=>[
+					'rosei',
+				],
+				'rosier'=>[
+					'roseir',
+				],
+				'rosiest'=>[
+					'roseist',
 				],
 				'rosiglitazone'=>[
 					'resiglitazone',
 					'risoglitazone',
+				],
+				'rosily'=>[
+					'rosly',
+				],
+				'rosined'=>[
+					'rosind',
 				],
 				'rosiness'=>[
 					'rosines',
@@ -9086,8 +16169,26 @@
 				'rotamer'=>[
 					'rotomer',
 				],
+				'rotaries'=>[
+					'rotareis',
+				],
 				'rotary'=>[
 					'rotery',
+				],
+				'rotatable'=>[
+					'rotatible',
+				],
+				'rotation'=>[
+					'rotatoin',
+					'rotaton',
+				],
+				'rotational'=>[
+					'rotatoinal',
+					'rotatonal',
+				],
+				'rotations'=>[
+					'rotatoins',
+					'rotatons',
 				],
 				'rotatively'=>[
 					'rotativly',
@@ -9104,6 +16205,8 @@
 				'rotisseries'=>[
 					'rotiseries',
 					'rotissseries',
+					'rotissaries',
+					'rotissereis',
 				],
 				'rototill'=>[
 					'rototil',
@@ -9135,6 +16238,7 @@
 				'rottenly'=>[
 					'rotenly',
 					'rotttenly',
+					'rottenely',
 				],
 				'rottenness'=>[
 					'rottennes',
@@ -9147,6 +16251,8 @@
 				'rottenstone'=>[
 					'rotenstone',
 					'rotttenstone',
+					'rottentone',
+					'rottestone',
 				],
 				'rotter'=>[
 					'rottter',
@@ -9165,94 +16271,360 @@
 				'rottweilers'=>[
 					'rotttweilers',
 					'rotweilers',
+					'rottwielers',
 				],
 				'rotundness'=>[
 					'rotundnes',
 					'rotundnesss',
 				],
+				'roturier'=>[
+					'rotureir',
+				],
+				'rouge'=>[
+					'ruoge',
+				],
 				'rough'=>[
 					'roug',
 					'rongh',
 					'rougli',
+					'ruogh',
+				],
+				'roughage'=>[
+					'ruoghage',
+				],
+				'roughcast'=>[
+					'rougcast',
+					'roughast',
+					'ruoghcast',
+				],
+				'roughcasting'=>[
+					'rougcasting',
+					'roughasting',
+					'ruoghcasting',
+				],
+				'roughcasts'=>[
+					'rougcasts',
+					'roughasts',
+					'ruoghcasts',
+				],
+				'roughed'=>[
+					'ruoghed',
+				],
+				'roughen'=>[
+					'ruoghen',
 				],
 				'roughened'=>[
 					'roughend',
+					'ruoghened',
+				],
+				'roughening'=>[
+					'ruoghening',
+				],
+				'roughens'=>[
+					'ruoghens',
+				],
+				'rougher'=>[
+					'ruogher',
+				],
+				'roughest'=>[
+					'ruoghest',
 				],
 				'roughhew'=>[
 					'roughew',
 					'roughhhew',
+					'ruoghhew',
 				],
 				'roughhewn'=>[
 					'roughewn',
 					'roughhhewn',
+					'ruoghhewn',
 				],
 				'roughhouse'=>[
 					'roughhhouse',
 					'roughouse',
+					'roughhuose',
+					'ruoghhouse',
 				],
 				'roughhoused'=>[
 					'roughhhoused',
 					'roughoused',
+					'roughhuosed',
+					'ruoghhoused',
 				],
 				'roughhouses'=>[
 					'roughhhouses',
 					'roughouses',
+					'roughhuoses',
+					'ruoghhouses',
 				],
 				'roughhousing'=>[
 					'roughhouisng',
 					'roughhhousing',
 					'roughousing',
+					'roughhuosing',
+					'ruoghhousing',
+				],
+				'roughing'=>[
+					'ruoghing',
+				],
+				'roughish'=>[
+					'ruoghish',
 				],
 				'roughly'=>[
 					'rougly',
 					'roughtly',
 					'ronghly',
+					'ruoghly',
+				],
+				'roughneck'=>[
+					'rougheck',
+					'rougneck',
+					'ruoghneck',
+				],
+				'roughnecked'=>[
+					'ruoghnecked',
+				],
+				'roughnecking'=>[
+					'ruoghnecking',
+				],
+				'roughnecks'=>[
+					'roughecks',
+					'rougnecks',
+					'ruoghnecks',
 				],
 				'roughness'=>[
 					'roughnes',
 					'roughnesss',
+					'ruoghness',
+				],
+				'roughrider'=>[
+					'roughider',
+					'rougrider',
+					'ruoghrider',
+				],
+				'roughriders'=>[
+					'roughiders',
+					'rougriders',
+					'ruoghriders',
+				],
+				'roughs'=>[
+					'ruoghs',
+				],
+				'roughshod'=>[
+					'ruoghshod',
+				],
+				'roulade'=>[
+					'ruolade',
+				],
+				'rouleau'=>[
+					'roulaeu',
+					'rouleua',
+					'ruoleau',
 				],
 				'roulette'=>[
 					'roulete',
 					'roulettte',
+					'ruolette',
+				],
+				'rounce'=>[
+					'ruonce',
 				],
 				'round'=>[
 					'round round',
 					'round round round',
 					'ronnd',
 					'rouud',
+					'ruond',
+				],
+				'roundabout'=>[
+					'rounabout',
+					'roundabuot',
+					'roundbout',
+					'ruondabout',
+				],
+				'roundabouts'=>[
+					'roundabuots',
+					'ruondabouts',
+				],
+				'rounded'=>[
+					'ruonded',
+				],
+				'roundel'=>[
+					'ruondel',
+				],
+				'roundelay'=>[
+					'ruondelay',
+				],
+				'roundelays'=>[
+					'ruondelays',
+				],
+				'roundels'=>[
+					'ruondels',
+				],
+				'rounder'=>[
+					'ruonder',
+				],
+				'rounders'=>[
+					'ruonders',
+				],
+				'roundest'=>[
+					'ruondest',
+				],
+				'roundhead'=>[
+					'roundead',
+					'roundhaed',
+					'rounhead',
+					'ruondhead',
 				],
 				'roundheadedness'=>[
 					'roundhededness',
 				],
+				'roundheads'=>[
+					'roundeads',
+					'roundhaeds',
+					'rounheads',
+					'ruondheads',
+				],
 				'roundheel'=>[
 					'roundheeel',
 					'roundhel',
+					'roundeel',
+					'rounheel',
+					'ruondheel',
+				],
+				'roundhouse'=>[
+					'roundhuose',
+					'roundouse',
+					'rounhouse',
+					'ruondhouse',
+				],
+				'roundhouses'=>[
+					'roundhuoses',
+					'roundouses',
+					'rounhouses',
+					'ruondhouses',
+				],
+				'rounding'=>[
+					'ruonding',
+				],
+				'roundish'=>[
+					'ruondish',
+				],
+				'roundlet'=>[
+					'ruondlet',
 				],
 				'roundly'=>[
 					'roundally',
 					'roundaly',
 					'roundely',
 					'roundlly',
+					'ruondly',
 				],
 				'roundness'=>[
 					'roundnes',
 					'roundnesss',
+					'ruondness',
+				],
+				'rounds'=>[
+					'ruonds',
+				],
+				'roundsman'=>[
+					'ruondsman',
+				],
+				'roundsmen'=>[
+					'ruondsmen',
 				],
 				'roundtable'=>[
 					'roundtible',
+					'rountable',
+					'ruondtable',
+				],
+				'roundtables'=>[
+					'roundtibles',
+					'rountables',
+					'ruondtables',
+				],
+				'roundtrip'=>[
+					'roundrip',
+					'rountrip',
+					'ruondtrip',
+				],
+				'roundup'=>[
+					'ruondup',
+				],
+				'roundups'=>[
+					'ruondups',
+				],
+				'roundworm'=>[
+					'roundorm',
+					'rounworm',
+					'ruondworm',
+				],
+				'roundworms'=>[
+					'roundorms',
+					'rounworms',
+					'ruondworms',
+				],
+				'rouse'=>[
+					'ruose',
+				],
+				'roused'=>[
+					'ruosed',
+				],
+				'rouser'=>[
+					'ruoser',
+				],
+				'rouses'=>[
+					'ruoses',
+				],
+				'rousing'=>[
+					'ruosing',
 				],
 				'rousingly'=>[
 					'rouisngly',
 				],
+				'roust'=>[
+					'ruost',
+				],
+				'roustabout'=>[
+					'roustabuot',
+					'ruostabout',
+				],
+				'roustabouts'=>[
+					'roustabuots',
+					'ruostabouts',
+				],
+				'rousted'=>[
+					'ruosted',
+				],
+				'rousting'=>[
+					'ruosting',
+				],
+				'rousts'=>[
+					'ruosts',
+				],
 				'route'=>[
 					'ronte',
 				],
+				'routeing'=>[
+					'routieng',
+				],
+				'routeman'=>[
+					'ruoteman',
+				],
+				'routers'=>[
+					'ruoters',
+				],
 				'routine'=>[
 					'routini',
+					'ruotine',
 				],
 				'routinely'=>[
 					'routinly',
+					'ruotinely',
+				],
+				'routines'=>[
+					'ruotines',
 				],
 				'routinization'=>[
 					'routinazation',
@@ -9262,6 +16634,19 @@
 				],
 				'routinize'=>[
 					'routinaze',
+					'ruotinize',
+				],
+				'routinized'=>[
+					'ruotinized',
+				],
+				'routinizes'=>[
+					'ruotinizes',
+				],
+				'routinizing'=>[
+					'ruotinizing',
+				],
+				'routs'=>[
+					'ruots',
 				],
 				'row'=>[
 					'row row',
@@ -9269,6 +16654,28 @@
 				],
 				'rowable'=>[
 					'rowible',
+				],
+				'rowboat'=>[
+					'roboat',
+					'rowbaot',
+					'rowoat',
+				],
+				'rowboats'=>[
+					'roboats',
+					'rowbaots',
+					'rowoats',
+				],
+				'rowdier'=>[
+					'rowdeir',
+				],
+				'rowdies'=>[
+					'rowdeis',
+				],
+				'rowdiest'=>[
+					'rowdeist',
+				],
+				'rowdily'=>[
+					'rowdly',
 				],
 				'rowdiness'=>[
 					'rowdines',
@@ -9280,6 +16687,14 @@
 				'rowelling'=>[
 					'rowellling',
 				],
+				'rowlock'=>[
+					'rolock',
+					'rowock',
+				],
+				'rowlocks'=>[
+					'rolocks',
+					'rowocks',
+				],
 				'royal & sun alliance'=>[
 					'royal & sunalliance',
 				],
@@ -9289,6 +16704,9 @@
 				'royalties'=>[
 					'royalites',
 					'royalities',
+					'royalies',
+					'royalteis',
+					'royaties',
 				],
 				'royalty'=>[
 					'royality',
@@ -9310,6 +16728,9 @@
 					'rub rub',
 					'rub rub rub',
 				],
+				'rubaiyat'=>[
+					'rubiayat',
+				],
 				'rubalcaba'=>[
 					'rubalcava',
 				],
@@ -9323,10 +16744,12 @@
 				'rubberier'=>[
 					'rubbberier',
 					'ruberier',
+					'rubbereir',
 				],
 				'rubberiest'=>[
 					'ruberiest',
 					'rubbberiest',
+					'rubbereist',
 				],
 				'rubberiness'=>[
 					'rubberines',
@@ -9356,6 +16779,8 @@
 				'rubberneck'=>[
 					'ruberneck',
 					'rubbberneck',
+					'rubbeneck',
+					'rubbereck',
 				],
 				'rubbernecked'=>[
 					'rubernecked',
@@ -9376,6 +16801,8 @@
 				'rubbernecks'=>[
 					'rubernecks',
 					'rubbbernecks',
+					'rubbenecks',
+					'rubberecks',
 				],
 				'rubbers'=>[
 					'rubbbers',
@@ -9384,6 +16811,7 @@
 				'rubbery'=>[
 					'rubery',
 					'rubbbery',
+					'rubbary',
 				],
 				'rubbing'=>[
 					'rubing',
@@ -9428,36 +16856,103 @@
 				'rubby'=>[
 					'rubbby',
 				],
+				'rubdown'=>[
+					'rubown',
+				],
+				'rubdowns'=>[
+					'rubowns',
+				],
 				'rubefacient'=>[
 					'rubefaceint',
 					'rubefacint',
 				],
+				'rubefaction'=>[
+					'rubefactoin',
+					'rubefacton',
+				],
 				'rubella'=>[
 					'rubela',
 					'rubellla',
+					'rublla',
+					'ruella',
 				],
 				'rubellite'=>[
 					'rubelite',
 					'rubelllite',
 				],
+				'rubeola'=>[
+					'ruboela',
+				],
 				'rubeolar'=>[
 					'rubeoler',
 				],
+				'rubeolas'=>[
+					'ruboelas',
+				],
+				'rubescent'=>[
+					'rubecent',
+					'rubescant',
+					'rubesent',
+				],
+				'rubiaceous'=>[
+					'rubaiceous',
+					'rubiaceuos',
+					'rubiacoeus',
+				],
+				'rubicon'=>[
+					'rubcon',
+					'ruicon',
+				],
+				'rubidium'=>[
+					'rubiduim',
+				],
+				'rubies'=>[
+					'rubeis',
+				],
+				'rubiest'=>[
+					'rubeist',
+				],
+				'rubiginous'=>[
+					'rubiginuos',
+				],
 				'rubious'=>[
 					'rubous',
+					'rubiuos',
+					'ruboius',
 				],
 				'rubrerythrin'=>[
 					'ruberythrin',
 				],
+				'rubrication'=>[
+					'rubricatoin',
+					'rubricaton',
+				],
 				'rubrician'=>[
 					'rubrican',
+					'rubricain',
+				],
+				'rubstone'=>[
+					'rubsone',
+					'rubtone',
+					'rustone',
 				],
 				'rubén gonzález'=>[
 					'ruben gonzalez',
 					'ruben gonzález',
 				],
+				'ruction'=>[
+					'ructoin',
+					'ructon',
+				],
+				'ructions'=>[
+					'ructoins',
+					'ructons',
+				],
 				'ructious'=>[
 					'ructous',
+				],
+				'rudbeckia'=>[
+					'rudbeckai',
 				],
 				'rudd'=>[
 					'ruddd',
@@ -9468,6 +16963,9 @@
 				'rudderhead'=>[
 					'ruddderhead',
 					'ruderhead',
+					'ruddehead',
+					'rudderead',
+					'rudderhaed',
 				],
 				'rudderless'=>[
 					'rudderles',
@@ -9478,19 +16976,25 @@
 				'rudderpost'=>[
 					'ruddderpost',
 					'ruderpost',
+					'ruddepost',
+					'rudderost',
 				],
 				'rudderposts'=>[
 					'ruddderposts',
 					'ruderposts',
+					'ruddeposts',
+					'rudderosts',
 				],
 				'rudders'=>[
 					'ruddders',
 				],
 				'ruddier'=>[
 					'rudddier',
+					'ruddeir',
 				],
 				'ruddiest'=>[
 					'rudddiest',
+					'ruddeist',
 				],
 				'ruddily'=>[
 					'rudddily',
@@ -9533,17 +17037,40 @@
 					'rudenes',
 					'rudenesss',
 				],
+				'rudiment'=>[
+					'rudimant',
+				],
 				'rudimentary'=>[
 					'rudimantary',
 					'rudimentery',
 				],
+				'rudiments'=>[
+					'rudimants',
+				],
+				'rueful'=>[
+					'reuful',
+				],
 				'ruefully'=>[
 					'ruefullly',
 					'ruefuly',
+					'reufully',
+					'rueully',
+					'rufully',
 				],
 				'ruefulness'=>[
 					'ruefulnes',
 					'ruefulnesss',
+					'reufulness',
+				],
+				'rufescence'=>[
+					'rufecence',
+					'rufescance',
+					'rufesence',
+				],
+				'rufescent'=>[
+					'rufecent',
+					'rufescant',
+					'rufesent',
 				],
 				'ruff'=>[
 					'rufff',
@@ -9556,14 +17083,17 @@
 					'ruffan',
 					'rufffian',
 					'rufian',
+					'ruffain',
 				],
 				'ruffianism'=>[
 					'rufffianism',
 					'rufianism',
+					'ruffainism',
 				],
 				'ruffianisms'=>[
 					'rufffianisms',
 					'rufianisms',
+					'ruffainisms',
 				],
 				'ruffianly'=>[
 					'ruffianally',
@@ -9572,10 +17102,12 @@
 					'ruffianlly',
 					'rufffianly',
 					'rufianly',
+					'ruffainly',
 				],
 				'ruffians'=>[
 					'rufffians',
 					'rufians',
+					'ruffains',
 				],
 				'ruffing'=>[
 					'rufffing',
@@ -9611,6 +17143,9 @@
 				'rufiyaa'=>[
 					'rufiya',
 					'rufiyaaa',
+				],
+				'rufous'=>[
+					'rufuos',
 				],
 				'rugged'=>[
 					'ruged',
@@ -9674,6 +17209,7 @@
 				],
 				'ruinable'=>[
 					'ruinible',
+					'riunable',
 				],
 				'ruinate'=>[
 					'ruinite',
@@ -9686,18 +17222,40 @@
 				],
 				'ruination'=>[
 					'ruinition',
+					'riunation',
+					'ruinatoin',
+					'ruinaton',
 				],
 				'ruinations'=>[
 					'ruinitions',
+					'riunations',
+					'ruinatoins',
+					'ruinatons',
+				],
+				'ruined'=>[
+					'riuned',
+					'ruind',
+				],
+				'ruing'=>[
+					'riung',
 				],
 				'ruining'=>[
 					'ruinang',
+					'riuning',
 				],
 				'ruinous'=>[
 					'runious',
+					'riunous',
+					'ruinuos',
+				],
+				'ruinously'=>[
+					'riunously',
+					'ruinousely',
+					'ruinuosly',
 				],
 				'ruins'=>[
 					'rnins',
+					'riuns',
 				],
 				'rulable'=>[
 					'rulible',
@@ -9714,9 +17272,17 @@
 				'rules'=>[
 					'rulcs',
 				],
+				'rumbaed'=>[
+					'rumbead',
+				],
+				'rumbaing'=>[
+					'rumbiang',
+				],
 				'rumbustious'=>[
 					'rumbustous',
 					'rumbustuous',
+					'rumbustiuos',
+					'rumbustoius',
 				],
 				'rumbustiously'=>[
 					'rumbustiousally',
@@ -9724,10 +17290,15 @@
 					'rumbustiousely',
 					'rumbustiouslly',
 					'rumbustously',
+					'rumbustiuosly',
+					'rumbustoiusly',
 				],
 				'rumbustiousness'=>[
 					'rumbustiousnes',
 					'rumbustiousnesss',
+					'rumbustiuosness',
+					'rumbustoiusness',
+					'rumbustousness',
 				],
 				'rumina'=>[
 					'rumini',
@@ -9741,6 +17312,11 @@
 				],
 				'ruminantly'=>[
 					'ruminintly',
+					'ruminantely',
+					'ruminently',
+				],
+				'ruminants'=>[
+					'ruminents',
 				],
 				'ruminate'=>[
 					'ruminite',
@@ -9750,6 +17326,12 @@
 				],
 				'rumination'=>[
 					'ruminition',
+					'ruminatoin',
+					'ruminaton',
+				],
+				'ruminations'=>[
+					'ruminatoins',
+					'ruminatons',
 				],
 				'ruminative'=>[
 					'ruminitive',
@@ -9824,6 +17406,9 @@
 			#	'rumormonger'=>[
 			#		'rumourmonger',
 			#	],
+				'rumored'=>[
+					'rumord',
+				],
 				'rumormongering'=>[
 					'rumourmongering',
 				],
@@ -9837,13 +17422,20 @@
 				'rumors'=>[
 					'rumouors',
 				],
+				'rumpuses'=>[
+					'rumuses',
+				],
 				'rumrunner'=>[
 					'rumruner',
 					'rumrunnner',
+					'rumunner',
+					'rurunner',
 				],
 				'rumrunners'=>[
 					'rumruners',
 					'rumrunnners',
+					'rumunners',
+					'rurunners',
 				],
 				'run'=>[
 					'run run',
@@ -9851,16 +17443,44 @@
 					'runned',
 					'riin',
 				],
+				'runabout'=>[
+					'ruabout',
+					'runabuot',
+					'runbout',
+				],
+				'runabouts'=>[
+					'runabuots',
+				],
+				'runaround'=>[
+					'ruaround',
+					'runaruond',
+				],
+				'runarounds'=>[
+					'runaruonds',
+				],
+				'runaway'=>[
+					'ruaway',
+				],
 				'runcinate'=>[
 					'runcinite',
+				],
+				'rundown'=>[
+					'runown',
+				],
+				'rundowns'=>[
+					'runowns',
 				],
 				'runless'=>[
 					'runles',
 					'runlesss',
 				],
+				'runlets'=>[
+					'rulets',
+				],
 				'runnable'=>[
 					'runable',
 					'runnnable',
+					'runnible',
 				],
 				'runnel'=>[
 					'runel',
@@ -9881,10 +17501,12 @@
 				'runnier'=>[
 					'runier',
 					'runnnier',
+					'runneir',
 				],
 				'runniest'=>[
 					'runiest',
 					'runnniest',
+					'runneist',
 				],
 				'running'=>[
 					'runing',
@@ -9907,6 +17529,16 @@
 					'runofffs',
 					'runofs',
 				],
+				'runtier'=>[
+					'runteir',
+				],
+				'runtiest'=>[
+					'runteist',
+				],
+				'runways'=>[
+					'runays',
+					'ruways',
+				],
 				'rupee'=>[
 					'rupeee',
 				],
@@ -9915,9 +17547,14 @@
 				],
 				'rupiah'=>[
 					'rupia',
+					'rupaih',
 				],
 				'rupiahs'=>[
 					'rupias',
+					'rupaihs',
+				],
+				'ruptured'=>[
+					'rupturd',
 				],
 				'rural'=>[
 					'rnral',
@@ -9937,6 +17574,12 @@
 			#	'russ'=>[
 			#		'russs',
 			#	],
+				'rushier'=>[
+					'rusheir',
+				],
+				'rushiest'=>[
+					'rusheist',
+				],
 				'russet'=>[
 					'ruset',
 					'russset',
@@ -9971,9 +17614,23 @@
 					'rusophobe',
 					'russsophobe',
 				],
+				'rustbelt'=>[
+					'rusbelt',
+					'rustelt',
+				],
 				'rustically'=>[
 					'rusticallly',
 					'rusticaly',
+				],
+				'rustication'=>[
+					'rusticatoin',
+					'rusticaton',
+				],
+				'rustier'=>[
+					'rusteir',
+				],
+				'rustiest'=>[
+					'rusteist',
 				],
 				'rustiness'=>[
 					'rustinesss',
@@ -9981,6 +17638,8 @@
 				'rustproof'=>[
 					'rustprof',
 					'rustprooof',
+					'rusproof',
+					'rustroof',
 				],
 				'rustproofed'=>[
 					'rustprofed',
@@ -9993,6 +17652,26 @@
 				'rustproofs'=>[
 					'rustprofs',
 					'rustprooofs',
+					'rusproofs',
+					'rustroofs',
+				],
+				'rutaceous'=>[
+					'rutaceuos',
+					'rutacoeus',
+				],
+				'ruthenian'=>[
+					'ruthenain',
+				],
+				'ruthenious'=>[
+					'rutheniuos',
+					'ruthenoius',
+					'ruthenous',
+				],
+				'ruthenium'=>[
+					'ruthenuim',
+				],
+				'rutherfordium'=>[
+					'rutherforduim',
 				],
 				'ruthless'=>[
 					'ruthles',
@@ -10001,6 +17680,7 @@
 				'ruthlessly'=>[
 					'ruthlesly',
 					'ruthlesssly',
+					'ruthlessely',
 				],
 				'ruthlessness'=>[
 					'ruthlesness',
@@ -10008,16 +17688,21 @@
 					'ruthlessnesss',
 					'ruthlesssness',
 				],
+				'rutilant'=>[
+					'rutilent',
+				],
 				'rutted'=>[
 					'ruttted',
 				],
 				'ruttier'=>[
 					'rutier',
 					'rutttier',
+					'rutteir',
 				],
 				'ruttiest'=>[
 					'rutiest',
 					'rutttiest',
+					'rutteist',
 				],
 				'rutting'=>[
 					'ruttting',

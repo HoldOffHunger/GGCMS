@@ -7,6 +7,32 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 9
+
+- The English misspelling list gained 73,353 slips made by rule, from the
+  shapes Ben kept meeting while fixing Wikipedia by hand: swapped vowels
+  (acheive, abuot), a letter lost where a compound joins (breafast,
+  somehing), a dropped i (queston, religous), ant/ent and ance/ence
+  (independant, emergancy), able/ible (indispensible), sc losing a letter
+  (conciousness), the e of a past tense dropped (frightend, prepard) and the
+  ly endings (completly, previousely). Each shape was tested against
+  RevoltLib's 7,519 reviewed slips before it was written, and the ones that
+  found next to nothing stayed out: odd plurals (heros, and volcanos is
+  accepted anyway) and an extra i in -ian words (Boliviarian). They come
+  from the AI Workers' new rule-made slips job, from common words only. A
+  slip any dictionary knows, one under five letters, or one two words could
+  make (wating: wasting or wanting) stayed out.
+
+- Making them showed that the AI Workers' English Wiktionary index counted
+  misspellings as words: cemetery's page lists cemetary as a form, happened
+  lists happend as an obsolete one, and villians is the plural of the
+  misspelt villian. Every job that trusted the index had been protecting the
+  slips it hunted. About 10,000 such spellings are out of it now, so later
+  doubled-letter and OCR runs can find them.
+
+- The list now loads in 0.38 s at a 73 MB peak, up from 53 MB. The spellcheck
+  page loads it under PHP's default 128 MB limit, which leaves about 55 MB.
+
 ## 2026, November 8
 
 - The English misspelling list gained 34,572 doubled-letter slips: every

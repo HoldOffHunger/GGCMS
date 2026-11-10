@@ -39,6 +39,12 @@
 			#	'zaffar'=>[
 			#		'zaffer',
 			#	],
+				'zabaglione'=>[
+					'zabagloine',
+				],
+				'zabagliones'=>[
+					'zabagloines',
+				],
 				'zaffer'=>[
 					'zafer',
 					'zafffer',
@@ -49,15 +55,45 @@
 				'zagging'=>[
 					'zaging',
 				],
+				'zaibatsu'=>[
+					'ziabatsu',
+				],
+				'zaire'=>[
+					'ziare',
+				],
+				'zaires'=>[
+					'ziares',
+				],
 				'zambian-occupied'=>[
 					'zambian occupied',
+				],
+				'zamia'=>[
+					'zamai',
+				],
+				'zamias'=>[
+					'zamais',
 				],
 				'zamindar'=>[
 					'zaminder',
 				],
+				'zanier'=>[
+					'zaneir',
+				],
+				'zanies'=>[
+					'zaneis',
+				],
+				'zaniest'=>[
+					'zaneist',
+				],
+				'zanily'=>[
+					'zanly',
+				],
 				'zaniness'=>[
 					'zanines',
 					'zaninesss',
+				],
+				'zapateado'=>[
+					'zapataedo',
 				],
 				'zapped'=>[
 					'zaped',
@@ -85,12 +121,35 @@
 				'zardaverine'=>[
 					'zadaverine',
 				],
+				'zarzuela'=>[
+					'zarzeula',
+				],
 				'zeal'=>[
 					'zel',
+				],
+				'zealot'=>[
+					'zaelot',
+				],
+				'zealotry'=>[
+					'zaelotry',
+				],
+				'zealots'=>[
+					'zaelots',
+				],
+				'zealous'=>[
+					'zaelous',
+					'zealuos',
+				],
+				'zealously'=>[
+					'zaelously',
+					'zealousely',
+					'zealuosly',
 				],
 				'zealousness'=>[
 					'zealousnes',
 					'zealousnesss',
+					'zaelousness',
+					'zealuosness',
 				],
 				'zearalenone'=>[
 					'zearelenone',
@@ -104,10 +163,14 @@
 				'zebrawood'=>[
 					'zebrawod',
 					'zebrawoood',
+					'zebraood',
+					'zebrwood',
 				],
 				'zebrawoods'=>[
 					'zebrawods',
 					'zebrawooods',
+					'zebraoods',
+					'zebrwoods',
 				],
 				'zecchin'=>[
 					'zechin',
@@ -118,6 +181,7 @@
 				],
 				'zedoary'=>[
 					'zedoery',
+					'zedaory',
 				],
 				'zee'=>[
 					'zeee',
@@ -131,11 +195,20 @@
 				'zeins'=>[
 					'ziens',
 				],
+				'zeist'=>[
+					'ziest',
+				],
 				'zeitgeber'=>[
 					'zietgeber',
 				],
 				'zeitgeist'=>[
 					'zetgeist',
+					'zeitgiest',
+					'zietgeist',
+				],
+				'zeitgeists'=>[
+					'zeitgiests',
+					'zietgeists',
 				],
 				'zemindar'=>[
 					'zeminder',
@@ -146,6 +219,12 @@
 				'zenithal'=>[
 					'zenital',
 				],
+				'zeolite'=>[
+					'zoelite',
+				],
+				'zeolites'=>[
+					'zoelites',
+				],
 				'zeppelin'=>[
 					'zepelin',
 					'zepppelin',
@@ -153,6 +232,15 @@
 				'zeppelins'=>[
 					'zepelins',
 					'zepppelins',
+				],
+				'zeroed'=>[
+					'zereod',
+				],
+				'zeroes'=>[
+					'zereos',
+				],
+				'zeroing'=>[
+					'zeriong',
 				],
 				'zestfully'=>[
 					'zestfullly',
@@ -162,8 +250,23 @@
 					'zestfulnes',
 					'zestfulnesss',
 				],
+				'zestier'=>[
+					'zesteir',
+				],
+				'zestiest'=>[
+					'zesteist',
+				],
 				'zettabyte'=>[
 					'zetabyte',
+				],
+				'zeugma'=>[
+					'zuegma',
+				],
+				'zeugmas'=>[
+					'zuegmas',
+				],
+				'zeugmatic'=>[
+					'zuegmatic',
 				],
 				'zidovudine'=>[
 					'zidovudini',
@@ -221,6 +324,8 @@
 				'zillion'=>[
 					'zilion',
 					'zilllion',
+					'zilloin',
+					'zillon',
 				],
 				'zillionaire'=>[
 					'zilionaire',
@@ -228,6 +333,11 @@
 				'zillions'=>[
 					'zilions',
 					'zilllions',
+					'zilloins',
+					'zillons',
+				],
+				'zinciferous'=>[
+					'zinciferuos',
 				],
 				'zincy'=>[
 					'zinsy',
@@ -238,19 +348,34 @@
 				'zines'=>[
 					'zinis',
 				],
+				'zingier'=>[
+					'zingeir',
+				],
+				'zingiest'=>[
+					'zingeist',
+				],
 				'zinnia'=>[
 					'zinia',
 					'zinnnia',
+					'zinnai',
 				],
 				'zinnias'=>[
 					'zinias',
 					'zinnnias',
+					'zinnais',
 				],
 				'zionist'=>[
 					'sionist',
+					'zoinist',
+					'zonist',
 				],
 				'zionists'=>[
 					'sionists',
+					'zoinists',
+					'zonists',
+				],
+				'zions'=>[
+					'zoins',
 				],
 				'ziphiid'=>[
 					'ziphid',
@@ -266,6 +391,7 @@
 				'zippered'=>[
 					'zipered',
 					'zipppered',
+					'zipperd',
 				],
 				'zippering'=>[
 					'zipering',
@@ -278,10 +404,12 @@
 				'zippier'=>[
 					'zipier',
 					'zipppier',
+					'zippeir',
 				],
 				'zippiest'=>[
 					'zipiest',
 					'zipppiest',
+					'zippeist',
 				],
 				'zipping'=>[
 					'ziping',
@@ -291,8 +419,29 @@
 					'zipy',
 					'zipppy',
 				],
+				'zirconia'=>[
+					'zirconai',
+				],
+				'zirconias'=>[
+					'zirconais',
+				],
+				'zirconium'=>[
+					'zirconuim',
+				],
+				'zloties'=>[
+					'zloteis',
+				],
 				'zoantharian'=>[
 					'zoantharan',
+				],
+				'zodiac'=>[
+					'zodaic',
+				],
+				'zodiacal'=>[
+					'zodaical',
+				],
+				'zodiacs'=>[
+					'zodaics',
 				],
 				'zoea'=>[
 					'zoe',
@@ -308,11 +457,21 @@
 					# zombi: an accepted spelling, not a slip (AmericanBritishWords_Z: zombie)
 				#	'zombi',
 				],
+				'zombielike'=>[
+					'zombeilike',
+				],
+				'zombies'=>[
+					'zombeis',
+				],
 				'zonally'=>[
 					'zonallly',
 				],
 				'zonary'=>[
 					'zonery',
+				],
+				'zonation'=>[
+					'zonatoin',
+					'zonaton',
 				],
 				'zonular'=>[
 					'zonuler',
@@ -323,30 +482,39 @@
 				'zoochemistry'=>[
 					'zochemistry',
 					'zooochemistry',
+					'zoohemistry',
 				],
 				'zoochore'=>[
 					'zochore',
 					'zooochore',
+					'zoohore',
 				],
 				'zoogeographer'=>[
 					'zogeographer',
 					'zooogeographer',
+					'zoogoegrapher',
 				],
 				'zoogeographic'=>[
 					'zogeographic',
 					'zooogeographic',
+					'zoogoegraphic',
 				],
 				'zoogeographical'=>[
 					'zogeographical',
 					'zooogeographical',
+					'zooeographical',
+					'zoogoegraphical',
 				],
 				'zoogeography'=>[
 					'zogeography',
 					'zooogeography',
+					'zooeography',
+					'zoogoegraphy',
 				],
 				'zooglea'=>[
 					'zoglea',
 					'zoooglea',
+					'zooglae',
 				],
 				'zoography'=>[
 					'zography',
@@ -354,25 +522,30 @@
 				],
 				'zooid'=>[
 					'zoooid',
+					'zoiod',
 				],
 				'zooids'=>[
 					'zoooids',
+					'zoiods',
 				],
 				'zookeeper'=>[
 					'zokeeper',
 					'zookeeeper',
 					'zookeper',
 					'zoookeeper',
+					'zooeeper',
 				],
 				'zookeepers'=>[
 					'zokeepers',
 					'zookeeepers',
 					'zookepers',
 					'zoookeepers',
+					'zooeepers',
 				],
 				'zoolatries'=>[
 					'zolatries',
 					'zooolatries',
+					'zoolatreis',
 				],
 				'zoolatry'=>[
 					'zolatry',
@@ -381,10 +554,12 @@
 				'zoologic'=>[
 					'zologic',
 					'zooologic',
+					'zooogic',
 				],
 				'zoological'=>[
 					'zological',
 					'zooological',
+					'zooogical',
 				],
 				'zoologically'=>[
 					'zologically',
@@ -417,6 +592,7 @@
 				],
 				'zooming'=>[
 					'zoooming',
+					'zooing',
 				],
 				'zoomorph'=>[
 					'zoomourph',
@@ -442,6 +618,7 @@
 				'zoonoses'=>[
 					'zonoses',
 					'zooonoses',
+					'zoooses',
 				],
 				'zoonosis'=>[
 					'zonosis',
@@ -450,6 +627,7 @@
 				'zoophilia'=>[
 					'zooophilia',
 					'zophilia',
+					'zoophilai',
 				],
 				'zoophilic'=>[
 					'zoophyllic',
@@ -457,14 +635,18 @@
 				'zoophilous'=>[
 					'zooophilous',
 					'zophilous',
+					'zoophiluos',
 				],
 				'zoophobia'=>[
 					'zooophobia',
 					'zophobia',
+					'zoohobia',
+					'zoophobai',
 				],
 				'zoophobias'=>[
 					'zooophobias',
 					'zophobias',
+					'zoophobais',
 				],
 				'zoophyte'=>[
 					'zooophyte',
@@ -481,6 +663,7 @@
 				'zooplankton'=>[
 					'zoooplankton',
 					'zoplankton',
+					'zoolankton',
 				],
 				'zooplanktons'=>[
 					'zoooplanktons',
@@ -496,10 +679,12 @@
 				'zoosperm'=>[
 					'zooosperm',
 					'zosperm',
+					'zooperm',
 				],
 				'zoosporangium'=>[
 					'zooosporangium',
 					'zosporangium',
+					'zoosporanguim',
 				],
 				'zoospore'=>[
 					'zooospore',
@@ -508,6 +693,7 @@
 				'zoospores'=>[
 					'zooospores',
 					'zospores',
+					'zoopores',
 				],
 				'zootechnics'=>[
 					'zoootechnics',
@@ -520,10 +706,12 @@
 				'zootoxin'=>[
 					'zoootoxin',
 					'zotoxin',
+					'zoooxin',
 				],
 				'zootsuiter'=>[
 					'zoootsuiter',
 					'zotsuiter',
+					'zootsiuter',
 				],
 				'zooxanthella'=>[
 					'zooxenthella',
@@ -537,10 +725,20 @@
 				],
 				'zouave'=>[
 					'zoauve',
+					'zuoave',
+				],
+				'zounds'=>[
+					'zuonds',
 				],
 				'zowie'=>[
 					'zowei',
 					'zowi',
+				],
+				'zoysia'=>[
+					'zoysai',
+				],
+				'zoysias'=>[
+					'zoysais',
 				],
 				'zoë conway'=>[
 					'zoe conway',
@@ -560,6 +758,9 @@
 					'zuccchinis',
 					'zuchinis',
 				],
+				'zwieback'=>[
+					'zweiback',
+				],
 				'zygomatic'=>[
 					'zigomatic',
 				],
@@ -575,6 +776,8 @@
 				'zygophyllaceous'=>[
 					'zygophylaceous',
 					'zygophylllaceous',
+					'zygophyllaceuos',
+					'zygophyllacoeus',
 				],
 				'zymographic'=>[
 					'zimographic',

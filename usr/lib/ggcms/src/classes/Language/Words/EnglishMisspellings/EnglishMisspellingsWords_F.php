@@ -35,12 +35,43 @@
 				'Florodora'=>[
 					'floradora',
 				],
+				'fabaceous'=>[
+					'fabaceuos',
+					'fabacoeus',
+				],
+				'fabian'=>[
+					'fabain',
+				],
+				'fabliau'=>[
+					'fablaiu',
+					'fabliua',
+				],
+				'fabliaux'=>[
+					'fablaiux',
+					'fabliuax',
+				],
 				'fabricant'=>[
 					'fabricent',
+				],
+				'fabrication'=>[
+					'fabricatoin',
+					'fabricaton',
+				],
+				'fabrications'=>[
+					'fabricatoins',
+					'fabricatons',
+				],
+				'fabulous'=>[
+					'fabuluos',
+				],
+				'fabulously'=>[
+					'fabulousely',
+					'fabuluosly',
 				],
 				'fabulousness'=>[
 					'fabulousnes',
 					'fabulousnesss',
+					'fabuluosness',
 				],
 				'face'=>[
 					'face face',
@@ -49,24 +80,58 @@
 				'facebook'=>[
 					'facebok',
 					'faceboook',
+					'facbook',
+					'faceook',
+				],
+				'facecloth'=>[
+					'faccloth',
+					'faceloth',
+				],
+				'facedown'=>[
+					'facdown',
+					'faceown',
 				],
 				'faceless'=>[
 					'faceles',
 					'facelesss',
 				],
+				'facelift'=>[
+					'faceift',
+					'faclift',
+				],
+				'faceplate'=>[
+					'facelate',
+					'facplate',
+				],
+				'faceplates'=>[
+					'facelates',
+					'facplates',
+				],
 				'facetely'=>[
 					'facetly',
+				],
+				'facetiae'=>[
+					'facetaie',
+					'facetiea',
 				],
 				'facetious'=>[
 					'fascitious',
 					'facetous',
+					'facetiuos',
+					'facetoius',
 				],
 				'facetiously'=>[
 					'facetously',
+					'facetiousely',
+					'facetiuosly',
+					'facetoiusly',
 				],
 				'facetiousness'=>[
 					'facetiousnes',
 					'facetiousnesss',
+					'facetiuosness',
+					'facetoiusness',
+					'facetousness',
 				],
 				'facetted'=>[
 					'facettted',
@@ -74,11 +139,22 @@
 				'facetting'=>[
 					'facettting',
 				],
+				'facia'=>[
+					'facai',
+				],
 				'facial'=>[
 					'faciat',
+					'facail',
 				],
 				'facially'=>[
 					'faciallly',
+					'facailly',
+				],
+				'facials'=>[
+					'facails',
+				],
+				'facias'=>[
+					'facais',
 				],
 				'facies'=>[
 					'faceis',
@@ -99,11 +175,16 @@
 					'faciliated',
 					'fasciliated',
 				],
+				'facilitation'=>[
+					'facilitatoin',
+					'facilitaton',
+				],
 				'facilitatory'=>[
 					'facilitory',
 				],
 				'facilities'=>[
 					'facilites',
+					'faciliteis',
 				],
 				'facility'=>[
 					'facillity',
@@ -126,31 +207,86 @@
 				'fact-checker'=>[
 					'factchecker',
 				],
+				'faction'=>[
+					'factoin',
+					'facton',
+				],
+				'factional'=>[
+					'factoinal',
+					'factonal',
+				],
+				'factionalism'=>[
+					'factoinalism',
+				],
+				'factions'=>[
+					'factoins',
+					'factons',
+				],
 				'factious'=>[
 					'factous',
+					'factiuos',
+					'factoius',
 				],
 				'factiously'=>[
 					'factously',
+					'factiousely',
+					'factiuosly',
+					'factoiusly',
 				],
 				'factiousness'=>[
 					'factiousnes',
 					'factiousnesss',
+					'factiuosness',
+					'factoiusness',
+					'factousness',
 				],
 				'factitious'=>[
 					'factitous',
+					'factitiuos',
+					'factitoius',
 				],
 				'factitiously'=>[
 					'factitously',
+					'factitiousely',
+					'factitiuosly',
+					'factitoiusly',
 				],
 				'factitiousness'=>[
 					'factitiousnes',
 					'factitiousnesss',
+					'factitiuosness',
+					'factitoiusness',
+					'factitousness',
 				],
 				'factitively'=>[
 					'factitivly',
 				],
+				'factoid'=>[
+					'factiod',
+				],
+				'factoids'=>[
+					'factiods',
+				],
+				'factored'=>[
+					'factord',
+				],
+				'factorial'=>[
+					'factorail',
+				],
+				'factorials'=>[
+					'factorails',
+				],
 				'factories'=>[
 					'factones',
+					'factoreis',
+				],
+				'factorization'=>[
+					'factorizatoin',
+					'factorizaton',
+				],
+				'factorizations'=>[
+					'factorizatoins',
+					'factorizatons',
 				],
 				'factual'=>[
 					'factaul',
@@ -161,9 +297,17 @@
 				'factualists'=>[
 					'factaulists',
 				],
+				'factualities'=>[
+					'factaulities',
+					'factualiteis',
+				],
+				'factuality'=>[
+					'factaulity',
+				],
 				'factually'=>[
 					'factuallly',
 					'factualy',
+					'factaully',
 				],
 				'factualness'=>[
 					'factaulness',
@@ -173,6 +317,9 @@
 				],
 				'facultatively'=>[
 					'facultativly',
+				],
+				'faculties'=>[
+					'faculteis',
 				],
 				'fadable'=>[
 					'fadible',
@@ -213,15 +360,39 @@
 					'fadeles',
 					'fadelesss',
 				],
+				'fadeout'=>[
+					'fadeuot',
+					'fadoeut',
+				],
+				'fadeouts'=>[
+					'fadeuots',
+					'fadeuts',
+					'fadoeuts',
+					'fadouts',
+				],
 				'fades'=>[
 					'facles',
 				],
 				'fadrozole'=>[
 					'fadrazole',
 				],
+				'faecal'=>[
+					'feacal',
+				],
+				'faeces'=>[
+					'feaces',
+				],
+				'faena'=>[
+					'feana',
+				],
 				'faerie'=>[
 					'faerei',
 					'faeri',
+					'fearie',
+				],
+				'faeries'=>[
+					'faereis',
+					'fearies',
 				],
 				'faff'=>[
 					'fafff',
@@ -234,6 +405,10 @@
 				],
 				'faffs'=>[
 					'fafffs',
+				],
+				'fagaceous'=>[
+					'fagaceuos',
+					'fagacoeus',
 				],
 				'fagged'=>[
 					'faggged',
@@ -283,15 +458,28 @@
 				'failed'=>[
 					'failcd',
 					'failecl',
+					'fialed',
 				],
 				'failing'=>[
 					'faling',
+					'fialing',
+				],
+				'failings'=>[
+					'fialings',
 				],
 				'faille'=>[
 					'faillle',
+					'fialle',
+				],
+				'fails'=>[
+					'fials',
 				],
 				'failure'=>[
 					'faliure',
+					'fialure',
+				],
+				'failures'=>[
+					'fialures',
 				],
 				'faineance'=>[
 					'faineence',
@@ -303,16 +491,83 @@
 			#	'fainthearted'=>[
 			#		'faint-hearted',
 			#	],
+				'faint'=>[
+					'fiant',
+				],
+				'fainted'=>[
+					'fianted',
+				],
+				'fainter'=>[
+					'fianter',
+				],
+				'faintest'=>[
+					'fiantest',
+				],
+				'faintheart'=>[
+					'fainheart',
+					'fainteart',
+					'fainthaert',
+					'fiantheart',
+				],
+				'fainthearted'=>[
+					'fainthaerted',
+					'fianthearted',
+				],
 				'faintheartedly'=>[
 					'fainthertedly',
+				],
+				'fainting'=>[
+					'fianting',
+				],
+				'faintly'=>[
+					'faintely',
+					'fiantly',
 				],
 				'faintness'=>[
 					'faintnes',
 					'faintnesss',
+					'fiantness',
 				],
 				'fair'=>[
 					'fair fair',
 					'fair fair fair',
+				],
+				'fairbanks'=>[
+					'faibanks',
+					'fairanks',
+					'fiarbanks',
+				],
+				'fairground'=>[
+					'faiground',
+					'fairgruond',
+					'fairround',
+					'fiarground',
+				],
+				'fairgrounds'=>[
+					'faigrounds',
+					'fairgruonds',
+					'fairrounds',
+					'fiargrounds',
+				],
+				'fairies'=>[
+					'faireis',
+					'fiaries',
+				],
+				'fairings'=>[
+					'fiarings',
+				],
+				'fairish'=>[
+					'fiarish',
+				],
+				'fairlead'=>[
+					'failead',
+					'fairead',
+					'fairlaed',
+					'fiarlead',
+				],
+				'fairleads'=>[
+					'fairlaeds',
+					'fiarleads',
 				],
 				'fairly'=>[
 					'afairly',
@@ -324,11 +579,50 @@
 				'fairness'=>[
 					'fairnes',
 					'fairnesss',
+					'fiarness',
+				],
+				'fairway'=>[
+					'fiarway',
+				],
+				'fairways'=>[
+					'fairays',
+					'faiways',
+					'fiarways',
+				],
+				'fairweather'=>[
+					'faireather',
+					'fairwaether',
+					'faiweather',
+					'fiarweather',
+				],
+				'fairy'=>[
+					'fiary',
+				],
+				'fairyland'=>[
+					'fairland',
+					'fairyand',
+					'fiaryland',
+				],
+				'fairylands'=>[
+					'fairlands',
+					'fairyands',
+					'fiarylands',
+				],
+				'fairytale'=>[
+					'fairtale',
+					'fairyale',
+					'fiarytale',
+				],
+				'fairytales'=>[
+					'fairtales',
+					'fairyales',
+					'fiarytales',
 				],
 				'faith'=>[
 					'failh',
 					'faitb',
 					'faitli',
+					'fiath',
 				],
 				'faithful'=>[
 					'faithfull',
@@ -337,20 +631,29 @@
 					'faithfnl',
 					'faitlifiil',
 					'faitliful',
+					'fiathful',
 				],
 				'faithfully'=>[
 					'faithfullly',
 					'faithfuly',
 					'faithfnlly',
 					'faitlifully',
+					'faitfully',
+					'faithully',
+					'fiathfully',
 				],
 				'faithfulness'=>[
 					'faithfulnesss',
 					'faitlifulness',
+					'fiathfulness',
+				],
+				'faithfuls'=>[
+					'fiathfuls',
 				],
 				'faithless'=>[
 					'faithles',
 					'faithlesss',
+					'fiathless',
 				],
 				'faithlessly'=>[
 					'faithlessally',
@@ -359,15 +662,29 @@
 					'faithlesslly',
 					'faithlesly',
 					'faithlesssly',
+					'fiathlessly',
 				],
 				'faithlessness'=>[
 					'faithlesness',
 					'faithlessnes',
 					'faithlessnesss',
 					'faithlesssness',
+					'fiathlessness',
+				],
+				'faitor'=>[
+					'fiator',
+				],
+				'fakeries'=>[
+					'fakereis',
 				],
 				'falafel'=>[
 					'falafal',
+				],
+				'falchion'=>[
+					'falchoin',
+				],
+				'falchions'=>[
+					'falchoins',
 				],
 				'faldstool'=>[
 					'faldstol',
@@ -385,22 +702,31 @@
 				'fallacies'=>[
 					'falacies',
 					'falllacies',
+					'fallaceis',
 				],
 				'fallacious'=>[
 					'falacious',
 					'fallacous',
 					'falllacious',
+					'fallaciuos',
+					'fallacoius',
 				],
 				'fallaciously'=>[
 					'fallacously',
 					'falaciously',
 					'falllaciously',
+					'fallaciousely',
+					'fallaciuosly',
+					'fallacoiusly',
 				],
 				'fallaciousness'=>[
 					'fallaciousnes',
 					'fallaciousnesss',
 					'falaciousness',
 					'falllaciousness',
+					'fallaciuosness',
+					'fallacoiusness',
+					'fallacousness',
 				],
 				'fallaciousnesses'=>[
 					'fallaciousneses',
@@ -422,6 +748,7 @@
 				'fallback'=>[
 					'falback',
 					'falllback',
+					'fallack',
 				],
 				'fallbacks'=>[
 					'falbacks',
@@ -446,6 +773,7 @@
 				'fallibility'=>[
 					'falibility',
 					'falllibility',
+					'fallability',
 				],
 				'fallible'=>[
 					'falible',
@@ -457,10 +785,12 @@
 					'falliblenesss',
 					'falibleness',
 					'falllibleness',
+					'fallableness',
 				],
 				'fallibly'=>[
 					'falibly',
 					'falllibly',
+					'fallably',
 				],
 				'falling'=>[
 					'fallling',
@@ -480,10 +810,12 @@
 				'fallopian'=>[
 					'falllopian',
 					'falopian',
+					'fallopain',
 				],
 				'fallout'=>[
 					'falout',
 					'falllout',
+					'falluot',
 				],
 				'fallow'=>[
 					'falow',
@@ -492,10 +824,12 @@
 				'fallowed'=>[
 					'falllowed',
 					'falowed',
+					'fallwed',
 				],
 				'fallowing'=>[
 					'falllowing',
 					'falowing',
+					'fallwing',
 				],
 				'fallowness'=>[
 					'fallownes',
@@ -522,6 +856,8 @@
 				'falsehoods'=>[
 					'falsehods',
 					'falsehooods',
+					'falseoods',
+					'falshoods',
 				],
 				'falsely'=>[
 					'falsley',
@@ -540,17 +876,95 @@
 					'falsetos',
 					'falsetttos',
 				],
+				'falsework'=>[
+					'falseork',
+					'falswork',
+				],
+				'falsie'=>[
+					'falsei',
+				],
+				'falsies'=>[
+					'falseis',
+				],
+				'falsifiability'=>[
+					'falsifaibility',
+				],
+				'falsifiable'=>[
+					'falsifaible',
+				],
+				'falsification'=>[
+					'falsificatoin',
+					'falsificaton',
+				],
+				'falsifications'=>[
+					'falsificatoins',
+					'falsificatons',
+				],
 				'falsified'=>[
 					'falfified',
+					'falsifeid',
+				],
+				'falsifier'=>[
+					'falsifeir',
+				],
+				'falsifiers'=>[
+					'falsifeirs',
+				],
+				'falsifies'=>[
+					'falsifeis',
+				],
+				'falsities'=>[
+					'falsiteis',
+				],
+				'faltboat'=>[
+					'faltbaot',
 				],
 				'falter'=>[
 					'faulter',
+				],
+				'faltered'=>[
+					'falterd',
+				],
+				'familial'=>[
+					'familail',
 				],
 				'familiar'=>[
 					'familar',
 					'familliar',
 					'familier',
 					'famihar',
+					'familair',
+				],
+				'familiarities'=>[
+					'familairities',
+					'familiariteis',
+				],
+				'familiarity'=>[
+					'familairity',
+				],
+				'familiarization'=>[
+					'familairization',
+					'familiarizatoin',
+					'familiarizaton',
+				],
+				'familiarize'=>[
+					'familairize',
+				],
+				'familiarized'=>[
+					'familairized',
+				],
+				'familiarizes'=>[
+					'familairizes',
+				],
+				'familiarizing'=>[
+					'familairizing',
+				],
+				'familiarly'=>[
+					'familairly',
+					'familiarily',
+				],
+				'familiars'=>[
+					'familairs',
 				],
 				'families'=>[
 					'familes',
@@ -558,6 +972,7 @@
 					'familys',
 					'larnilies',
 					'famihes',
+					'famileis',
 				],
 				'family'=>[
 					'famaly',
@@ -586,6 +1001,7 @@
 					'fomous',
 					'famons',
 					'fanious',
+					'famuos',
 				],
 				'famously'=>[
 					'fameousely',
@@ -594,6 +1010,7 @@
 					'famousally',
 					'famousaly',
 					'famouslly',
+					'famuosly',
 				],
 				'fanatically'=>[
 					'fanaticallly',
@@ -603,9 +1020,24 @@
 					'fanatism',
 					'fanatacism',
 				],
+				'fanciable'=>[
+					'fancaible',
+				],
+				'fancied'=>[
+					'fanceid',
+				],
 				'fancier'=>[
 					'fanceir',
 					'fancir',
+				],
+				'fanciers'=>[
+					'fanceirs',
+				],
+				'fancies'=>[
+					'fanceis',
+				],
+				'fanciest'=>[
+					'fanceist',
 				],
 				'fancifully'=>[
 					'fancifullly',
@@ -615,6 +1047,9 @@
 					'fancifulnes',
 					'fancifulnesss',
 				],
+				'fancily'=>[
+					'fancly',
+				],
 				'fanciness'=>[
 					'fancines',
 					'fancinesss',
@@ -623,14 +1058,44 @@
 					'fansy',
 					'faucy',
 				],
+				'fancywork'=>[
+					'fancwork',
+					'fancyork',
+				],
+				'fandangoes'=>[
+					'fandangeos',
+				],
+				'fanfare'=>[
+					'fafare',
+					'fanare',
+				],
+				'fanfares'=>[
+					'fafares',
+					'fanares',
+				],
+				'fanion'=>[
+					'fanoin',
+				],
+				'fanions'=>[
+					'fanoins',
+				],
 				'fanjinghshan'=>[
 					'fanjingshan',
+				],
+				'fanlight'=>[
+					'falight',
+					'fanight',
+				],
+				'fanlights'=>[
+					'falights',
+					'fanights',
 				],
 				'fanned'=>[
 					'fannned',
 				],
 				'fannies'=>[
 					'fannnies',
+					'fanneis',
 				],
 				'fanning'=>[
 					'fannning',
@@ -644,9 +1109,32 @@
 				],
 				'fantail'=>[
 					'fentail',
+					'fanail',
+					'fantial',
+					'fatail',
+				],
+				'fantailed'=>[
+					'fanailed',
+					'fantialed',
+					'fatailed',
+				],
+				'fantails'=>[
+					'fanails',
+					'fantials',
+					'fatails',
 				],
 				'fantasia'=>[
 					'fentasia',
+					'fantasai',
+				],
+				'fantasias'=>[
+					'fantasais',
+				],
+				'fantasied'=>[
+					'fantaseid',
+				],
+				'fantasies'=>[
+					'fantaseis',
 				],
 				'fantasist'=>[
 					'fentasist',
@@ -720,8 +1208,15 @@
 				'far-reaching'=>[
 					'farreaching',
 				],
+				'faraway'=>[
+					'faaway',
+				],
 				'farceur'=>[
 					'farcer',
+					'farcuer',
+				],
+				'farceuse'=>[
+					'farcuese',
 				],
 				'farcically'=>[
 					'farcicallly',
@@ -734,15 +1229,23 @@
 					'fairwell',
 					'farewel',
 					'farewelll',
+					'fareell',
 				],
 				'farewells'=>[
 					'farewellls',
+					'fareells',
+				],
+				'farfetched'=>[
+					'fafetched',
+					'faretched',
 				],
 				'farina'=>[
 					'farini',
 				],
 				'farinaceous'=>[
 					'fariniceous',
+					'farinaceuos',
+					'farinacoeus',
 				],
 				'farkleberries'=>[
 					'farkleberies',
@@ -754,18 +1257,53 @@
 					'farm farm',
 					'farm farm farm',
 				],
+				'farmable'=>[
+					'farmible',
+				],
 				'farmers'=>[
 					'hrmers',
 				],
+				'farmhand'=>[
+					'farhand',
+				],
+				'farmhands'=>[
+					'farhands',
+				],
+				'farmhouse'=>[
+					'farhouse',
+					'farmhuose',
+					'farmouse',
+				],
+				'farmhouses'=>[
+					'farhouses',
+					'farmhuoses',
+					'farmouses',
+				],
 				'farmstead'=>[
 					'farmsted',
+					'farmstaed',
+				],
+				'farmsteads'=>[
+					'farmstaeds',
+				],
+				'farmyard'=>[
+					'farmard',
+					'faryard',
+				],
+				'farmyards'=>[
+					'farmards',
+					'faryards',
 				],
 				'farnesoid'=>[
 					'farsenoid',
 				],
+				'farouche'=>[
+					'faruoche',
+				],
 				'farraginous'=>[
 					'faraginous',
 					'farrraginous',
+					'farraginuos',
 				],
 				'farrago'=>[
 					'farago',
@@ -773,6 +1311,7 @@
 				],
 				'farragoes'=>[
 					'farrragoes',
+					'farrageos',
 				],
 				'farragos'=>[
 					'farrragos',
@@ -786,10 +1325,13 @@
 				'farriers'=>[
 					'fariers',
 					'farrriers',
+					'farreirs',
 				],
 				'farriery'=>[
 					'fariery',
 					'farrriery',
+					'farreiry',
+					'farriary',
 				],
 				'farrow'=>[
 					'farow',
@@ -810,6 +1352,11 @@
 				'farseeing'=>[
 					'farseieng',
 					'farseeeing',
+					'faseeing',
+				],
+				'farsighted'=>[
+					'farighted',
+					'fasighted',
 				],
 				'farsightedly'=>[
 					'farsightedally',
@@ -827,11 +1374,20 @@
 					'fartlicr',
 					'fartlier',
 				],
+				'farthermost'=>[
+					'farthemost',
+					'fartherost',
+				],
 				'farthest'=>[
 					'fartliest',
 				],
 				'farthing'=>[
 					'fartliing',
+					'farhing',
+				],
+				'farthings'=>[
+					'farhings',
+					'fathings',
 				],
 				'fasces'=>[
 					'facces',
@@ -842,11 +1398,41 @@
 					'facia',
 					'facsia',
 					'fasia',
+					'fascai',
+				],
+				'fasciae'=>[
+					'fascaie',
+					'fasciea',
+					'fasiae',
+				],
+				'fascias'=>[
+					'fascais',
+					'fasias',
+				],
+				'fasciate'=>[
+					'faciate',
+					'fascaite',
+					'fasiate',
+				],
+				'fasciation'=>[
+					'faciation',
+					'fascaition',
+					'fasciatoin',
+					'fasciaton',
+					'fasiation',
 				],
 				'fascicle'=>[
 					'facicle',
 					'facsicle',
 					'fasicle',
+				],
+				'fascicled'=>[
+					'facicled',
+					'fasicled',
+				],
+				'fascicles'=>[
+					'facicles',
+					'fasicles',
 				],
 				'fascicular'=>[
 					'fasciculer',
@@ -861,6 +1447,18 @@
 					'facsiculations',
 					'fasiculations',
 				],
+				'fascicule'=>[
+					'facicule',
+					'fasicule',
+				],
+				'fascicules'=>[
+					'facicules',
+					'fasicules',
+				],
+				'fasciculus'=>[
+					'faciculus',
+					'fasiculus',
+				],
 				'fasciitis'=>[
 					'faciitis',
 					'facsiitis',
@@ -872,20 +1470,46 @@
 					'facsinate',
 					'fascinite',
 				],
+				'fascinated'=>[
+					'facinated',
+					'fasinated',
+				],
+				'fascinates'=>[
+					'facinates',
+					'fasinates',
+				],
 				'fascinating'=>[
 					'facinating',
 					'facsinating',
 					'fasciniting',
 					'fasinating',
 				],
+				'fascinatingly'=>[
+					'facinatingly',
+					'fasinatingly',
+				],
 				'fascination'=>[
 					'facination',
 					'facsination',
 					'fascinition',
 					'fasination',
+					'fascinatoin',
+					'fascinaton',
+				],
+				'fascinations'=>[
+					'facinations',
+					'fascinatoins',
+					'fascinatons',
+					'fasinations',
 				],
 				'fascinator'=>[
 					'fascinitor',
+					'facinator',
+					'fasinator',
+				],
+				'fascine'=>[
+					'facine',
+					'fasine',
 				],
 				'fasciocutaneous'=>[
 					'fasciocutaneus',
@@ -919,19 +1543,51 @@
 					'fasist',
 					'faschist',
 				],
+				'fascistic'=>[
+					'facistic',
+					'fasistic',
+				],
+				'fascists'=>[
+					'facists',
+					'fasists',
+				],
 				'fashion'=>[
 					'fasion',
 					'fafhion',
 					'fasbion',
 					'fasliion',
+					'fashoin',
+					'fashon',
 				],
 				'fashionable'=>[
 					'fashionible',
 					'fasliionable',
+					'fashoinable',
 				],
 				'fashionableness'=>[
 					'fashionablenes',
 					'fashionablenesss',
+					'fashionibleness',
+					'fashoinableness',
+				],
+				'fashionably'=>[
+					'fashionibly',
+					'fashoinably',
+				],
+				'fashioned'=>[
+					'fashiond',
+					'fashoined',
+					'fashoned',
+				],
+				'fashioner'=>[
+					'fashoiner',
+				],
+				'fashioners'=>[
+					'fashoiners',
+				],
+				'fashioning'=>[
+					'fashoining',
+					'fashoning',
 				],
 				'fashionmonger'=>[
 					'fashiomonger',
@@ -941,6 +1597,10 @@
 					'fashiomongers',
 					'fashionongers',
 				],
+				'fashions'=>[
+					'fashoins',
+					'fashons',
+				],
 				'fashious'=>[
 					'fashous',
 				],
@@ -949,13 +1609,25 @@
 					'fast fast fast',
 					'faft',
 				],
+				'fastback'=>[
+					'fasback',
+					'fastack',
+				],
+				'fastbacks'=>[
+					'fasbacks',
+					'fastacks',
+				],
 				'fastball'=>[
 					'fastbal',
 					'fastballl',
+					'fasball',
+					'fastall',
 				],
 				'fastballs'=>[
 					'fastballls',
 					'fastbals',
+					'fasballs',
+					'fastalls',
 				],
 				'fastened'=>[
 					'fastend',
@@ -965,13 +1637,27 @@
 				],
 				'fastidious'=>[
 					'fastidous',
+					'fastidiuos',
+					'fastidoius',
 				],
 				'fastidiously'=>[
 					'fastidously',
+					'fastidiousely',
+					'fastidiuosly',
+					'fastidoiusly',
 				],
 				'fastidiousness'=>[
 					'fastidiousnes',
 					'fastidiousnesss',
+					'fastidiuosness',
+					'fastidoiusness',
+					'fastidousness',
+				],
+				'fastigiate'=>[
+					'fastigaite',
+				],
+				'fastigium'=>[
+					'fastiguim',
 				],
 				'fasting'=>[
 					'fafting',
@@ -1001,6 +1687,7 @@
 				'fatalities'=>[
 					'fatalies',
 					'fatalites',
+					'fataliteis',
 				],
 				'fatally'=>[
 					'fataly',
@@ -1010,20 +1697,41 @@
 					'fatalely',
 					'fatallly',
 				],
+				'fatback'=>[
+					'faback',
+					'fatack',
+				],
 				'fatefully'=>[
 					'fatefullly',
 					'fatefuly',
+					'fateully',
+					'fatfully',
 				],
 				'fatefulness'=>[
 					'fatefulnes',
 					'fatefulnesss',
 				],
+				'fathead'=>[
+					'fahead',
+					'fatead',
+				],
+				'fatheaded'=>[
+					'faheaded',
+					'fateaded',
+					'fathaeded',
+				],
 				'fatheadedness'=>[
 					'fatheadednes',
 					'fatheadednesss',
+					'fathaededness',
 				],
 				'fatheadednesses'=>[
 					'fathedednesses',
+				],
+				'fatheads'=>[
+					'faheads',
+					'fateads',
+					'fathaeds',
 				],
 				'father'=>[
 					'father father',
@@ -1033,9 +1741,20 @@
 					'fatlicr',
 					'fatlier',
 				],
+				'fathered'=>[
+					'fatherd',
+				],
 				'fatherhood'=>[
 					'fatherhod',
 					'fatherhoood',
+				],
+				'fatherland'=>[
+					'fatheland',
+					'fatherand',
+				],
+				'fatherlands'=>[
+					'fathelands',
+					'fatherands',
 				],
 				'fatherless'=>[
 					'fatherles',
@@ -1067,6 +1786,15 @@
 					'fatbers',
 					'fatlicrs',
 					'fatliers',
+					'fahers',
+					'faters',
+				],
+				'fathomable'=>[
+					'fathomible',
+				],
+				'fathoming'=>[
+					'fahoming',
+					'fatoming',
 				],
 				'fathomless'=>[
 					'fathomles',
@@ -1081,6 +1809,16 @@
 				],
 				'fatigue'=>[
 					'fatigne',
+					'fatigeu',
+				],
+				'fatigued'=>[
+					'fatigeud',
+				],
+				'fatigues'=>[
+					'fatigeus',
+				],
+				'fatiguing'=>[
+					'fatigiung',
 				],
 				'fatless'=>[
 					'fatles',
@@ -1093,6 +1831,9 @@
 				'fatness'=>[
 					'fatnes',
 					'fatnesss',
+				],
+				'fatsoes'=>[
+					'fatseos',
 				],
 				'fatted'=>[
 					'fattted',
@@ -1131,14 +1872,17 @@
 				'fattier'=>[
 					'fatier',
 					'fatttier',
+					'fatteir',
 				],
 				'fatties'=>[
 					'faties',
 					'fattties',
+					'fatteis',
 				],
 				'fattiest'=>[
 					'fatiest',
 					'fatttiest',
+					'fatteist',
 				],
 				'fattiness'=>[
 					'fattines',
@@ -1153,27 +1897,99 @@
 				'fatty'=>[
 					'fattty',
 				],
+				'fatuitous'=>[
+					'fatiutous',
+					'fatuituos',
+				],
+				'fatuity'=>[
+					'fatiuty',
+				],
 				'fatuous'=>[
 					'fatous',
+					'fatouus',
+					'fatuuos',
 				],
 				'fatuously'=>[
 					'fatously',
+					'fatouusly',
+					'fatuousely',
+					'fatuuosly',
 				],
 				'fatuousness'=>[
 					'fatousness',
 					'fatuousnes',
 					'fatuousnesss',
+					'fatouusness',
+					'fatuuosness',
 				],
 				'fatuousnesses'=>[
 					'fatousnesses',
 				],
+				'faubourg'=>[
+					'faubuorg',
+					'fuabourg',
+				],
+				'faubourgs'=>[
+					'faubuorgs',
+					'fuabourgs',
+				],
+				'faucal'=>[
+					'fuacal',
+				],
+				'fauces'=>[
+					'fuaces',
+				],
+				'faucet'=>[
+					'fuacet',
+				],
+				'faucets'=>[
+					'fuacets',
+				],
+				'faugh'=>[
+					'fuagh',
+				],
+				'fault'=>[
+					'fualt',
+				],
+				'faulted'=>[
+					'fualted',
+				],
+				'faultfinder'=>[
+					'fualtfinder',
+				],
+				'faultfinders'=>[
+					'faulfinders',
+					'faultinders',
+					'fualtfinders',
+				],
+				'faultfinding'=>[
+					'faulfinding',
+					'faultinding',
+					'fualtfinding',
+				],
+				'faultier'=>[
+					'faulteir',
+					'fualtier',
+				],
+				'faultiest'=>[
+					'faulteist',
+					'fualtiest',
+				],
+				'faultily'=>[
+					'fualtily',
+				],
 				'faultiness'=>[
 					'faultines',
 					'faultinesss',
+					'fualtiness',
+				],
+				'faulting'=>[
+					'fualting',
 				],
 				'faultless'=>[
 					'faultles',
 					'faultlesss',
+					'fualtless',
 				],
 				'faultlessly'=>[
 					'faultlessally',
@@ -1182,18 +1998,72 @@
 					'faultlesslly',
 					'faultlesly',
 					'faultlesssly',
+					'fualtlessly',
 				],
 				'faultlessness'=>[
 					'faultlesness',
 					'faultlessnes',
 					'faultlessnesss',
 					'faultlesssness',
+					'fualtlessness',
+				],
+				'faults'=>[
+					'fualts',
+				],
+				'faulty'=>[
+					'fualty',
+				],
+				'fauna'=>[
+					'fuana',
+				],
+				'faunae'=>[
+					'faunea',
+					'fuanae',
+				],
+				'faunal'=>[
+					'fuanal',
 				],
 				'faunally'=>[
 					'faunallly',
+					'fuanally',
+				],
+				'faunas'=>[
+					'fuanas',
+				],
+				'faunistic'=>[
+					'fuanistic',
+				],
+				'faunus'=>[
+					'fuanus',
+				],
+				'fauteuil'=>[
+					'fauteiul',
+					'fautueil',
+					'fuateuil',
+				],
+				'fauteuils'=>[
+					'fauteiuls',
+					'fautueils',
+					'fuateuils',
+				],
+				'fauve'=>[
+					'fuave',
+				],
+				'fauvism'=>[
+					'fuavism',
+				],
+				'fauvist'=>[
+					'fuavist',
+				],
+				'fauvists'=>[
+					'fuavists',
+				],
+				'faveolate'=>[
+					'favoelate',
 				],
 				'favonian'=>[
 					'favonan',
+					'favonain',
 				],
 				'favor'=>[
 					'favor favor',
@@ -1205,13 +2075,26 @@
 				'favorableness'=>[
 					'favorablenes',
 					'favorablenesss',
+					'favoribleness',
 				],
 				'favorablenesses'=>[
 					'favorableneses',
 					'favorablenessses',
 				],
+				'favorably'=>[
+					'favoribly',
+				],
+				'favored'=>[
+					'favord',
+				],
+				'fawned'=>[
+					'fawnd',
+				],
 				'feal'=>[
 					'fel',
+				],
+				'fealty'=>[
+					'faelty',
 				],
 				'fear'=>[
 					'fear fear',
@@ -1226,42 +2109,58 @@
 				'fearful'=>[
 					'ferful',
 					'fearfnl',
+					'faerful',
 				],
 				'fearfully'=>[
 					'fearfullly',
 					'fearfuly',
+					'faerfully',
+					'feafully',
+					'fearully',
 				],
 				'fearfulness'=>[
 					'fearfulnes',
 					'fearfulnesss',
+					'faerfulness',
 				],
 				'fearless'=>[
 					'fearles',
 					'ferless',
 					'fearlesss',
+					'faerless',
 				],
 				'fearlessly'=>[
 					'fearlesly',
 					'fearlesssly',
+					'faerlessly',
+					'fearlessely',
 				],
 				'fearlessness'=>[
 					'fearlesness',
 					'fearlessnes',
 					'fearlessnesss',
 					'fearlesssness',
+					'faerlessness',
 				],
 				'fearlessnesses'=>[
 					'ferlessnesses',
 				],
+				'fearnought'=>[
+					'faernought',
+					'fearnuoght',
+				],
 				'fearsome'=>[
 					'fersome',
+					'faersome',
 				],
 				'fearsomely'=>[
 					'fearsomly',
+					'faersomely',
 				],
 				'fearsomeness'=>[
 					'fearsomenes',
 					'fearsomenesss',
+					'faersomeness',
 				],
 				'fearsomenesses'=>[
 					'fersomenesses',
@@ -1271,51 +2170,98 @@
 				],
 				'feasibility'=>[
 					'feasability',
+					'faesibility',
 				],
 				'feasible'=>[
 					'feasable',
 					'fesible',
+					'faesible',
 				],
 				'feasibleness'=>[
 					'feasiblenes',
 					'feasiblenesss',
+					'faesibleness',
+					'feasableness',
 				],
 				'feasiblenesses'=>[
 					'feasibleneses',
 					'feasiblenessses',
 				],
+				'feasibly'=>[
+					'faesibly',
+					'feasably',
+				],
 				'feast'=>[
 					'fest',
+					'faest',
+				],
+				'feasted'=>[
+					'faested',
+				],
+				'feaster'=>[
+					'faester',
+				],
+				'feasting'=>[
+					'faesting',
+				],
+				'feastings'=>[
+					'faestings',
+				],
+				'feasts'=>[
+					'faests',
 				],
 				'feat'=>[
 					'fet',
 				],
 				'feather'=>[
 					'fether',
+					'faether',
+				],
+				'featherbed'=>[
+					'faetherbed',
 				],
 				'featherbedded'=>[
 					'featherbeddded',
+					'faetherbedded',
 				],
 				'featherbedding'=>[
 					'fetherbedding',
 					'featherbeddding',
+					'faetherbedding',
+					'feathebedding',
 				],
 				'featherbeddings'=>[
 					'fetherbeddings',
 				],
+				'featherbeds'=>[
+					'faetherbeds',
+					'feathebeds',
+				],
 				'featherbrain'=>[
 					'fetherbrain',
+					'faetherbrain',
+					'feathebrain',
+					'featherbrian',
+					'featherrain',
 				],
 				'featherbrained'=>[
 					'featherbrainid',
 					'fetherbrained',
+					'faetherbrained',
+					'featherbraind',
+					'featherbrianed',
 				],
 				'feathered'=>[
 					'fethered',
 					'featliered',
+					'faethered',
+					'featherd',
 				],
 				'featheredge'=>[
 					'featherege',
+					'faetheredge',
+					'featheedge',
+					'featherdge',
 				],
 				'featheredged'=>[
 					'feathereged',
@@ -1323,18 +2269,49 @@
 				'featheredges'=>[
 					'feathereges',
 				],
+				'featherhead'=>[
+					'faetherhead',
+					'feathehead',
+					'featheread',
+					'featherhaed',
+				],
 				'featherheaded'=>[
 					'featherheded',
 				],
+				'featherier'=>[
+					'faetherier',
+					'feathereir',
+				],
+				'featheriest'=>[
+					'faetheriest',
+					'feathereist',
+				],
 				'feathering'=>[
 					'fethering',
+					'faethering',
+				],
+				'featherings'=>[
+					'faetherings',
 				],
 				'featherless'=>[
 					'featherles',
 					'featherlesss',
+					'faetherless',
+				],
+				'featherlight'=>[
+					'faetherlight',
+					'feathelight',
+					'featheright',
+				],
+				'feathers'=>[
+					'faethers',
+					'feahers',
 				],
 				'featherstitch'=>[
 					'fetherstitch',
+					'faetherstitch',
+					'feathertitch',
+					'feathestitch',
 				],
 				'featherstitched'=>[
 					'fetherstitched',
@@ -1345,30 +2322,65 @@
 				'featherweight'=>[
 					'featherwieght',
 					'fetherweight',
+					'faetherweight',
+					'feathereight',
+					'featheweight',
 				],
 				'featherweights'=>[
 					'featherwieghts',
 					'fetherweights',
+					'faetherweights',
+					'feathereights',
+					'featheweights',
+				],
+				'feathery'=>[
+					'faethery',
+					'feathary',
+				],
+				'featly'=>[
+					'faetly',
+					'feately',
+				],
+				'feats'=>[
+					'faets',
 				],
 				'feature'=>[
 					'feauture',
 					# feture: an accepted spelling, not a slip (AmericanBritishWords_F: feture)
 				#	'feture',
 					'featnre',
+					'faeture',
 				],
 				'featured'=>[
 					'fetured',
+					'faetured',
+					'featurd',
 				],
 				'featureless'=>[
 					'featureles',
 					'fetureless',
 					'featurelesss',
+					'faetureless',
 				],
 				'features'=>[
 					'featurs',
+					'faetures',
 				],
 				'featurette'=>[
 					'feturette',
+				],
+				'featuring'=>[
+					'faeturing',
+				],
+				'feaze'=>[
+					'faeze',
+				],
+				'febricities'=>[
+					'febriciteis',
+				],
+				'febrifacient'=>[
+					'febrifaceint',
+					'febrifaciant',
 				],
 				'febrile'=>[
 					'ferbile',
@@ -1395,6 +2407,7 @@
 				'fecklessly'=>[
 					'fecklesly',
 					'fecklesssly',
+					'fecklessely',
 				],
 				'fecklessness'=>[
 					'fecklesness',
@@ -1408,8 +2421,18 @@
 					'fecklessnessses',
 					'fecklesssnesses',
 				],
+				'feculae'=>[
+					'feculea',
+				],
 				'feculence'=>[
 					'feculance',
+				],
+				'feculent'=>[
+					'feculant',
+				],
+				'fecundation'=>[
+					'fecundatoin',
+					'fecundaton',
 				],
 				'fed'=>[
 					'feeded',
@@ -1424,12 +2447,24 @@
 				'federal'=>[
 					'fecleral',
 				],
+				'federalization'=>[
+					'federalizatoin',
+					'federalizaton',
+				],
 				'federally'=>[
 					'federaly',
 					'federallly',
 				],
 				'federated'=>[
 					'fed-erated',
+				],
+				'federation'=>[
+					'federatoin',
+					'federaton',
+				],
+				'federations'=>[
+					'federatoins',
+					'federatons',
 				],
 				'federatively'=>[
 					'federativly',
@@ -1444,6 +2479,8 @@
 				'feebleminded'=>[
 					'febleminded',
 					'feeebleminded',
+					'feebleinded',
+					'feeblminded',
 				],
 				'feeblemindedness'=>[
 					'feeblemindednes',
@@ -1483,6 +2520,7 @@
 				'feedback'=>[
 					'fedback',
 					'feeedback',
+					'feedack',
 				],
 				'feedbag'=>[
 					'fedbag',
@@ -1491,6 +2529,8 @@
 				'feedbags'=>[
 					'fedbags',
 					'feeedbags',
+					'feebags',
+					'feedags',
 				],
 				'feeder'=>[
 					'feeeder',
@@ -1512,6 +2552,8 @@
 				'feedlots'=>[
 					'fedlots',
 					'feeedlots',
+					'feedots',
+					'feelots',
 				],
 				'feeds'=>[
 					'feeeds',
@@ -1519,18 +2561,24 @@
 				'feedstock'=>[
 					'fedstock',
 					'feeedstock',
+					'feedtock',
+					'feestock',
 				],
 				'feedstuff'=>[
 					'fedstuff',
 					'feedstuf',
 					'feedstufff',
 					'feeedstuff',
+					'feedtuff',
+					'feestuff',
 				],
 				'feedstuffs'=>[
 					'fedstuffs',
 					'feedstufffs',
 					'feedstufs',
 					'feeedstuffs',
+					'feedtuffs',
+					'feestuffs',
 				],
 				'feeing'=>[
 					'feieng',
@@ -1552,6 +2600,8 @@
 					'feelgod',
 					'feelgoood',
 					'felgood',
+					'feegood',
+					'feelood',
 				],
 				'feeling'=>[
 					'feeeling',
@@ -1595,9 +2645,13 @@
 				],
 				'feigned'=>[
 					'fiegned',
+					'feignd',
 				],
 				'feigner'=>[
 					'fiegner',
+				],
+				'feigning'=>[
+					'fiegning',
 				],
 				'feigns'=>[
 					'fiegns',
@@ -1614,6 +2668,9 @@
 				'feinted'=>[
 					'fiented',
 				],
+				'feinting'=>[
+					'fienting',
+				],
 				'feints'=>[
 					'fients',
 				],
@@ -1622,6 +2679,17 @@
 				],
 				'feist'=>[
 					'fiest',
+				],
+				'feistier'=>[
+					'feisteir',
+					'fiestier',
+				],
+				'feistiest'=>[
+					'feisteist',
+					'fiestiest',
+				],
+				'feistily'=>[
+					'fiestily',
 				],
 				'feistiness'=>[
 					'fiestiness',
@@ -1643,9 +2711,31 @@
 				'feldspars'=>[
 					'feldspers',
 				],
+				'felicia'=>[
+					'felicai',
+				],
+				'felicitation'=>[
+					'felicitatoin',
+					'felicitaton',
+				],
+				'felicitations'=>[
+					'felicitatoins',
+					'felicitatons',
+				],
+				'felicities'=>[
+					'feliciteis',
+				],
+				'felicitous'=>[
+					'felicituos',
+				],
+				'felicitously'=>[
+					'felicitousely',
+					'felicituosly',
+				],
 				'felicitousness'=>[
 					'felicitousnes',
 					'felicitousnesss',
+					'felicituosness',
 				],
 				'felicitousnesses'=>[
 					'felicitousneses',
@@ -1669,6 +2759,7 @@
 				'fellable'=>[
 					'felable',
 					'felllable',
+					'fellible',
 				],
 				'fellah'=>[
 					'fella',
@@ -1695,14 +2786,19 @@
 				'fellatio'=>[
 					'felatio',
 					'felllatio',
+					'fellatoi',
 				],
 				'fellation'=>[
 					'felation',
 					'felllation',
+					'fellatoin',
+					'fellaton',
 				],
 				'fellations'=>[
 					'felations',
 					'felllations',
+					'fellatoins',
+					'fellatons',
 				],
 				'fellator'=>[
 					'felator',
@@ -1724,6 +2820,7 @@
 				'fellies'=>[
 					'felies',
 					'felllies',
+					'felleis',
 				],
 				'felling'=>[
 					'fellling',
@@ -1735,10 +2832,12 @@
 				'felloe'=>[
 					'fellloe',
 					'feloe',
+					'felleo',
 				],
 				'felloes'=>[
 					'fellloes',
 					'feloes',
+					'felleos',
 				],
 				'fellow'=>[
 					'felow',
@@ -1778,6 +2877,8 @@
 				'fellowships'=>[
 					'felllowships',
 					'felowships',
+					'fellowhips',
+					'fellowsips',
 				],
 				'fells'=>[
 					'fellls',
@@ -1792,8 +2893,13 @@
 					'felodopine',
 					'felopdipine',
 				],
+				'felonies'=>[
+					'feloneis',
+				],
 				'felonious'=>[
 					'felonous',
+					'feloniuos',
+					'felonoius',
 				],
 				'feloniously'=>[
 					'feloniousally',
@@ -1837,6 +2943,9 @@
 				'feminazi'=>[
 					'feminizi',
 				],
+				'femineity'=>[
+					'feminiety',
+				],
 				'feminie'=>[
 					'feminae',
 				],
@@ -1878,6 +2987,8 @@
 				],
 				'feminization'=>[
 					'feminazation',
+					'feminizatoin',
+					'feminizaton',
 				],
 				'feminizations'=>[
 					'feminazations',
@@ -1919,6 +3030,10 @@
 					'fenestela',
 					'fenestellla',
 				],
+				'fenestration'=>[
+					'fenestratoin',
+					'fenestraton',
+				],
 				'fennec'=>[
 					'fenec',
 					'fennnec',
@@ -1954,16 +3069,28 @@
 				],
 				'feoff'=>[
 					'feofff',
+					'foeff',
 				],
 				'feoffee'=>[
 					'feofee',
 					'feoffe',
 					'feoffeee',
 					'feofffee',
+					'foeffee',
 				],
 				'feoffs'=>[
 					'feofffs',
 					'feofs',
+					'foeffs',
+				],
+				'feria'=>[
+					'ferai',
+				],
+				'ferial'=>[
+					'ferail',
+				],
+				'ferias'=>[
+					'ferais',
 				],
 				'ferine'=>[
 					'ferini',
@@ -1976,14 +3103,36 @@
 				'ferment'=>[
 					'fermant',
 				],
+				'fermentability'=>[
+					'fermentibility',
+				],
+				'fermentable'=>[
+					'fermentible',
+				],
 				'fermentation'=>[
 					'fermantation',
+					'fermentatoin',
+					'fermentaton',
 				],
 				'fermentations'=>[
 					'fermantations',
 				],
 				'fermentative'=>[
 					'fermantative',
+				],
+				'ferments'=>[
+					'fermants',
+				],
+				'fermion'=>[
+					'fermoin',
+					'fermon',
+				],
+				'fermions'=>[
+					'fermoins',
+					'fermons',
+				],
+				'fermium'=>[
+					'fermuim',
 				],
 				'fermé la gueule'=>[
 					'ferme la gueule',
@@ -1992,8 +3141,19 @@
 				'fernandez'=>[
 					'fernadez',
 				],
+				'fernery'=>[
+					'fernary',
+				],
+				'fernier'=>[
+					'ferneir',
+				],
+				'ferniest'=>[
+					'ferneist',
+				],
 				'ferocious'=>[
 					'ferocous',
+					'ferociuos',
+					'ferocoius',
 				],
 				'ferociously'=>[
 					'ferociousally',
@@ -2001,10 +3161,15 @@
 					'ferociousely',
 					'ferociouslly',
 					'ferocously',
+					'ferociuosly',
+					'ferocoiusly',
 				],
 				'ferociousness'=>[
 					'ferociousnes',
 					'ferociousnesss',
+					'ferociuosness',
+					'ferocoiusness',
+					'ferocousness',
 				],
 				'ferrate'=>[
 					'ferate',
@@ -2021,6 +3186,8 @@
 				'ferreous'=>[
 					'fereous',
 					'ferrreous',
+					'ferreuos',
+					'ferroeus',
 				],
 				'ferret'=>[
 					'feret',
@@ -2041,6 +3208,7 @@
 				'ferriage'=>[
 					'feriage',
 					'ferrriage',
+					'ferraige',
 				],
 				'ferric'=>[
 					'feric',
@@ -2056,13 +3224,16 @@
 				],
 				'ferried'=>[
 					'ferrried',
+					'ferreid',
 				],
 				'ferries'=>[
 					'ferrries',
+					'ferreis',
 				],
 				'ferriferous'=>[
 					'feriferous',
 					'ferrriferous',
+					'ferriferuos',
 				],
 				'ferrimagnetic'=>[
 					'ferimagnetic',
@@ -2099,6 +3270,7 @@
 				'ferrochromium'=>[
 					'ferochromium',
 					'ferrrochromium',
+					'ferrochromuim',
 				],
 				'ferroconcrete'=>[
 					'feroconcrete',
@@ -2119,6 +3291,7 @@
 				'ferroelectric'=>[
 					'feroelectric',
 					'ferrroelectric',
+					'ferreolectric',
 				],
 				'ferroelectrics'=>[
 					'feroelectrics',
@@ -2127,6 +3300,7 @@
 					'feromagnesian',
 					'ferromagnesan',
 					'ferrromagnesian',
+					'ferromagnesain',
 				],
 				'ferromagnet'=>[
 					'feromagnet',
@@ -2168,6 +3342,7 @@
 				'ferrous'=>[
 					'ferous',
 					'ferrrous',
+					'ferruos',
 				],
 				'ferroxidase'=>[
 					'feroxidase',
@@ -2175,6 +3350,7 @@
 				'ferruginous'=>[
 					'feruginous',
 					'ferrruginous',
+					'ferruginuos',
 				],
 				'ferrule'=>[
 					'ferule',
@@ -2193,10 +3369,16 @@
 				'ferryboat'=>[
 					'feryboat',
 					'ferrryboat',
+					'ferrboat',
+					'ferrybaot',
+					'ferryoat',
 				],
 				'ferryboats'=>[
 					'ferrryboats',
 					'feryboats',
+					'ferrboats',
+					'ferrybaots',
+					'ferryoats',
 				],
 				'ferrying'=>[
 					'ferrrying',
@@ -2222,8 +3404,16 @@
 					'fertilenes',
 					'fertilenesss',
 				],
+				'fertilizable'=>[
+					'fertilizible',
+				],
+				'fertilization'=>[
+					'fertilizatoin',
+					'fertilizaton',
+				],
 				'fervency'=>[
 					'fervensy',
+					'fervancy',
 				],
 				'fervent'=>[
 					'ferevent',
@@ -2234,6 +3424,7 @@
 					'ferventaly',
 					'ferventely',
 					'ferventlly',
+					'fervantly',
 				],
 				'fervidness'=>[
 					'fervidnes',
@@ -2246,11 +3437,19 @@
 				'fescennine'=>[
 					'fescenine',
 					'fescennnine',
+					'fecennine',
+					'fesennine',
 				],
 				'fescue'=>[
 					'fecsue',
 					'fecue',
 					'fesue',
+					'fesceu',
+				],
+				'fescues'=>[
+					'fecues',
+					'fesceus',
+					'fesues',
 				],
 				'fess'=>[
 					'fes',
@@ -2274,18 +3473,31 @@
 				'festally'=>[
 					'festallly',
 				],
+				'festered'=>[
+					'festerd',
+				],
 				'festinate'=>[
 					'festinite',
 				],
 				'festinately'=>[
 					'festinatly',
 				],
+				'festination'=>[
+					'festinatoin',
+					'festinaton',
+				],
 				'festival'=>[
 					'feftival',
+				],
+				'festively'=>[
+					'festivly',
 				],
 				'festiveness'=>[
 					'festivenes',
 					'festivenesss',
+				],
+				'festivities'=>[
+					'festiviteis',
 				],
 				'festoon'=>[
 					'feston',
@@ -2294,10 +3506,12 @@
 				'festooned'=>[
 					'festoned',
 					'festoooned',
+					'festoond',
 				],
 				'festoonery'=>[
 					'festonery',
 					'festooonery',
+					'festoonary',
 				],
 				'festooning'=>[
 					'festoning',
@@ -2306,6 +3520,17 @@
 				'festoons'=>[
 					'festons',
 					'festooons',
+				],
+				'festschrift'=>[
+					'festchrift',
+					'festshrift',
+				],
+				'fetation'=>[
+					'fetatoin',
+					'fetaton',
+				],
+				'fetial'=>[
+					'fetail',
 				],
 				'fetidly'=>[
 					'fetidally',
@@ -2317,11 +3542,18 @@
 					'fetidnes',
 					'fetidnesss',
 				],
+				'fetiparous'=>[
+					'fetiparuos',
+				],
 				'fetoprotein'=>[
 					'fetoprotien',
 				],
 				'fetoproteins'=>[
 					'fetoprotiens',
+				],
+				'fetoscope'=>[
+					'fetocope',
+					'fetosope',
 				],
 				'fetter'=>[
 					'fettter',
@@ -2329,6 +3561,7 @@
 				'fettered'=>[
 					'fetered',
 					'fetttered',
+					'fetterd',
 				],
 				'fettering'=>[
 					'fetering',
@@ -2363,6 +3596,7 @@
 				'feuar'=>[
 					'feaur',
 					'feuer',
+					'fuear',
 				],
 				'feuars'=>[
 					'feaurs',
@@ -2373,20 +3607,68 @@
 				'feudal'=>[
 					'fuedal',
 				],
+				'feudalism'=>[
+					'fuedalism',
+				],
+				'feudalist'=>[
+					'fuedalist',
+				],
+				'feudalistic'=>[
+					'fuedalistic',
+				],
+				'feudality'=>[
+					'fuedality',
+				],
+				'feudalization'=>[
+					'feudalizatoin',
+					'feudalizaton',
+					'fuedalization',
+				],
+				'feudalize'=>[
+					'fuedalize',
+				],
 				'feudally'=>[
 					'feudallly',
 					'feudaly',
+					'fuedally',
 				],
 				'feudary'=>[
 					'feudery',
 				],
+				'feudatories'=>[
+					'feudatoreis',
+					'fuedatories',
+				],
+				'feudatory'=>[
+					'fuedatory',
+				],
+				'feuded'=>[
+					'fueded',
+				],
+				'feuding'=>[
+					'fueding',
+				],
+				'feudist'=>[
+					'fuedist',
+				],
+				'feuds'=>[
+					'fueds',
+				],
 				'feuilleton'=>[
 					'feuileton',
 					'feuillleton',
+					'feiulleton',
+					'fueilleton',
+				],
+				'fevered'=>[
+					'feverd',
 				],
 				'feverishness'=>[
 					'feverishnes',
 					'feverishnesss',
+				],
+				'feverous'=>[
+					'feveruos',
 				],
 				'feverroot'=>[
 					'feveroot',
@@ -2419,6 +3701,9 @@
 				'fezzes'=>[
 					'fezzzes',
 				],
+				'fiacre'=>[
+					'faicre',
+				],
 				'fiance'=>[
 					'fience',
 				],
@@ -2429,6 +3714,18 @@
 					'fiaco',
 					'fiacso',
 					'fiaso',
+					'faisco',
+				],
+				'fiascoes'=>[
+					'faiscoes',
+					'fiacoes',
+					'fiasceos',
+					'fiasoes',
+				],
+				'fiascos'=>[
+					'faiscos',
+					'fiacos',
+					'fiasos',
 				],
 				'fibbed'=>[
 					'fibed',
@@ -2444,13 +3741,25 @@
 					'fibbbing',
 					'fibing',
 				],
+				'fiberboard'=>[
+					'fibeboard',
+					'fiberbaord',
+					'fiberoard',
+				],
+				'fibered'=>[
+					'fiberd',
+				],
 				'fiberfill'=>[
 					'fiberfil',
 					'fiberfilll',
+					'fibefill',
+					'fiberill',
 				],
 				'fiberglass'=>[
 					'fiberglas',
 					'fiberglasss',
+					'fibeglass',
+					'fiberlass',
 				],
 				'fibranne'=>[
 					'fibrane',
@@ -2487,6 +3796,8 @@
 				'fibrillation'=>[
 					'fibrilation',
 					'fibrilllation',
+					'fibrillatoin',
+					'fibrillaton',
 				],
 				'fibrilliform'=>[
 					'fibriliform',
@@ -2501,8 +3812,17 @@
 				'fibrinogen'=>[
 					'fabrinogen',
 				],
+				'fibrinous'=>[
+					'fibrinuos',
+				],
 				'fibrocavitary'=>[
 					'fibrocavitatory',
+				],
+				'fibroid'=>[
+					'fibriod',
+				],
+				'fibroin'=>[
+					'fibrion',
 				],
 				'fibronectin'=>[
 					'fibrinectin',
@@ -2513,6 +3833,7 @@
 				],
 				'fibrous'=>[
 					'fiberous',
+					'fibruos',
 				],
 				'fibrovascular'=>[
 					'fibrovacsular',
@@ -2523,38 +3844,90 @@
 				'fibroxanthoma'=>[
 					'fibroxantoma',
 				],
+				'fibulae'=>[
+					'fibulea',
+				],
+				'fibular'=>[
+					'fibuler',
+				],
 				'fickleness'=>[
 					'ficklenes',
 					'ficklenesss',
 				],
 				'fiction'=>[
 					'fictin',
+					'fictoin',
+					'ficton',
 				],
 				'fictional'=>[
 					'ficitional',
 					'fictonal',
+					'fictoinal',
 				],
 				'fictionalities'=>[
 					'fictionaliteis',
 					'fictionalitis',
 				],
+				'fictionalization'=>[
+					'fictionalizatoin',
+					'fictionalizaton',
+					'fictoinalization',
+				],
+				'fictionalizations'=>[
+					'fictionalizatoins',
+					'fictionalizatons',
+					'fictoinalizations',
+				],
+				'fictionalize'=>[
+					'fictoinalize',
+				],
+				'fictionalized'=>[
+					'fictoinalized',
+				],
+				'fictionalizes'=>[
+					'fictoinalizes',
+				],
+				'fictionalizing'=>[
+					'fictoinalizing',
+				],
 				'fictionally'=>[
 					'ficitionally',
 					'fictionallly',
 					'fictionaly',
+					'fictoinally',
+					'fictonally',
+				],
+				'fictionist'=>[
+					'fictoinist',
+					'fictonist',
+				],
+				'fictions'=>[
+					'fictoins',
+					'fictons',
 				],
 				'fictitious'=>[
 					'ficticious',
 					'fictious',
 					'fictous',
 					'fictitous',
+					'fictitiuos',
+					'fictitoius',
 				],
 				'fictitiously'=>[
 					'fictitously',
+					'fictitiousely',
+					'fictitiuosly',
+					'fictitoiusly',
 				],
 				'fictitiousness'=>[
 					'fictitiousnes',
 					'fictitiousnesss',
+					'fictitiuosness',
+					'fictitoiusness',
+					'fictitousness',
+				],
+				'fictively'=>[
+					'fictivly',
 				],
 				'fictiveness'=>[
 					'fictivenes',
@@ -2574,10 +3947,16 @@
 				'fiddlehead'=>[
 					'fidddlehead',
 					'fidlehead',
+					'fiddleead',
+					'fiddlehaed',
+					'fiddlhead',
 				],
 				'fiddleheads'=>[
 					'fidddleheads',
 					'fidleheads',
+					'fiddleeads',
+					'fiddlehaeds',
+					'fiddlheads',
 				],
 				'fiddler'=>[
 					'fillder',
@@ -2593,20 +3972,27 @@
 				'fiddlestick'=>[
 					'fidddlestick',
 					'fidlestick',
+					'fiddletick',
+					'fiddlstick',
 				],
 				'fiddlesticks'=>[
 					'fidddlesticks',
 					'fidlesticks',
+					'fiddleticks',
+					'fiddlsticks',
 				],
 				'fiddlewood'=>[
 					'fidddlewood',
 					'fiddlewod',
 					'fiddlewoood',
 					'fidlewood',
+					'fiddleood',
+					'fiddlwood',
 				],
 				'fiddlier'=>[
 					'fidddlier',
 					'fidlier',
+					'fiddleir',
 				],
 				'fiddliest'=>[
 					'fidddliest',
@@ -2629,12 +4015,15 @@
 					'fideicommisssary',
 					'fideicomissary',
 					'fideicommmissary',
+					'fideicommissery',
+					'fidiecommissary',
 				],
 				'fideicommissum'=>[
 					'fideicommisssum',
 					'fideicommisum',
 					'fideicomissum',
 					'fideicommmissum',
+					'fidiecommissum',
 				],
 				'fideism'=>[
 					'fidiesm',
@@ -2654,8 +4043,17 @@
 					'fidgetineses',
 					'fidgetinessses',
 				],
+				'fiducial'=>[
+					'fiducail',
+				],
+				'fiduciaries'=>[
+					'fiducairies',
+					'fiduciareis',
+					'fiducieries',
+				],
 				'fiduciary'=>[
 					'fiduciery',
+					'fiducairy',
 				],
 				'fie'=>[
 					'fei',
@@ -2666,6 +4064,12 @@
 				'fiefdom'=>[
 					'feifdom',
 					'fifdom',
+				],
+				'fiefdoms'=>[
+					'feifdoms',
+				],
+				'fiefs'=>[
+					'feifs',
 				],
 				'field'=>[
 					'feild',
@@ -2684,17 +4088,48 @@
 					'feilder',
 					'filder',
 				],
+				'fielders'=>[
+					'feilders',
+				],
 				'fieldfare'=>[
 					'feildfare',
 					'fildfare',
+					'fieldare',
+					'fielfare',
+				],
+				'fieldfares'=>[
+					'feildfares',
+					'fieldares',
+					'fielfares',
+				],
+				'fieldpiece'=>[
+					'feildpiece',
+					'fieldiece',
+					'fieldpeice',
+					'fielpiece',
 				],
 				'fields'=>[
 					'fileds',
 					'flelds',
 				],
+				'fieldsman'=>[
+					'feildsman',
+				],
+				'fieldsmen'=>[
+					'feildsmen',
+				],
 				'fieldstone'=>[
 					'feildstone',
 					'fildstone',
+					'fieldsone',
+					'fieldtone',
+					'fielstone',
+				],
+				'fieldstones'=>[
+					'feildstones',
+					'fieldsones',
+					'fieldtones',
+					'fielstones',
 				],
 				'fieldstripped'=>[
 					'fieldstriped',
@@ -2707,6 +4142,18 @@
 				'fieldwork'=>[
 					'feildwork',
 					'fildwork',
+					'fieldork',
+					'fielwork',
+				],
+				'fieldworker'=>[
+					'feildworker',
+					'fieldorker',
+					'fielworker',
+				],
+				'fieldworkers'=>[
+					'feildworkers',
+					'fieldorkers',
+					'fielworkers',
 				],
 				'fiend'=>[
 					'feind',
@@ -2716,13 +4163,20 @@
 					'feindish',
 					'findish',
 				],
+				'fiendishly'=>[
+					'feindishly',
+				],
 				'fiendishness'=>[
 					'fiendishnes',
 					'fiendishnesss',
+					'feindishness',
 				],
 				'fiendishnesses'=>[
 					'feindishnesses',
 					'findishnesses',
+				],
+				'fiends'=>[
+					'feinds',
 				],
 				'fierce'=>[
 					'feirce',
@@ -2731,14 +4185,33 @@
 				'fiercely'=>[
 					'fearcely',
 					'fiercly',
+					'feircely',
 				],
 				'fierceness'=>[
 					'fiercenes',
 					'fiercenesss',
+					'feirceness',
+				],
+				'fiercer'=>[
+					'feircer',
+				],
+				'fiercest'=>[
+					'feircest',
+				],
+				'fierier'=>[
+					'fiereir',
+				],
+				'fieriest'=>[
+					'feiriest',
+					'fiereist',
+				],
+				'fierily'=>[
+					'feirily',
 				],
 				'fieriness'=>[
 					'fierines',
 					'fierinesss',
+					'feiriness',
 				],
 				'fiery'=>[
 					'feiry',
@@ -2748,6 +4221,9 @@
 				'fiesta'=>[
 					'feista',
 					'fista',
+				],
+				'fiestas'=>[
+					'feistas',
 				],
 				'fifteen'=>[
 					'fifteeen',
@@ -2777,10 +4253,14 @@
 				],
 				'fifties'=>[
 					'fiftys',
+					'fifteis',
 				],
 				'fiftieth'=>[
 					'fifteith',
 					'fiftith',
+				],
+				'fiftieths'=>[
+					'fifteiths',
 				],
 				'fifty'=>[
 					'fify',
@@ -2799,6 +4279,10 @@
 					'figth',
 					'figlit',
 				],
+				'fightback'=>[
+					'fighback',
+					'fightack',
+				],
 				'fighting'=>[
 					'fightings',
 					'figbting',
@@ -2806,6 +4290,16 @@
 				],
 				'figment'=>[
 					'figmant',
+				],
+				'figments'=>[
+					'figmants',
+				],
+				'figurant'=>[
+					'figurent',
+				],
+				'figuration'=>[
+					'figuratoin',
+					'figuraton',
 				],
 				'figuratively'=>[
 					'figurativly',
@@ -2820,14 +4314,27 @@
 					'fignre',
 					'figurc',
 				],
+				'figured'=>[
+					'figurd',
+				],
 				'figurehead'=>[
 					'figurehed',
+					'figureead',
+					'figurehaed',
+					'figurhead',
+				],
+				'figureheads'=>[
+					'figureeads',
+					'figurehaeds',
+					'figurheads',
 				],
 				'figures'=>[
 					'fignres',
 				],
 				'figurine'=>[
 					'figurini',
+					'figrine',
+					'fiurine',
 				],
 				'filaggrin'=>[
 					'fillagrin',
@@ -2852,26 +4359,75 @@
 				'filamentary'=>[
 					'filamentery',
 				],
+				'filamentous'=>[
+					'filamentuos',
+				],
+				'filaments'=>[
+					'filamants',
+				],
 				'filar'=>[
 					'filer',
 				],
+				'filaria'=>[
+					'filarai',
+				],
+				'filariae'=>[
+					'filaraie',
+					'filariea',
+				],
+				'filarial'=>[
+					'filarail',
+				],
 				'filarian'=>[
 					'filaran',
+					'filarain',
+				],
+				'filariases'=>[
+					'filaraises',
 				],
 				'filariasis'=>[
 					'filariosis',
 					'filiariasis',
 					'filiarisis',
+					'filaraisis',
 				],
 				'filarioid'=>[
 					'filaroid',
 				],
+				'fileable'=>[
+					'filaeble',
+					'fileible',
+				],
+				'filefish'=>[
+					'fileish',
+					'filfish',
+				],
+				'filial'=>[
+					'filail',
+				],
 				'filially'=>[
 					'filiallly',
 					'filialy',
+					'filailly',
+				],
+				'filiate'=>[
+					'filaite',
+				],
+				'filiation'=>[
+					'filaition',
+					'filiatoin',
+					'filiaton',
+				],
+				'filiations'=>[
+					'filaitions',
+					'filiatoins',
+					'filiatons',
 				],
 				'filibuster'=>[
 					'filabuster',
+				],
+				'filibustered'=>[
+					'filibusterd',
 				],
 				'filigree'=>[
 					'filigre',
@@ -2916,6 +4472,7 @@
 					'fillagre',
 					'fillagreee',
 					'filllagree',
+					'fillgree',
 				],
 				'fillagreeing'=>[
 					'fillagreieng',
@@ -2954,6 +4511,7 @@
 				'fillies'=>[
 					'filies',
 					'filllies',
+					'filleis',
 				],
 				'filling'=>[
 					'fillling',
@@ -2986,6 +4544,12 @@
 					'fillly',
 					'fily',
 				],
+				'filmier'=>[
+					'filmeir',
+				],
+				'filmiest'=>[
+					'filmeist',
+				],
 				'filminess'=>[
 					'filmines',
 					'filminesss',
@@ -3005,14 +4569,38 @@
 					'filmnaking',
 					'filmmmaking',
 				],
+				'filmstrip'=>[
+					'filmsrip',
+					'filmtrip',
+					'filstrip',
+				],
+				'filmstrips'=>[
+					'filmsrips',
+					'filmtrips',
+					'filstrips',
+				],
 				'filopodial'=>[
 					'fillopodial',
 				],
 				'filopodium'=>[
 					'filapodium',
 				],
+				'filterability'=>[
+					'filteability',
+					'filterbility',
+					'filteribility',
+				],
 				'filterable'=>[
 					'filterible',
+				],
+				'filtered'=>[
+					'filterd',
+				],
+				'filthier'=>[
+					'filtheir',
+				],
+				'filthiest'=>[
+					'filtheist',
 				],
 				'filthiness'=>[
 					'filthines',
@@ -3026,6 +4614,21 @@
 				],
 				'filtrates'=>[
 					'filterates',
+				],
+				'filtration'=>[
+					'filtratoin',
+					'filtraton',
+				],
+				'fimbria'=>[
+					'fimbrai',
+				],
+				'fimbriate'=>[
+					'fimbraite',
+				],
+				'fimbriation'=>[
+					'fimbraition',
+					'fimbriatoin',
+					'fimbriaton',
 				],
 				'finable'=>[
 					'finible',
@@ -3051,6 +4654,10 @@
 				],
 				'finality'=>[
 					'finility',
+				],
+				'finalization'=>[
+					'finalizatoin',
+					'finalizaton',
 				],
 				'finalize'=>[
 					'finilize',
@@ -3083,10 +4690,12 @@
 					'finacial',
 					'finanial',
 					'finincial',
+					'financail',
 				],
 				'financially'=>[
 					'financialy',
 					'financiallly',
+					'financailly',
 				],
 				'financier'=>[
 					'finacier',
@@ -3094,8 +4703,19 @@
 					'financir',
 					'finincier',
 				],
+				'financiers'=>[
+					'financeirs',
+				],
 				'finasteride'=>[
 					'finsteride',
+				],
+				'finback'=>[
+					'fiback',
+					'finack',
+				],
+				'finbacks'=>[
+					'fibacks',
+					'finacks',
 				],
 				'find'=>[
 					'fidn',
@@ -3106,10 +4726,16 @@
 				'find out'=>[
 					'findout',
 				],
+				'findable'=>[
+					'findible',
+				],
 				'finding'=>[
 					'findiug',
 					'fiuding',
 					'fnding',
+				],
+				'findings'=>[
+					'fidings',
 				],
 				'finds'=>[
 					'fincls',
@@ -3117,6 +4743,10 @@
 				'fine'=>[
 					'fine fine',
 					'fine fine fine',
+				],
+				'fineable'=>[
+					'finaeble',
+					'fineible',
 				],
 				'fined'=>[
 					'finid',
@@ -3142,6 +4772,10 @@
 				'fines'=>[
 					'finis',
 				],
+				'finespun'=>[
+					'finepun',
+					'finspun',
+				],
 				'finesse'=>[
 					'finese',
 					'finisse',
@@ -3159,34 +4793,105 @@
 				'finest'=>[
 					'finist',
 				],
+				'finfish'=>[
+					'fifish',
+				],
 				'finfoot'=>[
 					'finfooot',
 					'finfot',
+					'fifoot',
+					'finoot',
 				],
 				'finger'=>[
 					'finger finger',
 					'finger finger finger',
 				],
+				'fingerboard'=>[
+					'fingeboard',
+					'fingerbaord',
+					'fingeroard',
+				],
+				'fingerboards'=>[
+					'fingeboards',
+					'fingerbaords',
+					'fingeroards',
+				],
+				'fingerbreadth'=>[
+					'fingebreadth',
+					'fingerbraedth',
+					'fingerreadth',
+				],
+				'fingerbreadths'=>[
+					'fingerbraedths',
+				],
+				'fingered'=>[
+					'fingerd',
+				],
 				'fingerless'=>[
 					'fingerles',
 					'fingerlesss',
 				],
+				'fingermark'=>[
+					'fingemark',
+					'fingerark',
+				],
+				'fingermarks'=>[
+					'fingemarks',
+					'fingerarks',
+				],
+				'fingernail'=>[
+					'fingenail',
+					'fingerail',
+					'fingernial',
+				],
+				'fingernails'=>[
+					'fingenails',
+					'fingerails',
+					'fingernials',
+				],
+				'fingerprint'=>[
+					'fingeprint',
+					'fingerrint',
+				],
+				'fingerprinted'=>[
+					'fingeprinted',
+					'fingerrinted',
+				],
+				'fingerprinting'=>[
+					'fingeprinting',
+					'fingerrinting',
+				],
+				'fingerprints'=>[
+					'fingeprints',
+					'fingerrints',
+				],
 				'fingerstall'=>[
 					'fingerstal',
 					'fingerstalll',
+					'fingersall',
+					'fingertall',
+					'fingestall',
 				],
 				'fingerstalls'=>[
 					'fingerstallls',
 					'fingerstals',
+					'fingertalls',
+					'fingestalls',
+				],
+				'fingertips'=>[
+					'fingerips',
+					'fingetips',
 				],
 				'finial'=>[
 					'finaal',
+					'finail',
 				],
 				'finialed'=>[
 					'finaaled',
 				],
 				'finials'=>[
 					'finaals',
+					'finails',
 				],
 				'finical'=>[
 					'finacal',
@@ -3196,6 +4901,12 @@
 				],
 				'finicalnesses'=>[
 					'finacalnesses',
+				],
+				'finickier'=>[
+					'finickeir',
+				],
+				'finickiest'=>[
+					'finickeist',
 				],
 				'finickin'=>[
 					'finackin',
@@ -3292,9 +5003,11 @@
 				],
 				'finnier'=>[
 					'finnnier',
+					'finneir',
 				],
 				'finniest'=>[
 					'finnniest',
+					'finneist',
 				],
 				'finnish-occupied'=>[
 					'finnish occupied',
@@ -3317,6 +5030,21 @@
 				'finocchios'=>[
 					'finochios',
 				],
+				'finochio'=>[
+					'finochoi',
+				],
+				'fiord'=>[
+					'foird',
+				],
+				'fiords'=>[
+					'foirds',
+				],
+				'fiorin'=>[
+					'foirin',
+				],
+				'fioritura'=>[
+					'foiritura',
+				],
 				'fipple'=>[
 					'fiple',
 					'fippple',
@@ -3335,17 +5063,168 @@
 				'firearm'=>[
 					'fire arm',
 					'firerm',
+					'firaerm',
+				],
+				'firearms'=>[
+					'firaerms',
+					'firarms',
+					'firerms',
+				],
+				'fireback'=>[
+					'firback',
+					'fireack',
 				],
 				'fireball'=>[
 					'firebal',
 					'fireballl',
+					'firball',
 				],
 				'fireballs'=>[
 					'fireballls',
 					'firebals',
+					'firballs',
+				],
+				'firebase'=>[
+					'firbase',
+					'firease',
+				],
+				'firebases'=>[
+					'firbases',
+					'fireases',
+				],
+				'firebird'=>[
+					'firbird',
+					'fireird',
+				],
+				'firebirds'=>[
+					'firbirds',
+					'fireirds',
+				],
+				'fireboard'=>[
+					'firboard',
+					'firebaord',
+					'fireoard',
+				],
+				'fireboat'=>[
+					'firboat',
+					'firebaot',
+					'fireoat',
+				],
+				'fireboats'=>[
+					'firboats',
+					'firebaots',
+					'fireoats',
+				],
+				'firebomb'=>[
+					'firbomb',
+					'fireomb',
+				],
+				'firebombed'=>[
+					'firbombed',
+					'fireombed',
+				],
+				'firebombing'=>[
+					'firbombing',
+					'fireombing',
+				],
+				'firebombings'=>[
+					'firbombings',
+					'fireombings',
+				],
+				'firebombs'=>[
+					'firbombs',
+					'fireombs',
+				],
+				'fireboxes'=>[
+					'firboxes',
+					'fireoxes',
+				],
+				'firebrand'=>[
+					'firbrand',
+					'firerand',
+				],
+				'firebrands'=>[
+					'firbrands',
+					'firerands',
+				],
+				'firebrat'=>[
+					'firbrat',
+					'firerat',
+				],
+				'firebrats'=>[
+					'firbrats',
+					'firerats',
+				],
+				'firebreak'=>[
+					'firbreak',
+					'firebraek',
+					'firereak',
+				],
+				'firebreaks'=>[
+					'firbreaks',
+					'firebraeks',
+					'firereaks',
+				],
+				'firebrick'=>[
+					'firbrick',
+					'firerick',
+				],
+				'firebricks'=>[
+					'firbricks',
+					'firericks',
+				],
+				'firebugs'=>[
+					'firbugs',
+					'fireugs',
+				],
+				'firecracker'=>[
+					'fircracker',
+					'fireracker',
+				],
+				'firecrackers'=>[
+					'fircrackers',
+					'firerackers',
+				],
+				'firecrest'=>[
+					'fircrest',
 				],
 				'fired'=>[
 					'firecl',
+				],
+				'firedamp'=>[
+					'firdamp',
+					'fireamp',
+				],
+				'firedogs'=>[
+					'firdogs',
+					'fireogs',
+				],
+				'firedrake'=>[
+					'firedake',
+					'firerake',
+				],
+				'firefight'=>[
+					'firfight',
+				],
+				'firefighter'=>[
+					'firfighter',
+				],
+				'firefighters'=>[
+					'fireighters',
+					'firfighters',
+				],
+				'firefighting'=>[
+					'fireighting',
+					'firfighting',
+				],
+				'firefights'=>[
+					'fireights',
+					'firfights',
+				],
+				'fireflies'=>[
+					'firefleis',
+					'firelies',
+					'firflies',
 				],
 				'firefly'=>[
 					'firefally',
@@ -3355,14 +5234,67 @@
 				],
 				'fireguard'=>[
 					'firegaurd',
+					'fireuard',
+					'firguard',
+				],
+				'fireguards'=>[
+					'firegaurds',
+					'fireuards',
+					'firguards',
+				],
+				'firehouse'=>[
+					'firehuose',
+					'fireouse',
+					'firhouse',
+				],
+				'firehouses'=>[
+					'firehuoses',
+					'fireouses',
+					'firhouses',
 				],
 				'fireless'=>[
 					'fireles',
 					'firelesss',
 				],
+				'firelight'=>[
+					'firlight',
+				],
+				'firelighter'=>[
+					'firlighter',
+				],
+				'firelock'=>[
+					'fireock',
+					'firlock',
+				],
+				'firelocks'=>[
+					'fireocks',
+					'firlocks',
+				],
+				'fireplace'=>[
+					'firelace',
+					'firplace',
+				],
+				'fireplaces'=>[
+					'firelaces',
+					'firplaces',
+				],
+				'fireplug'=>[
+					'firelug',
+					'firplug',
+				],
+				'fireplugs'=>[
+					'firelugs',
+					'firplugs',
+				],
+				'firepower'=>[
+					'fireower',
+					'firpower',
+				],
 				'fireproof'=>[
 					'fireprof',
 					'fireprooof',
+					'fireroof',
+					'firproof',
 				],
 				'fireproofed'=>[
 					'fireprofed',
@@ -3375,6 +5307,8 @@
 				'fireproofs'=>[
 					'fireprofs',
 					'fireprooofs',
+					'fireroofs',
+					'firproofs',
 				],
 				'fires'=>[
 					'fircs',
@@ -3382,30 +5316,110 @@
 				'firescreen'=>[
 					'firescreeen',
 					'firescren',
+					'firecreen',
+					'firesreen',
+					'firscreen',
 				],
 				'firescreens'=>[
 					'firescreeens',
 					'firescrens',
+					'firecreens',
+					'firesreens',
+					'firscreens',
+				],
+				'fireside'=>[
+					'fireide',
+					'firside',
+				],
+				'firesides'=>[
+					'fireides',
+					'firsides',
+				],
+				'firestone'=>[
+					'firesone',
+					'firetone',
+					'firstone',
+				],
+				'firestones'=>[
+					'firesones',
+					'firetones',
+					'firstones',
+				],
+				'firestorm'=>[
+					'firetorm',
+					'firstorm',
+				],
+				'firestorms'=>[
+					'firetorms',
+					'firstorms',
+				],
+				'firetrap'=>[
+					'firerap',
+					'firtrap',
+				],
+				'firetraps'=>[
+					'fireraps',
+					'firtraps',
+				],
+				'firetruck'=>[
+					'fireruck',
+					'firtruck',
+				],
+				'firetrucks'=>[
+					'firerucks',
+					'firtrucks',
 				],
 				'firewall'=>[
 					'firewal',
 					'firewalll',
+					'firwall',
 				],
 				'firewalls'=>[
 					'firewallls',
 					'firewals',
+					'firwalls',
+				],
+				'firewarden'=>[
+					'firearden',
+					'firwarden',
+				],
+				'firewater'=>[
+					'fireater',
+					'firwater',
 				],
 				'fireweed'=>[
 					'firewed',
 					'fireweeed',
+					'firweed',
 				],
 				'fireweeds'=>[
 					'fireweds',
 					'fireweeeds',
+					'fireeeds',
+					'firweeds',
 				],
 				'firewood'=>[
 					'firewod',
 					'firewoood',
+					'fireood',
+				],
+				'firework'=>[
+					'fireork',
+					'firwork',
+				],
+				'fireworks'=>[
+					'fireorks',
+					'firworks',
+				],
+				'fireworm'=>[
+					'fireorm',
+					'firworm',
+				],
+				'firmament'=>[
+					'firmamant',
+				],
+				'firmaments'=>[
+					'firmamants',
 				],
 				'firmest'=>[
 					'firmeft',
@@ -3429,6 +5443,14 @@
 					'flrst',
 					'frst',
 				],
+				'firstborn'=>[
+					'firsborn',
+					'firstorn',
+				],
+				'firsthand'=>[
+					'firshand',
+					'firstand',
+				],
 				'firstly'=>[
 					'firstally',
 					'firstaly',
@@ -3448,6 +5470,12 @@
 				'fiscally'=>[
 					'fiscallly',
 					'fiscaly',
+					'fically',
+					'fisally',
+				],
+				'fiscals'=>[
+					'ficals',
+					'fisals',
 				],
 				'fiscs'=>[
 					'fics',
@@ -3459,12 +5487,43 @@
 					'fish fish fish',
 					'fisli',
 				],
+				'fishbolt'=>[
+					'fisbolt',
+					'fisholt',
+				],
+				'fishbowl'=>[
+					'fisbowl',
+					'fishowl',
+				],
+				'fishbowls'=>[
+					'fisbowls',
+					'fishowls',
+				],
+				'fishcake'=>[
+					'fiscake',
+					'fishake',
+				],
+				'fishcakes'=>[
+					'fiscakes',
+					'fishakes',
+				],
+				'fisheries'=>[
+					'fisharies',
+					'fishereis',
+				],
 				'fishermen'=>[
 					'fifhermen',
+				],
+				'fishery'=>[
+					'fishary',
 				],
 				'fishes'=>[
 					'fishs',
 					'fislies',
+				],
+				'fishgigs'=>[
+					'fisgigs',
+					'fishigs',
 				],
 				'fishhook'=>[
 					'fishhhook',
@@ -3478,9 +5537,71 @@
 					'fishhoooks',
 					'fishooks',
 				],
+				'fishier'=>[
+					'fisheir',
+				],
+				'fishiest'=>[
+					'fisheist',
+				],
 				'fishiness'=>[
 					'fishines',
 					'fishinesss',
+				],
+				'fishmeal'=>[
+					'fisheal',
+					'fishmael',
+					'fismeal',
+				],
+				'fishnets'=>[
+					'fisnets',
+				],
+				'fishplate'=>[
+					'fishlate',
+					'fisplate',
+				],
+				'fishplates'=>[
+					'fishlates',
+					'fisplates',
+				],
+				'fishpond'=>[
+					'fishond',
+					'fispond',
+				],
+				'fishtail'=>[
+					'fishail',
+					'fishtial',
+					'fistail',
+				],
+				'fishtailed'=>[
+					'fishailed',
+					'fishtialed',
+					'fistailed',
+				],
+				'fishtailing'=>[
+					'fishailing',
+					'fishtialing',
+					'fistailing',
+				],
+				'fishtails'=>[
+					'fishails',
+					'fishtials',
+					'fistails',
+				],
+				'fishwife'=>[
+					'fishife',
+					'fiswife',
+				],
+				'fishwives'=>[
+					'fishives',
+					'fiswives',
+				],
+				'fishworm'=>[
+					'fishorm',
+					'fisworm',
+				],
+				'fishworms'=>[
+					'fishorms',
+					'fisworms',
 				],
 				'fissile'=>[
 					'fisile',
@@ -3493,20 +5614,26 @@
 				'fission'=>[
 					'fision',
 					'fisssion',
+					'fissoin',
+					'fisson',
 				],
 				'fissionable'=>[
 					'fisionable',
 					'fissionible',
 					'fisssionable',
+					'fissoinable',
 				],
 				'fissions'=>[
 					'fisions',
 					'fisssions',
+					'fissoins',
+					'fissons',
 				],
 				'fissiparous'=>[
 					'fisiparous',
 					'fissiperous',
 					'fisssiparous',
+					'fissiparuos',
 				],
 				'fissiparousness'=>[
 					'fissiperousness',
@@ -3522,10 +5649,19 @@
 				'fissured'=>[
 					'fisssured',
 					'fisured',
+					'fissurd',
 				],
 				'fissures'=>[
 					'fisssures',
 					'fisures',
+				],
+				'fistfight'=>[
+					'fisfight',
+					'fistight',
+				],
+				'fistfights'=>[
+					'fisfights',
+					'fistights',
 				],
 				'fisticuff'=>[
 					'fisticuf',
@@ -3535,6 +5671,12 @@
 					'fisticufffs',
 					'fisticufs',
 				],
+				'fistulae'=>[
+					'fistulea',
+				],
+				'fistulous'=>[
+					'fistuluos',
+				],
 				'fit'=>[
 					'fit fit',
 					'fit fit fit',
@@ -3542,6 +5684,8 @@
 				'fitfully'=>[
 					'fitfullly',
 					'fitfuly',
+					'fifully',
+					'fitully',
 				],
 				'fitfulness'=>[
 					'fitfulnes',
@@ -3554,6 +5698,9 @@
 				],
 				'fitment'=>[
 					'fitmant',
+				],
+				'fitments'=>[
+					'fitmants',
 				],
 				'fitness'=>[
 					'fitnes',
@@ -3601,12 +5748,26 @@
 					'five five',
 					'five five five',
 				],
+				'fivefold'=>[
+					'fiveold',
+					'fivfold',
+				],
 				'fivepenny'=>[
 					'fivepennny',
 					'fivepeny',
+					'fiveenny',
+					'fivpenny',
 				],
 				'fixable'=>[
 					'fixible',
+				],
+				'fixation'=>[
+					'fixatoin',
+					'fixaton',
+				],
+				'fixations'=>[
+					'fixatoins',
+					'fixatons',
 				],
 				'fixed'=>[
 					'fixcd',
@@ -3642,10 +5803,12 @@
 				'fizzier'=>[
 					'fizier',
 					'fizzzier',
+					'fizzeir',
 				],
 				'fizziest'=>[
 					'fiziest',
 					'fizzziest',
+					'fizzeist',
 				],
 				'fizzing'=>[
 					'fizing',
@@ -3690,14 +5853,17 @@
 				'flabbier'=>[
 					'flabier',
 					'flabbbier',
+					'flabbeir',
 				],
 				'flabbiest'=>[
 					'flabiest',
 					'flabbbiest',
+					'flabbeist',
 				],
 				'flabbily'=>[
 					'flabily',
 					'flabbbily',
+					'flabbly',
 				],
 				'flabbiness'=>[
 					'flabiness',
@@ -3741,9 +5907,14 @@
 					'flacccidness',
 					'flacidness',
 				],
+				'flackery'=>[
+					'flackary',
+				],
 				'flagella'=>[
 					'flagela',
 					'flagellla',
+					'flaella',
+					'flaglla',
 				],
 				'flagellant'=>[
 					'flagellent',
@@ -3756,6 +5927,7 @@
 				'flagellants'=>[
 					'flagelants',
 					'flagelllants',
+					'flagellents',
 				],
 				'flagellar'=>[
 					'flageller',
@@ -3782,6 +5954,8 @@
 				'flagellation'=>[
 					'flagelation',
 					'flagelllation',
+					'flagellatoin',
+					'flagellaton',
 				],
 				'flagellator'=>[
 					'flagelator',
@@ -3805,6 +5979,12 @@
 				'flagellums'=>[
 					'flagelllums',
 					'flagelums',
+				],
+				'flageolet'=>[
+					'flagoelet',
+				],
+				'flageolets'=>[
+					'flagoelets',
 				],
 				'flagged'=>[
 					'flaged',
@@ -3832,54 +6012,140 @@
 				],
 				'flagitious'=>[
 					'flagitous',
+					'flagitiuos',
+					'flagitoius',
 				],
 				'flagitiously'=>[
 					'flagitously',
+					'flagitiousely',
+					'flagitiuosly',
+					'flagitoiusly',
 				],
 				'flagitiousness'=>[
 					'flagitiousnes',
 					'flagitiousnesss',
+					'flagitiuosness',
+					'flagitoiusness',
+					'flagitousness',
+				],
+				'flagpole'=>[
+					'flagole',
+					'flapole',
+				],
+				'flagpoles'=>[
+					'flagoles',
+					'flapoles',
 				],
 				'flagrance'=>[
 					'flagrence',
 				],
 				'flagrancy'=>[
 					'flagransy',
+					'flagrency',
 				],
 				'flagrant'=>[
 					'flagrent',
+					'flagant',
+					'flarant',
+				],
+				'flagrantly'=>[
+					'flagrantely',
+					'flagrently',
+				],
+				'flagships'=>[
+					'flaghips',
+					'flagsips',
 				],
 				'flagstaff'=>[
 					'flagstaf',
 					'flagstafff',
+					'flagtaff',
+					'flastaff',
 				],
 				'flagstaffs'=>[
 					'flagstafffs',
 					'flagstafs',
 				],
+				'flagstone'=>[
+					'flagsone',
+					'flagtone',
+					'flastone',
+				],
+				'flagstones'=>[
+					'flagsones',
+					'flagtones',
+					'flastones',
+				],
+				'flail'=>[
+					'flial',
+				],
+				'flailed'=>[
+					'flialed',
+				],
+				'flailing'=>[
+					'flialing',
+				],
+				'flails'=>[
+					'flials',
+				],
+				'flair'=>[
+					'fliar',
+				],
+				'flairs'=>[
+					'fliars',
+				],
+				'flakier'=>[
+					'flakeir',
+				],
+				'flakiest'=>[
+					'flakeist',
+				],
 				'flakiness'=>[
 					'flakines',
 					'flakinesss',
+				],
+				'flambeau'=>[
+					'flambaeu',
+					'flambeua',
+				],
+				'flambeaus'=>[
+					'flambaeus',
+					'flambeuas',
+				],
+				'flambeaux'=>[
+					'flambaeux',
+					'flambeuax',
+				],
+				'flambeing'=>[
+					'flambieng',
 				],
 				'flamboyance'=>[
 					'flamboyence',
 				],
 				'flamboyancy'=>[
 					'flamboyansy',
+					'flamboyency',
 				],
 				'flamboyant'=>[
 					'flamboyent',
 				],
 				'flamboyantly'=>[
 					'flamboyently',
+					'flamboyantely',
 				],
 				'flame'=>[
 					'fiame',
 					'flaine',
 				],
+				'flameout'=>[
+					'flameuot',
+					'flamoeut',
+				],
 				'flameproof'=>[
 					'flameprof',
 					'flameprooof',
+					'flameroof',
+					'flamproof',
 				],
 				'flameproofed'=>[
 					'flameprofed',
@@ -3892,12 +6158,17 @@
 				'flameproofs'=>[
 					'flameprofs',
 					'flameprooofs',
+					'flameroofs',
+					'flamproofs',
 				],
 				'flames'=>[
 					'fiames',
 				],
 				'flamingo'=>[
 					'flamigo',
+				],
+				'flamingoes'=>[
+					'flamingeos',
 				],
 				'flammabilities'=>[
 					'flammabiliteis',
@@ -3907,6 +6178,7 @@
 				'flammability'=>[
 					'flamability',
 					'flammmability',
+					'flammibility',
 				],
 				'flammable'=>[
 					'flammible',
@@ -3918,6 +6190,7 @@
 					'flamnables',
 					'flamables',
 					'flammmables',
+					'flammibles',
 				],
 				'flaneur'=>[
 					'flaner',
@@ -3968,6 +6241,14 @@
 					'flapdodle',
 					'flapdooodle',
 				],
+				'flapjack'=>[
+					'flajack',
+					'flapack',
+				],
+				'flapjacks'=>[
+					'flajacks',
+					'flapacks',
+				],
 				'flappable'=>[
 					'flapable',
 					'flappible',
@@ -3993,9 +6274,87 @@
 				'flappy'=>[
 					'flapy',
 				],
+				'flared'=>[
+					'flard',
+				],
+				'flareup'=>[
+					'flaruep',
+				],
+				'flareups'=>[
+					'flarueps',
+				],
+				'flashback'=>[
+					'flasback',
+					'flashack',
+				],
+				'flashbacks'=>[
+					'flasbacks',
+					'flashacks',
+				],
+				'flashboard'=>[
+					'flasboard',
+					'flashbaord',
+					'flashoard',
+				],
+				'flashbulb'=>[
+					'flasbulb',
+					'flashulb',
+				],
+				'flashbulbs'=>[
+					'flasbulbs',
+					'flashulbs',
+				],
+				'flashcard'=>[
+					'flascard',
+					'flashard',
+				],
+				'flashcards'=>[
+					'flascards',
+					'flashards',
+				],
+				'flashcube'=>[
+					'flascube',
+					'flashube',
+				],
+				'flashcubes'=>[
+					'flascubes',
+					'flashubes',
+				],
+				'flashguns'=>[
+					'flasguns',
+					'flashuns',
+				],
+				'flashier'=>[
+					'flasheir',
+				],
+				'flashiest'=>[
+					'flasheist',
+				],
 				'flashiness'=>[
 					'flashines',
 					'flashinesss',
+				],
+				'flashlight'=>[
+					'flashight',
+					'flaslight',
+				],
+				'flashlights'=>[
+					'flashights',
+					'flaslights',
+				],
+				'flashover'=>[
+					'flashver',
+					'flasover',
+				],
+				'flashpoint'=>[
+					'flashoint',
+					'flashpiont',
+					'flaspoint',
+				],
+				'flashpoints'=>[
+					'flashoints',
+					'flashpionts',
+					'flaspoints',
 				],
 				'flat'=>[
 					'flat flat',
@@ -4004,16 +6363,45 @@
 				'flat-backed instrument'=>[
 					'flat backed instrument',
 				],
+				'flatbeds'=>[
+					'flabeds',
+					'flateds',
+				],
+				'flatboat'=>[
+					'flaboat',
+					'flatbaot',
+					'flatoat',
+				],
+				'flatboats'=>[
+					'flaboats',
+					'flatbaots',
+					'flatoats',
+				],
 				'flatcar'=>[
 					'flatcer',
+				],
+				'flatcars'=>[
+					'flacars',
+					'flatars',
 				],
 				'flatfeet'=>[
 					'flatfeeet',
 					'flatfet',
+					'flafeet',
+					'flateet',
+				],
+				'flatfish'=>[
+					'flafish',
+				],
+				'flatfishes'=>[
+					'flafishes',
+					'flatishes',
 				],
 				'flatfoot'=>[
 					'flatfooot',
 					'flatfot',
+					'flafoot',
+					'flatoot',
 				],
 				'flatfooted'=>[
 					'flatfoooted',
@@ -4022,6 +6410,43 @@
 				'flatfoots'=>[
 					'flatfooots',
 					'flatfots',
+				],
+				'flathead'=>[
+					'flahead',
+					'flatead',
+					'flathaed',
+				],
+				'flatheads'=>[
+					'flaheads',
+					'flateads',
+					'flathaeds',
+				],
+				'flatiron'=>[
+					'flairon',
+					'flatron',
+				],
+				'flatirons'=>[
+					'flairons',
+					'flatrons',
+				],
+				'flatland'=>[
+					'flaland',
+					'flatand',
+				],
+				'flatlets'=>[
+					'flalets',
+					'flatets',
+				],
+				'flatly'=>[
+					'flately',
+				],
+				'flatmate'=>[
+					'flamate',
+					'flatate',
+				],
+				'flatmates'=>[
+					'flamates',
+					'flatates',
 				],
 				'flatness'=>[
 					'flatnes',
@@ -4054,6 +6479,7 @@
 				],
 				'flattered'=>[
 					'flatttered',
+					'flatterd',
 				],
 				'flatterer'=>[
 					'flattterer',
@@ -4083,6 +6509,7 @@
 				'flattie'=>[
 					'flatie',
 					'flatttie',
+					'flattei',
 				],
 				'flatting'=>[
 					'flattting',
@@ -4102,11 +6529,69 @@
 				'flatulence'=>[
 					'flatulance',
 				],
+				'flatulencies'=>[
+					'flatulancies',
+					'flatulenceis',
+				],
 				'flatulency'=>[
 					'flatulensy',
+					'flatulancy',
+				],
+				'flatulent'=>[
+					'flatulant',
+				],
+				'flatulently'=>[
+					'flatulantly',
+					'flatulentely',
+				],
+				'flatways'=>[
+					'flatays',
+					'flaways',
+				],
+				'flatworm'=>[
+					'flatorm',
+					'flaworm',
+				],
+				'flatworms'=>[
+					'flatorms',
+					'flaworms',
+				],
+				'flaunch'=>[
+					'fluanch',
+				],
+				'flaunted'=>[
+					'fluanted',
+				],
+				'flaunter'=>[
+					'fluanter',
+				],
+				'flauntier'=>[
+					'flaunteir',
+					'fluantier',
+				],
+				'flauntiest'=>[
+					'flaunteist',
+					'fluantiest',
+				],
+				'flaunting'=>[
+					'fluanting',
+				],
+				'flauntingly'=>[
+					'fluantingly',
+				],
+				'flaunts'=>[
+					'fluants',
+				],
+				'flaunty'=>[
+					'fluanty',
 				],
 				'flavanone'=>[
 					'flavonone',
+				],
+				'flavescent'=>[
+					'flavecent',
+					'flavescant',
+					'flavesent',
 				],
 				'flavivirus'=>[
 					'flavovirus',
@@ -4125,9 +6610,15 @@
 				'flavoproteins'=>[
 					'flavoprotiens',
 				],
+				'flavored'=>[
+					'flavord',
+				],
 				'flavorless'=>[
 					'flavorles',
 					'flavorlesss',
+				],
+				'flavorous'=>[
+					'flavoruos',
 				],
 				'flawless'=>[
 					'flawles',
@@ -4136,6 +6627,7 @@
 				'flawlessly'=>[
 					'flawlesly',
 					'flawlesssly',
+					'flawlessely',
 				],
 				'flawlessness'=>[
 					'flawlesness',
@@ -4154,12 +6646,61 @@
 				'flea'=>[
 					'fle',
 				],
+				'fleabag'=>[
+					'flaebag',
+				],
+				'fleabags'=>[
+					'flaebags',
+					'fleaags',
+					'flebags',
+				],
+				'fleabane'=>[
+					'flaebane',
+				],
+				'fleabanes'=>[
+					'flaebanes',
+				],
+				'fleabite'=>[
+					'flaebite',
+					'fleaite',
+					'flebite',
+				],
+				'fleabites'=>[
+					'flaebites',
+					'fleaites',
+					'flebites',
+				],
 				'fleahopper'=>[
 					'fleaopper',
 				],
 				'fleahoppers'=>[
 					'fleahopers',
 					'fleaoppers',
+				],
+				'fleam'=>[
+					'flaem',
+				],
+				'fleapit'=>[
+					'flaepit',
+				],
+				'fleapits'=>[
+					'flaepits',
+					'fleaits',
+					'flepits',
+				],
+				'fleawort'=>[
+					'flaewort',
+				],
+				'fleaworts'=>[
+					'flaeworts',
+				],
+				'flection'=>[
+					'flectoin',
+					'flecton',
+				],
+				'flections'=>[
+					'flectoins',
+					'flectons',
 				],
 				'fled'=>[
 					'fleed',
@@ -4199,14 +6740,17 @@
 				'fleecier'=>[
 					'flecier',
 					'fleeecier',
+					'fleeceir',
 				],
 				'fleeciest'=>[
 					'fleciest',
 					'fleeeciest',
+					'fleeceist',
 				],
 				'fleecily'=>[
 					'flecily',
 					'fleeecily',
+					'fleecly',
 				],
 				'fleeciness'=>[
 					'fleecines',
@@ -4265,6 +6809,7 @@
 				],
 				'fleetly'=>[
 					'fleeetly',
+					'fleetely',
 				],
 				'fleetness'=>[
 					'fleetnes',
@@ -4294,6 +6839,12 @@
 					'flesb',
 					'flesli',
 				],
+				'fleshier'=>[
+					'flesheir',
+				],
+				'fleshiest'=>[
+					'flesheist',
+				],
 				'fleshiness'=>[
 					'fleshines',
 					'fleshinesss',
@@ -4306,6 +6857,12 @@
 					'fleshles',
 					'fleshlesss',
 				],
+				'fleshlier'=>[
+					'fleshleir',
+				],
+				'fleshliest'=>[
+					'fleshleist',
+				],
 				'fleshliness'=>[
 					'fleshlines',
 					'fleshlinesss',
@@ -4316,9 +6873,20 @@
 					'fleshely',
 					'fleshlly',
 				],
+				'fleshpots'=>[
+					'fleshots',
+					'flespots',
+				],
 				'fleurette'=>[
 					'fleurete',
 					'fleurettte',
+					'fluerette',
+				],
+				'fleuron'=>[
+					'flueron',
+				],
+				'fleury'=>[
+					'fluery',
 				],
 				'fleury joseph crépin'=>[
 					'fleury-joseph crépin',
@@ -4326,6 +6894,12 @@
 				'flexdollars'=>[
 					'flexdolars',
 					'flexdolllars',
+					'fledollars',
+					'flexollars',
+				],
+				'flexibilities'=>[
+					'flexabilities',
+					'flexibiliteis',
 				],
 				'flexibility'=>[
 					'flexability',
@@ -4336,16 +6910,35 @@
 				'flexibleness'=>[
 					'flexiblenes',
 					'flexiblenesss',
+					'flexableness',
 				],
 				'flexiblenesses'=>[
 					'flexibleneses',
 					'flexiblenessses',
 				],
+				'flexibly'=>[
+					'flexably',
+				],
+				'flexion'=>[
+					'flexoin',
+				],
+				'flexions'=>[
+					'flexoins',
+				],
+				'flextime'=>[
+					'fletime',
+					'flexime',
+				],
 				'flexuose'=>[
 					'flexose',
 				],
+				'flexuosity'=>[
+					'flexousity',
+				],
 				'flexuous'=>[
 					'flexous',
+					'flexouus',
+					'flexuuos',
 				],
 				'flibbertigibbet'=>[
 					'flibbertigibet',
@@ -4359,6 +6952,17 @@
 					'flibbertigibets',
 					'flibertigibbets',
 				],
+				'flickered'=>[
+					'flickerd',
+				],
+				'flickertail'=>[
+					'flickerail',
+					'flickertial',
+					'flicketail',
+				],
+				'flickery'=>[
+					'flickary',
+				],
 				'flied'=>[
 					'fleid',
 					'flid',
@@ -4367,14 +6971,26 @@
 					'fleir',
 					'flir',
 				],
+				'fliers'=>[
+					'fleirs',
+				],
 				'flies'=>[
 					'fleis',
 					'flys',
 					'flis',
 				],
+				'fliest'=>[
+					'fleist',
+				],
 				'flight'=>[
 					'fiight',
 					'fliglit',
+				],
+				'flightier'=>[
+					'flighteir',
+				],
+				'flightiest'=>[
+					'flighteist',
 				],
 				'flightiness'=>[
 					'flightines',
@@ -4386,6 +7002,10 @@
 				'flightless'=>[
 					'flightles',
 					'flightlesss',
+				],
+				'flightpath'=>[
+					'flighpath',
+					'flightath',
 				],
 				'flimflammed'=>[
 					'flimflammmed',
@@ -4401,9 +7021,16 @@
 				'flimflammery'=>[
 					'flimflamery',
 					'flimflammmery',
+					'flimflammary',
 				],
 				'flimflamming'=>[
 					'flimflammming',
+				],
+				'flimsier'=>[
+					'flimseir',
+				],
+				'flimsiest'=>[
+					'flimseist',
 				],
 				'flimsiness'=>[
 					'flimsines',
@@ -4412,9 +7039,27 @@
 				'flimsy'=>[
 					'flimcy',
 				],
+				'flintier'=>[
+					'flinteir',
+				],
+				'flintiest'=>[
+					'flinteist',
+				],
 				'flintiness'=>[
 					'flintines',
 					'flintinesss',
+				],
+				'flintlock'=>[
+					'flinlock',
+					'flintock',
+				],
+				'flintlocks'=>[
+					'flinlocks',
+					'flintocks',
+				],
+				'flintstones'=>[
+					'flinstones',
+					'flinttones',
 				],
 				'flipflopping'=>[
 					'flipfloping',
@@ -4423,6 +7068,7 @@
 					'flippansy',
 					'flipancy',
 					'flipppancy',
+					'flippency',
 				],
 				'flippant'=>[
 					'flipant',
@@ -4432,6 +7078,8 @@
 				'flippantly'=>[
 					'flipantly',
 					'flipppantly',
+					'flippantely',
+					'flippently',
 				],
 				'flipped'=>[
 					'flippped',
@@ -4453,8 +7101,18 @@
 				'flippy'=>[
 					'flipy',
 				],
+				'flirtation'=>[
+					'flirtatoin',
+					'flirtaton',
+				],
+				'flirtations'=>[
+					'flirtatoins',
+					'flirtatons',
+				],
 				'flirtatious'=>[
 					'flirtatous',
+					'flirtatiuos',
+					'flirtatoius',
 				],
 				'flirtatiously'=>[
 					'flirtatiousally',
@@ -4462,10 +7120,15 @@
 					'flirtatiousely',
 					'flirtatiouslly',
 					'flirtatously',
+					'flirtatiuosly',
+					'flirtatoiusly',
 				],
 				'flirtatiousness'=>[
 					'flirtatiousnes',
 					'flirtatiousnesss',
+					'flirtatiuosness',
+					'flirtatoiusness',
+					'flirtatousness',
 				],
 				'flirted'=>[
 					'fiirced',
@@ -4479,6 +7142,7 @@
 				'flittered'=>[
 					'flitered',
 					'flitttered',
+					'flitterd',
 				],
 				'flittering'=>[
 					'flitering',
@@ -4487,6 +7151,7 @@
 				'flittermouse'=>[
 					'flitermouse',
 					'flitttermouse',
+					'flittermuose',
 				],
 				'flitters'=>[
 					'fliters',
@@ -4498,8 +7163,68 @@
 				'flivver'=>[
 					'flivvver',
 				],
+				'float'=>[
+					'flaot',
+				],
+				'floatable'=>[
+					'flaotable',
+					'floatible',
+				],
+				'floatage'=>[
+					'flaotage',
+				],
+				'floatation'=>[
+					'flaotation',
+					'floatatoin',
+					'floataton',
+				],
+				'floatations'=>[
+					'flaotations',
+					'floatatoins',
+					'floatatons',
+				],
+				'floated'=>[
+					'flaoted',
+				],
+				'floater'=>[
+					'flaoter',
+				],
+				'floaters'=>[
+					'flaoters',
+				],
+				'floatier'=>[
+					'flaotier',
+					'floateir',
+				],
+				'floatiest'=>[
+					'flaotiest',
+					'floateist',
+				],
 				'floating'=>[
 					'fioating',
+					'flaoting',
+				],
+				'floatplane'=>[
+					'flaotplane',
+					'floaplane',
+					'floatlane',
+				],
+				'floatplanes'=>[
+					'flaotplanes',
+					'floaplanes',
+					'floatlanes',
+				],
+				'floats'=>[
+					'flaots',
+				],
+				'floatstone'=>[
+					'flaotstone',
+					'floastone',
+					'floatsone',
+					'floattone',
+				],
+				'floaty'=>[
+					'flaoty',
 				],
 				'flocced'=>[
 					'floced',
@@ -4510,6 +7235,9 @@
 				'floccinaucinihilipilification'=>[
 					'flocccinaucinihilipilification',
 					'flocinaucinihilipilification',
+					'floccinaucinihilipilificatoin',
+					'floccinaucinihilipilificaton',
+					'floccinuacinihilipilification',
 				],
 				'floccing'=>[
 					'flocing',
@@ -4545,6 +7273,8 @@
 				'flocculation'=>[
 					'floculation',
 					'floccculation',
+					'flocculatoin',
+					'flocculaton',
 				],
 				'flocculations'=>[
 					'floculations',
@@ -4562,6 +7292,7 @@
 				'flocculence'=>[
 					'floccculence',
 					'floculence',
+					'flocculance',
 				],
 				'flocculent'=>[
 					'floculent',
@@ -4584,6 +7315,9 @@
 				'floccus'=>[
 					'flocus',
 					'flocccus',
+				],
+				'floes'=>[
+					'fleos',
 				],
 				'floggable'=>[
 					'flogable',
@@ -4619,10 +7353,14 @@
 				'floodgate'=>[
 					'flodgate',
 					'flooodgate',
+					'floodate',
+					'floogate',
 				],
 				'floodgates'=>[
 					'flodgates',
 					'flooodgates',
+					'floodates',
+					'floogates',
 				],
 				'flooding'=>[
 					'floooding',
@@ -4634,18 +7372,26 @@
 				'floodlight'=>[
 					'flodlight',
 					'flooodlight',
+					'floodight',
+					'floolight',
 				],
 				'floodlighted'=>[
 					'flodlighted',
 					'flooodlighted',
+					'floodighted',
+					'floolighted',
 				],
 				'floodlighting'=>[
 					'flodlighting',
 					'flooodlighting',
+					'floodighting',
+					'floolighting',
 				],
 				'floodlights'=>[
 					'flodlights',
 					'flooodlights',
+					'floodights',
+					'floolights',
 				],
 				'floodlit'=>[
 					'flodlit',
@@ -4654,10 +7400,16 @@
 				'floodplain'=>[
 					'flodplain',
 					'flooodplain',
+					'floodlain',
+					'floodplian',
+					'flooplain',
 				],
 				'floodplains'=>[
 					'flodplains',
 					'flooodplains',
+					'floodlains',
+					'floodplians',
+					'flooplains',
 				],
 				'floods'=>[
 					'flooods',
@@ -4665,6 +7417,8 @@
 				'floodwater'=>[
 					'flodwater',
 					'flooodwater',
+					'floodater',
+					'floowater',
 				],
 				'floor'=>[
 					'floor floor',
@@ -4679,13 +7433,20 @@
 				'floorboard'=>[
 					'flooorboard',
 					'florboard',
+					'flooboard',
+					'floorbaord',
+					'flooroard',
 				],
 				'floorboards'=>[
 					'flooorboards',
 					'florboards',
+					'flooboards',
+					'floorbaords',
+					'flooroards',
 				],
 				'floored'=>[
 					'flooored',
+					'floord',
 				],
 				'floorer'=>[
 					'flooorer',
@@ -4703,18 +7464,26 @@
 				'floorshow'=>[
 					'flooorshow',
 					'florshow',
+					'floorhow',
+					'flooshow',
 				],
 				'floorshows'=>[
 					'flooorshows',
 					'florshows',
+					'floorhows',
+					'flooshows',
 				],
 				'floorwalker'=>[
 					'flooorwalker',
 					'florwalker',
+					'flooralker',
+					'floowalker',
 				],
 				'floorwalkers'=>[
 					'flooorwalkers',
 					'florwalkers',
+					'flooralkers',
+					'floowalkers',
 				],
 				'floosy'=>[
 					'floocy',
@@ -4722,14 +7491,26 @@
 				'floozie'=>[
 					'flooozie',
 					'flozie',
+					'floozei',
 				],
 				'floozies'=>[
 					'flooozies',
 					'flozies',
+					'floozeis',
 				],
 				'floozy'=>[
 					'flooozy',
 					'flozy',
+				],
+				'flophouse'=>[
+					'flohouse',
+					'flophuose',
+					'flopouse',
+				],
+				'flophouses'=>[
+					'flohouses',
+					'flophuoses',
+					'flopouses',
 				],
 				'flopped'=>[
 					'floppped',
@@ -4740,18 +7521,22 @@
 				'floppier'=>[
 					'flopier',
 					'flopppier',
+					'floppeir',
 				],
 				'floppies'=>[
 					'flopies',
 					'flopppies',
+					'floppeis',
 				],
 				'floppiest'=>[
 					'flopiest',
 					'flopppiest',
+					'floppeist',
 				],
 				'floppily'=>[
 					'flopily',
 					'flopppily',
+					'flopply',
 				],
 				'floppiness'=>[
 					'floppines',
@@ -4773,6 +7558,9 @@
 				'florally'=>[
 					'florallly',
 				],
+				'floreated'=>[
+					'floraeted',
+				],
 				'florence'=>[
 					'florance',
 				],
@@ -4787,12 +7575,29 @@
 					'florecsences',
 					'floresences',
 				],
+				'florescent'=>[
+					'florecent',
+					'florescant',
+					'floresent',
+				],
+				'floriated'=>[
+					'floraited',
+				],
 				'florida'=>[
 					'florda',
 				],
 				'floridness'=>[
 					'floridnes',
 					'floridnesss',
+				],
+				'florilegia'=>[
+					'florilegai',
+				],
+				'florilegium'=>[
+					'florileguim',
+				],
+				'floruit'=>[
+					'floriut',
 				],
 				'floss'=>[
 					'flos',
@@ -4809,14 +7614,17 @@
 				'flossie'=>[
 					'flosie',
 					'flosssie',
+					'flossei',
 				],
 				'flossier'=>[
 					'flosier',
 					'flosssier',
+					'flosseir',
 				],
 				'flossiest'=>[
 					'flosiest',
 					'flosssiest',
+					'flosseist',
 				],
 				'flossiness'=>[
 					'flosiness',
@@ -4837,6 +7645,14 @@
 			#	'flotation'=>[
 			#		'floatation',
 			#	],
+				'flotation'=>[
+					'flotatoin',
+					'flotaton',
+				],
+				'flotations'=>[
+					'flotatoins',
+					'flotatons',
+				],
 				'flotilla'=>[
 					'floatilla',
 					'flotila',
@@ -4850,11 +7666,48 @@
 				'flotillin'=>[
 					'flotilin',
 				],
+				'flounce'=>[
+					'fluonce',
+				],
+				'flounced'=>[
+					'fluonced',
+				],
+				'flounces'=>[
+					'fluonces',
+				],
+				'flouncier'=>[
+					'flounceir',
+					'fluoncier',
+				],
+				'flounciest'=>[
+					'flounceist',
+					'fluonciest',
+				],
+				'flouncing'=>[
+					'fluoncing',
+				],
 				'flouncy'=>[
 					'flounsy',
+					'fluoncy',
+				],
+				'flounder'=>[
+					'fluonder',
+				],
+				'floundered'=>[
+					'flounderd',
+					'fluondered',
+				],
+				'floundering'=>[
+					'fluondering',
+				],
+				'flounders'=>[
+					'fluonders',
 				],
 				'flour'=>[
 					'flonr',
+				],
+				'floured'=>[
+					'flourd',
 				],
 				'flouriness'=>[
 					'flourines',
@@ -4864,17 +7717,68 @@
 					'fluorish',
 					'flourifh',
 				],
+				'flourished'=>[
+					'fluorished',
+				],
+				'flourisher'=>[
+					'fluorisher',
+				],
+				'flourishes'=>[
+					'fluorishes',
+				],
 				'flourishing'=>[
 					'florishing',
 					'fourlishing',
+					'fluorishing',
+				],
+				'floury'=>[
+					'fluory',
+				],
+				'flout'=>[
+					'fluot',
+				],
+				'flouted'=>[
+					'fluoted',
+				],
+				'flouter'=>[
+					'fluoter',
+				],
+				'flouters'=>[
+					'fluoters',
+				],
+				'flouting'=>[
+					'fluoting',
+				],
+				'flouts'=>[
+					'fluots',
 				],
 				'flow'=>[
 					'flow flow',
 					'flow flow flow',
 				],
+				'flowchart'=>[
+					'flochart',
+					'flowhart',
+				],
+				'flowcharts'=>[
+					'flocharts',
+					'flowharts',
+				],
 				'flower'=>[
 					'flower flower',
 					'flower flower flower',
+				],
+				'flowerbeds'=>[
+					'flowebeds',
+				],
+				'flowered'=>[
+					'flowerd',
+				],
+				'flowerier'=>[
+					'flowereir',
+				],
+				'floweriest'=>[
+					'flowereist',
 				],
 				'floweriness'=>[
 					'flowerines',
@@ -4887,8 +7791,15 @@
 					'flowerles',
 					'flowerlesss',
 				],
+				'flowerpots'=>[
+					'flowepots',
+					'flowerots',
+				],
 				'flowers'=>[
 					'fiowers',
+				],
+				'flowery'=>[
+					'flowary',
 				],
 				'flown'=>[
 					'flewn',
@@ -4909,15 +7820,21 @@
 				'fluconazole'=>[
 					'fuconazole',
 				],
+				'fluctuant'=>[
+					'fluctaunt',
+					'fluctuent',
+				],
 				'fluctuate'=>[
 					'fluxuate',
 					'fluctaute',
 				],
 				'fluctuated'=>[
 					'fluxuated',
+					'fluctauted',
 				],
 				'fluctuates'=>[
 					'fluxuates',
+					'fluctautes',
 				],
 				'fluctuating'=>[
 					'fluctauting',
@@ -4926,28 +7843,39 @@
 				'fluctuation'=>[
 					'fluctaution',
 					'fluxuation',
+					'fluctuatoin',
+					'fluctuaton',
 				],
 				'fluctuational'=>[
 					'fluctautional',
 				],
 				'fluctuations'=>[
 					'fluxuations',
+					'fluctautions',
+					'fluctuatoins',
+					'fluctuatons',
 				],
 				'fludarabine'=>[
 					'fudarabine',
 				],
 				'fluency'=>[
 					'fluensy',
+					'fleuncy',
 				],
 				'fluent'=>[
 					'fluant',
 					'fuent',
+					'fleunt',
 				],
 				'fluently'=>[
 					'fluentally',
 					'fluentaly',
 					'fluentely',
 					'fluentlly',
+					'fleuntly',
+				],
+				'flues'=>[
+					'fleus',
 				],
 				'fluff'=>[
 					'flufff',
@@ -4959,10 +7887,12 @@
 				'fluffier'=>[
 					'flufffier',
 					'flufier',
+					'fluffeir',
 				],
 				'fluffiest'=>[
 					'flufffiest',
 					'flufiest',
+					'fluffeist',
 				],
 				'fluffily'=>[
 					'flufffily',
@@ -4985,19 +7915,56 @@
 				'fluffy'=>[
 					'flufffy',
 				],
+				'fluid'=>[
+					'fliud',
+				],
+				'fluidextract'=>[
+					'fliudextract',
+					'fluidxtract',
+					'fluiextract',
+				],
+				'fluidics'=>[
+					'fliudics',
+				],
+				'fluidity'=>[
+					'fliudity',
+				],
+				'fluidize'=>[
+					'fliudize',
+				],
+				'fluidized'=>[
+					'fliudized',
+				],
 				'fluidly'=>[
 					'fluidally',
 					'fluidaly',
 					'fluidely',
 					'fluidlly',
+					'fliudly',
 				],
 				'fluidness'=>[
 					'fluidnes',
 					'fluidnesss',
+					'fliudness',
 				],
 				'fluidnesses'=>[
 					'fluidneses',
 					'fluidnessses',
+				],
+				'fluidram'=>[
+					'fliudram',
+				],
+				'fluidrams'=>[
+					'fliudrams',
+				],
+				'fluids'=>[
+					'fliuds',
+				],
+				'flukier'=>[
+					'flukeir',
+				],
+				'flukiest'=>[
+					'flukeist',
 				],
 				'flumethrin'=>[
 					'flumenthrin',
@@ -5006,11 +7973,14 @@
 					'flumneries',
 					'flumeries',
 					'flummmeries',
+					'flummaries',
+					'flummereis',
 				],
 				'flummery'=>[
 					'flumnery',
 					'flumery',
 					'flummmery',
+					'flummary',
 				],
 				'flummox'=>[
 					'flumnox',
@@ -5030,6 +8000,12 @@
 					'flummmoxing',
 					'flumoxing',
 				],
+				'flunkie'=>[
+					'flunkei',
+				],
+				'flunkies'=>[
+					'flunkeis',
+				],
 				'fluor'=>[
 					'flor',
 				],
@@ -5039,6 +8015,7 @@
 				],
 				'fluorene'=>[
 					'florene',
+					'flourene',
 				],
 				'fluorenes'=>[
 					'florenes',
@@ -5048,9 +8025,13 @@
 					'fluorece',
 					'fluorecse',
 					'fluorese',
+					'flouresce',
 				],
 				'fluoresced'=>[
 					'floresced',
+					'flouresced',
+					'fluoreced',
+					'fluoresed',
 				],
 				'fluorescein'=>[
 					'florescein',
@@ -5058,6 +8039,7 @@
 					'fluorecsein',
 					'fluorescien',
 					'fluoresein',
+					'flourescein',
 				],
 				'fluoresceinated'=>[
 					'fluorescinated',
@@ -5068,6 +8050,7 @@
 					'fluorecseins',
 					'fluoresciens',
 					'fluoreseins',
+					'flouresceins',
 				],
 				'fluorescence'=>[
 					'flourescence',
@@ -5102,30 +8085,44 @@
 				],
 				'fluoresces'=>[
 					'floresces',
+					'flouresces',
+					'fluoreces',
+					'fluoreses',
 				],
 				'fluorescing'=>[
 					'florescing',
+					'flourescing',
+					'fluorecing',
+					'fluoresing',
 				],
 				'fluoric'=>[
 					'floric',
+					'flouric',
 				],
 				'fluorid'=>[
 					'florid',
 				],
 				'fluoridate'=>[
 					'floridate',
+					'flouridate',
 				],
 				'fluoridated'=>[
 					'floridated',
+					'flouridated',
 				],
 				'fluoridates'=>[
 					'floridates',
+					'flouridates',
 				],
 				'fluoridating'=>[
 					'floridating',
+					'flouridating',
 				],
 				'fluoridation'=>[
 					'floridation',
+					'flouridation',
+					'fluoridatoin',
+					'fluoridaton',
 				],
 				'fluoridations'=>[
 					'floridations',
@@ -5136,6 +8133,7 @@
 				],
 				'fluorides'=>[
 					'florides',
+					'flourides',
 				],
 				'fluorids'=>[
 					'florids',
@@ -5161,6 +8159,7 @@
 				'fluorinate'=>[
 					'florinate',
 					'fluorinite',
+					'flourinate',
 				],
 				'fluorinated'=>[
 					'florinated',
@@ -5174,6 +8173,9 @@
 				'fluorination'=>[
 					'florination',
 					'fluorinition',
+					'flourination',
+					'fluorinatoin',
+					'fluorinaton',
 				],
 				'fluorinations'=>[
 					'florinations',
@@ -5191,15 +8193,18 @@
 				],
 				'fluorite'=>[
 					'florite',
+					'flourite',
 				],
 				'fluorites'=>[
 					'florites',
 				],
 				'fluorocarbon'=>[
 					'florocarbon',
+					'flourocarbon',
 				],
 				'fluorocarbons'=>[
 					'florocarbons',
+					'flourocarbons',
 				],
 				'fluorochrome'=>[
 					'florochrome',
@@ -5228,6 +8233,7 @@
 				],
 				'fluorometer'=>[
 					'florometer',
+					'flourometer',
 				],
 				'fluorometers'=>[
 					'florometers',
@@ -5259,6 +8265,7 @@
 					'fluorocope',
 					'fluorocsope',
 					'fluorosope',
+					'flouroscope',
 				],
 				'fluoroscoped'=>[
 					'floroscoped',
@@ -5271,15 +8278,21 @@
 					'fluorocopes',
 					'fluorocsopes',
 					'fluorosopes',
+					'flouroscopes',
 				],
 				'fluoroscopic'=>[
 					'floroscopic',
 					'fluorocopic',
 					'fluorocsopic',
 					'fluorosopic',
+					'flouroscopic',
 				],
 				'fluoroscopies'=>[
 					'floroscopies',
+					'flouroscopies',
+					'fluorocopies',
+					'fluoroscopeis',
+					'fluorosopies',
 				],
 				'fluoroscoping'=>[
 					'floroscoping',
@@ -5306,6 +8319,7 @@
 				],
 				'fluorosis'=>[
 					'florosis',
+					'flourosis',
 				],
 				'fluorotic'=>[
 					'florotic',
@@ -5323,9 +8337,11 @@
 				'fluorspar'=>[
 					'florspar',
 					'fluorsper',
+					'flourspar',
 				],
 				'fluorspars'=>[
 					'florspars',
+					'flourspars',
 				],
 				'fluoxetine'=>[
 					'floxetine',
@@ -5348,9 +8364,11 @@
 				],
 				'flurried'=>[
 					'flurrried',
+					'flurreid',
 				],
 				'flurries'=>[
 					'flurrries',
+					'flurreis',
 				],
 				'flurry'=>[
 					'flury',
@@ -5359,15 +8377,23 @@
 				'flurrying'=>[
 					'flurrrying',
 				],
+				'flushed'=>[
+					'flshed',
+					'fluhed',
+				],
 				'flushness'=>[
 					'flushnes',
 					'flushnesss',
 				],
 				'flustered'=>[
 					'fuftered',
+					'flusterd',
 				],
 				'fluticasone'=>[
 					'flucticasone',
+				],
+				'fluting'=>[
+					'flting',
 				],
 				'flutter'=>[
 					'fluttter',
@@ -5375,9 +8401,13 @@
 				'flutterboard'=>[
 					'fluterboard',
 					'fluttterboard',
+					'flutteboard',
+					'flutterbaord',
+					'flutteroard',
 				],
 				'fluttered'=>[
 					'flutttered',
+					'flutterd',
 				],
 				'fluttering'=>[
 					'flutttering',
@@ -5393,12 +8423,79 @@
 				'fluvastatin'=>[
 					'fulvastatin',
 				],
+				'fluvial'=>[
+					'fluial',
+					'fluvail',
+					'flvial',
+				],
+				'fluviatile'=>[
+					'fluvaitile',
+				],
+				'fluviomarine'=>[
+					'fluvoimarine',
+				],
+				'fluxion'=>[
+					'fluxoin',
+				],
+				'fluxions'=>[
+					'fluxoins',
+				],
 				'fly'=>[
 					'fly fly',
 					'fly fly fly',
 				],
 				'flyable'=>[
 					'flyible',
+				],
+				'flyaway'=>[
+					'flaway',
+				],
+				'flyback'=>[
+					'flback',
+					'flyack',
+				],
+				'flyblow'=>[
+					'flblow',
+					'flylow',
+				],
+				'flyblown'=>[
+					'flblown',
+					'flylown',
+				],
+				'flyboat'=>[
+					'flboat',
+					'flybaot',
+					'flyoat',
+				],
+				'flycatcher'=>[
+					'flcatcher',
+					'flyatcher',
+				],
+				'flyleaf'=>[
+					'flleaf',
+					'flyeaf',
+					'flylaef',
+				],
+				'flyleaves'=>[
+					'flleaves',
+					'flyeaves',
+					'flylaeves',
+				],
+				'flyover'=>[
+					'flover',
+					'flyver',
+				],
+				'flypaper'=>[
+					'flpaper',
+					'flyaper',
+				],
+				'flypapers'=>[
+					'flpapers',
+					'flyapers',
+				],
+				'flypast'=>[
+					'flpast',
+					'flyast',
 				],
 				'flysch'=>[
 					'flych',
@@ -5408,10 +8505,18 @@
 				'flysheet'=>[
 					'flysheeet',
 					'flyshet',
+					'flsheet',
+					'flyheet',
 				],
 				'flysheets'=>[
 					'flysheeets',
 					'flyshets',
+					'flsheets',
+					'flyheets',
+				],
+				'flyspeck'=>[
+					'flspeck',
+					'flypeck',
 				],
 				'flyswatter'=>[
 					'flyswattter',
@@ -5420,23 +8525,83 @@
 					'flyswaters',
 					'flyswattters',
 				],
+				'flytrap'=>[
+					'fltrap',
+					'flyrap',
+				],
+				'flytraps'=>[
+					'fltraps',
+					'flyraps',
+				],
+				'flyways'=>[
+					'flways',
+					'flyays',
+				],
 				'flyweight'=>[
 					'flywieght',
+					'flweight',
+					'flyeight',
 				],
 				'flyweights'=>[
 					'flywieghts',
+					'flweights',
+					'flyeights',
 				],
 				'flywheel'=>[
 					'flywheeel',
 					'flywhel',
+					'flwheel',
+					'flyheel',
 				],
 				'flywheels'=>[
 					'flywheeels',
 					'flywhels',
+					'flwheels',
+					'flyheels',
+				],
+				'foaled'=>[
+					'faoled',
+				],
+				'foaling'=>[
+					'faoling',
+				],
+				'foals'=>[
+					'faols',
+				],
+				'foamed'=>[
+					'faomed',
+				],
+				'foamflower'=>[
+					'faomflower',
+					'foaflower',
+					'foamlower',
+				],
+				'foamflowers'=>[
+					'faomflowers',
+					'foaflowers',
+					'foamlowers',
+				],
+				'foamier'=>[
+					'faomier',
+					'foameir',
+				],
+				'foamiest'=>[
+					'faomiest',
+					'foameist',
 				],
 				'foaminess'=>[
 					'foamines',
 					'foaminesss',
+					'faominess',
+				],
+				'foaming'=>[
+					'faoming',
+				],
+				'foams'=>[
+					'faoms',
+				],
+				'foamy'=>[
+					'faomy',
 				],
 				'fobbed'=>[
 					'fobed',
@@ -5450,6 +8615,7 @@
 					'focacia',
 					'foccacia',
 					'focacccia',
+					'focaccai',
 				],
 				'focaccias'=>[
 					'focacias',
@@ -5480,15 +8646,43 @@
 					'foddders',
 					'foders',
 				],
+				'foehn'=>[
+					'feohn',
+				],
+				'foehns'=>[
+					'feohns',
+				],
+				'foeman'=>[
+					'feoman',
+				],
+				'foemen'=>[
+					'feomen',
+				],
+				'foetal'=>[
+					'feotal',
+				],
+				'foetus'=>[
+					'feotus',
+				],
+				'foetuses'=>[
+					'feotuses',
+				],
+				'fogbound'=>[
+					'fobound',
+					'fogbuond',
+					'fogound',
+				],
 				'fogged'=>[
 					'foggged',
 				],
 				'foggier'=>[
 					'fogggier',
+					'foggeir',
 				],
 				'foggiest'=>[
 					'fogggiest',
 					'fogiest',
+					'foggeist',
 				],
 				'foggily'=>[
 					'fogggily',
@@ -5513,8 +8707,38 @@
 				'foggy'=>[
 					'fogggy',
 				],
+				'foghorn'=>[
+					'fogorn',
+					'fohorn',
+				],
+				'foghorns'=>[
+					'fogorns',
+					'fohorns',
+				],
+				'fogies'=>[
+					'fogeis',
+				],
 				'foible'=>[
 					'foable',
+					'fioble',
+				],
+				'foibles'=>[
+					'fiobles',
+				],
+				'foiled'=>[
+					'fioled',
+				],
+				'foiling'=>[
+					'fioling',
+				],
+				'foilist'=>[
+					'fiolist',
+				],
+				'foils'=>[
+					'fiols',
+				],
+				'foilsman'=>[
+					'fiolsman',
 				],
 				'foined'=>[
 					'foinid',
@@ -5522,15 +8746,102 @@
 				'foining'=>[
 					'foinang',
 				],
+				'foison'=>[
+					'fioson',
+				],
+				'foist'=>[
+					'fiost',
+				],
+				'foisted'=>[
+					'fiosted',
+				],
+				'foisting'=>[
+					'fiosting',
+				],
+				'foists'=>[
+					'fiosts',
+				],
+				'foldable'=>[
+					'foldible',
+				],
+				'foldaway'=>[
+					'folaway',
+					'foldway',
+				],
+				'foldboat'=>[
+					'foldbaot',
+					'foldoat',
+				],
+				'foldout'=>[
+					'folduot',
+				],
+				'foldouts'=>[
+					'folduots',
+					'folduts',
+					'folouts',
+				],
+				'folia'=>[
+					'folai',
+				],
+				'foliaceous'=>[
+					'folaiceous',
+					'foliaceuos',
+					'foliacoeus',
+				],
 				'foliage'=>[
 					'foilage',
+					'folaige',
 				],
 				'foliar'=>[
 					'folar',
 					'folier',
+					'folair',
+				],
+				'foliate'=>[
+					'folaite',
+				],
+				'foliated'=>[
+					'folaited',
+				],
+				'foliates'=>[
+					'folaites',
+				],
+				'foliating'=>[
+					'folaiting',
+				],
+				'foliation'=>[
+					'folaition',
+					'foliatoin',
+					'foliaton',
+				],
+				'foliations'=>[
+					'folaitions',
+					'foliatoins',
+					'foliatons',
+				],
+				'folio'=>[
+					'foloi',
+				],
+				'foliolate'=>[
+					'foloilate',
+				],
+				'foliole'=>[
+					'foloile',
+				],
+				'folios'=>[
+					'folois',
+				],
+				'foliose'=>[
+					'foloise',
 				],
 				'folious'=>[
 					'folous',
+				],
+				'folium'=>[
+					'foluim',
+				],
+				'foliums'=>[
+					'foluims',
 				],
 				'folk group'=>[
 					'folkgroup',
@@ -5547,16 +8858,54 @@
 				],
 				'folklore'=>[
 					'falklore',
+					'folkore',
+					'follore',
 				],
 				'folkmoot'=>[
 					'folkmooot',
+					'folkoot',
+					'folmoot',
+				],
+				'folksier'=>[
+					'folkseir',
+				],
+				'folksiest'=>[
+					'folkseist',
 				],
 				'folksiness'=>[
 					'folksines',
 					'folksinesss',
 				],
+				'folksinger'=>[
+					'folkinger',
+					'folsinger',
+				],
+				'folksingers'=>[
+					'folkingers',
+					'folsingers',
+				],
+				'folksinging'=>[
+					'folkinging',
+					'folsinging',
+				],
+				'folksong'=>[
+					'folkong',
+					'folsong',
+				],
 				'folksy'=>[
 					'folkcy',
+				],
+				'folktale'=>[
+					'folkale',
+					'foltale',
+				],
+				'folktales'=>[
+					'folkales',
+					'foltales',
+				],
+				'folkways'=>[
+					'folkays',
+					'folways',
 				],
 				'follicle'=>[
 					'folicle',
@@ -5583,6 +8932,7 @@
 				],
 				'follies'=>[
 					'folllies',
+					'folleis',
 				],
 				'follistatin'=>[
 					'follostatin',
@@ -5650,6 +9000,10 @@
 				'foment'=>[
 					'fomant',
 				],
+				'fomentation'=>[
+					'fomentatoin',
+					'fomentaton',
+				],
 				'fondant'=>[
 					'fondent',
 				],
@@ -5659,6 +9013,12 @@
 				'fondness'=>[
 					'fondnes',
 					'fondnesss',
+				],
+				'fondue'=>[
+					'fondeu',
+				],
+				'fondues'=>[
+					'fondeus',
 				],
 				'fontanelle'=>[
 					'fontanele',
@@ -5685,6 +9045,7 @@
 				],
 				'foodies'=>[
 					'fooodies',
+					'foodeis',
 				],
 				'foods'=>[
 					'fooods',
@@ -5694,12 +9055,16 @@
 					'foodstuf',
 					'foodstufff',
 					'fooodstuff',
+					'foodtuff',
+					'foostuff',
 				],
 				'foodstuffs'=>[
 					'fodstuffs',
 					'foodstufffs',
 					'foodstufs',
 					'fooodstuffs',
+					'foodtuffs',
+					'foostuffs',
 				],
 				'foofaraw'=>[
 					'fofaraw',
@@ -5714,22 +9079,28 @@
 				'fooleries'=>[
 					'foleries',
 					'foooleries',
+					'foolaries',
+					'foolereis',
 				],
 				'foolery'=>[
 					'folery',
 					'fooolery',
+					'foolary',
 				],
 				'foolhardier'=>[
 					'folhardier',
 					'fooolhardier',
+					'foolhardeir',
 				],
 				'foolhardiest'=>[
 					'folhardiest',
 					'fooolhardiest',
+					'foolhardeist',
 				],
 				'foolhardily'=>[
 					'folhardily',
 					'fooolhardily',
+					'foolhardly',
 				],
 				'foolhardiness'=>[
 					'foolhardiniss',
@@ -5770,6 +9141,8 @@
 					'foolprof',
 					'foolprooof',
 					'fooolproof',
+					'foolroof',
+					'fooproof',
 				],
 				'fools'=>[
 					'foools',
@@ -5802,6 +9175,7 @@
 					'foootball',
 					'footballl',
 					'fotball',
+					'fooball',
 				],
 				'footballer'=>[
 					'foootballer',
@@ -5826,14 +9200,21 @@
 					'footballls',
 					'footbals',
 					'fotballs',
+					'fooballs',
 				],
 				'footboard'=>[
 					'foootboard',
 					'fotboard',
+					'fooboard',
+					'footbaord',
+					'footoard',
 				],
 				'footboards'=>[
 					'foootboards',
 					'fotboards',
+					'fooboards',
+					'footbaords',
+					'footoards',
 				],
 				'footboy'=>[
 					'foootboy',
@@ -5842,14 +9223,20 @@
 				'footbridge'=>[
 					'foootbridge',
 					'fotbridge',
+					'foobridge',
+					'footridge',
 				],
 				'footbridges'=>[
 					'foootbridges',
 					'fotbridges',
+					'foobridges',
+					'footridges',
 				],
 				'footcloth'=>[
 					'foootcloth',
 					'fotcloth',
+					'foocloth',
+					'footloth',
 				],
 				'footdragger'=>[
 					'footdrager',
@@ -5874,41 +9261,54 @@
 					'footfal',
 					'footfalll',
 					'fotfall',
+					'foofall',
 				],
 				'footfalls'=>[
 					'foootfalls',
 					'footfallls',
 					'footfals',
 					'fotfalls',
+					'foofalls',
 				],
 				'footgear'=>[
 					'footgeer',
 					'foootgear',
 					'fotgear',
+					'foogear',
+					'footgaer',
 				],
 				'foothill'=>[
 					'foothil',
 					'fooothill',
 					'foothilll',
 					'fothill',
+					'foohill',
+					'footill',
 				],
 				'foothills'=>[
 					'fooothills',
 					'foothillls',
 					'foothils',
 					'fothills',
+					'foohills',
+					'footills',
 				],
 				'foothold'=>[
 					'fooothold',
 					'fothold',
+					'foohold',
+					'footold',
 				],
 				'footholds'=>[
 					'foootholds',
 					'fotholds',
+					'fooholds',
+					'footolds',
 				],
 				'footie'=>[
 					'foootie',
 					'fotie',
+					'footei',
 				],
 				'footing'=>[
 					'foooting',
@@ -5939,6 +9339,7 @@
 					'footlesssly',
 					'foootlessly',
 					'fotlessly',
+					'footlessely',
 				],
 				'footlessness'=>[
 					'footlesness',
@@ -5951,10 +9352,14 @@
 				'footlight'=>[
 					'foootlight',
 					'fotlight',
+					'foolight',
+					'footight',
 				],
 				'footlights'=>[
 					'foootlights',
 					'fotlights',
+					'foolights',
+					'footights',
 				],
 				'footling'=>[
 					'foootling',
@@ -5967,16 +9372,22 @@
 				'footlocker'=>[
 					'foootlocker',
 					'fotlocker',
+					'foolocker',
+					'footocker',
 				],
 				'footlockers'=>[
 					'foootlockers',
 					'fotlockers',
+					'foolockers',
+					'footockers',
 				],
 				'footloose'=>[
 					'foootloose',
 					'footlooose',
 					'footlose',
 					'fotloose',
+					'fooloose',
+					'footoose',
 				],
 				'footman'=>[
 					'foootman',
@@ -5985,10 +9396,14 @@
 				'footmark'=>[
 					'foootmark',
 					'fotmark',
+					'foomark',
+					'footark',
 				],
 				'footmarks'=>[
 					'foootmarks',
 					'fotmarks',
+					'foomarks',
+					'footarks',
 				],
 				'footmen'=>[
 					'foootmen',
@@ -5998,14 +9413,20 @@
 					'footenote',
 					'foootnote',
 					'fotnote',
+					'foonote',
+					'footote',
 				],
 				'footnoted'=>[
 					'foootnoted',
 					'fotnoted',
+					'foonoted',
+					'foototed',
 				],
 				'footnotes'=>[
 					'foootnotes',
 					'fotnotes',
+					'foonotes',
+					'foototes',
 				],
 				'footnoting'=>[
 					'foootnoting',
@@ -6014,6 +9435,7 @@
 				'footpace'=>[
 					'foootpace',
 					'fotpace',
+					'foopace',
 				],
 				'footpad'=>[
 					'foootpad',
@@ -6022,38 +9444,55 @@
 				'footpads'=>[
 					'foootpads',
 					'fotpads',
+					'foopads',
+					'footads',
 				],
 				'footpath'=>[
 					'foootpath',
 					'fotpath',
+					'foopath',
+					'footath',
 				],
 				'footpaths'=>[
 					'foootpaths',
 					'fotpaths',
+					'foopaths',
+					'footaths',
 				],
 				'footplate'=>[
 					'foootplate',
 					'fotplate',
+					'fooplate',
+					'footlate',
 				],
 				'footplates'=>[
 					'foootplates',
 					'fotplates',
+					'fooplates',
+					'footlates',
 				],
 				'footprint'=>[
 					'foootprint',
 					'fotprint',
+					'fooprint',
+					'footrint',
 				],
 				'footprints'=>[
 					'foootprints',
 					'fotprints',
+					'fooprints',
+					'footrints',
 				],
 				'footrace'=>[
 					'foootrace',
 					'fotrace',
+					'foorace',
 				],
 				'footraces'=>[
 					'foootraces',
 					'fotraces',
+					'fooraces',
+					'footaces',
 				],
 				'footrest'=>[
 					'foootrest',
@@ -6062,10 +9501,13 @@
 				'footrests'=>[
 					'foootrests',
 					'fotrests',
+					'foorests',
 				],
 				'footrope'=>[
 					'foootrope',
 					'fotrope',
+					'foorope',
+					'footope',
 				],
 				'foots'=>[
 					'fooots',
@@ -6079,6 +9521,7 @@
 				'footsies'=>[
 					'foootsies',
 					'fotsies',
+					'footseis',
 				],
 				'footslog'=>[
 					'foootslog',
@@ -6109,6 +9552,8 @@
 				'footsore'=>[
 					'foootsore',
 					'fotsore',
+					'foosore',
+					'footore',
 				],
 				'footsoreness'=>[
 					'footsorenes',
@@ -6119,36 +9564,50 @@
 				'footstalk'=>[
 					'foootstalk',
 					'fotstalk',
+					'foostalk',
+					'foottalk',
 				],
 				'footstall'=>[
 					'foootstall',
 					'footstal',
 					'footstalll',
 					'fotstall',
+					'foostall',
+					'foottall',
 				],
 				'footstalls'=>[
 					'foootstalls',
 					'footstallls',
 					'footstals',
 					'fotstalls',
+					'foostalls',
+					'foottalls',
 				],
 				'footstep'=>[
 					'foootstep',
 					'fotstep',
+					'foostep',
+					'foottep',
 				],
 				'footsteps'=>[
 					'foootsteps',
 					'fotsteps',
+					'foosteps',
+					'footteps',
 				],
 				'footstone'=>[
 					'foootstone',
 					'fotstone',
+					'foostone',
+					'foottone',
 				],
 				'footstool'=>[
 					'foootstool',
 					'footstol',
 					'footstoool',
 					'fotstool',
+					'foostool',
+					'foottool',
 				],
 				'footstools'=>[
 					'foootstools',
@@ -6164,12 +9623,14 @@
 					'foootwall',
 					'footwalll',
 					'fotwall',
+					'foowall',
 				],
 				'footwalls'=>[
 					'foootwalls',
 					'footwallls',
 					'footwals',
 					'fotwalls',
+					'foowalls',
 				],
 				'footway'=>[
 					'foootway',
@@ -6181,14 +9642,20 @@
 					'footwer',
 					'foootwear',
 					'fotwear',
+					'footwaer',
+					'foowear',
 				],
 				'footwork'=>[
 					'foootwork',
 					'fotwork',
+					'footork',
+					'foowork',
 				],
 				'footworn'=>[
 					'foootworn',
 					'fotworn',
+					'footorn',
+					'fooworn',
 				],
 				'footy'=>[
 					'foooty',
@@ -6200,6 +9667,7 @@
 				'foppery'=>[
 					'fopery',
 					'fopppery',
+					'foppary',
 				],
 				'foppish'=>[
 					'fopish',
@@ -6254,6 +9722,7 @@
 				],
 				'foramen'=>[
 					'foamen',
+					'formen',
 				],
 				'foramens'=>[
 					'foamens',
@@ -6319,6 +9788,7 @@
 					'forbode',
 					'forebade',
 					'fobade',
+					'forade',
 				],
 				'forbare'=>[
 					'fobare',
@@ -6326,24 +9796,36 @@
 				'forbear'=>[
 					'fobear',
 					'forbeer',
+					'forbaer',
+					'forear',
 				],
 				'forbearance'=>[
 					'fobearance',
 					'forbearence',
 					'forberance',
 					'forebearance',
+					'forbaerance',
 				],
 				'forbearances'=>[
 					'fobearances',
+				],
+				'forbearer'=>[
+					'fobearer',
+					'forbaerer',
+					'forearer',
 				],
 				'forbearers'=>[
 					'fobearers',
 				],
 				'forbearing'=>[
 					'fobearing',
+					'forbaering',
+					'forearing',
 				],
 				'forbears'=>[
 					'fobears',
+					'forbaers',
+					'forears',
 				],
 				'forbid'=>[
 					'forebid',
@@ -6362,6 +9844,7 @@
 					'fobiddances',
 					'forbidances',
 					'forbidddances',
+					'forbiddences',
 				],
 				'forbidden'=>[
 					'forebidden',
@@ -6376,6 +9859,7 @@
 				'forbidding'=>[
 					'fobidding',
 					'forbiddding',
+					'foridding',
 				],
 				'forbiddingly'=>[
 					'fobiddingly',
@@ -6388,6 +9872,7 @@
 				],
 				'forbids'=>[
 					'fobids',
+					'forids',
 				],
 				'forbode'=>[
 					'fobode',
@@ -6400,9 +9885,11 @@
 				],
 				'forbore'=>[
 					'fobore',
+					'forore',
 				],
 				'forborne'=>[
 					'foborne',
+					'fororne',
 				],
 				'forbs'=>[
 					'fobs',
@@ -6433,6 +9920,8 @@
 					'focefully',
 					'forcefullly',
 					'forcefuly',
+					'forceully',
+					'forcfully',
 				],
 				'forcefulness'=>[
 					'focefulness',
@@ -6448,9 +9937,15 @@
 				],
 				'forcemeat'=>[
 					'focemeat',
+					'forceeat',
+					'forcemaet',
+					'forcmeat',
 				],
 				'forcemeats'=>[
 					'focemeats',
+					'forceeats',
+					'forcemaets',
+					'forcmeats',
 				],
 				'forceps'=>[
 					'foreceps',
@@ -6481,12 +9976,18 @@
 				'forciblenesses'=>[
 					'fociblenesses',
 				],
+				'forcibly'=>[
+					'forcably',
+				],
 				'forcing'=>[
 					'focing',
 					'forciug',
 				],
 				'forcurse'=>[
 					'forecurse',
+				],
+				'fordable'=>[
+					'fordible',
 				],
 				'forded'=>[
 					'foded',
@@ -6512,12 +10013,24 @@
 				'forearm'=>[
 					'foearm',
 					'forerm',
+					'foraerm',
+				],
+				'forearmed'=>[
+					'foraermed',
+					'forarmed',
+					'forermed',
 				],
 				'forearming'=>[
 					'foearming',
+					'foraerming',
+					'forarming',
+					'forerming',
 				],
 				'forearms'=>[
 					'foearms',
+					'foraerms',
+					'forarms',
+					'forerms',
 				],
 				'forebay'=>[
 					'foebay',
@@ -6528,6 +10041,8 @@
 				'forebear'=>[
 					'foebear',
 					'forebeer',
+					'forebaer',
+					'foreear',
 				],
 				'forebode'=>[
 					'forbode',
@@ -6553,9 +10068,15 @@
 				],
 				'forebrain'=>[
 					'foebrain',
+					'forbrain',
+					'forebrian',
+					'forerain',
 				],
 				'forebrains'=>[
 					'foebrains',
+					'forbrains',
+					'forebrians',
+					'forerains',
 				],
 				'foreby'=>[
 					'foeby',
@@ -6594,9 +10115,16 @@
 				],
 				'forecastle'=>[
 					'foecastle',
+					'forcastle',
+					'foreastle',
 				],
 				'forecastles'=>[
 					'foecastles',
+					'forcastles',
+					'foreastles',
+				],
+				'forecasts'=>[
+					'foreasts',
 				],
 				'forecheck'=>[
 					'foecheck',
@@ -6619,34 +10147,79 @@
 				'foreclose'=>[
 					'forclose',
 					'foeclose',
+					'forelose',
 				],
 				'foreclosed'=>[
 					'foeclosed',
+					'forelosed',
 				],
 				'forecloses'=>[
 					'foecloses',
+					'foreloses',
 				],
 				'foreclosing'=>[
 					'foeclosing',
+					'forelosing',
 				],
 				'foreclosure'=>[
 					'forclosure',
 					'foeclosure',
+					'forelosure',
 				],
 				'foreclosures'=>[
 					'foeclosures',
 				],
+				'foreconscious'=>[
+					'forconscious',
+					'foreconcious',
+					'foreconsciuos',
+					'foreconscoius',
+					'foreconscous',
+					'foreconsious',
+					'foreonscious',
+				],
+				'forecourse'=>[
+					'forcourse',
+					'forecuorse',
+					'foreourse',
+				],
 				'forecourt'=>[
 					'foecourt',
+					'forcourt',
+					'forecuort',
+					'foreourt',
 				],
 				'forecourts'=>[
 					'foecourts',
+					'forcourts',
+					'forecuorts',
+					'foreourts',
+				],
+				'foredate'=>[
+					'fordate',
+					'foreate',
+				],
+				'foredated'=>[
+					'fordated',
+					'foreated',
+				],
+				'foredates'=>[
+					'fordates',
+					'foreates',
 				],
 				'foredating'=>[
 					'foedating',
+					'fordating',
+					'foreating',
 				],
 				'foredeck'=>[
 					'foedeck',
+					'fordeck',
+					'foreeck',
+				],
+				'foredecks'=>[
+					'fordecks',
+					'foreecks',
 				],
 				'foredid'=>[
 					'foedid',
@@ -6664,11 +10237,15 @@
 					'foedoom',
 					'foredom',
 					'foredooom',
+					'fordoom',
+					'foreoom',
 				],
 				'foredoomed'=>[
 					'foedoomed',
 					'foredomed',
 					'foredooomed',
+					'fordoomed',
+					'foreoomed',
 				],
 				'foredooming'=>[
 					'foedooming',
@@ -6684,9 +10261,11 @@
 				],
 				'forefather'=>[
 					'foefather',
+					'forfather',
 				],
 				'forefathers'=>[
 					'foefathers',
+					'forfathers',
 				],
 				'forefeel'=>[
 					'foefeel',
@@ -6698,12 +10277,15 @@
 					'foefeet',
 					'forefeeet',
 					'forefet',
+					'foreeet',
+					'forfeet',
 				],
 				'forefelt'=>[
 					'foefelt',
 				],
 				'forefend'=>[
 					'foefend',
+					'foreend',
 				],
 				'forefended'=>[
 					'foefended',
@@ -6713,60 +10295,95 @@
 				],
 				'forefinger'=>[
 					'foefinger',
+					'foreinger',
+					'forfinger',
 				],
 				'forefingers'=>[
 					'foefingers',
+					'foreingers',
+					'forfingers',
 				],
 				'forefoot'=>[
 					'foefoot',
 					'forefooot',
 					'forefot',
+					'foreoot',
+					'forfoot',
 				],
 				'forefront'=>[
 					'foefront',
+					'foreront',
+					'forfront',
 				],
 				'forefronts'=>[
 					'foefronts',
+					'foreronts',
+					'forfronts',
 				],
 				'foregather'=>[
 					'foegather',
 				],
 				'foregathered'=>[
 					'foegathered',
+					'foreathered',
+					'foregatherd',
 				],
 				'foregathering'=>[
 					'foegathering',
+					'foreathering',
 				],
 				'foregathers'=>[
 					'foegathers',
+				],
+				'foreglimpse'=>[
+					'forelimpse',
+					'forglimpse',
 				],
 				'forego'=>[
 					'foego',
 				],
 				'foregoer'=>[
 					'foegoer',
+					'foregeor',
 				],
 				'foregoes'=>[
 					'foegoes',
+					'foregeos',
+					'foreoes',
 				],
 				'foregoing'=>[
 					'forgoing',
 					'foegoing',
+					'foregiong',
+					'foreoing',
 				],
 				'foregone'=>[
 					'foegone',
+					'foreone',
 				],
 				'foreground'=>[
 					'foeground',
+					'foregruond',
+					'foreround',
+					'forground',
 				],
 				'foregrounded'=>[
 					'foegrounded',
+					'foregruonded',
+					'forerounded',
+					'forgrounded',
 				],
 				'foregrounding'=>[
 					'foegrounding',
+					'foregruonding',
+					'forerounding',
+					'forgrounding',
 				],
 				'foregrounds'=>[
 					'foegrounds',
+					'foregruonds',
+					'forerounds',
+					'forgrounds',
 				],
 				'foregut'=>[
 					'foegut',
@@ -6776,9 +10393,12 @@
 				],
 				'forehand'=>[
 					'foehand',
+					'forhand',
 				],
 				'forehanded'=>[
 					'foehanded',
+					'foreanded',
+					'forhanded',
 				],
 				'forehandedly'=>[
 					'foehandedly',
@@ -6790,12 +10410,23 @@
 				'forehandedness'=>[
 					'foehandedness',
 				],
+				'forehands'=>[
+					'foreands',
+					'forhands',
+				],
 				'forehead'=>[
 					'forhead',
 					'foehead',
 					'forehed',
 					'foreheacl',
 					'foreliead',
+					'foreead',
+					'forehaed',
+				],
+				'foreheads'=>[
+					'foreeads',
+					'forehaeds',
+					'forheads',
 				],
 				'forehoof'=>[
 					'foehoof',
@@ -6840,6 +10471,7 @@
 				],
 				'forejudge'=>[
 					'foejudge',
+					'foreudge',
 				],
 				'forejudged'=>[
 					'foejudged',
@@ -6852,19 +10484,27 @@
 				],
 				'foreknew'=>[
 					'foeknew',
+					'forenew',
+					'forknew',
 				],
 				'foreknow'=>[
 					'foeknow',
 					'forekow',
+					'forenow',
+					'forknow',
 				],
 				'foreknowing'=>[
 					'foeknowing',
 					'forekowing',
+					'forenowing',
+					'forknowing',
 				],
 				'foreknowledge'=>[
 					'foeknowledge',
 					'foreknowlege',
 					'forekowledge',
+					'forenowledge',
+					'forknowledge',
 				],
 				'foreknowledges'=>[
 					'foeknowledges',
@@ -6874,30 +10514,50 @@
 				'foreknown'=>[
 					'foeknown',
 					'forekown',
+					'forenown',
+					'forknown',
 				],
 				'foreknows'=>[
 					'forekows',
+					'forenows',
+					'forknows',
 				],
 				'foreladies'=>[
 					'foeladies',
+					'foreadies',
+					'foreladeis',
+					'forladies',
 				],
 				'forelady'=>[
 					'foelady',
+					'foready',
+					'forlady',
 				],
 				'foreland'=>[
 					'foeland',
+					'forland',
 				],
 				'foreleg'=>[
 					'foeleg',
 				],
 				'forelegs'=>[
 					'foelegs',
+					'foreegs',
+					'forlegs',
 				],
 				'forelimb'=>[
 					'foelimb',
+					'foreimb',
+					'forlimb',
+				],
+				'forelimbs'=>[
+					'foreimbs',
+					'forlimbs',
 				],
 				'forelock'=>[
 					'foelock',
+					'foreock',
+					'forlock',
 				],
 				'forelocked'=>[
 					'foelocked',
@@ -6907,6 +10567,8 @@
 				],
 				'forelocks'=>[
 					'foelocks',
+					'foreocks',
+					'forlocks',
 				],
 				'foreman'=>[
 					'foeman',
@@ -6919,6 +10581,7 @@
 				],
 				'foremast'=>[
 					'foemast',
+					'formast',
 				],
 				'foremasts'=>[
 					'foemasts',
@@ -6938,6 +10601,7 @@
 				'foremost'=>[
 					'formost',
 					'foemost',
+					'foreost',
 				],
 				'foremother'=>[
 					'foemother',
@@ -6947,17 +10611,25 @@
 				],
 				'forename'=>[
 					'foename',
+					'foreame',
+					'forname',
 				],
 				'forenamed'=>[
 					'foenamed',
+					'foreamed',
+					'fornamed',
 				],
 				'forenames'=>[
 					'foenames',
+					'foreames',
+					'fornames',
 				],
 				'forenoon'=>[
 					'foenoon',
 					'forenon',
 					'forenooon',
+					'foreoon',
+					'fornoon',
 				],
 				'forenoons'=>[
 					'foenoons',
@@ -6977,31 +10649,52 @@
 				],
 				'foreordain'=>[
 					'foeordain',
+					'foreordian',
+					'foroerdain',
 				],
 				'foreordained'=>[
 					'foeordained',
+					'foreordaind',
+					'foreordianed',
+					'forerdained',
+					'foroerdained',
+					'forordained',
 				],
 				'foreordaining'=>[
 					'foeordaining',
 					'foreordainang',
+					'foreordianing',
+					'foroerdaining',
 				],
 				'foreordains'=>[
 					'foeordains',
+					'foreordians',
+					'foroerdains',
 				],
 				'foreordination'=>[
 					'foeordination',
+					'foreordinatoin',
+					'foreordinaton',
+					'foroerdination',
 				],
 				'foreordinations'=>[
 					'foeordinations',
 					'foreordinitions',
+					'foreordinatoins',
+					'foreordinatons',
+					'foroerdinations',
 				],
 				'forepart'=>[
 					'foepart',
 					'forepert',
+					'foreart',
+					'forpart',
 				],
 				'foreparts'=>[
 					'foeparts',
 					'foreperts',
+					'forearts',
+					'forparts',
 				],
 				'forepassed'=>[
 					'foepassed',
@@ -7014,26 +10707,49 @@
 				],
 				'forepaws'=>[
 					'foepaws',
+					'foreaws',
+					'forpaws',
 				],
 				'forepeak'=>[
 					'foepeak',
+					'foreeak',
+					'forepaek',
+					'forpeak',
 				],
 				'forepeaks'=>[
 					'foepeaks',
 				],
+				'foreperson'=>[
+					'foreerson',
+					'forperson',
+				],
+				'forepersons'=>[
+					'foreersons',
+					'forpersons',
+				],
 				'foreplay'=>[
 					'foeplay',
+					'forplay',
 				],
 				'foreplays'=>[
 					'foeplays',
 				],
+				'forepleasure'=>[
+					'foreleasure',
+					'foreplaesure',
+					'forpleasure',
+				],
 				'forequarter'=>[
 					'foequarter',
 					'foreqaurter',
+					'foreuarter',
+					'forquarter',
 				],
 				'forequarters'=>[
 					'foequarters',
 					'foreqaurters',
+					'foreuarters',
+					'forquarters',
 				],
 				'foreran'=>[
 					'foeran',
@@ -7046,6 +10762,9 @@
 				],
 				'forereach'=>[
 					'foereach',
+					'foreeach',
+					'foreraech',
+					'forreach',
 				],
 				'forereached'=>[
 					'foereached',
@@ -7066,12 +10785,14 @@
 					'foerunner',
 					'foreruner',
 					'forerunnner',
+					'foreunner',
 				],
 				'forerunners'=>[
 					'forrunners',
 					'foerunners',
 					'foreruners',
 					'forerunnners',
+					'foreunners',
 				],
 				'forerunning'=>[
 					'foerunning',
@@ -7085,9 +10806,19 @@
 				],
 				'foresaid'=>[
 					'foesaid',
+					'foreaid',
+					'foresiad',
 				],
 				'foresail'=>[
 					'foesail',
+					'foreail',
+					'foresial',
+					'forsail',
+				],
+				'foresails'=>[
+					'foreails',
+					'foresials',
+					'forsails',
 				],
 				'foresaw'=>[
 					'forsaw',
@@ -7104,12 +10835,16 @@
 					'foreseebility',
 					'foreseability',
 					'foreseeeability',
+					'foreseaebility',
+					'foreseeibility',
 				],
 				'foreseeable'=>[
 					'forseeable',
 					'foeseeable',
 					'foreseable',
 					'foreseeeable',
+					'foreseaeble',
+					'foreseeible',
 				],
 				'foreseeing'=>[
 					'foeseeing',
@@ -7121,6 +10856,7 @@
 					'foeseen',
 					'foreseeen',
 					'foresen',
+					'foreeen',
 				],
 				'foreseer'=>[
 					'foeseer',
@@ -7133,10 +10869,12 @@
 				'foresees'=>[
 					'foesees',
 					'foreseees',
+					'foreees',
 				],
 				'foreshadow'=>[
 					'forshadow',
 					'foeshadow',
+					'forehadow',
 				],
 				'foreshadowed'=>[
 					'foeshadowed',
@@ -7149,12 +10887,18 @@
 				],
 				'foreshadowing'=>[
 					'foeshadowing',
+					'forehadowing',
+					'forshadowing',
 				],
 				'foreshadows'=>[
 					'foeshadows',
+					'forehadows',
+					'forshadows',
 				],
 				'foreshank'=>[
 					'foeshank',
+					'forehank',
+					'forshank',
 				],
 				'foreshanks'=>[
 					'foeshanks',
@@ -7163,6 +10907,8 @@
 					'foesheet',
 					'foresheeet',
 					'foreshet',
+					'foreheet',
+					'forsheet',
 				],
 				'foresheets'=>[
 					'foesheets',
@@ -7176,16 +10922,21 @@
 				'foreshore'=>[
 					'forshore',
 					'foeshore',
+					'forehore',
 				],
 				'foreshores'=>[
 					'foeshores',
+					'forehores',
+					'forshores',
 				],
 				'foreshorten'=>[
 					'foeshorten',
+					'forehorten',
 				],
 				'foreshortened'=>[
 					'foeshortened',
 					'foreshortend',
+					'forehortened',
 				],
 				'foreshortening'=>[
 					'foeshortening',
@@ -7195,25 +10946,42 @@
 				],
 				'foreshow'=>[
 					'foeshow',
+					'forehow',
+					'forshow',
 				],
 				'foreshowed'=>[
 					'foeshowed',
+					'forehowed',
+					'forshowed',
 				],
 				'foreshowing'=>[
 					'foeshowing',
+					'forehowing',
+					'forshowing',
 				],
 				'foreshown'=>[
 					'foeshown',
+					'forehown',
+					'forshown',
+				],
+				'foreshows'=>[
+					'forehows',
+					'forshows',
 				],
 				'foreside'=>[
 					'foeside',
+					'foreide',
+					'forside',
 				],
 				'foresight'=>[
 					'forsight',
 					'foesight',
+					'foreight',
 				],
 				'foresighted'=>[
 					'foesighted',
+					'foreighted',
+					'forsighted',
 				],
 				'foresightedly'=>[
 					'foesightedly',
@@ -7231,18 +10999,29 @@
 				],
 				'foreskin'=>[
 					'foeskin',
+					'forekin',
+					'forskin',
+				],
+				'foreskins'=>[
+					'forekins',
+					'forskins',
 				],
 				'forespake'=>[
 					'foespake',
 				],
 				'forespeak'=>[
 					'foespeak',
+					'forespaek',
 				],
 				'forespeaking'=>[
 					'foespeaking',
 				],
 				'forespeaks'=>[
 					'foespeaks',
+				],
+				'forespent'=>[
+					'forepent',
+					'forespant',
 				],
 				'forespoke'=>[
 					'foespoke',
@@ -7258,19 +11037,25 @@
 				],
 				'forestage'=>[
 					'foestage',
+					'foretage',
+					'forstage',
 				],
 				'forestages'=>[
 					'foestages',
+					'foretages',
+					'forstages',
 				],
 				'forestall'=>[
 					'forstall',
 					'foestall',
 					'forestal',
 					'forestalll',
+					'foretall',
 				],
 				'forestalled'=>[
 					'foestalled',
 					'forestallled',
+					'foretalled',
 				],
 				'forestaller'=>[
 					'foestaller',
@@ -7281,6 +11066,7 @@
 				'forestalling'=>[
 					'foestalling',
 					'forestallling',
+					'foretalling',
 				],
 				'forestallment'=>[
 					'foestallment',
@@ -7293,21 +11079,29 @@
 				'forestalls'=>[
 					'foestalls',
 					'forestallls',
+					'foretalls',
 				],
 				'forestation'=>[
 					'foestation',
+					'forestatoin',
+					'forestaton',
+					'foretation',
+					'forstation',
 				],
 				'forestations'=>[
 					'foestations',
 				],
 				'forestay'=>[
 					'foestay',
+					'foretay',
 				],
 				'forestays'=>[
 					'foestays',
+					'foretays',
 				],
 				'forestaysail'=>[
 					'foestaysail',
+					'forestaysial',
 				],
 				'forestaysails'=>[
 					'foestaysails',
@@ -7326,6 +11120,7 @@
 				],
 				'forestland'=>[
 					'foestland',
+					'foresland',
 				],
 				'forestlands'=>[
 					'foestlands',
@@ -7342,21 +11137,30 @@
 				'foreswear'=>[
 					'foeswear',
 					'foresweer',
+					'foreswaer',
+					'forewear',
 				],
 				'foreswearing'=>[
 					'foeswearing',
+					'foreswaering',
+					'forewearing',
 				],
 				'foreswears'=>[
 					'foeswears',
+					'foreswaers',
+					'forewears',
 				],
 				'foreswore'=>[
 					'foeswore',
+					'forewore',
 				],
 				'foresworn'=>[
 					'foesworn',
 				],
 				'foretaste'=>[
 					'foetaste',
+					'foreaste',
+					'fortaste',
 				],
 				'foretasted'=>[
 					'foetasted',
@@ -7366,6 +11170,7 @@
 				],
 				'foretasting'=>[
 					'foetasting',
+					'fortasting',
 				],
 				'foreteeth'=>[
 					'foeteeth',
@@ -7374,10 +11179,13 @@
 					'fortell',
 					'foetell',
 					'foretelll',
+					'foreell',
 				],
 				'foreteller'=>[
 					'foeteller',
 					'foretelller',
+					'foreeller',
+					'forteller',
 				],
 				'foretellers'=>[
 					'foetellers',
@@ -7385,25 +11193,39 @@
 				'foretelling'=>[
 					'foetelling',
 					'foretellling',
+					'foreelling',
+					'fortelling',
 				],
 				'foretells'=>[
 					'foetells',
 					'foretellls',
+					'foreells',
+					'fortells',
 				],
 				'forethought'=>[
 					'foethought',
+					'forehought',
+					'forethuoght',
 				],
 				'forethoughtful'=>[
 					'foethoughtful',
+					'forehoughtful',
+					'forethuoghtful',
+					'forthoughtful',
 				],
 				'forethoughts'=>[
 					'foethoughts',
+				],
+				'foretime'=>[
+					'foreime',
 				],
 				'foretimes'=>[
 					'foetimes',
 				],
 				'foretoken'=>[
 					'foetoken',
+					'foreoken',
+					'fortoken',
 				],
 				'foretokened'=>[
 					'foetokened',
@@ -7417,11 +11239,15 @@
 				],
 				'foretold'=>[
 					'foetold',
+					'foreold',
+					'fortold',
 				],
 				'foretooth'=>[
 					'foetooth',
 					'foretoooth',
 					'foretoth',
+					'foreooth',
+					'fortooth',
 				],
 				'foretop'=>[
 					'foetop',
@@ -7432,12 +11258,19 @@
 				'foretopmen'=>[
 					'foetopmen',
 				],
+				'foretops'=>[
+					'foreops',
+					'fortops',
+				],
 				'forever'=>[
 					'foever',
+					'forver',
 				],
 				'forevermore'=>[
 					'foevermore',
 					'forevermoure',
+					'forevemore',
+					'foreverore',
 				],
 				'foreverness'=>[
 					'foeverness',
@@ -7448,44 +11281,63 @@
 				'forewarn'=>[
 					'forwarn',
 					'foewarn',
+					'forearn',
 				],
 				'forewarned'=>[
 					'foewarned',
+					'forearned',
+					'forewarnd',
 				],
 				'forewarning'=>[
 					'foewarning',
+					'forearning',
 				],
 				'forewarns'=>[
 					'foewarns',
+					'forearns',
 				],
 				'forewent'=>[
 					'foewent',
+					'foreent',
+					'forewant',
 				],
 				'forewing'=>[
 					'foewing',
+					'forwing',
 				],
 				'forewings'=>[
 					'foewings',
+					'foreings',
+					'forwings',
 				],
 				'forewoman'=>[
 					'foewoman',
+					'foreoman',
+					'forwoman',
 				],
 				'forewomen'=>[
 					'foewomen',
+					'foreomen',
+					'forwomen',
 				],
 				'foreword'=>[
 					'foreward',
 					'forword',
 					'foeword',
+					'foreord',
 				],
 				'forewords'=>[
 					'foewords',
+					'foreords',
 				],
 				'foreworn'=>[
 					'foeworn',
+					'foreorn',
 				],
 				'foreyard'=>[
 					'foeyard',
+					'foreard',
+					'foryard',
 				],
 				'foreyards'=>[
 					'foeyards',
@@ -7499,12 +11351,15 @@
 				'forfeitable'=>[
 					'fofeitable',
 					'forfietable',
+					'forfeitible',
 				],
 				'forfeited'=>[
 					'fofeited',
+					'forfieted',
 				],
 				'forfeiter'=>[
 					'fofeiter',
+					'forfieter',
 				],
 				'forfeiters'=>[
 					'fofeiters',
@@ -7513,6 +11368,9 @@
 				'forfeiting'=>[
 					'fofeiting',
 					'forfieting',
+				],
+				'forfeits'=>[
+					'forfiets',
 				],
 				'forfeiture'=>[
 					'forefieture',
@@ -7540,18 +11398,24 @@
 				],
 				'forgather'=>[
 					'fogather',
+					'forather',
 				],
 				'forgathered'=>[
 					'fogathered',
+					'forathered',
+					'forgatherd',
 				],
 				'forgathering'=>[
 					'fogathering',
+					'forathering',
 				],
 				'forgathers'=>[
 					'fogathers',
+					'forathers',
 				],
 				'forgave'=>[
 					'fogave',
+					'forave',
 				],
 				'forge'=>[
 					'foge',
@@ -7576,12 +11440,15 @@
 				],
 				'forgeries'=>[
 					'fogeries',
+					'forgaries',
+					'forgereis',
 				],
 				'forgers'=>[
 					'fogers',
 				],
 				'forgery'=>[
 					'fogery',
+					'forgary',
 				],
 				'forges'=>[
 					'foges',
@@ -7597,6 +11464,8 @@
 					'fogetfully',
 					'forgetfullly',
 					'forgetfuly',
+					'forgefully',
+					'forgetully',
 				],
 				'forgetfulness'=>[
 					'fogetfulness',
@@ -7635,6 +11504,7 @@
 				'forgivable'=>[
 					'fogivable',
 					'forgiveable',
+					'forgivible',
 				],
 				'forgivably'=>[
 					'fogivably',
@@ -7643,6 +11513,11 @@
 					'foregive',
 					'fogive',
 					'forgivc',
+					'forive',
+				],
+				'forgiven'=>[
+					'fogiven',
+					'foriven',
 				],
 				'forgiveness'=>[
 					'fogiveness',
@@ -7655,8 +11530,13 @@
 				'forgivers'=>[
 					'fogivers',
 				],
+				'forgives'=>[
+					'fogives',
+					'forives',
+				],
 				'forgiving'=>[
 					'fogiving',
+					'foriving',
 				],
 				'forgivingly'=>[
 					'fogivingly',
@@ -7674,9 +11554,19 @@
 				],
 				'forgoer'=>[
 					'fogoer',
+					'forgeor',
+				],
+				'forgoers'=>[
+					'forgeors',
 				],
 				'forgoes'=>[
 					'fogoes',
+					'forgeos',
+					'foroes',
+				],
+				'forgoing'=>[
+					'forgiong',
+					'foroing',
 				],
 				'forgone'=>[
 					'fogone',
@@ -7688,6 +11578,7 @@
 					'fogotten',
 					'forgoten',
 					'forgottten',
+					'forotten',
 				],
 				'forint'=>[
 					'foint',
@@ -7697,6 +11588,7 @@
 				],
 				'forjudge'=>[
 					'fojudge',
+					'forudge',
 				],
 				'forjudged'=>[
 					'fojudged',
@@ -7739,6 +11631,8 @@
 				],
 				'forklift'=>[
 					'foklift',
+					'forkift',
+					'forlift',
 				],
 				'forklifted'=>[
 					'foklifted',
@@ -7846,6 +11740,7 @@
 				],
 				'formalities'=>[
 					'fomalities',
+					'formaliteis',
 				],
 				'formality'=>[
 					'fomality',
@@ -7855,9 +11750,13 @@
 				],
 				'formalization'=>[
 					'fomalization',
+					'formalizatoin',
+					'formalizaton',
 				],
 				'formalizations'=>[
 					'fomalizations',
+					'formalizatoins',
+					'formalizatons',
 				],
 				'formalize'=>[
 					'formallize',
@@ -7909,9 +11808,20 @@
 				'formate'=>[
 					'fomate',
 					'fromate',
+					'forate',
 				],
 				'formation'=>[
 					'fomation',
+					'formatoin',
+					'formaton',
+				],
+				'formational'=>[
+					'formatoinal',
+					'formatonal',
+				],
+				'formations'=>[
+					'formatoins',
+					'formatons',
 				],
 				'formative'=>[
 					'fomative',
@@ -7922,6 +11832,7 @@
 				],
 				'formats'=>[
 					'fomats',
+					'forats',
 				],
 				'formatted'=>[
 					'formated',
@@ -7931,6 +11842,7 @@
 				'formatter'=>[
 					'fomatter',
 					'formattter',
+					'foratter',
 				],
 				'formatting'=>[
 					'formating',
@@ -7975,6 +11887,8 @@
 					'fomfitting',
 					'formfiting',
 					'formfittting',
+					'forfitting',
+					'formitting',
 				],
 				'formful'=>[
 					'fomful',
@@ -7992,11 +11906,22 @@
 					'fomicary',
 					'formicery',
 				],
+				'formication'=>[
+					'formicatoin',
+					'formicaton',
+				],
+				'formications'=>[
+					'formicatoins',
+					'formicatons',
+				],
 				'formidabilities'=>[
 					'fomidabilities',
+					'formidabiliteis',
+					'formidibilities',
 				],
 				'formidability'=>[
 					'fomidability',
+					'formidibility',
 				],
 				'formidable'=>[
 					'formidiable',
@@ -8007,6 +11932,7 @@
 					'fomidableness',
 					'formidablenes',
 					'formidablenesss',
+					'formidibleness',
 				],
 				'formidably'=>[
 					'fonnidably',
@@ -8015,6 +11941,7 @@
 					'formidabaly',
 					'formidabely',
 					'formidablly',
+					'formidibly',
 				],
 				'forming'=>[
 					'froming',
@@ -8030,6 +11957,7 @@
 					'fomlessly',
 					'formlesly',
 					'formlesssly',
+					'formlessely',
 				],
 				'formlessness'=>[
 					'fomlessness',
@@ -8059,13 +11987,18 @@
 					'forumla',
 					'fomula',
 				],
+				'formulae'=>[
+					'formulea',
+				],
 				'formulaic'=>[
 					'fomulaic',
+					'formuliac',
 				],
 				'formulaically'=>[
 					'fomulaically',
 					'formulaicallly',
 					'formulaicaly',
+					'formuliacally',
 				],
 				'formularies'=>[
 					'fomularies',
@@ -8107,12 +12040,17 @@
 				],
 				'formulating'=>[
 					'fomulating',
+					'formulting',
 				],
 				'formulation'=>[
 					'fomulation',
+					'formulatoin',
+					'formulaton',
 				],
 				'formulations'=>[
 					'fomulations',
+					'formulatoins',
+					'formulatons',
 				],
 				'formulator'=>[
 					'fomulator',
@@ -8146,6 +12084,7 @@
 				],
 				'formwork'=>[
 					'fomwork',
+					'formork',
 				],
 				'formworks'=>[
 					'fomworks',
@@ -8173,6 +12112,8 @@
 				],
 				'fornication'=>[
 					'fonication',
+					'fornicatoin',
+					'fornicaton',
 				],
 				'fornications'=>[
 					'fonications',
@@ -8196,6 +12137,7 @@
 					'foresake',
 					'fosake',
 					'forfake',
+					'forake',
 				],
 				'forsaken'=>[
 					'foresaken',
@@ -8226,15 +12168,23 @@
 				],
 				'forspent'=>[
 					'fospent',
+					'forpent',
+					'forspant',
 				],
 				'forswear'=>[
 					# foreswear: an accepted spelling, not a slip (AmericanBritishWords_F: forswear)
 				#	'foreswear',
 					'forsweer',
 					'foswear',
+					'forswaer',
 				],
 				'forswearing'=>[
 					'foswearing',
+					'forswaering',
+				],
+				'forswears'=>[
+					'forswaers',
+					'foswears',
 				],
 				'forswore'=>[
 					'foswore',
@@ -8244,9 +12194,15 @@
 				],
 				'forsythia'=>[
 					'fosythia',
+					'forsythai',
+				],
+				'forsythias'=>[
+					'forsythais',
 				],
 				'fortalice'=>[
 					'fotalice',
+					'foralice',
+					'fortlice',
 				],
 				'forte'=>[
 					'fote',
@@ -8268,6 +12224,8 @@
 				],
 				'forthcoming'=>[
 					'fothcoming',
+					'fortcoming',
+					'forthoming',
 				],
 				'forthcomingness'=>[
 					'forthcomingnes',
@@ -8275,10 +12233,15 @@
 				],
 				'forthright'=>[
 					'fothright',
+					'forthight',
+					'fortright',
 				],
 				'forthrightly'=>[
 					'fothrightly',
 					'forthnghtly',
+					'forthightly',
+					'forthrightely',
+					'fortrightly',
 				],
 				'forthrightness'=>[
 					'fothrightness',
@@ -8293,11 +12256,14 @@
 					'fothwith',
 					'forthwitli',
 					'fortliwith',
+					'forthith',
 				],
 				'forties'=>[
 					'fortys',
 					'fourties',
 					'foties',
+					'fories',
+					'forteis',
 				],
 				'fortieth'=>[
 					'forteith',
@@ -8305,14 +12271,31 @@
 					'fortith',
 					'fotieth',
 				],
+				'fortieths'=>[
+					'forteiths',
+				],
 				'fortification'=>[
 					'fotification',
+					'fortificatoin',
+					'fortificaton',
 				],
 				'fortifications'=>[
 					'fotifications',
+					'fortificatoins',
+					'fortificatons',
 				],
 				'fortified'=>[
 					'fortifed',
+					'fortifeid',
+				],
+				'fortifier'=>[
+					'fortifeir',
+				],
+				'fortifiers'=>[
+					'fortifeirs',
+				],
+				'fortifies'=>[
+					'fortifeis',
 				],
 				'fortify'=>[
 					'fotify',
@@ -8333,6 +12316,8 @@
 				],
 				'fortnight'=>[
 					'fotnight',
+					'fornight',
+					'fortight',
 				],
 				'fortnightlies'=>[
 					'fotnightlies',
@@ -8343,6 +12328,12 @@
 					'fortnightely',
 					'fortnightlly',
 					'fotnightly',
+					'fornightly',
+					'fortightly',
+				],
+				'fortnights'=>[
+					'fornights',
+					'fortights',
 				],
 				'fortress'=>[
 					'fortres',
@@ -8362,19 +12353,30 @@
 				'forts'=>[
 					'fots',
 				],
+				'fortuitism'=>[
+					'fortiutism',
+				],
 				'fortuitous'=>[
 					'fotuitous',
+					'fortiutous',
+					'fortuituos',
 				],
 				'fortuitously'=>[
 					'fotuitously',
+					'fortiutously',
+					'fortuitousely',
+					'fortuituosly',
 				],
 				'fortuitousness'=>[
 					'fotuitousness',
 					'fortuitousnes',
 					'fortuitousnesss',
+					'fortiutousness',
+					'fortuituosness',
 				],
 				'fortuity'=>[
 					'fotuity',
+					'fortiuty',
 				],
 				'fortunate'=>[
 					'fotunate',
@@ -8394,16 +12396,20 @@
 					'fortime',
 					'fotune',
 					'fortnne',
+					'forune',
 				],
 				'fortuned'=>[
 					'fotuned',
 				],
 				'fortunes'=>[
 					'fotunes',
+					'forunes',
 				],
 				'fortuneteller'=>[
 					'fortuneteler',
 					'fortunetelller',
+					'fortuneeller',
+					'fortunteller',
 				],
 				'fortunetellers'=>[
 					'fortunetelers',
@@ -8412,6 +12418,8 @@
 				'fortunetelling'=>[
 					'fortuneteling',
 					'fortunetellling',
+					'fortuneelling',
+					'fortuntelling',
 				],
 				'forty'=>[
 					'fourty',
@@ -8454,12 +12462,15 @@
 				'forwent'=>[
 					'forewent',
 					'fowent',
+					'forent',
+					'forwant',
 				],
 				'forwhy'=>[
 					'fowhy',
 				],
 				'forworn'=>[
 					'foworn',
+					'fororn',
 				],
 				'forzandi'=>[
 					'fozandi',
@@ -8505,10 +12516,13 @@
 				'fossiliferous'=>[
 					'fosiliferous',
 					'fosssiliferous',
+					'fossiliferuos',
 				],
 				'fossilization'=>[
 					'fosilization',
 					'fosssilization',
+					'fossilizatoin',
+					'fossilizaton',
 				],
 				'fossilize'=>[
 					'fosilize',
@@ -8533,6 +12547,14 @@
 				'fossorial'=>[
 					'fosorial',
 					'fosssorial',
+					'fossorail',
+				],
+				'fostered'=>[
+					'fosterd',
+				],
+				'foudroyant'=>[
+					'foudroyent',
+					'fuodroyant',
 				],
 				'fought'=>[
 					'faught',
@@ -8541,15 +12563,46 @@
 					'foiiglit',
 					'fonght',
 					'fouglit',
+					'fuoght',
+				],
+				'foulard'=>[
+					'fuolard',
+				],
+				'fouled'=>[
+					'fuoled',
+				],
+				'fouler'=>[
+					'fuoler',
+				],
+				'foulest'=>[
+					'fuolest',
+				],
+				'fouling'=>[
+					'fuoling',
 				],
 				'foully'=>[
 					'foullly',
 					'fouly',
+					'fuolly',
+				],
+				'foulmouthed'=>[
+					'foulmuothed',
+					'fuolmouthed',
 				],
 				'foulness'=>[
 					'foulnes',
 					'foulnesss',
 					'foulnefs',
+					'fuolness',
+				],
+				'fouls'=>[
+					'fuols',
+				],
+				'foumart'=>[
+					'fuomart',
+				],
+				'foumarts'=>[
+					'fuomarts',
 				],
 				'found'=>[
 					'foudn',
@@ -8559,10 +12612,19 @@
 					'foiind',
 					'fouiid',
 					'founcl',
+					'fuond',
 				],
 				'foundation'=>[
 					'fundation',
 					'fonndation',
+					'foundatoin',
+					'foundaton',
+					'fuondation',
+				],
+				'foundational'=>[
+					'foundatoinal',
+					'foundatonal',
+					'fuondational',
 				],
 				'foundationally'=>[
 					'foundationalally',
@@ -8570,23 +12632,84 @@
 					'foundationalely',
 					'foundationallly',
 				],
+				'foundations'=>[
+					'foundatoins',
+					'foundatons',
+					'fuondations',
+				],
 				'founded'=>[
 					'fonnded',
+					'fuonded',
+				],
+				'founder'=>[
+					'fuonder',
+				],
+				'foundered'=>[
+					'founderd',
+					'fuondered',
+				],
+				'foundering'=>[
+					'fuondering',
+				],
+				'founders'=>[
+					'fuonders',
+				],
+				'founding'=>[
+					'fuonding',
+				],
+				'foundings'=>[
+					'fuondings',
+				],
+				'foundling'=>[
+					'fuondling',
+				],
+				'foundlings'=>[
+					'fuondlings',
 				],
 				'foundries'=>[
 					'foundaries',
+					'foundreis',
+					'fuondries',
 				],
 				'foundry'=>[
 					'foundary',
+					'fuondry',
+				],
+				'founds'=>[
+					'fuonds',
+				],
+				'fount'=>[
+					'fuont',
 				],
 				'fountain'=>[
 					'fonntain',
+					'fountian',
+					'fuontain',
 				],
 				'fountainhead'=>[
 					'fountainhed',
+					'fountaihead',
+					'fountainead',
+					'fountainhaed',
+					'fountianhead',
+					'fuontainhead',
+				],
+				'fountainheads'=>[
+					'fountaiheads',
+					'fountaineads',
+					'fountainhaeds',
+					'fountianheads',
+					'fuontainheads',
 				],
 				'fountaining'=>[
 					'fountainang',
+				],
+				'fountains'=>[
+					'fountians',
+					'fuontains',
+				],
+				'founts'=>[
+					'fuonts',
 				],
 				'four'=>[
 					'foru',
@@ -8600,15 +12723,36 @@
 				'fourchette'=>[
 					'fourchete',
 					'fourchettte',
+					'fuorchette',
 				],
 				'fourdrinier'=>[
 					'fourdrinaer',
+					'fourdrineir',
+					'fuordrinier',
 				],
 				'fourdriniers'=>[
 					'fourdrinaers',
 				],
+				'fourflusher'=>[
+					'fuorflusher',
+				],
+				'fourfold'=>[
+					'foufold',
+					'fourold',
+					'fuorfold',
+				],
+				'fourgon'=>[
+					'fuorgon',
+				],
 				'fourpence'=>[
 					'fourpance',
+					'foupence',
+					'fourence',
+					'fuorpence',
+				],
+				'fourpences'=>[
+					'fourpances',
+					'fuorpences',
 				],
 				'fourpennies'=>[
 					'fourpenies',
@@ -8616,21 +12760,51 @@
 				'fourpenny'=>[
 					'fourpeny',
 					'fourpennny',
+					'foupenny',
+					'fourenny',
+					'fuorpenny',
+				],
+				'fourposter'=>[
+					'fouposter',
+					'fouroster',
+					'fuorposter',
+				],
+				'fourposters'=>[
+					'fouposters',
+					'fourosters',
+					'fuorposters',
 				],
 				'fourragere'=>[
 					'fouragere',
 				],
+				'fourscore'=>[
+					'fourcore',
+					'foursore',
+					'fouscore',
+					'fuorscore',
+				],
+				'foursome'=>[
+					'fuorsome',
+				],
+				'foursomes'=>[
+					'fuorsomes',
+				],
 				'foursquare'=>[
 					'foursqaure',
+					'fourquare',
+					'fousquare',
+					'fuorsquare',
 				],
 				'fourteen'=>[
 					'fourteeen',
 					'fourten',
 					'fonrteen',
+					'fuorteen',
 				],
 				'fourteens'=>[
 					'fourteeens',
 					'fourtens',
+					'fuorteens',
 				],
 				'fourteenth'=>[
 					'fouteenth',
@@ -8638,33 +12812,112 @@
 					'fourteeenth',
 					'fourtenth',
 					'fourteentli',
+					'fuorteenth',
 				],
 				'fourteenths'=>[
 					'fourteeenths',
 					'fourtenths',
+					'fuorteenths',
 				],
 				'fourth'=>[
 					'fourd',
 					'fonrth',
 					'fonrtli',
 					'fourtli',
+					'fuorth',
 				],
 				'fourthly'=>[
 					'fourthally',
 					'fourthaly',
 					'fourthely',
 					'fourthlly',
+					'fuorthly',
+				],
+				'fourths'=>[
+					'fuorths',
 				],
 				'fourwheeled'=>[
 					'fourwheeeled',
 					'fourwheled',
+					'fourheeled',
+					'fouwheeled',
+					'fuorwheeled',
+				],
+				'fovea'=>[
+					'fovae',
+				],
+				'foveas'=>[
+					'fovaes',
+				],
+				'foveola'=>[
+					'fovoela',
 				],
 				'foveolar'=>[
 					'foveoler',
 				],
+				'foxfire'=>[
+					'fofire',
+					'foxire',
+				],
+				'foxglove'=>[
+					'foglove',
+				],
+				'foxgloves'=>[
+					'fogloves',
+				],
+				'foxhole'=>[
+					'fohole',
+					'foxole',
+				],
+				'foxholes'=>[
+					'foholes',
+					'foxoles',
+				],
+				'foxhound'=>[
+					'fohound',
+					'foxhuond',
+					'foxound',
+				],
+				'foxhounds'=>[
+					'fohounds',
+					'foxhuonds',
+					'foxounds',
+				],
+				'foxhunt'=>[
+					'fohunt',
+					'foxunt',
+				],
+				'foxhunting'=>[
+					'fohunting',
+					'foxunting',
+				],
+				'foxhunts'=>[
+					'fohunts',
+					'foxunts',
+				],
+				'foxier'=>[
+					'foxeir',
+				],
+				'foxiest'=>[
+					'foxeist',
+				],
 				'foxiness'=>[
 					'foxines',
 					'foxinesss',
+				],
+				'foxtail'=>[
+					'fotail',
+					'foxail',
+					'foxtial',
+				],
+				'foxtails'=>[
+					'fotails',
+					'foxails',
+					'foxtials',
+				],
+				'foxtrot'=>[
+					'fotrot',
+					'foxrot',
 				],
 				'foxtrotted'=>[
 					'foxtrottted',
@@ -8672,23 +12925,69 @@
 				'foxtrotting'=>[
 					'foxtrottting',
 				],
+				'frabjous'=>[
+					'frabjuos',
+				],
 				'fraction'=>[
 					'fraction fraction',
 					'fraction fraction fraction',
+					'fractoin',
+				],
+				'fractional'=>[
+					'fractoinal',
+					'fractonal',
 				],
 				'fractionally'=>[
 					'fractionallly',
 					'fractionaly',
+					'fractoinally',
+					'fractonally',
+				],
+				'fractionate'=>[
+					'fractoinate',
+					'fractonate',
+				],
+				'fractionated'=>[
+					'fractoinated',
+				],
+				'fractionates'=>[
+					'fractoinates',
+					'fractonates',
+				],
+				'fractionating'=>[
+					'fractoinating',
+				],
+				'fractionation'=>[
+					'fractionatoin',
+					'fractionaton',
+					'fractoination',
+				],
+				'fractionize'=>[
+					'fractoinize',
+				],
+				'fractions'=>[
+					'fractoins',
 				],
 				'fractious'=>[
 					'fractous',
+					'fractiuos',
+					'fractoius',
 				],
 				'fractiously'=>[
 					'fractously',
+					'fractiousely',
+					'fractiuosly',
+					'fractoiusly',
 				],
 				'fractiousness'=>[
 					'fractiousnes',
 					'fractiousnesss',
+					'fractiuosness',
+					'fractoiusness',
+					'fractousness',
+				],
+				'fractured'=>[
+					'fracturd',
 				],
 				'fraggings'=>[
 					'fragings',
@@ -8706,6 +13005,7 @@
 				],
 				'fragmentarily'=>[
 					'fragmantarily',
+					'fragmentarly',
 				],
 				'fragmentariness'=>[
 					'fragmentariniss',
@@ -8719,12 +13019,20 @@
 				],
 				'fragmentation'=>[
 					'fragmantation',
+					'fragmentatoin',
+					'fragmentaton',
 				],
 				'fragmentizing'=>[
 					'fragmantizing',
 				],
+				'fragments'=>[
+					'fragmants',
+				],
 				'fragrance'=>[
 					'fragrence',
+				],
+				'fragrances'=>[
+					'fragrences',
 				],
 				'fragrancy'=>[
 					'fragransy',
@@ -8732,16 +13040,68 @@
 				'fragrant'=>[
 					'fragrent',
 				],
+				'fragrantly'=>[
+					'fragrantely',
+					'fragrently',
+				],
 				'frail'=>[
 					'frait',
+					'frial',
+				],
+				'frailer'=>[
+					'frialer',
+				],
+				'frailest'=>[
+					'frialest',
 				],
 				'frailly'=>[
 					'fraillly',
 					'fraily',
+					'frially',
 				],
 				'frailness'=>[
 					'frailnes',
 					'frailnesss',
+					'frialness',
+				],
+				'frailties'=>[
+					'frailies',
+					'frailteis',
+					'fraities',
+					'frialties',
+				],
+				'frailty'=>[
+					'frialty',
+				],
+				'fraise'=>[
+					'friase',
+				],
+				'frambesia'=>[
+					'frambesai',
+				],
+				'framboise'=>[
+					'frambiose',
+				],
+				'framboises'=>[
+					'frambioses',
+				],
+				'framework'=>[
+					'frameork',
+					'framwork',
+				],
+				'frameworks'=>[
+					'frameorks',
+					'framworks',
+				],
+				'francesca'=>[
+					'franceca',
+					'francesa',
+				],
+				'franchisability'=>[
+					'franchisibility',
+				],
+				'franchisable'=>[
+					'franchisible',
 				],
 				'franchise'=>[
 					'francihse',
@@ -8752,15 +13112,28 @@
 				'franchisees'=>[
 					'franchiseees',
 				],
+				'franchisement'=>[
+					'franchisemant',
+				],
+				'francisca'=>[
+					'francica',
+					'francisa',
+				],
 				'franciscan'=>[
 					'fransiscan',
 				],
 				'franciscans'=>[
 					'fransiscans',
 				],
+				'francium'=>[
+					'francuim',
+				],
 				'frangibilities'=>[
 					'frangibiliteis',
 					'frangibilitis',
+				],
+				'frangibility'=>[
+					'frangability',
 				],
 				'frangible'=>[
 					'frangable',
@@ -8768,16 +13141,28 @@
 				'frangibleness'=>[
 					'frangiblenes',
 					'frangiblenesss',
+					'frangableness',
 				],
 				'frangipanni'=>[
 					'frangipani',
+				],
+				'frankalmoign'=>[
+					'frankalmiogn',
+				],
+				'frankenstein'=>[
+					'frankenstien',
 				],
 				'frankfurt'=>[
 					'franfurt',
 					'frankfart',
 				],
+				'frankie'=>[
+					'frankei',
+				],
 				'frankincense'=>[
 					'frankincence',
+					'franincense',
+					'frankncense',
 				],
 				'franklinite'=>[
 					'franklinate',
@@ -8797,6 +13182,8 @@
 				],
 				'frankpledge'=>[
 					'frankplege',
+					'frankledge',
+					'franpledge',
 				],
 				'frankpledges'=>[
 					'frankpleges',
@@ -8837,14 +13224,45 @@
 					'fraternallly',
 					'fraternaly',
 				],
+				'fraternities'=>[
+					'fraterniteis',
+				],
+				'fraternization'=>[
+					'fraternizatoin',
+					'fraternizaton',
+				],
+				'fraud'=>[
+					'fruad',
+				],
+				'frauds'=>[
+					'fruads',
+				],
+				'fraudster'=>[
+					'fruadster',
+				],
+				'fraudsters'=>[
+					'fruadsters',
+				],
 				'fraudulence'=>[
 					'fraudulance',
+					'fruadulence',
 				],
 				'fraudulent'=>[
 					'fraudulant',
+					'fruadulent',
+				],
+				'fraudulently'=>[
+					'fraudulantly',
+					'fraudulentely',
+					'fruadulently',
 				],
 				'fraught'=>[
 					'frought',
+					'fruaght',
+				],
+				'fraulein'=>[
+					'fraulien',
+					'frualein',
 				],
 				'fraxinella'=>[
 					'fraxinela',
@@ -8868,13 +13286,36 @@
 				],
 				'freak'=>[
 					'frek',
+					'fraek',
+				],
+				'freaked'=>[
+					'fraeked',
+				],
+				'freakier'=>[
+					'fraekier',
+					'freakeir',
+				],
+				'freakiest'=>[
+					'fraekiest',
+					'freakeist',
+				],
+				'freakily'=>[
+					'fraekily',
 				],
 				'freaking'=>[
 					'freaken',
+					'fraeking',
+				],
+				'freakish'=>[
+					'fraekish',
+				],
+				'freakishly'=>[
+					'fraekishly',
 				],
 				'freakishness'=>[
 					'freakishnes',
 					'freakishnesss',
+					'fraekishness',
 				],
 				'freakishnesses'=>[
 					'frekishnesses',
@@ -8883,6 +13324,28 @@
 			#	'fred'=>[
 			#		'ferd',
 			#	],
+				'freakout'=>[
+					'fraekout',
+					'freakuot',
+				],
+				'freakouts'=>[
+					'fraekouts',
+					'freakuots',
+					'freakuts',
+					'freaouts',
+				],
+				'freaks'=>[
+					'fraeks',
+				],
+				'freaky'=>[
+					'fraeky',
+				],
+				'frecklier'=>[
+					'freckleir',
+				],
+				'freckliest'=>[
+					'freckleist',
+				],
 				'free'=>[
 					'free free',
 					'free free free',
@@ -8891,18 +13354,22 @@
 				'freebase'=>[
 					'frebase',
 					'freeebase',
+					'freease',
 				],
 				'freebased'=>[
 					'frebased',
 					'freeebased',
+					'freeased',
 				],
 				'freebases'=>[
 					'frebases',
 					'freeebases',
+					'freeases',
 				],
 				'freebasing'=>[
 					'frebasing',
 					'freeebasing',
+					'freeasing',
 				],
 				'freebee'=>[
 					'frebee',
@@ -8915,6 +13382,7 @@
 					'freebeees',
 					'freebes',
 					'freeebees',
+					'freeees',
 				],
 				'freebie'=>[
 					'freebei',
@@ -8925,16 +13393,20 @@
 				'freebies'=>[
 					'frebies',
 					'freeebies',
+					'freebeis',
 				],
 				'freeboard'=>[
 					'freboard',
 					'freeeboard',
+					'freebaord',
+					'freeoard',
 				],
 				'freeboot'=>[
 					'freboot',
 					'freebooot',
 					'freebot',
 					'freeeboot',
+					'freeoot',
 				],
 				'freebooter'=>[
 					'frebooter',
@@ -8951,6 +13423,7 @@
 				'freeborn'=>[
 					'freborn',
 					'freeeborn',
+					'freeorn',
 				],
 				'freed'=>[
 					'freeed',
@@ -8977,22 +13450,27 @@
 				'freedwoman'=>[
 					'fredwoman',
 					'freeedwoman',
+					'freedoman',
 				],
 				'freedwomen'=>[
 					'fredwomen',
 					'freeedwomen',
+					'freedomen',
 				],
 				'freeform'=>[
 					'freeeform',
 					'freform',
+					'freeorm',
 				],
 				'freehand'=>[
 					'freeehand',
 					'frehand',
+					'freeand',
 				],
 				'freehanded'=>[
 					'freeehanded',
 					'frehanded',
+					'freeanded',
 				],
 				'freehandedly'=>[
 					'freehandedally',
@@ -9011,10 +13489,12 @@
 				'freehold'=>[
 					'freeehold',
 					'frehold',
+					'freeold',
 				],
 				'freeholder'=>[
 					'freeeholder',
 					'freholder',
+					'freeolder',
 				],
 				'freeholders'=>[
 					'freeeholders',
@@ -9023,6 +13503,7 @@
 				'freeholds'=>[
 					'freeeholds',
 					'freholds',
+					'freeolds',
 				],
 				'freeing'=>[
 					'freieng',
@@ -9032,6 +13513,7 @@
 					'freelence',
 					'freeelance',
 					'frelance',
+					'freeance',
 				],
 				'freelanced'=>[
 					'freeelanced',
@@ -9048,6 +13530,7 @@
 				'freelances'=>[
 					'freeelances',
 					'frelances',
+					'freelences',
 				],
 				'freelancing'=>[
 					'freeelancing',
@@ -9056,26 +13539,36 @@
 				'freeload'=>[
 					'freeeload',
 					'freload',
+					'freelaod',
+					'freeoad',
 				],
 				'freeloaded'=>[
 					'freeeloaded',
 					'freloaded',
+					'freelaoded',
+					'freeoaded',
 				],
 				'freeloader'=>[
 					'freeeloader',
 					'freloader',
+					'freelaoder',
 				],
 				'freeloaders'=>[
 					'freeeloaders',
 					'freloaders',
+					'freelaoders',
 				],
 				'freeloading'=>[
 					'freeeloading',
 					'freloading',
+					'freelaoding',
+					'freeoading',
 				],
 				'freeloads'=>[
 					'freeeloads',
 					'freloads',
+					'freelaods',
+					'freeoads',
 				],
 				'freely'=>[
 					'frely',
@@ -9090,13 +13583,16 @@
 				'freemartin'=>[
 					'freeemartin',
 					'fremartin',
+					'freeartin',
 				],
 				'freemason'=>[
 					'freeemason',
+					'freeason',
 				],
 				'freemasonries'=>[
 					'freeemasonries',
 					'fremasonries',
+					'freemasonreis',
 				],
 				'freemasonry'=>[
 					'freeemasonry',
@@ -9118,6 +13614,7 @@
 				'freephone'=>[
 					'freeephone',
 					'frephone',
+					'freehone',
 				],
 				'frees'=>[
 					'freees',
@@ -9125,10 +13622,12 @@
 				'freesia'=>[
 					'freeesia',
 					'fresia',
+					'freesai',
 				],
 				'freesias'=>[
 					'freeesias',
 					'fresias',
+					'freesais',
 				],
 				'freest'=>[
 					'frest',
@@ -9136,22 +13635,29 @@
 				'freestanding'=>[
 					'freeestanding',
 					'frestanding',
+					'freetanding',
 				],
 				'freestone'=>[
 					'freeestone',
 					'frestone',
+					'freesone',
+					'freetone',
 				],
 				'freestones'=>[
 					'freeestones',
 					'frestones',
+					'freesones',
+					'freetones',
 				],
 				'freestyle'=>[
 					'freeestyle',
 					'frestyle',
+					'freetyle',
 				],
 				'freestyles'=>[
 					'freeestyles',
 					'frestyles',
+					'freetyles',
 				],
 				'freethinker'=>[
 					'freeethinker',
@@ -9160,10 +13666,12 @@
 				'freethinkers'=>[
 					'freeethinkers',
 					'frethinkers',
+					'freehinkers',
 				],
 				'freethinking'=>[
 					'freeethinking',
 					'frethinking',
+					'freehinking',
 				],
 				'freeware'=>[
 					'freeeware',
@@ -9176,18 +13684,21 @@
 				'freeways'=>[
 					'freeeways',
 					'freways',
+					'freeays',
 				],
 				'freewheel'=>[
 					'freeewheel',
 					'freewheeel',
 					'freewhel',
 					'frewheel',
+					'freeheel',
 				],
 				'freewheeled'=>[
 					'freeewheeled',
 					'freewheeeled',
 					'freewheled',
 					'frewheeled',
+					'freeheeled',
 				],
 				'freewheeling'=>[
 					'freeewheeling',
@@ -9200,15 +13711,18 @@
 					'freewheeels',
 					'freewhels',
 					'frewheels',
+					'freeheels',
 				],
 				'freewill'=>[
 					'freeewill',
 					'freewilll',
 					'frewill',
+					'freeill',
 				],
 				'freezable'=>[
 					'freeezable',
 					'frezable',
+					'freezible',
 				],
 				'freeze'=>[
 					'freeeze',
@@ -9239,6 +13753,9 @@
 				'freightages'=>[
 					'frieghtages',
 				],
+				'freighted'=>[
+					'frieghted',
+				],
 				'freighter'=>[
 					'frieghter',
 				],
@@ -9247,6 +13764,9 @@
 				],
 				'freighting'=>[
 					'frieghting',
+				],
+				'freights'=>[
+					'frieghts',
 				],
 				'french'=>[
 					'fernch',
@@ -9258,6 +13778,12 @@
 				],
 				'french-speaking canadians'=>[
 					'french speaking canadians',
+				],
+				'frenchified'=>[
+					'frenchifeid',
+				],
+				'frenchifies'=>[
+					'frenchifeis',
 				],
 				'frenetically'=>[
 					'freneticallly',
@@ -9275,22 +13801,56 @@
 					'frenziedaly',
 					'frenziedely',
 					'frenziedlly',
+					'frenzeidly',
+				],
+				'frenzies'=>[
+					'frenzeis',
+				],
+				'freon'=>[
+					'froen',
 				],
 				'frequence'=>[
 					'frequance',
 				],
+				'frequencies'=>[
+					'freqeuncies',
+					'frequancies',
+					'frequenceis',
+				],
 				'frequency'=>[
 					'frequensy',
+					'freqeuncy',
+					'frequancy',
 				],
 				'frequent'=>[
 					'freqent',
 					'frequant',
+					'freqeunt',
 				],
 				'frequentation'=>[
 					'frequantation',
+					'freqeuntation',
+					'frequentatoin',
+					'frequentaton',
 				],
 				'frequentative'=>[
 					'frequantative',
+					'freqeuntative',
+				],
+				'frequented'=>[
+					'freqeunted',
+				],
+				'frequenter'=>[
+					'freqeunter',
+				],
+				'frequenters'=>[
+					'freqeunters',
+				],
+				'frequentest'=>[
+					'freqeuntest',
+				],
+				'frequenting'=>[
+					'freqeunting',
 				],
 				'frequently'=>[
 					'frequantly',
@@ -9300,15 +13860,30 @@
 					'frequentlly',
 					'freqnently',
 					'frequentiy',
+					'freqeuntly',
 				],
 				'frequentness'=>[
 					'frequentnes',
 					'frequentnesss',
+					'freqeuntness',
+				],
+				'frequents'=>[
+					'freqeunts',
+					'frequants',
 				],
 				'fresco'=>[
 					'freco',
 					'frecso',
 					'freso',
+				],
+				'frescoes'=>[
+					'frecoes',
+					'fresceos',
+					'fresoes',
+				],
+				'frescos'=>[
+					'frecos',
+					'fresos',
 				],
 				'fresh'=>[
 					'fresb',
@@ -9325,9 +13900,15 @@
 					'freshnesss',
 					'fresliness',
 				],
+				'freshwater'=>[
+					'freshater',
+					'freswater',
+				],
 				'fretfully'=>[
 					'fretfullly',
 					'fretfuly',
+					'frefully',
+					'fretully',
 				],
 				'fretfulness'=>[
 					'fretfulnes',
@@ -9342,12 +13923,29 @@
 				'fretting'=>[
 					'frettting',
 				],
+				'fretwork'=>[
+					'fretork',
+					'frework',
+				],
+				'freudian'=>[
+					'freudain',
+					'fruedian',
+				],
+				'friabilities'=>[
+					'fraibilities',
+					'friabiliteis',
+				],
+				'friability'=>[
+					'fraibility',
+				],
 				'friable'=>[
 					'friible',
+					'fraible',
 				],
 				'friableness'=>[
 					'friablenes',
 					'friablenesss',
+					'fraibleness',
 				],
 				'friar'=>[
 					'frair',
@@ -9355,8 +13953,19 @@
 					# frier: an accepted spelling, not a slip (AmericanBritishWords_F: fryer)
 				#	'frier',
 				],
+				'friarbird'=>[
+					'frairbird',
+				],
+				'friaries'=>[
+					'frairies',
+					'friareis',
+				],
+				'friars'=>[
+					'frairs',
+				],
 				'friary'=>[
 					'friery',
+					'frairy',
 				],
 				'fribble'=>[
 					'frible',
@@ -9376,6 +13985,17 @@
 				],
 				'fribbling'=>[
 					'fribling',
+				],
+				'fribourg'=>[
+					'fribuorg',
+				],
+				'fricandeau'=>[
+					'fricandaeu',
+					'fricandeua',
+				],
+				'fricandeaus'=>[
+					'fricandaeus',
+					'fricandeuas',
 				],
 				'fricassee'=>[
 					'fricasee',
@@ -9401,16 +14021,31 @@
 					'fricasseees',
 					'fricasses',
 				],
+				'frication'=>[
+					'fricatoin',
+					'fricaton',
+				],
 				'frick'=>[
 					'fcick',
+				],
+				'friction'=>[
+					'frictoin',
+					'fricton',
+				],
+				'frictional'=>[
+					'frictoinal',
+					'frictonal',
 				],
 				'frictionally'=>[
 					'frictionallly',
 					'frictionaly',
+					'frictoinally',
+					'frictonally',
 				],
 				'frictionless'=>[
 					'frictionles',
 					'frictionlesss',
+					'frictoinless',
 				],
 				'frictionlessly'=>[
 					'frictionlessally',
@@ -9418,9 +14053,23 @@
 					'frictionlessely',
 					'frictionlesslly',
 				],
+				'frictions'=>[
+					'frictoins',
+					'frictons',
+				],
 				'fried'=>[
 					'freid',
 					'frid',
+				],
+				'friedcake'=>[
+					'freidcake',
+					'friecake',
+					'friedake',
+				],
+				'friedcakes'=>[
+					'freidcakes',
+					'friecakes',
+					'friedakes',
 				],
 				'friend'=>[
 					'firend',
@@ -9436,16 +14085,37 @@
 				'friendless'=>[
 					'friendles',
 					'friendlesss',
+					'freindless',
 				],
 				'friendlessness'=>[
 					'friendlesness',
 					'friendlessnes',
 					'friendlessnesss',
 					'friendlesssness',
+					'freindlessness',
+				],
+				'friendlier'=>[
+					'freindlier',
+					'friendleir',
+				],
+				'friendlies'=>[
+					'freindlies',
+					'friendleis',
+					'frienlies',
+				],
+				'friendliest'=>[
+					'freindliest',
+					'friendleist',
+				],
+				'friendlily'=>[
+					'freindlily',
+					'friendily',
+					'frienlily',
 				],
 				'friendliness'=>[
 					'friendlines',
 					'friendlinesss',
+					'freindliness',
 				],
 				'friendlinesses'=>[
 					'friendlinisses',
@@ -9465,12 +14135,18 @@
 					'frieiids',
 					'friencls',
 					'frieuds',
+					'freinds',
 				],
 				'friendship'=>[
 					'firendship',
 					'freindship',
 					'frindship',
 					'friendsliip',
+				],
+				'friendships'=>[
+					'freindships',
+					'friendhips',
+					'friendsips',
 				],
 				'frier'=>[
 					'freir',
@@ -9484,6 +14160,9 @@
 					'freize',
 					# frize: an accepted spelling, not a slip (AmericanBritishWords_F: frize)
 				#	'frize',
+				],
+				'friezes'=>[
+					'freizes',
 				],
 				'frigg'=>[
 					'friggg',
@@ -9508,10 +14187,18 @@
 				'frightfully'=>[
 					'frightfullly',
 					'frightfuly',
+					'frighfully',
+					'frightully',
 				],
 				'frightfulness'=>[
 					'frightfulnes',
 					'frightfulnesss',
+				],
+				'frigidaire'=>[
+					'frigidiare',
+				],
+				'frigidarium'=>[
+					'frigidaruim',
 				],
 				'frigidness'=>[
 					'frigidnes',
@@ -9528,10 +14215,12 @@
 				'frillier'=>[
 					'frilier',
 					'frilllier',
+					'frilleir',
 				],
 				'frilliest'=>[
 					'friliest',
 					'frillliest',
+					'frilleist',
 				],
 				'frilliness'=>[
 					'frillines',
@@ -9551,20 +14240,39 @@
 					'frillly',
 					'frily',
 				],
+				'fringier'=>[
+					'fringeir',
+				],
+				'fringiest'=>[
+					'fringeist',
+				],
 				'fripperies'=>[
 					'friperies',
 					'frippperies',
+					'fripparies',
+					'frippereis',
 				],
 				'frippery'=>[
 					'fripery',
 					'fripppery',
+					'frippary',
 				],
 				'frisbee'=>[
 					'frisbe',
 					'frisbeee',
 				],
+				'frisco'=>[
+					'friso',
+				],
 				'friseur'=>[
 					'friser',
+					'frisuer',
+				],
+				'friskier'=>[
+					'friskeir',
+				],
+				'friskiest'=>[
+					'friskeist',
 				],
 				'friskiness'=>[
 					'friskines',
@@ -9580,6 +14288,8 @@
 				'fritillaries'=>[
 					'fritilaries',
 					'fritilllaries',
+					'fritillareis',
+					'fritilleries',
 				],
 				'fritillary'=>[
 					'fritillery',
@@ -9600,6 +14310,7 @@
 				'frittered'=>[
 					'fritered',
 					'fritttered',
+					'fritterd',
 				],
 				'frittering'=>[
 					'fritering',
@@ -9609,6 +14320,9 @@
 					'friters',
 					'frittters',
 				],
+				'frivolities'=>[
+					'frivoliteis',
+				],
 				'frivolled'=>[
 					'frivollled',
 				],
@@ -9617,10 +14331,16 @@
 				],
 				'frivolous'=>[
 					'frivilous',
+					'frivoluos',
+				],
+				'frivolously'=>[
+					'frivolousely',
+					'frivoluosly',
 				],
 				'frivolousness'=>[
 					'frivolousnes',
 					'frivolousnesss',
+					'frivoluosness',
 				],
 				'frizette'=>[
 					'frizete',
@@ -9638,10 +14358,12 @@
 				'frizzier'=>[
 					'frizier',
 					'frizzzier',
+					'frizzeir',
 				],
 				'frizziest'=>[
 					'friziest',
 					'frizzziest',
+					'frizzeist',
 				],
 				'frizzing'=>[
 					'frizzzing',
@@ -9658,10 +14380,12 @@
 				'frizzlier'=>[
 					'frizlier',
 					'frizzzlier',
+					'frizzleir',
 				],
 				'frizzliest'=>[
 					'frizliest',
 					'frizzzliest',
+					'frizzleist',
 				],
 				'frizzling'=>[
 					'frizzzling',
@@ -9676,6 +14400,10 @@
 				'frizzy'=>[
 					'frizy',
 					'frizzzy',
+				],
+				'frogfish'=>[
+					'frofish',
+					'frogish',
 				],
 				'frogged'=>[
 					'froged',
@@ -9694,6 +14422,49 @@
 				'froghoppers'=>[
 					'froghopers',
 					'froghopppers',
+				],
+				'frogmarch'=>[
+					'frogarch',
+					'fromarch',
+				],
+				'frogmarched'=>[
+					'frogarched',
+					'fromarched',
+				],
+				'frogmarches'=>[
+					'frogarches',
+					'fromarches',
+				],
+				'frogmarching'=>[
+					'frogarching',
+					'fromarching',
+				],
+				'frogmouth'=>[
+					'frogmuoth',
+					'frogouth',
+					'fromouth',
+				],
+				'frogmouths'=>[
+					'frogmuoths',
+					'frogouths',
+					'fromouths',
+				],
+				'frogspawn'=>[
+					'frogpawn',
+					'frogsawn',
+					'frospawn',
+				],
+				'froideur'=>[
+					'friodeur',
+					'froiduer',
+				],
+				'frolicked'=>[
+					'frlicked',
+					'froicked',
+				],
+				'frolicking'=>[
+					'frlicking',
+					'froicking',
 				],
 				'from'=>[
 					'ffrom',
@@ -9721,6 +14492,11 @@
 					'fromthe',
 					'fron the',
 				],
+				'frondescence'=>[
+					'frondecence',
+					'frondescance',
+					'frondesence',
+				],
 				'frondeur'=>[
 					'fronder',
 				],
@@ -9731,13 +14507,29 @@
 				'frontally'=>[
 					'frontallly',
 				],
+				'frontbench'=>[
+					'fronbench',
+					'frontench',
+				],
 				'frontier'=>[
 					'fronteir',
 					'frontir',
 				],
+				'frontiers'=>[
+					'fronteirs',
+				],
 				'frontiersman'=>[
 					'fronteirsman',
 					'frontirsman',
+				],
+				'frontiersmen'=>[
+					'fronteirsmen',
+				],
+				'frontierswoman'=>[
+					'fronteirswoman',
+				],
+				'frontierswomen'=>[
+					'fronteirswomen',
 				],
 				'frontispiece'=>[
 					'frontispeice',
@@ -9745,30 +14537,84 @@
 					'frontspiece',
 					'frontispice',
 				],
+				'frontispieces'=>[
+					'frontispeices',
+				],
+				'frontlets'=>[
+					'fronlets',
+					'frontets',
+				],
 				'frontline'=>[
 					'frontlini',
+					'fronline',
+					'frontine',
 				],
 				'frontomedial'=>[
 					'frontomedian',
 				],
 				'frontrunner'=>[
 					'frontrunnner',
+					'fronrunner',
+					'frontunner',
 				],
 				'frontrunners'=>[
 					'frontruners',
 					'frontrunnners',
+					'fronrunners',
+					'frontunners',
+				],
+				'frostbelt'=>[
+					'frosbelt',
+					'frostelt',
+				],
+				'frostbite'=>[
+					'frosbite',
+					'frostite',
+				],
+				'frostbites'=>[
+					'frosbites',
+					'frostites',
+				],
+				'frostbiting'=>[
+					'frosbiting',
+					'frostiting',
 				],
 				'frostbitten'=>[
 					'frostbiten',
 					'frostbittten',
+					'frosbitten',
+					'frostitten',
+				],
+				'frostier'=>[
+					'frosteir',
+				],
+				'frostiest'=>[
+					'frosteist',
 				],
 				'frostiness'=>[
 					'frostines',
 					'frostinesss',
 				],
+				'frosting'=>[
+					'frsting',
+				],
+				'frostwork'=>[
+					'frostork',
+					'froswork',
+				],
+				'frothier'=>[
+					'frotheir',
+				],
+				'frothiest'=>[
+					'frotheist',
+				],
 				'frothiness'=>[
 					'frothines',
 					'frothinesss',
+				],
+				'frothing'=>[
+					'frohing',
+					'frthing',
 				],
 				'frottage'=>[
 					'frotage',
@@ -9782,21 +14628,52 @@
 					'frotter',
 					'froteur',
 					'frottteur',
+					'frottuer',
 				],
 				'frotteurism'=>[
 					'froteurism',
 					'frottteurism',
+					'frottuerism',
 				],
 				'frotteurs'=>[
 					'froteurs',
 					'frottteurs',
+					'frottuers',
+				],
+				'froufrou'=>[
+					'froufruo',
+					'fruofrou',
 				],
 				'frowardness'=>[
 					'frowardnes',
 					'frowardnesss',
 				],
+				'frowned'=>[
+					'frownd',
+				],
+				'frowsier'=>[
+					'frowseir',
+				],
+				'frowsiest'=>[
+					'frowseist',
+				],
+				'frowstier'=>[
+					'frowsteir',
+				],
+				'frowstiest'=>[
+					'frowsteist',
+				],
 				'frowsy'=>[
 					'frowcy',
+				],
+				'frowzier'=>[
+					'frowzeir',
+				],
+				'frowziest'=>[
+					'frowzeist',
+				],
+				'frowzily'=>[
+					'frowzly',
 				],
 				'froze'=>[
 					'freezed',
@@ -9808,11 +14685,27 @@
 				'frozennesses'=>[
 					'frozenesses',
 				],
+				'fructification'=>[
+					'fructificatoin',
+					'fructificaton',
+				],
+				'fructifications'=>[
+					'fructificatoins',
+					'fructificatons',
+				],
+				'fructified'=>[
+					'fructifeid',
+				],
+				'fructifies'=>[
+					'fructifeis',
+				],
 				'fructose'=>[
 					'frustose',
 				],
 				'fructuous'=>[
 					'fructous',
+					'fructouus',
+					'fructuuos',
 				],
 				'frugally'=>[
 					'frugallly',
@@ -9826,6 +14719,9 @@
 					'frugalneses',
 					'frugalnessses',
 				],
+				'frugivorous'=>[
+					'frugivoruos',
+				],
 				'fruit'=>[
 					'friut',
 					'fruit fruit',
@@ -9835,28 +14731,87 @@
 				'fruit flies'=>[
 					'fruitflies',
 				],
+				'fruitage'=>[
+					'friutage',
+				],
+				'fruitages'=>[
+					'friutages',
+				],
 				'fruitarian'=>[
 					'fruitaran',
+					'friutarian',
+					'fruitarain',
+				],
+				'fruitarianism'=>[
+					'friutarianism',
+					'fruitarainism',
+				],
+				'fruitcake'=>[
+					'friutcake',
+					'fruicake',
+					'fruitake',
+				],
+				'fruitcakes'=>[
+					'friutcakes',
+					'fruicakes',
+					'fruitakes',
+				],
+				'fruited'=>[
+					'friuted',
+				],
+				'fruiter'=>[
+					'friuter',
+				],
+				'fruiterer'=>[
+					'friuterer',
+				],
+				'fruiterers'=>[
+					'friuterers',
+				],
+				'fruitful'=>[
+					'friutful',
 				],
 				'fruitfully'=>[
 					'fruitfullly',
 					'fruitfuly',
+					'friutfully',
+					'fruifully',
+					'fruitully',
 				],
 				'fruitfulness'=>[
 					'fruitfulnes',
 					'fruitfulnesss',
+					'friutfulness',
+				],
+				'fruitier'=>[
+					'friutier',
+					'fruiteir',
+				],
+				'fruitiest'=>[
+					'friutiest',
+					'fruiteist',
+				],
+				'fruitily'=>[
+					'friutily',
 				],
 				'fruitiness'=>[
 					'fruitines',
 					'fruitinesss',
+					'friutiness',
+				],
+				'fruiting'=>[
+					'friuting',
 				],
 				'fruition'=>[
 					'fruiton',
 					'frution',
+					'friution',
+					'fruitoin',
 				],
 				'fruitless'=>[
 					'fruitles',
 					'fruitlesss',
+					'friutless',
 				],
 				'fruitlessly'=>[
 					'fruitlessally',
@@ -9865,15 +14820,34 @@
 					'fruitlesslly',
 					'fruitlesly',
 					'fruitlesssly',
+					'friutlessly',
 				],
 				'fruitlessness'=>[
 					'fruitlesness',
 					'fruitlessnes',
 					'fruitlessnesss',
 					'fruitlesssness',
+					'friutlessness',
 				],
 				'fruits'=>[
 					'frnits',
+					'friuts',
+				],
+				'fruity'=>[
+					'friuty',
+				],
+				'frumentaceous'=>[
+					'frumentaceuos',
+					'frumentacoeus',
+				],
+				'frumenties'=>[
+					'frumenteis',
+				],
+				'frumpier'=>[
+					'frumpeir',
+				],
+				'frumpiest'=>[
+					'frumpeist',
 				],
 				'frumpiness'=>[
 					'frumpines',
@@ -9889,11 +14863,24 @@
 				'frustrated'=>[
 					'frustated',
 				],
+				'frustration'=>[
+					'frustratoin',
+					'frustraton',
+				],
+				'frustrations'=>[
+					'frustratoins',
+					'frustratons',
+				],
 				'frustule'=>[
 					'frustrule',
 				],
 				'frustum'=>[
 					'frustrum',
+				],
+				'frutescent'=>[
+					'frutecent',
+					'frutescant',
+					'frutesent',
 				],
 				'fryable'=>[
 					'fryible',
@@ -9912,9 +14899,27 @@
 				],
 				'fuchsia'=>[
 					'fuschia',
+					'fuchsai',
 				],
 				'fuchsias'=>[
 					'fuschias',
+					'fuchsais',
+				],
+				'fuckhead'=>[
+					'fuchead',
+					'fuckead',
+					'fuckhaed',
+				],
+				'fuckheads'=>[
+					'fucheads',
+					'fuckeads',
+					'fuckhaeds',
+				],
+				'fucoid'=>[
+					'fuciod',
+				],
+				'fucoids'=>[
+					'fuciods',
 				],
 				'fucosyllactose'=>[
 					'fucosylactose',
@@ -9941,22 +14946,56 @@
 					'fudddling',
 					'fudling',
 				],
+				'fuehrer'=>[
+					'feuhrer',
+				],
+				'fuehrers'=>[
+					'feuhrers',
+				],
+				'fueled'=>[
+					'feuled',
+				],
+				'fueler'=>[
+					'feuler',
+				],
+				'fueling'=>[
+					'feuling',
+				],
 				'fuelled'=>[
 					'fuellled',
+					'feulled',
 				],
 				'fuelling'=>[
 					'fuellling',
+					'feulling',
+				],
+				'fuels'=>[
+					'feuls',
 				],
 				'fugacious'=>[
 					'fugacous',
+					'fugaciuos',
+					'fugacoius',
+				],
+				'fugaciously'=>[
+					'fugaciousely',
+					'fugaciuosly',
+					'fugacoiusly',
+					'fugacously',
 				],
 				'fugaciousness'=>[
 					'fugaciousnes',
 					'fugaciousnesss',
+					'fugaciuosness',
+					'fugacoiusness',
+					'fugacousness',
 				],
 				'fugaciousnesses'=>[
 					'fugaciousneses',
 					'fugaciousnessses',
+				],
+				'fugacities'=>[
+					'fugaciteis',
 				],
 				'fugally'=>[
 					'fugallly',
@@ -9970,6 +15009,15 @@
 				],
 				'fugitively'=>[
 					'fugitivly',
+				],
+				'fugue'=>[
+					'fugeu',
+				],
+				'fugues'=>[
+					'fugeus',
+				],
+				'fuguist'=>[
+					'fugiust',
 				],
 				'fulfil'=>[
 					'fulfl',
@@ -9998,15 +15046,35 @@
 					'lulfilllnellt',
 					'fullfillment',
 					'fulfilllment',
+					'fulfillmant',
 				],
 				'fulfills'=>[
 					'fulfillls',
+				],
+				'fulfilment'=>[
+					'fulfilmant',
+				],
+				'fulgent'=>[
+					'fulgant',
 				],
 				'fulgently'=>[
 					'fulgentally',
 					'fulgentaly',
 					'fulgentely',
 					'fulgentlly',
+				],
+				'fulgurant'=>[
+					'fulgurent',
+				],
+				'fulguration'=>[
+					'fulguratoin',
+					'fulguraton',
+				],
+				'fulgurous'=>[
+					'fulguruos',
+				],
+				'fuliginous'=>[
+					'fuliginuos',
 				],
 				'full'=>[
 					'full full',
@@ -10021,10 +15089,12 @@
 				'fullback'=>[
 					'fulback',
 					'fulllback',
+					'fullack',
 				],
 				'fullbacks'=>[
 					'fulbacks',
 					'fulllbacks',
+					'fullacks',
 				],
 				'fuller'=>[
 					'fuler',
@@ -10063,6 +15133,7 @@
 				'fullstops'=>[
 					'fulllstops',
 					'fulstops',
+					'fulltops',
 				],
 				'fully'=>[
 					'fulally',
@@ -10082,13 +15153,30 @@
 				'fulminate'=>[
 					'fulminite',
 				],
+				'fulmination'=>[
+					'fulminatoin',
+					'fulminaton',
+				],
+				'fulminations'=>[
+					'fulminatoins',
+					'fulminatons',
+				],
+				'fulminous'=>[
+					'fulminuos',
+				],
 				'fulness'=>[
 					'fulnes',
 					'fulnesss',
 				],
+				'fulsomely'=>[
+					'fulsomly',
+				],
 				'fulsomeness'=>[
 					'fulsomenes',
 					'fulsomenesss',
+				],
+				'fulvous'=>[
+					'fulvuos',
 				],
 				'fumarase'=>[
 					'fumerase',
@@ -10096,14 +15184,33 @@
 				'fumarate'=>[
 					'fumerate',
 				],
+				'fumatorium'=>[
+					'fumatoruim',
+				],
 				'fumfered'=>[
 					'fumferred',
 				],
 				'fumfering'=>[
 					'fumferring',
 				],
+				'fumier'=>[
+					'fumeir',
+				],
+				'fumiest'=>[
+					'fumeist',
+				],
 				'fumigant'=>[
 					'fumigent',
+				],
+				'fumigants'=>[
+					'fumigents',
+				],
+				'fumigation'=>[
+					'fumigatoin',
+					'fumigaton',
+				],
+				'fumitories'=>[
+					'fumitoreis',
 				],
 				'fun'=>[
 					'fun fun',
@@ -10111,29 +15218,71 @@
 				],
 				'function'=>[
 					'funtion',
+					'functoin',
+					'functon',
+				],
+				'functional'=>[
+					'functoinal',
+					'functonal',
+				],
+				'functionalism'=>[
+					'functoinalism',
+				],
+				'functionalisms'=>[
+					'functoinalisms',
+				],
+				'functionalist'=>[
+					'functoinalist',
+				],
+				'functionalists'=>[
+					'functoinalists',
 				],
 				'functionality'=>[
 					'funtionality',
+					'functoinality',
 				],
 				'functionally'=>[
 					'functionaly',
 					'functionallly',
+					'functoinally',
+					'functonally',
+				],
+				'functionaries'=>[
+					'functionareis',
+					'functioneries',
+					'functoinaries',
+					'functonaries',
 				],
 				'functionary'=>[
 					'functionery',
+					'functoinary',
+					'functonary',
+				],
+				'functioned'=>[
+					'functiond',
+					'functoined',
+					'functoned',
 				],
 				'functioning'=>[
 					'functionning',
+					'functoining',
+					'functoning',
 				],
 				'functionless'=>[
 					'functionles',
 					'functionlesss',
+					'functoinless',
 				],
 				'functions'=>[
 					'fuctions',
+					'functoins',
+					'functons',
 				],
 				'fund'=>[
 					'fiind',
+				],
+				'fundament'=>[
+					'fundamant',
 				],
 				'fundamental'=>[
 					'fundametal',
@@ -10148,31 +15297,81 @@
 					'fundamentaly',
 					'fundamentallly',
 				],
+				'fundaments'=>[
+					'fundamants',
+				],
+				'fundraiser'=>[
+					'fundriaser',
+				],
+				'fundraisers'=>[
+					'fundriasers',
+				],
+				'fundraising'=>[
+					'fundaising',
+					'fundriasing',
+					'funraising',
+				],
 				'funeral'=>[
 					'fnneral',
 				],
 				'funerary'=>[
 					'funerery',
 				],
+				'funereal'=>[
+					'funerael',
+				],
 				'funereally'=>[
 					'funereallly',
 					'funerealy',
+					'funeraelly',
+				],
+				'funfair'=>[
+					'fufair',
+					'funair',
+					'funfiar',
+				],
+				'funfairs'=>[
+					'funfiars',
 				],
 				'fungi'=>[
 					'funguses',
 				],
+				'fungibility'=>[
+					'fungability',
+				],
 				'fungible'=>[
 					'fungable',
+				],
+				'fungibles'=>[
+					'fungables',
 				],
 				'fungizone'=>[
 					'fungisone',
 				],
+				'fungoid'=>[
+					'fungiod',
+				],
+				'fungous'=>[
+					'funguos',
+				],
 				'funicular'=>[
 					'funiculer',
+				],
+				'funiculars'=>[
+					'funiculers',
+				],
+				'funkier'=>[
+					'funkeir',
+				],
+				'funkiest'=>[
+					'funkeist',
 				],
 				'funkiness'=>[
 					'funkines',
 					'funkinesss',
+				],
+				'funking'=>[
+					'fuking',
 				],
 				'funnel'=>[
 					'funel',
@@ -10185,6 +15384,8 @@
 				'funnelform'=>[
 					'funelform',
 					'funnnelform',
+					'funneform',
+					'funnelorm',
 				],
 				'funneling'=>[
 					'funeling',
@@ -10214,18 +15415,22 @@
 				'funnier'=>[
 					'funier',
 					'funnnier',
+					'funneir',
 				],
 				'funnies'=>[
 					'funies',
 					'funnnies',
+					'funneis',
 				],
 				'funniest'=>[
 					'funiest',
 					'funnniest',
+					'funneist',
 				],
 				'funnily'=>[
 					'funily',
 					'funnnily',
+					'funnly',
 				],
 				'funniness'=>[
 					'funiness',
@@ -10282,6 +15487,7 @@
 				],
 				'furbelow'=>[
 					'fubelow',
+					'furelow',
 				],
 				'furbelowed'=>[
 					'fubelowed',
@@ -10353,6 +15559,10 @@
 				'furfur'=>[
 					'furfu',
 				],
+				'furfuraceous'=>[
+					'furfuraceuos',
+					'furfuracoeus',
+				],
 				'furfural'=>[
 					'furfual',
 				],
@@ -10373,6 +15583,7 @@
 				],
 				'furies'=>[
 					'fuies',
+					'fureis',
 				],
 				'furioso'=>[
 					'fuioso',
@@ -10382,10 +15593,15 @@
 					'furous',
 					'fiirious',
 					'furions',
+					'furiuos',
+					'furoius',
 				],
 				'furiously'=>[
 					'fuiously',
 					'furously',
+					'furiousely',
+					'furiuosly',
+					'furoiusly',
 				],
 				'furlable'=>[
 					'fulable',
@@ -10413,15 +15629,19 @@
 				],
 				'furlough'=>[
 					'fulough',
+					'furluogh',
 				],
 				'furloughed'=>[
 					'fuloughed',
+					'furluoghed',
 				],
 				'furloughing'=>[
 					'fuloughing',
+					'furluoghing',
 				],
 				'furloughs'=>[
 					'fuloughs',
+					'furluoghs',
 				],
 				'furmenties'=>[
 					'fumenties',
@@ -10521,6 +15741,7 @@
 				'furrier'=>[
 					'furier',
 					'furrrier',
+					'furreir',
 				],
 				'furrieries'=>[
 					'furieries',
@@ -10528,14 +15749,18 @@
 				'furriers'=>[
 					'furiers',
 					'furrriers',
+					'furreirs',
 				],
 				'furriery'=>[
 					'furiery',
 					'furrriery',
+					'furreiry',
+					'furriary',
 				],
 				'furriest'=>[
 					'furiest',
 					'furrriest',
+					'furreist',
 				],
 				'furrily'=>[
 					'furily',
@@ -10613,6 +15838,7 @@
 				],
 				'furthered'=>[
 					'futhered',
+					'furtherd',
 				],
 				'furtherer'=>[
 					'futherer',
@@ -10631,9 +15857,12 @@
 					'furthrmore',
 					'futhermore',
 					'furthermoure',
+					'furtherore',
 				],
 				'furthermost'=>[
 					'futhermost',
+					'furthemost',
+					'furtherost',
 				],
 				'furthers'=>[
 					'futhers',
@@ -10647,6 +15876,7 @@
 				],
 				'furtively'=>[
 					'futively',
+					'furtivly',
 				],
 				'furtiveness'=>[
 					'futiveness',
@@ -10658,9 +15888,11 @@
 				],
 				'furuncle'=>[
 					'fuuncle',
+					'furncle',
 				],
 				'furuncles'=>[
 					'fuuncles',
+					'furncles',
 				],
 				'furunculoses'=>[
 					'fuunculoses',
@@ -10685,6 +15917,21 @@
 			#	'fuse'=>[
 			#		'fuze',
 			#	],
+				'fusain'=>[
+					'fusian',
+				],
+				'fusains'=>[
+					'fusians',
+				],
+				'fuscous'=>[
+					'fucous',
+					'fuscuos',
+					'fusous',
+				],
+				'fuseboxes'=>[
+					'fusboxes',
+					'fuseoxes',
+				],
 				'fusee'=>[
 					'fuseee',
 				],
@@ -10696,6 +15943,7 @@
 				],
 				'fusibility'=>[
 					'fuisbility',
+					'fusability',
 				],
 				'fusible'=>[
 					'fusable',
@@ -10719,6 +15967,7 @@
 				],
 				'fusiliers'=>[
 					'fuisliers',
+					'fusileirs',
 				],
 				'fusillade'=>[
 					'fuisllade',
@@ -10743,11 +15992,18 @@
 			#	'fusing'=>[
 			#		'fuzing',
 			#	],
+				'fusion'=>[
+					'fusoin',
+				],
 				'fusional'=>[
 					'fuisonal',
+					'fusoinal',
+					'fusonal',
 				],
 				'fusionism'=>[
 					'fuisonism',
+					'fusoinism',
+					'fusonism',
 				],
 				'fusionisms'=>[
 					'fuisonisms',
@@ -10758,9 +16014,16 @@
 				'fusionists'=>[
 					'fuisonists',
 				],
+				'fusions'=>[
+					'fusoins',
+				],
 				'fuss'=>[
 					'fus',
 					'fusss',
+				],
+				'fussbudget'=>[
+					'fusbudget',
+					'fussudget',
 				],
 				'fussed'=>[
 					'fusssed',
@@ -10773,10 +16036,12 @@
 				],
 				'fussier'=>[
 					'fusssier',
+					'fusseir',
 				],
 				'fussiest'=>[
 					'fusiest',
 					'fusssiest',
+					'fusseist',
 				],
 				'fussily'=>[
 					'fusssily',
@@ -10794,6 +16059,10 @@
 					'fuspot',
 					'fussspot',
 				],
+				'fusspots'=>[
+					'fuspots',
+					'fussots',
+				],
 				'fussy'=>[
 					'fuscy',
 					'fusy',
@@ -10805,6 +16074,13 @@
 				],
 				'fustian'=>[
 					'fustan',
+					'fustain',
+				],
+				'fustier'=>[
+					'fusteir',
+				],
+				'fustiest'=>[
+					'fusteist',
 				],
 				'fustiness'=>[
 					'fustines',
@@ -10821,6 +16097,7 @@
 				],
 				'futilitarian'=>[
 					'futilitaran',
+					'futilitarain',
 				],
 				'futon'=>[
 					'futton',
@@ -10839,6 +16116,9 @@
 					'futuristicallly',
 					'futuristicaly',
 				],
+				'futurities'=>[
+					'futuriteis',
+				],
 				'fuzee'=>[
 					'fuzeee',
 				],
@@ -10856,9 +16136,11 @@
 				],
 				'fuzzier'=>[
 					'fuzzzier',
+					'fuzzeir',
 				],
 				'fuzziest'=>[
 					'fuzzziest',
+					'fuzzeist',
 				],
 				'fuzzification'=>[
 					'fuzzyfication',

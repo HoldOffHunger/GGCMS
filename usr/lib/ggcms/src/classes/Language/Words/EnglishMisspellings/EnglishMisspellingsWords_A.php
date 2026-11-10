@@ -153,14 +153,22 @@
 				'abandoned'=>[
 					'abandonded',
 					'abancloned',
+					'abandond',
 				],
 				'abandonment'=>[
 					'abandoment',
 					'abandonent',
+					'abandonmant',
 				],
 				'abandonments'=>[
 					'abandoments',
 					'abandonents',
+				],
+				'abasement'=>[
+					'abasemant',
+				],
+				'abashment'=>[
+					'abashmant',
 				],
 				'abatement'=>[
 					'abatemant',
@@ -168,10 +176,15 @@
 				'abattoir'=>[
 					'abatoir',
 					'abatttoir',
+					'abattior',
 				],
 				'abattoirs'=>[
 					'abatoirs',
 					'abatttoirs',
+					'abattiors',
+				],
+				'abaxial'=>[
+					'abaxail',
 				],
 				'abb'=>[
 					'abbb',
@@ -183,6 +196,7 @@
 				'abbacies'=>[
 					'abacies',
 					'abbbacies',
+					'abbaceis',
 				],
 				'abbacy'=>[
 					'abacy',
@@ -196,6 +210,7 @@
 				'abbatial'=>[
 					'abatial',
 					'abbbatial',
+					'abbatail',
 				],
 				'abbe'=>[
 					'abe',
@@ -251,40 +266,65 @@
 				'abbreviate'=>[
 					'abreviate',
 					'abbbreviate',
+					'abbrevaite',
 				],
 				'abbreviated'=>[
 					'abbrieviated',
 					'abbriviated',
 					'abreviated',
 					'abbbreviated',
+					'abbrevaited',
 				],
 				'abbreviates'=>[
 					'abreviates',
 					'abbbreviates',
+					'abbrevaites',
 				],
 				'abbreviating'=>[
 					'abreviating',
 					'abbbreviating',
+					'abbrevaiting',
 				],
 				'abbreviation'=>[
 					'abbriviation',
 					'abreviation',
 					'abbbreviation',
+					'abbrevaition',
+					'abbreviatoin',
+					'abbreviaton',
 				],
 				'abbreviations'=>[
 					'abreviation',
 					'abreviations',
 					'abbbreviations',
+					'abbrevaitions',
+					'abbreviatoins',
+					'abbreviatons',
 				],
 				'abbreviator'=>[
 					'abreviator',
 					'abbbreviator',
+					'abbrevaitor',
 				],
 				'abbreviators'=>[
 					'abreviators',
 				],
 				'abby'=>[
 					'abbby',
+				],
+				'abcoulomb'=>[
+					'abcuolomb',
+				],
+				'abcoulombs'=>[
+					'abcuolombs',
+				],
+				'abdication'=>[
+					'abdicatoin',
+					'abdicaton',
+				],
+				'abdications'=>[
+					'abdicatoins',
+					'abdicatons',
 				],
 				'abdominal'=>[
 					'abdomenal',
@@ -299,8 +339,35 @@
 				'abdominoplasty'=>[
 					'abdomenoplasty',
 				],
+				'abdominous'=>[
+					'abdominuos',
+				],
+				'abducent'=>[
+					'abducant',
+				],
+				'abduction'=>[
+					'abductoin',
+					'abducton',
+				],
+				'abductions'=>[
+					'abductoins',
+					'abductons',
+				],
+				'abeam'=>[
+					'abaem',
+				],
 				'abecedarian'=>[
 					'abecedaran',
+					'abecedarain',
+				],
+				'abecedarians'=>[
+					'abecedarains',
+				],
+				'abecedarium'=>[
+					'abecedaruim',
+				],
+				'abecedary'=>[
+					'abecedery',
 				],
 				'abelian'=>[
 					'abelan',
@@ -316,15 +383,19 @@
 				'aberrances'=>[
 					'aberances',
 					'aberrrances',
+					'aberrences',
 				],
 				'aberrancies'=>[
 					'aberancies',
 					'aberrrancies',
+					'aberranceis',
+					'aberrencies',
 				],
 				'aberrancy'=>[
 					'aberransy',
 					'aberancy',
 					'aberrrancy',
+					'aberrency',
 				],
 				'aberrant'=>[
 					'abberant',
@@ -335,22 +406,36 @@
 				'aberrantly'=>[
 					'aberantly',
 					'aberrrantly',
+					'aberrantely',
+					'aberrently',
 				],
 				'aberration'=>[
 					'abberation',
 					'aberation',
 					'aberrration',
+					'aberratoin',
+					'aberraton',
 				],
 				'aberrational'=>[
 					'aberrrational',
+					'aberratoinal',
+					'aberratonal',
 				],
 				'aberrations'=>[
 					'aberations',
 					'aberrrations',
+					'aberratoins',
+					'aberratons',
 				],
 				'abessive'=>[
 					'abesive',
 					'abesssive',
+				],
+				'abetment'=>[
+					'abetmant',
+				],
+				'abetments'=>[
+					'abetmants',
 				],
 				'abetted'=>[
 					'abettted',
@@ -379,6 +464,12 @@
 				'abeyancy'=>[
 					'abeyansy',
 				],
+				'abeyant'=>[
+					'abeyent',
+				],
+				'abhenries'=>[
+					'abhenreis',
+				],
 				'abhorred'=>[
 					'abhorrred',
 				],
@@ -398,6 +489,8 @@
 				'abhorrently'=>[
 					'abhorently',
 					'abhorrrently',
+					'abhorrantly',
+					'abhorrentely',
 				],
 				'abhorrer'=>[
 					'abhorrrer',
@@ -412,8 +505,14 @@
 				'abidance'=>[
 					'abidence',
 				],
+				'abies'=>[
+					'abeis',
+				],
 				'abietadienic'=>[
 					'abietadenic',
+				],
+				'abigail'=>[
+					'abigial',
 				],
 				'abilities'=>[
 					'abbilities',
@@ -421,6 +520,7 @@
 					'abilties',
 					'ablities',
 					'abihties',
+					'abiliteis',
 				],
 				'ability'=>[
 					'abbility',
@@ -430,23 +530,71 @@
 					'abihty',
 					'abilily',
 				],
+				'abiogeneses'=>[
+					'aboigeneses',
+				],
+				'abiogenesis'=>[
+					'aboigenesis',
+				],
+				'abiogenetic'=>[
+					'aboigenetic',
+				],
 				'abiogenically'=>[
 					'abiogenicaly',
+				],
+				'abiosis'=>[
+					'aboisis',
+				],
+				'abiotic'=>[
+					'aboitic',
 				],
 				'abirritant'=>[
 					'abiritant',
 					'abirrritant',
+					'abirritent',
 				],
 				'abirritate'=>[
 					'abiritate',
 					'abirrritate',
 				],
+				'abjection'=>[
+					'abjectoin',
+					'abjecton',
+				],
+				'abjectly'=>[
+					'abjectely',
+				],
 				'abjectness'=>[
 					'abjectnes',
 					'abjectnesss',
 				],
+				'abjuration'=>[
+					'abjuratoin',
+					'abjuraton',
+				],
+				'abjurations'=>[
+					'abjuratoins',
+					'abjuratons',
+				],
+				'abjured'=>[
+					'abjurd',
+				],
+				'ablation'=>[
+					'ablatoin',
+					'ablaton',
+				],
+				'ablations'=>[
+					'ablatoins',
+					'ablatons',
+				],
 				'ablatively'=>[
 					'ablativly',
+				],
+				'ablaut'=>[
+					'abluat',
+				],
+				'ablauts'=>[
+					'abluats',
 				],
 				'able'=>[
 					'able able',
@@ -455,6 +603,15 @@
 				'ableism'=>[
 					'abliesm',
 				],
+				'ableisms'=>[
+					'abliesms',
+				],
+				'ableist'=>[
+					'abliest',
+				],
+				'ablepsia'=>[
+					'ablepsai',
+				],
 				'abloom'=>[
 					'ablom',
 					'ablooom',
@@ -462,8 +619,20 @@
 				'abluminal'=>[
 					'ablumenal',
 				],
+				'ablution'=>[
+					'ablutoin',
+					'abluton',
+				],
 				'ablutionary'=>[
 					'ablutionery',
+				],
+				'ablutions'=>[
+					'ablutoins',
+					'ablutons',
+				],
+				'abnegation'=>[
+					'abnegatoin',
+					'abnegaton',
 				],
 				'abnormal'=>[
 					'abnourmal',
@@ -503,17 +672,30 @@
 				'abolishing'=>[
 					'abolifhing',
 				],
+				'abolishment'=>[
+					'abolishmant',
+				],
+				'abolishments'=>[
+					'abolishmants',
+				],
 				'abolition'=>[
 					'aboliton',
+					'abolitoin',
 				],
 				'abolitionary'=>[
 					'abolitionery',
 				],
 				'abolitionism'=>[
 					'abolitonism',
+					'abolitoinism',
 				],
 				'abolitionist'=>[
 					'abolitonist',
+					'abolitoinist',
+				],
+				'abolitionists'=>[
+					'abolitoinists',
+					'abolitonists',
 				],
 				'abominable'=>[
 					'abominible',
@@ -523,12 +705,19 @@
 					'abominabaly',
 					'abominabely',
 					'abominablly',
+					'abominibly',
 				],
 				'abominate'=>[
 					'abominite',
 				],
 				'abomination'=>[
 					'abominition',
+					'abominatoin',
+					'abominaton',
+				],
+				'abominations'=>[
+					'abominatoins',
+					'abominatons',
 				],
 				'aboriginal'=>[
 					'aboriginil',
@@ -553,8 +742,44 @@
 					'abortifaciants',
 					'abortifacints',
 				],
+				'abortion'=>[
+					'abortoin',
+					'aborton',
+				],
+				'abortionist'=>[
+					'abortoinist',
+					'abortonist',
+				],
+				'abortionists'=>[
+					'abortoinists',
+					'abortonists',
+				],
+				'abortions'=>[
+					'abortoins',
+					'abortons',
+				],
 				'abortively'=>[
 					'abortivly',
+				],
+				'aboulia'=>[
+					'aboulai',
+					'abuolia',
+				],
+				'aboulias'=>[
+					'aboulais',
+					'abuolias',
+				],
+				'abound'=>[
+					'abuond',
+				],
+				'abounded'=>[
+					'abuonded',
+				],
+				'abounding'=>[
+					'abuonding',
+				],
+				'abounds'=>[
+					'abuonds',
 				],
 				'about'=>[
 					'abont',
@@ -565,6 +790,7 @@
 					'aboiit',
 					'abouc',
 					'aboul',
+					'abuot',
 				],
 				'above'=>[
 					'above above',
@@ -575,14 +801,33 @@
 				'above its'=>[
 					'above it\'s',
 				],
+				'aboveboard'=>[
+					'abovboard',
+					'abovebaord',
+					'aboveoard',
+				],
+				'aboveground'=>[
+					'abovegruond',
+					'aboveround',
+					'abovground',
+				],
 				'abradant'=>[
 					'abradent',
 				],
 				'abradants'=>[
 					'abradents',
 				],
+				'abranchiate'=>[
+					'abranchaite',
+				],
 				'abrasion'=>[
 					'abration',
+					'abrasoin',
+					'abrason',
+				],
+				'abrasions'=>[
+					'abrasoins',
+					'abrasons',
 				],
 				'abrasively'=>[
 					'abrasivly',
@@ -591,11 +836,67 @@
 					'abrasivenes',
 					'abrasivenesss',
 				],
+				'abreact'=>[
+					'abraect',
+				],
+				'abreacted'=>[
+					'abraected',
+				],
+				'abreacting'=>[
+					'abraecting',
+				],
+				'abreaction'=>[
+					'abraection',
+					'abreactoin',
+					'abreacton',
+				],
+				'abreactions'=>[
+					'abraections',
+					'abreactoins',
+					'abreactons',
+				],
+				'abreacts'=>[
+					'abraects',
+				],
 				'abreast'=>[
 					'abrest',
 				],
 				'abreuvoir'=>[
 					'abbreuvoir',
+				],
+				'abridgement'=>[
+					'abridgemant',
+				],
+				'abridgements'=>[
+					'abridgemants',
+				],
+				'abridgment'=>[
+					'abridgmant',
+				],
+				'abridgments'=>[
+					'abridgmants',
+				],
+				'abroach'=>[
+					'abraoch',
+				],
+				'abroad'=>[
+					'abraod',
+				],
+				'abrogation'=>[
+					'abrogatoin',
+					'abrogaton',
+				],
+				'abrogations'=>[
+					'abrogatoins',
+					'abrogatons',
+				],
+				'abruption'=>[
+					'abruptoin',
+					'abrupton',
+				],
+				'abruptions'=>[
+					'abruptoins',
+					'abruptons',
 				],
 				'abruptly'=>[
 					'abruptally',
@@ -617,15 +918,37 @@
 				'abscessed'=>[
 					'abscesed',
 					'abscesssed',
+					'abcessed',
+					'absessed',
 				],
 				'abscesses'=>[
 					'abcesses',
 					'absceses',
 					'abscessses',
+					'absesses',
 				],
 				'abscessing'=>[
 					'abscesing',
 					'abscesssing',
+					'abcessing',
+					'absessing',
+				],
+				'abscind'=>[
+					'abcind',
+					'absind',
+				],
+				'abscise'=>[
+					'abcise',
+					'absise',
+				],
+				'abscised'=>[
+					'abcised',
+				],
+				'abscises'=>[
+					'abcises',
+				],
+				'abscising'=>[
+					'abcising',
 				],
 				'abscissa'=>[
 					'abcissa',
@@ -637,25 +960,64 @@
 				'abscissae'=>[
 					'abscisae',
 					'abscisssae',
+					'abcissae',
+					'abscissea',
+					'absissae',
 				],
 				'abscissas'=>[
 					'abscisas',
 					'abscisssas',
+					'abcissas',
+					'absissas',
 				],
 				'abscission'=>[
 					'abscisssion',
+					'abcission',
+					'abscissoin',
+					'abscisson',
+					'absission',
 				],
 				'abscond'=>[
 					'abcond',
 					'abcsond',
 					'absond',
 				],
+				'absconded'=>[
+					'abconded',
+					'absonded',
+				],
+				'absconder'=>[
+					'abconder',
+					'absonder',
+				],
+				'absconders'=>[
+					'abconders',
+					'absonders',
+				],
+				'absconding'=>[
+					'abconding',
+					'absonding',
+				],
+				'absconds'=>[
+					'abconds',
+					'absonds',
+				],
 				'abseil'=>[
 					'absiel',
 					'absail',
 				],
+				'abseiled'=>[
+					'absieled',
+				],
+				'abseiler'=>[
+					'absieler',
+				],
 				'abseiling'=>[
 					'absailing',
+					'absieling',
+				],
+				'abseils'=>[
+					'absiels',
 				],
 				'absence'=>[
 					'absance',
@@ -699,6 +1061,10 @@
 					'absentely',
 					'absentlly',
 				],
+				'absentminded'=>[
+					'absenminded',
+					'absentinded',
+				],
 				'absentmindedly'=>[
 					'absantmindedly',
 				],
@@ -730,13 +1096,28 @@
 				],
 				'absolution'=>[
 					'abfolution',
+					'absolutoin',
+					'absoluton',
+				],
+				'absolutization'=>[
+					'absolutizatoin',
+					'absolutizaton',
+				],
+				'absolvable'=>[
+					'absolvible',
 				],
 				'absolved'=>[
 					'abfolved',
 				],
+				'absonant'=>[
+					'absonent',
+				],
 				'absorbabilities'=>[
 					'absorbabiliteis',
 					'absorbabilitis',
+				],
+				'absorbable'=>[
+					'absorbible',
 				],
 				'absorbance'=>[
 					'absorbence',
@@ -749,6 +1130,10 @@
 					'absored',
 					'asorbed',
 				],
+				'absorbefacient'=>[
+					'absorbefaceint',
+					'absorbefaciant',
+				],
 				'absorbency'=>[
 					'absorbancy',
 					'absorbensy',
@@ -759,10 +1144,19 @@
 				'absorptance'=>[
 					'absorptence',
 				],
+				'absorptances'=>[
+					'absorptences',
+				],
 				'absorption'=>[
 					'absorbsion',
 					'absorbtion',
 					'absorpsion',
+					'absorptoin',
+					'absorpton',
+				],
+				'absorptions'=>[
+					'absorptoins',
+					'absorptons',
 				],
 				'absorptivities'=>[
 					'absorptiviteis',
@@ -771,33 +1165,93 @@
 				'absorptivity'=>[
 					'absorbtivity',
 				],
+				'absquatulate'=>[
+					'absqautulate',
+				],
+				'absquatulated'=>[
+					'absqautulated',
+				],
+				'absquatulates'=>[
+					'absqautulates',
+				],
+				'absquatulating'=>[
+					'absqautulating',
+				],
+				'absquatulation'=>[
+					'absqautulation',
+					'absquatulatoin',
+					'absquatulaton',
+				],
 				'abstain'=>[
 					'abftain',
+					'abstian',
 				],
 				'abstained'=>[
 					'abftained',
+					'abstaind',
+					'abstianed',
+				],
+				'abstainer'=>[
+					'abstianer',
+				],
+				'abstainers'=>[
+					'abstianers',
 				],
 				'abstaining'=>[
 					'abftaining',
+					'abstianing',
+				],
+				'abstains'=>[
+					'abstians',
 				],
 				'abstemious'=>[
 					'abstemous',
 					'abstenious',
+					'abstemiuos',
+					'abstemoius',
 				],
 				'abstemiously'=>[
 					'abstemously',
+					'abstemiousely',
+					'abstemiuosly',
+					'abstemoiusly',
 				],
 				'abstemiousness'=>[
 					'abstemiousnes',
 					'abstemiousnesss',
+					'abstemiuosness',
+					'abstemoiusness',
+					'abstemousness',
+				],
+				'abstention'=>[
+					'abstentoin',
+					'abstenton',
+				],
+				'abstentions'=>[
+					'abstentoins',
+					'abstentons',
 				],
 				'abstentious'=>[
 					'abstentous',
+				],
+				'abstergent'=>[
+					'abstergant',
 				],
 				'abstinence'=>[
 					'abstinance',
 					'abstinince',
 					'abstenance',
+				],
+				'abstinent'=>[
+					'abstinant',
+				],
+				'abstinently'=>[
+					'abstinantly',
+					'abstinentely',
+				],
+				'abstract'=>[
+					'absract',
+					'abtract',
 				],
 				'abstractedly'=>[
 					'abstractedally',
@@ -812,6 +1266,31 @@
 				'abstraction'=>[
 					'abstration',
 					'abtraction',
+					'absraction',
+					'abstractoin',
+					'abstracton',
+				],
+				'abstractionism'=>[
+					'abstractoinism',
+					'abstractonism',
+				],
+				'abstractionisms'=>[
+					'abstractoinisms',
+				],
+				'abstractionist'=>[
+					'abstractoinist',
+					'abstractonist',
+				],
+				'abstractionists'=>[
+					'abstractoinists',
+					'abstractonists',
+				],
+				'abstractions'=>[
+					'abstractoins',
+					'abstractons',
+				],
+				'abstractly'=>[
+					'abstractely',
 				],
 				'abstractness'=>[
 					'abstractnes',
@@ -823,6 +1302,10 @@
 				],
 				'abstracts'=>[
 					'abtracts',
+				],
+				'abstriction'=>[
+					'abstrictoin',
+					'abstricton',
 				],
 				'abstrusely'=>[
 					'abstrusly',
@@ -840,12 +1323,21 @@
 				'absurd'=>[
 					'abfurd',
 				],
+				'absurdities'=>[
+					'absurditeis',
+				],
 				'absurdness'=>[
 					'absurdnes',
 					'absurdnesss',
 				],
 				'abubble'=>[
 					'abuble',
+				],
+				'abulia'=>[
+					'abulai',
+				],
+				'abulias'=>[
+					'abulais',
 				],
 				'abundance'=>[
 					'abudance',
@@ -854,6 +1346,7 @@
 				'abundances'=>[
 					'abundacies',
 					'abundancies',
+					'abundences',
 				],
 				'abundant'=>[
 					'abundent',
@@ -862,6 +1355,7 @@
 				],
 				'abundantly'=>[
 					'abundently',
+					'abundantely',
 				],
 				'abusable'=>[
 					'abuseable',
@@ -892,6 +1386,12 @@
 				],
 				'abut'=>[
 					'abutt',
+				],
+				'abutment'=>[
+					'abutmant',
+				],
+				'abutments'=>[
+					'abutmants',
 				],
 				'abuts'=>[
 					'abutts',
@@ -943,6 +1443,15 @@
 				'abysses'=>[
 					'abyssses',
 				],
+				'acacia'=>[
+					'acacai',
+				],
+				'acacias'=>[
+					'acacais',
+				],
+				'academia'=>[
+					'academai',
+				],
 				'academic'=>[
 					'acadamic',
 					'acadmic',
@@ -956,6 +1465,13 @@
 				],
 				'academician'=>[
 					'academican',
+					'academicain',
+				],
+				'academicians'=>[
+					'academicains',
+				],
+				'academies'=>[
+					'academeis',
 				],
 				'academy'=>[
 					'acadamy',
@@ -965,6 +1481,10 @@
 				'académie'=>[
 					'academie',
 				],
+				'acanthaceous'=>[
+					'acanthaceuos',
+					'acanthacoeus',
+				],
 				'acanthamoeba'=>[
 					'acanthomoeba',
 				],
@@ -972,8 +1492,41 @@
 					'acenthocephalan',
 					'acantocephalan',
 				],
+				'acanthoid'=>[
+					'acanthiod',
+				],
+				'acanthopterygian'=>[
+					'acanthopterygain',
+				],
+				'acanthopterygians'=>[
+					'acanthopterygains',
+				],
+				'acanthous'=>[
+					'acanthuos',
+				],
 				'acanthus'=>[
 					'acenthus',
+				],
+				'acariases'=>[
+					'acaraises',
+				],
+				'acariasis'=>[
+					'acaraisis',
+				],
+				'acaroid'=>[
+					'acariod',
+				],
+				'acarpous'=>[
+					'acarpuos',
+				],
+				'acaudal'=>[
+					'acuadal',
+				],
+				'acaulescent'=>[
+					'acaulecent',
+					'acaulescant',
+					'acaulesent',
+					'acualescent',
 				],
 				'accede'=>[
 					'acede',
@@ -1049,10 +1602,14 @@
 					'accelleration',
 					'aceleration',
 					'accceleration',
+					'acceleratoin',
+					'acceleraton',
 				],
 				'accelerations'=>[
 					'acelerations',
 					'acccelerations',
+					'acceleratoins',
+					'acceleratons',
 				],
 				'accelerative'=>[
 					'acelerative',
@@ -1118,10 +1675,12 @@
 				'accentuated'=>[
 					'acentuated',
 					'acccentuated',
+					'accentauted',
 				],
 				'accentuates'=>[
 					'acentuates',
 					'acccentuates',
+					'accentautes',
 				],
 				'accentuating'=>[
 					'accentauting',
@@ -1132,6 +1691,8 @@
 					'accentaution',
 					'acentuation',
 					'acccentuation',
+					'accentuatoin',
+					'accentuaton',
 				],
 				'accentuations'=>[
 					'accentautions',
@@ -1150,6 +1711,8 @@
 					'aceptability',
 					'acceptibility',
 					'accceptability',
+					'accepability',
+					'acceptbility',
 				],
 				'acceptable'=>[
 					'acceptible',
@@ -1161,10 +1724,12 @@
 					'acceptablenes',
 					'acceptablenesss',
 					'accceptableness',
+					'acceptibleness',
 				],
 				'acceptably'=>[
 					'aceptably',
 					'accceptably',
+					'acceptibly',
 				],
 				'acceptance'=>[
 					'acceptence',
@@ -1174,18 +1739,24 @@
 				'acceptances'=>[
 					'aceptances',
 					'accceptances',
+					'acceptences',
 				],
 				'acceptant'=>[
 					'aceptant',
 					'accceptant',
+					'acceptent',
 				],
 				'acceptation'=>[
 					'aceptation',
 					'accceptation',
+					'acceptatoin',
+					'acceptaton',
 				],
 				'acceptations'=>[
 					'aceptations',
 					'accceptations',
+					'acceptatoins',
+					'acceptatons',
 				],
 				'accepted'=>[
 					'acepted',
@@ -1253,6 +1824,8 @@
 				'accessaries'=>[
 					'acessaries',
 					'acccessaries',
+					'accessareis',
+					'accesseries',
 				],
 				'accessary'=>[
 					'accessery',
@@ -1300,12 +1873,14 @@
 					'accessiblenesss',
 					'accesssibleness',
 					'acccessibleness',
+					'accessableness',
 				],
 				'accessibly'=>[
 					'acessibly',
 					'accesibly',
 					'accesssibly',
 					'acccessibly',
+					'accessably',
 				],
 				'accessing'=>[
 					'acessing',
@@ -1318,30 +1893,41 @@
 					'acession',
 					'accesssion',
 					'acccession',
+					'accessoin',
+					'accesson',
 				],
 				'accessional'=>[
 					'acessional',
 					'accesional',
 					'accesssional',
 					'acccessional',
+					'accessoinal',
+					'accessonal',
 				],
 				'accessioned'=>[
 					'acessioned',
 					'accesioned',
 					'accesssioned',
 					'acccessioned',
+					'accessiond',
+					'accessoined',
+					'accessoned',
 				],
 				'accessioning'=>[
 					'acessioning',
 					'accesioning',
 					'accesssioning',
 					'acccessioning',
+					'accessoining',
+					'accessoning',
 				],
 				'accessions'=>[
 					'acessions',
 					'accesions',
 					'accesssions',
 					'acccessions',
+					'accessoins',
+					'accessons',
 				],
 				'accessor'=>[
 					'accesor',
@@ -1354,6 +1940,7 @@
 					'acessories',
 					'accesssories',
 					'acccessories',
+					'accessoreis',
 				],
 				'accessorise'=>[
 					'acessorise',
@@ -1402,12 +1989,14 @@
 					'accciaccatura',
 					'acciacccatura',
 					'aciaccatura',
+					'accaiccatura',
 				],
 				'acciaccaturas'=>[
 					'acciacaturas',
 					'accciaccaturas',
 					'acciacccaturas',
 					'aciaccaturas',
+					'accaiccaturas',
 				],
 				'accidence'=>[
 					'accidance',
@@ -1417,6 +2006,7 @@
 				'accidences'=>[
 					'acidences',
 					'acccidences',
+					'accidances',
 				],
 				'accident'=>[
 					'accidant',
@@ -1450,6 +2040,7 @@
 				'accidently'=>[
 					'accidantly',
 					'acidently',
+					'accidentely',
 				],
 				'accidents'=>[
 					'accidants',
@@ -1459,6 +2050,7 @@
 				'accidie'=>[
 					'acidie',
 					'acccidie',
+					'accidei',
 				],
 				'accidies'=>[
 					'acidies',
@@ -1480,14 +2072,17 @@
 				'acclaim'=>[
 					'aclaim',
 					'accclaim',
+					'accliam',
 				],
 				'acclaimed'=>[
 					'aclaimed',
 					'accclaimed',
+					'accliamed',
 				],
 				'acclaimer'=>[
 					'aclaimer',
 					'accclaimer',
+					'accliamer',
 				],
 				'acclaimers'=>[
 					'aclaimers',
@@ -1495,18 +2090,24 @@
 				'acclaiming'=>[
 					'aclaiming',
 					'accclaiming',
+					'accliaming',
 				],
 				'acclaims'=>[
 					'aclaims',
 					'accclaims',
+					'accliams',
 				],
 				'acclamation'=>[
 					'aclamation',
 					'accclamation',
+					'acclamatoin',
+					'acclamaton',
 				],
 				'acclamations'=>[
 					'aclamations',
 					'accclamations',
+					'acclamatoins',
+					'acclamatons',
 				],
 				'acclamatory'=>[
 					'accclamatory',
@@ -1531,6 +2132,8 @@
 				'acclimation'=>[
 					'aclimation',
 					'accclimation',
+					'acclimatoin',
+					'acclimaton',
 				],
 				'acclimations'=>[
 					'aclimations',
@@ -1551,6 +2154,8 @@
 					'acclimitization',
 					'aclimatization',
 					'accclimatization',
+					'acclimatizatoin',
+					'acclimatizaton',
 				],
 				'acclimatize'=>[
 					'aclimatize',
@@ -1577,10 +2182,12 @@
 				'acclivities'=>[
 					'aclivities',
 					'accclivities',
+					'accliviteis',
 				],
 				'acclivitous'=>[
 					'accclivitous',
 					'aclivitous',
+					'acclivituos',
 				],
 				'acclivity'=>[
 					'aclivity',
@@ -1649,6 +2256,8 @@
 					'acommodation',
 					'acccommodation',
 					'accommmodation',
+					'accommodatoin',
+					'accommodaton',
 				],
 				'accommodational'=>[
 					'accomnodational',
@@ -1659,12 +2268,16 @@
 					'accommmodationism',
 					'accomodationism',
 					'acommodationism',
+					'accommodatoinism',
+					'accommodatonism',
 				],
 				'accommodationist'=>[
 					'acccommodationist',
 					'accommmodationist',
 					'accomodationist',
 					'acommodationist',
+					'accommodatoinist',
+					'accommodatonist',
 				],
 				'accommodations'=>[
 					'accomnodations',
@@ -1672,6 +2285,8 @@
 					'acommodations',
 					'acccommodations',
 					'accommmodations',
+					'accommodatoins',
+					'accommodatons',
 				],
 				'accommodative'=>[
 					'accomnodative',
@@ -1697,10 +2312,12 @@
 					'acompanied',
 					'acccompanied',
 					'aceompanied',
+					'accompaneid',
 				],
 				'accompanies'=>[
 					'acompanies',
 					'acccompanies',
+					'accompaneis',
 				],
 				'accompaniment'=>[
 					'accompanement',
@@ -1853,18 +2470,26 @@
 					'accordian',
 					'acordion',
 					'acccordion',
+					'accordoin',
+					'accordon',
 				],
 				'accordionist'=>[
 					'acordionist',
 					'acccordionist',
+					'accordoinist',
+					'accordonist',
 				],
 				'accordionists'=>[
 					'acordionists',
 					'acccordionists',
+					'accordoinists',
+					'accordonists',
 				],
 				'accordions'=>[
 					'acordions',
 					'acccordions',
+					'accordoins',
+					'accordons',
 				],
 				'accords'=>[
 					'acords',
@@ -1889,19 +2514,27 @@
 				'accouchement'=>[
 					'acouchement',
 					'acccouchement',
+					'accouchemant',
+					'accuochement',
 				],
 				'accouchements'=>[
 					'acouchements',
 					'acccouchements',
+					'accouchemants',
+					'accuochements',
 				],
 				'accoucheur'=>[
 					'accoucher',
 					'acoucheur',
 					'acccoucheur',
+					'accouchuer',
+					'accuocheur',
 				],
 				'accoucheurs'=>[
 					'acoucheurs',
 					'acccoucheurs',
+					'accouchuers',
+					'accuocheurs',
 				],
 				'account'=>[
 					'acount',
@@ -1913,25 +2546,35 @@
 					'aocount',
 					'aoeount',
 					'aooount',
+					'accuont',
 				],
 				'accountability'=>[
 					'acountability',
 					'acccountability',
+					'accounability',
+					'accountbility',
+					'accountibility',
+					'accuontability',
 				],
 				'accountable'=>[
 					'accountible',
 					'acountable',
 					'acccountable',
+					'accuontable',
 				],
 				'accountableness'=>[
 					'accountablenes',
 					'acountableness',
 					'accountablenesss',
 					'acccountableness',
+					'accountibleness',
+					'accuontableness',
 				],
 				'accountably'=>[
 					'acountably',
 					'acccountably',
+					'accountibly',
+					'accuontably',
 				],
 				'accountancies'=>[
 					'accountanceis',
@@ -1942,15 +2585,20 @@
 					'accountansy',
 					'acountancy',
 					'acccountancy',
+					'accountency',
+					'accuontancy',
 				],
 				'accountant'=>[
 					'accountent',
 					'acountant',
 					'acccountant',
+					'accuontant',
 				],
 				'accountants'=>[
 					'acountants',
 					'acccountants',
+					'accountents',
+					'accuontants',
 				],
 				'accountantship'=>[
 					'accountentship',
@@ -1963,10 +2611,12 @@
 				'accounted'=>[
 					'acounted',
 					'acccounted',
+					'accuonted',
 				],
 				'accounting'=>[
 					'acounting',
 					'acccounting',
+					'accuonting',
 				],
 				'accountings'=>[
 					'acountings',
@@ -1974,59 +2624,79 @@
 				'accounts'=>[
 					'acounts',
 					'acccounts',
+					'accuonts',
 				],
 				'accouplement'=>[
 					'acccouplement',
 					'acouplement',
+					'accouplemant',
+					'accuoplement',
 				],
 				'accouter'=>[
 					'acouter',
 					'acccouter',
+					'accuoter',
 				],
 				'accoutered'=>[
 					'acoutered',
 					'acccoutered',
+					'accouterd',
+					'accuotered',
 				],
 				'accoutering'=>[
 					'acoutering',
 					'acccoutering',
+					'accuotering',
 				],
 				'accouterment'=>[
 					'accoutermant',
 					'acouterment',
 					'acccouterment',
+					'accuoterment',
 				],
 				'accouterments'=>[
 					'acouterments',
 					'acccouterments',
+					'accoutermants',
+					'accuoterments',
 				],
 				'accouters'=>[
 					'acouters',
 					'acccouters',
+					'accuoters',
 				],
 				'accoutre'=>[
 					'acoutre',
 					'acccoutre',
+					'accuotre',
 				],
 				'accoutred'=>[
 					'acoutred',
 					'acccoutred',
+					'accoutrd',
+					'accuotred',
 				],
 				'accoutrement'=>[
 					'acoutrement',
 					'acccoutrement',
+					'accoutremant',
+					'accuotrement',
 				],
 				'accoutrements'=>[
 					'acoutrements',
 					'acccoutrements',
+					'accoutremants',
+					'accuotrements',
 				],
 				'accoutres'=>[
 					'acoutres',
 					'acccoutres',
+					'accuotres',
 				],
 				'accoutring'=>[
 					'acoutring',
 					'acccoutring',
+					'accuotring',
 				],
 				'accra'=>[
 					'acccra',
@@ -2042,6 +2712,8 @@
 				'accreditation'=>[
 					'acreditation',
 					'acccreditation',
+					'accreditatoin',
+					'accreditaton',
 				],
 				'accreditations'=>[
 					'acreditations',
@@ -2061,6 +2733,9 @@
 				'accrescent'=>[
 					'acccrescent',
 					'acrescent',
+					'accrecent',
+					'accrescant',
+					'accresent',
 				],
 				'accrete'=>[
 					'acrete',
@@ -2081,15 +2756,21 @@
 				'accretion'=>[
 					'acretion',
 					'acccretion',
+					'accretoin',
+					'accreton',
 				],
 				'accretionary'=>[
 					'accretionery',
 					'acretionary',
 					'acccretionary',
+					'accretoinary',
+					'accretonary',
 				],
 				'accretions'=>[
 					'acretions',
 					'acccretions',
+					'accretoins',
+					'accretons',
 				],
 				'accretive'=>[
 					'acretive',
@@ -2098,6 +2779,7 @@
 				'accroach'=>[
 					'acccroach',
 					'acroach',
+					'accraoch',
 				],
 				'accruable'=>[
 					'acruable',
@@ -2110,14 +2792,17 @@
 				'accruals'=>[
 					'acruals',
 					'acccruals',
+					'accrauls',
 				],
 				'accrue'=>[
 					'acrue',
 					'acccrue',
+					'accreu',
 				],
 				'accrued'=>[
 					'acrued',
 					'acccrued',
+					'accreud',
 				],
 				'accruement'=>[
 					'acruement',
@@ -2128,10 +2813,12 @@
 				'accrues'=>[
 					'acrues',
 					'acccrues',
+					'accreus',
 				],
 				'accruing'=>[
 					'acruing',
 					'acccruing',
+					'accriung',
 				],
 				'acculturate'=>[
 					'aculturate',
@@ -2152,6 +2839,8 @@
 				'acculturation'=>[
 					'aculturation',
 					'accculturation',
+					'acculturatoin',
+					'acculturaton',
 				],
 				'acculturational'=>[
 					'aculturational',
@@ -2192,10 +2881,14 @@
 					'acumulation',
 					'accummulation',
 					'acccumulation',
+					'accumulatoin',
+					'accumulaton',
 				],
 				'accumulations'=>[
 					'acumulations',
 					'acccumulations',
+					'accumulatoins',
+					'accumulatons',
 				],
 				'accumulative'=>[
 					'acumulative',
@@ -2216,6 +2909,7 @@
 				'accuracies'=>[
 					'acuracies',
 					'acccuracies',
+					'accuraceis',
 				],
 				'accuracy'=>[
 					'accurasy',
@@ -2291,10 +2985,14 @@
 				'accusation'=>[
 					'acusation',
 					'acccusation',
+					'accusatoin',
+					'accusaton',
 				],
 				'accusations'=>[
 					'acusations',
 					'acccusations',
+					'accusatoins',
+					'accusatons',
 				],
 				'accusative'=>[
 					'acusative',
@@ -2307,6 +3005,7 @@
 				'accusatorial'=>[
 					'acccusatorial',
 					'acusatorial',
+					'accusatorail',
 				],
 				'accusatory'=>[
 					'acusatory',
@@ -2377,13 +3076,23 @@
 					'acustoms',
 					'acccustoms',
 				],
+				'acedia'=>[
+					'acedai',
+				],
 				'acellular'=>[
 					'acelluler',
+				],
+				'acephalous'=>[
+					'acephaluos',
 				],
 				'acepromazine'=>[
 					'acepromacine',
 					'aceprozamine',
 					'aceptromazine',
+				],
+				'acerate'=>[
+					'aceate',
+					'acrate',
 				],
 				'acerbate'=>[
 					'ascerbate',
@@ -2392,8 +3101,17 @@
 					'acerbicallly',
 					'acerbicaly',
 				],
+				'acerose'=>[
+					'aceose',
+				],
 				'aceruloplasminemia'=>[
 					'acaeruloplasminemia',
+				],
+				'acescent'=>[
+					'acecent',
+					'acescant',
+					'acesent',
+					'acscent',
 				],
 				'acetabular'=>[
 					'acetabuler',
@@ -2408,17 +3126,34 @@
 					'azetasolamide',
 					'azetazolamide',
 				],
+				'acetified'=>[
+					'acetifeid',
+				],
+				'acetifies'=>[
+					'acetifeis',
+				],
 				'acetoclastic'=>[
 					'aceticlastic',
 				],
 				'acetogenin'=>[
 					'actogenin',
 				],
+				'acetone'=>[
+					'aceone',
+					'actone',
+				],
+				'acetonic'=>[
+					'aceonic',
+					'actonic',
+				],
 				'acetonitrile'=>[
 					'actonitrile',
 				],
 				'acetosyringone'=>[
 					'actosyringone',
+				],
+				'acetous'=>[
+					'acetuos',
 				],
 				'acetylcholine'=>[
 					'acetylcholini',
@@ -2429,11 +3164,19 @@
 				'acetylenic'=>[
 					'acetilenic',
 				],
+				'achier'=>[
+					'acheir',
+				],
+				'achiest'=>[
+					'acheist',
+				],
 				'achiev'=>[
 					'acheive',
 				],
 				'achievable'=>[
 					'achieveable',
+					'acheivable',
+					'achievible',
 				],
 				'achieve'=>[
 					'acheive',
@@ -2456,6 +3199,14 @@
 				],
 				'achievements'=>[
 					'achievments',
+					'acheivements',
+					'achievemants',
+				],
+				'achiever'=>[
+					'acheiver',
+				],
+				'achievers'=>[
+					'acheivers',
 				],
 				'achieves'=>[
 					'acheives',
@@ -2470,9 +3221,28 @@
 				'aching'=>[
 					'acliing',
 				],
+				'achlamydeous'=>[
+					'achlamydeuos',
+					'achlamydoeus',
+				],
+				'achlorhydria'=>[
+					'achlorhydrai',
+				],
+				'achlorhydrias'=>[
+					'achlorhydrais',
+				],
+				'achondroplasia'=>[
+					'achondroplasai',
+				],
+				'achondroplasias'=>[
+					'achondroplasais',
+				],
 				'achromatically'=>[
 					'achromaticaly',
 					'achromaticallly',
+				],
+				'achromatous'=>[
+					'achromatuos',
 				],
 				'achtung'=>[
 					'actung',
@@ -2483,9 +3253,38 @@
 				'acid'=>[
 					'acicl',
 				],
+				'acidification'=>[
+					'acidificatoin',
+					'acidificaton',
+				],
+				'acidifications'=>[
+					'acidificatoins',
+					'acidificatons',
+				],
+				'acidified'=>[
+					'acidifeid',
+				],
+				'acidifier'=>[
+					'acidifeir',
+				],
+				'acidifies'=>[
+					'acidifeis',
+				],
+				'acidimetries'=>[
+					'acidimetreis',
+				],
 				'acidness'=>[
 					'acidnes',
 					'acidnesss',
+				],
+				'acidulous'=>[
+					'aciduluos',
+				],
+				'aciduria'=>[
+					'acidurai',
+				],
+				'acierate'=>[
+					'aceirate',
 				],
 				'acinar'=>[
 					'aciner',
@@ -2505,6 +3304,10 @@
 					'ackowledge',
 					'acknowlage',
 				],
+				'acknowledgeable'=>[
+					'acknowledgaeble',
+					'acknowledgeible',
+				],
 				'acknowledged'=>[
 					'acknolwedged',
 					'acknowleged',
@@ -2518,6 +3321,9 @@
 					'acknowledgemant',
 					'acknowlegement',
 					'ackowledgement',
+				],
+				'acknowledgements'=>[
+					'acknowledgemants',
 				],
 				'acknowledges'=>[
 					'acknowleges',
@@ -2547,16 +3353,31 @@
 				],
 				'acoustic'=>[
 					'accoustic',
+					'acuostic',
+				],
+				'acoustical'=>[
+					'acuostical',
 				],
 				'acoustically'=>[
 					'acousticly',
 					'acousticallly',
+					'acuostically',
 				],
 				'acoustician'=>[
 					'acoustican',
+					'acousticain',
+					'acuostician',
+				],
+				'acousticians'=>[
+					'acousticains',
+					'acuosticians',
+				],
+				'acoustics'=>[
+					'acuostics',
 				],
 				'acquaint'=>[
 					'acqauint',
+					'acquiant',
 				],
 				'acquaintance'=>[
 					'acqauintance',
@@ -2565,15 +3386,31 @@
 					'aquaintance',
 					'aquiantance',
 					'acquintance',
+					'acquiantance',
 				],
 				'acquaintances'=>[
 					'acqauintances',
 					'acquiantences',
+					'acquaintences',
+					'acquiantances',
+				],
+				'acquaintanceship'=>[
+					'acqauintanceship',
+					'acquiantanceship',
 				],
 				'acquainted'=>[
 					'acqauinted',
 					'aquainted',
 					'acqnainted',
+					'acquianted',
+				],
+				'acquainting'=>[
+					'acqauinting',
+					'acquianting',
+				],
+				'acquaints'=>[
+					'acqauints',
+					'acquiants',
 				],
 				'acquiantance'=>[
 					'acquaintence',
@@ -2586,6 +3423,13 @@
 					'acquiese',
 					'acquisce',
 					'aquiesce',
+					'acqiuesce',
+				],
+				'acquiesced'=>[
+					'acqiuesced',
+					'acqueisced',
+					'acquieced',
+					'acquiesed',
 				],
 				'acquiescence'=>[
 					'acqueiscence',
@@ -2594,6 +3438,7 @@
 					'acquiescance',
 					'acquiesence',
 					'acquiscence',
+					'acqiuescence',
 				],
 				'acquiescences'=>[
 					'acqueiscences',
@@ -2608,6 +3453,8 @@
 					'acquiecsent',
 					'acquiesent',
 					'acquiscent',
+					'acqiuescent',
+					'acquiescant',
 				],
 				'acquiescently'=>[
 					'acqueiscently',
@@ -2619,69 +3466,128 @@
 					'acquiescentlly',
 					'acquiesently',
 					'acquiscently',
+					'acqiuescently',
+					'acquiescantly',
+				],
+				'acquiesces'=>[
+					'acqiuesces',
+					'acqueisces',
+					'acquieces',
+					'acquieses',
+				],
+				'acquiescing'=>[
+					'acqiuescing',
+					'acqueiscing',
+					'acquiecing',
+					'acquiesing',
+				],
+				'acquirable'=>[
+					'acqiurable',
+					'acquirible',
 				],
 				'acquire'=>[
 					'adquire',
 					'aquire',
 					'acqnire',
+					'acqiure',
 				],
 				'acquired'=>[
 					'aquired',
+					'acqiured',
+					'acquird',
+				],
+				'acquirement'=>[
+					'acqiurement',
+					'acquiremant',
+				],
+				'acquirer'=>[
+					'acqiurer',
+				],
+				'acquirers'=>[
+					'acqiurers',
 				],
 				'acquires'=>[
 					'aquires',
+					'acqiures',
 				],
 				'acquiring'=>[
 					'adquiring',
 					'aquiring',
+					'acqiuring',
 				],
 				'acquisition'=>[
 					'acquistion',
 					'acquistition',
 					'aquicision',
 					'aquisition',
+					'acqiusition',
+					'acquisitoin',
+					'acquisiton',
 				],
 				'acquisitions'=>[
 					'acquistitions',
 					'aquisitions',
+					'acqiusitions',
+					'acquisitoins',
+					'acquisitons',
+				],
+				'acquisitive'=>[
+					'acqiusitive',
 				],
 				'acquisitively'=>[
 					'acquisitivly',
+					'acqiusitively',
 				],
 				'acquisitiveness'=>[
 					'acquisitivenes',
 					'acquisitivenesss',
+					'acqiusitiveness',
 				],
 				'acquit'=>[
 					'aquit',
+					'acqiut',
+				],
+				'acquits'=>[
+					'acqiuts',
 				],
 				'acquittal'=>[
 					'acquitttal',
+					'acqiuttal',
 				],
 				'acquittals'=>[
 					'acquitttals',
+					'acqiuttals',
 				],
 				'acquittance'=>[
 					'acquittence',
 					'acquitance',
 					'acquitttance',
+					'acqiuttance',
 				],
 				'acquittances'=>[
 					'acquitances',
 					'acquitttances',
+					'acqiuttances',
+					'acquittences',
 				],
 				'acquitted'=>[
 					'acquited',
 					'aquitted',
 					'acquittted',
+					'acqiutted',
 				],
 				'acquitting'=>[
 					'acquittting',
+					'acqiutting',
 				],
 				'acreage'=>[
 					'acrege',
 					'acerage',
 					'acrage',
+					'acraege',
+				],
+				'acreages'=>[
+					'acraeges',
 				],
 				'acridly'=>[
 					'acridally',
@@ -2698,6 +3604,8 @@
 				],
 				'acrimonious'=>[
 					'acrimonous',
+					'acrimoniuos',
+					'acrimonoius',
 				],
 				'acrimoniously'=>[
 					'acrimoniousally',
@@ -2705,14 +3613,22 @@
 					'acrimoniousely',
 					'acrimoniouslly',
 					'acrimonously',
+					'acrimoniuosly',
+					'acrimonoiusly',
 				],
 				'acrimoniousness'=>[
 					'acrimoniousnes',
 					'acrimoniousnesss',
+					'acrimoniuosness',
+					'acrimonoiusness',
+					'acrimonousness',
 				],
 				'acrobatically'=>[
 					'acrobaticaly',
 					'acrobaticallly',
+				],
+				'acrocarpous'=>[
+					'acrocarpuos',
 				],
 				'acrocentric'=>[
 					'akrocentric',
@@ -2720,17 +3636,37 @@
 				'acrolein'=>[
 					'acrolien',
 				],
+				'acroleins'=>[
+					'acroliens',
+				],
+				'acromegalies'=>[
+					'acromegaleis',
+				],
 				'acromegaly'=>[
 					'acromegaally',
 					'acromegaaly',
 					'acromegaely',
 					'acromegally',
 				],
+				'acromion'=>[
+					'acromoin',
+					'acromon',
+				],
+				'acromions'=>[
+					'acromoins',
+					'acromons',
+				],
 				'acronymically'=>[
 					'acronymicaly',
 				],
+				'acronymous'=>[
+					'acronymuos',
+				],
 				'acrophase'=>[
 					'achrophase',
+				],
+				'acrophobia'=>[
+					'acrophobai',
 				],
 				'acrosome'=>[
 					'acorosome',
@@ -2741,6 +3677,10 @@
 					'acros',
 					'acrosss',
 					'aeross',
+				],
+				'acroterion'=>[
+					'acroteroin',
+					'acroteron',
 				],
 				'act'=>[
 					'act act',
@@ -2754,6 +3694,7 @@
 				],
 				'actinia'=>[
 					'actinaa',
+					'actinai',
 				],
 				'actiniae'=>[
 					'actinaae',
@@ -2767,6 +3708,7 @@
 				],
 				'actinias'=>[
 					'actinaas',
+					'actinais',
 				],
 				'actinic'=>[
 					'actinac',
@@ -2788,9 +3730,13 @@
 				],
 				'actinium'=>[
 					'actinaum',
+					'actinuim',
 				],
 				'actiniums'=>[
 					'actinaums',
+				],
+				'actinoid'=>[
+					'actiniod',
 				],
 				'actinometries'=>[
 					'actinometreis',
@@ -2810,17 +3756,42 @@
 				'actinorhodin'=>[
 					'actinohodin',
 				],
+				'actinouranium'=>[
+					'actinouranuim',
+					'actinuoranium',
+				],
+				'actinozoan'=>[
+					'actinozaon',
+				],
 				'action'=>[
 					'accion',
 					'actiou',
 					'aetion',
+					'actoin',
 				],
 				'actionable'=>[
 					'actionible',
+					'actoinable',
+				],
+				'actionably'=>[
+					'actionibly',
+					'actoinably',
 				],
 				'actionless'=>[
 					'actionles',
 					'actionlesss',
+					'actoinless',
+				],
+				'actions'=>[
+					'actoins',
+				],
+				'activation'=>[
+					'activatoin',
+					'activaton',
+				],
+				'activations'=>[
+					'activatoins',
+					'activatons',
 				],
 				'active'=>[
 					'actiev',
@@ -2841,6 +3812,7 @@
 				],
 				'activities'=>[
 					'activites',
+					'activiteis',
 				],
 				'actomyosin'=>[
 					'actamyosin',
@@ -2863,18 +3835,33 @@
 					'actaul',
 					'actnal',
 				],
+				'actualities'=>[
+					'actaulities',
+					'actualiteis',
+				],
 				'actuality'=>[
 					'actaulity',
 					'actuallity',
 				],
 				'actualization'=>[
 					'actaulization',
+					'actualizatoin',
+					'actualizaton',
 				],
 				'actualizations'=>[
 					'actaulizations',
 				],
 				'actualize'=>[
 					'actaulize',
+				],
+				'actualized'=>[
+					'actaulized',
+				],
+				'actualizes'=>[
+					'actaulizes',
+				],
+				'actualizing'=>[
+					'actaulizing',
 				],
 				'actually'=>[
 					'actaully',
@@ -2892,9 +3879,24 @@
 					'aetually',
 					'attually',
 				],
+				'actuarial'=>[
+					'actaurial',
+					'actuarail',
+				],
 				'actuarially'=>[
 					'actuariallly',
 					'actuarialy',
+					'actaurially',
+					'actuarailly',
+				],
+				'actuaries'=>[
+					'actauries',
+					'actuareis',
+					'actueries',
+				],
+				'actuarily'=>[
+					'actaurily',
+					'actuarly',
 				],
 				'actuary'=>[
 					'actaury',
@@ -2903,14 +3905,40 @@
 				'actuate'=>[
 					'actaute',
 				],
+				'actuated'=>[
+					'actauted',
+				],
+				'actuates'=>[
+					'actautes',
+				],
+				'actuating'=>[
+					'actauting',
+				],
+				'actuation'=>[
+					'actaution',
+					'actuatoin',
+					'actuaton',
+				],
 				'actuator'=>[
 					'actautor',
+				],
+				'actuators'=>[
+					'actautors',
 				],
 				'acuate'=>[
 					'acaute',
 				],
+				'acuity'=>[
+					'aciuty',
+				],
+				'aculeate'=>[
+					'aculaete',
+				],
 				'aculei'=>[
 					'aculie',
+				],
+				'aculeus'=>[
+					'aculues',
 				],
 				'acuminate'=>[
 					'acuminite',
@@ -2935,15 +3963,26 @@
 				'ad nauseam'=>[
 					'ad nauseum',
 				],
+				'adactylous'=>[
+					'adactyluos',
+				],
 				'adagietto'=>[
 					'adagieto',
 					'adagiettto',
+					'adageitto',
+				],
+				'adagio'=>[
+					'adagoi',
+				],
+				'adagios'=>[
+					'adagois',
 				],
 				'adamance'=>[
 					'adamence',
 				],
 				'adamancy'=>[
 					'adamansy',
+					'adamency',
 				],
 				'adamant'=>[
 					'adament',
@@ -2954,16 +3993,31 @@
 				],
 				'adamantly'=>[
 					'adamently',
+					'adamantely',
+				],
+				'adamsite'=>[
+					'adasite',
 				],
 				'adaptabilities'=>[
 					'adaptabiliteis',
 					'adaptabilitis',
+				],
+				'adaptability'=>[
+					'adapability',
+					'adaptbility',
+					'adaptibility',
 				],
 				'adaptable'=>[
 					'adaptible',
 				],
 				'adaptation'=>[
 					'adaptaion',
+					'adaptatoin',
+					'adaptaton',
+				],
+				'adaptational'=>[
+					'adaptatoinal',
+					'adaptatonal',
 				],
 				'adaptationally'=>[
 					'adaptationalally',
@@ -2972,12 +4026,27 @@
 					'adaptationallly',
 					'adaptationaly',
 				],
+				'adaptations'=>[
+					'adaptatoins',
+					'adaptatons',
+				],
+				'adaption'=>[
+					'adaptoin',
+					'adapton',
+				],
+				'adaptions'=>[
+					'adaptoins',
+					'adaptons',
+				],
 				'adaptively'=>[
 					'adaptivly',
 				],
 				'adaptiveness'=>[
 					'adaptivenes',
 					'adaptivenesss',
+				],
+				'adaxial'=>[
+					'adaxail',
 				],
 				'add'=>[
 					'add add',
@@ -3013,6 +4082,7 @@
 				'addends'=>[
 					'adddends',
 					'adends',
+					'addnds',
 				],
 				'addendum'=>[
 					'adddendum',
@@ -3056,10 +4126,14 @@
 				'addiction'=>[
 					'adddiction',
 					'adiction',
+					'addictoin',
+					'addicton',
 				],
 				'addictions'=>[
 					'adddictions',
 					'adictions',
+					'addictoins',
+					'addictons',
 				],
 				'addictive'=>[
 					'adddictive',
@@ -3076,10 +4150,12 @@
 				'addisonian'=>[
 					'adddisonian',
 					'adisonian',
+					'addisonain',
 				],
 				'additament'=>[
 					'addditament',
 					'aditament',
+					'additamant',
 				],
 				'addition'=>[
 					'additon',
@@ -3091,6 +4167,7 @@
 					'acldition',
 					'adclition',
 					'additiou',
+					'additoin',
 				],
 				'additional'=>[
 					'addional',
@@ -3099,6 +4176,7 @@
 					'aditional',
 					'addditional',
 					'adclitional',
+					'additoinal',
 				],
 				'additionally'=>[
 					'addionally',
@@ -3109,10 +4187,13 @@
 					'aditionally',
 					'addditionally',
 					'additionallly',
+					'additoinally',
 				],
 				'additions'=>[
 					'addditions',
 					'aditions',
+					'additoins',
+					'additons',
 				],
 				'additive'=>[
 					'addditive',
@@ -3141,6 +4222,8 @@
 				'addlebrained'=>[
 					'adddlebrained',
 					'adlebrained',
+					'addlebraind',
+					'addlebrianed',
 				],
 				'addled'=>[
 					'adddled',
@@ -3231,6 +4314,8 @@
 				'adduceable'=>[
 					'addduceable',
 					'aduceable',
+					'adducaeble',
+					'adduceible',
 				],
 				'adduced'=>[
 					'addduced',
@@ -3265,10 +4350,14 @@
 				'adduction'=>[
 					'addduction',
 					'aduction',
+					'adductoin',
+					'adducton',
 				],
 				'adductions'=>[
 					'addductions',
 					'aductions',
+					'adductoins',
+					'adductons',
 				],
 				'adductor'=>[
 					'addductor',
@@ -3282,8 +4371,28 @@
 					'addducts',
 					'aducts',
 				],
+				'ademption'=>[
+					'ademptoin',
+					'adempton',
+				],
 				'adenine'=>[
 					'adenini',
+				],
+				'adenoid'=>[
+					'adeniod',
+				],
+				'adenoidal'=>[
+					'adeniodal',
+				],
+				'adenoidectomies'=>[
+					'adeniodectomies',
+					'adenoidectomeis',
+				],
+				'adenoidectomy'=>[
+					'adeniodectomy',
+				],
+				'adenoids'=>[
+					'adeniods',
 				],
 				'adenomatosis'=>[
 					'adeomatosis',
@@ -3294,12 +4403,16 @@
 				'adenosine'=>[
 					'adenosini',
 				],
+				'adeptly'=>[
+					'adeptely',
+				],
 				'adeptness'=>[
 					'adeptnes',
 					'adeptnesss',
 				],
 				'adequacy'=>[
 					'adequasy',
+					'adeqaucy',
 				],
 				'adequate'=>[
 					'adecuate',
@@ -3307,6 +4420,7 @@
 				],
 				'adequately'=>[
 					'adequatly',
+					'adeqautely',
 				],
 				'adequateness'=>[
 					'adeqauteness',
@@ -3326,6 +4440,7 @@
 				],
 				'adhered'=>[
 					'adliered',
+					'adherd',
 				],
 				'adherence'=>[
 					'adhearence',
@@ -3337,12 +4452,17 @@
 				],
 				'adherents'=>[
 					'adlierents',
+					'adherants',
 				],
 				'adhering'=>[
 					'adliering',
 				],
 				'adhesin'=>[
 					'adhesine',
+				],
+				'adhesion'=>[
+					'adhesoin',
+					'adheson',
 				],
 				'adhesively'=>[
 					'adhesivly',
@@ -3351,13 +4471,37 @@
 					'adhesivenes',
 					'adhesivenesss',
 				],
+				'adiabatic'=>[
+					'adaibatic',
+				],
 				'adiabatically'=>[
 					'adiabaticaly',
 					'adiabaticallly',
+					'adaibatically',
+				],
+				'adiaphorism'=>[
+					'adaiphorism',
+				],
+				'adiaphorous'=>[
+					'adaiphorous',
+					'adiaphoruos',
+				],
+				'adiathermancy'=>[
+					'adaithermancy',
+					'adiathermency',
 				],
 				'adieu'=>[
 					'adeiu',
 					'adiu',
+					'adiue',
+				],
+				'adieus'=>[
+					'adeius',
+					'adiues',
+				],
+				'adieux'=>[
+					'adeiux',
+					'adiuex',
 				],
 				'adimensionalised'=>[
 					'adimentionalised',
@@ -3373,6 +4517,9 @@
 				'adipophilin'=>[
 					'adipophillin',
 				],
+				'adiposities'=>[
+					'adipositeis',
+				],
 				'adiposity'=>[
 					'adipocity',
 				],
@@ -3381,11 +4528,16 @@
 				],
 				'adjacency'=>[
 					'adjacensy',
+					'adjacancy',
 				],
 				'adjacent'=>[
 					'adjacant',
 					'ajacent',
 					'acljacent',
+				],
+				'adjacently'=>[
+					'adjacantly',
+					'adjacentely',
 				],
 				'adjectivally'=>[
 					'adjectivaly',
@@ -3396,27 +4548,85 @@
 				],
 				'adjoin'=>[
 					'ajoin',
+					'adjion',
+				],
+				'adjoined'=>[
+					'adjioned',
+					'adjoind',
 				],
 				'adjoining'=>[
 					'adjoinang',
 					'ajoining',
+					'adjioning',
 				],
 				'adjoins'=>[
 					'ajoins',
+					'adjions',
+				],
+				'adjoint'=>[
+					'adjiont',
 				],
 				'adjourn'=>[
 					'adjurn',
+					'adjuorn',
+				],
+				'adjourned'=>[
+					'adjournd',
+					'adjuorned',
+				],
+				'adjourning'=>[
+					'adjuorning',
 				],
 				'adjournment'=>[
 					'adjourment',
 					'adjournent',
+					'adjournmant',
+					'adjuornment',
 				],
 				'adjournments'=>[
 					'adjourments',
 					'adjournents',
+					'adjournmants',
+					'adjuornments',
+				],
+				'adjourns'=>[
+					'adjuorns',
+				],
+				'adjudgement'=>[
+					'adjudgemant',
+				],
+				'adjudgment'=>[
+					'adjudgmant',
 				],
 				'adjudicate'=>[
 					'ajudicate',
+				],
+				'adjudication'=>[
+					'adjudicatoin',
+					'adjudicaton',
+				],
+				'adjudications'=>[
+					'adjudicatoins',
+					'adjudicatons',
+				],
+				'adjunction'=>[
+					'adjunctoin',
+					'adjuncton',
+				],
+				'adjunctions'=>[
+					'adjunctoins',
+					'adjunctons',
+				],
+				'adjuration'=>[
+					'adjuratoin',
+					'adjuraton',
+				],
+				'adjurations'=>[
+					'adjuratoins',
+					'adjuratons',
+				],
+				'adjured'=>[
+					'adjurd',
 				],
 				'adjust'=>[
 					'adlust',
@@ -3430,21 +4640,46 @@
 				'adjustment'=>[
 					'adjustmant',
 				],
+				'adjustments'=>[
+					'adjustmants',
+				],
 				'adjutancy'=>[
 					'adjutansy',
+					'adjutency',
 				],
 				'adjutant'=>[
 					'adjutent',
 				],
+				'adjutants'=>[
+					'adjutents',
+				],
 				'adjuvant'=>[
 					'adjuvent',
 				],
+				'adjuvants'=>[
+					'adjuvents',
+				],
+				'admeasure'=>[
+					'admaesure',
+				],
+				'admeasured'=>[
+					'admaesured',
+					'admeasurd',
+				],
 				'admeasurement'=>[
 					'admesurement',
+					'admaesurement',
+					'admeasuremant',
 				],
 				'admeasurements'=>[
 					'admeasuremants',
 					'admesurements',
+				],
+				'admeasures'=>[
+					'admaesures',
+				],
+				'admeasuring'=>[
+					'admaesuring',
 				],
 				'administer'=>[
 					'aclministcr',
@@ -3454,6 +4689,7 @@
 				'administered'=>[
 					'adminastered',
 					'adminiftered',
+					'administerd',
 				],
 				'administering'=>[
 					'adminastering',
@@ -3467,6 +4703,7 @@
 				],
 				'administrant'=>[
 					'adminastrant',
+					'administrent',
 				],
 				'administrants'=>[
 					'adminastrants',
@@ -3491,13 +4728,20 @@
 					'administeration',
 					'adminiftration',
 					'adniinistration',
+					'administratoin',
+					'administraton',
 				],
 				'administrations'=>[
 					'adminastrations',
+					'administratoins',
+					'administratons',
 				],
 				'administrative'=>[
 					'adminastrative',
 					'adminstrative',
+				],
+				'administratively'=>[
+					'administrativly',
 				],
 				'administrator'=>[
 					'adminastrator',
@@ -3514,6 +4758,10 @@
 				'admirabilities'=>[
 					'admirabiliteis',
 					'admirabilitis',
+					'admiribilities',
+				],
+				'admirability'=>[
+					'admiribility',
 				],
 				'admirable'=>[
 					'admirible',
@@ -3521,10 +4769,21 @@
 				'admirableness'=>[
 					'admirablenes',
 					'admirablenesss',
+					'admiribleness',
 				],
 				'admirablenesses'=>[
 					'admirableneses',
 					'admirablenessses',
+				],
+				'admirably'=>[
+					'admiribly',
+				],
+				'admiration'=>[
+					'admiratoin',
+					'admiraton',
+				],
+				'admired'=>[
+					'admird',
 				],
 				'admissibilities'=>[
 					'admisibilities',
@@ -3546,19 +4805,25 @@
 					'admissiblenes',
 					'admissiblenesss',
 					'admisssibleness',
+					'admissableness',
 				],
 				'admissibly'=>[
 					'admisibly',
 					'admisssibly',
+					'admissably',
 				],
 				'admission'=>[
 					'addmission',
 					'admision',
 					'admisssion',
+					'admissoin',
+					'admisson',
 				],
 				'admissions'=>[
 					'admisions',
 					'admisssions',
+					'admissoins',
+					'admissons',
 				],
 				'admit'=>[
 					'admitt',
@@ -3572,6 +4837,7 @@
 				'admittances'=>[
 					'admitances',
 					'admitttances',
+					'admittences',
 				],
 				'admitted'=>[
 					'addmitted',
@@ -3595,17 +4861,41 @@
 				'admonishing'=>[
 					'admonisliing',
 				],
+				'admonishment'=>[
+					'admonishmant',
+				],
+				'admonishments'=>[
+					'admonishmants',
+				],
+				'admonition'=>[
+					'admonitoin',
+					'admoniton',
+				],
+				'admonitions'=>[
+					'admonitoins',
+					'admonitons',
+				],
 				'adolescence'=>[
 					'adolecence',
 					'adolecsence',
 					'adolescance',
 					'adolesence',
 				],
+				'adolescences'=>[
+					'adolecences',
+					'adolescances',
+					'adolesences',
+				],
 				'adolescent'=>[
 					'adolecent',
 					'adolecsent',
 					'adolescant',
 					'adolesent',
+				],
+				'adolescents'=>[
+					'adolecents',
+					'adolescants',
+					'adolesents',
 				],
 				'adopt'=>[
 					'addopt',
@@ -3614,6 +4904,9 @@
 					'adoptabiliteis',
 					'adoptabilitis',
 				],
+				'adoptable'=>[
+					'adoptible',
+				],
 				'adopted'=>[
 					'addopted',
 					'acloptecl',
@@ -3621,6 +4914,14 @@
 				'adoptee'=>[
 					'adopte',
 					'adopteee',
+				],
+				'adoption'=>[
+					'adoptoin',
+					'adopton',
+				],
+				'adoptions'=>[
+					'adoptoins',
+					'adoptons',
 				],
 				'adoptive'=>[
 					'addoptive',
@@ -3635,9 +4936,21 @@
 				'adorableness'=>[
 					'adorablenes',
 					'adorablenesss',
+					'adoribleness',
+				],
+				'adorably'=>[
+					'adoribly',
+				],
+				'adoration'=>[
+					'adoratoin',
+					'adoraton',
+				],
+				'adored'=>[
+					'adord',
 				],
 				'adorned'=>[
 					'adomed',
+					'adornd',
 				],
 				'adorning'=>[
 					'aclorning',
@@ -3645,10 +4958,12 @@
 				'adornment'=>[
 					'adorment',
 					'adornent',
+					'adornmant',
 				],
 				'adornments'=>[
 					'adorments',
 					'adornents',
+					'adornmants',
 				],
 				'adrenalectomies'=>[
 					'adrenalectomeis',
@@ -3679,18 +4994,64 @@
 				'adriamycin'=>[
 					'adryamicin',
 				],
+				'adroit'=>[
+					'adriot',
+				],
+				'adroitly'=>[
+					'adriotly',
+					'adroitely',
+				],
 				'adroitness'=>[
 					'adroitnes',
 					'adroitnesss',
+					'adriotness',
 				],
 				'adscititious'=>[
 					'adcititious',
 					'adcsititious',
 					'adscititous',
 					'adsititious',
+					'adscititiuos',
+					'adscititoius',
+				],
+				'adscription'=>[
+					'adcription',
+					'adscriptoin',
+					'adscripton',
+					'adsription',
+				],
+				'adsorbable'=>[
+					'adsorbible',
 				],
 				'adsorption'=>[
 					'adsorbtion',
+					'adsorptoin',
+					'adsorpton',
+				],
+				'adsorptions'=>[
+					'adsorptoins',
+					'adsorptons',
+				],
+				'adularia'=>[
+					'adularai',
+				],
+				'adulation'=>[
+					'adulatoin',
+					'adulaton',
+				],
+				'adulterant'=>[
+					'adulterent',
+				],
+				'adulterants'=>[
+					'adulterents',
+				],
+				'adulteration'=>[
+					'adulteratoin',
+					'adulteraton',
+				],
+				'adulterations'=>[
+					'adulteratoins',
+					'adulteratons',
 				],
 				'adulterer'=>[
 					'adulteer',
@@ -3703,6 +5064,13 @@
 					'adultereses',
 					'adulteressses',
 				],
+				'adulteries'=>[
+					'adultaries',
+					'adultereis',
+				],
+				'adulterous'=>[
+					'adulteruos',
+				],
 				'adultery'=>[
 					'adultary',
 					'adultry',
@@ -3713,6 +5081,10 @@
 				],
 				'adults'=>[
 					'aclults',
+				],
+				'adumbration'=>[
+					'adumbratoin',
+					'adumbraton',
 				],
 				'adumbratively'=>[
 					'adumbrativly',
@@ -3729,6 +5101,9 @@
 					'advancemcent',
 					'advancemcnt',
 				],
+				'advancements'=>[
+					'advancemants',
+				],
 				'advances'=>[
 					'aclvances',
 				],
@@ -3744,6 +5119,8 @@
 				'advantageous'=>[
 					'advantagous',
 					'adventageous',
+					'advantageuos',
+					'advantagoeus',
 				],
 				'advantageously'=>[
 					'advantageousally',
@@ -3751,13 +5128,31 @@
 					'advantageousely',
 					'advantageouslly',
 					'adventageously',
+					'advantageuosly',
+					'advantagoeusly',
+				],
+				'advection'=>[
+					'advectoin',
+					'advecton',
+				],
+				'advections'=>[
+					'advectoins',
+					'advectons',
 				],
 				'advent'=>[
 					'advant',
 				],
+				'adventitia'=>[
+					'adventitai',
+				],
+				'adventitias'=>[
+					'adventitais',
+				],
 				'adventitious'=>[
 					'advantitious',
 					'adventitous',
+					'adventitiuos',
+					'adventitoius',
 				],
 				'adventitiously'=>[
 					'advantitiously',
@@ -3766,9 +5161,14 @@
 					'adventitiousely',
 					'adventitiouslly',
 					'adventitously',
+					'adventitiuosly',
+					'adventitoiusly',
 				],
 				'adventure'=>[
 					'advanture',
+				],
+				'adventured'=>[
+					'adventurd',
 				],
 				'adventurer'=>[
 					'advanturer',
@@ -3784,18 +5184,42 @@
 				],
 				'adventurous'=>[
 					'advanturous',
+					'adventuruos',
+				],
+				'adventurously'=>[
+					'adventurousely',
+					'adventuruosly',
 				],
 				'adventurousness'=>[
 					'advanturousness',
 					'adventurousnes',
 					'adventurousnesss',
+					'adventuruosness',
+				],
+				'adverbial'=>[
+					'adverbail',
 				],
 				'adverbially'=>[
 					'adverbiallly',
 					'adverbialy',
+					'adverbailly',
+				],
+				'adverbials'=>[
+					'adverbails',
+				],
+				'adversaria'=>[
+					'adversarai',
+				],
+				'adversarial'=>[
+					'adversarail',
 				],
 				'adversarially'=>[
 					'adversariallly',
+					'adversarailly',
+				],
+				'adversaries'=>[
+					'adversareis',
+					'adverseries',
 				],
 				'adversariness'=>[
 					'adversariniss',
@@ -3818,14 +5242,23 @@
 					'adversenes',
 					'adversenesss',
 				],
+				'adversities'=>[
+					'adversiteis',
+				],
 				'adversity'=>[
 					'adverfity',
 				],
 				'advertence'=>[
 					'advertance',
 				],
+				'advertences'=>[
+					'advertances',
+				],
 				'advertency'=>[
 					'advertensy',
+				],
+				'advertent'=>[
+					'advertant',
 				],
 				'advertisement'=>[
 					'advertisemant',
@@ -3838,6 +5271,12 @@
 				'advertizements'=>[
 					'advertizemants',
 				],
+				'advertorial'=>[
+					'advertorail',
+				],
+				'advertorials'=>[
+					'advertorails',
+				],
 				'advice'=>[
 					'advicc',
 					'adviee',
@@ -3846,12 +5285,18 @@
 					'advisabiliteis',
 					'advisabilitis',
 				],
+				'advisability'=>[
+					'advisibility',
+				],
 				'advisable'=>[
 					'advisible',
 					'advifable',
 				],
 				'advisablenesses'=>[
 					'advisableneses',
+				],
+				'advisably'=>[
+					'advisibly',
 				],
 				'advise'=>[
 					'advife',
@@ -3872,20 +5317,84 @@
 				'advisees'=>[
 					'adviseees',
 				],
+				'advisement'=>[
+					'advisemant',
+				],
+				'advisories'=>[
+					'advisoreis',
+				],
 				'advocaat'=>[
 					'advocaaat',
 				],
 				'advocacy'=>[
 					'advocasy',
 				],
+				'advocation'=>[
+					'advocatoin',
+					'advocaton',
+				],
+				'adynamia'=>[
+					'adynamai',
+				],
+				'adynamias'=>[
+					'adynamais',
+				],
+				'aecia'=>[
+					'aecai',
+					'eacia',
+				],
+				'aeciospore'=>[
+					'aecoispore',
+					'eaciospore',
+				],
+				'aeciospores'=>[
+					'aecoispores',
+					'eaciospores',
+				],
+				'aecium'=>[
+					'aecuim',
+					'eacium',
+				],
+				'aedile'=>[
+					'eadile',
+				],
 				'aedine'=>[
 					'aedini',
 				],
+				'aegir'=>[
+					'eagir',
+				],
+				'aegis'=>[
+					'eagis',
+				],
+				'aegrotat'=>[
+					'eagrotat',
+				],
+				'aeneous'=>[
+					'aeneuos',
+					'aenoeus',
+					'eaneous',
+				],
 				'aeolian'=>[
 					'aeolan',
+					'aeolain',
+					'aoelian',
+					'eaolian',
+				],
+				'aeolians'=>[
+					'aeolains',
+					'aoelians',
+					'eaolians',
+				],
+				'aeolic'=>[
+					'aoelic',
+					'eaolic',
 				],
 				'aeonian'=>[
 					'aeonan',
+				],
+				'aeons'=>[
+					'aoens',
 				],
 				'aequorin'=>[
 					'aeqorin',
@@ -3893,37 +5402,151 @@
 				'aequorins'=>[
 					'aeqorins',
 				],
+				'aerate'=>[
+					'earate',
+				],
+				'aerated'=>[
+					'earated',
+				],
+				'aerates'=>[
+					'earates',
+				],
+				'aerating'=>[
+					'earating',
+				],
+				'aeration'=>[
+					'aeratoin',
+					'aeraton',
+					'earation',
+				],
+				'aerator'=>[
+					'earator',
+				],
+				'aerators'=>[
+					'earators',
+				],
 				'aerenchymatic'=>[
 					'arenchymatic',
 				],
 				'aerial'=>[
 					'aeriel',
+					'aerail',
+					'earial',
 				],
 				'aerial view'=>[
 					'arial view',
 					'ariel view',
 				],
+				'aerialist'=>[
+					'aerailist',
+					'earialist',
+				],
+				'aerialists'=>[
+					'aerailists',
+					'earialists',
+				],
 				'aerially'=>[
 					'aeriallly',
 					'aerialy',
+					'aerailly',
+					'earially',
 				],
 				'aerials'=>[
 					'aeriels',
+					'aerails',
+					'earials',
 				],
 				'aerie'=>[
 					'aerei',
 					'aeri',
 				],
+				'aerier'=>[
+					'aereir',
+				],
+				'aeries'=>[
+					'aereis',
+				],
+				'aeriest'=>[
+					'aereist',
+					'eariest',
+				],
+				'aerification'=>[
+					'aerificatoin',
+					'aerificaton',
+					'earification',
+				],
+				'aerified'=>[
+					'aerifeid',
+					'earified',
+				],
+				'aerifies'=>[
+					'aerifeis',
+					'earifies',
+				],
+				'aeriform'=>[
+					'eariform',
+				],
+				'aerify'=>[
+					'earify',
+				],
+				'aerifying'=>[
+					'earifying',
+				],
 				'aeroballistics'=>[
 					'aerobalistics',
 					'aeroballlistics',
+					'earoballistics',
+				],
+				'aerobatic'=>[
+					'earobatic',
+				],
+				'aerobatics'=>[
+					'earobatics',
+				],
+				'aerobes'=>[
+					'earobes',
+				],
+				'aerobic'=>[
+					'earobic',
 				],
 				'aerobically'=>[
 					'aerobicallly',
 					'aerobicaly',
+					'earobically',
+				],
+				'aerobics'=>[
+					'earobics',
+				],
+				'aerobiology'=>[
+					'aeroboilogy',
+					'earobiology',
+				],
+				'aerobioses'=>[
+					'aeroboises',
+					'earobioses',
+				],
+				'aerobiosis'=>[
+					'aeroboisis',
+					'earobiosis',
 				],
 				'aerobraking'=>[
 					'aerobreaking',
+					'earobraking',
+				],
+				'aerodonetics'=>[
+					'earodonetics',
+				],
+				'aerodrome'=>[
+					'earodrome',
+				],
+				'aerodromes'=>[
+					'earodromes',
+				],
+				'aerodynamic'=>[
+					'earodynamic',
+				],
+				'aerodynamical'=>[
+					'earodynamical',
 				],
 				'aerodynamically'=>[
 					'aerodynamicalally',
@@ -3931,18 +5554,79 @@
 					'aerodynamicalely',
 					'aerodynamicallly',
 					'aerodynamicaly',
+					'earodynamically',
+				],
+				'aerodynamicist'=>[
+					'earodynamicist',
+				],
+				'aerodynamics'=>[
+					'earodynamics',
+				],
+				'aerodyne'=>[
+					'earodyne',
+				],
+				'aeroembolism'=>[
+					'aereombolism',
+					'earoembolism',
+				],
+				'aeroembolisms'=>[
+					'aereombolisms',
+					'earoembolisms',
 				],
 				'aerogenic'=>[
 					'areogenic',
+				],
+				'aerogram'=>[
+					'earogram',
 				],
 				'aerogramme'=>[
 					'aerogramne',
 					'aerograme',
 					'aerogrammme',
+					'earogramme',
 				],
 				'aerogrammes'=>[
 					'aerogrames',
 					'aerogrammmes',
+					'earogrammes',
+				],
+				'aerograms'=>[
+					'earograms',
+				],
+				'aerograph'=>[
+					'earograph',
+				],
+				'aerography'=>[
+					'earography',
+				],
+				'aerolite'=>[
+					'earolite',
+				],
+				'aerolites'=>[
+					'earolites',
+				],
+				'aerologies'=>[
+					'aerologeis',
+					'earologies',
+				],
+				'aerology'=>[
+					'earology',
+				],
+				'aeromancy'=>[
+					'aeromency',
+					'earomancy',
+				],
+				'aeromarine'=>[
+					'earomarine',
+				],
+				'aeromechanic'=>[
+					'earomechanic',
+				],
+				'aeromechanics'=>[
+					'earomechanics',
+				],
+				'aeromedical'=>[
+					'earomedical',
 				],
 				'aeromedicine'=>[
 					'aeromedicini',
@@ -3950,8 +5634,113 @@
 				'aeromedicines'=>[
 					'aeromedicinis',
 				],
+				'aerometeorograph'=>[
+					'aerometoerograph',
+					'earometeorograph',
+				],
+				'aerometer'=>[
+					'earometer',
+				],
+				'aerometry'=>[
+					'earometry',
+				],
+				'aeronaut'=>[
+					'aeronuat',
+					'earonaut',
+				],
+				'aeronautic'=>[
+					'aeronuatic',
+					'earonautic',
+				],
+				'aeronautical'=>[
+					'aeronuatical',
+					'earonautical',
+				],
 				'aeronautically'=>[
 					'aeronauticaly',
+				],
+				'aeronautics'=>[
+					'aeronuatics',
+					'earonautics',
+				],
+				'aeronauts'=>[
+					'aeronuats',
+					'earonauts',
+				],
+				'aeroneurosis'=>[
+					'aeronuerosis',
+					'earoneurosis',
+				],
+				'aeropause'=>[
+					'aeropuase',
+					'earopause',
+				],
+				'aerophagia'=>[
+					'aerophagai',
+					'earophagia',
+				],
+				'aerophobia'=>[
+					'aerophobai',
+					'earophobia',
+				],
+				'aerophone'=>[
+					'earophone',
+				],
+				'aerophyte'=>[
+					'earophyte',
+				],
+				'aerophytes'=>[
+					'earophytes',
+				],
+				'aeroponics'=>[
+					'earoponics',
+				],
+				'aeroscope'=>[
+					'aerocope',
+					'aerosope',
+					'earoscope',
+				],
+				'aerosol'=>[
+					'earosol',
+				],
+				'aerosols'=>[
+					'earosols',
+				],
+				'aerospace'=>[
+					'earospace',
+				],
+				'aerosphere'=>[
+					'earosphere',
+				],
+				'aerostat'=>[
+					'earostat',
+				],
+				'aerostatic'=>[
+					'earostatic',
+				],
+				'aerostatics'=>[
+					'earostatics',
+				],
+				'aerostation'=>[
+					'aerostatoin',
+					'aerostaton',
+					'earostation',
+				],
+				'aerotherapeutics'=>[
+					'aerotherapuetics',
+					'earotherapeutics',
+				],
+				'aerothermodynamics'=>[
+					'earothermodynamics',
+				],
+				'aesir'=>[
+					'easir',
+				],
+				'aesthete'=>[
+					'easthete',
+				],
+				'aesthetes'=>[
+					'easthetes',
 				],
 				'aesthetic'=>[
 					# aesthetical: an accepted spelling, not a slip (AmericanBritishWords_E: esthetical)
@@ -3961,6 +5750,7 @@
 				#	'esthetic',
 					# esthetical: an accepted spelling, not a slip (AmericanBritishWords_E: esthetical)
 				#	'esthetical',
+					'easthetic',
 				],
 				'aesthetically'=>[
 					'aestheticaly',
@@ -3968,6 +5758,7 @@
 					# esthetically: an accepted spelling, not a slip (AmericanBritishWords_A: aesthetically)
 				#	'esthetically',
 					'aestheticallly',
+					'easthetically',
 				],
 				'aesthetician'=>[
 					'aesthetican',
@@ -3984,8 +5775,20 @@
 			#	'aesthetics'=>[
 			#		'esthetics',
 			#	],
+				'aestheticism'=>[
+					'eastheticism',
+				],
+				'aesthetics'=>[
+					'easthetics',
+				],
+				'aestival'=>[
+					'eastival',
+				],
 				'afar'=>[
 					'afer',
+				],
+				'afeard'=>[
+					'afaerd',
 				],
 				'affability'=>[
 					'afability',
@@ -4004,6 +5807,7 @@
 					'affar',
 					'affir',
 					'afffair',
+					'affiar',
 				],
 				'affaire'=>[
 					'afaire',
@@ -4032,10 +5836,14 @@
 				'affectation'=>[
 					'afectation',
 					'afffectation',
+					'affectatoin',
+					'affectaton',
 				],
 				'affectations'=>[
 					'afectations',
 					'afffectations',
+					'affectatoins',
+					'affectatons',
 				],
 				'affected'=>[
 					'afected',
@@ -4062,10 +5870,14 @@
 					'afffection',
 					'affectioii',
 					'affeetion',
+					'affectoin',
+					'affecton',
 				],
 				'affectional'=>[
 					'afectional',
 					'afffectional',
+					'affectoinal',
+					'affectonal',
 				],
 				'affectionally'=>[
 					'affectionaly',
@@ -4075,15 +5887,20 @@
 					'afffectionate',
 					'affcctionatc',
 					'affectionale',
+					'affectoinate',
+					'affectonate',
 				],
 				'affectionately'=>[
 					'affectionatly',
 					'afectionately',
 					'afffectionately',
+					'affectoinately',
 				],
 				'affections'=>[
 					'afections',
 					'afffections',
+					'affectoins',
+					'affectons',
 				],
 				'affective'=>[
 					'afective',
@@ -4092,6 +5909,7 @@
 				'affectively'=>[
 					'afectively',
 					'afffectively',
+					'affectivly',
 				],
 				'affectiveness'=>[
 					'affectivenes',
@@ -4141,28 +5959,35 @@
 					'affetttuoso',
 					'affetuoso',
 					'afffettuoso',
+					'affettouso',
 				],
 				'affiance'=>[
 					'affience',
 					'afffiance',
 					'afiance',
+					'affaince',
 				],
 				'affianced'=>[
 					'afffianced',
 					'afianced',
+					'affainced',
 				],
 				'affiances'=>[
 					'afffiances',
 					'afiances',
+					'affainces',
+					'affiences',
 				],
 				'affiancing'=>[
 					'afffiancing',
 					'afiancing',
+					'affaincing',
 				],
 				'affiant'=>[
 					'affient',
 					'afffiant',
 					'afiant',
+					'affaint',
 				],
 				'affiche'=>[
 					'afffiche',
@@ -4184,31 +6009,42 @@
 					'affilliate',
 					'afiliate',
 					'afffiliate',
+					'affilaite',
 				],
 				'affiliated'=>[
 					'afffiliated',
 					'afiliated',
+					'affilaited',
 				],
 				'affiliates'=>[
 					'afffiliates',
 					'afiliates',
+					'affilaites',
 				],
 				'affiliating'=>[
 					'afffiliating',
 					'afiliating',
+					'affilaiting',
 				],
 				'affiliation'=>[
 					'affilation',
 					'afiliation',
 					'afffiliation',
+					'affilaition',
+					'affiliatoin',
+					'affiliaton',
 				],
 				'affiliations'=>[
 					'afffiliations',
 					'afiliations',
+					'affilaitions',
+					'affiliatoins',
+					'affiliatons',
 				],
 				'affiliative'=>[
 					'afffiliative',
 					'afiliative',
+					'affilaitive',
 				],
 				'affinal'=>[
 					'affinil',
@@ -4223,6 +6059,7 @@
 				'affined'=>[
 					'afffined',
 					'afined',
+					'affind',
 				],
 				'affinely'=>[
 					'affinly',
@@ -4230,6 +6067,7 @@
 				'affinities'=>[
 					'afffinities',
 					'afinities',
+					'affiniteis',
 				],
 				'affinitive'=>[
 					'afffinitive',
@@ -4247,6 +6085,7 @@
 				'affirmable'=>[
 					'afffirmable',
 					'afirmable',
+					'affirmible',
 				],
 				'affirmance'=>[
 					'affirmence',
@@ -4254,15 +6093,20 @@
 				'affirmant'=>[
 					'afffirmant',
 					'afirmant',
+					'affirment',
 				],
 				'affirmation'=>[
 					'afformation',
 					'afffirmation',
 					'afirmation',
+					'affirmatoin',
+					'affirmaton',
 				],
 				'affirmations'=>[
 					'afffirmations',
 					'afirmations',
+					'affirmatoins',
+					'affirmatons',
 				],
 				'affirmative'=>[
 					'afffirmative',
@@ -4303,10 +6147,14 @@
 				'affixation'=>[
 					'afffixation',
 					'afixation',
+					'affixatoin',
+					'affixaton',
 				],
 				'affixations'=>[
 					'afffixations',
 					'afixations',
+					'affixatoins',
+					'affixatons',
 				],
 				'affixed'=>[
 					'afffixed',
@@ -4339,10 +6187,14 @@
 				'affliction'=>[
 					'afffliction',
 					'afliction',
+					'afflictoin',
+					'afflicton',
 				],
 				'afflictions'=>[
 					'affflictions',
 					'aflictions',
+					'afflictoins',
+					'afflictons',
 				],
 				'afflictive'=>[
 					'affflictive',
@@ -4361,6 +6213,7 @@
 					'affluance',
 					'afffluence',
 					'afluence',
+					'affleunce',
 				],
 				'affluency'=>[
 					'affluensy',
@@ -4369,10 +6222,14 @@
 					'affluant',
 					'afffluent',
 					'afluent',
+					'affleunt',
 				],
 				'affluently'=>[
 					'afffluently',
 					'afluently',
+					'affleuntly',
+					'affluantly',
+					'affluentely',
 				],
 				'afflux'=>[
 					'affflux',
@@ -4389,6 +6246,9 @@
 				'affordability'=>[
 					'afffordability',
 					'afordability',
+					'afforability',
+					'affordbility',
+					'affordibility',
 				],
 				'affordable'=>[
 					'affordible',
@@ -4402,6 +6262,7 @@
 					'affordablly',
 					'afffordably',
 					'afordably',
+					'affordibly',
 				],
 				'afforded'=>[
 					'affforded',
@@ -4420,6 +6281,8 @@
 				],
 				'afforestation'=>[
 					'affforestation',
+					'afforestatoin',
+					'afforestaton',
 				],
 				'afforested'=>[
 					'affforested',
@@ -4496,11 +6359,15 @@
 					'affuison',
 					'afffusion',
 					'afusion',
+					'affusoin',
+					'affuson',
 				],
 				'affusions'=>[
 					'affuisons',
 					'afffusions',
 					'afusions',
+					'affusoins',
+					'affusons',
 				],
 				'afghan-occupied'=>[
 					'afghan occupied',
@@ -4512,6 +6379,10 @@
 				'aficionado'=>[
 					'afficionado',
 					'affectionado',
+					'aficoinado',
+				],
+				'aficionados'=>[
+					'aficoinados',
 				],
 				'afield'=>[
 					'afeild',
@@ -4519,6 +6390,9 @@
 				],
 				'aflatoxin'=>[
 					'alfatoxin',
+				],
+				'afloat'=>[
+					'aflaot',
 				],
 				'aflutter'=>[
 					'afluter',
@@ -4532,15 +6406,26 @@
 				#	'afore-mentioned',
 					'aforemantioned',
 					'aformentioned',
+					'aforementiond',
+					'aforementoined',
+					'aforementoned',
 				],
 				'aforesaid'=>[
 					'aforefaid',
+					'aforesiad',
+				],
+				'aforethought'=>[
+					'aforethuoght',
+				],
+				'afoul'=>[
+					'afuol',
 				],
 				'afraid'=>[
 					'affraid',
 					'afraid afraid',
 					'afraid afraid afraid',
 					'afraicl',
+					'afriad',
 				],
 				'afreet'=>[
 					'afreeet',
@@ -4580,19 +6465,120 @@
 				'after-thought'=>[
 					'after-thouglit',
 				],
+				'afterbirth'=>[
+					'aftebirth',
+					'afterirth',
+				],
+				'afterbody'=>[
+					'aftebody',
+					'afterody',
+				],
+				'afterbrain'=>[
+					'aftebrain',
+					'afterbrian',
+					'afterrain',
+				],
+				'afterburner'=>[
+					'afteburner',
+					'afterurner',
+				],
+				'afterburning'=>[
+					'afteburning',
+					'afterurning',
+				],
+				'aftercare'=>[
+					'aftecare',
+					'afterare',
+				],
+				'afterclap'=>[
+					'afteclap',
+					'afterlap',
+				],
+				'afterdamp'=>[
+					'aftedamp',
+					'afteramp',
+				],
+				'afterdeck'=>[
+					'aftedeck',
+					'aftereck',
+				],
+				'afterdecks'=>[
+					'aftedecks',
+					'afterecks',
+				],
 				'aftereffect'=>[
 					'afteraffect',
 					'afterefect',
 					'afterefffect',
+					'afteeffect',
+					'afterffect',
 				],
 				'aftereffects'=>[
 					'afterefects',
 					'afterefffects',
+					'afteeffects',
+					'afterffects',
+				],
+				'afterglow'=>[
+					'afteglow',
+					'afterlow',
+				],
+				'afterglows'=>[
+					'afteglows',
+					'afterlows',
+				],
+				'aftergrowth'=>[
+					'aftegrowth',
+					'afterrowth',
+				],
+				'afterguard'=>[
+					'afteguard',
+					'aftergaurd',
+					'afteruard',
+				],
+				'afterheat'=>[
+					'afteheat',
+					'aftereat',
+					'afterhaet',
+				],
+				'afterimage'=>[
+					'afteimage',
+					'aftermage',
+				],
+				'afterimages'=>[
+					'afteimages',
+					'aftermages',
+				],
+				'afterlife'=>[
+					'aftelife',
+					'afterife',
+				],
+				'afterlives'=>[
+					'aftelives',
+					'afterives',
+				],
+				'aftermarket'=>[
+					'aftemarket',
+					'afterarket',
+				],
+				'aftermarkets'=>[
+					'aftemarkets',
+					'afterarkets',
+				],
+				'aftermath'=>[
+					'aftemath',
+					'afterath',
+				],
+				'aftermost'=>[
+					'aftemost',
+					'afterost',
 				],
 				'afternoon'=>[
 					'afternon',
 					'afternooon',
 					'aftemoon',
+					'aftenoon',
+					'afteroon',
 				],
 				'afternoons'=>[
 					'afternons',
@@ -4601,16 +6587,101 @@
 				'afterpiece'=>[
 					'afterpeice',
 					'afterpice',
+					'aftepiece',
+					'afteriece',
+				],
+				'afterpieces'=>[
+					'aftepieces',
+					'afterieces',
+					'afterpeices',
 				],
 				'afterschool'=>[
 					'afterschol',
 					'afterschoool',
+					'afterchool',
+					'aftershool',
+					'afteschool',
+				],
+				'aftersensation'=>[
+					'afterensation',
+					'aftersensatoin',
+					'aftersensaton',
+					'aftesensation',
+				],
+				'aftersensations'=>[
+					'afterensations',
+					'aftersensatoins',
+					'aftersensatons',
+					'aftesensations',
+				],
+				'aftershaft'=>[
+					'afterhaft',
+					'afteshaft',
+				],
+				'aftershafts'=>[
+					'afterhafts',
+					'afteshafts',
+				],
+				'aftershave'=>[
+					'afterhave',
+					'afteshave',
+				],
+				'aftershock'=>[
+					'afterhock',
+					'afteshock',
+				],
+				'aftershocks'=>[
+					'afterhocks',
+					'afteshocks',
+				],
+				'aftertaste'=>[
+					'afteraste',
+					'aftetaste',
+				],
+				'afterthought'=>[
+					'afterhought',
+					'afterthuoght',
+					'aftethought',
+				],
+				'afterthoughts'=>[
+					'afterhoughts',
+					'afterthuoghts',
+					'aftethoughts',
+				],
+				'aftertime'=>[
+					'afterime',
+					'aftetime',
 				],
 				'afterwards'=>[
 					'afterwardss',
 				],
+				'afterword'=>[
+					'afterord',
+					'afteword',
+				],
+				'afterwords'=>[
+					'afterords',
+					'aftewords',
+				],
+				'afterworld'=>[
+					'afterorld',
+					'afteworld',
+				],
+				'afterworlds'=>[
+					'afterorlds',
+					'afteworlds',
+				],
+				'afteryears'=>[
+					'afterears',
+					'afteryaers',
+					'afteyears',
+				],
 				'aftewards'=>[
 					'afterwords',
+				],
+				'aftmost'=>[
+					'afmost',
+					'aftost',
 				],
 				'again'=>[
 					'again again',
@@ -4665,11 +6736,17 @@
 				'ageing'=>[
 					'agieng',
 				],
+				'ageings'=>[
+					'agiengs',
+				],
 				'ageism'=>[
 					'agiesm',
 				],
 				'ageist'=>[
 					'agiest',
+				],
+				'ageists'=>[
+					'agiests',
 				],
 				'ageless'=>[
 					'ageles',
@@ -4678,12 +6755,16 @@
 				'agelessly'=>[
 					'agelesly',
 					'agelesssly',
+					'agelessely',
 				],
 				'agelessness'=>[
 					'agelesness',
 					'agelessnes',
 					'agelessnesss',
 					'agelesssness',
+				],
+				'agencies'=>[
+					'agenceis',
 				],
 				'agency'=>[
 					'agensy',
@@ -4693,6 +6774,9 @@
 				],
 				'agent'=>[
 					'agant',
+				],
+				'agential'=>[
+					'agentail',
 				],
 				'agentry'=>[
 					'agantry',
@@ -4723,6 +6807,7 @@
 					'aggiornamanto',
 					'agiornamento',
 					'agggiornamento',
+					'aggoirnamento',
 				],
 				'aggiornamentos'=>[
 					'aggiornamantos',
@@ -4747,10 +6832,14 @@
 				'agglomeration'=>[
 					'aglomeration',
 					'aggglomeration',
+					'agglomeratoin',
+					'agglomeraton',
 				],
 				'agglomerations'=>[
 					'aglomerations',
 					'aggglomerations',
+					'agglomeratoins',
+					'agglomeratons',
 				],
 				'agglomerative'=>[
 					'aglomerative',
@@ -4785,10 +6874,14 @@
 					'agglutinition',
 					'aglutination',
 					'aggglutination',
+					'agglutinatoin',
+					'agglutinaton',
 				],
 				'agglutinations'=>[
 					'aglutinations',
 					'aggglutinations',
+					'agglutinatoins',
+					'agglutinatons',
 				],
 				'agglutinative'=>[
 					'agglutinitive',
@@ -4909,10 +7002,14 @@
 				'aggravation'=>[
 					'agravation',
 					'agggravation',
+					'aggravatoin',
+					'aggravaton',
 				],
 				'aggravations'=>[
 					'agravations',
 					'agggravations',
+					'aggravatoins',
+					'aggravatons',
 				],
 				'aggravator'=>[
 					'agggravator',
@@ -4948,6 +7045,8 @@
 				'aggregation'=>[
 					'agregation',
 					'agggregation',
+					'aggregatoin',
+					'aggregaton',
 				],
 				'aggregational'=>[
 					'agregational',
@@ -4955,6 +7054,8 @@
 				'aggregations'=>[
 					'agregations',
 					'agggregations',
+					'aggregatoins',
+					'aggregatons',
 				],
 				'aggregative'=>[
 					'agregative',
@@ -4994,12 +7095,16 @@
 					'agression',
 					'aggresssion',
 					'agggression',
+					'aggressoin',
+					'aggresson',
 				],
 				'aggressions'=>[
 					'agressions',
 					'aggresions',
 					'aggresssions',
 					'agggressions',
+					'aggressoins',
+					'aggressons',
 				],
 				'aggressive'=>[
 					'aggresive',
@@ -5046,6 +7151,7 @@
 					'agrieve',
 					'agrieved',
 					'agggrieve',
+					'aggreive',
 				],
 				'aggrieved'=>[
 					'aggreived',
@@ -5056,10 +7162,13 @@
 				'aggrievedly'=>[
 					'agrievedly',
 					'agggrievedly',
+					'aggreivedly',
 				],
 				'aggrievement'=>[
 					'agrievement',
 					'agggrievement',
+					'aggreivement',
+					'aggrievemant',
 				],
 				'aggrievements'=>[
 					'agrievements',
@@ -5067,10 +7176,12 @@
 				'aggrieves'=>[
 					'agrieves',
 					'agggrieves',
+					'aggreives',
 				],
 				'aggrieving'=>[
 					'agrieving',
 					'agggrieving',
+					'aggreiving',
 				],
 				'aggro'=>[
 					'agggro',
@@ -5086,6 +7197,15 @@
 					'agilenes',
 					'agilenesss',
 				],
+				'agios'=>[
+					'agois',
+				],
+				'agiotage'=>[
+					'agoitage',
+				],
+				'agiotages'=>[
+					'agoitages',
+				],
 				'agitate'=>[
 					'aggitate',
 				],
@@ -5097,6 +7217,17 @@
 					'agitatedaly',
 					'agitatedely',
 					'agitatedlly',
+				],
+				'agitation'=>[
+					'agitatoin',
+					'agitaton',
+				],
+				'agitations'=>[
+					'agitatoins',
+					'agitatons',
+				],
+				'agleam'=>[
+					'aglaem',
 				],
 				'aglimmer'=>[
 					'aglimner',
@@ -5110,22 +7241,70 @@
 				'agmatine'=>[
 					'agmantine',
 				],
+				'agnail'=>[
+					'agnial',
+				],
+				'agnails'=>[
+					'agnials',
+				],
+				'agnation'=>[
+					'agnatoin',
+					'agnaton',
+				],
+				'agnations'=>[
+					'agnatoins',
+					'agnatons',
+				],
 				'agnolotti'=>[
 					'agnoletti',
+				],
+				'agnosia'=>[
+					'agnosai',
+				],
+				'agnosias'=>[
+					'agnosais',
 				],
 				'ago'=>[
 					'ago ago',
 					'ago ago ago',
 				],
+				'agonies'=>[
+					'agoneis',
+				],
 				'agonistically'=>[
 					'agonisticaly',
+				],
+				'agorae'=>[
+					'agorea',
+				],
+				'agoraphobia'=>[
+					'agoraphobai',
+				],
+				'agouti'=>[
+					'aguoti',
+				],
+				'agoutis'=>[
+					'aguotis',
 				],
 				'agraffe'=>[
 					'agrafffe',
 				],
+				'agraphia'=>[
+					'agraphai',
+				],
+				'agraphias'=>[
+					'agraphais',
+				],
 				'agrarian'=>[
 					'agarian',
 					'agraran',
+					'agrarain',
+				],
+				'agrarianism'=>[
+					'agrarainism',
+				],
+				'agrarians'=>[
+					'agrarains',
 				],
 				'agree'=>[
 					'aggree',
@@ -5145,6 +7324,7 @@
 					'agreeble',
 					'agreeible',
 					'agreeeable',
+					'agreaeble',
 				],
 				'agreeableness'=>[
 					'agreebleness',
@@ -5152,6 +7332,8 @@
 					'agreeablenesss',
 					'agreableness',
 					'agreeeableness',
+					'agreaebleness',
+					'agreeibleness',
 				],
 				'agreeablenesses'=>[
 					'agreeableneses',
@@ -5160,6 +7342,8 @@
 				'agreeably'=>[
 					'agreably',
 					'agreeeably',
+					'agreaebly',
+					'agreeibly',
 				],
 				'agreed'=>[
 					'aggreed',
@@ -5170,6 +7354,7 @@
 				'agreeing'=>[
 					'agreing',
 					'agreeeing',
+					'agreieng',
 				],
 				'agreement'=>[
 					'aggreement',
@@ -5179,6 +7364,7 @@
 				],
 				'agreements'=>[
 					'agreeements',
+					'agreemants',
 				],
 				'agrees'=>[
 					'agress',
@@ -5231,6 +7417,12 @@
 				'agriculturists'=>[
 					'agriculturalists',
 				],
+				'agrimonies'=>[
+					'agrimoneis',
+				],
+				'agrobiology'=>[
+					'agroboilogy',
+				],
 				'agroforestries'=>[
 					'agroforestreis',
 					'agroforestris',
@@ -5238,9 +7430,15 @@
 				'agroinfiltration'=>[
 					'argoinfiltration',
 				],
+				'agrologies'=>[
+					'agrologeis',
+				],
 				'agronomically'=>[
 					'agronomicaly',
 					'agronomicallly',
+				],
+				'aground'=>[
+					'agruond',
 				],
 				'aguacate'=>[
 					'agaucate',
@@ -5248,10 +7446,18 @@
 				'agueweed'=>[
 					'aguewed',
 					'agueweeed',
+					'ageuweed',
 				],
 				'agueweeds'=>[
 					'agueweds',
 					'agueweeeds',
+					'ageuweeds',
+				],
+				'aguinaldo'=>[
+					'agiunaldo',
+				],
+				'aguish'=>[
+					'agiush',
 				],
 				'ahchoo'=>[
 					'achoo',
@@ -5261,6 +7467,7 @@
 				'ahead'=>[
 					'aead',
 					'ahed',
+					'ahaed',
 				],
 				'ahed'=>[
 					'aed',
@@ -5302,46 +7509,126 @@
 					'ahul',
 					'aull',
 				],
+				'aided'=>[
+					'iaded',
+				],
+				'aider'=>[
+					'iader',
+				],
+				'aiders'=>[
+					'iaders',
+				],
+				'aides'=>[
+					'iades',
+				],
+				'aiding'=>[
+					'iading',
+				],
+				'aiglet'=>[
+					'iaglet',
+				],
+				'aiglets'=>[
+					'iaglets',
+				],
+				'aigret'=>[
+					'iagret',
+				],
+				'aigrets'=>[
+					'iagrets',
+				],
 				'aigrette'=>[
 					'aigrete',
 					'aigrettte',
+					'iagrette',
 				],
 				'aigrettes'=>[
 					'aigretes',
 					'aigretttes',
+					'iagrettes',
 				],
 				'aiguille'=>[
 					'aiguile',
 					'aiguillle',
+					'aigiulle',
+					'iaguille',
 				],
 				'aiguillette'=>[
 					'aiguilette',
 					'aiguillete',
 					'aiguillettte',
 					'aiguilllette',
+					'aigiullette',
+					'iaguillette',
+				],
+				'aikido'=>[
+					'iakido',
+				],
+				'aikidos'=>[
+					'iakidos',
+				],
+				'ailanthus'=>[
+					'ialanthus',
+				],
+				'ailanthuses'=>[
+					'ialanthuses',
+				],
+				'ailed'=>[
+					'ialed',
+				],
+				'aileron'=>[
+					'ialeron',
+				],
+				'ailerons'=>[
+					'ialerons',
 				],
 				'ailing'=>[
 					'aiiing',
+					'ialing',
 				],
 				'ailment'=>[
 					'ailmant',
+					'ialment',
+				],
+				'ailments'=>[
+					'ailmants',
+					'ialments',
+				],
+				'ailurophile'=>[
+					'ialurophile',
+				],
+				'ailurophobe'=>[
+					'ialurophobe',
 				],
 				'aim'=>[
 					'aiiii',
 				],
+				'aimed'=>[
+					'iamed',
+				],
+				'aiming'=>[
+					'iaming',
+				],
 				'aimless'=>[
 					'aimles',
 					'aimlesss',
+					'iamless',
 				],
 				'aimlessly'=>[
 					'aimlesly',
 					'aimlesssly',
+					'aimlessely',
+					'iamlessly',
 				],
 				'aimlessness'=>[
 					'aimlesness',
 					'aimlessnes',
 					'aimlessnesss',
 					'aimlesssness',
+					'iamlessness',
+				],
+				'aiolis'=>[
+					'aoilis',
+					'iaolis',
 				],
 				'air'=>[
 					'air air',
@@ -5351,26 +7638,194 @@
 					'air based',
 					'airbased',
 				],
+				'airbag'=>[
+					'iarbag',
+				],
+				'airbags'=>[
+					'aibags',
+					'iarbags',
+				],
+				'airbase'=>[
+					'aibase',
+					'airase',
+					'iarbase',
+				],
+				'airbases'=>[
+					'aibases',
+					'airases',
+					'iarbases',
+				],
+				'airbed'=>[
+					'iarbed',
+				],
+				'airbeds'=>[
+					'aibeds',
+					'iarbeds',
+				],
+				'airboat'=>[
+					'aiboat',
+					'airbaot',
+					'airoat',
+					'iarboat',
+				],
 				'airborne'=>[
 					'airborn',
 					'airbourne',
+					'aiborne',
+					'airorne',
+					'iarborne',
+				],
+				'airbrush'=>[
+					'aibrush',
+					'airrush',
+					'iarbrush',
+				],
+				'airbrushed'=>[
+					'aibrushed',
+					'airrushed',
+					'iarbrushed',
+				],
+				'airbrushes'=>[
+					'aibrushes',
+					'airrushes',
+					'iarbrushes',
+				],
+				'airbrushing'=>[
+					'aibrushing',
+					'airrushing',
+					'iarbrushing',
+				],
+				'airburst'=>[
+					'aiburst',
+					'airurst',
+					'iarburst',
+				],
+				'airbus'=>[
+					'iarbus',
+				],
+				'airbuses'=>[
+					'aibuses',
+					'airuses',
+					'iarbuses',
+				],
+				'airbusses'=>[
+					'iarbusses',
 				],
 				'aircraft'=>[
 					'aircrafts',
 					'arcraft',
+					'aicraft',
+					'airraft',
+					'iarcraft',
+				],
+				'aircraftman'=>[
+					'iarcraftman',
+				],
+				'aircraftmen'=>[
+					'iarcraftmen',
+				],
+				'aircrew'=>[
+					'aicrew',
+					'airrew',
+					'iarcrew',
+				],
+				'aircrewman'=>[
+					'iarcrewman',
+				],
+				'aircrews'=>[
+					'aicrews',
+					'airrews',
+					'iarcrews',
+				],
+				'airdrome'=>[
+					'iardrome',
+				],
+				'airdromes'=>[
+					'iardromes',
+				],
+				'airdrop'=>[
+					'aidrop',
+					'airrop',
+					'iardrop',
 				],
 				'airdropped'=>[
 					'airdroppped',
+					'aidropped',
+					'airropped',
+					'iardropped',
 				],
 				'airdropping'=>[
 					'airdroppping',
+					'aidropping',
+					'airropping',
+					'iardropping',
+				],
+				'airdrops'=>[
+					'aidrops',
+					'airrops',
+					'iardrops',
+				],
+				'aired'=>[
+					'iared',
+				],
+				'airedale'=>[
+					'iaredale',
+				],
+				'airedales'=>[
+					'iaredales',
+				],
+				'airfare'=>[
+					'aifare',
+					'airare',
+					'iarfare',
+				],
+				'airfares'=>[
+					'aifares',
+					'airares',
+					'iarfares',
 				],
 				'airfield'=>[
 					'airfeild',
 					'airfild',
+					'aifield',
+					'airield',
+					'iarfield',
+				],
+				'airfields'=>[
+					'aifields',
+					'airfeilds',
+					'airields',
+					'iarfields',
+				],
+				'airflow'=>[
+					'aiflow',
+					'iarflow',
+				],
+				'airfoil'=>[
+					'aifoil',
+					'airfiol',
+					'airoil',
+					'iarfoil',
+				],
+				'airfoils'=>[
+					'airfiols',
+					'iarfoils',
+				],
+				'airframe'=>[
+					'aiframe',
+					'airrame',
+					'iarframe',
+				],
+				'airframes'=>[
+					'aiframes',
+					'airrames',
+					'iarframes',
 				],
 				'airfreight'=>[
 					'airfrieght',
+					'aifreight',
+					'airreight',
+					'iarfreight',
 				],
 				'airfreighted'=>[
 					'airfrieghted',
@@ -5381,33 +7836,158 @@
 				'airfreights'=>[
 					'airfrieghts',
 				],
+				'airglow'=>[
+					'aiglow',
+					'iarglow',
+				],
+				'airgun'=>[
+					'iargun',
+				],
+				'airguns'=>[
+					'airuns',
+					'iarguns',
+				],
+				'airhead'=>[
+					'aihead',
+					'airead',
+					'airhaed',
+					'iarhead',
+				],
+				'airheads'=>[
+					'aiheads',
+					'aireads',
+					'airhaeds',
+					'iarheads',
+				],
+				'airier'=>[
+					'aireir',
+					'iarier',
+				],
+				'airiest'=>[
+					'aireist',
+					'iariest',
+				],
+				'airily'=>[
+					'iarily',
+				],
 				'airiness'=>[
 					'airines',
 					'airinesss',
+					'iariness',
+				],
+				'airing'=>[
+					'iaring',
+				],
+				'airings'=>[
+					'iarings',
 				],
 				'airless'=>[
 					'airles',
 					'airlesss',
+					'iarless',
 				],
 				'airlessness'=>[
 					'airlesness',
 					'airlessnes',
 					'airlessnesss',
 					'airlesssness',
+					'iarlessness',
 				],
 				'airletter'=>[
 					'airleter',
 					'airlettter',
+					'airetter',
+					'iarletter',
 				],
 				'airletters'=>[
 					'airleters',
 					'airlettters',
+					'ailetters',
+					'airetters',
+					'iarletters',
+				],
+				'airlift'=>[
+					'ailift',
+					'airift',
+					'iarlift',
+				],
+				'airlifted'=>[
+					'ailifted',
+					'airifted',
+					'iarlifted',
+				],
+				'airlifting'=>[
+					'ailifting',
+					'airifting',
+					'iarlifting',
+				],
+				'airlifts'=>[
+					'iarlifts',
+				],
+				'airlike'=>[
+					'iarlike',
 				],
 				'airline'=>[
 					'airlini',
+					'ailine',
+					'airine',
+					'iarline',
 				],
 				'airliner'=>[
 					'airlinir',
+					'ailiner',
+					'airiner',
+					'iarliner',
+				],
+				'airliners'=>[
+					'iarliners',
+				],
+				'airlines'=>[
+					'ailines',
+					'iarlines',
+				],
+				'airlock'=>[
+					'ailock',
+					'airock',
+					'iarlock',
+				],
+				'airlocks'=>[
+					'ailocks',
+					'airocks',
+					'iarlocks',
+				],
+				'airmail'=>[
+					'aimail',
+					'airail',
+					'airmial',
+					'iarmail',
+				],
+				'airmailed'=>[
+					'aimailed',
+					'airailed',
+					'airmialed',
+					'iarmailed',
+				],
+				'airmailing'=>[
+					'aimailing',
+					'airailing',
+					'airmialing',
+					'iarmailing',
+				],
+				'airmails'=>[
+					'airmials',
+					'iarmails',
+				],
+				'airman'=>[
+					'iarman',
+				],
+				'airmen'=>[
+					'iarmen',
+				],
+				'airmobile'=>[
+					'aimobile',
+					'airobile',
+					'iarmobile',
 				],
 				'airpark'=>[
 					'airperk',
@@ -5415,35 +7995,214 @@
 				'airparks'=>[
 					'airperks',
 				],
+				'airplane'=>[
+					'aiplane',
+					'iarplane',
+				],
+				'airplanes'=>[
+					'aiplanes',
+					'iarplanes',
+				],
+				'airplay'=>[
+					'aiplay',
+					'airlay',
+					'iarplay',
+				],
 				'airport'=>[
 					'aiport',
 					'airpot',
 					'airprot',
 					'ariport',
+					'airort',
+					'iarport',
 				],
 				'airports'=>[
 					'airporta',
+					'aiports',
+					'airorts',
+					'iarports',
+				],
+				'airpower'=>[
+					'aipower',
+					'airower',
+					'iarpower',
+				],
+				'airscrew'=>[
+					'airsrew',
+					'aiscrew',
+					'iarscrew',
+				],
+				'airscrews'=>[
+					'airsrews',
+					'aiscrews',
+					'iarscrews',
+				],
+				'airship'=>[
+					'iarship',
+				],
+				'airships'=>[
+					'airhips',
+					'airsips',
+					'iarships',
+				],
+				'airshow'=>[
+					'airhow',
+					'aishow',
+					'iarshow',
+				],
+				'airshows'=>[
+					'airhows',
+					'aishows',
+					'iarshows',
+				],
+				'airsick'=>[
+					'airick',
+					'aisick',
+					'iarsick',
 				],
 				'airsickness'=>[
 					'airsicknes',
 					'airsicknesss',
+					'airickness',
+					'aisickness',
+					'iarsickness',
+				],
+				'airspace'=>[
+					'airpace',
+					'airsace',
+					'aispace',
+					'iarspace',
 				],
 				'airspeed'=>[
 					'airsped',
 					'airspeeed',
+					'airpeed',
+					'airseed',
+					'aispeed',
+					'iarspeed',
 				],
 				'airspeeds'=>[
 					'airspeds',
 					'airspeeeds',
+					'airpeeds',
+					'aispeeds',
+					'iarspeeds',
+				],
+				'airstream'=>[
+					'airstraem',
+					'airtream',
+					'aistream',
+					'iarstream',
+				],
+				'airstrike'=>[
+					'airtrike',
+					'aistrike',
+					'iarstrike',
+				],
+				'airstrikes'=>[
+					'airtrikes',
+					'aistrikes',
+					'iarstrikes',
+				],
+				'airstrip'=>[
+					'airsrip',
+					'airtrip',
+					'aistrip',
+					'iarstrip',
+				],
+				'airstrips'=>[
+					'airsrips',
+					'airtrips',
+					'aistrips',
+					'iarstrips',
+				],
+				'airted'=>[
+					'iarted',
+				],
+				'airtight'=>[
+					'airight',
+					'aitight',
+					'iartight',
+				],
+				'airtime'=>[
+					'airime',
+					'aitime',
+					'iartime',
+				],
+				'airting'=>[
+					'iarting',
+				],
+				'airts'=>[
+					'iarts',
+				],
+				'airwave'=>[
+					'airave',
+					'aiwave',
+					'iarwave',
+				],
+				'airwaves'=>[
+					'airaves',
+					'aiwaves',
+					'iarwaves',
+				],
+				'airway'=>[
+					'iarway',
+				],
+				'airways'=>[
+					'airays',
+					'aiways',
+					'iarways',
+				],
+				'airwoman'=>[
+					'airoman',
+					'aiwoman',
+					'iarwoman',
+				],
+				'airwomen'=>[
+					'airomen',
+					'aiwomen',
+					'iarwomen',
+				],
+				'airworthier'=>[
+					'airwortheir',
+					'iarworthier',
+				],
+				'airworthiest'=>[
+					'airwortheist',
+					'iarworthiest',
 				],
 				'airworthiness'=>[
 					'airworthiniss',
 					'airworthines',
 					'airworthinesss',
+					'iarworthiness',
 				],
 				'airworthinesses'=>[
 					'airworthineses',
 					'airworthinisses',
+				],
+				'airworthy'=>[
+					'airorthy',
+					'aiworthy',
+					'iarworthy',
+				],
+				'aisle'=>[
+					'iasle',
+				],
+				'aisles'=>[
+					'iasles',
+				],
+				'aitch'=>[
+					'iatch',
+				],
+				'aitchbone'=>[
+					'iatchbone',
+				],
+				'aitchbones'=>[
+					'iatchbones',
+				],
+				'aitches'=>[
+					'iatches',
 				],
 				'ajar'=>[
 					'ajer',
@@ -5465,6 +8224,9 @@
 				],
 				'alabama'=>[
 					'alabma',
+				],
+				'alacritous'=>[
+					'alacrituos',
 				],
 				'alanine'=>[
 					'alanini',
@@ -5498,11 +8260,19 @@
 					'albatroses',
 					'albatrossses',
 				],
+				'albedoes'=>[
+					'albedeos',
+				],
 				'albeit'=>[
 					'albiet',
 				],
 				'albendazole'=>[
 					'abendazole',
+				],
+				'albescent'=>[
+					'albecent',
+					'albescant',
+					'albesent',
 				],
 				'albinal'=>[
 					'albinil',
@@ -5519,14 +8289,30 @@
 				'album'=>[
 					'album album',
 				],
+				'albuminoid'=>[
+					'albuminiod',
+				],
+				'albuminoids'=>[
+					'albuminiods',
+				],
+				'albuminous'=>[
+					'albuminuos',
+				],
 				'albuminuria'=>[
 					'albuminurea',
+					'albuminurai',
+				],
+				'albuminurias'=>[
+					'albuminurais',
 				],
 				'alcahest'=>[
 					'alcaest',
 				],
 				'alcahests'=>[
 					'alcaests',
+				],
+				'alcaide'=>[
+					'alciade',
 				],
 				'alcazar'=>[
 					'alcazer',
@@ -5570,27 +8356,81 @@
 				'aldosterone'=>[
 					'aldosterol',
 				],
+				'aleatoric'=>[
+					'alaetoric',
+				],
 				'aleatory'=>[
 					'alleatory',
+					'alaetory',
 				],
 				'alecithal'=>[
 					'alecital',
 				],
+				'alectryomancy'=>[
+					'alectryomency',
+				],
 				'alegar'=>[
 					'aleger',
 				],
+				'alehouse'=>[
+					'alehuose',
+					'aleouse',
+					'alhouse',
+				],
+				'alehouses'=>[
+					'alehuoses',
+					'aleouses',
+					'alhouses',
+				],
 				'alendronate'=>[
 					'aledronate',
+				],
+				'alerion'=>[
+					'aleroin',
+					'aleron',
+				],
+				'alertly'=>[
+					'alertely',
 				],
 				'alertness'=>[
 					'alertnes',
 					'alertnesss',
 				],
+				'aleuromancy'=>[
+					'aleuromency',
+					'alueromancy',
+				],
+				'aleurone'=>[
+					'aluerone',
+				],
+				'aleurones'=>[
+					'aluerones',
+				],
+				'alewife'=>[
+					'aleife',
+					'alwife',
+				],
+				'alewives'=>[
+					'aleives',
+					'alwives',
+				],
 				'alexandrine'=>[
 					'alexandrini',
 				],
+				'alexia'=>[
+					'alexai',
+				],
+				'alexias'=>[
+					'alexais',
+				],
 				'alfentanil'=>[
 					'alfentanyl',
+				],
+				'alfilaria'=>[
+					'alfilarai',
+				],
+				'alfilarias'=>[
+					'alfilarais',
 				],
 				'alfresco'=>[
 					'alfreco',
@@ -5600,6 +8440,9 @@
 				'alfuzosin'=>[
 					'afluzosin',
 				],
+				'algae'=>[
+					'algea',
+				],
 				'algarroba'=>[
 					'algarrroba',
 				],
@@ -5608,16 +8451,39 @@
 				],
 				'algebraic'=>[
 					'algebraical',
+					'algebriac',
+				],
+				'algebraical'=>[
+					'algebriacal',
 				],
 				'algebraically'=>[
 					'algebraicaly',
 					'algebraicallly',
+					'algebriacally',
+				],
+				'algebraist'=>[
+					'algebriast',
+				],
+				'algebraists'=>[
+					'algebriasts',
 				],
 				'algerian-occupied'=>[
 					'algerian occupied',
 				],
+				'algesia'=>[
+					'algesai',
+				],
 				'alginate'=>[
 					'alginite',
+				],
+				'algoid'=>[
+					'algiod',
+				],
+				'algolagnia'=>[
+					'algolagnai',
+				],
+				'algophobia'=>[
+					'algophobai',
 				],
 				'algorithm'=>[
 					'algoritm',
@@ -5631,6 +8497,9 @@
 				],
 				'algorithms'=>[
 					'algoritms',
+				],
+				'alibied'=>[
+					'alibeid',
 				],
 				'alibiing'=>[
 					'alibiiing',
@@ -5647,42 +8516,98 @@
 					'alienabiliteis',
 					'alienabilitis',
 				],
+				'alienability'=>[
+					'aleinability',
+					'alieability',
+					'alienbility',
+					'alienibility',
+				],
 				'alienable'=>[
 					'aleinable',
 					'alienible',
 					'alinable',
+					'alenable',
+				],
+				'alienage'=>[
+					'aleinage',
+				],
+				'alienages'=>[
+					'aleinages',
 				],
 				'alienate'=>[
 					'aleinate',
 					'alinate',
 				],
+				'alienated'=>[
+					'aleinated',
+				],
+				'alienates'=>[
+					'aleinates',
+				],
+				'alienating'=>[
+					'aleinating',
+				],
 				'alienation'=>[
 					'ahenation',
 					'aleination',
 					'alination',
+					'alienatoin',
+					'alienaton',
+				],
+				'alienator'=>[
+					'aleinator',
 				],
 				'aliened'=>[
 					'aliend',
+					'aleined',
 				],
 				'alienee'=>[
 					'alieneee',
+					'aleinee',
+				],
+				'aliening'=>[
+					'aleining',
+				],
+				'alienism'=>[
+					'aleinism',
+				],
+				'alienisms'=>[
+					'aleinisms',
+				],
+				'alienist'=>[
+					'aleinist',
+				],
+				'alienists'=>[
+					'aleinists',
 				],
 				'alienness'=>[
 					'aliennes',
 					'aliennesss',
 					'aliennness',
+					'aleinness',
 				],
 				'alienor'=>[
 					'alienour',
+					'aleinor',
 				],
 				'alienors'=>[
 					'alienours',
+				],
+				'aliens'=>[
+					'aleins',
+				],
+				'aliform'=>[
+					'alform',
+					'aliorm',
 				],
 				'alighted'=>[
 					'aliglited',
 				],
 				'align'=>[
 					'allign',
+				],
+				'aligned'=>[
+					'alignd',
 				],
 				'alignment'=>[
 					'aligment',
@@ -5693,6 +8618,7 @@
 				'alignments'=>[
 					'aligments',
 					'alignents',
+					'alignmants',
 				],
 				'alikeness'=>[
 					'alikenes',
@@ -5710,12 +8636,28 @@
 				],
 				'alimentation'=>[
 					'alimantation',
+					'alimentatoin',
+					'alimentaton',
+				],
+				'alimentations'=>[
+					'alimentatoins',
+					'alimentatons',
+				],
+				'aliments'=>[
+					'alimants',
 				],
 				'aline'=>[
 					'alini',
 				],
 				'alined'=>[
 					'alinid',
+					'alind',
+				],
+				'alinement'=>[
+					'alinemant',
+				],
+				'alinements'=>[
+					'alinemants',
 				],
 				'aliner'=>[
 					'alinir',
@@ -5726,15 +8668,24 @@
 				'alining'=>[
 					'alinang',
 				],
+				'aliquant'=>[
+					'aliqaunt',
+					'aliquent',
+				],
 				'aliquot'=>[
 					'aliqot',
 					'aliquote',
+					'aliqout',
 				],
 				'aliquots'=>[
 					'aliqots',
+					'aliqouts',
 				],
 				'aliteracy'=>[
 					'aliterasy',
+				],
+				'aliunde'=>[
+					'aluinde',
 				],
 				'alive'=>[
 					'alivc',
@@ -5757,6 +8708,15 @@
 				],
 				'alkahests'=>[
 					'alkaests',
+				],
+				'alkalies'=>[
+					'alkaleis',
+				],
+				'alkalified'=>[
+					'alkalifeid',
+				],
+				'alkalifies'=>[
+					'alkalifeis',
 				],
 				'alkaline'=>[
 					'alkalini',
@@ -5783,6 +8743,19 @@
 				'alkalinizing'=>[
 					'alkalinazing',
 				],
+				'alkalization'=>[
+					'alkalizatoin',
+					'alkalizaton',
+				],
+				'alkaloid'=>[
+					'alkaliod',
+				],
+				'alkaloidal'=>[
+					'alkaliodal',
+				],
+				'alkaloids'=>[
+					'alkaliods',
+				],
 				'alkalosis'=>[
 					'alkolosis',
 				],
@@ -5792,6 +8765,10 @@
 				],
 				'alkine'=>[
 					'alkini',
+				],
+				'alkylation'=>[
+					'alkylatoin',
+					'alkylaton',
 				],
 				'all'=>[
 					'all all',
@@ -5813,14 +8790,17 @@
 				'allantoid'=>[
 					'alantoid',
 					'alllantoid',
+					'allantiod',
 				],
 				'allantois'=>[
 					'alantois',
 					'alllantois',
+					'allantios',
 				],
 				'allantoises'=>[
 					'alantoises',
 					'alllantoises',
+					'allantioses',
 				],
 				'allargando'=>[
 					'alargando',
@@ -5849,10 +8829,14 @@
 				'allegation'=>[
 					'alegation',
 					'alllegation',
+					'allegatoin',
+					'allegaton',
 				],
 				'allegations'=>[
 					'alegations',
 					'alllegations',
+					'allegatoins',
+					'allegatons',
 				],
 				'allege'=>[
 					'aledge',
@@ -5863,6 +8847,8 @@
 				'allegeable'=>[
 					'alegeable',
 					'alllegeable',
+					'allegaeble',
+					'allegeible',
 				],
 				'alleged'=>[
 					'aledged',
@@ -5891,10 +8877,13 @@
 					'allegence',
 					'allegience',
 					'alllegiance',
+					'allegaince',
 				],
 				'allegiances'=>[
 					'alegiances',
 					'alllegiances',
+					'allegainces',
+					'allegiences',
 				],
 				'alleging'=>[
 					'alledging',
@@ -5922,6 +8911,7 @@
 				'allegories'=>[
 					'alegories',
 					'alllegories',
+					'allegoreis',
 				],
 				'allegorist'=>[
 					'alegorist',
@@ -6032,9 +9022,13 @@
 				],
 				'alleluia'=>[
 					'allleluia',
+					'alleliua',
+					'alleluai',
 				],
 				'alleluias'=>[
 					'allleluias',
+					'alleliuas',
+					'alleluais',
 				],
 				'allemande'=>[
 					'allemand',
@@ -6079,6 +9073,7 @@
 				'allergies'=>[
 					'alergies',
 					'alllergies',
+					'allergeis',
 				],
 				'allergist'=>[
 					'alergist',
@@ -6100,34 +9095,46 @@
 					'aleviate',
 					'alliviate',
 					'allleviate',
+					'allevaite',
 				],
 				'alleviated'=>[
 					'aleviated',
 					'allleviated',
+					'allevaited',
 				],
 				'alleviates'=>[
 					'aleviates',
 					'allleviates',
+					'allevaites',
 				],
 				'alleviating'=>[
 					'aleviating',
 					'allleviating',
+					'allevaiting',
 				],
 				'alleviation'=>[
 					'aleviation',
 					'allleviation',
+					'allevaition',
+					'alleviatoin',
+					'alleviaton',
 				],
 				'alleviations'=>[
 					'aleviations',
 					'allleviations',
+					'allevaitions',
+					'alleviatoins',
+					'alleviatons',
 				],
 				'alleviative'=>[
 					'aleviative',
 					'allleviative',
+					'allevaitive',
 				],
 				'alleviator'=>[
 					'aleviator',
 					'allleviator',
+					'allevaitor',
 				],
 				'alley'=>[
 					'aley',
@@ -6143,14 +9150,21 @@
 				'alleyways'=>[
 					'aleyways',
 					'allleyways',
+					'alleways',
+					'alleyays',
 				],
 				'allheal'=>[
 					'alheal',
 					'alllheal',
+					'alleal',
+					'allhael',
 				],
 				'alliaceous'=>[
 					'aliaceous',
 					'allliaceous',
+					'allaiceous',
+					'alliaceuos',
+					'alliacoeus',
 				],
 				'alliance'=>[
 					'aliance',
@@ -6161,6 +9175,8 @@
 				'alliances'=>[
 					'aliances',
 					'allliances',
+					'allainces',
+					'alliences',
 				],
 				'allied'=>[
 					'alied',
@@ -6170,6 +9186,7 @@
 				],
 				'allies'=>[
 					'alllies',
+					'alleis',
 				],
 				'alligator'=>[
 					'aligator',
@@ -6197,10 +9214,14 @@
 				'alliteration'=>[
 					'aliteration',
 					'allliteration',
+					'alliteratoin',
+					'alliteraton',
 				],
 				'alliterations'=>[
 					'aliterations',
 					'allliterations',
+					'alliteratoins',
+					'alliteratons',
 				],
 				'alliterative'=>[
 					'aliterative',
@@ -6220,6 +9241,7 @@
 				'allium'=>[
 					'alium',
 					'alllium',
+					'alluim',
 				],
 				'allness'=>[
 					'allnesss',
@@ -6246,6 +9268,7 @@
 				'allocatable'=>[
 					'alllocatable',
 					'alocatable',
+					'allocatible',
 				],
 				'allocate'=>[
 					'alocate',
@@ -6266,10 +9289,14 @@
 				'allocation'=>[
 					'alllocation',
 					'alocation',
+					'allocatoin',
+					'allocaton',
 				],
 				'allocations'=>[
 					'alllocations',
 					'alocations',
+					'allocatoins',
+					'allocatons',
 				],
 				'allocator'=>[
 					'alllocator',
@@ -6285,19 +9312,24 @@
 					'allocthonous',
 					'alllochthonous',
 					'alochthonous',
+					'allochthonuos',
 				],
 				'allocution'=>[
 					'alllocution',
 					'alocution',
+					'allocutoin',
+					'allocuton',
 				],
 				'allod'=>[
 					'alod',
 				],
 				'allodial'=>[
 					'alllodial',
+					'allodail',
 				],
 				'allodium'=>[
 					'alllodium',
+					'alloduim',
 				],
 				'allogamy'=>[
 					'alllogamy',
@@ -6318,6 +9350,7 @@
 				'allometries'=>[
 					'alllometries',
 					'alometries',
+					'allometreis',
 				],
 				'allometry'=>[
 					'alllometry',
@@ -6366,6 +9399,7 @@
 				'allopathies'=>[
 					'alllopathies',
 					'alopathies',
+					'allopatheis',
 				],
 				'allopathist'=>[
 					'alllopathist',
@@ -6452,6 +9486,7 @@
 				'allotments'=>[
 					'alotments',
 					'alllotments',
+					'allotmants',
 				],
 				'allotrope'=>[
 					'alllotrope',
@@ -6472,6 +9507,7 @@
 				'allotropies'=>[
 					'alllotropies',
 					'alotropies',
+					'allotropeis',
 				],
 				'allotropy'=>[
 					'alllotropy',
@@ -6509,6 +9545,7 @@
 				'allover'=>[
 					'alllover',
 					'alover',
+					'allver',
 				],
 				'allow'=>[
 					'allow allow',
@@ -6521,10 +9558,12 @@
 					'alllowable',
 					'alowable',
 					'allovvable',
+					'allowible',
 				],
 				'allowably'=>[
 					'alllowably',
 					'alowably',
+					'allowibly',
 				],
 				'allowance'=>[
 					'allowence',
@@ -6534,12 +9573,14 @@
 				'allowances'=>[
 					'alllowances',
 					'alowances',
+					'allowences',
 				],
 				'allowed'=>[
 					'alowed',
 					'alllowed',
 					'allovved',
 					'allowcd',
+					'allwed',
 				],
 				'allowedly'=>[
 					'allowedally',
@@ -6551,6 +9592,7 @@
 				],
 				'allowing'=>[
 					'alllowing',
+					'allwing',
 				],
 				'allows'=>[
 					'alllows',
@@ -6582,6 +9624,7 @@
 				'allspice'=>[
 					'alllspice',
 					'alspice',
+					'allpice',
 				],
 				'allude'=>[
 					'alude',
@@ -6605,14 +9648,17 @@
 				],
 				'allured'=>[
 					'alllured',
+					'allurd',
 				],
 				'allurement'=>[
 					'alllurement',
 					'alurement',
+					'alluremant',
 				],
 				'allurements'=>[
 					'alllurements',
 					'alurements',
+					'alluremants',
 				],
 				'allures'=>[
 					'alllures',
@@ -6629,11 +9675,15 @@
 					'alusion',
 					'alllusion',
 					'allufion',
+					'allusoin',
+					'alluson',
 				],
 				'allusions'=>[
 					'alluisons',
 					'alllusions',
 					'alusions',
+					'allusoins',
+					'allusons',
 				],
 				'allusive'=>[
 					'alluisve',
@@ -6660,26 +9710,34 @@
 				'alluvia'=>[
 					'allluvia',
 					'aluvia',
+					'alluvai',
 				],
 				'alluvial'=>[
 					'aluvial',
 					'allluvial',
+					'alluvail',
 				],
 				'alluvion'=>[
 					'allluvion',
 					'aluvion',
+					'alluvoin',
+					'alluvon',
 				],
 				'alluvions'=>[
 					'allluvions',
 					'aluvions',
+					'alluvoins',
+					'alluvons',
 				],
 				'alluvium'=>[
 					'allluvium',
 					'aluvium',
+					'alluvuim',
 				],
 				'alluviums'=>[
 					'allluviums',
 					'aluviums',
+					'alluvuims',
 				],
 				'ally'=>[
 					'aly',
@@ -6732,9 +9790,25 @@
 					'alniost',
 					'alrnost',
 				],
+				'almshouse'=>[
+					'almshuose',
+				],
+				'almshouses'=>[
+					'almshuoses',
+				],
+				'alodium'=>[
+					'aloduim',
+				],
+				'aloes'=>[
+					'aleos',
+				],
 				'aloeswood'=>[
 					'aloeswod',
 					'aloeswoood',
+					'aleoswood',
+				],
+				'aloin'=>[
+					'alion',
 				],
 				'alone'=>[
 					'aloiie',
@@ -6756,8 +9830,14 @@
 				'along with'=>[
 					'alongwith',
 				],
+				'alongshore'=>[
+					'alonghore',
+					'alonshore',
+				],
 				'alongside'=>[
 					'along side',
+					'alongide',
+					'alonside',
 				],
 				'aloof'=>[
 					'alooof',
@@ -6772,6 +9852,15 @@
 					'alofness',
 					'alooofness',
 				],
+				'alopecia'=>[
+					'alopecai',
+				],
+				'alopecias'=>[
+					'alopecais',
+				],
+				'aloud'=>[
+					'aluod',
+				],
 				'alpaca'=>[
 					'apalca',
 				],
@@ -6783,9 +9872,28 @@
 					'alphabeticaly',
 					'alphabeticallly',
 				],
+				'alphabetization'=>[
+					'alphabetizatoin',
+					'alphabetizaton',
+				],
+				'alphabetizations'=>[
+					'alphabetizatoins',
+					'alphabetizatons',
+				],
+				'alphabets'=>[
+					'alphaets',
+					'alphbets',
+				],
+				'alphanumerical'=>[
+					'alphaumerical',
+					'alphnumerical',
+				],
 				'alphanumerically'=>[
 					'alphanumericallly',
 					'alphanumericaly',
+				],
+				'alphitomancy'=>[
+					'alphitomency',
 				],
 				'alpine'=>[
 					'alpini',
@@ -6813,9 +9921,16 @@
 					'aiready',
 					'alrcady',
 					'alreacly',
+					'alraedy',
 				],
 				'alrighty'=>[
 					'allrighty',
+				],
+				'alsatian'=>[
+					'alsatain',
+				],
+				'alsatians'=>[
+					'alsatains',
 				],
 				'also'=>[
 					'allso',
@@ -6834,6 +9949,13 @@
 					'altarpeice',
 					'altarpice',
 					'alterpiece',
+					'altapiece',
+					'altariece',
+				],
+				'altarpieces'=>[
+					'altapieces',
+					'altarieces',
+					'altarpeices',
 				],
 				'alter'=>[
 					'altcr',
@@ -6845,23 +9967,55 @@
 				'alterable'=>[
 					'alterible',
 				],
+				'alterant'=>[
+					'alterent',
+				],
 				'alteration'=>[
 					'alteraton',
+					'alteratoin',
+				],
+				'alterations'=>[
+					'alteratoins',
+					'alteratons',
+				],
+				'altercation'=>[
+					'altercatoin',
+					'altercaton',
+				],
+				'altercations'=>[
+					'altercatoins',
+					'altercatons',
 				],
 				'altered'=>[
 					'alterated',
 					'alterred',
 					'attcred',
+					'alterd',
 				],
 				'altering'=>[
 					'alterring',
 				],
+				'alternant'=>[
+					'alternent',
+				],
 				'alternate'=>[
 					'a1ternate',
+					'altenate',
+					'alterate',
 				],
 				'alternately'=>[
 					'alternatly',
 					'altemately',
+				],
+				'alternation'=>[
+					'altenation',
+					'alternatoin',
+					'alternaton',
+				],
+				'alternations'=>[
+					'altenations',
+					'alternatoins',
+					'alternatons',
 				],
 				'alternative'=>[
 					'altenative',
@@ -6871,6 +10025,12 @@
 				'alternatively'=>[
 					'alternativly',
 					'altematively',
+				],
+				'alternatives'=>[
+					'altenatives',
+				],
+				'althea'=>[
+					'althae',
 				],
 				'although'=>[
 					'allthough',
@@ -6887,6 +10047,7 @@
 					'altlioiigh',
 					'altliough',
 					'altliougli',
+					'althuogh',
 				],
 				'altissimo'=>[
 					'altisimo',
@@ -6898,9 +10059,25 @@
 					'altogetber',
 					'altogetlier',
 				],
+				'altricial'=>[
+					'altricail',
+				],
+				'altruism'=>[
+					'altriusm',
+				],
+				'altruist'=>[
+					'altriust',
+				],
+				'altruistic'=>[
+					'altriustic',
+				],
 				'altruistically'=>[
 					'altruisticaly',
 					'altruisticallly',
+					'altriustically',
+				],
+				'altruists'=>[
+					'altriusts',
 				],
 				'alular'=>[
 					'aluler',
@@ -6914,6 +10091,9 @@
 				'aluminic'=>[
 					'aluminac',
 				],
+				'aluminiferous'=>[
+					'aluminiferuos',
+				],
 				'aluminium'=>[
 					'aluminaum',
 				],
@@ -6923,11 +10103,17 @@
 				'aluminizing'=>[
 					'aluminazing',
 				],
+				'aluminous'=>[
+					'aluminuos',
+				],
 				'aluminum'=>[
 					'alluminum',
 				],
 				'alumna'=>[
 					'alumnas',
+				],
+				'alumnae'=>[
+					'alumnea',
 				],
 				'alumni'=>[
 					'alumnis',
@@ -6948,12 +10134,21 @@
 				],
 				'alveolar'=>[
 					'alveoler',
+					'alvoelar',
+				],
+				'alveolars'=>[
+					'alvoelars',
 				],
 				'alveolate'=>[
 					'aveolate',
+					'alvoelate',
+				],
+				'alveoli'=>[
+					'alvoeli',
 				],
 				'alveolus'=>[
 					'alveolous',
+					'alvoelus',
 				],
 				'alvine'=>[
 					'alvini',
@@ -6985,19 +10180,43 @@
 					'am am',
 					'am am am',
 				],
+				'amadou'=>[
+					'amaduo',
+				],
 				'amah'=>[
 					'ama',
 				],
 				'amahs'=>[
 					'amas',
 				],
+				'amain'=>[
+					'amian',
+				],
+				'amalgamation'=>[
+					'amalgamatoin',
+					'amalgamaton',
+				],
+				'amalgamations'=>[
+					'amalgamatoins',
+					'amalgamatons',
+				],
 				'amantadine'=>[
 					'amantadini',
 					'amentadine',
 					'amatadine',
 				],
+				'amanuenses'=>[
+					'amaneunses',
+				],
+				'amanuensis'=>[
+					'amaneunsis',
+				],
 				'amaranth'=>[
 					'amarenth',
+				],
+				'amaranthaceous'=>[
+					'amaranthaceuos',
+					'amaranthacoeus',
 				],
 				'amaranthine'=>[
 					'amaranthini',
@@ -7021,6 +10240,8 @@
 				'amaryllidaceous'=>[
 					'amarylidaceous',
 					'amarylllidaceous',
+					'amaryllidaceuos',
+					'amaryllidacoeus',
 				],
 				'amaryllis'=>[
 					'amarylis',
@@ -7052,14 +10273,30 @@
 					'amasing',
 					'amasssing',
 				],
+				'amassment'=>[
+					'amassmant',
+				],
 				'amateur'=>[
 					'amater',
 					'amatuer',
 					'amature',
 				],
+				'amateurish'=>[
+					'amatuerish',
+				],
+				'amateurishly'=>[
+					'amatuerishly',
+				],
 				'amateurishness'=>[
 					'amateurishnes',
 					'amateurishnesss',
+					'amatuerishness',
+				],
+				'amateurism'=>[
+					'amatuerism',
+				],
+				'amateurs'=>[
+					'amatuers',
 				],
 				'amatively'=>[
 					'amativly',
@@ -7072,14 +10309,23 @@
 					'amativeneses',
 					'amativenessses',
 				],
+				'amauroses'=>[
+					'amuaroses',
+				],
+				'amaurosis'=>[
+					'amuarosis',
+				],
 				'amazement'=>[
 					'amazemant',
 				],
 				'amazonian'=>[
 					'amazonan',
+					'amazonain',
 				],
 				'ambagious'=>[
 					'ambagous',
+					'ambagiuos',
+					'ambagoius',
 				],
 				'ambary'=>[
 					'ambery',
@@ -7091,6 +10337,7 @@
 				'ambassadorial'=>[
 					'ambasadorial',
 					'ambasssadorial',
+					'ambassadorail',
 				],
 				'ambassadors'=>[
 					'ambasadors',
@@ -7103,6 +10350,8 @@
 				'ambassadorships'=>[
 					'ambasadorships',
 					'ambasssadorships',
+					'ambassadorhips',
+					'ambassadorsips',
 				],
 				'ambassadress'=>[
 					'ambassadres',
@@ -7120,18 +10369,37 @@
 					'ambassadressses',
 					'ambasssadresses',
 				],
+				'amberjack'=>[
+					'ambejack',
+					'amberack',
+				],
+				'amberjacks'=>[
+					'ambejacks',
+					'amberacks',
+				],
+				'amberoid'=>[
+					'amberiod',
+				],
+				'ambiance'=>[
+					'ambaince',
+				],
+				'ambiances'=>[
+					'ambainces',
+				],
 				'ambidexterities'=>[
 					'ambidexteriteis',
 					'ambidexteritis',
 				],
 				'ambidextrous'=>[
 					'ambidexterous',
+					'ambidextruos',
 				],
 				'ambidextrously'=>[
 					'ambidextrousally',
 					'ambidextrousaly',
 					'ambidextrousely',
 					'ambidextrouslly',
+					'ambidextruosly',
 				],
 				'ambience'=>[
 					'ambeince',
@@ -7139,17 +10407,32 @@
 				#	'ambiance',
 					'ambince',
 				],
+				'ambiences'=>[
+					'ambeinces',
+				],
 				'ambient'=>[
 					'ambeint',
 					'ambiant',
 					'ambint',
 				],
+				'ambiguities'=>[
+					'ambigiuties',
+					'ambiguiteis',
+				],
+				'ambiguity'=>[
+					'ambigiuty',
+				],
 				'ambiguous'=>[
 					'ambigious',
 					'ambigous',
+					'ambigouus',
+					'ambiguuos',
 				],
 				'ambiguously'=>[
 					'ambigously',
+					'ambigouusly',
+					'ambiguousely',
+					'ambiguuosly',
 				],
 				'ambiguousness'=>[
 					'ambigousness',
@@ -7171,20 +10454,37 @@
 				'ambisexuality'=>[
 					'ambisexaulity',
 				],
+				'ambitendency'=>[
+					'ambitendancy',
+				],
 				'ambition'=>[
 					'ambitiou',
 					'amhition',
 					'anibition',
+					'ambitoin',
+					'ambiton',
+				],
+				'ambitions'=>[
+					'ambitoins',
+					'ambitons',
 				],
 				'ambitious'=>[
 					'ambitous',
+					'ambitiuos',
+					'ambitoius',
 				],
 				'ambitiously'=>[
 					'ambitously',
+					'ambitiousely',
+					'ambitiuosly',
+					'ambitoiusly',
 				],
 				'ambitiousness'=>[
 					'ambitiousnes',
 					'ambitiousnesss',
+					'ambitiuosness',
+					'ambitoiusness',
+					'ambitousness',
 				],
 				'ambivalence'=>[
 					'ambivalance',
@@ -7192,8 +10492,36 @@
 				'ambivalent'=>[
 					'ambivalant',
 				],
+				'ambivalently'=>[
+					'ambivalantly',
+					'ambivalentely',
+				],
+				'ambiversion'=>[
+					'ambiversoin',
+					'ambiverson',
+				],
+				'amblyopia'=>[
+					'amblyopai',
+				],
+				'amblyopias'=>[
+					'amblyopais',
+				],
+				'amblyoscope'=>[
+					'amblyocope',
+					'amblyosope',
+				],
 				'amboina'=>[
 					'amboini',
+					'ambiona',
+				],
+				'ambroid'=>[
+					'ambriod',
+				],
+				'ambrosia'=>[
+					'ambrosai',
+				],
+				'ambrosial'=>[
+					'ambrosail',
 				],
 				'ambrosian'=>[
 					'ambrosan',
@@ -7201,15 +10529,61 @@
 				'ambulance'=>[
 					'ambulence',
 				],
+				'ambulances'=>[
+					'ambulences',
+				],
+				'ambulancewoman'=>[
+					'ambulanceoman',
+					'ambulancwoman',
+				],
+				'ambulancewomen'=>[
+					'ambulanceomen',
+					'ambulancwomen',
+				],
 				'ambulant'=>[
 					'ambulent',
+				],
+				'ambulation'=>[
+					'ambulatoin',
+					'ambulaton',
+				],
+				'ambulations'=>[
+					'ambulatoins',
+					'ambulatons',
+				],
+				'ambulatories'=>[
+					'ambulatoreis',
+				],
+				'ambuscade'=>[
+					'ambucade',
+					'ambusade',
+				],
+				'ambuscaded'=>[
+					'ambucaded',
+					'ambusaded',
+				],
+				'ambuscader'=>[
+					'ambucader',
+					'ambusader',
+				],
+				'ambuscades'=>[
+					'ambucades',
+					'ambusades',
+				],
+				'ambuscading'=>[
+					'ambucading',
+					'ambusading',
 				],
 				'ambush'=>[
 					'ambusb',
 					'ambusli',
 				],
+				'amebae'=>[
+					'amebea',
+				],
 				'ameboid'=>[
 					'amyboid',
+					'amebiod',
 				],
 				'ameer'=>[
 					'ameeer',
@@ -7217,8 +10591,39 @@
 				'ameers'=>[
 					'ameeers',
 				],
+				'amelia'=>[
+					'amelai',
+				],
+				'ameliorate'=>[
+					'ameloirate',
+				],
+				'ameliorated'=>[
+					'ameloirated',
+				],
+				'ameliorates'=>[
+					'ameloirates',
+				],
+				'ameliorating'=>[
+					'ameloirating',
+				],
+				'amelioration'=>[
+					'amelioratoin',
+					'amelioraton',
+					'ameloiration',
+				],
+				'ameliorative'=>[
+					'ameloirative',
+				],
+				'ameliorator'=>[
+					'ameloirator',
+				],
 				'amelogenin'=>[
 					'ameloginin',
+				],
+				'amenability'=>[
+					'ameability',
+					'amenbility',
+					'amenibility',
 				],
 				'amenable'=>[
 					'amenible',
@@ -7226,27 +10631,41 @@
 				'amenableness'=>[
 					'amenablenes',
 					'amenablenesss',
+					'amenibleness',
 				],
 				'amenablenesses'=>[
 					'amenableneses',
 					'amenablenessses',
 				],
+				'amenably'=>[
+					'amenibly',
+				],
 				'amend'=>[
 					'ammend',
 				],
+				'amendable'=>[
+					'amendible',
+				],
 				'amended'=>[
 					'ammended',
+				],
+				'amending'=>[
+					'ameding',
 				],
 				'amendment'=>[
 					'admendment',
 					'amendmant',
 					'ammendment',
 				],
+				'amendments'=>[
+					'amendmants',
+				],
 				'amends'=>[
 					'ammends',
 				],
 				'amenities'=>[
 					'amenites',
+					'ameniteis',
 				],
 				'amenity'=>[
 					'ammenity',
@@ -7257,11 +10676,13 @@
 					'amenorrhe',
 					'amenourrhea',
 					'amenorrrhea',
+					'amenorrhae',
 				],
 				'amenorrheas'=>[
 					'amenorheas',
 					'amenourrheas',
 					'amenorrrheas',
+					'amenorrhaes',
 				],
 				'amenorrheic'=>[
 					'amenorheic',
@@ -7272,8 +10693,20 @@
 				'ament'=>[
 					'amant',
 				],
+				'amentia'=>[
+					'amentai',
+				],
+				'amentias'=>[
+					'amentais',
+				],
 				'aments'=>[
 					'amants',
+				],
+				'amercement'=>[
+					'amercemant',
+				],
+				'amercements'=>[
+					'amercemants',
 				],
 				'america'=>[
 					'amerca',
@@ -7288,6 +10721,14 @@
 				'american-occupied'=>[
 					'american occupied',
 				],
+				'americanization'=>[
+					'americanizatoin',
+					'americanizaton',
+				],
+				'americanizations'=>[
+					'americanizatoins',
+					'americanizatons',
+				],
 				'americanness'=>[
 					'americannes',
 					'americannesss',
@@ -7295,19 +10736,46 @@
 				'americans'=>[
 					'arnericaas',
 				],
+				'americium'=>[
+					'americuim',
+				],
+				'ametropia'=>[
+					'ametropai',
+				],
+				'ametropias'=>[
+					'ametropais',
+				],
+				'amiability'=>[
+					'amaibility',
+				],
 				'amiable'=>[
 					'amiible',
+					'amaible',
 				],
 				'amiableness'=>[
 					'amiablenes',
 					'amiablenesss',
+					'amaibleness',
 				],
 				'amiablenesses'=>[
 					'amiableneses',
 					'amiablenessses',
+					'amaiblenesses',
+				],
+				'amiably'=>[
+					'amaibly',
+				],
+				'amianthus'=>[
+					'amainthus',
+				],
+				'amicability'=>[
+					'amicibility',
 				],
 				'amicable'=>[
 					'amicible',
+				],
+				'amicably'=>[
+					'amicibly',
 				],
 				'amie'=>[
 					'amei',
@@ -7319,6 +10787,9 @@
 				'amiloride'=>[
 					'ameloride',
 					'amyloride',
+				],
+				'amimia'=>[
+					'amimai',
 				],
 				'amine'=>[
 					'amini',
@@ -7403,16 +10874,19 @@
 					'amnonia',
 					'amonia',
 					'ammmonia',
+					'ammonai',
 				],
 				'ammoniac'=>[
 					'amnoniac',
 					'ammmoniac',
 					'amoniac',
+					'ammonaic',
 				],
 				'ammoniacal'=>[
 					'amnoniacal',
 					'ammmoniacal',
 					'amoniacal',
+					'ammonaical',
 				],
 				'ammonias'=>[
 					'amnonias',
@@ -7421,20 +10895,24 @@
 					'amnoniate',
 					'ammmoniate',
 					'amoniate',
+					'ammonaite',
 				],
 				'ammoniated'=>[
 					'amnoniated',
 					'ammmoniated',
 					'amoniated',
+					'ammonaited',
 				],
 				'ammoniates'=>[
 					'amnoniates',
 					'ammmoniates',
 					'amoniates',
+					'ammonaites',
 				],
 				'ammoniating'=>[
 					'ammmoniating',
 					'amoniating',
+					'ammonaiting',
 				],
 				'ammoniations'=>[
 					'amnoniations',
@@ -7453,11 +10931,13 @@
 					'amnonified',
 					'ammmonified',
 					'amonified',
+					'ammonifeid',
 				],
 				'ammonifies'=>[
 					'amnonifies',
 					'ammmonifies',
 					'amonifies',
+					'ammonifeis',
 				],
 				'ammonify'=>[
 					'amnonify',
@@ -7485,10 +10965,12 @@
 					'amnonium',
 					'ammmonium',
 					'amonium',
+					'ammonuim',
 				],
 				'ammoniums'=>[
 					'ammmoniums',
 					'amoniums',
+					'ammonuims',
 				],
 				'ammono'=>[
 					'amnono',
@@ -7503,12 +10985,39 @@
 					'amnunition',
 					'amunition',
 					'ammmunition',
+					'ammunitoin',
+					'ammuniton',
+				],
+				'amnesia'=>[
+					'amnesai',
+				],
+				'amnesiac'=>[
+					'amnesaic',
+				],
+				'amnesiacs'=>[
+					'amnesaics',
+				],
+				'amnestied'=>[
+					'amnesteid',
+				],
+				'amnesties'=>[
+					'amnesteis',
 				],
 				'amnesty'=>[
 					'amnisty',
 				],
+				'amnia'=>[
+					'amnai',
+				],
+				'amnio'=>[
+					'amnoi',
+				],
+				'amniocenteses'=>[
+					'amnoicenteses',
+				],
 				'amniocentesis'=>[
 					'amniocantesis',
+					'amnoicentesis',
 				],
 				'amniocyte'=>[
 					'aminocyte',
@@ -7516,14 +11025,49 @@
 				'amniocytes'=>[
 					'aminocytes',
 				],
+				'amnion'=>[
+					'amnoin',
+					'amnon',
+				],
+				'amnionic'=>[
+					'amnoinic',
+				],
+				'amnions'=>[
+					'amnoins',
+					'amnons',
+				],
+				'amniotic'=>[
+					'amnoitic',
+				],
 				'amodiaquine'=>[
 					'amodiaquone',
+				],
+				'amoeba'=>[
+					'ameoba',
+				],
+				'amoebae'=>[
+					'ameobae',
+				],
+				'amoebaean'=>[
+					'ameobaean',
+					'amoebaaen',
+					'amoebeaan',
+				],
+				'amoebas'=>[
+					'ameobas',
+				],
+				'amoebic'=>[
+					'ameobic',
 				],
 				'amoebocyte'=>[
 					'amaebocyte',
 				],
 				'amoeboflagellate'=>[
 					'amoebaflagellate',
+				],
+				'amoeboid'=>[
+					'ameoboid',
+					'amoebiod',
 				],
 				'amoebozoan'=>[
 					'amoebazoan',
@@ -7613,14 +11157,18 @@
 				],
 				'amorous'=>[
 					'amourous',
+					'amoruos',
 				],
 				'amorously'=>[
 					'amourously',
+					'amorousely',
+					'amoruosly',
 				],
 				'amorousness'=>[
 					'amourousness',
 					'amorousnes',
 					'amorousnesss',
+					'amoruosness',
 				],
 				'amorousnesses'=>[
 					'amourousnesses',
@@ -7633,6 +11181,7 @@
 				],
 				'amorphous'=>[
 					'amourphous',
+					'amorphuos',
 				],
 				'amorphously'=>[
 					'amorphousally',
@@ -7640,11 +11189,13 @@
 					'amorphousely',
 					'amorphouslly',
 					'amourphously',
+					'amorphuosly',
 				],
 				'amorphousness'=>[
 					'amourphousness',
 					'amorphousnes',
 					'amorphousnesss',
+					'amorphuosness',
 				],
 				'amorphousnesses'=>[
 					'amourphousnesses',
@@ -7663,18 +11214,26 @@
 				],
 				'amortizable'=>[
 					'amourtizable',
+					'amortizible',
 				],
 				'amortization'=>[
 					'amourtization',
+					'amortizatoin',
+					'amortizaton',
 				],
 				'amortizations'=>[
 					'amourtizations',
+					'amortizatoins',
+					'amortizatons',
 				],
 				'amortize'=>[
 					'amourtize',
 				],
 				'amortized'=>[
 					'amourtized',
+				],
+				'amortizement'=>[
+					'amortizemant',
 				],
 				'amortizes'=>[
 					'amourtizes',
@@ -7685,6 +11244,22 @@
 				'amount'=>[
 					'ammount',
 					'amonnt',
+					'amuont',
+				],
+				'amounted'=>[
+					'amuonted',
+				],
+				'amounting'=>[
+					'amuonting',
+				],
+				'amounts'=>[
+					'amuonts',
+				],
+				'amour'=>[
+					'amuor',
+				],
+				'amours'=>[
+					'amuors',
 				],
 				'amoxicillin'=>[
 					'amoxicilin',
@@ -7703,14 +11278,38 @@
 				'amphetamine'=>[
 					'amphetamini',
 				],
+				'amphiarthrosis'=>[
+					'amphairthrosis',
+				],
+				'amphiaster'=>[
+					'amphaister',
+				],
 				'amphibian'=>[
 					'amphiban',
+					'amphibain',
+				],
+				'amphibians'=>[
+					'amphibains',
+				],
+				'amphibiotic'=>[
+					'amphiboitic',
 				],
 				'amphibious'=>[
 					'amphibous',
+					'amphibiuos',
+					'amphiboius',
 				],
 				'amphibiously'=>[
 					'amphibously',
+					'amphibiousely',
+					'amphibiuosly',
+					'amphiboiusly',
+				],
+				'amphibologies'=>[
+					'amphibologeis',
+				],
+				'amphibolous'=>[
+					'amphiboluos',
 				],
 				'amphiboly'=>[
 					'amphiboally',
@@ -7718,12 +11317,35 @@
 					'amphiboely',
 					'amphibolly',
 				],
+				'amphichroic'=>[
+					'amphichrioc',
+				],
 				'amphicoelous'=>[
 					'amphycoelous',
+					'amphiceolous',
+					'amphicoeluos',
+				],
+				'amphictyonies'=>[
+					'amphictyoneis',
+				],
+				'amphidiploid'=>[
+					'amphidipliod',
 				],
 				'amphidiploidies'=>[
 					'amphidiploideis',
 					'amphidiploidis',
+				],
+				'amphidiploids'=>[
+					'amphidipliods',
+				],
+				'amphigories'=>[
+					'amphigoreis',
+				],
+				'amphioxus'=>[
+					'amphoixus',
+				],
+				'amphioxuses'=>[
+					'amphoixuses',
 				],
 				'amphipathic'=>[
 					'amphipatic',
@@ -7734,25 +11356,44 @@
 					'amphiphillic',
 					'amphiphylic',
 				],
+				'amphisbaena'=>[
+					'amphisbeana',
+				],
+				'amphisbaenas'=>[
+					'amphisbeanas',
+				],
 				'amphitheater'=>[
 					'amphitheter',
 					'ampitheater',
+					'amphithaeter',
 				],
 				'amphitheaters'=>[
 					'amphitheters',
 					'ampitheaters',
+					'amphithaeters',
 				],
 				'amphitheatre'=>[
 					'ampitheatre',
+					'amphithaetre',
 				],
 				'amphitheatres'=>[
 					'ampitheatres',
+					'amphithaetres',
 				],
 				'amphitheatric'=>[
 					'amphithetric',
 				],
 				'amphitheatrical'=>[
 					'amphithetrical',
+				],
+				'amphithecium'=>[
+					'amphithecuim',
+				],
+				'amphitropous'=>[
+					'amphitropuos',
+				],
+				'amphorae'=>[
+					'amphorea',
 				],
 				'amphotericin'=>[
 					'amphotericine',
@@ -7782,12 +11423,37 @@
 					'ampleneses',
 					'amplenessses',
 				],
+				'amplest'=>[
+					'amlest',
+					'ampest',
+				],
+				'amplexicaul'=>[
+					'amplexicual',
+				],
+				'ampliate'=>[
+					'amplaite',
+				],
 				'amplification'=>[
 					'amplication',
+					'amplificatoin',
+					'amplificaton',
+				],
+				'amplifications'=>[
+					'amplificatoins',
+					'amplificatons',
+				],
+				'amplified'=>[
+					'amplifeid',
 				],
 				'amplifier'=>[
 					'amplifeir',
 					'amplifir',
+				],
+				'amplifiers'=>[
+					'amplifeirs',
+				],
+				'amplifies'=>[
+					'amplifeis',
 				],
 				'amply'=>[
 					'ampally',
@@ -7796,11 +11462,15 @@
 				],
 				'ampoule'=>[
 					'ampoul',
+					'ampuole',
 				],
 					# ampoule: an accepted spelling, not a slip (AmericanBritishWords_A: ampule)
 			#	'ampule'=>[
 			#		'ampoule',
 			#	],
+				'ampoules'=>[
+					'ampuoles',
+				],
 				'ampulla'=>[
 					'ampula',
 					'ampullla',
@@ -7808,6 +11478,7 @@
 				'ampullae'=>[
 					'ampulae',
 					'ampulllae',
+					'ampullea',
 				],
 				'ampullar'=>[
 					'ampuller',
@@ -7819,6 +11490,14 @@
 					'ampilliform',
 					'ampuliform',
 				],
+				'amputation'=>[
+					'amputatoin',
+					'amputaton',
+				],
+				'amputations'=>[
+					'amputatoins',
+					'amputatons',
+				],
 				'amputee'=>[
 					'amputeee',
 				],
@@ -7828,8 +11507,14 @@
 				'amsacrine'=>[
 					'amascrine',
 				],
+				'amusable'=>[
+					'amusible',
+				],
 				'amusement'=>[
 					'amusemant',
+				],
+				'amusements'=>[
+					'amusemants',
 				],
 				'amusingly'=>[
 					'amuisngly',
@@ -7840,8 +11525,16 @@
 				'amusingnesses'=>[
 					'amuisngnesses',
 				],
+				'amygdaloid'=>[
+					'amygdaliod',
+				],
+				'amylaceous'=>[
+					'amylaceuos',
+					'amylacoeus',
+				],
 				'amyloid'=>[
 					'amiloid',
+					'amyliod',
 				],
 				'amyloidogenic'=>[
 					'amiloidogenic',
@@ -7849,11 +11542,24 @@
 				'amyloidogenicity'=>[
 					'amyloidogenecity',
 				],
+				'amyloids'=>[
+					'amyliods',
+				],
 				'amyloplast'=>[
 					'amiloplast',
 				],
+				'amylose'=>[
+					'amlose',
+					'amyose',
+				],
 				'amyopathic'=>[
 					'amyopatic',
+				],
+				'amyotonia'=>[
+					'amyotonai',
+				],
+				'amyotonias'=>[
+					'amyotonais',
 				],
 				'amyotrophic'=>[
 					'amylotrophic',
@@ -7883,8 +11589,22 @@
 				'an issue'=>[
 					'a issue',
 				],
+				'anabaena'=>[
+					'anabeana',
+				],
+				'anabioses'=>[
+					'anaboises',
+				],
+				'anabiosis'=>[
+					'anaboisis',
+				],
 				'anabolitic'=>[
 					'anabolytic',
+				],
+				'anacardiaceous'=>[
+					'anacardaiceous',
+					'anacardiaceuos',
+					'anacardiacoeus',
 				],
 				'anachronism'=>[
 					'anarchronism',
@@ -7893,27 +11613,83 @@
 					'anachronisticallly',
 					'anachronisticaly',
 				],
+				'anachronous'=>[
+					'anachronuos',
+				],
 				'anachronously'=>[
 					'anachronousally',
 					'anachronousaly',
 					'anachronousely',
 					'anachronouslly',
+					'anachronuosly',
+				],
+				'anacoluthia'=>[
+					'anacoluthai',
+				],
+				'anacoluthias'=>[
+					'anacoluthais',
 				],
 				'anacoluthically'=>[
 					'anacoluthicaly',
 				],
+				'anacreontic'=>[
+					'anacroentic',
+				],
 				'anacrusis'=>[
 					'anacruiss',
 				],
+				'anadromous'=>[
+					'anadromuos',
+				],
 				'anaemia'=>[
 					'aneamia',
+					'anaemai',
+				],
+				'anaemic'=>[
+					'aneamic',
+				],
+				'anaerobe'=>[
+					'anearobe',
+				],
+				'anaerobes'=>[
+					'anearobes',
 				],
 				'anaerobic'=>[
 					'anacrobic',
+					'anearobic',
 				],
 				'anaerobically'=>[
 					'anaerobicaly',
 					'anaerobicallly',
+					'anearobically',
+				],
+				'anaesthesia'=>[
+					'anaesthesai',
+					'aneasthesia',
+				],
+				'anaesthetic'=>[
+					'aneasthetic',
+				],
+				'anaesthetics'=>[
+					'aneasthetics',
+				],
+				'anaesthetist'=>[
+					'aneasthetist',
+				],
+				'anaesthetists'=>[
+					'aneasthetists',
+				],
+				'anaesthetize'=>[
+					'aneasthetize',
+				],
+				'anaesthetized'=>[
+					'aneasthetized',
+				],
+				'anaesthetizes'=>[
+					'aneasthetizes',
+				],
+				'anaesthetizing'=>[
+					'aneasthetizing',
 				],
 				'anagnorises'=>[
 					'anagnourises',
@@ -7966,10 +11742,16 @@
 				'analagious'=>[
 					'analagous',
 				],
+				'analcite'=>[
+					'anacite',
+					'analite',
+				],
 				'analemma'=>[
 					'analemna',
 					'analema',
 					'analemmma',
+					'anaemma',
+					'analmma',
 				],
 				'analemmata'=>[
 					'analemnata',
@@ -7978,6 +11760,9 @@
 			#	'analog'=>[
 			#		'analogue',
 			#	],
+				'analgesia'=>[
+					'analgesai',
+				],
 				'anally'=>[
 					'anallly',
 					'analy',
@@ -7986,16 +11771,29 @@
 					'analogicallly',
 					'analogicaly',
 				],
+				'analogies'=>[
+					'analogeis',
+				],
 				'analogous'=>[
 					'analagous',
 					'analogeous',
+					'analoguos',
 				],
 				'analogously'=>[
 					'analagously',
+					'analogousely',
+					'analoguosly',
 				],
 				'analogousness'=>[
 					'analogousnes',
 					'analogousnesss',
+					'analoguosness',
+				],
+				'analogue'=>[
+					'analogeu',
+				],
+				'analogues'=>[
+					'analogeus',
 				],
 				'analyse'=>[
 					'analise',
@@ -8022,14 +11820,36 @@
 					'analyzabiliteis',
 					'analyzabilitis',
 				],
+				'analyzable'=>[
+					'analyzible',
+				],
 				'anamnestic'=>[
 					'anamestic',
 				],
 				'anamorphic'=>[
 					'anamourphic',
 				],
+				'anamorphoscope'=>[
+					'anamorphocope',
+					'anamorphosope',
+				],
+				'anandrous'=>[
+					'anandruos',
+				],
+				'ananthous'=>[
+					'ananthuos',
+				],
+				'anapaest'=>[
+					'anapeast',
+				],
+				'anapaests'=>[
+					'anapeasts',
+				],
 				'anaphorically'=>[
 					'anaphoricaly',
+				],
+				'anaphrodisiac'=>[
+					'anaphrodisaic',
 				],
 				'anaphylatoxin'=>[
 					'anaflatoxin',
@@ -8055,6 +11875,12 @@
 					'anachy',
 					'anarachy',
 				],
+				'anarthria'=>[
+					'anarthrai',
+				],
+				'anarthrous'=>[
+					'anarthruos',
+				],
 				'anastomosis'=>[
 					'anastamosis',
 				],
@@ -8070,6 +11896,12 @@
 				'anatomically'=>[
 					'anatomicallly',
 					'anatomicaly',
+				],
+				'anatomies'=>[
+					'anatomeis',
+				],
+				'anatropous'=>[
+					'anatropuos',
 				],
 				'ancestor'=>[
 					'ancester',
@@ -8089,6 +11921,9 @@
 					'ancestreses',
 					'ancestressses',
 				],
+				'ancestries'=>[
+					'ancestreis',
+				],
 				'ancestry'=>[
 					'ancestory',
 				],
@@ -8096,12 +11931,39 @@
 					'aiiclior',
 					'anclior',
 				],
+				'anchored'=>[
+					'anchord',
+				],
 				'anchoress'=>[
 					'anchores',
 					'anchoresss',
 				],
 				'anchoritically'=>[
 					'anchoriticaly',
+				],
+				'anchorpeople'=>[
+					'anchopeople',
+					'anchoreople',
+					'anchorpoeple',
+				],
+				'anchorperson'=>[
+					'anchoperson',
+					'anchorerson',
+				],
+				'anchorpersons'=>[
+					'anchopersons',
+					'anchorersons',
+				],
+				'anchorwoman'=>[
+					'anchoroman',
+					'anchowoman',
+				],
+				'anchorwomen'=>[
+					'anchoromen',
+					'anchowomen',
+				],
+				'anchovies'=>[
+					'anchoveis',
 				],
 				'anchusin'=>[
 					'anchuisn',
@@ -8119,15 +11981,28 @@
 					'aucient',
 					'aucieut',
 				],
+				'ancienter'=>[
+					'anceinter',
+				],
+				'ancientest'=>[
+					'anceintest',
+				],
 				'anciently'=>[
 					'ancientally',
 					'ancientaly',
 					'ancientely',
 					'ancientlly',
+					'anceintly',
+					'anciantly',
 				],
 				'ancientness'=>[
 					'ancientnes',
 					'ancientnesss',
+					'anceintness',
+				],
+				'ancients'=>[
+					'anceints',
+					'anciants',
 				],
 				'ancilla'=>[
 					'ancila',
@@ -8136,6 +12011,8 @@
 				'ancillaries'=>[
 					'ancilaries',
 					'ancilllaries',
+					'ancillareis',
+					'ancilleries',
 				],
 				'ancillary'=>[
 					'ancilary',
@@ -8143,6 +12020,9 @@
 					'ancilliary',
 					'anciliary',
 					'ancilllary',
+				],
+				'ancylostomiasis'=>[
+					'ancylostomaisis',
 				],
 				'and'=>[
 					'aand',
@@ -8194,6 +12074,8 @@
 				],
 				'andante'=>[
 					'andente',
+					'anante',
+					'andnte',
 				],
 				'andantes'=>[
 					'andentes',
@@ -8208,8 +12090,21 @@
 				'andantinos'=>[
 					'andentinos',
 				],
+				'andiron'=>[
+					'aniron',
+				],
+				'andirons'=>[
+					'anirons',
+				],
 				'androcentric'=>[
 					'androcantric',
+				],
+				'androclinium'=>[
+					'androclinuim',
+				],
+				'androecium'=>[
+					'andreocium',
+					'androecuim',
 				],
 				'andrographolide'=>[
 					'angrographolide',
@@ -8217,9 +12112,20 @@
 				'androgynous'=>[
 					'androgenous',
 					'androgonous',
+					'androgynuos',
+				],
+				'androgynously'=>[
+					'androgynousely',
+					'androgynuosly',
 				],
 				'androgyny'=>[
 					'androgeny',
+				],
+				'android'=>[
+					'andriod',
+				],
+				'androids'=>[
+					'andriods',
 				],
 				'androstenolone'=>[
 					'androsteneolone',
@@ -8241,12 +12147,16 @@
 				],
 				'anear'=>[
 					'aneer',
+					'anaer',
 				],
 				'anecdotally'=>[
 					'anecdotallly',
 				],
 				'anecdotically'=>[
 					'anecdoticaly',
+				],
+				'anechoic'=>[
+					'anechioc',
 				],
 				'anelasticities'=>[
 					'anelasticiteis',
@@ -8259,15 +12169,26 @@
 					'anellivirus',
 					'annellovirus',
 				],
+				'anemia'=>[
+					'anemai',
+				],
 				'anemically'=>[
 					'anemicallly',
 					'anemicaly',
+				],
+				'anemometries'=>[
+					'anemometreis',
 				],
 				'anemone'=>[
 					'anenome',
 				],
 				'anemophilous'=>[
 					'anemophylous',
+					'anemophiluos',
+				],
+				'anemoscope'=>[
+					'anemocope',
+					'anemosope',
 				],
 				'anencephaly'=>[
 					'anencephaally',
@@ -8278,12 +12199,35 @@
 				'anent'=>[
 					'anant',
 				],
+				'anergies'=>[
+					'anergeis',
+				],
+				'aneroid'=>[
+					'aneriod',
+				],
+				'aneroids'=>[
+					'aneriods',
+				],
+				'anesthesia'=>[
+					'anesthesai',
+				],
+				'anesthesiologist'=>[
+					'anesthesoilogist',
+				],
+				'anesthesiologists'=>[
+					'anesthesoilogists',
+				],
+				'anesthesiology'=>[
+					'anesthesoilogy',
+				],
 				'anesthetically'=>[
 					'anestheticaly',
 					'anestheticallly',
 				],
 				'anesthetization'=>[
 					'anesthization',
+					'anesthetizatoin',
+					'anesthetizaton',
 				],
 				'anesthetize'=>[
 					'anesthesize',
@@ -8294,8 +12238,24 @@
 				'aneuploid'=>[
 					'anueploid',
 				],
+				'aneurin'=>[
+					'anuerin',
+				],
+				'aneurism'=>[
+					'anuerism',
+				],
+				'aneurisms'=>[
+					'anuerisms',
+				],
 				'aneurysm'=>[
 					'anurism',
+					'anuerysm',
+				],
+				'aneurysmal'=>[
+					'anuerysmal',
+				],
+				'aneurysms'=>[
+					'anuerysms',
 				],
 				'anfractuosities'=>[
 					'anfractosities',
@@ -8304,23 +12264,43 @@
 				],
 				'anfractuosity'=>[
 					'anfractosity',
+					'anfractousity',
 				],
 				'anfractuous'=>[
 					'anfractous',
+					'anfractouus',
+					'anfractuuos',
 				],
 				'angary'=>[
 					'angery',
 				],
+				'angelfish'=>[
+					'angefish',
+					'angelish',
+				],
+				'angelfishes'=>[
+					'angefishes',
+					'angelishes',
+				],
 				'angelically'=>[
 					'angelicallly',
 				],
+				'angelique'=>[
+					'angeliqeu',
+				],
 				'angell'=>[
 					'angelll',
+				],
+				'angeluses'=>[
+					'angeuses',
 				],
 				'anger'=>[
 					'anger anger',
 					'anger anger anger',
 					'aiiger',
+				],
+				'angered'=>[
+					'angerd',
 				],
 				'angerly'=>[
 					'angerally',
@@ -8340,21 +12320,94 @@
 				'angioedema'=>[
 					'angiodema',
 				],
+				'angiogenesis'=>[
+					'angoigenesis',
+				],
 				'angiogenic'=>[
 					'angeogenic',
+					'angoigenic',
+				],
+				'angiogram'=>[
+					'angoigram',
+				],
+				'angiograms'=>[
+					'angoigrams',
+				],
+				'angiographies'=>[
+					'angiographeis',
+					'angoigraphies',
+				],
+				'angiography'=>[
+					'angoigraphy',
+				],
+				'angiology'=>[
+					'angoilogy',
+				],
+				'angioma'=>[
+					'angoima',
+				],
+				'angiomas'=>[
+					'angoimas',
+				],
+				'angioplasties'=>[
+					'angioplasteis',
+					'angoiplasties',
+				],
+				'angioplasty'=>[
+					'angoiplasty',
 				],
 				'angiopoietin'=>[
 					'angioprotein',
+				],
+				'angiosperm'=>[
+					'angoisperm',
+				],
+				'angiosperms'=>[
+					'angoisperms',
 				],
 				'angiotensin'=>[
 					'agiotensin',
 					'angiotension',
 				],
+				'anglepoise'=>[
+					'anglepiose',
+				],
+				'anglesite'=>[
+					'angleite',
+					'anglsite',
+				],
+				'angleworm'=>[
+					'angleorm',
+					'anglworm',
+				],
+				'angleworms'=>[
+					'angleorms',
+					'anglworms',
+				],
+				'anglicization'=>[
+					'anglicizatoin',
+					'anglicizaton',
+				],
 				'anglicized'=>[
 					'anglecized',
 				],
+				'anglophilia'=>[
+					'anglophilai',
+				],
+				'anglophobia'=>[
+					'anglophobai',
+				],
 				'angolan-occupied'=>[
 					'angolan occupied',
+				],
+				'angrier'=>[
+					'angreir',
+				],
+				'angriest'=>[
+					'angreist',
+				],
+				'angrily'=>[
+					'angrly',
 				],
 				'angriness'=>[
 					'angrines',
@@ -8367,18 +12420,63 @@
 				'anguilliform'=>[
 					'anguiliform',
 					'anguillliform',
+					'angiulliform',
+				],
+				'anguine'=>[
+					'angiune',
+				],
+				'anguish'=>[
+					'angiush',
+				],
+				'anguished'=>[
+					'angiushed',
+				],
+				'anguishes'=>[
+					'angiushes',
+				],
+				'anguishing'=>[
+					'angiushing',
 				],
 				'angular'=>[
 					'anguler',
 				],
+				'angularities'=>[
+					'angulariteis',
+				],
+				'angularity'=>[
+					'angulerity',
+				],
+				'angularly'=>[
+					'angularily',
+					'angulerly',
+				],
+				'angulation'=>[
+					'angulatoin',
+					'angulaton',
+				],
+				'angulations'=>[
+					'angulatoins',
+					'angulatons',
+				],
 				'anhidrosis'=>[
 					'anhydrosis',
+				],
+				'anhydrous'=>[
+					'anhydruos',
 				],
 				'aniline'=>[
 					'anilini',
 				],
 				'animacy'=>[
 					'animasy',
+				],
+				'animadversion'=>[
+					'animadversoin',
+					'animadverson',
+				],
+				'animadversions'=>[
+					'animadversoins',
+					'animadversons',
 				],
 				'animal'=>[
 					'animal animal',
@@ -8388,6 +12486,9 @@
 				],
 				'animalian'=>[
 					'animalan',
+				],
+				'animalities'=>[
+					'animaliteis',
 				],
 				'animals'=>[
 					'animlans',
@@ -8404,6 +12505,14 @@
 				'animately'=>[
 					'animatly',
 				],
+				'animation'=>[
+					'animatoin',
+					'animaton',
+				],
+				'animations'=>[
+					'animatoins',
+					'animatons',
+				],
 				'animatronically'=>[
 					'animatronicalally',
 					'animatronicalaly',
@@ -8411,9 +12520,22 @@
 					'animatronicallly',
 					'animatronicaly',
 				],
+				'animosities'=>[
+					'animositeis',
+				],
+				'anion'=>[
+					'anoin',
+				],
+				'anionic'=>[
+					'anoinic',
+				],
 				'anionically'=>[
 					'anionicallly',
 					'anionicaly',
+					'anoinically',
+				],
+				'anions'=>[
+					'anoins',
 				],
 				'aniseed'=>[
 					'anniseed',
@@ -8421,9 +12543,11 @@
 				],
 				'aniseikonia'=>[
 					'anisiekonia',
+					'aniseikonai',
 				],
 				'aniseikonias'=>[
 					'anisiekonias',
+					'aniseikonais',
 				],
 				'aniseikonic'=>[
 					'anisiekonic',
@@ -8435,6 +12559,15 @@
 				'anisokaryosis'=>[
 					'anisocarioses',
 				],
+				'anisomerous'=>[
+					'anisomeruos',
+				],
+				'anisometropia'=>[
+					'anisometropai',
+				],
+				'anisometropias'=>[
+					'anisometropais',
+				],
 				'anisomycin'=>[
 					'anysomicin',
 				],
@@ -8445,11 +12578,31 @@
 					'anisotropicallly',
 					'anisotropicaly',
 				],
+				'anisotropies'=>[
+					'anisotropeis',
+				],
 				'anisotropy'=>[
 					'anisotrophy',
 				],
 				'ankle'=>[
 					'ankel',
+				],
+				'anklebone'=>[
+					'anklbone',
+					'ankleone',
+				],
+				'anklebones'=>[
+					'anklbones',
+					'ankleones',
+				],
+				'ankylosaur'=>[
+					'ankylosuar',
+				],
+				'ankylosaurs'=>[
+					'ankylosuars',
+				],
+				'ankylostomiasis'=>[
+					'ankylostomaisis',
 				],
 				'ankyrin'=>[
 					'ankryin',
@@ -8471,6 +12624,8 @@
 				'annalist'=>[
 					'analist',
 					'annnalist',
+					'annaist',
+					'annlist',
 				],
 				'annalistic'=>[
 					'analistic',
@@ -8479,6 +12634,8 @@
 				'annalists'=>[
 					'analists',
 					'annnalists',
+					'annaists',
+					'annlists',
 				],
 				'annals'=>[
 					'anals',
@@ -8508,18 +12665,23 @@
 				'anneal'=>[
 					'aneal',
 					'annneal',
+					'annael',
 				],
 				'annealed'=>[
 					'annnealed',
+					'annaeled',
 				],
 				'annealer'=>[
 					'annnealer',
+					'annaeler',
 				],
 				'annealing'=>[
 					'annnealing',
+					'annaeling',
 				],
 				'anneals'=>[
 					'annneals',
+					'annaels',
 				],
 				'annelid'=>[
 					'anelid',
@@ -8544,6 +12706,8 @@
 				'annexation'=>[
 					'anexation',
 					'annnexation',
+					'annexatoin',
+					'annexaton',
 				],
 				'annexational'=>[
 					'anexational',
@@ -8551,10 +12715,14 @@
 				'annexationism'=>[
 					'anexationism',
 					'annnexationism',
+					'annexatoinism',
+					'annexatonism',
 				],
 				'annexationist'=>[
 					'anexationist',
 					'annnexationist',
+					'annexatoinist',
+					'annexatonist',
 				],
 				'annexationists'=>[
 					'anexationists',
@@ -8562,6 +12730,8 @@
 				'annexations'=>[
 					'anexations',
 					'annnexations',
+					'annexatoins',
+					'annexatons',
 				],
 				'annexe'=>[
 					'anexe',
@@ -8596,6 +12766,8 @@
 				'annihilation'=>[
 					'anihilation',
 					'annnihilation',
+					'annihilatoin',
+					'annihilaton',
 				],
 				'annihilations'=>[
 					'anihilations',
@@ -8615,6 +12787,8 @@
 					'aniversaries',
 					'annyversaries',
 					'annniversaries',
+					'anniversareis',
+					'anniverseries',
 				],
 				'anniversary'=>[
 					'aniversary',
@@ -8641,10 +12815,14 @@
 				'annotation'=>[
 					'anotation',
 					'annnotation',
+					'annotatoin',
+					'annotaton',
 				],
 				'annotations'=>[
 					'annnotations',
 					'anotations',
+					'annotatoins',
+					'annotatons',
 				],
 				'annotative'=>[
 					'annnotative',
@@ -8664,6 +12842,7 @@
 					'annouce',
 					'anounce',
 					'annnounce',
+					'annuonce',
 				],
 				'announceable'=>[
 					'announcable',
@@ -8672,6 +12851,7 @@
 					'annouced',
 					'anounced',
 					'annnounced',
+					'annuonced',
 				],
 				'announcement'=>[
 					'annoncement',
@@ -8679,26 +12859,33 @@
 					'announcemant',
 					'anouncement',
 					'annnouncement',
+					'annuoncement',
 				],
 				'announcements'=>[
 					'anouncements',
 					'annnouncements',
+					'announcemants',
+					'annuoncements',
 				],
 				'announcer'=>[
 					'anouncer',
 					'annnouncer',
+					'annuoncer',
 				],
 				'announcers'=>[
 					'annnouncers',
 					'anouncers',
+					'annuoncers',
 				],
 				'announces'=>[
 					'anounces',
 					'annnounces',
+					'annuonces',
 				],
 				'announcing'=>[
 					'anouncing',
 					'annnouncing',
+					'annuoncing',
 				],
 				'annoy'=>[
 					'anoy',
@@ -8712,6 +12899,7 @@
 				'annoyances'=>[
 					'annnoyances',
 					'anoyances',
+					'annoyences',
 				],
 				'annoyed'=>[
 					'anoyed',
@@ -8741,34 +12929,43 @@
 				'annualized'=>[
 					'annnualized',
 					'anualized',
+					'annaulized',
 				],
 				'annually'=>[
 					'annualy',
 					'anually',
 					'annnually',
 					'annuallly',
+					'annaully',
 				],
 				'annuals'=>[
 					'annnuals',
 					'anuals',
 					'aniiuals',
+					'annauls',
 				],
 				'annuitant'=>[
 					'annuitent',
 					'anuitant',
 					'annnuitant',
+					'anniutant',
 				],
 				'annuitants'=>[
 					'annnuitants',
 					'anuitants',
+					'anniutants',
+					'annuitents',
 				],
 				'annuities'=>[
 					'annnuities',
 					'anuities',
+					'anniuties',
+					'annuiteis',
 				],
 				'annuity'=>[
 					'anuity',
 					'annnuity',
+					'anniuty',
 				],
 				'annul'=>[
 					'anul',
@@ -8782,10 +12979,12 @@
 				'annularity'=>[
 					'annnularity',
 					'anularity',
+					'annulerity',
 				],
 				'annularly'=>[
 					'annnularly',
 					'anularly',
+					'annularily',
 				],
 				'annulate'=>[
 					'anulate',
@@ -8794,6 +12993,8 @@
 				'annulation'=>[
 					'anulation',
 					'annnulation',
+					'annulatoin',
+					'annulaton',
 				],
 				'annulet'=>[
 					'anulet',
@@ -8821,10 +13022,12 @@
 				'annulment'=>[
 					'anulment',
 					'annnulment',
+					'annulmant',
 				],
 				'annulments'=>[
 					'annnulments',
 					'anulments',
+					'annulmants',
 				],
 				'annulose'=>[
 					'annnulose',
@@ -8845,43 +13048,70 @@
 				'annunciate'=>[
 					'anunciate',
 					'annnunciate',
+					'annuncaite',
 				],
 				'annunciated'=>[
 					'annnunciated',
 					'anunciated',
+					'annuncaited',
 				],
 				'annunciates'=>[
 					'annnunciates',
 					'anunciates',
+					'annuncaites',
 				],
 				'annunciating'=>[
 					'anunciating',
 					'annnunciating',
+					'annuncaiting',
 				],
 				'annunciation'=>[
 					'anunciation',
 					'annnunciation',
+					'annuncaition',
+					'annunciatoin',
+					'annunciaton',
 				],
 				'annunciations'=>[
 					'anunciations',
 					'annnunciations',
+					'annuncaitions',
+					'annunciatoins',
+					'annunciatons',
 				],
 				'annunciator'=>[
 					'anunciator',
 					'annnunciator',
+					'annuncaitor',
 				],
 				'annunciators'=>[
 					'anunciators',
 					'annnunciators',
+					'annuncaitors',
 				],
 				'annunciatory'=>[
 					'anunciatory',
 				],
 				'anoint'=>[
 					'annoint',
+					'aniont',
+				],
+				'anointed'=>[
+					'anionted',
+				],
+				'anointer'=>[
+					'anionter',
+				],
+				'anointing'=>[
+					'anionting',
 				],
 				'anointment'=>[
 					'annointment',
+					'aniontment',
+					'anointmant',
+				],
+				'anoints'=>[
+					'anionts',
 				],
 				'anoited'=>[
 					'annoited',
@@ -8891,13 +13121,20 @@
 				],
 				'anomalies'=>[
 					'anomolies',
+					'anomaleis',
 				],
 				'anomalous'=>[
 					'anomolous',
+					'anomaluos',
+				],
+				'anomalously'=>[
+					'anomalousely',
+					'anomaluosly',
 				],
 				'anomalousness'=>[
 					'anomalousnes',
 					'anomalousnesss',
+					'anomaluosness',
 				],
 				'anomalousnesses'=>[
 					'anomalousneses',
@@ -8914,12 +13151,19 @@
 					'anomei',
 					'anomi',
 				],
+				'anomies'=>[
+					'anomeis',
+				],
 				'anonymity'=>[
 					'anonimity',
 				],
 				'anonymous'=>[
 					'annonamous',
 					'anonomous',
+					'anonymuos',
+				],
+				'anonymously'=>[
+					'anonymuosly',
 				],
 				'anopheline'=>[
 					'anophelene',
@@ -8941,6 +13185,7 @@
 				],
 				'anorexia'=>[
 					'anourexia',
+					'anorexai',
 				],
 				'anorexias'=>[
 					'anourexias',
@@ -8982,6 +13227,12 @@
 				'anorthositic'=>[
 					'anourthositic',
 				],
+				'anosmia'=>[
+					'anosmai',
+				],
+				'anosmias'=>[
+					'anosmais',
+				],
 				'anosognosia'=>[
 					'anosagnosia',
 				],
@@ -9003,9 +13254,24 @@
 				'another way'=>[
 					'another ways',
 				],
+				'anoxemia'=>[
+					'anoxemai',
+				],
+				'anoxemias'=>[
+					'anoxemais',
+				],
+				'anoxia'=>[
+					'anoxai',
+				],
+				'anoxias'=>[
+					'anoxais',
+				],
 				'anschauung'=>[
 					'anschaung',
 					'anschauuung',
+					'anchauung',
+					'anschuaung',
+					'anshauung',
 				],
 				'anschluss'=>[
 					'anschlus',
@@ -9024,17 +13290,35 @@
 					'answerible',
 					'anfwerable',
 				],
+				'answerably'=>[
+					'answeribly',
+				],
 				'answered'=>[
 					'anfwered',
+					'answerd',
 				],
 				'answering'=>[
 					'anfwering',
 				],
+				'answerphone'=>[
+					'answephone',
+					'answerhone',
+				],
+				'answerphones'=>[
+					'answephones',
+					'answerhones',
+				],
 				'answers'=>[
 					'anfwers',
 				],
+				'antabuse'=>[
+					'anabuse',
+					'antbuse',
+				],
 				'antacid'=>[
 					'entacid',
+					'anacid',
+					'antcid',
 				],
 				'antae'=>[
 					'entae',
@@ -9055,8 +13339,14 @@
 				'antagonize'=>[
 					'entagonize',
 				],
+				'antagonizing'=>[
+					'anagonizing',
+					'antgonizing',
+				],
 				'antarctic'=>[
 					'antartic',
+					'anarctic',
+					'antrctic',
 				],
 				'antarctica'=>[
 					'antartica',
@@ -9069,6 +13359,10 @@
 				],
 				'anteater'=>[
 					'enteater',
+					'antaeter',
+				],
+				'anteaters'=>[
+					'antaeters',
 				],
 				'antebellum'=>[
 					'antebelum',
@@ -9078,6 +13372,13 @@
 				'antecedence'=>[
 					'antecedance',
 					'entecedence',
+				],
+				'antecedencies'=>[
+					'antecedancies',
+					'antecedenceis',
+				],
+				'antecedency'=>[
+					'antecedancy',
 				],
 				'antecedent'=>[
 					'antecedant',
@@ -9091,6 +13392,17 @@
 				],
 				'antechamber'=>[
 					'entechamber',
+					'antchamber',
+					'antehamber',
+				],
+				'antechambers'=>[
+					'antchambers',
+					'antehambers',
+				],
+				'antechoir'=>[
+					'antchoir',
+					'antechior',
+					'antehoir',
 				],
 				'anteciliary'=>[
 					'anticiliary',
@@ -9104,21 +13416,51 @@
 				],
 				'antedate'=>[
 					'entedate',
+					'antdate',
+					'anteate',
+				],
+				'antedated'=>[
+					'antdated',
+					'anteated',
+				],
+				'antedates'=>[
+					'antdates',
+					'anteates',
+				],
+				'antedating'=>[
+					'antdating',
 				],
 				'antediluvian'=>[
 					'antediluvan',
 					'entediluvian',
+					'antediluvain',
 				],
 				'anteed'=>[
 					'enteed',
 					'anteeed',
 				],
+				'antefixes'=>[
+					'anteixes',
+					'antfixes',
+				],
+				'anteing'=>[
+					'antieng',
+				],
 				'antelope'=>[
 					'entelope',
+					'anelope',
+					'antlope',
+				],
+				'antemeridian'=>[
+					'antemeridain',
 				],
 				'antemortem'=>[
 					'antemourtem',
 					'entemortem',
+				],
+				'antemundane'=>[
+					'anteundane',
+					'antmundane',
 				],
 				'antenatal'=>[
 					'entenatal',
@@ -9131,6 +13473,7 @@
 				'antennae'=>[
 					'antenae',
 					'antennnae',
+					'antennea',
 				],
 				'antennas'=>[
 					'antenas',
@@ -9149,8 +13492,13 @@
 				'antenuptial'=>[
 					'entenuptial',
 				],
+				'antepast'=>[
+					'anteast',
+					'antpast',
+				],
 				'antependium'=>[
 					'entependium',
+					'antependuim',
 				],
 				'antepenultimas'=>[
 					'entepenultimas',
@@ -9160,6 +13508,17 @@
 				],
 				'anterior'=>[
 					'enterior',
+					'anteroir',
+				],
+				'anteriorities'=>[
+					'anterioriteis',
+					'anteroirities',
+				],
+				'anteriority'=>[
+					'anteroirity',
+				],
+				'anteriorly'=>[
+					'anteroirly',
 				],
 				'anterograde'=>[
 					'anteriograde',
@@ -9184,16 +13543,33 @@
 					'enteroom',
 					'anterom',
 					'anterooom',
+					'anteoom',
+					'antroom',
 				],
 				'anterooms'=>[
 					'anteroms',
 					'anteroooms',
+					'anteooms',
+					'antrooms',
 				],
 				'anteroventrally'=>[
 					'antroventrally',
 				],
 				'antes'=>[
 					'entes',
+				],
+				'antetype'=>[
+					'anteype',
+				],
+				'anteversion'=>[
+					'anteersion',
+					'anteversoin',
+					'anteverson',
+					'antversion',
+				],
+				'anthelion'=>[
+					'antheloin',
+					'anthelon',
 				],
 				'anthelmintic'=>[
 					'enthelmintic',
@@ -9204,20 +13580,44 @@
 				'anthemic'=>[
 					'enthemic',
 				],
+				'anthemion'=>[
+					'anthemoin',
+					'anthemon',
+				],
 				'anther'=>[
 					'enther',
+				],
+				'antheridium'=>[
+					'antheriduim',
+				],
+				'antherozoid'=>[
+					'antheroziod',
+				],
+				'antherozoids'=>[
+					'antheroziods',
+				],
+				'anthers'=>[
+					'anhers',
 				],
 				'anthill'=>[
 					'enthill',
 					'anthil',
 					'anthilll',
+					'anhill',
 				],
 				'anthills'=>[
 					'anthillls',
 					'anthils',
+					'anhills',
 				],
 				'anthocyanin'=>[
 					'enthocyanin',
+				],
+				'anthodium'=>[
+					'anthoduim',
+				],
+				'anthologies'=>[
+					'anthologeis',
 				],
 				'anthologize'=>[
 					'enthologize',
@@ -9236,6 +13636,12 @@
 					'anthophylites',
 					'enthophyllites',
 				],
+				'anthozoan'=>[
+					'anthozaon',
+				],
+				'anthozoans'=>[
+					'anthozaons',
+				],
 				'anthracene'=>[
 					'enthracene',
 				],
@@ -9244,6 +13650,9 @@
 				],
 				'anthracnose'=>[
 					'enthracnose',
+				],
+				'anthracoid'=>[
+					'anthraciod',
 				],
 				'anthracycline'=>[
 					'anthacyclin',
@@ -9255,6 +13664,7 @@
 				'anthraquinone'=>[
 					'enthraquinone',
 					'anthroquinone',
+					'anthraqiunone',
 				],
 				'anthraquinones'=>[
 					'enthraquinones',
@@ -9276,8 +13686,15 @@
 					'anthropogenicallly',
 					'anthropogenicaly',
 				],
+				'anthropogeography'=>[
+					'anthropogoegraphy',
+				],
 				'anthropoid'=>[
 					'enthropoid',
+					'anthropiod',
+				],
+				'anthropoids'=>[
+					'anthropiods',
 				],
 				'anthropological'=>[
 					'antropological',
@@ -9330,6 +13747,9 @@
 				'anthropomorphization'=>[
 					'anthromorphization',
 				],
+				'anthropomorphous'=>[
+					'anthropomorphuos',
+				],
 				'anthropomorphs'=>[
 					'anthropomourphs',
 					'enthropomorphs',
@@ -9347,6 +13767,7 @@
 				],
 				'anthropophagous'=>[
 					'enthropophagous',
+					'anthropophaguos',
 				],
 				'anthropophagus'=>[
 					'enthropophagus',
@@ -9365,6 +13786,12 @@
 				'anthroposphere'=>[
 					'antroposphere',
 				],
+				'anthurium'=>[
+					'anthuruim',
+				],
+				'anthuriums'=>[
+					'anthuruims',
+				],
 				'anti-apartheid'=>[
 					'antiapartheid',
 				],
@@ -9376,9 +13803,22 @@
 				],
 				'antiabortion'=>[
 					'entiabortion',
+					'antabortion',
+					'antaibortion',
+					'antiabortoin',
+					'antiaborton',
+					'antibortion',
 				],
 				'antiabortionist'=>[
 					'entiabortionist',
+					'antaibortionist',
+					'antiabortoinist',
+					'antiabortonist',
+				],
+				'antiabortionists'=>[
+					'antaibortionists',
+					'antiabortoinists',
+					'antiabortonists',
 				],
 				'antiaggregant'=>[
 					'antiagregant',
@@ -9387,8 +13827,20 @@
 					'antiagression',
 					'entiaggression',
 				],
+				'antiaging'=>[
+					'antaiging',
+					'antiging',
+				],
 				'antiaircraft'=>[
 					'entiaircraft',
+					'antaiircraft',
+					'antiiarcraft',
+					'antiircraft',
+				],
+				'antialcohol'=>[
+					'antailcohol',
+					'antalcohol',
+					'antilcohol',
 				],
 				'antialcoholism'=>[
 					'entialcoholism',
@@ -9400,15 +13852,22 @@
 				'antiallergic'=>[
 					'antialergic',
 					'antialllergic',
+					'antaillergic',
+					'antallergic',
+					'antillergic',
 				],
 				'antianxiety'=>[
 					'antianxeity',
 					'antianxity',
 					'entianxiety',
+					'antainxiety',
+					'antanxiety',
+					'antinxiety',
 				],
 				'antiapartheid'=>[
 					'antiaparthied',
 					'antiapertheid',
+					'antaipartheid',
 				],
 				'antiaphrodisiac'=>[
 					'entiaphrodisiac',
@@ -9420,6 +13879,7 @@
 					'antar',
 					'antier',
 					'entiar',
+					'antair',
 				],
 				'antiarmor'=>[
 					'antiarmour',
@@ -9433,16 +13893,24 @@
 				],
 				'antibacterial'=>[
 					'entibacterial',
+					'antbacterial',
+					'antiacterial',
+					'antibacterail',
 				],
 				'antibacterials'=>[
 					'entibacterials',
+					'antibacterails',
 				],
 				'antibillboard'=>[
 					'antibilboard',
 				],
+				'antibiosis'=>[
+					'antiboisis',
+				],
 				'antibiotic'=>[
 					'antibotic',
 					'entibiotic',
+					'antiboitic',
 				],
 				'antibiotically'=>[
 					'antibioticaly',
@@ -9450,12 +13918,18 @@
 				],
 				'antibiotics'=>[
 					'antibotics',
+					'antiboitics',
 				],
 				'antibodies'=>[
 					'antibodys',
+					'antbodies',
+					'antibodeis',
+					'antiodies',
 				],
 				'antibody'=>[
 					'entibody',
+					'antbody',
+					'antiody',
 				],
 				'antiburglar'=>[
 					'antiburgler',
@@ -9480,9 +13954,13 @@
 				],
 				'anticancer'=>[
 					'enticancer',
+					'antcancer',
+					'antiancer',
 				],
 				'anticapitalist'=>[
 					'enticapitalist',
+					'antcapitalist',
+					'antiapitalist',
 				],
 				'anticarcinogen'=>[
 					'enticarcinogen',
@@ -9490,11 +13968,19 @@
 				'anticarcinogens'=>[
 					'enticarcinogens',
 				],
+				'anticatalyst'=>[
+					'antcatalyst',
+					'antiatalyst',
+				],
 				'anticellulite'=>[
 					'anticelulite',
 				],
 				'anticensorship'=>[
 					'enticensorship',
+				],
+				'anticholesterol'=>[
+					'antcholesterol',
+					'antiholesterol',
 				],
 				'anticholinergic'=>[
 					'anticholinirgic',
@@ -9502,6 +13988,16 @@
 				],
 				'antichrist'=>[
 					'antichrift',
+					'antchrist',
+					'antihrist',
+				],
+				'antichristian'=>[
+					'antchristian',
+					'antichristain',
+					'antihristian',
+				],
+				'anticipant'=>[
+					'anticipent',
 				],
 				'anticipatable'=>[
 					'anticipatible',
@@ -9511,12 +14007,20 @@
 				],
 				'anticipation'=>[
 					'enticipation',
+					'anticipatoin',
+					'anticipaton',
+				],
+				'anticipations'=>[
+					'anticipatoins',
+					'anticipatons',
 				],
 				'antick'=>[
 					'entick',
 				],
 				'anticlerical'=>[
 					'enticlerical',
+					'antclerical',
+					'antilerical',
 				],
 				'anticlericalism'=>[
 					'enticlericalism',
@@ -9533,6 +14037,8 @@
 				],
 				'anticlimax'=>[
 					'enticlimax',
+					'antclimax',
+					'antilimax',
 				],
 				'anticlinal'=>[
 					'anticlinil',
@@ -9543,21 +14049,35 @@
 					'anticlini',
 					'enticline',
 				],
+				'anticlinorium'=>[
+					'anticlinoruim',
+				],
 				'anticlockwise'=>[
 					'enticlockwise',
 				],
 				'anticoagulant'=>[
 					'anticoagulent',
+					'anticaogulant',
 				],
 				'anticoagulants'=>[
 					'anticoagulents',
+					'anticaogulants',
+				],
+				'anticoagulating'=>[
+					'anticaogulating',
 				],
 				'anticollision'=>[
 					'anticolision',
 					'enticollision',
 				],
+				'anticolonial'=>[
+					'antcolonial',
+					'anticolonail',
+					'antiolonial',
+				],
 				'anticolonialism'=>[
 					'enticolonialism',
+					'anticolonailism',
 				],
 				'anticolonialist'=>[
 					'enticolonialist',
@@ -9570,6 +14090,8 @@
 					'anticomnunism',
 					'anticommmunism',
 					'anticomunism',
+					'antcommunism',
+					'antiommunism',
 				],
 				'anticommunisms'=>[
 					'anticomnunisms',
@@ -9578,10 +14100,14 @@
 				'anticommunist'=>[
 					'anticommmunist',
 					'anticomunist',
+					'antcommunist',
+					'antiommunist',
 				],
 				'anticommunists'=>[
 					'anticommmunists',
 					'anticomunists',
+					'antcommunists',
+					'antiommunists',
 				],
 				'anticompetitive'=>[
 					'enticompetitive',
@@ -9613,6 +14139,10 @@
 					'anticoruption',
 					'enticorruption',
 				],
+				'anticrime'=>[
+					'antcrime',
+					'antirime',
+				],
 				'antics'=>[
 					'entics',
 				],
@@ -9624,6 +14154,8 @@
 				],
 				'antidemocratic'=>[
 					'entidemocratic',
+					'antdemocratic',
+					'antiemocratic',
 				],
 				'antidepressant'=>[
 					'antidepresant',
@@ -9660,12 +14192,25 @@
 					'antidiarrhel',
 					'entidiarrheal',
 					'antidiarrrheal',
+					'antidairrheal',
+					'antidiarrhael',
 				],
 				'antidiarrheals'=>[
 					'antidiarheals',
 					'antidiarrhels',
 					'entidiarrheals',
 					'antidiarrrheals',
+					'antidairrheals',
+					'antidiarrhaels',
+				],
+				'antidisestablishmentarian'=>[
+					'antidisestablishmentarain',
+				],
+				'antidisestablishmentarianism'=>[
+					'antidisestablishmentarainism',
+				],
+				'antidisestablishmentarianisms'=>[
+					'antidisestablishmentarainisms',
 				],
 				'antidote'=>[
 					'entidote',
@@ -9673,6 +14218,10 @@
 				'antidromically'=>[
 					'antidromicaly',
 					'entidromically',
+				],
+				'antidrug'=>[
+					'antdrug',
+					'antirug',
 				],
 				'antidumping'=>[
 					'entidumping',
@@ -9701,6 +14250,28 @@
 					'antipileptics',
 					'entiepileptics',
 				],
+				'antiestablishment'=>[
+					'anteistablishment',
+					'antestablishment',
+					'antiestablishmant',
+					'antistablishment',
+				],
+				'antifascism'=>[
+					'antifacism',
+					'antifasism',
+				],
+				'antifascist'=>[
+					'antfascist',
+					'antiascist',
+					'antifacist',
+					'antifasist',
+				],
+				'antifascists'=>[
+					'antfascists',
+					'antiascists',
+					'antifacists',
+					'antifasists',
+				],
 				'antifashionable'=>[
 					'antifashionible',
 					'entifashionable',
@@ -9717,6 +14288,8 @@
 				'antifeminist'=>[
 					'antifeminast',
 					'entifeminist',
+					'antfeminist',
+					'antieminist',
 				],
 				'antifeminists'=>[
 					'antifeminasts',
@@ -9727,6 +14300,8 @@
 				],
 				'antifertility'=>[
 					'entifertility',
+					'antfertility',
+					'antiertility',
 				],
 				'antifilibuster'=>[
 					'entifilibuster',
@@ -9742,11 +14317,20 @@
 				],
 				'antifouling'=>[
 					'entifouling',
+					'antifuoling',
 				],
 				'antifreeze'=>[
 					'entifreeze',
 					'antifreeeze',
 					'antifreze',
+					'antfreeze',
+					'antireeze',
+				],
+				'antifriction'=>[
+					'antfriction',
+					'antifrictoin',
+					'antifricton',
+					'antiriction',
 				],
 				'antifungal'=>[
 					'entifungal',
@@ -9770,24 +14354,47 @@
 					'antigovernent',
 					'antigovernmant',
 					'entigovernment',
+					'antgovernment',
+					'antiovernment',
 				],
 				'antigravities'=>[
 					'entigravities',
 				],
 				'antigravity'=>[
 					'entigravity',
+					'antgravity',
+					'antiravity',
 				],
 				'antiguerrilla'=>[
 					'antiguerilla',
 					'antiguerrila',
 					'entiguerrilla',
 				],
+				'antihalation'=>[
+					'antihalatoin',
+					'antihalaton',
+				],
 				'antihero'=>[
 					'entihero',
+					'anthero',
+					'antiero',
+				],
+				'antiheroes'=>[
+					'antheroes',
+					'antieroes',
+					'antihereos',
+				],
+				'antiheroic'=>[
+					'antheroic',
+					'antieroic',
+					'antiherioc',
 				],
 				'antiheroine'=>[
 					'antiheroini',
 					'entiheroine',
+					'antheroine',
+					'antieroine',
+					'antiherione',
 				],
 				'antihistamine'=>[
 					'antihistamini',
@@ -9824,15 +14431,25 @@
 				],
 				'antiknock'=>[
 					'antikock',
+					'antinock',
+					'antknock',
 				],
 				'antiknocks'=>[
 					'antikocks',
+				],
+				'antilabor'=>[
+					'antiabor',
+					'antlabor',
 				],
 				'antileishmanial'=>[
 					'antileishmanicidal',
 				],
 				'antileprosy'=>[
 					'antileprocy',
+				],
+				'antiliberal'=>[
+					'antiiberal',
+					'antliberal',
 				],
 				'antiliberalism'=>[
 					'entiliberalism',
@@ -9849,6 +14466,8 @@
 				],
 				'antilock'=>[
 					'entilock',
+					'antiock',
+					'antlock',
 				],
 				'antilog'=>[
 					'entilog',
@@ -9858,6 +14477,10 @@
 				],
 				'antilogarithms'=>[
 					'entilogarithms',
+				],
+				'antilogs'=>[
+					'antiogs',
+					'antlogs',
 				],
 				'antimacassar'=>[
 					'antimacasar',
@@ -9872,9 +14495,12 @@
 				],
 				'antimagnetic'=>[
 					'entimagnetic',
+					'antiagnetic',
+					'antmagnetic',
 				],
 				'antimalarial'=>[
 					'entimalarial',
+					'antimalarail',
 				],
 				'antimalarials'=>[
 					'entimalarials',
@@ -9887,6 +14513,9 @@
 					'antimarijauna',
 					'entimarijuana',
 				],
+				'antimasque'=>[
+					'antimasqeu',
+				],
 				'antimaterialism'=>[
 					'entimaterialism',
 				],
@@ -9897,12 +14526,18 @@
 					'entimatter',
 					'antimater',
 					'antimattter',
+					'antiatter',
+					'antmatter',
 				],
 				'antimechanist'=>[
 					'entimechanist',
 				],
 				'antimechanists'=>[
 					'entimechanists',
+				],
+				'antimere'=>[
+					'antiere',
+					'antmere',
 				],
 				'antimetabolic'=>[
 					'entimetabolic',
@@ -9915,6 +14550,7 @@
 				],
 				'antimicrobial'=>[
 					'entimicrobial',
+					'antimicrobail',
 				],
 				'antimicrobials'=>[
 					'entimicrobials',
@@ -9938,6 +14574,8 @@
 					'antimisile',
 					'entimissile',
 					'antimisssile',
+					'antiissile',
+					'antmissile',
 				],
 				'antimitotic'=>[
 					'entimitotic',
@@ -9957,11 +14595,17 @@
 				'antimonarchists'=>[
 					'entimonarchists',
 				],
+				'antimonial'=>[
+					'antimonail',
+				],
 				'antimonopolist'=>[
 					'entimonopolist',
 				],
 				'antimonopolists'=>[
 					'entimonopolists',
+				],
+				'antimonous'=>[
+					'antimonuos',
 				],
 				'antimony'=>[
 					'entimony',
@@ -9978,6 +14622,10 @@
 				'antimycotic'=>[
 					'antimicotic',
 				],
+				'antinarcotic'=>[
+					'antiarcotic',
+					'antnarcotic',
+				],
 				'antinarrative'=>[
 					'antinarative',
 					'entinarrative',
@@ -9989,6 +14637,13 @@
 				'antinationalist'=>[
 					'antinitionalist',
 					'entinationalist',
+					'antinatoinalist',
+				],
+				'antinausea'=>[
+					'antiausea',
+					'antinausae',
+					'antinuasea',
+					'antnausea',
 				],
 				'antineoplastic'=>[
 					'antinioplastic',
@@ -9997,21 +14652,39 @@
 				'antineutrino'=>[
 					'antiniutrino',
 					'entineutrino',
+					'antinuetrino',
 				],
 				'antineutrinos'=>[
 					'antiniutrinos',
 					'entineutrinos',
+					'antinuetrinos',
 				],
 				'antineutron'=>[
 					'antiniutron',
 					'entineutron',
+					'antieutron',
+					'antinuetron',
+					'antneutron',
+				],
+				'antineutrons'=>[
+					'antinuetrons',
 				],
 				'anting'=>[
 					'enting',
 				],
+				'antinode'=>[
+					'antiode',
+					'antnode',
+				],
+				'antinoise'=>[
+					'antiniose',
+					'antioise',
+					'antnoise',
+				],
 				'antinomian'=>[
 					'antinoman',
 					'entinomian',
+					'antinomain',
 				],
 				'antinomianism'=>[
 					'entinomianism',
@@ -10019,8 +14692,15 @@
 				'antinomianisms'=>[
 					'entinomianisms',
 				],
+				'antinomians'=>[
+					'antinomains',
+				],
 				'antinomy'=>[
 					'entinomy',
+				],
+				'antinovel'=>[
+					'antiovel',
+					'antnovel',
 				],
 				'antinovelists'=>[
 					'entinovelists',
@@ -10029,6 +14709,12 @@
 					'antinucleer',
 					'antinucler',
 					'entinuclear',
+					'antinuclaer',
+					'antiuclear',
+					'antnuclear',
+				],
+				'antinucleon'=>[
+					'antinucloen',
 				],
 				'antiobscenity'=>[
 					'antiobcenity',
@@ -10038,27 +14724,37 @@
 				],
 				'antioxidant'=>[
 					'antioxident',
+					'antoixidant',
 				],
 				'antioxidants'=>[
 					'antioxidents',
+					'antoixidants',
 				],
 				'antiparallel'=>[
 					'antiparalel',
 					'antiperallel',
 					'entiparallel',
 					'antiparalllel',
+					'antiarallel',
+					'antparallel',
 				],
 				'antiparasitic'=>[
 					'antiperasitic',
 					'entiparasitic',
+					'antiarasitic',
+					'antparasitic',
 				],
 				'antiparticle'=>[
 					'antiperticle',
 					'entiparticle',
+					'antiarticle',
+					'antparticle',
 				],
 				'antiparticles'=>[
 					'antiperticles',
 					'entiparticles',
+					'antiarticles',
+					'antparticles',
 				],
 				'antiparties'=>[
 					'antiperties',
@@ -10075,14 +14771,26 @@
 				],
 				'antipathetic'=>[
 					'entipathetic',
+					'antiathetic',
+					'antpathetic',
+				],
+				'antipathies'=>[
+					'antipatheis',
 				],
 				'antipathy'=>[
 					'entipathy',
+				],
+				'antiperiodic'=>[
+					'antieriodic',
+					'antiperoidic',
+					'antperiodic',
 				],
 				'antipersonnel'=>[
 					'antipersonel',
 					'entipersonnel',
 					'antipersonnnel',
+					'antiersonnel',
+					'antpersonnel',
 				],
 				'antiperspirant'=>[
 					'antiperspirent',
@@ -10103,18 +14811,43 @@
 					'antiphonallly',
 					'antiphonaly',
 				],
+				'antiphonaries'=>[
+					'antiphonareis',
+					'antiphoneries',
+				],
 				'antiphonary'=>[
 					'antiphonery',
 					'entiphonary',
 				],
+				'antiphonies'=>[
+					'antiphoneis',
+				],
+				'antiphony'=>[
+					'antihony',
+					'antphony',
+				],
+				'antiphrases'=>[
+					'antihrases',
+					'antphrases',
+				],
 				'antipiracy'=>[
 					'antipirasy',
+				],
+				'antipodean'=>[
+					'antipodaen',
+				],
+				'antipodeans'=>[
+					'antipodaens',
 				],
 				'antipodes'=>[
 					'entipodes',
 				],
 				'antipolar'=>[
 					'antipoler',
+				],
+				'antipole'=>[
+					'antiole',
+					'antpole',
 				],
 				'antipolitical'=>[
 					'entipolitical',
@@ -10123,10 +14856,17 @@
 					'antipolution',
 					'entipollution',
 					'antipolllution',
+					'antiollution',
+					'antipollutoin',
+					'antipolluton',
+					'antpollution',
 				],
 				'antipollutions'=>[
 					'antipolutions',
 					'entipollutions',
+				],
+				'antipope'=>[
+					'antpope',
 				],
 				'antipopular'=>[
 					'antipopuler',
@@ -10136,12 +14876,26 @@
 				],
 				'antipoverty'=>[
 					'entipoverty',
+					'antioverty',
+					'antpoverty',
 				],
 				'antiprogressive'=>[
 					'entiprogressive',
 				],
+				'antiprohibition'=>[
+					'antiprohibitoin',
+					'antiprohibiton',
+					'antirohibition',
+					'antprohibition',
+				],
 				'antiproton'=>[
 					'entiproton',
+					'antiroton',
+					'antproton',
+				],
+				'antiprotons'=>[
+					'antirotons',
+					'antprotons',
 				],
 				'antipruritic'=>[
 					'entipruritic',
@@ -10151,6 +14905,8 @@
 				],
 				'antipsychotic'=>[
 					'entipsychotic',
+					'antisychotic',
+					'antpsychotic',
 				],
 				'antipsychotics'=>[
 					'entipsychotics',
@@ -10165,13 +14921,23 @@
 					'antiqaurian',
 					'antiquaran',
 					'entiquarian',
+					'antiquarain',
 				],
 				'antiquarianism'=>[
 					'antiqaurianism',
+					'antiquarainism',
 				],
 				'antiquarianisms'=>[
 					'antiqaurianisms',
 					'entiquarianisms',
+				],
+				'antiquarians'=>[
+					'antiqaurians',
+					'antiquarains',
+				],
+				'antiquaries'=>[
+					'antiqauries',
+					'antiquareis',
 				],
 				'antiquark'=>[
 					'antiqaurk',
@@ -10189,25 +14955,54 @@
 					'antiqauted',
 					'entiquated',
 				],
+				'antiquates'=>[
+					'antiqautes',
+				],
+				'antiquating'=>[
+					'antiqauting',
+				],
+				'antiquation'=>[
+					'antiqaution',
+					'antiquatoin',
+					'antiquaton',
+				],
 				'antiquations'=>[
 					'antiqautions',
 				],
 				'antique'=>[
 					'entique',
+					'antiqeu',
+				],
+				'antiqued'=>[
+					'antiqeud',
 				],
 				'antiquely'=>[
 					'antiquly',
+					'antiqeuly',
 				],
 				'antiqueness'=>[
 					'antiquenes',
 					'antiquenesss',
+					'antiqeuness',
+				],
+				'antiquer'=>[
+					'antiqeur',
+				],
+				'antiques'=>[
+					'antiqeus',
+				],
+				'antiquing'=>[
+					'antiqiung',
 				],
 				'antiquities'=>[
 					'antiguities',
+					'antiqiuties',
+					'antiquiteis',
 				],
 				'antiquity'=>[
 					'antiguity',
 					'entiquity',
+					'antiqiuty',
 				],
 				'antirachitic'=>[
 					'entirachitic',
@@ -10215,8 +15010,18 @@
 				'antiradar'=>[
 					'antirader',
 				],
+				'antiradical'=>[
+					'antiadical',
+					'antradical',
+				],
 				'antiradicalisms'=>[
 					'entiradicalisms',
+				],
+				'antirational'=>[
+					'antiational',
+					'antiratoinal',
+					'antiratonal',
+					'antrational',
 				],
 				'antirationalism'=>[
 					'entirationalism',
@@ -10232,10 +15037,24 @@
 				],
 				'antirejection'=>[
 					'entirejection',
+					'antiejection',
+					'antirejectoin',
+					'antirejecton',
+					'antrejection',
 				],
 				'antireligious'=>[
 					'antireligous',
 					'entireligious',
+					'antieligious',
+					'antireligiuos',
+					'antireligoius',
+					'antreligious',
+				],
+				'antirevolutionary'=>[
+					'antirevolutionery',
+					'antirevolutoinary',
+					'antirevolutonary',
+					'antrevolutionary',
 				],
 				'antirheumatics'=>[
 					'antiheumatics',
@@ -10271,6 +15090,8 @@
 					'antisatelite',
 					'entisatellite',
 					'antisatelllite',
+					'antiatellite',
+					'antsatellite',
 				],
 				'antiscience'=>[
 					'antisciance',
@@ -10329,6 +15150,8 @@
 				],
 				'antiseptic'=>[
 					'entiseptic',
+					'antieptic',
+					'antseptic',
 				],
 				'antiseptically'=>[
 					'antisepticalally',
@@ -10337,17 +15160,28 @@
 					'antisepticallly',
 					'antisepticaly',
 				],
+				'antisera'=>[
+					'antiera',
+					'antsera',
+				],
 				'antiserum'=>[
 					'entiserum',
+					'antierum',
+					'antserum',
 				],
 				'antishoplifting'=>[
 					'entishoplifting',
 				],
 				'antislavery'=>[
 					'entislavery',
+					'antilavery',
+					'antislavary',
+					'antslavery',
 				],
 				'antismoking'=>[
 					'entismoking',
+					'antimoking',
+					'antsmoking',
 				],
 				'antismuggling'=>[
 					'antismugling',
@@ -10355,6 +15189,9 @@
 				],
 				'antisocial'=>[
 					'entisocial',
+					'antiocial',
+					'antisocail',
+					'antsocial',
 				],
 				'antisocialist'=>[
 					'entisocialist',
@@ -10362,6 +15199,9 @@
 				'antisocially'=>[
 					'antisociallly',
 					'antisocialy',
+					'antiocially',
+					'antisocailly',
+					'antsocially',
 				],
 				'antisolar'=>[
 					'antisoler',
@@ -10377,6 +15217,8 @@
 				],
 				'antistatic'=>[
 					'entistatic',
+					'antitatic',
+					'antstatic',
 				],
 				'antistrophe'=>[
 					'entistrophe',
@@ -10387,6 +15229,8 @@
 				'antisubmarine'=>[
 					'antisubmarini',
 					'entisubmarine',
+					'antiubmarine',
+					'antsubmarine',
 				],
 				'antisymmetric'=>[
 					'antisymnetric',
@@ -10399,14 +15243,21 @@
 				],
 				'antitakeover'=>[
 					'entitakeover',
+					'antiakeover',
+					'antitakoever',
+					'anttakeover',
 				],
 				'antitank'=>[
 					'entitank',
+					'antiank',
+					'anttank',
 				],
 				'antiterrorism'=>[
 					'antiterorism',
 					'entiterrorism',
 					'antiterrrorism',
+					'antierrorism',
+					'antterrorism',
 				],
 				'antiterrorisms'=>[
 					'antiterorisms',
@@ -10415,15 +15266,23 @@
 					'antiterorist',
 					'entiterrorist',
 					'antiterrrorist',
+					'antierrorist',
+					'antterrorist',
 				],
 				'antiterrorists'=>[
 					'antiterorists',
+				],
+				'antitheft'=>[
+					'antiheft',
+					'anttheft',
 				],
 				'antitheoretical'=>[
 					'entitheoretical',
 				],
 				'antithesis'=>[
 					'entithesis',
+					'antihesis',
+					'antthesis',
 				],
 				'antithetical'=>[
 					'entithetical',
@@ -10438,14 +15297,29 @@
 				'antitobacco'=>[
 					'antitobaco',
 				],
+				'antitoxic'=>[
+					'antioxic',
+					'anttoxic',
+				],
 				'antitoxin'=>[
 					'entitoxin',
+					'antioxin',
+					'anttoxin',
+				],
+				'antitoxins'=>[
+					'antioxins',
+					'anttoxins',
+				],
+				'antitrades'=>[
+					'antirades',
+					'anttrades',
 				],
 				'antitraditional'=>[
 					'entitraditional',
 				],
 				'antitrust'=>[
 					'entitrust',
+					'anttrust',
 				],
 				'antitubercular'=>[
 					'antituberculer',
@@ -10456,6 +15330,8 @@
 				'antitumor'=>[
 					'antitumour',
 					'entitumor',
+					'antiumor',
+					'anttumor',
 				],
 				'antitumoral'=>[
 					'antitumoural',
@@ -10475,33 +15351,88 @@
 					'antitusives',
 					'antitusssives',
 				],
+				'antitype'=>[
+					'antiype',
+				],
+				'antitypes'=>[
+					'antiypes',
+					'anttypes',
+				],
+				'antiunion'=>[
+					'antinion',
+					'antiunoin',
+					'antiunon',
+					'antuinion',
+					'antunion',
+				],
 				'antiviolence'=>[
 					'antiviolance',
 				],
 				'antiviral'=>[
 					'entiviral',
+					'antiiral',
+					'antviral',
 				],
 				'antivirus'=>[
 					'entivirus',
+					'antiirus',
+					'antvirus',
 				],
 				'antivivisection'=>[
 					'entivivisection',
+					'antivivisectoin',
+					'antivivisecton',
+				],
+				'antivivisectionist'=>[
+					'antivivisectoinist',
+					'antivivisectonist',
+				],
+				'antivivisectionists'=>[
+					'antivivisectoinists',
+					'antivivisectonists',
 				],
 				'antiwar'=>[
 					'antiwer',
 					'entiwar',
 				],
+				'antiworld'=>[
+					'antiorld',
+					'antworld',
+				],
 				'antler'=>[
 					'entler',
 				],
+				'antlered'=>[
+					'antlerd',
+				],
+				'antlia'=>[
+					'antlai',
+				],
 				'antlion'=>[
 					'anthori',
+					'anlion',
+					'antion',
+					'antloin',
+					'antlon',
+				],
+				'antlions'=>[
+					'anlions',
+					'antions',
+					'antloins',
+					'antlons',
 				],
 				'antonomasia'=>[
 					'entonomasia',
+					'antonomasai',
 				],
 				'antonym'=>[
 					'entonym',
+				],
+				'antonymies'=>[
+					'antonymeis',
+				],
+				'antonymous'=>[
+					'antonymuos',
 				],
 				'antra'=>[
 					'entra',
@@ -10522,9 +15453,28 @@
 				'ants'=>[
 					'aiits',
 				],
+				'antsier'=>[
+					'antseir',
+				],
+				'antsiest'=>[
+					'antseist',
+				],
 				'antsy'=>[
 					'antcy',
 					'entsy',
+				],
+				'anuria'=>[
+					'anurai',
+				],
+				'anurias'=>[
+					'anurais',
+				],
+				'anurous'=>[
+					'anuruos',
+				],
+				'anxieties'=>[
+					'anxeities',
+					'anxieteis',
 				],
 				'anxiety'=>[
 					'anxeity',
@@ -10536,31 +15486,51 @@
 				'anxious'=>[
 					'anxous',
 					'anxions',
+					'anxiuos',
+					'anxoius',
 				],
 				'anxiously'=>[
 					'anxously',
+					'anxiousely',
+					'anxiuosly',
+					'anxoiusly',
 				],
 				'anxiousness'=>[
 					'anxiousnes',
 					'anxiousnesss',
+					'anxiuosness',
+					'anxoiusness',
+					'anxousness',
 				],
 				'any'=>[
 					'any any',
 					'any any any',
 					'aiiy',
 				],
+				'anybodies'=>[
+					'anbodies',
+					'anybodeis',
+					'anyodies',
+				],
 				'anybody'=>[
 					'any body',
 					'any-body',
 					'auybody',
+					'anbody',
+					'anyody',
 				],
 				'anymore'=>[
 					'anymoure',
+					'anyore',
 				],
 				'anyone'=>[
 					'any one',
 					'any-one',
 					'anvone',
+				],
+				'anyplace'=>[
+					'anplace',
+					'anylace',
 				],
 				'anything'=>[
 					'anytying',
@@ -10571,17 +15541,65 @@
 					'anytliing',
 					'auything',
 					'auytliing',
+					'anyhing',
+				],
+				'anythings'=>[
+					'anthings',
+					'anyhings',
+				],
+				'anytime'=>[
+					'antime',
+					'anyime',
 				],
 				'anyway'=>[
 					'anway',
 					'anyways',
 				],
+				'anyways'=>[
+					'anways',
+					'anyays',
+				],
 				'anywhere'=>[
 					'anyhwere',
 					'auywhere',
+					'anwhere',
+					'anyhere',
 				],
 				'anywise'=>[
 					'anywife',
+				],
+				'aorist'=>[
+					'oarist',
+				],
+				'aoristic'=>[
+					'oaristic',
+				],
+				'aorists'=>[
+					'oarists',
+				],
+				'aorta'=>[
+					'oarta',
+				],
+				'aortae'=>[
+					'aortea',
+					'oartae',
+				],
+				'aortal'=>[
+					'oartal',
+				],
+				'aortas'=>[
+					'oartas',
+				],
+				'aortic'=>[
+					'oartic',
+				],
+				'aoudad'=>[
+					'auodad',
+					'oaudad',
+				],
+				'aoudads'=>[
+					'auodads',
+					'oaudads',
 				],
 				'aparejo'=>[
 					'aperejo',
@@ -10606,6 +15624,9 @@
 				'apartmental'=>[
 					'apertmental',
 				],
+				'apartments'=>[
+					'apartmants',
+				],
 				'apartness'=>[
 					'apertness',
 					'apartnes',
@@ -10624,16 +15645,41 @@
 				'apatite'=>[
 					'appatite',
 				],
+				'apatosaur'=>[
+					'apatosuar',
+				],
+				'apatosaurus'=>[
+					'apatosuarus',
+				],
+				'apatosauruses'=>[
+					'apatosuaruses',
+				],
+				'apeak'=>[
+					'apaek',
+				],
 				'apennines'=>[
 					'apenines',
 					'appenines',
 				],
+				'aperient'=>[
+					'apereint',
+					'aperiant',
+				],
+				'aperients'=>[
+					'apereints',
+					'aperiants',
+				],
+				'aperies'=>[
+					'apereis',
+				],
 				'aperiodic'=>[
 					'unperiodic',
+					'aperoidic',
 				],
 				'aperiodically'=>[
 					'aperiodicaly',
 					'aperiodicallly',
+					'aperoidically',
 				],
 				'aperiodicities'=>[
 					'aperiodiciteis',
@@ -10642,8 +15688,32 @@
 				'aperture'=>[
 					'apeture',
 				],
+				'apetalous'=>[
+					'apetaluos',
+				],
+				'aphasia'=>[
+					'aphasai',
+				],
+				'aphasiac'=>[
+					'aphasaic',
+				],
+				'aphelia'=>[
+					'aphelai',
+				],
 				'aphelian'=>[
 					'aphelan',
+					'aphelain',
+				],
+				'aphelion'=>[
+					'apheloin',
+					'aphelon',
+				],
+				'aphelions'=>[
+					'apheloins',
+					'aphelons',
+				],
+				'apheliotropic'=>[
+					'apheloitropic',
 				],
 				'apheresis'=>[
 					'aphoresis',
@@ -10651,9 +15721,27 @@
 				'aphidian'=>[
 					'aphidan',
 				],
+				'aphonia'=>[
+					'aphonai',
+				],
+				'aphonias'=>[
+					'aphonais',
+				],
 				'aphoristically'=>[
 					'aphoristicaly',
 					'aphoristicallly',
+				],
+				'aphrodisia'=>[
+					'aphrodisai',
+				],
+				'aphrodisiac'=>[
+					'aphrodisaic',
+				],
+				'aphrodisiacal'=>[
+					'aphrodisaical',
+				],
+				'aphrodisiacs'=>[
+					'aphrodisaics',
 				],
 				'aphthous'=>[
 					'apthous',
@@ -10661,15 +15749,30 @@
 				'aphyllous'=>[
 					'aphylllous',
 					'aphylous',
+					'aphylluos',
 				],
 				'apian'=>[
 					'apan',
+					'apain',
 				],
 				'apiarian'=>[
 					'apiaran',
+					'apairian',
+					'apiarain',
+				],
+				'apiaries'=>[
+					'apairies',
+					'apiareis',
+				],
+				'apiarist'=>[
+					'apairist',
+				],
+				'apiarists'=>[
+					'apairists',
 				],
 				'apiary'=>[
 					'apiery',
+					'apairy',
 				],
 				'apically'=>[
 					'apicallly',
@@ -10682,11 +15785,24 @@
 					'apeice',
 					'apice',
 				],
+				'apivorous'=>[
+					'apivoruos',
+				],
+				'aplasia'=>[
+					'aplasai',
+				],
+				'aplasias'=>[
+					'aplasais',
+				],
 				'aplenty'=>[
 					'aplanty',
 				],
 				'apnea'=>[
 					'apne',
+					'apnae',
+				],
+				'apneas'=>[
+					'apnaes',
 				],
 				'apneic'=>[
 					'apniec',
@@ -10698,6 +15814,9 @@
 					'apocalypticaly',
 					'apocalypticallly',
 				],
+				'apocarpous'=>[
+					'apocarpuos',
+				],
 				'apocrine'=>[
 					'aporcine',
 				],
@@ -10708,8 +15827,25 @@
 					'apocryphalnes',
 					'apocryphalnesss',
 				],
+				'apocynaceous'=>[
+					'apocynaceuos',
+					'apocynacoeus',
+				],
+				'apocynthion'=>[
+					'apocynthoin',
+					'apocynthon',
+				],
+				'apodeictic'=>[
+					'apodiectic',
+				],
 				'apodictically'=>[
 					'apodicticaly',
+				],
+				'apoenzyme'=>[
+					'apeonzyme',
+				],
+				'apoenzymes'=>[
+					'apeonzymes',
 				],
 				'apogee'=>[
 					'apoge',
@@ -10718,6 +15854,9 @@
 				'apogees'=>[
 					'apogeees',
 					'apoges',
+				],
+				'apogeotropism'=>[
+					'apogoetropism',
 				],
 				'apolipoprotein'=>[
 					'apolipoprotien',
@@ -10736,6 +15875,7 @@
 				'apollonian'=>[
 					'apolllonian',
 					'apolonian',
+					'apollonain',
 				],
 				'apollos'=>[
 					'apolllos',
@@ -10748,12 +15888,25 @@
 				'apologetics'=>[
 					'apolegetics',
 				],
+				'apologia'=>[
+					'apologai',
+				],
+				'apologias'=>[
+					'apologais',
+				],
 				'apologies'=>[
 					'appologies',
+					'apologeis',
 				],
 				'apologize'=>[
 					'apoligize',
 					'appologize',
+				],
+				'apologue'=>[
+					'apologeu',
+				],
+				'apologues'=>[
+					'apologeus',
 				],
 				'apology'=>[
 					'appology',
@@ -10768,6 +15921,12 @@
 				'apomorphines'=>[
 					'apomourphines',
 				],
+				'aponeuroses'=>[
+					'aponueroses',
+				],
+				'aponeurosis'=>[
+					'aponuerosis',
+				],
 				'apophyllite'=>[
 					'apophylite',
 					'apophylllite',
@@ -10776,17 +15935,32 @@
 					'apoplecticaly',
 					'apoplecticallly',
 				],
+				'apoplexies'=>[
+					'apoplexeis',
+				],
 				'apoptosis'=>[
 					'apopotosis',
 				],
 				'apoptotic'=>[
 					'apoptopic',
 				],
+				'aporia'=>[
+					'aporai',
+				],
 				'aposematically'=>[
 					'aposematicaly',
 				],
+				'aposiopeses'=>[
+					'aposoipeses',
+				],
+				'aposiopesis'=>[
+					'aposoipesis',
+				],
 				'apostacy'=>[
 					'apostasy',
+				],
+				'apostasies'=>[
+					'apostaseis',
 				],
 				'apostasy'=>[
 					'apostacy',
@@ -10804,8 +15978,39 @@
 					'apostoliciteis',
 					'apostolicitis',
 				],
+				'apothecaries'=>[
+					'apothecareis',
+					'apotheceries',
+				],
 				'apothecary'=>[
 					'apothecery',
+				],
+				'apothecia'=>[
+					'apothecai',
+				],
+				'apothecium'=>[
+					'apothecuim',
+				],
+				'apotheoses'=>[
+					'apothoeses',
+				],
+				'apotheosis'=>[
+					'apothoesis',
+				],
+				'apotheosize'=>[
+					'apothoesize',
+				],
+				'apotheosized'=>[
+					'apothoesized',
+				],
+				'apotheosizes'=>[
+					'apothoesizes',
+				],
+				'apotheosizing'=>[
+					'apothoesizing',
+				],
+				'apotropaic'=>[
+					'apotropiac',
 				],
 				'apotropaically'=>[
 					'apotropaicaly',
@@ -10940,6 +16145,7 @@
 					'appparantly',
 					'appearantly',
 					'appparently',
+					'apparentely',
 				],
 				'apparentness'=>[
 					'aparentness',
@@ -10954,16 +16160,22 @@
 					'aparition',
 					'apperition',
 					'appparition',
+					'apparitoin',
+					'appariton',
 				],
 				'apparitional'=>[
 					'aparitional',
 					'apperitional',
 					'appparitional',
+					'apparitoinal',
+					'apparitonal',
 				],
 				'apparitions'=>[
 					'apperitions',
 					'aparitions',
 					'appparitions',
+					'apparitoins',
+					'apparitons',
 				],
 				'apparitor'=>[
 					'aparitor',
@@ -10974,12 +16186,14 @@
 					'appasssionato',
 					'apassionato',
 					'apppassionato',
+					'appassoinato',
 				],
 				'appeal'=>[
 					'apeal',
 					'appel',
 					'apppeal',
 					'appeai',
+					'appael',
 				],
 				'appealabilities'=>[
 					'apealabilities',
@@ -10994,28 +16208,35 @@
 				'appealable'=>[
 					'apealable',
 					'apppealable',
+					'appaelable',
+					'appealible',
 				],
 				'appealed'=>[
 					'apealed',
 					'apppealed',
+					'appaeled',
 				],
 				'appealer'=>[
 					'apealer',
 					'apppealer',
+					'appaeler',
 				],
 				'appealing'=>[
 					'apealing',
 					'appealling',
 					'appeling',
 					'apppealing',
+					'appaeling',
 				],
 				'appealingly'=>[
 					'apealingly',
 					'apppealingly',
+					'appaelingly',
 				],
 				'appeals'=>[
 					'apeals',
 					'apppeals',
+					'appaels',
 				],
 				'appear'=>[
 					'apear',
@@ -11025,6 +16246,7 @@
 					'apper',
 					'apppear',
 					'appcar',
+					'appaer',
 				],
 				'appearance'=>[
 					'apearance',
@@ -11036,67 +16258,84 @@
 					'appcarancc',
 					'appcarance',
 					'appearancc',
+					'appaerance',
 				],
 				'appearances'=>[
 					'apearances',
 					'apparances',
 					'apperances',
 					'apppearances',
+					'appaerances',
+					'appearences',
 				],
 				'appeared'=>[
 					'apeared',
 					'appeard',
 					'apppeared',
 					'appcared',
+					'appaered',
 				],
 				'appearing'=>[
 					'apearing',
 					'appearring',
 					'apppearing',
 					'appeariug',
+					'appaering',
 				],
 				'appears'=>[
 					'apears',
 					'apppears',
+					'appaers',
 				],
 				'appeasable'=>[
 					'apeasable',
 					'apppeasable',
+					'appaesable',
+					'appeasible',
 				],
 				'appease'=>[
 					'apease',
 					'appese',
 					'apppease',
+					'appaese',
 				],
 				'appeased'=>[
 					'apeased',
 					'apppeased',
+					'appaesed',
 				],
 				'appeasement'=>[
 					'apeasement',
 					'appeasemant',
 					'appesement',
 					'apppeasement',
+					'appaesement',
 				],
 				'appeasements'=>[
 					'apeasements',
 					'apppeasements',
+					'appaesements',
+					'appeasemants',
 				],
 				'appeaser'=>[
 					'apeaser',
 					'apppeaser',
+					'appaeser',
 				],
 				'appeasers'=>[
 					'apeasers',
 					'apppeasers',
+					'appaesers',
 				],
 				'appeases'=>[
 					'apeases',
 					'apppeases',
+					'appaeses',
 				],
 				'appeasing'=>[
 					'apeasing',
 					'apppeasing',
+					'appaesing',
 				],
 				'appel'=>[
 					'apel',
@@ -11113,6 +16352,7 @@
 					'appelants',
 					'appelllants',
 					'apppellants',
+					'appellents',
 				],
 				'appellate'=>[
 					'apellate',
@@ -11126,12 +16366,16 @@
 					'appilation',
 					'appelllation',
 					'apppellation',
+					'appellatoin',
+					'appellaton',
 				],
 				'appellations'=>[
 					'apellations',
 					'appelations',
 					'appelllations',
 					'apppellations',
+					'appellatoins',
+					'appellatons',
 				],
 				'appellative'=>[
 					'apellative',
@@ -11200,6 +16444,7 @@
 				'appendicectomies'=>[
 					'apendicectomies',
 					'apppendicectomies',
+					'appendicectomeis',
 				],
 				'appendicectomy'=>[
 					'apendicectomy',
@@ -11272,10 +16517,14 @@
 				'apperception'=>[
 					'aperception',
 					'appperception',
+					'apperceptoin',
+					'appercepton',
 				],
 				'apperceptions'=>[
 					'aperceptions',
 					'appperceptions',
+					'apperceptoins',
+					'apperceptons',
 				],
 				'apperceptive'=>[
 					'aperceptive',
@@ -11283,19 +16532,24 @@
 				'appertain'=>[
 					'apertain',
 					'apppertain',
+					'appertian',
 				],
 				'appertained'=>[
 					'apertained',
 					'apppertained',
+					'appertaind',
+					'appertianed',
 				],
 				'appertaining'=>[
 					'apertaining',
 					'appertainang',
 					'apppertaining',
+					'appertianing',
 				],
 				'appertains'=>[
 					'apertains',
 					'apppertains',
+					'appertians',
 				],
 				'appestat'=>[
 					'apestat',
@@ -11308,15 +16562,19 @@
 				'appetences'=>[
 					'apetences',
 					'apppetences',
+					'appetances',
 				],
 				'appetencies'=>[
 					'apetencies',
 					'apppetencies',
+					'appetancies',
+					'appetenceis',
 				],
 				'appetency'=>[
 					'apetency',
 					'appetensy',
 					'apppetency',
+					'appetancy',
 				],
 				'appetite'=>[
 					'apetite',
@@ -11350,10 +16608,13 @@
 				'applaud'=>[
 					'aplaud',
 					'appplaud',
+					'appluad',
 				],
 				'applaudable'=>[
 					'aplaudable',
 					'appplaudable',
+					'applaudible',
+					'appluadable',
 				],
 				'applaudably'=>[
 					'aplaudably',
@@ -11361,26 +16622,32 @@
 				'applauded'=>[
 					'aplauded',
 					'appplauded',
+					'appluaded',
 				],
 				'applauder'=>[
 					'aplauder',
 					'appplauder',
+					'appluader',
 				],
 				'applauders'=>[
 					'aplauders',
 					'appplauders',
+					'appluaders',
 				],
 				'applauding'=>[
 					'aplauding',
 					'appplauding',
+					'appluading',
 				],
 				'applauds'=>[
 					'aplauds',
 					'appplauds',
+					'appluads',
 				],
 				'applause'=>[
 					'aplause',
 					'appplause',
+					'appluase',
 				],
 				'apple'=>[
 					'aple',
@@ -11392,14 +16659,20 @@
 				'applecart'=>[
 					'aplecart',
 					'appplecart',
+					'applcart',
+					'appleart',
 				],
 				'applecarts'=>[
 					'aplecarts',
 					'appplecarts',
+					'applcarts',
+					'applearts',
 				],
 				'applejack'=>[
 					'aplejack',
 					'appplejack',
+					'appleack',
+					'appljack',
 				],
 				'apples'=>[
 					'appples',
@@ -11407,6 +16680,9 @@
 				'applesauce'=>[
 					'aplesauce',
 					'appplesauce',
+					'appleauce',
+					'applesuace',
+					'applsauce',
 				],
 				'applesauces'=>[
 					'aplesauces',
@@ -11415,6 +16691,7 @@
 					'apleseed',
 					'appleseeed',
 					'apppleseed',
+					'applseed',
 				],
 				'applet'=>[
 					'aplet',
@@ -11428,10 +16705,13 @@
 					'apliance',
 					'applience',
 					'apppliance',
+					'applaince',
 				],
 				'appliances'=>[
 					'apliances',
 					'apppliances',
+					'applainces',
+					'appliences',
 				],
 				'applicabilities'=>[
 					'aplicabilities',
@@ -11441,6 +16721,7 @@
 				'applicability'=>[
 					'aplicability',
 					'appplicability',
+					'applicibility',
 				],
 				'applicable'=>[
 					'aplicable',
@@ -11450,6 +16731,7 @@
 				'applicably'=>[
 					'aplicably',
 					'appplicably',
+					'applicibly',
 				],
 				'applicant'=>[
 					'aplicant',
@@ -11459,17 +16741,22 @@
 				'applicants'=>[
 					'aplicants',
 					'appplicants',
+					'applicents',
 				],
 				'application'=>[
 					'aplication',
 					'applicaiton',
 					'appplication',
 					'apphcation',
+					'applicatoin',
+					'applicaton',
 				],
 				'applications'=>[
 					'aplications',
 					'applicaitons',
 					'appplications',
+					'applicatoins',
+					'applicatons',
 				],
 				'applicative'=>[
 					'aplicative',
@@ -11504,14 +16791,17 @@
 				'applier'=>[
 					'aplier',
 					'appplier',
+					'appleir',
 				],
 				'appliers'=>[
 					'apliers',
 					'apppliers',
+					'appleirs',
 				],
 				'applies'=>[
 					'aplies',
 					'appplies',
+					'appleis',
 				],
 				'applique'=>[
 					'aplique',
@@ -11536,38 +16826,46 @@
 					'appogiatura',
 					'appogggiatura',
 					'apppoggiatura',
+					'appoggaitura',
 				],
 				'appoggiaturas'=>[
 					'apoggiaturas',
 					'appogiaturas',
 					'appogggiaturas',
 					'apppoggiaturas',
+					'appoggaituras',
 				],
 				'appoint'=>[
 					'apoint',
 					'apppoint',
+					'appiont',
 				],
 				'appointed'=>[
 					'apointed',
 					'apppointed',
+					'appionted',
 				],
 				'appointee'=>[
 					'apointee',
 					'appointeee',
 					'apppointee',
+					'appiontee',
 				],
 				'appointees'=>[
 					'apointees',
 					'appointeees',
 					'apppointees',
+					'appiontees',
 				],
 				'appointing'=>[
 					'apointing',
 					'apppointing',
+					'appionting',
 				],
 				'appointive'=>[
 					'apointive',
 					'apppointive',
+					'appiontive',
 				],
 				'appointment'=>[
 					'apointment',
@@ -11576,22 +16874,29 @@
 					'appointmant',
 					'appointmet',
 					'apppointment',
+					'appiontment',
 				],
 				'appointments'=>[
 					'apointments',
 					'apppointments',
+					'appiontments',
+					'appointmants',
 				],
 				'appointor'=>[
 					'apointor',
 					'apppointor',
+					'appiontor',
 				],
 				'appoints'=>[
 					'apoints',
 					'apppoints',
+					'appionts',
 				],
 				'apportion'=>[
 					'aportion',
 					'appportion',
+					'apportoin',
+					'apporton',
 				],
 				'apportionable'=>[
 					'aportionable',
@@ -11600,10 +16905,15 @@
 				'apportioned'=>[
 					'aportioned',
 					'appportioned',
+					'apportiond',
+					'apportoined',
+					'apportoned',
 				],
 				'apportioning'=>[
 					'aportioning',
 					'appportioning',
+					'apportoining',
+					'apportoning',
 				],
 				'apportionment'=>[
 					'aportionment',
@@ -11611,6 +16921,7 @@
 					'apportionent',
 					'apportionmant',
 					'appportionment',
+					'apportoinment',
 				],
 				'apportionments'=>[
 					'aportionments',
@@ -11621,6 +16932,8 @@
 				'apportions'=>[
 					'aportions',
 					'appportions',
+					'apportoins',
+					'apportons',
 				],
 				'appose'=>[
 					'apose',
@@ -11657,10 +16970,14 @@
 				'apposition'=>[
 					'aposition',
 					'appposition',
+					'appositoin',
+					'appositon',
 				],
 				'appositional'=>[
 					'apositional',
 					'apppositional',
+					'appositoinal',
+					'appositonal',
 				],
 				'appositions'=>[
 					'apositions',
@@ -11680,31 +16997,40 @@
 				'appraisable'=>[
 					'apppraisable',
 					'apraisable',
+					'appraisible',
+					'appriasable',
 				],
 				'appraisal'=>[
 					'apraisal',
 					'apppraisal',
+					'appriasal',
 				],
 				'appraisals'=>[
 					'apppraisals',
 					'apraisals',
+					'appriasals',
 				],
 				'appraise'=>[
 					'apraise',
 					'apppraise',
+					'appriase',
 				],
 				'appraised'=>[
 					'apppraised',
 					'apraised',
+					'appriased',
 				],
 				'appraisees'=>[
 					'apppraisees',
 					'appraiseees',
 					'apraisees',
+					'appriasees',
 				],
 				'appraisement'=>[
 					'apraisement',
 					'apppraisement',
+					'appraisemant',
+					'appriasement',
 				],
 				'appraisements'=>[
 					'apraisements',
@@ -11712,78 +17038,100 @@
 				'appraiser'=>[
 					'apppraiser',
 					'apraiser',
+					'appriaser',
 				],
 				'appraisers'=>[
 					'apppraisers',
 					'apraisers',
+					'appriasers',
 				],
 				'appraises'=>[
 					'apppraises',
 					'apraises',
+					'appriases',
 				],
 				'appraising'=>[
 					'apppraising',
 					'apraising',
+					'appriasing',
 				],
 				'appraisingly'=>[
 					'apraisingly',
 					'apppraisingly',
+					'appriasingly',
 				],
 				'appreciable'=>[
 					'appreciible',
 					'apreciable',
 					'apppreciable',
+					'apprecaible',
 				],
 				'appreciably'=>[
 					'apreciably',
 					'apppreciably',
+					'apprecaibly',
 				],
 				'appreciate'=>[
 					'appretiate',
 					'apprieciate',
 					'apreciate',
 					'apppreciate',
+					'apprecaite',
 				],
 				'appreciated'=>[
 					'apreciated',
 					'apppreciated',
+					'apprecaited',
 				],
 				'appreciates'=>[
 					'apreciates',
 					'apppreciates',
+					'apprecaites',
 				],
 				'appreciating'=>[
 					'apreciating',
 					'apppreciating',
+					'apprecaiting',
 				],
 				'appreciation'=>[
 					'apreciation',
 					'apppreciation',
+					'apprecaition',
+					'appreciatoin',
+					'appreciaton',
 				],
 				'appreciations'=>[
 					'apreciations',
 					'apppreciations',
+					'apprecaitions',
+					'appreciatoins',
+					'appreciatons',
 				],
 				'appreciative'=>[
 					'apreciative',
 					'apppreciative',
+					'apprecaitive',
 				],
 				'appreciatively'=>[
 					'appreciativly',
 					'apreciatively',
 					'apppreciatively',
+					'apprecaitively',
 				],
 				'appreciator'=>[
 					'apreciator',
 					'apppreciator',
+					'apprecaitor',
 				],
 				'appreciators'=>[
 					'apreciators',
 					'apppreciators',
+					'apprecaitors',
 				],
 				'appreciatory'=>[
 					'apreciatory',
 					'apppreciatory',
+					'apprecaitory',
 				],
 				'apprehend'=>[
 					'aprehend',
@@ -11817,11 +17165,15 @@
 					'appprehension',
 					'apprehenfion',
 					'appreliension',
+					'apprehensoin',
+					'apprehenson',
 				],
 				'apprehensions'=>[
 					'aprehensions',
 					'appprehensions',
 					'apprehenfions',
+					'apprehensoins',
+					'apprehensons',
 				],
 				'apprehensive'=>[
 					'aprehensive',
@@ -11916,31 +17268,40 @@
 					'appproach',
 					'approacb',
 					'approacli',
+					'appraoch',
 				],
 				'approachability'=>[
 					'aproachability',
 					'appproachability',
+					'appraochability',
+					'approacability',
+					'approachbility',
+					'approachibility',
 				],
 				'approachable'=>[
 					'approachible',
 					'aproachable',
 					'appproachable',
+					'appraochable',
 				],
 				'approached'=>[
 					'appproached',
 					'aproached',
 					'approaclied',
+					'appraoched',
 				],
 				'approaches'=>[
 					'approachs',
 					'appproaches',
 					'aproaches',
+					'appraoches',
 				],
 				'approaching'=>[
 					'aproaching',
 					'appproaching',
 					'approacliing',
 					'approaehing',
+					'appraoching',
 				],
 				'approbate'=>[
 					'aprobate',
@@ -11961,10 +17322,14 @@
 				'approbation'=>[
 					'aprobation',
 					'appprobation',
+					'approbatoin',
+					'approbaton',
 				],
 				'approbations'=>[
 					'aprobations',
 					'appprobations',
+					'approbatoins',
+					'approbatons',
 				],
 				'approbative'=>[
 					'appprobative',
@@ -11982,38 +17347,50 @@
 					'appropiate',
 					'apropriate',
 					'apppropriate',
+					'appropraite',
 				],
 				'appropriated'=>[
 					'apropriated',
 					'apppropriated',
+					'appropraited',
 				],
 				'appropriately'=>[
 					'appropiately',
 					'appropriatly',
 					'apropriately',
 					'apppropriately',
+					'appropraitely',
 				],
 				'appropriateness'=>[
 					'appropriatenes',
 					'apropriateness',
 					'appropriatenesss',
 					'apppropriateness',
+					'appropraiteness',
 				],
 				'appropriates'=>[
 					'apropriates',
 					'apppropriates',
+					'appropraites',
 				],
 				'appropriating'=>[
 					'apropriating',
 					'apppropriating',
+					'appropraiting',
 				],
 				'appropriation'=>[
 					'apropriation',
 					'apppropriation',
+					'appropraition',
+					'appropriatoin',
+					'appropriaton',
 				],
 				'appropriations'=>[
 					'apropriations',
 					'apppropriations',
+					'appropraitions',
+					'appropriatoins',
+					'appropriatons',
 				],
 				'appropriative'=>[
 					'apropriative',
@@ -12021,10 +17398,12 @@
 				'appropriator'=>[
 					'apropriator',
 					'apppropriator',
+					'appropraitor',
 				],
 				'appropriators'=>[
 					'apropriators',
 					'apppropriators',
+					'appropraitors',
 				],
 				'approval'=>[
 					'aproval',
@@ -12095,10 +17474,14 @@
 				'approximation'=>[
 					'aproximation',
 					'appproximation',
+					'approximatoin',
+					'approximaton',
 				],
 				'approximations'=>[
 					'aproximations',
 					'appproximations',
+					'approximatoins',
+					'approximatons',
 				],
 				'approximative'=>[
 					'aproximative',
@@ -12114,17 +17497,31 @@
 				'appurtenances'=>[
 					'apurtenances',
 					'apppurtenances',
+					'appurtenences',
 				],
 				'appurtenant'=>[
 					'apurtenant',
 					'apppurtenant',
+					'appurtenent',
 				],
 				'appurtenants'=>[
 					'apurtenants',
 				],
+				'apraxia'=>[
+					'apraxai',
+				],
+				'apraxias'=>[
+					'apraxais',
+				],
 				'april'=>[
 					'apirl',
 					'apnl',
+				],
+				'apriorism'=>[
+					'aproirism',
+				],
+				'aproned'=>[
+					'aprond',
 				],
 				'apropos'=>[
 					'apropo',
@@ -12135,11 +17532,20 @@
 					'aproptin',
 					'aprotanin',
 				],
+				'apterous'=>[
+					'apteruos',
+				],
+				'apterygial'=>[
+					'apterygail',
+				],
 				'aptitude'=>[
 					'eptitude',
 				],
 				'aptitudinally'=>[
 					'aptitudinaly',
+				],
+				'aptly'=>[
+					'aptely',
 				],
 				'aptness'=>[
 					'aptnes',
@@ -12167,6 +17573,7 @@
 				],
 				'aquae'=>[
 					'aqaue',
+					'aquea',
 				],
 				'aquafarming'=>[
 					'aqaufarming',
@@ -12174,15 +17581,39 @@
 				'aqualung'=>[
 					'aqaulung',
 				],
+				'aqualungs'=>[
+					'aqaulungs',
+				],
+				'aquamanile'=>[
+					'aqaumanile',
+				],
 				'aquamarine'=>[
 					'aqaumarine',
 					'aquamarini',
 				],
+				'aquamarines'=>[
+					'aqaumarines',
+				],
 				'aquanaut'=>[
 					'aqaunaut',
+					'aquanuat',
+				],
+				'aquanauts'=>[
+					'aqaunauts',
+					'aquanuats',
 				],
 				'aquaplane'=>[
 					'aqauplane',
+				],
+				'aquaplaned'=>[
+					'aqauplaned',
+					'aquapland',
+				],
+				'aquaplanes'=>[
+					'aqauplanes',
+				],
+				'aquaplaning'=>[
+					'aqauplaning',
 				],
 				'aquarelle'=>[
 					'aqaurelle',
@@ -12191,15 +17622,23 @@
 				],
 				'aquaria'=>[
 					'aqauria',
+					'aquarai',
 				],
 				'aquarian'=>[
 					'aquaran',
+					'aqaurian',
+					'aquarain',
 				],
 				'aquarist'=>[
 					'aqaurist',
 				],
 				'aquarium'=>[
 					'aqaurium',
+					'aquaruim',
+				],
+				'aquariums'=>[
+					'aqauriums',
+					'aquaruims',
 				],
 				'aquas'=>[
 					'aqaus',
@@ -12210,27 +17649,72 @@
 				'aquatically'=>[
 					'aquaticallly',
 					'aquaticaly',
+					'aqautically',
+				],
+				'aquatics'=>[
+					'aqautics',
 				],
 				'aquatint'=>[
 					'aqautint',
+				],
+				'aquatinted'=>[
+					'aqautinted',
+				],
+				'aquatinting'=>[
+					'aqautinting',
+				],
+				'aquatints'=>[
+					'aqautints',
 				],
 				'aquavit'=>[
 					'aqauvit',
 				],
 				'aqueduct'=>[
 					'aquaduct',
+					'aqeuduct',
+				],
+				'aqueducts'=>[
+					'aqeuducts',
+				],
+				'aqueous'=>[
+					'aqeuous',
+					'aqueuos',
+					'aquoeus',
+				],
+				'aquiculture'=>[
+					'aqiuculture',
 				],
 				'aquifer'=>[
 					'aquifier',
+					'aqiufer',
 				],
 				'aquifers'=>[
 					'acquifiers',
+					'aqiufers',
+				],
+				'aquilegia'=>[
+					'aqiulegia',
+					'aquilegai',
+				],
+				'aquilegias'=>[
+					'aqiulegias',
+					'aquilegais',
 				],
 				'aquiline'=>[
 					'aquilini',
+					'aqiuline',
 				],
 				'aquilinities'=>[
 					'aquilinaties',
+				],
+				'aquiver'=>[
+					'aqiuver',
+				],
+				'arabesque'=>[
+					'arabesqeu',
+				],
+				'arabesques'=>[
+					'arabesqeus',
 				],
 				'arabic'=>[
 					'aranic',
@@ -12241,21 +17725,61 @@
 				'arable'=>[
 					'arible',
 				],
+				'araceous'=>[
+					'araceuos',
+					'aracoeus',
+				],
 				'arachidonic'=>[
 					'arachedonic',
 				],
+				'arachnoid'=>[
+					'arachniod',
+				],
+				'arachnoids'=>[
+					'arachniods',
+				],
+				'arachnophobia'=>[
+					'arachnophobai',
+				],
+				'araliaceous'=>[
+					'aralaiceous',
+					'araliaceuos',
+					'araliacoeus',
+				],
 				'araneid'=>[
 					'aranied',
+				],
+				'arapaima'=>[
+					'arapiama',
+				],
+				'araucaria'=>[
+					'araucarai',
+					'aruacaria',
 				],
 				'araucarian'=>[
 					'araucaran',
 					'auracarian',
 				],
+				'araucarias'=>[
+					'araucarais',
+					'aruacarias',
+				],
 				'arbitrageur'=>[
 					'arbitrager',
+					'arbitraguer',
+				],
+				'arbitrageurs'=>[
+					'arbitraguers',
+				],
+				'arbitrament'=>[
+					'arbitramant',
+				],
+				'arbitraments'=>[
+					'arbitramants',
 				],
 				'arbitrarily'=>[
 					'arbitarily',
+					'arbitrarly',
 				],
 				'arbitrariness'=>[
 					'arbitrariniss',
@@ -12272,15 +17796,24 @@
 					'arbitrery',
 					'abitrary',
 				],
+				'arbitration'=>[
+					'arbitratoin',
+					'arbitraton',
+				],
 				'arbitress'=>[
 					'arbitres',
 					'arbitresss',
 				],
 				'arboreal'=>[
 					'aboreal',
+					'arborael',
 				],
 				'arboreality'=>[
 					'arboriality',
+				],
+				'arboreous'=>[
+					'arboreuos',
+					'arboroeus',
 				],
 				'arborescence'=>[
 					'arborescance',
@@ -12295,6 +17828,7 @@
 					'arborecsent',
 					'arboresent',
 					'aborescent',
+					'arborescant',
 				],
 				'arboretum'=>[
 					'arboretium',
@@ -12308,9 +17842,24 @@
 				],
 				'arborization'=>[
 					'aborization',
+					'arborizatoin',
+					'arborizaton',
+				],
+				'arborvitae'=>[
+					'arborvitea',
+				],
+				'arborvitaes'=>[
+					'arborviteas',
+				],
+				'arcadia'=>[
+					'arcadai',
 				],
 				'arcadian'=>[
 					'arcadan',
+					'arcadain',
+				],
+				'arcadias'=>[
+					'arcadais',
 				],
 				'arcaneness'=>[
 					'arcanenes',
@@ -12328,15 +17877,42 @@
 				'archaeal'=>[
 					'archaral',
 				],
+				'archaean'=>[
+					'archaaen',
+					'archeaan',
+				],
 				'archaeologic'=>[
 					'archaelogic',
+					'archaoelogic',
+					'archeaologic',
 				],
 				'archaeological'=>[
 					'archaelogical',
+					'archaoelogical',
+					'archeaological',
 				],
 				'archaeologically'=>[
 					'archaeologicallly',
 					'archaeologicaly',
+					'archaoelogically',
+					'archeaologically',
+				],
+				'archaeologist'=>[
+					'archaoelogist',
+				],
+				'archaeologists'=>[
+					'archaoelogists',
+				],
+				'archaeology'=>[
+					'archeaology',
+				],
+				'archaeopteryx'=>[
+					'archaoepteryx',
+					'archeaopteryx',
+				],
+				'archaeopteryxes'=>[
+					'archaoepteryxes',
+					'archeaopteryxes',
 				],
 				'archaic'=>[
 					'archiac',
@@ -12344,48 +17920,171 @@
 				'archaically'=>[
 					'archaicallly',
 					'archaicaly',
+					'archiacally',
+				],
+				'archaism'=>[
+					'archiasm',
+				],
+				'archaisms'=>[
+					'archiasms',
+				],
+				'archaist'=>[
+					'archiast',
+				],
+				'archaistic'=>[
+					'archiastic',
+				],
+				'archaists'=>[
+					'archiasts',
+				],
+				'archaize'=>[
+					'archiaze',
+				],
+				'archaized'=>[
+					'archiazed',
+				],
+				'archaizes'=>[
+					'archiazes',
+				],
+				'archaizing'=>[
+					'archiazing',
+				],
+				'archangel'=>[
+					'archngel',
+				],
+				'archangels'=>[
+					'archngels',
 				],
 				'archbishop'=>[
 					'archibishop',
+					'arcbishop',
+					'archishop',
+				],
+				'archbishops'=>[
+					'arcbishops',
+					'archishops',
+				],
+				'archconservative'=>[
+					'arcconservative',
+					'archonservative',
 				],
 				'archdeacon'=>[
 					'archdecon',
+					'archdaecon',
+				],
+				'archdeaconate'=>[
+					'archdaeconate',
 				],
 				'archdeaconries'=>[
 					'archdeaconreis',
 					'archdeaconris',
 					'archdeconries',
+					'archdaeconries',
 				],
 				'archdeaconry'=>[
 					'archdeconry',
+					'archdaeconry',
+				],
+				'archdeacons'=>[
+					'archdaecons',
+				],
+				'archdiocesan'=>[
+					'archdoicesan',
+				],
+				'archdiocese'=>[
+					'archdoicese',
+				],
+				'archdioceses'=>[
+					'archdoiceses',
 				],
 				'archduchess'=>[
 					'archduches',
 					'archduchesss',
+					'arcduchess',
+					'archuchess',
 				],
 				'archduchesses'=>[
 					'archducheses',
 					'archduchessses',
 				],
+				'archduchies'=>[
+					'archducheis',
+				],
+				'archduke'=>[
+					'arcduke',
+					'archuke',
+				],
+				'archegonia'=>[
+					'archegonai',
+				],
+				'archegonium'=>[
+					'archegonuim',
+				],
+				'archenemies'=>[
+					'arcenemies',
+					'archenemeis',
+					'archnemies',
+				],
+				'archenemy'=>[
+					'arcenemy',
+					'archnemy',
+				],
+				'archeologic'=>[
+					'archoelogic',
+				],
+				'archeological'=>[
+					'archoelogical',
+				],
 				'archeologically'=>[
 					'archeologicallly',
 					'archeologicaly',
+					'archoelogically',
 				],
 				'archeologist'=>[
 					'archeaologist',
+					'archoelogist',
 				],
 				'archeologists'=>[
 					'archeaologists',
+					'archoelogists',
 				],
 				'archeology'=>[
 					'archaoelogy',
 					'archaology',
+					'archoelogy',
+				],
+				'archerfish'=>[
+					'archefish',
+					'archerish',
+				],
+				'archers'=>[
+					'arcers',
+					'arhers',
+				],
+				'archery'=>[
+					'archary',
 				],
 				'arches'=>[
 					'archs',
 				],
 				'archetype'=>[
 					'archtype',
+				],
+				'archfiend'=>[
+					'arcfiend',
+					'archfeind',
+					'archiend',
+				],
+				'archfiends'=>[
+					'archfeinds',
+				],
+				'archidiaconal'=>[
+					'archidaiconal',
+				],
+				'archiepiscopacy'=>[
+					'archeipiscopacy',
+					'archiepicopacy',
+					'archiepisopacy',
 				],
 				'archiepiscopal'=>[
 					'archeipiscopal',
@@ -12401,11 +18100,18 @@
 					'archiepisopate',
 					'archipiscopate',
 				],
+				'archimage'=>[
+					'arcimage',
+				],
 				'archimedean'=>[
 					'archimedian',
+					'archimedaen',
 				],
 				'archipallium'=>[
 					'archopallium',
+				],
+				'archipelagoes'=>[
+					'archipelageos',
 				],
 				'architect'=>[
 					'archetect',
@@ -12435,9 +18141,15 @@
 				],
 				'archive'=>[
 					'achive',
+					'arcive',
+					'arhive',
 				],
 				'archived'=>[
 					'achived',
+				],
+				'archives'=>[
+					'arcives',
+					'arhives',
 				],
 				'archness'=>[
 					'archnes',
@@ -12449,6 +18161,23 @@
 				'archpriest'=>[
 					'archpreist',
 					'archprist',
+					'archriest',
+					'arcpriest',
+				],
+				'archpriests'=>[
+					'archpreists',
+					'archriests',
+					'arcpriests',
+				],
+				'archrival'=>[
+					'arcrival',
+				],
+				'archways'=>[
+					'archays',
+					'arcways',
+				],
+				'arcking'=>[
+					'arking',
 				],
 				'arctic'=>[
 					'artic',
@@ -12470,6 +18199,8 @@
 				],
 				'arcuation'=>[
 					'arcaution',
+					'arcuatoin',
+					'arcuaton',
 				],
 				'ardency'=>[
 					'ardensy',
@@ -12479,17 +18210,25 @@
 				],
 				'ardently'=>[
 					'ardantly',
+					'ardentely',
 				],
 				'arduous'=>[
 					'ardous',
+					'ardouus',
+					'arduuos',
 				],
 				'arduously'=>[
 					'ardously',
+					'ardouusly',
+					'arduousely',
+					'arduuosly',
 				],
 				'arduousness'=>[
 					'ardousness',
 					'arduousnes',
 					'arduousnesss',
+					'ardouusness',
+					'arduuosness',
 				],
 				'arduousnesses'=>[
 					'ardousnesses',
@@ -12509,6 +18248,22 @@
 					'area area',
 					'area area area',
 				],
+				'areal'=>[
+					'arael',
+				],
+				'areas'=>[
+					'araes',
+				],
+				'areaway'=>[
+					'araeway',
+					'araway',
+					'areway',
+				],
+				'areaways'=>[
+					'araeways',
+					'areaays',
+					'areways',
+				],
 				'areic'=>[
 					'ariec',
 				],
@@ -12519,11 +18274,31 @@
 				'arena'=>[
 					'arcna',
 				],
+				'arenaceous'=>[
+					'arenaceuos',
+					'arenacoeus',
+				],
+				'arenicolous'=>[
+					'arenicoluos',
+				],
+				'areola'=>[
+					'aroela',
+				],
 				'areolae and areolas'=>[
 					'areolaes',
 				],
 				'areolar'=>[
 					'areoler',
+					'aroelar',
+				],
+				'areolas'=>[
+					'aroelas',
+				],
+				'areolate'=>[
+					'aroelate',
+				],
+				'areole'=>[
+					'aroele',
 				],
 				'argatroban'=>[
 					'argotroban',
@@ -12533,6 +18308,7 @@
 				],
 				'argentiferous'=>[
 					'argantiferous',
+					'argentiferuos',
 				],
 				'argentine'=>[
 					'argantine',
@@ -12542,13 +18318,19 @@
 				'argentinian-occupied'=>[
 					'argentinian occupied',
 				],
+				'argentous'=>[
+					'argentuos',
+				],
 				'argillaceous'=>[
 					'argilaceous',
 					'argilllaceous',
+					'argillaceuos',
+					'argillacoeus',
 				],
 				'argilliferous'=>[
 					'argiliferous',
 					'argillliferous',
+					'argilliferuos',
 				],
 				'argillite'=>[
 					'argilite',
@@ -12570,6 +18352,15 @@
 				'arginines'=>[
 					'arginanes',
 				],
+				'argonaut'=>[
+					'argonuat',
+				],
+				'argonauts'=>[
+					'argonuats',
+				],
+				'argosies'=>[
+					'argoseis',
+				],
 				'argosy'=>[
 					'argocy',
 				],
@@ -12581,9 +18372,33 @@
 					'argubly',
 					'argueably',
 					'arguebly',
+					'argaubly',
+					'arguibly',
 				],
 				'argue'=>[
 					'arguc',
+					'argeu',
+				],
+				'argued'=>[
+					'argeud',
+				],
+				'arguer'=>[
+					'argeur',
+				],
+				'arguers'=>[
+					'argeurs',
+				],
+				'argues'=>[
+					'argeus',
+				],
+				'argufied'=>[
+					'argufeid',
+				],
+				'argufies'=>[
+					'argufeis',
+				],
+				'arguing'=>[
+					'argiung',
 				],
 				'argument'=>[
 					'arguement',
@@ -12594,6 +18409,8 @@
 				],
 				'argumentation'=>[
 					'argumantation',
+					'argumentatoin',
+					'argumentaton',
 				],
 				'argumentations'=>[
 					'argumantations',
@@ -12615,6 +18432,7 @@
 				'arguments'=>[
 					'arguements',
 					'arguinents',
+					'argumants',
 				],
 				'argyll'=>[
 					'argyl',
@@ -12641,13 +18459,24 @@
 				'arietta'=>[
 					'arieta',
 					'ariettta',
+					'areitta',
 				],
 				'ariettas'=>[
 					'arietas',
 					'arietttas',
+					'areittas',
 				],
 				'arillode'=>[
 					'arilllode',
+				],
+				'ariose'=>[
+					'aroise',
+				],
+				'arioso'=>[
+					'aroiso',
+				],
+				'ariosos'=>[
+					'aroisos',
 				],
 				'arise'=>[
 					'anse',
@@ -12656,6 +18485,9 @@
 				'arising'=>[
 					'arrising',
 					'arifing',
+				],
+				'aristocracies'=>[
+					'aristocraceis',
 				],
 				'aristocracy'=>[
 					'aristocrasy',
@@ -12677,6 +18509,13 @@
 				],
 				'arithmetician'=>[
 					'arithmetican',
+					'arithmeticain',
+				],
+				'arithmeticians'=>[
+					'arithmeticains',
+				],
+				'arithmomancy'=>[
+					'arithmomency',
 				],
 				'arm'=>[
 					'arm arm',
@@ -12704,6 +18543,22 @@
 				'armamentarium'=>[
 					'armamantarium',
 				],
+				'armaments'=>[
+					'armamants',
+				],
+				'armband'=>[
+					'arband',
+				],
+				'armchair'=>[
+					'archair',
+					'armchiar',
+					'armhair',
+				],
+				'armchairs'=>[
+					'archairs',
+					'armchiars',
+					'armhairs',
+				],
 				'armed'=>[
 					'aremed',
 					'armcd',
@@ -12711,6 +18566,17 @@
 				],
 				'armenian-occupied'=>[
 					'armenian occupied',
+				],
+				'armhole'=>[
+					'arhole',
+					'armole',
+				],
+				'armholes'=>[
+					'arholes',
+					'armoles',
+				],
+				'armies'=>[
+					'armeis',
 				],
 				'armilla'=>[
 					'armila',
@@ -12721,6 +18587,9 @@
 					'armilary',
 					'armilllary',
 				],
+				'armipotent'=>[
+					'armipotant',
+				],
 				'armistice'=>[
 					'annistice',
 				],
@@ -12728,8 +18597,28 @@
 					'armles',
 					'armlesss',
 				],
+				'armlets'=>[
+					'arlets',
+				],
+				'armload'=>[
+					'arload',
+					'armlaod',
+					'armoad',
+				],
+				'armloads'=>[
+					'arloads',
+					'armlaods',
+					'armoads',
+				],
+				'armoire'=>[
+					'armiore',
+				],
+				'armoires'=>[
+					'armiores',
+				],
 				'armored'=>[
 					'armouored',
+					'armord',
 				],
 					# armourer: an accepted spelling, not a slip (AmericanBritishWords_A: armorer)
 			#	'armorer'=>[
@@ -12741,6 +18630,7 @@
 			#	],
 				'armorial'=>[
 					'armourial',
+					'armorail',
 				],
 				'armorially'=>[
 					'armourially',
@@ -12768,8 +18658,12 @@
 			#	'armory'=>[
 			#		'armoury',
 			#	],
+				'armories'=>[
+					'armoreis',
+				],
 				'armour'=>[
 					'armonr',
+					'armuor',
 				],
 				'arms'=>[
 					'arins',
@@ -12779,8 +18673,22 @@
 					'amry',
 					'arrny',
 				],
+				'armyworm'=>[
+					'armworm',
+					'armyorm',
+				],
+				'armyworms'=>[
+					'armworms',
+					'armyorms',
+				],
 				'armónico'=>[
 					'armonico',
+				],
+				'aroid'=>[
+					'ariod',
+				],
+				'aroids'=>[
+					'ariods',
 				],
 				'aromatase'=>[
 					'aromotase',
@@ -12788,6 +18696,14 @@
 				'aromatherapies'=>[
 					'aromatherapeis',
 					'aromatherapis',
+				],
+				'aromatherapist'=>[
+					'aromaherapist',
+					'aromtherapist',
+				],
+				'aromatherapy'=>[
+					'aromaherapy',
+					'aromtherapy',
 				],
 				'aromatically'=>[
 					'aromaticallly',
@@ -12803,20 +18719,33 @@
 					'aronnd',
 					'arouncl',
 					'arouud',
+					'aruond',
 				],
 				'around its'=>[
 					'around it\'s',
 				],
+				'arousal'=>[
+					'aruosal',
+				],
+				'arouse'=>[
+					'aruose',
+				],
 				'aroused'=>[
 					'aroussed',
 					'arroused',
+					'aruosed',
+				],
+				'arouses'=>[
+					'aruoses',
 				],
 				'arousing'=>[
 					'arouisng',
+					'aruosing',
 				],
 				'arpeggiate'=>[
 					'arpegiate',
 					'arpegggiate',
+					'arpeggaite',
 				],
 				'arpeggiated'=>[
 					'arpegiated',
@@ -12830,17 +18759,28 @@
 				'arpeggiation'=>[
 					'arpegggiation',
 					'arpegiation',
+					'arpeggaition',
+					'arpeggiatoin',
+					'arpeggiaton',
 				],
 				'arpeggio'=>[
 					'arpegio',
 					'arpegggio',
+					'arpeggoi',
 				],
 				'arpeggios'=>[
 					'arpegios',
 					'arpegggios',
+					'arpeggois',
 				],
 				'arpent'=>[
 					'arpant',
+				],
+				'arquebus'=>[
+					'arqeubus',
+				],
+				'arquebuses'=>[
+					'arqeubuses',
 				],
 				'arrack'=>[
 					'arack',
@@ -12852,30 +18792,39 @@
 				'arraign'=>[
 					'araign',
 					'arrraign',
+					'arriagn',
 				],
 				'arraigned'=>[
 					'araigned',
 					'arrraigned',
+					'arraignd',
+					'arriagned',
 				],
 				'arraigning'=>[
 					'araigning',
 					'arrraigning',
+					'arriagning',
 				],
 				'arraignment'=>[
 					'araignment',
 					'arraigment',
 					'arraignent',
 					'arrraignment',
+					'arraignmant',
+					'arriagnment',
 				],
 				'arraignments'=>[
 					'arraigments',
 					'arraignents',
 					'araignments',
 					'arrraignments',
+					'arraignmants',
+					'arriagnments',
 				],
 				'arraigns'=>[
 					'araigns',
 					'arrraigns',
+					'arriagns',
 				],
 				'arran'=>[
 					'arrran',
@@ -12892,6 +18841,8 @@
 				'arrangeable'=>[
 					'arangeable',
 					'arrrangeable',
+					'arrangaeble',
+					'arrangeible',
 				],
 				'arranged'=>[
 					'aranged',
@@ -12910,6 +18861,7 @@
 					'arrengements',
 					'arangements',
 					'arrrangements',
+					'arrangemants',
 				],
 				'arranger'=>[
 					'aranger',
@@ -12964,11 +18916,13 @@
 				'arrearage'=>[
 					'arearage',
 					'arrrearage',
+					'arraerage',
 				],
 				'arrears'=>[
 					'arears',
 					'arrers',
 					'arrrears',
+					'arraers',
 				],
 				'arrest'=>[
 					'arest',
@@ -12977,6 +18931,7 @@
 				'arrestable'=>[
 					'arestable',
 					'arrrestable',
+					'arrestible',
 				],
 				'arrested'=>[
 					'arested',
@@ -13003,6 +18958,7 @@
 				'arrestment'=>[
 					'arestment',
 					'arrrestment',
+					'arrestmant',
 				],
 				'arrestments'=>[
 					'arestments',
@@ -13018,6 +18974,7 @@
 					'arhythmia',
 					'irrhythmia',
 					'arrrhythmia',
+					'arrhythmai',
 				],
 				'arrhythmias'=>[
 					'arhythmias',
@@ -13113,6 +19070,8 @@
 				'arrogantly'=>[
 					'arogantly',
 					'arrrogantly',
+					'arrogantely',
+					'arrogently',
 				],
 				'arrogate'=>[
 					'arogate',
@@ -13133,6 +19092,8 @@
 				'arrogation'=>[
 					'arogation',
 					'arrrogation',
+					'arrogatoin',
+					'arrogaton',
 				],
 				'arrogations'=>[
 					'arogations',
@@ -13163,10 +19124,16 @@
 					'arowhead',
 					'arrowhed',
 					'arrrowhead',
+					'arrohead',
+					'arrowead',
+					'arrowhaed',
 				],
 				'arrowheads'=>[
 					'arowheads',
 					'arrrowheads',
+					'arroheads',
+					'arroweads',
+					'arrowhaeds',
 				],
 				'arrowing'=>[
 					'arrrowing',
@@ -13176,6 +19143,8 @@
 					'arrowrooot',
 					'arrowrot',
 					'arrrowroot',
+					'arroroot',
+					'arrowoot',
 				],
 				'arrows'=>[
 					'arows',
@@ -13223,6 +19192,8 @@
 				],
 				'arsenious'=>[
 					'arsenous',
+					'arseniuos',
+					'arsenoius',
 				],
 				'arsenosugar'=>[
 					'arenosugar',
@@ -13240,8 +19211,35 @@
 					'art art',
 					'art art art',
 				],
+				'artefactual'=>[
+					'artefactaul',
+				],
+				'artemisia'=>[
+					'artemisai',
+				],
+				'artemisias'=>[
+					'artemisais',
+				],
 				'artemisinin'=>[
 					'artemesinin',
+				],
+				'arterial'=>[
+					'arterail',
+				],
+				'arterialize'=>[
+					'arterailize',
+				],
+				'arterialized'=>[
+					'arterailized',
+				],
+				'arterializes'=>[
+					'arterailizes',
+				],
+				'arterializing'=>[
+					'arterailizing',
+				],
+				'arteries'=>[
+					'artereis',
 				],
 				'arteriogenesis'=>[
 					'arterogenesis',
@@ -13252,12 +19250,37 @@
 				],
 				'arteriolar'=>[
 					'arterioler',
+					'arteroilar',
+				],
+				'arteriole'=>[
+					'arteroile',
+				],
+				'arterioles'=>[
+					'arteroiles',
+				],
+				'arteriosclerosis'=>[
+					'arterioclerosis',
+					'arterioslerosis',
+					'arteroisclerosis',
+				],
+				'arteriosclerotic'=>[
+					'arterioclerotic',
+					'arterioslerotic',
+					'arteroisclerotic',
+				],
+				'arteriotomy'=>[
+					'arteroitomy',
 				],
 				'arteriovenous'=>[
 					'arterovenous',
+					'arteriovenuos',
+					'arteroivenous',
 				],
 				'artery'=>[
 					'artary',
+				],
+				'artesian'=>[
+					'artesain',
 				],
 				'artesunate'=>[
 					'artusenate',
@@ -13265,6 +19288,8 @@
 				'artfully'=>[
 					'artfullly',
 					'artfuly',
+					'arfully',
+					'artully',
 				],
 				'artfulness'=>[
 					'artfulnes',
@@ -13273,6 +19298,10 @@
 				'arthralgia'=>[
 					'anthralgia',
 					'arthrialgia',
+					'arthralgai',
+				],
+				'arthralgias'=>[
+					'arthralgais',
 				],
 				'arthritically'=>[
 					'arthriticaly',
@@ -13293,14 +19322,24 @@
 					'anthropod',
 					'arthopod',
 				],
+				'arthroscope'=>[
+					'arthrocope',
+					'arthrosope',
+				],
+				'arthroscopes'=>[
+					'arthrocopes',
+					'arthrosopes',
+				],
 				'arthroscopic'=>[
 					'anthroscopic',
 					'arthrocopic',
+					'arthrosopic',
 				],
 				'arthroscopies'=>[
 					'arthrocopies',
 					'arthrocsopies',
 					'arthrosopies',
+					'arthroscopeis',
 				],
 				'arthroscopy'=>[
 					'arthrocopy',
@@ -13329,36 +19368,57 @@
 				'articular'=>[
 					'articuler',
 				],
+				'articulately'=>[
+					'articulatly',
+				],
 				'articulateness'=>[
 					'articulatenes',
 					'articulatenesss',
 				],
 				'articulation'=>[
 					'articlation',
+					'articulatoin',
+					'articulaton',
 				],
 					# artefact: an accepted spelling, not a slip (AmericanBritishWords_A: artifact)
 			#	'artifact'=>[
 			#		'artefact',
 			#	],
+				'articulations'=>[
+					'articulatoins',
+					'articulatons',
+				],
+				'artiest'=>[
+					'arteist',
+				],
+				'artifactual'=>[
+					'artifactaul',
+				],
 				'artifices'=>[
 					'areifices',
 				],
 				'artificial'=>[
 					'artficial',
 					'artifical',
+					'artificail',
 				],
 				'artificialities'=>[
 					'artificialiteis',
 					'artificialitis',
 				],
+				'artificiality'=>[
+					'artificaility',
+				],
 				'artificially'=>[
 					'artifically',
 					'artificialy',
 					'artificiallly',
+					'artificailly',
 				],
 				'artificialness'=>[
 					'artificialnes',
 					'artificialnesss',
+					'artificailness',
 				],
 				'artillerist'=>[
 					'artilerist',
@@ -13383,6 +19443,10 @@
 				],
 				'artiodactyl'=>[
 					'arteriodactyl',
+					'artoidactyl',
+				],
+				'artiodactyls'=>[
+					'artoidactyls',
 				],
 				'artisanal'=>[
 					'artisinal',
@@ -13398,6 +19462,7 @@
 				'artlessly'=>[
 					'artlesly',
 					'artlesssly',
+					'artlessely',
 				],
 				'artlessness'=>[
 					'artlesness',
@@ -13414,11 +19479,33 @@
 				'arts décoratifs'=>[
 					'arts decoratifs',
 				],
+				'artsier'=>[
+					'artseir',
+				],
+				'artsiest'=>[
+					'artseist',
+				],
 				'artsy'=>[
 					'artcy',
 				],
+				'artwork'=>[
+					'artork',
+					'arwork',
+				],
+				'artworks'=>[
+					'artorks',
+					'arworks',
+				],
+				'arundinaceous'=>[
+					'arundinaceuos',
+					'arundinacoeus',
+				],
 				'arytenoid'=>[
 					'arythenoid',
+					'aryteniod',
+				],
+				'arytenoids'=>[
+					'aryteniods',
 				],
 				'as'=>[
 					'as as',
@@ -13439,6 +19526,20 @@
 				],
 				'as well as'=>[
 					'as well ass',
+				],
+				'asafoetida'=>[
+					'asafeotida',
+				],
+				'asafoetidas'=>[
+					'asafeotidas',
+				],
+				'ascariases'=>[
+					'asariases',
+					'ascaraises',
+				],
+				'ascariasis'=>[
+					'asariasis',
+					'ascaraisis',
 				],
 				'ascarid'=>[
 					'acarid',
@@ -13482,16 +19583,36 @@
 			#	'ascendence'=>[
 			#		'ascendance',
 			#	],
+				'ascendants'=>[
+					'acendants',
+					'asendants',
+				],
+				'ascended'=>[
+					'acended',
+					'asended',
+				],
+				'ascendence'=>[
+					'acendence',
+					'asendence',
+				],
 				'ascendency'=>[
 					'ascendensy',
+					'acendency',
+					'asendency',
 				],
 				'ascendent'=>[
 					'ascendeent',
+					'acendent',
+					'asendent',
 				],
 					# ascendants: an accepted spelling, not a slip (AmericanBritishWords_A: ascendants)
 			#	'ascendents'=>[
 			#		'ascendants',
 			#	],
+				'ascendents'=>[
+					'acendents',
+					'asendents',
+				],
 				'ascender'=>[
 					'acender',
 					'acsender',
@@ -13505,11 +19626,27 @@
 					'acsending',
 					'asending',
 				],
+				'ascends'=>[
+					'acends',
+					'asends',
+				],
 				'ascension'=>[
 					'accension',
 					'acension',
 					'acsension',
 					'asension',
+					'ascensoin',
+					'ascenson',
+				],
+				'ascensions'=>[
+					'acensions',
+					'ascensoins',
+					'ascensons',
+					'asensions',
+				],
+				'ascensive'=>[
+					'acensive',
+					'asensive',
 				],
 				'ascent'=>[
 					'acent',
@@ -13523,18 +19660,27 @@
 					'asertain',
 					'afcertain',
 					'afeertain',
+					'ascertian',
 				],
 				'ascertainable'=>[
 					'acertainable',
 					'acsertainable',
 					'ascertainible',
 					'asertainable',
+					'ascertianable',
 				],
 				'ascertained'=>[
 					'afcertained',
+					'acertained',
+					'ascertaind',
+					'ascertianed',
+					'asertained',
 				],
 				'ascertaining'=>[
 					'ascertainang',
+					'acertaining',
+					'ascertianing',
+					'asertaining',
 				],
 				'ascertainment'=>[
 					'acertainment',
@@ -13542,6 +19688,8 @@
 					'ascertaiment',
 					'ascertainent',
 					'asertainment',
+					'ascertainmant',
+					'ascertianment',
 				],
 				'ascertainments'=>[
 					'acertainments',
@@ -13550,6 +19698,11 @@
 					'ascertainents',
 					'ascertainmants',
 					'asertainments',
+				],
+				'ascertains'=>[
+					'acertains',
+					'ascertians',
+					'asertains',
 				],
 				'ascesis'=>[
 					'acesis',
@@ -13564,11 +19717,19 @@
 				'ascetically'=>[
 					'asceticallly',
 					'asceticaly',
+					'acetically',
+					'asetically',
 				],
 				'asceticism'=>[
 					'aceticism',
 					'acseticism',
 					'aseticism',
+				],
+				'ascetics'=>[
+					'asetics',
+				],
+				'ascham'=>[
+					'acham',
 				],
 				'asci'=>[
 					'aci',
@@ -13577,11 +19738,52 @@
 				],
 				'ascidian'=>[
 					'ascidan',
+					'acidian',
+					'ascidain',
+					'asidian',
+				],
+				'ascidians'=>[
+					'acidians',
+					'ascidains',
+					'asidians',
+				],
+				'ascidium'=>[
+					'acidium',
+					'asciduim',
+					'asidium',
 				],
 				'ascites'=>[
 					'acites',
 					'acsites',
 					'asites',
+				],
+				'asclepiadaceous'=>[
+					'aclepiadaceous',
+					'asclepaidaceous',
+					'asclepiadaceuos',
+					'asclepiadacoeus',
+					'aslepiadaceous',
+				],
+				'ascocarp'=>[
+					'acocarp',
+					'asocarp',
+				],
+				'ascocarps'=>[
+					'acocarps',
+					'asocarps',
+				],
+				'ascogonium'=>[
+					'acogonium',
+					'ascogonuim',
+					'asogonium',
+				],
+				'ascomycete'=>[
+					'acomycete',
+					'asomycete',
+				],
+				'ascomycetes'=>[
+					'acomycetes',
+					'asomycetes',
 				],
 				'ascomycetous'=>[
 					'ascomyceteous',
@@ -13591,10 +19793,30 @@
 					'acsorbate',
 					'asorbate',
 				],
+				'ascorbic'=>[
+					'acorbic',
+					'asorbic',
+				],
+				'ascospore'=>[
+					'acospore',
+					'asospore',
+				],
+				'ascospores'=>[
+					'acospores',
+					'asospores',
+				],
 				'ascot'=>[
 					'acot',
 					'acsot',
 					'asot',
+				],
+				'ascots'=>[
+					'acots',
+				],
+				'ascribable'=>[
+					'acribable',
+					'ascribible',
+					'asribable',
 				],
 				'ascribe'=>[
 					'acribe',
@@ -13604,11 +19826,29 @@
 				],
 				'ascribed'=>[
 					'afcribed',
+					'acribed',
+					'asribed',
+				],
+				'ascribes'=>[
+					'acribes',
+					'asribes',
+				],
+				'ascribing'=>[
+					'acribing',
+					'asribing',
 				],
 				'ascription'=>[
 					'acription',
 					'acsription',
 					'asription',
+					'ascriptoin',
+					'ascripton',
+				],
+				'ascriptions'=>[
+					'acriptions',
+					'ascriptoins',
+					'ascriptons',
+					'asriptions',
 				],
 				'ascus'=>[
 					'acsus',
@@ -13618,6 +19858,9 @@
 				'asea'=>[
 					'ase',
 				],
+				'aseity'=>[
+					'asiety',
+				],
 				'aseptically'=>[
 					'asceptically',
 					'asepticallly',
@@ -13626,19 +19869,33 @@
 				'asexual'=>[
 					'asexaul',
 				],
+				'asexuality'=>[
+					'asexaulity',
+				],
 				'asexually'=>[
 					'asexuallly',
 					'asexualy',
+					'asexaully',
 				],
 				'ashamed'=>[
 					'afhamed',
 					'asbamed',
 					'asliamed',
 				],
+				'ashcans'=>[
+					'ascans',
+					'ashans',
+				],
 				'ashes'=>[
 					'afhes',
 					'asbes',
 					'aslies',
+				],
+				'ashier'=>[
+					'asheir',
+				],
+				'ashiest'=>[
+					'asheist',
 				],
 				'ashlar'=>[
 					'ashler',
@@ -13646,6 +19903,12 @@
 				'ashore'=>[
 					'ashorc',
 					'asliore',
+				],
+				'ashtray'=>[
+					'ashray',
+				],
+				'ashtrays'=>[
+					'ashrays',
 				],
 				'asialylated'=>[
 					'asialyated',
@@ -13669,6 +19932,7 @@
 				],
 				'asininities'=>[
 					'asininaties',
+					'asininiteis',
 				],
 				'asininity'=>[
 					'asininaty',
@@ -13701,6 +19965,12 @@
 					'aslep',
 					'afleep',
 				],
+				'asocial'=>[
+					'asocail',
+				],
+				'asomatous'=>[
+					'asomatuos',
+				],
 				'asparagine'=>[
 					'asparagini',
 					'asperagine',
@@ -13726,6 +19996,9 @@
 				'aspartate'=>[
 					'aspertate',
 				],
+				'aspectual'=>[
+					'aspectaul',
+				],
 				'aspergilloses'=>[
 					'aspergiloses',
 					'aspergillloses',
@@ -13742,6 +20015,20 @@
 					'aspergilus',
 					'aspergilllus',
 				],
+				'asperities'=>[
+					'asperiteis',
+				],
+				'aspersion'=>[
+					'aspersoin',
+					'asperson',
+				],
+				'aspersions'=>[
+					'aspersoins',
+					'aspersons',
+				],
+				'aspersorium'=>[
+					'aspersoruim',
+				],
 				'asphalt'=>[
 					'ashphalt',
 					'aspalt',
@@ -13749,14 +20036,62 @@
 				'asphyctic'=>[
 					'asphytic',
 				],
+				'asphyxia'=>[
+					'asphyxai',
+				],
+				'asphyxiant'=>[
+					'asphyxaint',
+					'asphyxient',
+				],
+				'asphyxiate'=>[
+					'asphyxaite',
+				],
+				'asphyxiated'=>[
+					'asphyxaited',
+				],
+				'asphyxiates'=>[
+					'asphyxaites',
+				],
+				'asphyxiating'=>[
+					'asphyxaiting',
+				],
+				'asphyxiation'=>[
+					'asphyxaition',
+					'asphyxiatoin',
+					'asphyxiaton',
+				],
+				'asphyxiations'=>[
+					'asphyxaitions',
+					'asphyxiatoins',
+					'asphyxiatons',
+				],
+				'asphyxiator'=>[
+					'asphyxaitor',
+				],
 				'aspidorhynchiform'=>[
 					'aspidorynchiform',
 				],
 				'aspirant'=>[
 					'aspirent',
 				],
+				'aspirants'=>[
+					'aspirents',
+				],
+				'aspiration'=>[
+					'aspiratoin',
+					'aspiraton',
+				],
+				'aspirational'=>[
+					'aspiratoinal',
+					'aspiratonal',
+				],
 				'aspirations'=>[
 					'asperations',
+					'aspiratoins',
+					'aspiratons',
+				],
+				'aspired'=>[
+					'aspird',
 				],
 				'aspirin'=>[
 					'asprin',
@@ -13764,12 +20099,16 @@
 				'aspiring'=>[
 					'afpiring',
 				],
+				'asquint'=>[
+					'asqiunt',
+				],
 				'ass'=>[
 					'asss',
 				],
 				'assagai'=>[
 					'asagai',
 					'asssagai',
+					'assagia',
 				],
 				'assagais'=>[
 					'asagais',
@@ -13778,39 +20117,51 @@
 				'assai'=>[
 					'asai',
 					'asssai',
+					'assia',
 				],
 				'assail'=>[
 					'asail',
 					'asssail',
+					'assial',
 				],
 				'assailable'=>[
 					'asailable',
 					'asssailable',
+					'assailible',
+					'assialable',
 				],
 				'assailant'=>[
 					'asailant',
 					'assailent',
 					'asssailant',
+					'assialant',
 				],
 				'assailants'=>[
 					'asailants',
 					'asssailants',
+					'assailents',
+					'assialants',
 				],
 				'assailed'=>[
 					'asailed',
 					'asssailed',
+					'assialed',
 				],
 				'assailer'=>[
 					'asailer',
 					'asssailer',
+					'assialer',
 				],
 				'assailing'=>[
 					'asailing',
 					'asssailing',
+					'assialing',
+					'assiling',
 				],
 				'assails'=>[
 					'asails',
 					'asssails',
+					'assials',
 				],
 				'assassin'=>[
 					'asassin',
@@ -13850,12 +20201,16 @@
 					'asassination',
 					'assasssination',
 					'asssassination',
+					'assassinatoin',
+					'assassinaton',
 				],
 				'assassinations'=>[
 					'assasinations',
 					'asassinations',
 					'assasssinations',
 					'asssassinations',
+					'assassinatoins',
+					'assassinatons',
 				],
 				'assassins'=>[
 					'assasins',
@@ -13873,10 +20228,12 @@
 					'assulted',
 					'asaulted',
 					'asssaulted',
+					'assualted',
 				],
 				'assaulter'=>[
 					'asaulter',
 					'asssaulter',
+					'assualter',
 				],
 				'assaulting'=>[
 					'assualting',
@@ -13886,6 +20243,7 @@
 				'assaultive'=>[
 					'asaultive',
 					'asssaultive',
+					'assualtive',
 				],
 				'assaultively'=>[
 					'assaultivly',
@@ -13893,6 +20251,7 @@
 				'assaults'=>[
 					'asaults',
 					'asssaults',
+					'assualts',
 				],
 				'assay'=>[
 					'asay',
@@ -13901,6 +20260,7 @@
 				'assayable'=>[
 					'asayable',
 					'asssayable',
+					'assayible',
 				],
 				'assayed'=>[
 					'asayed',
@@ -13925,10 +20285,12 @@
 				'assegai'=>[
 					'asegai',
 					'asssegai',
+					'assegia',
 				],
 				'assegais'=>[
 					'asegais',
 					'asssegais',
+					'assegias',
 				],
 				'assemblage'=>[
 					'asemblage',
@@ -13966,6 +20328,7 @@
 					'asemblies',
 					'asssemblies',
 					'affemblies',
+					'assembleis',
 				],
 				'assembling'=>[
 					'asembling',
@@ -13994,15 +20357,23 @@
 				'assemblywoman'=>[
 					'asemblywoman',
 					'asssemblywoman',
+					'assemblwoman',
+					'assemblyoman',
 				],
 				'assemblywomen'=>[
 					'asemblywomen',
 					'asssemblywomen',
+					'assemblwomen',
+					'assemblyomen',
 				],
 				'assent'=>[
 					'asent',
 					'assant',
 					'asssent',
+				],
+				'assentation'=>[
+					'assentatoin',
+					'assentaton',
 				],
 				'assented'=>[
 					'asented',
@@ -14011,6 +20382,7 @@
 				'assenter'=>[
 					'asenter',
 					'asssenter',
+					'assnter',
 				],
 				'assenting'=>[
 					'asenting',
@@ -14048,10 +20420,14 @@
 					'assertation',
 					'asssertion',
 					'affertion',
+					'assertoin',
+					'asserton',
 				],
 				'assertions'=>[
 					'asertions',
 					'asssertions',
+					'assertoins',
+					'assertons',
 				],
 				'assertive'=>[
 					'asertive',
@@ -14125,6 +20501,7 @@
 					'assesments',
 					'assesssments',
 					'asssessments',
+					'assessmants',
 				],
 				'assessor'=>[
 					'assesor',
@@ -14165,14 +20542,18 @@
 				'asseveration'=>[
 					'aseveration',
 					'assseveration',
+					'asseveratoin',
+					'asseveraton',
 				],
 				'asshole'=>[
 					'ashole',
 					'assshole',
+					'assole',
 				],
 				'assholes'=>[
 					'asholes',
 					'asssholes',
+					'assoles',
 				],
 				'assibilate'=>[
 					'asibilate',
@@ -14193,21 +20574,29 @@
 				'assiduities'=>[
 					'asiduities',
 					'asssiduities',
+					'assidiuties',
+					'assiduiteis',
 				],
 				'assiduity'=>[
 					'asiduity',
 					'asssiduity',
+					'assidiuty',
 				],
 				'assiduous'=>[
 					'assidous',
 					'assidious',
 					'asiduous',
 					'asssiduous',
+					'assidouus',
+					'assiduuos',
 				],
 				'assiduously'=>[
 					'assidously',
 					'asiduously',
 					'asssiduously',
+					'assidouusly',
+					'assiduousely',
+					'assiduuosly',
 				],
 				'assiduousness'=>[
 					'assidousness',
@@ -14215,6 +20604,8 @@
 					'assiduousnes',
 					'assiduousnesss',
 					'asssiduousness',
+					'assidouusness',
+					'assiduuosness',
 				],
 				'assiduousnesses'=>[
 					'assidousnesses',
@@ -14232,10 +20623,14 @@
 				'assignability'=>[
 					'asignability',
 					'asssignability',
+					'assigability',
+					'assignbility',
+					'assignibility',
 				],
 				'assignable'=>[
 					'asignable',
 					'asssignable',
+					'assignible',
 				],
 				'assignat'=>[
 					'asignat',
@@ -14244,15 +20639,20 @@
 				'assignation'=>[
 					'asignation',
 					'asssignation',
+					'assignatoin',
+					'assignaton',
 				],
 				'assignations'=>[
 					'asignations',
 					'asssignations',
+					'assignatoins',
+					'assignatons',
 				],
 				'assigned'=>[
 					'asigned',
 					'asssigned',
 					'affigned',
+					'assignd',
 				],
 				'assignee'=>[
 					'asignee',
@@ -14292,6 +20692,7 @@
 					'assignmemts',
 					'asignments',
 					'asssignments',
+					'assignmants',
 				],
 				'assignor'=>[
 					'assignour',
@@ -14332,6 +20733,8 @@
 				'assimilation'=>[
 					'asimilation',
 					'asssimilation',
+					'assimilatoin',
+					'assimilaton',
 				],
 				'assimilationism'=>[
 					'asimilationism',
@@ -14339,6 +20742,8 @@
 				'assimilationist'=>[
 					'asimilationist',
 					'asssimilationist',
+					'assimilatoinist',
+					'assimilatonist',
 				],
 				'assimilative'=>[
 					'asimilative',
@@ -14378,6 +20783,7 @@
 				'assistants'=>[
 					'asistants',
 					'asssistants',
+					'assistents',
 				],
 				'assistantship'=>[
 					'asistantship',
@@ -14413,6 +20819,7 @@
 					'assoicate',
 					'asssociate',
 					'assoziate',
+					'assocaite',
 				],
 				'associated'=>[
 					'asociated',
@@ -14420,20 +20827,24 @@
 					'associatedasociated',
 					'assoicated',
 					'asssociated',
+					'assocaited',
 				],
 				'associates'=>[
 					'associaites',
 					'assoicates',
 					'asociates',
 					'asssociates',
+					'assocaites',
 				],
 				'associateship'=>[
 					'asociateship',
 					'asssociateship',
+					'assocaiteship',
 				],
 				'associating'=>[
 					'asociating',
 					'asssociating',
+					'assocaiting',
 				],
 				'association'=>[
 					'asociation',
@@ -14441,18 +20852,29 @@
 					'associaiton',
 					'assoziation',
 					'asssociation',
+					'assocaition',
+					'associatoin',
+					'associaton',
 				],
 				'associational'=>[
 					'asociational',
 					'asssociational',
+					'assocaitional',
+					'associatoinal',
+					'associatonal',
 				],
 				'associationism'=>[
 					'asociationism',
 					'asssociationism',
+					'assocaitionism',
+					'associatoinism',
+					'associatonism',
 				],
 				'associationisms'=>[
 					'asociationisms',
 					'asssociationisms',
+					'assocaitionisms',
+					'associatoinisms',
 				],
 				'associationistic'=>[
 					'associonistic',
@@ -14463,16 +20885,21 @@
 				'associations'=>[
 					'asociations',
 					'asssociations',
+					'assocaitions',
+					'associatoins',
+					'associatons',
 				],
 				'associative'=>[
 					'asociative',
 					'associaitive',
 					'asssociative',
+					'assocaitive',
 				],
 				'associatively'=>[
 					'associativly',
 					'asociatively',
 					'asssociatively',
+					'assocaitively',
 				],
 				'associativities'=>[
 					'asociativities',
@@ -14482,18 +20909,26 @@
 				'associativity'=>[
 					'asociativity',
 					'asssociativity',
+					'assocaitivity',
 				],
 				'assoil'=>[
 					'asoil',
 					'asssoil',
+					'assiol',
 				],
 				'assoiled'=>[
 					'asoiled',
 					'asssoiled',
+					'assioled',
 				],
 				'assoiling'=>[
 					'asoiling',
 					'asssoiling',
+					'assioling',
+				],
+				'assoils'=>[
+					'asoils',
+					'assiols',
 				],
 				'assonance'=>[
 					'assonence',
@@ -14502,6 +20937,7 @@
 				],
 				'assonant'=>[
 					'asssonant',
+					'assonent',
 				],
 				'assonantal'=>[
 					'asonantal',
@@ -14509,6 +20945,7 @@
 				],
 				'assonants'=>[
 					'asssonants',
+					'assonents',
 				],
 				'assort'=>[
 					'asort',
@@ -14541,6 +20978,7 @@
 				'assortments'=>[
 					'asortments',
 					'asssortments',
+					'assortmants',
 				],
 				'assorts'=>[
 					'asorts',
@@ -14554,22 +20992,29 @@
 				'assuaged'=>[
 					'asssuaged',
 					'asuaged',
+					'assauged',
 				],
 				'assuagement'=>[
 					'asssuagement',
 					'asuagement',
+					'assaugement',
+					'assuagemant',
 				],
 				'assuagements'=>[
 					'asssuagements',
 					'asuagements',
+					'assaugements',
+					'assuagemants',
 				],
 				'assuages'=>[
 					'asssuages',
 					'asuages',
+					'assauges',
 				],
 				'assuaging'=>[
 					'asssuaging',
 					'asuaging',
+					'assauging',
 				],
 				'assuasive'=>[
 					'assausive',
@@ -14581,6 +21026,10 @@
 				'assumable'=>[
 					'asssumable',
 					'asumable',
+					'assumible',
+				],
+				'assumably'=>[
+					'assumibly',
 				],
 				'assume'=>[
 					'asssume',
@@ -14609,10 +21058,13 @@
 					'asumption',
 					'asssumption',
 					'assurnption',
+					'assumptoin',
 				],
 				'assumptions'=>[
 					'asssumptions',
 					'asumptions',
+					'assumptoins',
+					'assumptons',
 				],
 				'assumptive'=>[
 					'asssumptive',
@@ -14627,6 +21079,7 @@
 				'assurances'=>[
 					'asssurances',
 					'asurances',
+					'assurences',
 				],
 				'assure'=>[
 					'asure',
@@ -14636,6 +21089,7 @@
 					'asured',
 					'asssured',
 					'affured',
+					'assurd',
 				],
 				'assuredly'=>[
 					'asssuredly',
@@ -14667,6 +21121,8 @@
 				'assurgent'=>[
 					'asssurgent',
 					'asurgent',
+					'assrgent',
+					'assurgant',
 				],
 				'assuring'=>[
 					'asssuring',
@@ -14680,6 +21136,12 @@
 					'asssyriology',
 					'asyriology',
 				],
+				'astereognosis'=>[
+					'asteroegnosis',
+				],
+				'asteriated'=>[
+					'asteraited',
+				],
 				'asterisk'=>[
 					'asterick',
 					'asteriks',
@@ -14688,12 +21150,36 @@
 					'asteriod',
 					'astroid',
 				],
+				'asteroids'=>[
+					'asteriods',
+				],
+				'asthenia'=>[
+					'asthenai',
+				],
+				'asthenias'=>[
+					'asthenais',
+				],
+				'asthenopia'=>[
+					'asthenopai',
+				],
 				'asthmatically'=>[
 					'asthmaticaly',
 					'asthmaticallly',
 				],
 				'astigmatism'=>[
 					'astygmatism',
+				],
+				'astigmia'=>[
+					'astigmai',
+				],
+				'astigmias'=>[
+					'astigmais',
+				],
+				'astomatous'=>[
+					'astomatuos',
+				],
+				'astonied'=>[
+					'astoneid',
 				],
 				'astonished'=>[
 					'aftonifhed',
@@ -14706,6 +21192,21 @@
 					'astonishmant',
 					'aftonifhment',
 				],
+				'astound'=>[
+					'astuond',
+				],
+				'astounded'=>[
+					'astuonded',
+				],
+				'astounding'=>[
+					'astuonding',
+				],
+				'astoundingly'=>[
+					'astuondingly',
+				],
+				'astounds'=>[
+					'astuonds',
+				],
 				'astraddle'=>[
 					'astradddle',
 					'astradle',
@@ -14717,30 +21218,86 @@
 					'astrallly',
 					'astraly',
 				],
+				'astraphobia'=>[
+					'astraphobai',
+				],
 				'astray'=>[
 					'aftray',
 				],
 				'astringency'=>[
 					'astringensy',
+					'astringancy',
+				],
+				'astringent'=>[
+					'astringant',
+				],
+				'astringently'=>[
+					'astringantly',
+					'astringentely',
+				],
+				'astringents'=>[
+					'astringants',
+				],
+				'astrionics'=>[
+					'astroinics',
 				],
 				'astrobiologies'=>[
 					'astrobiologeis',
 					'astrobiologis',
 				],
+				'astrobiology'=>[
+					'astroboilogy',
+				],
 				'astrocytoma'=>[
 					'astocytoma',
+				],
+				'astrogation'=>[
+					'astrogatoin',
+					'astrogaton',
+				],
+				'astrogeology'=>[
+					'astrogoelogy',
 				],
 				'astrogliosis'=>[
 					'astriogliosis',
 					'astroglosis',
 				],
+				'astroid'=>[
+					'astriod',
+				],
 				'astrologically'=>[
 					'astrologicaly',
 					'astrologicallly',
 				],
+				'astromancy'=>[
+					'astromency',
+				],
+				'astrometries'=>[
+					'astrometreis',
+				],
+				'astronaut'=>[
+					'astronuat',
+				],
+				'astronautic'=>[
+					'astronuatic',
+				],
+				'astronautical'=>[
+					'astronuatical',
+				],
 				'astronautically'=>[
 					'astronauticaly',
 					'astronauticallly',
+					'astronuatically',
+				],
+				'astronautics'=>[
+					'astronuatics',
+				],
+				'astronauts'=>[
+					'astronuats',
+				],
+				'astronavigation'=>[
+					'astronavigatoin',
+					'astronavigaton',
 				],
 				'astronomer'=>[
 					'stronomer',
@@ -14793,6 +21350,7 @@
 				'asymmetries'=>[
 					'asymetries',
 					'asymmmetries',
+					'asymmetreis',
 				],
 				'asymmetry'=>[
 					'assymetry',
@@ -14818,12 +21376,14 @@
 				'asynchronous'=>[
 					'asynchronus',
 					'asyncronous',
+					'asynchronuos',
 				],
 				'asynchronously'=>[
 					'asynchronousally',
 					'asynchronousaly',
 					'asynchronousely',
 					'asynchronouslly',
+					'asynchronuosly',
 				],
 				'at'=>[
 					'at at',
@@ -14837,9 +21397,18 @@
 					'athe',
 					'atthe',
 				],
+				'ataraxia'=>[
+					'ataraxai',
+				],
+				'ataraxias'=>[
+					'ataraxais',
+				],
 				'atavistically'=>[
 					'atavisticallly',
 					'atavisticaly',
+				],
+				'ataxia'=>[
+					'ataxai',
 				],
 				'atazanavir'=>[
 					'atzanavir',
@@ -14847,6 +21416,12 @@
 				'atelier'=>[
 					'ateleir',
 					'atelir',
+				],
+				'ateliers'=>[
+					'ateleirs',
+				],
+				'athanasia'=>[
+					'athanasai',
 				],
 				'athanasy'=>[
 					'athanacy',
@@ -14873,6 +21448,20 @@
 				'atheists'=>[
 					'athiests',
 					'atlieists',
+				],
+				'athenaeum'=>[
+					'athenauem',
+					'atheneaum',
+				],
+				'athenaeums'=>[
+					'athenauems',
+					'atheneaums',
+				],
+				'atheneum'=>[
+					'athenuem',
+				],
+				'atheneums'=>[
+					'athenuems',
 				],
 				'athenian'=>[
 					'athenean',
@@ -14931,6 +21520,9 @@
 					'antipamozole',
 					'atipamazole',
 				],
+				'atiptoe'=>[
+					'atipteo',
+				],
 				'atishoo'=>[
 					'atisho',
 					'atishooo',
@@ -14974,6 +21566,14 @@
 					'atomicallly',
 					'atomicaly',
 				],
+				'atomization'=>[
+					'atomizatoin',
+					'atomizaton',
+				],
+				'atomizations'=>[
+					'atomizatoins',
+					'atomizatons',
+				],
 				'atonable'=>[
 					'atonible',
 					'atoneable',
@@ -14985,6 +21585,15 @@
 				'atone'=>[
 					'attone',
 				],
+				'atoned'=>[
+					'atond',
+				],
+				'atonement'=>[
+					'atonemant',
+				],
+				'atonies'=>[
+					'atoneis',
+				],
 				'atorvastatin'=>[
 					'atorvastin',
 					'atorvostatin',
@@ -14992,6 +21601,8 @@
 				],
 				'atrabilious'=>[
 					'atrabilous',
+					'atrabiliuos',
+					'atrabiloius',
 				],
 				'atrabiliousness'=>[
 					'atrabiliousnes',
@@ -15002,12 +21613,28 @@
 				'atresia'=>[
 					'athresia',
 				],
+				'atria'=>[
+					'atrai',
+				],
+				'atrial'=>[
+					'atrail',
+				],
 				'atrioventricular'=>[
 					'artrioventricular',
 					'atriocentricular',
+					'atrioventriculer',
+					'atroiventricular',
+				],
+				'atrium'=>[
+					'atruim',
+				],
+				'atriums'=>[
+					'atruims',
 				],
 				'atrocious'=>[
 					'atrocous',
+					'atrociuos',
+					'atrocoius',
 				],
 				'atrociously'=>[
 					'atrociousally',
@@ -15015,13 +21642,27 @@
 					'atrociousely',
 					'atrociouslly',
 					'atrocously',
+					'atrociuosly',
+					'atrocoiusly',
 				],
 				'atrociousness'=>[
 					'atrociousnes',
 					'atrociousnesss',
+					'atrociuosness',
+					'atrocoiusness',
+					'atrocousness',
 				],
 				'atrociousnesses'=>[
 					'atrociousneses',
+				],
+				'atrocities'=>[
+					'atrociteis',
+				],
+				'atrophied'=>[
+					'atropheid',
+				],
+				'atrophies'=>[
+					'atropheis',
 				],
 				'atropine'=>[
 					'atropini',
@@ -15038,6 +21679,7 @@
 				'attachable'=>[
 					'atachable',
 					'atttachable',
+					'attachible',
 				],
 				'attached'=>[
 					'attatched',
@@ -15064,6 +21706,7 @@
 				'attachments'=>[
 					'atachments',
 					'atttachments',
+					'attachmants',
 				],
 				'attack'=>[
 					'attac',
@@ -15095,6 +21738,7 @@
 				'attain'=>[
 					'atain',
 					'atttain',
+					'attian',
 				],
 				'attainabilities'=>[
 					'attainabiliteis',
@@ -15104,24 +21748,34 @@
 				'attainability'=>[
 					'atainability',
 					'atttainability',
+					'attaiability',
+					'attainbility',
+					'attainibility',
+					'attianability',
 				],
 				'attainable'=>[
 					'atainable',
 					'atttainable',
+					'attainible',
+					'attianable',
 				],
 				'attainder'=>[
 					'attaindre',
 					'atainder',
 					'atttainder',
+					'attiander',
 				],
 				'attained'=>[
 					'atained',
 					'atttained',
+					'attaind',
+					'attianed',
 				],
 				'attaining'=>[
 					'attainang',
 					'ataining',
 					'atttaining',
+					'attianing',
 				],
 				'attainment'=>[
 					'attaiment',
@@ -15129,36 +21783,46 @@
 					'attainmant',
 					'atainment',
 					'atttainment',
+					'attianment',
 				],
 				'attainments'=>[
 					'attaiments',
 					'attainents',
 					'atainments',
 					'atttainments',
+					'attainmants',
+					'attianments',
 				],
 				'attains'=>[
 					'atains',
 					'atttains',
+					'attians',
 				],
 				'attaint'=>[
 					'ataint',
 					'atttaint',
+					'attiant',
 				],
 				'attainted'=>[
 					'atainted',
 					'atttainted',
+					'attianted',
 				],
 				'attainting'=>[
 					'atainting',
 					'atttainting',
+					'attaiting',
+					'attianting',
 				],
 				'attaints'=>[
 					'ataints',
 					'atttaints',
+					'attiants',
 				],
 				'attainture'=>[
 					'atainture',
 					'atttainture',
+					'attianture',
 				],
 				'attar'=>[
 					'atter',
@@ -15171,6 +21835,7 @@
 				'attempered'=>[
 					'atempered',
 					'atttempered',
+					'attemperd',
 				],
 				'attempering'=>[
 					'atempering',
@@ -15192,6 +21857,7 @@
 				'attemptable'=>[
 					'atemptable',
 					'atttemptable',
+					'attemptible',
 				],
 				'attempted'=>[
 					'attemped',
@@ -15224,6 +21890,7 @@
 				'attendances'=>[
 					'atendances',
 					'atttendances',
+					'attendences',
 				],
 				'attendant'=>[
 					'attendent',
@@ -15283,14 +21950,20 @@
 					'tention',
 					'ttention',
 					'attenlion',
+					'attentoin',
+					'attenton',
 				],
 				'attentional'=>[
 					'atentional',
 					'atttentional',
+					'attentoinal',
+					'attentonal',
 				],
 				'attentions'=>[
 					'atentions',
 					'atttentions',
+					'attentoins',
+					'attentons',
 				],
 				'attentive'=>[
 					'atentive',
@@ -15315,6 +21988,8 @@
 				'attenuant'=>[
 					'atenuant',
 					'atttenuant',
+					'attenaunt',
+					'attenuent',
 				],
 				'attenuate'=>[
 					'attenaute',
@@ -15324,18 +21999,24 @@
 				'attenuated'=>[
 					'atenuated',
 					'atttenuated',
+					'attenauted',
 				],
 				'attenuates'=>[
 					'atenuates',
 					'atttenuates',
+					'attenautes',
 				],
 				'attenuating'=>[
 					'atenuating',
 					'atttenuating',
+					'attenauting',
 				],
 				'attenuation'=>[
 					'atenuation',
 					'atttenuation',
+					'attenaution',
+					'attenuatoin',
+					'attenuaton',
 				],
 				'attenuator'=>[
 					'attenautor',
@@ -15345,6 +22026,7 @@
 				'attenuators'=>[
 					'atenuators',
 					'atttenuators',
+					'attenautors',
 				],
 				'attest'=>[
 					'atttest',
@@ -15353,10 +22035,14 @@
 					'atestation',
 					'atttestation',
 					'atteftation',
+					'attestatoin',
+					'attestaton',
 				],
 				'attestations'=>[
 					'atestations',
 					'atttestations',
+					'attestatoins',
+					'attestatons',
 				],
 				'attested'=>[
 					'atttested',
@@ -15393,6 +22079,7 @@
 				'attired'=>[
 					'atired',
 					'atttired',
+					'attird',
 				],
 				'attires'=>[
 					'atires',
@@ -15418,6 +22105,7 @@
 				'attitudinarian'=>[
 					'atitudinarian',
 					'atttitudinarian',
+					'attitudinarain',
 				],
 				'attitudinise'=>[
 					'attitudinase',
@@ -15465,6 +22153,7 @@
 				'attorned'=>[
 					'atorned',
 					'atttorned',
+					'attornd',
 				],
 				'attorney'=>[
 					'attorny',
@@ -15485,6 +22174,8 @@
 				'attorneyships'=>[
 					'atorneyships',
 					'atttorneyships',
+					'attorneyhips',
+					'attorneysips',
 				],
 				'attorning'=>[
 					'atorning',
@@ -15509,6 +22200,7 @@
 				'attractable'=>[
 					'atractable',
 					'atttractable',
+					'attractible',
 				],
 				'attractance'=>[
 					'attractence',
@@ -15524,6 +22216,7 @@
 				'attractants'=>[
 					'atractants',
 					'atttractants',
+					'attractents',
 				],
 				'attracted'=>[
 					'atracted',
@@ -15537,10 +22230,14 @@
 					'attaction',
 					'atraction',
 					'atttraction',
+					'attractoin',
+					'attracton',
 				],
 				'attractions'=>[
 					'atractions',
 					'atttractions',
+					'attractoins',
+					'attractons',
 				],
 				'attractive'=>[
 					'attactive',
@@ -15573,10 +22270,12 @@
 				'attrahent'=>[
 					'atrahent',
 					'atttrahent',
+					'attrahant',
 				],
 				'attributable'=>[
 					'atributable',
 					'atttributable',
+					'attributible',
 				],
 				'attribute'=>[
 					'atribute',
@@ -15601,10 +22300,14 @@
 				'attribution'=>[
 					'atribution',
 					'atttribution',
+					'attributoin',
+					'attributon',
 				],
 				'attributions'=>[
 					'atributions',
 					'atttributions',
+					'attributoins',
+					'attributons',
 				],
 				'attributive'=>[
 					'atributive',
@@ -15630,10 +22333,14 @@
 				'attrition'=>[
 					'atrition',
 					'atttrition',
+					'attritoin',
+					'attriton',
 				],
 				'attritional'=>[
 					'atritional',
 					'atttritional',
+					'attritoinal',
+					'attritonal',
 				],
 				'attune'=>[
 					'atttune',
@@ -15641,10 +22348,12 @@
 				],
 				'attuned'=>[
 					'atttuned',
+					'attund',
 				],
 				'attunement'=>[
 					'atttunement',
 					'atunement',
+					'attunemant',
 				],
 				'attunes'=>[
 					'atttunes',
@@ -15664,17 +22373,62 @@
 					'atypicallly',
 					'atypicaly',
 				],
+				'aubade'=>[
+					'uabade',
+				],
+				'auberge'=>[
+					'uaberge',
+				],
 				'aubergine'=>[
 					'aubergini',
+					'uabergine',
+				],
+				'aubergines'=>[
+					'uabergines',
+				],
+				'auburn'=>[
+					'uaburn',
+				],
+				'auction'=>[
+					'auctoin',
+					'aucton',
+					'uaction',
+				],
+				'auctioned'=>[
+					'auctiond',
+					'auctoined',
+					'auctoned',
+					'uactioned',
 				],
 				'auctioneer'=>[
 					'auctioneeer',
+					'auctoineer',
+					'uactioneer',
 				],
 				'auctioneers'=>[
 					'auctioneeers',
+					'auctoineers',
+					'uactioneers',
+				],
+				'auctioning'=>[
+					'auctoining',
+					'auctoning',
+					'uactioning',
+				],
+				'auctions'=>[
+					'auctoins',
+					'auctons',
+					'uactions',
+				],
+				'auctorial'=>[
+					'auctorail',
+					'uactorial',
 				],
 				'audacious'=>[
 					'audacous',
+					'audaciuos',
+					'audacoius',
+					'uadacious',
 				],
 				'audaciously'=>[
 					'audaciousally',
@@ -15682,16 +22436,43 @@
 					'audaciousely',
 					'audaciouslly',
 					'audacously',
+					'audaciuosly',
+					'audacoiusly',
+					'uadaciously',
 				],
 				'audaciousness'=>[
 					'audaciousnes',
 					'audaciousnesss',
+					'audaciuosness',
+					'audacoiusness',
+					'audacousness',
+					'uadaciousness',
 				],
 				'audaciousnesses'=>[
 					'audaciousneses',
 				],
+				'audacity'=>[
+					'uadacity',
+				],
+				'audial'=>[
+					'audail',
+					'uadial',
+				],
+				'audibility'=>[
+					'audability',
+					'uadibility',
+				],
 				'audible'=>[
 					'audable',
+					'uadible',
+				],
+				'audibles'=>[
+					'audables',
+					'uadibles',
+				],
+				'audibly'=>[
+					'audably',
+					'uadibly',
 				],
 				'audience'=>[
 					'audeince',
@@ -15699,68 +22480,369 @@
 					'audince',
 					'andience',
 					'audieuce',
+					'uadience',
+				],
+				'audiences'=>[
+					'audeinces',
+					'audiances',
+					'uadiences',
+				],
+				'audient'=>[
+					'audeint',
+					'audiant',
+					'uadient',
+				],
+				'audile'=>[
+					'uadile',
+				],
+				'audiles'=>[
+					'uadiles',
+				],
+				'audio'=>[
+					'audoi',
+					'uadio',
 				],
 				'audiobook'=>[
 					'audiobok',
 					'audioboook',
+					'audibook',
+					'audioook',
+					'audoibook',
+					'uadiobook',
 				],
 				'audiobooks'=>[
 					'audioboks',
 					'audioboooks',
+					'audibooks',
+					'audioooks',
+					'audoibooks',
+					'uadiobooks',
 				],
 				'audiocassette'=>[
 					'audiocasette',
 					'audiocasssette',
 					'audiocassete',
 					'audiocassettte',
+					'audicassette',
+					'audioassette',
+					'audoicassette',
+					'uadiocassette',
 				],
 				'audiocassettes'=>[
 					'audiocasettes',
 					'audiocasssettes',
 					'audiocassetes',
 					'audiocassetttes',
+					'audoicassettes',
+					'uadiocassettes',
+				],
+				'audiogenic'=>[
+					'audoigenic',
+					'uadiogenic',
+				],
+				'audiological'=>[
+					'audilogical',
+					'audioogical',
+					'audoilogical',
+					'uadiological',
+				],
+				'audiologist'=>[
+					'audoilogist',
+					'uadiologist',
+				],
+				'audiologists'=>[
+					'audoilogists',
+					'uadiologists',
+				],
+				'audiology'=>[
+					'audoilogy',
+					'uadiology',
+				],
+				'audiometer'=>[
+					'audioeter',
+					'audoimeter',
+					'uadiometer',
+				],
+				'audiometers'=>[
+					'audioeters',
+					'audoimeters',
+					'uadiometers',
+				],
+				'audiometric'=>[
+					'audimetric',
+					'audioetric',
+					'audoimetric',
+					'uadiometric',
+				],
+				'audion'=>[
+					'audoin',
+					'audon',
+					'uadion',
+				],
+				'audiophile'=>[
+					'audoiphile',
+					'uadiophile',
+				],
+				'audiophiles'=>[
+					'audoiphiles',
+					'uadiophiles',
+				],
+				'audios'=>[
+					'audois',
+					'uadios',
+				],
+				'audiotape'=>[
+					'audioape',
+					'auditape',
+					'audoitape',
+					'uadiotape',
+				],
+				'audiotapes'=>[
+					'audioapes',
+					'auditapes',
+					'audoitapes',
+					'uadiotapes',
+				],
+				'audiovisual'=>[
+					'audioisual',
+					'audiovisaul',
+					'audivisual',
+					'audoivisual',
+					'uadiovisual',
+				],
+				'audiovisuals'=>[
+					'audioisuals',
+					'audiovisauls',
+					'audivisuals',
+					'audoivisuals',
+					'uadiovisuals',
+				],
+				'audiphone'=>[
+					'uadiphone',
 				],
 				'audit'=>[
 					'andit',
+					'uadit',
+				],
+				'audited'=>[
+					'uadited',
+				],
+				'auditing'=>[
+					'uaditing',
+				],
+				'audition'=>[
+					'auditoin',
+					'auditon',
+					'uadition',
+				],
+				'auditioned'=>[
+					'auditiond',
+					'auditoined',
+					'auditoned',
+					'uaditioned',
+				],
+				'auditioning'=>[
+					'auditoining',
+					'auditoning',
+					'uaditioning',
+				],
+				'auditions'=>[
+					'auditoins',
+					'auditons',
+					'uaditions',
+				],
+				'auditive'=>[
+					'uaditive',
+				],
+				'auditor'=>[
+					'uaditor',
+				],
+				'auditoria'=>[
+					'auditorai',
+					'uaditoria',
+				],
+				'auditorium'=>[
+					'auditoruim',
+					'uaditorium',
+				],
+				'auditoriums'=>[
+					'auditoruims',
+					'uaditoriums',
+				],
+				'auditors'=>[
+					'uaditors',
+				],
+				'auditory'=>[
+					'uaditory',
+				],
+				'audits'=>[
+					'uadits',
+				],
+				'augend'=>[
+					'uagend',
+				],
+				'augends'=>[
+					'uagends',
+				],
+				'auger'=>[
+					'uager',
+				],
+				'augers'=>[
+					'uagers',
+				],
+				'aught'=>[
+					'uaght',
+				],
+				'aughts'=>[
+					'uaghts',
+				],
+				'augite'=>[
+					'uagite',
+				],
+				'augites'=>[
+					'uagites',
 				],
 				'augment'=>[
 					'augmant',
+					'uagment',
 				],
 				'augmentation'=>[
 					'augmantation',
+					'augmentatoin',
+					'augmentaton',
+					'uagmentation',
+				],
+				'augmentations'=>[
+					'augmentatoins',
+					'augmentatons',
+					'uagmentations',
 				],
 				'augmentative'=>[
 					'augmantative',
+					'uagmentative',
 				],
 				'augmented'=>[
 					'augmanted',
+					'uagmented',
+				],
+				'augmenter'=>[
+					'uagmenter',
+				],
+				'augmenters'=>[
+					'uagmenters',
+				],
+				'augmenting'=>[
+					'uagmenting',
+				],
+				'augments'=>[
+					'augmants',
+					'uagments',
+				],
+				'augur'=>[
+					'uagur',
+				],
+				'augural'=>[
+					'uagural',
+				],
+				'augured'=>[
+					'augurd',
+					'uagured',
+				],
+				'auguries'=>[
+					'augureis',
+					'uaguries',
+				],
+				'auguring'=>[
+					'uaguring',
+				],
+				'augurs'=>[
+					'uagurs',
+				],
+				'augury'=>[
+					'uagury',
 				],
 				'august'=>[
 					'augost',
 					'auguat',
+					'uagust',
 				],
 				'august 1726'=>[
 					'augusts 1726',
+				],
+				'auguster'=>[
+					'uaguster',
+				],
+				'augustest'=>[
+					'uagustest',
 				],
 				'augustly'=>[
 					'augustally',
 					'augustaly',
 					'augustely',
 					'augustlly',
+					'uagustly',
 				],
 				'augustness'=>[
 					'augustnes',
 					'augustnesss',
+					'uagustness',
+				],
+				'augusts'=>[
+					'uagusts',
+				],
+				'auklet'=>[
+					'uaklet',
+				],
+				'auklets'=>[
+					'uaklets',
+				],
+				'aulic'=>[
+					'ualic',
+				],
+				'aulos'=>[
+					'ualos',
 				],
 				'auntie'=>[
 					'auntei',
 					'aunti',
+					'uantie',
+				],
+				'aunties'=>[
+					'aunteis',
+					'uanties',
+				],
+				'aunts'=>[
+					'uants',
+				],
+				'aunty'=>[
+					'uanty',
+				],
+				'aurae'=>[
+					'aurea',
+					'uarae',
+				],
+				'aural'=>[
+					'uaral',
 				],
 				'aurally'=>[
 					'aurallly',
+					'uarally',
+				],
+				'auramine'=>[
+					'auraine',
+					'aurmine',
+					'uaramine',
 				],
 				'aurar'=>[
 					'aurer',
+					'uarar',
+				],
+				'auras'=>[
+					'uaras',
+				],
+				'aureate'=>[
+					'auraete',
+					'uareate',
 				],
 				'aureately'=>[
 					'aureatly',
@@ -15768,34 +22850,229 @@
 				'aurei'=>[
 					'aurie',
 				],
+				'aurelia'=>[
+					'aurelai',
+					'uarelia',
+				],
+				'aurelian'=>[
+					'aurelain',
+					'uarelian',
+				],
+				'aureola'=>[
+					'auroela',
+					'uareola',
+				],
+				'aureolas'=>[
+					'auroelas',
+					'uareolas',
+				],
+				'aureole'=>[
+					'auroele',
+					'uareole',
+				],
+				'aureoles'=>[
+					'auroeles',
+					'uareoles',
+				],
+				'aureolin'=>[
+					'auroelin',
+					'uareolin',
+				],
+				'aureomycin'=>[
+					'auroemycin',
+					'uareomycin',
+				],
+				'aureus'=>[
+					'aurues',
+					'uareus',
+				],
+				'auric'=>[
+					'uaric',
+				],
+				'auricle'=>[
+					'uaricle',
+				],
+				'auricled'=>[
+					'uaricled',
+				],
+				'auricles'=>[
+					'uaricles',
+				],
+				'auricula'=>[
+					'uaricula',
+				],
 				'auricular'=>[
 					'auriculer',
+					'uaricular',
+				],
+				'auriculas'=>[
+					'uariculas',
+				],
+				'auriculate'=>[
+					'uariculate',
+				],
+				'auriferous'=>[
+					'auriferuos',
+					'uariferous',
+				],
+				'aurified'=>[
+					'aurifeid',
+					'uarified',
+				],
+				'aurifies'=>[
+					'aurifeis',
+					'uarifies',
+				],
+				'aurify'=>[
+					'uarify',
+				],
+				'aurifying'=>[
+					'uarifying',
+				],
+				'auriscope'=>[
+					'auricope',
+					'aurisope',
+					'uariscope',
+				],
+				'aurist'=>[
+					'uarist',
+				],
+				'aurochs'=>[
+					'uarochs',
+				],
+				'aurochses'=>[
+					'uarochses',
+				],
+				'aurora'=>[
+					'uarora',
+				],
+				'aurorae'=>[
+					'aurorea',
+					'uarorae',
+				],
+				'auroral'=>[
+					'uaroral',
+				],
+				'auroras'=>[
+					'uaroras',
+				],
+				'aurous'=>[
+					'auruos',
+					'uarous',
+				],
+				'aurum'=>[
+					'uarum',
+				],
+				'auscultate'=>[
+					'aucultate',
+					'ausultate',
+					'uascultate',
+				],
+				'auscultated'=>[
+					'aucultated',
+					'ausultated',
+					'uascultated',
+				],
+				'auscultates'=>[
+					'aucultates',
+					'ausultates',
+					'uascultates',
+				],
+				'auscultating'=>[
+					'aucultating',
+					'ausultating',
+					'uascultating',
 				],
 				'auscultation'=>[
 					'aucsultation',
 					'aucultation',
 					'ausultation',
+					'auscultatoin',
+					'auscultaton',
+					'uascultation',
 				],
 				'auscultations'=>[
 					'aucsultations',
 					'aucultations',
 					'ausultations',
+					'auscultatoins',
+					'auscultatons',
+					'uascultations',
+				],
+				'auspex'=>[
+					'uaspex',
+				],
+				'auspicate'=>[
+					'uaspicate',
+				],
+				'auspicated'=>[
+					'uaspicated',
+				],
+				'auspicates'=>[
+					'uaspicates',
+				],
+				'auspicating'=>[
+					'uaspicating',
+				],
+				'auspice'=>[
+					'uaspice',
+				],
+				'auspices'=>[
+					'uaspices',
 				],
 				'auspicious'=>[
 					'auspicous',
+					'auspiciuos',
+					'auspicoius',
+					'uaspicious',
 				],
 				'auspiciously'=>[
 					'auspicously',
+					'auspiciousely',
+					'auspiciuosly',
+					'auspicoiusly',
+					'uaspiciously',
 				],
 				'auspiciousness'=>[
 					'auspiciousnes',
 					'auspiciousnesss',
+					'auspiciuosness',
+					'auspicoiusness',
+					'auspicousness',
+					'uaspiciousness',
+				],
+				'austenite'=>[
+					'uastenite',
+				],
+				'austenites'=>[
+					'uastenites',
+				],
+				'auster'=>[
+					'uaster',
 				],
 				'austere'=>[
 					'auftere',
+					'uastere',
 				],
 				'austerely'=>[
 					'austerly',
+					'uasterely',
+				],
+				'austerer'=>[
+					'uasterer',
+				],
+				'austerest'=>[
+					'uasterest',
+				],
+				'austerities'=>[
+					'austeriteis',
+					'uasterities',
+				],
+				'austerity'=>[
+					'uasterity',
+				],
+				'austral'=>[
+					'uastral',
 				],
 				'australasia'=>[
 					'australiasia',
@@ -15821,46 +23098,111 @@
 				'australis'=>[
 					'austrealis',
 				],
+				'australopithecus'=>[
+					'uastralopithecus',
+				],
 				'austrian'=>[
 					'austran',
 				],
 				'austrian-occupied'=>[
 					'austrian occupied',
 				],
+				'autacoid'=>[
+					'autaciod',
+					'uatacoid',
+				],
+				'autacoids'=>[
+					'autaciods',
+					'uatacoids',
+				],
 				'autapomorphy'=>[
 					'autopomorphy',
+				],
+				'autarch'=>[
+					'uatarch',
+				],
+				'autarchic'=>[
+					'uatarchic',
+				],
+				'autarchies'=>[
+					'autarcheis',
+					'uatarchies',
+				],
+				'autarchy'=>[
+					'uatarchy',
+				],
+				'autarkic'=>[
+					'uatarkic',
+				],
+				'autarkies'=>[
+					'autarkeis',
+					'uatarkies',
+				],
+				'autarky'=>[
+					'uatarky',
 				],
 				'autecious'=>[
 					'autecous',
 				],
+				'autecology'=>[
+					'uatecology',
+				],
 				'auteur'=>[
 					'auter',
+					'autuer',
+					'uateur',
+				],
+				'auteurism'=>[
+					'autuerism',
+					'uateurism',
+				],
+				'auteurist'=>[
+					'autuerist',
+					'uateurist',
 				],
 				'authentic'=>[
 					'authantic',
 					'autlientic',
+					'uathentic',
 				],
 				'authentically'=>[
 					'authenticaly',
 					'authenticallly',
+					'uathentically',
 				],
 				'authenticate'=>[
 					'authanticate',
+					'uathenticate',
 				],
 				'authenticated'=>[
 					'autlienticated',
+					'uathenticated',
+				],
+				'authenticates'=>[
+					'uathenticates',
 				],
 				'authenticating'=>[
 					'authanticating',
+					'uathenticating',
 				],
 				'authentication'=>[
 					'authantication',
+					'authenticatoin',
+					'authenticaton',
+					'uathentication',
 				],
 				'authentications'=>[
 					'authantications',
+					'authenticatoins',
+					'authenticatons',
+					'uathentications',
+				],
+				'authenticator'=>[
+					'uathenticator',
 				],
 				'authenticators'=>[
 					'authanticators',
+					'uathenticators',
 				],
 				'authenticities'=>[
 					'authanticities',
@@ -15870,37 +23212,57 @@
 				'authenticity'=>[
 					'authanticity',
 					'autlienticity',
+					'uathenticity',
 				],
 				'author'=>[
 					'auther',
 					'autor',
 					'autbor',
 					'autlior',
+					'uathor',
 				],
 				'authored'=>[
 					'authered',
+					'authord',
+					'uathored',
 				],
 				'authoress'=>[
 					'authoresss',
+					'uathoress',
 				],
 				'authoresses'=>[
 					'authoreses',
 					'authoressses',
+					'uathoresses',
+				],
+				'authorial'=>[
+					'authorail',
+					'uathorial',
 				],
 				'authoring'=>[
 					'authering',
+					'uathoring',
 				],
 				'authoritarian'=>[
 					'authoritaran',
 					'authoritorian',
 					'autoritarian',
+					'authoritarain',
+					'uathoritarian',
 				],
 				'authoritarianism'=>[
 					'authroitarianism',
+					'authoritarainism',
+					'uathoritarianism',
+				],
+				'authoritarians'=>[
+					'authoritarains',
+					'uathoritarians',
 				],
 				'authoritative'=>[
 					'authorative',
 					'authoritive',
+					'uathoritative',
 				],
 				'authoritatively'=>[
 					'authoritativeally',
@@ -15908,15 +23270,19 @@
 					'authoritativeely',
 					'authoritativelly',
 					'authoritativly',
+					'uathoritatively',
 				],
 				'authoritativeness'=>[
 					'authoritativenes',
 					'authoritativenesss',
+					'uathoritativeness',
 				],
 				'authorities'=>[
 					'authorites',
 					'authonties',
 					'autliorities',
+					'authoriteis',
+					'uathorities',
 				],
 				'authority'=>[
 					'athority',
@@ -15933,27 +23299,50 @@
 					'autlionty',
 					'autliorily',
 					'autliority',
+					'uathority',
+				],
+				'authorization'=>[
+					'authorizatoin',
+					'authorizaton',
+					'uathorization',
+				],
+				'authorizations'=>[
+					'authorizatoins',
+					'authorizatons',
+					'uathorizations',
 				],
 				'authorize'=>[
 					'autliorize',
+					'uathorize',
 				],
 				'authorized'=>[
 					'authonzed',
 					'autliorized',
+					'uathorized',
 				],
 				'authorizes'=>[
 					'authonzes',
+					'uathorizes',
 				],
 				'authorizing'=>[
 					'authonzing',
+					'uathorizing',
 				],
 				'authors'=>[
 					'authers',
 					'autliors',
+					'uathors',
 				],
 				'authorship'=>[
 					'autliorship',
 					'autliorsliip',
+					'uathorship',
+				],
+				'autism'=>[
+					'uatism',
+				],
+				'autistic'=>[
+					'uatistic',
 				],
 				'autoantibodies'=>[
 					'autoantibodeis',
@@ -15964,49 +23353,134 @@
 				],
 				'autobahn'=>[
 					'autoban',
+					'uatobahn',
 				],
 				'autobahnen'=>[
 					'autobanen',
 				],
 				'autobahns'=>[
 					'autobans',
+					'uatobahns',
+				],
+				'autobiographer'=>[
+					'autoboigrapher',
+					'uatobiographer',
+				],
+				'autobiographers'=>[
+					'autoboigraphers',
+					'uatobiographers',
 				],
 				'autobiographic'=>[
 					'authobiographic',
+					'autoboigraphic',
+					'uatobiographic',
+				],
+				'autobiographical'=>[
+					'autoboigraphical',
+					'uatobiographical',
 				],
 				'autobiographically'=>[
 					'autobiographicallly',
 					'autobiographicaly',
+					'autoboigraphically',
+					'uatobiographically',
 				],
 				'autobiographies'=>[
 					'autobiographeis',
 					'autobiographis',
+					'autoboigraphies',
+					'uatobiographies',
 				],
 				'autobiography'=>[
 					'authobiography',
+					'autbiography',
+					'autoboigraphy',
+					'autoiography',
+					'uatobiography',
+				],
+				'autobus'=>[
+					'uatobus',
+				],
+				'autobuses'=>[
+					'autbuses',
+					'autouses',
+					'uatobuses',
+				],
+				'autobusses'=>[
+					'uatobusses',
+				],
+				'autocade'=>[
+					'uatocade',
+				],
+				'autocatalysis'=>[
+					'uatocatalysis',
+				],
+				'autocatalyzes'=>[
+					'uatocatalyzes',
+				],
+				'autocephalous'=>[
+					'autocephaluos',
+					'uatocephalous',
+				],
+				'autochthon'=>[
+					'uatochthon',
+				],
+				'autochthones'=>[
+					'uatochthones',
 				],
 				'autochthonous'=>[
 					'autochtonous',
 					'autoctonous',
 					'autocthonous',
 					'autothonous',
+					'autochthonuos',
+					'uatochthonous',
 				],
 				'autochtonous'=>[
 					'authochtonous',
 				],
+				'autoclave'=>[
+					'uatoclave',
+				],
+				'autoclaves'=>[
+					'uatoclaves',
+				],
 				'autocorrelation'=>[
 					'autocorelation',
 					'autocorrrelation',
+					'autcorrelation',
+					'autocorrelatoin',
+					'autocorrelaton',
+					'autoorrelation',
+					'uatocorrelation',
 				],
 				'autocorrelogram'=>[
 					'autocorrellogram',
 				],
+				'autocracies'=>[
+					'autocraceis',
+					'uatocracies',
+				],
 				'autocracy'=>[
 					'autocrasy',
+					'uatocracy',
+				],
+				'autocrat'=>[
+					'uatocrat',
+				],
+				'autocratic'=>[
+					'uatocratic',
+				],
+				'autocratical'=>[
+					'uatocratical',
 				],
 				'autocratically'=>[
 					'autocraticaly',
 					'autocraticallly',
+					'uatocratically',
+				],
+				'autocrats'=>[
+					'uatocrats',
 				],
 				'autocrinally'=>[
 					'autocrinely',
@@ -16014,6 +23488,13 @@
 				'autocross'=>[
 					'autocros',
 					'autocrosss',
+					'autcross',
+					'autoross',
+					'uatocross',
+				],
+				'autocue'=>[
+					'autoceu',
+					'uatocue',
 				],
 				'autodeubiquitinate'=>[
 					'autodeubiquinate',
@@ -16021,24 +23502,128 @@
 				'autodeubiquitination'=>[
 					'autodeubiquination',
 				],
+				'autodidact'=>[
+					'uatodidact',
+				],
+				'autodidactic'=>[
+					'uatodidactic',
+				],
+				'autodidacts'=>[
+					'uatodidacts',
+				],
 				'autoecious'=>[
 					'autoecous',
 				],
 				'autoeciously'=>[
 					'autoecously',
 				],
+				'autoerotic'=>[
+					'auteorotic',
+					'auterotic',
+					'autorotic',
+					'uatoerotic',
+				],
+				'autoeroticism'=>[
+					'auteoroticism',
+					'uatoeroticism',
+				],
+				'autoeroticisms'=>[
+					'auteoroticisms',
+					'uatoeroticisms',
+				],
+				'autoerotism'=>[
+					'auteorotism',
+					'uatoerotism',
+				],
+				'autoerotisms'=>[
+					'auteorotisms',
+					'uatoerotisms',
+				],
+				'autogamies'=>[
+					'autogameis',
+					'uatogamies',
+				],
+				'autogamy'=>[
+					'uatogamy',
+				],
+				'autogenesis'=>[
+					'autgenesis',
+					'autoenesis',
+					'uatogenesis',
+				],
 				'autogenous'=>[
 					'authogenous',
 					'autogeneous',
+					'autogenuos',
+					'uatogenous',
+				],
+				'autogiro'=>[
+					'uatogiro',
+				],
+				'autogiros'=>[
+					'uatogiros',
+				],
+				'autograft'=>[
+					'autgraft',
+					'autoraft',
+					'uatograft',
+				],
+				'autografts'=>[
+					'uatografts',
+				],
+				'autograph'=>[
+					'autgraph',
+					'autoraph',
+					'uatograph',
+				],
+				'autographed'=>[
+					'uatographed',
+				],
+				'autographic'=>[
+					'autgraphic',
+					'autoraphic',
+					'uatographic',
+				],
+				'autographical'=>[
+					'uatographical',
 				],
 				'autographically'=>[
 					'autographicaly',
 					'autographicallly',
+					'uatographically',
+				],
+				'autographing'=>[
+					'uatographing',
+				],
+				'autographs'=>[
+					'uatographs',
+				],
+				'autography'=>[
+					'uatography',
+				],
+				'autoharp'=>[
+					'autharp',
+					'autoarp',
+					'uatoharp',
+				],
+				'autohypnosis'=>[
+					'authypnosis',
+					'autoypnosis',
+					'uatohypnosis',
+				],
+				'autoicous'=>[
+					'autiocous',
+					'autoicuos',
+					'uatoicous',
 				],
 				'autoimmune'=>[
 					'autoimnune',
 					'autoimmmune',
 					'autoimune',
+					'autimmune',
+					'autiommune',
+					'autommune',
+					'uatoimmune',
 				],
 				'autoimmunities'=>[
 					'autoimmuniteis',
@@ -16049,17 +23634,136 @@
 					'autoimnunity',
 					'autoimmmunity',
 					'autoimunity',
+					'autimmunity',
+					'autiommunity',
+					'autommunity',
+					'uatoimmunity',
+				],
+				'autointoxication'=>[
+					'autintoxication',
+					'autiontoxication',
+					'autointoxicatoin',
+					'autointoxicaton',
+					'autontoxication',
+					'uatointoxication',
+				],
+				'autoionization'=>[
+					'autioonization',
+					'autoionizatoin',
+					'autoionizaton',
+					'autooinization',
+					'uatoionization',
+				],
+				'autolithography'=>[
+					'uatolithography',
+				],
+				'autolysin'=>[
+					'uatolysin',
+				],
+				'autolysis'=>[
+					'uatolysis',
+				],
+				'autolyzes'=>[
+					'uatolyzes',
+				],
+				'automaker'=>[
+					'autmaker',
+					'autoaker',
+					'uatomaker',
+				],
+				'automakers'=>[
+					'autmakers',
+					'autoakers',
+					'uatomakers',
+				],
+				'automat'=>[
+					'uatomat',
+				],
+				'automata'=>[
+					'uatomata',
+				],
+				'automate'=>[
+					'autmate',
+					'autoate',
+					'uatomate',
+				],
+				'automated'=>[
+					'uatomated',
+				],
+				'automates'=>[
+					'autmates',
+					'autoates',
+					'uatomates',
 				],
 				'automatic'=>[
 					'atomatic',
+					'uatomatic',
 				],
 				'automatically'=>[
 					'automaticallly',
 					'automaticaly',
+					'uatomatically',
 				],
 				'automaticities'=>[
 					'automaticiteis',
 					'automaticitis',
+				],
+				'automatics'=>[
+					'uatomatics',
+				],
+				'automating'=>[
+					'autmating',
+					'autoating',
+					'uatomating',
+				],
+				'automation'=>[
+					'automatoin',
+					'uatomation',
+				],
+				'automatism'=>[
+					'uatomatism',
+				],
+				'automatization'=>[
+					'automatizatoin',
+					'automatizaton',
+					'uatomatization',
+				],
+				'automatize'=>[
+					'uatomatize',
+				],
+				'automatized'=>[
+					'uatomatized',
+				],
+				'automatizes'=>[
+					'uatomatizes',
+				],
+				'automatizing'=>[
+					'uatomatizing',
+				],
+				'automaton'=>[
+					'uatomaton',
+				],
+				'automatons'=>[
+					'uatomatons',
+				],
+				'automats'=>[
+					'autmats',
+					'autoats',
+					'uatomats',
+				],
+				'automobile'=>[
+					'autmobile',
+					'autoobile',
+					'uatomobile',
+				],
+				'automobiled'=>[
+					'uatomobiled',
+				],
+				'automobiles'=>[
+					'uatomobiles',
+				],
+				'automobiling'=>[
+					'uatomobiling',
 				],
 				'automobilities'=>[
 					'automobiliteis',
@@ -16067,20 +23771,41 @@
 				],
 				'automorphism'=>[
 					'automourphism',
+					'uatomorphism',
 				],
 				'automorphisms'=>[
 					'automourphisms',
+					'uatomorphisms',
+				],
+				'automotive'=>[
+					'autmotive',
+					'autootive',
+					'uatomotive',
 				],
 				'autonomic'=>[
 					'automonic',
+					'uatonomic',
 				],
 				'autonomie'=>[
 					'antonomie',
 					'aptonomie',
 				],
+				'autonomist'=>[
+					'uatonomist',
+				],
 				'autonomous'=>[
 					'authonomous',
 					'automous',
+					'autonomuos',
+					'uatonomous',
+				],
+				'autonomously'=>[
+					'autonomousely',
+					'autonomuosly',
+					'uatonomously',
+				],
+				'autonomy'=>[
+					'uatonomy',
 				],
 				'autophagic'=>[
 					'authofagic',
@@ -16088,14 +23813,92 @@
 				'autophagosome'=>[
 					'autophagasome',
 				],
+				'autophyte'=>[
+					'uatophyte',
+				],
+				'autophytes'=>[
+					'uatophytes',
+				],
+				'autopilot'=>[
+					'autoilot',
+					'autpilot',
+					'uatopilot',
+				],
+				'autopilots'=>[
+					'autoilots',
+					'autpilots',
+					'uatopilots',
+				],
+				'autoplasties'=>[
+					'autoplasteis',
+					'uatoplasties',
+				],
+				'autoplasty'=>[
+					'uatoplasty',
+				],
+				'autopsied'=>[
+					'autopseid',
+					'uatopsied',
+				],
+				'autopsies'=>[
+					'autopseis',
+					'uatopsies',
+				],
+				'autopsist'=>[
+					'uatopsist',
+				],
 				'autopsy'=>[
 					'autopcy',
+					'uatopsy',
+				],
+				'autopsying'=>[
+					'uatopsying',
 				],
 				'autoradiograph'=>[
 					'audioradiograph',
+					'autoradoigraph',
+					'uatoradiograph',
+				],
+				'autoradiographs'=>[
+					'autoradoigraphs',
+					'uatoradiographs',
 				],
 				'autoradiography'=>[
 					'audioradiography',
+				],
+				'autorotation'=>[
+					'autootation',
+					'autorotatoin',
+					'autorotaton',
+					'autrotation',
+					'uatorotation',
+				],
+				'autoroute'=>[
+					'autooute',
+					'autoruote',
+					'autroute',
+					'uatoroute',
+				],
+				'autos'=>[
+					'uatos',
+				],
+				'autosome'=>[
+					'uatosome',
+				],
+				'autosomes'=>[
+					'uatosomes',
+				],
+				'autostability'=>[
+					'autostibility',
+					'autotability',
+					'autstability',
+					'uatostability',
+				],
+				'autostrada'=>[
+					'uatostrada',
+				],
+				'autostradas'=>[
+					'uatostradas',
 				],
 				'autosuggest'=>[
 					'autosugest',
@@ -16109,31 +23912,137 @@
 				'autosuggestion'=>[
 					'autosugestion',
 					'autosugggestion',
+					'autosuggestoin',
+					'autosuggeston',
+					'autouggestion',
+					'autsuggestion',
+					'uatosuggestion',
 				],
 				'autosuggestions'=>[
 					'autosugestions',
 					'autosugggestions',
+					'autosuggestoins',
+					'autosuggestons',
+					'autouggestions',
+					'autsuggestions',
+					'uatosuggestions',
 				],
 				'autosuggests'=>[
 					'autosugests',
 				],
+				'autotomies'=>[
+					'autotomeis',
+					'uatotomies',
+				],
+				'autotomize'=>[
+					'uatotomize',
+				],
+				'autotomized'=>[
+					'uatotomized',
+				],
+				'autotomizes'=>[
+					'uatotomizes',
+				],
+				'autotomizing'=>[
+					'uatotomizing',
+				],
+				'autotomy'=>[
+					'uatotomy',
+				],
+				'autotoxin'=>[
+					'autooxin',
+					'auttoxin',
+					'uatotoxin',
+				],
+				'autotransformer'=>[
+					'uatotransformer',
+				],
 				'autotransfusion'=>[
 					'autotransfuison',
+				],
+				'autotroph'=>[
+					'uatotroph',
+				],
+				'autotrophic'=>[
+					'uatotrophic',
 				],
 				'autotrophically'=>[
 					'autotrophicaly',
 				],
+				'autotrophs'=>[
+					'uatotrophs',
+				],
+				'autotruck'=>[
+					'autoruck',
+					'auttruck',
+					'uatotruck',
+				],
+				'autotype'=>[
+					'autoype',
+					'auttype',
+					'uatotype',
+				],
+				'autotypes'=>[
+					'autoypes',
+					'auttypes',
+					'uatotypes',
+				],
+				'autoworker'=>[
+					'autoorker',
+					'autworker',
+					'uatoworker',
+				],
+				'autoworkers'=>[
+					'autoorkers',
+					'autworkers',
+					'uatoworkers',
+				],
+				'autoxidation'=>[
+					'autoxidatoin',
+					'autoxidaton',
+					'uatoxidation',
+				],
+				'autumn'=>[
+					'uatumn',
+				],
+				'autumnal'=>[
+					'uatumnal',
+				],
+				'autumns'=>[
+					'uatumns',
+				],
+				'autunite'=>[
+					'uatunite',
+				],
+				'auxeses'=>[
+					'uaxeses',
+				],
+				'auxesis'=>[
+					'uaxesis',
+				],
 				'auxiliaries'=>[
 					'auxillaries',
 					'auxilliaries',
+					'auxilairies',
+					'auxiliareis',
+					'auxilieries',
+					'uaxiliaries',
 				],
 				'auxiliary'=>[
 					'auxiliery',
 					'auxillary',
 					'auxilliary',
+					'auxilairy',
+					'uaxiliary',
+				],
+				'auxin'=>[
+					'uaxin',
 				],
 				'auxinic'=>[
 					'auxinac',
+				],
+				'auxochrome'=>[
+					'uaxochrome',
 				],
 				'auxotrophic'=>[
 					'auxotropic',
@@ -16141,9 +24050,22 @@
 				'auxotrophy'=>[
 					'auxotropy',
 				],
+				'avail'=>[
+					'avial',
+				],
 				'availabilities'=>[
 					'availabiliteis',
 					'availabilitis',
+					'avaiabilities',
+					'availbilities',
+					'availibilities',
+					'avialabilities',
+				],
+				'availability'=>[
+					'avaiability',
+					'availbility',
+					'availibility',
+					'avialability',
 				],
 				'available'=>[
 					'availabe',
@@ -16153,9 +24075,19 @@
 					'avaliable',
 					'avalible',
 					'avaidable',
+					'avialable',
 				],
 				'availablenesses'=>[
 					'availableneses',
+				],
+				'availed'=>[
+					'avialed',
+				],
+				'availing'=>[
+					'avialing',
+				],
+				'avails'=>[
+					'avials',
 				],
 				'avalanche'=>[
 					'avalance',
@@ -16168,13 +24100,21 @@
 				],
 				'avaricious'=>[
 					'avaricous',
+					'avariciuos',
+					'avaricoius',
 				],
 				'avariciously'=>[
 					'avaricously',
+					'avariciousely',
+					'avariciuosly',
+					'avaricoiusly',
 				],
 				'avariciousness'=>[
 					'avariciousnes',
 					'avariciousnesss',
+					'avariciuosness',
+					'avaricoiusness',
+					'avaricousness',
 				],
 				'avariciousnesses'=>[
 					'avariciousneses',
@@ -16196,6 +24136,15 @@
 				'avatar'=>[
 					'avater',
 				],
+				'avaunt'=>[
+					'avuant',
+				],
+				'avenue'=>[
+					'aveneu',
+				],
+				'avenues'=>[
+					'aveneus',
+				],
 				'average'=>[
 					'avarage',
 					'averege',
@@ -16203,8 +24152,17 @@
 				'averaged'=>[
 					'averageed',
 				],
+				'averagely'=>[
+					'averagly',
+				],
 				'avermectin'=>[
 					'avemectin',
+				],
+				'averment'=>[
+					'avermant',
+				],
+				'averments'=>[
+					'avermants',
 				],
 				'averral'=>[
 					'averal',
@@ -16221,6 +24179,12 @@
 				],
 				'aversion'=>[
 					'averfion',
+					'aversoin',
+					'averson',
+				],
+				'aversions'=>[
+					'aversoins',
+					'aversons',
 				],
 				'aversively'=>[
 					'aversivly',
@@ -16230,12 +24194,51 @@
 				],
 				'avian'=>[
 					'avan',
+					'avain',
+				],
+				'aviaries'=>[
+					'avairies',
+					'aviareis',
+				],
+				'aviarist'=>[
+					'avairist',
 				],
 				'aviary'=>[
 					'aviery',
+					'avairy',
+				],
+				'aviate'=>[
+					'avaite',
+				],
+				'aviated'=>[
+					'avaited',
+				],
+				'aviates'=>[
+					'avaites',
+				],
+				'aviating'=>[
+					'avaiting',
 				],
 				'aviation'=>[
 					'avation',
+					'avaition',
+					'aviatoin',
+					'aviaton',
+				],
+				'aviator'=>[
+					'avaitor',
+				],
+				'aviators'=>[
+					'avaitors',
+				],
+				'aviatrices'=>[
+					'avaitrices',
+				],
+				'aviatrix'=>[
+					'avaitrix',
+				],
+				'aviatrixes'=>[
+					'avaitrixes',
 				],
 				'avicular'=>[
 					'aviculer',
@@ -16248,19 +24251,97 @@
 					'avidneses',
 					'avidnessses',
 				],
+				'avifauna'=>[
+					'avifuana',
+				],
+				'avifaunas'=>[
+					'avifuanas',
+				],
+				'avigation'=>[
+					'avigatoin',
+					'avigaton',
+				],
+				'avionic'=>[
+					'avoinic',
+				],
+				'avionics'=>[
+					'avoinics',
+				],
+				'avirulent'=>[
+					'avirulant',
+				],
 				'avocado'=>[
 					'avacado',
 				],
+				'avocadoes'=>[
+					'avocadeos',
+				],
+				'avocation'=>[
+					'avocatoin',
+					'avocaton',
+				],
+				'avocational'=>[
+					'avocatoinal',
+					'avocatonal',
+				],
 				'avocationally'=>[
 					'avocationaly',
+				],
+				'avocations'=>[
+					'avocatoins',
+					'avocatons',
 				],
 				'avoid'=>[
 					'aviod',
 					'avoicl',
 				],
+				'avoidable'=>[
+					'aviodable',
+					'avoidible',
+				],
+				'avoidably'=>[
+					'aviodably',
+					'avoidibly',
+				],
 				'avoidance'=>[
 					'aviodance',
 					'avoidence',
+				],
+				'avoided'=>[
+					'avioded',
+				],
+				'avoider'=>[
+					'avioder',
+				],
+				'avoiding'=>[
+					'avioding',
+				],
+				'avoids'=>[
+					'aviods',
+				],
+				'avoirdupois'=>[
+					'aviordupois',
+					'avoirdupios',
+				],
+				'avouch'=>[
+					'avuoch',
+				],
+				'avouched'=>[
+					'avuoched',
+				],
+				'avouches'=>[
+					'avuoches',
+				],
+				'avouching'=>[
+					'avuoching',
+				],
+				'avulsion'=>[
+					'avulsoin',
+					'avulson',
+				],
+				'avulsions'=>[
+					'avulsoins',
+					'avulsons',
 				],
 				'avuncular'=>[
 					'avunculer',
@@ -16274,6 +24355,20 @@
 					'avuncularaly',
 					'avuncularely',
 					'avuncularlly',
+					'avuncularily',
+					'avunculerly',
+				],
+				'await'=>[
+					'awiat',
+				],
+				'awaited'=>[
+					'awiated',
+				],
+				'awaiting'=>[
+					'awiating',
+				],
+				'awaits'=>[
+					'awiats',
 				],
 				'awakened'=>[
 					'awakend',
@@ -16305,6 +24400,9 @@
 				'aweary'=>[
 					'aweery',
 				],
+				'aweather'=>[
+					'awaether',
+				],
 				'aweigh'=>[
 					'awiegh',
 				],
@@ -16328,6 +24426,14 @@
 				],
 				'awesomest'=>[
 					'awsomest',
+				],
+				'awestricken'=>[
+					'awetricken',
+					'awstricken',
+				],
+				'awestruck'=>[
+					'awetruck',
+					'awstruck',
 				],
 				'awful'=>[
 					'awfiil',
@@ -16358,12 +24464,24 @@
 				'awoke'=>[
 					'awaked',
 				],
+				'axehead'=>[
+					'axeead',
+					'axehaed',
+				],
+				'axeheads'=>[
+					'axeeads',
+					'axehaeds',
+				],
 				'axenic'=>[
 					'anexic',
+				],
+				'axial'=>[
+					'axail',
 				],
 				'axially'=>[
 					'axiallly',
 					'axialy',
+					'axailly',
 				],
 				'axilla'=>[
 					'axila',
@@ -16372,6 +24490,7 @@
 				'axillae'=>[
 					'axilae',
 					'axilllae',
+					'axillea',
 				],
 				'axillar'=>[
 					'axiller',
@@ -16385,15 +24504,36 @@
 					'axilas',
 					'axilllas',
 				],
+				'axinomancy'=>[
+					'axinomency',
+				],
 				'axiologically'=>[
 					'axiologicaly',
 				],
+				'axiologies'=>[
+					'axiologeis',
+					'axoilogies',
+				],
+				'axiology'=>[
+					'axoilogy',
+				],
 				'axiom'=>[
 					'anxiom',
+					'axoim',
+				],
+				'axiomatic'=>[
+					'axoimatic',
 				],
 				'axiomatically'=>[
 					'axiomaticaly',
 					'axiomaticallly',
+					'axoimatically',
+				],
+				'axiomatizing'=>[
+					'axoimatizing',
+				],
+				'axioms'=>[
+					'axoims',
 				],
 				'axisymmetric'=>[
 					'axisymnetric',
@@ -16443,6 +24583,12 @@
 					'ayatolahs',
 					'ayatolllahs',
 				],
+				'azalea'=>[
+					'azalae',
+				],
+				'azaleas'=>[
+					'azalaes',
+				],
 				'azaperone'=>[
 					'azaparone',
 				],
@@ -16450,6 +24596,9 @@
 					'azathioprini',
 					'azathiopurine',
 					'azothioprine',
+				],
+				'azeotrope'=>[
+					'azoetrope',
 				],
 				'azerbaijan'=>[
 					'azerbajan',
@@ -16475,8 +24624,20 @@
 				'azocasein'=>[
 					'asocasein',
 				],
+				'azoic'=>[
+					'azioc',
+				],
+				'azotemia'=>[
+					'azotemai',
+				],
+				'azotemias'=>[
+					'azotemais',
+				],
 				'azoxystrobin'=>[
 					'azoxysyrobin',
+				],
+				'azygous'=>[
+					'azyguos',
 				],
 			];
 		}

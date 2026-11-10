@@ -75,11 +75,32 @@
 				'dabblings'=>[
 					'dablings',
 				],
+				'dabchick'=>[
+					'dabhick',
+					'dachick',
+				],
+				'dabchicks'=>[
+					'dabhicks',
+					'dachicks',
+				],
 				'dacarbazine'=>[
 					'decarbazine',
 				],
 				'dachshund'=>[
 					'daschund',
+				],
+				'dacoit'=>[
+					'daciot',
+				],
+				'dacoities'=>[
+					'dacioties',
+					'dacoiteis',
+				],
+				'dacoits'=>[
+					'daciots',
+				],
+				'dacoity'=>[
+					'dacioty',
 				],
 				'dacquoise'=>[
 					'dacqoise',
@@ -98,14 +119,42 @@
 					'dad dad',
 					'dad dad dad',
 				],
+				'dadaism'=>[
+					'dadiasm',
+				],
+				'dadaisms'=>[
+					'dadiasms',
+				],
+				'dadaist'=>[
+					'dadiast',
+				],
+				'dadaistic'=>[
+					'dadiastic',
+				],
+				'dadaists'=>[
+					'dadiasts',
+				],
 				'daddies'=>[
 					'dadddies',
+					'daddeis',
 				],
 				'daddy'=>[
 					'dadddy',
 				],
+				'dadoes'=>[
+					'dadeos',
+				],
 				'daedalian'=>[
 					'daedalan',
+				],
+				'daemon'=>[
+					'deamon',
+				],
+				'daemonic'=>[
+					'deamonic',
+				],
+				'daemons'=>[
+					'deamons',
 				],
 				'daff'=>[
 					'dafff',
@@ -113,10 +162,12 @@
 				'daffier'=>[
 					'dafffier',
 					'dafier',
+					'daffeir',
 				],
 				'daffiest'=>[
 					'dafffiest',
 					'dafiest',
+					'daffeist',
 				],
 				'daffily'=>[
 					'dafffily',
@@ -139,6 +190,9 @@
 				'daffy'=>[
 					'dafffy',
 				],
+				'daftly'=>[
+					'daftely',
+				],
 				'daftness'=>[
 					'daftnes',
 					'daftnesss',
@@ -153,6 +207,9 @@
 				'daggerboard'=>[
 					'dagerboard',
 					'dagggerboard',
+					'daggeboard',
+					'daggerbaord',
+					'daggeroard',
 				],
 				'daggering'=>[
 					'dagering',
@@ -160,18 +217,27 @@
 				'daggers'=>[
 					'dagggers',
 				],
+				'dagoes'=>[
+					'dageos',
+				],
 				'daguerreotype'=>[
 					'daguereotype',
 					'daguerrotype',
 					'daguerrreotype',
+					'dageurreotype',
+					'daguerroetype',
 				],
 				'daguerreotyped'=>[
 					'daguereotyped',
 					'daguerrreotyped',
+					'dageurreotyped',
+					'daguerroetyped',
 				],
 				'daguerreotypes'=>[
 					'daguereotypes',
 					'daguerrreotypes',
+					'dageurreotypes',
+					'daguerroetypes',
 				],
 				'daguerreotypies'=>[
 					'daguereotypies',
@@ -181,6 +247,8 @@
 				'daguerreotyping'=>[
 					'daguereotyping',
 					'daguerrreotyping',
+					'dageurreotyping',
+					'daguerroetyping',
 				],
 				'daguerreotypist'=>[
 					'daguereotypist',
@@ -195,6 +263,7 @@
 				],
 				'dahabeah'=>[
 					'dahabea',
+					'dahabaeh',
 				],
 				'dahabeahs'=>[
 					'dahabeas',
@@ -222,9 +291,11 @@
 				],
 				'dahlia'=>[
 					'dalia',
+					'dahlai',
 				],
 				'dahlias'=>[
 					'dalias',
+					'dahlais',
 				],
 				'dahls'=>[
 					'dals',
@@ -241,28 +312,117 @@
 				'daidzein'=>[
 					'daidzien',
 				],
+				'daikon'=>[
+					'diakon',
+				],
+				'daikons'=>[
+					'diakons',
+				],
 				'dailect'=>[
 					'dialekt',
+				],
+				'dailies'=>[
+					'daileis',
+					'dialies',
 				],
 				'dailiness'=>[
 					'dailines',
 					'dailinesss',
+					'dialiness',
 				],
 				'daily'=>[
 					'daially',
 					'daialy',
 					'dailly',
 					'claily',
+					'dialy',
+				],
+				'daimio'=>[
+					'daimoi',
+					'diamio',
+				],
+				'daimon'=>[
+					'diamon',
+				],
+				'daimons'=>[
+					'diamons',
+				],
+				'daimyo'=>[
+					'diamyo',
+				],
+				'daintier'=>[
+					'dainteir',
+					'diantier',
+				],
+				'dainties'=>[
+					'dainteis',
+					'dianties',
+				],
+				'daintiest'=>[
+					'dainteist',
+					'diantiest',
+				],
+				'daintily'=>[
+					'diantily',
 				],
 				'daintiness'=>[
 					'daintines',
 					'daintinesss',
+					'diantiness',
+				],
+				'dainty'=>[
+					'dianty',
 				],
 				'daiquiri'=>[
 					'daquiri',
+					'daiqiuri',
+					'diaquiri',
+				],
+				'daiquiris'=>[
+					'daiqiuris',
+					'diaquiris',
+				],
+				'dairies'=>[
+					'daireis',
+				],
+				'dairymaid'=>[
+					'dairmaid',
+					'dairyaid',
+					'dairymiad',
+					'diarymaid',
+				],
+				'dairymaids'=>[
+					'dairmaids',
+					'dairyaids',
+					'dairymiads',
+					'diarymaids',
+				],
+				'dairyman'=>[
+					'diaryman',
+				],
+				'dairymen'=>[
+					'diarymen',
+				],
+				'dairywoman'=>[
+					'dairwoman',
+					'dairyoman',
+					'diarywoman',
+				],
+				'dairywomen'=>[
+					'dairwomen',
+					'dairyomen',
+					'diarywomen',
+				],
+				'daishiki'=>[
+					'diashiki',
+				],
+				'daisies'=>[
+					'daiseis',
+					'diasies',
 				],
 				'daisy'=>[
 					'daicy',
+					'diasy',
 				],
 				'dalles'=>[
 					'dales',
@@ -270,22 +430,29 @@
 				'dalliance'=>[
 					'dallience',
 					'dallliance',
+					'dallaince',
 				],
 				'dalliances'=>[
 					'dallliances',
+					'dallainces',
+					'dalliences',
 				],
 				'dallied'=>[
 					'dalllied',
+					'dalleid',
 				],
 				'dallier'=>[
 					'dalllier',
+					'dalleir',
 				],
 				'dalliers'=>[
 					'daliers',
 					'dallliers',
+					'dalleirs',
 				],
 				'dallies'=>[
 					'dalllies',
+					'dalleis',
 				],
 				'dally'=>[
 					'dalally',
@@ -299,6 +466,10 @@
 				'dalmatian'=>[
 					'dalmatan',
 					'dalmation',
+					'dalmatain',
+				],
+				'dalmatians'=>[
+					'dalmatains',
 				],
 				'daltonian'=>[
 					'daltonan',
@@ -314,8 +485,18 @@
 				'damageability'=>[
 					'damagebility',
 				],
+				'damageable'=>[
+					'damagaeble',
+					'damageible',
+				],
+				'damaged'=>[
+					'daaged',
+					'damged',
+				],
 				'damaging'=>[
 					'damageing',
+					'daaging',
+					'damging',
 				],
 				'damar'=>[
 					'damer',
@@ -327,9 +508,35 @@
 				],
 				'damascened'=>[
 					'damascend',
+					'damacened',
+					'damasened',
+				],
+				'damascenes'=>[
+					'damacenes',
+					'damasenes',
+				],
+				'damascening'=>[
+					'damacening',
+					'damasening',
+				],
+				'damascus'=>[
+					'damacus',
+					'damasus',
+				],
+				'damasked'=>[
+					'daasked',
+					'damsked',
 				],
 				'damaskeened'=>[
 					'damaskeend',
+				],
+				'damasking'=>[
+					'daasking',
+					'damsking',
+				],
+				'damasks'=>[
+					'daasks',
+					'damsks',
 				],
 				'dammar'=>[
 					'dammer',
@@ -357,8 +564,15 @@
 				'damnable'=>[
 					'damnible',
 				],
+				'damnably'=>[
+					'damnibly',
+				],
 				'damnation'=>[
 					'danination',
+					'damation',
+					'damnatoin',
+					'damnaton',
+					'danation',
 				],
 				'damoiselle'=>[
 					'damoisele',
@@ -371,6 +585,17 @@
 				'dampened'=>[
 					'dampend',
 				],
+				'dampens'=>[
+					'damens',
+					'dapens',
+				],
+				'dampest'=>[
+					'damest',
+					'dapest',
+				],
+				'damping'=>[
+					'daping',
+				],
 				'dampness'=>[
 					'dampnesss',
 				],
@@ -380,11 +605,28 @@
 					'dampprooof',
 					'damproof',
 				],
+				'damselfish'=>[
+					'damelfish',
+					'damsefish',
+					'damselish',
+					'daselfish',
+				],
+				'damselflies'=>[
+					'damseflies',
+					'damselfleis',
+					'damsellies',
+				],
 				'damselfly'=>[
 					'damselfally',
 					'damselfaly',
 					'damselfely',
 					'damselflly',
+				],
+				'damsons'=>[
+					'dasons',
+				],
+				'danaides'=>[
+					'daniades',
 				],
 				'dance'=>[
 					'dance dance',
@@ -394,6 +636,7 @@
 				'danceable'=>[
 					'danceible',
 					'dancable',
+					'dancaeble',
 				],
 				'danceathon'=>[
 					'dancathon',
@@ -404,6 +647,29 @@
 				],
 				'dancing'=>[
 					'danceing',
+				],
+				'dandelion'=>[
+					'dandeloin',
+					'dandelon',
+				],
+				'dandelions'=>[
+					'dandeloins',
+					'dandelons',
+				],
+				'dandier'=>[
+					'dandeir',
+				],
+				'dandies'=>[
+					'dandeis',
+				],
+				'dandiest'=>[
+					'dandeist',
+				],
+				'dandified'=>[
+					'dandifeid',
+				],
+				'dandifies'=>[
+					'dandifeis',
 				],
 				'dandruff'=>[
 					'dandruf',
@@ -421,14 +687,29 @@
 				'dangerous'=>[
 					'dangerious',
 					'dangerons',
+					'dangeruos',
+				],
+				'dangerously'=>[
+					'dangerousely',
+					'dangeruosly',
 				],
 				'dangerousness'=>[
 					'dangerousnes',
 					'dangerousnesss',
+					'dangeruosness',
 				],
 				'dangerousnesses'=>[
 					'dangerousneses',
 					'dangerousnessses',
+				],
+				'daniel'=>[
+					'daneil',
+				],
+				'daniels'=>[
+					'daneils',
+				],
+				'danio'=>[
+					'danoi',
 				],
 				'danish-occupied'=>[
 					'danish occupied',
@@ -439,6 +720,16 @@
 				],
 				'danseur'=>[
 					'danser',
+					'dansuer',
+				],
+				'danseurs'=>[
+					'dansuers',
+				],
+				'danseuse'=>[
+					'dansuese',
+				],
+				'danseuses'=>[
+					'dansueses',
 				],
 				'dapped'=>[
 					'daped',
@@ -489,16 +780,35 @@
 				'darbar'=>[
 					'darber',
 				],
+				'darbies'=>[
+					'darbeis',
+				],
 				'dardanelles'=>[
 					'dardenelles',
+				],
+				'daredevil'=>[
+					'dardevil',
+					'daredvil',
+					'dareevil',
 				],
 				'daredevilries'=>[
 					'daredevilreis',
 					'daredevilris',
 				],
+				'daredevils'=>[
+					'dardevils',
+					'daredvils',
+					'dareevils',
+				],
+				'daredeviltries'=>[
+					'daredeviltreis',
+				],
 				'daringness'=>[
 					'daringnes',
 					'daringnesss',
+				],
+				'dariole'=>[
+					'daroile',
 				],
 				'dark'=>[
 					'dark dark',
@@ -506,6 +816,12 @@
 				],
 				'darkened'=>[
 					'darkend',
+				],
+				'darkie'=>[
+					'darkei',
+				],
+				'darkies'=>[
+					'darkeis',
 				],
 				'darkness'=>[
 					'dark ness',
@@ -516,10 +832,40 @@
 				'darkroom'=>[
 					'darkrom',
 					'darkrooom',
+					'darkoom',
+					'darroom',
 				],
 				'darkrooms'=>[
 					'darkroms',
 					'darkroooms',
+					'darkooms',
+					'darrooms',
+				],
+				'darned'=>[
+					'darnd',
+				],
+				'dartboard'=>[
+					'darboard',
+					'dartbaord',
+					'dartoard',
+				],
+				'dartboards'=>[
+					'darboards',
+					'dartbaords',
+					'dartoards',
+				],
+				'darwinian'=>[
+					'darwinain',
+				],
+				'dashboard'=>[
+					'dasboard',
+					'dashbaord',
+					'dashoard',
+				],
+				'dashboards'=>[
+					'dasboards',
+					'dashbaords',
+					'dashoards',
 				],
 				'dashed'=>[
 					'dafhed',
@@ -557,6 +903,22 @@
 					'datas',
 					'clata',
 				],
+				'databank'=>[
+					'dataank',
+					'datbank',
+				],
+				'databanks'=>[
+					'dataanks',
+					'datbanks',
+				],
+				'database'=>[
+					'dataase',
+					'datbase',
+				],
+				'databases'=>[
+					'dataases',
+					'datbases',
+				],
 				'datable'=>[
 					'datible',
 				],
@@ -566,13 +928,21 @@
 				'date'=>[
 					'clate',
 				],
+				'dateable'=>[
+					'dataeble',
+					'dateible',
+				],
 				'datebook'=>[
 					'datebok',
 					'dateboook',
+					'datbook',
+					'dateook',
 				],
 				'datebooks'=>[
 					'dateboks',
 					'dateboooks',
+					'datbooks',
+					'dateooks',
 				],
 				'datedness'=>[
 					'datednes',
@@ -584,12 +954,36 @@
 				],
 				'dateline'=>[
 					'datelini',
+					'dateine',
+					'datline',
 				],
 				'datively'=>[
 					'dativly',
 				],
 				'daub'=>[
 					'doub',
+				],
+				'daube'=>[
+					'duabe',
+				],
+				'daubed'=>[
+					'duabed',
+				],
+				'dauber'=>[
+					'duaber',
+				],
+				'daubers'=>[
+					'duabers',
+				],
+				'daubery'=>[
+					'daubary',
+					'duabery',
+				],
+				'daubing'=>[
+					'duabing',
+				],
+				'daubs'=>[
+					'duabs',
 				],
 				'daughter'=>[
 					'daugher',
@@ -602,9 +996,13 @@
 					'dauglitcr',
 					'daugliter',
 				],
+				'daughterly'=>[
+					'duaghterly',
+				],
 				'daughters'=>[
 					'danghters',
 					'daugliters',
+					'duaghters',
 				],
 				'daunorubicin'=>[
 					'daunourubicin',
@@ -612,9 +1010,22 @@
 				'daunorubicins'=>[
 					'daunourubicins',
 				],
+				'daunt'=>[
+					'duant',
+				],
+				'daunted'=>[
+					'duanted',
+				],
+				'daunting'=>[
+					'duanting',
+				],
+				'dauntingly'=>[
+					'duantingly',
+				],
 				'dauntless'=>[
 					'dauntles',
 					'dauntlesss',
+					'duantless',
 				],
 				'dauntlessly'=>[
 					'dauntlessally',
@@ -623,21 +1034,39 @@
 					'dauntlesslly',
 					'dauntlesly',
 					'dauntlesssly',
+					'duantlessly',
 				],
 				'dauntlessness'=>[
 					'dauntlesness',
 					'dauntlessnes',
 					'dauntlessnesss',
 					'dauntlesssness',
+					'duantlessness',
 				],
 				'dauntlessnesses'=>[
 					'dauntlessneses',
 				],
+				'daunts'=>[
+					'duants',
+				],
+				'dauphin'=>[
+					'duaphin',
+				],
 				'dauphine'=>[
 					'dauphini',
+					'duaphine',
+				],
+				'dauphins'=>[
+					'duaphins',
 				],
 				'davened'=>[
 					'davend',
+				],
+				'davies'=>[
+					'daveis',
+				],
+				'dawned'=>[
+					'dawnd',
 				],
 				'dawson'=>[
 					'dawsom',
@@ -647,22 +1076,77 @@
 					'day day day',
 					'dky',
 				],
+				'daybeds'=>[
+					'dabeds',
+				],
 				'daybook'=>[
 					'daybok',
 					'dayboook',
+					'dabook',
+					'dayook',
 				],
 				'daybooks'=>[
 					'dayboks',
 					'dayboooks',
+					'dabooks',
+					'dayooks',
+				],
+				'daybreak'=>[
+					'dabreak',
+					'daybraek',
+					'dayreak',
+				],
+				'daycare'=>[
+					'dacare',
+					'dayare',
 				],
 				'daydream'=>[
 					'day-dream',
+					'dadream',
+					'daydraem',
+					'dayream',
+				],
+				'daydreamed'=>[
+					'dadreamed',
+					'daydraemed',
+					'dayreamed',
 				],
 				'daydreamer'=>[
 					'day-dreamer',
+					'dadreamer',
+					'daydraemer',
+					'dayreamer',
+				],
+				'daydreamers'=>[
+					'dadreamers',
+					'daydraemers',
+					'dayreamers',
 				],
 				'daydreaming'=>[
 					'day-dreaming',
+					'dadreaming',
+					'daydraeming',
+					'dayreaming',
+				],
+				'daydreams'=>[
+					'dadreams',
+					'daydraems',
+					'dayreams',
+				],
+				'daydreamt'=>[
+					'daydraemt',
+				],
+				'dayflies'=>[
+					'daflies',
+					'dayfleis',
+				],
+				'dayflower'=>[
+					'daflower',
+					'daylower',
+				],
+				'dayflowers'=>[
+					'daflowers',
+					'daylowers',
 				],
 				'dayfly'=>[
 					'dayfally',
@@ -672,6 +1156,16 @@
 				],
 				'daylight'=>[
 					'dayliglit',
+					'dalight',
+					'dayight',
+				],
+				'daylights'=>[
+					'dalights',
+					'dayights',
+				],
+				'daylong'=>[
+					'dalong',
+					'dayong',
 				],
 				'days'=>[
 					'dayes',
@@ -680,8 +1174,21 @@
 				'days later'=>[
 					'days alter',
 				],
+				'dayspring'=>[
+					'daspring',
+					'daypring',
+				],
+				'daysprings'=>[
+					'dasprings',
+					'dayprings',
+				],
 				'daystar'=>[
 					'dayster',
+					'daytar',
+				],
+				'daytime'=>[
+					'datime',
+					'dayime',
 				],
 				'dazedly'=>[
 					'dazedally',
@@ -744,19 +1251,49 @@
 				],
 				'deacon'=>[
 					'decon',
+					'daecon',
+				],
+				'deaconate'=>[
+					'daeconate',
 				],
 				'deaconess'=>[
 					'deacones',
 					'deconess',
 					'deaconesss',
+					'daeconess',
 				],
 				'deaconesses'=>[
 					'deaconeses',
 					'deaconessses',
+					'daeconesses',
+				],
+				'deaconry'=>[
+					'daeconry',
+				],
+				'deacons'=>[
+					'daecons',
+				],
+				'deaconship'=>[
+					'daeconship',
 				],
 				'deactivate'=>[
 					'deactive',
 					'dectivate',
+					'daectivate',
+				],
+				'deactivated'=>[
+					'daectivated',
+				],
+				'deactivates'=>[
+					'daectivates',
+				],
+				'deactivating'=>[
+					'daectivating',
+				],
+				'deactivation'=>[
+					'daectivation',
+					'deactivatoin',
+					'deactivaton',
 				],
 				'deactivations'=>[
 					'dectivations',
@@ -767,28 +1304,142 @@
 					'ded',
 					'deacl',
 				],
+				'deadbeat'=>[
+					'daedbeat',
+					'deabeat',
+					'deadbaet',
+					'deadeat',
+				],
+				'deadbeats'=>[
+					'daedbeats',
+					'deabeats',
+					'deadbaets',
+					'deadeats',
+				],
+				'deadbolt'=>[
+					'daedbolt',
+					'deabolt',
+					'deadolt',
+				],
+				'deadbolts'=>[
+					'daedbolts',
+					'deabolts',
+					'deadolts',
+				],
+				'deaden'=>[
+					'daeden',
+				],
 				'deadened'=>[
 					'deadend',
+					'daedened',
 				],
 				'deadening'=>[
 					'dedening',
+					'daedening',
+				],
+				'deadenings'=>[
+					'daedenings',
+				],
+				'deadens'=>[
+					'daedens',
 				],
 				'deadenylation'=>[
 					'deadenylylation',
 				],
+				'deader'=>[
+					'daeder',
+				],
+				'deadest'=>[
+					'daedest',
+				],
+				'deadeye'=>[
+					'daedeye',
+				],
 				'deadfall'=>[
 					'deadfal',
 					'deadfalll',
+					'daedfall',
+					'deadall',
+					'deafall',
+				],
+				'deadhead'=>[
+					'daedhead',
+					'deadead',
+					'deadhaed',
+					'deahead',
+				],
+				'deadheaded'=>[
+					'daedheaded',
+					'deadeaded',
+					'deadhaeded',
+					'deaheaded',
+				],
+				'deadheading'=>[
+					'daedheading',
+					'deadeading',
+					'deadhaeding',
+					'deaheading',
+				],
+				'deadheads'=>[
+					'daedheads',
+					'deadeads',
+					'deadhaeds',
+					'deaheads',
+				],
+				'deadlier'=>[
+					'daedlier',
+					'deadleir',
+				],
+				'deadliest'=>[
+					'daedliest',
+					'deadleist',
+				],
+				'deadlight'=>[
+					'daedlight',
+					'deadight',
+					'dealight',
+				],
+				'deadlights'=>[
+					'daedlights',
+					'deadights',
+					'dealights',
 				],
 				'deadline'=>[
 					'deadlini',
 					'dedline',
+					'daedline',
+					'deadine',
+					'dealine',
+				],
+				'deadlines'=>[
+					'daedlines',
+					'deadines',
+					'dealines',
 				],
 				'deadliness'=>[
 					'deadlinesss',
+					'daedliness',
 				],
 				'deadlock'=>[
 					'dedlock',
+					'daedlock',
+					'deadock',
+					'dealock',
+				],
+				'deadlocked'=>[
+					'daedlocked',
+					'deadocked',
+					'dealocked',
+				],
+				'deadlocking'=>[
+					'daedlocking',
+					'deadocking',
+					'dealocking',
+				],
+				'deadlocks'=>[
+					'daedlocks',
+					'deadocks',
+					'dealocks',
 				],
 				'deadly'=>[
 					'deadally',
@@ -796,17 +1447,24 @@
 					'deadely',
 					'deadlly',
 					'dedly',
+					'daedly',
 				],
 				'deadness'=>[
 					'deadnes',
 					'deadnesss',
+					'daedness',
 				],
 				'deadnesses'=>[
 					'deadneses',
 					'deadnessses',
+					'daednesses',
+				],
+				'deadpan'=>[
+					'daedpan',
 				],
 				'deadpanned'=>[
 					'deadpannned',
+					'daedpanned',
 				],
 				'deadpanners'=>[
 					'deadpaners',
@@ -814,32 +1472,68 @@
 				'deadpanning'=>[
 					'deadpaning',
 					'deadpannning',
+					'daedpanning',
+				],
+				'deadpans'=>[
+					'daedpans',
+					'deadans',
+					'deapans',
 				],
 				'deadweight'=>[
 					'deadwieght',
+					'daedweight',
+					'deadeight',
+					'deaweight',
 				],
 				'deadweights'=>[
 					'deadwieghts',
+					'daedweights',
+					'deadeights',
+					'deaweights',
 				],
 				'deadwood'=>[
 					'deadwod',
 					'deadwoood',
+					'daedwood',
+					'deadood',
+					'deawood',
 				],
 				'deaf'=>[
 					'def',
 				],
+				'deafen'=>[
+					'daefen',
+				],
 				'deafened'=>[
 					'deafend',
+					'daefened',
 				],
 				'deafening'=>[
 					'defening',
+					'daefening',
+				],
+				'deafeningly'=>[
+					'daefeningly',
+				],
+				'deafens'=>[
+					'daefens',
+				],
+				'deafer'=>[
+					'daefer',
+				],
+				'deafest'=>[
+					'daefest',
 				],
 				'deafferentation'=>[
 					'deafferenation',
 				],
+				'deafly'=>[
+					'daefly',
+				],
 				'deafness'=>[
 					'deafnes',
 					'deafnesss',
+					'daefness',
 				],
 				'deal'=>[
 					'dael',
@@ -848,20 +1542,45 @@
 					'deael',
 					'cleal',
 				],
+				'dealate'=>[
+					'daelate',
+				],
 				'dealer'=>[
 					'deler',
+					'daeler',
+				],
+				'dealers'=>[
+					'daelers',
 				],
 				'dealership'=>[
 					'delership',
+					'daelership',
+				],
+				'dealerships'=>[
+					'daelerships',
+					'dealerhips',
+					'dealersips',
+				],
+				'dealfish'=>[
+					'daelfish',
+					'dealish',
 				],
 				'dealing'=>[
 					'deling',
 					'clealing',
 					'deahng',
+					'daeling',
+				],
+				'dealings'=>[
+					'daelings',
+				],
+				'deals'=>[
+					'daels',
 				],
 				'dealt'=>[
 					'dealed',
 					'delt',
+					'daelt',
 				],
 				'deaminase'=>[
 					# deaminise: an accepted spelling, not a slip (AmericanBritishWords_D: deaminate)
@@ -870,6 +1589,7 @@
 				],
 				'deaminate'=>[
 					'deaminite',
+					'daeminate',
 				],
 				'deaminize'=>[
 					'deaminaze',
@@ -880,30 +1600,75 @@
 				'dean'=>[
 					'deaen',
 				],
+				'deaneries'=>[
+					'daeneries',
+					'deanaries',
+					'deanereis',
+				],
+				'deanery'=>[
+					'daenery',
+					'deanary',
+				],
+				'deans'=>[
+					'daens',
+				],
+				'deanship'=>[
+					'daenship',
+				],
 				'dear'=>[
 					'dear dear',
 					'dear dear dear',
 					'deer',
 					'daer',
 				],
+				'dearborn'=>[
+					'daerborn',
+					'deaborn',
+					'dearorn',
+				],
+				'dearer'=>[
+					'daerer',
+				],
+				'dearest'=>[
+					'daerest',
+				],
+				'dearests'=>[
+					'daerests',
+				],
 				'dearie'=>[
 					'dearei',
 					'deari',
+					'daerie',
+				],
+				'dearies'=>[
+					'daeries',
+					'deareis',
 				],
 				'dearly'=>[
 					'deariy',
+					'daerly',
+					'dearily',
 				],
 				'dearness'=>[
 					'dearnes',
 					'dearnesss',
 					'deamess',
+					'daerness',
+				],
+				'dears'=>[
+					'daers',
 				],
 				'dearth'=>[
 					'derth',
 					'dirth',
+					'daerth',
+				],
+				'dearths'=>[
+					'daerths',
 				],
 				'deary'=>[
 					'deery',
+					'daery',
 				],
 				'death'=>[
 					'death death',
@@ -913,13 +1678,39 @@
 					'dealh',
 					'deatb',
 					'deatli',
+					'daeth',
 				],
 				'death threat'=>[
 					'deathreat',
 				],
+				'deathbed'=>[
+					'daethbed',
+				],
+				'deathbeds'=>[
+					'daethbeds',
+					'deatbeds',
+					'deatheds',
+				],
+				'deathblow'=>[
+					'daethblow',
+					'deatblow',
+					'deathlow',
+				],
+				'deathblows'=>[
+					'daethblows',
+					'deatblows',
+					'deathlows',
+				],
+				'deathday'=>[
+					'daethday',
+				],
+				'deathful'=>[
+					'daethful',
+				],
 				'deathless'=>[
 					'deathles',
 					'deathlesss',
+					'daethless',
 				],
 				'deathlessly'=>[
 					'deathlessally',
@@ -928,6 +1719,7 @@
 					'deathlesslly',
 					'deathlesly',
 					'deathlesssly',
+					'daethlessly',
 				],
 				'deathlessness'=>[
 					'dethlessness',
@@ -935,22 +1727,46 @@
 					'deathlessnes',
 					'deathlessnesss',
 					'deathlesssness',
+					'daethlessness',
 				],
 				'deathlessnesses'=>[
 					'deathlessneses',
 					'dethlessnesses',
+				],
+				'deathlike'=>[
+					'daethlike',
 				],
 				'deathly'=>[
 					'deathally',
 					'deathaly',
 					'deathely',
 					'deathlly',
+					'daethly',
 				],
 				'deaths'=>[
 					'deatlis',
+					'daeths',
+				],
+				'deathtrap'=>[
+					'daethtrap',
+					'deathrap',
+					'deattrap',
+				],
+				'deathtraps'=>[
+					'daethtraps',
+					'deathraps',
+					'deattraps',
+				],
+				'deathwatch'=>[
+					'daethwatch',
+					'deathatch',
+					'deatwatch',
 				],
 				'deathwatches'=>[
 					'dethwatches',
+					'daethwatches',
+					'deathatches',
+					'deatwatches',
 				],
 				'debagging'=>[
 					'debaging',
@@ -958,27 +1774,66 @@
 				'debar'=>[
 					'deber',
 				],
+				'debarkation'=>[
+					'debarkatoin',
+					'debarkaton',
+				],
+				'debarment'=>[
+					'debarmant',
+				],
 				'debarred'=>[
 					'debarrred',
 				],
 				'debarring'=>[
 					'debarrring',
 				],
+				'debasement'=>[
+					'debasemant',
+				],
+				'debasements'=>[
+					'debasemants',
+				],
 				'debatable'=>[
 					# debateable: an accepted spelling, not a slip (AmericanBritishWords_D: debatable)
 				#	'debateable',
 					'debatible',
 				],
+				'debauch'=>[
+					'debuach',
+				],
+				'debauched'=>[
+					'debuached',
+				],
 				'debauchee'=>[
 					'debauche',
 					'debaucheee',
+					'debuachee',
 				],
 				'debauchees'=>[
 					'debaucheees',
+					'debuachees',
+				],
+				'debaucher'=>[
+					'debuacher',
 				],
 				'debaucheries'=>[
 					'debauchereis',
 					'debaucheris',
+					'debaucharies',
+					'debuacheries',
+				],
+				'debauchers'=>[
+					'debuachers',
+				],
+				'debauchery'=>[
+					'debauchary',
+					'debuachery',
+				],
+				'debauches'=>[
+					'debuaches',
+				],
+				'debauching'=>[
+					'debuaching',
 				],
 				'debby'=>[
 					'debbby',
@@ -989,9 +1844,42 @@
 				'debilitating'=>[
 					'debilitationg',
 				],
+				'debilitation'=>[
+					'debilitatoin',
+					'debilitaton',
+				],
+				'debilities'=>[
+					'debiliteis',
+				],
+				'debonair'=>[
+					'deboniar',
+				],
+				'debonaire'=>[
+					'deboniare',
+				],
+				'debonairly'=>[
+					'deboniarly',
+				],
 				'debonairness'=>[
 					'debonairnes',
 					'debonairnesss',
+					'deboniarness',
+				],
+				'debouch'=>[
+					'debuoch',
+				],
+				'debouched'=>[
+					'debuoched',
+				],
+				'debouches'=>[
+					'debuoches',
+				],
+				'debouching'=>[
+					'debuoching',
+				],
+				'debouchment'=>[
+					'debouchmant',
+					'debuochment',
 				],
 				'debridement'=>[
 					'debridemant',
@@ -1000,9 +1888,18 @@
 					'debreif',
 					'debrif',
 				],
+				'debriefed'=>[
+					'debreifed',
+				],
 				'debriefing'=>[
 					'debreifing',
 					'debrifing',
+				],
+				'debriefings'=>[
+					'debreifings',
+				],
+				'debriefs'=>[
+					'debreifs',
 				],
 				'debt'=>[
 					'dobt',
@@ -1035,12 +1932,14 @@
 				],
 				'decadency'=>[
 					'decadensy',
+					'decadancy',
 				],
 				'decadent'=>[
 					'decadant',
 				],
 				'decadently'=>[
 					'decadantly',
+					'decadentely',
 				],
 				'decadents'=>[
 					'decadants',
@@ -1051,6 +1950,7 @@
 				'decaffeinate'=>[
 					'decafeinate',
 					'decafffeinate',
+					'decaffienate',
 				],
 				'decaffeinated'=>[
 					'decaffeinited',
@@ -1062,14 +1962,19 @@
 				'decaffeinates'=>[
 					'decafeinates',
 					'decafffeinates',
+					'decaffienates',
 				],
 				'decaffeinating'=>[
 					'decafeinating',
 					'decafffeinating',
+					'decaffienating',
 				],
 				'decaffeination'=>[
 					'decafeination',
 					'decafffeination',
+					'decaffeinatoin',
+					'decaffeinaton',
+					'decaffienation',
 				],
 				'decaffs'=>[
 					'decafffs',
@@ -1087,14 +1992,42 @@
 				'decahedrons'=>[
 					'decaedrons',
 				],
+				'decalcification'=>[
+					'decalcificatoin',
+					'decalcificaton',
+				],
 				'decalcified'=>[
 					'descalcified',
+					'decalcifeid',
+				],
+				'decalcifier'=>[
+					'decalcifeir',
+				],
+				'decalcifies'=>[
+					'decalcifeis',
+				],
+				'decalcomania'=>[
+					'decalcomanai',
+				],
+				'decalcomanias'=>[
+					'decalcomanais',
+				],
+				'decalescence'=>[
+					'decalecence',
+					'decalescance',
+					'decalesence',
 				],
 				'decalogies'=>[
 					'decologies',
 				],
+				'decalogue'=>[
+					'decalogeu',
+				],
 				'decalogy'=>[
 					'decology',
+				],
+				'decampment'=>[
+					'decampmant',
 				],
 				'decant'=>[
 					'decont',
@@ -1103,6 +2036,18 @@
 			#	'decanter'=>[
 			#		'decenter',
 			#	],
+				'decantation'=>[
+					'decantatoin',
+					'decantaton',
+				],
+				'decapitation'=>[
+					'decapitatoin',
+					'decapitaton',
+				],
+				'decapitations'=>[
+					'decapitatoins',
+					'decapitatons',
+				],
 				'decasualization'=>[
 					'decasaulization',
 				],
@@ -1118,17 +2063,26 @@
 				'decasyllables'=>[
 					'decasylables',
 					'decasylllables',
+					'decasyllibles',
 				],
 				'decathlon'=>[
 					'decathalon',
 				],
 				'decease'=>[
 					'deceafe',
+					'decaese',
 				],
 				'deceased'=>[
 					'decesed',
 					'deseced',
 					'deceafed',
+					'decaesed',
+				],
+				'deceases'=>[
+					'decaeses',
+				],
+				'deceasing'=>[
+					'decaesing',
 				],
 				'decedent'=>[
 					'decedant',
@@ -1146,6 +2100,8 @@
 					'decietfully',
 					'deceitfullly',
 					'deceitfuly',
+					'deceifully',
+					'deceitully',
 				],
 				'deceitfulness'=>[
 					'decietfulness',
@@ -1155,6 +2111,9 @@
 				'deceitfulnesses'=>[
 					'deceitfulneses',
 					'decietfulnesses',
+				],
+				'deceits'=>[
+					'deciets',
 				],
 				'deceivable'=>[
 					'decievable',
@@ -1168,11 +2127,25 @@
 				'deceiver'=>[
 					'deciever',
 				],
+				'deceivers'=>[
+					'decievers',
+				],
 				'deceives'=>[
 					'decieves',
 				],
+				'deceiving'=>[
+					'decieving',
+				],
 				'deceivingly'=>[
 					'decievingly',
+				],
+				'deceleration'=>[
+					'deceleratoin',
+					'deceleraton',
+				],
+				'decelerations'=>[
+					'deceleratoins',
+					'deceleratons',
 				],
 				'deceleratory'=>[
 					'decelleratory',
@@ -1185,12 +2158,17 @@
 				'decenary'=>[
 					'decenery',
 				],
+				'decencies'=>[
+					'decenceis',
+				],
 				'decency'=>[
 					'decensy',
 				],
 				'decennaries'=>[
 					'decenaries',
 					'decennnaries',
+					'decennareis',
+					'decenneries',
 				],
 				'decennary'=>[
 					'decenary',
@@ -1203,33 +2181,53 @@
 				'decennial'=>[
 					'decenial',
 					'decennnial',
+					'decennail',
 				],
 				'decennially'=>[
 					'decenially',
 					'decenniallly',
 					'decennnially',
+					'decennailly',
 				],
 				'decennials'=>[
 					'decenials',
 					'decennnials',
+					'decennails',
 				],
 				'decennium'=>[
 					'decenium',
 					'decennnium',
+					'decennuim',
 				],
 				'decenniums'=>[
 					'deceniums',
 					'decennniums',
+					'decennuims',
 				],
 				'decent'=>[
 					'decant',
+				],
+				'decently'=>[
+					'decentely',
 				],
 				'decentness'=>[
 					'decentnes',
 					'decentnesss',
 				],
+				'decentralization'=>[
+					'decentralizatoin',
+					'decentralizaton',
+				],
 				'decentralize'=>[
 					'decantralize',
+				],
+				'deception'=>[
+					'deceptoin',
+					'decepton',
+				],
+				'deceptions'=>[
+					'deceptoins',
+					'deceptons',
 				],
 				'deceptively'=>[
 					'deceptiveally',
@@ -1255,8 +2253,15 @@
 				'dechlorinations'=>[
 					'dechlorinitions',
 				],
+				'deciare'=>[
+					'decaire',
+				],
+				'decidability'=>[
+					'decidibility',
+				],
 				'decidable'=>[
 					'decideable',
+					'decidible',
 				],
 				'decide'=>[
 					'decide decide',
@@ -1289,11 +2294,20 @@
 				'deciduous'=>[
 					'decidous',
 					'ecidious',
+					'decidouus',
+					'deciduuos',
+				],
+				'deciduously'=>[
+					'decidouusly',
+					'deciduousely',
+					'deciduuosly',
 				],
 				'deciduousness'=>[
 					'decidousness',
 					'deciduousnes',
 					'deciduousnesss',
+					'decidouusness',
+					'deciduuosness',
 				],
 				'deciduousnesses'=>[
 					'decidousnesses',
@@ -1302,31 +2316,56 @@
 				'decillion'=>[
 					'decilion',
 					'decilllion',
+					'decilloin',
+					'decillon',
 				],
 				'decillionth'=>[
 					'decilionth',
 					'decilllionth',
+					'decillointh',
 				],
 				'decimal'=>[
 					'decimal decimal',
 					'decimal decimal decimal',
 				],
+				'decimalization'=>[
+					'decimalizatoin',
+					'decimalizaton',
+				],
 				'decimally'=>[
 					'decimallly',
+				],
+				'decimation'=>[
+					'decimatoin',
+					'decimaton',
 				],
 				'decipher'=>[
 					'decypher',
 				],
+				'decipherable'=>[
+					'decipherible',
+				],
 				'deciphered'=>[
 					'decyphered',
+					'decipherd',
+				],
+				'decipherment'=>[
+					'deciphermant',
+				],
+				'decipherments'=>[
+					'deciphermants',
 				],
 				'decision'=>[
 					'descision',
 					'dicision',
 					'decifion',
+					'decisoin',
+					'decison',
 				],
 				'decisions'=>[
 					'descisions',
+					'decisoins',
+					'decisons',
 				],
 				'decisive'=>[
 					'deasive',
@@ -1338,8 +2377,71 @@
 					'decisivenes',
 					'decisivenesss',
 				],
+				'deckchair'=>[
+					'decchair',
+					'deckchiar',
+					'deckhair',
+				],
+				'deckchairs'=>[
+					'decchairs',
+					'deckchiars',
+					'deckhairs',
+				],
+				'deckhand'=>[
+					'dechand',
+					'deckand',
+				],
+				'deckhands'=>[
+					'dechands',
+					'deckands',
+				],
+				'deckhouse'=>[
+					'dechouse',
+					'deckhuose',
+					'deckouse',
+				],
+				'declaim'=>[
+					'decliam',
+				],
+				'declaimed'=>[
+					'decliamed',
+				],
+				'declaimer'=>[
+					'decliamer',
+				],
+				'declaimers'=>[
+					'decliamers',
+				],
+				'declaiming'=>[
+					'decliaming',
+				],
+				'declaims'=>[
+					'decliams',
+				],
+				'declamation'=>[
+					'declamatoin',
+					'declamaton',
+				],
+				'declamations'=>[
+					'declamatoins',
+					'declamatons',
+				],
 				'declan mcneilis'=>[
 					'declan mcnelis',
+				],
+				'declarable'=>[
+					'declarible',
+				],
+				'declarant'=>[
+					'declarent',
+				],
+				'declaration'=>[
+					'declaratoin',
+					'declaraton',
+				],
+				'declarations'=>[
+					'declaratoins',
+					'declaratons',
 				],
 				'declaratively'=>[
 					'declarativly',
@@ -1353,6 +2455,7 @@
 				'declared'=>[
 					'decered',
 					'declarcd',
+					'declard',
 				],
 				'declaring'=>[
 					'dedaring',
@@ -1364,6 +2467,8 @@
 				'declassification'=>[
 					'declasification',
 					'declasssification',
+					'declassificatoin',
+					'declassificaton',
 				],
 				'declassified'=>[
 					'declassifeid',
@@ -1385,20 +2490,63 @@
 					'declasifying',
 					'declasssifying',
 				],
+				'declension'=>[
+					'declensoin',
+					'declenson',
+				],
+				'declensional'=>[
+					'declensoinal',
+					'declensonal',
+				],
+				'declensions'=>[
+					'declensoins',
+					'declensons',
+				],
+				'declinable'=>[
+					'declinible',
+				],
 				'declination'=>[
 					'declinition',
+					'declinatoin',
+					'declinaton',
+				],
+				'declinational'=>[
+					'declinatoinal',
+					'declinatonal',
+				],
+				'declinations'=>[
+					'declinatoins',
+					'declinatons',
 				],
 				'decline'=>[
 					'declini',
 				],
 				'declined'=>[
 					'dechned',
+					'declind',
 				],
 				'declining'=>[
 					'declinang',
 				],
 				'declinist'=>[
 					'declinast',
+				],
+				'declivities'=>[
+					'decliviteis',
+				],
+				'declivitous'=>[
+					'declivituos',
+				],
+				'declivous'=>[
+					'declivuos',
+				],
+				'decoction'=>[
+					'decoctoin',
+					'decocton',
+				],
+				'decoctions'=>[
+					'decoctoins',
+					'decoctons',
 				],
 				'decollate'=>[
 					'decolate',
@@ -1407,12 +2555,21 @@
 				'decolletage'=>[
 					'decoletage',
 				],
+				'decolonization'=>[
+					'decolonizatoin',
+					'decolonizaton',
+				],
+				'decolorant'=>[
+					'decolorent',
+				],
 				'decommission'=>[
 					'decommision',
 					'decomnission',
 					'decommisssion',
 					'decomission',
 					'decommmission',
+					'decommissoin',
+					'decommisson',
 				],
 				'decommissioned'=>[
 					'decommisioned',
@@ -1420,6 +2577,9 @@
 					'decommisssioned',
 					'decomissioned',
 					'decommmissioned',
+					'decommissiond',
+					'decommissoined',
+					'decommissoned',
 				],
 				'decommissioning'=>[
 					'decommisioning',
@@ -1427,6 +2587,8 @@
 					'decommisssioning',
 					'decomissioning',
 					'decommmissioning',
+					'decommissoining',
+					'decommissoning',
 				],
 				'decommissions'=>[
 					'decomnissions',
@@ -1434,6 +2596,15 @@
 					'decommisssions',
 					'decomissions',
 					'decommmissions',
+					'decommissoins',
+					'decommissons',
+				],
+				'decompensation'=>[
+					'decompensatoin',
+					'decompensaton',
+				],
+				'decomposable'=>[
+					'decomposible',
 				],
 				'decompose'=>[
 					'decomposit',
@@ -1446,6 +2617,17 @@
 				],
 				'decomposing'=>[
 					'decompositing',
+				],
+				'decomposition'=>[
+					'decompositoin',
+					'decompositon',
+				],
+				'decompositions'=>[
+					'decompositoins',
+					'decompositons',
+				],
+				'decompound'=>[
+					'decompuond',
 				],
 				'decompress'=>[
 					'decompres',
@@ -1466,6 +2648,8 @@
 				'decompression'=>[
 					'decompresion',
 					'decompresssion',
+					'decompressoin',
+					'decompresson',
 				],
 				'deconcentrate'=>[
 					'deconcantrate',
@@ -1482,6 +2666,36 @@
 				'decongestants'=>[
 					'decongestents',
 				],
+				'decongestion'=>[
+					'decongestoin',
+					'decongeston',
+				],
+				'deconstruction'=>[
+					'deconstructoin',
+					'deconstructon',
+				],
+				'deconstructionism'=>[
+					'deconstructoinism',
+					'deconstructonism',
+				],
+				'deconstructionisms'=>[
+					'deconstructoinisms',
+				],
+				'deconstructionist'=>[
+					'deconstructoinist',
+					'deconstructonist',
+				],
+				'deconstructionists'=>[
+					'deconstructoinists',
+					'deconstructonists',
+				],
+				'deconstructions'=>[
+					'deconstructoins',
+					'deconstructons',
+				],
+				'decontaminant'=>[
+					'decontaminent',
+				],
 				'decontaminate'=>[
 					'decontaminite',
 				],
@@ -1496,6 +2710,8 @@
 				],
 				'decontamination'=>[
 					'decontaminition',
+					'decontaminatoin',
+					'decontaminaton',
 				],
 				'decontaminator'=>[
 					'decontaminitor',
@@ -1512,32 +2728,81 @@
 				'decorating'=>[
 					'decoratoring',
 				],
+				'decoration'=>[
+					'decoratoin',
+					'decoraton',
+				],
+				'decorations'=>[
+					'decoratoins',
+					'decoratons',
+				],
 				'decoratively'=>[
 					'decorativly',
 				],
 				'decorous'=>[
 					'decourous',
+					'decoruos',
+				],
+				'decorously'=>[
+					'decorousely',
+					'decoruosly',
 				],
 				'decorousness'=>[
 					'decorousnes',
 					'decorousnesss',
+					'decoruosness',
 				],
 				'decorrelation'=>[
 					'decorrellation',
 				],
+				'decortication'=>[
+					'decorticatoin',
+					'decorticaton',
+				],
+				'decoupage'=>[
+					'decuopage',
+				],
+				'decoupaged'=>[
+					'decuopaged',
+				],
+				'decoupages'=>[
+					'decuopages',
+				],
+				'decoupaging'=>[
+					'decuopaging',
+				],
 				'decouple'=>[
 					'decuplate',
 					'decuple',
+					'decuople',
+				],
+				'decoupled'=>[
+					'decuopled',
+				],
+				'decouples'=>[
+					'decuoples',
 				],
 				'decoupling'=>[
 					'decuplating',
 					'decupling',
+					'decuopling',
 				],
 				'decrease'=>[
 					'decrese',
+					'decraese',
+				],
+				'decreased'=>[
+					'decraesed',
+				],
+				'decreases'=>[
+					'decraeses',
+				],
+				'decreasing'=>[
+					'decraesing',
 				],
 				'decreasingly'=>[
 					'decresingly',
+					'decraesingly',
 				],
 				'decree'=>[
 					'decre',
@@ -1549,18 +2814,57 @@
 				],
 				'decreeing'=>[
 					'decreeeing',
+					'decreieng',
 				],
 				'decrees'=>[
 					'decreees',
 					'decres',
 				],
+				'decrement'=>[
+					'decremant',
+				],
+				'decrements'=>[
+					'decremants',
+				],
 				'decrepit'=>[
 					'decrepid',
+				],
+				'decrepitly'=>[
+					'decrepitely',
+				],
+				'decrescendi'=>[
+					'decrecendi',
+					'decresendi',
 				],
 				'decrescendo'=>[
 					'decrecendo',
 					'decrecsendo',
 					'decresendo',
+				],
+				'decrescendos'=>[
+					'decrecendos',
+					'decresendos',
+				],
+				'decrescent'=>[
+					'decrecent',
+					'decrescant',
+					'decresent',
+				],
+				'decrial'=>[
+					'decrail',
+				],
+				'decried'=>[
+					'decreid',
+				],
+				'decrier'=>[
+					'decreir',
+				],
+				'decries'=>[
+					'decreis',
+				],
+				'decriminalization'=>[
+					'decriminalizatoin',
+					'decriminalizaton',
 				],
 				'decriminalize'=>[
 					'decriminilize',
@@ -1574,9 +2878,21 @@
 				'decriminalizing'=>[
 					'decriminilizing',
 				],
+				'decryption'=>[
+					'decryptoin',
+					'decrypton',
+				],
+				'decumbent'=>[
+					'decumbant',
+				],
+				'decurion'=>[
+					'decuroin',
+					'decuron',
+				],
 				'decurrent'=>[
 					'decurent',
 					'decurrrent',
+					'decurrant',
 				],
 				'decussate'=>[
 					'decusate',
@@ -1585,6 +2901,16 @@
 				'decussation'=>[
 					'decusation',
 					'decusssation',
+					'decussatoin',
+					'decussaton',
+				],
+				'dedication'=>[
+					'dedicatoin',
+					'dedicaton',
+				],
+				'dedications'=>[
+					'dedicatoins',
+					'dedicatons',
 				],
 				'dedifferentiate'=>[
 					'dedifferantiate',
@@ -1592,10 +2918,16 @@
 				'dedifferentiation'=>[
 					'dediferentiation',
 					'dediffferentiation',
+					'dedifferentaition',
+					'dedifferentiatoin',
+					'dedifferentiaton',
 				],
 				'dedifferentiations'=>[
 					'dediferentiations',
 					'dediffferentiations',
+					'dedifferentaitions',
+					'dedifferentiatoins',
+					'dedifferentiatons',
 				],
 				'deducible'=>[
 					'deducable',
@@ -1606,6 +2938,17 @@
 				],
 				'deductible'=>[
 					'deductable',
+				],
+				'deduction'=>[
+					'deductoin',
+					'deducton',
+				],
+				'deductions'=>[
+					'deductoins',
+					'deductons',
+				],
+				'deductively'=>[
+					'deductivly',
 				],
 				'dee'=>[
 					'deee',
@@ -1670,6 +3013,7 @@
 				'deepens'=>[
 					'deeepens',
 					'depens',
+					'deeens',
 				],
 				'deeper'=>[
 					'deeeper',
@@ -1678,12 +3022,15 @@
 				'deepest'=>[
 					'deeepest',
 					'depest',
+					'deeest',
 				],
 				'deepfreeze'=>[
 					'deeepfreeze',
 					'deepfreeeze',
 					'deepfreze',
 					'depfreeze',
+					'deefreeze',
+					'deepreeze',
 				],
 				'deepfreezes'=>[
 					'deeepfreezes',
@@ -1714,10 +3061,16 @@
 				'deerhound'=>[
 					'deeerhound',
 					'derhound',
+					'deehound',
+					'deerhuond',
+					'deeround',
 				],
 				'deerhounds'=>[
 					'deeerhounds',
 					'derhounds',
+					'deehounds',
+					'deerhuonds',
+					'deerounds',
 				],
 				'deers'=>[
 					'deeers',
@@ -1725,10 +3078,14 @@
 				'deerskin'=>[
 					'deeerskin',
 					'derskin',
+					'deerkin',
+					'deeskin',
 				],
 				'deerstalker'=>[
 					'deeerstalker',
 					'derstalker',
+					'deertalker',
+					'deestalker',
 				],
 				'deerstalkers'=>[
 					'deeerstalkers',
@@ -1737,36 +3094,82 @@
 				'deerstalking'=>[
 					'deeerstalking',
 					'derstalking',
+					'deertalking',
+					'deestalking',
 				],
 				'deescalate'=>[
 					'deeescalate',
 					'descalate',
+					'deecalate',
+					'deesalate',
 				],
 				'deescalated'=>[
 					'deeescalated',
 					'descalated',
+					'deecalated',
+					'deesalated',
 				],
 				'deescalates'=>[
 					'deeescalates',
 					'descalates',
+					'deecalates',
+					'deesalates',
 				],
 				'deescalating'=>[
 					'deeescalating',
 					'descalating',
+					'deecalating',
+					'deesalating',
 				],
 				'deescalation'=>[
 					'deeescalation',
 					'descalation',
+					'deecalation',
+					'deesalation',
+					'deescalatoin',
+					'deescalaton',
+				],
+				'defacement'=>[
+					'defacemant',
+				],
+				'defalcation'=>[
+					'defalcatoin',
+					'defalcaton',
+				],
+				'defalcations'=>[
+					'defalcatoins',
+					'defalcatons',
 				],
 				'defamation'=>[
 					'diffamation',
+					'defamatoin',
+					'defamaton',
 				],
 				'defasciculation'=>[
 					'defasiculation',
 				],
+				'default'=>[
+					'defualt',
+				],
+				'defaulted'=>[
+					'defualted',
+				],
+				'defaulter'=>[
+					'defualter',
+				],
+				'defaulters'=>[
+					'defualters',
+				],
+				'defaulting'=>[
+					'defualting',
+				],
+				'defaults'=>[
+					'defualts',
+				],
 				'defeasance'=>[
 					'defeasence',
 					'defesance',
+					'defaesance',
 				],
 				'defeasibilities'=>[
 					'defeasibiliteis',
@@ -1778,10 +3181,51 @@
 				],
 				'defeasible'=>[
 					'defeasable',
+					'defaesible',
 				],
 				'defeat'=>[
 					'defet',
 					'clefeat',
+					'defaet',
+				],
+				'defeated'=>[
+					'defaeted',
+				],
+				'defeater'=>[
+					'defaeter',
+				],
+				'defeaters'=>[
+					'defaeters',
+				],
+				'defeating'=>[
+					'defaeting',
+				],
+				'defeatism'=>[
+					'defaetism',
+				],
+				'defeatist'=>[
+					'defaetist',
+				],
+				'defeatists'=>[
+					'defaetists',
+				],
+				'defeats'=>[
+					'defaets',
+				],
+				'defecation'=>[
+					'defecatoin',
+					'defecaton',
+				],
+				'defection'=>[
+					'defectoin',
+					'defecton',
+				],
+				'defections'=>[
+					'defectoins',
+					'defectons',
+				],
+				'defectively'=>[
+					'defectivly',
 				],
 				'defectiveness'=>[
 					'defectivenes',
@@ -1812,6 +3256,9 @@
 					'defance',
 					'denfence',
 				],
+				'defendable'=>[
+					'defendible',
+				],
 				'defendant'=>[
 					'defendand',
 					'defendent',
@@ -1825,6 +3272,10 @@
 			#	],
 				'defender'=>[
 					'defendor',
+				],
+				'defenestration'=>[
+					'defenestratoin',
+					'defenestraton',
 				],
 				'defense'=>[
 					'clefense',
@@ -1851,8 +3302,14 @@
 					'defensibiliteis',
 					'defensibilitis',
 				],
+				'defensibility'=>[
+					'defensability',
+				],
 				'defensible'=>[
 					'defensable',
+				],
+				'defensibly'=>[
+					'defensably',
 				],
 				'defensive'=>[
 					'defencive',
@@ -1871,12 +3328,23 @@
 				'deference'=>[
 					'deferance',
 				],
+				'deferent'=>[
+					'deferant',
+				],
 				'deferential'=>[
 					'deferantial',
+					'deferentail',
 				],
 				'deferentially'=>[
 					'deferentiallly',
 					'deferentialy',
+					'deferentailly',
+				],
+				'deferment'=>[
+					'defermant',
+				],
+				'deferments'=>[
+					'defermants',
 				],
 				'deferoxamine'=>[
 					'deferoxime',
@@ -1889,6 +3357,7 @@
 				],
 				'deferrable'=>[
 					'deferrrable',
+					'deferrible',
 				],
 				'deferral'=>[
 					'deferal',
@@ -1932,9 +3401,16 @@
 				'defiance'=>[
 					'defience',
 					'definance',
+					'defaince',
 				],
 				'defiant'=>[
 					'defient',
+					'defaint',
+				],
+				'defiantly'=>[
+					'defaintly',
+					'defiantely',
+					'defiently',
 				],
 				'defibrillate'=>[
 					'defibrilate',
@@ -1943,10 +3419,14 @@
 				'defibrillation'=>[
 					'defibrilation',
 					'defibrilllation',
+					'defibrillatoin',
+					'defibrillaton',
 				],
 				'defibrillations'=>[
 					'defibrilations',
 					'defibrilllations',
+					'defibrillatoins',
+					'defibrillatons',
 				],
 				'defibrillator'=>[
 					'defibrilator',
@@ -1962,22 +3442,48 @@
 				'deficiencies'=>[
 					'deficienceis',
 					'deficiencis',
+					'deficeincies',
+					'deficiancies',
 				],
 				'deficiency'=>[
 					'deficeincy',
 					'deficiensy',
 					'deficincy',
+					'deficiancy',
 				],
 				'deficient'=>[
 					'deficeint',
 					'deficiant',
 					'deficint',
 				],
+				'deficiently'=>[
+					'deficeintly',
+					'deficiantly',
+					'deficientely',
+				],
 				'deficit'=>[
 					'defecit',
 				],
 				'deficits'=>[
 					'defecits',
+				],
+				'defied'=>[
+					'defeid',
+				],
+				'defier'=>[
+					'defeir',
+				],
+				'defies'=>[
+					'defeis',
+				],
+				'defilement'=>[
+					'defilemant',
+				],
+				'definable'=>[
+					'definible',
+				],
+				'definably'=>[
+					'definibly',
 				],
 				'define'=>[
 					'deffine',
@@ -1987,6 +3493,7 @@
 				'defined'=>[
 					'deffined',
 					'defned',
+					'defind',
 				],
 				'definiendum'=>[
 					'definaendum',
@@ -1995,6 +3502,7 @@
 				],
 				'definiens'=>[
 					'definaens',
+					'defineins',
 				],
 				'definientia'=>[
 					'definaentia',
@@ -2032,12 +3540,17 @@
 					'definiton',
 					'defintion',
 					'defnition',
+					'definitoin',
 				],
 				'definitional'=>[
 					'definational',
+					'definitoinal',
+					'definitonal',
 				],
 				'definitions'=>[
 					'definations',
+					'definitoins',
+					'definitons',
 				],
 				'definitive'=>[
 					'definative',
@@ -2072,12 +3585,45 @@
 				'definitudes'=>[
 					'definatudes',
 				],
+				'deflagration'=>[
+					'deflagratoin',
+					'deflagraton',
+				],
+				'deflation'=>[
+					'deflatoin',
+					'deflaton',
+				],
 				'deflationary'=>[
 					'deflationery',
+					'deflatoinary',
+					'deflatonary',
+				],
+				'deflationist'=>[
+					'deflatoinist',
+					'deflatonist',
+				],
+				'deflection'=>[
+					'deflectoin',
+					'deflecton',
+				],
+				'deflections'=>[
+					'deflectoins',
+					'deflectons',
 				],
 				'deflocculate'=>[
 					'defloccculate',
 					'defloculate',
+				],
+				'defloration'=>[
+					'defloratoin',
+					'defloraton',
+				],
+				'deflowered'=>[
+					'deflowerd',
+				],
+				'defluxion'=>[
+					'defluxoin',
+					'defluxon',
 				],
 				'defocusing'=>[
 					'defocuisng',
@@ -2098,12 +3644,93 @@
 				],
 				'defoliant'=>[
 					'defolient',
+					'defolaint',
+				],
+				'defoliants'=>[
+					'defolaints',
+					'defolients',
+				],
+				'defoliate'=>[
+					'defolaite',
+				],
+				'defoliated'=>[
+					'defolaited',
+				],
+				'defoliates'=>[
+					'defolaites',
+				],
+				'defoliating'=>[
+					'defolaiting',
+				],
+				'defoliation'=>[
+					'defolaition',
+					'defoliatoin',
+					'defoliaton',
+				],
+				'defoliator'=>[
+					'defolaitor',
+				],
+				'defoliators'=>[
+					'defolaitors',
+				],
+				'deforestation'=>[
+					'deforestatoin',
+					'deforestaton',
+				],
+				'deformable'=>[
+					'deformible',
+				],
+				'deformation'=>[
+					'deformatoin',
+					'deformaton',
+				],
+				'deformations'=>[
+					'deformatoins',
+					'deformatons',
+				],
+				'deformities'=>[
+					'deformiteis',
 				],
 				'defragged'=>[
 					'defraged',
 				],
 				'defragger'=>[
 					'defrager',
+				],
+				'defraud'=>[
+					'defruad',
+				],
+				'defraudation'=>[
+					'defraudatoin',
+					'defraudaton',
+					'defruadation',
+				],
+				'defrauded'=>[
+					'defruaded',
+				],
+				'defrauder'=>[
+					'defruader',
+				],
+				'defrauders'=>[
+					'defruaders',
+				],
+				'defrauding'=>[
+					'defruading',
+				],
+				'defrauds'=>[
+					'defruads',
+				],
+				'defrayable'=>[
+					'defrayible',
+				],
+				'defrayment'=>[
+					'defraymant',
+				],
+				'defrayments'=>[
+					'defraymants',
+				],
+				'deftly'=>[
+					'deftely',
 				],
 				'deftness'=>[
 					'deftnes',
@@ -2127,22 +3754,27 @@
 				'degauss'=>[
 					'degaus',
 					'degausss',
+					'deguass',
 				],
 				'degaussed'=>[
 					'degaused',
 					'degausssed',
+					'deguassed',
 				],
 				'degausser'=>[
 					'degauser',
 					'degaussser',
+					'deguasser',
 				],
 				'degausses'=>[
 					'degauses',
 					'degaussses',
+					'deguasses',
 				],
 				'degaussing'=>[
 					'degausing',
 					'degausssing',
+					'deguassing',
 				],
 				'degeneracies'=>[
 					'degeneraceis',
@@ -2160,6 +3792,8 @@
 				],
 				'degeneration'=>[
 					'degeration',
+					'degeneratoin',
+					'degeneraton',
 				],
 				'deglamorization'=>[
 					'deglamourization',
@@ -2176,20 +3810,40 @@
 				'deglamorizing'=>[
 					'deglamourizing',
 				],
+				'deglutition'=>[
+					'deglutitoin',
+					'deglutiton',
+				],
+				'deglutitions'=>[
+					'deglutitoins',
+					'deglutitons',
+				],
 				'deglycosylation'=>[
 					'deglycosilation',
+				],
+				'degradability'=>[
+					'degradibility',
 				],
 				'degradable'=>[
 					'degradible',
 				],
 				'degradation'=>[
 					'degredation',
+					'degradatoin',
+					'degradaton',
+				],
+				'degradations'=>[
+					'degradatoins',
+					'degradatons',
 				],
 				'degradedly'=>[
 					'degradedally',
 					'degradedaly',
 					'degradedely',
 					'degradedlly',
+				],
+				'degrease'=>[
+					'degraese',
 				],
 				'degree'=>[
 					'degree degree',
@@ -2204,15 +3858,54 @@
 				'degression'=>[
 					'degresion',
 					'degresssion',
+					'degressoin',
+					'degresson',
 				],
 				'degressively'=>[
 					'degressivly',
+				],
+				'dehisce'=>[
+					'dehice',
+					'dehise',
+				],
+				'dehisced'=>[
+					'dehiced',
+					'dehised',
 				],
 				'dehiscence'=>[
 					'dehicence',
 					'dehicsence',
 					'dehiscance',
 					'dehisence',
+				],
+				'dehiscences'=>[
+					'dehicences',
+					'dehiscances',
+					'dehisences',
+				],
+				'dehiscent'=>[
+					'dehicent',
+					'dehiscant',
+					'dehisent',
+				],
+				'dehisces'=>[
+					'dehices',
+					'dehises',
+				],
+				'dehiscing'=>[
+					'dehicing',
+					'dehising',
+				],
+				'dehorned'=>[
+					'dehornd',
+				],
+				'dehumanization'=>[
+					'dehumanizatoin',
+					'dehumanizaton',
+				],
+				'dehumidification'=>[
+					'dehumidificatoin',
+					'dehumidificaton',
 				],
 				'dehumidified'=>[
 					'dehumidifeid',
@@ -2232,6 +3925,12 @@
 				],
 				'dehydration'=>[
 					'dehydratation',
+					'dehydratoin',
+					'dehydraton',
+				],
+				'dehydrogenation'=>[
+					'dehydrogenatoin',
+					'dehydrogenaton',
 				],
 				'deice'=>[
 					'diece',
@@ -2241,6 +3940,9 @@
 				],
 				'deicer'=>[
 					'diecer',
+				],
+				'deicers'=>[
+					'diecers',
 				],
 				'deices'=>[
 					'dieces',
@@ -2253,6 +3955,9 @@
 				],
 				'deicides'=>[
 					'diecides',
+				],
+				'deicing'=>[
+					'diecing',
 				],
 				'deictic'=>[
 					'diectic',
@@ -2268,12 +3973,25 @@
 				],
 				'deification'=>[
 					'diefication',
+					'deificatoin',
+					'deificaton',
 				],
 				'deifications'=>[
 					'diefications',
 				],
+				'deified'=>[
+					'deifeid',
+					'diefied',
+				],
 				'deifiers'=>[
 					'diefiers',
+				],
+				'deifies'=>[
+					'deifeis',
+					'diefies',
+				],
+				'deiform'=>[
+					'dieform',
 				],
 				'deify'=>[
 					'diefy',
@@ -2283,6 +4001,10 @@
 				],
 				'deign'=>[
 					'diegn',
+				],
+				'deigned'=>[
+					'deignd',
+					'diegned',
 				],
 				'deigning'=>[
 					'diegning',
@@ -2305,6 +4027,16 @@
 				'deinonychuses'=>[
 					'dienonychuses',
 				],
+				'deinstitutionalization'=>[
+					'deinstitutionalizatoin',
+					'deinstitutionalizaton',
+					'deinstitutoinalization',
+					'dienstitutionalization',
+				],
+				'deinstitutionalize'=>[
+					'deinstitutoinalize',
+					'dienstitutionalize',
+				],
 				'deionization'=>[
 					'dieonization',
 				],
@@ -2313,9 +4045,11 @@
 				],
 				'deionize'=>[
 					'dieonize',
+					'deoinize',
 				],
 				'deionized'=>[
 					'dieonized',
+					'deoinized',
 				],
 				'deionizer'=>[
 					'dieonizer',
@@ -2329,6 +4063,12 @@
 				'deionizing'=>[
 					'dieonizing',
 				],
+				'deipnosophist'=>[
+					'diepnosophist',
+				],
+				'deipnosophists'=>[
+					'diepnosophists',
+				],
 				'deism'=>[
 					'diesm',
 				],
@@ -2337,6 +4077,9 @@
 				],
 				'deist'=>[
 					'diest',
+				],
+				'deistic'=>[
+					'diestic',
 				],
 				'deistical'=>[
 					'diestical',
@@ -2352,6 +4095,7 @@
 				'deities'=>[
 					'deites',
 					'dieties',
+					'deiteis',
 				],
 				'deity'=>[
 					'diety',
@@ -2372,6 +4116,10 @@
 					'dejectednes',
 					'dejectednesss',
 				],
+				'dejection'=>[
+					'dejectoin',
+					'dejecton',
+				],
 				'dekko'=>[
 					'dekkko',
 				],
@@ -2379,18 +4127,40 @@
 					'dekkkos',
 					'dekos',
 				],
+				'delaine'=>[
+					'deliane',
+				],
 				'delaminate'=>[
 					'delaminite',
 				],
 				'delamination'=>[
 					'delaminition',
+					'delaminatoin',
+					'delaminaton',
 				],
 				'delectabilities'=>[
 					'delectabiliteis',
 					'delectabilitis',
+					'delectibilities',
+				],
+				'delectability'=>[
+					'delectibility',
 				],
 				'delectable'=>[
 					'delectible',
+				],
+				'delectably'=>[
+					'delectibly',
+				],
+				'delectation'=>[
+					'delectatoin',
+					'delectaton',
+				],
+				'delegable'=>[
+					'delegible',
+				],
+				'delegacies'=>[
+					'delegaceis',
 				],
 				'delegacy'=>[
 					'delegasy',
@@ -2398,8 +4168,18 @@
 				'delegate'=>[
 					'delagate',
 				],
+				'delegation'=>[
+					'delegatoin',
+					'delegaton',
+				],
+				'delegations'=>[
+					'delegatoins',
+					'delegatons',
+				],
 				'deleterious'=>[
 					'deleterous',
+					'deleteriuos',
+					'deleteroius',
 				],
 				'deleteriously'=>[
 					'deleteriousally',
@@ -2407,13 +4187,29 @@
 					'deleteriousely',
 					'deleteriouslly',
 					'deleterously',
+					'deleteriuosly',
+					'deleteroiusly',
 				],
 				'deleteriousness'=>[
 					'deleteriousnes',
 					'deleteriousnesss',
+					'deleteriuosness',
+					'deleteroiusness',
+					'deleterousness',
+				],
+				'deletion'=>[
+					'deletoin',
+					'deleton',
+				],
+				'deletions'=>[
+					'deletoins',
+					'deletons',
 				],
 				'delhi-based'=>[
 					'delhi based',
+				],
+				'delia'=>[
+					'delai',
 				],
 				'deliberately'=>[
 					'deliberatly',
@@ -2422,8 +4218,19 @@
 					'deliberatenes',
 					'deliberatenesss',
 				],
+				'deliberation'=>[
+					'deliberatoin',
+					'deliberaton',
+				],
+				'deliberations'=>[
+					'deliberatoins',
+					'deliberatons',
+				],
 				'deliberatively'=>[
 					'deliberativly',
+				],
+				'delicacies'=>[
+					'delicaceis',
 				],
 				'delicacy'=>[
 					'delicasy',
@@ -2445,6 +4252,8 @@
 				],
 				'delicious'=>[
 					'delicous',
+					'deliciuos',
+					'delicoius',
 				],
 				'deliciously'=>[
 					'deliciousally',
@@ -2452,10 +4261,15 @@
 					'deliciousely',
 					'deliciouslly',
 					'delicously',
+					'deliciuosly',
+					'delicoiusly',
 				],
 				'deliciousness'=>[
 					'deliciousnes',
 					'deliciousnesss',
+					'deliciuosness',
+					'delicoiusness',
+					'delicousness',
 				],
 				'deliciousnesses'=>[
 					'deliciousneses',
@@ -2485,51 +4299,172 @@
 				'delightfully'=>[
 					'delightfullly',
 					'delightfuly',
+					'delighfully',
+					'delightully',
 				],
 				'delights'=>[
 					'deliglits',
 				],
+				'delimitate'=>[
+					'deimitate',
+					'delmitate',
+				],
+				'delimitates'=>[
+					'deimitates',
+					'delmitates',
+				],
+				'delimitating'=>[
+					'deimitating',
+					'delmitating',
+				],
+				'delimitation'=>[
+					'deimitation',
+					'delimitatoin',
+					'delimitaton',
+					'delmitation',
+				],
 				'delineate'=>[
 					'delinete',
 					'deliniate',
+					'delinaete',
+				],
+				'delineated'=>[
+					'delinaeted',
+				],
+				'delineates'=>[
+					'delinaetes',
+				],
+				'delineating'=>[
+					'delinaeting',
+				],
+				'delineation'=>[
+					'delinaetion',
+					'delineatoin',
+					'delineaton',
 				],
 				'delineations'=>[
 					'delinetions',
+					'delinaetions',
+					'delineatoins',
+					'delineatons',
+				],
+				'delineative'=>[
+					'delinaetive',
+				],
+				'delineator'=>[
+					'delinaetor',
 				],
 				'delinquencies'=>[
 					'delinquenceis',
 					'delinquencis',
+					'delinqeuncies',
+					'delinquancies',
 				],
 				'delinquency'=>[
 					'delinquensy',
 					'delinquincy',
+					'delinqeuncy',
+					'delinquancy',
 				],
 				'delinquent'=>[
 					'delinquant',
+					'delinqeunt',
+				],
+				'delinquently'=>[
+					'delinqeuntly',
+					'delinquantly',
+					'delinquentely',
+				],
+				'delinquents'=>[
+					'delinqeunts',
+					'delinquants',
+				],
+				'deliquesce'=>[
+					'deliqeusce',
+					'deliquece',
+					'deliquese',
+				],
+				'deliquesced'=>[
+					'deliqeusced',
+					'deliqueced',
+					'deliquesed',
 				],
 				'deliquescence'=>[
 					'deliquescance',
+					'deliqeuscence',
+					'deliquecence',
 				],
 				'deliquescences'=>[
 					'deliquecences',
 					'deliquecsences',
 					'deliquesences',
 				],
+				'deliquescent'=>[
+					'deliqeuscent',
+					'deliquecent',
+					'deliquescant',
+					'deliquesent',
+				],
+				'deliquesces'=>[
+					'deliqeusces',
+					'deliqueces',
+					'deliqueses',
+				],
+				'deliquescing'=>[
+					'deliqeuscing',
+					'deliquecing',
+					'deliquesing',
+				],
+				'deliria'=>[
+					'delirai',
+				],
 				'delirious'=>[
 					'delirous',
+					'deliriuos',
+					'deliroius',
 				],
 				'deliriously'=>[
 					'delirously',
+					'deliriousely',
+					'deliriuosly',
+					'deliroiusly',
 				],
 				'deliriousness'=>[
 					'deliriousnes',
 					'deliriousnesss',
+					'deliriuosness',
+					'deliroiusness',
+					'delirousness',
 				],
 				'deliriousnesses'=>[
 					'deliriousneses',
 				],
+				'delirium'=>[
+					'deliruim',
+				],
+				'deliriums'=>[
+					'deliruims',
+				],
+				'delitescence'=>[
+					'delitecence',
+					'delitescance',
+					'delitesence',
+				],
+				'delitescent'=>[
+					'delitecent',
+					'delitescant',
+					'delitesent',
+				],
 				'deliver'=>[
 					'dehver',
+				],
+				'deliverability'=>[
+					'deliveability',
+					'deliverbility',
+					'deliveribility',
+				],
+				'deliverable'=>[
+					'deliverible',
 				],
 				'deliverance'=>[
 					'deliverence',
@@ -2537,6 +4472,15 @@
 				'delivered'=>[
 					'deliverd',
 					'dehvered',
+				],
+				'deliveries'=>[
+					'delivaries',
+					'delivereis',
+				],
+				'delivery'=>[
+					'deliery',
+					'delivary',
+					'delvery',
 				],
 				'dell'=>[
 					'del',
@@ -2551,29 +4495,55 @@
 					'delaly',
 					'dellly',
 				],
+				'delouse'=>[
+					'deluose',
+				],
+				'deloused'=>[
+					'deluosed',
+				],
+				'delouses'=>[
+					'deluoses',
+				],
 				'delousing'=>[
 					'delouisng',
+					'deluosing',
 				],
 				'delphinia'=>[
 					'delphinaa',
+					'delphinai',
 				],
 				'delphinium'=>[
 					'delphinaum',
+					'delphinuim',
 				],
 				'delphiniums'=>[
 					'delphinaums',
+					'delphinuims',
+				],
+				'deltaic'=>[
+					'deltiac',
+				],
+				'deltoid'=>[
+					'deltiod',
 				],
 				'deltoidei'=>[
 					'deltoidie',
+				],
+				'deltoids'=>[
+					'deltiods',
 				],
 				'deltorphin'=>[
 					'deltrophin',
 				],
 				'delusion'=>[
 					'deluison',
+					'delusoin',
+					'deluson',
 				],
 				'delusional'=>[
 					'deluisonal',
+					'delusoinal',
+					'delusonal',
 				],
 				'delusionary'=>[
 					'deluisonary',
@@ -2581,6 +4551,8 @@
 				],
 				'delusions'=>[
 					'deluisons',
+					'delusoins',
+					'delusons',
 				],
 				'delusive'=>[
 					'deluisve',
@@ -2598,21 +4570,36 @@
 				'delusivenesses'=>[
 					'deluisvenesses',
 				],
+				'demagnetization'=>[
+					'demagnetizatoin',
+					'demagnetizaton',
+				],
 				'demagogically'=>[
 					'demagogicallly',
 					'demagogicaly',
 				],
 				'demagogue'=>[
 					'demogogue',
+					'demagogeu',
 				],
 				'demagogueries'=>[
 					'demagoguereis',
 					# demagogueris: an accepted spelling, not a slip (AmericanBritishWords_D: demagogueris)
 				#	'demagogueris',
 				],
+				'demagoguery'=>[
+					'demagogeury',
+					'demagoguary',
+				],
+				'demagogues'=>[
+					'demagogeus',
+				],
 				'demand'=>[
 					'clemancl',
 					'clemand',
+				],
+				'demandable'=>[
+					'demandible',
 				],
 				'demandant'=>[
 					'demandent',
@@ -2626,11 +4613,52 @@
 				'demandingnesses'=>[
 					'demandingneses',
 				],
+				'demantoid'=>[
+					'demantiod',
+				],
+				'demantoids'=>[
+					'demantiods',
+				],
+				'demarcation'=>[
+					'demarcatoin',
+					'demarcaton',
+				],
+				'demarcations'=>[
+					'demarcatoins',
+					'demarcatons',
+				],
+				'demasculinize'=>[
+					'demaculinize',
+					'demasulinize',
+				],
+				'dematerialize'=>[
+					'dematerailize',
+				],
+				'dematerialized'=>[
+					'dematerailized',
+				],
+				'dematerializes'=>[
+					'dematerailizes',
+				],
+				'dematerializing'=>[
+					'dematerailizing',
+				],
+				'demean'=>[
+					'demaen',
+				],
+				'demeaned'=>[
+					'demaened',
+					'demeand',
+				],
+				'demeaning'=>[
+					'demaening',
+				],
 				'demeanor'=>[
 					'damenor',
 					# demeanour: an accepted spelling, not a slip (AmericanBritishWords_D: demeanor)
 				#	'demeanour',
 					'demenor',
+					'demaenor',
 				],
 					# demeanours: an accepted spelling, not a slip (AmericanBritishWords_D: demeanors)
 			#	'demeanors'=>[
@@ -2638,6 +4666,9 @@
 			#	],
 				'demeanour'=>[
 					'demenour',
+				],
+				'demeans'=>[
+					'demaens',
 				],
 				'dement'=>[
 					'demant',
@@ -2656,9 +4687,14 @@
 					'demantia',
 					'dimensia',
 					'dimentia',
+					'dementai',
 				],
 				'demetallated'=>[
 					'demetalated',
+				],
+				'demibastion'=>[
+					'demibastoin',
+					'demibaston',
 				],
 				'demigoddess'=>[
 					'demigoddes',
@@ -2672,8 +4708,24 @@
 					'demigodddesses',
 					'demigodesses',
 				],
+				'demilitarization'=>[
+					'demilitarizatoin',
+					'demilitarizaton',
+				],
 				'demimondaine'=>[
 					'demimondaini',
+					'demimondiane',
+				],
+				'demimondaines'=>[
+					'demimondianes',
+				],
+				'demineralization'=>[
+					'demineralizatoin',
+					'demineralizaton',
+				],
+				'demineralizations'=>[
+					'demineralizatoins',
+					'demineralizatons',
 				],
 				'demineralize'=>[
 					'deminiralize',
@@ -2684,6 +4736,9 @@
 				'demineralizing'=>[
 					'deminiralizing',
 				],
+				'demirelief'=>[
+					'demireleif',
+				],
 				'demisemiquaver'=>[
 					'demisemiqauver',
 				],
@@ -2693,6 +4748,8 @@
 				'demission'=>[
 					'demision',
 					'demisssion',
+					'demissoin',
+					'demisson',
 				],
 				'demitasse'=>[
 					'demitase',
@@ -2701,6 +4758,18 @@
 				'demitasses'=>[
 					'demitases',
 					'demitassses',
+				],
+				'demiurge'=>[
+					'demuirge',
+				],
+				'demiurges'=>[
+					'demuirges',
+				],
+				'demiurgic'=>[
+					'demuirgic',
+				],
+				'demiurgical'=>[
+					'demuirgical',
 				],
 				'demo tape'=>[
 					'demotape',
@@ -2716,6 +4785,13 @@
 					'demobing',
 					'demobbbing',
 				],
+				'demobilization'=>[
+					'demobilizatoin',
+					'demobilizaton',
+				],
+				'democracies'=>[
+					'democraceis',
+				],
 				'democracy'=>[
 					'democrasy',
 				],
@@ -2729,12 +4805,29 @@
 					'democraticallly',
 					'democraticaly',
 				],
+				'democratization'=>[
+					'democratizatoin',
+					'democratizaton',
+				],
+				'demodulation'=>[
+					'demodulatoin',
+					'demodulaton',
+				],
+				'demoed'=>[
+					'demeod',
+				],
 				'demographic'=>[
 					'demographical',
+					'demgraphic',
+					'demoraphic',
 				],
 				'demographically'=>[
 					'demographicaly',
 					'demographicallly',
+				],
+				'demographics'=>[
+					'demgraphics',
+					'demoraphics',
 				],
 				'demographies'=>[
 					'demographeis',
@@ -2743,13 +4836,18 @@
 				'demography'=>[
 					'dempography',
 				],
+				'demoing'=>[
+					'demiong',
+				],
 				'demoiselle'=>[
 					'demoisele',
 					'demoisellle',
+					'demioselle',
 				],
 				'demoiselles'=>[
 					'demoiseles',
 					'demoisellles',
+					'demioselles',
 				],
 				'demokrat'=>[
 					'deraokrat',
@@ -2757,15 +4855,38 @@
 				'demolished'=>[
 					'demolislied',
 				],
+				'demolition'=>[
+					'demolitoin',
+					'demoliton',
+				],
+				'demolitionist'=>[
+					'demolitoinist',
+					'demolitonist',
+				],
+				'demolitions'=>[
+					'demolitoins',
+					'demolitons',
+				],
 				'demon'=>[
 					'dcmon',
+				],
+				'demonetization'=>[
+					'demonetizatoin',
+					'demonetizaton',
 				],
 				'demonetized'=>[
 					'demonitized',
 				],
+				'demoniac'=>[
+					'demonaic',
+				],
+				'demoniacal'=>[
+					'demonaical',
+				],
 				'demoniacally'=>[
 					'demoniacallly',
 					'demoniacaly',
+					'demonaically',
 				],
 				'demonian'=>[
 					'demonan',
@@ -2774,9 +4895,23 @@
 					'demonicallly',
 					'demonicaly',
 				],
+				'demonization'=>[
+					'demonizatoin',
+					'demonizaton',
+				],
+				'demonolatries'=>[
+					'demonolatreis',
+				],
 				'demonologies'=>[
 					'demonologeis',
 					'demonologis',
+				],
+				'demonstrabilities'=>[
+					'demonstrabiliteis',
+					'demonstribilities',
+				],
+				'demonstrability'=>[
+					'demonstribility',
 				],
 				'demonstrable'=>[
 					'demonstrible',
@@ -2786,6 +4921,7 @@
 					'demonstrabaly',
 					'demonstrabely',
 					'demonstrablly',
+					'demonstribly',
 				],
 				'demonstrate'=>[
 					'demonstate',
@@ -2797,6 +4933,12 @@
 					'demonstartion',
 					'demonftration',
 					'dernonstration',
+					'demonstratoin',
+					'demonstraton',
+				],
+				'demonstrations'=>[
+					'demonstratoins',
+					'demonstratons',
 				],
 				'demonstratively'=>[
 					'demonstrativeally',
@@ -2811,6 +4953,8 @@
 				],
 				'demoralization'=>[
 					'demouralization',
+					'demoralizatoin',
+					'demoralizaton',
 				],
 				'demoralizations'=>[
 					'demouralizations',
@@ -2836,8 +4980,41 @@
 				'demoralizingly'=>[
 					'demouralizingly',
 				],
+				'demoting'=>[
+					'demting',
+				],
+				'demotion'=>[
+					'demotoin',
+					'demoton',
+				],
+				'demotions'=>[
+					'demotoins',
+					'demotons',
+				],
+				'demount'=>[
+					'demuont',
+				],
+				'demountable'=>[
+					'demountible',
+					'demuontable',
+				],
+				'demounted'=>[
+					'demuonted',
+				],
+				'demounting'=>[
+					'demuonting',
+				],
 				'demulcent'=>[
 					'demulcant',
+				],
+				'demulcents'=>[
+					'demulcants',
+				],
+				'demulsified'=>[
+					'demulsifeid',
+				],
+				'demulsifies'=>[
+					'demulsifeis',
 				],
 				'demurely'=>[
 					'demurly',
@@ -2881,11 +5058,68 @@
 				'demyelination'=>[
 					'demyelization',
 				],
+				'demystification'=>[
+					'demystificatoin',
+					'demystificaton',
+				],
+				'demystified'=>[
+					'demystifeid',
+				],
+				'demystifies'=>[
+					'demystifeis',
+				],
+				'demythologization'=>[
+					'demythologizatoin',
+					'demythologizaton',
+				],
+				'demythologizations'=>[
+					'demythologizatoins',
+					'demythologizatons',
+				],
 				'denar'=>[
 					'dener',
 				],
+				'denarius'=>[
+					'denaruis',
+				],
 				'denary'=>[
 					'denery',
+				],
+				'denationalization'=>[
+					'denationalizatoin',
+					'denationalizaton',
+					'denatoinalization',
+				],
+				'denationalize'=>[
+					'denatoinalize',
+				],
+				'denationalized'=>[
+					'denatoinalized',
+				],
+				'denationalizes'=>[
+					'denatoinalizes',
+				],
+				'denationalizing'=>[
+					'denatoinalizing',
+				],
+				'denaturant'=>[
+					'denaturent',
+				],
+				'denaturants'=>[
+					'denaturents',
+				],
+				'denaturation'=>[
+					'denaturatoin',
+					'denaturaton',
+				],
+				'denatured'=>[
+					'denaturd',
+				],
+				'denazified'=>[
+					'denazifeid',
+				],
+				'denazifies'=>[
+					'denazifeis',
 				],
 				'dendritic'=>[
 					'dentritic',
@@ -2896,6 +5130,9 @@
 				'dendrogram'=>[
 					'dendogram',
 				],
+				'dendroid'=>[
+					'dendriod',
+				],
 				'dendrologies'=>[
 					'dendrologeis',
 					'dendrologis',
@@ -2903,19 +5140,40 @@
 				'dendrophylliid'=>[
 					'dendrophyliid',
 				],
+				'denegation'=>[
+					'denegatoin',
+					'denegaton',
+				],
+				'dengue'=>[
+					'dengeu',
+				],
 				'deniabilities'=>[
 					'deniabiliteis',
 					'deniabilitis',
 				],
+				'deniability'=>[
+					'denaibility',
+				],
 				'deniable'=>[
 					'deniible',
+					'denaible',
+				],
+				'deniably'=>[
+					'denaibly',
 				],
 				'denied'=>[
 					'clenied',
+					'deneid',
 				],
 				'denier'=>[
 					'deneir',
 					'denir',
+				],
+				'deniers'=>[
+					'deneirs',
+				],
+				'denies'=>[
+					'deneis',
 				],
 				'denigrate'=>[
 					'denegrate',
@@ -2923,8 +5181,19 @@
 				'denigrating'=>[
 					'denegrating',
 				],
+				'denigration'=>[
+					'denigratoin',
+					'denigraton',
+				],
+				'denigrations'=>[
+					'denigratoins',
+					'denigratons',
+				],
 				'denitrification'=>[
 					'dentrification',
+				],
+				'denitrified'=>[
+					'denitrifeid',
 				],
 				'denitrifier'=>[
 					'dentrifier',
@@ -2932,6 +5201,9 @@
 				'denitrifiers'=>[
 					'denitrifeirs',
 					'denitrifirs',
+				],
+				'denitrifies'=>[
+					'denitrifeis',
 				],
 				'denizened'=>[
 					'denizend',
@@ -2945,6 +5217,21 @@
 				'denomination'=>[
 					'denominaton',
 					'denominition',
+					'denominatoin',
+				],
+				'denominational'=>[
+					'denominatoinal',
+					'denominatonal',
+				],
+				'denominationalism'=>[
+					'denominatoinalism',
+				],
+				'denominationalisms'=>[
+					'denominatoinalisms',
+				],
+				'denominations'=>[
+					'denominatoins',
+					'denominatons',
 				],
 				'denominative'=>[
 					'denominitive',
@@ -2954,6 +5241,58 @@
 				],
 				'denosumab'=>[
 					'denasumab',
+				],
+				'denotation'=>[
+					'denotatoin',
+					'denotaton',
+				],
+				'denotational'=>[
+					'denotatoinal',
+					'denotatonal',
+				],
+				'denotations'=>[
+					'denotatoins',
+					'denotatons',
+				],
+				'denotatively'=>[
+					'denotativly',
+				],
+				'denouement'=>[
+					'denoeument',
+					'denouemant',
+					'denuoement',
+				],
+				'denouements'=>[
+					'denoeuments',
+					'denouemants',
+					'denuoements',
+				],
+				'denounce'=>[
+					'denunce',
+					'denuonce',
+					'deounce',
+				],
+				'denounced'=>[
+					'denuonced',
+				],
+				'denouncement'=>[
+					'denouncemant',
+					'denuoncement',
+				],
+				'denouncements'=>[
+					'denouncemants',
+					'denuoncements',
+				],
+				'denouncer'=>[
+					'denuoncer',
+				],
+				'denounces'=>[
+					'denunces',
+					'denuonces',
+					'deounces',
+				],
+				'denouncing'=>[
+					'denuoncing',
 				],
 				'dense'=>[
 					'dence',
@@ -2970,6 +5309,9 @@
 				],
 				'densimetrically'=>[
 					'densometrically',
+				],
+				'densities'=>[
+					'densiteis',
 				],
 				'dent'=>[
 					'dant',
@@ -2988,6 +5330,7 @@
 				],
 				'dentalium'=>[
 					'dantalium',
+					'dentaluim',
 				],
 				'dentaliums'=>[
 					'dantaliums',
@@ -2996,6 +5339,8 @@
 					'dantally',
 					'dentallly',
 					'dentaly',
+					'denally',
+					'detally',
 				],
 				'dentals'=>[
 					'dantals',
@@ -3012,6 +5357,8 @@
 				],
 				'dentation'=>[
 					'dantation',
+					'dentatoin',
+					'dentaton',
 				],
 				'dentations'=>[
 					'dantations',
@@ -3037,6 +5384,8 @@
 				],
 				'denticulation'=>[
 					'danticulation',
+					'denticulatoin',
+					'denticulaton',
 				],
 				'denticulations'=>[
 					'danticulations',
@@ -3053,8 +5402,14 @@
 				'dentil'=>[
 					'dantil',
 				],
+				'dentilabial'=>[
+					'dentilabail',
+				],
 				'dentiled'=>[
 					'dantiled',
+				],
+				'dentilingual'=>[
+					'dentilingaul',
 				],
 				'dentils'=>[
 					'dantils',
@@ -3091,12 +5446,15 @@
 				],
 				'dentition'=>[
 					'dantition',
+					'dentitoin',
+					'dentiton',
 				],
 				'dentitions'=>[
 					'dantitions',
 				],
 				'dentoid'=>[
 					'dantoid',
+					'dentiod',
 				],
 				'dents'=>[
 					'dants',
@@ -3121,26 +5479,106 @@
 				],
 				'denuclearize'=>[
 					'denuclerize',
+					'denuclaerize',
 				],
 				'denuclearized'=>[
 					'denuclerized',
+					'denuclaerized',
 				],
 				'denuclearizes'=>[
 					'denuclerizes',
+					'denuclaerizes',
 				],
 				'denuclearizing'=>[
 					'denuclerizing',
+					'denuclaerizing',
+				],
+				'denudation'=>[
+					'denudatoin',
+					'denudaton',
+				],
+				'denumerable'=>[
+					'denumerible',
+				],
+				'denunciate'=>[
+					'denuncaite',
+				],
+				'denunciation'=>[
+					'denuncaition',
+					'denunciatoin',
+					'denunciaton',
+				],
+				'denunciations'=>[
+					'denuncaitions',
+					'denunciatoins',
+					'denunciatons',
+				],
+				'denunciative'=>[
+					'denuncaitive',
+				],
+				'denunciatory'=>[
+					'denuncaitory',
+				],
+				'deodand'=>[
+					'doedand',
 				],
 				'deodar'=>[
 					'deoder',
+					'doedar',
+				],
+				'deodars'=>[
+					'doedars',
 				],
 				'deodorant'=>[
 					'deodorent',
 					'deoderant',
+					'doedorant',
+				],
+				'deodorants'=>[
+					'deodorents',
+					'doedorants',
+				],
+				'deodorization'=>[
+					'deodorizatoin',
+					'deodorizaton',
+					'doedorization',
+				],
+				'deodorize'=>[
+					'doedorize',
+				],
+				'deodorized'=>[
+					'doedorized',
+				],
+				'deodorizer'=>[
+					'doedorizer',
+				],
+				'deodorizers'=>[
+					'doedorizers',
+				],
+				'deodorizes'=>[
+					'doedorizes',
+				],
+				'deodorizing'=>[
+					'doedorizing',
 				],
 				'deontologies'=>[
 					'deontologeis',
 					'deontologis',
+				],
+				'deontology'=>[
+					'doentology',
+				],
+				'deoxidize'=>[
+					'doexidize',
+				],
+				'deoxidized'=>[
+					'doexidized',
+				],
+				'deoxidizes'=>[
+					'doexidizes',
+				],
+				'deoxidizing'=>[
+					'doexidizing',
 				],
 				'deoxyadenosine'=>[
 					'deoxyadenine',
@@ -3148,11 +5586,22 @@
 				'deoxycholate'=>[
 					'deoxylate',
 				],
+				'deoxygenate'=>[
+					'doexygenate',
+				],
 				'deoxypyridoxine'=>[
 					'deoxypiridoxine',
 				],
 				'deoxyribonuclease'=>[
 					'deoxiribonuclease',
+					'deoxyribonuclaese',
+					'doexyribonuclease',
+				],
+				'deoxyribose'=>[
+					'doexyribose',
+				],
+				'deoxyriboses'=>[
+					'doexyriboses',
 				],
 				'deoxyuridine'=>[
 					'desoxiuridine',
@@ -3181,6 +5630,12 @@
 				],
 				'departmental'=>[
 					'depertmental',
+					'deparmental',
+					'departental',
+				],
+				'departmentalization'=>[
+					'departmentalizatoin',
+					'departmentalizaton',
 				],
 				'departmentalize'=>[
 					'departmantalize',
@@ -3193,11 +5648,14 @@
 					'departmentallly',
 					'depertmentally',
 					'departmentaly',
+					'deparmentally',
+					'departentally',
 				],
 				'departments'=>[
 					'depart- ments',
 					'depart-ments',
 					'depertments',
+					'departmants',
 				],
 				'departs'=>[
 					'deperts',
@@ -3218,12 +5676,18 @@
 					'dependabiliteis',
 					'dependabilitis',
 				],
+				'dependability'=>[
+					'depenability',
+					'dependbility',
+					'dependibility',
+				],
 				'dependable'=>[
 					'dependible',
 				],
 				'dependableness'=>[
 					'dependablenes',
 					'dependablenesss',
+					'dependibleness',
 				],
 				'dependablenesses'=>[
 					'dependableneses',
@@ -3234,6 +5698,7 @@
 					'dependabaly',
 					'dependabely',
 					'dependablly',
+					'dependibly',
 				],
 				'dependance'=>[
 					'depenedence',
@@ -3256,14 +5721,29 @@
 					'dependancy',
 					'dependensy',
 				],
+				'dependently'=>[
+					'dependentely',
+				],
 				'depends'=>[
 					'depencls',
+				],
+				'depersonalization'=>[
+					'depersonalizatoin',
+					'depersonalizaton',
 				],
 				'depicted'=>[
 					'dipicted',
 				],
 				'depicting'=>[
 					'clepicting',
+				],
+				'depiction'=>[
+					'depictoin',
+					'depicton',
+				],
+				'depictions'=>[
+					'depictoins',
+					'depictons',
 				],
 				'depigmentation'=>[
 					'depigmantation',
@@ -3275,6 +5755,13 @@
 					'depilatoreis',
 					'depilatoris',
 				],
+				'deplaned'=>[
+					'depland',
+				],
+				'depletion'=>[
+					'depletoin',
+					'depleton',
+				],
 				'deplorable'=>[
 					'deplorible',
 				],
@@ -3283,12 +5770,63 @@
 					'deplorabaly',
 					'deplorabely',
 					'deplorablly',
+					'deploribly',
+				],
+				'deplored'=>[
+					'deplord',
+				],
+				'deployability'=>[
+					'deploability',
+					'deploybility',
+					'deployibility',
+				],
+				'deployable'=>[
+					'deployible',
+				],
+				'deployment'=>[
+					'deploymant',
+				],
+				'deployments'=>[
+					'deploymants',
+				],
+				'depolarization'=>[
+					'depolarizatoin',
+					'depolarizaton',
+				],
+				'depolarizations'=>[
+					'depolarizatoins',
+					'depolarizatons',
+				],
+				'depoliticization'=>[
+					'depoliticizatoin',
+					'depoliticizaton',
 				],
 				'depolymerizing'=>[
 					'depolymerizating',
 				],
+				'deponed'=>[
+					'depond',
+				],
+				'deponent'=>[
+					'deponant',
+				],
+				'deponents'=>[
+					'deponants',
+				],
+				'depopulation'=>[
+					'depopulatoin',
+					'depopulaton',
+				],
 				'deportable'=>[
 					'deportible',
+				],
+				'deportation'=>[
+					'deportatoin',
+					'deportaton',
+				],
+				'deportations'=>[
+					'deportatoins',
+					'deportatons',
 				],
 				'deportee'=>[
 					'deporte',
@@ -3297,6 +5835,9 @@
 				'deportees'=>[
 					'deporteees',
 					'deportes',
+				],
+				'deportment'=>[
+					'deportmant',
 				],
 				'deposed'=>[
 					'depofed',
@@ -3314,6 +5855,18 @@
 				'deposited'=>[
 					'depofited',
 				],
+				'deposition'=>[
+					'depositoin',
+					'depositon',
+				],
+				'depositional'=>[
+					'depositoinal',
+					'depositonal',
+				],
+				'depositions'=>[
+					'depositoins',
+					'depositons',
+				],
 				'depositories'=>[
 					'depositoreis',
 					'depositoris',
@@ -3321,8 +5874,57 @@
 				'depraved'=>[
 					'depreaved',
 				],
+				'depravities'=>[
+					'depraviteis',
+				],
+				'deprecation'=>[
+					'deprecatoin',
+					'deprecaton',
+				],
+				'deprecations'=>[
+					'deprecatoins',
+					'deprecatons',
+				],
 				'depreciable'=>[
 					'depreciible',
+					'deprecaible',
+				],
+				'depreciate'=>[
+					'deprecaite',
+				],
+				'depreciated'=>[
+					'deprecaited',
+				],
+				'depreciates'=>[
+					'deprecaites',
+				],
+				'depreciating'=>[
+					'deprecaiting',
+				],
+				'depreciation'=>[
+					'deprecaition',
+					'depreciatoin',
+					'depreciaton',
+				],
+				'depreciative'=>[
+					'deprecaitive',
+				],
+				'depreciator'=>[
+					'deprecaitor',
+				],
+				'depreciators'=>[
+					'deprecaitors',
+				],
+				'depreciatory'=>[
+					'deprecaitory',
+				],
+				'depredation'=>[
+					'depredatoin',
+					'depredaton',
+				],
+				'depredations'=>[
+					'depredatoins',
+					'depredatons',
 				],
 				'depress'=>[
 					'depres',
@@ -3336,6 +5938,7 @@
 				'depressants'=>[
 					'depresants',
 					'depresssants',
+					'depressents',
 				],
 				'depressed'=>[
 					'depresed',
@@ -3359,10 +5962,14 @@
 				'depression'=>[
 					'depresion',
 					'depresssion',
+					'depressoin',
+					'depresson',
 				],
 				'depressions'=>[
 					'depresions',
 					'depresssions',
+					'depressoins',
+					'depressons',
 				],
 				'depressive'=>[
 					'depresive',
@@ -3371,6 +5978,7 @@
 				'depressively'=>[
 					'depresively',
 					'depresssively',
+					'depressivly',
 				],
 				'depressives'=>[
 					'depresives',
@@ -3387,6 +5995,8 @@
 				'depressurization'=>[
 					'depresssurization',
 					'depresurization',
+					'depressurizatoin',
+					'depressurizaton',
 				],
 				'depressurize'=>[
 					'depresurize',
@@ -3403,6 +6013,14 @@
 				'depressurizing'=>[
 					'depresssurizing',
 					'depresurizing',
+				],
+				'deprivation'=>[
+					'deprivatoin',
+					'deprivaton',
+				],
+				'deprivations'=>[
+					'deprivatoins',
+					'deprivatons',
 				],
 				'deprogrammed'=>[
 					'deprogrammmed',
@@ -3424,14 +6042,65 @@
 				'deputable'=>[
 					'deputible',
 				],
+				'deputation'=>[
+					'deputatoin',
+					'deputaton',
+				],
+				'deputations'=>[
+					'deputatoins',
+					'deputatons',
+				],
+				'deputies'=>[
+					'deputeis',
+				],
 				'depyrimidination'=>[
 					'depyrimidation',
 				],
 				'deracinate'=>[
 					'deracinite',
 				],
+				'deracination'=>[
+					'deracinatoin',
+					'deracinaton',
+				],
+				'deraign'=>[
+					'deriagn',
+				],
+				'derail'=>[
+					'derial',
+				],
+				'derailed'=>[
+					'derialed',
+				],
+				'derailing'=>[
+					'derialing',
+				],
 				'derailleur'=>[
 					'derailler',
+				],
+				'derailment'=>[
+					'derailmant',
+					'derialment',
+				],
+				'derailments'=>[
+					'derailmants',
+					'derialments',
+				],
+				'derails'=>[
+					'derials',
+				],
+				'derain'=>[
+					'derian',
+				],
+				'derangement'=>[
+					'derangemant',
+				],
+				'deration'=>[
+					'deratoin',
+					'deraton',
+				],
+				'derbies'=>[
+					'derbeis',
 				],
 				'derealization'=>[
 					'derelization',
@@ -3442,8 +6111,23 @@
 				'dereferenceable'=>[
 					'dereferencable',
 				],
+				'deregulation'=>[
+					'deregulatoin',
+					'deregulaton',
+				],
+				'dereism'=>[
+					'deriesm',
+				],
 				'derelict'=>[
 					'derilict',
+				],
+				'dereliction'=>[
+					'derelictoin',
+					'derelicton',
+				],
+				'derelictions'=>[
+					'derelictoins',
+					'derelictons',
 				],
 				'derepressing'=>[
 					'derepresing',
@@ -3456,6 +6140,8 @@
 				],
 				'derision'=>[
 					'derifion',
+					'derisoin',
+					'derison',
 				],
 				'derisively'=>[
 					'derisivly',
@@ -3464,6 +6150,21 @@
 				'derisiveness'=>[
 					'derisivenes',
 					'derisivenesss',
+				],
+				'derivable'=>[
+					'derivible',
+				],
+				'derivation'=>[
+					'derivatoin',
+					'derivaton',
+				],
+				'derivational'=>[
+					'derivatoinal',
+					'derivatonal',
+				],
+				'derivations'=>[
+					'derivatoins',
+					'derivatons',
 				],
 				'derivative'=>[
 					'deriviative',
@@ -3481,8 +6182,15 @@
 					'drived',
 					'clerived',
 				],
+				'dermabrasion'=>[
+					'dermabrasoin',
+					'dermabrason',
+				],
 				'dermatitis'=>[
 					'dermititis',
+				],
+				'dermatoid'=>[
+					'dermatiod',
 				],
 				'dermatologies'=>[
 					'dermatologeis',
@@ -3497,8 +6205,15 @@
 				'dermcidin'=>[
 					'dermicidin',
 				],
+				'dermoid'=>[
+					'dermiod',
+				],
 				'dermotropic'=>[
 					'dermotrophic',
+				],
+				'derogation'=>[
+					'derogatoin',
+					'derogaton',
 				],
 				'derogatory'=>[
 					'derogitory',
@@ -3533,8 +6248,14 @@
 				'desalinate'=>[
 					'desalinite',
 				],
+				'desalination'=>[
+					'desalinatoin',
+					'desalinaton',
+				],
 				'desalinization'=>[
 					'desalinazation',
+					'desalinizatoin',
+					'desalinizaton',
 				],
 				'desalinizations'=>[
 					'desalinazations',
@@ -3551,6 +6272,16 @@
 				'desalinizing'=>[
 					'desalinazing',
 				],
+				'descale'=>[
+					'decale',
+					'desale',
+					'discale',
+				],
+				'descales'=>[
+					'decales',
+					'desales',
+					'discales',
+				],
 				'descant'=>[
 					'decant',
 					'decsant',
@@ -3562,6 +6293,7 @@
 					'decsend',
 					'desend',
 					'defcend',
+					'discend',
 				],
 				'descendant'=>[
 					'decendant',
@@ -3572,15 +6304,21 @@
 					'descendnat',
 					'descentant',
 					'desendant',
+					'discendant',
 				],
 				'descendants'=>[
 					# descendents: an accepted spelling, not a slip (AmericanBritishWords_D: descendants)
 				#	'descendents',
 					'descendnats',
+					'decendants',
+					'desendants',
+					'discendants',
 				],
 				'descended'=>[
 					'decended',
 					'defcended',
+					'desended',
+					'discended',
 				],
 				'descendent'=>[
 					'decendant',
@@ -3589,16 +6327,36 @@
 					# descendant: an accepted spelling, not a slip (AmericanBritishWords_D: descendant)
 				#	'descendant',
 					'desendent',
+					'discendent',
 				],
 				'descendents'=>[
 					'descendeants',
 				],
+				'descender'=>[
+					'decender',
+					'desender',
+					'discender',
+				],
+				'descenders'=>[
+					'decenders',
+					'desenders',
+					'discenders',
+				],
 				'descendible'=>[
 					'descendable',
+					'decendible',
+					'desendible',
+					'discendible',
 				],
 				'descending'=>[
 					'decending',
 					'desending',
+					'discending',
+				],
+				'descends'=>[
+					'decends',
+					'desends',
+					'discends',
 				],
 				'descent'=>[
 					'desccent',
@@ -3606,6 +6364,12 @@
 					'descant',
 					'desent',
 					'defcent',
+				],
+				'describable'=>[
+					'decribable',
+					'describible',
+					'desribable',
+					'discribable',
 				],
 				'describe'=>[
 					'decribe',
@@ -3626,14 +6390,38 @@
 					'descnbed',
 					'describecl',
 					'deseribed',
+					'desribed',
+				],
+				'describer'=>[
+					'decriber',
+					'desriber',
+					'discriber',
+				],
+				'describers'=>[
+					'decribers',
+					'desribers',
+					'discribers',
 				],
 				'describes'=>[
 					'discribes',
 					'descnbes',
+					'decribes',
+					'desribes',
 				],
 				'describing'=>[
 					'decribing',
 					'discribing',
+					'desribing',
+				],
+				'descried'=>[
+					'descreid',
+					'desried',
+					'discried',
+				],
+				'descries'=>[
+					'descreis',
+					'desries',
+					'discries',
 				],
 				'description'=>[
 					'decription',
@@ -3643,17 +6431,28 @@
 					'desciption',
 					'defcription',
 					'descnption',
+					'descriptoin',
+					'descripton',
 				],
 				'descriptions'=>[
 					'defcriptions',
+					'decriptions',
+					'descriptoins',
+					'descriptons',
+					'desriptions',
+					'discriptions',
 				],
 				'descriptive'=>[
 					'decriptive',
 					'decsriptive',
 					'desriptive',
+					'discriptive',
 				],
 				'descriptively'=>[
 					'descriptivly',
+					'decriptively',
+					'desriptively',
+					'discriptively',
 				],
 				'descriptiveness'=>[
 					'decriptiveness',
@@ -3661,16 +6460,53 @@
 					'descriptivenes',
 					'desriptiveness',
 					'descriptivenesss',
+					'discriptiveness',
+				],
+				'descriptivism'=>[
+					'decriptivism',
+					'desriptivism',
+					'discriptivism',
 				],
 				'descriptor'=>[
 					'decriptor',
 					'decsriptor',
 					'desriptor',
+					'discriptor',
+				],
+				'descriptors'=>[
+					'decriptors',
+					'desriptors',
+					'discriptors',
 				],
 				'descry'=>[
 					'decsry',
 					'decsry',
 					'desry',
+					'discry',
+				],
+				'descrying'=>[
+					'desrying',
+					'discrying',
+				],
+				'desecration'=>[
+					'desecratoin',
+					'desecraton',
+				],
+				'desegregation'=>[
+					'desegregatoin',
+					'desegregaton',
+				],
+				'desegregationist'=>[
+					'desegregatoinist',
+					'desegregatonist',
+				],
+				'deselection'=>[
+					'deselectoin',
+					'deselecton',
+				],
+				'desensitization'=>[
+					'desensitizatoin',
+					'desensitizaton',
 				],
 				'desert'=>[
 					'desert desert',
@@ -3686,11 +6522,21 @@
 				'deserters'=>[
 					'deferters',
 				],
+				'desertification'=>[
+					'desertificatoin',
+					'desertificaton',
+				],
 				'deserting'=>[
 					'deferting',
 				],
 				'desertion'=>[
 					'defertion',
+					'desertoin',
+					'deserton',
+				],
+				'desertions'=>[
+					'desertoins',
+					'desertons',
 				],
 				'deserts'=>[
 					'deferts',
@@ -3715,6 +6561,12 @@
 				'desexualize'=>[
 					'desexaulize',
 				],
+				'desexualized'=>[
+					'desexaulized',
+				],
+				'desexualizes'=>[
+					'desexaulizes',
+				],
 				'desexualizing'=>[
 					'desexaulizing',
 				],
@@ -3726,6 +6578,7 @@
 				'desiccants'=>[
 					'desicants',
 					'desicccants',
+					'desiccents',
 				],
 				'desiccate'=>[
 					'desicate',
@@ -3749,6 +6602,8 @@
 					'desication',
 					'dessication',
 					'desicccation',
+					'desiccatoin',
+					'desiccaton',
 				],
 				'desiccations'=>[
 					'desications',
@@ -3775,8 +6630,19 @@
 					'clesign',
 					'defign',
 				],
+				'designable'=>[
+					'designible',
+				],
 				'designate'=>[
 					'desginate',
+				],
+				'designation'=>[
+					'designatoin',
+					'designaton',
+				],
+				'designations'=>[
+					'designatoins',
+					'designatons',
 				],
 				'designed'=>[
 					'desgined',
@@ -3785,6 +6651,7 @@
 					'clesigned',
 					'defigned',
 					'designecl',
+					'designd',
 				],
 				'designedly'=>[
 					'designedally',
@@ -3818,6 +6685,9 @@
 				'desipramine'=>[
 					'desipramini',
 				],
+				'desirability'=>[
+					'desiribility',
+				],
 				'desirable'=>[
 					'desireable',
 					'desirible',
@@ -3826,9 +6696,13 @@
 				'desirableness'=>[
 					'desirablenes',
 					'desirablenesss',
+					'desiribleness',
 				],
 				'desirablenesses'=>[
 					'desirableneses',
+				],
+				'desirably'=>[
+					'desiribly',
 				],
 				'desire'=>[
 					'clesire',
@@ -3837,6 +6711,7 @@
 				],
 				'desired'=>[
 					'defired',
+					'desird',
 				],
 				'desires'=>[
 					'defires',
@@ -3846,6 +6721,7 @@
 				],
 				'desirous'=>[
 					'defirous',
+					'desiruos',
 				],
 				'desistance'=>[
 					'desistence',
@@ -3853,27 +6729,52 @@
 				'deskill'=>[
 					'deskil',
 					'deskilll',
+					'diskill',
 				],
 				'deskilled'=>[
 					'deskiled',
 					'deskillled',
+					'diskilled',
 				],
 				'deskilling'=>[
 					'deskiling',
 					'deskillling',
+					'diskilling',
 				],
 				'deskills'=>[
 					'deskillls',
 					'deskils',
+					'diskills',
+				],
+				'desktop'=>[
+					'disktop',
+				],
+				'desktops'=>[
+					'deskops',
+					'destops',
+					'disktops',
 				],
 				'desloratadine'=>[
 					'desloratidine',
 				],
+				'desmid'=>[
+					'dismid',
+				],
 				'desmidian'=>[
 					'desmidan',
 				],
+				'desmids'=>[
+					'dismids',
+				],
 				'desmoglein'=>[
 					'desmogelin',
+				],
+				'desmoid'=>[
+					'desmiod',
+					'dismoid',
+				],
+				'desmond'=>[
+					'dismond',
 				],
 				'desmosomal'=>[
 					'desomosomal',
@@ -3888,18 +6789,48 @@
 					'desolatenes',
 					'desolatenesss',
 				],
+				'desolation'=>[
+					'desolatoin',
+					'desolaton',
+				],
+				'desorption'=>[
+					'desorptoin',
+					'desorpton',
+				],
 				'despair'=>[
 					'dispair',
 					'dcspair',
+					'despiar',
+				],
+				'despaired'=>[
+					'despaird',
+					'despiared',
+				],
+				'despairing'=>[
+					'despiaring',
 				],
 				'despairingly'=>[
 					'disparingly',
+					'despiaringly',
+				],
+				'despairs'=>[
+					'despiars',
 				],
 				'despatch'=>[
 					'despatcli',
 				],
 				'despatched'=>[
 					'despatclied',
+				],
+				'desperado'=>[
+					'disperado',
+				],
+				'desperadoes'=>[
+					'desperadeos',
+					'disperadoes',
+				],
+				'desperados'=>[
+					'disperados',
 				],
 				'desperate'=>[
 					'desparate',
@@ -3922,6 +6853,8 @@
 				'desperation'=>[
 					'desparation',
 					'despiration',
+					'desperatoin',
+					'desperaton',
 				],
 				'despicable'=>[
 					'despicible',
@@ -3933,16 +6866,21 @@
 				'despicableness'=>[
 					'despicablenes',
 					'despicablenesss',
+					'despicibleness',
+					'dispicableness',
 				],
 				'despicablenesses'=>[
 					'despicableneses',
 					'despicablenessses',
+					'dispicablenesses',
 				],
 				'despicably'=>[
 					'despicabally',
 					'despicabaly',
 					'despicabely',
 					'despicablly',
+					'despicibly',
+					'dispicably',
 				],
 				'despiritualize'=>[
 					'despiritaulize',
@@ -3955,17 +6893,67 @@
 				],
 				'despise'=>[
 					'defpife',
+					'dispise',
 				],
 				'despised'=>[
 					'defpifed',
+					'dispised',
+				],
+				'despiser'=>[
+					'dispiser',
+				],
+				'despises'=>[
+					'dispises',
+				],
+				'despising'=>[
+					'dispising',
 				],
 				'despite'=>[
 					'dispite',
 					'clespite',
 					'defpile',
 				],
+				'despiteful'=>[
+					'dispiteful',
+				],
+				'despoil'=>[
+					'despiol',
+					'dispoil',
+				],
+				'despoiled'=>[
+					'despioled',
+					'dispoiled',
+				],
+				'despoiler'=>[
+					'despioler',
+					'dispoiler',
+				],
+				'despoilers'=>[
+					'despiolers',
+					'dispoilers',
+				],
+				'despoiling'=>[
+					'despioling',
+					'dispoiling',
+				],
+				'despoilment'=>[
+					'despiolment',
+					'despoilmant',
+					'dispoilment',
+				],
+				'despoils'=>[
+					'despiols',
+					'dispoils',
+				],
+				'despoliation'=>[
+					'despolaition',
+					'despoliatoin',
+					'despoliaton',
+					'dispoliation',
+				],
 				'despondence'=>[
 					'despondance',
+					'dispondence',
 				],
 				'despondencies'=>[
 					'despondenceis',
@@ -3973,19 +6961,56 @@
 				],
 				'despondency'=>[
 					'despondensy',
+					'despondancy',
+					'dispondency',
 				],
 				'despondent'=>[
 					'despondant',
+					'dispondent',
 				],
 				'despondently'=>[
 					'despondantly',
+					'despondentely',
+					'dispondently',
+				],
+				'despondingly'=>[
+					'dispondingly',
+				],
+				'despot'=>[
+					'dispot',
+				],
+				'despotic'=>[
+					'dispotic',
 				],
 				'despotically'=>[
 					'despoticallly',
 					'despoticaly',
+					'dispotically',
+				],
+				'despotism'=>[
+					'dispotism',
+				],
+				'despots'=>[
+					'dispots',
+				],
+				'despumate'=>[
+					'dispumate',
 				],
 				'desquamate'=>[
 					'desqaumate',
+					'disquamate',
+				],
+				'desquamated'=>[
+					'desqaumated',
+					'disquamated',
+				],
+				'desquamates'=>[
+					'desqaumates',
+					'disquamates',
+				],
+				'desquamating'=>[
+					'desqaumating',
+					'disquamating',
 				],
 				'desquamations'=>[
 					'desqaumations',
@@ -4002,54 +7027,107 @@
 					'desssertspoon',
 					'dessertspon',
 					'dessertspooon',
+					'desserspoon',
+					'dessertpoon',
+					'dissertspoon',
 				],
 				'dessertspoonful'=>[
 					'desertspoonful',
 					'desssertspoonful',
 					'dessertsponful',
 					'dessertspooonful',
+					'desserspoonful',
+					'dessertpoonful',
+					'dissertspoonful',
 				],
 				'dessertspoonfuls'=>[
 					'desertspoonfuls',
 					'desssertspoonfuls',
 					'dessertsponfuls',
 					'dessertspooonfuls',
+					'dissertspoonfuls',
 				],
 				'dessertspoons'=>[
 					'desertspoons',
 					'desssertspoons',
 					'dessertspons',
 					'dessertspooons',
+					'desserspoons',
+					'dessertpoons',
+					'dissertspoons',
 				],
 				'dessertspoonsful'=>[
 					'desertspoonsful',
 					'desssertspoonsful',
 					'dessertsponsful',
 					'dessertspooonsful',
+					'dissertspoonsful',
 				],
 				'dessiatine'=>[
 					'desssiatine',
+					'dessaitine',
+					'dissiatine',
 				],
 				'dessiatines'=>[
 					'desssiatines',
+					'dessaitines',
+					'dissiatines',
+				],
+				'destabilization'=>[
+					'destabilizatoin',
+					'destabilizaton',
+					'distabilization',
 				],
 				'destabilize'=>[
 					'destablize',
+					'distabilize',
+				],
+				'destabilized'=>[
+					'distabilized',
+				],
+				'destabilizes'=>[
+					'distabilizes',
+				],
+				'destabilizing'=>[
+					'distabilizing',
 				],
 				'destination'=>[
 					'destinition',
+					'destinatoin',
+					'destinaton',
+					'distination',
+				],
+				'destinations'=>[
+					'destinatoins',
+					'destinatons',
+					'distinations',
 				],
 				'destine'=>[
 					'destini',
+					'distine',
+				],
+				'destined'=>[
+					'destind',
+					'distined',
+				],
+				'destines'=>[
+					'distines',
 				],
 				'destinies'=>[
 					'destinaes',
+					'destineis',
+					'distinies',
 				],
 				'destining'=>[
 					'destinang',
+					'distining',
+				],
+				'destiny'=>[
+					'distiny',
 				],
 				'destitute'=>[
 					'deftitute',
+					'distitute',
 				],
 				'destituteness'=>[
 					'destitutenes',
@@ -4057,33 +7135,76 @@
 				'destitutenesses'=>[
 					'destituteneses',
 				],
+				'destitution'=>[
+					'destitutoin',
+					'destituton',
+					'distitution',
+				],
+				'destrier'=>[
+					'destreir',
+					'distrier',
+				],
 				'destroy'=>[
 					'destory',
 					'destrtoy',
 					'distroy',
 					'deftroy',
 				],
+				'destroyable'=>[
+					'destroyible',
+					'distroyable',
+				],
 				'destroyed'=>[
 					'destoryed',
 					'destrtoyed',
 					'deftroyed',
+					'distroyed',
 				],
 				'destroyer'=>[
 					'destoryer',
 					'deftroyer',
+					'distroyer',
+				],
+				'destroyers'=>[
+					'distroyers',
 				],
 				'destroying'=>[
 					'destorying',
 					'deftroying',
+					'distroying',
+				],
+				'destroys'=>[
+					'distroys',
+				],
+				'destruct'=>[
+					'distruct',
+				],
+				'destructed'=>[
+					'distructed',
+				],
+				'destructibility'=>[
+					'destructability',
+					'distructibility',
 				],
 				'destructible'=>[
 					'destructable',
+					'distructible',
+				],
+				'destructing'=>[
+					'distructing',
 				],
 				'destruction'=>[
 					'distruction',
 					'destrnction',
 					'destruclion',
 					'destruetion',
+					'destructoin',
+					'destructon',
+				],
+				'destructionist'=>[
+					'destructoinist',
+					'destructonist',
+					'distructionist',
 				],
 				'destructive'=>[
 					'distructive',
@@ -4091,14 +7212,25 @@
 				],
 				'destructively'=>[
 					'destructivly',
+					'distructively',
 				],
 				'destructiveness'=>[
 					'destructivenes',
 					'destructivenesss',
+					'distructiveness',
 				],
 				'destructivities'=>[
 					'destructiviteis',
 					'destructivitis',
+				],
+				'destructor'=>[
+					'distructor',
+				],
+				'destructs'=>[
+					'distructs',
+				],
+				'desuetude'=>[
+					'deseutude',
 				],
 				'desultoriness'=>[
 					'desultorines',
@@ -4121,6 +7253,14 @@
 				'detachabilities'=>[
 					'detachabiliteis',
 					'detachabilitis',
+				],
+				'detachability'=>[
+					'detacability',
+					'detachbility',
+					'detachibility',
+				],
+				'detachable'=>[
+					'detachible',
 				],
 				'detachably'=>[
 					'detachabally',
@@ -4147,12 +7287,15 @@
 				],
 				'detachments'=>[
 					'detachmments',
+					'detachmants',
 				],
 				'detail'=>[
 					'cletail',
+					'detial',
 				],
 				'detailed'=>[
 					'detailled',
+					'detialed',
 				],
 				'detailedly'=>[
 					'detailedally',
@@ -4160,29 +7303,65 @@
 					'detailedely',
 					'detailedlly',
 				],
+				'detailing'=>[
+					'detialing',
+				],
+				'details'=>[
+					'detials',
+				],
+				'detain'=>[
+					'detian',
+				],
+				'detained'=>[
+					'detaind',
+					'detianed',
+				],
 				'detainee'=>[
 					'detainie',
 					'detaine',
 					'detaineee',
+					'detianee',
 				],
 				'detainees'=>[
 					'detaineees',
 					'detaines',
+					'detianees',
+				],
+				'detainer'=>[
+					'detianer',
 				],
 				'detaining'=>[
 					'detainang',
+					'detianing',
 				],
 				'detainment'=>[
 					'detaiment',
 					'detainent',
+					'detainmant',
+					'detianment',
 				],
 				'detainments'=>[
 					'detaiments',
 					'detainents',
 				],
+				'detains'=>[
+					'detians',
+				],
 				'detectabilities'=>[
 					'detectabiliteis',
 					'detectabilitis',
+				],
+				'detectability'=>[
+					'detecability',
+					'detectbility',
+				],
+				'detection'=>[
+					'detectoin',
+					'detecton',
+				],
+				'detections'=>[
+					'detectoins',
+					'detectons',
 				],
 				'detector'=>[
 					'detecter',
@@ -4195,6 +7374,12 @@
 				],
 				'detention'=>[
 					'detantion',
+					'detentoin',
+					'detenton',
+				],
+				'detentions'=>[
+					'detentoins',
+					'detentons',
 				],
 				'deter'=>[
 					'deterr',
@@ -4202,18 +7387,41 @@
 				'detergencies'=>[
 					'detergenceis',
 					'detergencis',
+					'detergancies',
 				],
 				'detergency'=>[
 					'detergensy',
+					'detergancy',
 				],
 				'detergent'=>[
 					'detergant',
+					'detegent',
+				],
+				'detergents'=>[
+					'detegents',
+					'detergants',
 				],
 				'deteriorate'=>[
 					'deteriate',
+					'deteroirate',
+				],
+				'deteriorated'=>[
+					'deteroirated',
+				],
+				'deteriorates'=>[
+					'deteroirates',
+				],
+				'deteriorating'=>[
+					'deteroirating',
 				],
 				'deterioration'=>[
 					'deteriation',
+					'deterioratoin',
+					'deterioraton',
+					'deteroiration',
+				],
+				'determent'=>[
+					'determant',
 				],
 				'determinable'=>[
 					'determinible',
@@ -4223,6 +7431,7 @@
 					'determinabaly',
 					'determinabely',
 					'determinablly',
+					'determinibly',
 				],
 				'determinacies'=>[
 					'determinaceis',
@@ -4239,6 +7448,9 @@
 				],
 				'determinantal'=>[
 					'determinental',
+				],
+				'determinants'=>[
+					'determinents',
 				],
 				'determinate'=>[
 					'determinite',
@@ -4258,12 +7470,19 @@
 				'determination'=>[
 					'deterinration',
 					'determinition',
+					'determinatoin',
+					'determinaton',
 				],
 				'determinations'=>[
 					'determinitions',
+					'determinatoins',
+					'determinatons',
 				],
 				'determinative'=>[
 					'determinitive',
+				],
+				'determinatively'=>[
+					'determinativly',
 				],
 				'determinatives'=>[
 					'determinitives',
@@ -4274,11 +7493,16 @@
 					'determini',
 					'detrmine',
 					'cletermine',
+					'detemine',
+					'deterine',
 				],
 				'determined'=>[
 					'determinated',
 					'determinid',
 					'deternmined',
+					'detemined',
+					'deterined',
+					'determind',
 				],
 				'determinedly'=>[
 					'determinedally',
@@ -4293,11 +7517,23 @@
 				],
 				'determiner'=>[
 					'determinir',
+					'deteminer',
+					'deteriner',
+				],
+				'determiners'=>[
+					'deteminers',
+					'deteriners',
+				],
+				'determines'=>[
+					'detemines',
+					'deterines',
 				],
 				'determining'=>[
 					'determinang',
 					'determing',
 					'determinining',
+					'detemining',
+					'deterining',
 				],
 				'determinism'=>[
 					'determinasm',
@@ -4341,6 +7577,7 @@
 				'deterrents'=>[
 					'deterents',
 					'deterrrents',
+					'deterrants',
 				],
 				'deterring'=>[
 					'deterrring',
@@ -4349,14 +7586,75 @@
 					'detestible',
 					'deteftable',
 				],
+				'detestably'=>[
+					'detestibly',
+				],
+				'detestation'=>[
+					'detestatoin',
+					'detestaton',
+				],
 				'detested'=>[
 					'detefted',
+				],
+				'dethroned'=>[
+					'dethrond',
+				],
+				'dethronement'=>[
+					'dethronemant',
+				],
+				'detinue'=>[
+					'detineu',
 				],
 				'detonable'=>[
 					'detonible',
 				],
+				'detonation'=>[
+					'detonatoin',
+					'detonaton',
+				],
+				'detonations'=>[
+					'detonatoins',
+					'detonatons',
+				],
+				'detour'=>[
+					'detuor',
+				],
+				'detoured'=>[
+					'detourd',
+					'detuored',
+				],
+				'detouring'=>[
+					'detuoring',
+				],
+				'detours'=>[
+					'detuors',
+				],
+				'detoxification'=>[
+					'detoxificatoin',
+					'detoxificaton',
+				],
+				'detoxified'=>[
+					'detoxifeid',
+				],
+				'detoxifies'=>[
+					'detoxifeis',
+				],
+				'detraction'=>[
+					'detractoin',
+					'detracton',
+				],
 				'detractively'=>[
 					'detractivly',
+				],
+				'detrain'=>[
+					'detrian',
+				],
+				'detrained'=>[
+					'detraind',
+					'detrianed',
+				],
+				'detraining'=>[
+					'detrianing',
 				],
 				'detrainment'=>[
 					'detraiment',
@@ -4365,6 +7663,9 @@
 				'detrainments'=>[
 					'detraiments',
 					'detrainents',
+				],
+				'detrains'=>[
+					'detrians',
 				],
 				'detriment'=>[
 					'detrement',
@@ -4378,6 +7679,17 @@
 					'detrimentallly',
 					'detrimentaly',
 				],
+				'detriments'=>[
+					'detrimants',
+				],
+				'detrition'=>[
+					'detritoin',
+					'detriton',
+				],
+				'detritions'=>[
+					'detritoins',
+					'detritons',
+				],
 				'detritivore'=>[
 					'detritovore',
 				],
@@ -4386,15 +7698,26 @@
 				],
 				'detrusion'=>[
 					'detruison',
+					'detrusoin',
+					'detruson',
 				],
 				'detrusions'=>[
 					'detruisons',
+				],
+				'detumesce'=>[
+					'detumece',
+					'detumese',
 				],
 				'detumescence'=>[
 					'detumecence',
 					'detumecsence',
 					'detumescance',
 					'detumesence',
+				],
+				'detumescent'=>[
+					'detumecent',
+					'detumescant',
+					'detumesent',
 				],
 				'detyrosination'=>[
 					'detrysosination',
@@ -4406,15 +7729,94 @@
 				'deubiquitinated'=>[
 					'deubiquitilated',
 				],
+				'deuce'=>[
+					'duece',
+				],
+				'deuced'=>[
+					'dueced',
+				],
+				'deuces'=>[
+					'dueces',
+				],
+				'deuteragonist'=>[
+					'dueteragonist',
+				],
 				'deuteranomalies'=>[
 					'deuteranomaleis',
 					'deuteranomalis',
 				],
 				'deuteranope'=>[
 					'deutranope',
+					'dueteranope',
+				],
+				'deuteranopia'=>[
+					'deuteranopai',
+					'dueteranopia',
+				],
+				'deuteranopias'=>[
+					'deuteranopais',
+					'dueteranopias',
+				],
+				'deuterium'=>[
+					'deuteruim',
+					'dueterium',
 				],
 				'deuterochloroform'=>[
 					'deuteriochloroform',
+				],
+				'deuterogamy'=>[
+					'dueterogamy',
+				],
+				'deuteron'=>[
+					'dueteron',
+				],
+				'deuterons'=>[
+					'dueterons',
+				],
+				'deutoplasm'=>[
+					'duetoplasm',
+				],
+				'deutzia'=>[
+					'deutzai',
+					'duetzia',
+				],
+				'deutzias'=>[
+					'deutzais',
+					'duetzias',
+				],
+				'devaluate'=>[
+					'devalaute',
+				],
+				'devaluated'=>[
+					'devalauted',
+				],
+				'devaluates'=>[
+					'devalautes',
+				],
+				'devaluating'=>[
+					'devalauting',
+				],
+				'devaluation'=>[
+					'devalaution',
+					'devaluatoin',
+					'devaluaton',
+				],
+				'devaluations'=>[
+					'devalautions',
+					'devaluatoins',
+					'devaluatons',
+				],
+				'devalue'=>[
+					'devaleu',
+				],
+				'devalued'=>[
+					'devaleud',
+				],
+				'devalues'=>[
+					'devaleus',
+				],
+				'devaluing'=>[
+					'devaliung',
 				],
 				'devastate'=>[
 					'devestate',
@@ -4426,6 +7828,8 @@
 				'devastation'=>[
 					'devestation',
 					'devistation',
+					'devastatoin',
+					'devastaton',
 				],
 				'devazepide'=>[
 					'devazipide',
@@ -4469,25 +7873,84 @@
 					'devolopement',
 					'devolopment',
 				],
+				'developmental'=>[
+					'develomental',
+					'developental',
+				],
 				'developmentally'=>[
 					'developmantally',
 					'developmentaly',
 					'developmentallly',
+					'develomentally',
+					'developentally',
 				],
 				'developments'=>[
 					'developements',
+					'developmants',
 				],
 				'developpe'=>[
 					'develope',
 				],
 				'deviance'=>[
 					'devience',
+					'devaince',
 				],
 				'deviancy'=>[
 					'deviansy',
+					'devaincy',
+					'deviency',
 				],
 				'deviant'=>[
 					'devient',
+					'devaint',
+				],
+				'deviants'=>[
+					'devaints',
+					'devients',
+				],
+				'deviate'=>[
+					'devaite',
+				],
+				'deviated'=>[
+					'devaited',
+				],
+				'deviates'=>[
+					'devaites',
+				],
+				'deviating'=>[
+					'devaiting',
+				],
+				'deviation'=>[
+					'devaition',
+					'deviatoin',
+					'deviaton',
+				],
+				'deviationism'=>[
+					'devaitionism',
+					'deviatoinism',
+					'deviatonism',
+				],
+				'deviationisms'=>[
+					'devaitionisms',
+					'deviatoinisms',
+				],
+				'deviationist'=>[
+					'devaitionist',
+					'deviatoinist',
+					'deviatonist',
+				],
+				'deviationists'=>[
+					'devaitionists',
+					'deviatoinists',
+					'deviatonists',
+				],
+				'deviations'=>[
+					'devaitions',
+					'deviatoins',
+					'deviatons',
+				],
+				'deviator'=>[
+					'devaitor',
 				],
 				'device'=>[
 					'divice',
@@ -4495,6 +7958,9 @@
 				'devil'=>[
 					'dcvil',
 					'devii',
+				],
+				'devilfish'=>[
+					'devifish',
 				],
 				'devilishness'=>[
 					'devilishnes',
@@ -4506,18 +7972,39 @@
 				'devilling'=>[
 					'devillling',
 				],
+				'devilment'=>[
+					'devilmant',
+				],
+				'devilries'=>[
+					'devilreis',
+				],
+				'deviltries'=>[
+					'deviltreis',
+					'devitries',
+				],
 				'devious'=>[
 					'devous',
+					'deviuos',
+					'devoius',
 				],
 				'deviously'=>[
 					'devously',
+					'deviousely',
+					'deviuosly',
+					'devoiusly',
 				],
 				'deviousness'=>[
 					'deviousnes',
 					'deviousnesss',
+					'deviuosness',
+					'devoiusness',
+					'devousness',
 				],
 				'deviousnesses'=>[
 					'deviousneses',
+				],
+				'devisable'=>[
+					'devisible',
 				],
 				'devised'=>[
 					'divised',
@@ -4531,8 +8018,51 @@
 				'devitellinized'=>[
 					'devitelinized',
 				],
+				'devitrified'=>[
+					'devitrifeid',
+				],
+				'devitrifies'=>[
+					'devitrifeis',
+				],
+				'devoice'=>[
+					'devioce',
+				],
+				'devoiced'=>[
+					'devioced',
+				],
+				'devoices'=>[
+					'devioces',
+				],
+				'devoicing'=>[
+					'deviocing',
+				],
+				'devoid'=>[
+					'deviod',
+				],
+				'devoir'=>[
+					'devior',
+				],
+				'devoirs'=>[
+					'deviors',
+				],
+				'devolution'=>[
+					'devolutoin',
+					'devoluton',
+				],
 				'devolutionary'=>[
 					'devolutionery',
+					'devolutoinary',
+					'devolutonary',
+				],
+				'devolutionist'=>[
+					'devolutoinist',
+					'devolutonist',
+				],
+				'devolvement'=>[
+					'devolvemant',
+				],
+				'devolvements'=>[
+					'devolvemants',
 				],
 				'devonian'=>[
 					'devonan',
@@ -4550,15 +8080,60 @@
 				'devotees'=>[
 					'devoteees',
 				],
+				'devotion'=>[
+					'devotoin',
+					'devoton',
+				],
+				'devotional'=>[
+					'devotoinal',
+					'devotonal',
+				],
+				'devotionals'=>[
+					'devotoinals',
+				],
+				'devotions'=>[
+					'devotoins',
+					'devotons',
+				],
+				'devour'=>[
+					'devuor',
+				],
+				'devoured'=>[
+					'devourd',
+					'devuored',
+				],
+				'devourer'=>[
+					'devuorer',
+				],
+				'devourers'=>[
+					'devuorers',
+				],
+				'devouring'=>[
+					'devuoring',
+				],
+				'devours'=>[
+					'devuors',
+				],
+				'devout'=>[
+					'devuot',
+				],
+				'devouter'=>[
+					'devuoter',
+				],
+				'devoutest'=>[
+					'devuotest',
+				],
 				'devoutly'=>[
 					'devoutally',
 					'devoutaly',
 					'devoutely',
 					'devoutlly',
+					'devuotly',
 				],
 				'devoutness'=>[
 					'devoutnes',
 					'devoutnesss',
+					'devuotness',
 				],
 				'dewar'=>[
 					'dewer',
@@ -4566,14 +8141,43 @@
 				'dewberries'=>[
 					'dewberies',
 					'dewberrries',
+					'dewberreis',
+					'dewerries',
 				],
 				'dewberry'=>[
 					'dewbery',
 					'dewberrry',
+					'dewerry',
+				],
+				'dewclaw'=>[
+					'dewlaw',
+				],
+				'dewclaws'=>[
+					'dewlaws',
+				],
+				'dewdrop'=>[
+					'dedrop',
+					'dewrop',
+				],
+				'dewdrops'=>[
+					'dedrops',
+					'dewrops',
+				],
+				'dewier'=>[
+					'deweir',
+				],
+				'dewiest'=>[
+					'deweist',
+				],
+				'dewily'=>[
+					'dewly',
 				],
 				'dewiness'=>[
 					'dewines',
 					'dewinesss',
+				],
+				'dewlaps'=>[
+					'dewaps',
 				],
 				'dexamethasone'=>[
 					'dexamethosome',
@@ -4586,9 +8190,17 @@
 				'dexiotropic'=>[
 					'dexiotropal',
 				],
+				'dexterous'=>[
+					'dexteruos',
+				],
+				'dexterously'=>[
+					'dexterousely',
+					'dexteruosly',
+				],
 				'dexterousness'=>[
 					'dexterousnes',
 					'dexterousnesss',
+					'dexteruosness',
 				],
 				'dexterousnesses'=>[
 					'dexterousneses',
@@ -4596,132 +8208,432 @@
 				'dextrally'=>[
 					'dextrallly',
 				],
+				'dextroamphetamine'=>[
+					'dextraomphetamine',
+				],
+				'dextrocular'=>[
+					'dextroculer',
+				],
 				'dextrorotary'=>[
 					'dextrorotery',
 				],
+				'dextrorotation'=>[
+					'dextrorotatoin',
+					'dextrorotaton',
+				],
 				'dextrous'=>[
 					'dexterious',
+					'dextruos',
+				],
+				'dextrously'=>[
+					'dextrousely',
+					'dextruosly',
 				],
 				'dextrousness'=>[
 					'dextrousnes',
 					'dextrousnesss',
+					'dextruosness',
 				],
 				'dhurrie'=>[
 					'dhurie',
 					'dhurrrie',
+					'dhurrei',
 				],
 				'dhyāna'=>[
 					'dhyana',
 				],
+				'diabase'=>[
+					'daibase',
+				],
 				'diabaté'=>[
 					'diabate',
 				],
+				'diabetes'=>[
+					'daibetes',
+				],
+				'diabetic'=>[
+					'daibetic',
+				],
+				'diabetics'=>[
+					'daibetics',
+				],
+				'diablerie'=>[
+					'daiblerie',
+					'diablerei',
+				],
+				'diabolic'=>[
+					'daibolic',
+				],
 				'diabolical'=>[
 					'diabohcal',
+					'daibolical',
 				],
 				'diabolically'=>[
 					'diabolicallly',
 					'diabolicaly',
+					'daibolically',
+				],
+				'diabolism'=>[
+					'daibolism',
+				],
+				'diabolisms'=>[
+					'daibolisms',
+				],
+				'diabolize'=>[
+					'daibolize',
+				],
+				'diabolized'=>[
+					'daibolized',
+				],
+				'diabolizes'=>[
+					'daibolizes',
+				],
+				'diabolizing'=>[
+					'daibolizing',
+				],
+				'diabolo'=>[
+					'daibolo',
+				],
+				'diacaustic'=>[
+					'daicaustic',
+					'diacuastic',
+				],
+				'diacetylmorphine'=>[
+					'daicetylmorphine',
 				],
 				'diachronic'=>[
 					'diacronic',
+					'daichronic',
+				],
+				'diacid'=>[
+					'daicid',
+				],
+				'diaconal'=>[
+					'daiconal',
+				],
+				'diaconate'=>[
+					'daiconate',
+				],
+				'diaconicon'=>[
+					'daiconicon',
+				],
+				'diacritic'=>[
+					'daicritic',
+				],
+				'diacritical'=>[
+					'daicritical',
 				],
 				'diacritically'=>[
 					'diacriticallly',
 					'diacriticaly',
+					'daicritically',
+				],
+				'diacritics'=>[
+					'daicritics',
 				],
 				'diactinic'=>[
 					'diactinac',
+					'daictinic',
+				],
+				'diadelphous'=>[
+					'daidelphous',
+					'diadelphuos',
+				],
+				'diadem'=>[
+					'daidem',
+				],
+				'diademed'=>[
+					'daidemed',
+				],
+				'diadems'=>[
+					'daidems',
 				],
 				'diadromous'=>[
 					'iadromous',
+					'daidromous',
+					'diadromuos',
+				],
+				'diaereses'=>[
+					'daiereses',
+					'dieareses',
+				],
+				'diaeresis'=>[
+					'daieresis',
+					'diearesis',
+				],
+				'diagenesis'=>[
+					'daigenesis',
+				],
+				'diageotropism'=>[
+					'daigeotropism',
+					'diagoetropism',
 				],
 				'diagnosability'=>[
 					'diagnosibility',
 				],
+				'diagnosable'=>[
+					'daignosable',
+					'diagnosible',
+				],
 				'diagnose'=>[
 					'diagnoze',
+					'daignose',
 				],
 				'diagnoseable'=>[
 					'diagnoseble',
 				],
+				'diagnosed'=>[
+					'daignosed',
+				],
+				'diagnoses'=>[
+					'daignoses',
+				],
+				'diagnosing'=>[
+					'daignosing',
+				],
+				'diagnosis'=>[
+					'daignosis',
+				],
+				'diagnostic'=>[
+					'daignostic',
+				],
 				'diagnostically'=>[
 					'diagnosticallly',
 					'diagnosticaly',
+					'daignostically',
 				],
 				'diagnostician'=>[
 					'diagnostican',
+					'daignostician',
+					'diagnosticain',
+				],
+				'diagnosticians'=>[
+					'daignosticians',
+					'diagnosticains',
+				],
+				'diagnostics'=>[
+					'daignostics',
+				],
+				'diagonal'=>[
+					'daigonal',
 				],
 				'diagonalizable'=>[
 					'diagonalizible',
 				],
+				'diagonalize'=>[
+					'daigonalize',
+				],
+				'diagonalized'=>[
+					'daigonalized',
+				],
+				'diagonalizes'=>[
+					'daigonalizes',
+				],
+				'diagonalizing'=>[
+					'daigonalizing',
+				],
 				'diagonally'=>[
 					'diagonallly',
 					'diagonaly',
+					'daigonally',
+				],
+				'diagonals'=>[
+					'daigonals',
 				],
 				'diagram'=>[
 					'cliagram',
+					'daigram',
+				],
+				'diagramed'=>[
+					'daigramed',
+				],
+				'diagraming'=>[
+					'daigraming',
 				],
 				'diagrammable'=>[
 					'diagramable',
 					'diagrammmable',
+					'daigrammable',
+					'diagrammible',
 				],
 				'diagrammatic'=>[
 					'diagramatic',
 					'diagrammmatic',
+					'daigrammatic',
 				],
 				'diagrammatical'=>[
 					'diagramnatical',
 					'diagramatical',
 					'diagrammmatical',
+					'daigrammatical',
 				],
 				'diagrammatically'=>[
 					'diagramatically',
 					'diagrammaticallly',
 					'diagrammaticaly',
 					'diagrammmatically',
+					'daigrammatically',
 				],
 				'diagrammed'=>[
 					'diagramned',
 					'diagrammmed',
+					'daigrammed',
 				],
 				'diagramming'=>[
 					'diagramning',
 					'diagrammming',
+					'daigramming',
+				],
+				'diagrams'=>[
+					'daigrams',
+				],
+				'diagraph'=>[
+					'daigraph',
+				],
+				'diakineses'=>[
+					'daikineses',
+				],
+				'diakinesis'=>[
+					'daikinesis',
 				],
 				'dialectal'=>[
 					'dialectual',
+					'dailectal',
+				],
+				'dialectic'=>[
+					'dailectic',
+				],
+				'dialectical'=>[
+					'dailectical',
 				],
 				'dialectically'=>[
 					'dialecticallly',
 					'dialecticaly',
+					'dailectically',
 				],
 				'dialectician'=>[
 					'dialectican',
+					'dailectician',
+					'dialecticain',
 				],
 					# dialled: an accepted spelling, not a slip (AmericanBritishWords_D: dialed)
 			#	'dialed'=>[
 			#		'dialled',
 			#	],
+				'dialecticians'=>[
+					'dailecticians',
+					'dialecticains',
+				],
+				'dialecticism'=>[
+					'dailecticism',
+				],
+				'dialectics'=>[
+					'dailectics',
+				],
+				'dialectologist'=>[
+					'dailectologist',
+				],
+				'dialectology'=>[
+					'dailectology',
+				],
+				'dialings'=>[
+					'dailings',
+				],
 				'diallage'=>[
 					'dialage',
 					'dialllage',
+					'daillage',
 				],
 				'dialog'=>[
 					'dialouge',
+					'dailog',
+				],
+				'dialogism'=>[
+					'dailogism',
+				],
+				'dialogist'=>[
+					'dailogist',
+				],
+				'dialogize'=>[
+					'dailogize',
+				],
+				'dialogs'=>[
+					'dailogs',
+				],
+				'dialogue'=>[
+					'dailogue',
+					'dialogeu',
+				],
+				'dialogues'=>[
+					'dailogues',
+					'dialogeus',
 				],
 				'dialysis'=>[
 					'dyalisis',
+					'dailysis',
+				],
+				'dialytic'=>[
+					'dailytic',
+				],
+				'dialyze'=>[
+					'dailyze',
+				],
+				'dialyzed'=>[
+					'dailyzed',
+				],
+				'dialyzer'=>[
+					'dailyzer',
+				],
+				'dialyzes'=>[
+					'dailyzes',
+				],
+				'dialyzing'=>[
+					'dailyzing',
+				],
+				'diamagnet'=>[
+					'daimagnet',
+				],
+				'diamagnetic'=>[
+					'daimagnetic',
+				],
+				'diamagnetism'=>[
+					'daimagnetism',
+				],
+				'diamagnetisms'=>[
+					'daimagnetisms',
+				],
+				'diamagnets'=>[
+					'daimagnets',
 				],
 				'diamante'=>[
 					'diamente',
 				],
+				'diameter'=>[
+					'daimeter',
+				],
+				'diameters'=>[
+					'daimeters',
+				],
+				'diametral'=>[
+					'daimetral',
+				],
+				'diametric'=>[
+					'daimetric',
+				],
+				'diametrical'=>[
+					'daimetrical',
+				],
 				'diametrically'=>[
 					'diametricallly',
 					'diametricaly',
+					'daimetrically',
 				],
 				'diamine'=>[
 					'diamini',
+					'daimine',
+				],
+				'diamines'=>[
+					'daimines',
 				],
 				'diaminobenzidine'=>[
 					'diaminobenzidene',
@@ -4734,8 +8646,69 @@
 					'daimond',
 					'cliamoncl',
 				],
+				'diamondback'=>[
+					'daimondback',
+					'diamonback',
+					'diamondack',
+				],
+				'diamondbacks'=>[
+					'daimondbacks',
+					'diamonbacks',
+					'diamondacks',
+				],
+				'diamonds'=>[
+					'daimonds',
+				],
+				'diandrous'=>[
+					'daindrous',
+					'diandruos',
+				],
+				'dianetics'=>[
+					'dainetics',
+				],
+				'dianoetic'=>[
+					'dainoetic',
+					'dianeotic',
+				],
+				'dianoia'=>[
+					'dainoia',
+					'dianioa',
+					'dianoai',
+				],
+				'dianthus'=>[
+					'dainthus',
+				],
+				'diapason'=>[
+					'daipason',
+				],
+				'diapasons'=>[
+					'daipasons',
+				],
+				'diapause'=>[
+					'daipause',
+					'diapuase',
+				],
 				'diapausing'=>[
 					'diapauisng',
+				],
+				'diapedesis'=>[
+					'daipedesis',
+				],
+				'diaper'=>[
+					'daiper',
+				],
+				'diapered'=>[
+					'daipered',
+					'diaperd',
+				],
+				'diapering'=>[
+					'daipering',
+				],
+				'diapers'=>[
+					'daipers',
+				],
+				'diaphane'=>[
+					'daiphane',
 				],
 				'diaphaneities'=>[
 					'diaphaneiteis',
@@ -4744,37 +8717,112 @@
 				],
 				'diaphaneity'=>[
 					'diaphaniety',
+					'daiphaneity',
 				],
 				'diaphanization'=>[
 					'diafanization',
 				],
 				'diaphanous'=>[
 					'diaphonous',
+					'daiphanous',
+					'diaphanuos',
+				],
+				'diaphanously'=>[
+					'daiphanously',
+					'diaphanousely',
+					'diaphanuosly',
+				],
+				'diaphone'=>[
+					'daiphone',
+				],
+				'diaphones'=>[
+					'daiphones',
+				],
+				'diaphony'=>[
+					'daiphony',
 				],
 				'diaphorase'=>[
 					'diaforase',
 				],
+				'diaphoreses'=>[
+					'daiphoreses',
+				],
+				'diaphoresis'=>[
+					'daiphoresis',
+				],
+				'diaphoretic'=>[
+					'daiphoretic',
+				],
+				'diaphoretics'=>[
+					'daiphoretics',
+				],
+				'diaphragm'=>[
+					'daiphragm',
+				],
 				'diaphragmatic'=>[
 					'diapharmatic',
+					'daiphragmatic',
+				],
+				'diaphragms'=>[
+					'daiphragms',
+				],
+				'diaphyses'=>[
+					'daiphyses',
+				],
+				'diaphysis'=>[
+					'daiphysis',
+				],
+				'diapophysis'=>[
+					'daipophysis',
+				],
+				'diapositive'=>[
+					'daipositive',
+				],
+				'diarchies'=>[
+					'dairchies',
+					'diarcheis',
+				],
+				'diarchy'=>[
+					'dairchy',
+				],
+				'diaries'=>[
+					'diareis',
+				],
+				'diarist'=>[
+					'dairist',
+				],
+				'diarists'=>[
+					'dairists',
 				],
 				'diarrhea'=>[
 					'diarhea',
 					'diarrhe',
 					'diarea',
 					'diarrrhea',
+					'dairrhea',
+					'diarrhae',
 				],
 				'diarrheal'=>[
 					'diarheal',
 					'diarrrheal',
+					'dairrheal',
+					'diarrhael',
 				],
 				'diarrheic'=>[
 					'diarrhiec',
 					'diarheic',
 					'diarrrheic',
+					'dairrheic',
 				],
 				'diarrhoea'=>[
 					'diarhoea',
 					'diarrrhoea',
+					'dairrhoea',
+					'diarrheoa',
+					'diarrhoae',
+				],
+				'diarthrosis'=>[
+					'dairthrosis',
 				],
 				'diary'=>[
 					'diery',
@@ -4782,18 +8830,135 @@
 				'diaschisis'=>[
 					'diachisis',
 				],
+				'diaspora'=>[
+					'daispora',
+				],
+				'diasporas'=>[
+					'daisporas',
+				],
+				'diaspore'=>[
+					'daispore',
+				],
+				'diastase'=>[
+					'daistase',
+				],
+				'diastases'=>[
+					'daistases',
+				],
+				'diastasis'=>[
+					'daistasis',
+				],
+				'diastema'=>[
+					'daistema',
+				],
+				'diaster'=>[
+					'daister',
+				],
 				'diasterane'=>[
 					'disterane',
+				],
+				'diastole'=>[
+					'daistole',
+				],
+				'diastolic'=>[
+					'daistolic',
 				],
 				'diastrophically'=>[
 					'diastrophicaly',
 				],
+				'diastrophism'=>[
+					'daistrophism',
+				],
+				'diastrophisms'=>[
+					'daistrophisms',
+				],
+				'diastyle'=>[
+					'daistyle',
+				],
+				'diatessaron'=>[
+					'daitessaron',
+				],
+				'diathermic'=>[
+					'daithermic',
+				],
+				'diathermy'=>[
+					'daithermy',
+				],
+				'diatheses'=>[
+					'daitheses',
+				],
+				'diathesis'=>[
+					'daithesis',
+				],
+				'diatom'=>[
+					'daitom',
+				],
+				'diatomaceous'=>[
+					'daitomaceous',
+					'diatomaceuos',
+					'diatomacoeus',
+				],
+				'diatomic'=>[
+					'daitomic',
+				],
+				'diatomite'=>[
+					'daitomite',
+				],
+				'diatomites'=>[
+					'daitomites',
+				],
+				'diatoms'=>[
+					'daitoms',
+				],
+				'diatonic'=>[
+					'daitonic',
+				],
 				'diatonically'=>[
 					'diatonicallly',
 					'diatonicaly',
+					'daitonically',
+				],
+				'diatonicism'=>[
+					'daitonicism',
+				],
+				'diatribe'=>[
+					'daitribe',
+				],
+				'diatribes'=>[
+					'daitribes',
+				],
+				'diatropism'=>[
+					'daitropism',
 				],
 				'diazepam'=>[
 					'diazapam',
+					'daizepam',
+				],
+				'diazepams'=>[
+					'daizepams',
+				],
+				'diazine'=>[
+					'daizine',
+				],
+				'diazo'=>[
+					'daizo',
+				],
+				'diazole'=>[
+					'daizole',
+				],
+				'diazomethane'=>[
+					'daizomethane',
+				],
+				'diazonium'=>[
+					'daizonium',
+					'diazonuim',
+				],
+				'diazoniums'=>[
+					'daizoniums',
+					'diazonuims',
+				],
+				'diazotize'=>[
+					'daizotize',
 				],
 				'diazotroph'=>[
 					'diazatroph',
@@ -4832,6 +8997,18 @@
 					'dibbbuks',
 					'dibuks',
 				],
+				'dibranchiate'=>[
+					'dibranchaite',
+				],
+				'dibranchiates'=>[
+					'dibranchaites',
+				],
+				'dibucaine'=>[
+					'dibuciane',
+				],
+				'dicephalous'=>[
+					'dicephaluos',
+				],
 				'dichalcogenide'=>[
 					'dichacolgenide',
 					'dichalkogenide',
@@ -4839,8 +9016,27 @@
 				'dichalcogenides'=>[
 					'dichalkogenides',
 				],
+				'dichasium'=>[
+					'dichasuim',
+				],
+				'dichlamydeous'=>[
+					'dichlamydeuos',
+					'dichlamydoeus',
+				],
+				'dichlorodifluoromethane'=>[
+					'dichlorodiflouromethane',
+				],
+				'dichlorodiphenyltrichloroethane'=>[
+					'dichlorodiphenyltrichloreothane',
+				],
 				'dichotomically'=>[
 					'dicotomically',
+				],
+				'dichotomies'=>[
+					'dichotomeis',
+				],
+				'dichotomous'=>[
+					'dichotomuos',
 				],
 				'dichotomously'=>[
 					'dichotomousally',
@@ -4856,10 +9052,49 @@
 				],
 				'dichroic'=>[
 					'dichoric',
+					'dichrioc',
+				],
+				'dichroism'=>[
+					'dichriosm',
+				],
+				'dichroisms'=>[
+					'dichriosms',
+				],
+				'dichroite'=>[
+					'dichriote',
+				],
+				'dichroscope'=>[
+					'dichrocope',
+					'dichrosope',
+				],
+				'dicier'=>[
+					'diceir',
+				],
+				'diciest'=>[
+					'diceist',
 				],
 				'dicistrovirus'=>[
 					'discistrovirus',
 					'discitrovirus',
+				],
+				'dickered'=>[
+					'dickerd',
+				],
+				'dickhead'=>[
+					'dichead',
+					'dickead',
+					'dickhaed',
+				],
+				'dickheads'=>[
+					'dicheads',
+					'dickeads',
+					'dickhaeds',
+				],
+				'dickie'=>[
+					'dickei',
+				],
+				'dickies'=>[
+					'dickeis',
 				],
 				'dickwad'=>[
 					'dickwod',
@@ -4870,12 +9105,30 @@
 				'diclinism'=>[
 					'diclinasm',
 				],
+				'diclinous'=>[
+					'diclinuos',
+				],
+				'dicotyledonous'=>[
+					'dicotyledonuos',
+				],
+				'dictation'=>[
+					'dictatoin',
+					'dictaton',
+				],
+				'dictations'=>[
+					'dictatoins',
+					'dictatons',
+				],
 				'dictator'=>[
 					'dicator',
+				],
+				'dictatorial'=>[
+					'dictatorail',
 				],
 				'dictatorially'=>[
 					'dictatoriallly',
 					'dictatorialy',
+					'dictatorailly',
 				],
 				'dictatorialness'=>[
 					'dictatorialnes',
@@ -4886,14 +9139,23 @@
 				'dictatorship'=>[
 					'dictatorsllip',
 				],
+				'diction'=>[
+					'dictoin',
+					'dicton',
+				],
 				'dictionaries'=>[
 					'dictionareis',
 					'dictionaris',
+					'dictioneries',
+					'dictoinaries',
+					'dictonaries',
 				],
 				'dictionary'=>[
 					'dictionary dictionary',
 					'dictionary dictionary dictionary',
 					'dictionery',
+					'dictoinary',
+					'dictonary',
 				],
 				'did'=>[
 					'did did',
@@ -4945,6 +9207,7 @@
 				'diddlysquat'=>[
 					'didddlysquat',
 					'didlysquat',
+					'diddlysqaut',
 				],
 				'diddums'=>[
 					'didddums',
@@ -4975,6 +9238,15 @@
 				'didst'=>[
 					'didft',
 				],
+				'didymium'=>[
+					'didymuim',
+				],
+				'didymous'=>[
+					'didymuos',
+				],
+				'didynamous'=>[
+					'didynamuos',
+				],
 				'die'=>[
 					'dei',
 					'die die',
@@ -4983,9 +9255,18 @@
 				'dieback'=>[
 					'deiback',
 					'diback',
+					'dieack',
+				],
+				'diebacks'=>[
+					'deibacks',
+					'dibacks',
+					'dieacks',
 				],
 				'diecious'=>[
 					'diecous',
+					'deicious',
+					'dieciuos',
+					'diecoius',
 				],
 				'died'=>[
 					'deid',
@@ -4995,8 +9276,17 @@
 					'deiffenbachia',
 					'diffenbachia',
 				],
+				'diego'=>[
+					'deigo',
+				],
 				'diehard'=>[
 					'die-hard',
+					'deihard',
+					'dieard',
+					'dihard',
+				],
+				'diehards'=>[
+					'deihards',
 				],
 				'dieing'=>[
 					'diieng',
@@ -5012,6 +9302,9 @@
 					'deilectric',
 					'dilectric',
 				],
+				'dielectrics'=>[
+					'deilectrics',
+				],
 				'dielectrophoresis'=>[
 					'dieletrophoresis',
 				],
@@ -5023,9 +9316,18 @@
 					'deincephalon',
 					'dincephalon',
 				],
+				'diencephalons'=>[
+					'deincephalons',
+				],
 				'diene'=>[
 					'deine',
 					'dine',
+				],
+				'diereses'=>[
+					'deireses',
+				],
+				'dieresis'=>[
+					'deiresis',
 				],
 				'dies'=>[
 					'deis',
@@ -5035,13 +9337,46 @@
 					'diesal',
 					'disel',
 				],
+				'dieseled'=>[
+					'deiseled',
+				],
+				'dieseling'=>[
+					'deiseling',
+				],
+				'dieselize'=>[
+					'deiselize',
+				],
+				'diesels'=>[
+					'deisels',
+				],
+				'diesis'=>[
+					'deisis',
+				],
+				'diestock'=>[
+					'deistock',
+					'dietock',
+					'distock',
+				],
+				'diestocks'=>[
+					'deistocks',
+					'dietocks',
+					'distocks',
+				],
 				'diet'=>[
 					'deit',
+				],
+				'dietaries'=>[
+					'deitaries',
+					'dietareis',
+					'dieteries',
 				],
 				'dietary'=>[
 					'deitary',
 					'dietery',
 					'ditary',
+				],
+				'dieted'=>[
+					'deited',
 				],
 				'dietetic'=>[
 					'deitetic',
@@ -5056,11 +9391,28 @@
 				],
 				'dietician'=>[
 					'dietican',
+					'deitician',
+					'dieticain',
+				],
+				'dieticians'=>[
+					'deiticians',
+					'dieticains',
+				],
+				'dieting'=>[
+					'deiting',
 				],
 				'dietitian'=>[
 					'deititian',
 					'dietitan',
 					'dititian',
+					'dietitain',
+				],
+				'dietitians'=>[
+					'deititians',
+					'dietitains',
+				],
+				'diets'=>[
+					'deits',
 				],
 				'differ'=>[
 					'differ differ',
@@ -5071,6 +9423,7 @@
 				'differed'=>[
 					'difered',
 					'difffered',
+					'differd',
 				],
 				'difference'=>[
 					'diference',
@@ -5085,6 +9438,7 @@
 				'differences'=>[
 					'diferences',
 					'diffferences',
+					'differances',
 				],
 				'differencing'=>[
 					'diferencing',
@@ -5107,78 +9461,99 @@
 				'differentia'=>[
 					'diferentia',
 					'diffferentia',
+					'differentai',
 				],
 				'differentiability'=>[
 					'diferentiability',
 					'diffferentiability',
+					'differentaibility',
 				],
 				'differentiable'=>[
 					'differantiable',
 					'differentiible',
 					'diferentiable',
 					'diffferentiable',
+					'differentaible',
 				],
 				'differentiae'=>[
 					'differantiae',
 					'diferentiae',
 					'diffferentiae',
+					'differentaie',
+					'differentiea',
 				],
 				'differential'=>[
 					'differantial',
 					'diferential',
 					'diffferential',
+					'differentail',
 				],
 				'differentially'=>[
 					'differentialy',
 					'diferentially',
 					'differentiallly',
 					'diffferentially',
+					'differentailly',
 				],
 				'differentials'=>[
 					'diferentials',
 					'diffferentials',
+					'differentails',
 				],
 				'differentiate'=>[
 					'differantiate',
 					'diferentiate',
 					'diffferentiate',
+					'differentaite',
 				],
 				'differentiated'=>[
 					'diferentiated',
 					'diffferentiated',
+					'differentaited',
 				],
 				'differentiates'=>[
 					'diferentiates',
 					'diffferentiates',
+					'differentaites',
 				],
 				'differentiating'=>[
 					'differantiating',
 					'diferentiating',
 					'diffferentiating',
+					'differentaiting',
 				],
 				'differentiation'=>[
 					'differantiation',
 					'differentation',
 					'diferentiation',
 					'diffferentiation',
+					'differentaition',
+					'differentiatoin',
+					'differentiaton',
 				],
 				'differentiations'=>[
 					'diferentiations',
 					'diffferentiations',
+					'differentaitions',
+					'differentiatoins',
+					'differentiatons',
 				],
 				'differentiator'=>[
 					'diferentiator',
 					'diffferentiator',
+					'differentaitor',
 				],
 				'differentiators'=>[
 					'diferentiators',
 					'diffferentiators',
+					'differentaitors',
 				],
 				'differently'=>[
 					'diferently',
 					'differantly',
 					'differentley',
 					'diffferently',
+					'differentely',
 				],
 				'differentness'=>[
 					'differentnes',
@@ -5219,10 +9594,12 @@
 					'diffficulties',
 					'difficnlties',
 					'difflcnlties',
+					'difficulteis',
 				],
 				'difficultly'=>[
 					'diffficultly',
 					'dificultly',
+					'difficultely',
 				],
 				'difficulty'=>[
 					'dificult',
@@ -5245,9 +9622,12 @@
 					'diffidantly',
 					'difffidently',
 					'difidently',
+					'diffidentely',
 				],
 				'diffluent'=>[
 					'difffluent',
+					'diffleunt',
+					'diffluant',
 				],
 				'diffract'=>[
 					'difffract',
@@ -5264,6 +9644,8 @@
 				'diffraction'=>[
 					'difffraction',
 					'difraction',
+					'diffractoin',
+					'diffracton',
 				],
 				'diffractive'=>[
 					'difffractive',
@@ -5327,11 +9709,14 @@
 					'diffuison',
 					'difffusion',
 					'difusion',
+					'diffusoin',
 				],
 				'diffusional'=>[
 					'diffuisonal',
 					'difffusional',
 					'difusional',
+					'diffusoinal',
+					'diffusonal',
 				],
 				'diffusionism'=>[
 					'diffuisonism',
@@ -5382,6 +9767,9 @@
 					'digama',
 					'digammma',
 				],
+				'digestant'=>[
+					'digestent',
+				],
 				'digested'=>[
 					'digefted',
 				],
@@ -5391,6 +9779,14 @@
 				],
 				'digestible'=>[
 					'digestable',
+				],
+				'digestion'=>[
+					'digestoin',
+					'digeston',
+				],
+				'digestions'=>[
+					'digestoins',
+					'digestons',
 				],
 				'digestively'=>[
 					'digestivly',
@@ -5421,13 +9817,31 @@
 				'digitigrade'=>[
 					'digitgrade',
 				],
+				'digitization'=>[
+					'digitizatoin',
+					'digitizaton',
+				],
+				'digitizations'=>[
+					'digitizatoins',
+					'digitizatons',
+				],
 				'dignified'=>[
 					'dignifeid',
 					'dignifid',
 				],
+				'dignifies'=>[
+					'dignifeis',
+				],
+				'dignitaries'=>[
+					'dignitareis',
+					'digniteries',
+				],
 				'dignitary'=>[
 					'dignatary',
 					'dignitery',
+				],
+				'dignities'=>[
+					'digniteis',
 				],
 				'dignity'=>[
 					'diginity',
@@ -5455,6 +9869,8 @@
 				'digression'=>[
 					'digresion',
 					'digresssion',
+					'digressoin',
+					'digresson',
 				],
 				'digressionary'=>[
 					'digresionary',
@@ -5463,6 +9879,8 @@
 				'digressions'=>[
 					'digresions',
 					'digresssions',
+					'digressoins',
+					'digressons',
 				],
 				'digressive'=>[
 					'digresive',
@@ -5497,18 +9915,33 @@
 				'dilapidated'=>[
 					'delapidated',
 				],
+				'dilapidation'=>[
+					'dilapidatoin',
+					'dilapidaton',
+				],
 				'dilatabilities'=>[
 					'dilatabiliteis',
 					'dilatabilitis',
 				],
+				'dilatable'=>[
+					'dilatible',
+				],
 				'dilatancy'=>[
 					'dilatansy',
+				],
+				'dilatant'=>[
+					'dilatent',
+				],
+				'dilatation'=>[
+					'dilatatoin',
+					'dilataton',
 				],
 				'dilate'=>[
 					'dialate',
 				],
 				'dilation'=>[
 					'dialation',
+					'dilatoin',
 				],
 				'dilatometry'=>[
 					'dilutometry',
@@ -5521,6 +9954,9 @@
 					'dilatorinisses',
 					'dilatorineses',
 					'dilatorinessses',
+				],
+				'dildoes'=>[
+					'dildeos',
 				],
 				'dilemma'=>[
 					'dilemna',
@@ -5568,6 +10004,10 @@
 					'dilligent',
 					'dihgent',
 				],
+				'diligently'=>[
+					'diligantly',
+					'diligentely',
+				],
 				'dill'=>[
 					'dil',
 					'dilll',
@@ -5575,6 +10015,7 @@
 				'dillies'=>[
 					'dilies',
 					'dilllies',
+					'dilleis',
 				],
 				'dillon'=>[
 					'dillion',
@@ -5593,12 +10034,14 @@
 					'dillydalied',
 					'dillydalllied',
 					'dilydallied',
+					'dillydalleid',
 				],
 				'dillydallies'=>[
 					'dilllydallies',
 					'dillydalies',
 					'dillydalllies',
 					'dilydallies',
+					'dillydalleis',
 				],
 				'dillydally'=>[
 					'dilllydally',
@@ -5614,12 +10057,27 @@
 				],
 				'diluent'=>[
 					'diluant',
+					'dileunt',
 				],
 				'dilute'=>[
 					'dillute',
 				],
+				'dilution'=>[
+					'dilutoin',
+					'diluton',
+				],
+				'dilutions'=>[
+					'dilutoins',
+					'dilutons',
+				],
+				'diluvial'=>[
+					'diluvail',
+				],
 				'diluvian'=>[
 					'diluvan',
+				],
+				'diluvium'=>[
+					'diluvuim',
 				],
 				'dimenhydrinate'=>[
 					'dimenhydrinite',
@@ -5630,20 +10088,51 @@
 				'dimension'=>[
 					'dimenion',
 					'dimention',
+					'dimensoin',
+					'dimenson',
 				],
 				'dimensional'=>[
 					'dimentional',
+					'dimensoinal',
+					'dimensonal',
+				],
+				'dimensionalities'=>[
+					'dimensionaliteis',
+					'dimensoinalities',
 				],
 				'dimensionality'=>[
 					'dimentionality',
+					'dimensoinality',
 				],
 				'dimensionally'=>[
 					'dimensionallly',
 					'dimensionaly',
+					'dimensoinally',
+					'dimensonally',
+				],
+				'dimensioned'=>[
+					'dimensiond',
+					'dimensoined',
+					'dimensoned',
+				],
+				'dimensioning'=>[
+					'dimensoining',
+					'dimensoning',
 				],
 				'dimensionless'=>[
 					'dimensionles',
 					'dimensionlesss',
+					'dimensoinless',
+				],
+				'dimensions'=>[
+					'dimensoins',
+					'dimensons',
+				],
+				'dimerous'=>[
+					'dimeruos',
+				],
+				'dimidiate'=>[
+					'dimidaite',
 				],
 				'diminish'=>[
 					'deminish',
@@ -5653,6 +10142,7 @@
 				],
 				'diminishable'=>[
 					'diminashable',
+					'diminishible',
 				],
 				'diminished'=>[
 					'dimished',
@@ -5667,13 +10157,26 @@
 				],
 				'diminishment'=>[
 					'diminashment',
+					'diminishmant',
 				],
 				'diminishments'=>[
 					'diminashments',
 				],
+				'diminuendo'=>[
+					'dimineundo',
+				],
+				'diminuendos'=>[
+					'dimineundos',
+				],
 				'diminution'=>[
 					'diminuation',
 					'diminuition',
+					'diminutoin',
+					'diminuton',
+				],
+				'diminutions'=>[
+					'diminutoins',
+					'diminutons',
 				],
 				'diminutive'=>[
 					'diminuative',
@@ -5737,9 +10240,13 @@
 				],
 				'dimorphous'=>[
 					'dimourphous',
+					'dimorphuos',
 				],
 				'dimorphs'=>[
 					'dimourphs',
+				],
+				'dimwits'=>[
+					'diwits',
 				],
 				'dimwitted'=>[
 					'dimwittted',
@@ -5756,6 +10263,10 @@
 				],
 				'diner'=>[
 					'dinir',
+				],
+				'dineric'=>[
+					'dieric',
+					'dinric',
 				],
 				'dinero'=>[
 					'diniro',
@@ -5775,6 +10286,23 @@
 					'dinetes',
 					'dinetttes',
 				],
+				'dingbats'=>[
+					'dinbats',
+					'dingats',
+				],
+				'dingdong'=>[
+					'dindong',
+					'dingong',
+				],
+				'dinghies'=>[
+					'dingheis',
+				],
+				'dingier'=>[
+					'dingeir',
+				],
+				'dingiest'=>[
+					'dingeist',
+				],
 				'dinginess'=>[
 					'dingines',
 					'dinginesss',
@@ -5784,6 +10312,9 @@
 				],
 				'dingleberry'=>[
 					'dinglebery',
+				],
+				'dingoes'=>[
+					'dingeos',
 				],
 				'dining'=>[
 					'dinang',
@@ -5806,6 +10337,15 @@
 				'dinitrophenols'=>[
 					'dinatrophenols',
 				],
+				'dinkier'=>[
+					'dinkeir',
+				],
+				'dinkies'=>[
+					'dinkeis',
+				],
+				'dinkiest'=>[
+					'dinkeist',
+				],
 				'dinned'=>[
 					'dinnned',
 				],
@@ -5815,6 +10355,7 @@
 				],
 				'dinnered'=>[
 					'dinnnered',
+					'dinnerd',
 				],
 				'dinnering'=>[
 					'dinnnering',
@@ -5825,6 +10366,8 @@
 				'dinnertime'=>[
 					'dinertime',
 					'dinnnertime',
+					'dinnerime',
+					'dinnetime',
 				],
 				'dinnertimes'=>[
 					'dinertimes',
@@ -5846,8 +10389,16 @@
 				'dinoflagellates'=>[
 					'dinoflagelllates',
 				],
+				'dinosaur'=>[
+					'dinosuar',
+				],
 				'dinosaurian'=>[
 					'dinosauran',
+					'dinosaurain',
+					'dinosuarian',
+				],
+				'dinosaurs'=>[
+					'dinosuars',
 				],
 				'dinucleotide'=>[
 					'denucleotide',
@@ -5855,21 +10406,107 @@
 				'dinutuximab'=>[
 					'dinituximab',
 				],
+				'diocesan'=>[
+					'doicesan',
+				],
+				'diocesans'=>[
+					'doicesans',
+				],
+				'diocese'=>[
+					'doicese',
+				],
+				'dioceses'=>[
+					'doiceses',
+				],
+				'diode'=>[
+					'doide',
+				],
+				'diodes'=>[
+					'doides',
+				],
 				'dioecious'=>[
 					'dioecous',
 					'dioeceous',
+					'dieocious',
+					'dioeciuos',
+					'dioecoius',
+					'doiecious',
 				],
 				'dioecy'=>[
 					'dioesy',
 				],
+				'dione'=>[
+					'doine',
+				],
+				'dionysia'=>[
+					'dionysai',
+					'doinysia',
+				],
+				'dionysiac'=>[
+					'dionysaic',
+					'doinysiac',
+				],
 				'dionysian'=>[
 					'dionysan',
+					'dionysain',
+					'doinysian',
+				],
+				'diophantine'=>[
+					'doiphantine',
+				],
+				'diopside'=>[
+					'doipside',
+				],
+				'dioptase'=>[
+					'doiptase',
+				],
+				'diopter'=>[
+					'doipter',
+				],
+				'diopters'=>[
+					'doipters',
+				],
+				'dioptometer'=>[
+					'doiptometer',
+				],
+				'dioptric'=>[
+					'doiptric',
+				],
+				'dioptrics'=>[
+					'doiptrics',
+				],
+				'diorama'=>[
+					'doirama',
+				],
+				'dioramas'=>[
+					'doiramas',
+				],
+				'diorite'=>[
+					'doirite',
+				],
+				'diorites'=>[
+					'doirites',
 				],
 				'diosgenin'=>[
 					'disogenin',
 				],
+				'dioxide'=>[
+					'doixide',
+				],
+				'dioxides'=>[
+					'doixides',
+				],
+				'dioxin'=>[
+					'doixin',
+				],
+				'dioxins'=>[
+					'doixins',
+				],
 				'dioxolane'=>[
 					'dioxalane',
+				],
+				'dipetalous'=>[
+					'dipetaluos',
 				],
 				'diphenhydramine'=>[
 					'diphenhydramini',
@@ -5880,8 +10517,18 @@
 				'diphenylamines'=>[
 					'diphenylaminis',
 				],
+				'diphenylhydantoin'=>[
+					'diphenylhydantion',
+				],
+				'diphenylhydantoins'=>[
+					'diphenylhydantions',
+				],
 				'diphtheria'=>[
 					'diptheria',
+					'diphtherai',
+				],
+				'diphtherial'=>[
+					'diphtherail',
 				],
 				'diphthong'=>[
 					'diphtong',
@@ -5894,6 +10541,10 @@
 				'diphyllous'=>[
 					'diphylllous',
 					'diphylous',
+					'diphylluos',
+				],
+				'diplegia'=>[
+					'diplegai',
 				],
 				'diploblastic'=>[
 					'dipoblastic',
@@ -5906,6 +10557,12 @@
 					'diplococus',
 					'diplococccus',
 				],
+				'diploid'=>[
+					'dipliod',
+				],
+				'diploids'=>[
+					'dipliods',
+				],
 				'diplomacy'=>[
 					'diplomasy',
 				],
@@ -5915,6 +10572,13 @@
 				],
 				'diplopia'=>[
 					'dipoplia',
+					'diplopai',
+				],
+				'diplostemonous'=>[
+					'diplostemonuos',
+				],
+				'dipnoan'=>[
+					'dipnaon',
 				],
 				'dipolar'=>[
 					'dipoler',
@@ -5938,10 +10602,12 @@
 				'dippier'=>[
 					'dipier',
 					'dipppier',
+					'dippeir',
 				],
 				'dippiest'=>[
 					'dipiest',
 					'dipppiest',
+					'dippeist',
 				],
 				'dippinesses'=>[
 					'dipinesses',
@@ -5953,8 +10619,33 @@
 					'dipy',
 					'dipppy',
 				],
+				'dipsomania'=>[
+					'dipsomanai',
+				],
+				'dipsomaniac'=>[
+					'dipsomanaic',
+				],
+				'dipsomaniacal'=>[
+					'dipsomanaical',
+				],
+				'dipsomaniacs'=>[
+					'dipsomanaics',
+				],
+				'dipstick'=>[
+					'diptick',
+					'distick',
+				],
+				'dipsticks'=>[
+					'dipticks',
+					'disticks',
+				],
 				'dipterocarpaceous'=>[
 					'dipterocarpacious',
+					'dipterocarpaceuos',
+					'dipterocarpacoeus',
+				],
+				'dipterous'=>[
+					'dipteruos',
 				],
 				'diquat'=>[
 					'diqaut',
@@ -5976,14 +10667,33 @@
 					'direclion',
 					'directiou',
 					'direetion',
+					'directoin',
+				],
+				'directional'=>[
+					'directoinal',
+					'directonal',
+				],
+				'directionalities'=>[
+					'directionaliteis',
+					'directoinalities',
+				],
+				'directionality'=>[
+					'directoinality',
 				],
 				'directionally'=>[
 					'directionallly',
 					'directionaly',
+					'directoinally',
+					'directonally',
 				],
 				'directionless'=>[
 					'directionles',
 					'directionlesss',
+					'directoinless',
+				],
+				'directions'=>[
+					'directoins',
+					'directons',
 				],
 				'directly'=>[
 					'direcly',
@@ -6005,6 +10715,16 @@
 					'directer',
 					'directir',
 				],
+				'directorial'=>[
+					'directorail',
+				],
+				'directories'=>[
+					'directoreis',
+				],
+				'directorships'=>[
+					'directorhips',
+					'directorsips',
+				],
 				'directory'=>[
 					'direcotyr',
 				],
@@ -6014,6 +10734,8 @@
 					'direfulely',
 					'direfullly',
 					'direfuly',
+					'direully',
+					'dirfully',
 				],
 				'direly'=>[
 					'dirly',
@@ -6025,8 +10747,23 @@
 				'dirigible'=>[
 					'dirigable',
 				],
+				'dirigibles'=>[
+					'dirigables',
+				],
 				'dirofilariasis'=>[
 					'dirofilariosis',
+				],
+				'dirtied'=>[
+					'dirteid',
+				],
+				'dirtier'=>[
+					'dirteir',
+				],
+				'dirties'=>[
+					'dirteis',
+				],
+				'dirtiest'=>[
+					'dirteist',
 				],
 				'dirtiness'=>[
 					'dirtines',
@@ -6037,6 +10774,13 @@
 				],
 				'disabilities'=>[
 					'disabilites',
+					'diabilities',
+					'disabiliteis',
+					'disbilities',
+				],
+				'disability'=>[
+					'diability',
+					'disbility',
 				],
 				'disable'=>[
 					'disible',
@@ -6044,8 +10788,25 @@
 				'disabled'=>[
 					'difabled',
 				],
+				'disablement'=>[
+					'disablemant',
+				],
+				'disabuse'=>[
+					'diabuse',
+					'disbuse',
+				],
+				'disabused'=>[
+					'diabused',
+					'disbused',
+				],
+				'disabuses'=>[
+					'diabuses',
+					'disbuses',
+				],
 				'disabusing'=>[
 					'disabuisng',
+					'diabusing',
+					'disbusing',
 				],
 				'disaccharidase'=>[
 					'disacharidase',
@@ -6064,6 +10825,8 @@
 				'disaccord'=>[
 					'disacord',
 					'disacccord',
+					'diaccord',
+					'disccord',
 				],
 				'disaccorded'=>[
 					'disacorded',
@@ -6072,6 +10835,8 @@
 				'disaccording'=>[
 					'disacording',
 					'disacccording',
+					'diaccording',
+					'disccording',
 				],
 				'disaccords'=>[
 					'disacords',
@@ -6096,15 +10861,28 @@
 				],
 				'disadvantage'=>[
 					'disadventage',
+					'diadvantage',
+					'disdvantage',
 				],
 				'disadvantaged'=>[
 					'disadventaged',
 				],
 				'disadvantageous'=>[
 					'disadventageous',
+					'diadvantageous',
+					'disadvantageuos',
+					'disadvantagoeus',
+					'disdvantageous',
+				],
+				'disadvantageously'=>[
+					'disadvantageousely',
+					'disadvantageuosly',
+					'disadvantagoeusly',
 				],
 				'disadvantages'=>[
 					'disadventages',
+					'diadvantages',
+					'disdvantages',
 				],
 				'disadvantaging'=>[
 					'disadventaging',
@@ -6112,10 +10890,14 @@
 				'disaffect'=>[
 					'disafect',
 					'disafffect',
+					'diaffect',
+					'disffect',
 				],
 				'disaffected'=>[
 					'disafected',
 					'disafffected',
+					'diaffected',
+					'disffected',
 				],
 				'disaffectedly'=>[
 					'disafectedly',
@@ -6124,38 +10906,57 @@
 				'disaffecting'=>[
 					'disafecting',
 					'disafffecting',
+					'diaffecting',
+					'disffecting',
 				],
 				'disaffection'=>[
 					'disafection',
 					'disafffection',
+					'diaffection',
+					'disaffectoin',
+					'disaffecton',
+					'disffection',
 				],
 				'disaffects'=>[
 					'disafects',
 					'disafffects',
+					'diaffects',
+					'disffects',
 				],
 				'disaffiliate'=>[
 					'disafffiliate',
 					'disafiliate',
+					'disaffilaite',
 				],
 				'disaffiliated'=>[
 					'disafffiliated',
 					'disafiliated',
+					'diaffiliated',
+					'disaffilaited',
+					'disffiliated',
 				],
 				'disaffiliates'=>[
 					'disafffiliates',
 					'disafiliates',
+					'disaffilaites',
 				],
 				'disaffiliating'=>[
 					'disafffiliating',
 					'disafiliating',
+					'disaffilaiting',
 				],
 				'disaffiliation'=>[
 					'disafffiliation',
 					'disafiliation',
+					'disaffilaition',
+					'disaffiliatoin',
+					'disaffiliaton',
 				],
 				'disaffirm'=>[
 					'disafffirm',
 					'disafirm',
+					'diaffirm',
+					'disffirm',
 				],
 				'disaffirmance'=>[
 					'disaffirmence',
@@ -6192,6 +10993,8 @@
 				'disaggregation'=>[
 					'disagregation',
 					'disagggregation',
+					'disaggregatoin',
+					'disaggregaton',
 				],
 				'disaggregations'=>[
 					'disagregations',
@@ -6203,6 +11006,8 @@
 					'disagre',
 					'disagreee',
 					'difagree',
+					'diagree',
+					'disgree',
 				],
 				'disagreeable'=>[
 					'disagreeble',
@@ -6210,12 +11015,17 @@
 					'disagreable',
 					'disagreeeable',
 					'difagreeable',
+					'diagreeable',
+					'disagreaeble',
+					'disgreeable',
 				],
 				'disagreeableness'=>[
 					'disagreeablenes',
 					'disagreeablenesss',
 					'disagreableness',
 					'disagreeeableness',
+					'disagreaebleness',
+					'disagreeibleness',
 				],
 				'disagreeably'=>[
 					'disagreeabally',
@@ -6225,49 +11035,72 @@
 					'disagreebly',
 					'disagreably',
 					'disagreeeably',
+					'disagreaebly',
+					'disagreeibly',
 				],
 				'disagreed'=>[
 					'disagred',
 					'disagreeed',
+					'diagreed',
+					'disgreed',
 				],
 				'disagreeing'=>[
 					'disagreieng',
 					'disagreeeing',
+					'diagreeing',
+					'disgreeing',
 				],
 				'disagreement'=>[
 					'disagreemant',
 					'dissagreement',
 					'disagreeement',
 					'disagrement',
+					'diagreement',
+					'disgreement',
 				],
 				'disagreements'=>[
 					'disagreeements',
 					'disagrements',
+					'diagreements',
+					'disagreemants',
+					'disgreements',
 				],
 				'disagrees'=>[
 					'disagreees',
 					'disagres',
+					'diagrees',
+					'disgrees',
 				],
 				'disallow'=>[
 					'disalow',
 					'disalllow',
+					'diallow',
+					'disllow',
 				],
 				'disallowance'=>[
 					'disallowence',
 					'disalllowance',
 					'disalowance',
+					'diallowance',
+					'disllowance',
 				],
 				'disallowed'=>[
 					'disalllowed',
 					'disalowed',
+					'diallowed',
+					'disllowed',
 				],
 				'disallowing'=>[
 					'disalllowing',
 					'disalowing',
+					'diallowing',
+					'disllowing',
 				],
 				'disallows'=>[
 					'disalllows',
 					'disalows',
+					'diallows',
+					'disllows',
 				],
 				'disambiguate'=>[
 					'disambigaute',
@@ -6283,6 +11116,8 @@
 				],
 				'disambiguation'=>[
 					'disambigaution',
+					'disambiguatoin',
+					'disambiguaton',
 				],
 				'disambiguations'=>[
 					'disambigautions',
@@ -6304,6 +11139,9 @@
 					'dissapear',
 					'dissappear',
 					'disapppear',
+					'diappear',
+					'disappaer',
+					'disppear',
 				],
 				'disappearance'=>[
 					'disapearance',
@@ -6312,17 +11150,28 @@
 					'disapperance',
 					'dissapearance',
 					'disapppearance',
+					'diappearance',
+					'disappaerance',
+					'disppearance',
 				],
 				'disappearances'=>[
 					'disapearances',
 					'disapperances',
 					'disapppearances',
+					'diappearances',
+					'disappaerances',
+					'disappearences',
+					'disppearances',
 				],
 				'disappeared'=>[
 					'disapeared',
 					'dissapeared',
 					'dissappeared',
 					'disapppeared',
+					'diappeared',
+					'disappaered',
+					'disappeard',
+					'disppeared',
 				],
 				'disappearing'=>[
 					'disapearing',
@@ -6330,17 +11179,26 @@
 					'disappering',
 					'dissapearing',
 					'disapppearing',
+					'diappearing',
+					'disappaering',
+					'disppearing',
 				],
 				'disappears'=>[
 					'disapears',
 					'dissapears',
 					'dissappears',
 					'disapppears',
+					'diappears',
+					'disappaers',
+					'disppears',
 				],
 				'disappoint'=>[
 					'disapoint',
 					'dissapoint',
 					'disapppoint',
+					'diappoint',
+					'disappiont',
+					'disppoint',
 				],
 				'disappointed'=>[
 					'disapointed',
@@ -6348,6 +11206,9 @@
 					'dissappointed',
 					'disapppointed',
 					'difappointed',
+					'diappointed',
+					'disappionted',
+					'disppointed',
 				],
 				'disappointedly'=>[
 					'disapointedly',
@@ -6357,10 +11218,14 @@
 					'dissapointing',
 					'dissappointing',
 					'disapppointing',
+					'diappointing',
+					'disappionting',
+					'disppointing',
 				],
 				'disappointingly'=>[
 					'disapointingly',
 					'disapppointingly',
+					'disappiontingly',
 				],
 				'disappointment'=>[
 					'disapointment',
@@ -6370,20 +11235,29 @@
 					'disappointement',
 					'disapppointment',
 					'difappointment',
+					'diappointment',
+					'disappiontment',
+					'disppointment',
 				],
 				'disappointments'=>[
 					'disapointments',
 					'disappointmants',
 					'disapppointments',
+					'diappointments',
+					'disappiontments',
+					'disppointments',
 				],
 				'disappoints'=>[
 					'disapoints',
 					'disapppoints',
+					'disappionts',
 				],
 				'disapprobation'=>[
 					'disaprobation',
 					'disappprobation',
 					'difapprobation',
+					'disapprobatoin',
+					'disapprobaton',
 				],
 				'disapprobations'=>[
 					'disaprobations',
@@ -6391,6 +11265,8 @@
 				'disapproval'=>[
 					'disaproval',
 					'disappproval',
+					'diapproval',
+					'dispproval',
 				],
 				'disapprovals'=>[
 					'disaprovals',
@@ -6398,10 +11274,14 @@
 				'disapprove'=>[
 					'disaprove',
 					'disappprove',
+					'diapprove',
+					'dispprove',
 				],
 				'disapproved'=>[
 					'disaproved',
 					'disappproved',
+					'diapproved',
+					'dispproved',
 				],
 				'disapprover'=>[
 					'disaprover',
@@ -6412,6 +11292,8 @@
 				'disapproves'=>[
 					'disaproves',
 					'disappproves',
+					'diapproves',
+					'dispproves',
 				],
 				'disapproving'=>[
 					'disaproving',
@@ -6424,17 +11306,36 @@
 				'disarmament'=>[
 					'disarmamant',
 				],
+				'disarmed'=>[
+					'diarmed',
+					'disrmed',
+				],
+				'disarming'=>[
+					'diarming',
+					'disrming',
+				],
+				'disarms'=>[
+					'diarms',
+					'disrms',
+				],
 				'disarrange'=>[
 					'disarange',
 					'disarrrange',
+					'diarrange',
+					'disrrange',
 				],
 				'disarranged'=>[
 					'disaranged',
 					'disarrranged',
+					'diarranged',
+					'disrranged',
 				],
 				'disarrangement'=>[
 					'disarangement',
 					'disarrrangement',
+					'diarrangement',
+					'disarrangemant',
+					'disrrangement',
 				],
 				'disarrangements'=>[
 					'disarangements',
@@ -6447,11 +11348,15 @@
 				'disarranging'=>[
 					'disaranging',
 					'disarrranging',
+					'diarranging',
+					'disrranging',
 				],
 				'disarray'=>[
 					'disaray',
 					'dissarray',
 					'disarrray',
+					'diarray',
+					'disrray',
 				],
 				'disarrayed'=>[
 					'disarayed',
@@ -6465,13 +11370,20 @@
 					'disarays',
 					'disarrrays',
 				],
+				'disarticulate'=>[
+					'diarticulate',
+					'disrticulate',
+				],
 				'disassemble'=>[
 					'disasemble',
 					'disasssemble',
+					'diassemble',
 				],
 				'disassembled'=>[
 					'disasembled',
 					'disasssembled',
+					'diassembled',
+					'disssembled',
 				],
 				'disassembler'=>[
 					'disasembler',
@@ -6484,35 +11396,51 @@
 				'disassemblies'=>[
 					'disasemblies',
 					'disasssemblies',
+					'disassembleis',
 				],
 				'disassembling'=>[
 					'disasembling',
 					'disasssembling',
+					'diassembling',
 				],
 				'disassembly'=>[
 					'dissassembly',
 					'disasembly',
 					'disasssembly',
+					'diassembly',
+					'disssembly',
 				],
 				'disassociate'=>[
 					'disasociate',
 					'disasssociate',
+					'diassociate',
+					'disassocaite',
 				],
 				'disassociated'=>[
 					'disasociated',
 					'disasssociated',
+					'diassociated',
+					'disassocaited',
 				],
 				'disassociates'=>[
 					'disasociates',
 					'disasssociates',
+					'diassociates',
+					'disassocaites',
 				],
 				'disassociating'=>[
 					'disasociating',
 					'disasssociating',
+					'diassociating',
+					'disassocaiting',
 				],
 				'disassociation'=>[
 					'disasociation',
 					'disasssociation',
+					'diassociation',
+					'disassocaition',
+					'disassociatoin',
+					'disassociaton',
 				],
 				'disassociations'=>[
 					'disasociations',
@@ -6526,38 +11454,103 @@
 				],
 				'disastrous'=>[
 					'disasterous',
+					'disastruos',
 				],
 				'disastrously'=>[
 					'disasterously',
+					'disastrousely',
+					'disastruosly',
+				],
+				'disband'=>[
+					'diband',
+					'disand',
+				],
+				'disbandment'=>[
+					'disbandmant',
 				],
 				'disbar'=>[
 					'disber',
 				],
+				'disbarment'=>[
+					'disbarmant',
+				],
 				'disbarred'=>[
 					'disbarrred',
+					'dibarred',
+					'disarred',
 				],
 				'disbarring'=>[
 					'disbarrring',
+					'dibarring',
+					'disarring',
+				],
+				'disbars'=>[
+					'dibars',
+					'disars',
 				],
 				'disbelief'=>[
 					'disbeleif',
 					'disbelif',
+					'dibelief',
+					'diselief',
 				],
 				'disbelieve'=>[
 					'disbeleive',
 					'disbelive',
+					'dibelieve',
+					'diselieve',
+				],
+				'disbelieved'=>[
+					'dibelieved',
+					'disbeleived',
+					'diselieved',
+				],
+				'disbeliever'=>[
+					'dibeliever',
+					'disbeleiver',
+					'diseliever',
+				],
+				'disbelievers'=>[
+					'dibelievers',
+					'disbeleivers',
+					'diselievers',
+				],
+				'disbelieves'=>[
+					'dibelieves',
+					'disbeleives',
+					'diselieves',
+				],
+				'disbelieving'=>[
+					'dibelieving',
+					'disbeleiving',
+					'diselieving',
+				],
+				'disbelievingly'=>[
+					'disbeleivingly',
+				],
+				'disbranch'=>[
+					'dibranch',
+					'disranch',
 				],
 				'disbudded'=>[
 					'disbuddded',
 				],
 				'disbudding'=>[
 					'disbuddding',
+					'dibudding',
+				],
+				'disbuds'=>[
+					'dibuds',
 				],
 				'disburden'=>[
 					'disburthen',
+					'diburden',
+					'disurden',
 				],
 				'disburdened'=>[
 					'disburdend',
+					'diburdened',
+					'disurdened',
 				],
 				'disburdenment'=>[
 					'disburdement',
@@ -6567,10 +11560,17 @@
 					'disburdements',
 					'disburdenents',
 				],
+				'disburdens'=>[
+					'diburdens',
+					'disurdens',
+				],
 				'disbursement'=>[
 					'disbursemant',
 					'dispersement',
 					'dispursement',
+				],
+				'disbursements'=>[
+					'disbursemants',
 				],
 				'disc'=>[
 					'dic',
@@ -6578,10 +11578,35 @@
 					# dis: an accepted spelling, not a slip (AmericanBritishWords_D: dis)
 				#	'dis',
 				],
+				'discalced'=>[
+					'dicalced',
+					'disalced',
+				],
+				'discant'=>[
+					'dicant',
+					'disant',
+				],
+				'discants'=>[
+					'dicants',
+					'disants',
+				],
 				'discard'=>[
 					'dicard',
 					'dicsard',
 					'disard',
+				],
+				'discarded'=>[
+					'dicarded',
+				],
+				'discarding'=>[
+					'dicarding',
+				],
+				'discards'=>[
+					'dicards',
+				],
+				'discarnate'=>[
+					'dicarnate',
+					'disarnate',
 				],
 				'discern'=>[
 					'decern',
@@ -6593,6 +11618,17 @@
 				'discerned'=>[
 					'difcerned',
 					'discemed',
+					'dicerned',
+					'discernd',
+					'diserned',
+				],
+				'discerner'=>[
+					'dicerner',
+					'diserner',
+				],
+				'discernibility'=>[
+					'dicernibility',
+					'disernibility',
 				],
 				'discernible'=>[
 					'dicernible',
@@ -6601,11 +11637,19 @@
 				#	'discernable',
 					'disernible',
 				],
+				'discernibly'=>[
+					'dicernibly',
+					'disernibly',
+				],
 				'discerning'=>[
 					'dicerning',
 					'dicserning',
 					'diserning',
 					'difcerning',
+				],
+				'discerningly'=>[
+					'dicerningly',
+					'diserningly',
 				],
 				'discernment'=>[
 					'dicernment',
@@ -6618,6 +11662,10 @@
 				'discernments'=>[
 					'discerments',
 					'discernents',
+				],
+				'discerns'=>[
+					'dicerns',
+					'diserns',
 				],
 				'discharge'=>[
 					'dicharge',
@@ -6636,9 +11684,17 @@
 					'difcharged',
 					'discliargcd',
 					'discliarged',
+					'dicharged',
+					'disharged',
+				],
+				'discharges'=>[
+					'dicharges',
+					'disharges',
 				],
 				'discharging'=>[
 					'difcharging',
+					'dicharging',
+					'disharging',
 				],
 				'disci'=>[
 					'dici',
@@ -6653,6 +11709,12 @@
 				],
 				'disciples'=>[
 					'difciples',
+					'diciples',
+					'disiples',
+				],
+				'discipleship'=>[
+					'dicipleship',
+					'disipleship',
 				],
 				'discipleships'=>[
 					'dicipleships',
@@ -6665,18 +11727,25 @@
 					'disciplinible',
 					'disiplinable',
 				],
+				'disciplinant'=>[
+					'diciplinant',
+					'disciplinent',
+					'disiplinant',
+				],
 				'disciplinarian'=>[
 					'diciplinarian',
 					'dicsiplinarian',
 					'disciplinaran',
 					'disciplinirian',
 					'disiplinarian',
+					'disciplinarain',
 				],
 				'disciplinarians'=>[
 					'diciplinarians',
 					'dicsiplinarians',
 					'disciplinirians',
 					'disiplinarians',
+					'disciplinarains',
 				],
 				'disciplinarily'=>[
 					'diciplinarily',
@@ -6710,9 +11779,16 @@
 					'disciplinid',
 					'disiplined',
 					'difciplined',
+					'disciplind',
+				],
+				'disciplines'=>[
+					'diciplines',
+					'disiplines',
 				],
 				'disciplining'=>[
 					'disciplinang',
+					'diciplining',
+					'disiplining',
 				],
 				'discission'=>[
 					'discision',
@@ -6722,36 +11798,94 @@
 					'dicslaim',
 					'dislaim',
 					'difclaim',
+					'discliam',
+				],
+				'disclaimed'=>[
+					'diclaimed',
+					'discliamed',
+					'dislaimed',
 				],
 				'disclaimer'=>[
 					'diclaimer',
 					'dicslaimer',
 					'dislaimer',
+					'discliamer',
+				],
+				'disclaimers'=>[
+					'diclaimers',
+					'discliamers',
+					'dislaimers',
+				],
+				'disclaiming'=>[
+					'diclaiming',
+					'discliaming',
+					'dislaiming',
+				],
+				'disclaims'=>[
+					'diclaims',
+					'discliams',
+					'dislaims',
 				],
 				'disclamation'=>[
 					'diclamation',
 					'dicslamation',
 					'dislamation',
+					'disclamatoin',
+					'disclamaton',
 				],
 				'disclamations'=>[
 					'diclamations',
 					'dicslamations',
 					'dislamations',
 				],
+				'disclimax'=>[
+					'diclimax',
+					'dislimax',
+				],
 				'disclose'=>[
 					'diclose',
 					'dicslose',
 					'dislose',
+					'discose',
+				],
+				'disclosed'=>[
+					'diclosed',
+					'dislosed',
+				],
+				'discloser'=>[
+					'dicloser',
+					'disloser',
+				],
+				'discloses'=>[
+					'dicloses',
+					'disloses',
+				],
+				'disclosing'=>[
+					'diclosing',
+					'dislosing',
 				],
 				'disclosure'=>[
 					'diclosure',
 					'dicslosure',
 					'dislosure',
 				],
+				'disclosures'=>[
+					'diclosures',
+					'dislosures',
+				],
 				'disco'=>[
 					'dico',
 					'dicso',
 					'diso',
+				],
+				'discobolus'=>[
+					'dicobolus',
+					'disobolus',
+				],
+				'discoed'=>[
+					'dicoed',
+					'disceod',
+					'disoed',
 				],
 				'discographers'=>[
 					'dicographers',
@@ -6767,6 +11901,7 @@
 					'dicographies',
 					'dicsographies',
 					'disographies',
+					'discographeis',
 				],
 				'discography'=>[
 					'dicography',
@@ -6777,6 +11912,12 @@
 					'dicoid',
 					'dicsoid',
 					'disoid',
+					'disciod',
+				],
+				'discoing'=>[
+					'dicoing',
+					'disciong',
+					'disoing',
 				],
 				'discolor'=>[
 					'dicolor',
@@ -6787,11 +11928,28 @@
 					'dicoloration',
 					'dicsoloration',
 					'disoloration',
+					'discoloratoin',
+					'discoloraton',
 				],
 				'discolorations'=>[
 					'dicolorations',
 					'dicsolorations',
 					'disolorations',
+					'discoloratoins',
+					'discoloratons',
+				],
+				'discolored'=>[
+					'dicolored',
+					'discolord',
+					'disolored',
+				],
+				'discoloring'=>[
+					'dicoloring',
+					'disoloring',
+				],
+				'discolors'=>[
+					'dicolors',
+					'disolors',
 				],
 				'discombobulate'=>[
 					'dicombobulate',
@@ -6807,6 +11965,32 @@
 					'dicombobulates',
 					'dicsombobulates',
 					'disombobulates',
+				],
+				'discombobulating'=>[
+					'dicombobulating',
+					'disombobulating',
+				],
+				'discombobulation'=>[
+					'dicombobulation',
+					'discombobulatoin',
+					'discombobulaton',
+					'disombobulation',
+				],
+				'discomfit'=>[
+					'dicomfit',
+					'disomfit',
+				],
+				'discomfited'=>[
+					'dicomfited',
+					'disomfited',
+				],
+				'discomfiting'=>[
+					'dicomfiting',
+					'disomfiting',
+				],
+				'discomfits'=>[
+					'dicomfits',
+					'disomfits',
 				],
 				'discomfiture'=>[
 					'dicomfiture',
@@ -6829,15 +12013,25 @@
 					'discomfortible',
 					'disomfortable',
 				],
+				'discomforted'=>[
+					'dicomforted',
+					'disomforted',
+				],
 				'discomforting'=>[
 					'dicomforting',
 					'dicsomforting',
 					'disomforting',
 				],
+				'discomforts'=>[
+					'dicomforts',
+					'disomforts',
+				],
 				'discommend'=>[
 					'discomnend',
 					'discomend',
 					'discommmend',
+					'dicommend',
+					'disommend',
 				],
 				'discommending'=>[
 					'dicommending',
@@ -6849,27 +12043,55 @@
 					'discomnode',
 					'discommmode',
 					'discomode',
+					'dicommode',
+					'disommode',
 				],
 				'discommoded'=>[
 					'discomnoded',
 					'discommmoded',
 					'discomoded',
+					'dicommoded',
+					'disommoded',
 				],
 				'discommodes'=>[
 					'discommmodes',
 					'discomodes',
+					'dicommodes',
+					'disommodes',
 				],
 				'discommoding'=>[
 					'discommmoding',
 					'discomoding',
+					'dicommoding',
+					'disommoding',
 				],
 				'discommodity'=>[
 					'discommmodity',
 					'discomodity',
+					'dicommodity',
+					'disommodity',
 				],
 				'discommon'=>[
 					'discommmon',
 					'discomon',
+					'dicommon',
+					'disommon',
+				],
+				'discompose'=>[
+					'dicompose',
+					'disompose',
+				],
+				'discomposed'=>[
+					'dicomposed',
+					'disomposed',
+				],
+				'discomposes'=>[
+					'dicomposes',
+					'disomposes',
+				],
+				'discomposing'=>[
+					'dicomposing',
+					'disomposing',
 				],
 				'discomposure'=>[
 					'dicomposure',
@@ -6886,6 +12108,14 @@
 					'dicsoncert',
 					'disoncert',
 				],
+				'disconcerted'=>[
+					'diconcerted',
+					'disoncerted',
+				],
+				'disconcertedly'=>[
+					'diconcertedly',
+					'disoncertedly',
+				],
 				'disconcerting'=>[
 					'diconcerting',
 					'dicsoncerting',
@@ -6896,16 +12126,27 @@
 					'dicsoncertingly',
 					'disoncertingly',
 				],
+				'disconcertion'=>[
+					'diconcertion',
+					'disconcertoin',
+					'disconcerton',
+					'disoncertion',
+				],
 				'disconcertment'=>[
 					'diconcertment',
 					'dicsoncertment',
 					'disoncertment',
+					'disconcertmant',
 				],
 				'disconcertments'=>[
 					'diconcertments',
 					'dicsoncertments',
 					'disconcertmants',
 					'disoncertments',
+				],
+				'disconcerts'=>[
+					'diconcerts',
+					'disoncerts',
 				],
 				'disconfirming'=>[
 					'diconfirming',
@@ -6950,6 +12191,8 @@
 					'disconnectednesss',
 					'disconectedness',
 					'disconnnectedness',
+					'diconnectedness',
+					'disonnectedness',
 				],
 				'disconnecting'=>[
 					'diconnecting',
@@ -6964,6 +12207,8 @@
 					'disconection',
 					'disonnection',
 					'disconnnection',
+					'disconnectoin',
+					'disconnecton',
 				],
 				'disconnections'=>[
 					'diconnections',
@@ -6971,10 +12216,18 @@
 					'disconections',
 					'disonnections',
 					'disconnnections',
+					'disconnectoins',
+					'disconnectons',
 				],
 				'disconnects'=>[
 					'disconects',
 					'disconnnects',
+					'diconnects',
+					'disonnects',
+				],
+				'disconsider'=>[
+					'diconsider',
+					'disonsider',
 				],
 				'disconsolate'=>[
 					'diconsolate',
@@ -6990,6 +12243,8 @@
 				'disconsolateness'=>[
 					'disconsolatenes',
 					'disconsolatenesss',
+					'diconsolateness',
+					'disonsolateness',
 				],
 				'disconsolatenesses'=>[
 					'disconsolateneses',
@@ -6999,6 +12254,8 @@
 					'diconsolation',
 					'dicsonsolation',
 					'disonsolation',
+					'disconsolatoin',
+					'disconsolaton',
 				],
 				'disconsolations'=>[
 					'diconsolations',
@@ -7027,6 +12284,8 @@
 				'discontentedness'=>[
 					'discontentednes',
 					'discontentednesss',
+					'dicontentedness',
+					'disontentedness',
 				],
 				'discontentednesses'=>[
 					'discontentedneses',
@@ -7041,12 +12300,18 @@
 					'dicontentment',
 					'dicsontentment',
 					'disontentment',
+					'discontentmant',
 				],
 				'discontentments'=>[
 					'dicontentments',
 					'dicsontentments',
 					'discontentmants',
 					'disontentments',
+				],
+				'discontents'=>[
+					'dicontents',
+					'discontants',
+					'disontents',
 				],
 				'discontinuance'=>[
 					'dicontinuance',
@@ -7060,22 +12325,44 @@
 					'dicsontinuances',
 					'discontinaunces',
 					'disontinuances',
+					'discontinuences',
 				],
 				'discontinuation'=>[
 					'dicontinuation',
 					'dicsontinuation',
 					'discontinaution',
 					'disontinuation',
+					'discontinuatoin',
+					'discontinuaton',
+				],
+				'discontinuations'=>[
+					'dicontinuations',
+					'discontinautions',
+					'discontinuatoins',
+					'discontinuatons',
+					'disontinuations',
 				],
 				'discontinue'=>[
 					'dicontinue',
 					'dicsontinue',
 					'disontinue',
+					'discontineu',
+				],
+				'discontinued'=>[
+					'dicontinued',
+					'discontineud',
+					'disontinued',
+				],
+				'discontinues'=>[
+					'dicontinues',
+					'discontineus',
+					'disontinues',
 				],
 				'discontinuing'=>[
 					'dicontinuing',
 					'dicsontinuing',
 					'disontinuing',
+					'discontiniung',
 				],
 				'discontinuities'=>[
 					'dicontinuities',
@@ -7083,23 +12370,34 @@
 					'discontinuiteis',
 					'discontinuitis',
 					'disontinuities',
+					'discontiniuties',
 				],
 				'discontinuity'=>[
 					'dicontinuity',
 					'dicsontinuity',
 					'disontinuity',
+					'discontiniuty',
 				],
 				'discontinuous'=>[
 					'dicontinuous',
 					'dicsontinuous',
 					'discontinous',
 					'disontinuous',
+					'discontinouus',
+					'discontinuuos',
 				],
 				'discontinuously'=>[
 					'dicontinuously',
 					'dicsontinuously',
 					'discontinously',
 					'disontinuously',
+					'discontinouusly',
+					'discontinuousely',
+					'discontinuuosly',
+				],
+				'discophile'=>[
+					'dicophile',
+					'disophile',
 				],
 				'discord'=>[
 					'dicord',
@@ -7119,6 +12417,9 @@
 				],
 				'discordancy'=>[
 					'discordansy',
+					'dicordancy',
+					'discordency',
+					'disordancy',
 				],
 				'discordant'=>[
 					'dicordant',
@@ -7128,43 +12429,101 @@
 				],
 				'discordantly'=>[
 					'discordently',
+					'dicordantly',
+					'discordantely',
+					'disordantly',
+				],
+				'discorded'=>[
+					'dicorded',
+				],
+				'discording'=>[
+					'dicording',
+				],
+				'discords'=>[
+					'dicords',
+				],
+				'discos'=>[
+					'dicos',
+					'disos',
 				],
 				'discotheque'=>[
 					'dicotheque',
 					'dicsotheque',
 					'disotheque',
+					'discotheqeu',
+				],
+				'discotheques'=>[
+					'dicotheques',
+					'discotheqeus',
+					'disotheques',
 				],
 				'discount'=>[
 					'dicount',
 					'dicsount',
 					'disount',
+					'discuont',
+				],
+				'discountable'=>[
+					'dicountable',
+					'discountible',
+					'discuontable',
+					'disountable',
+				],
+				'discounted'=>[
+					'dicounted',
+					'discuonted',
 				],
 				'discountenance'=>[
 					'dicountenance',
 					'dicsountenance',
 					'discountenence',
 					'disountenance',
+					'discuontenance',
 				],
 				'discountenanced'=>[
 					'dicountenanced',
 					'dicsountenanced',
 					'disountenanced',
+					'discuontenanced',
 				],
 				'discountenances'=>[
 					'dicountenances',
 					'dicsountenances',
 					'disountenances',
+					'discountenences',
+					'discuontenances',
+				],
+				'discountenancing'=>[
+					'dicountenancing',
+					'discuontenancing',
+					'disountenancing',
 				],
 				'discounter'=>[
 					'dicounter',
 					'dicsounter',
 					'disounter',
+					'discuonter',
+				],
+				'discounters'=>[
+					'dicounters',
+					'discuonters',
+					'disounters',
+				],
+				'discounting'=>[
+					'dicounting',
+					'discuonting',
+				],
+				'discounts'=>[
+					'dicounts',
+					'discuonts',
+					'disounts',
 				],
 				'discourage'=>[
 					'dicourage',
 					'dicsourage',
 					'disourage',
 					'difcourage',
+					'discuorage',
 				],
 				'discourageable'=>[
 					'dicourageable',
@@ -7176,37 +12535,67 @@
 				'discouraged'=>[
 					'disencouraged',
 					'difcouraged',
+					'dicouraged',
+					'discuoraged',
+					'disouraged',
 				],
 				'discouragement'=>[
 					'dicouragement',
 					'dicsouragement',
 					'discouragemant',
 					'disouragement',
+					'discuoragement',
 				],
 				'discouragements'=>[
 					'dicouragements',
 					'dicsouragements',
 					'discouragemants',
 					'disouragements',
+					'discuoragements',
+				],
+				'discourages'=>[
+					'dicourages',
+					'discuorages',
+					'disourages',
 				],
 				'discouraging'=>[
 					'difcouraging',
+					'dicouraging',
+					'discuoraging',
+					'disouraging',
 				],
 				'discouragingly'=>[
 					'dicouragingly',
 					'dicsouragingly',
 					'disouragingly',
+					'discuoragingly',
 				],
 				'discourse'=>[
 					'dicourse',
 					'dicsourse',
 					'disourse',
 					'difcourfe',
+					'discuorse',
+				],
+				'discoursed'=>[
+					'dicoursed',
+					'discuorsed',
+				],
+				'discourses'=>[
+					'dicourses',
+					'discuorses',
+				],
+				'discoursing'=>[
+					'dicoursing',
+					'discuorsing',
 				],
 				'discourteous'=>[
 					'dicourteous',
 					'dicsourteous',
 					'disourteous',
+					'discourteuos',
+					'discourtoeus',
+					'discuorteous',
 				],
 				'discourteously'=>[
 					'dicourteously',
@@ -7216,35 +12605,69 @@
 					'discourteousely',
 					'discourteouslly',
 					'disourteously',
+					'discourteuosly',
+					'discourtoeusly',
+					'discuorteously',
 				],
 				'discourtesies'=>[
 					'dicourtesies',
 					'dicsourtesies',
 					'disourtesies',
+					'discourteseis',
+					'discuortesies',
 				],
 				'discourtesy'=>[
 					'dicourtesy',
 					'dicsourtesy',
 					'discourtecy',
 					'disourtesy',
+					'discuortesy',
 				],
 				'discover'=>[
 					'dicover',
 					'dicsover',
 					'disover',
 					'difcover',
+					'discver',
+				],
+				'discoverable'=>[
+					'dicoverable',
+					'discoverible',
+					'disoverable',
 				],
 				'discovered'=>[
 					'dicovered',
 					'difcovered',
 					'discoverecl',
 					'diseovered',
+					'discoverd',
+					'disovered',
+				],
+				'discoverer'=>[
+					'dicoverer',
+					'disoverer',
+				],
+				'discoverers'=>[
+					'dicoverers',
+					'disoverers',
+				],
+				'discoveries'=>[
+					'dicoveries',
+					'discovaries',
+					'discovereis',
+					'disoveries',
 				],
 				'discovering'=>[
 					'dicovering',
+					'disovering',
 				],
 				'discovers'=>[
 					'dicovers',
+					'disovers',
+				],
+				'discovert'=>[
+					'dicovert',
+					'disovert',
 				],
 				'discovery'=>[
 					'dicovery',
@@ -7254,6 +12677,8 @@
 					'disovery',
 					'difcovery',
 					'diseovery',
+					'discoery',
+					'discvery',
 				],
 				'discredit'=>[
 					'dicredit',
@@ -7270,6 +12695,19 @@
 					'dicreditably',
 					'dicsreditably',
 					'disreditably',
+					'discreditibly',
+				],
+				'discredited'=>[
+					'dicredited',
+					'disredited',
+				],
+				'discrediting'=>[
+					'dicrediting',
+					'disrediting',
+				],
+				'discredits'=>[
+					'dicredits',
+					'disredits',
 				],
 				'discreet'=>[
 					'dicreet',
@@ -7281,18 +12719,27 @@
 				],
 				'discreeter'=>[
 					'discreeeter',
+					'dicreeter',
+					'disreeter',
 				],
 				'discreetest'=>[
 					'discreeetest',
+					'dicreetest',
+					'disreetest',
 				],
 				'discreetly'=>[
 					'discreeetly',
+					'dicreetly',
+					'discreetely',
+					'disreetly',
 				],
 				'discreetness'=>[
 					'discreetnes',
 					'discreetnesss',
 					'discreeetness',
 					'discretness',
+					'dicreetness',
+					'disreetness',
 				],
 				'discreetnesses'=>[
 					'dicreetnesses',
@@ -7304,6 +12751,7 @@
 					'dicsrepancies',
 					'discrepencies',
 					'disrepancies',
+					'discrepanceis',
 				],
 				'discrepancy'=>[
 					'dicrepancy',
@@ -7325,10 +12773,14 @@
 				],
 				'discretely'=>[
 					'discretly',
+					'dicretely',
+					'disretely',
 				],
 				'discreteness'=>[
 					'discretenes',
 					'discretenesss',
+					'dicreteness',
+					'disreteness',
 				],
 				'discretenesses'=>[
 					'dicretenesses',
@@ -7341,12 +12793,22 @@
 					'disretion',
 					'difcretion',
 					'diferetion',
+					'discretoin',
+					'discreton',
+				],
+				'discretional'=>[
+					'dicretional',
+					'discretoinal',
+					'discretonal',
+					'disretional',
 				],
 				'discretionary'=>[
 					'dicretionary',
 					'dicsretionary',
 					'discretionery',
 					'disretionary',
+					'discretoinary',
+					'discretonary',
 				],
 				'discriminable'=>[
 					'dicriminable',
@@ -7385,6 +12847,11 @@
 					'dicsriminated',
 					'disriminated',
 				],
+				'discriminately'=>[
+					'dicriminately',
+					'discriminatly',
+					'disriminately',
+				],
 				'discriminates'=>[
 					'dicriminates',
 					'dicsriminates',
@@ -7396,6 +12863,10 @@
 					'discriminiting',
 					'disriminating',
 				],
+				'discriminatingly'=>[
+					'dicriminatingly',
+					'disriminatingly',
+				],
 				'discrimination'=>[
 					'dicrimination',
 					'dicsrimination',
@@ -7403,6 +12874,8 @@
 					'disrimination',
 					'descrimination',
 					'discremination',
+					'discriminatoin',
+					'discriminaton',
 				],
 				'discriminations'=>[
 					'dicriminations',
@@ -7434,11 +12907,21 @@
 					'discriminitory',
 					'disriminatory',
 				],
+				'discrown'=>[
+					'dicrown',
+					'disrown',
+				],
 				'discs'=>[
 					'dics',
 					'dicss',
 					# diss: an accepted spelling, not a slip (AmericanBritishWords_D: dis)
 				#	'diss',
+				],
+				'discursion'=>[
+					'dicursion',
+					'discursoin',
+					'discurson',
+					'disursion',
 				],
 				'discursive'=>[
 					'dicsursive',
@@ -7447,6 +12930,8 @@
 				],
 				'discursively'=>[
 					'discursivly',
+					'dicursively',
+					'disursively',
 				],
 				'discursiveness'=>[
 					'dicsursiveness',
@@ -7463,6 +12948,9 @@
 				'discus throw'=>[
 					'discuss throw',
 				],
+				'discuses'=>[
+					'dicuses',
+				],
 				'discuss'=>[
 					'descuss',
 					'dicsuss',
@@ -7476,22 +12964,32 @@
 				'discussable'=>[
 					'discusable',
 					'discusssable',
+					'dicussable',
+					'disussable',
 				],
 				'discussant'=>[
 					'discussent',
 					'discusant',
 					'discusssant',
+					'dicussant',
+					'disussant',
 				],
 				'discussants'=>[
 					'discusants',
 					'discusssants',
+					'dicussants',
+					'discussents',
+					'disussants',
 				],
 				'discussed'=>[
 					'discusssed',
+					'dicussed',
+					'disussed',
 				],
 				'discusses'=>[
 					'dicusses',
 					'discussses',
+					'disusses',
 				],
 				'discussible'=>[
 					'discussable',
@@ -7499,6 +12997,7 @@
 				'discussing'=>[
 					'dicussing',
 					'discusssing',
+					'disussing',
 				],
 				'discussion'=>[
 					'dicsussion',
@@ -7506,38 +13005,86 @@
 					'discusion',
 					'disussion',
 					'discusssion',
+					'discussoin',
+					'discusson',
 				],
 				'discussions'=>[
 					'discusions',
 					'discusssions',
+					'dicussions',
+					'discussoins',
+					'discussons',
+					'disussions',
+				],
+				'disdain'=>[
+					'disdian',
+				],
+				'disdained'=>[
+					'disdaind',
+					'disdianed',
+				],
+				'disdainful'=>[
+					'disdianful',
 				],
 				'disdainfully'=>[
 					'disdainfullly',
 					'disdainfuly',
+					'disdaifully',
+					'disdainully',
+					'disdianfully',
+				],
+				'disdaining'=>[
+					'disdianing',
+				],
+				'disdains'=>[
+					'disdians',
 				],
 				'disease'=>[
 					'desease',
 					'disese',
 					'difeafe',
+					'diease',
+					'disaese',
+					'disase',
 				],
 				'diseased'=>[
 					'disesed',
+					'dieased',
+					'disaesed',
+					'disased',
 				],
 				'diseases'=>[
 					'deseases',
 					'difeafes',
+					'disaeses',
+				],
+				'disembark'=>[
+					'diembark',
+					'dismbark',
+				],
+				'disembarkation'=>[
+					'disembarkatoin',
+					'disembarkaton',
+				],
+				'disembarked'=>[
+					'diembarked',
+					'dismbarked',
 				],
 				'disembarrass'=>[
 					'disembarass',
 					'disembarras',
 					'disembarrasss',
 					'disembarrrass',
+					'diembarrass',
+					'dismbarrass',
 				],
 				'disembarrassed'=>[
 					'disembarassed',
 					'disembarrased',
 					'disembarrasssed',
 					'disembarrrassed',
+					'diembarrassed',
+					'dismbarrassed',
 				],
 				'disembarrasses'=>[
 					'disembarasses',
@@ -7550,6 +13097,22 @@
 					'disembarrasing',
 					'disembarrasssing',
 					'disembarrrassing',
+					'diembarrassing',
+					'dismbarrassing',
+				],
+				'disembodied'=>[
+					'disembodeid',
+				],
+				'disembodies'=>[
+					'disembodeis',
+				],
+				'disembodiment'=>[
+					'diembodiment',
+					'disembodimant',
+					'dismbodiment',
+				],
+				'disembogue'=>[
+					'disembogeu',
 				],
 				'disemboweled'=>[
 					'disembowled',
@@ -7560,33 +13123,109 @@
 				'disembowelling'=>[
 					'disembowellling',
 				],
+				'disembowelment'=>[
+					'disembowelmant',
+				],
 				'disembowelments'=>[
 					'disembowelmants',
 				],
+				'disembroil'=>[
+					'disembriol',
+				],
+				'disembroiled'=>[
+					'disembrioled',
+				],
+				'disembroiling'=>[
+					'disembrioling',
+				],
+				'disembroils'=>[
+					'disembriols',
+				],
 				'disenable'=>[
 					'disenible',
+					'dienable',
+					'disnable',
+				],
+				'disenabled'=>[
+					'dienabled',
+					'disnabled',
+				],
+				'disenables'=>[
+					'dienables',
+					'disenibles',
+					'disnables',
+				],
+				'disenabling'=>[
+					'dienabling',
+					'disnabling',
+				],
+				'disenchant'=>[
+					'disenchent',
 				],
 				'disenchanted'=>[
 					'disenchanged',
+					'dienchanted',
+					'disnchanted',
 				],
 				'disenchanters'=>[
 					'disenchenters',
 				],
 				'disenchanting'=>[
 					'disenchenting',
+					'dienchanting',
+					'disnchanting',
 				],
 				'disenchantingly'=>[
 					'disenchentingly',
 				],
 				'disenchantment'=>[
 					'disenchentment',
+					'dienchantment',
+					'disenchantmant',
+					'disnchantment',
 				],
 				'disenchantments'=>[
 					'disenchantmants',
 					'disenchentments',
 				],
+				'disenchants'=>[
+					'disenchents',
+				],
+				'disencumbered'=>[
+					'disencumberd',
+				],
+				'disenfranchisement'=>[
+					'disenfranchisemant',
+				],
+				'disengage'=>[
+					'diengage',
+					'disngage',
+				],
+				'disengaged'=>[
+					'diengaged',
+					'disngaged',
+				],
+				'disengagement'=>[
+					'diengagement',
+					'disengagemant',
+					'disngagement',
+				],
+				'disengagements'=>[
+					'disengagemants',
+				],
+				'disengaging'=>[
+					'diengaging',
+					'disngaging',
+				],
+				'disentail'=>[
+					'disential',
+				],
 				'disentangle'=>[
 					'disantangle',
+				],
+				'disentangled'=>[
+					'dientangled',
+					'disntangled',
 				],
 				'disentanglement'=>[
 					'disentanglemant',
@@ -7594,13 +13233,41 @@
 				'disenthrall'=>[
 					'disenthralll',
 				],
+				'disepalous'=>[
+					'disepaluos',
+				],
+				'disequilibrium'=>[
+					'diseqiulibrium',
+					'disequilibruim',
+				],
+				'disestablish'=>[
+					'diestablish',
+					'disstablish',
+				],
+				'disestablished'=>[
+					'diestablished',
+					'disstablished',
+				],
+				'disestablishing'=>[
+					'diestablishing',
+					'disstablishing',
+				],
+				'disestablishment'=>[
+					'diestablishment',
+					'disestablishmant',
+					'disstablishment',
+				],
 				'disesteem'=>[
 					'disesteeem',
 					'disestem',
+					'diesteem',
+					'dissteem',
 				],
 				'disesteemed'=>[
 					'disesteeemed',
 					'disestemed',
+					'diesteemed',
+					'dissteemed',
 				],
 				'disesteeming'=>[
 					'disesteeeming',
@@ -7612,29 +13279,133 @@
 				],
 				'diseur'=>[
 					'diser',
+					'disuer',
+				],
+				'diseuse'=>[
+					'disuese',
+				],
+				'disfavor'=>[
+					'difavor',
+					'disavor',
+				],
+				'disfavored'=>[
+					'difavored',
+					'disavored',
+					'disfavord',
+				],
+				'disfavors'=>[
+					'difavors',
+					'disavors',
+				],
+				'disfeature'=>[
+					'difeature',
+					'diseature',
+					'disfaeture',
+				],
+				'disfiguration'=>[
+					'disfiguratoin',
+					'disfiguraton',
+				],
+				'disfigure'=>[
+					'difigure',
+					'disigure',
+				],
+				'disfigured'=>[
+					'difigured',
+					'disfigurd',
+					'disigured',
+				],
+				'disfigurement'=>[
+					'disfiguremant',
+				],
+				'disfigurements'=>[
+					'disfiguremants',
+				],
+				'disfigures'=>[
+					'difigures',
+					'disigures',
+				],
+				'disfiguring'=>[
+					'difiguring',
+					'disiguring',
+				],
+				'disforest'=>[
+					'diforest',
+					'disorest',
+				],
+				'disforests'=>[
+					'diforests',
+					'disorests',
+				],
+				'disfranchise'=>[
+					'difranchise',
+					'disranchise',
+				],
+				'disfranchisement'=>[
+					'disfranchisemant',
 				],
 				'disfurnishments'=>[
 					'disfurnishmants',
 				],
+				'disgorge'=>[
+					'digorge',
+					'disorge',
+				],
+				'disgorgement'=>[
+					'disgorgemant',
+				],
 				'disgrace'=>[
 					'difgrace',
+					'digrace',
+					'disrace',
+				],
+				'disgraced'=>[
+					'digraced',
+					'disraced',
 				],
 				'disgraceful'=>[
 					'difgraceful',
+					'digraceful',
+					'disraceful',
 				],
 				'disgracefully'=>[
 					'disgracefullly',
 					'disgracefuly',
+					'disgraceully',
+					'disgracfully',
 				],
 				'disgracefulness'=>[
 					'disgracefulnes',
 					'disgracefulnesss',
+				],
+				'disgraces'=>[
+					'digraces',
+					'disraces',
+				],
+				'disgruntlement'=>[
+					'disgruntlemant',
 				],
 				'disgruntlements'=>[
 					'disgruntlemants',
 				],
 				'disguise'=>[
 					'difguife',
+					'diguise',
+					'disgiuse',
+					'disuise',
+				],
+				'disguised'=>[
+					'disgiused',
+				],
+				'disguises'=>[
+					'disgiuses',
+				],
+				'disguising'=>[
+					'disgiusing',
+				],
+				'disgust'=>[
+					'digust',
+					'disust',
 				],
 				'disgusted'=>[
 					'difgufted',
@@ -7649,13 +13420,34 @@
 				],
 				'disharmonious'=>[
 					'disharmonous',
+					'disharmoniuos',
+					'disharmonoius',
+				],
+				'disharmoniously'=>[
+					'disharmoniousely',
+					'disharmoniuosly',
+					'disharmonoiusly',
+					'disharmonously',
+				],
+				'disharmony'=>[
+					'diharmony',
+					'disarmony',
+				],
+				'dishcloth'=>[
+					'discloth',
+					'dishloth',
+				],
+				'dishearten'=>[
+					'dishaerten',
 				],
 				'disheartened'=>[
 					'disheartend',
 					'dishertened',
+					'dishaertened',
 				],
 				'disheartening'=>[
 					'dishertening',
+					'dishaertening',
 				],
 				'dishearteningly'=>[
 					'dishearteningally',
@@ -7663,22 +13455,29 @@
 					'dishearteningely',
 					'dishearteninglly',
 					'disherteningly',
+					'dishaerteningly',
 				],
 				'disheartenment'=>[
 					'disheartement',
 					'disheartenent',
 					'dishertenment',
+					'dishaertenment',
+					'disheartenmant',
 				],
 				'disheartenments'=>[
 					'disheartements',
 					'disheartenents',
 					'disheartenmants',
 					'dishertenments',
+					'dishaertenments',
 				],
 					# dishonour: an accepted spelling, not a slip (AmericanBritishWords_D: dishonor)
 			#	'dishonor'=>[
 			#		'dishonour',
 			#	],
+				'disheartens'=>[
+					'dishaertens',
+				],
 				'dishes'=>[
 					'difhes',
 					'dislics',
@@ -7689,13 +13488,33 @@
 				'dishevelling'=>[
 					'dishevellling',
 				],
+				'dishevelment'=>[
+					'dishevelmant',
+				],
 				'dishonest'=>[
 					'dislionest',
+					'dihonest',
+					'disonest',
+				],
+				'dishonestly'=>[
+					'dihonestly',
+					'dishonestely',
+					'disonestly',
+				],
+				'dishonesty'=>[
+					'dihonesty',
+					'disonesty',
+				],
+				'dishonor'=>[
+					'dihonor',
+					'disonor',
 				],
 				'dishonorable'=>[
 					'dishonorible',
 					# dishonourable: an accepted spelling, not a slip (AmericanBritishWords_D: dishonorable)
 				#	'dishonourable',
+					'dihonorable',
+					'disonorable',
 				],
 				'dishonorably'=>[
 					'dishonorabally',
@@ -7704,6 +13523,7 @@
 					'dishonorablly',
 					# dishonourably: an accepted spelling, not a slip (AmericanBritishWords_D: dishonorably)
 				#	'dishonourably',
+					'dishonoribly',
 				],
 					# dishonoured: an accepted spelling, not a slip (AmericanBritishWords_D: dishonored)
 			#	'dishonored'=>[
@@ -7725,10 +13545,51 @@
 			#	'dishonors'=>[
 			#		'dishonours',
 			#	],
+				'dishonored'=>[
+					'dihonored',
+					'dishonord',
+					'disonored',
+				],
+				'dishonoring'=>[
+					'dihonoring',
+					'disonoring',
+				],
+				'dishonors'=>[
+					'dihonors',
+					'disonors',
+				],
+				'dishpans'=>[
+					'dishans',
+					'dispans',
+				],
+				'dishrags'=>[
+					'dishags',
+					'disrags',
+				],
+				'dishtowel'=>[
+					'dishowel',
+					'distowel',
+				],
+				'dishtowels'=>[
+					'dishowels',
+					'distowels',
+				],
+				'dishwasher'=>[
+					'dishasher',
+					'diswasher',
+				],
+				'dishwater'=>[
+					'dishater',
+					'diswater',
+				],
 				'disillusion'=>[
 					'disilluison',
 					'disilusion',
 					'disilllusion',
+					'diillusion',
+					'disillusoin',
+					'disilluson',
+					'disllusion',
 				],
 				'disillusioned'=>[
 					'disilluisoned',
@@ -7736,15 +13597,21 @@
 				#	'disillusionized',
 					'disilllusioned',
 					'disilusioned',
+					'disillusiond',
+					'disillusoined',
+					'disillusoned',
 				],
 				'disillusioning'=>[
 					'disilluisoning',
 					'disilllusioning',
 					'disilusioning',
+					'disillusoining',
+					'disillusoning',
 				],
 				'disillusionize'=>[
 					'disilllusionize',
 					'disilusionize',
+					'disillusoinize',
 				],
 				'disillusionment'=>[
 					'disilluisonment',
@@ -7753,26 +13620,44 @@
 					'disillusionmant',
 					'disilllusionment',
 					'disilusionment',
+					'disillusoinment',
 				],
 				'disillusions'=>[
 					'disilluisons',
 					'disilllusions',
 					'disilusions',
+					'diillusions',
+					'disillusoins',
+					'disillusons',
+					'disllusions',
 				],
 				'disincentive'=>[
 					'disincantive',
+					'diincentive',
+					'disncentive',
 				],
 				'disinclination'=>[
 					'disinclinition',
+					'diinclination',
+					'disinclinatoin',
+					'disinclinaton',
+					'disnclination',
 				],
 				'disinclinations'=>[
 					'disinclinitions',
 				],
 				'disinclined'=>[
 					'disinclinid',
+					'diinclined',
+					'disinclind',
+					'disnclined',
 				],
 				'disinclining'=>[
 					'disinclinang',
+				],
+				'disinfect'=>[
+					'diinfect',
+					'disnfect',
 				],
 				'disinfectant'=>[
 					'disinfectent',
@@ -7780,18 +13665,59 @@
 				'disinfectants'=>[
 					'disinfectents',
 				],
+				'disinfected'=>[
+					'diinfected',
+					'disnfected',
+				],
+				'disinfecting'=>[
+					'diinfecting',
+					'disnfecting',
+				],
+				'disinfection'=>[
+					'diinfection',
+					'disinfectoin',
+					'disinfecton',
+					'disnfection',
+				],
+				'disinfects'=>[
+					'diinfects',
+					'disnfects',
+				],
 				'disinfestant'=>[
 					'disinfestent',
 				],
 				'disinfestants'=>[
 					'disinfestents',
 				],
+				'disinfested'=>[
+					'diinfested',
+					'disnfested',
+				],
+				'disinflation'=>[
+					'diinflation',
+					'disinflatoin',
+					'disinflaton',
+					'disnflation',
+				],
 				'disinflationary'=>[
 					'disinflationery',
+				],
+				'disinformation'=>[
+					'diinformation',
+					'disinformatoin',
+					'disinformaton',
+					'disnformation',
+				],
+				'disingenuity'=>[
+					'diingenuity',
+					'disingeniuty',
+					'disngenuity',
 				],
 				'disingenuous'=>[
 					'disingenous',
 					'disingenious',
+					'disingenouus',
+					'disingenuuos',
 				],
 				'disingenuously'=>[
 					'disingenously',
@@ -7799,30 +13725,60 @@
 					'disingenuousaly',
 					'disingenuousely',
 					'disingenuouslly',
+					'disingenouusly',
+					'disingenuuosly',
 				],
 				'disingenuousness'=>[
 					'disingenuousnes',
 					'disingenuousnesss',
+					'disingenouusness',
+					'disingenuuosness',
 				],
 				'disingenuousnesses'=>[
 					'disingenuousneses',
 					'disingenuousnessses',
 				],
+				'disinherit'=>[
+					'diinherit',
+					'disnherit',
+				],
 				'disinheritance'=>[
 					'disinheritence',
+					'diinheritance',
+					'disnheritance',
+				],
+				'disinherited'=>[
+					'diinherited',
+					'disnherited',
+				],
+				'disintegrate'=>[
+					'diintegrate',
+					'disntegrate',
 				],
 				'disintegrated'=>[
 					'desintegrated',
+					'diintegrated',
+					'disntegrated',
 				],
 				'disintegration'=>[
 					'desintegration',
+					'diintegration',
+					'disintegratoin',
+					'disintegraton',
+					'disntegration',
 				],
 				'disintegrin'=>[
 					'desintegrin',
 					'distintegrin',
 				],
+				'disinterest'=>[
+					'diinterest',
+					'disnterest',
+				],
 				'disinterested'=>[
 					'distinterested',
+					'diinterested',
+					'disnterested',
 				],
 				'disinterestedly'=>[
 					'disinterestedally',
@@ -7834,6 +13790,18 @@
 					'disinterestednes',
 					'disinterestednesss',
 				],
+				'disinterests'=>[
+					'diinterests',
+					'disnterests',
+				],
+				'disintermediation'=>[
+					'disintermedaition',
+					'disintermediatoin',
+					'disintermediaton',
+				],
+				'disinterment'=>[
+					'disintermant',
+				],
 				'disinterred'=>[
 					'disintered',
 					'disinterrred',
@@ -7842,18 +13810,73 @@
 					'disintering',
 					'disinterrring',
 				],
+				'disinvest'=>[
+					'diinvest',
+					'disnvest',
+				],
 				'disinvestment'=>[
 					'disinvestmant',
+					'diinvestment',
+					'disnvestment',
+				],
+				'disjoin'=>[
+					'dijoin',
+					'disjion',
+					'disoin',
+				],
+				'disjoined'=>[
+					'dijoined',
+					'disjioned',
+					'disjoind',
+					'disoined',
+				],
+				'disjoining'=>[
+					'dijoining',
+					'disjioning',
+					'disoining',
+				],
+				'disjoins'=>[
+					'dijoins',
+					'disjions',
+					'disoins',
+				],
+				'disjoint'=>[
+					'dijoint',
+					'disjiont',
+					'disoint',
+				],
+				'disjointed'=>[
+					'disjionted',
 				],
 				'disjointedly'=>[
 					'disjointedally',
 					'disjointedaly',
 					'disjointedely',
 					'disjointedlly',
+					'disjiontedly',
 				],
 				'disjointedness'=>[
 					'disjointednes',
 					'disjointednesss',
+					'disjiontedness',
+				],
+				'disjointing'=>[
+					'disjionting',
+				],
+				'disjoints'=>[
+					'dijoints',
+					'disjionts',
+					'disoints',
+				],
+				'disjunction'=>[
+					'dijunction',
+					'disjunctoin',
+					'disjuncton',
+					'disunction',
+				],
+				'disjunctions'=>[
+					'disjunctoins',
+					'disjunctons',
 				],
 				'disjunctively'=>[
 					'disjunctivly',
@@ -7869,9 +13892,77 @@
 				'dislike'=>[
 					'diflike',
 				],
+				'disliked'=>[
+					'diliked',
+					'disiked',
+				],
+				'dislikes'=>[
+					'dilikes',
+					'disikes',
+				],
+				'disliking'=>[
+					'diliking',
+					'disiking',
+				],
+				'dislocate'=>[
+					'dilocate',
+					'disocate',
+				],
+				'dislocated'=>[
+					'dilocated',
+					'disocated',
+				],
+				'dislocating'=>[
+					'dilocating',
+					'disocating',
+				],
+				'dislocation'=>[
+					'dilocation',
+					'dislocatoin',
+					'dislocaton',
+					'disocation',
+				],
+				'dislocations'=>[
+					'dilocations',
+					'dislocatoins',
+					'dislocatons',
+					'disocations',
+				],
+				'dislodge'=>[
+					'dilodge',
+					'disodge',
+				],
+				'dislodged'=>[
+					'dilodged',
+					'disodged',
+				],
+				'dislodgement'=>[
+					'dislodgemant',
+				],
+				'dislodgements'=>[
+					'dislodgemants',
+				],
+				'dislodging'=>[
+					'dilodging',
+					'disodging',
+				],
+				'dislodgment'=>[
+					'dislodgmant',
+				],
+				'dislodgments'=>[
+					'dislodgmants',
+				],
+				'disloyal'=>[
+					'diloyal',
+					'disoyal',
+				],
 				'disloyally'=>[
 					'disloyallly',
 					'disloyaly',
+				],
+				'disloyalty'=>[
+					'diloyalty',
+					'disoyalty',
 				],
 				'dismally'=>[
 					'dismallly',
@@ -7882,24 +13973,35 @@
 				],
 				'dismantle'=>[
 					'dismentle',
+					'dimantle',
+					'disantle',
 				],
 				'dismantlement'=>[
 					'dismentlement',
+					'dismantlemant',
 				],
 				'dismantlements'=>[
 					'dismentlements',
 				],
+				'dismast'=>[
+					'dimast',
+					'disast',
+				],
 				'dismember'=>[
 					'dismber',
+					'dimember',
+					'disember',
 				],
 				'dismembered'=>[
 					'dismbered',
+					'dismemberd',
 				],
 				'dismembering'=>[
 					'dismbering',
 				],
 				'dismemberment'=>[
 					'dismberment',
+					'dismembermant',
 				],
 				'dismemberments'=>[
 					'dismberments',
@@ -7910,6 +14012,8 @@
 				'dismiss'=>[
 					'dismis',
 					'dismisss',
+					'dimiss',
+					'disiss',
 				],
 				'dismissal'=>[
 					'dismisal',
@@ -7922,10 +14026,14 @@
 				'dismissed'=>[
 					'dismised',
 					'dismisssed',
+					'dimissed',
+					'disissed',
 				],
 				'dismisses'=>[
 					'dismises',
 					'dismissses',
+					'dimisses',
+					'disisses',
 				],
 				'dismissible'=>[
 					'dismisible',
@@ -7934,6 +14042,8 @@
 				'dismissing'=>[
 					'dismising',
 					'dismisssing',
+					'dimissing',
+					'disissing',
 				],
 				'dismissive'=>[
 					'dismisive',
@@ -7950,6 +14060,25 @@
 					'dismissivenesss',
 					'dismisssiveness',
 				],
+				'dismount'=>[
+					'dimount',
+					'dismuont',
+				],
+				'dismountable'=>[
+					'dismountible',
+					'dismuontable',
+				],
+				'dismounted'=>[
+					'dimounted',
+					'dismuonted',
+				],
+				'dismounting'=>[
+					'dimounting',
+					'dismuonting',
+				],
+				'dismounts'=>[
+					'dismuonts',
+				],
 				'dismutase'=>[
 					'diamutase',
 				],
@@ -7964,30 +14093,76 @@
 					'dissobedience',
 					'difobedicnce',
 					'difobedience',
+					'diobedience',
+					'disbedience',
 				],
 				'disobedient'=>[
 					'disobediant',
 					'dissobediant',
 					'dissobedient',
 					'difobedient',
+					'diobedient',
+					'disbedient',
+					'disobedeint',
+				],
+				'disobediently'=>[
+					'disobedeintly',
+					'disobediantly',
+					'disobedientely',
 				],
 				'disobey'=>[
 					'difobey',
+					'diobey',
+					'disbey',
+				],
+				'disobeyed'=>[
+					'diobeyed',
+					'disbeyed',
+				],
+				'disobeying'=>[
+					'diobeying',
+					'disbeying',
+				],
+				'disobeys'=>[
+					'diobeys',
+					'disbeys',
+				],
+				'disoblige'=>[
+					'dioblige',
+					'disblige',
+				],
+				'disobliged'=>[
+					'diobliged',
+					'disbliged',
+				],
+				'disoperation'=>[
+					'dioperation',
+					'disoperatoin',
+					'disoperaton',
 				],
 				'disoproxil'=>[
 					'desoproxil',
 				],
 				'disorder'=>[
 					'diforder',
+					'diorder',
+					'disrder',
 				],
 				'disordered'=>[
 					'difordered',
+					'diordered',
+					'disorderd',
+					'disrdered',
 				],
 				'disorderedly'=>[
 					'disorderedally',
 					'disorderedaly',
 					'disorderedely',
 					'disorderedlly',
+				],
+				'disordering'=>[
+					'diordering',
+					'disrdering',
 				],
 				'disorderliness'=>[
 					'disorderliniss',
@@ -7999,17 +14174,46 @@
 					'disorderaly',
 					'disorderely',
 					'disorderlly',
+					'diorderly',
+					'disrderly',
 				],
 				'disorders'=>[
 					'diforders',
+					'diorders',
+					'disrders',
+				],
+				'disorganization'=>[
+					'diorganization',
+					'disorganizatoin',
+					'disorganizaton',
+					'disrganization',
+				],
+				'disorganize'=>[
+					'diorganize',
+					'disrganize',
+				],
+				'disorganized'=>[
+					'diorganized',
+					'disrganized',
+				],
+				'disorganizing'=>[
+					'diorganizing',
+					'disrganizing',
 				],
 				'disorient'=>[
 					'disoreint',
 					'disorint',
+					'disoriant',
 				],
 				'disorientate'=>[
 					'disoreintate',
 					'disorintate',
+				],
+				'disorientated'=>[
+					'disoreintated',
+				],
+				'disorientates'=>[
+					'disoreintates',
 				],
 				'disorientating'=>[
 					'disoreintating',
@@ -8019,11 +14223,34 @@
 					'disoreintation',
 					'disoriantation',
 					'disorintation',
+					'diorientation',
+					'disorientatoin',
+					'disorientaton',
+					'disrientation',
 				],
 				'disorientations'=>[
 					'disoreintations',
 					'disoriantations',
 					'disorintations',
+				],
+				'disoriented'=>[
+					'disoreinted',
+				],
+				'disorienting'=>[
+					'disoreinting',
+				],
+				'disorients'=>[
+					'disoreints',
+					'disoriants',
+				],
+				'disowned'=>[
+					'diowned',
+					'disownd',
+					'diswned',
+				],
+				'disowning'=>[
+					'diowning',
+					'diswning',
 				],
 				'disownment'=>[
 					'disowment',
@@ -8033,11 +14260,16 @@
 					'disowments',
 					'disownents',
 				],
+				'disowns'=>[
+					'diowns',
+					'diswns',
+				],
 				'disparage'=>[
 					'disperage',
 				],
 				'disparagement'=>[
 					'disperagement',
+					'disparagemant',
 				],
 				'disparagements'=>[
 					'disperagements',
@@ -8070,12 +14302,15 @@
 				],
 				'disparities'=>[
 					'disperities',
+					'dispariteis',
 				],
 				'disparity'=>[
 					'disperity',
 				],
 				'dispart'=>[
 					'dispert',
+					'dipart',
+					'disart',
 				],
 				'disparted'=>[
 					'disperted',
@@ -8086,10 +14321,18 @@
 				'dispassion'=>[
 					'dispasion',
 					'dispasssion',
+					'dipassion',
+					'disassion',
+					'dispassoin',
+					'dispasson',
 				],
 				'dispassionate'=>[
 					'dispasionate',
 					'dispasssionate',
+					'dipassionate',
+					'disassionate',
+					'dispassoinate',
+					'dispassonate',
 				],
 				'dispassionately'=>[
 					'dispasionately',
@@ -8099,12 +14342,16 @@
 					'dispassionatelly',
 					'dispassionatly',
 					'dispasssionately',
+					'dipassionately',
+					'disassionately',
+					'dispassoinately',
 				],
 				'dispassionateness'=>[
 					'dispasionateness',
 					'dispassionatenes',
 					'dispassionatenesss',
 					'dispasssionateness',
+					'dispassoinateness',
 				],
 				'dispassionatenesses'=>[
 					'dispasionatenesses',
@@ -8114,6 +14361,20 @@
 				],
 				'dispatch'=>[
 					'difpatch',
+					'dipatch',
+					'disatch',
+				],
+				'dispatched'=>[
+					'dipatched',
+					'disatched',
+				],
+				'dispatches'=>[
+					'dipatches',
+					'disatches',
+				],
+				'dispatching'=>[
+					'dipatching',
+					'disatching',
 				],
 				'dispel'=>[
 					'disspell',
@@ -8139,14 +14400,27 @@
 				'dispensable'=>[
 					'dispensible',
 				],
+				'dispensaries'=>[
+					'dispensareis',
+					'dispenseries',
+				],
 				'dispensary'=>[
 					'dispensery',
 				],
 				'dispensation'=>[
 					'dispensaton',
+					'dispensatoin',
+				],
+				'dispensational'=>[
+					'dispensatoinal',
+					'dispensatonal',
 				],
 				'dispensationalism'=>[
 					'dispensatonalism',
+				],
+				'dispensations'=>[
+					'dispensatoins',
+					'dispensatons',
 				],
 				'dispensatories'=>[
 					'dispensatoreis',
@@ -8162,6 +14436,14 @@
 				],
 				'dispensing'=>[
 					'dispencing',
+				],
+				'dispeople'=>[
+					'dipeople',
+					'diseople',
+					'dispoeple',
+				],
+				'dispermous'=>[
+					'dispermuos',
 				],
 				'dispersant'=>[
 					'dispersent',
@@ -8179,8 +14461,19 @@
 				'dispersible'=>[
 					'dispersable',
 				],
+				'dispersion'=>[
+					'dispersoin',
+					'disperson',
+				],
+				'dispersions'=>[
+					'dispersoins',
+					'dispersons',
+				],
 				'dispersively'=>[
 					'dispersivly',
+				],
+				'dispersoid'=>[
+					'dispersiod',
 				],
 				'dispiritedly'=>[
 					'dispiritedally',
@@ -8196,89 +14489,198 @@
 					'dispiritedneses',
 					'dispiritednessses',
 				],
+				'displace'=>[
+					'diplace',
+					'dislace',
+				],
 				'displaceable'=>[
 					'displaceble',
 					'displacable',
 				],
+				'displaced'=>[
+					'diplaced',
+					'dislaced',
+				],
 				'displacement'=>[
 					'displacemant',
+					'diplacement',
+					'dislacement',
+				],
+				'displacements'=>[
+					'displacemants',
+				],
+				'displaces'=>[
+					'diplaces',
+					'dislaces',
+				],
+				'displacing'=>[
+					'diplacing',
+					'dislacing',
+				],
+				'displant'=>[
+					'diplant',
+					'dislant',
+					'displent',
 				],
 				'display'=>[
 					'diplay',
 					'dispaly',
 					'clisplay',
 					'difplay',
+					'dislay',
+				],
+				'displayable'=>[
+					'displayible',
 				],
 				'displayed'=>[
 					'diplayed',
 					'difplayed',
+					'dislayed',
 				],
 				'displaying'=>[
 					'clisplaying',
+					'diplaying',
+					'dislaying',
+				],
+				'displays'=>[
+					'diplays',
+					'dislays',
+				],
+				'displease'=>[
+					'diplease',
+					'dislease',
+					'displaese',
 				],
 				'displeased'=>[
 					'difpleafed',
+					'dipleased',
+					'disleased',
+					'displaesed',
+				],
+				'displeases'=>[
+					'dipleases',
+					'disleases',
+					'displaeses',
+				],
+				'displeasing'=>[
+					'dipleasing',
+					'disleasing',
+					'displaesing',
+				],
+				'displeasingly'=>[
+					'displaesingly',
 				],
 				'displeasure'=>[
 					'displesure',
 					'difpleafure',
+					'dipleasure',
+					'disleasure',
+					'displaesure',
 				],
 				'displeasures'=>[
 					'displesures',
+				],
+				'displume'=>[
+					'diplume',
+					'dislume',
+				],
+				'disport'=>[
+					'diport',
+					'disort',
+				],
+				'disports'=>[
+					'diports',
+					'disorts',
 				],
 				'disposabilities'=>[
 					'disposabiliteis',
 					'disposabilitis',
 				],
+				'disposability'=>[
+					'disposibility',
+				],
 				'disposable'=>[
 					'disposible',
+				],
+				'disposables'=>[
+					'disposibles',
 				],
 				'disposal'=>[
 					'difpofal',
 				],
 				'dispose'=>[
 					'difpofe',
+					'dipose',
+					'disose',
 				],
 				'disposed'=>[
 					'difpofed',
+					'diposed',
+					'disosed',
+				],
+				'disposes'=>[
+					'diposes',
+					'disoses',
 				],
 				'disposing'=>[
 					'difpofing',
+					'diposing',
+					'disosing',
 				],
 				'disposition'=>[
 					'difpofition',
+					'diposition',
+					'disosition',
+					'dispositoin',
+					'dispositon',
 				],
 				'dispositions'=>[
 					'difpofitions',
 					'dispositioris',
+					'dipositions',
+					'disositions',
+					'dispositoins',
+					'dispositons',
 				],
 				'dispossess'=>[
 					'disposses',
 					'dispossesss',
 					'disposssess',
+					'dipossess',
+					'disossess',
 				],
 				'dispossessed'=>[
 					'disposessed',
 					'dispossesed',
 					'dispossesssed',
 					'disposssessed',
+					'dipossessed',
+					'disossessed',
 				],
 				'dispossesses'=>[
 					'disposseses',
 					'disposesses',
 					'dispossessses',
 					'disposssesses',
+					'dipossesses',
+					'disossesses',
 				],
 				'dispossessing'=>[
 					'dispossesing',
 					'dispossesssing',
 					'disposssessing',
+					'dipossessing',
+					'disossessing',
 				],
 				'dispossession'=>[
 					'dispossesion',
 					'disposession',
 					'dispossesssion',
 					'disposssession',
+					'dipossession',
+					'disossession',
+					'dispossessoin',
+					'dispossesson',
 				],
 				'dispossessor'=>[
 					'dispossesor',
@@ -8286,30 +14688,142 @@
 				'dispossessors'=>[
 					'dispossesors',
 				],
+				'dispraise'=>[
+					'dipraise',
+					'dispriase',
+					'disraise',
+				],
+				'dispraised'=>[
+					'dipraised',
+					'dispriased',
+					'disraised',
+				],
+				'dispraiser'=>[
+					'dispriaser',
+				],
+				'dispraises'=>[
+					'dipraises',
+					'dispriases',
+					'disraises',
+				],
+				'dispraising'=>[
+					'dipraising',
+					'dispriasing',
+					'disraising',
+				],
+				'dispread'=>[
+					'dispraed',
+				],
+				'dispreading'=>[
+					'dispraeding',
+				],
+				'dispreads'=>[
+					'dispraeds',
+				],
+				'disprize'=>[
+					'diprize',
+					'disrize',
+				],
 				'disproof'=>[
 					'disprof',
 					'disprooof',
+					'diproof',
 				],
 				'disproofs'=>[
 					'disprofs',
 					'disprooofs',
+					'diproofs',
+				],
+				'disproportion'=>[
+					'diproportion',
+					'disproportoin',
+					'disproporton',
+					'disroportion',
+				],
+				'disproportional'=>[
+					'disproportoinal',
+					'disproportonal',
 				],
 				'disproportionally'=>[
 					'disproportionallly',
 					'disproportionaly',
+					'disproportoinally',
+					'disproportonally',
+				],
+				'disproportionate'=>[
+					'disproportoinate',
+					'disproportonate',
+				],
+				'disproportionately'=>[
+					'disproportionatly',
+					'disproportoinately',
 				],
 				'disproportionateness'=>[
 					'disproportionatenes',
 					'disproportionatenesss',
+					'disproportoinateness',
+				],
+				'disproportionation'=>[
+					'disproportionatoin',
+					'disproportionaton',
+					'disproportoination',
+				],
+				'disproportions'=>[
+					'diproportions',
+					'disproportoins',
+					'disproportons',
+					'disroportions',
+				],
+				'disprovable'=>[
+					'disprovible',
+				],
+				'disprove'=>[
+					'diprove',
+					'disrove',
+				],
+				'disproved'=>[
+					'diproved',
+					'disroved',
+				],
+				'disproven'=>[
+					'diproven',
+					'disroven',
+				],
+				'disproves'=>[
+					'diproves',
+					'disroves',
+				],
+				'disproving'=>[
+					'diproving',
+					'disroving',
 				],
 				'disputable'=>[
 					'disputible',
 				],
+				'disputably'=>[
+					'disputibly',
+				],
 				'disputandum'=>[
 					'disputandem',
 				],
+				'disputant'=>[
+					'disputent',
+				],
+				'disputants'=>[
+					'disputents',
+				],
+				'disputation'=>[
+					'disputatoin',
+					'disputaton',
+				],
+				'disputations'=>[
+					'disputatoins',
+					'disputatons',
+				],
 				'disputatious'=>[
 					'disputatous',
+					'disputatiuos',
+					'disputatoius',
 				],
 				'disputatiously'=>[
 					'disputatiousally',
@@ -8317,10 +14831,15 @@
 					'disputatiousely',
 					'disputatiouslly',
 					'disputatously',
+					'disputatiuosly',
+					'disputatoiusly',
 				],
 				'disputatiousness'=>[
 					'disputatiousnes',
 					'disputatiousnesss',
+					'disputatiuosness',
+					'disputatoiusness',
+					'disputatousness',
 				],
 				'dispute'=>[
 					'difpute',
@@ -8335,11 +14854,39 @@
 				'disputing'=>[
 					'difputing',
 				],
+				'disqualification'=>[
+					'disqaulification',
+					'disqualificatoin',
+					'disqualificaton',
+				],
+				'disqualifications'=>[
+					'diqualifications',
+					'disqaulifications',
+					'disqualificatoins',
+					'disqualificatons',
+					'disualifications',
+				],
+				'disqualified'=>[
+					'diqualified',
+					'disqaulified',
+					'disqualifeid',
+					'disualified',
+				],
+				'disqualifies'=>[
+					'diqualifies',
+					'disqaulifies',
+					'disqualifeis',
+					'disualifies',
+				],
 				'disqualify'=>[
 					'disqaulify',
+					'diqualify',
+					'disualify',
 				],
 				'disqualifying'=>[
 					'disqaulifying',
+					'diqualifying',
+					'disualifying',
 				],
 				'disquantitied'=>[
 					'disqauntitied',
@@ -8356,13 +14903,70 @@
 				'disquiet'=>[
 					'disqueit',
 					'disquit',
+					'diquiet',
+					'disqiuet',
+					'disuiet',
+				],
+				'disquieted'=>[
+					'disqiueted',
+					'disqueited',
+				],
+				'disquieting'=>[
+					'disqiueting',
+					'disqueiting',
+				],
+				'disquiets'=>[
+					'disqiuets',
+					'disqueits',
 				],
 				'disquietude'=>[
 					'disqueitude',
 					'disquitude',
+					'disqiuetude',
+				],
+				'disquisition'=>[
+					'disqiusition',
+					'disquisitoin',
+					'disquisiton',
+				],
+				'disquisitional'=>[
+					'disqiusitional',
+					'disquisitoinal',
+					'disquisitonal',
+				],
+				'disquisitions'=>[
+					'disqiusitions',
+					'disquisitoins',
+					'disquisitons',
+				],
+				'disrate'=>[
+					'dirate',
+					'disate',
+				],
+				'disregard'=>[
+					'diregard',
+					'disegard',
+				],
+				'disregarded'=>[
+					'diregarded',
+					'disegarded',
+				],
+				'disregarding'=>[
+					'diregarding',
+					'disegarding',
+				],
+				'disregards'=>[
+					'diregards',
+					'disegards',
+				],
+				'disrelish'=>[
+					'direlish',
+					'diselish',
 				],
 				'disremember'=>[
 					'disrember',
+					'diremember',
+					'disemember',
 				],
 				'disremembered'=>[
 					'disrembered',
@@ -8373,24 +14977,74 @@
 				'disremembers'=>[
 					'disrembers',
 				],
+				'disrepair'=>[
+					'direpair',
+					'disepair',
+					'disrepiar',
+				],
 				'disreputable'=>[
 					'disreputible',
+					'direputable',
+					'diseputable',
 				],
 				'disreputably'=>[
 					'disreputabally',
 					'disreputabaly',
 					'disreputabely',
 					'disreputablly',
+					'disreputibly',
+				],
+				'disrespect'=>[
+					'direspect',
+					'disespect',
 				],
 				'disrespectable'=>[
 					'disrespectible',
+					'direspectable',
+					'disespectable',
+				],
+				'disrespected'=>[
+					'direspected',
+					'disespected',
+				],
+				'disrespectful'=>[
+					'direspectful',
+					'disespectful',
 				],
 				'disrespectfully'=>[
 					'disrespectfullly',
 					'disrespectfuly',
+					'direspectfully',
+					'disespectfully',
+					'disrespecfully',
+					'disrespectully',
+				],
+				'disrespecting'=>[
+					'direspecting',
+					'disespecting',
+				],
+				'disrespects'=>[
+					'direspects',
+					'disespects',
+				],
+				'disrobe'=>[
+					'dirobe',
+					'disobe',
+				],
+				'disrobes'=>[
+					'dirobes',
+					'disobes',
 				],
 				'disrotatory'=>[
 					'disrotary',
+				],
+				'disruption'=>[
+					'disruptoin',
+					'disrupton',
+				],
+				'disruptions'=>[
+					'disruptoins',
+					'disruptons',
 				],
 				'disruptively'=>[
 					'disruptivly',
@@ -8405,6 +15059,8 @@
 				'dissatisfaction'=>[
 					'disatisfaction',
 					'disssatisfaction',
+					'dissatisfactoin',
+					'dissatisfacton',
 				],
 				'dissatisfactory'=>[
 					'disatisfactory',
@@ -8419,6 +15075,7 @@
 				'dissatisfies'=>[
 					'disatisfies',
 					'disssatisfies',
+					'dissatisfeis',
 				],
 				'dissatisfy'=>[
 					'disatisfy',
@@ -8443,10 +15100,14 @@
 				'dissection'=>[
 					'disection',
 					'disssection',
+					'dissectoin',
+					'dissecton',
 				],
 				'dissections'=>[
 					'disections',
 					'disssections',
+					'dissectoins',
+					'dissectons',
 				],
 				'dissector'=>[
 					# disector: a real word in stereology, D. C. Sterio's 1984 counting method (the disector, the physical disector), not a slip
@@ -8516,6 +15177,7 @@
 				'dissemblance'=>[
 					'disemblance',
 					'disssemblance',
+					'dissemblence',
 				],
 				'dissemble'=>[
 					'disemble',
@@ -8559,6 +15221,8 @@
 					'desimination',
 					'disemination',
 					'disssemination',
+					'disseminatoin',
+					'disseminaton',
 				],
 				'disseminations'=>[
 					'disseminitions',
@@ -8577,10 +15241,14 @@
 				'dissension'=>[
 					'disension',
 					'disssension',
+					'dissensoin',
+					'dissenson',
 				],
 				'dissensions'=>[
 					'disensions',
 					'disssensions',
+					'dissensoins',
+					'dissensons',
 				],
 				'dissent'=>[
 					'desent',
@@ -8607,6 +15275,7 @@
 					'dissenteint',
 					'dissentint',
 					'disssentient',
+					'dissentiant',
 				],
 				'dissentients'=>[
 					'disentients',
@@ -8617,11 +15286,17 @@
 				],
 				'dissentious'=>[
 					'dissentous',
+					'dissentiuos',
+					'dissentoius',
 				],
 				'dissents'=>[
 					'desents',
 					'disents',
 					'disssents',
+					'dissants',
+				],
+				'dissepiment'=>[
+					'dissepimant',
 				],
 				'dissepiments'=>[
 					'disepiments',
@@ -8636,14 +15311,20 @@
 				'dissertation'=>[
 					'disertation',
 					'disssertation',
+					'dissertatoin',
+					'dissertaton',
 				],
 				'dissertational'=>[
 					'disertational',
 					'disssertational',
+					'dissertatoinal',
+					'dissertatonal',
 				],
 				'dissertations'=>[
 					'disertations',
 					'disssertations',
+					'dissertatoins',
+					'dissertatons',
 				],
 				'dissertators'=>[
 					'disertators',
@@ -8677,6 +15358,7 @@
 				'dissevered'=>[
 					'disevered',
 					'disssevered',
+					'disseverd',
 				],
 				'dissevering'=>[
 					'disevering',
@@ -8727,6 +15409,7 @@
 				'dissimilarly'=>[
 					'disimilarly',
 					'disssimilarly',
+					'dissimilarily',
 				],
 				'dissimilate'=>[
 					'disimilate',
@@ -8747,6 +15430,8 @@
 				'dissimilation'=>[
 					'disimilation',
 					'disssimilation',
+					'dissimilatoin',
+					'dissimilaton',
 				],
 				'dissimilations'=>[
 					'disimilations',
@@ -8782,6 +15467,8 @@
 				'dissimulation'=>[
 					'disimulation',
 					'disssimulation',
+					'dissimulatoin',
+					'dissimulaton',
 				],
 				'dissimulator'=>[
 					'disimulator',
@@ -8820,6 +15507,8 @@
 				'dissipation'=>[
 					'disipation',
 					'disssipation',
+					'dissipatoin',
+					'dissipaton',
 				],
 				'dissipative'=>[
 					'disipative',
@@ -8833,26 +15522,34 @@
 					'dissociible',
 					'disociable',
 					'disssociable',
+					'dissocaible',
 				],
 				'dissociate'=>[
 					'disociate',
 					'disssociate',
+					'dissocaite',
 				],
 				'dissociated'=>[
 					'disociated',
 					'disssociated',
+					'dissocaited',
 				],
 				'dissociates'=>[
 					'disociates',
 					'disssociates',
+					'dissocaites',
 				],
 				'dissociating'=>[
 					'disociating',
 					'disssociating',
+					'dissocaiting',
 				],
 				'dissociation'=>[
 					'disociation',
 					'disssociation',
+					'dissocaition',
+					'dissociatoin',
+					'dissociaton',
 				],
 				'dissociations'=>[
 					'disociations',
@@ -8860,6 +15557,7 @@
 				'dissociative'=>[
 					'disociative',
 					'disssociative',
+					'dissocaitive',
 				],
 				'dissoluble'=>[
 					'disoluble',
@@ -8887,10 +15585,13 @@
 					'desolution',
 					'disolution',
 					'disssolution',
+					'dissolutoin',
+					'dissoluton',
 				],
 				'dissolvable'=>[
 					'disolvable',
 					'disssolvable',
+					'dissolvible',
 				],
 				'dissolve'=>[
 					'desolve',
@@ -8905,10 +15606,12 @@
 				'dissolvent'=>[
 					'disolvent',
 					'disssolvent',
+					'dissolvant',
 				],
 				'dissolvents'=>[
 					'disolvents',
 					'disssolvents',
+					'dissolvants',
 				],
 				'dissolvers'=>[
 					'disolvers',
@@ -8930,10 +15633,12 @@
 				'dissonances'=>[
 					'disonances',
 					'disssonances',
+					'dissonences',
 				],
 				'dissonancy'=>[
 					'disonancy',
 					'disssonancy',
+					'dissonency',
 				],
 				'dissonant'=>[
 					'dissonent',
@@ -8943,6 +15648,8 @@
 				'dissonantly'=>[
 					'disonantly',
 					'disssonantly',
+					'dissonantely',
+					'dissonently',
 				],
 				'dissuade'=>[
 					'dissaude',
@@ -8952,27 +15659,34 @@
 				'dissuaded'=>[
 					'disssuaded',
 					'disuaded',
+					'dissauded',
 				],
 				'dissuader'=>[
 					'disssuader',
 					'disuader',
+					'dissauder',
 				],
 				'dissuades'=>[
 					'disssuades',
 					'disuades',
+					'dissaudes',
 				],
 				'dissuading'=>[
 					'disssuading',
 					'disuading',
+					'dissauding',
 				],
 				'dissuasion'=>[
 					'dissausion',
 					'disssuasion',
 					'disuasion',
+					'dissuasoin',
+					'dissuason',
 				],
 				'dissuasive'=>[
 					'disssuasive',
 					'disuasive',
+					'dissausive',
 				],
 				'dissuasively'=>[
 					'dissuasivly',
@@ -8984,11 +15698,13 @@
 					'disssyllable',
 					'dissylable',
 					'dissylllable',
+					'dissyllible',
 				],
 				'dissyllables'=>[
 					'disssyllables',
 					'dissylables',
 					'dissylllables',
+					'dissyllibles',
 				],
 				'dissymmetries'=>[
 					'dissymnetries',
@@ -9019,6 +15735,9 @@
 					'distaiiee',
 					'distancc',
 				],
+				'distances'=>[
+					'distences',
+				],
 				'distant'=>[
 					'distant distant',
 					'distant distant distant',
@@ -9027,12 +15746,23 @@
 					'diftant',
 					'distaut',
 				],
+				'distantly'=>[
+					'distantely',
+				],
 				'distantness'=>[
 					'distantnes',
 					'distantnesss',
 				],
 				'distantnesses'=>[
 					'distentnesses',
+				],
+				'distaste'=>[
+					'disaste',
+					'ditaste',
+				],
+				'distasteful'=>[
+					'disasteful',
+					'ditasteful',
 				],
 				'distastefully'=>[
 					'distastefullly',
@@ -9044,6 +15774,29 @@
 				],
 				'distemper'=>[
 					'diftemper',
+					'disemper',
+					'ditemper',
+				],
+				'distempered'=>[
+					'disempered',
+					'distemperd',
+					'ditempered',
+				],
+				'distend'=>[
+					'disend',
+					'ditend',
+				],
+				'distended'=>[
+					'disended',
+					'ditended',
+				],
+				'distending'=>[
+					'disending',
+					'ditending',
+				],
+				'distends'=>[
+					'disends',
+					'ditends',
 				],
 				'distensibility'=>[
 					'distensability',
@@ -9055,8 +15808,31 @@
 			#	'distill'=>[
 			#		'distil',
 			#	],
+				'distension'=>[
+					'distensoin',
+					'distenson',
+					'ditension',
+				],
+				'distensions'=>[
+					'distensoins',
+					'distensons',
+					'ditensions',
+				],
+				'distention'=>[
+					'distentoin',
+					'distenton',
+				],
+				'distentions'=>[
+					'distentoins',
+					'distentons',
+				],
+				'distichous'=>[
+					'distichuos',
+				],
 				'distill'=>[
 					'distilll',
+					'disill',
+					'ditill',
 				],
 				'distillate'=>[
 					'distilate',
@@ -9069,10 +15845,14 @@
 				'distillation'=>[
 					'distilation',
 					'distilllation',
+					'distillatoin',
+					'distillaton',
 				],
 				'distillations'=>[
 					'distilations',
 					'distilllations',
+					'distillatoins',
+					'distillatons',
 				],
 				'distilled'=>[
 					'distillled',
@@ -9083,6 +15863,8 @@
 				'distilleries'=>[
 					'distileries',
 					'distillleries',
+					'distillaries',
+					'distillereis',
 				],
 				'distillers'=>[
 					'distilers',
@@ -9092,6 +15874,7 @@
 					'distellary',
 					'distilery',
 					'distilllery',
+					'distillary',
 				],
 				'distilling'=>[
 					'distillling',
@@ -9112,6 +15895,12 @@
 					'diftinction',
 					'distinctioii',
 					'distinetion',
+					'distinctoin',
+					'distincton',
+				],
+				'distinctions'=>[
+					'distinctoins',
+					'distinctons',
 				],
 				'distinctive'=>[
 					'disctinctive',
@@ -9125,6 +15914,7 @@
 				],
 				'distinctly'=>[
 					'distinctiy',
+					'distinctely',
 				],
 				'distinctness'=>[
 					'distinctnes',
@@ -9135,16 +15925,20 @@
 					'distingish',
 					'diftinguifh',
 					'distinguisli',
+					'distingiush',
 				],
 				'distinguishable'=>[
 					'distiguishable',
 					'distinguishible',
+					'distingiushable',
 				],
 				'distinguishably'=>[
 					'distinguishabally',
 					'distinguishabaly',
 					'distinguishabely',
 					'distinguishablly',
+					'distingiushably',
+					'distinguishibly',
 				],
 				'distinguished'=>[
 					'distiguished',
@@ -9153,16 +15947,19 @@
 					'distingnished',
 					'distinguisbed',
 					'distinguislied',
+					'distingiushed',
 				],
 				'distinguishes'=>[
 					'distiguishes',
 					'distingishes',
+					'distingiushes',
 				],
 				'distinguishing'=>[
 					'distiguishing',
 					'distinguishgin ',
 					'diftinguifhing',
 					'distinguisliing',
+					'distingiushing',
 				],
 				'distorted'=>[
 					'distortccl',
@@ -9171,9 +15968,26 @@
 					'distortednes',
 					'distortednesss',
 				],
+				'distortion'=>[
+					'distortoin',
+					'distorton',
+				],
+				'distortional'=>[
+					'distortoinal',
+					'distortonal',
+				],
 				'distortionless'=>[
 					'distortionles',
 					'distortionlesss',
+					'distortoinless',
+				],
+				'distortions'=>[
+					'distortoins',
+					'distortons',
+				],
+				'distract'=>[
+					'disract',
+					'ditract',
 				],
 				'distractedly'=>[
 					'distractedally',
@@ -9188,14 +16002,69 @@
 				'distractible'=>[
 					'distractable',
 				],
+				'distraction'=>[
+					'disraction',
+					'distractoin',
+					'distracton',
+					'ditraction',
+				],
+				'distractions'=>[
+					'distractoins',
+					'distractons',
+				],
+				'distrain'=>[
+					'disrain',
+					'distrian',
+					'ditrain',
+				],
+				'distrained'=>[
+					'disrained',
+					'distraind',
+					'distrianed',
+					'ditrained',
+				],
+				'distrainer'=>[
+					'disrainer',
+					'distrianer',
+					'ditrainer',
+				],
 				'distraining'=>[
 					'distrainang',
+					'disraining',
+					'distrianing',
+					'ditraining',
+				],
+				'distrainment'=>[
+					'distrainmant',
+					'distrianment',
 				],
 				'distrainor'=>[
 					'distrainour',
 				],
 				'distrainors'=>[
 					'distrainours',
+				],
+				'distrains'=>[
+					'disrains',
+					'distrians',
+					'ditrains',
+				],
+				'distraint'=>[
+					'distriant',
+				],
+				'distraints'=>[
+					'distriants',
+				],
+				'distrait'=>[
+					'disrait',
+					'distriat',
+					'ditrait',
+				],
+				'distraite'=>[
+					'distriate',
+				],
+				'distraught'=>[
+					'distruaght',
 				],
 				'distress'=>[
 					'distres',
@@ -9222,9 +16091,13 @@
 					'distresingly',
 					'distresssingly',
 				],
+				'distributable'=>[
+					'distributible',
+				],
 				'distributaries'=>[
 					'distributareis',
 					'distributaris',
+					'distributeries',
 				],
 				'distributary'=>[
 					'distributery',
@@ -9232,6 +16105,8 @@
 				'distribute'=>[
 					'distrbute',
 					'diftribute',
+					'disribute',
+					'ditribute',
 				],
 				'distributed'=>[
 					'distrbuted',
@@ -9253,9 +16128,17 @@
 					'clistribution',
 					'diftribution',
 					'distnbution',
+					'distributoin',
+					'distributon',
+				],
+				'distributional'=>[
+					'distributoinal',
+					'distributonal',
 				],
 				'distributions'=>[
 					'distnbutions',
+					'distributoins',
+					'distributons',
 				],
 				'distributively'=>[
 					'distributivly',
@@ -9269,10 +16152,18 @@
 				],
 				'distrust'=>[
 					'diftruft',
+					'disrust',
+					'ditrust',
+				],
+				'distrusted'=>[
+					'disrusted',
+					'ditrusted',
 				],
 				'distrustfully'=>[
 					'distrustfullly',
 					'distrustfuly',
+					'distrusfully',
+					'distrustully',
 				],
 				'distrustfulness'=>[
 					'distrustfulnes',
@@ -9281,6 +16172,14 @@
 				'distrustfulnesses'=>[
 					'distrustfulneses',
 					'distrustfulnessses',
+				],
+				'distrusting'=>[
+					'disrusting',
+					'ditrusting',
+				],
+				'distrusts'=>[
+					'disrusts',
+					'ditrusts',
 				],
 				'disturb'=>[
 					'distirb',
@@ -9294,13 +16193,52 @@
 				'disturbances'=>[
 					'distrubances',
 					'difturbances',
+					'disturbences',
 				],
 				'disturbed'=>[
 					'distrubed',
 					'difturbed',
 				],
+				'disunion'=>[
+					'disnion',
+					'disunoin',
+					'disunon',
+					'diunion',
+				],
+				'disunite'=>[
+					'disnite',
+					'diunite',
+				],
+				'disunited'=>[
+					'disnited',
+					'diunited',
+				],
+				'disunites'=>[
+					'disnites',
+					'diunites',
+				],
+				'disuniting'=>[
+					'disniting',
+					'diuniting',
+				],
+				'disunity'=>[
+					'disnity',
+					'diunity',
+				],
+				'disused'=>[
+					'diused',
+				],
+				'disuses'=>[
+					'diuses',
+				],
 				'disusing'=>[
 					'disuisng',
+					'diusing',
+				],
+				'disvalue'=>[
+					'disalue',
+					'disvaleu',
+					'divalue',
 				],
 				'disyllabic'=>[
 					'disylabic',
@@ -9309,10 +16247,12 @@
 				'disyllable'=>[
 					'disylable',
 					'disylllable',
+					'disyllible',
 				],
 				'disyllables'=>[
 					'disylables',
 					'disylllables',
+					'disyllibles',
 				],
 				'ditch'=>[
 					'ditcli',
@@ -9322,6 +16262,10 @@
 				],
 				'ditchdiggers'=>[
 					'ditchdigers',
+				],
+				'ditchwater'=>[
+					'ditchater',
+					'ditcwater',
 				],
 				'ditheism'=>[
 					'dithiesm',
@@ -9335,6 +16279,15 @@
 				'ditheists'=>[
 					'dithiests',
 				],
+				'dithered'=>[
+					'ditherd',
+				],
+				'dithery'=>[
+					'dithary',
+				],
+				'dithionite'=>[
+					'dithoinite',
+				],
 				'dithiothreitol'=>[
 					'dithiotreitol',
 					'ditiotreitol',
@@ -9345,12 +16298,19 @@
 					'dithyrambicalely',
 					'dithyrambicallly',
 				],
+				'ditsier'=>[
+					'ditseir',
+				],
+				'ditsiest'=>[
+					'ditseist',
+				],
 				'ditsy'=>[
 					'ditcy',
 				],
 				'dittanies'=>[
 					'ditanies',
 					'ditttanies',
+					'dittaneis',
 				],
 				'dittany'=>[
 					'ditany',
@@ -9359,6 +16319,7 @@
 				'ditties'=>[
 					'dities',
 					'dittties',
+					'ditteis',
 				],
 				'ditto'=>[
 					'dittto',
@@ -9366,10 +16327,12 @@
 				'dittoed'=>[
 					'ditoed',
 					'ditttoed',
+					'ditteod',
 				],
 				'dittoes'=>[
 					'ditoes',
 					'ditttoes',
+					'ditteos',
 				],
 				'dittography'=>[
 					'ditography',
@@ -9378,6 +16341,7 @@
 				'dittoing'=>[
 					'ditoing',
 					'ditttoing',
+					'dittiong',
 				],
 				'dittos'=>[
 					'ditos',
@@ -9386,20 +16350,84 @@
 				'ditty'=>[
 					'dittty',
 				],
+				'ditzier'=>[
+					'ditzeir',
+				],
+				'ditziest'=>[
+					'ditzeist',
+				],
+				'diuresis'=>[
+					'duiresis',
+				],
+				'diuretic'=>[
+					'duiretic',
+				],
+				'diuretics'=>[
+					'duiretics',
+				],
+				'diurnal'=>[
+					'duirnal',
+				],
 				'diurnally'=>[
 					'diurnallly',
+					'duirnally',
+				],
+				'divagate'=>[
+					'divaate',
+					'divgate',
+				],
+				'divagates'=>[
+					'divaates',
+					'divgates',
+				],
+				'divagation'=>[
+					'divagatoin',
+					'divagaton',
+				],
+				'divagations'=>[
+					'divagatoins',
+					'divagatons',
 				],
 				'divalence'=>[
 					'divalance',
 				],
+				'divalent'=>[
+					'divaent',
+					'divalant',
+					'divlent',
+				],
+				'divarication'=>[
+					'divaricatoin',
+					'divaricaton',
+				],
+				'divarications'=>[
+					'divaricatoins',
+					'divaricatons',
+				],
 				'divergence'=>[
 					'divergance',
 				],
+				'divergences'=>[
+					'divergances',
+				],
+				'divergencies'=>[
+					'divergancies',
+					'divergenceis',
+				],
 				'divergency'=>[
 					'divergensy',
+					'divergancy',
 				],
 				'divergent'=>[
 					'divergant',
+					'divegent',
+					'diverent',
+				],
+				'divergently'=>[
+					'divegently',
+					'diverently',
+					'divergantly',
+					'divergentely',
 				],
 				'diverse'=>[
 					'divers',
@@ -9414,8 +16442,31 @@
 					'diversenes',
 					'diversenesss',
 				],
+				'diversification'=>[
+					'diversificatoin',
+					'diversificaton',
+				],
+				'diversified'=>[
+					'diversifeid',
+				],
+				'diversifies'=>[
+					'diversifeis',
+				],
+				'diversion'=>[
+					'diversoin',
+					'diverson',
+				],
 				'diversionary'=>[
 					'diversionery',
+					'diversoinary',
+					'diversonary',
+				],
+				'diversions'=>[
+					'diversoins',
+					'diversons',
+				],
+				'diversities'=>[
+					'diversiteis',
 				],
 				'diverticula'=>[
 					'diverticulae',
@@ -9434,8 +16485,17 @@
 				'divertissements'=>[
 					'divertissemants',
 				],
+				'divesting'=>[
+					'divsting',
+				],
 				'divestiture'=>[
 					'divesture',
+				],
+				'divestment'=>[
+					'divestmant',
+				],
+				'dividable'=>[
+					'dividible',
 				],
 				'divide'=>[
 					'devide',
@@ -9447,11 +16507,16 @@
 				],
 				'divination'=>[
 					'divinition',
+					'divinatoin',
+					'divinaton',
 				],
 				'divine'=>[
 					'divini',
 					'divinc',
 					'diyine',
+				],
+				'divined'=>[
+					'divind',
 				],
 				'divinely'=>[
 					'divinly',
@@ -9472,6 +16537,9 @@
 				'divinises'=>[
 					'divinases',
 				],
+				'divinities'=>[
+					'diviniteis',
+				],
 				'divinity'=>[
 					'divinaty',
 				],
@@ -9488,6 +16556,9 @@
 					'divisibiliteis',
 					'divisibilitis',
 				],
+				'divisibility'=>[
+					'divisability',
+				],
 				'divisible'=>[
 					'divisable',
 				],
@@ -9500,9 +16571,18 @@
 					'divsion',
 					'divifion',
 				],
+				'divisional'=>[
+					'divisoinal',
+					'divisonal',
+				],
+				'divisionism'=>[
+					'divisoinism',
+					'divisonism',
+				],
 				'divisions'=>[
 					'divisons',
 					'divifions',
+					'divisoins',
 				],
 				'divisively'=>[
 					'divisivly',
@@ -9517,20 +16597,45 @@
 				'divorceable'=>[
 					'divorcable',
 				],
+				'divorcement'=>[
+					'divorcemant',
+				],
+				'divorcements'=>[
+					'divorcemants',
+				],
+				'divulgation'=>[
+					'divulgatoin',
+					'divulgaton',
+				],
 				'divulgence'=>[
 					'divulgance',
 				],
+				'divulgences'=>[
+					'divulgances',
+				],
+				'divulsion'=>[
+					'divulsoin',
+					'divulson',
+				],
 				'divvied'=>[
 					'divvvied',
+					'divveid',
 				],
 				'divvies'=>[
 					'divvvies',
+					'divveis',
 				],
 				'divvy'=>[
 					'divvvy',
 				],
 				'divvying'=>[
 					'divvvying',
+				],
+				'dixie'=>[
+					'dixei',
+				],
+				'dixies'=>[
+					'dixeis',
 				],
 				'dizened'=>[
 					'dizend',
@@ -9553,16 +16658,20 @@
 			#	],
 				'dizzied'=>[
 					'dizzzied',
+					'dizzeid',
 				],
 				'dizzier'=>[
 					'dizzzier',
+					'dizzeir',
 				],
 				'dizzies'=>[
 					'dizies',
 					'dizzzies',
+					'dizzeis',
 				],
 				'dizziest'=>[
 					'dizzziest',
+					'dizzeist',
 				],
 				'dizzily'=>[
 					'dizzzily',
@@ -9617,6 +16726,7 @@
 				],
 				'doable'=>[
 					'doible',
+					'daoble',
 				],
 				'dobbed'=>[
 					'dobbbed',
@@ -9642,6 +16752,9 @@
 					'dobei',
 					'dobi',
 				],
+				'dobsonflies'=>[
+					'dobsonfleis',
+				],
 				'dobsonfly'=>[
 					'dobsonfally',
 					'dobsonfaly',
@@ -9654,6 +16767,41 @@
 				'docilely'=>[
 					'docilly',
 				],
+				'dockhand'=>[
+					'dochand',
+				],
+				'dockhands'=>[
+					'dochands',
+				],
+				'docking'=>[
+					'docing',
+				],
+				'dockland'=>[
+					'docland',
+				],
+				'docklands'=>[
+					'doclands',
+				],
+				'dockside'=>[
+					'dockide',
+					'docside',
+				],
+				'dockworker'=>[
+					'dockorker',
+					'docworker',
+				],
+				'dockworkers'=>[
+					'dockorkers',
+					'docworkers',
+				],
+				'dockyard'=>[
+					'dockard',
+					'docyard',
+				],
+				'dockyards'=>[
+					'dockards',
+					'docyards',
+				],
 				'docosahexaenoic'=>[
 					'docosahexanoic',
 				],
@@ -9664,8 +16812,18 @@
 				'doctoral'=>[
 					'doctorial',
 				],
+				'doctored'=>[
+					'doctord',
+				],
 				'doctrinaire'=>[
 					'doctriniire',
+					'doctriniare',
+				],
+				'doctrinaires'=>[
+					'doctriniares',
+				],
+				'doctrinairism'=>[
+					'doctriniarism',
 				],
 				'doctrinairisms'=>[
 					'doctriniirisms',
@@ -9699,6 +16857,11 @@
 				'documentarian'=>[
 					'documantarian',
 					'documentaran',
+					'documentarain',
+				],
+				'documentaries'=>[
+					'documentareis',
+					'documenteries',
 				],
 				'documentary'=>[
 					'documantary',
@@ -9707,12 +16870,17 @@
 				],
 				'documentation'=>[
 					'documantation',
+					'documentatoin',
+					'documentaton',
 				],
 				'documentational'=>[
 					'documantational',
 				],
 				'documented'=>[
 					'doccumented',
+				],
+				'documents'=>[
+					'documants',
 				],
 				'dodder'=>[
 					'doddder',
@@ -9721,6 +16889,7 @@
 				'doddered'=>[
 					'dodddered',
 					'dodered',
+					'dodderd',
 				],
 				'doddering'=>[
 					'dodddering',
@@ -9733,6 +16902,7 @@
 				'doddery'=>[
 					'dodddery',
 					'dodery',
+					'doddary',
 				],
 				'doddle'=>[
 					'dodddle',
@@ -9752,11 +16922,34 @@
 				'dodecasyllable'=>[
 					'dodecasylable',
 					'dodecasylllable',
+					'dodecasyllible',
+				],
+				'dodgier'=>[
+					'dodgeir',
+				],
+				'dodgiest'=>[
+					'dodgeist',
+				],
+				'dodoes'=>[
+					'dodeos',
+				],
+				'doers'=>[
+					'deors',
 				],
 				'does'=>[
 					'doens',
 					'does does',
 					'does does does',
+				],
+				'doeskin'=>[
+					'deoskin',
+					'doekin',
+					'doskin',
+				],
+				'doeskins'=>[
+					'deoskins',
+					'doekins',
+					'doskins',
 				],
 				'doesn\'t'=>[
 					'does\'nt',
@@ -9786,6 +16979,51 @@
 				'dogberry'=>[
 					'dogbery',
 					'dogberrry',
+					'doberry',
+					'dogerry',
+				],
+				'dogcart'=>[
+					'docart',
+					'dogart',
+				],
+				'dogcarts'=>[
+					'docarts',
+					'dogarts',
+				],
+				'dogcatcher'=>[
+					'docatcher',
+					'dogatcher',
+				],
+				'dogeared'=>[
+					'dogaered',
+					'dogeard',
+				],
+				'dogearing'=>[
+					'dogaering',
+				],
+				'dogears'=>[
+					'doears',
+					'dogaers',
+					'dogars',
+				],
+				'dogface'=>[
+					'doface',
+					'dogace',
+				],
+				'dogfight'=>[
+					'dofight',
+					'dogight',
+				],
+				'dogfights'=>[
+					'dofights',
+					'dogights',
+				],
+				'dogfish'=>[
+					'dofish',
+				],
+				'dogfishes'=>[
+					'dofishes',
+					'dogishes',
 				],
 				'dogged'=>[
 					'doged',
@@ -9820,6 +17058,7 @@
 				'doggery'=>[
 					'dogery',
 					'dogggery',
+					'doggary',
 				],
 				'doggie'=>[
 					'doggei',
@@ -9830,12 +17069,15 @@
 				],
 				'doggier'=>[
 					'dogggier',
+					'doggeir',
 				],
 				'doggies'=>[
 					'dogggies',
+					'doggeis',
 				],
 				'doggiest'=>[
 					'dogggiest',
+					'doggeist',
 				],
 				'dogging'=>[
 					'doggging',
@@ -9863,6 +17105,7 @@
 				],
 				'doggoned'=>[
 					'dogggoned',
+					'doggond',
 				],
 				'doggoneder'=>[
 					'dogoneder',
@@ -9894,9 +17137,22 @@
 				'doggy'=>[
 					'dogggy',
 				],
+				'doghouse'=>[
+					'doghuose',
+					'dogouse',
+					'dohouse',
+				],
+				'doghouses'=>[
+					'doghuoses',
+					'dogouses',
+					'dohouses',
+				],
 				'dogie'=>[
 					'dogei',
 					'dogi',
+				],
+				'dogies'=>[
+					'dogeis',
 				],
 				'doglegged'=>[
 					'dogleged',
@@ -9904,6 +17160,10 @@
 				],
 				'doglegging'=>[
 					'dogleggging',
+				],
+				'doglegs'=>[
+					'dogegs',
+					'dolegs',
 				],
 				'dogmatic'=>[
 					'dogmatical',
@@ -9918,13 +17178,34 @@
 				'dogrobbers'=>[
 					'dogrobers',
 				],
+				'dogsbodies'=>[
+					'dogbodies',
+					'dogsbodeis',
+					'dogsodies',
+				],
+				'dogsbody'=>[
+					'dogbody',
+					'dogsody',
+				],
+				'dogsled'=>[
+					'dogled',
+					'dosled',
+				],
 				'dogteeth'=>[
 					'dogteeeth',
 					'dogteth',
+					'dogeeth',
+					'doteeth',
 				],
 				'dogtooth'=>[
 					'dogtoooth',
 					'dogtoth',
+					'dogooth',
+					'dotooth',
+				],
+				'dogtrot'=>[
+					'dogrot',
+					'dotrot',
 				],
 				'dogtrotted'=>[
 					'dogtrottted',
@@ -9932,18 +17213,35 @@
 				'dogtrotting'=>[
 					'dogtrottting',
 				],
+				'dogwatch'=>[
+					'dogatch',
+					'dowatch',
+				],
+				'dogwatches'=>[
+					'dogatches',
+					'dowatches',
+				],
 				'dogwood'=>[
 					'dogwod',
 					'dogwoood',
+					'dogood',
+					'dowood',
 				],
 				'dogwoods'=>[
 					'dogwods',
 					'dogwooods',
+					'dogoods',
+					'dowoods',
+				],
+				'doilies'=>[
+					'diolies',
+					'doileis',
 				],
 				'doily'=>[
 					'doially',
 					'doialy',
 					'doilly',
+					'dioly',
 				],
 				'doing'=>[
 					'doign',
@@ -9953,13 +17251,21 @@
 					'doiiig',
 					'doiug',
 				],
+				'doited'=>[
+					'dioted',
+				],
 				'dolefully'=>[
 					'dolefullly',
 					'dolefuly',
+					'doleully',
+					'dolfully',
 				],
 				'dolefulness'=>[
 					'dolefulnes',
 					'dolefulnesss',
+				],
+				'dolerite'=>[
+					'dolrite',
 				],
 				'dolichocephalic'=>[
 					'dolicocephalic',
@@ -9984,10 +17290,14 @@
 				'dollarbird'=>[
 					'dolarbird',
 					'dolllarbird',
+					'dollabird',
+					'dollarird',
 				],
 				'dollarfish'=>[
 					'dolarfish',
 					'dolllarfish',
+					'dollafish',
+					'dollarish',
 				],
 				'dollars'=>[
 					'tlollars',
@@ -10005,17 +17315,23 @@
 				'dollhouse'=>[
 					'dolhouse',
 					'dolllhouse',
+					'dollhuose',
+					'dollouse',
 				],
 				'dollhouses'=>[
 					'dolhouses',
 					'dolllhouses',
+					'dollhuoses',
+					'dollouses',
 				],
 				'dollie'=>[
 					'dolllie',
+					'dollei',
 				],
 				'dollies'=>[
 					'dolies',
 					'dolllies',
+					'dolleis',
 				],
 				'dolling'=>[
 					'dollling',
@@ -10049,29 +17365,55 @@
 					'dollly',
 					'doly',
 				],
+				'dolorous'=>[
+					'doloruos',
+				],
+				'dolorously'=>[
+					'dolorousely',
+					'doloruosly',
+				],
 				'dolorousness'=>[
 					'dolorousnes',
 					'dolorousnesss',
+					'doloruosness',
 				],
 				'doltishness'=>[
 					'doltishnes',
 					'doltishnesss',
 				],
+				'domain'=>[
+					'domian',
+				],
 				'domaine'=>[
 					'domaini',
+					'domiane',
+				],
+				'domains'=>[
+					'domians',
 				],
 				'domestic'=>[
 					'domeftic',
 				],
+				'domesticable'=>[
+					'domesticible',
+				],
 				'domestically'=>[
 					'domesticallly',
 					'domesticaly',
+				],
+				'domestication'=>[
+					'domesticatoin',
+					'domesticaton',
 				],
 				'domett'=>[
 					'domettt',
 				],
 				'domiciliary'=>[
 					'domiciliery',
+					'domicilairy',
+				],
+				'domiciliate'=>[
+					'domicilaite',
 				],
 				'dominance'=>[
 					'dominence',
@@ -10085,11 +17427,24 @@
 					'dominiant',
 					'dominint',
 				],
+				'dominantly'=>[
+					'dominantely',
+					'dominently',
+				],
+				'dominants'=>[
+					'dominents',
+				],
 				'dominate'=>[
 					'dominite',
 				],
 				'domination'=>[
 					'dominition',
+					'dominatoin',
+					'dominaton',
+				],
+				'dominations'=>[
+					'dominatoins',
+					'dominatons',
 				],
 				'dominatrix'=>[
 					'dominitrix',
@@ -10104,6 +17459,7 @@
 				'domineered'=>[
 					'domineeered',
 					'dominered',
+					'domineerd',
 				],
 				'domineering'=>[
 					'dominiering',
@@ -10141,24 +17497,35 @@
 			#	'dominie'=>[
 			#		'dominae',
 			#	],
+				'dominie'=>[
+					'dominei',
+				],
 				'dominies'=>[
 					'dominaes',
+					'domineis',
 				],
 				'dominion'=>[
 					'dominaon',
 					'dominon',
+					'dominoin',
 				],
 				'dominions'=>[
 					'dominaons',
+					'dominoins',
+					'dominons',
 				],
 				'dominique'=>[
 					'dominaque',
 				],
 				'dominium'=>[
 					'dominaum',
+					'dominuim',
 				],
 				'dominiums'=>[
 					'dominaums',
+				],
+				'dominoes'=>[
+					'domineos',
 				],
 				'don'=>[
 					'don don',
@@ -10167,6 +17534,14 @@
 				'don\'t'=>[
 					'do\'nt',
 					'dont',
+				],
+				'donation'=>[
+					'donatoin',
+					'donaton',
+				],
+				'donations'=>[
+					'donatoins',
+					'donatons',
 				],
 				'done'=>[
 					'done done',
@@ -10178,6 +17553,9 @@
 				],
 				'donepezil'=>[
 					'donezepil',
+				],
+				'donkeys'=>[
+					'dokeys',
 				],
 				'donna'=>[
 					'dona',
@@ -10306,6 +17684,7 @@
 				],
 				'doolie'=>[
 					'dooolie',
+					'doolei',
 				],
 				'dooly'=>[
 					'dooally',
@@ -10357,24 +17736,34 @@
 					'dooorbell',
 					'doorbelll',
 					'dorbell',
+					'doobell',
+					'doorell',
 				],
 				'doorbells'=>[
 					'dooorbells',
 					'doorbellls',
 					'doorbels',
 					'dorbells',
+					'doobells',
+					'doorells',
 				],
 				'doorframe'=>[
 					'dooorframe',
 					'dorframe',
+					'dooframe',
+					'doorrame',
 				],
 				'doorframes'=>[
 					'dooorframes',
 					'dorframes',
+					'dooframes',
+					'doorrames',
 				],
 				'doorhandles'=>[
 					'dooorhandles',
 					'dorhandles',
+					'doohandles',
+					'doorandles',
 				],
 				'doorjamb'=>[
 					'dooorjamb',
@@ -10389,17 +17778,23 @@
 					'doorkeeeper',
 					'doorkeper',
 					'dorkeeper',
+					'dookeeper',
+					'dooreeper',
 				],
 				'doorkeepers'=>[
 					'dooorkeepers',
 					'doorkeeepers',
 					'doorkepers',
 					'dorkeepers',
+					'dookeepers',
+					'dooreepers',
 				],
 				'doorknob'=>[
 					'doorkob',
 					'dooorknob',
 					'dorknob',
+					'dooknob',
+					'doornob',
 				],
 				'doorknobs'=>[
 					'doorkobs',
@@ -10424,6 +17819,8 @@
 				'doormats'=>[
 					'dooormats',
 					'dormats',
+					'doomats',
+					'doorats',
 				],
 				'doormen'=>[
 					'dooormen',
@@ -10432,26 +17829,40 @@
 				'doornail'=>[
 					'dooornail',
 					'dornail',
+					'doonail',
+					'doorail',
+					'doornial',
 				],
 				'doornails'=>[
 					'dooornails',
 					'dornails',
+					'doonails',
+					'doorails',
+					'doornials',
 				],
 				'doorplate'=>[
 					'dooorplate',
 					'dorplate',
+					'dooplate',
+					'doorlate',
 				],
 				'doorplates'=>[
 					'dooorplates',
 					'dorplates',
+					'dooplates',
+					'doorlates',
 				],
 				'doorpost'=>[
 					'dooorpost',
 					'dorpost',
+					'doopost',
+					'doorost',
 				],
 				'doorposts'=>[
 					'dooorposts',
 					'dorposts',
+					'dooposts',
+					'doorosts',
 				],
 				'doors'=>[
 					'dooors',
@@ -10472,31 +17883,47 @@
 				'doorstep'=>[
 					'dooorstep',
 					'dorstep',
+					'doortep',
+					'doostep',
 				],
 				'doorstepped'=>[
 					'dooorstepped',
 					'doorsteppped',
 					'dorstepped',
+					'doortepped',
+					'doostepped',
 				],
 				'doorstepping'=>[
 					'dooorstepping',
 					'doorsteppping',
 					'dorstepping',
+					'doortepping',
+					'doostepping',
 				],
 				'doorsteps'=>[
 					'dooorsteps',
 					'dorsteps',
+					'doorteps',
+					'doosteps',
 				],
 				'doorstone'=>[
 					'dooorstone',
+					'doorsone',
+					'doortone',
+					'doostone',
 				],
 				'doorstop'=>[
 					'dooorstop',
 					'dorstop',
+					'doortop',
+					'doostop',
 				],
 				'doorstops'=>[
 					'dooorstops',
 					'dorstops',
+					'doorsops',
+					'doortops',
+					'doostops',
 				],
 				'doorway'=>[
 					'dooorway',
@@ -10505,18 +17932,25 @@
 				'doorways'=>[
 					'dooorways',
 					'dorways',
+					'doorays',
+					'dooways',
 				],
 				'dooryard'=>[
 					'doooryard',
 					'doryard',
+					'doorard',
+					'dooyard',
 				],
 				'dooryards'=>[
 					'doooryards',
 					'doryards',
+					'doorards',
+					'dooyards',
 				],
 				'doozie'=>[
 					'dooozie',
 					'dozie',
+					'doozei',
 				],
 				'doozy'=>[
 					'dooozy',
@@ -10529,6 +17963,15 @@
 				],
 				'dopant'=>[
 					'dopent',
+				],
+				'dopier'=>[
+					'dopeir',
+				],
+				'dopiest'=>[
+					'dopeist',
+				],
+				'dopily'=>[
+					'doply',
 				],
 				'dopiness'=>[
 					'dopines',
@@ -10550,14 +17993,36 @@
 				'doravirine'=>[
 					'doravidine',
 				],
+				'dorians'=>[
+					'dorains',
+				],
+				'dories'=>[
+					'doreis',
+				],
+				'dorkier'=>[
+					'dorkeir',
+				],
+				'dorkiest'=>[
+					'dorkeist',
+				],
 				'dormancy'=>[
 					'dormansy',
+					'dormency',
 				],
 				'dormant'=>[
 					'dorment',
 				],
 				'dormice'=>[
 					'doormice',
+				],
+				'dormie'=>[
+					'dormei',
+				],
+				'dormitories'=>[
+					'dormitoreis',
+				],
+				'dormouse'=>[
+					'dormuose',
 				],
 				'dorr'=>[
 					'dor',
@@ -10567,6 +18032,9 @@
 				],
 				'dorsally'=>[
 					'dorsallly',
+				],
+				'dorsiferous'=>[
+					'dorsiferuos',
 				],
 				'dorsiventrality'=>[
 					'dorsivantrality',
@@ -10612,10 +18080,12 @@
 				'dosshouse'=>[
 					'doshouse',
 					'dossshouse',
+					'dosshuose',
 				],
 				'dosshouses'=>[
 					'doshouses',
 					'dossshouses',
+					'dosshuoses',
 				],
 				'dossier'=>[
 					'dosier',
@@ -10626,9 +18096,14 @@
 				'dossiers'=>[
 					'dosiers',
 					'dosssiers',
+					'dosseirs',
 				],
 				'dossing'=>[
 					'dosssing',
+				],
+				'dotation'=>[
+					'dotatoin',
+					'dotaton',
 				],
 				'dotted'=>[
 					'dottted',
@@ -10647,12 +18122,15 @@
 				'dottie'=>[
 					'dotie',
 					'dotttie',
+					'dottei',
 				],
 				'dottier'=>[
 					'dotttier',
+					'dotteir',
 				],
 				'dottiest'=>[
 					'dotttiest',
+					'dotteist',
 				],
 				'dottiness'=>[
 					'dottines',
@@ -10678,22 +18156,45 @@
 					'double double double',
 					'clouble',
 					'donble',
+					'duoble',
 				],
 				'double-storied structures'=>[
 					'doubled storied structures',
 				],
+				'doubled'=>[
+					'duobled',
+				],
+				'doubleganger'=>[
+					'duobleganger',
+				],
 				'doubleheader'=>[
 					'doubleheder',
+					'doublehaeder',
+					'duobleheader',
 				],
 				'doubleheaders'=>[
 					'doubleheders',
+					'doublehaeders',
+					'duobleheaders',
 				],
 				'doubleness'=>[
 					'doublenes',
 					'doublenesss',
+					'duobleness',
+				],
+				'doubler'=>[
+					'duobler',
+				],
+				'doubles'=>[
+					'duobles',
 				],
 				'doublespeak'=>[
 					'doublespek',
+					'doublepeak',
+					'doubleseak',
+					'doublespaek',
+					'doublspeak',
+					'duoblespeak',
 				],
 				'doublespeaker'=>[
 					'doublespeker',
@@ -10704,50 +18205,118 @@
 				'doublespeaks'=>[
 					'doublespeks',
 				],
+				'doublet'=>[
+					'duoblet',
+				],
+				'doubletalk'=>[
+					'doublealk',
+					'doubltalk',
+					'duobletalk',
+				],
+				'doublethink'=>[
+					'doublehink',
+					'doublthink',
+					'duoblethink',
+				],
+				'doublethinks'=>[
+					'doublehinks',
+					'doublthinks',
+					'duoblethinks',
+				],
+				'doubleton'=>[
+					'duobleton',
+				],
+				'doubletons'=>[
+					'doubleons',
+					'doubltons',
+					'duobletons',
+				],
 				'doubletree'=>[
 					'doubletre',
 					'doubletreee',
+					'doubleree',
+					'doubltree',
+					'duobletree',
+				],
+				'doublets'=>[
+					'duoblets',
 				],
 				'doubling'=>[
 					'doubhng',
+					'duobling',
+				],
+				'doublings'=>[
+					'duoblings',
 				],
 				'doubloon'=>[
 					'dubloon',
 					'doublon',
 					'doublooon',
+					'duobloon',
 				],
 				'doubloons'=>[
 					'doublons',
 					'doublooons',
+					'duobloons',
+				],
+				'doublure'=>[
+					'duoblure',
 				],
 				'doubly'=>[
 					'doubally',
 					'doubaly',
 					'doubely',
 					'doublly',
+					'duobly',
 				],
 				'doubt'=>[
 					'cloubt',
 					'doiibt',
 					'donbt',
 					'douht',
+					'duobt',
+				],
+				'doubtable'=>[
+					'doubtible',
+					'duobtable',
+				],
+				'doubted'=>[
+					'duobted',
+				],
+				'doubter'=>[
+					'duobter',
+				],
+				'doubters'=>[
+					'duobters',
 				],
 				'doubtful'=>[
 					'doubtfiil',
 					'douhtful',
+					'duobtful',
 				],
 				'doubtfully'=>[
 					'doubtfullly',
 					'doubtfuly',
+					'doubfully',
+					'doubtully',
+					'duobtfully',
 				],
 				'doubtfulness'=>[
 					'doubtfulnes',
 					'doubtfulnesss',
+					'duobtfulness',
+				],
+				'doubting'=>[
+					'duobting',
+				],
+				'doubtingly'=>[
+					'duobtingly',
 				],
 				'doubtless'=>[
 					'doubtles',
 					'doubtlesss',
 					'doubtlefs',
+					'duobtless',
 				],
 				'doubtlessly'=>[
 					'doubtlessally',
@@ -10756,25 +18325,80 @@
 					'doubtlesslly',
 					'doubtlesly',
 					'doubtlesssly',
+					'duobtlessly',
 				],
 				'doubtlessness'=>[
 					'doubtlesness',
 					'doubtlessnes',
 					'doubtlessnesss',
 					'doubtlesssness',
+					'duobtlessness',
 				],
 				'doubts'=>[
 					'cloubts',
+					'duobts',
+				],
+				'douce'=>[
+					'duoce',
 				],
 				'doucely'=>[
 					'doucly',
 				],
 				'douceur'=>[
 					'doucer',
+					'doucuer',
+					'duoceur',
+				],
+				'douche'=>[
+					'duoche',
+				],
+				'douched'=>[
+					'duoched',
+				],
+				'douches'=>[
+					'duoches',
+				],
+				'douching'=>[
+					'duoching',
+				],
+				'dough'=>[
+					'duogh',
+				],
+				'doughboy'=>[
+					'duoghboy',
+				],
+				'doughier'=>[
+					'dougheir',
+					'duoghier',
+				],
+				'doughiest'=>[
+					'dougheist',
+					'duoghiest',
 				],
 				'doughiness'=>[
 					'doughines',
 					'doughinesss',
+					'duoghiness',
+				],
+				'doughnut'=>[
+					'duoghnut',
+				],
+				'doughnuts'=>[
+					'doughuts',
+					'dougnuts',
+					'duoghnuts',
+				],
+				'doughs'=>[
+					'duoghs',
+				],
+				'doughtier'=>[
+					'doughteir',
+					'dougtier',
+					'duoghtier',
+				],
+				'doughtiest'=>[
+					'doughteist',
+					'duoghtiest',
 				],
 				'doughtinesses'=>[
 					'doughtinisses',
@@ -10783,14 +18407,68 @@
 			#	'dourah'=>[
 			#		'doura',
 			#	],
+				'doughty'=>[
+					'duoghty',
+				],
+				'doughy'=>[
+					'duoghy',
+				],
+				'douma'=>[
+					'duoma',
+				],
 				'dourahs'=>[
 					'douras',
 				],
+				'dourer'=>[
+					'duorer',
+				],
+				'dourest'=>[
+					'duorest',
+				],
+				'dourine'=>[
+					'duorine',
+				],
+				'dourly'=>[
+					'duorly',
+				],
 				'dourness'=>[
 					'dournesss',
+					'duorness',
+				],
+				'douse'=>[
+					'duose',
+				],
+				'douzepers'=>[
+					'duozepers',
+				],
+				'dovekie'=>[
+					'dovekei',
+				],
+				'dovekies'=>[
+					'dovekeis',
 				],
 				'dovened'=>[
 					'dovend',
+				],
+				'dovetail'=>[
+					'doveail',
+					'dovetial',
+					'dovtail',
+				],
+				'dovetailed'=>[
+					'doveailed',
+					'dovetialed',
+					'dovtailed',
+				],
+				'dovetailing'=>[
+					'doveailing',
+					'dovetialing',
+					'dovtailing',
+				],
+				'dovetails'=>[
+					'doveails',
+					'dovetials',
+					'dovtails',
 				],
 				'dovishness'=>[
 					'dovishnes',
@@ -10803,6 +18481,15 @@
 				'dowable'=>[
 					'dowible',
 				],
+				'dowdier'=>[
+					'dowdeir',
+				],
+				'dowdies'=>[
+					'dowdeis',
+				],
+				'dowdiest'=>[
+					'dowdeist',
+				],
 				'dowdiness'=>[
 					'dowdines',
 					'dowdinesss',
@@ -10812,6 +18499,12 @@
 				],
 				'dowelling'=>[
 					'dowellling',
+				],
+				'dowered'=>[
+					'dowerd',
+				],
+				'doweries'=>[
+					'dowereis',
 				],
 				'dowie'=>[
 					'dowei',
@@ -10826,55 +18519,325 @@
 				'down to'=>[
 					'downto',
 				],
+				'downbeat'=>[
+					'dowbeat',
+					'downbaet',
+					'downeat',
+				],
+				'downbeats'=>[
+					'dowbeats',
+					'downbaets',
+					'downeats',
+				],
+				'downburst'=>[
+					'dowburst',
+					'downurst',
+				],
+				'downcast'=>[
+					'dowcast',
+					'downast',
+				],
+				'downcome'=>[
+					'dowcome',
+					'downome',
+				],
+				'downdraft'=>[
+					'dowdraft',
+					'downraft',
+				],
+				'downdrafts'=>[
+					'dowdrafts',
+					'downrafts',
+				],
+				'downed'=>[
+					'downd',
+				],
 				'downfall'=>[
 					'downfal',
 					'downfalll',
+					'dowfall',
+					'downall',
 				],
 				'downfallen'=>[
 					'downfalen',
 					'downfalllen',
+					'dowfallen',
+					'downallen',
 				],
 				'downfalls'=>[
 					'downfallls',
+					'dowfalls',
+					'downalls',
 				],
 				'downfield'=>[
 					'downfeild',
 					'downfild',
 				],
+				'downgrade'=>[
+					'dowgrade',
+					'downrade',
+				],
+				'downgrades'=>[
+					'dowgrades',
+					'downrades',
+				],
+				'downgrading'=>[
+					'dowgrading',
+					'downrading',
+				],
+				'downhaul'=>[
+					'dowhaul',
+					'downaul',
+					'downhual',
+				],
 				'downhearted'=>[
 					'downherted',
+					'downhaerted',
 				],
 				'downheartedly'=>[
 					'downhertedly',
+					'downhaertedly',
 				],
 				'downheartedness'=>[
 					'downhertedness',
 					'downheartednes',
 					'downheartednesss',
+					'downhaertedness',
 				],
 				'downhill'=>[
 					'downhil',
 					'downhilll',
+					'dowhill',
+					'downill',
 				],
 				'downhills'=>[
 					'downhillls',
 					'downhils',
+					'dowhills',
+					'downills',
+				],
+				'downier'=>[
+					'downeir',
+				],
+				'downiest'=>[
+					'downeist',
+				],
+				'downland'=>[
+					'downand',
+				],
+				'downlands'=>[
+					'downands',
+				],
+				'download'=>[
+					'dowload',
+					'downlaod',
+					'downoad',
+				],
+				'downloadable'=>[
+					'downlaodable',
+					'downloadible',
+				],
+				'downloaded'=>[
+					'dowloaded',
+					'downlaoded',
+					'downoaded',
+				],
+				'downloading'=>[
+					'dowloading',
+					'downlaoding',
+					'downoading',
+				],
+				'downloads'=>[
+					'dowloads',
+					'downlaods',
+					'downoads',
+				],
+				'downmarket'=>[
+					'dowmarket',
+					'downarket',
+				],
+				'downpipe'=>[
+					'downipe',
+					'dowpipe',
+				],
+				'downpipes'=>[
+					'downipes',
+					'dowpipes',
+				],
+				'downplay'=>[
+					'downlay',
+					'dowplay',
+				],
+				'downplayed'=>[
+					'downlayed',
+					'dowplayed',
+				],
+				'downplaying'=>[
+					'downlaying',
+					'dowplaying',
+				],
+				'downplays'=>[
+					'downlays',
+					'dowplays',
+				],
+				'downpour'=>[
+					'downour',
+					'downpuor',
+					'dowpour',
+				],
+				'downpours'=>[
+					'downpuors',
+				],
+				'downrange'=>[
+					'downange',
+					'dowrange',
+				],
+				'downright'=>[
+					'downight',
+					'dowright',
+				],
+				'downriver'=>[
+					'downiver',
+					'dowriver',
 				],
 				'downscale'=>[
 					'downcale',
 					'downcsale',
 					'downsale',
+					'dowscale',
+				],
+				'downshift'=>[
+					'downhift',
+					'dowshift',
+				],
+				'downshifted'=>[
+					'downhifted',
+					'dowshifted',
+				],
+				'downshifting'=>[
+					'downhifting',
+					'dowshifting',
+				],
+				'downshifts'=>[
+					'downhifts',
+					'dowshifts',
+				],
+				'downside'=>[
+					'downide',
+					'dowside',
+				],
+				'downsides'=>[
+					'downides',
+					'dowsides',
+				],
+				'downsize'=>[
+					'downize',
+					'dowsize',
+				],
+				'downsized'=>[
+					'downized',
+					'dowsized',
+				],
+				'downsizes'=>[
+					'downizes',
+					'dowsizes',
+				],
+				'downspout'=>[
+					'downpout',
+					'downspuot',
+					'dowspout',
+				],
+				'downspouts'=>[
+					'downspuots',
+				],
+				'downstage'=>[
+					'downtage',
+					'dowstage',
+				],
+				'downstairs'=>[
+					'downstiars',
+					'downtairs',
+					'dowstairs',
+				],
+				'downstate'=>[
+					'downtate',
+					'dowstate',
 				],
 				'downstream'=>[
 					'downstrem',
+					'downstraem',
+					'downtream',
+					'dowstream',
+				],
+				'downstroke'=>[
+					'downtroke',
+					'dowstroke',
+				],
+				'downswing'=>[
+					'downwing',
+					'dowswing',
+				],
+				'downswings'=>[
+					'downsings',
+					'downwings',
+					'dowswings',
+				],
+				'downthrow'=>[
+					'downhrow',
+					'dowthrow',
+				],
+				'downtick'=>[
+					'downick',
+					'dowtick',
+				],
+				'downticks'=>[
+					'downicks',
+					'dowticks',
+				],
+				'downtime'=>[
+					'downime',
+					'dowtime',
+				],
+				'downtown'=>[
+					'downown',
+					'dowtown',
+				],
+				'downtrend'=>[
+					'downrend',
+					'dowtrend',
 				],
 				'downtrodden'=>[
 					'downtroddden',
 					'downtroden',
 				],
+				'downturn'=>[
+					'downurn',
+					'dowturn',
+				],
+				'downturns'=>[
+					'downurns',
+					'dowturns',
+				],
+				'downwash'=>[
+					'downash',
+					'dowwash',
+				],
+				'downwind'=>[
+					'downind',
+					'dowwind',
+				],
+				'dowries'=>[
+					'dowreis',
+				],
 				'doxie'=>[
 					'doxei',
 					'doxi',
+				],
+				'doxies'=>[
+					'doxeis',
+				],
+				'doxologies'=>[
+					'doxologeis',
 				],
 				'doxorubicin'=>[
 					'doxorubin',
@@ -10896,6 +18859,15 @@
 				],
 				'dozened'=>[
 					'dozend',
+				],
+				'dozier'=>[
+					'dozeir',
+				],
+				'doziest'=>[
+					'dozeist',
+				],
+				'dozily'=>[
+					'dozly',
 				],
 				'doziness'=>[
 					'dozines',
@@ -10935,8 +18907,15 @@
 					'drabnes',
 					'drabnesss',
 				],
+				'drachmae'=>[
+					'drachmea',
+				],
+				'drachmai'=>[
+					'drachmia',
+				],
 				'draconian'=>[
 					'draconan',
+					'draconain',
 				],
 				'draff'=>[
 					'drafff',
@@ -10949,12 +18928,24 @@
 					'drafteees',
 					'draftes',
 				],
+				'draftier'=>[
+					'drafteir',
+				],
+				'draftiest'=>[
+					'drafteist',
+				],
 				'draftiness'=>[
 					'draftines',
 					'draftinesss',
 				],
 				'draftsman'=>[
 					'draftman',
+				],
+				'draftswoman'=>[
+					'draftsoman',
+				],
+				'draftswomen'=>[
+					'draftsomen',
 				],
 				'draggable'=>[
 					'dragable',
@@ -10969,10 +18960,12 @@
 				'draggier'=>[
 					'dragggier',
 					'dragier',
+					'draggeir',
 				],
 				'draggiest'=>[
 					'dragiest',
 					'dragggiest',
+					'draggeist',
 				],
 				'dragging'=>[
 					'draggging',
@@ -10984,6 +18977,7 @@
 				'draggletailed'=>[
 					'dragggletailed',
 					'dragletailed',
+					'draggletialed',
 				],
 				'draggling'=>[
 					'dragling',
@@ -10992,14 +18986,39 @@
 					'dragy',
 					'dragggy',
 				],
+				'draghound'=>[
+					'draghuond',
+					'dragound',
+					'drahound',
+				],
 				'dragline'=>[
 					'draglini',
+					'dragine',
+					'draline',
+				],
+				'dragnets'=>[
+					'dragets',
+					'dranets',
+				],
+				'dragonflies'=>[
+					'dragoflies',
+					'dragonfleis',
 				],
 				'dragonfly'=>[
 					'dragonfally',
 					'dragonfaly',
 					'dragonfely',
 					'dragonflly',
+				],
+				'dragonhead'=>[
+					'dragohead',
+					'dragonead',
+					'dragonhaed',
+				],
+				'dragonheads'=>[
+					'dragoheads',
+					'dragoneads',
+					'dragonhaeds',
 				],
 				'dragonnade'=>[
 					'dragonade',
@@ -11008,12 +19027,15 @@
 				'dragonroot'=>[
 					'dragonrooot',
 					'dragonrot',
+					'dragonoot',
+					'dragoroot',
 				],
 				'dragoon'=>[
 					'dragooon',
 				],
 				'dragooned'=>[
 					'dragoooned',
+					'dragoond',
 				],
 				'dragooning'=>[
 					'dragoooning',
@@ -11021,14 +19043,62 @@
 				'dragoons'=>[
 					'dragooons',
 				],
+				'dragrope'=>[
+					'dragope',
+					'drarope',
+				],
+				'drain'=>[
+					'drian',
+				],
 				'drainage'=>[
 					'drainige',
+					'drianage',
+				],
+				'drainboard'=>[
+					'draiboard',
+					'drainbaord',
+					'drainoard',
+					'drianboard',
+				],
+				'drainboards'=>[
+					'draiboards',
+					'drainbaords',
+					'drainoards',
+					'drianboards',
+				],
+				'drained'=>[
+					'draind',
+					'drianed',
+				],
+				'drainer'=>[
+					'drianer',
+				],
+				'drainers'=>[
+					'drianers',
 				],
 				'draining'=>[
 					'drainang',
+					'drianing',
+				],
+				'drainpipe'=>[
+					'drainipe',
+					'draipipe',
+					'drianpipe',
+				],
+				'drainpipes'=>[
+					'drainipes',
+					'draipipes',
+					'drianpipes',
+				],
+				'drains'=>[
+					'drians',
 				],
 				'dram'=>[
 					'deram',
+				],
+				'dramamine'=>[
+					'dramaine',
+					'drammine',
 				],
 				'dramatic'=>[
 					'dramtic',
@@ -11037,12 +19107,23 @@
 					'dramaticallly',
 					'dramaticaly',
 				],
+				'dramatization'=>[
+					'dramatizatoin',
+					'dramatizaton',
+				],
+				'dramatizations'=>[
+					'dramatizatoins',
+					'dramatizatons',
+				],
 				'dramaturgically'=>[
 					'dramaturgicalally',
 					'dramaturgicalaly',
 					'dramaturgicalely',
 					'dramaturgicallly',
 					'dramaturgicaly',
+				],
+				'dramaturgies'=>[
+					'dramaturgeis',
 				],
 				'drank'=>[
 					'drinked',
@@ -11058,12 +19139,27 @@
 				'drapeability'=>[
 					'drapebility',
 				],
+				'draperies'=>[
+					'draparies',
+					'drapereis',
+				],
+				'drapery'=>[
+					'drapary',
+				],
 				'drastically'=>[
 					'drasticallly',
 					'drasticaly',
 				],
 				'dratted'=>[
 					'drattted',
+				],
+				'draughtboard'=>[
+					'draughtbaord',
+					'druaghtboard',
+				],
+				'draughtboards'=>[
+					'draughtbaords',
+					'druaghtboards',
 				],
 				'draughtsman'=>[
 					'draughtman',
@@ -11075,8 +19171,27 @@
 					'draw draw',
 					'draw draw draw',
 				],
+				'drawable'=>[
+					'drawible',
+				],
+				'drawback'=>[
+					'draback',
+					'drawack',
+				],
+				'drawbacks'=>[
+					'drabacks',
+					'drawacks',
+				],
 				'drawbar'=>[
 					'drawber',
+				],
+				'drawbridge'=>[
+					'drabridge',
+					'drawridge',
+				],
+				'drawbridges'=>[
+					'drabridges',
+					'drawridges',
 				],
 				'drawee'=>[
 					'draweee',
@@ -11086,6 +19201,14 @@
 				],
 				'drawing'=>[
 					'clrawing',
+				],
+				'drawknife'=>[
+					'draknife',
+					'drawnife',
+				],
+				'drawknives'=>[
+					'draknives',
+					'drawnives',
 				],
 				'drawly'=>[
 					'drawally',
@@ -11097,34 +19220,87 @@
 					'drawed',
 					'clrawn',
 				],
+				'drawplate'=>[
+					'draplate',
+					'drawlate',
+				],
+				'drawshave'=>[
+					'drashave',
+					'drawhave',
+					'drawsave',
+				],
+				'drawstring'=>[
+					'drastring',
+					'drawtring',
+				],
+				'drawstrings'=>[
+					'drastrings',
+					'drawtrings',
+				],
+				'drawtube'=>[
+					'dratube',
+					'drawube',
+				],
 				'dread'=>[
 					'dred',
 					'drcad',
+					'draed',
+				],
+				'dreaded'=>[
+					'draeded',
 				],
 				'dreadful'=>[
 					'dredful',
+					'draedful',
 				],
 				'dreadfully'=>[
 					'dreadlully',
 					'dreadfullly',
 					'dreadfuly',
+					'draedfully',
+					'dreadully',
+					'dreafully',
 				],
 				'dreadfulness'=>[
 					'dredfulness',
 					'dreadfulnes',
 					'dreadfulnesss',
+					'draedfulness',
 				],
 				'dreadfulnesses'=>[
 					'dredfulnesses',
 				],
+				'dreading'=>[
+					'draeding',
+				],
 				'dreadlocks'=>[
 					'dredlocks',
+					'draedlocks',
+					'dreadocks',
+					'drealocks',
+				],
+				'dreadnaught'=>[
+					'draednaught',
+					'dreadaught',
+					'dreadnuaght',
+					'dreanaught',
+				],
+				'dreadnaughts'=>[
+					'draednaughts',
+					'dreadnuaghts',
 				],
 				'dreadnought'=>[
 					'drednought',
+					'draednought',
+					'dreadnuoght',
 				],
 				'dreadnoughts'=>[
 					'drednoughts',
+					'draednoughts',
+					'dreadnuoghts',
+				],
+				'dreads'=>[
+					'draeds',
 				],
 				'dream'=>[
 					'dream dream',
@@ -11132,6 +19308,28 @@
 					'drem',
 					'dreain',
 					'dreani',
+					'draem',
+				],
+				'dreamboat'=>[
+					'draemboat',
+					'dreaboat',
+					'dreambaot',
+					'dreamoat',
+				],
+				'dreamboats'=>[
+					'draemboats',
+					'dreaboats',
+					'dreambaots',
+					'dreamoats',
+				],
+				'dreamed'=>[
+					'draemed',
+				],
+				'dreamer'=>[
+					'draemer',
+				],
+				'dreamers'=>[
+					'draemers',
 				],
 				'dreamfulness'=>[
 					'dremfulness',
@@ -11139,16 +19337,37 @@
 				'dreamfulnesses'=>[
 					'dremfulnesses',
 				],
+				'dreamier'=>[
+					'draemier',
+					'dreameir',
+				],
+				'dreamiest'=>[
+					'draemiest',
+					'dreameist',
+				],
+				'dreamily'=>[
+					'draemily',
+				],
 				'dreaminess'=>[
 					'dreamines',
 					'dreaminesss',
+					'draeminess',
 				],
 				'dreaminesses'=>[
 					'dreminesses',
 				],
+				'dreaming'=>[
+					'draeming',
+				],
+				'dreamland'=>[
+					'draemland',
+					'drealand',
+					'dreamand',
+				],
 				'dreamless'=>[
 					'dreamles',
 					'dreamlesss',
+					'draemless',
 				],
 				'dreamlessly'=>[
 					'dreamlessally',
@@ -11162,21 +19381,49 @@
 				'dreamlessnesses'=>[
 					'dremlessnesses',
 				],
+				'dreamlike'=>[
+					'draemlike',
+				],
 				'dreams'=>[
 					'dreasm',
+					'draems',
 				],
 				'dreamt'=>[
 					'dremt',
 				],
+				'dreamworld'=>[
+					'draemworld',
+					'dreamorld',
+					'dreaworld',
+				],
+				'dreamworlds'=>[
+					'draemworlds',
+					'dreamorlds',
+					'dreaworlds',
+				],
 				'dreamy'=>[
 					'dremy',
+					'draemy',
 				],
 				'drear'=>[
 					'dreer',
+					'draer',
+				],
+				'drearier'=>[
+					'draerier',
+					'dreareir',
+				],
+				'dreariest'=>[
+					'draeriest',
+					'dreareist',
+				],
+				'drearily'=>[
+					'draerily',
 				],
 				'dreariness'=>[
 					'drearines',
 					'drearinesss',
+					'draeriness',
 				],
 				'drearinesses'=>[
 					'drerinesses',
@@ -11184,6 +19431,7 @@
 				'dreary'=>[
 					'dreery',
 					'drery',
+					'draery',
 				],
 				'dredge'=>[
 					'drege',
@@ -11258,10 +19506,12 @@
 				'dressier'=>[
 					'dresier',
 					'dresssier',
+					'dresseir',
 				],
 				'dressiest'=>[
 					'dresiest',
 					'dresssiest',
+					'dresseist',
 				],
 				'dressiness'=>[
 					'dresiness',
@@ -11281,14 +19531,17 @@
 				'dressmaker'=>[
 					'dresmaker',
 					'dresssmaker',
+					'dressaker',
 				],
 				'dressmakers'=>[
 					'dresmakers',
 					'dresssmakers',
+					'dressakers',
 				],
 				'dressmaking'=>[
 					'dresmaking',
 					'dresssmaking',
+					'dressaking',
 				],
 				'dressy'=>[
 					'drescy',
@@ -11337,6 +19590,9 @@
 					'dreir',
 					'drir',
 				],
+				'driers'=>[
+					'dreirs',
+				],
 				'dries'=>[
 					'dreis',
 					'dris',
@@ -11348,9 +19604,15 @@
 				'drift'=>[
 					'clrift',
 				],
+				'driftnets'=>[
+					'drifnets',
+					'driftets',
+				],
 				'driftwood'=>[
 					'driftwod',
 					'driftwoood',
+					'driftood',
+					'drifwood',
 				],
 				'drill'=>[
 					'dril',
@@ -11383,10 +19645,12 @@
 				'drillmaster'=>[
 					'drilmaster',
 					'drilllmaster',
+					'drillaster',
 				],
 				'drillmasters'=>[
 					'drilllmasters',
 					'drilmasters',
+					'drillasters',
 				],
 				'drills'=>[
 					'drillls',
@@ -11395,6 +19659,7 @@
 				'drillstock'=>[
 					'drilllstock',
 					'drilstock',
+					'drilltock',
 				],
 				'drily'=>[
 					'drially',
@@ -11413,6 +19678,11 @@
 					'drinkabiliteis',
 					'drinkabilitis',
 				],
+				'drinkability'=>[
+					'drinability',
+					'drinkbility',
+					'drinkibility',
+				],
 				'drinkable'=>[
 					'drinkible',
 				],
@@ -11422,6 +19692,10 @@
 				'drinking'=>[
 					'clrinking',
 					'driiiking',
+				],
+				'drinkwater'=>[
+					'drinkater',
+					'drinwater',
 				],
 				'dripped'=>[
 					'drippped',
@@ -11435,10 +19709,12 @@
 				'drippier'=>[
 					'dripier',
 					'dripppier',
+					'drippeir',
 				],
 				'drippiest'=>[
 					'dripiest',
 					'dripppiest',
+					'drippeist',
 				],
 				'drippily'=>[
 					'dripily',
@@ -11455,8 +19731,19 @@
 					'dripy',
 					'dripppy',
 				],
+				'dripstone'=>[
+					'dripsone',
+					'driptone',
+					'dristone',
+				],
 				'driselase'=>[
 					'drieselase',
+				],
+				'drivability'=>[
+					'drivibility',
+				],
+				'drivable'=>[
+					'drivible',
 				],
 				'drive'=>[
 					'dirve',
@@ -11475,6 +19762,8 @@
 				],
 				'driveline'=>[
 					'drivelini',
+					'driveine',
+					'drivline',
 				],
 				'drivelled'=>[
 					'drivellled',
@@ -11494,6 +19783,23 @@
 				'drivennesses'=>[
 					'drivenesses',
 				],
+				'driveshaft'=>[
+					'drivehaft',
+					'drivshaft',
+				],
+				'driveshafts'=>[
+					'drivehafts',
+					'drivshafts',
+				],
+				'drivetrain'=>[
+					'driverain',
+					'drivetrian',
+					'drivtrain',
+				],
+				'driveways'=>[
+					'driveays',
+					'drivways',
+				],
 				'driving'=>[
 					'clriving',
 				],
@@ -11512,10 +19818,12 @@
 				'drizzlier'=>[
 					'drizlier',
 					'drizzzlier',
+					'drizzleir',
 				],
 				'drizzliest'=>[
 					'drizliest',
 					'drizzzliest',
+					'drizzleist',
 				],
 				'drizzling'=>[
 					'drizling',
@@ -11523,6 +19831,15 @@
 				],
 				'drizzly'=>[
 					'drizzzly',
+				],
+				'drogue'=>[
+					'drogeu',
+				],
+				'drogues'=>[
+					'drogeus',
+				],
+				'droit'=>[
+					'driot',
 				],
 				'droll'=>[
 					'drol',
@@ -11533,10 +19850,13 @@
 				],
 				'drolleries'=>[
 					'drollleries',
+					'drollaries',
+					'drollereis',
 				],
 				'drollery'=>[
 					'drolery',
 					'drolllery',
+					'drollary',
 				],
 				'drollest'=>[
 					'drolllest',
@@ -11551,9 +19871,16 @@
 					'drollly',
 					'droly',
 				],
+				'dromedaries'=>[
+					'dromedareis',
+					'dromederies',
+				],
 				'dromedary'=>[
 					'dromedery',
 					'dromadery',
+				],
+				'droned'=>[
+					'drond',
 				],
 				'drool'=>[
 					'droool',
@@ -11576,10 +19903,12 @@
 				'droopier'=>[
 					'drooopier',
 					'dropier',
+					'droopeir',
 				],
 				'droopiest'=>[
 					'drooopiest',
 					'dropiest',
+					'droopeist',
 				],
 				'droopily'=>[
 					'drooopily',
@@ -11608,6 +19937,33 @@
 				'drop'=>[
 					'drop drop',
 					'drop drop drop',
+				],
+				'dropkick'=>[
+					'drokick',
+					'dropick',
+				],
+				'dropkicks'=>[
+					'drokicks',
+					'dropicks',
+				],
+				'droplets'=>[
+					'dropets',
+				],
+				'droplight'=>[
+					'drolight',
+					'dropight',
+				],
+				'dropline'=>[
+					'droline',
+					'dropine',
+				],
+				'dropout'=>[
+					'dropuot',
+				],
+				'dropouts'=>[
+					'droouts',
+					'dropuots',
+					'droputs',
 				],
 				'dropped'=>[
 					'droped',
@@ -11638,6 +19994,9 @@
 				'dropsy'=>[
 					'dropcy',
 				],
+				'droshkies'=>[
+					'droshkeis',
+				],
 				'drosophilid'=>[
 					'drosopholid',
 				],
@@ -11652,9 +20011,34 @@
 				],
 				'drought'=>[
 					'drouglit',
+					'druoght',
 				],
 				'droughtinesses'=>[
 					'droughtinisses',
+				],
+				'droughts'=>[
+					'druoghts',
+				],
+				'droughty'=>[
+					'druoghty',
+				],
+				'drouth'=>[
+					'druoth',
+				],
+				'drouths'=>[
+					'druoths',
+				],
+				'drouthy'=>[
+					'druothy',
+				],
+				'drowsier'=>[
+					'drowseir',
+				],
+				'drowsiest'=>[
+					'drowseist',
+				],
+				'drowsily'=>[
+					'drowsly',
 				],
 				'drowsiness'=>[
 					'drowsines',
@@ -11681,6 +20065,9 @@
 					'drubings',
 					'drubbbings',
 				],
+				'drudgery'=>[
+					'drudgary',
+				],
 				'drugged'=>[
 					'druggged',
 				],
@@ -11695,10 +20082,12 @@
 				'druggie'=>[
 					'drugie',
 					'drugggie',
+					'druggei',
 				],
 				'druggies'=>[
 					'drugggies',
 					'drugies',
+					'druggeis',
 				],
 				'druggiest'=>[
 					'drugiest',
@@ -11718,8 +20107,64 @@
 					'drugy',
 					'drugggy',
 				],
+				'drugstore'=>[
+					'drugsore',
+					'drugtore',
+					'drustore',
+				],
+				'drugstores'=>[
+					'drugtores',
+					'drustores',
+				],
+				'druid'=>[
+					'driud',
+				],
+				'druidic'=>[
+					'driudic',
+				],
+				'druidical'=>[
+					'driudical',
+				],
+				'druidism'=>[
+					'driudism',
+				],
+				'druids'=>[
+					'driuds',
+				],
+				'drumbeat'=>[
+					'drubeat',
+					'drumbaet',
+					'drumeat',
+				],
 				'drumbeatings'=>[
 					'drumbetings',
+				],
+				'drumbeats'=>[
+					'drubeats',
+					'drumbaets',
+					'drumeats',
+				],
+				'drumfire'=>[
+					'drufire',
+					'drumire',
+				],
+				'drumfires'=>[
+					'drufires',
+					'drumires',
+				],
+				'drumfish'=>[
+					'drufish',
+					'drumish',
+				],
+				'drumhead'=>[
+					'druhead',
+					'drumead',
+					'drumhaed',
+				],
+				'drumheads'=>[
+					'druheads',
+					'drumeads',
+					'drumhaeds',
 				],
 				'drummed'=>[
 					'drumed',
@@ -11740,6 +20185,16 @@
 				],
 				'drums'=>[
 					'drumms',
+				],
+				'drumstick'=>[
+					'drumsick',
+					'drumtick',
+					'drustick',
+				],
+				'drumsticks'=>[
+					'drumsicks',
+					'drumticks',
+					'drusticks',
 				],
 				'drunkenly'=>[
 					'drunkenally',
@@ -11776,12 +20231,23 @@
 				'dryopithecines'=>[
 					'dryopithecinis',
 				],
+				'drypoint'=>[
+					'drpoint',
+					'dryoint',
+					'drypiont',
+				],
 				'drysaltery'=>[
 					'drysaltary',
+				],
+				'drystone'=>[
+					'drstone',
+					'drytone',
 				],
 				'drywall'=>[
 					'drywal',
 					'drywalll',
+					'drwall',
+					'dryall',
 				],
 				'duad'=>[
 					'daud',
@@ -11795,10 +20261,23 @@
 				'dualism'=>[
 					'daulism',
 				],
+				'dualist'=>[
+					'daulist',
+				],
+				'dualistic'=>[
+					'daulistic',
+				],
 				'dualistically'=>[
 					'daulistically',
 					'dualisticallly',
 					'dualisticaly',
+				],
+				'dualists'=>[
+					'daulists',
+				],
+				'dualities'=>[
+					'daulities',
+					'dualiteis',
 				],
 				'duality'=>[
 					'daulity',
@@ -11809,6 +20288,9 @@
 				],
 				'duals'=>[
 					'dauls',
+				],
+				'duarchy'=>[
+					'daurchy',
 				],
 				'dubbed'=>[
 					'dubed',
@@ -11833,22 +20315,43 @@
 					'dubings',
 					'dubbbings',
 				],
+				'dubiety'=>[
+					'dubeity',
+				],
 				'dubiosities'=>[
 					'dubiositeis',
 					'dubiositis',
 				],
+				'dubiosity'=>[
+					'duboisity',
+				],
 				'dubious'=>[
 					'dubous',
+					'dubiuos',
+					'duboius',
 				],
 				'dubiously'=>[
 					'dubously',
+					'dubiousely',
+					'dubiuosly',
+					'duboiusly',
 				],
 				'dubiousness'=>[
 					'dubiousnes',
 					'dubiousnesss',
+					'dubiuosness',
+					'duboiusness',
+					'dubousness',
 				],
 				'dubitable'=>[
 					'dubitible',
+				],
+				'dubitation'=>[
+					'dubitatoin',
+					'dubitaton',
+				],
+				'dubnium'=>[
+					'dubnuim',
 				],
 				'dubonnet'=>[
 					'dubonet',
@@ -11862,6 +20365,9 @@
 					'ducheses',
 					'duchessses',
 				],
+				'duchies'=>[
+					'ducheis',
+				],
 				'duck'=>[
 					'duck duck',
 					'duck duck duck',
@@ -11869,17 +20375,58 @@
 				'duckbill'=>[
 					'duckbil',
 					'duckbilll',
+					'ducbill',
+					'duckill',
 				],
 				'duckbills'=>[
 					'duckbillls',
 					'duckbils',
+					'ducbills',
+					'duckills',
+				],
+				'duckboard'=>[
+					'ducboard',
+					'duckbaord',
+					'duckoard',
+				],
+				'duckboards'=>[
+					'ducboards',
+					'duckbaords',
+					'duckoards',
+				],
+				'duckier'=>[
+					'duckeir',
+				],
+				'duckies'=>[
+					'duckeis',
+				],
+				'duckiest'=>[
+					'duckeist',
+				],
+				'duckpins'=>[
+					'duckins',
+					'ducpins',
+				],
+				'duckpond'=>[
+					'duckond',
+					'ducpond',
+				],
+				'ducktail'=>[
+					'duckail',
+					'ducktial',
+					'ductail',
 				],
 				'duckweed'=>[
 					'duckwed',
 					'duckweeed',
+					'duckeed',
+					'ducweed',
 				],
 				'ductilely'=>[
 					'ductilly',
+				],
+				'ductilibility'=>[
+					'ductilability',
 				],
 				'ductilities'=>[
 					'ductiliteis',
@@ -11897,33 +20444,76 @@
 					'dudeeens',
 					'dudens',
 				],
+				'dudgeon'=>[
+					'dudgoen',
+				],
+				'dueled'=>[
+					'deuled',
+				],
+				'dueler'=>[
+					'deuler',
+				],
+				'duelers'=>[
+					'deulers',
+				],
+				'dueling'=>[
+					'deuling',
+				],
+				'duelings'=>[
+					'deulings',
+				],
+				'duelist'=>[
+					'deulist',
+					'dueist',
+					'dulist',
+				],
+				'duelists'=>[
+					'deulists',
+					'dueists',
+					'dulists',
+				],
 				'duelled'=>[
 					'duellled',
+					'deulled',
 				],
 				'dueller'=>[
 					'duelller',
+					'deuller',
 				],
 				'duellers'=>[
 					'duelllers',
+					'deullers',
 				],
 				'duelling'=>[
 					'duellling',
+					'deulling',
 				],
 				'duellist'=>[
 					'duelllist',
+					'deullist',
 				],
 				'duellists'=>[
 					'duelllists',
+					'deullists',
 				],
 				'duello'=>[
 					'duelllo',
+					'deullo',
+				],
+				'duels'=>[
+					'deuls',
+				],
+				'duende'=>[
+					'deunde',
 				],
 				'duenna'=>[
 					'duena',
 					'duennna',
+					'deunna',
 				],
 				'duennas'=>[
 					'duennnas',
+					'deunnas',
 				],
 				'duennaships'=>[
 					'duenaships',
@@ -11965,17 +20555,50 @@
 					'digged',
 					'dugged',
 				],
+				'dugout'=>[
+					'duguot',
+				],
+				'dugouts'=>[
+					'duguots',
+					'duguts',
+					'duouts',
+				],
+				'duiker'=>[
+					'diuker',
+				],
 				'duke'=>[
 					'diike',
 				],
 				'dukedom'=>[
 					'dukeship',
 				],
+				'dulciana'=>[
+					'dulcaina',
+				],
+				'dulcianas'=>[
+					'dulcainas',
+				],
+				'dulcification'=>[
+					'dulcificatoin',
+					'dulcificaton',
+				],
+				'dulcified'=>[
+					'dulcifeid',
+				],
+				'dulcifies'=>[
+					'dulcifeis',
+				],
 				'dulcimore'=>[
 					'dulcimoure',
 				],
 				'dulcimores'=>[
 					'dulcimoures',
+				],
+				'dulcinea'=>[
+					'dulcinae',
+				],
+				'dulia'=>[
+					'dulai',
 				],
 				'dull'=>[
 					'dul',
@@ -12045,13 +20668,57 @@
 					'dumbbellls',
 					'dumbbels',
 				],
+				'dumbfound'=>[
+					'dumbfuond',
+					'dumbound',
+				],
+				'dumbfounded'=>[
+					'dumbfuonded',
+					'dumbounded',
+				],
+				'dumbfounding'=>[
+					'dumbfuonding',
+					'dumbounding',
+				],
+				'dumbfounds'=>[
+					'dumbfuonds',
+				],
+				'dumbhead'=>[
+					'dumbead',
+					'dumbhaed',
+					'dumhead',
+				],
 				'dumbness'=>[
 					'dumbnes',
 					'dumbnesss',
 				],
+				'dumbstruck'=>[
+					'dumbtruck',
+					'dumstruck',
+				],
+				'dumbwaiter'=>[
+					'dumbaiter',
+					'dumbwiater',
+					'dumwaiter',
+				],
+				'dumbwaiters'=>[
+					'dumbaiters',
+					'dumbwiaters',
+					'dumwaiters',
+				],
+				'dumfound'=>[
+					'dumfuond',
+				],
+				'dumfounding'=>[
+					'dumfuonding',
+				],
+				'dumfounds'=>[
+					'dumfuonds',
+				],
 				'dummies'=>[
 					'dumies',
 					'dummmies',
+					'dummeis',
 				],
 				'dummkopf'=>[
 					'dumnkopf',
@@ -12069,6 +20736,20 @@
 				'dumortierites'=>[
 					'dumourtierites',
 				],
+				'dumpcart'=>[
+					'dumcart',
+					'dumpart',
+				],
+				'dumpcarts'=>[
+					'dumcarts',
+					'dumparts',
+				],
+				'dumpier'=>[
+					'dumpeir',
+				],
+				'dumpiest'=>[
+					'dumpeist',
+				],
 				'dumpiness'=>[
 					'dumpines',
 					'dumpinesss',
@@ -12076,8 +20757,14 @@
 				'dumpster'=>[
 					'dumspter',
 				],
+				'dunderhead'=>[
+					'dunderhaed',
+				],
 				'dunderheaded'=>[
 					'dunderheded',
+				],
+				'dunderheads'=>[
+					'dunderhaeds',
 				],
 				'dundrearies'=>[
 					'dundreareis',
@@ -12094,11 +20781,23 @@
 				'dungarvan'=>[
 					'dungarven',
 				],
+				'dungeon'=>[
+					'dungoen',
+				],
+				'dungeons'=>[
+					'duneons',
+					'dungoens',
+					'dungons',
+				],
 				'dunghill'=>[
 					'dunghilll',
+					'dungill',
+					'dunhill',
 				],
 				'dunghills'=>[
 					'dunghillls',
+					'dungills',
+					'dunhills',
 				],
 				'dunk'=>[
 					'diink',
@@ -12140,33 +20839,51 @@
 					'dodecillion',
 					'duodecilion',
 					'duodecilllion',
+					'doudecillion',
+					'duodecilloin',
+					'duodecillon',
 				],
 				'duodecillions'=>[
 					'dodecillions',
 				],
 				'duodecimal'=>[
 					'dodecimal',
+					'doudecimal',
+					'dudecimal',
+					'duoecimal',
 				],
 				'duodecimals'=>[
 					'dodecimals',
 				],
 				'duodecimo'=>[
 					'dodecimo',
+					'doudecimo',
 				],
 				'duodecimos'=>[
 					'dodecimos',
 				],
 				'duodena'=>[
 					'dodena',
+					'doudena',
 				],
 				'duodenal'=>[
 					'dodenal',
+					'doudenal',
+				],
+				'duodenary'=>[
+					'doudenary',
+					'duodenery',
+				],
+				'duodenitis'=>[
+					'doudenitis',
 				],
 				'duodenum'=>[
 					'dodenum',
+					'doudenum',
 				],
 				'duodenums'=>[
 					'dodenums',
+					'doudenums',
 				],
 				'duolog'=>[
 					'dolog',
@@ -12176,21 +20893,28 @@
 				],
 				'duologue'=>[
 					'dologue',
+					'doulogue',
+					'duologeu',
 				],
 				'duologues'=>[
 					'dologues',
+					'doulogues',
+					'duologeus',
 				],
 				'duomi'=>[
 					'domi',
 				],
 				'duomo'=>[
 					'domo',
+					'doumo',
 				],
 				'duomos'=>[
 					'domos',
 				],
 				'duopolies'=>[
 					'dopolies',
+					'doupolies',
+					'duopoleis',
 				],
 				'duopolistic'=>[
 					'dopolistic',
@@ -12201,6 +20925,7 @@
 					'duopoaly',
 					'duopoely',
 					'duopolly',
+					'doupoly',
 				],
 				'duopsonies'=>[
 					'dopsonies',
@@ -12210,6 +20935,9 @@
 				],
 				'duotone'=>[
 					'dotone',
+					'doutone',
+					'duoone',
+					'dutone',
 				],
 				'duotones'=>[
 					'dotones',
@@ -12217,23 +20945,46 @@
 				'dupable'=>[
 					'dupible',
 				],
+				'duperies'=>[
+					'dupereis',
+				],
+				'dupion'=>[
+					'dupoin',
+					'dupon',
+				],
 				'duplexities'=>[
 					'duplexiteis',
 					'duplexitis',
+				],
+				'duplicability'=>[
+					'duplicibility',
 				],
 				'duplicate'=>[
 					'dublicate',
 				],
 				'duplication'=>[
 					'duplicaiton',
+					'duplicatoin',
+					'duplicaton',
+				],
+				'duplications'=>[
+					'duplicatoins',
+					'duplicatons',
 				],
 				'duplicities'=>[
 					'dupliciteis',
 					'duplicitis',
 				],
+				'duplicitous'=>[
+					'duplicituos',
+				],
 				'duplicitousness'=>[
 					'duplicitousnes',
 					'duplicitousnesss',
+					'duplicituosness',
+				],
+				'dupondius'=>[
+					'duponduis',
 				],
 				'dupped'=>[
 					'duppped',
@@ -12250,6 +21001,14 @@
 				],
 				'durance'=>[
 					'durence',
+				],
+				'duration'=>[
+					'duratoin',
+					'duraton',
+				],
+				'durations'=>[
+					'duratoins',
+					'duratons',
 				],
 				'durbar'=>[
 					'durber',
@@ -12292,13 +21051,50 @@
 				'durrie'=>[
 					'durie',
 					'durrrie',
+					'durrei',
 				],
 				'durrs'=>[
 					'durs',
 				],
+				'duskier'=>[
+					'duskeir',
+				],
+				'duskiest'=>[
+					'duskeist',
+				],
 				'duskiness'=>[
 					'duskines',
 					'duskinesss',
+				],
+				'dustbins'=>[
+					'dusbins',
+				],
+				'dustcart'=>[
+					'duscart',
+					'dustart',
+				],
+				'dustcarts'=>[
+					'duscarts',
+					'dustarts',
+				],
+				'dustcloth'=>[
+					'duscloth',
+					'dustloth',
+				],
+				'dustcover'=>[
+					'duscover',
+					'dustover',
+				],
+				'dustheap'=>[
+					'dusheap',
+					'dusteap',
+					'dusthaep',
+				],
+				'dustier'=>[
+					'dusteir',
+				],
+				'dustiest'=>[
+					'dusteist',
 				],
 				'dustiness'=>[
 					'dustines',
@@ -12308,27 +21104,48 @@
 					'dustles',
 					'dustlesss',
 				],
+				'dustpans'=>[
+					'duspans',
+					'dustans',
+				],
 				'dustproof'=>[
 					'dustprof',
 					'dustprooof',
+					'dusproof',
+					'dustroof',
 				],
 				'dustsheet'=>[
 					'dustsheeet',
 					'dustshet',
+					'dussheet',
+					'dustheet',
 				],
 				'dustsheets'=>[
 					'dustsheeets',
 					'dustshets',
+					'dussheets',
+					'dustheets',
 				],
 				'dutch-occupied'=>[
 					'dutch occupied',
 				],
+				'duteous'=>[
+					'duteuos',
+					'dutoeus',
+				],
+				'duteously'=>[
+					'duteousely',
+					'duteuosly',
+					'dutoeusly',
+				],
 				'dutiable'=>[
 					'dutiible',
+					'dutaible',
 				],
 				'duties'=>[
 					'dnties',
 					'dutics',
+					'duteis',
 				],
 				'dutifully'=>[
 					'dutifullly',
@@ -12416,6 +21233,9 @@
 				'dyadic'=>[
 					'diadic',
 				],
+				'dyarchies'=>[
+					'dyarcheis',
+				],
 				'dybbuk'=>[
 					'dybuk',
 					'dybbbuk',
@@ -12440,21 +21260,33 @@
 				'dyeings'=>[
 					'dyiengs',
 				],
+				'dyeline'=>[
+					'dyeine',
+					'dyline',
+				],
 				'dyestuff'=>[
 					'dyestuf',
 					'dyestufff',
+					'dyetuff',
+					'dystuff',
 				],
 				'dyestuffs'=>[
 					'dyestufffs',
 					'dyestufs',
+					'dyetuffs',
+					'dystuffs',
 				],
 				'dyewood'=>[
 					'dyewod',
 					'dyewoood',
+					'dyeood',
+					'dywood',
 				],
 				'dyewoods'=>[
 					'dyewods',
 					'dyewooods',
+					'dyeoods',
+					'dywoods',
 				],
 				'dying'=>[
 					'dieing',
@@ -12464,9 +21296,15 @@
 					'dynamicallly',
 					'dynamicaly',
 				],
+				'dynamoelectric'=>[
+					'dynameolectric',
+				],
 				'dynastically'=>[
 					'dynasticallly',
 					'dynasticaly',
+				],
+				'dynasties'=>[
+					'dynasteis',
 				],
 				'dynasty'=>[
 					'dinasty',
@@ -12480,11 +21318,19 @@
 				'dynorphin'=>[
 					'dynourphin',
 				],
+				'dysarthria'=>[
+					'dysarthrai',
+				],
 				'dysautonomia'=>[
 					'disautonomia',
 				],
 				'dysbiosis'=>[
 					'sysbiosis',
+				],
+				'dyscrasia'=>[
+					'dycrasia',
+					'dyscrasai',
+					'dysrasia',
 				],
 				'dysembryoplastic'=>[
 					'disembryoplastic',
@@ -12505,16 +21351,29 @@
 				],
 				'dysfunction'=>[
 					'disfunction',
+					'dysfunctoin',
+					'dysfuncton',
 				],
 				'dysfunctional'=>[
 					'disfunctional',
+					'dysfunctoinal',
+					'dysfunctonal',
 				],
 				'dysfunctionally'=>[
 					'dysfunctionallly',
 					'dysfunctionaly',
+					'dysfunctoinally',
+					'dysfunctonally',
+				],
+				'dysfunctions'=>[
+					'dysfunctoins',
+					'dysfunctons',
 				],
 				'dysgenic'=>[
 					'disgenic',
+				],
+				'dysgraphia'=>[
+					'dysgraphai',
 				],
 				'dyshidrosis'=>[
 					'dishydrosis',
@@ -12528,8 +21387,17 @@
 				'dyskinesia'=>[
 					'dyskinisia',
 				],
+				'dyslalia'=>[
+					'dyslalai',
+				],
+				'dyslexia'=>[
+					'dyslexai',
+				],
 				'dyslipidemia'=>[
 					'dyslipedemia',
+				],
+				'dyslogia'=>[
+					'dyslogai',
 				],
 				'dysmenorrhea'=>[
 					'dysmenorhea',
@@ -12550,11 +21418,50 @@
 				'dysmorphology'=>[
 					'dismorphology',
 				],
+				'dyspepsia'=>[
+					'dyspepsai',
+				],
 				'dyspepsy'=>[
 					'dyspepcy',
 				],
 				'dyspeptic'=>[
 					'dispeptic',
+				],
+				'dysphagia'=>[
+					'dysphagai',
+				],
+				'dysphasia'=>[
+					'dysphasai',
+				],
+				'dysphasias'=>[
+					'dysphasais',
+				],
+				'dysphemia'=>[
+					'dysphemai',
+				],
+				'dysphonia'=>[
+					'dysphonai',
+				],
+				'dysphoria'=>[
+					'dysphorai',
+				],
+				'dysphorias'=>[
+					'dysphorais',
+				],
+				'dysplasia'=>[
+					'dysplasai',
+				],
+				'dysplasias'=>[
+					'dysplasais',
+				],
+				'dyspnea'=>[
+					'dyspnae',
+				],
+				'dyspneas'=>[
+					'dyspnaes',
+				],
+				'dysprosium'=>[
+					'dysprosuim',
 				],
 				'dysregulate'=>[
 					'disregulate',
@@ -12574,14 +21481,23 @@
 				'dyssynchronous'=>[
 					'dysynchronous',
 				],
+				'dysteleology'=>[
+					'dysteloelogy',
+				],
 				'dysthymia'=>[
 					'dysthemia',
+					'dysthymai',
 				],
 				'dystopia'=>[
 					'distopia',
+					'dystopai',
 				],
 				'dystopian'=>[
 					'dystopan',
+					'dystopain',
+				],
+				'dystopias'=>[
+					'dystopais',
 				],
 				'dystroferric'=>[
 					'distroferric',
@@ -12602,13 +21518,18 @@
 				'dystrophy'=>[
 					'distrophy',
 				],
+				'dysuria'=>[
+					'dysurai',
+				],
 				'dziggetai'=>[
 					'dzigetai',
 					'dzigggetai',
+					'dziggetia',
 				],
 				'dziggetais'=>[
 					'dzigetais',
 					'dzigggetais',
+					'dziggetias',
 				],
 				'décolleter'=>[
 					'decolleter',

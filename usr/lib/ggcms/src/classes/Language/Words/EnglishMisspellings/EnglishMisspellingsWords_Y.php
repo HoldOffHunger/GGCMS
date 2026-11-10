@@ -64,6 +64,7 @@
 				],
 				'yahrzeit'=>[
 					'yarzeit',
+					'yahrziet',
 				],
 				'yahrzeits'=>[
 					'yarzeits',
@@ -85,6 +86,7 @@
 				'yammered'=>[
 					'yamered',
 					'yammmered',
+					'yammerd',
 				],
 				'yammerer'=>[
 					'yamerer',
@@ -108,6 +110,9 @@
 				'yankees'=>[
 					'yankeees',
 				],
+				'yanqui'=>[
+					'yanqiu',
+				],
 				'yantra'=>[
 					'yentra',
 				],
@@ -130,9 +135,31 @@
 					'yard yard',
 					'yard yard yard',
 				],
+				'yardarms'=>[
+					'yararms',
+					'yardrms',
+				],
+				'yardmaster'=>[
+					'yardaster',
+					'yarmaster',
+				],
+				'yardmasters'=>[
+					'yardasters',
+					'yarmasters',
+				],
 				'yards'=>[
 					'yarsd',
 					'vards',
+				],
+				'yardstick'=>[
+					'yardsick',
+					'yardtick',
+					'yarstick',
+				],
+				'yardsticks'=>[
+					'yardsicks',
+					'yardticks',
+					'yarsticks',
 				],
 				'yarely'=>[
 					'yarly',
@@ -140,6 +167,20 @@
 				'yarrow'=>[
 					'yarow',
 					'yarrrow',
+				],
+				'yaupon'=>[
+					'yuapon',
+				],
+				'yautia'=>[
+					'yautai',
+					'yuatia',
+				],
+				'yautias'=>[
+					'yautais',
+					'yuatias',
+				],
+				'yawned'=>[
+					'yawnd',
 				],
 				'yazoo'=>[
 					'yazooo',
@@ -157,9 +198,23 @@
 				],
 				'yeahs'=>[
 					'yeas',
+					'yaehs',
 				],
 				'yean'=>[
 					'yen',
+				],
+				'yeaned'=>[
+					'yaened',
+					'yeand',
+				],
+				'yeaning'=>[
+					'yaening',
+				],
+				'yeanling'=>[
+					'yaenling',
+				],
+				'yeans'=>[
+					'yaens',
 				],
 				'year'=>[
 					'eyar',
@@ -174,13 +229,33 @@
 					'yerbook',
 					'yearbok',
 					'yearboook',
+					'yaerbook',
+					'yeabook',
+					'yearook',
 				],
 				'yearbooks'=>[
 					'yearboks',
 					'yearboooks',
+					'yaerbooks',
+					'yeabooks',
+					'yearooks',
+				],
+				'yearlies'=>[
+					'yaerlies',
+					'yealies',
+					'yearleis',
+				],
+				'yearling'=>[
+					'yaerling',
+				],
+				'yearlings'=>[
+					'yaerlings',
 				],
 				'yearlong'=>[
 					'yerlong',
+					'yaerlong',
+					'yealong',
+					'yearong',
 				],
 				'yearly'=>[
 					'yearally',
@@ -188,13 +263,30 @@
 					'yearely',
 					'yearlly',
 					'yerly',
+					'yaerly',
+					'yearily',
 				],
 				'yearn'=>[
 					'yern',
+					'yaern',
+				],
+				'yearned'=>[
+					'yaerned',
+					'yearnd',
 				],
 				'yearning'=>[
 					'yerning',
 					'yeaming',
+					'yaerning',
+				],
+				'yearningly'=>[
+					'yaerningly',
+				],
+				'yearnings'=>[
+					'yaernings',
+				],
+				'yearns'=>[
+					'yaerns',
 				],
 				'years'=>[
 					'eyars',
@@ -206,12 +298,31 @@
 					'yersa',
 					'vears',
 					'ycars',
+					'yaers',
 				],
 				'yeas'=>[
 					'yes',
 				],
 				'yeast'=>[
 					'yest',
+					'yaest',
+				],
+				'yeastier'=>[
+					'yaestier',
+					'yeasteir',
+				],
+				'yeastiest'=>[
+					'yaestiest',
+					'yeasteist',
+				],
+				'yeasts'=>[
+					'yaests',
+				],
+				'yeasty'=>[
+					'yaesty',
+				],
+				'yeats'=>[
+					'yaets',
 				],
 				'yecch'=>[
 					'yech',
@@ -254,14 +365,19 @@
 				'yellowbird'=>[
 					'yelllowbird',
 					'yelowbird',
+					'yellobird',
+					'yellowird',
 				],
 				'yellowbirds'=>[
 					'yelllowbirds',
 					'yelowbirds',
+					'yellobirds',
+					'yellowirds',
 				],
 				'yellowed'=>[
 					'yelllowed',
 					'yelowed',
+					'yellwed',
 				],
 				'yellower'=>[
 					'yelllower',
@@ -277,16 +393,19 @@
 					'yelllowhammer',
 					'yellowhamer',
 					'yellowhammmer',
+					'yellohammer',
 				],
 				'yellowhammers'=>[
 					'yelllowhammers',
 					'yellowhamers',
 					'yellowhammmers',
 					'yelowhammers',
+					'yellohammers',
 				],
 				'yellowing'=>[
 					'yelllowing',
 					'yelowing',
+					'yellwing',
 				],
 				'yellowish'=>[
 					'yelowish',
@@ -295,6 +414,8 @@
 				'yellowlegs'=>[
 					'yelllowlegs',
 					'yelowlegs',
+					'yellolegs',
+					'yellowegs',
 				],
 				'yellowly'=>[
 					'yellowally',
@@ -315,18 +436,30 @@
 				'yellowtail'=>[
 					'yelowtail',
 					'yelllowtail',
+					'yellotail',
+					'yellowail',
+					'yellowtial',
 				],
 				'yellowtails'=>[
 					'yelllowtails',
 					'yelowtails',
+					'yellotails',
+					'yellowails',
+					'yellowtials',
 				],
 				'yellowthroat'=>[
 					'yelowthroat',
 					'yelllowthroat',
+					'yellothroat',
+					'yellowhroat',
+					'yellowthraot',
 				],
 				'yellowthroats'=>[
 					'yelllowthroats',
 					'yelowthroats',
+					'yellothroats',
+					'yellowhroats',
+					'yellowthraots',
 				],
 				'yellowweed'=>[
 					'yelllowweed',
@@ -370,6 +503,19 @@
 				'yente'=>[
 					'yante',
 				],
+				'yeoman'=>[
+					'yoeman',
+				],
+				'yeomanly'=>[
+					'yeomanely',
+					'yoemanly',
+				],
+				'yeomanry'=>[
+					'yoemanry',
+				],
+				'yeomen'=>[
+					'yoemen',
+				],
 				'yes'=>[
 					'ues',
 					'yes yes',
@@ -390,6 +536,7 @@
 				'yesteryear'=>[
 					'yesteryeer',
 					'yesteryer',
+					'yesteryaer',
 				],
 				'yestreen'=>[
 					'yestreeen',
@@ -403,9 +550,18 @@
 					'yeild',
 					'yild',
 				],
+				'yielded'=>[
+					'yeilded',
+				],
 				'yielding'=>[
 					'yeilding',
 					'yilding',
+				],
+				'yieldings'=>[
+					'yeildings',
+				],
+				'yields'=>[
+					'yeilds',
 				],
 				'yill'=>[
 					'yil',
@@ -422,6 +578,7 @@
 				'yippie'=>[
 					'yipie',
 					'yipppie',
+					'yippei',
 				],
 				'yipping'=>[
 					'yippping',
@@ -451,12 +608,23 @@
 				'yodelling'=>[
 					'yodellling',
 				],
+				'yoghourt'=>[
+					'yoghuort',
+				],
+				'yoghourts'=>[
+					'yoghuorts',
+				],
 				'yogini'=>[
 					'yogina',
+				],
+				'yoicks'=>[
+					'yiocks',
 				],
 				'yokefellow'=>[
 					'yokefelllow',
 					'yokefelow',
+					'yokeellow',
+					'yokfellow',
 				],
 				'yorkshire'=>[
 					'yorkhire',
@@ -480,6 +648,7 @@
 					'yonng',
 					'youiig',
 					'youug',
+					'yuong',
 				],
 				'youngberry'=>[
 					'youngbery',
@@ -492,6 +661,25 @@
 				'youngest'=>[
 					'yonngest',
 					'youngeft',
+					'yuongest',
+				],
+				'youngish'=>[
+					'yuongish',
+				],
+				'youngling'=>[
+					'yuongling',
+				],
+				'youngster'=>[
+					'yuongster',
+				],
+				'youngsters'=>[
+					'yuongsters',
+				],
+				'younker'=>[
+					'yuonker',
+				],
+				'younkers'=>[
+					'yuonkers',
 				],
 				'your'=>[
 					'your your',
@@ -502,6 +690,7 @@
 				'yours'=>[
 					'vours',
 					'yonrs',
+					'yuors',
 				],
 				'yourself'=>[
 					'yourslef',
@@ -510,29 +699,52 @@
 					'yoiirself',
 					'yonrsclf',
 					'yonrself',
+					'yourelf',
+					'yuorself',
+				],
+				'yourselves'=>[
+					'yourelves',
+					'yourslves',
+					'youselves',
+					'yuorselves',
 				],
 				'youth'=>[
 					'yonth',
 					'youtb',
 					'youtli',
+					'yuoth',
+				],
+				'youthen'=>[
+					'yothen',
+					'youhen',
+					'yuothen',
 				],
 				'youthened'=>[
 					'youthend',
 				],
+				'youthful'=>[
+					'yuothful',
+				],
 				'youthfully'=>[
 					'youthfullly',
 					'youthfuly',
+					'youtfully',
+					'youthully',
+					'yuothfully',
 				],
 				'youthfulness'=>[
 					'youthfulnes',
 					'youthfulnesss',
+					'yuothfulness',
 				],
 				'youths'=>[
 					'youtlis',
+					'yuoths',
 				],
 				'ytterbia'=>[
 					'yterbia',
 					'yttterbia',
+					'ytterbai',
 				],
 				'ytterbite'=>[
 					'yterbite',
@@ -541,18 +753,22 @@
 				'ytterbium'=>[
 					'yterbium',
 					'yttterbium',
+					'ytterbuim',
 				],
 				'yttria'=>[
 					'ytria',
 					'ytttria',
+					'yttrai',
 				],
 				'yttriferous'=>[
 					'ytriferous',
 					'ytttriferous',
+					'yttriferuos',
 				],
 				'yttrium'=>[
 					'ytrium',
 					'ytttrium',
+					'yttruim',
 				],
 				'yuan'=>[
 					'yaun',
@@ -571,6 +787,12 @@
 				'yucch'=>[
 					'yuch',
 				],
+				'yuckier'=>[
+					'yuckeir',
+				],
+				'yuckiest'=>[
+					'yuckeist',
+				],
 				'yugoslavia'=>[
 					'jugoslavia',
 				],
@@ -585,9 +807,11 @@
 				],
 				'yummier'=>[
 					'yummmier',
+					'yummeir',
 				],
 				'yummiest'=>[
 					'yummmiest',
+					'yummeist',
 				],
 				'yummy'=>[
 					'yumny',
@@ -602,22 +826,28 @@
 				'yuppiedom'=>[
 					'yupiedom',
 					'yupppiedom',
+					'yuppeidom',
 				],
 				'yuppies'=>[
 					'yupies',
 					'yupppies',
+					'yuppeis',
 				],
 				'yuppification'=>[
 					'yupification',
 					'yupppification',
+					'yuppificatoin',
+					'yuppificaton',
 				],
 				'yuppified'=>[
 					'yupified',
 					'yupppified',
+					'yuppifeid',
 				],
 				'yuppifies'=>[
 					'yupifies',
 					'yupppifies',
+					'yuppifeis',
 				],
 				'yuppify'=>[
 					'yupify',

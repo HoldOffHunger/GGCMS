@@ -57,12 +57,29 @@
 				'qintar'=>[
 					'qinter',
 				],
+				'qiviut'=>[
+					'qivuit',
+				],
 				'quaalude'=>[
 					'quaaalude',
 					'qualude',
+					'qaualude',
 				],
 				'quack'=>[
 					'qauck',
+				],
+				'quacked'=>[
+					'qaucked',
+				],
+				'quackery'=>[
+					'qauckery',
+					'quackary',
+				],
+				'quacking'=>[
+					'qaucking',
+				],
+				'quackish'=>[
+					'qauckish',
 				],
 				'quacks'=>[
 					'qaucks',
@@ -85,8 +102,14 @@
 				'quadragenarian'=>[
 					'quadragenerian',
 				],
+				'quadragesimal'=>[
+					'qaudragesimal',
+				],
 				'quadrangle'=>[
 					'qaudrangle',
+				],
+				'quadrangles'=>[
+					'qaudrangles',
 				],
 				'quadrangular'=>[
 					'qaudrangular',
@@ -95,9 +118,16 @@
 				'quadrant'=>[
 					'qaudrant',
 					'quadrent',
+					'quadant',
+					'quarant',
 				],
 				'quadrantal'=>[
 					'quadrantial',
+					'qaudrantal',
+				],
+				'quadrants'=>[
+					'qaudrants',
+					'quadrents',
 				],
 				'quadraphonic'=>[
 					'qaudraphonic',
@@ -110,6 +140,13 @@
 				],
 				'quadrate'=>[
 					'qaudrate',
+					'quadate',
+					'quarate',
+				],
+				'quadrates'=>[
+					'qaudrates',
+					'quadates',
+					'quarates',
 				],
 				'quadratic'=>[
 					'qaudratic',
@@ -128,20 +165,27 @@
 				'quadrature'=>[
 					'qaudrature',
 				],
+				'quadratures'=>[
+					'qaudratures',
+				],
 				'quadrennia'=>[
 					'quadrenia',
 					'quadrennnia',
+					'qaudrennia',
+					'quadrennai',
 				],
 				'quadrennial'=>[
 					'qaudrennial',
 					'quadrenial',
 					'quadrennnial',
+					'quadrennail',
 				],
 				'quadrennially'=>[
 					'qaudrennially',
 					'quadrenially',
 					'quadrenniallly',
 					'quadrennnially',
+					'quadrennailly',
 				],
 				'quadrennials'=>[
 					'qaudrennials',
@@ -150,11 +194,13 @@
 					'qaudrennium',
 					'quadrenium',
 					'quadrennnium',
+					'quadrennuim',
 				],
 				'quadrenniums'=>[
 					'qaudrenniums',
 					'quadreniums',
 					'quadrennniums',
+					'quadrennuims',
 				],
 				'quadric'=>[
 					'qaudric',
@@ -162,12 +208,23 @@
 				'quadricentennial'=>[
 					'quadricentenial',
 					'quadricentennnial',
+					'qaudricentennial',
+					'quadricentennail',
 				],
 				'quadriceps'=>[
 					'qaudriceps',
 				],
 				'quadricepses'=>[
 					'qaudricepses',
+				],
+				'quadrics'=>[
+					'qaudrics',
+				],
+				'quadricycle'=>[
+					'qaudricycle',
+				],
+				'quadrifid'=>[
+					'qaudrifid',
 				],
 				'quadriga'=>[
 					'qaudriga',
@@ -189,29 +246,40 @@
 				'quadrilles'=>[
 					'quadriles',
 					'quadrillles',
+					'qaudrilles',
 				],
 				'quadrillion'=>[
 					'qaudrillion',
 					'quadrilion',
 					'quadrilllion',
+					'quadrilloin',
+					'quadrillon',
 				],
 				'quadrillions'=>[
 					'qaudrillions',
 					'quadrilions',
 					'quadrilllions',
+					'quadrilloins',
+					'quadrillons',
 				],
 				'quadrillionth'=>[
 					'qaudrillionth',
 					'quadrilionth',
 					'quadrilllionth',
+					'quadrillointh',
 				],
 				'quadrillionths'=>[
 					'qaudrillionths',
 					'quadrilionths',
 					'quadrilllionths',
+					'quadrilloinths',
 				],
 				'quadrimodal'=>[
 					'quadramodal',
+				],
+				'quadrinomial'=>[
+					'qaudrinomial',
+					'quadrinomail',
 				],
 				'quadriparesis'=>[
 					'quadraparesis',
@@ -228,6 +296,7 @@
 				],
 				'quadriplegia'=>[
 					'qaudriplegia',
+					'quadriplegai',
 				],
 				'quadriplegias'=>[
 					'qaudriplegias',
@@ -238,6 +307,12 @@
 				'quadriplegics'=>[
 					'qaudriplegics',
 				],
+				'quadrireme'=>[
+					'qaudrireme',
+				],
+				'quadrisect'=>[
+					'qaudrisect',
+				],
 				'quadrivalent'=>[
 					'qaudrivalent',
 					'quadrivalant',
@@ -245,8 +320,17 @@
 				'quadrivalents'=>[
 					'qaudrivalents',
 				],
+				'quadrivia'=>[
+					'qaudrivia',
+					'quadrivai',
+				],
+				'quadrivial'=>[
+					'qaudrivial',
+					'quadrivail',
+				],
 				'quadrivium'=>[
 					'qaudrivium',
+					'quadrivuim',
 				],
 				'quadroon'=>[
 					'qaudroon',
@@ -255,6 +339,7 @@
 				],
 				'quadrumanous'=>[
 					'qaudrumanous',
+					'quadrumanuos',
 				],
 				'quadrumvirate'=>[
 					'qaudrumvirate',
@@ -271,19 +356,33 @@
 					'quadrapedal',
 					'quadripedal',
 					'quadropedal',
+					'qaudrupedal',
 				],
 				'quadrupedalism'=>[
 					'quadrapedalism',
 					'quadripedalism',
 				],
+				'quadrupeds'=>[
+					'qaudrupeds',
+				],
 				'quadruple'=>[
 					'qaudruple',
+				],
+				'quadrupled'=>[
+					'qaudrupled',
+				],
+				'quadruples'=>[
+					'qaudruples',
 				],
 				'quadruplet'=>[
 					'qaudruplet',
 				],
+				'quadruplets'=>[
+					'qaudruplets',
+				],
 				'quadruplex'=>[
 					'quadraplex',
+					'qaudruplex',
 				],
 				'quadruplicate'=>[
 					'qaudruplicate',
@@ -299,12 +398,20 @@
 				],
 				'quadruplication'=>[
 					'qaudruplication',
+					'quadruplicatoin',
+					'quadruplicaton',
 				],
 				'quadruplicities'=>[
 					'qaudruplicities',
 				],
 				'quadruplicity'=>[
 					'qaudruplicity',
+				],
+				'quadrupling'=>[
+					'qaudrupling',
+				],
+				'quadruply'=>[
+					'qaudruply',
 				],
 				'quadrupole'=>[
 					'qaudrupole',
@@ -331,10 +438,12 @@
 				'quaffer'=>[
 					'quafer',
 					'quafffer',
+					'qauffer',
 				],
 				'quaffing'=>[
 					'quafffing',
 					'quafing',
+					'qauffing',
 				],
 				'quaffs'=>[
 					'qauffs',
@@ -352,14 +461,19 @@
 				'quaggas'=>[
 					'quagas',
 					'quagggas',
+					'qauggas',
 				],
 				'quaggier'=>[
 					'quagier',
 					'quagggier',
+					'qauggier',
+					'quaggeir',
 				],
 				'quaggiest'=>[
 					'quagggiest',
 					'quagiest',
+					'qauggiest',
+					'quaggeist',
 				],
 				'quaggy'=>[
 					'qauggy',
@@ -369,14 +483,21 @@
 				'quagmire'=>[
 					'qaugmire',
 				],
+				'quagmires'=>[
+					'qaugmires',
+				],
 				'quags'=>[
 					'qaugs',
 				],
 				'quahaug'=>[
 					'quaaug',
+					'qauhaug',
+					'quahuag',
 				],
 				'quahaugs'=>[
 					'quaaugs',
+					'qauhaugs',
+					'quahuags',
 				],
 				'quahog'=>[
 					'qauhog',
@@ -384,6 +505,7 @@
 				],
 				'quahogs'=>[
 					'quaogs',
+					'qauhogs',
 				],
 				'quai'=>[
 					'qaui',
@@ -396,23 +518,46 @@
 				],
 				'quail'=>[
 					'qauil',
+					'quial',
+				],
+				'quailed'=>[
+					'qauiled',
+					'quialed',
+				],
+				'quailing'=>[
+					'qauiling',
+					'quialing',
 				],
 				'quails'=>[
 					'qauils',
+					'quials',
 				],
 				'quaint'=>[
 					'qauint',
 					'qnaint',
+					'quiant',
+				],
+				'quainter'=>[
+					'qauinter',
+					'quianter',
+				],
+				'quaintest'=>[
+					'qauintest',
+					'quiantest',
 				],
 				'quaintly'=>[
 					'quaintally',
 					'quaintaly',
 					'quaintely',
 					'quaintlly',
+					'qauintly',
+					'quiantly',
 				],
 				'quaintness'=>[
 					'quaintnes',
 					'quaintnesss',
+					'qauintness',
+					'quiantness',
 				],
 				'quaintnesses'=>[
 					'qauintnesses',
@@ -429,8 +574,22 @@
 				'quaker'=>[
 					'qauker',
 				],
+				'quakers'=>[
+					'qaukers',
+				],
 				'quakes'=>[
 					'qaukes',
+				],
+				'quakier'=>[
+					'qaukier',
+					'quakeir',
+				],
+				'quakiest'=>[
+					'qaukiest',
+					'quakeist',
+				],
+				'quaking'=>[
+					'qauking',
 				],
 				'quaky'=>[
 					'qauky',
@@ -440,13 +599,18 @@
 				],
 				'qualia'=>[
 					'qaulia',
+					'qualai',
 				],
 				'qualification'=>[
 					'qaulification',
 					'qualifaction',
+					'qualificatoin',
+					'qualificaton',
 				],
 				'qualifications'=>[
 					'qaulifications',
+					'qualificatoins',
+					'qualificatons',
 				],
 				'qualified'=>[
 					'qaulified',
@@ -462,6 +626,12 @@
 				],
 				'qualifiers'=>[
 					'qualifers',
+					'qaulifiers',
+					'qualifeirs',
+				],
+				'qualifies'=>[
+					'qaulifies',
+					'qualifeis',
 				],
 				'qualify'=>[
 					'qaulify',
@@ -470,6 +640,7 @@
 					'qualifiing',
 					'qualifiying',
 					'qualifyng',
+					'qaulifying',
 				],
 				'qualitative'=>[
 					'qaulitative',
@@ -481,6 +652,8 @@
 				'qualities'=>[
 					'qualites',
 					'qnalities',
+					'qaulities',
+					'qualiteis',
 				],
 				'quality'=>[
 					'qaulity',
@@ -489,6 +662,9 @@
 				],
 				'qualm'=>[
 					'qaulm',
+				],
+				'qualmish'=>[
+					'qaulmish',
 				],
 				'qualmishness'=>[
 					'qaulmishness',
@@ -505,6 +681,14 @@
 				'quamash'=>[
 					'qaumash',
 				],
+				'quamashes'=>[
+					'qaumashes',
+				],
+				'quandaries'=>[
+					'qaundaries',
+					'quandareis',
+					'quanderies',
+				],
 				'quandary'=>[
 					'qaundary',
 					'quandery',
@@ -516,6 +700,9 @@
 				],
 				'quango'=>[
 					'qaungo',
+				],
+				'quangos'=>[
+					'qaungos',
 				],
 				'quant'=>[
 					'qaunt',
@@ -535,12 +722,19 @@
 				],
 				'quantifiable'=>[
 					'qauntifiable',
+					'quantifaible',
 				],
 				'quantification'=>[
 					'qauntification',
+					'quantificatoin',
+					'quantificaton',
 				],
 				'quantifications'=>[
 					'qauntifications',
+				],
+				'quantified'=>[
+					'qauntified',
+					'quantifeid',
 				],
 				'quantifier'=>[
 					'qauntifier',
@@ -548,9 +742,20 @@
 					'quantifir',
 					'quentifier',
 				],
+				'quantifiers'=>[
+					'qauntifiers',
+					'quantifeirs',
+				],
+				'quantifies'=>[
+					'qauntifies',
+					'quantifeis',
+				],
 				'quantify'=>[
 					'qauntify',
 					'quentify',
+				],
+				'quantifying'=>[
+					'qauntifying',
 				],
 				'quantile'=>[
 					'qauntile',
@@ -582,6 +787,8 @@
 					'quanities',
 					'quanitities',
 					'quantites',
+					'qauntities',
+					'quantiteis',
 				],
 				'quantity'=>[
 					'qauntity',
@@ -593,12 +800,17 @@
 				],
 				'quantization'=>[
 					'qauntization',
+					'quantizatoin',
+					'quantizaton',
 				],
 				'quantizations'=>[
 					'qauntizations',
 				],
 				'quantize'=>[
 					'qauntize',
+				],
+				'quantized'=>[
+					'qauntized',
 				],
 				'quants'=>[
 					'qaunts',
@@ -608,11 +820,23 @@
 					'qauntum',
 					'quentum',
 				],
+				'quaquaversal'=>[
+					'qauquaversal',
+					'quaqauversal',
+				],
+				'quarantinable'=>[
+					'qaurantinable',
+					'quarantinible',
+				],
 				'quarantine'=>[
 					'qaurantine',
 					'quarantaine',
 					'quarantini',
 					'quarentine',
+				],
+				'quarantined'=>[
+					'qaurantined',
+					'quarantind',
 				],
 				'quarantining'=>[
 					'qaurantining',
@@ -637,26 +861,32 @@
 				'quarreled'=>[
 					'quareled',
 					'quarrreled',
+					'qaurreled',
 				],
 				'quarreler'=>[
 					'quareler',
 					'quarrreler',
+					'qaurreler',
 				],
 				'quarrelers'=>[
 					'quarelers',
 					'quarrrelers',
+					'qaurrelers',
 				],
 				'quarreling'=>[
 					'quareling',
 					'quarrreling',
+					'qaurreling',
 				],
 				'quarrelled'=>[
 					'quarrellled',
 					'quarrrelled',
+					'qaurrelled',
 				],
 				'quarreller'=>[
 					'quarrelller',
 					'quarrreller',
+					'qaurreller',
 				],
 				'quarrellers'=>[
 					'qaurrellers',
@@ -672,6 +902,7 @@
 				'quarrels'=>[
 					'quarels',
 					'quarrrels',
+					'qaurrels',
 				],
 				'quarrelsome'=>[
 					'qaurrelsome',
@@ -691,18 +922,26 @@
 				'quarried'=>[
 					'quaried',
 					'quarrried',
+					'qaurried',
+					'quarreid',
 				],
 				'quarrier'=>[
 					'quarier',
 					'quarrrier',
+					'qaurrier',
+					'quarreir',
 				],
 				'quarriers'=>[
 					'quariers',
 					'quarrriers',
+					'qaurriers',
+					'quarreirs',
 				],
 				'quarries'=>[
 					'quaries',
 					'quarrries',
+					'qaurries',
+					'quarreis',
 				],
 				'quarry'=>[
 					'qaurry',
@@ -712,10 +951,12 @@
 				'quarrying'=>[
 					'quarrrying',
 					'quarying',
+					'qaurrying',
 				],
 				'quarryings'=>[
 					'quarrryings',
 					'quaryings',
+					'qaurryings',
 				],
 				'quarryman'=>[
 					'qaurryman',
@@ -723,6 +964,7 @@
 				'quarrymen'=>[
 					'quarrrymen',
 					'quarymen',
+					'qaurrymen',
 				],
 				'quart'=>[
 					'qaurt',
@@ -752,16 +994,43 @@
 				'quarterback'=>[
 					'qaurterback',
 					'quaterback',
+					'quarteback',
+					'quarterack',
+				],
+				'quarterbacked'=>[
+					'qaurterbacked',
+					'quartebacked',
+					'quarteracked',
 				],
 				'quarterbacking'=>[
 					'qaurterbacking',
+					'quartebacking',
+					'quarteracking',
+				],
+				'quarterbacks'=>[
+					'qaurterbacks',
+					'quartebacks',
+					'quarteracks',
 				],
 				'quarterdeck'=>[
 					'qaurterdeck',
+					'quartedeck',
+					'quartereck',
+				],
+				'quarterdecks'=>[
+					'qaurterdecks',
+					'quartedecks',
+					'quarterecks',
+				],
+				'quartered'=>[
+					'qaurtered',
+					'quarterd',
 				],
 				'quarterfinal'=>[
 					'qaurterfinal',
 					'quarterfinil',
+					'quartefinal',
+					'quarterinal',
 				],
 				'quarterfinalist'=>[
 					'qaurterfinalist',
@@ -770,12 +1039,21 @@
 				'quarterfinals'=>[
 					'quarterfinils',
 					'quaterfinals',
+					'qaurterfinals',
+					'quartefinals',
+					'quarterinals',
+				],
+				'quartering'=>[
+					'qaurtering',
 				],
 				'quarterings'=>[
 					'qaurterings',
 				],
 				'quarterlies'=>[
 					'qaurterlies',
+					'quartelies',
+					'quarteries',
+					'quarterleis',
 				],
 				'quarterly'=>[
 					'qaurterly',
@@ -788,17 +1066,28 @@
 				'quartermaster'=>[
 					'qaurtermaster',
 					'quatermaster',
+					'quartemaster',
+					'quarteraster',
 				],
 				'quartermasters'=>[
 					'qaurtermasters',
+					'quartemasters',
+					'quarterasters',
 				],
 				'quartern'=>[
 					'qaurtern',
+				],
+				'quarterns'=>[
+					'qaurterns',
 				],
 				'quarters'=>[
 					'qnartcrs',
 					'qnarters',
 					'quarlers',
+					'qaurters',
+				],
+				'quartersaw'=>[
+					'qaurtersaw',
 				],
 				'quartersawn'=>[
 					'qaurtersawn',
@@ -807,10 +1096,16 @@
 					'qaurterstaff',
 					'quarterstaf',
 					'quarterstafff',
+					'quartertaff',
+					'quartestaff',
 				],
 				'quarterstaffs'=>[
 					'quarterstafffs',
 					'quarterstafs',
+					'qaurterstaffs',
+				],
+				'quarterstaves'=>[
+					'qaurterstaves',
 				],
 				'quartes'=>[
 					'qaurtes',
@@ -818,16 +1113,24 @@
 				'quartet'=>[
 					'qaurtet',
 				],
+				'quartets'=>[
+					'qaurtets',
+				],
 				'quartette'=>[
 					'quartete',
 					'quartettte',
+					'qaurtette',
 				],
 				'quartettes'=>[
 					'quartetes',
 					'quartetttes',
+					'qaurtettes',
 				],
 				'quartic'=>[
 					'qaurtic',
+				],
+				'quartics'=>[
+					'qaurtics',
 				],
 				'quartier'=>[
 					'qaurtier',
@@ -836,6 +1139,9 @@
 				],
 				'quartile'=>[
 					'qaurtile',
+				],
+				'quartiles'=>[
+					'qaurtiles',
 				],
 				'quarto'=>[
 					'qaurto',
@@ -849,8 +1155,15 @@
 				'quartz'=>[
 					'qaurtz',
 				],
+				'quartziferous'=>[
+					'qaurtziferous',
+					'quartziferuos',
+				],
 				'quartzite'=>[
 					'qaurtzite',
+				],
+				'quartzites'=>[
+					'qaurtzites',
 				],
 				'quasar'=>[
 					'qausar',
@@ -870,6 +1183,9 @@
 				],
 				'quashes'=>[
 					'qaushes',
+				],
+				'quashing'=>[
+					'qaushing',
 				],
 				'quasi'=>[
 					'qausi',
@@ -899,10 +1215,13 @@
 					'qaussia',
 					'quasia',
 					'quasssia',
+					'quassai',
 				],
 				'quassias'=>[
 					'quasias',
 					'quasssias',
+					'qaussias',
+					'quassais',
 				],
 				'quassin'=>[
 					'qaussin',
@@ -918,6 +1237,11 @@
 					'quatercantenary',
 					'quatercentenery',
 				],
+				'quaternaries'=>[
+					'qauternaries',
+					'quaternareis',
+					'quaterneries',
+				],
 				'quaternary'=>[
 					'qauternary',
 					'quarternary',
@@ -925,21 +1249,38 @@
 				],
 				'quaternion'=>[
 					'qauternion',
+					'quaternoin',
+					'quaternon',
 				],
 				'quaternions'=>[
 					'qauternions',
+					'quaternoins',
+					'quaternons',
+				],
+				'quaternities'=>[
+					'qauternities',
+					'quaterniteis',
+				],
+				'quaternity'=>[
+					'qauternity',
 				],
 				'quatorze'=>[
 					'qautorze',
 				],
 				'quatrain'=>[
 					'qautrain',
+					'quatrian',
+				],
+				'quatrains'=>[
+					'qautrains',
+					'quatrians',
 				],
 				'quatre'=>[
 					'qautre',
 				],
 				'quatrefoil'=>[
 					'qautrefoil',
+					'quatrefiol',
 				],
 				'quatrefoils'=>[
 					'qautrefoils',
@@ -961,6 +1302,13 @@
 				'quaver'=>[
 					'qauver',
 				],
+				'quavered'=>[
+					'qauvered',
+					'quaverd',
+				],
+				'quavering'=>[
+					'qauvering',
+				],
 				'quaveringly'=>[
 					'qauveringly',
 				],
@@ -969,6 +1317,7 @@
 				],
 				'quavery'=>[
 					'qauvery',
+					'quavary',
 				],
 				'quay'=>[
 					'qauy',
@@ -982,52 +1331,92 @@
 				'quayside'=>[
 					'qauyside',
 				],
+				'quaysides'=>[
+					'qauysides',
+				],
+				'quean'=>[
+					'qeuan',
+					'quaen',
+				],
+				'queasier'=>[
+					'qeuasier',
+					'quaesier',
+					'queaseir',
+				],
+				'queasiest'=>[
+					'qeuasiest',
+					'quaesiest',
+					'queaseist',
+				],
+				'queasily'=>[
+					'qeuasily',
+					'quaesily',
+					'queasly',
+				],
 				'queasiness'=>[
 					'queasines',
 					'queasinesss',
+					'qeuasiness',
+					'quaesiness',
 				],
 				'queasy'=>[
 					'queacy',
 					'queazy',
 					'quesy',
+					'qeuasy',
+					'quaesy',
+				],
+				'quebec'=>[
+					'qeubec',
 				],
 				'queen'=>[
 					'queeen',
+					'qeuen',
 				],
 				'queendom'=>[
 					'queeendom',
 					'quendom',
+					'qeuendom',
 				],
 				'queened'=>[
 					'queend',
 					'queeened',
+					'qeuened',
 				],
 				'queenhood'=>[
 					'queeenhood',
 					'queenhod',
 					'queenhoood',
 					'quenhood',
+					'qeuenhood',
 				],
 				'queening'=>[
 					'queeening',
+					'qeuening',
 				],
 				'queenlier'=>[
 					'queeenlier',
 					'quenlier',
+					'qeuenlier',
+					'queenleir',
 				],
 				'queenliest'=>[
 					'queeenliest',
 					'quenliest',
+					'qeuenliest',
+					'queenleist',
 				],
 				'queenlike'=>[
 					'queeenlike',
 					'quenlike',
+					'qeuenlike',
 				],
 				'queenliness'=>[
 					'queenlines',
 					'queenlinesss',
 					'queeenliness',
 					'quenliness',
+					'qeuenliness',
 				],
 				'queenly'=>[
 					'queenally',
@@ -1036,80 +1425,172 @@
 					'queenlly',
 					'queeenly',
 					'quenly',
+					'qeuenly',
 				],
 				'queens'=>[
 					'queeens',
 					'quens',
+					'qeuens',
 				],
 				'queenship'=>[
 					'queeenship',
 					'quenship',
+					'qeuenship',
 				],
 				'queer'=>[
 					'queeer',
+					'qeuer',
 				],
 				'queered'=>[
 					'queeered',
 					'quered',
+					'qeuered',
+					'queerd',
 				],
 				'queerer'=>[
 					'queeerer',
 					'querer',
+					'qeuerer',
 				],
 				'queerest'=>[
 					'queeerest',
 					'querest',
+					'qeuerest',
 				],
 				'queering'=>[
 					'queeering',
 					'quering',
+					'qeuering',
 				],
 				'queerly'=>[
 					'queeerly',
 					'querly',
+					'qeuerly',
 				],
 				'queerness'=>[
 					'queernes',
 					'queernesss',
 					'queeerness',
 					'querness',
+					'qeuerness',
 				],
 				'queers'=>[
 					'queeers',
 					'quers',
+					'qeuers',
 				],
 				'quell'=>[
 					'quel',
 					'quelll',
+					'qeull',
 				],
 				'quelled'=>[
 					'quellled',
+					'qeulled',
 				],
 				'queller'=>[
 					'quelller',
+					'qeuller',
 				],
 				'quelling'=>[
 					'quellling',
+					'qeulling',
 				],
 				'quells'=>[
 					'quellls',
 					'quels',
+					'qeulls',
+				],
+				'quench'=>[
+					'qeunch',
+				],
+				'quenchable'=>[
+					'qeunchable',
+					'quenchible',
+				],
+				'quenched'=>[
+					'qeunched',
+				],
+				'quencher'=>[
+					'qeuncher',
+				],
+				'quenchers'=>[
+					'qeunchers',
+				],
+				'quenches'=>[
+					'qeunches',
+				],
+				'quenching'=>[
+					'qeunching',
 				],
 				'quenchless'=>[
 					'quenchles',
 					'quenchlesss',
+					'qeunchless',
 				],
 				'quenelle'=>[
 					'quenele',
 					'quenellle',
+					'qeunelle',
+				],
+				'quercetin'=>[
+					'qeurcetin',
+				],
+				'queried'=>[
+					'qeuried',
+					'quereid',
+				],
+				'queries'=>[
+					'qeuries',
+					'quereis',
+				],
+				'querist'=>[
+					'qeurist',
+				],
+				'quern'=>[
+					'qeurn',
+				],
+				'querns'=>[
+					'qeurns',
+				],
+				'querulous'=>[
+					'qeurulous',
+					'queruluos',
+				],
+				'querulously'=>[
+					'qeurulously',
+					'querulousely',
+					'queruluosly',
 				],
 				'querulousness'=>[
 					'querulousnes',
 					'querulousnesss',
+					'qeurulousness',
+					'queruluosness',
+				],
+				'query'=>[
+					'qeury',
+				],
+				'querying'=>[
+					'qeurying',
 				],
 				'quesadilla'=>[
 					'quesadila',
 					'quesadillla',
+					'qeusadilla',
+				],
+				'quest'=>[
+					'qeust',
+				],
+				'quested'=>[
+					'qeusted',
+				],
+				'quester'=>[
+					'qeuster',
+				],
+				'questing'=>[
+					'qeusting',
+					'qusting',
 				],
 				'question'=>[
 					'question question',
@@ -1120,75 +1601,205 @@
 					'queftion',
 					'queslion',
 					'questiou',
+					'qeustion',
+					'questoin',
+					'queston',
+				],
+				'questionability'=>[
+					'qeustionability',
+					'questioability',
+					'questionbility',
+					'questionibility',
+					'questoinability',
 				],
 				'questionable'=>[
 					'questionible',
+					'qeustionable',
+					'questoinable',
 				],
 				'questionably'=>[
 					'questionabally',
 					'questionabaly',
 					'questionabely',
 					'questionablly',
+					'qeustionably',
+					'questionibly',
+					'questoinably',
 				],
 				'questionary'=>[
 					'questionery',
+					'qeustionary',
+					'questoinary',
+					'questonary',
 				],
 				'questioned'=>[
 					'questionned',
 					'qnestioned',
+					'qeustioned',
+					'questiond',
+					'questoined',
+					'questoned',
+				],
+				'questioner'=>[
+					'qeustioner',
+					'questoiner',
+				],
+				'questioners'=>[
+					'qeustioners',
+					'questoiners',
+				],
+				'questioning'=>[
+					'qeustioning',
+					'questoining',
+					'questoning',
+				],
+				'questioningly'=>[
+					'qeustioningly',
+					'questoiningly',
+				],
+				'questionings'=>[
+					'qeustionings',
+					'questoinings',
 				],
 				'questionless'=>[
 					'questionles',
 					'questionlesss',
+					'qeustionless',
+					'questoinless',
 				],
 				'questionnaire'=>[
 					'questionaire',
 					'questionnnaire',
+					'qeustionnaire',
+					'questionniare',
+					'questoinnaire',
 				],
 				'questionnaires'=>[
 					'questionaires',
 					'questionnnaires',
+					'qeustionnaires',
+					'questionniares',
+					'questoinnaires',
 				],
 				'questions'=>[
 					'qnestions',
 					'queftions',
 					'questious',
+					'qeustions',
+					'questoins',
+					'questons',
+				],
+				'questor'=>[
+					'qeustor',
+				],
+				'quests'=>[
+					'qeusts',
+				],
+				'quetzal'=>[
+					'qeutzal',
+				],
+				'quetzals'=>[
+					'qeutzals',
+				],
+				'queue'=>[
+					'qeuue',
+					'queeu',
+					'quuee',
+				],
+				'queued'=>[
+					'qeuued',
+					'queeud',
+					'quueed',
+				],
+				'queues'=>[
+					'qeuues',
+					'queeus',
+					'quuees',
+				],
+				'queuing'=>[
+					'qeuuing',
+					'queiung',
+					'quueing',
 				],
 				'quibble'=>[
 					'quible',
 					'quibbble',
+					'qiubble',
 				],
 				'quibbled'=>[
 					'quibbbled',
 					'quibled',
+					'qiubbled',
 				],
 				'quibbler'=>[
 					'quibbbler',
 					'quibler',
+					'qiubbler',
 				],
 				'quibblers'=>[
 					'quiblers',
 					'quibbblers',
+					'qiubblers',
 				],
 				'quibbles'=>[
 					'quibbbles',
 					'quibles',
+					'qiubbles',
 				],
 				'quibbling'=>[
 					'quibling',
 					'quibbbling',
+					'qiubbling',
+				],
+				'quiche'=>[
+					'qiuche',
+				],
+				'quiches'=>[
+					'qiuches',
 				],
 				'quick'=>[
 					'quick quick',
 					'quick quick quick',
 					'qnick',
+					'qiuck',
+				],
+				'quicken'=>[
+					'qiucken',
 				],
 				'quickened'=>[
 					'quickend',
+					'qiuckened',
+				],
+				'quickening'=>[
+					'qiuckening',
+				],
+				'quickens'=>[
+					'qiuckens',
+				],
+				'quicker'=>[
+					'qiucker',
+				],
+				'quickest'=>[
+					'qiuckest',
+				],
+				'quickfire'=>[
+					'qiuckfire',
+					'quicfire',
+					'quickire',
 				],
 				'quickie'=>[
 					'quickei',
 					'quicki',
+					'qiuckie',
+				],
+				'quickies'=>[
+					'qiuckies',
+					'quickeis',
+				],
+				'quicklime'=>[
+					'qiucklime',
+					'quickime',
+					'quiclime',
 				],
 				'quickly'=>[
 					'quicklyu',
@@ -1196,18 +1807,67 @@
 					'quikly',
 					'quickley',
 					'qnickly',
+					'qiuckly',
 				],
 				'quickness'=>[
 					'quicknes',
 					'quicknesss',
+					'qiuckness',
+				],
+				'quicksand'=>[
+					'qiucksand',
+					'quickand',
+					'quicsand',
+				],
+				'quicksands'=>[
+					'qiucksands',
+					'quickands',
+					'quicsands',
+				],
+				'quicksilver'=>[
+					'qiucksilver',
+					'quickilver',
+					'quicsilver',
+				],
+				'quickstep'=>[
+					'qiuckstep',
+					'quicktep',
+					'quicstep',
+				],
+				'quicksteps'=>[
+					'qiucksteps',
+					'quickteps',
+					'quicsteps',
 				],
 				'quiddity'=>[
 					'quidddity',
 					'quidity',
+					'qiuddity',
+				],
+				'quidnunc'=>[
+					'qiudnunc',
+				],
+				'quids'=>[
+					'qiuds',
+				],
+				'quiesce'=>[
+					'qiuesce',
+					'queisce',
+					'quiece',
+					'quiese',
+				],
+				'quiesced'=>[
+					'qiuesced',
+					'queisced',
+					'quieced',
+					'quiesed',
 				],
 				'quiescence'=>[
 					'quiescance',
 					'quiesence',
+					'qiuescence',
+					'queiscence',
+					'quiecence',
 				],
 				'quiescent'=>[
 					'queiscent',
@@ -1215,6 +1875,16 @@
 					'quiecsent',
 					'quiesent',
 					'quiscent',
+					'qiuescent',
+					'quiescant',
+				],
+				'quiescently'=>[
+					'qiuescently',
+					'queiscently',
+					'quiecently',
+					'quiescantly',
+					'quiescentely',
+					'quiesently',
 				],
 				'quiet'=>[
 					'queit',
@@ -1223,63 +1893,157 @@
 					'quitt',
 					'qniet',
 					'quict',
+					'qiuet',
+				],
+				'quieted'=>[
+					'qiueted',
+					'queited',
+				],
+				'quieten'=>[
+					'qiueten',
+					'queiten',
 				],
 				'quietened'=>[
 					'quietend',
+					'qiuetened',
+					'queitened',
+				],
+				'quietening'=>[
+					'qiuetening',
+					'queitening',
+				],
+				'quietens'=>[
+					'qiuetens',
+					'queitens',
+				],
+				'quieter'=>[
+					'qiueter',
+					'queiter',
+				],
+				'quietest'=>[
+					'qiuetest',
+					'queitest',
+				],
+				'quieting'=>[
+					'qiueting',
+					'queiting',
 				],
 				'quietism'=>[
 					'queitism',
 					'quitism',
+					'qiuetism',
+				],
+				'quietisms'=>[
+					'qiuetisms',
+					'queitisms',
 				],
 				'quietly'=>[
 					'quitely',
 					'qnietly',
 					'quictly',
+					'qiuetly',
+					'queitly',
+					'quietely',
 				],
 				'quietness'=>[
 					'quietnes',
 					'quietnesss',
+					'qiuetness',
+					'queitness',
+				],
+				'quiets'=>[
+					'qiuets',
+					'queits',
 				],
 				'quietude'=>[
 					'queitude',
 					'quitude',
+					'qiuetude',
+				],
+				'quietus'=>[
+					'qiuetus',
+					'queitus',
+				],
+				'quietuses'=>[
+					'qiuetuses',
+					'queituses',
+					'quieuses',
 				],
 				'quiff'=>[
 					'quifff',
+					'qiuff',
 				],
 				'quiffs'=>[
 					'quifffs',
 					'quifs',
+					'qiuffs',
 				],
 				'quill'=>[
 					'quil',
 					'quilll',
+					'qiull',
 				],
 				'quillet'=>[
 					'quilet',
 					'quilllet',
+					'qiullet',
 				],
 				'quillon'=>[
 					'quilllon',
+					'qiullon',
 				],
 				'quills'=>[
 					'quillls',
 					'quils',
+					'qiulls',
+				],
+				'quilt'=>[
+					'qiult',
+				],
+				'quilted'=>[
+					'qiulted',
+				],
+				'quilter'=>[
+					'qiulter',
+				],
+				'quilters'=>[
+					'qiulters',
+				],
+				'quilting'=>[
+					'qiulting',
+				],
+				'quilts'=>[
+					'qiults',
 				],
 				'quinacrine'=>[
 					'quinacrini',
 					'quinicrine',
+					'qiunacrine',
+				],
+				'quinacrines'=>[
+					'qiunacrines',
 				],
 				'quinary'=>[
 					'quinery',
 					'quiniry',
+					'qiunary',
 				],
 				'quinate'=>[
 					'quinite',
+					'qiunate',
+				],
+				'quince'=>[
+					'qiunce',
+				],
+				'quincentenaries'=>[
+					'qiuncentenaries',
+					'quincentenareis',
+					'quincenteneries',
 				],
 				'quincentenary'=>[
 					'quincantenary',
 					'quincentenery',
+					'qiuncentenary',
 				],
 				'quincentennial'=>[
 					'quincantennial',
@@ -1288,9 +2052,24 @@
 				'quincentennials'=>[
 					'quincentenials',
 				],
+				'quinces'=>[
+					'qiunces',
+				],
+				'quincuncial'=>[
+					'qiuncuncial',
+					'quincuncail',
+				],
+				'quincunx'=>[
+					'qiuncunx',
+				],
+				'quindecagon'=>[
+					'qiundecagon',
+				],
 				'quindecennial'=>[
 					'quindecenial',
 					'quindecennnial',
+					'qiundecennial',
+					'quindecennail',
 				],
 				'quindecillion'=>[
 					'quindecilion',
@@ -1306,6 +2085,7 @@
 				],
 				'quinidine'=>[
 					'quinadine',
+					'qiunidine',
 				],
 				'quinidines'=>[
 					'quinadines',
@@ -1326,6 +2106,7 @@
 				'quinine'=>[
 					'quinane',
 					'quinini',
+					'qiunine',
 				],
 				'quinins'=>[
 					'quinans',
@@ -1333,14 +2114,34 @@
 				'quinnat'=>[
 					'quinat',
 				],
+				'quinol'=>[
+					'qiunol',
+				],
+				'quinone'=>[
+					'qiunone',
+				],
+				'quinonoid'=>[
+					'qiunonoid',
+					'quinoniod',
+				],
+				'quinquefid'=>[
+					'qiunquefid',
+					'quinqeufid',
+				],
 				'quinquennial'=>[
 					'quinquenial',
 					'quinquennnial',
+					'qiunquennial',
+					'quinqeunnial',
+					'quinquennail',
 				],
 				'quinquennially'=>[
 					'quinquenially',
 					'quinquenniallly',
 					'quinquennnially',
+					'qiunquennially',
+					'quinqeunnially',
+					'quinquennailly',
 				],
 				'quinquennials'=>[
 					'quinquenials',
@@ -1348,69 +2149,171 @@
 				'quinquennium'=>[
 					'quinquenium',
 					'quinquennnium',
+					'qiunquennium',
+					'quinqeunnium',
+					'quinquennuim',
 				],
 				'quinquenniums'=>[
 					'quinqueniums',
 				],
+				'quinquepartite'=>[
+					'qiunquepartite',
+					'quinqeupartite',
+				],
 				'quinquereme'=>[
 					'quinquireme',
+					'qiunquereme',
+					'quinqeureme',
+				],
+				'quinquevalent'=>[
+					'qiunquevalent',
+					'quinqeuvalent',
+					'quinquevalant',
+				],
+				'quins'=>[
+					'qiuns',
 				],
 				'quinsy'=>[
 					'quincy',
+					'qiunsy',
+				],
+				'quint'=>[
+					'qiunt',
+				],
+				'quintain'=>[
+					'qiuntain',
+					'quintian',
+				],
+				'quintal'=>[
+					'qiuntal',
+				],
+				'quintals'=>[
+					'qiuntals',
+				],
+				'quintan'=>[
+					'qiuntan',
+				],
+				'quinte'=>[
+					'qiunte',
 				],
 				'quintessence'=>[
 					'quintesence',
 					'quintessance',
 					'quintesssence',
+					'qiuntessence',
 				],
 				'quintessences'=>[
 					'quintesences',
 					'quintesssences',
+					'qiuntessences',
+					'quintessances',
 				],
 				'quintessential'=>[
 					'quintesential',
 					'quintessantial',
 					'quintissential',
 					'quintesssential',
+					'qiuntessential',
+					'quintessentail',
 				],
 				'quintessentially'=>[
 					'quintesentially',
 					'quintesssentially',
 					'quintessentiallly',
 					'quintessentialy',
+					'qiuntessentially',
+					'quintessentailly',
+				],
+				'quintet'=>[
+					'qiuntet',
+				],
+				'quintets'=>[
+					'qiuntets',
+				],
+				'quintic'=>[
+					'qiuntic',
+				],
+				'quintile'=>[
+					'qiuntile',
 				],
 				'quintillion'=>[
 					'quintilion',
 					'quintilllion',
+					'qiuntillion',
+					'quintilloin',
+					'quintillon',
 				],
 				'quintillions'=>[
 					'quintilions',
 					'quintilllions',
+					'qiuntillions',
+					'quintilloins',
+					'quintillons',
 				],
 				'quintillionth'=>[
 					'quintilionth',
 					'quintilllionth',
+					'qiuntillionth',
+					'quintillointh',
 				],
 				'quintillionths'=>[
 					'quintilionths',
 					'quintilllionths',
+					'qiuntillionths',
+					'quintilloinths',
+				],
+				'quintin'=>[
+					'qiuntin',
 				],
 				'quintino'=>[
 					'qmntino',
 				],
+				'quinton'=>[
+					'qiunton',
+				],
+				'quints'=>[
+					'qiunts',
+				],
+				'quintuple'=>[
+					'qiuntuple',
+				],
+				'quintupled'=>[
+					'qiuntupled',
+				],
+				'quintuples'=>[
+					'qiuntuples',
+				],
+				'quintuplet'=>[
+					'qiuntuplet',
+				],
+				'quintuplets'=>[
+					'qiuntuplets',
+				],
+				'quintuplicate'=>[
+					'qiuntuplicate',
+				],
+				'quintupling'=>[
+					'qiuntupling',
+				],
+				'quinze'=>[
+					'qiunze',
+				],
 				'quipped'=>[
 					'quiped',
 					'quippped',
+					'qiupped',
 				],
 				'quipper'=>[
 					'quiper',
 					'quippper',
+					'qiupper',
 				],
 				'quippiest'=>[
 					'quipiest',
 				],
 				'quipping'=>[
 					'quippping',
+					'qiupping',
 				],
 				'quippu'=>[
 					'quipu',
@@ -1421,12 +2324,84 @@
 				'quippy'=>[
 					'quipy',
 				],
+				'quips'=>[
+					'qiups',
+				],
+				'quipster'=>[
+					'qiupster',
+				],
+				'quipsters'=>[
+					'qiupsters',
+				],
+				'quipu'=>[
+					'qiupu',
+				],
+				'quipus'=>[
+					'qiupus',
+				],
+				'quire'=>[
+					'qiure',
+				],
+				'quires'=>[
+					'qiures',
+				],
+				'quirk'=>[
+					'qiurk',
+				],
+				'quirked'=>[
+					'qiurked',
+				],
+				'quirkier'=>[
+					'qiurkier',
+					'quirkeir',
+				],
+				'quirkiest'=>[
+					'qiurkiest',
+					'quirkeist',
+				],
 				'quirkiness'=>[
 					'quirkines',
 					'quirkinesss',
+					'qiurkiness',
+				],
+				'quirking'=>[
+					'qiurking',
+				],
+				'quirkish'=>[
+					'qiurkish',
+				],
+				'quirks'=>[
+					'qiurks',
+				],
+				'quirky'=>[
+					'qiurky',
+				],
+				'quirt'=>[
+					'qiurt',
+				],
+				'quirts'=>[
+					'qiurts',
+				],
+				'quisling'=>[
+					'qiusling',
+				],
+				'quislings'=>[
+					'qiuslings',
 				],
 				'quit'=>[
 					'quited',
+				],
+				'quitclaim'=>[
+					'qiutclaim',
+					'quiclaim',
+					'quitcliam',
+					'quitlaim',
+				],
+				'quitclaims'=>[
+					'qiutclaims',
+					'quiclaims',
+					'quitcliams',
+					'quitlaims',
 				],
 				'quite'=>[
 					'qtiite',
@@ -1438,76 +2413,150 @@
 					'qiiite',
 					'qnite',
 					'quitc',
+					'qiute',
+				],
+				'quitrent'=>[
+					'qiutrent',
+					'quirent',
+					'quitent',
+					'quitrant',
+				],
+				'quits'=>[
+					'qiuts',
 				],
 				'quittance'=>[
 					'quittence',
 					'quitance',
 					'quitttance',
+					'qiuttance',
 				],
 				'quitted'=>[
 					'quittted',
+					'qiutted',
 				],
 				'quitter'=>[
 					'quittter',
+					'qiutter',
 				],
 				'quitters'=>[
 					'quiters',
 					'quittters',
+					'qiutters',
 				],
 				'quitting'=>[
 					'quittting',
+					'qiutting',
 				],
 				'quittor'=>[
 					'quitor',
 					'quitttor',
+					'qiuttor',
+				],
+				'quiver'=>[
+					'qiuver',
+				],
+				'quivered'=>[
+					'qiuvered',
+					'quiverd',
+				],
+				'quivering'=>[
+					'qiuvering',
+				],
+				'quiveringly'=>[
+					'qiuveringly',
+				],
+				'quivers'=>[
+					'qiuvers',
+				],
+				'quivery'=>[
+					'qiuvery',
+					'quivary',
+				],
+				'quixotic'=>[
+					'qiuxotic',
 				],
 				'quixotically'=>[
 					'quixoticallly',
 					'quixoticaly',
+					'qiuxotically',
+				],
+				'quixotism'=>[
+					'qiuxotism',
+				],
+				'quixotisms'=>[
+					'qiuxotisms',
+				],
+				'quixotry'=>[
+					'qiuxotry',
+				],
+				'quizmaster'=>[
+					'qiuzmaster',
+					'quimaster',
+					'quizaster',
+				],
+				'quizmasters'=>[
+					'qiuzmasters',
+					'quimasters',
+					'quizasters',
 				],
 				'quizzed'=>[
 					'quizzzed',
+					'qiuzzed',
 				],
 				'quizzer'=>[
 					'quizzzer',
+					'qiuzzer',
 				],
 				'quizzers'=>[
 					'quizers',
 					'quizzzers',
+					'qiuzzers',
 				],
 				'quizzes'=>[
 					'quizes',
 					'quizzzes',
+					'qiuzzes',
 				],
 				'quizzical'=>[
 					'quizical',
 					'quizzzical',
+					'qiuzzical',
 				],
 				'quizzicality'=>[
 					'quizicality',
 					'quizzzicality',
+					'qiuzzicality',
 				],
 				'quizzically'=>[
 					'quizically',
 					'quizzicallly',
 					'quizzicaly',
 					'quizzzically',
+					'qiuzzically',
 				],
 				'quizzicalness'=>[
 					'quizzicalnes',
 					'quizzicalnesss',
 					'quizicalness',
 					'quizzzicalness',
+					'qiuzzicalness',
 				],
 				'quizzing'=>[
 					'quizzzing',
+					'qiuzzing',
 				],
 				'quodlibet'=>[
 					'qodlibet',
 					'quodilibet',
+					'qoudlibet',
+				],
+				'quodlibetarian'=>[
+					'qoudlibetarian',
+					'quodlibetarain',
 				],
 				'quodlibets'=>[
 					'qodlibets',
+					'qoudlibets',
 				],
 				'quods'=>[
 					'qods',
@@ -1520,6 +2569,8 @@
 				],
 				'quoin'=>[
 					'qoin',
+					'qouin',
+					'quion',
 				],
 				'quoined'=>[
 					'qoined',
@@ -1529,18 +2580,28 @@
 				],
 				'quoins'=>[
 					'qoins',
+					'qouins',
+					'quions',
 				],
 				'quoit'=>[
 					'qoit',
+					'qouit',
+					'quiot',
 				],
 				'quoited'=>[
 					'qoited',
+					'qouited',
+					'quioted',
 				],
 				'quoiting'=>[
 					'qoiting',
+					'qouiting',
+					'quioting',
 				],
 				'quoits'=>[
 					'qoits',
+					'qouits',
+					'quiots',
 				],
 				'quokka'=>[
 					'qokka',
@@ -1560,39 +2621,58 @@
 				],
 				'quondam'=>[
 					'qondam',
+					'qoundam',
+				],
+				'quonset'=>[
+					'qounset',
+				],
+				'quorate'=>[
+					'qourate',
 				],
 				'quorum'=>[
 					'qorum',
+					'qourum',
 				],
 				'quorums'=>[
 					'qorums',
+					'qourums',
 				],
 				'quota'=>[
 					'qota',
+					'qouta',
 				],
 				'quotabilities'=>[
 					'qotabilities',
 				],
 				'quotability'=>[
 					'qotability',
+					'qoutability',
+					'quotibility',
 				],
 				'quotable'=>[
 					'qotable',
 					'quotible',
 					'quoteable',
+					'qoutable',
 				],
 				'quotably'=>[
 					'qotably',
 				],
 				'quotas'=>[
 					'qotas',
+					'qoutas',
 				],
 				'quotation'=>[
 					'qotation',
 					'qoutation',
+					'quotatoin',
+					'quotaton',
 				],
 				'quotations'=>[
 					'qotations',
+					'qoutations',
+					'quotatoins',
+					'quotatons',
 				],
 				'quote'=>[
 					'qote',
@@ -1604,6 +2684,7 @@
 				],
 				'quoter'=>[
 					'qoter',
+					'qouter',
 				],
 				'quoters'=>[
 					'qoters',
@@ -1614,13 +2695,17 @@
 				],
 				'quoth'=>[
 					'qoth',
+					'qouth',
 				],
 				'quotha'=>[
 					'qotha',
+					'qoutha',
 				],
 				'quotidian'=>[
 					'qotidian',
 					'quotidan',
+					'qoutidian',
+					'quotidain',
 				],
 				'quotidians'=>[
 					'qotidians',
@@ -1632,9 +2717,13 @@
 					'quotient quotient',
 					'quotient quotient quotient',
 					'quotint',
+					'qoutient',
 				],
 				'quotients'=>[
 					'qotients',
+					'qoutients',
+					'quoteints',
+					'quotiants',
 				],
 				'quoting'=>[
 					'qoting',

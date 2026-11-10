@@ -66,6 +66,18 @@
 				'paced'=>[
 					'pased',
 				],
+				'pacemaker'=>[
+					'paceaker',
+					'pacmaker',
+				],
+				'pacemakers'=>[
+					'paceakers',
+					'pacmakers',
+				],
+				'pacemaking'=>[
+					'paceaking',
+					'pacmaking',
+				],
 				'pacesetter'=>[
 					'paceseter',
 					'pacesettter',
@@ -73,6 +85,12 @@
 				'pacesetters'=>[
 					'paceseters',
 					'pacesettters',
+				],
+				'pachydermatous'=>[
+					'pachydermatuos',
+				],
+				'pachydermous'=>[
+					'pachydermuos',
 				],
 				'pachygyria'=>[
 					'pachigyria',
@@ -83,15 +101,34 @@
 				'pachynema'=>[
 					'pachyneme',
 				],
+				'pacier'=>[
+					'paceir',
+				],
+				'paciest'=>[
+					'paceist',
+				],
 				'pacific'=>[
 					'pacfic',
 				],
 				'pacifically'=>[
 					'pacificallly',
 				],
+				'pacification'=>[
+					'pacificatoin',
+					'pacificaton',
+				],
+				'pacified'=>[
+					'pacifeid',
+				],
 				'pacifier'=>[
 					'pacifeir',
 					'pacifir',
+				],
+				'pacifiers'=>[
+					'pacifeirs',
+				],
+				'pacifies'=>[
+					'pacifeis',
 				],
 				'pacifist'=>[
 					'paccifist',
@@ -102,19 +139,69 @@
 					'pacifisticalely',
 					'pacifisticallly',
 				],
+				'packable'=>[
+					'packible',
+				],
+				'packaged'=>[
+					'pacaged',
+					'packged',
+				],
+				'packaging'=>[
+					'pacaging',
+					'packging',
+				],
+				'packetboat'=>[
+					'packeboat',
+					'packetbaot',
+					'packetoat',
+				],
+				'packhorse'=>[
+					'pachorse',
+					'packorse',
+				],
+				'packhorses'=>[
+					'pachorses',
+					'packorses',
+				],
+				'packinghouse'=>[
+					'packinghuose',
+					'packingouse',
+					'packinhouse',
+				],
+				'packinghouses'=>[
+					'packinghuoses',
+					'packingouses',
+					'packinhouses',
+				],
 				'packsaddle'=>[
 					'packsadddle',
 					'packsadle',
+					'packaddle',
+					'pacsaddle',
 				],
 				'packsaddles'=>[
 					'packsadddles',
 					'packsadles',
+				],
+				'packthread'=>[
+					'packhread',
+					'packthraed',
+					'pacthread',
+				],
+				'packthreads'=>[
+					'packhreads',
+					'packthraeds',
+					'pacthreads',
 				],
 				'paclitaxel'=>[
 					'paciltaxel',
 				],
 				'paclobutrazol'=>[
 					'paclabutrazol',
+				],
+				'paction'=>[
+					'pactoin',
+					'pacton',
 				],
 				'padded'=>[
 					'paddded',
@@ -123,6 +210,7 @@
 				'paddies'=>[
 					'padddies',
 					'padies',
+					'paddeis',
 				],
 				'padding'=>[
 					'paddding',
@@ -134,6 +222,9 @@
 				'paddleboard'=>[
 					'padddleboard',
 					'padleboard',
+					'paddlboard',
+					'paddlebaord',
+					'paddleoard',
 				],
 				'paddled'=>[
 					'padddled',
@@ -141,6 +232,8 @@
 				'paddlefish'=>[
 					'padddlefish',
 					'padlefish',
+					'paddleish',
+					'paddlfish',
 				],
 				'paddler'=>[
 					'padddler',
@@ -182,6 +275,18 @@
 				'padishahs'=>[
 					'padishas',
 				],
+				'padlock'=>[
+					'palock',
+				],
+				'padlocked'=>[
+					'palocked',
+				],
+				'padlocking'=>[
+					'palocking',
+				],
+				'padlocks'=>[
+					'palocks',
+				],
 				'padraic colum'=>[
 					'padhraic collum',
 				],
@@ -196,6 +301,12 @@
 				],
 				'paean'=>[
 					'paen',
+					'paaen',
+					'peaan',
+				],
+				'paeans'=>[
+					'paaens',
+					'peaans',
 				],
 				'paediatric'=>[
 					'paediatic',
@@ -224,13 +335,23 @@
 				'paella'=>[
 					'paela',
 					'paellla',
+					'pealla',
 				],
 				'paellas'=>[
 					'paelas',
 					'paelllas',
+					'peallas',
+				],
+				'paeon'=>[
+					'paoen',
+					'peaon',
 				],
 				'paeoniflorin'=>[
 					'paconiflorin',
+				],
+				'paeony'=>[
+					'paoeny',
+					'peaony',
 				],
 				'page'=>[
 					'page page',
@@ -240,10 +361,20 @@
 				'pageant'=>[
 					'pageent',
 					'pagent',
+					'pagaent',
 				],
 				'pageantry'=>[
 					'pageentry',
 					'pagentry',
+					'pagaentry',
+				],
+				'pageants'=>[
+					'pagaents',
+					'pageents',
+				],
+				'pageboys'=>[
+					'pagboys',
+					'pageoys',
 				],
 				'paginal'=>[
 					'paginil',
@@ -254,12 +385,15 @@
 				],
 				'pagination'=>[
 					'paginition',
+					'paginatoin',
+					'paginaton',
 				],
 				'paging'=>[
 					'pageing',
 				],
 				'pagurian'=>[
 					'paguran',
+					'pagurain',
 				],
 				'pahlavi'=>[
 					'palavi',
@@ -269,6 +403,8 @@
 				],
 				'pahoehoe'=>[
 					'paoehoe',
+					'paheohoe',
+					'pahoeheo',
 				],
 				'pahoehoes'=>[
 					'paoehoes',
@@ -278,44 +414,68 @@
 					'payed',
 					'paicl',
 				],
+				'pailful'=>[
+					'pialful',
+				],
+				'pailfuls'=>[
+					'pialfuls',
+				],
 				'paillasse'=>[
 					'paillase',
 					'paillassse',
 					'pailasse',
 					'pailllasse',
+					'piallasse',
 				],
 				'paillasses'=>[
 					'paillases',
 					'paillassses',
 					'pailasses',
 					'pailllasses',
+					'piallasses',
 				],
 				'paillette'=>[
 					'pailette',
 					'paillete',
 					'paillettte',
 					'pailllette',
+					'piallette',
+				],
+				'pailsful'=>[
+					'pialsful',
 				],
 				'pain'=>[
 					'paiii',
 				],
+				'pained'=>[
+					'paind',
+				],
 				'painful'=>[
 					'painfull',
 					'painfiil',
+					'pianful',
 				],
 				'painfuller'=>[
 					'painfulller',
+					'pianfuller',
 				],
 				'painfullest'=>[
 					'painfulllest',
+					'paifullest',
+					'painullest',
+					'pianfullest',
 				],
 				'painfully'=>[
 					'painfullly',
 					'painfuly',
+					'paifully',
+					'painully',
+					'pianfully',
 				],
 				'painfulness'=>[
 					'painfulnes',
 					'painfulnesss',
+					'pianfulness',
 				],
 				'paining'=>[
 					'painang',
@@ -323,36 +483,86 @@
 				'painkiller'=>[
 					'painkiler',
 					'painkilller',
+					'paikiller',
+					'painiller',
+					'piankiller',
 				],
 				'painkillers'=>[
 					'painkilers',
 					'painkilllers',
+					'paikillers',
+					'painillers',
+					'piankillers',
 				],
 				'painkilling'=>[
 					'painkiling',
 					'painkillling',
+					'paikilling',
+					'painilling',
+					'piankilling',
 				],
 				'painless'=>[
 					'painles',
 					'painlesss',
+					'pianless',
 				],
 				'painlessly'=>[
 					'painlesly',
 					'painlesssly',
+					'painlessely',
+					'pianlessly',
 				],
 				'painlessness'=>[
 					'painlesness',
 					'painlessnes',
 					'painlessnesss',
 					'painlesssness',
+					'pianlessness',
+				],
+				'painstaking'=>[
+					'painsaking',
+					'paintaking',
+					'paistaking',
+					'pianstaking',
+				],
+				'painstakingly'=>[
+					'pianstakingly',
 				],
 				'paint'=>[
 					'paint paint',
 					'paint paint paint',
+					'piant',
 				],
 				'paintball'=>[
 					'paintbal',
 					'paintballl',
+					'painball',
+					'paintall',
+					'piantball',
+				],
+				'paintbox'=>[
+					'piantbox',
+				],
+				'paintboxes'=>[
+					'painboxes',
+					'paintoxes',
+					'piantboxes',
+				],
+				'paintbrush'=>[
+					'painbrush',
+					'paintrush',
+					'piantbrush',
+				],
+				'paintbrushes'=>[
+					'painbrushes',
+					'paintrushes',
+					'piantbrushes',
+				],
+				'painted'=>[
+					'pianted',
+				],
+				'painter'=>[
+					'pianter',
 				],
 				'painterlinesses'=>[
 					'painterlinisses',
@@ -362,10 +572,62 @@
 					'painteraly',
 					'painterely',
 					'painterlly',
+					'pianterly',
+				],
+				'painters'=>[
+					'pianters',
+				],
+				'painting'=>[
+					'pianting',
+				],
+				'paintings'=>[
+					'piantings',
+				],
+				'paints'=>[
+					'piants',
+				],
+				'paintwork'=>[
+					'paintork',
+					'painwork',
+					'piantwork',
+				],
+				'painty'=>[
+					'pianty',
 				],
 				'pair'=>[
 					'pair pair',
 					'pair pair pair',
+				],
+				'paired'=>[
+					'paird',
+					'piared',
+				],
+				'pairing'=>[
+					'piaring',
+				],
+				'pairings'=>[
+					'piarings',
+				],
+				'pairs'=>[
+					'piars',
+				],
+				'pairwise'=>[
+					'piarwise',
+				],
+				'paisa'=>[
+					'piasa',
+				],
+				'paisano'=>[
+					'piasano',
+				],
+				'paisas'=>[
+					'piasas',
+				],
+				'paisley'=>[
+					'piasley',
+				],
+				'paisleys'=>[
+					'piasleys',
 				],
 				'pakistani-occupied'=>[
 					'pakistani occupied',
@@ -376,15 +638,47 @@
 				'palace of fine arts'=>[
 					'palace of fine arta',
 				],
+				'palaces'=>[
+					'paaces',
+					'palces',
+				],
+				'palaeography'=>[
+					'palaoegraphy',
+					'paleaography',
+				],
 				'palaeontological'=>[
 					'palaeotological',
+				],
+				'palanquin'=>[
+					'palanqiun',
+				],
+				'palanquins'=>[
+					'palanqiuns',
+				],
+				'palatabilities'=>[
+					'palatabiliteis',
+					'palatibilities',
+				],
+				'palatability'=>[
+					'palatibility',
 				],
 				'palatable'=>[
 					'palatible',
 				],
+				'palatably'=>[
+					'palatibly',
+				],
+				'palatalization'=>[
+					'palatalizatoin',
+					'palatalizaton',
+				],
+				'palatial'=>[
+					'palatail',
+				],
 				'palatially'=>[
 					'palatiallly',
 					'palatialy',
+					'palatailly',
 				],
 				'palatinate'=>[
 					'palatinite',
@@ -395,13 +689,32 @@
 				'palatinose'=>[
 					'palitinose',
 				],
+				'palau'=>[
+					'palua',
+				],
+				'palavered'=>[
+					'palaverd',
+				],
 				'palazzo'=>[
 					'palazo',
 					'palazzzo',
 				],
+				'palearctic'=>[
+					'palaerctic',
+					'palarctic',
+					'palerctic',
+				],
 				'paleethnology'=>[
 					'paleeethnology',
 					'palethnology',
+				],
+				'paleface'=>[
+					'paleace',
+					'palface',
+				],
+				'palefaces'=>[
+					'paleaces',
+					'palfaces',
 				],
 				'palely'=>[
 					'pally',
@@ -410,18 +723,102 @@
 					'palenes',
 					'palenesss',
 				],
+				'palenque'=>[
+					'palenqeu',
+				],
+				'paleobiologist'=>[
+					'paleoboilogist',
+					'paloebiologist',
+				],
+				'paleobiology'=>[
+					'paleoboilogy',
+					'paloebiology',
+				],
+				'paleobotanies'=>[
+					'paleobotaneis',
+					'paloebotanies',
+				],
+				'paleobotany'=>[
+					'paloebotany',
+				],
+				'paleoclimatology'=>[
+					'paloeclimatology',
+				],
 				'paleodistribution'=>[
 					'paleaodistribution',
+				],
+				'paleoecology'=>[
+					'paleeocology',
+					'paloeecology',
 				],
 				'paleoenvironmental'=>[
 					'paleoenviromental',
 				],
+				'paleogeographies'=>[
+					'paleogeographeis',
+					'paleogoegraphies',
+					'paloegeographies',
+				],
+				'paleogeography'=>[
+					'paleogoegraphy',
+					'paloegeography',
+				],
+				'paleographer'=>[
+					'paloegrapher',
+				],
+				'paleographers'=>[
+					'paloegraphers',
+				],
+				'paleographic'=>[
+					'paloegraphic',
+				],
+				'paleographical'=>[
+					'paloegraphical',
+				],
+				'paleography'=>[
+					'paloegraphy',
+				],
+				'paleolith'=>[
+					'paloelith',
+				],
+				'paleolithic'=>[
+					'paloelithic',
+				],
+				'paleoliths'=>[
+					'paloeliths',
+				],
+				'paleontography'=>[
+					'paloentography',
+				],
+				'paleontologic'=>[
+					'paloentologic',
+				],
+				'paleontological'=>[
+					'paloentological',
+				],
+				'paleontologist'=>[
+					'paloentologist',
+				],
+				'paleontologists'=>[
+					'paloentologists',
+				],
+				'paleontology'=>[
+					'paloentology',
+				],
+				'paleopsychology'=>[
+					'paloepsychology',
+				],
 				'paleospinothalamic'=>[
 					'paleospinothalmic',
+				],
+				'paleozoic'=>[
+					'paleozioc',
+					'paloezoic',
 				],
 				'paleozoology'=>[
 					'paleozology',
 					'paleozooology',
+					'paloezoology',
 				],
 				'palestinian'=>[
 					'palistian',
@@ -432,6 +829,9 @@
 				],
 				'palestinians'=>[
 					'palistinians',
+				],
+				'palestrae'=>[
+					'palestrea',
 				],
 				'palette'=>[
 					'pallete',
@@ -449,6 +849,7 @@
 				'palladian'=>[
 					'paladian',
 					'pallladian',
+					'palladain',
 				],
 				'palladic'=>[
 					'paladic',
@@ -457,18 +858,22 @@
 				'palladium'=>[
 					'paladium',
 					'pallladium',
+					'palladuim',
 				],
 				'palladous'=>[
 					'paladous',
 					'pallladous',
+					'palladuos',
 				],
 				'pallbearer'=>[
 					'palbearer',
 					'palllbearer',
+					'pallbaerer',
 				],
 				'pallbearers'=>[
 					'palbearers',
 					'palllbearers',
+					'pallbaerers',
 				],
 				'palled'=>[
 					'pallled',
@@ -492,41 +897,52 @@
 				'pallia'=>[
 					'palia',
 					'palllia',
+					'pallai',
 				],
 				'palliasse'=>[
 					'palliase',
 					'palliassse',
 					'paliasse',
 					'pallliasse',
+					'pallaisse',
 				],
 				'palliasses'=>[
 					'paliasses',
 					'pallliasses',
+					'pallaisses',
 				],
 				'palliate'=>[
 					'paliate',
 					'pallliate',
 					'palhate',
+					'pallaite',
 				],
 				'palliated'=>[
 					'paliated',
 					'pallliated',
+					'pallaited',
 				],
 				'palliates'=>[
 					'paliates',
 					'pallliates',
+					'pallaites',
 				],
 				'palliating'=>[
 					'paliating',
 					'pallliating',
+					'pallaiting',
 				],
 				'palliation'=>[
 					'paliation',
 					'pallliation',
+					'pallaition',
+					'palliatoin',
+					'palliaton',
 				],
 				'palliative'=>[
 					'paliative',
 					'pallliative',
+					'pallaitive',
 				],
 				'palliatively'=>[
 					'palliativly',
@@ -534,10 +950,12 @@
 				'palliatives'=>[
 					'paliatives',
 					'pallliatives',
+					'pallaitives',
 				],
 				'palliator'=>[
 					'paliator',
 					'pallliator',
+					'pallaitor',
 				],
 				'pallid'=>[
 					'palid',
@@ -559,10 +977,12 @@
 				'pallium'=>[
 					'palium',
 					'palllium',
+					'palluim',
 				],
 				'palliums'=>[
 					'paliums',
 					'pallliums',
+					'palluims',
 				],
 				'pallor'=>[
 					'palor',
@@ -577,17 +997,30 @@
 					'pallly',
 					'paly',
 				],
+				'palmaceous'=>[
+					'palmaceuos',
+					'palmacoeus',
+				],
 				'palmar'=>[
 					'palmer',
 				],
 				'palmary'=>[
 					'palmery',
+					'palary',
+					'pamary',
+				],
+				'palmate'=>[
+					'pamate',
 				],
 				'palmately'=>[
 					'palmatly',
 				],
 				'palmatine'=>[
 					'palamatine',
+				],
+				'palmation'=>[
+					'palmatoin',
+					'palmaton',
 				],
 				'palmette'=>[
 					'palmete',
@@ -600,16 +1033,80 @@
 				'palmettoes'=>[
 					'palmetoes',
 					'palmetttoes',
+					'palmetteos',
 				],
 				'palmettos'=>[
 					'palmetos',
 					'palmetttos',
 				],
+				'palmier'=>[
+					'palmeir',
+				],
+				'palmiest'=>[
+					'palmeist',
+				],
+				'palming'=>[
+					'paming',
+				],
+				'palmist'=>[
+					'palist',
+					'pamist',
+				],
+				'palmtops'=>[
+					'palmops',
+					'paltops',
+				],
+				'palpabilities'=>[
+					'palpabiliteis',
+					'palpibilities',
+				],
+				'palpability'=>[
+					'palpibility',
+				],
 				'palpable'=>[
 					'palpible',
 				],
+				'palpably'=>[
+					'palpibly',
+				],
+				'palpation'=>[
+					'palpatoin',
+					'palpaton',
+				],
+				'palpitant'=>[
+					'palpitent',
+				],
+				'palpitation'=>[
+					'palpitatoin',
+					'palpitaton',
+				],
+				'palpitations'=>[
+					'palpitatoins',
+					'palpitatons',
+				],
+				'palsgrave'=>[
+					'palsrave',
+				],
+				'palsgraves'=>[
+					'palsraves',
+				],
+				'palsied'=>[
+					'palseid',
+				],
+				'palsies'=>[
+					'palseis',
+				],
 				'palsy'=>[
 					'palcy',
+				],
+				'paltered'=>[
+					'palterd',
+				],
+				'paltrier'=>[
+					'paltreir',
+				],
+				'paltriest'=>[
+					'paltreist',
 				],
 				'paltriness'=>[
 					'paltrines',
@@ -626,6 +1123,9 @@
 					'palynologicalaly',
 					'palynologicalely',
 					'palynologicallly',
+				],
+				'pampered'=>[
+					'pamperd',
 				],
 				'pamphlet'=>[
 					'pamflet',
@@ -646,6 +1146,17 @@
 				],
 				'panacea'=>[
 					'panace',
+					'panacae',
+				],
+				'panacean'=>[
+					'panacaen',
+				],
+				'panaceas'=>[
+					'panacaes',
+				],
+				'panache'=>[
+					'paache',
+					'panche',
 				],
 				'panatella'=>[
 					'panatellla',
@@ -653,25 +1164,69 @@
 				'panatellas'=>[
 					'panatelllas',
 				],
+				'pancake'=>[
+					'pacake',
+					'panake',
+				],
+				'pancakes'=>[
+					'pacakes',
+					'panakes',
+				],
+				'pancratium'=>[
+					'pancratuim',
+				],
 				'pancreas'=>[
 					'pancres',
+					'pancraes',
+				],
+				'pancreases'=>[
+					'pancraeses',
 				],
 				'pancreatectomy'=>[
 					'pancretectomy',
 					'pancreactectomy',
 					'pancreatechtomy',
 				],
+				'pancreatic'=>[
+					'pancraetic',
+				],
 				'pancreaticoduodenectomy'=>[
 					'pancreaticodudenectomy',
 				],
+				'pancreatin'=>[
+					'pancraetin',
+				],
+				'pancreatitides'=>[
+					'pancraetitides',
+				],
 				'pancreatitis'=>[
 					'pancretitis',
+					'pancraetitis',
 				],
 				'pancreatobiliary'=>[
 					'pancreatobilary',
 				],
+				'pancreatotomy'=>[
+					'pancraetotomy',
+				],
 				'pandemic'=>[
 					'pandamic',
+				],
+				'pandemonium'=>[
+					'pandemonuim',
+				],
+				'pandered'=>[
+					'panderd',
+				],
+				'pandiculation'=>[
+					'pandiculatoin',
+					'pandiculaton',
+				],
+				'pandour'=>[
+					'panduor',
+				],
+				'pandowdies'=>[
+					'pandowdeis',
 				],
 				'panegyrically'=>[
 					'panegyricallly',
@@ -680,6 +1235,11 @@
 				'panel'=>[
 					'panal',
 					'pannel',
+				],
+				'panelboard'=>[
+					'paneboard',
+					'panelbaord',
+					'paneloard',
 				],
 				'panelled'=>[
 					'panellled',
@@ -694,6 +1254,34 @@
 					'panetone',
 					'panetttone',
 				],
+				'panfish'=>[
+					'pafish',
+					'panish',
+				],
+				'pangenesis'=>[
+					'pagenesis',
+					'panenesis',
+				],
+				'panhandle'=>[
+					'pahandle',
+					'panandle',
+				],
+				'panhandled'=>[
+					'pahandled',
+					'panandled',
+				],
+				'panhandler'=>[
+					'pahandler',
+					'panandler',
+				],
+				'panhandles'=>[
+					'pahandles',
+					'panandles',
+				],
+				'panhandling'=>[
+					'pahandling',
+					'panandling',
+				],
 				'panhellenic'=>[
 					'panhelenic',
 					'panhelllenic',
@@ -704,6 +1292,12 @@
 				],
 				'panic'=>[
 					'panie',
+				],
+				'panickier'=>[
+					'panickeir',
+				],
+				'panickiest'=>[
+					'panickeist',
 				],
 				'panicking'=>[
 					'panicing',
@@ -755,6 +1349,7 @@
 				],
 				'panniers'=>[
 					'pannniers',
+					'panneirs',
 				],
 				'pannikin'=>[
 					'panikin',
@@ -771,11 +1366,21 @@
 					'panabinostat',
 					'panbinostat',
 				],
+				'panoplied'=>[
+					'panopleid',
+				],
+				'panoplies'=>[
+					'panopleis',
+				],
 				'panoply'=>[
 					'panopally',
 					'panopaly',
 					'panopely',
 					'panoplly',
+				],
+				'panoptic'=>[
+					'panptic',
+					'paoptic',
 				],
 				'panorama'=>[
 					'panarama',
@@ -790,6 +1395,14 @@
 				'panoramically'=>[
 					'panouramically',
 				],
+				'panpipe'=>[
+					'panipe',
+					'papipe',
+				],
+				'panpipes'=>[
+					'panipes',
+					'papipes',
+				],
 				'pansexual'=>[
 					'pansexaul',
 				],
@@ -798,6 +1411,9 @@
 				],
 				'pansexuality'=>[
 					'pansexaulity',
+				],
+				'pansies'=>[
+					'panseis',
 				],
 				'pansy'=>[
 					'pancy',
@@ -814,9 +1430,21 @@
 				'panted'=>[
 					'pented',
 				],
+				'pantelegraph'=>[
+					'panelegraph',
+					'patelegraph',
+				],
 				'pantheism'=>[
 					'panthiesm',
 					'pentheism',
+				],
+				'pantheist'=>[
+					'panheist',
+					'panteist',
+					'panthiest',
+				],
+				'pantheistic'=>[
+					'panthiestic',
 				],
 				'pantheistical'=>[
 					'panthiestical',
@@ -826,14 +1454,37 @@
 					'pantheisticallly',
 					'pantheisticaly',
 				],
+				'pantheists'=>[
+					'panthiests',
+				],
 				'pantheon'=>[
 					'pentheon',
+					'panthoen',
+				],
+				'pantheons'=>[
+					'panthoens',
 				],
 				'panther'=>[
 					'penther',
 				],
+				'panthers'=>[
+					'panhers',
+				],
 				'pantie'=>[
 					'pentie',
+					'pantei',
+				],
+				'panties'=>[
+					'panies',
+					'panteis',
+				],
+				'pantile'=>[
+					'panile',
+					'patile',
+				],
+				'pantiles'=>[
+					'paniles',
+					'patiles',
 				],
 				'pantisocracy'=>[
 					'pantisocrasy',
@@ -857,6 +1508,10 @@
 				'pantoum'=>[
 					'pentoum',
 				],
+				'pantries'=>[
+					'panries',
+					'pantreis',
+				],
 				'pantry'=>[
 					'pentry',
 				],
@@ -865,15 +1520,46 @@
 				],
 				'pantsuit'=>[
 					'pentsuit',
+					'pansuit',
+					'pantsiut',
+					'pantuit',
+				],
+				'pantsuits'=>[
+					'pansuits',
+					'pantsiuts',
+					'pantuits',
 				],
 				'panty'=>[
 					'penty',
 				],
 				'pantyhose'=>[
 					'pentyhose',
+					'panthose',
+					'pantyose',
+				],
+				'pantyliner'=>[
+					'pantliner',
+					'pantyiner',
+				],
+				'pantywaist'=>[
+					'pantwaist',
+					'pantyaist',
+					'pantywiast',
+				],
+				'pantywaists'=>[
+					'pantywiasts',
+				],
+				'papacies'=>[
+					'papaceis',
 				],
 				'papacy'=>[
 					'papasy',
+				],
+				'papain'=>[
+					'papian',
+				],
+				'papains'=>[
+					'papians',
 				],
 				'papal'=>[
 					'papl',
@@ -894,6 +1580,10 @@
 					'paparazo',
 					'paparazzzo',
 				],
+				'papaveraceous'=>[
+					'papaveraceuos',
+					'papaveracoeus',
+				],
 				'papaverine'=>[
 					'papaverini',
 					'papavarine',
@@ -903,15 +1593,91 @@
 					'paper paper paper',
 					'papcr',
 				],
+				'paperback'=>[
+					'papeback',
+					'paperack',
+				],
+				'paperbacks'=>[
+					'papebacks',
+					'paperacks',
+				],
+				'paperbark'=>[
+					'papebark',
+					'paperark',
+				],
+				'paperbarks'=>[
+					'papebarks',
+					'paperarks',
+				],
+				'paperboard'=>[
+					'papeboard',
+					'paperbaord',
+					'paperoard',
+				],
+				'paperbound'=>[
+					'papebound',
+					'paperbuond',
+					'paperound',
+				],
+				'paperboys'=>[
+					'papeboys',
+					'paperoys',
+				],
+				'paperclip'=>[
+					'papeclip',
+					'paperlip',
+				],
+				'paperclips'=>[
+					'papeclips',
+					'paperlips',
+				],
+				'papered'=>[
+					'paperd',
+				],
+				'papergirl'=>[
+					'papegirl',
+					'paperirl',
+				],
+				'papergirls'=>[
+					'papegirls',
+					'paperirls',
+				],
+				'paperhanger'=>[
+					'papehanger',
+					'paperanger',
+				],
+				'paperhanging'=>[
+					'papehanging',
+					'paperanging',
+				],
 				'paperless'=>[
 					'paperles',
 					'paperlesss',
 				],
 				'paperweight'=>[
 					'paperwieght',
+					'papereight',
+					'papeweight',
+				],
+				'paperweights'=>[
+					'papereights',
+					'paperwieghts',
+					'papeweights',
+				],
+				'paperwork'=>[
+					'paperork',
+					'papework',
+				],
+				'papeterie'=>[
+					'papeterei',
 				],
 				'paphian'=>[
 					'paphan',
+				],
+				'papilionaceous'=>[
+					'papilionaceuos',
+					'papilionacoeus',
+					'papiloinaceous',
 				],
 				'papilionoid'=>[
 					'papillionoid',
@@ -923,6 +1689,7 @@
 				'papillae'=>[
 					'papilae',
 					'papilllae',
+					'papillea',
 				],
 				'papillar'=>[
 					'papiller',
@@ -983,6 +1750,7 @@
 				'pappies'=>[
 					'papies',
 					'papppies',
+					'pappeis',
 				],
 				'pappooses'=>[
 					'papooses',
@@ -1014,6 +1782,10 @@
 				'papulosis'=>[
 					'papulosisis',
 				],
+				'papyraceous'=>[
+					'papyraceuos',
+					'papyracoeus',
+				],
 				'papyrian'=>[
 					'papyran',
 				],
@@ -1022,6 +1794,10 @@
 				],
 				'parabasalid'=>[
 					'parabasilid',
+				],
+				'parabasis'=>[
+					'paraasis',
+					'parbasis',
 				],
 				'parabiosis'=>[
 					'perabiosis',
@@ -1042,6 +1818,9 @@
 				'parabola'=>[
 					'perabola',
 				],
+				'parabolae'=>[
+					'parabolea',
+				],
 				'parabolas'=>[
 					'perabolas',
 				],
@@ -1055,6 +1834,13 @@
 				],
 				'paraboloid'=>[
 					'peraboloid',
+					'paraboliod',
+				],
+				'paraboloids'=>[
+					'paraboliods',
+				],
+				'paracasein'=>[
+					'paracasien',
 				],
 				'parachor'=>[
 					'perachor',
@@ -1062,6 +1848,7 @@
 				'parachute'=>[
 					'parchute',
 					'perachute',
+					'parahute',
 				],
 				'parachuting'=>[
 					'perachuting',
@@ -1091,6 +1878,8 @@
 					'peradiddle',
 					'paradidddle',
 					'paradidle',
+					'paraiddle',
+					'pardiddle',
 				],
 				'paradiddles'=>[
 					'paradidddles',
@@ -1145,6 +1934,8 @@
 				],
 				'paradrop'=>[
 					'peradrop',
+					'pararop',
+					'pardrop',
 				],
 				'paradropped'=>[
 					'peradropped',
@@ -1177,6 +1968,9 @@
 				],
 				'parafoil'=>[
 					'perafoil',
+					'parafiol',
+					'paraoil',
+					'parfoil',
 				],
 				'paraform'=>[
 					'peraform',
@@ -1195,6 +1989,8 @@
 				],
 				'paragliding'=>[
 					'peragliding',
+					'paraliding',
+					'pargliding',
 				],
 				'paragoge'=>[
 					'peragoge',
@@ -1210,6 +2006,8 @@
 					'paragraph paragraph paragraph',
 					'peragraph',
 					'paragrapli',
+					'pararaph',
+					'pargraph',
 				],
 				'paragraphed'=>[
 					'peragraphed',
@@ -1219,6 +2017,9 @@
 				],
 				'paragraphers'=>[
 					'peragraphers',
+				],
+				'paragraphia'=>[
+					'paragraphai',
 				],
 				'paragraphic'=>[
 					'peragraphic',
@@ -1231,6 +2032,10 @@
 				],
 				'paraguayan-occupied'=>[
 					'paraguayan occupied',
+				],
+				'parahydrogen'=>[
+					'paraydrogen',
+					'parhydrogen',
 				],
 				'parainfluenza'=>[
 					'perainfluenza',
@@ -1279,9 +2084,12 @@
 				],
 				'paralegal'=>[
 					'peralegal',
+					'paraegal',
+					'parlegal',
 				],
 				'paralinguistic'=>[
 					'peralinguistic',
+					'paralingiustic',
 				],
 				'paralinguistics'=>[
 					'peralinguistics',
@@ -1437,9 +2245,13 @@
 				],
 				'paramagnet'=>[
 					'peramagnet',
+					'paraagnet',
+					'parmagnet',
 				],
 				'paramagnetic'=>[
 					'peramagnetic',
+					'paraagnetic',
+					'parmagnetic',
 				],
 				'paramagnetism'=>[
 					'peramagnetism',
@@ -1449,26 +2261,42 @@
 				],
 				'paramagnets'=>[
 					'peramagnets',
+					'paraagnets',
+					'parmagnets',
 				],
 				'paramatta'=>[
 					'peramatta',
 					'paramata',
 					'paramattta',
 				],
+				'paramecia'=>[
+					'paramecai',
+				],
 				'paramecium'=>[
 					'peramecium',
+					'paramecuim',
 				],
 				'parameciums'=>[
 					'perameciums',
+					'paramecuims',
 				],
 				'paramedic'=>[
 					'peramedic',
+					'paraedic',
+					'parmedic',
 				],
 				'paramedical'=>[
 					'peramedical',
+					'paraedical',
+					'parmedical',
+				],
+				'paramedics'=>[
+					'paraedics',
+					'parmedics',
 				],
 				'parament'=>[
 					'perament',
+					'paramant',
 				],
 				'paramesonephric'=>[
 					'paramesonephic',
@@ -1476,6 +2304,7 @@
 				'parameter'=>[
 					'perameter',
 					'parametre',
+					'paraeter',
 				],
 				'parameterisation'=>[
 					'paramaterisation',
@@ -1492,6 +2321,13 @@
 				'parameterizing'=>[
 					'perameterizing',
 				],
+				'parameters'=>[
+					'paraeters',
+				],
+				'parametric'=>[
+					'paraetric',
+					'parmetric',
+				],
 				'parametrically'=>[
 					'perametrically',
 					'parametricallly',
@@ -1499,6 +2335,8 @@
 				],
 				'parametrization'=>[
 					'perametrization',
+					'parametrizatoin',
+					'parametrizaton',
 				],
 				'parametrize'=>[
 					'perametrize',
@@ -1506,15 +2344,25 @@
 				'parametrizing'=>[
 					'perametrizing',
 				],
+				'paramilitaries'=>[
+					'paramilitareis',
+					'paramiliteries',
+				],
 				'paramilitary'=>[
 					'paramilitery',
 					'peramilitary',
+					'parailitary',
+					'parmilitary',
 				],
 				'paramnesia'=>[
 					'peramnesia',
+					'paamnesia',
+					'paramnesai',
+					'parmnesia',
 				],
 				'paramnesias'=>[
 					'peramnesias',
+					'paramnesais',
 				],
 				'paramorph'=>[
 					'paramourph',
@@ -1529,6 +2377,10 @@
 				'paramount'=>[
 					'paramout',
 					'peramount',
+					'paamount',
+					'paramuont',
+					'paraount',
+					'parmount',
 				],
 				'paramountcies'=>[
 					'peramountcies',
@@ -1536,12 +2388,17 @@
 				'paramountcy'=>[
 					'paramountsy',
 					'peramountcy',
+					'paramuontcy',
 				],
 				'paramountly'=>[
 					'peramountly',
 				],
 				'paramour'=>[
 					'peramour',
+					'paramuor',
+				],
+				'paramours'=>[
+					'paramuors',
 				],
 				'paramylum'=>[
 					'peramylum',
@@ -1562,27 +2419,45 @@
 				],
 				'paranoia'=>[
 					'peranoia',
+					'paranioa',
+					'paranoai',
 				],
 				'paranoiac'=>[
 					'peranoiac',
+					'paranioac',
+					'paranoaic',
 				],
 				'paranoiacally'=>[
 					'paranoiacallly',
 					'paranoiacaly',
+					'paranioacally',
+					'paranoaically',
+				],
+				'paranoiacs'=>[
+					'paranioacs',
+					'paranoaics',
 				],
 				'paranoic'=>[
 					'peranoic',
+					'paranioc',
 				],
 				'paranoically'=>[
 					'paranoicallly',
 					'paranoicaly',
+					'paraniocally',
 				],
 				'paranoid'=>[
 					'peranoid',
+					'paraniod',
+				],
+				'paranoids'=>[
+					'paraniods',
 				],
 				'paranormal'=>[
 					'paranourmal',
 					'peranormal',
+					'paraormal',
+					'parnormal',
 				],
 				'paranormalities'=>[
 					'paranourmalities',
@@ -1596,6 +2471,8 @@
 					'paranourmally',
 					'paranormallly',
 					'paranormaly',
+					'paraormally',
+					'parnormally',
 				],
 				'paranormals'=>[
 					'paranourmals',
@@ -1609,6 +2486,8 @@
 				],
 				'parapets'=>[
 					'perapets',
+					'paraets',
+					'parpets',
 				],
 				'parapharyngeal'=>[
 					'parapharingeal',
@@ -1616,9 +2495,14 @@
 				'paraphernalia'=>[
 					'paraphenalia',
 					'peraphernalia',
+					'paraphernalai',
 				],
 				'paraphilia'=>[
 					'paraphillia',
+					'paraphilai',
+				],
+				'paraphiliac'=>[
+					'paraphilaic',
 				],
 				'paraphrasable'=>[
 					'paraphrasible',
@@ -1627,9 +2511,15 @@
 				'paraphrase'=>[
 					'parafraz',
 					'peraphrase',
+					'parahrase',
+					'parphrase',
 				],
 				'paraphrasers'=>[
 					'peraphrasers',
+				],
+				'paraphrases'=>[
+					'parahrases',
+					'parphrases',
 				],
 				'paraphrasing'=>[
 					'peraphrasing',
@@ -1645,15 +2535,22 @@
 				],
 				'paraplegia'=>[
 					'peraplegia',
+					'paraplegai',
 				],
 				'paraplegic'=>[
 					'peraplegic',
+				],
+				'parapodia'=>[
+					'parapodai',
 				],
 				'parapodial'=>[
 					'perapodial',
 				],
 				'parapodium'=>[
 					'perapodium',
+					'paraodium',
+					'parapoduim',
+					'parpodium',
 				],
 				'parapophysis'=>[
 					'paraphophysis',
@@ -1661,13 +2558,34 @@
 				'paraprofessional'=>[
 					'paraprofesional',
 					'paraprofesssional',
+					'paraprofessoinal',
+					'paraprofessonal',
+					'pararofessional',
+					'parprofessional',
 				],
 				'paraprofessionals'=>[
 					'paraprofesionals',
 					'paraprofesssionals',
+					'paraprofessoinals',
+					'pararofessionals',
+					'parprofessionals',
+				],
+				'parapsychological'=>[
+					'parasychological',
+					'parpsychological',
+				],
+				'parapsychologist'=>[
+					'parasychologist',
+					'parpsychologist',
+				],
+				'parapsychologists'=>[
+					'parasychologists',
+					'parpsychologists',
 				],
 				'parapsychology'=>[
 					'perapsychology',
+					'parasychology',
+					'parpsychology',
 				],
 				'paraquat'=>[
 					'paraqaut',
@@ -1700,6 +2618,14 @@
 				],
 				'parasang'=>[
 					'perasang',
+					'paraang',
+					'parsang',
+				],
+				'parascending'=>[
+					'paascending',
+					'paracending',
+					'parasending',
+					'parscending',
 				],
 				'paraselene'=>[
 					'parselene',
@@ -1731,6 +2657,12 @@
 				],
 				'parasite'=>[
 					'perasite',
+					'paraite',
+					'parsite',
+				],
+				'parasites'=>[
+					'paraites',
+					'parsites',
 				],
 				'parasitic'=>[
 					'parisitic',
@@ -1808,6 +2740,8 @@
 				'parasympathetic'=>[
 					'perasympathetic',
 					'parasympathic',
+					'paraympathetic',
+					'parsympathetic',
 				],
 				'parasymphyseal'=>[
 					'parasymphysial',
@@ -1823,6 +2757,8 @@
 				],
 				'paratactic'=>[
 					'peratactic',
+					'paraactic',
+					'partactic',
 				],
 				'paratactical'=>[
 					'peratactical',
@@ -1834,9 +2770,13 @@
 				],
 				'parataxis'=>[
 					'perataxis',
+					'paraaxis',
+					'partaxis',
 				],
 				'parathion'=>[
 					'perathion',
+					'parathoin',
+					'parathon',
 				],
 				'parathions'=>[
 					'perathions',
@@ -1849,31 +2789,48 @@
 				],
 				'parathyroid'=>[
 					'perathyroid',
+					'parahyroid',
+					'parathyriod',
+					'parthyroid',
 				],
 				'parathyroids'=>[
 					'perathyroids',
+					'parathyriods',
 				],
 				'paratroop'=>[
 					'paratrooop',
 					'paratrop',
+					'pararoop',
+					'partroop',
+					'peratroop',
 				],
 				'paratrooper'=>[
 					'peratrooper',
 					'paratroooper',
 					'paratroper',
+					'pararooper',
+					'partrooper',
 				],
 				'paratroopers'=>[
 					'peratroopers',
 					'paratrooopers',
 					'paratropers',
+					'pararoopers',
+					'partroopers',
 				],
 				'paratroops'=>[
 					'peratroops',
 					'paratrooops',
 					'paratrops',
+					'pararoops',
+					'partroops',
+				],
+				'paratuberculosis'=>[
+					'peratuberculosis',
 				],
 				'paratyphoid'=>[
 					'peratyphoid',
+					'paratyphiod',
 				],
 				'paratyphoids'=>[
 					'peratyphoids',
@@ -1889,12 +2846,30 @@
 				],
 				'parboil'=>[
 					'perboil',
+					'paboil',
+					'parbiol',
+					'paroil',
+				],
+				'parboiled'=>[
+					'paboiled',
+					'parbioled',
+					'paroiled',
 				],
 				'parboiling'=>[
 					'perboiling',
+					'paboiling',
+					'parbioling',
+					'paroiling',
+				],
+				'parboils'=>[
+					'paboils',
+					'parbiols',
+					'paroils',
 				],
 				'parbuckle'=>[
 					'perbuckle',
+					'pabuckle',
+					'paruckle',
 				],
 				'parbuckled'=>[
 					'perbuckled',
@@ -1922,14 +2897,20 @@
 				'parchment'=>[
 					'perchment',
 					'parcliment',
+					'parchmant',
 				],
 				'parchments'=>[
 					'perchments',
+					'parchmants',
 				],
 					# perclose: an accepted spelling, not a slip (AmericanBritishWords_P: perclose)
 			#	'parclose'=>[
 			#		'perclose',
 			#	],
+				'parclose'=>[
+					'paclose',
+					'parlose',
+				],
 				'pardah'=>[
 					'parda',
 				],
@@ -1941,6 +2922,7 @@
 				],
 				'pardonable'=>[
 					'perdonable',
+					'pardonible',
 				],
 				'pardonableness'=>[
 					'perdonableness',
@@ -1951,6 +2933,10 @@
 					'pardonabely',
 					'pardonablly',
 					'perdonably',
+					'pardonibly',
+				],
+				'pardoned'=>[
+					'pardond',
 				],
 				'pardoner'=>[
 					'perdoner',
@@ -2047,12 +3033,21 @@
 				'paresthesia'=>[
 					'peresthesia',
 					'parasthesia',
+					'paresthesai',
 				],
 				'paresthesias'=>[
 					'peresthesias',
+					'paresthesais',
+				],
+				'pareu'=>[
+					'parue',
 				],
 				'parfait'=>[
 					'perfait',
+					'parfiat',
+				],
+				'parfaits'=>[
+					'parfiats',
 				],
 				'parfleche'=>[
 					'perfleche',
@@ -2078,36 +3073,58 @@
 				'pargetings'=>[
 					'pergetings',
 				],
+				'pargets'=>[
+					'parets',
+				],
 				'pargetted'=>[
 					'pargettted',
 				],
 				'pargetting'=>[
 					'pergetting',
 					'pargettting',
+					'paretting',
 				],
 				'parhelia'=>[
 					'perhelia',
+					'parhelai',
 				],
 				'parhelion'=>[
 					'perhelion',
+					'parheloin',
+					'parhelon',
 				],
 				'pariah'=>[
 					'paria',
+					'paraih',
 				],
 				'pariahs'=>[
 					'parias',
+					'paraihs',
 				],
 				'parian'=>[
 					'paran',
+					'parain',
+				],
+				'paries'=>[
+					'pareis',
 				],
 				'parietal'=>[
 					'pareital',
 					'parital',
 					'perietal',
 				],
+				'parietals'=>[
+					'pareitals',
+				],
 				'parietes'=>[
 					'perietes',
 					'parieties',
+				],
+				'parimutuel'=>[
+					'parimuteul',
+				],
+				'parimutuels'=>[
+					'parimuteuls',
 				],
 				'parings'=>[
 					'perings',
@@ -2125,12 +3142,17 @@
 				],
 				'parishioner'=>[
 					'perishioner',
+					'parishoiner',
 				],
 				'parishioners'=>[
 					'perishioners',
+					'parishoiners',
 				],
 				'parisyllabic'=>[
 					'parasyllabic',
+				],
+				'parities'=>[
+					'pariteis',
 				],
 				'parkade'=>[
 					'perkade',
@@ -2150,16 +3172,30 @@
 				],
 				'parkland'=>[
 					'perkland',
+					'parkand',
+					'parland',
 				],
 				'parkway'=>[
 					'perkway',
 				],
+				'parkways'=>[
+					'parkays',
+					'parways',
+				],
 				'parlance'=>[
 					'parlence',
 					'perlance',
+					'palance',
+					'parance',
 				],
 				'parlando'=>[
 					'perlando',
+				],
+				'parlaying'=>[
+					'paraying',
+				],
+				'parlays'=>[
+					'parays',
 				],
 				'parliament'=>[
 					'paliament',
@@ -2168,6 +3204,7 @@
 					'parliment',
 					'perliament',
 					'pariiament',
+					'parlaiment',
 				],
 				'parliamentarian'=>[
 					'paliamentarian',
@@ -2175,9 +3212,17 @@
 					'parliamentaran',
 					'perliamentarian',
 					'parlamentarian',
+					'parlaimentarian',
+					'parliamentarain',
 				],
 				'parliamentarianism'=>[
 					'parlimentarianism',
+					'parlaimentarianism',
+					'parliamentarainism',
+				],
+				'parliamentarians'=>[
+					'parlaimentarians',
+					'parliamentarains',
 				],
 				'parliamentary'=>[
 					'parlamentary',
@@ -2186,19 +3231,41 @@
 					'parliamentry',
 					'parlimentary',
 					'perliamentary',
+					'parlaimentary',
+				],
+				'parliaments'=>[
+					'parlaiments',
+					'parliamants',
+				],
+				'parlormaid'=>[
+					'parlomaid',
+					'parloraid',
+					'parlormiad',
+				],
+				'parlormaids'=>[
+					'parlomaids',
+					'parloraids',
+					'parlormiads',
 				],
 				'parlour'=>[
 					'perlour',
 				],
 				'parlous'=>[
 					'perlous',
+					'parluos',
+				],
+				'parlously'=>[
+					'parlousely',
+					'parluosly',
 				],
 				'parlousness'=>[
 					'parlousnes',
 					'parlousnesss',
+					'parluosness',
 				],
 				'parmigiana'=>[
 					'permigiana',
+					'parmigaina',
 				],
 				'parmigiano'=>[
 					'permigiano',
@@ -2206,22 +3273,35 @@
 				'parnassian'=>[
 					'parnasian',
 					'parnasssian',
+					'parnassain',
 				],
 				'parochial'=>[
 					'perochial',
+					'parochail',
 				],
 				'parochialism'=>[
 					'perochialism',
+					'parochailism',
 				],
 				'parochialisms'=>[
 					'perochialisms',
 				],
+				'parochiality'=>[
+					'parochaility',
+				],
 				'parochially'=>[
 					'parochiallly',
 					'parochialy',
+					'parochailly',
 				],
 				'parodic'=>[
 					'perodic',
+				],
+				'parodied'=>[
+					'parodeid',
+				],
+				'parodies'=>[
+					'parodeis',
 				],
 				'parodistic'=>[
 					'perodistic',
@@ -2231,6 +3311,10 @@
 				],
 				'parodos'=>[
 					'perodos',
+				],
+				'paroicous'=>[
+					'pariocous',
+					'paroicuos',
 				],
 				'paroled'=>[
 					'peroled',
@@ -2252,6 +3336,7 @@
 				'paronomasia'=>[
 					'peronomasia',
 					'paranomasia',
+					'paronomasai',
 				],
 				'paronomasias'=>[
 					'peronomasias',
@@ -2259,11 +3344,15 @@
 				'paronomastic'=>[
 					'peronomastic',
 				],
+				'paronychia'=>[
+					'paronychai',
+				],
 				'paronym'=>[
 					'peronym',
 				],
 				'paronymous'=>[
 					'peronymous',
+					'paronymuos',
 				],
 				'parosmia'=>[
 					'perosmia',
@@ -2286,12 +3375,21 @@
 				],
 				'parquet'=>[
 					'perquet',
+					'parqeut',
+				],
+				'parqueted'=>[
+					'parqeuted',
 				],
 				'parqueting'=>[
 					'perqueting',
+					'parqeuting',
 				],
 				'parquetry'=>[
 					'perquetry',
+					'parqeutry',
+				],
+				'parquets'=>[
+					'parqeuts',
 				],
 				'parr'=>[
 					'parrr',
@@ -2337,6 +3435,7 @@
 				'parried'=>[
 					'perried',
 					'parrried',
+					'parreid',
 				],
 				'parrier'=>[
 					'perrier',
@@ -2344,6 +3443,7 @@
 				'parries'=>[
 					'perries',
 					'parrries',
+					'parreis',
 				],
 				'parring'=>[
 					'perring',
@@ -2363,6 +3463,8 @@
 				'parrotfish'=>[
 					'parotfish',
 					'parrrotfish',
+					'parrofish',
+					'parrotish',
 				],
 				'parroting'=>[
 					'paroting',
@@ -2400,6 +3502,8 @@
 				'parsimonious'=>[
 					'parsimonous',
 					'persimonious',
+					'parsimoniuos',
+					'parsimonoius',
 				],
 				'parsimoniously'=>[
 					'parsimoniousally',
@@ -2408,10 +3512,15 @@
 					'parsimoniouslly',
 					'parsimonously',
 					'persimoniously',
+					'parsimoniuosly',
+					'parsimonoiusly',
 				],
 				'parsimoniousness'=>[
 					'parsimoniousnes',
 					'parsimoniousnesss',
+					'parsimoniuosness',
+					'parsimonoiusness',
+					'parsimonousness',
 				],
 				'parsimoniousnesses'=>[
 					'parsimoniousneses',
@@ -2424,11 +3533,16 @@
 				'parsing'=>[
 					'persing',
 				],
+				'parsings'=>[
+					'pasings',
+				],
 				'parsley'=>[
 					'persley',
 				],
 				'parsnip'=>[
 					'persnip',
+					'parnip',
+					'pasnip',
 				],
 				'parsonage'=>[
 					'pearsonage',
@@ -2438,6 +3552,8 @@
 				],
 				'parsons'=>[
 					'paersons',
+					'parons',
+					'pasons',
 				],
 				'part'=>[
 					'part part',
@@ -2445,6 +3561,19 @@
 				],
 				'partake'=>[
 					'pertake',
+					'parake',
+					'patake',
+				],
+				'partaken'=>[
+					'paraken',
+					'pataken',
+				],
+				'partakes'=>[
+					'parakes',
+					'patakes',
+				],
+				'partaking'=>[
+					'paraking',
 				],
 				'partans'=>[
 					'pertans',
@@ -2483,14 +3612,19 @@
 					'parthenogeneticallly',
 					'parthenogeneticaly',
 				],
+				'parthia'=>[
+					'parthai',
+				],
 				'partial'=>[
 					'pertial',
+					'partail',
 				],
 				'partialities'=>[
 					'pertialities',
 				],
 				'partiality'=>[
 					'pertiality',
+					'partaility',
 				],
 				'partially'=>[
 					'partialally',
@@ -2499,14 +3633,19 @@
 					'partiallly',
 					'partialy',
 					'pertially',
+					'partailly',
 				],
 				'partialness'=>[
 					'partialnes',
 					'partialnesss',
+					'partailness',
 				],
 				'partialnesses'=>[
 					'partialneses',
 					'partialnessses',
+				],
+				'partials'=>[
+					'partails',
 				],
 				'partibilities'=>[
 					'pertibilities',
@@ -2522,6 +3661,7 @@
 				],
 				'participants'=>[
 					'perticipants',
+					'participents',
 				],
 				'participate'=>[
 					'partecipate',
@@ -2541,6 +3681,8 @@
 				],
 				'participation'=>[
 					'perticipation',
+					'participatoin',
+					'participaton',
 				],
 				'participational'=>[
 					'perticipational',
@@ -2562,11 +3704,13 @@
 				],
 				'participial'=>[
 					'perticipial',
+					'participail',
 				],
 				'participially'=>[
 					'perticipially',
 					'participiallly',
 					'participialy',
+					'participailly',
 				],
 				'participle'=>[
 					'perticiple',
@@ -2578,9 +3722,15 @@
 				],
 				'particleboard'=>[
 					'perticleboard',
+					'particlboard',
+					'particlebaord',
+					'particleoard',
 				],
 				'particleboards'=>[
 					'perticleboards',
+				],
+				'particolored'=>[
+					'particolord',
 				],
 				'particular'=>[
 					'parituclar',
@@ -2621,9 +3771,15 @@
 				],
 				'particularities'=>[
 					'perticularities',
+					'particulariteis',
 				],
 				'particularity'=>[
 					'perticularity',
+					'particulerity',
+				],
+				'particularization'=>[
+					'particularizatoin',
+					'particularizaton',
 				],
 				'particularize'=>[
 					'perticularize',
@@ -2658,6 +3814,8 @@
 				],
 				'partied'=>[
 					'pertied',
+					'parteid',
+					'patied',
 				],
 				'partier'=>[
 					'pertier',
@@ -2666,6 +3824,7 @@
 					'perties',
 					'parites',
 					'partics',
+					'parteis',
 				],
 				'parting'=>[
 					'perting',
@@ -2689,18 +3848,31 @@
 				'partition'=>[
 					'partion',
 					'pertition',
+					'partitoin',
+					'partiton',
+				],
+				'partitioned'=>[
+					'partitiond',
+					'partitoined',
+					'partitoned',
 				],
 				'partitioners'=>[
 					'pertitioners',
 				],
 				'partitioning'=>[
 					'pertitioning',
+					'partitoining',
+					'partitoning',
 				],
 				'partitionist'=>[
 					'pertitionist',
 				],
 				'partitionists'=>[
 					'pertitionists',
+				],
+				'partitions'=>[
+					'partitoins',
+					'partitons',
 				],
 				'partitive'=>[
 					'pertitive',
@@ -2723,12 +3895,17 @@
 				'partner'=>[
 					'pertner',
 				],
+				'partnered'=>[
+					'partnerd',
+				],
 				'partnership'=>[
 					'pertnership',
 					'partnersliip',
 				],
 				'partnerships'=>[
 					'pertnerships',
+					'partnerhips',
+					'partnersips',
 				],
 				'partograph'=>[
 					'parthograph',
@@ -2741,26 +3918,42 @@
 					'pertook',
 					'partok',
 					'partoook',
+					'parook',
+					'patook',
 				],
 				'partridge'=>[
 					'pertridge',
+					'parridge',
+					'partidge',
 				],
 				'partridgeberries'=>[
 					'partridgeberies',
 					'partridgeberrries',
+					'partridgeberreis',
 				],
 				'partridgeberry'=>[
 					'partridgebery',
 					'pertridgeberry',
 					'partridgeberrry',
 				],
+				'partridges'=>[
+					'parridges',
+					'partidges',
+				],
 				'parturient'=>[
 					'partureint',
 					'parturint',
 					'perturient',
+					'parturiant',
+				],
+				'parturifacient'=>[
+					'parturifaceint',
+					'parturifaciant',
 				],
 				'parturition'=>[
 					'perturition',
+					'parturitoin',
+					'parturiton',
 				],
 				'parturitions'=>[
 					'perturitions',
@@ -2777,6 +3970,9 @@
 				],
 				'partygoer'=>[
 					'pertygoer',
+				],
+				'partying'=>[
+					'patying',
 				],
 				'paruras'=>[
 					'peruras',
@@ -2805,11 +4001,32 @@
 					'pacsal',
 					'pasal',
 				],
+				'pascals'=>[
+					'pacals',
+					'pasals',
+				],
+				'paschal'=>[
+					'pachal',
+					'pashal',
+				],
 				'pashmina'=>[
 					'pashmini',
 				],
+				'pasqueflower'=>[
+					'pasqeuflower',
+				],
+				'pasqueflowers'=>[
+					'pasqeuflowers',
+				],
+				'pasquil'=>[
+					'pasqiul',
+				],
 				'pasquinade'=>[
 					'pasquinide',
+					'pasqiunade',
+				],
+				'pasquinades'=>[
+					'pasqiunades',
 				],
 				'pass'=>[
 					'pas',
@@ -2831,6 +4048,7 @@
 				'passacaglia'=>[
 					'pasacaglia',
 					'passsacaglia',
+					'passacaglai',
 				],
 				'passage'=>[
 					'pasage',
@@ -2848,6 +4066,8 @@
 				'passageways'=>[
 					'pasageways',
 					'passsageways',
+					'passageays',
+					'passagways',
 				],
 				'passant'=>[
 					'passent',
@@ -2859,12 +4079,14 @@
 					'passsbook',
 					'passbok',
 					'passboook',
+					'passook',
 				],
 				'passbooks'=>[
 					'pasbooks',
 					'passsbooks',
 					'passboks',
 					'passboooks',
+					'passooks',
 				],
 				'passe'=>[
 					'pase',
@@ -2895,6 +4117,8 @@
 				'passementeries'=>[
 					'pasementeries',
 					'passsementeries',
+					'passementaries',
+					'passementereis',
 				],
 				'passenger'=>[
 					'pasenger',
@@ -2941,6 +4165,8 @@
 				'passifloraceous'=>[
 					'pasifloraceous',
 					'passsifloraceous',
+					'passifloraceuos',
+					'passifloracoeus',
 				],
 				'passim'=>[
 					'pasim',
@@ -2960,45 +4186,62 @@
 					'passsion',
 					'paffion',
 					'passiou',
+					'passoin',
+					'passon',
 				],
 				'passional'=>[
 					'passsional',
+					'passoinal',
+					'passonal',
 				],
 				'passionate'=>[
 					'pasionate',
 					'passsionate',
 					'passionatc',
+					'passoinate',
+					'passonate',
 				],
 				'passionately'=>[
 					'passionatly',
 					'pasionately',
 					'passsionately',
+					'passoinately',
 				],
 				'passionateness'=>[
 					'pasionateness',
 					'passionatenes',
 					'passionatenesss',
 					'passsionateness',
+					'passoinateness',
 				],
 				'passionflower'=>[
 					'pasionflower',
 					'passsionflower',
+					'passioflower',
+					'passionlower',
+					'passoinflower',
 				],
 				'passionflowers'=>[
 					'pasionflowers',
 					'passsionflowers',
+					'passioflowers',
+					'passionlowers',
+					'passoinflowers',
 				],
 				'passionless'=>[
 					'passionles',
 					'pasionless',
 					'passionlesss',
 					'passsionless',
+					'passoinless',
 				],
 				'passionlessly'=>[
 					'pasionlessly',
 					'passionlesly',
 					'passionlesssly',
 					'passsionlessly',
+					'passionlessely',
+					'passoinlessly',
 				],
 				'passionlessness'=>[
 					'pasionlessness',
@@ -3007,11 +4250,14 @@
 					'passionlessnesss',
 					'passionlesssness',
 					'passsionlessness',
+					'passoinlessness',
 				],
 				'passions'=>[
 					'pasions',
 					'passsions',
 					'paffions',
+					'passoins',
+					'passons',
 				],
 				'passivate'=>[
 					'pasivate',
@@ -3051,6 +4297,8 @@
 				'passivization'=>[
 					'pasivization',
 					'passsivization',
+					'passivizatoin',
+					'passivizaton',
 				],
 				'passivize'=>[
 					'pasivize',
@@ -3079,10 +4327,12 @@
 				'passport'=>[
 					'pasport',
 					'passsport',
+					'passort',
 				],
 				'passports'=>[
 					'pasports',
 					'passsports',
+					'passorts',
 				],
 				'passus'=>[
 					'pasus',
@@ -3091,10 +4341,12 @@
 				'password'=>[
 					'pasword',
 					'passsword',
+					'passord',
 				],
 				'passwords'=>[
 					'passswords',
 					'paswords',
+					'passords',
 				],
 				'past'=>[
 					'past past',
@@ -3103,19 +4355,55 @@
 				'past master'=>[
 					'pastmaster',
 				],
+				'pasteboard'=>[
+					'pastboard',
+					'pastebaord',
+					'pasteoard',
+				],
+				'pastelist'=>[
+					'pastlist',
+				],
+				'pasteurization'=>[
+					'pasteurizatoin',
+					'pasteurizaton',
+					'pastuerization',
+				],
 				'pasteurize'=>[
 					'pasturize',
+					'pastuerize',
+				],
+				'pasteurized'=>[
+					'pastuerized',
+				],
+				'pasteurizer'=>[
+					'pastuerizer',
+				],
+				'pasteurizers'=>[
+					'pastuerizers',
+				],
+				'pasteurizes'=>[
+					'pastuerizes',
+				],
+				'pasteurizing'=>[
+					'pastuerizing',
 				],
 				'pasticcio'=>[
 					'pasticio',
 					'pasticccio',
+					'pasticcoi',
 				],
 				'pasticheur'=>[
 					'pasticher',
 				],
+				'pastier'=>[
+					'pasier',
+					'pasteir',
+					'patier',
+				],
 				'pasties'=>[
 					'pasteis',
 					'pastis',
+					'pasies',
 				],
 				'pastille'=>[
 					'pastillle',
@@ -3126,6 +4414,12 @@
 				'pastime'=>[
 					'passtime',
 					'pasttime',
+					'pasime',
+					'patime',
+				],
+				'pastimes'=>[
+					'pasimes',
+					'patimes',
 				],
 				'pastina'=>[
 					'pastini',
@@ -3143,6 +4437,8 @@
 				'pastoral'=>[
 					'pastorial',
 					'pastural',
+					'pasoral',
+					'pastral',
 				],
 				'pastorally'=>[
 					'pastorallly',
@@ -3153,16 +4449,43 @@
 				],
 				'pastries'=>[
 					'pasteries',
+					'pasries',
+					'pastreis',
+				],
+				'pastured'=>[
+					'pasturd',
+				],
+				'pastureland'=>[
+					'pastureand',
+					'pasturland',
+				],
+				'patagium'=>[
+					'pataguim',
 				],
 				'patamar'=>[
 					'patamer',
 				],
+				'patchable'=>[
+					'patchible',
+				],
 				'patches'=>[
 					'patclies',
+				],
+				'patchier'=>[
+					'patcheir',
+				],
+				'patchiest'=>[
+					'patcheist',
 				],
 				'patchiness'=>[
 					'patchines',
 					'patchinesss',
+				],
+				'patchouli'=>[
+					'patchuoli',
+				],
+				'patchoulis'=>[
+					'patchuolis',
 				],
 				'patchouly'=>[
 					'patchoually',
@@ -3170,12 +4493,22 @@
 					'patchouely',
 					'patchoully',
 				],
+				'patchwork'=>[
+					'patchork',
+					'patcwork',
+				],
+				'patchworks'=>[
+					'patchorks',
+					'patcworks',
+				],
 				'patella'=>[
 					'patellla',
+					'patlla',
 				],
 				'patellae'=>[
 					'patelae',
 					'patelllae',
+					'patellea',
 				],
 				'patellar'=>[
 					'pateller',
@@ -3196,6 +4529,14 @@
 					'patant',
 					'pattent',
 				],
+				'patentability'=>[
+					'patenability',
+					'patentbility',
+					'patentibility',
+				],
+				'patentable'=>[
+					'patentible',
+				],
 				'patented'=>[
 					'patanted',
 					'pattented',
@@ -3214,6 +4555,12 @@
 					'patentaly',
 					'patentely',
 					'patentlly',
+				],
+				'paterfamilias'=>[
+					'paterfamilais',
+				],
+				'paterfamiliases'=>[
+					'paterfamilaises',
 				],
 				'paternal'=>[
 					'patemal',
@@ -3236,6 +4583,9 @@
 				],
 				'pathbreaking'=>[
 					'pathbreking',
+					'patbreaking',
+					'pathbraeking',
+					'pathreaking',
 				],
 				'pathetic'=>[
 					'patlietic',
@@ -3245,15 +4595,26 @@
 					'patheticallly',
 					'patheticaly',
 				],
+				'pathfinders'=>[
+					'patfinders',
+					'pathinders',
+				],
 				'pathless'=>[
 					'pathles',
 					'pathlesss',
+				],
+				'pathname'=>[
+					'pathame',
+					'patname',
 				],
 				'pathoadaptation'=>[
 					'pathoadaption',
 				],
 				'pathogenic'=>[
 					'pathologenic',
+				],
+				'pathogenous'=>[
+					'pathogenuos',
 				],
 				'pathognomonic'=>[
 					'pathonogmonic',
@@ -3263,6 +4624,9 @@
 					'pathologicallly',
 					'pathologicaly',
 				],
+				'pathologies'=>[
+					'pathologeis',
+				],
 				'pathophysiological'=>[
 					'pathophysical',
 				],
@@ -3271,6 +4635,10 @@
 				],
 				'paths'=>[
 					'patlis',
+				],
+				'pathways'=>[
+					'pathays',
+					'patways',
 				],
 				'patience'=>[
 					'pateince',
@@ -3283,17 +4651,30 @@
 					'patiant',
 					'patint',
 				],
+				'patienter'=>[
+					'pateinter',
+				],
+				'patientest'=>[
+					'pateintest',
+				],
 				'patiently'=>[
 					'patientally',
 					'patientaly',
 					'patientely',
 					'patientlly',
+					'pateintly',
+					'patiantly',
+				],
+				'patients'=>[
+					'pateints',
+					'patiants',
 				],
 				'patina'=>[
 					'patini',
 				],
 				'patinae'=>[
 					'patinie',
+					'patinea',
 				],
 				'patinaed'=>[
 					'patinied',
@@ -3304,11 +4685,21 @@
 				'patinate'=>[
 					'patinite',
 				],
+				'patination'=>[
+					'patinatoin',
+					'patinaton',
+				],
 				'patine'=>[
 					'patini',
 				],
 				'patinizing'=>[
 					'patinazing',
+				],
+				'patinous'=>[
+					'patinuos',
+				],
+				'patio'=>[
+					'patoi',
 				],
 				'patisserie'=>[
 					'patisserei',
@@ -3319,6 +4710,8 @@
 				'patisseries'=>[
 					'patiseries',
 					'patissseries',
+					'patissaries',
+					'patissereis',
 				],
 				'patly'=>[
 					'patally',
@@ -3329,11 +4722,38 @@
 					'patnes',
 					'patnesss',
 				],
+				'patresfamilias'=>[
+					'patresfamilais',
+				],
+				'patriarch'=>[
+					'patrairch',
+				],
+				'patriarchal'=>[
+					'patrairchal',
+				],
+				'patriarchate'=>[
+					'patrairchate',
+				],
+				'patriarchates'=>[
+					'patrairchates',
+				],
+				'patriarchic'=>[
+					'patrairchic',
+				],
+				'patriarchies'=>[
+					'patrairchies',
+					'patriarcheis',
+				],
 				'patriarchs'=>[
 					'patriarclis',
+					'patrairchs',
 				],
 				'patriarchy'=>[
 					'patriachy',
+					'patrairchy',
+				],
+				'patriate'=>[
+					'patraite',
 				],
 				'patrician'=>[
 					'particion',
@@ -3342,6 +4762,7 @@
 					'patrican',
 					'patricion',
 					'pratrician',
+					'patricain',
 				],
 				'patricians'=>[
 					'particions',
@@ -3349,27 +4770,67 @@
 					'partricions',
 					'patricions',
 					'pratricians',
+					'patricains',
+				],
+				'patriciate'=>[
+					'patricaite',
+				],
+				'patrilineage'=>[
+					'patrilinaege',
+				],
+				'patrilineages'=>[
+					'patrilinaeges',
 				],
 				'patrilineal'=>[
 					'patrilinel',
 					'patrilinial',
+					'patrilinael',
+				],
+				'patrimonial'=>[
+					'patrimonail',
+				],
+				'patrimonies'=>[
+					'patrimoneis',
+				],
+				'patriot'=>[
+					'pariot',
+					'patiot',
+					'patroit',
 				],
 				'patriotic'=>[
 					'patrotic',
+					'patroitic',
 				],
 				'patriotically'=>[
 					'patrioticallly',
 					'patrioticaly',
+					'patroitically',
 				],
 				'patriotism'=>[
 					'patriotifm',
 					'patriotisni',
+					'patroitism',
+				],
+				'patriots'=>[
+					'pariots',
+					'patiots',
+					'patroits',
 				],
 				'patrolled'=>[
 					'patrollled',
+					'patolled',
 				],
 				'patrolling'=>[
 					'patrollling',
+					'patolling',
+				],
+				'patrolwoman'=>[
+					'patroloman',
+					'patrowoman',
+				],
+				'patrolwomen'=>[
+					'patrolomen',
+					'patrowomen',
 				],
 				'patroness'=>[
 					'patronesss',
@@ -3377,6 +4838,10 @@
 				'patronesses'=>[
 					'patroneses',
 					'patronessses',
+				],
+				'patronization'=>[
+					'patronizatoin',
+					'patronizaton',
 				],
 				'patronymic'=>[
 					'patrionymic',
@@ -3393,6 +4858,9 @@
 				],
 				'patroonship'=>[
 					'patrooonship',
+				],
+				'patsies'=>[
+					'patseis',
 				],
 				'patsy'=>[
 					'patcy',
@@ -3411,6 +4879,7 @@
 				],
 				'pattered'=>[
 					'patttered',
+					'patterd',
 				],
 				'pattering'=>[
 					'patttering',
@@ -3426,6 +4895,7 @@
 				'patterned'=>[
 					'paterned',
 					'pattterned',
+					'patternd',
 				],
 				'patterning'=>[
 					'paterning',
@@ -3450,10 +4920,12 @@
 				'pattie'=>[
 					'patie',
 					'patttie',
+					'pattei',
 				],
 				'patties'=>[
 					'paties',
 					'pattties',
+					'patteis',
 				],
 				'patting'=>[
 					'pattting',
@@ -3461,12 +4933,23 @@
 				'patty'=>[
 					'pattty',
 				],
+				'patulous'=>[
+					'patuluos',
+				],
+				'patulously'=>[
+					'patulousely',
+					'patuluosly',
+				],
 				'patulousness'=>[
 					'patulousnes',
 					'patulousnesss',
+					'patuluosness',
 				],
 				'paucibacillary'=>[
 					'paucibaciliary',
+				],
+				'paucity'=>[
+					'puacity',
 				],
 				'paul nougé'=>[
 					'paul nouge',
@@ -3474,8 +4957,54 @@
 				'paul valery'=>[
 					'pole valery',
 				],
+				'pauldron'=>[
+					'pualdron',
+				],
+				'paulownia'=>[
+					'paulownai',
+					'pualownia',
+				],
+				'paunch'=>[
+					'puanch',
+				],
+				'paunches'=>[
+					'puanches',
+				],
+				'paunchier'=>[
+					'pauncheir',
+					'puanchier',
+				],
+				'paunchiest'=>[
+					'pauncheist',
+					'puanchiest',
+				],
+				'paunchy'=>[
+					'puanchy',
+				],
+				'pauper'=>[
+					'puaper',
+				],
+				'pauperism'=>[
+					'puaperism',
+				],
+				'pauperize'=>[
+					'puaperize',
+				],
+				'pauperized'=>[
+					'puaperized',
+				],
+				'pauperizes'=>[
+					'puaperizes',
+				],
+				'pauperizing'=>[
+					'puaperizing',
+				],
+				'paupers'=>[
+					'puapers',
+				],
 				'pause'=>[
 					'panse',
+					'puase',
 				],
 				'pave'=>[
 					'pathe',
@@ -3483,11 +5012,34 @@
 				'pavement'=>[
 					'pavemant',
 				],
+				'pavements'=>[
+					'pavemants',
+				],
 				'pavilion'=>[
 					'pavillion',
+					'paviloin',
+					'pavilon',
+				],
+				'pavilions'=>[
+					'paviloins',
+					'pavilons',
+				],
+				'pavlovian'=>[
+					'pavlovain',
 				],
 				'pawnable'=>[
 					'pawnible',
+				],
+				'pawnbroker'=>[
+					'pawbroker',
+					'pawnroker',
+				],
+				'pawnbrokers'=>[
+					'pawbrokers',
+					'pawnrokers',
+				],
+				'pawned'=>[
+					'pawnd',
 				],
 				'pawnee'=>[
 					'pawneee',
@@ -3498,6 +5050,15 @@
 				'pawnors'=>[
 					'pawnours',
 				],
+				'pawnshop'=>[
+					'pawnhop',
+					'pawshop',
+				],
+				'pawnshops'=>[
+					'pawnhops',
+					'pawnsops',
+					'pawshops',
+				],
 				'pay'=>[
 					'pay pay',
 					'pay pay pay',
@@ -3505,6 +5066,22 @@
 				],
 				'payable'=>[
 					'payible',
+				],
+				'payback'=>[
+					'paback',
+					'payack',
+				],
+				'paycheck'=>[
+					'pacheck',
+					'payheck',
+				],
+				'paychecks'=>[
+					'pachecks',
+					'payhecks',
+				],
+				'paydays'=>[
+					'padays',
+					'payays',
 				],
 				'payee'=>[
 					'payeee',
@@ -3515,12 +5092,35 @@
 				'paying'=>[
 					'payeing',
 				],
+				'payload'=>[
+					'paload',
+					'paylaod',
+					'payoad',
+				],
+				'payloads'=>[
+					'paloads',
+					'paylaods',
+					'payoads',
+				],
 				'paymaster'=>[
 					'payemaster',
 					'paymastor',
+					'pamaster',
+					'payaster',
+				],
+				'paymasters'=>[
+					'pamasters',
+					'payasters',
 				],
 				'payment'=>[
 					'paymant',
+				],
+				'payments'=>[
+					'paymants',
+				],
+				'paymistress'=>[
+					'pamistress',
+					'payistress',
 				],
 				'payoff'=>[
 					'payof',
@@ -3530,9 +5130,27 @@
 					'payofffs',
 					'payofs',
 				],
+				'payout'=>[
+					'payuot',
+				],
+				'payouts'=>[
+					'paouts',
+					'payuots',
+					'payuts',
+				],
+				'payphone'=>[
+					'paphone',
+					'payhone',
+				],
+				'payphones'=>[
+					'paphones',
+					'payhones',
+				],
 				'payroll'=>[
 					'payrol',
 					'payrolll',
+					'paroll',
+					'payoll',
 				],
 					# pe: an accepted spelling, not a slip (AmericanBritishWords_P: pe)
 			#	'pea'=>[
@@ -3541,6 +5159,17 @@
 				'payrolls'=>[
 					'payrollls',
 					'payrols',
+					'parolls',
+					'payolls',
+				],
+				'payslip'=>[
+					'paslip',
+					'paylip',
+				],
+				'payslips'=>[
+					'paslips',
+					'paylips',
+					'paysips',
 				],
 				'peabrain'=>[
 					'peebrain',
@@ -3550,68 +5179,147 @@
 					'pcace',
 					'peacc',
 					'peaee',
+					'paece',
 				],
 				'peaceable'=>[
 					'peaceble',
 					'peaceible',
 					'peacable',
+					'paeceable',
+					'peacaeble',
 				],
 				'peaceablenesses'=>[
 					'peaceblenesses',
 				],
 				'peaceably'=>[
 					'peacably',
+					'paeceably',
+					'peacaebly',
+					'peaceibly',
 				],
 				'peaceful'=>[
 					'peacefull',
 					'peceful',
+					'paeceful',
 				],
 				'peacefully'=>[
 					'peacefullly',
 					'peacefuly',
+					'paecefully',
+					'peaceully',
+					'peacfully',
 				],
 				'peacefulness'=>[
 					'peacefulnes',
 					'peacefulnesss',
+					'paecefulness',
 				],
 				'peacekeeper'=>[
 					'pecekeeper',
 					'peacekeeeper',
 					'peacekeper',
+					'paecekeeper',
+					'peaceeeper',
+					'peackeeper',
 				],
 				'peacekeepers'=>[
 					'peacekeeepers',
 					'peacekepers',
+					'paecekeepers',
+					'peaceeepers',
+					'peackeepers',
 				],
 				'peacekeeping'=>[
 					'pecekeeping',
 					'peacekeeeping',
 					'peacekeping',
+					'paecekeeping',
+					'peaceeeping',
+					'peackeeping',
 				],
 				'peacemaker'=>[
 					'pecemaker',
+					'paecemaker',
+					'peaceaker',
+					'peacmaker',
+				],
+				'peacemakers'=>[
+					'paecemakers',
+					'peaceakers',
+					'peacmakers',
+				],
+				'peacemaking'=>[
+					'paecemaking',
+					'peaceaking',
+					'peacmaking',
+				],
+				'peaces'=>[
+					'paeces',
 				],
 				'peacetime'=>[
 					'pecetime',
+					'paecetime',
+					'peaceime',
+					'peactime',
 				],
 				'peach'=>[
 					'pech',
 					'peacli',
+					'paech',
 				],
 				'peaches'=>[
 					'peachs',
+					'paeches',
+				],
+				'peachier'=>[
+					'paechier',
+					'peacheir',
+				],
+				'peachiest'=>[
+					'paechiest',
+					'peacheist',
+				],
+				'peachy'=>[
+					'paechy',
+				],
+				'peacoat'=>[
+					'paecoat',
+					'peacaot',
+					'peaoat',
+					'pecoat',
+				],
+				'peacoats'=>[
+					'paecoats',
+					'peacaots',
+					'peaoats',
+					'pecoats',
 				],
 				'peacock'=>[
 					'pecock',
+					'paecock',
+					'peaock',
+				],
+				'peacocks'=>[
+					'paecocks',
+					'peaocks',
+				],
+				'peafowl'=>[
+					'paefowl',
+				],
+				'peafowls'=>[
+					'paefowls',
 				],
 				'peag'=>[
 					'peg',
 				],
 				'peahen'=>[
 					'peaen',
+					'paehen',
 				],
 				'peahens'=>[
 					'peaens',
+					'paehens',
+					'pehens',
 				],
 				'peak'=>[
 					'pek',
@@ -3619,14 +5327,38 @@
 				'peaked'=>[
 					'peked',
 				],
+				'peaking'=>[
+					'peaing',
+				],
+				'peaky'=>[
+					'paeky',
+				],
 				'peal'=>[
 					'pel',
+				],
+				'pealed'=>[
+					'paeled',
+				],
+				'pealing'=>[
+					'paeling',
+				],
+				'peals'=>[
+					'paels',
 				],
 				'pean'=>[
 					'paen',
 				],
+				'peans'=>[
+					'paens',
+				],
 				'peanut'=>[
 					'penut',
+					'paenut',
+				],
+				'peanuts'=>[
+					'paenuts',
+					'peauts',
+					'penuts',
 				],
 				'pear'=>[
 					'peear',
@@ -3635,6 +5367,10 @@
 				],
 				'pearl'=>[
 					'perl',
+					'paerl',
+				],
+				'pearled'=>[
+					'paerled',
 				],
 				'pearlescence'=>[
 					'pearlescance',
@@ -3645,19 +5381,49 @@
 					'pearlesent',
 					'perlescent',
 				],
+				'pearlie'=>[
+					'paerlie',
+					'pearlei',
+				],
+				'pearlier'=>[
+					'paerlier',
+					'pearleir',
+				],
+				'pearliest'=>[
+					'paerliest',
+					'pearleist',
+				],
+				'pearling'=>[
+					'paerling',
+				],
+				'pearls'=>[
+					'paerls',
+				],
 				'pearly'=>[
 					'pearally',
 					'pearaly',
 					'pearely',
 					'pearlly',
 					'perly',
+					'paerly',
+					'pearily',
+				],
+				'pears'=>[
+					'paers',
 				],
 				'peart'=>[
 					'pert',
+					'paert',
 				],
 				'peartrees'=>[
 					'peartreees',
 					'peartres',
+					'paertrees',
+					'pearrees',
+					'peatrees',
+				],
+				'peary'=>[
+					'paery',
 				],
 				'peas'=>[
 					'pes',
@@ -3671,30 +5437,66 @@
 					'peasanty',
 					'peasentry',
 					'pesantry',
+					'paesantry',
 				],
 				'peasants'=>[
 					'paesents',
 					'pcasants',
 					'peasents',
 					'pesants',
+					'paesants',
 				],
 				'pease'=>[
 					'pese',
+					'paese',
+				],
+				'peasecod'=>[
+					'paesecod',
+				],
+				'peasecods'=>[
+					'paesecods',
 				],
 				'peashooter'=>[
 					'peashoooter',
 					'peashoter',
+					'paeshooter',
+					'peahooter',
+					'peshooter',
 				],
 				'peashooters'=>[
 					'peashoooters',
 					'peashoters',
+					'paeshooters',
+					'peahooters',
+					'peshooters',
 				],
 				'peat'=>[
 					'peatt',
 				],
+				'peatbog'=>[
+					'paetbog',
+				],
+				'peatier'=>[
+					'paetier',
+					'peateir',
+				],
+				'peatiest'=>[
+					'paetiest',
+					'peateist',
+				],
 				'peatmoss'=>[
 					'peatmos',
 					'peatmosss',
+					'paetmoss',
+				],
+				'peaty'=>[
+					'paety',
+				],
+				'peavey'=>[
+					'paevey',
+				],
+				'peaveys'=>[
+					'paeveys',
 				],
 				'pebble'=>[
 					'peble',
@@ -3711,10 +5513,12 @@
 				'pebblier'=>[
 					'pebbblier',
 					'peblier',
+					'pebbleir',
 				],
 				'pebbliest'=>[
 					'pebbbliest',
 					'pebliest',
+					'pebbleist',
 				],
 				'pebbling'=>[
 					'pebbbling',
@@ -3739,6 +5543,7 @@
 					'peccadillloes',
 					'peccadiloes',
 					'pecccadilloes',
+					'peccadilleos',
 				],
 				'peccadillos'=>[
 					'pecadillos',
@@ -3750,13 +5555,17 @@
 					'pecancy',
 					'peccansy',
 					'pecccancy',
+					'peccency',
 				],
 				'peccant'=>[
 					'pecant',
 					'pecccant',
+					'peccent',
 				],
 				'peccaries'=>[
 					'pecccaries',
+					'peccareis',
+					'pecceries',
 				],
 				'peccary'=>[
 					'pecary',
@@ -3773,6 +5582,7 @@
 				'pecksniffian'=>[
 					'pecksnifffian',
 					'pecksnifian',
+					'pecksniffain',
 				],
 				'pectate lyase'=>[
 					'pectatlyase',
@@ -3789,6 +5599,13 @@
 				'pectinesterases'=>[
 					'pectinisterases',
 				],
+				'pectinous'=>[
+					'pectinuos',
+				],
+				'peculation'=>[
+					'peculatoin',
+					'peculaton',
+				],
 				'peculiar'=>[
 					'pecular',
 					'peculier',
@@ -3796,22 +5613,44 @@
 					'perculiar',
 					'pecnliar',
 					'peeuliar',
+					'peculair',
 				],
 				'peculiarities'=>[
 					'peculiarites',
+					'peculairities',
+					'peculiariteis',
 				],
 				'peculiarity'=>[
 					'pecularity',
+					'peculairity',
+				],
+				'peculiarize'=>[
+					'peculairize',
 				],
 				'peculiarly'=>[
 					'pecularly',
+					'peculairly',
+					'peculiarily',
+				],
+				'peculium'=>[
+					'peculuim',
+				],
+				'pecuniarily'=>[
+					'pecunairily',
 				],
 				'pecuniary'=>[
 					'pecuniery',
+					'pecunairy',
 				],
 				'pedagogically'=>[
 					'pedagogicallly',
 					'pedagogicaly',
+				],
+				'pedagogue'=>[
+					'pedagogeu',
+				],
+				'pedagogues'=>[
+					'pedagogeus',
 				],
 				'pedalled'=>[
 					'pedallled',
@@ -3872,15 +5711,67 @@
 				],
 				'pedestrian'=>[
 					'pedestran',
+					'pedestrain',
+				],
+				'pedestrianism'=>[
+					'pedestrainism',
+				],
+				'pedestrianization'=>[
+					'pedestrainization',
+					'pedestrianizatoin',
+					'pedestrianizaton',
+				],
+				'pedestrianize'=>[
+					'pedestrainize',
+				],
+				'pedestrianized'=>[
+					'pedestrainized',
+				],
+				'pedestrianizes'=>[
+					'pedestrainizes',
+				],
+				'pedestrianizing'=>[
+					'pedestrainizing',
+				],
+				'pedestrianly'=>[
+					'pedestrainly',
+					'pedestrianely',
+				],
+				'pedestrians'=>[
+					'pedestrains',
+				],
+				'pediatric'=>[
+					'pedaitric',
 				],
 				'pediatrician'=>[
 					'pediatrican',
+					'pedaitrician',
+					'pediatricain',
+				],
+				'pediatricians'=>[
+					'pedaitricians',
+					'pediatricains',
+				],
+				'pediatrics'=>[
+					'pedaitrics',
+				],
+				'pediatrist'=>[
+					'pedaitrist',
+				],
+				'pediatrists'=>[
+					'pedaitrists',
 				],
 				'pedicular'=>[
 					'pediculer',
 				],
+				'pediculous'=>[
+					'pediculuos',
+				],
 				'pedicure'=>[
 					'peticure',
+				],
+				'pedicured'=>[
+					'pedicurd',
 				],
 				'pedigree'=>[
 					'pedigre',
@@ -3897,6 +5788,9 @@
 				'pediment'=>[
 					'pedimant',
 				],
+				'pediments'=>[
+					'pedimants',
+				],
 				'pediplain'=>[
 					'pediplane',
 				],
@@ -3911,6 +5805,9 @@
 				],
 				'pedography'=>[
 					'podography',
+				],
+				'pedophilia'=>[
+					'pedophilai',
 				],
 				'peduncle'=>[
 					'penduncle',
@@ -3930,6 +5827,7 @@
 				'peeing'=>[
 					'peeeing',
 					'peing',
+					'peieng',
 				],
 				'peek'=>[
 					'peeek',
@@ -4005,10 +5903,12 @@
 				'peephole'=>[
 					'peeephole',
 					'pephole',
+					'peepole',
 				],
 				'peepholes'=>[
 					'peeepholes',
 					'pepholes',
+					'peepoles',
 				],
 				'peeping'=>[
 					'peeeping',
@@ -4019,10 +5919,14 @@
 				'peepshow'=>[
 					'peeepshow',
 					'pepshow',
+					'peephow',
+					'peeshow',
 				],
 				'peepshows'=>[
 					'peeepshows',
 					'pepshows',
+					'peephows',
+					'peeshows',
 				],
 				'peepul'=>[
 					'peeepul',
@@ -4038,13 +5942,16 @@
 				'peerage'=>[
 					'peeerage',
 					'perage',
+					'peeage',
 				],
 				'peerages'=>[
 					'peeerages',
 					'perages',
+					'peeages',
 				],
 				'peered'=>[
 					'peeered',
+					'peerd',
 				],
 				'peeress'=>[
 					'peeresss',
@@ -4070,6 +5977,7 @@
 					'peerlesssly',
 					'peeerlessly',
 					'perlessly',
+					'peerlessely',
 				],
 				'peers'=>[
 					'peeers',
@@ -4119,6 +6027,17 @@
 				],
 				'peewits'=>[
 					'peeewits',
+					'peeits',
+				],
+				'pegboard'=>[
+					'peboard',
+					'pegbaord',
+					'pegoard',
+				],
+				'pegboards'=>[
+					'peboards',
+					'pegbaords',
+					'pegoards',
 				],
 				'pegged'=>[
 					'peged',
@@ -4133,6 +6052,11 @@
 				],
 				'peignoir'=>[
 					'piegnoir',
+					'peignior',
+				],
+				'peignoirs'=>[
+					'peigniors',
+					'piegnoirs',
 				],
 				'pein'=>[
 					'pien',
@@ -4146,12 +6070,25 @@
 				'peise'=>[
 					'piese',
 				],
+				'pejoration'=>[
+					'pejoratoin',
+					'pejoraton',
+				],
 				'pejorative'=>[
 					'perjorative',
 					'prejorative',
 				],
 				'pejoratively'=>[
 					'pejorativly',
+				],
+				'pekoe'=>[
+					'pekeo',
+				],
+				'pelagian'=>[
+					'pelagain',
+				],
+				'pelargonium'=>[
+					'pelargonuim',
 				],
 				'pelisse'=>[
 					'pelise',
@@ -4168,6 +6105,7 @@
 				'pellagrous'=>[
 					'pelagrous',
 					'pelllagrous',
+					'pellagruos',
 				],
 				'pellet'=>[
 					'pelet',
@@ -4208,6 +6146,7 @@
 				'pellitories'=>[
 					'pelitories',
 					'pelllitories',
+					'pellitoreis',
 				],
 				'pellitory'=>[
 					'pelitory',
@@ -4226,6 +6165,7 @@
 				'pellucidities'=>[
 					'pelllucidities',
 					'pelucidities',
+					'pelluciditeis',
 				],
 				'pellucidity'=>[
 					'pelllucidity',
@@ -4247,6 +6187,9 @@
 				],
 				'peloponnese'=>[
 					'peloponnes',
+				],
+				'peloria'=>[
+					'pelorai',
 				],
 				'pelorian'=>[
 					'peloran',
@@ -4273,8 +6216,17 @@
 				'pemmicans'=>[
 					'pemnicans',
 				],
+				'penalization'=>[
+					'penalizatoin',
+					'penalizaton',
+				],
 				'penally'=>[
 					'penallly',
+				],
+				'penalties'=>[
+					'penalies',
+					'penalteis',
+					'penaties',
 				],
 				'penalty'=>[
 					'penatly',
@@ -4284,6 +6236,11 @@
 				],
 				'penchant'=>[
 					'penchent',
+					'pechant',
+					'penhant',
+				],
+				'penchants'=>[
+					'penchents',
 				],
 				'pencil'=>[
 					'perioil',
@@ -4305,9 +6262,11 @@
 				],
 				'pendency'=>[
 					'pendensy',
+					'pendancy',
 				],
 				'pendent'=>[
 					'pendant',
+					'penent',
 				],
 				'pendentive'=>[
 					'pendantive',
@@ -4321,17 +6280,69 @@
 				'pendents'=>[
 					'pendants',
 				],
+				'pending'=>[
+					'peding',
+				],
+				'pendragon'=>[
+					'pedragon',
+					'penragon',
+				],
+				'pendragons'=>[
+					'pedragons',
+					'penragons',
+				],
 				'pendular'=>[
 					'penduler',
 				],
+				'pendulous'=>[
+					'penduluos',
+				],
+				'pendulously'=>[
+					'pendulousely',
+					'penduluosly',
+				],
+				'peneplain'=>[
+					'peneplian',
+				],
+				'penetrability'=>[
+					'penetribility',
+				],
 				'penetrable'=>[
 					'penetrible',
+				],
+				'penetralia'=>[
+					'penetralai',
 				],
 				'penetrance'=>[
 					'penetrence',
 				],
 				'penetrant'=>[
 					'penetrent',
+				],
+				'penetration'=>[
+					'penetratoin',
+					'penetraton',
+				],
+				'penetrations'=>[
+					'penetratoins',
+					'penetratons',
+				],
+				'penfriend'=>[
+					'pefriend',
+					'penfreind',
+					'penriend',
+				],
+				'penfriends'=>[
+					'pefriends',
+					'penfreinds',
+					'penriends',
+				],
+				'penguin'=>[
+					'pengiun',
+				],
+				'penholder'=>[
+					'peholder',
+					'penolder',
 				],
 				'penicillamine'=>[
 					'penicilamine',
@@ -4356,6 +6367,7 @@
 				'penicillium'=>[
 					'penicilium',
 					'penicilllium',
+					'penicilluim',
 				],
 				'peninsula'=>[
 					'peninnsula',
@@ -4381,10 +6393,39 @@
 				],
 				'penitential'=>[
 					'penitantial',
+					'penitentail',
+				],
+				'penitentiaries'=>[
+					'penitentairies',
+					'penitentiareis',
+					'penitentieries',
 				],
 				'penitentiary'=>[
 					'penitantiary',
 					'penitentiery',
+					'penitentairy',
+				],
+				'penitently'=>[
+					'penitantly',
+				],
+				'penitents'=>[
+					'penitants',
+				],
+				'penknife'=>[
+					'peknife',
+					'pennife',
+				],
+				'penknives'=>[
+					'peknives',
+					'pennives',
+				],
+				'penlight'=>[
+					'pelight',
+					'penight',
+				],
+				'penlights'=>[
+					'pelights',
+					'penights',
 				],
 				'penman'=>[
 					'peman',
@@ -4421,6 +6462,7 @@
 				'pennants'=>[
 					'penants',
 					'pennnants',
+					'pennents',
 				],
 				'pennate'=>[
 					'penate',
@@ -4450,6 +6492,7 @@
 				'pennies'=>[
 					'penies',
 					'pennnies',
+					'penneis',
 				],
 				'penniless'=>[
 					'peniless',
@@ -4491,6 +6534,7 @@
 				'pennoned'=>[
 					'pennnoned',
 					'penoned',
+					'pennond',
 				],
 				'pennons'=>[
 					'penons',
@@ -4516,6 +6560,8 @@
 				'pennyroyal'=>[
 					'penyroyal',
 					'pennnyroyal',
+					'pennroyal',
+					'pennyoyal',
 				],
 				'pennyroyals'=>[
 					'pennnyroyals',
@@ -4525,10 +6571,15 @@
 					'pennywieght',
 					'penyweight',
 					'pennnyweight',
+					'pennweight',
+					'pennyeight',
 				],
 				'pennyweights'=>[
 					'pennnyweights',
 					'penyweights',
+					'pennweights',
+					'pennyeights',
+					'pennywieghts',
 				],
 				'pennywhistle'=>[
 					'penywhistle',
@@ -4542,6 +6593,8 @@
 				'pennyworth'=>[
 					'penyworth',
 					'pennnyworth',
+					'pennworth',
+					'pennyorth',
 				],
 				'pennyworths'=>[
 					'pennnyworths',
@@ -4550,8 +6603,39 @@
 				'pennyworts'=>[
 					'penyworts',
 				],
+				'pension'=>[
+					'pensoin',
+				],
+				'pensionable'=>[
+					'pensionible',
+					'pensoinable',
+				],
+				'pensionaries'=>[
+					'pensionareis',
+					'pensioneries',
+					'pensoinaries',
+					'pensonaries',
+				],
 				'pensionary'=>[
 					'pensionery',
+					'pensoinary',
+					'pensonary',
+				],
+				'pensioned'=>[
+					'pensiond',
+					'pensoined',
+				],
+				'pensioner'=>[
+					'pensoiner',
+				],
+				'pensioners'=>[
+					'pensoiners',
+				],
+				'pensioning'=>[
+					'pensoining',
+				],
+				'pensions'=>[
+					'pensoins',
 				],
 				'pensively'=>[
 					'pensivly',
@@ -4559,6 +6643,14 @@
 				'pensiveness'=>[
 					'pensivenes',
 					'pensivenesss',
+				],
+				'penstock'=>[
+					'pentock',
+					'pestock',
+				],
+				'penstocks'=>[
+					'pentocks',
+					'pestocks',
 				],
 				'pent'=>[
 					'pant',
@@ -4584,12 +6676,22 @@
 				'pentahedrons'=>[
 					'pentaedrons',
 				],
+				'pentamerous'=>[
+					'pentameruos',
+				],
 				'pentamidine'=>[
 					'pentamidini',
 					'pentamdine',
 				],
 				'pentane'=>[
 					'pantane',
+				],
+				'pentangle'=>[
+					'penangle',
+					'petangle',
+				],
+				'pentangular'=>[
+					'pentanguler',
 				],
 				'pentapeptide'=>[
 					'pantapeptide',
@@ -4601,11 +6703,21 @@
 					'pentasylabic',
 					'pentasylllabic',
 				],
+				'pentateuchal'=>[
+					'pentatuechal',
+				],
+				'pentavalent'=>[
+					'pentavalant',
+				],
 				'pentazocine'=>[
 					'pentazocini',
 				],
 				'penthouse'=>[
 					'panthouse',
+					'penthuose',
+				],
+				'penthouses'=>[
+					'penthuoses',
 				],
 				'pentium'=>[
 					'pentum',
@@ -4628,18 +6740,48 @@
 				'pentyl'=>[
 					'pantyl',
 				],
+				'penultimate'=>[
+					'penltimate',
+					'peultimate',
+				],
 				'penultimately'=>[
 					'penultimatly',
+					'penltimately',
+					'peultimately',
+				],
+				'penumbrae'=>[
+					'penumbrea',
 				],
 				'penurious'=>[
 					'penurous',
+					'penuriuos',
+					'penuroius',
 				],
 				'penuriously'=>[
 					'penurously',
+					'penuriousely',
+					'penuriuosly',
+					'penuroiusly',
 				],
 				'penuriousness'=>[
 					'penuriousnes',
 					'penuriousnesss',
+					'penuriuosness',
+					'penuroiusness',
+					'penurousness',
+				],
+				'peonage'=>[
+					'poenage',
+				],
+				'peonies'=>[
+					'peoneis',
+					'poenies',
+				],
+				'peons'=>[
+					'poens',
+				],
+				'peony'=>[
+					'poeny',
 				],
 				'people'=>[
 					'pcople',
@@ -4653,6 +6795,15 @@
 					'peopie',
 					'peoplc',
 					'peopte',
+				],
+				'peopled'=>[
+					'poepled',
+				],
+				'peoples'=>[
+					'poeples',
+				],
+				'peopling'=>[
+					'poepling',
 				],
 				'pepped'=>[
 					'peped',
@@ -4668,6 +6819,8 @@
 				'peppercorn'=>[
 					'pepercorn',
 					'pepppercorn',
+					'peppecorn',
+					'pepperorn',
 				],
 				'peppercorns'=>[
 					'pepercorns',
@@ -4675,6 +6828,7 @@
 				],
 				'peppered'=>[
 					'pepppered',
+					'pepperd',
 				],
 				'pepperers'=>[
 					'peperers',
@@ -4684,6 +6838,8 @@
 					'peppergras',
 					'peppergrasss',
 					'pepppergrass',
+					'peppegrass',
+					'pepperrass',
 				],
 				'peppergrasses'=>[
 					'pepergrasses',
@@ -4698,6 +6854,8 @@
 				'peppermint'=>[
 					'pepermint',
 					'pepppermint',
+					'peppemint',
+					'pepperint',
 				],
 				'peppermints'=>[
 					'pepermints',
@@ -4720,14 +6878,17 @@
 				'peppery'=>[
 					'pepery',
 					'pepppery',
+					'peppary',
 				],
 				'peppier'=>[
 					'pepier',
 					'pepppier',
+					'peppeir',
 				],
 				'peppiest'=>[
 					'pepiest',
 					'pepppiest',
+					'peppeist',
 				],
 				'peppiness'=>[
 					'pepiness',
@@ -4747,16 +6908,50 @@
 				],
 				'peptide'=>[
 					'petide',
+					'pepide',
+				],
+				'peptides'=>[
+					'pepides',
+					'petides',
 				],
 				'peptidoglycan'=>[
 					'peptidoglican',
 					'petidoglycan',
+				],
+				'peptone'=>[
+					'pepone',
+				],
+				'peptones'=>[
+					'pepones',
 				],
 				'per annum'=>[
 					'per anum',
 				],
 				'per se'=>[
 					'persay',
+				],
+				'peracid'=>[
+					'peacid',
+				],
+				'peradventure'=>[
+					'peadventure',
+					'perdventure',
+				],
+				'peraea'=>[
+					'peraae',
+					'pereaa',
+				],
+				'perambulation'=>[
+					'perambulatoin',
+					'perambulaton',
+				],
+				'perambulations'=>[
+					'perambulatoins',
+					'perambulatons',
+				],
+				'perceivable'=>[
+					'perceivible',
+					'percievable',
 				],
 				'perceive'=>[
 					'percieve',
@@ -4775,6 +6970,8 @@
 				'percent'=>[
 					'percant',
 					'percantum',
+					'pecent',
+					'perent',
 				],
 				'percentage'=>[
 					'per centage',
@@ -4783,12 +6980,37 @@
 				'percentile'=>[
 					'percantile',
 				],
+				'percents'=>[
+					'pecents',
+					'percants',
+					'perents',
+				],
+				'perceptibilities'=>[
+					'perceptabilities',
+					'perceptibiliteis',
+				],
+				'perceptibility'=>[
+					'perceptability',
+				],
 				'perceptible'=>[
 					'perceptable',
+				],
+				'perceptibly'=>[
+					'perceptably',
 				],
 				'perception'=>[
 					'preception',
 					'perccption',
+					'perceptoin',
+					'percepton',
+				],
+				'perceptional'=>[
+					'perceptoinal',
+					'perceptonal',
+				],
+				'perceptions'=>[
+					'perceptoins',
+					'perceptons',
 				],
 				'perceptively'=>[
 					'perceptivly',
@@ -4796,6 +7018,9 @@
 				'perceptiveness'=>[
 					'perceptivenes',
 					'perceptivenesss',
+				],
+				'perceptivities'=>[
+					'perceptiviteis',
 				],
 				'perceptual'=>[
 					'perceptaul',
@@ -4807,20 +7032,35 @@
 				],
 				'perchance'=>[
 					'perchence',
+					'pechance',
+					'perhance',
 				],
 				'percipience'=>[
 					'percipiance',
+					'percipeince',
 				],
 				'percipient'=>[
 					'percipeint',
 					'percipint',
+					'percipiant',
+				],
+				'percipiently'=>[
+					'percipeintly',
+					'percipiantly',
+					'percipientely',
 				],
 				'percolate'=>[
 					'perculate',
 				],
+				'percolation'=>[
+					'percolatoin',
+					'percolaton',
+				],
 				'percuss'=>[
 					'percus',
 					'percusss',
+					'pecuss',
+					'peruss',
 				],
 				'percussed'=>[
 					'percused',
@@ -4838,14 +7078,20 @@
 					'pecussionn',
 					'percusion',
 					'percusssion',
+					'percussoin',
+					'percusson',
 				],
 				'percussionist'=>[
 					'percusionist',
 					'percusssionist',
+					'percussoinist',
+					'percussonist',
 				],
 				'percussionists'=>[
 					'percusionists',
 					'percusssionists',
+					'percussoinists',
+					'percussonists',
 				],
 				'percussive'=>[
 					'percusive',
@@ -4858,6 +7104,8 @@
 				],
 				'percutaneous'=>[
 					'precutaneous',
+					'percutaneuos',
+					'percutanoeus',
 				],
 				'percutaneously'=>[
 					'percutaneousally',
@@ -4865,11 +7113,25 @@
 					'percutaneousely',
 					'percutaneouslly',
 				],
+				'perdition'=>[
+					'perditoin',
+					'perditon',
+				],
+				'perdurability'=>[
+					'perduribility',
+				],
+				'perdurable'=>[
+					'perdurible',
+				],
 				'perdurably'=>[
 					'perdurabally',
 					'perdurabaly',
 					'perdurabely',
 					'perdurablly',
+					'perduribly',
+				],
+				'perdurance'=>[
+					'perdurence',
 				],
 				'peregrinate'=>[
 					'peregrinite',
@@ -4879,12 +7141,19 @@
 				],
 				'peregrination'=>[
 					'peregrinition',
+					'peregrinatoin',
+					'peregrinaton',
 				],
 				'peregrinations'=>[
 					'peregrinitions',
+					'peregrinatoins',
+					'peregrinatons',
 				],
 				'peregrine'=>[
 					'peregrini',
+				],
+				'peremptorily'=>[
+					'peremptorly',
 				],
 				'peremptoriness'=>[
 					'peremptorines',
@@ -4910,16 +7179,22 @@
 					'perenial',
 					'perrenial',
 					'perennnial',
+					'perennail',
 				],
 				'perennially'=>[
 					'perenially',
 					'perenniallly',
 					'perennialy',
 					'perennnially',
+					'perennailly',
 				],
 				'perennials'=>[
 					'perenials',
 					'perennnials',
+					'perennails',
+				],
+				'perestroika'=>[
+					'perestrioka',
 				],
 				'perfectibility'=>[
 					'perfectability',
@@ -4930,6 +7205,27 @@
 				'perfection'=>[
 					'prefection',
 					'perfettion',
+					'perfectoin',
+					'perfecton',
+				],
+				'perfectionism'=>[
+					'perfectoinism',
+					'perfectonism',
+				],
+				'perfectionist'=>[
+					'perfectoinist',
+					'perfectonist',
+				],
+				'perfectionistic'=>[
+					'perfectoinistic',
+				],
+				'perfectionists'=>[
+					'perfectoinists',
+					'perfectonists',
+				],
+				'perfections'=>[
+					'perfectoins',
+					'perfectons',
 				],
 				'perfectively'=>[
 					'perfectivly',
@@ -4946,19 +7242,46 @@
 					'perfectnes',
 					'perfectnesss',
 				],
+				'perfidies'=>[
+					'perfideis',
+				],
 				'perfidious'=>[
 					'perfidous',
+					'perfidiuos',
+					'perfidoius',
 				],
 				'perfidiously'=>[
 					'perfidously',
+					'perfidiousely',
+					'perfidiuosly',
+					'perfidoiusly',
 				],
 				'perfluorobutane'=>[
 					'perflurobutane',
+				],
+				'perfoliate'=>[
+					'perfolaite',
+				],
+				'perforation'=>[
+					'perforatoin',
+					'perforaton',
+				],
+				'perforations'=>[
+					'perforatoins',
+					'perforatons',
+				],
+				'perforce'=>[
+					'peforce',
+					'perorce',
 				],
 				'perform'=>[
 					'peform',
 					'perfom',
 					'preform',
+					'perorm',
+				],
+				'performable'=>[
+					'performible',
 				],
 				'performance'=>[
 					'peformance',
@@ -4967,41 +7290,80 @@
 					'preformance',
 					'perforniance',
 				],
+				'performances'=>[
+					'performences',
+				],
 				'performed'=>[
 					'performes',
+					'peformed',
+					'perormed',
 				],
 				'performer'=>[
 					'peformer',
 					'performmer',
 					'preformer',
+					'perormer',
 				],
 				'performing'=>[
 					'peforming',
 					'perfoming',
 					'preforming',
+					'perorming',
 				],
 				'performs'=>[
 					'peforms',
+					'perorms',
+				],
+				'perfumeries'=>[
+					'perfumaries',
+					'perfumereis',
+				],
+				'perfumery'=>[
+					'perfumary',
+				],
+				'perfumes'=>[
+					'pefumes',
+					'perumes',
+				],
+				'perfunctorily'=>[
+					'perfunctorly',
 				],
 				'perfunctoriness'=>[
 					'perfunctoriniss',
 					'perfunctorines',
 					'perfunctorinesss',
 				],
+				'perfuse'=>[
+					'pefuse',
+				],
+				'perfused'=>[
+					'pefused',
+				],
+				'perfuses'=>[
+					'pefuses',
+				],
 				'perfusing'=>[
 					'perfuisng',
 				],
 				'perfusion'=>[
 					'perfuison',
+					'pefusion',
+					'perfusoin',
+					'perfuson',
+					'perusion',
 				],
 				'perfusionist'=>[
 					'perfuisonist',
+					'perfusoinist',
+					'perfusonist',
 				],
 				'perfusionists'=>[
 					'perfuisonists',
 				],
 				'perfusions'=>[
 					'perfuisons',
+					'perfusoins',
+					'perfusons',
 				],
 				'perfusive'=>[
 					'perfuisve',
@@ -5023,10 +7385,22 @@
 				'periadnexal'=>[
 					'periadnexial',
 				],
+				'perianth'=>[
+					'perainth',
+				],
+				'perianths'=>[
+					'perainths',
+				],
+				'periapt'=>[
+					'peraipt',
+				],
 				'periaqueductal'=>[
 					'periacquaductal',
 					'periacqueductal',
 					'periaquaductal',
+				],
+				'periastron'=>[
+					'peraistron',
 				],
 				'peribronchial'=>[
 					'peribroncheal',
@@ -5034,8 +7408,20 @@
 				'peribronchiolar'=>[
 					'peribroncheolar',
 				],
+				'pericardia'=>[
+					'pericardai',
+				],
+				'pericardial'=>[
+					'pericardail',
+				],
 				'pericarditis'=>[
 					'pericariditis',
+				],
+				'pericardium'=>[
+					'pericarduim',
+				],
+				'pericardiums'=>[
+					'pericarduims',
 				],
 				'pericarpial'=>[
 					'percarpial',
@@ -5048,11 +7434,27 @@
 				'perichondrial'=>[
 					'perichondreal',
 				],
+				'perichondrium'=>[
+					'perichondruim',
+				],
+				'pericranium'=>[
+					'pericranuim',
+				],
+				'pericynthion'=>[
+					'pericynthoin',
+					'pericynthon',
+				],
 				'pericyte'=>[
 					'periocyte',
 				],
 				'peridialytic'=>[
 					'perdialytic',
+				],
+				'peridium'=>[
+					'periduim',
+				],
+				'peridiums'=>[
+					'periduims',
 				],
 				'periepididymal'=>[
 					'periepididimal',
@@ -5064,6 +7466,23 @@
 				'perigees'=>[
 					'perigeees',
 					'periges',
+				],
+				'periglacial'=>[
+					'periglacail',
+				],
+				'perigynous'=>[
+					'perigynuos',
+				],
+				'perihelia'=>[
+					'perihelai',
+				],
+				'perihelion'=>[
+					'periheloin',
+					'perihelon',
+				],
+				'perihelions'=>[
+					'periheloins',
+					'perihelons',
 				],
 				'perikarya'=>[
 					'perykarya',
@@ -5083,6 +7502,11 @@
 				],
 				'perilous'=>[
 					'perilons',
+					'periluos',
+				],
+				'perilously'=>[
+					'perilousely',
+					'periluosly',
 				],
 				'perimicrovillar'=>[
 					'perimicrovilar',
@@ -5099,27 +7523,57 @@
 				'perinatal'=>[
 					'perinital',
 				],
+				'perinea'=>[
+					'perinae',
+				],
+				'perineal'=>[
+					'perinael',
+				],
 				'perineum'=>[
 					'perinium',
+					'perinuem',
+				],
+				'perineuritis'=>[
+					'perinueritis',
 				],
 				'perineurium'=>[
 					'periniurium',
+					'perineuruim',
+					'perinuerium',
 				],
 				'period'=>[
 					'period period',
 					'period period period',
 					'penod',
 					'periocl',
+					'peroid',
+				],
+				'periodate'=>[
+					'peroidate',
+				],
+				'periodic'=>[
+					'peroidic',
 				],
 				'periodical'=>[
 					'penodical',
+					'peroidical',
 				],
 				'periodically'=>[
 					'periodicallly',
 					'periodicaly',
+					'peroidically',
 				],
 				'periodicals'=>[
 					'penodicals',
+					'peroidicals',
+				],
+				'periodicity'=>[
+					'peroidicity',
+				],
+				'periodization'=>[
+					'periodizatoin',
+					'periodizaton',
+					'peroidization',
 				],
 				'periodogram'=>[
 					'peridogram',
@@ -5127,9 +7581,28 @@
 				'periodontal'=>[
 					'peridontal',
 					'periondontal',
+					'peroidontal',
+				],
+				'periodontics'=>[
+					'peroidontics',
+				],
+				'periodontist'=>[
+					'peroidontist',
+				],
+				'periodontists'=>[
+					'peroidontists',
 				],
 				'periods'=>[
 					'penods',
+					'peroids',
+				],
+				'perionychium'=>[
+					'perionychuim',
+					'peroinychium',
+				],
+				'periostea'=>[
+					'periostae',
+					'peroistea',
 				],
 				'periosteal'=>[
 					'periostal',
@@ -5141,6 +7614,14 @@
 				],
 				'periosteum'=>[
 					'periostium',
+					'periostuem',
+					'peroisteum',
+				],
+				'periostitis'=>[
+					'peroistitis',
+				],
+				'periotic'=>[
+					'peroitic',
 				],
 				'peripatetic'=>[
 					'peripathetic',
@@ -5151,13 +7632,25 @@
 				],
 				'peripeteia'=>[
 					'peripetiea',
+					'peripeteai',
 				],
 				'peripetia'=>[
 					'perpetia',
 				],
+				'peripheralization'=>[
+					'peripheralizatoin',
+					'peripheralizaton',
+				],
 				'peripherally'=>[
 					'peripherallly',
 					'peripheraly',
+				],
+				'peripheries'=>[
+					'peripharies',
+					'periphereis',
+				],
+				'periphery'=>[
+					'periphary',
 				],
 				'periphrastically'=>[
 					'periphrasticallly',
@@ -5165,6 +7658,9 @@
 				],
 				'peripubertal'=>[
 					'peripuberal',
+				],
+				'perique'=>[
+					'periqeu',
 				],
 				'perirhinal'=>[
 					'perihinal',
@@ -5175,13 +7671,30 @@
 					'pericsope',
 					'perisope',
 				],
+				'periscopes'=>[
+					'perisopes',
+				],
+				'periscopic'=>[
+					'perisopic',
+				],
 				'perish'=>[
 					'perifh',
 					'perisb',
 					'perisli',
 				],
+				'perishability'=>[
+					'perisability',
+					'perishbility',
+					'perishibility',
+				],
 				'perishable'=>[
 					'perishible',
+				],
+				'perishables'=>[
+					'perishibles',
+				],
+				'perishably'=>[
+					'perishibly',
 				],
 				'perished'=>[
 					'perislied',
@@ -5208,6 +7721,24 @@
 				'perisylvian'=>[
 					'perisilvian',
 				],
+				'perithecia'=>[
+					'perithecai',
+				],
+				'perithecium'=>[
+					'perithecuim',
+				],
+				'peritonea'=>[
+					'peritonae',
+				],
+				'peritoneal'=>[
+					'peritonael',
+				],
+				'peritoneum'=>[
+					'peritonuem',
+				],
+				'peritoneums'=>[
+					'peritonuems',
+				],
 				'peritrichously'=>[
 					'peritrichousally',
 					'peritrichousaly',
@@ -5220,18 +7751,48 @@
 				'periwigged'=>[
 					'periwiged',
 				],
+				'perjured'=>[
+					'perjurd',
+				],
+				'perjuries'=>[
+					'pejuries',
+					'perjureis',
+					'peruries',
+				],
 				'perjurious'=>[
 					'perjurous',
+					'perjuriuos',
+					'perjuroius',
 				],
 				'perjuriously'=>[
 					'perjurously',
+					'perjuriousely',
+					'perjuriuosly',
+					'perjuroiusly',
 				],
 				'perjury'=>[
 					'perjery',
+					'pejury',
+					'perury',
+				],
+				'perkier'=>[
+					'perkeir',
+				],
+				'perkiest'=>[
+					'perkeist',
 				],
 				'perkiness'=>[
 					'perkines',
 					'perkinesss',
+				],
+				'perlocution'=>[
+					'perlocutoin',
+					'perlocuton',
+				],
+				'perlocutionary'=>[
+					'perlocutionery',
+					'perlocutoinary',
+					'perlocutonary',
 				],
 				'permalloy'=>[
 					'permallloy',
@@ -5242,6 +7803,7 @@
 				],
 				'permanency'=>[
 					'permanensy',
+					'permanancy',
 				],
 				'permanent'=>[
 					'permanant',
@@ -5251,9 +7813,15 @@
 				],
 				'permanently'=>[
 					'permanantly',
+					'permanentely',
+				],
+				'permanents'=>[
+					'permanants',
 				],
 				'permeability'=>[
 					'permebility',
+					'permaebility',
+					'permeibility',
 				],
 				'permeabilized'=>[
 					'permeabelized',
@@ -5261,12 +7829,32 @@
 				'permeable'=>[
 					'permeble',
 					'permeible',
+					'permaeble',
 				],
 				'permeance'=>[
 					'permeence',
+					'permaence',
 				],
 				'permeate'=>[
 					'permete',
+					'permaete',
+				],
+				'permeated'=>[
+					'permaeted',
+				],
+				'permeates'=>[
+					'permaetes',
+				],
+				'permeating'=>[
+					'permaeting',
+				],
+				'permeation'=>[
+					'permaetion',
+					'permeatoin',
+					'permeaton',
+				],
+				'permeative'=>[
+					'permaetive',
 				],
 				'permian'=>[
 					'perman',
@@ -5274,13 +7862,19 @@
 				'permineralization'=>[
 					'perimineralization',
 				],
+				'perming'=>[
+					'peming',
+				],
 				'permissibilities'=>[
 					'permisibilities',
 					'permisssibilities',
+					'permissabilities',
+					'permissibiliteis',
 				],
 				'permissibility'=>[
 					'permisibility',
 					'permisssibility',
+					'permissability',
 				],
 				'permissible'=>[
 					'permisible',
@@ -5293,10 +7887,12 @@
 					'permissiblenes',
 					'permissiblenesss',
 					'permisssibleness',
+					'permissableness',
 				],
 				'permissibly'=>[
 					'permisibly',
 					'permisssibly',
+					'permissably',
 				],
 				'permission'=>[
 					'permision',
@@ -5305,11 +7901,19 @@
 					'permisssion',
 					'pcrmission',
 					'permiffion',
+					'pemission',
+					'perission',
+					'permissoin',
+					'permisson',
 				],
 				'permissions'=>[
 					'permitions',
 					'permisions',
 					'permisssions',
+					'pemissions',
+					'perissions',
+					'permissoins',
+					'permissons',
 				],
 				'permissive'=>[
 					'permisive',
@@ -5350,16 +7954,55 @@
 					'permitivity',
 					'permitttivity',
 				],
+				'permutation'=>[
+					'pemutation',
+					'permutatoin',
+					'permutaton',
+					'perutation',
+				],
+				'permutational'=>[
+					'permutatoinal',
+					'permutatonal',
+				],
+				'permutations'=>[
+					'pemutations',
+					'permutatoins',
+					'permutatons',
+					'perutations',
+				],
+				'permute'=>[
+					'pemute',
+					'perute',
+				],
 				'pernicious'=>[
 					'pernicous',
 					'pemicious',
+					'perniciuos',
+					'pernicoius',
 				],
 				'perniciously'=>[
 					'pernicously',
+					'perniciousely',
+					'perniciuosly',
+					'pernicoiusly',
 				],
 				'perniciousness'=>[
 					'perniciousnes',
 					'perniciousnesss',
+					'perniciuosness',
+					'pernicoiusness',
+					'pernicousness',
+				],
+				'peroneus'=>[
+					'peronues',
+				],
+				'peroration'=>[
+					'peroratoin',
+					'peroraton',
+				],
+				'perorations'=>[
+					'peroratoins',
+					'peroratons',
 				],
 				'peroxidase'=>[
 					'perioxidase',
@@ -5370,6 +8013,8 @@
 				],
 				'peroxide'=>[
 					'perioxide',
+					'peoxide',
+					'perxide',
 				],
 				'peroxiredoxin'=>[
 					'peroxidorexin',
@@ -5398,11 +8043,25 @@
 					'perpendiculer',
 					'perpindicular',
 				],
+				'perpendicularity'=>[
+					'perpendiculerity',
+				],
+				'perpendicularly'=>[
+					'perpendicularily',
+					'perpendiculerly',
+				],
+				'perpendiculars'=>[
+					'perpendiculers',
+				],
 				'perpetrate'=>[
 					'perpretrate',
 				],
 				'perpetrated'=>[
 					'perpertrated',
+				],
+				'perpetration'=>[
+					'perpetratoin',
+					'perpetraton',
 				],
 				'perpetual'=>[
 					'perpetaul',
@@ -5410,24 +8069,61 @@
 				'perpetually'=>[
 					'perpetuallly',
 					'perpetualy',
+					'perpetaully',
+				],
+				'perpetuals'=>[
+					'perpetauls',
+				],
+				'perpetuance'=>[
+					'perpetaunce',
+					'perpetuence',
 				],
 				'perpetuate'=>[
 					'perpetaute',
+				],
+				'perpetuated'=>[
+					'perpetauted',
+				],
+				'perpetuates'=>[
+					'perpetautes',
 				],
 				'perpetuating'=>[
 					'perpetauting',
 				],
 				'perpetuation'=>[
 					'perpetaution',
+					'perpetuatoin',
+					'perpetuaton',
 				],
 				'perpetuations'=>[
 					'perpetautions',
 				],
+				'perpetuator'=>[
+					'perpetautor',
+				],
 				'perpetuators'=>[
 					'perpetautors',
 				],
+				'perpetuity'=>[
+					'perpetiuty',
+				],
 				'perphenazine'=>[
 					'perphenazini',
+				],
+				'perplexities'=>[
+					'perplexiteis',
+				],
+				'perquisite'=>[
+					'perqiusite',
+				],
+				'perquisites'=>[
+					'perqiusites',
+				],
+				'perrier'=>[
+					'perreir',
+				],
+				'perries'=>[
+					'perreis',
 				],
 				'perron'=>[
 					'peron',
@@ -5445,24 +8141,48 @@
 				],
 				'persecution'=>[
 					'perfecution',
+					'persecutoin',
+					'persecuton',
 				],
 				'persecutions'=>[
 					'perfecutions',
+					'persecutoins',
+					'persecutons',
 				],
 				'persecutors'=>[
 					'perfecutors',
+				],
+				'perseid'=>[
+					'persied',
 				],
 				'perseverance'=>[
 					'perserverance',
 					'perserverence',
 					'perseverence',
+					'pereverance',
+					'peseverance',
 				],
 				'perseverant'=>[
 					'perseverent',
 				],
+				'perseveration'=>[
+					'perseveratoin',
+					'perseveraton',
+				],
+				'perseverations'=>[
+					'perseveratoins',
+					'perseveratons',
+				],
 				'persevere'=>[
 					'perservere',
 					'perfevere',
+					'perevere',
+					'pesevere',
+				],
+				'persevered'=>[
+					'perevered',
+					'perseverd',
+					'pesevered',
 				],
 				'persevering'=>[
 					'perfevering',
@@ -5473,6 +8193,8 @@
 				],
 				'persimmons'=>[
 					'persimmmons',
+					'perimmons',
+					'pesimmons',
 				],
 				'persist'=>[
 					'perfift',
@@ -5480,14 +8202,21 @@
 				'persistence'=>[
 					'persistance',
 				],
+				'persistencies'=>[
+					'persistancies',
+					'persistenceis',
+				],
 				'persistency'=>[
 					'persistensy',
+					'persistancy',
 				],
 				'persistent'=>[
 					'persistant',
 				],
 				'persistently'=>[
 					'persisently',
+					'persistantly',
+					'persistentely',
 				],
 				'person'=>[
 					'person person',
@@ -5506,18 +8235,32 @@
 				'personableness'=>[
 					'personablenes',
 					'personablenesss',
+					'personibleness',
 				],
 				'personablenesses'=>[
 					'personableneses',
 					'personablenessses',
+				],
+				'personably'=>[
+					'personibly',
+				],
+				'personae'=>[
+					'personea',
 				],
 				'personal'=>[
 					'personel',
 					'personnal',
 					'perfonal',
 				],
+				'personalities'=>[
+					'personaliteis',
+				],
 				'personality'=>[
 					'personaiity',
+				],
+				'personalization'=>[
+					'personalizatoin',
+					'personalizaton',
 				],
 				'personally'=>[
 					'personalally',
@@ -5526,6 +8269,26 @@
 					'personallly',
 					'personaly',
 					'perfonally',
+				],
+				'personating'=>[
+					'personting',
+				],
+				'personification'=>[
+					'personificatoin',
+					'personificaton',
+				],
+				'personifications'=>[
+					'personificatoins',
+					'personificatons',
+				],
+				'personified'=>[
+					'personifeid',
+				],
+				'personifier'=>[
+					'personifeir',
+				],
+				'personifies'=>[
+					'personifeis',
 				],
 				'personnel'=>[
 					'personel',
@@ -5543,6 +8306,7 @@
 					'perfons',
 					'persoiis',
 					'persous',
+					'pesons',
 				],
 				'perspective'=>[
 					'perpective',
@@ -5553,16 +8317,24 @@
 				],
 				'perspicacious'=>[
 					'perspicacous',
+					'perspicaciuos',
+					'perspicacoius',
 				],
 				'perspicaciously'=>[
 					'perspicacously',
+					'perspicaciousely',
+					'perspicaciuosly',
+					'perspicacoiusly',
 				],
 				'perspicuity'=>[
 					'perspecuity',
 					'perfpicuity',
+					'perspiciuty',
 				],
 				'perspicuous'=>[
 					'perspicous',
+					'perspicouus',
+					'perspicuuos',
 				],
 				'perspicuously'=>[
 					'perspicously',
@@ -5570,15 +8342,30 @@
 					'perspicuousaly',
 					'perspicuousely',
 					'perspicuouslly',
+					'perspicouusly',
+					'perspicuuosly',
 				],
 				'perspicuousness'=>[
 					'perspicousness',
 					'perspicuousnes',
 					'perspicuousnesss',
+					'perspicouusness',
+					'perspicuuosness',
 				],
 				'perspicuousnesses'=>[
 					'perspicuousneses',
 					'perspicuousnessses',
+				],
+				'perspiration'=>[
+					'perspiratoin',
+					'perspiraton',
+				],
+				'perspired'=>[
+					'perspird',
+				],
+				'persuadable'=>[
+					'persaudable',
+					'persuadible',
 				],
 				'persuade'=>[
 					'persaude',
@@ -5592,8 +8379,12 @@
 					'pursuded',
 					'perfuaded',
 				],
+				'persuaders'=>[
+					'persauders',
+				],
 				'persuades'=>[
 					'pursuades',
+					'persaudes',
 				],
 				'persuading'=>[
 					'pursuading',
@@ -5606,9 +8397,14 @@
 				'persuasion'=>[
 					'persausion',
 					'perfuafion',
+					'persuasoin',
+					'persuason',
 				],
 				'persuasions'=>[
 					'perfuafions',
+					'persausions',
+					'persuasoins',
+					'persuasons',
 				],
 				'persuasive'=>[
 					'persausive',
@@ -5622,15 +8418,32 @@
 					'persuasivenes',
 					'persuasivenesss',
 				],
+				'pertain'=>[
+					'pertian',
+				],
+				'pertained'=>[
+					'pertaind',
+					'pertianed',
+				],
 				'pertaining'=>[
 					'pertainang',
+					'pertianing',
+				],
+				'pertains'=>[
+					'pertians',
 				],
 				'pertechnetate'=>[
 					'pertecnetate',
 				],
+				'pertest'=>[
+					'perest',
+					'petest',
+				],
 				'pertinacious'=>[
 					'pertinacous',
 					'pertinicious',
+					'pertinaciuos',
+					'pertinacoius',
 				],
 				'pertinaciously'=>[
 					'pertinaciousally',
@@ -5639,10 +8452,15 @@
 					'pertinaciouslly',
 					'pertinacously',
 					'pertiniciously',
+					'pertinaciuosly',
+					'pertinacoiusly',
 				],
 				'pertinaciousness'=>[
 					'pertinaciousnes',
 					'pertinaciousnesss',
+					'pertinaciuosness',
+					'pertinacoiusness',
+					'pertinacousness',
 				],
 				'pertinacities'=>[
 					'pertinicities',
@@ -5653,12 +8471,21 @@
 				'pertinence'=>[
 					'pertinance',
 				],
+				'pertinencies'=>[
+					'pertinancies',
+					'pertinenceis',
+				],
 				'pertinency'=>[
 					'pertinensy',
+					'pertinancy',
 				],
 				'pertinent'=>[
 					'pertinant',
 					'pertinint',
+				],
+				'pertinently'=>[
+					'pertinantly',
+					'pertinentely',
 				],
 				'pertly'=>[
 					'pertally',
@@ -5673,11 +8500,18 @@
 				'pertrochanteric'=>[
 					'pretrochanteric',
 				],
+				'perturbable'=>[
+					'perturbible',
+				],
 				'perturbation'=>[
 					'pertubation',
+					'perturbatoin',
+					'perturbaton',
 				],
 				'perturbations'=>[
 					'pertubations',
+					'perturbatoins',
+					'perturbatons',
 				],
 				'pertussis'=>[
 					'pertusis',
@@ -5691,14 +8525,32 @@
 				'peruse'=>[
 					'puruse',
 				],
+				'perused'=>[
+					'peused',
+				],
+				'peruser'=>[
+					'peuser',
+				],
+				'peruses'=>[
+					'peuses',
+				],
 				'perusing'=>[
 					'peruisng',
+					'peusing',
 				],
 				'peruvian'=>[
 					'peruvan',
 				],
 				'peruvian-occupied'=>[
 					'peruvian occupied',
+				],
+				'pervasion'=>[
+					'pervasoin',
+					'pervason',
+				],
+				'pervasions'=>[
+					'pervasoins',
+					'pervasons',
 				],
 				'pervasively'=>[
 					'pervasivly',
@@ -5709,6 +8561,8 @@
 				],
 				'perverse'=>[
 					'perverfe',
+					'pererse',
+					'peverse',
 				],
 				'perversely'=>[
 					'perversly',
@@ -5717,12 +8571,35 @@
 					'perversenes',
 					'perversenesss',
 				],
+				'perversion'=>[
+					'perersion',
+					'perversoin',
+					'perverson',
+					'peversion',
+				],
+				'perversions'=>[
+					'perersions',
+					'perversoins',
+					'perversons',
+					'peversions',
+				],
 				'pervious'=>[
 					'pervous',
+					'perviuos',
+					'pervoius',
+				],
+				'perviously'=>[
+					'perviousely',
+					'perviuosly',
+					'pervoiusly',
+					'pervously',
 				],
 				'perviousness'=>[
 					'perviousnes',
 					'perviousnesss',
+					'perviuosness',
+					'pervoiusness',
+					'pervousness',
 				],
 				'perviousnesses'=>[
 					'perviousneses',
@@ -5731,6 +8608,15 @@
 				'perylenequinone'=>[
 					'perilenequinone',
 				],
+				'peskier'=>[
+					'peskeir',
+				],
+				'peskiest'=>[
+					'peskeist',
+				],
+				'peskily'=>[
+					'peskly',
+				],
 				'peskiness'=>[
 					'peskines',
 					'peskinesss',
@@ -5738,6 +8624,8 @@
 				'pessaries'=>[
 					'pesaries',
 					'pesssaries',
+					'pessareis',
+					'pesseries',
 				],
 				'pessary'=>[
 					'pessery',
@@ -5771,18 +8659,52 @@
 					'pesimists',
 					'pesssimists',
 				],
+				'pestered'=>[
+					'pesterd',
+				],
+				'pesthole'=>[
+					'peshole',
+					'pestole',
+				],
+				'pestholes'=>[
+					'pesholes',
+					'pestoles',
+				],
+				'pesthouse'=>[
+					'peshouse',
+					'pesthuose',
+					'pestouse',
+				],
+				'pesthouses'=>[
+					'peshouses',
+					'pesthuoses',
+					'pestouses',
+				],
+				'pestiferous'=>[
+					'pestiferuos',
+				],
+				'pestiferously'=>[
+					'pestiferousely',
+					'pestiferuosly',
+				],
 				'pestiferousness'=>[
 					'pestiferousnes',
 					'pestiferousnesss',
+					'pestiferuosness',
 				],
 				'pestilence'=>[
 					'pestilance',
 				],
+				'pestilences'=>[
+					'pestilances',
+				],
 				'pestilent'=>[
 					'peftilent',
+					'pestilant',
 				],
 				'pestilential'=>[
 					'pestilantial',
+					'pestilentail',
 				],
 				'petahertz'=>[
 					'petaertz',
@@ -5790,20 +8712,77 @@
 				'petahertzes'=>[
 					'petaertzes',
 				],
+				'petaliferous'=>[
+					'petaliferuos',
+				],
 				'petalled'=>[
 					'petallled',
+				],
+				'petaloid'=>[
+					'petaliod',
+				],
+				'petcock'=>[
+					'petock',
+				],
+				'petcocks'=>[
+					'petocks',
+				],
+				'petechia'=>[
+					'petechai',
 				],
 				'petechial'=>[
 					'petecchial',
 				],
+				'petered'=>[
+					'peterd',
+				],
+				'petersham'=>[
+					'peterham',
+					'petesham',
+				],
 				'petiolar'=>[
 					'petioler',
 				],
+				'petiolate'=>[
+					'petoilate',
+				],
+				'petiole'=>[
+					'petoile',
+				],
+				'petioles'=>[
+					'petoiles',
+				],
+				'petiolule'=>[
+					'petoilule',
+				],
 				'petition'=>[
 					'petetion',
+					'petitoin',
+					'petiton',
 				],
 				'petitionary'=>[
 					'petitionery',
+					'petitoinary',
+					'petitonary',
+				],
+				'petitioned'=>[
+					'petitiond',
+					'petitoined',
+					'petitoned',
+				],
+				'petitioner'=>[
+					'petitoiner',
+				],
+				'petitioners'=>[
+					'petitoiners',
+				],
+				'petitioning'=>[
+					'petitoining',
+					'petitoning',
+				],
+				'petitions'=>[
+					'petitoins',
+					'petitons',
 				],
 				'petnapped'=>[
 					'petnaped',
@@ -5817,6 +8796,24 @@
 				'petnapping'=>[
 					'petnaping',
 				],
+				'petrifaction'=>[
+					'petrifactoin',
+					'petrifacton',
+				],
+				'petrification'=>[
+					'petrificatoin',
+					'petrificaton',
+				],
+				'petrifications'=>[
+					'petrificatoins',
+					'petrificatons',
+				],
+				'petrified'=>[
+					'petrifeid',
+				],
+				'petrifies'=>[
+					'petrifeis',
+				],
 				'petrodollar'=>[
 					'petrodolar',
 					'petrodoller',
@@ -5828,6 +8825,10 @@
 				],
 				'petroleum'=>[
 					'petrolium',
+					'petroluem',
+				],
+				'petrous'=>[
+					'petruos',
 				],
 				'petted'=>[
 					'pettted',
@@ -5838,17 +8839,21 @@
 				'petticoat'=>[
 					'peticoat',
 					'pettticoat',
+					'petticaot',
 				],
 				'petticoats'=>[
 					'peticoats',
 					'pettticoats',
+					'petticaots',
 				],
 				'pettier'=>[
 					'petttier',
+					'petteir',
 				],
 				'pettiest'=>[
 					'petiest',
 					'petttiest',
+					'petteist',
 				],
 				'pettifog'=>[
 					'petifog',
@@ -5880,6 +8885,7 @@
 					'petifoggery',
 					'pettifogggery',
 					'petttifoggery',
+					'pettifoggary',
 				],
 				'pettifogging'=>[
 					'pettifoging',
@@ -5923,6 +8929,7 @@
 				],
 				'pettitoes'=>[
 					'petttitoes',
+					'pettiteos',
 				],
 				'petty'=>[
 					'pettty',
@@ -5932,9 +8939,20 @@
 				],
 				'petulancy'=>[
 					'petulansy',
+					'petulency',
 				],
 				'petulant'=>[
 					'petulent',
+				],
+				'petulantly'=>[
+					'petulantely',
+					'petulently',
+				],
+				'petunia'=>[
+					'petunai',
+				],
+				'petunias'=>[
+					'petunais',
 				],
 				'pewee'=>[
 					'peweee',
@@ -5960,6 +8978,12 @@
 				'phaeohyphomycotic'=>[
 					'phaeotracheomycotic',
 				],
+				'phaeton'=>[
+					'pheaton',
+				],
+				'phaetons'=>[
+					'pheatons',
+				],
 				'phagocyte'=>[
 					'fagosite',
 					'phygocyte',
@@ -5978,6 +9002,10 @@
 				],
 				'phalangeal'=>[
 					'phalengeal',
+					'phalangael',
+				],
+				'phalansterian'=>[
+					'phalansterain',
 				],
 				'phalanstery'=>[
 					'phalanstary',
@@ -6021,11 +9049,24 @@
 					'phallluses',
 					'phaluses',
 				],
+				'phanerozoic'=>[
+					'phanerozioc',
+				],
+				'phantasied'=>[
+					'phantaseid',
+				],
+				'phantasies'=>[
+					'phantaseis',
+				],
 				'phantasm'=>[
 					'phentasm',
 				],
 				'phantasmagoria'=>[
 					'phentasmagoria',
+					'phantasmagorai',
+				],
+				'phantasmagorias'=>[
+					'phantasmagorais',
 				],
 				'phantasy'=>[
 					'phantacy',
@@ -6043,6 +9084,18 @@
 				'pharaohs'=>[
 					'pharoahs',
 				],
+				'pharaonic'=>[
+					'pharoanic',
+				],
+				'pharisaic'=>[
+					'pharisiac',
+				],
+				'pharisaical'=>[
+					'pharisiacal',
+				],
+				'pharisaism'=>[
+					'pharisiasm',
+				],
 				'pharisees'=>[
 					'pharifees',
 				],
@@ -6056,6 +9109,12 @@
 				'pharmaceuticals'=>[
 					'pharmacueticals',
 				],
+				'pharmaceutics'=>[
+					'pharmacuetics',
+				],
+				'pharmacies'=>[
+					'pharmaceis',
+				],
 				'pharmacogenetic'=>[
 					'phamacogenetic',
 				],
@@ -6068,20 +9127,29 @@
 				'pharmacognosy'=>[
 					'pharmacognocy',
 				],
+				'pharmacopeia'=>[
+					'pharmacopeai',
+					'pharmacopiea',
+				],
 				'pharmacopeial'=>[
 					'pharmacopieal',
 				],
 				'pharmacopeias'=>[
 					'pharmacopieas',
+					'pharmacopeais',
 				],
 				'pharmacopoeia'=>[
 					'pharmacopoiea',
+					'pharmacopeoia',
+					'pharmacopoeai',
 				],
 				'pharmacopoeial'=>[
 					'pharmacopoieal',
 				],
 				'pharmacopoeias'=>[
 					'pharmacopoieas',
+					'pharmacopeoias',
+					'pharmacopoeais',
 				],
 				'pharmacoresistance'=>[
 					'pharmacoresistancy',
@@ -6095,6 +9163,15 @@
 				],
 				'pharyngeal'=>[
 					'pharyngel',
+					'pharyngael',
+				],
+				'pharyngoscope'=>[
+					'pharyngocope',
+					'pharyngosope',
+				],
+				'pharyngoscopy'=>[
+					'pharyngocopy',
+					'pharyngosopy',
 				],
 				'pharyngotonsillitis'=>[
 					'pharyngotonsilitis',
@@ -6102,9 +9179,24 @@
 				'phase'=>[
 					'phasis',
 				],
+				'phaseout'=>[
+					'phaseuot',
+					'phasoeut',
+				],
+				'phaseouts'=>[
+					'phaseuots',
+					'phaseuts',
+					'phasoeuts',
+					'phasouts',
+				],
 				'pheasant'=>[
 					'pheasent',
 					'phesant',
+					'phaesant',
+				],
+				'pheasants'=>[
+					'phaesants',
+					'pheasents',
 				],
 				'phellem'=>[
 					'phelem',
@@ -6117,6 +9209,9 @@
 				'phelloderm'=>[
 					'pheloderm',
 					'phellloderm',
+				],
+				'phenacaine'=>[
+					'phenaciane',
 				],
 				'phenanthrene'=>[
 					'phenenthrene',
@@ -6166,6 +9261,10 @@
 				],
 				'phenothiazine'=>[
 					'phenothiazini',
+					'phenothaizine',
+				],
+				'phenothiazines'=>[
+					'phenothaizines',
 				],
 				'phenotype'=>[
 					'pheneotype',
@@ -6191,6 +9290,9 @@
 				'phenylephrine'=>[
 					'phenylephrini',
 				],
+				'phenylketonuria'=>[
+					'phenylketonurai',
+				],
 				'phenylthiourea'=>[
 					'phenylthioure',
 				],
@@ -6204,14 +9306,26 @@
 					'pheochromoctyoma',
 					'pheochromytoma',
 				],
+				'pheon'=>[
+					'phoen',
+				],
 				'pheromone'=>[
 					'feromone',
 					'pheremone',
+				],
+				'phial'=>[
+					'phail',
+				],
+				'phials'=>[
+					'phails',
 				],
 				'philadelphia'=>[
 					'philadephia',
 					'phildelphia',
 					'philedelphia',
+				],
+				'philandered'=>[
+					'philanderd',
 				],
 				'philanthropic'=>[
 					'philanthropical',
@@ -6220,6 +9334,9 @@
 				'philanthropically'=>[
 					'philanthropicallly',
 					'philanthropicaly',
+				],
+				'philanthropies'=>[
+					'philanthropeis',
 				],
 				'philanthropist'=>[
 					'philanthopist',
@@ -6244,6 +9361,10 @@
 					'philateely',
 					'philatelly',
 					'philatly',
+				],
+				'philharmonic'=>[
+					'phiharmonic',
+					'philarmonic',
 				],
 				'philhellene'=>[
 					'philhelene',
@@ -6288,6 +9409,9 @@
 				'phillips talbot'=>[
 					'philip talbot',
 				],
+				'philologian'=>[
+					'philologain',
+				],
 				'philologically'=>[
 					'philologicallly',
 					'philologicaly',
@@ -6328,6 +9452,7 @@
 				],
 				'philosophies'=>[
 					'philosphies',
+					'philosopheis',
 				],
 				'philosophize'=>[
 					'philosphize',
@@ -6348,6 +9473,13 @@
 				'phlebography'=>[
 					'flebography',
 				],
+				'phlebosclerosis'=>[
+					'phleboclerosis',
+					'phleboslerosis',
+				],
+				'phlebotomies'=>[
+					'phlebotomeis',
+				],
 				'phlebotomine'=>[
 					'phebotomine',
 					'phlebotamine',
@@ -6359,6 +9491,15 @@
 					'phlegmaticallly',
 					'phlegmaticaly',
 				],
+				'phlegmier'=>[
+					'phlegmeir',
+				],
+				'phlegmiest'=>[
+					'phlegmeist',
+				],
+				'phloem'=>[
+					'phleom',
+				],
 				'phloroglucinol'=>[
 					'fluoroglucinol',
 				],
@@ -6368,8 +9509,26 @@
 				'phlyctenular'=>[
 					'phylectenular',
 				],
+				'phobia'=>[
+					'phobai',
+				],
+				'phobias'=>[
+					'phobais',
+				],
 				'phocine'=>[
 					'phocini',
+				],
+				'phocomelia'=>[
+					'phocomelai',
+				],
+				'phocomelias'=>[
+					'phocomelais',
+				],
+				'phoebe'=>[
+					'pheobe',
+				],
+				'phoebes'=>[
+					'pheobes',
 				],
 				'phoenician'=>[
 					'phonecian',
@@ -6379,6 +9538,24 @@
 				#	'phenix',
 					'pheonix',
 					'phcenix',
+				],
+				'phoenixes'=>[
+					'pheonixes',
+				],
+				'phonation'=>[
+					'phonatoin',
+					'phonaton',
+				],
+				'phonecard'=>[
+					'phoncard',
+					'phoneard',
+				],
+				'phonecards'=>[
+					'phoncards',
+					'phoneards',
+				],
+				'phoned'=>[
+					'phond',
 				],
 				'phonemically'=>[
 					'phonemicallly',
@@ -6393,10 +9570,26 @@
 				],
 				'phonetician'=>[
 					'phonetican',
+					'phoneticain',
+				],
+				'phoneticians'=>[
+					'phoneticains',
 				],
 				'phonically'=>[
 					'phonicallly',
 					'phonicaly',
+				],
+				'phonied'=>[
+					'phoneid',
+				],
+				'phonier'=>[
+					'phoneir',
+				],
+				'phonies'=>[
+					'phoneis',
+				],
+				'phoniest'=>[
+					'phoneist',
 				],
 				'phoniness'=>[
 					'phonines',
@@ -6418,9 +9611,14 @@
 					'phonologicallly',
 					'phonologicaly',
 				],
+				'phonoscope'=>[
+					'phonocope',
+					'phonosope',
+				],
 				'phooey'=>[
 					'phoey',
 					'phoooey',
+					'phoeoy',
 				],
 				'phoresy'=>[
 					'phorecy',
@@ -6431,6 +9629,9 @@
 				'phosphatome'=>[
 					'phosphotome',
 				],
+				'phosphaturia'=>[
+					'phosphaturai',
+				],
 				'phosphine'=>[
 					'phosphini',
 				],
@@ -6440,6 +9641,7 @@
 				'phosphocreatine'=>[
 					'phosphocreatini',
 					'phosphocretine',
+					'phosphocraetine',
 				],
 				'phosphoglycerate'=>[
 					'phosphoglucerate',
@@ -6486,6 +9688,13 @@
 					'phosphorecent',
 					'phosphorecsent',
 					'phosphoresent',
+					'phosphorescant',
+				],
+				'phosphorescently'=>[
+					'phosphorecently',
+					'phosphorescantly',
+					'phosphorescentely',
+					'phosphoresently',
 				],
 				'phosphorescing'=>[
 					'phosphorecing',
@@ -6495,11 +9704,16 @@
 				'phosphorolysis'=>[
 					'phospholysis',
 				],
+				'phosphoroscope'=>[
+					'phosphorocope',
+					'phosphorosope',
+				],
 				'phosphorothioate'=>[
 					'phosphothioate',
 				],
 				'phosphorous'=>[
 					'phosphourous',
+					'phosphoruos',
 				],
 				'phosphorylated'=>[
 					'phosphophorylated',
@@ -6511,8 +9725,20 @@
 					'phosphorilation',
 					'phosphoylation',
 				],
+				'photoactinic'=>[
+					'photaoctinic',
+				],
 				'photoactivatable'=>[
 					'photoactivatible',
+				],
+				'photoactive'=>[
+					'photactive',
+					'photaoctive',
+					'photoctive',
+				],
+				'photoaging'=>[
+					'photaging',
+					'photaoging',
 				],
 				'photobionic'=>[
 					'photobiontic',
@@ -6520,10 +9746,18 @@
 				'photocell'=>[
 					'photocel',
 					'photocelll',
+					'photcell',
+					'photoell',
 				],
 				'photocells'=>[
 					'photocellls',
 					'photocels',
+					'photcells',
+					'photoells',
+				],
+				'photochemical'=>[
+					'photchemical',
+					'photohemical',
 				],
 				'photochemically'=>[
 					'photochemicalally',
@@ -6531,30 +9765,168 @@
 					'photochemicalely',
 					'photochemicallly',
 					'photochemicaly',
+					'photchemically',
+					'photohemically',
+				],
+				'photochemistries'=>[
+					'photochemistreis',
+				],
+				'photochemistry'=>[
+					'photchemistry',
+					'photohemistry',
+				],
+				'photocompose'=>[
+					'photcompose',
+					'photoompose',
+				],
+				'photocomposer'=>[
+					'photcomposer',
+					'photoomposer',
+				],
+				'photocomposition'=>[
+					'photcomposition',
+					'photocompositoin',
+					'photocompositon',
+					'photoomposition',
+				],
+				'photoconduction'=>[
+					'photoconductoin',
+					'photoconducton',
+				],
+				'photoconductivities'=>[
+					'photoconductiviteis',
 				],
 				'photoconvertible'=>[
 					'photoconvertable',
+				],
+				'photocopied'=>[
+					'photcopied',
+					'photocopeid',
+					'photoopied',
 				],
 				'photocopier'=>[
 					'photocopeir',
 					'photocopir',
 				],
+				'photocopiers'=>[
+					'photocopeirs',
+				],
+				'photocopies'=>[
+					'photcopies',
+					'photocopeis',
+					'photoopies',
+				],
+				'photocopy'=>[
+					'photcopy',
+					'photoopy',
+				],
+				'photocopying'=>[
+					'photcopying',
+					'photoopying',
+				],
 				'photocurrent'=>[
 					'photocurent',
 					'photocurrant',
 					'photocurrrent',
+					'photcurrent',
+					'photourrent',
+				],
+				'photodisintegration'=>[
+					'photodisintegratoin',
+					'photodisintegraton',
+				],
+				'photodrama'=>[
+					'photdrama',
+					'photorama',
+				],
+				'photoduplicate'=>[
+					'photduplicate',
+					'photouplicate',
+				],
+				'photoduplication'=>[
+					'photoduplicatoin',
+					'photoduplicaton',
+				],
+				'photodynamics'=>[
+					'photdynamics',
+					'photoynamics',
+				],
+				'photoed'=>[
+					'photeod',
+				],
+				'photoelasticity'=>[
+					'photeolasticity',
+				],
+				'photoelectric'=>[
+					'photeolectric',
+					'photolectric',
+				],
+				'photoelectrical'=>[
+					'photelectrical',
+					'photeolectrical',
+					'photolectrical',
 				],
 				'photoelectrically'=>[
 					'photoelectricallly',
 					'photoelectricaly',
+					'photeolectrically',
+				],
+				'photoelectricity'=>[
+					'photelectricity',
+					'photeolectricity',
+					'photolectricity',
+				],
+				'photoelectron'=>[
+					'photelectron',
+					'photeolectron',
+					'photolectron',
+				],
+				'photoelectrons'=>[
+					'photelectrons',
+					'photeolectrons',
+					'photolectrons',
+				],
+				'photoelectrotype'=>[
+					'photeolectrotype',
 				],
 				'photoemission'=>[
 					'photoemision',
 					'photoemisssion',
+					'photeomission',
+					'photoemissoin',
+					'photoemisson',
 				],
 				'photoemissions'=>[
 					'photoemisions',
 					'photoemisssions',
+					'photemissions',
+					'photeomissions',
+					'photoemissoins',
+					'photoemissons',
+					'photomissions',
+				],
+				'photoengrave'=>[
+					'photeongrave',
+				],
+				'photoengraved'=>[
+					'photengraved',
+					'photeongraved',
+					'photongraved',
+				],
+				'photoengraver'=>[
+					'photeongraver',
+				],
+				'photoengravers'=>[
+					'photeongravers',
+				],
+				'photoengraves'=>[
+					'photeongraves',
+				],
+				'photoengraving'=>[
+					'photeongraving',
+				],
+				'photoengravings'=>[
+					'photeongravings',
 				],
 				'photofinisher'=>[
 					'photofinasher',
@@ -6564,21 +9936,46 @@
 				],
 				'photofinishing'=>[
 					'photofinashing',
+					'photfinishing',
+					'photoinishing',
 				],
 				'photofinishings'=>[
 					'photofinashings',
 				],
+				'photoflash'=>[
+					'photflash',
+					'photolash',
+				],
+				'photoflashes'=>[
+					'photflashes',
+					'photolashes',
+				],
 				'photoflood'=>[
 					'photoflod',
 					'photofloood',
+					'photflood',
+					'photolood',
 				],
 				'photofloods'=>[
 					'photoflods',
 					'photoflooods',
+					'photfloods',
+					'photoloods',
+				],
+				'photofluorography'=>[
+					'photoflourography',
+				],
+				'photogene'=>[
+					'photgene',
+					'photoene',
 				],
 				'photogenically'=>[
 					'photogenicallly',
 					'photogenicaly',
+				],
+				'photogram'=>[
+					'photgram',
+					'photoram',
 				],
 				'photogrammetric'=>[
 					'photogramnetric',
@@ -6591,9 +9988,11 @@
 				'photograph'=>[
 					'photgraph',
 					'fotograph',
+					'photoraph',
 				],
 				'photographic'=>[
 					'photgraphic',
+					'photoraphic',
 				],
 				'photographically'=>[
 					'photographicallly',
@@ -6601,46 +10000,158 @@
 				'photographs'=>[
 					'photgraphs',
 				],
+				'photoing'=>[
+					'photiong',
+				],
 				'photoinitiator'=>[
 					'photoinitiatior',
 				],
+				'photojournalism'=>[
+					'photjournalism',
+					'photojuornalism',
+					'photoournalism',
+				],
+				'photojournalist'=>[
+					'photjournalist',
+					'photojuornalist',
+					'photoournalist',
+				],
+				'photojournalists'=>[
+					'photjournalists',
+					'photojuornalists',
+					'photoournalists',
+				],
 				'photokinesis'=>[
 					'photokinisis',
+				],
+				'photoluminescence'=>[
+					'photoluminecence',
+					'photoluminescance',
+					'photoluminesence',
+				],
+				'photomechanical'=>[
+					'photmechanical',
+					'photoechanical',
+				],
+				'photometer'=>[
+					'photmeter',
+					'photoeter',
+				],
+				'photometers'=>[
+					'photmeters',
+					'photoeters',
+				],
+				'photometric'=>[
+					'photmetric',
+					'photoetric',
 				],
 				'photometrically'=>[
 					'photometricallly',
 					'photometricaly',
 				],
+				'photomicroscope'=>[
+					'photmicroscope',
+					'photoicroscope',
+					'photomicrocope',
+					'photomicrosope',
+				],
 				'photomixotrophic'=>[
 					'photomyxotrophic',
+				],
+				'photomontage'=>[
+					'photmontage',
+					'photoontage',
 				],
 				'photomultiplier'=>[
 					'photomultipleir',
 					'photomultiplir',
 				],
+				'photomural'=>[
+					'photmural',
+					'photoural',
+				],
+				'photoneutron'=>[
+					'photneutron',
+					'photoeutron',
+					'photonuetron',
+				],
 				'photonuclear'=>[
 					'photonucleer',
 					'photonucler',
 				],
+				'photoperiod'=>[
+					'photoeriod',
+					'photoperoid',
+					'photperiod',
+				],
 				'photophilous'=>[
 					'photophylous',
+					'photophiluos',
+				],
+				'photophobia'=>[
+					'photohobia',
+					'photophobai',
+					'photphobia',
+				],
+				'photopia'=>[
+					'photopai',
+				],
+				'photoplay'=>[
+					'photolay',
+					'photplay',
 				],
 				'photoreaction'=>[
 					'photorection',
+				],
+				'photorealism'=>[
+					'photoraelism',
+				],
+				'photorealist'=>[
+					'photoraelist',
+				],
+				'photorealistic'=>[
+					'photoealistic',
+					'photoraelistic',
+					'photrealistic',
 				],
 				'photoreconnaissance'=>[
 					'photoreconnaisssance',
 					'photoreconaissance',
 					'photoreconnnaissance',
+					'photoeconnaissance',
+					'photoreconnaissence',
+					'photoreconniassance',
+					'photreconnaissance',
 				],
 				'photoscanning'=>[
 					'photoscaning',
 				],
+				'photosensitive'=>[
+					'photoensitive',
+					'photsensitive',
+				],
+				'photosensitivities'=>[
+					'photosensitiviteis',
+				],
 				'photosensitivity'=>[
 					'photosensibility',
+					'photoensitivity',
+					'photsensitivity',
+				],
+				'photosphere'=>[
+					'photophere',
+					'photsphere',
 				],
 				'photospheric'=>[
 					'photosferic',
+				],
+				'photostatic'=>[
+					'phototatic',
+					'photstatic',
+				],
+				'photostats'=>[
+					'phototats',
+					'photstats',
 				],
 				'photostatted'=>[
 					'photostattted',
@@ -6648,9 +10159,29 @@
 				'photostatting'=>[
 					'photostattting',
 				],
+				'photosynthesize'=>[
+					'photoynthesize',
+					'photsynthesize',
+				],
+				'photosynthetic'=>[
+					'photoynthetic',
+					'photsynthetic',
+				],
 				'photosynthetically'=>[
 					'photosyntheticallly',
 					'photosyntheticaly',
+				],
+				'phototaxis'=>[
+					'photoaxis',
+					'phottaxis',
+				],
+				'phototelegraph'=>[
+					'photoelegraph',
+					'phottelegraph',
+				],
+				'phototherapy'=>[
+					'photoherapy',
+					'phottherapy',
 				],
 				'phototropically'=>[
 					'phototropicalally',
@@ -6661,11 +10192,22 @@
 				'phototropin'=>[
 					'phototrophin',
 				],
+				'phototube'=>[
+					'photoube',
+					'phottube',
+				],
+				'phototype'=>[
+					'photoype',
+					'phottype',
+				],
 				'phototypesetter'=>[
 					'phototypesettter',
 				],
 				'phototypesetting'=>[
 					'phototypesettting',
+				],
+				'photovoltaic'=>[
+					'photovoltiac',
 				],
 				'phrase'=>[
 					'phrase phrase',
@@ -6676,13 +10218,35 @@
 				'phrasebook'=>[
 					'phrasebok',
 					'phraseboook',
+					'phrasbook',
+					'phraseook',
 				],
 				'phrasebooks'=>[
 					'phraseboks',
 					'phraseboooks',
+					'phrasbooks',
+					'phraseooks',
+				],
+				'phraseogram'=>[
+					'phrasoegram',
+				],
+				'phraseograph'=>[
+					'phrasoegraph',
+				],
+				'phraseological'=>[
+					'phrasoelogical',
+				],
+				'phraseologist'=>[
+					'phrasoelogist',
+				],
+				'phraseology'=>[
+					'phrasoelogy',
 				],
 				'phrases'=>[
 					'phrafes',
+				],
+				'phratries'=>[
+					'phratreis',
 				],
 				'phreatophyte'=>[
 					'phretophyte',
@@ -6693,6 +10257,9 @@
 				],
 				'phrensy'=>[
 					'phrency',
+				],
+				'phrygian'=>[
+					'phrygain',
 				],
 				'phthalein'=>[
 					'phthalien',
@@ -6707,6 +10274,10 @@
 					'phicoerytrin',
 					'phycoerythin',
 					'pycoerythrin',
+				],
+				'phylacteries'=>[
+					'phylactaries',
+					'phylactereis',
 				],
 				'phylactery'=>[
 					'phylactary',
@@ -6740,6 +10311,7 @@
 				'phylloid'=>[
 					'phyllloid',
 					'phyloid',
+					'phylliod',
 				],
 				'phyllome'=>[
 					'phylllome',
@@ -6750,10 +10322,12 @@
 				'phylloquinone'=>[
 					'phyloquinone',
 					'phyllloquinone',
+					'phylloqiunone',
 				],
 				'phylloquinones'=>[
 					'phyllloquinones',
 					'phyloquinones',
+					'phylloqiunones',
 				],
 				'phyllos'=>[
 					'phylllos',
@@ -6796,6 +10370,9 @@
 					'pbysical',
 					'pliysical',
 				],
+				'physicalities'=>[
+					'physicaliteis',
+				],
 				'physically'=>[
 					'phisically',
 					'physicallly',
@@ -6806,13 +10383,50 @@
 					'physican',
 					'phyfician',
 					'pliysician',
+					'physicain',
+				],
+				'physicians'=>[
+					'physicains',
+				],
+				'physio'=>[
+					'physoi',
 				],
 				'physiognomic'=>[
 					'physiogenomic',
+					'physoignomic',
+				],
+				'physiognomical'=>[
+					'physoignomical',
 				],
 				'physiognomically'=>[
 					'physiognomicallly',
 					'physiognomicaly',
+					'physoignomically',
+				],
+				'physiognomies'=>[
+					'physiognomeis',
+					'physoignomies',
+				],
+				'physiognomy'=>[
+					'physoignomy',
+				],
+				'physiographer'=>[
+					'physoigrapher',
+				],
+				'physiographic'=>[
+					'physoigraphic',
+				],
+				'physiographical'=>[
+					'physoigraphical',
+				],
+				'physiography'=>[
+					'physoigraphy',
+				],
+				'physiologic'=>[
+					'physoilogic',
+				],
+				'physiological'=>[
+					'physoilogical',
 				],
 				'physiologically'=>[
 					'physiologicalally',
@@ -6820,16 +10434,61 @@
 					'physiologicalely',
 					'physiologicallly',
 					'physiologicaly',
+					'physoilogically',
+				],
+				'physiologist'=>[
+					'physoilogist',
+				],
+				'physiologists'=>[
+					'physoilogists',
+				],
+				'physiology'=>[
+					'physoilogy',
+				],
+				'physios'=>[
+					'physois',
 				],
 				'physiotherapeutic'=>[
 					'physiotherapic',
+					'physiotherapuetic',
+					'physoitherapeutic',
+				],
+				'physiotherapist'=>[
+					'physoitherapist',
+				],
+				'physiotherapists'=>[
+					'physoitherapists',
+				],
+				'physiotherapy'=>[
+					'physoitherapy',
+				],
+				'physiotype'=>[
+					'physoitype',
+				],
+				'physique'=>[
+					'physiqeu',
+				],
+				'physiqued'=>[
+					'physiqeud',
+				],
+				'physiques'=>[
+					'physiqeus',
 				],
 				'physisorbed'=>[
 					'physicosorbed',
 					'physisorped',
 				],
+				'physoclistous'=>[
+					'physoclistuos',
+				],
 				'physostigmine'=>[
 					'physostigmini',
+				],
+				'physostomous'=>[
+					'physostomuos',
+				],
+				'phytobiology'=>[
+					'phytoboilogy',
 				],
 				'phytochemically'=>[
 					'phytochemicalally',
@@ -6843,6 +10502,9 @@
 				'phytoestrogen'=>[
 					'fitoestrogen',
 				],
+				'phytogeography'=>[
+					'phytogoegraphy',
+				],
 				'phytohemagglutinin'=>[
 					'phytohemagglutin',
 					'phytohemaglutinin',
@@ -6850,6 +10512,15 @@
 				],
 				'phytohormone'=>[
 					'photohormone',
+				],
+				'phytologies'=>[
+					'phytologeis',
+				],
+				'phytophagous'=>[
+					'phytophaguos',
+				],
+				'phytosociology'=>[
+					'phytosocoilogy',
 				],
 				'phytosterol'=>[
 					'fitosterol',
@@ -6859,14 +10530,17 @@
 				],
 				'piacular'=>[
 					'piaculer',
+					'paicular',
 				],
 				'piaffe'=>[
 					'piafe',
 					'piafffe',
+					'paiffe',
 				],
 				'piaffes'=>[
 					'piafes',
 					'piafffes',
+					'paiffes',
 				],
 				'pian'=>[
 					'pann',
@@ -6874,36 +10548,82 @@
 				'pianette'=>[
 					'pianete',
 					'pianettte',
+					'painette',
+				],
+				'pianism'=>[
+					'painism',
+				],
+				'pianisms'=>[
+					'painisms',
 				],
 				'pianissimi'=>[
 					'pianisimi',
 					'pianisssimi',
+					'painissimi',
 				],
 				'pianissimo'=>[
 					'pianisimo',
 					'pianisssimo',
+					'painissimo',
 				],
 				'pianissimos'=>[
 					'pianisimos',
 					'pianisssimos',
+					'painissimos',
+				],
+				'pianist'=>[
+					'painist',
+				],
+				'pianistic'=>[
+					'painistic',
+				],
+				'pianists'=>[
+					'painists',
 				],
 				'piano'=>[
 					'paino',
 				],
+				'pianoforte'=>[
+					'painoforte',
+				],
+				'pianofortes'=>[
+					'painofortes',
+				],
+				'pianola'=>[
+					'painola',
+				],
+				'pianolas'=>[
+					'painolas',
+				],
+				'piassava'=>[
+					'paissava',
+				],
+				'piaster'=>[
+					'paister',
+				],
+				'piasters'=>[
+					'paisters',
+				],
 				'piazza'=>[
 					'piaza',
 					'piazzza',
+					'paizza',
 				],
 				'piazzas'=>[
 					'piazas',
 					'piazzzas',
+					'paizzas',
 				],
 				'piazze'=>[
 					'piaze',
 					'piazzze',
+					'paizze',
 				],
 				'picante'=>[
 					'picente',
+				],
+				'picaresque'=>[
+					'picaresqeu',
 				],
 				'picaridin'=>[
 					'picaridine',
@@ -6928,6 +10648,7 @@
 					'piccaninies',
 					'piccaninnnies',
 					'picccaninnies',
+					'piccaninneis',
 				],
 				'piccaninny'=>[
 					'piccaninnny',
@@ -6944,10 +10665,15 @@
 				'piccoloist'=>[
 					'picccoloist',
 					'picoloist',
+					'piccoliost',
 				],
 				'piccolos'=>[
 					'picolos',
 					'picccolos',
+				],
+				'piceous'=>[
+					'piceuos',
+					'picoeus',
 				],
 				'pick'=>[
 					'pick pick',
@@ -6956,6 +10682,7 @@
 				'pickaninnies'=>[
 					'pickaninies',
 					'pickaninnnies',
+					'pickaninneis',
 				],
 				'pickaninny'=>[
 					'pickaniny',
@@ -6972,15 +10699,60 @@
 					'pickerelweds',
 					'pickerelweeeds',
 				],
+				'pickier'=>[
+					'pickeir',
+				],
+				'pickiest'=>[
+					'pickeist',
+				],
+				'pickings'=>[
+					'picings',
+				],
+				'picklock'=>[
+					'pickock',
+					'piclock',
+				],
+				'pickpocket'=>[
+					'pickocket',
+					'picpocket',
+				],
+				'pickpockets'=>[
+					'pickockets',
+					'picpockets',
+				],
+				'pickwickian'=>[
+					'pickwickain',
+				],
+				'picnicked'=>[
+					'picicked',
+					'pinicked',
+				],
+				'picnicking'=>[
+					'picniking',
+				],
 				'picornavirus'=>[
 					'piconavirus',
+				],
+				'picrate'=>[
+					'picate',
+				],
+				'picrite'=>[
+					'picite',
+					'pirite',
 				],
 				'picrocrocin'=>[
 					'picocrocin',
 				],
+				'pictorial'=>[
+					'pictorail',
+				],
 				'pictorially'=>[
 					'pictoriallly',
 					'pictorialy',
+					'pictorailly',
+				],
+				'pictorials'=>[
+					'pictorails',
 				],
 				'picture'=>[
 					'pictue',
@@ -6990,15 +10762,23 @@
 					'pictiire',
 					'pictnre',
 				],
+				'pictured'=>[
+					'picturd',
+				],
 				'pictures'=>[
 					'pictnres',
 				],
+				'picturesque'=>[
+					'picturesqeu',
+				],
 				'picturesquely'=>[
 					'picturesquly',
+					'picturesqeuly',
 				],
 				'picturesqueness'=>[
 					'picturesquenes',
 					'picturesquenesss',
+					'picturesqeuness',
 				],
 				'piddle'=>[
 					'pidddle',
@@ -7039,6 +10819,14 @@
 				'pie'=>[
 					'pei',
 				],
+				'piebald'=>[
+					'peibald',
+					'pibald',
+					'pieald',
+				],
+				'piebalds'=>[
+					'peibalds',
+				],
 				'piece'=>[
 					'peice',
 					'pice',
@@ -7051,10 +10839,16 @@
 				'piece of'=>[
 					'piece fo',
 				],
+				'pieced'=>[
+					'peiced',
+				],
 				'piecemeal'=>[
 					'peicemeal',
 					'picemeal',
 					'piecemel',
+					'pieceeal',
+					'piecemael',
+					'piecmeal',
 				],
 				'pieces'=>[
 					'peices',
@@ -7062,13 +10856,32 @@
 					'pieccs',
 					'pieees',
 				],
+				'piecewise'=>[
+					'peicewise',
+				],
 				'piecework'=>[
 					'peicework',
 					'picework',
+					'pieceork',
+					'piecwork',
+				],
+				'pieceworker'=>[
+					'peiceworker',
+					'pieceorker',
+					'piecworker',
+				],
+				'pieceworkers'=>[
+					'peiceworkers',
+					'pieceorkers',
+					'piecworkers',
+				],
+				'piecing'=>[
+					'peicing',
 				],
 				'piecrust'=>[
 					'peicrust',
 					'picrust',
+					'pierust',
 				],
 				'pied'=>[
 					'peid',
@@ -7079,6 +10892,22 @@
 				'piedmont'=>[
 					'peidmont',
 					'pidmont',
+				],
+				'pieing'=>[
+					'peiing',
+					'piieng',
+				],
+				'pieplant'=>[
+					'peiplant',
+					'pielant',
+					'pieplent',
+					'piplant',
+				],
+				'pieplants'=>[
+					'peiplants',
+					'pielants',
+					'pieplents',
+					'piplants',
 				],
 				'pier'=>[
 					'peir',
@@ -7091,9 +10920,22 @@
 					'peirced',
 					'pirced',
 				],
+				'piercers'=>[
+					'peircers',
+				],
+				'piercingly'=>[
+					'peircingly',
+				],
+				'piercings'=>[
+					'peircings',
+				],
 				'pierrot'=>[
 					'pierot',
 					'pierrrot',
+					'peirrot',
+				],
+				'piers'=>[
+					'peirs',
 				],
 				'pies'=>[
 					'peis',
@@ -7102,9 +10944,25 @@
 					'peita',
 					'pita',
 				],
+				'pietism'=>[
+					'peitism',
+				],
+				'pietisms'=>[
+					'peitisms',
+				],
+				'pietist'=>[
+					'peitist',
+				],
+				'pietistic'=>[
+					'peitistic',
+				],
+				'pietistical'=>[
+					'peitistical',
+				],
 				'pietistically'=>[
 					'pietisticallly',
 					'pietisticaly',
+					'peitistically',
 				],
 				'piety'=>[
 					'peity',
@@ -7112,6 +10970,21 @@
 				],
 				'pieyre de mandiargues'=>[
 					'pieyre de mandiargue',
+				],
+				'piezochemistry'=>[
+					'peizochemistry',
+				],
+				'piezoelectric'=>[
+					'peizoelectric',
+					'piezeolectric',
+				],
+				'piezoelectrical'=>[
+					'peizoelectrical',
+					'piezeolectrical',
+				],
+				'piezoelectricity'=>[
+					'peizoelectricity',
+					'piezeolectricity',
 				],
 				'piezometer'=>[
 					'peizometer',
@@ -7127,6 +11000,34 @@
 				],
 				'pigeon'=>[
 					'pidgeon',
+					'pigoen',
+				],
+				'pigeonhole'=>[
+					'pigeohole',
+					'pigeonole',
+					'pigoenhole',
+				],
+				'pigeonholed'=>[
+					'pigeoholed',
+					'pigeonoled',
+					'pigoenholed',
+				],
+				'pigeonholes'=>[
+					'pigeoholes',
+					'pigeonoles',
+					'pigoenholes',
+				],
+				'pigeonholing'=>[
+					'pigoenholing',
+				],
+				'pigeons'=>[
+					'pieons',
+					'pigoens',
+					'pigons',
+				],
+				'pigeonwing'=>[
+					'pigeowing',
+					'pigoenwing',
 				],
 				'pigged'=>[
 					'piged',
@@ -7135,10 +11036,13 @@
 				'piggeries'=>[
 					'pigeries',
 					'pigggeries',
+					'piggaries',
+					'piggereis',
 				],
 				'piggery'=>[
 					'pigery',
 					'pigggery',
+					'piggary',
 				],
 				'piggie'=>[
 					'pigie',
@@ -7146,14 +11050,17 @@
 				'piggier'=>[
 					'pigier',
 					'pigggier',
+					'piggeir',
 				],
 				'piggies'=>[
 					'pigggies',
 					'pigies',
+					'piggeis',
 				],
 				'piggiest'=>[
 					'pigggiest',
 					'pigiest',
+					'piggeist',
 				],
 				'piggin'=>[
 					'pigin',
@@ -7190,25 +11097,45 @@
 				'piggyback'=>[
 					'pigyback',
 					'pigggyback',
+					'piggback',
+					'piggyack',
 				],
 				'piggybacked'=>[
 					'pigybacked',
 					'pigggybacked',
+					'piggbacked',
+					'piggyacked',
 				],
 				'piggybacking'=>[
 					'pigybacking',
 					'pigggybacking',
+					'piggbacking',
+					'piggyacking',
 				],
 				'piggybacks'=>[
 					'pigybacks',
 					'pigggybacks',
+					'piggbacks',
+					'piggyacks',
+				],
+				'pigheaded'=>[
+					'pigeaded',
+					'pighaeded',
+				],
+				'pigheadedly'=>[
+					'pighaededly',
 				],
 				'pigheadedness'=>[
 					'pigheadednes',
 					'pigheadednesss',
+					'pighaededness',
 				],
 				'pigheadednesses'=>[
 					'pighedednesses',
+				],
+				'piglets'=>[
+					'pigets',
+					'pilets',
 				],
 				'pigment'=>[
 					'pigmant',
@@ -7218,28 +11145,81 @@
 				],
 				'pigmentation'=>[
 					'pigmantation',
+					'pigmentatoin',
+					'pigmentaton',
+				],
+				'pigments'=>[
+					'pigmants',
+				],
+				'pigmies'=>[
+					'pigmeis',
 				],
 				'pignora'=>[
 					'pignoura',
 				],
+				'pignuts'=>[
+					'piguts',
+					'pinuts',
+				],
+				'pigpens'=>[
+					'pigens',
+					'pipens',
+				],
+				'pigskin'=>[
+					'pigkin',
+					'piskin',
+				],
+				'pigskins'=>[
+					'pigkins',
+					'piskins',
+				],
+				'pigsties'=>[
+					'pigsteis',
+					'pigties',
+				],
 				'pigswill'=>[
 					'pigswil',
 					'pigswilll',
+					'pigsill',
+					'pigwill',
+				],
+				'pigtail'=>[
+					'pigail',
+					'pigtial',
+				],
+				'pigtailed'=>[
+					'pigailed',
+					'pigtialed',
+					'pitailed',
+				],
+				'pigtails'=>[
+					'pigails',
+					'pigtials',
 				],
 				'pigweed'=>[
 					'pigwed',
 					'pigweeed',
+					'pigeed',
+					'piweed',
 				],
 				'pigweeds'=>[
 					'pigweds',
 					'pigweeeds',
+					'pigeeds',
+					'piweeds',
 				],
 				'piing'=>[
 					'piiing',
 				],
+				'pikeperch'=>[
+					'pikeerch',
+					'pikperch',
+				],
 				'pikestaff'=>[
 					'pikestaf',
 					'pikestafff',
+					'piketaff',
+					'pikstaff',
 				],
 				'pikestaffs'=>[
 					'pikestafffs',
@@ -7254,12 +11234,43 @@
 				'pilar'=>[
 					'piler',
 				],
+				'pilastered'=>[
+					'pilasterd',
+				],
+				'pilau'=>[
+					'pilua',
+				],
+				'pilaus'=>[
+					'piluas',
+				],
+				'pileate'=>[
+					'pilaete',
+				],
 				'pilei'=>[
 					'pilie',
 				],
 				'pileless'=>[
 					'pileles',
 					'pilelesss',
+				],
+				'pileous'=>[
+					'pileuos',
+					'piloeus',
+				],
+				'pileum'=>[
+					'piluem',
+				],
+				'pileup'=>[
+					'piluep',
+				],
+				'pileups'=>[
+					'pilueps',
+				],
+				'pileus'=>[
+					'pilues',
+				],
+				'pilfered'=>[
+					'pilferd',
 				],
 				'pilgrim'=>[
 					'pilgram',
@@ -7269,6 +11280,9 @@
 					'pilgramage',
 					'pilgrimmage',
 					'piligrimage',
+				],
+				'piliferous'=>[
+					'piliferuos',
 				],
 				'pill'=>[
 					'pil',
@@ -7280,6 +11294,7 @@
 				],
 				'pillaged'=>[
 					'pilllaged',
+					'pillged',
 				],
 				'pillager'=>[
 					'pilllager',
@@ -7293,6 +11308,7 @@
 				],
 				'pillaging'=>[
 					'pilllaging',
+					'pillging',
 				],
 				'pillar'=>[
 					'pilar',
@@ -7301,6 +11317,7 @@
 				],
 				'pillared'=>[
 					'pilllared',
+					'pillard',
 				],
 				'pillars'=>[
 					'pilllars',
@@ -7312,6 +11329,7 @@
 				'pillboxes'=>[
 					'pilboxes',
 					'pilllboxes',
+					'pilloxes',
 				],
 				'pilled'=>[
 					'pillled',
@@ -7322,10 +11340,14 @@
 				'pillion'=>[
 					'pilion',
 					'pilllion',
+					'pilloin',
+					'pillon',
 				],
 				'pillions'=>[
 					'pilions',
 					'pilllions',
+					'pilloins',
+					'pillons',
 				],
 				'pilliwinks'=>[
 					'piliwinks',
@@ -7342,10 +11364,12 @@
 				'pilloried'=>[
 					'pillloried',
 					'piloried',
+					'pilloreid',
 				],
 				'pillories'=>[
 					'pilllories',
 					'pilories',
+					'pilloreis',
 				],
 				'pillory'=>[
 					'pilllory',
@@ -7362,16 +11386,24 @@
 				'pillowcase'=>[
 					'pilowcase',
 					'pilllowcase',
+					'pillocase',
+					'pillowase',
 				],
 				'pillowcases'=>[
 					'pilllowcases',
 					'pilowcases',
+					'pillocases',
+					'pillowases',
 				],
 				'pillowed'=>[
 					'pilllowed',
+					'pillwed',
+					'pilowed',
 				],
 				'pillowing'=>[
 					'pilllowing',
+					'pillwing',
+					'pilowing',
 				],
 				'pillows'=>[
 					'pilllows',
@@ -7379,10 +11411,15 @@
 				'pillowslip'=>[
 					'pilllowslip',
 					'pilowslip',
+					'pilloslip',
+					'pillowlip',
 				],
 				'pillowslips'=>[
 					'pilllowslips',
 					'pilowslips',
+					'pilloslips',
+					'pillowlips',
+					'pillowsips',
 				],
 				'pillowy'=>[
 					'pilllowy',
@@ -7394,9 +11431,22 @@
 				'pilocarpine'=>[
 					'pilocarpini',
 				],
+				'pilothouse'=>[
+					'pilohouse',
+					'pilothuose',
+					'pilotouse',
+				],
+				'pilothouses'=>[
+					'pilohouses',
+					'pilothuoses',
+					'pilotouses',
+				],
 				'pilotless'=>[
 					'pilotles',
 					'pilotlesss',
+				],
+				'pilous'=>[
+					'piluos',
 				],
 				'pilular'=>[
 					'piluler',
@@ -7413,9 +11463,16 @@
 				],
 				'pimientos'=>[
 					'pimientoes',
+					'pimeintos',
 				],
 				'pimonidazole'=>[
 					'pimonidozole',
+				],
+				'pimplier'=>[
+					'pimpleir',
+				],
+				'pimpliest'=>[
+					'pimpleist',
 				],
 				'pinafore'=>[
 					'pinifore',
@@ -7441,13 +11498,40 @@
 				'pinball'=>[
 					'pinbal',
 					'pinballl',
+					'piball',
+					'pinall',
+				],
+				'pincered'=>[
+					'pincerd',
+				],
+				'pinchbeck'=>[
+					'pincbeck',
+				],
+				'pinchcock'=>[
+					'pinccock',
+					'pinchock',
 				],
 				'pinchpenny'=>[
 					'pinchpeny',
 					'pinchpennny',
+					'pinchenny',
+					'pincpenny',
+				],
+				'pincushion'=>[
+					'picushion',
+					'pincushoin',
+					'pincushon',
+					'pinushion',
+				],
+				'pincushions'=>[
+					'picushions',
+					'pincushoins',
+					'pincushons',
+					'pinushions',
 				],
 				'pineal'=>[
 					'pinial',
+					'pinael',
 				],
 				'pinealectomized'=>[
 					'pinelectomized',
@@ -7465,10 +11549,14 @@
 					'piniapple',
 					'pinnaple',
 					'pineappple',
+					'pinaepple',
 				],
 				'pineapples'=>[
 					'pineaples',
 					'pineappples',
+					'pinaepples',
+					'pinapples',
+					'pinepples',
 				],
 				'pined'=>[
 					'pinid',
@@ -7489,31 +11577,88 @@
 					'piniwood',
 					'pinewod',
 					'pinewoood',
+					'pineood',
+					'pinwood',
 				],
 				'pinewoods'=>[
 					'pinewods',
 					'pinewooods',
+					'pineoods',
+					'pinwoods',
 				],
 				'piney'=>[
 					'piniy',
 				],
+				'pinfeather'=>[
+					'pifeather',
+					'pineather',
+					'pinfaether',
+				],
+				'pinfeathers'=>[
+					'pifeathers',
+					'pineathers',
+					'pinfaethers',
+				],
+				'pinfish'=>[
+					'pinish',
+				],
+				'pinfold'=>[
+					'pifold',
+					'pinold',
+				],
+				'pinfolds'=>[
+					'pifolds',
+					'pinolds',
+				],
+				'pinguid'=>[
+					'pingiud',
+				],
+				'pinhead'=>[
+					'pinead',
+					'pinhaed',
+				],
+				'pinheaded'=>[
+					'pineaded',
+					'pinhaeded',
+				],
 				'pinheadednesses'=>[
 					'pinhedednesses',
 				],
+				'pinheads'=>[
+					'pineads',
+					'pinhaeds',
+				],
+				'pinhole'=>[
+					'pihole',
+				],
+				'pinholes'=>[
+					'piholes',
+				],
 				'pinier'=>[
 					'pinaer',
+					'pineir',
 				],
 				'piniest'=>[
 					'pinaest',
+					'pineist',
 				],
 				'pining'=>[
 					'pinang',
 				],
 				'pinion'=>[
 					'pinaon',
+					'pinoin',
+				],
+				'pinioned'=>[
+					'piniond',
+					'pinoined',
+				],
+				'pinioning'=>[
+					'pinoining',
 				],
 				'pinions'=>[
 					'pinaons',
+					'pinoins',
 				],
 				'pinite'=>[
 					'pinate',
@@ -7531,9 +11676,15 @@
 					'pinkei',
 					'pinki',
 				],
+				'pinkies'=>[
+					'pinkeis',
+				],
 				'pinkness'=>[
 					'pinknes',
 					'pinknesss',
+				],
+				'pinkoes'=>[
+					'pinkeos',
 				],
 				'pinna'=>[
 					'pina',
@@ -7585,6 +11736,8 @@
 				'pinnation'=>[
 					'pination',
 					'pinnnation',
+					'pinnatoin',
+					'pinnaton',
 				],
 				'pinnatipartite'=>[
 					'pinatipartite',
@@ -7607,6 +11760,7 @@
 				'pinnies'=>[
 					'pinies',
 					'pinnnies',
+					'pinneis',
 				],
 				'pinning'=>[
 					'pining',
@@ -7643,6 +11797,38 @@
 				'pinocytosis'=>[
 					'pintocytosis',
 				],
+				'pinones'=>[
+					'pinnes',
+					'piones',
+				],
+				'pinpoint'=>[
+					'pinoint',
+					'pinpiont',
+					'pipoint',
+				],
+				'pinpointed'=>[
+					'pinointed',
+					'pinpionted',
+					'pipointed',
+				],
+				'pinpointing'=>[
+					'pinointing',
+					'pinpionting',
+					'pipointing',
+				],
+				'pinpoints'=>[
+					'pinoints',
+					'pinpionts',
+					'pipoints',
+				],
+				'pinprick'=>[
+					'pinrick',
+					'piprick',
+				],
+				'pinpricks'=>[
+					'pinricks',
+					'pipricks',
+				],
 				'pinscher'=>[
 					'pincher',
 					'pincsher',
@@ -7659,19 +11845,55 @@
 				'pinspotter'=>[
 					'pinspottter',
 				],
+				'pinstripe'=>[
+					'pintripe',
+					'pistripe',
+				],
+				'pinstriped'=>[
+					'pintriped',
+					'pistriped',
+				],
+				'pinstripes'=>[
+					'pintripes',
+					'pistripes',
+				],
 				'pint'=>[
 					'pirit',
+				],
+				'pintail'=>[
+					'pinail',
+					'pintial',
+				],
+				'pintails'=>[
+					'pinails',
+					'pintials',
+					'pintils',
+				],
+				'pintoes'=>[
+					'pinteos',
 				],
 				'pints'=>[
 					'pirits',
 				],
+				'pintsize'=>[
+					'pinsize',
+					'pintize',
+				],
+				'pintsized'=>[
+					'pinsized',
+					'pintized',
+				],
 				'pinwheel'=>[
 					'pinwheeel',
 					'pinwhel',
+					'pinheel',
+					'piwheel',
 				],
 				'pinwheeled'=>[
 					'pinwheeeled',
 					'pinwheled',
+					'pinheeled',
+					'piwheeled',
 				],
 				'pinwheeling'=>[
 					'pinwheeeling',
@@ -7680,35 +11902,74 @@
 				'pinwheels'=>[
 					'pinwheeels',
 					'pinwhels',
+					'pinheels',
+					'piwheels',
+				],
+				'pinworm'=>[
+					'pinorm',
+					'piworm',
+				],
+				'pinworms'=>[
+					'pinorms',
+					'piworms',
 				],
 				'pioneer'=>[
 					'pioneeer',
+					'poineer',
 				],
 				'pioneered'=>[
 					'pioneeered',
+					'pioneerd',
+					'poineered',
 				],
 				'pioneering'=>[
 					'pionering',
 					'pioneeering',
+					'poineering',
 				],
 				'pioneers'=>[
 					'pioneeers',
+					'poineers',
+				],
+				'pions'=>[
+					'poins',
+				],
+				'piosity'=>[
+					'poisity',
 				],
 				'pious'=>[
 					'pous',
+					'piuos',
+					'poius',
 				],
 				'piously'=>[
 					'pously',
+					'piousely',
+					'piuosly',
+					'poiusly',
 				],
 				'piousness'=>[
 					'piousnes',
 					'piousnesss',
+					'piuosness',
+					'poiusness',
+					'pousness',
 				],
 				'pipeline'=>[
 					'pipelini',
+					'pipeine',
+					'pipline',
+				],
+				'pipelines'=>[
+					'pipeines',
+					'piplines',
 				],
 				'pipelining'=>[
 					'pipelinang',
+				],
+				'piperaceous'=>[
+					'piperaceuos',
+					'piperacoeus',
 				],
 				'piperazine'=>[
 					'piperazini',
@@ -7720,6 +11981,11 @@
 				'pipes'=>[
 					'pipcs',
 				],
+				'pipestone'=>[
+					'pipesone',
+					'pipetone',
+					'pipstone',
+				],
 				'pipette'=>[
 					'pipete',
 					'pipettte',
@@ -7730,6 +11996,10 @@
 				],
 				'pipetting'=>[
 					'pippetting',
+				],
+				'pipework'=>[
+					'pipeork',
+					'pipwork',
 				],
 				'pipistrelle'=>[
 					'pipistrele',
@@ -7762,22 +12032,58 @@
 					'pipsisewas',
 					'pipsisssewas',
 				],
+				'pipsqueak'=>[
+					'pipsqeuak',
+					'pipsquaek',
+				],
+				'pipsqueaks'=>[
+					'pipsqeuaks',
+					'pipsquaeks',
+				],
 				'piquance'=>[
 					'piquence',
 				],
 				'piquancy'=>[
 					'piquansy',
+					'piqauncy',
+					'piquency',
 				],
 				'piquant'=>[
 					'piqaunt',
 					'piquent',
 				],
+				'piquante'=>[
+					'piqaunte',
+				],
+				'piquantly'=>[
+					'piqauntly',
+					'piquently',
+				],
 				'piquantness'=>[
 					'piquantnes',
 					'piquantnesss',
+					'piqauntness',
 				],
 				'piquantnesses'=>[
 					'piqauntnesses',
+				],
+				'pique'=>[
+					'piqeu',
+				],
+				'piqued'=>[
+					'piqeud',
+				],
+				'piques'=>[
+					'piqeus',
+				],
+				'piquet'=>[
+					'piqeut',
+				],
+				'piquets'=>[
+					'piqeuts',
+				],
+				'piquing'=>[
+					'piqiung',
 				],
 				'piracy'=>[
 					'pirasy',
@@ -7792,34 +12098,73 @@
 					'piraticallly',
 					'piraticaly',
 				],
+				'pirogue'=>[
+					'pirogeu',
+				],
+				'pirogues'=>[
+					'pirogeus',
+				],
 				'pirouette'=>[
 					'pirouete',
 					'pirouettte',
+					'piroeutte',
+					'piruoette',
 				],
 				'pirouetted'=>[
 					'piroueted',
 					'pirouettted',
+					'piroeutted',
+					'piruoetted',
 				],
 				'pirouettes'=>[
 					'pirouetes',
 					'pirouetttes',
+					'piroeuttes',
+					'piruoettes',
 				],
 				'pirouetting'=>[
 					'piroueting',
 					'pirouettting',
+					'piroeutting',
+					'piruoetting',
+				],
+				'piscaries'=>[
+					'picaries',
+					'pisaries',
+					'piscareis',
+					'pisceries',
 				],
 				'piscary'=>[
 					'piscery',
+					'picary',
+					'pisary',
+				],
+				'piscator'=>[
+					'picator',
+					'pisator',
 				],
 				'piscatorial'=>[
 					'picatorial',
 					'picsatorial',
 					'pisatorial',
+					'piscatorail',
+				],
+				'piscatory'=>[
+					'picatory',
+					'pisatory',
+				],
+				'piscicultural'=>[
+					'picicultural',
+					'pisicultural',
 				],
 				'pisciculture'=>[
 					'piciculture',
 					'picsiculture',
 					'pisiculture',
+				],
+				'pisciculturist'=>[
+					'piciculturist',
+					'pisiculturist',
 				],
 				'piscina'=>[
 					'picina',
@@ -7837,6 +12182,9 @@
 					'pico',
 					'picso',
 					'piso',
+				],
+				'pishogue'=>[
+					'pishogeu',
 				],
 				'piss'=>[
 					'pis',
@@ -7863,10 +12211,18 @@
 				'pissoir'=>[
 					'pisoir',
 					'pisssoir',
+					'pissior',
 				],
 				'pissoirs'=>[
 					'pisoirs',
 					'pisssoirs',
+					'pissiors',
+				],
+				'pistachio'=>[
+					'pistachoi',
+				],
+				'pistachios'=>[
+					'pistachois',
 				],
 				'pistareen'=>[
 					'pistareeen',
@@ -7898,20 +12254,70 @@
 				'pitches'=>[
 					'pitchs',
 				],
+				'pitchfork'=>[
+					'pitcfork',
+					'pitchork',
+				],
+				'pitchforks'=>[
+					'pitcforks',
+					'pitchorks',
+				],
+				'pitchier'=>[
+					'pitcheir',
+				],
+				'pitchiest'=>[
+					'pitcheist',
+				],
+				'pitchstone'=>[
+					'pitchtone',
+					'pitcstone',
+				],
+				'pitchstones'=>[
+					'pitchtones',
+					'pitcstones',
+				],
+				'piteous'=>[
+					'piteuos',
+					'pitoeus',
+				],
+				'piteously'=>[
+					'piteousely',
+					'piteuosly',
+					'pitoeusly',
+				],
 				'piteousness'=>[
 					'piteousnes',
 					'piteousnesss',
+					'piteuosness',
+					'pitoeusness',
 				],
 				'pitfall'=>[
 					'pitfal',
 					'pitfalll',
+					'pifall',
+					'pitall',
 				],
 				'pitfalls'=>[
 					'pitfallls',
 					'pitfals',
+					'pifalls',
+					'pitalls',
+				],
+				'pithead'=>[
+					'pitead',
+				],
+				'pitheads'=>[
+					'piteads',
+					'pithaeds',
 				],
 				'pithecanthropus'=>[
 					'pithecenthropus',
+				],
+				'pithier'=>[
+					'pitheir',
+				],
+				'pithiest'=>[
+					'pitheist',
 				],
 				'pithiness'=>[
 					'pithines',
@@ -7923,10 +12329,21 @@
 				],
 				'pitiable'=>[
 					'pitiible',
+					'pitaible',
 				],
 				'pitiableness'=>[
 					'pitiablenes',
 					'pitiablenesss',
+					'pitaibleness',
+				],
+				'pitiably'=>[
+					'pitaibly',
+				],
+				'pitied'=>[
+					'piteid',
+				],
+				'pities'=>[
+					'piteis',
 				],
 				'pitifully'=>[
 					'pitifullly',
@@ -7943,12 +12360,16 @@
 				'pitilessly'=>[
 					'pitilesly',
 					'pitilesssly',
+					'pitilessely',
 				],
 				'pitilessness'=>[
 					'pitilesness',
 					'pitilessnes',
 					'pitilessnesss',
 					'pitilesssness',
+				],
+				'pitmans'=>[
+					'pitans',
 				],
 				'pitta'=>[
 					'pittta',
@@ -7961,6 +12382,7 @@
 				'pittances'=>[
 					'pitances',
 					'pitttances',
+					'pittences',
 				],
 				'pittas'=>[
 					'pitttas',
@@ -7977,8 +12399,14 @@
 					'pittsberg',
 					'pittsburg',
 				],
+				'pituitaries'=>[
+					'pitiutaries',
+					'pituitareis',
+					'pituiteries',
+				],
 				'pituitary'=>[
 					'pituitery',
+					'pitiutary',
 				],
 				'pityriasis'=>[
 					'pitryasis',
@@ -7990,12 +12418,23 @@
 				'pixelate'=>[
 					'pixillate',
 				],
+				'pixelation'=>[
+					'pixelatoin',
+					'pixelaton',
+				],
 				'pixellate'=>[
 					'pixelllate',
 				],
 				'pixie'=>[
 					'pixei',
 					'pixi',
+				],
+				'pixies'=>[
+					'pixeis',
+				],
+				'pixilation'=>[
+					'pixilatoin',
+					'pixilaton',
 				],
 				'pixillated'=>[
 					'pixilllated',
@@ -8019,10 +12458,12 @@
 					'pizzaria',
 					'pizeria',
 					'pizzzeria',
+					'pizzerai',
 				],
 				'pizzerias'=>[
 					'pizerias',
 					'pizzzerias',
+					'pizzerais',
 				],
 				'pizzicati'=>[
 					'pizicati',
@@ -8042,6 +12483,10 @@
 				'placard'=>[
 					'plackard',
 				],
+				'placation'=>[
+					'placatoin',
+					'placaton',
+				],
 				'place'=>[
 					'palce',
 					'place place',
@@ -8056,6 +12501,26 @@
 					'palced',
 					'plaeed',
 				],
+				'placeholder'=>[
+					'placeolder',
+					'placholder',
+				],
+				'placekick'=>[
+					'placeick',
+					'plackick',
+				],
+				'placekicked'=>[
+					'placeicked',
+					'plackicked',
+				],
+				'placekicking'=>[
+					'placeicking',
+					'plackicking',
+				],
+				'placekicks'=>[
+					'placeicks',
+					'plackicks',
+				],
 				'placelessly'=>[
 					'placelessally',
 					'placelessaly',
@@ -8065,14 +12530,30 @@
 				'placement'=>[
 					'placemant',
 				],
+				'placements'=>[
+					'placemants',
+				],
+				'placename'=>[
+					'placeame',
+					'placname',
+				],
 				'placenta'=>[
 					'placanta',
+				],
+				'placentae'=>[
+					'placentea',
 				],
 				'placentalian'=>[
 					'placentarian',
 				],
 				'placentation'=>[
 					'placantation',
+					'placentatoin',
+					'placentaton',
+				],
+				'placentations'=>[
+					'placentatoins',
+					'placentatons',
 				],
 				'places'=>[
 					'placcs',
@@ -8087,6 +12568,9 @@
 				],
 				'placing'=>[
 					'placeing',
+				],
+				'placoid'=>[
+					'placiod',
 				],
 				'placozoan'=>[
 					'placazoan',
@@ -8106,24 +12590,49 @@
 					'plagiarist>=plagarist',
 					'plaigarism',
 					'plaigiarism',
+					'plagairism',
+				],
+				'plagiarisms'=>[
+					'plagairisms',
 				],
 				'plagiarist'=>[
 					'plagarist',
+					'plagairist',
 				],
 				'plagiarists'=>[
 					'plagarists',
+					'plagairists',
 				],
 				'plagiarize'=>[
 					'plagarize',
+					'plagairize',
 				],
 				'plagiarized'=>[
 					'plagarized',
+					'plagairized',
+				],
+				'plagiarizer'=>[
+					'plagairizer',
+				],
+				'plagiarizers'=>[
+					'plagairizers',
+				],
+				'plagiarizes'=>[
+					'plagairizes',
 				],
 				'plagiarizing'=>[
 					'plagarizing',
+					'plagairizing',
 				],
 				'plagiary'=>[
 					'plagiery',
+					'plagairy',
+				],
+				'plagioclase'=>[
+					'plagoiclase',
+				],
+				'plagioclases'=>[
+					'plagoiclases',
 				],
 				'plagiotropic'=>[
 					'plagiotrophic',
@@ -8133,54 +12642,138 @@
 				],
 				'plague'=>[
 					'plauge',
+					'plageu',
+				],
+				'plagued'=>[
+					'plageud',
 				],
 				'plagues'=>[
 					'plagucs',
+					'plageus',
+				],
+				'plaguing'=>[
+					'plagiung',
+				],
+				'plaice'=>[
+					'pliace',
+				],
+				'plaices'=>[
+					'pliaces',
+				],
+				'plaid'=>[
+					'pliad',
+				],
+				'plaided'=>[
+					'pliaded',
+				],
+				'plaids'=>[
+					'pliads',
 				],
 				'plain'=>[
 					'plain plain',
 					'plain plain plain',
+					'plian',
 				],
 				'plainchant'=>[
 					'plainchent',
+					'plaichant',
+					'plainhant',
+					'plianchant',
+				],
+				'plainclothes'=>[
+					'plaiclothes',
+					'plainlothes',
+					'plianclothes',
+				],
+				'plainclothesman'=>[
+					'plianclothesman',
+				],
+				'plainclothesmen'=>[
+					'plianclothesmen',
+				],
+				'plainer'=>[
+					'plianer',
 				],
 				'plainest'=>[
 					'plaineft',
+					'plianest',
 				],
 				'plainly'=>[
 					'plaiuly',
+					'plainely',
+					'plianly',
 				],
 				'plainness'=>[
 					'plainnes',
 					'plainnesss',
 					'plainess',
 					'plainnness',
+					'plianness',
+				],
+				'plains'=>[
+					'plians',
+				],
+				'plainsman'=>[
+					'pliansman',
+				],
+				'plainsmen'=>[
+					'pliansmen',
+				],
+				'plainsong'=>[
+					'plainong',
+					'plaisong',
+					'pliansong',
+				],
+				'plainspoken'=>[
+					'plainpoken',
+					'plaispoken',
+					'plianspoken',
 				],
 				'plainspokenness'=>[
 					'plainspokeness',
 					'plainspokennes',
 					'plainspokennesss',
 					'plainspokennness',
+					'plianspokenness',
 				],
 				'plaintiff'=>[
 					'plantiff',
 					'plaintif',
 					'plaintifff',
+					'pliantiff',
 				],
 				'plaintiffs'=>[
 					'plaintifffs',
 					'plaintifs',
+					'pliantiffs',
+				],
+				'plaintive'=>[
+					'pliantive',
 				],
 				'plaintively'=>[
 					'plaintivly',
+					'pliantively',
 				],
 				'plaintiveness'=>[
 					'plaintivenes',
 					'plaintivenesss',
+					'pliantiveness',
 				],
 				'plaintivenesses'=>[
 					'plaintiveneses',
 					'plaintivenessses',
+				],
+				'plait'=>[
+					'pliat',
+				],
+				'plaited'=>[
+					'pliated',
+				],
+				'plaiting'=>[
+					'pliating',
+				],
+				'plaits'=>[
+					'pliats',
 				],
 				'plan'=>[
 					'plan plan',
@@ -8191,6 +12784,10 @@
 				],
 				'planarian'=>[
 					'planaran',
+					'planarain',
+				],
+				'planarians'=>[
+					'planarains',
 				],
 				'planchette'=>[
 					'planchete',
@@ -8205,9 +12802,31 @@
 					'plane plane plane',
 					'plaue',
 				],
+				'planed'=>[
+					'pland',
+				],
+				'planeload'=>[
+					'planelaod',
+					'planeoad',
+					'planload',
+				],
+				'planeloads'=>[
+					'planelaods',
+					'planeoads',
+					'planloads',
+				],
 				'planet'=>[
 					'planet planet',
 					'planet planet planet',
+				],
+				'planetaria'=>[
+					'planetarai',
+				],
+				'planetarium'=>[
+					'planetaruim',
+				],
+				'planetariums'=>[
+					'planetaruims',
 				],
 				'planetary'=>[
 					'planetery',
@@ -8215,8 +12834,26 @@
 				'planetesimal'=>[
 					'planetessimal',
 				],
+				'planetoid'=>[
+					'planetiod',
+				],
+				'planetoids'=>[
+					'planetiods',
+				],
 				'plangency'=>[
 					'plangensy',
+					'plangancy',
+				],
+				'plangent'=>[
+					'plagent',
+					'planent',
+					'plangant',
+				],
+				'plangently'=>[
+					'plagently',
+					'planently',
+					'plangantly',
+					'plangentely',
 				],
 				'planimetrically'=>[
 					'planimetricalally',
@@ -8224,11 +12861,16 @@
 					'planimetricalely',
 					'planimetricallly',
 				],
+				'planking'=>[
+					'plaking',
+				],
 				'planktivore'=>[
 					'plankivore',
 				],
 				'planktonic'=>[
 					'planctonic',
+					'plankonic',
+					'plantonic',
 				],
 				'planktonically'=>[
 					'planctonically',
@@ -8255,8 +12897,15 @@
 					'plant plant plant',
 					'plent',
 				],
+				'plantable'=>[
+					'plantible',
+				],
 				'plantain'=>[
 					'plentain',
+					'plantian',
+				],
+				'plantains'=>[
+					'plantians',
 				],
 				'plantar'=>[
 					'planter',
@@ -8264,6 +12913,12 @@
 				],
 				'plantation'=>[
 					'plentation',
+					'plantatoin',
+					'plantaton',
+				],
+				'plantations'=>[
+					'plantatoins',
+					'plantatons',
 				],
 				'planted'=>[
 					'plauted',
@@ -8283,6 +12938,10 @@
 				],
 				'plaque'=>[
 					'placque',
+					'plaqeu',
+				],
+				'plaques'=>[
+					'plaqeus',
 				],
 				'plasmablastic'=>[
 					'plasmoblastic',
@@ -8311,8 +12970,26 @@
 				'plasmodesmatal'=>[
 					'plasmadesmatal',
 				],
+				'plasmodium'=>[
+					'plasmoduim',
+				],
+				'plasmodiums'=>[
+					'plasmoduims',
+				],
 				'plaster'=>[
 					'plastor',
+				],
+				'plasterboard'=>[
+					'plasteboard',
+					'plasterbaord',
+					'plasteroard',
+				],
+				'plastered'=>[
+					'plasterd',
+				],
+				'plasterwork'=>[
+					'plasterork',
+					'plastework',
 				],
 				'plastery'=>[
 					'plastary',
@@ -8324,14 +13001,55 @@
 				'plasticine'=>[
 					'plasticini',
 				],
+				'plastique'=>[
+					'plastiqeu',
+				],
+				'plastiques'=>[
+					'plastiqeus',
+				],
 				'plateau'=>[
 					'plateu',
+					'plataeu',
+					'plateua',
+				],
+				'plateaued'=>[
+					'plataeued',
+					'plateaeud',
+					'plateuaed',
+				],
+				'plateauing'=>[
+					'plataeuing',
+					'plateaiung',
+					'plateuaing',
+				],
+				'plateaus'=>[
+					'plataeus',
+					'plateuas',
+				],
+				'plateaux'=>[
+					'plataeux',
+					'plateuax',
+				],
+				'platelayer'=>[
+					'plateayer',
+					'platlayer',
+				],
+				'platelayers'=>[
+					'plateayers',
+					'platlayers',
+				],
+				'platelets'=>[
+					'plateets',
+					'platlets',
 				],
 				'platensimycin'=>[
 					'paltensimycin',
 				],
 				'platform'=>[
 					'platfrom',
+				],
+				'platies'=>[
+					'plateis',
 				],
 				'platina'=>[
 					'platini',
@@ -8347,6 +13065,9 @@
 				],
 				'platinizes'=>[
 					'platinazes',
+				],
+				'platinous'=>[
+					'platinuos',
 				],
 				'platitudinarian'=>[
 					'platitudinaran',
@@ -8364,6 +13085,9 @@
 				'platitudinizing'=>[
 					'platitudinazing',
 				],
+				'platitudinous'=>[
+					'platitudinuos',
+				],
 				'platonically'=>[
 					'platonicallly',
 					'platonicaly',
@@ -8373,6 +13097,7 @@
 				],
 				'platooned'=>[
 					'platoooned',
+					'platoond',
 				],
 				'platooning'=>[
 					'platoooning',
@@ -8405,51 +13130,105 @@
 					'platyrhine',
 					'platyrrhini',
 				],
+				'plaudit'=>[
+					'pluadit',
+				],
+				'plaudits'=>[
+					'pluadits',
+				],
 				'plausibilities'=>[
 					'plauisbilities',
 				],
 				'plausibility'=>[
 					'plauisbility',
+					'plausability',
+					'pluasibility',
 				],
 				'plausible'=>[
 					'plauisble',
 					'plausable',
 					'plaufible',
+					'pluasible',
 				],
 				'plausibleness'=>[
 					'plauisbleness',
 					'plausiblenes',
 					'plausiblenesss',
+					'plausableness',
+					'pluasibleness',
 				],
 				'plausiblenesses'=>[
 					'plauisblenesses',
 				],
 				'plausibly'=>[
 					'plauisbly',
+					'plausably',
+					'pluasibly',
 				],
 				'plausive'=>[
 					'plauisve',
+					'pluasive',
 				],
 				'play'=>[
 					'play play',
 					'play play play',
 					'playe',
 				],
+				'playability'=>[
+					'plaability',
+					'playbility',
+					'playibility',
+				],
+				'playable'=>[
+					'playible',
+				],
+				'playacted'=>[
+					'plaacted',
+					'playcted',
+				],
+				'playacting'=>[
+					'plaacting',
+					'playcting',
+				],
+				'playacts'=>[
+					'plaacts',
+					'playcts',
+				],
+				'playback'=>[
+					'plaback',
+					'playack',
+				],
+				'playbacks'=>[
+					'plabacks',
+					'playacks',
+				],
 				'playbill'=>[
 					'playbil',
 					'playbilll',
+					'plabill',
+					'playill',
 				],
 				'playbills'=>[
 					'playbillls',
 					'playbils',
+					'plabills',
+					'playills',
 				],
 				'playbook'=>[
 					'playbok',
 					'playboook',
+					'plabook',
+					'playook',
 				],
 				'playbooks'=>[
 					'playboks',
 					'playboooks',
+					'plabooks',
+					'playooks',
+				],
+				'playboys'=>[
+					'plaboys',
+					'playoys',
 				],
 				'played'=>[
 					'palyed',
@@ -8463,25 +13242,90 @@
 				'playfellow'=>[
 					'playfelllow',
 					'playfelow',
+					'plafellow',
+					'playellow',
 				],
 				'playfellows'=>[
 					'playfelllows',
 					'playfelows',
+					'plafellows',
+					'playellows',
 				],
 				'playfully'=>[
 					'playfullly',
 					'playfuly',
+					'plafully',
+					'playully',
 				],
 				'playfulness'=>[
 					'playfulnes',
 					'playfulnesss',
 				],
+				'playgirl'=>[
+					'plagirl',
+					'playirl',
+				],
+				'playgirls'=>[
+					'plagirls',
+					'playirls',
+				],
+				'playgoer'=>[
+					'playgeor',
+				],
+				'playgoers'=>[
+					'playgeors',
+				],
+				'playgoing'=>[
+					'plagoing',
+					'playgiong',
+					'playoing',
+				],
+				'playground'=>[
+					'plaground',
+					'playgruond',
+					'playround',
+				],
+				'playgrounds'=>[
+					'plagrounds',
+					'playgruonds',
+					'playrounds',
+				],
+				'playgroup'=>[
+					'plagroup',
+					'playgruop',
+					'playroup',
+				],
+				'playgroups'=>[
+					'plagroups',
+					'playgruops',
+					'playroups',
+				],
 				'playhouse'=>[
 					'playehouse',
+					'plahouse',
+					'playhuose',
+					'playouse',
+				],
+				'playhouses'=>[
+					'plahouses',
+					'playhuoses',
+					'playouses',
 				],
 				'playing'=>[
 					'palying',
 					'plaing',
+				],
+				'playlets'=>[
+					'plalets',
+					'playets',
+				],
+				'playmate'=>[
+					'plamate',
+					'playate',
+				],
+				'playmates'=>[
+					'plamates',
+					'playates',
 				],
 				'playoff'=>[
 					'playof',
@@ -8491,13 +13335,26 @@
 					'playofffs',
 					'playofs',
 				],
+				'playpens'=>[
+					'plapens',
+					'playens',
+				],
+				'playreader'=>[
+					'plareader',
+					'playeader',
+					'playraeder',
+				],
 				'playroom'=>[
 					'playrom',
 					'playrooom',
+					'plaroom',
+					'playoom',
 				],
 				'playrooms'=>[
 					'playroms',
 					'playroooms',
+					'plarooms',
+					'playooms',
 				],
 				'plays'=>[
 					'playes',
@@ -8505,10 +13362,37 @@
 				'playschool'=>[
 					'playschol',
 					'playschoool',
+					'plaschool',
+					'playchool',
+					'playshool',
 				],
 				'playschools'=>[
 					'playschols',
 					'playschoools',
+					'plaschools',
+					'playchools',
+					'playshools',
+				],
+				'playsuit'=>[
+					'plasuit',
+					'playsiut',
+					'playuit',
+				],
+				'playsuits'=>[
+					'plasuits',
+					'playsiuts',
+					'playuits',
+				],
+				'plaything'=>[
+					'playhing',
+				],
+				'playthings'=>[
+					'plathings',
+					'playhings',
+				],
+				'playtime'=>[
+					'platime',
+					'playime',
 				],
 				'playwear'=>[
 					'playweer',
@@ -8523,36 +13407,95 @@
 					'playrights',
 					'playwrites',
 				],
+				'playwriting'=>[
+					'plawriting',
+					'playriting',
+				],
 				'plea'=>[
 					'ple',
 				],
+				'pleach'=>[
+					'plaech',
+				],
+				'pleached'=>[
+					'plaeched',
+				],
+				'pleaches'=>[
+					'plaeches',
+				],
+				'pleaching'=>[
+					'plaeching',
+				],
 				'plead'=>[
 					'pleaed',
+					'plaed',
+				],
+				'pleaded'=>[
+					'plaeded',
+				],
+				'pleader'=>[
+					'plaeder',
+				],
+				'pleaders'=>[
+					'plaeders',
 				],
 				'pleading'=>[
 					'pleding',
+					'plaeding',
+				],
+				'pleadingly'=>[
+					'plaedingly',
+				],
+				'pleadings'=>[
+					'plaedings',
+					'pledings',
+				],
+				'pleads'=>[
+					'plaeds',
+				],
+				'pleas'=>[
+					'plaes',
 				],
 				'pleasance'=>[
 					'pleasence',
+					'plaesance',
+				],
+				'pleasances'=>[
+					'plaesances',
+					'pleasences',
 				],
 				'pleasant'=>[
 					'pleasent',
 					'pleasnat',
 					'plesant',
+					'plaesant',
 				],
 				'pleasanter'=>[
 					'pleafanter',
+					'plaesanter',
+				],
+				'pleasantest'=>[
+					'plaesantest',
 				],
 				'pleasantly'=>[
 					'plcasantly',
 					'pleasautly',
+					'plaesantly',
+					'pleasantely',
+					'pleasently',
 				],
 				'pleasantness'=>[
 					'pleasantnes',
 					'pleasantnesss',
+					'plaesantness',
+				],
+				'pleasantries'=>[
+					'plaesantries',
+					'pleasantreis',
 				],
 				'pleasantry'=>[
 					'pleasentry',
+					'plaesantry',
 				],
 				'please'=>[
 					'please please',
@@ -8561,24 +13504,40 @@
 					'plcase',
 					'pleafe',
 					'pleasc',
+					'plaese',
 				],
 				'pleased'=>[
 					'plesaed',
 					'pleafed',
+					'plaesed',
 				],
 				'pleases'=>[
 					'pleafes',
+					'plaeses',
 				],
 				'pleasing'=>[
 					'plesing',
 					'pleafing',
+					'plaesing',
+				],
+				'pleasingly'=>[
+					'plaesingly',
+				],
+				'pleasings'=>[
+					'plaesings',
+					'plesings',
 				],
 				'pleasurable'=>[
 					'pleasurible',
 					'plesurable',
+					'plaesurable',
 				],
 				'pleasurableness'=>[
 					'plesurableness',
+				],
+				'pleasurably'=>[
+					'plaesurably',
+					'pleasuribly',
 				],
 				'pleasure'=>[
 					'pleausre',
@@ -8590,13 +13549,36 @@
 					'pleasiire',
 					'pleasnre',
 					'pleasurc',
+					'plaesure',
+					'pleaure',
+				],
+				'pleasured'=>[
+					'plaesured',
+					'pleasurd',
+				],
+				'pleasureful'=>[
+					'plaesureful',
 				],
 				'pleasures'=>[
 					'pleafures',
 					'pleasnres',
+					'plaesures',
+				],
+				'pleasuring'=>[
+					'plaesuring',
 				],
 				'pleat'=>[
 					'plet',
+					'plaet',
+				],
+				'pleated'=>[
+					'plaeted',
+				],
+				'pleating'=>[
+					'plaeting',
+				],
+				'pleats'=>[
+					'plaets',
 				],
 				'pleb'=>[
 					'pleeb',
@@ -8609,15 +13591,26 @@
 					'plebean',
 					'plebian',
 					'plebiean',
+					'plebeain',
+				],
+				'plebeians'=>[
+					'plebeains',
+					'plebieans',
 				],
 				'plebiscitary'=>[
 					'plebiscitery',
+					'plebicitary',
+					'plebisitary',
 				],
 				'plebiscite'=>[
 					'plebicite',
 					'plebicsite',
 					'plebinite',
 					'plebisite',
+				],
+				'plebiscites'=>[
+					'plebicites',
+					'plebisites',
 				],
 				'plebs'=>[
 					'pleebs',
@@ -8662,6 +13655,10 @@
 				'pledgets'=>[
 					'plegets',
 				],
+				'pleiad'=>[
+					'pleaid',
+					'pliead',
+				],
 				'pleiotaxy'=>[
 					'plieotaxy',
 				],
@@ -8678,15 +13675,37 @@
 				'pleiotropy'=>[
 					'pleotrophy',
 				],
+				'plenaries'=>[
+					'plenareis',
+					'pleneries',
+				],
 				'plenary'=>[
 					'plenery',
+				],
+				'plenipotent'=>[
+					'plenipotant',
+				],
+				'plenipotentiaries'=>[
+					'plenipotentairies',
+					'plenipotentiareis',
+					'plenipotentieries',
 				],
 				'plenipotentiary'=>[
 					'plenipotantiary',
 					'plenipotentiery',
+					'plenipotentairy',
 				],
 				'plenitude'=>[
 					'plentitude',
+				],
+				'plenteous'=>[
+					'plenteuos',
+					'plentoeus',
+				],
+				'plenteously'=>[
+					'plenteousely',
+					'plenteuosly',
+					'plentoeusly',
 				],
 				'plentiful'=>[
 					'plantiful',
@@ -8707,15 +13726,34 @@
 					'planty',
 					'plcnty',
 				],
+				'pleochroism'=>[
+					'pleochriosm',
+					'ploechroism',
+				],
+				'pleochroisms'=>[
+					'pleochriosms',
+					'ploechroisms',
+				],
 				'pleomorphic'=>[
 					'pleomourphic',
 				],
 				'pleomorphism'=>[
 					'pleomourphism',
 					'pleamorphism',
+					'ploemorphism',
 				],
 				'pleomorphisms'=>[
 					'pleomourphisms',
+					'ploemorphisms',
+				],
+				'pleonasm'=>[
+					'ploenasm',
+				],
+				'pleonasms'=>[
+					'ploenasms',
+				],
+				'pleonastic'=>[
+					'ploenastic',
 				],
 				'pleonastically'=>[
 					'pleonasticalally',
@@ -8723,9 +13761,28 @@
 					'pleonasticalely',
 					'pleonasticallly',
 					'pleonasticaly',
+					'ploenastically',
+				],
+				'pleopod'=>[
+					'ploepod',
+				],
+				'pleopods'=>[
+					'ploepods',
 				],
 				'pleotropic'=>[
 					'pleotrophic',
+				],
+				'plesiosaur'=>[
+					'plesiosuar',
+					'plesoisaur',
+				],
+				'plesiosaurs'=>[
+					'plesiosuars',
+					'plesoisaurs',
+				],
+				'plesiosaurus'=>[
+					'plesiosuarus',
+					'plesoisaurus',
 				],
 				'plethora'=>[
 					'plethura',
@@ -8736,27 +13793,80 @@
 				'plethysmography'=>[
 					'plethymography',
 				],
+				'pleura'=>[
+					'pluera',
+				],
+				'pleurae'=>[
+					'pleurea',
+					'pluerae',
+				],
+				'pleural'=>[
+					'plueral',
+				],
 				'pleurisy'=>[
 					'pleuricy',
+					'pluerisy',
+				],
+				'pleuritic'=>[
+					'plueritic',
+				],
+				'pleurodynia'=>[
+					'pleurodynai',
+					'pluerodynia',
+				],
+				'pleurodynias'=>[
+					'pleurodynais',
+					'pluerodynias',
+				],
+				'pleuron'=>[
+					'plueron',
+				],
+				'pleuropneumonia'=>[
+					'pleuropneumonai',
+					'pleuropnuemonia',
+					'plueropneumonia',
 				],
 				'plexiglass'=>[
 					'plexiglasss',
 				],
+				'pliability'=>[
+					'plaibility',
+				],
 				'pliable'=>[
 					'pliible',
+					'plaible',
 				],
 				'pliableness'=>[
 					'pliablenes',
 					'pliablenesss',
+					'plaibleness',
+				],
+				'pliably'=>[
+					'plaibly',
 				],
 				'pliancy'=>[
 					'pliansy',
+					'plaincy',
 				],
 				'pliant'=>[
 					'plient',
 				],
+				'pliantly'=>[
+					'pliantely',
+				],
+				'plicae'=>[
+					'plicea',
+				],
 				'plicately'=>[
 					'plicatly',
+				],
+				'plication'=>[
+					'plicatoin',
+					'plicaton',
+				],
+				'plications'=>[
+					'plicatoins',
+					'plicatons',
 				],
 				'plie'=>[
 					'plei',
@@ -8772,6 +13882,7 @@
 				],
 				'pliers'=>[
 					'pliars',
+					'pleirs',
 				],
 				'plies'=>[
 					'pleis',
@@ -8813,6 +13924,14 @@
 				'plopping'=>[
 					'ploppping',
 				],
+				'plosion'=>[
+					'plosoin',
+					'ploson',
+				],
+				'plosions'=>[
+					'plosoins',
+					'plosons',
+				],
 				'plotted'=>[
 					'plottted',
 				],
@@ -8829,6 +13948,50 @@
 				'plough'=>[
 					'plongh',
 					'plougli',
+					'pluogh',
+				],
+				'ploughed'=>[
+					'pluoghed',
+				],
+				'ploughing'=>[
+					'pluoghing',
+				],
+				'ploughings'=>[
+					'pluoghings',
+				],
+				'ploughs'=>[
+					'pluoghs',
+				],
+				'ploughshare'=>[
+					'ploughhare',
+					'plougshare',
+					'pluoghshare',
+				],
+				'ploughshares'=>[
+					'ploughhares',
+					'plougshares',
+					'pluoghshares',
+				],
+				'plowable'=>[
+					'plowible',
+				],
+				'plowboys'=>[
+					'ploboys',
+					'plowoys',
+				],
+				'plowshare'=>[
+					'ploshare',
+					'plowhare',
+				],
+				'plowshares'=>[
+					'ploshares',
+					'plowhares',
+				],
+				'pluckier'=>[
+					'pluckeir',
+				],
+				'pluckiest'=>[
+					'pluckeist',
 				],
 				'pluckiness'=>[
 					'pluckines',
@@ -8837,6 +14000,11 @@
 				'pluckless'=>[
 					'pluckles',
 					'plucklesss',
+				],
+				'plugboard'=>[
+					'pluboard',
+					'plugbaord',
+					'plugoard',
 				],
 				'pluggable'=>[
 					'plugable',
@@ -8847,6 +14015,35 @@
 				'plugging'=>[
 					'pluging',
 					'pluggging',
+				],
+				'plughole'=>[
+					'plugole',
+					'pluhole',
+				],
+				'plugholes'=>[
+					'plugoles',
+					'pluholes',
+				],
+				'plumaged'=>[
+					'pluaged',
+					'plumged',
+				],
+				'plumbable'=>[
+					'plumbible',
+				],
+				'plumbaginaceous'=>[
+					'plumbaginaceuos',
+					'plumbaginacoeus',
+				],
+				'plumberies'=>[
+					'plumbaries',
+					'plumbereis',
+				],
+				'plumbery'=>[
+					'plumbary',
+				],
+				'plumbiferous'=>[
+					'plumbiferuos',
 				],
 				'plummer'=>[
 					'plumner',
@@ -8874,10 +14071,12 @@
 				],
 				'plummier'=>[
 					'plummmier',
+					'plummeir',
 				],
 				'plummiest'=>[
 					'plumniest',
 					'plummmiest',
+					'plummeist',
 				],
 				'plummy'=>[
 					'plumny',
@@ -8893,6 +14092,9 @@
 					'plumpnes',
 					'plumpnesss',
 				],
+				'plundered'=>[
+					'plunderd',
+				],
 				'plural'=>[
 					'plural plural',
 					'plural plural plural',
@@ -8901,12 +14103,25 @@
 					'pluralisticallly',
 					'pluralisticaly',
 				],
+				'pluralities'=>[
+					'pluraliteis',
+				],
+				'pluralization'=>[
+					'pluralizatoin',
+					'pluralizaton',
+				],
 				'pluripotent'=>[
 					'pluripotant',
 					'pleuripotent',
 				],
 				'pluripotentiality'=>[
 					'pluripotenciality',
+				],
+				'plushier'=>[
+					'plusheir',
+				],
+				'plushiest'=>[
+					'plusheist',
 				],
 				'plushiness'=>[
 					'plushines',
@@ -8919,47 +14134,138 @@
 				'plusses'=>[
 					'plussses',
 				],
+				'plutocracies'=>[
+					'plutocraceis',
+				],
 				'plutocracy'=>[
 					'plutocrasy',
 				],
 				'plutonian'=>[
 					'plutonan',
+					'plutonain',
+				],
+				'plutonium'=>[
+					'plutonuim',
+				],
+				'pluvial'=>[
+					'pluvail',
 				],
 				'pluvian'=>[
 					'pluvan',
 				],
+				'pluviometer'=>[
+					'pluvoimeter',
+				],
 				'pluvious'=>[
 					'pluvous',
+					'pluviuos',
+					'pluvoius',
 				],
 				'plywood'=>[
 					'plywod',
 					'plywoood',
+					'plwood',
+					'plyood',
+				],
+				'pneuma'=>[
+					'pnuema',
+				],
+				'pneumatic'=>[
+					'pnuematic',
+				],
+				'pneumatical'=>[
+					'pnuematical',
 				],
 				'pneumatically'=>[
 					'pneumaticallly',
 					'pneumaticaly',
+					'pnuematically',
+				],
+				'pneumaticity'=>[
+					'pnuematicity',
+				],
+				'pneumatics'=>[
+					'pnuematics',
 				],
 				'pneumatocele'=>[
 					'pneumatocoel',
 				],
+				'pneumatograph'=>[
+					'pnuematograph',
+				],
+				'pneumatology'=>[
+					'pnuematology',
+				],
+				'pneumatometer'=>[
+					'pnuematometer',
+				],
 				'pneumatophore'=>[
 					'pneumatopore',
+					'pnuematophore',
+				],
+				'pneumectomy'=>[
+					'pnuemectomy',
 				],
 				'pneumococcal'=>[
 					'pneumococal',
 					'pneumonococcal',
 					'pneumococccal',
+					'pnuemococcal',
 				],
 				'pneumococci'=>[
 					'pneumococcci',
 					'pneumococi',
+					'pnuemococci',
 				],
 				'pneumococcus'=>[
 					'pneumococus',
 					'pneumococccus',
+					'pnuemococcus',
+				],
+				'pneumoconioses'=>[
+					'pneumoconoises',
+					'pnuemoconioses',
+				],
+				'pneumoconiosis'=>[
+					'pneumoconoisis',
+					'pnuemoconiosis',
+				],
+				'pneumoencephalogram'=>[
+					'pneumeoncephalogram',
+					'pnuemoencephalogram',
+				],
+				'pneumogastric'=>[
+					'pnuemogastric',
+				],
+				'pneumograph'=>[
+					'pnuemograph',
+				],
+				'pneumonectomies'=>[
+					'pneumonectomeis',
+					'pnuemonectomies',
+				],
+				'pneumonectomy'=>[
+					'pnuemonectomy',
+				],
+				'pneumonia'=>[
+					'pneumonai',
+					'pnuemonia',
+				],
+				'pneumonic'=>[
+					'pnuemonic',
+				],
+				'pneumonoultramicroscopicsilicovolcanoconiosis'=>[
+					'pneumonoultramicrocopicsilicovolcanoconiosis',
+					'pneumonoultramicroscopicsilicovolcanoconoisis',
+					'pneumonoultramicrosopicsilicovolcanoconiosis',
+					'pneumonuoltramicroscopicsilicovolcanoconiosis',
+					'pnuemonoultramicroscopicsilicovolcanoconiosis',
 				],
 				'pneumotachograph'=>[
 					'pneumotachygraph',
+				],
+				'pneumothorax'=>[
+					'pnuemothorax',
 				],
 				'pneumotonometer'=>[
 					'pneumatonometer',
@@ -8967,16 +14273,58 @@
 				'pneumotonometry'=>[
 					'pneumatonometry',
 				],
+				'poaceous'=>[
+					'paoceous',
+					'poaceuos',
+					'poacoeus',
+				],
+				'poach'=>[
+					'paoch',
+				],
+				'poached'=>[
+					'paoched',
+				],
+				'poacher'=>[
+					'paocher',
+				],
+				'poachers'=>[
+					'paochers',
+				],
+				'poaches'=>[
+					'paoches',
+				],
+				'poaching'=>[
+					'paoching',
+				],
+				'poachy'=>[
+					'paochy',
+				],
 				'pocketbook'=>[
 					'pocketbok',
 					'pocketboook',
+					'pockebook',
+					'pocketook',
 				],
 				'pocketbooks'=>[
 					'pocketboks',
 					'pocketboooks',
+					'pockebooks',
+					'pocketooks',
+				],
+				'pocketknife'=>[
+					'pockeknife',
+					'pocketnife',
+				],
+				'pocketknives'=>[
+					'pockeknives',
+					'pocketnives',
 				],
 				'pococurante'=>[
 					'pococurente',
+				],
+				'podcast'=>[
+					'pocast',
+					'podast',
 				],
 				'podded'=>[
 					'poddded',
@@ -8986,6 +14334,33 @@
 				],
 				'poddy'=>[
 					'podddy',
+				],
+				'podgier'=>[
+					'podgeir',
+				],
+				'podgiest'=>[
+					'podgeist',
+				],
+				'podia'=>[
+					'podai',
+				],
+				'podiatric'=>[
+					'podaitric',
+				],
+				'podiatrist'=>[
+					'podaitrist',
+				],
+				'podiatrists'=>[
+					'podaitrists',
+				],
+				'podiatry'=>[
+					'podaitry',
+				],
+				'podium'=>[
+					'poduim',
+				],
+				'podiums'=>[
+					'poduims',
 				],
 				'podocyte'=>[
 					'prodocyte',
@@ -9001,22 +14376,59 @@
 					'poem poem poem',
 					'poern',
 				],
+				'poems'=>[
+					'peoms',
+				],
 				'poesy'=>[
 					'poecy',
+					'peosy',
 				],
 				'poet-philosopher'=>[
 					'poetphilosopher',
 				],
+				'poetaster'=>[
+					'peotaster',
+				],
+				'poetasters'=>[
+					'peotasters',
+				],
 				'poetess'=>[
 					'poetesss',
+					'peotess',
 				],
 				'poetesses'=>[
 					'poeteses',
 					'poetessses',
+					'peotesses',
+				],
+				'poetic'=>[
+					'peotic',
+				],
+				'poetical'=>[
+					'peotical',
 				],
 				'poetically'=>[
 					'poeticallly',
 					'poeticaly',
+					'peotically',
+				],
+				'poeticize'=>[
+					'peoticize',
+				],
+				'poetics'=>[
+					'peotics',
+				],
+				'poetize'=>[
+					'peotize',
+				],
+				'poetized'=>[
+					'peotized',
+				],
+				'poetizes'=>[
+					'peotizes',
+				],
+				'poetizing'=>[
+					'peotizing',
 				],
 				'poetry'=>[
 					'peotry',
@@ -9027,33 +14439,77 @@
 				'pogges'=>[
 					'poggges',
 				],
+				'pogies'=>[
+					'pogeis',
+				],
+				'pogonia'=>[
+					'pogonai',
+				],
+				'pogonias'=>[
+					'pogonais',
+				],
 				'pogrom'=>[
 					'pogram',
 					'progrom',
 				],
 				'poignance'=>[
 					'poignence',
+					'piognance',
+				],
+				'poignances'=>[
+					'piognances',
+					'poignences',
 				],
 				'poignancy'=>[
 					'poignansy',
+					'piognancy',
+					'poignency',
 				],
 				'poignant'=>[
 					'poignent',
+					'piognant',
+				],
+				'poignantly'=>[
+					'piognantly',
+					'poignantely',
+					'poignently',
+				],
+				'poikilotherm'=>[
+					'piokilotherm',
 				],
 				'poikilothermic'=>[
 					'poikylothermic',
+					'piokilothermic',
+				],
+				'poilu'=>[
+					'piolu',
+				],
+				'poilus'=>[
+					'piolus',
+				],
+				'poinciana'=>[
+					'pionciana',
+					'poincaina',
+				],
+				'poincianas'=>[
+					'pioncianas',
+					'poincainas',
 				],
 				'poinsettia'=>[
 					'poinsetta',
 					'pointsettia',
 					'poinsetia',
 					'poinsetttia',
+					'pionsettia',
+					'poinsettai',
 				],
 				'poinsettias'=>[
 					'poinsettas',
 					'pointsettias',
 					'poinsetias',
 					'poinsetttias',
+					'pionsettias',
+					'poinsettais',
 				],
 				'point'=>[
 					'piont',
@@ -9062,41 +14518,75 @@
 					'ponit',
 					'poiut',
 				],
+				'pointblank'=>[
+					'piontblank',
+					'poinblank',
+					'pointlank',
+				],
 				'pointed'=>[
 					'pointcd',
 					'pointecl',
+					'pionted',
+				],
+				'pointedly'=>[
+					'piontedly',
 				],
 				'pointedness'=>[
 					'pointednes',
 					'pointednesss',
+					'piontedness',
 				],
 				'pointelle'=>[
 					'pointele',
 					'pointellle',
+					'piontelle',
+				],
+				'pointer'=>[
+					'pionter',
+				],
+				'pointers'=>[
+					'pionters',
+				],
+				'pointier'=>[
+					'piontier',
+					'pointeir',
+				],
+				'pointiest'=>[
+					'piontiest',
+					'pointeist',
 				],
 				'pointillism'=>[
 					'pointilism',
 					'pointilllism',
+					'piontillism',
 				],
 				'pointillist'=>[
 					'pointilist',
 					'pointilllist',
+					'piontillist',
 				],
 				'pointilliste'=>[
 					'pointiliste',
 					'pointillliste',
+					'piontilliste',
 				],
 				'pointillistic'=>[
 					'pointilistic',
 					'pointilllistic',
+					'piontillistic',
 				],
 				'pointillists'=>[
 					'pointilists',
 					'pointilllists',
+					'piontillists',
+				],
+				'pointing'=>[
+					'pionting',
 				],
 				'pointless'=>[
 					'pointles',
 					'pointlesss',
+					'piontless',
 				],
 				'pointlessly'=>[
 					'pointlessally',
@@ -9105,28 +14595,73 @@
 					'pointlesslly',
 					'pointlesly',
 					'pointlesssly',
+					'piontlessly',
 				],
 				'pointlessness'=>[
 					'pointlesness',
 					'pointlessnes',
 					'pointlessnesss',
 					'pointlesssness',
+					'piontlessness',
 				],
 				'points'=>[
 					'poiuts',
+					'pionts',
+				],
+				'pointsman'=>[
+					'piontsman',
+				],
+				'pointsmen'=>[
+					'piontsmen',
+				],
+				'pointy'=>[
+					'pionty',
+				],
+				'poise'=>[
+					'piose',
+				],
+				'poisha'=>[
+					'piosha',
 				],
 				'poison'=>[
 					'poisin',
 					'poifon',
+					'pioson',
+				],
+				'poisoned'=>[
+					'piosoned',
+					'poisond',
+				],
+				'poisoner'=>[
+					'piosoner',
+				],
+				'poisoners'=>[
+					'piosoners',
 				],
 				'poisoning'=>[
 					'poisining',
 					'posioning',
+					'piosoning',
 				],
 					# poisson: a name (Siméon Poisson, the Poisson distribution) and French for fish, and names stay out of this list
 			#	'poisson'=>[
 			#		'poissson',
 			#	],
+				'poisonings'=>[
+					'piosonings',
+				],
+				'poisonous'=>[
+					'piosonous',
+					'poisonuos',
+				],
+				'poisonously'=>[
+					'piosonously',
+					'poisonousely',
+					'poisonuosly',
+				],
+				'poisons'=>[
+					'piosons',
+				],
 				'poivrade'=>[
 					'poiverade',
 				],
@@ -9136,6 +14671,8 @@
 				'pokeberry'=>[
 					'pokebery',
 					'pokeberrry',
+					'pokberry',
+					'pokeerry',
 				],
 				'poker'=>[
 					'pocker',
@@ -9143,10 +14680,22 @@
 				'pokeweed'=>[
 					'pokewed',
 					'pokeweeed',
+					'pokweed',
 				],
 				'pokeweeds'=>[
 					'pokeweds',
 					'pokeweeeds',
+					'pokeeeds',
+					'pokweeds',
+				],
+				'pokier'=>[
+					'pokeir',
+				],
+				'pokiest'=>[
+					'pokeist',
+				],
+				'pokily'=>[
+					'pokly',
 				],
 				'pokiness'=>[
 					'pokines',
@@ -9165,8 +14714,55 @@
 				'polar'=>[
 					'poler',
 				],
+				'polariscope'=>[
+					'polaricope',
+					'polarisope',
+				],
+				'polariscopes'=>[
+					'polaricopes',
+					'polarisopes',
+				],
+				'polarities'=>[
+					'polariteis',
+				],
 				'polarizability'=>[
 					'polarizibility',
+				],
+				'polarizable'=>[
+					'polarizible',
+				],
+				'polarization'=>[
+					'polarizatoin',
+					'polarizaton',
+				],
+				'polarizations'=>[
+					'polarizatoins',
+					'polarizatons',
+				],
+				'polaroid'=>[
+					'polariod',
+				],
+				'polaroids'=>[
+					'polariods',
+				],
+				'poleax'=>[
+					'polaex',
+				],
+				'poleaxe'=>[
+					'polaexe',
+				],
+				'poleaxed'=>[
+					'polaexed',
+				],
+				'poleaxes'=>[
+					'polaexes',
+				],
+				'poleaxing'=>[
+					'polaexing',
+				],
+				'polecats'=>[
+					'polcats',
+					'poleats',
 				],
 				'poleis'=>[
 					'polies',
@@ -9175,11 +14771,37 @@
 					'polemicallly',
 					'polemicaly',
 				],
+				'polemist'=>[
+					'poleist',
+					'polmist',
+				],
+				'polemoniaceous'=>[
+					'polemonaiceous',
+					'polemoniaceuos',
+					'polemoniacoeus',
+				],
 				'polenta'=>[
 					'polanta',
 				],
 				'polestar'=>[
 					'polester',
+					'poletar',
+					'polstar',
+				],
+				'polestars'=>[
+					'poletars',
+					'polstars',
+				],
+				'policewoman'=>[
+					'policeoman',
+					'policwoman',
+				],
+				'policewomen'=>[
+					'policeomen',
+					'policwomen',
+				],
+				'policies'=>[
+					'policeis',
 				],
 				'policresulin'=>[
 					'polycresulin',
@@ -9187,11 +14809,37 @@
 				'policy'=>[
 					'polisy',
 				],
+				'policyholder'=>[
+					'policholder',
+					'policyolder',
+				],
+				'policymaker'=>[
+					'policmaker',
+					'policyaker',
+				],
+				'policymakers'=>[
+					'policmakers',
+					'policyakers',
+				],
+				'policymaking'=>[
+					'policmaking',
+					'policyaking',
+				],
 				'poliglecaprone'=>[
 					'polyglecaprone',
 				],
+				'polio'=>[
+					'poloi',
+				],
+				'poliomyelitic'=>[
+					'poloimyelitic',
+				],
 				'poliomyelitis'=>[
 					'polimyelities',
+					'poloimyelitis',
+				],
+				'polios'=>[
+					'polois',
 				],
 				'polish-occupied'=>[
 					'polish occupied',
@@ -9229,23 +14877,41 @@
 					'politition',
 					'pollitician',
 					'poltician',
+					'politicain',
 				],
 				'politicians'=>[
 					'politicans',
 					'polliticians',
 					'polticians',
 					'pohticians',
+					'politicains',
+				],
+				'politicization'=>[
+					'politicizatoin',
+					'politicizaton',
+				],
+				'politicoes'=>[
+					'politiceos',
 				],
 				'politics'=>[
 					'pollitics',
 					'poltics',
 					'pohtics',
 				],
+				'polities'=>[
+					'politeis',
+				],
 				'polka'=>[
 					'poka',
 				],
 				'polka dot'=>[
 					'poke-a-dot',
+				],
+				'polkaed'=>[
+					'polkead',
+				],
+				'polkaing'=>[
+					'polkiang',
 				],
 				'poll'=>[
 					'polll',
@@ -9313,6 +14979,8 @@
 					'polination',
 					'pollenation',
 					'polllination',
+					'pollinatoin',
+					'pollinaton',
 				],
 				'pollinator'=>[
 					'polinator',
@@ -9382,6 +15050,7 @@
 				'pollutants'=>[
 					'polllutants',
 					'polutants',
+					'pollutents',
 				],
 				'pollute'=>[
 					'polute',
@@ -9410,10 +15079,14 @@
 				'pollution'=>[
 					'polution',
 					'polllution',
+					'pollutoin',
+					'polluton',
 				],
 				'pollutions'=>[
 					'polllutions',
 					'polutions',
+					'pollutoins',
+					'pollutons',
 				],
 				'pollux'=>[
 					'polllux',
@@ -9435,8 +15108,20 @@
 					'polllywogs',
 					'polywogs',
 				],
+				'polonaise'=>[
+					'poloniase',
+				],
+				'polonaises'=>[
+					'poloniases',
+				],
+				'polonium'=>[
+					'polonuim',
+				],
 				'poltergeist'=>[
 					'poltergiest',
+				],
+				'poltergeists'=>[
+					'poltergiests',
 				],
 				'poltroon'=>[
 					'poltrooon',
@@ -9444,10 +15129,13 @@
 				'poltrooneries'=>[
 					'poltroneries',
 					'poltroooneries',
+					'poltroonaries',
+					'poltroonereis',
 				],
 				'poltroonery'=>[
 					'poltronery',
 					'poltrooonery',
+					'poltroonary',
 				],
 				'poltroonish'=>[
 					'poltronish',
@@ -9460,8 +15148,14 @@
 					'polyacrilamide',
 					'polyacrylimide',
 				],
+				'polyadelphous'=>[
+					'polyadelphuos',
+				],
 				'polyamorous'=>[
 					'polyamourous',
+				],
+				'polyandrous'=>[
+					'polyandruos',
 				],
 				'polyangiitis'=>[
 					'polyangitis',
@@ -9469,8 +15163,17 @@
 				'polybrene'=>[
 					'polybrane',
 				],
+				'polychaete'=>[
+					'polycheate',
+				],
+				'polychaetes'=>[
+					'polycheates',
+				],
 				'polychromator'=>[
 					'polychrometer',
+				],
+				'polychromous'=>[
+					'polychromuos',
 				],
 				'polycistronic'=>[
 					'polycystronic',
@@ -9486,11 +15189,18 @@
 				'polycythaemia'=>[
 					'polycytaemia',
 				],
+				'polycythemia'=>[
+					'polycythemai',
+				],
+				'polycythemias'=>[
+					'polycythemais',
+				],
 				'polydactyly'=>[
 					'polydactily',
 				],
 				'polydipsia'=>[
 					'polydypsia',
+					'polydipsai',
 				],
 				'polydipsic'=>[
 					'polydypsic',
@@ -9498,18 +15208,36 @@
 				'polyethyleneimine'=>[
 					'polyethylenimine',
 				],
+				'polygamous'=>[
+					'polygamuos',
+				],
+				'polygamously'=>[
+					'polygamousely',
+					'polygamuosly',
+				],
 				'polygynandrous'=>[
 					'polygynadrous',
 					'polygynandric',
 				],
+				'polygynies'=>[
+					'polygyneis',
+				],
 				'polygynous'=>[
 					'polygyneous',
+					'polygynuos',
 				],
 				'polykaryotic'=>[
 					'polycaryotic',
 				],
 				'polylactide'=>[
 					'polyactide',
+				],
+				'polymerization'=>[
+					'polymerizatoin',
+					'polymerizaton',
+				],
+				'polymerous'=>[
+					'polymeruos',
 				],
 				'polymorph'=>[
 					'polymourph',
@@ -9526,8 +15254,12 @@
 				'polymorphisms'=>[
 					'polymourphisms',
 				],
+				'polymorphonuclear'=>[
+					'polymorphonuclaer',
+				],
 				'polymorphous'=>[
 					'polymourphous',
+					'polymorphuos',
 				],
 				'polymorphously'=>[
 					'polymorphousally',
@@ -9539,12 +15271,25 @@
 				'polymorphs'=>[
 					'polymourphs',
 				],
+				'polyneuritides'=>[
+					'polynueritides',
+				],
+				'polyneuritis'=>[
+					'polynueritis',
+				],
 				'polyneuropathy'=>[
 					'polineuropathy',
+				],
+				'polynomial'=>[
+					'polynomail',
+				],
+				'polynomials'=>[
+					'polynomails',
 				],
 				'polynuclear'=>[
 					'polynucleer',
 					'polynucler',
+					'polynuclaer',
 				],
 				'polyomavirus'=>[
 					'polymavirus',
@@ -9558,15 +15303,36 @@
 				'polypary'=>[
 					'polypery',
 				],
+				'polypetalous'=>[
+					'polypetaluos',
+				],
+				'polyphagia'=>[
+					'polyphagai',
+				],
 				'polyphonically'=>[
 					'polyphonicallly',
 					'polyphonicaly',
+				],
+				'polyphonous'=>[
+					'polyphonuos',
 				],
 				'polyphonously'=>[
 					'polyphonousally',
 					'polyphonousaly',
 					'polyphonousely',
 					'polyphonouslly',
+				],
+				'polyploid'=>[
+					'polypliod',
+				],
+				'polyploids'=>[
+					'polypliods',
+				],
+				'polypodies'=>[
+					'polypodeis',
+				],
+				'polypoid'=>[
+					'polypiod',
 				],
 				'polysaccharide'=>[
 					'polysaccaride',
@@ -9577,6 +15343,15 @@
 				'polysaccharides'=>[
 					'polysacharides',
 					'polysacccharides',
+				],
+				'polysemies'=>[
+					'polysemeis',
+				],
+				'polysemous'=>[
+					'polysemuos',
+				],
+				'polysepalous'=>[
+					'polysepaluos',
 				],
 				'polysomy'=>[
 					'polisomy',
@@ -9593,21 +15368,62 @@
 				'polysyllables'=>[
 					'polysylables',
 					'polysylllables',
+					'polysyllibles',
 				],
 				'polytheism'=>[
 					'polythiesm',
 				],
+				'polytheist'=>[
+					'polythiest',
+				],
+				'polytheistic'=>[
+					'polythiestic',
+				],
 				'polytheistical'=>[
 					'polythiestical',
+				],
+				'polytheists'=>[
+					'polythiests',
+				],
+				'polytonalities'=>[
+					'polytonaliteis',
 				],
 				'polyvalence'=>[
 					'polyvalance',
 				],
+				'polyvalency'=>[
+					'polyvalancy',
+				],
+				'polyvalent'=>[
+					'polyvalant',
+				],
+				'polyzoan'=>[
+					'polyzaon',
+				],
+				'polyzoans'=>[
+					'polyzaons',
+				],
+				'polyzoarium'=>[
+					'polyzaorium',
+					'polyzoaruim',
+				],
 				'polyzoary'=>[
 					'polyzoery',
 				],
+				'polyzoic'=>[
+					'polyzioc',
+				],
 				'pomegranate'=>[
 					'pomegranite',
+				],
+				'pomeranian'=>[
+					'pomeranain',
+				],
+				'pomeranians'=>[
+					'pomeranains',
+				],
+				'pomiferous'=>[
+					'pomiferuos',
 				],
 				'pommee'=>[
 					'pomnee',
@@ -9648,31 +15464,91 @@
 					'pomny',
 					'pommmy',
 				],
+				'pomologies'=>[
+					'pomologeis',
+				],
+				'pompadour'=>[
+					'pompaduor',
+				],
+				'pompadoured'=>[
+					'pompadourd',
+					'pompaduored',
+				],
+				'pompadours'=>[
+					'pompaduors',
+				],
+				'pompous'=>[
+					'pompuos',
+				],
+				'pompously'=>[
+					'pompousely',
+					'pompuosly',
+				],
 				'pompousness'=>[
 					'pompousnes',
 					'pompousnesss',
+					'pompuosness',
 				],
 				'ponasterone'=>[
 					'ponesterone',
 				],
+				'ponceau'=>[
+					'poncaeu',
+					'ponceua',
+				],
 				'pond'=>[
 					'poiid',
+				],
+				'ponderable'=>[
+					'ponderible',
+				],
+				'pondered'=>[
+					'ponderd',
+				],
+				'ponderosities'=>[
+					'ponderositeis',
+				],
+				'ponderous'=>[
+					'ponderuos',
+				],
+				'ponderously'=>[
+					'ponderousely',
+					'ponderuosly',
 				],
 				'ponderousness'=>[
 					'ponderousnes',
 					'ponderousnesss',
+					'ponderuosness',
 				],
 				'pondweed'=>[
 					'pondwed',
 					'pondweeed',
+					'ponweed',
 				],
 				'pondweeds'=>[
 					'pondweds',
 					'pondweeeds',
+					'pondeeds',
+					'ponweeds',
 				],
 				'pongee'=>[
 					'ponge',
 					'pongeee',
+				],
+				'poniard'=>[
+					'ponaird',
+				],
+				'poniards'=>[
+					'ponairds',
+				],
+				'ponied'=>[
+					'poneid',
+				],
+				'ponies'=>[
+					'poneis',
+				],
+				'pontianak'=>[
+					'pontainak',
 				],
 				'pontiff'=>[
 					'pontif',
@@ -9686,8 +15562,19 @@
 					'pontificallly',
 					'pontificaly',
 				],
+				'pontification'=>[
+					'pontificatoin',
+					'pontificaton',
+				],
+				'pontifications'=>[
+					'pontificatoins',
+					'pontificatons',
+				],
 				'pontine'=>[
 					'pontini',
+				],
+				'pontonier'=>[
+					'pontoneir',
 				],
 				'pontoon'=>[
 					'pontooon',
@@ -9697,6 +15584,16 @@
 				],
 				'pontoporiid'=>[
 					'pontoporid',
+				],
+				'ponytail'=>[
+					'pontail',
+					'ponyail',
+					'ponytial',
+				],
+				'ponytails'=>[
+					'pontails',
+					'ponyails',
+					'ponytials',
 				],
 				'poo'=>[
 					'pooo',
@@ -9729,6 +15626,7 @@
 				],
 				'pooed'=>[
 					'poooed',
+					'poeod',
 				],
 				'poof'=>[
 					'pooof',
@@ -9767,6 +15665,7 @@
 				'pooing'=>[
 					'poing',
 					'poooing',
+					'poiong',
 				],
 				'pooka'=>[
 					'poooka',
@@ -9788,12 +15687,16 @@
 					'poolrom',
 					'poolrooom',
 					'pooolroom',
+					'pooloom',
+					'pooroom',
 				],
 				'poolrooms'=>[
 					'polrooms',
 					'poolroms',
 					'poolroooms',
 					'pooolrooms',
+					'poolooms',
+					'poorooms',
 				],
 				'pools'=>[
 					'poools',
@@ -9801,10 +15704,14 @@
 				'poolside'=>[
 					'polside',
 					'pooolside',
+					'poolide',
+					'pooside',
 				],
 				'poolsides'=>[
 					'polsides',
 					'pooolsides',
+					'poolides',
+					'poosides',
 				],
 				'poon'=>[
 					'pooon',
@@ -9840,14 +15747,21 @@
 				'poorest'=>[
 					'porest',
 					'pooorest',
+					'pooest',
 				],
 				'poorhouse'=>[
 					'pooorhouse',
 					'porhouse',
+					'poohouse',
+					'poorhuose',
+					'poorouse',
 				],
 				'poorhouses'=>[
 					'pooorhouses',
 					'porhouses',
+					'poohouses',
+					'poorhuoses',
+					'poorouses',
 				],
 				'poorly'=>[
 					'poorally',
@@ -9860,6 +15774,9 @@
 				'poormouth'=>[
 					'pooormouth',
 					'pormouth',
+					'poomouth',
+					'poormuoth',
+					'poorouth',
 				],
 				'poorness'=>[
 					'poornes',
@@ -9870,8 +15787,29 @@
 				'poos'=>[
 					'pooos',
 				],
+				'popcorn'=>[
+					'pocorn',
+					'poporn',
+				],
+				'poperies'=>[
+					'popereis',
+				],
+				'popeyed'=>[
+					'poeyed',
+					'popyed',
+				],
+				'popguns'=>[
+					'poguns',
+					'popuns',
+				],
 				'poplar'=>[
 					'popler',
+				],
+				'popliteal'=>[
+					'poplitael',
+				],
+				'popover'=>[
+					'popver',
 				],
 				'poppa'=>[
 					'popa',
@@ -9918,10 +15856,12 @@
 				'poppied'=>[
 					'popied',
 					'popppied',
+					'poppeid',
 				],
 				'poppies'=>[
 					'popies',
 					'popppies',
+					'poppeis',
 				],
 				'popping'=>[
 					'poping',
@@ -9938,6 +15878,8 @@
 				'poppycock'=>[
 					'popycock',
 					'popppycock',
+					'poppcock',
+					'poppyock',
 				],
 				'poppycocks'=>[
 					'popycocks',
@@ -9945,6 +15887,9 @@
 				'poppyhead'=>[
 					'popyhead',
 					'popppyhead',
+					'popphead',
+					'poppyead',
+					'poppyhaed',
 				],
 				'poppyheads'=>[
 					'popyheads',
@@ -9962,6 +15907,19 @@
 				],
 				'popularity'=>[
 					'popularaty',
+					'populerity',
+				],
+				'popularization'=>[
+					'popularizatoin',
+					'popularizaton',
+				],
+				'popularizations'=>[
+					'popularizatoins',
+					'popularizatons',
+				],
+				'popularly'=>[
+					'popularily',
+					'populerly',
 				],
 				'populate'=>[
 					'populate populate',
@@ -9973,16 +15931,31 @@
 					'populaton',
 					'popultion',
 					'ppulation',
+					'populatoin',
 				],
 				'populations'=>[
 					'poplations',
 					'populatons',
 					'popultions',
 					'ppulations',
+					'populatoins',
+				],
+				'populous'=>[
+					'populuos',
 				],
 				'populousness'=>[
 					'populousnes',
 					'populousnesss',
+					'populuosness',
+				],
+				'porbeagle'=>[
+					'porbaegle',
+				],
+				'porbeagles'=>[
+					'porbaegles',
+				],
+				'porcelain'=>[
+					'porcelian',
 				],
 				'porcelainize'=>[
 					'porcelainaze',
@@ -9996,6 +15969,9 @@
 				'porcelainizing'=>[
 					'porcelainazing',
 				],
+				'porcelains'=>[
+					'porcelians',
+				],
 				'porch'=>[
 					'porcli',
 				],
@@ -10008,16 +15984,71 @@
 				'porcupine'=>[
 					'porcupini',
 				],
+				'porgies'=>[
+					'porgeis',
+				],
+				'poriferous'=>[
+					'poriferuos',
+				],
+				'porkier'=>[
+					'porkeir',
+				],
+				'porkies'=>[
+					'porkeis',
+				],
+				'porkiest'=>[
+					'porkeist',
+				],
+				'porkpie'=>[
+					'porkpei',
+				],
+				'porkpies'=>[
+					'porkpeis',
+					'porpies',
+				],
+				'pornographic'=>[
+					'porngraphic',
+					'pornoraphic',
+				],
 				'pornographically'=>[
 					'pornographicallly',
 					'pornographicaly',
 				],
+				'porous'=>[
+					'poruos',
+				],
+				'porously'=>[
+					'porousely',
+					'poruosly',
+				],
 				'porousness'=>[
 					'porousnes',
 					'porousnesss',
+					'poruosness',
+				],
+				'porphyria'=>[
+					'porphyrai',
+				],
+				'porphyrias'=>[
+					'porphyrais',
 				],
 				'porphyrin'=>[
 					'prophyrin',
+				],
+				'porphyroid'=>[
+					'porphyriod',
+				],
+				'porpoise'=>[
+					'porpiose',
+				],
+				'porpoised'=>[
+					'porpiosed',
+				],
+				'porpoises'=>[
+					'porpioses',
+				],
+				'porpoising'=>[
+					'porpiosing',
 				],
 				'porrect'=>[
 					'porect',
@@ -10042,12 +16073,32 @@
 					'port port',
 					'port port port',
 				],
+				'portability'=>[
+					'porability',
+					'portbility',
+					'portibility',
+				],
 				'portable'=>[
 					'portible',
 				],
 				'portableness'=>[
 					'portablenes',
 					'portablenesss',
+					'portibleness',
+				],
+				'portables'=>[
+					'portibles',
+				],
+				'portably'=>[
+					'portibly',
+				],
+				'portaged'=>[
+					'poraged',
+					'portged',
+				],
+				'portaging'=>[
+					'poraging',
+					'portging',
 				],
 				'portalled'=>[
 					'portallled',
@@ -10061,15 +16112,96 @@
 				'portcullises'=>[
 					'portculllises',
 				],
+				'portended'=>[
+					'porended',
+					'portnded',
+				],
+				'portending'=>[
+					'porending',
+					'portnding',
+				],
+				'portends'=>[
+					'porends',
+					'portnds',
+				],
 				'portent'=>[
 					'portant',
+				],
+				'portentous'=>[
+					'portentuos',
+				],
+				'portentously'=>[
+					'portentousely',
+					'portentuosly',
 				],
 				'portentousness'=>[
 					'portentousnes',
 					'portentousnesss',
+					'portentuosness',
+				],
+				'portents'=>[
+					'portants',
+				],
+				'porterhouse'=>[
+					'portehouse',
+					'porterhuose',
+					'porterouse',
+				],
+				'porterhouses'=>[
+					'portehouses',
+					'porterhuoses',
+					'porterouses',
+				],
+				'portfire'=>[
+					'porfire',
+					'portire',
+				],
+				'portfolio'=>[
+					'portfoloi',
+				],
+				'portfolios'=>[
+					'portfolois',
+				],
+				'porthole'=>[
+					'porhole',
+					'portole',
+				],
+				'portholes'=>[
+					'porholes',
+					'portoles',
+				],
+				'portia'=>[
+					'portai',
+				],
+				'porticoed'=>[
+					'porticeod',
+				],
+				'porticoes'=>[
+					'porticeos',
 				],
 				'portion'=>[
 					'protion',
+					'portoin',
+				],
+				'portioned'=>[
+					'portiond',
+					'portoined',
+				],
+				'portioning'=>[
+					'portoining',
+				],
+				'portions'=>[
+					'portoins',
+				],
+				'portland'=>[
+					'porland',
+					'portand',
+				],
+				'portlier'=>[
+					'portleir',
+				],
+				'portliest'=>[
+					'portleist',
 				],
 				'portliness'=>[
 					'portlines',
@@ -10084,12 +16216,35 @@
 				'portmanteau'=>[
 					'portmanteu',
 					'portmenteau',
+					'portmantaeu',
+					'portmanteua',
+				],
+				'portmanteaus'=>[
+					'portmantaeus',
+					'portmanteuas',
+				],
+				'portmanteaux'=>[
+					'portmantaeux',
+					'portmanteuax',
 				],
 				'portobello'=>[
 					'portobelo',
 				],
 				'portrait'=>[
 					'protrait',
+					'portriat',
+				],
+				'portraitist'=>[
+					'portriatist',
+				],
+				'portraitists'=>[
+					'portriatists',
+				],
+				'portraits'=>[
+					'portriats',
+				],
+				'portraiture'=>[
+					'portriature',
 				],
 				'portray'=>[
 					'potray',
@@ -10108,6 +16263,9 @@
 					'portaying',
 					'potraying',
 				],
+				'portrays'=>[
+					'portays',
+				],
 				'portuguese'=>[
 					'portugese',
 					'portugues',
@@ -10121,10 +16279,17 @@
 				],
 				'poseur'=>[
 					'poser',
+					'posuer',
+				],
+				'poseurs'=>[
+					'posuers',
 				],
 				'poshness'=>[
 					'poshnes',
 					'poshnesss',
+				],
+				'posies'=>[
+					'poseis',
 				],
 				'position'=>[
 					'poisition',
@@ -10136,13 +16301,34 @@
 					'postion',
 					'pofition',
 					'positiou',
+					'positoin',
+				],
+				'positional'=>[
+					'positoinal',
+					'positonal',
 				],
 				'positionally'=>[
 					'positionallly',
 					'positionaly',
+					'positoinally',
+					'positonally',
+				],
+				'positioned'=>[
+					'positiond',
+					'positoined',
+				],
+				'positioner'=>[
+					'positoiner',
+				],
+				'positioners'=>[
+					'positoiners',
+				],
+				'positioning'=>[
+					'positoining',
 				],
 				'positions'=>[
 					'pofitions',
+					'positoins',
 				],
 				'positive'=>[
 					'positve',
@@ -10162,6 +16348,15 @@
 				'positivistically'=>[
 					'positivisticallly',
 					'positivisticaly',
+				],
+				'positivities'=>[
+					'positiviteis',
+				],
+				'positronium'=>[
+					'positronuim',
+				],
+				'posologies'=>[
+					'posologeis',
 				],
 				'posse'=>[
 					'possse',
@@ -10200,12 +16395,16 @@
 					'possesssion',
 					'posssession',
 					'possessioii',
+					'possessoin',
+					'possesson',
 				],
 				'possessions'=>[
 					'posessions',
 					'possesions',
 					'possesssions',
 					'posssessions',
+					'possessoins',
+					'possessons',
 				],
 				'possessive'=>[
 					'possesive',
@@ -10263,6 +16462,8 @@
 					'possiblities',
 					'posibilities',
 					'posssibilities',
+					'possabilities',
+					'possibiliteis',
 				],
 				'possibility'=>[
 					'posibility',
@@ -10271,6 +16472,7 @@
 					'posssibility',
 					'poffibility',
 					'possibihty',
+					'possability',
 				],
 				'possible'=>[
 					'posible',
@@ -10285,6 +16487,7 @@
 				'possibles'=>[
 					'posibles',
 					'posssibles',
+					'possables',
 				],
 				'possibly'=>[
 					'posibly',
@@ -10295,6 +16498,7 @@
 				],
 				'possie'=>[
 					'posssie',
+					'possei',
 				],
 				'possum'=>[
 					'posum',
@@ -10325,24 +16529,94 @@
 					'postadolecent',
 					'postadolecsent',
 					'postadolesent',
+					'posadolescent',
+					'postadolescant',
+					'postdolescent',
 				],
 				'postally'=>[
 					'postallly',
 					'postaly',
 				],
+				'postalveolar'=>[
+					'postalvoelar',
+				],
+				'postaxial'=>[
+					'postaxail',
+				],
+				'postbags'=>[
+					'posbags',
+					'postags',
+				],
+				'postbiological'=>[
+					'posbiological',
+					'postboilogical',
+					'postiological',
+				],
+				'postboxes'=>[
+					'posboxes',
+					'postoxes',
+				],
+				'postcard'=>[
+					'poscard',
+					'postard',
+				],
+				'postcards'=>[
+					'poscards',
+					'postards',
+				],
 				'postclassical'=>[
 					'postclasical',
 					'postclasssical',
+					'posclassical',
+					'postlassical',
+				],
+				'postcode'=>[
+					'poscode',
+					'postode',
+				],
+				'postcodes'=>[
+					'poscodes',
+					'postodes',
+				],
+				'postcoital'=>[
+					'postciotal',
 				],
 				'postcollegiate'=>[
 					'postcolegiate',
 					'postcolllegiate',
+					'postcollegaite',
+				],
+				'postcolonial'=>[
+					'poscolonial',
+					'postcolonail',
+					'postolonial',
 				],
 				'postcommissural'=>[
 					'postcomissural',
 				],
+				'postconvalescent'=>[
+					'postconvalecent',
+					'postconvalescant',
+					'postconvalesent',
+				],
 				'postcoronary'=>[
 					'postcoronery',
+				],
+				'postdate'=>[
+					'posdate',
+					'postate',
+				],
+				'postdated'=>[
+					'posdated',
+					'postated',
+				],
+				'postdates'=>[
+					'posdates',
+					'postates',
+				],
+				'postdating'=>[
+					'posdating',
+					'postating',
 				],
 				'postdepositional'=>[
 					'postdepositational',
@@ -10352,9 +16626,20 @@
 				],
 				'postdiluvian'=>[
 					'postdiluvan',
+					'postdiluvain',
+				],
+				'postdoctorate'=>[
+					'posdoctorate',
+					'postoctorate',
 				],
 				'posted'=>[
 					'postcd',
+				],
+				'postelection'=>[
+					'poselection',
+					'postelectoin',
+					'postelecton',
+					'postlection',
 				],
 				'postemergence'=>[
 					'postemergance',
@@ -10365,11 +16650,25 @@
 				'postencephalitic'=>[
 					'postencephalytic',
 				],
+				'posterior'=>[
+					'posteroir',
+				],
+				'posteriorities'=>[
+					'posterioriteis',
+					'posteroirities',
+				],
+				'posteriority'=>[
+					'posteroirity',
+				],
 				'posteriorly'=>[
 					'posteriorally',
 					'posterioraly',
 					'posteriorely',
 					'posteriorlly',
+					'posteroirly',
+				],
+				'posteriors'=>[
+					'posteroirs',
 				],
 				'posterity'=>[
 					'postenty',
@@ -10380,46 +16679,153 @@
 				'posterolaterally'=>[
 					'poserolaterally',
 				],
+				'postexilian'=>[
+					'postexilain',
+				],
 				'postexperience'=>[
 					'postexperiance',
 				],
 				'postfeminist'=>[
 					'postfeminast',
 				],
+				'postfixes'=>[
+					'posfixes',
+					'postixes',
+				],
+				'postglacial'=>[
+					'postglacail',
+				],
 				'postgraduate'=>[
 					'postgradaute',
+					'posgraduate',
+					'postraduate',
 				],
 				'postgraduates'=>[
 					'postgradautes',
+					'posgraduates',
+					'postraduates',
 				],
 				'postgraduation'=>[
 					'postgradaution',
+				],
+				'posthaste'=>[
+					'poshaste',
+					'postaste',
 				],
 				'posthemorrhagic'=>[
 					'posthemorhagic',
 					'posthemourrhagic',
 				],
+				'posthole'=>[
+					'poshole',
+					'postole',
+				],
+				'postholes'=>[
+					'posholes',
+					'postoles',
+				],
 				'posthumous'=>[
 					'postumous',
+					'posthumuos',
+				],
+				'posthumously'=>[
+					'posthumousely',
+					'posthumuosly',
+				],
+				'posthypnotic'=>[
+					'poshypnotic',
+					'postypnotic',
+				],
+				'posticous'=>[
+					'posticuos',
+				],
+				'postie'=>[
+					'postei',
+				],
+				'posties'=>[
+					'posteis',
+				],
+				'postilion'=>[
+					'postiloin',
+					'postilon',
+				],
+				'postilions'=>[
+					'postiloins',
+					'postilons',
 				],
 				'postillion'=>[
 					'postilllion',
+					'postilloin',
+					'postillon',
 				],
 				'postillions'=>[
 					'postilllions',
+					'postilloins',
+					'postillons',
 				],
 				'postimpressionism'=>[
 					'postimpresionism',
 					'postimpresssionism',
+					'postimpressoinism',
+					'postimpressonism',
 				],
 				'postinaugural'=>[
 					'postiniugural',
+				],
+				'postindustrial'=>[
+					'posindustrial',
+					'postindustrail',
+					'postndustrial',
 				],
 				'postirradiation'=>[
 					'postiradiation',
 				],
 				'postlapsarian'=>[
 					'postlapsaran',
+				],
+				'postlaunch'=>[
+					'poslaunch',
+					'postaunch',
+					'postluanch',
+				],
+				'postmarital'=>[
+					'posmarital',
+					'postarital',
+				],
+				'postmark'=>[
+					'posmark',
+					'postark',
+				],
+				'postmarked'=>[
+					'posmarked',
+					'postarked',
+				],
+				'postmarking'=>[
+					'posmarking',
+					'postarking',
+				],
+				'postmarks'=>[
+					'posmarks',
+					'postarks',
+				],
+				'postmaster'=>[
+					'posmaster',
+					'postaster',
+				],
+				'postmasters'=>[
+					'posmasters',
+					'postasters',
+				],
+				'postmenopausal'=>[
+					'postmenopuasal',
+				],
+				'postmenstrual'=>[
+					'posmenstrual',
+					'postenstrual',
+					'postmenstraul',
+				],
+				'postmeridian'=>[
+					'postmeridain',
 				],
 				'postmillenarian'=>[
 					'postmilenarian',
@@ -10434,14 +16840,21 @@
 					'postmillenialism',
 					'postmillennnialism',
 					'postmilllennialism',
+					'postmillennailism',
 				],
 				'postmistress'=>[
 					'postmistres',
 					'postmistresss',
+					'posmistress',
+					'postistress',
 				],
 				'postmistresses'=>[
 					'postmistreses',
 					'postmistressses',
+				],
+				'postmodern'=>[
+					'posmodern',
+					'postodern',
 				],
 				'postmortem'=>[
 					'postmourtem',
@@ -10449,9 +16862,20 @@
 				'postmortems'=>[
 					'postmourtems',
 				],
+				'postnasal'=>[
+					'posnasal',
+					'postasal',
+				],
 				'postnatally'=>[
 					'postnatallly',
 					'postnataly',
+				],
+				'postnuptial'=>[
+					'postnuptail',
+				],
+				'postoperative'=>[
+					'posoperative',
+					'postperative',
 				],
 				'postoperatively'=>[
 					'postoperativeally',
@@ -10460,25 +16884,86 @@
 					'postoperativelly',
 					'postoperativly',
 				],
+				'postorbital'=>[
+					'posorbital',
+					'postrbital',
+				],
+				'postpaid'=>[
+					'pospaid',
+					'postaid',
+					'postpiad',
+				],
 				'postpartum'=>[
 					'postpertum',
 				],
 				'postpollination'=>[
 					'postpollinition',
 				],
+				'postponable'=>[
+					'postponible',
+				],
+				'postponed'=>[
+					'postpond',
+				],
+				'postponement'=>[
+					'postponemant',
+				],
+				'postponements'=>[
+					'postponemants',
+				],
+				'postpositive'=>[
+					'pospositive',
+					'postositive',
+				],
 				'postpositively'=>[
 					'postpositivly',
 				],
+				'postprandial'=>[
+					'postprandail',
+				],
 				'postprimary'=>[
 					'postprimery',
+				],
+				'postpubescence'=>[
+					'postpubecence',
+					'postpubescance',
+					'postpubesence',
+				],
+				'postpubescent'=>[
+					'postpubecent',
+					'postpubescant',
+					'postpubesent',
+				],
+				'postrider'=>[
+					'posrider',
+					'postider',
 				],
 				'postscript'=>[
 					'postcript',
 					'postcsript',
 					'postsript',
+					'posscript',
+				],
+				'postscripts'=>[
+					'posscripts',
+					'postcripts',
+					'postsripts',
 				],
 				'postseason'=>[
 					'postseson',
+					'posseason',
+					'posteason',
+					'postsaeson',
+				],
+				'postseasonal'=>[
+					'posseasonal',
+					'posteasonal',
+					'postsaesonal',
+				],
+				'postseasons'=>[
+					'posseasons',
+					'posteasons',
+					'postsaesons',
 				],
 				'postsecondary'=>[
 					'postsecondery',
@@ -10491,6 +16976,24 @@
 				],
 				'postulancy'=>[
 					'postulansy',
+					'postulency',
+				],
+				'postulant'=>[
+					'postulent',
+				],
+				'postulants'=>[
+					'postulents',
+				],
+				'postulation'=>[
+					'postulatoin',
+					'postulaton',
+				],
+				'postulations'=>[
+					'postulatoins',
+					'postulatons',
+				],
+				'postured'=>[
+					'posturd',
 				],
 				'postvaccinal'=>[
 					'postvaccinil',
@@ -10503,6 +17006,14 @@
 				'postwar'=>[
 					'postwer',
 				],
+				'postwoman'=>[
+					'postoman',
+					'poswoman',
+				],
+				'postwomen'=>[
+					'postomen',
+					'poswomen',
+				],
 				'postzygapophysis'=>[
 					'postzygaphophysis',
 					'postzygopophysis',
@@ -10512,6 +17023,10 @@
 				],
 				'posy'=>[
 					'pocy',
+				],
+				'potability'=>[
+					'poability',
+					'potbility',
 				],
 				'potable'=>[
 					'potible',
@@ -10523,17 +17038,31 @@
 				'potassium'=>[
 					'potasium',
 					'potasssium',
+					'potassuim',
+				],
+				'potation'=>[
+					'potatoin',
+					'potaton',
+				],
+				'potations'=>[
+					'potatoins',
+					'potatons',
 				],
 				'potatoes'=>[
 					'potatos',
+					'potateos',
 				],
 				'potbellied'=>[
 					'potbelied',
 					'potbelllied',
+					'potbelleid',
 				],
 				'potbellies'=>[
 					'potbelies',
 					'potbelllies',
+					'pobellies',
+					'potbelleis',
+					'potellies',
 				],
 				'potbelly'=>[
 					'potbelally',
@@ -10541,6 +17070,19 @@
 					'potbelely',
 					'potbellly',
 					'potbely',
+					'pobelly',
+					'potelly',
+				],
+				'potboiler'=>[
+					'poboiler',
+					'potbioler',
+					'potoiler',
+				],
+				'potboilers'=>[
+					'potbiolers',
+				],
+				'potboys'=>[
+					'potoys',
 				],
 				'poteen'=>[
 					'poteeen',
@@ -10564,13 +17106,31 @@
 					'potantial',
 					'potental',
 					'potentional',
+					'potentail',
+				],
+				'potentialities'=>[
+					'potentailities',
+					'potentialiteis',
 				],
 				'potentiality'=>[
 					'potantiality',
+					'potentaility',
 				],
 				'potentially'=>[
 					'potentialy',
 					'potentiallly',
+					'potentailly',
+				],
+				'potentials'=>[
+					'potentails',
+				],
+				'potentiate'=>[
+					'potentaite',
+				],
+				'potentiation'=>[
+					'potentaition',
+					'potentiatoin',
+					'potentiaton',
 				],
 				'potentilla'=>[
 					'potentila',
@@ -10578,6 +17138,10 @@
 				],
 				'potentiometer'=>[
 					'potantiometer',
+					'potentoimeter',
+				],
+				'potentiometers'=>[
+					'potentoimeters',
 				],
 				'potently'=>[
 					'potentally',
@@ -10585,17 +17149,87 @@
 					'potentely',
 					'potentlly',
 				],
+				'pothead'=>[
+					'pohead',
+					'potead',
+					'pothaed',
+				],
+				'potheads'=>[
+					'poheads',
+					'poteads',
+					'pothaeds',
+				],
 				'potheen'=>[
 					'potheeen',
 					'pothen',
 				],
+				'potherb'=>[
+					'poherb',
+					'poterb',
+				],
+				'potherbs'=>[
+					'poherbs',
+					'poterbs',
+				],
+				'pothers'=>[
+					'pohers',
+				],
+				'potholder'=>[
+					'poholder',
+					'potolder',
+				],
+				'pothole'=>[
+					'pohole',
+					'potole',
+				],
+				'potholed'=>[
+					'poholed',
+				],
+				'potholes'=>[
+					'poholes',
+					'potoles',
+				],
 				'pothook'=>[
 					'pothok',
 					'pothoook',
+					'pohook',
+					'potook',
 				],
 				'pothooks'=>[
 					'pothoks',
 					'pothoooks',
+					'pohooks',
+					'potooks',
+				],
+				'pothouse'=>[
+					'pohouse',
+					'pothuose',
+					'potouse',
+				],
+				'pothouses'=>[
+					'pohouses',
+					'pothuoses',
+					'potouses',
+				],
+				'pothunter'=>[
+					'pohunter',
+					'potunter',
+				],
+				'pothunters'=>[
+					'pohunters',
+					'potunters',
+				],
+				'potion'=>[
+					'potoin',
+					'poton',
+				],
+				'potions'=>[
+					'potoins',
+					'potons',
+				],
+				'potluck'=>[
+					'poluck',
+					'potuck',
 				],
 				'potoroo'=>[
 					'potoro',
@@ -10605,16 +17239,45 @@
 					'potorooos',
 					'potoros',
 				],
+				'potpie'=>[
+					'potpei',
+				],
+				'potpies'=>[
+					'potpeis',
+				],
 				'potpourri'=>[
 					'potpouri',
 					'potpourrri',
+					'potpuorri',
 				],
 				'potpourris'=>[
 					'potpouris',
 					'potpourrris',
+					'potpuorris',
 				],
 				'potsdam'=>[
 					'postdam',
+				],
+				'potshard'=>[
+					'poshard',
+					'pothard',
+					'potsard',
+				],
+				'potsherd'=>[
+					'potserd',
+				],
+				'potsherds'=>[
+					'potherds',
+					'potserds',
+				],
+				'potshot'=>[
+					'poshot',
+					'pothot',
+				],
+				'potshots'=>[
+					'poshots',
+					'pothots',
+					'potsots',
 				],
 				'potsy'=>[
 					'potcy',
@@ -10631,10 +17294,13 @@
 				'pottered'=>[
 					'potered',
 					'potttered',
+					'potterd',
 				],
 				'potteries'=>[
 					'poteries',
 					'pottteries',
+					'pottaries',
+					'pottereis',
 				],
 				'pottering'=>[
 					'potering',
@@ -10651,13 +17317,16 @@
 				],
 				'pottier'=>[
 					'potttier',
+					'potteir',
 				],
 				'potties'=>[
 					'poties',
 					'pottties',
+					'potteis',
 				],
 				'pottiest'=>[
 					'potttiest',
+					'potteist',
 				],
 				'pottiness'=>[
 					'pottines',
@@ -10689,38 +17358,184 @@
 				'potty'=>[
 					'pottty',
 				],
+				'pouch'=>[
+					'puoch',
+				],
+				'pouched'=>[
+					'puoched',
+				],
+				'pouches'=>[
+					'puoches',
+				],
+				'pouching'=>[
+					'puoching',
+				],
 				'pouffe'=>[
 					'poufe',
 					'poufffe',
+					'puoffe',
 				],
 				'pouffes'=>[
 					'poufes',
 					'poufffes',
+					'puoffes',
+				],
+				'poufs'=>[
+					'puofs',
+				],
+				'poulard'=>[
+					'puolard',
+				],
+				'poult'=>[
+					'puolt',
+				],
+				'poulterer'=>[
+					'puolterer',
+				],
+				'poulterers'=>[
+					'puolterers',
+				],
+				'poultice'=>[
+					'puoltice',
+				],
+				'poulticed'=>[
+					'puolticed',
+				],
+				'poultices'=>[
+					'puoltices',
+				],
+				'poulticing'=>[
+					'puolticing',
+				],
+				'poultry'=>[
+					'puoltry',
+				],
+				'poultryman'=>[
+					'puoltryman',
+				],
+				'poultrymen'=>[
+					'puoltrymen',
+				],
+				'pounce'=>[
+					'puonce',
+				],
+				'pounced'=>[
+					'puonced',
+				],
+				'pouncer'=>[
+					'puoncer',
+				],
+				'pounces'=>[
+					'puonces',
+				],
+				'pouncing'=>[
+					'puoncing',
 				],
 				'pound'=>[
 					'pound pound',
 					'pound pound pound',
 					'ponnd',
+					'puond',
+				],
+				'poundage'=>[
+					'puondage',
+				],
+				'poundal'=>[
+					'puondal',
+				],
+				'poundals'=>[
+					'puondals',
+				],
+				'poundcake'=>[
+					'pouncake',
+					'poundake',
+					'puondcake',
+				],
+				'pounded'=>[
+					'puonded',
+				],
+				'pounder'=>[
+					'puonder',
+				],
+				'pounders'=>[
+					'puonders',
+				],
+				'pounding'=>[
+					'puonding',
+				],
+				'poundings'=>[
+					'puondings',
 				],
 				'pounds'=>[
 					'ponnds',
 					'pouncls',
+					'puonds',
+				],
+				'pourable'=>[
+					'pourible',
+					'puorable',
+				],
+				'pourboire'=>[
+					'pourbiore',
+					'puorboire',
+				],
+				'pouring'=>[
+					'puoring',
+				],
+				'pourings'=>[
+					'puorings',
 				],
 				'pourparler'=>[
 					'pourperler',
+					'puorparler',
+				],
+				'pourpoint'=>[
+					'poupoint',
+					'pouroint',
+					'pourpiont',
+					'puorpoint',
 				],
 				'poussette'=>[
 					'pousette',
 					'pousssette',
 					'poussete',
 					'poussettte',
+					'puossette',
 				],
 				'poussin'=>[
 					'pousin',
 					'pousssin',
+					'puossin',
+				],
+				'pouted'=>[
+					'puoted',
+				],
+				'pouter'=>[
+					'puoter',
+				],
+				'pouters'=>[
+					'puoters',
+				],
+				'pouting'=>[
+					'puoting',
+				],
+				'poutingly'=>[
+					'puotingly',
+				],
+				'pouts'=>[
+					'puots',
+				],
+				'pouty'=>[
+					'puoty',
 				],
 				'povidone'=>[
 					'povidine',
+				],
+				'powdered'=>[
+					'powderd',
+				],
+				'powdery'=>[
+					'powdary',
 				],
 				'power'=>[
 					'power power',
@@ -10736,8 +17551,19 @@
 				'power looms'=>[
 					'powerlooms',
 				],
+				'powerboat'=>[
+					'poweboat',
+					'powerbaot',
+					'poweroat',
+				],
+				'powerboats'=>[
+					'poweboats',
+					'powerbaots',
+					'poweroats',
+				],
 				'powered'=>[
 					'powerecl',
+					'powerd',
 				],
 				'powerful'=>[
 					'poweful',
@@ -10749,6 +17575,8 @@
 				'powerfully'=>[
 					'powerfuly',
 					'powerfullly',
+					'powefully',
+					'powerully',
 				],
 				'powerfulness'=>[
 					'powerfulnes',
@@ -10757,6 +17585,16 @@
 				'powerfulnesses'=>[
 					'powerfulneses',
 					'powerfulnessses',
+				],
+				'powerhouse'=>[
+					'powehouse',
+					'powerhuose',
+					'powerouse',
+				],
+				'powerhouses'=>[
+					'powehouses',
+					'powerhuoses',
+					'powerouses',
 				],
 				'powerless'=>[
 					'powerles',
@@ -10776,8 +17614,18 @@
 					'powerlessnesss',
 					'powerlesssness',
 				],
+				'powerpoint'=>[
+					'powepoint',
+					'poweroint',
+					'powerpiont',
+				],
 				'powers'=>[
 					'povvers',
+				],
+				'powertrain'=>[
+					'powerrain',
+					'powertrian',
+					'powetrain',
 				],
 				'powwow'=>[
 					'powow',
@@ -10804,12 +17652,25 @@
 				'ppm'=>[
 					'pppm',
 				],
+				'practicabilities'=>[
+					'practicabiliteis',
+					'practicibilities',
+				],
+				'practicability'=>[
+					'practicibility',
+				],
 				'practicable'=>[
 					'practicible',
+				],
+				'practicably'=>[
+					'practicibly',
 				],
 				'practical'=>[
 					'practial',
 					'practicle',
+				],
+				'practicalities'=>[
+					'practicaliteis',
 				],
 				'practically'=>[
 					'prac- tically',
@@ -10848,17 +17709,44 @@
 					'practicioner',
 					'practioner',
 					'practitoner',
+					'practitoiner',
 				],
 				'practitioners'=>[
 					'practicioners',
 					'practioners',
 					'practitoners',
+					'practitoiners',
+				],
+				'praefect'=>[
+					'preafect',
+				],
+				'praenomen'=>[
+					'preanomen',
+				],
+				'praenomens'=>[
+					'preanomens',
 				],
 				'praenomina'=>[
 					'praenomini',
 				],
+				'praesidium'=>[
+					'praesiduim',
+					'preasidium',
+				],
+				'praesidiums'=>[
+					'praesiduims',
+					'preasidiums',
+				],
+				'praetor'=>[
+					'preator',
+				],
 				'praetorian'=>[
 					'praetoran',
+					'praetorain',
+					'preatorian',
+				],
+				'praetors'=>[
+					'preators',
 				],
 				'pragmatically'=>[
 					'pragmaticallly',
@@ -10879,23 +17767,42 @@
 					'prairi',
 					'prairy',
 					'prarie',
+					'priarie',
+				],
+				'prairies'=>[
+					'praireis',
+					'priaries',
 				],
 				'praise'=>[
 					'praife',
 					'praisc',
+					'priase',
 				],
 				'praised'=>[
 					'praifed',
+					'priased',
 				],
 				'praises'=>[
 					'praifes',
+					'priases',
+				],
+				'praiseworthily'=>[
+					'praiseworthly',
+					'priaseworthily',
 				],
 				'praiseworthiness'=>[
 					'praiseworthines',
 					'praiseworthinesss',
+					'priaseworthiness',
+				],
+				'praiseworthy'=>[
+					'praiseorthy',
+					'praisworthy',
+					'priaseworthy',
 				],
 				'praising'=>[
 					'praifing',
+					'priasing',
 				],
 				'praline'=>[
 					'pralini',
@@ -10909,6 +17816,13 @@
 				'prance'=>[
 					'prence',
 				],
+				'prandial'=>[
+					'prandail',
+				],
+				'praseodymium'=>[
+					'praseodymuim',
+					'prasoedymium',
+				],
 				'pratfall'=>[
 					'pratfal',
 					'pratfalll',
@@ -10916,6 +17830,9 @@
 				'pratfalls'=>[
 					'pratfallls',
 					'pratfals',
+				],
+				'pratique'=>[
+					'pratiqeu',
 				],
 				'pratt'=>[
 					'prattt',
@@ -10944,6 +17861,9 @@
 					'pratling',
 					'pratttling',
 				],
+				'prawned'=>[
+					'prawnd',
+				],
 				'prayer'=>[
 					'praver',
 					'praycr',
@@ -10951,10 +17871,14 @@
 				'prayerbook'=>[
 					'prayerbok',
 					'prayerboook',
+					'prayebook',
+					'prayerook',
 				],
 				'prayerfully'=>[
 					'prayerfullly',
 					'prayerfuly',
+					'prayefully',
+					'prayerully',
 				],
 				'pre-columbian'=>[
 					'pre-colombian',
@@ -10970,20 +17894,51 @@
 					'prcacli',
 					'preacb',
 					'preacli',
+					'praech',
 				],
 				'preached'=>[
 					'preacbed',
 					'preaclicd',
 					'preaclied',
+					'praeched',
 				],
 				'preacher'=>[
 					'precher',
 					'preaclier',
+					'praecher',
+				],
+				'preachers'=>[
+					'praechers',
+				],
+				'preaches'=>[
+					'praeches',
+				],
+				'preachier'=>[
+					'praechier',
+					'preacheir',
+				],
+				'preachiest'=>[
+					'praechiest',
+					'preacheist',
 				],
 				'preaching'=>[
 					'prcacliing',
 					'preacliing',
 					'preaehing',
+					'praeching',
+				],
+				'preachings'=>[
+					'praechings',
+				],
+				'preachment'=>[
+					'praechment',
+					'preachmant',
+				],
+				'preachy'=>[
+					'praechy',
+				],
+				'preadapt'=>[
+					'praedapt',
 				],
 				'preadaptation'=>[
 					'predaptation',
@@ -10993,13 +17948,20 @@
 					'preaddresss',
 					'preadddress',
 					'preadress',
+					'praeddress',
 				],
 				'preadipocyte'=>[
 					'predipocyte',
 				],
+				'preadjust'=>[
+					'praedjust',
+				],
 				'preadmission'=>[
 					'preadmision',
 					'preadmisssion',
+					'praedmission',
+					'preadmissoin',
+					'preadmisson',
 				],
 				'preadolescence'=>[
 					'preadolecence',
@@ -11007,6 +17969,7 @@
 					'preadolescance',
 					'preadolesence',
 					'predolescence',
+					'praedolescence',
 				],
 				'preadolescences'=>[
 					'preadolecences',
@@ -11014,26 +17977,60 @@
 					'preadolesences',
 					'predolescences',
 				],
+				'preadolescent'=>[
+					'praedolescent',
+					'preadolecent',
+					'preadolescant',
+					'preadolesent',
+				],
 				'preadolescents'=>[
 					'preadolecents',
 					'preadolecsents',
 					'preadolesents',
 				],
+				'preadult'=>[
+					'praedult',
+				],
 				'preagricultural'=>[
 					'pregricultural',
+					'praegricultural',
 				],
 				'preamble'=>[
 					'preample',
 					'premble',
+					'praemble',
+				],
+				'preambled'=>[
+					'praembled',
+				],
+				'preambles'=>[
+					'praembles',
+				],
+				'preambling'=>[
+					'praembling',
+				],
+				'preambular'=>[
+					'praembular',
+					'preambuler',
+				],
+				'preambulary'=>[
+					'praembulary',
+					'preambulery',
+				],
+				'preamp'=>[
+					'praemp',
 				],
 				'preamplifier'=>[
 					'preamplifeir',
 					'preamplifir',
 					'premplifier',
+					'praemplifier',
 				],
 				'preannounce'=>[
 					'preannnounce',
 					'preanounce',
+					'praennounce',
+					'preannuonce',
 				],
 				'preannouncing'=>[
 					'preanouncing',
@@ -11041,6 +18038,9 @@
 				'preapplication'=>[
 					'preaplication',
 					'preappplication',
+					'praepplication',
+					'preapplicatoin',
+					'preapplicaton',
 				],
 				'preapplied'=>[
 					'preaplied',
@@ -11051,26 +18051,34 @@
 				'preapply'=>[
 					'preaply',
 					'preappply',
+					'praepply',
 				],
 				'preappoint'=>[
 					'preapoint',
 					'preapppoint',
+					'praeppoint',
+					'preappiont',
 				],
 				'preapprove'=>[
 					'preaprove',
 					'preappprove',
+					'praepprove',
 				],
 				'prearrange'=>[
 					'prearange',
 					'prearrrange',
+					'praerrange',
 				],
 				'prearranged'=>[
 					'prearanged',
 					'prearrranged',
+					'praerranged',
 				],
 				'prearrangement'=>[
 					'prearangement',
 					'prearrrangement',
+					'praerrangement',
+					'prearrangemant',
 				],
 				'prearrangements'=>[
 					'prearangements',
@@ -11079,36 +18087,63 @@
 				'prearranges'=>[
 					'prearanges',
 					'prearrranges',
+					'praerranges',
 				],
 				'prearranging'=>[
 					'prearanging',
 					'prearrranging',
+					'praerranging',
 				],
 				'preassemble'=>[
 					'preasemble',
 					'preasssemble',
+					'praessemble',
 				],
 				'preassembled'=>[
 					'preasembled',
 					'preasssembled',
+					'praessembled',
 				],
 				'preassign'=>[
 					'preasign',
 					'preasssign',
+					'praessign',
 				],
 				'preassigned'=>[
 					'preasigned',
 					'preasssigned',
+					'praessigned',
+					'preassignd',
+				],
+				'prebendaries'=>[
+					'prebendareis',
+					'prebenderies',
 				],
 				'prebendary'=>[
 					'prebendery',
+				],
+				'preboil'=>[
+					'prebiol',
 				],
 				'prebook'=>[
 					'prebok',
 					'preboook',
 				],
+				'prebuilt'=>[
+					'prebiult',
+				],
+				'precalculation'=>[
+					'precalculatoin',
+					'precalculaton',
+				],
+				'precancelation'=>[
+					'precancelatoin',
+					'precancelaton',
+				],
 				'precancellation'=>[
 					'precancelllation',
+					'precancellatoin',
+					'precancellaton',
 				],
 				'precancelled'=>[
 					'precancellled',
@@ -11116,19 +18151,49 @@
 				'precancelling'=>[
 					'precancellling',
 				],
+				'precancerous'=>[
+					'precanceruos',
+				],
 				'precarious'=>[
 					'precarous',
 					'precanous',
+					'precariuos',
+					'precaroius',
 				],
 				'precariously'=>[
 					'precarously',
+					'precariousely',
+					'precariuosly',
+					'precaroiusly',
 				],
 				'precariousness'=>[
 					'precariousnes',
 					'precariousnesss',
+					'precariuosness',
+					'precaroiusness',
+					'precarousness',
+				],
+				'precaution'=>[
+					'precautoin',
+					'precauton',
+					'precuation',
 				],
 				'precautionary'=>[
 					'precautionery',
+					'precautoinary',
+					'precautonary',
+					'precuationary',
+				],
+				'precautions'=>[
+					'precautoins',
+					'precautons',
+					'precuations',
+				],
+				'precautious'=>[
+					'precautiuos',
+					'precautoius',
+					'precautous',
+					'precuatious',
 				],
 				'precede'=>[
 					'preceed',
@@ -11141,12 +18206,23 @@
 					'precidence',
 					'presidence',
 				],
+				'precedences'=>[
+					'precedances',
+				],
+				'precedencies'=>[
+					'precedancies',
+					'precedenceis',
+				],
 				'precedency'=>[
 					'precedensy',
+					'precedancy',
 				],
 				'precedent'=>[
 					'precedant',
 					'precident',
+				],
+				'precedential'=>[
+					'precedentail',
 				],
 				'precedents'=>[
 					'precedants',
@@ -11157,6 +18233,9 @@
 				'preceding'=>[
 					'preceeding',
 					'prececling',
+				],
+				'preceptorial'=>[
+					'preceptorail',
 				],
 				'precess'=>[
 					'precesss',
@@ -11173,14 +18252,20 @@
 				'precession'=>[
 					'precesion',
 					'precesssion',
+					'precessoin',
+					'precesson',
 				],
 				'precessional'=>[
 					'precesional',
 					'precesssional',
+					'precessoinal',
+					'precessonal',
 				],
 				'precessions'=>[
 					'precesions',
 					'precesssions',
+					'precessoins',
+					'precessons',
 				],
 				'prechiasmatic'=>[
 					'prechiamatic',
@@ -11195,17 +18280,28 @@
 				'precincts'=>[
 					'precints',
 				],
+				'preciosity'=>[
+					'precoisity',
+				],
 				'precious'=>[
 					'preaous',
 					'precous',
 					'precions',
+					'preciuos',
+					'precoius',
 				],
 				'preciously'=>[
 					'precously',
+					'preciousely',
+					'preciuosly',
+					'precoiusly',
 				],
 				'preciousness'=>[
 					'preciousnes',
 					'preciousnesss',
+					'preciuosness',
+					'precoiusness',
+					'precousness',
 				],
 				'precipitable'=>[
 					'precipitible',
@@ -11213,8 +18309,16 @@
 				'precipitance'=>[
 					'precipitence',
 				],
+				'precipitances'=>[
+					'precipitences',
+				],
+				'precipitancies'=>[
+					'precipitanceis',
+					'precipitencies',
+				],
 				'precipitancy'=>[
 					'precipitansy',
+					'precipitency',
 				],
 				'precipitant'=>[
 					'precipitent',
@@ -11225,6 +18329,9 @@
 					'precipitantely',
 					'precipitantlly',
 				],
+				'precipitants'=>[
+					'precipitents',
+				],
 				'precipitately'=>[
 					'precipitatly',
 				],
@@ -11232,9 +18339,25 @@
 					'precipitatenes',
 					'precipitatenesss',
 				],
+				'precipitation'=>[
+					'precipitatoin',
+					'precipitaton',
+				],
+				'precipitations'=>[
+					'precipitatoins',
+					'precipitatons',
+				],
+				'precipitous'=>[
+					'precipituos',
+				],
+				'precipitously'=>[
+					'precipitousely',
+					'precipituosly',
+				],
 				'precipitousness'=>[
 					'precipitousnes',
 					'precipitousnesss',
+					'precipituosness',
 				],
 				'precipitousnesses'=>[
 					'precipitousneses',
@@ -11255,6 +18378,22 @@
 				],
 				'precisian'=>[
 					'precisan',
+					'precisain',
+				],
+				'precision'=>[
+					'precisoin',
+					'precison',
+				],
+				'precisions'=>[
+					'precisoins',
+					'precisons',
+				],
+				'precivilization'=>[
+					'precivilizatoin',
+					'precivilizaton',
+				],
+				'preclean'=>[
+					'preclaen',
 				],
 				'preclearance'=>[
 					'preclearence',
@@ -11267,6 +18406,8 @@
 				],
 				'preclusion'=>[
 					'precluison',
+					'preclusoin',
+					'precluson',
 				],
 				'preclusions'=>[
 					'precluisons',
@@ -11280,23 +18421,56 @@
 				],
 				'precocious'=>[
 					'precocous',
+					'precociuos',
+					'precocoius',
 				],
 				'precociously'=>[
 					'precocously',
+					'precociousely',
+					'precociuosly',
+					'precocoiusly',
 				],
 				'precociousness'=>[
 					'precociousnes',
 					'precociousnesss',
+					'precociuosness',
+					'precocoiusness',
+					'precocousness',
+				],
+				'precognition'=>[
+					'precognitoin',
+					'precogniton',
+				],
+				'precognitions'=>[
+					'precognitoins',
+					'precognitons',
 				],
 				'precollege'=>[
 					'precolege',
 					'precolllege',
 				],
+				'precolonial'=>[
+					'precolonail',
+				],
 				'preconceive'=>[
 					'preconcieve',
 				],
+				'preconceived'=>[
+					'preconcieved',
+				],
+				'preconceives'=>[
+					'preconcieves',
+				],
 				'preconceiving'=>[
 					'preconcieving',
+				],
+				'preconception'=>[
+					'preconceptoin',
+					'preconcepton',
+				],
+				'preconceptions'=>[
+					'preconceptoins',
+					'preconceptons',
 				],
 				'preconcession'=>[
 					'preconcesion',
@@ -11306,11 +18480,30 @@
 					'preconcilar',
 					'preconcilier',
 				],
+				'precondition'=>[
+					'preconditoin',
+					'preconditon',
+				],
+				'preconditioned'=>[
+					'preconditiond',
+					'preconditoined',
+					'preconditoned',
+				],
+				'preconditioning'=>[
+					'preconditoining',
+					'preconditoning',
+				],
+				'preconditions'=>[
+					'preconditoins',
+					'preconditons',
+				],
 				'preconscious'=>[
 					'preconcious',
 					'preconcsious',
 					'preconscous',
 					'preconsious',
+					'preconsciuos',
+					'preconscoius',
 				],
 				'preconsciouses'=>[
 					'preconciouses',
@@ -11330,6 +18523,11 @@
 				'preconsciousness'=>[
 					'preconsciousnes',
 					'preconsciousnesss',
+					'preconciousness',
+					'preconsciuosness',
+					'preconscoiusness',
+					'preconscousness',
+					'preconsiousness',
 				],
 				'precook'=>[
 					'precok',
@@ -11355,16 +18553,45 @@
 					'pre-cursor',
 					'precurser',
 				],
+				'predaceous'=>[
+					'predaceuos',
+					'predacoeus',
+				],
 				'predacious'=>[
 					'predacous',
+					'predaciuos',
+					'predacoius',
 				],
 				'predaciousness'=>[
 					'predaciousnes',
 					'predaciousnesss',
+					'predaciuosness',
+					'predacoiusness',
+					'predacousness',
+				],
+				'predation'=>[
+					'predatoin',
+					'predaton',
+				],
+				'predations'=>[
+					'predatoins',
+					'predatons',
 				],
 				'predatoriness'=>[
 					'predatorines',
 					'predatorinesss',
+				],
+				'predecease'=>[
+					'predecaese',
+				],
+				'predeceased'=>[
+					'predecaesed',
+				],
+				'predeceases'=>[
+					'predecaeses',
+				],
+				'predeceasing'=>[
+					'predecaesing',
 				],
 				'predecessor'=>[
 					'precedessor',
@@ -11378,6 +18605,7 @@
 				],
 				'predefined'=>[
 					'predefinid',
+					'predefind',
 				],
 				'predella'=>[
 					'predela',
@@ -11386,9 +18614,14 @@
 				'predeparture'=>[
 					'predeperture',
 				],
+				'predesignation'=>[
+					'predesignatoin',
+					'predesignaton',
+				],
 				'predestinarian'=>[
 					'predestinaran',
 					'predestinirian',
+					'predestinarain',
 				],
 				'predestinarians'=>[
 					'predestinirians',
@@ -11407,6 +18640,8 @@
 				],
 				'predestination'=>[
 					'predestinition',
+					'predestinatoin',
+					'predestinaton',
 				],
 				'predestinations'=>[
 					'predestinitions',
@@ -11420,11 +18655,21 @@
 				'predestine'=>[
 					'predestini',
 				],
+				'predestined'=>[
+					'predestind',
+				],
 				'predestining'=>[
 					'predestinang',
 				],
+				'predetermination'=>[
+					'predeterminatoin',
+					'predeterminaton',
+				],
 				'predetermine'=>[
 					'predetermini',
+				],
+				'predetermined'=>[
+					'predetermind',
 				],
 				'predeterminer'=>[
 					'predeterminir',
@@ -11435,20 +18680,67 @@
 				'predevaluation'=>[
 					'predevalaution',
 				],
+				'prediagnostic'=>[
+					'predaignostic',
+				],
+				'predial'=>[
+					'predail',
+				],
 				'predicable'=>[
 					'predicible',
 				],
 				'predicament'=>[
 					'predicamant',
 				],
+				'predicaments'=>[
+					'predicamants',
+				],
+				'predicant'=>[
+					'predicent',
+				],
+				'predication'=>[
+					'predicatoin',
+					'predicaton',
+				],
 				'predicatively'=>[
 					'predicativly',
+				],
+				'predictability'=>[
+					'predictbility',
+					'predictibility',
+				],
+				'predictable'=>[
+					'predictible',
+				],
+				'predictably'=>[
+					'predictibly',
+				],
+				'prediction'=>[
+					'predictoin',
+					'predicton',
+				],
+				'predictions'=>[
+					'predictoins',
+					'predictons',
 				],
 				'predictively'=>[
 					'predictivly',
 				],
+				'predigestion'=>[
+					'predigestoin',
+					'predigeston',
+				],
+				'predikant'=>[
+					'predikent',
+				],
 				'predilection'=>[
 					'predeliction',
+					'predilectoin',
+					'predilecton',
+				],
+				'predilections'=>[
+					'predilectoins',
+					'predilectons',
 				],
 				'predinner'=>[
 					'prediner',
@@ -11458,6 +18750,14 @@
 					'predicoveries',
 					'predicsoveries',
 					'predisoveries',
+				],
+				'predisposition'=>[
+					'predispositoin',
+					'predispositon',
+				],
+				'predispositions'=>[
+					'predispositoins',
+					'predispositons',
 				],
 				'predominance'=>[
 					'predominence',
@@ -11472,6 +18772,7 @@
 				'predominancy'=>[
 					'predominansy',
 					'predominincy',
+					'predominency',
 				],
 				'predominant'=>[
 					'predominent',
@@ -11504,21 +18805,29 @@
 				],
 				'predomination'=>[
 					'predominition',
+					'predominatoin',
+					'predominaton',
 				],
 				'predominations'=>[
 					'predominitions',
+					'predominatoins',
+					'predominatons',
 				],
 				'preelection'=>[
 					'preeelection',
+					'preelectoin',
+					'preelecton',
 				],
 				'preemergence'=>[
 					'preemergance',
 				],
 				'preemie'=>[
 					'preeemie',
+					'preemei',
 				],
 				'preemies'=>[
 					'preeemies',
+					'preemeis',
 				],
 				'preeminence'=>[
 					'preeminance',
@@ -11542,6 +18851,8 @@
 				'preeminently'=>[
 					'preeeminently',
 					'preminently',
+					'preeminantly',
+					'preeminentely',
 				],
 				'preempt'=>[
 					'preeempt',
@@ -11558,6 +18869,8 @@
 				'preemption'=>[
 					'preeemption',
 					'premption',
+					'preemptoin',
+					'preempton',
 				],
 				'preemptive'=>[
 					'preeemptive',
@@ -11600,6 +18913,8 @@
 				'preexamination'=>[
 					'preeexamination',
 					'prexamination',
+					'preexaminatoin',
+					'preexaminaton',
 				],
 				'preexamine'=>[
 					'preeexamine',
@@ -11622,6 +18937,7 @@
 					'pre-existant',
 					'preeexistent',
 					'prexistent',
+					'preexistant',
 				],
 				'preexisting'=>[
 					'preeexisting',
@@ -11647,6 +18963,17 @@
 					'prefabing',
 					'prefabbbing',
 				],
+				'prefabrication'=>[
+					'prefabricatoin',
+					'prefabricaton',
+				],
+				'prefectoral'=>[
+					'prefecoral',
+					'prefectral',
+				],
+				'prefectorial'=>[
+					'prefectorail',
+				],
 				'prefectural'=>[
 					'perfectural',
 				],
@@ -11665,16 +18992,25 @@
 					'preferabely',
 					'preferablly',
 					'preferrably',
+					'preferibly',
 				],
 				'preference'=>[
 					'preferance',
 				],
+				'preferences'=>[
+					'preferances',
+				],
 				'preferential'=>[
 					'preferantial',
+					'preferentail',
 				],
 				'preferentially'=>[
 					'preferentiallly',
 					'preferentialy',
+					'preferentailly',
+				],
+				'preferment'=>[
+					'prefermant',
 				],
 				'preferred'=>[
 					'perfered',
@@ -11689,12 +19025,26 @@
 				'prefibrillar'=>[
 					'prefibrillary',
 				],
+				'prefiguration'=>[
+					'prefiguratoin',
+					'prefiguraton',
+				],
+				'prefigurations'=>[
+					'prefiguratoins',
+					'prefiguratons',
+				],
 				'prefiguratively'=>[
 					'prefigurativeally',
 					'prefigurativealy',
 					'prefigurativeely',
 					'prefigurativelly',
 					'prefigurativly',
+				],
+				'prefigured'=>[
+					'prefigurd',
+				],
+				'prefigurement'=>[
+					'prefiguremant',
 				],
 				'prefinance'=>[
 					'prefinence',
@@ -11712,22 +19062,58 @@
 				'preggers'=>[
 					'pregers',
 				],
+				'preglacial'=>[
+					'preglacail',
+				],
+				'pregnability'=>[
+					'pregnibility',
+				],
 				'pregnable'=>[
 					'pregnible',
 				],
 				'pregnancies'=>[
 					'pregancies',
+					'pregnanceis',
+					'pregnencies',
 				],
 				'pregnancy'=>[
 					'pregancy',
 					'pregnacy',
 					'pregnansy',
+					'pregnency',
 				],
 				'pregnant'=>[
 					'pregnent',
 				],
+				'pregnantly'=>[
+					'pregnantely',
+					'pregnently',
+				],
 				'prehardened'=>[
 					'prehardend',
+				],
+				'preheat'=>[
+					'prehaet',
+				],
+				'preheated'=>[
+					'prehaeted',
+				],
+				'preheating'=>[
+					'prehaeting',
+				],
+				'preheats'=>[
+					'prehaets',
+				],
+				'prehensible'=>[
+					'prehensable',
+				],
+				'prehension'=>[
+					'prehensoin',
+					'prehenson',
+				],
+				'prehensions'=>[
+					'prehensoins',
+					'prehensons',
 				],
 				'prehistorian'=>[
 					'prehistoran',
@@ -11744,15 +19130,29 @@
 				],
 				'preignition'=>[
 					'priegnition',
+					'preignitoin',
+					'preigniton',
 				],
 				'preimplantation'=>[
 					'priemplantation',
 				],
 				'preinaugural'=>[
 					'preiniugural',
+					'preinuagural',
+					'prienaugural',
+				],
+				'preindicate'=>[
+					'priendicate',
 				],
 				'preindustrial'=>[
 					'priendustrial',
+					'preindustrail',
+				],
+				'preinsert'=>[
+					'priensert',
+				],
+				'preinstruct'=>[
+					'prienstruct',
 				],
 				'preinterviewed'=>[
 					'prienterviewed',
@@ -11763,10 +19163,19 @@
 				'preinterviews'=>[
 					'prienterviews',
 				],
+				'prejudgment'=>[
+					'prejudgmant',
+				],
+				'prejudgments'=>[
+					'prejudgmants',
+				],
 				'prejudice'=>[
 					'predjudice',
 					'predujice',
 					'prejuclice',
+				],
+				'prejudicial'=>[
+					'prejudicail',
 				],
 				'prelacy'=>[
 					'prelasy',
@@ -11774,8 +19183,13 @@
 				'prelapsarian'=>[
 					'prelapsaran',
 				],
+				'prelaunch'=>[
+					'preluanch',
+				],
 				'preliminaries'=>[
 					'preliminiries',
+					'preliminareis',
+					'prelimineries',
 				],
 				'preliminarily'=>[
 					'preliminirily',
@@ -11787,6 +19201,9 @@
 				],
 				'preliterary'=>[
 					'preliterery',
+				],
+				'preludial'=>[
+					'preludail',
 				],
 				'prelusion'=>[
 					'preluison',
@@ -11824,8 +19241,15 @@
 				'premaxillary'=>[
 					'premaxillery',
 				],
+				'premeditation'=>[
+					'premeditatoin',
+					'premeditaton',
+				],
 				'premeire'=>[
 					'premere',
+				],
+				'premenopausal'=>[
+					'premenopuasal',
 				],
 				'premenstrual'=>[
 					'premenstraul',
@@ -11837,6 +19261,9 @@
 					'premenstrualely',
 					'premenstruallly',
 					'premenstrualy',
+				],
+				'premie'=>[
+					'premei',
 				],
 				'premier'=>[
 					'premeir',
@@ -11853,26 +19280,46 @@
 				'premiered'=>[
 					'premeired',
 					'premired',
+					'premierd',
 				],
 				'premieres'=>[
 					'premires',
+				],
+				'premiers'=>[
+					'premeirs',
+				],
+				'premiership'=>[
+					'premeirship',
+				],
+				'premierships'=>[
+					'premeirships',
+				],
+				'premies'=>[
+					'premeis',
+				],
+				'premigration'=>[
+					'premigratoin',
+					'premigraton',
 				],
 				'premillenarian'=>[
 					'premilenarian',
 					'premillenaran',
 					'premilllenarian',
+					'premillenarain',
 				],
 				'premillennial'=>[
 					'premilennial',
 					'premillenial',
 					'premillennnial',
 					'premilllennial',
+					'premillennail',
 				],
 				'premillennialism'=>[
 					'premilennialism',
 					'premillenialism',
 					'premillennnialism',
 					'premilllennialism',
+					'premillennailism',
 				],
 				'premillennially'=>[
 					'premillenially',
@@ -11887,11 +19334,25 @@
 				'premisses'=>[
 					'premissses',
 				],
+				'premium'=>[
+					'premuim',
+				],
+				'premiums'=>[
+					'premuims',
+				],
 				'premoistened'=>[
 					'premoistend',
 				],
 				'premolar'=>[
 					'premoler',
+				],
+				'premonition'=>[
+					'premonitoin',
+					'premoniton',
+				],
+				'premonitions'=>[
+					'premonitoins',
+					'premonitons',
 				],
 				'premonstratensians'=>[
 					'premonasterians',
@@ -11921,11 +19382,20 @@
 				'prenominations'=>[
 					'prenominitions',
 				],
+				'prenotification'=>[
+					'prenotificatoin',
+					'prenotificaton',
+				],
+				'prenotion'=>[
+					'prenotoin',
+					'prenoton',
+				],
 				'prentice'=>[
 					'prantice',
 				],
 				'prenuptial'=>[
 					'prenuptual',
+					'prenuptail',
 				],
 				'preobtaining'=>[
 					'preobtainang',
@@ -11933,46 +19403,75 @@
 				'preoccupancies'=>[
 					'preocupancies',
 					'preocccupancies',
+					'preoccupanceis',
+					'preoccupencies',
+					'proeccupancies',
 				],
 				'preoccupancy'=>[
 					'preoccupansy',
 					'preocupancy',
 					'preocccupancy',
+					'preoccupency',
+					'proeccupancy',
 				],
 				'preoccupation'=>[
 					'preocupation',
 					'preocccupation',
+					'preoccupatoin',
+					'preoccupaton',
+					'proeccupation',
 				],
 				'preoccupations'=>[
 					'preocupations',
 					'preocccupations',
+					'preoccupatoins',
+					'preoccupatons',
+					'proeccupations',
 				],
 				'preoccupied'=>[
 					'preoccupeid',
 					'preoccupid',
 					'preocupied',
 					'preocccupied',
+					'proeccupied',
 				],
 				'preoccupies'=>[
 					'preocccupies',
 					'preocupies',
+					'preoccupeis',
+					'proeccupies',
 				],
 				'preoccupy'=>[
 					'preocupy',
 					'preocccupy',
+					'proeccupy',
 				],
 				'preoccupying'=>[
 					'preocupying',
 					'preocccupying',
+					'proeccupying',
+				],
+				'preoperative'=>[
+					'proeperative',
 				],
 				'preoperatively'=>[
 					'preoperativly',
+					'proeperatively',
+				],
+				'preordain'=>[
+					'preordian',
+					'proerdain',
 				],
 				'preordained'=>[
 					'pre-ordained',
+					'preordaind',
+					'preordianed',
+					'proerdained',
 				],
 				'preordaining'=>[
 					'preordainang',
+					'preordianing',
+					'proerdaining',
 				],
 				'preordainment'=>[
 					'preordaiment',
@@ -11982,20 +19481,41 @@
 					'preordaiments',
 					'preordainents',
 				],
+				'preordains'=>[
+					'preordians',
+					'proerdains',
+				],
 				'preordination'=>[
 					'preordinition',
+					'preordinatoin',
+					'preordinaton',
+					'proerdination',
 				],
 				'preordinations'=>[
 					'preordinitions',
+					'preordinatoins',
+					'preordinatons',
+					'proerdinations',
+				],
+				'preowned'=>[
+					'preownd',
+					'proewned',
+				],
+				'prepaid'=>[
+					'prepiad',
 				],
 				'preparation'=>[
 					'prepartion',
 					'preperation',
 					'prepration',
+					'preparatoin',
+					'preparaton',
 				],
 				'preparations'=>[
 					'preperations',
 					'preperations', 'preprations',
+					'preparatoins',
+					'preparatons',
 				],
 				'preparative'=>[
 					'preperative',
@@ -12024,6 +19544,9 @@
 					'prepare prepare prepare',
 					'prepere',
 				],
+				'prepared'=>[
+					'prepard',
+				],
 				'preparedly'=>[
 					'preparedally',
 					'preparedaly',
@@ -12039,8 +19562,18 @@
 				'preparednesses'=>[
 					'preperednesses',
 				],
+				'prepares'=>[
+					'preares',
+					'prepres',
+				],
 				'preparing'=>[
 					'prcparing',
+				],
+				'prepayment'=>[
+					'prepaymant',
+				],
+				'prepayments'=>[
+					'prepaymants',
 				],
 				'prepense'=>[
 					'prepence',
@@ -12060,6 +19593,9 @@
 				'preponderance'=>[
 					'preponderence',
 				],
+				'preponderances'=>[
+					'preponderences',
+				],
 				'preponderancy'=>[
 					'preponderansy',
 				],
@@ -12071,13 +19607,28 @@
 					'preponderantaly',
 					'preponderantely',
 					'preponderantlly',
+					'preponderently',
 				],
 				'preponderately'=>[
 					'preponderatly',
 				],
+				'preposition'=>[
+					'prepositoin',
+					'prepositon',
+				],
+				'prepositional'=>[
+					'prepositoinal',
+					'prepositonal',
+				],
 				'prepositionally'=>[
 					'prepositionallly',
 					'prepositionaly',
+					'prepositoinally',
+					'prepositonally',
+				],
+				'prepositions'=>[
+					'prepositoins',
+					'prepositons',
 				],
 				'prepositively'=>[
 					'prepositivly',
@@ -12111,28 +19662,39 @@
 					'preposession',
 					'prepossesssion',
 					'preposssession',
+					'prepossessoin',
+					'prepossesson',
 				],
 				'prepossessions'=>[
 					'preposessions',
 					'prepossesions',
 					'prepossesssions',
 					'preposssessions',
+					'prepossessoins',
+					'prepossessons',
 				],
 				'preposterous'=>[
 					'prepofterous',
+					'preposteruos',
 				],
 				'preposterously'=>[
 					'preposterousally',
 					'preposterousaly',
 					'preposterousely',
 					'preposterouslly',
+					'preposteruosly',
 				],
 				'preposterousness'=>[
 					'preposterousnes',
 					'preposterousnesss',
+					'preposteruosness',
 				],
 				'prepotency'=>[
 					'prepotensy',
+					'prepotancy',
+				],
+				'prepotent'=>[
+					'prepotant',
 				],
 				'prepped'=>[
 					'preped',
@@ -12141,18 +19703,22 @@
 				'preppie'=>[
 					'prepie',
 					'prepppie',
+					'preppei',
 				],
 				'preppier'=>[
 					'prepier',
 					'prepppier',
+					'preppeir',
 				],
 				'preppies'=>[
 					'prepies',
 					'prepppies',
+					'preppeis',
 				],
 				'preppiest'=>[
 					'prepiest',
 					'prepppiest',
+					'preppeist',
 				],
 				'preppiness'=>[
 					'prepiness',
@@ -12166,6 +19732,9 @@
 				'preppy'=>[
 					'prepy',
 					'prepppy',
+				],
+				'preprandial'=>[
+					'preprandail',
 				],
 				'prepresidential'=>[
 					'prepresidantial',
@@ -12183,6 +19752,8 @@
 				'preprofessional'=>[
 					'preprofesional',
 					'preprofesssional',
+					'preprofessoinal',
+					'preprofessonal',
 				],
 				'preprogramming'=>[
 					'preprogramning',
@@ -12204,8 +19775,18 @@
 					'prepubescant',
 					'prepubesent',
 				],
+				'prepubescents'=>[
+					'prepubecents',
+					'prepubescants',
+					'prepubesents',
+				],
+				'prepublication'=>[
+					'prepublicatoin',
+					'prepublicaton',
+				],
 				'preputial'=>[
 					'prepucial',
+					'preputail',
 				],
 				'prequalified'=>[
 					'preqaulified',
@@ -12216,8 +19797,36 @@
 				'prequalifying'=>[
 					'preqaulifying',
 				],
+				'prequel'=>[
+					'preqeul',
+				],
+				'prequels'=>[
+					'preqeuls',
+				],
+				'preregistered'=>[
+					'preregisterd',
+				],
+				'preregistration'=>[
+					'preregistratoin',
+					'preregistraton',
+				],
 				'prerelease'=>[
 					'prerelese',
+					'prerelaese',
+				],
+				'prerequisite'=>[
+					'prereqiusite',
+				],
+				'prerequisites'=>[
+					'prereqiusites',
+				],
+				'preretirement'=>[
+					'preretiremant',
+				],
+				'prerevolutionary'=>[
+					'prerevolutionery',
+					'prerevolutoinary',
+					'prerevolutonary',
 				],
 				'prerinse'=>[
 					'prerince',
@@ -12225,9 +19834,23 @@
 				'prerogative'=>[
 					'perogative',
 				],
+				'presbyopia'=>[
+					'presbyopai',
+				],
+				'presbyterial'=>[
+					'presbyterail',
+				],
 				'presbyterian'=>[
 					'presbytarian',
 					'presbyteran',
+					'presbyterain',
+				],
+				'presbyterianism'=>[
+					'presbyterainism',
+				],
+				'presbyteries'=>[
+					'presbytaries',
+					'presbytereis',
 				],
 				'presbytery'=>[
 					'presbytary',
@@ -12249,10 +19872,14 @@
 				'preschoolers'=>[
 					'prescholers',
 					'preschooolers',
+					'prechoolers',
+					'preshoolers',
 				],
 				'preschools'=>[
 					'preschols',
 					'preschoools',
+					'prechools',
+					'preshools',
 				],
 				'prescience'=>[
 					'precience',
@@ -12268,6 +19895,7 @@
 					'presceint',
 					'prescint',
 					'presient',
+					'presciant',
 				],
 				'prescientific'=>[
 					'precientific',
@@ -12276,6 +19904,17 @@
 					'presciantific',
 					'prescintific',
 					'presientific',
+				],
+				'presciently'=>[
+					'preciently',
+					'presceintly',
+					'presciantly',
+					'prescientely',
+					'presiently',
+				],
+				'prescind'=>[
+					'precind',
+					'presind',
 				],
 				'prescreen'=>[
 					'precreen',
@@ -12290,6 +19929,8 @@
 				'prescreening'=>[
 					'prescreeening',
 					'prescrening',
+					'precreening',
+					'presreening',
 				],
 				'prescribe'=>[
 					'precribe',
@@ -12305,15 +19946,30 @@
 					'presribed',
 					'prefcribed',
 					'preferibed',
+					'precribed',
+				],
+				'prescriber'=>[
+					'precriber',
+					'presriber',
 				],
 				'prescribes'=>[
 					'prescibes',
 					'presribes',
+					'precribes',
 				],
 				'prescribing'=>[
 					'prescibing',
 					'presribing',
 					'prefcribing',
+					'precribing',
+				],
+				'prescript'=>[
+					'precript',
+					'presript',
+				],
+				'prescriptible'=>[
+					'precriptible',
+					'presriptible',
 				],
 				'prescription'=>[
 					'perscription',
@@ -12322,10 +19978,16 @@
 					'presciption',
 					'presription',
 					'prefcription',
+					'prescriptoin',
+					'prescripton',
 				],
 				'prescriptions'=>[
 					'perscriptions',
 					'presciptions',
+					'precriptions',
+					'prescriptoins',
+					'prescriptons',
+					'presriptions',
 				],
 				'prescriptive'=>[
 					'perscriptive',
@@ -12343,9 +20005,27 @@
 				'prescriptiveness'=>[
 					'prescriptivenes',
 					'prescriptivenesss',
+					'precriptiveness',
+					'presriptiveness',
+				],
+				'prescriptivism'=>[
+					'precriptivism',
+					'presriptivism',
+				],
+				'prescriptivist'=>[
+					'precriptivist',
+					'presriptivist',
+				],
+				'prescripts'=>[
+					'precripts',
+					'presripts',
 				],
 				'preseason'=>[
 					'preseson',
+					'presaeson',
+				],
+				'preseasons'=>[
+					'presaesons',
 				],
 				'preseli'=>[
 					'presceli',
@@ -12356,6 +20036,9 @@
 					'presense',
 					'prcfence',
 					'prefence',
+				],
+				'presences'=>[
+					'presances',
 				],
 				'present'=>[
 					'persent',
@@ -12369,12 +20052,34 @@
 					'preseiit',
 					'preseut',
 				],
+				'presentability'=>[
+					'presenability',
+					'presentbility',
+					'presentibility',
+				],
 				'presentable'=>[
 					'presantable',
 					'presentible',
 				],
+				'presentably'=>[
+					'presentibly',
+				],
 				'presentation'=>[
 					'presantation',
+					'presentatoin',
+					'presentaton',
+				],
+				'presentational'=>[
+					'presentatoinal',
+					'presentatonal',
+				],
+				'presentationism'=>[
+					'presentatoinism',
+					'presentatonism',
+				],
+				'presentations'=>[
+					'presentatoins',
+					'presentatons',
 				],
 				'presented'=>[
 					'persented',
@@ -12389,9 +20094,13 @@
 				'presentient'=>[
 					'presenteint',
 					'presentint',
+					'presentiant',
 				],
 				'presentiment'=>[
 					'presentimant',
+				],
+				'presentiments'=>[
+					'presentimants',
 				],
 				'presenting'=>[
 					'prefenting',
@@ -12407,6 +20116,9 @@
 				'presentment'=>[
 					'presentmant',
 				],
+				'presentments'=>[
+					'presentmants',
+				],
 				'presentness'=>[
 					'presentnes',
 					'presentnesss',
@@ -12418,10 +20130,28 @@
 				'presents'=>[
 					'persents',
 					'prefents',
+					'presants',
+				],
+				'preservable'=>[
+					'preservible',
 				],
 				'preservation'=>[
 					'presevation',
 					'prefervation',
+					'preservatoin',
+					'preservaton',
+				],
+				'preservationism'=>[
+					'preservatoinism',
+					'preservatonism',
+				],
+				'preservationist'=>[
+					'preservatoinist',
+					'preservatonist',
+				],
+				'preservationists'=>[
+					'preservatoinists',
+					'preservatonists',
 				],
 				'preservative'=>[
 					'prefervative',
@@ -12442,8 +20172,13 @@
 				'preshipped'=>[
 					'preshiped',
 				],
+				'presidencies'=>[
+					'presidancies',
+					'presidenceis',
+				],
 				'presidency'=>[
 					'presidensy',
+					'presidancy',
 				],
 				'president'=>[
 					'presidant',
@@ -12451,6 +20186,7 @@
 				'presidential'=>[
 					'presidantial',
 					'presidental',
+					'presidentail',
 				],
 				'presidentially'=>[
 					'presidantially',
@@ -12464,11 +20200,29 @@
 				'presidentships'=>[
 					'presidantships',
 				],
+				'presidia'=>[
+					'presidai',
+				],
 				'presidiary'=>[
 					'presidiery',
 				],
+				'presidio'=>[
+					'presidoi',
+				],
+				'presidium'=>[
+					'presiduim',
+				],
+				'presidiums'=>[
+					'presiduims',
+				],
+				'preslavery'=>[
+					'preslavary',
+				],
 				'presley'=>[
 					'presely',
+				],
+				'presoak'=>[
+					'presaok',
 				],
 				'press'=>[
 					'pres',
@@ -12500,10 +20254,12 @@
 				'pressie'=>[
 					'presie',
 					'presssie',
+					'pressei',
 				],
 				'pressies'=>[
 					'presies',
 					'presssies',
+					'presseis',
 				],
 				'pressing'=>[
 					'presing',
@@ -12523,10 +20279,12 @@
 				'pressmark'=>[
 					'presmark',
 					'presssmark',
+					'pressark',
 				],
 				'pressmarks'=>[
 					'presmarks',
 					'presssmarks',
+					'pressarks',
 				],
 				'pressmen'=>[
 					'presmen',
@@ -12541,6 +20299,7 @@
 					'presssroom',
 					'pressrom',
 					'pressrooom',
+					'pressoom',
 				],
 				'pressure'=>[
 					'presure',
@@ -12549,6 +20308,7 @@
 				'pressured'=>[
 					'presured',
 					'presssured',
+					'pressurd',
 				],
 				'pressures'=>[
 					'presures',
@@ -12561,6 +20321,8 @@
 				'pressurization'=>[
 					'presssurization',
 					'presurization',
+					'pressurizatoin',
+					'pressurizaton',
 				],
 				'pressurize'=>[
 					'presurize',
@@ -12589,10 +20351,17 @@
 				'presswork'=>[
 					'pressswork',
 					'preswork',
+					'pressork',
+				],
+				'prestidigitation'=>[
+					'prestidigitatoin',
+					'prestidigitaton',
 				],
 				'prestigious'=>[
 					'prestigeous',
 					'prestigous',
+					'prestigiuos',
+					'prestigoius',
 				],
 				'prestigiously'=>[
 					'prestigiousally',
@@ -12610,6 +20379,9 @@
 				],
 				'prestressed'=>[
 					'prestresed',
+				],
+				'presumable'=>[
+					'presumible',
 				],
 				'presumably'=>[
 					'presumabally',
@@ -12643,6 +20415,12 @@
 				'presumption'=>[
 					'presumpion',
 					'prefumption',
+					'presumptoin',
+					'presumpton',
+				],
+				'presumptions'=>[
+					'presumptoins',
+					'presumptons',
 				],
 				'presumptious'=>[
 					'presumtuous',
@@ -12656,6 +20434,8 @@
 				'presumptuous'=>[
 					'presumptous',
 					'prefumptuous',
+					'presumptouus',
+					'presumptuuos',
 				],
 				'presumptuously'=>[
 					'presumptously',
@@ -12664,10 +20444,14 @@
 					'presumptuousely',
 					'presumptuouslly',
 					'prefumptuoufly',
+					'presumptouusly',
+					'presumptuuosly',
 				],
 				'presumptuousness'=>[
 					'presumptuousnes',
 					'presumptuousnesss',
+					'presumptouusness',
+					'presumptuuosness',
 				],
 				'presuppose'=>[
 					'presupose',
@@ -12688,10 +20472,14 @@
 				'presupposition'=>[
 					'presuposition',
 					'presuppposition',
+					'presuppositoin',
+					'presuppositon',
 				],
 				'presuppositions'=>[
 					'presupositions',
 					'presupppositions',
+					'presuppositoins',
+					'presuppositons',
 				],
 				'presweetened'=>[
 					'presweetend',
@@ -12710,19 +20498,28 @@
 				'pretence'=>[
 					'pretance',
 				],
+				'pretences'=>[
+					'pretances',
+				],
 				'pretense'=>[
 					'preteense',
 				],
 				'pretension'=>[
 					'pretention',
+					'pretensoin',
+					'pretenson',
 				],
 				'pretensions'=>[
 					'pretentions',
 					'pretenfions',
+					'pretensoins',
+					'pretensons',
 				],
 				'pretentious'=>[
 					'pretantious',
 					'pretentous',
+					'pretentiuos',
+					'pretentoius',
 				],
 				'pretentiously'=>[
 					'pretentiousally',
@@ -12730,10 +20527,23 @@
 					'pretentiousely',
 					'pretentiouslly',
 					'pretentously',
+					'pretentiuosly',
+					'pretentoiusly',
 				],
 				'pretentiousness'=>[
 					'pretentiousnes',
 					'pretentiousnesss',
+					'pretentiuosness',
+					'pretentoiusness',
+					'pretentousness',
+				],
+				'preterition'=>[
+					'preteritoin',
+					'preteriton',
+				],
+				'preteritions'=>[
+					'preteritoins',
+					'preteritons',
 				],
 				'pretermination'=>[
 					'preterminition',
@@ -12752,30 +20562,58 @@
 				'pretorian'=>[
 					'pretoran',
 				],
+				'pretreat'=>[
+					'pretraet',
+				],
+				'pretreated'=>[
+					'pretraeted',
+				],
+				'pretreatment'=>[
+					'pretraetment',
+					'pretreatmant',
+				],
+				'pretreatments'=>[
+					'pretraetments',
+					'pretreatmants',
+				],
+				'pretrial'=>[
+					'pretrail',
+				],
+				'pretrials'=>[
+					'pretrails',
+				],
 				'prettied'=>[
 					'pretttied',
+					'pretteid',
 				],
 				'prettier'=>[
 					'pretttier',
+					'pretteir',
 				],
 				'pretties'=>[
 					'prettties',
+					'pretteis',
 				],
 				'prettiest'=>[
 					'pretiest',
 					'pretttiest',
+					'pretteist',
 				],
 				'prettification'=>[
 					'pretification',
 					'pretttification',
+					'prettificatoin',
+					'prettificaton',
 				],
 				'prettified'=>[
 					'pretified',
 					'pretttified',
+					'prettifeid',
 				],
 				'prettifies'=>[
 					'pretifies',
 					'pretttifies',
+					'prettifeis',
 				],
 				'prettify'=>[
 					'pretify',
@@ -12807,9 +20645,23 @@
 				],
 				'prevail'=>[
 					'prevale',
+					'previal',
+				],
+				'prevailed'=>[
+					'previaled',
+				],
+				'prevailer'=>[
+					'previaler',
 				],
 				'prevailing'=>[
 					'prevaihng',
+					'previaling',
+				],
+				'prevailingly'=>[
+					'previalingly',
+				],
+				'prevails'=>[
+					'previals',
 				],
 				'prevalence'=>[
 					'prevailance',
@@ -12821,9 +20673,22 @@
 					'prevelant',
 					'prevelent',
 				],
+				'prevalently'=>[
+					'prevalantly',
+					'prevalentely',
+				],
+				'prevarication'=>[
+					'prevaricatoin',
+					'prevaricaton',
+				],
+				'prevarications'=>[
+					'prevaricatoins',
+					'prevaricatons',
+				],
 				'prevenient'=>[
 					'preveneint',
 					'prevenint',
+					'preveniant',
 				],
 				'prevent'=>[
 					'prevant',
@@ -12844,6 +20709,12 @@
 				'prevention'=>[
 					'prevantion',
 					'preventation',
+					'preventoin',
+					'preventon',
+				],
+				'preventions'=>[
+					'preventoins',
+					'preventons',
 				],
 				'preventive'=>[
 					'prevantive',
@@ -12852,25 +20723,62 @@
 				'preventively'=>[
 					'preventivly',
 				],
+				'prevents'=>[
+					'prevants',
+				],
 				'preview'=>[
 					'preveiw',
 					'previw',
+				],
+				'previewed'=>[
+					'preveiwed',
+				],
+				'previewer'=>[
+					'preveiwer',
+				],
+				'previewers'=>[
+					'preveiwers',
+				],
+				'previewing'=>[
+					'preveiwing',
+				],
+				'previews'=>[
+					'preveiws',
 				],
 				'previous'=>[
 					'previus',
 					'previvous',
 					'prevous',
 					'previons',
+					'previuos',
+					'prevoius',
 				],
 				'previously'=>[
 					'prevously',
 					'previonsly',
+					'previousely',
+					'previuosly',
+					'prevoiusly',
 				],
 				'previously been'=>[
 					'been previously been',
 				],
+				'prevision'=>[
+					'previsoin',
+					'previson',
+				],
 				'previsionary'=>[
 					'previsionery',
+				],
+				'previsions'=>[
+					'previsoins',
+					'previsons',
+				],
+				'prevue'=>[
+					'preveu',
+				],
+				'prevues'=>[
+					'preveus',
 				],
 				'prewar'=>[
 					'prewer',
@@ -12881,10 +20789,21 @@
 				'prezzie'=>[
 					'prezie',
 					'prezzzie',
+					'prezzei',
 				],
 				'prezzies'=>[
 					'prezies',
 					'prezzzies',
+					'prezzeis',
+				],
+				'priapic'=>[
+					'praipic',
+				],
+				'priapism'=>[
+					'praipism',
+				],
+				'priapus'=>[
+					'praipus',
 				],
 				'priceless'=>[
 					'priceles',
@@ -12895,6 +20814,18 @@
 					'pricelessaly',
 					'pricelessely',
 					'pricelesslly',
+				],
+				'pricier'=>[
+					'priceir',
+				],
+				'priciest'=>[
+					'priceist',
+				],
+				'pricklier'=>[
+					'prickleir',
+				],
+				'prickliest'=>[
+					'prickleist',
 				],
 				'prickliness'=>[
 					'pricklines',
@@ -12915,6 +20846,8 @@
 				'pridefully'=>[
 					'pridefullly',
 					'pridefuly',
+					'prideully',
+					'pridfully',
 				],
 				'pridefulness'=>[
 					'pridefulnes',
@@ -12932,6 +20865,9 @@
 					'preir',
 					'prir',
 				],
+				'priers'=>[
+					'preirs',
+				],
 				'pries'=>[
 					'preis',
 					'pris',
@@ -12942,6 +20878,16 @@
 					'pnest',
 					'prieft',
 				],
+				'priestcraft'=>[
+					'preistcraft',
+					'priescraft',
+					'priestraft',
+				],
+				'priestcrafts'=>[
+					'preistcrafts',
+					'priescrafts',
+					'priestrafts',
+				],
 				'priestess'=>[
 					'preistess',
 					'pristess',
@@ -12950,6 +20896,7 @@
 				'priestesses'=>[
 					'priesteses',
 					'priestessses',
+					'preistesses',
 				],
 				'priesthood'=>[
 					'preisthood',
@@ -12961,10 +20908,22 @@
 				'priesthoods'=>[
 					'priesthods',
 					'priesthooods',
+					'preisthoods',
+					'prieshoods',
+					'priestoods',
+				],
+				'priestlier'=>[
+					'preistlier',
+					'priestleir',
+				],
+				'priestliest'=>[
+					'preistliest',
+					'priestleist',
 				],
 				'priestliness'=>[
 					'priestlines',
 					'priestlinesss',
+					'preistliness',
 				],
 				'priestly'=>[
 					'preistly',
@@ -12978,6 +20937,7 @@
 				'priests'=>[
 					'pricfts',
 					'priefts',
+					'preists',
 				],
 				'prigged'=>[
 					'priged',
@@ -12988,6 +20948,7 @@
 				'priggery'=>[
 					'prigery',
 					'prigggery',
+					'priggary',
 				],
 				'prigging'=>[
 					'priging',
@@ -13018,8 +20979,15 @@
 				'primacy'=>[
 					'primasy',
 				],
+				'primaeval'=>[
+					'primeaval',
+				],
 				'primally'=>[
 					'primallly',
+				],
+				'primaries'=>[
+					'primareis',
+					'primeries',
 				],
 				'primarily'=>[
 					'primarially',
@@ -13032,6 +21000,12 @@
 				'primary'=>[
 					'primery',
 				],
+				'primatial'=>[
+					'primatail',
+				],
+				'primatologies'=>[
+					'primatologeis',
+				],
 				'prime minister'=>[
 					'prime minster',
 				],
@@ -13041,6 +21015,10 @@
 				'primeness'=>[
 					'primenes',
 					'primenesss',
+				],
+				'primetime'=>[
+					'primeime',
+					'primtime',
 				],
 				'primevally'=>[
 					'primevallly',
@@ -13083,6 +21061,16 @@
 					'primnes',
 					'primnesss',
 				],
+				'primogenial'=>[
+					'primogenail',
+				],
+				'primogenital'=>[
+					'primgenital',
+					'primoenital',
+				],
+				'primogenitary'=>[
+					'primogenitery',
+				],
 				'primordia'=>[
 					'primourdia',
 				],
@@ -13091,18 +21079,34 @@
 					'primordeal',
 					'primourdial',
 					'primoradial',
+					'primordail',
+				],
+				'primordiality'=>[
+					'primordaility',
 				],
 				'primordially'=>[
 					'primourdially',
 					'primordiallly',
+					'primordailly',
 				],
 				'primordium'=>[
 					'primourdium',
+					'primorduim',
+				],
+				'primulaceous'=>[
+					'primulaceuos',
+					'primulacoeus',
 				],
 				'prince'=>[
 					'pnnce',
 					'prinoe',
 					'priuce',
+				],
+				'princelier'=>[
+					'princeleir',
+				],
+				'princeliest'=>[
+					'princeleist',
 				],
 				'princeliness'=>[
 					'princelines',
@@ -13131,12 +21135,18 @@
 					'prinicipal',
 					'prineipal',
 				],
+				'principalities'=>[
+					'principaliteis',
+				],
 				'principality'=>[
 					'principaly',
 				],
 				'principally'=>[
 					'principly',
 					'principallly',
+				],
+				'principium'=>[
+					'principuim',
 				],
 				'principle'=>[
 					'priciple',
@@ -13163,22 +21173,96 @@
 				'printery'=>[
 					'printary',
 				],
+				'printhead'=>[
+					'prinhead',
+					'printead',
+					'printhaed',
+				],
 				'printing'=>[
 					'pnnting',
+				],
+				'printmaker'=>[
+					'prinmaker',
+					'printaker',
+				],
+				'printmakers'=>[
+					'prinmakers',
+					'printakers',
+				],
+				'printmaking'=>[
+					'prinmaking',
+					'printaking',
+				],
+				'printout'=>[
+					'printuot',
+				],
+				'printouts'=>[
+					'prinouts',
+					'printuots',
+					'printuts',
 				],
 				'printwheel'=>[
 					'printwheeel',
 					'printwhel',
+					'printheel',
+					'prinwheel',
 				],
 				'prior'=>[
 					'proir',
 				],
+				'priorate'=>[
+					'proirate',
+				],
 				'prioress'=>[
 					'prioresss',
+					'proiress',
 				],
 				'prioresses'=>[
 					'prioreses',
 					'prioressses',
+					'proiresses',
+				],
+				'priories'=>[
+					'prioreis',
+					'proiries',
+				],
+				'priorities'=>[
+					'prioriteis',
+					'proirities',
+				],
+				'prioritization'=>[
+					'prioritizatoin',
+					'prioritizaton',
+					'proiritization',
+				],
+				'prioritize'=>[
+					'proiritize',
+				],
+				'prioritized'=>[
+					'proiritized',
+				],
+				'prioritizes'=>[
+					'proiritizes',
+				],
+				'prioritizing'=>[
+					'proiritizing',
+				],
+				'priority'=>[
+					'proirity',
+				],
+				'priors'=>[
+					'proirs',
+				],
+				'priorship'=>[
+					'proirship',
+				],
+				'priorships'=>[
+					'priorhips',
+					'priorsips',
+					'proirships',
+				],
+				'priory'=>[
+					'proiry',
 				],
 				'priscilla'=>[
 					'pricilla',
@@ -13189,6 +21273,18 @@
 				'prismatically'=>[
 					'prismaticallly',
 					'prismaticaly',
+				],
+				'prismatoid'=>[
+					'prismatiod',
+				],
+				'prismatoids'=>[
+					'prismatiods',
+				],
+				'prismoid'=>[
+					'prismiod',
+				],
+				'prismoids'=>[
+					'prismiods',
 				],
 				'prison'=>[
 					'prision',
@@ -13209,10 +21305,12 @@
 				'prissier'=>[
 					'prisier',
 					'prisssier',
+					'prisseir',
 				],
 				'prissiest'=>[
 					'prisiest',
 					'prisssiest',
+					'prisseist',
 				],
 				'prissily'=>[
 					'prisily',
@@ -13241,6 +21339,9 @@
 				],
 				'privacy'=>[
 					'privasy',
+				],
+				'privatdocent'=>[
+					'privatdocant',
 				],
 				'private'=>[
 					'pnvate',
@@ -13279,6 +21380,28 @@
 					'privateneses',
 					'privatenessses',
 				],
+				'privation'=>[
+					'privatoin',
+					'privaton',
+				],
+				'privations'=>[
+					'privatoins',
+					'privatons',
+				],
+				'privatization'=>[
+					'privatizatoin',
+					'privatizaton',
+				],
+				'privatizations'=>[
+					'privatizatoins',
+					'privatizatons',
+				],
+				'privies'=>[
+					'priveis',
+				],
+				'priviest'=>[
+					'priveist',
+				],
 				'privilege'=>[
 					'priveledge',
 					'privelege',
@@ -13310,20 +21433,81 @@
 					'priviely',
 					'privilly',
 				],
+				'prizefight'=>[
+					'prizeight',
+					'prizfight',
+				],
+				'prizefighter'=>[
+					'prizeighter',
+					'prizfighter',
+				],
+				'prizefighters'=>[
+					'prizeighters',
+					'prizfighters',
+				],
+				'prizefighting'=>[
+					'prizeighting',
+					'prizfighting',
+				],
+				'prizefights'=>[
+					'prizeights',
+					'prizfights',
+				],
 				'prizewinner'=>[
 					'prizewiner',
 					'prizewinnner',
+					'prizeinner',
+					'prizwinner',
 				],
 				'prizewinners'=>[
 					'prizewiners',
 					'prizewinnners',
+					'prizeinners',
+					'prizwinners',
 				],
 				'prizewinning'=>[
 					'prizewining',
 					'prizewinnning',
+					'prizeinning',
+					'prizwinning',
 				],
 				'pro tem'=>[
 					'protem',
+				],
+				'proabortion'=>[
+					'prabortion',
+					'praobortion',
+					'proabortoin',
+					'proaborton',
+					'probortion',
+				],
+				'proaction'=>[
+					'praction',
+					'praoction',
+					'proactoin',
+					'proacton',
+					'proction',
+				],
+				'proactive'=>[
+					'praoctive',
+					'proctive',
+				],
+				'proactively'=>[
+					'praoctively',
+					'proactivly',
+					'proctively',
+				],
+				'proactivity'=>[
+					'practivity',
+					'praoctivity',
+					'proctivity',
+				],
+				'proadministration'=>[
+					'pradministration',
+					'praodministration',
+					'proadministratoin',
+					'proadministraton',
+					'prodministration',
 				],
 				'proatherogenic'=>[
 					'protherogenic',
@@ -13335,14 +21519,22 @@
 					'probabilisticallly',
 					'probabilisticaly',
 				],
+				'probabilities'=>[
+					'probabiliteis',
+					'probibilities',
+				],
 				'probability'=>[
 					'probablity',
 					'probalibity',
+					'probibility',
 				],
 				'probable'=>[
 					'probable probable',
 					'probable probable probable',
 					'probible',
+				],
+				'probables'=>[
+					'probibles',
 				],
 				'probably'=>[
 					'proabably',
@@ -13356,9 +21548,29 @@
 					'probabley',
 					'probabiy',
 					'prohahly',
+					'probibly',
+				],
+				'probates'=>[
+					'prbates',
+				],
+				'probation'=>[
+					'probatoin',
+					'probaton',
+				],
+				'probational'=>[
+					'probatoinal',
+					'probatonal',
 				],
 				'probationary'=>[
 					'probationery',
+					'probatoinary',
+					'probatonary',
+				],
+				'probationer'=>[
+					'probatoiner',
+				],
+				'probationers'=>[
+					'probatoiners',
 				],
 				'problem'=>[
 					'probelm',
@@ -13369,6 +21581,24 @@
 				],
 				'problematically'=>[
 					'problematicallly',
+				],
+				'probosces'=>[
+					'proboces',
+					'proboses',
+				],
+				'proboscidean'=>[
+					'probocidean',
+					'proboscidaen',
+					'probosidean',
+				],
+				'proboscideans'=>[
+					'probocideans',
+					'proboscidaens',
+					'probosideans',
+				],
+				'proboscides'=>[
+					'probocides',
+					'probosides',
 				],
 				'proboscidian'=>[
 					'probocidian',
@@ -13381,12 +21611,32 @@
 					'probocsis',
 					'probosis',
 				],
+				'proboscises'=>[
+					'probocises',
+					'probosises',
+				],
 				'probusiness'=>[
 					'probusines',
 					'probusinesss',
+					'prbusiness',
+					'prousiness',
+				],
+				'procaine'=>[
+					'prociane',
+				],
+				'procambium'=>[
+					'procambuim',
+				],
+				'procapitalist'=>[
+					'prcapitalist',
+					'proapitalist',
 				],
 				'procarbazine'=>[
 					'procarbazini',
+				],
+				'procathedral'=>[
+					'prcathedral',
+					'proathedral',
 				],
 				'procedurally'=>[
 					'procedurallly',
@@ -13417,6 +21667,9 @@
 					'procedes',
 					'proceds',
 					'proceeeds',
+				],
+				'proceleusmatic'=>[
+					'proceluesmatic',
 				],
 				'procellariiform'=>[
 					'procelariiform',
@@ -13452,10 +21705,14 @@
 				'procession'=>[
 					'procesion',
 					'processsion',
+					'processoin',
+					'processon',
 				],
 				'processional'=>[
 					'procesional',
 					'processsional',
+					'processoinal',
+					'processonal',
 				],
 				'processionally'=>[
 					'processionalally',
@@ -13466,18 +21723,26 @@
 				'processionals'=>[
 					'procesionals',
 					'processsionals',
+					'processoinals',
 				],
 				'processioned'=>[
 					'procesioned',
 					'processsioned',
+					'processiond',
+					'processoined',
+					'processoned',
 				],
 				'processioning'=>[
 					'procesioning',
 					'processsioning',
+					'processoining',
+					'processoning',
 				],
 				'processions'=>[
 					'procesions',
 					'processsions',
+					'processoins',
+					'processons',
 				],
 				'processivity'=>[
 					'proccessivity',
@@ -13490,14 +21755,35 @@
 					'procesors',
 					'processsors',
 				],
+				'prochurch'=>[
+					'prchurch',
+					'prohurch',
+				],
 				'proclaim'=>[
 					'proclame',
+					'prclaim',
+					'procliam',
+					'prolaim',
 				],
 				'proclaimed'=>[
 					'proclamed',
+					'prclaimed',
+					'procliamed',
+					'prolaimed',
+				],
+				'proclaimers'=>[
+					'procliamers',
 				],
 				'proclaiming'=>[
 					'proclaim ing',
+					'prclaiming',
+					'procliaming',
+					'prolaiming',
+				],
+				'proclaims'=>[
+					'prclaims',
+					'procliams',
+					'prolaims',
 				],
 				'proclamation'=>[
 					'procla- mation',
@@ -13505,11 +21791,22 @@
 					'proclaniation',
 					'proclimation',
 					'proclomation',
+					'proclamatoin',
+					'proclamaton',
 				],
 				'proclamations'=>[
 					'procla- mations',
 					'procla-mations',
 					'proclimations',
+					'proclamatoins',
+					'proclamatons',
+				],
+				'proclerical'=>[
+					'prclerical',
+					'prolerical',
+				],
+				'proclivities'=>[
+					'procliviteis',
 				],
 				'proclivity'=>[
 					'preclivity',
@@ -13517,13 +21814,35 @@
 				'procommunism'=>[
 					'procommmunism',
 					'procomunism',
+					'prcommunism',
+					'proommunism',
 				],
 				'procommunist'=>[
 					'procommmunist',
 					'procomunist',
+					'prcommunist',
+					'proommunist',
+				],
+				'procompromise'=>[
+					'prcompromise',
+					'proompromise',
+				],
+				'proconservation'=>[
+					'prconservation',
+					'proconservatoin',
+					'proconservaton',
+					'proonservation',
+				],
+				'proconsul'=>[
+					'prconsul',
+					'proonsul',
 				],
 				'proconsular'=>[
 					'proconsuler',
+				],
+				'proconsulate'=>[
+					'prconsulate',
+					'proonsulate',
 				],
 				'procrastinate'=>[
 					'procrastinite',
@@ -13539,6 +21858,12 @@
 				],
 				'procrastination'=>[
 					'procrastinition',
+					'procrastinatoin',
+					'procrastinaton',
+				],
+				'procrastinations'=>[
+					'procrastinatoins',
+					'procrastinatons',
 				],
 				'procrastinator'=>[
 					'procrastinitor',
@@ -13546,17 +21871,120 @@
 				'procrastinators'=>[
 					'procrastinitors',
 				],
+				'procreant'=>[
+					'procraent',
+					'procreent',
+				],
+				'procreate'=>[
+					'prcreate',
+					'procraete',
+					'proreate',
+				],
+				'procreated'=>[
+					'prcreated',
+					'procraeted',
+					'proreated',
+				],
+				'procreates'=>[
+					'prcreates',
+					'procraetes',
+					'proreates',
+				],
+				'procreating'=>[
+					'prcreating',
+					'procraeting',
+					'proreating',
+				],
+				'procreation'=>[
+					'prcreation',
+					'procraetion',
+					'procreatoin',
+					'procreaton',
+					'proreation',
+				],
+				'procreational'=>[
+					'procraetional',
+					'procreatoinal',
+					'procreatonal',
+				],
 				'procreative'=>[
 					'procretive',
+					'prcreative',
+					'procraetive',
+					'proreative',
+				],
+				'procreator'=>[
+					'prcreator',
+					'procraetor',
+					'proreator',
+				],
+				'procrustean'=>[
+					'procrustaen',
+				],
+				'procryptic'=>[
+					'prcryptic',
+					'proryptic',
+				],
+				'proctored'=>[
+					'proctord',
+				],
+				'proctorial'=>[
+					'proctorail',
+				],
+				'proctoscope'=>[
+					'proctocope',
+					'proctosope',
+				],
+				'proctoscopes'=>[
+					'proctocopes',
+					'proctosopes',
+				],
+				'procumbent'=>[
+					'procumbant',
+				],
+				'procurable'=>[
+					'procurible',
+				],
+				'procurance'=>[
+					'procurence',
+				],
+				'procuration'=>[
+					'procuratoin',
+					'procuraton',
+				],
+				'procurator'=>[
+					'prcurator',
+					'prourator',
 				],
 				'procure'=>[
 					'proeure',
+					'prcure',
+					'proure',
+				],
+				'procured'=>[
+					'prcured',
+					'procurd',
+					'proured',
+				],
+				'procurement'=>[
+					'procuremant',
+				],
+				'procurements'=>[
+					'procuremants',
+				],
+				'procures'=>[
+					'prcures',
+					'proures',
 				],
 				'procuress'=>[
 					'procuresss',
 				],
 				'procuresses'=>[
 					'procuressses',
+				],
+				'procuring'=>[
+					'prcuring',
+					'prouring',
 				],
 				'procymidone'=>[
 					'procimidone',
@@ -13570,22 +21998,40 @@
 				'prodding'=>[
 					'proddding',
 				],
+				'prodemocratic'=>[
+					'prdemocratic',
+					'proemocratic',
+				],
 				'prodigally'=>[
 					'prodigallly',
 					'prodigaly',
 				],
+				'prodigies'=>[
+					'prodigeis',
+				],
 				'prodigious'=>[
 					'prodigous',
+					'prodigiuos',
+					'prodigoius',
 				],
 				'prodigiously'=>[
 					'prodigously',
+					'prodigiousely',
+					'prodigiuosly',
+					'prodigoiusly',
 				],
 				'prodigiousness'=>[
 					'prodigiousnes',
 					'prodigiousnesss',
+					'prodigiuosness',
+					'prodigoiusness',
+					'prodigousness',
 				],
 				'prodigy'=>[
 					'progidy',
+				],
+				'prodisarmament'=>[
+					'prodisarmamant',
 				],
 				'prodromal'=>[
 					'predormal',
@@ -13612,10 +22058,17 @@
 					'product product product',
 					'prouct',
 					'procluct',
+					'prduct',
 				],
 				'production'=>[
 					'prodcution',
 					'prodution',
+					'productoin',
+					'producton',
+				],
+				'productions'=>[
+					'productoins',
+					'productons',
 				],
 				'productively'=>[
 					'productivly',
@@ -13626,6 +22079,22 @@
 				],
 				'products'=>[
 					'proclucts',
+					'prducts',
+					'proucts',
+				],
+				'proem'=>[
+					'preom',
+				],
+				'profanation'=>[
+					'profanatoin',
+					'profanaton',
+				],
+				'profanations'=>[
+					'profanatoins',
+					'profanatons',
+				],
+				'profaned'=>[
+					'profand',
 				],
 				'profanely'=>[
 					'profanly',
@@ -13633,6 +22102,19 @@
 				'profaneness'=>[
 					'profanenes',
 					'profanenesss',
+				],
+				'profanities'=>[
+					'profaniteis',
+				],
+				'profascist'=>[
+					'prfascist',
+					'proascist',
+					'profacist',
+					'profasist',
+				],
+				'profeminist'=>[
+					'prfeminist',
+					'proeminist',
 				],
 				'profess'=>[
 					'profes',
@@ -13662,36 +22144,48 @@
 					'proffesion',
 					'professsion',
 					'profeffion',
+					'professoin',
+					'professon',
 				],
 				'professional'=>[
 					'prefessional',
 					'profesional',
 					'proressional',
 					'professsional',
+					'professoinal',
+					'professonal',
 				],
 				'professionalism'=>[
 					'profesionalism',
 					'professsionalism',
+					'professoinalism',
 				],
 				'professionalization'=>[
 					'profesionalization',
 					'professsionalization',
+					'professionalizatoin',
+					'professionalizaton',
+					'professoinalization',
 				],
 				'professionalize'=>[
 					'profesionalize',
 					'professsionalize',
+					'professoinalize',
 				],
 				'professionalized'=>[
 					'profesionalized',
 					'professsionalized',
+					'professoinalized',
 				],
 				'professionalizes'=>[
 					'profesionalizes',
 					'professsionalizes',
+					'professoinalizes',
 				],
 				'professionalizing'=>[
 					'profesionalizing',
 					'professsionalizing',
+					'professoinalizing',
 				],
 				'professionally'=>[
 					'professionalally',
@@ -13701,14 +22195,19 @@
 					'professionaly',
 					'profesionally',
 					'professsionally',
+					'professoinally',
+					'professonally',
 				],
 				'professionals'=>[
 					'profesionals',
 					'professsionals',
+					'professoinals',
 				],
 				'professions'=>[
 					'profesions',
 					'professsions',
+					'professoins',
+					'professons',
 				],
 				'professor'=>[
 					'profesor',
@@ -13723,16 +22222,19 @@
 				'professorial'=>[
 					'profesorial',
 					'professsorial',
+					'professorail',
 				],
 				'professorially'=>[
 					'profesorially',
 					'professsorially',
 					'professoriallly',
 					'professorialy',
+					'professorailly',
 				],
 				'professoriate'=>[
 					'profesoriate',
 					'professsoriate',
+					'professoraite',
 				],
 				'professors'=>[
 					'professsors',
@@ -13744,6 +22246,8 @@
 				'professorships'=>[
 					'profesorships',
 					'professsorships',
+					'professorhips',
+					'professorsips',
 				],
 				'proffer'=>[
 					'profffer',
@@ -13753,6 +22257,7 @@
 					'proferred',
 					'profferred',
 					'profffered',
+					'profferd',
 				],
 				'proffering'=>[
 					'profffering',
@@ -13760,24 +22265,61 @@
 				'proffers'=>[
 					'profffers',
 				],
+				'proficiencies'=>[
+					'proficeincies',
+					'proficiancies',
+					'proficienceis',
+				],
 				'proficiency'=>[
 					'proficeincy',
 					'proficiensy',
 					'proficincy',
+					'proficiancy',
 				],
 				'proficient'=>[
 					'proficeint',
 					'proficiant',
 					'proficint',
 				],
+				'proficiently'=>[
+					'proficeintly',
+					'proficiantly',
+					'proficientely',
+				],
+				'proficients'=>[
+					'proficeints',
+					'proficiants',
+				],
 				'profile'=>[
 					'profilc',
+					'prfile',
+					'proile',
+				],
+				'profiled'=>[
+					'prfiled',
+					'proiled',
+				],
+				'profiles'=>[
+					'prfiles',
+					'proiles',
+				],
+				'profiling'=>[
+					'prfiling',
+					'proiling',
 				],
 				'profit'=>[
 					'proft',
 				],
+				'profitability'=>[
+					'profiability',
+					'profitbility',
+					'profitibility',
+				],
 				'profitable'=>[
 					'profitible',
+				],
+				'profitably'=>[
+					'profitibly',
 				],
 				'profited'=>[
 					'profitted',
@@ -13787,6 +22329,7 @@
 				],
 				'profiteered'=>[
 					'profiteeered',
+					'profiteerd',
 				],
 				'profiteering'=>[
 					'profiteeering',
@@ -13801,15 +22344,50 @@
 					'profitles',
 					'profitlesss',
 				],
+				'profits'=>[
+					'prfits',
+					'proits',
+				],
 				'profligacy'=>[
 					'profligasy',
 				],
 				'profligate'=>[
 					'prolifigate',
 				],
+				'profligately'=>[
+					'profligatly',
+				],
+				'profluent'=>[
+					'prfluent',
+					'profleunt',
+					'profluant',
+					'proluent',
+				],
+				'profound'=>[
+					'prfound',
+					'profuond',
+				],
+				'profounder'=>[
+					'prfounder',
+					'profuonder',
+					'proounder',
+				],
+				'profoundest'=>[
+					'profuondest',
+				],
+				'profoundly'=>[
+					'profuondly',
+				],
 				'profoundness'=>[
 					'profoundnes',
 					'profoundnesss',
+					'profuondness',
+				],
+				'profundities'=>[
+					'profunditeis',
+				],
+				'profuse'=>[
+					'prfuse',
 				],
 				'profusely'=>[
 					'profusly',
@@ -13821,12 +22399,25 @@
 				'profusion'=>[
 					'profesion',
 					'profuison',
+					'prfusion',
+					'profusoin',
+					'profuson',
+					'prousion',
 				],
 				'profusions'=>[
 					'profuisons',
+					'profusoins',
+					'profusons',
 				],
 				'profusive'=>[
 					'profuisve',
+				],
+				'progenitorial'=>[
+					'progenitorail',
+				],
+				'progestational'=>[
+					'progestatoinal',
+					'progestatonal',
 				],
 				'progestogenic'=>[
 					'progestagenic',
@@ -13840,6 +22431,20 @@
 				],
 				'prognathous'=>[
 					'prognatheous',
+					'prognathuos',
+				],
+				'prognostication'=>[
+					'prognosticatoin',
+					'prognosticaton',
+				],
+				'prognostications'=>[
+					'prognosticatoins',
+					'prognosticatons',
+				],
+				'progovernment'=>[
+					'prgovernment',
+					'progovernmant',
+					'proovernment',
 				],
 				'program'=>[
 					'prgoram',
@@ -13854,14 +22459,17 @@
 					'programnability',
 					'programability',
 					'programmmability',
+					'programmibility',
 				],
 				'programmable'=>[
 					# programable: an accepted spelling, not a slip (AmericanBritishWords_P: programable)
 				#	'programable',
 					'programmmable',
+					'programmible',
 				],
 				'programmables'=>[
 					'programmmables',
+					'programmibles',
 				],
 				'programmatic'=>[
 					'programnatic',
@@ -13896,6 +22504,7 @@
 				'programs'=>[
 					'prgrams',
 					'prgrms',
+					'prorams',
 				],
 				'progress'=>[
 					'progess',
@@ -13918,14 +22527,20 @@
 				'progression'=>[
 					'progresion',
 					'progresssion',
+					'progressoin',
+					'progresson',
 				],
 				'progressionist'=>[
 					'progresionist',
 					'progresssionist',
+					'progressoinist',
+					'progressonist',
 				],
 				'progressions'=>[
 					'progresions',
 					'progresssions',
+					'progressoins',
+					'progressons',
 				],
 				'progressist'=>[
 					'progresist',
@@ -13959,6 +22574,7 @@
 				'progressivities'=>[
 					'progresivities',
 					'progresssivities',
+					'progressiviteis',
 				],
 				'progressivity'=>[
 					'progresivity',
@@ -13972,6 +22588,20 @@
 				],
 				'prohibition'=>[
 					'prohabition',
+					'prohibitoin',
+					'prohibiton',
+				],
+				'prohibitionist'=>[
+					'prohibitoinist',
+					'prohibitonist',
+				],
+				'prohibitionists'=>[
+					'prohibitoinists',
+					'prohibitonists',
+				],
+				'prohibitions'=>[
+					'prohibitoins',
+					'prohibitons',
 				],
 				'prohibitively'=>[
 					'prohibitivly',
@@ -13983,15 +22613,54 @@
 				'prohypertrophic'=>[
 					'prohypertropic',
 				],
+				'proindustry'=>[
+					'prindustry',
+					'priondustry',
+					'prondustry',
+				],
 				'proinflammatory'=>[
 					'porinflammatory',
 					'proinflamatory',
+				],
+				'prointervention'=>[
+					'printervention',
+					'priontervention',
+					'prointerventoin',
+					'prointerventon',
+					'prontervention',
+				],
+				'projection'=>[
+					'projectoin',
+					'projecton',
+				],
+				'projectionist'=>[
+					'projectoinist',
+					'projectonist',
+				],
+				'projectionists'=>[
+					'projectoinists',
+					'projectonists',
+				],
+				'projections'=>[
+					'projectoins',
+					'projectons',
 				],
 				'projectively'=>[
 					'projectivly',
 				],
 				'prokaryotic'=>[
 					'procaryotic',
+				],
+				'prolabor'=>[
+					'prlabor',
+					'proabor',
+				],
+				'prolapse'=>[
+					'prlapse',
+					'proapse',
+				],
+				'prolate'=>[
+					'prlate',
 				],
 				'prolately'=>[
 					'prolatly',
@@ -14002,21 +22671,42 @@
 				'prolegomenon'=>[
 					'prologomenon',
 				],
+				'prolegomenous'=>[
+					'prolegomenuos',
+				],
 				'proleptically'=>[
 					'prolepticallly',
 					'prolepticaly',
 				],
 				'proletarian'=>[
 					'proletaran',
+					'proletarain',
+				],
+				'proletarianism'=>[
+					'proletarainism',
+				],
+				'proletarians'=>[
+					'proletarains',
 				],
 				'proletariat'=>[
 					'proletariate',
+					'proletarait',
 				],
 				'proletary'=>[
 					'proletery',
 				],
+				'proliferation'=>[
+					'proliferatoin',
+					'proliferaton',
+				],
+				'proliferous'=>[
+					'proliferuos',
+				],
 				'prolific'=>[
 					'profilic',
+				],
+				'prolificacies'=>[
+					'prolificaceis',
 				],
 				'prolificacy'=>[
 					'prolificasy',
@@ -14031,6 +22721,12 @@
 				],
 				'proline'=>[
 					'prolini',
+					'prline',
+					'proine',
+				],
+				'prolines'=>[
+					'prlines',
+					'proines',
 				],
 				'prolixly'=>[
 					'prolixally',
@@ -14038,21 +22734,71 @@
 					'prolixely',
 					'prolixlly',
 				],
+				'prologs'=>[
+					'prlogs',
+					'proogs',
+				],
+				'prologue'=>[
+					'prologeu',
+				],
+				'prologues'=>[
+					'prologeus',
+				],
+				'prologuize'=>[
+					'prologiuze',
+				],
+				'prolong'=>[
+					'prlong',
+					'proong',
+				],
+				'prolongation'=>[
+					'prolongatoin',
+					'prolongaton',
+				],
+				'prolongations'=>[
+					'prolongatoins',
+					'prolongatons',
+				],
 				'prolonged'=>[
 					'prolongued',
+					'prlonged',
+					'proonged',
+				],
+				'prolonging'=>[
+					'prlonging',
+					'proonging',
+				],
+				'prolongs'=>[
+					'prlongs',
+					'proongs',
 				],
 				'prolusion'=>[
 					'proluison',
+					'prolusoin',
+					'proluson',
 				],
 				'prolusions'=>[
 					'proluisons',
+					'prolusoins',
+					'prolusons',
 				],
 				'prom'=>[
 					'proni',
 				],
+				'promethium'=>[
+					'promethuim',
+				],
+				'promilitary'=>[
+					'prmilitary',
+					'proilitary',
+					'promilitery',
+				],
 				'prominence'=>[
 					'prominance',
 					'prominince',
+				],
+				'prominences'=>[
+					'prominances',
 				],
 				'prominent'=>[
 					'promiment',
@@ -14065,17 +22811,21 @@
 					'prominantly',
 					'prominately',
 					'promiuently',
+					'prominentely',
 				],
 				'promiscuity'=>[
 					'promicsuity',
 					'promicuity',
 					'promisuity',
+					'promisciuty',
 				],
 				'promiscuous'=>[
 					'promicsuous',
 					'promicuous',
 					'promiscous',
 					'promisuous',
+					'promiscouus',
+					'promiscuuos',
 				],
 				'promiscuously'=>[
 					'promiscously',
@@ -14084,6 +22834,10 @@
 					'promiscuousely',
 					'promiscuouslly',
 					'promifcuoufly',
+					'promicuously',
+					'promiscouusly',
+					'promiscuuosly',
+					'promisuously',
 				],
 				'promiscuousness'=>[
 					'promicsuousness',
@@ -14092,6 +22846,8 @@
 					'promisuousness',
 					'promiscuousnes',
 					'promiscuousnesss',
+					'promiscouusness',
+					'promiscuuosness',
 				],
 				'promiscuousnesses'=>[
 					'promiscuousneses',
@@ -14123,16 +22879,44 @@
 				'promnesic'=>[
 					'promnestic',
 				],
+				'promontories'=>[
+					'promontoreis',
+				],
+				'promotable'=>[
+					'promotible',
+				],
 				'promotion'=>[
 					'premotion',
+					'prmotion',
+					'promotoin',
+					'promoton',
+					'prootion',
+				],
+				'promotional'=>[
+					'promotoinal',
+					'promotonal',
+				],
+				'promotions'=>[
+					'prmotions',
+					'promotoins',
+					'promotons',
+					'prootions',
+				],
+				'promotive'=>[
+					'prmotive',
+					'prootive',
 				],
 				'promptbook'=>[
 					'promptbok',
 					'promptboook',
+					'prompbook',
+					'promptook',
 				],
 				'promptbooks'=>[
 					'promptboks',
 					'promptboooks',
+					'prompbooks',
+					'promptooks',
 				],
 				'promptly'=>[
 					'promptally',
@@ -14144,8 +22928,35 @@
 					'promptnes',
 					'promptnesss',
 				],
+				'promulgation'=>[
+					'promulgatoin',
+					'promulgaton',
+				],
+				'promulgations'=>[
+					'promulgatoins',
+					'promulgatons',
+				],
+				'promycelium'=>[
+					'promyceluim',
+				],
 				'promyelocytic'=>[
 					'promyelotic',
+				],
+				'pronate'=>[
+					'prnate',
+				],
+				'pronation'=>[
+					'prnation',
+					'pronatoin',
+					'pronaton',
+				],
+				'pronationalist'=>[
+					'pronatoinalist',
+				],
+				'pronations'=>[
+					'prnations',
+					'pronatoins',
+					'pronatons',
 				],
 				'pronely'=>[
 					'pronly',
@@ -14161,35 +22972,77 @@
 				'pronominally'=>[
 					'pronominilly',
 				],
+				'pronoun'=>[
+					'pronuon',
+				],
 				'pronounce'=>[
 					'pronouce',
+					'pronuonce',
 				],
 				'pronounceable'=>[
 					'pronounceible',
+					'pronouncaeble',
+					'pronuonceable',
 				],
 				'pronounced'=>[
 					'pronnounced',
 					'prounounced',
+					'pronuonced',
 				],
 				'pronouncedly'=>[
 					'pronouncedally',
 					'pronouncedaly',
 					'pronouncedely',
 					'pronouncedlly',
+					'pronuoncedly',
 				],
 				'pronouncement'=>[
 					'pronouncemant',
+					'pronuoncement',
+				],
+				'pronouncements'=>[
+					'pronouncemants',
+					'pronuoncements',
+				],
+				'pronounces'=>[
+					'pronuonces',
+				],
+				'pronouncing'=>[
+					'pronuoncing',
+				],
+				'pronouns'=>[
+					'pronuons',
 				],
 				'pronuclear'=>[
 					'pronucleer',
+					'prnuclear',
+					'pronuclaer',
+					'prouclear',
+				],
+				'pronucleus'=>[
+					'prnucleus',
+					'pronuclues',
+					'proucleus',
 				],
 				'pronunciamento'=>[
 					'pronunciamanto',
+					'pronuncaimento',
+				],
+				'pronunciamentos'=>[
+					'pronuncaimentos',
 				],
 				'pronunciation'=>[
 					'pronouncation',
 					'pronounciation',
 					'pronuncition',
+					'pronuncaition',
+					'pronunciatoin',
+					'pronunciaton',
+				],
+				'pronunciations'=>[
+					'pronuncaitions',
+					'pronunciatoins',
+					'pronunciatons',
 				],
 				'proof'=>[
 					'prooof',
@@ -14204,22 +23057,37 @@
 					'proof-read',
 					'profread',
 					'prooofread',
+					'proofead',
+					'proofraed',
+					'prooread',
 				],
 				'proofreader'=>[
 					'profreader',
 					'prooofreader',
+					'proofeader',
+					'proofraeder',
+					'prooreader',
 				],
 				'proofreaders'=>[
 					'profreaders',
 					'prooofreaders',
+					'proofeaders',
+					'proofraeders',
+					'prooreaders',
 				],
 				'proofreading'=>[
 					'profreading',
 					'prooofreading',
+					'proofeading',
+					'proofraeding',
+					'prooreading',
 				],
 				'proofreads'=>[
 					'profreads',
 					'prooofreads',
+					'proofeads',
+					'proofraeds',
+					'prooreads',
 				],
 				'proofs'=>[
 					'prooofs',
@@ -14227,8 +23095,19 @@
 				'proopiomelanocortin'=>[
 					'propiomelanocortin',
 				],
+				'propaedeutic'=>[
+					'propaeduetic',
+					'propeadeutic',
+				],
+				'propaedeutical'=>[
+					'propaeduetical',
+					'propeadeutical',
+				],
 				'propaedeutically'=>[
 					'propaedeuticly',
+				],
+				'propagable'=>[
+					'propagible',
 				],
 				'propaganda'=>[
 					'propoganda',
@@ -14241,6 +23120,8 @@
 				],
 				'propagation'=>[
 					'propogation',
+					'propagatoin',
+					'propagaton',
 				],
 				'propagator'=>[
 					'propogator',
@@ -14293,6 +23174,9 @@
 				'propense'=>[
 					'propence',
 				],
+				'propensities'=>[
+					'propensiteis',
+				],
 				'proper'=>[
 					'proper proper',
 					'proper proper proper',
@@ -14313,6 +23197,13 @@
 				'propertied'=>[
 					'properteid',
 					'propertid',
+					'properied',
+					'propetied',
+				],
+				'properties'=>[
+					'properies',
+					'properteis',
+					'propeties',
 				],
 				'property'=>[
 					'porperty',
@@ -14322,6 +23213,13 @@
 					'propery',
 					'proprety',
 				],
+				'prophase'=>[
+					'prohase',
+					'prphase',
+				],
+				'prophecies'=>[
+					'propheceis',
+				],
 				'prophecy'=>[
 					'prophacy',
 					'propliecy',
@@ -14329,6 +23227,13 @@
 				'prophesied'=>[
 					'prophecied',
 					'prophecized',
+					'propheseid',
+				],
+				'prophesier'=>[
+					'propheseir',
+				],
+				'prophesiers'=>[
+					'propheseirs',
 				],
 				'prophesy'=>[
 					'prophescy',
@@ -14360,39 +23265,93 @@
 				'propidium'=>[
 					'propridium',
 				],
+				'propinquity'=>[
+					'propinqiuty',
+				],
 				'propiolactone'=>[
 					'propriolactone',
 				],
 				'propionate'=>[
 					'proprionate',
 				],
+				'propitiate'=>[
+					'propitaite',
+				],
+				'propitiated'=>[
+					'propitaited',
+				],
+				'propitiates'=>[
+					'propitaites',
+				],
+				'propitiating'=>[
+					'propitaiting',
+				],
+				'propitiation'=>[
+					'propitaition',
+					'propitiatoin',
+					'propitiaton',
+				],
+				'propitiator'=>[
+					'propitaitor',
+				],
+				'propitiatory'=>[
+					'propitaitory',
+				],
 				'propitious'=>[
 					'propitous',
+					'propitiuos',
+					'propitoius',
 				],
 				'propitiously'=>[
 					'propitously',
+					'propitiousely',
+					'propitiuosly',
+					'propitoiusly',
 				],
 				'propitiousness'=>[
 					'propitiousnes',
 					'propitiousnesss',
+					'propitiuosness',
+					'propitoiusness',
+					'propitousness',
 				],
 				'propitiousnesses'=>[
 					'propitiousneses',
 					'propitiousnessses',
 				],
+				'propjets'=>[
+					'propets',
+				],
 				'proponent'=>[
 					'proponant',
+				],
+				'proponents'=>[
+					'proponants',
 				],
 				'proportion'=>[
 					'porportion',
 					'propotion',
 					'proportiou',
+					'proortion',
+					'proportoin',
+					'proporton',
+					'prportion',
 				],
 				'proportionable'=>[
 					'proportionible',
+					'proportoinable',
 				],
 				'proportional'=>[
 					'propotional',
+					'proportoinal',
+					'proportonal',
+				],
+				'proportionalities'=>[
+					'proportionaliteis',
+					'proportoinalities',
+				],
+				'proportionality'=>[
+					'proportoinality',
 				],
 				'proportionally'=>[
 					'proportionalally',
@@ -14400,6 +23359,15 @@
 					'proportionalely',
 					'proportionallly',
 					'proportionaly',
+					'proportoinally',
+					'proportonally',
+				],
+				'proportionals'=>[
+					'proportoinals',
+				],
+				'proportionate'=>[
+					'proportoinate',
+					'proportonate',
 				],
 				'proportionately'=>[
 					'proportionateally',
@@ -14407,6 +23375,22 @@
 					'proportionateely',
 					'proportionatelly',
 					'proportionatly',
+					'proportoinately',
+				],
+				'proportioned'=>[
+					'proportiond',
+					'proportoined',
+					'proportoned',
+				],
+				'proportioning'=>[
+					'proportoining',
+					'proportoning',
+				],
+				'proportions'=>[
+					'proortions',
+					'proportoins',
+					'proportons',
+					'prportions',
 				],
 				'proposal'=>[
 					'propofal',
@@ -14414,24 +23398,90 @@
 				'propose'=>[
 					'propofe',
 					'proposc',
+					'proose',
+					'prpose',
 				],
 				'proposed'=>[
 					'propofed',
+					'proosed',
+					'prposed',
+				],
+				'proposes'=>[
+					'prooses',
+					'prposes',
 				],
 				'proposing'=>[
 					'propofing',
+					'proosing',
+					'prposing',
 				],
 				'proposition'=>[
 					'propofition',
+					'proosition',
+					'propositoin',
+					'propositon',
+					'prposition',
+				],
+				'propositional'=>[
+					'propositoinal',
+					'propositonal',
+				],
+				'propositioned'=>[
+					'proositioned',
+					'propositiond',
+					'propositoined',
+					'propositoned',
+					'prpositioned',
+				],
+				'propositioning'=>[
+					'proositioning',
+					'propositoining',
+					'propositoning',
+					'prpositioning',
 				],
 				'propositions'=>[
 					'propofitions',
+					'proositions',
+					'propositoins',
+					'propositons',
+					'prpositions',
+				],
+				'propound'=>[
+					'propuond',
+					'prpound',
+				],
+				'propounded'=>[
+					'proounded',
+					'propuonded',
+					'prpounded',
+				],
+				'propounder'=>[
+					'propuonder',
+				],
+				'propounding'=>[
+					'proounding',
+					'propuonding',
+					'prpounding',
+				],
+				'propounds'=>[
+					'proounds',
+					'propuonds',
+					'prpounds',
 				],
 				'propped'=>[
 					'proppped',
 				],
 				'propping'=>[
 					'proppping',
+				],
+				'proprietaries'=>[
+					'propreitaries',
+					'proprietareis',
+					'proprieteries',
+				],
+				'proprietarily'=>[
+					'propreitarily',
+					'proprietarly',
 				],
 				'proprietary'=>[
 					'propietary',
@@ -14441,17 +23491,31 @@
 					'proprietry',
 					'propritary',
 				],
+				'proprieties'=>[
+					'propreities',
+					'proprieteis',
+				],
 				'proprietor'=>[
 					'propietor',
 					'propreitor',
 					'propritor',
 				],
+				'proprietorial'=>[
+					'propreitorial',
+					'proprietorail',
+				],
 				'proprietorially'=>[
 					'proprietoriallly',
 					'proprietorialy',
+					'propreitorially',
+					'proprietorailly',
 				],
 				'proprietors'=>[
 					'propietors',
+					'propreitors',
+				],
+				'proprietorship'=>[
+					'propreitorship',
 				],
 				'proprietress'=>[
 					'propreitress',
@@ -14462,38 +23526,140 @@
 				'proprietresses'=>[
 					'proprietreses',
 					'proprietressses',
+					'propreitresses',
 				],
 				'propriety'=>[
 					'propreity',
 					'proprity',
 				],
+				'proprioception'=>[
+					'proprioceptoin',
+					'propriocepton',
+					'proproiception',
+				],
+				'proprioceptions'=>[
+					'proprioceptoins',
+					'proprioceptons',
+					'proproiceptions',
+				],
 				'proprioceptive'=>[
 					'propioceptive',
 					'proprioreceptive',
+					'proproiceptive',
+				],
+				'proprioceptively'=>[
+					'proprioceptivly',
+					'proproiceptively',
+				],
+				'proprioceptor'=>[
+					'proproiceptor',
+				],
+				'propulsion'=>[
+					'propulsoin',
+					'propulson',
+				],
+				'propylaeum'=>[
+					'propylauem',
+					'propyleaum',
+				],
+				'prorate'=>[
+					'prrate',
+				],
+				'prorated'=>[
+					'proated',
+					'prrated',
+				],
+				'prorates'=>[
+					'prrates',
+				],
+				'prorating'=>[
+					'proating',
+					'prrating',
+				],
+				'proration'=>[
+					'proratoin',
+					'proraton',
+					'prration',
+				],
+				'prorations'=>[
+					'proratoins',
+					'proratons',
+					'prrations',
+				],
+				'proreform'=>[
+					'proeform',
+					'prreform',
+				],
+				'prorevolutionary'=>[
+					'proevolutionary',
+					'prorevolutionery',
+					'prorevolutoinary',
+					'prorevolutonary',
+					'prrevolutionary',
+				],
+				'prorogation'=>[
+					'prorogatoin',
+					'prorogaton',
+				],
+				'prorogue'=>[
+					'proogue',
+					'prorogeu',
+					'prrogue',
+				],
+				'prorogued'=>[
+					'prorogeud',
+				],
+				'prorogues'=>[
+					'prorogeus',
+				],
+				'proroguing'=>[
+					'prorogiung',
+				],
+				'prosaic'=>[
+					'prosiac',
 				],
 				'prosaically'=>[
 					'prosaicallly',
 					'prosaicaly',
+					'prosiacally',
 				],
 				'prosaicness'=>[
 					'prosaicnes',
 					'prosaicnesss',
+					'prosiacness',
 				],
 				'prosaicnesses'=>[
 					'prosaicneses',
 					'prosaicnessses',
 				],
+				'prosaism'=>[
+					'prosiasm',
+				],
 				'prosateur'=>[
 					'prosater',
+				],
+				'proscenia'=>[
+					'procenia',
+					'proscenai',
+					'prosenia',
 				],
 				'proscenium'=>[
 					'procenium',
 					'procsenium',
 					'prosenium',
+					'proscenuim',
+				],
+				'prosceniums'=>[
+					'proceniums',
+					'proscenuims',
+					'proseniums',
 				],
 				'prosciutti'=>[
 					'prosciuti',
 					'prosciuttti',
+					'prociutti',
+					'proscuitti',
+					'prosiutti',
 				],
 				'prosciutto'=>[
 					'prociutto',
@@ -14508,10 +23674,34 @@
 					'procsribe',
 					'prosribe',
 				],
+				'proscribed'=>[
+					'procribed',
+					'prosribed',
+				],
+				'proscribes'=>[
+					'procribes',
+					'prosribes',
+				],
+				'proscribing'=>[
+					'procribing',
+					'prosribing',
+				],
 				'proscription'=>[
 					'procription',
 					'procsription',
 					'prosription',
+					'proscriptoin',
+					'proscripton',
+				],
+				'proscriptions'=>[
+					'procriptions',
+					'proscriptoins',
+					'proscriptons',
+					'prosriptions',
+				],
+				'proscriptive'=>[
+					'procriptive',
+					'prosriptive',
 				],
 				'proscriptively'=>[
 					'procriptively',
@@ -14519,11 +23709,30 @@
 					'proscriptivly',
 					'prosriptively',
 				],
+				'prosector'=>[
+					'proector',
+					'prsector',
+				],
+				'prosecutable'=>[
+					'prosecutible',
+				],
 				'prosecute'=>[
 					'profecute',
+					'proscute',
+					'proseute',
 				],
 				'prosecution'=>[
 					'profecution',
+					'prosecutoin',
+					'prosecuton',
+				],
+				'prosecutions'=>[
+					'prosecutoins',
+					'prosecutons',
+				],
+				'proselytization'=>[
+					'proselytizatoin',
+					'proselytizaton',
 				],
 				'proselytizing'=>[
 					'proseletyzing',
@@ -14532,8 +23741,18 @@
 					'proseminer',
 					'proseminir',
 				],
+				'prosier'=>[
+					'proseir',
+				],
+				'prosiest'=>[
+					'proseist',
+				],
 				'prosimian'=>[
 					'prosiman',
+					'prosimain',
+				],
+				'prosimians'=>[
+					'prosimains',
 				],
 				'prosiness'=>[
 					'prosines',
@@ -14543,22 +23762,52 @@
 					'prosineses',
 					'prosinessses',
 				],
+				'proslavery'=>[
+					'prolavery',
+					'proslavary',
+					'prslavery',
+				],
+				'prosodies'=>[
+					'prosodeis',
+				],
+				'prosopopeia'=>[
+					'prosopopeai',
+					'prosopopiea',
+				],
+				'prosopopoeia'=>[
+					'prosopopeoia',
+					'prosopopoeai',
+					'prosopopoiea',
+				],
 				'prosopopoeias'=>[
 					'prosopopoieas',
+					'prosopopeoias',
+					'prosopopoeais',
 				],
 				'prospectively'=>[
 					'prospectivly',
 				],
+				'prospectuses'=>[
+					'prospecuses',
+				],
 				'prosper'=>[
 					'profper',
+				],
+				'prospered'=>[
+					'prosperd',
 				],
 				'prosperity'=>[
 					'properity',
 					'profperity',
 					'prospenty',
 				],
+				'prosperous'=>[
+					'prosperuos',
+				],
 				'prosperously'=>[
 					'profperoufly',
+					'prosperousely',
+					'prosperuosly',
 				],
 				'pross'=>[
 					'prosss',
@@ -14566,8 +23815,25 @@
 				'prostanoid'=>[
 					'prostenoid',
 				],
+				'prostate'=>[
+					'protate',
+					'prstate',
+				],
 				'prostate cancer'=>[
 					'prostrate cancer',
+				],
+				'prostatectomies'=>[
+					'prostatectomeis',
+				],
+				'prostates'=>[
+					'protates',
+					'prstates',
+				],
+				'prostatic'=>[
+					'prstatic',
+				],
+				'prosthesis'=>[
+					'proshesis',
 				],
 				'prosthetic'=>[
 					'prostetic',
@@ -14578,18 +23844,33 @@
 				],
 				'prostitution'=>[
 					'prostituion',
+					'prostitutoin',
+					'prostituton',
 				],
 				'prostomium'=>[
 					'prostonium',
+					'prostomuim',
 				],
 				'prostrate'=>[
 					'proftrate',
+				],
+				'prostration'=>[
+					'prostratoin',
+					'prostraton',
+				],
+				'prostrations'=>[
+					'prostratoins',
+					'prostratons',
+				],
+				'prostyle'=>[
+					'prstyle',
 				],
 				'prosy'=>[
 					'procy',
 				],
 				'protactinium'=>[
 					'protactinaum',
+					'protactinuim',
 				],
 				'protactiniums'=>[
 					'protactinaums',
@@ -14606,6 +23887,26 @@
 				],
 				'protamine'=>[
 					'proteamine',
+				],
+				'protanopia'=>[
+					'protanopai',
+				],
+				'protanopias'=>[
+					'protanopais',
+				],
+				'protean'=>[
+					'protaen',
+				],
+				'proteanism'=>[
+					'protaenism',
+				],
+				'protease'=>[
+					'proease',
+					'protaese',
+					'prtease',
+				],
+				'proteases'=>[
+					'protaeses',
 				],
 				'proteasomal'=>[
 					'proteosomal',
@@ -14630,6 +23931,24 @@
 				],
 				'protection'=>[
 					'protettion',
+					'protectoin',
+					'protecton',
+				],
+				'protectionism'=>[
+					'protectoinism',
+					'protectonism',
+				],
+				'protectionist'=>[
+					'protectoinist',
+					'protectonist',
+				],
+				'protectionists'=>[
+					'protectoinists',
+					'protectonists',
+				],
+				'protections'=>[
+					'protectoins',
+					'protectons',
 				],
 				'protectively'=>[
 					'protectivly',
@@ -14637,6 +23956,10 @@
 				'protectiveness'=>[
 					'protectivenes',
 					'protectivenesss',
+				],
+				'protectorships'=>[
+					'protectorhips',
+					'protectorsips',
 				],
 				'protectress'=>[
 					'protectres',
@@ -14647,6 +23970,9 @@
 				'proteid'=>[
 					'protied',
 				],
+				'proteiform'=>[
+					'protieform',
+				],
 				'protein'=>[
 					'protien',
 				],
@@ -14654,10 +23980,18 @@
 					'proteiniceous',
 					'protienaceous',
 					'proteinacious',
+					'proteinaceuos',
+					'proteinacoeus',
 				],
 				'proteinase'=>[
 					'proteinise',
 					'protienase',
+				],
+				'proteinases'=>[
+					'protienases',
+				],
+				'proteins'=>[
+					'protiens',
 				],
 				'proteinuria'=>[
 					'protienuria',
@@ -14670,33 +24004,86 @@
 					'progeoglycan',
 					'protoglycan',
 				],
+				'proteolyses'=>[
+					'protoelyses',
+				],
+				'proteolysis'=>[
+					'protoelysis',
+				],
+				'proteose'=>[
+					'protoese',
+				],
 				'proteosome'=>[
 					'proteostome',
 				],
 				'proteostasis'=>[
 					'proteoastasis',
 				],
+				'proterozoic'=>[
+					'proterozioc',
+				],
 				'protest'=>[
 					'proteft',
+					'proest',
+					'prtest',
+				],
+				'protestant'=>[
+					'protestent',
 				],
 				'protestants'=>[
 					'proteftants',
+					'protestents',
 				],
 				'protestation'=>[
 					'proteftation',
+					'protestatoin',
+					'protestaton',
+				],
+				'protestations'=>[
+					'protestatoins',
+					'protestatons',
 				],
 				'protested'=>[
 					'protefted',
+					'proested',
+					'prtested',
 				],
 				'protesting'=>[
 					'protefting',
+					'proesting',
+					'prtesting',
+				],
+				'protests'=>[
+					'proests',
+					'prtests',
+				],
+				'proteus'=>[
+					'protues',
+				],
+				'prothalamion'=>[
+					'prothalamoin',
+					'prothalamon',
+				],
+				'prothalamium'=>[
+					'prothalamuim',
 				],
 				'prothallus'=>[
 					'prothalllus',
 					'prothalus',
 				],
+				'prothesis'=>[
+					'prohesis',
+					'prthesis',
+				],
 				'prothonotary'=>[
 					'prothonotery',
+				],
+				'protium'=>[
+					'protuim',
+				],
+				'protoactinium'=>[
+					'protaoctinium',
+					'protoactinuim',
 				],
 				'protocerebrum'=>[
 					'protocerebron',
@@ -14710,6 +24097,9 @@
 				'protohistorian'=>[
 					'protohistoran',
 				],
+				'protohistories'=>[
+					'protohistoreis',
+				],
 				'protolanguage'=>[
 					'protolangauge',
 				],
@@ -14722,8 +24112,16 @@
 				'proton'=>[
 					'protron',
 				],
+				'protonic'=>[
+					'proonic',
+					'prtonic',
+				],
 				'protonotary'=>[
 					'protonotery',
+				],
+				'protons'=>[
+					'proons',
+					'prtons',
 				],
 				'protoplanetary'=>[
 					'protoplanetery',
@@ -14739,12 +24137,30 @@
 				'protostar'=>[
 					'protoster',
 				],
+				'prototherian'=>[
+					'prototherain',
+				],
 				'prototypical'=>[
 					'protypical',
 				],
 				'prototypically'=>[
 					'prototypicallly',
 					'prototypicaly',
+				],
+				'protozoa'=>[
+					'protozao',
+				],
+				'protozoal'=>[
+					'protozaol',
+				],
+				'protozoan'=>[
+					'protozaon',
+				],
+				'protozoans'=>[
+					'protozaons',
+				],
+				'protozoic'=>[
+					'protozioc',
 				],
 				'protozoology'=>[
 					'protozology',
@@ -14754,6 +24170,20 @@
 					'protozon',
 					'protozooon',
 				],
+				'protract'=>[
+					'proract',
+					'prtract',
+				],
+				'protraction'=>[
+					'proraction',
+					'protractoin',
+					'protracton',
+					'prtraction',
+				],
+				'protractor'=>[
+					'proractor',
+					'prtractor',
+				],
 				'protrusible'=>[
 					'protruisble',
 					'protrusable',
@@ -14762,9 +24192,13 @@
 				'protrusion'=>[
 					'protruison',
 					'protusion',
+					'protrusoin',
+					'protruson',
 				],
 				'protrusions'=>[
 					'protruisons',
+					'protrusoins',
+					'protrusons',
 				],
 				'protrusive'=>[
 					'protruisve',
@@ -14782,6 +24216,10 @@
 				],
 				'protuberances'=>[
 					'protruberances',
+					'protuberences',
+				],
+				'protuberancy'=>[
+					'protuberency',
 				],
 				'protuberant'=>[
 					'protuberent',
@@ -14792,19 +24230,43 @@
 					'protuberantaly',
 					'protuberantely',
 					'protuberantlly',
+					'protuberently',
 				],
 				'protumorigenic'=>[
 					'protumorgenic',
 				],
 				'proud'=>[
 					'prond',
+					'pruod',
+				],
+				'prouder'=>[
+					'pruoder',
+				],
+				'proudest'=>[
+					'pruodest',
 				],
 				'proudhonian'=>[
 					'proudbonian',
 				],
+				'proudly'=>[
+					'pruodly',
+				],
 				'proudness'=>[
 					'proudnes',
 					'proudnesss',
+					'pruodness',
+				],
+				'proustite'=>[
+					'pruostite',
+				],
+				'provability'=>[
+					'provibility',
+				],
+				'provable'=>[
+					'provible',
+				],
+				'provably'=>[
+					'provibly',
 				],
 				'provascular'=>[
 					'provasculer',
@@ -14820,6 +24282,9 @@
 				'provenance'=>[
 					'provenence',
 				],
+				'provenances'=>[
+					'provenences',
+				],
 				'provenience'=>[
 					'proveneince',
 					'proveniance',
@@ -14828,9 +24293,23 @@
 				'proventriculus'=>[
 					'provantriculus',
 				],
+				'proverb'=>[
+					'proerb',
+					'prverb',
+				],
+				'proverbial'=>[
+					'proverbail',
+				],
+				'proverbiality'=>[
+					'proverbaility',
+				],
 				'proverbially'=>[
 					'proverbiallly',
 					'proverbialy',
+					'proverbailly',
+				],
+				'providable'=>[
+					'providible',
 				],
 				'provide'=>[
 					'provdes',
@@ -14844,19 +24323,25 @@
 				'providence'=>[
 					'providance',
 				],
+				'providences'=>[
+					'providances',
+				],
 				'provident'=>[
 					'providant',
 				],
 				'providential'=>[
 					'providantial',
+					'providentail',
 				],
 				'providentially'=>[
 					'providantially',
 					'providentiallly',
 					'providentialy',
+					'providentailly',
 				],
 				'providently'=>[
 					'providantly',
+					'providentely',
 				],
 				'provider'=>[
 					'providor',
@@ -14868,29 +24353,103 @@
 				'province'=>[
 					'prov- ince',
 					'proviiice',
+					'proince',
+					'prvince',
+				],
+				'provincial'=>[
+					'provincail',
+				],
+				'provincialism'=>[
+					'provincailism',
+				],
+				'provincialist'=>[
+					'provincailist',
+				],
+				'provinciality'=>[
+					'provincaility',
+				],
+				'provincialization'=>[
+					'provincailization',
+					'provincializatoin',
+					'provincializaton',
 				],
 				'provincially'=>[
 					'provinciallly',
 					'provincialy',
+					'provincailly',
+				],
+				'provincials'=>[
+					'provincails',
 				],
 				'provision'=>[
 					'provifion',
+					'proision',
+					'provisoin',
+					'provison',
+					'prvision',
+				],
+				'provisional'=>[
+					'provisoinal',
+					'provisonal',
+				],
+				'provisionality'=>[
+					'provisoinality',
 				],
 				'provisionally'=>[
 					'provisionallly',
 					'provisionaly',
+					'provisoinally',
+					'provisonally',
 				],
 				'provisionary'=>[
 					'provisionery',
 				],
+				'provisioned'=>[
+					'provisiond',
+					'provisoined',
+					'provisoned',
+				],
+				'provisioner'=>[
+					'provisoiner',
+				],
+				'provisioners'=>[
+					'provisoiners',
+				],
+				'provisioning'=>[
+					'provisoining',
+					'provisoning',
+				],
 				'provisions'=>[
 					'provifions',
+					'proisions',
+					'provisoins',
+					'provisons',
+					'prvisions',
+				],
+				'provisoes'=>[
+					'proviseos',
+				],
+				'provitamin'=>[
+					'proitamin',
+					'prvitamin',
 				],
 				'provocateur'=>[
 					'provocater',
+					'provocatuer',
+				],
+				'provocateurs'=>[
+					'provocatuers',
 				],
 				'provocation'=>[
 					'provacation',
+					'proocation',
+					'provocatoin',
+					'provocaton',
+					'prvocation',
+				],
+				'provocations'=>[
+					'provocatoins',
+					'provocatons',
 				],
 				'provocatively'=>[
 					'provocativly',
@@ -14903,11 +24462,18 @@
 					'prowes',
 					'prowesss',
 				],
+				'proxies'=>[
+					'proxeis',
+				],
 				'proximally'=>[
 					'proximallly',
 				],
 				'proximately'=>[
 					'proximatly',
+				],
+				'proximation'=>[
+					'proximatoin',
+					'proximaton',
 				],
 				'proximity'=>[
 					'promity',
@@ -14921,11 +24487,13 @@
 				],
 				'prudential'=>[
 					'prudantial',
+					'prudentail',
 				],
 				'prudentially'=>[
 					'prudantially',
 					'prudentiallly',
 					'prudentialy',
+					'prudentailly',
 				],
 				'prudently'=>[
 					'prudantly',
@@ -14934,12 +24502,21 @@
 					'prudentely',
 					'prudentlly',
 				],
+				'prudery'=>[
+					'prudary',
+				],
 				'prudishness'=>[
 					'prudishnes',
 					'prudishnesss',
 				],
+				'pruinose'=>[
+					'priunose',
+				],
 				'prunable'=>[
 					'prunible',
+				],
+				'pruned'=>[
+					'prund',
 				],
 				'prunella'=>[
 					'prunela',
@@ -14951,6 +24528,7 @@
 				],
 				'prurience'=>[
 					'pruriance',
+					'prureince',
 				],
 				'pruriency'=>[
 					'pruriensy',
@@ -14959,6 +24537,11 @@
 					'prureint',
 					'pruriant',
 					'prurint',
+				],
+				'pruriently'=>[
+					'prureintly',
+					'pruriantly',
+					'prurientely',
 				],
 				'pruritogen'=>[
 					'puritogen',
@@ -14972,6 +24555,7 @@
 				'prussiate'=>[
 					'prusiate',
 					'prusssiate',
+					'prussaite',
 				],
 				'prussic'=>[
 					'prusic',
@@ -14980,9 +24564,25 @@
 				'prutah'=>[
 					'pruta',
 				],
+				'prytaneum'=>[
+					'prytanuem',
+				],
 				'psalmbook'=>[
 					'psalmbok',
 					'psalmboook',
+				],
+				'psalmodies'=>[
+					'psalmodeis',
+				],
+				'psalteria'=>[
+					'psalterai',
+				],
+				'psalteries'=>[
+					'psaltaries',
+					'psaltereis',
+				],
+				'psalterium'=>[
+					'psalteruim',
 				],
 				'psaltery'=>[
 					'psaltary',
@@ -15000,17 +24600,42 @@
 					'psephologicallly',
 					'psephologicaly',
 				],
+				'pseudaxis'=>[
+					'psuedaxis',
+				],
+				'pseudepigrapha'=>[
+					'psuedepigrapha',
+				],
+				'pseudepigraphal'=>[
+					'psuedepigraphal',
+				],
+				'pseudepigraphic'=>[
+					'psuedepigraphic',
+				],
 				'pseudo'=>[
 					'psuedo',
 				],
 				'pseudo-'=>[
 					'psuedo-',
 				],
+				'pseudocarp'=>[
+					'psuedocarp',
+				],
 				'pseudocoelom'=>[
 					'pseudocoelum',
 				],
 				'pseudogenization'=>[
 					'pseudonization',
+				],
+				'pseudohemophilia'=>[
+					'pseudohemophilai',
+					'psuedohemophilia',
+				],
+				'pseudohermaphrodite'=>[
+					'psuedohermaphrodite',
+				],
+				'pseudohermaphroditism'=>[
+					'psuedohermaphroditism',
 				],
 				'pseudomorph'=>[
 					'pseudomourph',
@@ -15035,8 +24660,13 @@
 					'psuedonim',
 					'psuedonym',
 				],
+				'pseudonymity'=>[
+					'psuedonymity',
+				],
 				'pseudonymous'=>[
 					'pseudononymous',
+					'pseudonymuos',
+					'psuedonymous',
 				],
 				'pseudonymously'=>[
 					'pseudonymousally',
@@ -15051,11 +24681,21 @@
 				'pseudophakic'=>[
 					'psuedophakic',
 				],
+				'pseudopod'=>[
+					'psuedopod',
+				],
+				'pseudopodia'=>[
+					'pseudopodai',
+					'psuedopodia',
+				],
 				'pseudopregnancy'=>[
 					'pseudopregnansy',
 				],
 				'pseudoprogression'=>[
 					'psuedoprogression',
+				],
+				'pseudos'=>[
+					'psuedos',
 				],
 				'pseudoscience'=>[
 					'pseudocience',
@@ -15064,16 +24704,25 @@
 					'pseudosciance',
 					'pseudoscince',
 					'pseudosience',
+					'psuedoscience',
 				],
 				'pseudosciences'=>[
 					'pseudociences',
 					'pseudocsiences',
 					'pseudosiences',
+					'pseudosceinces',
+					'pseudosciances',
+					'psuedosciences',
 				],
 				'pseudoscientist'=>[
 					'pseudocientist',
 					'pseudocsientist',
 					'pseudosientist',
+				],
+				'pseudoscope'=>[
+					'pseudocope',
+					'pseudosope',
+					'psuedoscope',
 				],
 				'pseudoscorpion'=>[
 					'pseudocorpion',
@@ -15089,6 +24738,12 @@
 				'pseudosubstrate'=>[
 					'psuedosubstrate',
 				],
+				'pseuds'=>[
+					'psueds',
+				],
+				'pseudy'=>[
+					'psuedy',
+				],
 				'psilocybin'=>[
 					'psilocibin',
 					'psylocybin',
@@ -15102,11 +24757,23 @@
 					'psitacosis',
 					'psitttacosis',
 				],
+				'psoas'=>[
+					'psaos',
+				],
+				'psoriasis'=>[
+					'psoraisis',
+				],
 				'psoriatic'=>[
 					'psoriasic',
 				],
 				'psst'=>[
 					'pst',
+				],
+				'psychasthenia'=>[
+					'psychasthenai',
+				],
+				'psychedelia'=>[
+					'psychedelai',
 				],
 				'psychedelic'=>[
 					'psychadelic',
@@ -15118,11 +24785,23 @@
 					'psychedelicallly',
 					'psychedelicaly',
 				],
+				'psychiatric'=>[
+					'psychaitric',
+				],
 				'psychiatrically'=>[
 					'psychiatricalally',
 					'psychiatricalaly',
 					'psychiatricalely',
 					'psychiatricallly',
+				],
+				'psychiatrist'=>[
+					'psychaitrist',
+				],
+				'psychiatrists'=>[
+					'psychaitrists',
+				],
+				'psychiatry'=>[
+					'psychaitry',
 				],
 				'psychic'=>[
 					'psyhic',
@@ -15135,9 +24814,51 @@
 				'psycho'=>[
 					'pyscho',
 				],
+				'psychoactive'=>[
+					'psychactive',
+					'psychaoctive',
+					'psychoctive',
+				],
+				'psychoanalysis'=>[
+					'psychaonalysis',
+					'psychonalysis',
+				],
+				'psychoanalyst'=>[
+					'psychaonalyst',
+					'psychonalyst',
+				],
+				'psychoanalysts'=>[
+					'psychaonalysts',
+					'psychonalysts',
+				],
+				'psychoanalytic'=>[
+					'psychaonalytic',
+				],
+				'psychoanalytical'=>[
+					'psychaonalytical',
+				],
 				'psychoanalytically'=>[
 					'psychoanalyticallly',
 					'psychoanalyticaly',
+					'psychaonalytically',
+				],
+				'psychoanalyze'=>[
+					'psychanalyze',
+					'psychaonalyze',
+					'psychonalyze',
+				],
+				'psychoanalyzed'=>[
+					'psychanalyzed',
+					'psychaonalyzed',
+					'psychonalyzed',
+				],
+				'psychoanalyzes'=>[
+					'psychaonalyzes',
+				],
+				'psychoanalyzing'=>[
+					'psychanalyzing',
+					'psychaonalyzing',
+					'psychonalyzing',
 				],
 				'psychobabble'=>[
 					'psychobable',
@@ -15152,6 +24873,51 @@
 				'psychobabbles'=>[
 					'psychobables',
 				],
+				'psychobiological'=>[
+					'psychbiological',
+					'psychoboilogical',
+					'psychoiological',
+				],
+				'psychobiologist'=>[
+					'psychbiologist',
+					'psychoboilogist',
+					'psychoiologist',
+				],
+				'psychobiology'=>[
+					'psychbiology',
+					'psychoboilogy',
+					'psychoiology',
+				],
+				'psychochemical'=>[
+					'psychchemical',
+					'psychohemical',
+				],
+				'psychodiagnosis'=>[
+					'psychdiagnosis',
+					'psychodaignosis',
+					'psychoiagnosis',
+				],
+				'psychodiagnostics'=>[
+					'psychdiagnostics',
+					'psychodaignostics',
+					'psychoiagnostics',
+				],
+				'psychodrama'=>[
+					'psychdrama',
+					'psychorama',
+				],
+				'psychodramatic'=>[
+					'psychdramatic',
+					'psychoramatic',
+				],
+				'psychodynamics'=>[
+					'psychdynamics',
+					'psychoynamics',
+				],
+				'psychogenesis'=>[
+					'psychgenesis',
+					'psychoenesis',
+				],
 				'psychogenically'=>[
 					'psychogenicalally',
 					'psychogenicalaly',
@@ -15165,9 +24931,24 @@
 				'psychokinesis'=>[
 					'psychokinisis',
 				],
+				'psychokinetic'=>[
+					'psychkinetic',
+					'psychoinetic',
+				],
+				'psycholinguistic'=>[
+					'psycholingiustic',
+				],
+				'psycholinguistics'=>[
+					'psycholingiustics',
+				],
+				'psycholinguists'=>[
+					'psycholingiusts',
+				],
 				'psychological'=>[
 					'psyschological',
 					'pyschological',
+					'psychlogical',
+					'psychoogical',
 				],
 				'psychologically'=>[
 					'psychologicalally',
@@ -15176,20 +24957,97 @@
 					'psychologicallly',
 					'psychologicaly',
 				],
+				'psychologies'=>[
+					'psychologeis',
+				],
 				'psychology'=>[
 					'psycology',
 					'psyschology',
 					'pyschology',
 				],
+				'psychomancy'=>[
+					'psychomency',
+				],
+				'psychometric'=>[
+					'psychmetric',
+					'psychoetric',
+				],
 				'psychometrician'=>[
 					'psychometrican',
+					'psychometricain',
+				],
+				'psychometries'=>[
+					'psychometreis',
+				],
+				'psychomotor'=>[
+					'psychmotor',
+					'psychootor',
+				],
+				'psychoneuroses'=>[
+					'psychonueroses',
+				],
+				'psychoneurosis'=>[
+					'psychonuerosis',
+				],
+				'psychoneurotic'=>[
+					'psychneurotic',
+					'psychoeurotic',
+					'psychonuerotic',
+				],
+				'psychoneurotics'=>[
+					'psychonuerotics',
+				],
+				'psychopath'=>[
+					'psychoath',
+					'psychpath',
 				],
 				'psychopathically'=>[
 					'psychopathicallly',
 					'psychopathicaly',
 				],
+				'psychopathological'=>[
+					'psychoathological',
+					'psychpathological',
+				],
+				'psychopathologies'=>[
+					'psychopathologeis',
+				],
+				'psychopathologist'=>[
+					'psychoathologist',
+					'psychpathologist',
+				],
+				'psychopathology'=>[
+					'psychoathology',
+					'psychpathology',
+				],
+				'psychopaths'=>[
+					'psychoaths',
+					'psychpaths',
+				],
+				'psychophysics'=>[
+					'psychohysics',
+					'psychphysics',
+				],
+				'psychophysiologic'=>[
+					'psychophysoilogic',
+				],
+				'psychophysiological'=>[
+					'psychohysiological',
+					'psychophysoilogical',
+					'psychphysiological',
+				],
+				'psychophysiologist'=>[
+					'psychophysoilogist',
+				],
+				'psychophysiology'=>[
+					'psychohysiology',
+					'psychophysoilogy',
+					'psychphysiology',
+				],
 				'psychosexual'=>[
 					'psychosexaul',
+					'psychoexual',
+					'psychsexual',
 				],
 				'psychosexuality'=>[
 					'psychosexaulity',
@@ -15201,6 +25059,11 @@
 					'psychosexualely',
 					'psychosexuallly',
 				],
+				'psychosocial'=>[
+					'psychoocial',
+					'psychosocail',
+					'psychsocial',
+				],
 				'psychosomatic'=>[
 					'pyschosomatic',
 				],
@@ -15210,6 +25073,31 @@
 				],
 				'psychostimulant'=>[
 					'phychostimulant',
+				],
+				'psychosurgery'=>[
+					'psychosurgary',
+					'psychourgery',
+					'psychsurgery',
+				],
+				'psychotechnology'=>[
+					'psychoechnology',
+					'psychtechnology',
+				],
+				'psychotherapeutic'=>[
+					'psychoherapeutic',
+					'psychotherapuetic',
+					'psychtherapeutic',
+				],
+				'psychotherapies'=>[
+					'psychotherapeis',
+				],
+				'psychotherapist'=>[
+					'psychoherapist',
+					'psychtherapist',
+				],
+				'psychotherapy'=>[
+					'psychoherapy',
+					'psychtherapy',
 				],
 				'psychotically'=>[
 					'psychoticallly',
@@ -15225,13 +25113,31 @@
 				'pterodactyl'=>[
 					'terodactyl',
 				],
+				'pterosaur'=>[
+					'pterosuar',
+				],
+				'pterosaurs'=>[
+					'pterosuars',
+				],
+				'ptomaine'=>[
+					'ptomiane',
+				],
+				'ptomaines'=>[
+					'ptomianes',
+				],
+				'puberulent'=>[
+					'puberulant',
+				],
 				'pubescence'=>[
 					'pubescance',
+					'pubecence',
+					'pubesence',
 				],
 				'pubescent'=>[
 					'pubecent',
 					'pubecsent',
 					'pubesent',
+					'pubescant',
 				],
 				'pubic hair'=>[
 					'public hair',
@@ -15248,6 +25154,12 @@
 				],
 				'publication'=>[
 					'pubhcation',
+					'publicatoin',
+					'publicaton',
+				],
+				'publications'=>[
+					'publicatoins',
+					'publicatons',
 				],
 				'publicly'=>[
 					'publically',
@@ -15267,6 +25179,9 @@
 					'publsh',
 					'publifh',
 					'publisli',
+				],
+				'publishable'=>[
+					'publishible',
 				],
 				'published'=>[
 					'publisbed',
@@ -15297,6 +25212,12 @@
 				],
 				'puck'=>[
 					'piick',
+				],
+				'puckered'=>[
+					'puckerd',
+				],
+				'puckery'=>[
+					'puckary',
 				],
 				'puckishness'=>[
 					'puckishnes',
@@ -15331,15 +25252,42 @@
 				'pudency'=>[
 					'pudensy',
 				],
+				'pudgier'=>[
+					'pudgeir',
+				],
+				'pudgiest'=>[
+					'pudgeist',
+				],
 				'pudginess'=>[
 					'pudgines',
 					'pudginesss',
 				],
+				'pueblo'=>[
+					'peublo',
+				],
+				'pueblos'=>[
+					'peublos',
+				],
 				'puerile'=>[
 					'purile',
+					'peurile',
 				],
 				'puerilely'=>[
 					'puerilly',
+					'peurilely',
+				],
+				'puerilism'=>[
+					'peurilism',
+				],
+				'puerility'=>[
+					'peurility',
+				],
+				'puerperal'=>[
+					'peurperal',
+				],
+				'puerperium'=>[
+					'peurperium',
+					'puerperuim',
 				],
 				'puerto rican'=>[
 					'puertorican',
@@ -15360,12 +25308,14 @@
 					'puffbal',
 					'puffballl',
 					'pufffball',
+					'puffall',
 				],
 				'puffballs'=>[
 					'pufballs',
 					'puffballls',
 					'puffbals',
 					'pufffballs',
+					'puffalls',
 				],
 				'puffed'=>[
 					'pufed',
@@ -15382,14 +25332,17 @@
 				'puffery'=>[
 					'pufery',
 					'pufffery',
+					'puffary',
 				],
 				'puffier'=>[
 					'pufffier',
 					'pufier',
+					'puffeir',
 				],
 				'puffiest'=>[
 					'pufffiest',
 					'pufiest',
+					'puffeist',
 				],
 				'puffin'=>[
 					'pufffin',
@@ -15445,29 +25398,48 @@
 				],
 				'pugnacious'=>[
 					'pugnacous',
+					'pugnaciuos',
+					'pugnacoius',
 				],
 				'pugnaciously'=>[
 					'pugnacously',
+					'pugnaciousely',
+					'pugnaciuosly',
+					'pugnacoiusly',
 				],
 				'pugnaciousness'=>[
 					'pugnaciousnes',
 					'pugnaciousnesss',
+					'pugnaciuosness',
+					'pugnacoiusness',
+					'pugnacousness',
+				],
+				'puisne'=>[
+					'piusne',
 				],
 				'puissance'=>[
 					'puissence',
 					'puisance',
 					'puisssance',
+					'piussance',
 				],
 				'puissances'=>[
 					'puisances',
 					'puisssances',
+					'piussances',
+					'puissences',
 				],
 				'puissant'=>[
 					'puisssant',
+					'piussant',
+					'puissent',
 				],
 				'puissantly'=>[
 					'puisantly',
 					'puisssantly',
+					'piussantly',
+					'puissantely',
+					'puissently',
 				],
 				'pujah'=>[
 					'puja',
@@ -15478,6 +25450,9 @@
 				'pukka'=>[
 					'pukkka',
 				],
+				'pulchritudinous'=>[
+					'pulchritudinuos',
+				],
 				'pull'=>[
 					'pul',
 					'pull pull',
@@ -15487,10 +25462,12 @@
 				'pullback'=>[
 					'pulback',
 					'pulllback',
+					'pullack',
 				],
 				'pullbacks'=>[
 					'pulbacks',
 					'pulllbacks',
+					'pullacks',
 				],
 				'pulled'=>[
 					'pullled',
@@ -15527,14 +25504,18 @@
 				'pullout'=>[
 					'pulout',
 					'pulllout',
+					'pulluot',
 				],
 				'pullouts'=>[
 					'pulllouts',
 					'pulouts',
+					'pulluots',
+					'pulluts',
 				],
 				'pullover'=>[
 					'pulover',
 					'pulllover',
+					'pullver',
 				],
 				'pullovers'=>[
 					'pulllovers',
@@ -15562,10 +25543,14 @@
 				'pullulation'=>[
 					'pulllulation',
 					'pululation',
+					'pullulatoin',
+					'pullulaton',
 				],
 				'pullulations'=>[
 					'pulllulations',
 					'pululations',
+					'pullulatoins',
+					'pullulatons',
 				],
 				'pullup'=>[
 					'pulllup',
@@ -15578,6 +25563,17 @@
 				'pulmonary'=>[
 					'pulmonery',
 				],
+				'pulpboard'=>[
+					'pulboard',
+					'pulpbaord',
+					'pulpoard',
+				],
+				'pulpier'=>[
+					'pulpeir',
+				],
+				'pulpiest'=>[
+					'pulpeist',
+				],
 				'pulpiness'=>[
 					'pulpines',
 					'pulpinesss',
@@ -15588,6 +25584,14 @@
 				'pulpwood'=>[
 					'pulpwod',
 					'pulpwoood',
+					'pulpood',
+					'pulwood',
+				],
+				'pulque'=>[
+					'pulqeu',
+				],
+				'pulques'=>[
+					'pulqeus',
 				],
 				'pulsar'=>[
 					'pulser',
@@ -15595,8 +25599,26 @@
 				'pulsatility'=>[
 					'pulsitility',
 				],
+				'pulsation'=>[
+					'pulsatoin',
+					'pulsaton',
+				],
+				'pulsations'=>[
+					'pulsatoins',
+					'pulsatons',
+				],
 				'pulse-beat'=>[
 					'pulsebeat',
+				],
+				'pulverable'=>[
+					'pulverible',
+				],
+				'pulverization'=>[
+					'pulverizatoin',
+					'pulverizaton',
+				],
+				'pulverulent'=>[
+					'pulverulant',
 				],
 				'pulvillar'=>[
 					'pulviller',
@@ -15652,37 +25674,85 @@
 				],
 				'pumpkinseed'=>[
 					'pumpkinseeed',
+					'pumpkineed',
+					'pumpkiseed',
 				],
 				'pumpkinseeds'=>[
 					'pumpkinseds',
 					'pumpkinseeeds',
+					'pumpkineeds',
+					'pumpkiseeds',
 				],
 				'punaglandin'=>[
 					'puniglandin',
 				],
+				'punchbags'=>[
+					'puncbags',
+					'punchags',
+				],
 				'punchball'=>[
 					'punchbal',
 					'punchballl',
+					'puncball',
+					'punchall',
 				],
 				'punchballs'=>[
 					'punchballls',
 					'punchbals',
+					'puncballs',
+					'punchalls',
+				],
+				'punchboard'=>[
+					'puncboard',
+					'punchbaord',
+					'punchoard',
+				],
+				'punchbowl'=>[
+					'puncbowl',
+					'punchowl',
 				],
 				'punched-paper rolls'=>[
 					'punched paper rolls',
 				],
+				'puncheon'=>[
+					'punchoen',
+				],
+				'puncheons'=>[
+					'punceons',
+					'punchoens',
+					'punchons',
+				],
 				'punches'=>[
 					'punchs',
+				],
+				'punchier'=>[
+					'puncheir',
+				],
+				'punchiest'=>[
+					'puncheist',
 				],
 				'punchinello'=>[
 					'punchinelllo',
 					'punchinelo',
 				],
+				'punchline'=>[
+					'punchine',
+					'puncline',
+				],
+				'punchlines'=>[
+					'punchines',
+					'punclines',
+				],
 				'punctiform'=>[
 					'ponctiform',
 				],
+				'punctilio'=>[
+					'punctiloi',
+				],
 				'punctilious'=>[
 					'punctilous',
+					'punctiliuos',
+					'punctiloius',
 				],
 				'punctiliously'=>[
 					'punctiliousally',
@@ -15690,10 +25760,15 @@
 					'punctiliousely',
 					'punctiliouslly',
 					'punctilously',
+					'punctiliuosly',
+					'punctiloiusly',
 				],
 				'punctiliousness'=>[
 					'punctiliousnes',
 					'punctiliousnesss',
+					'punctiliuosness',
+					'punctiloiusness',
+					'punctilousness',
 				],
 				'punctual'=>[
 					'punctaul',
@@ -15701,33 +25776,68 @@
 				'punctualities'=>[
 					'punctaulities',
 				],
+				'punctuality'=>[
+					'punctaulity',
+				],
 				'punctually'=>[
 					'punctuallly',
 					'punctualy',
+					'punctaully',
 				],
 				'punctuate'=>[
 					'punctaute',
 				],
+				'punctuated'=>[
+					'punctauted',
+				],
+				'punctuates'=>[
+					'punctautes',
+				],
+				'punctuating'=>[
+					'punctauting',
+				],
 				'punctuation'=>[
 					'punctaution',
+					'punctuatoin',
+					'punctuaton',
 				],
 				'punctuations'=>[
 					'punctautions',
+					'punctuatoins',
+					'punctuatons',
+				],
+				'punctured'=>[
+					'puncturd',
 				],
 				'pungency'=>[
 					'pungensy',
+					'pungancy',
 				],
 				'pungent'=>[
 					'pungant',
+					'pugent',
+					'punent',
 				],
 				'pungently'=>[
 					'pungentally',
 					'pungentaly',
 					'pungentely',
 					'pungentlly',
+					'pugently',
+					'punently',
+					'pungantly',
 				],
 				'punicalagin'=>[
 					'punicalgin',
+				],
+				'punier'=>[
+					'puneir',
+				],
+				'puniest'=>[
+					'puneist',
+				],
+				'punily'=>[
+					'punly',
 				],
 				'puniness'=>[
 					'punines',
@@ -15740,6 +25850,7 @@
 				],
 				'punishable'=>[
 					'punifhable',
+					'punishible',
 				],
 				'punished'=>[
 					'pniiished',
@@ -15762,6 +25873,7 @@
 				],
 				'punishments'=>[
 					'punifhments',
+					'punishmants',
 				],
 				'punitively'=>[
 					'punitivly',
@@ -15775,6 +25887,12 @@
 				],
 				'punkahs'=>[
 					'punkas',
+				],
+				'punkie'=>[
+					'punkei',
+				],
+				'punkies'=>[
+					'punkeis',
 				],
 				'punned'=>[
 					'puned',
@@ -15811,11 +25929,15 @@
 				'punting'=>[
 					'piinting',
 				],
+				'pupae'=>[
+					'pupea',
+				],
 				'puparia'=>[
 					'puperia',
 				],
 				'puparium'=>[
 					'puperium',
+					'puparuim',
 				],
 				'pupilar'=>[
 					'pupiler',
@@ -15832,6 +25954,9 @@
 				],
 				'pupilled'=>[
 					'pupiled',
+				],
+				'pupiparous'=>[
+					'pupiparuos',
 				],
 				'pupped'=>[
 					'puped',
@@ -15869,6 +25994,7 @@
 				'puppies'=>[
 					'pupies',
 					'pupppies',
+					'puppeis',
 				],
 				'pupping'=>[
 					'puppping',
@@ -15925,6 +26051,10 @@
 				'pure'=>[
 					'piire',
 				],
+				'purebred'=>[
+					'purbred',
+					'purebrd',
+				],
 				'puree'=>[
 					'pureee',
 				],
@@ -15933,9 +26063,13 @@
 				],
 				'pureeing'=>[
 					'pureeeing',
+					'pureieng',
 				],
 				'purees'=>[
 					'pureees',
+				],
+				'purehearted'=>[
+					'purehaerted',
 				],
 				'purely'=>[
 					'purly',
@@ -15943,6 +26077,36 @@
 				'pureness'=>[
 					'purenes',
 					'purenesss',
+				],
+				'purgation'=>[
+					'purgatoin',
+					'purgaton',
+				],
+				'purgations'=>[
+					'purgatoins',
+					'purgatons',
+				],
+				'purgatorial'=>[
+					'purgatorail',
+				],
+				'purgatories'=>[
+					'purgatoreis',
+				],
+				'purification'=>[
+					'purificatoin',
+					'purificaton',
+				],
+				'purified'=>[
+					'purifeid',
+				],
+				'purifier'=>[
+					'purifeir',
+				],
+				'purifiers'=>[
+					'purifeirs',
+				],
+				'purifies'=>[
+					'purifeis',
 				],
 				'purine'=>[
 					'purini',
@@ -15957,11 +26121,40 @@
 					'puritanicallly',
 					'puritanicaly',
 				],
+				'purities'=>[
+					'puriteis',
+				],
 				'purity'=>[
 					'pnrity',
 				],
+				'purlieu'=>[
+					'purleiu',
+					'purliue',
+				],
+				'purlieus'=>[
+					'purleius',
+					'purliues',
+				],
+				'purlieux'=>[
+					'purleiux',
+					'purliuex',
+				],
+				'purloin'=>[
+					'purlion',
+				],
+				'purloined'=>[
+					'purlioned',
+					'purloind',
+				],
+				'purloiner'=>[
+					'purlioner',
+				],
 				'purloining'=>[
 					'purloinang',
+					'purlioning',
+				],
+				'purloins'=>[
+					'purlions',
 				],
 				'purple'=>[
 					'pnrple',
@@ -15991,6 +26184,8 @@
 				'purposefully'=>[
 					'purposefuly',
 					'purposefullly',
+					'purposeully',
+					'purposfully',
 				],
 				'purposefulness'=>[
 					'purposefulnes',
@@ -16060,6 +26255,12 @@
 					'pnrse',
 					'purfe',
 				],
+				'pursier'=>[
+					'purseir',
+				],
+				'pursiest'=>[
+					'purseist',
+				],
 				'pursuance'=>[
 					'pursaunce',
 					'pursuence',
@@ -16075,21 +26276,39 @@
 					'pusrue',
 					'pnrsue',
 					'purfue',
+					'purseu',
 				],
 				'pursued'=>[
 					'purfued',
+					'purseud',
+				],
+				'pursuer'=>[
+					'purseur',
+				],
+				'pursuers'=>[
+					'purseurs',
+				],
+				'pursues'=>[
+					'purseus',
 				],
 				'pursuing'=>[
 					'persuing',
 					'pursing',
 					'purfuing',
+					'pursiung',
 				],
 				'pursuit'=>[
 					'persuit',
 					'purfuit',
+					'pursiut',
 				],
 				'pursuits'=>[
 					'purfuits',
+					'pursiuts',
+				],
+				'pursuivant'=>[
+					'pursiuvant',
+					'pursuivent',
 				],
 				'pursy'=>[
 					'purcy',
@@ -16122,18 +26341,60 @@
 				'pushball'=>[
 					'pushbal',
 					'pushballl',
+					'pusball',
+					'pushall',
 				],
 				'pushballs'=>[
 					'pushballls',
 					'pushbals',
+					'pusballs',
+					'pushalls',
+				],
+				'pushbike'=>[
+					'pusbike',
+					'pushike',
+				],
+				'pushbikes'=>[
+					'pusbikes',
+					'pushikes',
 				],
 				'pushbutton'=>[
 					'pushbuton',
 					'pushbuttton',
+					'pusbutton',
+					'pushutton',
+				],
+				'pushcart'=>[
+					'puscart',
+					'pushart',
+				],
+				'pushcarts'=>[
+					'puscarts',
+					'pusharts',
+				],
+				'pushchair'=>[
+					'puschair',
+					'pushchiar',
+					'pushhair',
+				],
+				'pushchairs'=>[
+					'puschairs',
+					'pushchiars',
+					'pushhairs',
 				],
 				'pushed'=>[
 					'pnshed',
 					'puslied',
+				],
+				'pushers'=>[
+					'puhers',
+					'pusers',
+				],
+				'pushier'=>[
+					'pusheir',
+				],
+				'pushiest'=>[
+					'pusheist',
 				],
 				'pushiness'=>[
 					'pushines',
@@ -16141,6 +26402,15 @@
 				],
 				'pushing'=>[
 					'pusliing',
+				],
+				'pushover'=>[
+					'puhover',
+					'pushver',
+					'pusover',
+				],
+				'pushpins'=>[
+					'pushins',
+					'puspins',
 				],
 				'pusillanimities'=>[
 					'puisllanimities',
@@ -16154,11 +26424,14 @@
 					'puisllanimous',
 					'pusilanimous',
 					'pusilllanimous',
+					'pusillanimuos',
 				],
 				'pusillanimously'=>[
 					'puisllanimously',
 					'pusilanimously',
 					'pusilllanimously',
+					'pusillanimousely',
+					'pusillanimuosly',
 				],
 				'puss'=>[
 					'pus',
@@ -16171,14 +26444,17 @@
 				'pussier'=>[
 					'pusier',
 					'pusssier',
+					'pusseir',
 				],
 				'pussies'=>[
 					'pusies',
 					'pusssies',
+					'pusseis',
 				],
 				'pussiest'=>[
 					'pusiest',
 					'pusssiest',
+					'pusseist',
 				],
 				'pussy'=>[
 					'puscy',
@@ -16193,12 +26469,15 @@
 				'pussycats'=>[
 					'pusssycats',
 					'pusycats',
+					'pussyats',
 				],
 				'pussyfoot'=>[
 					'pusssyfoot',
 					'pusyfoot',
 					'pussyfooot',
 					'pussyfot',
+					'pussfoot',
+					'pussyoot',
 				],
 				'pussyfooted'=>[
 					'pusssyfooted',
@@ -16211,6 +26490,8 @@
 					'pusyfooting',
 					'pussyfoooting',
 					'pussyfoting',
+					'pussfooting',
+					'pussyooting',
 				],
 				'pussyfoots'=>[
 					'pusssyfoots',
@@ -16229,6 +26510,10 @@
 				'put-ti put-ti'=>[
 					'putti putti',
 				],
+				'putamen'=>[
+					'puamen',
+					'putmen',
+				],
 				'putamina'=>[
 					'putamini',
 				],
@@ -16238,14 +26523,58 @@
 				'putatively'=>[
 					'putativly',
 				],
+				'putdown'=>[
+					'pudown',
+					'putown',
+				],
+				'putdowns'=>[
+					'pudowns',
+					'putowns',
+				],
+				'putout'=>[
+					'putuot',
+				],
+				'putouts'=>[
+					'puouts',
+					'putuots',
+					'pututs',
+				],
+				'putrefaction'=>[
+					'putrefactoin',
+					'putrefacton',
+				],
+				'putrefied'=>[
+					'putrefeid',
+				],
+				'putrefies'=>[
+					'putrefeis',
+				],
 				'putrescence'=>[
 					'putrescance',
+					'putrecence',
+					'putresence',
+				],
+				'putrescent'=>[
+					'putrecent',
+					'putrescant',
+					'putresent',
 				],
 				'putrescible'=>[
 					'putrescable',
+					'putrecible',
+					'putresible',
 				],
 				'putrescine'=>[
 					'putrescein',
+					'putrecine',
+					'putresine',
+				],
+				'putrescines'=>[
+					'putrecines',
+					'putresines',
+				],
+				'putridities'=>[
+					'putriditeis',
 				],
 				'putridness'=>[
 					'putridnes',
@@ -16262,6 +26591,10 @@
 					'putch',
 					'putcsh',
 					'putsh',
+				],
+				'putsches'=>[
+					'putches',
+					'putshes',
 				],
 				'putt'=>[
 					'puttt',
@@ -16287,6 +26620,7 @@
 				],
 				'puttered'=>[
 					'putttered',
+					'putterd',
 				],
 				'putterer'=>[
 					'puttterer',
@@ -16303,13 +26637,16 @@
 				],
 				'puttied'=>[
 					'putttied',
+					'putteid',
 				],
 				'puttier'=>[
 					'putttier',
+					'putteir',
 				],
 				'putties'=>[
 					'puties',
 					'puttties',
+					'putteis',
 				],
 				'putting'=>[
 					'puting',
@@ -16334,12 +26671,16 @@
 					'puttyrooot',
 					'puttyrot',
 					'putyroot',
+					'puttroot',
+					'puttyoot',
 				],
 				'puttyroots'=>[
 					'putttyroots',
 					'puttyrooots',
 					'puttyrots',
 					'putyroots',
+					'puttroots',
+					'puttyoots',
 				],
 				'puzzle'=>[
 					'puzle',
@@ -16352,6 +26693,7 @@
 				'puzzlement'=>[
 					'puzlement',
 					'puzzzlement',
+					'puzzlemant',
 				],
 				'puzzler'=>[
 					'puzler',
@@ -16377,11 +26719,30 @@
 					'pcynidiospore',
 					'picnidiospore',
 				],
+				'pycnidium'=>[
+					'pycniduim',
+				],
 				'pycnometry'=>[
 					'picnometry',
 				],
 				'pycnomorphic'=>[
 					'pyknomorphic',
+				],
+				'pyemia'=>[
+					'pyemai',
+				],
+				'pygidium'=>[
+					'pygiduim',
+				],
+				'pygmalion'=>[
+					'pygmaloin',
+					'pygmalon',
+				],
+				'pygmean'=>[
+					'pygmaen',
+				],
+				'pygmies'=>[
+					'pygmeis',
 				],
 				'pyknoses'=>[
 					'pykoses',
@@ -16404,13 +26765,18 @@
 				'pyogranulomatous'=>[
 					'pyrogranulomatous',
 				],
+				'pyoid'=>[
+					'pyiod',
+				],
 				'pyorrhea'=>[
 					'pyorhea',
 					'pyorrrhea',
+					'pyorrhae',
 				],
 				'pyorrheal'=>[
 					'pyorheal',
 					'pyorrrheal',
+					'pyorrhael',
 				],
 				'pyracantha'=>[
 					'pyracentha',
@@ -16425,6 +26791,12 @@
 				'pyramidically'=>[
 					'pyramidicallly',
 					'pyramidicaly',
+				],
+				'pyrexia'=>[
+					'pyrexai',
+				],
+				'pyrexias'=>[
+					'pyrexais',
 				],
 				'pyridine'=>[
 					'pyridini',
@@ -16450,6 +26822,12 @@
 				'pyriproxyfen'=>[
 					'piriproxyfen',
 				],
+				'pyroelectric'=>[
+					'pyreolectric',
+				],
+				'pyroelectricity'=>[
+					'pyreolectricity',
+				],
 				'pyrogallate'=>[
 					'pyrogalate',
 					'pyrogalllate',
@@ -16457,6 +26835,13 @@
 				'pyrogallol'=>[
 					'pyrogalllol',
 					'pyrogalol',
+				],
+				'pyrogenous'=>[
+					'pyrogenuos',
+				],
+				'pyroligneous'=>[
+					'pyroligneuos',
+					'pyrolignoeus',
 				],
 				'pyrolusite'=>[
 					'pyroluiste',
@@ -16472,6 +26857,19 @@
 				],
 				'pyromancy'=>[
 					'pyromansy',
+					'pyromency',
+				],
+				'pyromania'=>[
+					'pyromanai',
+				],
+				'pyromaniac'=>[
+					'pyromanaic',
+				],
+				'pyromaniacal'=>[
+					'pyromanaical',
+				],
+				'pyromaniacs'=>[
+					'pyromanaics',
 				],
 				'pyrometallurgy'=>[
 					'pyrometalurgy',
@@ -16511,10 +26909,12 @@
 				'pyrrhuloxia'=>[
 					'pyrhuloxia',
 					'pyrrrhuloxia',
+					'pyrrhuloxai',
 				],
 				'pyrrhuloxias'=>[
 					'pyrhuloxias',
 					'pyrrrhuloxias',
+					'pyrrhuloxais',
 				],
 				'pyrrole'=>[
 					'pyrole',
@@ -16537,9 +26937,18 @@
 					'pythoneses',
 					'pythonessses',
 				],
+				'pyuria'=>[
+					'pyurai',
+				],
+				'pyxidium'=>[
+					'pyxiduim',
+				],
 				'pyxie'=>[
 					'pyxei',
 					'pyxi',
+				],
+				'pyxies'=>[
+					'pyxeis',
 				],
 				'pzazz'=>[
 					'pzazzz',

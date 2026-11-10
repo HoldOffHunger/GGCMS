@@ -32,12 +32,21 @@
 
 		public function EnglishMisspellingsWords() {
 			return [
+				'xanthein'=>[
+					'xanthien',
+				],
 				'xanthine'=>[
 					'xanthini',
 					'xenthine',
 				],
 				'xanthochroic'=>[
 					'xanthocroic',
+				],
+				'xanthochroid'=>[
+					'xanthochriod',
+				],
+				'xanthochroism'=>[
+					'xanthochriosm',
 				],
 				'xanthonoid'=>[
 					'xanthanoid',
@@ -52,11 +61,17 @@
 				'xanthophylls'=>[
 					'xanthophyllls',
 				],
+				'xanthous'=>[
+					'xanthuos',
+				],
 				'xantusiid'=>[
 					'xantusid',
 				],
 				'xbox'=>[
 					'x-box',
+				],
+				'xenia'=>[
+					'xenai',
 				],
 				'xenogeneic'=>[
 					'xenogeniec',
@@ -73,6 +88,7 @@
 				'xenophobia'=>[
 					'zenophobia',
 					'xenephobia',
+					'xenophobai',
 				],
 				'xenotropic'=>[
 					'xenotrophic',
@@ -83,22 +99,39 @@
 				],
 				'xerophilous'=>[
 					'xerophyllous',
+					'xerophiluos',
+				],
+				'xerophthalmia'=>[
+					'xerophthalmai',
+				],
+				'xians'=>[
+					'xains',
 				],
 				'xinomavro'=>[
 					'xynomavro',
 				],
 				'xiphoid'=>[
 					'xyphoid',
+					'xiphiod',
 				],
 				'xylazine'=>[
 					'xilazine',
 					'xylozine',
 					'zylazine',
 				],
+				'xyloid'=>[
+					'xyliod',
+				],
+				'xylophagous'=>[
+					'xylophaguos',
+				],
 				'xylophone'=>[
 					'xilohpone',
 					'xilophone',
 					'xylophon',
+				],
+				'xylotomous'=>[
+					'xylotomuos',
 				],
 			];
 		}

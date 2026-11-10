@@ -49,6 +49,7 @@
 				'jabbered'=>[
 					'jabered',
 					'jabbbered',
+					'jabberd',
 				],
 				'jabberer'=>[
 					'jabbberer',
@@ -87,27 +88,51 @@
 				'jackasses'=>[
 					'jackases',
 					'jackassses',
+					'jacasses',
+					'jacksses',
 				],
 				'jackboot'=>[
 					'jackbooot',
 					'jackbot',
+					'jacboot',
+					'jackoot',
 				],
 				'jackbooted'=>[
 					'jackboooted',
 					'jackboted',
+					'jacbooted',
+					'jackooted',
 				],
 				'jackboots'=>[
 					'jackbooots',
 					'jackbots',
+					'jacboots',
+					'jackoots',
 				],
 				'jackeroo'=>[
 					'jackero',
 					'jackerooo',
 				],
+				'jackfish'=>[
+					'jacfish',
+					'jackish',
+				],
+				'jackfruit'=>[
+					'jacfruit',
+					'jackfriut',
+					'jackruit',
+				],
+				'jackfruits'=>[
+					'jacfruits',
+					'jackfriuts',
+					'jackruits',
+				],
 				'jackhammer'=>[
 					'jackhamner',
 					'jackhamer',
 					'jackhammmer',
+					'jachammer',
+					'jackammer',
 				],
 				'jackhammered'=>[
 					'jackhamnered',
@@ -119,6 +144,8 @@
 					'jackhamners',
 					'jackhamers',
 					'jackhammmers',
+					'jachammers',
+					'jackammers',
 				],
 				'jackknife'=>[
 					'jacknife',
@@ -140,16 +167,108 @@
 					'jackkknives',
 					'jacknives',
 				],
+				'jacklight'=>[
+					'jackight',
+					'jaclight',
+				],
+				'jacklighted'=>[
+					'jackighted',
+					'jaclighted',
+				],
+				'jacklighter'=>[
+					'jackighter',
+					'jaclighter',
+				],
+				'jacklighting'=>[
+					'jackighting',
+					'jaclighting',
+				],
+				'jacklights'=>[
+					'jackights',
+					'jaclights',
+				],
+				'jackpots'=>[
+					'jackots',
+					'jacpots',
+				],
 				'jackrabbit'=>[
 					'jackrabit',
 					'jackrabbbit',
+					'jackabbit',
+					'jacrabbit',
 				],
 				'jackrabbits'=>[
 					'jackrabits',
 					'jackrabbbits',
+					'jackabbits',
+					'jacrabbits',
+				],
+				'jackscrew'=>[
+					'jackcrew',
+					'jacksrew',
+					'jacscrew',
+				],
+				'jackscrews'=>[
+					'jackcrews',
+					'jacksrews',
+					'jacscrews',
+				],
+				'jackshaft'=>[
+					'jackhaft',
+					'jacshaft',
+				],
+				'jacksmelt'=>[
+					'jackmelt',
+					'jackselt',
+					'jacsmelt',
+				],
+				'jacksmelts'=>[
+					'jackmelts',
+					'jackselts',
+				],
+				'jacksonian'=>[
+					'jacksonain',
+				],
+				'jackstay'=>[
+					'jacktay',
+					'jacstay',
+				],
+				'jackstraw'=>[
+					'jacktraw',
+					'jacstraw',
+				],
+				'jackstraws'=>[
+					'jacktraws',
+					'jacstraws',
+				],
+				'jacobian'=>[
+					'jacobain',
 				],
 				'jacquard'=>[
 					'jacqaurd',
+				],
+				'jacquerie'=>[
+					'jacqeurie',
+					'jacquerei',
+				],
+				'jacques'=>[
+					'jacqeus',
+				],
+				'jactation'=>[
+					'jactatoin',
+					'jactaton',
+				],
+				'jactations'=>[
+					'jactatoins',
+					'jactatons',
+				],
+				'jactitation'=>[
+					'jactitatoin',
+					'jactitaton',
+				],
+				'jactitations'=>[
+					'jactitatoins',
+					'jactitatons',
 				],
 				'jacuzzi'=>[
 					'jacuzi',
@@ -164,6 +283,12 @@
 				],
 				'jadeites'=>[
 					'jadietes',
+				],
+				'jaeger'=>[
+					'jeager',
+				],
+				'jaegers'=>[
+					'jeagers',
 				],
 				'jaffa'=>[
 					'jafffa',
@@ -211,6 +336,7 @@
 				'jaggeries'=>[
 					'jageries',
 					'jagggeries',
+					'jaggereis',
 				],
 				'jaggery'=>[
 					'jagery',
@@ -218,14 +344,17 @@
 				'jaggier'=>[
 					'jagggier',
 					'jagier',
+					'jaggeir',
 				],
 				'jaggies'=>[
 					'jagggies',
 					'jagies',
+					'jaggeis',
 				],
 				'jaggiest'=>[
 					'jagggiest',
 					'jagiest',
+					'jaggeist',
 				],
 				'jaggs'=>[
 					'jags',
@@ -238,8 +367,66 @@
 					'jagaur',
 					'jaguer',
 				],
+				'jaguars'=>[
+					'jagaurs',
+				],
 				'jaguarundi'=>[
 					'jagaurundi',
+				],
+				'jaguarundis'=>[
+					'jagaurundis',
+				],
+				'jailbird'=>[
+					'jaibird',
+					'jailird',
+					'jialbird',
+				],
+				'jailbirds'=>[
+					'jaibirds',
+					'jailirds',
+					'jialbirds',
+				],
+				'jailbreak'=>[
+					'jaibreak',
+					'jailbraek',
+					'jailreak',
+					'jialbreak',
+				],
+				'jailbreaks'=>[
+					'jaibreaks',
+					'jailbraeks',
+					'jailreaks',
+					'jialbreaks',
+				],
+				'jailed'=>[
+					'jialed',
+				],
+				'jailer'=>[
+					'jialer',
+				],
+				'jailers'=>[
+					'jialers',
+				],
+				'jailhouse'=>[
+					'jaihouse',
+					'jailhuose',
+					'jailouse',
+					'jialhouse',
+				],
+				'jailhouses'=>[
+					'jaihouses',
+					'jailhuoses',
+					'jailouses',
+					'jialhouses',
+				],
+				'jailor'=>[
+					'jialor',
+				],
+				'jailors'=>[
+					'jialors',
+				],
+				'jails'=>[
+					'jials',
 				],
 				'jalapenos'=>[
 					'jalapenoes',
@@ -251,20 +438,38 @@
 					'halapenoes',
 					'halapenos',
 				],
+				'jalopies'=>[
+					'jalopeis',
+				],
 				'jalousie'=>[
 					'jalouise',
+					'jalousei',
+					'jaluosie',
 				],
 				'jalousied'=>[
 					'jalouised',
 				],
 				'jalousies'=>[
 					'jalouises',
+					'jalouseis',
+					'jaluosies',
 				],
 				'jamaica'=>[
 					'jamacia',
+					'jamiaca',
 				],
 				'jamaican-occupied'=>[
 					'jamaican occupied',
+				],
+				'jambeau'=>[
+					'jabeau',
+					'jambaeu',
+					'jambeua',
+					'jameau',
+				],
+				'jambeaux'=>[
+					'jambaeux',
+					'jambeuax',
 				],
 				'jamboree'=>[
 					'jambore',
@@ -287,6 +492,7 @@
 				],
 				'jammier'=>[
 					'jammmier',
+					'jammeir',
 				],
 				'jammies'=>[
 					'jamnies',
@@ -294,6 +500,7 @@
 				'jammiest'=>[
 					'jamniest',
 					'jammmiest',
+					'jammeist',
 				],
 				'jamming'=>[
 					'jammming',
@@ -302,12 +509,19 @@
 					'jamny',
 					'jammmy',
 				],
+				'jampacked'=>[
+					'jamacked',
+					'japacked',
+				],
 				'janisary'=>[
 					'janisery',
 				],
 				'janissary'=>[
 					'janissery',
 					'janisssary',
+				],
+				'janitorial'=>[
+					'janitorail',
 				],
 				'janitress'=>[
 					'janitres',
@@ -322,6 +536,7 @@
 				],
 				'jannie'=>[
 					'jannnie',
+					'jannei',
 				],
 				'janty'=>[
 					'jenty',
@@ -391,12 +606,78 @@
 				'jasmine'=>[
 					'jasmini',
 				],
+				'jaundice'=>[
+					'juandice',
+				],
+				'jaundiced'=>[
+					'juandiced',
+				],
+				'jaundices'=>[
+					'juandices',
+				],
+				'jaundicing'=>[
+					'juandicing',
+				],
+				'jaunt'=>[
+					'juant',
+				],
+				'jaunted'=>[
+					'juanted',
+				],
+				'jauntier'=>[
+					'jaunteir',
+					'juantier',
+				],
+				'jauntiest'=>[
+					'jaunteist',
+					'juantiest',
+				],
+				'jauntily'=>[
+					'juantily',
+				],
 				'jauntiness'=>[
 					'jauntines',
 					'jauntinesss',
+					'juantiness',
+				],
+				'jaunting'=>[
+					'juanting',
+				],
+				'jaunts'=>[
+					'juants',
+				],
+				'jaunty'=>[
+					'juanty',
 				],
 				'javelina'=>[
 					'javelini',
+				],
+				'jawbone'=>[
+					'jabone',
+					'jawone',
+				],
+				'jawboned'=>[
+					'jaboned',
+					'jawbond',
+					'jawoned',
+				],
+				'jawbones'=>[
+					'jabones',
+					'jawones',
+				],
+				'jawboning'=>[
+					'jaboning',
+					'jawoning',
+				],
+				'jawbreaker'=>[
+					'jabreaker',
+					'jawbraeker',
+					'jawreaker',
+				],
+				'jawbreakers'=>[
+					'jabreakers',
+					'jawbraekers',
+					'jawreakers',
 				],
 				'jawless'=>[
 					'jawles',
@@ -404,10 +685,48 @@
 				],
 				'jawline'=>[
 					'jawlini',
+					'jaline',
+					'jawine',
+				],
+				'jawlines'=>[
+					'jalines',
+					'jawines',
+				],
+				'jaybird'=>[
+					'jabird',
+					'jayird',
+				],
+				'jaybirds'=>[
+					'jabirds',
+					'jayirds',
 				],
 				'jayvee'=>[
 					'jayve',
 					'jayveee',
+				],
+				'jaywalk'=>[
+					'jawalk',
+					'jayalk',
+				],
+				'jaywalked'=>[
+					'jawalked',
+					'jayalked',
+				],
+				'jaywalker'=>[
+					'jawalker',
+					'jayalker',
+				],
+				'jaywalkers'=>[
+					'jawalkers',
+					'jayalkers',
+				],
+				'jaywalking'=>[
+					'jawalking',
+					'jayalking',
+				],
+				'jaywalks'=>[
+					'jawalks',
+					'jayalks',
 				],
 				'jazz'=>[
 					'jazzz',
@@ -426,10 +745,12 @@
 				'jazzier'=>[
 					'jazier',
 					'jazzzier',
+					'jazzeir',
 				],
 				'jazziest'=>[
 					'jaziest',
 					'jazzziest',
+					'jazzeist',
 				],
 				'jazzily'=>[
 					'jazily',
@@ -458,19 +779,32 @@
 				],
 				'jealous'=>[
 					'jelous',
+					'jaelous',
+					'jealuos',
 				],
 				'jealousies'=>[
 					'jealouises',
 					'jealoufies',
+					'jaelousies',
+					'jealouseis',
+					'jealuosies',
+				],
+				'jealously'=>[
+					'jaelously',
+					'jealuosly',
 				],
 				'jealousness'=>[
 					'jealousnes',
 					'jealousnesss',
+					'jaelousness',
+					'jealuosness',
 				],
 				'jealousy'=>[
 					'jealoucy',
 					'jelousy',
 					'jealonsy',
+					'jaelousy',
+					'jealuosy',
 				],
 				'jean'=>[
 					'jen',
@@ -490,6 +824,7 @@
 				'jeanette'=>[
 					'jeanete',
 					'jeanettte',
+					'jaenette',
 				],
 				'jeep'=>[
 					'jeeep',
@@ -506,6 +841,7 @@
 				],
 				'jeered'=>[
 					'jeeered',
+					'jeerd',
 				],
 				'jeerer'=>[
 					'jeeerer',
@@ -568,14 +904,17 @@
 				'jellies'=>[
 					'jelies',
 					'jelllies',
+					'jelleis',
 				],
 				'jellified'=>[
 					'jelified',
 					'jelllified',
+					'jellifeid',
 				],
 				'jellifies'=>[
 					'jelifies',
 					'jelllifies',
+					'jellifeis',
 				],
 				'jellify'=>[
 					'jelify',
@@ -605,18 +944,26 @@
 				'jellybean'=>[
 					'jelllybean',
 					'jelybean',
+					'jellbean',
+					'jellybaen',
+					'jellyean',
 				],
 				'jellybeans'=>[
 					'jelllybeans',
 					'jelybeans',
+					'jellbeans',
+					'jellybaens',
+					'jellyeans',
 				],
 				'jellyfish'=>[
 					'jelyfish',
 					'jelllyfish',
+					'jellfish',
 				],
 				'jellyfishes'=>[
 					'jelllyfishes',
 					'jelyfishes',
+					'jellfishes',
 				],
 				'jellying'=>[
 					'jelllying',
@@ -631,21 +978,27 @@
 					'jellyrol',
 					'jellyrolll',
 					'jelyroll',
+					'jellroll',
+					'jellyoll',
 				],
 				'jellyrolls'=>[
 					'jelllyrolls',
 					'jellyrollls',
 					'jellyrols',
 					'jelyrolls',
+					'jellrolls',
+					'jellyolls',
 				],
 				'jelq'=>[
 					'jelk',
 				],
 				'jemmied'=>[
 					'jemmmied',
+					'jemmeid',
 				],
 				'jemmies'=>[
 					'jemmmies',
+					'jemmeis',
 				],
 				'jemmy'=>[
 					'jemny',
@@ -667,6 +1020,7 @@
 				'jennies'=>[
 					'jenies',
 					'jennnies',
+					'jenneis',
 				],
 				'jenny'=>[
 					'jeny',
@@ -689,15 +1043,23 @@
 				],
 				'jeopardize'=>[
 					'jeoperdize',
+					'joepardize',
 				],
 				'jeopardized'=>[
 					'jeoperdized',
+					'joepardized',
 				],
 				'jeopardizes'=>[
 					'jeoperdizes',
+					'joepardizes',
 				],
 				'jeopardizing'=>[
 					'jeoperdizing',
+					'joepardizing',
+				],
+				'jeopardous'=>[
+					'jeoparduos',
+					'joepardous',
 				],
 				'jeopards'=>[
 					'jeoperds',
@@ -706,10 +1068,42 @@
 					'jeapardy',
 					'jeoperdy',
 					'jepoardy',
+					'joepardy',
+				],
+				'jequirity'=>[
+					'jeqiurity',
+				],
+				'jerboa'=>[
+					'jerbao',
+				],
+				'jerboas'=>[
+					'jerbaos',
+				],
+				'jeremiad'=>[
+					'jeremaid',
+				],
+				'jeremiads'=>[
+					'jeremaids',
+				],
+				'jerkier'=>[
+					'jerkeir',
+				],
+				'jerkiest'=>[
+					'jerkeist',
 				],
 				'jerkiness'=>[
 					'jerkines',
 					'jerkinesss',
+				],
+				'jerkwater'=>[
+					'jerkater',
+					'jerwater',
+				],
+				'jeroboam'=>[
+					'jerobaom',
+				],
+				'jeroboams'=>[
+					'jerobaoms',
 				],
 				'jerreed'=>[
 					'jerreeed',
@@ -720,6 +1114,7 @@
 				],
 				'jerries'=>[
 					'jerrries',
+					'jerreis',
 				],
 				'jerry'=>[
 					'jery',
@@ -728,6 +1123,9 @@
 				'jerrybuilt'=>[
 					'jerrrybuilt',
 					'jerybuilt',
+					'jerrbuilt',
+					'jerrybiult',
+					'jerryuilt',
 				],
 				'jerrycan'=>[
 					'jerycan',
@@ -736,6 +1134,8 @@
 				'jerrycans'=>[
 					'jerrrycans',
 					'jerycans',
+					'jerrcans',
+					'jerryans',
 				],
 				'jerusalem'=>[
 					'jersualem',
@@ -759,11 +1159,24 @@
 					'jese',
 					'jessse',
 				],
+				'jessie'=>[
+					'jessei',
+				],
 				'jesús alemañy'=>[
 					'jesus alemany',
 				],
 				'jetliner'=>[
 					'jetlinir',
+					'jeliner',
+					'jetiner',
+				],
+				'jetport'=>[
+					'jeport',
+					'jetort',
+				],
+				'jetports'=>[
+					'jeports',
+					'jetorts',
 				],
 				'jettable'=>[
 					'jetable',
@@ -774,6 +1187,7 @@
 				'jetties'=>[
 					'jeties',
 					'jettties',
+					'jetteis',
 				],
 				'jetting'=>[
 					'jettting',
@@ -785,6 +1199,7 @@
 				'jettisoned'=>[
 					'jetisoned',
 					'jetttisoned',
+					'jettisond',
 				],
 				'jettisoning'=>[
 					'jetisoning',
@@ -806,6 +1221,10 @@
 				'jeweler'=>[
 					'jewler',
 				],
+				'jewelfish'=>[
+					'jewefish',
+					'jewelish',
+				],
 				'jewelled'=>[
 					'jewellled',
 				],
@@ -823,13 +1242,23 @@
 				'jewelling'=>[
 					'jewellling',
 				],
+				'jewelries'=>[
+					'jewelreis',
+				],
 				'jewelweed'=>[
 					'jewelwed',
 					'jewelweeed',
+					'jeweleed',
+					'jeweweed',
 				],
 				'jewelweeds'=>[
 					'jewelweds',
 					'jewelweeeds',
+					'jeweleeds',
+					'jeweweeds',
+				],
+				'jewfish'=>[
+					'jefish',
 				],
 				'jewishness'=>[
 					'jewishnes',
@@ -874,6 +1303,7 @@
 				'jiffies'=>[
 					'jifffies',
 					'jifies',
+					'jiffeis',
 				],
 				'jiffs'=>[
 					'jifffs',
@@ -896,6 +1326,7 @@
 				'jiggered'=>[
 					'jigered',
 					'jigggered',
+					'jiggerd',
 				],
 				'jiggering'=>[
 					'jigering',
@@ -920,11 +1351,23 @@
 				'jiggle'=>[
 					'jigle',
 				],
+				'jigglier'=>[
+					'jiggleir',
+				],
 				'jiggliest'=>[
 					'jigliest',
+					'jiggleist',
 				],
 				'jiggy'=>[
 					'jigy',
+				],
+				'jigsawed'=>[
+					'jigawed',
+					'jisawed',
+				],
+				'jigsawing'=>[
+					'jigawing',
+					'jisawing',
 				],
 				'jill'=>[
 					'jil',
@@ -933,6 +1376,8 @@
 				'jillion'=>[
 					'jilion',
 					'jilllion',
+					'jilloin',
+					'jillon',
 				],
 				'jim white-inspired film'=>[
 					'jim white inspired film',
@@ -940,16 +1385,22 @@
 				'jimi hendrix'=>[
 					'jimmy hendrix',
 				],
+				'jimjams'=>[
+					'jijams',
+					'jimams',
+				],
 				'jimmie'=>[
 					'jimnie',
 				],
 				'jimmied'=>[
 					'jimmmied',
+					'jimmeid',
 				],
 				'jimmies'=>[
 					'jimnies',
 					'jimies',
 					'jimmmies',
+					'jimmeis',
 				],
 				'jimmy'=>[
 					'jimny',
@@ -965,6 +1416,27 @@
 				'jimsonweed'=>[
 					'jimsonwed',
 					'jimsonweeed',
+				],
+				'jinglier'=>[
+					'jingleir',
+				],
+				'jingliest'=>[
+					'jingleist',
+				],
+				'jingoes'=>[
+					'jingeos',
+				],
+				'jingoism'=>[
+					'jingiosm',
+				],
+				'jingoist'=>[
+					'jingiost',
+				],
+				'jingoistic'=>[
+					'jingiostic',
+				],
+				'jingoists'=>[
+					'jingiosts',
 				],
 				'jinn'=>[
 					'jin',
@@ -1024,10 +1496,12 @@
 				'jitterier'=>[
 					'jiterier',
 					'jittterier',
+					'jittereir',
 				],
 				'jitteriest'=>[
 					'jiteriest',
 					'jittteriest',
+					'jittereist',
 				],
 				'jitteriness'=>[
 					'jitterines',
@@ -1048,6 +1522,9 @@
 					'jitery',
 					'jitttery',
 				],
+				'jiujitsu'=>[
+					'juijitsu',
+				],
 				'jjimjilbang'=>[
 					'jimjilbang',
 				],
@@ -1057,9 +1534,11 @@
 				'joanna'=>[
 					'joana',
 					'joannna',
+					'jaonna',
 				],
 				'joannes'=>[
 					'joannnes',
+					'jaonnes',
 				],
 				'job'=>[
 					'job job',
@@ -1079,6 +1558,8 @@
 				'jobberies'=>[
 					'joberies',
 					'jobbberies',
+					'jobbaries',
+					'jobbereis',
 				],
 				'jobbers'=>[
 					'jobers',
@@ -1087,10 +1568,15 @@
 				'jobbery'=>[
 					'jobery',
 					'jobbbery',
+					'jobbary',
 				],
 				'jobbing'=>[
 					'jobing',
 					'jobbbing',
+				],
+				'jobholder'=>[
+					'jobolder',
+					'joholder',
 				],
 				'jobless'=>[
 					'jobles',
@@ -1102,6 +1588,32 @@
 					'joblessnesss',
 					'joblesssness',
 				],
+				'jobshare'=>[
+					'jobhare',
+					'jobsare',
+					'joshare',
+				],
+				'jobshares'=>[
+					'jobhares',
+					'joshares',
+				],
+				'jobsworth'=>[
+					'jobsorth',
+					'jobworth',
+				],
+				'jockeyed'=>[
+					'joceyed',
+				],
+				'jockstrap'=>[
+					'jocksrap',
+					'jocktrap',
+					'jocstrap',
+				],
+				'jockstraps'=>[
+					'jocksraps',
+					'jocktraps',
+					'jocstraps',
+				],
 				'jocosely'=>[
 					'jocosly',
 				],
@@ -1111,6 +1623,16 @@
 				],
 				'jocular'=>[
 					'joculer',
+				],
+				'jocularity'=>[
+					'joculerity',
+				],
+				'jocularly'=>[
+					'jocularily',
+					'joculerly',
+				],
+				'joeys'=>[
+					'jeoys',
 				],
 				'jogged'=>[
 					'joggged',
@@ -1155,9 +1677,11 @@
 				],
 				'johnnie'=>[
 					'johnnnie',
+					'johnnei',
 				],
 				'johnnies'=>[
 					'johnnnies',
+					'johnneis',
 				],
 				'johnny'=>[
 					'johny',
@@ -1166,10 +1690,14 @@
 				'johnnycake'=>[
 					'johnycake',
 					'johnnnycake',
+					'johnncake',
+					'johnnyake',
 				],
 				'johnnycakes'=>[
 					'johnycakes',
 					'johnnnycakes',
+					'johnncakes',
+					'johnnyakes',
 				],
 				'johnston press'=>[
 					'johnson press',
@@ -1181,53 +1709,129 @@
 				'joinable'=>[
 					'joinible',
 				],
+				'joinder'=>[
+					'jionder',
+				],
 				'joined'=>[
 					'joinde',
 					'joinid',
 					'joiued',
+					'jioned',
+					'joind',
 				],
 				'joiner'=>[
 					'joinir',
+					'jioner',
+				],
+				'joiners'=>[
+					'jioners',
 				],
 				'joinery'=>[
 					'joiniry',
+					'jionery',
+					'joinary',
 				],
 				'joining'=>[
 					'joinang',
+					'jioning',
+				],
+				'joins'=>[
+					'jions',
+				],
+				'joint'=>[
+					'jiont',
+				],
+				'jointed'=>[
+					'jionted',
+				],
+				'jointer'=>[
+					'jionter',
+				],
+				'jointers'=>[
+					'jionters',
+				],
+				'jointing'=>[
+					'jionting',
+					'joiting',
 				],
 				'jointless'=>[
 					'jointles',
 					'jointlesss',
+					'jiontless',
 				],
 				'jointly'=>[
 					'jointally',
 					'jointaly',
 					'jointely',
 					'jointlly',
+					'jiontly',
 				],
 				'jointress'=>[
 					'jointres',
 					'jointresss',
+					'jiontress',
+				],
+				'joints'=>[
+					'jionts',
+				],
+				'jointure'=>[
+					'jionture',
+				],
+				'jointures'=>[
+					'jiontures',
+				],
+				'jointworm'=>[
+					'jiontworm',
+					'jointorm',
+					'joinworm',
+				],
+				'jointworms'=>[
+					'jiontworms',
+					'jointorms',
+					'joinworms',
+				],
+				'joist'=>[
+					'jiost',
+				],
+				'joists'=>[
+					'jiosts',
+				],
+				'jokier'=>[
+					'jokeir',
+				],
+				'jokiest'=>[
+					'jokeist',
+				],
+				'jokily'=>[
+					'jokly',
 				],
 				'jollied'=>[
 					'jolllied',
+					'jolleid',
 				],
 				'jollier'=>[
 					'jolllier',
+					'jolleir',
 				],
 				'jollies'=>[
 					'jolllies',
+					'jolleis',
 				],
 				'jolliest'=>[
 					'jollliest',
+					'jolleist',
 				],
 				'jollification'=>[
 					'jolification',
 					'jolllification',
+					'jollificatoin',
+					'jollificaton',
 				],
 				'jollifications'=>[
 					'jolifications',
 					'jolllifications',
+					'jollificatoins',
+					'jollificatons',
 				],
 				'jollify'=>[
 					'jolify',
@@ -1255,11 +1859,27 @@
 				'jollying'=>[
 					'jolllying',
 				],
+				'joltier'=>[
+					'jolteir',
+				],
+				'joltiest'=>[
+					'jolteist',
+				],
 				'jongleur'=>[
 					'jongler',
+					'jongluer',
+				],
+				'jongleurs'=>[
+					'jongluers',
 				],
 				'jonnycake'=>[
 					'jonycake',
+				],
+				'jonquil'=>[
+					'jonqiul',
+				],
+				'jonquils'=>[
+					'jonqiuls',
 				],
 				'jook'=>[
 					'joook',
@@ -1319,8 +1939,32 @@
 				'jouals'=>[
 					'joauls',
 				],
+				'joule'=>[
+					'juole',
+				],
+				'jounce'=>[
+					'juonce',
+				],
+				'jounced'=>[
+					'juonced',
+				],
+				'jounces'=>[
+					'juonces',
+				],
+				'jouncier'=>[
+					'jounceir',
+					'juoncier',
+				],
+				'jounciest'=>[
+					'jounceist',
+					'juonciest',
+				],
+				'jouncing'=>[
+					'juoncing',
+				],
 				'jouncy'=>[
 					'jounsy',
+					'juoncy',
 				],
 				'journal'=>[
 					'jorunal',
@@ -1329,45 +1973,127 @@
 					'journeys=jorneys',
 					'jonrnal',
 					'joumal',
+					'juornal',
+				],
+				'journalese'=>[
+					'juornalese',
 				],
 				'journalism'=>[
 					'jornalism',
+					'juornalism',
 				],
 				'journalist'=>[
 					'jornalist',
 					'joumalist',
+					'juornalist',
 				],
 				'journalistic'=>[
 					'joumalistic',
+					'juornalistic',
 				],
 				'journalistically'=>[
 					'journalisticallly',
 					'journalisticaly',
+					'juornalistically',
+				],
+				'journalists'=>[
+					'juornalists',
+				],
+				'journalize'=>[
+					'juornalize',
 				],
 				'journalled'=>[
 					'journallled',
+					'juornalled',
 				],
 				'journalling'=>[
 					'journallling',
+					'juornalling',
+				],
+				'journals'=>[
+					'juornals',
 				],
 				'journey'=>[
 					'journy',
 					'jonrncy',
 					'jonrney',
 					'joumey',
+					'juorney',
 				],
 				'journeyed'=>[
 					'joumeyed',
+					'juorneyed',
+				],
+				'journeyer'=>[
+					'juorneyer',
+				],
+				'journeyers'=>[
+					'juorneyers',
+				],
+				'journeying'=>[
+					'juorneying',
+				],
+				'journeyman'=>[
+					'juorneyman',
+				],
+				'journeymen'=>[
+					'juorneymen',
 				],
 				'journeys'=>[
 					'journies',
+					'juorneys',
+				],
+				'journeywork'=>[
+					'journework',
+					'journeyork',
+					'juorneywork',
+				],
+				'journo'=>[
+					'juorno',
+				],
+				'journos'=>[
+					'juornos',
+				],
+				'joust'=>[
+					'juost',
+				],
+				'jousted'=>[
+					'juosted',
+				],
+				'jouster'=>[
+					'juoster',
+				],
+				'jousters'=>[
+					'juosters',
+				],
+				'jousting'=>[
+					'juosting',
+				],
+				'jousts'=>[
+					'juosts',
+				],
+				'jovial'=>[
+					'jovail',
+				],
+				'joviality'=>[
+					'jovaility',
 				],
 				'jovially'=>[
 					'joviallly',
 					'jovialy',
+					'jovailly',
+				],
+				'jovian'=>[
+					'jovain',
 				],
 				'jowar'=>[
 					'jower',
+				],
+				'jowlier'=>[
+					'jowleir',
+				],
+				'jowliest'=>[
+					'jowleist',
 				],
 				'jowly'=>[
 					'jowally',
@@ -1389,10 +2115,14 @@
 				],
 				'joyfullest'=>[
 					'joyfulllest',
+					'jofullest',
+					'joyullest',
 				],
 				'joyfully'=>[
 					'joyfullly',
 					'joyfuly',
+					'jofully',
+					'joyully',
 				],
 				'joyfulness'=>[
 					'joyfulnes',
@@ -1405,6 +2135,7 @@
 				'joylessly'=>[
 					'joylesly',
 					'joylesssly',
+					'joylessely',
 				],
 				'joylessness'=>[
 					'joylesness',
@@ -1412,13 +2143,60 @@
 					'joylessnesss',
 					'joylesssness',
 				],
+				'joyous'=>[
+					'joyuos',
+				],
+				'joyously'=>[
+					'joyousely',
+					'joyuosly',
+				],
 				'joyousness'=>[
 					'joyousnes',
 					'joyousnesss',
+					'joyuosness',
 				],
 				'joyridden'=>[
 					'joyriddden',
 					'joyriden',
+					'joridden',
+					'joyidden',
+				],
+				'joyride'=>[
+					'joride',
+					'joyide',
+				],
+				'joyrider'=>[
+					'jorider',
+					'joyider',
+				],
+				'joyriders'=>[
+					'joriders',
+					'joyiders',
+				],
+				'joyrides'=>[
+					'jorides',
+					'joyides',
+				],
+				'joyriding'=>[
+					'joriding',
+					'joyiding',
+				],
+				'joyrode'=>[
+					'jorode',
+					'joyode',
+				],
+				'joystick'=>[
+					'jostick',
+					'joysick',
+					'joytick',
+				],
+				'joysticks'=>[
+					'josticks',
+					'joysicks',
+					'joyticks',
+				],
+				'juarez'=>[
+					'jaurez',
 				],
 				'jubbah'=>[
 					'jubah',
@@ -1438,14 +2216,22 @@
 				'jubilance'=>[
 					'jubilence',
 				],
+				'jubilances'=>[
+					'jubilences',
+				],
 				'jubilant'=>[
 					'jubilent',
 				],
 				'jubilantly'=>[
 					'jubilently',
+					'jubilantely',
 				],
 				'jubilarian'=>[
 					'jubilaran',
+				],
+				'jubilation'=>[
+					'jubilatoin',
+					'jubilaton',
 				],
 				'jubilee'=>[
 					'jubileee',
@@ -1466,6 +2252,7 @@
 				'juddered'=>[
 					'judddered',
 					'judered',
+					'judderd',
 				],
 				'juddering'=>[
 					'judddering',
@@ -1486,6 +2273,12 @@
 				'judgement'=>[
 					'judgemant',
 				],
+				'judgemental'=>[
+					'judgeental',
+				],
+				'judgements'=>[
+					'judgemants',
+				],
 				'judges'=>[
 					'jiidges',
 					'jndges',
@@ -1505,23 +2298,37 @@
 				'judgments'=>[
 					'jndgments',
 					'judginents',
+					'judgmants',
 				],
 				'judicable'=>[
 					'judicible',
 				],
+				'judicatories'=>[
+					'judicatoreis',
+				],
 				'judicial'=>[
 					'judical',
+					'judicail',
 				],
 				'judicially'=>[
 					'judiciallly',
 					'judicialy',
+					'judicailly',
+				],
+				'judiciaries'=>[
+					'judicairies',
+					'judiciareis',
+					'judicieries',
 				],
 				'judiciary'=>[
 					'judisuary',
 					'judiciery',
+					'judicairy',
 				],
 				'judicious'=>[
 					'judicous',
+					'judiciuos',
+					'judicoius',
 				],
 				'judiciously'=>[
 					'judiciousally',
@@ -1530,10 +2337,18 @@
 					'judiciouslly',
 					'judicously',
 					'judicioufly',
+					'judiciuosly',
+					'judicoiusly',
 				],
 				'judiciousness'=>[
 					'judiciousnes',
 					'judiciousnesss',
+					'judiciuosness',
+					'judicoiusness',
+					'judicousness',
+				],
+				'judoist'=>[
+					'judiost',
 				],
 				'jugged'=>[
 					'juggged',
@@ -1541,10 +2356,12 @@
 				'juggernaut'=>[
 					'jugernaut',
 					'jugggernaut',
+					'juggernuat',
 				],
 				'juggernauts'=>[
 					'jugernauts',
 					'jugggernauts',
+					'juggernuats',
 				],
 				'jugging'=>[
 					'juggging',
@@ -1572,6 +2389,7 @@
 				'jugglery'=>[
 					'juglery',
 					'juggglery',
+					'jugglary',
 				],
 				'juggles'=>[
 					'jugggles',
@@ -1585,18 +2403,57 @@
 					'juglings',
 					'juggglings',
 				],
+				'jughead'=>[
+					'jugead',
+					'jughaed',
+					'juhead',
+				],
+				'juglandaceous'=>[
+					'juglandaceuos',
+					'juglandacoeus',
+				],
 				'jugular'=>[
 					'juguler',
 				],
+				'jugulars'=>[
+					'jugulers',
+				],
 				'juice'=>[
 					'juite',
+					'jiuce',
+				],
+				'juiced'=>[
+					'jiuced',
+				],
+				'juicer'=>[
+					'jiucer',
+				],
+				'juicers'=>[
+					'jiucers',
+				],
+				'juicier'=>[
+					'jiucier',
+					'juiceir',
+				],
+				'juiciest'=>[
+					'jiuciest',
+					'juiceist',
+				],
+				'juicily'=>[
+					'jiucily',
+					'juicly',
 				],
 				'juiciness'=>[
 					'juicines',
 					'juicinesss',
+					'jiuciness',
+				],
+				'juicing'=>[
+					'jiucing',
 				],
 				'juicy'=>[
 					'juisy',
+					'jiucy',
 				],
 				'julienne'=>[
 					'juleinne',
@@ -1610,6 +2467,9 @@
 				'juliennes'=>[
 					'julienes',
 				],
+				'julio'=>[
+					'juloi',
+				],
 				'jump'=>[
 					'jump jump',
 					'jump jump jump',
@@ -1617,13 +2477,46 @@
 				'jumpable'=>[
 					'jumpible',
 				],
+				'jumpier'=>[
+					'jumpeir',
+				],
+				'jumpiest'=>[
+					'jumpeist',
+				],
 				'jumpiness'=>[
 					'jumpines',
 					'jumpinesss',
 				],
+				'jumpsuit'=>[
+					'jumpsiut',
+					'jumpuit',
+					'jumsuit',
+				],
+				'jumpsuits'=>[
+					'jumpsiuts',
+					'jumpuits',
+					'jumsuits',
+				],
+				'juncaceous'=>[
+					'juncaceuos',
+					'juncacoeus',
+				],
+				'juncoes'=>[
+					'junceos',
+				],
 				'junction'=>[
 					'juction',
 					'juntion',
+					'junctoin',
+					'juncton',
+				],
+				'junctional'=>[
+					'junctoinal',
+					'junctonal',
+				],
+				'junctions'=>[
+					'junctoins',
+					'junctons',
 				],
 				'june'=>[
 					'jime',
@@ -1632,14 +2525,27 @@
 				'juneberries'=>[
 					'juneberies',
 					'juneberrries',
+					'juneberreis',
 				],
 				'juneberry'=>[
 					'juneberrry',
 					'junebery',
 				],
+				'junglier'=>[
+					'jungleir',
+				],
+				'jungliest'=>[
+					'jungleist',
+				],
 				'junior'=>[
 					'juniour',
 					'junoir',
+				],
+				'juniority'=>[
+					'junoirity',
+				],
+				'juniors'=>[
+					'junoirs',
 				],
 				'junketeer'=>[
 					'junketeeer',
@@ -1650,6 +2556,23 @@
 				'junkie'=>[
 					'junkei',
 					'junki',
+				],
+				'junkier'=>[
+					'junkeir',
+				],
+				'junkies'=>[
+					'junkeis',
+				],
+				'junkiest'=>[
+					'junkeist',
+				],
+				'junkyard'=>[
+					'junkard',
+					'junyard',
+				],
+				'junkyards'=>[
+					'junkards',
+					'junyards',
 				],
 				'jurant'=>[
 					'jurent',
@@ -1662,6 +2585,9 @@
 					'juridicallly',
 					'juridicaly',
 				],
+				'juries'=>[
+					'jureis',
+				],
 				'jurisconsult'=>[
 					'juriconsult',
 					'juricsonsult',
@@ -1671,6 +2597,16 @@
 					'jurisdication',
 					'jursidiction',
 					'junsdiction',
+					'jurisdictoin',
+					'jurisdicton',
+				],
+				'jurisdictional'=>[
+					'jurisdictoinal',
+					'jurisdictonal',
+				],
+				'jurisdictions'=>[
+					'jurisdictoins',
+					'jurisdictons',
 				],
 				'jurisprudence'=>[
 					'jurisprudance',
@@ -1680,9 +2616,18 @@
 				],
 				'jurisprudential'=>[
 					'jurisprudantial',
+					'jurisprudentail',
 				],
 				'jurisprudents'=>[
 					'jurisprudants',
+				],
+				'jurywoman'=>[
+					'jurwoman',
+					'juryoman',
+				],
+				'jurywomen'=>[
+					'jurwomen',
+					'juryomen',
 				],
 				'jussive'=>[
 					'jusive',
@@ -1707,25 +2652,60 @@
 				],
 				'justiciable'=>[
 					'justiciible',
+					'justicaible',
 				],
 				'justiciar'=>[
 					'justicar',
 					'justicier',
+					'justicair',
+				],
+				'justiciaries'=>[
+					'justicairies',
+					'justiciareis',
+					'justicieries',
+				],
+				'justiciars'=>[
+					'justicairs',
+				],
+				'justiciary'=>[
+					'justicairy',
+					'justiciery',
+				],
+				'justifiability'=>[
+					'justifaibility',
 				],
 				'justifiable'=>[
 					'justifiible',
 					'juftifiable',
+					'justifaible',
+				],
+				'justifiably'=>[
+					'justifaibly',
 				],
 				'justification'=>[
 					'juftification',
+					'justificatoin',
+					'justificaton',
+				],
+				'justifications'=>[
+					'justificatoins',
+					'justificatons',
 				],
 				'justified'=>[
 					'jiistified',
 					'juftified',
 					'justifed',
+					'justifeid',
+				],
+				'justifier'=>[
+					'justifeir',
+				],
+				'justifiers'=>[
+					'justifeirs',
 				],
 				'justifies'=>[
 					'juftifies',
+					'justifeis',
 				],
 				'justify'=>[
 					'juftify',
@@ -1752,13 +2732,29 @@
 				],
 				'juvenescence'=>[
 					'juvenescance',
+					'juvenecence',
+					'juvenesence',
+				],
+				'juvenescent'=>[
+					'juvenecent',
+					'juvenescant',
+					'juvenesent',
 				],
 				'juvenile'=>[
 					'juvinile',
 				],
+				'juvenilely'=>[
+					'juvenilly',
+				],
 				'juvenileness'=>[
 					'juvenilenes',
 					'juvenilenesss',
+				],
+				'juvenilia'=>[
+					'juvenilai',
+				],
+				'juvenilities'=>[
+					'juveniliteis',
 				],
 				'juxtacentromeric'=>[
 					'juxtacentromic',
@@ -1768,6 +2764,16 @@
 				],
 				'juxtaposition'=>[
 					'juxtoposition',
+					'juxtapositoin',
+					'juxtapositon',
+				],
+				'juxtapositional'=>[
+					'juxtapositoinal',
+					'juxtapositonal',
+				],
+				'juxtapositions'=>[
+					'juxtapositoins',
+					'juxtapositons',
 				],
 				'jérémie'=>[
 					'jeremie',
