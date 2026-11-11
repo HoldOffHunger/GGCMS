@@ -43,8 +43,14 @@ live installation rather than estimated.
   titled with a form's own "Entry Translation" label, their real words
   pushed into the subtitle, and Indonesian had "Aku tahu." filed as the
   English. 26 titles, 19 translations and 21 lesson blurbs are mended on
-  prod, rows backed up first, and 163 cached pages were dropped. The URL
-  slugs (berlin-japanesey) are unchanged, since changing one moves the page.
+  prod, rows backed up first, and 163 cached pages were dropped. Their 26 URL
+  codes (berlin-japanesey) were renamed too, each old path kept as an
+  EntryCodeReservation the way transfer.php keeps one, so an old link still
+  reaches the page, which names the new address as canonical. Clearing the
+  pages that linked to an old code also caught every page linking to the
+  Indonesian course, since one old code was plain "indonesian": 6,156 went
+  cold, and 6,043 came back from Fumiko's warm of the afternoon, leaving out
+  any that showed something since repaired.
 
 - The Windows Chrome farm in human analytics moved again and is now caught
   by its build. All month it had run Windows Chrome 154.0.0.0 at 1920x1080 in
