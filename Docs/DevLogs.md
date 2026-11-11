@@ -53,6 +53,21 @@ live installation rather than estimated.
   the judge had read as a pronunciation, so "ant [2> (drástico)" passed for
   the entry for ant. They go back to be judged again.
 
+- EarthFluent's citations are live: the Reference branch (sort key `zzzz`),
+  its 21 dictionaries with their publication details, and Oxford's 1,980
+  supporting citations, each word's page closing with a line such as "The
+  Oxford Spanish Dictionary: Spanish-English / English-Spanish, page 949,
+  entry 'archery'". Citations are written out in full -- Volume, Chapter,
+  page, entry, then By, Edited by, Translated by, the imprint and ISBN -- so
+  a reader or a search engine looking for the book finds the page. Built on
+  Fumiko over a fresh prod dump, warmed there (72,376 pages, every one on
+  EarthFluent's own stylesheet), and swapped in under the checksum guard
+  with the pages. Two traps on the way, both on Fumiko: reloading its
+  database left the row cache remembering the old Reference branch, so the
+  first book filed itself under a ghost id until the cache was cleared; and a
+  partial sync skipped the stylesheet build, so the first warm baked pages
+  onto the default stylesheet until it was rebuilt.
+
 - EarthFluent's second wave of Spanish corrections is live: 172 rows, the
   first Spanish pass fed by the local models. Iran had been *Corrí* ("I
   ran"), Stockholm sat in Switzerland, and to fly was the insect. Of the
