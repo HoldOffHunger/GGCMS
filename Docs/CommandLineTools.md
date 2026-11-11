@@ -556,7 +556,7 @@ import_academic_references.php earthfluent.com --citations=task-47.results.citat
 ```
 
 Dry by default. Reads a citations file the reference worker writes beside its
-results (`E:\AIWorkers\data	asks	ask-<id>.results.citations.jsonl`), one
+results (`E:\AIWorkers\data\tasks\task-<id>.results.citations.jsonl`), one
 JSON line per citation in `AcademicReference`'s field names, and writes one row
 per entry and book: new citations inserted, changed ones updated, identical ones
 left alone, so a second run changes nothing.
