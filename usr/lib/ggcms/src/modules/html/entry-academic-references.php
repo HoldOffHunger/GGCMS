@@ -2,8 +2,11 @@
 
 		/*
 			The published books that back an entry, as a citation list at
-			the foot of its page: shut by default, there for a reader who
-			wants to see that the entry was checked.  Each line is the
+			the foot of its page: the first lines shown, fading under a Show
+			more button, enough to tempt a reader who wants to see that the
+			entry was checked.  The heading's arrow or the button opens the
+			rest.  Without JavaScript the whole list shows, since the script
+			is what folds it.  Each line is the
 			book -- authors, title, edition, publisher, year, ISBN, from its
 			Publication record -- and where in it: volume, chapter, page and
 			headword.  The book's own text is never printed.
@@ -32,8 +35,11 @@
 
 			$books = $this->Books(['references'=>$references]);
 
-			print('<details class="block academic-references" id="references">');
-			print('<summary>References (' . count($references) . ')</summary>');
+			print('<section class="block academic-references" id="references" aria-label="References">');
+			print('<button type="button" class="academic-references-toggle" aria-expanded="true" aria-controls="academic-references-body">');
+			print('<span class="academic-references-arrow" aria-hidden="true">&#9660;</span> References (' . count($references) . ')');
+			print('</button>');
+			print('<div class="academic-references-body" id="academic-references-body">');
 			print('<ol class="academic-reference-list">');
 
 			foreach($references as $reference) {
@@ -49,7 +55,52 @@
 			}
 
 			print('</ol>');
-			print('</details>');
+			print('<button type="button" class="academic-references-more" hidden>Show more</button>');
+			print('</div>');
+			print('</section>');
+
+			$this->DisplayScript();
+
+			return TRUE;
+		}
+
+			/*
+				Folds the list to its first lines, and opens it from the
+				heading or the Show more button.  A list short enough to show
+				whole is left open, with no button to press for nothing.
+			*/
+
+		public function DisplayScript() {
+			print('
+				<script>
+					(function() {
+						var block = document.getElementById("references");
+						var toggle = block.querySelector(".academic-references-toggle");
+						var arrow = block.querySelector(".academic-references-arrow");
+						var body = block.querySelector(".academic-references-body");
+						var more = block.querySelector(".academic-references-more");
+
+						function show(open) {
+							block.classList.toggle("is-folded", !open);
+							toggle.setAttribute("aria-expanded", open ? "true" : "false");
+							arrow.innerHTML = open ? "&#9660;" : "&#9654;";
+							more.hidden = open;
+						}
+
+						block.classList.add("is-folded");
+
+						if(body.scrollHeight <= body.clientHeight + 4) {
+							block.classList.remove("is-folded");
+							return;
+						}
+
+						show(false);
+
+						toggle.addEventListener("click", function() { show(block.classList.contains("is-folded")); });
+						more.addEventListener("click", function() { show(true); });
+					})();
+				</script>
+			');
 
 			return TRUE;
 		}
