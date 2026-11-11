@@ -9,6 +9,28 @@ live installation rather than estimated.
 
 ## 2026, November 11
 
+- Deleted records lost their backups. `DetectChangedRecords()` kept a
+  deletion under the record's id and a change by appending, and
+  `BackupOldRecord()` counted from 0, so a deleted record was found and never
+  filed -- nor any change to the same table after it: an edit that removed one
+  tag and renamed another kept neither. Had a deletion been reached, its
+  `OldValue` would have been NULL in a NOT NULL column. Deleting a whole entry
+  filed nothing at all. Now a deleted record is filed whole, one RecordChange
+  row with `RecordField` `*` and every column as JSON; a removed row that comes
+  back blank under its old id, which is how the Update path usually removes
+  one, counts as deleted; deleting an entry files the entry, every child
+  record, its assignment and the associations other entries made to it
+  before anything goes; and a backup that cannot be written stops the update
+  or delete rather than letting it run unrecorded. Proved on Fumiko by
+  deleting Javanese and the Spanish *panyabí*: four `*` rows, every column.
+
+- Spell Check Immune landed on the wrong text. The text-body switches were
+  checkboxes, which post nothing when clear, and the Prepare stage reads them
+  by position, so with two texts and only the second ticked, the first became
+  immune and the second did not; the other three switches slipped the same
+  way. They are No/Yes selects now, which always post, on every text body --
+  including the hidden row Add Text copies, which had none.
+
 - `importer.php`: new entries, changes and deletions from a file -- tab-delimited,
   comma-separated, JSON, JSON lines, Excel, or a zip carrying one of those and
   its images -- with a report of exactly what each row did. Ben's design, first

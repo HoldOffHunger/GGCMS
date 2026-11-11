@@ -2768,6 +2768,18 @@
 			no Assignment any more, and its Edit form fataled on count(null).
 		*/
 
+			//  What DeleteChosenAssociations() is about to remove, read first so the Backup stage can file it.
+
+		public function GetChosenAssociations($args) {
+			$fill_arrays_from_db_args = [
+				'query'=>'SELECT * FROM Association WHERE ChosenEntryid = ?',
+				'sqlbindstring'=>'i',
+				'recordvalues'=>[(int)$args['entry']['id']],
+			];
+
+			return $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
+		}
+
 		public function DeleteChosenAssociations($args) {
 			$entry = $args['entry'];
 

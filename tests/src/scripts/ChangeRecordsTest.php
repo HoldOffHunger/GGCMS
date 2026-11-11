@@ -19,6 +19,31 @@
 		}
 	}
 
+		// The database, for the Backup stage: every RecordChange it is asked to write, and an answer for the rest
+	class ChangeRecordsTestDatabase {
+		public $written = [];
+		public $fail = FALSE;
+		public $chosen = [];
+
+		public function CreateRecord($args) {
+			if($this->fail) {
+				return ['line'=>1, 'error'=>'refused'];
+			}
+
+			$this->written[] = $args['definition'];
+
+			return $args['definition'] + ['id'=>count($this->written)];
+		}
+
+		public function GetStandardEntryRecordTypes() {
+			return ['Tag'=>'tag', 'TextBody'=>'textbody'];
+		}
+
+		public function GetChosenAssociations($args) {
+			return $this->chosen;
+		}
+	}
+
 	#[PHPUnit\Framework\Attributes\RunTestsInSeparateProcesses]
 	class ChangeRecordsTest extends GGCMSTestCase {
 		protected function setUp(): void {
@@ -152,6 +177,167 @@
 			$this->assertTrue($importer->IsSecure());
 			$this->assertTrue($importer->RequiresLogin());
 			$this->assertTrue($importer->AdminOnly());
+		}
+
+			// The Backup stage
+			// -----------------------------------------------
+
+		public function backup() {
+			$this->load('importer');
+
+			$database = new ChangeRecordsTestDatabase();
+
+			$subject = $this->newWithoutConstructor(['class'=>'importerrow']);
+			$subject->db_access_object = $database;
+			$subject->orm = $database;
+			$subject->authentication_object = (object)['user_session'=>['id'=>7]];
+			$subject->errors = [];
+			$subject->textbody = [];
+
+			return $subject;
+		}
+
+			/*
+				One tag deleted and another changed, in one update: the deleted
+				one filed whole, the changed one by its field.  Until 11 November
+				2026 neither was filed -- the deletion was kept under its id,
+				40314, the change appended after it at 40315, and the loop
+				counted 0 and 1.
+			*/
+		public function testADeletedRecordIsFiledWholeBesideAChangedOne() {
+			$subject = $this->backup();
+
+			$old_tags = [
+				['id'=>'40314', 'Tag'=>'verse', 'Language'=>'en', 'Entryid'=>'50'],
+				['id'=>'40320', 'Tag'=>'rhyme', 'Language'=>'en', 'Entryid'=>'50'],
+			];
+
+			$subject->entry = ['id'=>'50', 'Title'=>'Poetry', 'Code'=>'poetry'];
+			$subject->entry_unset = ['id'=>'50', 'Title'=>'Poetry', 'Code'=>'poetry', 'tag'=>$old_tags];
+			$subject->tag = [['id'=>'40320', 'Tag'=>'metre', 'Language'=>'en']];
+
+			$this->assertTrue($subject->BackupOldRecord());
+
+			$written = $subject->db_access_object->written;
+			$this->assertCount(2, $written);
+
+			$this->assertSame('*', $written[0]['RecordField']);
+			$this->assertSame(40314, $written[0]['Recordid']);
+			$this->assertSame('Tag', $written[0]['RecordType']);
+			$this->assertSame(['id'=>'40314', 'Tag'=>'verse', 'Language'=>'en', 'Entryid'=>'50'], json_decode($written[0]['OldValue'], TRUE), 'every column, enough to put it back');
+
+			$this->assertSame('Tag', $written[1]['RecordField']);
+			$this->assertSame('40320', $written[1]['Recordid']);
+			$this->assertSame('rhyme', $written[1]['OldValue']);
+			$this->assertSame(7, $written[1]['Userid']);
+		}
+
+			// A removed record usually comes back as a blank row wearing its id, which Remove then deletes: still a deletion
+		public function testARecordLeftBlankIsFiledWhole() {
+			$subject = $this->backup();
+
+			$subject->entry = ['id'=>'50418', 'Title'=>'Punjabi', 'Code'=>'punjabi'];
+			$subject->entry_unset = ['id'=>'50418', 'Title'=>'Punjabi', 'Code'=>'punjabi', 'entrytranslation'=>[['id'=>'40312', 'Title'=>'panyabí', 'Language'=>'es']]];
+			$subject->entrytranslation = [['id'=>'40312', 'Title'=>'', 'Language'=>'']];
+
+			$subject->orm = new class extends ChangeRecordsTestDatabase {
+				public function GetStandardEntryRecordTypes() {
+					return ['EntryTranslation'=>'entrytranslation'];
+				}
+			};
+			$subject->db_access_object = $subject->orm;
+
+			$this->assertTrue($subject->BackupOldRecord());
+
+			$written = $subject->db_access_object->written;
+			$this->assertCount(1, $written);
+			$this->assertSame('*', $written[0]['RecordField']);
+			$this->assertSame(['id'=>'40312', 'Title'=>'panyabí', 'Language'=>'es'], json_decode($written[0]['OldValue'], TRUE));
+		}
+
+		public function testAFailedBackupStopsTheUpdate() {
+			$subject = $this->backup();
+			$subject->db_access_object->fail = TRUE;
+
+			$subject->entry = ['id'=>'50', 'Title'=>'Prose', 'Code'=>'poetry'];
+			$subject->entry_unset = ['id'=>'50', 'Title'=>'Poetry', 'Code'=>'poetry', 'tag'=>[]];
+			$subject->tag = [];
+
+			$this->assertFalse($subject->BackupOldRecord());
+			$this->assertCount(1, $subject->errors);
+		}
+
+			// A deleted entry: the entry, its child records, its assignment and the associations to it, before anything goes
+		public function testDeletingAnEntryFilesEverythingFirst() {
+			$subject = $this->backup();
+			$subject->db_access_object->chosen = [['id'=>'9', 'Entryid'=>'12', 'ChosenEntryid'=>'50', 'Type'=>'author']];
+
+			$subject->entry = ['id'=>'50', 'Title'=>'Poetry', 'Code'=>'poetry', 'tag'=>[['id'=>'1']], 'description'=>NULL];
+			$subject->parent = ['id'=>'4', 'Title'=>'Books'];
+			$subject->tag = [['id'=>'1', 'Tag'=>'verse'], ['id'=>'2', 'Tag'=>'rhyme']];
+			$subject->textbody = [['id'=>'3', 'Text'=>'<p>Dans le jardin, l\'été.</p>'], ['Text'=>'']];
+
+			$this->assertTrue($subject->BackupDeletedEntry());
+
+			$filed = array_map(function($row) { return $row['RecordType'] . ' ' . $row['Recordid']; }, $subject->db_access_object->written);
+			$this->assertSame(['Entry 50', 'Tag 1', 'Tag 2', 'TextBody 3', 'Assignment 0', 'Association 9'], $filed, 'the blank text body that was never saved is not filed');
+
+			foreach($subject->db_access_object->written as $row) {
+				$this->assertSame('*', $row['RecordField']);
+				$this->assertSame('50', $row['Entryid']);
+			}
+
+			$this->assertSame(['id'=>'50', 'Title'=>'Poetry', 'Code'=>'poetry'], json_decode($subject->db_access_object->written[0]['OldValue'], TRUE), 'the entry\'s own columns, not the child lists hung on it');
+			$this->assertSame(['Parentid'=>'4', 'Childid'=>'50'], json_decode($subject->db_access_object->written[4]['OldValue'], TRUE));
+			$this->assertStringContainsString('l\'été', json_decode($subject->db_access_object->written[3]['OldValue'], TRUE)['Text']);
+		}
+
+		public function testADeleteThatCannotBeBackedUpIsNotMade() {
+			$subject = $this->backup();
+			$subject->db_access_object->fail = TRUE;
+
+			$subject->entry = ['id'=>'50', 'Title'=>'Poetry'];
+			$subject->tag = [];
+
+			$this->assertFalse($subject->BackupDeletedEntry());
+		}
+
+			// Text-body switches
+			// -----------------------------------------------
+
+		public function switches($args) {
+			$this->load('modify');
+			$this->requireEngine(['file'=>'modules/spacing.php']);
+			$this->requireEngine(['file'=>'modules/html/modify-text-body.php']);
+
+			$module = $this->newWithoutConstructor(['class'=>'module_modifytextbody']);
+			$module->form = new module_form;
+			$module->adding = FALSE;
+
+			ob_start();
+			$module->DisplaySwitches($args);
+
+			return ob_get_clean();
+		}
+
+			/*
+				Every row, the hidden one Add Text copies included, posts every
+				switch -- a select always posts, where a clear checkbox posted
+				nothing and moved the next text's value onto this one.
+			*/
+		public function testEveryTextBodyPostsEverySwitch() {
+			$row = $this->switches(['record'=>['Text'=>'<p>Two</p>', 'SpellCheckImmune'=>'1'], 'mode'=>'row']);
+
+			foreach(['textbody_StripURLs', 'textbody_AmericanizeVocabulary', 'textbody_HTMLFormatting', 'textbody_SpellCheckImmune'] as $name) {
+				$this->assertStringContainsString('<select  name="' . $name . '[]"', $row, $name);
+			}
+
+			$this->assertStringNotContainsString('checkbox', $row);
+			$this->assertMatchesRegularExpression('/name="textbody_SpellCheckImmune\[\]".*?<option value="1" selected="SELECTED">Yes/s', $row, 'immune, as stored');
+			$this->assertMatchesRegularExpression('/name="textbody_StripURLs\[\]".*?<option value="" selected="SELECTED">No/s', $row, 'an existing text has every cleaning off');
+
+			$hidden = $this->switches(['record'=>NULL, 'mode'=>'hidden']);
+			$this->assertStringContainsString('name="textbody_SpellCheckImmune-Hidden"', $hidden, 'the row Add Text copies has them too, renamed to [] when copied');
 		}
 	}
 

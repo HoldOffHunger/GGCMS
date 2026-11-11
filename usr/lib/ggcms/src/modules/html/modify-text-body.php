@@ -4,11 +4,9 @@
 
 		/*
 			An entry's text bodies on a modify.php form: the text, its
-			source, the three cleaning checkboxes, whether the spellcheck
-			skips it, and its language.
-
-			As Edit always printed them: the hidden row has no checkboxes,
-			and only a row's checkboxes have a size.
+			source, the three cleaning switches, whether the spellcheck skips
+			it, and its language -- the switches on every row, the hidden one
+			Add Text copies included.
 		*/
 
 	class module_modifytextbody extends module_modifyrecords {
@@ -41,9 +39,7 @@
 				'class'=>$this->Replicated($args) ? 'textbody_Source' : NULL,
 			]);
 
-			if($mode !== 'hidden') {
-				$this->DisplayCheckboxes(['record'=>$record, 'mode'=>$mode]);
-			}
+			$this->DisplaySwitches(['record'=>$record, 'mode'=>$mode]);
 
 			print('Language : ');
 
@@ -85,8 +81,21 @@
 			return $this->adding && $args['mode'] === 'blank';
 		}
 
-		public function DisplayCheckboxes($args) {
-			$checkboxes = [
+			/*
+				A No/Yes select for each switch, on every text body -- the
+				hidden row Add Text copies as well, so a text added on the page
+				has them too.
+
+				They were checkboxes until 11 November 2026, and a checkbox
+				posts nothing when it is clear.  The Prepare stage reads these
+				by position, one per text body, so with two texts and only the
+				second ticked Spell Check Immune, the one value that came went
+				to the first text and the second lost it.  A select always
+				posts, so the nth value is always the nth text's.
+			*/
+
+		public function DisplaySwitches($args) {
+			$switches = [
 				'textbody_StripURLs'=>'Strip URLs : ',
 				'textbody_AmericanizeVocabulary'=>'Americanize Vocabulary : ',
 				'textbody_HTMLFormatting'=>'HTML Formatting : ',
@@ -95,22 +104,18 @@
 
 			print("<br>");
 
-			foreach($checkboxes as $name => $label) {
+			foreach($switches as $name => $label) {
 				print($label);
 
-				$checkbox_args = [
-					'type'=>'checkbox',
-					'name'=>$name . '[]',
-					'value'=>1,
-					'maxlength'=>512,
-					'checked'=>$this->Checked(['name'=>$name, 'record'=>$args['record']]),
-				];
-
-				if($args['mode'] === 'row') {
-					$checkbox_args['size'] = 30;
-				}
-
-				$this->form->DisplayFormField($checkbox_args);
+				$this->form->DisplayFormField([
+					'type'=>'select',
+					'name'=>$this->Name(['name'=>$name, 'mode'=>$args['mode']]),
+					'options'=>[
+						['optionvalue'=>'', 'optiontitle'=>'No'],
+						['optionvalue'=>'1', 'optiontitle'=>'Yes'],
+					],
+					'selected'=>$this->Checked(['name'=>$name, 'record'=>$args['record']]) ? '1' : '',
+				]);
 
 				print("<br>");
 			}

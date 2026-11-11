@@ -721,7 +721,7 @@
 			$name = 'Entry ' . $group['entryid'] . ' at /' . implode('/', $current['path']) . '/, "' . $current['entry']['Title'] . '"';
 
 			if(!$apply) {
-				return ['rows'=>array_fill_keys($group['rows'], ['outcome'=>'Deleted old record', 'details'=>['Would delete ' . $name . ', with its child records and its assignment.'], 'entryid'=>$group['entryid']])];
+				return ['rows'=>array_fill_keys($group['rows'], ['outcome'=>'Deleted old record', 'details'=>['Would delete ' . $name . ', with its child records and its assignment, every one filed whole in RecordChange first.'], 'entryid'=>$group['entryid']])];
 			}
 
 			$rider = $this->ImportRider([
@@ -739,7 +739,7 @@
 				return ['rows'=>array_fill_keys($group['rows'], ['outcome'=>'Error', 'details'=>[$rider->save_status]]), 'wrote'=>TRUE];
 			}
 
-			return ['rows'=>array_fill_keys($group['rows'], ['outcome'=>'Deleted old record', 'details'=>['Deleted ' . $name . ', with its child records and its assignment.'], 'entryid'=>$group['entryid']]), 'wrote'=>TRUE];
+			return ['rows'=>array_fill_keys($group['rows'], ['outcome'=>'Deleted old record', 'details'=>['Deleted ' . $name . ', with its child records and its assignment, every one filed whole in RecordChange first.'], 'entryid'=>$group['entryid']]), 'wrote'=>TRUE];
 		}
 
 			// The Post

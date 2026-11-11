@@ -177,8 +177,9 @@
 
 			/*
 				The entry the request names, its child records, its assignment,
-				and the associations other entries made to it.  canUserDelete()
-				decides who may, here as on the web.
+				and the associations other entries made to it -- every one of
+				them filed in RecordChange first, by BackupDeletedEntry().
+				canUserDelete() decides who may, here as on the web.
 			*/
 
 		public function DeleteEntryWithChildRecords() {
@@ -195,6 +196,13 @@
 			$this->delete_in_progress = 1;
 
 			$this->OrderAndFillChildRecords();
+
+			if(!$this->BackupDeletedEntry()) {
+				$this->saveattemptresults = FALSE;
+				$this->save_status = 'Delete not attempted: the entry could not be backed up first, so nothing was deleted.';
+
+				return TRUE;
+			}
 
 			$this->save_status = 'Delete attempted.';
 

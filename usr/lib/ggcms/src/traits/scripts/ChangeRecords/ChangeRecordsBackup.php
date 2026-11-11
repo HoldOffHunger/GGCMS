@@ -1,16 +1,24 @@
 <?php
 
 	/*
-		Belt stage five, for an update only: Backup.  Before anything is
-		written, every changed record's old value is filed in RecordChange,
+		Belt stage five, for an update or a delete: Backup.  Before anything
+		is written, every changed record's old value is filed in RecordChange,
 		with who changed it, which entry, which table and which field.  This
 		is the history a site has; anything that writes around this stage
 		leaves none.
+
+		A record that is deleted is filed whole: one row whose RecordField is
+		*, holding the record as JSON, every column it had -- enough to put it
+		back.  Deleting an entry files the entry, every child record, its
+		assignment and the associations other entries made to it, before any
+		of them goes.  If a backup cannot be written, nothing is: the verb
+		stops, and a record is never removed without its copy.
 
 		One stage of the belt described in ChangeRecords.php.
 	*/
 
 	trait ChangeRecordsBackup {
+		public $errors;
 		
 			/*
 				Whether this update changes the entry itself.  An administrator's
@@ -54,34 +62,151 @@
 					'fields'=>$fields,
 				]);
 				
-				$changed_records_count = count($changed_records);
-				if($changed_records_count > 0) {
-					for($i = 0; $i < $changed_records_count; $i++) {
-						$changed_record = $changed_records[$i];
-						if($changed_record && count($changed_record)) {
-							$conflicting_field = $changed_record['conflictingfield'];
-							
-							if(!$conflicting_field) {
-								$conflicting_field = '';
-							}
-							$backup_insert_args = [
-								'type'=>'RecordChange',
-								'definition'=>[
-									'Entryid'=>$entry['id'],
-									'Userid'=>$this->authentication_object->user_session['id'],
-									'RecordField'=>$conflicting_field,
-									'Recordid'=>$changed_record['id'],
-									'RecordType'=>$formal_type,
-									'OldValue'=>$changed_record[$conflicting_field],
-								],
-							];
-							
-							$backup = $this->db_access_object->CreateRecord($backup_insert_args);
-						}
+					/*
+						A changed record names the field that changed; a deleted
+						one names none, and is filed whole.  Until 11 November
+						2026 a deleted record was found and never filed: this
+						loop counted 0 to n-1, and DetectChangedRecords() kept a
+						deletion under its id, so neither it nor any change
+						after it was ever reached -- and had it been, its
+						OldValue would have been NULL in a NOT NULL column.
+					*/
+
+				foreach($changed_records as $changed_record) {
+					if(!$changed_record || !count($changed_record)) {
+						continue;
+					}
+
+					if(empty($changed_record['conflictingfield'])) {
+						unset($changed_record['conflictingfield']);
+
+						$backed_up = $this->BackupWholeRecord([
+							'entryid'=>$entry['id'],
+							'type'=>$formal_type,
+							'record'=>$changed_record,
+						]);
+					} else {
+						$conflicting_field = $changed_record['conflictingfield'];
+
+						$backed_up = $this->BackupRecordChange([
+							'entryid'=>$entry['id'],
+							'field'=>$conflicting_field,
+							'recordid'=>$changed_record['id'],
+							'type'=>$formal_type,
+							'oldvalue'=>(string)$changed_record[$conflicting_field],
+						]);
+					}
+
+					if(!$backed_up) {
+						return FALSE;
 					}
 				}
 			}
-			
+
+			return TRUE;
+		}
+
+			//  One RecordChange row.  FALSE if it could not be written.
+
+		public function BackupRecordChange($args) {
+			$backup_insert_args = [
+				'type'=>'RecordChange',
+				'definition'=>[
+					'Entryid'=>$args['entryid'],
+					'Userid'=>$this->authentication_object->user_session['id'],
+					'RecordField'=>$args['field'],
+					'Recordid'=>$args['recordid'],
+					'RecordType'=>$args['type'],
+					'OldValue'=>$args['oldvalue'],
+				],
+			];
+
+			$backup = $this->db_access_object->CreateRecord($backup_insert_args);
+
+			if(!is_array($backup) || !empty($backup['line'])) {
+				$this->errors[] = ['The old ' . $args['type'] . ' could not be backed up, so nothing was changed.'];
+
+				return FALSE;
+			}
+
+			return TRUE;
+		}
+
+			/*
+				A deleted record, whole: RecordField *, and every column it had
+				as JSON.  Only the record's own values go -- a child list the
+				ORM hung on it is filed as records of its own, or not at all.
+			*/
+
+		public function BackupWholeRecord($args) {
+			$record = [];
+
+			foreach((array)$args['record'] as $field => $value) {
+				if($value !== NULL && !is_array($value) && !is_object($value)) {		# not the child lists the ORM hangs on an entry, empty or not
+					$record[$field] = $value;
+				}
+			}
+
+			return $this->BackupRecordChange([
+				'entryid'=>$args['entryid'],
+				'field'=>'*',
+				'recordid'=>isset($record['id']) ? (int)$record['id'] : 0,
+				'type'=>$args['type'],
+				'oldvalue'=>json_encode($record, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_INVALID_UTF8_SUBSTITUTE),
+			]);
+		}
+
+			/*
+				Everything a delete is about to remove, filed whole first: the
+				entry, each of its child records, the Assignment that placed it
+				(as Parentid and Childid -- its own id is not read here), and
+				the associations other entries made to it, which
+				DeleteChosenAssociations() removes with it.
+			*/
+
+		public function BackupDeletedEntry() {
+			$entryid = $this->entry['id'];
+
+			if(!$this->BackupWholeRecord(['entryid'=>$entryid, 'type'=>'Entry', 'record'=>$this->entry])) {
+				return FALSE;
+			}
+
+			foreach($this->GetRecordTypes() as $formal_type => $variable_name) {
+				if($variable_name === 'entry' || !is_array($this->$variable_name)) {
+					continue;
+				}
+
+				foreach($this->$variable_name as $record) {
+					if(empty($record['id'])) {
+						continue;
+					}
+
+					if(!$this->BackupWholeRecord(['entryid'=>$entryid, 'type'=>$formal_type, 'record'=>$record])) {
+						return FALSE;
+					}
+				}
+			}
+
+			$parentid = ($this->parent && isset($this->parent['id'])) ? $this->parent['id'] : 0;
+
+			if(!$this->BackupWholeRecord(['entryid'=>$entryid, 'type'=>'Assignment', 'record'=>['Parentid'=>$parentid, 'Childid'=>$entryid]])) {
+				return FALSE;
+			}
+
+			$chosen_associations = $this->orm->GetChosenAssociations(['entry'=>$this->entry]);
+
+			if(!is_array($chosen_associations) || !empty($chosen_associations['line'])) {
+				$this->errors[] = ['The associations other entries made to this one could not be read, so nothing was deleted.'];
+
+				return FALSE;
+			}
+
+			foreach($chosen_associations as $association) {
+				if(!$this->BackupWholeRecord(['entryid'=>$entryid, 'type'=>'Association', 'record'=>$association])) {
+					return FALSE;
+				}
+			}
+
 			return TRUE;
 		}
 		
@@ -134,8 +259,17 @@
 				$comparable_record = $new_record_data[$old_record_id];
 				
 				if($old_record['id'] >= 1) {
-					if(!$comparable_record) {
-						$conflicts[$old_record['id']] = $old_record;
+						/*
+							Deleted: no conflictingfield, so it is filed whole.  A
+							child record removed from the form usually comes back
+							not missing but blank -- RealignEntryIDsForRecordUpdate()
+							hands ids out by position, so the empty row left in its
+							place wears its id -- and Remove then deletes it.  That is
+							a deletion too, not a field emptied.
+						*/
+
+					if(!$comparable_record || ($record_type_lc !== 'entry' && $fields_count && $this->RecordIsBlank(['record'=>$comparable_record, 'fields'=>$fields]))) {
+						$conflicts[] = $old_record;
 					} else {
 						for($i = 0; $i < $fields_count; $i++) {
 							$field = $fields[$i];
@@ -151,7 +285,19 @@
 			
 			return $conflicts;
 		}
-		
+
+			//  Every one of a record's primary fields empty: the row a removed record leaves behind.
+
+		public function RecordIsBlank($args) {
+			foreach($args['fields'] as $field) {
+				if(isset($args['record'][$field]) && strlen(trim((string)$args['record'][$field]))) {
+					return FALSE;
+				}
+			}
+
+			return TRUE;
+		}
+
 		public function GetRecordsPrimaryFields() {
 			return [
 				'Entry'=>['Title'],

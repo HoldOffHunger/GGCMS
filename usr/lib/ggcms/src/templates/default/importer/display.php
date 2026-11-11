@@ -176,7 +176,7 @@
 	print('<ul>');
 	print('<li><b>New record.</b>  A row with no id makes a new entry, or, for a child table, a new record on the entry it names.</li>');
 	print('<li><b>Updated old record.</b>  A row with an id &mdash; <code>Entry_id</code>, or <code>Tag_id</code> for a tag &mdash; changes that record, and only that record.  Only the columns the file gives are changed; everything else the entry has stays exactly as it was.</li>');
-	print('<li><b>Deleted old record.</b>  A <code>Delete</code> column of <code>Y</code> or <code>YES</code> deletes the record the row names by its id: the entry for an Entry import, with all its child records and its place in the tree; the tag for a Tag import.  A delete row may name nothing but the id.</li>');
+	print('<li><b>Deleted old record.</b>  A <code>Delete</code> column of <code>Y</code> or <code>YES</code> deletes the record the row names by its id: the entry for an Entry import, with all its child records and its place in the tree; the tag for a Tag import.  Whatever is deleted is backed up whole in <b>RecordChange</b> first, and if the backup cannot be written nothing is deleted.  A delete row may name nothing but the id.</li>');
 	print('<li><b>Unchanged.</b>  The record already says what the row says.  A tag the entry already has is not added twice.</li>');
 	print('<li><b>Skipped.</b>  Not done, and not a fault: a new entry whose parent already has one with that title, or a <code>Current_</code> column the record no longer matches.</li>');
 	print('<li><b>Error.</b>  Not done, because something is wrong, with every reason the belt gave.  Nothing of that entry is written.</li>');

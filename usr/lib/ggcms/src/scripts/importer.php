@@ -49,6 +49,7 @@
 		public $import_token;
 		public $import_upload_error;
 		public $import_constructor_args;
+		public $header_title_text;
 		
 			/*
 				The args this request's format built this script with, kept: every
