@@ -8,7 +8,7 @@ function is_file($path){return TRUE;}
 function unlink($path){$GLOBALS['deleted'][]=$path;$GLOBALS['events'][]='unlink';return !($GLOBALS['cleanup_failure']??FALSE);}
 function hash_file($algorithm,$path){return ($GLOBALS['hash_failure']??FALSE)?FALSE:'1234';}
 function move_uploaded_file($from,$to){$GLOBALS['moves'][]=[$from,$to];return $GLOBALS['move_success'];}
-$source=file_get_contents(dirname(__DIR__,3).'/src/scripts/modify.php');
+require_once(__DIR__.'/belt-source.php');$source=belt_source();
 $start=strpos($source,'public function SaveRecordFromQuery_Image()');$end=strpos($source,'public function DeleteFiles(',$start);
 eval('namespace UploadMoveDiagnostic; class ImageMethod {'.substr($source,$start,$end-$start).'}');
 class UploadFixture extends ImageMethod {

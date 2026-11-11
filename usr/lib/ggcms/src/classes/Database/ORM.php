@@ -2626,6 +2626,94 @@
 			return $selects;
 		}
 		
+			/*
+				The importer's three questions of the database: which entries
+				beneath a parent already carry a title, which entry a child
+				record belongs to, and where in the tree an entry sits.
+
+				The child record's table comes from the importer's own list of
+				record types -- never from a file -- since a table name cannot
+				be bound.
+			*/
+
+		public function GetChildEntriesTitled($args) {
+			$sql = 'SELECT Entry.id, Entry.Title, Entry.Code FROM Entry JOIN Assignment ON Assignment.Childid = Entry.id WHERE Assignment.Parentid = ? AND Entry.Title = ? ORDER BY Entry.id';
+
+			$fill_arrays_from_db_args = [
+				'query'=>$sql,
+				'sqlbindstring'=>'is',
+				'recordvalues'=>[(int)$args['parentid'], (string)$args['title']],
+			];
+
+			$entries = $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
+
+			return is_array($entries) ? $entries : [];
+		}
+
+		public function GetChildRecordEntryid($args) {
+			$type = $args['type'];
+
+			if(!in_array($type, $this->GetChildRecordTypes(), TRUE)) {
+				return 0;
+			}
+
+			$sql = 'SELECT Entryid FROM ' . $type . ' WHERE id = ?';
+
+			$fill_arrays_from_db_args = [
+				'query'=>$sql,
+				'sqlbindstring'=>'i',
+				'recordvalues'=>[(int)$args['id']],
+			];
+
+			$records = $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
+
+			return (is_array($records) && count($records)) ? (int)$records[0]['Entryid'] : 0;
+		}
+
+			/*
+				The codes from the top of the tree down to the entry, which is
+				the path modify.php is reached by: /spanish/lesson-3/ is
+				['spanish', 'lesson-3'].  The master record is the top and is
+				not part of any path.  An entry with several parents is placed
+				by its first assignment.  NULL when it cannot be placed.
+			*/
+
+		public function GetEntryCodePath($args) {
+			$entryid = (int)$args['entryid'];
+			$masterid = (int)$args['masterid'];
+
+			$codes = [];
+			$seen = [];
+			$current = $entryid;
+
+			while($current && $current !== $masterid) {
+				if(isset($seen[$current]) || count($codes) > 50) {
+					return NULL;		# a loop in the tree
+				}
+
+				$seen[$current] = TRUE;
+
+				$sql = 'SELECT Entry.Code, Assignment.Parentid FROM Entry LEFT JOIN Assignment ON Assignment.Childid = Entry.id WHERE Entry.id = ? ORDER BY Assignment.id LIMIT 1';
+
+				$fill_arrays_from_db_args = [
+					'query'=>$sql,
+					'sqlbindstring'=>'i',
+					'recordvalues'=>[$current],
+				];
+
+				$records = $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
+
+				if(!is_array($records) || !count($records)) {
+					return NULL;
+				}
+
+				array_unshift($codes, $records[0]['Code']);
+				$current = (int)$records[0]['Parentid'];
+			}
+
+			return $codes;
+		}
+
 		public function DeleteEntry($args) {
 			$entry = $args['entry'];
 			

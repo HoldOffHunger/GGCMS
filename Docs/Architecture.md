@@ -382,7 +382,8 @@ args hash and a table description. Writes go through exactly four methods:
 * `DeleteOtherRecords()`
 
 Those four are the only places in the system where data changes. The thirty-odd
-`SaveRecordFromQuery_*` methods in `modify.php` all bottom out there. Any hook
+`SaveRecordFromQuery_*` methods of the belt `modify.php` and `importer.php` share
+(`traits/scripts/ChangeRecords/`) all bottom out there. Any hook
 that needs to know "did anything change" belongs at those four points and
 nowhere else.
 

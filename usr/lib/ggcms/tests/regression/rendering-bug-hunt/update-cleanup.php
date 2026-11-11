@@ -1,9 +1,11 @@
 <?php
 error_reporting(E_ALL);
 set_error_handler(function($n,$m){throw new ErrorException($m,0,$n);});
-$source=file_get_contents(dirname(__DIR__, 3) . '/src/scripts/modify.php');
-$start=strpos($source,'public function Update()');$end=strpos($source,'public function Delete()', $start);
-eval('class UpdateFixture {public $save_status;public $saveattemptresults;public $savepreparedresults;public $saveaccepted;public $entryid; '.substr($source,$start,$end-$start).'
+require_once(__DIR__.'/belt-source.php');$source=belt_source();
+// modify.php's Update() reports on the belt's UpdateEntry(), which does the work: both are lifted.
+$start=strpos($source,'public function Update()');$end=strpos($source,'public function Delete()', $start);$methods=substr($source,$start,$end-$start);
+$start=strpos($source,'public function UpdateEntry()');$end=strpos($source,'public function DeleteEntryWithChildRecords()', $start);$methods.=substr($source,$start,$end-$start);
+eval('class UpdateFixture {public $save_status;public $saveattemptresults;public $savepreparedresults;public $saveaccepted;public $entryid;public $saveattempted;public $entry_modification_stop_before_save;public $entry_modification_stopped; '.$methods.'
  public $parent=["id"=>1];public $entry=["id"=>7];public $entry_unset=["association"=>[]];public $calls=[];
  public function Param($name){return FALSE;}
  public function DeleteChildRecordsForUpdate(){return FALSE;}

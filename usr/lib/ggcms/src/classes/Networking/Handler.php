@@ -271,14 +271,35 @@
 		}
 
 			/*
-				A web request's files arrive through PHP's own upload handling and
-				nothing else, so nothing here vouches for one.  CLIHandler answers
-				TRUE for the files modify_entry.php staged -- see
-				modify.php's MoveUploadedFile().
+				A web request's files arrive through PHP's own upload handling,
+				and move_uploaded_file() takes those and nothing else.  The one
+				exception is a file this request made itself from one that was
+				uploaded: importer.php takes images out of an uploaded zip, and
+				vouches for each path it wrote.  Only those paths, compared after
+				resolving, are moved by rename -- see ChangeRecordsSave's
+				MoveUploadedFile().  CLIHandler adds the files modify_entry.php
+				staged.
+
+				The name is older than the importer: these were only ever the
+				shell's until November 2026.
 			*/
 
+		public $vouched_uploads = [];
+
+		public function VouchForUpload($args) {
+			$file = realpath($args['file']);
+
+			if($file !== FALSE) {
+				$this->vouched_uploads[] = $file;
+			}
+
+			return TRUE;
+		}
+
 		public function IsCLIUpload($args) {
-			return FALSE;
+			$file = realpath($args['file']);
+
+			return $file !== FALSE && in_array($file, $this->vouched_uploads, TRUE);
 		}
 
 		public function Construct_Cleanser() {

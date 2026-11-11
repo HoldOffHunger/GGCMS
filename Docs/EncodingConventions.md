@@ -158,7 +158,7 @@ The codebase already reaches for the multi-byte forms — 19 `mb_substr`, 12
 | `htmlspecialchars()` | `htmlspecialchars($s, ENT_QUOTES, 'UTF-8')` |
 
 `mb_convert_encoding()` is also what makes `DOMDocument` behave —
-`scripts/modify.php:2214` converts to `HTML-ENTITIES` before `loadHTML()`,
+`ChangeRecordsPrepare`'s `PrepareRecordForSaving_TextBody()` converts to `HTML-ENTITIES` before `loadHTML()`,
 because `loadHTML()` otherwise assumes Latin-1 and mangles anything above
 `0x7F`.
 

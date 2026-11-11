@@ -7,11 +7,12 @@
 	/*
 		Drives modify.php from a shell.
 
-		It does not reimplement anything.  modify.php is 3,565 lines of rules
-		that exist nowhere else -- how an entry and its assignment are created
-		together, how child records attach, and how a date before the year 1000
-		is stored at all, given that MySQL DATETIME cannot hold one.  That last
-		is encoded at modify.php:2515 and decoded in traits/GGCMSDateFormat.php,
+		It does not reimplement anything.  modify.php and the belt it rides,
+		traits/scripts/ChangeRecords/, are rules that exist nowhere else -- how
+		an entry and its assignment are created together, how child records
+		attach, and how a date before the year 1000 is stored at all, given that
+		MySQL DATETIME cannot hold one.  That last is encoded in
+		ChangeRecordsPrepare and decoded in traits/GGCMSDateFormat.php,
 		and a second implementation would get it wrong eventually and silently.
 
 		So this makes the shell look like a request and runs the real thing:

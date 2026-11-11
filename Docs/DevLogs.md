@@ -7,6 +7,44 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 11
+
+- `importer.php`: new entries, changes and deletions from a file -- tab-delimited,
+  comma-separated, JSON, JSON lines, Excel, or a zip carrying one of those and
+  its images -- with a report of exactly what each row did. Ben's design, first
+  built for Confex in Perl. Headers are `Table_Field`, every column optional; an
+  id changes a record, a `Delete` of Y deletes one, `Entry_Identifier` gathers
+  rows into one entry and lets other rows file beneath it, and `Image_FileName`
+  finds a picture in the zip. The page is the manual, with a table picker that
+  asks `importer.json` for the table's columns and shows them as a header line
+  to copy. `import_entries.php` drives the same page from a shell and prints the
+  report, exiting 1 when it holds an error.
+
+- The reason it exists: `RecordChange` had nothing for EarthFluent, because its
+  courses were pasted in by a macro that went around `modify.php`, and only
+  `modify.php` backs up what it replaces. So the importer goes through
+  `modify.php`'s own code rather than beside it. That code -- read, cleanse,
+  validate, prepare, back up, save, format, remove, for every field of every
+  table -- is now a belt of traits in `traits/scripts/ChangeRecords/`, one stage
+  a file, run by `SaveEntry()`, `UpdateEntry()` and
+  `DeleteEntryWithChildRecords()`. `modify.php` went from 4,439 lines to 653
+  and wraps those three verbs in the HTML it reports with; the importer wraps
+  them in a report row. The move was checked line for line, every
+  `SetRecordFromQuery_*()` definition swapped for the shared table was proved
+  equal to the literal it replaced, and the rendering bug-hunt fixtures that
+  lift methods out of `modify.php` by source now read the belt too.
+
+- An import's update reads the entry as the Edit form does, lays the file's
+  changes over it, and rides the belt once stopped at Prepare. If any table the
+  file did not name would change, the entry is refused rather than damaged.
+  Tried on Fumiko's EarthFluent with nine rows -- four new entries (a missing
+  lesson and two words filed beneath it by identifier), a twin skipped, a
+  guarded translation fix, a delete, a malformed id -- then applied and checked:
+  the translation fix wrote RecordChange row 1, `javanés` filed as the old
+  value of EntryTranslation 40314, the first change history EarthFluent has
+  had. A second run skipped everything already made. Fumiko's database and its
+  row cache were put back afterwards.
+
 ## 2026, November 10
 
 - Entries can cite published books. `AcademicReference` is a new child table:

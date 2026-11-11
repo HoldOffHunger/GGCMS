@@ -2,9 +2,9 @@
 error_reporting(E_ALL);
 set_error_handler(function($n,$m){throw new ErrorException($m,0,$n);});
 // A reader's update to an entry is filed as an unpublished copy; the original must be left as it was.
-// UpdatesInPlace(), BackupOldRecord() and DeleteChildRecordsForUpdate() lifted from modify.php, run against
+// UpdatesInPlace(), BackupOldRecord() and DeleteChildRecordsForUpdate() lifted from the belt, run against
 // stand-ins and a scratch image folder.  Entry 50 is the original; a reader's copy is saved as 51.
-$source=file_get_contents(dirname(__DIR__,3).'/src/scripts/modify.php');$methods='';
+require_once(__DIR__.'/belt-source.php');$source=belt_source();$methods='';
 foreach(['UpdatesInPlace','BackupOldRecord','DeleteChildRecordsForUpdate'] as $name){
  if(!preg_match('/\t\tpublic function '.$name.'\(.*?\r?\n\t\t}\r?\n/s',$source,$m)){throw new Exception($name.' not found');}
  $methods.=$m[0];

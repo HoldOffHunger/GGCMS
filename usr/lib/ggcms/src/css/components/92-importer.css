@@ -1,0 +1,97 @@
+/*
+	The importer's page (importer.php): the report of what each row did,
+	the form, the header builder, and the manual beneath them.  Panels on
+	the page width, the report as a table whose rows are tinted by
+	outcome, and every header line in the monospace it will be pasted as.
+*/
+
+.importer-panel {
+	width: min(100% - 2 * var(--gutter), var(--page-width));
+	margin: var(--gap) auto;
+	padding: var(--gap);
+	background: var(--paper);
+	border: 1px solid var(--rule);
+	border-radius: var(--radius);
+	text-align: start;
+}
+
+.importer-panel h2 {
+	margin-top: 0;
+	font-family: var(--sans);
+}
+
+.importer-manual {
+	max-width: var(--measure);
+}
+
+.importer-manual code,
+.importer-header code,
+.importer-fields code {
+	font-family: var(--mono);
+}
+
+.importer-header {
+	padding: .75rem 1rem;
+	overflow-x: auto;
+	background: var(--ground);
+	border: 1px solid var(--rule-strong);
+	border-radius: var(--radius);
+	white-space: pre;
+	tab-size: 4;
+}
+
+.importer-fields {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: var(--text-sm);
+}
+
+.importer-fields td {
+	padding: .25rem .5rem;
+	border-bottom: 1px solid var(--rule);
+	vertical-align: top;
+}
+
+.importer-report {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: var(--text-sm);
+}
+
+.importer-report th,
+.importer-report td {
+	padding: .35rem .5rem;
+	border-bottom: 1px solid var(--rule);
+	text-align: start;
+	vertical-align: top;
+}
+
+.importer-report td:first-child,
+.importer-report td:nth-child(2) {
+	white-space: nowrap;
+}
+
+.importer-new-record td:nth-child(2),
+.importer-updated-old-record td:nth-child(2),
+.importer-deleted-old-record td:nth-child(2) {
+	color: var(--accent-ink);
+	font-weight: 700;
+}
+
+.importer-unchanged,
+.importer-not-attempted {
+	color: var(--muted);
+}
+
+.importer-error td:nth-child(2),
+.importer-skipped td:nth-child(2),
+p.importer-error,
+.importer-panel.importer-error {
+	color: var(--ink);
+	background: var(--accent-wash);
+	font-weight: 700;
+}
+
+.importer-danger {
+	border-color: var(--rule-strong);
+}

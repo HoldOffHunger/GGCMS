@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 set_error_handler(function($n,$m){throw new ErrorException($m,0,$n);});
-$source=file_get_contents(dirname(__DIR__,3).'/src/scripts/modify.php');
+require_once(__DIR__.'/belt-source.php');$source=belt_source();
 $methods='';
 foreach(['SaveRecordFromQueryForAll','SaveRecordFromQueryForUpdate'] as $name){$start=strpos($source,'public function '.$name.'()');$end=strpos($source,'public function ',$start+16);$methods.=substr($source,$start,$end-$start);}
 eval('class ParentMethods {'.$methods.'}');

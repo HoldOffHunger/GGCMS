@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 set_error_handler(function($n,$m){throw new ErrorException($m,0,$n);});
 $root=dirname(__DIR__,3).'/src/';
 require $root.'traits/scripts/SimpleORM.php';
-$source=file_get_contents($root.'scripts/modify.php');
+require_once(__DIR__.'/belt-source.php');$source=belt_source();
 $start=strpos($source,'public function PrepareRecordForSaving_EventDate()');$end=strpos($source,'public function PrepareRecordForSaving_Association()', $start);
 eval('class DatePipelineFixture {public $eventdate_unsaved;use SimpleORM;public $eventdate_unprepared;public function __construct(){$this->entry=["id"=>7];}public $eventdate;public $entry;public $handler;public function isUserAdmin(){return TRUE;}'.substr($source,$start,$end-$start).'}');
 $defaults=['id'=>0,'Entryid'=>7,'swapped'=>FALSE,'EventTime'=>'','Title'=>''];

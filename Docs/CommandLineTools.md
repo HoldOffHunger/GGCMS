@@ -488,6 +488,7 @@ talks to git; see [Deployment.md](Deployment.md).
 | `apply_spellcheck_fixes.php` | Applies reviewed AI Workers spellcheck fixes to `TextBody` |
 | `modify_entry.php` | Drives `modify.php` from a shell — creates and edits entries |
 | `import_academic_references.php` | Imports the reference worker's citations into `AcademicReference` |
+| `import_entries.php` | Drives `importer.php` from a shell -- new entries, changes and deletions from a file, with a report of every row |
 
 These write content, and none of them may ever be scheduled. They change what
 visitors read.
@@ -587,11 +588,12 @@ modify_entry.php earthfluent.com --path=/ --field=Title=Updates --field=Code=upd
 
 Dry by default, like everything else here.
 
-It reimplements nothing. `modify.php` is 3,565 lines of rules that exist in no
-other file — how an entry and its assignment are created together, how child
+It reimplements nothing. `modify.php`'s belt -- `traits/scripts/ChangeRecords/`,
+shared since November 2026 with `importer.php` -- is the set of rules that exist in no
+other place — how an entry and its assignment are created together, how child
 records attach, and how a date before the year 1000 is stored at all when MySQL
-`DATETIME` cannot hold one. That encoding lives at `modify.php:2515` and is
-decoded in `traits/GGCMSDateFormat.php`; a second implementation of it would go
+`DATETIME` cannot hold one. That encoding lives in `ChangeRecordsPrepare`'s
+`PrepareRecordForSaving_EventDate()` and is decoded in `traits/GGCMSDateFormat.php`; a second implementation of it would go
 wrong eventually, and silently.
 
 So this makes the shell look like a request instead. It populates `$_SERVER` and
@@ -722,12 +724,82 @@ copy is what modify.php files away, so the original stays where it was.
 
 modify.php stores an upload with `move_uploaded_file()`, which refuses anything
 PHP did not receive in the request's POST -- the point of it, and why the shell
-could not attach an image before. It now goes through modify.php's
+could not attach an image before. It now goes through `ChangeRecordsSave`'s
 `MoveUploadedFile()`, which asks the handler `IsCLIUpload()` first. Handler
 always answers no; CLIHandler answers yes for exactly the paths EntryModifier
 staged, and those alone are moved with `rename()`. Every web request still
 meets `move_uploaded_file()`. The method sits just above `DeleteFiles()`, inside
-the stretch of modify.php the `image-upload-move` regression lifts out and runs.
+the stretch of `ChangeRecordsSave` the `image-upload-move` regression lifts out and runs.
+Handler also answers yes for the images `importer.php` takes out of an uploaded
+zip, which it vouches for by path with `VouchForUpload()`.
+
+#### `import_entries.php`
+
+```bash
+import_entries.php earthfluent.com --file=es-fill.tsv --user=ADMIN
+import_entries.php earthfluent.com --file=es-fill.tsv --user=ADMIN --limit=0 --apply
+```
+
+`importer.php` from a shell. The page is the manual -- every header, every
+format, worked examples -- so read `/importer.php` on any site once; this is
+how the same importer runs over a file too big to upload or under `nohup`.
+
+Like `modify_entry.php`, it reimplements nothing: the file is staged as an
+upload, a request to `importer.php` is made, and the report it builds is
+printed. Every row is saved by the belt `modify.php` uses
+(`traits/scripts/ChangeRecords/`), so an import gets the same cleansing,
+validation, date encoding and code checks, and an update files every old value
+in `RecordChange` exactly as an edit does. Imports through anything else have
+left no history at all; EarthFluent's courses were made that way.
+
+**Preview by default.** A preview runs every row through the belt and stops it
+just before saving. `--apply` imports. Run it dry, read the report, then run it
+again.
+
+| Argument | Default | Does |
+|---|---|---|
+| *(first)* | asked for | The domain |
+| `--file=` | none | `.tsv`, `.csv`, `.json`, `.jsonl`, `.xlsx`, or a `.zip` holding one of those and its images |
+| `--images=` | none | A `.zip` of images, beside a file that is not already in one |
+| `--table=` | `Entry` | What a row is, and what a header with no table in it belongs to |
+| `--user=` | none | `ADMIN` or a user id. Required even for a preview: `importer.php` is admin-only |
+| `--limit=` | `20` | How many rows to attempt; `0` for all |
+| `--only=` | every row | Print only these outcomes, comma-separated: `--only=Error,Skipped` |
+| `--report=` | none | Also write the whole report to this file |
+| `--apply` | off | Actually write, then flush the site's page cache for both hostnames |
+
+It exits 1 when the report holds an error, so a caller can tell.
+
+**The report** says, for every row, exactly what it did: `New record`,
+`Updated old record`, `Deleted old record`, `Unchanged`, `Skipped` (a twin
+title, or a `Current_` guard the record no longer matches), `Error` (with every
+reason the belt gave), or `Not attempted` (past `--limit`).
+
+**The header** is `Table_Field` -- `Entry_Title`, `Tag_Tag`,
+`EntryTranslation_Language` -- and every column is optional. A row with an id
+(`Entry_id`, `Tag_id`) changes that record; without one it makes a new one; a
+`Delete` of `Y` or `YES` deletes the record the row names by its id. Rows are
+gathered into entries by `Entry_id`, then `Entry_Identifier` (a name of the
+file's own, never stored), then title beneath the same parent, so five rows
+with one identifier are one entry with five tags. A new entry is filed by
+`Entry_ParentPath`, `Assignment_Parentid` or another row's
+`Entry_ParentIdentifier`. `Current_<header>` guards an update with the value
+the field must still have. A header nobody knows refuses the whole file, by
+name.
+
+**Running it twice is safe.** A new entry whose parent already has one titled
+alike is skipped and its twin named, and the twin then answers for the row's
+`Entry_Identifier`, so the rows beneath it are checked against what is already
+there. A second run finishes what a first one left undone.
+
+**An update cannot damage what it does not name.** The entry's records are
+read as the Edit form reads them and posted back with the file's changes laid
+over them. Before writing, it is ridden once with the belt stopped at Prepare,
+and if anything outside the tables the file named would change, the entry is
+refused and the change listed. Then it is ridden for real.
+
+On production, import on Fumiko first, warm there, and ship the tables and
+pages together, as the other importers here do.
 
 ### Images — `scripts/internal/images/`
 

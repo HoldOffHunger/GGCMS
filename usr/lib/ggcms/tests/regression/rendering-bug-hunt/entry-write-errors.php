@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 set_error_handler(function($n,$m){throw new ErrorException($m,0,$n);});
-$source=file_get_contents(dirname(__DIR__,3).'/src/scripts/modify.php');
+require_once(__DIR__.'/belt-source.php');$source=belt_source();
 $start=strpos($source,'public function SaveRecordFromQuery_Entry()');
 $end=strpos($source,'public function SaveRecordFromQuery_EntryTranslation()',$start);
 eval('class EntryMethod {'.substr($source,$start,$end-$start).'}');

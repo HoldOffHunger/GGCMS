@@ -92,7 +92,11 @@
 		public function IsCLIUpload($args) {
 			$file = realpath($args['file']);
 
-			return $file !== FALSE && in_array($file, $this->cli_uploads, TRUE);
+			if($file !== FALSE && in_array($file, $this->cli_uploads, TRUE)) {
+				return TRUE;
+			}
+
+			return parent::IsCLIUpload($args);		# the images an import took out of its zip
 		}
 	}
 

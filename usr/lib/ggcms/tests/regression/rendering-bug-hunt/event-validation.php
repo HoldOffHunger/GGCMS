@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 $warnings=[];
 set_error_handler(function($n,$m)use(&$warnings){$warnings[]=$m;return TRUE;});
 require dirname(__DIR__, 3) . '/src/classes/Charset/UTF8Characters.php';
-$source=file_get_contents(dirname(__DIR__, 3) . '/src/scripts/modify.php');
+require_once(__DIR__.'/belt-source.php');$source=belt_source();
 $start=strpos($source,'public function ValidateRecordForSaving_EventDate()');$end=strpos($source,'public function ValidateRecordForSaving_Association()', $start);
 eval('class EventFixture {public $handler;public $eventdate;public $errors=[];'.substr($source,$start,$end-$start).'}');
 $cases=[];

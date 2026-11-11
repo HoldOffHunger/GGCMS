@@ -6,7 +6,7 @@ class Imagick {}
 function is_file($path){return TRUE;}
 function unlink($path){$GLOBALS['deleted'][]=$path;return TRUE;}
 function hash_file($algorithm,$path){throw new \RuntimeException('Invalid upload reached hashing');}
-$source=file_get_contents(dirname(__DIR__,3).'/src/scripts/modify.php');
+require_once(__DIR__.'/belt-source.php');$source=belt_source();
 $start=strpos($source,'public function SaveRecordFromQuery_Image()');$end=strpos($source,'public function DeleteFiles(',$start);
 eval('namespace InvalidUploadDiagnostic; class ImageMethod {'.substr($source,$start,$end-$start).'}');
 class UploadFixture extends ImageMethod {
