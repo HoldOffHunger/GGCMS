@@ -56,6 +56,13 @@ people. Those, the same stray value on several rows (`〜する`, `厄介な`, `
 or languages, and the Numbers lesson -- written in figures, kanji, and with counters left on (`18才`, `80人`), now in
 kanji throughout -- added 315 records, so 714.
 
+Chinese, recorded the same day and not yet shipped: 326 suspects, of which Claude confirmed 194, corrected 106, and set
+26 aside. Chinese had no copied-down runs; its batch fault was the English of the row above glued onto a translation
+(`enterarrive`, `rc racingsailing`, Baghdad as `中国香港巴格达伊拉克`), and every such row was found. What the models
+passed over was one word standing for several English ones: `看` (to look) for a wristwatch, `法案` (a parliamentary
+bill) for the bill you pay, `公司` (a company) for firm the adjective, `州` for to state. Those, nationalities given as
+countries or languages, and a Numbers lesson that wrote 2003 as `两千三` (which is 2300) added 90 records, so 390.
+
 The same pass found the find-and-replace of 10 November had reached the Ethnicities lessons too, writing each course's
 own language over other nationalities in ten courses and over Hindi in two Languages lessons. 35 rows, English title,
 translation and URL code together, are in `repairs/2026-11-11-ethnicity-slot-repair.sql`; those rows are not in any

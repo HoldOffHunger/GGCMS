@@ -1,0 +1,5464 @@
+# Chinese (zh) — EarthFluent translation review
+# Confirmed 11 Nov 2026 by Claude from the local models' suspects (E:\AIWorkers\earthfluent\triage\zh.triage.txt),
+# checked against prod's dump of the evening of 10 Nov 2026, with each batch fault widened to the rows the models missed.
+# 390 records. Format: see README.md.
+
+id: 428
+entryid: 559
+permalink: 559
+lesson: Nouns - Animals, Part 4
+lang: zh
+english: Gerbil
+current: 格比尔
+proposed: 沙鼠
+kind: untranslated
+reason: 格比尔 is a phonetic transliteration that is not the standard term; the common Chinese word for gerbil is 沙鼠.
+source: Wiktionary (Chinese), s.v. "沙鼠": noun: gerbil; jird
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 450
+entryid: 588
+permalink: 588
+lesson: Nouns - Animals, Part 10
+lang: zh
+english: Coyote
+current: 土狼
+proposed: 郊狼
+kind: wrong-word
+reason: 土狼 refers to an aardwolf, whereas the correct term for a coyote is 郊狼.
+source: Wiktionary (Chinese), s.v. "郊狼": noun: coyote (Canis latrans, a species of canine native to North America)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 457
+entryid: 597
+permalink: 597
+lesson: Nouns - Animals, Part 12
+lang: zh
+english: Manta Ray
+current: 曼塔雷
+proposed: 蝠鲼
+kind: untranslated
+reason: 曼塔雷 is a transliteration; the manta ray is 蝠鲼 (the models' 魔鬼魚 is colloquial, and traditional script).
+source: Wiktionary (Chinese), s.v. "蝠鲼"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 464
+entryid: 605
+permalink: 605
+lesson: Nouns - Animals, Part 13
+lang: zh
+english: Pelican
+current: 鹈
+proposed: 鹈鹕
+kind: wrong-word
+reason: The character '鹈' is only the first part of the word; the full word for pelican is '鹈鹕'.
+source: Wiktionary (Chinese), s.v. "鹈鹕"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 480
+entryid: 625
+permalink: 625
+lesson: Nouns - Animals, Part 17
+lang: zh
+english: Scorpion
+current: 蝎
+proposed: 蝎子
+kind: wrong-word
+reason: The character '蝎' is the root, but '蝎子' is the standard noun used to refer to a scorpion.
+source: Wiktionary (Chinese), s.v. "蝎子"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3796
+entryid: 4805
+permalink: 4805
+lesson: Verbs - Activity With Objects, Part 5
+lang: zh
+english: act
+current: 法案
+proposed: 行动
+kind: wrong-sense
+reason: 法案 is a parliamentary act; to act is 行动.
+source: Wiktionary (Chinese), s.v. "行动"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 3811
+entryid: 4824
+permalink: 4824
+lesson: Verbs - Activity With Objects, Part 8
+lang: zh
+english: lift
+current: 电梯
+proposed: 举起
+kind: wrong-sense
+reason: 电梯 is a lift you ride in; to lift is 举起.
+source: Wiktionary (Chinese), s.v. "举起"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 3832
+entryid: 4851
+permalink: 4851
+lesson: Verbs - Activity With Objects, Part 14
+lang: zh
+english: pack
+current: 包
+proposed: 打包
+kind: wrong-class
+reason: 包 is a bag, the noun; to pack is 打包.
+source: Wiktionary (Chinese), s.v. "打包": verb: to pack (an object); to put food in a takeaway box; to put leftovers in a doggy bag or to order food as takeaway; to unpack (a box)
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 3851
+entryid: 4874
+permalink: 4874
+lesson: Verbs - Activity With Objects, Part 18
+lang: zh
+english: rip
+current: 安息
+proposed: 撕裂
+kind: wrong-word
+reason: 安息 is 'rest in peace', RIP; to rip is 撕裂.
+source: Wiktionary (Chinese), s.v. "撕裂": verb: to rip; to tear
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3894
+entryid: 4928
+permalink: 4928
+lesson: Verbs - General Activity, Part 12
+lang: zh
+english: enter
+current: 输入
+proposed: 进入
+kind: wrong-sense
+reason: The Chinese word '输入' refers to data input, whereas the lesson requires the word for physically entering a space.
+source: Wiktionary (Chinese), s.v. "进入"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3895
+entryid: 4929
+permalink: 4929
+lesson: Verbs - General Activity, Part 12
+lang: zh
+english: arrive
+current: enterarrive
+proposed: 到达
+kind: corrupt
+reason: The English of the row above was glued onto the translation.
+source: Wiktionary (Chinese), s.v. "到达"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3914
+entryid: 4953
+permalink: 4953
+lesson: Verbs - General Activity, Part 17
+lang: zh
+english: approach
+current: 途径
+proposed: 接近
+kind: wrong-sense
+reason: 途径 refers to a route or method, whereas the verb 'to approach' (moving closer) should be 接近.
+source: Wiktionary (Chinese), s.v. "接近": verb: to approach; to get close to; to draw near; to be similar (to); to be analogous (to)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3949
+entryid: 4997
+permalink: 4997
+lesson: Verbs - Emotional Activity, Part 2
+lang: zh
+english: enjoy
+current: 请享用
+proposed: 享受
+kind: wrong-form
+reason: The translation includes 'please' (请) and is a polite command, whereas the lesson requires the base verb for 'to enjoy'.
+source: Wiktionary (Chinese), s.v. "享受": verb: to enjoy; to relish; to delight in
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3950
+entryid: 4999
+permalink: 4999
+lesson: Verbs - Emotional Activity, Part 3
+lang: zh
+english: miss
+current: 小姐
+proposed: 想念
+kind: wrong-word
+reason: The Chinese word provided means 'Miss' (a title for a woman), whereas the lesson requires the verb 'to miss' (to feel longing).
+source: Wiktionary (Chinese), s.v. "想念": verb: to miss; to think of; to yearn for; to reminisce
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3953
+entryid: 5002
+permalink: 5002
+lesson: Verbs - Emotional Activity, Part 3
+lang: zh
+english: commit
+current: carecommit
+proposed: 承诺
+kind: corrupt
+reason: The English of the row above was glued onto the translation. Among emotional activities, to commit is 承诺 (the models' 犯罪 is to commit a crime).
+source: Wiktionary (Chinese), s.v. "承诺"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 3967
+entryid: 5020
+permalink: 5020
+lesson: Verbs - Emotional Activity, Part 7
+lang: zh
+english: sigh
+current: 叹
+proposed: 叹气
+kind: wrong-form
+reason: The character '叹' is a verb root that is almost always used as part of the compound '叹气' to mean 'to sigh'.
+source: Wiktionary (Chinese), s.v. "叹气"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3987
+entryid: 5045
+permalink: 5045
+lesson: Verbs - Physical Activity, Part 5
+lang: zh
+english: born
+current: 天生
+proposed: 出生
+kind: wrong-sense
+reason: 天生 describes an innate quality or trait, whereas the English word 'born' in this context refers to the act of being brought into life, which is 出生.
+source: Wiktionary (Chinese), s.v. "出生": verb: to be born; to lay down one's own life; to give up one's own life
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3990
+entryid: 5049
+permalink: 5049
+lesson: Verbs - Physical Activity, Part 6
+lang: zh
+english: strike
+current: 罢工
+proposed: 打击
+kind: wrong-sense
+reason: The Chinese word provided means 'to go on strike' (labor action), but the lesson requires the physical action of hitting something.
+source: Wiktionary (Chinese), s.v. "打击"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 3996
+entryid: 5057
+permalink: 5057
+lesson: Verbs - Physical Activity, Part 8
+lang: zh
+english: clear
+current: 明确
+proposed: 清理
+kind: wrong-class
+reason: 明确 is explicit, an adjective; to clear is 清理.
+source: Wiktionary (Chinese), s.v. "清理": verb: to clean; to tidy up; to arrange; to deal with; to handle; to clear (accounts); to settle; to liquidate
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 4001
+entryid: 5063
+permalink: 5063
+lesson: Verbs - Physical Activity, Part 9
+lang: zh
+english: dress
+current: 连衣裙
+proposed: 穿衣
+kind: wrong-class
+reason: 连衣裙 is a dress, the garment; to dress is 穿衣.
+source: Wiktionary (Chinese), s.v. "穿衣": verb: to put on clothes; to dress; to wear clothes
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 4006
+entryid: 5069
+permalink: 5069
+lesson: Verbs - Physical Activity, Part 10
+lang: zh
+english: exercise
+current: 行使
+proposed: 锻炼
+kind: wrong-sense
+reason: The Chinese word '行使' is used for exercising rights or power, while '锻炼' is used for physical exercise.
+source: Wiktionary (Chinese), s.v. "锻炼"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4021
+entryid: 5088
+permalink: 5088
+lesson: Verbs - Physical Activity, Part 14
+lang: zh
+english: race
+current: 种族
+proposed: 赛跑
+kind: wrong-sense
+reason: 种族 is a race of people; to race, as a physical activity, is 赛跑.
+source: Wiktionary (Chinese), s.v. "赛跑"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 4030
+entryid: 5099
+permalink: 5099
+lesson: Verbs - Physical Activity, Part 16
+lang: zh
+english: tackle
+current: 滑车
+proposed: 擒抱
+kind: wrong-word
+reason: 滑车 is a pulley block; to tackle, as a physical activity, is 擒抱 (the models' 处理 is to tackle a problem).
+source: Wiktionary (Chinese), s.v. "擒抱"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 4036
+entryid: 5107
+permalink: 5107
+lesson: Verbs - Physical Activity, Part 18
+lang: zh
+english: shrug
+current: 耸
+proposed: 耸肩
+kind: wrong-sense
+reason: The word '耸' describes something towering or rising high, whereas '耸肩' is the specific term for shrugging one's shoulders.
+source: Wiktionary (Chinese), s.v. "耸肩"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4037
+entryid: 5108
+permalink: 5108
+lesson: Verbs - Physical Activity, Part 18
+lang: zh
+english: block
+current: 块
+proposed: 阻挡
+kind: wrong-word
+reason: 块 is a lump; to block is 阻挡.
+source: Wiktionary (Chinese), s.v. "阻挡"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 4043
+entryid: 5116
+permalink: 5116
+lesson: Verbs - Physical Activity, Part 20
+lang: zh
+english: crash
+current: 紧急
+proposed: 碰撞
+kind: wrong-word
+reason: 紧急 is an emergency; to crash is 碰撞.
+source: Wiktionary (Chinese), s.v. "碰撞": verb: to collide; to run into; to hit; to impact; to offend; to hurt; to affront
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4045
+entryid: 5118
+permalink: 5118
+lesson: Verbs - Physical Activity, Part 20
+lang: zh
+english: tap
+current: 龙头
+proposed: 轻拍
+kind: wrong-sense
+reason: 龙头 is a tap you turn; to tap is 轻拍.
+source: Wiktionary (Chinese), s.v. "轻拍"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 4064
+entryid: 5144
+permalink: 5144
+lesson: Verbs - Mental Activity, Part 5
+lang: zh
+english: wonder
+current: 奇迹
+proposed: 想知道
+kind: wrong-word
+reason: The Chinese word provided means 'miracle' (a noun), but the lesson requires a verb meaning 'to wonder' (to be curious).
+source: Wiktionary (Chinese), s.v. "想知道"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4074
+entryid: 5156
+permalink: 5156
+lesson: Verbs - Mental Activity, Part 7
+lang: zh
+english: notice
+current: 注意
+proposed: 注意到
+kind: wrong-form
+reason: 注意 is to pay attention; to notice is 注意到.
+source: Wiktionary (Chinese), s.v. "注意到"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 4082
+entryid: 5166
+permalink: 5166
+lesson: Verbs - Mental Activity, Part 9
+lang: zh
+english: aim
+current: 目标
+proposed: 瞄准
+kind: wrong-class
+reason: 目标 is a target, the noun; to aim is 瞄准.
+source: Wiktionary (Chinese), s.v. "瞄准"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 4139
+entryid: 5238
+permalink: 5238
+lesson: Verbs - Social Activity, Part 4
+lang: zh
+english: lie
+current: 谎言
+proposed: 撒谎
+kind: wrong-class
+reason: The English word 'lie' is a verb, but the Chinese translation '谎言' is a noun meaning 'a lie'.
+source: Wiktionary (Chinese), s.v. "撒谎"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4140
+entryid: 5239
+permalink: 5239
+lesson: Verbs - Social Activity, Part 4
+lang: zh
+english: claim
+current: 要求
+proposed: 声称
+kind: wrong-sense
+reason: 要求 is to request; to claim is 声称.
+source: Wiktionary (Chinese), s.v. "声称"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 4159
+entryid: 5263
+permalink: 5263
+lesson: Verbs - Social Activity, Part 9
+lang: zh
+english: refuse
+current: 垃圾
+proposed: 拒绝
+kind: wrong-sense
+reason: The Chinese word provided means 'garbage' or 'trash', whereas the lesson requires a verb meaning 'to decline' or 'to say no'.
+source: Wiktionary (Chinese), s.v. "拒绝"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4160
+entryid: 5264
+permalink: 5264
+lesson: Verbs - Social Activity, Part 9
+lang: zh
+english: state
+current: 州
+proposed: 陈述
+kind: wrong-sense
+reason: 州 is a province or a US state; to state is 陈述.
+source: Wiktionary (Chinese), s.v. "陈述"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 4166
+entryid: 5272
+permalink: 5272
+lesson: Verbs - Social Activity, Part 11
+lang: zh
+english: demand
+current: 需求
+proposed: 要求
+kind: wrong-class
+reason: 需求 is demand, the noun; to demand is 要求.
+source: Wiktionary (Chinese), s.v. "要求": verb: to ask; to request; to require; to demand; to claim
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 4170
+entryid: 5277
+permalink: 5277
+lesson: Verbs - Social Activity, Part 12
+lang: zh
+english: order
+current: appointorder
+proposed: 命令
+kind: corrupt
+reason: The English of the row above was glued onto the translation. To order someone is 命令 (the models' 点菜 is ordering food only).
+source: Wiktionary (Chinese), s.v. "命令": noun: order; command; directive
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 4190
+entryid: 5303
+permalink: 5303
+lesson: Verbs - Social Activity, Part 18
+lang: zh
+english: imply
+current: 意味着
+proposed: 暗示
+kind: wrong-sense
+reason: 意味着 means 'to mean' or 'to signify', whereas 'imply' in the sense of suggesting something indirectly is 暗示.
+source: Wiktionary (Chinese), s.v. "暗示": verb: to hint at; to drop a hint; to imply
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4221
+entryid: 5343
+permalink: 5343
+lesson: Verbs - Social Activity, Part 27
+lang: zh
+english: date
+current: 日期
+proposed: 约会
+kind: wrong-sense
+reason: The Chinese word '日期' refers to a calendar date, while the lesson context requires the word for a romantic date or social outing.
+source: Wiktionary (Chinese), s.v. "约会"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4237
+entryid: 5363
+permalink: 5363
+lesson: Verbs - Social Activity, Part 31
+lang: zh
+english: interview
+current: 访问
+proposed: 面试
+kind: wrong-sense
+reason: 访问 means to visit a place or website, while 面试 is the correct word for a job interview.
+source: Wiktionary (Chinese), s.v. "面试"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4238
+entryid: 5365
+permalink: 5365
+lesson: Verbs - Social Activity, Part 32
+lang: zh
+english: remark
+current: 备注
+proposed: 评论
+kind: wrong-sense
+reason: The English word 'remark' as a verb means to say something, while '备注' refers to a written note or annotation in a document.
+source: Wiktionary (Chinese), s.v. "评论"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4241
+entryid: 5368
+permalink: 5368
+lesson: Verbs - Social Activity, Part 32
+lang: zh
+english: free
+current: 自由
+proposed: 释放
+kind: wrong-class
+reason: 自由 is freedom, the noun; to free is 释放.
+source: Wiktionary (Chinese), s.v. "释放"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 4273
+entryid: 5409
+permalink: 5409
+lesson: Verbs - Economic Activity, Part 5
+lang: zh
+english: employ
+current: 采用
+proposed: 雇用
+kind: wrong-sense
+reason: The Chinese word 采用 means 'to adopt' or 'to use,' whereas the lesson requires the word for 'to hire' or 'to employ' a person.
+source: Wiktionary (Chinese), s.v. "雇用"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 4279
+entryid: 5417
+permalink: 5417
+lesson: Verbs - Economic Activity, Part 7
+lang: zh
+english: afford
+current: 给予
+proposed: 负担得起
+kind: wrong-word
+reason: The Chinese word '给予' means 'to give' or 'to bestow,' which is not the correct translation for the economic sense of 'afford'.
+source: Wiktionary (Chinese), s.v. "负担得起"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 19801
+entryid: 24884
+permalink: 24884
+lesson: Nouns - Concepts, Part 10
+lang: zh
+english: nature
+current: 性质
+proposed: 自然
+kind: wrong-sense
+reason: The Chinese word '性质' refers to the properties or characteristics of an object, whereas '自然' is the word for the natural world.
+source: Wiktionary (Chinese), s.v. "自然": noun: nature; the natural world
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 19811
+entryid: 24897
+permalink: 24897
+lesson: Nouns - Concepts, Part 13
+lang: zh
+english: loss
+current: 失利
+proposed: 损失
+kind: wrong-sense
+reason: The word '失利' refers specifically to a loss in a competition or disadvantage, whereas '损失' is the standard noun for a general loss (of money, property, or life).
+source: Wiktionary (Chinese), s.v. "损失"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 19817
+entryid: 24904
+permalink: 24904
+lesson: Nouns - Concepts, Part 14
+lang: zh
+english: performance
+current: 性能
+proposed: 表现
+kind: wrong-sense
+reason: The word 性能 refers specifically to the technical specifications or capabilities of a machine, whereas 'performance' in a general sense (like a human's performance or a show) is 表现.
+source: Wiktionary (Chinese), s.v. "表现"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 19839
+entryid: 24932
+permalink: 24932
+lesson: Nouns - Concepts, Part 20
+lang: zh
+english: look
+current: 看
+proposed: 样子
+kind: wrong-class
+reason: 看 is to look, the verb; a look is 样子.
+source: Wiktionary (Chinese), s.v. "样子"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 19842
+entryid: 24935
+permalink: 24935
+lesson: Nouns - Concepts, Part 20
+lang: zh
+english: division
+current: 师
+proposed: 划分
+kind: wrong-word
+reason: 师 is an army division; a division among concepts is 划分 (the models' 除法 is arithmetic).
+source: Wiktionary (Chinese), s.v. "划分"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 19874
+entryid: 24975
+permalink: 24975
+lesson: Nouns - Concepts, Part 28
+lang: zh
+english: exercise
+current: 行使
+proposed: 锻炼
+kind: wrong-sense
+reason: The Chinese word '行使' is used for exercising legal rights or power, while '锻炼' is used for physical exercise.
+source: Wiktionary (Chinese), s.v. "锻炼"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 19897
+entryid: 25005
+permalink: 25005
+lesson: Nouns - Concepts, Part 32
+lang: zh
+english: appearance
+current: 出现
+proposed: 外表
+kind: wrong-sense
+reason: 出现 is to turn up; an appearance is 外表.
+source: Wiktionary (Chinese), s.v. "外表": noun: appearance; exterior; look
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 19958
+entryid: 25081
+permalink: 25081
+lesson: Nouns - Concepts, Part 39
+lang: zh
+english: surprise
+current: 惊
+proposed: 惊喜
+kind: wrong-word
+reason: The character '惊' is a verb or adjective meaning 'to startle,' whereas '惊喜' is the standard noun for 'a surprise'.
+source: Wiktionary (Chinese), s.v. "惊喜"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 19963
+entryid: 25088
+permalink: 25088
+lesson: Nouns - Concepts, Part 40
+lang: zh
+english: observation
+current: 意见
+proposed: 观察
+kind: wrong-word
+reason: The Chinese word '意见' means 'opinion,' whereas 'observation' (the act of watching) should be '观察'.
+source: Wiktionary (Chinese), s.v. "观察"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20018
+entryid: 25155
+permalink: 25155
+lesson: Nouns - Concepts, Part 46
+lang: zh
+english: perspective
+current: 透视
+proposed: 观点
+kind: wrong-sense
+reason: 透视 refers to artistic perspective or X-ray vision, whereas the lesson refers to a point of view or outlook.
+source: Wiktionary (Chinese), s.v. "观点"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20057
+entryid: 25205
+permalink: 25205
+lesson: Nouns - Concepts, Part 51
+lang: zh
+english: pitch
+current: 沥青
+proposed: 音高
+kind: wrong-sense
+reason: The Chinese word provided means 'asphalt' (a substance), but the lesson refers to the musical or vocal 'pitch'.
+source: Wiktionary (Chinese), s.v. "音高": noun: pitch
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20058
+entryid: 25206
+permalink: 25206
+lesson: Nouns - Concepts, Part 51
+lang: zh
+english: smell
+current: 闻
+proposed: 气味
+kind: wrong-class
+reason: The English word 'smell' is used as a noun in this context, but '闻' is a verb meaning 'to smell'.
+source: Wiktionary (Chinese), s.v. "气味"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20083
+entryid: 25237
+permalink: 25237
+lesson: Nouns - Concepts, Part 54
+lang: zh
+english: strain
+current: 应变
+proposed: 压力
+kind: wrong-sense
+reason: 应变 is strain in engineering; strain on a person is 压力.
+source: Wiktionary (Chinese), s.v. "压力"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 20129
+entryid: 25295
+permalink: 25295
+lesson: Nouns - Concepts, Part 60
+lang: zh
+english: stand
+current: 站
+proposed: 立场
+kind: wrong-sense
+reason: 站 is a station or to stand; a stand, among concepts, is 立场.
+source: Wiktionary (Chinese), s.v. "立场"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 20171
+entryid: 25347
+permalink: 25347
+lesson: Nouns - Concepts, Part 65
+lang: zh
+english: integration
+current: 积分
+proposed: 整合
+kind: wrong-word
+reason: The Chinese word '积分' means 'points' (like loyalty points or scores), whereas 'integration' as a concept is '整合'.
+source: Wiktionary (Chinese), s.v. "整合": verb: to integrate
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20182
+entryid: 25361
+permalink: 25361
+lesson: Nouns - Concepts, Part 66
+lang: zh
+english: strip
+current: 跳闸
+proposed: 条
+kind: wrong-sense
+reason: The Chinese word provided refers to an electrical circuit breaker tripping, not a long narrow piece of material.
+source: Wiktionary (Chinese), s.v. "条"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20194
+entryid: 25376
+permalink: 25376
+lesson: Nouns - Concepts, Part 68
+lang: zh
+english: crash
+current: 紧急
+proposed: 碰撞
+kind: wrong-word
+reason: 紧急 is an emergency; a crash is 碰撞.
+source: Wiktionary (Chinese), s.v. "碰撞": verb: to collide; to run into; to hit; to impact; to offend; to hurt; to affront
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 20219
+entryid: 25407
+permalink: 25407
+lesson: Nouns - Concepts, Part 71
+lang: zh
+english: trick
+current: 招
+proposed: 把戏
+kind: wrong-sense
+reason: The character '招' refers to beckoning or a martial arts move, whereas '把戏' is the standard word for a trick or deception.
+source: Wiktionary (Chinese), s.v. "把戏"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20227
+entryid: 25417
+permalink: 25417
+lesson: Nouns - Concepts, Part 72
+lang: zh
+english: disability
+current: 失能
+proposed: 残疾
+kind: wrong-form
+reason: The dictionary defines '失能' as a verb (to be incapacitated), but the lesson requires a noun for 'disability'.
+source: Wiktionary (Chinese), s.v. "残疾"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20246
+entryid: 25441
+permalink: 25441
+lesson: Nouns - Concepts, Part 74
+lang: zh
+english: bulk
+current: 块
+proposed: 大量
+kind: wrong-word
+reason: 块 is a lump; bulk is 大量.
+source: Wiktionary (Chinese), s.v. "大量": adj: great amount of; large quantity of; large number of; a lot of; magnanimous; generous
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 20311
+entryid: 25522
+permalink: 25522
+lesson: Nouns - Concepts, Part 82
+lang: zh
+english: warmth
+current: 热情
+proposed: 温暖
+kind: wrong-sense
+reason: 热情 refers to a person's enthusiasm or passion, whereas 温暖 is the word for physical or emotional warmth.
+source: Wiktionary (Chinese), s.v. "温暖"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20419
+entryid: 25657
+permalink: 25657
+lesson: Nouns - Measurements, Part 2
+lang: zh
+english: spring
+current: 弹簧
+proposed: 春天
+kind: wrong-sense
+reason: The Chinese word 弹簧 refers to a mechanical spring, but the lesson requires the word for the season of spring.
+source: Wiktionary (Chinese), s.v. "春天": noun: spring (season); springtime; vitality; hope; prospects
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20493
+entryid: 25750
+permalink: 25750
+lesson: Nouns - Measurements, Part 11
+lang: zh
+english: bit
+current: 位
+proposed: 一点
+kind: wrong-word
+reason: The Chinese character '位' refers to a position or a polite measure word for people, not a 'bit' of something.
+source: Wiktionary (Chinese), s.v. "一点"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20589
+entryid: 25871
+permalink: 25871
+lesson: Nouns - Measurements, Part 23
+lang: zh
+english: phase
+current: 相
+proposed: 阶段
+kind: wrong-word
+reason: While '相' can mean 'phase' in very specific contexts (like 'phase' of a moon or 'aspect'), '阶段' is the standard word for a stage or phase in a process.
+source: Wiktionary (Chinese), s.v. "阶段"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20627
+entryid: 25918
+permalink: 25918
+lesson: Nouns - Measurements, Part 28
+lang: zh
+english: meter
+current: 仪表
+proposed: 米
+kind: wrong-word
+reason: The Chinese word for the unit of measurement 'meter' is '米', whereas '仪表' refers to a measuring instrument or a person's appearance.
+source: Wiktionary (Chinese), s.v. "米": character: hulled or husked uncooked rice (Classifier: 粒 m c mn; 顆／颗 m); husked seed; grain-like things
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20649
+entryid: 25945
+permalink: 25945
+lesson: Nouns - Measurements, Part 30
+lang: zh
+english: qualification
+current: 合格
+proposed: 资格
+kind: wrong-sense
+reason: The English word 'qualification' refers to a credential or skill, while '合格' refers to meeting a standard or passing a test.
+source: Wiktionary (Chinese), s.v. "资格"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20680
+entryid: 25984
+permalink: 25984
+lesson: Nouns - Measurements, Part 34
+lang: zh
+english: sphere
+current: 领域
+proposed: 球体
+kind: wrong-sense
+reason: The Chinese word '领域' refers to a field of study or area of activity, not a physical geometric sphere.
+source: Wiktionary (Chinese), s.v. "球体"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20685
+entryid: 25992
+permalink: 25992
+lesson: Nouns - People, Part 1
+lang: zh
+english: man
+current: 人
+proposed: 男人
+kind: wrong-sense
+reason: 人 is a person; a man is 男人.
+source: Wiktionary (Chinese), s.v. "男人": noun: man
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 20746
+entryid: 26068
+permalink: 26068
+lesson: Nouns - People, Part 8
+lang: zh
+english: parent
+current: 亲
+proposed: 父母
+kind: wrong-word
+reason: The character '亲' is an adjective meaning 'close' or 'dear' and is not the noun for 'parent'.
+source: Wiktionary (Chinese), s.v. "父母": noun: parents; mother and father; mum and dad; short for 父母官 (fùmǔguān)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20763
+entryid: 26089
+permalink: 26089
+lesson: Nouns - People, Part 10
+lang: zh
+english: director
+current: 导向器
+proposed: 导演
+kind: wrong-word
+reason: 导向器 refers to a technical 'guiding device' or 'orienter,' whereas the person in charge of a film or department is 导演 or 负责人.
+source: Wiktionary (Chinese), s.v. "导演"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20777
+entryid: 26107
+permalink: 26107
+lesson: Nouns - People, Part 12
+lang: zh
+english: player
+current: 播放机
+proposed: 选手
+kind: wrong-sense
+reason: 播放机 is a media player; a player, among people, is 选手.
+source: Wiktionary (Chinese), s.v. "选手"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 20811
+entryid: 26149
+permalink: 26149
+lesson: Nouns - People, Part 16
+lang: zh
+english: pupil
+current: 瞳孔
+proposed: 学生
+kind: wrong-sense
+reason: The Chinese word 瞳孔 refers to the pupil of an eye, but the lesson is about people (students).
+source: Wiktionary (Chinese), s.v. "学生"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20827
+entryid: 26169
+permalink: 26169
+lesson: Nouns - People, Part 18
+lang: zh
+english: band
+current: 带
+proposed: 乐队
+kind: wrong-word
+reason: The Chinese word '带' means a belt or to carry, while '乐队' is the correct word for a musical band.
+source: Wiktionary (Chinese), s.v. "乐队"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20886
+entryid: 26243
+permalink: 26243
+lesson: Nouns - People, Part 25
+lang: zh
+english: lip
+current: 唇
+proposed: 嘴唇
+kind: wrong-word
+reason: The dictionary definition provided for '唇' is incorrect or refers to a different character; '嘴唇' is the standard word for 'lip'.
+source: Wiktionary (Chinese), s.v. "嘴唇"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 20899
+entryid: 26260
+permalink: 26260
+lesson: Nouns - People, Part 27
+lang: zh
+english: will
+current: 将
+proposed: 意志
+kind: wrong-sense
+reason: 将 is the future marker 'will'; will, of a person, is 意志 (the models' 鹡 is a wagtail).
+source: Wiktionary (Chinese), s.v. "意志": noun: will; determination; volition; intent
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 20961
+entryid: 26336
+permalink: 26336
+lesson: Nouns - People, Part 34
+lang: zh
+english: general
+current: 一般
+proposed: 将军
+kind: wrong-sense
+reason: The Chinese word '一般' means 'average' or 'general' as an adjective, but the noun for a military 'general' is '将军'.
+source: Wiktionary (Chinese), s.v. "将军"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21042
+entryid: 26437
+permalink: 26437
+lesson: Nouns - People, Part 44
+lang: zh
+english: relative
+current: 相对的
+proposed: 亲戚
+kind: wrong-sense
+reason: The current translation means 'comparative' or 'relative' as an adjective, but the lesson requires the noun for a family member.
+source: Wiktionary (Chinese), s.v. "亲戚"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21073
+entryid: 26476
+permalink: 26476
+lesson: Nouns - People, Part 48
+lang: zh
+english: witness
+current: 见证
+proposed: 目击者
+kind: wrong-class
+reason: The Chinese word '见证' is often used as a verb or an abstract noun (testimony), whereas '目击者' is the standard noun for a person who witnesses an event.
+source: Wiktionary (Chinese), s.v. "目击者"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21082
+entryid: 26487
+permalink: 26487
+lesson: Nouns - People, Part 49
+lang: zh
+english: human
+current: 人的
+proposed: 人类
+kind: wrong-form
+reason: 人的 is 'human's'; a human is 人类.
+source: Wiktionary (Chinese), s.v. "人类"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 21219
+entryid: 26659
+permalink: 26659
+lesson: Nouns - People, Part 66
+lang: zh
+english: pensioner
+current: 跟班
+proposed: 退休人员
+kind: wrong-word
+reason: 跟班 is a hanger-on; a pensioner is 退休人员.
+source: Wiktionary (Chinese), s.v. "退休人员"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 21233
+entryid: 26677
+permalink: 26677
+lesson: Nouns - People, Part 68
+lang: zh
+english: collector
+current: 集电极
+proposed: 收藏家
+kind: wrong-word
+reason: The current translation refers to an electrical component (collector plate), not a person who collects items.
+source: Wiktionary (Chinese), s.v. "收藏家": noun: collector
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21246
+entryid: 26692
+permalink: 26692
+lesson: Nouns - People, Part 69
+lang: zh
+english: auditor
+current: 核数师
+proposed: 审计师
+kind: regional
+reason: 核数师 is the Hong Kong term; on the mainland an auditor is 审计师.
+source: Wiktionary (Chinese), s.v. "审计师"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21288
+entryid: 26745
+permalink: 26745
+lesson: Nouns - People, Part 74
+lang: zh
+english: palm
+current: 棕榈
+proposed: 手掌
+kind: wrong-sense
+reason: The Chinese word 棕榈 refers to a palm tree, but the English word 'palm' in this context refers to the part of the hand.
+source: Wiktionary (Chinese), s.v. "手掌": noun: palm (concave part of the hand)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21309
+entryid: 26772
+permalink: 26772
+lesson: Nouns - Society, Part 3
+lang: zh
+english: state
+current: 州
+proposed: 国家
+kind: wrong-sense
+reason: 州 is a province or a US state; a state in society is 国家.
+source: Wiktionary (Chinese), s.v. "国家"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 21320
+entryid: 26785
+permalink: 26785
+lesson: Nouns - Society, Part 4
+lang: zh
+english: council
+current: 评议会
+proposed: 委员会
+kind: wrong-word
+reason: 评议会 is not a standard term for a general council; 委员会 is the standard word for a committee or council.
+source: Wiktionary (Chinese), s.v. "委员会"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21355
+entryid: 26828
+permalink: 26828
+lesson: Nouns - Society, Part 8
+lang: zh
+english: class
+current: 类
+proposed: 阶层
+kind: wrong-sense
+reason: The word '类' refers to a category or type, whereas '阶层' is the correct term for a social class.
+source: Wiktionary (Chinese), s.v. "阶层"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21390
+entryid: 26873
+permalink: 26873
+lesson: Nouns - Society, Part 13
+lang: zh
+english: property
+current: 属性
+proposed: 财产
+kind: wrong-sense
+reason: The translation '属性' refers to a characteristic or attribute, whereas the lesson context of 'Society' implies physical property or possessions.
+source: Wiktionary (Chinese), s.v. "财产"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21438
+entryid: 26934
+permalink: 26934
+lesson: Nouns - Society, Part 19
+lang: zh
+english: concern
+current: 关心
+proposed: 担忧
+kind: wrong-class
+reason: 关心 is to care, a verb; a concern is 担忧.
+source: Wiktionary (Chinese), s.v. "担忧"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 21488
+entryid: 26996
+permalink: 26996
+lesson: Nouns - Society, Part 25
+lang: zh
+english: collection
+current: 采集
+proposed: 收藏
+kind: wrong-class
+reason: The Chinese word '采集' is a verb meaning 'to collect/harvest' (like data or samples), but the English word 'collection' is a noun.
+source: Wiktionary (Chinese), s.v. "收藏": verb: to collect and store; to store up; to put away for safekeeping
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21539
+entryid: 27060
+permalink: 27060
+lesson: Nouns - Society, Part 38
+lang: zh
+english: regulation
+current: 规
+proposed: 规定
+kind: wrong-form
+reason: The character '规' is usually a component of a word; '规定' is the standard noun for 'regulation'.
+source: Wiktionary (Chinese), s.v. "规定"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21541
+entryid: 27063
+permalink: 27063
+lesson: Nouns - Society, Part 39
+lang: zh
+english: interview
+current: 访问
+proposed: 采访
+kind: wrong-sense
+reason: 访问 is a visit; an interview, in society, is 采访.
+source: Wiktionary (Chinese), s.v. "采访"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 21563
+entryid: 27090
+permalink: 27090
+lesson: Nouns - Society, Part 44
+lang: zh
+english: assembly
+current: 部件
+proposed: 集会
+kind: wrong-sense
+reason: The Chinese word '部件' refers to a mechanical part or component, while 'assembly' in a social context refers to a gathering of people.
+source: Wiktionary (Chinese), s.v. "集会"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21565
+entryid: 27093
+permalink: 27093
+lesson: Nouns - Society, Part 45
+lang: zh
+english: settlement
+current: 沉降
+proposed: 定居点
+kind: wrong-sense
+reason: The Chinese word '沉降' refers to geological subsidence or sinking, not a human settlement or colony.
+source: Wiktionary (Chinese), s.v. "定居点"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21589
+entryid: 27123
+permalink: 27123
+lesson: Nouns - Society, Part 51
+lang: zh
+english: representation
+current: 表示
+proposed: 代表
+kind: wrong-sense
+reason: 表示 is used for expressing an idea or feeling, whereas 代表 is the standard word for a representation or portrayal of something.
+source: Wiktionary (Chinese), s.v. "代表": verb: to represent (to stand or act in place of, or be a political representative); to embody; to represent; on behalf of; in the name of
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21599
+entryid: 27135
+permalink: 27135
+lesson: Nouns - Society, Part 53
+lang: zh
+english: mass
+current: 块
+proposed: 大众
+kind: wrong-word
+reason: The Chinese word '块' refers to a physical piece or chunk, whereas 'mass' in a social context refers to a large group of people (大众).
+source: Wiktionary (Chinese), s.v. "大众"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21601
+entryid: 27138
+permalink: 27138
+lesson: Nouns - Society, Part 54
+lang: zh
+english: establishment
+current: 编制
+proposed: 机构
+kind: wrong-word
+reason: 编制 refers to the structure or staffing of an organization, whereas 机构 is the word for the establishment itself.
+source: Wiktionary (Chinese), s.v. "机构"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21616
+entryid: 27156
+permalink: 27156
+lesson: Nouns - Society, Part 57
+lang: zh
+english: score
+current: 得分了
+proposed: 分数
+kind: wrong-form
+reason: The translation '得分了' is a verb phrase meaning 'scored' (past tense/completed action), whereas the noun 'score' should be '分数'.
+source: Wiktionary (Chinese), s.v. "分数"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21647
+entryid: 27195
+permalink: 27195
+lesson: Nouns - Society, Part 65
+lang: zh
+english: poll
+current: 轮询
+proposed: 民意调查
+kind: wrong-sense
+reason: The current translation refers to a computing term (round-robin), but the lesson requires the word for a public opinion survey.
+source: Wiktionary (Chinese), s.v. "民意调查"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21656
+entryid: 27206
+permalink: 27206
+lesson: Nouns - Society, Part 67
+lang: zh
+english: resistance
+current: 抵抗性
+proposed: 抵抗
+kind: wrong-word
+reason: 抵抗性 refers to 'resistance' as a physical property (like electrical resistance), whereas 抵抗 is the standard noun for the act of opposing or resisting.
+source: Wiktionary (Chinese), s.v. "抵抗": verb: to resist; to take up resistance against
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21665
+entryid: 27218
+permalink: 27218
+lesson: Nouns - Society, Part 70
+lang: zh
+english: bond
+current: 键
+proposed: 纽带
+kind: wrong-sense
+reason: The Chinese word '键' refers to a physical key (like on a keyboard), whereas 'bond' in a social context refers to a connection or tie.
+source: Wiktionary (Chinese), s.v. "纽带"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21671
+entryid: 27225
+permalink: 27225
+lesson: Nouns - Society, Part 71
+lang: zh
+english: rent
+current: 出租
+proposed: 租金
+kind: wrong-form
+reason: 出租 is to let; rent, the payment, is 租金.
+source: Wiktionary (Chinese), s.v. "租金": noun: rent (regular payments made to the owner of a property to secure its use)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 21682
+entryid: 27239
+permalink: 27239
+lesson: Nouns - Society, Part 74
+lang: zh
+english: mortgage
+current: 抵押
+proposed: 抵押贷款
+kind: wrong-form
+reason: The English word 'mortgage' refers to the loan itself, while '抵押' is a verb meaning 'to mortgage' or 'to provide collateral'.
+source: Wiktionary (Chinese), s.v. "抵押贷款"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21690
+entryid: 27249
+permalink: 27249
+lesson: Nouns - Society, Part 76
+lang: zh
+english: perception
+current: 知觉
+proposed: 感知
+kind: wrong-word
+reason: 知觉 is a very archaic or literary term; 感知 is the standard modern word for perception.
+source: Wiktionary (Chinese), s.v. "感知": verb: to perceive; to be aware
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21700
+entryid: 27261
+permalink: 27261
+lesson: Nouns - Society, Part 78
+lang: zh
+english: occupation
+current: 占用
+proposed: 职业
+kind: wrong-word
+reason: The Chinese word '占用' means to occupy space or time, whereas '职业' is the correct word for a person's job or occupation.
+source: Wiktionary (Chinese), s.v. "职业"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21716
+entryid: 27281
+permalink: 27281
+lesson: Nouns - Society, Part 82
+lang: zh
+english: constituency
+current: 选民
+proposed: 选区
+kind: wrong-sense
+reason: 选民 is the voters; a constituency is 选区.
+source: Wiktionary (Chinese), s.v. "选区"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 21778
+entryid: 27360
+permalink: 27360
+lesson: Nouns - Society, Part 99
+lang: zh
+english: attendance
+current: 勤
+proposed: 出勤
+kind: wrong-word
+reason: The word '勤' means 'diligent' or 'industrious' (an adjective/verb), whereas 'attendance' refers to the act of being present.
+source: Wiktionary (Chinese), s.v. "出勤": verb: to go to work; to start work; to show up on time for work; to be out on duty; to take a business trip
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21779
+entryid: 27361
+permalink: 27361
+lesson: Nouns - Society, Part 99
+lang: zh
+english: discrimination
+current: 区别
+proposed: 歧视
+kind: wrong-sense
+reason: The word '区别' means 'difference,' whereas '歧视' is the correct term for 'discrimination' (unfair treatment).
+source: Wiktionary (Chinese), s.v. "歧视"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21802
+entryid: 27390
+permalink: 27390
+lesson: Nouns - Society, Part 105
+lang: zh
+english: succession
+current: 演替
+proposed: 继承
+kind: wrong-sense
+reason: 演替 is ecological succession; succession to an office is 继承.
+source: Wiktionary (Chinese), s.v. "继承"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 21817
+entryid: 27409
+permalink: 27409
+lesson: Nouns - Society, Part 109
+lang: zh
+english: tune
+current: 调
+proposed: 曲调
+kind: wrong-word
+reason: 调 alone is a musical key; a tune is 曲调.
+source: Wiktionary (Chinese), s.v. "曲调"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 21824
+entryid: 27418
+permalink: 27418
+lesson: Nouns - Society, Part 111
+lang: zh
+english: remark
+current: 备注
+proposed: 评论
+kind: wrong-sense
+reason: 备注 refers to a 'note' or 'annotation' in a document, whereas 'remark' in a general social context usually refers to a 'comment' or 'opinion'.
+source: Wiktionary (Chinese), s.v. "评论"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21826
+entryid: 27420
+permalink: 27420
+lesson: Nouns - Society, Part 111
+lang: zh
+english: consultation
+current: 会诊
+proposed: 咨询
+kind: wrong-sense
+reason: 会诊 specifically refers to a medical consultation between doctors, whereas 咨询 is the general term for seeking advice or information.
+source: Wiktionary (Chinese), s.v. "咨询"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21844
+entryid: 27443
+permalink: 27443
+lesson: Nouns - Society, Part 116
+lang: zh
+english: identification
+current: 鉴定
+proposed: 身份证明
+kind: wrong-sense
+reason: 鉴定 is an appraisal; identification is 身份证明.
+source: Wiktionary (Chinese), s.v. "身份证明"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 21894
+entryid: 27506
+permalink: 27506
+lesson: Nouns - Ideas, Part 8
+lang: zh
+english: argument
+current: 论据
+proposed: 争论
+kind: wrong-sense
+reason: The Chinese word 论据 means 'evidence' or 'proof,' whereas the English word 'argument' in this context refers to a disagreement or debate.
+source: Wiktionary (Chinese), s.v. "争论"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21945
+entryid: 27570
+permalink: 27570
+lesson: Nouns - Ideas, Part 14
+lang: zh
+english: confidence
+current: 置信度
+proposed: 自信
+kind: wrong-sense
+reason: 置信度 refers to a statistical confidence level, whereas the general noun for personal confidence is 自信.
+source: Wiktionary (Chinese), s.v. "自信": verb: to have confidence in oneself; to be self-confident
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21965
+entryid: 27595
+permalink: 27595
+lesson: Nouns - Ideas, Part 17
+lang: zh
+english: concentration
+current: 浓度
+proposed: 注意力
+kind: wrong-sense
+reason: The Chinese word '浓度' refers to chemical concentration, while the lesson requires the word for mental focus.
+source: Wiktionary (Chinese), s.v. "注意力": noun: attention; focus
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 21993
+entryid: 27630
+permalink: 27630
+lesson: Nouns - Ideas, Part 20
+lang: zh
+english: variation
+current: 变异
+proposed: 变化
+kind: wrong-sense
+reason: 变异 is specifically used for biological mutations, whereas 变化 is the standard word for a general variation or change.
+source: Wiktionary (Chinese), s.v. "变化"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22047
+entryid: 27698
+permalink: 27698
+lesson: Nouns - Ideas, Part 27
+lang: zh
+english: intelligence
+current: 情报
+proposed: 智力
+kind: wrong-sense
+reason: 情报 refers to secret information or intelligence gathered by spies, whereas the ability to learn and think is 智力.
+source: Wiktionary (Chinese), s.v. "智力": noun: intellect; intelligence; power and resourcefulness
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22060
+entryid: 27714
+permalink: 27714
+lesson: Nouns - Ideas, Part 28
+lang: zh
+english: addition
+current: 加成
+proposed: 增加
+kind: wrong-word
+reason: 加成 is a technical term often used for 'bonus' or 'surcharge' in specific contexts, but 增加 is the standard noun/verb for the general concept of addition.
+source: Wiktionary (Chinese), s.v. "增加": verb: to add; to augment; to increase; to raise; to boost
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22102
+entryid: 27766
+permalink: 27766
+lesson: Nouns - Places, Part 4
+lang: zh
+english: building
+current: 建造
+proposed: 建筑物
+kind: wrong-class
+reason: The English word 'building' is a noun, but the Chinese translation '建造' is a verb meaning 'to build'.
+source: Wiktionary (Chinese), s.v. "建筑物"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22107
+entryid: 27772
+permalink: 27772
+lesson: Nouns - Places, Part 4
+lang: zh
+english: field
+current: 领域
+proposed: 田野
+kind: wrong-sense
+reason: The Chinese word '领域' refers to a metaphorical field of study or activity, whereas the lesson requires a physical agricultural field.
+source: Wiktionary (Chinese), s.v. "田野": noun: field; open country; open land; the countryside; the country; rural area
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22176
+entryid: 27859
+permalink: 27859
+lesson: Nouns - Places, Part 13
+lang: zh
+english: hill
+current: 爬坡道
+proposed: 小山
+kind: wrong-form
+reason: The translation provided is a verb phrase meaning 'climbing a ramp' rather than the noun for a hill.
+source: Wiktionary (Chinese), s.v. "小山": noun: hill; xiaoshan (a type of ancient Chinese writing style)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22188
+entryid: 27873
+permalink: 27873
+lesson: Nouns - Places, Part 14
+lang: zh
+english: track
+current: 跟踪
+proposed: 小径
+kind: wrong-sense
+reason: 跟踪 is to track someone; a track, among places, is 小径.
+source: Wiktionary (Chinese), s.v. "小径"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 22195
+entryid: 27882
+permalink: 27882
+lesson: Nouns - Places, Part 15
+lang: zh
+english: yard
+current: 码
+proposed: 院子
+kind: wrong-word
+reason: The word '码' usually refers to a pier, wharf, or a unit of measurement, whereas '院子' is the correct word for a yard.
+source: Wiktionary (Chinese), s.v. "院子": noun: courtyard
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22201
+entryid: 27890
+permalink: 27890
+lesson: Nouns - Places, Part 16
+lang: zh
+english: factory
+current: 厂
+proposed: 工厂
+kind: wrong-word
+reason: The character '厂' means a cliff, while '工厂' is the standard word for a factory.
+source: Wiktionary (Chinese), s.v. "工厂"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22246
+entryid: 27949
+permalink: 27949
+lesson: Nouns - Places, Part 22
+lang: zh
+english: mill
+current: 磨
+proposed: 磨坊
+kind: wrong-class
+reason: The character '磨' is primarily a verb meaning 'to grind,' whereas the lesson requires a noun for a place (a mill).
+source: Wiktionary (Chinese), s.v. "磨坊": noun: mill
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22310
+entryid: 28029
+permalink: 28029
+lesson: Nouns - Places, Part 30
+lang: zh
+english: resort
+current: 采取
+proposed: 度假胜地
+kind: wrong-word
+reason: The Chinese word '采取' is a verb meaning 'to adopt' or 'to take,' whereas the lesson requires a noun for a holiday destination.
+source: Wiktionary (Chinese), s.v. "度假胜地"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22320
+entryid: 28042
+permalink: 28042
+lesson: Nouns - Places, Part 31
+lang: zh
+english: nursery
+current: 苗圃
+proposed: 托儿所
+kind: wrong-sense
+reason: 苗圃 is a plant nursery; the nursery for children is 托儿所.
+source: Wiktionary (Chinese), s.v. "托儿所"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 22330
+entryid: 28054
+permalink: 28054
+lesson: Nouns - Places, Part 32
+lang: zh
+english: compound
+current: 复合
+proposed: 大院
+kind: wrong-sense
+reason: 复合 is a chemical compound; a compound, among places, is 大院.
+source: Wiktionary (Chinese), s.v. "大院": noun: courtyard; compound
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 22336
+entryid: 28062
+permalink: 28062
+lesson: Nouns - Places, Part 33
+lang: zh
+english: shore
+current: 支撑
+proposed: 岸
+kind: wrong-word
+reason: The Chinese word provided means 'to support' or 'prop up,' whereas the English word 'shore' refers to the land along a body of water.
+source: Wiktionary (Chinese), s.v. "岸": character: bank; shore; coast; high; lofty; stately; haughty
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22388
+entryid: 28126
+permalink: 28126
+lesson: Nouns - Objects, Part 3
+lang: zh
+english: food
+current: 餐饮
+proposed: 食物
+kind: wrong-word
+reason: 餐饮 refers to the catering industry or food and beverage services, whereas the general word for food is 食物.
+source: Wiktionary (Chinese), s.v. "食物": noun: food
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22419
+entryid: 28165
+permalink: 28165
+lesson: Nouns - Objects, Part 7
+lang: zh
+english: plant
+current: 厂
+proposed: 植物
+kind: wrong-word
+reason: The character '厂' means a cliff, whereas the word for a plant is '植物'.
+source: Wiktionary (Chinese), s.v. "植物": noun: plant; vegetation; flora (Classifier: 棵 m; 樖 c)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22428
+entryid: 28177
+permalink: 28177
+lesson: Nouns - Objects, Part 8
+lang: zh
+english: machine
+current: 机
+proposed: 机器
+kind: wrong-word
+reason: The character '机' is a component of many words, but '机器' is the standard noun for 'machine'.
+source: Wiktionary (Chinese), s.v. "机器"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22431
+entryid: 28181
+permalink: 28181
+lesson: Nouns - Objects, Part 9
+lang: zh
+english: provision
+current: 规定
+proposed: 供应
+kind: wrong-sense
+reason: The English word 'provision' refers to supplies, but '规定' means a rule or regulation.
+source: Wiktionary (Chinese), s.v. "供应"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22435
+entryid: 28185
+permalink: 28185
+lesson: Nouns - Objects, Part 9
+lang: zh
+english: bill
+current: 法案
+proposed: 账单
+kind: wrong-sense
+reason: 法案 is a parliamentary bill; a bill to pay is 账单.
+source: Wiktionary (Chinese), s.v. "账单"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 22443
+entryid: 28196
+permalink: 28196
+lesson: Nouns - Objects, Part 10
+lang: zh
+english: note
+current: 注意
+proposed: 笔记
+kind: wrong-sense
+reason: The English word 'note' as a noun refers to a written record, while '注意' means the act of paying attention.
+source: Wiktionary (Chinese), s.v. "笔记"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22503
+entryid: 28270
+permalink: 28270
+lesson: Nouns - Objects, Part 17
+lang: zh
+english: train
+current: 培养
+proposed: 火车
+kind: wrong-word
+reason: The Chinese word provided means 'to cultivate' or 'to nurture,' whereas the English word 'train' refers to a railway vehicle.
+source: Wiktionary (Chinese), s.v. "火车"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22507
+entryid: 28276
+permalink: 28276
+lesson: Nouns - Objects, Part 18
+lang: zh
+english: fig
+current: 图
+proposed: 无花果
+kind: wrong-word
+reason: The Chinese word '图' means a map or picture, while the fruit 'fig' is '无花果'.
+source: Wiktionary (Chinese), s.v. "无花果"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22538
+entryid: 28315
+permalink: 28315
+lesson: Nouns - Objects, Part 22
+lang: zh
+english: cabinet
+current: 内阁
+proposed: 橱柜
+kind: wrong-sense
+reason: The translation provided refers to a government body, but the lesson context is for furniture/objects.
+source: Wiktionary (Chinese), s.v. "橱柜"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22542
+entryid: 28319
+permalink: 28319
+lesson: Nouns - Objects, Part 22
+lang: zh
+english: stuff
+current: 东东
+proposed: 东西
+kind: wrong-word
+reason: The word '东东' is not a standard Chinese word for 'stuff'; the correct term is '东西'.
+source: Wiktionary (Chinese), s.v. "东西"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22573
+entryid: 28358
+permalink: 28358
+lesson: Nouns - Objects, Part 26
+lang: zh
+english: notice
+current: 注意
+proposed: 告示
+kind: wrong-form
+reason: 注意 is attention; a notice, among objects, is 告示 (the models' 注意到 is the verb).
+source: Wiktionary (Chinese), s.v. "告示": noun: notice; official notice; slogan; poster
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 22635
+entryid: 28435
+permalink: 28435
+lesson: Nouns - Objects, Part 33
+lang: zh
+english: desk
+current: 台
+proposed: 书桌
+kind: wrong-word
+reason: 台 is a stand or platform; a desk is 书桌.
+source: Wiktionary (Chinese), s.v. "书桌"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 22680
+entryid: 28492
+permalink: 28492
+lesson: Nouns - Objects, Part 39
+lang: zh
+english: plane
+current: 平面
+proposed: 飞机
+kind: wrong-sense
+reason: The Chinese word '平面' refers to a flat surface, whereas the English word 'plane' in the context of objects usually refers to an airplane.
+source: Wiktionary (Chinese), s.v. "飞机"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22691
+entryid: 28505
+permalink: 28505
+lesson: Nouns - Objects, Part 40
+lang: zh
+english: coat
+current: 涂层
+proposed: 外套
+kind: wrong-word
+reason: The current translation means a 'coating' (like paint), but the lesson requires the word for a piece of outerwear clothing.
+source: Wiktionary (Chinese), s.v. "外套": noun: overcoat; coat; jacket
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22720
+entryid: 28542
+permalink: 28542
+lesson: Nouns - Objects, Part 44
+lang: zh
+english: suit
+current: 适合
+proposed: 西装
+kind: wrong-word
+reason: The Chinese word provided is a verb meaning 'to suit,' but the lesson requires a noun for a piece of clothing.
+source: Wiktionary (Chinese), s.v. "西装"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22753
+entryid: 28584
+permalink: 28584
+lesson: Nouns - Objects, Part 48
+lang: zh
+english: recording
+current: 记录
+proposed: 录音
+kind: wrong-sense
+reason: 记录 is a written record; a recording is 录音.
+source: Wiktionary (Chinese), s.v. "录音"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 22771
+entryid: 28606
+permalink: 28606
+lesson: Nouns - Objects, Part 50
+lang: zh
+english: medicine
+current: 医学
+proposed: 药物
+kind: wrong-sense
+reason: The Chinese word provided refers to the academic field of medicine, not the physical substance used to treat a patient.
+source: Wiktionary (Chinese), s.v. "药物"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22804
+entryid: 28647
+permalink: 28647
+lesson: Nouns - Objects, Part 54
+lang: zh
+english: watch
+current: 看
+proposed: 手表
+kind: wrong-sense
+reason: 看 is to look; a watch is 手表.
+source: Wiktionary (Chinese), s.v. "手表"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 22810
+entryid: 28655
+permalink: 28655
+lesson: Nouns - Objects, Part 55
+lang: zh
+english: net
+current: 净
+proposed: 网
+kind: wrong-word
+reason: The Chinese word '净' means 'clean', whereas the word for a physical 'net' is '网'.
+source: Wiktionary (Chinese), s.v. "网"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22839
+entryid: 28691
+permalink: 28691
+lesson: Nouns - Objects, Part 58
+lang: zh
+english: tissue
+current: 组织
+proposed: 纸巾
+kind: wrong-sense
+reason: 组织 refers to a biological tissue or an organization, while 纸巾 is the word for a facial tissue.
+source: Wiktionary (Chinese), s.v. "纸巾"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22857
+entryid: 28713
+permalink: 28713
+lesson: Nouns - Objects, Part 60
+lang: zh
+english: check
+current: 查
+proposed: 支票
+kind: wrong-sense
+reason: 查 is to check; a check, among objects, is 支票.
+source: Wiktionary (Chinese), s.v. "支票": noun: cheque (draft directing a bank to pay money); check (Classifier: 張／张 m c mn; 條／条 c)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 22885
+entryid: 28749
+permalink: 28749
+lesson: Nouns - Objects, Part 64
+lang: zh
+english: pole
+current: 极
+proposed: 杆
+kind: wrong-word
+reason: The character '极' means 'extreme' or 'pole' in a geographical/astronomical sense (like North Pole), but for a physical object like a pole, '杆' is the correct word.
+source: Wiktionary (Chinese), s.v. "杆": character: sandalwood; storehousebush
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22913
+entryid: 28783
+permalink: 28783
+lesson: Nouns - Objects, Part 67
+lang: zh
+english: vat
+current: 增值税
+proposed: 大桶
+kind: wrong-sense
+reason: The Chinese translation provided is for 'Value-Added Tax' (VAT), which is a financial term, rather than a large container for liquids.
+source: Wiktionary (Chinese), s.v. "大桶": noun: vat; barrel; tun
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22941
+entryid: 28819
+permalink: 28819
+lesson: Nouns - Objects, Part 71
+lang: zh
+english: pile
+current: 桩
+proposed: 堆
+kind: wrong-word
+reason: The word '桩' refers to a physical stake or post, whereas '堆' is the correct word for a pile of objects.
+source: Wiktionary (Chinese), s.v. "堆": character: heap; pile; mound; heap; to pile up; to stack up
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 22943
+entryid: 28821
+permalink: 28821
+lesson: Nouns - Objects, Part 71
+lang: zh
+english: roll
+current: 滚
+proposed: 卷
+kind: wrong-word
+reason: The Chinese word '滚' is a verb meaning 'to roll' (like a ball), but the noun for a food 'roll' is '卷'.
+source: Wiktionary (Chinese), s.v. "卷": character: reel of books; book; scroll; volume; chapter; fascicle
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23021
+entryid: 28920
+permalink: 28920
+lesson: Nouns - Objects, Part 81
+lang: zh
+english: jet
+current: 喷射
+proposed: 喷气式飞机
+kind: wrong-form
+reason: 喷射 is a verb or a noun for the action of jetting/spraying, whereas the noun for the aircraft itself is 喷气式飞机.
+source: Wiktionary (Chinese), s.v. "喷气式飞机"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23056
+entryid: 28963
+permalink: 28963
+lesson: Nouns - Objects, Part 85
+lang: zh
+english: carriage
+current: 运输
+proposed: 马车
+kind: wrong-word
+reason: 运输 is a general term for transportation, whereas carriage refers to the specific vehicle.
+source: Wiktionary (Chinese), s.v. "马车"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23074
+entryid: 28985
+permalink: 28985
+lesson: Nouns - Objects, Part 87
+lang: zh
+english: carrier
+current: 支架
+proposed: 运输工具
+kind: wrong-sense
+reason: 支架 is a bracket; a carrier is 运输工具.
+source: Wiktionary (Chinese), s.v. "运输工具"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23089
+entryid: 29004
+permalink: 29004
+lesson: Nouns - Objects, Part 89
+lang: zh
+english: bush
+current: 衬套
+proposed: 灌木
+kind: wrong-word
+reason: The Chinese word provided refers to a mechanical bushing, not a group of shrubs.
+source: Wiktionary (Chinese), s.v. "灌木": noun: shrub; bush
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23123
+entryid: 29047
+permalink: 29047
+lesson: Adjectives - Quantity, Part 4
+lang: zh
+english: fat
+current: 脂肪
+proposed: 胖
+kind: wrong-class
+reason: The English word 'fat' is used as an adjective here, but '脂肪' is a noun meaning biological fat or grease.
+source: Wiktionary (Chinese), s.v. "胖": character: fat
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23197
+entryid: 29139
+permalink: 29139
+lesson: Adjectives - Quality, Part 4
+lang: zh
+english: average
+current: 平均
+proposed: 普通的
+kind: wrong-sense
+reason: 平均 is used for mathematical averages (mean), while 普通 is used to describe something of average or ordinary quality.
+source: Wiktionary (Chinese), s.v. "普通的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23199
+entryid: 29143
+permalink: 29143
+lesson: Adjectives - Quality, Part 5
+lang: zh
+english: unlikely
+current: 不会
+proposed: 不太可能
+kind: wrong-sense
+reason: The translation '不会' means 'will not' or 'cannot', whereas '不太可能' is the correct way to express the adjective 'unlikely'.
+source: Wiktionary (Chinese), s.v. "不太可能"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23227
+entryid: 29178
+permalink: 29178
+lesson: Adjectives - Quality, Part 8
+lang: zh
+english: plain
+current: 川
+proposed: 朴素
+kind: wrong-sense
+reason: The character 川 refers to a river or a geographical plain, not the adjective 'plain' meaning simple or unadorned.
+source: Wiktionary (Chinese), s.v. "朴素"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23275
+entryid: 29238
+permalink: 29238
+lesson: Adjectives - Quality, Part 14
+lang: zh
+english: obscure
+current: 朦胧
+proposed: 模糊
+kind: wrong-sense
+reason: 朦胧 usually refers to a hazy atmosphere or vision (like mist), whereas 'obscure' in a general sense is better translated as 模糊 (unclear/indistinct).
+source: Wiktionary (Chinese), s.v. "模糊": adj: blurry; vague; obscure; fuzzy
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23298
+entryid: 29267
+permalink: 29267
+lesson: Adjectives - Quality, Part 17
+lang: zh
+english: sturdy
+current: 粗壮
+proposed: 结实
+kind: wrong-sense
+reason: 粗壮 specifically describes a thick, muscular body or a tree trunk, whereas 结实 is the standard word for an object being sturdy or durable.
+source: Wiktionary (Chinese), s.v. "结实"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23318
+entryid: 29293
+permalink: 29293
+lesson: Adjectives - Quality, Part 20
+lang: zh
+english: lush
+current: 青葱的
+proposed: 茂盛的
+kind: wrong-word
+reason: The term '青葱的' refers to something looking like green onions, whereas '茂盛的' is the standard term for lush vegetation.
+source: Wiktionary (Chinese), s.v. "茂盛的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23368
+entryid: 29355
+permalink: 29355
+lesson: Adjectives - Quality, Part 26
+lang: zh
+english: spiky
+current: 高低不平
+proposed: 带刺的
+kind: wrong-sense
+reason: 高低不平 is uneven; spiky is 带刺的.
+source: Wiktionary (Chinese), s.v. "带刺的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23371
+entryid: 29359
+permalink: 29359
+lesson: Adjectives - Quality, Part 26
+lang: zh
+english: sloppy
+current: 稀松
+proposed: 马虎
+kind: wrong-sense
+reason: The Chinese word '稀松' refers to physical looseness or density, while 'sloppy' in this context refers to a lack of care or precision.
+source: Wiktionary (Chinese), s.v. "马虎"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23373
+entryid: 29361
+permalink: 29361
+lesson: Adjectives - Quality, Part 26
+lang: zh
+english: slick
+current: 华而不实的
+proposed: 光滑的
+kind: wrong-sense
+reason: The Chinese translation means 'flashy but empty,' whereas 'slick' in a physical sense refers to a smooth or slippery surface.
+source: Wiktionary (Chinese), s.v. "光滑的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23389
+entryid: 29381
+permalink: 29381
+lesson: Adjectives - Quality, Part 28
+lang: zh
+english: dingy
+current: 灰溜溜
+proposed: 昏暗的
+kind: wrong-sense
+reason: 灰溜溜 is crestfallen; dingy is 昏暗的.
+source: Wiktionary (Chinese), s.v. "昏暗的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23398
+entryid: 29392
+permalink: 29392
+lesson: Adjectives - Quality, Part 29
+lang: zh
+english: fruity
+current: 圆润的
+proposed: 果味的
+kind: wrong-word
+reason: The Chinese word provided means 'round/smooth' instead of describing a fruit flavor.
+source: Wiktionary (Chinese), s.v. "果味的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23409
+entryid: 29407
+permalink: 29407
+lesson: Adjectives - Quality, Part 31
+lang: zh
+english: frilly
+current: 褶边
+proposed: 带褶边的
+kind: wrong-class
+reason: The English word 'frilly' is an adjective, but '褶边' is a noun; the adjective form '带褶边的' is required.
+source: Wiktionary (Chinese), s.v. "带褶边的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23410
+entryid: 29408
+permalink: 29408
+lesson: Adjectives - Quality, Part 31
+lang: zh
+english: squeaky
+current: 吱吱
+proposed: 吱吱作响的
+kind: wrong-form
+reason: 吱吱 is an onomatopoeia (the sound itself), but to describe an object as 'squeaky' as an adjective, Chinese typically adds the particle 的.
+source: Wiktionary (Chinese), s.v. "吱吱作响的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23417
+entryid: 29417
+permalink: 29417
+lesson: Adjectives - Quality, Part 32
+lang: zh
+english: snappy
+current: 瞬间
+proposed: 利落的
+kind: wrong-sense
+reason: 瞬间 is an instant; snappy is 利落的.
+source: Wiktionary (Chinese), s.v. "利落的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23418
+entryid: 29418
+permalink: 29418
+lesson: Adjectives - Quality, Part 32
+lang: zh
+english: weedy
+current: 薉
+proposed: 杂草丛生的
+kind: wrong-word
+reason: 薉 is an archaic character; among qualities, weedy is 杂草丛生的.
+source: Wiktionary (Chinese), s.v. "杂草丛生的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23444
+entryid: 29450
+permalink: 29450
+lesson: Adjectives - Social, Part 2
+lang: zh
+english: late
+current: 晚了
+proposed: 迟到的
+kind: wrong-form
+reason: 晚了 is 'it's late'; late, of a person, is 迟到的.
+source: Wiktionary (Chinese), s.v. "迟到的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23452
+entryid: 29460
+permalink: 29460
+lesson: Adjectives - Social, Part 3
+lang: zh
+english: poor
+current: 较差的
+proposed: 贫穷的
+kind: wrong-sense
+reason: The current translation means 'poor quality' rather than 'lacking money'.
+source: Wiktionary (Chinese), s.v. "贫穷的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23487
+entryid: 29503
+permalink: 29503
+lesson: Adjectives - Social, Part 7
+lang: zh
+english: keen
+current: 敏锐
+proposed: 热衷的
+kind: wrong-sense
+reason: 敏锐 refers to being sharp-witted or having acute senses, whereas 'keen' in the context of interest or enthusiasm is better translated as 热衷.
+source: Wiktionary (Chinese), s.v. "热衷的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23535
+entryid: 29564
+permalink: 29564
+lesson: Adjectives - Social, Part 13
+lang: zh
+english: kind
+current: 类
+proposed: 善良
+kind: wrong-sense
+reason: The Chinese word '类' means 'type' or 'category', but the lesson requires the adjective for a person's personality (kind/gentle).
+source: Wiktionary (Chinese), s.v. "善良": adj: kind-hearted; benevolent
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23560
+entryid: 29595
+permalink: 29595
+lesson: Adjectives - Social, Part 16
+lang: zh
+english: dumb
+current: 哑
+proposed: 笨
+kind: wrong-sense
+reason: The Chinese word '哑' refers to being physically unable to speak (mute), whereas 'dumb' in this context refers to a lack of intelligence.
+source: Wiktionary (Chinese), s.v. "笨": character: heavy; cumbersome; strenuous; stupid; foolish; silly; slow-witted; clumsy; awkward
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23570
+entryid: 29609
+permalink: 29609
+lesson: Adjectives - Social, Part 18
+lang: zh
+english: fancy
+current: 幻想
+proposed: 华丽
+kind: wrong-sense
+reason: The English word 'fancy' in a social context refers to something elaborate or decorative, while '幻想' means a fantasy or delusion.
+source: Wiktionary (Chinese), s.v. "华丽"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23609
+entryid: 29657
+permalink: 29657
+lesson: Adjectives - Social, Part 22
+lang: zh
+english: posh
+current: 辣妹
+proposed: 高档
+kind: wrong-sense
+reason: 辣妹 is a hot girl, as in Posh Spice; posh is 高档.
+source: Wiktionary (Chinese), s.v. "高档"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23614
+entryid: 29663
+permalink: 29663
+lesson: Adjectives - Social, Part 23
+lang: zh
+english: negligent
+current: 懈
+proposed: 疏忽
+kind: wrong-sense
+reason: The word '懈' refers to laziness or slacking off, whereas 'negligent' refers to a lack of proper care or attention.
+source: Wiktionary (Chinese), s.v. "疏忽": verb: to neglect; to be careless; to overlook
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23632
+entryid: 29686
+permalink: 29686
+lesson: Adjectives - Social, Part 25
+lang: zh
+english: dodgy
+current: 躲闪的
+proposed: 不可靠的
+kind: wrong-sense
+reason: The Chinese translation means 'evasive' or 'dodging,' but 'dodgy' in a social context refers to something dishonest or unreliable.
+source: Wiktionary (Chinese), s.v. "不可靠的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23634
+entryid: 29688
+permalink: 29688
+lesson: Adjectives - Social, Part 25
+lang: zh
+english: smug
+current: 踌躇满志
+proposed: 沾沾自喜
+kind: wrong-word
+reason: 踌躇满志 is brimming with ambition; smug is 沾沾自喜.
+source: Wiktionary (Chinese), s.v. "沾沾自喜": phrase: to feel complacent; to be pleased with oneself
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23654
+entryid: 29713
+permalink: 29713
+lesson: Adjectives - Social, Part 28
+lang: zh
+english: dainty
+current: 纤巧
+proposed: 精致
+kind: wrong-word
+reason: The word '纤巧' is not a standard Chinese word; '精致' is the correct term for something dainty or delicate.
+source: Wiktionary (Chinese), s.v. "精致"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23662
+entryid: 29723
+permalink: 29723
+lesson: Adjectives - Social, Part 29
+lang: zh
+english: brash
+current: 性急的
+proposed: 鲁莽的
+kind: wrong-sense
+reason: “性急的” means impatient or hasty, whereas “brash” refers to being bold, rude, or overconfident.
+source: Wiktionary (Chinese), s.v. "鲁莽的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23672
+entryid: 29736
+permalink: 29736
+lesson: Adjectives - Social, Part 30
+lang: zh
+english: skimpy
+current: 轻薄
+proposed: 少量的
+kind: wrong-sense
+reason: 轻薄 usually refers to a person's frivolous character or a thin fabric, whereas 'skimpy' in this context refers to an insufficient amount.
+source: Wiktionary (Chinese), s.v. "少量的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23710
+entryid: 29784
+permalink: 29784
+lesson: Adjectives - Feeling, Part 2
+lang: zh
+english: close
+current: 关
+proposed: 亲近
+kind: wrong-word
+reason: 关 is to close a door; close, among feelings, is 亲近.
+source: Wiktionary (Chinese), s.v. "亲近"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23745
+entryid: 29827
+permalink: 29827
+lesson: Adjectives - Feeling, Part 6
+lang: zh
+english: healthy
+current: 健康
+proposed: 健康的
+kind: wrong-class
+reason: 健康 is health, the noun; healthy is 健康的.
+source: Wiktionary (Chinese), s.v. "健康的"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 23800
+entryid: 29897
+permalink: 29897
+lesson: Adjectives - Feeling, Part 13
+lang: zh
+english: foul
+current: 犯规
+proposed: 恶心的
+kind: wrong-sense
+reason: The Chinese word provided means 'to commit a foul' in sports, but the English word 'foul' in this context refers to something disgusting or unpleasant.
+source: Wiktionary (Chinese), s.v. "恶心的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23815
+entryid: 29916
+permalink: 29916
+lesson: Adjectives - Feeling, Part 15
+lang: zh
+english: wry
+current: 扭歪
+proposed: 挖苦的
+kind: wrong-word
+reason: 扭歪 is twisted; wry is 挖苦的 (the models' proposal is garbled).
+source: Wiktionary (Chinese), s.v. "挖苦的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23827
+entryid: 29930
+permalink: 29930
+lesson: Adjectives - Feeling, Part 16
+lang: zh
+english: ghastly
+current: 阴森
+proposed: 可怕
+kind: wrong-sense
+reason: 阴森 describes a gloomy or eerie atmosphere (like a haunted house), whereas ghastly refers to something causing horror or being deathly pale.
+source: Wiktionary (Chinese), s.v. "可怕": adj: scary; frightening
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23831
+entryid: 29936
+permalink: 29936
+lesson: Adjectives - Feeling, Part 17
+lang: zh
+english: sane
+current: 明智的
+proposed: 神志清醒的
+kind: wrong-sense
+reason: The Chinese word provided means 'wise' or 'sensible,' whereas 'sane' refers to being mentally healthy or not insane.
+source: Wiktionary (Chinese), s.v. "神志清醒的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23842
+entryid: 29949
+permalink: 29949
+lesson: Adjectives - Feeling, Part 18
+lang: zh
+english: heady
+current: 风头正劲
+proposed: 令人陶醉的
+kind: wrong-sense
+reason: The Chinese term refers to being in the spotlight or at the peak of fame, whereas 'heady' refers to an intoxicating or exhilarating feeling.
+source: Wiktionary (Chinese), s.v. "令人陶醉的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23846
+entryid: 29953
+permalink: 29953
+lesson: Adjectives - Feeling, Part 18
+lang: zh
+english: sublime
+current: 升华
+proposed: 崇高
+kind: wrong-sense
+reason: The Chinese word 升华 refers to the chemical or psychological process of sublimation, whereas the adjective 'sublime' refers to something of great beauty or grandeur.
+source: Wiktionary (Chinese), s.v. "崇高": adj: highest; supreme; tallest; maximum; top; noble; lofty; sublime
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23852
+entryid: 29961
+permalink: 29961
+lesson: Adjectives - Feeling, Part 19
+lang: zh
+english: soggy
+current: 浸水
+proposed: 湿漉漉的
+kind: wrong-form
+reason: 浸水 is to soak; soggy is 湿漉漉的.
+source: Wiktionary (Chinese), s.v. "湿漉漉的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23860
+entryid: 29971
+permalink: 29971
+lesson: Adjectives - Feeling, Part 20
+lang: zh
+english: slimey
+current: slimey
+proposed: 黏糊糊的
+kind: untranslated
+reason: The translation is identical to the English word, which means Google Translate failed to provide a Chinese equivalent.
+source: Wiktionary (Chinese), s.v. "黏糊糊的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23877
+entryid: 29992
+permalink: 29992
+lesson: Adjectives - Feeling, Part 22
+lang: zh
+english: gruesome
+current: 阴森
+proposed: 恐怖
+kind: wrong-sense
+reason: 阴森 describes a gloomy or eerie atmosphere, whereas gruesome refers to something causing horror or disgust, typically due to violence.
+source: Wiktionary (Chinese), s.v. "恐怖": adj: terrifying; dreadful; horrific; frightening; afraid; fearful
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23893
+entryid: 30013
+permalink: 30013
+lesson: Adjectives - Feeling, Part 24
+lang: zh
+english: gaunt
+current: 憔悴的
+proposed: 瘦削的
+kind: wrong-sense
+reason: 憔悴的 means 'haggard' or 'exhausted' from fatigue, while 'gaunt' refers specifically to being thin and bony.
+source: Wiktionary (Chinese), s.v. "瘦削的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23898
+entryid: 30019
+permalink: 30019
+lesson: Adjectives - Feeling, Part 25
+lang: zh
+english: dank
+current: 潮呼呼
+proposed: 潮湿
+kind: wrong-word
+reason: The term '潮呼呼' is not a standard Chinese word; '潮湿' is the correct term for a damp or musty atmosphere.
+source: Wiktionary (Chinese), s.v. "潮湿"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23906
+entryid: 30029
+permalink: 30029
+lesson: Adjectives - Feeling, Part 26
+lang: zh
+english: bubbly
+current: 香槟酒
+proposed: 活泼
+kind: wrong-sense
+reason: The Chinese translation provided means 'champagne' (a drink), whereas the lesson requires an adjective describing a bubbly personality.
+source: Wiktionary (Chinese), s.v. "活泼"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23915
+entryid: 30040
+permalink: 30040
+lesson: Adjectives - Appearance, Part 1
+lang: zh
+english: clear
+current: 明确
+proposed: 清澈的
+kind: wrong-sense
+reason: 明确 is clear as in explicit; of appearance, clear is 清澈的.
+source: Wiktionary (Chinese), s.v. "清澈的"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 23951
+entryid: 30085
+permalink: 30085
+lesson: Adjectives - Appearance, Part 5
+lang: zh
+english: round
+current: 回合
+proposed: 圆
+kind: wrong-sense
+reason: The Chinese word provided refers to a 'round' in a game or competition, but the lesson requires the adjective for a circular shape.
+source: Wiktionary (Chinese), s.v. "圆"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23976
+entryid: 30116
+permalink: 30116
+lesson: Adjectives - Appearance, Part 8
+lang: zh
+english: dusty
+current: 尘土飞扬
+proposed: 布满灰尘的
+kind: wrong-form
+reason: 尘土飞扬 is dust flying; dusty is 布满灰尘的.
+source: Wiktionary (Chinese), s.v. "布满灰尘的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 23982
+entryid: 30124
+permalink: 30124
+lesson: Adjectives - Appearance, Part 9
+lang: zh
+english: lean
+current: 靠
+proposed: 瘦
+kind: wrong-sense
+reason: The English word 'lean' in the context of appearance refers to a thin body, but '靠' is a verb meaning to lean on or rely on.
+source: Wiktionary (Chinese), s.v. "瘦": character: thin; slender; skinny; lean; to lose weight; to become thin
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 23988
+entryid: 30132
+permalink: 30132
+lesson: Adjectives - Appearance, Part 10
+lang: zh
+english: muddy
+current: 浑
+proposed: 泥泞
+kind: wrong-word
+reason: The character '浑' is usually used as a prefix or in compounds (like 浑浊) to mean 'turbid' or 'muddled' and is not the standard word for 'muddy' in an appearance context.
+source: Wiktionary (Chinese), s.v. "泥泞"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 24001
+entryid: 30148
+permalink: 30148
+lesson: Adjectives - Appearance, Part 11
+lang: zh
+english: shadowy
+current: 神出鬼没
+proposed: 阴暗的
+kind: wrong-sense
+reason: 神出鬼没 is elusive; shadowy is 阴暗的.
+source: Wiktionary (Chinese), s.v. "阴暗的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 24016
+entryid: 30167
+permalink: 30167
+lesson: Adjectives - Appearance, Part 13
+lang: zh
+english: homely
+current: 家常
+proposed: 相貌平平的
+kind: wrong-sense
+reason: 家常 is homely in the sense of homemade; of appearance it is 相貌平平的.
+source: Wiktionary (Chinese), s.v. "相貌平平的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 24021
+entryid: 30173
+permalink: 30173
+lesson: Adjectives - Appearance, Part 14
+lang: zh
+english: rosey
+current: 罗西
+proposed: 玫瑰色的
+kind: untranslated
+reason: The translation '罗西' is a phonetic transliteration of the name 'Rosy' rather than the descriptive adjective for a pinkish color.
+source: Wiktionary (Chinese), s.v. "玫瑰色的"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 24033
+entryid: 30188
+permalink: 30188
+lesson: Adjectives - Appearance, Part 15
+lang: zh
+english: lumpy
+current: 磊
+proposed: 凹凸不平
+kind: wrong-word
+reason: The character '磊' refers to piles of rocks or being large, while 'lumpy' describes an uneven or bumpy surface.
+source: Wiktionary (Chinese), s.v. "凹凸不平": phrase: uneven; bumpy
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 24036
+entryid: 30192
+permalink: 30192
+lesson: Adjectives - Appearance, Part 16
+lang: zh
+english: husky
+current: 沙哑
+proposed: 魁梧的
+kind: wrong-sense
+reason: 沙哑 is a husky voice; husky, of build, is 魁梧的 (the models' 哈士奇 is the dog).
+source: Wiktionary (Chinese), s.v. "魁梧的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 38913
+entryid: 48768
+permalink: 48768
+lesson: Verbs - Mental Activity, Part 14
+lang: zh
+english: view
+current: 视图
+proposed: 看待
+kind: wrong-sense
+reason: 视图 is a view in software; to view, as a mental activity, is 看待.
+source: Wiktionary (Chinese), s.v. "看待": verb: to regard; to look upon; to consider; to treat; to treat cordially; to entertain
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 39115
+entryid: 49015
+permalink: 49015
+lesson: Nouns - Society, Part 83
+lang: zh
+english: summit
+current: 首脑
+proposed: 峰会
+kind: wrong-sense
+reason: 首脑 is a head of state; a summit, in society, is 峰会.
+source: Wiktionary (Chinese), s.v. "峰会"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 39147
+entryid: 49052
+permalink: 49052
+lesson: Adjectives - Quality, Part 8
+lang: zh
+english: firm
+current: 公司
+proposed: 坚固的
+kind: wrong-word
+reason: 公司 is a company; firm, the adjective, is 坚固的.
+source: Wiktionary (Chinese), s.v. "坚固的"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 39155
+entryid: 49061
+permalink: 49061
+lesson: Adjectives - Quality, Part 18
+lang: zh
+english: floppy
+current: 软盘
+proposed: 松软的
+kind: wrong-sense
+reason: 软盘 is a floppy disk; floppy is 松软的.
+source: Wiktionary (Chinese), s.v. "松软的"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 39240
+entryid: 49161
+permalink: 49161
+lesson: Nouns - Places, Part 20
+lang: zh
+english: convention
+current: 惯例
+proposed: 大会
+kind: wrong-sense
+reason: The Chinese word '惯例' refers to a social custom or routine, whereas the lesson refers to a large meeting or conference.
+source: Wiktionary (Chinese), s.v. "大会"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 41998
+entryid: 52528
+permalink: 52528
+lesson: Entertainment - Music, Part 1
+lang: zh
+english: alternative music
+current: 替代音乐
+proposed: 另类音乐
+kind: wrong-word
+reason: 替代音乐 literally means 'replacement music,' whereas 另类音乐 is the standard term for 'alternative music' as a genre.
+source: Wiktionary (Chinese), s.v. "另类音乐"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42024
+entryid: 52560
+permalink: 52560
+lesson: Entertainment - Music, Part 4
+lang: zh
+english: trip hop
+current: 旅行跳
+proposed: 神游舞曲
+kind: wrong-word
+reason: 旅行跳 is word for word; the genre is 神游舞曲.
+source: Wiktionary (Chinese), s.v. "神游舞曲"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42030
+entryid: 52568
+permalink: 52568
+lesson: Entertainment - Music, Part 5
+lang: zh
+english: drum and bass
+current: 鼓和贝司
+proposed: 鼓打贝斯
+kind: wrong-word
+reason: 鼓和贝司 is the two instruments; the genre is 鼓打贝斯.
+source: Wiktionary (Chinese), s.v. "鼓打贝斯"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42032
+entryid: 52570
+permalink: 52570
+lesson: Entertainment - Music, Part 5
+lang: zh
+english: dubstep
+current: 的dubstep
+proposed: 回响贝斯
+kind: untranslated
+reason: The English was left in, with a stray 的; the genre is 回响贝斯.
+source: Wiktionary (Chinese), s.v. "回响贝斯"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42060
+entryid: 52606
+permalink: 52606
+lesson: Entertainment - Music, Part 9
+lang: zh
+english: spoken word
+current: 口头语言
+proposed: 口语艺术
+kind: wrong-word
+reason: 口头语言 is a literal translation for 'spoken language' in general, whereas 'spoken word' as a performance genre is typically referred to as 口语艺术.
+source: Wiktionary (Chinese), s.v. "口语艺术"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42082
+entryid: 52633
+permalink: 52633
+lesson: Entertainment - Music, Part 11
+lang: zh
+english: yukelele
+current: 四弦琴
+proposed: 尤克里里
+kind: wrong-word
+reason: 四弦琴 refers to a general tetrachord or a specific ancient instrument, whereas 尤克里里 is the standard name for the ukulele.
+source: Wiktionary (Chinese), s.v. "尤克里里": noun: ukulele
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42104
+entryid: 52660
+permalink: 52660
+lesson: Entertainment - Books, Part 3
+lang: zh
+english: non-fiction novel
+current: 非小说小说
+proposed: 非虚构小说
+kind: wrong-word
+reason: The current translation is a literal, nonsensical repetition of 'non-fiction' and 'novel' that does not exist in Chinese.
+source: Wiktionary (Chinese), s.v. "非虚构小说"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42128
+entryid: 52691
+permalink: 52691
+lesson: Entertainment - Film, Part 3
+lang: zh
+english: documentary
+current: 记录
+proposed: 纪录片
+kind: wrong-word
+reason: 记录 is a record; a documentary is 纪录片.
+source: Wiktionary (Chinese), s.v. "纪录片"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42137
+entryid: 52702
+permalink: 52702
+lesson: Entertainment - Film, Part 4
+lang: zh
+english: B-Movie
+current: B-电影
+proposed: B级片
+kind: untranslated
+reason: B-电影 keeps the English; a B-movie is B级片.
+source: Wiktionary (Chinese), s.v. "B级片"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42173
+entryid: 52748
+permalink: 52748
+lesson: Entertainment - Sports, Part 4
+lang: zh
+english: cricket
+current: 蟋蟀
+proposed: 板球
+kind: wrong-sense
+reason: The Chinese word provided refers to the insect, but the lesson is about sports, which requires the word for the game.
+source: Wiktionary (Chinese), s.v. "板球": noun: cricket (game)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42201
+entryid: 52782
+permalink: 52782
+lesson: Entertainment - Sports, Part 7
+lang: zh
+english: rc racing
+current: rc赛车
+proposed: 遥控赛车
+kind: untranslated
+reason: rc赛车 keeps the English; rc racing is 遥控赛车.
+source: Wiktionary (Chinese), s.v. "遥控赛车"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42203
+entryid: 52784
+permalink: 52784
+lesson: Entertainment - Sports, Part 7
+lang: zh
+english: sailing
+current: rc racingsailing
+proposed: 帆船
+kind: corrupt
+reason: The English of the row above was glued onto the translation.
+source: Wiktionary (Chinese), s.v. "帆船": noun: sailboat; junk
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42209
+entryid: 52792
+permalink: 52792
+lesson: Entertainment - Gaming, Part 1
+lang: zh
+english: mmorpg
+current: MMORPG
+proposed: 大型多人在线角色扮演游戏
+kind: untranslated
+reason: While the acronym is used in gaming circles, the standard Chinese term for this category of game is '大型多人在线角色扮演游戏'.
+source: Wiktionary (Chinese), s.v. "大型多人在线角色扮演游戏"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42236
+entryid: 52826
+permalink: 52826
+lesson: Culture - Calendar, Part 1
+lang: zh
+english: March
+current: 游行
+proposed: 三月
+kind: wrong-sense
+reason: The translation provided means 'parade' (a verb/noun for marching in a group), but the lesson context is a calendar month.
+source: Wiktionary (Chinese), s.v. "三月": noun: March, the third month of the Gregorian solar calendar.; The modern name for the third month of the Chinese lunar calendar.
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42241
+entryid: 52832
+permalink: 52832
+lesson: Culture - Calendar, Part 2
+lang: zh
+english: May
+current: 可能
+proposed: 五月
+kind: wrong-word
+reason: The Chinese word provided means 'possible' or 'maybe', but the lesson is about the calendar, so it should be the month of May.
+source: Wiktionary (Chinese), s.v. "五月": noun: May; modern name for the fifth month of the Chinese lunar calendar
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42274
+entryid: 52874
+permalink: 52874
+lesson: Culture - Religion, Part 1
+lang: zh
+english: Christmas
+current: 圣诞
+proposed: 圣诞节
+kind: wrong-form
+reason: 圣诞 alone is the Nativity; Christmas is 圣诞节.
+source: Wiktionary (Chinese), s.v. "圣诞节"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42280
+entryid: 52881
+permalink: 52881
+lesson: Culture - Religion, Part 1
+lang: zh
+english: Vesākha
+current: Vesākha
+proposed: 卫塞节
+kind: untranslated
+reason: The term refers to a specific Buddhist festival which has a standard Chinese name rather than being left in English.
+source: Wiktionary (Chinese), s.v. "卫塞节"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42293
+entryid: 52898
+permalink: 52898
+lesson: Culture - Religion, Part 3
+lang: zh
+english: Spiritism
+current: 招魂
+proposed: 通灵论
+kind: wrong-word
+reason: 招魂 is to summon a spirit; Spiritism is 通灵论.
+source: Wiktionary (Chinese), s.v. "通灵论"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42299
+entryid: 52905
+permalink: 52905
+lesson: Culture - Religion, Part 4
+lang: zh
+english: Baha'i
+current: 巴哈伊
+proposed: 巴哈伊教
+kind: untranslated
+reason: 巴哈伊 alone is the name; the faith is 巴哈伊教.
+source: Wiktionary (Chinese), s.v. "巴哈伊教": name: Baháʼí Faith
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42305
+entryid: 52913
+permalink: 52913
+lesson: Culture - Religion, Part 5
+lang: zh
+english: Christian
+current: 基督教
+proposed: 基督徒
+kind: wrong-word
+reason: 基督教 is Christianity; a Christian is 基督徒.
+source: Wiktionary (Chinese), s.v. "基督徒": noun: Christian
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42310
+entryid: 52919
+permalink: 52919
+lesson: Culture - Religion, Part 5
+lang: zh
+english: Hindu
+current: 印度教
+proposed: 印度教徒
+kind: wrong-word
+reason: 印度教 is Hinduism; a Hindu is 印度教徒.
+source: Wiktionary (Chinese), s.v. "印度教徒": noun: Hindu
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42315
+entryid: 52926
+permalink: 52926
+lesson: Culture - Religion, Part 6
+lang: zh
+english: Sikh
+current: 锡克教
+proposed: 锡克教徒
+kind: wrong-word
+reason: The Chinese word '锡克教' refers to the religion (Sikhism) itself, whereas the English word 'Sikh' refers to a person who practices the religion.
+source: Wiktionary (Chinese), s.v. "锡克教徒"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42319
+entryid: 52930
+permalink: 52930
+lesson: Culture - Religion, Part 6
+lang: zh
+english: Spiritist
+current: Spiritist
+proposed: 通灵论者
+kind: untranslated
+reason: The English was passed through; a Spiritist is 通灵论者.
+source: Wiktionary (Chinese), s.v. "通灵论者"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42322
+entryid: 52934
+permalink: 52934
+lesson: Culture - Religion, Part 7
+lang: zh
+english: Jew
+current: 犹
+proposed: 犹太人
+kind: wrong-word
+reason: The character '犹' is a component of the word for Jew, but on its own, it does not mean 'Jew'.
+source: Wiktionary (Chinese), s.v. "犹太人"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42323
+entryid: 52936
+permalink: 52936
+lesson: Culture - Religion, Part 7
+lang: zh
+english: Bahá'í
+current: 巴哈伊
+proposed: 巴哈伊教徒
+kind: untranslated
+reason: 巴哈伊 alone is the name; a Bahá'í is 巴哈伊教徒.
+source: Wiktionary (Chinese), s.v. "巴哈伊教徒"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42325
+entryid: 52938
+permalink: 52938
+lesson: Culture - Religion, Part 7
+lang: zh
+english: Jainist
+current: 耆那教
+proposed: 耆那教徒
+kind: wrong-word
+reason: 耆那教 is Jainism; a Jain is 耆那教徒.
+source: Wiktionary (Chinese), s.v. "耆那教徒"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42347
+entryid: 52966
+permalink: 52966
+lesson: Culture - Countries, Part 3
+lang: zh
+english: russia
+current: 俄国
+proposed: 俄罗斯
+kind: orthography
+reason: 俄国 is dated; Russia is 俄罗斯.
+source: Wiktionary (Chinese), s.v. "俄罗斯"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42366
+entryid: 52989
+permalink: 52989
+lesson: Culture - Countries, Part 5
+lang: zh
+english: Turkey
+current: 火鸡
+proposed: 土耳其
+kind: wrong-sense
+reason: The Chinese word '火鸡' refers to the bird (turkey), but the country is called '土耳其'.
+source: Wiktionary (Chinese), s.v. "土耳其": name: Turkey (a country located in Eastern Thrace in Southeastern Europe and Anatolia in West Asia)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42406
+entryid: 53039
+permalink: 53039
+lesson: Culture - Ethnicities, Part 1
+lang: zh
+english: chinese
+current: 中文
+proposed: 中国人
+kind: wrong-sense
+reason: This is the country or the language; the people are 中国人.
+source: Wiktionary (Chinese), s.v. "中国人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42409
+entryid: 53043
+permalink: 53043
+lesson: Culture - Ethnicities, Part 1
+lang: zh
+english: american
+current: 美国
+proposed: 美国人
+kind: wrong-sense
+reason: This is the country or the language; the people are 美国人.
+source: Wiktionary (Chinese), s.v. "美国人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42411
+entryid: 53045
+permalink: 53045
+lesson: Culture - Ethnicities, Part 1
+lang: zh
+english: indonesian
+current: 印度尼西亚
+proposed: 印度尼西亚人
+kind: wrong-sense
+reason: This is the country or the language; the people are 印度尼西亚人.
+source: Wiktionary (Chinese), s.v. "印度尼西亚人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42416
+entryid: 53052
+permalink: 53052
+lesson: Culture - Ethnicities, Part 2
+lang: zh
+english: pakistani
+current: 巴基斯坦
+proposed: 巴基斯坦人
+kind: wrong-sense
+reason: This is the country or the language; the people are 巴基斯坦人.
+source: Wiktionary (Chinese), s.v. "巴基斯坦人": noun: Pakistani
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42418
+entryid: 53054
+permalink: 53054
+lesson: Culture - Ethnicities, Part 2
+lang: zh
+english: nigerian
+current: 尼日利亚
+proposed: 尼日利亚人
+kind: wrong-sense
+reason: This is the country or the language; the people are 尼日利亚人.
+source: Wiktionary (Chinese), s.v. "尼日利亚人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42420
+entryid: 53056
+permalink: 53056
+lesson: Culture - Ethnicities, Part 2
+lang: zh
+english: bengali
+current: 孟加拉
+proposed: 孟加拉人
+kind: wrong-sense
+reason: This is the country or the language; the people are 孟加拉人.
+source: Wiktionary (Chinese), s.v. "孟加拉人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42422
+entryid: 53060
+permalink: 53060
+lesson: Culture - Ethnicities, Part 3
+lang: zh
+english: russian
+current: 俄语
+proposed: 俄罗斯人
+kind: wrong-word
+reason: The translation provided is for the Russian language, but the lesson context requires the word for a Russian person.
+source: Wiktionary (Chinese), s.v. "俄罗斯人"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42426
+entryid: 53064
+permalink: 53064
+lesson: Culture - Ethnicities, Part 3
+lang: zh
+english: japanese
+current: 日本
+proposed: 日本人
+kind: wrong-sense
+reason: This is the country or the language; the people are 日本人.
+source: Wiktionary (Chinese), s.v. "日本人": noun: Japanese person
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42428
+entryid: 53066
+permalink: 53066
+lesson: Culture - Ethnicities, Part 3
+lang: zh
+english: ethiopian
+current: 埃塞俄比亚
+proposed: 埃塞俄比亚人
+kind: wrong-sense
+reason: This is the country or the language; the people are 埃塞俄比亚人.
+source: Wiktionary (Chinese), s.v. "埃塞俄比亚人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42431
+entryid: 53071
+permalink: 53071
+lesson: Culture - Ethnicities, Part 4
+lang: zh
+english: Philippine
+current: 菲律宾的
+proposed: 菲律宾人
+kind: wrong-form
+reason: 菲律宾的 is the adjective; beside its neighbours, a Filipino is 菲律宾人.
+source: Wiktionary (Chinese), s.v. "菲律宾人"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42435
+entryid: 53075
+permalink: 53075
+lesson: Culture - Ethnicities, Part 4
+lang: zh
+english: Vietnamese
+current: 越南
+proposed: 越南人
+kind: wrong-sense
+reason: This is the country or the language; the people are 越南人.
+source: Wiktionary (Chinese), s.v. "越南人": noun: Vietnamese (person from Vietnam)
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42437
+entryid: 53077
+permalink: 53077
+lesson: Culture - Ethnicities, Part 4
+lang: zh
+english: German
+current: 德语
+proposed: 德国人
+kind: wrong-word
+reason: The English word 'German' refers to a person from Germany in this context, but '德语' means the German language.
+source: Wiktionary (Chinese), s.v. "德国人"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42439
+entryid: 53081
+permalink: 53081
+lesson: Culture - Ethnicities, Part 5
+lang: zh
+english: Iranian
+current: 伊朗的
+proposed: 伊朗人
+kind: wrong-form
+reason: The translation '伊朗的' is an adjective meaning 'Iranian' (as in Iranian food), but the lesson context of ethnicities requires the noun '伊朗人' (an Iranian person).
+source: Wiktionary (Chinese), s.v. "伊朗人": noun: Iranian (person)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42441
+entryid: 53083
+permalink: 53083
+lesson: Culture - Ethnicities, Part 5
+lang: zh
+english: Turkish
+current: 土耳其
+proposed: 土耳其人
+kind: wrong-sense
+reason: This is the country or the language; the people are 土耳其人.
+source: Wiktionary (Chinese), s.v. "土耳其人": noun: Turk; person from Turkey
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42443
+entryid: 53085
+permalink: 53085
+lesson: Culture - Ethnicities, Part 5
+lang: zh
+english: Thai
+current: 泰国
+proposed: 泰国人
+kind: wrong-sense
+reason: This is the country or the language; the people are 泰国人.
+source: Wiktionary (Chinese), s.v. "泰国人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42445
+entryid: 53088
+permalink: 53088
+lesson: Culture - Ethnicities, Part 5
+lang: zh
+english: Congolese
+current: 刚果
+proposed: 刚果人
+kind: wrong-word
+reason: The English word 'Congolese' refers to the people of the country, while '刚果' refers to the country itself.
+source: Wiktionary (Chinese), s.v. "刚果人"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42448
+entryid: 53092
+permalink: 53092
+lesson: Culture - Ethnicities, Part 6
+lang: zh
+english: british
+current: 英国的
+proposed: 英国人
+kind: wrong-form
+reason: 英国的 is the adjective; a Briton is 英国人.
+source: Wiktionary (Chinese), s.v. "英国人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42450
+entryid: 53094
+permalink: 53094
+lesson: Culture - Ethnicities, Part 6
+lang: zh
+english: french
+current: 法国
+proposed: 法国人
+kind: wrong-sense
+reason: This is the country or the language; the people are 法国人.
+source: Wiktionary (Chinese), s.v. "法国人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42453
+entryid: 53098
+permalink: 53098
+lesson: Culture - Ethnicities, Part 6
+lang: zh
+english: South African
+current: 南非的
+proposed: 南非人
+kind: wrong-form
+reason: 南非的 is the adjective; a South African is 南非人.
+source: Wiktionary (Chinese), s.v. "南非人": noun: South African (person, people)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42458
+entryid: 53104
+permalink: 53104
+lesson: Culture - Ethnicities, Part 7
+lang: zh
+english: North Korean
+current: 北朝鲜
+proposed: 朝鲜人
+kind: wrong-sense
+reason: This is the country or the language; the people are 朝鲜人.
+source: Wiktionary (Chinese), s.v. "朝鲜人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42460
+entryid: 53107
+permalink: 53107
+lesson: Culture - Ethnicities, Part 7
+lang: zh
+english: Colombian
+current: 哥伦比亚
+proposed: 哥伦比亚人
+kind: wrong-sense
+reason: The current translation refers to the country, but the lesson requires the word for a person of that nationality.
+source: Wiktionary (Chinese), s.v. "哥伦比亚人"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42467
+entryid: 53115
+permalink: 53115
+lesson: Culture - Ethnicities, Part 8
+lang: zh
+english: Ukrainian
+current: 乌克兰
+proposed: 乌克兰人
+kind: wrong-sense
+reason: This is the country or the language; the people are 乌克兰人.
+source: Wiktionary (Chinese), s.v. "乌克兰人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42473
+entryid: 53123
+permalink: 53123
+lesson: Culture - Ethnicities, Part 9
+lang: zh
+english: Polish
+current: 抛光
+proposed: 波兰人
+kind: wrong-word
+reason: 抛光 is polishing; a Pole is 波兰人.
+source: Wiktionary (Chinese), s.v. "波兰人"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42475
+entryid: 53125
+permalink: 53125
+lesson: Culture - Ethnicities, Part 9
+lang: zh
+english: Canadian
+current: 加拿大
+proposed: 加拿大人
+kind: wrong-sense
+reason: This is the country or the language; the people are 加拿大人.
+source: Wiktionary (Chinese), s.v. "加拿大人": noun: Canadian person
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42476
+entryid: 53127
+permalink: 53127
+lesson: Culture - Ethnicities, Part 9
+lang: zh
+english: Moroccan
+current: 摩洛哥
+proposed: 摩洛哥人
+kind: wrong-sense
+reason: This is the country or the language; the people are 摩洛哥人.
+source: Wiktionary (Chinese), s.v. "摩洛哥人": noun: Moroccan (person)
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42478
+entryid: 53129
+permalink: 53129
+lesson: Culture - Ethnicities, Part 9
+lang: zh
+english: Peruvian
+current: 秘鲁
+proposed: 秘鲁人
+kind: wrong-sense
+reason: This is the country or the language; the people are 秘鲁人.
+source: Wiktionary (Chinese), s.v. "秘鲁人"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42487
+entryid: 53140
+permalink: 53140
+lesson: Culture - Languages, Part 1
+lang: zh
+english: Arabic
+current: 阿拉伯
+proposed: 阿拉伯语
+kind: wrong-sense
+reason: 阿拉伯 is Arabia; the language is 阿拉伯语.
+source: Wiktionary (Chinese), s.v. "阿拉伯语"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42491
+entryid: 53146
+permalink: 53146
+lesson: Culture - Languages, Part 2
+lang: zh
+english: Punjabi
+current: 旁遮普
+proposed: 旁遮普语
+kind: wrong-sense
+reason: 旁遮普 is the Punjab; the language is 旁遮普语.
+source: Wiktionary (Chinese), s.v. "旁遮普语"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42493
+entryid: 53148
+permalink: 53148
+lesson: Culture - Languages, Part 2
+lang: zh
+english: Javanese
+current: 爪哇
+proposed: 爪哇语
+kind: wrong-sense
+reason: 爪哇 is Java; the language is 爪哇语.
+source: Wiktionary (Chinese), s.v. "爪哇语"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42495
+entryid: 53150
+permalink: 53150
+lesson: Culture - Languages, Part 2
+lang: zh
+english: Korean
+current: 朝鲜的
+proposed: 韩语
+kind: wrong-form
+reason: 朝鲜的 is 'North Korean'; the language is 韩语.
+source: Wiktionary (Chinese), s.v. "韩语"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42518
+entryid: 53179
+permalink: 53179
+lesson: Culture - Capitals, Part 3
+lang: zh
+english: Mexico City, Mexico
+current: 墨西哥城墨西哥
+proposed: 墨西哥城，墨西哥
+kind: orthography
+reason: The comma was lost; written like its neighbours.
+source: Wiktionary (Chinese), s.v. "墨西哥城，墨西哥"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42519
+entryid: 53180
+permalink: 53180
+lesson: Culture - Capitals, Part 3
+lang: zh
+english: Tehran, Iran
+current: 伊朗德黑兰
+proposed: 德黑兰，伊朗
+kind: orthography
+reason: Written city first, like its neighbours.
+source: Wiktionary (Chinese), s.v. "德黑兰，伊朗"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42534
+entryid: 53199
+permalink: 53199
+lesson: Culture - Capitals, Part 5
+lang: zh
+english: Baghdad, Iraq
+current: 中国香港巴格达伊拉克
+proposed: 巴格达，伊拉克
+kind: corrupt
+reason: Hong Kong's value, the row above, was glued on.
+source: Wiktionary (Chinese), s.v. "巴格达，伊拉克"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42556
+entryid: 53227
+permalink: 53227
+lesson: Culture - Capitals, Part 8
+lang: zh
+english: Rome, Italy
+current: 雅典，希腊罗马，意大利
+proposed: 罗马，意大利
+kind: corrupt
+reason: Athens' value, two rows above, was glued on.
+source: Wiktionary (Chinese), s.v. "罗马，意大利"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42623
+entryid: 53311
+permalink: 53311
+lesson: Culture - Politics, Part 6
+lang: zh
+english: state
+current: 州
+proposed: 国家
+kind: wrong-sense
+reason: The word '州' refers to a province or state within a country, whereas the lesson context of 'Politics' refers to a sovereign nation (国家).
+source: Wiktionary (Chinese), s.v. "国家"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42653
+entryid: 53348
+permalink: 53348
+lesson: Culture - Politics, Part 9
+lang: zh
+english: non-conformity
+current: 不合格
+proposed: 不服从
+kind: wrong-sense
+reason: 不合格 is failing an inspection; non-conformity is 不服从.
+source: Wiktionary (Chinese), s.v. "不服从"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42700
+entryid: 53407
+permalink: 53407
+lesson: Culture - Politics, Part 15
+lang: zh
+english: confederalism
+current: confederalism
+proposed: 邦联制
+kind: untranslated
+reason: The word was left in English by the translator, but Chinese has a specific term for this political system.
+source: Wiktionary (Chinese), s.v. "邦联制"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42703
+entryid: 53411
+permalink: 53411
+lesson: Culture - Politics, Part 15
+lang: zh
+english: constituent
+current: 组分
+proposed: 选民
+kind: wrong-sense
+reason: The Chinese word '组分' refers to a chemical or physical component, whereas the lesson refers to a voter or constituent of a political district.
+source: Wiktionary (Chinese), s.v. "选民"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42707
+entryid: 53416
+permalink: 53416
+lesson: Culture - Politics, Part 16
+lang: zh
+english: constituency
+current: 选民
+proposed: 选区
+kind: wrong-sense
+reason: 选民 is the voters; a constituency is 选区.
+source: Wiktionary (Chinese), s.v. "选区"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42717
+entryid: 53428
+permalink: 53428
+lesson: Culture - Politics, Part 17
+lang: zh
+english: dystopia
+current: 异位
+proposed: 反乌托邦
+kind: wrong-word
+reason: The word '异位' is not a standard Chinese term for dystopia; the correct term is '反乌托邦'.
+source: Wiktionary (Chinese), s.v. "反乌托邦"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42732
+entryid: 53447
+permalink: 53447
+lesson: Culture - Politics, Part 19
+lang: zh
+english: house of commons
+current: 公社的房子
+proposed: 下议院
+kind: wrong-sense
+reason: The translation literally means 'a house of a commune' instead of the specific political body 'House of Commons'.
+source: Wiktionary (Chinese), s.v. "下议院"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42742
+entryid: 53460
+permalink: 53460
+lesson: Culture - Politics, Part 20
+lang: zh
+english: mandate
+current: 要求
+proposed: 授权
+kind: wrong-word
+reason: 要求 is a demand; a mandate is 授权.
+source: Wiktionary (Chinese), s.v. "授权"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42761
+entryid: 53483
+permalink: 53483
+lesson: Culture - Politics, Part 22
+lang: zh
+english: plutocracy
+current: 富豪
+proposed: 富豪统治
+kind: wrong-sense
+reason: 富豪 is a rich man; plutocracy is 富豪统治.
+source: Wiktionary (Chinese), s.v. "富豪统治"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42771
+entryid: 53496
+permalink: 53496
+lesson: Culture - Politics, Part 23
+lang: zh
+english: sovietism
+current: 苏主义
+proposed: 苏维埃主义
+kind: wrong-word
+reason: 苏主义 is truncated; sovietism is 苏维埃主义.
+source: Wiktionary (Chinese), s.v. "苏维埃主义"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42778
+entryid: 53504
+permalink: 53504
+lesson: Culture - Politics, Part 24
+lang: zh
+english: racial profiling
+current: 种族分析
+proposed: 种族定性
+kind: wrong-word
+reason: 种族分析 is racial analysis; racial profiling is 种族定性.
+source: Wiktionary (Chinese), s.v. "种族定性"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42793
+entryid: 53524
+permalink: 53524
+lesson: Culture - Politics, Part 26
+lang: zh
+english: syndicalism
+current: 工团
+proposed: 工团主义
+kind: wrong-word
+reason: The term '工团' is not a standard word for syndicalism; the correct political term is '工团主义'.
+source: Wiktionary (Chinese), s.v. "工团主义"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42840
+entryid: 53583
+permalink: 53583
+lesson: Culture - Politics, Part 32
+lang: zh
+english: right-winger
+current: 右边锋
+proposed: 右派人士
+kind: wrong-word
+reason: 右边锋 is a right winger in football.
+source: Wiktionary (Chinese), s.v. "右派人士"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42844
+entryid: 53587
+permalink: 53587
+lesson: Culture - Politics, Part 32
+lang: zh
+english: communist
+current: 共产
+proposed: 共产主义者
+kind: wrong-form
+reason: 共产 is truncated; beside 社会主义者, a communist is 共产主义者.
+source: Wiktionary (Chinese), s.v. "共产主义者"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42859
+entryid: 53606
+permalink: 53606
+lesson: Culture - Politics, Part 34
+lang: zh
+english: theocrat
+current: theocrat
+proposed: 神权统治者
+kind: untranslated
+reason: The word was left in English by the translator instead of being converted to the Chinese term for a ruler by religious authority.
+source: Wiktionary (Chinese), s.v. "神权统治者"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42862
+entryid: 53610
+permalink: 53610
+lesson: Culture - Politics, Part 34
+lang: zh
+english: inquisitor
+current: 砂锅
+proposed: 宗教裁判官
+kind: wrong-word
+reason: 砂锅 is a casserole; an inquisitor is 宗教裁判官.
+source: Wiktionary (Chinese), s.v. "宗教裁判官"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42896
+entryid: 53652
+permalink: 53652
+lesson: Culture - Politics, Part 38
+lang: zh
+english: intolerance
+current: 不耐症
+proposed: 不宽容
+kind: wrong-word
+reason: The translation provided is a medical term for 'intolerance' (like lactose intolerance), not the political/social concept of intolerance.
+source: Wiktionary (Chinese), s.v. "不宽容"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42902
+entryid: 53660
+permalink: 53660
+lesson: Culture - Politics, Part 39
+lang: zh
+english: homophobe
+current: homophobe
+proposed: 恐同者
+kind: untranslated
+reason: The word was left in English by the translator instead of being converted to the Chinese term for a person who is homophobic.
+source: Wiktionary (Chinese), s.v. "恐同者"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42919
+entryid: 53681
+permalink: 53681
+lesson: Culture - Politics, Part 41
+lang: zh
+english: subject
+current: 学科
+proposed: 臣民
+kind: wrong-sense
+reason: 学科 is a school subject; a subject of a monarch is 臣民.
+source: Wiktionary (Chinese), s.v. "臣民": noun: officials and commoners (of a feudal state); subject (citizen in a monarchy or empire)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 42922
+entryid: 53684
+permalink: 53684
+lesson: Culture - Politics, Part 41
+lang: zh
+english: rank and file
+current: 排名和档案
+proposed: 基层人员
+kind: wrong-word
+reason: The current translation is a literal word-for-word translation of 'rank' and 'file' rather than the idiomatic meaning of ordinary members.
+source: Wiktionary (Chinese), s.v. "基层人员"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42976
+entryid: 53753
+permalink: 53753
+lesson: Adjectives - Numbers, Part 7
+lang: zh
+english: twenty-six
+current: 26
+proposed: 二十六
+kind: orthography
+reason: Written in figures; the lesson teaches the word, 二十六, as most of its rows already give it.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 42979
+entryid: 53756
+permalink: 53756
+lesson: Adjectives - Numbers, Part 7
+lang: zh
+english: twenty-eight
+current: 28
+proposed: 二十八
+kind: orthography
+reason: Written in figures; the lesson teaches the word, 二十八, as most of its rows already give it.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 42999
+entryid: 53781
+permalink: 53781
+lesson: Adjectives - Numbers, Part 12
+lang: zh
+english: one thousand, two hundred
+current: 1200
+proposed: 一千二百
+kind: orthography
+reason: Written in figures; the lesson teaches the word, 一千二百, as most of its rows already give it.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 43008
+entryid: 53793
+permalink: 53793
+lesson: Adjectives - Numbers, Part 15
+lang: zh
+english: two thousand, one
+current: 两千，一
+proposed: 两千零一
+kind: wrong-form
+reason: 两千，一 is written in pieces or as a year; the number itself is 两千零一.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43009
+entryid: 53794
+permalink: 53794
+lesson: Adjectives - Numbers, Part 15
+lang: zh
+english: two thousand, two
+current: 两千，二
+proposed: 两千零二
+kind: wrong-form
+reason: 两千，二 is written in pieces or as a year; the number itself is 两千零二.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43010
+entryid: 53795
+permalink: 53795
+lesson: Adjectives - Numbers, Part 15
+lang: zh
+english: two thousand, three
+current: 两千三
+proposed: 两千零三
+kind: wrong-word
+reason: 两千三 is not how Chinese writes two thousand, three; it is 两千零三.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43011
+entryid: 53796
+permalink: 53796
+lesson: Adjectives - Numbers, Part 15
+lang: zh
+english: two thousand, four
+current: 二零零四年
+proposed: 两千零四
+kind: wrong-form
+reason: 二零零四年 is written in pieces or as a year; the number itself is 两千零四.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43012
+entryid: 53798
+permalink: 53798
+lesson: Adjectives - Numbers, Part 16
+lang: zh
+english: two thousand, five
+current: 二千四千二千五
+proposed: 两千零五
+kind: wrong-word
+reason: 二千四千二千五 is not how Chinese writes two thousand, five; it is 两千零五.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 43013
+entryid: 53799
+permalink: 53799
+lesson: Adjectives - Numbers, Part 16
+lang: zh
+english: two thousand, six
+current: 两千六
+proposed: 两千零六
+kind: wrong-word
+reason: 两千六 is not how Chinese writes two thousand, six; it is 两千零六.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43014
+entryid: 53800
+permalink: 53800
+lesson: Adjectives - Numbers, Part 16
+lang: zh
+english: two thousand, seven
+current: 二千七，七
+proposed: 两千零七
+kind: wrong-form
+reason: 二千七，七 is written in pieces or as a year; the number itself is 两千零七.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43015
+entryid: 53801
+permalink: 53801
+lesson: Adjectives - Numbers, Part 16
+lang: zh
+english: two thousand, eight
+current: 二千八
+proposed: 两千零八
+kind: wrong-word
+reason: 二千八 is not how Chinese writes two thousand, eight; it is 两千零八.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43016
+entryid: 53803
+permalink: 53803
+lesson: Adjectives - Numbers, Part 17
+lang: zh
+english: two thousand, nine
+current: 两千九
+proposed: 两千零九
+kind: wrong-word
+reason: 两千九 is not how Chinese writes two thousand, nine; it is 两千零九.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43017
+entryid: 53804
+permalink: 53804
+lesson: Adjectives - Numbers, Part 17
+lang: zh
+english: two thousand, ten
+current: 二千，十
+proposed: 两千零一十
+kind: wrong-form
+reason: 二千，十 is written in pieces or as a year; the number itself is 两千零一十.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43018
+entryid: 53805
+permalink: 53805
+lesson: Adjectives - Numbers, Part 17
+lang: zh
+english: two thousand, eleven
+current: 两千一十一
+proposed: 两千零一十一
+kind: wrong-word
+reason: 两千一十一 is not how Chinese writes two thousand, eleven; it is 两千零一十一.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43019
+entryid: 53806
+permalink: 53806
+lesson: Adjectives - Numbers, Part 17
+lang: zh
+english: two thousand, twelve
+current: 两千二十二
+proposed: 两千零一十二
+kind: wrong-word
+reason: 两千二十二 is not how Chinese writes two thousand, twelve; it is 两千零一十二.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43020
+entryid: 53808
+permalink: 53808
+lesson: Adjectives - Numbers, Part 18
+lang: zh
+english: two thousand, thirteen
+current: 两千零十三
+proposed: 两千零一十三
+kind: orthography
+reason: Written 两千零一十三, with 两千 and 零一十 as the rest of the lesson writes them.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43021
+entryid: 53809
+permalink: 53809
+lesson: Adjectives - Numbers, Part 18
+lang: zh
+english: two thousand, fourteen
+current: 二〇一四年
+proposed: 两千零一十四
+kind: wrong-form
+reason: 二〇一四年 is written in pieces or as a year; the number itself is 两千零一十四.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43022
+entryid: 53810
+permalink: 53810
+lesson: Adjectives - Numbers, Part 18
+lang: zh
+english: two thousand, fifteen
+current: 两千，十五
+proposed: 两千零一十五
+kind: wrong-form
+reason: 两千，十五 is written in pieces or as a year; the number itself is 两千零一十五.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43023
+entryid: 53811
+permalink: 53811
+lesson: Adjectives - Numbers, Part 18
+lang: zh
+english: two thousand, sixteen
+current: 两千六十六
+proposed: 两千零一十六
+kind: wrong-word
+reason: 两千六十六 is not how Chinese writes two thousand, sixteen; it is 两千零一十六.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 43024
+entryid: 53813
+permalink: 53813
+lesson: Adjectives - Numbers, Part 19
+lang: zh
+english: two thousand, seventeen
+current: 二千，十七
+proposed: 两千零一十七
+kind: wrong-form
+reason: 二千，十七 is written in pieces or as a year; the number itself is 两千零一十七.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43025
+entryid: 53814
+permalink: 53814
+lesson: Adjectives - Numbers, Part 19
+lang: zh
+english: two thousand, eighteen
+current: 二，十八
+proposed: 两千零一十八
+kind: wrong-form
+reason: 二，十八 is written in pieces or as a year; the number itself is 两千零一十八.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 43026
+entryid: 53815
+permalink: 53815
+lesson: Adjectives - Numbers, Part 19
+lang: zh
+english: two thousand, nineteen
+current: 二千，十九
+proposed: 两千零一十九
+kind: wrong-form
+reason: 二千，十九 is written in pieces or as a year; the number itself is 两千零一十九.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43027
+entryid: 53816
+permalink: 53816
+lesson: Adjectives - Numbers, Part 19
+lang: zh
+english: two thousand, twenty
+current: 二千二十
+proposed: 两千零二十
+kind: wrong-word
+reason: 二千二十 is not how Chinese writes two thousand, twenty; it is 两千零二十.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43028
+entryid: 53818
+permalink: 53818
+lesson: Adjectives - Numbers, Part 20
+lang: zh
+english: two thousand, one hundred, one
+current: 二千一百一
+proposed: 两千一百零一
+kind: wrong-word
+reason: 二千一百一 is not how Chinese writes two thousand, one hundred, one; it is 两千一百零一.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 43029
+entryid: 53819
+permalink: 53819
+lesson: Adjectives - Numbers, Part 20
+lang: zh
+english: two thousand, one hundred, two
+current: 二千一百二
+proposed: 两千一百零二
+kind: wrong-word
+reason: 二千一百二 is not how Chinese writes two thousand, one hundred, two; it is 两千一百零二.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43030
+entryid: 53820
+permalink: 53820
+lesson: Adjectives - Numbers, Part 20
+lang: zh
+english: two thousand, one hundred, three
+current: 两千一百三
+proposed: 两千一百零三
+kind: wrong-word
+reason: 两千一百三 is not how Chinese writes two thousand, one hundred, three; it is 两千一百零三.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43031
+entryid: 53821
+permalink: 53821
+lesson: Adjectives - Numbers, Part 20
+lang: zh
+english: two thousand, one hundred, four
+current: 二千一百四
+proposed: 两千一百零四
+kind: wrong-word
+reason: 二千一百四 is not how Chinese writes two thousand, one hundred, four; it is 两千一百零四.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43032
+entryid: 53823
+permalink: 53823
+lesson: Adjectives - Numbers, Part 21
+lang: zh
+english: two thousand, one hundred, fifty-one
+current: 二千一百五十一
+proposed: 两千一百五十一
+kind: orthography
+reason: Written 两千一百五十一, with 两千 and 零一十 as the rest of the lesson writes them.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43033
+entryid: 53824
+permalink: 53824
+lesson: Adjectives - Numbers, Part 21
+lang: zh
+english: two thousand, one hundred, fifty-two
+current: 二千一百五十二
+proposed: 两千一百五十二
+kind: orthography
+reason: Written 两千一百五十二, with 两千 and 零一十 as the rest of the lesson writes them.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43034
+entryid: 53825
+permalink: 53825
+lesson: Adjectives - Numbers, Part 21
+lang: zh
+english: two thousand, one hundred, fifty-three
+current: 二千一百五十三
+proposed: 两千一百五十三
+kind: orthography
+reason: Written 两千一百五十三, with 两千 and 零一十 as the rest of the lesson writes them.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 43035
+entryid: 53826
+permalink: 53826
+lesson: Adjectives - Numbers, Part 21
+lang: zh
+english: two thousand, one hundred, fifty-four
+current: 二千一百五十四
+proposed: 两千一百五十四
+kind: orthography
+reason: Written 两千一百五十四, with 两千 and 零一十 as the rest of the lesson writes them.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 46689
+entryid: 58411
+permalink: 58411
+lesson: Adjectives - Numbers, Part 10
+lang: zh
+english: four hundred
+current: 400
+proposed: 四百
+kind: orthography
+reason: Written in figures; the lesson teaches the word, 四百, as most of its rows already give it.
+source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 47155
+entryid: 58996
+permalink: 58996
+lesson: Culture - Food and Drink, Part 2
+lang: zh
+english: healthy
+current: 健康
+proposed: 健康的
+kind: wrong-class
+reason: 健康 is health, the noun; healthy is 健康的.
+source: Wiktionary (Chinese), s.v. "健康的"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 47193
+entryid: 59044
+permalink: 59044
+lesson: Culture - Food and Drink, Part 12
+lang: zh
+english: falafel
+current: 沙拉三明治
+proposed: 炸鹰嘴豆丸子
+kind: wrong-word
+reason: 沙拉三明治 is a salad sandwich; falafel is 炸鹰嘴豆丸子.
+source: Wiktionary (Chinese), s.v. "炸鹰嘴豆丸子"
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 47204
+entryid: 59058
+permalink: 59058
+lesson: Culture - Food and Drink, Part 15
+lang: zh
+english: seltzer water
+current: 塞尔特水
+proposed: 苏打水
+kind: untranslated
+reason: 塞尔特水 is a literal transliteration of 'seltzer' and is not the standard term used by Chinese speakers for seltzer water.
+source: Wiktionary (Chinese), s.v. "苏打水"
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 47206
+entryid: 59061
+permalink: 59061
+lesson: Culture - Food and Drink, Part 16
+lang: zh
+english: soda
+current: 苏打
+proposed: 汽水
+kind: wrong-word
+reason: 苏打 (sūdǎ) refers to soda ash or sodium carbonate, whereas 汽水 (qìshuǐ) is the standard term for a carbonated soda drink.
+source: Wiktionary (Chinese), s.v. "汽水": noun: fizzy drink, soft drink; carbonated water; soda water; brackish water
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 57318
+entryid: 71779
+permalink: 71779
+lesson: Phrases - Introductions, Part 6
+lang: zh
+english: What's up?
+current: 这是怎么回事？
+proposed: 最近怎么样？
+kind: wrong-sense
+reason: 这是怎么回事？ is 'what is going on here?'; as a greeting, what's up is 最近怎么样？
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57353
+entryid: 71823
+permalink: 71823
+lesson: Phrases - Manners, Part 9
+lang: zh
+english: Great!
+current: 大！
+proposed: 太棒了！
+kind: wrong-word
+reason: The word '大' means 'big' and is not used as an exclamation of approval; '太棒了' is the standard way to say 'Great!'
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 57366
+entryid: 71839
+permalink: 71839
+lesson: Phrases - Manners, Part 12
+lang: zh
+english: That was thoughtless of me.
+current: 这是我无所事事
+proposed: 是我考虑不周。
+kind: wrong-word
+reason: 这是我无所事事 is 'this is me idling'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57382
+entryid: 71859
+permalink: 71859
+lesson: Phrases - Emotions, Part 4
+lang: zh
+english: I am nice.
+current: 我很不错。
+proposed: 我很友善。
+kind: wrong-sense
+reason: The translation '我很不错' means 'I am not bad' or 'I am quite good,' whereas 'I am nice' in a personality context is better expressed as '我很友善' (I am kind/friendly).
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57433
+entryid: 71923
+permalink: 71923
+lesson: Phrases - Concern, Part 12
+lang: zh
+english: It hurts right here.
+current: 这伤害了
+proposed: 这里疼。
+kind: wrong-form
+reason: The translation '这伤害了' is grammatically incorrect and literally means 'this harmed,' whereas '这里疼' is the natural way to say 'it hurts right here.'
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57491
+entryid: 71995
+permalink: 71995
+lesson: Phrases - Food, Part 11
+lang: zh
+english: Do you like sugar in your cereal?
+current: 你喜欢吃谷物吗？
+proposed: 你喜欢在麦片里加糖吗？
+kind: wrong-sense
+reason: The translation asks if the person likes eating grains in general, rather than asking about adding sugar to cereal.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 57525
+entryid: 72038
+permalink: 72038
+lesson: Phrases - Food, Part 20
+lang: zh
+english: What on the menu do you recommend?
+current: 你推荐什么菜单？
+proposed: 菜单上你推荐什么？
+kind: wrong-form
+reason: 你推荐什么菜单？ asks which menu to recommend.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57530
+entryid: 72044
+permalink: 72044
+lesson: Phrases - Food, Part 21
+lang: zh
+english: I would like a falafel.
+current: 我想要一个沙龙吧
+proposed: 我想要一份炸鹰嘴豆丸子。
+kind: wrong-word
+reason: 沙龙 is a salon.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57542
+entryid: 72059
+permalink: 72059
+lesson: Phrases - Food, Part 24
+lang: zh
+english: I don't drink with breakfast.
+current: 我不喝早餐。
+proposed: 我吃早餐时不喝东西。
+kind: wrong-form
+reason: 我不喝早餐 is 'I don't drink breakfast'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57560
+entryid: 72082
+permalink: 72082
+lesson: Phrases - Travel, Part 2
+lang: zh
+english: How close is it?
+current: 多靠近
+proposed: 有多近？
+kind: wrong-form
+reason: “多靠近” is a literal, incorrect translation; Chinese uses the verb “离” to express distance and “近” to mean close.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57619
+entryid: 72156
+permalink: 72156
+lesson: Phrases - Travel, Part 17
+lang: zh
+english: That way.
+current: 那样。
+proposed: 那边。
+kind: wrong-sense
+reason: 那样 is 'that manner'; that way, pointing, is 那边.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57630
+entryid: 72169
+permalink: 72169
+lesson: Phrases - Travel, Part 19
+lang: zh
+english: Is it okay if we meet by the food stand?
+current: 如果我们在餐厅见面，可以吗？
+proposed: 我们在小吃摊见面可以吗？
+kind: wrong-word
+reason: The translation uses '餐厅' (restaurant) instead of the specific 'food stand' (小吃摊) requested in the English phrase.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 57636
+entryid: 72177
+permalink: 72177
+lesson: Phrases - Travel, Part 21
+lang: zh
+english: How many miles until we get to the pub?
+current: 到酒吧几英里？
+proposed: 到酒吧还有几英里？
+kind: wrong-form
+reason: The translation is missing the 'still/remaining' aspect and the 'distance from' structure, making it sound like a fragmented list of words rather than a natural question.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57689
+entryid: 72243
+permalink: 72243
+lesson: Phrases - Travel, Part 34
+lang: zh
+english: Where is the cheapest liquor store?
+current: 最便宜的酒店在哪里？
+proposed: 最便宜的酒类商店在哪里？
+kind: wrong-word
+reason: 酒店 is a hotel.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 57692
+entryid: 72247
+permalink: 72247
+lesson: Phrases - Travel, Part 35
+lang: zh
+english: Are they coming?
+current: 他们来了吗
+proposed: 他们要来吗？
+kind: wrong-form
+reason: 他们来了吗 is 'have they arrived?'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57747
+entryid: 72316
+permalink: 72316
+lesson: Phrases - Travel, Part 49
+lang: zh
+english: Fill up the tank all the way please.
+current: 请填满坦克。
+proposed: 请把油箱加满。
+kind: wrong-word
+reason: 坦克 is a military tank.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57777
+entryid: 72353
+permalink: 72353
+lesson: Phrases - Travel, Part 56
+lang: zh
+english: That can be found to the East.
+current: 那东西可以找到。
+proposed: 可以在东边找到。
+kind: wrong-sense
+reason: The translation omits the 'to the East' part of the phrase, changing the meaning entirely.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57914
+entryid: 72524
+permalink: 72524
+lesson: Phrases - People, Part 20
+lang: zh
+english: Are they coming?
+current: 他们来了吗
+proposed: 他们要来吗？
+kind: wrong-form
+reason: 他们来了吗 is 'have they arrived?'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57940
+entryid: 72556
+permalink: 72556
+lesson: Phrases - People, Part 26
+lang: zh
+english: He thinks we're coming.
+current: 他认为我们来了
+proposed: 他认为我们要来。
+kind: wrong-form
+reason: 我们来了 is 'we have arrived'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 57954
+entryid: 72574
+permalink: 72574
+lesson: Phrases - People, Part 30
+lang: zh
+english: Is your father home?
+current: 你爸爸回家吗
+proposed: 你爸爸在家吗？
+kind: wrong-form
+reason: 回家 is to go home.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58072
+entryid: 72721
+permalink: 72721
+lesson: Phrases - Knowledge, Part 16
+lang: zh
+english: How do you approve of going to the bar after the library?
+current: 图书馆怎么批准去酒吧？
+proposed: 你觉得图书馆之后去酒吧怎么样？
+kind: wrong-form
+reason: The Chinese asks how the library approves of the bar.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58112
+entryid: 72771
+permalink: 72771
+lesson: Phrases - Preparation, Part 6
+lang: zh
+english: I'm getting ready to go to my appointment.
+current: 我准备去我的约会了
+proposed: 我准备去赴约了。
+kind: wrong-form
+reason: 约会 is a date.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58155
+entryid: 72825
+permalink: 72825
+lesson: Phrases - Time, Part 2
+lang: zh
+english: From time to time.
+current: 时。
+proposed: 时不时。
+kind: wrong-form
+reason: 时 alone is 'time'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58158
+entryid: 72829
+permalink: 72829
+lesson: Phrases - Time, Part 3
+lang: zh
+english: I get out of work at 6.
+current: 我在6点工作了。
+proposed: 我6点下班。
+kind: wrong-sense
+reason: The original Chinese sentence means 'I worked at 6' rather than 'I get out of work' (finish work).
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 58182
+entryid: 72859
+permalink: 72859
+lesson: Phrases - Time, Part 9
+lang: zh
+english: When is the bus station open?
+current: 什么时候开车？
+proposed: 公交车站什么时候开门？
+kind: wrong-sense
+reason: The Chinese asks when the car starts.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 58236
+entryid: 72926
+permalink: 72926
+lesson: Phrases - Time, Part 22
+lang: zh
+english: I want to do that later.
+current: 我以后想做。
+proposed: 我以后想做那件事。
+kind: wrong-form
+reason: The Chinese lost the 'that'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58313
+entryid: 73022
+permalink: 73022
+lesson: Phrases - Social Activity, Part 6
+lang: zh
+english: Jane is not here right now.
+current: 简不在现在。
+proposed: 简现在不在。
+kind: wrong-form
+reason: 简不在现在 is in English word order.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 58341
+entryid: 73057
+permalink: 73057
+lesson: Phrases - Social Activity, Part 13
+lang: zh
+english: He is available at the moment.
+current: 他现在可以使用
+proposed: 他现在有空。
+kind: wrong-sense
+reason: 可以使用 is 'available for use', of a thing.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58356
+entryid: 73076
+permalink: 73076
+lesson: Phrases - Social Activity, Part 17
+lang: zh
+english: Please take your shoes off.
+current: 请把你的鞋子关掉。
+proposed: 请脱鞋。
+kind: wrong-word
+reason: 关掉 is to switch off.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58406
+entryid: 73139
+permalink: 73139
+lesson: Phrases - Social Activity, Part 30
+lang: zh
+english: Are you new to this?
+current: 你是新的吗？
+proposed: 你是新手吗？
+kind: wrong-form
+reason: The translation '你是新的吗？' literally means 'Are you new?' (as in a new object), whereas '你是新手吗？' is the natural way to ask if someone is a beginner or newcomer to an activity.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 58417
+entryid: 73152
+permalink: 73152
+lesson: Phrases - Social Activity, Part 32
+lang: zh
+english: I did it for luck.
+current: 我做了运气。
+proposed: 我是为了求好运才这么做的。
+kind: wrong-form
+reason: 我做了运气 is 'I did luck'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58523
+entryid: 73285
+permalink: 73285
+lesson: Phrases - Objects, Part 8
+lang: zh
+english: Less than that.
+current: 不到那个
+proposed: 比那少一点。
+kind: wrong-form
+reason: 不到那个 is not grammatical.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58525
+entryid: 73287
+permalink: 73287
+lesson: Phrases - Objects, Part 8
+lang: zh
+english: How little?
+current: 多少少
+proposed: 少多少？
+kind: wrong-word
+reason: 多少少 is not grammatical.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58560
+entryid: 73331
+permalink: 73331
+lesson: Phrases - Objects, Part 17
+lang: zh
+english: I'll make some coffee.
+current: 我会喝点咖啡
+proposed: 我去煮点咖啡。
+kind: wrong-word
+reason: 喝 is to drink it.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58563
+entryid: 73335
+permalink: 73335
+lesson: Phrases - Objects, Part 18
+lang: zh
+english: When does the mail come?
+current: 邮件什么时候来了？
+proposed: 邮件什么时候到？
+kind: wrong-form
+reason: The translation uses '来了' (came), which is past tense, whereas the English question asks for a habitual or future schedule.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 58593
+entryid: 73372
+permalink: 73372
+lesson: Phrases - Objects, Part 25
+lang: zh
+english: It's nowhere.
+current: 没有地方
+proposed: 哪儿都没有。
+kind: wrong-form
+reason: 没有地方 is 'there's no room'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58599
+entryid: 73380
+permalink: 73380
+lesson: Phrases - Objects, Part 27
+lang: zh
+english: Yes, I can hold that.
+current: 是的，我可以坚持
+proposed: 是的，我可以拿着。
+kind: wrong-sense
+reason: 坚持 is to persevere.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58630
+entryid: 73419
+permalink: 73419
+lesson: Phrases - Objects, Part 35
+lang: zh
+english: You should try it on.
+current: 你应该尝试。
+proposed: 你应该试穿一下。
+kind: wrong-form
+reason: The translation is missing the specific verb for 'trying on' clothes and the object, making it sound like 'you should try' in a general sense.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58631
+entryid: 73420
+permalink: 73420
+lesson: Phrases - Objects, Part 35
+lang: zh
+english: I will try it on.
+current: 我会尝试的。
+proposed: 我会试穿的。
+kind: wrong-sense
+reason: The current translation means 'I will try (an action/task),' whereas the English phrase specifically refers to trying on clothing.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58646
+entryid: 73439
+permalink: 73439
+lesson: Phrases - Objects, Part 39
+lang: zh
+english: I have it in my car.
+current: 我在我的车里
+proposed: 它在我车里。
+kind: wrong-form
+reason: 我在我的车里 is 'I am in my car'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58664
+entryid: 73461
+permalink: 73461
+lesson: Phrases - Objects, Part 43
+lang: zh
+english: What are you wearing?
+current: 你将如何穿着？
+proposed: 你穿的是什么？
+kind: wrong-form
+reason: 你将如何穿着？ is 'how will you dress?'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58681
+entryid: 73482
+permalink: 73482
+lesson: Phrases - Objects, Part 47
+lang: zh
+english: The red and black one is the best.
+current: 红黑人是最好的。
+proposed: 红黑色的那个最好。
+kind: wrong-sense
+reason: 红黑人 is 'red and black people'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58755
+entryid: 73577
+permalink: 73577
+lesson: Phrases - Money, Part 6
+lang: zh
+english: I'll order the same thing.
+current: 我会命令同样的事情。
+proposed: 我也要一样的。
+kind: wrong-word
+reason: 命令 is a command.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 58832
+entryid: 73673
+permalink: 73673
+lesson: Phrases - Communication, Part 3
+lang: zh
+english: Really?
+current: 真？
+proposed: 真的吗？
+kind: wrong-form
+reason: The word '真' is an adjective meaning 'true' and cannot stand alone as a question; it needs a particle like '的吗' to function as the phrase 'Really?'
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
+
+id: 58992
+entryid: 73873
+permalink: 73873
+lesson: Phrases - Weather, Part 3
+lang: zh
+english: Is it going to be dry?
+current: 会干吗？
+proposed: 天气会干燥吗？
+kind: wrong-form
+reason: 会干吗？ is 'will it dry?'.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 59019
+entryid: 73907
+permalink: 73907
+lesson: Phrases - Weather, Part 10
+lang: zh
+english: It is storming now.
+current: 现在正在冲击
+proposed: 现在正在下暴风雨。
+kind: wrong-word
+reason: 冲击 is an impact.
+source: Judged as a sentence; each word checked in Wiktionary (Chinese)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 59049
+entryid: 73945
+permalink: 73945
+lesson: Adjectives - Colors, Part 1
+lang: zh
+english: Red
+current: 红
+proposed: 红色
+kind: orthography
+reason: Written 红色 like 黄色 and 绿色 beside it.
+source: Wiktionary (Chinese), s.v. "红色"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 59050
+entryid: 73946
+permalink: 73946
+lesson: Adjectives - Colors, Part 1
+lang: zh
+english: Orange
+current: 橙子
+proposed: 橙色
+kind: wrong-sense
+reason: 橙子 is the fruit; the colour is 橙色.
+source: Wiktionary (Chinese), s.v. "橙色": noun: the color orange
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 59056
+entryid: 73953
+permalink: 73953
+lesson: Adjectives - Colors, Part 2
+lang: zh
+english: Violet
+current: 紫色
+proposed: 紫罗兰色
+kind: wrong-sense
+reason: 紫色 is purple, the next row; violet is 紫罗兰色.
+source: Wiktionary (Chinese), s.v. "紫罗兰色"
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 59059
+entryid: 73957
+permalink: 73957
+lesson: Adjectives - Colors, Part 3
+lang: zh
+english: Pink
+current: 粉
+proposed: 粉色
+kind: orthography
+reason: Written 粉色 like its neighbours.
+source: Wiktionary (Chinese), s.v. "粉色": noun: pink (color)
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 59064
+entryid: 73963
+permalink: 73963
+lesson: Adjectives - Colors, Part 4
+lang: zh
+english: Clear
+current: 明确
+proposed: 透明
+kind: wrong-sense
+reason: 明确 is clear as in explicit; among colours, clear is 透明.
+source: Wiktionary (Chinese), s.v. "透明": adj: transparent (allowing light to pass through); transparent (open to public scrutiny)
+checked by: mistral:7b > gemma4:12b, corrected by Claude
+status: proposed
+
+id: 59077
+entryid: 73980
+permalink: 73980
+lesson: Culture - Currencies, Part 4
+lang: zh
+english: Indonesian Rupiah
+current: 印度尼西亚卢比
+proposed: 印尼盾
+kind: wrong-word
+reason: 卢比 is the rupee; the Indonesian rupiah is 印尼盾.
+source: Wiktionary (Chinese), s.v. "印尼盾": noun: Indonesian rupiah
+checked by: Claude, widened from a batch fault the models half-flagged
+status: proposed
+
+id: 59079
+entryid: 73982
+permalink: 73982
+lesson: Culture - Currencies, Part 4
+lang: zh
+english: Japanese Yen
+current: 日圆
+proposed: 日元
+kind: wrong-word
+reason: 日圆 is the old spelling; the mainland writes 日元.
+source: Wiktionary (Chinese), s.v. "日元": noun: Japanese yen
+checked by: mistral:7b > gemma4:12b, confirmed by Claude
+status: proposed
