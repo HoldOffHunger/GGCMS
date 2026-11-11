@@ -158,10 +158,15 @@
 		}
 
 			/*
-				One line, as a bibliography prints it: Authors, Title:
-				Subtitle, ed. Editors, trans. Translators, Edition, Publisher,
-				Year, ISBN -- then the place in it.  The title links to the
-				book's own page.
+				Everything we know, written out in words, Ben's order: the book,
+				then where in it -- Title: Subtitle, Volume 1: A–G, Chapter 3:
+				Animals, page 1828, entry "turkey" -- and then who made it and
+				who published it: By Authors.  Edited by Editors.  Translated by
+				Translators.  Publisher, edition, year.  ISBN.  A part that is
+				missing is left out with its comma, never shown empty.  Spelt
+				out rather than abbreviated (Volume, not vol.) so a reader, or a
+				search engine, searching for the book or its contents finds it.
+				The title links to the book's own page.
 			*/
 
 		public function Citation($args) {
@@ -169,54 +174,58 @@
 			$reference = $args['reference'];
 			$publication = $book['publication'] ?: [];
 			$text = function($value) { return htmlspecialchars(trim((string)$value), ENT_QUOTES, 'UTF-8'); };
+			$has = function($record, $field) { return strlen(trim((string)($record[$field] ?? ''))) > 0; };
 
-			$parts = [];
-
-			if(strlen(trim((string)($publication['Authors'] ?? '')))) {
-				$parts[] = $text($publication['Authors'] ?? '');
-			}
-
-			$title = $text($book['Title']) . (strlen(trim((string)$book['Subtitle'])) ? ': ' . $text($book['Subtitle']) : '');
+			$title = $text($book['Title']) . ($has($book, 'Subtitle') ? ': ' . $text($book['Subtitle']) : '');
 
 			if($book['Assignmentid']) {
 				$title = '<a href="/?id=' . (int)$book['Assignmentid'] . '">' . $title . '</a>';
 			}
 
-			$parts[] = '<cite>' . $title . '</cite>';
+			$place = ['<cite>' . $title . '</cite>'];
 
-			foreach(['Editors'=>'ed. ', 'Translators'=>'trans. ', 'Edition'=>'', 'Publisher'=>'', 'Year'=>''] as $field => $label) {
-				if(strlen(trim((string)($publication[$field] ?? '')))) {
-					$parts[] = $label . $text($publication[$field] ?? '');
+			foreach(['Volume', 'Chapter'] as $part) {
+				$number = $has($reference, $part . 'Number') ? ' ' . $text($reference[$part . 'Number']) : '';
+				$name = $has($reference, $part . 'Title') ? $text($reference[$part . 'Title']) : '';
+
+				if($number || $name) {
+					$place[] = $part . $number . ($number && $name ? ': ' : ($name ? ' ' : '')) . $name;
 				}
 			}
 
-			if(strlen(trim((string)($publication['ISBN'] ?? '')))) {
-				$parts[] = 'ISBN ' . $text($publication['ISBN'] ?? '');
+			if($has($reference, 'Page')) {
+				$place[] = 'page ' . $text($reference['Page']);
 			}
 
-			$place = [];
-
-			if(strlen(trim((string)($reference['VolumeNumber'] ?? ''))) || strlen(trim((string)($reference['VolumeTitle'] ?? '')))) {
-				$place[] = trim('vol. ' . $text($reference['VolumeNumber']) . (strlen(trim((string)($reference['VolumeTitle'] ?? ''))) ? ' (' . $text($reference['VolumeTitle']) . ')' : ''));
+			if($has($reference, 'Headword')) {
+				$place[] = 'entry &ldquo;' . $text($reference['Headword']) . '&rdquo;';
 			}
 
-			if(strlen(trim((string)($reference['ChapterNumber'] ?? ''))) || strlen(trim((string)($reference['ChapterTitle'] ?? '')))) {
-				$place[] = trim('ch. ' . $text($reference['ChapterNumber']) . (strlen(trim((string)($reference['ChapterTitle'] ?? ''))) ? ' &ldquo;' . $text($reference['ChapterTitle']) . '&rdquo;' : ''));
+			$sentences = [implode(', ', $place)];
+
+			foreach(['Authors'=>'By ', 'Editors'=>'Edited by ', 'Translators'=>'Translated by '] as $field => $label) {
+				if($has($publication, $field)) {
+					$sentences[] = $label . $text($publication[$field]);
+				}
 			}
 
-			if(strlen(trim((string)($reference['Page'] ?? '')))) {
-				$place[] = 'p. ' . $text($reference['Page']);
+			$imprint = [];
+
+			foreach(['Publisher', 'Edition', 'Year'] as $field) {
+				if($has($publication, $field)) {
+					$imprint[] = $text($publication[$field]);
+				}
 			}
 
-			if(strlen(trim((string)($reference['Headword'] ?? '')))) {
-				$place[] = 's.v. &ldquo;' . $text($reference['Headword']) . '&rdquo;';
+			if(count($imprint)) {
+				$sentences[] = implode(', ', $imprint);
 			}
 
-			$citation = implode(', ', $parts) . '.';
-
-			if(count($place)) {
-				$citation .= ' ' . ucfirst(implode(', ', $place)) . '.';
+			if($has($publication, 'ISBN')) {
+				$sentences[] = 'ISBN ' . $text($publication['ISBN']);
 			}
+
+			$citation = implode('. ', $sentences) . '.';
 
 			if(strlen(trim((string)($reference['Note'] ?? '')))) {
 				$citation .= ' <span class="academic-reference-note">' . $text($reference['Note']) . '</span>';
