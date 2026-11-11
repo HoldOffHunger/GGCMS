@@ -32,6 +32,18 @@ live installation rather than estimated.
   *pavo*; the row was put back from prod. An Update now leaves alone any type
   its form did not show, and EarthFluent's form shows its translations.
 
+- Deploying the citation tables took every site but EarthFluent down for
+  about two minutes: roughly 170 uncached page loads 500'd, 148 of them
+  RevoltLib's. The new switches went into this repository's
+  `clonefrom/child_types/enabled.php`, but deploy lays the private
+  repository's own copy over it, so every site's class lacked
+  `AcademicReference_enabled()` and the ORM, which asks each switch by name,
+  fatalled. EarthFluent survived because its override defines its own. The
+  private copy was fixed and redeployed, and `ChildTypesEnabledTest` now
+  fails when the private default lacks a switch this one has. Cached pages
+  served throughout, which is why a first check of front pages looked fine;
+  only an uncached load (`?v=` anything) showed it.
+
 - EarthFluent's second wave of Spanish corrections is live: 172 rows, the
   first Spanish pass fed by the local models. Iran had been *Corrí* ("I
   ran"), Stockholm sat in Switzerland, and to fly was the insect. Of the
