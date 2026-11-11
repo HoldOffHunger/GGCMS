@@ -487,6 +487,7 @@ talks to git; see [Deployment.md](Deployment.md).
 | `apply_translation_review.php` | Applies reviewed translation corrections to `EntryTranslation` |
 | `apply_spellcheck_fixes.php` | Applies reviewed AI Workers spellcheck fixes to `TextBody` |
 | `modify_entry.php` | Drives `modify.php` from a shell — creates and edits entries |
+| `import_academic_references.php` | Imports the reference worker's citations into `AcademicReference` |
 
 These write content, and none of them may ever be scheduled. They change what
 visitors read.
@@ -546,6 +547,36 @@ Each text is written once, with `WordCount` and `CharacterCount` set the way
 `modify.php` sets them. After `--apply` every line attempted is marked `shipped
 <date>` or `skipped: <reason>` in the store, and the page cache is flushed for
 both hostnames, as above.
+
+#### `import_academic_references.php`
+
+```bash
+import_academic_references.php earthfluent.com --citations=task-47.results.citations.jsonl --limit=5000
+import_academic_references.php earthfluent.com --citations=task-47.results.citations.jsonl --limit=5000 --apply
+```
+
+Dry by default. Reads a citations file the reference worker writes beside its
+results (`E:\AIWorkers\data	asks	ask-<id>.results.citations.jsonl`), one
+JSON line per citation in `AcademicReference`'s field names, and writes one row
+per entry and book: new citations inserted, changed ones updated, identical ones
+left alone, so a second run changes nothing.
+
+The book is named by its entry's `Code` under the Reference branch, the child
+coded `reference` of the site's root. It makes citations, never books: the book
+entries are made first, through `modify.php`. A citation whose entry or book is
+not on the site is skipped and listed.
+
+| Argument | Default | Does |
+|---|---|---|
+| *(first)* | asked for | The domain |
+| `--citations=` | none | The JSON lines file |
+| `--verdicts=` | `supports` | Which verdicts to take, comma-separated; a book that disagrees is review material |
+| `--limit=` | `20` | How many citations to attempt |
+| `--apply` | off | Actually write, then flush the site's page cache and purge Cloudflare's |
+
+Applying flushes the whole site's page cache, as `apply_translation_review.php`
+does. On a big site that is a cold cache, so on production import on Fumiko,
+warm there, and ship the tables and pages together (see `E:\AIWorkers\ship\`).
 
 #### `modify_entry.php`
 

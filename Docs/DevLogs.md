@@ -44,6 +44,15 @@ live installation rather than estimated.
   served throughout, which is why a first check of front pages looked fine;
   only an uncached load (`?v=` anything) showed it.
 
+- `import_academic_references.php` imports the reference worker's citations,
+  dry by default and safe to rerun. On Fumiko's copy EarthFluent's Reference
+  branch now holds the 21 dictionaries that cite per word, made through
+  `modify.php` with their publication details, and Oxford's 1,980 supporting
+  citations are in, one per word, all but 17 with a page. Oxford's 311
+  conflicts were not imported: its Spanish half numbers senses "[2>", which
+  the judge had read as a pronunciation, so "ant [2> (drástico)" passed for
+  the entry for ant. They go back to be judged again.
+
 - EarthFluent's second wave of Spanish corrections is live: 172 rows, the
   first Spanish pass fed by the local models. Iran had been *Corrí* ("I
   ran"), Stockholm sat in Switzerland, and to fly was the insect. Of the
