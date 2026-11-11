@@ -45,6 +45,22 @@ untranslated batch between ids 9700 and 10400 was read in full and 25 more rows 
 171 records, plus the four left proposed from the first wave. Three of those four are `structural` and are not
 written, so the wave changes 172 rows.
 
+Japanese, recorded 11 November 2026 and not yet shipped: 431 suspects, of which Claude confirmed 283, corrected 116,
+and set 32 aside (false alarms, proposals that were the current text, one row already mended, one with no lesson).
+Three runs had one value copied down over everything below it -- `B-ムービー` over the Sports lesson, `マックラーカー`
+over 38 Politics rows, `ローマ、イタリア` over four capitals -- and the models flagged every row of them. What they
+passed over was katakana. 945 rows are katakana alone; most are the loanwords Japanese really uses (ホテル, コーヒー),
+but every verb among them was a bare noun (キープ for keep, ダンス for dance), and some were false friends: テンション
+is excitement, not tension; ビル a building, not a bill; フォーク a fork, not folk; レース a running race, not a race of
+people. Those, the same stray value on several rows (`〜する`, `厄介な`, `病気`), the nationalities given as countries
+or languages, and the Numbers lesson -- written in figures, kanji, and with counters left on (`18才`, `80人`), now in
+kanji throughout -- added 315 records, so 714.
+
+The same pass found the find-and-replace of 10 November had reached the Ethnicities lessons too, writing each course's
+own language over other nationalities in ten courses and over Hindi in two Languages lessons. 35 rows, English title,
+translation and URL code together, are in `repairs/2026-11-11-ethnicity-slot-repair.sql`; those rows are not in any
+language's store.
+
 A `structural` record is skipped by `apply_translation_review.php`, so a model's `structural` that is really a plain
 fix (a number written in pieces, `zweitausend, sechzehn`) is recorded as `orthography` instead.
 
