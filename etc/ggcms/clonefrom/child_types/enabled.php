@@ -1,6 +1,10 @@
 <?php
 
 	class AbstractGlobals_ChildTypes_enabled {
+		public function AcademicReference_enabled() {
+			return FALSE;
+		}
+		
 		public function Assignment_enabled() {
 			return TRUE;
 		}
@@ -78,6 +82,10 @@
 		}
 		
 		public function Price_enabled() {
+			return FALSE;
+		}
+		
+		public function Publication_enabled() {
 			return FALSE;
 		}
 		

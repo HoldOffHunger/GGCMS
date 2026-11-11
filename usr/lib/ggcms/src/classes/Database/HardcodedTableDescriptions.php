@@ -68,6 +68,140 @@
 			];
 		}
 		
+		public function HardcodedTable_AcademicReference() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'Entryid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'ReferenceEntryid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'Headword' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'VolumeNumber' => [
+					'Type' => 'varchar(32)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 32,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'VolumeTitle' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'ChapterNumber' => [
+					'Type' => 'varchar(32)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 32,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'ChapterTitle' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Page' => [
+					'Type' => 'varchar(32)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 32,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Verdict' => [
+					'Type' => "enum('supports','conflicts','mentions')",
+					'TypeBase' => 'enum',
+					'TypeAttribute' => "'supports','conflicts','mentions'",
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 'supports',
+					'Extra' => '',
+				],
+				
+				'Note' => [
+					'Type' => 'varchar(512)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 512,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+		
 		public function HardcodedTable_Assignment() {
 			return [
 				'id' => [
@@ -2148,6 +2282,120 @@
 					'Null' => 'NO',
 					'Key' => 'MUL',
 					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+		
+		public function HardcodedTable_Publication() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'Entryid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'Authors' => [
+					'Type' => 'varchar(1024)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 1024,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Editors' => [
+					'Type' => 'varchar(1024)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 1024,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Translators' => [
+					'Type' => 'varchar(1024)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 1024,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Publisher' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Edition' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Year' => [
+					'Type' => 'varchar(32)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 32,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'ISBN' => [
+					'Type' => 'varchar(32)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 32,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
 					'Extra' => '',
 				],
 				

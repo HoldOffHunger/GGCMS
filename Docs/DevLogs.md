@@ -9,6 +9,29 @@ live installation rather than estimated.
 
 ## 2026, November 10
 
+- Entries can cite published books. `AcademicReference` is a new child table:
+  the book (`ReferenceEntryid`, an entry under the site's Reference branch),
+  where in it (`Headword`, `VolumeNumber` and `VolumeTitle`, `ChapterNumber`
+  and `ChapterTitle`, `Page`), a `Verdict` of supports, conflicts or mentions,
+  and a `Note`. `Publication` is its companion, one per book: authors, editors,
+  translators, publisher, edition, year and ISBN as plain text, so the people
+  are written as the book credits them. Both run through the whole of
+  `modify.php`'s pipeline like Price, add and remove like Tags, and are off
+  for every site but EarthFluent. A word's page lists its supporting books in
+  a closed References block above the share links (`module_entryacademic
+  references`); a book that disagrees is kept for review and never shown as
+  proof, and the book's own text is never printed. The Reference branch sorts
+  last with a plain `zzzz` sort key. Built for Ben's plan to prove every
+  EarthFluent translation from the 24 dictionaries the reference worker reads.
+
+- An Update through `modify.php` on EarthFluent deleted the word's
+  translation. EarthFluent switches `EntryTranslation` on, so its rows are
+  read, but its form never showed them, so they came back with nothing to
+  keep and `DeleteChildRecordsForUpdate()` removed them all -- the 8 November
+  Price hole from the other side. Found on Fumiko's copy while citing
+  *pavo*; the row was put back from prod. An Update now leaves alone any type
+  its form did not show, and EarthFluent's form shows its translations.
+
 - EarthFluent's second wave of Spanish corrections is live: 172 rows, the
   first Spanish pass fed by the local models. Iran had been *Corrí* ("I
   ran"), Stockholm sat in Switzerland, and to fly was the insect. Of the

@@ -23,6 +23,8 @@
 				'Tag'=>'tag',
 				'Link'=>'link',
 				'Price'=>'price',
+				'AcademicReference'=>'academicreference',
+				'Publication'=>'publication',
 				'EventDate'=>'eventdate',
 				'AvailabilityDateRange'=>'availabilitydaterange',
 				'Assignment'=>'assignment',
@@ -45,6 +47,8 @@
 				'Tag'=>'tag',
 				'Link'=>'link',
 				'Price'=>'price',
+				'AcademicReference'=>'academicreference',
+				'Publication'=>'publication',
 				'EventDate'=>'eventdate',
 				'Association'=>'association',
 				'AvailabilityDateRange'=>'availabilitydaterange',
@@ -65,6 +69,8 @@
 				'Tag',
 				'Link',
 				'Price',
+				'AcademicReference',
+				'Publication',
 				'EventDate',
 				'AvailabilityDateRange',
 				'Association',
@@ -93,6 +99,15 @@
 				case 'PriceValue':
 				case 'Currency':
 					$recordtype = 'Price';
+					break;
+				case 'ReferenceEntryid':
+				case 'Headword':
+				case 'Verdict':
+					$recordtype = 'AcademicReference';
+					break;
+				case 'Publisher':
+				case 'ISBN':
+					$recordtype = 'Publication';
 					break;
 				case 'AvailabilityStart':
 				case 'AvailabilityEnd':

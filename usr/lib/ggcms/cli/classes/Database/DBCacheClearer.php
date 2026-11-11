@@ -105,6 +105,8 @@
 				'ImageTranslation',
 				'Link',
 				'Price',
+				'AcademicReference',
+				'Publication',
 				'Quote',
 				'Tag',
 				'TextBody',

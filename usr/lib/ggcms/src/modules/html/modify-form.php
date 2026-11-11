@@ -204,6 +204,8 @@
 				'Tag'=>'tag',
 				'Link'=>'link',
 				'Price'=>'price',
+				'Academic Reference'=>'academic-reference',
+				'Publication'=>'publication',
 				'Event Date'=>'event-date',
 				'Association'=>'association',
 				'Definition'=>'definition',

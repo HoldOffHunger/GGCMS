@@ -327,6 +327,8 @@
 				'Tag'=>TRUE,
 				'Link'=>TRUE,
 				'Price'=>FALSE,
+				'AcademicReference'=>FALSE,
+				'Publication'=>FALSE,
 				'EventDate'=>TRUE,
 				'Association'=>TRUE,
 				'Definition'=>FALSE,

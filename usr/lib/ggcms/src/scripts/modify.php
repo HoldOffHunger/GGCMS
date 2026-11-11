@@ -53,6 +53,11 @@
 		public $link_unset;
 		public $price;
 		public $price_unset;
+		public $academicreference;
+		public $academicreference_unset;
+		public $reference_choices;
+		public $publication;
+		public $publication_unset;
 		public $eventdate_unset;
 		public $association_unset;
 		public $availabilitydaterange_unset;
@@ -518,6 +523,14 @@
 				$set_results = FALSE;
 			}
 			
+			if(!$this->SetRecordFromQuery_AcademicReference()) {
+				$set_results = FALSE;
+			}
+			
+			if(!$this->SetRecordFromQuery_Publication()) {
+				$set_results = FALSE;
+			}
+			
 			if(!$this->SetRecordFromQuery_EventDate()) {
 				$set_results = FALSE;
 			}
@@ -588,6 +601,14 @@
 				$cleanse_results = FALSE;
 			}
 			
+			if(!$this->CleanseRecordFromQuery_AcademicReference()) {
+				$cleanse_results = FALSE;
+			}
+			
+			if(!$this->CleanseRecordFromQuery_Publication()) {
+				$cleanse_results = FALSE;
+			}
+			
 			if(!$this->CleanseRecordFromQuery_EventDate()) {
 				$cleanse_results = FALSE;
 			}
@@ -651,6 +672,14 @@
 			}
 			
 			if(!$this->ValidateRecordForSaving_Price()) {
+				$save_results = FALSE;
+			}
+			
+			if(!$this->ValidateRecordForSaving_AcademicReference()) {
+				$save_results = FALSE;
+			}
+			
+			if(!$this->ValidateRecordForSaving_Publication()) {
 				$save_results = FALSE;
 			}
 			
@@ -721,6 +750,14 @@
 			}
 			
 			if(!$this->PrepareRecordForSaving_Price()) {
+				$prepare_results = FALSE;
+			}
+			
+			if(!$this->PrepareRecordForSaving_AcademicReference()) {
+				$prepare_results = FALSE;
+			}
+			
+			if(!$this->PrepareRecordForSaving_Publication()) {
 				$prepare_results = FALSE;
 			}
 			
@@ -829,6 +866,16 @@
 			if(!$this->SaveRecordFromQuery_Price()) {
 				$save_results = FALSE;
 				$this->errors[] = ['There was a problem with saving the Price.'];
+			}
+			
+			if(!$this->SaveRecordFromQuery_AcademicReference()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Academic Reference.'];
+			}
+			
+			if(!$this->SaveRecordFromQuery_Publication()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Publication.'];
 			}
 			
 			if(!$this->SaveRecordFromQuery_EventDate()) {
@@ -1022,6 +1069,8 @@
 				'Tag'=>['Tag'],
 				'Link'=>['URL'],
 				'Price'=>['PriceValue'],
+				'AcademicReference'=>['ReferenceEntryid'],
+				'Publication'=>['Publisher'],
 				'EventDate'=>['Title'],
 				'Association'=>['ChosenEntryid'],	# was Childid, an Assignment column; a re-pointed association went unrecorded
 		#		'AvailabilityDateRange'=>'',
@@ -1083,6 +1132,16 @@
 				$this->errors[] = ['There was a problem with saving the Price.'];
 			}
 			
+			if(!$this->SaveRecordFromQuery_AcademicReference()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Academic Reference.'];
+			}
+			
+			if(!$this->SaveRecordFromQuery_Publication()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Publication.'];
+			}
+			
 			if(!$this->SaveRecordFromQuery_EventDate()) {
 				$save_results = FALSE;
 				$this->errors[] = ['There was a problem with saving the Event Date.'];
@@ -1142,6 +1201,22 @@
 				$enabled_method = $child_record_index . '_enabled';
 
 				if(method_exists($this->handler->abstractglobals->child_types, $enabled_method) && !$this->handler->abstractglobals->child_types->$enabled_method()) {
+					continue;
+				}
+
+					/*
+						The same hole from the other side: a type switched on
+						but left off the site's form.  It is read, so it has
+						rows, but no input posts them back, so it too comes back
+						with nothing to keep, and every row went.  Found on 10
+						November 2026, when citing a word on EarthFluent's int
+						copy deleted the word's translation: EarthFluent turns
+						EntryTranslation on and its form never shows it.  An
+						Update leaves alone what its form did not show; deleting
+						the entry still takes everything.
+					*/
+
+				if(!$this->Param('Delete') && !$this->DeleteChildRecordsForUpdate_OnForm(['type'=>$child_record_index])) {
 					continue;
 				}
 
@@ -1269,7 +1344,27 @@
 			
 			return $delete_child_record_results;
 		}
-		
+
+			/*
+				Whether the site's form shows a record type, by its name in
+				ShowModifiableFields() -- the table's own name, but for the
+				availability range, which the form shows as its start.  A
+				type the list does not name at all is taken as shown, as it
+				always was, so nothing new is spared that was not before.
+			*/
+
+		public function DeleteChildRecordsForUpdate_OnForm($args) {
+			$type = $args['type'];
+			$modifiable_fields = $this->handler->globals->ShowModifiableFields();
+			$field = $type === 'AvailabilityDateRange' ? 'AvailabilityStart' : $type;
+
+			if(!array_key_exists($field, (array)$modifiable_fields)) {
+				return TRUE;
+			}
+
+			return (bool)$modifiable_fields[$field];
+		}
+
 		public function FormatSavedRecordFromQueryForAll() {
 			$format_results = TRUE;
 			
@@ -1310,6 +1405,14 @@
 			}
 			
 			if(!$this->FormatSavedRecordFromQuery_Price()) {
+				$format_results = FALSE;
+			}
+			
+			if(!$this->FormatSavedRecordFromQuery_AcademicReference()) {
+				$format_results = FALSE;
+			}
+			
+			if(!$this->FormatSavedRecordFromQuery_Publication()) {
 				$format_results = FALSE;
 			}
 			
@@ -1722,12 +1825,82 @@
 			return $this->SetRecordFromQuery($set_record_from_query_args);
 		}
 		
+		public function SetRecordFromQuery_AcademicReference() {
+			$this->academicreference_unset = $this->academicreference;
+			$set_record_from_query_args = [
+				'variablename'=>'academicreference',
+				'objectdefinition'=>[
+					'academicreference_ReferenceEntryid',
+					'academicreference_Headword',
+					'academicreference_VolumeNumber',
+					'academicreference_VolumeTitle',
+					'academicreference_ChapterNumber',
+					'academicreference_ChapterTitle',
+					'academicreference_Page',
+					'academicreference_Verdict',
+					'academicreference_Note',
+				],
+			];
+			return $this->SetRecordFromQuery($set_record_from_query_args);
+		}
+		
+		public function SetRecordFromQuery_Publication() {
+			$this->publication_unset = $this->publication;
+			$set_record_from_query_args = [
+				'variablename'=>'publication',
+				'objectdefinition'=>[
+					'publication_Authors',
+					'publication_Editors',
+					'publication_Translators',
+					'publication_Publisher',
+					'publication_Edition',
+					'publication_Year',
+					'publication_ISBN',
+				],
+			];
+			return $this->SetRecordFromQuery($set_record_from_query_args);
+		}
+		
 		public function CleanseRecordFromQuery_Price() {
 			$cleanse_record_from_query_args = [
 				'variablename'=>'price',
 				'datastructure'=>[
 					'PriceValue',
 					'Currency',
+				],
+			];
+			return $this->CleanseRecordFromQuery($cleanse_record_from_query_args);
+		}
+		
+		public function CleanseRecordFromQuery_AcademicReference() {
+			$cleanse_record_from_query_args = [
+				'variablename'=>'academicreference',
+				'datastructure'=>[
+					'ReferenceEntryid',
+					'Headword',
+					'VolumeNumber',
+					'VolumeTitle',
+					'ChapterNumber',
+					'ChapterTitle',
+					'Page',
+					'Verdict',
+					'Note',
+				],
+			];
+			return $this->CleanseRecordFromQuery($cleanse_record_from_query_args);
+		}
+		
+		public function CleanseRecordFromQuery_Publication() {
+			$cleanse_record_from_query_args = [
+				'variablename'=>'publication',
+				'datastructure'=>[
+					'Authors',
+					'Editors',
+					'Translators',
+					'Publisher',
+					'Edition',
+					'Year',
+					'ISBN',
 				],
 			];
 			return $this->CleanseRecordFromQuery($cleanse_record_from_query_args);
@@ -2256,6 +2429,113 @@
 			$description = $this->handler->db_access->GetRecordDescription(['type'=>'Price']);
 			
 			return explode(',', str_replace("'", '', $description['Currency']['TypeAttribute']));
+		}
+		
+			/*
+				An academic reference names a book by its entry id, so the id
+				must be a plain number, and its verdict one of the Verdict enum's.
+				A row without a book is a blank row, left to
+				PrepareRecordForSaving_AcademicReference().  Every text must fit
+				its column, read from the table description, because MySQL would
+				refuse the whole save over one long page title.
+			*/
+		
+		public function ValidateRecordForSaving_AcademicReference() {
+			$validation_results = TRUE;
+			$verdicts = $this->AcademicReferenceVerdicts();
+			
+			foreach ((array)$this->academicreference as $reference) {
+				$book = trim((string)$reference['ReferenceEntryid']);
+				
+				if(!strlen($book)) {
+					continue;
+				}
+				
+				if(!preg_match('/^\d{1,10}$/', $book)) {
+					$this->errors[] = ['An academic reference\'s book must be chosen from the list, or given as an entry id.'];
+					$validation_results = FALSE;
+				}
+				
+				if(!in_array($reference['Verdict'], $verdicts, TRUE)) {
+					$this->errors[] = ['An academic reference\'s verdict must be one of: ' . implode(', ', $verdicts) . '.'];
+					$validation_results = FALSE;
+				}
+			}
+			
+			if(!$this->ValidateRecordLengths(['type'=>'AcademicReference', 'records'=>$this->academicreference, 'label'=>'An academic reference\'s'])) {
+				$validation_results = FALSE;
+			}
+			
+			return $validation_results;
+		}
+		
+		public function ValidateRecordForSaving_Publication() {
+			return $this->ValidateRecordLengths(['type'=>'Publication', 'records'=>$this->publication, 'label'=>'A publication\'s']);
+		}
+		
+			/*
+				Each varchar a record type has, held to the length its table
+				description gives, with an error naming the field.
+			*/
+		
+		public function ValidateRecordLengths($args) {
+			$validation_results = TRUE;
+			$description = $this->handler->db_access->GetRecordDescription(['type'=>$args['type']]);
+			
+			foreach ((array)$args['records'] as $record) {
+				foreach ((array)$record as $field => $value) {
+					if(!isset($description[$field]) || $description[$field]['TypeBase'] !== 'varchar') {
+						continue;
+					}
+					
+					if(mb_strlen((string)$value) > (int)$description[$field]['TypeAttribute']) {
+						$this->errors[] = [$args['label'] . ' ' . $field . ' can be at most ' . $description[$field]['TypeAttribute'] . ' characters.'];
+						$validation_results = FALSE;
+					}
+				}
+			}
+			
+			return $validation_results;
+		}
+		
+			/*
+				The verdicts an academic reference may give, read from the Verdict
+				enum in its table description, as PriceCurrencies() reads Price's.
+			*/
+		
+		public function AcademicReferenceVerdicts() {
+			$description = $this->handler->db_access->GetRecordDescription(['type'=>'AcademicReference']);
+			
+			return explode(',', str_replace("'", '', $description['Verdict']['TypeAttribute']));
+		}
+		
+			/*
+				The books an academic reference may cite: the published entries
+				under the site's Reference branch, the child coded "reference" of
+				an entry that is itself no one's child -- the site's root -- so a
+				word deeper in the tree coded "reference" is never taken for the
+				library.  Sorted as the index sorts them.
+			*/
+		
+		public function ReferenceChoices() {
+			if(is_array($this->reference_choices)) {
+				return $this->reference_choices;
+			}
+			
+			$sql =
+				'SELECT Book.id, Book.Title, Book.Subtitle FROM Entry Book ' .
+				'JOIN Assignment ToBook ON ToBook.Childid = Book.id ' .
+				'JOIN Entry Library ON Library.id = ToBook.Parentid AND Library.Code = ? ' .
+				'JOIN Assignment ToLibrary ON ToLibrary.Childid = Library.id ' .
+				'WHERE Book.Publish = 1 AND NOT EXISTS (SELECT 1 FROM Assignment Above WHERE Above.Childid = ToLibrary.Parentid) ' .
+				'ORDER BY Book.ListTitleSortKey, Book.Title';
+			
+			$books = $this->handler->db_access->RunQuery([
+				'sql'=>$sql,
+				'args'=>['reference'],
+			]);
+			
+			return $this->reference_choices = is_array($books) ? $books : [];
 		}
 		
 		public function ValidateRecordForSaving_EventDate() {
@@ -2825,6 +3105,50 @@
 			return TRUE;
 		}
 		
+			/*
+				The verdict is a select and always comes back chosen, so a row
+				left without a book would otherwise look filled in, as Price's
+				currency would.  Its verdict is blanked so the row passes as
+				empty, in place, because the rows are matched to their ids by
+				position.  Every field is trimmed.
+			*/
+		
+		public function PrepareRecordForSaving_AcademicReference() {
+			$references = [];
+			
+			foreach ((array)$this->academicreference as $reference) {
+				foreach ((array)$reference as $field => $value) {
+					$reference[$field] = trim((string)$value);
+				}
+				
+				if(!strlen($reference['ReferenceEntryid'])) {
+					$reference['Verdict'] = '';
+				}
+				
+				$references[] = $reference;
+			}
+			
+			$this->academicreference = $references;
+			
+			return TRUE;
+		}
+		
+		public function PrepareRecordForSaving_Publication() {
+			$publications = [];
+			
+			foreach ((array)$this->publication as $publication) {
+				foreach ((array)$publication as $field => $value) {
+					$publication[$field] = trim((string)$value);
+				}
+				
+				$publications[] = $publication;
+			}
+			
+			$this->publication = $publications;
+			
+			return TRUE;
+		}
+		
 		public function PrepareRecordForSaving_EventDate() {
 			$this->eventdate_unprepared = $this->eventdate;
 			
@@ -3344,6 +3668,24 @@
 			return $this->SaveRecordFromQuery_Base($save_record_from_query_args);
 		}
 		
+		public function SaveRecordFromQuery_AcademicReference() {
+			$save_record_from_query_args = [
+				'objectname'=>'academicreference',
+				'objecttype'=>'AcademicReference',
+			];
+			
+			return $this->SaveRecordFromQuery_Base($save_record_from_query_args);
+		}
+		
+		public function SaveRecordFromQuery_Publication() {
+			$save_record_from_query_args = [
+				'objectname'=>'publication',
+				'objecttype'=>'Publication',
+			];
+			
+			return $this->SaveRecordFromQuery_Base($save_record_from_query_args);
+		}
+		
 		public function SaveRecordFromQuery_EventDate() {
 			$save_record_from_query_args = [
 				'objectname'=>'eventdate',
@@ -3512,6 +3854,24 @@
 			$format_args = [
 				'recordtype'=>'price',
 				'recordfields'=>['PriceValue', 'Currency'],
+			];
+			
+			return $this->FormatSavedRecordFromQuery_Base($format_args);
+		}
+		
+		public function FormatSavedRecordFromQuery_AcademicReference() {
+			$format_args = [
+				'recordtype'=>'academicreference',
+				'recordfields'=>['ReferenceEntryid', 'Headword', 'VolumeNumber', 'VolumeTitle', 'ChapterNumber', 'ChapterTitle', 'Page', 'Verdict', 'Note'],
+			];
+			
+			return $this->FormatSavedRecordFromQuery_Base($format_args);
+		}
+		
+		public function FormatSavedRecordFromQuery_Publication() {
+			$format_args = [
+				'recordtype'=>'publication',
+				'recordfields'=>['Authors', 'Editors', 'Translators', 'Publisher', 'Edition', 'Year', 'ISBN'],
 			];
 			
 			return $this->FormatSavedRecordFromQuery_Base($format_args);
@@ -3727,6 +4087,14 @@
 			
 			if($modifiable_fields['Price']) {
 				$elements[] = 'Price';
+			}
+			
+			if($modifiable_fields['AcademicReference']) {
+				$elements[] = 'Academic Reference';
+			}
+			
+			if($modifiable_fields['Publication']) {
+				$elements[] = 'Publication';
 			}
 			
 			if($modifiable_fields['EventDate']) {
@@ -3960,6 +4328,8 @@
 				$tag_hint = 'You may submit optional tags associated with this submission here.';
 				$link_hint = 'You may submit a link associated with this submission here.  If submitting a person record, it is recommended that you include a Wikipedia link, if available.';
 				$price_hint = 'The price this is offered at, as a plain amount like 12.50, and its currency.';
+				$academic_reference_hint = 'A published book that backs this entry: choose it from the Reference branch, say where in it (headword, volume, chapter, page), and whether it supports what the entry says.  The book is cited on the page; its text never is.';
+				$publication_hint = 'For a book under the Reference branch: who wrote, edited and translated it, its publisher, edition, year and ISBN, as a citation prints them.';
 				$event_date_hint = 'You may set a negative value, for instance, "-571-00-00", to indicate the year 571 BCE.';
 				$association_hint = 'Select the author here, and if necessary, add additional people records for co-authors, translators, editors, and the like.';
 				$publish_hint = 'If checked, this will be publicly available, otherwise, it will not be publicly available, and only visible to admin and the user who created it.';
@@ -3980,6 +4350,8 @@
 				'Tag'=>$tag_hint,
 				'Link'=>$link_hint,
 				'Price'=>$price_hint,
+				'Academic Reference'=>$academic_reference_hint,
+				'Publication'=>$publication_hint,
 				'Event Date'=>$event_date_hint,
 				'Association'=>$association_hint,
 				'Publish'=>$publish_hint,

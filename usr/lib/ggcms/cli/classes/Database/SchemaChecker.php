@@ -605,6 +605,8 @@
 				'Tag',
 				'Link',
 				'Price',
+				'AcademicReference',
+				'Publication',
 				'EventDate',
 				'AvailabilityDateRange',
 				'Association',

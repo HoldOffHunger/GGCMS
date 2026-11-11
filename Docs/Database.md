@@ -124,7 +124,7 @@ What the schema uses now:
 | `varchar(39)` | 2 | IP addresses — exactly the IPv6 maximum |
 | `mediumtext` | 2 | |
 | `binary(32)` | 1 | a token |
-| `enum(...)` | 2 | a short fixed list: `EntryPermission.Permission`, `Price.Currency` |
+| `enum(...)` | 3 | a short fixed list: `EntryPermission.Permission`, `Price.Currency`, `AcademicReference.Verdict` |
 | `decimal(10,2)` | 1 | money: `Price.PriceValue` |
 
 Guidance for new columns, consistent with the above:

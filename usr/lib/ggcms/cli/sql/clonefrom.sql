@@ -16,6 +16,42 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Table structure for table `AcademicReference`
+--
+
+DROP TABLE IF EXISTS `AcademicReference`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `AcademicReference` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Entryid` int NOT NULL DEFAULT '0',
+  `ReferenceEntryid` int NOT NULL DEFAULT '0',
+  `Headword` varchar(255) NOT NULL DEFAULT '',
+  `VolumeNumber` varchar(32) NOT NULL DEFAULT '',
+  `VolumeTitle` varchar(255) NOT NULL DEFAULT '',
+  `ChapterNumber` varchar(32) NOT NULL DEFAULT '',
+  `ChapterTitle` varchar(255) NOT NULL DEFAULT '',
+  `Page` varchar(32) NOT NULL DEFAULT '',
+  `Verdict` enum('supports','conflicts','mentions') NOT NULL DEFAULT 'supports',
+  `Note` varchar(512) NOT NULL DEFAULT '',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Entryid` (`Entryid`),
+  KEY `ReferenceEntryid` (`ReferenceEntryid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `AcademicReference`
+--
+
+LOCK TABLES `AcademicReference` WRITE;
+/*!40000 ALTER TABLE `AcademicReference` DISABLE KEYS */;
+/*!40000 ALTER TABLE `AcademicReference` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `Assignment`
 --
 
@@ -980,6 +1016,39 @@ CREATE TABLE `Price` (
 LOCK TABLES `Price` WRITE;
 /*!40000 ALTER TABLE `Price` DISABLE KEYS */;
 /*!40000 ALTER TABLE `Price` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `Publication`
+--
+
+DROP TABLE IF EXISTS `Publication`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `Publication` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Entryid` int NOT NULL DEFAULT '0',
+  `Authors` varchar(1024) NOT NULL DEFAULT '',
+  `Editors` varchar(1024) NOT NULL DEFAULT '',
+  `Translators` varchar(1024) NOT NULL DEFAULT '',
+  `Publisher` varchar(255) NOT NULL DEFAULT '',
+  `Edition` varchar(255) NOT NULL DEFAULT '',
+  `Year` varchar(32) NOT NULL DEFAULT '',
+  `ISBN` varchar(32) NOT NULL DEFAULT '',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Entryid` (`Entryid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Publication`
+--
+
+LOCK TABLES `Publication` WRITE;
+/*!40000 ALTER TABLE `Publication` DISABLE KEYS */;
+/*!40000 ALTER TABLE `Publication` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
