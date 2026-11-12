@@ -1,0 +1,103 @@
+{
+	"language": "spanish",
+	"translation_language": "es",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Each lesson's description is its teaching note until the lesson board exists.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Letter Ñ, Part 1",
+			"description": "Ñ is its own letter in Spanish, said like the \"ny\" in canyon. Listen for it in año, niño, mañana, and España.",
+			"words": [["Year", "año"], ["Child", "niño"], ["Tomorrow", "mañana"], ["Spain", "España"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Rolled R, Part 1",
+			"description": "One R is a quick tap; two are rolled, and the difference changes the word. Hear pero against perro, and caro against carro.",
+			"words": [["But", "pero"], ["Dog", "perro"], ["Expensive", "caro"], ["Car", "carro"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Silent H, Part 1",
+			"description": "The letter H is written in Spanish and never said. Listen to hola, ahora, huevo, and hoy.",
+			"words": [["Hello", "hola"], ["Now", "ahora"], ["Egg", "huevo"], ["Today", "hoy"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Accent Marks, Part 1",
+			"description": "An accent mark can be the only thing that tells two words apart. Compare sí with si, and tú with tu.",
+			"words": [["Yes", "sí"], ["If", "si"], ["You", "tú"], ["Your", "tu"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb ir, to go, changes to say who is going. Spot what changes: voy, vas, va, vamos.",
+			"words": [["I go", "voy"], ["You go", "vas"], ["She goes", "va"], ["We go", "vamos"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 2",
+			"description": "More of ir, to go: for all of you, for them, for \"let's\", and for what you are about to do.",
+			"words": [["You all go", "vais"], ["They go", "van"], ["Let's go!", "¡Vámonos!"], ["I am going to eat", "Voy a comer"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "For more than one, the word gains an S, and so does its \"the\": el becomes los, and la becomes las.",
+			"words": [["The dog", "el perro"], ["The dogs", "los perros"], ["The house", "la casa"], ["The houses", "las casas"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Words That Match, Part 1",
+			"description": "A describing word matches the thing it describes: rojo with el carro, roja with la casa. Spot the ending that changes.",
+			"words": [["The red car", "el carro rojo"], ["The red house", "la casa roja"], ["The tall boy", "el niño alto"], ["The tall girl", "la niña alta"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "A Spanish question opens with ¿ and closes with ?. Often the words barely move, and the voice rises instead.",
+			"words": [["This is the bus to Barcelona.", "Este es el autobús a Barcelona."], ["Is this the bus to Barcelona?", "¿Es este el autobús a Barcelona?"], ["You speak Spanish.", "Hablas español."], ["Do you speak Spanish?", "¿Hablas español?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put no in front of the verb. Nothing else in the sentence changes.",
+			"words": [["I speak Spanish.", "Hablo español."], ["I do not speak Spanish.", "No hablo español."], ["I am tired.", "Estoy cansado."], ["I am not tired.", "No estoy cansado."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In Spanish it usually comes after: una casa blanca.",
+			"words": [["A white house", "una casa blanca"], ["A black cat", "un gato negro"], ["A big city", "una ciudad grande"], ["A small town", "un pueblo pequeño"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Leaving Out I and You, Part 1",
+			"description": "The verb's ending already says who is doing it, so Spanish usually leaves out I, you, we, and they.",
+			"words": [["I eat.", "Como."], ["You eat.", "Comes."], ["We eat.", "Comemos."], ["They eat.", "Comen."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb ir, to go, at work in whole sentences. Spot voy, vamos, vas, and van.",
+			"words": [["I am going to the market.", "Voy al mercado."], ["We are going to the beach.", "Vamos a la playa."], ["Are you going to the party?", "¿Vas a la fiesta?"], ["They are going to Mexico.", "Van a México."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. Spot what the answer keeps from the question, and what it changes.",
+			"words": [["Do you have a car?", "¿Tienes un carro?"], ["Yes, I have a car.", "Sí, tengo un carro."], ["Do you speak English?", "¿Hablas inglés?"], ["No, I do not speak English.", "No, no hablo inglés."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "Describing words matching what they describe, in whole sentences: blanca, rojos, alta, pequeños.",
+			"words": [["The house is white.", "La casa es blanca."], ["The cars are red.", "Los carros son rojos."], ["The girl is tall.", "La niña es alta."], ["The dogs are small.", "Los perros son pequeños."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways: already done, happening now, and still to come.",
+			"words": [["I went to the market yesterday.", "Ayer fui al mercado."], ["I am going to the market today.", "Hoy voy al mercado."], ["I will go to the market tomorrow.", "Mañana iré al mercado."], ["I am going to go tomorrow.", "Voy a ir mañana."]]
+		}
+	]
+}
