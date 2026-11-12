@@ -348,6 +348,58 @@
 
 			return TRUE;
 		}
+
+			/*
+				The entry moved beneath the entry target-parent names, the way
+				transfer.php moves one: the assignment that places it is pointed
+				at its new parent, and everything beneath it comes along.  The
+				old path is reserved first.  The reservation also keeps each
+				child's old path, and takes the children from $this->children,
+				which nothing on this ride has filled, so they are read first.
+
+				ImportMovePlan() has already asked whether the move may be made.
+			*/
+
+		public function ImportMoveEntry() {
+			$this->SetOrmBasics();
+
+			if(!count($this->object_list) || !$this->ValidateOrm()) {
+				return FALSE;
+			}
+
+			$this->FormatEntryInformation();
+
+			if(!$this->canUserAccess()) {
+				return FALSE;
+			}
+
+			$target_parent = (int)$this->Param('target-parent');
+			$assignment = $this->entry['assignment'][0];
+
+			if(!$target_parent || !$assignment['id']) {
+				return FALSE;
+			}
+
+			$this->SetChildrenForReservation();
+
+			$this->BackupEntryCodeReservation(['entry'=>$this->entry, 'old_entry'=>$this->entry, 'record_list'=>$this->record_list]);
+
+			$assignment['Parentid'] = $target_parent;
+
+			$update_results = $this->handler->db_access->UpdateRecord([
+				'type'=>'Assignment',
+				'update'=>$assignment,
+				'where'=>[
+					'id'=>$assignment['id'],
+				],
+			]);
+
+			if(!empty($update_results['line'])) {
+				return FALSE;
+			}
+
+			return TRUE;
+		}
 	}
 
 ?>

@@ -73,9 +73,9 @@
 			if($table === 'Entry') {
 				$fields['Entry_id'] = 'Leave blank to make a new entry; fill it to change, or Delete, the entry with that id.';
 				$fields['Entry_Identifier'] = 'A name of your own for the entry, within this file.  Rows with the same one are the same entry.';
-				$fields['Entry_ParentIdentifier'] = 'File the new entry under the entry this file names by that Entry_Identifier.';
-				$fields['Entry_ParentPath'] = 'File the new entry under the entry at this path, e.g. /books/poetry/.';
-				$fields['Assignment_Parentid'] = 'File the new entry under the entry with this id.';
+				$fields['Entry_ParentIdentifier'] = 'File the entry under the entry this file names by that Entry_Identifier; an existing entry is moved there.';
+				$fields['Entry_ParentPath'] = 'File the entry under the entry at this path, e.g. /books/poetry/; an existing entry is moved there.';
+				$fields['Assignment_Parentid'] = 'File the entry under the entry with this id; an existing entry is moved there.';
 
 				foreach($this->EntryQueryFields() as $field) {
 					$fields['Entry_' . $field] = 'The entry\'s ' . $field . '.';

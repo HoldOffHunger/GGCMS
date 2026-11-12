@@ -1204,6 +1204,9 @@
 			in the write name the entries whose cached rows are now wrong.
 		*/
 
+			// MarkRowCacheDirty()
+			// Tests: DBAccessTest::testMarkRowCacheDirtyClearsTreesOnAMove()
+			// Test file: tests/src/classes/Database/DBAccessTest.php
 		public function MarkRowCacheDirty($args) {
 			if(!$this->db_file_cache) {
 				return FALSE;
@@ -1265,6 +1268,21 @@
 					} else {
 						$this->row_cache_dirty_all_trees = TRUE;
 					}
+				}
+
+					/*
+						An Assignment written with a Parentid may have moved its
+						child, as transfer.php and an import's move both do, and
+						then every RecordTree key under the old path still
+						resolves: the entry renders at its old address with its
+						old canonical, and the reservation that should redirect
+						it never fires.  The write carries no Code to narrow it
+						by, so the whole type goes, as for an Entry write
+						without one.
+					*/
+
+				if($args['type'] === 'Assignment' && $args_key === 'update' && $field_set['Parentid']) {
+					$this->row_cache_dirty_all_trees = TRUE;
 				}
 
 				if($args['type'] === 'Comment') {

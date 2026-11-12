@@ -3602,6 +3602,30 @@
 			return $this->last_edited_entry = $this->orm->GetLastChildEdited(['entry'=>$entry]);
 		}
 		
+			/*
+				The entry's children as BackupEntryCodeReservation() wants them:
+				every one, each with the assignment that places it.  A page of
+				them is not enough, and a script that moves an entry has usually
+				read none at all -- which left the entry its old address and took
+				away the address of everything filed directly beneath it.
+			*/
+		
+		public function SetChildrenForReservation() {
+			$this->children = [];
+			
+			foreach($this->orm->GetChildEntryPlacements(['parentid'=>$this->entry['id']]) as $child) {
+				$this->children[] = [
+					'id'=>$child['id'],
+					'Code'=>$child['Code'],
+					'assignment'=>[
+						['id'=>$child['Assignmentid']],
+					],
+				];
+			}
+			
+			return TRUE;
+		}
+		
 		public function BackupEntryCodeReservation($args) {
 			$entry = $args['entry'];
 			$old_entry = $args['old_entry'];

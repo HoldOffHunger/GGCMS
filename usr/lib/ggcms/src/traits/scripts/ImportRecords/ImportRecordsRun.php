@@ -11,6 +11,7 @@
 			New record          a new entry, or a new child record on one
 			Updated old record  an existing record changed; its old value is in RecordChange
 			Deleted old record  an existing record deleted
+			Transferred old record  an existing entry moved beneath another parent, and everything under it
 			Unchanged           the record already says what the row says
 			Skipped             not done, for a reason that is not a fault -- a twin, a stale Current_
 			Error               not done, because something is wrong; the reasons follow
@@ -150,7 +151,7 @@
 				$text .= 'Rows     : ' . count($report['rows']) . PHP_EOL;
 
 				foreach($report['counts'] as $outcome => $count) {
-					$text .= sprintf('  %-20s %d', $outcome, $count) . PHP_EOL;
+					$text .= sprintf('  %-22s %d', $outcome, $count) . PHP_EOL;
 				}
 			}
 

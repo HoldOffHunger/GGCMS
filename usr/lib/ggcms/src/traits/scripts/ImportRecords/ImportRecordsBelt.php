@@ -390,6 +390,16 @@
 				return ['rows'=>array_fill_keys($group['rows'], ['outcome'=>'Skipped', 'details'=>[$current['error']]])];
 			}
 
+				//  A parent named: may the entry be moved there?  Asked before anything is written.
+
+			$move = ($group['parent'] !== NULL) ? $this->ImportMovePlan(['group'=>$group, 'current'=>$current]) : NULL;
+
+			if(isset($move['error'])) {
+				return ['rows'=>array_fill_keys($group['rows'], ['outcome'=>'Skipped', 'details'=>[$move['error']]])];
+			}
+
+			$path = $current['path'];
+
 			$post = $this->RecordsAsQuery(['entry'=>$current['entry'], 'records'=>$current['records']]);
 			$existing_images = count($current['records']['image']);
 
@@ -400,7 +410,7 @@
 			}
 
 			if(!$changes['changed']) {
-				return ['rows'=>$changes['rows']];
+				return $this->ImportMoveOnly(['group'=>$group, 'current'=>$current, 'move'=>$move, 'rows'=>$changes['rows'], 'apply'=>$apply]);
 			}
 
 			$post = $changes['post'];
@@ -435,9 +445,19 @@
 			}
 
 			if($apply) {
+					//  Moved first, so the update is posted to the path the entry now has.
+
+				$placed = $this->ImportApplyMove(['group'=>$group, 'current'=>$current, 'move'=>$move]);
+
+				if(isset($placed['error'])) {
+					return ['rows'=>array_fill_keys($group['rows'], ['outcome'=>'Error', 'details'=>[$placed['error']]]), 'wrote'=>!empty($placed['wrote'])];
+				}
+
+				$path = $placed['path'];
+
 				$rider = $this->ImportRider([
 					'action'=>'Update',
-					'objectlist'=>$current['path'],
+					'objectlist'=>$path,
 					'post'=>$post,
 					'files'=>$files['files'],
 					'verb'=>'UpdateEntry',
@@ -461,11 +481,209 @@
 				$results[$row_index] = $result;
 			}
 
+			$results = $this->ImportMoveDetail(['rows'=>$results, 'group'=>$group, 'current'=>$current, 'move'=>$move, 'apply'=>$apply]);
+
 			if(strlen($group['identifier'])) {
-				$this->import_registry[$group['identifier']] = ['id'=>$group['entryid'], 'path'=>$current['path']];
+				$this->import_registry[$group['identifier']] = ['id'=>$group['entryid'], 'path'=>$path];
 			}
 
 			return ['rows'=>$results, 'wrote'=>$apply];
+		}
+
+			// Move
+			// -----------------------------------------------
+
+			/*
+				An existing entry's row may name a parent, and the entry is then
+				moved beneath it, as transfer.php moves one entry: the assignment
+				that places it is repointed, so everything beneath it moves too,
+				and its old path is reserved.
+
+				May it be moved?  Not to a parent that is not there; not when it
+				is filed in more than one place, since the file does not say which
+				placing to change; not under itself or anything beneath it, which
+				would cut the branch from the tree; and not under a parent that
+				already has an entry of its code, since two entries cannot answer
+				to one path.  An entry already under that parent is not moved,
+				and says so, so a file may be run twice.
+
+				A parent this same file makes is not there yet in a preview, so
+				the move is reported and not checked.
+			*/
+
+		public function ImportMovePlan($args) {
+			$group = $args['group'];
+			$current = $args['current'];
+
+			$entryid = (int)$group['entryid'];
+			$parent = $this->ImportParentPath(['parent'=>$group['parent']]);
+
+			if(isset($parent['error'])) {
+				return ['error'=>$parent['error']];
+			}
+
+			if(isset($parent['note'])) {
+				return ['unchecked'=>substr($group['parent'], strlen('identifier:'))];
+			}
+
+			$where = count($parent['path']) ? '/' . implode('/', $parent['path']) . '/' : 'the top of the tree';
+			$targetid = $this->ImportPathEntryid(['path'=>$parent['path']]);
+
+			if(!$targetid) {
+				return ['error'=>'There is no entry at ' . $where . ' to move Entry ' . $entryid . ' under.'];
+			}
+
+			$placements = $this->orm->GetEntryPlacements(['entryid'=>$entryid]);
+
+			if(count($placements) !== 1) {
+				return ['error'=>'Entry ' . $entryid . ' is filed in ' . count($placements) . ' places; an import moves only an entry filed in one.'];
+			}
+
+			if((int)$placements[0]['Parentid'] === $targetid) {
+				return ['same'=>TRUE, 'where'=>$where];
+			}
+
+			if($this->orm->IsEntryBeneath(['entryid'=>$targetid, 'ancestorid'=>$entryid])) {
+				return ['error'=>'Entry ' . $entryid . ' cannot be moved under itself or anything beneath it.'];
+			}
+
+			$twins = $this->orm->GetChildEntriesCoded(['parentid'=>$targetid, 'code'=>$current['entry']['Code']]);
+
+			if(count($twins)) {
+				return ['error'=>'Entry ' . $entryid . ' cannot be moved under ' . $where . ', which already has an entry with the code ' . $current['entry']['Code'] . ' (Entry ' . $twins[0]['id'] . ').'];
+			}
+
+			return [
+				'targetid'=>$targetid,
+				'where'=>$where,
+				'to'=>'/' . implode('/', array_merge($parent['path'], [$current['entry']['Code']])) . '/',
+			];
+		}
+
+			//  The entry a path ends at; the site's own entry for no path at all; 0 when the path leads nowhere.
+
+		public function ImportPathEntryid($args) {
+			$path = $args['path'];
+
+			if(!count($path)) {
+				return (int)$this->master_record['id'];
+			}
+
+			$tree = $this->orm->GetRecordTree(['codelist'=>$path, 'availabilitylimit'=>1]);
+
+			if(!is_array($tree) || count($tree) !== count($path)) {
+				return 0;
+			}
+
+			return (int)$tree[count($tree) - 1]['id'];
+		}
+
+			/*
+				The move made, and the path the entry has after it.  With no move
+				to make, the path it had.
+			*/
+
+		public function ImportApplyMove($args) {
+			$group = $args['group'];
+			$current = $args['current'];
+			$move = $args['move'];
+
+			if($move === NULL || empty($move['targetid'])) {
+				return ['path'=>$current['path']];
+			}
+
+			$rider = $this->ImportRider([
+				'action'=>'Update',
+				'objectlist'=>$current['path'],
+				'post'=>['target-parent'=>(string)$move['targetid']],
+				'verb'=>'ImportMoveEntry',
+			]);
+
+			if(!$rider->ride_results) {
+				return ['error'=>'Entry ' . $group['entryid'] . ' could not be moved under ' . $move['where'] . '.'];
+			}
+
+				//  So the path is read as it now is, not as it was a moment ago.
+
+			if($this->db_access_object->db_file_cache) {
+				$this->db_access_object->FlushRowCacheNow();
+			}
+
+			$path = $this->orm->GetEntryCodePath(['entryid'=>(int)$group['entryid'], 'masterid'=>(int)$this->master_record['id']]);
+
+			if($path === NULL || !count($path)) {
+				return ['error'=>'Entry ' . $group['entryid'] . ' was moved under ' . $move['where'] . ', and cannot now be reached by a path.', 'wrote'=>TRUE];
+			}
+
+			return ['path'=>$path];
+		}
+
+			//  An entry whose row changes nothing about it, and may still move it.
+
+		public function ImportMoveOnly($args) {
+			$group = $args['group'];
+			$move = $args['move'];
+			$apply = $args['apply'];
+
+			$wrote = FALSE;
+
+			if($apply && $move !== NULL && !empty($move['targetid'])) {
+				$placed = $this->ImportApplyMove(['group'=>$group, 'current'=>$args['current'], 'move'=>$move]);
+
+				if(isset($placed['error'])) {
+					return ['rows'=>array_fill_keys($group['rows'], ['outcome'=>'Error', 'details'=>[$placed['error']]]), 'wrote'=>!empty($placed['wrote'])];
+				}
+
+				$wrote = TRUE;
+			}
+
+			return [
+				'rows'=>$this->ImportMoveDetail(['rows'=>$args['rows'], 'group'=>$group, 'current'=>$args['current'], 'move'=>$move, 'apply'=>$apply]),
+				'wrote'=>$wrote,
+			];
+		}
+
+			// ImportMoveDetail()
+			// Tests: ImportRecordsTest::testImportMoveDetail()
+			// Test file: tests/src/traits/ImportRecordsTest.php
+			/*
+				What the report says of the move, on the entry's first row, which
+				becomes a Transferred old record whatever else it did: where an
+				entry went is the thing to be able to count.
+			*/
+
+		public function ImportMoveDetail($args) {
+			$rows = $args['rows'];
+			$group = $args['group'];
+			$move = $args['move'];
+
+			if($move === NULL || !count($rows)) {
+				return $rows;
+			}
+
+			$first = array_keys($rows)[0];
+			$name = 'Entry ' . $group['entryid'];
+
+			if(!empty($move['same'])) {
+				array_unshift($rows[$first]['details'], $name . ' is already filed under ' . $move['where'] . '.');
+
+				return $rows;
+			}
+
+				//  A move is a change, so "nothing to change" is no longer true of the row.
+
+			$rows[$first]['details'] = array_values(array_diff($rows[$first]['details'], [$name . ' already says all of this.']));
+			$rows[$first]['outcome'] = 'Transferred old record';
+
+			if(isset($move['unchecked'])) {
+				array_unshift($rows[$first]['details'], 'Would transfer ' . $name . ' to beneath its parent, ' . $move['unchecked'] . ', which is new, so the transfer was not checked.');
+
+				return $rows;
+			}
+
+			array_unshift($rows[$first]['details'], ($args['apply'] ? 'Transferred ' : 'Would transfer ') . $name . ' from /' . implode('/', $args['current']['path']) . '/ to ' . $move['to'] . ', with everything beneath it.');
+
+			return $rows;
 		}
 
 			/*

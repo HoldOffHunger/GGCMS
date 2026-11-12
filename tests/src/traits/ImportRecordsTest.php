@@ -210,9 +210,60 @@
 
 			$plan = $this->plan('Entry', ['Entry_Identifier', 'Entry_ParentPath', 'Entry_Title'], [['a', '/books/', 'Poetry'], ['a', '/films/', '']]);
 			$this->assertSame(['This row files the entry under a different parent from line 2.'], $plan['rows'][1]['errors']);
+		}
 
+			// An existing entry's row may name a parent, which moves it; two rows of it may not name two
+		public function testAnExistingEntryMayBeMoved() {
 			$plan = $this->plan('Entry', ['Entry_id', 'Entry_ParentPath'], [['12', '/films/']]);
-			$this->assertSame(['An existing entry is not moved by an import; leave its parent out.'], $plan['rows'][0]['errors']);
+			$this->assertSame([], $plan['rows'][0]['errors']);
+			$this->assertSame('update', $plan['groups']['id:12']['action']);
+			$this->assertSame('path:films', $plan['groups']['id:12']['parent']);
+
+			$plan = $this->plan('Entry', ['Entry_id', 'Assignment_Parentid'], [['12', '7'], ['12', '8']]);
+			$this->assertSame(['This row files the entry under a different parent from line 2.'], $plan['rows'][1]['errors']);
+
+			$plan = $this->plan('Entry', ['Entry_id', 'Entry_Title'], [['12', 'Films']]);
+			$this->assertNull($plan['groups']['id:12']['parent'], 'no parent named, no move');
+
+				// Moved under an entry this file makes: it waits for that entry
+			$plan = $this->plan('Entry', ['Entry_id', 'Entry_Identifier', 'Entry_ParentIdentifier', 'Entry_Title'], [['12', '', 'nouns', ''], ['', 'nouns', '', 'Nouns']]);
+			$ordered = $this->subject()->OrderImportGroups(['groups'=>$plan['groups']]);
+			$this->assertSame(['identifier:nouns', 'id:12'], $ordered['order']);
+		}
+
+		public function testImportMoveDetail() {
+			$subject = $this->subject();
+
+			$rows = [3=>['outcome'=>'Unchanged', 'details'=>['Entry 12 already says all of this.'], 'entryid'=>12]];
+			$args = ['rows'=>$rows, 'group'=>['entryid'=>12], 'current'=>['path'=>['books', 'index']], 'move'=>['targetid'=>7, 'where'=>'/films/', 'to'=>'/films/index/'], 'apply'=>TRUE];
+
+			$moved = $subject->ImportMoveDetail($args);
+			$this->assertSame('Transferred old record', $moved[3]['outcome']);
+			$this->assertSame(['Transferred Entry 12 from /books/index/ to /films/index/, with everything beneath it.'], $moved[3]['details']);
+
+			$args['apply'] = FALSE;
+			$this->assertSame(['Would transfer Entry 12 from /books/index/ to /films/index/, with everything beneath it.'], $subject->ImportMoveDetail($args)[3]['details']);
+
+				// A row that also changed a field is still counted as the transfer
+			$args['rows'][3] = ['outcome'=>'Updated old record', 'details'=>['Changed Entry 12 Title from "Index" to "Contents".'], 'entryid'=>12];
+			$both = $subject->ImportMoveDetail($args);
+			$this->assertSame('Transferred old record', $both[3]['outcome']);
+			$this->assertCount(2, $both[3]['details']);
+			$args['rows'] = $rows;
+
+			$args['move'] = ['same'=>TRUE, 'where'=>'/films/'];
+			$same = $subject->ImportMoveDetail($args);
+			$this->assertSame('Unchanged', $same[3]['outcome']);
+			$this->assertSame(['Entry 12 is already filed under /films/.', 'Entry 12 already says all of this.'], $same[3]['details']);
+
+				// A parent this file makes: still a transfer, and no longer "nothing to change"
+			$args['move'] = ['unchecked'=>'nouns'];
+			$unchecked = $subject->ImportMoveDetail($args);
+			$this->assertSame('Transferred old record', $unchecked[3]['outcome']);
+			$this->assertSame(['Would transfer Entry 12 to beneath its parent, nouns, which is new, so the transfer was not checked.'], $unchecked[3]['details']);
+
+			$args['move'] = NULL;
+			$this->assertSame($rows, $subject->ImportMoveDetail($args), 'no parent named, nothing said');
 		}
 
 		public function testARowThatNamesNoEntry() {

@@ -37,6 +37,30 @@
 			$this->expectException(mysqli_sql_exception::class);
 			$db_access->ExecuteStatement(['statement'=>new DBAccessTestStatement(new mysqli_sql_exception('Column cannot be null', 1048)), 'query'=>'SELECT 1']);
 		}
+
+			// A moved entry's old path must stop resolving from the row cache
+		public function testMarkRowCacheDirtyClearsTreesOnAMove() {
+			$fresh = function() {
+				$db_access = $this->newWithoutConstructor(['class'=>'DBAccess']);
+				$db_access->db_file_cache = new stdClass();
+				$db_access->row_cache_dirty = TRUE;		# already registered, so no shutdown flush is queued by the test
+
+				return $db_access;
+			};
+
+			$moved = $fresh();
+			$moved->MarkRowCacheDirty(['type'=>'Assignment', 'update'=>['id'=>60207, 'Parentid'=>75870, 'Childid'=>60207], 'where'=>['id'=>60207]]);
+			$this->assertTrue($moved->row_cache_dirty_all_trees, 'a repointed assignment clears every cached tree');
+			$this->assertArrayHasKey(75870, $moved->row_cache_dirty_entry_ids);
+
+			$made = $fresh();
+			$made->MarkRowCacheDirty(['type'=>'Assignment', 'definition'=>['Parentid'=>2, 'Childid'=>75870]]);
+			$this->assertNotTrue($made->row_cache_dirty_all_trees, 'a new assignment adds a path and takes none away');
+
+			$ordered = $fresh();
+			$ordered->MarkRowCacheDirty(['type'=>'Assignment', 'update'=>['Ordering'=>3], 'where'=>['id'=>60207]]);
+			$this->assertNotTrue($ordered->row_cache_dirty_all_trees, 'an assignment written without a parent moves nothing');
+		}
 	}
 
 ?>

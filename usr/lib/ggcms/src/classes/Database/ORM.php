@@ -2671,6 +2671,72 @@
 		}
 
 			/*
+				What an import asks before it moves an entry: where the entry is
+				filed now, whether one entry sits at or beneath another, and
+				which entries a parent holds -- those with a given code, or all
+				of them with the assignment that places each.
+			*/
+
+		public function GetEntryPlacements($args) {
+			$sql = 'SELECT id, Parentid, Childid FROM Assignment WHERE Childid = ? ORDER BY id';
+
+			$fill_arrays_from_db_args = [
+				'query'=>$sql,
+				'sqlbindstring'=>'i',
+				'recordvalues'=>[(int)$args['entryid']],
+			];
+
+			$placements = $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
+
+			return is_array($placements) ? $placements : [];
+		}
+
+		public function IsEntryBeneath($args) {
+			$current = (int)$args['entryid'];
+			$ancestorid = (int)$args['ancestorid'];
+
+			for($steps = 0; $current && $steps < 50; $steps++) {
+				if($current === $ancestorid) {
+					return TRUE;
+				}
+
+				$placements = $this->GetEntryPlacements(['entryid'=>$current]);
+
+				$current = count($placements) ? (int)$placements[0]['Parentid'] : 0;
+			}
+
+			return FALSE;
+		}
+
+		public function GetChildEntriesCoded($args) {
+			$sql = 'SELECT Entry.id, Entry.Title, Entry.Code FROM Entry JOIN Assignment ON Assignment.Childid = Entry.id WHERE Assignment.Parentid = ? AND Entry.Code = ? ORDER BY Entry.id';
+
+			$fill_arrays_from_db_args = [
+				'query'=>$sql,
+				'sqlbindstring'=>'is',
+				'recordvalues'=>[(int)$args['parentid'], (string)$args['code']],
+			];
+
+			$entries = $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
+
+			return is_array($entries) ? $entries : [];
+		}
+
+		public function GetChildEntryPlacements($args) {
+			$sql = 'SELECT Entry.id, Entry.Code, Assignment.id AS Assignmentid FROM Entry JOIN Assignment ON Assignment.Childid = Entry.id WHERE Assignment.Parentid = ? ORDER BY Entry.id';
+
+			$fill_arrays_from_db_args = [
+				'query'=>$sql,
+				'sqlbindstring'=>'i',
+				'recordvalues'=>[(int)$args['parentid']],
+			];
+
+			$entries = $this->handler->db_access->FillArraysFromDB($fill_arrays_from_db_args);
+
+			return is_array($entries) ? $entries : [];
+		}
+
+			/*
 				The codes from the top of the tree down to the entry, which is
 				the path modify.php is reached by: /spanish/lesson-3/ is
 				['spanish', 'lesson-3'].  The master record is the top and is

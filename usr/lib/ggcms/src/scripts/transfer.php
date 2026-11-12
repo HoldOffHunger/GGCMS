@@ -137,6 +137,15 @@
 							changes, so it is the old entry and the new.
 						*/
 					
+						/*
+							The reservation keeps each child's old path as well, and
+							takes the children from $this->children, which nothing on
+							this action had filled: a lesson moved kept its own old
+							address, and its words lost theirs.
+						*/
+					
+					$this->SetChildrenForReservation();
+					
 					$this->BackupEntryCodeReservation(['entry'=>$this->entry, 'old_entry'=>$this->entry, 'record_list'=>$this->record_list]);
 					
 					$update_results = $this->handler->db_access->UpdateRecord($entry_update_args);

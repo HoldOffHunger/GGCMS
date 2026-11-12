@@ -329,9 +329,7 @@
 			}
 
 			if($parent !== NULL) {
-				if($group['entryid']) {
-					return ['error'=>'An existing entry is not moved by an import; leave its parent out.'];
-				}
+					//  A parent named for an existing entry moves it there: ImportRecordsBelt, under Move.
 
 				if($group['parent'] !== NULL && $group['parent'] !== $parent) {
 					return ['error'=>'This row files the entry under a different parent from line ' . $first_line . '.'];

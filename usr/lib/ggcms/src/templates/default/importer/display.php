@@ -207,6 +207,10 @@
 	print('<li>None of these, and it goes at the top of the site.</li>');
 	print('</ul>');
 
+	print('<h3>Moving an Entry</h3>');
+
+	print('<p>Name a parent on a row that has an <code>Entry_id</code>, and that entry is moved beneath it with everything it holds.  Its old address goes on finding it, and so does each of its children\'s.  An entry is not moved under itself or anything beneath it, nor under a parent that already has an entry with its code, nor when it is filed in more than one place.  An entry already there is left as it is, so a file may be run twice.  The report calls the row a <b>Transferred old record</b>, and says where the entry was and where it is now.</p>');
+
 	print('<p>A new entry titled like one its parent already has is skipped and its twin named &mdash; usually it is the same file run twice.  <code>Option_allow-duplicate-title</code> of 1 makes it anyway.  A new entry is published, as the Add form publishes one, unless <code>Entry_Publish</code> is 0.  An existing entry is never moved by an import.</p>');
 
 	print('<h3>Guarding an Update</h3>');
