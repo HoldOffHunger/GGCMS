@@ -9,6 +9,15 @@ live installation rather than estimated.
 
 ## 2026, November 11
 
+- Every login-required script answered 500 to a logged-out request in any
+  format but HTML -- `modify.json`, `user-panel.json`, `chapterify.json`, and
+  the importer's own `importer.json`. Found checking prod after the importer's
+  deploy. Security sends a stranger to the login page through the format's
+  redirect object, and only HTML builds one, so the rest called
+  `RedirectToLogin()` on nothing. Now a format without one lets the content
+  stage decline, and the request chain sends `/modify.json` on to
+  `/modify.php`, where the login is handled as it always was.
+
 - EarthFluent's Japanese and Chinese corrections are live: 714 Japanese rows
   and 390 Chinese, the first pass of either language. The local models'
   suspects were read one by one, and every batch fault widened to the rows

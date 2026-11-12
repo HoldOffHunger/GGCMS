@@ -70,7 +70,20 @@
 					return $response;		# BT: FIXME ?  use $desired_action var pls; NO!
 				}
 			} else {
-				if($this->handler->authentication->redirect) {
+					/*
+						Sending a visitor to the login page, or over to https, is
+						something only a page a person reads can do: HTML builds a
+						redirect object, and no other format has one.  So a
+						logged-out request for modify.json or importer.json called
+						RedirectToLogin() on nothing and answered 500 -- every
+						login-required script, in every format but HTML, until 11
+						November 2026.  Without a redirect object the content stage
+						declines instead, and the request chain does what it does
+						with any script it could not serve: /modify.json is sent on
+						to /modify.php, where HTML handles the login.
+					*/
+
+				if($this->handler->authentication->redirect && isset($this->handler->script->redirect_object)) {
 						# handle security-triggered redirect
 					$other_script_args = $this->HandleRequest_Content_Format_InstantiateFormatObject_PartialArgs();
 					$other_script_args['redirect'] = $this->handler->script->redirect_object;
