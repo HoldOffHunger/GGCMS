@@ -1,0 +1,103 @@
+{
+	"language": "japanese",
+	"translation_language": "ja",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Polite forms throughout, except where plain against polite is the lesson. The course stores no readings, so the sound lessons are written in kana.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Five Vowels, Part 1",
+			"description": "Japanese has five vowel sounds, a, i, u, e, and o, and each is always said the same way. These four words are made of nothing else.",
+			"words": [["Love", "あい"], ["House", "いえ"], ["Above", "うえ"], ["Blue", "あお"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Long Vowels, Part 1",
+			"description": "Hold a vowel for two beats and it is a different word. Hear obasan against obaasan, and ojisan against ojiisan.",
+			"words": [["Aunt", "おばさん"], ["Grandmother", "おばあさん"], ["Uncle", "おじさん"], ["Grandfather", "おじいさん"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Small Tsu, Part 1",
+			"description": "A small っ is one beat of held silence before the next sound, and it changes the word. Hear oto against otto, and kite against kitte.",
+			"words": [["Sound", "おと"], ["Husband", "おっと"], ["Come here", "きて"], ["Postage stamp", "きって"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Three Ways of Writing, Part 1",
+			"description": "Japanese is written three ways at once: hiragana for native words and endings, katakana for borrowed words, and kanji for meanings.",
+			"words": [["Sushi", "すし"], ["Coffee", "コーヒー"], ["Mountain", "山"], ["Japan", "日本"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - The Verb Never Says Who, Part 1",
+			"description": "The verb is the same whoever is going: 行きます. Only the word in front, marked by は, says who.",
+			"words": [["I go", "私は行きます"], ["You go", "あなたは行きます"], ["She goes", "彼女は行きます"], ["We go", "私たちは行きます"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Polite Endings, Part 1",
+			"description": "The ending of the verb says whether it happens, and when: ます, ません, ました, ませんでした.",
+			"words": [["I go", "行きます"], ["I do not go", "行きません"], ["I went", "行きました"], ["I did not go", "行きませんでした"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Plain and Polite, Part 1",
+			"description": "Every verb has a plain form for family and friends and a polite form, ending in ます, for everybody else.",
+			"words": [["To eat, said plainly", "食べる"], ["To eat, said politely", "食べます"], ["To go, said plainly", "行く"], ["To go, said politely", "行きます"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Counting Words, Part 1",
+			"description": "A number takes a counting word that fits the thing counted: 人 for people, 冊 for books, 匹 for small animals.",
+			"words": [["One person", "一人"], ["Two people", "二人"], ["One book", "一冊"], ["One dog", "一匹"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - The Verb Comes Last, Part 1",
+			"description": "English says I eat sushi. Japanese says I sushi eat: は marks who, を marks what, and the verb closes the sentence.",
+			"words": [["I eat sushi.", "私はすしを食べます。"], ["I drink water.", "私は水を飲みます。"], ["I read a book.", "私は本を読みます。"], ["I see a dog.", "私は犬を見ます。"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "Add か to the end of a statement and it becomes a question. Nothing else moves.",
+			"words": [["You speak Japanese.", "あなたは日本語を話します。"], ["Do you speak Japanese?", "あなたは日本語を話しますか。"], ["This is the bus to Tokyo.", "これは東京行きのバスです。"], ["Is this the bus to Tokyo?", "これは東京行きのバスですか。"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "The no is in the verb's ending, at the very end of the sentence: ます becomes ません, and です becomes ではありません.",
+			"words": [["I speak Japanese.", "私は日本語を話します。"], ["I do not speak Japanese.", "私は日本語を話しません。"], ["I am a student.", "私は学生です。"], ["I am not a student.", "私は学生ではありません。"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Little Words After, Part 1",
+			"description": "Where English puts to, at, with, and by in front of a word, Japanese puts a little marker after it: に, で, と, で.",
+			"words": [["I go to Tokyo.", "私は東京に行きます。"], ["I eat at home.", "私は家で食べます。"], ["I go with a friend.", "私は友達と行きます。"], ["I go by bus.", "私はバスで行きます。"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb 行きます, to go, at work in whole sentences. The place comes first, marked by に, and the verb comes last.",
+			"words": [["I am going to the market.", "私は市場に行きます。"], ["We are going to the beach.", "私たちは海に行きます。"], ["Are you going to the party?", "パーティーに行きますか。"], ["They are going to Tokyo.", "彼らは東京に行きます。"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. The answer drops か, and a no changes the verb's ending.",
+			"words": [["Do you have a car?", "車を持っていますか。"], ["Yes, I have a car.", "はい、車を持っています。"], ["Do you speak English?", "英語を話しますか。"], ["No, I do not speak English.", "いいえ、英語を話しません。"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "The thing, marked by は, then what it is like, then です to close politely.",
+			"words": [["The house is big.", "家は大きいです。"], ["The book is new.", "本は新しいです。"], ["The girl is tall.", "女の子は背が高いです。"], ["The dogs are small.", "犬は小さいです。"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "Japanese has no separate future: today and tomorrow both use 行きます, and only yesterday changes it, to 行きました.",
+			"words": [["I went to the market yesterday.", "昨日、市場に行きました。"], ["I am going to the market today.", "今日、市場に行きます。"], ["I will go to the market tomorrow.", "明日、市場に行きます。"], ["I did not go yesterday.", "昨日は行きませんでした。"]]
+		}
+	]
+}

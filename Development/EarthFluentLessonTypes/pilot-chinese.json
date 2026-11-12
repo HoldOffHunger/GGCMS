@@ -1,0 +1,103 @@
+{
+	"language": "chinese",
+	"translation_language": "zh",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Simplified characters, as the rest of the course. The course stores no pinyin, so where the sound is the lesson, the pinyin is in the description.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Four Tones, Part 1",
+			"description": "One sound, four words: in Chinese the tone is part of the word. Listen to mā (high and level), má (rising), mǎ (dipping), and mà (falling).",
+			"words": [["Mom", "妈"], ["Hemp", "麻"], ["Horse", "马"], ["To scold", "骂"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Four Tones, Part 2",
+			"description": "Change the tone and you change the word. Hear mǎi against mài, and tāng against táng.",
+			"words": [["To buy", "买"], ["To sell", "卖"], ["Soup", "汤"], ["Sugar", "糖"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Characters That Are Pictures, Part 1",
+			"description": "The oldest characters began as drawings. Look for the walking legs in 人, the three peaks in 山, the open mouth in 口, and the trunk and branches in 木.",
+			"words": [["Person", "人"], ["Mountain", "山"], ["Mouth", "口"], ["Tree", "木"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Characters Built from Parts, Part 1",
+			"description": "Most characters are built from simpler ones. Woman 女 and child 子 side by side make good, 好. Sun 日 and moon 月 make bright, 明.",
+			"words": [["Woman", "女"], ["Child", "子"], ["Good", "好"], ["Bright", "明"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - The Verb Never Changes, Part 1",
+			"description": "A Chinese verb never changes. Only the word in front says who is going: 我, 你, 她, 我们. Spot what stays the same.",
+			"words": [["I go", "我去"], ["You go", "你去"], ["She goes", "她去"], ["We go", "我们去"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One Person, Part 1",
+			"description": "Add 们 after a word for a person and it means more than one: 我 is I, and 我们 is we.",
+			"words": [["I", "我"], ["We", "我们"], ["You", "你"], ["You all", "你们"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Already Done, Part 1",
+			"description": "The verb itself has no past. Put 了 after it to say the thing is done.",
+			"words": [["I eat", "我吃"], ["I ate", "我吃了"], ["She goes", "她去"], ["She went", "她去了"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Counting Words, Part 1",
+			"description": "Between a number and a thing goes a counting word, and different kinds of thing take different ones: 个 for people, 本 for books, 只 for animals, 辆 for vehicles.",
+			"words": [["One person", "一个人"], ["One book", "一本书"], ["One dog", "一只狗"], ["One car", "一辆车"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "Add 吗 to the end of a statement and it becomes a question. Nothing else moves.",
+			"words": [["You speak Chinese.", "你说中文。"], ["Do you speak Chinese?", "你说中文吗？"], ["This is the bus to Beijing.", "这是去北京的公共汽车。"], ["Is this the bus to Beijing?", "这是去北京的公共汽车吗？"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put 不 in front of the verb. Nothing else in the sentence changes.",
+			"words": [["I speak Chinese.", "我说中文。"], ["I do not speak Chinese.", "我不说中文。"], ["I am a student.", "我是学生。"], ["I am not a student.", "我不是学生。"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - When Comes Before the Verb, Part 1",
+			"description": "English puts the time at the end: I go tomorrow. Chinese puts it before the verb: I tomorrow go.",
+			"words": [["I go today.", "我今天去。"], ["I go tomorrow.", "我明天去。"], ["She went yesterday.", "她昨天去了。"], ["We eat now.", "我们现在吃。"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come First, Part 1",
+			"description": "As in English, the describing word comes before the thing it describes.",
+			"words": [["A big city", "大城市"], ["A small town", "小镇"], ["A new book", "新书"], ["A good teacher", "好老师"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb 去, to go, at work in whole sentences. It is the same 去 every time, whoever is going.",
+			"words": [["I am going to the market.", "我去市场。"], ["We are going to the beach.", "我们去海滩。"], ["Are you going to the party?", "你去聚会吗？"], ["They are going to Beijing.", "他们去北京。"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. The answer drops 吗, and a no adds 不.",
+			"words": [["Do you have a car?", "你有车吗？"], ["Yes, I have a car.", "有，我有车。"], ["Do you speak English?", "你说英语吗？"], ["No, I do not speak English.", "不，我不说英语。"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "Where English says the house is big, Chinese says the house very big: 很 stands where English puts is.",
+			"words": [["The house is big.", "房子很大。"], ["The book is new.", "书很新。"], ["The girl is tall.", "女孩很高。"], ["The dogs are small.", "狗很小。"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways. The verb 去 never changes: the day word, and 了, say when.",
+			"words": [["I went to the market yesterday.", "我昨天去了市场。"], ["I am going to the market today.", "我今天去市场。"], ["I will go to the market tomorrow.", "我明天去市场。"], ["I am going to go tomorrow.", "我明天要去。"]]
+		}
+	]
+}
