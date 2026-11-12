@@ -489,6 +489,7 @@ talks to git; see [Deployment.md](Deployment.md).
 | `modify_entry.php` | Drives `modify.php` from a shell — creates and edits entries |
 | `import_academic_references.php` | Imports the reference worker's citations into `AcademicReference` |
 | `import_entries.php` | Drives `importer.php` from a shell -- new entries, changes and deletions from a file, with a report of every row |
+| `transfer_entry.php` | Drives `transfer.php` from a shell -- moves one entry, with everything beneath it, and reserves its old paths |
 
 These write content, and none of them may ever be scheduled. They change what
 visitors read.
@@ -732,6 +733,27 @@ meets `move_uploaded_file()`. The method sits just above `DeleteFiles()`, inside
 the stretch of `ChangeRecordsSave` the `image-upload-move` regression lifts out and runs.
 Handler also answers yes for the images `importer.php` takes out of an uploaded
 zip, which it vouches for by path with `VouchForUpload()`.
+
+#### `transfer_entry.php`
+
+```bash
+transfer_entry.php earthfluent.com --path=/spanish/nouns-animals/ --to=75870 --user=ADMIN
+transfer_entry.php earthfluent.com --path=/spanish/nouns-animals/ --to=75870 --user=ADMIN --apply
+```
+
+`transfer.php` from a shell: the entry at `--path` moved beneath the entry
+`--to` names by id, with everything beneath it. Like `import_entries.php` it
+reimplements nothing -- it posts the transfer form to the real
+`transfer.php`, so the guards are the page's own (no missing parent, no
+move under itself or its descendants, no parent that already has the code),
+and the old paths of the entry and of everything filed directly beneath it
+are reserved. `--user=ADMIN` stands in for a password: a shell on the host
+can already do anything.
+
+Without `--apply` it prints what it would do and posts nothing, since
+`transfer.php` has no preview of its own. It exits 1 when the move is
+refused. For many moves at once, use `import_entries.php` with `Entry_id`
+and a parent column instead.
 
 #### `import_entries.php`
 
