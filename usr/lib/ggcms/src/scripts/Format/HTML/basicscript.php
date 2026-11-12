@@ -65,7 +65,28 @@
 				}
 				
 				$template_location = GGCMS_DIR . 'templates/' . $this->handler->domain->host . '/' . $this->script_file . '/' . $this->desired_action . '_greatgrandchildof_' . $grandparent_code . '_title.php';
-				
+
+				if(is_file($template_location)) {
+					return require($template_location);
+				}
+			}
+
+				/*
+					Four deep, as HandleRequires() in base_format.php already
+					reaches for its body: a site that files entries one level
+					deeper -- EarthFluent's language, lesson type, lesson,
+					word -- needs the title to follow the body down.
+				*/
+
+			if(count($this->object_list) >= 4) {
+				if(count($this->object_list) === 4) {
+					$grandparent_code = $this->master_record['Code'];
+				} else {
+					$grandparent_code = $this->object_list[count($this->object_list) - 5];
+				}
+
+				$template_location = GGCMS_DIR . 'templates/' . $this->handler->domain->host . '/' . $this->script_file . '/' . $this->desired_action . '_greatgreatgrandchildof_' . $grandparent_code . '_title.php';
+
 				if(is_file($template_location)) {
 					return require($template_location);
 				}

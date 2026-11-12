@@ -105,7 +105,11 @@ rm -f /etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/ggcms.conf
 
 echo "==> stylesheets"
 		#  as deploy.sh does: see Docs/Styling.md
-php /usr/lib/ggcms/cli/scripts/internal/style/build_stylesheets.php --quiet || echo "local_sync: stylesheet build failed" >&2
+		#  Built from the installed copy, so not as a checkout: GGCMS_CONFIG_REPO,
+		#  set to run this script, would send the build to RepoDirectories.php,
+		#  which then wants GGCMS_WORK_DIR and stops -- leaving every site on
+		#  the default stylesheet.
+env -u GGCMS_CONFIG_REPO -u GGCMS_WORK_DIR php /usr/lib/ggcms/cli/scripts/internal/style/build_stylesheets.php --quiet || echo "local_sync: stylesheet build failed" >&2
 
 echo "==> permissions"
 mkdir -p /usr/lib/ggcms/src/data
