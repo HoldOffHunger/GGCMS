@@ -18,14 +18,8 @@ live installation rather than estimated.
   held. Now a verb works out every backup it needs first and writes them all
   or none, taking back what it wrote if one fails; and the old code is
   reserved only after the entry is saved under its new one, which is the only
-  time it means anything. RecordChange is utf8mb4 in `clonefrom.sql`, and
-  `Development/repairs/2026-11-11-recordchange-utf8mb4*.sql` converts the
-  five latin1 sites EarthFluent's swap does not (anarchistcode,
-  copyleftlicense, holdoffhunger, pronouncethat, revoltlink); they must be
-  converted before `1e81fbb` is deployed, or edits of anything latin1 cannot
-  hold will be refused there. Tried on a scratch database on Fumiko, it also
-  showed that latin1 did not always refuse: 日本語 can go in as `???`, so the
-  preflight counts the backups that may already have been lost that way.
+  time it means anything. Converting RecordChange to UTF-8 on every site is
+  being done separately.
 
 - Deleted records lost their backups. `DetectChangedRecords()` kept a
   deletion under the record's id and a change by appending, and
