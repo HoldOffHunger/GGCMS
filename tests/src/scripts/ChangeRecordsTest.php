@@ -23,10 +23,12 @@
 	class ChangeRecordsTestDatabase {
 		public $written = [];
 		public $fail = FALSE;
+		public $fail_after = NULL;
+		public $deleted = [];
 		public $chosen = [];
 
 		public function CreateRecord($args) {
-			if($this->fail) {
+			if($this->fail || ($this->fail_after !== NULL && count($this->written) >= $this->fail_after)) {
 				return ['line'=>1, 'error'=>'refused'];
 			}
 
@@ -41,6 +43,12 @@
 
 		public function GetChosenAssociations($args) {
 			return $this->chosen;
+		}
+
+		public function DeleteRecords($args) {
+			$this->deleted[] = $args;
+
+			return [];
 		}
 	}
 
@@ -253,6 +261,45 @@
 			$this->assertCount(1, $written);
 			$this->assertSame('*', $written[0]['RecordField']);
 			$this->assertSame(['id'=>'40312', 'Title'=>'panyabí', 'Language'=>'es'], json_decode($written[0]['OldValue'], TRUE));
+		}
+
+			/*
+				Found shipping EarthFluent's Japanese, 11 November 2026: with
+				RecordChange in latin1 the Entry's backups were written, the
+				translation's could not be, the update stopped -- and the Entry
+				rows and the old code's reservations stayed behind for an entry
+				still under that code.  Now the written backups are taken back,
+				and the reservation is not Backup's to make.
+			*/
+		public function testAFailedBackupLeavesNoBackupBehind() {
+			$subject = $this->backup();
+			$subject->db_access_object->fail_after = 1;
+
+			$subject->entry = ['id'=>'53000', 'Title'=>'日本人', 'Code'=>'nihonjin'];
+			$subject->entry_unset = ['id'=>'53000', 'Title'=>'Japanese', 'Code'=>'japanese', 'tag'=>[['id'=>'8', 'Tag'=>'民族']]];
+			$subject->tag = [['id'=>'8', 'Tag'=>'民族性']];
+
+			$this->assertFalse($subject->BackupOldRecord());
+
+			$this->assertCount(1, $subject->db_access_object->written, 'the Entry backup was written');
+			$this->assertCount(1, $subject->db_access_object->deleted, 'and taken back');
+			$this->assertSame('RecordChange', $subject->db_access_object->deleted[0]['type']);
+			$this->assertSame('id IN (?)', $subject->db_access_object->deleted[0]['where']);
+			$this->assertSame([1], $subject->db_access_object->deleted[0]['wherevalues']);
+			$this->assertCount(1, $subject->errors);
+		}
+
+		public function testTheOldCodeIsReservedOnlyAfterTheSave() {
+			$this->load('importer');
+
+			$verbs = (new ReflectionMethod('importerrow', 'UpdateEntry'))->getFileName();
+			$source = file_get_contents($verbs);
+
+			$backup = new ReflectionMethod('importerrow', 'BackupOldRecord');
+			$backup_lines = array_slice(file($backup->getFileName()), $backup->getStartLine() - 1, $backup->getEndLine() - $backup->getStartLine() + 1);
+
+			$this->assertStringNotContainsString('Reserv', implode('', $backup_lines), 'BackupOldRecord() reserves no code');
+			$this->assertMatchesRegularExpression('/SaveRecordFromQueryForUpdate\(\)\) \{\s*\$this->ReserveOldEntryCode\(\);/', $source, 'UpdateEntry reserves it once the entry is saved under its new code');
 		}
 
 		public function testAFailedBackupStopsTheUpdate() {

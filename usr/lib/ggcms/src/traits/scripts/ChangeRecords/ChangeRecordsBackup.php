@@ -38,30 +38,27 @@
 			if(!$this->UpdatesInPlace()) {
 				return TRUE;		# a reader's copy leaves the original as it was
 			}
-			
+
 			$entry = $this->entry;
-			$backup_record = $this->entry_unset;
-			
-			if($entry['Code'] !== $backup_record['Code']) {
-				$this->BackupEntryCodeReservation(['entry'=>$entry, 'old_entry'=>$backup_record, 'record_list'=>$this->record_list]);
-			}
-			
+
 			$child_record_types = $this->GetRecordTypes();
 			$primary_record_fields = $this->GetRecordsPrimaryFields();
-			
+
+			$rows = [];
+
 			foreach($child_record_types as $formal_type => $child_record_type) {
 				$records = $this->entry_unset[$child_record_type];
 				if($child_record_type === 'entry') {
 					$records = [$this->entry_unset];
 				}
 				$fields = $primary_record_fields[$formal_type];
-				
+
 				$changed_records = $this->DetectChangedRecords([
 					'recordtype'=>$child_record_type,
 					'records'=>$records,
 					'fields'=>$fields,
 				]);
-				
+
 					/*
 						A changed record names the field that changed; a deleted
 						one names none, and is filed whole.  Until 11 November
@@ -80,7 +77,7 @@
 					if(empty($changed_record['conflictingfield'])) {
 						unset($changed_record['conflictingfield']);
 
-						$backed_up = $this->BackupWholeRecord([
+						$rows[] = $this->WholeRecordChange([
 							'entryid'=>$entry['id'],
 							'type'=>$formal_type,
 							'record'=>$changed_record,
@@ -88,7 +85,7 @@
 					} else {
 						$conflicting_field = $changed_record['conflictingfield'];
 
-						$backed_up = $this->BackupRecordChange([
+						$rows[] = $this->RecordChangeRow([
 							'entryid'=>$entry['id'],
 							'field'=>$conflicting_field,
 							'recordid'=>$changed_record['id'],
@@ -96,40 +93,45 @@
 							'oldvalue'=>(string)$changed_record[$conflicting_field],
 						]);
 					}
-
-					if(!$backed_up) {
-						return FALSE;
-					}
 				}
 			}
 
-			return TRUE;
+			return $this->WriteRecordChanges(['rows'=>$rows]);
 		}
 
-			//  One RecordChange row.  FALSE if it could not be written.
+			/*
+				The old path of an entry whose code an update changed, and of
+				every child beneath it, reserved so the old addresses still find
+				it.  Not part of the backup: it says where the entry is no
+				longer, so it is written only once the entry has been saved under
+				its new code -- UpdateEntry() calls it then.  It was written with
+				the backups until 11 November 2026, and an update refused after
+				that left reservations for paths the entry still held.
+			*/
 
-		public function BackupRecordChange($args) {
-			$backup_insert_args = [
-				'type'=>'RecordChange',
-				'definition'=>[
-					'Entryid'=>$args['entryid'],
-					'Userid'=>$this->authentication_object->user_session['id'],
-					'RecordField'=>$args['field'],
-					'Recordid'=>$args['recordid'],
-					'RecordType'=>$args['type'],
-					'OldValue'=>$args['oldvalue'],
-				],
-			];
-
-			$backup = $this->db_access_object->CreateRecord($backup_insert_args);
-
-			if(!is_array($backup) || !empty($backup['line'])) {
-				$this->errors[] = ['The old ' . $args['type'] . ' could not be backed up, so nothing was changed.'];
-
-				return FALSE;
+		public function ReserveOldEntryCode() {
+			if(!$this->UpdatesInPlace() || $this->entry['Code'] === $this->entry_unset['Code']) {
+				return TRUE;
 			}
 
-			return TRUE;
+			return $this->BackupEntryCodeReservation(['entry'=>$this->entry, 'old_entry'=>$this->entry_unset, 'record_list'=>$this->record_list]);
+		}
+
+			/*
+				One RecordChange row, as CreateRecord() takes its definition.
+				Nothing is written here: a verb gathers every row it will need
+				first and hands them all to WriteRecordChanges().
+			*/
+
+		public function RecordChangeRow($args) {
+			return [
+				'Entryid'=>$args['entryid'],
+				'Userid'=>$this->authentication_object->user_session['id'],
+				'RecordField'=>$args['field'],
+				'Recordid'=>$args['recordid'],
+				'RecordType'=>$args['type'],
+				'OldValue'=>$args['oldvalue'],
+			];
 		}
 
 			/*
@@ -138,7 +140,7 @@
 				ORM hung on it is filed as records of its own, or not at all.
 			*/
 
-		public function BackupWholeRecord($args) {
+		public function WholeRecordChange($args) {
 			$record = [];
 
 			foreach((array)$args['record'] as $field => $value) {
@@ -147,7 +149,7 @@
 				}
 			}
 
-			return $this->BackupRecordChange([
+			return $this->RecordChangeRow([
 				'entryid'=>$args['entryid'],
 				'field'=>'*',
 				'recordid'=>isset($record['id']) ? (int)$record['id'] : 0,
@@ -157,19 +159,72 @@
 		}
 
 			/*
+				Every backup a verb needs, or none.  The rows are written in
+				turn; if one cannot be -- a table that cannot hold the text, as
+				RecordChange in latin1 could not hold Japanese -- those already
+				written are deleted again, and FALSE stops the verb before it
+				changes anything.  A refused update leaves no trace of having
+				been tried.
+			*/
+
+		public function WriteRecordChanges($args) {
+			$written = [];
+
+			foreach($args['rows'] as $row) {
+				$backup = $this->db_access_object->CreateRecord([
+					'type'=>'RecordChange',
+					'definition'=>$row,
+				]);
+
+				if(!is_array($backup) || !empty($backup['line']) || empty($backup['id'])) {
+					$this->errors[] = ['The old ' . $row['RecordType'] . ' could not be backed up, so nothing was changed.'];
+
+					$this->UnwriteRecordChanges(['ids'=>$written]);
+
+					return FALSE;
+				}
+
+				$written[] = (int)$backup['id'];
+			}
+
+			return TRUE;
+		}
+
+		public function UnwriteRecordChanges($args) {
+			$ids = $args['ids'];
+
+			if(!count($ids)) {
+				return TRUE;
+			}
+
+			$undone = $this->db_access_object->DeleteRecords([
+				'type'=>'RecordChange',
+				'where'=>'id IN (' . implode(', ', array_fill(0, count($ids), '?')) . ')',
+				'sqlbindstring'=>str_repeat('i', count($ids)),
+				'wherevalues'=>$ids,
+			]);
+
+			if(is_array($undone) && !empty($undone['line'])) {
+				$this->errors[] = ['And the ' . count($ids) . ' backup(s) already written could not be taken back: RecordChange ids ' . implode(', ', $ids) . '.'];
+
+				return FALSE;
+			}
+
+			return TRUE;
+		}
+
+			/*
 				Everything a delete is about to remove, filed whole first: the
 				entry, each of its child records, the Assignment that placed it
 				(as Parentid and Childid -- its own id is not read here), and
 				the associations other entries made to it, which
-				DeleteChosenAssociations() removes with it.
+				DeleteChosenAssociations() removes with it.  All of it, or none.
 			*/
 
 		public function BackupDeletedEntry() {
 			$entryid = $this->entry['id'];
 
-			if(!$this->BackupWholeRecord(['entryid'=>$entryid, 'type'=>'Entry', 'record'=>$this->entry])) {
-				return FALSE;
-			}
+			$rows = [$this->WholeRecordChange(['entryid'=>$entryid, 'type'=>'Entry', 'record'=>$this->entry])];
 
 			foreach($this->GetRecordTypes() as $formal_type => $variable_name) {
 				if($variable_name === 'entry' || !is_array($this->$variable_name)) {
@@ -181,17 +236,13 @@
 						continue;
 					}
 
-					if(!$this->BackupWholeRecord(['entryid'=>$entryid, 'type'=>$formal_type, 'record'=>$record])) {
-						return FALSE;
-					}
+					$rows[] = $this->WholeRecordChange(['entryid'=>$entryid, 'type'=>$formal_type, 'record'=>$record]);
 				}
 			}
 
 			$parentid = ($this->parent && isset($this->parent['id'])) ? $this->parent['id'] : 0;
 
-			if(!$this->BackupWholeRecord(['entryid'=>$entryid, 'type'=>'Assignment', 'record'=>['Parentid'=>$parentid, 'Childid'=>$entryid]])) {
-				return FALSE;
-			}
+			$rows[] = $this->WholeRecordChange(['entryid'=>$entryid, 'type'=>'Assignment', 'record'=>['Parentid'=>$parentid, 'Childid'=>$entryid]]);
 
 			$chosen_associations = $this->orm->GetChosenAssociations(['entry'=>$this->entry]);
 
@@ -202,12 +253,10 @@
 			}
 
 			foreach($chosen_associations as $association) {
-				if(!$this->BackupWholeRecord(['entryid'=>$entryid, 'type'=>'Association', 'record'=>$association])) {
-					return FALSE;
-				}
+				$rows[] = $this->WholeRecordChange(['entryid'=>$entryid, 'type'=>'Association', 'record'=>$association]);
 			}
 
-			return TRUE;
+			return $this->WriteRecordChanges(['rows'=>$rows]);
 		}
 		
 		public function DetectChangedRecords($args) {

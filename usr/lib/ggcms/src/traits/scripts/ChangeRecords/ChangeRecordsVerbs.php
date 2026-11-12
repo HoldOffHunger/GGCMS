@@ -147,6 +147,7 @@
 
 					if($this->BackupOldRecord()) {
 						if($this->SaveRecordFromQueryForUpdate()) {
+							$this->ReserveOldEntryCode();		# the entry is under its new code now, so the old one can be reserved
 							$this->FormatSavedRecordFromQueryForAll();
 							if($this->DeleteChildRecordsForUpdate()) {
 								$this->saveattemptresults = TRUE;
