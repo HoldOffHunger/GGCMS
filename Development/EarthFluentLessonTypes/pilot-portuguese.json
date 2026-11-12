@@ -1,0 +1,103 @@
+{
+	"language": "portuguese",
+	"translation_language": "pt",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Brazilian Portuguese, as the course is: ônibus, cachorro, você.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Nasal Sounds, Part 1",
+			"description": "A tilde sends the vowel through the nose. Hear it in pão, mãe, não, and irmã.",
+			"words": [["Bread", "pão"], ["Mother", "mãe"], ["No", "não"], ["Sister", "irmã"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Nh and Lh, Part 1",
+			"description": "Nh sounds like the ny in canyon, and lh like the lli in million. Hear vinho, amanhã, filho, and trabalho.",
+			"words": [["Wine", "vinho"], ["Tomorrow", "amanhã"], ["Son", "filho"], ["Work", "trabalho"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Letter Ç, Part 1",
+			"description": "A ç is always a soft s and never a k. Hear it in açúcar, coração, cabeça, and almoço.",
+			"words": [["Sugar", "açúcar"], ["Heart", "coração"], ["Head", "cabeça"], ["Lunch", "almoço"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Accent Marks, Part 1",
+			"description": "An accent mark can be the only thing that tells two words apart. Compare e with é, and avó with avô.",
+			"words": [["And", "e"], ["Is", "é"], ["Grandmother", "avó"], ["Grandfather", "avô"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb ir, to go, changes to say who is going. Spot what changes, and what você and ela share: vou, vai, vai, vamos.",
+			"words": [["I go", "eu vou"], ["You go", "você vai"], ["She goes", "ela vai"], ["We go", "nós vamos"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 2",
+			"description": "More of ir, to go: for all of you, for them, for \"let's\", and for what you are about to do.",
+			"words": [["You all go", "vocês vão"], ["They go", "eles vão"], ["Let's go!", "Vamos!"], ["I am going to eat", "Vou comer"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "For more than one, the word gains an s, and so does its \"the\": o becomes os, and a becomes as.",
+			"words": [["The dog", "o cachorro"], ["The dogs", "os cachorros"], ["The house", "a casa"], ["The houses", "as casas"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Words That Match, Part 1",
+			"description": "A describing word matches the thing it describes: vermelho with o carro, vermelha with a casa. Spot the ending that changes.",
+			"words": [["The red car", "o carro vermelho"], ["The red house", "a casa vermelha"], ["The tall boy", "o menino alto"], ["The tall girl", "a menina alta"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "A Portuguese question usually has the same words in the same order as the statement. Only the voice rises.",
+			"words": [["You speak Portuguese.", "Você fala português."], ["Do you speak Portuguese?", "Você fala português?"], ["This is the bus to São Paulo.", "Este é o ônibus para São Paulo."], ["Is this the bus to São Paulo?", "Este é o ônibus para São Paulo?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put não in front of the verb. Nothing else in the sentence changes.",
+			"words": [["I speak Portuguese.", "Eu falo português."], ["I do not speak Portuguese.", "Eu não falo português."], ["I am tired.", "Estou cansado."], ["I am not tired.", "Não estou cansado."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In Portuguese it usually comes after: uma casa branca.",
+			"words": [["A white house", "uma casa branca"], ["A black cat", "um gato preto"], ["A big city", "uma cidade grande"], ["A new book", "um livro novo"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Two Words for Is, Part 1",
+			"description": "Portuguese has two words for is: é for what something is like by nature, and está for how it is right now.",
+			"words": [["She is tall.", "Ela é alta."], ["She is tired.", "Ela está cansada."], ["The house is white.", "A casa é branca."], ["The house is clean.", "A casa está limpa."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb ir, to go, at work in whole sentences. Spot vou, vamos, vai, and vão.",
+			"words": [["I am going to the market.", "Vou ao mercado."], ["We are going to the beach.", "Vamos à praia."], ["Are you going to the party?", "Você vai à festa?"], ["They are going to Brazil.", "Eles vão para o Brasil."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. Spot what the answer keeps from the question, and what it changes.",
+			"words": [["Do you have a car?", "Você tem um carro?"], ["Yes, I have a car.", "Sim, eu tenho um carro."], ["Do you speak English?", "Você fala inglês?"], ["No, I do not speak English.", "Não, eu não falo inglês."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "Describing words matching what they describe, in whole sentences: branca, vermelhos, alta, pequenos.",
+			"words": [["The house is white.", "A casa é branca."], ["The cars are red.", "Os carros são vermelhos."], ["The girl is tall.", "A menina é alta."], ["The dogs are small.", "Os cachorros são pequenos."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways: already done, happening now, and still to come.",
+			"words": [["I went to the market yesterday.", "Ontem fui ao mercado."], ["I am going to the market today.", "Hoje vou ao mercado."], ["I will go to the market tomorrow.", "Amanhã irei ao mercado."], ["I am going tomorrow.", "Vou amanhã."]]
+		}
+	]
+}

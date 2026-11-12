@@ -1,0 +1,103 @@
+{
+	"language": "french",
+	"translation_language": "fr",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Vocabulary follows the course: autobus, voiture.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Silent Last Letters, Part 1",
+			"description": "The last consonant of a French word is usually written and not said. Listen for what is missing in petit, grand, Paris, and beaucoup.",
+			"words": [["Small", "petit"], ["Big", "grand"], ["Paris", "Paris"], ["A lot", "beaucoup"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Nasal Vowels, Part 1",
+			"description": "Before an n or an m, the vowel is said through the nose and the n itself is not said. Hear vin, vent, bon, and pain.",
+			"words": [["Wine", "vin"], ["Wind", "vent"], ["Good", "bon"], ["Bread", "pain"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The French U, Part 1",
+			"description": "French has two sounds where English has one: the ou of vous, and the tighter u of tu. Hear tout against tu, and vous against vu.",
+			"words": [["All", "tout"], ["You", "tu"], ["You all", "vous"], ["Seen", "vu"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Accent Marks, Part 1",
+			"description": "An accent mark can be the only thing that tells two words apart. Compare ou with où, and a with à.",
+			"words": [["Or", "ou"], ["Where", "où"], ["Has", "a"], ["At", "à"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb aller, to go, changes to say who is going. Spot what changes: vais, vas, va, allons.",
+			"words": [["I go", "je vais"], ["You go", "tu vas"], ["She goes", "elle va"], ["We go", "nous allons"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 2",
+			"description": "More of aller, to go: for all of you, for them, for \"let's\", and for what you are about to do.",
+			"words": [["You all go", "vous allez"], ["They go", "ils vont"], ["Let's go!", "Allons-y !"], ["I am going to eat", "Je vais manger"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "For more than one, the word gains an s that is written and not said, and le or la becomes les. It is les that you hear.",
+			"words": [["The dog", "le chien"], ["The dogs", "les chiens"], ["The house", "la maison"], ["The houses", "les maisons"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Words That Match, Part 1",
+			"description": "A describing word matches the thing it describes: petit with le garçon, petite with la fille. The added e brings the silent last letter back to life.",
+			"words": [["The small boy", "le petit garçon"], ["The small girl", "la petite fille"], ["The green book", "le livre vert"], ["The green car", "la voiture verte"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "Put est-ce que in front of a statement and it becomes a question. Nothing else moves.",
+			"words": [["You speak French.", "Tu parles français."], ["Do you speak French?", "Est-ce que tu parles français ?"], ["This is the bus to Paris.", "C'est l'autobus pour Paris."], ["Is this the bus to Paris?", "Est-ce que c'est l'autobus pour Paris ?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "No takes two words in French, one on each side of the verb: ne before it, and pas after it.",
+			"words": [["I speak French.", "Je parle français."], ["I do not speak French.", "Je ne parle pas français."], ["I am tired.", "Je suis fatigué."], ["I am not tired.", "Je ne suis pas fatigué."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In French it usually comes after: une maison blanche.",
+			"words": [["A white house", "une maison blanche"], ["A black cat", "un chat noir"], ["A red car", "une voiture rouge"], ["A French book", "un livre français"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - A Few Describing Words Come First, Part 1",
+			"description": "A handful of everyday describing words, for size, goodness, and beauty, come before the thing instead of after it.",
+			"words": [["A small town", "une petite ville"], ["A big city", "une grande ville"], ["A good book", "un bon livre"], ["A beautiful house", "une belle maison"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb aller, to go, at work in whole sentences. Spot vais, allons, vas, and vont.",
+			"words": [["I am going to the market.", "Je vais au marché."], ["We are going to the beach.", "Nous allons à la plage."], ["Are you going to the party?", "Est-ce que tu vas à la fête ?"], ["They are going to Paris.", "Ils vont à Paris."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. The answer drops est-ce que, and a no adds ne and pas.",
+			"words": [["Do you have a car?", "Est-ce que tu as une voiture ?"], ["Yes, I have a car.", "Oui, j'ai une voiture."], ["Do you speak English?", "Est-ce que tu parles anglais ?"], ["No, I do not speak English.", "Non, je ne parle pas anglais."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "Describing words matching what they describe, in whole sentences: blanche, rouges, grande, petits.",
+			"words": [["The house is white.", "La maison est blanche."], ["The cars are red.", "Les voitures sont rouges."], ["The girl is tall.", "La fille est grande."], ["The dogs are small.", "Les chiens sont petits."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways: already done, happening now, and still to come.",
+			"words": [["I went to the market yesterday.", "Hier, je suis allé au marché."], ["I am going to the market today.", "Aujourd'hui, je vais au marché."], ["I will go to the market tomorrow.", "Demain, j'irai au marché."], ["I am going to go tomorrow.", "Je vais y aller demain."]]
+		}
+	]
+}

@@ -1,0 +1,103 @@
+{
+	"language": "italian",
+	"translation_language": "it",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Vocabulary follows the course: auto, autobus.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Double Letters, Part 1",
+			"description": "A doubled consonant is held longer, and it changes the word. Hear pala against palla, and caro against carro.",
+			"words": [["Shovel", "pala"], ["Ball", "palla"], ["Dear", "caro"], ["Cart", "carro"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Letters C and G, Part 1",
+			"description": "C and G are hard before a, o, and u, and soft before e and i. Hear casa against cena, and gatto against gelato.",
+			"words": [["House", "casa"], ["Dinner", "cena"], ["Cat", "gatto"], ["Ice cream", "gelato"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Gn and Gli, Part 1",
+			"description": "Gn sounds like the ny in canyon, and gli like the lli in million. Hear bagno, gnocchi, figlio, and famiglia.",
+			"words": [["Bathroom", "bagno"], ["Gnocchi", "gnocchi"], ["Son", "figlio"], ["Family", "famiglia"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Accent Marks, Part 1",
+			"description": "An accent mark can be the only thing that tells two words apart. Compare e with è, and la with là.",
+			"words": [["And", "e"], ["Is", "è"], ["The", "la"], ["There", "là"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb andare, to go, changes to say who is going. Spot what changes: vado, vai, va, andiamo.",
+			"words": [["I go", "vado"], ["You go", "vai"], ["She goes", "va"], ["We go", "andiamo"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 2",
+			"description": "More of andare, to go: for all of you, for them, for \"let's\", and for what you are off to do.",
+			"words": [["You all go", "andate"], ["They go", "vanno"], ["Let's go!", "Andiamo!"], ["I am going to eat", "Vado a mangiare"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "For more than one, the last vowel changes, and so does the word for the: il cane becomes i cani, and la casa becomes le case.",
+			"words": [["The dog", "il cane"], ["The dogs", "i cani"], ["The house", "la casa"], ["The houses", "le case"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Words That Match, Part 1",
+			"description": "A describing word matches the thing it describes: rosso with il libro, rossa with la casa. Spot the ending that changes.",
+			"words": [["The red book", "il libro rosso"], ["The red house", "la casa rossa"], ["The tall boy", "il ragazzo alto"], ["The tall girl", "la ragazza alta"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "An Italian question usually has the same words in the same order as the statement. Only the voice rises.",
+			"words": [["You speak Italian.", "Parli italiano."], ["Do you speak Italian?", "Parli italiano?"], ["This is the bus to Rome.", "Questo è l'autobus per Roma."], ["Is this the bus to Rome?", "Questo è l'autobus per Roma?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put non in front of the verb. Nothing else in the sentence changes.",
+			"words": [["I speak Italian.", "Parlo italiano."], ["I do not speak Italian.", "Non parlo italiano."], ["I am tired.", "Sono stanco."], ["I am not tired.", "Non sono stanco."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In Italian it usually comes after: una casa bianca.",
+			"words": [["A white house", "una casa bianca"], ["A black cat", "un gatto nero"], ["A red car", "un'auto rossa"], ["An Italian book", "un libro italiano"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Leaving Out I and You, Part 1",
+			"description": "The verb's ending already says who is doing it, so Italian usually leaves out I, you, we, and they.",
+			"words": [["I eat.", "Mangio."], ["You eat.", "Mangi."], ["We eat.", "Mangiamo."], ["They eat.", "Mangiano."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb andare, to go, at work in whole sentences. Spot vado, andiamo, vai, and vanno.",
+			"words": [["I am going to the market.", "Vado al mercato."], ["We are going to the beach.", "Andiamo in spiaggia."], ["Are you going to the party?", "Vai alla festa?"], ["They are going to Rome.", "Vanno a Roma."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. Spot what the answer keeps from the question, and what it changes.",
+			"words": [["Do you have a car?", "Hai un'auto?"], ["Yes, I have a car.", "Sì, ho un'auto."], ["Do you speak English?", "Parli inglese?"], ["No, I do not speak English.", "No, non parlo inglese."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "Describing words matching what they describe, in whole sentences: bianca, rosse, alta, piccoli.",
+			"words": [["The house is white.", "La casa è bianca."], ["The cars are red.", "Le auto sono rosse."], ["The girl is tall.", "La ragazza è alta."], ["The dogs are small.", "I cani sono piccoli."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways: already done, happening now, and still to come.",
+			"words": [["I went to the market yesterday.", "Ieri sono andato al mercato."], ["I am going to the market today.", "Oggi vado al mercato."], ["I will go to the market tomorrow.", "Domani andrò al mercato."], ["I am going there tomorrow.", "Ci vado domani."]]
+		}
+	]
+}
