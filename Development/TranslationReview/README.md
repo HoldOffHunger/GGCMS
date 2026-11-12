@@ -31,6 +31,8 @@ Waves shipped:
 | Russian | 9 November 2026 | 156 | `/updates/translations-corrected-in-seven-languages/` |
 | Polish | 9 November 2026 | 554 | `/updates/translations-corrected-in-seven-languages/` |
 | Spanish (second) | 10 November 2026 | 172 | not yet announced |
+| Japanese | 11 November 2026 | 714 | not yet announced |
+| Chinese | 11 November 2026 | 390 | not yet announced |
 
 The 9 November wave was five languages at once: 1,853 suspects from the local models, of which Claude confirmed or
 corrected 1,686, set aside 107 as false alarms or not worth the change, and dropped 60 whose proposal was the current
@@ -45,7 +47,7 @@ untranslated batch between ids 9700 and 10400 was read in full and 25 more rows 
 171 records, plus the four left proposed from the first wave. Three of those four are `structural` and are not
 written, so the wave changes 172 rows.
 
-Japanese, recorded 11 November 2026 and not yet shipped: 431 suspects, of which Claude confirmed 283, corrected 116,
+Japanese, shipped 11 November 2026: 431 suspects, of which Claude confirmed 283, corrected 116,
 and set 32 aside (false alarms, proposals that were the current text, one row already mended, one with no lesson).
 Three runs had one value copied down over everything below it -- `B-ムービー` over the Sports lesson, `マックラーカー`
 over 38 Politics rows, `ローマ、イタリア` over four capitals -- and the models flagged every row of them. What they
@@ -56,7 +58,7 @@ people. Those, the same stray value on several rows (`〜する`, `厄介な`, `
 or languages, and the Numbers lesson -- written in figures, kanji, and with counters left on (`18才`, `80人`), now in
 kanji throughout -- added 315 records, so 714.
 
-Chinese, recorded the same day and not yet shipped: 326 suspects, of which Claude confirmed 194, corrected 106, and set
+Chinese, shipped the same day: 326 suspects, of which Claude confirmed 194, corrected 106, and set
 26 aside. Chinese had no copied-down runs; its batch fault was the English of the row above glued onto a translation
 (`enterarrive`, `rc racingsailing`, Baghdad as `中国香港巴格达伊拉克`), and every such row was found. What the models
 passed over was one word standing for several English ones: `看` (to look) for a wristwatch, `法案` (a parliamentary
@@ -67,6 +69,12 @@ The same pass found the find-and-replace of 10 November had reached the Ethnicit
 own language over other nationalities in ten courses and over Hindi in two Languages lessons. 35 rows, English title,
 translation and URL code together, are in `repairs/2026-11-11-ethnicity-slot-repair.sql`; those rows are not in any
 language's store.
+
+These three were the first to ship through `import_entries.php` rather than `apply_translation_review.php` or a hand-run
+`.sql`: one file of 1,139 rows, each guarded by `Current_` columns, so every old value is in `RecordChange` and every
+renamed code reserved by the belt. The repair `.sql` is kept as the record of what the rows were and are; it was not
+itself run. Fumiko over prod's dump of that evening, warmed (72,376 pages), swapped in under the checksum guard with the
+pages.
 
 A `structural` record is skipped by `apply_translation_review.php`, so a model's `structural` that is really a plain
 fix (a number written in pieces, `zweitausend, sechzehn`) is recorded as `orthography` instead.

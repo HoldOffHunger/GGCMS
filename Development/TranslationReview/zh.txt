@@ -15,7 +15,7 @@ kind: untranslated
 reason: 格比尔 is a phonetic transliteration that is not the standard term; the common Chinese word for gerbil is 沙鼠.
 source: Wiktionary (Chinese), s.v. "沙鼠": noun: gerbil; jird
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 450
 entryid: 588
@@ -29,7 +29,7 @@ kind: wrong-word
 reason: 土狼 refers to an aardwolf, whereas the correct term for a coyote is 郊狼.
 source: Wiktionary (Chinese), s.v. "郊狼": noun: coyote (Canis latrans, a species of canine native to North America)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 457
 entryid: 597
@@ -43,7 +43,7 @@ kind: untranslated
 reason: 曼塔雷 is a transliteration; the manta ray is 蝠鲼 (the models' 魔鬼魚 is colloquial, and traditional script).
 source: Wiktionary (Chinese), s.v. "蝠鲼"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 464
 entryid: 605
@@ -57,7 +57,7 @@ kind: wrong-word
 reason: The character '鹈' is only the first part of the word; the full word for pelican is '鹈鹕'.
 source: Wiktionary (Chinese), s.v. "鹈鹕"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 480
 entryid: 625
@@ -71,7 +71,7 @@ kind: wrong-word
 reason: The character '蝎' is the root, but '蝎子' is the standard noun used to refer to a scorpion.
 source: Wiktionary (Chinese), s.v. "蝎子"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3796
 entryid: 4805
@@ -85,7 +85,7 @@ kind: wrong-sense
 reason: 法案 is a parliamentary act; to act is 行动.
 source: Wiktionary (Chinese), s.v. "行动"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3811
 entryid: 4824
@@ -99,7 +99,7 @@ kind: wrong-sense
 reason: 电梯 is a lift you ride in; to lift is 举起.
 source: Wiktionary (Chinese), s.v. "举起"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3832
 entryid: 4851
@@ -113,7 +113,7 @@ kind: wrong-class
 reason: 包 is a bag, the noun; to pack is 打包.
 source: Wiktionary (Chinese), s.v. "打包": verb: to pack (an object); to put food in a takeaway box; to put leftovers in a doggy bag or to order food as takeaway; to unpack (a box)
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 3851
 entryid: 4874
@@ -127,7 +127,7 @@ kind: wrong-word
 reason: 安息 is 'rest in peace', RIP; to rip is 撕裂.
 source: Wiktionary (Chinese), s.v. "撕裂": verb: to rip; to tear
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3894
 entryid: 4928
@@ -141,7 +141,7 @@ kind: wrong-sense
 reason: The Chinese word '输入' refers to data input, whereas the lesson requires the word for physically entering a space.
 source: Wiktionary (Chinese), s.v. "进入"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3895
 entryid: 4929
@@ -155,7 +155,7 @@ kind: corrupt
 reason: The English of the row above was glued onto the translation.
 source: Wiktionary (Chinese), s.v. "到达"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3914
 entryid: 4953
@@ -169,7 +169,7 @@ kind: wrong-sense
 reason: 途径 refers to a route or method, whereas the verb 'to approach' (moving closer) should be 接近.
 source: Wiktionary (Chinese), s.v. "接近": verb: to approach; to get close to; to draw near; to be similar (to); to be analogous (to)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3949
 entryid: 4997
@@ -183,7 +183,7 @@ kind: wrong-form
 reason: The translation includes 'please' (请) and is a polite command, whereas the lesson requires the base verb for 'to enjoy'.
 source: Wiktionary (Chinese), s.v. "享受": verb: to enjoy; to relish; to delight in
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3950
 entryid: 4999
@@ -197,7 +197,7 @@ kind: wrong-word
 reason: The Chinese word provided means 'Miss' (a title for a woman), whereas the lesson requires the verb 'to miss' (to feel longing).
 source: Wiktionary (Chinese), s.v. "想念": verb: to miss; to think of; to yearn for; to reminisce
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3953
 entryid: 5002
@@ -211,7 +211,7 @@ kind: corrupt
 reason: The English of the row above was glued onto the translation. Among emotional activities, to commit is 承诺 (the models' 犯罪 is to commit a crime).
 source: Wiktionary (Chinese), s.v. "承诺"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3967
 entryid: 5020
@@ -225,7 +225,7 @@ kind: wrong-form
 reason: The character '叹' is a verb root that is almost always used as part of the compound '叹气' to mean 'to sigh'.
 source: Wiktionary (Chinese), s.v. "叹气"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3987
 entryid: 5045
@@ -239,7 +239,7 @@ kind: wrong-sense
 reason: 天生 describes an innate quality or trait, whereas the English word 'born' in this context refers to the act of being brought into life, which is 出生.
 source: Wiktionary (Chinese), s.v. "出生": verb: to be born; to lay down one's own life; to give up one's own life
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3990
 entryid: 5049
@@ -253,7 +253,7 @@ kind: wrong-sense
 reason: The Chinese word provided means 'to go on strike' (labor action), but the lesson requires the physical action of hitting something.
 source: Wiktionary (Chinese), s.v. "打击"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 3996
 entryid: 5057
@@ -267,7 +267,7 @@ kind: wrong-class
 reason: 明确 is explicit, an adjective; to clear is 清理.
 source: Wiktionary (Chinese), s.v. "清理": verb: to clean; to tidy up; to arrange; to deal with; to handle; to clear (accounts); to settle; to liquidate
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 4001
 entryid: 5063
@@ -281,7 +281,7 @@ kind: wrong-class
 reason: 连衣裙 is a dress, the garment; to dress is 穿衣.
 source: Wiktionary (Chinese), s.v. "穿衣": verb: to put on clothes; to dress; to wear clothes
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4006
 entryid: 5069
@@ -295,7 +295,7 @@ kind: wrong-sense
 reason: The Chinese word '行使' is used for exercising rights or power, while '锻炼' is used for physical exercise.
 source: Wiktionary (Chinese), s.v. "锻炼"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4021
 entryid: 5088
@@ -309,7 +309,7 @@ kind: wrong-sense
 reason: 种族 is a race of people; to race, as a physical activity, is 赛跑.
 source: Wiktionary (Chinese), s.v. "赛跑"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4030
 entryid: 5099
@@ -323,7 +323,7 @@ kind: wrong-word
 reason: 滑车 is a pulley block; to tackle, as a physical activity, is 擒抱 (the models' 处理 is to tackle a problem).
 source: Wiktionary (Chinese), s.v. "擒抱"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4036
 entryid: 5107
@@ -337,7 +337,7 @@ kind: wrong-sense
 reason: The word '耸' describes something towering or rising high, whereas '耸肩' is the specific term for shrugging one's shoulders.
 source: Wiktionary (Chinese), s.v. "耸肩"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4037
 entryid: 5108
@@ -351,7 +351,7 @@ kind: wrong-word
 reason: 块 is a lump; to block is 阻挡.
 source: Wiktionary (Chinese), s.v. "阻挡"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4043
 entryid: 5116
@@ -365,7 +365,7 @@ kind: wrong-word
 reason: 紧急 is an emergency; to crash is 碰撞.
 source: Wiktionary (Chinese), s.v. "碰撞": verb: to collide; to run into; to hit; to impact; to offend; to hurt; to affront
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4045
 entryid: 5118
@@ -379,7 +379,7 @@ kind: wrong-sense
 reason: 龙头 is a tap you turn; to tap is 轻拍.
 source: Wiktionary (Chinese), s.v. "轻拍"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4064
 entryid: 5144
@@ -393,7 +393,7 @@ kind: wrong-word
 reason: The Chinese word provided means 'miracle' (a noun), but the lesson requires a verb meaning 'to wonder' (to be curious).
 source: Wiktionary (Chinese), s.v. "想知道"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4074
 entryid: 5156
@@ -407,7 +407,7 @@ kind: wrong-form
 reason: 注意 is to pay attention; to notice is 注意到.
 source: Wiktionary (Chinese), s.v. "注意到"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 4082
 entryid: 5166
@@ -421,7 +421,7 @@ kind: wrong-class
 reason: 目标 is a target, the noun; to aim is 瞄准.
 source: Wiktionary (Chinese), s.v. "瞄准"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 4139
 entryid: 5238
@@ -435,7 +435,7 @@ kind: wrong-class
 reason: The English word 'lie' is a verb, but the Chinese translation '谎言' is a noun meaning 'a lie'.
 source: Wiktionary (Chinese), s.v. "撒谎"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4140
 entryid: 5239
@@ -449,7 +449,7 @@ kind: wrong-sense
 reason: 要求 is to request; to claim is 声称.
 source: Wiktionary (Chinese), s.v. "声称"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 4159
 entryid: 5263
@@ -463,7 +463,7 @@ kind: wrong-sense
 reason: The Chinese word provided means 'garbage' or 'trash', whereas the lesson requires a verb meaning 'to decline' or 'to say no'.
 source: Wiktionary (Chinese), s.v. "拒绝"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4160
 entryid: 5264
@@ -477,7 +477,7 @@ kind: wrong-sense
 reason: 州 is a province or a US state; to state is 陈述.
 source: Wiktionary (Chinese), s.v. "陈述"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 4166
 entryid: 5272
@@ -491,7 +491,7 @@ kind: wrong-class
 reason: 需求 is demand, the noun; to demand is 要求.
 source: Wiktionary (Chinese), s.v. "要求": verb: to ask; to request; to require; to demand; to claim
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 4170
 entryid: 5277
@@ -505,7 +505,7 @@ kind: corrupt
 reason: The English of the row above was glued onto the translation. To order someone is 命令 (the models' 点菜 is ordering food only).
 source: Wiktionary (Chinese), s.v. "命令": noun: order; command; directive
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4190
 entryid: 5303
@@ -519,7 +519,7 @@ kind: wrong-sense
 reason: 意味着 means 'to mean' or 'to signify', whereas 'imply' in the sense of suggesting something indirectly is 暗示.
 source: Wiktionary (Chinese), s.v. "暗示": verb: to hint at; to drop a hint; to imply
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4221
 entryid: 5343
@@ -533,7 +533,7 @@ kind: wrong-sense
 reason: The Chinese word '日期' refers to a calendar date, while the lesson context requires the word for a romantic date or social outing.
 source: Wiktionary (Chinese), s.v. "约会"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4237
 entryid: 5363
@@ -547,7 +547,7 @@ kind: wrong-sense
 reason: 访问 means to visit a place or website, while 面试 is the correct word for a job interview.
 source: Wiktionary (Chinese), s.v. "面试"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4238
 entryid: 5365
@@ -561,7 +561,7 @@ kind: wrong-sense
 reason: The English word 'remark' as a verb means to say something, while '备注' refers to a written note or annotation in a document.
 source: Wiktionary (Chinese), s.v. "评论"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4241
 entryid: 5368
@@ -575,7 +575,7 @@ kind: wrong-class
 reason: 自由 is freedom, the noun; to free is 释放.
 source: Wiktionary (Chinese), s.v. "释放"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 4273
 entryid: 5409
@@ -589,7 +589,7 @@ kind: wrong-sense
 reason: The Chinese word 采用 means 'to adopt' or 'to use,' whereas the lesson requires the word for 'to hire' or 'to employ' a person.
 source: Wiktionary (Chinese), s.v. "雇用"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 4279
 entryid: 5417
@@ -603,7 +603,7 @@ kind: wrong-word
 reason: The Chinese word '给予' means 'to give' or 'to bestow,' which is not the correct translation for the economic sense of 'afford'.
 source: Wiktionary (Chinese), s.v. "负担得起"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 19801
 entryid: 24884
@@ -617,7 +617,7 @@ kind: wrong-sense
 reason: The Chinese word '性质' refers to the properties or characteristics of an object, whereas '自然' is the word for the natural world.
 source: Wiktionary (Chinese), s.v. "自然": noun: nature; the natural world
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 19811
 entryid: 24897
@@ -631,7 +631,7 @@ kind: wrong-sense
 reason: The word '失利' refers specifically to a loss in a competition or disadvantage, whereas '损失' is the standard noun for a general loss (of money, property, or life).
 source: Wiktionary (Chinese), s.v. "损失"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 19817
 entryid: 24904
@@ -645,7 +645,7 @@ kind: wrong-sense
 reason: The word 性能 refers specifically to the technical specifications or capabilities of a machine, whereas 'performance' in a general sense (like a human's performance or a show) is 表现.
 source: Wiktionary (Chinese), s.v. "表现"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 19839
 entryid: 24932
@@ -659,7 +659,7 @@ kind: wrong-class
 reason: 看 is to look, the verb; a look is 样子.
 source: Wiktionary (Chinese), s.v. "样子"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 19842
 entryid: 24935
@@ -673,7 +673,7 @@ kind: wrong-word
 reason: 师 is an army division; a division among concepts is 划分 (the models' 除法 is arithmetic).
 source: Wiktionary (Chinese), s.v. "划分"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 19874
 entryid: 24975
@@ -687,7 +687,7 @@ kind: wrong-sense
 reason: The Chinese word '行使' is used for exercising legal rights or power, while '锻炼' is used for physical exercise.
 source: Wiktionary (Chinese), s.v. "锻炼"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 19897
 entryid: 25005
@@ -701,7 +701,7 @@ kind: wrong-sense
 reason: 出现 is to turn up; an appearance is 外表.
 source: Wiktionary (Chinese), s.v. "外表": noun: appearance; exterior; look
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 19958
 entryid: 25081
@@ -715,7 +715,7 @@ kind: wrong-word
 reason: The character '惊' is a verb or adjective meaning 'to startle,' whereas '惊喜' is the standard noun for 'a surprise'.
 source: Wiktionary (Chinese), s.v. "惊喜"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 19963
 entryid: 25088
@@ -729,7 +729,7 @@ kind: wrong-word
 reason: The Chinese word '意见' means 'opinion,' whereas 'observation' (the act of watching) should be '观察'.
 source: Wiktionary (Chinese), s.v. "观察"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20018
 entryid: 25155
@@ -743,7 +743,7 @@ kind: wrong-sense
 reason: 透视 refers to artistic perspective or X-ray vision, whereas the lesson refers to a point of view or outlook.
 source: Wiktionary (Chinese), s.v. "观点"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20057
 entryid: 25205
@@ -757,7 +757,7 @@ kind: wrong-sense
 reason: The Chinese word provided means 'asphalt' (a substance), but the lesson refers to the musical or vocal 'pitch'.
 source: Wiktionary (Chinese), s.v. "音高": noun: pitch
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20058
 entryid: 25206
@@ -771,7 +771,7 @@ kind: wrong-class
 reason: The English word 'smell' is used as a noun in this context, but '闻' is a verb meaning 'to smell'.
 source: Wiktionary (Chinese), s.v. "气味"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20083
 entryid: 25237
@@ -785,7 +785,7 @@ kind: wrong-sense
 reason: 应变 is strain in engineering; strain on a person is 压力.
 source: Wiktionary (Chinese), s.v. "压力"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20129
 entryid: 25295
@@ -799,7 +799,7 @@ kind: wrong-sense
 reason: 站 is a station or to stand; a stand, among concepts, is 立场.
 source: Wiktionary (Chinese), s.v. "立场"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 20171
 entryid: 25347
@@ -813,7 +813,7 @@ kind: wrong-word
 reason: The Chinese word '积分' means 'points' (like loyalty points or scores), whereas 'integration' as a concept is '整合'.
 source: Wiktionary (Chinese), s.v. "整合": verb: to integrate
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20182
 entryid: 25361
@@ -827,7 +827,7 @@ kind: wrong-sense
 reason: The Chinese word provided refers to an electrical circuit breaker tripping, not a long narrow piece of material.
 source: Wiktionary (Chinese), s.v. "条"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20194
 entryid: 25376
@@ -841,7 +841,7 @@ kind: wrong-word
 reason: 紧急 is an emergency; a crash is 碰撞.
 source: Wiktionary (Chinese), s.v. "碰撞": verb: to collide; to run into; to hit; to impact; to offend; to hurt; to affront
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 20219
 entryid: 25407
@@ -855,7 +855,7 @@ kind: wrong-sense
 reason: The character '招' refers to beckoning or a martial arts move, whereas '把戏' is the standard word for a trick or deception.
 source: Wiktionary (Chinese), s.v. "把戏"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20227
 entryid: 25417
@@ -869,7 +869,7 @@ kind: wrong-form
 reason: The dictionary defines '失能' as a verb (to be incapacitated), but the lesson requires a noun for 'disability'.
 source: Wiktionary (Chinese), s.v. "残疾"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20246
 entryid: 25441
@@ -883,7 +883,7 @@ kind: wrong-word
 reason: 块 is a lump; bulk is 大量.
 source: Wiktionary (Chinese), s.v. "大量": adj: great amount of; large quantity of; large number of; a lot of; magnanimous; generous
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 20311
 entryid: 25522
@@ -897,7 +897,7 @@ kind: wrong-sense
 reason: 热情 refers to a person's enthusiasm or passion, whereas 温暖 is the word for physical or emotional warmth.
 source: Wiktionary (Chinese), s.v. "温暖"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20419
 entryid: 25657
@@ -911,7 +911,7 @@ kind: wrong-sense
 reason: The Chinese word 弹簧 refers to a mechanical spring, but the lesson requires the word for the season of spring.
 source: Wiktionary (Chinese), s.v. "春天": noun: spring (season); springtime; vitality; hope; prospects
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20493
 entryid: 25750
@@ -925,7 +925,7 @@ kind: wrong-word
 reason: The Chinese character '位' refers to a position or a polite measure word for people, not a 'bit' of something.
 source: Wiktionary (Chinese), s.v. "一点"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20589
 entryid: 25871
@@ -939,7 +939,7 @@ kind: wrong-word
 reason: While '相' can mean 'phase' in very specific contexts (like 'phase' of a moon or 'aspect'), '阶段' is the standard word for a stage or phase in a process.
 source: Wiktionary (Chinese), s.v. "阶段"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20627
 entryid: 25918
@@ -953,7 +953,7 @@ kind: wrong-word
 reason: The Chinese word for the unit of measurement 'meter' is '米', whereas '仪表' refers to a measuring instrument or a person's appearance.
 source: Wiktionary (Chinese), s.v. "米": character: hulled or husked uncooked rice (Classifier: 粒 m c mn; 顆／颗 m); husked seed; grain-like things
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20649
 entryid: 25945
@@ -967,7 +967,7 @@ kind: wrong-sense
 reason: The English word 'qualification' refers to a credential or skill, while '合格' refers to meeting a standard or passing a test.
 source: Wiktionary (Chinese), s.v. "资格"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20680
 entryid: 25984
@@ -981,7 +981,7 @@ kind: wrong-sense
 reason: The Chinese word '领域' refers to a field of study or area of activity, not a physical geometric sphere.
 source: Wiktionary (Chinese), s.v. "球体"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20685
 entryid: 25992
@@ -995,7 +995,7 @@ kind: wrong-sense
 reason: 人 is a person; a man is 男人.
 source: Wiktionary (Chinese), s.v. "男人": noun: man
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 20746
 entryid: 26068
@@ -1009,7 +1009,7 @@ kind: wrong-word
 reason: The character '亲' is an adjective meaning 'close' or 'dear' and is not the noun for 'parent'.
 source: Wiktionary (Chinese), s.v. "父母": noun: parents; mother and father; mum and dad; short for 父母官 (fùmǔguān)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20763
 entryid: 26089
@@ -1023,7 +1023,7 @@ kind: wrong-word
 reason: 导向器 refers to a technical 'guiding device' or 'orienter,' whereas the person in charge of a film or department is 导演 or 负责人.
 source: Wiktionary (Chinese), s.v. "导演"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20777
 entryid: 26107
@@ -1037,7 +1037,7 @@ kind: wrong-sense
 reason: 播放机 is a media player; a player, among people, is 选手.
 source: Wiktionary (Chinese), s.v. "选手"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20811
 entryid: 26149
@@ -1051,7 +1051,7 @@ kind: wrong-sense
 reason: The Chinese word 瞳孔 refers to the pupil of an eye, but the lesson is about people (students).
 source: Wiktionary (Chinese), s.v. "学生"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20827
 entryid: 26169
@@ -1065,7 +1065,7 @@ kind: wrong-word
 reason: The Chinese word '带' means a belt or to carry, while '乐队' is the correct word for a musical band.
 source: Wiktionary (Chinese), s.v. "乐队"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20886
 entryid: 26243
@@ -1079,7 +1079,7 @@ kind: wrong-word
 reason: The dictionary definition provided for '唇' is incorrect or refers to a different character; '嘴唇' is the standard word for 'lip'.
 source: Wiktionary (Chinese), s.v. "嘴唇"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20899
 entryid: 26260
@@ -1093,7 +1093,7 @@ kind: wrong-sense
 reason: 将 is the future marker 'will'; will, of a person, is 意志 (the models' 鹡 is a wagtail).
 source: Wiktionary (Chinese), s.v. "意志": noun: will; determination; volition; intent
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 20961
 entryid: 26336
@@ -1107,7 +1107,7 @@ kind: wrong-sense
 reason: The Chinese word '一般' means 'average' or 'general' as an adjective, but the noun for a military 'general' is '将军'.
 source: Wiktionary (Chinese), s.v. "将军"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21042
 entryid: 26437
@@ -1121,7 +1121,7 @@ kind: wrong-sense
 reason: The current translation means 'comparative' or 'relative' as an adjective, but the lesson requires the noun for a family member.
 source: Wiktionary (Chinese), s.v. "亲戚"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21073
 entryid: 26476
@@ -1135,7 +1135,7 @@ kind: wrong-class
 reason: The Chinese word '见证' is often used as a verb or an abstract noun (testimony), whereas '目击者' is the standard noun for a person who witnesses an event.
 source: Wiktionary (Chinese), s.v. "目击者"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21082
 entryid: 26487
@@ -1149,7 +1149,7 @@ kind: wrong-form
 reason: 人的 is 'human's'; a human is 人类.
 source: Wiktionary (Chinese), s.v. "人类"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21219
 entryid: 26659
@@ -1163,7 +1163,7 @@ kind: wrong-word
 reason: 跟班 is a hanger-on; a pensioner is 退休人员.
 source: Wiktionary (Chinese), s.v. "退休人员"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21233
 entryid: 26677
@@ -1177,7 +1177,7 @@ kind: wrong-word
 reason: The current translation refers to an electrical component (collector plate), not a person who collects items.
 source: Wiktionary (Chinese), s.v. "收藏家": noun: collector
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21246
 entryid: 26692
@@ -1191,7 +1191,7 @@ kind: regional
 reason: 核数师 is the Hong Kong term; on the mainland an auditor is 审计师.
 source: Wiktionary (Chinese), s.v. "审计师"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21288
 entryid: 26745
@@ -1205,7 +1205,7 @@ kind: wrong-sense
 reason: The Chinese word 棕榈 refers to a palm tree, but the English word 'palm' in this context refers to the part of the hand.
 source: Wiktionary (Chinese), s.v. "手掌": noun: palm (concave part of the hand)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21309
 entryid: 26772
@@ -1219,7 +1219,7 @@ kind: wrong-sense
 reason: 州 is a province or a US state; a state in society is 国家.
 source: Wiktionary (Chinese), s.v. "国家"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 21320
 entryid: 26785
@@ -1233,7 +1233,7 @@ kind: wrong-word
 reason: 评议会 is not a standard term for a general council; 委员会 is the standard word for a committee or council.
 source: Wiktionary (Chinese), s.v. "委员会"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21355
 entryid: 26828
@@ -1247,7 +1247,7 @@ kind: wrong-sense
 reason: The word '类' refers to a category or type, whereas '阶层' is the correct term for a social class.
 source: Wiktionary (Chinese), s.v. "阶层"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21390
 entryid: 26873
@@ -1261,7 +1261,7 @@ kind: wrong-sense
 reason: The translation '属性' refers to a characteristic or attribute, whereas the lesson context of 'Society' implies physical property or possessions.
 source: Wiktionary (Chinese), s.v. "财产"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21438
 entryid: 26934
@@ -1275,7 +1275,7 @@ kind: wrong-class
 reason: 关心 is to care, a verb; a concern is 担忧.
 source: Wiktionary (Chinese), s.v. "担忧"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21488
 entryid: 26996
@@ -1289,7 +1289,7 @@ kind: wrong-class
 reason: The Chinese word '采集' is a verb meaning 'to collect/harvest' (like data or samples), but the English word 'collection' is a noun.
 source: Wiktionary (Chinese), s.v. "收藏": verb: to collect and store; to store up; to put away for safekeeping
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21539
 entryid: 27060
@@ -1303,7 +1303,7 @@ kind: wrong-form
 reason: The character '规' is usually a component of a word; '规定' is the standard noun for 'regulation'.
 source: Wiktionary (Chinese), s.v. "规定"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21541
 entryid: 27063
@@ -1317,7 +1317,7 @@ kind: wrong-sense
 reason: 访问 is a visit; an interview, in society, is 采访.
 source: Wiktionary (Chinese), s.v. "采访"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21563
 entryid: 27090
@@ -1331,7 +1331,7 @@ kind: wrong-sense
 reason: The Chinese word '部件' refers to a mechanical part or component, while 'assembly' in a social context refers to a gathering of people.
 source: Wiktionary (Chinese), s.v. "集会"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21565
 entryid: 27093
@@ -1345,7 +1345,7 @@ kind: wrong-sense
 reason: The Chinese word '沉降' refers to geological subsidence or sinking, not a human settlement or colony.
 source: Wiktionary (Chinese), s.v. "定居点"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21589
 entryid: 27123
@@ -1359,7 +1359,7 @@ kind: wrong-sense
 reason: 表示 is used for expressing an idea or feeling, whereas 代表 is the standard word for a representation or portrayal of something.
 source: Wiktionary (Chinese), s.v. "代表": verb: to represent (to stand or act in place of, or be a political representative); to embody; to represent; on behalf of; in the name of
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21599
 entryid: 27135
@@ -1373,7 +1373,7 @@ kind: wrong-word
 reason: The Chinese word '块' refers to a physical piece or chunk, whereas 'mass' in a social context refers to a large group of people (大众).
 source: Wiktionary (Chinese), s.v. "大众"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21601
 entryid: 27138
@@ -1387,7 +1387,7 @@ kind: wrong-word
 reason: 编制 refers to the structure or staffing of an organization, whereas 机构 is the word for the establishment itself.
 source: Wiktionary (Chinese), s.v. "机构"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21616
 entryid: 27156
@@ -1401,7 +1401,7 @@ kind: wrong-form
 reason: The translation '得分了' is a verb phrase meaning 'scored' (past tense/completed action), whereas the noun 'score' should be '分数'.
 source: Wiktionary (Chinese), s.v. "分数"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21647
 entryid: 27195
@@ -1415,7 +1415,7 @@ kind: wrong-sense
 reason: The current translation refers to a computing term (round-robin), but the lesson requires the word for a public opinion survey.
 source: Wiktionary (Chinese), s.v. "民意调查"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21656
 entryid: 27206
@@ -1429,7 +1429,7 @@ kind: wrong-word
 reason: 抵抗性 refers to 'resistance' as a physical property (like electrical resistance), whereas 抵抗 is the standard noun for the act of opposing or resisting.
 source: Wiktionary (Chinese), s.v. "抵抗": verb: to resist; to take up resistance against
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21665
 entryid: 27218
@@ -1443,7 +1443,7 @@ kind: wrong-sense
 reason: The Chinese word '键' refers to a physical key (like on a keyboard), whereas 'bond' in a social context refers to a connection or tie.
 source: Wiktionary (Chinese), s.v. "纽带"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21671
 entryid: 27225
@@ -1457,7 +1457,7 @@ kind: wrong-form
 reason: 出租 is to let; rent, the payment, is 租金.
 source: Wiktionary (Chinese), s.v. "租金": noun: rent (regular payments made to the owner of a property to secure its use)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21682
 entryid: 27239
@@ -1471,7 +1471,7 @@ kind: wrong-form
 reason: The English word 'mortgage' refers to the loan itself, while '抵押' is a verb meaning 'to mortgage' or 'to provide collateral'.
 source: Wiktionary (Chinese), s.v. "抵押贷款"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21690
 entryid: 27249
@@ -1485,7 +1485,7 @@ kind: wrong-word
 reason: 知觉 is a very archaic or literary term; 感知 is the standard modern word for perception.
 source: Wiktionary (Chinese), s.v. "感知": verb: to perceive; to be aware
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21700
 entryid: 27261
@@ -1499,7 +1499,7 @@ kind: wrong-word
 reason: The Chinese word '占用' means to occupy space or time, whereas '职业' is the correct word for a person's job or occupation.
 source: Wiktionary (Chinese), s.v. "职业"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21716
 entryid: 27281
@@ -1513,7 +1513,7 @@ kind: wrong-sense
 reason: 选民 is the voters; a constituency is 选区.
 source: Wiktionary (Chinese), s.v. "选区"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 21778
 entryid: 27360
@@ -1527,7 +1527,7 @@ kind: wrong-word
 reason: The word '勤' means 'diligent' or 'industrious' (an adjective/verb), whereas 'attendance' refers to the act of being present.
 source: Wiktionary (Chinese), s.v. "出勤": verb: to go to work; to start work; to show up on time for work; to be out on duty; to take a business trip
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21779
 entryid: 27361
@@ -1541,7 +1541,7 @@ kind: wrong-sense
 reason: The word '区别' means 'difference,' whereas '歧视' is the correct term for 'discrimination' (unfair treatment).
 source: Wiktionary (Chinese), s.v. "歧视"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21802
 entryid: 27390
@@ -1555,7 +1555,7 @@ kind: wrong-sense
 reason: 演替 is ecological succession; succession to an office is 继承.
 source: Wiktionary (Chinese), s.v. "继承"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21817
 entryid: 27409
@@ -1569,7 +1569,7 @@ kind: wrong-word
 reason: 调 alone is a musical key; a tune is 曲调.
 source: Wiktionary (Chinese), s.v. "曲调"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21824
 entryid: 27418
@@ -1583,7 +1583,7 @@ kind: wrong-sense
 reason: 备注 refers to a 'note' or 'annotation' in a document, whereas 'remark' in a general social context usually refers to a 'comment' or 'opinion'.
 source: Wiktionary (Chinese), s.v. "评论"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21826
 entryid: 27420
@@ -1597,7 +1597,7 @@ kind: wrong-sense
 reason: 会诊 specifically refers to a medical consultation between doctors, whereas 咨询 is the general term for seeking advice or information.
 source: Wiktionary (Chinese), s.v. "咨询"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21844
 entryid: 27443
@@ -1611,7 +1611,7 @@ kind: wrong-sense
 reason: 鉴定 is an appraisal; identification is 身份证明.
 source: Wiktionary (Chinese), s.v. "身份证明"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21894
 entryid: 27506
@@ -1625,7 +1625,7 @@ kind: wrong-sense
 reason: The Chinese word 论据 means 'evidence' or 'proof,' whereas the English word 'argument' in this context refers to a disagreement or debate.
 source: Wiktionary (Chinese), s.v. "争论"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21945
 entryid: 27570
@@ -1639,7 +1639,7 @@ kind: wrong-sense
 reason: 置信度 refers to a statistical confidence level, whereas the general noun for personal confidence is 自信.
 source: Wiktionary (Chinese), s.v. "自信": verb: to have confidence in oneself; to be self-confident
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21965
 entryid: 27595
@@ -1653,7 +1653,7 @@ kind: wrong-sense
 reason: The Chinese word '浓度' refers to chemical concentration, while the lesson requires the word for mental focus.
 source: Wiktionary (Chinese), s.v. "注意力": noun: attention; focus
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 21993
 entryid: 27630
@@ -1667,7 +1667,7 @@ kind: wrong-sense
 reason: 变异 is specifically used for biological mutations, whereas 变化 is the standard word for a general variation or change.
 source: Wiktionary (Chinese), s.v. "变化"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22047
 entryid: 27698
@@ -1681,7 +1681,7 @@ kind: wrong-sense
 reason: 情报 refers to secret information or intelligence gathered by spies, whereas the ability to learn and think is 智力.
 source: Wiktionary (Chinese), s.v. "智力": noun: intellect; intelligence; power and resourcefulness
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22060
 entryid: 27714
@@ -1695,7 +1695,7 @@ kind: wrong-word
 reason: 加成 is a technical term often used for 'bonus' or 'surcharge' in specific contexts, but 增加 is the standard noun/verb for the general concept of addition.
 source: Wiktionary (Chinese), s.v. "增加": verb: to add; to augment; to increase; to raise; to boost
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22102
 entryid: 27766
@@ -1709,7 +1709,7 @@ kind: wrong-class
 reason: The English word 'building' is a noun, but the Chinese translation '建造' is a verb meaning 'to build'.
 source: Wiktionary (Chinese), s.v. "建筑物"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22107
 entryid: 27772
@@ -1723,7 +1723,7 @@ kind: wrong-sense
 reason: The Chinese word '领域' refers to a metaphorical field of study or activity, whereas the lesson requires a physical agricultural field.
 source: Wiktionary (Chinese), s.v. "田野": noun: field; open country; open land; the countryside; the country; rural area
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22176
 entryid: 27859
@@ -1737,7 +1737,7 @@ kind: wrong-form
 reason: The translation provided is a verb phrase meaning 'climbing a ramp' rather than the noun for a hill.
 source: Wiktionary (Chinese), s.v. "小山": noun: hill; xiaoshan (a type of ancient Chinese writing style)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22188
 entryid: 27873
@@ -1751,7 +1751,7 @@ kind: wrong-sense
 reason: 跟踪 is to track someone; a track, among places, is 小径.
 source: Wiktionary (Chinese), s.v. "小径"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22195
 entryid: 27882
@@ -1765,7 +1765,7 @@ kind: wrong-word
 reason: The word '码' usually refers to a pier, wharf, or a unit of measurement, whereas '院子' is the correct word for a yard.
 source: Wiktionary (Chinese), s.v. "院子": noun: courtyard
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22201
 entryid: 27890
@@ -1779,7 +1779,7 @@ kind: wrong-word
 reason: The character '厂' means a cliff, while '工厂' is the standard word for a factory.
 source: Wiktionary (Chinese), s.v. "工厂"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22246
 entryid: 27949
@@ -1793,7 +1793,7 @@ kind: wrong-class
 reason: The character '磨' is primarily a verb meaning 'to grind,' whereas the lesson requires a noun for a place (a mill).
 source: Wiktionary (Chinese), s.v. "磨坊": noun: mill
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22310
 entryid: 28029
@@ -1807,7 +1807,7 @@ kind: wrong-word
 reason: The Chinese word '采取' is a verb meaning 'to adopt' or 'to take,' whereas the lesson requires a noun for a holiday destination.
 source: Wiktionary (Chinese), s.v. "度假胜地"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22320
 entryid: 28042
@@ -1821,7 +1821,7 @@ kind: wrong-sense
 reason: 苗圃 is a plant nursery; the nursery for children is 托儿所.
 source: Wiktionary (Chinese), s.v. "托儿所"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22330
 entryid: 28054
@@ -1835,7 +1835,7 @@ kind: wrong-sense
 reason: 复合 is a chemical compound; a compound, among places, is 大院.
 source: Wiktionary (Chinese), s.v. "大院": noun: courtyard; compound
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22336
 entryid: 28062
@@ -1849,7 +1849,7 @@ kind: wrong-word
 reason: The Chinese word provided means 'to support' or 'prop up,' whereas the English word 'shore' refers to the land along a body of water.
 source: Wiktionary (Chinese), s.v. "岸": character: bank; shore; coast; high; lofty; stately; haughty
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22388
 entryid: 28126
@@ -1863,7 +1863,7 @@ kind: wrong-word
 reason: 餐饮 refers to the catering industry or food and beverage services, whereas the general word for food is 食物.
 source: Wiktionary (Chinese), s.v. "食物": noun: food
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22419
 entryid: 28165
@@ -1877,7 +1877,7 @@ kind: wrong-word
 reason: The character '厂' means a cliff, whereas the word for a plant is '植物'.
 source: Wiktionary (Chinese), s.v. "植物": noun: plant; vegetation; flora (Classifier: 棵 m; 樖 c)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22428
 entryid: 28177
@@ -1891,7 +1891,7 @@ kind: wrong-word
 reason: The character '机' is a component of many words, but '机器' is the standard noun for 'machine'.
 source: Wiktionary (Chinese), s.v. "机器"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22431
 entryid: 28181
@@ -1905,7 +1905,7 @@ kind: wrong-sense
 reason: The English word 'provision' refers to supplies, but '规定' means a rule or regulation.
 source: Wiktionary (Chinese), s.v. "供应"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22435
 entryid: 28185
@@ -1919,7 +1919,7 @@ kind: wrong-sense
 reason: 法案 is a parliamentary bill; a bill to pay is 账单.
 source: Wiktionary (Chinese), s.v. "账单"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 22443
 entryid: 28196
@@ -1933,7 +1933,7 @@ kind: wrong-sense
 reason: The English word 'note' as a noun refers to a written record, while '注意' means the act of paying attention.
 source: Wiktionary (Chinese), s.v. "笔记"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22503
 entryid: 28270
@@ -1947,7 +1947,7 @@ kind: wrong-word
 reason: The Chinese word provided means 'to cultivate' or 'to nurture,' whereas the English word 'train' refers to a railway vehicle.
 source: Wiktionary (Chinese), s.v. "火车"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22507
 entryid: 28276
@@ -1961,7 +1961,7 @@ kind: wrong-word
 reason: The Chinese word '图' means a map or picture, while the fruit 'fig' is '无花果'.
 source: Wiktionary (Chinese), s.v. "无花果"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22538
 entryid: 28315
@@ -1975,7 +1975,7 @@ kind: wrong-sense
 reason: The translation provided refers to a government body, but the lesson context is for furniture/objects.
 source: Wiktionary (Chinese), s.v. "橱柜"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22542
 entryid: 28319
@@ -1989,7 +1989,7 @@ kind: wrong-word
 reason: The word '东东' is not a standard Chinese word for 'stuff'; the correct term is '东西'.
 source: Wiktionary (Chinese), s.v. "东西"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22573
 entryid: 28358
@@ -2003,7 +2003,7 @@ kind: wrong-form
 reason: 注意 is attention; a notice, among objects, is 告示 (the models' 注意到 is the verb).
 source: Wiktionary (Chinese), s.v. "告示": noun: notice; official notice; slogan; poster
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22635
 entryid: 28435
@@ -2017,7 +2017,7 @@ kind: wrong-word
 reason: 台 is a stand or platform; a desk is 书桌.
 source: Wiktionary (Chinese), s.v. "书桌"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22680
 entryid: 28492
@@ -2031,7 +2031,7 @@ kind: wrong-sense
 reason: The Chinese word '平面' refers to a flat surface, whereas the English word 'plane' in the context of objects usually refers to an airplane.
 source: Wiktionary (Chinese), s.v. "飞机"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22691
 entryid: 28505
@@ -2045,7 +2045,7 @@ kind: wrong-word
 reason: The current translation means a 'coating' (like paint), but the lesson requires the word for a piece of outerwear clothing.
 source: Wiktionary (Chinese), s.v. "外套": noun: overcoat; coat; jacket
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22720
 entryid: 28542
@@ -2059,7 +2059,7 @@ kind: wrong-word
 reason: The Chinese word provided is a verb meaning 'to suit,' but the lesson requires a noun for a piece of clothing.
 source: Wiktionary (Chinese), s.v. "西装"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22753
 entryid: 28584
@@ -2073,7 +2073,7 @@ kind: wrong-sense
 reason: 记录 is a written record; a recording is 录音.
 source: Wiktionary (Chinese), s.v. "录音"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 22771
 entryid: 28606
@@ -2087,7 +2087,7 @@ kind: wrong-sense
 reason: The Chinese word provided refers to the academic field of medicine, not the physical substance used to treat a patient.
 source: Wiktionary (Chinese), s.v. "药物"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22804
 entryid: 28647
@@ -2101,7 +2101,7 @@ kind: wrong-sense
 reason: 看 is to look; a watch is 手表.
 source: Wiktionary (Chinese), s.v. "手表"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 22810
 entryid: 28655
@@ -2115,7 +2115,7 @@ kind: wrong-word
 reason: The Chinese word '净' means 'clean', whereas the word for a physical 'net' is '网'.
 source: Wiktionary (Chinese), s.v. "网"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22839
 entryid: 28691
@@ -2129,7 +2129,7 @@ kind: wrong-sense
 reason: 组织 refers to a biological tissue or an organization, while 纸巾 is the word for a facial tissue.
 source: Wiktionary (Chinese), s.v. "纸巾"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22857
 entryid: 28713
@@ -2143,7 +2143,7 @@ kind: wrong-sense
 reason: 查 is to check; a check, among objects, is 支票.
 source: Wiktionary (Chinese), s.v. "支票": noun: cheque (draft directing a bank to pay money); check (Classifier: 張／张 m c mn; 條／条 c)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22885
 entryid: 28749
@@ -2157,7 +2157,7 @@ kind: wrong-word
 reason: The character '极' means 'extreme' or 'pole' in a geographical/astronomical sense (like North Pole), but for a physical object like a pole, '杆' is the correct word.
 source: Wiktionary (Chinese), s.v. "杆": character: sandalwood; storehousebush
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22913
 entryid: 28783
@@ -2171,7 +2171,7 @@ kind: wrong-sense
 reason: The Chinese translation provided is for 'Value-Added Tax' (VAT), which is a financial term, rather than a large container for liquids.
 source: Wiktionary (Chinese), s.v. "大桶": noun: vat; barrel; tun
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22941
 entryid: 28819
@@ -2185,7 +2185,7 @@ kind: wrong-word
 reason: The word '桩' refers to a physical stake or post, whereas '堆' is the correct word for a pile of objects.
 source: Wiktionary (Chinese), s.v. "堆": character: heap; pile; mound; heap; to pile up; to stack up
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 22943
 entryid: 28821
@@ -2199,7 +2199,7 @@ kind: wrong-word
 reason: The Chinese word '滚' is a verb meaning 'to roll' (like a ball), but the noun for a food 'roll' is '卷'.
 source: Wiktionary (Chinese), s.v. "卷": character: reel of books; book; scroll; volume; chapter; fascicle
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23021
 entryid: 28920
@@ -2213,7 +2213,7 @@ kind: wrong-form
 reason: 喷射 is a verb or a noun for the action of jetting/spraying, whereas the noun for the aircraft itself is 喷气式飞机.
 source: Wiktionary (Chinese), s.v. "喷气式飞机"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23056
 entryid: 28963
@@ -2227,7 +2227,7 @@ kind: wrong-word
 reason: 运输 is a general term for transportation, whereas carriage refers to the specific vehicle.
 source: Wiktionary (Chinese), s.v. "马车"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23074
 entryid: 28985
@@ -2241,7 +2241,7 @@ kind: wrong-sense
 reason: 支架 is a bracket; a carrier is 运输工具.
 source: Wiktionary (Chinese), s.v. "运输工具"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23089
 entryid: 29004
@@ -2255,7 +2255,7 @@ kind: wrong-word
 reason: The Chinese word provided refers to a mechanical bushing, not a group of shrubs.
 source: Wiktionary (Chinese), s.v. "灌木": noun: shrub; bush
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23123
 entryid: 29047
@@ -2269,7 +2269,7 @@ kind: wrong-class
 reason: The English word 'fat' is used as an adjective here, but '脂肪' is a noun meaning biological fat or grease.
 source: Wiktionary (Chinese), s.v. "胖": character: fat
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23197
 entryid: 29139
@@ -2283,7 +2283,7 @@ kind: wrong-sense
 reason: 平均 is used for mathematical averages (mean), while 普通 is used to describe something of average or ordinary quality.
 source: Wiktionary (Chinese), s.v. "普通的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23199
 entryid: 29143
@@ -2297,7 +2297,7 @@ kind: wrong-sense
 reason: The translation '不会' means 'will not' or 'cannot', whereas '不太可能' is the correct way to express the adjective 'unlikely'.
 source: Wiktionary (Chinese), s.v. "不太可能"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23227
 entryid: 29178
@@ -2311,7 +2311,7 @@ kind: wrong-sense
 reason: The character 川 refers to a river or a geographical plain, not the adjective 'plain' meaning simple or unadorned.
 source: Wiktionary (Chinese), s.v. "朴素"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23275
 entryid: 29238
@@ -2325,7 +2325,7 @@ kind: wrong-sense
 reason: 朦胧 usually refers to a hazy atmosphere or vision (like mist), whereas 'obscure' in a general sense is better translated as 模糊 (unclear/indistinct).
 source: Wiktionary (Chinese), s.v. "模糊": adj: blurry; vague; obscure; fuzzy
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23298
 entryid: 29267
@@ -2339,7 +2339,7 @@ kind: wrong-sense
 reason: 粗壮 specifically describes a thick, muscular body or a tree trunk, whereas 结实 is the standard word for an object being sturdy or durable.
 source: Wiktionary (Chinese), s.v. "结实"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23318
 entryid: 29293
@@ -2353,7 +2353,7 @@ kind: wrong-word
 reason: The term '青葱的' refers to something looking like green onions, whereas '茂盛的' is the standard term for lush vegetation.
 source: Wiktionary (Chinese), s.v. "茂盛的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23368
 entryid: 29355
@@ -2367,7 +2367,7 @@ kind: wrong-sense
 reason: 高低不平 is uneven; spiky is 带刺的.
 source: Wiktionary (Chinese), s.v. "带刺的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23371
 entryid: 29359
@@ -2381,7 +2381,7 @@ kind: wrong-sense
 reason: The Chinese word '稀松' refers to physical looseness or density, while 'sloppy' in this context refers to a lack of care or precision.
 source: Wiktionary (Chinese), s.v. "马虎"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23373
 entryid: 29361
@@ -2395,7 +2395,7 @@ kind: wrong-sense
 reason: The Chinese translation means 'flashy but empty,' whereas 'slick' in a physical sense refers to a smooth or slippery surface.
 source: Wiktionary (Chinese), s.v. "光滑的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23389
 entryid: 29381
@@ -2409,7 +2409,7 @@ kind: wrong-sense
 reason: 灰溜溜 is crestfallen; dingy is 昏暗的.
 source: Wiktionary (Chinese), s.v. "昏暗的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23398
 entryid: 29392
@@ -2423,7 +2423,7 @@ kind: wrong-word
 reason: The Chinese word provided means 'round/smooth' instead of describing a fruit flavor.
 source: Wiktionary (Chinese), s.v. "果味的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23409
 entryid: 29407
@@ -2437,7 +2437,7 @@ kind: wrong-class
 reason: The English word 'frilly' is an adjective, but '褶边' is a noun; the adjective form '带褶边的' is required.
 source: Wiktionary (Chinese), s.v. "带褶边的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23410
 entryid: 29408
@@ -2451,7 +2451,7 @@ kind: wrong-form
 reason: 吱吱 is an onomatopoeia (the sound itself), but to describe an object as 'squeaky' as an adjective, Chinese typically adds the particle 的.
 source: Wiktionary (Chinese), s.v. "吱吱作响的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23417
 entryid: 29417
@@ -2465,7 +2465,7 @@ kind: wrong-sense
 reason: 瞬间 is an instant; snappy is 利落的.
 source: Wiktionary (Chinese), s.v. "利落的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23418
 entryid: 29418
@@ -2479,7 +2479,7 @@ kind: wrong-word
 reason: 薉 is an archaic character; among qualities, weedy is 杂草丛生的.
 source: Wiktionary (Chinese), s.v. "杂草丛生的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23444
 entryid: 29450
@@ -2493,7 +2493,7 @@ kind: wrong-form
 reason: 晚了 is 'it's late'; late, of a person, is 迟到的.
 source: Wiktionary (Chinese), s.v. "迟到的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23452
 entryid: 29460
@@ -2507,7 +2507,7 @@ kind: wrong-sense
 reason: The current translation means 'poor quality' rather than 'lacking money'.
 source: Wiktionary (Chinese), s.v. "贫穷的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23487
 entryid: 29503
@@ -2521,7 +2521,7 @@ kind: wrong-sense
 reason: 敏锐 refers to being sharp-witted or having acute senses, whereas 'keen' in the context of interest or enthusiasm is better translated as 热衷.
 source: Wiktionary (Chinese), s.v. "热衷的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23535
 entryid: 29564
@@ -2535,7 +2535,7 @@ kind: wrong-sense
 reason: The Chinese word '类' means 'type' or 'category', but the lesson requires the adjective for a person's personality (kind/gentle).
 source: Wiktionary (Chinese), s.v. "善良": adj: kind-hearted; benevolent
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23560
 entryid: 29595
@@ -2549,7 +2549,7 @@ kind: wrong-sense
 reason: The Chinese word '哑' refers to being physically unable to speak (mute), whereas 'dumb' in this context refers to a lack of intelligence.
 source: Wiktionary (Chinese), s.v. "笨": character: heavy; cumbersome; strenuous; stupid; foolish; silly; slow-witted; clumsy; awkward
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23570
 entryid: 29609
@@ -2563,7 +2563,7 @@ kind: wrong-sense
 reason: The English word 'fancy' in a social context refers to something elaborate or decorative, while '幻想' means a fantasy or delusion.
 source: Wiktionary (Chinese), s.v. "华丽"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23609
 entryid: 29657
@@ -2577,7 +2577,7 @@ kind: wrong-sense
 reason: 辣妹 is a hot girl, as in Posh Spice; posh is 高档.
 source: Wiktionary (Chinese), s.v. "高档"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23614
 entryid: 29663
@@ -2591,7 +2591,7 @@ kind: wrong-sense
 reason: The word '懈' refers to laziness or slacking off, whereas 'negligent' refers to a lack of proper care or attention.
 source: Wiktionary (Chinese), s.v. "疏忽": verb: to neglect; to be careless; to overlook
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23632
 entryid: 29686
@@ -2605,7 +2605,7 @@ kind: wrong-sense
 reason: The Chinese translation means 'evasive' or 'dodging,' but 'dodgy' in a social context refers to something dishonest or unreliable.
 source: Wiktionary (Chinese), s.v. "不可靠的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23634
 entryid: 29688
@@ -2619,7 +2619,7 @@ kind: wrong-word
 reason: 踌躇满志 is brimming with ambition; smug is 沾沾自喜.
 source: Wiktionary (Chinese), s.v. "沾沾自喜": phrase: to feel complacent; to be pleased with oneself
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23654
 entryid: 29713
@@ -2633,7 +2633,7 @@ kind: wrong-word
 reason: The word '纤巧' is not a standard Chinese word; '精致' is the correct term for something dainty or delicate.
 source: Wiktionary (Chinese), s.v. "精致"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23662
 entryid: 29723
@@ -2647,7 +2647,7 @@ kind: wrong-sense
 reason: “性急的” means impatient or hasty, whereas “brash” refers to being bold, rude, or overconfident.
 source: Wiktionary (Chinese), s.v. "鲁莽的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23672
 entryid: 29736
@@ -2661,7 +2661,7 @@ kind: wrong-sense
 reason: 轻薄 usually refers to a person's frivolous character or a thin fabric, whereas 'skimpy' in this context refers to an insufficient amount.
 source: Wiktionary (Chinese), s.v. "少量的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23710
 entryid: 29784
@@ -2675,7 +2675,7 @@ kind: wrong-word
 reason: 关 is to close a door; close, among feelings, is 亲近.
 source: Wiktionary (Chinese), s.v. "亲近"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23745
 entryid: 29827
@@ -2689,7 +2689,7 @@ kind: wrong-class
 reason: 健康 is health, the noun; healthy is 健康的.
 source: Wiktionary (Chinese), s.v. "健康的"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 23800
 entryid: 29897
@@ -2703,7 +2703,7 @@ kind: wrong-sense
 reason: The Chinese word provided means 'to commit a foul' in sports, but the English word 'foul' in this context refers to something disgusting or unpleasant.
 source: Wiktionary (Chinese), s.v. "恶心的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23815
 entryid: 29916
@@ -2717,7 +2717,7 @@ kind: wrong-word
 reason: 扭歪 is twisted; wry is 挖苦的 (the models' proposal is garbled).
 source: Wiktionary (Chinese), s.v. "挖苦的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23827
 entryid: 29930
@@ -2731,7 +2731,7 @@ kind: wrong-sense
 reason: 阴森 describes a gloomy or eerie atmosphere (like a haunted house), whereas ghastly refers to something causing horror or being deathly pale.
 source: Wiktionary (Chinese), s.v. "可怕": adj: scary; frightening
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23831
 entryid: 29936
@@ -2745,7 +2745,7 @@ kind: wrong-sense
 reason: The Chinese word provided means 'wise' or 'sensible,' whereas 'sane' refers to being mentally healthy or not insane.
 source: Wiktionary (Chinese), s.v. "神志清醒的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23842
 entryid: 29949
@@ -2759,7 +2759,7 @@ kind: wrong-sense
 reason: The Chinese term refers to being in the spotlight or at the peak of fame, whereas 'heady' refers to an intoxicating or exhilarating feeling.
 source: Wiktionary (Chinese), s.v. "令人陶醉的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23846
 entryid: 29953
@@ -2773,7 +2773,7 @@ kind: wrong-sense
 reason: The Chinese word 升华 refers to the chemical or psychological process of sublimation, whereas the adjective 'sublime' refers to something of great beauty or grandeur.
 source: Wiktionary (Chinese), s.v. "崇高": adj: highest; supreme; tallest; maximum; top; noble; lofty; sublime
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23852
 entryid: 29961
@@ -2787,7 +2787,7 @@ kind: wrong-form
 reason: 浸水 is to soak; soggy is 湿漉漉的.
 source: Wiktionary (Chinese), s.v. "湿漉漉的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23860
 entryid: 29971
@@ -2801,7 +2801,7 @@ kind: untranslated
 reason: The translation is identical to the English word, which means Google Translate failed to provide a Chinese equivalent.
 source: Wiktionary (Chinese), s.v. "黏糊糊的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23877
 entryid: 29992
@@ -2815,7 +2815,7 @@ kind: wrong-sense
 reason: 阴森 describes a gloomy or eerie atmosphere, whereas gruesome refers to something causing horror or disgust, typically due to violence.
 source: Wiktionary (Chinese), s.v. "恐怖": adj: terrifying; dreadful; horrific; frightening; afraid; fearful
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23893
 entryid: 30013
@@ -2829,7 +2829,7 @@ kind: wrong-sense
 reason: 憔悴的 means 'haggard' or 'exhausted' from fatigue, while 'gaunt' refers specifically to being thin and bony.
 source: Wiktionary (Chinese), s.v. "瘦削的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23898
 entryid: 30019
@@ -2843,7 +2843,7 @@ kind: wrong-word
 reason: The term '潮呼呼' is not a standard Chinese word; '潮湿' is the correct term for a damp or musty atmosphere.
 source: Wiktionary (Chinese), s.v. "潮湿"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23906
 entryid: 30029
@@ -2857,7 +2857,7 @@ kind: wrong-sense
 reason: The Chinese translation provided means 'champagne' (a drink), whereas the lesson requires an adjective describing a bubbly personality.
 source: Wiktionary (Chinese), s.v. "活泼"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23915
 entryid: 30040
@@ -2871,7 +2871,7 @@ kind: wrong-sense
 reason: 明确 is clear as in explicit; of appearance, clear is 清澈的.
 source: Wiktionary (Chinese), s.v. "清澈的"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 23951
 entryid: 30085
@@ -2885,7 +2885,7 @@ kind: wrong-sense
 reason: The Chinese word provided refers to a 'round' in a game or competition, but the lesson requires the adjective for a circular shape.
 source: Wiktionary (Chinese), s.v. "圆"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23976
 entryid: 30116
@@ -2899,7 +2899,7 @@ kind: wrong-form
 reason: 尘土飞扬 is dust flying; dusty is 布满灰尘的.
 source: Wiktionary (Chinese), s.v. "布满灰尘的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23982
 entryid: 30124
@@ -2913,7 +2913,7 @@ kind: wrong-sense
 reason: The English word 'lean' in the context of appearance refers to a thin body, but '靠' is a verb meaning to lean on or rely on.
 source: Wiktionary (Chinese), s.v. "瘦": character: thin; slender; skinny; lean; to lose weight; to become thin
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 23988
 entryid: 30132
@@ -2927,7 +2927,7 @@ kind: wrong-word
 reason: The character '浑' is usually used as a prefix or in compounds (like 浑浊) to mean 'turbid' or 'muddled' and is not the standard word for 'muddy' in an appearance context.
 source: Wiktionary (Chinese), s.v. "泥泞"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 24001
 entryid: 30148
@@ -2941,7 +2941,7 @@ kind: wrong-sense
 reason: 神出鬼没 is elusive; shadowy is 阴暗的.
 source: Wiktionary (Chinese), s.v. "阴暗的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 24016
 entryid: 30167
@@ -2955,7 +2955,7 @@ kind: wrong-sense
 reason: 家常 is homely in the sense of homemade; of appearance it is 相貌平平的.
 source: Wiktionary (Chinese), s.v. "相貌平平的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 24021
 entryid: 30173
@@ -2969,7 +2969,7 @@ kind: untranslated
 reason: The translation '罗西' is a phonetic transliteration of the name 'Rosy' rather than the descriptive adjective for a pinkish color.
 source: Wiktionary (Chinese), s.v. "玫瑰色的"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 24033
 entryid: 30188
@@ -2983,7 +2983,7 @@ kind: wrong-word
 reason: The character '磊' refers to piles of rocks or being large, while 'lumpy' describes an uneven or bumpy surface.
 source: Wiktionary (Chinese), s.v. "凹凸不平": phrase: uneven; bumpy
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 24036
 entryid: 30192
@@ -2997,7 +2997,7 @@ kind: wrong-sense
 reason: 沙哑 is a husky voice; husky, of build, is 魁梧的 (the models' 哈士奇 is the dog).
 source: Wiktionary (Chinese), s.v. "魁梧的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 38913
 entryid: 48768
@@ -3011,7 +3011,7 @@ kind: wrong-sense
 reason: 视图 is a view in software; to view, as a mental activity, is 看待.
 source: Wiktionary (Chinese), s.v. "看待": verb: to regard; to look upon; to consider; to treat; to treat cordially; to entertain
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 39115
 entryid: 49015
@@ -3025,7 +3025,7 @@ kind: wrong-sense
 reason: 首脑 is a head of state; a summit, in society, is 峰会.
 source: Wiktionary (Chinese), s.v. "峰会"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 39147
 entryid: 49052
@@ -3039,7 +3039,7 @@ kind: wrong-word
 reason: 公司 is a company; firm, the adjective, is 坚固的.
 source: Wiktionary (Chinese), s.v. "坚固的"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 39155
 entryid: 49061
@@ -3053,7 +3053,7 @@ kind: wrong-sense
 reason: 软盘 is a floppy disk; floppy is 松软的.
 source: Wiktionary (Chinese), s.v. "松软的"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 39240
 entryid: 49161
@@ -3067,7 +3067,7 @@ kind: wrong-sense
 reason: The Chinese word '惯例' refers to a social custom or routine, whereas the lesson refers to a large meeting or conference.
 source: Wiktionary (Chinese), s.v. "大会"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 41998
 entryid: 52528
@@ -3081,7 +3081,7 @@ kind: wrong-word
 reason: 替代音乐 literally means 'replacement music,' whereas 另类音乐 is the standard term for 'alternative music' as a genre.
 source: Wiktionary (Chinese), s.v. "另类音乐"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42024
 entryid: 52560
@@ -3095,7 +3095,7 @@ kind: wrong-word
 reason: 旅行跳 is word for word; the genre is 神游舞曲.
 source: Wiktionary (Chinese), s.v. "神游舞曲"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42030
 entryid: 52568
@@ -3109,7 +3109,7 @@ kind: wrong-word
 reason: 鼓和贝司 is the two instruments; the genre is 鼓打贝斯.
 source: Wiktionary (Chinese), s.v. "鼓打贝斯"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42032
 entryid: 52570
@@ -3123,7 +3123,7 @@ kind: untranslated
 reason: The English was left in, with a stray 的; the genre is 回响贝斯.
 source: Wiktionary (Chinese), s.v. "回响贝斯"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42060
 entryid: 52606
@@ -3137,7 +3137,7 @@ kind: wrong-word
 reason: 口头语言 is a literal translation for 'spoken language' in general, whereas 'spoken word' as a performance genre is typically referred to as 口语艺术.
 source: Wiktionary (Chinese), s.v. "口语艺术"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42082
 entryid: 52633
@@ -3151,7 +3151,7 @@ kind: wrong-word
 reason: 四弦琴 refers to a general tetrachord or a specific ancient instrument, whereas 尤克里里 is the standard name for the ukulele.
 source: Wiktionary (Chinese), s.v. "尤克里里": noun: ukulele
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42104
 entryid: 52660
@@ -3165,7 +3165,7 @@ kind: wrong-word
 reason: The current translation is a literal, nonsensical repetition of 'non-fiction' and 'novel' that does not exist in Chinese.
 source: Wiktionary (Chinese), s.v. "非虚构小说"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42128
 entryid: 52691
@@ -3179,7 +3179,7 @@ kind: wrong-word
 reason: 记录 is a record; a documentary is 纪录片.
 source: Wiktionary (Chinese), s.v. "纪录片"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42137
 entryid: 52702
@@ -3193,7 +3193,7 @@ kind: untranslated
 reason: B-电影 keeps the English; a B-movie is B级片.
 source: Wiktionary (Chinese), s.v. "B级片"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42173
 entryid: 52748
@@ -3207,7 +3207,7 @@ kind: wrong-sense
 reason: The Chinese word provided refers to the insect, but the lesson is about sports, which requires the word for the game.
 source: Wiktionary (Chinese), s.v. "板球": noun: cricket (game)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42201
 entryid: 52782
@@ -3221,7 +3221,7 @@ kind: untranslated
 reason: rc赛车 keeps the English; rc racing is 遥控赛车.
 source: Wiktionary (Chinese), s.v. "遥控赛车"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42203
 entryid: 52784
@@ -3235,7 +3235,7 @@ kind: corrupt
 reason: The English of the row above was glued onto the translation.
 source: Wiktionary (Chinese), s.v. "帆船": noun: sailboat; junk
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42209
 entryid: 52792
@@ -3249,7 +3249,7 @@ kind: untranslated
 reason: While the acronym is used in gaming circles, the standard Chinese term for this category of game is '大型多人在线角色扮演游戏'.
 source: Wiktionary (Chinese), s.v. "大型多人在线角色扮演游戏"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42236
 entryid: 52826
@@ -3263,7 +3263,7 @@ kind: wrong-sense
 reason: The translation provided means 'parade' (a verb/noun for marching in a group), but the lesson context is a calendar month.
 source: Wiktionary (Chinese), s.v. "三月": noun: March, the third month of the Gregorian solar calendar.; The modern name for the third month of the Chinese lunar calendar.
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42241
 entryid: 52832
@@ -3277,7 +3277,7 @@ kind: wrong-word
 reason: The Chinese word provided means 'possible' or 'maybe', but the lesson is about the calendar, so it should be the month of May.
 source: Wiktionary (Chinese), s.v. "五月": noun: May; modern name for the fifth month of the Chinese lunar calendar
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42274
 entryid: 52874
@@ -3291,7 +3291,7 @@ kind: wrong-form
 reason: 圣诞 alone is the Nativity; Christmas is 圣诞节.
 source: Wiktionary (Chinese), s.v. "圣诞节"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42280
 entryid: 52881
@@ -3305,7 +3305,7 @@ kind: untranslated
 reason: The term refers to a specific Buddhist festival which has a standard Chinese name rather than being left in English.
 source: Wiktionary (Chinese), s.v. "卫塞节"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42293
 entryid: 52898
@@ -3319,7 +3319,7 @@ kind: wrong-word
 reason: 招魂 is to summon a spirit; Spiritism is 通灵论.
 source: Wiktionary (Chinese), s.v. "通灵论"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42299
 entryid: 52905
@@ -3333,7 +3333,7 @@ kind: untranslated
 reason: 巴哈伊 alone is the name; the faith is 巴哈伊教.
 source: Wiktionary (Chinese), s.v. "巴哈伊教": name: Baháʼí Faith
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42305
 entryid: 52913
@@ -3347,7 +3347,7 @@ kind: wrong-word
 reason: 基督教 is Christianity; a Christian is 基督徒.
 source: Wiktionary (Chinese), s.v. "基督徒": noun: Christian
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42310
 entryid: 52919
@@ -3361,7 +3361,7 @@ kind: wrong-word
 reason: 印度教 is Hinduism; a Hindu is 印度教徒.
 source: Wiktionary (Chinese), s.v. "印度教徒": noun: Hindu
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42315
 entryid: 52926
@@ -3375,7 +3375,7 @@ kind: wrong-word
 reason: The Chinese word '锡克教' refers to the religion (Sikhism) itself, whereas the English word 'Sikh' refers to a person who practices the religion.
 source: Wiktionary (Chinese), s.v. "锡克教徒"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42319
 entryid: 52930
@@ -3389,7 +3389,7 @@ kind: untranslated
 reason: The English was passed through; a Spiritist is 通灵论者.
 source: Wiktionary (Chinese), s.v. "通灵论者"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42322
 entryid: 52934
@@ -3403,7 +3403,7 @@ kind: wrong-word
 reason: The character '犹' is a component of the word for Jew, but on its own, it does not mean 'Jew'.
 source: Wiktionary (Chinese), s.v. "犹太人"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42323
 entryid: 52936
@@ -3417,7 +3417,7 @@ kind: untranslated
 reason: 巴哈伊 alone is the name; a Bahá'í is 巴哈伊教徒.
 source: Wiktionary (Chinese), s.v. "巴哈伊教徒"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42325
 entryid: 52938
@@ -3431,7 +3431,7 @@ kind: wrong-word
 reason: 耆那教 is Jainism; a Jain is 耆那教徒.
 source: Wiktionary (Chinese), s.v. "耆那教徒"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42347
 entryid: 52966
@@ -3445,7 +3445,7 @@ kind: orthography
 reason: 俄国 is dated; Russia is 俄罗斯.
 source: Wiktionary (Chinese), s.v. "俄罗斯"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42366
 entryid: 52989
@@ -3459,7 +3459,7 @@ kind: wrong-sense
 reason: The Chinese word '火鸡' refers to the bird (turkey), but the country is called '土耳其'.
 source: Wiktionary (Chinese), s.v. "土耳其": name: Turkey (a country located in Eastern Thrace in Southeastern Europe and Anatolia in West Asia)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42406
 entryid: 53039
@@ -3473,7 +3473,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 中国人.
 source: Wiktionary (Chinese), s.v. "中国人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42409
 entryid: 53043
@@ -3487,7 +3487,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 美国人.
 source: Wiktionary (Chinese), s.v. "美国人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42411
 entryid: 53045
@@ -3501,7 +3501,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 印度尼西亚人.
 source: Wiktionary (Chinese), s.v. "印度尼西亚人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42416
 entryid: 53052
@@ -3515,7 +3515,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 巴基斯坦人.
 source: Wiktionary (Chinese), s.v. "巴基斯坦人": noun: Pakistani
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42418
 entryid: 53054
@@ -3529,7 +3529,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 尼日利亚人.
 source: Wiktionary (Chinese), s.v. "尼日利亚人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42420
 entryid: 53056
@@ -3543,7 +3543,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 孟加拉人.
 source: Wiktionary (Chinese), s.v. "孟加拉人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42422
 entryid: 53060
@@ -3557,7 +3557,7 @@ kind: wrong-word
 reason: The translation provided is for the Russian language, but the lesson context requires the word for a Russian person.
 source: Wiktionary (Chinese), s.v. "俄罗斯人"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42426
 entryid: 53064
@@ -3571,7 +3571,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 日本人.
 source: Wiktionary (Chinese), s.v. "日本人": noun: Japanese person
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42428
 entryid: 53066
@@ -3585,7 +3585,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 埃塞俄比亚人.
 source: Wiktionary (Chinese), s.v. "埃塞俄比亚人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42431
 entryid: 53071
@@ -3599,7 +3599,7 @@ kind: wrong-form
 reason: 菲律宾的 is the adjective; beside its neighbours, a Filipino is 菲律宾人.
 source: Wiktionary (Chinese), s.v. "菲律宾人"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42435
 entryid: 53075
@@ -3613,7 +3613,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 越南人.
 source: Wiktionary (Chinese), s.v. "越南人": noun: Vietnamese (person from Vietnam)
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42437
 entryid: 53077
@@ -3627,7 +3627,7 @@ kind: wrong-word
 reason: The English word 'German' refers to a person from Germany in this context, but '德语' means the German language.
 source: Wiktionary (Chinese), s.v. "德国人"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42439
 entryid: 53081
@@ -3641,7 +3641,7 @@ kind: wrong-form
 reason: The translation '伊朗的' is an adjective meaning 'Iranian' (as in Iranian food), but the lesson context of ethnicities requires the noun '伊朗人' (an Iranian person).
 source: Wiktionary (Chinese), s.v. "伊朗人": noun: Iranian (person)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42441
 entryid: 53083
@@ -3655,7 +3655,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 土耳其人.
 source: Wiktionary (Chinese), s.v. "土耳其人": noun: Turk; person from Turkey
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42443
 entryid: 53085
@@ -3669,7 +3669,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 泰国人.
 source: Wiktionary (Chinese), s.v. "泰国人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42445
 entryid: 53088
@@ -3683,7 +3683,7 @@ kind: wrong-word
 reason: The English word 'Congolese' refers to the people of the country, while '刚果' refers to the country itself.
 source: Wiktionary (Chinese), s.v. "刚果人"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42448
 entryid: 53092
@@ -3697,7 +3697,7 @@ kind: wrong-form
 reason: 英国的 is the adjective; a Briton is 英国人.
 source: Wiktionary (Chinese), s.v. "英国人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42450
 entryid: 53094
@@ -3711,7 +3711,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 法国人.
 source: Wiktionary (Chinese), s.v. "法国人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42453
 entryid: 53098
@@ -3725,7 +3725,7 @@ kind: wrong-form
 reason: 南非的 is the adjective; a South African is 南非人.
 source: Wiktionary (Chinese), s.v. "南非人": noun: South African (person, people)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42458
 entryid: 53104
@@ -3739,7 +3739,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 朝鲜人.
 source: Wiktionary (Chinese), s.v. "朝鲜人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42460
 entryid: 53107
@@ -3753,7 +3753,7 @@ kind: wrong-sense
 reason: The current translation refers to the country, but the lesson requires the word for a person of that nationality.
 source: Wiktionary (Chinese), s.v. "哥伦比亚人"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42467
 entryid: 53115
@@ -3767,7 +3767,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 乌克兰人.
 source: Wiktionary (Chinese), s.v. "乌克兰人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42473
 entryid: 53123
@@ -3781,7 +3781,7 @@ kind: wrong-word
 reason: 抛光 is polishing; a Pole is 波兰人.
 source: Wiktionary (Chinese), s.v. "波兰人"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42475
 entryid: 53125
@@ -3795,7 +3795,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 加拿大人.
 source: Wiktionary (Chinese), s.v. "加拿大人": noun: Canadian person
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42476
 entryid: 53127
@@ -3809,7 +3809,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 摩洛哥人.
 source: Wiktionary (Chinese), s.v. "摩洛哥人": noun: Moroccan (person)
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42478
 entryid: 53129
@@ -3823,7 +3823,7 @@ kind: wrong-sense
 reason: This is the country or the language; the people are 秘鲁人.
 source: Wiktionary (Chinese), s.v. "秘鲁人"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42487
 entryid: 53140
@@ -3837,7 +3837,7 @@ kind: wrong-sense
 reason: 阿拉伯 is Arabia; the language is 阿拉伯语.
 source: Wiktionary (Chinese), s.v. "阿拉伯语"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42491
 entryid: 53146
@@ -3851,7 +3851,7 @@ kind: wrong-sense
 reason: 旁遮普 is the Punjab; the language is 旁遮普语.
 source: Wiktionary (Chinese), s.v. "旁遮普语"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42493
 entryid: 53148
@@ -3865,7 +3865,7 @@ kind: wrong-sense
 reason: 爪哇 is Java; the language is 爪哇语.
 source: Wiktionary (Chinese), s.v. "爪哇语"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42495
 entryid: 53150
@@ -3879,7 +3879,7 @@ kind: wrong-form
 reason: 朝鲜的 is 'North Korean'; the language is 韩语.
 source: Wiktionary (Chinese), s.v. "韩语"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42518
 entryid: 53179
@@ -3893,7 +3893,7 @@ kind: orthography
 reason: The comma was lost; written like its neighbours.
 source: Wiktionary (Chinese), s.v. "墨西哥城，墨西哥"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42519
 entryid: 53180
@@ -3907,7 +3907,7 @@ kind: orthography
 reason: Written city first, like its neighbours.
 source: Wiktionary (Chinese), s.v. "德黑兰，伊朗"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42534
 entryid: 53199
@@ -3921,7 +3921,7 @@ kind: corrupt
 reason: Hong Kong's value, the row above, was glued on.
 source: Wiktionary (Chinese), s.v. "巴格达，伊拉克"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42556
 entryid: 53227
@@ -3935,7 +3935,7 @@ kind: corrupt
 reason: Athens' value, two rows above, was glued on.
 source: Wiktionary (Chinese), s.v. "罗马，意大利"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42623
 entryid: 53311
@@ -3949,7 +3949,7 @@ kind: wrong-sense
 reason: The word '州' refers to a province or state within a country, whereas the lesson context of 'Politics' refers to a sovereign nation (国家).
 source: Wiktionary (Chinese), s.v. "国家"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42653
 entryid: 53348
@@ -3963,7 +3963,7 @@ kind: wrong-sense
 reason: 不合格 is failing an inspection; non-conformity is 不服从.
 source: Wiktionary (Chinese), s.v. "不服从"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42700
 entryid: 53407
@@ -3977,7 +3977,7 @@ kind: untranslated
 reason: The word was left in English by the translator, but Chinese has a specific term for this political system.
 source: Wiktionary (Chinese), s.v. "邦联制"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42703
 entryid: 53411
@@ -3991,7 +3991,7 @@ kind: wrong-sense
 reason: The Chinese word '组分' refers to a chemical or physical component, whereas the lesson refers to a voter or constituent of a political district.
 source: Wiktionary (Chinese), s.v. "选民"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42707
 entryid: 53416
@@ -4005,7 +4005,7 @@ kind: wrong-sense
 reason: 选民 is the voters; a constituency is 选区.
 source: Wiktionary (Chinese), s.v. "选区"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42717
 entryid: 53428
@@ -4019,7 +4019,7 @@ kind: wrong-word
 reason: The word '异位' is not a standard Chinese term for dystopia; the correct term is '反乌托邦'.
 source: Wiktionary (Chinese), s.v. "反乌托邦"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42732
 entryid: 53447
@@ -4033,7 +4033,7 @@ kind: wrong-sense
 reason: The translation literally means 'a house of a commune' instead of the specific political body 'House of Commons'.
 source: Wiktionary (Chinese), s.v. "下议院"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42742
 entryid: 53460
@@ -4047,7 +4047,7 @@ kind: wrong-word
 reason: 要求 is a demand; a mandate is 授权.
 source: Wiktionary (Chinese), s.v. "授权"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42761
 entryid: 53483
@@ -4061,7 +4061,7 @@ kind: wrong-sense
 reason: 富豪 is a rich man; plutocracy is 富豪统治.
 source: Wiktionary (Chinese), s.v. "富豪统治"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42771
 entryid: 53496
@@ -4075,7 +4075,7 @@ kind: wrong-word
 reason: 苏主义 is truncated; sovietism is 苏维埃主义.
 source: Wiktionary (Chinese), s.v. "苏维埃主义"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42778
 entryid: 53504
@@ -4089,7 +4089,7 @@ kind: wrong-word
 reason: 种族分析 is racial analysis; racial profiling is 种族定性.
 source: Wiktionary (Chinese), s.v. "种族定性"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42793
 entryid: 53524
@@ -4103,7 +4103,7 @@ kind: wrong-word
 reason: The term '工团' is not a standard word for syndicalism; the correct political term is '工团主义'.
 source: Wiktionary (Chinese), s.v. "工团主义"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42840
 entryid: 53583
@@ -4117,7 +4117,7 @@ kind: wrong-word
 reason: 右边锋 is a right winger in football.
 source: Wiktionary (Chinese), s.v. "右派人士"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42844
 entryid: 53587
@@ -4131,7 +4131,7 @@ kind: wrong-form
 reason: 共产 is truncated; beside 社会主义者, a communist is 共产主义者.
 source: Wiktionary (Chinese), s.v. "共产主义者"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42859
 entryid: 53606
@@ -4145,7 +4145,7 @@ kind: untranslated
 reason: The word was left in English by the translator instead of being converted to the Chinese term for a ruler by religious authority.
 source: Wiktionary (Chinese), s.v. "神权统治者"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42862
 entryid: 53610
@@ -4159,7 +4159,7 @@ kind: wrong-word
 reason: 砂锅 is a casserole; an inquisitor is 宗教裁判官.
 source: Wiktionary (Chinese), s.v. "宗教裁判官"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42896
 entryid: 53652
@@ -4173,7 +4173,7 @@ kind: wrong-word
 reason: The translation provided is a medical term for 'intolerance' (like lactose intolerance), not the political/social concept of intolerance.
 source: Wiktionary (Chinese), s.v. "不宽容"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42902
 entryid: 53660
@@ -4187,7 +4187,7 @@ kind: untranslated
 reason: The word was left in English by the translator instead of being converted to the Chinese term for a person who is homophobic.
 source: Wiktionary (Chinese), s.v. "恐同者"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42919
 entryid: 53681
@@ -4201,7 +4201,7 @@ kind: wrong-sense
 reason: 学科 is a school subject; a subject of a monarch is 臣民.
 source: Wiktionary (Chinese), s.v. "臣民": noun: officials and commoners (of a feudal state); subject (citizen in a monarchy or empire)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42922
 entryid: 53684
@@ -4215,7 +4215,7 @@ kind: wrong-word
 reason: The current translation is a literal word-for-word translation of 'rank' and 'file' rather than the idiomatic meaning of ordinary members.
 source: Wiktionary (Chinese), s.v. "基层人员"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42976
 entryid: 53753
@@ -4229,7 +4229,7 @@ kind: orthography
 reason: Written in figures; the lesson teaches the word, 二十六, as most of its rows already give it.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 42979
 entryid: 53756
@@ -4243,7 +4243,7 @@ kind: orthography
 reason: Written in figures; the lesson teaches the word, 二十八, as most of its rows already give it.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 42999
 entryid: 53781
@@ -4257,7 +4257,7 @@ kind: orthography
 reason: Written in figures; the lesson teaches the word, 一千二百, as most of its rows already give it.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 43008
 entryid: 53793
@@ -4271,7 +4271,7 @@ kind: wrong-form
 reason: 两千，一 is written in pieces or as a year; the number itself is 两千零一.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43009
 entryid: 53794
@@ -4285,7 +4285,7 @@ kind: wrong-form
 reason: 两千，二 is written in pieces or as a year; the number itself is 两千零二.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43010
 entryid: 53795
@@ -4299,7 +4299,7 @@ kind: wrong-word
 reason: 两千三 is not how Chinese writes two thousand, three; it is 两千零三.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43011
 entryid: 53796
@@ -4313,7 +4313,7 @@ kind: wrong-form
 reason: 二零零四年 is written in pieces or as a year; the number itself is 两千零四.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43012
 entryid: 53798
@@ -4327,7 +4327,7 @@ kind: wrong-word
 reason: 二千四千二千五 is not how Chinese writes two thousand, five; it is 两千零五.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 43013
 entryid: 53799
@@ -4341,7 +4341,7 @@ kind: wrong-word
 reason: 两千六 is not how Chinese writes two thousand, six; it is 两千零六.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43014
 entryid: 53800
@@ -4355,7 +4355,7 @@ kind: wrong-form
 reason: 二千七，七 is written in pieces or as a year; the number itself is 两千零七.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43015
 entryid: 53801
@@ -4369,7 +4369,7 @@ kind: wrong-word
 reason: 二千八 is not how Chinese writes two thousand, eight; it is 两千零八.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43016
 entryid: 53803
@@ -4383,7 +4383,7 @@ kind: wrong-word
 reason: 两千九 is not how Chinese writes two thousand, nine; it is 两千零九.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43017
 entryid: 53804
@@ -4397,7 +4397,7 @@ kind: wrong-form
 reason: 二千，十 is written in pieces or as a year; the number itself is 两千零一十.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43018
 entryid: 53805
@@ -4411,7 +4411,7 @@ kind: wrong-word
 reason: 两千一十一 is not how Chinese writes two thousand, eleven; it is 两千零一十一.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43019
 entryid: 53806
@@ -4425,7 +4425,7 @@ kind: wrong-word
 reason: 两千二十二 is not how Chinese writes two thousand, twelve; it is 两千零一十二.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43020
 entryid: 53808
@@ -4439,7 +4439,7 @@ kind: orthography
 reason: Written 两千零一十三, with 两千 and 零一十 as the rest of the lesson writes them.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43021
 entryid: 53809
@@ -4453,7 +4453,7 @@ kind: wrong-form
 reason: 二〇一四年 is written in pieces or as a year; the number itself is 两千零一十四.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43022
 entryid: 53810
@@ -4467,7 +4467,7 @@ kind: wrong-form
 reason: 两千，十五 is written in pieces or as a year; the number itself is 两千零一十五.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43023
 entryid: 53811
@@ -4481,7 +4481,7 @@ kind: wrong-word
 reason: 两千六十六 is not how Chinese writes two thousand, sixteen; it is 两千零一十六.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 43024
 entryid: 53813
@@ -4495,7 +4495,7 @@ kind: wrong-form
 reason: 二千，十七 is written in pieces or as a year; the number itself is 两千零一十七.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43025
 entryid: 53814
@@ -4509,7 +4509,7 @@ kind: wrong-form
 reason: 二，十八 is written in pieces or as a year; the number itself is 两千零一十八.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 43026
 entryid: 53815
@@ -4523,7 +4523,7 @@ kind: wrong-form
 reason: 二千，十九 is written in pieces or as a year; the number itself is 两千零一十九.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43027
 entryid: 53816
@@ -4537,7 +4537,7 @@ kind: wrong-word
 reason: 二千二十 is not how Chinese writes two thousand, twenty; it is 两千零二十.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43028
 entryid: 53818
@@ -4551,7 +4551,7 @@ kind: wrong-word
 reason: 二千一百一 is not how Chinese writes two thousand, one hundred, one; it is 两千一百零一.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 43029
 entryid: 53819
@@ -4565,7 +4565,7 @@ kind: wrong-word
 reason: 二千一百二 is not how Chinese writes two thousand, one hundred, two; it is 两千一百零二.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43030
 entryid: 53820
@@ -4579,7 +4579,7 @@ kind: wrong-word
 reason: 两千一百三 is not how Chinese writes two thousand, one hundred, three; it is 两千一百零三.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43031
 entryid: 53821
@@ -4593,7 +4593,7 @@ kind: wrong-word
 reason: 二千一百四 is not how Chinese writes two thousand, one hundred, four; it is 两千一百零四.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43032
 entryid: 53823
@@ -4607,7 +4607,7 @@ kind: orthography
 reason: Written 两千一百五十一, with 两千 and 零一十 as the rest of the lesson writes them.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43033
 entryid: 53824
@@ -4621,7 +4621,7 @@ kind: orthography
 reason: Written 两千一百五十二, with 两千 and 零一十 as the rest of the lesson writes them.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43034
 entryid: 53825
@@ -4635,7 +4635,7 @@ kind: orthography
 reason: Written 两千一百五十三, with 两千 and 零一十 as the rest of the lesson writes them.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 43035
 entryid: 53826
@@ -4649,7 +4649,7 @@ kind: orthography
 reason: Written 两千一百五十四, with 两千 and 零一十 as the rest of the lesson writes them.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 46689
 entryid: 58411
@@ -4663,7 +4663,7 @@ kind: orthography
 reason: Written in figures; the lesson teaches the word, 四百, as most of its rows already give it.
 source: Wiktionary (Chinese), "Chinese numerals": 两千, with 零 for a skipped place
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 47155
 entryid: 58996
@@ -4677,7 +4677,7 @@ kind: wrong-class
 reason: 健康 is health, the noun; healthy is 健康的.
 source: Wiktionary (Chinese), s.v. "健康的"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 47193
 entryid: 59044
@@ -4691,7 +4691,7 @@ kind: wrong-word
 reason: 沙拉三明治 is a salad sandwich; falafel is 炸鹰嘴豆丸子.
 source: Wiktionary (Chinese), s.v. "炸鹰嘴豆丸子"
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 47204
 entryid: 59058
@@ -4705,7 +4705,7 @@ kind: untranslated
 reason: 塞尔特水 is a literal transliteration of 'seltzer' and is not the standard term used by Chinese speakers for seltzer water.
 source: Wiktionary (Chinese), s.v. "苏打水"
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 47206
 entryid: 59061
@@ -4719,7 +4719,7 @@ kind: wrong-word
 reason: 苏打 (sūdǎ) refers to soda ash or sodium carbonate, whereas 汽水 (qìshuǐ) is the standard term for a carbonated soda drink.
 source: Wiktionary (Chinese), s.v. "汽水": noun: fizzy drink, soft drink; carbonated water; soda water; brackish water
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57318
 entryid: 71779
@@ -4733,7 +4733,7 @@ kind: wrong-sense
 reason: 这是怎么回事？ is 'what is going on here?'; as a greeting, what's up is 最近怎么样？
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57353
 entryid: 71823
@@ -4747,7 +4747,7 @@ kind: wrong-word
 reason: The word '大' means 'big' and is not used as an exclamation of approval; '太棒了' is the standard way to say 'Great!'
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57366
 entryid: 71839
@@ -4761,7 +4761,7 @@ kind: wrong-word
 reason: 这是我无所事事 is 'this is me idling'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57382
 entryid: 71859
@@ -4775,7 +4775,7 @@ kind: wrong-sense
 reason: The translation '我很不错' means 'I am not bad' or 'I am quite good,' whereas 'I am nice' in a personality context is better expressed as '我很友善' (I am kind/friendly).
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57433
 entryid: 71923
@@ -4789,7 +4789,7 @@ kind: wrong-form
 reason: The translation '这伤害了' is grammatically incorrect and literally means 'this harmed,' whereas '这里疼' is the natural way to say 'it hurts right here.'
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57491
 entryid: 71995
@@ -4803,7 +4803,7 @@ kind: wrong-sense
 reason: The translation asks if the person likes eating grains in general, rather than asking about adding sugar to cereal.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57525
 entryid: 72038
@@ -4817,7 +4817,7 @@ kind: wrong-form
 reason: 你推荐什么菜单？ asks which menu to recommend.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57530
 entryid: 72044
@@ -4831,7 +4831,7 @@ kind: wrong-word
 reason: 沙龙 is a salon.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57542
 entryid: 72059
@@ -4845,7 +4845,7 @@ kind: wrong-form
 reason: 我不喝早餐 is 'I don't drink breakfast'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57560
 entryid: 72082
@@ -4859,7 +4859,7 @@ kind: wrong-form
 reason: “多靠近” is a literal, incorrect translation; Chinese uses the verb “离” to express distance and “近” to mean close.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57619
 entryid: 72156
@@ -4873,7 +4873,7 @@ kind: wrong-sense
 reason: 那样 is 'that manner'; that way, pointing, is 那边.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57630
 entryid: 72169
@@ -4887,7 +4887,7 @@ kind: wrong-word
 reason: The translation uses '餐厅' (restaurant) instead of the specific 'food stand' (小吃摊) requested in the English phrase.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57636
 entryid: 72177
@@ -4901,7 +4901,7 @@ kind: wrong-form
 reason: The translation is missing the 'still/remaining' aspect and the 'distance from' structure, making it sound like a fragmented list of words rather than a natural question.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57689
 entryid: 72243
@@ -4915,7 +4915,7 @@ kind: wrong-word
 reason: 酒店 is a hotel.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57692
 entryid: 72247
@@ -4929,7 +4929,7 @@ kind: wrong-form
 reason: 他们来了吗 is 'have they arrived?'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57747
 entryid: 72316
@@ -4943,7 +4943,7 @@ kind: wrong-word
 reason: 坦克 is a military tank.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57777
 entryid: 72353
@@ -4957,7 +4957,7 @@ kind: wrong-sense
 reason: The translation omits the 'to the East' part of the phrase, changing the meaning entirely.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57914
 entryid: 72524
@@ -4971,7 +4971,7 @@ kind: wrong-form
 reason: 他们来了吗 is 'have they arrived?'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57940
 entryid: 72556
@@ -4985,7 +4985,7 @@ kind: wrong-form
 reason: 我们来了 is 'we have arrived'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 57954
 entryid: 72574
@@ -4999,7 +4999,7 @@ kind: wrong-form
 reason: 回家 is to go home.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58072
 entryid: 72721
@@ -5013,7 +5013,7 @@ kind: wrong-form
 reason: The Chinese asks how the library approves of the bar.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58112
 entryid: 72771
@@ -5027,7 +5027,7 @@ kind: wrong-form
 reason: 约会 is a date.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58155
 entryid: 72825
@@ -5041,7 +5041,7 @@ kind: wrong-form
 reason: 时 alone is 'time'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58158
 entryid: 72829
@@ -5055,7 +5055,7 @@ kind: wrong-sense
 reason: The original Chinese sentence means 'I worked at 6' rather than 'I get out of work' (finish work).
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58182
 entryid: 72859
@@ -5069,7 +5069,7 @@ kind: wrong-sense
 reason: The Chinese asks when the car starts.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58236
 entryid: 72926
@@ -5083,7 +5083,7 @@ kind: wrong-form
 reason: The Chinese lost the 'that'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58313
 entryid: 73022
@@ -5097,7 +5097,7 @@ kind: wrong-form
 reason: 简不在现在 is in English word order.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58341
 entryid: 73057
@@ -5111,7 +5111,7 @@ kind: wrong-sense
 reason: 可以使用 is 'available for use', of a thing.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58356
 entryid: 73076
@@ -5125,7 +5125,7 @@ kind: wrong-word
 reason: 关掉 is to switch off.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58406
 entryid: 73139
@@ -5139,7 +5139,7 @@ kind: wrong-form
 reason: The translation '你是新的吗？' literally means 'Are you new?' (as in a new object), whereas '你是新手吗？' is the natural way to ask if someone is a beginner or newcomer to an activity.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58417
 entryid: 73152
@@ -5153,7 +5153,7 @@ kind: wrong-form
 reason: 我做了运气 is 'I did luck'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58523
 entryid: 73285
@@ -5167,7 +5167,7 @@ kind: wrong-form
 reason: 不到那个 is not grammatical.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58525
 entryid: 73287
@@ -5181,7 +5181,7 @@ kind: wrong-word
 reason: 多少少 is not grammatical.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58560
 entryid: 73331
@@ -5195,7 +5195,7 @@ kind: wrong-word
 reason: 喝 is to drink it.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58563
 entryid: 73335
@@ -5209,7 +5209,7 @@ kind: wrong-form
 reason: The translation uses '来了' (came), which is past tense, whereas the English question asks for a habitual or future schedule.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58593
 entryid: 73372
@@ -5223,7 +5223,7 @@ kind: wrong-form
 reason: 没有地方 is 'there's no room'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58599
 entryid: 73380
@@ -5237,7 +5237,7 @@ kind: wrong-sense
 reason: 坚持 is to persevere.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58630
 entryid: 73419
@@ -5251,7 +5251,7 @@ kind: wrong-form
 reason: The translation is missing the specific verb for 'trying on' clothes and the object, making it sound like 'you should try' in a general sense.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58631
 entryid: 73420
@@ -5265,7 +5265,7 @@ kind: wrong-sense
 reason: The current translation means 'I will try (an action/task),' whereas the English phrase specifically refers to trying on clothing.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58646
 entryid: 73439
@@ -5279,7 +5279,7 @@ kind: wrong-form
 reason: 我在我的车里 is 'I am in my car'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58664
 entryid: 73461
@@ -5293,7 +5293,7 @@ kind: wrong-form
 reason: 你将如何穿着？ is 'how will you dress?'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58681
 entryid: 73482
@@ -5307,7 +5307,7 @@ kind: wrong-sense
 reason: 红黑人 is 'red and black people'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58755
 entryid: 73577
@@ -5321,7 +5321,7 @@ kind: wrong-word
 reason: 命令 is a command.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58832
 entryid: 73673
@@ -5335,7 +5335,7 @@ kind: wrong-form
 reason: The word '真' is an adjective meaning 'true' and cannot stand alone as a question; it needs a particle like '的吗' to function as the phrase 'Really?'
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 58992
 entryid: 73873
@@ -5349,7 +5349,7 @@ kind: wrong-form
 reason: 会干吗？ is 'will it dry?'.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 59019
 entryid: 73907
@@ -5363,7 +5363,7 @@ kind: wrong-word
 reason: 冲击 is an impact.
 source: Judged as a sentence; each word checked in Wiktionary (Chinese)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 59049
 entryid: 73945
@@ -5377,7 +5377,7 @@ kind: orthography
 reason: Written 红色 like 黄色 and 绿色 beside it.
 source: Wiktionary (Chinese), s.v. "红色"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 59050
 entryid: 73946
@@ -5391,7 +5391,7 @@ kind: wrong-sense
 reason: 橙子 is the fruit; the colour is 橙色.
 source: Wiktionary (Chinese), s.v. "橙色": noun: the color orange
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 59056
 entryid: 73953
@@ -5405,7 +5405,7 @@ kind: wrong-sense
 reason: 紫色 is purple, the next row; violet is 紫罗兰色.
 source: Wiktionary (Chinese), s.v. "紫罗兰色"
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 59059
 entryid: 73957
@@ -5419,7 +5419,7 @@ kind: orthography
 reason: Written 粉色 like its neighbours.
 source: Wiktionary (Chinese), s.v. "粉色": noun: pink (color)
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 59064
 entryid: 73963
@@ -5433,7 +5433,7 @@ kind: wrong-sense
 reason: 明确 is clear as in explicit; among colours, clear is 透明.
 source: Wiktionary (Chinese), s.v. "透明": adj: transparent (allowing light to pass through); transparent (open to public scrutiny)
 checked by: mistral:7b > gemma4:12b, corrected by Claude
-status: proposed
+status: shipped 2026-11-11
 
 id: 59077
 entryid: 73980
@@ -5447,7 +5447,7 @@ kind: wrong-word
 reason: 卢比 is the rupee; the Indonesian rupiah is 印尼盾.
 source: Wiktionary (Chinese), s.v. "印尼盾": noun: Indonesian rupiah
 checked by: Claude, widened from a batch fault the models half-flagged
-status: proposed
+status: shipped 2026-11-11
 
 id: 59079
 entryid: 73982
@@ -5461,4 +5461,4 @@ kind: wrong-word
 reason: 日圆 is the old spelling; the mainland writes 日元.
 source: Wiktionary (Chinese), s.v. "日元": noun: Japanese yen
 checked by: mistral:7b > gemma4:12b, confirmed by Claude
-status: proposed
+status: shipped 2026-11-11

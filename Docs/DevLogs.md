@@ -9,6 +9,38 @@ live installation rather than estimated.
 
 ## 2026, November 11
 
+- EarthFluent's Japanese and Chinese corrections are live: 714 Japanese rows
+  and 390 Chinese, the first pass of either language. The local models'
+  suspects were read one by one, and every batch fault widened to the rows
+  they had passed. Japanese had values copied down whole lessons --
+  B-ムービー over every sport, マックラーカー (muckraker) over 38 Politics
+  words from king to soldier -- and katakana where Japanese has its own word,
+  some of it false friends: テンション is excitement, not tension, ビル a
+  building, not a bill, and フォーク a fork, not folk. Chinese had the row
+  above's English glued on (enterarrive), Baghdad filed as Hong Kong's
+  neighbour, and 看 (to look) standing for a wristwatch. Both Numbers lessons
+  now write every number one way; Chinese had 两千三, which is 2300, for 2003.
+
+- The find-and-replace that made Germany "Japanesey" had reached the
+  Ethnicities lessons too. Comparing every course's English titles slot by
+  slot found each course's own language written over other nationalities in
+  ten courses, and in every course but Spanish over Spanish itself, in the
+  slot that follows Colombia as Spain does in Countries. Italian taught
+  "Italian" twice. 35 rows have their English title, translation and address
+  back, the old address kept so links still resolve.
+
+- These were the first rows to ship through `import_entries.php`: one file
+  of 1,139 guarded rows, so every old value is in RecordChange and every
+  renamed code reserved, the way an edit through the site would leave them.
+  The first run on Fumiko refused 1,067 of them, because RecordChange was
+  latin1 on six sites and could not hold 日本語 -- the importer's new
+  all-or-nothing backups doing their job. RecordChange is now utf8mb4 on
+  every site's database and in `clonefrom`; RevoltLib's 24,127 backups
+  converted in 66 seconds, and none of the latin1 tables had already lost a
+  value to question marks. Applied on Fumiko over that evening's prod dump,
+  warmed (72,376 pages, no leaks, no errors) and swapped in under the
+  checksum guard with the pages.
+
 - An update refused at its backups still left some behind. Shipping
   EarthFluent's Japanese corrections on Fumiko, an entry whose title, code and
   translation all changed had its Entry backups and its old code's
