@@ -10,7 +10,9 @@ A pilot file (pilot-<language>.json, beside this script) adds that course's
 first lessons for the four new types.
 
     mysql -N earthfluent -e "<the query below>" > lessons.tsv
-    python make_restructure.py lessons.tsv <output directory>
+    python make_restructure.py lessons.tsv <output directory> [--no-pilot]
+
+--no-pilot leaves the pilot lessons out, for a run that ships before they are checked.
 
     select l.Code, e.id, e.Title
     from Entry l
@@ -24,6 +26,7 @@ Run each file as a preview first:
 import collections, csv, json, os, re, sys, unicodedata
 
 LESSONS, OUT = sys.argv[1], sys.argv[2]
+PILOT = '--no-pilot' not in sys.argv[3:]
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 LANGUAGES = {
@@ -93,7 +96,7 @@ for language in sorted(courses):
 
     pilot_path = os.path.join(HERE, 'pilot-' + language + '.json')
     new_lessons = new_words = 0
-    if os.path.exists(pilot_path):
+    if PILOT and os.path.exists(pilot_path):
         pilot = json.load(open(pilot_path, encoding='utf-8'))
         for number, lesson in enumerate(pilot['lessons'], 1):
             name = 'pilot-%d' % number
