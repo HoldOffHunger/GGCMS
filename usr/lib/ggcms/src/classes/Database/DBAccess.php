@@ -1340,6 +1340,9 @@
 			cache maintenance, and cache maintenance must never break a write.
 		*/
 
+			// FlushRowCacheNow()
+			// Tests: DBAccessTest::testFlushRowCacheNowForgetsWhatItFlushed()
+			// Test file: tests/src/classes/Database/DBAccessTest.php
 		public function FlushRowCacheNow() {
 			try {
 				$entry_ids = array_keys((array) $this->row_cache_dirty_entry_ids);
@@ -1428,6 +1431,23 @@
 			} catch (Throwable $exception) {
 				# cache maintenance must never break a write
 			}
+
+				/*
+					What was flushed is forgotten, so the next flush is only of
+					what was written after it.  A request flushes once, at
+					shutdown, and this changes nothing for it; an import
+					flushes after every entry, and without this each flush
+					re-deleted every entry the run had touched so far -- the
+					Spanish restructure on Fumiko made 224 moves in its first
+					minute and 30 a minute by its middle.  row_cache_dirty
+					stays set: the shutdown flush is registered already.
+				*/
+
+			$this->row_cache_dirty_entry_ids = [];
+			$this->row_cache_dirty_codes = [];
+			$this->row_cache_dirty_user_ids = [];
+			$this->row_cache_dirty_all_trees = FALSE;
+			$this->row_cache_dirty_all_comments = FALSE;
 
 			return TRUE;
 		}

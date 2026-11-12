@@ -22,6 +22,33 @@
 		}
 	}
 
+		/*
+			A row cache that records what it was told to delete.
+		*/
+
+	class DBAccessTestFileCache {
+		public $deleted = [];
+		public $deleted_all = [];
+
+		public function DeleteCache($args) {
+			$this->deleted[$args['type']][] = $args['arguments'];
+			return TRUE;
+		}
+
+		public function DeleteCache_All($args) {
+			$this->deleted_all[$args['type']] = ($this->deleted_all[$args['type']] ?? 0) + 1;
+			return TRUE;
+		}
+
+		public function DeleteCache_Subtypes($args) {
+			return [];
+		}
+
+		public function DeleteCache_PathSegment($args) {
+			return TRUE;
+		}
+	}
+
 	class DBAccessTest extends GGCMSTestCase {
 		public function testExecuteStatement() {
 			$db_access = $this->newWithoutConstructor(['class'=>'DBAccess']);
@@ -36,6 +63,27 @@
 
 			$this->expectException(mysqli_sql_exception::class);
 			$db_access->ExecuteStatement(['statement'=>new DBAccessTestStatement(new mysqli_sql_exception('Column cannot be null', 1048)), 'query'=>'SELECT 1']);
+		}
+
+			// An import flushes after every entry; each flush must be of what came since the last
+		public function testFlushRowCacheNowForgetsWhatItFlushed() {
+			$db_access = $this->newWithoutConstructor(['class'=>'DBAccess']);
+			$db_access->db_file_cache = new DBAccessTestFileCache();
+			$db_access->row_cache_dirty = TRUE;		# already registered, so no shutdown flush is queued by the test
+
+			$db_access->MarkRowCacheDirty(['type'=>'Assignment', 'update'=>['id'=>1, 'Parentid'=>7, 'Childid'=>12], 'where'=>['id'=>1]]);
+			$db_access->FlushRowCacheNow();
+
+			$this->assertContains(12, $db_access->db_file_cache->deleted['ggcms_ChildRecordCount'][0]);
+			$this->assertSame(1, $db_access->db_file_cache->deleted_all['ggcms_RecordTree']);
+
+			$db_access->db_file_cache->deleted = [];
+			$db_access->MarkRowCacheDirty(['type'=>'Assignment', 'update'=>['Ordering'=>2], 'where'=>['id'=>5]]);
+			$db_access->FlushRowCacheNow();
+
+			$this->assertArrayNotHasKey('ggcms_ChildRecordCount', $db_access->db_file_cache->deleted, 'nothing named an entry since the last flush');
+			$this->assertSame(1, $db_access->db_file_cache->deleted_all['ggcms_RecordTree'], 'the trees are not cleared again for a write that moved nothing');
+			$this->assertTrue($db_access->row_cache_dirty, 'the shutdown flush stays registered');
 		}
 
 			// A moved entry's old path must stop resolving from the row cache
