@@ -1,0 +1,103 @@
+{
+	"language": "korean",
+	"translation_language": "ko",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. The polite 요 form throughout, except where the dictionary form is the lesson.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Letters Built into Blocks, Part 1",
+			"description": "Korean letters are stacked into blocks, one block for each beat. The block 한 is three letters together: ㅎ, ㅏ, and ㄴ.",
+			"words": [["Korea", "한국"], ["The Korean alphabet", "한글"], ["Person", "사람"], ["Love", "사랑"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Plain, Breathy, and Tight, Part 1",
+			"description": "Korean has three kinds of some sounds: plain, breathy, and tight. Hear 불 against 풀, and 달 against 딸.",
+			"words": [["Fire", "불"], ["Grass", "풀"], ["Moon", "달"], ["Daughter", "딸"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Two O Sounds, Part 1",
+			"description": "Korean has two sounds where English has one o: the open ㅓ and the rounded ㅗ. Hear 거기 against 고기, and 커피 against 코피.",
+			"words": [["There", "거기"], ["Meat", "고기"], ["Coffee", "커피"], ["Nosebleed", "코피"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Sound Underneath, Part 1",
+			"description": "A block can end in a consonant written underneath it. One beginning, 바, with four different endings makes four words.",
+			"words": [["Cooked rice", "밥"], ["Night", "밤"], ["Room", "방"], ["Foot", "발"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - The Verb Never Says Who, Part 1",
+			"description": "The verb is the same whoever is going: 가요. Only the word in front, marked by 는 or 은, says who.",
+			"words": [["I go", "저는 가요"], ["She goes", "그녀는 가요"], ["We go", "우리는 가요"], ["They go", "그들은 가요"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Polite Endings, Part 1",
+			"description": "The ending of the verb says when it happens: 가요 for now, 갔어요 for done, and 갈 거예요 for still to come. A no is 안 in front.",
+			"words": [["I go", "가요"], ["I went", "갔어요"], ["I will go", "갈 거예요"], ["I do not go", "안 가요"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Dictionary Form and Polite Form, Part 1",
+			"description": "A dictionary lists every verb ending in 다. To say it politely to someone, the 다 comes off and an ending in 요 goes on.",
+			"words": [["To eat, in the dictionary", "먹다"], ["To eat, said politely", "먹어요"], ["To go, in the dictionary", "가다"], ["To go, said politely", "가요"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Counting Words, Part 1",
+			"description": "The thing comes first, then the number, then a counting word that fits it: 명 for people, 권 for books, 마리 for animals, 대 for machines.",
+			"words": [["One person", "사람 한 명"], ["One book", "책 한 권"], ["One dog", "개 한 마리"], ["One car", "차 한 대"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - The Verb Comes Last, Part 1",
+			"description": "English says I eat rice. Korean says I rice eat: 는 marks who, 을 or 를 marks what, and the verb closes the sentence.",
+			"words": [["I eat rice.", "저는 밥을 먹어요."], ["I drink water.", "저는 물을 마셔요."], ["I read a book.", "저는 책을 읽어요."], ["I see a dog.", "저는 개를 봐요."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "In polite speech, a question has the same words in the same order as the statement. Only the voice rises.",
+			"words": [["You speak Korean.", "한국어를 해요."], ["Do you speak Korean?", "한국어를 해요?"], ["This is the bus to Seoul.", "이것은 서울 가는 버스예요."], ["Is this the bus to Seoul?", "이것은 서울 가는 버스예요?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put 안 in front of the verb. Nothing else in the sentence changes.",
+			"words": [["I go.", "가요."], ["I do not go.", "안 가요."], ["I eat.", "먹어요."], ["I do not eat.", "안 먹어요."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Little Words After, Part 1",
+			"description": "Where English puts to, at, with, and by in front of a word, Korean puts a little marker after it: 에, 에서, 와, 로.",
+			"words": [["I go to Seoul.", "저는 서울에 가요."], ["I eat at home.", "저는 집에서 먹어요."], ["I go with a friend.", "저는 친구와 가요."], ["I go by bus.", "저는 버스로 가요."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb 가요, to go, at work in whole sentences. The place comes first, marked by 에, and the verb comes last.",
+			"words": [["I am going to the market.", "저는 시장에 가요."], ["We are going to the beach.", "우리는 바다에 가요."], ["Are you going to the party?", "파티에 가요?"], ["They are going to Seoul.", "그들은 서울에 가요."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. Korean says I have a car as a car exists: 차가 있어요.",
+			"words": [["Do you have a car?", "차가 있어요?"], ["Yes, I have a car.", "네, 차가 있어요."], ["Do you speak English?", "영어를 해요?"], ["No, I cannot speak English.", "아니요, 영어를 못해요."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "Korean describing words behave like verbs: they close the sentence themselves, with no word for is.",
+			"words": [["The house is big.", "집이 커요."], ["The book is good.", "책이 좋아요."], ["The girl is tall.", "소녀는 키가 커요."], ["The dog is small.", "개가 작아요."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways. Only the end of the verb changes: 갔어요, 가요, 갈 거예요.",
+			"words": [["I went to the market yesterday.", "어제 시장에 갔어요."], ["I am going to the market today.", "오늘 시장에 가요."], ["I will go to the market tomorrow.", "내일 시장에 갈 거예요."], ["I will go tomorrow.", "내일 갈 거예요."]]
+		}
+	]
+}

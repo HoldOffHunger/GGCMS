@@ -1,0 +1,103 @@
+{
+	"language": "polish",
+	"translation_language": "pl",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Informal ty throughout; a male speaker where the word shows it.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Letters with Tails and Strokes, Part 1",
+			"description": "Polish adds marks to make new letters: ę and ą are said through the nose, ł sounds like an English w, and ó like oo. Hear ręka, są, mały, and góra.",
+			"words": [["Hand", "ręka"], ["They are", "są"], ["Small", "mały"], ["Mountain", "góra"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Sz, Cz, and Rz, Part 1",
+			"description": "Two letters, one sound: sz is sh, cz is ch, and rz is like the s in measure. Hear szkoła, czas, rzeka, and morze.",
+			"words": [["School", "szkoła"], ["Time", "czas"], ["River", "rzeka"], ["Sea", "morze"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Soft Sounds, Part 1",
+			"description": "A stroke over s, c, z, or n makes it soft, said with the tongue flat against the roof of the mouth. Hear coś, być, źle, and koń.",
+			"words": [["Something", "coś"], ["To be", "być"], ["Badly", "źle"], ["Horse", "koń"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Where the Stress Falls, Part 1",
+			"description": "Almost every Polish word is stressed on its second-to-last beat. Hear it in kobieta, samochód, dziękuję, and Warszawa.",
+			"words": [["Woman", "kobieta"], ["Car", "samochód"], ["Thank you", "dziękuję"], ["Warsaw", "Warszawa"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb iść, to go, changes its ending to say who is going. Spot what changes: idę, idziesz, idzie, idziemy.",
+			"words": [["I go", "idę"], ["You go", "idziesz"], ["She goes", "idzie"], ["We go", "idziemy"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 2",
+			"description": "More of iść, to go: for all of you, for them, for \"let's\", and for what you are off to do.",
+			"words": [["You all go", "idziecie"], ["They go", "idą"], ["Let's go!", "Chodźmy!"], ["I am going to eat", "Idę jeść"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "Polish has no word for the or a. For more than one, the ending changes, and sometimes the middle too: pies becomes psy.",
+			"words": [["Dog", "pies"], ["Dogs", "psy"], ["House", "dom"], ["Houses", "domy"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Words That Match, Part 1",
+			"description": "A describing word matches the thing it describes, whether a he-word, a she-word, an it-word, or many: nowy, nowa, nowe, nowe.",
+			"words": [["A new house", "nowy dom"], ["A new book", "nowa książka"], ["A new window", "nowe okno"], ["New books", "nowe książki"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "Put czy in front of a statement and it becomes a yes-or-no question. Nothing else moves.",
+			"words": [["You speak Polish.", "Mówisz po polsku."], ["Do you speak Polish?", "Czy mówisz po polsku?"], ["This is the bus to Warsaw.", "To jest autobus do Warszawy."], ["Is this the bus to Warsaw?", "Czy to jest autobus do Warszawy?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put nie in front of the verb. Nothing else in the sentence changes.",
+			"words": [["I speak Polish.", "Mówię po polsku."], ["I do not speak Polish.", "Nie mówię po polsku."], ["I am tired.", "Jestem zmęczony."], ["I am not tired.", "Nie jestem zmęczony."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Leaving Out I and You, Part 1",
+			"description": "The verb's ending already says who is doing it, so Polish usually leaves out I, you, we, and they.",
+			"words": [["I eat.", "Jem."], ["You eat.", "Jesz."], ["We eat.", "Jemy."], ["They eat.", "Jedzą."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come First, Part 1",
+			"description": "As in English, the describing word comes before the thing it describes, and matches it.",
+			"words": [["A white house", "biały dom"], ["A black cat", "czarny kot"], ["A big city", "duże miasto"], ["A new book", "nowa książka"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb iść, to go on foot, at work in whole sentences, and jechać, which Polish uses for going on wheels.",
+			"words": [["I am going to the market.", "Idę na targ."], ["We are going to the beach.", "Idziemy na plażę."], ["Are you going to the party?", "Idziesz na imprezę?"], ["They are going to Warsaw.", "Oni jadą do Warszawy."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. A no takes nie twice: once for no, and once in front of the verb.",
+			"words": [["Do you have a car?", "Masz samochód?"], ["Yes, I have a car.", "Tak, mam samochód."], ["Do you speak English?", "Mówisz po angielsku?"], ["No, I do not speak English.", "Nie, nie mówię po angielsku."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "Describing words matching what they describe, in whole sentences: biały, czerwone, wysoka, małe.",
+			"words": [["The house is white.", "Dom jest biały."], ["The cars are red.", "Samochody są czerwone."], ["The girl is tall.", "Dziewczyna jest wysoka."], ["The dogs are small.", "Psy są małe."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways. The verb changes for a trip finished, a trip under way, and a trip to come.",
+			"words": [["I went to the market yesterday.", "Wczoraj poszedłem na targ."], ["I am going to the market today.", "Dzisiaj idę na targ."], ["I will go to the market tomorrow.", "Jutro pójdę na targ."], ["I will go tomorrow.", "Pójdę jutro."]]
+		}
+	]
+}

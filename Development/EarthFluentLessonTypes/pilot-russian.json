@@ -1,0 +1,103 @@
+{
+	"language": "russian",
+	"translation_language": "ru",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Informal ты throughout; a male speaker where the verb shows it.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Letters That Look Familiar, Part 1",
+			"description": "Some Russian letters look like English ones and sound nothing like them: в is v, н is n, р is r, and с is s. Read вино, нос, река, and сок.",
+			"words": [["Wine", "вино"], ["Nose", "нос"], ["River", "река"], ["Juice", "сок"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Stress Changes the Vowel, Part 1",
+			"description": "An o without the stress is said as a. Hear both kinds of o in молоко, хорошо, окно, and вода.",
+			"words": [["Milk", "молоко"], ["Good", "хорошо"], ["Window", "окно"], ["Water", "вода"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Soft Sign, Part 1",
+			"description": "The soft sign ь softens the sound before it, and can change the word. Hear брат against брать, and мат against мать.",
+			"words": [["Brother", "брат"], ["To take", "брать"], ["Checkmate", "мат"], ["Mother", "мать"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Letter Ы, Part 1",
+			"description": "The letter ы is a sound English does not have, made further back in the mouth than the i of bit. Hear it in ты, мы, сын, and рыба.",
+			"words": [["You", "ты"], ["We", "мы"], ["Son", "сын"], ["Fish", "рыба"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb идти, to go, changes its ending to say who is going. Spot what changes: иду, идёшь, идёт, идём.",
+			"words": [["I go", "я иду"], ["You go", "ты идёшь"], ["She goes", "она идёт"], ["We go", "мы идём"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 2",
+			"description": "More of идти, to go: for all of you, for them, for \"let's\", and for what you are off to do.",
+			"words": [["You all go", "вы идёте"], ["They go", "они идут"], ["Let's go!", "Пойдём!"], ["I am going to eat", "Я иду есть"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "Russian has no word for the or a. For more than one, the ending changes: собака becomes собаки, and дом becomes дома.",
+			"words": [["Dog", "собака"], ["Dogs", "собаки"], ["House", "дом"], ["Houses", "дома"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Words That Match, Part 1",
+			"description": "A describing word matches the thing it describes, whether a he-word, a she-word, an it-word, or many: новый, новая, новое, новые.",
+			"words": [["A new house", "новый дом"], ["A new book", "новая книга"], ["A new window", "новое окно"], ["New books", "новые книги"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "A Russian question has the same words in the same order as the statement. Only the voice rises.",
+			"words": [["You speak Russian.", "Ты говоришь по-русски."], ["Do you speak Russian?", "Ты говоришь по-русски?"], ["This is the bus to Moscow.", "Это автобус в Москву."], ["Is this the bus to Moscow?", "Это автобус в Москву?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put не in front of the verb. Nothing else in the sentence changes.",
+			"words": [["I speak Russian.", "Я говорю по-русски."], ["I do not speak Russian.", "Я не говорю по-русски."], ["I am tired.", "Я устал."], ["I am not tired.", "Я не устал."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - No Word for Is, Part 1",
+			"description": "In the present, Russian simply leaves out am, is, and are. I am a student is I student.",
+			"words": [["I am a student.", "Я студент."], ["She is a doctor.", "Она врач."], ["This is a house.", "Это дом."], ["The book is new.", "Книга новая."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come First, Part 1",
+			"description": "As in English, the describing word comes before the thing it describes, and matches it.",
+			"words": [["A white house", "белый дом"], ["A black cat", "чёрный кот"], ["A big city", "большой город"], ["A new book", "новая книга"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb идти, to go on foot, at work in whole sentences, and ехать, which Russian uses for going on wheels.",
+			"words": [["I am going to the market.", "Я иду на рынок."], ["We are going to the beach.", "Мы идём на пляж."], ["Are you going to the party?", "Ты идёшь на вечеринку?"], ["They are going to Moscow.", "Они едут в Москву."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. Russian says I have as at me there is: у меня есть.",
+			"words": [["Do you have a car?", "У тебя есть машина?"], ["Yes, I have a car.", "Да, у меня есть машина."], ["Do you speak English?", "Ты говоришь по-английски?"], ["No, I do not speak English.", "Нет, я не говорю по-английски."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "No word for is, and the describing word still matches: белый, красные, высокая, маленькие.",
+			"words": [["The house is white.", "Дом белый."], ["The cars are red.", "Машины красные."], ["The girl is tall.", "Девушка высокая."], ["The dogs are small.", "Собаки маленькие."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways. The verb changes for a trip finished, a trip under way, and a trip to come.",
+			"words": [["I went to the market yesterday.", "Вчера я ходил на рынок."], ["I am going to the market today.", "Сегодня я иду на рынок."], ["I will go to the market tomorrow.", "Завтра я пойду на рынок."], ["I will go tomorrow.", "Я пойду завтра."]]
+		}
+	]
+}

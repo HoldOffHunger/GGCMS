@@ -1,0 +1,103 @@
+{
+	"language": "hindi",
+	"translation_language": "hi",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Informal तुम throughout; a male speaker where the verb shows it. The course stores no romanization, so the sound lessons give it in the description.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - A Puff of Breath, Part 1",
+			"description": "A puff of breath after a sound makes a different letter, and a different word. Hear pal against phal, and bāt against bhāt.",
+			"words": [["Moment", "पल"], ["Fruit", "फल"], ["Talk", "बात"], ["Boiled rice", "भात"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Short and Long Vowels, Part 1",
+			"description": "Hold a vowel longer and it is a different word. Hear kam against kām, and din against dīn.",
+			"words": [["Less", "कम"], ["Work", "काम"], ["Day", "दिन"], ["Poor", "दीन"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Line Along the Top, Part 1",
+			"description": "Hindi letters hang from a line that runs along the top of each word. Each letter carries a short a of its own unless a mark changes it.",
+			"words": [["Name", "नाम"], ["Home", "घर"], ["Water", "पानी"], ["Book", "किताब"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Vowel Marks, Part 1",
+			"description": "A vowel after a letter is written as a mark on that letter. One letter, क, with four marks makes four small words: kā, kī, ke, and ko.",
+			"words": [["Of, for a he-word", "का"], ["Of, for a she-word", "की"], ["Of, for many", "के"], ["To", "को"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb जाना, to go, changes with who is going, and with whether they are male or female. Spot जाता, जाते, and जाती.",
+			"words": [["I go", "मैं जाता हूँ"], ["You go", "तुम जाते हो"], ["She goes", "वह जाती है"], ["We go", "हम जाते हैं"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - He Words and She Words, Part 1",
+			"description": "Every naming word is a he-word or a she-word, and the verb matches it: जाता for the boy, जाती for the girl.",
+			"words": [["Boy", "लड़का"], ["Girl", "लड़की"], ["The boy goes", "लड़का जाता है"], ["The girl goes", "लड़की जाती है"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "A word ending in ā changes it to e for more than one: कुत्ता becomes कुत्ते. Others add to the end: किताब becomes किताबें.",
+			"words": [["Dog", "कुत्ता"], ["Dogs", "कुत्ते"], ["Book", "किताब"], ["Books", "किताबें"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Words That Match, Part 1",
+			"description": "A describing word matches the thing it describes: बड़ा for a he-word, बड़ी for a she-word, बड़े for many.",
+			"words": [["A big boy", "बड़ा लड़का"], ["A big girl", "बड़ी लड़की"], ["Big boys", "बड़े लड़के"], ["A good book", "अच्छी किताब"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - The Verb Comes Last, Part 1",
+			"description": "English says I eat an apple. Hindi says I apple eat: who, then what, and the verb closes the sentence.",
+			"words": [["I eat an apple.", "मैं सेब खाता हूँ।"], ["I drink water.", "मैं पानी पीता हूँ।"], ["I read a book.", "मैं किताब पढ़ता हूँ।"], ["I see a dog.", "मैं कुत्ता देखता हूँ।"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "Put क्या in front of a statement and it becomes a yes-or-no question. Nothing else moves.",
+			"words": [["You speak Hindi.", "तुम हिंदी बोलते हो।"], ["Do you speak Hindi?", "क्या तुम हिंदी बोलते हो?"], ["This is the bus to Delhi.", "यह दिल्ली की बस है।"], ["Is this the bus to Delhi?", "क्या यह दिल्ली की बस है?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put नहीं just before the verb.",
+			"words": [["I speak Hindi.", "मैं हिंदी बोलता हूँ।"], ["I do not speak Hindi.", "मैं हिंदी नहीं बोलता।"], ["I am tired.", "मैं थका हूँ।"], ["I am not tired.", "मैं थका नहीं हूँ।"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Little Words After, Part 1",
+			"description": "Where English puts in, on, from, and with in front of a word, Hindi puts them after it: house in, table on.",
+			"words": [["In the house", "घर में"], ["On the table", "मेज़ पर"], ["From Delhi", "दिल्ली से"], ["With a friend", "दोस्त के साथ"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb जाना, to go, at work in whole sentences. The place comes before the verb, and the verb comes last.",
+			"words": [["I am going to the market.", "मैं बाजार जा रहा हूँ।"], ["We are going to the beach.", "हम समुद्र तट जा रहे हैं।"], ["Are you going to the party?", "क्या तुम पार्टी में जा रहे हो?"], ["They are going to Delhi.", "वे दिल्ली जा रहे हैं।"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. Hindi says I have as near me there is: मेरे पास ... है.",
+			"words": [["Do you have a car?", "क्या तुम्हारे पास गाड़ी है?"], ["Yes, I have a car.", "हाँ, मेरे पास गाड़ी है।"], ["Do you speak English?", "क्या तुम अंग्रेज़ी बोलते हो?"], ["No, I do not speak English.", "नहीं, मैं अंग्रेज़ी नहीं बोलता।"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "The thing, then what it is like, then है or हैं to close. The describing word matches: लंबी for the girl, छोटे for the dogs.",
+			"words": [["The house is white.", "मकान सफ़ेद है।"], ["The cars are red.", "गाड़ियाँ लाल हैं।"], ["The girl is tall.", "लड़की लंबी है।"], ["The dogs are small.", "कुत्ते छोटे हैं।"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "In Hindi, कल means both yesterday and tomorrow. Only the verb says which: गया था is went, and जाऊँगा is will go.",
+			"words": [["I went to the market yesterday.", "मैं कल बाजार गया था।"], ["I am going to the market today.", "मैं आज बाजार जा रहा हूँ।"], ["I will go to the market tomorrow.", "मैं कल बाजार जाऊँगा।"], ["I will go tomorrow.", "मैं कल जाऊँगा।"]]
+		}
+	]
+}

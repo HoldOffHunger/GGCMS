@@ -1,0 +1,103 @@
+{
+	"language": "indonesian",
+	"translation_language": "id",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Vocabulary follows the course: bis, mobil, gadis. Everyday saya and kamu.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Said as It Is Written, Part 1",
+			"description": "Every letter is said, and always the same way. Read satu, dua, tiga, and empat aloud, and you have said them right.",
+			"words": [["One", "satu"], ["Two", "dua"], ["Three", "tiga"], ["Four", "empat"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Letter C, Part 1",
+			"description": "The letter c is always the ch of chair, never a k or an s. Hear it in cinta, cantik, kucing, and kecil.",
+			"words": [["Love", "cinta"], ["Beautiful", "cantik"], ["Cat", "kucing"], ["Small", "kecil"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Ng and Ny, Part 1",
+			"description": "Ng is the sound at the end of sing, and ny is the ny of canyon. Either can begin a word. Hear orang, tangan, nyanyi, and nyamuk.",
+			"words": [["Person", "orang"], ["Hand", "tangan"], ["To sing", "nyanyi"], ["Mosquito", "nyamuk"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Two Sounds of E, Part 1",
+			"description": "The letter e has two sounds: a short murmur in enam and besar, and a clear eh in meja and sore.",
+			"words": [["Six", "enam"], ["Big", "besar"], ["Table", "meja"], ["Afternoon", "sore"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - The Verb Never Changes, Part 1",
+			"description": "An Indonesian verb never changes. Only the word in front says who is going: saya, kamu, dia, kami.",
+			"words": [["I go", "saya pergi"], ["You go", "kamu pergi"], ["She goes", "dia pergi"], ["We go", "kami pergi"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "For more than one, say the word twice: anak is a child, and anak-anak is children.",
+			"words": [["Child", "anak"], ["Children", "anak-anak"], ["Book", "buku"], ["Books", "buku-buku"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Done, Doing, and Going To, Part 1",
+			"description": "The verb has no tenses. A small word in front of it says when: sudah for done, sedang for right now, and akan for later.",
+			"words": [["I eat", "saya makan"], ["I have eaten", "saya sudah makan"], ["I am eating", "saya sedang makan"], ["I will eat", "saya akan makan"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Whose It Is, Part 1",
+			"description": "The owner comes after the thing owned: my house is house I, rumah saya.",
+			"words": [["My house", "rumah saya"], ["Your house", "rumah kamu"], ["Her house", "rumah dia"], ["Our house", "rumah kami"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "Put apakah in front of a statement and it becomes a yes-or-no question. Nothing else moves.",
+			"words": [["You speak Indonesian.", "Kamu berbicara bahasa Indonesia."], ["Do you speak Indonesian?", "Apakah kamu berbicara bahasa Indonesia?"], ["This is the bus to Jakarta.", "Ini bis ke Jakarta."], ["Is this the bus to Jakarta?", "Apakah ini bis ke Jakarta?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "Indonesian has two words for not: tidak for doing and describing, and bukan for things.",
+			"words": [["I speak Indonesian.", "Saya berbicara bahasa Indonesia."], ["I do not speak Indonesian.", "Saya tidak berbicara bahasa Indonesia."], ["I am a student.", "Saya pelajar."], ["I am not a student.", "Saya bukan pelajar."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In Indonesian it comes after: rumah putih.",
+			"words": [["A white house", "rumah putih"], ["A black cat", "kucing hitam"], ["A big city", "kota besar"], ["A new book", "buku baru"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - No Word for Is, Part 1",
+			"description": "Indonesian simply leaves out am, is, and are. She is a doctor is she doctor.",
+			"words": [["She is a doctor.", "Dia dokter."], ["This is a house.", "Ini rumah."], ["The house is big.", "Rumah itu besar."], ["The book is new.", "Buku itu baru."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb pergi, to go, at work in whole sentences. It is the same pergi every time, whoever is going.",
+			"words": [["I am going to the market.", "Saya pergi ke pasar."], ["We are going to the beach.", "Kami pergi ke pantai."], ["Are you going to the party?", "Apakah kamu pergi ke pesta?"], ["They are going to Jakarta.", "Mereka pergi ke Jakarta."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. The answer drops apakah, and a no adds tidak.",
+			"words": [["Do you have a car?", "Apakah kamu punya mobil?"], ["Yes, I have a car.", "Ya, saya punya mobil."], ["Do you speak English?", "Apakah kamu berbicara bahasa Inggris?"], ["No, I do not speak English.", "Tidak, saya tidak berbicara bahasa Inggris."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "The thing, then itu for the, then what it is like, with no word for is.",
+			"words": [["The house is white.", "Rumah itu putih."], ["The cars are red.", "Mobil-mobil itu merah."], ["The girl is tall.", "Gadis itu tinggi."], ["The dogs are small.", "Anjing-anjing itu kecil."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways. The verb pergi never changes: the day word says when, and akan marks what is still to come.",
+			"words": [["I went to the market yesterday.", "Kemarin saya pergi ke pasar."], ["I am going to the market today.", "Hari ini saya pergi ke pasar."], ["I will go to the market tomorrow.", "Besok saya akan pergi ke pasar."], ["I will go tomorrow.", "Saya akan pergi besok."]]
+		}
+	]
+}
