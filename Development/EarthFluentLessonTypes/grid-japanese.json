@@ -45,7 +45,7 @@
 		},
 		{
 			"job": "number", "strategy": ["nothing"],
-			"description": "A Japanese word is the same for one and for many: 本 is a book, and books. Only words for people can take たち: 私たち, we.",
+			"description": "A Japanese word is the same for one and for many: 本 is a book, and books. Mostly it is words for people that take たち: 私たち, we.",
 			"rows": [
 				{"english": "Book", "foreign": "本"},
 				{"english": "Books", "foreign": "本", "from": 1},
@@ -89,8 +89,8 @@
 			"rows": [
 				{"english": "One person", "foreign": "一人", "mark": ["人"]},
 				{"english": "Two people", "foreign": "二人", "mark": ["人"]},
-				{"english": "One book", "foreign": "一冊", "mark": ["冊"]},
-				{"english": "One dog", "foreign": "一匹", "mark": ["匹"]}
+				{"english": "One book", "foreign": "一冊の本", "mark": ["冊"]},
+				{"english": "One dog", "foreign": "一匹の犬", "mark": ["匹"]}
 			]
 		},
 		{

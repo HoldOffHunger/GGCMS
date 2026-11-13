@@ -27,7 +27,7 @@
 			"job": "going", "strategy": ["ending"],
 			"description": "Russian verbs come in pairs: one for doing, and one for done. Читал is was reading, and прочитал is read it, to the end. The pair often differs by a piece on the front.",
 			"rows": [
-				{"english": "I read", "foreign": "я читаю", "base": "читать", "features": {"who": "i", "when": "now"}},
+				{"english": "I am reading", "foreign": "я читаю", "base": "читать", "features": {"who": "i", "when": "now"}},
 				{"english": "I was reading", "foreign": "я читал", "mark": ["л"], "base": "читать", "features": {"who": "i", "when": "before", "going": "yes"}},
 				{"english": "I read it, to the end", "foreign": "я прочитал", "mark": ["про"], "from": 2, "base": "прочитать", "features": {"who": "i", "when": "before", "going": "no"}},
 				{"english": "I will read it, to the end", "foreign": "я прочитаю", "mark": ["про"], "from": 1, "base": "прочитать", "features": {"who": "i", "when": "later", "going": "no"}}
@@ -35,7 +35,7 @@
 		},
 		{
 			"job": "command", "strategy": ["ending"],
-			"description": "To tell a friend to do something, the verb ends in и: говори, смотри, иди.",
+			"description": "To tell a friend to do something, the verb often ends in и: говори, смотри, иди.",
 			"rows": [
 				{"english": "Speak!", "foreign": "Говори!", "mark": ["и"], "base": "говорить"},
 				{"english": "Look!", "foreign": "Смотри!", "mark": ["и"], "base": "смотреть"},
@@ -65,7 +65,7 @@
 		},
 		{
 			"job": "whose", "strategy": ["helper word"],
-			"description": "A small word in front says whose it is: мой, твой, её, наш. Мой changes to match the thing owned: мой дом, but моя книга.",
+			"description": "A small word in front says whose it is: мой, твой, её. Мой changes to match the thing owned: мой дом, but моя книга.",
 			"rows": [
 				{"english": "My house", "foreign": "мой дом", "mark": ["мой"]},
 				{"english": "Your house", "foreign": "твой дом", "mark": ["твой"]},

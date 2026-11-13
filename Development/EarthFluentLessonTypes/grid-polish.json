@@ -27,7 +27,7 @@
 			"job": "going", "strategy": ["ending"],
 			"description": "Polish verbs come in pairs: one for doing, and one for done. Czytałem is I was reading, and przeczytałem is I read it, to the end. The pair often differs by a piece on the front.",
 			"rows": [
-				{"english": "I read", "foreign": "czytam", "base": "czytać", "features": {"who": "i", "when": "now"}},
+				{"english": "I am reading", "foreign": "czytam", "base": "czytać", "features": {"who": "i", "when": "now"}},
 				{"english": "I was reading", "foreign": "czytałem", "mark": ["łem"], "base": "czytać", "features": {"who": "i", "when": "before", "going": "yes"}},
 				{"english": "I read it, to the end", "foreign": "przeczytałem", "mark": ["prze"], "from": 2, "base": "przeczytać", "features": {"who": "i", "when": "before", "going": "no"}},
 				{"english": "I will read it, to the end", "foreign": "przeczytam", "mark": ["prze"], "from": 1, "base": "przeczytać", "features": {"who": "i", "when": "later", "going": "no"}}
@@ -105,7 +105,7 @@
 		},
 		{
 			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
-			"description": "To say something is not so, put nie in front of the verb. Nothing else in the sentence changes.",
+			"description": "To say something is not so, put nie in front of the verb. In these sentences, nothing else changes.",
 			"rows": [
 				{"english": "I speak Polish.", "foreign": "Mówię po polsku."},
 				{"english": "I do not speak Polish.", "foreign": "Nie mówię po polsku.", "mark": ["Nie"], "from": 1},

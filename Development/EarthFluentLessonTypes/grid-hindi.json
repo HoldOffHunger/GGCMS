@@ -45,7 +45,7 @@
 		},
 		{
 			"job": "number", "strategy": ["ending"], "replaces": "Patterns - More Than One, Part 1",
-			"description": "A word ending in ā changes it to e for more than one: कुत्ता becomes कुत्ते. Others add to the end: किताब becomes किताबें.",
+			"description": "Many words ending in ā change it to e for more than one: कुत्ता becomes कुत्ते. Others add to the end: किताब becomes किताबें.",
 			"rows": [
 				{"english": "Dog", "foreign": "कुत्ता"},
 				{"english": "Dogs", "foreign": "कुत्ते", "from": 1},
@@ -65,7 +65,7 @@
 		},
 		{
 			"job": "whose", "strategy": ["helper word"],
-			"description": "A word in front says whose it is: मेरा, तुम्हारा, उसका, हमारा. Its ending matches the thing owned: मेरा घर, but मेरी किताब.",
+			"description": "A word in front says whose it is: मेरा, तुम्हारा, उसका. Its ending matches the thing owned: मेरा घर, but मेरी किताब.",
 			"rows": [
 				{"english": "My house", "foreign": "मेरा घर", "mark": ["मेरा"]},
 				{"english": "Your house", "foreign": "तुम्हारा घर", "mark": ["तुम्हारा"]},
