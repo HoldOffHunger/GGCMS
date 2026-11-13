@@ -38,8 +38,16 @@ live installation rather than estimated.
   plain list. On Fumiko, 54 lessons for Spanish, Chinese and Japanese import
   from `Development/EarthFluentLessonTypes/grid-<language>.json` and draw
   their boards from the two tables. Adding the two tables meant naming them
-  in 21 files across both repositories, most of it by rote; a tool that does
-  the rote part is the next thing to build.
+  in 21 files across both repositories, most of it by rote.
+
+- `add_child_table.php` does the rote part, at Ben's asking the same day:
+  one command names a new child table in all twenty-three files, copying how
+  Publication is named, and prints the SQL and the push that follow. Run on
+  copies of both repositories from before the two tables went in, it made the
+  same change the hand did, apart from blank lines it indents as the files do
+  and the hand had not, and three field-to-table cases in the ORM that only an
+  Edit form reads and it leaves for whoever writes one. It previews unless told to apply, writes all the
+  files or none, and stops with the file named when one has changed shape.
 
 ## 2026, November 11
 

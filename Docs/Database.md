@@ -32,6 +32,9 @@ one `check_schema.php` will compare it against.
 
 This is the repair for anything `check_schema.php` reports as *missing —
 present in clonefrom*, and `clonefrom_push.php` does it for every site at once.
+A new child table is named in the code by `add_child_table.php`, which prints
+the `CREATE TABLE` for the step that follows.
+
 A new table is made in `clonefrom` first and pushed from there, and so is a new
 column (`clonefrom_push.php --column=Table.Column`). Measured 1 September 2026, that was
 `EntryCodeReservation` on earthfluent, `PrimaryHostRecord` on sortwords and

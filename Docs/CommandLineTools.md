@@ -298,6 +298,7 @@ the box and a wrong guess is worse than no guess. It names each one instead.
 | `list_databases.php` | Lists databases |
 | `mysql_connect.php` | Connection test |
 | `check_schema.php` | Confirms the tables exist, match the spine, and hold nothing the config forbids fetching |
+| `add_child_table.php` | Names a new child table in every file of both repositories that has to name it -- see below |
 | `clonefrom_push.php` | Creates `clonefrom`'s tables in every site that lacks them -- see below |
 | `syncdown.php` | Copies production databases down to a workstation's MySQL -- see below |
 
@@ -324,6 +325,46 @@ error log sideways to discover thirteen sites in exactly that state.
 `clonefrom` is the reference for the first two checks rather than a list kept
 inside the tool, so adding a table to the schema does not require remembering
 that this file exists.
+
+#### `add_child_table.php`
+
+A child table hangs off an entry -- `Tag`, `Price`, `Publication` -- and the
+engine names each one in twenty-three files across the two repositories: the
+reference schema, its hardcoded description, the ORM's lists, the cache tools'
+lists, the child-type switches in both `clonefrom` trees, and eight steps of
+`modify.php`'s save pipeline. `WordPiece` and `WordForm` went in by hand on
+13 November 2026, and this is the rote part of that, done by one command.
+
+```bash
+add_child_table.php --table=WordPiece --columns="Language:varchar(32),Position:int,Piece:varchar(255)"
+add_child_table.php --table=WordForm --columns="BuiltFromEntryid:int,Language:varchar(32),BaseWord:varchar(255)" --apply
+```
+
+Give only the data columns, as `Name:type`, with `:key` after one that wants an
+index. `id`, `Entryid` and the two dates are added, and a column ending
+`Entryid` is a foreign key: it goes straight after `Entryid` and is indexed
+unasked, which is the order [Database.md](Database.md) asks for. The types are
+`int`, `tinyint(1)`, `varchar(N)` and `text`; anything else is added by hand.
+`--primary=Column` names the column that says what a record is, for the change
+log, and is the first `varchar` that is not `Language` unless given.
+
+Nothing is written without `--apply`, and it is all or nothing. It finds each
+place by how `Publication` is named there, and the new type follows
+`Publication` in the same form. A file that already names the table, or one no
+longer shaped as expected, stops the run with the file named and none of the
+twenty-three written. Each file keeps its own line endings, including the one
+that mixes them.
+
+It runs from a checkout with `GGCMS_CONFIG_REPO` set, edits both, and touches
+no database. What it leaves to a person it prints:
+
+1. the `CREATE TABLE` to run on `clonefrom`, on each host;
+2. `clonefrom_push.php --table=Name --apply`, to give the table to every site;
+3. the site's own switch, `Name_enabled()` returning `TRUE` in the private
+   repository's `etc/ggcms/com.<site>/child_types/enabled.php` -- after 1 and 2
+   on that host, because a site with the switch on reads the table at once;
+4. the Edit form. `modify.php` saves the new type but shows no fields for it,
+   so until a form module is written the importer is the only writer.
 
 #### `clonefrom_push.php`
 
