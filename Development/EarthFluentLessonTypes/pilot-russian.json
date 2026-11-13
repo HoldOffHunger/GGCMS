@@ -54,7 +54,7 @@
 		{
 			"type": "sentence-building",
 			"title": "Sentence Building - Asking a Question, Part 1",
-			"description": "A Russian question has the same words in the same order as the statement. Only the voice rises.",
+			"description": "A Russian yes-or-no question can keep the same words in the same order as the statement. Only the voice rises.",
 			"words": [["You speak Russian.", "Ты говоришь по-русски."], ["Do you speak Russian?", "Ты говоришь по-русски?"], ["This is the bus to Moscow.", "Это автобус в Москву."], ["Is this the bus to Moscow?", "Это автобус в Москву?"]]
 		},
 		{

@@ -6,7 +6,7 @@
 		{
 			"type": "sounds-and-script",
 			"title": "Sounds and Script - Said as It Is Written, Part 1",
-			"description": "Every letter is said, and always the same way. Read satu, dua, tiga, and empat aloud, and you have said them right.",
+			"description": "Every letter is said, and nearly always the same way. Read satu, dua, tiga, and empat aloud, and you have said them right.",
 			"words": [["One", "satu"], ["Two", "dua"], ["Three", "tiga"], ["Four", "empat"]]
 		},
 		{
@@ -29,14 +29,14 @@
 		},
 		{
 			"type": "patterns",
-			"title": "Patterns - The Verb Never Changes, Part 1",
-			"description": "An Indonesian verb never changes. Only the word in front says who is going: saya, kamu, dia, kami.",
+			"title": "Patterns - The Verb Never Says Who, Part 1",
+			"description": "An Indonesian verb does not change for who is doing it. Only the word in front says who is going: saya, kamu, dia, kami.",
 			"words": [["I go", "saya pergi"], ["You go", "kamu pergi"], ["She goes", "dia pergi"], ["We go", "kami pergi"]]
 		},
 		{
 			"type": "patterns",
 			"title": "Patterns - More Than One, Part 1",
-			"description": "For more than one, say the word twice: anak is a child, and anak-anak is children.",
+			"description": "To make it plain that there is more than one, say the word twice: anak is a child, and anak-anak is children.",
 			"words": [["Child", "anak"], ["Children", "anak-anak"], ["Book", "buku"], ["Books", "buku-buku"]]
 		},
 		{

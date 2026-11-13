@@ -49,7 +49,7 @@
 			"type": "patterns",
 			"title": "Patterns - Words That Match, Part 1",
 			"description": "A describing word matches the thing it describes: बड़ा for a he-word, बड़ी for a she-word, बड़े for many.",
-			"words": [["A big boy", "बड़ा लड़का"], ["A big girl", "बड़ी लड़की"], ["Big boys", "बड़े लड़के"], ["A good book", "अच्छी किताब"]]
+			"words": [["A big boy", "बड़ा लड़का"], ["A big girl", "बड़ी लड़की"], ["Big boys", "बड़े लड़के"], ["A big book", "बड़ी किताब"]]
 		},
 		{
 			"type": "sentence-building",
