@@ -659,47 +659,56 @@
 		}
 		
 		public function handleReservedCodeRedirect() {
-		#	print("<!--");
-			$url_pieces = explode('/', $_SERVER['REQUEST_URI']);
-			unset($url_pieces[0]);
-			$full_code = implode('/', $url_pieces);
-			
-			$full_code_without_extension = pathinfo($full_code, PATHINFO_FILENAME);
-			
-			$alternate_short_reserved_code = $url_pieces[count($url_pieces) - 1];
-			unset($url_pieces[count($url_pieces)]);
-	#		print_r($url_pieces);
-			
-			
-			$short_reserved_code = end($url_pieces);
-			$full_reserved_code = implode('/', $url_pieces);
-			
-	#		print($alternate_short_reserved_code);
-	#		print($full_reserved_code);
-		#die("BT:");
-			if($full_code_without_extension !== $full_code) {
-				if($this->handleEntryCodeReservation(['reserved_code'=>$full_code_without_extension])) {
+			foreach($this->ReservedCodeCandidates(['request_uri'=>$_SERVER['REQUEST_URI']]) as $reserved_code) {
+				if($this->handleEntryCodeReservation(['reserved_code'=>$reserved_code])) {
 					return TRUE;
 				}
 			}
-			
-			if($this->handleEntryCodeReservation(['reserved_code'=>$full_code])) {
-				return TRUE;
-			}
-			
-			if($this->handleEntryCodeReservation(['reserved_code'=>$full_reserved_code])) {
-				return TRUE;
-			}
-			
-			if($this->handleEntryCodeReservation(['reserved_code'=>$short_reserved_code])) {
-				return TRUE;
-			}
-			
-			if($this->handleEntryCodeReservation(['reserved_code'=>$alternate_short_reserved_code])) {
-				return TRUE;
-			}
-			
+
 			return FALSE;
+		}
+
+			// ReservedCodeCandidates()
+			// Tests: HandlerRedirectsTest::testReservedCodeCandidates()
+			// Test file: tests/src/classes/Networking/Handler/HandlerRedirectsTest.php
+			/*
+				The codes a request may have been reserved under, in the order
+				to ask for them: the whole path first, and a bare code only
+				when no path matched.
+
+				The bare code used to be asked for first -- pathinfo()'s
+				filename of "dutch/nouns-part-1/" is "nouns-part-1", folders
+				gone -- and a bare code is not one entry's.  EarthFluent's
+				thirteen courses each have a lesson of every code, so the old
+				address of the Dutch lesson found the reservation of the
+				Chinese one, and served it.  The path is the entry's own.
+			*/
+
+		public function ReservedCodeCandidates($args) {
+			$url_pieces = explode('/', $args['request_uri']);
+			unset($url_pieces[0]);
+			$full_code = implode('/', $url_pieces);
+
+			$full_code_without_extension = pathinfo($full_code, PATHINFO_FILENAME);
+
+			$alternate_short_reserved_code = $url_pieces[count($url_pieces) - 1];
+			unset($url_pieces[count($url_pieces)]);
+
+			$short_reserved_code = end($url_pieces);
+			$full_reserved_code = implode('/', $url_pieces);
+
+			$candidates = [$full_code, $full_reserved_code];
+
+			if($full_code_without_extension !== $full_code) {
+				$candidates[] = $full_code_without_extension;
+			}
+
+			$candidates[] = $short_reserved_code;
+			$candidates[] = $alternate_short_reserved_code;
+
+			return array_values(array_unique(array_filter($candidates, function($candidate) {
+				return is_string($candidate) && strlen($candidate);
+			})));
 		}
 		
 		public function handleEntryCodeReservation($args) {

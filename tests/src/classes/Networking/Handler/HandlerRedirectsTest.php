@@ -88,6 +88,28 @@
 			}
 		}
 
+			// The whole path is asked for before any bare code: a bare code is shared, a path is not
+		public function testReservedCodeCandidates() {
+			$redirects = $this->newRedirects();
+
+			$this->assertSame(
+				['dutch/nouns-part-1/', 'dutch/nouns-part-1', 'nouns-part-1'],
+				$redirects->ReservedCodeCandidates(['request_uri'=>'/dutch/nouns-part-1/'])
+			);
+
+			$this->assertSame(
+				['dutch/nouns-part-1/view.php', 'dutch/nouns-part-1', 'view', 'nouns-part-1'],
+				$redirects->ReservedCodeCandidates(['request_uri'=>'/dutch/nouns-part-1/view.php'])
+			);
+
+			$candidates = $redirects->ReservedCodeCandidates(['request_uri'=>'/dutch/nouns-part-1/dog/']);
+			$this->assertSame('dutch/nouns-part-1/dog', $candidates[1], 'a word under a moved lesson is found by its own old path');
+			$this->assertLessThan(array_search('dog', $candidates, TRUE), array_search('dutch/nouns-part-1/dog', $candidates, TRUE));
+
+			$this->assertSame(['old-code'], $redirects->ReservedCodeCandidates(['request_uri'=>'/old-code']));
+			$this->assertSame([], $redirects->ReservedCodeCandidates(['request_uri'=>'/']));
+		}
+
 		public function testBadEndingCharacters() {
 			$bad_endings = $this->newRedirects()->badEndingCharacters();
 
