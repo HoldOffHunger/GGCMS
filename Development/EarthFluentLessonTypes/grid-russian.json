@@ -1,0 +1,187 @@
+{
+	"language": "russian",
+	"translation_language": "ru",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal ты throughout, except where polite against familiar is the lesson; a male speaker where the verb shows it.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["ending"],
+			"description": "The verb's ending says who is doing it: говорю, говоришь, говорит, говорим. Spot what changes.",
+			"rows": [
+				{"english": "I speak", "foreign": "я говорю", "mark": ["ю"], "base": "говорить", "features": {"who": "i", "when": "now"}},
+				{"english": "You speak", "foreign": "ты говоришь", "mark": ["ишь"], "base": "говорить", "features": {"who": "you", "when": "now"}},
+				{"english": "She speaks", "foreign": "она говорит", "mark": ["ит"], "base": "говорить", "features": {"who": "she", "when": "now"}},
+				{"english": "We speak", "foreign": "мы говорим", "mark": ["им"], "base": "говорить", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["ending", "helper word"],
+			"description": "For before, the verb ends in л, and adds а when a woman is the one: говорил, говорила. For later, the helper буду goes in front: буду говорить.",
+			"rows": [
+				{"english": "I speak", "foreign": "я говорю", "base": "говорить", "features": {"who": "i", "when": "now"}},
+				{"english": "I spoke", "foreign": "я говорил", "mark": ["л"], "from": 1, "base": "говорить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will speak", "foreign": "я буду говорить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "говорить", "features": {"who": "i", "when": "later"}},
+				{"english": "She spoke", "foreign": "она говорила", "mark": ["ла"], "base": "говорить", "features": {"who": "she", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["ending"],
+			"description": "Russian verbs come in pairs: one for doing, and one for done. Читал is was reading, and прочитал is read it, to the end. The pair often differs by a piece on the front.",
+			"rows": [
+				{"english": "I read", "foreign": "я читаю", "base": "читать", "features": {"who": "i", "when": "now"}},
+				{"english": "I was reading", "foreign": "я читал", "mark": ["л"], "base": "читать", "features": {"who": "i", "when": "before", "going": "yes"}},
+				{"english": "I read it, to the end", "foreign": "я прочитал", "mark": ["про"], "from": 2, "base": "прочитать", "features": {"who": "i", "when": "before", "going": "no"}},
+				{"english": "I will read it, to the end", "foreign": "я прочитаю", "mark": ["про"], "from": 1, "base": "прочитать", "features": {"who": "i", "when": "later", "going": "no"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["ending"],
+			"description": "To tell a friend to do something, the verb ends in и: говори, смотри, иди.",
+			"rows": [
+				{"english": "Speak!", "foreign": "Говори!", "mark": ["и"], "base": "говорить"},
+				{"english": "Look!", "foreign": "Смотри!", "mark": ["и"], "base": "смотреть"},
+				{"english": "Go!", "foreign": "Иди!", "mark": ["и"], "base": "идти"},
+				{"english": "Wait!", "foreign": "Подожди!", "mark": ["и"], "base": "подождать"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["ending"], "replaces": "Patterns - More Than One, Part 1",
+			"description": "Russian has no word for the or a. For more than one, the ending changes: собака becomes собаки, and дом becomes дома.",
+			"rows": [
+				{"english": "Dog", "foreign": "собака"},
+				{"english": "Dogs", "foreign": "собаки", "mark": ["и"], "from": 1},
+				{"english": "House", "foreign": "дом"},
+				{"english": "Houses", "foreign": "дома", "mark": ["а"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["nothing"],
+			"description": "Russian has no word for the or a. Книга is book, a book, and the book.",
+			"rows": [
+				{"english": "Book", "foreign": "книга"},
+				{"english": "I am reading a book.", "foreign": "Я читаю книгу."},
+				{"english": "The book is new.", "foreign": "Книга новая."},
+				{"english": "I see the dog.", "foreign": "Я вижу собаку."}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["helper word"],
+			"description": "A small word in front says whose it is: мой, твой, её, наш. Мой changes to match the thing owned: мой дом, but моя книга.",
+			"rows": [
+				{"english": "My house", "foreign": "мой дом", "mark": ["мой"]},
+				{"english": "Your house", "foreign": "твой дом", "mark": ["твой"]},
+				{"english": "Her house", "foreign": "её дом", "mark": ["её"]},
+				{"english": "My book", "foreign": "моя книга", "mark": ["моя"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Этот is this and тот is that. Both change to match the thing: этот дом, эта книга.",
+			"rows": [
+				{"english": "This house", "foreign": "этот дом", "mark": ["этот"]},
+				{"english": "That house", "foreign": "тот дом", "mark": ["тот"]},
+				{"english": "This book", "foreign": "эта книга", "mark": ["эта"]},
+				{"english": "That book", "foreign": "та книга", "mark": ["та"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["ending"],
+			"description": "After a number, the thing counted changes its ending. After one it is plain, after two, three, and four it takes one ending, and from five on another.",
+			"rows": [
+				{"english": "One book", "foreign": "одна книга"},
+				{"english": "Two books", "foreign": "две книги", "mark": ["и"], "from": 1},
+				{"english": "Five books", "foreign": "пять книг", "mark": ["книг"], "from": 1},
+				{"english": "One house", "foreign": "один дом"}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["helper word", "ending"],
+			"description": "Russian has two words for you: ты for friends and family, and вы for everyone else. The verb's ending changes with them.",
+			"rows": [
+				{"english": "You speak, to a friend", "foreign": "ты говоришь", "mark": ["ты", {"text": "ишь", "role": "ending"}], "base": "говорить", "features": {"who": "you", "polite": "no"}},
+				{"english": "You speak, said politely", "foreign": "вы говорите", "mark": ["вы", {"text": "ите", "role": "ending"}], "from": 1, "base": "говорить", "features": {"who": "you", "polite": "yes"}},
+				{"english": "How are you? to a friend", "foreign": "Как у тебя дела?", "mark": ["тебя"]},
+				{"english": "How are you? said politely", "foreign": "Как у вас дела?", "mark": ["вас"], "from": 3}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put не in front of the verb. Nothing else in the sentence changes.",
+			"rows": [
+				{"english": "I speak Russian.", "foreign": "Я говорю по-русски."},
+				{"english": "I do not speak Russian.", "foreign": "Я не говорю по-русски.", "mark": ["не"], "from": 1},
+				{"english": "I am tired.", "foreign": "Я устал."},
+				{"english": "I am not tired.", "foreign": "Я не устал.", "mark": ["не"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["tone"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "A Russian yes-or-no question can keep the same words in the same order as the statement. Only the voice rises.",
+			"rows": [
+				{"english": "You speak Russian.", "foreign": "Ты говоришь по-русски."},
+				{"english": "Do you speak Russian?", "foreign": "Ты говоришь по-русски?", "mark": ["?"], "from": 1},
+				{"english": "This is the bus to Moscow.", "foreign": "Это автобус в Москву."},
+				{"english": "Is this the bus to Moscow?", "foreign": "Это автобус в Москву?", "mark": ["?"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["word order"],
+			"description": "The asking word comes first: кто, что, где. There is no word for is.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "Кто она?", "mark": ["Кто"]},
+				{"english": "What is this?", "foreign": "Что это?", "mark": ["Что"]},
+				{"english": "Where is the bus?", "foreign": "Где автобус?", "mark": ["Где"]},
+				{"english": "Where do you live?", "foreign": "Где ты живёшь?", "mark": ["Где"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word"],
+			"description": "Want to and can are verbs of their own, in front of the other verb, which stays whole. Must is said as to me it is needed: мне надо.",
+			"rows": [
+				{"english": "I eat.", "foreign": "Я ем."},
+				{"english": "I want to eat.", "foreign": "Я хочу есть.", "mark": ["хочу"], "from": 1},
+				{"english": "I can eat.", "foreign": "Я могу есть.", "mark": ["могу"], "from": 1},
+				{"english": "I must eat.", "foreign": "Мне надо есть.", "mark": ["Мне надо"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["ending"], "replaces": "Sentence Building - Describing Words Come First, Part 1",
+			"description": "As in English, the describing word comes before the thing it describes, and its ending matches it.",
+			"rows": [
+				{"english": "A white house", "foreign": "белый дом", "mark": ["белый"]},
+				{"english": "A black cat", "foreign": "чёрный кот", "mark": ["чёрный"]},
+				{"english": "A big city", "foreign": "большой город", "mark": ["большой"]},
+				{"english": "A new book", "foreign": "новая книга", "mark": ["новая"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["helper word", "ending"],
+			"description": "A small word in front of the place says where: на is on, and в is in. The place changes its ending after them. There is no word for is.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "Книга на столе.", "mark": ["на", {"text": "е", "role": "ending"}]},
+				{"english": "The cat is in the house.", "foreign": "Кошка в доме.", "mark": ["в", {"text": "е", "role": "ending"}]},
+				{"english": "I am at home.", "foreign": "Я дома.", "mark": ["дома"]},
+				{"english": "She is in Moscow.", "foreign": "Она в Москве.", "mark": ["в", {"text": "е", "role": "ending"}]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["ending", "helper word"],
+			"description": "For more, the describing word changes its ending: высокий, выше. For the most, самый goes in front: самый высокий.",
+			"rows": [
+				{"english": "Tall", "foreign": "высокий"},
+				{"english": "Taller", "foreign": "выше", "mark": ["выше"], "from": 1},
+				{"english": "The tallest", "foreign": "самый высокий", "mark": [{"text": "самый", "role": "helper word"}], "from": 1},
+				{"english": "More expensive", "foreign": "дороже", "mark": ["дороже"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "И is and, или is or, но is but, and потому что is because. They sit between the two halves, as in English.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "собака и кошка", "mark": ["и"]},
+				{"english": "Coffee or tea", "foreign": "кофе или чай", "mark": ["или"]},
+				{"english": "I am tired, but I am going.", "foreign": "Я устал, но я иду.", "mark": ["но"]},
+				{"english": "I eat because I am hungry.", "foreign": "Я ем, потому что я голоден.", "mark": ["потому что"]}
+			]
+		}
+	]
+}

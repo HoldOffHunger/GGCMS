@@ -8,6 +8,7 @@ on this page is what a lesson will show. The page is a throwaway: it is not comm
 """
 import html
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -22,17 +23,23 @@ TOKENS = (':root { --serif: "Literata", Georgia, "Times New Roman", serif; --san
 TYPES = {"patterns": "Patterns", "sentence-building": "Sentence Building"}
 
 
-def marked(foreign: str, marks: list[str]) -> str:
-    # Wrap each mark's first unclaimed appearance, left to right, so "¿" and "?" or two は's each get their own
+def marked(foreign: str, pieces: list[tuple[str, str]]) -> str:
+    # As the lesson template finds them: an ending is the last place its text appears; any other piece is the first place
+    # it stands as a word of its own after the piece before it, or failing that the first place it appears at all
     spans, start = [], 0
-    for mark in marks:
-        at = foreign.find(mark, start)
-        if at < 0:
-            at = foreign.find(mark)
-        if at < 0 or any(a < at + len(mark) and at < b for a, b in spans):
+    for text, role in pieces:
+        if role == "ending":
+            at = foreign.rfind(text)
+        else:
+            found = re.compile(r"(?<![^\W\d_])" + re.escape(text) + r"(?![^\W\d_])").search(foreign, start)
+            at = found.start() if found else foreign.find(text, start)
+            if at < 0:
+                at = foreign.find(text)
+        if at < 0 or any(a < at + len(text) and at < b for a, b in spans):
             continue
-        spans.append((at, at + len(mark)))
-        start = at + len(mark)
+        spans.append((at, at + len(text)))
+        if role != "ending":
+            start = at + len(text)
     out, last = [], 0
     for a, b in sorted(spans):
         out += [html.escape(foreign[last:a]), "<mark>", html.escape(foreign[a:b]), "</mark>"]
@@ -45,7 +52,7 @@ def board(cell: dict, job: dict, grid: dict, strategies: dict) -> str:
     rows = []
     for row in cell["rows"]:
         source = f' data-from="{row["from"]}"' if "from" in row else ""
-        rows.append(f'<li class="board-row"{source}><span class="board-foreign" lang="{code}">{marked(row["foreign"], [mark["text"] if isinstance(mark, dict) else mark for mark in row.get("mark", [])])}</span>'
+        rows.append(f'<li class="board-row"{source}><span class="board-foreign" lang="{code}">{marked(row["foreign"], [(mark["text"], mark["role"]) if isinstance(mark, dict) else (mark, cell["strategy"][0]) for mark in row.get("mark", [])])}</span>'
                     f'<span class="board-english">{html.escape(row["english"])}</span></li>')
     how = " and ".join(f"<b>{html.escape(name)}</b>" for name in cell["strategy"])
     return (f'<section class="block lesson-block lesson-board" id="{code}-{job["code"]}" data-strategy="{html.escape(cell["strategy"][0])}" '

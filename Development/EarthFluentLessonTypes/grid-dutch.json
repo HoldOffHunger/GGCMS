@@ -1,0 +1,187 @@
+{
+	"language": "dutch",
+	"translation_language": "nl",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal jij throughout, except where polite against familiar is the lesson.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["ending"], "replaces": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb gaan, to go, changes to say who is going: ik ga, jij gaat, zij gaat, wij gaan.",
+			"rows": [
+				{"english": "I go", "foreign": "ik ga", "base": "gaan", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "jij gaat", "mark": ["t"], "base": "gaan", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "zij gaat", "mark": ["t"], "base": "gaan", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "wij gaan", "mark": ["n"], "base": "gaan", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["helper word", "ending"],
+			"description": "For before, Dutch uses a helper, ben or heb, and a changed verb at the end: ik ben gegaan. For later, the helper zal: ik zal gaan.",
+			"rows": [
+				{"english": "I go", "foreign": "ik ga", "base": "gaan", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "ik ben gegaan", "mark": ["ben", {"text": "gegaan", "role": "ending"}], "from": 1, "base": "gaan", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "ik zal gaan", "mark": ["zal"], "from": 1, "base": "gaan", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "zij is gegaan", "mark": ["is", {"text": "gegaan", "role": "ending"}], "base": "gaan", "features": {"who": "she", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["helper word"],
+			"description": "For something going on right now, Dutch says I am at the eating: ik ben aan het eten.",
+			"rows": [
+				{"english": "I eat", "foreign": "ik eet", "base": "eten", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "ik ben aan het eten", "mark": ["ben aan het"], "from": 1, "base": "eten", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I read", "foreign": "ik lees", "base": "lezen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am reading", "foreign": "ik ben aan het lezen", "mark": ["ben aan het"], "from": 3, "base": "lezen", "features": {"who": "i", "when": "now", "going": "yes"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["ending"],
+			"description": "To tell someone to do something, the verb comes first and stands short, without its ending: Kom! Kijk! Wacht!",
+			"rows": [
+				{"english": "Come!", "foreign": "Kom!", "base": "komen"},
+				{"english": "Go!", "foreign": "Ga!", "base": "gaan"},
+				{"english": "Look!", "foreign": "Kijk!", "base": "kijken"},
+				{"english": "Wait!", "foreign": "Wacht!", "base": "wachten"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["ending", "helper word"], "replaces": "Patterns - More Than One, Part 1",
+			"description": "For more than one, most words gain en, and the word for the is always de: het huis, de huizen.",
+			"rows": [
+				{"english": "The dog", "foreign": "de hond"},
+				{"english": "The dogs", "foreign": "de honden", "mark": ["en"], "from": 1},
+				{"english": "The house", "foreign": "het huis"},
+				{"english": "The houses", "foreign": "de huizen", "mark": [{"text": "de", "role": "helper word"}, "en"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["helper word"], "replaces": "Patterns - Two Words for The, Part 1",
+			"description": "Dutch has two words for the: de and het. Each naming word has its own, and it is learned with the word. A is always een.",
+			"rows": [
+				{"english": "The man", "foreign": "de man", "mark": ["de"]},
+				{"english": "The woman", "foreign": "de vrouw", "mark": ["de"]},
+				{"english": "The child", "foreign": "het kind", "mark": ["het"]},
+				{"english": "The girl", "foreign": "het meisje", "mark": ["het"]}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["helper word"],
+			"description": "A small word in front says whose it is: mijn, jouw, haar, ons.",
+			"rows": [
+				{"english": "My house", "foreign": "mijn huis", "mark": ["mijn"]},
+				{"english": "Your house", "foreign": "jouw huis", "mark": ["jouw"]},
+				{"english": "Her house", "foreign": "haar huis", "mark": ["haar"]},
+				{"english": "Our house", "foreign": "ons huis", "mark": ["ons"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Het-words take dit for this and dat for that. De-words take deze and die.",
+			"rows": [
+				{"english": "This book", "foreign": "dit boek", "mark": ["dit"]},
+				{"english": "That book", "foreign": "dat boek", "mark": ["dat"]},
+				{"english": "This dog", "foreign": "deze hond", "mark": ["deze"]},
+				{"english": "That dog", "foreign": "die hond", "mark": ["die"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["nothing"],
+			"description": "A number goes straight in front of the thing, as in English, and the number itself never changes.",
+			"rows": [
+				{"english": "One book", "foreign": "één boek"},
+				{"english": "Two books", "foreign": "twee boeken"},
+				{"english": "Three dogs", "foreign": "drie honden"},
+				{"english": "Four houses", "foreign": "vier huizen"}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["helper word"],
+			"description": "Dutch has two words for you: jij for friends and family, and u for strangers and elders.",
+			"rows": [
+				{"english": "You speak, to a friend", "foreign": "jij spreekt", "mark": ["jij"], "base": "spreken", "features": {"who": "you", "polite": "no"}},
+				{"english": "You speak, said politely", "foreign": "u spreekt", "mark": ["u"], "from": 1, "base": "spreken", "features": {"who": "you", "polite": "yes"}},
+				{"english": "How are you? to a friend", "foreign": "Hoe gaat het met jou?", "mark": ["jou"]},
+				{"english": "How are you? said politely", "foreign": "Hoe gaat het met u?", "mark": ["u"], "from": 3}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, add niet. It comes after the verb, and often at the very end.",
+			"rows": [
+				{"english": "I am tired.", "foreign": "Ik ben moe."},
+				{"english": "I am not tired.", "foreign": "Ik ben niet moe.", "mark": ["niet"], "from": 1},
+				{"english": "I am coming today.", "foreign": "Ik kom vandaag."},
+				{"english": "I am not coming today.", "foreign": "Ik kom vandaag niet.", "mark": ["niet"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["word order"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "To ask, move the verb to the front. The other words keep their order.",
+			"rows": [
+				{"english": "You speak Dutch.", "foreign": "Jij spreekt Nederlands."},
+				{"english": "Do you speak Dutch?", "foreign": "Spreek jij Nederlands?", "mark": ["Spreek"], "from": 1},
+				{"english": "This is the bus to Amsterdam.", "foreign": "Dit is de bus naar Amsterdam."},
+				{"english": "Is this the bus to Amsterdam?", "foreign": "Is dit de bus naar Amsterdam?", "mark": ["Is"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["word order"],
+			"description": "The asking word comes first, and the verb straight after it: wie, wat, waar.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "Wie is zij?", "mark": ["Wie"]},
+				{"english": "What is this?", "foreign": "Wat is dit?", "mark": ["Wat"]},
+				{"english": "Where is the bus?", "foreign": "Waar is de bus?", "mark": ["Waar"]},
+				{"english": "Where do you live?", "foreign": "Waar woon jij?", "mark": ["Waar"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word", "word order"],
+			"description": "Want to, can, and must are verbs of their own. They take the verb's place, and the other verb goes to the end of the sentence, whole.",
+			"rows": [
+				{"english": "I eat.", "foreign": "Ik eet."},
+				{"english": "I want to eat.", "foreign": "Ik wil eten.", "mark": ["wil"], "from": 1},
+				{"english": "I can eat.", "foreign": "Ik kan eten.", "mark": ["kan"], "from": 1},
+				{"english": "I must eat.", "foreign": "Ik moet eten.", "mark": ["moet"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["ending"], "replaces": "Sentence Building - Describing Words Come First, Part 1",
+			"description": "As in English, the describing word comes before the thing. It usually gains an e, but not after een with a het-word: een zwarte kat, een wit huis.",
+			"rows": [
+				{"english": "A white house", "foreign": "een wit huis", "mark": ["wit"]},
+				{"english": "A black cat", "foreign": "een zwarte kat", "mark": ["zwarte"]},
+				{"english": "A big dog", "foreign": "een grote hond", "mark": ["grote"]},
+				{"english": "A new book", "foreign": "een nieuw boek", "mark": ["nieuw"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["helper word"],
+			"description": "A small word in front of the place says where: op, in. Dutch often says a thing lies or stands where English says is: het boek ligt op de tafel.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "Het boek ligt op de tafel.", "mark": ["ligt", "op"]},
+				{"english": "The cat is in the house.", "foreign": "De kat is in het huis.", "mark": ["is", "in"]},
+				{"english": "I am at home.", "foreign": "Ik ben thuis.", "mark": ["thuis"]},
+				{"english": "She is in Amsterdam.", "foreign": "Zij is in Amsterdam.", "mark": ["is", "in"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["ending", "helper word"],
+			"description": "For more, the describing word gains er, as English big becomes bigger. For the most, it gains st: groot, groter, het grootst.",
+			"rows": [
+				{"english": "Big", "foreign": "groot"},
+				{"english": "Bigger", "foreign": "groter", "mark": ["er"], "from": 1},
+				{"english": "The biggest", "foreign": "het grootst", "mark": [{"text": "het", "role": "helper word"}, "st"], "from": 1},
+				{"english": "More expensive", "foreign": "duurder", "mark": ["er"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "En is and, of is or, maar is but, and omdat is because. After omdat, the verb goes to the end.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "de hond en de kat", "mark": ["en"]},
+				{"english": "Coffee or tea", "foreign": "koffie of thee", "mark": ["of"]},
+				{"english": "I am tired, but I am going.", "foreign": "Ik ben moe, maar ik ga.", "mark": ["maar"]},
+				{"english": "I eat because I am hungry.", "foreign": "Ik eet omdat ik honger heb.", "mark": ["omdat"]}
+			]
+		}
+	]
+}

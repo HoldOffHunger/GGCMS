@@ -1,0 +1,187 @@
+{
+	"language": "korean",
+	"translation_language": "ko",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. The polite 요 form throughout, except where the dictionary form is the lesson. The course stores no romanization yet, so the board will have none until the sounds job has run.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["nothing"], "replaces": "Patterns - The Verb Never Says Who, Part 1",
+			"description": "The verb is the same whoever is going: 가요. Only the word in front, marked by 는 or 은, says who.",
+			"rows": [
+				{"english": "I go", "foreign": "저는 가요", "mark": ["가요"], "base": "가다", "features": {"who": "i", "when": "now"}},
+				{"english": "She goes", "foreign": "그녀는 가요", "mark": ["가요"], "base": "가다", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "우리는 가요", "mark": ["가요"], "base": "가다", "features": {"who": "we", "when": "now"}},
+				{"english": "They go", "foreign": "그들은 가요", "mark": ["가요"], "base": "가다", "features": {"who": "they", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["ending"], "replaces": "Patterns - Polite Endings, Part 1",
+			"description": "The ending of the verb says when it happens: 가요 for now, 갔어요 for done, and 갈 거예요 for still to come.",
+			"rows": [
+				{"english": "I go", "foreign": "가요", "base": "가다", "features": {"when": "now"}},
+				{"english": "I went", "foreign": "갔어요", "mark": ["갔어요"], "from": 1, "base": "가다", "features": {"when": "before"}},
+				{"english": "I will go", "foreign": "갈 거예요", "mark": ["갈 거예요"], "from": 1, "base": "가다", "features": {"when": "later"}},
+				{"english": "I went yesterday", "foreign": "어제 갔어요", "mark": ["갔어요"], "base": "가다", "features": {"when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["ending"],
+			"description": "For something going on right now, the verb ends in 고 있어요. For something finished, it ends in 었어요.",
+			"rows": [
+				{"english": "I eat", "foreign": "먹어요", "base": "먹다", "features": {"when": "now"}},
+				{"english": "I am eating", "foreign": "먹고 있어요", "mark": ["고 있어요"], "from": 1, "base": "먹다", "features": {"when": "now", "going": "yes"}},
+				{"english": "I ate", "foreign": "먹었어요", "mark": ["었어요"], "from": 1, "base": "먹다", "features": {"when": "before", "going": "no"}},
+				{"english": "She is reading a book.", "foreign": "그녀는 책을 읽고 있어요.", "mark": ["고 있어요"], "base": "읽다", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["ending"],
+			"description": "To ask someone politely to do something, the verb ends in 세요.",
+			"rows": [
+				{"english": "Please eat.", "foreign": "드세요.", "mark": ["세요"], "base": "들다"},
+				{"english": "Please come.", "foreign": "오세요.", "mark": ["세요"], "base": "오다"},
+				{"english": "Please look.", "foreign": "보세요.", "mark": ["세요"], "base": "보다"},
+				{"english": "Please wait.", "foreign": "기다리세요.", "mark": ["세요"], "base": "기다리다"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["nothing"],
+			"description": "A Korean word is the same for one and for many: 책 is a book, and books. 들 can be added, mostly for people: 친구들, friends.",
+			"rows": [
+				{"english": "Book", "foreign": "책"},
+				{"english": "Books", "foreign": "책", "from": 1},
+				{"english": "Friend", "foreign": "친구"},
+				{"english": "Friends", "foreign": "친구들", "mark": ["들"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["nothing"],
+			"description": "Korean has no word for the or a. 책 is book, a book, and the book.",
+			"rows": [
+				{"english": "I read a book.", "foreign": "저는 책을 읽어요."},
+				{"english": "The book is new.", "foreign": "책이 새로워요."},
+				{"english": "I see a dog.", "foreign": "저는 개를 봐요."},
+				{"english": "The dog is small.", "foreign": "개가 작아요."}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["particle", "helper word"],
+			"description": "의 after a word makes it the owner: 그녀의 책, her book. My has a short form, 제, and our is 우리 with nothing added.",
+			"rows": [
+				{"english": "Her book", "foreign": "그녀의 책", "mark": ["의"]},
+				{"english": "Your book", "foreign": "당신의 책", "mark": ["의"]},
+				{"english": "My book", "foreign": "제 책", "mark": [{"text": "제", "role": "helper word"}]},
+				{"english": "Our teacher", "foreign": "우리 선생님", "mark": [{"text": "우리", "role": "helper word"}]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Korean points three ways where English points two: 이 for this one here, 그 for that one near you, and 저 for that one over there.",
+			"rows": [
+				{"english": "This book", "foreign": "이 책", "mark": ["이"]},
+				{"english": "That book", "foreign": "그 책", "mark": ["그"]},
+				{"english": "That book over there", "foreign": "저 책", "mark": ["저"]},
+				{"english": "This person", "foreign": "이 사람", "mark": ["이"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["helper word"], "replaces": "Patterns - Counting Words, Part 1",
+			"description": "The thing comes first, then the number, then a counting word that fits it: 명 for people, 권 for books, 마리 for animals, 대 for machines.",
+			"rows": [
+				{"english": "One person", "foreign": "사람 한 명", "mark": ["명"]},
+				{"english": "One book", "foreign": "책 한 권", "mark": ["권"]},
+				{"english": "One dog", "foreign": "개 한 마리", "mark": ["마리"]},
+				{"english": "One car", "foreign": "차 한 대", "mark": ["대"]}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["ending"], "replaces": "Patterns - Dictionary Form and Polite Form, Part 1",
+			"description": "A dictionary lists every verb ending in 다. To say it politely to someone, the 다 comes off and an ending in 요 goes on.",
+			"rows": [
+				{"english": "To eat, in the dictionary", "foreign": "먹다", "base": "먹다", "features": {"polite": "no"}},
+				{"english": "To eat, said politely", "foreign": "먹어요", "mark": ["어요"], "from": 1, "base": "먹다", "features": {"polite": "yes"}},
+				{"english": "To go, in the dictionary", "foreign": "가다", "base": "가다", "features": {"polite": "no"}},
+				{"english": "To go, said politely", "foreign": "가요", "mark": ["요"], "from": 3, "base": "가다", "features": {"polite": "yes"}}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put 안 in front of the verb. Nothing else in the sentence changes.",
+			"rows": [
+				{"english": "I go.", "foreign": "가요."},
+				{"english": "I do not go.", "foreign": "안 가요.", "mark": ["안"], "from": 1},
+				{"english": "I eat.", "foreign": "먹어요."},
+				{"english": "I do not eat.", "foreign": "안 먹어요.", "mark": ["안"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["tone"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "In polite speech, a question has the same words in the same order as the statement. Only the voice rises.",
+			"rows": [
+				{"english": "You speak Korean.", "foreign": "한국어를 해요."},
+				{"english": "Do you speak Korean?", "foreign": "한국어를 해요?", "mark": ["?"], "from": 1},
+				{"english": "This is the bus to Seoul.", "foreign": "이것은 서울 가는 버스예요."},
+				{"english": "Is this the bus to Seoul?", "foreign": "이것은 서울 가는 버스예요?", "mark": ["?"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["nothing"],
+			"description": "The asking word sits where the answer will go. Nothing moves to the front: she is who, this is what.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "그녀는 누구예요?", "mark": ["누구"]},
+				{"english": "What is this?", "foreign": "이것은 뭐예요?", "mark": ["뭐"]},
+				{"english": "Where is the bus?", "foreign": "버스는 어디에 있어요?", "mark": ["어디"]},
+				{"english": "Where are you going?", "foreign": "어디에 가요?", "mark": ["어디"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["ending"],
+			"description": "Want to, can, and must are endings on the verb: 고 싶어요, 을 수 있어요, 어야 해요.",
+			"rows": [
+				{"english": "I eat.", "foreign": "먹어요."},
+				{"english": "I want to eat.", "foreign": "먹고 싶어요.", "mark": ["고 싶어요"], "from": 1},
+				{"english": "I can eat.", "foreign": "먹을 수 있어요.", "mark": ["을 수 있어요"], "from": 1},
+				{"english": "I must eat.", "foreign": "먹어야 해요.", "mark": ["어야 해요"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["ending"],
+			"description": "Describing words behave like verbs. At the end of a sentence they close it themselves, with no word for is: 집이 커요. In front of a thing they take a different ending: 큰 집.",
+			"rows": [
+				{"english": "The house is big.", "foreign": "집이 커요.", "mark": ["커요"]},
+				{"english": "A big house", "foreign": "큰 집", "mark": ["큰"], "from": 1},
+				{"english": "The dog is small.", "foreign": "개가 작아요.", "mark": ["작아요"]},
+				{"english": "A small dog", "foreign": "작은 개", "mark": ["작은"], "from": 3}
+			]
+		},
+		{
+			"job": "where", "strategy": ["particle", "helper word"],
+			"description": "에 after a place says where something is, and 있어요 says it is there. 에서 says where something is done.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "책이 탁자 위에 있어요.", "mark": ["에", {"text": "있어요", "role": "helper word"}]},
+				{"english": "I am at home.", "foreign": "저는 집에 있어요.", "mark": ["에", {"text": "있어요", "role": "helper word"}]},
+				{"english": "She is in Seoul.", "foreign": "그녀는 서울에 있어요.", "mark": ["에", {"text": "있어요", "role": "helper word"}]},
+				{"english": "I eat at home.", "foreign": "저는 집에서 먹어요.", "mark": ["에서"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["particle", "helper word"],
+			"description": "보다 after a thing means than it. 더 is more, and 제일 is the most. The describing word itself stays the same.",
+			"rows": [
+				{"english": "He is tall.", "foreign": "그는 키가 커요."},
+				{"english": "He is taller than me.", "foreign": "그는 저보다 키가 커요.", "mark": ["보다"], "from": 1},
+				{"english": "He is the tallest.", "foreign": "그는 키가 제일 커요.", "mark": [{"text": "제일", "role": "helper word"}], "from": 1},
+				{"english": "This book is better.", "foreign": "이 책이 더 좋아요.", "mark": [{"text": "더", "role": "helper word"}]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["particle", "ending"],
+			"description": "와 joins two things and 나 is or. But and because are endings on the first verb, 지만 and 서, so the reason comes first.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "개와 고양이", "mark": ["와"]},
+				{"english": "Coffee or tea", "foreign": "커피나 차", "mark": ["나"]},
+				{"english": "I am tired, but I am going.", "foreign": "피곤하지만 가요.", "mark": [{"text": "지만", "role": "ending"}]},
+				{"english": "I eat because I am hungry.", "foreign": "배가 고파서 먹어요.", "mark": [{"text": "서", "role": "ending"}]}
+			]
+		}
+	]
+}

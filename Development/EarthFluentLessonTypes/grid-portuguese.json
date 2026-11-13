@@ -1,0 +1,187 @@
+{
+	"language": "portuguese",
+	"translation_language": "pt",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Brazilian Portuguese, as the course is: ônibus, cachorro, você. A male speaker where the word shows it.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["ending"],
+			"description": "The verb's ending says who is doing it: falo, fala, falamos. You and she share one.",
+			"rows": [
+				{"english": "I speak", "foreign": "eu falo", "mark": ["o"], "base": "falar", "features": {"who": "i", "when": "now"}},
+				{"english": "You speak", "foreign": "você fala", "mark": ["a"], "base": "falar", "features": {"who": "you", "when": "now"}},
+				{"english": "She speaks", "foreign": "ela fala", "mark": ["a"], "base": "falar", "features": {"who": "she", "when": "now"}},
+				{"english": "We speak", "foreign": "nós falamos", "mark": ["amos"], "base": "falar", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["ending", "helper word"],
+			"description": "The ending says before: falei. For later, Brazilians put vou, I go, in front of the whole verb: vou falar.",
+			"rows": [
+				{"english": "I speak", "foreign": "eu falo", "base": "falar", "features": {"who": "i", "when": "now"}},
+				{"english": "I spoke", "foreign": "eu falei", "mark": ["ei"], "from": 1, "base": "falar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will speak", "foreign": "eu vou falar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "falar", "features": {"who": "i", "when": "later"}},
+				{"english": "She spoke", "foreign": "ela falou", "mark": ["ou"], "base": "falar", "features": {"who": "she", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["helper word", "ending"],
+			"description": "For something going on right now, Brazilians use estar and a verb ending in ando or endo: estou falando.",
+			"rows": [
+				{"english": "I speak", "foreign": "eu falo", "base": "falar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am speaking", "foreign": "eu estou falando", "mark": ["estou", {"text": "ando", "role": "ending"}], "from": 1, "base": "falar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I eat", "foreign": "eu como", "base": "comer", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "eu estou comendo", "mark": ["estou", {"text": "endo", "role": "ending"}], "from": 3, "base": "comer", "features": {"who": "i", "when": "now", "going": "yes"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["ending"],
+			"description": "To tell someone to do something, verbs ending in ar take e, and the others take a: fale, olhe; coma, venha.",
+			"rows": [
+				{"english": "Speak!", "foreign": "Fale!", "mark": ["e"], "base": "falar"},
+				{"english": "Look!", "foreign": "Olhe!", "mark": ["e"], "base": "olhar"},
+				{"english": "Eat!", "foreign": "Coma!", "mark": ["a"], "base": "comer"},
+				{"english": "Come!", "foreign": "Venha!", "mark": ["a"], "base": "vir"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["ending", "helper word"], "replaces": "Patterns - More Than One, Part 1",
+			"description": "For more than one, the word gains an s, and so does its \"the\": o becomes os, and a becomes as.",
+			"rows": [
+				{"english": "The dog", "foreign": "o cachorro"},
+				{"english": "The dogs", "foreign": "os cachorros", "mark": [{"text": "os", "role": "helper word"}, "s"], "from": 1},
+				{"english": "The house", "foreign": "a casa"},
+				{"english": "The houses", "foreign": "as casas", "mark": [{"text": "as", "role": "helper word"}, "s"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["helper word"],
+			"description": "Portuguese has two words for the and two for a, because every naming word is a he-word or a she-word: o and um, a and uma.",
+			"rows": [
+				{"english": "The book", "foreign": "o livro", "mark": ["o"]},
+				{"english": "A book", "foreign": "um livro", "mark": ["um"]},
+				{"english": "The house", "foreign": "a casa", "mark": ["a"]},
+				{"english": "A house", "foreign": "uma casa", "mark": ["uma"]}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["helper word"],
+			"description": "A small word in front says whose it is: minha, sua, nossa. Her and his come after the thing instead: a casa dela.",
+			"rows": [
+				{"english": "My house", "foreign": "minha casa", "mark": ["minha"]},
+				{"english": "Your house", "foreign": "sua casa", "mark": ["sua"]},
+				{"english": "Her house", "foreign": "a casa dela", "mark": ["dela"]},
+				{"english": "Our house", "foreign": "nossa casa", "mark": ["nossa"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Portuguese points three ways where English points two: este for this one here, esse for that one near you, and aquele for that one over there.",
+			"rows": [
+				{"english": "This book", "foreign": "este livro", "mark": ["este"]},
+				{"english": "That book", "foreign": "esse livro", "mark": ["esse"]},
+				{"english": "That book over there", "foreign": "aquele livro", "mark": ["aquele"]},
+				{"english": "This house", "foreign": "esta casa", "mark": ["esta"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["nothing"],
+			"description": "A number goes straight in front of the thing, as in English. One and two change to match it: um livro, uma casa; dois livros, duas casas.",
+			"rows": [
+				{"english": "One book", "foreign": "um livro", "mark": ["um"]},
+				{"english": "One house", "foreign": "uma casa", "mark": ["uma"]},
+				{"english": "Two books", "foreign": "dois livros", "mark": ["dois"]},
+				{"english": "Two houses", "foreign": "duas casas", "mark": ["duas"]}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["helper word"],
+			"description": "Brazilians say você to almost everyone, and the verb stays the same. To show respect, say o senhor to a man and a senhora to a woman.",
+			"rows": [
+				{"english": "You speak", "foreign": "você fala", "mark": ["você"]},
+				{"english": "You speak, said to a man with respect", "foreign": "o senhor fala", "mark": ["o senhor"], "from": 1},
+				{"english": "You speak, said to a woman with respect", "foreign": "a senhora fala", "mark": ["a senhora"], "from": 1},
+				{"english": "How are you? said to a man with respect", "foreign": "Como vai o senhor?", "mark": ["o senhor"]}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put não in front of the verb. Nothing else in the sentence changes.",
+			"rows": [
+				{"english": "I speak Portuguese.", "foreign": "Eu falo português."},
+				{"english": "I do not speak Portuguese.", "foreign": "Eu não falo português.", "mark": ["não"], "from": 1},
+				{"english": "I am tired.", "foreign": "Estou cansado."},
+				{"english": "I am not tired.", "foreign": "Não estou cansado.", "mark": ["Não"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["tone"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "A Portuguese question has the same words in the same order as the statement. Only the voice rises, and writing adds the question mark.",
+			"rows": [
+				{"english": "You speak Portuguese.", "foreign": "Você fala português."},
+				{"english": "Do you speak Portuguese?", "foreign": "Você fala português?", "mark": ["?"], "from": 1},
+				{"english": "This is the bus to São Paulo.", "foreign": "Este é o ônibus para São Paulo."},
+				{"english": "Is this the bus to São Paulo?", "foreign": "Este é o ônibus para São Paulo?", "mark": ["?"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["word order"],
+			"description": "The asking word comes first: quem, o que, onde.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "Quem é ela?", "mark": ["Quem"]},
+				{"english": "What is this?", "foreign": "O que é isto?", "mark": ["O que"]},
+				{"english": "Where is the bus?", "foreign": "Onde está o ônibus?", "mark": ["Onde"]},
+				{"english": "Where do you live?", "foreign": "Onde você mora?", "mark": ["Onde"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word"],
+			"description": "Want to and can are verbs of their own, placed in front of the other verb, which stays whole: quero comer. For must, Brazilians say I have that: tenho que comer.",
+			"rows": [
+				{"english": "I eat.", "foreign": "Eu como."},
+				{"english": "I want to eat.", "foreign": "Eu quero comer.", "mark": ["quero"], "from": 1},
+				{"english": "I can eat.", "foreign": "Eu posso comer.", "mark": ["posso"], "from": 1},
+				{"english": "I must eat.", "foreign": "Eu tenho que comer.", "mark": ["tenho que"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["word order", "ending"], "replaces": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In Portuguese it usually comes after, and its ending matches the thing: uma casa branca.",
+			"rows": [
+				{"english": "A white house", "foreign": "uma casa branca", "mark": ["branca"]},
+				{"english": "A black cat", "foreign": "um gato preto", "mark": ["preto"]},
+				{"english": "A big city", "foreign": "uma cidade grande", "mark": ["grande"]},
+				{"english": "A new book", "foreign": "um livro novo", "mark": ["novo"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["helper word"],
+			"description": "Está says where something is, with em in front of the place. Em joins with the: na mesa, on the table.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "O livro está na mesa.", "mark": ["está", "na"]},
+				{"english": "The cat is in the house.", "foreign": "O gato está na casa.", "mark": ["está", "na"]},
+				{"english": "I am at home.", "foreign": "Estou em casa.", "mark": ["Estou", "em"]},
+				{"english": "She is in São Paulo.", "foreign": "Ela está em São Paulo.", "mark": ["está", "em"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["helper word"],
+			"description": "Put mais in front for more, and o mais or a mais for the most. The describing word itself stays the same.",
+			"rows": [
+				{"english": "Tall", "foreign": "alto"},
+				{"english": "Taller", "foreign": "mais alto", "mark": ["mais"], "from": 1},
+				{"english": "The tallest", "foreign": "o mais alto", "mark": ["o mais"], "from": 1},
+				{"english": "More expensive", "foreign": "mais caro", "mark": ["mais"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "E is and, ou is or, mas is but, and porque is because. They sit between the two halves, as in English.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "o cachorro e o gato", "mark": ["e"]},
+				{"english": "Coffee or tea", "foreign": "café ou chá", "mark": ["ou"]},
+				{"english": "I am tired, but I am going.", "foreign": "Estou cansado, mas vou.", "mark": ["mas"]},
+				{"english": "I eat because I am hungry.", "foreign": "Eu como porque estou com fome.", "mark": ["porque"]}
+			]
+		}
+	]
+}

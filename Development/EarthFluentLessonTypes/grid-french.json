@@ -1,0 +1,187 @@
+{
+	"language": "french",
+	"translation_language": "fr",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal tu throughout, except where polite against familiar is the lesson; a male speaker where the word shows it. Vocabulary follows the course: autobus, voiture.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["ending"],
+			"description": "The verb's ending changes with who is doing it, though for I, you, and she you mostly see the change and do not hear it: je parle, tu parles, elle parle, nous parlons.",
+			"rows": [
+				{"english": "I speak", "foreign": "je parle", "mark": ["e"], "base": "parler", "features": {"who": "i", "when": "now"}},
+				{"english": "You speak", "foreign": "tu parles", "mark": ["es"], "base": "parler", "features": {"who": "you", "when": "now"}},
+				{"english": "She speaks", "foreign": "elle parle", "mark": ["e"], "base": "parler", "features": {"who": "she", "when": "now"}},
+				{"english": "We speak", "foreign": "nous parlons", "mark": ["ons"], "base": "parler", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["ending", "helper word"],
+			"description": "The ending says later: je parlerai. For before, French uses a helper, ai, and a changed verb: j'ai parlé.",
+			"rows": [
+				{"english": "I speak", "foreign": "je parle", "base": "parler", "features": {"who": "i", "when": "now"}},
+				{"english": "I spoke", "foreign": "j'ai parlé", "mark": [{"text": "ai", "role": "helper word"}, "é"], "from": 1, "base": "parler", "features": {"who": "i", "when": "before"}},
+				{"english": "I will speak", "foreign": "je parlerai", "mark": ["erai"], "from": 1, "base": "parler", "features": {"who": "i", "when": "later"}},
+				{"english": "She spoke", "foreign": "elle a parlé", "mark": [{"text": "a", "role": "helper word"}, "é"], "base": "parler", "features": {"who": "she", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["nothing", "helper word"],
+			"description": "French has one form for I speak and I am speaking: je parle. To say a thing is finished, the helper ai and a changed verb: j'ai mangé.",
+			"rows": [
+				{"english": "I speak", "foreign": "je parle", "base": "parler", "features": {"who": "i", "when": "now"}},
+				{"english": "I am speaking", "foreign": "je parle", "from": 1, "base": "parler", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I eat", "foreign": "je mange", "base": "manger", "features": {"who": "i", "when": "now"}},
+				{"english": "I have eaten", "foreign": "j'ai mangé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 3, "base": "manger", "features": {"who": "i", "when": "before", "going": "no"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["nothing"],
+			"description": "To tell a friend to do something, the verb stands alone, with no word for you: Parle ! Mange ! Regarde !",
+			"rows": [
+				{"english": "Speak!", "foreign": "Parle !", "base": "parler"},
+				{"english": "Eat!", "foreign": "Mange !", "base": "manger"},
+				{"english": "Look!", "foreign": "Regarde !", "base": "regarder"},
+				{"english": "Come!", "foreign": "Viens !", "base": "venir"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["ending", "helper word"], "replaces": "Patterns - More Than One, Part 1",
+			"description": "For more than one, the word gains an s that you do not hear, and le or la becomes les, which you do.",
+			"rows": [
+				{"english": "The dog", "foreign": "le chien"},
+				{"english": "The dogs", "foreign": "les chiens", "mark": [{"text": "les", "role": "helper word"}, "s"], "from": 1},
+				{"english": "The house", "foreign": "la maison"},
+				{"english": "The houses", "foreign": "les maisons", "mark": [{"text": "les", "role": "helper word"}, "s"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["helper word"],
+			"description": "French has two words for the and two for a, because every naming word is a he-word or a she-word: le and un, la and une.",
+			"rows": [
+				{"english": "The book", "foreign": "le livre", "mark": ["le"]},
+				{"english": "A book", "foreign": "un livre", "mark": ["un"]},
+				{"english": "The house", "foreign": "la maison", "mark": ["la"]},
+				{"english": "A house", "foreign": "une maison", "mark": ["une"]}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["helper word"],
+			"description": "A small word in front says whose it is, and it matches the thing owned: mon livre, but ma maison.",
+			"rows": [
+				{"english": "My book", "foreign": "mon livre", "mark": ["mon"]},
+				{"english": "My house", "foreign": "ma maison", "mark": ["ma"]},
+				{"english": "Your house", "foreign": "ta maison", "mark": ["ta"]},
+				{"english": "Our house", "foreign": "notre maison", "mark": ["notre"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Ce is both this and that, and it matches the thing: ce livre, cette maison. Add là after the thing to point further away.",
+			"rows": [
+				{"english": "This book", "foreign": "ce livre", "mark": ["ce"]},
+				{"english": "That book over there", "foreign": "ce livre-là", "mark": ["ce", "-là"]},
+				{"english": "This house", "foreign": "cette maison", "mark": ["cette"]},
+				{"english": "These books", "foreign": "ces livres", "mark": ["ces"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["nothing"],
+			"description": "A number goes straight in front of the thing, as in English. Only one changes, to match the thing: un livre, une maison.",
+			"rows": [
+				{"english": "One book", "foreign": "un livre", "mark": ["un"]},
+				{"english": "One house", "foreign": "une maison", "mark": ["une"]},
+				{"english": "Two books", "foreign": "deux livres"},
+				{"english": "Three houses", "foreign": "trois maisons"}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["helper word", "ending"],
+			"description": "French has two words for you: tu for friends and family, and vous for everyone else. The verb's ending changes with them.",
+			"rows": [
+				{"english": "You speak, to a friend", "foreign": "tu parles", "mark": ["tu", {"text": "es", "role": "ending"}], "base": "parler", "features": {"who": "you", "polite": "no"}},
+				{"english": "You speak, said politely", "foreign": "vous parlez", "mark": ["vous", {"text": "ez", "role": "ending"}], "from": 1, "base": "parler", "features": {"who": "you", "polite": "yes"}},
+				{"english": "How are you? to a friend", "foreign": "Comment vas-tu ?", "mark": ["tu"]},
+				{"english": "How are you? said politely", "foreign": "Comment allez-vous ?", "mark": ["vous"], "from": 3}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, wrap the verb in ne and pas: je ne parle pas.",
+			"rows": [
+				{"english": "I speak French.", "foreign": "Je parle français."},
+				{"english": "I do not speak French.", "foreign": "Je ne parle pas français.", "mark": ["ne", "pas"], "from": 1},
+				{"english": "I am tired.", "foreign": "Je suis fatigué."},
+				{"english": "I am not tired.", "foreign": "Je ne suis pas fatigué.", "mark": ["ne", "pas"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["helper word"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "Put est-ce que in front of a statement and it becomes a question. Nothing else moves.",
+			"rows": [
+				{"english": "You speak French.", "foreign": "Tu parles français."},
+				{"english": "Do you speak French?", "foreign": "Est-ce que tu parles français ?", "mark": ["Est-ce que"], "from": 1},
+				{"english": "This is the bus to Paris.", "foreign": "C'est l'autobus pour Paris."},
+				{"english": "Is this the bus to Paris?", "foreign": "Est-ce que c'est l'autobus pour Paris ?", "mark": ["Est-ce que"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["word order"],
+			"description": "The asking word comes first: qui, où, qu'est-ce que.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "Qui est-elle ?", "mark": ["Qui"]},
+				{"english": "What is this?", "foreign": "Qu'est-ce que c'est ?", "mark": ["Qu'est-ce que"]},
+				{"english": "Where is the bus?", "foreign": "Où est l'autobus ?", "mark": ["Où"]},
+				{"english": "Where do you live?", "foreign": "Où habites-tu ?", "mark": ["Où"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word"],
+			"description": "Want to, can, and must are verbs of their own, placed in front of the other verb, which stays whole: je veux manger.",
+			"rows": [
+				{"english": "I eat.", "foreign": "Je mange."},
+				{"english": "I want to eat.", "foreign": "Je veux manger.", "mark": ["veux"], "from": 1},
+				{"english": "I can eat.", "foreign": "Je peux manger.", "mark": ["peux"], "from": 1},
+				{"english": "I must eat.", "foreign": "Je dois manger.", "mark": ["dois"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["word order", "ending"], "replaces": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In French it usually comes after, and its ending matches the thing: une maison blanche.",
+			"rows": [
+				{"english": "A white house", "foreign": "une maison blanche", "mark": ["blanche"]},
+				{"english": "A black cat", "foreign": "un chat noir", "mark": ["noir"]},
+				{"english": "A red car", "foreign": "une voiture rouge", "mark": ["rouge"]},
+				{"english": "A French book", "foreign": "un livre français", "mark": ["français"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["helper word"],
+			"description": "Est says where something is, with a small word in front of the place: sur, dans, à.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "Le livre est sur la table.", "mark": ["est", "sur"]},
+				{"english": "The cat is in the house.", "foreign": "Le chat est dans la maison.", "mark": ["est", "dans"]},
+				{"english": "I am at home.", "foreign": "Je suis à la maison.", "mark": ["suis", "à"]},
+				{"english": "She is in Paris.", "foreign": "Elle est à Paris.", "mark": ["est", "à"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["helper word"],
+			"description": "Put plus in front for more, and le plus or la plus for the most. The describing word itself stays the same.",
+			"rows": [
+				{"english": "Tall", "foreign": "grand"},
+				{"english": "Taller", "foreign": "plus grand", "mark": ["plus"], "from": 1},
+				{"english": "The tallest", "foreign": "le plus grand", "mark": ["le plus"], "from": 1},
+				{"english": "More expensive", "foreign": "plus cher", "mark": ["plus"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "Et is and, ou is or, mais is but, and parce que is because. They sit between the two halves, as in English.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "le chien et le chat", "mark": ["et"]},
+				{"english": "Coffee or tea", "foreign": "café ou thé", "mark": ["ou"]},
+				{"english": "I am tired, but I am going.", "foreign": "Je suis fatigué, mais j'y vais.", "mark": ["mais"]},
+				{"english": "I eat because I am hungry.", "foreign": "Je mange parce que j'ai faim.", "mark": ["parce que"]}
+			]
+		}
+	]
+}

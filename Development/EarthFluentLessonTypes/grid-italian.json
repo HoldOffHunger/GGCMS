@@ -1,0 +1,187 @@
+{
+	"language": "italian",
+	"translation_language": "it",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal tu throughout, except where polite against familiar is the lesson; a male speaker where the word shows it. Vocabulary follows the course: auto, autobus.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["ending"],
+			"description": "The verb's ending says who is doing it: parlo, parli, parla, parliamo. Spot what changes.",
+			"rows": [
+				{"english": "I speak", "foreign": "parlo", "mark": ["o"], "base": "parlare", "features": {"who": "i", "when": "now"}},
+				{"english": "You speak", "foreign": "parli", "mark": ["i"], "base": "parlare", "features": {"who": "you", "when": "now"}},
+				{"english": "She speaks", "foreign": "parla", "mark": ["a"], "base": "parlare", "features": {"who": "she", "when": "now"}},
+				{"english": "We speak", "foreign": "parliamo", "mark": ["iamo"], "base": "parlare", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["ending", "helper word"],
+			"description": "The ending says later: parlerò. For before, Italian uses a helper, ho, and a changed verb: ho parlato.",
+			"rows": [
+				{"english": "I speak", "foreign": "parlo", "base": "parlare", "features": {"who": "i", "when": "now"}},
+				{"english": "I spoke", "foreign": "ho parlato", "mark": [{"text": "ho", "role": "helper word"}, "ato"], "from": 1, "base": "parlare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will speak", "foreign": "parlerò", "mark": ["erò"], "from": 1, "base": "parlare", "features": {"who": "i", "when": "later"}},
+				{"english": "She spoke", "foreign": "ha parlato", "mark": [{"text": "ha", "role": "helper word"}, "ato"], "base": "parlare", "features": {"who": "she", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["helper word", "ending"],
+			"description": "For something going on right now, Italian uses stare and a verb ending in ando or endo: sto parlando.",
+			"rows": [
+				{"english": "I speak", "foreign": "parlo", "base": "parlare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am speaking", "foreign": "sto parlando", "mark": ["sto", {"text": "ando", "role": "ending"}], "from": 1, "base": "parlare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I eat", "foreign": "mangio", "base": "mangiare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "sto mangiando", "mark": ["sto", {"text": "ando", "role": "ending"}], "from": 3, "base": "mangiare", "features": {"who": "i", "when": "now", "going": "yes"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["ending"],
+			"description": "To tell a friend to do something, verbs ending in are take a: parla, mangia, guarda. Others take i: vieni.",
+			"rows": [
+				{"english": "Speak!", "foreign": "Parla!", "mark": ["a"], "base": "parlare"},
+				{"english": "Eat!", "foreign": "Mangia!", "mark": ["a"], "base": "mangiare"},
+				{"english": "Look!", "foreign": "Guarda!", "mark": ["a"], "base": "guardare"},
+				{"english": "Come!", "foreign": "Vieni!", "mark": ["i"], "base": "venire"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["ending", "helper word"], "replaces": "Patterns - More Than One, Part 1",
+			"description": "For more than one, the last letter changes, and so does the word for the: il cane, i cani; la casa, le case.",
+			"rows": [
+				{"english": "The dog", "foreign": "il cane"},
+				{"english": "The dogs", "foreign": "i cani", "mark": [{"text": "i", "role": "helper word"}, "i"], "from": 1},
+				{"english": "The house", "foreign": "la casa"},
+				{"english": "The houses", "foreign": "le case", "mark": [{"text": "le", "role": "helper word"}, "e"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["helper word"],
+			"description": "Italian has two main words for the and two for a, because every naming word is a he-word or a she-word: il and un, la and una.",
+			"rows": [
+				{"english": "The book", "foreign": "il libro", "mark": ["il"]},
+				{"english": "A book", "foreign": "un libro", "mark": ["un"]},
+				{"english": "The house", "foreign": "la casa", "mark": ["la"]},
+				{"english": "A house", "foreign": "una casa", "mark": ["una"]}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["helper word"],
+			"description": "A small word says whose it is, and Italian keeps the word for the in front of it as well: la mia casa.",
+			"rows": [
+				{"english": "My house", "foreign": "la mia casa", "mark": ["mia"]},
+				{"english": "Your house", "foreign": "la tua casa", "mark": ["tua"]},
+				{"english": "Her house", "foreign": "la sua casa", "mark": ["sua"]},
+				{"english": "Our house", "foreign": "la nostra casa", "mark": ["nostra"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Questo is this and quello is that. Both change to match the thing, and quello shortens in front of it: quel libro.",
+			"rows": [
+				{"english": "This book", "foreign": "questo libro", "mark": ["questo"]},
+				{"english": "That book", "foreign": "quel libro", "mark": ["quel"]},
+				{"english": "This house", "foreign": "questa casa", "mark": ["questa"]},
+				{"english": "That house", "foreign": "quella casa", "mark": ["quella"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["nothing"],
+			"description": "A number goes straight in front of the thing, as in English. Only one changes, to match the thing: un libro, una casa.",
+			"rows": [
+				{"english": "One book", "foreign": "un libro", "mark": ["un"]},
+				{"english": "One house", "foreign": "una casa", "mark": ["una"]},
+				{"english": "Two books", "foreign": "due libri"},
+				{"english": "Three houses", "foreign": "tre case"}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["ending", "helper word"],
+			"description": "Italian has two words for you: tu for friends and family, and Lei for everyone else. With Lei the verb takes the ending for she.",
+			"rows": [
+				{"english": "You speak, to a friend", "foreign": "parli", "mark": ["i"], "base": "parlare", "features": {"who": "you", "polite": "no"}},
+				{"english": "You speak, said politely", "foreign": "Lei parla", "mark": [{"text": "Lei", "role": "helper word"}, "a"], "from": 1, "base": "parlare", "features": {"who": "you", "polite": "yes"}},
+				{"english": "How are you? to a friend", "foreign": "Come stai?", "mark": ["ai"], "base": "stare"},
+				{"english": "How are you? said politely", "foreign": "Come sta?", "mark": ["a"], "from": 3, "base": "stare"}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put non in front of the verb. Nothing else in the sentence changes.",
+			"rows": [
+				{"english": "I speak Italian.", "foreign": "Parlo italiano."},
+				{"english": "I do not speak Italian.", "foreign": "Non parlo italiano.", "mark": ["Non"], "from": 1},
+				{"english": "I am tired.", "foreign": "Sono stanco."},
+				{"english": "I am not tired.", "foreign": "Non sono stanco.", "mark": ["Non"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["tone"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "An Italian question has the same words in the same order as the statement. Only the voice rises, and writing adds the question mark.",
+			"rows": [
+				{"english": "You speak Italian.", "foreign": "Parli italiano."},
+				{"english": "Do you speak Italian?", "foreign": "Parli italiano?", "mark": ["?"], "from": 1},
+				{"english": "This is the bus to Rome.", "foreign": "Questo è l'autobus per Roma."},
+				{"english": "Is this the bus to Rome?", "foreign": "Questo è l'autobus per Roma?", "mark": ["?"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["word order"],
+			"description": "The asking word comes first: chi, che cosa, dove.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "Chi è lei?", "mark": ["Chi"]},
+				{"english": "What is this?", "foreign": "Che cos'è questo?", "mark": ["Che cos'"]},
+				{"english": "Where is the bus?", "foreign": "Dov'è l'autobus?", "mark": ["Dov'"]},
+				{"english": "Where do you live?", "foreign": "Dove abiti?", "mark": ["Dove"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word"],
+			"description": "Want to, can, and must are verbs of their own, placed in front of the other verb, which stays whole: voglio mangiare.",
+			"rows": [
+				{"english": "I eat.", "foreign": "Mangio."},
+				{"english": "I want to eat.", "foreign": "Voglio mangiare.", "mark": ["Voglio"], "from": 1},
+				{"english": "I can eat.", "foreign": "Posso mangiare.", "mark": ["Posso"], "from": 1},
+				{"english": "I must eat.", "foreign": "Devo mangiare.", "mark": ["Devo"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["word order", "ending"], "replaces": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In Italian it usually comes after, and its ending matches the thing: una casa bianca.",
+			"rows": [
+				{"english": "A white house", "foreign": "una casa bianca", "mark": ["bianca"]},
+				{"english": "A black cat", "foreign": "un gatto nero", "mark": ["nero"]},
+				{"english": "A red car", "foreign": "un'auto rossa", "mark": ["rossa"]},
+				{"english": "An Italian book", "foreign": "un libro italiano", "mark": ["italiano"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["helper word"],
+			"description": "È says where something is, with a small word in front of the place: su, in, a. The small word often joins with the: sul tavolo.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "Il libro è sul tavolo.", "mark": ["è", "sul"]},
+				{"english": "The cat is in the house.", "foreign": "Il gatto è in casa.", "mark": ["è", "in"]},
+				{"english": "I am at home.", "foreign": "Sono a casa.", "mark": ["Sono", "a"]},
+				{"english": "She is in Rome.", "foreign": "Lei è a Roma.", "mark": ["è", "a"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["helper word"],
+			"description": "Put più in front for more, and il più or la più for the most. The describing word itself stays the same.",
+			"rows": [
+				{"english": "Tall", "foreign": "alto"},
+				{"english": "Taller", "foreign": "più alto", "mark": ["più"], "from": 1},
+				{"english": "The tallest", "foreign": "il più alto", "mark": ["il più"], "from": 1},
+				{"english": "More expensive", "foreign": "più caro", "mark": ["più"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "E is and, o is or, ma is but, and perché is because. They sit between the two halves, as in English.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "il cane e il gatto", "mark": ["e"]},
+				{"english": "Coffee or tea", "foreign": "caffè o tè", "mark": ["o"]},
+				{"english": "I am tired, but I am going.", "foreign": "Sono stanco, ma vado.", "mark": ["ma"]},
+				{"english": "I eat because I am hungry.", "foreign": "Mangio perché ho fame.", "mark": ["perché"]}
+			]
+		}
+	]
+}

@@ -1,0 +1,187 @@
+{
+	"language": "hindi",
+	"translation_language": "hi",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal तुम throughout, except where polite against familiar is the lesson; a male speaker where the verb shows it. The course stores no romanization yet, so the board will have none until the sounds job has run.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["ending"], "replaces": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb जाना, to go, changes with who is going, and with whether they are male or female. Spot जाता, जाते, and जाती.",
+			"rows": [
+				{"english": "I go", "foreign": "मैं जाता हूँ", "mark": ["जाता", "हूँ"], "base": "जाना", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "तुम जाते हो", "mark": ["जाते", "हो"], "base": "जाना", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "वह जाती है", "mark": ["जाती", "है"], "base": "जाना", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "हम जाते हैं", "mark": ["जाते", "हैं"], "base": "जाना", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["ending"],
+			"description": "The verb's ending says when, and still says whether a man or a woman is the one: गया, he went; गई, she went; जाऊँगा, I will go.",
+			"rows": [
+				{"english": "I go", "foreign": "मैं जाता हूँ", "base": "जाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "मैं गया", "mark": ["गया"], "from": 1, "base": "जाना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "मैं जाऊँगा", "mark": ["जाऊँगा"], "from": 1, "base": "जाना", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "वह गई", "mark": ["गई"], "base": "जाना", "features": {"who": "she", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["helper word"],
+			"description": "For something going on right now, रहा goes after the verb's short form: खा रहा हूँ, I am eating. A woman says रही.",
+			"rows": [
+				{"english": "I eat", "foreign": "मैं खाता हूँ", "base": "खाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "मैं खा रहा हूँ", "mark": ["रहा"], "from": 1, "base": "खाना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I read", "foreign": "मैं पढ़ता हूँ", "base": "पढ़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am reading", "foreign": "मैं पढ़ रहा हूँ", "mark": ["रहा"], "from": 3, "base": "पढ़ना", "features": {"who": "i", "when": "now", "going": "yes"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["ending"],
+			"description": "To tell a friend to do something, the verb ends in the sound o: बोलो, खाओ, देखो, आओ.",
+			"rows": [
+				{"english": "Speak!", "foreign": "बोलो!", "base": "बोलना"},
+				{"english": "Eat!", "foreign": "खाओ!", "base": "खाना"},
+				{"english": "Look!", "foreign": "देखो!", "base": "देखना"},
+				{"english": "Come!", "foreign": "आओ!", "base": "आना"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["ending"], "replaces": "Patterns - More Than One, Part 1",
+			"description": "A word ending in ā changes it to e for more than one: कुत्ता becomes कुत्ते. Others add to the end: किताब becomes किताबें.",
+			"rows": [
+				{"english": "Dog", "foreign": "कुत्ता"},
+				{"english": "Dogs", "foreign": "कुत्ते", "from": 1},
+				{"english": "Book", "foreign": "किताब"},
+				{"english": "Books", "foreign": "किताबें", "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["nothing"],
+			"description": "Hindi has no word for the or a. किताब is book, a book, and the book. To stress that there is one, say एक.",
+			"rows": [
+				{"english": "Book", "foreign": "किताब"},
+				{"english": "I read a book.", "foreign": "मैं किताब पढ़ता हूँ।"},
+				{"english": "The book is new.", "foreign": "किताब नई है।"},
+				{"english": "One book", "foreign": "एक किताब", "mark": [{"text": "एक", "role": "helper word"}]}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["helper word"],
+			"description": "A word in front says whose it is: मेरा, तुम्हारा, उसका, हमारा. Its ending matches the thing owned: मेरा घर, but मेरी किताब.",
+			"rows": [
+				{"english": "My house", "foreign": "मेरा घर", "mark": ["मेरा"]},
+				{"english": "Your house", "foreign": "तुम्हारा घर", "mark": ["तुम्हारा"]},
+				{"english": "Her house", "foreign": "उसका घर", "mark": ["उसका"]},
+				{"english": "My book", "foreign": "मेरी किताब", "mark": ["मेरी"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "यह is this and वह is that. वह is also the word for he and she.",
+			"rows": [
+				{"english": "This book", "foreign": "यह किताब", "mark": ["यह"]},
+				{"english": "That book", "foreign": "वह किताब", "mark": ["वह"]},
+				{"english": "This house", "foreign": "यह घर", "mark": ["यह"]},
+				{"english": "That house", "foreign": "वह घर", "mark": ["वह"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["nothing"],
+			"description": "A number goes straight in front of the thing, as in English, and the thing takes its form for more than one.",
+			"rows": [
+				{"english": "One book", "foreign": "एक किताब"},
+				{"english": "Two books", "foreign": "दो किताबें"},
+				{"english": "Three books", "foreign": "तीन किताबें"},
+				{"english": "Two dogs", "foreign": "दो कुत्ते"}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["helper word", "ending"],
+			"description": "Hindi has more than one word for you. तुम is for friends, and आप is the polite one, for elders and strangers. The verb changes with them.",
+			"rows": [
+				{"english": "You speak, to a friend", "foreign": "तुम बोलते हो", "mark": ["तुम", {"text": "हो", "role": "ending"}], "base": "बोलना", "features": {"who": "you", "polite": "no"}},
+				{"english": "You speak, said politely", "foreign": "आप बोलते हैं", "mark": ["आप", {"text": "हैं", "role": "ending"}], "from": 1, "base": "बोलना", "features": {"who": "you", "polite": "yes"}},
+				{"english": "How are you? to a friend", "foreign": "तुम कैसे हो?", "mark": ["तुम"]},
+				{"english": "How are you? said politely", "foreign": "आप कैसे हैं?", "mark": ["आप"], "from": 3}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put नहीं just before the verb.",
+			"rows": [
+				{"english": "I speak Hindi.", "foreign": "मैं हिंदी बोलता हूँ।"},
+				{"english": "I do not speak Hindi.", "foreign": "मैं हिंदी नहीं बोलता।", "mark": ["नहीं"], "from": 1},
+				{"english": "I am tired.", "foreign": "मैं थका हूँ।"},
+				{"english": "I am not tired.", "foreign": "मैं थका नहीं हूँ।", "mark": ["नहीं"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["helper word"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "Put क्या in front of a statement and it becomes a yes-or-no question. Nothing else moves.",
+			"rows": [
+				{"english": "You speak Hindi.", "foreign": "तुम हिंदी बोलते हो।"},
+				{"english": "Do you speak Hindi?", "foreign": "क्या तुम हिंदी बोलते हो?", "mark": ["क्या"], "from": 1},
+				{"english": "This is the bus to Delhi.", "foreign": "यह दिल्ली की बस है।"},
+				{"english": "Is this the bus to Delhi?", "foreign": "क्या यह दिल्ली की बस है?", "mark": ["क्या"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["nothing"],
+			"description": "The asking word sits just before the verb, where the answer will go. Nothing moves to the front: this what is.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "वह कौन है?", "mark": ["कौन"]},
+				{"english": "What is this?", "foreign": "यह क्या है?", "mark": ["क्या"]},
+				{"english": "Where is the bus?", "foreign": "बस कहाँ है?", "mark": ["कहाँ"]},
+				{"english": "Where do you live?", "foreign": "तुम कहाँ रहते हो?", "mark": ["कहाँ"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word"],
+			"description": "Want to and can come after the other verb: खाना चाहता हूँ, खा सकता हूँ. Must is said as to me it is to eat: मुझे खाना है।",
+			"rows": [
+				{"english": "I eat.", "foreign": "मैं खाता हूँ।"},
+				{"english": "I want to eat.", "foreign": "मैं खाना चाहता हूँ।", "mark": ["चाहता"], "from": 1},
+				{"english": "I can eat.", "foreign": "मैं खा सकता हूँ।", "mark": ["सकता"], "from": 1},
+				{"english": "I must eat.", "foreign": "मुझे खाना है।", "mark": ["मुझे"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["ending"],
+			"description": "The describing word comes before the thing, as in English, and matches it. To say the thing is so, put it after the thing and close with है.",
+			"rows": [
+				{"english": "A big house", "foreign": "बड़ा घर", "mark": ["बड़ा"]},
+				{"english": "The house is big.", "foreign": "घर बड़ा है।", "mark": ["बड़ा"], "from": 1},
+				{"english": "A good book", "foreign": "अच्छी किताब", "mark": ["अच्छी"]},
+				{"english": "The book is good.", "foreign": "किताब अच्छी है।", "mark": ["अच्छी"], "from": 3}
+			]
+		},
+		{
+			"job": "where", "strategy": ["particle"],
+			"description": "Where English puts in and on in front of the place, Hindi puts them after it: घर में, in the house; मेज़ पर, on the table.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "किताब मेज़ पर है।", "mark": ["पर"]},
+				{"english": "The cat is in the house.", "foreign": "बिल्ली घर में है।", "mark": ["में"]},
+				{"english": "I am at home.", "foreign": "मैं घर पर हूँ।", "mark": ["पर"]},
+				{"english": "She is in Delhi.", "foreign": "वह दिल्ली में है।", "mark": ["में"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["particle", "helper word"],
+			"description": "से after a thing means than it, and सबसे, than all, means the most. The describing word itself stays the same.",
+			"rows": [
+				{"english": "He is tall.", "foreign": "वह लंबा है।"},
+				{"english": "He is taller than me.", "foreign": "वह मुझसे लंबा है।", "mark": ["से"], "from": 1},
+				{"english": "He is the tallest.", "foreign": "वह सबसे लंबा है।", "mark": ["सबसे"], "from": 1},
+				{"english": "This book is better.", "foreign": "यह किताब ज़्यादा अच्छी है।", "mark": [{"text": "ज़्यादा", "role": "helper word"}]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "और is and, या is or, लेकिन is but, and क्योंकि is because. They sit between the two halves, as in English.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "कुत्ता और बिल्ली", "mark": ["और"]},
+				{"english": "Tea or coffee", "foreign": "चाय या कॉफ़ी", "mark": ["या"]},
+				{"english": "I am tired, but I am going.", "foreign": "मैं थका हूँ, लेकिन मैं जा रहा हूँ।", "mark": ["लेकिन"]},
+				{"english": "I eat because I am hungry.", "foreign": "मैं खाता हूँ क्योंकि मुझे भूख लगी है।", "mark": ["क्योंकि"]}
+			]
+		}
+	]
+}

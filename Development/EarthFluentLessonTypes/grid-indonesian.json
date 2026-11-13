@@ -1,0 +1,187 @@
+{
+	"language": "indonesian",
+	"translation_language": "id",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Vocabulary follows the course: bis, mobil. Everyday saya and kamu, except where polite against familiar is the lesson.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["nothing"], "replaces": "Patterns - The Verb Never Says Who, Part 1",
+			"description": "An Indonesian verb does not change for who is doing it. Only the word in front says who is going: saya, kamu, dia, kami.",
+			"rows": [
+				{"english": "I go", "foreign": "saya pergi", "mark": ["pergi"], "base": "pergi", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "kamu pergi", "mark": ["pergi"], "base": "pergi", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "dia pergi", "mark": ["pergi"], "base": "pergi", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "kami pergi", "mark": ["pergi"], "base": "pergi", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["helper word"],
+			"description": "The verb has no before or later of its own. Sudah in front says it is done, akan says it is still to come, and often a day word alone is enough.",
+			"rows": [
+				{"english": "I go", "foreign": "saya pergi", "base": "pergi", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "saya sudah pergi", "mark": ["sudah"], "from": 1, "base": "pergi", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "saya akan pergi", "mark": ["akan"], "from": 1, "base": "pergi", "features": {"who": "i", "when": "later"}},
+				{"english": "I went yesterday", "foreign": "kemarin saya pergi", "mark": ["kemarin"], "from": 1, "base": "pergi", "features": {"who": "i", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["helper word"], "replaces": "Patterns - Done, Doing, and Going To, Part 1",
+			"description": "Sedang in front of the verb says it is going on right now. Sudah says it is finished.",
+			"rows": [
+				{"english": "I eat", "foreign": "saya makan", "base": "makan", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "saya sedang makan", "mark": ["sedang"], "from": 1, "base": "makan", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I have eaten", "foreign": "saya sudah makan", "mark": ["sudah"], "from": 1, "base": "makan", "features": {"who": "i", "when": "before", "going": "no"}},
+				{"english": "She is reading", "foreign": "dia sedang membaca", "mark": ["sedang"], "base": "membaca", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["nothing", "helper word"],
+			"description": "To tell someone to do it, say the verb on its own. Silakan in front makes it an invitation, and tolong makes it a request.",
+			"rows": [
+				{"english": "Eat!", "foreign": "Makan!", "base": "makan"},
+				{"english": "Please eat.", "foreign": "Silakan makan.", "mark": [{"text": "Silakan", "role": "helper word"}], "from": 1, "base": "makan"},
+				{"english": "Wait!", "foreign": "Tunggu!", "base": "tunggu"},
+				{"english": "Please wait.", "foreign": "Tolong tunggu.", "mark": [{"text": "Tolong", "role": "helper word"}], "from": 3, "base": "tunggu"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["ending"], "replaces": "Patterns - More Than One, Part 1",
+			"description": "To make it plain that there is more than one, say the word twice: anak is a child, and anak-anak is children.",
+			"rows": [
+				{"english": "Child", "foreign": "anak"},
+				{"english": "Children", "foreign": "anak-anak", "mark": ["-anak"], "from": 1},
+				{"english": "Book", "foreign": "buku"},
+				{"english": "Books", "foreign": "buku-buku", "mark": ["-buku"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["nothing", "helper word"],
+			"description": "Indonesian has no word for a. Itu, that, after a thing often does the work of the: buku itu, the book.",
+			"rows": [
+				{"english": "Book", "foreign": "buku"},
+				{"english": "I read a book.", "foreign": "Saya membaca buku."},
+				{"english": "The book is new.", "foreign": "Buku itu baru.", "mark": [{"text": "itu", "role": "helper word"}]},
+				{"english": "The dog is small.", "foreign": "Anjing itu kecil.", "mark": [{"text": "itu", "role": "helper word"}]}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["word order"], "replaces": "Patterns - Whose It Is, Part 1",
+			"description": "The owner comes after the thing owned: my house is house I, rumah saya.",
+			"rows": [
+				{"english": "My house", "foreign": "rumah saya", "mark": ["saya"]},
+				{"english": "Your house", "foreign": "rumah kamu", "mark": ["kamu"]},
+				{"english": "Her house", "foreign": "rumah dia", "mark": ["dia"]},
+				{"english": "Our house", "foreign": "rumah kami", "mark": ["kami"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Ini is this and itu is that. Both come after the thing: buku ini, this book.",
+			"rows": [
+				{"english": "This book", "foreign": "buku ini", "mark": ["ini"]},
+				{"english": "That book", "foreign": "buku itu", "mark": ["itu"]},
+				{"english": "This house", "foreign": "rumah ini", "mark": ["ini"]},
+				{"english": "That house", "foreign": "rumah itu", "mark": ["itu"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["helper word"],
+			"description": "A number goes in front of the thing. For animals, the counting word ekor often goes between: tiga ekor kucing, three cats.",
+			"rows": [
+				{"english": "One person", "foreign": "satu orang"},
+				{"english": "Two books", "foreign": "dua buku"},
+				{"english": "One dog", "foreign": "seekor anjing", "mark": ["ekor"]},
+				{"english": "Three cats", "foreign": "tiga ekor kucing", "mark": ["ekor"]}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["helper word"],
+			"description": "The verb never changes for politeness. Kamu is you for friends and Anda is the polite you. Most often people use a title instead: Pak for an older man, Bu for an older woman.",
+			"rows": [
+				{"english": "You speak Indonesian, to a friend", "foreign": "Kamu berbicara bahasa Indonesia.", "mark": ["Kamu"]},
+				{"english": "You speak Indonesian, said politely", "foreign": "Anda berbicara bahasa Indonesia.", "mark": ["Anda"], "from": 1},
+				{"english": "How are you?", "foreign": "Apa kabar?"},
+				{"english": "How are you? said to an older man", "foreign": "Apa kabar, Pak?", "mark": ["Pak"], "from": 3}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "Indonesian has two words for not: tidak for doing and describing, and bukan for things.",
+			"rows": [
+				{"english": "I speak Indonesian.", "foreign": "Saya berbicara bahasa Indonesia."},
+				{"english": "I do not speak Indonesian.", "foreign": "Saya tidak berbicara bahasa Indonesia.", "mark": ["tidak"], "from": 1},
+				{"english": "I am a student.", "foreign": "Saya pelajar."},
+				{"english": "I am not a student.", "foreign": "Saya bukan pelajar.", "mark": ["bukan"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["helper word"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "Put apakah in front of a statement and it becomes a yes-or-no question. Nothing else moves.",
+			"rows": [
+				{"english": "You speak Indonesian.", "foreign": "Kamu berbicara bahasa Indonesia."},
+				{"english": "Do you speak Indonesian?", "foreign": "Apakah kamu berbicara bahasa Indonesia?", "mark": ["Apakah"], "from": 1},
+				{"english": "This is the bus to Jakarta.", "foreign": "Ini bis ke Jakarta."},
+				{"english": "Is this the bus to Jakarta?", "foreign": "Apakah ini bis ke Jakarta?", "mark": ["Apakah"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["nothing"],
+			"description": "The asking word can sit where the answer will go. Nothing has to move to the front: this is what, the bus is where.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "Dia siapa?", "mark": ["siapa"]},
+				{"english": "What is this?", "foreign": "Ini apa?", "mark": ["apa"]},
+				{"english": "Where is the bus?", "foreign": "Bis di mana?", "mark": ["di mana"]},
+				{"english": "Where do you live?", "foreign": "Kamu tinggal di mana?", "mark": ["di mana"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word"],
+			"description": "Want to, can, and must are small words in front of the verb: mau, bisa, harus. The verb itself does not change.",
+			"rows": [
+				{"english": "I eat.", "foreign": "Saya makan."},
+				{"english": "I want to eat.", "foreign": "Saya mau makan.", "mark": ["mau"], "from": 1},
+				{"english": "I can eat.", "foreign": "Saya bisa makan.", "mark": ["bisa"], "from": 1},
+				{"english": "I must eat.", "foreign": "Saya harus makan.", "mark": ["harus"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["word order"], "replaces": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In Indonesian it comes after: rumah putih.",
+			"rows": [
+				{"english": "A white house", "foreign": "rumah putih", "mark": ["putih"]},
+				{"english": "A black cat", "foreign": "kucing hitam", "mark": ["hitam"]},
+				{"english": "A big city", "foreign": "kota besar", "mark": ["besar"]},
+				{"english": "A new book", "foreign": "buku baru", "mark": ["baru"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["helper word"],
+			"description": "Di in front of the place says where: in, on, and at are all di. There is no word for is.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "Buku itu di meja.", "mark": ["di"]},
+				{"english": "The cat is in the house.", "foreign": "Kucing itu di rumah.", "mark": ["di"]},
+				{"english": "I am at home.", "foreign": "Saya di rumah.", "mark": ["di"]},
+				{"english": "She is in Jakarta.", "foreign": "Dia di Jakarta.", "mark": ["di"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["helper word"],
+			"description": "Put lebih in front for more, and paling for the most. The describing word itself stays the same.",
+			"rows": [
+				{"english": "Tall", "foreign": "tinggi"},
+				{"english": "Taller", "foreign": "lebih tinggi", "mark": ["lebih"], "from": 1},
+				{"english": "The tallest", "foreign": "paling tinggi", "mark": ["paling"], "from": 1},
+				{"english": "More expensive", "foreign": "lebih mahal", "mark": ["lebih"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "Dan is and, atau is or, tetapi is but, and karena is because. They sit between the two halves, as in English.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "anjing dan kucing", "mark": ["dan"]},
+				{"english": "Coffee or tea", "foreign": "kopi atau teh", "mark": ["atau"]},
+				{"english": "I am tired, but I am going.", "foreign": "Saya lelah, tetapi saya pergi.", "mark": ["tetapi"]},
+				{"english": "I eat because I am hungry.", "foreign": "Saya makan karena saya lapar.", "mark": ["karena"]}
+			]
+		}
+	]
+}

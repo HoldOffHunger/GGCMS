@@ -1,0 +1,187 @@
+{
+	"language": "german",
+	"translation_language": "de",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal du throughout, except where polite against familiar is the lesson.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["ending"], "replaces": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb gehen, to go, changes its ending to say who is going. Spot what changes: gehe, gehst, geht, gehen.",
+			"rows": [
+				{"english": "I go", "foreign": "ich gehe", "mark": ["e"], "base": "gehen", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "du gehst", "mark": ["st"], "base": "gehen", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "sie geht", "mark": ["t"], "base": "gehen", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "wir gehen", "mark": ["en"], "base": "gehen", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["helper word", "ending"],
+			"description": "For before, German uses a helper, bin or habe, and a changed verb at the end: ich bin gegangen. For later, the helper werde: ich werde gehen.",
+			"rows": [
+				{"english": "I go", "foreign": "ich gehe", "base": "gehen", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "ich bin gegangen", "mark": ["bin", {"text": "gegangen", "role": "ending"}], "from": 1, "base": "gehen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "ich werde gehen", "mark": ["werde"], "from": 1, "base": "gehen", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "sie ist gegangen", "mark": ["ist", {"text": "gegangen", "role": "ending"}], "base": "gehen", "features": {"who": "she", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["nothing", "helper word"],
+			"description": "German has one form for I eat and I am eating: ich esse. A small word, gerade, can say it is happening this minute. For finished, a helper and a changed verb: ich habe gegessen.",
+			"rows": [
+				{"english": "I eat", "foreign": "ich esse", "base": "essen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "ich esse", "from": 1, "base": "essen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I am eating right now", "foreign": "ich esse gerade", "mark": [{"text": "gerade", "role": "helper word"}], "from": 1, "base": "essen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I have eaten", "foreign": "ich habe gegessen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gegessen", "role": "ending"}], "from": 1, "base": "essen", "features": {"who": "i", "when": "before", "going": "no"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["ending"],
+			"description": "To tell a friend to do something, the verb comes first and stands short, without its ending: Komm! Geh! Schau!",
+			"rows": [
+				{"english": "Come!", "foreign": "Komm!", "base": "kommen"},
+				{"english": "Go!", "foreign": "Geh!", "base": "gehen"},
+				{"english": "Look!", "foreign": "Schau!", "base": "schauen"},
+				{"english": "Wait!", "foreign": "Warte!", "base": "warten"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["ending", "helper word"], "replaces": "Patterns - More Than One, Part 1",
+			"description": "For more than one, the word for the is always die, and the word itself changes in one of several ways: Hund, Hunde; Katze, Katzen. Each is learned with its word.",
+			"rows": [
+				{"english": "The dog", "foreign": "der Hund"},
+				{"english": "The dogs", "foreign": "die Hunde", "mark": [{"text": "die", "role": "helper word"}, "e"], "from": 1},
+				{"english": "The cat", "foreign": "die Katze"},
+				{"english": "The cats", "foreign": "die Katzen", "mark": ["n"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["helper word"], "replaces": "Patterns - Three Words for The, Part 1",
+			"description": "German has three words for the: der, die, and das. Each naming word has its own, and it is learned with the word.",
+			"rows": [
+				{"english": "The man", "foreign": "der Mann", "mark": ["der"]},
+				{"english": "The woman", "foreign": "die Frau", "mark": ["die"]},
+				{"english": "The child", "foreign": "das Kind", "mark": ["das"]},
+				{"english": "The girl", "foreign": "das Mädchen", "mark": ["das"]}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["helper word"],
+			"description": "A small word in front says whose it is: mein, dein, ihr, unser.",
+			"rows": [
+				{"english": "My house", "foreign": "mein Haus", "mark": ["mein"]},
+				{"english": "Your house", "foreign": "dein Haus", "mark": ["dein"]},
+				{"english": "Her house", "foreign": "ihr Haus", "mark": ["ihr"]},
+				{"english": "Our house", "foreign": "unser Haus", "mark": ["unser"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Dieser is this, and its ending matches the thing: dieser Hund, diese Katze, dieses Buch. For that, Germans mostly say the and add da, there: das Buch da.",
+			"rows": [
+				{"english": "This book", "foreign": "dieses Buch", "mark": ["dieses"]},
+				{"english": "That book there", "foreign": "das Buch da", "mark": ["das", "da"]},
+				{"english": "This dog", "foreign": "dieser Hund", "mark": ["dieser"]},
+				{"english": "This cat", "foreign": "diese Katze", "mark": ["diese"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["nothing"],
+			"description": "A number goes straight in front of the thing, as in English. Only one changes, to match the thing: ein Buch, eine Katze.",
+			"rows": [
+				{"english": "One book", "foreign": "ein Buch", "mark": ["ein"]},
+				{"english": "One cat", "foreign": "eine Katze", "mark": ["eine"]},
+				{"english": "Two books", "foreign": "zwei Bücher"},
+				{"english": "Three cats", "foreign": "drei Katzen"}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["helper word", "ending"],
+			"description": "German has two words for you: du for friends and family, and Sie, with a capital, for everyone else. The verb changes with them.",
+			"rows": [
+				{"english": "You speak, to a friend", "foreign": "du sprichst", "mark": ["du"], "base": "sprechen", "features": {"who": "you", "polite": "no"}},
+				{"english": "You speak, said politely", "foreign": "Sie sprechen", "mark": ["Sie", {"text": "en", "role": "ending"}], "from": 1, "base": "sprechen", "features": {"who": "you", "polite": "yes"}},
+				{"english": "How are you? to a friend", "foreign": "Wie geht es dir?", "mark": ["dir"]},
+				{"english": "How are you? said politely", "foreign": "Wie geht es Ihnen?", "mark": ["Ihnen"], "from": 3}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, add nicht. It comes after the verb, and often at the very end.",
+			"rows": [
+				{"english": "I am tired.", "foreign": "Ich bin müde."},
+				{"english": "I am not tired.", "foreign": "Ich bin nicht müde.", "mark": ["nicht"], "from": 1},
+				{"english": "I am coming today.", "foreign": "Ich komme heute."},
+				{"english": "I am not coming today.", "foreign": "Ich komme heute nicht.", "mark": ["nicht"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["word order"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "To ask, move the verb to the front. The other words keep their order.",
+			"rows": [
+				{"english": "You speak German.", "foreign": "Du sprichst Deutsch."},
+				{"english": "Do you speak German?", "foreign": "Sprichst du Deutsch?", "mark": ["Sprichst"], "from": 1},
+				{"english": "This is the bus to Berlin.", "foreign": "Das ist der Bus nach Berlin."},
+				{"english": "Is this the bus to Berlin?", "foreign": "Ist das der Bus nach Berlin?", "mark": ["Ist"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["word order"],
+			"description": "The asking word comes first, and the verb straight after it: wer, was, wo.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "Wer ist sie?", "mark": ["Wer"]},
+				{"english": "What is this?", "foreign": "Was ist das?", "mark": ["Was"]},
+				{"english": "Where is the bus?", "foreign": "Wo ist der Bus?", "mark": ["Wo"]},
+				{"english": "Where do you live?", "foreign": "Wo wohnst du?", "mark": ["Wo"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word", "word order"],
+			"description": "Want to, can, and must are verbs of their own. They take the verb's place, and the other verb goes to the end of the sentence, whole.",
+			"rows": [
+				{"english": "I eat.", "foreign": "Ich esse."},
+				{"english": "I want to eat.", "foreign": "Ich will essen.", "mark": ["will"], "from": 1},
+				{"english": "I can eat.", "foreign": "Ich kann essen.", "mark": ["kann"], "from": 1},
+				{"english": "I must eat.", "foreign": "Ich muss essen.", "mark": ["muss"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["ending"], "replaces": "Sentence Building - Describing Words Come First, Part 1",
+			"description": "As in English, the describing word comes before the thing. Its ending changes to match the thing: ein großer Hund, eine schwarze Katze, ein neues Buch.",
+			"rows": [
+				{"english": "A white house", "foreign": "ein weißes Haus", "mark": ["weißes"]},
+				{"english": "A black cat", "foreign": "eine schwarze Katze", "mark": ["schwarze"]},
+				{"english": "A big dog", "foreign": "ein großer Hund", "mark": ["großer"]},
+				{"english": "A new book", "foreign": "ein neues Buch", "mark": ["neues"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["helper word"],
+			"description": "Ist says where something is, with a small word in front of the place: auf, in, zu.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "Das Buch ist auf dem Tisch.", "mark": ["ist", "auf"]},
+				{"english": "The cat is in the house.", "foreign": "Die Katze ist im Haus.", "mark": ["ist", "im"]},
+				{"english": "I am at home.", "foreign": "Ich bin zu Hause.", "mark": ["bin", "zu"]},
+				{"english": "She is in Berlin.", "foreign": "Sie ist in Berlin.", "mark": ["ist", "in"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["ending", "helper word"],
+			"description": "For more, the describing word gains er, as English big becomes bigger: groß, größer. For the most, am goes in front and sten on the end: am größten.",
+			"rows": [
+				{"english": "Big", "foreign": "groß"},
+				{"english": "Bigger", "foreign": "größer", "mark": ["er"], "from": 1},
+				{"english": "The biggest", "foreign": "am größten", "mark": [{"text": "am", "role": "helper word"}, "ten"], "from": 1},
+				{"english": "More expensive", "foreign": "teurer", "mark": ["er"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "Und is and, oder is or, aber is but, and weil is because. After weil, the verb goes to the end.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "der Hund und die Katze", "mark": ["und"]},
+				{"english": "Coffee or tea", "foreign": "Kaffee oder Tee", "mark": ["oder"]},
+				{"english": "I am tired, but I am going.", "foreign": "Ich bin müde, aber ich gehe.", "mark": ["aber"]},
+				{"english": "I eat because I am hungry.", "foreign": "Ich esse, weil ich Hunger habe.", "mark": ["weil"]}
+			]
+		}
+	]
+}
