@@ -37,8 +37,12 @@ def check(path: Path, spine: dict) -> list[str]:
             if not row.get("english", "").strip() or not row.get("foreign", "").strip():
                 found.append(f"{job}, row {number}: an empty side")
                 continue
-            found += [f"{job}, row {number}: the mark \"{mark}\" is not in \"{row['foreign']}\"" for mark in row.get("mark", [])
-                      if mark not in row["foreign"]]
+            for mark in row.get("mark", []):  # a mark is its text, or {"text": ..., "role": ...} where a cell uses two strategies
+                text = mark["text"] if isinstance(mark, dict) else mark
+                if text not in row["foreign"]:
+                    found.append(f"{job}, row {number}: the mark \"{text}\" is not in \"{row['foreign']}\"")
+                if isinstance(mark, dict) and mark.get("role") not in spine["strategies"]:
+                    found.append(f"{job}, row {number}: the mark \"{text}\" has a role that is not one of the spine's six")
             if "from" in row and not 1 <= row["from"] < number:
                 found.append(f"{job}, row {number}: \"from\" must be an earlier row of this cell, found {row['from']}")
             if ("features" in row) != ("base" in row) and "features" in row:

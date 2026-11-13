@@ -98,7 +98,12 @@ for language in sorted(courses):
     new_lessons = new_words = 0
     if PILOT and os.path.exists(pilot_path):
         pilot = json.load(open(pilot_path, encoding='utf-8'))
+        # A pilot lesson the grid has taken over is the grid's to import (make_grid_import.py), not made twice
+        grid_path = os.path.join(HERE, 'grid-' + language + '.json')
+        taken = {cell.get('replaces') for cell in json.load(open(grid_path, encoding='utf-8'))['cells']} if os.path.exists(grid_path) else set()
         for number, lesson in enumerate(pilot['lessons'], 1):
+            if lesson['title'] in taken:
+                continue
             name = 'pilot-%d' % number
             # The code is given: left to itself the importer builds one from the title and
             # the description together, and the existing lessons' codes are their titles alone.

@@ -45,7 +45,7 @@ def board(cell: dict, job: dict, grid: dict, strategies: dict) -> str:
     rows = []
     for row in cell["rows"]:
         source = f' data-from="{row["from"]}"' if "from" in row else ""
-        rows.append(f'<li class="board-row"{source}><span class="board-foreign" lang="{code}">{marked(row["foreign"], row.get("mark", []))}</span>'
+        rows.append(f'<li class="board-row"{source}><span class="board-foreign" lang="{code}">{marked(row["foreign"], [mark["text"] if isinstance(mark, dict) else mark for mark in row.get("mark", [])])}</span>'
                     f'<span class="board-english">{html.escape(row["english"])}</span></li>')
     how = " and ".join(f"<b>{html.escape(name)}</b>" for name in cell["strategy"])
     return (f'<section class="block lesson-block lesson-board" id="{code}-{job["code"]}" data-strategy="{html.escape(cell["strategy"][0])}" '

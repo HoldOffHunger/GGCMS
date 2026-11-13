@@ -28,9 +28,9 @@
 			"description": "For something going on right now, Spanish uses estar and a verb ending in ando or iendo: estoy hablando. For something done, the ending alone says so: hablé.",
 			"rows": [
 				{"english": "I speak", "foreign": "hablo", "base": "hablar", "features": {"who": "i", "when": "now"}},
-				{"english": "I am speaking", "foreign": "estoy hablando", "mark": ["estoy", "ando"], "from": 1, "base": "hablar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I am speaking", "foreign": "estoy hablando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "hablar", "features": {"who": "i", "when": "now", "going": "yes"}},
 				{"english": "I eat", "foreign": "como", "base": "comer", "features": {"who": "i", "when": "now"}},
-				{"english": "I am eating", "foreign": "estoy comiendo", "mark": ["estoy", "iendo"], "from": 3, "base": "comer", "features": {"who": "i", "when": "now", "going": "yes"}}
+				{"english": "I am eating", "foreign": "estoy comiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "comer", "features": {"who": "i", "when": "now", "going": "yes"}}
 			]
 		},
 		{
@@ -98,9 +98,9 @@
 			"description": "Spanish has two words for you: tú for friends and family, and usted for everyone else. The verb's ending changes with them.",
 			"rows": [
 				{"english": "You speak, to a friend", "foreign": "hablas", "mark": ["as"], "base": "hablar", "features": {"who": "you", "when": "now", "polite": "no"}},
-				{"english": "You speak, said politely", "foreign": "usted habla", "mark": ["usted", "a"], "from": 1, "base": "hablar", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "You speak, said politely", "foreign": "usted habla", "mark": [{"text": "usted", "role": "helper word"}, "a"], "from": 1, "base": "hablar", "features": {"who": "you", "when": "now", "polite": "yes"}},
 				{"english": "How are you? to a friend", "foreign": "¿Cómo estás?", "mark": ["ás"], "base": "estar"},
-				{"english": "How are you? said politely", "foreign": "¿Cómo está usted?", "mark": ["á", "usted"], "from": 3, "base": "estar"}
+				{"english": "How are you? said politely", "foreign": "¿Cómo está usted?", "mark": ["á", {"text": "usted", "role": "helper word"}], "from": 3, "base": "estar"}
 			]
 		},
 		{
@@ -147,7 +147,7 @@
 			"job": "describing", "strategy": ["word order", "ending"], "replaces": "Sentence Building - Describing Words Come After, Part 1",
 			"description": "In English the describing word comes first: a white house. In Spanish it usually comes after, and its ending matches the thing: una casa blanca.",
 			"rows": [
-				{"english": "A white house", "foreign": "una casa blanca", "mark": ["blanca"]},
+				{"english": "A white house", "foreign": "una casa blanca", "mark": [{"text": "blanca", "role": "word order"}]},
 				{"english": "A black cat", "foreign": "un gato negro", "mark": ["negro"]},
 				{"english": "A big city", "foreign": "una ciudad grande", "mark": ["grande"]},
 				{"english": "A small town", "foreign": "un pueblo pequeño", "mark": ["pequeño"]}

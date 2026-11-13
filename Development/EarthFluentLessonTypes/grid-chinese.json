@@ -19,7 +19,7 @@
 			"rows": [
 				{"english": "I go", "foreign": "我去", "base": "去", "features": {"who": "i", "when": "now"}},
 				{"english": "I went", "foreign": "我去了", "mark": ["了"], "from": 1, "base": "去", "features": {"who": "i", "when": "before"}},
-				{"english": "I will go", "foreign": "我会去", "mark": ["会"], "from": 1, "base": "去", "features": {"who": "i", "when": "later"}},
+				{"english": "I will go", "foreign": "我会去", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "去", "features": {"who": "i", "when": "later"}},
 				{"english": "She went", "foreign": "她去了", "mark": ["了"], "base": "去", "features": {"who": "she", "when": "before"}}
 			]
 		},
@@ -38,9 +38,9 @@
 			"description": "To tell someone to do it, say the verb on its own. Put 请 in front to say please.",
 			"rows": [
 				{"english": "Eat!", "foreign": "吃！", "base": "吃"},
-				{"english": "Please eat.", "foreign": "请吃。", "mark": ["请"], "from": 1, "base": "吃"},
+				{"english": "Please eat.", "foreign": "请吃。", "mark": [{"text": "请", "role": "helper word"}], "from": 1, "base": "吃"},
 				{"english": "Come!", "foreign": "来！", "base": "来"},
-				{"english": "Please come in.", "foreign": "请进。", "mark": ["请"], "base": "进"}
+				{"english": "Please come in.", "foreign": "请进。", "mark": [{"text": "请", "role": "helper word"}], "base": "进"}
 			]
 		},
 		{
