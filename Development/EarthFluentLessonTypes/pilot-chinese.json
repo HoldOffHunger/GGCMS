@@ -1,7 +1,7 @@
 {
 	"language": "chinese",
 	"translation_language": "zh",
-	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Simplified characters, as the rest of the course. The course stores no pinyin, so where the sound is the lesson, the pinyin is in the description.",
+	"status": "Pilot, written by Claude on 12 November 2026, checked by the translation workers, and deployed to earthfluent.com on 13 November 2026. Simplified characters, as the rest of the course. The course stores no pinyin, so where the sound is the lesson, the pinyin is in the description.",
 	"lessons": [
 		{
 			"type": "sounds-and-script",

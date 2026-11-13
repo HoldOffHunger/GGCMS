@@ -1,7 +1,7 @@
 {
 	"language": "spanish",
 	"translation_language": "es",
-	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal tú throughout, except where polite against familiar is the lesson; a male speaker where the word shows it. Regular verbs carry the patterns (hablar, comer); the irregular ones stay in the pilot lessons.",
+	"status": "First draft of the grid, written by Claude on 13 November 2026, checked by the translation workers, and deployed to earthfluent.com on 13 November 2026. Informal tú throughout, except where polite against familiar is the lesson; a male speaker where the word shows it. Regular verbs carry the patterns (hablar, comer); the irregular ones stay in the pilot lessons.",
 	"cells": [
 		{
 			"job": "who", "strategy": ["ending"],

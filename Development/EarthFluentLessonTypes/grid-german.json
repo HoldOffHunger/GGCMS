@@ -1,7 +1,7 @@
 {
 	"language": "german",
 	"translation_language": "de",
-	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal du throughout, except where polite against familiar is the lesson.",
+	"status": "First draft of the grid, written by Claude on 13 November 2026, checked by the translation workers, and deployed to earthfluent.com on 13 November 2026. Informal du throughout, except where polite against familiar is the lesson.",
 	"cells": [
 		{
 			"job": "who", "strategy": ["ending"], "replaces": "Patterns - To Go in the Present, Part 1",

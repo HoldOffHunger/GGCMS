@@ -1,7 +1,7 @@
 {
 	"language": "japanese",
 	"translation_language": "ja",
-	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Polite forms throughout, except where plain against polite is the lesson. The course stores no readings, so the sound lessons are written in kana.",
+	"status": "Pilot, written by Claude on 12 November 2026, checked by the translation workers, and deployed to earthfluent.com on 13 November 2026. Polite forms throughout, except where plain against polite is the lesson. The course stores no readings, so the sound lessons are written in kana.",
 	"lessons": [
 		{
 			"type": "sounds-and-script",

@@ -1,7 +1,7 @@
 {
 	"language": "french",
 	"translation_language": "fr",
-	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal tu throughout, except where polite against familiar is the lesson; a male speaker where the word shows it. Vocabulary follows the course: autobus, voiture.",
+	"status": "First draft of the grid, written by Claude on 13 November 2026, checked by the translation workers, and deployed to earthfluent.com on 13 November 2026. Informal tu throughout, except where polite against familiar is the lesson; a male speaker where the word shows it. Vocabulary follows the course: autobus, voiture.",
 	"cells": [
 		{
 			"job": "who", "strategy": ["ending"],

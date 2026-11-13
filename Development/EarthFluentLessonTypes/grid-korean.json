@@ -1,7 +1,7 @@
 {
 	"language": "korean",
 	"translation_language": "ko",
-	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. The polite 요 form throughout, except where the dictionary form is the lesson. The course stores no romanization yet, so the board will have none until the sounds job has run.",
+	"status": "First draft of the grid, written by Claude on 13 November 2026, checked by the translation workers, and deployed to earthfluent.com on 13 November 2026. The polite 요 form throughout, except where the dictionary form is the lesson. The course stores no romanization yet, so the board will have none until the sounds job has run.",
 	"cells": [
 		{
 			"job": "who", "strategy": ["nothing"], "replaces": "Patterns - The Verb Never Says Who, Part 1",

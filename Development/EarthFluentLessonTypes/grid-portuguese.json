@@ -1,7 +1,7 @@
 {
 	"language": "portuguese",
 	"translation_language": "pt",
-	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Brazilian Portuguese, as the course is: ônibus, cachorro, você. A male speaker where the word shows it.",
+	"status": "First draft of the grid, written by Claude on 13 November 2026, checked by the translation workers, and deployed to earthfluent.com on 13 November 2026. Brazilian Portuguese, as the course is: ônibus, cachorro, você. A male speaker where the word shows it.",
 	"cells": [
 		{
 			"job": "who", "strategy": ["ending"],

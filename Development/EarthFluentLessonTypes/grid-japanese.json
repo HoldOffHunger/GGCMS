@@ -1,7 +1,7 @@
 {
 	"language": "japanese",
 	"translation_language": "ja",
-	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Polite forms throughout, except where plain against polite is the lesson. The course stores no readings yet, so the board will have none until the sounds job has run.",
+	"status": "First draft of the grid, written by Claude on 13 November 2026, checked by the translation workers, and deployed to earthfluent.com on 13 November 2026. Polite forms throughout, except where plain against polite is the lesson. The course stores no readings yet, so the board will have none until the sounds job has run.",
 	"cells": [
 		{
 			"job": "who", "strategy": ["nothing"], "replaces": "Patterns - The Verb Never Says Who, Part 1",

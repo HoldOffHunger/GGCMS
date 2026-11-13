@@ -1,7 +1,7 @@
 {
 	"language": "chinese",
 	"translation_language": "zh",
-	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Simplified characters, as the rest of the course. The course stores no pinyin yet, so the board will have none until the sounds job has run.",
+	"status": "First draft of the grid, written by Claude on 13 November 2026, checked by the translation workers, and deployed to earthfluent.com on 13 November 2026. Simplified characters, as the rest of the course. The course stores no pinyin yet, so the board will have none until the sounds job has run.",
 	"cells": [
 		{
 			"job": "who", "strategy": ["nothing"], "replaces": "Patterns - The Verb Never Changes, Part 1",
