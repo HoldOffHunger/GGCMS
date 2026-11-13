@@ -1,0 +1,187 @@
+{
+	"language": "spanish",
+	"translation_language": "es",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Informal tú throughout, except where polite against familiar is the lesson; a male speaker where the word shows it. Regular verbs carry the patterns (hablar, comer); the irregular ones stay in the pilot lessons.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["ending"],
+			"description": "The verb's ending says who is doing it: hablo, hablas, habla, hablamos. Spot what changes.",
+			"rows": [
+				{"english": "I speak", "foreign": "hablo", "mark": ["o"], "base": "hablar", "features": {"who": "i", "when": "now"}},
+				{"english": "You speak", "foreign": "hablas", "mark": ["as"], "base": "hablar", "features": {"who": "you", "when": "now"}},
+				{"english": "She speaks", "foreign": "habla", "mark": ["a"], "base": "hablar", "features": {"who": "she", "when": "now"}},
+				{"english": "We speak", "foreign": "hablamos", "mark": ["amos"], "base": "hablar", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["ending"],
+			"description": "The ending also says when: hablo is now, hablé is before, and hablaré is later.",
+			"rows": [
+				{"english": "I speak", "foreign": "hablo", "mark": ["o"], "base": "hablar", "features": {"who": "i", "when": "now"}},
+				{"english": "I spoke", "foreign": "hablé", "mark": ["é"], "from": 1, "base": "hablar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will speak", "foreign": "hablaré", "mark": ["aré"], "from": 1, "base": "hablar", "features": {"who": "i", "when": "later"}},
+				{"english": "She spoke", "foreign": "habló", "mark": ["ó"], "base": "hablar", "features": {"who": "she", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["helper word", "ending"],
+			"description": "For something going on right now, Spanish uses estar and a verb ending in ando or iendo: estoy hablando. For something done, the ending alone says so: hablé.",
+			"rows": [
+				{"english": "I speak", "foreign": "hablo", "base": "hablar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am speaking", "foreign": "estoy hablando", "mark": ["estoy", "ando"], "from": 1, "base": "hablar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I eat", "foreign": "como", "base": "comer", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "estoy comiendo", "mark": ["estoy", "iendo"], "from": 3, "base": "comer", "features": {"who": "i", "when": "now", "going": "yes"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["ending"],
+			"description": "To tell a friend to do something, the verb takes the same ending as for he or she: habla, come, mira. A few are short and their own, like ven.",
+			"rows": [
+				{"english": "Speak!", "foreign": "¡Habla!", "mark": ["a"], "base": "hablar"},
+				{"english": "Eat!", "foreign": "¡Come!", "mark": ["e"], "base": "comer"},
+				{"english": "Look!", "foreign": "¡Mira!", "mark": ["a"], "base": "mirar"},
+				{"english": "Come!", "foreign": "¡Ven!", "base": "venir"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["ending"], "replaces": "Patterns - More Than One, Part 1",
+			"description": "For more than one, the word gains an S, and so does its \"the\": el becomes los, and la becomes las.",
+			"rows": [
+				{"english": "The dog", "foreign": "el perro"},
+				{"english": "The dogs", "foreign": "los perros", "mark": ["los", "s"], "from": 1},
+				{"english": "The house", "foreign": "la casa"},
+				{"english": "The houses", "foreign": "las casas", "mark": ["las", "s"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["helper word"],
+			"description": "Spanish has two words for the and two for a, because every naming word is a he-word or a she-word: el and un, la and una.",
+			"rows": [
+				{"english": "The book", "foreign": "el libro", "mark": ["el"]},
+				{"english": "A book", "foreign": "un libro", "mark": ["un"]},
+				{"english": "The house", "foreign": "la casa", "mark": ["la"]},
+				{"english": "A house", "foreign": "una casa", "mark": ["una"]}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["helper word"],
+			"description": "A small word in front says whose it is: mi, tu, su, nuestra.",
+			"rows": [
+				{"english": "My house", "foreign": "mi casa", "mark": ["mi"]},
+				{"english": "Your house", "foreign": "tu casa", "mark": ["tu"]},
+				{"english": "Her house", "foreign": "su casa", "mark": ["su"]},
+				{"english": "Our house", "foreign": "nuestra casa", "mark": ["nuestra"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Spanish points three ways where English points two: este for this one here, ese for that one near you, and aquel for that one over there.",
+			"rows": [
+				{"english": "This book", "foreign": "este libro", "mark": ["este"]},
+				{"english": "That book", "foreign": "ese libro", "mark": ["ese"]},
+				{"english": "That book over there", "foreign": "aquel libro", "mark": ["aquel"]},
+				{"english": "This house", "foreign": "esta casa", "mark": ["esta"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["nothing"],
+			"description": "A number goes straight in front of the thing, as in English. Only one changes, to match the thing: un libro, una casa.",
+			"rows": [
+				{"english": "One book", "foreign": "un libro", "mark": ["un"]},
+				{"english": "One house", "foreign": "una casa", "mark": ["una"]},
+				{"english": "Two books", "foreign": "dos libros"},
+				{"english": "Three houses", "foreign": "tres casas"}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["ending", "helper word"],
+			"description": "Spanish has two words for you: tú for friends and family, and usted for everyone else. The verb's ending changes with them.",
+			"rows": [
+				{"english": "You speak, to a friend", "foreign": "hablas", "mark": ["as"], "base": "hablar", "features": {"who": "you", "when": "now", "polite": "no"}},
+				{"english": "You speak, said politely", "foreign": "usted habla", "mark": ["usted", "a"], "from": 1, "base": "hablar", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "How are you? to a friend", "foreign": "¿Cómo estás?", "mark": ["ás"], "base": "estar"},
+				{"english": "How are you? said politely", "foreign": "¿Cómo está usted?", "mark": ["á", "usted"], "from": 3, "base": "estar"}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put no in front of the verb. Nothing else in the sentence changes.",
+			"rows": [
+				{"english": "I speak Spanish.", "foreign": "Hablo español."},
+				{"english": "I do not speak Spanish.", "foreign": "No hablo español.", "mark": ["No"], "from": 1},
+				{"english": "I am tired.", "foreign": "Estoy cansado."},
+				{"english": "I am not tired.", "foreign": "No estoy cansado.", "mark": ["No"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["tone"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "A Spanish question opens with ¿ and closes with ?. Often the words barely move, and the voice rises instead.",
+			"rows": [
+				{"english": "You speak Spanish.", "foreign": "Hablas español."},
+				{"english": "Do you speak Spanish?", "foreign": "¿Hablas español?", "mark": ["¿", "?"], "from": 1},
+				{"english": "This is the bus to Barcelona.", "foreign": "Este es el autobús a Barcelona."},
+				{"english": "Is this the bus to Barcelona?", "foreign": "¿Es este el autobús a Barcelona?", "mark": ["¿", "?"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["word order"],
+			"description": "The asking word comes first, and wears an accent mark: qué, quién, dónde. The opening ¿ still comes before it.",
+			"rows": [
+				{"english": "What is this?", "foreign": "¿Qué es esto?", "mark": ["Qué"]},
+				{"english": "Who is she?", "foreign": "¿Quién es ella?", "mark": ["Quién"]},
+				{"english": "Where is the bus?", "foreign": "¿Dónde está el autobús?", "mark": ["Dónde"]},
+				{"english": "Where do you live?", "foreign": "¿Dónde vives?", "mark": ["Dónde"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word"],
+			"description": "Want to, can, and must are verbs of their own, placed in front of the other verb, which stays whole: quiero comer.",
+			"rows": [
+				{"english": "I eat.", "foreign": "Como."},
+				{"english": "I want to eat.", "foreign": "Quiero comer.", "mark": ["Quiero"], "from": 1},
+				{"english": "I can eat.", "foreign": "Puedo comer.", "mark": ["Puedo"], "from": 1},
+				{"english": "I must eat.", "foreign": "Debo comer.", "mark": ["Debo"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["word order", "ending"], "replaces": "Sentence Building - Describing Words Come After, Part 1",
+			"description": "In English the describing word comes first: a white house. In Spanish it usually comes after, and its ending matches the thing: una casa blanca.",
+			"rows": [
+				{"english": "A white house", "foreign": "una casa blanca", "mark": ["blanca"]},
+				{"english": "A black cat", "foreign": "un gato negro", "mark": ["negro"]},
+				{"english": "A big city", "foreign": "una ciudad grande", "mark": ["grande"]},
+				{"english": "A small town", "foreign": "un pueblo pequeño", "mark": ["pequeño"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["helper word"],
+			"description": "To say where something is, use está, and put en in front of the place. En covers in, on, and at.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "El libro está en la mesa.", "mark": ["está", "en"]},
+				{"english": "The cat is in the house.", "foreign": "El gato está en la casa.", "mark": ["está", "en"]},
+				{"english": "I am at home.", "foreign": "Estoy en casa.", "mark": ["Estoy", "en"]},
+				{"english": "She is in Madrid.", "foreign": "Ella está en Madrid.", "mark": ["está", "en"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["helper word"],
+			"description": "Put más in front for more, and el más or la más for the most. The describing word itself stays the same.",
+			"rows": [
+				{"english": "Tall", "foreign": "alto"},
+				{"english": "Taller", "foreign": "más alto", "mark": ["más"], "from": 1},
+				{"english": "The tallest", "foreign": "el más alto", "mark": ["el más"], "from": 1},
+				{"english": "More expensive", "foreign": "más caro", "mark": ["más"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "Y is and, o is or, pero is but, and porque is because. They sit between the two halves, as in English.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "el perro y el gato", "mark": ["y"]},
+				{"english": "Coffee or tea", "foreign": "café o té", "mark": ["o"]},
+				{"english": "I am tired, but I am going.", "foreign": "Estoy cansado, pero voy.", "mark": ["pero"]},
+				{"english": "I eat because I am hungry.", "foreign": "Como porque tengo hambre.", "mark": ["porque"]}
+			]
+		}
+	]
+}

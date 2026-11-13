@@ -1,0 +1,187 @@
+{
+	"language": "japanese",
+	"translation_language": "ja",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Polite forms throughout, except where plain against polite is the lesson. The course stores no readings yet, so the board will have none until the sounds job has run.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["nothing"], "replaces": "Patterns - The Verb Never Says Who, Part 1",
+			"description": "The verb is the same whoever is going: 行きます. Only the word in front, marked by は, says who.",
+			"rows": [
+				{"english": "I go", "foreign": "私は行きます", "mark": ["行きます"], "base": "行く", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "あなたは行きます", "mark": ["行きます"], "base": "行く", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "彼女は行きます", "mark": ["行きます"], "base": "行く", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "私たちは行きます", "mark": ["行きます"], "base": "行く", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["ending"],
+			"description": "The verb's ending says when: ます for now and for later, and ました for before. A day word says the rest.",
+			"rows": [
+				{"english": "I go", "foreign": "行きます", "mark": ["ます"], "base": "行く", "features": {"when": "now"}},
+				{"english": "I went", "foreign": "行きました", "mark": ["ました"], "from": 1, "base": "行く", "features": {"when": "before"}},
+				{"english": "I will go tomorrow", "foreign": "明日行きます", "mark": ["ます"], "base": "行く", "features": {"when": "later"}},
+				{"english": "I went yesterday", "foreign": "昨日行きました", "mark": ["ました"], "base": "行く", "features": {"when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["ending"],
+			"description": "For something going on right now, the verb ends in ています. For something finished, it ends in ました.",
+			"rows": [
+				{"english": "I eat", "foreign": "食べます", "base": "食べる", "features": {"when": "now"}},
+				{"english": "I am eating", "foreign": "食べています", "mark": ["ています"], "from": 1, "base": "食べる", "features": {"when": "now", "going": "yes"}},
+				{"english": "I ate", "foreign": "食べました", "mark": ["ました"], "from": 1, "base": "食べる", "features": {"when": "before", "going": "no"}},
+				{"english": "She is reading a book.", "foreign": "彼女は本を読んでいます。", "mark": ["でいます"], "base": "読む", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["ending"],
+			"description": "To ask someone to do something, the verb takes an ending in て, and ください follows it.",
+			"rows": [
+				{"english": "Please eat.", "foreign": "食べてください。", "mark": ["てください"], "base": "食べる"},
+				{"english": "Please come.", "foreign": "来てください。", "mark": ["てください"], "base": "来る"},
+				{"english": "Please look.", "foreign": "見てください。", "mark": ["てください"], "base": "見る"},
+				{"english": "Please wait.", "foreign": "待ってください。", "mark": ["てください"], "base": "待つ"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["nothing"],
+			"description": "A Japanese word is the same for one and for many: 本 is a book, and books. Only words for people can take たち: 私たち, we.",
+			"rows": [
+				{"english": "Book", "foreign": "本"},
+				{"english": "Books", "foreign": "本", "from": 1},
+				{"english": "I", "foreign": "私"},
+				{"english": "We", "foreign": "私たち", "mark": ["たち"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["nothing"],
+			"description": "Japanese has no word for the or a. 本 is book, a book, and the book.",
+			"rows": [
+				{"english": "I read a book.", "foreign": "私は本を読みます。"},
+				{"english": "The book is new.", "foreign": "本は新しいです。"},
+				{"english": "I see a dog.", "foreign": "私は犬を見ます。"},
+				{"english": "The dog is small.", "foreign": "犬は小さいです。"}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["particle"],
+			"description": "の after a word makes it the owner: 私 is I, and 私の is my.",
+			"rows": [
+				{"english": "My book", "foreign": "私の本", "mark": ["の"]},
+				{"english": "Your book", "foreign": "あなたの本", "mark": ["の"]},
+				{"english": "Her book", "foreign": "彼女の本", "mark": ["の"]},
+				{"english": "Our teacher", "foreign": "私たちの先生", "mark": ["の"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "Japanese points three ways where English points two: この for this one here, その for that one near you, and あの for that one over there.",
+			"rows": [
+				{"english": "This book", "foreign": "この本", "mark": ["この"]},
+				{"english": "That book", "foreign": "その本", "mark": ["その"]},
+				{"english": "That book over there", "foreign": "あの本", "mark": ["あの"]},
+				{"english": "This person", "foreign": "この人", "mark": ["この"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["helper word"], "replaces": "Patterns - Counting Words, Part 1",
+			"description": "A number takes a counting word that fits the thing counted: 人 for people, 冊 for books, 匹 for small animals.",
+			"rows": [
+				{"english": "One person", "foreign": "一人", "mark": ["人"]},
+				{"english": "Two people", "foreign": "二人", "mark": ["人"]},
+				{"english": "One book", "foreign": "一冊", "mark": ["冊"]},
+				{"english": "One dog", "foreign": "一匹", "mark": ["匹"]}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["ending"], "replaces": "Patterns - Plain and Polite, Part 1",
+			"description": "Every verb has a plain form for family and friends and a polite form, ending in ます, for everybody else.",
+			"rows": [
+				{"english": "To eat, said plainly", "foreign": "食べる", "base": "食べる", "features": {"polite": "no"}},
+				{"english": "To eat, said politely", "foreign": "食べます", "mark": ["ます"], "from": 1, "base": "食べる", "features": {"polite": "yes"}},
+				{"english": "To go, said plainly", "foreign": "行く", "base": "行く", "features": {"polite": "no"}},
+				{"english": "To go, said politely", "foreign": "行きます", "mark": ["ます"], "from": 3, "base": "行く", "features": {"polite": "yes"}}
+			]
+		},
+		{
+			"job": "not", "strategy": ["ending"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "The no is in the verb's ending, at the very end of the sentence: ます becomes ません, and です becomes ではありません.",
+			"rows": [
+				{"english": "I speak Japanese.", "foreign": "私は日本語を話します。"},
+				{"english": "I do not speak Japanese.", "foreign": "私は日本語を話しません。", "mark": ["ません"], "from": 1},
+				{"english": "I am a student.", "foreign": "私は学生です。"},
+				{"english": "I am not a student.", "foreign": "私は学生ではありません。", "mark": ["ではありません"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["particle"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "Add か to the end of a statement and it becomes a question. Nothing else moves.",
+			"rows": [
+				{"english": "You speak Japanese.", "foreign": "あなたは日本語を話します。"},
+				{"english": "Do you speak Japanese?", "foreign": "あなたは日本語を話しますか。", "mark": ["か"], "from": 1},
+				{"english": "This is the bus to Tokyo.", "foreign": "これは東京行きのバスです。"},
+				{"english": "Is this the bus to Tokyo?", "foreign": "これは東京行きのバスですか。", "mark": ["か"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["particle"],
+			"description": "The asking word sits where the answer will go, and か still closes the sentence: she is who か.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "彼女は誰ですか。", "mark": ["誰", "か"]},
+				{"english": "What is this?", "foreign": "これは何ですか。", "mark": ["何", "か"]},
+				{"english": "Where is the bus?", "foreign": "バスはどこですか。", "mark": ["どこ", "か"]},
+				{"english": "Where are you going?", "foreign": "どこに行きますか。", "mark": ["どこ", "か"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["ending"],
+			"description": "Want to and can are endings on the verb, in place of ます: たい and られます. Must is a long ending, best learned whole.",
+			"rows": [
+				{"english": "I eat.", "foreign": "食べます。"},
+				{"english": "I want to eat.", "foreign": "食べたいです。", "mark": ["たい"], "from": 1},
+				{"english": "I can eat.", "foreign": "食べられます。", "mark": ["られます"], "from": 1},
+				{"english": "I must eat.", "foreign": "食べなければなりません。", "mark": ["なければなりません"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["ending"],
+			"description": "The describing word comes before the thing, as in English. At the end of a sentence it stands alone, with です to be polite, and its own ending changes for not: 大きい becomes 大きくない.",
+			"rows": [
+				{"english": "A big house", "foreign": "大きい家", "mark": ["大きい"]},
+				{"english": "The house is big.", "foreign": "家は大きいです。", "mark": ["大きい"]},
+				{"english": "The house is not big.", "foreign": "家は大きくないです。", "mark": ["くない"], "from": 2},
+				{"english": "A new book", "foreign": "新しい本", "mark": ["新しい"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["particle"],
+			"description": "に after a place says where something is, and で says where something is done. あります is for things, and います for people and animals.",
+			"rows": [
+				{"english": "The book is on the table.", "foreign": "本はテーブルの上にあります。", "mark": ["に", "あります"]},
+				{"english": "I am at home.", "foreign": "私は家にいます。", "mark": ["に", "います"]},
+				{"english": "She is in Tokyo.", "foreign": "彼女は東京にいます。", "mark": ["に", "います"]},
+				{"english": "I eat at home.", "foreign": "私は家で食べます。", "mark": ["で"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["helper word"],
+			"description": "より after a thing means than it, and 一番 in front means the most. The describing word itself stays the same.",
+			"rows": [
+				{"english": "He is tall.", "foreign": "彼は背が高いです。"},
+				{"english": "He is taller than me.", "foreign": "彼は私より背が高いです。", "mark": ["より"], "from": 1},
+				{"english": "He is the tallest.", "foreign": "彼は一番背が高いです。", "mark": ["一番"], "from": 1},
+				{"english": "This book is better.", "foreign": "この本のほうがいいです。", "mark": ["のほうが"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["particle"],
+			"description": "と joins two things and か is or. が after a sentence is but, and から after a sentence is because, so the reason comes first.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "犬と猫", "mark": ["と"]},
+				{"english": "Coffee or tea", "foreign": "コーヒーかお茶", "mark": ["か"]},
+				{"english": "I am tired, but I am going.", "foreign": "疲れていますが、行きます。", "mark": ["が"]},
+				{"english": "I eat because I am hungry.", "foreign": "おなかがすいたから、食べます。", "mark": ["から"]}
+			]
+		}
+	]
+}

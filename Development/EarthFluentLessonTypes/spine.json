@@ -1,0 +1,39 @@
+{
+	"about": "The spine: eighteen jobs every language must do. Each job is one lesson in every course, with the same title, so lesson N is the same job in all thirteen. What differs between languages is the strategy. A grid-<language>.json file fills one cell per job. Written by Claude with Ben on 13 November 2026, from Development/EarthFluentGrammar.md.",
+	"strategies": {
+		"ending": "The word itself changes, usually at its end.",
+		"helper word": "A separate word does the job, and the other words stay as they were.",
+		"particle": "A small marker with no meaning of its own is added, after a word or at the end of the sentence.",
+		"word order": "The words stay the same and their order does the job.",
+		"tone": "The voice does the job, and writing shows it with punctuation.",
+		"nothing": "The language does not mark this at all. Still a lesson, a short one: what to stop looking for."
+	},
+	"row": {
+		"english": "What the learner reads.",
+		"foreign": "What the learner learns. With english, this is the lesson's pair.",
+		"mark": "The parts of foreign that do the job. Each is an exact piece of the foreign text. The lesson board lights these up.",
+		"from": "The number of an earlier row in the same cell that this row is built from: the statement behind the question, the yes behind the no. The board shows that row first, then the change.",
+		"base": "The dictionary form of the word that changes, in the foreign language.",
+		"features": "What this form says: who (i, you, she, we, you-all, they), when (now, before, later), and so on."
+	},
+	"jobs": [
+		{"code": "who", "type": "patterns", "name": "Who Is Doing It", "asks": "How do I say who is doing it?"},
+		{"code": "when", "type": "patterns", "name": "Now, Before, and Later", "asks": "How do I say when it happens?"},
+		{"code": "going", "type": "patterns", "name": "Still Going or Finished", "asks": "How do I say it is going on right now, or that it is done?"},
+		{"code": "command", "type": "patterns", "name": "Telling Someone to Do It", "asks": "How do I tell or ask someone to do it?"},
+		{"code": "number", "type": "patterns", "name": "More Than One", "asks": "How do I say there is more than one?"},
+		{"code": "article", "type": "patterns", "name": "The and A", "asks": "How do I say the, and a?"},
+		{"code": "whose", "type": "patterns", "name": "Mine and Yours", "asks": "How do I say whose it is?"},
+		{"code": "pointing", "type": "patterns", "name": "This and That", "asks": "How do I point at this one, or that one?"},
+		{"code": "counting", "type": "patterns", "name": "Counting", "asks": "How do I say how many?"},
+		{"code": "polite", "type": "patterns", "name": "How Polite", "asks": "How do I speak to a friend, and to a stranger?"},
+		{"code": "not", "type": "sentence-building", "name": "Saying No", "asks": "How do I say it is not so?"},
+		{"code": "yes-or-no", "type": "sentence-building", "name": "Asking a Question", "asks": "How do I ask a question with a yes or a no for an answer?"},
+		{"code": "asking-words", "type": "sentence-building", "name": "Who, What, and Where", "asks": "How do I ask who, what, or where?"},
+		{"code": "want-can-must", "type": "sentence-building", "name": "Want To, Can, and Must", "asks": "How do I say I want to, I can, or I must?"},
+		{"code": "describing", "type": "sentence-building", "name": "Describing a Thing", "asks": "How do I say what a thing is like?"},
+		{"code": "where", "type": "sentence-building", "name": "Where It Is", "asks": "How do I say where something is?"},
+		{"code": "comparing", "type": "sentence-building", "name": "More and Most", "asks": "How do I say more, and the most?"},
+		{"code": "joining", "type": "sentence-building", "name": "And, But, and Because", "asks": "How do I join two things, or two sentences?"}
+	]
+}

@@ -1,0 +1,187 @@
+{
+	"language": "chinese",
+	"translation_language": "zh",
+	"status": "First draft of the grid, written by Claude on 13 November 2026 and not yet checked. Simplified characters, as the rest of the course. The course stores no pinyin yet, so the board will have none until the sounds job has run.",
+	"cells": [
+		{
+			"job": "who", "strategy": ["nothing"], "replaces": "Patterns - The Verb Never Changes, Part 1",
+			"description": "A Chinese verb is the same whoever is doing it. Only the word in front says who: 我, 你, 她, 我们. Spot what stays the same.",
+			"rows": [
+				{"english": "I go", "foreign": "我去", "mark": ["去"], "base": "去", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "你去", "mark": ["去"], "base": "去", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "她去", "mark": ["去"], "base": "去", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "我们去", "mark": ["去"], "base": "去", "features": {"who": "we", "when": "now"}}
+			]
+		},
+		{
+			"job": "when", "strategy": ["particle", "helper word"], "replaces": "Patterns - Already Done, Part 1",
+			"description": "The verb has no before or later of its own. 了 after it says the thing is done, and 会 in front of it says it is still to come.",
+			"rows": [
+				{"english": "I go", "foreign": "我去", "base": "去", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "我去了", "mark": ["了"], "from": 1, "base": "去", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "我会去", "mark": ["会"], "from": 1, "base": "去", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "她去了", "mark": ["了"], "base": "去", "features": {"who": "she", "when": "before"}}
+			]
+		},
+		{
+			"job": "going", "strategy": ["particle"],
+			"description": "在 in front of the verb says it is going on right now. 了 after the verb says it is finished.",
+			"rows": [
+				{"english": "I eat", "foreign": "我吃", "base": "吃", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "我在吃", "mark": ["在"], "from": 1, "base": "吃", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "I have eaten", "foreign": "我吃了", "mark": ["了"], "from": 1, "base": "吃", "features": {"who": "i", "when": "before", "going": "no"}},
+				{"english": "She is reading", "foreign": "她在看书", "mark": ["在"], "base": "看书", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]
+		},
+		{
+			"job": "command", "strategy": ["nothing", "helper word"],
+			"description": "To tell someone to do it, say the verb on its own. Put 请 in front to say please.",
+			"rows": [
+				{"english": "Eat!", "foreign": "吃！", "base": "吃"},
+				{"english": "Please eat.", "foreign": "请吃。", "mark": ["请"], "from": 1, "base": "吃"},
+				{"english": "Come!", "foreign": "来！", "base": "来"},
+				{"english": "Please come in.", "foreign": "请进。", "mark": ["请"], "base": "进"}
+			]
+		},
+		{
+			"job": "number", "strategy": ["nothing"],
+			"description": "A Chinese word is the same for one and for many: 书 is a book, and books. Only words for people can take 们: 朋友们, friends.",
+			"rows": [
+				{"english": "One book", "foreign": "一本书", "mark": ["书"]},
+				{"english": "Three books", "foreign": "三本书", "mark": ["书"], "from": 1},
+				{"english": "Friend", "foreign": "朋友"},
+				{"english": "Friends", "foreign": "朋友们", "mark": ["们"], "from": 3}
+			]
+		},
+		{
+			"job": "article", "strategy": ["nothing"],
+			"description": "Chinese has no word for the or a. 书 is book, a book, and the book.",
+			"rows": [
+				{"english": "Book", "foreign": "书"},
+				{"english": "I read a book.", "foreign": "我看书。"},
+				{"english": "The book is new.", "foreign": "书很新。"},
+				{"english": "I see the dog.", "foreign": "我看见狗。"}
+			]
+		},
+		{
+			"job": "whose", "strategy": ["particle"],
+			"description": "的 after a word makes it the owner: 我 is I, and 我的 is my.",
+			"rows": [
+				{"english": "My book", "foreign": "我的书", "mark": ["的"]},
+				{"english": "Your book", "foreign": "你的书", "mark": ["的"]},
+				{"english": "Her book", "foreign": "她的书", "mark": ["的"]},
+				{"english": "Our teacher", "foreign": "我们的老师", "mark": ["的"]}
+			]
+		},
+		{
+			"job": "pointing", "strategy": ["helper word"],
+			"description": "这 is this and 那 is that. A counting word goes between it and the thing: 这本书, this book.",
+			"rows": [
+				{"english": "This book", "foreign": "这本书", "mark": ["这"]},
+				{"english": "That book", "foreign": "那本书", "mark": ["那"]},
+				{"english": "This person", "foreign": "这个人", "mark": ["这"]},
+				{"english": "That person", "foreign": "那个人", "mark": ["那"]}
+			]
+		},
+		{
+			"job": "counting", "strategy": ["helper word"], "replaces": "Patterns - Counting Words, Part 1",
+			"description": "Between a number and a thing goes a counting word, and different kinds of thing take different ones: 个 for people, 本 for books, 只 for animals, 辆 for vehicles.",
+			"rows": [
+				{"english": "One person", "foreign": "一个人", "mark": ["个"]},
+				{"english": "One book", "foreign": "一本书", "mark": ["本"]},
+				{"english": "One dog", "foreign": "一只狗", "mark": ["只"]},
+				{"english": "One car", "foreign": "一辆车", "mark": ["辆"]}
+			]
+		},
+		{
+			"job": "polite", "strategy": ["helper word"],
+			"description": "The verb never changes for politeness. 您 is the polite word for you, for elders and strangers, and 请 in front of a verb is please.",
+			"rows": [
+				{"english": "How are you?", "foreign": "你好吗？"},
+				{"english": "How are you? said politely", "foreign": "您好吗？", "mark": ["您"], "from": 1},
+				{"english": "Sit.", "foreign": "坐。"},
+				{"english": "Please sit.", "foreign": "请坐。", "mark": ["请"], "from": 3}
+			]
+		},
+		{
+			"job": "not", "strategy": ["helper word"], "replaces": "Sentence Building - Saying No, Part 1",
+			"description": "To say something is not so, put 不 in front of the verb. Nothing else in the sentence changes. One everyday verb is different: 有, to have, takes 没, so I do not have a car is 我没有车.",
+			"rows": [
+				{"english": "I speak Chinese.", "foreign": "我说中文。"},
+				{"english": "I do not speak Chinese.", "foreign": "我不说中文。", "mark": ["不"], "from": 1},
+				{"english": "I am a student.", "foreign": "我是学生。"},
+				{"english": "I am not a student.", "foreign": "我不是学生。", "mark": ["不"], "from": 3}
+			]
+		},
+		{
+			"job": "yes-or-no", "strategy": ["particle"], "replaces": "Sentence Building - Asking a Question, Part 1",
+			"description": "Add 吗 to the end of a statement and it becomes a question. Nothing else moves.",
+			"rows": [
+				{"english": "You speak Chinese.", "foreign": "你说中文。"},
+				{"english": "Do you speak Chinese?", "foreign": "你说中文吗？", "mark": ["吗"], "from": 1},
+				{"english": "This is the bus to Beijing.", "foreign": "这是去北京的公共汽车。"},
+				{"english": "Is this the bus to Beijing?", "foreign": "这是去北京的公共汽车吗？", "mark": ["吗"], "from": 3}
+			]
+		},
+		{
+			"job": "asking-words", "strategy": ["nothing"],
+			"description": "The asking word sits exactly where the answer will go. Nothing moves to the front: she is who, this is what.",
+			"rows": [
+				{"english": "Who is she?", "foreign": "她是谁？", "mark": ["谁"]},
+				{"english": "What is this?", "foreign": "这是什么？", "mark": ["什么"]},
+				{"english": "Where is the bus?", "foreign": "公共汽车在哪里？", "mark": ["哪里"]},
+				{"english": "Where are you going?", "foreign": "你去哪里？", "mark": ["哪里"]}
+			]
+		},
+		{
+			"job": "want-can-must", "strategy": ["helper word"],
+			"description": "Want to, can, and must are small words in front of the verb: 想, 能, 得. The verb itself does not change.",
+			"rows": [
+				{"english": "I go.", "foreign": "我去。"},
+				{"english": "I want to go.", "foreign": "我想去。", "mark": ["想"], "from": 1},
+				{"english": "I can go.", "foreign": "我能去。", "mark": ["能"], "from": 1},
+				{"english": "I must go.", "foreign": "我得去。", "mark": ["得"], "from": 1}
+			]
+		},
+		{
+			"job": "describing", "strategy": ["helper word"],
+			"description": "To say what a thing is like, put 很 between the thing and the describing word. There is no word for is.",
+			"rows": [
+				{"english": "The house is big.", "foreign": "房子很大。", "mark": ["很"]},
+				{"english": "The book is good.", "foreign": "书很好。", "mark": ["很"]},
+				{"english": "She is tall.", "foreign": "她很高。", "mark": ["很"]},
+				{"english": "The dog is small.", "foreign": "狗很小。", "mark": ["很"]}
+			]
+		},
+		{
+			"job": "where", "strategy": ["helper word"],
+			"description": "在 says where something is: the thing, then 在, then the place. A small word after the place says on or in: 上, 里.",
+			"rows": [
+				{"english": "I am at home.", "foreign": "我在家。", "mark": ["在"]},
+				{"english": "She is in Beijing.", "foreign": "她在北京。", "mark": ["在"]},
+				{"english": "The book is on the table.", "foreign": "书在桌子上。", "mark": ["在", "上"]},
+				{"english": "The cat is in the house.", "foreign": "猫在房子里。", "mark": ["在", "里"]}
+			]
+		},
+		{
+			"job": "comparing", "strategy": ["helper word"],
+			"description": "比 between two things says the first one is more. 更 is more on its own, and 最 is the most. The describing word itself stays the same.",
+			"rows": [
+				{"english": "He is tall.", "foreign": "他很高。"},
+				{"english": "He is taller than me.", "foreign": "他比我高。", "mark": ["比"], "from": 1},
+				{"english": "He is the tallest.", "foreign": "他最高。", "mark": ["最"], "from": 1},
+				{"english": "This book is better.", "foreign": "这本书更好。", "mark": ["更"]}
+			]
+		},
+		{
+			"job": "joining", "strategy": ["helper word"],
+			"description": "和 joins two things, 还是 is the or of a question, 但是 is but, and 因为 is because.",
+			"rows": [
+				{"english": "The dog and the cat", "foreign": "狗和猫", "mark": ["和"]},
+				{"english": "Coffee or tea?", "foreign": "咖啡还是茶？", "mark": ["还是"]},
+				{"english": "I am tired, but I am going.", "foreign": "我很累，但是我去。", "mark": ["但是"]},
+				{"english": "I eat because I am hungry.", "foreign": "我吃饭，因为我饿了。", "mark": ["因为"]}
+			]
+		}
+	]
+}
