@@ -25,6 +25,8 @@
 				'Price'=>'price',
 				'AcademicReference'=>'academicreference',
 				'Publication'=>'publication',
+				'WordPiece'=>'wordpiece',
+				'WordForm'=>'wordform',
 				'EventDate'=>'eventdate',
 				'AvailabilityDateRange'=>'availabilitydaterange',
 				'Assignment'=>'assignment',
@@ -49,6 +51,8 @@
 				'Price'=>'price',
 				'AcademicReference'=>'academicreference',
 				'Publication'=>'publication',
+				'WordPiece'=>'wordpiece',
+				'WordForm'=>'wordform',
 				'EventDate'=>'eventdate',
 				'Association'=>'association',
 				'AvailabilityDateRange'=>'availabilitydaterange',
@@ -71,6 +75,8 @@
 				'Price',
 				'AcademicReference',
 				'Publication',
+				'WordPiece',
+				'WordForm',
 				'EventDate',
 				'AvailabilityDateRange',
 				'Association',
@@ -108,6 +114,13 @@
 				case 'Publisher':
 				case 'ISBN':
 					$recordtype = 'Publication';
+					break;
+				case 'Piece':
+					$recordtype = 'WordPiece';
+					break;
+				case 'BaseWord':
+				case 'BuiltFromEntryid':
+					$recordtype = 'WordForm';
 					break;
 				case 'AvailabilityStart':
 				case 'AvailabilityEnd':

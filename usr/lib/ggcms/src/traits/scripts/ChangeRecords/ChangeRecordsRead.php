@@ -27,6 +27,8 @@
 		public $price_unset;
 		public $academicreference_unset;
 		public $publication_unset;
+		public $wordpiece_unset;
+		public $wordform_unset;
 		public $eventdate_unset;
 		public $association_unset;
 		public $availabilitydaterange_unset;
@@ -76,6 +78,14 @@
 			}
 			
 			if(!$this->SetRecordFromQuery_Publication()) {
+				$set_results = FALSE;
+			}
+
+			if(!$this->SetRecordFromQuery_WordPiece()) {
+				$set_results = FALSE;
+			}
+
+			if(!$this->SetRecordFromQuery_WordForm()) {
 				$set_results = FALSE;
 			}
 			
@@ -309,6 +319,18 @@
 		public function SetRecordFromQuery_Publication() {
 			$this->publication_unset = $this->publication;
 			$set_record_from_query_args = $this->RecordQueryDefinition(['variablename'=>'publication']);
+			return $this->SetRecordFromQuery($set_record_from_query_args);
+		}
+		
+		public function SetRecordFromQuery_WordPiece() {
+			$this->wordpiece_unset = $this->wordpiece;
+			$set_record_from_query_args = $this->RecordQueryDefinition(['variablename'=>'wordpiece']);
+			return $this->SetRecordFromQuery($set_record_from_query_args);
+		}
+		
+		public function SetRecordFromQuery_WordForm() {
+			$this->wordform_unset = $this->wordform;
+			$set_record_from_query_args = $this->RecordQueryDefinition(['variablename'=>'wordform']);
 			return $this->SetRecordFromQuery($set_record_from_query_args);
 		}
 	}

@@ -3236,6 +3236,194 @@
 				],
 			];
 		}
+		
+		public function HardcodedTable_WordForm() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'Entryid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'BuiltFromEntryid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'Language' => [
+					'Type' => 'varchar(32)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 32,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'BaseWord' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Features' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Source' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
+		
+		public function HardcodedTable_WordPiece() {
+			return [
+				'id' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'PRI',
+					'Default' => '',
+					'Extra' => 'auto_increment',
+				],
+				
+				'Entryid' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => 'MUL',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'Language' => [
+					'Type' => 'varchar(32)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 32,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Position' => [
+					'Type' => 'int',
+					'TypeBase' => 'int',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => 0,
+					'Extra' => '',
+				],
+				
+				'Piece' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Role' => [
+					'Type' => 'varchar(32)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 32,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'Answers' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
+				'OriginalCreationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+				
+				'LastModificationDate' => [
+					'Type' => 'datetime',
+					'TypeBase' => 'datetime',
+					'TypeAttribute' => '',
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '0000-00-00 00:00:00',
+					'Extra' => '',
+				],
+			];
+		}
 	}
 
 ?>

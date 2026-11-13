@@ -128,6 +128,14 @@
 		public function UserSession_enabled() {
 			return TRUE;
 		}
+		
+		public function WordForm_enabled() {
+			return FALSE;
+		}
+		
+		public function WordPiece_enabled() {
+			return FALSE;
+		}
 	}
 
 ?>

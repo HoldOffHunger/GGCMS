@@ -65,6 +65,14 @@
 			if(!$this->FormatSavedRecordFromQuery_Publication()) {
 				$format_results = FALSE;
 			}
+
+			if(!$this->FormatSavedRecordFromQuery_WordPiece()) {
+				$format_results = FALSE;
+			}
+
+			if(!$this->FormatSavedRecordFromQuery_WordForm()) {
+				$format_results = FALSE;
+			}
 			
 			if(!$this->FormatSavedRecordFromQuery_EventDate()) {
 				$format_results = FALSE;
@@ -210,6 +218,24 @@
 			$format_args = [
 				'recordtype'=>'publication',
 				'recordfields'=>['Authors', 'Editors', 'Translators', 'Publisher', 'Edition', 'Year', 'ISBN'],
+			];
+			
+			return $this->FormatSavedRecordFromQuery_Base($format_args);
+		}
+		
+		public function FormatSavedRecordFromQuery_WordPiece() {
+			$format_args = [
+				'recordtype'=>'wordpiece',
+				'recordfields'=>['Language', 'Position', 'Piece', 'Role', 'Answers'],
+			];
+			
+			return $this->FormatSavedRecordFromQuery_Base($format_args);
+		}
+		
+		public function FormatSavedRecordFromQuery_WordForm() {
+			$format_args = [
+				'recordtype'=>'wordform',
+				'recordfields'=>['BuiltFromEntryid', 'Language', 'BaseWord', 'Features', 'Source'],
 			];
 			
 			return $this->FormatSavedRecordFromQuery_Base($format_args);

@@ -118,6 +118,8 @@
 				'Price',
 				'AcademicReference',
 				'Publication',
+				'WordPiece',
+				'WordForm',
 				'Quote',
 				'Tag',
 				'TextBody',

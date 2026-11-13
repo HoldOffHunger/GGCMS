@@ -708,6 +708,8 @@
 				'price'=>['PriceValue', 'price_'],
 				'academicreference'=>['academicreference_'],
 				'publication'=>['publication_'],
+				'wordpiece'=>['wordpiece_'],
+				'wordform'=>['wordform_'],
 				'eventdate'=>['EventDate', 'eventdate_'],
 				'definition'=>['Definition', 'definition_'],
 				'entrytranslation'=>['EntryTranslation', 'entrytranslation_'],

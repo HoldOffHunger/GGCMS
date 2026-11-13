@@ -7,6 +7,40 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 13
+
+- EarthFluent's lessons moved under lesson types on prod, by the table swap the
+  rehearsal proved: 14,498 lessons beneath 130 types, and 89,188 reservations
+  so every old lesson and word address still lands. The rehearsal earned its
+  hour. With thirteen courses sharing every lesson code, an old address was
+  answered by the first course that held the bare code, so
+  `/dutch/nouns-objects-part-89/` served the Chinese lesson; the reserved
+  lookup now asks for the whole path before the bare code.
+
+- Two child tables for grammar lessons, `WordPiece` and `WordForm`. A lesson
+  that teaches how a language does a job -- saying no, asking a question,
+  saying who is doing it -- has to show the one piece of each row that does
+  it. `WordPiece` holds those pieces in order, each with its role (ending,
+  helper word, particle, word order, tone, nothing). `WordForm` holds what a
+  translation is a form of, what the form says, and the row it was built
+  from. Both hang off the word's entry, are off for every site in clonefrom,
+  and are on for EarthFluent. They run through modify.php's pipeline as
+  Publication does but have no form on the page yet: the importer is the
+  only writer.
+
+- An import may name an entry it is about to make where a field wants that
+  entry's id: `identifier:<name>` in a column ending `Entryid`. A row built
+  from the row above it cannot know that row's id until the import runs.
+
+- The lesson board, `lesson-board.js`: a lesson's rows written up one at a
+  time with the working piece marked, stepped by the reader and never played.
+  It reads markup the template prints, so with scripts off the rows are a
+  plain list. On Fumiko, 54 lessons for Spanish, Chinese and Japanese import
+  from `Development/EarthFluentLessonTypes/grid-<language>.json` and draw
+  their boards from the two tables. Adding the two tables meant naming them
+  in 21 files across both repositories, most of it by rote; a tool that does
+  the rote part is the next thing to build.
+
 ## 2026, November 11
 
 - Every login-required script answered 500 to a logged-out request in any

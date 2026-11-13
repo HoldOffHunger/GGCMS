@@ -117,8 +117,8 @@ What the schema uses now:
 |---|---|---|
 | `int` | 85 | ids, foreign keys, counts, anything summed |
 | `datetime` | 68 | all dates |
-| `varchar(255)` | 43 | the default string |
-| `varchar(32)` | 10 | language codes |
+| `varchar(255)` | 47 | the default string |
+| `varchar(32)` | 13 | language codes |
 | `tinyint(1)` | 10 | booleans |
 | `text` | 10 | body content |
 | `varchar(39)` | 2 | IP addresses — exactly the IPv6 maximum |

@@ -874,7 +874,7 @@
 				foreach($args['record']['fields'] as $parameter => $value) {
 					$field = $this->ImportFieldName(['variablename'=>$args['variablename'], 'parameter'=>$parameter]);
 
-					if((string)$existing[$field] !== $value) {
+					if((string)$existing[$field] !== $this->ImportResolvedValue(['parameter'=>$parameter, 'value'=>$value])) {
 						$same = FALSE;
 						break;
 					}
@@ -1003,7 +1003,7 @@
 							$post[$parameter] = [];
 						}
 
-						$post[$parameter][] = isset($record['fields'][$parameter]) ? $record['fields'][$parameter] : '';
+						$post[$parameter][] = isset($record['fields'][$parameter]) ? $this->ImportResolvedValue(['parameter'=>$parameter, 'value'=>$record['fields'][$parameter]]) : '';
 					}
 
 					if($variable_name === 'textbody') {
@@ -1027,6 +1027,29 @@
 			}
 
 			return $post;
+		}
+
+			// Tests: ImportRecordsTest::testImportResolvedValue()
+
+			/*
+				A field that holds another entry's id may name that entry by
+				its Entry_Identifier instead, as "identifier:<name>": a row
+				cannot know the id of an entry the same file is about to make.
+				The entry named must come earlier in the file.  In a preview
+				nothing was made, so it reads as 0; so does a name the file
+				never gave, and the report shows the value as it was typed.
+			*/
+
+		public function ImportResolvedValue($args) {
+			$value = (string)$args['value'];
+
+			if(substr($args['parameter'], -7) !== 'Entryid' || strpos($value, 'identifier:') !== 0) {
+				return $value;
+			}
+
+			$identifier = substr($value, strlen('identifier:'));
+
+			return isset($this->import_registry[$identifier]) ? (string)(int)$this->import_registry[$identifier]['id'] : '0';
 		}
 
 			//  Every new child record a create group's rows carry, in row order.

@@ -1379,6 +1379,69 @@ LOCK TABLES `UserSession` WRITE;
 /*!40000 ALTER TABLE `UserSession` DISABLE KEYS */;
 /*!40000 ALTER TABLE `UserSession` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `WordForm`
+--
+
+DROP TABLE IF EXISTS `WordForm`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `WordForm` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Entryid` int NOT NULL DEFAULT '0',
+  `BuiltFromEntryid` int NOT NULL DEFAULT '0',
+  `Language` varchar(32) NOT NULL DEFAULT '',
+  `BaseWord` varchar(255) NOT NULL DEFAULT '',
+  `Features` varchar(255) NOT NULL DEFAULT '',
+  `Source` varchar(255) NOT NULL DEFAULT '',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Entryid` (`Entryid`),
+  KEY `BuiltFromEntryid` (`BuiltFromEntryid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `WordForm`
+--
+
+LOCK TABLES `WordForm` WRITE;
+/*!40000 ALTER TABLE `WordForm` DISABLE KEYS */;
+/*!40000 ALTER TABLE `WordForm` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `WordPiece`
+--
+
+DROP TABLE IF EXISTS `WordPiece`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `WordPiece` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Entryid` int NOT NULL DEFAULT '0',
+  `Language` varchar(32) NOT NULL DEFAULT '',
+  `Position` int NOT NULL DEFAULT '0',
+  `Piece` varchar(255) NOT NULL DEFAULT '',
+  `Role` varchar(32) NOT NULL DEFAULT '',
+  `Answers` varchar(255) NOT NULL DEFAULT '',
+  `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `LastModificationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `Entryid` (`Entryid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `WordPiece`
+--
+
+LOCK TABLES `WordPiece` WRITE;
+/*!40000 ALTER TABLE `WordPiece` DISABLE KEYS */;
+/*!40000 ALTER TABLE `WordPiece` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -21,6 +21,8 @@
 		public $price;
 		public $academicreference;
 		public $publication;
+		public $wordpiece;
+		public $wordform;
 		public $entry_unprepared;
 		public $textbody_unprepared;
 		public $textbody;
@@ -80,6 +82,14 @@
 			}
 			
 			if(!$this->PrepareRecordForSaving_Publication()) {
+				$prepare_results = FALSE;
+			}
+
+			if(!$this->PrepareRecordForSaving_WordPiece()) {
+				$prepare_results = FALSE;
+			}
+
+			if(!$this->PrepareRecordForSaving_WordForm()) {
 				$prepare_results = FALSE;
 			}
 			
@@ -566,6 +576,38 @@
 			}
 			
 			$this->publication = $publications;
+			
+			return TRUE;
+		}
+		
+		public function PrepareRecordForSaving_WordPiece() {
+			$records = [];
+			
+			foreach ((array)$this->wordpiece as $record) {
+				foreach ((array)$record as $field => $value) {
+					$record[$field] = trim((string)$value);
+				}
+				
+				$records[] = $record;
+			}
+			
+			$this->wordpiece = $records;
+			
+			return TRUE;
+		}
+		
+		public function PrepareRecordForSaving_WordForm() {
+			$records = [];
+			
+			foreach ((array)$this->wordform as $record) {
+				foreach ((array)$record as $field => $value) {
+					$record[$field] = trim((string)$value);
+				}
+				
+				$records[] = $record;
+			}
+			
+			$this->wordform = $records;
 			
 			return TRUE;
 		}

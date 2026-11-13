@@ -607,6 +607,8 @@
 				'Price',
 				'AcademicReference',
 				'Publication',
+				'WordPiece',
+				'WordForm',
 				'EventDate',
 				'AvailabilityDateRange',
 				'Association',

@@ -66,6 +66,14 @@
 			if(!$this->CleanseRecordFromQuery_Publication()) {
 				$cleanse_results = FALSE;
 			}
+
+			if(!$this->CleanseRecordFromQuery_WordPiece()) {
+				$cleanse_results = FALSE;
+			}
+
+			if(!$this->CleanseRecordFromQuery_WordForm()) {
+				$cleanse_results = FALSE;
+			}
 			
 			if(!$this->CleanseRecordFromQuery_EventDate()) {
 				$cleanse_results = FALSE;
@@ -257,6 +265,34 @@
 					'Edition',
 					'Year',
 					'ISBN',
+				],
+			];
+			return $this->CleanseRecordFromQuery($cleanse_record_from_query_args);
+		}
+		
+		public function CleanseRecordFromQuery_WordPiece() {
+			$cleanse_record_from_query_args = [
+				'variablename'=>'wordpiece',
+				'datastructure'=>[
+					'Language',
+					'Position',
+					'Piece',
+					'Role',
+					'Answers',
+				],
+			];
+			return $this->CleanseRecordFromQuery($cleanse_record_from_query_args);
+		}
+		
+		public function CleanseRecordFromQuery_WordForm() {
+			$cleanse_record_from_query_args = [
+				'variablename'=>'wordform',
+				'datastructure'=>[
+					'BuiltFromEntryid',
+					'Language',
+					'BaseWord',
+					'Features',
+					'Source',
 				],
 			];
 			return $this->CleanseRecordFromQuery($cleanse_record_from_query_args);

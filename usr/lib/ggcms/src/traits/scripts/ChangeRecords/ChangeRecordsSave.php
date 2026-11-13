@@ -80,6 +80,16 @@
 				$save_results = FALSE;
 				$this->errors[] = ['There was a problem with saving the Publication.'];
 			}
+
+			if(!$this->SaveRecordFromQuery_WordPiece()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Word Piece.'];
+			}
+
+			if(!$this->SaveRecordFromQuery_WordForm()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Word Form.'];
+			}
 			
 			if(!$this->SaveRecordFromQuery_EventDate()) {
 				$save_results = FALSE;
@@ -176,6 +186,16 @@
 			if(!$this->SaveRecordFromQuery_Publication()) {
 				$save_results = FALSE;
 				$this->errors[] = ['There was a problem with saving the Publication.'];
+			}
+
+			if(!$this->SaveRecordFromQuery_WordPiece()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Word Piece.'];
+			}
+
+			if(!$this->SaveRecordFromQuery_WordForm()) {
+				$save_results = FALSE;
+				$this->errors[] = ['There was a problem with saving the Word Form.'];
 			}
 			
 			if(!$this->SaveRecordFromQuery_EventDate()) {
@@ -620,6 +640,24 @@
 			$save_record_from_query_args = [
 				'objectname'=>'publication',
 				'objecttype'=>'Publication',
+			];
+			
+			return $this->SaveRecordFromQuery_Base($save_record_from_query_args);
+		}
+		
+		public function SaveRecordFromQuery_WordPiece() {
+			$save_record_from_query_args = [
+				'objectname'=>'wordpiece',
+				'objecttype'=>'WordPiece',
+			];
+			
+			return $this->SaveRecordFromQuery_Base($save_record_from_query_args);
+		}
+		
+		public function SaveRecordFromQuery_WordForm() {
+			$save_record_from_query_args = [
+				'objectname'=>'wordform',
+				'objecttype'=>'WordForm',
 			];
 			
 			return $this->SaveRecordFromQuery_Base($save_record_from_query_args);

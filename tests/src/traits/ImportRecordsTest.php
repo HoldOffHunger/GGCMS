@@ -371,6 +371,34 @@
 			$this->assertSame(['verse', 'rhyme'], $post['Tag']);
 			$this->assertSame(['en', ''], $post['tag_Language']);
 		}
+
+		public function testImportResolvedValue() {
+			$subject = $this->subject();
+			$subject->import_registry = ['lesson-1'=>['id'=>76006, 'path'=>['spanish', 'patterns', 'i-speak']], 'unmade'=>['id'=>0, 'path'=>NULL]];
+
+				// An entry the file made a row ago, named by its identifier where its id belongs
+			$this->assertSame('76006', $subject->ImportResolvedValue(['parameter'=>'wordform_BuiltFromEntryid', 'value'=>'identifier:lesson-1']));
+
+				// A preview made nothing, and a name the file never gave is nothing too
+			$this->assertSame('0', $subject->ImportResolvedValue(['parameter'=>'wordform_BuiltFromEntryid', 'value'=>'identifier:unmade']));
+			$this->assertSame('0', $subject->ImportResolvedValue(['parameter'=>'wordform_BuiltFromEntryid', 'value'=>'identifier:nobody']));
+
+				// An id is an id, and only a field that holds an entry's id is read this way
+			$this->assertSame('12', $subject->ImportResolvedValue(['parameter'=>'wordform_BuiltFromEntryid', 'value'=>'12']));
+			$this->assertSame('identifier:lesson-1', $subject->ImportResolvedValue(['parameter'=>'wordform_BaseWord', 'value'=>'identifier:lesson-1']));
+		}
+
+		public function testTheLessonBoardsTablesAreImported() {
+			$subject = $this->subject();
+
+			$piece = $subject->ParseImportHeader(['header'=>'WordPiece_Piece', 'table'=>'Entry']);
+			$this->assertSame(['childfield', 'WordPiece', 'wordpiece_Piece'], [$piece['kind'], $piece['table'], $piece['parameter']]);
+
+			$built = $subject->ParseImportHeader(['header'=>'WordForm_BuiltFromEntryid', 'table'=>'Entry']);
+			$this->assertSame(['childfield', 'WordForm', 'wordform_BuiltFromEntryid'], [$built['kind'], $built['table'], $built['parameter']]);
+
+			$this->assertNull($subject->ParseImportHeader(['header'=>'WordPiece_Colour', 'table'=>'Entry']));
+		}
 	}
 
 ?>

@@ -65,6 +65,14 @@
 			if(!$this->ValidateRecordForSaving_Publication()) {
 				$save_results = FALSE;
 			}
+
+			if(!$this->ValidateRecordForSaving_WordPiece()) {
+				$save_results = FALSE;
+			}
+
+			if(!$this->ValidateRecordForSaving_WordForm()) {
+				$save_results = FALSE;
+			}
 			
 			if(!$this->ValidateRecordForSaving_EventDate()) {
 				$save_results = FALSE;
@@ -594,6 +602,14 @@
 		
 		public function ValidateRecordForSaving_Publication() {
 			return $this->ValidateRecordLengths(['type'=>'Publication', 'records'=>$this->publication, 'label'=>'A publication\'s']);
+		}
+		
+		public function ValidateRecordForSaving_WordPiece() {
+			return $this->ValidateRecordLengths(['type'=>'WordPiece', 'records'=>$this->wordpiece, 'label'=>'A word piece\'s']);
+		}
+		
+		public function ValidateRecordForSaving_WordForm() {
+			return $this->ValidateRecordLengths(['type'=>'WordForm', 'records'=>$this->wordform, 'label'=>'A word form\'s']);
 		}
 		
 			/*

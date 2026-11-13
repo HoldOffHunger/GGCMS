@@ -361,6 +361,8 @@
 				'Price'=>['PriceValue'],
 				'AcademicReference'=>['ReferenceEntryid'],
 				'Publication'=>['Publisher'],
+				'WordPiece'=>['Piece'],
+				'WordForm'=>['BaseWord'],
 				'EventDate'=>['Title'],
 				'Association'=>['ChosenEntryid'],	# was Childid, an Assignment column; a re-pointed association went unrecorded
 		#		'AvailabilityDateRange'=>'',

@@ -95,6 +95,26 @@
 						'publication_ISBN',
 					],
 				],
+				'wordpiece'=>[
+					'formal'=>'WordPiece',
+					'objectdefinition'=>[
+						'wordpiece_Language',
+						'wordpiece_Position',
+						'wordpiece_Piece',
+						'wordpiece_Role',
+						'wordpiece_Answers',
+					],
+				],
+				'wordform'=>[
+					'formal'=>'WordForm',
+					'objectdefinition'=>[
+						'wordform_BuiltFromEntryid',
+						'wordform_Language',
+						'wordform_BaseWord',
+						'wordform_Features',
+						'wordform_Source',
+					],
+				],
 				'eventdate'=>[
 					'formal'=>'EventDate',
 					'objectdefinition'=>['EventDate', 'EventTime', 'eventdate_Title', 'eventdate_Description', 'eventdate_Language'],

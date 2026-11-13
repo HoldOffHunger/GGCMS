@@ -329,6 +329,8 @@
 				'Price'=>FALSE,
 				'AcademicReference'=>FALSE,
 				'Publication'=>FALSE,
+				'WordPiece'=>FALSE,
+				'WordForm'=>FALSE,
 				'EventDate'=>TRUE,
 				'Association'=>TRUE,
 				'Definition'=>FALSE,
