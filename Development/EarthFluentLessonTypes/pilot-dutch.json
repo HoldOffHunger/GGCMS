@@ -1,0 +1,103 @@
+{
+	"language": "dutch",
+	"translation_language": "nl",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Informal jij throughout.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Dutch G, Part 1",
+			"description": "G and ch are a soft scrape at the back of the throat. Hear it in goed, groot, acht, and lachen.",
+			"words": [["Good", "goed"], ["Big", "groot"], ["Eight", "acht"], ["To laugh", "lachen"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Long and Short Vowels, Part 1",
+			"description": "A doubled vowel is long, and it changes the word. Hear man against maan, and bom against boom.",
+			"words": [["Man", "man"], ["Moon", "maan"], ["Bomb", "bom"], ["Tree", "boom"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Ui and Ij, Part 1",
+			"description": "Two sounds English does not have: the ui of huis, and the ij of tijd. Listen closely to huis, uit, tijd, and ijs.",
+			"words": [["House", "huis"], ["Out", "uit"], ["Time", "tijd"], ["Ice", "ijs"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Spelling Follows the Sound, Part 1",
+			"description": "When a word grows, its spelling changes to keep the vowel long or short: maan becomes manen, and man becomes mannen.",
+			"words": [["Moon", "maan"], ["Moons", "manen"], ["Man", "man"], ["Men", "mannen"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb gaan, to go, changes to say who is going. Spot what changes: ga, gaat, gaat, gaan.",
+			"words": [["I go", "ik ga"], ["You go", "jij gaat"], ["She goes", "zij gaat"], ["We go", "wij gaan"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 2",
+			"description": "More of gaan, to go: for all of you, for them, for \"let's\", and for what you are about to do.",
+			"words": [["You all go", "jullie gaan"], ["They go", "zij gaan"], ["Let's go!", "Laten we gaan!"], ["I am going to eat", "Ik ga eten"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "Most words add en for more than one, and every one of them takes de, even a word that takes het when it is alone.",
+			"words": [["The dog", "de hond"], ["The dogs", "de honden"], ["The house", "het huis"], ["The houses", "de huizen"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Two Words for The, Part 1",
+			"description": "Every naming word takes de or het, and it is learned with the word. Small things ending in je always take het: het meisje.",
+			"words": [["The man", "de man"], ["The woman", "de vrouw"], ["The child", "het kind"], ["The girl", "het meisje"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "To ask a question, the verb moves to the front of the sentence.",
+			"words": [["You speak Dutch.", "Jij spreekt Nederlands."], ["Do you speak Dutch?", "Spreek jij Nederlands?"], ["This is the bus to Amsterdam.", "Dit is de bus naar Amsterdam."], ["Is this the bus to Amsterdam?", "Is dit de bus naar Amsterdam?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "The word niet says not. It comes after the verb, and often at the very end.",
+			"words": [["I am tired.", "Ik ben moe."], ["I am not tired.", "Ik ben niet moe."], ["I am coming today.", "Ik kom vandaag."], ["I am not coming today.", "Ik kom vandaag niet."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - The Verb Comes Second, Part 1",
+			"description": "The verb is always the second piece of the sentence. Start with today, and I has to move behind the verb.",
+			"words": [["I go today.", "Ik ga vandaag."], ["Today I go.", "Vandaag ga ik."], ["We eat now.", "Wij eten nu."], ["Now we eat.", "Nu eten wij."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come First, Part 1",
+			"description": "As in English, the describing word comes before the thing. Most gain an e: zwarte, grote. After een, before a het word, they do not: een wit huis.",
+			"words": [["A white house", "een wit huis"], ["A black cat", "een zwarte kat"], ["A big dog", "een grote hond"], ["A new book", "een nieuw boek"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb gaan, to go, at work in whole sentences. Spot ga, gaan, and the verb moving to the front for a question.",
+			"words": [["I am going to the market.", "Ik ga naar de markt."], ["We are going to the beach.", "Wij gaan naar het strand."], ["Are you going to the party?", "Ga jij naar het feest?"], ["They are going to Amsterdam.", "Zij gaan naar Amsterdam."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. A no about a thing uses geen, where a no about doing uses niet.",
+			"words": [["Do you have a car?", "Heb jij een auto?"], ["Yes, I have a car.", "Ja, ik heb een auto."], ["Do you speak English?", "Spreek jij Engels?"], ["No, I do not speak English.", "Nee, ik spreek geen Engels."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "After is and zijn, the describing word takes no ending at all: wit, rood, lang, klein.",
+			"words": [["The house is white.", "Het huis is wit."], ["The cars are red.", "De auto's zijn rood."], ["The girl is tall.", "Het meisje is lang."], ["The dogs are small.", "De honden zijn klein."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways. Watch the verb keep its second place every time.",
+			"words": [["I went to the market yesterday.", "Gisteren ging ik naar de markt."], ["I am going to the market today.", "Vandaag ga ik naar de markt."], ["I will go to the market tomorrow.", "Morgen zal ik naar de markt gaan."], ["I am going tomorrow.", "Ik ga morgen."]]
+		}
+	]
+}

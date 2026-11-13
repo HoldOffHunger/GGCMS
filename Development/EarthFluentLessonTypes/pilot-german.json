@@ -1,0 +1,103 @@
+{
+	"language": "german",
+	"translation_language": "de",
+	"status": "Pilot, written by Claude on 12 November 2026 and not yet checked by the translation workers. Informal du throughout.",
+	"lessons": [
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Two Dots Over a Vowel, Part 1",
+			"description": "Two dots over a vowel change its sound, and often the word. Hear schon against schön, and Mutter against Mütter.",
+			"words": [["Already", "schon"], ["Beautiful", "schön"], ["Mother", "Mutter"], ["Mothers", "Mütter"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - The Letter ß, Part 1",
+			"description": "The letter ß is a sharp s, written after a long vowel. Hear it in Straße, groß, heiß, and Fuß.",
+			"words": [["Street", "Straße"], ["Big", "groß"], ["Hot", "heiß"], ["Foot", "Fuß"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Ch, Soft and Hard, Part 1",
+			"description": "After i and e, ch is a soft hiss. After a, o, and u, it is made at the back of the throat. Hear ich and nicht, then Buch and Nacht.",
+			"words": [["I", "ich"], ["Not", "nicht"], ["Book", "Buch"], ["Night", "Nacht"]]
+		},
+		{
+			"type": "sounds-and-script",
+			"title": "Sounds and Script - Naming Words Take a Capital, Part 1",
+			"description": "Every naming word is written with a capital letter, wherever it stands. That is how you tell essen, to eat, from das Essen, the food.",
+			"words": [["To eat", "essen"], ["The food", "das Essen"], ["To live", "leben"], ["The life", "das Leben"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 1",
+			"description": "The verb gehen, to go, changes its ending to say who is going. Spot what changes: gehe, gehst, geht, gehen.",
+			"words": [["I go", "ich gehe"], ["You go", "du gehst"], ["She goes", "sie geht"], ["We go", "wir gehen"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - To Go in the Present, Part 2",
+			"description": "More of gehen, to go: for all of you, for them, for \"let's\", and for what you are off to do.",
+			"words": [["You all go", "ihr geht"], ["They go", "sie gehen"], ["Let's go!", "Gehen wir!"], ["I am going to eat", "Ich gehe essen"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - More Than One, Part 1",
+			"description": "German makes more than one in several ways: an added e here, an added n there. The word for the is die for all of them.",
+			"words": [["The dog", "der Hund"], ["The dogs", "die Hunde"], ["The cat", "die Katze"], ["The cats", "die Katzen"]]
+		},
+		{
+			"type": "patterns",
+			"title": "Patterns - Three Words for The, Part 1",
+			"description": "Every naming word is a he-word, a she-word, or an it-word, and takes der, die, or das. It is learned with the word: the girl is das Mädchen.",
+			"words": [["The man", "der Mann"], ["The woman", "die Frau"], ["The child", "das Kind"], ["The girl", "das Mädchen"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Asking a Question, Part 1",
+			"description": "To ask a question, the verb moves to the front of the sentence.",
+			"words": [["You speak German.", "Du sprichst Deutsch."], ["Do you speak German?", "Sprichst du Deutsch?"], ["This is the bus to Berlin.", "Das ist der Bus nach Berlin."], ["Is this the bus to Berlin?", "Ist das der Bus nach Berlin?"]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Saying No, Part 1",
+			"description": "The word nicht says not. It comes after the verb, and often at the very end.",
+			"words": [["I am tired.", "Ich bin müde."], ["I am not tired.", "Ich bin nicht müde."], ["I am coming today.", "Ich komme heute."], ["I am not coming today.", "Ich komme heute nicht."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - The Verb Comes Second, Part 1",
+			"description": "The verb is always the second piece of the sentence. Start with today, and I has to move behind the verb.",
+			"words": [["I go today.", "Ich gehe heute."], ["Today I go.", "Heute gehe ich."], ["We eat now.", "Wir essen jetzt."], ["Now we eat.", "Jetzt essen wir."]]
+		},
+		{
+			"type": "sentence-building",
+			"title": "Sentence Building - Describing Words Come First, Part 1",
+			"description": "As in English, the describing word comes before the thing. Its ending changes to match the thing: weißes, schwarze, großer.",
+			"words": [["A white house", "ein weißes Haus"], ["A black cat", "eine schwarze Katze"], ["A big dog", "ein großer Hund"], ["A new book", "ein neues Buch"]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Going Places, Part 1",
+			"description": "The verb gehen, to go, at work in whole sentences, and fahren, which German uses for going on wheels.",
+			"words": [["I am going to the market.", "Ich gehe zum Markt."], ["We are going to the beach.", "Wir gehen zum Strand."], ["Are you going to the party?", "Gehst du zur Party?"], ["They are going to Berlin.", "Sie fahren nach Berlin."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Questions and Answers, Part 1",
+			"description": "A question and its answer, side by side. A no about a thing uses kein, where a no about doing uses nicht.",
+			"words": [["Do you have a car?", "Hast du ein Auto?"], ["Yes, I have a car.", "Ja, ich habe ein Auto."], ["Do you speak English?", "Sprichst du Englisch?"], ["No, I do not speak English.", "Nein, ich spreche kein Englisch."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Describing Things, Part 1",
+			"description": "After ist and sind, the describing word takes no ending at all: weiß, rot, groß, klein.",
+			"words": [["The house is white.", "Das Haus ist weiß."], ["The cars are red.", "Die Autos sind rot."], ["The girl is tall.", "Das Mädchen ist groß."], ["The dogs are small.", "Die Hunde sind klein."]]
+		},
+		{
+			"type": "sentences-in-use",
+			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
+			"description": "One trip to the market, told three ways. Watch the verb keep its second place every time.",
+			"words": [["I went to the market yesterday.", "Gestern bin ich zum Markt gegangen."], ["I am going to the market today.", "Heute gehe ich zum Markt."], ["I will go to the market tomorrow.", "Morgen werde ich zum Markt gehen."], ["I am going tomorrow.", "Ich gehe morgen."]]
+		}
+	]
+}
