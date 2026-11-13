@@ -12,7 +12,7 @@
 		{
 			"type": "sounds-and-script",
 			"title": "Sounds and Script - Nasal Vowels, Part 1",
-			"description": "Before an n or an m, the vowel is said through the nose and the n itself is not said. Hear vin, vent, bon, and pain.",
+			"description": "At the end of a word, or before another consonant, an n or m sends the vowel through the nose, and the n itself is not said. Hear vin, vent, bon, and pain.",
 			"words": [["Wine", "vin"], ["Wind", "vent"], ["Good", "bon"], ["Bread", "pain"]]
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "sentences-in-use",
 			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
 			"description": "One trip to the market, told three ways: already done, happening now, and still to come.",
-			"words": [["I went to the market yesterday.", "Hier, je suis allé au marché."], ["I am going to the market today.", "Aujourd'hui, je vais au marché."], ["I will go to the market tomorrow.", "Demain, j'irai au marché."], ["I am going to go tomorrow.", "Je vais y aller demain."]]
+			"words": [["I went to the market yesterday.", "Hier, je suis allé au marché."], ["I am going to the market today.", "Aujourd'hui, je vais au marché."], ["I will go to the market tomorrow.", "Demain, j'irai au marché."], ["I am going to go there tomorrow.", "Je vais y aller demain."]]
 		}
 	]
 }

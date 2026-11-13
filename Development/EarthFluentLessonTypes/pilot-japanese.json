@@ -78,7 +78,7 @@
 		{
 			"type": "sentences-in-use",
 			"title": "Sentences in Use - Going Places, Part 1",
-			"description": "The verb 行きます, to go, at work in whole sentences. The place comes first, marked by に, and the verb comes last.",
+			"description": "The verb 行きます, to go, at work in whole sentences. The place is marked by に, and the verb comes last.",
 			"words": [["I am going to the market.", "私は市場に行きます。"], ["We are going to the beach.", "私たちは海に行きます。"], ["Are you going to the party?", "パーティーに行きますか。"], ["They are going to Tokyo.", "彼らは東京に行きます。"]]
 		},
 		{

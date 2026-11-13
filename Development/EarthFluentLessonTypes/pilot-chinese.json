@@ -60,7 +60,7 @@
 		{
 			"type": "sentence-building",
 			"title": "Sentence Building - Saying No, Part 1",
-			"description": "To say something is not so, put 不 in front of the verb. Nothing else in the sentence changes.",
+			"description": "To say something is not so, put 不 in front of the verb. Nothing else in the sentence changes. One everyday verb is different: 有, to have, takes 没, so I do not have a car is 我没有车.",
 			"words": [["I speak Chinese.", "我说中文。"], ["I do not speak Chinese.", "我不说中文。"], ["I am a student.", "我是学生。"], ["I am not a student.", "我不是学生。"]]
 		},
 		{
@@ -96,7 +96,7 @@
 		{
 			"type": "sentences-in-use",
 			"title": "Sentences in Use - Yesterday, Today, and Tomorrow, Part 1",
-			"description": "One trip to the market, told three ways. The verb 去 never changes: the day word, and 了, say when.",
+			"description": "One trip to the market, told three ways. The verb 去 never changes: the day word says when, with 了 for what is done, and sometimes 要 for what is still to come.",
 			"words": [["I went to the market yesterday.", "我昨天去了市场。"], ["I am going to the market today.", "我今天去市场。"], ["I will go to the market tomorrow.", "我明天去市场。"], ["I am going to go tomorrow.", "我明天要去。"]]
 		}
 	]

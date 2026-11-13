@@ -12,8 +12,8 @@
 		{
 			"type": "sounds-and-script",
 			"title": "Sounds and Script - The Rolled R, Part 1",
-			"description": "One R is a quick tap; two are rolled, and the difference changes the word. Hear pero against perro, and caro against carro.",
-			"words": [["But", "pero"], ["Dog", "perro"], ["Expensive", "caro"], ["Car", "carro"]]
+			"description": "Between vowels, one R is a quick tap and two are rolled, and the difference changes the word. Hear pero against perro, and caro against carro.",
+			"words": [["But", "pero"], ["Dog", "perro"], ["Expensive", "caro"], ["Cart", "carro"]]
 		},
 		{
 			"type": "sounds-and-script",
@@ -48,8 +48,8 @@
 		{
 			"type": "patterns",
 			"title": "Patterns - Words That Match, Part 1",
-			"description": "A describing word matches the thing it describes: rojo with el carro, roja with la casa. Spot the ending that changes.",
-			"words": [["The red car", "el carro rojo"], ["The red house", "la casa roja"], ["The tall boy", "el niño alto"], ["The tall girl", "la niña alta"]]
+			"description": "A describing word matches the thing it describes: rojo with el coche, roja with la casa. Spot the ending that changes.",
+			"words": [["The red car", "el coche rojo"], ["The red house", "la casa roja"], ["The tall boy", "el niño alto"], ["The tall girl", "la niña alta"]]
 		},
 		{
 			"type": "sentence-building",
@@ -85,13 +85,13 @@
 			"type": "sentences-in-use",
 			"title": "Sentences in Use - Questions and Answers, Part 1",
 			"description": "A question and its answer, side by side. Spot what the answer keeps from the question, and what it changes.",
-			"words": [["Do you have a car?", "¿Tienes un carro?"], ["Yes, I have a car.", "Sí, tengo un carro."], ["Do you speak English?", "¿Hablas inglés?"], ["No, I do not speak English.", "No, no hablo inglés."]]
+			"words": [["Do you have a car?", "¿Tienes un coche?"], ["Yes, I have a car.", "Sí, tengo un coche."], ["Do you speak English?", "¿Hablas inglés?"], ["No, I do not speak English.", "No, no hablo inglés."]]
 		},
 		{
 			"type": "sentences-in-use",
 			"title": "Sentences in Use - Describing Things, Part 1",
 			"description": "Describing words matching what they describe, in whole sentences: blanca, rojos, alta, pequeños.",
-			"words": [["The house is white.", "La casa es blanca."], ["The cars are red.", "Los carros son rojos."], ["The girl is tall.", "La niña es alta."], ["The dogs are small.", "Los perros son pequeños."]]
+			"words": [["The house is white.", "La casa es blanca."], ["The cars are red.", "Los coches son rojos."], ["The girl is tall.", "La niña es alta."], ["The dogs are small.", "Los perros son pequeños."]]
 		},
 		{
 			"type": "sentences-in-use",

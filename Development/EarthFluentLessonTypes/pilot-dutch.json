@@ -66,7 +66,7 @@
 		{
 			"type": "sentence-building",
 			"title": "Sentence Building - The Verb Comes Second, Part 1",
-			"description": "The verb is always the second piece of the sentence. Start with today, and I has to move behind the verb.",
+			"description": "In a plain statement, the verb is always the second piece of the sentence. Start with today, and I has to move behind the verb.",
 			"words": [["I go today.", "Ik ga vandaag."], ["Today I go.", "Vandaag ga ik."], ["We eat now.", "Wij eten nu."], ["Now we eat.", "Nu eten wij."]]
 		},
 		{
@@ -84,7 +84,7 @@
 		{
 			"type": "sentences-in-use",
 			"title": "Sentences in Use - Questions and Answers, Part 1",
-			"description": "A question and its answer, side by side. A no about a thing uses geen, where a no about doing uses niet.",
+			"description": "A question and its answer, side by side. Before a thing, not becomes geen, so Dutch says I speak no English: ik spreek geen Engels.",
 			"words": [["Do you have a car?", "Heb jij een auto?"], ["Yes, I have a car.", "Ja, ik heb een auto."], ["Do you speak English?", "Spreek jij Engels?"], ["No, I do not speak English.", "Nee, ik spreek geen Engels."]]
 		},
 		{

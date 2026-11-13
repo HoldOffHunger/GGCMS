@@ -12,7 +12,7 @@
 		{
 			"type": "sounds-and-script",
 			"title": "Sounds and Script - The Letter ß, Part 1",
-			"description": "The letter ß is a sharp s, written after a long vowel. Hear it in Straße, groß, heiß, and Fuß.",
+			"description": "The letter ß is a sharp s, written after a long vowel or a vowel pair like ei. Hear it in Straße, groß, heiß, and Fuß.",
 			"words": [["Street", "Straße"], ["Big", "groß"], ["Hot", "heiß"], ["Foot", "Fuß"]]
 		},
 		{
@@ -66,7 +66,7 @@
 		{
 			"type": "sentence-building",
 			"title": "Sentence Building - The Verb Comes Second, Part 1",
-			"description": "The verb is always the second piece of the sentence. Start with today, and I has to move behind the verb.",
+			"description": "In a plain statement, the verb is always the second piece of the sentence. Start with today, and I has to move behind the verb.",
 			"words": [["I go today.", "Ich gehe heute."], ["Today I go.", "Heute gehe ich."], ["We eat now.", "Wir essen jetzt."], ["Now we eat.", "Jetzt essen wir."]]
 		},
 		{
@@ -84,7 +84,7 @@
 		{
 			"type": "sentences-in-use",
 			"title": "Sentences in Use - Questions and Answers, Part 1",
-			"description": "A question and its answer, side by side. A no about a thing uses kein, where a no about doing uses nicht.",
+			"description": "A question and its answer, side by side. Before a thing, not becomes kein, so German says I speak no English: ich spreche kein Englisch.",
 			"words": [["Do you have a car?", "Hast du ein Auto?"], ["Yes, I have a car.", "Ja, ich habe ein Auto."], ["Do you speak English?", "Sprichst du Englisch?"], ["No, I do not speak English.", "Nein, ich spreche kein Englisch."]]
 		},
 		{
