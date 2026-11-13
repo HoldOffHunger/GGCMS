@@ -41,8 +41,9 @@ were written with the least certainty.
 - The translation is in the language's script (Cyrillic for `ru`; Devanagari for `hi`; Hangul for `ko`; kana or
   kanji for `ja`; Han for `zh`; Latin for the rest).
 - Every foreign form the description quotes appears in one of the lesson's four translations. "Spot what changes:
-  idę, idziesz, idzie, idziemy" needs all four among the pairs. Sound lessons that give a romanization in the
-  description (Hindi's `pal` against `phal`) are exempt, since the course stores none.
+  иду, идёшь, идёт, идём" needs all four among the pairs. As built, the rule covers the five languages not written
+  in Latin letters, where a quoted form can be told from the English around it. For the other eight, the lesson
+  check below is what catches it.
 - An English sentence that ends in `.`, `?` or `!` has a translation that ends in the language's own mark.
 - The same English given two different translations within one file is listed, not failed. Japanese and Korean
   each give "I go" with and without the word for I, on purpose.
@@ -124,7 +125,8 @@ Only then does `make_restructure.py` (run without `--no-pilot`) put the lessons 
 }
 ```
 
-- **Folder:** `E:\AIWorkers\earthfluent_pilot\`. Committed in `E:\AppHub`.
+- **Folder:** `E:\AIWorkers\earthfluent_pilot\`. Committed in `E:\AppHub`. Built on 13 November 2026; its README
+  section there says how it runs. Tasks 71 to 83 on the Foreman's board, machine Either.
 - **Stats:** one JSON line with `done`, `total` (80) and `suspects`.
 - **Target order** is least certain first, so the first night's results are the ones most worth reading.
 
