@@ -8,7 +8,7 @@
 	//		<ol class="board-rows">
 	//			<li class="board-row">                 a row
 	//			<li class="board-row" data-from="1">   a row built from row 1
-	//				<span class="board-foreign"><mark>No</mark> hablo español.</span>
+	//				<span class="board-foreign" data-listen="(the id of that word's Play button, if it has one)"><mark>No</mark> hablo español.</span>
 	//				<span class="board-english">I do not speak Spanish.</span>
 	//		<p class="board-rule">                     the plain sentence, shown last
 	//
@@ -50,6 +50,10 @@
 		controls.appendChild(this.next);
 		this.board.appendChild(controls);
 
+		this.rows.forEach(function (row) {
+			self.listen(row.querySelector('.board-foreign[data-listen]'));
+		});
+
 		this.board.classList.add('board-stepped');
 		this.board.setAttribute('tabindex', '0');
 		this.board.addEventListener('keydown', function (event) {
@@ -72,6 +76,35 @@
 		button.addEventListener('click', action);
 
 		return button;
+	};
+
+		// A line on the board is said aloud when it is pressed.  The lesson's own
+		// Play button for that word does the saying (listen-to-audio-phrase.js),
+		// so the board has the same voice as the rest of the page and no second
+		// way of choosing one.  data-listen names that button.
+
+	LessonBoard.prototype.listen = function (line) {
+		var play = line ? document.getElementById(line.getAttribute('data-listen')) : null;
+
+		if(!play) {
+			return;
+		}
+
+		line.setAttribute('role', 'button');
+		line.setAttribute('tabindex', '0');
+		line.setAttribute('title', 'Hear it');
+		line.classList.add('board-say');
+
+		line.addEventListener('click', function () {
+			play.click();
+		});
+
+		line.addEventListener('keydown', function (event) {
+			if(event.key === 'Enter' || event.key === ' ') {
+				play.click();
+				event.preventDefault();
+			}
+		});
 	};
 
 		// Everything up to this step is on the board; the newest row is the one
