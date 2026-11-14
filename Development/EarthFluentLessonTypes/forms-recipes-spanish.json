@@ -40,7 +40,7 @@
 
 		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "second-person", "singular"], "without": ["negative", "formal"]},
 		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "tags": ["formal", "imperative", "singular"], "without": ["negative"]},
-		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "negative", "second-person", "singular"], "without": ["formal"]},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "negative", "second-person", "singular"], "without": ["formal"], "shown": "no {}"},
 		{"features": {"command": "yes", "who": "we"}, "tags": ["first-person", "imperative", "plural"], "without": ["negative"]}
 	],
 

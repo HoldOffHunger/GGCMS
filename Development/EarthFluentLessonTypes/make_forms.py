@@ -51,6 +51,8 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                 match = [text for text, tags in forms if need <= tags and not tags & without]
                 if match:
                     found.append({"form": match[0], "features": slot["features"]})
+                    if "shown" in slot:  # the form as a table shows it: the dictionary lists tengas, and nobody says it without its no
+                        found[-1]["shown"] = slot["shown"].format(match[0])
                 else:
                     missing.append((word, slot["features"]))
             verbs[word] = found
