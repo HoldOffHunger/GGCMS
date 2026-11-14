@@ -1,0 +1,24 @@
+# master entry	verdict (fix|drop)	translation	why — every record not listed was read and confirmed as the model gave it
+68938	fix	Kapan tiketnya siap?	sudah does not belong in the question
+68948	fix	Semua tempat menerima uang tunai.	"di mana-mana menerima" has no subject
+69165	fix	Ini tulisannya apa?	asks what it says, not what it means
+69260	fix	Kamu dari kota mana?	"Apa kotamu?" is not how it is asked
+69274	fix	Saya banyak berbicara bahasa Inggris.	"banyak bahasa Inggris" is many Englishes
+69297	fix	Ini tulisannya apa?	asks what it says, not what it means
+69392	fix	Seharusnya hari ini tidak hujan.	word order
+69395	fix	Seharusnya besok tidak cerah.	word order
+69428	fix	Apakah tadi turun salju?	past, not now
+68845	fix	Warnanya merah.	typo Warnyanya
+69129	fix	Warnetnya ada di pusat kota.	warnet, as the question beside it
+69288	fix	Dia menyuruh kita pergi.	who was sent away
+69335	fix	Dia akan menelepon kembali besok.	"kapan saja" is any time at all
+69339	fix	Saya baru belajar bicara.	only just learning, not learning only
+69417	fix	Akan hujan.	no "today" in the English
+69418	fix	Akan turun salju.	no "today" in the English
+69419	fix	Akan ada badai.	no "today" in the English
+69477	fix	putih	lower case, as the other colours
+69480	fix	bening	lower case, as the other colours
+69505	fix	lira	lower case, as franc, forint and zloty
+68874	fix	1 dolar 75 sen.	full stop, as the English
+68876	fix	9 dolar 99 sen.	full stop, as the English
+# read: all

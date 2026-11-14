@@ -1,0 +1,139 @@
+# master entry	verdict (fix|drop)	translation	why — every record not listed was read and confirmed as the model gave it
+65030	fix	Ik nodig je uit om binnen te komen.	"Ik nodig je binnen" is not Dutch
+65102	fix	Pardon!	"Excuseer mij" is Flemish and stiff
+65148	fix	Goedenacht.	"Welter" is not a word
+65189	fix	Dat was onnadenkend van mij.	onzinnig is nonsensical
+65313	fix	Voel je je slechter?	"Ga je slechter" is not Dutch
+65394	fix	Kun je het me alsjeblieft vertellen?	please
+65462	fix	Ken je ergens goed eten?	good food, not a place
+65684	fix	Wat vind je lekkerder, Chinees of Japans eten?	which one better
+65782	fix	Ik ga uit eten.	to dinner
+65814	fix	Hoe dichtbij is het?	close, not far
+65837	fix	Het is meer dan twintig yard.	yards, as the English and the lines beside it
+65854	fix	Ik stond net op het punt het restaurant te verlaten.	about to, not in the middle of
+66040	fix	Het is de eerste straat links.	"links voor je" is broken
+66271	fix	Is je vader daar al eens geweest?	"Is heeft" is broken
+66702	fix	Waar heb je hiervoor gewerkt?	hiervoor, before this
+66708	fix	Hoe braaf verwacht je dat ze zijn?	expect, not think
+66815	fix	Wij zijn Braziliaans.	plural
+66832	fix	Haar appartement is heel klein.	typo Ha
+67138	fix	Ik zal erover nadenken.	future
+67173	fix	Wat vind je ervan om na de bibliotheek naar de bar te gaan?	"tegenover naar de bar gaan" is broken
+67180	fix	Mag ik je mening over iets vragen?	your opinion
+67258	fix	Ik ben zo klaar.	"zo snel klaar" is so fast ready
+67268	fix	Ze waren al eerder klaar.	before, not for that
+67279	fix	Ik maak me klaar om uit te gaan.	go out, not step outside
+67290	fix	Is er iemand klaar?	anyone, not everyone
+67294	fix	Heb je dit al eerder gedaan?	"hiervoor al" is broken
+67397	fix	Ik ben om 6 uur klaar met werken.	"van werk gaan" is not said
+67444	fix	Allebei goed.	either of two times, not any time
+67464	fix	Het was twee jaar geleden.	"het jaar van twee jaar geleden" is broken
+67525	fix	Haar familie is volgende week hier.	typo Ha
+67607	fix	Ik loop wat vertraging op.	"Ik loop uit" is running over time
+67613	fix	Is het op dinsdag?	happening on Tuesday, not is it Tuesday
+67877	fix	Ik kom terug.	"Ik ben er zo weer" is soon, not will be back
+67947	fix	Ik ben negenentwintig jaar oud.	twenty-nine, not twenty-five
+67968	fix	Ik ging naar de school waar iedereen van afging.	"van is gestopt" is broken
+67996	fix	Nou, hou je van films?	"vind je van" is broken
+68057	fix	Hoe lang blijf je weg?	how late, not what time outside
+68074	fix	Hoe gaat het met je katten?	gaat
+68080	fix	Ik spreek je snel.	"praat snel" is speak quickly
+68396	fix	Een paar.	sentence case and full stop
+68693	fix	Ik leg het in de auto.	put, not do
+68712	fix	Breng me alsjeblieft mijn jas.	bring, and an order with please
+68760	fix	Wat dacht je van zo een?	"Hoe zit het met een zoals die" is broken
+68820	fix	Wanneer wordt de auto gerepareerd?	future
+68870	fix	25 dollar.	full stop
+69143	fix	Kan ik een boodschap aannemen?	take a message
+69150	fix	Ja, ik neem een boodschap voor u aan.	take a message
+69190	fix	Is dat zo?	"Weet je dat" is do you know that
+69270	fix	Ik heb het bericht gemaakt.	made, not sent
+69329	fix	Waar hebben jullie het over?	"Waar praten jullie over" is not said
+69389	fix	Gaat het regenen?	"Ga het" is broken
+69393	fix	Het zou vandaag moeten sneeuwen.	supposed to, not could
+69394	fix	Het zou morgen moeten regenen.	supposed to, not could
+69395	fix	Het zou morgen niet zonnig worden.	supposed to
+69433	fix	Gaat het vandaag sneeuwen?	"Wordt het sneeuwen" is broken
+69445	fix	Sneeuwt het?	"Is het sneeuwen" is broken
+51770	fix	Punjabi	capitalised, as the other languages
+65110	fix	Tot later.	see you later, not goodbye
+65208	fix	Ik voel me ellendig.	"Ik ben ellendig" is not said
+65221	fix	Ik heb het niet zo druk.	busy is "het druk hebben"
+65304	fix	Ik heb het druk.	busy is "het druk hebben", as the question
+65345	fix	Ik heb buikpijn.	as the question asks
+65472	fix	Eet je graag appels?	"Hou je van appels eten" is clumsy
+65494	fix	Heb je een servet nodig?	need, not have
+65504	fix	Mogen we de menukaart, alstublieft?	"Kunnen we graag" is broken
+65759	fix	Zit je vol?	as its answer says
+65889	fix	Enkele reis.	as the lines beside it
+66005	fix	Hoeveel mijl is het nog tot de pub?	"Hoeveel mijlen gaan we" is broken
+66016	fix	Hebben jullie hier tv?	TV service, not a set
+66311	fix	Gooi de tank helemaal vol, alstublieft.	"Vul de tank helemaal even tot" is broken
+66338	fix	Waar is de jachthaven?	the Dutch word
+66391	fix	Vanaf daar moet je naar het zuiden.	advice, not desire
+66503	fix	Is je huis zoals dit?	huis is het-word
+66516	fix	Ze zijn hier allebei beter in dan wij.	"beter in dit" is broken
+66618	fix	Daar ben je.	there you are, not here it is
+66747	fix	Gisteravond zijn we naar de bibliotheek gegaan.	last night, the evening
+66791	fix	Hij heeft de stoel kapotgemaakt.	a chair is broken with kapotmaken
+66920	fix	Roep om hulp.	an order, as the lines beside it
+67001	fix	Het gaat prima met me.	"Ik ga prima" is not Dutch
+67202	fix	Heb je daar enig idee van?	"Heb je daar iets van" is broken
+67386	fix	Zo nu en dan.	full stop, as the course writes them
+67388	fix	Af en toe.	full stop
+67441	fix	Vorige keer.	full stop
+67446	fix	De laatste tijd niet.	"Niet onlangs" is not said
+67457	fix	Het is kwart voor vijf.	the way it is said
+67472	fix	De hele dag.	sentence case and full stop
+67474	fix	Lang geleden.	full stop
+67476	fix	Zo snel mogelijk.	sentence case and full stop
+67506	fix	Elke dag.	full stop
+67576	fix	1 mei.	full stop, as the English
+67578	fix	17 oktober.	full stop, as the English
+67580	fix	10 december.	full stop, as the English
+67582	fix	22 juli.	full stop, as the English
+67592	fix	Soms ga ik om middernacht slapen.	"om 00:00 uur 's nachts" is not said
+67817	fix	Ik hoorde dat de voorstelling echt goed was.	programma is a TV programme
+67829	fix	Wilt u mijn reservering aannemen?	overnemen is take over
+67915	fix	Ja, je mag je vriend meenemen.	no bracketed ending
+67953	fix	Ik ben één meter eenennegentig.	garbled and misspelt; 6 ft 3 in is 1.91 m
+67964	fix	Ik wil ontslag nemen.	quit my job
+68042	fix	Ik geloof het niet.	not an exclamation
+68046	fix	Vertrouw je me?	vertrouwen op is rely on
+68059	fix	Het is nu te laat om uit te gaan.	go out, not step outside
+68091	fix	Tien dollar per uur.	typo Tiën
+68101	fix	Ik mag mijn baas niet.	"houden van" is love
+68144	fix	Ik ben leraar.	no article with a job
+68148	fix	Hij is ingenieur.	no article with a job
+68177	fix	Hoe laat ben je klaar met werken?	"uit je werk gaan" is not said
+68305	fix	Maar een beetje.	just, not only
+68333	fix	Dat ruikt vies.	"ruikt naar rot" is smells of rot
+68408	fix	Of maak jij de koffie?	of said twice
+68746	fix	Ik heb nog een sleutel nodig.	another, one more, as the question
+68778	fix	Ik ruim mijn kleren op.	ophalen is to collect from somewhere
+69017	fix	Hoe gaan de zaken?	business, not work
+69019	fix	De zaken gaan goed.	as the question
+69021	fix	Heeft u hier iets van?	"een van deze" is one of these
+69023	fix	Sorry, we hebben er geen.	the model answered in English
+69059	fix	Mag ik wat geld lenen?	I borrow, not you lend
+69146	fix	Oké, ik schrijf een bericht voor je.	Oké, as the course spells it
+69148	fix	Kunt u een boodschap voor mij aannemen?	take a message
+69229	fix	Ik heb geen bereik op mijn mobiel.	typo mobieltel
+69240	fix	Weet je het netnummer?	the Dutch word
+69272	fix	Weet je het nog?	"Herinner je het" is broken
+69282	fix	Meen je dat?	are you serious
+69283	fix	Ik maak maar een grapje.	"Ik grap maar" is not said
+69335	fix	Hij belt morgen ergens op de dag terug.	sometime, not later
+69339	fix	Ik ben het nog maar aan het leren.	still learning, not learning only to talk
+69347	fix	Kunt u dat iets langzamer zeggen, alstublieft?	no dan; please
+69412	fix	Het heeft de hele dag geregend.	has been, not is
+69420	fix	Er komt een overstroming.	overstromen needs a river
+69425	fix	Er is nu een overstroming.	overstromen needs a river
+69435	fix	Komt er vandaag een overstroming?	overstromen needs a river
+69443	fix	Vriest het?	"Is het vrieskou" is broken
+69484	fix	Brits pond	pond is het-word
+69489	fix	Chinese renminbi	lower case, as the other currencies
+69492	fix	Tsjechische kroon	the Dutch name
+69494	fix	Indiase roepie	typo ropie
+69497	fix	Indonesische roepia	the Dutch name
+# read: all

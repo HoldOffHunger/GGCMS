@@ -1,0 +1,135 @@
+# master entry	verdict (fix|drop)	translation	why — every record not listed was read and confirmed as the model gave it
+65240	fix	Тебе скучно?	bored, not missing someone
+65387	fix	Нам никто не помогает.	помогать takes the dative
+65814	fix	Насколько это близко?	close, not far
+65871	fix	Дорога туда займёт два часа.	"До туда идти" is broken
+66300	fix	Таверна так далеко?	"Та бар такая далеко" is broken
+66313	fix	Залейте бак наполовину, пожалуйста.	full and half at once
+66357	fix	Хорошие ли такси в этом городе?	any good in this city
+66406	fix	Какая там дорога?	how is, not which
+66505	fix	Ваш дом красивый.	no very in the English
+66618	fix	Вот ты где.	"Вот и всё" is that's all
+66708	fix	Насколько послушными, по-вашему, они должны быть?	"ожидаете их видеть" is broken
+66725	fix	Мы с ней работаем вместе.	she and I
+67078	fix	Что ты думал об изучении английского?	past
+67403	fix	Завтра утром я высплюсь.	sleeping in
+67444	fix	Оба варианта подходят.	either of two times, not any time
+67459	fix	Начинается в час.	"Это начинается" is stiff
+67500	fix	Возможно, меня не будет дома всю ночь.	"быть не дома" is broken
+67557	fix	Примерно через полчаса будет десять вечера.	около and примерно said twice
+67838	fix	Тот ларёк с тако очень дешёвый.	"Та самая точка" is broken
+67943	fix	Насколько большая у тебя семья?	how big, not is it big
+68029	fix	Ты не в отношениях?	"не замужем" is for a woman only
+68057	fix	До скольки тебя не будет?	how late out
+68385	fix	Это твои?	plural
+68718	fix	Красно-чёрный — лучший.	one thing red and black
+68775	fix	Ты можешь убрать свою одежду?	pick up, tidy away
+69150	fix	Да, я приму для вас сообщение.	take, not record
+69270	fix	Я составил сообщение.	made, not sent
+69315	fix	Давайте я приведу пример.	"Дайте мне привести" is a calque
+69398	fix	Насколько холодно?	"Как холодно" is how cold it is!
+69430	fix	Будет снег?	"Будет ли идти снег" is stiff
+69484	fix	британский фунт	typo бритский
+65021	fix	У меня всё плохо.	"плохо получается" is doing badly at something
+65053	fix	Как ваше имя?	first name, as the last-name line beside it
+65064	fix	Что происходит?	what's going on; the line before is also "Как дела?"
+65189	fix	Это было необдуманно с моей стороны.	"не подумать" is broken
+65217	fix	Я не счастлив.	as I'm happy beside it
+65793	fix	Да, я бы хотел что-нибудь поесть.	no bracketed ending
+65893	fix	Эта дорога ведёт во Владивосток?	во before В
+65897	fix	Хочешь, я за тобой заеду?	"Тебе нужно, чтобы" is do you need
+65996	fix	Можно нам встретиться у ларька с едой?	"точка" is not a stand
+66008	fix	Я еду в столицу за тысячу миль.	through, not across the distance
+66040	fix	Это на первой улице слева.	"и слева от вас" is broken
+66101	fix	Да, у меня есть паспорт.	"мой" is redundant
+66210	fix	Дальше по улице есть банкомат.	"внизу по улице" is a calque
+66227	fix	Я часто сюда прихожу.	as the question
+66338	fix	Где находится пристань для яхт?	марина reads as the name Marina
+66368	fix	Как прошла твоя поездка?	trip, not holiday
+66391	fix	Оттуда вам нужно на юг.	advice, not desire
+66501	fix	Какой у тебя дом?	house, not flat
+66537	fix	Машина чем-то похожа на мою.	"вроде как моя" is sort of mine
+66588	fix	В пути десять человек.	"По дороге" is along the road
+66840	fix	Где господин Оруэлл?	находится is for places, not people
+66843	fix	Господин Оруэлл в баре.	находится is for places, not people
+66845	fix	Это господин Оруэлл?	spelt as in the lines beside it
+66896	fix	Помогите мне!	help me; the line before is also "Помогите!"
+66905	fix	Немедленно прекрати!	"Остановись сейчас" is stiff
+66920	fix	Позови на помощь.	an order, as the lines beside it
+67110	fix	Кто тебя этому научил?	taught, not explained
+67196	fix	Об этом ужасно даже думать.	"Это ужасно думать об этом" is broken
+67386	fix	Иногда.	full stop, as the course writes them
+67388	fix	Время от времени.	sentence case and full stop
+67439	fix	В следующий раз.	full stop
+67441	fix	В прошлый раз.	full stop
+67443	fix	На этот раз.	full stop
+67446	fix	В последнее время нет.	"Недавно не" is broken
+67464	fix	Это было в позапрошлом году.	it was in that year
+67467	fix	Последние 2 часа.	full stop
+67468	fix	Следующие 2 часа.	full stop
+67472	fix	Весь день.	full stop
+67474	fix	Давным-давно.	full stop
+67476	fix	Как можно быстрее.	full stop
+67506	fix	Каждый день.	full stop
+67508	fix	Каждую неделю.	full stop
+67510	fix	Каждый месяц.	full stop
+67561	fix	Он проснулся только в 11 утра.	only just at 11, not just now
+67576	fix	1 мая.	full stop, as the English
+67578	fix	17 октября.	full stop, as the English
+67580	fix	10 декабря.	full stop, as the English
+67582	fix	22 июля.	full stop, as the English
+67601	fix	Весь день.	full stop
+67611	fix	Какой день недели?	no today in the English
+67746	fix	Давай пройдёмся вместе.	walk, not go
+67757	fix	Я женат.	as the course's other answers, which are a man's
+67790	fix	Давайте я проверю.	"Дайте мне проверить" is a calque
+67810	fix	Вам нужна помощь с заполнением формы?	форма, as the line beside it
+67877	fix	Я вернусь.	no soon in the English
+67968	fix	Я учился в школе, которую все бросили.	"из которой все бросили учёбу" is broken
+68025	fix	Ты новичок в этом?	new to this, not here for the first time
+68031	fix	Я холост.	as the course's other answers, which are a man's
+68046	fix	Ты мне доверяешь?	trust, as its answer
+68080	fix	Скоро поговорим.	stiff
+68126	fix	Мне не нравятся ни школа, ни школьная администрация.	neither … nor
+68169	fix	Я работаю стандартные сорок часов в неделю.	no five-day week in the English
+68307	fix	Слишком много.	full stop
+68312	fix	Больше, чем это.	"Более того" is moreover
+68360	fix	Кот находится в своём кошачьем домике.	будка is a dog kennel
+68396	fix	Несколько.	full stop
+68398	fix	Немного.	full stop
+68461	fix	Давайте я проверю, какие размеры есть.	"Дайте мне проверить" is a calque
+68535	fix	Мне бы хотелось много.	"Я бы очень хотел" is I'd very much like
+68550	fix	Я просто прошёлся по улице.	went down the street
+68617	fix	Ты прислал мне цветы?	no bracketed ending
+68649	fix	Можешь понести это за меня?	carry, not hold
+68655	fix	Я не нарочно это сломал.	no bracketed ending
+68733	fix	Когда оно придёт?	arrive, of a parcel
+68778	fix	Я соберу свою одежду.	pick up, not collect from somewhere
+68841	fix	В комнате небольшой беспорядок.	"немного беспорядок" is broken
+68870	fix	25 долларов.	full stop
+68873	fix	50 центов.	full stop
+68874	fix	1 доллар и 75 центов.	full stop, and and
+68898	fix	Нут дорогой?	chickpeas, not peas
+68917	fix	Я закажу то же самое.	тоже and то же said together
+68944	fix	Извините, мы не принимаем банковские чеки.	чек alone is a receipt
+68950	fix	Хотя по бартеру здесь никто не меняется.	"торговаться бартером" is broken
+69116	fix	Может быть.	full stop
+69202	fix	Это не нормально.	not okay, not not great
+69259	fix	Какое у тебя имя пользователя?	юзернейм is slang
+69262	fix	Я отправил вам электронное письмо.	no bracketed ending
+69280	fix	Я бы хотел купить телефонную карту.	a phone card, not a SIM card
+69288	fix	Он сказал нам уйти.	who was sent away
+69330	fix	Мы вдвоём просто болтаем о погоде.	"Мы с тобой" is you and I
+69335	fix	Он перезвонит завтра в какое-то время.	"когда-нибудь" is some day
+69368	fix	Как сказать слово «Париж»?	say, not say in Russian
+69384	fix	Во Вьетнаме часто идут дожди?	во before В
+69385	fix	Во Вьетнаме дожди идут регулярно в течение половины года.	во before В
+69393	fix	Сегодня должен пойти снег.	snow, not snowfalls
+69394	fix	Завтра должен пойти дождь.	rain, not rains
+69397	fix	Насколько жарко?	"Как жарко" is how hot it is!
+69404	fix	Станет жарче.	"Будет становиться" is stiff
+69418	fix	Пойдёт снег.	"Будет идти снег" is stiff
+69424	fix	Сейчас гроза.	шторм is at sea
+69425	fix	Сейчас наводнение.	an flood does not идти
+69472	fix	лиловый	purple and violet were given the same word
+# read: all

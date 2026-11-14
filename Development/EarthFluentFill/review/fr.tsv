@@ -1,0 +1,15 @@
+# master entry	verdict (fix|drop)	translation	why — every record not listed was read and confirmed as the model gave it
+65272	fix	J'espère que toi et ta famille passerez un bon voyage.	tu cannot stand in a pair; toi et ta famille
+65422	fix	J'ai été végane toute ma vie civilisée.	"je suis … depuis toute ma vie" is not French
+66008	fix	Je vais à la capitale, à 1 000 milles d'ici.	the distance read as "over"
+66239	fix	Ça te plaît ici ?	aimer takes no bare "ici"
+66241	fix	Ça me plaît beaucoup ici.	aimer takes no bare "ici"
+66391	fix	À partir de là, dirige-toi vers le sud.	"you want to" is advice, not desire; and from there, not from here
+67193	fix	Ça ne dérangerait personne si tu faisais ça.	"s'enchinerait" is not a word
+67195	fix	Est-ce que ce serait terrible si je faisais ça ?	"une chose terrible que je fasse" is broken
+67968	fix	Je suis allé à l'école que tout le monde a abandonnée.	the school was dropped, not its classes
+66005	fix	Combien de milles avant d'arriver au pub ?	miles, as the English and the lessons beside it
+66473	fix	Quand est-ce qu'on arrive à la Septième Rue ?	named in French, as the answer beside it
+66430	fix	Je dois y être d'ici demain.	by tomorrow
+67592	fix	Parfois, je me couche à minuit.	as its pair says je me couche
+# read: all

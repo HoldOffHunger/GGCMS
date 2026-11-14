@@ -1,0 +1,81 @@
+# master entry	verdict (fix|drop)	translation	why — every record not listed was read and confirmed as the model gave it
+66766	fix	Wer spricht da?	on the phone; "Wer ist da?" is at the door
+66783	fix	Ich bin gerade fertig geworden.	"Ich habe gerade fertig" is not German
+66851	fix	Musst du duschen?	typo Mussst
+66909	fix	Kannst du damit aufhören?	aufhören takes damit, not das
+67078	fix	Wie fandest du es, Englisch zu lernen?	past, not present
+67286	fix	Wann sind alle fertig?	alle is plural
+67444	fix	Beides geht.	either of two times, not any time
+67464	fix	Es war vorletztes Jahr.	the year before last, not the year before
+67884	fix	Ich hole vor der Party noch ein paar Bier.	vorher and vor der Party said twice
+67953	fix	Ich bin 1,91 Meter groß.	"ein Meter achtzig drei Zentimeter" is wrong and garbled; 6 ft 3 in is 1.91 m
+67968	fix	Ich bin auf die Schule gegangen, die alle abgebrochen haben.	auf eine Schule gehen
+68050	fix	Ich habe es gemacht, damit es Glück bringt.	"zum Glück" means luckily
+68396	fix	Ein paar.	sentence case and full stop, as the course writes them
+68870	fix	25 Dollar.	full stop, as the English
+69143	fix	Kann ich etwas ausrichten?	"eine Nachricht aufnehmen" is to record one
+69148	fix	Können Sie eine Nachricht für mich entgegennehmen?	"aufnehmen" is to record
+69270	fix	Ich habe die Nachricht geschrieben.	made, not sent
+69288	fix	Er sagte: „Geh weg.“	"er solle gehen" is that he himself should go
+69339	fix	Ich lerne es gerade erst zu sprechen.	still only learning, not learning only speaking
+69348	fix	Sie sprechen zu schnell, als dass ich Sie verstehen könnte.	damit says the opposite
+69420	fix	Es wird eine Überschwemmung geben.	überfluten needs an object
+69435	fix	Gibt es heute eine Überschwemmung?	überfluten needs an object
+66417	fix	Ich reise nach Mexiko.	going, not flying
+66708	fix	Wie brav sollen sie deiner Meinung nach sein?	"erwartest du, dass sie sind" is not German
+66896	fix	Hilf mir!	help me, not help
+66905	fix	Sofort aufhören!	"Halt jetzt!" is not said
+66920	fix	Ruf um Hilfe.	an order, as the lines beside it
+67193	fix	Es würde niemanden stören, wenn du das tun würdest.	"sich stören" does not mean mind
+67176	fix	Ich weiß, dass man nach der Bibliothek am besten in die Bar geht.	"um … hinzugehen" is broken
+67392	fix	Er kommt spät.	zu spät is too late
+67397	fix	Ich habe um 6 Uhr Feierabend.	"aus der Arbeit kommen" is not how it is said
+67561	fix	Er ist gerade erst um 11 Uhr aufgewacht.	only just woke, at 11
+67590	fix	Ich gehe normalerweise um 22 Uhr schlafen.	goes to sleep at that hour
+67592	fix	Manchmal gehe ich um Mitternacht schlafen.	"um 00:00 Uhr nachts" is not said
+67386	fix	Gelegentlich.	sentence case and full stop, as the course writes them
+67388	fix	Ab und zu.	full stop
+67441	fix	Letztes Mal.	full stop
+67443	fix	Dieses Mal.	full stop
+67446	fix	In letzter Zeit nicht.	"nicht vor Kurzem" is not said
+67472	fix	Den ganzen Tag.	sentence case and full stop
+67474	fix	Vor langer Zeit.	full stop
+67476	fix	So schnell wie möglich.	sentence case and full stop
+67506	fix	Jeden Tag.	sentence case and full stop
+67576	fix	1. Mai.	full stop, as the English
+67578	fix	17. Oktober.	full stop, as the English
+67580	fix	10. Dezember.	full stop, as the English
+67582	fix	22. Juli.	full stop, as the English
+67601	fix	Den ganzen Tag.	sentence case and full stop
+67780	fix	Mein Zuhause ist sehr weit weg.	home, as the question, not flat
+67844	fix	Sind diese Plätze besetzt?	asked as taken, so its answer fits
+68122	fix	Ich muss auf eine Hochzeit.	"eine Hochzeit zu besuchen haben" is a calque
+68126	fix	Ich mag weder die Schule noch die Schulbehörden.	nicht … oder is not German for neither … nor
+68177	fix	Wann hast du Feierabend?	as its answer says
+68190	fix	Ich arbeite Vollzeit.	"berufstätig in Vollzeit" is stilted
+68220	fix	Gibt es gerade spannende Sportveranstaltungen?	lustig is funny; going is on now
+68387	fix	Das ist deins.	no bracketed ending
+68478	fix	Wird Ihr Gemüse biologisch angebaut?	Gemüse is a collective singular
+68520	fix	Ich habe nichts mehr.	"völlig leer" is empty, not out of something
+68665	fix	Deine Brille liegt im Bücherregal.	glasses lie
+68697	fix	Ich habe es ins Auto gelegt.	past, not present
+68754	fix	Ich suche so etwas wie das hier.	"etwas wie das" is not said
+68760	fix	Wie wäre es mit so einem?	"einem so" is broken
+68778	fix	Ich hebe meine Kleidung auf.	abholen is to collect from somewhere
+68809	fix	Dieser Garten ist meiner.	the possessive pronoun
+68845	fix	Die Farbe ist Rot.	the colour named as a noun
+68873	fix	50 Cent.	full stop, as the English
+69023	fix	Entschuldigung, wir haben keine.	plural, as "any of these"
+69150	fix	Ja, ich nehme gern eine Nachricht für Sie entgegen.	aufnehmen is to record
+69210	fix	Sag es mir.	sagen needs its object
+69363	fix	Spreche ich das richtig aus?	"Pronanziere" is not a word
+69399	fix	Wie ist die Temperatur?	asks the temperature, not how warm
+69425	fix	Es gibt gerade eine Überschwemmung.	"es flutet" is not said
+69467	fix	cyan	lower case, as the other colours
+69469	fix	indigo	lower case, as the other colours
+69473	fix	magenta	lower case, as the other colours
+69474	fix	rosa	lower case, as the other colours
+69482	fix	Amerikanischer Dollar	capitalised, as the other currencies
+69489	fix	Chinesischer Renminbi	capitalised, as the other currencies
+69492	fix	Tschechische Krone	the German name, capitalised
+# read: all

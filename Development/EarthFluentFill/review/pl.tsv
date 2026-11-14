@@ -1,0 +1,186 @@
+# master entry	verdict (fix|drop)	translation	why — every record not listed was read and confirmed as the model gave it
+65058	fix	Mam się dobrze.	"Dobrze mi" is good to me
+65291	fix	Czy jest ci wygodnie?	jest
+65422	fix	Przez całe moje cywilizowane życie byłem weganinem.	past, and order
+65515	fix	On lubi mleko sojowe, ale nie prawdziwe mleko.	he, not they
+65897	fix	Chcesz, żebym po ciebie przyjechał?	typo żebyem, and the turn of phrase
+65961	fix	Gdzie jest radykalna księgarnia?	radical, not anti-radical
+66008	fix	Jadę do stolicy oddalonej o 1000 mil.	the distance read wrongly
+66016	fix	Czy macie tu telewizję?	TV service, not a set
+66537	fix	Ten samochód jest trochę podobny do mojego.	"w coś" is broken
+66708	fix	Jak grzeczni mają według ciebie być?	stilted
+66734	fix	On potrzebuje nowych ubrań.	he, not they
+66791	fix	On zepsuł krzesło.	he; and a chair is broken with zepsuć
+66853	fix	Muszę wziąć prysznic.	"pryznąć" is not a word
+66905	fix	Przestań natychmiast!	"Stój teraz" is stand now
+66929	fix	Potrzebuję kogoś.	someone, not help
+67078	fix	Co sądziłeś o nauce angielskiego?	past
+67133	fix	Zapomniałem o tym.	zapomnieć o
+67150	fix	On chodzi do jednej ze szkół w centrum.	he, not they; downtown
+67180	fix	Czy mogę zapytać cię o zdanie w pewnej sprawie?	your opinion
+67193	fix	Nikt nie miałby nic przeciwko, gdybyś to zrobił.	"nie miał przeciw" is broken
+67195	fix	Czy to byłoby coś strasznego, gdybym to zrobił?	for me to do
+67234	fix	Wkrótce posprzątam.	will, not intend
+67330	fix	Podoba mu się to.	"On mu lubi" is broken
+67390	fix	On niedługo przyjdzie.	he, not they
+67392	fix	On przyjdzie późno.	he, not they
+67398	fix	Idę na imprezę o 7.	party, as the master means
+67403	fix	Jutro rano się wyśpię.	sleeping in
+67441	fix	Ostatnim razem.	last time, not recently
+67444	fix	Obie pory są dobre.	either of two times, not any time
+67456	fix	Jest kwadrans po szóstej.	a quarter past six; "wpół do szóstej" is half past five
+67500	fix	Mogę być poza domem całą noc.	I, not you
+67527	fix	Już nie przyjdę.	as the other courses read it
+67691	fix	Jak krótkie to jest?	it
+67778	fix	Gdzie jest twój dom?	where is, not where do you have
+67838	fix	Ta budka z taco jest bardzo tania.	a stand, not a cart
+67913	fix	Czy mogę przyprowadzić przyjaciela?	bring, not come with
+67953	fix	Mam sto dziewięćdziesiąt jeden centymetrów wzrostu.	6 ft 3 in is 191 cm, not 163
+68050	fix	Zrobiłem to na szczęście.	for luck
+68057	fix	Do której będziesz poza domem?	how late out
+68112	fix	Pracuję na własny rachunek.	"Jestem do pracy" is broken
+68230	fix	Umiesz surfować?	surf
+68368	fix	Gdzie widziano to ostatnio?	impersonal, as the English
+68385	fix	Czy to są twoje?	plural
+68408	fix	A może ty zrobisz kawę?	or will you
+68417	fix	Czekam na list pocztą.	"w poczcie" is broken
+68493	fix	Nigdzie tego nie ma.	"To jest nigdzie" is broken
+68611	fix	Czyja to jest książka?	czyja agrees with książka
+68649	fix	Czy możesz to dla mnie ponieść?	carry, not bring
+68708	fix	Twój motocykl wymaga naprawy.	motocykl is masculine
+68801	fix	Ile lat ma ta książka?	ta książka
+68841	fix	W pokoju jest trochę bałaganu.	bałaganiarski describes a person
+69059	fix	Czy mogę pożyczyć trochę pieniędzy?	I borrow, not you lend
+69097	fix	On nas nie słyszy.	he, not they
+69165	fix	Co tu jest napisane?	what does this say
+69177	fix	Czy mogę cię o coś zapytać?	"ci coś zapytać" is broken
+69297	fix	Co tu jest napisane?	what does this say
+69320	fix	Będę mówić głośniej.	speak louder, not say louder
+69335	fix	Oddzwoni jutro o jakiejś porze.	he will call back; no him/her
+69352	fix	Jaka jest twoja wymowa?	jaka
+69422	fix	Teraz pada.	pada said twice
+69428	fix	Czy padał śnieg?	"było śnieżenie" is not Polish
+69447	fix	Jest mi gorąco.	"Jestem gorący" is hot to the touch
+69459	fix	Czy można puszczać latawca przy takiej pogodzie?	the kite fell out
+65019	fix	Mam się dobrze.	"Dobrze mi się miewa" is not Polish
+65021	fix	Mam się źle.	doing badly, not going badly for me
+65166	fix	Mogę ci wyświadczyć przysługę.	"Mogę ci coś zrobić" is I can do something to you
+65174	fix	Czy ci to nie przeszkadza?	needs its to
+65189	fix	To było bezmyślne z mojej strony.	nieuważne is inattentive
+65274	fix	Nie chcę ci przeszkadzać.	przeszkadzać takes the dative
+65302	fix	Jesteś zajęty?	busy, not free
+65389	fix	Czy ktoś tam teraz jest?	there
+65411	fix	Jesteś głodny?	"Masz głód" is not said
+65428	fix	Chce ci się pić?	thirsty, not fancy a drink
+65441	fix	Podaj mi, proszę, sól.	pass me, please
+65443	fix	Podaj mi, proszę, pieprz.	"Poproszę podaj mi" is broken
+65709	fix	Czy mogę prosić o dwie szklanki wody?	dwie with szklanki
+65865	fix	Czy możesz mnie tam zawieźć?	typo tamy
+65889	fix	Bilet w jedną stronę.	full stop
+65978	fix	Stąd dotąd.	"Stąd do tam" is broken
+65993	fix	Kiedy wyjechały twoje dzieci?	dzieci takes the non-masculine form
+66040	fix	To pierwsza ulica w lewo.	"na pierwszej ulicy i po lewej" is broken
+66227	fix	Często tu przychodzę.	as the question
+66385	fix	To jest na północ stąd.	"od tutaj" is broken
+66391	fix	Stamtąd trzeba jechać na południe.	advice, not desire
+66473	fix	Kiedy dojedziemy do Siódmej Ulicy?	named in Polish, as the lines beside it
+66524	fix	Czy są różne?	as the question beside it
+66586	fix	Ile osób przyjdzie?	ile with osób
+66588	fix	W drodze jest dziesięć osób.	word order
+66603	fix	Ile jest osób?	ile with osób
+66618	fix	Tu jesteś!	there you are, not you're welcome
+66770	fix	Kim jest ta osoba tam?	"Kto to jest ta osoba" is broken
+66809	fix	On jest Francuzem.	the instrumental, as the lines beside it
+66823	fix	Myśli, że przyjdziemy.	nadchodzić is approach
+66851	fix	Czy musisz wziąć prysznic?	a shower, as its answer
+66909	fix	Czy możesz przestać?	"to przestać" is broken
+66920	fix	Zawołaj o pomoc.	an order, as the lines beside it
+66927	fix	Potrzebuję policjanta.	a police officer, not the police
+66978	fix	Jesteś przeziębiony?	a cold, not a runny nose; as its answer
+67196	fix	To straszna myśl.	"rzecz, żeby o tym myśleć" is broken
+67202	fix	Masz jakieś pojęcie na ten temat?	"Masz coś" is have you something
+67319	fix	Zaczekasz na mnie?	typo Zczekasz
+67386	fix	Czasami.	full stop, as the course writes them
+67388	fix	Od czasu do czasu.	full stop
+67428	fix	Proszę chwilę zaczekać.	"Proszę czekać chwilkę" is broken
+67446	fix	Ostatnio nie.	"Nie ostatnio" is not said
+67464	fix	To było dwa lata temu.	"przedbiegły" is not a word
+67472	fix	Cały dzień.	sentence case and full stop
+67476	fix	Tak szybko, jak to możliwe.	sentence case and full stop
+67506	fix	Codziennie.	full stop
+67576	fix	1 maja.	full stop, as the English
+67578	fix	17 października.	full stop, as the English
+67580	fix	10 grudnia.	full stop, as the English
+67582	fix	22 lipca.	full stop, as the English
+67746	fix	Przejdźmy się razem.	walk, not go
+67750	fix	Czy możesz odprowadzić mnie na przystanek?	walk me, not lead me out
+67752	fix	Zaprowadzę cię na przystanek.	na przystanek
+67763	fix	Wszystko wyprzedane.	"Nie mamy już dostępnych" is broken
+67799	fix	Poćwiczmy angielski.	practise
+67801	fix	Z kim chciałbyś poćwiczyć?	no slashed ending
+67803	fix	Czy mogę porozmawiać z Jane?	porozmawiać, on the phone
+67805	fix	Jane teraz nie ma.	"nie jest tutaj" is not said
+67816	fix	Jaki był film?	"Jak był" is broken
+67840	fix	To grillowanie jest darmowe.	to said twice
+67915	fix	Tak, możesz przyprowadzić swojego przyjaciela.	a friend is brought along, not carried
+67968	fix	Chodziłem do szkoły, z której wszyscy zrezygnowali.	wypaść is fall out
+68099	fix	Jak tam twój szef?	how is, of a person
+68131	fix	Lubisz swoich współpracowników?	"Podoba Ci się Twoi" is broken
+68217	fix	Jakie sporty uprawiasz?	"W jakie sporty się uprawiasz" is broken
+68232	fix	Nie, nie umiem surfować.	surf
+68236	fix	Czy grasz w koszykówkę?	the model left a "Gramatyka:" label
+68259	fix	Jak tego użyć?	"Jak mam to użyć" is broken
+68266	fix	Powiedz mi, kiedy będzie dość.	"kiedy dość jest dość" is a calque
+68269	fix	Potrzebujesz jeszcze czegoś?	potrzebować takes the genitive
+68272	fix	Nie potrzebuję więcej.	any more
+68312	fix	Więcej niż to.	"Co więcej" is moreover
+68358	fix	Pies jest przed domem.	"na zewnątrz domu" is broken
+68396	fix	Kilka.	full stop
+68423	fix	Oto jest.	"Oto ono" is stiff
+68448	fix	Jaki to rozmiar?	"W jakim rozmiarze jest to" is broken
+68461	fix	Pozwól, że sprawdzę dostępne rozmiary.	"Pozwalam sprawdzić" is I allow checking
+68672	fix	Dam ci długopis.	typo Damę
+68697	fix	Włożyłem to do samochodu.	put into, as the question beside it
+68733	fix	Kiedy to dotrze?	arrive, of a parcel
+68735	fix	Dotrze wkrótce.	przyjedzie is of a vehicle
+68737	fix	Jak tego użyć?	"Jak mam to użyć" is broken
+68760	fix	A co powiesz na taki?	"A co taki" is broken
+68775	fix	Czy możesz pozbierać swoje ubrania?	pick up
+68778	fix	Pozbieram swoje ubrania.	odebrać is collect from somewhere
+68870	fix	25 dolarów.	full stop
+68873	fix	50 centów.	cents, not Polish groszy
+69019	fix	Interesy idą dobrze.	as the question
+69021	fix	Macie coś takiego?	"Masz coś z tych" is broken
+69042	fix	Czy mogę pożyczyć trochę pieniędzy?	I borrow, not you lend
+69127	fix	Czy w pobliżu jest jakaś kafejka internetowa?	the Polish name
+69129	fix	Kafejka internetowa jest w centrum.	the Polish name
+69143	fix	Czy mogę przyjąć wiadomość?	take a message, not pass one on
+69148	fix	Czy może pan przyjąć dla mnie wiadomość?	take a message; no slashed form
+69150	fix	Tak, przyjmę dla pana wiadomość.	typo przyjmię; no slashed form
+69160	fix	Proszę, zadzwoń do mnie.	the comma
+69188	fix	Czy to nie jest w porządku?	isn't, as the English
+69192	fix	Nieprawdaż?	"Nieprawda?" is untrue
+69259	fix	Jaka jest twoja nazwa użytkownika?	the Polish term
+69263	fix	Czy dostałeś mój e-mail?	typo moj
+69278	fix	Numer hotelu to 555-555-1234.	"Numerat" is not a word
+69282	fix	Mówisz poważnie?	serious, not really
+69288	fix	Powiedział, żebyśmy odeszli.	who was sent away
+69312	fix	Czy możesz oddzwonić później?	call back
+69330	fix	My tylko rozmawiamy o pogodzie.	my said twice
+69334	fix	Kiedy on do mnie oddzwoni?	call back
+69339	fix	Dopiero uczę się mówić.	only just learning
+69348	fix	Mówisz za szybko, żebym mógł cię zrozumieć.	the model had you understanding me
+69395	fix	Jutro nie ma być słonecznie.	"nie ma zapowiadanej pogody słonecznej" is stiff
+69397	fix	Jak bardzo jest gorąco?	"Jak jest gorąco" is broken
+69398	fix	Jak bardzo jest zimno?	"Jak zimno jest" is broken
+69404	fix	Zrobi się goręcej.	hotter, not warmer
+69413	fix	Dzisiaj bardzo mocno padało.	padać is neuter here
+69424	fix	Teraz jest burza.	"Teraz burzy" is not Polish
+69448	fix	Jest mi zimno.	as I'm hot beside it
+69472	fix	purpurowy	purple and violet were given the same word
+69487	fix	peso meksykańskie	peso is neuter; noun first, as the others
+69488	fix	peso chilijskie	peso is neuter
+69489	fix	renminbi chiński	noun first, as the others
+69495	fix	rubel rosyjski	noun first, as the others
+69498	fix	nowy szekel izraelski	noun first, as the others
+# read: all
