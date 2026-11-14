@@ -1,8 +1,10 @@
 """Turns each grid-<language>.json into an import file for import_entries.php: one lesson a cell, four words a lesson.
 
     python make_grid_import.py <output directory> [language ...]
+    python make_grid_import.py <output directory> --lessons [language ...]
 
-Writes grid-<language>.tsv. Each lesson is filed under its language's Patterns or Sentence Building type, which the
+Writes grid-<language>.tsv, or with --lessons reads lessons-<language>.json (the lessons make_form_lessons.py made
+from verb forms, Part 2 onward of a job) and writes lessons-<language>.tsv. Each lesson is filed under its language's Patterns or Sentence Building type, which the
 restructure made, and sorts ahead of the type's other lessons in the spine's order. Each word carries what the lesson
 board draws from:
 
@@ -53,9 +55,12 @@ def rows_for(grid: dict, spine: dict) -> list:
     rows = [HEADER]
     for cell in grid["cells"]:
         order, job = jobs[cell["job"]]
-        title = f'{TYPES[job["type"]]} - {job["name"]}, Part 1'
-        lesson = f'grid-{cell["job"]}'
-        rows.append(row(Entry_Identifier=lesson, Entry_Title=title, Entry_Code=slug(title), Entry_ListTitleSortKey="%02d" % order,
+        part = cell.get("part", 1)  # a generated lesson (lessons-<language>.json) carries its part; a grid cell is Part 1
+        title = f'{TYPES[job["type"]]} - {job["name"]}, Part {part}'
+        lesson = f'grid-{cell["job"]}' if part == 1 else f'forms-{cell["job"]}-{part}'
+        # "01" is the grid's lesson and "01-002" the next part of the same job, so a job's parts stay together
+        key = "%02d" % order if part == 1 else "%02d-%03d" % (order, part)
+        rows.append(row(Entry_Identifier=lesson, Entry_Title=title, Entry_Code=slug(title), Entry_ListTitleSortKey=key,
                         Entry_ParentPath=f'/{language}/{job["type"]}/', Description_Description=cell["description"], Description_Language="en"))
         for number, word in enumerate(cell["rows"], 1):
             name = f"{lesson}-{number}"
@@ -63,7 +68,7 @@ def rows_for(grid: dict, spine: dict) -> list:
             if "from" in word or "base" in word:
                 features = ";".join(f"{key}={value}" for key, value in word.get("features", {}).items())
                 form = dict(WordForm_BuiltFromEntryid=f'identifier:{lesson}-{word["from"]}' if "from" in word else "",
-                            WordForm_Language=code, WordForm_BaseWord=word.get("base", ""), WordForm_Features=features, WordForm_Source="grid")
+                            WordForm_Language=code, WordForm_BaseWord=word.get("base", ""), WordForm_Features=features, WordForm_Source="grid" if part == 1 else "forms")
             rows.append(row(Entry_Identifier=name, Entry_Title=word["english"], Entry_ParentIdentifier=lesson, Entry_ListTitleSortKey="%02d" % number,
                             EntryTranslation_Title=word["foreign"], EntryTranslation_Language=code, **form))
             for position, (text, role) in enumerate(pieces(cell, word.get("mark", [])), 1):
@@ -74,11 +79,12 @@ def rows_for(grid: dict, spine: dict) -> list:
 def main() -> None:
     out = Path(sys.argv[1])
     spine = json.loads((HERE / "spine.json").read_text(encoding="utf-8"))
-    names = sys.argv[2:] or [path.stem.removeprefix("grid-") for path in sorted(HERE.glob("grid-*.json"))]
+    kind = "lessons" if "--lessons" in sys.argv[2:] else "grid"
+    names = [name for name in sys.argv[2:] if name != "--lessons"] or [path.stem.removeprefix(kind + "-") for path in sorted(HERE.glob(kind + "-*.json"))]
     for name in names:
-        grid = json.loads((HERE / f"grid-{name}.json").read_text(encoding="utf-8"))
+        grid = json.loads((HERE / f"{kind}-{name}.json").read_text(encoding="utf-8"))
         rows = rows_for(grid, spine)
-        with open(out / f"grid-{name}.tsv", "w", encoding="utf-8", newline="") as file:
+        with open(out / f"{kind}-{name}.tsv", "w", encoding="utf-8", newline="") as file:
             csv.writer(file, delimiter="\t", lineterminator="\n", quoting=csv.QUOTE_MINIMAL).writerows(rows)
         lessons = sum(1 for line in rows[1:] if line[4])
         made = sum(1 for line in rows[1:] if line[8])

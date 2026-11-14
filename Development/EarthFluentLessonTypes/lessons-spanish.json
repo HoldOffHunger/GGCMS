@@ -1,0 +1,1124 @@
+{
+	"language": "spanish",
+	"translation_language": "es",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-spanish.json and the recipes in forms-recipes-spanish.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "tener", "strategy": ["ending"], "description": "The ending says who is doing it: tengo, tienes, tiene, tenemos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I have", "foreign": "tengo", "mark": ["o"], "base": "tener", "features": {"who": "i", "when": "now"}},
+				{"english": "You have", "foreign": "tienes", "mark": ["es"], "base": "tener", "features": {"who": "you", "when": "now"}},
+				{"english": "She has", "foreign": "tiene", "mark": ["e"], "base": "tener", "features": {"who": "she", "when": "now"}},
+				{"english": "We have", "foreign": "tenemos", "mark": ["emos"], "base": "tener", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "hacer", "strategy": ["ending"], "description": "The ending says who is doing it: hago, haces, hace, hacemos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I make", "foreign": "hago", "mark": ["o"], "base": "hacer", "features": {"who": "i", "when": "now"}},
+				{"english": "You make", "foreign": "haces", "mark": ["es"], "base": "hacer", "features": {"who": "you", "when": "now"}},
+				{"english": "She makes", "foreign": "hace", "mark": ["e"], "base": "hacer", "features": {"who": "she", "when": "now"}},
+				{"english": "We make", "foreign": "hacemos", "mark": ["emos"], "base": "hacer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "ir", "strategy": ["ending"], "description": "The ending says who is doing it: voy, vas, va, vamos. Spot what changes. Ir is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I go", "foreign": "voy", "base": "ir", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "vas", "base": "ir", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "va", "base": "ir", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "vamos", "base": "ir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "decir", "strategy": ["ending"], "description": "The ending says who is doing it: digo, dices, dice, decimos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I say", "foreign": "digo", "mark": ["o"], "base": "decir", "features": {"who": "i", "when": "now"}},
+				{"english": "You say", "foreign": "dices", "mark": ["es"], "base": "decir", "features": {"who": "you", "when": "now"}},
+				{"english": "She says", "foreign": "dice", "mark": ["e"], "base": "decir", "features": {"who": "she", "when": "now"}},
+				{"english": "We say", "foreign": "decimos", "mark": ["imos"], "base": "decir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "ver", "strategy": ["ending"], "description": "The ending says who is doing it: veo, ves, ve, vemos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I see", "foreign": "veo", "mark": ["o"], "base": "ver", "features": {"who": "i", "when": "now"}},
+				{"english": "You see", "foreign": "ves", "mark": ["es"], "base": "ver", "features": {"who": "you", "when": "now"}},
+				{"english": "She sees", "foreign": "ve", "mark": ["e"], "base": "ver", "features": {"who": "she", "when": "now"}},
+				{"english": "We see", "foreign": "vemos", "mark": ["emos"], "base": "ver", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "dar", "strategy": ["ending"], "description": "The ending says who is doing it: doy, das, da, damos. Spot what changes. Dar is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I give", "foreign": "doy", "base": "dar", "features": {"who": "i", "when": "now"}},
+				{"english": "You give", "foreign": "das", "mark": ["as"], "base": "dar", "features": {"who": "you", "when": "now"}},
+				{"english": "She gives", "foreign": "da", "mark": ["a"], "base": "dar", "features": {"who": "she", "when": "now"}},
+				{"english": "We give", "foreign": "damos", "mark": ["amos"], "base": "dar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "saber", "strategy": ["ending"], "description": "The ending says who is doing it: sé, sabes, sabe, sabemos. Spot what changes. Saber is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I know", "foreign": "sé", "base": "saber", "features": {"who": "i", "when": "now"}},
+				{"english": "You know", "foreign": "sabes", "mark": ["es"], "base": "saber", "features": {"who": "you", "when": "now"}},
+				{"english": "She knows", "foreign": "sabe", "mark": ["e"], "base": "saber", "features": {"who": "she", "when": "now"}},
+				{"english": "We know", "foreign": "sabemos", "mark": ["emos"], "base": "saber", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "querer", "strategy": ["ending"], "description": "The ending says who is doing it: quiero, quieres, quiere, queremos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I want", "foreign": "quiero", "mark": ["o"], "base": "querer", "features": {"who": "i", "when": "now"}},
+				{"english": "You want", "foreign": "quieres", "mark": ["es"], "base": "querer", "features": {"who": "you", "when": "now"}},
+				{"english": "She wants", "foreign": "quiere", "mark": ["e"], "base": "querer", "features": {"who": "she", "when": "now"}},
+				{"english": "We want", "foreign": "queremos", "mark": ["emos"], "base": "querer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "venir", "strategy": ["ending"], "description": "The ending says who is doing it: vengo, vienes, viene, venimos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I come", "foreign": "vengo", "mark": ["o"], "base": "venir", "features": {"who": "i", "when": "now"}},
+				{"english": "You come", "foreign": "vienes", "mark": ["es"], "base": "venir", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes", "foreign": "viene", "mark": ["e"], "base": "venir", "features": {"who": "she", "when": "now"}},
+				{"english": "We come", "foreign": "venimos", "mark": ["imos"], "base": "venir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "comer", "strategy": ["ending"], "description": "The ending says who is doing it: como, comes, come, comemos. Spot what changes.", "rows": [
+				{"english": "I eat", "foreign": "como", "mark": ["o"], "base": "comer", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "comes", "mark": ["es"], "base": "comer", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "come", "mark": ["e"], "base": "comer", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "comemos", "mark": ["emos"], "base": "comer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "vivir", "strategy": ["ending"], "description": "The ending says who is doing it: vivo, vives, vive, vivimos. Spot what changes.", "rows": [
+				{"english": "I live", "foreign": "vivo", "mark": ["o"], "base": "vivir", "features": {"who": "i", "when": "now"}},
+				{"english": "You live", "foreign": "vives", "mark": ["es"], "base": "vivir", "features": {"who": "you", "when": "now"}},
+				{"english": "She lives", "foreign": "vive", "mark": ["e"], "base": "vivir", "features": {"who": "she", "when": "now"}},
+				{"english": "We live", "foreign": "vivimos", "mark": ["imos"], "base": "vivir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "trabajar", "strategy": ["ending"], "description": "The ending says who is doing it: trabajo, trabajas, trabaja, trabajamos. Spot what changes.", "rows": [
+				{"english": "I work", "foreign": "trabajo", "mark": ["o"], "base": "trabajar", "features": {"who": "i", "when": "now"}},
+				{"english": "You work", "foreign": "trabajas", "mark": ["as"], "base": "trabajar", "features": {"who": "you", "when": "now"}},
+				{"english": "She works", "foreign": "trabaja", "mark": ["a"], "base": "trabajar", "features": {"who": "she", "when": "now"}},
+				{"english": "We work", "foreign": "trabajamos", "mark": ["amos"], "base": "trabajar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "pensar", "strategy": ["ending"], "description": "The ending says who is doing it: pienso, piensas, piensa, pensamos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I think", "foreign": "pienso", "mark": ["o"], "base": "pensar", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "piensas", "mark": ["as"], "base": "pensar", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "piensa", "mark": ["a"], "base": "pensar", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "pensamos", "mark": ["amos"], "base": "pensar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "tomar", "strategy": ["ending"], "description": "The ending says who is doing it: tomo, tomas, toma, tomamos. Spot what changes.", "rows": [
+				{"english": "I take", "foreign": "tomo", "mark": ["o"], "base": "tomar", "features": {"who": "i", "when": "now"}},
+				{"english": "You take", "foreign": "tomas", "mark": ["as"], "base": "tomar", "features": {"who": "you", "when": "now"}},
+				{"english": "She takes", "foreign": "toma", "mark": ["a"], "base": "tomar", "features": {"who": "she", "when": "now"}},
+				{"english": "We take", "foreign": "tomamos", "mark": ["amos"], "base": "tomar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "escribir", "strategy": ["ending"], "description": "The ending says who is doing it: escribo, escribes, escribe, escribimos. Spot what changes.", "rows": [
+				{"english": "I write", "foreign": "escribo", "mark": ["o"], "base": "escribir", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "escribes", "mark": ["es"], "base": "escribir", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "escribe", "mark": ["e"], "base": "escribir", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "escribimos", "mark": ["imos"], "base": "escribir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "comprar", "strategy": ["ending"], "description": "The ending says who is doing it: compro, compras, compra, compramos. Spot what changes.", "rows": [
+				{"english": "I buy", "foreign": "compro", "mark": ["o"], "base": "comprar", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "compras", "mark": ["as"], "base": "comprar", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "compra", "mark": ["a"], "base": "comprar", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "compramos", "mark": ["amos"], "base": "comprar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "beber", "strategy": ["ending"], "description": "The ending says who is doing it: bebo, bebes, bebe, bebemos. Spot what changes.", "rows": [
+				{"english": "I drink", "foreign": "bebo", "mark": ["o"], "base": "beber", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "bebes", "mark": ["es"], "base": "beber", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "bebe", "mark": ["e"], "base": "beber", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "bebemos", "mark": ["emos"], "base": "beber", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "dormir", "strategy": ["ending"], "description": "The ending says who is doing it: duermo, duermes, duerme, dormimos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "duermo", "mark": ["o"], "base": "dormir", "features": {"who": "i", "when": "now"}},
+				{"english": "You sleep", "foreign": "duermes", "mark": ["es"], "base": "dormir", "features": {"who": "you", "when": "now"}},
+				{"english": "She sleeps", "foreign": "duerme", "mark": ["e"], "base": "dormir", "features": {"who": "she", "when": "now"}},
+				{"english": "We sleep", "foreign": "dormimos", "mark": ["imos"], "base": "dormir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "salir", "strategy": ["ending"], "description": "The ending says who is doing it: salgo, sales, sale, salimos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go out", "foreign": "salgo", "mark": ["o"], "base": "salir", "features": {"who": "i", "when": "now"}},
+				{"english": "You go out", "foreign": "sales", "mark": ["es"], "base": "salir", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes out", "foreign": "sale", "mark": ["e"], "base": "salir", "features": {"who": "she", "when": "now"}},
+				{"english": "We go out", "foreign": "salimos", "mark": ["imos"], "base": "salir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "volver", "strategy": ["ending"], "description": "The ending says who is doing it: vuelvo, vuelves, vuelve, volvemos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I return", "foreign": "vuelvo", "mark": ["o"], "base": "volver", "features": {"who": "i", "when": "now"}},
+				{"english": "You return", "foreign": "vuelves", "mark": ["es"], "base": "volver", "features": {"who": "you", "when": "now"}},
+				{"english": "She returns", "foreign": "vuelve", "mark": ["e"], "base": "volver", "features": {"who": "she", "when": "now"}},
+				{"english": "We return", "foreign": "volvemos", "mark": ["emos"], "base": "volver", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "llegar", "strategy": ["ending"], "description": "The ending says who is doing it: llego, llegas, llega, llegamos. Spot what changes.", "rows": [
+				{"english": "I arrive", "foreign": "llego", "mark": ["o"], "base": "llegar", "features": {"who": "i", "when": "now"}},
+				{"english": "You arrive", "foreign": "llegas", "mark": ["as"], "base": "llegar", "features": {"who": "you", "when": "now"}},
+				{"english": "She arrives", "foreign": "llega", "mark": ["a"], "base": "llegar", "features": {"who": "she", "when": "now"}},
+				{"english": "We arrive", "foreign": "llegamos", "mark": ["amos"], "base": "llegar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "mirar", "strategy": ["ending"], "description": "The ending says who is doing it: miro, miras, mira, miramos. Spot what changes.", "rows": [
+				{"english": "I look", "foreign": "miro", "mark": ["o"], "base": "mirar", "features": {"who": "i", "when": "now"}},
+				{"english": "You look", "foreign": "miras", "mark": ["as"], "base": "mirar", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks", "foreign": "mira", "mark": ["a"], "base": "mirar", "features": {"who": "she", "when": "now"}},
+				{"english": "We look", "foreign": "miramos", "mark": ["amos"], "base": "mirar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "esperar", "strategy": ["ending"], "description": "The ending says who is doing it: espero, esperas, espera, esperamos. Spot what changes.", "rows": [
+				{"english": "I wait", "foreign": "espero", "mark": ["o"], "base": "esperar", "features": {"who": "i", "when": "now"}},
+				{"english": "You wait", "foreign": "esperas", "mark": ["as"], "base": "esperar", "features": {"who": "you", "when": "now"}},
+				{"english": "She waits", "foreign": "espera", "mark": ["a"], "base": "esperar", "features": {"who": "she", "when": "now"}},
+				{"english": "We wait", "foreign": "esperamos", "mark": ["amos"], "base": "esperar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "buscar", "strategy": ["ending"], "description": "The ending says who is doing it: busco, buscas, busca, buscamos. Spot what changes.", "rows": [
+				{"english": "I search", "foreign": "busco", "mark": ["o"], "base": "buscar", "features": {"who": "i", "when": "now"}},
+				{"english": "You search", "foreign": "buscas", "mark": ["as"], "base": "buscar", "features": {"who": "you", "when": "now"}},
+				{"english": "She searches", "foreign": "busca", "mark": ["a"], "base": "buscar", "features": {"who": "she", "when": "now"}},
+				{"english": "We search", "foreign": "buscamos", "mark": ["amos"], "base": "buscar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "encontrar", "strategy": ["ending"], "description": "The ending says who is doing it: encuentro, encuentras, encuentra, encontramos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I find", "foreign": "encuentro", "mark": ["o"], "base": "encontrar", "features": {"who": "i", "when": "now"}},
+				{"english": "You find", "foreign": "encuentras", "mark": ["as"], "base": "encontrar", "features": {"who": "you", "when": "now"}},
+				{"english": "She finds", "foreign": "encuentra", "mark": ["a"], "base": "encontrar", "features": {"who": "she", "when": "now"}},
+				{"english": "We find", "foreign": "encontramos", "mark": ["amos"], "base": "encontrar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "llamar", "strategy": ["ending"], "description": "The ending says who is doing it: llamo, llamas, llama, llamamos. Spot what changes.", "rows": [
+				{"english": "I call", "foreign": "llamo", "mark": ["o"], "base": "llamar", "features": {"who": "i", "when": "now"}},
+				{"english": "You call", "foreign": "llamas", "mark": ["as"], "base": "llamar", "features": {"who": "you", "when": "now"}},
+				{"english": "She calls", "foreign": "llama", "mark": ["a"], "base": "llamar", "features": {"who": "she", "when": "now"}},
+				{"english": "We call", "foreign": "llamamos", "mark": ["amos"], "base": "llamar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "empezar", "strategy": ["ending"], "description": "The ending says who is doing it: empiezo, empiezas, empieza, empezamos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I begin", "foreign": "empiezo", "mark": ["o"], "base": "empezar", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "empiezas", "mark": ["as"], "base": "empezar", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "empieza", "mark": ["a"], "base": "empezar", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "empezamos", "mark": ["amos"], "base": "empezar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "terminar", "strategy": ["ending"], "description": "The ending says who is doing it: termino, terminas, termina, terminamos. Spot what changes.", "rows": [
+				{"english": "I finish", "foreign": "termino", "mark": ["o"], "base": "terminar", "features": {"who": "i", "when": "now"}},
+				{"english": "You finish", "foreign": "terminas", "mark": ["as"], "base": "terminar", "features": {"who": "you", "when": "now"}},
+				{"english": "She finishes", "foreign": "termina", "mark": ["a"], "base": "terminar", "features": {"who": "she", "when": "now"}},
+				{"english": "We finish", "foreign": "terminamos", "mark": ["amos"], "base": "terminar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "abrir", "strategy": ["ending"], "description": "The ending says who is doing it: abro, abres, abre, abrimos. Spot what changes.", "rows": [
+				{"english": "I open", "foreign": "abro", "mark": ["o"], "base": "abrir", "features": {"who": "i", "when": "now"}},
+				{"english": "You open", "foreign": "abres", "mark": ["es"], "base": "abrir", "features": {"who": "you", "when": "now"}},
+				{"english": "She opens", "foreign": "abre", "mark": ["e"], "base": "abrir", "features": {"who": "she", "when": "now"}},
+				{"english": "We open", "foreign": "abrimos", "mark": ["imos"], "base": "abrir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "cerrar", "strategy": ["ending"], "description": "The ending says who is doing it: cierro, cierras, cierra, cerramos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I close", "foreign": "cierro", "mark": ["o"], "base": "cerrar", "features": {"who": "i", "when": "now"}},
+				{"english": "You close", "foreign": "cierras", "mark": ["as"], "base": "cerrar", "features": {"who": "you", "when": "now"}},
+				{"english": "She closes", "foreign": "cierra", "mark": ["a"], "base": "cerrar", "features": {"who": "she", "when": "now"}},
+				{"english": "We close", "foreign": "cerramos", "mark": ["amos"], "base": "cerrar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "aprender", "strategy": ["ending"], "description": "The ending says who is doing it: aprendo, aprendes, aprende, aprendemos. Spot what changes.", "rows": [
+				{"english": "I learn", "foreign": "aprendo", "mark": ["o"], "base": "aprender", "features": {"who": "i", "when": "now"}},
+				{"english": "You learn", "foreign": "aprendes", "mark": ["es"], "base": "aprender", "features": {"who": "you", "when": "now"}},
+				{"english": "She learns", "foreign": "aprende", "mark": ["e"], "base": "aprender", "features": {"who": "she", "when": "now"}},
+				{"english": "We learn", "foreign": "aprendemos", "mark": ["emos"], "base": "aprender", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "estudiar", "strategy": ["ending"], "description": "The ending says who is doing it: estudio, estudias, estudia, estudiamos. Spot what changes.", "rows": [
+				{"english": "I study", "foreign": "estudio", "mark": ["o"], "base": "estudiar", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "estudias", "mark": ["as"], "base": "estudiar", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "estudia", "mark": ["a"], "base": "estudiar", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "estudiamos", "mark": ["amos"], "base": "estudiar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "entender", "strategy": ["ending"], "description": "The ending says who is doing it: entiendo, entiendes, entiende, entendemos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I understand", "foreign": "entiendo", "mark": ["o"], "base": "entender", "features": {"who": "i", "when": "now"}},
+				{"english": "You understand", "foreign": "entiendes", "mark": ["es"], "base": "entender", "features": {"who": "you", "when": "now"}},
+				{"english": "She understands", "foreign": "entiende", "mark": ["e"], "base": "entender", "features": {"who": "she", "when": "now"}},
+				{"english": "We understand", "foreign": "entendemos", "mark": ["emos"], "base": "entender", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "recordar", "strategy": ["ending"], "description": "The ending says who is doing it: recuerdo, recuerdas, recuerda, recordamos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I remember", "foreign": "recuerdo", "mark": ["o"], "base": "recordar", "features": {"who": "i", "when": "now"}},
+				{"english": "You remember", "foreign": "recuerdas", "mark": ["as"], "base": "recordar", "features": {"who": "you", "when": "now"}},
+				{"english": "She remembers", "foreign": "recuerda", "mark": ["a"], "base": "recordar", "features": {"who": "she", "when": "now"}},
+				{"english": "We remember", "foreign": "recordamos", "mark": ["amos"], "base": "recordar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "correr", "strategy": ["ending"], "description": "The ending says who is doing it: corro, corres, corre, corremos. Spot what changes.", "rows": [
+				{"english": "I run", "foreign": "corro", "mark": ["o"], "base": "correr", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "corres", "mark": ["es"], "base": "correr", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "corre", "mark": ["e"], "base": "correr", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "corremos", "mark": ["emos"], "base": "correr", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "caminar", "strategy": ["ending"], "description": "The ending says who is doing it: camino, caminas, camina, caminamos. Spot what changes.", "rows": [
+				{"english": "I walk", "foreign": "camino", "mark": ["o"], "base": "caminar", "features": {"who": "i", "when": "now"}},
+				{"english": "You walk", "foreign": "caminas", "mark": ["as"], "base": "caminar", "features": {"who": "you", "when": "now"}},
+				{"english": "She walks", "foreign": "camina", "mark": ["a"], "base": "caminar", "features": {"who": "she", "when": "now"}},
+				{"english": "We walk", "foreign": "caminamos", "mark": ["amos"], "base": "caminar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "cantar", "strategy": ["ending"], "description": "The ending says who is doing it: canto, cantas, canta, cantamos. Spot what changes.", "rows": [
+				{"english": "I sing", "foreign": "canto", "mark": ["o"], "base": "cantar", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "cantas", "mark": ["as"], "base": "cantar", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "canta", "mark": ["a"], "base": "cantar", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "cantamos", "mark": ["amos"], "base": "cantar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "jugar", "strategy": ["ending"], "description": "The ending says who is doing it: juego, juegas, juega, jugamos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I play", "foreign": "juego", "mark": ["o"], "base": "jugar", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "juegas", "mark": ["as"], "base": "jugar", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "juega", "mark": ["a"], "base": "jugar", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "jugamos", "mark": ["amos"], "base": "jugar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "pagar", "strategy": ["ending"], "description": "The ending says who is doing it: pago, pagas, paga, pagamos. Spot what changes.", "rows": [
+				{"english": "I pay", "foreign": "pago", "mark": ["o"], "base": "pagar", "features": {"who": "i", "when": "now"}},
+				{"english": "You pay", "foreign": "pagas", "mark": ["as"], "base": "pagar", "features": {"who": "you", "when": "now"}},
+				{"english": "She pays", "foreign": "paga", "mark": ["a"], "base": "pagar", "features": {"who": "she", "when": "now"}},
+				{"english": "We pay", "foreign": "pagamos", "mark": ["amos"], "base": "pagar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "vender", "strategy": ["ending"], "description": "The ending says who is doing it: vendo, vendes, vende, vendemos. Spot what changes.", "rows": [
+				{"english": "I sell", "foreign": "vendo", "mark": ["o"], "base": "vender", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "vendes", "mark": ["es"], "base": "vender", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "vende", "mark": ["e"], "base": "vender", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "vendemos", "mark": ["emos"], "base": "vender", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "ayudar", "strategy": ["ending"], "description": "The ending says who is doing it: ayudo, ayudas, ayuda, ayudamos. Spot what changes.", "rows": [
+				{"english": "I help", "foreign": "ayudo", "mark": ["o"], "base": "ayudar", "features": {"who": "i", "when": "now"}},
+				{"english": "You help", "foreign": "ayudas", "mark": ["as"], "base": "ayudar", "features": {"who": "you", "when": "now"}},
+				{"english": "She helps", "foreign": "ayuda", "mark": ["a"], "base": "ayudar", "features": {"who": "she", "when": "now"}},
+				{"english": "We help", "foreign": "ayudamos", "mark": ["amos"], "base": "ayudar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "cocinar", "strategy": ["ending"], "description": "The ending says who is doing it: cocino, cocinas, cocina, cocinamos. Spot what changes.", "rows": [
+				{"english": "I cook", "foreign": "cocino", "mark": ["o"], "base": "cocinar", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "cocinas", "mark": ["as"], "base": "cocinar", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "cocina", "mark": ["a"], "base": "cocinar", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "cocinamos", "mark": ["amos"], "base": "cocinar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "viajar", "strategy": ["ending"], "description": "The ending says who is doing it: viajo, viajas, viaja, viajamos. Spot what changes.", "rows": [
+				{"english": "I travel", "foreign": "viajo", "mark": ["o"], "base": "viajar", "features": {"who": "i", "when": "now"}},
+				{"english": "You travel", "foreign": "viajas", "mark": ["as"], "base": "viajar", "features": {"who": "you", "when": "now"}},
+				{"english": "She travels", "foreign": "viaja", "mark": ["a"], "base": "viajar", "features": {"who": "she", "when": "now"}},
+				{"english": "We travel", "foreign": "viajamos", "mark": ["amos"], "base": "viajar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 45, "verb": "preguntar", "strategy": ["ending"], "description": "The ending says who is doing it: pregunto, preguntas, pregunta, preguntamos. Spot what changes.", "rows": [
+				{"english": "I ask", "foreign": "pregunto", "mark": ["o"], "base": "preguntar", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "preguntas", "mark": ["as"], "base": "preguntar", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "pregunta", "mark": ["a"], "base": "preguntar", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "preguntamos", "mark": ["amos"], "base": "preguntar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 46, "verb": "responder", "strategy": ["ending"], "description": "The ending says who is doing it: respondo, respondes, responde, respondemos. Spot what changes.", "rows": [
+				{"english": "I answer", "foreign": "respondo", "mark": ["o"], "base": "responder", "features": {"who": "i", "when": "now"}},
+				{"english": "You answer", "foreign": "respondes", "mark": ["es"], "base": "responder", "features": {"who": "you", "when": "now"}},
+				{"english": "She answers", "foreign": "responde", "mark": ["e"], "base": "responder", "features": {"who": "she", "when": "now"}},
+				{"english": "We answer", "foreign": "respondemos", "mark": ["emos"], "base": "responder", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 47, "verb": "perder", "strategy": ["ending"], "description": "The ending says who is doing it: pierdo, pierdes, pierde, perdemos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I lose", "foreign": "pierdo", "mark": ["o"], "base": "perder", "features": {"who": "i", "when": "now"}},
+				{"english": "You lose", "foreign": "pierdes", "mark": ["es"], "base": "perder", "features": {"who": "you", "when": "now"}},
+				{"english": "She loses", "foreign": "pierde", "mark": ["e"], "base": "perder", "features": {"who": "she", "when": "now"}},
+				{"english": "We lose", "foreign": "perdemos", "mark": ["emos"], "base": "perder", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 48, "verb": "recibir", "strategy": ["ending"], "description": "The ending says who is doing it: recibo, recibes, recibe, recibimos. Spot what changes.", "rows": [
+				{"english": "I receive", "foreign": "recibo", "mark": ["o"], "base": "recibir", "features": {"who": "i", "when": "now"}},
+				{"english": "You receive", "foreign": "recibes", "mark": ["es"], "base": "recibir", "features": {"who": "you", "when": "now"}},
+				{"english": "She receives", "foreign": "recibe", "mark": ["e"], "base": "recibir", "features": {"who": "she", "when": "now"}},
+				{"english": "We receive", "foreign": "recibimos", "mark": ["imos"], "base": "recibir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 49, "verb": "pedir", "strategy": ["ending"], "description": "The ending says who is doing it: pido, pides, pide, pedimos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I order", "foreign": "pido", "mark": ["o"], "base": "pedir", "features": {"who": "i", "when": "now"}},
+				{"english": "You order", "foreign": "pides", "mark": ["es"], "base": "pedir", "features": {"who": "you", "when": "now"}},
+				{"english": "She orders", "foreign": "pide", "mark": ["e"], "base": "pedir", "features": {"who": "she", "when": "now"}},
+				{"english": "We order", "foreign": "pedimos", "mark": ["imos"], "base": "pedir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 50, "verb": "seguir", "strategy": ["ending"], "description": "The ending says who is doing it: sigo, sigues, sigue, seguimos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I follow", "foreign": "sigo", "mark": ["o"], "base": "seguir", "features": {"who": "i", "when": "now"}},
+				{"english": "You follow", "foreign": "sigues", "mark": ["es"], "base": "seguir", "features": {"who": "you", "when": "now"}},
+				{"english": "She follows", "foreign": "sigue", "mark": ["e"], "base": "seguir", "features": {"who": "she", "when": "now"}},
+				{"english": "We follow", "foreign": "seguimos", "mark": ["imos"], "base": "seguir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 51, "verb": "sentir", "strategy": ["ending"], "description": "The ending says who is doing it: siento, sientes, siente, sentimos. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I feel", "foreign": "siento", "mark": ["o"], "base": "sentir", "features": {"who": "i", "when": "now"}},
+				{"english": "You feel", "foreign": "sientes", "mark": ["es"], "base": "sentir", "features": {"who": "you", "when": "now"}},
+				{"english": "She feels", "foreign": "siente", "mark": ["e"], "base": "sentir", "features": {"who": "she", "when": "now"}},
+				{"english": "We feel", "foreign": "sentimos", "mark": ["imos"], "base": "sentir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "tener", "strategy": ["ending"], "description": "The ending also says when: tengo is now, tuve is before, and tendré is later. Tener goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I have", "foreign": "tengo", "mark": ["o"], "base": "tener", "features": {"who": "i", "when": "now"}},
+				{"english": "I had", "foreign": "tuve", "from": 1, "base": "tener", "features": {"who": "i", "when": "before"}},
+				{"english": "I will have", "foreign": "tendré", "mark": ["é"], "from": 1, "base": "tener", "features": {"who": "i", "when": "later"}},
+				{"english": "She had", "foreign": "tuvo", "base": "tener", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "hacer", "strategy": ["ending"], "description": "The ending also says when: hago is now, hice is before, and haré is later. Hacer goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I make", "foreign": "hago", "mark": ["o"], "base": "hacer", "features": {"who": "i", "when": "now"}},
+				{"english": "I made", "foreign": "hice", "from": 1, "base": "hacer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "haré", "mark": ["é"], "from": 1, "base": "hacer", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "hizo", "base": "hacer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "ir", "strategy": ["ending"], "description": "The ending also says when: voy is now, fui is before, and iré is later. Ir goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I go", "foreign": "voy", "base": "ir", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "fui", "from": 1, "base": "ir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "iré", "mark": ["iré"], "from": 1, "base": "ir", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "fue", "base": "ir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "decir", "strategy": ["ending"], "description": "The ending also says when: digo is now, dije is before, and diré is later. Decir goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I say", "foreign": "digo", "mark": ["o"], "base": "decir", "features": {"who": "i", "when": "now"}},
+				{"english": "I said", "foreign": "dije", "from": 1, "base": "decir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will say", "foreign": "diré", "mark": ["iré"], "from": 1, "base": "decir", "features": {"who": "i", "when": "later"}},
+				{"english": "She said", "foreign": "dijo", "base": "decir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "ver", "strategy": ["ending"], "description": "The ending also says when: veo is now, vi is before, and veré is later. Ver goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I see", "foreign": "veo", "mark": ["o"], "base": "ver", "features": {"who": "i", "when": "now"}},
+				{"english": "I saw", "foreign": "vi", "from": 1, "base": "ver", "features": {"who": "i", "when": "before"}},
+				{"english": "I will see", "foreign": "veré", "mark": ["eré"], "from": 1, "base": "ver", "features": {"who": "i", "when": "later"}},
+				{"english": "She saw", "foreign": "vio", "base": "ver", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "dar", "strategy": ["ending"], "description": "The ending also says when: doy is now, di is before, and daré is later. Dar goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I give", "foreign": "doy", "base": "dar", "features": {"who": "i", "when": "now"}},
+				{"english": "I gave", "foreign": "di", "from": 1, "base": "dar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "daré", "mark": ["aré"], "from": 1, "base": "dar", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "dio", "base": "dar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "saber", "strategy": ["ending"], "description": "The ending also says when: sé is now, supe is before, and sabré is later. Saber goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I know", "foreign": "sé", "base": "saber", "features": {"who": "i", "when": "now"}},
+				{"english": "I knew", "foreign": "supe", "from": 1, "base": "saber", "features": {"who": "i", "when": "before"}},
+				{"english": "I will know", "foreign": "sabré", "mark": ["é"], "from": 1, "base": "saber", "features": {"who": "i", "when": "later"}},
+				{"english": "She knew", "foreign": "supo", "base": "saber", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "querer", "strategy": ["ending"], "description": "The ending also says when: quiero is now, quise is before, and querré is later. Querer goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I want", "foreign": "quiero", "mark": ["o"], "base": "querer", "features": {"who": "i", "when": "now"}},
+				{"english": "I wanted", "foreign": "quise", "from": 1, "base": "querer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will want", "foreign": "querré", "mark": ["é"], "from": 1, "base": "querer", "features": {"who": "i", "when": "later"}},
+				{"english": "She wanted", "foreign": "quiso", "base": "querer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "venir", "strategy": ["ending"], "description": "The ending also says when: vengo is now, vine is before, and vendré is later. Venir goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I come", "foreign": "vengo", "mark": ["o"], "base": "venir", "features": {"who": "i", "when": "now"}},
+				{"english": "I came", "foreign": "vine", "from": 1, "base": "venir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come", "foreign": "vendré", "mark": ["é"], "from": 1, "base": "venir", "features": {"who": "i", "when": "later"}},
+				{"english": "She came", "foreign": "vino", "base": "venir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "comer", "strategy": ["ending"], "description": "The ending also says when: como is now, comí is before, and comeré is later.", "rows": [
+				{"english": "I eat", "foreign": "como", "mark": ["o"], "base": "comer", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "comí", "mark": ["í"], "from": 1, "base": "comer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "comeré", "mark": ["eré"], "from": 1, "base": "comer", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "comió", "mark": ["ió"], "base": "comer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "vivir", "strategy": ["ending"], "description": "The ending also says when: vivo is now, viví is before, and viviré is later.", "rows": [
+				{"english": "I live", "foreign": "vivo", "mark": ["o"], "base": "vivir", "features": {"who": "i", "when": "now"}},
+				{"english": "I lived", "foreign": "viví", "mark": ["í"], "from": 1, "base": "vivir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will live", "foreign": "viviré", "mark": ["iré"], "from": 1, "base": "vivir", "features": {"who": "i", "when": "later"}},
+				{"english": "She lived", "foreign": "vivió", "mark": ["ió"], "base": "vivir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "trabajar", "strategy": ["ending"], "description": "The ending also says when: trabajo is now, trabajé is before, and trabajaré is later.", "rows": [
+				{"english": "I work", "foreign": "trabajo", "mark": ["o"], "base": "trabajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I worked", "foreign": "trabajé", "mark": ["é"], "from": 1, "base": "trabajar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will work", "foreign": "trabajaré", "mark": ["aré"], "from": 1, "base": "trabajar", "features": {"who": "i", "when": "later"}},
+				{"english": "She worked", "foreign": "trabajó", "mark": ["ó"], "base": "trabajar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "pensar", "strategy": ["ending"], "description": "The ending also says when: pienso is now, pensé is before, and pensaré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I think", "foreign": "pienso", "mark": ["o"], "base": "pensar", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "pensé", "mark": ["é"], "from": 1, "base": "pensar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "pensaré", "mark": ["aré"], "from": 1, "base": "pensar", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "pensó", "mark": ["ó"], "base": "pensar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "tomar", "strategy": ["ending"], "description": "The ending also says when: tomo is now, tomé is before, and tomaré is later.", "rows": [
+				{"english": "I take", "foreign": "tomo", "mark": ["o"], "base": "tomar", "features": {"who": "i", "when": "now"}},
+				{"english": "I took", "foreign": "tomé", "mark": ["é"], "from": 1, "base": "tomar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "tomaré", "mark": ["aré"], "from": 1, "base": "tomar", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "tomó", "mark": ["ó"], "base": "tomar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "escribir", "strategy": ["ending"], "description": "The ending also says when: escribo is now, escribí is before, and escribiré is later.", "rows": [
+				{"english": "I write", "foreign": "escribo", "mark": ["o"], "base": "escribir", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "escribí", "mark": ["í"], "from": 1, "base": "escribir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "escribiré", "mark": ["iré"], "from": 1, "base": "escribir", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "escribió", "mark": ["ió"], "base": "escribir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "comprar", "strategy": ["ending"], "description": "The ending also says when: compro is now, compré is before, and compraré is later.", "rows": [
+				{"english": "I buy", "foreign": "compro", "mark": ["o"], "base": "comprar", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "compré", "mark": ["é"], "from": 1, "base": "comprar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "compraré", "mark": ["aré"], "from": 1, "base": "comprar", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "compró", "mark": ["ó"], "base": "comprar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "beber", "strategy": ["ending"], "description": "The ending also says when: bebo is now, bebí is before, and beberé is later.", "rows": [
+				{"english": "I drink", "foreign": "bebo", "mark": ["o"], "base": "beber", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "bebí", "mark": ["í"], "from": 1, "base": "beber", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "beberé", "mark": ["eré"], "from": 1, "base": "beber", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "bebió", "mark": ["ió"], "base": "beber", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "dormir", "strategy": ["ending"], "description": "The ending also says when: duermo is now, dormí is before, and dormiré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "duermo", "mark": ["o"], "base": "dormir", "features": {"who": "i", "when": "now"}},
+				{"english": "I slept", "foreign": "dormí", "mark": ["í"], "from": 1, "base": "dormir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sleep", "foreign": "dormiré", "mark": ["iré"], "from": 1, "base": "dormir", "features": {"who": "i", "when": "later"}},
+				{"english": "She slept", "foreign": "durmió", "mark": ["ió"], "base": "dormir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "salir", "strategy": ["ending"], "description": "The ending also says when: salgo is now, salí is before, and saldré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go out", "foreign": "salgo", "mark": ["o"], "base": "salir", "features": {"who": "i", "when": "now"}},
+				{"english": "I went out", "foreign": "salí", "mark": ["í"], "from": 1, "base": "salir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go out", "foreign": "saldré", "mark": ["é"], "from": 1, "base": "salir", "features": {"who": "i", "when": "later"}},
+				{"english": "She went out", "foreign": "salió", "mark": ["ió"], "base": "salir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "volver", "strategy": ["ending"], "description": "The ending also says when: vuelvo is now, volví is before, and volveré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I return", "foreign": "vuelvo", "mark": ["o"], "base": "volver", "features": {"who": "i", "when": "now"}},
+				{"english": "I returned", "foreign": "volví", "mark": ["í"], "from": 1, "base": "volver", "features": {"who": "i", "when": "before"}},
+				{"english": "I will return", "foreign": "volveré", "mark": ["eré"], "from": 1, "base": "volver", "features": {"who": "i", "when": "later"}},
+				{"english": "She returned", "foreign": "volvió", "mark": ["ió"], "base": "volver", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "llegar", "strategy": ["ending"], "description": "The ending also says when: llego is now, llegué is before, and llegaré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I arrive", "foreign": "llego", "mark": ["o"], "base": "llegar", "features": {"who": "i", "when": "now"}},
+				{"english": "I arrived", "foreign": "llegué", "mark": ["é"], "from": 1, "base": "llegar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will arrive", "foreign": "llegaré", "mark": ["aré"], "from": 1, "base": "llegar", "features": {"who": "i", "when": "later"}},
+				{"english": "She arrived", "foreign": "llegó", "mark": ["ó"], "base": "llegar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "mirar", "strategy": ["ending"], "description": "The ending also says when: miro is now, miré is before, and miraré is later.", "rows": [
+				{"english": "I look", "foreign": "miro", "mark": ["o"], "base": "mirar", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked", "foreign": "miré", "mark": ["é"], "from": 1, "base": "mirar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look", "foreign": "miraré", "mark": ["aré"], "from": 1, "base": "mirar", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked", "foreign": "miró", "mark": ["ó"], "base": "mirar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "esperar", "strategy": ["ending"], "description": "The ending also says when: espero is now, esperé is before, and esperaré is later.", "rows": [
+				{"english": "I wait", "foreign": "espero", "mark": ["o"], "base": "esperar", "features": {"who": "i", "when": "now"}},
+				{"english": "I waited", "foreign": "esperé", "mark": ["é"], "from": 1, "base": "esperar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "esperaré", "mark": ["aré"], "from": 1, "base": "esperar", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "esperó", "mark": ["ó"], "base": "esperar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "buscar", "strategy": ["ending"], "description": "The ending also says when: busco is now, busqué is before, and buscaré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I search", "foreign": "busco", "mark": ["o"], "base": "buscar", "features": {"who": "i", "when": "now"}},
+				{"english": "I searched", "foreign": "busqué", "mark": ["é"], "from": 1, "base": "buscar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will search", "foreign": "buscaré", "mark": ["aré"], "from": 1, "base": "buscar", "features": {"who": "i", "when": "later"}},
+				{"english": "She searched", "foreign": "buscó", "mark": ["ó"], "base": "buscar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "encontrar", "strategy": ["ending"], "description": "The ending also says when: encuentro is now, encontré is before, and encontraré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I find", "foreign": "encuentro", "mark": ["o"], "base": "encontrar", "features": {"who": "i", "when": "now"}},
+				{"english": "I found", "foreign": "encontré", "mark": ["é"], "from": 1, "base": "encontrar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will find", "foreign": "encontraré", "mark": ["aré"], "from": 1, "base": "encontrar", "features": {"who": "i", "when": "later"}},
+				{"english": "She found", "foreign": "encontró", "mark": ["ó"], "base": "encontrar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "llamar", "strategy": ["ending"], "description": "The ending also says when: llamo is now, llamé is before, and llamaré is later.", "rows": [
+				{"english": "I call", "foreign": "llamo", "mark": ["o"], "base": "llamar", "features": {"who": "i", "when": "now"}},
+				{"english": "I called", "foreign": "llamé", "mark": ["é"], "from": 1, "base": "llamar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "llamaré", "mark": ["aré"], "from": 1, "base": "llamar", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "llamó", "mark": ["ó"], "base": "llamar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "empezar", "strategy": ["ending"], "description": "The ending also says when: empiezo is now, empecé is before, and empezaré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I begin", "foreign": "empiezo", "mark": ["o"], "base": "empezar", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "empecé", "mark": ["é"], "from": 1, "base": "empezar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "empezaré", "mark": ["aré"], "from": 1, "base": "empezar", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "empezó", "mark": ["ó"], "base": "empezar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "terminar", "strategy": ["ending"], "description": "The ending also says when: termino is now, terminé is before, and terminaré is later.", "rows": [
+				{"english": "I finish", "foreign": "termino", "mark": ["o"], "base": "terminar", "features": {"who": "i", "when": "now"}},
+				{"english": "I finished", "foreign": "terminé", "mark": ["é"], "from": 1, "base": "terminar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "terminaré", "mark": ["aré"], "from": 1, "base": "terminar", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "terminó", "mark": ["ó"], "base": "terminar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "abrir", "strategy": ["ending"], "description": "The ending also says when: abro is now, abrí is before, and abriré is later.", "rows": [
+				{"english": "I open", "foreign": "abro", "mark": ["o"], "base": "abrir", "features": {"who": "i", "when": "now"}},
+				{"english": "I opened", "foreign": "abrí", "mark": ["í"], "from": 1, "base": "abrir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "abriré", "mark": ["iré"], "from": 1, "base": "abrir", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "abrió", "mark": ["ió"], "base": "abrir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "cerrar", "strategy": ["ending"], "description": "The ending also says when: cierro is now, cerré is before, and cerraré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I close", "foreign": "cierro", "mark": ["o"], "base": "cerrar", "features": {"who": "i", "when": "now"}},
+				{"english": "I closed", "foreign": "cerré", "mark": ["é"], "from": 1, "base": "cerrar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "cerraré", "mark": ["aré"], "from": 1, "base": "cerrar", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "cerró", "mark": ["ó"], "base": "cerrar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "aprender", "strategy": ["ending"], "description": "The ending also says when: aprendo is now, aprendí is before, and aprenderé is later.", "rows": [
+				{"english": "I learn", "foreign": "aprendo", "mark": ["o"], "base": "aprender", "features": {"who": "i", "when": "now"}},
+				{"english": "I learned", "foreign": "aprendí", "mark": ["í"], "from": 1, "base": "aprender", "features": {"who": "i", "when": "before"}},
+				{"english": "I will learn", "foreign": "aprenderé", "mark": ["eré"], "from": 1, "base": "aprender", "features": {"who": "i", "when": "later"}},
+				{"english": "She learned", "foreign": "aprendió", "mark": ["ió"], "base": "aprender", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "estudiar", "strategy": ["ending"], "description": "The ending also says when: estudio is now, estudié is before, and estudiaré is later.", "rows": [
+				{"english": "I study", "foreign": "estudio", "mark": ["o"], "base": "estudiar", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "estudié", "mark": ["é"], "from": 1, "base": "estudiar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "estudiaré", "mark": ["aré"], "from": 1, "base": "estudiar", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "estudió", "mark": ["ó"], "base": "estudiar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "entender", "strategy": ["ending"], "description": "The ending also says when: entiendo is now, entendí is before, and entenderé is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I understand", "foreign": "entiendo", "mark": ["o"], "base": "entender", "features": {"who": "i", "when": "now"}},
+				{"english": "I understood", "foreign": "entendí", "mark": ["í"], "from": 1, "base": "entender", "features": {"who": "i", "when": "before"}},
+				{"english": "I will understand", "foreign": "entenderé", "mark": ["eré"], "from": 1, "base": "entender", "features": {"who": "i", "when": "later"}},
+				{"english": "She understood", "foreign": "entendió", "mark": ["ió"], "base": "entender", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "recordar", "strategy": ["ending"], "description": "The ending also says when: recuerdo is now, recordé is before, and recordaré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I remember", "foreign": "recuerdo", "mark": ["o"], "base": "recordar", "features": {"who": "i", "when": "now"}},
+				{"english": "I remembered", "foreign": "recordé", "mark": ["é"], "from": 1, "base": "recordar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will remember", "foreign": "recordaré", "mark": ["aré"], "from": 1, "base": "recordar", "features": {"who": "i", "when": "later"}},
+				{"english": "She remembered", "foreign": "recordó", "mark": ["ó"], "base": "recordar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "correr", "strategy": ["ending"], "description": "The ending also says when: corro is now, corrí is before, and correré is later.", "rows": [
+				{"english": "I run", "foreign": "corro", "mark": ["o"], "base": "correr", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "corrí", "mark": ["í"], "from": 1, "base": "correr", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "correré", "mark": ["eré"], "from": 1, "base": "correr", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "corrió", "mark": ["ió"], "base": "correr", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "caminar", "strategy": ["ending"], "description": "The ending also says when: camino is now, caminé is before, and caminaré is later.", "rows": [
+				{"english": "I walk", "foreign": "camino", "mark": ["o"], "base": "caminar", "features": {"who": "i", "when": "now"}},
+				{"english": "I walked", "foreign": "caminé", "mark": ["é"], "from": 1, "base": "caminar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will walk", "foreign": "caminaré", "mark": ["aré"], "from": 1, "base": "caminar", "features": {"who": "i", "when": "later"}},
+				{"english": "She walked", "foreign": "caminó", "mark": ["ó"], "base": "caminar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "cantar", "strategy": ["ending"], "description": "The ending also says when: canto is now, canté is before, and cantaré is later.", "rows": [
+				{"english": "I sing", "foreign": "canto", "mark": ["o"], "base": "cantar", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "canté", "mark": ["é"], "from": 1, "base": "cantar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "cantaré", "mark": ["aré"], "from": 1, "base": "cantar", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "cantó", "mark": ["ó"], "base": "cantar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "jugar", "strategy": ["ending"], "description": "The ending also says when: juego is now, jugué is before, and jugaré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I play", "foreign": "juego", "mark": ["o"], "base": "jugar", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "jugué", "mark": ["é"], "from": 1, "base": "jugar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "jugaré", "mark": ["aré"], "from": 1, "base": "jugar", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "jugó", "mark": ["ó"], "base": "jugar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "pagar", "strategy": ["ending"], "description": "The ending also says when: pago is now, pagué is before, and pagaré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I pay", "foreign": "pago", "mark": ["o"], "base": "pagar", "features": {"who": "i", "when": "now"}},
+				{"english": "I paid", "foreign": "pagué", "mark": ["é"], "from": 1, "base": "pagar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "pagaré", "mark": ["aré"], "from": 1, "base": "pagar", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "pagó", "mark": ["ó"], "base": "pagar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "vender", "strategy": ["ending"], "description": "The ending also says when: vendo is now, vendí is before, and venderé is later.", "rows": [
+				{"english": "I sell", "foreign": "vendo", "mark": ["o"], "base": "vender", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "vendí", "mark": ["í"], "from": 1, "base": "vender", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "venderé", "mark": ["eré"], "from": 1, "base": "vender", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "vendió", "mark": ["ió"], "base": "vender", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "ayudar", "strategy": ["ending"], "description": "The ending also says when: ayudo is now, ayudé is before, and ayudaré is later.", "rows": [
+				{"english": "I help", "foreign": "ayudo", "mark": ["o"], "base": "ayudar", "features": {"who": "i", "when": "now"}},
+				{"english": "I helped", "foreign": "ayudé", "mark": ["é"], "from": 1, "base": "ayudar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "ayudaré", "mark": ["aré"], "from": 1, "base": "ayudar", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "ayudó", "mark": ["ó"], "base": "ayudar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "cocinar", "strategy": ["ending"], "description": "The ending also says when: cocino is now, cociné is before, and cocinaré is later.", "rows": [
+				{"english": "I cook", "foreign": "cocino", "mark": ["o"], "base": "cocinar", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "cociné", "mark": ["é"], "from": 1, "base": "cocinar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "cocinaré", "mark": ["aré"], "from": 1, "base": "cocinar", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "cocinó", "mark": ["ó"], "base": "cocinar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "viajar", "strategy": ["ending"], "description": "The ending also says when: viajo is now, viajé is before, and viajaré is later.", "rows": [
+				{"english": "I travel", "foreign": "viajo", "mark": ["o"], "base": "viajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I travelled", "foreign": "viajé", "mark": ["é"], "from": 1, "base": "viajar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will travel", "foreign": "viajaré", "mark": ["aré"], "from": 1, "base": "viajar", "features": {"who": "i", "when": "later"}},
+				{"english": "She travelled", "foreign": "viajó", "mark": ["ó"], "base": "viajar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 45, "verb": "preguntar", "strategy": ["ending"], "description": "The ending also says when: pregunto is now, pregunté is before, and preguntaré is later.", "rows": [
+				{"english": "I ask", "foreign": "pregunto", "mark": ["o"], "base": "preguntar", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "pregunté", "mark": ["é"], "from": 1, "base": "preguntar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "preguntaré", "mark": ["aré"], "from": 1, "base": "preguntar", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "preguntó", "mark": ["ó"], "base": "preguntar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 46, "verb": "responder", "strategy": ["ending"], "description": "The ending also says when: respondo is now, respondí is before, and responderé is later.", "rows": [
+				{"english": "I answer", "foreign": "respondo", "mark": ["o"], "base": "responder", "features": {"who": "i", "when": "now"}},
+				{"english": "I answered", "foreign": "respondí", "mark": ["í"], "from": 1, "base": "responder", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "responderé", "mark": ["eré"], "from": 1, "base": "responder", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "respondió", "mark": ["ió"], "base": "responder", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 47, "verb": "perder", "strategy": ["ending"], "description": "The ending also says when: pierdo is now, perdí is before, and perderé is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I lose", "foreign": "pierdo", "mark": ["o"], "base": "perder", "features": {"who": "i", "when": "now"}},
+				{"english": "I lost", "foreign": "perdí", "mark": ["í"], "from": 1, "base": "perder", "features": {"who": "i", "when": "before"}},
+				{"english": "I will lose", "foreign": "perderé", "mark": ["eré"], "from": 1, "base": "perder", "features": {"who": "i", "when": "later"}},
+				{"english": "She lost", "foreign": "perdió", "mark": ["ió"], "base": "perder", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 48, "verb": "recibir", "strategy": ["ending"], "description": "The ending also says when: recibo is now, recibí is before, and recibiré is later.", "rows": [
+				{"english": "I receive", "foreign": "recibo", "mark": ["o"], "base": "recibir", "features": {"who": "i", "when": "now"}},
+				{"english": "I received", "foreign": "recibí", "mark": ["í"], "from": 1, "base": "recibir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will receive", "foreign": "recibiré", "mark": ["iré"], "from": 1, "base": "recibir", "features": {"who": "i", "when": "later"}},
+				{"english": "She received", "foreign": "recibió", "mark": ["ió"], "base": "recibir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 49, "verb": "pedir", "strategy": ["ending"], "description": "The ending also says when: pido is now, pedí is before, and pediré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I order", "foreign": "pido", "mark": ["o"], "base": "pedir", "features": {"who": "i", "when": "now"}},
+				{"english": "I ordered", "foreign": "pedí", "mark": ["í"], "from": 1, "base": "pedir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "pediré", "mark": ["iré"], "from": 1, "base": "pedir", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "pidió", "mark": ["ió"], "base": "pedir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 50, "verb": "seguir", "strategy": ["ending"], "description": "The ending also says when: sigo is now, seguí is before, and seguiré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I follow", "foreign": "sigo", "mark": ["o"], "base": "seguir", "features": {"who": "i", "when": "now"}},
+				{"english": "I followed", "foreign": "seguí", "mark": ["í"], "from": 1, "base": "seguir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will follow", "foreign": "seguiré", "mark": ["iré"], "from": 1, "base": "seguir", "features": {"who": "i", "when": "later"}},
+				{"english": "She followed", "foreign": "siguió", "mark": ["ió"], "base": "seguir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 51, "verb": "sentir", "strategy": ["ending"], "description": "The ending also says when: siento is now, sentí is before, and sentiré is later. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I feel", "foreign": "siento", "mark": ["o"], "base": "sentir", "features": {"who": "i", "when": "now"}},
+				{"english": "I felt", "foreign": "sentí", "mark": ["í"], "from": 1, "base": "sentir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will feel", "foreign": "sentiré", "mark": ["iré"], "from": 1, "base": "sentir", "features": {"who": "i", "when": "later"}},
+				{"english": "She felt", "foreign": "sintió", "mark": ["ió"], "base": "sentir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "going", "part": 2, "verb": "hacer", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy haciendo.", "rows": [
+				{"english": "I make", "foreign": "hago", "base": "hacer", "features": {"who": "i", "when": "now"}},
+				{"english": "I am making", "foreign": "estoy haciendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "hacer", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She makes", "foreign": "hace", "base": "hacer", "features": {"who": "she", "when": "now"}},
+				{"english": "She is making", "foreign": "está haciendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "hacer", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 3, "verb": "ir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy yendo.", "rows": [
+				{"english": "I go", "foreign": "voy", "base": "ir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am going", "foreign": "estoy yendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "yendo", "role": "ending"}], "from": 1, "base": "ir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She goes", "foreign": "va", "base": "ir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is going", "foreign": "está yendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "yendo", "role": "ending"}], "from": 3, "base": "ir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 4, "verb": "decir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy diciendo. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I say", "foreign": "digo", "base": "decir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am saying", "foreign": "estoy diciendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "decir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She says", "foreign": "dice", "base": "decir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is saying", "foreign": "está diciendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "decir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 5, "verb": "dar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy dando.", "rows": [
+				{"english": "I give", "foreign": "doy", "base": "dar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am giving", "foreign": "estoy dando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "dar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She gives", "foreign": "da", "base": "dar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is giving", "foreign": "está dando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "dar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 6, "verb": "venir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy viniendo. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I come", "foreign": "vengo", "base": "venir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am coming", "foreign": "estoy viniendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "venir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She comes", "foreign": "viene", "base": "venir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is coming", "foreign": "está viniendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "venir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 7, "verb": "comer", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy comiendo.", "rows": [
+				{"english": "I eat", "foreign": "como", "base": "comer", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "estoy comiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "comer", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She eats", "foreign": "come", "base": "comer", "features": {"who": "she", "when": "now"}},
+				{"english": "She is eating", "foreign": "está comiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "comer", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 8, "verb": "vivir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy viviendo.", "rows": [
+				{"english": "I live", "foreign": "vivo", "base": "vivir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am living", "foreign": "estoy viviendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "vivir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She lives", "foreign": "vive", "base": "vivir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is living", "foreign": "está viviendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "vivir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 9, "verb": "trabajar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy trabajando.", "rows": [
+				{"english": "I work", "foreign": "trabajo", "base": "trabajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am working", "foreign": "estoy trabajando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "trabajar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She works", "foreign": "trabaja", "base": "trabajar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is working", "foreign": "está trabajando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "trabajar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 10, "verb": "pensar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy pensando.", "rows": [
+				{"english": "I think", "foreign": "pienso", "base": "pensar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am thinking", "foreign": "estoy pensando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "pensar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She thinks", "foreign": "piensa", "base": "pensar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is thinking", "foreign": "está pensando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "pensar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 11, "verb": "tomar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy tomando.", "rows": [
+				{"english": "I take", "foreign": "tomo", "base": "tomar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am taking", "foreign": "estoy tomando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "tomar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She takes", "foreign": "toma", "base": "tomar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is taking", "foreign": "está tomando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "tomar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 12, "verb": "escribir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy escribiendo.", "rows": [
+				{"english": "I write", "foreign": "escribo", "base": "escribir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am writing", "foreign": "estoy escribiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "escribir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She writes", "foreign": "escribe", "base": "escribir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is writing", "foreign": "está escribiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "escribir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 13, "verb": "comprar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy comprando.", "rows": [
+				{"english": "I buy", "foreign": "compro", "base": "comprar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am buying", "foreign": "estoy comprando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "comprar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She buys", "foreign": "compra", "base": "comprar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is buying", "foreign": "está comprando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "comprar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 14, "verb": "beber", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy bebiendo.", "rows": [
+				{"english": "I drink", "foreign": "bebo", "base": "beber", "features": {"who": "i", "when": "now"}},
+				{"english": "I am drinking", "foreign": "estoy bebiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "beber", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She drinks", "foreign": "bebe", "base": "beber", "features": {"who": "she", "when": "now"}},
+				{"english": "She is drinking", "foreign": "está bebiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "beber", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 15, "verb": "dormir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy durmiendo. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "duermo", "base": "dormir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am sleeping", "foreign": "estoy durmiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "dormir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sleeps", "foreign": "duerme", "base": "dormir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is sleeping", "foreign": "está durmiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "dormir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 16, "verb": "salir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy saliendo.", "rows": [
+				{"english": "I go out", "foreign": "salgo", "base": "salir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am going out", "foreign": "estoy saliendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "salir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She goes out", "foreign": "sale", "base": "salir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is going out", "foreign": "está saliendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "salir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 17, "verb": "volver", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy volviendo.", "rows": [
+				{"english": "I return", "foreign": "vuelvo", "base": "volver", "features": {"who": "i", "when": "now"}},
+				{"english": "I am returning", "foreign": "estoy volviendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "volver", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She returns", "foreign": "vuelve", "base": "volver", "features": {"who": "she", "when": "now"}},
+				{"english": "She is returning", "foreign": "está volviendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "volver", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 18, "verb": "llegar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy llegando.", "rows": [
+				{"english": "I arrive", "foreign": "llego", "base": "llegar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am arriving", "foreign": "estoy llegando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "llegar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She arrives", "foreign": "llega", "base": "llegar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is arriving", "foreign": "está llegando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "llegar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 19, "verb": "mirar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy mirando.", "rows": [
+				{"english": "I look", "foreign": "miro", "base": "mirar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am looking", "foreign": "estoy mirando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "mirar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She looks", "foreign": "mira", "base": "mirar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is looking", "foreign": "está mirando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "mirar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 20, "verb": "esperar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy esperando.", "rows": [
+				{"english": "I wait", "foreign": "espero", "base": "esperar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am waiting", "foreign": "estoy esperando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "esperar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She waits", "foreign": "espera", "base": "esperar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is waiting", "foreign": "está esperando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "esperar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 21, "verb": "buscar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy buscando.", "rows": [
+				{"english": "I search", "foreign": "busco", "base": "buscar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am searching", "foreign": "estoy buscando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "buscar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She searches", "foreign": "busca", "base": "buscar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is searching", "foreign": "está buscando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "buscar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 22, "verb": "encontrar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy encontrando.", "rows": [
+				{"english": "I find", "foreign": "encuentro", "base": "encontrar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am finding", "foreign": "estoy encontrando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "encontrar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She finds", "foreign": "encuentra", "base": "encontrar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is finding", "foreign": "está encontrando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "encontrar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 23, "verb": "llamar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy llamando.", "rows": [
+				{"english": "I call", "foreign": "llamo", "base": "llamar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am calling", "foreign": "estoy llamando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "llamar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She calls", "foreign": "llama", "base": "llamar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is calling", "foreign": "está llamando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "llamar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 24, "verb": "empezar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy empezando.", "rows": [
+				{"english": "I begin", "foreign": "empiezo", "base": "empezar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am beginning", "foreign": "estoy empezando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "empezar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She begins", "foreign": "empieza", "base": "empezar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is beginning", "foreign": "está empezando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "empezar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 25, "verb": "terminar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy terminando.", "rows": [
+				{"english": "I finish", "foreign": "termino", "base": "terminar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am finishing", "foreign": "estoy terminando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "terminar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She finishes", "foreign": "termina", "base": "terminar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is finishing", "foreign": "está terminando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "terminar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 26, "verb": "abrir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy abriendo.", "rows": [
+				{"english": "I open", "foreign": "abro", "base": "abrir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am opening", "foreign": "estoy abriendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "abrir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She opens", "foreign": "abre", "base": "abrir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is opening", "foreign": "está abriendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "abrir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 27, "verb": "cerrar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy cerrando.", "rows": [
+				{"english": "I close", "foreign": "cierro", "base": "cerrar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am closing", "foreign": "estoy cerrando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "cerrar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She closes", "foreign": "cierra", "base": "cerrar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is closing", "foreign": "está cerrando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "cerrar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 28, "verb": "aprender", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy aprendiendo.", "rows": [
+				{"english": "I learn", "foreign": "aprendo", "base": "aprender", "features": {"who": "i", "when": "now"}},
+				{"english": "I am learning", "foreign": "estoy aprendiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "aprender", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She learns", "foreign": "aprende", "base": "aprender", "features": {"who": "she", "when": "now"}},
+				{"english": "She is learning", "foreign": "está aprendiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "aprender", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 29, "verb": "estudiar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy estudiando.", "rows": [
+				{"english": "I study", "foreign": "estudio", "base": "estudiar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am studying", "foreign": "estoy estudiando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "estudiar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She studies", "foreign": "estudia", "base": "estudiar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is studying", "foreign": "está estudiando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "estudiar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 30, "verb": "correr", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy corriendo.", "rows": [
+				{"english": "I run", "foreign": "corro", "base": "correr", "features": {"who": "i", "when": "now"}},
+				{"english": "I am running", "foreign": "estoy corriendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "correr", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She runs", "foreign": "corre", "base": "correr", "features": {"who": "she", "when": "now"}},
+				{"english": "She is running", "foreign": "está corriendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "correr", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 31, "verb": "caminar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy caminando.", "rows": [
+				{"english": "I walk", "foreign": "camino", "base": "caminar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am walking", "foreign": "estoy caminando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "caminar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She walks", "foreign": "camina", "base": "caminar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is walking", "foreign": "está caminando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "caminar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 32, "verb": "cantar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy cantando.", "rows": [
+				{"english": "I sing", "foreign": "canto", "base": "cantar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am singing", "foreign": "estoy cantando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "cantar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sings", "foreign": "canta", "base": "cantar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is singing", "foreign": "está cantando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "cantar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 33, "verb": "jugar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy jugando.", "rows": [
+				{"english": "I play", "foreign": "juego", "base": "jugar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am playing", "foreign": "estoy jugando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "jugar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She plays", "foreign": "juega", "base": "jugar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is playing", "foreign": "está jugando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "jugar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 34, "verb": "pagar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy pagando.", "rows": [
+				{"english": "I pay", "foreign": "pago", "base": "pagar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am paying", "foreign": "estoy pagando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "pagar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She pays", "foreign": "paga", "base": "pagar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is paying", "foreign": "está pagando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "pagar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 35, "verb": "vender", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy vendiendo.", "rows": [
+				{"english": "I sell", "foreign": "vendo", "base": "vender", "features": {"who": "i", "when": "now"}},
+				{"english": "I am selling", "foreign": "estoy vendiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "vender", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sells", "foreign": "vende", "base": "vender", "features": {"who": "she", "when": "now"}},
+				{"english": "She is selling", "foreign": "está vendiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "vender", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 36, "verb": "ayudar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy ayudando.", "rows": [
+				{"english": "I help", "foreign": "ayudo", "base": "ayudar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am helping", "foreign": "estoy ayudando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "ayudar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She helps", "foreign": "ayuda", "base": "ayudar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is helping", "foreign": "está ayudando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "ayudar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 37, "verb": "cocinar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy cocinando.", "rows": [
+				{"english": "I cook", "foreign": "cocino", "base": "cocinar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am cooking", "foreign": "estoy cocinando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "cocinar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cooks", "foreign": "cocina", "base": "cocinar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is cooking", "foreign": "está cocinando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "cocinar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 38, "verb": "viajar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy viajando.", "rows": [
+				{"english": "I travel", "foreign": "viajo", "base": "viajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am travelling", "foreign": "estoy viajando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "viajar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She travels", "foreign": "viaja", "base": "viajar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is travelling", "foreign": "está viajando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "viajar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 39, "verb": "preguntar", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy preguntando.", "rows": [
+				{"english": "I ask", "foreign": "pregunto", "base": "preguntar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am asking", "foreign": "estoy preguntando", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "preguntar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She asks", "foreign": "pregunta", "base": "preguntar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is asking", "foreign": "está preguntando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "preguntar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 40, "verb": "responder", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy respondiendo.", "rows": [
+				{"english": "I answer", "foreign": "respondo", "base": "responder", "features": {"who": "i", "when": "now"}},
+				{"english": "I am answering", "foreign": "estoy respondiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "responder", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She answers", "foreign": "responde", "base": "responder", "features": {"who": "she", "when": "now"}},
+				{"english": "She is answering", "foreign": "está respondiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "responder", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 41, "verb": "perder", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy perdiendo.", "rows": [
+				{"english": "I lose", "foreign": "pierdo", "base": "perder", "features": {"who": "i", "when": "now"}},
+				{"english": "I am losing", "foreign": "estoy perdiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "perder", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She loses", "foreign": "pierde", "base": "perder", "features": {"who": "she", "when": "now"}},
+				{"english": "She is losing", "foreign": "está perdiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "perder", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 42, "verb": "recibir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy recibiendo.", "rows": [
+				{"english": "I receive", "foreign": "recibo", "base": "recibir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am receiving", "foreign": "estoy recibiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "recibir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She receives", "foreign": "recibe", "base": "recibir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is receiving", "foreign": "está recibiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "recibir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 43, "verb": "pedir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy pidiendo. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I order", "foreign": "pido", "base": "pedir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am ordering", "foreign": "estoy pidiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She orders", "foreign": "pide", "base": "pedir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is ordering", "foreign": "está pidiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "pedir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 44, "verb": "seguir", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: estoy siguiendo. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I follow", "foreign": "sigo", "base": "seguir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am following", "foreign": "estoy siguiendo", "mark": [{"text": "estoy", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 1, "base": "seguir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She follows", "foreign": "sigue", "base": "seguir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is following", "foreign": "está siguiendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "iendo", "role": "ending"}], "from": 3, "base": "seguir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "command", "part": 2, "verb": "hacer", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Haz! To someone you would call usted: ¡Haga! Telling a friend not to takes no and another ending again: ¡No hagas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Make!", "foreign": "¡Haz!", "base": "hacer", "features": {"command": "yes", "who": "you"}},
+				{"english": "Make! said politely", "foreign": "¡Haga!", "mark": [{"text": "a", "role": "ending"}], "base": "hacer", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not make!", "foreign": "¡No hagas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "hacer", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's make!", "foreign": "¡Hagamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "hacer", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 3, "verb": "ir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Ve! To someone you would call usted: ¡Vaya! Telling a friend not to takes no and another ending again: ¡No vayas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Go!", "foreign": "¡Ve!", "mark": [{"text": "e", "role": "ending"}], "base": "ir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go! said politely", "foreign": "¡Vaya!", "mark": [{"text": "a", "role": "ending"}], "base": "ir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not go!", "foreign": "¡No vayas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "ir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go!", "foreign": "¡Vamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "ir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 4, "verb": "decir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Di! To someone you would call usted: ¡Diga! Telling a friend not to takes no and another ending again: ¡No digas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Say!", "foreign": "¡Di!", "base": "decir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Say! said politely", "foreign": "¡Diga!", "mark": [{"text": "a", "role": "ending"}], "base": "decir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not say!", "foreign": "¡No digas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "decir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's say!", "foreign": "¡Digamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "decir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 5, "verb": "dar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Da! To someone you would call usted: ¡Dé! Telling a friend not to takes no and another ending again: ¡No des!", "rows": [
+				{"english": "Give!", "foreign": "¡Da!", "mark": [{"text": "a", "role": "ending"}], "base": "dar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Give! said politely", "foreign": "¡Dé!", "base": "dar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not give!", "foreign": "¡No des!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "dar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's give!", "foreign": "¡Demos!", "mark": [{"text": "emos", "role": "ending"}], "base": "dar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 6, "verb": "venir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Ven! To someone you would call usted: ¡Venga! Telling a friend not to takes no and another ending again: ¡No vengas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Come!", "foreign": "¡Ven!", "base": "venir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Come! said politely", "foreign": "¡Venga!", "mark": [{"text": "a", "role": "ending"}], "base": "venir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come!", "foreign": "¡No vengas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "venir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come!", "foreign": "¡Vengamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "venir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 7, "verb": "comer", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Come! To someone you would call usted: ¡Coma! Telling a friend not to takes no and another ending again: ¡No comas!", "rows": [
+				{"english": "Eat!", "foreign": "¡Come!", "mark": [{"text": "e", "role": "ending"}], "base": "comer", "features": {"command": "yes", "who": "you"}},
+				{"english": "Eat! said politely", "foreign": "¡Coma!", "mark": [{"text": "a", "role": "ending"}], "base": "comer", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not eat!", "foreign": "¡No comas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "comer", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's eat!", "foreign": "¡Comamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "comer", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 8, "verb": "vivir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Vive! To someone you would call usted: ¡Viva! Telling a friend not to takes no and another ending again: ¡No vivas!", "rows": [
+				{"english": "Live!", "foreign": "¡Vive!", "mark": [{"text": "e", "role": "ending"}], "base": "vivir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Live! said politely", "foreign": "¡Viva!", "mark": [{"text": "a", "role": "ending"}], "base": "vivir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not live!", "foreign": "¡No vivas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "vivir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's live!", "foreign": "¡Vivamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "vivir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 9, "verb": "trabajar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Trabaja! To someone you would call usted: ¡Trabaje! Telling a friend not to takes no and another ending again: ¡No trabajes!", "rows": [
+				{"english": "Work!", "foreign": "¡Trabaja!", "mark": [{"text": "a", "role": "ending"}], "base": "trabajar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Work! said politely", "foreign": "¡Trabaje!", "mark": [{"text": "e", "role": "ending"}], "base": "trabajar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not work!", "foreign": "¡No trabajes!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "trabajar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's work!", "foreign": "¡Trabajemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "trabajar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 10, "verb": "pensar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Piensa! To someone you would call usted: ¡Piense! Telling a friend not to takes no and another ending again: ¡No pienses! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Think!", "foreign": "¡Piensa!", "mark": [{"text": "a", "role": "ending"}], "base": "pensar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Think! said politely", "foreign": "¡Piense!", "mark": [{"text": "e", "role": "ending"}], "base": "pensar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not think!", "foreign": "¡No pienses!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "pensar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's think!", "foreign": "¡Pensemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "pensar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 11, "verb": "tomar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Toma! To someone you would call usted: ¡Tome! Telling a friend not to takes no and another ending again: ¡No tomes!", "rows": [
+				{"english": "Take!", "foreign": "¡Toma!", "mark": [{"text": "a", "role": "ending"}], "base": "tomar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Take! said politely", "foreign": "¡Tome!", "mark": [{"text": "e", "role": "ending"}], "base": "tomar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not take!", "foreign": "¡No tomes!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "tomar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's take!", "foreign": "¡Tomemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "tomar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 12, "verb": "escribir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Escribe! To someone you would call usted: ¡Escriba! Telling a friend not to takes no and another ending again: ¡No escribas!", "rows": [
+				{"english": "Write!", "foreign": "¡Escribe!", "mark": [{"text": "e", "role": "ending"}], "base": "escribir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Write! said politely", "foreign": "¡Escriba!", "mark": [{"text": "a", "role": "ending"}], "base": "escribir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not write!", "foreign": "¡No escribas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "escribir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's write!", "foreign": "¡Escribamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "escribir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 13, "verb": "comprar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Compra! To someone you would call usted: ¡Compre! Telling a friend not to takes no and another ending again: ¡No compres!", "rows": [
+				{"english": "Buy!", "foreign": "¡Compra!", "mark": [{"text": "a", "role": "ending"}], "base": "comprar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Buy! said politely", "foreign": "¡Compre!", "mark": [{"text": "e", "role": "ending"}], "base": "comprar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not buy!", "foreign": "¡No compres!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "comprar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's buy!", "foreign": "¡Compremos!", "mark": [{"text": "emos", "role": "ending"}], "base": "comprar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 14, "verb": "beber", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Bebe! To someone you would call usted: ¡Beba! Telling a friend not to takes no and another ending again: ¡No bebas!", "rows": [
+				{"english": "Drink!", "foreign": "¡Bebe!", "mark": [{"text": "e", "role": "ending"}], "base": "beber", "features": {"command": "yes", "who": "you"}},
+				{"english": "Drink! said politely", "foreign": "¡Beba!", "mark": [{"text": "a", "role": "ending"}], "base": "beber", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not drink!", "foreign": "¡No bebas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "beber", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drink!", "foreign": "¡Bebamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "beber", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 15, "verb": "dormir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Duerme! To someone you would call usted: ¡Duerma! Telling a friend not to takes no and another ending again: ¡No duermas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Sleep!", "foreign": "¡Duerme!", "mark": [{"text": "e", "role": "ending"}], "base": "dormir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sleep! said politely", "foreign": "¡Duerma!", "mark": [{"text": "a", "role": "ending"}], "base": "dormir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sleep!", "foreign": "¡No duermas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "dormir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sleep!", "foreign": "¡Durmamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "dormir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 16, "verb": "salir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Sal! To someone you would call usted: ¡Salga! Telling a friend not to takes no and another ending again: ¡No salgas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Go out!", "foreign": "¡Sal!", "base": "salir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go out! said politely", "foreign": "¡Salga!", "mark": [{"text": "a", "role": "ending"}], "base": "salir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not go out!", "foreign": "¡No salgas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "salir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go out!", "foreign": "¡Salgamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "salir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 17, "verb": "volver", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Vuelve! To someone you would call usted: ¡Vuelva! Telling a friend not to takes no and another ending again: ¡No vuelvas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Return!", "foreign": "¡Vuelve!", "mark": [{"text": "e", "role": "ending"}], "base": "volver", "features": {"command": "yes", "who": "you"}},
+				{"english": "Return! said politely", "foreign": "¡Vuelva!", "mark": [{"text": "a", "role": "ending"}], "base": "volver", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not return!", "foreign": "¡No vuelvas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "volver", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's return!", "foreign": "¡Volvamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "volver", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 18, "verb": "llegar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Llega! To someone you would call usted: ¡Llegue! Telling a friend not to takes no and another ending again: ¡No llegues! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Arrive!", "foreign": "¡Llega!", "mark": [{"text": "a", "role": "ending"}], "base": "llegar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Arrive! said politely", "foreign": "¡Llegue!", "mark": [{"text": "e", "role": "ending"}], "base": "llegar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not arrive!", "foreign": "¡No llegues!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "llegar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's arrive!", "foreign": "¡Lleguemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "llegar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 19, "verb": "mirar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Mira! To someone you would call usted: ¡Mire! Telling a friend not to takes no and another ending again: ¡No mires!", "rows": [
+				{"english": "Look!", "foreign": "¡Mira!", "mark": [{"text": "a", "role": "ending"}], "base": "mirar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Look! said politely", "foreign": "¡Mire!", "mark": [{"text": "e", "role": "ending"}], "base": "mirar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not look!", "foreign": "¡No mires!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "mirar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's look!", "foreign": "¡Miremos!", "mark": [{"text": "emos", "role": "ending"}], "base": "mirar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 20, "verb": "esperar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Espera! To someone you would call usted: ¡Espere! Telling a friend not to takes no and another ending again: ¡No esperes!", "rows": [
+				{"english": "Wait!", "foreign": "¡Espera!", "mark": [{"text": "a", "role": "ending"}], "base": "esperar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Wait! said politely", "foreign": "¡Espere!", "mark": [{"text": "e", "role": "ending"}], "base": "esperar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not wait!", "foreign": "¡No esperes!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "esperar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wait!", "foreign": "¡Esperemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "esperar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 21, "verb": "buscar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Busca! To someone you would call usted: ¡Busque! Telling a friend not to takes no and another ending again: ¡No busques! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Search!", "foreign": "¡Busca!", "mark": [{"text": "a", "role": "ending"}], "base": "buscar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Search! said politely", "foreign": "¡Busque!", "mark": [{"text": "e", "role": "ending"}], "base": "buscar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not search!", "foreign": "¡No busques!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "buscar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's search!", "foreign": "¡Busquemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "buscar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 22, "verb": "encontrar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Encuentra! To someone you would call usted: ¡Encuentre! Telling a friend not to takes no and another ending again: ¡No encuentres! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Find!", "foreign": "¡Encuentra!", "mark": [{"text": "a", "role": "ending"}], "base": "encontrar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Find! said politely", "foreign": "¡Encuentre!", "mark": [{"text": "e", "role": "ending"}], "base": "encontrar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not find!", "foreign": "¡No encuentres!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "encontrar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's find!", "foreign": "¡Encontremos!", "mark": [{"text": "emos", "role": "ending"}], "base": "encontrar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 23, "verb": "llamar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Llama! To someone you would call usted: ¡Llame! Telling a friend not to takes no and another ending again: ¡No llames!", "rows": [
+				{"english": "Call!", "foreign": "¡Llama!", "mark": [{"text": "a", "role": "ending"}], "base": "llamar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Call! said politely", "foreign": "¡Llame!", "mark": [{"text": "e", "role": "ending"}], "base": "llamar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not call!", "foreign": "¡No llames!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "llamar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's call!", "foreign": "¡Llamemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "llamar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 24, "verb": "empezar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Empieza! To someone you would call usted: ¡Empiece! Telling a friend not to takes no and another ending again: ¡No empieces! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Begin!", "foreign": "¡Empieza!", "mark": [{"text": "a", "role": "ending"}], "base": "empezar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Begin! said politely", "foreign": "¡Empiece!", "mark": [{"text": "e", "role": "ending"}], "base": "empezar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not begin!", "foreign": "¡No empieces!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "empezar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's begin!", "foreign": "¡Empecemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "empezar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 25, "verb": "terminar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Termina! To someone you would call usted: ¡Termine! Telling a friend not to takes no and another ending again: ¡No termines!", "rows": [
+				{"english": "Finish!", "foreign": "¡Termina!", "mark": [{"text": "a", "role": "ending"}], "base": "terminar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Finish! said politely", "foreign": "¡Termine!", "mark": [{"text": "e", "role": "ending"}], "base": "terminar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not finish!", "foreign": "¡No termines!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "terminar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's finish!", "foreign": "¡Terminemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "terminar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 26, "verb": "abrir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Abre! To someone you would call usted: ¡Abra! Telling a friend not to takes no and another ending again: ¡No abras!", "rows": [
+				{"english": "Open!", "foreign": "¡Abre!", "mark": [{"text": "e", "role": "ending"}], "base": "abrir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Open! said politely", "foreign": "¡Abra!", "mark": [{"text": "a", "role": "ending"}], "base": "abrir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not open!", "foreign": "¡No abras!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "abrir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's open!", "foreign": "¡Abramos!", "mark": [{"text": "amos", "role": "ending"}], "base": "abrir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 27, "verb": "cerrar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Cierra! To someone you would call usted: ¡Cierre! Telling a friend not to takes no and another ending again: ¡No cierres! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Close!", "foreign": "¡Cierra!", "mark": [{"text": "a", "role": "ending"}], "base": "cerrar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Close! said politely", "foreign": "¡Cierre!", "mark": [{"text": "e", "role": "ending"}], "base": "cerrar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not close!", "foreign": "¡No cierres!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "cerrar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's close!", "foreign": "¡Cerremos!", "mark": [{"text": "emos", "role": "ending"}], "base": "cerrar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 28, "verb": "aprender", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Aprende! To someone you would call usted: ¡Aprenda! Telling a friend not to takes no and another ending again: ¡No aprendas!", "rows": [
+				{"english": "Learn!", "foreign": "¡Aprende!", "mark": [{"text": "e", "role": "ending"}], "base": "aprender", "features": {"command": "yes", "who": "you"}},
+				{"english": "Learn! said politely", "foreign": "¡Aprenda!", "mark": [{"text": "a", "role": "ending"}], "base": "aprender", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not learn!", "foreign": "¡No aprendas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "aprender", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's learn!", "foreign": "¡Aprendamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "aprender", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 29, "verb": "estudiar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Estudia! To someone you would call usted: ¡Estudie! Telling a friend not to takes no and another ending again: ¡No estudies!", "rows": [
+				{"english": "Study!", "foreign": "¡Estudia!", "mark": [{"text": "a", "role": "ending"}], "base": "estudiar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Study! said politely", "foreign": "¡Estudie!", "mark": [{"text": "e", "role": "ending"}], "base": "estudiar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not study!", "foreign": "¡No estudies!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "estudiar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's study!", "foreign": "¡Estudiemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "estudiar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 30, "verb": "correr", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Corre! To someone you would call usted: ¡Corra! Telling a friend not to takes no and another ending again: ¡No corras!", "rows": [
+				{"english": "Run!", "foreign": "¡Corre!", "mark": [{"text": "e", "role": "ending"}], "base": "correr", "features": {"command": "yes", "who": "you"}},
+				{"english": "Run! said politely", "foreign": "¡Corra!", "mark": [{"text": "a", "role": "ending"}], "base": "correr", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not run!", "foreign": "¡No corras!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "correr", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's run!", "foreign": "¡Corramos!", "mark": [{"text": "amos", "role": "ending"}], "base": "correr", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 31, "verb": "caminar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Camina! To someone you would call usted: ¡Camine! Telling a friend not to takes no and another ending again: ¡No camines!", "rows": [
+				{"english": "Walk!", "foreign": "¡Camina!", "mark": [{"text": "a", "role": "ending"}], "base": "caminar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Walk! said politely", "foreign": "¡Camine!", "mark": [{"text": "e", "role": "ending"}], "base": "caminar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not walk!", "foreign": "¡No camines!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "caminar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's walk!", "foreign": "¡Caminemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "caminar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 32, "verb": "cantar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Canta! To someone you would call usted: ¡Cante! Telling a friend not to takes no and another ending again: ¡No cantes!", "rows": [
+				{"english": "Sing!", "foreign": "¡Canta!", "mark": [{"text": "a", "role": "ending"}], "base": "cantar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sing! said politely", "foreign": "¡Cante!", "mark": [{"text": "e", "role": "ending"}], "base": "cantar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sing!", "foreign": "¡No cantes!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "cantar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sing!", "foreign": "¡Cantemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "cantar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 33, "verb": "jugar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Juega! To someone you would call usted: ¡Juegue! Telling a friend not to takes no and another ending again: ¡No juegues! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Play!", "foreign": "¡Juega!", "mark": [{"text": "a", "role": "ending"}], "base": "jugar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Play! said politely", "foreign": "¡Juegue!", "mark": [{"text": "e", "role": "ending"}], "base": "jugar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not play!", "foreign": "¡No juegues!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "jugar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's play!", "foreign": "¡Juguemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "jugar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 34, "verb": "pagar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Paga! To someone you would call usted: ¡Pague! Telling a friend not to takes no and another ending again: ¡No pagues! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Pay!", "foreign": "¡Paga!", "mark": [{"text": "a", "role": "ending"}], "base": "pagar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Pay! said politely", "foreign": "¡Pague!", "mark": [{"text": "e", "role": "ending"}], "base": "pagar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not pay!", "foreign": "¡No pagues!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "pagar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's pay!", "foreign": "¡Paguemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "pagar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 35, "verb": "vender", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Vende! To someone you would call usted: ¡Venda! Telling a friend not to takes no and another ending again: ¡No vendas!", "rows": [
+				{"english": "Sell!", "foreign": "¡Vende!", "mark": [{"text": "e", "role": "ending"}], "base": "vender", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sell! said politely", "foreign": "¡Venda!", "mark": [{"text": "a", "role": "ending"}], "base": "vender", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sell!", "foreign": "¡No vendas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "vender", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sell!", "foreign": "¡Vendamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "vender", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 36, "verb": "ayudar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Ayuda! To someone you would call usted: ¡Ayude! Telling a friend not to takes no and another ending again: ¡No ayudes!", "rows": [
+				{"english": "Help!", "foreign": "¡Ayuda!", "mark": [{"text": "a", "role": "ending"}], "base": "ayudar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Help! said politely", "foreign": "¡Ayude!", "mark": [{"text": "e", "role": "ending"}], "base": "ayudar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not help!", "foreign": "¡No ayudes!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "ayudar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's help!", "foreign": "¡Ayudemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "ayudar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 37, "verb": "cocinar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Cocina! To someone you would call usted: ¡Cocine! Telling a friend not to takes no and another ending again: ¡No cocines!", "rows": [
+				{"english": "Cook!", "foreign": "¡Cocina!", "mark": [{"text": "a", "role": "ending"}], "base": "cocinar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Cook! said politely", "foreign": "¡Cocine!", "mark": [{"text": "e", "role": "ending"}], "base": "cocinar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not cook!", "foreign": "¡No cocines!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "cocinar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's cook!", "foreign": "¡Cocinemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "cocinar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 38, "verb": "viajar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Viaja! To someone you would call usted: ¡Viaje! Telling a friend not to takes no and another ending again: ¡No viajes!", "rows": [
+				{"english": "Travel!", "foreign": "¡Viaja!", "mark": [{"text": "a", "role": "ending"}], "base": "viajar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Travel! said politely", "foreign": "¡Viaje!", "mark": [{"text": "e", "role": "ending"}], "base": "viajar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not travel!", "foreign": "¡No viajes!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "viajar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's travel!", "foreign": "¡Viajemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "viajar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 39, "verb": "preguntar", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Pregunta! To someone you would call usted: ¡Pregunte! Telling a friend not to takes no and another ending again: ¡No preguntes!", "rows": [
+				{"english": "Ask!", "foreign": "¡Pregunta!", "mark": [{"text": "a", "role": "ending"}], "base": "preguntar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Ask! said politely", "foreign": "¡Pregunte!", "mark": [{"text": "e", "role": "ending"}], "base": "preguntar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not ask!", "foreign": "¡No preguntes!", "mark": [{"text": "No", "role": "helper word"}, {"text": "es", "role": "ending"}], "from": 1, "base": "preguntar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask!", "foreign": "¡Preguntemos!", "mark": [{"text": "emos", "role": "ending"}], "base": "preguntar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 40, "verb": "responder", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Responde! To someone you would call usted: ¡Responda! Telling a friend not to takes no and another ending again: ¡No respondas!", "rows": [
+				{"english": "Answer!", "foreign": "¡Responde!", "mark": [{"text": "e", "role": "ending"}], "base": "responder", "features": {"command": "yes", "who": "you"}},
+				{"english": "Answer! said politely", "foreign": "¡Responda!", "mark": [{"text": "a", "role": "ending"}], "base": "responder", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not answer!", "foreign": "¡No respondas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "responder", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's answer!", "foreign": "¡Respondamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "responder", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 41, "verb": "perder", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Pierde! To someone you would call usted: ¡Pierda! Telling a friend not to takes no and another ending again: ¡No pierdas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Lose!", "foreign": "¡Pierde!", "mark": [{"text": "e", "role": "ending"}], "base": "perder", "features": {"command": "yes", "who": "you"}},
+				{"english": "Lose! said politely", "foreign": "¡Pierda!", "mark": [{"text": "a", "role": "ending"}], "base": "perder", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not lose!", "foreign": "¡No pierdas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "perder", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's lose!", "foreign": "¡Perdamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "perder", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 42, "verb": "recibir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Recibe! To someone you would call usted: ¡Reciba! Telling a friend not to takes no and another ending again: ¡No recibas!", "rows": [
+				{"english": "Receive!", "foreign": "¡Recibe!", "mark": [{"text": "e", "role": "ending"}], "base": "recibir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Receive! said politely", "foreign": "¡Reciba!", "mark": [{"text": "a", "role": "ending"}], "base": "recibir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not receive!", "foreign": "¡No recibas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "recibir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's receive!", "foreign": "¡Recibamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "recibir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 43, "verb": "pedir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Pide! To someone you would call usted: ¡Pida! Telling a friend not to takes no and another ending again: ¡No pidas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Order!", "foreign": "¡Pide!", "mark": [{"text": "e", "role": "ending"}], "base": "pedir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Order! said politely", "foreign": "¡Pida!", "mark": [{"text": "a", "role": "ending"}], "base": "pedir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not order!", "foreign": "¡No pidas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "pedir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's order!", "foreign": "¡Pidamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "pedir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 44, "verb": "seguir", "strategy": ["ending", "helper word"], "description": "To a friend: ¡Sigue! To someone you would call usted: ¡Siga! Telling a friend not to takes no and another ending again: ¡No sigas! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Follow!", "foreign": "¡Sigue!", "mark": [{"text": "e", "role": "ending"}], "base": "seguir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Follow! said politely", "foreign": "¡Siga!", "mark": [{"text": "a", "role": "ending"}], "base": "seguir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not follow!", "foreign": "¡No sigas!", "mark": [{"text": "No", "role": "helper word"}, {"text": "as", "role": "ending"}], "from": 1, "base": "seguir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's follow!", "foreign": "¡Sigamos!", "mark": [{"text": "amos", "role": "ending"}], "base": "seguir", "features": {"command": "yes", "who": "we"}}
+			]}
+	]
+}

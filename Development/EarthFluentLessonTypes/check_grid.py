@@ -18,12 +18,17 @@ TYPES = {"patterns": "Patterns", "sentence-building": "Sentence Building"}
 def check(path: Path, spine: dict) -> list[str]:
     grid, found = json.loads(path.read_text(encoding="utf-8")), []
     jobs = {job["code"]: job for job in spine["jobs"]}
-    if [cell["job"] for cell in grid["cells"]] != list(jobs):
+    made = grid.get("generated")  # lessons-<language>.json, from make_form_lessons.py: many lessons a job, each with its part
+    if made:
+        parts = [(cell["job"], cell.get("part")) for cell in grid["cells"]]
+        if len(set(parts)) != len(parts) or any(job not in jobs or not isinstance(part, int) or part < 2 for job, part in parts):
+            found.append("every generated lesson needs one of the spine's jobs and a part of its own, from 2 up")
+    elif [cell["job"] for cell in grid["cells"]] != list(jobs):
         found.append("the cells are not the spine's eighteen jobs, once each, in the spine's order")
     pilot = HERE / f"pilot-{grid['language']}.json"
     titles = {lesson["title"]: lesson["type"] for lesson in json.loads(pilot.read_text(encoding="utf-8"))["lessons"]} if pilot.exists() else {}
     for cell in grid["cells"]:
-        job = cell["job"]
+        job = cell["job"] + (f" part {cell.get('part')}" if made else "")
         if not cell.get("strategy") or set(cell["strategy"]) - set(spine["strategies"]):
             found.append(f"{job}: the strategy must be from the spine's six, found {cell.get('strategy')}")
         if not cell.get("description", "").strip():
@@ -31,8 +36,8 @@ def check(path: Path, spine: dict) -> list[str]:
         if len(cell["rows"]) != 4:
             found.append(f"{job}: expected four rows, found {len(cell['rows'])}")
         replaces = cell.get("replaces")
-        if replaces and titles.get(replaces) != jobs.get(job, {}).get("type"):
-            found.append(f"{job}: replaces \"{replaces}\", which is not a {TYPES.get(jobs.get(job, {}).get('type'), '?')} lesson in {pilot.name}")
+        if replaces and titles.get(replaces) != jobs.get(cell["job"], {}).get("type"):
+            found.append(f"{job}: replaces \"{replaces}\", which is not a {TYPES.get(jobs.get(cell['job'], {}).get('type'), '?')} lesson in {pilot.name}")
         for number, row in enumerate(cell["rows"], 1):
             if not row.get("english", "").strip() or not row.get("foreign", "").strip():
                 found.append(f"{job}, row {number}: an empty side")
@@ -53,7 +58,8 @@ def check(path: Path, spine: dict) -> list[str]:
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     spine = json.loads((HERE / "spine.json").read_text(encoding="utf-8"))
-    paths = [HERE / f"grid-{name}.json" for name in sys.argv[1:]] or sorted(HERE.glob("grid-*.json"))
+    named = [HERE / f"{kind}-{name}.json" for name in sys.argv[1:] for kind in ("grid", "lessons")]
+    paths = [path for path in named if path.exists()] or sorted(HERE.glob("grid-*.json")) + sorted(HERE.glob("lessons-*.json"))
     failed = 0
     for path in paths:
         found = check(path, spine)

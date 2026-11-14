@@ -1,0 +1,162 @@
+{
+	"about": "How Spanish verb forms are read out of the Wiktionary dump and turned into lessons. make_forms.py uses `slots`; make_form_lessons.py uses the rest. Everything Spanish about the conjugation system lives in this one file: another language is another file like it. Written by Claude with Ben on 13 November 2026.",
+	"language": "spanish",
+	"translation_language": "es",
+	"dump": "kaikki.org-dictionary-Spanish.jsonl",
+	"dictionary_form": {"form": "infinitive"},
+	"skip_tags": ["combined-form", "vos-form", "imperfect-se", "table-tags", "inflection-template"],
+	"slots": [
+		{"features": {"form": "infinitive"}, "tags": ["infinitive"]},
+		{"features": {"form": "going"}, "tags": ["gerund"]},
+		{"features": {"form": "done"}, "tags": ["masculine", "participle", "past", "singular"]},
+
+		{"features": {"who": "i", "when": "now"}, "tags": ["first-person", "indicative", "present", "singular"]},
+		{"features": {"who": "you", "when": "now"}, "tags": ["second-person", "indicative", "present", "singular"]},
+		{"features": {"who": "she", "when": "now"}, "tags": ["third-person", "indicative", "present", "singular"]},
+		{"features": {"who": "we", "when": "now"}, "tags": ["first-person", "indicative", "present", "plural"]},
+		{"features": {"who": "you-all", "when": "now"}, "tags": ["second-person", "indicative", "present", "plural"]},
+		{"features": {"who": "they", "when": "now"}, "tags": ["third-person", "indicative", "present", "plural"]},
+
+		{"features": {"who": "i", "when": "before"}, "tags": ["first-person", "indicative", "preterite", "singular"]},
+		{"features": {"who": "you", "when": "before"}, "tags": ["second-person", "indicative", "preterite", "singular"]},
+		{"features": {"who": "she", "when": "before"}, "tags": ["third-person", "indicative", "preterite", "singular"]},
+		{"features": {"who": "we", "when": "before"}, "tags": ["first-person", "indicative", "preterite", "plural"]},
+		{"features": {"who": "you-all", "when": "before"}, "tags": ["second-person", "indicative", "preterite", "plural"]},
+		{"features": {"who": "they", "when": "before"}, "tags": ["third-person", "indicative", "preterite", "plural"]},
+
+		{"features": {"who": "i", "when": "before", "going": "yes"}, "tags": ["first-person", "indicative", "imperfect", "singular"]},
+		{"features": {"who": "you", "when": "before", "going": "yes"}, "tags": ["second-person", "indicative", "imperfect", "singular"]},
+		{"features": {"who": "she", "when": "before", "going": "yes"}, "tags": ["third-person", "indicative", "imperfect", "singular"]},
+		{"features": {"who": "we", "when": "before", "going": "yes"}, "tags": ["first-person", "indicative", "imperfect", "plural"]},
+		{"features": {"who": "you-all", "when": "before", "going": "yes"}, "tags": ["second-person", "indicative", "imperfect", "plural"]},
+		{"features": {"who": "they", "when": "before", "going": "yes"}, "tags": ["third-person", "indicative", "imperfect", "plural"]},
+
+		{"features": {"who": "i", "when": "later"}, "tags": ["first-person", "indicative", "future", "singular"]},
+		{"features": {"who": "you", "when": "later"}, "tags": ["second-person", "indicative", "future", "singular"]},
+		{"features": {"who": "she", "when": "later"}, "tags": ["third-person", "indicative", "future", "singular"]},
+		{"features": {"who": "we", "when": "later"}, "tags": ["first-person", "indicative", "future", "plural"]},
+		{"features": {"who": "you-all", "when": "later"}, "tags": ["second-person", "indicative", "future", "plural"]},
+		{"features": {"who": "they", "when": "later"}, "tags": ["third-person", "indicative", "future", "plural"]},
+
+		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "second-person", "singular"], "without": ["negative", "formal"]},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "tags": ["formal", "imperative", "singular"], "without": ["negative"]},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "negative", "second-person", "singular"], "without": ["formal"]},
+		{"features": {"command": "yes", "who": "we"}, "tags": ["first-person", "imperative", "plural"], "without": ["negative"]}
+	],
+
+	"endings": {
+		"about": "The regular endings, by the verb's last two letters, longest first. A form that ends in one has that ending lit on the board, whatever its stem did (pienso lights o). A form that ends in none of them is one of the verbs that go their own way.",
+		"now":    {"ar": ["o", "as", "a", "amos"], "er": ["o", "es", "e", "emos"], "ir": ["o", "es", "e", "imos"]},
+		"before": {"ar": ["é", "aste", "ó", "amos"], "er": ["í", "iste", "ió", "imos"], "ir": ["í", "iste", "ió", "imos"]},
+		"later":  {"ar": ["aré", "é"], "er": ["eré", "é"], "ir": ["iré", "é"]},
+		"going":  {"ar": ["ando"], "er": ["iendo", "yendo"], "ir": ["iendo", "yendo"]},
+		"command": {"ar": ["a", "e", "es", "emos"], "er": ["e", "a", "as", "amos"], "ir": ["e", "a", "as", "amos"]}
+	},
+
+	"middle": " Watch the middle of the word too: in some of these it changes.",
+
+	"recipes": {
+		"who": {
+			"strategy": ["ending"],
+			"description": "The ending says who is doing it: {1}, {2}, {3}, {4}. Spot what changes.",
+			"own_way": " {Base} is one of the verbs that go their own way, so learn these four as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now"},
+				{"english": "You {base}", "features": {"who": "you", "when": "now"}, "endings": "now"},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}, "endings": "now"},
+				{"english": "We {base}", "features": {"who": "we", "when": "now"}, "endings": "now"}
+			]
+		},
+		"when": {
+			"strategy": ["ending"],
+			"description": "The ending also says when: {1} is now, {2} is before, and {3} is later.",
+			"own_way": " {Base} goes its own way here, so learn these as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now"},
+				{"english": "I {past}", "features": {"who": "i", "when": "before"}, "endings": "before", "from": 1},
+				{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "endings": "later", "from": 1},
+				{"english": "She {past}", "features": {"who": "she", "when": "before"}, "endings": "before"}
+			]
+		},
+		"going": {
+			"strategy": ["helper word", "ending"],
+			"skip": "stative",
+			"description": "For something going on right now, a form of estar goes in front and the verb ends in ando or iendo: {2}.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}},
+				{"english": "I am {ing}", "features": {"form": "going"}, "endings": "going", "from": 1,
+					"helper": {"base": "estar", "features": {"who": "i", "when": "now"}}, "says": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}},
+				{"english": "She is {ing}", "features": {"form": "going"}, "endings": "going", "from": 3,
+					"helper": {"base": "estar", "features": {"who": "she", "when": "now"}}, "says": {"who": "she", "when": "now", "going": "yes"}}
+			]
+		},
+		"command": {
+			"strategy": ["ending", "helper word"],
+			"skip": "stative",
+			"description": "To a friend: {1} To someone you would call usted: {2} Telling a friend not to takes no and another ending again: {3}",
+			"rows": [
+				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "endings": "command", "wrap": "¡{}!"},
+				{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "endings": "command", "wrap": "¡{}!"},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "endings": "command", "wrap": "¡No {}!", "word": "No", "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "endings": "command", "wrap": "¡{}!"}
+			]
+		}
+	},
+
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as 'I am knowing' or 'Know!', and are left out of those two jobs. Left out on purpose: ser, estar, and haber, which need lessons of their own; poder and deber, which are the want-can-must job; leer and poner, whose English is the same now and before.",
+		"list": [
+			["tener", "have", "has", "had", "having", "stative"],
+			["hacer", "make", "makes", "made", "making"],
+			["ir", "go", "goes", "went", "going"],
+			["decir", "say", "says", "said", "saying"],
+			["ver", "see", "sees", "saw", "seeing", "stative"],
+			["dar", "give", "gives", "gave", "giving"],
+			["saber", "know", "knows", "knew", "knowing", "stative"],
+			["querer", "want", "wants", "wanted", "wanting", "stative"],
+			["venir", "come", "comes", "came", "coming"],
+			["comer", "eat", "eats", "ate", "eating"],
+			["vivir", "live", "lives", "lived", "living"],
+			["trabajar", "work", "works", "worked", "working"],
+			["pensar", "think", "thinks", "thought", "thinking"],
+			["tomar", "take", "takes", "took", "taking"],
+			["escribir", "write", "writes", "wrote", "writing"],
+			["comprar", "buy", "buys", "bought", "buying"],
+			["beber", "drink", "drinks", "drank", "drinking"],
+			["dormir", "sleep", "sleeps", "slept", "sleeping"],
+			["salir", "go out", "goes out", "went out", "going out"],
+			["volver", "return", "returns", "returned", "returning"],
+			["llegar", "arrive", "arrives", "arrived", "arriving"],
+			["mirar", "look", "looks", "looked", "looking"],
+			["esperar", "wait", "waits", "waited", "waiting"],
+			["buscar", "search", "searches", "searched", "searching"],
+			["encontrar", "find", "finds", "found", "finding"],
+			["llamar", "call", "calls", "called", "calling"],
+			["empezar", "begin", "begins", "began", "beginning"],
+			["terminar", "finish", "finishes", "finished", "finishing"],
+			["abrir", "open", "opens", "opened", "opening"],
+			["cerrar", "close", "closes", "closed", "closing"],
+			["aprender", "learn", "learns", "learned", "learning"],
+			["estudiar", "study", "studies", "studied", "studying"],
+			["entender", "understand", "understands", "understood", "understanding", "stative"],
+			["recordar", "remember", "remembers", "remembered", "remembering", "stative"],
+			["correr", "run", "runs", "ran", "running"],
+			["caminar", "walk", "walks", "walked", "walking"],
+			["cantar", "sing", "sings", "sang", "singing"],
+			["jugar", "play", "plays", "played", "playing"],
+			["pagar", "pay", "pays", "paid", "paying"],
+			["vender", "sell", "sells", "sold", "selling"],
+			["ayudar", "help", "helps", "helped", "helping"],
+			["cocinar", "cook", "cooks", "cooked", "cooking"],
+			["viajar", "travel", "travels", "travelled", "travelling"],
+			["preguntar", "ask", "asks", "asked", "asking"],
+			["responder", "answer", "answers", "answered", "answering"],
+			["perder", "lose", "loses", "lost", "losing"],
+			["recibir", "receive", "receives", "received", "receiving"],
+			["pedir", "order", "orders", "ordered", "ordering"],
+			["seguir", "follow", "follows", "followed", "following"],
+			["sentir", "feel", "feels", "felt", "feeling", "stative"]
+		]
+	}
+}
