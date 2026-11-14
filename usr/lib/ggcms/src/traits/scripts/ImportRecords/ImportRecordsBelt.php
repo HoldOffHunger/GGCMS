@@ -124,6 +124,7 @@
 			$plan = $args['plan'];
 			$apply = $args['apply'];
 			$limit = $args['limit'];
+			$keepcache = !empty($args['keepcache']);
 
 			$this->import_registry = [];
 
@@ -177,11 +178,32 @@
 				}
 			}
 
-			if($apply && $wrote) {
-				$this->import_page_cache_report = $this->FlushPageCacheAndReport();
-			}
+			$this->import_page_cache_report = $this->ImportPageCacheReport(['apply'=>$apply, 'wrote'=>$wrote, 'keepcache'=>$keepcache]);
 
 			return $results;
+		}
+
+			/*
+				What an import does to the site's cached pages, and says it did.
+
+				An import that wrote clears every cached page of the site,
+				because an entry's change can show on any page that lists it.
+				On a site of 170,000 pages that is a cold cache for ten
+				corrected words, and the crawlers find it within the minute.
+				So the caller may keep the cache, and then owes the changed
+				pages their re-rendering: warm_page_cache.php --url= does one.
+			*/
+
+		public function ImportPageCacheReport($args) {
+			if(empty($args['apply']) || empty($args['wrote'])) {
+				return '';
+			}
+
+			if(!empty($args['keepcache'])) {
+				return '<br>&bull; Page cache: left as it was, as asked.  The changed pages still show what they showed: re-render each with warm_page_cache.php --url=.';
+			}
+
+			return $this->FlushPageCacheAndReport();
 		}
 
 			/*

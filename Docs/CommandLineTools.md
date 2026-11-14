@@ -830,6 +830,7 @@ again.
 | `--only=` | every row | Print only these outcomes, comma-separated: `--only=Error,Skipped` |
 | `--report=` | none | Also write the whole report to this file |
 | `--apply` | off | Actually write, then flush the site's page cache for both hostnames |
+| `--keep-cache` | off | With `--apply`: leave the page cache alone. For a small change to a large site, where a cold cache costs more than a few stale pages; re-render each changed page afterwards with `warm_page_cache.php --url=` |
 
 It exits 1 when the report holds an error, so a caller can tell.
 

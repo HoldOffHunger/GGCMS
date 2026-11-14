@@ -21,6 +21,7 @@
 		public $images;
 		public $table;
 		public $limit;
+		public $keep_cache;
 		public $only;
 		public $report_file;
 
@@ -80,6 +81,7 @@
 		public function setImportOptions() {
 			$this->user = $this->option(['name'=>'user', 'default'=>'']);
 			$this->apply = $this->flag(['name'=>'apply']);
+			$this->keep_cache = $this->flag(['name'=>'keep-cache']);
 			$this->path = $this->option(['name'=>'path', 'default'=>'/']);
 			$this->file = $this->option(['name'=>'file', 'default'=>'']);
 			$this->images = $this->option(['name'=>'images', 'default'=>'']);
@@ -153,6 +155,7 @@
 				'post'=>[
 					'ImportTable'=>$this->table,
 					'ImportLimit'=>(string)$this->limit,
+					'ImportKeepCache'=>$this->keep_cache ? '1' : '',
 				],
 			]);
 

@@ -190,6 +190,7 @@
 				'table'=>(string)$this->Param('ImportTable'),
 				'apply'=>$args['apply'],
 				'limit'=>(int)$this->Param('ImportLimit'),
+				'keepcache'=>(string)$this->Param('ImportKeepCache') === '1',	# import_entries.php --keep-cache; the page's own form never sends it
 			]);
 
 			if($args['apply'] && strlen((string)$this->Param('ImportToken'))) {

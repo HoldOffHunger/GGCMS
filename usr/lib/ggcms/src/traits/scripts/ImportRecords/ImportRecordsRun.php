@@ -99,7 +99,7 @@
 				},
 			]);
 
-			$results = $this->RunImportGroups(['plan'=>$plan, 'apply'=>$apply, 'limit'=>$limit]);
+			$results = $this->RunImportGroups(['plan'=>$plan, 'apply'=>$apply, 'limit'=>$limit, 'keepcache'=>!empty($args['keepcache'])]);
 
 			foreach($plan['rows'] as $row_index => $row) {
 				if(count($row['errors'])) {

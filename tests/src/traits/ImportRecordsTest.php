@@ -372,6 +372,19 @@
 			$this->assertSame(['en', ''], $post['tag_Language']);
 		}
 
+		public function testImportPageCacheReport() {
+			$subject = $this->subject();
+
+				// Nothing written, nothing to say: a preview, or an import whose every row was skipped
+			$this->assertSame('', $subject->ImportPageCacheReport(['apply'=>FALSE, 'wrote'=>FALSE, 'keepcache'=>FALSE]));
+			$this->assertSame('', $subject->ImportPageCacheReport(['apply'=>TRUE, 'wrote'=>FALSE, 'keepcache'=>TRUE]));
+
+				// Asked to keep the cache, it flushes nothing and says what is now owed
+			$kept = $subject->ImportPageCacheReport(['apply'=>TRUE, 'wrote'=>TRUE, 'keepcache'=>TRUE]);
+			$this->assertStringContainsString('left as it was', $kept);
+			$this->assertStringContainsString('warm_page_cache.php --url=', $kept);
+		}
+
 		public function testImportResolvedValue() {
 			$subject = $this->subject();
 			$subject->import_registry = ['lesson-1'=>['id'=>76006, 'path'=>['spanish', 'patterns', 'i-speak']], 'unmade'=>['id'=>0, 'path'=>NULL]];
