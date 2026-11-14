@@ -412,11 +412,11 @@
 				{"english": "I will sleep", "foreign": "je dormirai", "mark": [{"text": "irai", "role": "ending"}], "from": 1, "base": "dormir", "features": {"who": "i", "when": "later"}},
 				{"english": "She slept", "foreign": "elle a dormi", "mark": [{"text": "a", "role": "helper word"}, {"text": "i", "role": "ending"}], "base": "dormir", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 20, "verb": "sortir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai sorti. For later, the ending alone says so: je sortirai. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 20, "verb": "sortir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: je suis sorti. For later, the ending alone says so: je sortirai. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I go out", "foreign": "je sors", "mark": [{"text": "s", "role": "ending"}], "base": "sortir", "features": {"who": "i", "when": "now"}},
-				{"english": "I went out", "foreign": "j'ai sorti", "mark": [{"text": "ai", "role": "helper word"}, {"text": "i", "role": "ending"}], "from": 1, "base": "sortir", "features": {"who": "i", "when": "before"}},
+				{"english": "I went out", "foreign": "je suis sorti", "mark": [{"text": "suis", "role": "helper word"}, {"text": "i", "role": "ending"}], "from": 1, "base": "sortir", "features": {"who": "i", "when": "before"}},
 				{"english": "I will go out", "foreign": "je sortirai", "mark": [{"text": "irai", "role": "ending"}], "from": 1, "base": "sortir", "features": {"who": "i", "when": "later"}},
-				{"english": "She went out", "foreign": "elle a sorti", "mark": [{"text": "a", "role": "helper word"}, {"text": "i", "role": "ending"}], "base": "sortir", "features": {"who": "she", "when": "before"}}
+				{"english": "She went out", "foreign": "elle est sortie", "mark": [{"text": "est", "role": "helper word"}, {"text": "ie", "role": "ending"}], "base": "sortir", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 21, "verb": "revenir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: je suis revenu. For later, the ending alone says so: je reviendrai. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I come back", "foreign": "je reviens", "mark": [{"text": "s", "role": "ending"}], "base": "revenir", "features": {"who": "i", "when": "now"}},

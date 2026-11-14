@@ -565,7 +565,7 @@
 			{"form": "ont aperçu", "helper": "ont", "part": "aperçu", "features": {"who": "they", "when": "before"}}
 		],
 		"apparaître": [
-			{"form": "avoir", "features": {"form": "helper"}},
+			{"form": "être", "features": {"form": "helper"}},
 			{"form": "apparaître", "features": {"form": "infinitive"}},
 			{"form": "apparu", "features": {"form": "done"}},
 			{"form": "apparais", "features": {"who": "i", "when": "now"}},
@@ -590,12 +590,12 @@
 			{"form": "apparaissez", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 			{"form": "apparais", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "n'apparais pas"},
 			{"form": "apparaissons", "features": {"command": "yes", "who": "we"}},
-			{"form": "ai apparu", "helper": "ai", "part": "apparu", "features": {"who": "i", "when": "before"}},
-			{"form": "as apparu", "helper": "as", "part": "apparu", "features": {"who": "you", "when": "before"}},
-			{"form": "a apparu", "helper": "a", "part": "apparu", "features": {"who": "she", "when": "before"}},
-			{"form": "avons apparu", "helper": "avons", "part": "apparu", "features": {"who": "we", "when": "before"}},
-			{"form": "avez apparu", "helper": "avez", "part": "apparu", "features": {"who": "you-all", "when": "before"}},
-			{"form": "ont apparu", "helper": "ont", "part": "apparu", "features": {"who": "they", "when": "before"}}
+			{"form": "suis apparu", "helper": "suis", "part": "apparu", "shown": "suis apparu(e)", "features": {"who": "i", "when": "before"}},
+			{"form": "es apparu", "helper": "es", "part": "apparu", "shown": "es apparu(e)", "features": {"who": "you", "when": "before"}},
+			{"form": "est apparue", "helper": "est", "part": "apparue", "shown": "est apparu(e)", "features": {"who": "she", "when": "before"}},
+			{"form": "sommes apparus", "helper": "sommes", "part": "apparus", "shown": "sommes apparu(e)s", "features": {"who": "we", "when": "before"}},
+			{"form": "êtes apparus", "helper": "êtes", "part": "apparus", "shown": "êtes apparu(e)(s)", "features": {"who": "you-all", "when": "before"}},
+			{"form": "sont apparus", "helper": "sont", "part": "apparus", "shown": "sont apparu(e)s", "features": {"who": "they", "when": "before"}}
 		],
 		"appartenir": [
 			{"form": "avoir", "features": {"form": "helper"}},
@@ -3073,7 +3073,7 @@
 			{"form": "ont discuté", "helper": "ont", "part": "discuté", "features": {"who": "they", "when": "before"}}
 		],
 		"disparaître": [
-			{"form": "avoir", "features": {"form": "helper"}},
+			{"form": "être", "features": {"form": "helper"}},
 			{"form": "disparaître", "features": {"form": "infinitive"}},
 			{"form": "disparu", "features": {"form": "done"}},
 			{"form": "disparais", "features": {"who": "i", "when": "now"}},
@@ -3098,12 +3098,12 @@
 			{"form": "disparaissez", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 			{"form": "disparais", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "ne disparais pas"},
 			{"form": "disparaissons", "features": {"command": "yes", "who": "we"}},
-			{"form": "ai disparu", "helper": "ai", "part": "disparu", "features": {"who": "i", "when": "before"}},
-			{"form": "as disparu", "helper": "as", "part": "disparu", "features": {"who": "you", "when": "before"}},
-			{"form": "a disparu", "helper": "a", "part": "disparu", "features": {"who": "she", "when": "before"}},
-			{"form": "avons disparu", "helper": "avons", "part": "disparu", "features": {"who": "we", "when": "before"}},
-			{"form": "avez disparu", "helper": "avez", "part": "disparu", "features": {"who": "you-all", "when": "before"}},
-			{"form": "ont disparu", "helper": "ont", "part": "disparu", "features": {"who": "they", "when": "before"}}
+			{"form": "suis disparu", "helper": "suis", "part": "disparu", "shown": "suis disparu(e)", "features": {"who": "i", "when": "before"}},
+			{"form": "es disparu", "helper": "es", "part": "disparu", "shown": "es disparu(e)", "features": {"who": "you", "when": "before"}},
+			{"form": "est disparue", "helper": "est", "part": "disparue", "shown": "est disparu(e)", "features": {"who": "she", "when": "before"}},
+			{"form": "sommes disparus", "helper": "sommes", "part": "disparus", "shown": "sommes disparu(e)s", "features": {"who": "we", "when": "before"}},
+			{"form": "êtes disparus", "helper": "êtes", "part": "disparus", "shown": "êtes disparu(e)(s)", "features": {"who": "you-all", "when": "before"}},
+			{"form": "sont disparus", "helper": "sont", "part": "disparus", "shown": "sont disparu(e)s", "features": {"who": "they", "when": "before"}}
 		],
 		"distinguer": [
 			{"form": "avoir", "features": {"form": "helper"}},
@@ -6406,7 +6406,7 @@
 			{"form": "ont modifié", "helper": "ont", "part": "modifié", "features": {"who": "they", "when": "before"}}
 		],
 		"monter": [
-			{"form": "avoir", "features": {"form": "helper"}},
+			{"form": "être", "features": {"form": "helper"}},
 			{"form": "monter", "features": {"form": "infinitive"}},
 			{"form": "monté", "features": {"form": "done"}},
 			{"form": "monte", "features": {"who": "i", "when": "now"}},
@@ -6431,12 +6431,12 @@
 			{"form": "montez", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 			{"form": "monte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "ne monte pas"},
 			{"form": "montons", "features": {"command": "yes", "who": "we"}},
-			{"form": "ai monté", "helper": "ai", "part": "monté", "features": {"who": "i", "when": "before"}},
-			{"form": "as monté", "helper": "as", "part": "monté", "features": {"who": "you", "when": "before"}},
-			{"form": "a monté", "helper": "a", "part": "monté", "features": {"who": "she", "when": "before"}},
-			{"form": "avons monté", "helper": "avons", "part": "monté", "features": {"who": "we", "when": "before"}},
-			{"form": "avez monté", "helper": "avez", "part": "monté", "features": {"who": "you-all", "when": "before"}},
-			{"form": "ont monté", "helper": "ont", "part": "monté", "features": {"who": "they", "when": "before"}}
+			{"form": "suis monté", "helper": "suis", "part": "monté", "shown": "suis monté(e)", "features": {"who": "i", "when": "before"}},
+			{"form": "es monté", "helper": "es", "part": "monté", "shown": "es monté(e)", "features": {"who": "you", "when": "before"}},
+			{"form": "est montée", "helper": "est", "part": "montée", "shown": "est monté(e)", "features": {"who": "she", "when": "before"}},
+			{"form": "sommes montés", "helper": "sommes", "part": "montés", "shown": "sommes monté(e)s", "features": {"who": "we", "when": "before"}},
+			{"form": "êtes montés", "helper": "êtes", "part": "montés", "shown": "êtes monté(e)(s)", "features": {"who": "you-all", "when": "before"}},
+			{"form": "sont montés", "helper": "sont", "part": "montés", "shown": "sont monté(e)s", "features": {"who": "they", "when": "before"}}
 		],
 		"montrer": [
 			{"form": "avoir", "features": {"form": "helper"}},
@@ -7099,7 +7099,7 @@
 			{"form": "ont participé", "helper": "ont", "part": "participé", "features": {"who": "they", "when": "before"}}
 		],
 		"partir": [
-			{"form": "avoir", "features": {"form": "helper"}},
+			{"form": "être", "features": {"form": "helper"}},
 			{"form": "partir", "features": {"form": "infinitive"}},
 			{"form": "parti", "features": {"form": "done"}},
 			{"form": "pars", "features": {"who": "i", "when": "now"}},
@@ -7124,12 +7124,12 @@
 			{"form": "partez", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 			{"form": "pars", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "ne pars pas"},
 			{"form": "partons", "features": {"command": "yes", "who": "we"}},
-			{"form": "ai parti", "helper": "ai", "part": "parti", "features": {"who": "i", "when": "before"}},
-			{"form": "as parti", "helper": "as", "part": "parti", "features": {"who": "you", "when": "before"}},
-			{"form": "a parti", "helper": "a", "part": "parti", "features": {"who": "she", "when": "before"}},
-			{"form": "avons parti", "helper": "avons", "part": "parti", "features": {"who": "we", "when": "before"}},
-			{"form": "avez parti", "helper": "avez", "part": "parti", "features": {"who": "you-all", "when": "before"}},
-			{"form": "ont parti", "helper": "ont", "part": "parti", "features": {"who": "they", "when": "before"}}
+			{"form": "suis parti", "helper": "suis", "part": "parti", "shown": "suis parti(e)", "features": {"who": "i", "when": "before"}},
+			{"form": "es parti", "helper": "es", "part": "parti", "shown": "es parti(e)", "features": {"who": "you", "when": "before"}},
+			{"form": "est partie", "helper": "est", "part": "partie", "shown": "est parti(e)", "features": {"who": "she", "when": "before"}},
+			{"form": "sommes partis", "helper": "sommes", "part": "partis", "shown": "sommes parti(e)s", "features": {"who": "we", "when": "before"}},
+			{"form": "êtes partis", "helper": "êtes", "part": "partis", "shown": "êtes parti(e)(s)", "features": {"who": "you-all", "when": "before"}},
+			{"form": "sont partis", "helper": "sont", "part": "partis", "shown": "sont parti(e)s", "features": {"who": "they", "when": "before"}}
 		],
 		"payer": [
 			{"form": "avoir", "features": {"form": "helper"}},
@@ -9871,7 +9871,7 @@
 			{"form": "ont signifié", "helper": "ont", "part": "signifié", "features": {"who": "they", "when": "before"}}
 		],
 		"sortir": [
-			{"form": "avoir", "features": {"form": "helper"}},
+			{"form": "être", "features": {"form": "helper"}},
 			{"form": "sortir", "features": {"form": "infinitive"}},
 			{"form": "sorti", "features": {"form": "done"}},
 			{"form": "sors", "features": {"who": "i", "when": "now"}},
@@ -9896,12 +9896,12 @@
 			{"form": "sortez", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 			{"form": "sors", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "ne sors pas"},
 			{"form": "sortons", "features": {"command": "yes", "who": "we"}},
-			{"form": "ai sorti", "helper": "ai", "part": "sorti", "features": {"who": "i", "when": "before"}},
-			{"form": "as sorti", "helper": "as", "part": "sorti", "features": {"who": "you", "when": "before"}},
-			{"form": "a sorti", "helper": "a", "part": "sorti", "features": {"who": "she", "when": "before"}},
-			{"form": "avons sorti", "helper": "avons", "part": "sorti", "features": {"who": "we", "when": "before"}},
-			{"form": "avez sorti", "helper": "avez", "part": "sorti", "features": {"who": "you-all", "when": "before"}},
-			{"form": "ont sorti", "helper": "ont", "part": "sorti", "features": {"who": "they", "when": "before"}}
+			{"form": "suis sorti", "helper": "suis", "part": "sorti", "shown": "suis sorti(e)", "features": {"who": "i", "when": "before"}},
+			{"form": "es sorti", "helper": "es", "part": "sorti", "shown": "es sorti(e)", "features": {"who": "you", "when": "before"}},
+			{"form": "est sortie", "helper": "est", "part": "sortie", "shown": "est sorti(e)", "features": {"who": "she", "when": "before"}},
+			{"form": "sommes sortis", "helper": "sommes", "part": "sortis", "shown": "sommes sorti(e)s", "features": {"who": "we", "when": "before"}},
+			{"form": "êtes sortis", "helper": "êtes", "part": "sortis", "shown": "êtes sorti(e)(s)", "features": {"who": "you-all", "when": "before"}},
+			{"form": "sont sortis", "helper": "sont", "part": "sortis", "shown": "sont sorti(e)s", "features": {"who": "they", "when": "before"}}
 		],
 		"souffrir": [
 			{"form": "avoir", "features": {"form": "helper"}},

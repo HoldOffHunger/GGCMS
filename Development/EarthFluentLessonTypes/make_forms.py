@@ -58,7 +58,12 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
             if "helper_tags" in recipes:  # which helper the verb takes for its two-word forms: "avoir + past participle"
                 named = [form["form"] for form in entry.get("forms", []) if set(recipes["helper_tags"]) <= set(form.get("tags", []))]
                 if named:
-                    found.append({"form": named[0].split(" + ")[0], "features": {"form": "helper"}})
+                    # A verb of motion lists both, "avoir" and "être + past participle": avoir when it has an object (j'ai
+                    # sorti la poubelle), être when it is the going itself (je suis sorti), which is the sense a course
+                    # teaches first. So a helper named in recipes["helper_prefers"] wins wherever the verb can take it.
+                    helpers = [text.split(" + ")[0] for text in named]
+                    chosen = next((helper for helper in recipes.get("helper_prefers", []) if helper in helpers), helpers[0])
+                    found.append({"form": chosen, "features": {"form": "helper"}})
             for slot in recipes["slots"]:
                 if "compound" in slot:
                     continue  # built below, once the helper verbs are read too
