@@ -8,6 +8,7 @@
 	"helper_tags": ["infinitive", "multiword-construction"],
 	"helper_verbs": ["avoir", "être"],
 	"helper_prefers": ["être"],
+	"helper_of": {"disparaître": "avoir"},
 	"elide": {
 		"about": "The little words that lose their vowel, and the letters they lose it before. H is here because nearly every French h is silent; the few verbs with a sounded one (haïr) are not in the list below.",
 		"words": {"je ": "j'", "ne ": "n'", "Ne ": "N'"},

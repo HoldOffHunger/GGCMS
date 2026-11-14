@@ -60,9 +60,10 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                 if named:
                     # A verb of motion lists both, "avoir" and "être + past participle": avoir when it has an object (j'ai
                     # sorti la poubelle), être when it is the going itself (je suis sorti), which is the sense a course
-                    # teaches first. So a helper named in recipes["helper_prefers"] wins wherever the verb can take it.
+                    # teaches first. So a helper named in recipes["helper_prefers"] wins wherever the verb can take it, unless
+                    # recipes["helper_of"] names the verb: disparaître can take être, and nobody now says il est disparu.
                     helpers = [text.split(" + ")[0] for text in named]
-                    chosen = next((helper for helper in recipes.get("helper_prefers", []) if helper in helpers), helpers[0])
+                    chosen = recipes.get("helper_of", {}).get(word)                         or next((helper for helper in recipes.get("helper_prefers", []) if helper in helpers), helpers[0])
                     found.append({"form": chosen, "features": {"form": "helper"}})
             for slot in recipes["slots"]:
                 if "compound" in slot:

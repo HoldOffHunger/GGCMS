@@ -3073,7 +3073,7 @@
 			{"form": "ont discuté", "helper": "ont", "part": "discuté", "features": {"who": "they", "when": "before"}}
 		],
 		"disparaître": [
-			{"form": "être", "features": {"form": "helper"}},
+			{"form": "avoir", "features": {"form": "helper"}},
 			{"form": "disparaître", "features": {"form": "infinitive"}},
 			{"form": "disparu", "features": {"form": "done"}},
 			{"form": "disparais", "features": {"who": "i", "when": "now"}},
@@ -3098,12 +3098,12 @@
 			{"form": "disparaissez", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 			{"form": "disparais", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "ne disparais pas"},
 			{"form": "disparaissons", "features": {"command": "yes", "who": "we"}},
-			{"form": "suis disparu", "helper": "suis", "part": "disparu", "shown": "suis disparu(e)", "features": {"who": "i", "when": "before"}},
-			{"form": "es disparu", "helper": "es", "part": "disparu", "shown": "es disparu(e)", "features": {"who": "you", "when": "before"}},
-			{"form": "est disparue", "helper": "est", "part": "disparue", "shown": "est disparu(e)", "features": {"who": "she", "when": "before"}},
-			{"form": "sommes disparus", "helper": "sommes", "part": "disparus", "shown": "sommes disparu(e)s", "features": {"who": "we", "when": "before"}},
-			{"form": "êtes disparus", "helper": "êtes", "part": "disparus", "shown": "êtes disparu(e)(s)", "features": {"who": "you-all", "when": "before"}},
-			{"form": "sont disparus", "helper": "sont", "part": "disparus", "shown": "sont disparu(e)s", "features": {"who": "they", "when": "before"}}
+			{"form": "ai disparu", "helper": "ai", "part": "disparu", "features": {"who": "i", "when": "before"}},
+			{"form": "as disparu", "helper": "as", "part": "disparu", "features": {"who": "you", "when": "before"}},
+			{"form": "a disparu", "helper": "a", "part": "disparu", "features": {"who": "she", "when": "before"}},
+			{"form": "avons disparu", "helper": "avons", "part": "disparu", "features": {"who": "we", "when": "before"}},
+			{"form": "avez disparu", "helper": "avez", "part": "disparu", "features": {"who": "you-all", "when": "before"}},
+			{"form": "ont disparu", "helper": "ont", "part": "disparu", "features": {"who": "they", "when": "before"}}
 		],
 		"distinguer": [
 			{"form": "avoir", "features": {"form": "helper"}},
