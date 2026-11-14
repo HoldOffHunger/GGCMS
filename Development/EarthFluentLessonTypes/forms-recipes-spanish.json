@@ -96,10 +96,10 @@
 			"skip": "stative",
 			"description": "To a friend: {1} To someone you would call usted: {2} Telling a friend not to takes no and another ending again: {3}",
 			"rows": [
-				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "endings": "command", "wrap": "¡{}!"},
-				{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "endings": "command", "wrap": "¡{}!"},
-				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "endings": "command", "wrap": "¡No {}!", "word": "No", "from": 1},
-				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "endings": "command", "wrap": "¡{}!"}
+				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "endings": "command", "wrap": "¡{}!", "capital": true},
+				{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "endings": "command", "wrap": "¡{}!", "capital": true},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "endings": "command", "wrap": "¡No {}!", "words": ["No"], "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "endings": "command", "wrap": "¡{}!", "capital": true}
 			]
 		}
 	},

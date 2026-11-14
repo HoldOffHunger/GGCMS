@@ -6,14 +6,23 @@ form the course cares about, named by the spine's features (who, when, going, co
 The verbs are the ones in forms-recipes-<language>.json, plus any in --verbs (the verbs the course already teaches).
 forms-recipes-<language>.json says which of the dump's tags make which features: that file is the only place the
 language's grammar is spelled out. A slot the dump has no form for is left out and counted, never guessed.
+A "compound" slot is two words: the form of the verb's helper (avoir or être, as the dump says) and one of its own.
 
 The dump is kaikki.org's extract of the English Wiktionary. Nothing here calls a model.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+
+
+def elide(recipes: dict, text: str) -> str:
+    """je ai is j'ai: a recipe file names the little words that lose their vowel, and the letters they lose it before"""
+    for whole, short in recipes.get("elide", {}).get("words", {}).items():
+        text = re.sub(re.escape(whole) + "(?=[" + recipes["elide"]["before"] + "])", short, text)
+    return text
 
 
 def table(entry: dict, skip: set) -> list:
@@ -46,24 +55,53 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
             if not forms:
                 continue  # a form-of entry, or an entry with no table: the real one comes later in the dump
             found = []
+            if "helper_tags" in recipes:  # which helper the verb takes for its two-word forms: "avoir + past participle"
+                named = [form["form"] for form in entry.get("forms", []) if set(recipes["helper_tags"]) <= set(form.get("tags", []))]
+                if named:
+                    found.append({"form": named[0].split(" + ")[0], "features": {"form": "helper"}})
             for slot in recipes["slots"]:
+                if "compound" in slot:
+                    continue  # built below, once the helper verbs are read too
                 need, without = set(slot["tags"]), set(slot.get("without", []))
                 match = [text for text, tags in forms if need <= tags and not tags & without]
                 if match:
                     found.append({"form": match[0], "features": slot["features"]})
                     if "shown" in slot:  # the form as a table shows it: the dictionary lists tengas, and nobody says it without its no
-                        found[-1]["shown"] = slot["shown"].format(match[0])
+                        found[-1]["shown"] = elide(recipes, slot["shown"].format(match[0]))
                 else:
                     missing.append((word, slot["features"]))
             verbs[word] = found
+    for word, found in verbs.items():
+        for slot in recipes["slots"]:
+            if "compound" in slot:
+                made = compound(verbs, found, slot["compound"])
+                if made:
+                    found.append({**made, "features": slot["features"]})
+                else:
+                    missing.append((word, slot["features"]))
     return verbs, missing
+
+
+def compound(verbs: dict, found: list, how: dict) -> dict | None:
+    """A two-word form: the helper verb's own form, then the verb's part. ai parlé; suis allé, which a woman writes allée."""
+    def of(forms: list, features: dict) -> str:
+        return next((form["form"] for form in forms if form["features"] == features), "")
+    helper_verb = of(found, {"form": "helper"})
+    helper, part = of(verbs.get(helper_verb, []), how["helper"]), of(found, how["part"])
+    if not helper or not part:
+        return None
+    suffix, shown = how.get("agree", {}).get(helper_verb, ["", ""])
+    made = {"form": f"{helper} {part}{suffix}", "helper": helper, "part": part + suffix}
+    if shown:
+        made["shown"] = f"{helper} {part}{shown}"
+    return made
 
 
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     language, folder = sys.argv[1], Path(sys.argv[2])
     recipes = json.loads((HERE / f"forms-recipes-{language}.json").read_text(encoding="utf-8"))
-    wanted = {verb[0] for verb in recipes["verbs"]["list"]} | {helper for helper in helpers(recipes)}
+    wanted = {verb[0] for verb in recipes["verbs"]["list"]} | helpers(recipes) | set(recipes.get("helper_verbs", []))
     for argument in sys.argv[3:]:
         if argument.startswith("--verbs="):
             wanted |= {line.strip().lower() for line in Path(argument[8:]).read_text(encoding="utf-8").splitlines() if line.strip()}

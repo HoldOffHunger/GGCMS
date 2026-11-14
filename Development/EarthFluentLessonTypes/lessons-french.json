@@ -1,0 +1,872 @@
+{
+	"language": "french",
+	"translation_language": "fr",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-french.json and the recipes in forms-recipes-french.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "avoir", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'ai, tu as, elle a, nous avons. Spot what changes. Avoir is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I have", "foreign": "j'ai", "base": "avoir", "features": {"who": "i", "when": "now"}},
+				{"english": "You have", "foreign": "tu as", "mark": ["s"], "base": "avoir", "features": {"who": "you", "when": "now"}},
+				{"english": "She has", "foreign": "elle a", "base": "avoir", "features": {"who": "she", "when": "now"}},
+				{"english": "We have", "foreign": "nous avons", "mark": ["ons"], "base": "avoir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "faire", "strategy": ["ending"], "description": "The ending changes with who is doing it: je fais, tu fais, elle fait, nous faisons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I make", "foreign": "je fais", "mark": ["s"], "base": "faire", "features": {"who": "i", "when": "now"}},
+				{"english": "You make", "foreign": "tu fais", "mark": ["s"], "base": "faire", "features": {"who": "you", "when": "now"}},
+				{"english": "She makes", "foreign": "elle fait", "mark": ["t"], "base": "faire", "features": {"who": "she", "when": "now"}},
+				{"english": "We make", "foreign": "nous faisons", "mark": ["ons"], "base": "faire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "aller", "strategy": ["ending"], "description": "The ending changes with who is doing it: je vais, tu vas, elle va, nous allons. Spot what changes. Aller is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I go", "foreign": "je vais", "base": "aller", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "tu vas", "base": "aller", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "elle va", "base": "aller", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "nous allons", "mark": ["ons"], "base": "aller", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "dire", "strategy": ["ending"], "description": "The ending changes with who is doing it: je dis, tu dis, elle dit, nous disons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I say", "foreign": "je dis", "mark": ["s"], "base": "dire", "features": {"who": "i", "when": "now"}},
+				{"english": "You say", "foreign": "tu dis", "mark": ["s"], "base": "dire", "features": {"who": "you", "when": "now"}},
+				{"english": "She says", "foreign": "elle dit", "mark": ["t"], "base": "dire", "features": {"who": "she", "when": "now"}},
+				{"english": "We say", "foreign": "nous disons", "mark": ["ons"], "base": "dire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "voir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je vois, tu vois, elle voit, nous voyons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I see", "foreign": "je vois", "mark": ["is"], "base": "voir", "features": {"who": "i", "when": "now"}},
+				{"english": "You see", "foreign": "tu vois", "mark": ["is"], "base": "voir", "features": {"who": "you", "when": "now"}},
+				{"english": "She sees", "foreign": "elle voit", "mark": ["it"], "base": "voir", "features": {"who": "she", "when": "now"}},
+				{"english": "We see", "foreign": "nous voyons", "mark": ["ons"], "base": "voir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "donner", "strategy": ["ending"], "description": "The ending changes with who is doing it: je donne, tu donnes, elle donne, nous donnons. Spot what changes.", "rows": [
+				{"english": "I give", "foreign": "je donne", "mark": ["e"], "base": "donner", "features": {"who": "i", "when": "now"}},
+				{"english": "You give", "foreign": "tu donnes", "mark": ["es"], "base": "donner", "features": {"who": "you", "when": "now"}},
+				{"english": "She gives", "foreign": "elle donne", "mark": ["e"], "base": "donner", "features": {"who": "she", "when": "now"}},
+				{"english": "We give", "foreign": "nous donnons", "mark": ["ons"], "base": "donner", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "savoir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je sais, tu sais, elle sait, nous savons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I know", "foreign": "je sais", "mark": ["is"], "base": "savoir", "features": {"who": "i", "when": "now"}},
+				{"english": "You know", "foreign": "tu sais", "mark": ["is"], "base": "savoir", "features": {"who": "you", "when": "now"}},
+				{"english": "She knows", "foreign": "elle sait", "mark": ["it"], "base": "savoir", "features": {"who": "she", "when": "now"}},
+				{"english": "We know", "foreign": "nous savons", "mark": ["ons"], "base": "savoir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "vouloir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je veux, tu veux, elle veut, nous voulons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I want", "foreign": "je veux", "mark": ["x"], "base": "vouloir", "features": {"who": "i", "when": "now"}},
+				{"english": "You want", "foreign": "tu veux", "mark": ["x"], "base": "vouloir", "features": {"who": "you", "when": "now"}},
+				{"english": "She wants", "foreign": "elle veut", "mark": ["t"], "base": "vouloir", "features": {"who": "she", "when": "now"}},
+				{"english": "We want", "foreign": "nous voulons", "mark": ["ons"], "base": "vouloir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "venir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je viens, tu viens, elle vient, nous venons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I come", "foreign": "je viens", "mark": ["s"], "base": "venir", "features": {"who": "i", "when": "now"}},
+				{"english": "You come", "foreign": "tu viens", "mark": ["s"], "base": "venir", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes", "foreign": "elle vient", "mark": ["t"], "base": "venir", "features": {"who": "she", "when": "now"}},
+				{"english": "We come", "foreign": "nous venons", "mark": ["ons"], "base": "venir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "manger", "strategy": ["ending"], "description": "The ending changes with who is doing it: je mange, tu manges, elle mange, nous mangeons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I eat", "foreign": "je mange", "mark": ["e"], "base": "manger", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "tu manges", "mark": ["es"], "base": "manger", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "elle mange", "mark": ["e"], "base": "manger", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "nous mangeons", "mark": ["ons"], "base": "manger", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "vivre", "strategy": ["ending"], "description": "The ending changes with who is doing it: je vis, tu vis, elle vit, nous vivons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I live", "foreign": "je vis", "mark": ["s"], "base": "vivre", "features": {"who": "i", "when": "now"}},
+				{"english": "You live", "foreign": "tu vis", "mark": ["s"], "base": "vivre", "features": {"who": "you", "when": "now"}},
+				{"english": "She lives", "foreign": "elle vit", "mark": ["t"], "base": "vivre", "features": {"who": "she", "when": "now"}},
+				{"english": "We live", "foreign": "nous vivons", "mark": ["ons"], "base": "vivre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "travailler", "strategy": ["ending"], "description": "The ending changes with who is doing it: je travaille, tu travailles, elle travaille, nous travaillons. Spot what changes.", "rows": [
+				{"english": "I work", "foreign": "je travaille", "mark": ["e"], "base": "travailler", "features": {"who": "i", "when": "now"}},
+				{"english": "You work", "foreign": "tu travailles", "mark": ["es"], "base": "travailler", "features": {"who": "you", "when": "now"}},
+				{"english": "She works", "foreign": "elle travaille", "mark": ["e"], "base": "travailler", "features": {"who": "she", "when": "now"}},
+				{"english": "We work", "foreign": "nous travaillons", "mark": ["ons"], "base": "travailler", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "penser", "strategy": ["ending"], "description": "The ending changes with who is doing it: je pense, tu penses, elle pense, nous pensons. Spot what changes.", "rows": [
+				{"english": "I think", "foreign": "je pense", "mark": ["e"], "base": "penser", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "tu penses", "mark": ["es"], "base": "penser", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "elle pense", "mark": ["e"], "base": "penser", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "nous pensons", "mark": ["ons"], "base": "penser", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "prendre", "strategy": ["ending"], "description": "The ending changes with who is doing it: je prends, tu prends, elle prend, nous prenons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I take", "foreign": "je prends", "mark": ["s"], "base": "prendre", "features": {"who": "i", "when": "now"}},
+				{"english": "You take", "foreign": "tu prends", "mark": ["s"], "base": "prendre", "features": {"who": "you", "when": "now"}},
+				{"english": "She takes", "foreign": "elle prend", "base": "prendre", "features": {"who": "she", "when": "now"}},
+				{"english": "We take", "foreign": "nous prenons", "mark": ["ons"], "base": "prendre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "écrire", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'écris, tu écris, elle écrit, nous écrivons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I write", "foreign": "j'écris", "mark": ["s"], "base": "écrire", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "tu écris", "mark": ["s"], "base": "écrire", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "elle écrit", "mark": ["t"], "base": "écrire", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "nous écrivons", "mark": ["ons"], "base": "écrire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "acheter", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'achète, tu achètes, elle achète, nous achetons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I buy", "foreign": "j'achète", "mark": ["e"], "base": "acheter", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "tu achètes", "mark": ["es"], "base": "acheter", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "elle achète", "mark": ["e"], "base": "acheter", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "nous achetons", "mark": ["ons"], "base": "acheter", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "boire", "strategy": ["ending"], "description": "The ending changes with who is doing it: je bois, tu bois, elle boit, nous buvons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I drink", "foreign": "je bois", "mark": ["s"], "base": "boire", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "tu bois", "mark": ["s"], "base": "boire", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "elle boit", "mark": ["t"], "base": "boire", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "nous buvons", "mark": ["ons"], "base": "boire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "dormir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je dors, tu dors, elle dort, nous dormons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "je dors", "mark": ["s"], "base": "dormir", "features": {"who": "i", "when": "now"}},
+				{"english": "You sleep", "foreign": "tu dors", "mark": ["s"], "base": "dormir", "features": {"who": "you", "when": "now"}},
+				{"english": "She sleeps", "foreign": "elle dort", "mark": ["t"], "base": "dormir", "features": {"who": "she", "when": "now"}},
+				{"english": "We sleep", "foreign": "nous dormons", "mark": ["ons"], "base": "dormir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "sortir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je sors, tu sors, elle sort, nous sortons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go out", "foreign": "je sors", "mark": ["s"], "base": "sortir", "features": {"who": "i", "when": "now"}},
+				{"english": "You go out", "foreign": "tu sors", "mark": ["s"], "base": "sortir", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes out", "foreign": "elle sort", "mark": ["t"], "base": "sortir", "features": {"who": "she", "when": "now"}},
+				{"english": "We go out", "foreign": "nous sortons", "mark": ["ons"], "base": "sortir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "revenir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je reviens, tu reviens, elle revient, nous revenons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I come back", "foreign": "je reviens", "mark": ["s"], "base": "revenir", "features": {"who": "i", "when": "now"}},
+				{"english": "You come back", "foreign": "tu reviens", "mark": ["s"], "base": "revenir", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes back", "foreign": "elle revient", "mark": ["t"], "base": "revenir", "features": {"who": "she", "when": "now"}},
+				{"english": "We come back", "foreign": "nous revenons", "mark": ["ons"], "base": "revenir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "arriver", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'arrive, tu arrives, elle arrive, nous arrivons. Spot what changes.", "rows": [
+				{"english": "I arrive", "foreign": "j'arrive", "mark": ["e"], "base": "arriver", "features": {"who": "i", "when": "now"}},
+				{"english": "You arrive", "foreign": "tu arrives", "mark": ["es"], "base": "arriver", "features": {"who": "you", "when": "now"}},
+				{"english": "She arrives", "foreign": "elle arrive", "mark": ["e"], "base": "arriver", "features": {"who": "she", "when": "now"}},
+				{"english": "We arrive", "foreign": "nous arrivons", "mark": ["ons"], "base": "arriver", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "regarder", "strategy": ["ending"], "description": "The ending changes with who is doing it: je regarde, tu regardes, elle regarde, nous regardons. Spot what changes.", "rows": [
+				{"english": "I look", "foreign": "je regarde", "mark": ["e"], "base": "regarder", "features": {"who": "i", "when": "now"}},
+				{"english": "You look", "foreign": "tu regardes", "mark": ["es"], "base": "regarder", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks", "foreign": "elle regarde", "mark": ["e"], "base": "regarder", "features": {"who": "she", "when": "now"}},
+				{"english": "We look", "foreign": "nous regardons", "mark": ["ons"], "base": "regarder", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "attendre", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'attends, tu attends, elle attend, nous attendons. Spot what changes.", "rows": [
+				{"english": "I wait", "foreign": "j'attends", "mark": ["s"], "base": "attendre", "features": {"who": "i", "when": "now"}},
+				{"english": "You wait", "foreign": "tu attends", "mark": ["s"], "base": "attendre", "features": {"who": "you", "when": "now"}},
+				{"english": "She waits", "foreign": "elle attend", "base": "attendre", "features": {"who": "she", "when": "now"}},
+				{"english": "We wait", "foreign": "nous attendons", "mark": ["ons"], "base": "attendre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "chercher", "strategy": ["ending"], "description": "The ending changes with who is doing it: je cherche, tu cherches, elle cherche, nous cherchons. Spot what changes.", "rows": [
+				{"english": "I search", "foreign": "je cherche", "mark": ["e"], "base": "chercher", "features": {"who": "i", "when": "now"}},
+				{"english": "You search", "foreign": "tu cherches", "mark": ["es"], "base": "chercher", "features": {"who": "you", "when": "now"}},
+				{"english": "She searches", "foreign": "elle cherche", "mark": ["e"], "base": "chercher", "features": {"who": "she", "when": "now"}},
+				{"english": "We search", "foreign": "nous cherchons", "mark": ["ons"], "base": "chercher", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "trouver", "strategy": ["ending"], "description": "The ending changes with who is doing it: je trouve, tu trouves, elle trouve, nous trouvons. Spot what changes.", "rows": [
+				{"english": "I find", "foreign": "je trouve", "mark": ["e"], "base": "trouver", "features": {"who": "i", "when": "now"}},
+				{"english": "You find", "foreign": "tu trouves", "mark": ["es"], "base": "trouver", "features": {"who": "you", "when": "now"}},
+				{"english": "She finds", "foreign": "elle trouve", "mark": ["e"], "base": "trouver", "features": {"who": "she", "when": "now"}},
+				{"english": "We find", "foreign": "nous trouvons", "mark": ["ons"], "base": "trouver", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "appeler", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'appelle, tu appelles, elle appelle, nous appelons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I call", "foreign": "j'appelle", "mark": ["e"], "base": "appeler", "features": {"who": "i", "when": "now"}},
+				{"english": "You call", "foreign": "tu appelles", "mark": ["es"], "base": "appeler", "features": {"who": "you", "when": "now"}},
+				{"english": "She calls", "foreign": "elle appelle", "mark": ["e"], "base": "appeler", "features": {"who": "she", "when": "now"}},
+				{"english": "We call", "foreign": "nous appelons", "mark": ["ons"], "base": "appeler", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "commencer", "strategy": ["ending"], "description": "The ending changes with who is doing it: je commence, tu commences, elle commence, nous commençons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I begin", "foreign": "je commence", "mark": ["e"], "base": "commencer", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "tu commences", "mark": ["es"], "base": "commencer", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "elle commence", "mark": ["e"], "base": "commencer", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "nous commençons", "mark": ["ons"], "base": "commencer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "finir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je finis, tu finis, elle finit, nous finissons. Spot what changes.", "rows": [
+				{"english": "I finish", "foreign": "je finis", "mark": ["is"], "base": "finir", "features": {"who": "i", "when": "now"}},
+				{"english": "You finish", "foreign": "tu finis", "mark": ["is"], "base": "finir", "features": {"who": "you", "when": "now"}},
+				{"english": "She finishes", "foreign": "elle finit", "mark": ["it"], "base": "finir", "features": {"who": "she", "when": "now"}},
+				{"english": "We finish", "foreign": "nous finissons", "mark": ["issons"], "base": "finir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "ouvrir", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'ouvre, tu ouvres, elle ouvre, nous ouvrons. Spot what changes.", "rows": [
+				{"english": "I open", "foreign": "j'ouvre", "mark": ["e"], "base": "ouvrir", "features": {"who": "i", "when": "now"}},
+				{"english": "You open", "foreign": "tu ouvres", "mark": ["es"], "base": "ouvrir", "features": {"who": "you", "when": "now"}},
+				{"english": "She opens", "foreign": "elle ouvre", "mark": ["e"], "base": "ouvrir", "features": {"who": "she", "when": "now"}},
+				{"english": "We open", "foreign": "nous ouvrons", "mark": ["ons"], "base": "ouvrir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "fermer", "strategy": ["ending"], "description": "The ending changes with who is doing it: je ferme, tu fermes, elle ferme, nous fermons. Spot what changes.", "rows": [
+				{"english": "I close", "foreign": "je ferme", "mark": ["e"], "base": "fermer", "features": {"who": "i", "when": "now"}},
+				{"english": "You close", "foreign": "tu fermes", "mark": ["es"], "base": "fermer", "features": {"who": "you", "when": "now"}},
+				{"english": "She closes", "foreign": "elle ferme", "mark": ["e"], "base": "fermer", "features": {"who": "she", "when": "now"}},
+				{"english": "We close", "foreign": "nous fermons", "mark": ["ons"], "base": "fermer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "apprendre", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'apprends, tu apprends, elle apprend, nous apprenons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I learn", "foreign": "j'apprends", "mark": ["s"], "base": "apprendre", "features": {"who": "i", "when": "now"}},
+				{"english": "You learn", "foreign": "tu apprends", "mark": ["s"], "base": "apprendre", "features": {"who": "you", "when": "now"}},
+				{"english": "She learns", "foreign": "elle apprend", "base": "apprendre", "features": {"who": "she", "when": "now"}},
+				{"english": "We learn", "foreign": "nous apprenons", "mark": ["ons"], "base": "apprendre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "étudier", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'étudie, tu étudies, elle étudie, nous étudions. Spot what changes.", "rows": [
+				{"english": "I study", "foreign": "j'étudie", "mark": ["e"], "base": "étudier", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "tu étudies", "mark": ["es"], "base": "étudier", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "elle étudie", "mark": ["e"], "base": "étudier", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "nous étudions", "mark": ["ons"], "base": "étudier", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "comprendre", "strategy": ["ending"], "description": "The ending changes with who is doing it: je comprends, tu comprends, elle comprend, nous comprenons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I understand", "foreign": "je comprends", "mark": ["s"], "base": "comprendre", "features": {"who": "i", "when": "now"}},
+				{"english": "You understand", "foreign": "tu comprends", "mark": ["s"], "base": "comprendre", "features": {"who": "you", "when": "now"}},
+				{"english": "She understands", "foreign": "elle comprend", "base": "comprendre", "features": {"who": "she", "when": "now"}},
+				{"english": "We understand", "foreign": "nous comprenons", "mark": ["ons"], "base": "comprendre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "oublier", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'oublie, tu oublies, elle oublie, nous oublions. Spot what changes.", "rows": [
+				{"english": "I forget", "foreign": "j'oublie", "mark": ["e"], "base": "oublier", "features": {"who": "i", "when": "now"}},
+				{"english": "You forget", "foreign": "tu oublies", "mark": ["es"], "base": "oublier", "features": {"who": "you", "when": "now"}},
+				{"english": "She forgets", "foreign": "elle oublie", "mark": ["e"], "base": "oublier", "features": {"who": "she", "when": "now"}},
+				{"english": "We forget", "foreign": "nous oublions", "mark": ["ons"], "base": "oublier", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "courir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je cours, tu cours, elle court, nous courons. Spot what changes.", "rows": [
+				{"english": "I run", "foreign": "je cours", "mark": ["s"], "base": "courir", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "tu cours", "mark": ["s"], "base": "courir", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "elle court", "mark": ["t"], "base": "courir", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "nous courons", "mark": ["ons"], "base": "courir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "marcher", "strategy": ["ending"], "description": "The ending changes with who is doing it: je marche, tu marches, elle marche, nous marchons. Spot what changes.", "rows": [
+				{"english": "I walk", "foreign": "je marche", "mark": ["e"], "base": "marcher", "features": {"who": "i", "when": "now"}},
+				{"english": "You walk", "foreign": "tu marches", "mark": ["es"], "base": "marcher", "features": {"who": "you", "when": "now"}},
+				{"english": "She walks", "foreign": "elle marche", "mark": ["e"], "base": "marcher", "features": {"who": "she", "when": "now"}},
+				{"english": "We walk", "foreign": "nous marchons", "mark": ["ons"], "base": "marcher", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "chanter", "strategy": ["ending"], "description": "The ending changes with who is doing it: je chante, tu chantes, elle chante, nous chantons. Spot what changes.", "rows": [
+				{"english": "I sing", "foreign": "je chante", "mark": ["e"], "base": "chanter", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "tu chantes", "mark": ["es"], "base": "chanter", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "elle chante", "mark": ["e"], "base": "chanter", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "nous chantons", "mark": ["ons"], "base": "chanter", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "jouer", "strategy": ["ending"], "description": "The ending changes with who is doing it: je joue, tu joues, elle joue, nous jouons. Spot what changes.", "rows": [
+				{"english": "I play", "foreign": "je joue", "mark": ["e"], "base": "jouer", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "tu joues", "mark": ["es"], "base": "jouer", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "elle joue", "mark": ["e"], "base": "jouer", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "nous jouons", "mark": ["ons"], "base": "jouer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "payer", "strategy": ["ending"], "description": "The ending changes with who is doing it: je paye, tu payes, elle paye, nous payons. Spot what changes.", "rows": [
+				{"english": "I pay", "foreign": "je paye", "mark": ["e"], "base": "payer", "features": {"who": "i", "when": "now"}},
+				{"english": "You pay", "foreign": "tu payes", "mark": ["es"], "base": "payer", "features": {"who": "you", "when": "now"}},
+				{"english": "She pays", "foreign": "elle paye", "mark": ["e"], "base": "payer", "features": {"who": "she", "when": "now"}},
+				{"english": "We pay", "foreign": "nous payons", "mark": ["ons"], "base": "payer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "vendre", "strategy": ["ending"], "description": "The ending changes with who is doing it: je vends, tu vends, elle vend, nous vendons. Spot what changes.", "rows": [
+				{"english": "I sell", "foreign": "je vends", "mark": ["s"], "base": "vendre", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "tu vends", "mark": ["s"], "base": "vendre", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "elle vend", "base": "vendre", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "nous vendons", "mark": ["ons"], "base": "vendre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "aider", "strategy": ["ending"], "description": "The ending changes with who is doing it: j'aide, tu aides, elle aide, nous aidons. Spot what changes.", "rows": [
+				{"english": "I help", "foreign": "j'aide", "mark": ["e"], "base": "aider", "features": {"who": "i", "when": "now"}},
+				{"english": "You help", "foreign": "tu aides", "mark": ["es"], "base": "aider", "features": {"who": "you", "when": "now"}},
+				{"english": "She helps", "foreign": "elle aide", "mark": ["e"], "base": "aider", "features": {"who": "she", "when": "now"}},
+				{"english": "We help", "foreign": "nous aidons", "mark": ["ons"], "base": "aider", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "cuisiner", "strategy": ["ending"], "description": "The ending changes with who is doing it: je cuisine, tu cuisines, elle cuisine, nous cuisinons. Spot what changes.", "rows": [
+				{"english": "I cook", "foreign": "je cuisine", "mark": ["e"], "base": "cuisiner", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "tu cuisines", "mark": ["es"], "base": "cuisiner", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "elle cuisine", "mark": ["e"], "base": "cuisiner", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "nous cuisinons", "mark": ["ons"], "base": "cuisiner", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "voyager", "strategy": ["ending"], "description": "The ending changes with who is doing it: je voyage, tu voyages, elle voyage, nous voyageons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I travel", "foreign": "je voyage", "mark": ["e"], "base": "voyager", "features": {"who": "i", "when": "now"}},
+				{"english": "You travel", "foreign": "tu voyages", "mark": ["es"], "base": "voyager", "features": {"who": "you", "when": "now"}},
+				{"english": "She travels", "foreign": "elle voyage", "mark": ["e"], "base": "voyager", "features": {"who": "she", "when": "now"}},
+				{"english": "We travel", "foreign": "nous voyageons", "mark": ["ons"], "base": "voyager", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 45, "verb": "demander", "strategy": ["ending"], "description": "The ending changes with who is doing it: je demande, tu demandes, elle demande, nous demandons. Spot what changes.", "rows": [
+				{"english": "I ask", "foreign": "je demande", "mark": ["e"], "base": "demander", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "tu demandes", "mark": ["es"], "base": "demander", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "elle demande", "mark": ["e"], "base": "demander", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "nous demandons", "mark": ["ons"], "base": "demander", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 46, "verb": "répondre", "strategy": ["ending"], "description": "The ending changes with who is doing it: je réponds, tu réponds, elle répond, nous répondons. Spot what changes.", "rows": [
+				{"english": "I answer", "foreign": "je réponds", "mark": ["s"], "base": "répondre", "features": {"who": "i", "when": "now"}},
+				{"english": "You answer", "foreign": "tu réponds", "mark": ["s"], "base": "répondre", "features": {"who": "you", "when": "now"}},
+				{"english": "She answers", "foreign": "elle répond", "base": "répondre", "features": {"who": "she", "when": "now"}},
+				{"english": "We answer", "foreign": "nous répondons", "mark": ["ons"], "base": "répondre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 47, "verb": "perdre", "strategy": ["ending"], "description": "The ending changes with who is doing it: je perds, tu perds, elle perd, nous perdons. Spot what changes.", "rows": [
+				{"english": "I lose", "foreign": "je perds", "mark": ["s"], "base": "perdre", "features": {"who": "i", "when": "now"}},
+				{"english": "You lose", "foreign": "tu perds", "mark": ["s"], "base": "perdre", "features": {"who": "you", "when": "now"}},
+				{"english": "She loses", "foreign": "elle perd", "base": "perdre", "features": {"who": "she", "when": "now"}},
+				{"english": "We lose", "foreign": "nous perdons", "mark": ["ons"], "base": "perdre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 48, "verb": "recevoir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je reçois, tu reçois, elle reçoit, nous recevons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I receive", "foreign": "je reçois", "mark": ["is"], "base": "recevoir", "features": {"who": "i", "when": "now"}},
+				{"english": "You receive", "foreign": "tu reçois", "mark": ["is"], "base": "recevoir", "features": {"who": "you", "when": "now"}},
+				{"english": "She receives", "foreign": "elle reçoit", "mark": ["it"], "base": "recevoir", "features": {"who": "she", "when": "now"}},
+				{"english": "We receive", "foreign": "nous recevons", "mark": ["ons"], "base": "recevoir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 49, "verb": "commander", "strategy": ["ending"], "description": "The ending changes with who is doing it: je commande, tu commandes, elle commande, nous commandons. Spot what changes.", "rows": [
+				{"english": "I order", "foreign": "je commande", "mark": ["e"], "base": "commander", "features": {"who": "i", "when": "now"}},
+				{"english": "You order", "foreign": "tu commandes", "mark": ["es"], "base": "commander", "features": {"who": "you", "when": "now"}},
+				{"english": "She orders", "foreign": "elle commande", "mark": ["e"], "base": "commander", "features": {"who": "she", "when": "now"}},
+				{"english": "We order", "foreign": "nous commandons", "mark": ["ons"], "base": "commander", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 50, "verb": "suivre", "strategy": ["ending"], "description": "The ending changes with who is doing it: je suis, tu suis, elle suit, nous suivons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I follow", "foreign": "je suis", "mark": ["s"], "base": "suivre", "features": {"who": "i", "when": "now"}},
+				{"english": "You follow", "foreign": "tu suis", "mark": ["s"], "base": "suivre", "features": {"who": "you", "when": "now"}},
+				{"english": "She follows", "foreign": "elle suit", "mark": ["t"], "base": "suivre", "features": {"who": "she", "when": "now"}},
+				{"english": "We follow", "foreign": "nous suivons", "mark": ["ons"], "base": "suivre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 51, "verb": "sentir", "strategy": ["ending"], "description": "The ending changes with who is doing it: je sens, tu sens, elle sent, nous sentons. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I feel", "foreign": "je sens", "mark": ["s"], "base": "sentir", "features": {"who": "i", "when": "now"}},
+				{"english": "You feel", "foreign": "tu sens", "mark": ["s"], "base": "sentir", "features": {"who": "you", "when": "now"}},
+				{"english": "She feels", "foreign": "elle sent", "mark": ["t"], "base": "sentir", "features": {"who": "she", "when": "now"}},
+				{"english": "We feel", "foreign": "nous sentons", "mark": ["ons"], "base": "sentir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "avoir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai eu. For later, the ending alone says so: j'aurai. Avoir goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I have", "foreign": "j'ai", "base": "avoir", "features": {"who": "i", "when": "now"}},
+				{"english": "I had", "foreign": "j'ai eu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "avoir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will have", "foreign": "j'aurai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "avoir", "features": {"who": "i", "when": "later"}},
+				{"english": "She had", "foreign": "elle a eu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "avoir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "faire", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai fait. For later, the ending alone says so: je ferai. Faire goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I make", "foreign": "je fais", "mark": [{"text": "s", "role": "ending"}], "base": "faire", "features": {"who": "i", "when": "now"}},
+				{"english": "I made", "foreign": "j'ai fait", "mark": [{"text": "ai", "role": "helper word"}], "from": 1, "base": "faire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "je ferai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "faire", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "elle a fait", "mark": [{"text": "a", "role": "helper word"}], "base": "faire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "aller", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: je suis allé. For later, the ending alone says so: j'irai. Aller goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I go", "foreign": "je vais", "base": "aller", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "je suis allé", "mark": [{"text": "suis", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "aller", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "j'irai", "from": 1, "base": "aller", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "elle est allée", "mark": [{"text": "est", "role": "helper word"}, {"text": "ée", "role": "ending"}], "base": "aller", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "dire", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai dit. For later, the ending alone says so: je dirai. Dire goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I say", "foreign": "je dis", "mark": [{"text": "s", "role": "ending"}], "base": "dire", "features": {"who": "i", "when": "now"}},
+				{"english": "I said", "foreign": "j'ai dit", "mark": [{"text": "ai", "role": "helper word"}], "from": 1, "base": "dire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will say", "foreign": "je dirai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "dire", "features": {"who": "i", "when": "later"}},
+				{"english": "She said", "foreign": "elle a dit", "mark": [{"text": "a", "role": "helper word"}], "base": "dire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "voir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai vu. For later, the ending alone says so: je verrai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I see", "foreign": "je vois", "mark": [{"text": "is", "role": "ending"}], "base": "voir", "features": {"who": "i", "when": "now"}},
+				{"english": "I saw", "foreign": "j'ai vu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "voir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will see", "foreign": "je verrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "voir", "features": {"who": "i", "when": "later"}},
+				{"english": "She saw", "foreign": "elle a vu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "voir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "donner", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai donné. For later, the ending alone says so: je donnerai.", "rows": [
+				{"english": "I give", "foreign": "je donne", "mark": [{"text": "e", "role": "ending"}], "base": "donner", "features": {"who": "i", "when": "now"}},
+				{"english": "I gave", "foreign": "j'ai donné", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "donner", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "je donnerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "donner", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "elle a donné", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "donner", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "savoir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai su. For later, the ending alone says so: je saurai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I know", "foreign": "je sais", "mark": [{"text": "is", "role": "ending"}], "base": "savoir", "features": {"who": "i", "when": "now"}},
+				{"english": "I knew", "foreign": "j'ai su", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "savoir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will know", "foreign": "je saurai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "savoir", "features": {"who": "i", "when": "later"}},
+				{"english": "She knew", "foreign": "elle a su", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "savoir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "vouloir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai voulu. For later, the ending alone says so: je voudrai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I want", "foreign": "je veux", "mark": [{"text": "x", "role": "ending"}], "base": "vouloir", "features": {"who": "i", "when": "now"}},
+				{"english": "I wanted", "foreign": "j'ai voulu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "vouloir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will want", "foreign": "je voudrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "vouloir", "features": {"who": "i", "when": "later"}},
+				{"english": "She wanted", "foreign": "elle a voulu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "vouloir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "venir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: je suis venu. For later, the ending alone says so: je viendrai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I come", "foreign": "je viens", "mark": [{"text": "s", "role": "ending"}], "base": "venir", "features": {"who": "i", "when": "now"}},
+				{"english": "I came", "foreign": "je suis venu", "mark": [{"text": "suis", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "venir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come", "foreign": "je viendrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "venir", "features": {"who": "i", "when": "later"}},
+				{"english": "She came", "foreign": "elle est venue", "mark": [{"text": "est", "role": "helper word"}, {"text": "ue", "role": "ending"}], "base": "venir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "manger", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai mangé. For later, the ending alone says so: je mangerai.", "rows": [
+				{"english": "I eat", "foreign": "je mange", "mark": [{"text": "e", "role": "ending"}], "base": "manger", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "j'ai mangé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "manger", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "je mangerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "manger", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "elle a mangé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "manger", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "vivre", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai vécu. For later, the ending alone says so: je vivrai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I live", "foreign": "je vis", "mark": [{"text": "s", "role": "ending"}], "base": "vivre", "features": {"who": "i", "when": "now"}},
+				{"english": "I lived", "foreign": "j'ai vécu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "vivre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will live", "foreign": "je vivrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "vivre", "features": {"who": "i", "when": "later"}},
+				{"english": "She lived", "foreign": "elle a vécu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "vivre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "travailler", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai travaillé. For later, the ending alone says so: je travaillerai.", "rows": [
+				{"english": "I work", "foreign": "je travaille", "mark": [{"text": "e", "role": "ending"}], "base": "travailler", "features": {"who": "i", "when": "now"}},
+				{"english": "I worked", "foreign": "j'ai travaillé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "travailler", "features": {"who": "i", "when": "before"}},
+				{"english": "I will work", "foreign": "je travaillerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "travailler", "features": {"who": "i", "when": "later"}},
+				{"english": "She worked", "foreign": "elle a travaillé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "travailler", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "penser", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai pensé. For later, the ending alone says so: je penserai.", "rows": [
+				{"english": "I think", "foreign": "je pense", "mark": [{"text": "e", "role": "ending"}], "base": "penser", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "j'ai pensé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "penser", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "je penserai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "penser", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "elle a pensé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "penser", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "prendre", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai pris. For later, the ending alone says so: je prendrai. Prendre goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I take", "foreign": "je prends", "mark": [{"text": "s", "role": "ending"}], "base": "prendre", "features": {"who": "i", "when": "now"}},
+				{"english": "I took", "foreign": "j'ai pris", "mark": [{"text": "ai", "role": "helper word"}], "from": 1, "base": "prendre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "je prendrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "prendre", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "elle a pris", "mark": [{"text": "a", "role": "helper word"}], "base": "prendre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "écrire", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai écrit. For later, the ending alone says so: j'écrirai. Écrire goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I write", "foreign": "j'écris", "mark": [{"text": "s", "role": "ending"}], "base": "écrire", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "j'ai écrit", "mark": [{"text": "ai", "role": "helper word"}], "from": 1, "base": "écrire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "j'écrirai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "écrire", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "elle a écrit", "mark": [{"text": "a", "role": "helper word"}], "base": "écrire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "acheter", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai acheté. For later, the ending alone says so: j'achèterai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I buy", "foreign": "j'achète", "mark": [{"text": "e", "role": "ending"}], "base": "acheter", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "j'ai acheté", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "acheter", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "j'achèterai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "acheter", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "elle a acheté", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "acheter", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "boire", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai bu. For later, the ending alone says so: je boirai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I drink", "foreign": "je bois", "mark": [{"text": "s", "role": "ending"}], "base": "boire", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "j'ai bu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "boire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "je boirai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "boire", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "elle a bu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "boire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "dormir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai dormi. For later, the ending alone says so: je dormirai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "je dors", "mark": [{"text": "s", "role": "ending"}], "base": "dormir", "features": {"who": "i", "when": "now"}},
+				{"english": "I slept", "foreign": "j'ai dormi", "mark": [{"text": "ai", "role": "helper word"}, {"text": "i", "role": "ending"}], "from": 1, "base": "dormir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sleep", "foreign": "je dormirai", "mark": [{"text": "irai", "role": "ending"}], "from": 1, "base": "dormir", "features": {"who": "i", "when": "later"}},
+				{"english": "She slept", "foreign": "elle a dormi", "mark": [{"text": "a", "role": "helper word"}, {"text": "i", "role": "ending"}], "base": "dormir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "sortir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai sorti. For later, the ending alone says so: je sortirai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go out", "foreign": "je sors", "mark": [{"text": "s", "role": "ending"}], "base": "sortir", "features": {"who": "i", "when": "now"}},
+				{"english": "I went out", "foreign": "j'ai sorti", "mark": [{"text": "ai", "role": "helper word"}, {"text": "i", "role": "ending"}], "from": 1, "base": "sortir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go out", "foreign": "je sortirai", "mark": [{"text": "irai", "role": "ending"}], "from": 1, "base": "sortir", "features": {"who": "i", "when": "later"}},
+				{"english": "She went out", "foreign": "elle a sorti", "mark": [{"text": "a", "role": "helper word"}, {"text": "i", "role": "ending"}], "base": "sortir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "revenir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: je suis revenu. For later, the ending alone says so: je reviendrai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I come back", "foreign": "je reviens", "mark": [{"text": "s", "role": "ending"}], "base": "revenir", "features": {"who": "i", "when": "now"}},
+				{"english": "I came back", "foreign": "je suis revenu", "mark": [{"text": "suis", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "revenir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come back", "foreign": "je reviendrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "revenir", "features": {"who": "i", "when": "later"}},
+				{"english": "She came back", "foreign": "elle est revenue", "mark": [{"text": "est", "role": "helper word"}, {"text": "ue", "role": "ending"}], "base": "revenir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "arriver", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: je suis arrivé. For later, the ending alone says so: j'arriverai.", "rows": [
+				{"english": "I arrive", "foreign": "j'arrive", "mark": [{"text": "e", "role": "ending"}], "base": "arriver", "features": {"who": "i", "when": "now"}},
+				{"english": "I arrived", "foreign": "je suis arrivé", "mark": [{"text": "suis", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "arriver", "features": {"who": "i", "when": "before"}},
+				{"english": "I will arrive", "foreign": "j'arriverai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "arriver", "features": {"who": "i", "when": "later"}},
+				{"english": "She arrived", "foreign": "elle est arrivée", "mark": [{"text": "est", "role": "helper word"}, {"text": "ée", "role": "ending"}], "base": "arriver", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "regarder", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai regardé. For later, the ending alone says so: je regarderai.", "rows": [
+				{"english": "I look", "foreign": "je regarde", "mark": [{"text": "e", "role": "ending"}], "base": "regarder", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked", "foreign": "j'ai regardé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "regarder", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look", "foreign": "je regarderai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "regarder", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked", "foreign": "elle a regardé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "regarder", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "attendre", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai attendu. For later, the ending alone says so: j'attendrai.", "rows": [
+				{"english": "I wait", "foreign": "j'attends", "mark": [{"text": "s", "role": "ending"}], "base": "attendre", "features": {"who": "i", "when": "now"}},
+				{"english": "I waited", "foreign": "j'ai attendu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "attendre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "j'attendrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "attendre", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "elle a attendu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "attendre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "chercher", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai cherché. For later, the ending alone says so: je chercherai.", "rows": [
+				{"english": "I search", "foreign": "je cherche", "mark": [{"text": "e", "role": "ending"}], "base": "chercher", "features": {"who": "i", "when": "now"}},
+				{"english": "I searched", "foreign": "j'ai cherché", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "chercher", "features": {"who": "i", "when": "before"}},
+				{"english": "I will search", "foreign": "je chercherai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "chercher", "features": {"who": "i", "when": "later"}},
+				{"english": "She searched", "foreign": "elle a cherché", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "chercher", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "trouver", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai trouvé. For later, the ending alone says so: je trouverai.", "rows": [
+				{"english": "I find", "foreign": "je trouve", "mark": [{"text": "e", "role": "ending"}], "base": "trouver", "features": {"who": "i", "when": "now"}},
+				{"english": "I found", "foreign": "j'ai trouvé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "trouver", "features": {"who": "i", "when": "before"}},
+				{"english": "I will find", "foreign": "je trouverai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "trouver", "features": {"who": "i", "when": "later"}},
+				{"english": "She found", "foreign": "elle a trouvé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "trouver", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "appeler", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai appelé. For later, the ending alone says so: j'appellerai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I call", "foreign": "j'appelle", "mark": [{"text": "e", "role": "ending"}], "base": "appeler", "features": {"who": "i", "when": "now"}},
+				{"english": "I called", "foreign": "j'ai appelé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "appeler", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "j'appellerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "appeler", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "elle a appelé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "appeler", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "commencer", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai commencé. For later, the ending alone says so: je commencerai.", "rows": [
+				{"english": "I begin", "foreign": "je commence", "mark": [{"text": "e", "role": "ending"}], "base": "commencer", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "j'ai commencé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "commencer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "je commencerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "commencer", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "elle a commencé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "commencer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "finir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai fini. For later, the ending alone says so: je finirai.", "rows": [
+				{"english": "I finish", "foreign": "je finis", "mark": [{"text": "is", "role": "ending"}], "base": "finir", "features": {"who": "i", "when": "now"}},
+				{"english": "I finished", "foreign": "j'ai fini", "mark": [{"text": "ai", "role": "helper word"}, {"text": "i", "role": "ending"}], "from": 1, "base": "finir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "je finirai", "mark": [{"text": "irai", "role": "ending"}], "from": 1, "base": "finir", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "elle a fini", "mark": [{"text": "a", "role": "helper word"}, {"text": "i", "role": "ending"}], "base": "finir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "ouvrir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai ouvert. For later, the ending alone says so: j'ouvrirai. Ouvrir goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I open", "foreign": "j'ouvre", "mark": [{"text": "e", "role": "ending"}], "base": "ouvrir", "features": {"who": "i", "when": "now"}},
+				{"english": "I opened", "foreign": "j'ai ouvert", "mark": [{"text": "ai", "role": "helper word"}], "from": 1, "base": "ouvrir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "j'ouvrirai", "mark": [{"text": "irai", "role": "ending"}], "from": 1, "base": "ouvrir", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "elle a ouvert", "mark": [{"text": "a", "role": "helper word"}], "base": "ouvrir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "fermer", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai fermé. For later, the ending alone says so: je fermerai.", "rows": [
+				{"english": "I close", "foreign": "je ferme", "mark": [{"text": "e", "role": "ending"}], "base": "fermer", "features": {"who": "i", "when": "now"}},
+				{"english": "I closed", "foreign": "j'ai fermé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "fermer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "je fermerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "fermer", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "elle a fermé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "fermer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "apprendre", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai appris. For later, the ending alone says so: j'apprendrai. Apprendre goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I learn", "foreign": "j'apprends", "mark": [{"text": "s", "role": "ending"}], "base": "apprendre", "features": {"who": "i", "when": "now"}},
+				{"english": "I learned", "foreign": "j'ai appris", "mark": [{"text": "ai", "role": "helper word"}], "from": 1, "base": "apprendre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will learn", "foreign": "j'apprendrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "apprendre", "features": {"who": "i", "when": "later"}},
+				{"english": "She learned", "foreign": "elle a appris", "mark": [{"text": "a", "role": "helper word"}], "base": "apprendre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "étudier", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai étudié. For later, the ending alone says so: j'étudierai.", "rows": [
+				{"english": "I study", "foreign": "j'étudie", "mark": [{"text": "e", "role": "ending"}], "base": "étudier", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "j'ai étudié", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "étudier", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "j'étudierai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "étudier", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "elle a étudié", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "étudier", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "comprendre", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai compris. For later, the ending alone says so: je comprendrai. Comprendre goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I understand", "foreign": "je comprends", "mark": [{"text": "s", "role": "ending"}], "base": "comprendre", "features": {"who": "i", "when": "now"}},
+				{"english": "I understood", "foreign": "j'ai compris", "mark": [{"text": "ai", "role": "helper word"}], "from": 1, "base": "comprendre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will understand", "foreign": "je comprendrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "comprendre", "features": {"who": "i", "when": "later"}},
+				{"english": "She understood", "foreign": "elle a compris", "mark": [{"text": "a", "role": "helper word"}], "base": "comprendre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "oublier", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai oublié. For later, the ending alone says so: j'oublierai.", "rows": [
+				{"english": "I forget", "foreign": "j'oublie", "mark": [{"text": "e", "role": "ending"}], "base": "oublier", "features": {"who": "i", "when": "now"}},
+				{"english": "I forgot", "foreign": "j'ai oublié", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "oublier", "features": {"who": "i", "when": "before"}},
+				{"english": "I will forget", "foreign": "j'oublierai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "oublier", "features": {"who": "i", "when": "later"}},
+				{"english": "She forgot", "foreign": "elle a oublié", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "oublier", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "courir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai couru. For later, the ending alone says so: je courrai.", "rows": [
+				{"english": "I run", "foreign": "je cours", "mark": [{"text": "s", "role": "ending"}], "base": "courir", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "j'ai couru", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "courir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "je courrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "courir", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "elle a couru", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "courir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "marcher", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai marché. For later, the ending alone says so: je marcherai.", "rows": [
+				{"english": "I walk", "foreign": "je marche", "mark": [{"text": "e", "role": "ending"}], "base": "marcher", "features": {"who": "i", "when": "now"}},
+				{"english": "I walked", "foreign": "j'ai marché", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "marcher", "features": {"who": "i", "when": "before"}},
+				{"english": "I will walk", "foreign": "je marcherai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "marcher", "features": {"who": "i", "when": "later"}},
+				{"english": "She walked", "foreign": "elle a marché", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "marcher", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "chanter", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai chanté. For later, the ending alone says so: je chanterai.", "rows": [
+				{"english": "I sing", "foreign": "je chante", "mark": [{"text": "e", "role": "ending"}], "base": "chanter", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "j'ai chanté", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "chanter", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "je chanterai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "chanter", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "elle a chanté", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "chanter", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "jouer", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai joué. For later, the ending alone says so: je jouerai.", "rows": [
+				{"english": "I play", "foreign": "je joue", "mark": [{"text": "e", "role": "ending"}], "base": "jouer", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "j'ai joué", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "jouer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "je jouerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "jouer", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "elle a joué", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "jouer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "payer", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai payé. For later, the ending alone says so: je payerai.", "rows": [
+				{"english": "I pay", "foreign": "je paye", "mark": [{"text": "e", "role": "ending"}], "base": "payer", "features": {"who": "i", "when": "now"}},
+				{"english": "I paid", "foreign": "j'ai payé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "payer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "je payerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "payer", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "elle a payé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "payer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "vendre", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai vendu. For later, the ending alone says so: je vendrai.", "rows": [
+				{"english": "I sell", "foreign": "je vends", "mark": [{"text": "s", "role": "ending"}], "base": "vendre", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "j'ai vendu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "vendre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "je vendrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "vendre", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "elle a vendu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "vendre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "aider", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai aidé. For later, the ending alone says so: j'aiderai.", "rows": [
+				{"english": "I help", "foreign": "j'aide", "mark": [{"text": "e", "role": "ending"}], "base": "aider", "features": {"who": "i", "when": "now"}},
+				{"english": "I helped", "foreign": "j'ai aidé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "aider", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "j'aiderai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "aider", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "elle a aidé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "aider", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "cuisiner", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai cuisiné. For later, the ending alone says so: je cuisinerai.", "rows": [
+				{"english": "I cook", "foreign": "je cuisine", "mark": [{"text": "e", "role": "ending"}], "base": "cuisiner", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "j'ai cuisiné", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "cuisiner", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "je cuisinerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "cuisiner", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "elle a cuisiné", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "cuisiner", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "voyager", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai voyagé. For later, the ending alone says so: je voyagerai.", "rows": [
+				{"english": "I travel", "foreign": "je voyage", "mark": [{"text": "e", "role": "ending"}], "base": "voyager", "features": {"who": "i", "when": "now"}},
+				{"english": "I travelled", "foreign": "j'ai voyagé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "voyager", "features": {"who": "i", "when": "before"}},
+				{"english": "I will travel", "foreign": "je voyagerai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "voyager", "features": {"who": "i", "when": "later"}},
+				{"english": "She travelled", "foreign": "elle a voyagé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "voyager", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 45, "verb": "demander", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai demandé. For later, the ending alone says so: je demanderai.", "rows": [
+				{"english": "I ask", "foreign": "je demande", "mark": [{"text": "e", "role": "ending"}], "base": "demander", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "j'ai demandé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "demander", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "je demanderai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "demander", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "elle a demandé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "demander", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 46, "verb": "répondre", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai répondu. For later, the ending alone says so: je répondrai.", "rows": [
+				{"english": "I answer", "foreign": "je réponds", "mark": [{"text": "s", "role": "ending"}], "base": "répondre", "features": {"who": "i", "when": "now"}},
+				{"english": "I answered", "foreign": "j'ai répondu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "répondre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "je répondrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "répondre", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "elle a répondu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "répondre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 47, "verb": "perdre", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai perdu. For later, the ending alone says so: je perdrai.", "rows": [
+				{"english": "I lose", "foreign": "je perds", "mark": [{"text": "s", "role": "ending"}], "base": "perdre", "features": {"who": "i", "when": "now"}},
+				{"english": "I lost", "foreign": "j'ai perdu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "perdre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will lose", "foreign": "je perdrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "perdre", "features": {"who": "i", "when": "later"}},
+				{"english": "She lost", "foreign": "elle a perdu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "perdre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 48, "verb": "recevoir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai reçu. For later, the ending alone says so: je recevrai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I receive", "foreign": "je reçois", "mark": [{"text": "is", "role": "ending"}], "base": "recevoir", "features": {"who": "i", "when": "now"}},
+				{"english": "I received", "foreign": "j'ai reçu", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "recevoir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will receive", "foreign": "je recevrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "recevoir", "features": {"who": "i", "when": "later"}},
+				{"english": "She received", "foreign": "elle a reçu", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "recevoir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 49, "verb": "commander", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai commandé. For later, the ending alone says so: je commanderai.", "rows": [
+				{"english": "I order", "foreign": "je commande", "mark": [{"text": "e", "role": "ending"}], "base": "commander", "features": {"who": "i", "when": "now"}},
+				{"english": "I ordered", "foreign": "j'ai commandé", "mark": [{"text": "ai", "role": "helper word"}, {"text": "é", "role": "ending"}], "from": 1, "base": "commander", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "je commanderai", "mark": [{"text": "erai", "role": "ending"}], "from": 1, "base": "commander", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "elle a commandé", "mark": [{"text": "a", "role": "helper word"}, {"text": "é", "role": "ending"}], "base": "commander", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 50, "verb": "suivre", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai suivi. For later, the ending alone says so: je suivrai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I follow", "foreign": "je suis", "mark": [{"text": "s", "role": "ending"}], "base": "suivre", "features": {"who": "i", "when": "now"}},
+				{"english": "I followed", "foreign": "j'ai suivi", "mark": [{"text": "ai", "role": "helper word"}, {"text": "i", "role": "ending"}], "from": 1, "base": "suivre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will follow", "foreign": "je suivrai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "suivre", "features": {"who": "i", "when": "later"}},
+				{"english": "She followed", "foreign": "elle a suivi", "mark": [{"text": "a", "role": "helper word"}, {"text": "i", "role": "ending"}], "base": "suivre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 51, "verb": "sentir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai senti. For later, the ending alone says so: je sentirai. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I feel", "foreign": "je sens", "mark": [{"text": "s", "role": "ending"}], "base": "sentir", "features": {"who": "i", "when": "now"}},
+				{"english": "I felt", "foreign": "j'ai senti", "mark": [{"text": "ai", "role": "helper word"}, {"text": "i", "role": "ending"}], "from": 1, "base": "sentir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will feel", "foreign": "je sentirai", "mark": [{"text": "irai", "role": "ending"}], "from": 1, "base": "sentir", "features": {"who": "i", "when": "later"}},
+				{"english": "She felt", "foreign": "elle a senti", "mark": [{"text": "a", "role": "helper word"}, {"text": "i", "role": "ending"}], "base": "sentir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "command", "part": 2, "verb": "faire", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Fais ! To anyone else, or to more than one person: Faites ! Telling a friend not to wraps the verb in ne and pas: Ne fais pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Make!", "foreign": "Fais !", "mark": [{"text": "s", "role": "ending"}], "base": "faire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Make! said politely", "foreign": "Faites !", "mark": [{"text": "s", "role": "ending"}], "base": "faire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not make!", "foreign": "Ne fais pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "faire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's make!", "foreign": "Faisons !", "mark": [{"text": "ons", "role": "ending"}], "base": "faire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 3, "verb": "aller", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Va ! To anyone else, or to more than one person: Allez ! Telling a friend not to wraps the verb in ne and pas: Ne va pas !", "rows": [
+				{"english": "Go!", "foreign": "Va !", "base": "aller", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go! said politely", "foreign": "Allez !", "mark": [{"text": "ez", "role": "ending"}], "base": "aller", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not go!", "foreign": "Ne va pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "aller", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go!", "foreign": "Allons !", "mark": [{"text": "ons", "role": "ending"}], "base": "aller", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 4, "verb": "dire", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Dis ! To anyone else, or to more than one person: Dites ! Telling a friend not to wraps the verb in ne and pas: Ne dis pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Say!", "foreign": "Dis !", "mark": [{"text": "s", "role": "ending"}], "base": "dire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Say! said politely", "foreign": "Dites !", "mark": [{"text": "s", "role": "ending"}], "base": "dire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not say!", "foreign": "Ne dis pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "dire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's say!", "foreign": "Disons !", "mark": [{"text": "ons", "role": "ending"}], "base": "dire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 5, "verb": "donner", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Donne ! To anyone else, or to more than one person: Donnez ! Telling a friend not to wraps the verb in ne and pas: Ne donne pas !", "rows": [
+				{"english": "Give!", "foreign": "Donne !", "mark": [{"text": "e", "role": "ending"}], "base": "donner", "features": {"command": "yes", "who": "you"}},
+				{"english": "Give! said politely", "foreign": "Donnez !", "mark": [{"text": "ez", "role": "ending"}], "base": "donner", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not give!", "foreign": "Ne donne pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "donner", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's give!", "foreign": "Donnons !", "mark": [{"text": "ons", "role": "ending"}], "base": "donner", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 6, "verb": "venir", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Viens ! To anyone else, or to more than one person: Venez ! Telling a friend not to wraps the verb in ne and pas: Ne viens pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Come!", "foreign": "Viens !", "mark": [{"text": "s", "role": "ending"}], "base": "venir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Come! said politely", "foreign": "Venez !", "mark": [{"text": "ez", "role": "ending"}], "base": "venir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come!", "foreign": "Ne viens pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "venir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come!", "foreign": "Venons !", "mark": [{"text": "ons", "role": "ending"}], "base": "venir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 7, "verb": "manger", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Mange ! To anyone else, or to more than one person: Mangez ! Telling a friend not to wraps the verb in ne and pas: Ne mange pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Eat!", "foreign": "Mange !", "mark": [{"text": "e", "role": "ending"}], "base": "manger", "features": {"command": "yes", "who": "you"}},
+				{"english": "Eat! said politely", "foreign": "Mangez !", "mark": [{"text": "ez", "role": "ending"}], "base": "manger", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not eat!", "foreign": "Ne mange pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "manger", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's eat!", "foreign": "Mangeons !", "mark": [{"text": "ons", "role": "ending"}], "base": "manger", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 8, "verb": "vivre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Vis ! To anyone else, or to more than one person: Vivez ! Telling a friend not to wraps the verb in ne and pas: Ne vis pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Live!", "foreign": "Vis !", "mark": [{"text": "s", "role": "ending"}], "base": "vivre", "features": {"command": "yes", "who": "you"}},
+				{"english": "Live! said politely", "foreign": "Vivez !", "mark": [{"text": "ez", "role": "ending"}], "base": "vivre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not live!", "foreign": "Ne vis pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "vivre", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's live!", "foreign": "Vivons !", "mark": [{"text": "ons", "role": "ending"}], "base": "vivre", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 9, "verb": "travailler", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Travaille ! To anyone else, or to more than one person: Travaillez ! Telling a friend not to wraps the verb in ne and pas: Ne travaille pas !", "rows": [
+				{"english": "Work!", "foreign": "Travaille !", "mark": [{"text": "e", "role": "ending"}], "base": "travailler", "features": {"command": "yes", "who": "you"}},
+				{"english": "Work! said politely", "foreign": "Travaillez !", "mark": [{"text": "ez", "role": "ending"}], "base": "travailler", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not work!", "foreign": "Ne travaille pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "travailler", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's work!", "foreign": "Travaillons !", "mark": [{"text": "ons", "role": "ending"}], "base": "travailler", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 10, "verb": "penser", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Pense ! To anyone else, or to more than one person: Pensez ! Telling a friend not to wraps the verb in ne and pas: Ne pense pas !", "rows": [
+				{"english": "Think!", "foreign": "Pense !", "mark": [{"text": "e", "role": "ending"}], "base": "penser", "features": {"command": "yes", "who": "you"}},
+				{"english": "Think! said politely", "foreign": "Pensez !", "mark": [{"text": "ez", "role": "ending"}], "base": "penser", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not think!", "foreign": "Ne pense pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "penser", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's think!", "foreign": "Pensons !", "mark": [{"text": "ons", "role": "ending"}], "base": "penser", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 11, "verb": "prendre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Prends ! To anyone else, or to more than one person: Prenez ! Telling a friend not to wraps the verb in ne and pas: Ne prends pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Take!", "foreign": "Prends !", "mark": [{"text": "s", "role": "ending"}], "base": "prendre", "features": {"command": "yes", "who": "you"}},
+				{"english": "Take! said politely", "foreign": "Prenez !", "mark": [{"text": "ez", "role": "ending"}], "base": "prendre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not take!", "foreign": "Ne prends pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "prendre", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's take!", "foreign": "Prenons !", "mark": [{"text": "ons", "role": "ending"}], "base": "prendre", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 12, "verb": "écrire", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Écris ! To anyone else, or to more than one person: Écrivez ! Telling a friend not to wraps the verb in ne and pas: N'écris pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Write!", "foreign": "Écris !", "mark": [{"text": "s", "role": "ending"}], "base": "écrire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Write! said politely", "foreign": "Écrivez !", "mark": [{"text": "ez", "role": "ending"}], "base": "écrire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not write!", "foreign": "N'écris pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "écrire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's write!", "foreign": "Écrivons !", "mark": [{"text": "ons", "role": "ending"}], "base": "écrire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 13, "verb": "acheter", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Achète ! To anyone else, or to more than one person: Achetez ! Telling a friend not to wraps the verb in ne and pas: N'achète pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Buy!", "foreign": "Achète !", "mark": [{"text": "e", "role": "ending"}], "base": "acheter", "features": {"command": "yes", "who": "you"}},
+				{"english": "Buy! said politely", "foreign": "Achetez !", "mark": [{"text": "ez", "role": "ending"}], "base": "acheter", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not buy!", "foreign": "N'achète pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "acheter", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's buy!", "foreign": "Achetons !", "mark": [{"text": "ons", "role": "ending"}], "base": "acheter", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 14, "verb": "boire", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Bois ! To anyone else, or to more than one person: Buvez ! Telling a friend not to wraps the verb in ne and pas: Ne bois pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Drink!", "foreign": "Bois !", "mark": [{"text": "s", "role": "ending"}], "base": "boire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Drink! said politely", "foreign": "Buvez !", "mark": [{"text": "ez", "role": "ending"}], "base": "boire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not drink!", "foreign": "Ne bois pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "boire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drink!", "foreign": "Buvons !", "mark": [{"text": "ons", "role": "ending"}], "base": "boire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 15, "verb": "dormir", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Dors ! To anyone else, or to more than one person: Dormez ! Telling a friend not to wraps the verb in ne and pas: Ne dors pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Sleep!", "foreign": "Dors !", "mark": [{"text": "s", "role": "ending"}], "base": "dormir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sleep! said politely", "foreign": "Dormez !", "mark": [{"text": "ez", "role": "ending"}], "base": "dormir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sleep!", "foreign": "Ne dors pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "dormir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sleep!", "foreign": "Dormons !", "mark": [{"text": "ons", "role": "ending"}], "base": "dormir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 16, "verb": "sortir", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Sors ! To anyone else, or to more than one person: Sortez ! Telling a friend not to wraps the verb in ne and pas: Ne sors pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Go out!", "foreign": "Sors !", "mark": [{"text": "s", "role": "ending"}], "base": "sortir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go out! said politely", "foreign": "Sortez !", "mark": [{"text": "ez", "role": "ending"}], "base": "sortir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not go out!", "foreign": "Ne sors pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "sortir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go out!", "foreign": "Sortons !", "mark": [{"text": "ons", "role": "ending"}], "base": "sortir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 17, "verb": "revenir", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Reviens ! To anyone else, or to more than one person: Revenez ! Telling a friend not to wraps the verb in ne and pas: Ne reviens pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Come back!", "foreign": "Reviens !", "mark": [{"text": "s", "role": "ending"}], "base": "revenir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Come back! said politely", "foreign": "Revenez !", "mark": [{"text": "ez", "role": "ending"}], "base": "revenir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come back!", "foreign": "Ne reviens pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "revenir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come back!", "foreign": "Revenons !", "mark": [{"text": "ons", "role": "ending"}], "base": "revenir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 18, "verb": "arriver", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Arrive ! To anyone else, or to more than one person: Arrivez ! Telling a friend not to wraps the verb in ne and pas: N'arrive pas !", "rows": [
+				{"english": "Arrive!", "foreign": "Arrive !", "mark": [{"text": "e", "role": "ending"}], "base": "arriver", "features": {"command": "yes", "who": "you"}},
+				{"english": "Arrive! said politely", "foreign": "Arrivez !", "mark": [{"text": "ez", "role": "ending"}], "base": "arriver", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not arrive!", "foreign": "N'arrive pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "arriver", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's arrive!", "foreign": "Arrivons !", "mark": [{"text": "ons", "role": "ending"}], "base": "arriver", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 19, "verb": "regarder", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Regarde ! To anyone else, or to more than one person: Regardez ! Telling a friend not to wraps the verb in ne and pas: Ne regarde pas !", "rows": [
+				{"english": "Look!", "foreign": "Regarde !", "mark": [{"text": "e", "role": "ending"}], "base": "regarder", "features": {"command": "yes", "who": "you"}},
+				{"english": "Look! said politely", "foreign": "Regardez !", "mark": [{"text": "ez", "role": "ending"}], "base": "regarder", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not look!", "foreign": "Ne regarde pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "regarder", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's look!", "foreign": "Regardons !", "mark": [{"text": "ons", "role": "ending"}], "base": "regarder", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 20, "verb": "attendre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Attends ! To anyone else, or to more than one person: Attendez ! Telling a friend not to wraps the verb in ne and pas: N'attends pas !", "rows": [
+				{"english": "Wait!", "foreign": "Attends !", "mark": [{"text": "s", "role": "ending"}], "base": "attendre", "features": {"command": "yes", "who": "you"}},
+				{"english": "Wait! said politely", "foreign": "Attendez !", "mark": [{"text": "ez", "role": "ending"}], "base": "attendre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not wait!", "foreign": "N'attends pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "attendre", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wait!", "foreign": "Attendons !", "mark": [{"text": "ons", "role": "ending"}], "base": "attendre", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 21, "verb": "chercher", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Cherche ! To anyone else, or to more than one person: Cherchez ! Telling a friend not to wraps the verb in ne and pas: Ne cherche pas !", "rows": [
+				{"english": "Search!", "foreign": "Cherche !", "mark": [{"text": "e", "role": "ending"}], "base": "chercher", "features": {"command": "yes", "who": "you"}},
+				{"english": "Search! said politely", "foreign": "Cherchez !", "mark": [{"text": "ez", "role": "ending"}], "base": "chercher", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not search!", "foreign": "Ne cherche pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "chercher", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's search!", "foreign": "Cherchons !", "mark": [{"text": "ons", "role": "ending"}], "base": "chercher", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 22, "verb": "trouver", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Trouve ! To anyone else, or to more than one person: Trouvez ! Telling a friend not to wraps the verb in ne and pas: Ne trouve pas !", "rows": [
+				{"english": "Find!", "foreign": "Trouve !", "mark": [{"text": "e", "role": "ending"}], "base": "trouver", "features": {"command": "yes", "who": "you"}},
+				{"english": "Find! said politely", "foreign": "Trouvez !", "mark": [{"text": "ez", "role": "ending"}], "base": "trouver", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not find!", "foreign": "Ne trouve pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "trouver", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's find!", "foreign": "Trouvons !", "mark": [{"text": "ons", "role": "ending"}], "base": "trouver", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 23, "verb": "appeler", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Appelle ! To anyone else, or to more than one person: Appelez ! Telling a friend not to wraps the verb in ne and pas: N'appelle pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Call!", "foreign": "Appelle !", "mark": [{"text": "e", "role": "ending"}], "base": "appeler", "features": {"command": "yes", "who": "you"}},
+				{"english": "Call! said politely", "foreign": "Appelez !", "mark": [{"text": "ez", "role": "ending"}], "base": "appeler", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not call!", "foreign": "N'appelle pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "appeler", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's call!", "foreign": "Appelons !", "mark": [{"text": "ons", "role": "ending"}], "base": "appeler", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 24, "verb": "commencer", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Commence ! To anyone else, or to more than one person: Commencez ! Telling a friend not to wraps the verb in ne and pas: Ne commence pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Begin!", "foreign": "Commence !", "mark": [{"text": "e", "role": "ending"}], "base": "commencer", "features": {"command": "yes", "who": "you"}},
+				{"english": "Begin! said politely", "foreign": "Commencez !", "mark": [{"text": "ez", "role": "ending"}], "base": "commencer", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not begin!", "foreign": "Ne commence pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "commencer", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's begin!", "foreign": "Commençons !", "mark": [{"text": "ons", "role": "ending"}], "base": "commencer", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 25, "verb": "finir", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Finis ! To anyone else, or to more than one person: Finissez ! Telling a friend not to wraps the verb in ne and pas: Ne finis pas !", "rows": [
+				{"english": "Finish!", "foreign": "Finis !", "mark": [{"text": "is", "role": "ending"}], "base": "finir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Finish! said politely", "foreign": "Finissez !", "mark": [{"text": "issez", "role": "ending"}], "base": "finir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not finish!", "foreign": "Ne finis pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "finir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's finish!", "foreign": "Finissons !", "mark": [{"text": "issons", "role": "ending"}], "base": "finir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 26, "verb": "ouvrir", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Ouvre ! To anyone else, or to more than one person: Ouvrez ! Telling a friend not to wraps the verb in ne and pas: N'ouvre pas !", "rows": [
+				{"english": "Open!", "foreign": "Ouvre !", "mark": [{"text": "e", "role": "ending"}], "base": "ouvrir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Open! said politely", "foreign": "Ouvrez !", "mark": [{"text": "ez", "role": "ending"}], "base": "ouvrir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not open!", "foreign": "N'ouvre pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "ouvrir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's open!", "foreign": "Ouvrons !", "mark": [{"text": "ons", "role": "ending"}], "base": "ouvrir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 27, "verb": "fermer", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Ferme ! To anyone else, or to more than one person: Fermez ! Telling a friend not to wraps the verb in ne and pas: Ne ferme pas !", "rows": [
+				{"english": "Close!", "foreign": "Ferme !", "mark": [{"text": "e", "role": "ending"}], "base": "fermer", "features": {"command": "yes", "who": "you"}},
+				{"english": "Close! said politely", "foreign": "Fermez !", "mark": [{"text": "ez", "role": "ending"}], "base": "fermer", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not close!", "foreign": "Ne ferme pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "fermer", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's close!", "foreign": "Fermons !", "mark": [{"text": "ons", "role": "ending"}], "base": "fermer", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 28, "verb": "apprendre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Apprends ! To anyone else, or to more than one person: Apprenez ! Telling a friend not to wraps the verb in ne and pas: N'apprends pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Learn!", "foreign": "Apprends !", "mark": [{"text": "s", "role": "ending"}], "base": "apprendre", "features": {"command": "yes", "who": "you"}},
+				{"english": "Learn! said politely", "foreign": "Apprenez !", "mark": [{"text": "ez", "role": "ending"}], "base": "apprendre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not learn!", "foreign": "N'apprends pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "apprendre", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's learn!", "foreign": "Apprenons !", "mark": [{"text": "ons", "role": "ending"}], "base": "apprendre", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 29, "verb": "étudier", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Étudie ! To anyone else, or to more than one person: Étudiez ! Telling a friend not to wraps the verb in ne and pas: N'étudie pas !", "rows": [
+				{"english": "Study!", "foreign": "Étudie !", "mark": [{"text": "e", "role": "ending"}], "base": "étudier", "features": {"command": "yes", "who": "you"}},
+				{"english": "Study! said politely", "foreign": "Étudiez !", "mark": [{"text": "ez", "role": "ending"}], "base": "étudier", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not study!", "foreign": "N'étudie pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "étudier", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's study!", "foreign": "Étudions !", "mark": [{"text": "ons", "role": "ending"}], "base": "étudier", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 30, "verb": "oublier", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Oublie ! To anyone else, or to more than one person: Oubliez ! Telling a friend not to wraps the verb in ne and pas: N'oublie pas !", "rows": [
+				{"english": "Forget!", "foreign": "Oublie !", "mark": [{"text": "e", "role": "ending"}], "base": "oublier", "features": {"command": "yes", "who": "you"}},
+				{"english": "Forget! said politely", "foreign": "Oubliez !", "mark": [{"text": "ez", "role": "ending"}], "base": "oublier", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not forget!", "foreign": "N'oublie pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "oublier", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's forget!", "foreign": "Oublions !", "mark": [{"text": "ons", "role": "ending"}], "base": "oublier", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 31, "verb": "courir", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Cours ! To anyone else, or to more than one person: Courez ! Telling a friend not to wraps the verb in ne and pas: Ne cours pas !", "rows": [
+				{"english": "Run!", "foreign": "Cours !", "mark": [{"text": "s", "role": "ending"}], "base": "courir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Run! said politely", "foreign": "Courez !", "mark": [{"text": "ez", "role": "ending"}], "base": "courir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not run!", "foreign": "Ne cours pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "courir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's run!", "foreign": "Courons !", "mark": [{"text": "ons", "role": "ending"}], "base": "courir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 32, "verb": "marcher", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Marche ! To anyone else, or to more than one person: Marchez ! Telling a friend not to wraps the verb in ne and pas: Ne marche pas !", "rows": [
+				{"english": "Walk!", "foreign": "Marche !", "mark": [{"text": "e", "role": "ending"}], "base": "marcher", "features": {"command": "yes", "who": "you"}},
+				{"english": "Walk! said politely", "foreign": "Marchez !", "mark": [{"text": "ez", "role": "ending"}], "base": "marcher", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not walk!", "foreign": "Ne marche pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "marcher", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's walk!", "foreign": "Marchons !", "mark": [{"text": "ons", "role": "ending"}], "base": "marcher", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 33, "verb": "chanter", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Chante ! To anyone else, or to more than one person: Chantez ! Telling a friend not to wraps the verb in ne and pas: Ne chante pas !", "rows": [
+				{"english": "Sing!", "foreign": "Chante !", "mark": [{"text": "e", "role": "ending"}], "base": "chanter", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sing! said politely", "foreign": "Chantez !", "mark": [{"text": "ez", "role": "ending"}], "base": "chanter", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sing!", "foreign": "Ne chante pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "chanter", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sing!", "foreign": "Chantons !", "mark": [{"text": "ons", "role": "ending"}], "base": "chanter", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 34, "verb": "jouer", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Joue ! To anyone else, or to more than one person: Jouez ! Telling a friend not to wraps the verb in ne and pas: Ne joue pas !", "rows": [
+				{"english": "Play!", "foreign": "Joue !", "mark": [{"text": "e", "role": "ending"}], "base": "jouer", "features": {"command": "yes", "who": "you"}},
+				{"english": "Play! said politely", "foreign": "Jouez !", "mark": [{"text": "ez", "role": "ending"}], "base": "jouer", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not play!", "foreign": "Ne joue pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "jouer", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's play!", "foreign": "Jouons !", "mark": [{"text": "ons", "role": "ending"}], "base": "jouer", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 35, "verb": "payer", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Paye ! To anyone else, or to more than one person: Payez ! Telling a friend not to wraps the verb in ne and pas: Ne paye pas !", "rows": [
+				{"english": "Pay!", "foreign": "Paye !", "mark": [{"text": "e", "role": "ending"}], "base": "payer", "features": {"command": "yes", "who": "you"}},
+				{"english": "Pay! said politely", "foreign": "Payez !", "mark": [{"text": "ez", "role": "ending"}], "base": "payer", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not pay!", "foreign": "Ne paye pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "payer", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's pay!", "foreign": "Payons !", "mark": [{"text": "ons", "role": "ending"}], "base": "payer", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 36, "verb": "vendre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Vends ! To anyone else, or to more than one person: Vendez ! Telling a friend not to wraps the verb in ne and pas: Ne vends pas !", "rows": [
+				{"english": "Sell!", "foreign": "Vends !", "mark": [{"text": "s", "role": "ending"}], "base": "vendre", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sell! said politely", "foreign": "Vendez !", "mark": [{"text": "ez", "role": "ending"}], "base": "vendre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sell!", "foreign": "Ne vends pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "vendre", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sell!", "foreign": "Vendons !", "mark": [{"text": "ons", "role": "ending"}], "base": "vendre", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 37, "verb": "aider", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Aide ! To anyone else, or to more than one person: Aidez ! Telling a friend not to wraps the verb in ne and pas: N'aide pas !", "rows": [
+				{"english": "Help!", "foreign": "Aide !", "mark": [{"text": "e", "role": "ending"}], "base": "aider", "features": {"command": "yes", "who": "you"}},
+				{"english": "Help! said politely", "foreign": "Aidez !", "mark": [{"text": "ez", "role": "ending"}], "base": "aider", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not help!", "foreign": "N'aide pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "aider", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's help!", "foreign": "Aidons !", "mark": [{"text": "ons", "role": "ending"}], "base": "aider", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 38, "verb": "cuisiner", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Cuisine ! To anyone else, or to more than one person: Cuisinez ! Telling a friend not to wraps the verb in ne and pas: Ne cuisine pas !", "rows": [
+				{"english": "Cook!", "foreign": "Cuisine !", "mark": [{"text": "e", "role": "ending"}], "base": "cuisiner", "features": {"command": "yes", "who": "you"}},
+				{"english": "Cook! said politely", "foreign": "Cuisinez !", "mark": [{"text": "ez", "role": "ending"}], "base": "cuisiner", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not cook!", "foreign": "Ne cuisine pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "cuisiner", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's cook!", "foreign": "Cuisinons !", "mark": [{"text": "ons", "role": "ending"}], "base": "cuisiner", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 39, "verb": "voyager", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Voyage ! To anyone else, or to more than one person: Voyagez ! Telling a friend not to wraps the verb in ne and pas: Ne voyage pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Travel!", "foreign": "Voyage !", "mark": [{"text": "e", "role": "ending"}], "base": "voyager", "features": {"command": "yes", "who": "you"}},
+				{"english": "Travel! said politely", "foreign": "Voyagez !", "mark": [{"text": "ez", "role": "ending"}], "base": "voyager", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not travel!", "foreign": "Ne voyage pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "voyager", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's travel!", "foreign": "Voyageons !", "mark": [{"text": "ons", "role": "ending"}], "base": "voyager", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 40, "verb": "demander", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Demande ! To anyone else, or to more than one person: Demandez ! Telling a friend not to wraps the verb in ne and pas: Ne demande pas !", "rows": [
+				{"english": "Ask!", "foreign": "Demande !", "mark": [{"text": "e", "role": "ending"}], "base": "demander", "features": {"command": "yes", "who": "you"}},
+				{"english": "Ask! said politely", "foreign": "Demandez !", "mark": [{"text": "ez", "role": "ending"}], "base": "demander", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not ask!", "foreign": "Ne demande pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "demander", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask!", "foreign": "Demandons !", "mark": [{"text": "ons", "role": "ending"}], "base": "demander", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 41, "verb": "répondre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Réponds ! To anyone else, or to more than one person: Répondez ! Telling a friend not to wraps the verb in ne and pas: Ne réponds pas !", "rows": [
+				{"english": "Answer!", "foreign": "Réponds !", "mark": [{"text": "s", "role": "ending"}], "base": "répondre", "features": {"command": "yes", "who": "you"}},
+				{"english": "Answer! said politely", "foreign": "Répondez !", "mark": [{"text": "ez", "role": "ending"}], "base": "répondre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not answer!", "foreign": "Ne réponds pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "répondre", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's answer!", "foreign": "Répondons !", "mark": [{"text": "ons", "role": "ending"}], "base": "répondre", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 42, "verb": "perdre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Perds ! To anyone else, or to more than one person: Perdez ! Telling a friend not to wraps the verb in ne and pas: Ne perds pas !", "rows": [
+				{"english": "Lose!", "foreign": "Perds !", "mark": [{"text": "s", "role": "ending"}], "base": "perdre", "features": {"command": "yes", "who": "you"}},
+				{"english": "Lose! said politely", "foreign": "Perdez !", "mark": [{"text": "ez", "role": "ending"}], "base": "perdre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not lose!", "foreign": "Ne perds pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "perdre", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's lose!", "foreign": "Perdons !", "mark": [{"text": "ons", "role": "ending"}], "base": "perdre", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 43, "verb": "recevoir", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Reçois ! To anyone else, or to more than one person: Recevez ! Telling a friend not to wraps the verb in ne and pas: Ne reçois pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Receive!", "foreign": "Reçois !", "mark": [{"text": "is", "role": "ending"}], "base": "recevoir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Receive! said politely", "foreign": "Recevez !", "mark": [{"text": "ez", "role": "ending"}], "base": "recevoir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not receive!", "foreign": "Ne reçois pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "recevoir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's receive!", "foreign": "Recevons !", "mark": [{"text": "ons", "role": "ending"}], "base": "recevoir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 44, "verb": "commander", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Commande ! To anyone else, or to more than one person: Commandez ! Telling a friend not to wraps the verb in ne and pas: Ne commande pas !", "rows": [
+				{"english": "Order!", "foreign": "Commande !", "mark": [{"text": "e", "role": "ending"}], "base": "commander", "features": {"command": "yes", "who": "you"}},
+				{"english": "Order! said politely", "foreign": "Commandez !", "mark": [{"text": "ez", "role": "ending"}], "base": "commander", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not order!", "foreign": "Ne commande pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "commander", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's order!", "foreign": "Commandons !", "mark": [{"text": "ons", "role": "ending"}], "base": "commander", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 45, "verb": "suivre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Suis ! To anyone else, or to more than one person: Suivez ! Telling a friend not to wraps the verb in ne and pas: Ne suis pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Follow!", "foreign": "Suis !", "mark": [{"text": "s", "role": "ending"}], "base": "suivre", "features": {"command": "yes", "who": "you"}},
+				{"english": "Follow! said politely", "foreign": "Suivez !", "mark": [{"text": "ez", "role": "ending"}], "base": "suivre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not follow!", "foreign": "Ne suis pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "suivre", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's follow!", "foreign": "Suivons !", "mark": [{"text": "ons", "role": "ending"}], "base": "suivre", "features": {"command": "yes", "who": "we"}}
+			]}
+	]
+}

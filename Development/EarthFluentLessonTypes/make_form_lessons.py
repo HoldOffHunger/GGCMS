@@ -16,18 +16,27 @@ import json
 import sys
 from pathlib import Path
 
+from make_forms import elide
+
 HERE = Path(__file__).resolve().parent
 
 
+def entry_of(forms: dict, base: str, features: dict) -> dict:
+    return next(form for form in forms[base] if form["features"] == features)
+
+
 def form_of(forms: dict, base: str, features: dict) -> str:
-    return next(form["form"] for form in forms[base] if form["features"] == features)
+    return entry_of(forms, base, features)["form"]
 
 
-def ending(recipes: dict, name: str, base: str, form: str) -> str:
-    """The longest of the verb class's regular endings that the form ends in, or nothing"""
+
+
+def ending(recipes: dict, name: str, base: str, form: str) -> str | None:
+    """The longest of the verb class's regular endings that the form ends in. Nothing if it ends in none of them;
+    an empty ending where the class lists one, which says that having no ending is regular there (elle vend)."""
     last = base[-2:].replace("í", "i")
     found = [text for text in recipes["endings"][name].get(last, []) if form.endswith(text)]
-    return max(found, key=len) if found else ""
+    return max(found, key=len) if found else None
 
 
 def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
@@ -37,22 +46,28 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
     stem, rows, unmarked, moved = base[:-2], [], False, False
     two = len(recipe["strategy"]) > 1
     for slot in recipe["rows"]:
-        form = form_of(forms, base, slot["features"])
-        text, marks = form, []
-        if "helper" in slot:
+        entry = entry_of(forms, base, slot["features"])
+        form = entry.get("part", entry["form"])  # the word that carries the ending: parlé, of ai parlé
+        text, marks = entry["form"], []
+        if "helper" in entry:  # the dictionary's own two-word form: its helper is lit as a helper
+            marks.append({"text": entry["helper"], "role": "helper word"})
+        if "helper" in slot:  # a helper the recipe adds: estoy, in front of hablando
             helper = form_of(forms, slot["helper"]["base"], slot["helper"]["features"])
-            text = helper + " " + form
+            text = helper + " " + text
             marks.append({"text": helper, "role": "helper word"})
         if "wrap" in slot:
-            text = slot["wrap"].format(form[0].upper() + form[1:] if slot["wrap"].startswith("¡{}") else form)
-        if "word" in slot:
-            marks.append({"text": slot["word"], "role": "helper word"})
+            text = slot["wrap"].format(text[0].upper() + text[1:] if slot.get("capital") else text)
+        text = elide(recipes, text)
+        for word in slot.get("words", []):  # a word the wrap added that does the job: No, or Ne and pas. A list is its spellings.
+            spelt = next((option for option in ([word] if isinstance(word, str) else word) if option in text), "")
+            if spelt:
+                marks.append({"text": spelt, "role": "helper word"})
         if "endings" in slot:
             piece = ending(recipes, slot["endings"], base, form)
             if piece:
                 marks.append({"text": piece, "role": "ending"} if two or marks else piece)
                 moved = moved or form[:-len(piece)] != stem  # salgo, busqué, tendré: the ending is regular and the rest is not
-            else:
+            elif piece is None:
                 unmarked = True
         row = {"english": slot["english"].format(**english), "foreign": text}
         if marks:

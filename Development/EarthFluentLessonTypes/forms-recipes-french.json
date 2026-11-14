@@ -1,0 +1,154 @@
+{
+	"about": "How French verb forms are read out of the Wiktionary dump and turned into lessons. make_forms.py uses `slots`; make_form_lessons.py uses the rest. Everything French about the conjugation system lives in this one file. Written by Claude with Ben on 14 November 2026, after the Spanish one. What French needed that Spanish did not: a subject word in front of every form (je parle, never bare parle), which loses its vowel before a vowel (j'ai); and a before that is two words, a form of avoir or être and the verb's done form (j'ai parlé, je suis allé), where the done form of an être verb also matches who did it (elle est allée). French has no form of its own for going on right now, so there is no recipe for that job: its one lesson is the grid's.",
+	"language": "french",
+	"translation_language": "fr",
+	"dump": "kaikki.org-dictionary-French.jsonl",
+	"dictionary_form": {"form": "infinitive"},
+	"skip_tags": ["multiword-construction", "reflexive", "table-tags", "inflection-template"],
+	"helper_tags": ["infinitive", "multiword-construction"],
+	"helper_verbs": ["avoir", "être"],
+	"elide": {
+		"about": "The little words that lose their vowel, and the letters they lose it before. H is here because nearly every French h is silent; the few verbs with a sounded one (haïr) are not in the list below.",
+		"words": {"je ": "j'", "ne ": "n'", "Ne ": "N'"},
+		"before": "aeiouyhéèêëàâîïôœ"
+	},
+	"slots": [
+		{"features": {"form": "infinitive"}, "tags": ["infinitive"]},
+		{"features": {"form": "done"}, "tags": ["participle", "past"]},
+
+		{"features": {"who": "i", "when": "now"}, "tags": ["first-person", "indicative", "present", "singular"]},
+		{"features": {"who": "you", "when": "now"}, "tags": ["second-person", "indicative", "present", "singular"]},
+		{"features": {"who": "she", "when": "now"}, "tags": ["third-person", "indicative", "present", "singular"]},
+		{"features": {"who": "we", "when": "now"}, "tags": ["first-person", "indicative", "present", "plural"]},
+		{"features": {"who": "you-all", "when": "now"}, "tags": ["second-person", "indicative", "present", "plural"]},
+		{"features": {"who": "they", "when": "now"}, "tags": ["third-person", "indicative", "present", "plural"]},
+
+		{"features": {"who": "i", "when": "before"}, "compound": {"helper": {"who": "i", "when": "now"}, "part": {"form": "done"}, "agree": {"être": ["", "(e)"]}}},
+		{"features": {"who": "you", "when": "before"}, "compound": {"helper": {"who": "you", "when": "now"}, "part": {"form": "done"}, "agree": {"être": ["", "(e)"]}}},
+		{"features": {"who": "she", "when": "before"}, "compound": {"helper": {"who": "she", "when": "now"}, "part": {"form": "done"}, "agree": {"être": ["e", "(e)"]}}},
+		{"features": {"who": "we", "when": "before"}, "compound": {"helper": {"who": "we", "when": "now"}, "part": {"form": "done"}, "agree": {"être": ["s", "(e)s"]}}},
+		{"features": {"who": "you-all", "when": "before"}, "compound": {"helper": {"who": "you-all", "when": "now"}, "part": {"form": "done"}, "agree": {"être": ["s", "(e)(s)"]}}},
+		{"features": {"who": "they", "when": "before"}, "compound": {"helper": {"who": "they", "when": "now"}, "part": {"form": "done"}, "agree": {"être": ["s", "(e)s"]}}},
+
+		{"features": {"who": "i", "when": "before", "going": "yes"}, "tags": ["first-person", "imperfect", "indicative", "singular"]},
+		{"features": {"who": "you", "when": "before", "going": "yes"}, "tags": ["second-person", "imperfect", "indicative", "singular"]},
+		{"features": {"who": "she", "when": "before", "going": "yes"}, "tags": ["third-person", "imperfect", "indicative", "singular"]},
+		{"features": {"who": "we", "when": "before", "going": "yes"}, "tags": ["first-person", "imperfect", "indicative", "plural"]},
+		{"features": {"who": "you-all", "when": "before", "going": "yes"}, "tags": ["second-person", "imperfect", "indicative", "plural"]},
+		{"features": {"who": "they", "when": "before", "going": "yes"}, "tags": ["third-person", "imperfect", "indicative", "plural"]},
+
+		{"features": {"who": "i", "when": "later"}, "tags": ["first-person", "indicative", "future", "singular"]},
+		{"features": {"who": "you", "when": "later"}, "tags": ["second-person", "indicative", "future", "singular"]},
+		{"features": {"who": "she", "when": "later"}, "tags": ["third-person", "indicative", "future", "singular"]},
+		{"features": {"who": "we", "when": "later"}, "tags": ["first-person", "indicative", "future", "plural"]},
+		{"features": {"who": "you-all", "when": "later"}, "tags": ["second-person", "indicative", "future", "plural"]},
+		{"features": {"who": "they", "when": "later"}, "tags": ["third-person", "indicative", "future", "plural"]},
+
+		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "second-person", "singular"]},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "tags": ["imperative", "second-person", "plural"]},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "second-person", "singular"], "shown": "ne {} pas"},
+		{"features": {"command": "yes", "who": "we"}, "tags": ["first-person", "imperative", "plural"]}
+	],
+
+	"endings": {
+		"about": "The regular endings, by the verb's last two letters, longest first where it matters. A form that ends in one has that ending lit on the board, whatever its stem did (je dors lights s). An empty ending says that having none is regular there: elle vend. A form that ends in none of them is one of the verbs that go their own way. Verbs in oir are filed with ir, since those are their last two letters.",
+		"now":     {"er": ["e", "es", "ons"], "ir": ["is", "it", "issons", "s", "t", "x", "ons", "e", "es"], "re": ["s", "t", "ons", ""]},
+		"done":    {"er": ["é", "ée"], "ir": ["i", "ie", "u", "ue"], "re": ["u", "ue", "i", "ie"]},
+		"later":   {"er": ["erai"], "ir": ["irai", "rai"], "re": ["rai"]},
+		"command": {"er": ["e", "ez", "ons"], "ir": ["is", "issez", "issons", "s", "ez", "ons", "e"], "re": ["s", "ez", "ons"]}
+	},
+
+	"middle": " Watch the middle of the word too: in some of these it changes.",
+
+	"recipes": {
+		"who": {
+			"strategy": ["ending"],
+			"description": "The ending changes with who is doing it: {1}, {2}, {3}, {4}. Spot what changes.",
+			"own_way": " {Base} is one of the verbs that go their own way, so learn these four as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now", "wrap": "je {}"},
+				{"english": "You {base}", "features": {"who": "you", "when": "now"}, "endings": "now", "wrap": "tu {}"},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}, "endings": "now", "wrap": "elle {}"},
+				{"english": "We {base}", "features": {"who": "we", "when": "now"}, "endings": "now", "wrap": "nous {}"}
+			]
+		},
+		"when": {
+			"strategy": ["ending", "helper word"],
+			"description": "For before, a form of avoir or être goes in front and the verb changes: {2}. For later, the ending alone says so: {3}.",
+			"own_way": " {Base} goes its own way here, so learn these as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now", "wrap": "je {}"},
+				{"english": "I {past}", "features": {"who": "i", "when": "before"}, "endings": "done", "wrap": "je {}", "from": 1},
+				{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "endings": "later", "wrap": "je {}", "from": 1},
+				{"english": "She {past}", "features": {"who": "she", "when": "before"}, "endings": "done", "wrap": "elle {}"}
+			]
+		},
+		"command": {
+			"strategy": ["ending", "helper word"],
+			"skip": "stative",
+			"description": "To a friend, the verb stands alone: {1} To anyone else, or to more than one person: {2} Telling a friend not to wraps the verb in ne and pas: {3}",
+			"rows": [
+				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "endings": "command", "wrap": "{} !", "capital": true},
+				{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "endings": "command", "wrap": "{} !", "capital": true},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "Ne {} pas !", "words": [["Ne", "N'"], "pas"], "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "endings": "command", "wrap": "{} !", "capital": true}
+			]
+		}
+	},
+
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job. Left out on purpose: être, which needs a lesson of its own; pouvoir and devoir, which are the want-can-must job; lire and mettre, whose English is the same now and before; and the verbs said with se (se lever), which wait for their own recipe.",
+		"list": [
+			["avoir", "have", "has", "had", "having", "stative"],
+			["faire", "make", "makes", "made", "making"],
+			["aller", "go", "goes", "went", "going"],
+			["dire", "say", "says", "said", "saying"],
+			["voir", "see", "sees", "saw", "seeing", "stative"],
+			["donner", "give", "gives", "gave", "giving"],
+			["savoir", "know", "knows", "knew", "knowing", "stative"],
+			["vouloir", "want", "wants", "wanted", "wanting", "stative"],
+			["venir", "come", "comes", "came", "coming"],
+			["manger", "eat", "eats", "ate", "eating"],
+			["vivre", "live", "lives", "lived", "living"],
+			["travailler", "work", "works", "worked", "working"],
+			["penser", "think", "thinks", "thought", "thinking"],
+			["prendre", "take", "takes", "took", "taking"],
+			["écrire", "write", "writes", "wrote", "writing"],
+			["acheter", "buy", "buys", "bought", "buying"],
+			["boire", "drink", "drinks", "drank", "drinking"],
+			["dormir", "sleep", "sleeps", "slept", "sleeping"],
+			["sortir", "go out", "goes out", "went out", "going out"],
+			["revenir", "come back", "comes back", "came back", "coming back"],
+			["arriver", "arrive", "arrives", "arrived", "arriving"],
+			["regarder", "look", "looks", "looked", "looking"],
+			["attendre", "wait", "waits", "waited", "waiting"],
+			["chercher", "search", "searches", "searched", "searching"],
+			["trouver", "find", "finds", "found", "finding"],
+			["appeler", "call", "calls", "called", "calling"],
+			["commencer", "begin", "begins", "began", "beginning"],
+			["finir", "finish", "finishes", "finished", "finishing"],
+			["ouvrir", "open", "opens", "opened", "opening"],
+			["fermer", "close", "closes", "closed", "closing"],
+			["apprendre", "learn", "learns", "learned", "learning"],
+			["étudier", "study", "studies", "studied", "studying"],
+			["comprendre", "understand", "understands", "understood", "understanding", "stative"],
+			["oublier", "forget", "forgets", "forgot", "forgetting"],
+			["courir", "run", "runs", "ran", "running"],
+			["marcher", "walk", "walks", "walked", "walking"],
+			["chanter", "sing", "sings", "sang", "singing"],
+			["jouer", "play", "plays", "played", "playing"],
+			["payer", "pay", "pays", "paid", "paying"],
+			["vendre", "sell", "sells", "sold", "selling"],
+			["aider", "help", "helps", "helped", "helping"],
+			["cuisiner", "cook", "cooks", "cooked", "cooking"],
+			["voyager", "travel", "travels", "travelled", "travelling"],
+			["demander", "ask", "asks", "asked", "asking"],
+			["répondre", "answer", "answers", "answered", "answering"],
+			["perdre", "lose", "loses", "lost", "losing"],
+			["recevoir", "receive", "receives", "received", "receiving"],
+			["commander", "order", "orders", "ordered", "ordering"],
+			["suivre", "follow", "follows", "followed", "following"],
+			["sentir", "feel", "feels", "felt", "feeling", "stative"]
+		]
+	}
+}
