@@ -291,6 +291,7 @@
 					'BuiltFromEntryid',
 					'Language',
 					'BaseWord',
+					'FormText',
 					'Features',
 					'Source',
 				],

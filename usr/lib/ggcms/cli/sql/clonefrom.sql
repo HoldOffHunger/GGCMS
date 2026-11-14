@@ -1393,6 +1393,7 @@ CREATE TABLE `WordForm` (
   `BuiltFromEntryid` int NOT NULL DEFAULT '0',
   `Language` varchar(32) NOT NULL DEFAULT '',
   `BaseWord` varchar(255) NOT NULL DEFAULT '',
+  `FormText` varchar(255) NOT NULL DEFAULT '',
   `Features` varchar(255) NOT NULL DEFAULT '',
   `Source` varchar(255) NOT NULL DEFAULT '',
   `OriginalCreationDate` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',

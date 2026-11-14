@@ -3289,6 +3289,16 @@
 					'Extra' => '',
 				],
 				
+				'FormText' => [
+					'Type' => 'varchar(255)',
+					'TypeBase' => 'varchar',
+					'TypeAttribute' => 255,
+					'Null' => 'NO',
+					'Key' => '',
+					'Default' => '',
+					'Extra' => '',
+				],
+				
 				'Features' => [
 					'Type' => 'varchar(255)',
 					'TypeBase' => 'varchar',

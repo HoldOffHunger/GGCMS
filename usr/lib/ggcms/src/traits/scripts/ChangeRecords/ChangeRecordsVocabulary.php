@@ -111,6 +111,7 @@
 						'wordform_BuiltFromEntryid',
 						'wordform_Language',
 						'wordform_BaseWord',
+						'wordform_FormText',
 						'wordform_Features',
 						'wordform_Source',
 					],

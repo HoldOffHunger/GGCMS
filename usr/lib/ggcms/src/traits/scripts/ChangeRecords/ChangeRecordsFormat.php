@@ -235,7 +235,7 @@
 		public function FormatSavedRecordFromQuery_WordForm() {
 			$format_args = [
 				'recordtype'=>'wordform',
-				'recordfields'=>['BuiltFromEntryid', 'Language', 'BaseWord', 'Features', 'Source'],
+				'recordfields'=>['BuiltFromEntryid', 'Language', 'BaseWord', 'FormText', 'Features', 'Source'],
 			];
 			
 			return $this->FormatSavedRecordFromQuery_Base($format_args);

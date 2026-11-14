@@ -119,6 +119,7 @@
 					$recordtype = 'WordPiece';
 					break;
 				case 'BaseWord':
+				case 'FormText':
 				case 'BuiltFromEntryid':
 					$recordtype = 'WordForm';
 					break;
