@@ -65,6 +65,19 @@
 			$db_access->ExecuteStatement(['statement'=>new DBAccessTestStatement(new mysqli_sql_exception('Column cannot be null', 1048)), 'query'=>'SELECT 1']);
 		}
 
+		public function testFlushPageCacheNow() {
+				// A run that has promised to re-render its own pages flushes nothing, whichever DBAccess is asked
+			$db_access = (new ReflectionClass('DBAccess'))->newInstanceWithoutConstructor();
+
+			DBAccess::$keep_page_cache = TRUE;
+
+			try {
+				$this->assertFalse($db_access->FlushPageCacheNow());
+			} finally {
+				DBAccess::$keep_page_cache = FALSE;
+			}
+		}
+
 			// An import flushes after every entry; each flush must be of what came since the last
 		public function testFlushRowCacheNowForgetsWhatItFlushed() {
 			$db_access = $this->newWithoutConstructor(['class'=>'DBAccess']);

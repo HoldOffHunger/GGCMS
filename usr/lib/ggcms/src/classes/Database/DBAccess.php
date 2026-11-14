@@ -18,6 +18,15 @@
 		public $row_cache_dirty;
 		public $page_cache_dirty_scope;
 		public $page_cache_dirty;
+
+			/*
+				Set for a run that has promised to re-render its own pages
+				(import_entries.php --keep-cache).  Static, because an import
+				saves each entry through a script of its own and whichever
+				DBAccess that script holds must honour it too.
+			*/
+
+		public static $keep_page_cache = FALSE;
 		
 		public $ip_address;
 		
@@ -1509,6 +1518,10 @@
 		}
 
 		public function FlushPageCacheNow() {
+			if(self::$keep_page_cache) {
+				return FALSE;
+			}
+
 			try {
 				if(!class_exists('PageCache')) {
 					ggreq('classes/Cache/PageCache.php');

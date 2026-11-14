@@ -126,6 +126,17 @@
 			$limit = $args['limit'];
 			$keepcache = !empty($args['keepcache']);
 
+				/*
+					Before the first save, not after the last.  Every content
+					write books the database layer's own flush of the whole
+					site for when the process ends, and that one emptied
+					EarthFluent's cache behind a report that said it was kept.
+				*/
+
+			if($apply && $keepcache) {
+				DBAccess::$keep_page_cache = TRUE;
+			}
+
 			$this->import_registry = [];
 
 			$ordered = $this->OrderImportGroups(['groups'=>$plan['groups']]);
