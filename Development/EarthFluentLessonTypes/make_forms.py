@@ -13,6 +13,7 @@ The dump is kaikki.org's extract of the English Wiktionary. Nothing here calls a
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -23,6 +24,22 @@ def elide(recipes: dict, text: str) -> str:
     for whole, short in recipes.get("elide", {}).get("words", {}).items():
         text = re.sub(re.escape(whole) + "(?=[" + recipes["elide"]["before"] + "])", short, text)
     return text
+
+
+def plain(recipes: dict, text: str) -> str:
+    """The form as it is written. The Italian dictionary marks where the stress falls (pàrlo, andàre, hò), which nobody
+    writes. Only an accent on the last letter of a word of two beats or more is spelling (parlerò, andrà), and on the
+    few one-beat words the recipe lists (è, dà, può). A recipe asks for this with strip_inner_accents."""
+    if not recipes.get("strip_inner_accents"):
+        return text
+    bare = lambda word: unicodedata.normalize("NFC", "".join(
+        char for char in unicodedata.normalize("NFD", word) if unicodedata.category(char) != "Mn"))
+    words = []
+    for word in text.split(" "):
+        beats = len(re.findall("[aeiou]+", bare(word).lower()))
+        keeps = word in recipes.get("accented_monosyllables", []) or (beats > 1 and word[-1:] not in "'’")
+        words.append(bare(word[:-1]) + word[-1:] if keeps else bare(word))
+    return " ".join(words)
 
 
 def table(entry: dict, skip: set) -> list:
@@ -40,6 +57,11 @@ def table(entry: dict, skip: set) -> list:
     return forms
 
 
+def agreed(part: str, change: str) -> str:
+    """allé + "e" is allée; andato + "-a" is andata: a change that starts with a hyphen replaces the last letter"""
+    return part[:-1] + change[1:] if change.startswith("-") else part + change
+
+
 def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
     skip = set(recipes["skip_tags"])
     verbs, missing = {}, []
@@ -51,7 +73,7 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
             word = entry.get("word")
             if word not in wanted or word in verbs or entry.get("pos") != "verb":
                 continue
-            forms = table(entry, skip)
+            forms = [(plain(recipes, text), tags) for text, tags in table(entry, skip)]
             if not forms:
                 continue  # a form-of entry, or an entry with no table: the real one comes later in the dump
             found = []
@@ -62,8 +84,9 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                     # sorti la poubelle), être when it is the going itself (je suis sorti), which is the sense a course
                     # teaches first. So a helper named in recipes["helper_prefers"] wins wherever the verb can take it, unless
                     # recipes["helper_of"] names the verb: disparaître can take être, and nobody now says il est disparu.
-                    helpers = [text.split(" + ")[0] for text in named]
-                    chosen = recipes.get("helper_of", {}).get(word)                         or next((helper for helper in recipes.get("helper_prefers", []) if helper in helpers), helpers[0])
+                    helpers = [plain(recipes, text.split(" + ")[0]) for text in named]
+                    preferred = next((helper for helper in recipes.get("helper_prefers", []) if helper in helpers), helpers[0])
+                    chosen = recipes.get("helper_of", {}).get(word) or preferred
                     found.append({"form": chosen, "features": {"form": "helper"}})
             for slot in recipes["slots"]:
                 if "compound" in slot:
@@ -80,7 +103,7 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
     for word, found in verbs.items():
         for slot in recipes["slots"]:
             if "compound" in slot:
-                made = compound(verbs, found, slot["compound"])
+                made = compound(recipes, verbs, found, slot["compound"])
                 if made:
                     found.append({**made, "features": slot["features"]})
                 else:
@@ -88,18 +111,21 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
     return verbs, missing
 
 
-def compound(verbs: dict, found: list, how: dict) -> dict | None:
-    """A two-word form: the helper verb's own form, then the verb's part. ai parlé; suis allé, which a woman writes allée."""
+def compound(recipes: dict, verbs: dict, found: list, how: dict) -> dict | None:
+    """A two-word form: a helper verb's own form, then the verb's part. ai parlé; suis allé, which a woman writes allée.
+    The helper is the one the dictionary names for this verb, unless the slot names one for every verb: vou falar."""
     def of(forms: list, features: dict) -> str:
         return next((form["form"] for form in forms if form["features"] == features), "")
-    helper_verb = of(found, {"form": "helper"})
+    helper_verb = how.get("verb") or of(found, {"form": "helper"})
     helper, part = of(verbs.get(helper_verb, []), how["helper"]), of(found, how["part"])
     if not helper or not part:
         return None
-    suffix, shown = how.get("agree", {}).get(helper_verb, ["", ""])
-    made = {"form": f"{helper} {part}{suffix}", "helper": helper, "part": part + suffix}
+    if how.get("alone_for_itself") and verbs.get(helper_verb) is found:
+        return {"form": helper}  # let's go is vamos, not vamos ir
+    change, shown = how.get("agree", {}).get(helper_verb, ["", ""])
+    made = {"form": f"{helper} {agreed(part, change)}", "helper": helper, "part": agreed(part, change)}
     if shown:
-        made["shown"] = f"{helper} {part}{shown}"
+        made["shown"] = f"{helper} {agreed(part, shown)}"
     return made
 
 

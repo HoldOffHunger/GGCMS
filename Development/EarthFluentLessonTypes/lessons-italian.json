@@ -1,0 +1,1124 @@
+{
+	"language": "italian",
+	"translation_language": "it",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-italian.json and the recipes in forms-recipes-italian.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "avere", "strategy": ["ending"], "description": "The ending says who is doing it: ho, hai, ha, abbiamo. Spot what changes. Avere is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I have", "foreign": "ho", "mark": ["o"], "base": "avere", "features": {"who": "i", "when": "now"}},
+				{"english": "You have", "foreign": "hai", "mark": ["i"], "base": "avere", "features": {"who": "you", "when": "now"}},
+				{"english": "She has", "foreign": "ha", "base": "avere", "features": {"who": "she", "when": "now"}},
+				{"english": "We have", "foreign": "abbiamo", "mark": ["iamo"], "base": "avere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "fare", "strategy": ["ending"], "description": "The ending says who is doing it: faccio, fai, fa, facciamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I make", "foreign": "faccio", "mark": ["o"], "base": "fare", "features": {"who": "i", "when": "now"}},
+				{"english": "You make", "foreign": "fai", "mark": ["i"], "base": "fare", "features": {"who": "you", "when": "now"}},
+				{"english": "She makes", "foreign": "fa", "mark": ["a"], "base": "fare", "features": {"who": "she", "when": "now"}},
+				{"english": "We make", "foreign": "facciamo", "mark": ["iamo"], "base": "fare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "andare", "strategy": ["ending"], "description": "The ending says who is doing it: vado, vai, va, andiamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go", "foreign": "vado", "mark": ["o"], "base": "andare", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "vai", "mark": ["i"], "base": "andare", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "va", "mark": ["a"], "base": "andare", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "andiamo", "mark": ["iamo"], "base": "andare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "dire", "strategy": ["ending"], "description": "The ending says who is doing it: dico, dici, dice, diciamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I say", "foreign": "dico", "mark": ["o"], "base": "dire", "features": {"who": "i", "when": "now"}},
+				{"english": "You say", "foreign": "dici", "mark": ["i"], "base": "dire", "features": {"who": "you", "when": "now"}},
+				{"english": "She says", "foreign": "dice", "mark": ["e"], "base": "dire", "features": {"who": "she", "when": "now"}},
+				{"english": "We say", "foreign": "diciamo", "mark": ["iamo"], "base": "dire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "vedere", "strategy": ["ending"], "description": "The ending says who is doing it: vedo, vedi, vede, vediamo. Spot what changes.", "rows": [
+				{"english": "I see", "foreign": "vedo", "mark": ["o"], "base": "vedere", "features": {"who": "i", "when": "now"}},
+				{"english": "You see", "foreign": "vedi", "mark": ["i"], "base": "vedere", "features": {"who": "you", "when": "now"}},
+				{"english": "She sees", "foreign": "vede", "mark": ["e"], "base": "vedere", "features": {"who": "she", "when": "now"}},
+				{"english": "We see", "foreign": "vediamo", "mark": ["iamo"], "base": "vedere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "dare", "strategy": ["ending"], "description": "The ending says who is doing it: do, dai, dà, diamo. Spot what changes. Dare is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I give", "foreign": "do", "mark": ["o"], "base": "dare", "features": {"who": "i", "when": "now"}},
+				{"english": "You give", "foreign": "dai", "mark": ["i"], "base": "dare", "features": {"who": "you", "when": "now"}},
+				{"english": "She gives", "foreign": "dà", "base": "dare", "features": {"who": "she", "when": "now"}},
+				{"english": "We give", "foreign": "diamo", "mark": ["iamo"], "base": "dare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "sapere", "strategy": ["ending"], "description": "The ending says who is doing it: so, sai, sa, sappiamo. Spot what changes. Sapere is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I know", "foreign": "so", "mark": ["o"], "base": "sapere", "features": {"who": "i", "when": "now"}},
+				{"english": "You know", "foreign": "sai", "mark": ["i"], "base": "sapere", "features": {"who": "you", "when": "now"}},
+				{"english": "She knows", "foreign": "sa", "base": "sapere", "features": {"who": "she", "when": "now"}},
+				{"english": "We know", "foreign": "sappiamo", "mark": ["iamo"], "base": "sapere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "volere", "strategy": ["ending"], "description": "The ending says who is doing it: voglio, vuoi, vuole, vogliamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I want", "foreign": "voglio", "mark": ["o"], "base": "volere", "features": {"who": "i", "when": "now"}},
+				{"english": "You want", "foreign": "vuoi", "mark": ["i"], "base": "volere", "features": {"who": "you", "when": "now"}},
+				{"english": "She wants", "foreign": "vuole", "mark": ["e"], "base": "volere", "features": {"who": "she", "when": "now"}},
+				{"english": "We want", "foreign": "vogliamo", "mark": ["iamo"], "base": "volere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "venire", "strategy": ["ending"], "description": "The ending says who is doing it: vengo, vieni, viene, veniamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I come", "foreign": "vengo", "mark": ["o"], "base": "venire", "features": {"who": "i", "when": "now"}},
+				{"english": "You come", "foreign": "vieni", "mark": ["i"], "base": "venire", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes", "foreign": "viene", "mark": ["e"], "base": "venire", "features": {"who": "she", "when": "now"}},
+				{"english": "We come", "foreign": "veniamo", "mark": ["iamo"], "base": "venire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "mangiare", "strategy": ["ending"], "description": "The ending says who is doing it: mangio, mangi, mangia, mangiamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I eat", "foreign": "mangio", "mark": ["o"], "base": "mangiare", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "mangi", "mark": ["i"], "base": "mangiare", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "mangia", "mark": ["a"], "base": "mangiare", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "mangiamo", "mark": ["iamo"], "base": "mangiare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "vivere", "strategy": ["ending"], "description": "The ending says who is doing it: vivo, vivi, vive, viviamo. Spot what changes.", "rows": [
+				{"english": "I live", "foreign": "vivo", "mark": ["o"], "base": "vivere", "features": {"who": "i", "when": "now"}},
+				{"english": "You live", "foreign": "vivi", "mark": ["i"], "base": "vivere", "features": {"who": "you", "when": "now"}},
+				{"english": "She lives", "foreign": "vive", "mark": ["e"], "base": "vivere", "features": {"who": "she", "when": "now"}},
+				{"english": "We live", "foreign": "viviamo", "mark": ["iamo"], "base": "vivere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "lavorare", "strategy": ["ending"], "description": "The ending says who is doing it: lavoro, lavori, lavora, lavoriamo. Spot what changes.", "rows": [
+				{"english": "I work", "foreign": "lavoro", "mark": ["o"], "base": "lavorare", "features": {"who": "i", "when": "now"}},
+				{"english": "You work", "foreign": "lavori", "mark": ["i"], "base": "lavorare", "features": {"who": "you", "when": "now"}},
+				{"english": "She works", "foreign": "lavora", "mark": ["a"], "base": "lavorare", "features": {"who": "she", "when": "now"}},
+				{"english": "We work", "foreign": "lavoriamo", "mark": ["iamo"], "base": "lavorare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "pensare", "strategy": ["ending"], "description": "The ending says who is doing it: penso, pensi, pensa, pensiamo. Spot what changes.", "rows": [
+				{"english": "I think", "foreign": "penso", "mark": ["o"], "base": "pensare", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "pensi", "mark": ["i"], "base": "pensare", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "pensa", "mark": ["a"], "base": "pensare", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "pensiamo", "mark": ["iamo"], "base": "pensare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "prendere", "strategy": ["ending"], "description": "The ending says who is doing it: prendo, prendi, prende, prendiamo. Spot what changes.", "rows": [
+				{"english": "I take", "foreign": "prendo", "mark": ["o"], "base": "prendere", "features": {"who": "i", "when": "now"}},
+				{"english": "You take", "foreign": "prendi", "mark": ["i"], "base": "prendere", "features": {"who": "you", "when": "now"}},
+				{"english": "She takes", "foreign": "prende", "mark": ["e"], "base": "prendere", "features": {"who": "she", "when": "now"}},
+				{"english": "We take", "foreign": "prendiamo", "mark": ["iamo"], "base": "prendere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "scrivere", "strategy": ["ending"], "description": "The ending says who is doing it: scrivo, scrivi, scrive, scriviamo. Spot what changes.", "rows": [
+				{"english": "I write", "foreign": "scrivo", "mark": ["o"], "base": "scrivere", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "scrivi", "mark": ["i"], "base": "scrivere", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "scrive", "mark": ["e"], "base": "scrivere", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "scriviamo", "mark": ["iamo"], "base": "scrivere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "comprare", "strategy": ["ending"], "description": "The ending says who is doing it: compro, compri, compra, compriamo. Spot what changes.", "rows": [
+				{"english": "I buy", "foreign": "compro", "mark": ["o"], "base": "comprare", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "compri", "mark": ["i"], "base": "comprare", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "compra", "mark": ["a"], "base": "comprare", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "compriamo", "mark": ["iamo"], "base": "comprare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "bere", "strategy": ["ending"], "description": "The ending says who is doing it: bevo, bevi, beve, beviamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I drink", "foreign": "bevo", "mark": ["o"], "base": "bere", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "bevi", "mark": ["i"], "base": "bere", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "beve", "mark": ["e"], "base": "bere", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "beviamo", "mark": ["iamo"], "base": "bere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "dormire", "strategy": ["ending"], "description": "The ending says who is doing it: dormo, dormi, dorme, dormiamo. Spot what changes.", "rows": [
+				{"english": "I sleep", "foreign": "dormo", "mark": ["o"], "base": "dormire", "features": {"who": "i", "when": "now"}},
+				{"english": "You sleep", "foreign": "dormi", "mark": ["i"], "base": "dormire", "features": {"who": "you", "when": "now"}},
+				{"english": "She sleeps", "foreign": "dorme", "mark": ["e"], "base": "dormire", "features": {"who": "she", "when": "now"}},
+				{"english": "We sleep", "foreign": "dormiamo", "mark": ["iamo"], "base": "dormire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "uscire", "strategy": ["ending"], "description": "The ending says who is doing it: esco, esci, esce, usciamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go out", "foreign": "esco", "mark": ["o"], "base": "uscire", "features": {"who": "i", "when": "now"}},
+				{"english": "You go out", "foreign": "esci", "mark": ["i"], "base": "uscire", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes out", "foreign": "esce", "mark": ["e"], "base": "uscire", "features": {"who": "she", "when": "now"}},
+				{"english": "We go out", "foreign": "usciamo", "mark": ["iamo"], "base": "uscire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "tornare", "strategy": ["ending"], "description": "The ending says who is doing it: torno, torni, torna, torniamo. Spot what changes.", "rows": [
+				{"english": "I return", "foreign": "torno", "mark": ["o"], "base": "tornare", "features": {"who": "i", "when": "now"}},
+				{"english": "You return", "foreign": "torni", "mark": ["i"], "base": "tornare", "features": {"who": "you", "when": "now"}},
+				{"english": "She returns", "foreign": "torna", "mark": ["a"], "base": "tornare", "features": {"who": "she", "when": "now"}},
+				{"english": "We return", "foreign": "torniamo", "mark": ["iamo"], "base": "tornare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "arrivare", "strategy": ["ending"], "description": "The ending says who is doing it: arrivo, arrivi, arriva, arriviamo. Spot what changes.", "rows": [
+				{"english": "I arrive", "foreign": "arrivo", "mark": ["o"], "base": "arrivare", "features": {"who": "i", "when": "now"}},
+				{"english": "You arrive", "foreign": "arrivi", "mark": ["i"], "base": "arrivare", "features": {"who": "you", "when": "now"}},
+				{"english": "She arrives", "foreign": "arriva", "mark": ["a"], "base": "arrivare", "features": {"who": "she", "when": "now"}},
+				{"english": "We arrive", "foreign": "arriviamo", "mark": ["iamo"], "base": "arrivare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "guardare", "strategy": ["ending"], "description": "The ending says who is doing it: guardo, guardi, guarda, guardiamo. Spot what changes.", "rows": [
+				{"english": "I look", "foreign": "guardo", "mark": ["o"], "base": "guardare", "features": {"who": "i", "when": "now"}},
+				{"english": "You look", "foreign": "guardi", "mark": ["i"], "base": "guardare", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks", "foreign": "guarda", "mark": ["a"], "base": "guardare", "features": {"who": "she", "when": "now"}},
+				{"english": "We look", "foreign": "guardiamo", "mark": ["iamo"], "base": "guardare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "aspettare", "strategy": ["ending"], "description": "The ending says who is doing it: aspetto, aspetti, aspetta, aspettiamo. Spot what changes.", "rows": [
+				{"english": "I wait", "foreign": "aspetto", "mark": ["o"], "base": "aspettare", "features": {"who": "i", "when": "now"}},
+				{"english": "You wait", "foreign": "aspetti", "mark": ["i"], "base": "aspettare", "features": {"who": "you", "when": "now"}},
+				{"english": "She waits", "foreign": "aspetta", "mark": ["a"], "base": "aspettare", "features": {"who": "she", "when": "now"}},
+				{"english": "We wait", "foreign": "aspettiamo", "mark": ["iamo"], "base": "aspettare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "cercare", "strategy": ["ending"], "description": "The ending says who is doing it: cerco, cerchi, cerca, cerchiamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I search", "foreign": "cerco", "mark": ["o"], "base": "cercare", "features": {"who": "i", "when": "now"}},
+				{"english": "You search", "foreign": "cerchi", "mark": ["i"], "base": "cercare", "features": {"who": "you", "when": "now"}},
+				{"english": "She searches", "foreign": "cerca", "mark": ["a"], "base": "cercare", "features": {"who": "she", "when": "now"}},
+				{"english": "We search", "foreign": "cerchiamo", "mark": ["iamo"], "base": "cercare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "trovare", "strategy": ["ending"], "description": "The ending says who is doing it: trovo, trovi, trova, troviamo. Spot what changes.", "rows": [
+				{"english": "I find", "foreign": "trovo", "mark": ["o"], "base": "trovare", "features": {"who": "i", "when": "now"}},
+				{"english": "You find", "foreign": "trovi", "mark": ["i"], "base": "trovare", "features": {"who": "you", "when": "now"}},
+				{"english": "She finds", "foreign": "trova", "mark": ["a"], "base": "trovare", "features": {"who": "she", "when": "now"}},
+				{"english": "We find", "foreign": "troviamo", "mark": ["iamo"], "base": "trovare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "chiamare", "strategy": ["ending"], "description": "The ending says who is doing it: chiamo, chiami, chiama, chiamiamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I call", "foreign": "chiamo", "mark": ["iamo"], "base": "chiamare", "features": {"who": "i", "when": "now"}},
+				{"english": "You call", "foreign": "chiami", "mark": ["i"], "base": "chiamare", "features": {"who": "you", "when": "now"}},
+				{"english": "She calls", "foreign": "chiama", "mark": ["a"], "base": "chiamare", "features": {"who": "she", "when": "now"}},
+				{"english": "We call", "foreign": "chiamiamo", "mark": ["iamo"], "base": "chiamare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "cominciare", "strategy": ["ending"], "description": "The ending says who is doing it: comincio, cominci, comincia, cominciamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I begin", "foreign": "comincio", "mark": ["o"], "base": "cominciare", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "cominci", "mark": ["i"], "base": "cominciare", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "comincia", "mark": ["a"], "base": "cominciare", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "cominciamo", "mark": ["iamo"], "base": "cominciare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "finire", "strategy": ["ending"], "description": "The ending says who is doing it: finisco, finisci, finisce, finiamo. Spot what changes.", "rows": [
+				{"english": "I finish", "foreign": "finisco", "mark": ["isco"], "base": "finire", "features": {"who": "i", "when": "now"}},
+				{"english": "You finish", "foreign": "finisci", "mark": ["isci"], "base": "finire", "features": {"who": "you", "when": "now"}},
+				{"english": "She finishes", "foreign": "finisce", "mark": ["isce"], "base": "finire", "features": {"who": "she", "when": "now"}},
+				{"english": "We finish", "foreign": "finiamo", "mark": ["iamo"], "base": "finire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "aprire", "strategy": ["ending"], "description": "The ending says who is doing it: apro, apri, apre, apriamo. Spot what changes.", "rows": [
+				{"english": "I open", "foreign": "apro", "mark": ["o"], "base": "aprire", "features": {"who": "i", "when": "now"}},
+				{"english": "You open", "foreign": "apri", "mark": ["i"], "base": "aprire", "features": {"who": "you", "when": "now"}},
+				{"english": "She opens", "foreign": "apre", "mark": ["e"], "base": "aprire", "features": {"who": "she", "when": "now"}},
+				{"english": "We open", "foreign": "apriamo", "mark": ["iamo"], "base": "aprire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "chiudere", "strategy": ["ending"], "description": "The ending says who is doing it: chiudo, chiudi, chiude, chiudiamo. Spot what changes.", "rows": [
+				{"english": "I close", "foreign": "chiudo", "mark": ["o"], "base": "chiudere", "features": {"who": "i", "when": "now"}},
+				{"english": "You close", "foreign": "chiudi", "mark": ["i"], "base": "chiudere", "features": {"who": "you", "when": "now"}},
+				{"english": "She closes", "foreign": "chiude", "mark": ["e"], "base": "chiudere", "features": {"who": "she", "when": "now"}},
+				{"english": "We close", "foreign": "chiudiamo", "mark": ["iamo"], "base": "chiudere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "imparare", "strategy": ["ending"], "description": "The ending says who is doing it: imparo, impari, impara, impariamo. Spot what changes.", "rows": [
+				{"english": "I learn", "foreign": "imparo", "mark": ["o"], "base": "imparare", "features": {"who": "i", "when": "now"}},
+				{"english": "You learn", "foreign": "impari", "mark": ["i"], "base": "imparare", "features": {"who": "you", "when": "now"}},
+				{"english": "She learns", "foreign": "impara", "mark": ["a"], "base": "imparare", "features": {"who": "she", "when": "now"}},
+				{"english": "We learn", "foreign": "impariamo", "mark": ["iamo"], "base": "imparare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "studiare", "strategy": ["ending"], "description": "The ending says who is doing it: studio, studi, studia, studiamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I study", "foreign": "studio", "mark": ["o"], "base": "studiare", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "studi", "mark": ["i"], "base": "studiare", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "studia", "mark": ["a"], "base": "studiare", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "studiamo", "mark": ["iamo"], "base": "studiare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "capire", "strategy": ["ending"], "description": "The ending says who is doing it: capisco, capisci, capisce, capiamo. Spot what changes.", "rows": [
+				{"english": "I understand", "foreign": "capisco", "mark": ["isco"], "base": "capire", "features": {"who": "i", "when": "now"}},
+				{"english": "You understand", "foreign": "capisci", "mark": ["isci"], "base": "capire", "features": {"who": "you", "when": "now"}},
+				{"english": "She understands", "foreign": "capisce", "mark": ["isce"], "base": "capire", "features": {"who": "she", "when": "now"}},
+				{"english": "We understand", "foreign": "capiamo", "mark": ["iamo"], "base": "capire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "ricordare", "strategy": ["ending"], "description": "The ending says who is doing it: ricordo, ricordi, ricorda, ricordiamo. Spot what changes.", "rows": [
+				{"english": "I remember", "foreign": "ricordo", "mark": ["o"], "base": "ricordare", "features": {"who": "i", "when": "now"}},
+				{"english": "You remember", "foreign": "ricordi", "mark": ["i"], "base": "ricordare", "features": {"who": "you", "when": "now"}},
+				{"english": "She remembers", "foreign": "ricorda", "mark": ["a"], "base": "ricordare", "features": {"who": "she", "when": "now"}},
+				{"english": "We remember", "foreign": "ricordiamo", "mark": ["iamo"], "base": "ricordare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "correre", "strategy": ["ending"], "description": "The ending says who is doing it: corro, corri, corre, corriamo. Spot what changes.", "rows": [
+				{"english": "I run", "foreign": "corro", "mark": ["o"], "base": "correre", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "corri", "mark": ["i"], "base": "correre", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "corre", "mark": ["e"], "base": "correre", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "corriamo", "mark": ["iamo"], "base": "correre", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "camminare", "strategy": ["ending"], "description": "The ending says who is doing it: cammino, cammini, cammina, camminiamo. Spot what changes.", "rows": [
+				{"english": "I walk", "foreign": "cammino", "mark": ["o"], "base": "camminare", "features": {"who": "i", "when": "now"}},
+				{"english": "You walk", "foreign": "cammini", "mark": ["i"], "base": "camminare", "features": {"who": "you", "when": "now"}},
+				{"english": "She walks", "foreign": "cammina", "mark": ["a"], "base": "camminare", "features": {"who": "she", "when": "now"}},
+				{"english": "We walk", "foreign": "camminiamo", "mark": ["iamo"], "base": "camminare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "cantare", "strategy": ["ending"], "description": "The ending says who is doing it: canto, canti, canta, cantiamo. Spot what changes.", "rows": [
+				{"english": "I sing", "foreign": "canto", "mark": ["o"], "base": "cantare", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "canti", "mark": ["i"], "base": "cantare", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "canta", "mark": ["a"], "base": "cantare", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "cantiamo", "mark": ["iamo"], "base": "cantare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "giocare", "strategy": ["ending"], "description": "The ending says who is doing it: gioco, giochi, gioca, giochiamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I play", "foreign": "gioco", "mark": ["o"], "base": "giocare", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "giochi", "mark": ["i"], "base": "giocare", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "gioca", "mark": ["a"], "base": "giocare", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "giochiamo", "mark": ["iamo"], "base": "giocare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "pagare", "strategy": ["ending"], "description": "The ending says who is doing it: pago, paghi, paga, paghiamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I pay", "foreign": "pago", "mark": ["o"], "base": "pagare", "features": {"who": "i", "when": "now"}},
+				{"english": "You pay", "foreign": "paghi", "mark": ["i"], "base": "pagare", "features": {"who": "you", "when": "now"}},
+				{"english": "She pays", "foreign": "paga", "mark": ["a"], "base": "pagare", "features": {"who": "she", "when": "now"}},
+				{"english": "We pay", "foreign": "paghiamo", "mark": ["iamo"], "base": "pagare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "vendere", "strategy": ["ending"], "description": "The ending says who is doing it: vendo, vendi, vende, vendiamo. Spot what changes.", "rows": [
+				{"english": "I sell", "foreign": "vendo", "mark": ["o"], "base": "vendere", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "vendi", "mark": ["i"], "base": "vendere", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "vende", "mark": ["e"], "base": "vendere", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "vendiamo", "mark": ["iamo"], "base": "vendere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "aiutare", "strategy": ["ending"], "description": "The ending says who is doing it: aiuto, aiuti, aiuta, aiutiamo. Spot what changes.", "rows": [
+				{"english": "I help", "foreign": "aiuto", "mark": ["o"], "base": "aiutare", "features": {"who": "i", "when": "now"}},
+				{"english": "You help", "foreign": "aiuti", "mark": ["i"], "base": "aiutare", "features": {"who": "you", "when": "now"}},
+				{"english": "She helps", "foreign": "aiuta", "mark": ["a"], "base": "aiutare", "features": {"who": "she", "when": "now"}},
+				{"english": "We help", "foreign": "aiutiamo", "mark": ["iamo"], "base": "aiutare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "cucinare", "strategy": ["ending"], "description": "The ending says who is doing it: cucino, cucini, cucina, cuciniamo. Spot what changes.", "rows": [
+				{"english": "I cook", "foreign": "cucino", "mark": ["o"], "base": "cucinare", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "cucini", "mark": ["i"], "base": "cucinare", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "cucina", "mark": ["a"], "base": "cucinare", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "cuciniamo", "mark": ["iamo"], "base": "cucinare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "viaggiare", "strategy": ["ending"], "description": "The ending says who is doing it: viaggio, viaggi, viaggia, viaggiamo. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I travel", "foreign": "viaggio", "mark": ["o"], "base": "viaggiare", "features": {"who": "i", "when": "now"}},
+				{"english": "You travel", "foreign": "viaggi", "mark": ["i"], "base": "viaggiare", "features": {"who": "you", "when": "now"}},
+				{"english": "She travels", "foreign": "viaggia", "mark": ["a"], "base": "viaggiare", "features": {"who": "she", "when": "now"}},
+				{"english": "We travel", "foreign": "viaggiamo", "mark": ["iamo"], "base": "viaggiare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 45, "verb": "chiedere", "strategy": ["ending"], "description": "The ending says who is doing it: chiedo, chiedi, chiede, chiediamo. Spot what changes.", "rows": [
+				{"english": "I ask", "foreign": "chiedo", "mark": ["o"], "base": "chiedere", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "chiedi", "mark": ["i"], "base": "chiedere", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "chiede", "mark": ["e"], "base": "chiedere", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "chiediamo", "mark": ["iamo"], "base": "chiedere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 46, "verb": "rispondere", "strategy": ["ending"], "description": "The ending says who is doing it: rispondo, rispondi, risponde, rispondiamo. Spot what changes.", "rows": [
+				{"english": "I answer", "foreign": "rispondo", "mark": ["o"], "base": "rispondere", "features": {"who": "i", "when": "now"}},
+				{"english": "You answer", "foreign": "rispondi", "mark": ["i"], "base": "rispondere", "features": {"who": "you", "when": "now"}},
+				{"english": "She answers", "foreign": "risponde", "mark": ["e"], "base": "rispondere", "features": {"who": "she", "when": "now"}},
+				{"english": "We answer", "foreign": "rispondiamo", "mark": ["iamo"], "base": "rispondere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 47, "verb": "perdere", "strategy": ["ending"], "description": "The ending says who is doing it: perdo, perdi, perde, perdiamo. Spot what changes.", "rows": [
+				{"english": "I lose", "foreign": "perdo", "mark": ["o"], "base": "perdere", "features": {"who": "i", "when": "now"}},
+				{"english": "You lose", "foreign": "perdi", "mark": ["i"], "base": "perdere", "features": {"who": "you", "when": "now"}},
+				{"english": "She loses", "foreign": "perde", "mark": ["e"], "base": "perdere", "features": {"who": "she", "when": "now"}},
+				{"english": "We lose", "foreign": "perdiamo", "mark": ["iamo"], "base": "perdere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 48, "verb": "ricevere", "strategy": ["ending"], "description": "The ending says who is doing it: ricevo, ricevi, riceve, riceviamo. Spot what changes.", "rows": [
+				{"english": "I receive", "foreign": "ricevo", "mark": ["o"], "base": "ricevere", "features": {"who": "i", "when": "now"}},
+				{"english": "You receive", "foreign": "ricevi", "mark": ["i"], "base": "ricevere", "features": {"who": "you", "when": "now"}},
+				{"english": "She receives", "foreign": "riceve", "mark": ["e"], "base": "ricevere", "features": {"who": "she", "when": "now"}},
+				{"english": "We receive", "foreign": "riceviamo", "mark": ["iamo"], "base": "ricevere", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 49, "verb": "ordinare", "strategy": ["ending"], "description": "The ending says who is doing it: ordino, ordini, ordina, ordiniamo. Spot what changes.", "rows": [
+				{"english": "I order", "foreign": "ordino", "mark": ["o"], "base": "ordinare", "features": {"who": "i", "when": "now"}},
+				{"english": "You order", "foreign": "ordini", "mark": ["i"], "base": "ordinare", "features": {"who": "you", "when": "now"}},
+				{"english": "She orders", "foreign": "ordina", "mark": ["a"], "base": "ordinare", "features": {"who": "she", "when": "now"}},
+				{"english": "We order", "foreign": "ordiniamo", "mark": ["iamo"], "base": "ordinare", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 50, "verb": "seguire", "strategy": ["ending"], "description": "The ending says who is doing it: seguo, segui, segue, seguiamo. Spot what changes.", "rows": [
+				{"english": "I follow", "foreign": "seguo", "mark": ["o"], "base": "seguire", "features": {"who": "i", "when": "now"}},
+				{"english": "You follow", "foreign": "segui", "mark": ["i"], "base": "seguire", "features": {"who": "you", "when": "now"}},
+				{"english": "She follows", "foreign": "segue", "mark": ["e"], "base": "seguire", "features": {"who": "she", "when": "now"}},
+				{"english": "We follow", "foreign": "seguiamo", "mark": ["iamo"], "base": "seguire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 51, "verb": "sentire", "strategy": ["ending"], "description": "The ending says who is doing it: sento, senti, sente, sentiamo. Spot what changes.", "rows": [
+				{"english": "I feel", "foreign": "sento", "mark": ["o"], "base": "sentire", "features": {"who": "i", "when": "now"}},
+				{"english": "You feel", "foreign": "senti", "mark": ["i"], "base": "sentire", "features": {"who": "you", "when": "now"}},
+				{"english": "She feels", "foreign": "sente", "mark": ["e"], "base": "sentire", "features": {"who": "she", "when": "now"}},
+				{"english": "We feel", "foreign": "sentiamo", "mark": ["iamo"], "base": "sentire", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "avere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho avuto. For later, the ending alone says so: avrò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I have", "foreign": "ho", "mark": [{"text": "o", "role": "ending"}], "base": "avere", "features": {"who": "i", "when": "now"}},
+				{"english": "I had", "foreign": "ho avuto", "mark": [{"text": "ho", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "avere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will have", "foreign": "avrò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "avere", "features": {"who": "i", "when": "later"}},
+				{"english": "She had", "foreign": "ha avuto", "mark": [{"text": "ha", "role": "helper word"}, {"text": "uto", "role": "ending"}], "base": "avere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "fare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho fatto. For later, the ending alone says so: farò. Fare goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I make", "foreign": "faccio", "mark": [{"text": "o", "role": "ending"}], "base": "fare", "features": {"who": "i", "when": "now"}},
+				{"english": "I made", "foreign": "ho fatto", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "fare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "farò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "fare", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "ha fatto", "mark": [{"text": "ha", "role": "helper word"}], "base": "fare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "andare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: sono andato. For later, the ending alone says so: andrò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go", "foreign": "vado", "mark": [{"text": "o", "role": "ending"}], "base": "andare", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "sono andato", "mark": [{"text": "sono", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "andare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "andrò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "andare", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "è andata", "mark": [{"text": "è", "role": "helper word"}, {"text": "ata", "role": "ending"}], "base": "andare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "dire", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho detto. For later, the ending alone says so: dirò. Dire goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I say", "foreign": "dico", "mark": [{"text": "o", "role": "ending"}], "base": "dire", "features": {"who": "i", "when": "now"}},
+				{"english": "I said", "foreign": "ho detto", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "dire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will say", "foreign": "dirò", "mark": [{"text": "irò", "role": "ending"}], "from": 1, "base": "dire", "features": {"who": "i", "when": "later"}},
+				{"english": "She said", "foreign": "ha detto", "mark": [{"text": "ha", "role": "helper word"}], "base": "dire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "vedere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho visto. For later, the ending alone says so: vedrò. Vedere goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I see", "foreign": "vedo", "mark": [{"text": "o", "role": "ending"}], "base": "vedere", "features": {"who": "i", "when": "now"}},
+				{"english": "I saw", "foreign": "ho visto", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "vedere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will see", "foreign": "vedrò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "vedere", "features": {"who": "i", "when": "later"}},
+				{"english": "She saw", "foreign": "ha visto", "mark": [{"text": "ha", "role": "helper word"}], "base": "vedere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "dare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho dato. For later, the ending alone says so: darò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I give", "foreign": "do", "mark": [{"text": "o", "role": "ending"}], "base": "dare", "features": {"who": "i", "when": "now"}},
+				{"english": "I gave", "foreign": "ho dato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "dare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "darò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "dare", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "ha dato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "dare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "sapere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho saputo. For later, the ending alone says so: saprò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I know", "foreign": "so", "mark": [{"text": "o", "role": "ending"}], "base": "sapere", "features": {"who": "i", "when": "now"}},
+				{"english": "I knew", "foreign": "ho saputo", "mark": [{"text": "ho", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "sapere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will know", "foreign": "saprò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "sapere", "features": {"who": "i", "when": "later"}},
+				{"english": "She knew", "foreign": "ha saputo", "mark": [{"text": "ha", "role": "helper word"}, {"text": "uto", "role": "ending"}], "base": "sapere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "volere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho voluto. For later, the ending alone says so: vorrò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I want", "foreign": "voglio", "mark": [{"text": "o", "role": "ending"}], "base": "volere", "features": {"who": "i", "when": "now"}},
+				{"english": "I wanted", "foreign": "ho voluto", "mark": [{"text": "ho", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "volere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will want", "foreign": "vorrò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "volere", "features": {"who": "i", "when": "later"}},
+				{"english": "She wanted", "foreign": "ha voluto", "mark": [{"text": "ha", "role": "helper word"}, {"text": "uto", "role": "ending"}], "base": "volere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "venire", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: sono venuto. For later, the ending alone says so: verrò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I come", "foreign": "vengo", "mark": [{"text": "o", "role": "ending"}], "base": "venire", "features": {"who": "i", "when": "now"}},
+				{"english": "I came", "foreign": "sono venuto", "mark": [{"text": "sono", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "venire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come", "foreign": "verrò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "venire", "features": {"who": "i", "when": "later"}},
+				{"english": "She came", "foreign": "è venuta", "mark": [{"text": "è", "role": "helper word"}, {"text": "uta", "role": "ending"}], "base": "venire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "mangiare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho mangiato. For later, the ending alone says so: mangerò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I eat", "foreign": "mangio", "mark": [{"text": "o", "role": "ending"}], "base": "mangiare", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "ho mangiato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "mangiare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "mangerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "mangiare", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "ha mangiato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "mangiare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "vivere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho vissuto. For later, the ending alone says so: vivrò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I live", "foreign": "vivo", "mark": [{"text": "o", "role": "ending"}], "base": "vivere", "features": {"who": "i", "when": "now"}},
+				{"english": "I lived", "foreign": "ho vissuto", "mark": [{"text": "ho", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "vivere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will live", "foreign": "vivrò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "vivere", "features": {"who": "i", "when": "later"}},
+				{"english": "She lived", "foreign": "ha vissuto", "mark": [{"text": "ha", "role": "helper word"}, {"text": "uto", "role": "ending"}], "base": "vivere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "lavorare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho lavorato. For later, the ending alone says so: lavorerò.", "rows": [
+				{"english": "I work", "foreign": "lavoro", "mark": [{"text": "o", "role": "ending"}], "base": "lavorare", "features": {"who": "i", "when": "now"}},
+				{"english": "I worked", "foreign": "ho lavorato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "lavorare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will work", "foreign": "lavorerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "lavorare", "features": {"who": "i", "when": "later"}},
+				{"english": "She worked", "foreign": "ha lavorato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "lavorare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "pensare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho pensato. For later, the ending alone says so: penserò.", "rows": [
+				{"english": "I think", "foreign": "penso", "mark": [{"text": "o", "role": "ending"}], "base": "pensare", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "ho pensato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "pensare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "penserò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "pensare", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "ha pensato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "pensare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "prendere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho preso. For later, the ending alone says so: prenderò. Prendere goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I take", "foreign": "prendo", "mark": [{"text": "o", "role": "ending"}], "base": "prendere", "features": {"who": "i", "when": "now"}},
+				{"english": "I took", "foreign": "ho preso", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "prendere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "prenderò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "prendere", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "ha preso", "mark": [{"text": "ha", "role": "helper word"}], "base": "prendere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "scrivere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho scritto. For later, the ending alone says so: scriverò. Scrivere goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I write", "foreign": "scrivo", "mark": [{"text": "o", "role": "ending"}], "base": "scrivere", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "ho scritto", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "scrivere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "scriverò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "scrivere", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "ha scritto", "mark": [{"text": "ha", "role": "helper word"}], "base": "scrivere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "comprare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho comprato. For later, the ending alone says so: comprerò.", "rows": [
+				{"english": "I buy", "foreign": "compro", "mark": [{"text": "o", "role": "ending"}], "base": "comprare", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "ho comprato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "comprare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "comprerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "comprare", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "ha comprato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "comprare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "bere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho bevuto. For later, the ending alone says so: berrò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I drink", "foreign": "bevo", "mark": [{"text": "o", "role": "ending"}], "base": "bere", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "ho bevuto", "mark": [{"text": "ho", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "bere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "berrò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "bere", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "ha bevuto", "mark": [{"text": "ha", "role": "helper word"}, {"text": "uto", "role": "ending"}], "base": "bere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "dormire", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho dormito. For later, the ending alone says so: dormirò.", "rows": [
+				{"english": "I sleep", "foreign": "dormo", "mark": [{"text": "o", "role": "ending"}], "base": "dormire", "features": {"who": "i", "when": "now"}},
+				{"english": "I slept", "foreign": "ho dormito", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ito", "role": "ending"}], "from": 1, "base": "dormire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sleep", "foreign": "dormirò", "mark": [{"text": "irò", "role": "ending"}], "from": 1, "base": "dormire", "features": {"who": "i", "when": "later"}},
+				{"english": "She slept", "foreign": "ha dormito", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ito", "role": "ending"}], "base": "dormire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "uscire", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: sono uscito. For later, the ending alone says so: uscirò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go out", "foreign": "esco", "mark": [{"text": "o", "role": "ending"}], "base": "uscire", "features": {"who": "i", "when": "now"}},
+				{"english": "I went out", "foreign": "sono uscito", "mark": [{"text": "sono", "role": "helper word"}, {"text": "ito", "role": "ending"}], "from": 1, "base": "uscire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go out", "foreign": "uscirò", "mark": [{"text": "irò", "role": "ending"}], "from": 1, "base": "uscire", "features": {"who": "i", "when": "later"}},
+				{"english": "She went out", "foreign": "è uscita", "mark": [{"text": "è", "role": "helper word"}, {"text": "ita", "role": "ending"}], "base": "uscire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "tornare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: sono tornato. For later, the ending alone says so: tornerò.", "rows": [
+				{"english": "I return", "foreign": "torno", "mark": [{"text": "o", "role": "ending"}], "base": "tornare", "features": {"who": "i", "when": "now"}},
+				{"english": "I returned", "foreign": "sono tornato", "mark": [{"text": "sono", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "tornare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will return", "foreign": "tornerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "tornare", "features": {"who": "i", "when": "later"}},
+				{"english": "She returned", "foreign": "è tornata", "mark": [{"text": "è", "role": "helper word"}, {"text": "ata", "role": "ending"}], "base": "tornare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "arrivare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: sono arrivato. For later, the ending alone says so: arriverò.", "rows": [
+				{"english": "I arrive", "foreign": "arrivo", "mark": [{"text": "o", "role": "ending"}], "base": "arrivare", "features": {"who": "i", "when": "now"}},
+				{"english": "I arrived", "foreign": "sono arrivato", "mark": [{"text": "sono", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "arrivare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will arrive", "foreign": "arriverò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "arrivare", "features": {"who": "i", "when": "later"}},
+				{"english": "She arrived", "foreign": "è arrivata", "mark": [{"text": "è", "role": "helper word"}, {"text": "ata", "role": "ending"}], "base": "arrivare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "guardare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho guardato. For later, the ending alone says so: guarderò.", "rows": [
+				{"english": "I look", "foreign": "guardo", "mark": [{"text": "o", "role": "ending"}], "base": "guardare", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked", "foreign": "ho guardato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "guardare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look", "foreign": "guarderò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "guardare", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked", "foreign": "ha guardato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "guardare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "aspettare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho aspettato. For later, the ending alone says so: aspetterò.", "rows": [
+				{"english": "I wait", "foreign": "aspetto", "mark": [{"text": "o", "role": "ending"}], "base": "aspettare", "features": {"who": "i", "when": "now"}},
+				{"english": "I waited", "foreign": "ho aspettato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "aspettare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "aspetterò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "aspettare", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "ha aspettato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "aspettare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "cercare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho cercato. For later, the ending alone says so: cercherò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I search", "foreign": "cerco", "mark": [{"text": "o", "role": "ending"}], "base": "cercare", "features": {"who": "i", "when": "now"}},
+				{"english": "I searched", "foreign": "ho cercato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "cercare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will search", "foreign": "cercherò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "cercare", "features": {"who": "i", "when": "later"}},
+				{"english": "She searched", "foreign": "ha cercato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "cercare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "trovare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho trovato. For later, the ending alone says so: troverò.", "rows": [
+				{"english": "I find", "foreign": "trovo", "mark": [{"text": "o", "role": "ending"}], "base": "trovare", "features": {"who": "i", "when": "now"}},
+				{"english": "I found", "foreign": "ho trovato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "trovare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will find", "foreign": "troverò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "trovare", "features": {"who": "i", "when": "later"}},
+				{"english": "She found", "foreign": "ha trovato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "trovare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "chiamare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho chiamato. For later, the ending alone says so: chiamerò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I call", "foreign": "chiamo", "mark": [{"text": "iamo", "role": "ending"}], "base": "chiamare", "features": {"who": "i", "when": "now"}},
+				{"english": "I called", "foreign": "ho chiamato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "chiamare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "chiamerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "chiamare", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "ha chiamato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "chiamare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "cominciare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho cominciato. For later, the ending alone says so: comincerò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I begin", "foreign": "comincio", "mark": [{"text": "o", "role": "ending"}], "base": "cominciare", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "ho cominciato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "cominciare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "comincerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "cominciare", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "ha cominciato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "cominciare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "finire", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho finito. For later, the ending alone says so: finirò.", "rows": [
+				{"english": "I finish", "foreign": "finisco", "mark": [{"text": "isco", "role": "ending"}], "base": "finire", "features": {"who": "i", "when": "now"}},
+				{"english": "I finished", "foreign": "ho finito", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ito", "role": "ending"}], "from": 1, "base": "finire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "finirò", "mark": [{"text": "irò", "role": "ending"}], "from": 1, "base": "finire", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "ha finito", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ito", "role": "ending"}], "base": "finire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "aprire", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho aperto. For later, the ending alone says so: aprirò. Aprire goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I open", "foreign": "apro", "mark": [{"text": "o", "role": "ending"}], "base": "aprire", "features": {"who": "i", "when": "now"}},
+				{"english": "I opened", "foreign": "ho aperto", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "aprire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "aprirò", "mark": [{"text": "irò", "role": "ending"}], "from": 1, "base": "aprire", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "ha aperto", "mark": [{"text": "ha", "role": "helper word"}], "base": "aprire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "chiudere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho chiuso. For later, the ending alone says so: chiuderò. Chiudere goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I close", "foreign": "chiudo", "mark": [{"text": "o", "role": "ending"}], "base": "chiudere", "features": {"who": "i", "when": "now"}},
+				{"english": "I closed", "foreign": "ho chiuso", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "chiudere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "chiuderò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "chiudere", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "ha chiuso", "mark": [{"text": "ha", "role": "helper word"}], "base": "chiudere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "imparare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho imparato. For later, the ending alone says so: imparerò.", "rows": [
+				{"english": "I learn", "foreign": "imparo", "mark": [{"text": "o", "role": "ending"}], "base": "imparare", "features": {"who": "i", "when": "now"}},
+				{"english": "I learned", "foreign": "ho imparato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "imparare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will learn", "foreign": "imparerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "imparare", "features": {"who": "i", "when": "later"}},
+				{"english": "She learned", "foreign": "ha imparato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "imparare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "studiare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho studiato. For later, the ending alone says so: studierò.", "rows": [
+				{"english": "I study", "foreign": "studio", "mark": [{"text": "o", "role": "ending"}], "base": "studiare", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "ho studiato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "studiare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "studierò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "studiare", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "ha studiato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "studiare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "capire", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho capito. For later, the ending alone says so: capirò.", "rows": [
+				{"english": "I understand", "foreign": "capisco", "mark": [{"text": "isco", "role": "ending"}], "base": "capire", "features": {"who": "i", "when": "now"}},
+				{"english": "I understood", "foreign": "ho capito", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ito", "role": "ending"}], "from": 1, "base": "capire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will understand", "foreign": "capirò", "mark": [{"text": "irò", "role": "ending"}], "from": 1, "base": "capire", "features": {"who": "i", "when": "later"}},
+				{"english": "She understood", "foreign": "ha capito", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ito", "role": "ending"}], "base": "capire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "ricordare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho ricordato. For later, the ending alone says so: ricorderò.", "rows": [
+				{"english": "I remember", "foreign": "ricordo", "mark": [{"text": "o", "role": "ending"}], "base": "ricordare", "features": {"who": "i", "when": "now"}},
+				{"english": "I remembered", "foreign": "ho ricordato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "ricordare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will remember", "foreign": "ricorderò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "ricordare", "features": {"who": "i", "when": "later"}},
+				{"english": "She remembered", "foreign": "ha ricordato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "ricordare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "correre", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho corso. For later, the ending alone says so: correrò. Correre goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I run", "foreign": "corro", "mark": [{"text": "o", "role": "ending"}], "base": "correre", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "ho corso", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "correre", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "correrò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "correre", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "ha corso", "mark": [{"text": "ha", "role": "helper word"}], "base": "correre", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "camminare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho camminato. For later, the ending alone says so: camminerò.", "rows": [
+				{"english": "I walk", "foreign": "cammino", "mark": [{"text": "o", "role": "ending"}], "base": "camminare", "features": {"who": "i", "when": "now"}},
+				{"english": "I walked", "foreign": "ho camminato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "camminare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will walk", "foreign": "camminerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "camminare", "features": {"who": "i", "when": "later"}},
+				{"english": "She walked", "foreign": "ha camminato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "camminare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "cantare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho cantato. For later, the ending alone says so: canterò.", "rows": [
+				{"english": "I sing", "foreign": "canto", "mark": [{"text": "o", "role": "ending"}], "base": "cantare", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "ho cantato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "cantare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "canterò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "cantare", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "ha cantato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "cantare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "giocare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho giocato. For later, the ending alone says so: giocherò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I play", "foreign": "gioco", "mark": [{"text": "o", "role": "ending"}], "base": "giocare", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "ho giocato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "giocare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "giocherò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "giocare", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "ha giocato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "giocare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "pagare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho pagato. For later, the ending alone says so: pagherò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I pay", "foreign": "pago", "mark": [{"text": "o", "role": "ending"}], "base": "pagare", "features": {"who": "i", "when": "now"}},
+				{"english": "I paid", "foreign": "ho pagato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "pagare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "pagherò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "pagare", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "ha pagato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "pagare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "vendere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho venduto. For later, the ending alone says so: venderò.", "rows": [
+				{"english": "I sell", "foreign": "vendo", "mark": [{"text": "o", "role": "ending"}], "base": "vendere", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "ho venduto", "mark": [{"text": "ho", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "vendere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "venderò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "vendere", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "ha venduto", "mark": [{"text": "ha", "role": "helper word"}, {"text": "uto", "role": "ending"}], "base": "vendere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "aiutare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho aiutato. For later, the ending alone says so: aiuterò.", "rows": [
+				{"english": "I help", "foreign": "aiuto", "mark": [{"text": "o", "role": "ending"}], "base": "aiutare", "features": {"who": "i", "when": "now"}},
+				{"english": "I helped", "foreign": "ho aiutato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "aiutare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "aiuterò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "aiutare", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "ha aiutato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "aiutare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "cucinare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho cucinato. For later, the ending alone says so: cucinerò.", "rows": [
+				{"english": "I cook", "foreign": "cucino", "mark": [{"text": "o", "role": "ending"}], "base": "cucinare", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "ho cucinato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "cucinare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "cucinerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "cucinare", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "ha cucinato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "cucinare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "viaggiare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho viaggiato. For later, the ending alone says so: viaggerò. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I travel", "foreign": "viaggio", "mark": [{"text": "o", "role": "ending"}], "base": "viaggiare", "features": {"who": "i", "when": "now"}},
+				{"english": "I travelled", "foreign": "ho viaggiato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "viaggiare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will travel", "foreign": "viaggerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "viaggiare", "features": {"who": "i", "when": "later"}},
+				{"english": "She travelled", "foreign": "ha viaggiato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "viaggiare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 45, "verb": "chiedere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho chiesto. For later, the ending alone says so: chiederò. Chiedere goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I ask", "foreign": "chiedo", "mark": [{"text": "o", "role": "ending"}], "base": "chiedere", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "ho chiesto", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "chiedere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "chiederò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "chiedere", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "ha chiesto", "mark": [{"text": "ha", "role": "helper word"}], "base": "chiedere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 46, "verb": "rispondere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho risposto. For later, the ending alone says so: risponderò. Rispondere goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I answer", "foreign": "rispondo", "mark": [{"text": "o", "role": "ending"}], "base": "rispondere", "features": {"who": "i", "when": "now"}},
+				{"english": "I answered", "foreign": "ho risposto", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "rispondere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "risponderò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "rispondere", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "ha risposto", "mark": [{"text": "ha", "role": "helper word"}], "base": "rispondere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 47, "verb": "perdere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho perso. For later, the ending alone says so: perderò. Perdere goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I lose", "foreign": "perdo", "mark": [{"text": "o", "role": "ending"}], "base": "perdere", "features": {"who": "i", "when": "now"}},
+				{"english": "I lost", "foreign": "ho perso", "mark": [{"text": "ho", "role": "helper word"}], "from": 1, "base": "perdere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will lose", "foreign": "perderò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "perdere", "features": {"who": "i", "when": "later"}},
+				{"english": "She lost", "foreign": "ha perso", "mark": [{"text": "ha", "role": "helper word"}], "base": "perdere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 48, "verb": "ricevere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho ricevuto. For later, the ending alone says so: riceverò.", "rows": [
+				{"english": "I receive", "foreign": "ricevo", "mark": [{"text": "o", "role": "ending"}], "base": "ricevere", "features": {"who": "i", "when": "now"}},
+				{"english": "I received", "foreign": "ho ricevuto", "mark": [{"text": "ho", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "ricevere", "features": {"who": "i", "when": "before"}},
+				{"english": "I will receive", "foreign": "riceverò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "ricevere", "features": {"who": "i", "when": "later"}},
+				{"english": "She received", "foreign": "ha ricevuto", "mark": [{"text": "ha", "role": "helper word"}, {"text": "uto", "role": "ending"}], "base": "ricevere", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 49, "verb": "ordinare", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho ordinato. For later, the ending alone says so: ordinerò.", "rows": [
+				{"english": "I order", "foreign": "ordino", "mark": [{"text": "o", "role": "ending"}], "base": "ordinare", "features": {"who": "i", "when": "now"}},
+				{"english": "I ordered", "foreign": "ho ordinato", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ato", "role": "ending"}], "from": 1, "base": "ordinare", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "ordinerò", "mark": [{"text": "erò", "role": "ending"}], "from": 1, "base": "ordinare", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "ha ordinato", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ato", "role": "ending"}], "base": "ordinare", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 50, "verb": "seguire", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho seguito. For later, the ending alone says so: seguirò.", "rows": [
+				{"english": "I follow", "foreign": "seguo", "mark": [{"text": "o", "role": "ending"}], "base": "seguire", "features": {"who": "i", "when": "now"}},
+				{"english": "I followed", "foreign": "ho seguito", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ito", "role": "ending"}], "from": 1, "base": "seguire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will follow", "foreign": "seguirò", "mark": [{"text": "irò", "role": "ending"}], "from": 1, "base": "seguire", "features": {"who": "i", "when": "later"}},
+				{"english": "She followed", "foreign": "ha seguito", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ito", "role": "ending"}], "base": "seguire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 51, "verb": "sentire", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho sentito. For later, the ending alone says so: sentirò.", "rows": [
+				{"english": "I feel", "foreign": "sento", "mark": [{"text": "o", "role": "ending"}], "base": "sentire", "features": {"who": "i", "when": "now"}},
+				{"english": "I felt", "foreign": "ho sentito", "mark": [{"text": "ho", "role": "helper word"}, {"text": "ito", "role": "ending"}], "from": 1, "base": "sentire", "features": {"who": "i", "when": "before"}},
+				{"english": "I will feel", "foreign": "sentirò", "mark": [{"text": "irò", "role": "ending"}], "from": 1, "base": "sentire", "features": {"who": "i", "when": "later"}},
+				{"english": "She felt", "foreign": "ha sentito", "mark": [{"text": "ha", "role": "helper word"}, {"text": "ito", "role": "ending"}], "base": "sentire", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "going", "part": 2, "verb": "fare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto facendo.", "rows": [
+				{"english": "I make", "foreign": "faccio", "base": "fare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am making", "foreign": "sto facendo", "mark": [{"text": "sto", "role": "helper word"}], "from": 1, "base": "fare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She makes", "foreign": "fa", "base": "fare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is making", "foreign": "sta facendo", "mark": [{"text": "sta", "role": "helper word"}], "from": 3, "base": "fare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 3, "verb": "andare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto andando.", "rows": [
+				{"english": "I go", "foreign": "vado", "base": "andare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am going", "foreign": "sto andando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "andare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She goes", "foreign": "va", "base": "andare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is going", "foreign": "sta andando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "andare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 4, "verb": "dire", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto dicendo. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I say", "foreign": "dico", "base": "dire", "features": {"who": "i", "when": "now"}},
+				{"english": "I am saying", "foreign": "sto dicendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "dire", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She says", "foreign": "dice", "base": "dire", "features": {"who": "she", "when": "now"}},
+				{"english": "She is saying", "foreign": "sta dicendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "dire", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 5, "verb": "dare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto dando.", "rows": [
+				{"english": "I give", "foreign": "do", "base": "dare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am giving", "foreign": "sto dando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "dare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She gives", "foreign": "dà", "base": "dare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is giving", "foreign": "sta dando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "dare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 6, "verb": "venire", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto venendo.", "rows": [
+				{"english": "I come", "foreign": "vengo", "base": "venire", "features": {"who": "i", "when": "now"}},
+				{"english": "I am coming", "foreign": "sto venendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "venire", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She comes", "foreign": "viene", "base": "venire", "features": {"who": "she", "when": "now"}},
+				{"english": "She is coming", "foreign": "sta venendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "venire", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 7, "verb": "mangiare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto mangiando.", "rows": [
+				{"english": "I eat", "foreign": "mangio", "base": "mangiare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "sto mangiando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "mangiare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She eats", "foreign": "mangia", "base": "mangiare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is eating", "foreign": "sta mangiando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "mangiare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 8, "verb": "vivere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto vivendo.", "rows": [
+				{"english": "I live", "foreign": "vivo", "base": "vivere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am living", "foreign": "sto vivendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "vivere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She lives", "foreign": "vive", "base": "vivere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is living", "foreign": "sta vivendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "vivere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 9, "verb": "lavorare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto lavorando.", "rows": [
+				{"english": "I work", "foreign": "lavoro", "base": "lavorare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am working", "foreign": "sto lavorando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "lavorare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She works", "foreign": "lavora", "base": "lavorare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is working", "foreign": "sta lavorando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "lavorare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 10, "verb": "pensare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto pensando.", "rows": [
+				{"english": "I think", "foreign": "penso", "base": "pensare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am thinking", "foreign": "sto pensando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "pensare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She thinks", "foreign": "pensa", "base": "pensare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is thinking", "foreign": "sta pensando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "pensare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 11, "verb": "prendere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto prendendo.", "rows": [
+				{"english": "I take", "foreign": "prendo", "base": "prendere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am taking", "foreign": "sto prendendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "prendere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She takes", "foreign": "prende", "base": "prendere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is taking", "foreign": "sta prendendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "prendere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 12, "verb": "scrivere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto scrivendo.", "rows": [
+				{"english": "I write", "foreign": "scrivo", "base": "scrivere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am writing", "foreign": "sto scrivendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "scrivere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She writes", "foreign": "scrive", "base": "scrivere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is writing", "foreign": "sta scrivendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "scrivere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 13, "verb": "comprare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto comprando.", "rows": [
+				{"english": "I buy", "foreign": "compro", "base": "comprare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am buying", "foreign": "sto comprando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "comprare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She buys", "foreign": "compra", "base": "comprare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is buying", "foreign": "sta comprando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "comprare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 14, "verb": "bere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto bevendo. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I drink", "foreign": "bevo", "base": "bere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am drinking", "foreign": "sto bevendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "bere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She drinks", "foreign": "beve", "base": "bere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is drinking", "foreign": "sta bevendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "bere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 15, "verb": "dormire", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto dormendo.", "rows": [
+				{"english": "I sleep", "foreign": "dormo", "base": "dormire", "features": {"who": "i", "when": "now"}},
+				{"english": "I am sleeping", "foreign": "sto dormendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "dormire", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sleeps", "foreign": "dorme", "base": "dormire", "features": {"who": "she", "when": "now"}},
+				{"english": "She is sleeping", "foreign": "sta dormendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "dormire", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 16, "verb": "uscire", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto uscendo.", "rows": [
+				{"english": "I go out", "foreign": "esco", "base": "uscire", "features": {"who": "i", "when": "now"}},
+				{"english": "I am going out", "foreign": "sto uscendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "uscire", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She goes out", "foreign": "esce", "base": "uscire", "features": {"who": "she", "when": "now"}},
+				{"english": "She is going out", "foreign": "sta uscendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "uscire", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 17, "verb": "tornare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto tornando.", "rows": [
+				{"english": "I return", "foreign": "torno", "base": "tornare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am returning", "foreign": "sto tornando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "tornare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She returns", "foreign": "torna", "base": "tornare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is returning", "foreign": "sta tornando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "tornare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 18, "verb": "arrivare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto arrivando.", "rows": [
+				{"english": "I arrive", "foreign": "arrivo", "base": "arrivare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am arriving", "foreign": "sto arrivando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "arrivare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She arrives", "foreign": "arriva", "base": "arrivare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is arriving", "foreign": "sta arrivando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "arrivare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 19, "verb": "guardare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto guardando.", "rows": [
+				{"english": "I look", "foreign": "guardo", "base": "guardare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am looking", "foreign": "sto guardando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "guardare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She looks", "foreign": "guarda", "base": "guardare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is looking", "foreign": "sta guardando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "guardare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 20, "verb": "aspettare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto aspettando.", "rows": [
+				{"english": "I wait", "foreign": "aspetto", "base": "aspettare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am waiting", "foreign": "sto aspettando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "aspettare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She waits", "foreign": "aspetta", "base": "aspettare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is waiting", "foreign": "sta aspettando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "aspettare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 21, "verb": "cercare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto cercando.", "rows": [
+				{"english": "I search", "foreign": "cerco", "base": "cercare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am searching", "foreign": "sto cercando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "cercare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She searches", "foreign": "cerca", "base": "cercare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is searching", "foreign": "sta cercando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "cercare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 22, "verb": "trovare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto trovando.", "rows": [
+				{"english": "I find", "foreign": "trovo", "base": "trovare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am finding", "foreign": "sto trovando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "trovare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She finds", "foreign": "trova", "base": "trovare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is finding", "foreign": "sta trovando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "trovare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 23, "verb": "chiamare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto chiamando.", "rows": [
+				{"english": "I call", "foreign": "chiamo", "base": "chiamare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am calling", "foreign": "sto chiamando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "chiamare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She calls", "foreign": "chiama", "base": "chiamare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is calling", "foreign": "sta chiamando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "chiamare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 24, "verb": "cominciare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto cominciando.", "rows": [
+				{"english": "I begin", "foreign": "comincio", "base": "cominciare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am beginning", "foreign": "sto cominciando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "cominciare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She begins", "foreign": "comincia", "base": "cominciare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is beginning", "foreign": "sta cominciando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "cominciare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 25, "verb": "finire", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto finendo.", "rows": [
+				{"english": "I finish", "foreign": "finisco", "base": "finire", "features": {"who": "i", "when": "now"}},
+				{"english": "I am finishing", "foreign": "sto finendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "finire", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She finishes", "foreign": "finisce", "base": "finire", "features": {"who": "she", "when": "now"}},
+				{"english": "She is finishing", "foreign": "sta finendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "finire", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 26, "verb": "aprire", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto aprendo.", "rows": [
+				{"english": "I open", "foreign": "apro", "base": "aprire", "features": {"who": "i", "when": "now"}},
+				{"english": "I am opening", "foreign": "sto aprendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "aprire", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She opens", "foreign": "apre", "base": "aprire", "features": {"who": "she", "when": "now"}},
+				{"english": "She is opening", "foreign": "sta aprendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "aprire", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 27, "verb": "chiudere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto chiudendo.", "rows": [
+				{"english": "I close", "foreign": "chiudo", "base": "chiudere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am closing", "foreign": "sto chiudendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "chiudere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She closes", "foreign": "chiude", "base": "chiudere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is closing", "foreign": "sta chiudendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "chiudere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 28, "verb": "imparare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto imparando.", "rows": [
+				{"english": "I learn", "foreign": "imparo", "base": "imparare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am learning", "foreign": "sto imparando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "imparare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She learns", "foreign": "impara", "base": "imparare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is learning", "foreign": "sta imparando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "imparare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 29, "verb": "studiare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto studiando.", "rows": [
+				{"english": "I study", "foreign": "studio", "base": "studiare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am studying", "foreign": "sto studiando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "studiare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She studies", "foreign": "studia", "base": "studiare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is studying", "foreign": "sta studiando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "studiare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 30, "verb": "correre", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto correndo.", "rows": [
+				{"english": "I run", "foreign": "corro", "base": "correre", "features": {"who": "i", "when": "now"}},
+				{"english": "I am running", "foreign": "sto correndo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "correre", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She runs", "foreign": "corre", "base": "correre", "features": {"who": "she", "when": "now"}},
+				{"english": "She is running", "foreign": "sta correndo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "correre", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 31, "verb": "camminare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto camminando.", "rows": [
+				{"english": "I walk", "foreign": "cammino", "base": "camminare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am walking", "foreign": "sto camminando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "camminare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She walks", "foreign": "cammina", "base": "camminare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is walking", "foreign": "sta camminando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "camminare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 32, "verb": "cantare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto cantando.", "rows": [
+				{"english": "I sing", "foreign": "canto", "base": "cantare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am singing", "foreign": "sto cantando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "cantare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sings", "foreign": "canta", "base": "cantare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is singing", "foreign": "sta cantando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "cantare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 33, "verb": "giocare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto giocando.", "rows": [
+				{"english": "I play", "foreign": "gioco", "base": "giocare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am playing", "foreign": "sto giocando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "giocare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She plays", "foreign": "gioca", "base": "giocare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is playing", "foreign": "sta giocando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "giocare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 34, "verb": "pagare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto pagando.", "rows": [
+				{"english": "I pay", "foreign": "pago", "base": "pagare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am paying", "foreign": "sto pagando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "pagare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She pays", "foreign": "paga", "base": "pagare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is paying", "foreign": "sta pagando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "pagare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 35, "verb": "vendere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto vendendo.", "rows": [
+				{"english": "I sell", "foreign": "vendo", "base": "vendere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am selling", "foreign": "sto vendendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "vendere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sells", "foreign": "vende", "base": "vendere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is selling", "foreign": "sta vendendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "vendere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 36, "verb": "aiutare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto aiutando.", "rows": [
+				{"english": "I help", "foreign": "aiuto", "base": "aiutare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am helping", "foreign": "sto aiutando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "aiutare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She helps", "foreign": "aiuta", "base": "aiutare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is helping", "foreign": "sta aiutando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "aiutare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 37, "verb": "cucinare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto cucinando.", "rows": [
+				{"english": "I cook", "foreign": "cucino", "base": "cucinare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am cooking", "foreign": "sto cucinando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "cucinare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cooks", "foreign": "cucina", "base": "cucinare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is cooking", "foreign": "sta cucinando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "cucinare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 38, "verb": "viaggiare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto viaggiando.", "rows": [
+				{"english": "I travel", "foreign": "viaggio", "base": "viaggiare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am travelling", "foreign": "sto viaggiando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "viaggiare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She travels", "foreign": "viaggia", "base": "viaggiare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is travelling", "foreign": "sta viaggiando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "viaggiare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 39, "verb": "chiedere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto chiedendo.", "rows": [
+				{"english": "I ask", "foreign": "chiedo", "base": "chiedere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am asking", "foreign": "sto chiedendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "chiedere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She asks", "foreign": "chiede", "base": "chiedere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is asking", "foreign": "sta chiedendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "chiedere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 40, "verb": "rispondere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto rispondendo.", "rows": [
+				{"english": "I answer", "foreign": "rispondo", "base": "rispondere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am answering", "foreign": "sto rispondendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "rispondere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She answers", "foreign": "risponde", "base": "rispondere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is answering", "foreign": "sta rispondendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "rispondere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 41, "verb": "perdere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto perdendo.", "rows": [
+				{"english": "I lose", "foreign": "perdo", "base": "perdere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am losing", "foreign": "sto perdendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "perdere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She loses", "foreign": "perde", "base": "perdere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is losing", "foreign": "sta perdendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "perdere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 42, "verb": "ricevere", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto ricevendo.", "rows": [
+				{"english": "I receive", "foreign": "ricevo", "base": "ricevere", "features": {"who": "i", "when": "now"}},
+				{"english": "I am receiving", "foreign": "sto ricevendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "ricevere", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She receives", "foreign": "riceve", "base": "ricevere", "features": {"who": "she", "when": "now"}},
+				{"english": "She is receiving", "foreign": "sta ricevendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "ricevere", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 43, "verb": "ordinare", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto ordinando.", "rows": [
+				{"english": "I order", "foreign": "ordino", "base": "ordinare", "features": {"who": "i", "when": "now"}},
+				{"english": "I am ordering", "foreign": "sto ordinando", "mark": [{"text": "sto", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "ordinare", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She orders", "foreign": "ordina", "base": "ordinare", "features": {"who": "she", "when": "now"}},
+				{"english": "She is ordering", "foreign": "sta ordinando", "mark": [{"text": "sta", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "ordinare", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 44, "verb": "seguire", "strategy": ["helper word", "ending"], "description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: sto seguendo.", "rows": [
+				{"english": "I follow", "foreign": "seguo", "base": "seguire", "features": {"who": "i", "when": "now"}},
+				{"english": "I am following", "foreign": "sto seguendo", "mark": [{"text": "sto", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "seguire", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She follows", "foreign": "segue", "base": "seguire", "features": {"who": "she", "when": "now"}},
+				{"english": "She is following", "foreign": "sta seguendo", "mark": [{"text": "sta", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "seguire", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "command", "part": 2, "verb": "fare", "strategy": ["ending", "helper word"], "description": "To a friend: Fai! To someone you would call Lei: Faccia! Telling a friend not to is non and the whole verb, unchanged: Non fare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Make!", "foreign": "Fai!", "mark": [{"text": "i", "role": "ending"}], "base": "fare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Make! said politely", "foreign": "Faccia!", "mark": [{"text": "a", "role": "ending"}], "base": "fare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not make!", "foreign": "Non fare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "fare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's make!", "foreign": "Facciamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "fare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 3, "verb": "andare", "strategy": ["ending", "helper word"], "description": "To a friend: Vai! To someone you would call Lei: Vada! Telling a friend not to is non and the whole verb, unchanged: Non andare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Go!", "foreign": "Vai!", "mark": [{"text": "i", "role": "ending"}], "base": "andare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go! said politely", "foreign": "Vada!", "mark": [{"text": "a", "role": "ending"}], "base": "andare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not go!", "foreign": "Non andare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "andare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go!", "foreign": "Andiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "andare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 4, "verb": "dire", "strategy": ["ending", "helper word"], "description": "To a friend: Di'! To someone you would call Lei: Dica! Telling a friend not to is non and the whole verb, unchanged: Non dire! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Say!", "foreign": "Di'!", "base": "dire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Say! said politely", "foreign": "Dica!", "mark": [{"text": "a", "role": "ending"}], "base": "dire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not say!", "foreign": "Non dire!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "dire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's say!", "foreign": "Diciamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "dire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 5, "verb": "dare", "strategy": ["ending", "helper word"], "description": "To a friend: Dai! To someone you would call Lei: Dia! Telling a friend not to is non and the whole verb, unchanged: Non dare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Give!", "foreign": "Dai!", "mark": [{"text": "i", "role": "ending"}], "base": "dare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Give! said politely", "foreign": "Dia!", "mark": [{"text": "a", "role": "ending"}], "base": "dare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not give!", "foreign": "Non dare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "dare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's give!", "foreign": "Diamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "dare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 6, "verb": "venire", "strategy": ["ending", "helper word"], "description": "To a friend: Vieni! To someone you would call Lei: Venga! Telling a friend not to is non and the whole verb, unchanged: Non venire! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Come!", "foreign": "Vieni!", "mark": [{"text": "i", "role": "ending"}], "base": "venire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Come! said politely", "foreign": "Venga!", "mark": [{"text": "a", "role": "ending"}], "base": "venire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come!", "foreign": "Non venire!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "venire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come!", "foreign": "Veniamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "venire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 7, "verb": "mangiare", "strategy": ["ending", "helper word"], "description": "To a friend: Mangia! To someone you would call Lei: Mangi! Telling a friend not to is non and the whole verb, unchanged: Non mangiare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Eat!", "foreign": "Mangia!", "mark": [{"text": "a", "role": "ending"}], "base": "mangiare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Eat! said politely", "foreign": "Mangi!", "mark": [{"text": "i", "role": "ending"}], "base": "mangiare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not eat!", "foreign": "Non mangiare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "mangiare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's eat!", "foreign": "Mangiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "mangiare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 8, "verb": "vivere", "strategy": ["ending", "helper word"], "description": "To a friend: Vivi! To someone you would call Lei: Viva! Telling a friend not to is non and the whole verb, unchanged: Non vivere!", "rows": [
+				{"english": "Live!", "foreign": "Vivi!", "mark": [{"text": "i", "role": "ending"}], "base": "vivere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Live! said politely", "foreign": "Viva!", "mark": [{"text": "a", "role": "ending"}], "base": "vivere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not live!", "foreign": "Non vivere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "vivere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's live!", "foreign": "Viviamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "vivere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 9, "verb": "lavorare", "strategy": ["ending", "helper word"], "description": "To a friend: Lavora! To someone you would call Lei: Lavori! Telling a friend not to is non and the whole verb, unchanged: Non lavorare!", "rows": [
+				{"english": "Work!", "foreign": "Lavora!", "mark": [{"text": "a", "role": "ending"}], "base": "lavorare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Work! said politely", "foreign": "Lavori!", "mark": [{"text": "i", "role": "ending"}], "base": "lavorare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not work!", "foreign": "Non lavorare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "lavorare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's work!", "foreign": "Lavoriamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "lavorare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 10, "verb": "pensare", "strategy": ["ending", "helper word"], "description": "To a friend: Pensa! To someone you would call Lei: Pensi! Telling a friend not to is non and the whole verb, unchanged: Non pensare!", "rows": [
+				{"english": "Think!", "foreign": "Pensa!", "mark": [{"text": "a", "role": "ending"}], "base": "pensare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Think! said politely", "foreign": "Pensi!", "mark": [{"text": "i", "role": "ending"}], "base": "pensare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not think!", "foreign": "Non pensare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "pensare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's think!", "foreign": "Pensiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "pensare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 11, "verb": "prendere", "strategy": ["ending", "helper word"], "description": "To a friend: Prendi! To someone you would call Lei: Prenda! Telling a friend not to is non and the whole verb, unchanged: Non prendere!", "rows": [
+				{"english": "Take!", "foreign": "Prendi!", "mark": [{"text": "i", "role": "ending"}], "base": "prendere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Take! said politely", "foreign": "Prenda!", "mark": [{"text": "a", "role": "ending"}], "base": "prendere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not take!", "foreign": "Non prendere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "prendere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's take!", "foreign": "Prendiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "prendere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 12, "verb": "scrivere", "strategy": ["ending", "helper word"], "description": "To a friend: Scrivi! To someone you would call Lei: Scriva! Telling a friend not to is non and the whole verb, unchanged: Non scrivere!", "rows": [
+				{"english": "Write!", "foreign": "Scrivi!", "mark": [{"text": "i", "role": "ending"}], "base": "scrivere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Write! said politely", "foreign": "Scriva!", "mark": [{"text": "a", "role": "ending"}], "base": "scrivere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not write!", "foreign": "Non scrivere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "scrivere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's write!", "foreign": "Scriviamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "scrivere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 13, "verb": "comprare", "strategy": ["ending", "helper word"], "description": "To a friend: Compra! To someone you would call Lei: Compri! Telling a friend not to is non and the whole verb, unchanged: Non comprare!", "rows": [
+				{"english": "Buy!", "foreign": "Compra!", "mark": [{"text": "a", "role": "ending"}], "base": "comprare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Buy! said politely", "foreign": "Compri!", "mark": [{"text": "i", "role": "ending"}], "base": "comprare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not buy!", "foreign": "Non comprare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "comprare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's buy!", "foreign": "Compriamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "comprare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 14, "verb": "bere", "strategy": ["ending", "helper word"], "description": "To a friend: Bevi! To someone you would call Lei: Beva! Telling a friend not to is non and the whole verb, unchanged: Non bere! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Drink!", "foreign": "Bevi!", "mark": [{"text": "i", "role": "ending"}], "base": "bere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Drink! said politely", "foreign": "Beva!", "mark": [{"text": "a", "role": "ending"}], "base": "bere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not drink!", "foreign": "Non bere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "bere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drink!", "foreign": "Beviamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "bere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 15, "verb": "dormire", "strategy": ["ending", "helper word"], "description": "To a friend: Dormi! To someone you would call Lei: Dorma! Telling a friend not to is non and the whole verb, unchanged: Non dormire!", "rows": [
+				{"english": "Sleep!", "foreign": "Dormi!", "mark": [{"text": "i", "role": "ending"}], "base": "dormire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sleep! said politely", "foreign": "Dorma!", "mark": [{"text": "a", "role": "ending"}], "base": "dormire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sleep!", "foreign": "Non dormire!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "dormire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sleep!", "foreign": "Dormiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "dormire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 16, "verb": "uscire", "strategy": ["ending", "helper word"], "description": "To a friend: Esci! To someone you would call Lei: Esca! Telling a friend not to is non and the whole verb, unchanged: Non uscire! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Go out!", "foreign": "Esci!", "mark": [{"text": "i", "role": "ending"}], "base": "uscire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go out! said politely", "foreign": "Esca!", "mark": [{"text": "a", "role": "ending"}], "base": "uscire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not go out!", "foreign": "Non uscire!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "uscire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go out!", "foreign": "Usciamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "uscire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 17, "verb": "tornare", "strategy": ["ending", "helper word"], "description": "To a friend: Torna! To someone you would call Lei: Torni! Telling a friend not to is non and the whole verb, unchanged: Non tornare!", "rows": [
+				{"english": "Return!", "foreign": "Torna!", "mark": [{"text": "a", "role": "ending"}], "base": "tornare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Return! said politely", "foreign": "Torni!", "mark": [{"text": "i", "role": "ending"}], "base": "tornare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not return!", "foreign": "Non tornare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "tornare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's return!", "foreign": "Torniamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "tornare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 18, "verb": "arrivare", "strategy": ["ending", "helper word"], "description": "To a friend: Arriva! To someone you would call Lei: Arrivi! Telling a friend not to is non and the whole verb, unchanged: Non arrivare!", "rows": [
+				{"english": "Arrive!", "foreign": "Arriva!", "mark": [{"text": "a", "role": "ending"}], "base": "arrivare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Arrive! said politely", "foreign": "Arrivi!", "mark": [{"text": "i", "role": "ending"}], "base": "arrivare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not arrive!", "foreign": "Non arrivare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "arrivare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's arrive!", "foreign": "Arriviamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "arrivare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 19, "verb": "guardare", "strategy": ["ending", "helper word"], "description": "To a friend: Guarda! To someone you would call Lei: Guardi! Telling a friend not to is non and the whole verb, unchanged: Non guardare!", "rows": [
+				{"english": "Look!", "foreign": "Guarda!", "mark": [{"text": "a", "role": "ending"}], "base": "guardare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Look! said politely", "foreign": "Guardi!", "mark": [{"text": "i", "role": "ending"}], "base": "guardare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not look!", "foreign": "Non guardare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "guardare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's look!", "foreign": "Guardiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "guardare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 20, "verb": "aspettare", "strategy": ["ending", "helper word"], "description": "To a friend: Aspetta! To someone you would call Lei: Aspetti! Telling a friend not to is non and the whole verb, unchanged: Non aspettare!", "rows": [
+				{"english": "Wait!", "foreign": "Aspetta!", "mark": [{"text": "a", "role": "ending"}], "base": "aspettare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Wait! said politely", "foreign": "Aspetti!", "mark": [{"text": "i", "role": "ending"}], "base": "aspettare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not wait!", "foreign": "Non aspettare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "aspettare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wait!", "foreign": "Aspettiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "aspettare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 21, "verb": "cercare", "strategy": ["ending", "helper word"], "description": "To a friend: Cerca! To someone you would call Lei: Cerchi! Telling a friend not to is non and the whole verb, unchanged: Non cercare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Search!", "foreign": "Cerca!", "mark": [{"text": "a", "role": "ending"}], "base": "cercare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Search! said politely", "foreign": "Cerchi!", "mark": [{"text": "i", "role": "ending"}], "base": "cercare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not search!", "foreign": "Non cercare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "cercare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's search!", "foreign": "Cerchiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "cercare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 22, "verb": "trovare", "strategy": ["ending", "helper word"], "description": "To a friend: Trova! To someone you would call Lei: Trovi! Telling a friend not to is non and the whole verb, unchanged: Non trovare!", "rows": [
+				{"english": "Find!", "foreign": "Trova!", "mark": [{"text": "a", "role": "ending"}], "base": "trovare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Find! said politely", "foreign": "Trovi!", "mark": [{"text": "i", "role": "ending"}], "base": "trovare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not find!", "foreign": "Non trovare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "trovare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's find!", "foreign": "Troviamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "trovare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 23, "verb": "chiamare", "strategy": ["ending", "helper word"], "description": "To a friend: Chiama! To someone you would call Lei: Chiami! Telling a friend not to is non and the whole verb, unchanged: Non chiamare!", "rows": [
+				{"english": "Call!", "foreign": "Chiama!", "mark": [{"text": "a", "role": "ending"}], "base": "chiamare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Call! said politely", "foreign": "Chiami!", "mark": [{"text": "i", "role": "ending"}], "base": "chiamare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not call!", "foreign": "Non chiamare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "chiamare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's call!", "foreign": "Chiamiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "chiamare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 24, "verb": "cominciare", "strategy": ["ending", "helper word"], "description": "To a friend: Comincia! To someone you would call Lei: Cominci! Telling a friend not to is non and the whole verb, unchanged: Non cominciare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Begin!", "foreign": "Comincia!", "mark": [{"text": "a", "role": "ending"}], "base": "cominciare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Begin! said politely", "foreign": "Cominci!", "mark": [{"text": "i", "role": "ending"}], "base": "cominciare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not begin!", "foreign": "Non cominciare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "cominciare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's begin!", "foreign": "Cominciamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "cominciare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 25, "verb": "finire", "strategy": ["ending", "helper word"], "description": "To a friend: Finisci! To someone you would call Lei: Finisca! Telling a friend not to is non and the whole verb, unchanged: Non finire!", "rows": [
+				{"english": "Finish!", "foreign": "Finisci!", "mark": [{"text": "isci", "role": "ending"}], "base": "finire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Finish! said politely", "foreign": "Finisca!", "mark": [{"text": "isca", "role": "ending"}], "base": "finire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not finish!", "foreign": "Non finire!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "finire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's finish!", "foreign": "Finiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "finire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 26, "verb": "aprire", "strategy": ["ending", "helper word"], "description": "To a friend: Apri! To someone you would call Lei: Apra! Telling a friend not to is non and the whole verb, unchanged: Non aprire!", "rows": [
+				{"english": "Open!", "foreign": "Apri!", "mark": [{"text": "i", "role": "ending"}], "base": "aprire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Open! said politely", "foreign": "Apra!", "mark": [{"text": "a", "role": "ending"}], "base": "aprire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not open!", "foreign": "Non aprire!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "aprire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's open!", "foreign": "Apriamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "aprire", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 27, "verb": "chiudere", "strategy": ["ending", "helper word"], "description": "To a friend: Chiudi! To someone you would call Lei: Chiuda! Telling a friend not to is non and the whole verb, unchanged: Non chiudere!", "rows": [
+				{"english": "Close!", "foreign": "Chiudi!", "mark": [{"text": "i", "role": "ending"}], "base": "chiudere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Close! said politely", "foreign": "Chiuda!", "mark": [{"text": "a", "role": "ending"}], "base": "chiudere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not close!", "foreign": "Non chiudere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "chiudere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's close!", "foreign": "Chiudiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "chiudere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 28, "verb": "imparare", "strategy": ["ending", "helper word"], "description": "To a friend: Impara! To someone you would call Lei: Impari! Telling a friend not to is non and the whole verb, unchanged: Non imparare!", "rows": [
+				{"english": "Learn!", "foreign": "Impara!", "mark": [{"text": "a", "role": "ending"}], "base": "imparare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Learn! said politely", "foreign": "Impari!", "mark": [{"text": "i", "role": "ending"}], "base": "imparare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not learn!", "foreign": "Non imparare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "imparare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's learn!", "foreign": "Impariamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "imparare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 29, "verb": "studiare", "strategy": ["ending", "helper word"], "description": "To a friend: Studia! To someone you would call Lei: Studi! Telling a friend not to is non and the whole verb, unchanged: Non studiare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Study!", "foreign": "Studia!", "mark": [{"text": "a", "role": "ending"}], "base": "studiare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Study! said politely", "foreign": "Studi!", "mark": [{"text": "i", "role": "ending"}], "base": "studiare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not study!", "foreign": "Non studiare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "studiare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's study!", "foreign": "Studiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "studiare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 30, "verb": "correre", "strategy": ["ending", "helper word"], "description": "To a friend: Corri! To someone you would call Lei: Corra! Telling a friend not to is non and the whole verb, unchanged: Non correre!", "rows": [
+				{"english": "Run!", "foreign": "Corri!", "mark": [{"text": "i", "role": "ending"}], "base": "correre", "features": {"command": "yes", "who": "you"}},
+				{"english": "Run! said politely", "foreign": "Corra!", "mark": [{"text": "a", "role": "ending"}], "base": "correre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not run!", "foreign": "Non correre!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "correre", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's run!", "foreign": "Corriamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "correre", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 31, "verb": "camminare", "strategy": ["ending", "helper word"], "description": "To a friend: Cammina! To someone you would call Lei: Cammini! Telling a friend not to is non and the whole verb, unchanged: Non camminare!", "rows": [
+				{"english": "Walk!", "foreign": "Cammina!", "mark": [{"text": "a", "role": "ending"}], "base": "camminare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Walk! said politely", "foreign": "Cammini!", "mark": [{"text": "i", "role": "ending"}], "base": "camminare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not walk!", "foreign": "Non camminare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "camminare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's walk!", "foreign": "Camminiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "camminare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 32, "verb": "cantare", "strategy": ["ending", "helper word"], "description": "To a friend: Canta! To someone you would call Lei: Canti! Telling a friend not to is non and the whole verb, unchanged: Non cantare!", "rows": [
+				{"english": "Sing!", "foreign": "Canta!", "mark": [{"text": "a", "role": "ending"}], "base": "cantare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sing! said politely", "foreign": "Canti!", "mark": [{"text": "i", "role": "ending"}], "base": "cantare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sing!", "foreign": "Non cantare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "cantare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sing!", "foreign": "Cantiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "cantare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 33, "verb": "giocare", "strategy": ["ending", "helper word"], "description": "To a friend: Gioca! To someone you would call Lei: Giochi! Telling a friend not to is non and the whole verb, unchanged: Non giocare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Play!", "foreign": "Gioca!", "mark": [{"text": "a", "role": "ending"}], "base": "giocare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Play! said politely", "foreign": "Giochi!", "mark": [{"text": "i", "role": "ending"}], "base": "giocare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not play!", "foreign": "Non giocare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "giocare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's play!", "foreign": "Giochiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "giocare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 34, "verb": "pagare", "strategy": ["ending", "helper word"], "description": "To a friend: Paga! To someone you would call Lei: Paghi! Telling a friend not to is non and the whole verb, unchanged: Non pagare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Pay!", "foreign": "Paga!", "mark": [{"text": "a", "role": "ending"}], "base": "pagare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Pay! said politely", "foreign": "Paghi!", "mark": [{"text": "i", "role": "ending"}], "base": "pagare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not pay!", "foreign": "Non pagare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "pagare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's pay!", "foreign": "Paghiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "pagare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 35, "verb": "vendere", "strategy": ["ending", "helper word"], "description": "To a friend: Vendi! To someone you would call Lei: Venda! Telling a friend not to is non and the whole verb, unchanged: Non vendere!", "rows": [
+				{"english": "Sell!", "foreign": "Vendi!", "mark": [{"text": "i", "role": "ending"}], "base": "vendere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sell! said politely", "foreign": "Venda!", "mark": [{"text": "a", "role": "ending"}], "base": "vendere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sell!", "foreign": "Non vendere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "vendere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sell!", "foreign": "Vendiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "vendere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 36, "verb": "aiutare", "strategy": ["ending", "helper word"], "description": "To a friend: Aiuta! To someone you would call Lei: Aiuti! Telling a friend not to is non and the whole verb, unchanged: Non aiutare!", "rows": [
+				{"english": "Help!", "foreign": "Aiuta!", "mark": [{"text": "a", "role": "ending"}], "base": "aiutare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Help! said politely", "foreign": "Aiuti!", "mark": [{"text": "i", "role": "ending"}], "base": "aiutare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not help!", "foreign": "Non aiutare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "aiutare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's help!", "foreign": "Aiutiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "aiutare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 37, "verb": "cucinare", "strategy": ["ending", "helper word"], "description": "To a friend: Cucina! To someone you would call Lei: Cucini! Telling a friend not to is non and the whole verb, unchanged: Non cucinare!", "rows": [
+				{"english": "Cook!", "foreign": "Cucina!", "mark": [{"text": "a", "role": "ending"}], "base": "cucinare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Cook! said politely", "foreign": "Cucini!", "mark": [{"text": "i", "role": "ending"}], "base": "cucinare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not cook!", "foreign": "Non cucinare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "cucinare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's cook!", "foreign": "Cuciniamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "cucinare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 38, "verb": "viaggiare", "strategy": ["ending", "helper word"], "description": "To a friend: Viaggia! To someone you would call Lei: Viaggi! Telling a friend not to is non and the whole verb, unchanged: Non viaggiare! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Travel!", "foreign": "Viaggia!", "mark": [{"text": "a", "role": "ending"}], "base": "viaggiare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Travel! said politely", "foreign": "Viaggi!", "mark": [{"text": "i", "role": "ending"}], "base": "viaggiare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not travel!", "foreign": "Non viaggiare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "viaggiare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's travel!", "foreign": "Viaggiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "viaggiare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 39, "verb": "chiedere", "strategy": ["ending", "helper word"], "description": "To a friend: Chiedi! To someone you would call Lei: Chieda! Telling a friend not to is non and the whole verb, unchanged: Non chiedere!", "rows": [
+				{"english": "Ask!", "foreign": "Chiedi!", "mark": [{"text": "i", "role": "ending"}], "base": "chiedere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Ask! said politely", "foreign": "Chieda!", "mark": [{"text": "a", "role": "ending"}], "base": "chiedere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not ask!", "foreign": "Non chiedere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "chiedere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask!", "foreign": "Chiediamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "chiedere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 40, "verb": "rispondere", "strategy": ["ending", "helper word"], "description": "To a friend: Rispondi! To someone you would call Lei: Risponda! Telling a friend not to is non and the whole verb, unchanged: Non rispondere!", "rows": [
+				{"english": "Answer!", "foreign": "Rispondi!", "mark": [{"text": "i", "role": "ending"}], "base": "rispondere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Answer! said politely", "foreign": "Risponda!", "mark": [{"text": "a", "role": "ending"}], "base": "rispondere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not answer!", "foreign": "Non rispondere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "rispondere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's answer!", "foreign": "Rispondiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "rispondere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 41, "verb": "perdere", "strategy": ["ending", "helper word"], "description": "To a friend: Perdi! To someone you would call Lei: Perda! Telling a friend not to is non and the whole verb, unchanged: Non perdere!", "rows": [
+				{"english": "Lose!", "foreign": "Perdi!", "mark": [{"text": "i", "role": "ending"}], "base": "perdere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Lose! said politely", "foreign": "Perda!", "mark": [{"text": "a", "role": "ending"}], "base": "perdere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not lose!", "foreign": "Non perdere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "perdere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's lose!", "foreign": "Perdiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "perdere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 42, "verb": "ricevere", "strategy": ["ending", "helper word"], "description": "To a friend: Ricevi! To someone you would call Lei: Riceva! Telling a friend not to is non and the whole verb, unchanged: Non ricevere!", "rows": [
+				{"english": "Receive!", "foreign": "Ricevi!", "mark": [{"text": "i", "role": "ending"}], "base": "ricevere", "features": {"command": "yes", "who": "you"}},
+				{"english": "Receive! said politely", "foreign": "Riceva!", "mark": [{"text": "a", "role": "ending"}], "base": "ricevere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not receive!", "foreign": "Non ricevere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "ricevere", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's receive!", "foreign": "Riceviamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "ricevere", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 43, "verb": "ordinare", "strategy": ["ending", "helper word"], "description": "To a friend: Ordina! To someone you would call Lei: Ordini! Telling a friend not to is non and the whole verb, unchanged: Non ordinare!", "rows": [
+				{"english": "Order!", "foreign": "Ordina!", "mark": [{"text": "a", "role": "ending"}], "base": "ordinare", "features": {"command": "yes", "who": "you"}},
+				{"english": "Order! said politely", "foreign": "Ordini!", "mark": [{"text": "i", "role": "ending"}], "base": "ordinare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not order!", "foreign": "Non ordinare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "ordinare", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's order!", "foreign": "Ordiniamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "ordinare", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 44, "verb": "seguire", "strategy": ["ending", "helper word"], "description": "To a friend: Segui! To someone you would call Lei: Segua! Telling a friend not to is non and the whole verb, unchanged: Non seguire!", "rows": [
+				{"english": "Follow!", "foreign": "Segui!", "mark": [{"text": "i", "role": "ending"}], "base": "seguire", "features": {"command": "yes", "who": "you"}},
+				{"english": "Follow! said politely", "foreign": "Segua!", "mark": [{"text": "a", "role": "ending"}], "base": "seguire", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not follow!", "foreign": "Non seguire!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "seguire", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's follow!", "foreign": "Seguiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "seguire", "features": {"command": "yes", "who": "we"}}
+			]}
+	]
+}

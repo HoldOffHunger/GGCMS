@@ -1,0 +1,1124 @@
+{
+	"language": "portuguese",
+	"translation_language": "pt",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-portuguese.json and the recipes in forms-recipes-portuguese.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "ter", "strategy": ["ending"], "description": "The ending says who is doing it: eu tenho, você tem, ela tem, nós temos. You and she share one. Ter is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I have", "foreign": "eu tenho", "mark": ["o"], "base": "ter", "features": {"who": "i", "when": "now"}},
+				{"english": "You have", "foreign": "você tem", "base": "ter", "features": {"who": "you", "when": "now"}},
+				{"english": "She has", "foreign": "ela tem", "base": "ter", "features": {"who": "she", "when": "now"}},
+				{"english": "We have", "foreign": "nós temos", "mark": ["emos"], "base": "ter", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "fazer", "strategy": ["ending"], "description": "The ending says who is doing it: eu faço, você faz, ela faz, nós fazemos. You and she share one. Fazer is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I make", "foreign": "eu faço", "mark": ["o"], "base": "fazer", "features": {"who": "i", "when": "now"}},
+				{"english": "You make", "foreign": "você faz", "base": "fazer", "features": {"who": "you", "when": "now"}},
+				{"english": "She makes", "foreign": "ela faz", "base": "fazer", "features": {"who": "she", "when": "now"}},
+				{"english": "We make", "foreign": "nós fazemos", "mark": ["emos"], "base": "fazer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "ir", "strategy": ["ending"], "description": "The ending says who is doing it: eu vou, você vai, ela vai, nós vamos. You and she share one. Ir is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I go", "foreign": "eu vou", "base": "ir", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "você vai", "base": "ir", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "ela vai", "base": "ir", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "nós vamos", "base": "ir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "dizer", "strategy": ["ending"], "description": "The ending says who is doing it: eu digo, você diz, ela diz, nós dizemos. You and she share one. Dizer is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I say", "foreign": "eu digo", "mark": ["o"], "base": "dizer", "features": {"who": "i", "when": "now"}},
+				{"english": "You say", "foreign": "você diz", "base": "dizer", "features": {"who": "you", "when": "now"}},
+				{"english": "She says", "foreign": "ela diz", "base": "dizer", "features": {"who": "she", "when": "now"}},
+				{"english": "We say", "foreign": "nós dizemos", "mark": ["emos"], "base": "dizer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "ver", "strategy": ["ending"], "description": "The ending says who is doing it: eu vejo, você vê, ela vê, nós vemos. You and she share one. Ver is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I see", "foreign": "eu vejo", "mark": ["o"], "base": "ver", "features": {"who": "i", "when": "now"}},
+				{"english": "You see", "foreign": "você vê", "base": "ver", "features": {"who": "you", "when": "now"}},
+				{"english": "She sees", "foreign": "ela vê", "base": "ver", "features": {"who": "she", "when": "now"}},
+				{"english": "We see", "foreign": "nós vemos", "mark": ["emos"], "base": "ver", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "dar", "strategy": ["ending"], "description": "The ending says who is doing it: eu dou, você dá, ela dá, nós damos. You and she share one. Dar is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I give", "foreign": "eu dou", "base": "dar", "features": {"who": "i", "when": "now"}},
+				{"english": "You give", "foreign": "você dá", "base": "dar", "features": {"who": "you", "when": "now"}},
+				{"english": "She gives", "foreign": "ela dá", "base": "dar", "features": {"who": "she", "when": "now"}},
+				{"english": "We give", "foreign": "nós damos", "mark": ["amos"], "base": "dar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "saber", "strategy": ["ending"], "description": "The ending says who is doing it: eu sei, você sabe, ela sabe, nós sabemos. You and she share one. Saber is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I know", "foreign": "eu sei", "base": "saber", "features": {"who": "i", "when": "now"}},
+				{"english": "You know", "foreign": "você sabe", "mark": ["e"], "base": "saber", "features": {"who": "you", "when": "now"}},
+				{"english": "She knows", "foreign": "ela sabe", "mark": ["e"], "base": "saber", "features": {"who": "she", "when": "now"}},
+				{"english": "We know", "foreign": "nós sabemos", "mark": ["emos"], "base": "saber", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "querer", "strategy": ["ending"], "description": "The ending says who is doing it: eu quero, você quer, ela quer, nós queremos. You and she share one. Querer is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I want", "foreign": "eu quero", "mark": ["o"], "base": "querer", "features": {"who": "i", "when": "now"}},
+				{"english": "You want", "foreign": "você quer", "base": "querer", "features": {"who": "you", "when": "now"}},
+				{"english": "She wants", "foreign": "ela quer", "base": "querer", "features": {"who": "she", "when": "now"}},
+				{"english": "We want", "foreign": "nós queremos", "mark": ["emos"], "base": "querer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "vir", "strategy": ["ending"], "description": "The ending says who is doing it: eu venho, você vem, ela vem, nós vimos. You and she share one. Vir is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I come", "foreign": "eu venho", "mark": ["o"], "base": "vir", "features": {"who": "i", "when": "now"}},
+				{"english": "You come", "foreign": "você vem", "base": "vir", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes", "foreign": "ela vem", "base": "vir", "features": {"who": "she", "when": "now"}},
+				{"english": "We come", "foreign": "nós vimos", "mark": ["imos"], "base": "vir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "comer", "strategy": ["ending"], "description": "The ending says who is doing it: eu como, você come, ela come, nós comemos. You and she share one.", "rows": [
+				{"english": "I eat", "foreign": "eu como", "mark": ["o"], "base": "comer", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "você come", "mark": ["e"], "base": "comer", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "ela come", "mark": ["e"], "base": "comer", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "nós comemos", "mark": ["emos"], "base": "comer", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "viver", "strategy": ["ending"], "description": "The ending says who is doing it: eu vivo, você vive, ela vive, nós vivemos. You and she share one.", "rows": [
+				{"english": "I live", "foreign": "eu vivo", "mark": ["o"], "base": "viver", "features": {"who": "i", "when": "now"}},
+				{"english": "You live", "foreign": "você vive", "mark": ["e"], "base": "viver", "features": {"who": "you", "when": "now"}},
+				{"english": "She lives", "foreign": "ela vive", "mark": ["e"], "base": "viver", "features": {"who": "she", "when": "now"}},
+				{"english": "We live", "foreign": "nós vivemos", "mark": ["emos"], "base": "viver", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "trabalhar", "strategy": ["ending"], "description": "The ending says who is doing it: eu trabalho, você trabalha, ela trabalha, nós trabalhamos. You and she share one.", "rows": [
+				{"english": "I work", "foreign": "eu trabalho", "mark": ["o"], "base": "trabalhar", "features": {"who": "i", "when": "now"}},
+				{"english": "You work", "foreign": "você trabalha", "mark": ["a"], "base": "trabalhar", "features": {"who": "you", "when": "now"}},
+				{"english": "She works", "foreign": "ela trabalha", "mark": ["a"], "base": "trabalhar", "features": {"who": "she", "when": "now"}},
+				{"english": "We work", "foreign": "nós trabalhamos", "mark": ["amos"], "base": "trabalhar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "pensar", "strategy": ["ending"], "description": "The ending says who is doing it: eu penso, você pensa, ela pensa, nós pensamos. You and she share one.", "rows": [
+				{"english": "I think", "foreign": "eu penso", "mark": ["o"], "base": "pensar", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "você pensa", "mark": ["a"], "base": "pensar", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "ela pensa", "mark": ["a"], "base": "pensar", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "nós pensamos", "mark": ["amos"], "base": "pensar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "tomar", "strategy": ["ending"], "description": "The ending says who is doing it: eu tomo, você toma, ela toma, nós tomamos. You and she share one.", "rows": [
+				{"english": "I take", "foreign": "eu tomo", "mark": ["o"], "base": "tomar", "features": {"who": "i", "when": "now"}},
+				{"english": "You take", "foreign": "você toma", "mark": ["a"], "base": "tomar", "features": {"who": "you", "when": "now"}},
+				{"english": "She takes", "foreign": "ela toma", "mark": ["a"], "base": "tomar", "features": {"who": "she", "when": "now"}},
+				{"english": "We take", "foreign": "nós tomamos", "mark": ["amos"], "base": "tomar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "escrever", "strategy": ["ending"], "description": "The ending says who is doing it: eu escrevo, você escreve, ela escreve, nós escrevemos. You and she share one.", "rows": [
+				{"english": "I write", "foreign": "eu escrevo", "mark": ["o"], "base": "escrever", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "você escreve", "mark": ["e"], "base": "escrever", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "ela escreve", "mark": ["e"], "base": "escrever", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "nós escrevemos", "mark": ["emos"], "base": "escrever", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "comprar", "strategy": ["ending"], "description": "The ending says who is doing it: eu compro, você compra, ela compra, nós compramos. You and she share one.", "rows": [
+				{"english": "I buy", "foreign": "eu compro", "mark": ["o"], "base": "comprar", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "você compra", "mark": ["a"], "base": "comprar", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "ela compra", "mark": ["a"], "base": "comprar", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "nós compramos", "mark": ["amos"], "base": "comprar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "beber", "strategy": ["ending"], "description": "The ending says who is doing it: eu bebo, você bebe, ela bebe, nós bebemos. You and she share one.", "rows": [
+				{"english": "I drink", "foreign": "eu bebo", "mark": ["o"], "base": "beber", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "você bebe", "mark": ["e"], "base": "beber", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "ela bebe", "mark": ["e"], "base": "beber", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "nós bebemos", "mark": ["emos"], "base": "beber", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "dormir", "strategy": ["ending"], "description": "The ending says who is doing it: eu durmo, você dorme, ela dorme, nós dormimos. You and she share one. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "eu durmo", "mark": ["o"], "base": "dormir", "features": {"who": "i", "when": "now"}},
+				{"english": "You sleep", "foreign": "você dorme", "mark": ["e"], "base": "dormir", "features": {"who": "you", "when": "now"}},
+				{"english": "She sleeps", "foreign": "ela dorme", "mark": ["e"], "base": "dormir", "features": {"who": "she", "when": "now"}},
+				{"english": "We sleep", "foreign": "nós dormimos", "mark": ["imos"], "base": "dormir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "sair", "strategy": ["ending"], "description": "The ending says who is doing it: eu saio, você sai, ela sai, nós saímos. You and she share one. Sair is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I go out", "foreign": "eu saio", "mark": ["o"], "base": "sair", "features": {"who": "i", "when": "now"}},
+				{"english": "You go out", "foreign": "você sai", "base": "sair", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes out", "foreign": "ela sai", "base": "sair", "features": {"who": "she", "when": "now"}},
+				{"english": "We go out", "foreign": "nós saímos", "base": "sair", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "voltar", "strategy": ["ending"], "description": "The ending says who is doing it: eu volto, você volta, ela volta, nós voltamos. You and she share one.", "rows": [
+				{"english": "I return", "foreign": "eu volto", "mark": ["o"], "base": "voltar", "features": {"who": "i", "when": "now"}},
+				{"english": "You return", "foreign": "você volta", "mark": ["a"], "base": "voltar", "features": {"who": "you", "when": "now"}},
+				{"english": "She returns", "foreign": "ela volta", "mark": ["a"], "base": "voltar", "features": {"who": "she", "when": "now"}},
+				{"english": "We return", "foreign": "nós voltamos", "mark": ["amos"], "base": "voltar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "chegar", "strategy": ["ending"], "description": "The ending says who is doing it: eu chego, você chega, ela chega, nós chegamos. You and she share one.", "rows": [
+				{"english": "I arrive", "foreign": "eu chego", "mark": ["o"], "base": "chegar", "features": {"who": "i", "when": "now"}},
+				{"english": "You arrive", "foreign": "você chega", "mark": ["a"], "base": "chegar", "features": {"who": "you", "when": "now"}},
+				{"english": "She arrives", "foreign": "ela chega", "mark": ["a"], "base": "chegar", "features": {"who": "she", "when": "now"}},
+				{"english": "We arrive", "foreign": "nós chegamos", "mark": ["amos"], "base": "chegar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "olhar", "strategy": ["ending"], "description": "The ending says who is doing it: eu olho, você olha, ela olha, nós olhamos. You and she share one.", "rows": [
+				{"english": "I look", "foreign": "eu olho", "mark": ["o"], "base": "olhar", "features": {"who": "i", "when": "now"}},
+				{"english": "You look", "foreign": "você olha", "mark": ["a"], "base": "olhar", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks", "foreign": "ela olha", "mark": ["a"], "base": "olhar", "features": {"who": "she", "when": "now"}},
+				{"english": "We look", "foreign": "nós olhamos", "mark": ["amos"], "base": "olhar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "esperar", "strategy": ["ending"], "description": "The ending says who is doing it: eu espero, você espera, ela espera, nós esperamos. You and she share one.", "rows": [
+				{"english": "I wait", "foreign": "eu espero", "mark": ["o"], "base": "esperar", "features": {"who": "i", "when": "now"}},
+				{"english": "You wait", "foreign": "você espera", "mark": ["a"], "base": "esperar", "features": {"who": "you", "when": "now"}},
+				{"english": "She waits", "foreign": "ela espera", "mark": ["a"], "base": "esperar", "features": {"who": "she", "when": "now"}},
+				{"english": "We wait", "foreign": "nós esperamos", "mark": ["amos"], "base": "esperar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "procurar", "strategy": ["ending"], "description": "The ending says who is doing it: eu procuro, você procura, ela procura, nós procuramos. You and she share one.", "rows": [
+				{"english": "I search", "foreign": "eu procuro", "mark": ["o"], "base": "procurar", "features": {"who": "i", "when": "now"}},
+				{"english": "You search", "foreign": "você procura", "mark": ["a"], "base": "procurar", "features": {"who": "you", "when": "now"}},
+				{"english": "She searches", "foreign": "ela procura", "mark": ["a"], "base": "procurar", "features": {"who": "she", "when": "now"}},
+				{"english": "We search", "foreign": "nós procuramos", "mark": ["amos"], "base": "procurar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "encontrar", "strategy": ["ending"], "description": "The ending says who is doing it: eu encontro, você encontra, ela encontra, nós encontramos. You and she share one.", "rows": [
+				{"english": "I find", "foreign": "eu encontro", "mark": ["o"], "base": "encontrar", "features": {"who": "i", "when": "now"}},
+				{"english": "You find", "foreign": "você encontra", "mark": ["a"], "base": "encontrar", "features": {"who": "you", "when": "now"}},
+				{"english": "She finds", "foreign": "ela encontra", "mark": ["a"], "base": "encontrar", "features": {"who": "she", "when": "now"}},
+				{"english": "We find", "foreign": "nós encontramos", "mark": ["amos"], "base": "encontrar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "chamar", "strategy": ["ending"], "description": "The ending says who is doing it: eu chamo, você chama, ela chama, nós chamamos. You and she share one.", "rows": [
+				{"english": "I call", "foreign": "eu chamo", "mark": ["o"], "base": "chamar", "features": {"who": "i", "when": "now"}},
+				{"english": "You call", "foreign": "você chama", "mark": ["a"], "base": "chamar", "features": {"who": "you", "when": "now"}},
+				{"english": "She calls", "foreign": "ela chama", "mark": ["a"], "base": "chamar", "features": {"who": "she", "when": "now"}},
+				{"english": "We call", "foreign": "nós chamamos", "mark": ["amos"], "base": "chamar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "começar", "strategy": ["ending"], "description": "The ending says who is doing it: eu começo, você começa, ela começa, nós começamos. You and she share one.", "rows": [
+				{"english": "I begin", "foreign": "eu começo", "mark": ["o"], "base": "começar", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "você começa", "mark": ["a"], "base": "começar", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "ela começa", "mark": ["a"], "base": "começar", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "nós começamos", "mark": ["amos"], "base": "começar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "terminar", "strategy": ["ending"], "description": "The ending says who is doing it: eu termino, você termina, ela termina, nós terminamos. You and she share one.", "rows": [
+				{"english": "I finish", "foreign": "eu termino", "mark": ["o"], "base": "terminar", "features": {"who": "i", "when": "now"}},
+				{"english": "You finish", "foreign": "você termina", "mark": ["a"], "base": "terminar", "features": {"who": "you", "when": "now"}},
+				{"english": "She finishes", "foreign": "ela termina", "mark": ["a"], "base": "terminar", "features": {"who": "she", "when": "now"}},
+				{"english": "We finish", "foreign": "nós terminamos", "mark": ["amos"], "base": "terminar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "abrir", "strategy": ["ending"], "description": "The ending says who is doing it: eu abro, você abre, ela abre, nós abrimos. You and she share one.", "rows": [
+				{"english": "I open", "foreign": "eu abro", "mark": ["o"], "base": "abrir", "features": {"who": "i", "when": "now"}},
+				{"english": "You open", "foreign": "você abre", "mark": ["e"], "base": "abrir", "features": {"who": "you", "when": "now"}},
+				{"english": "She opens", "foreign": "ela abre", "mark": ["e"], "base": "abrir", "features": {"who": "she", "when": "now"}},
+				{"english": "We open", "foreign": "nós abrimos", "mark": ["imos"], "base": "abrir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "fechar", "strategy": ["ending"], "description": "The ending says who is doing it: eu fecho, você fecha, ela fecha, nós fechamos. You and she share one.", "rows": [
+				{"english": "I close", "foreign": "eu fecho", "mark": ["o"], "base": "fechar", "features": {"who": "i", "when": "now"}},
+				{"english": "You close", "foreign": "você fecha", "mark": ["a"], "base": "fechar", "features": {"who": "you", "when": "now"}},
+				{"english": "She closes", "foreign": "ela fecha", "mark": ["a"], "base": "fechar", "features": {"who": "she", "when": "now"}},
+				{"english": "We close", "foreign": "nós fechamos", "mark": ["amos"], "base": "fechar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "aprender", "strategy": ["ending"], "description": "The ending says who is doing it: eu aprendo, você aprende, ela aprende, nós aprendemos. You and she share one.", "rows": [
+				{"english": "I learn", "foreign": "eu aprendo", "mark": ["o"], "base": "aprender", "features": {"who": "i", "when": "now"}},
+				{"english": "You learn", "foreign": "você aprende", "mark": ["e"], "base": "aprender", "features": {"who": "you", "when": "now"}},
+				{"english": "She learns", "foreign": "ela aprende", "mark": ["e"], "base": "aprender", "features": {"who": "she", "when": "now"}},
+				{"english": "We learn", "foreign": "nós aprendemos", "mark": ["emos"], "base": "aprender", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "estudar", "strategy": ["ending"], "description": "The ending says who is doing it: eu estudo, você estuda, ela estuda, nós estudamos. You and she share one.", "rows": [
+				{"english": "I study", "foreign": "eu estudo", "mark": ["o"], "base": "estudar", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "você estuda", "mark": ["a"], "base": "estudar", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "ela estuda", "mark": ["a"], "base": "estudar", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "nós estudamos", "mark": ["amos"], "base": "estudar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "entender", "strategy": ["ending"], "description": "The ending says who is doing it: eu entendo, você entende, ela entende, nós entendemos. You and she share one.", "rows": [
+				{"english": "I understand", "foreign": "eu entendo", "mark": ["o"], "base": "entender", "features": {"who": "i", "when": "now"}},
+				{"english": "You understand", "foreign": "você entende", "mark": ["e"], "base": "entender", "features": {"who": "you", "when": "now"}},
+				{"english": "She understands", "foreign": "ela entende", "mark": ["e"], "base": "entender", "features": {"who": "she", "when": "now"}},
+				{"english": "We understand", "foreign": "nós entendemos", "mark": ["emos"], "base": "entender", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "lembrar", "strategy": ["ending"], "description": "The ending says who is doing it: eu lembro, você lembra, ela lembra, nós lembramos. You and she share one.", "rows": [
+				{"english": "I remember", "foreign": "eu lembro", "mark": ["o"], "base": "lembrar", "features": {"who": "i", "when": "now"}},
+				{"english": "You remember", "foreign": "você lembra", "mark": ["a"], "base": "lembrar", "features": {"who": "you", "when": "now"}},
+				{"english": "She remembers", "foreign": "ela lembra", "mark": ["a"], "base": "lembrar", "features": {"who": "she", "when": "now"}},
+				{"english": "We remember", "foreign": "nós lembramos", "mark": ["amos"], "base": "lembrar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "correr", "strategy": ["ending"], "description": "The ending says who is doing it: eu corro, você corre, ela corre, nós corremos. You and she share one.", "rows": [
+				{"english": "I run", "foreign": "eu corro", "mark": ["o"], "base": "correr", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "você corre", "mark": ["e"], "base": "correr", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "ela corre", "mark": ["e"], "base": "correr", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "nós corremos", "mark": ["emos"], "base": "correr", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "caminhar", "strategy": ["ending"], "description": "The ending says who is doing it: eu caminho, você caminha, ela caminha, nós caminhamos. You and she share one.", "rows": [
+				{"english": "I walk", "foreign": "eu caminho", "mark": ["o"], "base": "caminhar", "features": {"who": "i", "when": "now"}},
+				{"english": "You walk", "foreign": "você caminha", "mark": ["a"], "base": "caminhar", "features": {"who": "you", "when": "now"}},
+				{"english": "She walks", "foreign": "ela caminha", "mark": ["a"], "base": "caminhar", "features": {"who": "she", "when": "now"}},
+				{"english": "We walk", "foreign": "nós caminhamos", "mark": ["amos"], "base": "caminhar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "cantar", "strategy": ["ending"], "description": "The ending says who is doing it: eu canto, você canta, ela canta, nós cantamos. You and she share one.", "rows": [
+				{"english": "I sing", "foreign": "eu canto", "mark": ["o"], "base": "cantar", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "você canta", "mark": ["a"], "base": "cantar", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "ela canta", "mark": ["a"], "base": "cantar", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "nós cantamos", "mark": ["amos"], "base": "cantar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "jogar", "strategy": ["ending"], "description": "The ending says who is doing it: eu jogo, você joga, ela joga, nós jogamos. You and she share one.", "rows": [
+				{"english": "I play", "foreign": "eu jogo", "mark": ["o"], "base": "jogar", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "você joga", "mark": ["a"], "base": "jogar", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "ela joga", "mark": ["a"], "base": "jogar", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "nós jogamos", "mark": ["amos"], "base": "jogar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "pagar", "strategy": ["ending"], "description": "The ending says who is doing it: eu pago, você paga, ela paga, nós pagamos. You and she share one.", "rows": [
+				{"english": "I pay", "foreign": "eu pago", "mark": ["o"], "base": "pagar", "features": {"who": "i", "when": "now"}},
+				{"english": "You pay", "foreign": "você paga", "mark": ["a"], "base": "pagar", "features": {"who": "you", "when": "now"}},
+				{"english": "She pays", "foreign": "ela paga", "mark": ["a"], "base": "pagar", "features": {"who": "she", "when": "now"}},
+				{"english": "We pay", "foreign": "nós pagamos", "mark": ["amos"], "base": "pagar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "vender", "strategy": ["ending"], "description": "The ending says who is doing it: eu vendo, você vende, ela vende, nós vendemos. You and she share one.", "rows": [
+				{"english": "I sell", "foreign": "eu vendo", "mark": ["o"], "base": "vender", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "você vende", "mark": ["e"], "base": "vender", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "ela vende", "mark": ["e"], "base": "vender", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "nós vendemos", "mark": ["emos"], "base": "vender", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "ajudar", "strategy": ["ending"], "description": "The ending says who is doing it: eu ajudo, você ajuda, ela ajuda, nós ajudamos. You and she share one.", "rows": [
+				{"english": "I help", "foreign": "eu ajudo", "mark": ["o"], "base": "ajudar", "features": {"who": "i", "when": "now"}},
+				{"english": "You help", "foreign": "você ajuda", "mark": ["a"], "base": "ajudar", "features": {"who": "you", "when": "now"}},
+				{"english": "She helps", "foreign": "ela ajuda", "mark": ["a"], "base": "ajudar", "features": {"who": "she", "when": "now"}},
+				{"english": "We help", "foreign": "nós ajudamos", "mark": ["amos"], "base": "ajudar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "cozinhar", "strategy": ["ending"], "description": "The ending says who is doing it: eu cozinho, você cozinha, ela cozinha, nós cozinhamos. You and she share one.", "rows": [
+				{"english": "I cook", "foreign": "eu cozinho", "mark": ["o"], "base": "cozinhar", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "você cozinha", "mark": ["a"], "base": "cozinhar", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "ela cozinha", "mark": ["a"], "base": "cozinhar", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "nós cozinhamos", "mark": ["amos"], "base": "cozinhar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "viajar", "strategy": ["ending"], "description": "The ending says who is doing it: eu viajo, você viaja, ela viaja, nós viajamos. You and she share one.", "rows": [
+				{"english": "I travel", "foreign": "eu viajo", "mark": ["o"], "base": "viajar", "features": {"who": "i", "when": "now"}},
+				{"english": "You travel", "foreign": "você viaja", "mark": ["a"], "base": "viajar", "features": {"who": "you", "when": "now"}},
+				{"english": "She travels", "foreign": "ela viaja", "mark": ["a"], "base": "viajar", "features": {"who": "she", "when": "now"}},
+				{"english": "We travel", "foreign": "nós viajamos", "mark": ["amos"], "base": "viajar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 45, "verb": "perguntar", "strategy": ["ending"], "description": "The ending says who is doing it: eu pergunto, você pergunta, ela pergunta, nós perguntamos. You and she share one.", "rows": [
+				{"english": "I ask", "foreign": "eu pergunto", "mark": ["o"], "base": "perguntar", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "você pergunta", "mark": ["a"], "base": "perguntar", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "ela pergunta", "mark": ["a"], "base": "perguntar", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "nós perguntamos", "mark": ["amos"], "base": "perguntar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 46, "verb": "responder", "strategy": ["ending"], "description": "The ending says who is doing it: eu respondo, você responde, ela responde, nós respondemos. You and she share one.", "rows": [
+				{"english": "I answer", "foreign": "eu respondo", "mark": ["o"], "base": "responder", "features": {"who": "i", "when": "now"}},
+				{"english": "You answer", "foreign": "você responde", "mark": ["e"], "base": "responder", "features": {"who": "you", "when": "now"}},
+				{"english": "She answers", "foreign": "ela responde", "mark": ["e"], "base": "responder", "features": {"who": "she", "when": "now"}},
+				{"english": "We answer", "foreign": "nós respondemos", "mark": ["emos"], "base": "responder", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 47, "verb": "perder", "strategy": ["ending"], "description": "The ending says who is doing it: eu perco, você perde, ela perde, nós perdemos. You and she share one. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I lose", "foreign": "eu perco", "mark": ["o"], "base": "perder", "features": {"who": "i", "when": "now"}},
+				{"english": "You lose", "foreign": "você perde", "mark": ["e"], "base": "perder", "features": {"who": "you", "when": "now"}},
+				{"english": "She loses", "foreign": "ela perde", "mark": ["e"], "base": "perder", "features": {"who": "she", "when": "now"}},
+				{"english": "We lose", "foreign": "nós perdemos", "mark": ["emos"], "base": "perder", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 48, "verb": "receber", "strategy": ["ending"], "description": "The ending says who is doing it: eu recebo, você recebe, ela recebe, nós recebemos. You and she share one.", "rows": [
+				{"english": "I receive", "foreign": "eu recebo", "mark": ["o"], "base": "receber", "features": {"who": "i", "when": "now"}},
+				{"english": "You receive", "foreign": "você recebe", "mark": ["e"], "base": "receber", "features": {"who": "you", "when": "now"}},
+				{"english": "She receives", "foreign": "ela recebe", "mark": ["e"], "base": "receber", "features": {"who": "she", "when": "now"}},
+				{"english": "We receive", "foreign": "nós recebemos", "mark": ["emos"], "base": "receber", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 49, "verb": "pedir", "strategy": ["ending"], "description": "The ending says who is doing it: eu peço, você pede, ela pede, nós pedimos. You and she share one. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I order", "foreign": "eu peço", "mark": ["o"], "base": "pedir", "features": {"who": "i", "when": "now"}},
+				{"english": "You order", "foreign": "você pede", "mark": ["e"], "base": "pedir", "features": {"who": "you", "when": "now"}},
+				{"english": "She orders", "foreign": "ela pede", "mark": ["e"], "base": "pedir", "features": {"who": "she", "when": "now"}},
+				{"english": "We order", "foreign": "nós pedimos", "mark": ["imos"], "base": "pedir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 50, "verb": "seguir", "strategy": ["ending"], "description": "The ending says who is doing it: eu sigo, você segue, ela segue, nós seguimos. You and she share one. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I follow", "foreign": "eu sigo", "mark": ["o"], "base": "seguir", "features": {"who": "i", "when": "now"}},
+				{"english": "You follow", "foreign": "você segue", "mark": ["e"], "base": "seguir", "features": {"who": "you", "when": "now"}},
+				{"english": "She follows", "foreign": "ela segue", "mark": ["e"], "base": "seguir", "features": {"who": "she", "when": "now"}},
+				{"english": "We follow", "foreign": "nós seguimos", "mark": ["imos"], "base": "seguir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 51, "verb": "sentir", "strategy": ["ending"], "description": "The ending says who is doing it: eu sinto, você sente, ela sente, nós sentimos. You and she share one. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I feel", "foreign": "eu sinto", "mark": ["o"], "base": "sentir", "features": {"who": "i", "when": "now"}},
+				{"english": "You feel", "foreign": "você sente", "mark": ["e"], "base": "sentir", "features": {"who": "you", "when": "now"}},
+				{"english": "She feels", "foreign": "ela sente", "mark": ["e"], "base": "sentir", "features": {"who": "she", "when": "now"}},
+				{"english": "We feel", "foreign": "nós sentimos", "mark": ["imos"], "base": "sentir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "ter", "strategy": ["ending", "helper word"], "description": "The ending says before: eu tive. For later, Brazilians put a form of ir in front of the whole verb: eu vou ter. Ter goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I have", "foreign": "eu tenho", "mark": [{"text": "o", "role": "ending"}], "base": "ter", "features": {"who": "i", "when": "now"}},
+				{"english": "I had", "foreign": "eu tive", "from": 1, "base": "ter", "features": {"who": "i", "when": "before"}},
+				{"english": "I will have", "foreign": "eu vou ter", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "ter", "features": {"who": "i", "when": "later"}},
+				{"english": "She had", "foreign": "ela teve", "base": "ter", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "fazer", "strategy": ["ending", "helper word"], "description": "The ending says before: eu fiz. For later, Brazilians put a form of ir in front of the whole verb: eu vou fazer. Fazer goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I make", "foreign": "eu faço", "mark": [{"text": "o", "role": "ending"}], "base": "fazer", "features": {"who": "i", "when": "now"}},
+				{"english": "I made", "foreign": "eu fiz", "from": 1, "base": "fazer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "eu vou fazer", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "fazer", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "ela fez", "base": "fazer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "ir", "strategy": ["ending", "helper word"], "description": "The ending says before: eu fui. For later, Brazilians put a form of ir in front of the whole verb: eu vou ir. Ir goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I go", "foreign": "eu vou", "base": "ir", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "eu fui", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "ir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "eu vou ir", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "ir", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "ela foi", "mark": [{"text": "i", "role": "ending"}], "base": "ir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "dizer", "strategy": ["ending", "helper word"], "description": "The ending says before: eu disse. For later, Brazilians put a form of ir in front of the whole verb: eu vou dizer. Dizer goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I say", "foreign": "eu digo", "mark": [{"text": "o", "role": "ending"}], "base": "dizer", "features": {"who": "i", "when": "now"}},
+				{"english": "I said", "foreign": "eu disse", "from": 1, "base": "dizer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will say", "foreign": "eu vou dizer", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "dizer", "features": {"who": "i", "when": "later"}},
+				{"english": "She said", "foreign": "ela disse", "base": "dizer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "ver", "strategy": ["ending", "helper word"], "description": "The ending says before: eu vi. For later, Brazilians put a form of ir in front of the whole verb: eu vou ver. Ver goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I see", "foreign": "eu vejo", "mark": [{"text": "o", "role": "ending"}], "base": "ver", "features": {"who": "i", "when": "now"}},
+				{"english": "I saw", "foreign": "eu vi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "ver", "features": {"who": "i", "when": "before"}},
+				{"english": "I will see", "foreign": "eu vou ver", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "ver", "features": {"who": "i", "when": "later"}},
+				{"english": "She saw", "foreign": "ela viu", "base": "ver", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "dar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu dei. For later, Brazilians put a form of ir in front of the whole verb: eu vou dar. Dar goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I give", "foreign": "eu dou", "base": "dar", "features": {"who": "i", "when": "now"}},
+				{"english": "I gave", "foreign": "eu dei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "dar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "eu vou dar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "dar", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "ela deu", "base": "dar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "saber", "strategy": ["ending", "helper word"], "description": "The ending says before: eu soube. For later, Brazilians put a form of ir in front of the whole verb: eu vou saber. Saber goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I know", "foreign": "eu sei", "base": "saber", "features": {"who": "i", "when": "now"}},
+				{"english": "I knew", "foreign": "eu soube", "from": 1, "base": "saber", "features": {"who": "i", "when": "before"}},
+				{"english": "I will know", "foreign": "eu vou saber", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "saber", "features": {"who": "i", "when": "later"}},
+				{"english": "She knew", "foreign": "ela soube", "base": "saber", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "querer", "strategy": ["ending", "helper word"], "description": "The ending says before: eu quis. For later, Brazilians put a form of ir in front of the whole verb: eu vou querer. Querer goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I want", "foreign": "eu quero", "mark": [{"text": "o", "role": "ending"}], "base": "querer", "features": {"who": "i", "when": "now"}},
+				{"english": "I wanted", "foreign": "eu quis", "from": 1, "base": "querer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will want", "foreign": "eu vou querer", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "querer", "features": {"who": "i", "when": "later"}},
+				{"english": "She wanted", "foreign": "ela quis", "base": "querer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "vir", "strategy": ["ending", "helper word"], "description": "The ending says before: eu vim. For later, Brazilians put a form of ir in front of the whole verb: eu vou vir. Vir goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I come", "foreign": "eu venho", "mark": [{"text": "o", "role": "ending"}], "base": "vir", "features": {"who": "i", "when": "now"}},
+				{"english": "I came", "foreign": "eu vim", "from": 1, "base": "vir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come", "foreign": "eu vou vir", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "vir", "features": {"who": "i", "when": "later"}},
+				{"english": "She came", "foreign": "ela veio", "base": "vir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "comer", "strategy": ["ending", "helper word"], "description": "The ending says before: eu comi. For later, Brazilians put a form of ir in front of the whole verb: eu vou comer.", "rows": [
+				{"english": "I eat", "foreign": "eu como", "mark": [{"text": "o", "role": "ending"}], "base": "comer", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "eu comi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "comer", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "eu vou comer", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "comer", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "ela comeu", "mark": [{"text": "eu", "role": "ending"}], "base": "comer", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "viver", "strategy": ["ending", "helper word"], "description": "The ending says before: eu vivi. For later, Brazilians put a form of ir in front of the whole verb: eu vou viver.", "rows": [
+				{"english": "I live", "foreign": "eu vivo", "mark": [{"text": "o", "role": "ending"}], "base": "viver", "features": {"who": "i", "when": "now"}},
+				{"english": "I lived", "foreign": "eu vivi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "viver", "features": {"who": "i", "when": "before"}},
+				{"english": "I will live", "foreign": "eu vou viver", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "viver", "features": {"who": "i", "when": "later"}},
+				{"english": "She lived", "foreign": "ela viveu", "mark": [{"text": "eu", "role": "ending"}], "base": "viver", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "trabalhar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu trabalhei. For later, Brazilians put a form of ir in front of the whole verb: eu vou trabalhar.", "rows": [
+				{"english": "I work", "foreign": "eu trabalho", "mark": [{"text": "o", "role": "ending"}], "base": "trabalhar", "features": {"who": "i", "when": "now"}},
+				{"english": "I worked", "foreign": "eu trabalhei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "trabalhar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will work", "foreign": "eu vou trabalhar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "trabalhar", "features": {"who": "i", "when": "later"}},
+				{"english": "She worked", "foreign": "ela trabalhou", "mark": [{"text": "ou", "role": "ending"}], "base": "trabalhar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "pensar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu pensei. For later, Brazilians put a form of ir in front of the whole verb: eu vou pensar.", "rows": [
+				{"english": "I think", "foreign": "eu penso", "mark": [{"text": "o", "role": "ending"}], "base": "pensar", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "eu pensei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "pensar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "eu vou pensar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "pensar", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "ela pensou", "mark": [{"text": "ou", "role": "ending"}], "base": "pensar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "tomar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu tomei. For later, Brazilians put a form of ir in front of the whole verb: eu vou tomar.", "rows": [
+				{"english": "I take", "foreign": "eu tomo", "mark": [{"text": "o", "role": "ending"}], "base": "tomar", "features": {"who": "i", "when": "now"}},
+				{"english": "I took", "foreign": "eu tomei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "tomar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "eu vou tomar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "tomar", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "ela tomou", "mark": [{"text": "ou", "role": "ending"}], "base": "tomar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "escrever", "strategy": ["ending", "helper word"], "description": "The ending says before: eu escrevi. For later, Brazilians put a form of ir in front of the whole verb: eu vou escrever.", "rows": [
+				{"english": "I write", "foreign": "eu escrevo", "mark": [{"text": "o", "role": "ending"}], "base": "escrever", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "eu escrevi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "escrever", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "eu vou escrever", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "escrever", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "ela escreveu", "mark": [{"text": "eu", "role": "ending"}], "base": "escrever", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "comprar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu comprei. For later, Brazilians put a form of ir in front of the whole verb: eu vou comprar.", "rows": [
+				{"english": "I buy", "foreign": "eu compro", "mark": [{"text": "o", "role": "ending"}], "base": "comprar", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "eu comprei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "comprar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "eu vou comprar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "comprar", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "ela comprou", "mark": [{"text": "ou", "role": "ending"}], "base": "comprar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "beber", "strategy": ["ending", "helper word"], "description": "The ending says before: eu bebi. For later, Brazilians put a form of ir in front of the whole verb: eu vou beber.", "rows": [
+				{"english": "I drink", "foreign": "eu bebo", "mark": [{"text": "o", "role": "ending"}], "base": "beber", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "eu bebi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "beber", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "eu vou beber", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "beber", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "ela bebeu", "mark": [{"text": "eu", "role": "ending"}], "base": "beber", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "dormir", "strategy": ["ending", "helper word"], "description": "The ending says before: eu dormi. For later, Brazilians put a form of ir in front of the whole verb: eu vou dormir. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "eu durmo", "mark": [{"text": "o", "role": "ending"}], "base": "dormir", "features": {"who": "i", "when": "now"}},
+				{"english": "I slept", "foreign": "eu dormi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "dormir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sleep", "foreign": "eu vou dormir", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "dormir", "features": {"who": "i", "when": "later"}},
+				{"english": "She slept", "foreign": "ela dormiu", "mark": [{"text": "iu", "role": "ending"}], "base": "dormir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "sair", "strategy": ["ending", "helper word"], "description": "The ending says before: eu saí. For later, Brazilians put a form of ir in front of the whole verb: eu vou sair. Sair goes its own way here, so learn these as they are.", "rows": [
+				{"english": "I go out", "foreign": "eu saio", "mark": [{"text": "o", "role": "ending"}], "base": "sair", "features": {"who": "i", "when": "now"}},
+				{"english": "I went out", "foreign": "eu saí", "from": 1, "base": "sair", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go out", "foreign": "eu vou sair", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "sair", "features": {"who": "i", "when": "later"}},
+				{"english": "She went out", "foreign": "ela saiu", "mark": [{"text": "iu", "role": "ending"}], "base": "sair", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "voltar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu voltei. For later, Brazilians put a form of ir in front of the whole verb: eu vou voltar.", "rows": [
+				{"english": "I return", "foreign": "eu volto", "mark": [{"text": "o", "role": "ending"}], "base": "voltar", "features": {"who": "i", "when": "now"}},
+				{"english": "I returned", "foreign": "eu voltei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "voltar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will return", "foreign": "eu vou voltar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "voltar", "features": {"who": "i", "when": "later"}},
+				{"english": "She returned", "foreign": "ela voltou", "mark": [{"text": "ou", "role": "ending"}], "base": "voltar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "chegar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu cheguei. For later, Brazilians put a form of ir in front of the whole verb: eu vou chegar. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I arrive", "foreign": "eu chego", "mark": [{"text": "o", "role": "ending"}], "base": "chegar", "features": {"who": "i", "when": "now"}},
+				{"english": "I arrived", "foreign": "eu cheguei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "chegar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will arrive", "foreign": "eu vou chegar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "chegar", "features": {"who": "i", "when": "later"}},
+				{"english": "She arrived", "foreign": "ela chegou", "mark": [{"text": "ou", "role": "ending"}], "base": "chegar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "olhar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu olhei. For later, Brazilians put a form of ir in front of the whole verb: eu vou olhar.", "rows": [
+				{"english": "I look", "foreign": "eu olho", "mark": [{"text": "o", "role": "ending"}], "base": "olhar", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked", "foreign": "eu olhei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "olhar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look", "foreign": "eu vou olhar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "olhar", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked", "foreign": "ela olhou", "mark": [{"text": "ou", "role": "ending"}], "base": "olhar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "esperar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu esperei. For later, Brazilians put a form of ir in front of the whole verb: eu vou esperar.", "rows": [
+				{"english": "I wait", "foreign": "eu espero", "mark": [{"text": "o", "role": "ending"}], "base": "esperar", "features": {"who": "i", "when": "now"}},
+				{"english": "I waited", "foreign": "eu esperei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "esperar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "eu vou esperar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "esperar", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "ela esperou", "mark": [{"text": "ou", "role": "ending"}], "base": "esperar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "procurar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu procurei. For later, Brazilians put a form of ir in front of the whole verb: eu vou procurar.", "rows": [
+				{"english": "I search", "foreign": "eu procuro", "mark": [{"text": "o", "role": "ending"}], "base": "procurar", "features": {"who": "i", "when": "now"}},
+				{"english": "I searched", "foreign": "eu procurei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "procurar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will search", "foreign": "eu vou procurar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "procurar", "features": {"who": "i", "when": "later"}},
+				{"english": "She searched", "foreign": "ela procurou", "mark": [{"text": "ou", "role": "ending"}], "base": "procurar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "encontrar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu encontrei. For later, Brazilians put a form of ir in front of the whole verb: eu vou encontrar.", "rows": [
+				{"english": "I find", "foreign": "eu encontro", "mark": [{"text": "o", "role": "ending"}], "base": "encontrar", "features": {"who": "i", "when": "now"}},
+				{"english": "I found", "foreign": "eu encontrei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "encontrar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will find", "foreign": "eu vou encontrar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "encontrar", "features": {"who": "i", "when": "later"}},
+				{"english": "She found", "foreign": "ela encontrou", "mark": [{"text": "ou", "role": "ending"}], "base": "encontrar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "chamar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu chamei. For later, Brazilians put a form of ir in front of the whole verb: eu vou chamar.", "rows": [
+				{"english": "I call", "foreign": "eu chamo", "mark": [{"text": "o", "role": "ending"}], "base": "chamar", "features": {"who": "i", "when": "now"}},
+				{"english": "I called", "foreign": "eu chamei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "chamar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "eu vou chamar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "chamar", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "ela chamou", "mark": [{"text": "ou", "role": "ending"}], "base": "chamar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "começar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu comecei. For later, Brazilians put a form of ir in front of the whole verb: eu vou começar. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I begin", "foreign": "eu começo", "mark": [{"text": "o", "role": "ending"}], "base": "começar", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "eu comecei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "começar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "eu vou começar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "começar", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "ela começou", "mark": [{"text": "ou", "role": "ending"}], "base": "começar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "terminar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu terminei. For later, Brazilians put a form of ir in front of the whole verb: eu vou terminar.", "rows": [
+				{"english": "I finish", "foreign": "eu termino", "mark": [{"text": "o", "role": "ending"}], "base": "terminar", "features": {"who": "i", "when": "now"}},
+				{"english": "I finished", "foreign": "eu terminei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "terminar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "eu vou terminar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "terminar", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "ela terminou", "mark": [{"text": "ou", "role": "ending"}], "base": "terminar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "abrir", "strategy": ["ending", "helper word"], "description": "The ending says before: eu abri. For later, Brazilians put a form of ir in front of the whole verb: eu vou abrir.", "rows": [
+				{"english": "I open", "foreign": "eu abro", "mark": [{"text": "o", "role": "ending"}], "base": "abrir", "features": {"who": "i", "when": "now"}},
+				{"english": "I opened", "foreign": "eu abri", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "abrir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "eu vou abrir", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "abrir", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "ela abriu", "mark": [{"text": "iu", "role": "ending"}], "base": "abrir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "fechar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu fechei. For later, Brazilians put a form of ir in front of the whole verb: eu vou fechar.", "rows": [
+				{"english": "I close", "foreign": "eu fecho", "mark": [{"text": "o", "role": "ending"}], "base": "fechar", "features": {"who": "i", "when": "now"}},
+				{"english": "I closed", "foreign": "eu fechei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "fechar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "eu vou fechar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "fechar", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "ela fechou", "mark": [{"text": "ou", "role": "ending"}], "base": "fechar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "aprender", "strategy": ["ending", "helper word"], "description": "The ending says before: eu aprendi. For later, Brazilians put a form of ir in front of the whole verb: eu vou aprender.", "rows": [
+				{"english": "I learn", "foreign": "eu aprendo", "mark": [{"text": "o", "role": "ending"}], "base": "aprender", "features": {"who": "i", "when": "now"}},
+				{"english": "I learned", "foreign": "eu aprendi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "aprender", "features": {"who": "i", "when": "before"}},
+				{"english": "I will learn", "foreign": "eu vou aprender", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "aprender", "features": {"who": "i", "when": "later"}},
+				{"english": "She learned", "foreign": "ela aprendeu", "mark": [{"text": "eu", "role": "ending"}], "base": "aprender", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "estudar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu estudei. For later, Brazilians put a form of ir in front of the whole verb: eu vou estudar.", "rows": [
+				{"english": "I study", "foreign": "eu estudo", "mark": [{"text": "o", "role": "ending"}], "base": "estudar", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "eu estudei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "estudar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "eu vou estudar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "estudar", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "ela estudou", "mark": [{"text": "ou", "role": "ending"}], "base": "estudar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "entender", "strategy": ["ending", "helper word"], "description": "The ending says before: eu entendi. For later, Brazilians put a form of ir in front of the whole verb: eu vou entender.", "rows": [
+				{"english": "I understand", "foreign": "eu entendo", "mark": [{"text": "o", "role": "ending"}], "base": "entender", "features": {"who": "i", "when": "now"}},
+				{"english": "I understood", "foreign": "eu entendi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "entender", "features": {"who": "i", "when": "before"}},
+				{"english": "I will understand", "foreign": "eu vou entender", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "entender", "features": {"who": "i", "when": "later"}},
+				{"english": "She understood", "foreign": "ela entendeu", "mark": [{"text": "eu", "role": "ending"}], "base": "entender", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "lembrar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu lembrei. For later, Brazilians put a form of ir in front of the whole verb: eu vou lembrar.", "rows": [
+				{"english": "I remember", "foreign": "eu lembro", "mark": [{"text": "o", "role": "ending"}], "base": "lembrar", "features": {"who": "i", "when": "now"}},
+				{"english": "I remembered", "foreign": "eu lembrei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "lembrar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will remember", "foreign": "eu vou lembrar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "lembrar", "features": {"who": "i", "when": "later"}},
+				{"english": "She remembered", "foreign": "ela lembrou", "mark": [{"text": "ou", "role": "ending"}], "base": "lembrar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "correr", "strategy": ["ending", "helper word"], "description": "The ending says before: eu corri. For later, Brazilians put a form of ir in front of the whole verb: eu vou correr.", "rows": [
+				{"english": "I run", "foreign": "eu corro", "mark": [{"text": "o", "role": "ending"}], "base": "correr", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "eu corri", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "correr", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "eu vou correr", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "correr", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "ela correu", "mark": [{"text": "eu", "role": "ending"}], "base": "correr", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "caminhar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu caminhei. For later, Brazilians put a form of ir in front of the whole verb: eu vou caminhar.", "rows": [
+				{"english": "I walk", "foreign": "eu caminho", "mark": [{"text": "o", "role": "ending"}], "base": "caminhar", "features": {"who": "i", "when": "now"}},
+				{"english": "I walked", "foreign": "eu caminhei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "caminhar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will walk", "foreign": "eu vou caminhar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "caminhar", "features": {"who": "i", "when": "later"}},
+				{"english": "She walked", "foreign": "ela caminhou", "mark": [{"text": "ou", "role": "ending"}], "base": "caminhar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "cantar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu cantei. For later, Brazilians put a form of ir in front of the whole verb: eu vou cantar.", "rows": [
+				{"english": "I sing", "foreign": "eu canto", "mark": [{"text": "o", "role": "ending"}], "base": "cantar", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "eu cantei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "cantar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "eu vou cantar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "cantar", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "ela cantou", "mark": [{"text": "ou", "role": "ending"}], "base": "cantar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "jogar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu joguei. For later, Brazilians put a form of ir in front of the whole verb: eu vou jogar. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I play", "foreign": "eu jogo", "mark": [{"text": "o", "role": "ending"}], "base": "jogar", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "eu joguei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "jogar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "eu vou jogar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "jogar", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "ela jogou", "mark": [{"text": "ou", "role": "ending"}], "base": "jogar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "pagar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu paguei. For later, Brazilians put a form of ir in front of the whole verb: eu vou pagar. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I pay", "foreign": "eu pago", "mark": [{"text": "o", "role": "ending"}], "base": "pagar", "features": {"who": "i", "when": "now"}},
+				{"english": "I paid", "foreign": "eu paguei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "pagar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "eu vou pagar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "pagar", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "ela pagou", "mark": [{"text": "ou", "role": "ending"}], "base": "pagar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "vender", "strategy": ["ending", "helper word"], "description": "The ending says before: eu vendi. For later, Brazilians put a form of ir in front of the whole verb: eu vou vender.", "rows": [
+				{"english": "I sell", "foreign": "eu vendo", "mark": [{"text": "o", "role": "ending"}], "base": "vender", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "eu vendi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "vender", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "eu vou vender", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "vender", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "ela vendeu", "mark": [{"text": "eu", "role": "ending"}], "base": "vender", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "ajudar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu ajudei. For later, Brazilians put a form of ir in front of the whole verb: eu vou ajudar.", "rows": [
+				{"english": "I help", "foreign": "eu ajudo", "mark": [{"text": "o", "role": "ending"}], "base": "ajudar", "features": {"who": "i", "when": "now"}},
+				{"english": "I helped", "foreign": "eu ajudei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "ajudar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "eu vou ajudar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "ajudar", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "ela ajudou", "mark": [{"text": "ou", "role": "ending"}], "base": "ajudar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "cozinhar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu cozinhei. For later, Brazilians put a form of ir in front of the whole verb: eu vou cozinhar.", "rows": [
+				{"english": "I cook", "foreign": "eu cozinho", "mark": [{"text": "o", "role": "ending"}], "base": "cozinhar", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "eu cozinhei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "cozinhar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "eu vou cozinhar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "cozinhar", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "ela cozinhou", "mark": [{"text": "ou", "role": "ending"}], "base": "cozinhar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "viajar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu viajei. For later, Brazilians put a form of ir in front of the whole verb: eu vou viajar.", "rows": [
+				{"english": "I travel", "foreign": "eu viajo", "mark": [{"text": "o", "role": "ending"}], "base": "viajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I travelled", "foreign": "eu viajei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "viajar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will travel", "foreign": "eu vou viajar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "viajar", "features": {"who": "i", "when": "later"}},
+				{"english": "She travelled", "foreign": "ela viajou", "mark": [{"text": "ou", "role": "ending"}], "base": "viajar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 45, "verb": "perguntar", "strategy": ["ending", "helper word"], "description": "The ending says before: eu perguntei. For later, Brazilians put a form of ir in front of the whole verb: eu vou perguntar.", "rows": [
+				{"english": "I ask", "foreign": "eu pergunto", "mark": [{"text": "o", "role": "ending"}], "base": "perguntar", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "eu perguntei", "mark": [{"text": "ei", "role": "ending"}], "from": 1, "base": "perguntar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "eu vou perguntar", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "perguntar", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "ela perguntou", "mark": [{"text": "ou", "role": "ending"}], "base": "perguntar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 46, "verb": "responder", "strategy": ["ending", "helper word"], "description": "The ending says before: eu respondi. For later, Brazilians put a form of ir in front of the whole verb: eu vou responder.", "rows": [
+				{"english": "I answer", "foreign": "eu respondo", "mark": [{"text": "o", "role": "ending"}], "base": "responder", "features": {"who": "i", "when": "now"}},
+				{"english": "I answered", "foreign": "eu respondi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "responder", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "eu vou responder", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "responder", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "ela respondeu", "mark": [{"text": "eu", "role": "ending"}], "base": "responder", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 47, "verb": "perder", "strategy": ["ending", "helper word"], "description": "The ending says before: eu perdi. For later, Brazilians put a form of ir in front of the whole verb: eu vou perder. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I lose", "foreign": "eu perco", "mark": [{"text": "o", "role": "ending"}], "base": "perder", "features": {"who": "i", "when": "now"}},
+				{"english": "I lost", "foreign": "eu perdi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "perder", "features": {"who": "i", "when": "before"}},
+				{"english": "I will lose", "foreign": "eu vou perder", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "perder", "features": {"who": "i", "when": "later"}},
+				{"english": "She lost", "foreign": "ela perdeu", "mark": [{"text": "eu", "role": "ending"}], "base": "perder", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 48, "verb": "receber", "strategy": ["ending", "helper word"], "description": "The ending says before: eu recebi. For later, Brazilians put a form of ir in front of the whole verb: eu vou receber.", "rows": [
+				{"english": "I receive", "foreign": "eu recebo", "mark": [{"text": "o", "role": "ending"}], "base": "receber", "features": {"who": "i", "when": "now"}},
+				{"english": "I received", "foreign": "eu recebi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "receber", "features": {"who": "i", "when": "before"}},
+				{"english": "I will receive", "foreign": "eu vou receber", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "receber", "features": {"who": "i", "when": "later"}},
+				{"english": "She received", "foreign": "ela recebeu", "mark": [{"text": "eu", "role": "ending"}], "base": "receber", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 49, "verb": "pedir", "strategy": ["ending", "helper word"], "description": "The ending says before: eu pedi. For later, Brazilians put a form of ir in front of the whole verb: eu vou pedir. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I order", "foreign": "eu peço", "mark": [{"text": "o", "role": "ending"}], "base": "pedir", "features": {"who": "i", "when": "now"}},
+				{"english": "I ordered", "foreign": "eu pedi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "eu vou pedir", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "ela pediu", "mark": [{"text": "iu", "role": "ending"}], "base": "pedir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 50, "verb": "seguir", "strategy": ["ending", "helper word"], "description": "The ending says before: eu segui. For later, Brazilians put a form of ir in front of the whole verb: eu vou seguir. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I follow", "foreign": "eu sigo", "mark": [{"text": "o", "role": "ending"}], "base": "seguir", "features": {"who": "i", "when": "now"}},
+				{"english": "I followed", "foreign": "eu segui", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "seguir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will follow", "foreign": "eu vou seguir", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "seguir", "features": {"who": "i", "when": "later"}},
+				{"english": "She followed", "foreign": "ela seguiu", "mark": [{"text": "iu", "role": "ending"}], "base": "seguir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 51, "verb": "sentir", "strategy": ["ending", "helper word"], "description": "The ending says before: eu senti. For later, Brazilians put a form of ir in front of the whole verb: eu vou sentir. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I feel", "foreign": "eu sinto", "mark": [{"text": "o", "role": "ending"}], "base": "sentir", "features": {"who": "i", "when": "now"}},
+				{"english": "I felt", "foreign": "eu senti", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "sentir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will feel", "foreign": "eu vou sentir", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "sentir", "features": {"who": "i", "when": "later"}},
+				{"english": "She felt", "foreign": "ela sentiu", "mark": [{"text": "iu", "role": "ending"}], "base": "sentir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "going", "part": 2, "verb": "fazer", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou fazendo.", "rows": [
+				{"english": "I make", "foreign": "eu faço", "base": "fazer", "features": {"who": "i", "when": "now"}},
+				{"english": "I am making", "foreign": "eu estou fazendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "fazer", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She makes", "foreign": "ela faz", "base": "fazer", "features": {"who": "she", "when": "now"}},
+				{"english": "She is making", "foreign": "ela está fazendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "fazer", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 3, "verb": "ir", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou indo.", "rows": [
+				{"english": "I go", "foreign": "eu vou", "base": "ir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am going", "foreign": "eu estou indo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 1, "base": "ir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She goes", "foreign": "ela vai", "base": "ir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is going", "foreign": "ela está indo", "mark": [{"text": "está", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 3, "base": "ir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 4, "verb": "dizer", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou dizendo.", "rows": [
+				{"english": "I say", "foreign": "eu digo", "base": "dizer", "features": {"who": "i", "when": "now"}},
+				{"english": "I am saying", "foreign": "eu estou dizendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "dizer", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She says", "foreign": "ela diz", "base": "dizer", "features": {"who": "she", "when": "now"}},
+				{"english": "She is saying", "foreign": "ela está dizendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "dizer", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 5, "verb": "dar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou dando.", "rows": [
+				{"english": "I give", "foreign": "eu dou", "base": "dar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am giving", "foreign": "eu estou dando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "dar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She gives", "foreign": "ela dá", "base": "dar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is giving", "foreign": "ela está dando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "dar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 6, "verb": "vir", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou vindo.", "rows": [
+				{"english": "I come", "foreign": "eu venho", "base": "vir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am coming", "foreign": "eu estou vindo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 1, "base": "vir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She comes", "foreign": "ela vem", "base": "vir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is coming", "foreign": "ela está vindo", "mark": [{"text": "está", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 3, "base": "vir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 7, "verb": "comer", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou comendo.", "rows": [
+				{"english": "I eat", "foreign": "eu como", "base": "comer", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "eu estou comendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "comer", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She eats", "foreign": "ela come", "base": "comer", "features": {"who": "she", "when": "now"}},
+				{"english": "She is eating", "foreign": "ela está comendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "comer", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 8, "verb": "viver", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou vivendo.", "rows": [
+				{"english": "I live", "foreign": "eu vivo", "base": "viver", "features": {"who": "i", "when": "now"}},
+				{"english": "I am living", "foreign": "eu estou vivendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "viver", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She lives", "foreign": "ela vive", "base": "viver", "features": {"who": "she", "when": "now"}},
+				{"english": "She is living", "foreign": "ela está vivendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "viver", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 9, "verb": "trabalhar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou trabalhando.", "rows": [
+				{"english": "I work", "foreign": "eu trabalho", "base": "trabalhar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am working", "foreign": "eu estou trabalhando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "trabalhar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She works", "foreign": "ela trabalha", "base": "trabalhar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is working", "foreign": "ela está trabalhando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "trabalhar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 10, "verb": "pensar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou pensando.", "rows": [
+				{"english": "I think", "foreign": "eu penso", "base": "pensar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am thinking", "foreign": "eu estou pensando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "pensar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She thinks", "foreign": "ela pensa", "base": "pensar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is thinking", "foreign": "ela está pensando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "pensar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 11, "verb": "tomar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou tomando.", "rows": [
+				{"english": "I take", "foreign": "eu tomo", "base": "tomar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am taking", "foreign": "eu estou tomando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "tomar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She takes", "foreign": "ela toma", "base": "tomar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is taking", "foreign": "ela está tomando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "tomar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 12, "verb": "escrever", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou escrevendo.", "rows": [
+				{"english": "I write", "foreign": "eu escrevo", "base": "escrever", "features": {"who": "i", "when": "now"}},
+				{"english": "I am writing", "foreign": "eu estou escrevendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "escrever", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She writes", "foreign": "ela escreve", "base": "escrever", "features": {"who": "she", "when": "now"}},
+				{"english": "She is writing", "foreign": "ela está escrevendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "escrever", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 13, "verb": "comprar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou comprando.", "rows": [
+				{"english": "I buy", "foreign": "eu compro", "base": "comprar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am buying", "foreign": "eu estou comprando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "comprar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She buys", "foreign": "ela compra", "base": "comprar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is buying", "foreign": "ela está comprando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "comprar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 14, "verb": "beber", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou bebendo.", "rows": [
+				{"english": "I drink", "foreign": "eu bebo", "base": "beber", "features": {"who": "i", "when": "now"}},
+				{"english": "I am drinking", "foreign": "eu estou bebendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "beber", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She drinks", "foreign": "ela bebe", "base": "beber", "features": {"who": "she", "when": "now"}},
+				{"english": "She is drinking", "foreign": "ela está bebendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "beber", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 15, "verb": "dormir", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou dormindo.", "rows": [
+				{"english": "I sleep", "foreign": "eu durmo", "base": "dormir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am sleeping", "foreign": "eu estou dormindo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 1, "base": "dormir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sleeps", "foreign": "ela dorme", "base": "dormir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is sleeping", "foreign": "ela está dormindo", "mark": [{"text": "está", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 3, "base": "dormir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 16, "verb": "sair", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou saindo.", "rows": [
+				{"english": "I go out", "foreign": "eu saio", "base": "sair", "features": {"who": "i", "when": "now"}},
+				{"english": "I am going out", "foreign": "eu estou saindo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 1, "base": "sair", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She goes out", "foreign": "ela sai", "base": "sair", "features": {"who": "she", "when": "now"}},
+				{"english": "She is going out", "foreign": "ela está saindo", "mark": [{"text": "está", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 3, "base": "sair", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 17, "verb": "voltar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou voltando.", "rows": [
+				{"english": "I return", "foreign": "eu volto", "base": "voltar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am returning", "foreign": "eu estou voltando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "voltar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She returns", "foreign": "ela volta", "base": "voltar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is returning", "foreign": "ela está voltando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "voltar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 18, "verb": "chegar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou chegando.", "rows": [
+				{"english": "I arrive", "foreign": "eu chego", "base": "chegar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am arriving", "foreign": "eu estou chegando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "chegar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She arrives", "foreign": "ela chega", "base": "chegar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is arriving", "foreign": "ela está chegando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "chegar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 19, "verb": "olhar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou olhando.", "rows": [
+				{"english": "I look", "foreign": "eu olho", "base": "olhar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am looking", "foreign": "eu estou olhando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "olhar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She looks", "foreign": "ela olha", "base": "olhar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is looking", "foreign": "ela está olhando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "olhar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 20, "verb": "esperar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou esperando.", "rows": [
+				{"english": "I wait", "foreign": "eu espero", "base": "esperar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am waiting", "foreign": "eu estou esperando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "esperar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She waits", "foreign": "ela espera", "base": "esperar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is waiting", "foreign": "ela está esperando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "esperar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 21, "verb": "procurar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou procurando.", "rows": [
+				{"english": "I search", "foreign": "eu procuro", "base": "procurar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am searching", "foreign": "eu estou procurando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "procurar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She searches", "foreign": "ela procura", "base": "procurar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is searching", "foreign": "ela está procurando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "procurar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 22, "verb": "encontrar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou encontrando.", "rows": [
+				{"english": "I find", "foreign": "eu encontro", "base": "encontrar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am finding", "foreign": "eu estou encontrando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "encontrar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She finds", "foreign": "ela encontra", "base": "encontrar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is finding", "foreign": "ela está encontrando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "encontrar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 23, "verb": "chamar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou chamando.", "rows": [
+				{"english": "I call", "foreign": "eu chamo", "base": "chamar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am calling", "foreign": "eu estou chamando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "chamar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She calls", "foreign": "ela chama", "base": "chamar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is calling", "foreign": "ela está chamando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "chamar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 24, "verb": "começar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou começando.", "rows": [
+				{"english": "I begin", "foreign": "eu começo", "base": "começar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am beginning", "foreign": "eu estou começando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "começar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She begins", "foreign": "ela começa", "base": "começar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is beginning", "foreign": "ela está começando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "começar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 25, "verb": "terminar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou terminando.", "rows": [
+				{"english": "I finish", "foreign": "eu termino", "base": "terminar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am finishing", "foreign": "eu estou terminando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "terminar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She finishes", "foreign": "ela termina", "base": "terminar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is finishing", "foreign": "ela está terminando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "terminar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 26, "verb": "abrir", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou abrindo.", "rows": [
+				{"english": "I open", "foreign": "eu abro", "base": "abrir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am opening", "foreign": "eu estou abrindo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 1, "base": "abrir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She opens", "foreign": "ela abre", "base": "abrir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is opening", "foreign": "ela está abrindo", "mark": [{"text": "está", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 3, "base": "abrir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 27, "verb": "fechar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou fechando.", "rows": [
+				{"english": "I close", "foreign": "eu fecho", "base": "fechar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am closing", "foreign": "eu estou fechando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "fechar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She closes", "foreign": "ela fecha", "base": "fechar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is closing", "foreign": "ela está fechando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "fechar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 28, "verb": "aprender", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou aprendendo.", "rows": [
+				{"english": "I learn", "foreign": "eu aprendo", "base": "aprender", "features": {"who": "i", "when": "now"}},
+				{"english": "I am learning", "foreign": "eu estou aprendendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "aprender", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She learns", "foreign": "ela aprende", "base": "aprender", "features": {"who": "she", "when": "now"}},
+				{"english": "She is learning", "foreign": "ela está aprendendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "aprender", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 29, "verb": "estudar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou estudando.", "rows": [
+				{"english": "I study", "foreign": "eu estudo", "base": "estudar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am studying", "foreign": "eu estou estudando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "estudar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She studies", "foreign": "ela estuda", "base": "estudar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is studying", "foreign": "ela está estudando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "estudar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 30, "verb": "correr", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou correndo.", "rows": [
+				{"english": "I run", "foreign": "eu corro", "base": "correr", "features": {"who": "i", "when": "now"}},
+				{"english": "I am running", "foreign": "eu estou correndo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "correr", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She runs", "foreign": "ela corre", "base": "correr", "features": {"who": "she", "when": "now"}},
+				{"english": "She is running", "foreign": "ela está correndo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "correr", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 31, "verb": "caminhar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou caminhando.", "rows": [
+				{"english": "I walk", "foreign": "eu caminho", "base": "caminhar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am walking", "foreign": "eu estou caminhando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "caminhar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She walks", "foreign": "ela caminha", "base": "caminhar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is walking", "foreign": "ela está caminhando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "caminhar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 32, "verb": "cantar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou cantando.", "rows": [
+				{"english": "I sing", "foreign": "eu canto", "base": "cantar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am singing", "foreign": "eu estou cantando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "cantar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sings", "foreign": "ela canta", "base": "cantar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is singing", "foreign": "ela está cantando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "cantar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 33, "verb": "jogar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou jogando.", "rows": [
+				{"english": "I play", "foreign": "eu jogo", "base": "jogar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am playing", "foreign": "eu estou jogando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "jogar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She plays", "foreign": "ela joga", "base": "jogar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is playing", "foreign": "ela está jogando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "jogar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 34, "verb": "pagar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou pagando.", "rows": [
+				{"english": "I pay", "foreign": "eu pago", "base": "pagar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am paying", "foreign": "eu estou pagando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "pagar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She pays", "foreign": "ela paga", "base": "pagar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is paying", "foreign": "ela está pagando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "pagar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 35, "verb": "vender", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou vendendo.", "rows": [
+				{"english": "I sell", "foreign": "eu vendo", "base": "vender", "features": {"who": "i", "when": "now"}},
+				{"english": "I am selling", "foreign": "eu estou vendendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "vender", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sells", "foreign": "ela vende", "base": "vender", "features": {"who": "she", "when": "now"}},
+				{"english": "She is selling", "foreign": "ela está vendendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "vender", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 36, "verb": "ajudar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou ajudando.", "rows": [
+				{"english": "I help", "foreign": "eu ajudo", "base": "ajudar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am helping", "foreign": "eu estou ajudando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "ajudar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She helps", "foreign": "ela ajuda", "base": "ajudar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is helping", "foreign": "ela está ajudando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "ajudar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 37, "verb": "cozinhar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou cozinhando.", "rows": [
+				{"english": "I cook", "foreign": "eu cozinho", "base": "cozinhar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am cooking", "foreign": "eu estou cozinhando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "cozinhar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cooks", "foreign": "ela cozinha", "base": "cozinhar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is cooking", "foreign": "ela está cozinhando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "cozinhar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 38, "verb": "viajar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou viajando.", "rows": [
+				{"english": "I travel", "foreign": "eu viajo", "base": "viajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am travelling", "foreign": "eu estou viajando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "viajar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She travels", "foreign": "ela viaja", "base": "viajar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is travelling", "foreign": "ela está viajando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "viajar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 39, "verb": "perguntar", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou perguntando.", "rows": [
+				{"english": "I ask", "foreign": "eu pergunto", "base": "perguntar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am asking", "foreign": "eu estou perguntando", "mark": [{"text": "estou", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 1, "base": "perguntar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She asks", "foreign": "ela pergunta", "base": "perguntar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is asking", "foreign": "ela está perguntando", "mark": [{"text": "está", "role": "helper word"}, {"text": "ando", "role": "ending"}], "from": 3, "base": "perguntar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 40, "verb": "responder", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou respondendo.", "rows": [
+				{"english": "I answer", "foreign": "eu respondo", "base": "responder", "features": {"who": "i", "when": "now"}},
+				{"english": "I am answering", "foreign": "eu estou respondendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "responder", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She answers", "foreign": "ela responde", "base": "responder", "features": {"who": "she", "when": "now"}},
+				{"english": "She is answering", "foreign": "ela está respondendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "responder", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 41, "verb": "perder", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou perdendo.", "rows": [
+				{"english": "I lose", "foreign": "eu perco", "base": "perder", "features": {"who": "i", "when": "now"}},
+				{"english": "I am losing", "foreign": "eu estou perdendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "perder", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She loses", "foreign": "ela perde", "base": "perder", "features": {"who": "she", "when": "now"}},
+				{"english": "She is losing", "foreign": "ela está perdendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "perder", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 42, "verb": "receber", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou recebendo.", "rows": [
+				{"english": "I receive", "foreign": "eu recebo", "base": "receber", "features": {"who": "i", "when": "now"}},
+				{"english": "I am receiving", "foreign": "eu estou recebendo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 1, "base": "receber", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She receives", "foreign": "ela recebe", "base": "receber", "features": {"who": "she", "when": "now"}},
+				{"english": "She is receiving", "foreign": "ela está recebendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "receber", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 43, "verb": "pedir", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou pedindo.", "rows": [
+				{"english": "I order", "foreign": "eu peço", "base": "pedir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am ordering", "foreign": "eu estou pedindo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She orders", "foreign": "ela pede", "base": "pedir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is ordering", "foreign": "ela está pedindo", "mark": [{"text": "está", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 3, "base": "pedir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 44, "verb": "seguir", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou seguindo.", "rows": [
+				{"english": "I follow", "foreign": "eu sigo", "base": "seguir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am following", "foreign": "eu estou seguindo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 1, "base": "seguir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She follows", "foreign": "ela segue", "base": "seguir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is following", "foreign": "ela está seguindo", "mark": [{"text": "está", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 3, "base": "seguir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "command", "part": 2, "verb": "fazer", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Faça! To more than one person: Façam! Telling someone not to puts não in front: Não faça! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Make!", "foreign": "Faça!", "mark": [{"text": "a", "role": "ending"}], "base": "fazer", "features": {"command": "yes", "who": "you"}},
+				{"english": "Make! said to more than one person", "foreign": "Façam!", "mark": [{"text": "am", "role": "ending"}], "base": "fazer", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not make!", "foreign": "Não faça!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "fazer", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's make!", "foreign": "Vamos fazer!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "fazer", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 3, "verb": "ir", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Vá! To more than one person: Vão! Telling someone not to puts não in front: Não vá!", "rows": [
+				{"english": "Go!", "foreign": "Vá!", "base": "ir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go! said to more than one person", "foreign": "Vão!", "base": "ir", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not go!", "foreign": "Não vá!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "ir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go!", "foreign": "Vamos!", "base": "ir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 4, "verb": "dizer", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Diga! To more than one person: Digam! Telling someone not to puts não in front: Não diga! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Say!", "foreign": "Diga!", "mark": [{"text": "a", "role": "ending"}], "base": "dizer", "features": {"command": "yes", "who": "you"}},
+				{"english": "Say! said to more than one person", "foreign": "Digam!", "mark": [{"text": "am", "role": "ending"}], "base": "dizer", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not say!", "foreign": "Não diga!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "dizer", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's say!", "foreign": "Vamos dizer!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "dizer", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 5, "verb": "dar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Dê! To more than one person: Deem! Telling someone not to puts não in front: Não dê! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Give!", "foreign": "Dê!", "base": "dar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Give! said to more than one person", "foreign": "Deem!", "mark": [{"text": "em", "role": "ending"}], "base": "dar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not give!", "foreign": "Não dê!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "dar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's give!", "foreign": "Vamos dar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "dar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 6, "verb": "vir", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Venha! To more than one person: Venham! Telling someone not to puts não in front: Não venha! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Come!", "foreign": "Venha!", "mark": [{"text": "a", "role": "ending"}], "base": "vir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Come! said to more than one person", "foreign": "Venham!", "mark": [{"text": "am", "role": "ending"}], "base": "vir", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not come!", "foreign": "Não venha!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "vir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come!", "foreign": "Vamos vir!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "vir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 7, "verb": "comer", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Coma! To more than one person: Comam! Telling someone not to puts não in front: Não coma!", "rows": [
+				{"english": "Eat!", "foreign": "Coma!", "mark": [{"text": "a", "role": "ending"}], "base": "comer", "features": {"command": "yes", "who": "you"}},
+				{"english": "Eat! said to more than one person", "foreign": "Comam!", "mark": [{"text": "am", "role": "ending"}], "base": "comer", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not eat!", "foreign": "Não coma!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "comer", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's eat!", "foreign": "Vamos comer!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "comer", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 8, "verb": "viver", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Viva! To more than one person: Vivam! Telling someone not to puts não in front: Não viva!", "rows": [
+				{"english": "Live!", "foreign": "Viva!", "mark": [{"text": "a", "role": "ending"}], "base": "viver", "features": {"command": "yes", "who": "you"}},
+				{"english": "Live! said to more than one person", "foreign": "Vivam!", "mark": [{"text": "am", "role": "ending"}], "base": "viver", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not live!", "foreign": "Não viva!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "viver", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's live!", "foreign": "Vamos viver!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "viver", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 9, "verb": "trabalhar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Trabalhe! To more than one person: Trabalhem! Telling someone not to puts não in front: Não trabalhe!", "rows": [
+				{"english": "Work!", "foreign": "Trabalhe!", "mark": [{"text": "e", "role": "ending"}], "base": "trabalhar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Work! said to more than one person", "foreign": "Trabalhem!", "mark": [{"text": "em", "role": "ending"}], "base": "trabalhar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not work!", "foreign": "Não trabalhe!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "trabalhar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's work!", "foreign": "Vamos trabalhar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "trabalhar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 10, "verb": "pensar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Pense! To more than one person: Pensem! Telling someone not to puts não in front: Não pense!", "rows": [
+				{"english": "Think!", "foreign": "Pense!", "mark": [{"text": "e", "role": "ending"}], "base": "pensar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Think! said to more than one person", "foreign": "Pensem!", "mark": [{"text": "em", "role": "ending"}], "base": "pensar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not think!", "foreign": "Não pense!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "pensar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's think!", "foreign": "Vamos pensar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "pensar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 11, "verb": "tomar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Tome! To more than one person: Tomem! Telling someone not to puts não in front: Não tome!", "rows": [
+				{"english": "Take!", "foreign": "Tome!", "mark": [{"text": "e", "role": "ending"}], "base": "tomar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Take! said to more than one person", "foreign": "Tomem!", "mark": [{"text": "em", "role": "ending"}], "base": "tomar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not take!", "foreign": "Não tome!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "tomar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's take!", "foreign": "Vamos tomar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "tomar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 12, "verb": "escrever", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Escreva! To more than one person: Escrevam! Telling someone not to puts não in front: Não escreva!", "rows": [
+				{"english": "Write!", "foreign": "Escreva!", "mark": [{"text": "a", "role": "ending"}], "base": "escrever", "features": {"command": "yes", "who": "you"}},
+				{"english": "Write! said to more than one person", "foreign": "Escrevam!", "mark": [{"text": "am", "role": "ending"}], "base": "escrever", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not write!", "foreign": "Não escreva!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "escrever", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's write!", "foreign": "Vamos escrever!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "escrever", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 13, "verb": "comprar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Compre! To more than one person: Comprem! Telling someone not to puts não in front: Não compre!", "rows": [
+				{"english": "Buy!", "foreign": "Compre!", "mark": [{"text": "e", "role": "ending"}], "base": "comprar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Buy! said to more than one person", "foreign": "Comprem!", "mark": [{"text": "em", "role": "ending"}], "base": "comprar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not buy!", "foreign": "Não compre!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "comprar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's buy!", "foreign": "Vamos comprar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "comprar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 14, "verb": "beber", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Beba! To more than one person: Bebam! Telling someone not to puts não in front: Não beba!", "rows": [
+				{"english": "Drink!", "foreign": "Beba!", "mark": [{"text": "a", "role": "ending"}], "base": "beber", "features": {"command": "yes", "who": "you"}},
+				{"english": "Drink! said to more than one person", "foreign": "Bebam!", "mark": [{"text": "am", "role": "ending"}], "base": "beber", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not drink!", "foreign": "Não beba!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "beber", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drink!", "foreign": "Vamos beber!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "beber", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 15, "verb": "dormir", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Durma! To more than one person: Durmam! Telling someone not to puts não in front: Não durma! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Sleep!", "foreign": "Durma!", "mark": [{"text": "a", "role": "ending"}], "base": "dormir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sleep! said to more than one person", "foreign": "Durmam!", "mark": [{"text": "am", "role": "ending"}], "base": "dormir", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not sleep!", "foreign": "Não durma!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "dormir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sleep!", "foreign": "Vamos dormir!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "dormir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 16, "verb": "sair", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Saia! To more than one person: Saiam! Telling someone not to puts não in front: Não saia! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Go out!", "foreign": "Saia!", "mark": [{"text": "a", "role": "ending"}], "base": "sair", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go out! said to more than one person", "foreign": "Saiam!", "mark": [{"text": "am", "role": "ending"}], "base": "sair", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not go out!", "foreign": "Não saia!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "sair", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go out!", "foreign": "Vamos sair!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "sair", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 17, "verb": "voltar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Volte! To more than one person: Voltem! Telling someone not to puts não in front: Não volte!", "rows": [
+				{"english": "Return!", "foreign": "Volte!", "mark": [{"text": "e", "role": "ending"}], "base": "voltar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Return! said to more than one person", "foreign": "Voltem!", "mark": [{"text": "em", "role": "ending"}], "base": "voltar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not return!", "foreign": "Não volte!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "voltar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's return!", "foreign": "Vamos voltar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "voltar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 18, "verb": "chegar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Chegue! To more than one person: Cheguem! Telling someone not to puts não in front: Não chegue! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Arrive!", "foreign": "Chegue!", "mark": [{"text": "e", "role": "ending"}], "base": "chegar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Arrive! said to more than one person", "foreign": "Cheguem!", "mark": [{"text": "em", "role": "ending"}], "base": "chegar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not arrive!", "foreign": "Não chegue!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "chegar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's arrive!", "foreign": "Vamos chegar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "chegar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 19, "verb": "olhar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Olhe! To more than one person: Olhem! Telling someone not to puts não in front: Não olhe!", "rows": [
+				{"english": "Look!", "foreign": "Olhe!", "mark": [{"text": "e", "role": "ending"}], "base": "olhar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Look! said to more than one person", "foreign": "Olhem!", "mark": [{"text": "em", "role": "ending"}], "base": "olhar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not look!", "foreign": "Não olhe!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "olhar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's look!", "foreign": "Vamos olhar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "olhar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 20, "verb": "esperar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Espere! To more than one person: Esperem! Telling someone not to puts não in front: Não espere!", "rows": [
+				{"english": "Wait!", "foreign": "Espere!", "mark": [{"text": "e", "role": "ending"}], "base": "esperar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Wait! said to more than one person", "foreign": "Esperem!", "mark": [{"text": "em", "role": "ending"}], "base": "esperar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not wait!", "foreign": "Não espere!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "esperar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wait!", "foreign": "Vamos esperar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "esperar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 21, "verb": "procurar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Procure! To more than one person: Procurem! Telling someone not to puts não in front: Não procure!", "rows": [
+				{"english": "Search!", "foreign": "Procure!", "mark": [{"text": "e", "role": "ending"}], "base": "procurar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Search! said to more than one person", "foreign": "Procurem!", "mark": [{"text": "em", "role": "ending"}], "base": "procurar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not search!", "foreign": "Não procure!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "procurar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's search!", "foreign": "Vamos procurar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "procurar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 22, "verb": "encontrar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Encontre! To more than one person: Encontrem! Telling someone not to puts não in front: Não encontre!", "rows": [
+				{"english": "Find!", "foreign": "Encontre!", "mark": [{"text": "e", "role": "ending"}], "base": "encontrar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Find! said to more than one person", "foreign": "Encontrem!", "mark": [{"text": "em", "role": "ending"}], "base": "encontrar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not find!", "foreign": "Não encontre!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "encontrar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's find!", "foreign": "Vamos encontrar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "encontrar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 23, "verb": "chamar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Chame! To more than one person: Chamem! Telling someone not to puts não in front: Não chame!", "rows": [
+				{"english": "Call!", "foreign": "Chame!", "mark": [{"text": "e", "role": "ending"}], "base": "chamar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Call! said to more than one person", "foreign": "Chamem!", "mark": [{"text": "em", "role": "ending"}], "base": "chamar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not call!", "foreign": "Não chame!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "chamar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's call!", "foreign": "Vamos chamar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "chamar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 24, "verb": "começar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Comece! To more than one person: Comecem! Telling someone not to puts não in front: Não comece! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Begin!", "foreign": "Comece!", "mark": [{"text": "e", "role": "ending"}], "base": "começar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Begin! said to more than one person", "foreign": "Comecem!", "mark": [{"text": "em", "role": "ending"}], "base": "começar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not begin!", "foreign": "Não comece!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "começar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's begin!", "foreign": "Vamos começar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "começar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 25, "verb": "terminar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Termine! To more than one person: Terminem! Telling someone not to puts não in front: Não termine!", "rows": [
+				{"english": "Finish!", "foreign": "Termine!", "mark": [{"text": "e", "role": "ending"}], "base": "terminar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Finish! said to more than one person", "foreign": "Terminem!", "mark": [{"text": "em", "role": "ending"}], "base": "terminar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not finish!", "foreign": "Não termine!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "terminar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's finish!", "foreign": "Vamos terminar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "terminar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 26, "verb": "abrir", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Abra! To more than one person: Abram! Telling someone not to puts não in front: Não abra!", "rows": [
+				{"english": "Open!", "foreign": "Abra!", "mark": [{"text": "a", "role": "ending"}], "base": "abrir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Open! said to more than one person", "foreign": "Abram!", "mark": [{"text": "am", "role": "ending"}], "base": "abrir", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not open!", "foreign": "Não abra!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "abrir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's open!", "foreign": "Vamos abrir!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "abrir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 27, "verb": "fechar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Feche! To more than one person: Fechem! Telling someone not to puts não in front: Não feche!", "rows": [
+				{"english": "Close!", "foreign": "Feche!", "mark": [{"text": "e", "role": "ending"}], "base": "fechar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Close! said to more than one person", "foreign": "Fechem!", "mark": [{"text": "em", "role": "ending"}], "base": "fechar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not close!", "foreign": "Não feche!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "fechar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's close!", "foreign": "Vamos fechar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "fechar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 28, "verb": "aprender", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Aprenda! To more than one person: Aprendam! Telling someone not to puts não in front: Não aprenda!", "rows": [
+				{"english": "Learn!", "foreign": "Aprenda!", "mark": [{"text": "a", "role": "ending"}], "base": "aprender", "features": {"command": "yes", "who": "you"}},
+				{"english": "Learn! said to more than one person", "foreign": "Aprendam!", "mark": [{"text": "am", "role": "ending"}], "base": "aprender", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not learn!", "foreign": "Não aprenda!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "aprender", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's learn!", "foreign": "Vamos aprender!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "aprender", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 29, "verb": "estudar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Estude! To more than one person: Estudem! Telling someone not to puts não in front: Não estude!", "rows": [
+				{"english": "Study!", "foreign": "Estude!", "mark": [{"text": "e", "role": "ending"}], "base": "estudar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Study! said to more than one person", "foreign": "Estudem!", "mark": [{"text": "em", "role": "ending"}], "base": "estudar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not study!", "foreign": "Não estude!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "estudar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's study!", "foreign": "Vamos estudar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "estudar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 30, "verb": "correr", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Corra! To more than one person: Corram! Telling someone not to puts não in front: Não corra!", "rows": [
+				{"english": "Run!", "foreign": "Corra!", "mark": [{"text": "a", "role": "ending"}], "base": "correr", "features": {"command": "yes", "who": "you"}},
+				{"english": "Run! said to more than one person", "foreign": "Corram!", "mark": [{"text": "am", "role": "ending"}], "base": "correr", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not run!", "foreign": "Não corra!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "correr", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's run!", "foreign": "Vamos correr!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "correr", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 31, "verb": "caminhar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Caminhe! To more than one person: Caminhem! Telling someone not to puts não in front: Não caminhe!", "rows": [
+				{"english": "Walk!", "foreign": "Caminhe!", "mark": [{"text": "e", "role": "ending"}], "base": "caminhar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Walk! said to more than one person", "foreign": "Caminhem!", "mark": [{"text": "em", "role": "ending"}], "base": "caminhar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not walk!", "foreign": "Não caminhe!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "caminhar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's walk!", "foreign": "Vamos caminhar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "caminhar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 32, "verb": "cantar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Cante! To more than one person: Cantem! Telling someone not to puts não in front: Não cante!", "rows": [
+				{"english": "Sing!", "foreign": "Cante!", "mark": [{"text": "e", "role": "ending"}], "base": "cantar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sing! said to more than one person", "foreign": "Cantem!", "mark": [{"text": "em", "role": "ending"}], "base": "cantar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not sing!", "foreign": "Não cante!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "cantar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sing!", "foreign": "Vamos cantar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "cantar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 33, "verb": "jogar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Jogue! To more than one person: Joguem! Telling someone not to puts não in front: Não jogue! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Play!", "foreign": "Jogue!", "mark": [{"text": "e", "role": "ending"}], "base": "jogar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Play! said to more than one person", "foreign": "Joguem!", "mark": [{"text": "em", "role": "ending"}], "base": "jogar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not play!", "foreign": "Não jogue!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "jogar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's play!", "foreign": "Vamos jogar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "jogar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 34, "verb": "pagar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Pague! To more than one person: Paguem! Telling someone not to puts não in front: Não pague! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Pay!", "foreign": "Pague!", "mark": [{"text": "e", "role": "ending"}], "base": "pagar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Pay! said to more than one person", "foreign": "Paguem!", "mark": [{"text": "em", "role": "ending"}], "base": "pagar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not pay!", "foreign": "Não pague!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "pagar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's pay!", "foreign": "Vamos pagar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "pagar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 35, "verb": "vender", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Venda! To more than one person: Vendam! Telling someone not to puts não in front: Não venda!", "rows": [
+				{"english": "Sell!", "foreign": "Venda!", "mark": [{"text": "a", "role": "ending"}], "base": "vender", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sell! said to more than one person", "foreign": "Vendam!", "mark": [{"text": "am", "role": "ending"}], "base": "vender", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not sell!", "foreign": "Não venda!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "vender", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sell!", "foreign": "Vamos vender!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "vender", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 36, "verb": "ajudar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Ajude! To more than one person: Ajudem! Telling someone not to puts não in front: Não ajude!", "rows": [
+				{"english": "Help!", "foreign": "Ajude!", "mark": [{"text": "e", "role": "ending"}], "base": "ajudar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Help! said to more than one person", "foreign": "Ajudem!", "mark": [{"text": "em", "role": "ending"}], "base": "ajudar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not help!", "foreign": "Não ajude!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "ajudar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's help!", "foreign": "Vamos ajudar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "ajudar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 37, "verb": "cozinhar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Cozinhe! To more than one person: Cozinhem! Telling someone not to puts não in front: Não cozinhe!", "rows": [
+				{"english": "Cook!", "foreign": "Cozinhe!", "mark": [{"text": "e", "role": "ending"}], "base": "cozinhar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Cook! said to more than one person", "foreign": "Cozinhem!", "mark": [{"text": "em", "role": "ending"}], "base": "cozinhar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not cook!", "foreign": "Não cozinhe!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "cozinhar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's cook!", "foreign": "Vamos cozinhar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "cozinhar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 38, "verb": "viajar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Viaje! To more than one person: Viajem! Telling someone not to puts não in front: Não viaje!", "rows": [
+				{"english": "Travel!", "foreign": "Viaje!", "mark": [{"text": "e", "role": "ending"}], "base": "viajar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Travel! said to more than one person", "foreign": "Viajem!", "mark": [{"text": "em", "role": "ending"}], "base": "viajar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not travel!", "foreign": "Não viaje!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "viajar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's travel!", "foreign": "Vamos viajar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "viajar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 39, "verb": "perguntar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Pergunte! To more than one person: Perguntem! Telling someone not to puts não in front: Não pergunte!", "rows": [
+				{"english": "Ask!", "foreign": "Pergunte!", "mark": [{"text": "e", "role": "ending"}], "base": "perguntar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Ask! said to more than one person", "foreign": "Perguntem!", "mark": [{"text": "em", "role": "ending"}], "base": "perguntar", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not ask!", "foreign": "Não pergunte!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "perguntar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask!", "foreign": "Vamos perguntar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "perguntar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 40, "verb": "responder", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Responda! To more than one person: Respondam! Telling someone not to puts não in front: Não responda!", "rows": [
+				{"english": "Answer!", "foreign": "Responda!", "mark": [{"text": "a", "role": "ending"}], "base": "responder", "features": {"command": "yes", "who": "you"}},
+				{"english": "Answer! said to more than one person", "foreign": "Respondam!", "mark": [{"text": "am", "role": "ending"}], "base": "responder", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not answer!", "foreign": "Não responda!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "responder", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's answer!", "foreign": "Vamos responder!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "responder", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 41, "verb": "perder", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Perca! To more than one person: Percam! Telling someone not to puts não in front: Não perca! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Lose!", "foreign": "Perca!", "mark": [{"text": "a", "role": "ending"}], "base": "perder", "features": {"command": "yes", "who": "you"}},
+				{"english": "Lose! said to more than one person", "foreign": "Percam!", "mark": [{"text": "am", "role": "ending"}], "base": "perder", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not lose!", "foreign": "Não perca!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "perder", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's lose!", "foreign": "Vamos perder!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "perder", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 42, "verb": "receber", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Receba! To more than one person: Recebam! Telling someone not to puts não in front: Não receba!", "rows": [
+				{"english": "Receive!", "foreign": "Receba!", "mark": [{"text": "a", "role": "ending"}], "base": "receber", "features": {"command": "yes", "who": "you"}},
+				{"english": "Receive! said to more than one person", "foreign": "Recebam!", "mark": [{"text": "am", "role": "ending"}], "base": "receber", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not receive!", "foreign": "Não receba!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "receber", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's receive!", "foreign": "Vamos receber!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "receber", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 43, "verb": "pedir", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Peça! To more than one person: Peçam! Telling someone not to puts não in front: Não peça! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Order!", "foreign": "Peça!", "mark": [{"text": "a", "role": "ending"}], "base": "pedir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Order! said to more than one person", "foreign": "Peçam!", "mark": [{"text": "am", "role": "ending"}], "base": "pedir", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not order!", "foreign": "Não peça!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "pedir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's order!", "foreign": "Vamos pedir!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "pedir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 44, "verb": "seguir", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Siga! To more than one person: Sigam! Telling someone not to puts não in front: Não siga! Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "Follow!", "foreign": "Siga!", "mark": [{"text": "a", "role": "ending"}], "base": "seguir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Follow! said to more than one person", "foreign": "Sigam!", "mark": [{"text": "am", "role": "ending"}], "base": "seguir", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not follow!", "foreign": "Não siga!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "seguir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's follow!", "foreign": "Vamos seguir!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "seguir", "features": {"command": "yes", "who": "we"}}
+			]}
+	]
+}

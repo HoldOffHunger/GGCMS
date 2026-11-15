@@ -1,0 +1,173 @@
+{
+	"about": "How Italian verb forms are read out of the Wiktionary dump and turned into lessons. make_forms.py uses `slots`; make_form_lessons.py uses the rest. Everything Italian about the conjugation system lives in this one file. Written by Claude with Ben on 15 November 2026, after the Spanish and French ones. Italian is Spanish's shape (no subject word, a going-on form with stare) with French's before (ho parlato, sono andato, where the done form of an essere verb matches who did it: è andata). What it needed of its own: the dictionary writes where the stress falls (pàrlo), which nobody writes, so those marks come off; and its verbs are sorted by their last three letters, since every one of them ends in re.",
+	"language": "italian",
+	"translation_language": "it",
+	"dump": "kaikki.org-dictionary-Italian.jsonl",
+	"dictionary_form": {"form": "infinitive"},
+	"skip_tags": ["table-tags", "inflection-template", "archaic", "auxiliary", "canonical"],
+	"strip_inner_accents": true,
+	"accented_monosyllables": ["è", "dà", "può"],
+	"helper_of": {"correre": "avere"},
+	"class_letters": 3,
+	"helper_tags": ["auxiliary"],
+	"helper_verbs": ["avere", "essere", "stare"],
+	"slots": [
+		{"features": {"form": "infinitive"}, "tags": ["infinitive"]},
+		{"features": {"form": "going"}, "tags": ["gerund"]},
+		{"features": {"form": "done"}, "tags": ["participle", "past"]},
+
+		{"features": {"who": "i", "when": "now"}, "tags": ["first-person", "singular", "indicative", "present"]},
+		{"features": {"who": "you", "when": "now"}, "tags": ["second-person", "singular", "indicative", "present"]},
+		{"features": {"who": "she", "when": "now"}, "tags": ["third-person", "singular", "indicative", "present"]},
+		{"features": {"who": "we", "when": "now"}, "tags": ["first-person", "plural", "indicative", "present"]},
+		{"features": {"who": "you-all", "when": "now"}, "tags": ["second-person", "plural", "indicative", "present"]},
+		{"features": {"who": "they", "when": "now"}, "tags": ["third-person", "plural", "indicative", "present"]},
+
+		{"features": {"who": "i", "when": "before"}, "compound": {"helper": {"who": "i", "when": "now"}, "part": {"form": "done"}, "agree": {"essere": ["", "/a"]}}},
+		{"features": {"who": "you", "when": "before"}, "compound": {"helper": {"who": "you", "when": "now"}, "part": {"form": "done"}, "agree": {"essere": ["", "/a"]}}},
+		{"features": {"who": "she", "when": "before"}, "compound": {"helper": {"who": "she", "when": "now"}, "part": {"form": "done"}, "agree": {"essere": ["-a", "/a"]}}},
+		{"features": {"who": "we", "when": "before"}, "compound": {"helper": {"who": "we", "when": "now"}, "part": {"form": "done"}, "agree": {"essere": ["-i", "-i/e"]}}},
+		{"features": {"who": "you-all", "when": "before"}, "compound": {"helper": {"who": "you-all", "when": "now"}, "part": {"form": "done"}, "agree": {"essere": ["-i", "-i/e"]}}},
+		{"features": {"who": "they", "when": "before"}, "compound": {"helper": {"who": "they", "when": "now"}, "part": {"form": "done"}, "agree": {"essere": ["-i", "-i/e"]}}},
+
+		{"features": {"who": "i", "when": "before", "going": "yes"}, "tags": ["first-person", "singular", "imperfect", "indicative"]},
+		{"features": {"who": "you", "when": "before", "going": "yes"}, "tags": ["second-person", "singular", "imperfect", "indicative"]},
+		{"features": {"who": "she", "when": "before", "going": "yes"}, "tags": ["third-person", "singular", "imperfect", "indicative"]},
+		{"features": {"who": "we", "when": "before", "going": "yes"}, "tags": ["first-person", "plural", "imperfect", "indicative"]},
+		{"features": {"who": "you-all", "when": "before", "going": "yes"}, "tags": ["second-person", "plural", "imperfect", "indicative"]},
+		{"features": {"who": "they", "when": "before", "going": "yes"}, "tags": ["third-person", "plural", "imperfect", "indicative"]},
+
+		{"features": {"who": "i", "when": "later"}, "tags": ["first-person", "singular", "future", "indicative"]},
+		{"features": {"who": "you", "when": "later"}, "tags": ["second-person", "singular", "future", "indicative"]},
+		{"features": {"who": "she", "when": "later"}, "tags": ["third-person", "singular", "future", "indicative"]},
+		{"features": {"who": "we", "when": "later"}, "tags": ["first-person", "plural", "future", "indicative"]},
+		{"features": {"who": "you-all", "when": "later"}, "tags": ["second-person", "plural", "future", "indicative"]},
+		{"features": {"who": "they", "when": "later"}, "tags": ["third-person", "plural", "future", "indicative"]},
+
+		{"features": {"who": "i", "when": "now", "going": "yes"}, "compound": {"verb": "stare", "helper": {"who": "i", "when": "now"}, "part": {"form": "going"}}},
+		{"features": {"who": "you", "when": "now", "going": "yes"}, "compound": {"verb": "stare", "helper": {"who": "you", "when": "now"}, "part": {"form": "going"}}},
+		{"features": {"who": "she", "when": "now", "going": "yes"}, "compound": {"verb": "stare", "helper": {"who": "she", "when": "now"}, "part": {"form": "going"}}},
+		{"features": {"who": "we", "when": "now", "going": "yes"}, "compound": {"verb": "stare", "helper": {"who": "we", "when": "now"}, "part": {"form": "going"}}},
+		{"features": {"who": "you-all", "when": "now", "going": "yes"}, "compound": {"verb": "stare", "helper": {"who": "you-all", "when": "now"}, "part": {"form": "going"}}},
+		{"features": {"who": "they", "when": "now", "going": "yes"}, "compound": {"verb": "stare", "helper": {"who": "they", "when": "now"}, "part": {"form": "going"}}},
+
+		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "second-person", "singular"], "without": ["negative", "formal"]},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "tags": ["formal", "imperative", "singular"], "without": ["negative"]},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "negative", "second-person", "singular"], "without": ["formal"], "shown": "non {}"},
+		{"features": {"command": "yes", "who": "we"}, "tags": ["first-person", "imperative", "plural"], "without": ["negative"]}
+	],
+
+	"endings": {
+		"about": "The regular endings, by the verb's last three letters, longest first where it matters. A form that ends in one has that ending lit on the board, whatever its stem did (vengo lights o). A form that ends in none of them is one of the verbs that go their own way.",
+		"now": {"are": ["o", "i", "a", "iamo"], "ere": ["o", "i", "e", "iamo"], "ire": ["o", "i", "e", "iamo", "isco", "isci", "isce"]},
+		"done": {"are": ["ato", "ata", "ati"], "ere": ["uto", "uta", "uti"], "ire": ["ito", "ita", "iti", "uto", "uta", "uti"]},
+		"later": {"are": ["erò", "rò"], "ere": ["erò", "rò"], "ire": ["irò", "rò"]},
+		"going": {"are": ["ando"], "ere": ["endo"], "ire": ["endo"]},
+		"command": {"are": ["a", "i", "iamo"], "ere": ["i", "a", "iamo"], "ire": ["i", "a", "iamo", "isci", "isca"]}
+	},
+
+	"middle": " Watch the middle of the word too: in some of these it changes.",
+
+	"recipes": {
+		"who": {
+			"strategy": ["ending"],
+			"description": "The ending says who is doing it: {1}, {2}, {3}, {4}. Spot what changes.",
+			"own_way": " {Base} is one of the verbs that go their own way, so learn these four as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now"},
+				{"english": "You {base}", "features": {"who": "you", "when": "now"}, "endings": "now"},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}, "endings": "now"},
+				{"english": "We {base}", "features": {"who": "we", "when": "now"}, "endings": "now"}
+			]
+		},
+		"when": {
+			"strategy": ["ending", "helper word"],
+			"description": "For before, a form of avere or essere goes in front and the verb changes: {2}. For later, the ending alone says so: {3}.",
+			"own_way": " {Base} goes its own way here, so learn these as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now"},
+				{"english": "I {past}", "features": {"who": "i", "when": "before"}, "endings": "done", "from": 1},
+				{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "endings": "later", "from": 1},
+				{"english": "She {past}", "features": {"who": "she", "when": "before"}, "endings": "done"}
+			]
+		},
+		"going": {
+			"strategy": ["helper word", "ending"],
+			"skip": "stative",
+			"description": "For something going on right now, a form of stare goes in front and the verb ends in ando or endo: {2}.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}},
+				{"english": "I am {ing}", "features": {"who": "i", "when": "now", "going": "yes"}, "endings": "going", "from": 1},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}},
+				{"english": "She is {ing}", "features": {"who": "she", "when": "now", "going": "yes"}, "endings": "going", "from": 3}
+			]
+		},
+		"command": {
+			"strategy": ["ending", "helper word"],
+			"skip": "stative",
+			"description": "To a friend: {1} To someone you would call Lei: {2} Telling a friend not to is non and the whole verb, unchanged: {3}",
+			"rows": [
+				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "endings": "command", "wrap": "{}!", "capital": true},
+				{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "endings": "command", "wrap": "{}!", "capital": true},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "Non {}!", "words": ["Non"], "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "endings": "command", "wrap": "{}!", "capital": true}
+			]
+		}
+	},
+
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as 'I am knowing' or 'Know!', and are left out of those two jobs. Left out on purpose: essere and stare, which need lessons of their own; potere and dovere, which are the want-can-must job; leggere and mettere, whose English is the same now and before.",
+		"list": [
+			["avere", "have", "has", "had", "having", "stative"],
+			["fare", "make", "makes", "made", "making"],
+			["andare", "go", "goes", "went", "going"],
+			["dire", "say", "says", "said", "saying"],
+			["vedere", "see", "sees", "saw", "seeing", "stative"],
+			["dare", "give", "gives", "gave", "giving"],
+			["sapere", "know", "knows", "knew", "knowing", "stative"],
+			["volere", "want", "wants", "wanted", "wanting", "stative"],
+			["venire", "come", "comes", "came", "coming"],
+			["mangiare", "eat", "eats", "ate", "eating"],
+			["vivere", "live", "lives", "lived", "living"],
+			["lavorare", "work", "works", "worked", "working"],
+			["pensare", "think", "thinks", "thought", "thinking"],
+			["prendere", "take", "takes", "took", "taking"],
+			["scrivere", "write", "writes", "wrote", "writing"],
+			["comprare", "buy", "buys", "bought", "buying"],
+			["bere", "drink", "drinks", "drank", "drinking"],
+			["dormire", "sleep", "sleeps", "slept", "sleeping"],
+			["uscire", "go out", "goes out", "went out", "going out"],
+			["tornare", "return", "returns", "returned", "returning"],
+			["arrivare", "arrive", "arrives", "arrived", "arriving"],
+			["guardare", "look", "looks", "looked", "looking"],
+			["aspettare", "wait", "waits", "waited", "waiting"],
+			["cercare", "search", "searches", "searched", "searching"],
+			["trovare", "find", "finds", "found", "finding"],
+			["chiamare", "call", "calls", "called", "calling"],
+			["cominciare", "begin", "begins", "began", "beginning"],
+			["finire", "finish", "finishes", "finished", "finishing"],
+			["aprire", "open", "opens", "opened", "opening"],
+			["chiudere", "close", "closes", "closed", "closing"],
+			["imparare", "learn", "learns", "learned", "learning"],
+			["studiare", "study", "studies", "studied", "studying"],
+			["capire", "understand", "understands", "understood", "understanding", "stative"],
+			["ricordare", "remember", "remembers", "remembered", "remembering", "stative"],
+			["correre", "run", "runs", "ran", "running"],
+			["camminare", "walk", "walks", "walked", "walking"],
+			["cantare", "sing", "sings", "sang", "singing"],
+			["giocare", "play", "plays", "played", "playing"],
+			["pagare", "pay", "pays", "paid", "paying"],
+			["vendere", "sell", "sells", "sold", "selling"],
+			["aiutare", "help", "helps", "helped", "helping"],
+			["cucinare", "cook", "cooks", "cooked", "cooking"],
+			["viaggiare", "travel", "travels", "travelled", "travelling"],
+			["chiedere", "ask", "asks", "asked", "asking"],
+			["rispondere", "answer", "answers", "answered", "answering"],
+			["perdere", "lose", "loses", "lost", "losing"],
+			["ricevere", "receive", "receives", "received", "receiving"],
+			["ordinare", "order", "orders", "ordered", "ordering"],
+			["seguire", "follow", "follows", "followed", "following"],
+			["sentire", "feel", "feels", "felt", "feeling", "stative"]
+		]
+	}
+}

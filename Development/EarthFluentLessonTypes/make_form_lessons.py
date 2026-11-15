@@ -34,7 +34,7 @@ def form_of(forms: dict, base: str, features: dict) -> str:
 def ending(recipes: dict, name: str, base: str, form: str) -> str | None:
     """The longest of the verb class's regular endings that the form ends in. Nothing if it ends in none of them;
     an empty ending where the class lists one, which says that having no ending is regular there (elle vend)."""
-    last = base[-2:].replace("í", "i")
+    last = base[-recipes.get("class_letters", 2):].replace("í", "i")  # hablar is an ar verb; parlare is an are verb
     found = [text for text in recipes["endings"][name].get(last, []) if form.endswith(text)]
     return max(found, key=len) if found else None
 
@@ -43,7 +43,7 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
     recipe = recipes["recipes"][job]
     base, plain, she, past, ing = verb[:5]
     english = {"base": plain, "Base": plain[0].upper() + plain[1:], "s": she, "past": past, "ing": ing}
-    stem, rows, unmarked, moved = base[:-2], [], False, False
+    stem, rows, unmarked, moved = base[:-recipes.get("class_letters", 2)], [], False, False
     two = len(recipe["strategy"]) > 1
     for slot in recipe["rows"]:
         entry = entry_of(forms, base, slot["features"])
@@ -58,6 +58,9 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
         if "wrap" in slot:
             text = slot["wrap"].format(text[0].upper() + text[1:] if slot.get("capital") else text)
         text = elide(recipes, text)
+        for mark in marks:  # a helper that opens a sentence took its capital with it: Vamos falar!
+            if mark["text"] not in text and mark["text"][0].upper() + mark["text"][1:] in text:
+                mark["text"] = mark["text"][0].upper() + mark["text"][1:]
         for word in slot.get("words", []):  # a word the wrap added that does the job: No, or Ne and pas. A list is its spellings.
             spelt = next((option for option in ([word] if isinstance(word, str) else word) if option in text), "")
             if spelt:
