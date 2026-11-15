@@ -7,6 +7,26 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 14
+
+- `show_child_record_coverage.php` asks "who needs workers?" of every site.
+  For each child table it counts the entries that hold one against the
+  entries that could, and puts the table in one of five states: used,
+  underused, unused (on and empty), off, and unusual (off with rows, which
+  can be deliberate). `--fields` does the same for columns, `--gaps` keeps
+  only what a model could fill, most missing first. On Fumiko's copy of
+  RevoltLib, 15,092 texts and authors: 15,002 have no Description, 14,343
+  no Tag, 13,175 no Image, 12,970 no EventDate and 10,544 no Subtitle, and
+  2,934 of the 2,942 images have no description.
+
+- ChildRecordStats, the table kept to show how much a site holds, is stale on
+  every local copy: AutonomyBooks has stats for 5 of its 232 entries,
+  EarthFluent is missing 2,049 and RevoltLib 105. `--summary` reports it.
+
+- `check_schema.php` reads the switches through a new `ChildTypeSwitches`
+  trait shared with the coverage tool, so the layering of clonefrom's file
+  under a site's override exists once. Its output is unchanged.
+
 ## 2026, November 13
 
 - EarthFluent's lessons moved under lesson types on prod, by the table swap the

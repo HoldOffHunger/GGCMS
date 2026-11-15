@@ -298,6 +298,7 @@ the box and a wrong guess is worse than no guess. It names each one instead.
 | `list_databases.php` | Lists databases |
 | `mysql_connect.php` | Connection test |
 | `check_schema.php` | Confirms the tables exist, match the spine, and hold nothing the config forbids fetching |
+| `show_child_record_coverage.php` | How many entries each child table and column actually covers, and which a worker could fill -- see below |
 | `add_child_table.php` | Names a new child table in every file of both repositories that has to name it -- see below |
 | `clonefrom_push.php` | Creates `clonefrom`'s tables in every site that lacks them -- see below |
 | `syncdown.php` | Copies production databases down to a workstation's MySQL -- see below |
@@ -325,6 +326,58 @@ error log sideways to discover thirteen sites in exactly that state.
 `clonefrom` is the reference for the first two checks rather than a list kept
 inside the tool, so adding a table to the schema does not require remembering
 that this file exists.
+
+#### `show_child_record_coverage.php`
+
+`check_schema.php --check=enabled` compares row counts with the switches.
+It cannot see a table that is in use but thin -- RevoltLib had 14,062 Quotes
+and still thousands of texts with none -- and that is the state an AI Worker
+exists for. This counts **entries**, not rows: of the entries that could hold
+a child record, how many do.
+
+```bash
+show_child_record_coverage.php                          # every site: what wants a person
+show_child_record_coverage.php --database=revoltlib --gaps   # who needs workers?
+show_child_record_coverage.php --fields --table=Image   # one table, column by column
+show_child_record_coverage.php --summary                # one line a site, from ChildRecordStats
+show_child_record_coverage.php --gaps --json            # the same, for the Foreman
+```
+
+Each child table is in one state:
+
+| State | Meaning |
+|---|---|
+| `used` | switched on, and on at least `--threshold` (90%) of the entries that could have one |
+| `underused` | switched on and in use, but missing from many entries: a worker could fill it |
+| `unused` | switched on, never used: switch it off, or start using it |
+| `off` | switched off and empty, which agrees |
+| `unusual` | switched off with rows in it. Not wrong -- a type can be shut off at once for a security concern -- but worth a look |
+
+Columns, with `--fields`, are `filled`, `sparse` or `empty`, plus `by design`
+for a column that is meant to be blank where it is counted (a parent's
+`ChildNoun` on a leaf). Text columns only, and not those whose blank means
+the default (`Language`) or that the engine writes (file names).
+
+**Which entries count** is the whole question: an index page with no Quote
+is not a gap, and a chapter with none is. `--of=leaves`, the default, counts
+published entries nothing is assigned under -- RevoltLib's texts and authors,
+EarthFluent's words. `--of=text` counts published entries with a TextBody,
+`--of=published` every published entry, `--of=all` every entry. A table's
+columns are counted over all its rows, since an Image on a book wants a
+description as much as one on a chapter.
+
+A child type is any table with an `Entryid` column that clonefrom's
+`child_types/enabled.php` has a switch for, so a table added with
+`add_child_table.php` is covered without anyone remembering this tool. Both
+tools read the switches through the `ChildTypeSwitches` trait. Readers' and
+bookkeeping tables (Comment, LikeDislike, Suggestion, EntryCodeReservation,
+RecordChange) count as used once they hold anything, since no site means to
+have them on every entry. A short `ChildRecordStats` does not: the engine
+keeps one per entry, so it is reported as stale. `--gaps` leaves out what no
+model should write: bookkeeping, readers' tables, Price and availability
+dates.
+
+It reads only, and takes about three seconds for three sites on Fumiko.
 
 #### `add_child_table.php`
 

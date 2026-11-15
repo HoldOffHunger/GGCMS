@@ -7,12 +7,14 @@
 	clireq('traits/DBAccess.php');
 	clireq('traits/CLIAccess.php');
 	clireq('traits/GlobalsTrait.php');
+	clireq('traits/ChildTypeSwitches.php');
 
 	class SchemaChecker {
 		use DBAccess;
 		use CLIAccess;
 		use GlobalsTrait;
 		use ReverseDNSNotation;
+		use ChildTypeSwitches;
 		
 		public $arguments;
 
@@ -417,7 +419,7 @@
 			$database = $args['database'];
 
 			$child_types = $this->childRecordTypes();
-			$enabled = $this->getEnabledFlags(['database'=>$database]);
+			$enabled = $this->getEnabledFlags(['database'=>$database, 'tables'=>$child_types]);
 
 			if($enabled === FALSE) {
 				return [[
@@ -481,117 +483,6 @@
 			}
 
 			return $findings;
-		}
-
-			/*
-				The same two-step AbstractGlobals performs: the domain's own
-				override when it has one, clonefrom's defaults when it does not.
-				The domain is assumed to be <database>.com, which is true of
-				every site on this host and is stated here rather than hidden,
-				because the day it stops being true this check will quietly
-				compare a site against the wrong file.
-
-				The file is read rather than required.  Every domain override
-				declares the same class name, which is correct for the engine --
-				one request serves one domain -- and fatal here, where one
-				process walks seventeen of them and the second require dies on
-				"cannot declare class, the name is already in use".  A checker
-				that has to load a site to inspect it can only inspect one site.
-			*/
-
-		public function getEnabledFlags($args) {
-			$database = $args['database'];
-
-			$domain_location = GGCMS_CONFIG_DIR . $this->ReverseDomainName(['domain'=>$database . '.com']) . '/child_types/enabled.php';
-			$default_location = GGCMS_CONFIG_DIR . 'clonefrom/child_types/enabled.php';
-
-			if(!is_file($default_location)) {
-				return FALSE;
-			}
-
-			$default_configuration = file_get_contents($default_location);
-
-			if($default_configuration === FALSE) {
-				return FALSE;
-			}
-
-				/*
-					Both files, in the order the engine reads them.  This used
-					to take the override when one existed and the defaults
-					otherwise, which is not what an override is: the class in a
-					domain file extends the clonefrom class and redeclares only
-					what it changes.  Reading it alone reported every flag it
-					did not mention as off.
-
-					revoltlib was the worked example -- reported as never
-					fetching TextBody, Tag, Association or Description, while
-					its pages were visibly full of all four.  A check that
-					cries wolf is worse than no check, and this is the one the
-					documentation says is worth scheduling.
-				*/
-
-			$domain_configuration = '';
-
-			if(is_file($domain_location)) {
-				$domain_configuration = file_get_contents($domain_location);
-
-				if($domain_configuration === FALSE) {
-					$domain_configuration = '';
-				}
-			}
-
-			$flags = [];
-
-			foreach($this->childRecordTypes() as $table) {
-				$flag = NULL;
-
-				if(strlen($domain_configuration)) {
-					$flag = $this->readFlag([
-						'configuration'=>$domain_configuration,
-						'table'=>$table,
-					]);
-				}
-
-				if($flag === NULL) {
-					$flag = $this->readFlag([
-						'configuration'=>$default_configuration,
-						'table'=>$table,
-					]);
-				}
-
-				$flags[$table] = ($flag === NULL) ? FALSE : $flag;
-			}
-
-			return $flags;
-		}
-
-		public function hasOverride($args) {
-			$database = $args['database'];
-
-			return is_file(GGCMS_CONFIG_DIR . $this->ReverseDomainName(['domain'=>$database . '.com']) . '/child_types/enabled.php');
-		}
-
-		public function readFlag($args) {
-			$configuration = $args['configuration'];
-			$table = $args['table'];
-
-			$pattern = '/function\s+' . preg_quote($table, '/') . '_enabled\s*\(\s*\)\s*\{\s*return\s+(TRUE|FALSE|true|false)\s*;/';
-
-			$matches = [];
-
-				/*
-					NULL, not FALSE.  A domain override declares only the flags
-					it changes and inherits the rest, so "this file does not
-					mention the table" and "this file switches the table off"
-					are different answers, and the caller has to be able to tell
-					them apart to layer the two files correctly.
-				*/
-
-			if(!preg_match($pattern, $configuration, $matches)) {
-				return NULL;
-			}
-
-			return strtoupper($matches[1]) === 'TRUE';
 		}
 
 		public function childRecordTypes() {
