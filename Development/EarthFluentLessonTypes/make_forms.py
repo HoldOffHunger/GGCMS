@@ -42,14 +42,15 @@ def plain(recipes: dict, text: str) -> str:
     return " ".join(words)
 
 
-def table(entry: dict, skip: set) -> list:
-    """The entry's first conjugation table: a second one is the reflexive verb's, with its pronouns attached."""
+def table(entry: dict, skip: set, every: bool = False) -> list:
+    """The entry's first conjugation table: in Spanish a second one is the reflexive verb's, with its pronouns attached.
+    German's later tables are the same verb's two-word forms (bin gegangen, werde gehen), so its recipe asks for every table."""
     forms, tables = [], 0
     for form in entry.get("forms", []):
         tags = set(form.get("tags", []))
         if "table-tags" in tags:
             tables += 1
-            if tables > 1:
+            if tables > 1 and not every:
                 break
         if form.get("source") != "conjugation" or tags & skip:
             continue
@@ -73,7 +74,7 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
             word = entry.get("word")
             if word not in wanted or word in verbs or entry.get("pos") != "verb":
                 continue
-            forms = [(plain(recipes, text), tags) for text, tags in table(entry, skip)]
+            forms = [(plain(recipes, text), tags) for text, tags in table(entry, skip, recipes.get("all_tables", False))]
             if not forms:
                 continue  # a form-of entry, or an entry with no table: the real one comes later in the dump
             found = []
@@ -88,6 +89,8 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                     preferred = next((helper for helper in recipes.get("helper_prefers", []) if helper in helpers), helpers[0])
                     chosen = recipes.get("helper_of", {}).get(word) or preferred
                     found.append({"form": chosen, "features": {"form": "helper"}})
+            if "helper_default" in recipes:  # a dictionary that does not say which helper a verb takes: the recipe lists the few that differ
+                found.append({"form": recipes.get("helper_of", {}).get(word, recipes["helper_default"]), "features": {"form": "helper"}})
             for slot in recipes["slots"]:
                 if "compound" in slot:
                     continue  # built below, once the helper verbs are read too
@@ -95,8 +98,13 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                 match = [text for text, tags in forms if need <= tags and not tags & without]
                 if match:
                     found.append({"form": match[0], "features": slot["features"]})
+                    if slot.get("split") and " " in match[0]:  # a two-word form the dictionary gives whole: bin gegangen
+                        found[-1]["helper"], found[-1]["part"] = match[0].split(" ", 1)
                     if "shown" in slot:  # the form as a table shows it: the dictionary lists tengas, and nobody says it without its no
-                        found[-1]["shown"] = elide(recipes, slot["shown"].format(match[0]))
+                        first, _, rest = match[0].partition(" ")
+                        # a verb that splits in two keeps its second half for the end: kommen Sie an, not kommen an Sie
+                        said = slot["shown"].format(first) + " " + rest if rest and slot.get("inside") else slot["shown"].format(match[0])
+                        found[-1]["shown"] = elide(recipes, said)
                 else:
                     missing.append((word, slot["features"]))
             verbs[word] = found
@@ -123,6 +131,7 @@ def compound(recipes: dict, verbs: dict, found: list, how: dict) -> dict | None:
     if how.get("alone_for_itself") and verbs.get(helper_verb) is found:
         return {"form": helper}  # let's go is vamos, not vamos ir
     change, shown = how.get("agree", {}).get(helper_verb, ["", ""])
+    helper = (helper + " " + how.get("join", "")).strip()  # ben aan het, in front of eten
     made = {"form": f"{helper} {agreed(part, change)}", "helper": helper, "part": agreed(part, change)}
     if shown:
         made["shown"] = f"{helper} {agreed(part, shown)}"

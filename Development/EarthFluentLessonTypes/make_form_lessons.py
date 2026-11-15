@@ -65,6 +65,8 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
             spelt = next((option for option in ([word] if isinstance(word, str) else word) if option in text), "")
             if spelt:
                 marks.append({"text": spelt, "role": "helper word"})
+        if slot.get("mark_part") and "part" in entry:  # the whole changed verb is lit, where it has no one ending to point at: gegangen
+            marks.append({"text": entry["part"], "role": "ending"})
         if "endings" in slot:
             piece = ending(recipes, slot["endings"], base, form)
             if piece:

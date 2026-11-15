@@ -1,0 +1,770 @@
+{
+	"language": "german",
+	"translation_language": "de",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-german.json and the recipes in forms-recipes-german.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "haben", "strategy": ["ending"], "description": "The ending says who is doing it: ich habe, du hast, sie hat, wir haben. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I have", "foreign": "ich habe", "mark": ["e"], "base": "haben", "features": {"who": "i", "when": "now"}},
+				{"english": "You have", "foreign": "du hast", "mark": ["st"], "base": "haben", "features": {"who": "you", "when": "now"}},
+				{"english": "She has", "foreign": "sie hat", "mark": ["t"], "base": "haben", "features": {"who": "she", "when": "now"}},
+				{"english": "We have", "foreign": "wir haben", "mark": ["en"], "base": "haben", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "machen", "strategy": ["ending"], "description": "The ending says who is doing it: ich mache, du machst, sie macht, wir machen. Spot what changes.", "rows": [
+				{"english": "I make", "foreign": "ich mache", "mark": ["e"], "base": "machen", "features": {"who": "i", "when": "now"}},
+				{"english": "You make", "foreign": "du machst", "mark": ["st"], "base": "machen", "features": {"who": "you", "when": "now"}},
+				{"english": "She makes", "foreign": "sie macht", "mark": ["t"], "base": "machen", "features": {"who": "she", "when": "now"}},
+				{"english": "We make", "foreign": "wir machen", "mark": ["en"], "base": "machen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "gehen", "strategy": ["ending"], "description": "The ending says who is doing it: ich gehe, du gehst, sie geht, wir gehen. Spot what changes.", "rows": [
+				{"english": "I go", "foreign": "ich gehe", "mark": ["e"], "base": "gehen", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "du gehst", "mark": ["st"], "base": "gehen", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "sie geht", "mark": ["t"], "base": "gehen", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "wir gehen", "mark": ["en"], "base": "gehen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "sagen", "strategy": ["ending"], "description": "The ending says who is doing it: ich sage, du sagst, sie sagt, wir sagen. Spot what changes.", "rows": [
+				{"english": "I say", "foreign": "ich sage", "mark": ["e"], "base": "sagen", "features": {"who": "i", "when": "now"}},
+				{"english": "You say", "foreign": "du sagst", "mark": ["st"], "base": "sagen", "features": {"who": "you", "when": "now"}},
+				{"english": "She says", "foreign": "sie sagt", "mark": ["t"], "base": "sagen", "features": {"who": "she", "when": "now"}},
+				{"english": "We say", "foreign": "wir sagen", "mark": ["en"], "base": "sagen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "sehen", "strategy": ["ending"], "description": "The ending says who is doing it: ich sehe, du siehst, sie sieht, wir sehen. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I see", "foreign": "ich sehe", "mark": ["e"], "base": "sehen", "features": {"who": "i", "when": "now"}},
+				{"english": "You see", "foreign": "du siehst", "mark": ["st"], "base": "sehen", "features": {"who": "you", "when": "now"}},
+				{"english": "She sees", "foreign": "sie sieht", "mark": ["t"], "base": "sehen", "features": {"who": "she", "when": "now"}},
+				{"english": "We see", "foreign": "wir sehen", "mark": ["en"], "base": "sehen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "geben", "strategy": ["ending"], "description": "The ending says who is doing it: ich gebe, du gibst, sie gibt, wir geben. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I give", "foreign": "ich gebe", "mark": ["e"], "base": "geben", "features": {"who": "i", "when": "now"}},
+				{"english": "You give", "foreign": "du gibst", "mark": ["st"], "base": "geben", "features": {"who": "you", "when": "now"}},
+				{"english": "She gives", "foreign": "sie gibt", "mark": ["t"], "base": "geben", "features": {"who": "she", "when": "now"}},
+				{"english": "We give", "foreign": "wir geben", "mark": ["en"], "base": "geben", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "wissen", "strategy": ["ending"], "description": "The ending says who is doing it: ich weiß, du weißt, sie weiß, wir wissen. Spot what changes. Wissen is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I know", "foreign": "ich weiß", "base": "wissen", "features": {"who": "i", "when": "now"}},
+				{"english": "You know", "foreign": "du weißt", "mark": ["t"], "base": "wissen", "features": {"who": "you", "when": "now"}},
+				{"english": "She knows", "foreign": "sie weiß", "base": "wissen", "features": {"who": "she", "when": "now"}},
+				{"english": "We know", "foreign": "wir wissen", "mark": ["en"], "base": "wissen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "kommen", "strategy": ["ending"], "description": "The ending says who is doing it: ich komme, du kommst, sie kommt, wir kommen. Spot what changes.", "rows": [
+				{"english": "I come", "foreign": "ich komme", "mark": ["e"], "base": "kommen", "features": {"who": "i", "when": "now"}},
+				{"english": "You come", "foreign": "du kommst", "mark": ["st"], "base": "kommen", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes", "foreign": "sie kommt", "mark": ["t"], "base": "kommen", "features": {"who": "she", "when": "now"}},
+				{"english": "We come", "foreign": "wir kommen", "mark": ["en"], "base": "kommen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "essen", "strategy": ["ending"], "description": "The ending says who is doing it: ich esse, du isst, sie isst, wir essen. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I eat", "foreign": "ich esse", "mark": ["e"], "base": "essen", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "du isst", "mark": ["st"], "base": "essen", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "sie isst", "mark": ["st"], "base": "essen", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "wir essen", "mark": ["en"], "base": "essen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "leben", "strategy": ["ending"], "description": "The ending says who is doing it: ich lebe, du lebst, sie lebt, wir leben. Spot what changes.", "rows": [
+				{"english": "I live", "foreign": "ich lebe", "mark": ["e"], "base": "leben", "features": {"who": "i", "when": "now"}},
+				{"english": "You live", "foreign": "du lebst", "mark": ["st"], "base": "leben", "features": {"who": "you", "when": "now"}},
+				{"english": "She lives", "foreign": "sie lebt", "mark": ["t"], "base": "leben", "features": {"who": "she", "when": "now"}},
+				{"english": "We live", "foreign": "wir leben", "mark": ["en"], "base": "leben", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "arbeiten", "strategy": ["ending"], "description": "The ending says who is doing it: ich arbeite, du arbeitest, sie arbeitet, wir arbeiten. Spot what changes.", "rows": [
+				{"english": "I work", "foreign": "ich arbeite", "mark": ["e"], "base": "arbeiten", "features": {"who": "i", "when": "now"}},
+				{"english": "You work", "foreign": "du arbeitest", "mark": ["est"], "base": "arbeiten", "features": {"who": "you", "when": "now"}},
+				{"english": "She works", "foreign": "sie arbeitet", "mark": ["et"], "base": "arbeiten", "features": {"who": "she", "when": "now"}},
+				{"english": "We work", "foreign": "wir arbeiten", "mark": ["en"], "base": "arbeiten", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "denken", "strategy": ["ending"], "description": "The ending says who is doing it: ich denke, du denkst, sie denkt, wir denken. Spot what changes.", "rows": [
+				{"english": "I think", "foreign": "ich denke", "mark": ["e"], "base": "denken", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "du denkst", "mark": ["st"], "base": "denken", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "sie denkt", "mark": ["t"], "base": "denken", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "wir denken", "mark": ["en"], "base": "denken", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "nehmen", "strategy": ["ending"], "description": "The ending says who is doing it: ich nehme, du nimmst, sie nimmt, wir nehmen. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I take", "foreign": "ich nehme", "mark": ["e"], "base": "nehmen", "features": {"who": "i", "when": "now"}},
+				{"english": "You take", "foreign": "du nimmst", "mark": ["st"], "base": "nehmen", "features": {"who": "you", "when": "now"}},
+				{"english": "She takes", "foreign": "sie nimmt", "mark": ["t"], "base": "nehmen", "features": {"who": "she", "when": "now"}},
+				{"english": "We take", "foreign": "wir nehmen", "mark": ["en"], "base": "nehmen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "schreiben", "strategy": ["ending"], "description": "The ending says who is doing it: ich schreibe, du schreibst, sie schreibt, wir schreiben. Spot what changes.", "rows": [
+				{"english": "I write", "foreign": "ich schreibe", "mark": ["e"], "base": "schreiben", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "du schreibst", "mark": ["st"], "base": "schreiben", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "sie schreibt", "mark": ["t"], "base": "schreiben", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "wir schreiben", "mark": ["en"], "base": "schreiben", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "kaufen", "strategy": ["ending"], "description": "The ending says who is doing it: ich kaufe, du kaufst, sie kauft, wir kaufen. Spot what changes.", "rows": [
+				{"english": "I buy", "foreign": "ich kaufe", "mark": ["e"], "base": "kaufen", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "du kaufst", "mark": ["st"], "base": "kaufen", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "sie kauft", "mark": ["t"], "base": "kaufen", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "wir kaufen", "mark": ["en"], "base": "kaufen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "trinken", "strategy": ["ending"], "description": "The ending says who is doing it: ich trinke, du trinkst, sie trinkt, wir trinken. Spot what changes.", "rows": [
+				{"english": "I drink", "foreign": "ich trinke", "mark": ["e"], "base": "trinken", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "du trinkst", "mark": ["st"], "base": "trinken", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "sie trinkt", "mark": ["t"], "base": "trinken", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "wir trinken", "mark": ["en"], "base": "trinken", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "schlafen", "strategy": ["ending"], "description": "The ending says who is doing it: ich schlafe, du schläfst, sie schläft, wir schlafen. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "ich schlafe", "mark": ["e"], "base": "schlafen", "features": {"who": "i", "when": "now"}},
+				{"english": "You sleep", "foreign": "du schläfst", "mark": ["st"], "base": "schlafen", "features": {"who": "you", "when": "now"}},
+				{"english": "She sleeps", "foreign": "sie schläft", "mark": ["t"], "base": "schlafen", "features": {"who": "she", "when": "now"}},
+				{"english": "We sleep", "foreign": "wir schlafen", "mark": ["en"], "base": "schlafen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "schauen", "strategy": ["ending"], "description": "The ending says who is doing it: ich schaue, du schaust, sie schaut, wir schauen. Spot what changes.", "rows": [
+				{"english": "I look", "foreign": "ich schaue", "mark": ["e"], "base": "schauen", "features": {"who": "i", "when": "now"}},
+				{"english": "You look", "foreign": "du schaust", "mark": ["st"], "base": "schauen", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks", "foreign": "sie schaut", "mark": ["t"], "base": "schauen", "features": {"who": "she", "when": "now"}},
+				{"english": "We look", "foreign": "wir schauen", "mark": ["en"], "base": "schauen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "warten", "strategy": ["ending"], "description": "The ending says who is doing it: ich warte, du wartest, sie wartet, wir warten. Spot what changes.", "rows": [
+				{"english": "I wait", "foreign": "ich warte", "mark": ["e"], "base": "warten", "features": {"who": "i", "when": "now"}},
+				{"english": "You wait", "foreign": "du wartest", "mark": ["est"], "base": "warten", "features": {"who": "you", "when": "now"}},
+				{"english": "She waits", "foreign": "sie wartet", "mark": ["et"], "base": "warten", "features": {"who": "she", "when": "now"}},
+				{"english": "We wait", "foreign": "wir warten", "mark": ["en"], "base": "warten", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "suchen", "strategy": ["ending"], "description": "The ending says who is doing it: ich suche, du suchst, sie sucht, wir suchen. Spot what changes.", "rows": [
+				{"english": "I search", "foreign": "ich suche", "mark": ["e"], "base": "suchen", "features": {"who": "i", "when": "now"}},
+				{"english": "You search", "foreign": "du suchst", "mark": ["st"], "base": "suchen", "features": {"who": "you", "when": "now"}},
+				{"english": "She searches", "foreign": "sie sucht", "mark": ["t"], "base": "suchen", "features": {"who": "she", "when": "now"}},
+				{"english": "We search", "foreign": "wir suchen", "mark": ["en"], "base": "suchen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "finden", "strategy": ["ending"], "description": "The ending says who is doing it: ich finde, du findest, sie findet, wir finden. Spot what changes.", "rows": [
+				{"english": "I find", "foreign": "ich finde", "mark": ["e"], "base": "finden", "features": {"who": "i", "when": "now"}},
+				{"english": "You find", "foreign": "du findest", "mark": ["est"], "base": "finden", "features": {"who": "you", "when": "now"}},
+				{"english": "She finds", "foreign": "sie findet", "mark": ["et"], "base": "finden", "features": {"who": "she", "when": "now"}},
+				{"english": "We find", "foreign": "wir finden", "mark": ["en"], "base": "finden", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "rufen", "strategy": ["ending"], "description": "The ending says who is doing it: ich rufe, du rufst, sie ruft, wir rufen. Spot what changes.", "rows": [
+				{"english": "I call", "foreign": "ich rufe", "mark": ["e"], "base": "rufen", "features": {"who": "i", "when": "now"}},
+				{"english": "You call", "foreign": "du rufst", "mark": ["st"], "base": "rufen", "features": {"who": "you", "when": "now"}},
+				{"english": "She calls", "foreign": "sie ruft", "mark": ["t"], "base": "rufen", "features": {"who": "she", "when": "now"}},
+				{"english": "We call", "foreign": "wir rufen", "mark": ["en"], "base": "rufen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "beginnen", "strategy": ["ending"], "description": "The ending says who is doing it: ich beginne, du beginnst, sie beginnt, wir beginnen. Spot what changes.", "rows": [
+				{"english": "I begin", "foreign": "ich beginne", "mark": ["e"], "base": "beginnen", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "du beginnst", "mark": ["st"], "base": "beginnen", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "sie beginnt", "mark": ["t"], "base": "beginnen", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "wir beginnen", "mark": ["en"], "base": "beginnen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "beenden", "strategy": ["ending"], "description": "The ending says who is doing it: ich beende, du beendest, sie beendet, wir beenden. Spot what changes.", "rows": [
+				{"english": "I finish", "foreign": "ich beende", "mark": ["e"], "base": "beenden", "features": {"who": "i", "when": "now"}},
+				{"english": "You finish", "foreign": "du beendest", "mark": ["est"], "base": "beenden", "features": {"who": "you", "when": "now"}},
+				{"english": "She finishes", "foreign": "sie beendet", "mark": ["et"], "base": "beenden", "features": {"who": "she", "when": "now"}},
+				{"english": "We finish", "foreign": "wir beenden", "mark": ["en"], "base": "beenden", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "öffnen", "strategy": ["ending"], "description": "The ending says who is doing it: ich öffne, du öffnest, sie öffnet, wir öffnen. Spot what changes.", "rows": [
+				{"english": "I open", "foreign": "ich öffne", "mark": ["e"], "base": "öffnen", "features": {"who": "i", "when": "now"}},
+				{"english": "You open", "foreign": "du öffnest", "mark": ["est"], "base": "öffnen", "features": {"who": "you", "when": "now"}},
+				{"english": "She opens", "foreign": "sie öffnet", "mark": ["et"], "base": "öffnen", "features": {"who": "she", "when": "now"}},
+				{"english": "We open", "foreign": "wir öffnen", "mark": ["en"], "base": "öffnen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "schließen", "strategy": ["ending"], "description": "The ending says who is doing it: ich schließe, du schließt, sie schließt, wir schließen. Spot what changes.", "rows": [
+				{"english": "I close", "foreign": "ich schließe", "mark": ["e"], "base": "schließen", "features": {"who": "i", "when": "now"}},
+				{"english": "You close", "foreign": "du schließt", "mark": ["t"], "base": "schließen", "features": {"who": "you", "when": "now"}},
+				{"english": "She closes", "foreign": "sie schließt", "mark": ["t"], "base": "schließen", "features": {"who": "she", "when": "now"}},
+				{"english": "We close", "foreign": "wir schließen", "mark": ["en"], "base": "schließen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "lernen", "strategy": ["ending"], "description": "The ending says who is doing it: ich lerne, du lernst, sie lernt, wir lernen. Spot what changes.", "rows": [
+				{"english": "I learn", "foreign": "ich lerne", "mark": ["e"], "base": "lernen", "features": {"who": "i", "when": "now"}},
+				{"english": "You learn", "foreign": "du lernst", "mark": ["st"], "base": "lernen", "features": {"who": "you", "when": "now"}},
+				{"english": "She learns", "foreign": "sie lernt", "mark": ["t"], "base": "lernen", "features": {"who": "she", "when": "now"}},
+				{"english": "We learn", "foreign": "wir lernen", "mark": ["en"], "base": "lernen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "studieren", "strategy": ["ending"], "description": "The ending says who is doing it: ich studiere, du studierst, sie studiert, wir studieren. Spot what changes.", "rows": [
+				{"english": "I study", "foreign": "ich studiere", "mark": ["e"], "base": "studieren", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "du studierst", "mark": ["st"], "base": "studieren", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "sie studiert", "mark": ["t"], "base": "studieren", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "wir studieren", "mark": ["en"], "base": "studieren", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "verstehen", "strategy": ["ending"], "description": "The ending says who is doing it: ich verstehe, du verstehst, sie versteht, wir verstehen. Spot what changes.", "rows": [
+				{"english": "I understand", "foreign": "ich verstehe", "mark": ["e"], "base": "verstehen", "features": {"who": "i", "when": "now"}},
+				{"english": "You understand", "foreign": "du verstehst", "mark": ["st"], "base": "verstehen", "features": {"who": "you", "when": "now"}},
+				{"english": "She understands", "foreign": "sie versteht", "mark": ["t"], "base": "verstehen", "features": {"who": "she", "when": "now"}},
+				{"english": "We understand", "foreign": "wir verstehen", "mark": ["en"], "base": "verstehen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "vergessen", "strategy": ["ending"], "description": "The ending says who is doing it: ich vergesse, du vergisst, sie vergisst, wir vergessen. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I forget", "foreign": "ich vergesse", "mark": ["e"], "base": "vergessen", "features": {"who": "i", "when": "now"}},
+				{"english": "You forget", "foreign": "du vergisst", "mark": ["st"], "base": "vergessen", "features": {"who": "you", "when": "now"}},
+				{"english": "She forgets", "foreign": "sie vergisst", "mark": ["st"], "base": "vergessen", "features": {"who": "she", "when": "now"}},
+				{"english": "We forget", "foreign": "wir vergessen", "mark": ["en"], "base": "vergessen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "laufen", "strategy": ["ending"], "description": "The ending says who is doing it: ich laufe, du läufst, sie läuft, wir laufen. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I run", "foreign": "ich laufe", "mark": ["e"], "base": "laufen", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "du läufst", "mark": ["st"], "base": "laufen", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "sie läuft", "mark": ["t"], "base": "laufen", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "wir laufen", "mark": ["en"], "base": "laufen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "singen", "strategy": ["ending"], "description": "The ending says who is doing it: ich singe, du singst, sie singt, wir singen. Spot what changes.", "rows": [
+				{"english": "I sing", "foreign": "ich singe", "mark": ["e"], "base": "singen", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "du singst", "mark": ["st"], "base": "singen", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "sie singt", "mark": ["t"], "base": "singen", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "wir singen", "mark": ["en"], "base": "singen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "spielen", "strategy": ["ending"], "description": "The ending says who is doing it: ich spiele, du spielst, sie spielt, wir spielen. Spot what changes.", "rows": [
+				{"english": "I play", "foreign": "ich spiele", "mark": ["e"], "base": "spielen", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "du spielst", "mark": ["st"], "base": "spielen", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "sie spielt", "mark": ["t"], "base": "spielen", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "wir spielen", "mark": ["en"], "base": "spielen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "bezahlen", "strategy": ["ending"], "description": "The ending says who is doing it: ich bezahle, du bezahlst, sie bezahlt, wir bezahlen. Spot what changes.", "rows": [
+				{"english": "I pay", "foreign": "ich bezahle", "mark": ["e"], "base": "bezahlen", "features": {"who": "i", "when": "now"}},
+				{"english": "You pay", "foreign": "du bezahlst", "mark": ["st"], "base": "bezahlen", "features": {"who": "you", "when": "now"}},
+				{"english": "She pays", "foreign": "sie bezahlt", "mark": ["t"], "base": "bezahlen", "features": {"who": "she", "when": "now"}},
+				{"english": "We pay", "foreign": "wir bezahlen", "mark": ["en"], "base": "bezahlen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "verkaufen", "strategy": ["ending"], "description": "The ending says who is doing it: ich verkaufe, du verkaufst, sie verkauft, wir verkaufen. Spot what changes.", "rows": [
+				{"english": "I sell", "foreign": "ich verkaufe", "mark": ["e"], "base": "verkaufen", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "du verkaufst", "mark": ["st"], "base": "verkaufen", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "sie verkauft", "mark": ["t"], "base": "verkaufen", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "wir verkaufen", "mark": ["en"], "base": "verkaufen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "helfen", "strategy": ["ending"], "description": "The ending says who is doing it: ich helfe, du hilfst, sie hilft, wir helfen. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I help", "foreign": "ich helfe", "mark": ["e"], "base": "helfen", "features": {"who": "i", "when": "now"}},
+				{"english": "You help", "foreign": "du hilfst", "mark": ["st"], "base": "helfen", "features": {"who": "you", "when": "now"}},
+				{"english": "She helps", "foreign": "sie hilft", "mark": ["t"], "base": "helfen", "features": {"who": "she", "when": "now"}},
+				{"english": "We help", "foreign": "wir helfen", "mark": ["en"], "base": "helfen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "kochen", "strategy": ["ending"], "description": "The ending says who is doing it: ich koche, du kochst, sie kocht, wir kochen. Spot what changes.", "rows": [
+				{"english": "I cook", "foreign": "ich koche", "mark": ["e"], "base": "kochen", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "du kochst", "mark": ["st"], "base": "kochen", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "sie kocht", "mark": ["t"], "base": "kochen", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "wir kochen", "mark": ["en"], "base": "kochen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "reisen", "strategy": ["ending"], "description": "The ending says who is doing it: ich reise, du reist, sie reist, wir reisen. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I travel", "foreign": "ich reise", "mark": ["e"], "base": "reisen", "features": {"who": "i", "when": "now"}},
+				{"english": "You travel", "foreign": "du reist", "mark": ["st"], "base": "reisen", "features": {"who": "you", "when": "now"}},
+				{"english": "She travels", "foreign": "sie reist", "mark": ["st"], "base": "reisen", "features": {"who": "she", "when": "now"}},
+				{"english": "We travel", "foreign": "wir reisen", "mark": ["en"], "base": "reisen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "fragen", "strategy": ["ending"], "description": "The ending says who is doing it: ich frage, du fragst, sie fragt, wir fragen. Spot what changes.", "rows": [
+				{"english": "I ask", "foreign": "ich frage", "mark": ["e"], "base": "fragen", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "du fragst", "mark": ["st"], "base": "fragen", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "sie fragt", "mark": ["t"], "base": "fragen", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "wir fragen", "mark": ["en"], "base": "fragen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "antworten", "strategy": ["ending"], "description": "The ending says who is doing it: ich antworte, du antwortest, sie antwortet, wir antworten. Spot what changes.", "rows": [
+				{"english": "I answer", "foreign": "ich antworte", "mark": ["e"], "base": "antworten", "features": {"who": "i", "when": "now"}},
+				{"english": "You answer", "foreign": "du antwortest", "mark": ["est"], "base": "antworten", "features": {"who": "you", "when": "now"}},
+				{"english": "She answers", "foreign": "sie antwortet", "mark": ["et"], "base": "antworten", "features": {"who": "she", "when": "now"}},
+				{"english": "We answer", "foreign": "wir antworten", "mark": ["en"], "base": "antworten", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "verlieren", "strategy": ["ending"], "description": "The ending says who is doing it: ich verliere, du verlierst, sie verliert, wir verlieren. Spot what changes.", "rows": [
+				{"english": "I lose", "foreign": "ich verliere", "mark": ["e"], "base": "verlieren", "features": {"who": "i", "when": "now"}},
+				{"english": "You lose", "foreign": "du verlierst", "mark": ["st"], "base": "verlieren", "features": {"who": "you", "when": "now"}},
+				{"english": "She loses", "foreign": "sie verliert", "mark": ["t"], "base": "verlieren", "features": {"who": "she", "when": "now"}},
+				{"english": "We lose", "foreign": "wir verlieren", "mark": ["en"], "base": "verlieren", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "bekommen", "strategy": ["ending"], "description": "The ending says who is doing it: ich bekomme, du bekommst, sie bekommt, wir bekommen. Spot what changes.", "rows": [
+				{"english": "I receive", "foreign": "ich bekomme", "mark": ["e"], "base": "bekommen", "features": {"who": "i", "when": "now"}},
+				{"english": "You receive", "foreign": "du bekommst", "mark": ["st"], "base": "bekommen", "features": {"who": "you", "when": "now"}},
+				{"english": "She receives", "foreign": "sie bekommt", "mark": ["t"], "base": "bekommen", "features": {"who": "she", "when": "now"}},
+				{"english": "We receive", "foreign": "wir bekommen", "mark": ["en"], "base": "bekommen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "bestellen", "strategy": ["ending"], "description": "The ending says who is doing it: ich bestelle, du bestellst, sie bestellt, wir bestellen. Spot what changes.", "rows": [
+				{"english": "I order", "foreign": "ich bestelle", "mark": ["e"], "base": "bestellen", "features": {"who": "i", "when": "now"}},
+				{"english": "You order", "foreign": "du bestellst", "mark": ["st"], "base": "bestellen", "features": {"who": "you", "when": "now"}},
+				{"english": "She orders", "foreign": "sie bestellt", "mark": ["t"], "base": "bestellen", "features": {"who": "she", "when": "now"}},
+				{"english": "We order", "foreign": "wir bestellen", "mark": ["en"], "base": "bestellen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 45, "verb": "folgen", "strategy": ["ending"], "description": "The ending says who is doing it: ich folge, du folgst, sie folgt, wir folgen. Spot what changes.", "rows": [
+				{"english": "I follow", "foreign": "ich folge", "mark": ["e"], "base": "folgen", "features": {"who": "i", "when": "now"}},
+				{"english": "You follow", "foreign": "du folgst", "mark": ["st"], "base": "folgen", "features": {"who": "you", "when": "now"}},
+				{"english": "She follows", "foreign": "sie folgt", "mark": ["t"], "base": "folgen", "features": {"who": "she", "when": "now"}},
+				{"english": "We follow", "foreign": "wir folgen", "mark": ["en"], "base": "folgen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 46, "verb": "fühlen", "strategy": ["ending"], "description": "The ending says who is doing it: ich fühle, du fühlst, sie fühlt, wir fühlen. Spot what changes.", "rows": [
+				{"english": "I feel", "foreign": "ich fühle", "mark": ["e"], "base": "fühlen", "features": {"who": "i", "when": "now"}},
+				{"english": "You feel", "foreign": "du fühlst", "mark": ["st"], "base": "fühlen", "features": {"who": "you", "when": "now"}},
+				{"english": "She feels", "foreign": "sie fühlt", "mark": ["t"], "base": "fühlen", "features": {"who": "she", "when": "now"}},
+				{"english": "We feel", "foreign": "wir fühlen", "mark": ["en"], "base": "fühlen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "haben", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gehabt. For later, a form of werden goes in front: ich werde haben.", "rows": [
+				{"english": "I have", "foreign": "ich habe", "base": "haben", "features": {"who": "i", "when": "now"}},
+				{"english": "I had", "foreign": "ich habe gehabt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gehabt", "role": "ending"}], "from": 1, "base": "haben", "features": {"who": "i", "when": "before"}},
+				{"english": "I will have", "foreign": "ich werde haben", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "haben", "features": {"who": "i", "when": "later"}},
+				{"english": "She had", "foreign": "sie hat gehabt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gehabt", "role": "ending"}], "base": "haben", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "machen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gemacht. For later, a form of werden goes in front: ich werde machen.", "rows": [
+				{"english": "I make", "foreign": "ich mache", "base": "machen", "features": {"who": "i", "when": "now"}},
+				{"english": "I made", "foreign": "ich habe gemacht", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gemacht", "role": "ending"}], "from": 1, "base": "machen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "ich werde machen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "machen", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "sie hat gemacht", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gemacht", "role": "ending"}], "base": "machen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "gehen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich bin gegangen. For later, a form of werden goes in front: ich werde gehen.", "rows": [
+				{"english": "I go", "foreign": "ich gehe", "base": "gehen", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "ich bin gegangen", "mark": [{"text": "bin", "role": "helper word"}, {"text": "gegangen", "role": "ending"}], "from": 1, "base": "gehen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "ich werde gehen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "gehen", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "sie ist gegangen", "mark": [{"text": "ist", "role": "helper word"}, {"text": "gegangen", "role": "ending"}], "base": "gehen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "sagen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gesagt. For later, a form of werden goes in front: ich werde sagen.", "rows": [
+				{"english": "I say", "foreign": "ich sage", "base": "sagen", "features": {"who": "i", "when": "now"}},
+				{"english": "I said", "foreign": "ich habe gesagt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gesagt", "role": "ending"}], "from": 1, "base": "sagen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will say", "foreign": "ich werde sagen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "sagen", "features": {"who": "i", "when": "later"}},
+				{"english": "She said", "foreign": "sie hat gesagt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gesagt", "role": "ending"}], "base": "sagen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "sehen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gesehen. For later, a form of werden goes in front: ich werde sehen.", "rows": [
+				{"english": "I see", "foreign": "ich sehe", "base": "sehen", "features": {"who": "i", "when": "now"}},
+				{"english": "I saw", "foreign": "ich habe gesehen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gesehen", "role": "ending"}], "from": 1, "base": "sehen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will see", "foreign": "ich werde sehen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "sehen", "features": {"who": "i", "when": "later"}},
+				{"english": "She saw", "foreign": "sie hat gesehen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gesehen", "role": "ending"}], "base": "sehen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "geben", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gegeben. For later, a form of werden goes in front: ich werde geben.", "rows": [
+				{"english": "I give", "foreign": "ich gebe", "base": "geben", "features": {"who": "i", "when": "now"}},
+				{"english": "I gave", "foreign": "ich habe gegeben", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gegeben", "role": "ending"}], "from": 1, "base": "geben", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "ich werde geben", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "geben", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "sie hat gegeben", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gegeben", "role": "ending"}], "base": "geben", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "wissen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gewusst. For later, a form of werden goes in front: ich werde wissen.", "rows": [
+				{"english": "I know", "foreign": "ich weiß", "base": "wissen", "features": {"who": "i", "when": "now"}},
+				{"english": "I knew", "foreign": "ich habe gewusst", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gewusst", "role": "ending"}], "from": 1, "base": "wissen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will know", "foreign": "ich werde wissen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "wissen", "features": {"who": "i", "when": "later"}},
+				{"english": "She knew", "foreign": "sie hat gewusst", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gewusst", "role": "ending"}], "base": "wissen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "kommen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich bin gekommen. For later, a form of werden goes in front: ich werde kommen.", "rows": [
+				{"english": "I come", "foreign": "ich komme", "base": "kommen", "features": {"who": "i", "when": "now"}},
+				{"english": "I came", "foreign": "ich bin gekommen", "mark": [{"text": "bin", "role": "helper word"}, {"text": "gekommen", "role": "ending"}], "from": 1, "base": "kommen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come", "foreign": "ich werde kommen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "kommen", "features": {"who": "i", "when": "later"}},
+				{"english": "She came", "foreign": "sie ist gekommen", "mark": [{"text": "ist", "role": "helper word"}, {"text": "gekommen", "role": "ending"}], "base": "kommen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "essen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gegessen. For later, a form of werden goes in front: ich werde essen.", "rows": [
+				{"english": "I eat", "foreign": "ich esse", "base": "essen", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "ich habe gegessen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gegessen", "role": "ending"}], "from": 1, "base": "essen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "ich werde essen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "essen", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "sie hat gegessen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gegessen", "role": "ending"}], "base": "essen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "leben", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gelebt. For later, a form of werden goes in front: ich werde leben.", "rows": [
+				{"english": "I live", "foreign": "ich lebe", "base": "leben", "features": {"who": "i", "when": "now"}},
+				{"english": "I lived", "foreign": "ich habe gelebt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gelebt", "role": "ending"}], "from": 1, "base": "leben", "features": {"who": "i", "when": "before"}},
+				{"english": "I will live", "foreign": "ich werde leben", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "leben", "features": {"who": "i", "when": "later"}},
+				{"english": "She lived", "foreign": "sie hat gelebt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gelebt", "role": "ending"}], "base": "leben", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "arbeiten", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gearbeitet. For later, a form of werden goes in front: ich werde arbeiten.", "rows": [
+				{"english": "I work", "foreign": "ich arbeite", "base": "arbeiten", "features": {"who": "i", "when": "now"}},
+				{"english": "I worked", "foreign": "ich habe gearbeitet", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gearbeitet", "role": "ending"}], "from": 1, "base": "arbeiten", "features": {"who": "i", "when": "before"}},
+				{"english": "I will work", "foreign": "ich werde arbeiten", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "arbeiten", "features": {"who": "i", "when": "later"}},
+				{"english": "She worked", "foreign": "sie hat gearbeitet", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gearbeitet", "role": "ending"}], "base": "arbeiten", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "denken", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gedacht. For later, a form of werden goes in front: ich werde denken.", "rows": [
+				{"english": "I think", "foreign": "ich denke", "base": "denken", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "ich habe gedacht", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gedacht", "role": "ending"}], "from": 1, "base": "denken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "ich werde denken", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "denken", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "sie hat gedacht", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gedacht", "role": "ending"}], "base": "denken", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "nehmen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe genommen. For later, a form of werden goes in front: ich werde nehmen.", "rows": [
+				{"english": "I take", "foreign": "ich nehme", "base": "nehmen", "features": {"who": "i", "when": "now"}},
+				{"english": "I took", "foreign": "ich habe genommen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "genommen", "role": "ending"}], "from": 1, "base": "nehmen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "ich werde nehmen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "nehmen", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "sie hat genommen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "genommen", "role": "ending"}], "base": "nehmen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "schreiben", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe geschrieben. For later, a form of werden goes in front: ich werde schreiben.", "rows": [
+				{"english": "I write", "foreign": "ich schreibe", "base": "schreiben", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "ich habe geschrieben", "mark": [{"text": "habe", "role": "helper word"}, {"text": "geschrieben", "role": "ending"}], "from": 1, "base": "schreiben", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "ich werde schreiben", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "schreiben", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "sie hat geschrieben", "mark": [{"text": "hat", "role": "helper word"}, {"text": "geschrieben", "role": "ending"}], "base": "schreiben", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "kaufen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gekauft. For later, a form of werden goes in front: ich werde kaufen.", "rows": [
+				{"english": "I buy", "foreign": "ich kaufe", "base": "kaufen", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "ich habe gekauft", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gekauft", "role": "ending"}], "from": 1, "base": "kaufen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "ich werde kaufen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "kaufen", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "sie hat gekauft", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gekauft", "role": "ending"}], "base": "kaufen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "trinken", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe getrunken. For later, a form of werden goes in front: ich werde trinken.", "rows": [
+				{"english": "I drink", "foreign": "ich trinke", "base": "trinken", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "ich habe getrunken", "mark": [{"text": "habe", "role": "helper word"}, {"text": "getrunken", "role": "ending"}], "from": 1, "base": "trinken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "ich werde trinken", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "trinken", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "sie hat getrunken", "mark": [{"text": "hat", "role": "helper word"}, {"text": "getrunken", "role": "ending"}], "base": "trinken", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "schlafen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe geschlafen. For later, a form of werden goes in front: ich werde schlafen.", "rows": [
+				{"english": "I sleep", "foreign": "ich schlafe", "base": "schlafen", "features": {"who": "i", "when": "now"}},
+				{"english": "I slept", "foreign": "ich habe geschlafen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "geschlafen", "role": "ending"}], "from": 1, "base": "schlafen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sleep", "foreign": "ich werde schlafen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "schlafen", "features": {"who": "i", "when": "later"}},
+				{"english": "She slept", "foreign": "sie hat geschlafen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "geschlafen", "role": "ending"}], "base": "schlafen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "schauen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe geschaut. For later, a form of werden goes in front: ich werde schauen.", "rows": [
+				{"english": "I look", "foreign": "ich schaue", "base": "schauen", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked", "foreign": "ich habe geschaut", "mark": [{"text": "habe", "role": "helper word"}, {"text": "geschaut", "role": "ending"}], "from": 1, "base": "schauen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look", "foreign": "ich werde schauen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "schauen", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked", "foreign": "sie hat geschaut", "mark": [{"text": "hat", "role": "helper word"}, {"text": "geschaut", "role": "ending"}], "base": "schauen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "warten", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gewartet. For later, a form of werden goes in front: ich werde warten.", "rows": [
+				{"english": "I wait", "foreign": "ich warte", "base": "warten", "features": {"who": "i", "when": "now"}},
+				{"english": "I waited", "foreign": "ich habe gewartet", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gewartet", "role": "ending"}], "from": 1, "base": "warten", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "ich werde warten", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "warten", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "sie hat gewartet", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gewartet", "role": "ending"}], "base": "warten", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "suchen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gesucht. For later, a form of werden goes in front: ich werde suchen.", "rows": [
+				{"english": "I search", "foreign": "ich suche", "base": "suchen", "features": {"who": "i", "when": "now"}},
+				{"english": "I searched", "foreign": "ich habe gesucht", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gesucht", "role": "ending"}], "from": 1, "base": "suchen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will search", "foreign": "ich werde suchen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "suchen", "features": {"who": "i", "when": "later"}},
+				{"english": "She searched", "foreign": "sie hat gesucht", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gesucht", "role": "ending"}], "base": "suchen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "finden", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gefunden. For later, a form of werden goes in front: ich werde finden.", "rows": [
+				{"english": "I find", "foreign": "ich finde", "base": "finden", "features": {"who": "i", "when": "now"}},
+				{"english": "I found", "foreign": "ich habe gefunden", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gefunden", "role": "ending"}], "from": 1, "base": "finden", "features": {"who": "i", "when": "before"}},
+				{"english": "I will find", "foreign": "ich werde finden", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "finden", "features": {"who": "i", "when": "later"}},
+				{"english": "She found", "foreign": "sie hat gefunden", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gefunden", "role": "ending"}], "base": "finden", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "rufen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gerufen. For later, a form of werden goes in front: ich werde rufen.", "rows": [
+				{"english": "I call", "foreign": "ich rufe", "base": "rufen", "features": {"who": "i", "when": "now"}},
+				{"english": "I called", "foreign": "ich habe gerufen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gerufen", "role": "ending"}], "from": 1, "base": "rufen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "ich werde rufen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "rufen", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "sie hat gerufen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gerufen", "role": "ending"}], "base": "rufen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "beginnen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe begonnen. For later, a form of werden goes in front: ich werde beginnen.", "rows": [
+				{"english": "I begin", "foreign": "ich beginne", "base": "beginnen", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "ich habe begonnen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "begonnen", "role": "ending"}], "from": 1, "base": "beginnen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "ich werde beginnen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "beginnen", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "sie hat begonnen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "begonnen", "role": "ending"}], "base": "beginnen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "beenden", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe beendet. For later, a form of werden goes in front: ich werde beenden.", "rows": [
+				{"english": "I finish", "foreign": "ich beende", "base": "beenden", "features": {"who": "i", "when": "now"}},
+				{"english": "I finished", "foreign": "ich habe beendet", "mark": [{"text": "habe", "role": "helper word"}, {"text": "beendet", "role": "ending"}], "from": 1, "base": "beenden", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "ich werde beenden", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "beenden", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "sie hat beendet", "mark": [{"text": "hat", "role": "helper word"}, {"text": "beendet", "role": "ending"}], "base": "beenden", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "öffnen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe geöffnet. For later, a form of werden goes in front: ich werde öffnen.", "rows": [
+				{"english": "I open", "foreign": "ich öffne", "base": "öffnen", "features": {"who": "i", "when": "now"}},
+				{"english": "I opened", "foreign": "ich habe geöffnet", "mark": [{"text": "habe", "role": "helper word"}, {"text": "geöffnet", "role": "ending"}], "from": 1, "base": "öffnen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "ich werde öffnen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "öffnen", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "sie hat geöffnet", "mark": [{"text": "hat", "role": "helper word"}, {"text": "geöffnet", "role": "ending"}], "base": "öffnen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "schließen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe geschlossen. For later, a form of werden goes in front: ich werde schließen.", "rows": [
+				{"english": "I close", "foreign": "ich schließe", "base": "schließen", "features": {"who": "i", "when": "now"}},
+				{"english": "I closed", "foreign": "ich habe geschlossen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "geschlossen", "role": "ending"}], "from": 1, "base": "schließen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "ich werde schließen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "schließen", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "sie hat geschlossen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "geschlossen", "role": "ending"}], "base": "schließen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "lernen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gelernt. For later, a form of werden goes in front: ich werde lernen.", "rows": [
+				{"english": "I learn", "foreign": "ich lerne", "base": "lernen", "features": {"who": "i", "when": "now"}},
+				{"english": "I learned", "foreign": "ich habe gelernt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gelernt", "role": "ending"}], "from": 1, "base": "lernen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will learn", "foreign": "ich werde lernen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "lernen", "features": {"who": "i", "when": "later"}},
+				{"english": "She learned", "foreign": "sie hat gelernt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gelernt", "role": "ending"}], "base": "lernen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "studieren", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe studiert. For later, a form of werden goes in front: ich werde studieren.", "rows": [
+				{"english": "I study", "foreign": "ich studiere", "base": "studieren", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "ich habe studiert", "mark": [{"text": "habe", "role": "helper word"}, {"text": "studiert", "role": "ending"}], "from": 1, "base": "studieren", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "ich werde studieren", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "studieren", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "sie hat studiert", "mark": [{"text": "hat", "role": "helper word"}, {"text": "studiert", "role": "ending"}], "base": "studieren", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "verstehen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe verstanden. For later, a form of werden goes in front: ich werde verstehen.", "rows": [
+				{"english": "I understand", "foreign": "ich verstehe", "base": "verstehen", "features": {"who": "i", "when": "now"}},
+				{"english": "I understood", "foreign": "ich habe verstanden", "mark": [{"text": "habe", "role": "helper word"}, {"text": "verstanden", "role": "ending"}], "from": 1, "base": "verstehen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will understand", "foreign": "ich werde verstehen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "verstehen", "features": {"who": "i", "when": "later"}},
+				{"english": "She understood", "foreign": "sie hat verstanden", "mark": [{"text": "hat", "role": "helper word"}, {"text": "verstanden", "role": "ending"}], "base": "verstehen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "vergessen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe vergessen. For later, a form of werden goes in front: ich werde vergessen.", "rows": [
+				{"english": "I forget", "foreign": "ich vergesse", "base": "vergessen", "features": {"who": "i", "when": "now"}},
+				{"english": "I forgot", "foreign": "ich habe vergessen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "vergessen", "role": "ending"}], "from": 1, "base": "vergessen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will forget", "foreign": "ich werde vergessen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "vergessen", "features": {"who": "i", "when": "later"}},
+				{"english": "She forgot", "foreign": "sie hat vergessen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "vergessen", "role": "ending"}], "base": "vergessen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "laufen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich bin gelaufen. For later, a form of werden goes in front: ich werde laufen.", "rows": [
+				{"english": "I run", "foreign": "ich laufe", "base": "laufen", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "ich bin gelaufen", "mark": [{"text": "bin", "role": "helper word"}, {"text": "gelaufen", "role": "ending"}], "from": 1, "base": "laufen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "ich werde laufen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "laufen", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "sie ist gelaufen", "mark": [{"text": "ist", "role": "helper word"}, {"text": "gelaufen", "role": "ending"}], "base": "laufen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "singen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gesungen. For later, a form of werden goes in front: ich werde singen.", "rows": [
+				{"english": "I sing", "foreign": "ich singe", "base": "singen", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "ich habe gesungen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gesungen", "role": "ending"}], "from": 1, "base": "singen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "ich werde singen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "singen", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "sie hat gesungen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gesungen", "role": "ending"}], "base": "singen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "spielen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gespielt. For later, a form of werden goes in front: ich werde spielen.", "rows": [
+				{"english": "I play", "foreign": "ich spiele", "base": "spielen", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "ich habe gespielt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gespielt", "role": "ending"}], "from": 1, "base": "spielen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "ich werde spielen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "spielen", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "sie hat gespielt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gespielt", "role": "ending"}], "base": "spielen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "bezahlen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe bezahlt. For later, a form of werden goes in front: ich werde bezahlen.", "rows": [
+				{"english": "I pay", "foreign": "ich bezahle", "base": "bezahlen", "features": {"who": "i", "when": "now"}},
+				{"english": "I paid", "foreign": "ich habe bezahlt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "bezahlt", "role": "ending"}], "from": 1, "base": "bezahlen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "ich werde bezahlen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "bezahlen", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "sie hat bezahlt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "bezahlt", "role": "ending"}], "base": "bezahlen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "verkaufen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe verkauft. For later, a form of werden goes in front: ich werde verkaufen.", "rows": [
+				{"english": "I sell", "foreign": "ich verkaufe", "base": "verkaufen", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "ich habe verkauft", "mark": [{"text": "habe", "role": "helper word"}, {"text": "verkauft", "role": "ending"}], "from": 1, "base": "verkaufen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "ich werde verkaufen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "verkaufen", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "sie hat verkauft", "mark": [{"text": "hat", "role": "helper word"}, {"text": "verkauft", "role": "ending"}], "base": "verkaufen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "helfen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe geholfen. For later, a form of werden goes in front: ich werde helfen.", "rows": [
+				{"english": "I help", "foreign": "ich helfe", "base": "helfen", "features": {"who": "i", "when": "now"}},
+				{"english": "I helped", "foreign": "ich habe geholfen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "geholfen", "role": "ending"}], "from": 1, "base": "helfen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "ich werde helfen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "helfen", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "sie hat geholfen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "geholfen", "role": "ending"}], "base": "helfen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "kochen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gekocht. For later, a form of werden goes in front: ich werde kochen.", "rows": [
+				{"english": "I cook", "foreign": "ich koche", "base": "kochen", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "ich habe gekocht", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gekocht", "role": "ending"}], "from": 1, "base": "kochen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "ich werde kochen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "kochen", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "sie hat gekocht", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gekocht", "role": "ending"}], "base": "kochen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "reisen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich bin gereist. For later, a form of werden goes in front: ich werde reisen.", "rows": [
+				{"english": "I travel", "foreign": "ich reise", "base": "reisen", "features": {"who": "i", "when": "now"}},
+				{"english": "I travelled", "foreign": "ich bin gereist", "mark": [{"text": "bin", "role": "helper word"}, {"text": "gereist", "role": "ending"}], "from": 1, "base": "reisen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will travel", "foreign": "ich werde reisen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "reisen", "features": {"who": "i", "when": "later"}},
+				{"english": "She travelled", "foreign": "sie ist gereist", "mark": [{"text": "ist", "role": "helper word"}, {"text": "gereist", "role": "ending"}], "base": "reisen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "fragen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gefragt. For later, a form of werden goes in front: ich werde fragen.", "rows": [
+				{"english": "I ask", "foreign": "ich frage", "base": "fragen", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "ich habe gefragt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gefragt", "role": "ending"}], "from": 1, "base": "fragen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "ich werde fragen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "fragen", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "sie hat gefragt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gefragt", "role": "ending"}], "base": "fragen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "antworten", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe geantwortet. For later, a form of werden goes in front: ich werde antworten.", "rows": [
+				{"english": "I answer", "foreign": "ich antworte", "base": "antworten", "features": {"who": "i", "when": "now"}},
+				{"english": "I answered", "foreign": "ich habe geantwortet", "mark": [{"text": "habe", "role": "helper word"}, {"text": "geantwortet", "role": "ending"}], "from": 1, "base": "antworten", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "ich werde antworten", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "antworten", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "sie hat geantwortet", "mark": [{"text": "hat", "role": "helper word"}, {"text": "geantwortet", "role": "ending"}], "base": "antworten", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "verlieren", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe verloren. For later, a form of werden goes in front: ich werde verlieren.", "rows": [
+				{"english": "I lose", "foreign": "ich verliere", "base": "verlieren", "features": {"who": "i", "when": "now"}},
+				{"english": "I lost", "foreign": "ich habe verloren", "mark": [{"text": "habe", "role": "helper word"}, {"text": "verloren", "role": "ending"}], "from": 1, "base": "verlieren", "features": {"who": "i", "when": "before"}},
+				{"english": "I will lose", "foreign": "ich werde verlieren", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "verlieren", "features": {"who": "i", "when": "later"}},
+				{"english": "She lost", "foreign": "sie hat verloren", "mark": [{"text": "hat", "role": "helper word"}, {"text": "verloren", "role": "ending"}], "base": "verlieren", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "bekommen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe bekommen. For later, a form of werden goes in front: ich werde bekommen.", "rows": [
+				{"english": "I receive", "foreign": "ich bekomme", "base": "bekommen", "features": {"who": "i", "when": "now"}},
+				{"english": "I received", "foreign": "ich habe bekommen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "bekommen", "role": "ending"}], "from": 1, "base": "bekommen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will receive", "foreign": "ich werde bekommen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "bekommen", "features": {"who": "i", "when": "later"}},
+				{"english": "She received", "foreign": "sie hat bekommen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "bekommen", "role": "ending"}], "base": "bekommen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "bestellen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe bestellt. For later, a form of werden goes in front: ich werde bestellen.", "rows": [
+				{"english": "I order", "foreign": "ich bestelle", "base": "bestellen", "features": {"who": "i", "when": "now"}},
+				{"english": "I ordered", "foreign": "ich habe bestellt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "bestellt", "role": "ending"}], "from": 1, "base": "bestellen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "ich werde bestellen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "bestellen", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "sie hat bestellt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "bestellt", "role": "ending"}], "base": "bestellen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 45, "verb": "folgen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich bin gefolgt. For later, a form of werden goes in front: ich werde folgen.", "rows": [
+				{"english": "I follow", "foreign": "ich folge", "base": "folgen", "features": {"who": "i", "when": "now"}},
+				{"english": "I followed", "foreign": "ich bin gefolgt", "mark": [{"text": "bin", "role": "helper word"}, {"text": "gefolgt", "role": "ending"}], "from": 1, "base": "folgen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will follow", "foreign": "ich werde folgen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "folgen", "features": {"who": "i", "when": "later"}},
+				{"english": "She followed", "foreign": "sie ist gefolgt", "mark": [{"text": "ist", "role": "helper word"}, {"text": "gefolgt", "role": "ending"}], "base": "folgen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 46, "verb": "fühlen", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gefühlt. For later, a form of werden goes in front: ich werde fühlen.", "rows": [
+				{"english": "I feel", "foreign": "ich fühle", "base": "fühlen", "features": {"who": "i", "when": "now"}},
+				{"english": "I felt", "foreign": "ich habe gefühlt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gefühlt", "role": "ending"}], "from": 1, "base": "fühlen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will feel", "foreign": "ich werde fühlen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "fühlen", "features": {"who": "i", "when": "later"}},
+				{"english": "She felt", "foreign": "sie hat gefühlt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gefühlt", "role": "ending"}], "base": "fühlen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "command", "part": 2, "verb": "machen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Mach! To someone you would call Sie, the whole verb and then Sie: Machen Sie! Telling a friend not to puts nicht after it: Mach nicht!", "rows": [
+				{"english": "Make!", "foreign": "Mach!", "base": "machen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Make! said politely", "foreign": "Machen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "machen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not make!", "foreign": "Mach nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "machen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's make!", "foreign": "Machen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "machen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 3, "verb": "gehen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Geh! To someone you would call Sie, the whole verb and then Sie: Gehen Sie! Telling a friend not to puts nicht after it: Geh nicht!", "rows": [
+				{"english": "Go!", "foreign": "Geh!", "base": "gehen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go! said politely", "foreign": "Gehen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "gehen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not go!", "foreign": "Geh nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "gehen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go!", "foreign": "Gehen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "gehen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 4, "verb": "sagen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Sag! To someone you would call Sie, the whole verb and then Sie: Sagen Sie! Telling a friend not to puts nicht after it: Sag nicht!", "rows": [
+				{"english": "Say!", "foreign": "Sag!", "base": "sagen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Say! said politely", "foreign": "Sagen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "sagen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not say!", "foreign": "Sag nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "sagen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's say!", "foreign": "Sagen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "sagen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 5, "verb": "geben", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Gib! To someone you would call Sie, the whole verb and then Sie: Geben Sie! Telling a friend not to puts nicht after it: Gib nicht!", "rows": [
+				{"english": "Give!", "foreign": "Gib!", "base": "geben", "features": {"command": "yes", "who": "you"}},
+				{"english": "Give! said politely", "foreign": "Geben Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "geben", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not give!", "foreign": "Gib nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "geben", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's give!", "foreign": "Geben wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "geben", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 6, "verb": "kommen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Komm! To someone you would call Sie, the whole verb and then Sie: Kommen Sie! Telling a friend not to puts nicht after it: Komm nicht!", "rows": [
+				{"english": "Come!", "foreign": "Komm!", "base": "kommen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Come! said politely", "foreign": "Kommen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "kommen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come!", "foreign": "Komm nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "kommen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come!", "foreign": "Kommen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "kommen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 7, "verb": "essen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Iss! To someone you would call Sie, the whole verb and then Sie: Essen Sie! Telling a friend not to puts nicht after it: Iss nicht!", "rows": [
+				{"english": "Eat!", "foreign": "Iss!", "base": "essen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Eat! said politely", "foreign": "Essen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "essen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not eat!", "foreign": "Iss nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "essen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's eat!", "foreign": "Essen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "essen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 9, "verb": "arbeiten", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Arbeit! To someone you would call Sie, the whole verb and then Sie: Arbeiten Sie! Telling a friend not to puts nicht after it: Arbeit nicht!", "rows": [
+				{"english": "Work!", "foreign": "Arbeit!", "base": "arbeiten", "features": {"command": "yes", "who": "you"}},
+				{"english": "Work! said politely", "foreign": "Arbeiten Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "arbeiten", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not work!", "foreign": "Arbeit nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "arbeiten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's work!", "foreign": "Arbeiten wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "arbeiten", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 10, "verb": "denken", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Denk! To someone you would call Sie, the whole verb and then Sie: Denken Sie! Telling a friend not to puts nicht after it: Denk nicht!", "rows": [
+				{"english": "Think!", "foreign": "Denk!", "base": "denken", "features": {"command": "yes", "who": "you"}},
+				{"english": "Think! said politely", "foreign": "Denken Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "denken", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not think!", "foreign": "Denk nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "denken", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's think!", "foreign": "Denken wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "denken", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 11, "verb": "nehmen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Nimm! To someone you would call Sie, the whole verb and then Sie: Nehmen Sie! Telling a friend not to puts nicht after it: Nimm nicht!", "rows": [
+				{"english": "Take!", "foreign": "Nimm!", "base": "nehmen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Take! said politely", "foreign": "Nehmen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "nehmen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not take!", "foreign": "Nimm nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "nehmen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's take!", "foreign": "Nehmen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "nehmen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 12, "verb": "schreiben", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Schreib! To someone you would call Sie, the whole verb and then Sie: Schreiben Sie! Telling a friend not to puts nicht after it: Schreib nicht!", "rows": [
+				{"english": "Write!", "foreign": "Schreib!", "base": "schreiben", "features": {"command": "yes", "who": "you"}},
+				{"english": "Write! said politely", "foreign": "Schreiben Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "schreiben", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not write!", "foreign": "Schreib nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "schreiben", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's write!", "foreign": "Schreiben wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "schreiben", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 13, "verb": "kaufen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Kauf! To someone you would call Sie, the whole verb and then Sie: Kaufen Sie! Telling a friend not to puts nicht after it: Kauf nicht!", "rows": [
+				{"english": "Buy!", "foreign": "Kauf!", "base": "kaufen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Buy! said politely", "foreign": "Kaufen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "kaufen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not buy!", "foreign": "Kauf nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "kaufen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's buy!", "foreign": "Kaufen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "kaufen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 14, "verb": "trinken", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Trink! To someone you would call Sie, the whole verb and then Sie: Trinken Sie! Telling a friend not to puts nicht after it: Trink nicht!", "rows": [
+				{"english": "Drink!", "foreign": "Trink!", "base": "trinken", "features": {"command": "yes", "who": "you"}},
+				{"english": "Drink! said politely", "foreign": "Trinken Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "trinken", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not drink!", "foreign": "Trink nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "trinken", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drink!", "foreign": "Trinken wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "trinken", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 15, "verb": "schlafen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Schlaf! To someone you would call Sie, the whole verb and then Sie: Schlafen Sie! Telling a friend not to puts nicht after it: Schlaf nicht!", "rows": [
+				{"english": "Sleep!", "foreign": "Schlaf!", "base": "schlafen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sleep! said politely", "foreign": "Schlafen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "schlafen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sleep!", "foreign": "Schlaf nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "schlafen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sleep!", "foreign": "Schlafen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "schlafen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 16, "verb": "schauen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Schau! To someone you would call Sie, the whole verb and then Sie: Schauen Sie! Telling a friend not to puts nicht after it: Schau nicht!", "rows": [
+				{"english": "Look!", "foreign": "Schau!", "base": "schauen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Look! said politely", "foreign": "Schauen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "schauen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not look!", "foreign": "Schau nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "schauen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's look!", "foreign": "Schauen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "schauen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 17, "verb": "warten", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Wart! To someone you would call Sie, the whole verb and then Sie: Warten Sie! Telling a friend not to puts nicht after it: Wart nicht!", "rows": [
+				{"english": "Wait!", "foreign": "Wart!", "base": "warten", "features": {"command": "yes", "who": "you"}},
+				{"english": "Wait! said politely", "foreign": "Warten Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "warten", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not wait!", "foreign": "Wart nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "warten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wait!", "foreign": "Warten wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "warten", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 18, "verb": "suchen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Such! To someone you would call Sie, the whole verb and then Sie: Suchen Sie! Telling a friend not to puts nicht after it: Such nicht!", "rows": [
+				{"english": "Search!", "foreign": "Such!", "base": "suchen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Search! said politely", "foreign": "Suchen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "suchen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not search!", "foreign": "Such nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "suchen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's search!", "foreign": "Suchen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "suchen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 19, "verb": "finden", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Find! To someone you would call Sie, the whole verb and then Sie: Finden Sie! Telling a friend not to puts nicht after it: Find nicht!", "rows": [
+				{"english": "Find!", "foreign": "Find!", "base": "finden", "features": {"command": "yes", "who": "you"}},
+				{"english": "Find! said politely", "foreign": "Finden Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "finden", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not find!", "foreign": "Find nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "finden", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's find!", "foreign": "Finden wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "finden", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 20, "verb": "rufen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Ruf! To someone you would call Sie, the whole verb and then Sie: Rufen Sie! Telling a friend not to puts nicht after it: Ruf nicht!", "rows": [
+				{"english": "Call!", "foreign": "Ruf!", "base": "rufen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Call! said politely", "foreign": "Rufen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "rufen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not call!", "foreign": "Ruf nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "rufen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's call!", "foreign": "Rufen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "rufen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 21, "verb": "beginnen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Beginn! To someone you would call Sie, the whole verb and then Sie: Beginnen Sie! Telling a friend not to puts nicht after it: Beginn nicht!", "rows": [
+				{"english": "Begin!", "foreign": "Beginn!", "base": "beginnen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Begin! said politely", "foreign": "Beginnen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "beginnen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not begin!", "foreign": "Beginn nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "beginnen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's begin!", "foreign": "Beginnen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "beginnen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 22, "verb": "beenden", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Beend! To someone you would call Sie, the whole verb and then Sie: Beenden Sie! Telling a friend not to puts nicht after it: Beend nicht!", "rows": [
+				{"english": "Finish!", "foreign": "Beend!", "base": "beenden", "features": {"command": "yes", "who": "you"}},
+				{"english": "Finish! said politely", "foreign": "Beenden Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "beenden", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not finish!", "foreign": "Beend nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "beenden", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's finish!", "foreign": "Beenden wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "beenden", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 23, "verb": "öffnen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Öffne! To someone you would call Sie, the whole verb and then Sie: Öffnen Sie! Telling a friend not to puts nicht after it: Öffne nicht!", "rows": [
+				{"english": "Open!", "foreign": "Öffne!", "base": "öffnen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Open! said politely", "foreign": "Öffnen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "öffnen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not open!", "foreign": "Öffne nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "öffnen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's open!", "foreign": "Öffnen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "öffnen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 24, "verb": "schließen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Schließ! To someone you would call Sie, the whole verb and then Sie: Schließen Sie! Telling a friend not to puts nicht after it: Schließ nicht!", "rows": [
+				{"english": "Close!", "foreign": "Schließ!", "base": "schließen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Close! said politely", "foreign": "Schließen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "schließen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not close!", "foreign": "Schließ nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "schließen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's close!", "foreign": "Schließen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "schließen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 25, "verb": "lernen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Lern! To someone you would call Sie, the whole verb and then Sie: Lernen Sie! Telling a friend not to puts nicht after it: Lern nicht!", "rows": [
+				{"english": "Learn!", "foreign": "Lern!", "base": "lernen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Learn! said politely", "foreign": "Lernen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "lernen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not learn!", "foreign": "Lern nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "lernen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's learn!", "foreign": "Lernen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "lernen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 26, "verb": "studieren", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Studier! To someone you would call Sie, the whole verb and then Sie: Studieren Sie! Telling a friend not to puts nicht after it: Studier nicht!", "rows": [
+				{"english": "Study!", "foreign": "Studier!", "base": "studieren", "features": {"command": "yes", "who": "you"}},
+				{"english": "Study! said politely", "foreign": "Studieren Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "studieren", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not study!", "foreign": "Studier nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "studieren", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's study!", "foreign": "Studieren wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "studieren", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 27, "verb": "vergessen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Vergiss! To someone you would call Sie, the whole verb and then Sie: Vergessen Sie! Telling a friend not to puts nicht after it: Vergiss nicht!", "rows": [
+				{"english": "Forget!", "foreign": "Vergiss!", "base": "vergessen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Forget! said politely", "foreign": "Vergessen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "vergessen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not forget!", "foreign": "Vergiss nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "vergessen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's forget!", "foreign": "Vergessen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "vergessen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 28, "verb": "laufen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Lauf! To someone you would call Sie, the whole verb and then Sie: Laufen Sie! Telling a friend not to puts nicht after it: Lauf nicht!", "rows": [
+				{"english": "Run!", "foreign": "Lauf!", "base": "laufen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Run! said politely", "foreign": "Laufen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "laufen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not run!", "foreign": "Lauf nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "laufen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's run!", "foreign": "Laufen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "laufen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 29, "verb": "singen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Sing! To someone you would call Sie, the whole verb and then Sie: Singen Sie! Telling a friend not to puts nicht after it: Sing nicht!", "rows": [
+				{"english": "Sing!", "foreign": "Sing!", "base": "singen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sing! said politely", "foreign": "Singen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "singen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sing!", "foreign": "Sing nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "singen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sing!", "foreign": "Singen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "singen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 30, "verb": "spielen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Spiel! To someone you would call Sie, the whole verb and then Sie: Spielen Sie! Telling a friend not to puts nicht after it: Spiel nicht!", "rows": [
+				{"english": "Play!", "foreign": "Spiel!", "base": "spielen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Play! said politely", "foreign": "Spielen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "spielen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not play!", "foreign": "Spiel nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "spielen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's play!", "foreign": "Spielen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "spielen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 31, "verb": "bezahlen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Bezahl! To someone you would call Sie, the whole verb and then Sie: Bezahlen Sie! Telling a friend not to puts nicht after it: Bezahl nicht!", "rows": [
+				{"english": "Pay!", "foreign": "Bezahl!", "base": "bezahlen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Pay! said politely", "foreign": "Bezahlen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "bezahlen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not pay!", "foreign": "Bezahl nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "bezahlen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's pay!", "foreign": "Bezahlen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "bezahlen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 32, "verb": "verkaufen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Verkauf! To someone you would call Sie, the whole verb and then Sie: Verkaufen Sie! Telling a friend not to puts nicht after it: Verkauf nicht!", "rows": [
+				{"english": "Sell!", "foreign": "Verkauf!", "base": "verkaufen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sell! said politely", "foreign": "Verkaufen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "verkaufen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sell!", "foreign": "Verkauf nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "verkaufen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sell!", "foreign": "Verkaufen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "verkaufen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 33, "verb": "helfen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Hilf! To someone you would call Sie, the whole verb and then Sie: Helfen Sie! Telling a friend not to puts nicht after it: Hilf nicht!", "rows": [
+				{"english": "Help!", "foreign": "Hilf!", "base": "helfen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Help! said politely", "foreign": "Helfen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "helfen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not help!", "foreign": "Hilf nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "helfen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's help!", "foreign": "Helfen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "helfen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 34, "verb": "kochen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Koch! To someone you would call Sie, the whole verb and then Sie: Kochen Sie! Telling a friend not to puts nicht after it: Koch nicht!", "rows": [
+				{"english": "Cook!", "foreign": "Koch!", "base": "kochen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Cook! said politely", "foreign": "Kochen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "kochen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not cook!", "foreign": "Koch nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "kochen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's cook!", "foreign": "Kochen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "kochen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 35, "verb": "reisen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Reis! To someone you would call Sie, the whole verb and then Sie: Reisen Sie! Telling a friend not to puts nicht after it: Reis nicht!", "rows": [
+				{"english": "Travel!", "foreign": "Reis!", "base": "reisen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Travel! said politely", "foreign": "Reisen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "reisen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not travel!", "foreign": "Reis nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "reisen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's travel!", "foreign": "Reisen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "reisen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 36, "verb": "fragen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Frag! To someone you would call Sie, the whole verb and then Sie: Fragen Sie! Telling a friend not to puts nicht after it: Frag nicht!", "rows": [
+				{"english": "Ask!", "foreign": "Frag!", "base": "fragen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Ask! said politely", "foreign": "Fragen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "fragen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not ask!", "foreign": "Frag nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "fragen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask!", "foreign": "Fragen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "fragen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 37, "verb": "antworten", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Antwort! To someone you would call Sie, the whole verb and then Sie: Antworten Sie! Telling a friend not to puts nicht after it: Antwort nicht!", "rows": [
+				{"english": "Answer!", "foreign": "Antwort!", "base": "antworten", "features": {"command": "yes", "who": "you"}},
+				{"english": "Answer! said politely", "foreign": "Antworten Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "antworten", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not answer!", "foreign": "Antwort nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "antworten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's answer!", "foreign": "Antworten wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "antworten", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 40, "verb": "bestellen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Bestell! To someone you would call Sie, the whole verb and then Sie: Bestellen Sie! Telling a friend not to puts nicht after it: Bestell nicht!", "rows": [
+				{"english": "Order!", "foreign": "Bestell!", "base": "bestellen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Order! said politely", "foreign": "Bestellen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "bestellen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not order!", "foreign": "Bestell nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "bestellen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's order!", "foreign": "Bestellen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "bestellen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 41, "verb": "folgen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Folg! To someone you would call Sie, the whole verb and then Sie: Folgen Sie! Telling a friend not to puts nicht after it: Folg nicht!", "rows": [
+				{"english": "Follow!", "foreign": "Folg!", "base": "folgen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Follow! said politely", "foreign": "Folgen Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "folgen", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not follow!", "foreign": "Folg nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "folgen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's follow!", "foreign": "Folgen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "folgen", "features": {"command": "yes", "who": "we"}}
+			]}
+	]
+}

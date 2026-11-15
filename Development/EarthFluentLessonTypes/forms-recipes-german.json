@@ -1,0 +1,139 @@
+{
+	"about": "How German verb forms are read out of the Wiktionary dump and turned into lessons. make_forms.py uses `slots`; make_form_lessons.py uses the rest. Everything German about the conjugation system lives in this one file. Written by Claude with Ben on 15 November 2026, the first language after the four Romance ones. What German needed: its before and its later are two-word forms the dictionary gives whole (bin gegangen, werde gehen), in tables after the first, so every table is read and such a form is split into its helper and the rest. The changed verb of the before has no one ending to point at (gegangen, gemacht), so the whole of it is lit. German also writes a second before, in stories and newspapers (ich ging), which a table shows beside the spoken one. It has no form of its own for going on right now, so that job keeps only the grid's lesson. Verbs that split in two (ankommen: ich komme an) are in the tables and not yet in the lessons: they need a lesson of their own.",
+	"language": "german",
+	"translation_language": "de",
+	"dump": "kaikki.org-dictionary-German.jsonl",
+	"dictionary_form": {"form": "infinitive"},
+	"skip_tags": ["table-tags", "inflection-template", "class", "auxiliary", "alternative", "subordinate-clause", "subjunctive", "subjunctive-i", "subjunctive-ii"],
+	"all_tables": true,
+	"slots": [
+		{"features": {"form": "infinitive"}, "tags": ["infinitive"], "without": ["infinitive-zu", "multiword-construction"]},
+		{"features": {"form": "done"}, "tags": ["participle", "past"]},
+
+		{"features": {"who": "i", "when": "now"}, "tags": ["first-person", "singular", "indicative", "present"]},
+		{"features": {"who": "you", "when": "now"}, "tags": ["second-person", "singular", "indicative", "present"]},
+		{"features": {"who": "she", "when": "now"}, "tags": ["third-person", "singular", "indicative", "present"]},
+		{"features": {"who": "we", "when": "now"}, "tags": ["first-person", "plural", "indicative", "present"]},
+		{"features": {"who": "you-all", "when": "now"}, "tags": ["second-person", "plural", "indicative", "present"]},
+		{"features": {"who": "they", "when": "now"}, "tags": ["third-person", "plural", "indicative", "present"]},
+
+		{"features": {"who": "i", "when": "before"}, "tags": ["first-person", "singular", "indicative", "perfect"], "split": true},
+		{"features": {"who": "you", "when": "before"}, "tags": ["second-person", "singular", "indicative", "perfect"], "split": true},
+		{"features": {"who": "she", "when": "before"}, "tags": ["third-person", "singular", "indicative", "perfect"], "split": true},
+		{"features": {"who": "we", "when": "before"}, "tags": ["first-person", "plural", "indicative", "perfect"], "split": true},
+		{"features": {"who": "you-all", "when": "before"}, "tags": ["second-person", "plural", "indicative", "perfect"], "split": true},
+		{"features": {"who": "they", "when": "before"}, "tags": ["third-person", "plural", "indicative", "perfect"], "split": true},
+
+		{"features": {"who": "i", "when": "before", "written": "yes"}, "tags": ["first-person", "singular", "indicative", "preterite"]},
+		{"features": {"who": "you", "when": "before", "written": "yes"}, "tags": ["second-person", "singular", "indicative", "preterite"]},
+		{"features": {"who": "she", "when": "before", "written": "yes"}, "tags": ["third-person", "singular", "indicative", "preterite"]},
+		{"features": {"who": "we", "when": "before", "written": "yes"}, "tags": ["first-person", "plural", "indicative", "preterite"]},
+		{"features": {"who": "you-all", "when": "before", "written": "yes"}, "tags": ["second-person", "plural", "indicative", "preterite"]},
+		{"features": {"who": "they", "when": "before", "written": "yes"}, "tags": ["third-person", "plural", "indicative", "preterite"]},
+
+		{"features": {"who": "i", "when": "later"}, "tags": ["first-person", "singular", "future-i", "indicative"], "split": true},
+		{"features": {"who": "you", "when": "later"}, "tags": ["second-person", "singular", "future-i", "indicative"], "split": true},
+		{"features": {"who": "she", "when": "later"}, "tags": ["third-person", "singular", "future-i", "indicative"], "split": true},
+		{"features": {"who": "we", "when": "later"}, "tags": ["first-person", "plural", "future-i", "indicative"], "split": true},
+		{"features": {"who": "you-all", "when": "later"}, "tags": ["second-person", "plural", "future-i", "indicative"], "split": true},
+		{"features": {"who": "they", "when": "later"}, "tags": ["third-person", "plural", "future-i", "indicative"], "split": true},
+
+		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "second-person", "singular"]},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "tags": ["first-person", "indicative", "plural", "present"], "shown": "{} Sie", "inside": true},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "second-person", "singular"], "shown": "{} nicht", "inside": true},
+		{"features": {"command": "yes", "who": "we"}, "tags": ["first-person", "indicative", "plural", "present"], "shown": "{} wir", "inside": true}
+	],
+
+	"endings": {
+		"about": "The regular endings, by the verb's last two letters, longest first where it matters. A form that ends in one has that ending lit on the board, whatever its stem did (du fährst lights st). A form that ends in none of them is one of the verbs that go their own way.",
+		"now": {"en": ["e", "st", "t", "en", "est", "et"], "ln": ["e", "st", "t", "n"], "rn": ["e", "st", "t", "n"]}
+	},
+
+	"middle": " Watch the middle of the word too: in some of these it changes.",
+
+	"recipes": {
+		"who": {
+			"strategy": ["ending"],
+			"description": "The ending says who is doing it: {1}, {2}, {3}, {4}. Spot what changes.",
+			"own_way": " {Base} is one of the verbs that go their own way, so learn these four as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now", "wrap": "ich {}"},
+				{"english": "You {base}", "features": {"who": "you", "when": "now"}, "endings": "now", "wrap": "du {}"},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}, "endings": "now", "wrap": "sie {}"},
+				{"english": "We {base}", "features": {"who": "we", "when": "now"}, "endings": "now", "wrap": "wir {}"}
+			]
+		},
+		"when": {
+			"strategy": ["helper word", "ending"],
+			"description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: {2}. For later, a form of werden goes in front: {3}.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "wrap": "ich {}"},
+				{"english": "I {past}", "features": {"who": "i", "when": "before"}, "mark_part": true, "wrap": "ich {}", "from": 1},
+				{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "wrap": "ich {}", "from": 1},
+				{"english": "She {past}", "features": {"who": "she", "when": "before"}, "mark_part": true, "wrap": "sie {}"}
+			]
+		},
+		"command": {
+			"strategy": ["helper word"],
+			"skip": "stative",
+			"description": "To a friend, the verb comes first and stands short: {1} To someone you would call Sie, the whole verb and then Sie: {2} Telling a friend not to puts nicht after it: {3}",
+			"rows": [
+				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "wrap": "{}!", "capital": true},
+				{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "wrap": "{} Sie!", "capital": true, "words": ["Sie"]},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "{} nicht!", "capital": true, "words": ["nicht"], "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "wrap": "{} wir!", "capital": true, "words": ["wir"]}
+			]
+		}
+	},
+
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job; `no-command` leaves out the commands that are right and that nobody says. Left out on purpose: sein and werden, which need lessons of their own; wollen, können and müssen, which are the want-can-must job; lesen, whose English is the same now and before; and the verbs that split in two (ankommen, ausgehen, zurückkommen), which wait for a lesson of their own.",
+		"list": [
+			["haben", "have", "has", "had", "having", "stative"],
+			["machen", "make", "makes", "made", "making"],
+			["gehen", "go", "goes", "went", "going"],
+			["sagen", "say", "says", "said", "saying"],
+			["sehen", "see", "sees", "saw", "seeing", "stative"],
+			["geben", "give", "gives", "gave", "giving"],
+			["wissen", "know", "knows", "knew", "knowing", "stative"],
+			["kommen", "come", "comes", "came", "coming"],
+			["essen", "eat", "eats", "ate", "eating"],
+			["leben", "live", "lives", "lived", "living", "no-command"],
+			["arbeiten", "work", "works", "worked", "working"],
+			["denken", "think", "thinks", "thought", "thinking"],
+			["nehmen", "take", "takes", "took", "taking"],
+			["schreiben", "write", "writes", "wrote", "writing"],
+			["kaufen", "buy", "buys", "bought", "buying"],
+			["trinken", "drink", "drinks", "drank", "drinking"],
+			["schlafen", "sleep", "sleeps", "slept", "sleeping"],
+			["schauen", "look", "looks", "looked", "looking"],
+			["warten", "wait", "waits", "waited", "waiting"],
+			["suchen", "search", "searches", "searched", "searching"],
+			["finden", "find", "finds", "found", "finding"],
+			["rufen", "call", "calls", "called", "calling"],
+			["beginnen", "begin", "begins", "began", "beginning"],
+			["beenden", "finish", "finishes", "finished", "finishing"],
+			["öffnen", "open", "opens", "opened", "opening"],
+			["schließen", "close", "closes", "closed", "closing"],
+			["lernen", "learn", "learns", "learned", "learning"],
+			["studieren", "study", "studies", "studied", "studying"],
+			["verstehen", "understand", "understands", "understood", "understanding", "stative"],
+			["vergessen", "forget", "forgets", "forgot", "forgetting"],
+			["laufen", "run", "runs", "ran", "running"],
+			["singen", "sing", "sings", "sang", "singing"],
+			["spielen", "play", "plays", "played", "playing"],
+			["bezahlen", "pay", "pays", "paid", "paying"],
+			["verkaufen", "sell", "sells", "sold", "selling"],
+			["helfen", "help", "helps", "helped", "helping"],
+			["kochen", "cook", "cooks", "cooked", "cooking"],
+			["reisen", "travel", "travels", "travelled", "travelling"],
+			["fragen", "ask", "asks", "asked", "asking"],
+			["antworten", "answer", "answers", "answered", "answering"],
+			["verlieren", "lose", "loses", "lost", "losing", "no-command"],
+			["bekommen", "receive", "receives", "received", "receiving", "no-command"],
+			["bestellen", "order", "orders", "ordered", "ordering"],
+			["folgen", "follow", "follows", "followed", "following"],
+			["fühlen", "feel", "feels", "felt", "feeling", "stative"]
+		]
+	}
+}

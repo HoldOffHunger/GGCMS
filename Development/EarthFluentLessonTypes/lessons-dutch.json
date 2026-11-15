@@ -1,0 +1,998 @@
+{
+	"language": "dutch",
+	"translation_language": "nl",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-dutch.json and the recipes in forms-recipes-dutch.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "hebben", "strategy": ["ending"], "description": "The ending says who is doing it: ik heb, jij hebt, zij heeft, wij hebben. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I have", "foreign": "ik heb", "base": "hebben", "features": {"who": "i", "when": "now"}},
+				{"english": "You have", "foreign": "jij hebt", "mark": ["t"], "base": "hebben", "features": {"who": "you", "when": "now"}},
+				{"english": "She has", "foreign": "zij heeft", "mark": ["t"], "base": "hebben", "features": {"who": "she", "when": "now"}},
+				{"english": "We have", "foreign": "wij hebben", "mark": ["en"], "base": "hebben", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "maken", "strategy": ["ending"], "description": "The ending says who is doing it: ik maak, jij maakt, zij maakt, wij maken. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I make", "foreign": "ik maak", "base": "maken", "features": {"who": "i", "when": "now"}},
+				{"english": "You make", "foreign": "jij maakt", "mark": ["t"], "base": "maken", "features": {"who": "you", "when": "now"}},
+				{"english": "She makes", "foreign": "zij maakt", "mark": ["t"], "base": "maken", "features": {"who": "she", "when": "now"}},
+				{"english": "We make", "foreign": "wij maken", "mark": ["en"], "base": "maken", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "gaan", "strategy": ["ending"], "description": "The ending says who is doing it: ik ga, jij gaat, zij gaat, wij gaan. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go", "foreign": "ik ga", "base": "gaan", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "jij gaat", "mark": ["t"], "base": "gaan", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "zij gaat", "mark": ["t"], "base": "gaan", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "wij gaan", "mark": ["n"], "base": "gaan", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "zeggen", "strategy": ["ending"], "description": "The ending says who is doing it: ik zeg, jij zegt, zij zegt, wij zeggen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I say", "foreign": "ik zeg", "base": "zeggen", "features": {"who": "i", "when": "now"}},
+				{"english": "You say", "foreign": "jij zegt", "mark": ["t"], "base": "zeggen", "features": {"who": "you", "when": "now"}},
+				{"english": "She says", "foreign": "zij zegt", "mark": ["t"], "base": "zeggen", "features": {"who": "she", "when": "now"}},
+				{"english": "We say", "foreign": "wij zeggen", "mark": ["en"], "base": "zeggen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "zien", "strategy": ["ending"], "description": "The ending says who is doing it: ik zie, jij ziet, zij ziet, wij zien. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I see", "foreign": "ik zie", "base": "zien", "features": {"who": "i", "when": "now"}},
+				{"english": "You see", "foreign": "jij ziet", "mark": ["t"], "base": "zien", "features": {"who": "you", "when": "now"}},
+				{"english": "She sees", "foreign": "zij ziet", "mark": ["t"], "base": "zien", "features": {"who": "she", "when": "now"}},
+				{"english": "We see", "foreign": "wij zien", "mark": ["en"], "base": "zien", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "geven", "strategy": ["ending"], "description": "The ending says who is doing it: ik geef, jij geeft, zij geeft, wij geven. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I give", "foreign": "ik geef", "base": "geven", "features": {"who": "i", "when": "now"}},
+				{"english": "You give", "foreign": "jij geeft", "mark": ["t"], "base": "geven", "features": {"who": "you", "when": "now"}},
+				{"english": "She gives", "foreign": "zij geeft", "mark": ["t"], "base": "geven", "features": {"who": "she", "when": "now"}},
+				{"english": "We give", "foreign": "wij geven", "mark": ["en"], "base": "geven", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "weten", "strategy": ["ending"], "description": "The ending says who is doing it: ik weet, jij weet, zij weet, wij weten. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I know", "foreign": "ik weet", "base": "weten", "features": {"who": "i", "when": "now"}},
+				{"english": "You know", "foreign": "jij weet", "mark": ["t"], "base": "weten", "features": {"who": "you", "when": "now"}},
+				{"english": "She knows", "foreign": "zij weet", "mark": ["t"], "base": "weten", "features": {"who": "she", "when": "now"}},
+				{"english": "We know", "foreign": "wij weten", "mark": ["en"], "base": "weten", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "komen", "strategy": ["ending"], "description": "The ending says who is doing it: ik kom, jij komt, zij komt, wij komen. I has no ending at all.", "rows": [
+				{"english": "I come", "foreign": "ik kom", "base": "komen", "features": {"who": "i", "when": "now"}},
+				{"english": "You come", "foreign": "jij komt", "mark": ["t"], "base": "komen", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes", "foreign": "zij komt", "mark": ["t"], "base": "komen", "features": {"who": "she", "when": "now"}},
+				{"english": "We come", "foreign": "wij komen", "mark": ["en"], "base": "komen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "eten", "strategy": ["ending"], "description": "The ending says who is doing it: ik eet, jij eet, zij eet, wij eten. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I eat", "foreign": "ik eet", "base": "eten", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "jij eet", "mark": ["t"], "base": "eten", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "zij eet", "mark": ["t"], "base": "eten", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "wij eten", "mark": ["en"], "base": "eten", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "leven", "strategy": ["ending"], "description": "The ending says who is doing it: ik leef, jij leeft, zij leeft, wij leven. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I live", "foreign": "ik leef", "base": "leven", "features": {"who": "i", "when": "now"}},
+				{"english": "You live", "foreign": "jij leeft", "mark": ["t"], "base": "leven", "features": {"who": "you", "when": "now"}},
+				{"english": "She lives", "foreign": "zij leeft", "mark": ["t"], "base": "leven", "features": {"who": "she", "when": "now"}},
+				{"english": "We live", "foreign": "wij leven", "mark": ["en"], "base": "leven", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "werken", "strategy": ["ending"], "description": "The ending says who is doing it: ik werk, jij werkt, zij werkt, wij werken. I has no ending at all.", "rows": [
+				{"english": "I work", "foreign": "ik werk", "base": "werken", "features": {"who": "i", "when": "now"}},
+				{"english": "You work", "foreign": "jij werkt", "mark": ["t"], "base": "werken", "features": {"who": "you", "when": "now"}},
+				{"english": "She works", "foreign": "zij werkt", "mark": ["t"], "base": "werken", "features": {"who": "she", "when": "now"}},
+				{"english": "We work", "foreign": "wij werken", "mark": ["en"], "base": "werken", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "denken", "strategy": ["ending"], "description": "The ending says who is doing it: ik denk, jij denkt, zij denkt, wij denken. I has no ending at all.", "rows": [
+				{"english": "I think", "foreign": "ik denk", "base": "denken", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "jij denkt", "mark": ["t"], "base": "denken", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "zij denkt", "mark": ["t"], "base": "denken", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "wij denken", "mark": ["en"], "base": "denken", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "nemen", "strategy": ["ending"], "description": "The ending says who is doing it: ik neem, jij neemt, zij neemt, wij nemen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I take", "foreign": "ik neem", "base": "nemen", "features": {"who": "i", "when": "now"}},
+				{"english": "You take", "foreign": "jij neemt", "mark": ["t"], "base": "nemen", "features": {"who": "you", "when": "now"}},
+				{"english": "She takes", "foreign": "zij neemt", "mark": ["t"], "base": "nemen", "features": {"who": "she", "when": "now"}},
+				{"english": "We take", "foreign": "wij nemen", "mark": ["en"], "base": "nemen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "schrijven", "strategy": ["ending"], "description": "The ending says who is doing it: ik schrijf, jij schrijft, zij schrijft, wij schrijven. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I write", "foreign": "ik schrijf", "base": "schrijven", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "jij schrijft", "mark": ["t"], "base": "schrijven", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "zij schrijft", "mark": ["t"], "base": "schrijven", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "wij schrijven", "mark": ["en"], "base": "schrijven", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "kopen", "strategy": ["ending"], "description": "The ending says who is doing it: ik koop, jij koopt, zij koopt, wij kopen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I buy", "foreign": "ik koop", "base": "kopen", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "jij koopt", "mark": ["t"], "base": "kopen", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "zij koopt", "mark": ["t"], "base": "kopen", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "wij kopen", "mark": ["en"], "base": "kopen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "drinken", "strategy": ["ending"], "description": "The ending says who is doing it: ik drink, jij drinkt, zij drinkt, wij drinken. I has no ending at all.", "rows": [
+				{"english": "I drink", "foreign": "ik drink", "base": "drinken", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "jij drinkt", "mark": ["t"], "base": "drinken", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "zij drinkt", "mark": ["t"], "base": "drinken", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "wij drinken", "mark": ["en"], "base": "drinken", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "slapen", "strategy": ["ending"], "description": "The ending says who is doing it: ik slaap, jij slaapt, zij slaapt, wij slapen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "ik slaap", "base": "slapen", "features": {"who": "i", "when": "now"}},
+				{"english": "You sleep", "foreign": "jij slaapt", "mark": ["t"], "base": "slapen", "features": {"who": "you", "when": "now"}},
+				{"english": "She sleeps", "foreign": "zij slaapt", "mark": ["t"], "base": "slapen", "features": {"who": "she", "when": "now"}},
+				{"english": "We sleep", "foreign": "wij slapen", "mark": ["en"], "base": "slapen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "kijken", "strategy": ["ending"], "description": "The ending says who is doing it: ik kijk, jij kijkt, zij kijkt, wij kijken. I has no ending at all.", "rows": [
+				{"english": "I look", "foreign": "ik kijk", "base": "kijken", "features": {"who": "i", "when": "now"}},
+				{"english": "You look", "foreign": "jij kijkt", "mark": ["t"], "base": "kijken", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks", "foreign": "zij kijkt", "mark": ["t"], "base": "kijken", "features": {"who": "she", "when": "now"}},
+				{"english": "We look", "foreign": "wij kijken", "mark": ["en"], "base": "kijken", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "wachten", "strategy": ["ending"], "description": "The ending says who is doing it: ik wacht, jij wacht, zij wacht, wij wachten. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I wait", "foreign": "ik wacht", "base": "wachten", "features": {"who": "i", "when": "now"}},
+				{"english": "You wait", "foreign": "jij wacht", "mark": ["t"], "base": "wachten", "features": {"who": "you", "when": "now"}},
+				{"english": "She waits", "foreign": "zij wacht", "mark": ["t"], "base": "wachten", "features": {"who": "she", "when": "now"}},
+				{"english": "We wait", "foreign": "wij wachten", "mark": ["en"], "base": "wachten", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "zoeken", "strategy": ["ending"], "description": "The ending says who is doing it: ik zoek, jij zoekt, zij zoekt, wij zoeken. I has no ending at all.", "rows": [
+				{"english": "I search", "foreign": "ik zoek", "base": "zoeken", "features": {"who": "i", "when": "now"}},
+				{"english": "You search", "foreign": "jij zoekt", "mark": ["t"], "base": "zoeken", "features": {"who": "you", "when": "now"}},
+				{"english": "She searches", "foreign": "zij zoekt", "mark": ["t"], "base": "zoeken", "features": {"who": "she", "when": "now"}},
+				{"english": "We search", "foreign": "wij zoeken", "mark": ["en"], "base": "zoeken", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "vinden", "strategy": ["ending"], "description": "The ending says who is doing it: ik vind, jij vindt, zij vindt, wij vinden. I has no ending at all.", "rows": [
+				{"english": "I find", "foreign": "ik vind", "base": "vinden", "features": {"who": "i", "when": "now"}},
+				{"english": "You find", "foreign": "jij vindt", "mark": ["t"], "base": "vinden", "features": {"who": "you", "when": "now"}},
+				{"english": "She finds", "foreign": "zij vindt", "mark": ["t"], "base": "vinden", "features": {"who": "she", "when": "now"}},
+				{"english": "We find", "foreign": "wij vinden", "mark": ["en"], "base": "vinden", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "roepen", "strategy": ["ending"], "description": "The ending says who is doing it: ik roep, jij roept, zij roept, wij roepen. I has no ending at all.", "rows": [
+				{"english": "I call", "foreign": "ik roep", "base": "roepen", "features": {"who": "i", "when": "now"}},
+				{"english": "You call", "foreign": "jij roept", "mark": ["t"], "base": "roepen", "features": {"who": "you", "when": "now"}},
+				{"english": "She calls", "foreign": "zij roept", "mark": ["t"], "base": "roepen", "features": {"who": "she", "when": "now"}},
+				{"english": "We call", "foreign": "wij roepen", "mark": ["en"], "base": "roepen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "beginnen", "strategy": ["ending"], "description": "The ending says who is doing it: ik begin, jij begint, zij begint, wij beginnen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I begin", "foreign": "ik begin", "base": "beginnen", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "jij begint", "mark": ["t"], "base": "beginnen", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "zij begint", "mark": ["t"], "base": "beginnen", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "wij beginnen", "mark": ["en"], "base": "beginnen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "eindigen", "strategy": ["ending"], "description": "The ending says who is doing it: ik eindig, jij eindigt, zij eindigt, wij eindigen. I has no ending at all.", "rows": [
+				{"english": "I finish", "foreign": "ik eindig", "base": "eindigen", "features": {"who": "i", "when": "now"}},
+				{"english": "You finish", "foreign": "jij eindigt", "mark": ["t"], "base": "eindigen", "features": {"who": "you", "when": "now"}},
+				{"english": "She finishes", "foreign": "zij eindigt", "mark": ["t"], "base": "eindigen", "features": {"who": "she", "when": "now"}},
+				{"english": "We finish", "foreign": "wij eindigen", "mark": ["en"], "base": "eindigen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "openen", "strategy": ["ending"], "description": "The ending says who is doing it: ik open, jij opent, zij opent, wij openen. I has no ending at all.", "rows": [
+				{"english": "I open", "foreign": "ik open", "base": "openen", "features": {"who": "i", "when": "now"}},
+				{"english": "You open", "foreign": "jij opent", "mark": ["t"], "base": "openen", "features": {"who": "you", "when": "now"}},
+				{"english": "She opens", "foreign": "zij opent", "mark": ["t"], "base": "openen", "features": {"who": "she", "when": "now"}},
+				{"english": "We open", "foreign": "wij openen", "mark": ["en"], "base": "openen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "sluiten", "strategy": ["ending"], "description": "The ending says who is doing it: ik sluit, jij sluit, zij sluit, wij sluiten. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I close", "foreign": "ik sluit", "base": "sluiten", "features": {"who": "i", "when": "now"}},
+				{"english": "You close", "foreign": "jij sluit", "mark": ["t"], "base": "sluiten", "features": {"who": "you", "when": "now"}},
+				{"english": "She closes", "foreign": "zij sluit", "mark": ["t"], "base": "sluiten", "features": {"who": "she", "when": "now"}},
+				{"english": "We close", "foreign": "wij sluiten", "mark": ["en"], "base": "sluiten", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "leren", "strategy": ["ending"], "description": "The ending says who is doing it: ik leer, jij leert, zij leert, wij leren. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I learn", "foreign": "ik leer", "base": "leren", "features": {"who": "i", "when": "now"}},
+				{"english": "You learn", "foreign": "jij leert", "mark": ["t"], "base": "leren", "features": {"who": "you", "when": "now"}},
+				{"english": "She learns", "foreign": "zij leert", "mark": ["t"], "base": "leren", "features": {"who": "she", "when": "now"}},
+				{"english": "We learn", "foreign": "wij leren", "mark": ["en"], "base": "leren", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "studeren", "strategy": ["ending"], "description": "The ending says who is doing it: ik studeer, jij studeert, zij studeert, wij studeren. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I study", "foreign": "ik studeer", "base": "studeren", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "jij studeert", "mark": ["t"], "base": "studeren", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "zij studeert", "mark": ["t"], "base": "studeren", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "wij studeren", "mark": ["en"], "base": "studeren", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "begrijpen", "strategy": ["ending"], "description": "The ending says who is doing it: ik begrijp, jij begrijpt, zij begrijpt, wij begrijpen. I has no ending at all.", "rows": [
+				{"english": "I understand", "foreign": "ik begrijp", "base": "begrijpen", "features": {"who": "i", "when": "now"}},
+				{"english": "You understand", "foreign": "jij begrijpt", "mark": ["t"], "base": "begrijpen", "features": {"who": "you", "when": "now"}},
+				{"english": "She understands", "foreign": "zij begrijpt", "mark": ["t"], "base": "begrijpen", "features": {"who": "she", "when": "now"}},
+				{"english": "We understand", "foreign": "wij begrijpen", "mark": ["en"], "base": "begrijpen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "vergeten", "strategy": ["ending"], "description": "The ending says who is doing it: ik vergeet, jij vergeet, zij vergeet, wij vergeten. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I forget", "foreign": "ik vergeet", "base": "vergeten", "features": {"who": "i", "when": "now"}},
+				{"english": "You forget", "foreign": "jij vergeet", "mark": ["t"], "base": "vergeten", "features": {"who": "you", "when": "now"}},
+				{"english": "She forgets", "foreign": "zij vergeet", "mark": ["t"], "base": "vergeten", "features": {"who": "she", "when": "now"}},
+				{"english": "We forget", "foreign": "wij vergeten", "mark": ["en"], "base": "vergeten", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "rennen", "strategy": ["ending"], "description": "The ending says who is doing it: ik ren, jij rent, zij rent, wij rennen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I run", "foreign": "ik ren", "base": "rennen", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "jij rent", "mark": ["t"], "base": "rennen", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "zij rent", "mark": ["t"], "base": "rennen", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "wij rennen", "mark": ["en"], "base": "rennen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "lopen", "strategy": ["ending"], "description": "The ending says who is doing it: ik loop, jij loopt, zij loopt, wij lopen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I walk", "foreign": "ik loop", "base": "lopen", "features": {"who": "i", "when": "now"}},
+				{"english": "You walk", "foreign": "jij loopt", "mark": ["t"], "base": "lopen", "features": {"who": "you", "when": "now"}},
+				{"english": "She walks", "foreign": "zij loopt", "mark": ["t"], "base": "lopen", "features": {"who": "she", "when": "now"}},
+				{"english": "We walk", "foreign": "wij lopen", "mark": ["en"], "base": "lopen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "zingen", "strategy": ["ending"], "description": "The ending says who is doing it: ik zing, jij zingt, zij zingt, wij zingen. I has no ending at all.", "rows": [
+				{"english": "I sing", "foreign": "ik zing", "base": "zingen", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "jij zingt", "mark": ["t"], "base": "zingen", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "zij zingt", "mark": ["t"], "base": "zingen", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "wij zingen", "mark": ["en"], "base": "zingen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "spelen", "strategy": ["ending"], "description": "The ending says who is doing it: ik speel, jij speelt, zij speelt, wij spelen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I play", "foreign": "ik speel", "base": "spelen", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "jij speelt", "mark": ["t"], "base": "spelen", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "zij speelt", "mark": ["t"], "base": "spelen", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "wij spelen", "mark": ["en"], "base": "spelen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "betalen", "strategy": ["ending"], "description": "The ending says who is doing it: ik betaal, jij betaalt, zij betaalt, wij betalen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I pay", "foreign": "ik betaal", "base": "betalen", "features": {"who": "i", "when": "now"}},
+				{"english": "You pay", "foreign": "jij betaalt", "mark": ["t"], "base": "betalen", "features": {"who": "you", "when": "now"}},
+				{"english": "She pays", "foreign": "zij betaalt", "mark": ["t"], "base": "betalen", "features": {"who": "she", "when": "now"}},
+				{"english": "We pay", "foreign": "wij betalen", "mark": ["en"], "base": "betalen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "verkopen", "strategy": ["ending"], "description": "The ending says who is doing it: ik verkoop, jij verkoopt, zij verkoopt, wij verkopen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sell", "foreign": "ik verkoop", "base": "verkopen", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "jij verkoopt", "mark": ["t"], "base": "verkopen", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "zij verkoopt", "mark": ["t"], "base": "verkopen", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "wij verkopen", "mark": ["en"], "base": "verkopen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "helpen", "strategy": ["ending"], "description": "The ending says who is doing it: ik help, jij helpt, zij helpt, wij helpen. I has no ending at all.", "rows": [
+				{"english": "I help", "foreign": "ik help", "base": "helpen", "features": {"who": "i", "when": "now"}},
+				{"english": "You help", "foreign": "jij helpt", "mark": ["t"], "base": "helpen", "features": {"who": "you", "when": "now"}},
+				{"english": "She helps", "foreign": "zij helpt", "mark": ["t"], "base": "helpen", "features": {"who": "she", "when": "now"}},
+				{"english": "We help", "foreign": "wij helpen", "mark": ["en"], "base": "helpen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "koken", "strategy": ["ending"], "description": "The ending says who is doing it: ik kook, jij kookt, zij kookt, wij koken. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I cook", "foreign": "ik kook", "base": "koken", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "jij kookt", "mark": ["t"], "base": "koken", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "zij kookt", "mark": ["t"], "base": "koken", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "wij koken", "mark": ["en"], "base": "koken", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "reizen", "strategy": ["ending"], "description": "The ending says who is doing it: ik reis, jij reist, zij reist, wij reizen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I travel", "foreign": "ik reis", "base": "reizen", "features": {"who": "i", "when": "now"}},
+				{"english": "You travel", "foreign": "jij reist", "mark": ["t"], "base": "reizen", "features": {"who": "you", "when": "now"}},
+				{"english": "She travels", "foreign": "zij reist", "mark": ["t"], "base": "reizen", "features": {"who": "she", "when": "now"}},
+				{"english": "We travel", "foreign": "wij reizen", "mark": ["en"], "base": "reizen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "vragen", "strategy": ["ending"], "description": "The ending says who is doing it: ik vraag, jij vraagt, zij vraagt, wij vragen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I ask", "foreign": "ik vraag", "base": "vragen", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "jij vraagt", "mark": ["t"], "base": "vragen", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "zij vraagt", "mark": ["t"], "base": "vragen", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "wij vragen", "mark": ["en"], "base": "vragen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "antwoorden", "strategy": ["ending"], "description": "The ending says who is doing it: ik antwoord, jij antwoordt, zij antwoordt, wij antwoorden. I has no ending at all.", "rows": [
+				{"english": "I answer", "foreign": "ik antwoord", "base": "antwoorden", "features": {"who": "i", "when": "now"}},
+				{"english": "You answer", "foreign": "jij antwoordt", "mark": ["t"], "base": "antwoorden", "features": {"who": "you", "when": "now"}},
+				{"english": "She answers", "foreign": "zij antwoordt", "mark": ["t"], "base": "antwoorden", "features": {"who": "she", "when": "now"}},
+				{"english": "We answer", "foreign": "wij antwoorden", "mark": ["en"], "base": "antwoorden", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "verliezen", "strategy": ["ending"], "description": "The ending says who is doing it: ik verlies, jij verliest, zij verliest, wij verliezen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I lose", "foreign": "ik verlies", "base": "verliezen", "features": {"who": "i", "when": "now"}},
+				{"english": "You lose", "foreign": "jij verliest", "mark": ["t"], "base": "verliezen", "features": {"who": "you", "when": "now"}},
+				{"english": "She loses", "foreign": "zij verliest", "mark": ["t"], "base": "verliezen", "features": {"who": "she", "when": "now"}},
+				{"english": "We lose", "foreign": "wij verliezen", "mark": ["en"], "base": "verliezen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "ontvangen", "strategy": ["ending"], "description": "The ending says who is doing it: ik ontvang, jij ontvangt, zij ontvangt, wij ontvangen. I has no ending at all.", "rows": [
+				{"english": "I receive", "foreign": "ik ontvang", "base": "ontvangen", "features": {"who": "i", "when": "now"}},
+				{"english": "You receive", "foreign": "jij ontvangt", "mark": ["t"], "base": "ontvangen", "features": {"who": "you", "when": "now"}},
+				{"english": "She receives", "foreign": "zij ontvangt", "mark": ["t"], "base": "ontvangen", "features": {"who": "she", "when": "now"}},
+				{"english": "We receive", "foreign": "wij ontvangen", "mark": ["en"], "base": "ontvangen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 45, "verb": "bestellen", "strategy": ["ending"], "description": "The ending says who is doing it: ik bestel, jij bestelt, zij bestelt, wij bestellen. I has no ending at all. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I order", "foreign": "ik bestel", "base": "bestellen", "features": {"who": "i", "when": "now"}},
+				{"english": "You order", "foreign": "jij bestelt", "mark": ["t"], "base": "bestellen", "features": {"who": "you", "when": "now"}},
+				{"english": "She orders", "foreign": "zij bestelt", "mark": ["t"], "base": "bestellen", "features": {"who": "she", "when": "now"}},
+				{"english": "We order", "foreign": "wij bestellen", "mark": ["en"], "base": "bestellen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 46, "verb": "volgen", "strategy": ["ending"], "description": "The ending says who is doing it: ik volg, jij volgt, zij volgt, wij volgen. I has no ending at all.", "rows": [
+				{"english": "I follow", "foreign": "ik volg", "base": "volgen", "features": {"who": "i", "when": "now"}},
+				{"english": "You follow", "foreign": "jij volgt", "mark": ["t"], "base": "volgen", "features": {"who": "you", "when": "now"}},
+				{"english": "She follows", "foreign": "zij volgt", "mark": ["t"], "base": "volgen", "features": {"who": "she", "when": "now"}},
+				{"english": "We follow", "foreign": "wij volgen", "mark": ["en"], "base": "volgen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 47, "verb": "voelen", "strategy": ["ending"], "description": "The ending says who is doing it: ik voel, jij voelt, zij voelt, wij voelen. I has no ending at all.", "rows": [
+				{"english": "I feel", "foreign": "ik voel", "base": "voelen", "features": {"who": "i", "when": "now"}},
+				{"english": "You feel", "foreign": "jij voelt", "mark": ["t"], "base": "voelen", "features": {"who": "you", "when": "now"}},
+				{"english": "She feels", "foreign": "zij voelt", "mark": ["t"], "base": "voelen", "features": {"who": "she", "when": "now"}},
+				{"english": "We feel", "foreign": "wij voelen", "mark": ["en"], "base": "voelen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "hebben", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gehad. For later, a form of zullen goes in front: ik zal hebben.", "rows": [
+				{"english": "I have", "foreign": "ik heb", "base": "hebben", "features": {"who": "i", "when": "now"}},
+				{"english": "I had", "foreign": "ik heb gehad", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gehad", "role": "ending"}], "from": 1, "base": "hebben", "features": {"who": "i", "when": "before"}},
+				{"english": "I will have", "foreign": "ik zal hebben", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "hebben", "features": {"who": "i", "when": "later"}},
+				{"english": "She had", "foreign": "zij heeft gehad", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gehad", "role": "ending"}], "base": "hebben", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "maken", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gemaakt. For later, a form of zullen goes in front: ik zal maken.", "rows": [
+				{"english": "I make", "foreign": "ik maak", "base": "maken", "features": {"who": "i", "when": "now"}},
+				{"english": "I made", "foreign": "ik heb gemaakt", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gemaakt", "role": "ending"}], "from": 1, "base": "maken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "ik zal maken", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "maken", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "zij heeft gemaakt", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gemaakt", "role": "ending"}], "base": "maken", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "gaan", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik ben gegaan. For later, a form of zullen goes in front: ik zal gaan.", "rows": [
+				{"english": "I go", "foreign": "ik ga", "base": "gaan", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "ik ben gegaan", "mark": [{"text": "ben", "role": "helper word"}, {"text": "gegaan", "role": "ending"}], "from": 1, "base": "gaan", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "ik zal gaan", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "gaan", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "zij is gegaan", "mark": [{"text": "is", "role": "helper word"}, {"text": "gegaan", "role": "ending"}], "base": "gaan", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "zeggen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gezegd. For later, a form of zullen goes in front: ik zal zeggen.", "rows": [
+				{"english": "I say", "foreign": "ik zeg", "base": "zeggen", "features": {"who": "i", "when": "now"}},
+				{"english": "I said", "foreign": "ik heb gezegd", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gezegd", "role": "ending"}], "from": 1, "base": "zeggen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will say", "foreign": "ik zal zeggen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "zeggen", "features": {"who": "i", "when": "later"}},
+				{"english": "She said", "foreign": "zij heeft gezegd", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gezegd", "role": "ending"}], "base": "zeggen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "zien", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gezien. For later, a form of zullen goes in front: ik zal zien.", "rows": [
+				{"english": "I see", "foreign": "ik zie", "base": "zien", "features": {"who": "i", "when": "now"}},
+				{"english": "I saw", "foreign": "ik heb gezien", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gezien", "role": "ending"}], "from": 1, "base": "zien", "features": {"who": "i", "when": "before"}},
+				{"english": "I will see", "foreign": "ik zal zien", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "zien", "features": {"who": "i", "when": "later"}},
+				{"english": "She saw", "foreign": "zij heeft gezien", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gezien", "role": "ending"}], "base": "zien", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "geven", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gegeven. For later, a form of zullen goes in front: ik zal geven.", "rows": [
+				{"english": "I give", "foreign": "ik geef", "base": "geven", "features": {"who": "i", "when": "now"}},
+				{"english": "I gave", "foreign": "ik heb gegeven", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gegeven", "role": "ending"}], "from": 1, "base": "geven", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "ik zal geven", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "geven", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "zij heeft gegeven", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gegeven", "role": "ending"}], "base": "geven", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "weten", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geweten. For later, a form of zullen goes in front: ik zal weten.", "rows": [
+				{"english": "I know", "foreign": "ik weet", "base": "weten", "features": {"who": "i", "when": "now"}},
+				{"english": "I knew", "foreign": "ik heb geweten", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geweten", "role": "ending"}], "from": 1, "base": "weten", "features": {"who": "i", "when": "before"}},
+				{"english": "I will know", "foreign": "ik zal weten", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "weten", "features": {"who": "i", "when": "later"}},
+				{"english": "She knew", "foreign": "zij heeft geweten", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geweten", "role": "ending"}], "base": "weten", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "komen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik ben gekomen. For later, a form of zullen goes in front: ik zal komen.", "rows": [
+				{"english": "I come", "foreign": "ik kom", "base": "komen", "features": {"who": "i", "when": "now"}},
+				{"english": "I came", "foreign": "ik ben gekomen", "mark": [{"text": "ben", "role": "helper word"}, {"text": "gekomen", "role": "ending"}], "from": 1, "base": "komen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come", "foreign": "ik zal komen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "komen", "features": {"who": "i", "when": "later"}},
+				{"english": "She came", "foreign": "zij is gekomen", "mark": [{"text": "is", "role": "helper word"}, {"text": "gekomen", "role": "ending"}], "base": "komen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "eten", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gegeten. For later, a form of zullen goes in front: ik zal eten.", "rows": [
+				{"english": "I eat", "foreign": "ik eet", "base": "eten", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "ik heb gegeten", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gegeten", "role": "ending"}], "from": 1, "base": "eten", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "ik zal eten", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "eten", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "zij heeft gegeten", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gegeten", "role": "ending"}], "base": "eten", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "leven", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geleefd. For later, a form of zullen goes in front: ik zal leven.", "rows": [
+				{"english": "I live", "foreign": "ik leef", "base": "leven", "features": {"who": "i", "when": "now"}},
+				{"english": "I lived", "foreign": "ik heb geleefd", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geleefd", "role": "ending"}], "from": 1, "base": "leven", "features": {"who": "i", "when": "before"}},
+				{"english": "I will live", "foreign": "ik zal leven", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "leven", "features": {"who": "i", "when": "later"}},
+				{"english": "She lived", "foreign": "zij heeft geleefd", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geleefd", "role": "ending"}], "base": "leven", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "werken", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gewerkt. For later, a form of zullen goes in front: ik zal werken.", "rows": [
+				{"english": "I work", "foreign": "ik werk", "base": "werken", "features": {"who": "i", "when": "now"}},
+				{"english": "I worked", "foreign": "ik heb gewerkt", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gewerkt", "role": "ending"}], "from": 1, "base": "werken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will work", "foreign": "ik zal werken", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "werken", "features": {"who": "i", "when": "later"}},
+				{"english": "She worked", "foreign": "zij heeft gewerkt", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gewerkt", "role": "ending"}], "base": "werken", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "denken", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gedacht. For later, a form of zullen goes in front: ik zal denken.", "rows": [
+				{"english": "I think", "foreign": "ik denk", "base": "denken", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "ik heb gedacht", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gedacht", "role": "ending"}], "from": 1, "base": "denken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "ik zal denken", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "denken", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "zij heeft gedacht", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gedacht", "role": "ending"}], "base": "denken", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "nemen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb genomen. For later, a form of zullen goes in front: ik zal nemen.", "rows": [
+				{"english": "I take", "foreign": "ik neem", "base": "nemen", "features": {"who": "i", "when": "now"}},
+				{"english": "I took", "foreign": "ik heb genomen", "mark": [{"text": "heb", "role": "helper word"}, {"text": "genomen", "role": "ending"}], "from": 1, "base": "nemen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "ik zal nemen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "nemen", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "zij heeft genomen", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "genomen", "role": "ending"}], "base": "nemen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "schrijven", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geschreven. For later, a form of zullen goes in front: ik zal schrijven.", "rows": [
+				{"english": "I write", "foreign": "ik schrijf", "base": "schrijven", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "ik heb geschreven", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geschreven", "role": "ending"}], "from": 1, "base": "schrijven", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "ik zal schrijven", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "schrijven", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "zij heeft geschreven", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geschreven", "role": "ending"}], "base": "schrijven", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "kopen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gekocht. For later, a form of zullen goes in front: ik zal kopen.", "rows": [
+				{"english": "I buy", "foreign": "ik koop", "base": "kopen", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "ik heb gekocht", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gekocht", "role": "ending"}], "from": 1, "base": "kopen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "ik zal kopen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "kopen", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "zij heeft gekocht", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gekocht", "role": "ending"}], "base": "kopen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "drinken", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gedronken. For later, a form of zullen goes in front: ik zal drinken.", "rows": [
+				{"english": "I drink", "foreign": "ik drink", "base": "drinken", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "ik heb gedronken", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gedronken", "role": "ending"}], "from": 1, "base": "drinken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "ik zal drinken", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "drinken", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "zij heeft gedronken", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gedronken", "role": "ending"}], "base": "drinken", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "slapen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geslapen. For later, a form of zullen goes in front: ik zal slapen.", "rows": [
+				{"english": "I sleep", "foreign": "ik slaap", "base": "slapen", "features": {"who": "i", "when": "now"}},
+				{"english": "I slept", "foreign": "ik heb geslapen", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geslapen", "role": "ending"}], "from": 1, "base": "slapen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sleep", "foreign": "ik zal slapen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "slapen", "features": {"who": "i", "when": "later"}},
+				{"english": "She slept", "foreign": "zij heeft geslapen", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geslapen", "role": "ending"}], "base": "slapen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "kijken", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gekeken. For later, a form of zullen goes in front: ik zal kijken.", "rows": [
+				{"english": "I look", "foreign": "ik kijk", "base": "kijken", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked", "foreign": "ik heb gekeken", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gekeken", "role": "ending"}], "from": 1, "base": "kijken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look", "foreign": "ik zal kijken", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "kijken", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked", "foreign": "zij heeft gekeken", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gekeken", "role": "ending"}], "base": "kijken", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "wachten", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gewacht. For later, a form of zullen goes in front: ik zal wachten.", "rows": [
+				{"english": "I wait", "foreign": "ik wacht", "base": "wachten", "features": {"who": "i", "when": "now"}},
+				{"english": "I waited", "foreign": "ik heb gewacht", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gewacht", "role": "ending"}], "from": 1, "base": "wachten", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "ik zal wachten", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "wachten", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "zij heeft gewacht", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gewacht", "role": "ending"}], "base": "wachten", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "zoeken", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gezocht. For later, a form of zullen goes in front: ik zal zoeken.", "rows": [
+				{"english": "I search", "foreign": "ik zoek", "base": "zoeken", "features": {"who": "i", "when": "now"}},
+				{"english": "I searched", "foreign": "ik heb gezocht", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gezocht", "role": "ending"}], "from": 1, "base": "zoeken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will search", "foreign": "ik zal zoeken", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "zoeken", "features": {"who": "i", "when": "later"}},
+				{"english": "She searched", "foreign": "zij heeft gezocht", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gezocht", "role": "ending"}], "base": "zoeken", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "vinden", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gevonden. For later, a form of zullen goes in front: ik zal vinden.", "rows": [
+				{"english": "I find", "foreign": "ik vind", "base": "vinden", "features": {"who": "i", "when": "now"}},
+				{"english": "I found", "foreign": "ik heb gevonden", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gevonden", "role": "ending"}], "from": 1, "base": "vinden", "features": {"who": "i", "when": "before"}},
+				{"english": "I will find", "foreign": "ik zal vinden", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "vinden", "features": {"who": "i", "when": "later"}},
+				{"english": "She found", "foreign": "zij heeft gevonden", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gevonden", "role": "ending"}], "base": "vinden", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "roepen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geroepen. For later, a form of zullen goes in front: ik zal roepen.", "rows": [
+				{"english": "I call", "foreign": "ik roep", "base": "roepen", "features": {"who": "i", "when": "now"}},
+				{"english": "I called", "foreign": "ik heb geroepen", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geroepen", "role": "ending"}], "from": 1, "base": "roepen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "ik zal roepen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "roepen", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "zij heeft geroepen", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geroepen", "role": "ending"}], "base": "roepen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "beginnen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik ben begonnen. For later, a form of zullen goes in front: ik zal beginnen.", "rows": [
+				{"english": "I begin", "foreign": "ik begin", "base": "beginnen", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "ik ben begonnen", "mark": [{"text": "ben", "role": "helper word"}, {"text": "begonnen", "role": "ending"}], "from": 1, "base": "beginnen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "ik zal beginnen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "beginnen", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "zij is begonnen", "mark": [{"text": "is", "role": "helper word"}, {"text": "begonnen", "role": "ending"}], "base": "beginnen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "eindigen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geëindigd. For later, a form of zullen goes in front: ik zal eindigen.", "rows": [
+				{"english": "I finish", "foreign": "ik eindig", "base": "eindigen", "features": {"who": "i", "when": "now"}},
+				{"english": "I finished", "foreign": "ik heb geëindigd", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geëindigd", "role": "ending"}], "from": 1, "base": "eindigen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "ik zal eindigen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "eindigen", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "zij heeft geëindigd", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geëindigd", "role": "ending"}], "base": "eindigen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "openen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geopend. For later, a form of zullen goes in front: ik zal openen.", "rows": [
+				{"english": "I open", "foreign": "ik open", "base": "openen", "features": {"who": "i", "when": "now"}},
+				{"english": "I opened", "foreign": "ik heb geopend", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geopend", "role": "ending"}], "from": 1, "base": "openen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "ik zal openen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "openen", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "zij heeft geopend", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geopend", "role": "ending"}], "base": "openen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "sluiten", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gesloten. For later, a form of zullen goes in front: ik zal sluiten.", "rows": [
+				{"english": "I close", "foreign": "ik sluit", "base": "sluiten", "features": {"who": "i", "when": "now"}},
+				{"english": "I closed", "foreign": "ik heb gesloten", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gesloten", "role": "ending"}], "from": 1, "base": "sluiten", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "ik zal sluiten", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "sluiten", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "zij heeft gesloten", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gesloten", "role": "ending"}], "base": "sluiten", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "leren", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geleerd. For later, a form of zullen goes in front: ik zal leren.", "rows": [
+				{"english": "I learn", "foreign": "ik leer", "base": "leren", "features": {"who": "i", "when": "now"}},
+				{"english": "I learned", "foreign": "ik heb geleerd", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geleerd", "role": "ending"}], "from": 1, "base": "leren", "features": {"who": "i", "when": "before"}},
+				{"english": "I will learn", "foreign": "ik zal leren", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "leren", "features": {"who": "i", "when": "later"}},
+				{"english": "She learned", "foreign": "zij heeft geleerd", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geleerd", "role": "ending"}], "base": "leren", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "studeren", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gestudeerd. For later, a form of zullen goes in front: ik zal studeren.", "rows": [
+				{"english": "I study", "foreign": "ik studeer", "base": "studeren", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "ik heb gestudeerd", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gestudeerd", "role": "ending"}], "from": 1, "base": "studeren", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "ik zal studeren", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "studeren", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "zij heeft gestudeerd", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gestudeerd", "role": "ending"}], "base": "studeren", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "begrijpen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb begrepen. For later, a form of zullen goes in front: ik zal begrijpen.", "rows": [
+				{"english": "I understand", "foreign": "ik begrijp", "base": "begrijpen", "features": {"who": "i", "when": "now"}},
+				{"english": "I understood", "foreign": "ik heb begrepen", "mark": [{"text": "heb", "role": "helper word"}, {"text": "begrepen", "role": "ending"}], "from": 1, "base": "begrijpen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will understand", "foreign": "ik zal begrijpen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "begrijpen", "features": {"who": "i", "when": "later"}},
+				{"english": "She understood", "foreign": "zij heeft begrepen", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "begrepen", "role": "ending"}], "base": "begrijpen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "vergeten", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik ben vergeten. For later, a form of zullen goes in front: ik zal vergeten.", "rows": [
+				{"english": "I forget", "foreign": "ik vergeet", "base": "vergeten", "features": {"who": "i", "when": "now"}},
+				{"english": "I forgot", "foreign": "ik ben vergeten", "mark": [{"text": "ben", "role": "helper word"}, {"text": "vergeten", "role": "ending"}], "from": 1, "base": "vergeten", "features": {"who": "i", "when": "before"}},
+				{"english": "I will forget", "foreign": "ik zal vergeten", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "vergeten", "features": {"who": "i", "when": "later"}},
+				{"english": "She forgot", "foreign": "zij is vergeten", "mark": [{"text": "is", "role": "helper word"}, {"text": "vergeten", "role": "ending"}], "base": "vergeten", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "rennen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gerend. For later, a form of zullen goes in front: ik zal rennen.", "rows": [
+				{"english": "I run", "foreign": "ik ren", "base": "rennen", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "ik heb gerend", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gerend", "role": "ending"}], "from": 1, "base": "rennen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "ik zal rennen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "rennen", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "zij heeft gerend", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gerend", "role": "ending"}], "base": "rennen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "lopen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gelopen. For later, a form of zullen goes in front: ik zal lopen.", "rows": [
+				{"english": "I walk", "foreign": "ik loop", "base": "lopen", "features": {"who": "i", "when": "now"}},
+				{"english": "I walked", "foreign": "ik heb gelopen", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gelopen", "role": "ending"}], "from": 1, "base": "lopen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will walk", "foreign": "ik zal lopen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "lopen", "features": {"who": "i", "when": "later"}},
+				{"english": "She walked", "foreign": "zij heeft gelopen", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gelopen", "role": "ending"}], "base": "lopen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "zingen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gezongen. For later, a form of zullen goes in front: ik zal zingen.", "rows": [
+				{"english": "I sing", "foreign": "ik zing", "base": "zingen", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "ik heb gezongen", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gezongen", "role": "ending"}], "from": 1, "base": "zingen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "ik zal zingen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "zingen", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "zij heeft gezongen", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gezongen", "role": "ending"}], "base": "zingen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "spelen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gespeeld. For later, a form of zullen goes in front: ik zal spelen.", "rows": [
+				{"english": "I play", "foreign": "ik speel", "base": "spelen", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "ik heb gespeeld", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gespeeld", "role": "ending"}], "from": 1, "base": "spelen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "ik zal spelen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "spelen", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "zij heeft gespeeld", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gespeeld", "role": "ending"}], "base": "spelen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "betalen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb betaald. For later, a form of zullen goes in front: ik zal betalen.", "rows": [
+				{"english": "I pay", "foreign": "ik betaal", "base": "betalen", "features": {"who": "i", "when": "now"}},
+				{"english": "I paid", "foreign": "ik heb betaald", "mark": [{"text": "heb", "role": "helper word"}, {"text": "betaald", "role": "ending"}], "from": 1, "base": "betalen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "ik zal betalen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "betalen", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "zij heeft betaald", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "betaald", "role": "ending"}], "base": "betalen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "verkopen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb verkocht. For later, a form of zullen goes in front: ik zal verkopen.", "rows": [
+				{"english": "I sell", "foreign": "ik verkoop", "base": "verkopen", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "ik heb verkocht", "mark": [{"text": "heb", "role": "helper word"}, {"text": "verkocht", "role": "ending"}], "from": 1, "base": "verkopen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "ik zal verkopen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "verkopen", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "zij heeft verkocht", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "verkocht", "role": "ending"}], "base": "verkopen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "helpen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geholpen. For later, a form of zullen goes in front: ik zal helpen.", "rows": [
+				{"english": "I help", "foreign": "ik help", "base": "helpen", "features": {"who": "i", "when": "now"}},
+				{"english": "I helped", "foreign": "ik heb geholpen", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geholpen", "role": "ending"}], "from": 1, "base": "helpen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "ik zal helpen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "helpen", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "zij heeft geholpen", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geholpen", "role": "ending"}], "base": "helpen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "koken", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gekookt. For later, a form of zullen goes in front: ik zal koken.", "rows": [
+				{"english": "I cook", "foreign": "ik kook", "base": "koken", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "ik heb gekookt", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gekookt", "role": "ending"}], "from": 1, "base": "koken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "ik zal koken", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "koken", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "zij heeft gekookt", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gekookt", "role": "ending"}], "base": "koken", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "reizen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gereisd. For later, a form of zullen goes in front: ik zal reizen.", "rows": [
+				{"english": "I travel", "foreign": "ik reis", "base": "reizen", "features": {"who": "i", "when": "now"}},
+				{"english": "I travelled", "foreign": "ik heb gereisd", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gereisd", "role": "ending"}], "from": 1, "base": "reizen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will travel", "foreign": "ik zal reizen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "reizen", "features": {"who": "i", "when": "later"}},
+				{"english": "She travelled", "foreign": "zij heeft gereisd", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gereisd", "role": "ending"}], "base": "reizen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "vragen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gevraagd. For later, a form of zullen goes in front: ik zal vragen.", "rows": [
+				{"english": "I ask", "foreign": "ik vraag", "base": "vragen", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "ik heb gevraagd", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gevraagd", "role": "ending"}], "from": 1, "base": "vragen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "ik zal vragen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "vragen", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "zij heeft gevraagd", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gevraagd", "role": "ending"}], "base": "vragen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "antwoorden", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb geantwoord. For later, a form of zullen goes in front: ik zal antwoorden.", "rows": [
+				{"english": "I answer", "foreign": "ik antwoord", "base": "antwoorden", "features": {"who": "i", "when": "now"}},
+				{"english": "I answered", "foreign": "ik heb geantwoord", "mark": [{"text": "heb", "role": "helper word"}, {"text": "geantwoord", "role": "ending"}], "from": 1, "base": "antwoorden", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "ik zal antwoorden", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "antwoorden", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "zij heeft geantwoord", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "geantwoord", "role": "ending"}], "base": "antwoorden", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "verliezen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb verloren. For later, a form of zullen goes in front: ik zal verliezen.", "rows": [
+				{"english": "I lose", "foreign": "ik verlies", "base": "verliezen", "features": {"who": "i", "when": "now"}},
+				{"english": "I lost", "foreign": "ik heb verloren", "mark": [{"text": "heb", "role": "helper word"}, {"text": "verloren", "role": "ending"}], "from": 1, "base": "verliezen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will lose", "foreign": "ik zal verliezen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "verliezen", "features": {"who": "i", "when": "later"}},
+				{"english": "She lost", "foreign": "zij heeft verloren", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "verloren", "role": "ending"}], "base": "verliezen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "ontvangen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb ontvangen. For later, a form of zullen goes in front: ik zal ontvangen.", "rows": [
+				{"english": "I receive", "foreign": "ik ontvang", "base": "ontvangen", "features": {"who": "i", "when": "now"}},
+				{"english": "I received", "foreign": "ik heb ontvangen", "mark": [{"text": "heb", "role": "helper word"}, {"text": "ontvangen", "role": "ending"}], "from": 1, "base": "ontvangen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will receive", "foreign": "ik zal ontvangen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "ontvangen", "features": {"who": "i", "when": "later"}},
+				{"english": "She received", "foreign": "zij heeft ontvangen", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "ontvangen", "role": "ending"}], "base": "ontvangen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 45, "verb": "bestellen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb besteld. For later, a form of zullen goes in front: ik zal bestellen.", "rows": [
+				{"english": "I order", "foreign": "ik bestel", "base": "bestellen", "features": {"who": "i", "when": "now"}},
+				{"english": "I ordered", "foreign": "ik heb besteld", "mark": [{"text": "heb", "role": "helper word"}, {"text": "besteld", "role": "ending"}], "from": 1, "base": "bestellen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "ik zal bestellen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "bestellen", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "zij heeft besteld", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "besteld", "role": "ending"}], "base": "bestellen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 46, "verb": "volgen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gevolgd. For later, a form of zullen goes in front: ik zal volgen.", "rows": [
+				{"english": "I follow", "foreign": "ik volg", "base": "volgen", "features": {"who": "i", "when": "now"}},
+				{"english": "I followed", "foreign": "ik heb gevolgd", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gevolgd", "role": "ending"}], "from": 1, "base": "volgen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will follow", "foreign": "ik zal volgen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "volgen", "features": {"who": "i", "when": "later"}},
+				{"english": "She followed", "foreign": "zij heeft gevolgd", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gevolgd", "role": "ending"}], "base": "volgen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 47, "verb": "voelen", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gevoeld. For later, a form of zullen goes in front: ik zal voelen.", "rows": [
+				{"english": "I feel", "foreign": "ik voel", "base": "voelen", "features": {"who": "i", "when": "now"}},
+				{"english": "I felt", "foreign": "ik heb gevoeld", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gevoeld", "role": "ending"}], "from": 1, "base": "voelen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will feel", "foreign": "ik zal voelen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "voelen", "features": {"who": "i", "when": "later"}},
+				{"english": "She felt", "foreign": "zij heeft gevoeld", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gevoeld", "role": "ending"}], "base": "voelen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "going", "part": 2, "verb": "maken", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het maken.", "rows": [
+				{"english": "I make", "foreign": "ik maak", "base": "maken", "features": {"who": "i", "when": "now"}},
+				{"english": "I am making", "foreign": "ik ben aan het maken", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "maken", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She makes", "foreign": "zij maakt", "base": "maken", "features": {"who": "she", "when": "now"}},
+				{"english": "She is making", "foreign": "zij is aan het maken", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "maken", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 4, "verb": "zeggen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het zeggen.", "rows": [
+				{"english": "I say", "foreign": "ik zeg", "base": "zeggen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am saying", "foreign": "ik ben aan het zeggen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "zeggen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She says", "foreign": "zij zegt", "base": "zeggen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is saying", "foreign": "zij is aan het zeggen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "zeggen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 5, "verb": "geven", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het geven.", "rows": [
+				{"english": "I give", "foreign": "ik geef", "base": "geven", "features": {"who": "i", "when": "now"}},
+				{"english": "I am giving", "foreign": "ik ben aan het geven", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "geven", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She gives", "foreign": "zij geeft", "base": "geven", "features": {"who": "she", "when": "now"}},
+				{"english": "She is giving", "foreign": "zij is aan het geven", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "geven", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 7, "verb": "eten", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het eten.", "rows": [
+				{"english": "I eat", "foreign": "ik eet", "base": "eten", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "ik ben aan het eten", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "eten", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She eats", "foreign": "zij eet", "base": "eten", "features": {"who": "she", "when": "now"}},
+				{"english": "She is eating", "foreign": "zij is aan het eten", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "eten", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 8, "verb": "leven", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het leven.", "rows": [
+				{"english": "I live", "foreign": "ik leef", "base": "leven", "features": {"who": "i", "when": "now"}},
+				{"english": "I am living", "foreign": "ik ben aan het leven", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "leven", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She lives", "foreign": "zij leeft", "base": "leven", "features": {"who": "she", "when": "now"}},
+				{"english": "She is living", "foreign": "zij is aan het leven", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "leven", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 9, "verb": "werken", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het werken.", "rows": [
+				{"english": "I work", "foreign": "ik werk", "base": "werken", "features": {"who": "i", "when": "now"}},
+				{"english": "I am working", "foreign": "ik ben aan het werken", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "werken", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She works", "foreign": "zij werkt", "base": "werken", "features": {"who": "she", "when": "now"}},
+				{"english": "She is working", "foreign": "zij is aan het werken", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "werken", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 10, "verb": "denken", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het denken.", "rows": [
+				{"english": "I think", "foreign": "ik denk", "base": "denken", "features": {"who": "i", "when": "now"}},
+				{"english": "I am thinking", "foreign": "ik ben aan het denken", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "denken", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She thinks", "foreign": "zij denkt", "base": "denken", "features": {"who": "she", "when": "now"}},
+				{"english": "She is thinking", "foreign": "zij is aan het denken", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "denken", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 11, "verb": "nemen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het nemen.", "rows": [
+				{"english": "I take", "foreign": "ik neem", "base": "nemen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am taking", "foreign": "ik ben aan het nemen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "nemen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She takes", "foreign": "zij neemt", "base": "nemen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is taking", "foreign": "zij is aan het nemen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "nemen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 12, "verb": "schrijven", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het schrijven.", "rows": [
+				{"english": "I write", "foreign": "ik schrijf", "base": "schrijven", "features": {"who": "i", "when": "now"}},
+				{"english": "I am writing", "foreign": "ik ben aan het schrijven", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "schrijven", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She writes", "foreign": "zij schrijft", "base": "schrijven", "features": {"who": "she", "when": "now"}},
+				{"english": "She is writing", "foreign": "zij is aan het schrijven", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "schrijven", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 13, "verb": "kopen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het kopen.", "rows": [
+				{"english": "I buy", "foreign": "ik koop", "base": "kopen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am buying", "foreign": "ik ben aan het kopen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "kopen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She buys", "foreign": "zij koopt", "base": "kopen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is buying", "foreign": "zij is aan het kopen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "kopen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 14, "verb": "drinken", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het drinken.", "rows": [
+				{"english": "I drink", "foreign": "ik drink", "base": "drinken", "features": {"who": "i", "when": "now"}},
+				{"english": "I am drinking", "foreign": "ik ben aan het drinken", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "drinken", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She drinks", "foreign": "zij drinkt", "base": "drinken", "features": {"who": "she", "when": "now"}},
+				{"english": "She is drinking", "foreign": "zij is aan het drinken", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "drinken", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 15, "verb": "slapen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het slapen.", "rows": [
+				{"english": "I sleep", "foreign": "ik slaap", "base": "slapen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am sleeping", "foreign": "ik ben aan het slapen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "slapen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sleeps", "foreign": "zij slaapt", "base": "slapen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is sleeping", "foreign": "zij is aan het slapen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "slapen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 16, "verb": "kijken", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het kijken.", "rows": [
+				{"english": "I look", "foreign": "ik kijk", "base": "kijken", "features": {"who": "i", "when": "now"}},
+				{"english": "I am looking", "foreign": "ik ben aan het kijken", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "kijken", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She looks", "foreign": "zij kijkt", "base": "kijken", "features": {"who": "she", "when": "now"}},
+				{"english": "She is looking", "foreign": "zij is aan het kijken", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "kijken", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 17, "verb": "wachten", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het wachten.", "rows": [
+				{"english": "I wait", "foreign": "ik wacht", "base": "wachten", "features": {"who": "i", "when": "now"}},
+				{"english": "I am waiting", "foreign": "ik ben aan het wachten", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "wachten", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She waits", "foreign": "zij wacht", "base": "wachten", "features": {"who": "she", "when": "now"}},
+				{"english": "She is waiting", "foreign": "zij is aan het wachten", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "wachten", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 18, "verb": "zoeken", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het zoeken.", "rows": [
+				{"english": "I search", "foreign": "ik zoek", "base": "zoeken", "features": {"who": "i", "when": "now"}},
+				{"english": "I am searching", "foreign": "ik ben aan het zoeken", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "zoeken", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She searches", "foreign": "zij zoekt", "base": "zoeken", "features": {"who": "she", "when": "now"}},
+				{"english": "She is searching", "foreign": "zij is aan het zoeken", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "zoeken", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 20, "verb": "roepen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het roepen.", "rows": [
+				{"english": "I call", "foreign": "ik roep", "base": "roepen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am calling", "foreign": "ik ben aan het roepen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "roepen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She calls", "foreign": "zij roept", "base": "roepen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is calling", "foreign": "zij is aan het roepen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "roepen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 23, "verb": "openen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het openen.", "rows": [
+				{"english": "I open", "foreign": "ik open", "base": "openen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am opening", "foreign": "ik ben aan het openen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "openen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She opens", "foreign": "zij opent", "base": "openen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is opening", "foreign": "zij is aan het openen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "openen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 24, "verb": "sluiten", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het sluiten.", "rows": [
+				{"english": "I close", "foreign": "ik sluit", "base": "sluiten", "features": {"who": "i", "when": "now"}},
+				{"english": "I am closing", "foreign": "ik ben aan het sluiten", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "sluiten", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She closes", "foreign": "zij sluit", "base": "sluiten", "features": {"who": "she", "when": "now"}},
+				{"english": "She is closing", "foreign": "zij is aan het sluiten", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "sluiten", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 25, "verb": "leren", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het leren.", "rows": [
+				{"english": "I learn", "foreign": "ik leer", "base": "leren", "features": {"who": "i", "when": "now"}},
+				{"english": "I am learning", "foreign": "ik ben aan het leren", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "leren", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She learns", "foreign": "zij leert", "base": "leren", "features": {"who": "she", "when": "now"}},
+				{"english": "She is learning", "foreign": "zij is aan het leren", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "leren", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 26, "verb": "studeren", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het studeren.", "rows": [
+				{"english": "I study", "foreign": "ik studeer", "base": "studeren", "features": {"who": "i", "when": "now"}},
+				{"english": "I am studying", "foreign": "ik ben aan het studeren", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "studeren", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She studies", "foreign": "zij studeert", "base": "studeren", "features": {"who": "she", "when": "now"}},
+				{"english": "She is studying", "foreign": "zij is aan het studeren", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "studeren", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 28, "verb": "rennen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het rennen.", "rows": [
+				{"english": "I run", "foreign": "ik ren", "base": "rennen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am running", "foreign": "ik ben aan het rennen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "rennen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She runs", "foreign": "zij rent", "base": "rennen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is running", "foreign": "zij is aan het rennen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "rennen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 29, "verb": "lopen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het lopen.", "rows": [
+				{"english": "I walk", "foreign": "ik loop", "base": "lopen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am walking", "foreign": "ik ben aan het lopen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "lopen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She walks", "foreign": "zij loopt", "base": "lopen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is walking", "foreign": "zij is aan het lopen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "lopen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 30, "verb": "zingen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het zingen.", "rows": [
+				{"english": "I sing", "foreign": "ik zing", "base": "zingen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am singing", "foreign": "ik ben aan het zingen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "zingen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sings", "foreign": "zij zingt", "base": "zingen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is singing", "foreign": "zij is aan het zingen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "zingen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 31, "verb": "spelen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het spelen.", "rows": [
+				{"english": "I play", "foreign": "ik speel", "base": "spelen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am playing", "foreign": "ik ben aan het spelen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "spelen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She plays", "foreign": "zij speelt", "base": "spelen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is playing", "foreign": "zij is aan het spelen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "spelen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 32, "verb": "betalen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het betalen.", "rows": [
+				{"english": "I pay", "foreign": "ik betaal", "base": "betalen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am paying", "foreign": "ik ben aan het betalen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "betalen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She pays", "foreign": "zij betaalt", "base": "betalen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is paying", "foreign": "zij is aan het betalen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "betalen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 33, "verb": "verkopen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het verkopen.", "rows": [
+				{"english": "I sell", "foreign": "ik verkoop", "base": "verkopen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am selling", "foreign": "ik ben aan het verkopen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "verkopen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sells", "foreign": "zij verkoopt", "base": "verkopen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is selling", "foreign": "zij is aan het verkopen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "verkopen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 34, "verb": "helpen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het helpen.", "rows": [
+				{"english": "I help", "foreign": "ik help", "base": "helpen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am helping", "foreign": "ik ben aan het helpen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "helpen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She helps", "foreign": "zij helpt", "base": "helpen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is helping", "foreign": "zij is aan het helpen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "helpen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 35, "verb": "koken", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het koken.", "rows": [
+				{"english": "I cook", "foreign": "ik kook", "base": "koken", "features": {"who": "i", "when": "now"}},
+				{"english": "I am cooking", "foreign": "ik ben aan het koken", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "koken", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cooks", "foreign": "zij kookt", "base": "koken", "features": {"who": "she", "when": "now"}},
+				{"english": "She is cooking", "foreign": "zij is aan het koken", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "koken", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 36, "verb": "reizen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het reizen.", "rows": [
+				{"english": "I travel", "foreign": "ik reis", "base": "reizen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am travelling", "foreign": "ik ben aan het reizen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "reizen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She travels", "foreign": "zij reist", "base": "reizen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is travelling", "foreign": "zij is aan het reizen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "reizen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 37, "verb": "vragen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het vragen.", "rows": [
+				{"english": "I ask", "foreign": "ik vraag", "base": "vragen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am asking", "foreign": "ik ben aan het vragen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "vragen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She asks", "foreign": "zij vraagt", "base": "vragen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is asking", "foreign": "zij is aan het vragen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "vragen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 38, "verb": "antwoorden", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het antwoorden.", "rows": [
+				{"english": "I answer", "foreign": "ik antwoord", "base": "antwoorden", "features": {"who": "i", "when": "now"}},
+				{"english": "I am answering", "foreign": "ik ben aan het antwoorden", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "antwoorden", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She answers", "foreign": "zij antwoordt", "base": "antwoorden", "features": {"who": "she", "when": "now"}},
+				{"english": "She is answering", "foreign": "zij is aan het antwoorden", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "antwoorden", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 39, "verb": "verliezen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het verliezen.", "rows": [
+				{"english": "I lose", "foreign": "ik verlies", "base": "verliezen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am losing", "foreign": "ik ben aan het verliezen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "verliezen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She loses", "foreign": "zij verliest", "base": "verliezen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is losing", "foreign": "zij is aan het verliezen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "verliezen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 40, "verb": "ontvangen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het ontvangen.", "rows": [
+				{"english": "I receive", "foreign": "ik ontvang", "base": "ontvangen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am receiving", "foreign": "ik ben aan het ontvangen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "ontvangen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She receives", "foreign": "zij ontvangt", "base": "ontvangen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is receiving", "foreign": "zij is aan het ontvangen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "ontvangen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 41, "verb": "bestellen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het bestellen.", "rows": [
+				{"english": "I order", "foreign": "ik bestel", "base": "bestellen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am ordering", "foreign": "ik ben aan het bestellen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "bestellen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She orders", "foreign": "zij bestelt", "base": "bestellen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is ordering", "foreign": "zij is aan het bestellen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "bestellen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 42, "verb": "volgen", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het volgen.", "rows": [
+				{"english": "I follow", "foreign": "ik volg", "base": "volgen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am following", "foreign": "ik ben aan het volgen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "volgen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She follows", "foreign": "zij volgt", "base": "volgen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is following", "foreign": "zij is aan het volgen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "volgen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "command", "part": 2, "verb": "maken", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Maak! Telling them not to puts niet after it: Maak niet! For let's, laten we and the whole verb: Laten we maken!", "rows": [
+				{"english": "Make!", "foreign": "Maak!", "base": "maken", "features": {"command": "yes", "who": "you"}},
+				{"english": "Make, please!", "foreign": "Maak alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "maken", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not make!", "foreign": "Maak niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "maken", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's make!", "foreign": "Laten we maken!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "maken", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 3, "verb": "gaan", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Ga! Telling them not to puts niet after it: Ga niet! For let's, laten we and the whole verb: Laten we gaan!", "rows": [
+				{"english": "Go!", "foreign": "Ga!", "base": "gaan", "features": {"command": "yes", "who": "you"}},
+				{"english": "Go, please!", "foreign": "Ga alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "gaan", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not go!", "foreign": "Ga niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "gaan", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go!", "foreign": "Laten we gaan!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "gaan", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 4, "verb": "zeggen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Zeg! Telling them not to puts niet after it: Zeg niet! For let's, laten we and the whole verb: Laten we zeggen!", "rows": [
+				{"english": "Say!", "foreign": "Zeg!", "base": "zeggen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Say, please!", "foreign": "Zeg alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "zeggen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not say!", "foreign": "Zeg niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "zeggen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's say!", "foreign": "Laten we zeggen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "zeggen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 5, "verb": "geven", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Geef! Telling them not to puts niet after it: Geef niet! For let's, laten we and the whole verb: Laten we geven!", "rows": [
+				{"english": "Give!", "foreign": "Geef!", "base": "geven", "features": {"command": "yes", "who": "you"}},
+				{"english": "Give, please!", "foreign": "Geef alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "geven", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not give!", "foreign": "Geef niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "geven", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's give!", "foreign": "Laten we geven!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "geven", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 6, "verb": "komen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Kom! Telling them not to puts niet after it: Kom niet! For let's, laten we and the whole verb: Laten we komen!", "rows": [
+				{"english": "Come!", "foreign": "Kom!", "base": "komen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Come, please!", "foreign": "Kom alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "komen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not come!", "foreign": "Kom niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "komen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come!", "foreign": "Laten we komen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "komen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 7, "verb": "eten", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Eet! Telling them not to puts niet after it: Eet niet! For let's, laten we and the whole verb: Laten we eten!", "rows": [
+				{"english": "Eat!", "foreign": "Eet!", "base": "eten", "features": {"command": "yes", "who": "you"}},
+				{"english": "Eat, please!", "foreign": "Eet alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "eten", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not eat!", "foreign": "Eet niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "eten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's eat!", "foreign": "Laten we eten!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "eten", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 9, "verb": "werken", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Werk! Telling them not to puts niet after it: Werk niet! For let's, laten we and the whole verb: Laten we werken!", "rows": [
+				{"english": "Work!", "foreign": "Werk!", "base": "werken", "features": {"command": "yes", "who": "you"}},
+				{"english": "Work, please!", "foreign": "Werk alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "werken", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not work!", "foreign": "Werk niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "werken", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's work!", "foreign": "Laten we werken!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "werken", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 10, "verb": "denken", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Denk! Telling them not to puts niet after it: Denk niet! For let's, laten we and the whole verb: Laten we denken!", "rows": [
+				{"english": "Think!", "foreign": "Denk!", "base": "denken", "features": {"command": "yes", "who": "you"}},
+				{"english": "Think, please!", "foreign": "Denk alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "denken", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not think!", "foreign": "Denk niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "denken", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's think!", "foreign": "Laten we denken!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "denken", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 11, "verb": "nemen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Neem! Telling them not to puts niet after it: Neem niet! For let's, laten we and the whole verb: Laten we nemen!", "rows": [
+				{"english": "Take!", "foreign": "Neem!", "base": "nemen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Take, please!", "foreign": "Neem alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "nemen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not take!", "foreign": "Neem niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "nemen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's take!", "foreign": "Laten we nemen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "nemen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 12, "verb": "schrijven", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Schrijf! Telling them not to puts niet after it: Schrijf niet! For let's, laten we and the whole verb: Laten we schrijven!", "rows": [
+				{"english": "Write!", "foreign": "Schrijf!", "base": "schrijven", "features": {"command": "yes", "who": "you"}},
+				{"english": "Write, please!", "foreign": "Schrijf alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "schrijven", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not write!", "foreign": "Schrijf niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "schrijven", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's write!", "foreign": "Laten we schrijven!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "schrijven", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 13, "verb": "kopen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Koop! Telling them not to puts niet after it: Koop niet! For let's, laten we and the whole verb: Laten we kopen!", "rows": [
+				{"english": "Buy!", "foreign": "Koop!", "base": "kopen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Buy, please!", "foreign": "Koop alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "kopen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not buy!", "foreign": "Koop niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "kopen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's buy!", "foreign": "Laten we kopen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "kopen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 14, "verb": "drinken", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Drink! Telling them not to puts niet after it: Drink niet! For let's, laten we and the whole verb: Laten we drinken!", "rows": [
+				{"english": "Drink!", "foreign": "Drink!", "base": "drinken", "features": {"command": "yes", "who": "you"}},
+				{"english": "Drink, please!", "foreign": "Drink alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "drinken", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not drink!", "foreign": "Drink niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "drinken", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drink!", "foreign": "Laten we drinken!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "drinken", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 15, "verb": "slapen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Slaap! Telling them not to puts niet after it: Slaap niet! For let's, laten we and the whole verb: Laten we slapen!", "rows": [
+				{"english": "Sleep!", "foreign": "Slaap!", "base": "slapen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sleep, please!", "foreign": "Slaap alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "slapen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not sleep!", "foreign": "Slaap niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "slapen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sleep!", "foreign": "Laten we slapen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "slapen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 16, "verb": "kijken", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Kijk! Telling them not to puts niet after it: Kijk niet! For let's, laten we and the whole verb: Laten we kijken!", "rows": [
+				{"english": "Look!", "foreign": "Kijk!", "base": "kijken", "features": {"command": "yes", "who": "you"}},
+				{"english": "Look, please!", "foreign": "Kijk alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "kijken", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not look!", "foreign": "Kijk niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "kijken", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's look!", "foreign": "Laten we kijken!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "kijken", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 17, "verb": "wachten", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Wacht! Telling them not to puts niet after it: Wacht niet! For let's, laten we and the whole verb: Laten we wachten!", "rows": [
+				{"english": "Wait!", "foreign": "Wacht!", "base": "wachten", "features": {"command": "yes", "who": "you"}},
+				{"english": "Wait, please!", "foreign": "Wacht alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "wachten", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not wait!", "foreign": "Wacht niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "wachten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wait!", "foreign": "Laten we wachten!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "wachten", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 18, "verb": "zoeken", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Zoek! Telling them not to puts niet after it: Zoek niet! For let's, laten we and the whole verb: Laten we zoeken!", "rows": [
+				{"english": "Search!", "foreign": "Zoek!", "base": "zoeken", "features": {"command": "yes", "who": "you"}},
+				{"english": "Search, please!", "foreign": "Zoek alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "zoeken", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not search!", "foreign": "Zoek niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "zoeken", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's search!", "foreign": "Laten we zoeken!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "zoeken", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 19, "verb": "vinden", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Vind! Telling them not to puts niet after it: Vind niet! For let's, laten we and the whole verb: Laten we vinden!", "rows": [
+				{"english": "Find!", "foreign": "Vind!", "base": "vinden", "features": {"command": "yes", "who": "you"}},
+				{"english": "Find, please!", "foreign": "Vind alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "vinden", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not find!", "foreign": "Vind niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "vinden", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's find!", "foreign": "Laten we vinden!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "vinden", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 20, "verb": "roepen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Roep! Telling them not to puts niet after it: Roep niet! For let's, laten we and the whole verb: Laten we roepen!", "rows": [
+				{"english": "Call!", "foreign": "Roep!", "base": "roepen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Call, please!", "foreign": "Roep alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "roepen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not call!", "foreign": "Roep niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "roepen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's call!", "foreign": "Laten we roepen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "roepen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 21, "verb": "beginnen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Begin! Telling them not to puts niet after it: Begin niet! For let's, laten we and the whole verb: Laten we beginnen!", "rows": [
+				{"english": "Begin!", "foreign": "Begin!", "base": "beginnen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Begin, please!", "foreign": "Begin alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "beginnen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not begin!", "foreign": "Begin niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "beginnen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's begin!", "foreign": "Laten we beginnen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "beginnen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 22, "verb": "eindigen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Eindig! Telling them not to puts niet after it: Eindig niet! For let's, laten we and the whole verb: Laten we eindigen!", "rows": [
+				{"english": "Finish!", "foreign": "Eindig!", "base": "eindigen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Finish, please!", "foreign": "Eindig alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "eindigen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not finish!", "foreign": "Eindig niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "eindigen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's finish!", "foreign": "Laten we eindigen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "eindigen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 23, "verb": "openen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Open! Telling them not to puts niet after it: Open niet! For let's, laten we and the whole verb: Laten we openen!", "rows": [
+				{"english": "Open!", "foreign": "Open!", "base": "openen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Open, please!", "foreign": "Open alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "openen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not open!", "foreign": "Open niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "openen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's open!", "foreign": "Laten we openen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "openen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 24, "verb": "sluiten", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Sluit! Telling them not to puts niet after it: Sluit niet! For let's, laten we and the whole verb: Laten we sluiten!", "rows": [
+				{"english": "Close!", "foreign": "Sluit!", "base": "sluiten", "features": {"command": "yes", "who": "you"}},
+				{"english": "Close, please!", "foreign": "Sluit alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "sluiten", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not close!", "foreign": "Sluit niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "sluiten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's close!", "foreign": "Laten we sluiten!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "sluiten", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 25, "verb": "leren", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Leer! Telling them not to puts niet after it: Leer niet! For let's, laten we and the whole verb: Laten we leren!", "rows": [
+				{"english": "Learn!", "foreign": "Leer!", "base": "leren", "features": {"command": "yes", "who": "you"}},
+				{"english": "Learn, please!", "foreign": "Leer alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "leren", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not learn!", "foreign": "Leer niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "leren", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's learn!", "foreign": "Laten we leren!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "leren", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 26, "verb": "studeren", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Studeer! Telling them not to puts niet after it: Studeer niet! For let's, laten we and the whole verb: Laten we studeren!", "rows": [
+				{"english": "Study!", "foreign": "Studeer!", "base": "studeren", "features": {"command": "yes", "who": "you"}},
+				{"english": "Study, please!", "foreign": "Studeer alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "studeren", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not study!", "foreign": "Studeer niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "studeren", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's study!", "foreign": "Laten we studeren!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "studeren", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 27, "verb": "vergeten", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Vergeet! Telling them not to puts niet after it: Vergeet niet! For let's, laten we and the whole verb: Laten we vergeten!", "rows": [
+				{"english": "Forget!", "foreign": "Vergeet!", "base": "vergeten", "features": {"command": "yes", "who": "you"}},
+				{"english": "Forget, please!", "foreign": "Vergeet alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "vergeten", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not forget!", "foreign": "Vergeet niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "vergeten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's forget!", "foreign": "Laten we vergeten!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "vergeten", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 28, "verb": "rennen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Ren! Telling them not to puts niet after it: Ren niet! For let's, laten we and the whole verb: Laten we rennen!", "rows": [
+				{"english": "Run!", "foreign": "Ren!", "base": "rennen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Run, please!", "foreign": "Ren alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "rennen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not run!", "foreign": "Ren niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "rennen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's run!", "foreign": "Laten we rennen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "rennen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 29, "verb": "lopen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Loop! Telling them not to puts niet after it: Loop niet! For let's, laten we and the whole verb: Laten we lopen!", "rows": [
+				{"english": "Walk!", "foreign": "Loop!", "base": "lopen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Walk, please!", "foreign": "Loop alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "lopen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not walk!", "foreign": "Loop niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "lopen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's walk!", "foreign": "Laten we lopen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "lopen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 30, "verb": "zingen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Zing! Telling them not to puts niet after it: Zing niet! For let's, laten we and the whole verb: Laten we zingen!", "rows": [
+				{"english": "Sing!", "foreign": "Zing!", "base": "zingen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sing, please!", "foreign": "Zing alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "zingen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not sing!", "foreign": "Zing niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "zingen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sing!", "foreign": "Laten we zingen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "zingen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 31, "verb": "spelen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Speel! Telling them not to puts niet after it: Speel niet! For let's, laten we and the whole verb: Laten we spelen!", "rows": [
+				{"english": "Play!", "foreign": "Speel!", "base": "spelen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Play, please!", "foreign": "Speel alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "spelen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not play!", "foreign": "Speel niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "spelen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's play!", "foreign": "Laten we spelen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "spelen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 32, "verb": "betalen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Betaal! Telling them not to puts niet after it: Betaal niet! For let's, laten we and the whole verb: Laten we betalen!", "rows": [
+				{"english": "Pay!", "foreign": "Betaal!", "base": "betalen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Pay, please!", "foreign": "Betaal alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "betalen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not pay!", "foreign": "Betaal niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "betalen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's pay!", "foreign": "Laten we betalen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "betalen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 33, "verb": "verkopen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Verkoop! Telling them not to puts niet after it: Verkoop niet! For let's, laten we and the whole verb: Laten we verkopen!", "rows": [
+				{"english": "Sell!", "foreign": "Verkoop!", "base": "verkopen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sell, please!", "foreign": "Verkoop alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "verkopen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not sell!", "foreign": "Verkoop niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "verkopen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sell!", "foreign": "Laten we verkopen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "verkopen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 34, "verb": "helpen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Help! Telling them not to puts niet after it: Help niet! For let's, laten we and the whole verb: Laten we helpen!", "rows": [
+				{"english": "Help!", "foreign": "Help!", "base": "helpen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Help, please!", "foreign": "Help alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "helpen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not help!", "foreign": "Help niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "helpen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's help!", "foreign": "Laten we helpen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "helpen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 35, "verb": "koken", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Kook! Telling them not to puts niet after it: Kook niet! For let's, laten we and the whole verb: Laten we koken!", "rows": [
+				{"english": "Cook!", "foreign": "Kook!", "base": "koken", "features": {"command": "yes", "who": "you"}},
+				{"english": "Cook, please!", "foreign": "Kook alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "koken", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not cook!", "foreign": "Kook niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "koken", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's cook!", "foreign": "Laten we koken!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "koken", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 36, "verb": "reizen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Reis! Telling them not to puts niet after it: Reis niet! For let's, laten we and the whole verb: Laten we reizen!", "rows": [
+				{"english": "Travel!", "foreign": "Reis!", "base": "reizen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Travel, please!", "foreign": "Reis alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "reizen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not travel!", "foreign": "Reis niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "reizen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's travel!", "foreign": "Laten we reizen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "reizen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 37, "verb": "vragen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Vraag! Telling them not to puts niet after it: Vraag niet! For let's, laten we and the whole verb: Laten we vragen!", "rows": [
+				{"english": "Ask!", "foreign": "Vraag!", "base": "vragen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Ask, please!", "foreign": "Vraag alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "vragen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not ask!", "foreign": "Vraag niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "vragen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask!", "foreign": "Laten we vragen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "vragen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 38, "verb": "antwoorden", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Antwoord! Telling them not to puts niet after it: Antwoord niet! For let's, laten we and the whole verb: Laten we antwoorden!", "rows": [
+				{"english": "Answer!", "foreign": "Antwoord!", "base": "antwoorden", "features": {"command": "yes", "who": "you"}},
+				{"english": "Answer, please!", "foreign": "Antwoord alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "antwoorden", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not answer!", "foreign": "Antwoord niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "antwoorden", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's answer!", "foreign": "Laten we antwoorden!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "antwoorden", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 41, "verb": "bestellen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Bestel! Telling them not to puts niet after it: Bestel niet! For let's, laten we and the whole verb: Laten we bestellen!", "rows": [
+				{"english": "Order!", "foreign": "Bestel!", "base": "bestellen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Order, please!", "foreign": "Bestel alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "bestellen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not order!", "foreign": "Bestel niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "bestellen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's order!", "foreign": "Laten we bestellen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "bestellen", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 42, "verb": "volgen", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Volg! Telling them not to puts niet after it: Volg niet! For let's, laten we and the whole verb: Laten we volgen!", "rows": [
+				{"english": "Follow!", "foreign": "Volg!", "base": "volgen", "features": {"command": "yes", "who": "you"}},
+				{"english": "Follow, please!", "foreign": "Volg alsjeblieft!", "mark": [{"text": "alsjeblieft", "role": "helper word"}], "base": "volgen", "features": {"command": "yes", "who": "you", "please": "yes"}},
+				{"english": "Do not follow!", "foreign": "Volg niet!", "mark": [{"text": "niet", "role": "helper word"}], "from": 1, "base": "volgen", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's follow!", "foreign": "Laten we volgen!", "mark": [{"text": "Laten we", "role": "helper word"}], "base": "volgen", "features": {"command": "yes", "who": "we"}}
+			]}
+	]
+}
