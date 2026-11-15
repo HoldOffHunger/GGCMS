@@ -99,7 +99,7 @@
 	},
 
 	"verbs": {
-		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job. Left out on purpose: être, which needs a lesson of its own; pouvoir and devoir, which are the want-can-must job; lire and mettre, whose English is the same now and before; and the verbs said with se (se lever), which wait for their own recipe.",
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job. The before of know is `found out`: supe, j'ai su and ho saputo are the moment of learning a thing, not the knowing of it. `no-command` takes a verb's command lesson down without renumbering the ones after it: Live!, Arrive!, Lose! and Receive! are right and nobody says them. Left out on purpose: être, which needs a lesson of its own; pouvoir and devoir, which are the want-can-must job; lire and mettre, whose English is the same now and before; and the verbs said with se (se lever), which wait for their own recipe.",
 		"list": [
 			["avoir", "have", "has", "had", "having", "stative"],
 			["faire", "make", "makes", "made", "making"],
@@ -107,11 +107,11 @@
 			["dire", "say", "says", "said", "saying"],
 			["voir", "see", "sees", "saw", "seeing", "stative"],
 			["donner", "give", "gives", "gave", "giving"],
-			["savoir", "know", "knows", "knew", "knowing", "stative"],
+			["savoir", "know", "knows", "found out", "knowing", "stative"],
 			["vouloir", "want", "wants", "wanted", "wanting", "stative"],
 			["venir", "come", "comes", "came", "coming"],
 			["manger", "eat", "eats", "ate", "eating"],
-			["vivre", "live", "lives", "lived", "living"],
+			["vivre", "live", "lives", "lived", "living", "no-command"],
 			["travailler", "work", "works", "worked", "working"],
 			["penser", "think", "thinks", "thought", "thinking"],
 			["prendre", "take", "takes", "took", "taking"],
@@ -121,7 +121,7 @@
 			["dormir", "sleep", "sleeps", "slept", "sleeping"],
 			["sortir", "go out", "goes out", "went out", "going out"],
 			["revenir", "come back", "comes back", "came back", "coming back"],
-			["arriver", "arrive", "arrives", "arrived", "arriving"],
+			["arriver", "arrive", "arrives", "arrived", "arriving", "no-command"],
 			["regarder", "look", "looks", "looked", "looking"],
 			["attendre", "wait", "waits", "waited", "waiting"],
 			["chercher", "search", "searches", "searched", "searching"],
@@ -146,8 +146,8 @@
 			["voyager", "travel", "travels", "travelled", "travelling"],
 			["demander", "ask", "asks", "asked", "asking"],
 			["répondre", "answer", "answers", "answered", "answering"],
-			["perdre", "lose", "loses", "lost", "losing"],
-			["recevoir", "receive", "receives", "received", "receiving"],
+			["perdre", "lose", "loses", "lost", "losing", "no-command"],
+			["recevoir", "receive", "receives", "received", "receiving", "no-command"],
 			["commander", "order", "orders", "ordered", "ordering"],
 			["suivre", "follow", "follows", "followed", "following"],
 			["sentir", "feel", "feels", "felt", "feeling", "stative"]

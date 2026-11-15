@@ -342,9 +342,9 @@
 			]},
 		{"job": "when", "part": 8, "verb": "savoir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai su. For later, the ending alone says so: je saurai. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I know", "foreign": "je sais", "mark": [{"text": "is", "role": "ending"}], "base": "savoir", "features": {"who": "i", "when": "now"}},
-				{"english": "I knew", "foreign": "j'ai su", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "savoir", "features": {"who": "i", "when": "before"}},
+				{"english": "I found out", "foreign": "j'ai su", "mark": [{"text": "ai", "role": "helper word"}, {"text": "u", "role": "ending"}], "from": 1, "base": "savoir", "features": {"who": "i", "when": "before"}},
 				{"english": "I will know", "foreign": "je saurai", "mark": [{"text": "rai", "role": "ending"}], "from": 1, "base": "savoir", "features": {"who": "i", "when": "later"}},
-				{"english": "She knew", "foreign": "elle a su", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "savoir", "features": {"who": "she", "when": "before"}}
+				{"english": "She found out", "foreign": "elle a su", "mark": [{"text": "a", "role": "helper word"}, {"text": "u", "role": "ending"}], "base": "savoir", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 9, "verb": "vouloir", "strategy": ["ending", "helper word"], "description": "For before, a form of avoir or être goes in front and the verb changes: j'ai voulu. For later, the ending alone says so: je voudrai. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I want", "foreign": "je veux", "mark": [{"text": "x", "role": "ending"}], "base": "vouloir", "features": {"who": "i", "when": "now"}},
@@ -640,12 +640,6 @@
 				{"english": "Do not eat!", "foreign": "Ne mange pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "manger", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's eat!", "foreign": "Mangeons !", "mark": [{"text": "ons", "role": "ending"}], "base": "manger", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 8, "verb": "vivre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Vis ! To anyone else, or to more than one person: Vivez ! Telling a friend not to wraps the verb in ne and pas: Ne vis pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
-				{"english": "Live!", "foreign": "Vis !", "mark": [{"text": "s", "role": "ending"}], "base": "vivre", "features": {"command": "yes", "who": "you"}},
-				{"english": "Live! said politely", "foreign": "Vivez !", "mark": [{"text": "ez", "role": "ending"}], "base": "vivre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not live!", "foreign": "Ne vis pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "vivre", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's live!", "foreign": "Vivons !", "mark": [{"text": "ons", "role": "ending"}], "base": "vivre", "features": {"command": "yes", "who": "we"}}
-			]},
 		{"job": "command", "part": 9, "verb": "travailler", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Travaille ! To anyone else, or to more than one person: Travaillez ! Telling a friend not to wraps the verb in ne and pas: Ne travaille pas !", "rows": [
 				{"english": "Work!", "foreign": "Travaille !", "mark": [{"text": "e", "role": "ending"}], "base": "travailler", "features": {"command": "yes", "who": "you"}},
 				{"english": "Work! said politely", "foreign": "Travaillez !", "mark": [{"text": "ez", "role": "ending"}], "base": "travailler", "features": {"command": "yes", "who": "you", "polite": "yes"}},
@@ -699,12 +693,6 @@
 				{"english": "Come back! said politely", "foreign": "Revenez !", "mark": [{"text": "ez", "role": "ending"}], "base": "revenir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not come back!", "foreign": "Ne reviens pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "revenir", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's come back!", "foreign": "Revenons !", "mark": [{"text": "ons", "role": "ending"}], "base": "revenir", "features": {"command": "yes", "who": "we"}}
-			]},
-		{"job": "command", "part": 18, "verb": "arriver", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Arrive ! To anyone else, or to more than one person: Arrivez ! Telling a friend not to wraps the verb in ne and pas: N'arrive pas !", "rows": [
-				{"english": "Arrive!", "foreign": "Arrive !", "mark": [{"text": "e", "role": "ending"}], "base": "arriver", "features": {"command": "yes", "who": "you"}},
-				{"english": "Arrive! said politely", "foreign": "Arrivez !", "mark": [{"text": "ez", "role": "ending"}], "base": "arriver", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not arrive!", "foreign": "N'arrive pas !", "mark": [{"text": "N'", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "arriver", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's arrive!", "foreign": "Arrivons !", "mark": [{"text": "ons", "role": "ending"}], "base": "arriver", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 19, "verb": "regarder", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Regarde ! To anyone else, or to more than one person: Regardez ! Telling a friend not to wraps the verb in ne and pas: Ne regarde pas !", "rows": [
 				{"english": "Look!", "foreign": "Regarde !", "mark": [{"text": "e", "role": "ending"}], "base": "regarder", "features": {"command": "yes", "who": "you"}},
@@ -843,18 +831,6 @@
 				{"english": "Answer! said politely", "foreign": "Répondez !", "mark": [{"text": "ez", "role": "ending"}], "base": "répondre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not answer!", "foreign": "Ne réponds pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "répondre", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's answer!", "foreign": "Répondons !", "mark": [{"text": "ons", "role": "ending"}], "base": "répondre", "features": {"command": "yes", "who": "we"}}
-			]},
-		{"job": "command", "part": 42, "verb": "perdre", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Perds ! To anyone else, or to more than one person: Perdez ! Telling a friend not to wraps the verb in ne and pas: Ne perds pas !", "rows": [
-				{"english": "Lose!", "foreign": "Perds !", "mark": [{"text": "s", "role": "ending"}], "base": "perdre", "features": {"command": "yes", "who": "you"}},
-				{"english": "Lose! said politely", "foreign": "Perdez !", "mark": [{"text": "ez", "role": "ending"}], "base": "perdre", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not lose!", "foreign": "Ne perds pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "perdre", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's lose!", "foreign": "Perdons !", "mark": [{"text": "ons", "role": "ending"}], "base": "perdre", "features": {"command": "yes", "who": "we"}}
-			]},
-		{"job": "command", "part": 43, "verb": "recevoir", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Reçois ! To anyone else, or to more than one person: Recevez ! Telling a friend not to wraps the verb in ne and pas: Ne reçois pas ! Watch the middle of the word too: in some of these it changes.", "rows": [
-				{"english": "Receive!", "foreign": "Reçois !", "mark": [{"text": "is", "role": "ending"}], "base": "recevoir", "features": {"command": "yes", "who": "you"}},
-				{"english": "Receive! said politely", "foreign": "Recevez !", "mark": [{"text": "ez", "role": "ending"}], "base": "recevoir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not receive!", "foreign": "Ne reçois pas !", "mark": [{"text": "Ne", "role": "helper word"}, {"text": "pas", "role": "helper word"}], "from": 1, "base": "recevoir", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's receive!", "foreign": "Recevons !", "mark": [{"text": "ons", "role": "ending"}], "base": "recevoir", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 44, "verb": "commander", "strategy": ["ending", "helper word"], "description": "To a friend, the verb stands alone: Commande ! To anyone else, or to more than one person: Commandez ! Telling a friend not to wraps the verb in ne and pas: Ne commande pas !", "rows": [
 				{"english": "Order!", "foreign": "Commande !", "mark": [{"text": "e", "role": "ending"}], "base": "commander", "features": {"command": "yes", "who": "you"}},

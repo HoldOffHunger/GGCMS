@@ -287,10 +287,10 @@
 				{"english": "We receive", "foreign": "nós recebemos", "mark": ["emos"], "base": "receber", "features": {"who": "we", "when": "now"}}
 			]},
 		{"job": "who", "part": 49, "verb": "pedir", "strategy": ["ending"], "description": "The ending says who is doing it: eu peço, você pede, ela pede, nós pedimos. You and she share one. Watch the middle of the word too: in some of these it changes.", "rows": [
-				{"english": "I order", "foreign": "eu peço", "mark": ["o"], "base": "pedir", "features": {"who": "i", "when": "now"}},
-				{"english": "You order", "foreign": "você pede", "mark": ["e"], "base": "pedir", "features": {"who": "you", "when": "now"}},
-				{"english": "She orders", "foreign": "ela pede", "mark": ["e"], "base": "pedir", "features": {"who": "she", "when": "now"}},
-				{"english": "We order", "foreign": "nós pedimos", "mark": ["imos"], "base": "pedir", "features": {"who": "we", "when": "now"}}
+				{"english": "I ask for", "foreign": "eu peço", "mark": ["o"], "base": "pedir", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask for", "foreign": "você pede", "mark": ["e"], "base": "pedir", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks for", "foreign": "ela pede", "mark": ["e"], "base": "pedir", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask for", "foreign": "nós pedimos", "mark": ["imos"], "base": "pedir", "features": {"who": "we", "when": "now"}}
 			]},
 		{"job": "who", "part": 50, "verb": "seguir", "strategy": ["ending"], "description": "The ending says who is doing it: eu sigo, você segue, ela segue, nós seguimos. You and she share one. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I follow", "foreign": "eu sigo", "mark": ["o"], "base": "seguir", "features": {"who": "i", "when": "now"}},
@@ -342,9 +342,9 @@
 			]},
 		{"job": "when", "part": 8, "verb": "saber", "strategy": ["ending", "helper word"], "description": "The ending says before: eu soube. For later, Brazilians put a form of ir in front of the whole verb: eu vou saber. Saber goes its own way here, so learn these as they are.", "rows": [
 				{"english": "I know", "foreign": "eu sei", "base": "saber", "features": {"who": "i", "when": "now"}},
-				{"english": "I knew", "foreign": "eu soube", "from": 1, "base": "saber", "features": {"who": "i", "when": "before"}},
+				{"english": "I found out", "foreign": "eu soube", "from": 1, "base": "saber", "features": {"who": "i", "when": "before"}},
 				{"english": "I will know", "foreign": "eu vou saber", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "saber", "features": {"who": "i", "when": "later"}},
-				{"english": "She knew", "foreign": "ela soube", "base": "saber", "features": {"who": "she", "when": "before"}}
+				{"english": "She found out", "foreign": "ela soube", "base": "saber", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 9, "verb": "querer", "strategy": ["ending", "helper word"], "description": "The ending says before: eu quis. For later, Brazilians put a form of ir in front of the whole verb: eu vou querer. Querer goes its own way here, so learn these as they are.", "rows": [
 				{"english": "I want", "foreign": "eu quero", "mark": [{"text": "o", "role": "ending"}], "base": "querer", "features": {"who": "i", "when": "now"}},
@@ -587,10 +587,10 @@
 				{"english": "She received", "foreign": "ela recebeu", "mark": [{"text": "eu", "role": "ending"}], "base": "receber", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 49, "verb": "pedir", "strategy": ["ending", "helper word"], "description": "The ending says before: eu pedi. For later, Brazilians put a form of ir in front of the whole verb: eu vou pedir. Watch the middle of the word too: in some of these it changes.", "rows": [
-				{"english": "I order", "foreign": "eu peço", "mark": [{"text": "o", "role": "ending"}], "base": "pedir", "features": {"who": "i", "when": "now"}},
-				{"english": "I ordered", "foreign": "eu pedi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "before"}},
-				{"english": "I will order", "foreign": "eu vou pedir", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "later"}},
-				{"english": "She ordered", "foreign": "ela pediu", "mark": [{"text": "iu", "role": "ending"}], "base": "pedir", "features": {"who": "she", "when": "before"}}
+				{"english": "I ask for", "foreign": "eu peço", "mark": [{"text": "o", "role": "ending"}], "base": "pedir", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked for", "foreign": "eu pedi", "mark": [{"text": "i", "role": "ending"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask for", "foreign": "eu vou pedir", "mark": [{"text": "vou", "role": "helper word"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked for", "foreign": "ela pediu", "mark": [{"text": "iu", "role": "ending"}], "base": "pedir", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 50, "verb": "seguir", "strategy": ["ending", "helper word"], "description": "The ending says before: eu segui. For later, Brazilians put a form of ir in front of the whole verb: eu vou seguir. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I follow", "foreign": "eu sigo", "mark": [{"text": "o", "role": "ending"}], "base": "seguir", "features": {"who": "i", "when": "now"}},
@@ -851,10 +851,10 @@
 				{"english": "She is receiving", "foreign": "ela está recebendo", "mark": [{"text": "está", "role": "helper word"}, {"text": "endo", "role": "ending"}], "from": 3, "base": "receber", "features": {"who": "she", "when": "now", "going": "yes"}}
 			]},
 		{"job": "going", "part": 43, "verb": "pedir", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou pedindo.", "rows": [
-				{"english": "I order", "foreign": "eu peço", "base": "pedir", "features": {"who": "i", "when": "now"}},
-				{"english": "I am ordering", "foreign": "eu estou pedindo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "now", "going": "yes"}},
-				{"english": "She orders", "foreign": "ela pede", "base": "pedir", "features": {"who": "she", "when": "now"}},
-				{"english": "She is ordering", "foreign": "ela está pedindo", "mark": [{"text": "está", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 3, "base": "pedir", "features": {"who": "she", "when": "now", "going": "yes"}}
+				{"english": "I ask for", "foreign": "eu peço", "base": "pedir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am asking for", "foreign": "eu estou pedindo", "mark": [{"text": "estou", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 1, "base": "pedir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She asks for", "foreign": "ela pede", "base": "pedir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is asking for", "foreign": "ela está pedindo", "mark": [{"text": "está", "role": "helper word"}, {"text": "indo", "role": "ending"}], "from": 3, "base": "pedir", "features": {"who": "she", "when": "now", "going": "yes"}}
 			]},
 		{"job": "going", "part": 44, "verb": "seguir", "strategy": ["helper word", "ending"], "description": "For something going on right now, Brazilians use estar and a verb ending in ando, endo or indo: eu estou seguindo.", "rows": [
 				{"english": "I follow", "foreign": "eu sigo", "base": "seguir", "features": {"who": "i", "when": "now"}},
@@ -897,12 +897,6 @@
 				{"english": "Eat! said to more than one person", "foreign": "Comam!", "mark": [{"text": "am", "role": "ending"}], "base": "comer", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not eat!", "foreign": "Não coma!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "comer", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's eat!", "foreign": "Vamos comer!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "comer", "features": {"command": "yes", "who": "we"}}
-			]},
-		{"job": "command", "part": 8, "verb": "viver", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Viva! To more than one person: Vivam! Telling someone not to puts não in front: Não viva!", "rows": [
-				{"english": "Live!", "foreign": "Viva!", "mark": [{"text": "a", "role": "ending"}], "base": "viver", "features": {"command": "yes", "who": "you"}},
-				{"english": "Live! said to more than one person", "foreign": "Vivam!", "mark": [{"text": "am", "role": "ending"}], "base": "viver", "features": {"command": "yes", "who": "you-all"}},
-				{"english": "Do not live!", "foreign": "Não viva!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "viver", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's live!", "foreign": "Vamos viver!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "viver", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 9, "verb": "trabalhar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Trabalhe! To more than one person: Trabalhem! Telling someone not to puts não in front: Não trabalhe!", "rows": [
 				{"english": "Work!", "foreign": "Trabalhe!", "mark": [{"text": "e", "role": "ending"}], "base": "trabalhar", "features": {"command": "yes", "who": "you"}},
@@ -957,12 +951,6 @@
 				{"english": "Return! said to more than one person", "foreign": "Voltem!", "mark": [{"text": "em", "role": "ending"}], "base": "voltar", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not return!", "foreign": "Não volte!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "voltar", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's return!", "foreign": "Vamos voltar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "voltar", "features": {"command": "yes", "who": "we"}}
-			]},
-		{"job": "command", "part": 18, "verb": "chegar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Chegue! To more than one person: Cheguem! Telling someone not to puts não in front: Não chegue! Watch the middle of the word too: in some of these it changes.", "rows": [
-				{"english": "Arrive!", "foreign": "Chegue!", "mark": [{"text": "e", "role": "ending"}], "base": "chegar", "features": {"command": "yes", "who": "you"}},
-				{"english": "Arrive! said to more than one person", "foreign": "Cheguem!", "mark": [{"text": "em", "role": "ending"}], "base": "chegar", "features": {"command": "yes", "who": "you-all"}},
-				{"english": "Do not arrive!", "foreign": "Não chegue!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "chegar", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's arrive!", "foreign": "Vamos chegar!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "chegar", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 19, "verb": "olhar", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Olhe! To more than one person: Olhem! Telling someone not to puts não in front: Não olhe!", "rows": [
 				{"english": "Look!", "foreign": "Olhe!", "mark": [{"text": "e", "role": "ending"}], "base": "olhar", "features": {"command": "yes", "who": "you"}},
@@ -1096,23 +1084,11 @@
 				{"english": "Do not answer!", "foreign": "Não responda!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "responder", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's answer!", "foreign": "Vamos responder!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "responder", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 41, "verb": "perder", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Perca! To more than one person: Percam! Telling someone not to puts não in front: Não perca! Watch the middle of the word too: in some of these it changes.", "rows": [
-				{"english": "Lose!", "foreign": "Perca!", "mark": [{"text": "a", "role": "ending"}], "base": "perder", "features": {"command": "yes", "who": "you"}},
-				{"english": "Lose! said to more than one person", "foreign": "Percam!", "mark": [{"text": "am", "role": "ending"}], "base": "perder", "features": {"command": "yes", "who": "you-all"}},
-				{"english": "Do not lose!", "foreign": "Não perca!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "perder", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's lose!", "foreign": "Vamos perder!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "perder", "features": {"command": "yes", "who": "we"}}
-			]},
-		{"job": "command", "part": 42, "verb": "receber", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Receba! To more than one person: Recebam! Telling someone not to puts não in front: Não receba!", "rows": [
-				{"english": "Receive!", "foreign": "Receba!", "mark": [{"text": "a", "role": "ending"}], "base": "receber", "features": {"command": "yes", "who": "you"}},
-				{"english": "Receive! said to more than one person", "foreign": "Recebam!", "mark": [{"text": "am", "role": "ending"}], "base": "receber", "features": {"command": "yes", "who": "you-all"}},
-				{"english": "Do not receive!", "foreign": "Não receba!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "receber", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's receive!", "foreign": "Vamos receber!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "receber", "features": {"command": "yes", "who": "we"}}
-			]},
 		{"job": "command", "part": 43, "verb": "pedir", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Peça! To more than one person: Peçam! Telling someone not to puts não in front: Não peça! Watch the middle of the word too: in some of these it changes.", "rows": [
-				{"english": "Order!", "foreign": "Peça!", "mark": [{"text": "a", "role": "ending"}], "base": "pedir", "features": {"command": "yes", "who": "you"}},
-				{"english": "Order! said to more than one person", "foreign": "Peçam!", "mark": [{"text": "am", "role": "ending"}], "base": "pedir", "features": {"command": "yes", "who": "you-all"}},
-				{"english": "Do not order!", "foreign": "Não peça!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "pedir", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's order!", "foreign": "Vamos pedir!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "pedir", "features": {"command": "yes", "who": "we"}}
+				{"english": "Ask for!", "foreign": "Peça!", "mark": [{"text": "a", "role": "ending"}], "base": "pedir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Ask for! said to more than one person", "foreign": "Peçam!", "mark": [{"text": "am", "role": "ending"}], "base": "pedir", "features": {"command": "yes", "who": "you-all"}},
+				{"english": "Do not ask for!", "foreign": "Não peça!", "mark": [{"text": "Não", "role": "helper word"}], "from": 1, "base": "pedir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask for!", "foreign": "Vamos pedir!", "mark": [{"text": "Vamos", "role": "helper word"}], "base": "pedir", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 44, "verb": "seguir", "strategy": ["ending", "helper word"], "description": "To tell someone to do something, verbs ending in ar take e, and the others take a: Siga! To more than one person: Sigam! Telling someone not to puts não in front: Não siga! Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "Follow!", "foreign": "Siga!", "mark": [{"text": "a", "role": "ending"}], "base": "seguir", "features": {"command": "yes", "who": "you"}},

@@ -342,9 +342,9 @@
 			]},
 		{"job": "when", "part": 8, "verb": "sapere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho saputo. For later, the ending alone says so: saprò. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I know", "foreign": "so", "mark": [{"text": "o", "role": "ending"}], "base": "sapere", "features": {"who": "i", "when": "now"}},
-				{"english": "I knew", "foreign": "ho saputo", "mark": [{"text": "ho", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "sapere", "features": {"who": "i", "when": "before"}},
+				{"english": "I found out", "foreign": "ho saputo", "mark": [{"text": "ho", "role": "helper word"}, {"text": "uto", "role": "ending"}], "from": 1, "base": "sapere", "features": {"who": "i", "when": "before"}},
 				{"english": "I will know", "foreign": "saprò", "mark": [{"text": "rò", "role": "ending"}], "from": 1, "base": "sapere", "features": {"who": "i", "when": "later"}},
-				{"english": "She knew", "foreign": "ha saputo", "mark": [{"text": "ha", "role": "helper word"}, {"text": "uto", "role": "ending"}], "base": "sapere", "features": {"who": "she", "when": "before"}}
+				{"english": "She found out", "foreign": "ha saputo", "mark": [{"text": "ha", "role": "helper word"}, {"text": "uto", "role": "ending"}], "base": "sapere", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 9, "verb": "volere", "strategy": ["ending", "helper word"], "description": "For before, a form of avere or essere goes in front and the verb changes: ho voluto. For later, the ending alone says so: vorrò. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I want", "foreign": "voglio", "mark": [{"text": "o", "role": "ending"}], "base": "volere", "features": {"who": "i", "when": "now"}},
@@ -898,12 +898,6 @@
 				{"english": "Do not eat!", "foreign": "Non mangiare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "mangiare", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's eat!", "foreign": "Mangiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "mangiare", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 8, "verb": "vivere", "strategy": ["ending", "helper word"], "description": "To a friend: Vivi! To someone you would call Lei: Viva! Telling a friend not to is non and the whole verb, unchanged: Non vivere!", "rows": [
-				{"english": "Live!", "foreign": "Vivi!", "mark": [{"text": "i", "role": "ending"}], "base": "vivere", "features": {"command": "yes", "who": "you"}},
-				{"english": "Live! said politely", "foreign": "Viva!", "mark": [{"text": "a", "role": "ending"}], "base": "vivere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not live!", "foreign": "Non vivere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "vivere", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's live!", "foreign": "Viviamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "vivere", "features": {"command": "yes", "who": "we"}}
-			]},
 		{"job": "command", "part": 9, "verb": "lavorare", "strategy": ["ending", "helper word"], "description": "To a friend: Lavora! To someone you would call Lei: Lavori! Telling a friend not to is non and the whole verb, unchanged: Non lavorare!", "rows": [
 				{"english": "Work!", "foreign": "Lavora!", "mark": [{"text": "a", "role": "ending"}], "base": "lavorare", "features": {"command": "yes", "who": "you"}},
 				{"english": "Work! said politely", "foreign": "Lavori!", "mark": [{"text": "i", "role": "ending"}], "base": "lavorare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
@@ -957,12 +951,6 @@
 				{"english": "Return! said politely", "foreign": "Torni!", "mark": [{"text": "i", "role": "ending"}], "base": "tornare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not return!", "foreign": "Non tornare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "tornare", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's return!", "foreign": "Torniamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "tornare", "features": {"command": "yes", "who": "we"}}
-			]},
-		{"job": "command", "part": 18, "verb": "arrivare", "strategy": ["ending", "helper word"], "description": "To a friend: Arriva! To someone you would call Lei: Arrivi! Telling a friend not to is non and the whole verb, unchanged: Non arrivare!", "rows": [
-				{"english": "Arrive!", "foreign": "Arriva!", "mark": [{"text": "a", "role": "ending"}], "base": "arrivare", "features": {"command": "yes", "who": "you"}},
-				{"english": "Arrive! said politely", "foreign": "Arrivi!", "mark": [{"text": "i", "role": "ending"}], "base": "arrivare", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not arrive!", "foreign": "Non arrivare!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "arrivare", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's arrive!", "foreign": "Arriviamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "arrivare", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 19, "verb": "guardare", "strategy": ["ending", "helper word"], "description": "To a friend: Guarda! To someone you would call Lei: Guardi! Telling a friend not to is non and the whole verb, unchanged: Non guardare!", "rows": [
 				{"english": "Look!", "foreign": "Guarda!", "mark": [{"text": "a", "role": "ending"}], "base": "guardare", "features": {"command": "yes", "who": "you"}},
@@ -1095,18 +1083,6 @@
 				{"english": "Answer! said politely", "foreign": "Risponda!", "mark": [{"text": "a", "role": "ending"}], "base": "rispondere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not answer!", "foreign": "Non rispondere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "rispondere", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's answer!", "foreign": "Rispondiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "rispondere", "features": {"command": "yes", "who": "we"}}
-			]},
-		{"job": "command", "part": 41, "verb": "perdere", "strategy": ["ending", "helper word"], "description": "To a friend: Perdi! To someone you would call Lei: Perda! Telling a friend not to is non and the whole verb, unchanged: Non perdere!", "rows": [
-				{"english": "Lose!", "foreign": "Perdi!", "mark": [{"text": "i", "role": "ending"}], "base": "perdere", "features": {"command": "yes", "who": "you"}},
-				{"english": "Lose! said politely", "foreign": "Perda!", "mark": [{"text": "a", "role": "ending"}], "base": "perdere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not lose!", "foreign": "Non perdere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "perdere", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's lose!", "foreign": "Perdiamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "perdere", "features": {"command": "yes", "who": "we"}}
-			]},
-		{"job": "command", "part": 42, "verb": "ricevere", "strategy": ["ending", "helper word"], "description": "To a friend: Ricevi! To someone you would call Lei: Riceva! Telling a friend not to is non and the whole verb, unchanged: Non ricevere!", "rows": [
-				{"english": "Receive!", "foreign": "Ricevi!", "mark": [{"text": "i", "role": "ending"}], "base": "ricevere", "features": {"command": "yes", "who": "you"}},
-				{"english": "Receive! said politely", "foreign": "Riceva!", "mark": [{"text": "a", "role": "ending"}], "base": "ricevere", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not receive!", "foreign": "Non ricevere!", "mark": [{"text": "Non", "role": "helper word"}], "from": 1, "base": "ricevere", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's receive!", "foreign": "Riceviamo!", "mark": [{"text": "iamo", "role": "ending"}], "base": "ricevere", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 43, "verb": "ordinare", "strategy": ["ending", "helper word"], "description": "To a friend: Ordina! To someone you would call Lei: Ordini! Telling a friend not to is non and the whole verb, unchanged: Non ordinare!", "rows": [
 				{"english": "Order!", "foreign": "Ordina!", "mark": [{"text": "a", "role": "ending"}], "base": "ordinare", "features": {"command": "yes", "who": "you"}},

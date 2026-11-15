@@ -102,6 +102,11 @@ def main() -> int:
             if verb[0] not in forms:
                 print(f"no forms for {verb[0]}: run make_forms.py")
                 return 1
+            if "no-" + job in verb[5:]:
+                # A lesson taken down after it was live: "Receive!" is right and nobody says it. Its part number stays
+                # spent, so the lessons after it keep their titles and their addresses.
+                parts[job] = parts.get(job, 1) + 1
+                continue
             if recipes["recipes"][job].get("skip") in verb[5:]:
                 continue
             parts[job] = parts.get(job, 1) + 1

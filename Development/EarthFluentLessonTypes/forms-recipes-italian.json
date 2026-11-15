@@ -116,7 +116,7 @@
 	},
 
 	"verbs": {
-		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as 'I am knowing' or 'Know!', and are left out of those two jobs. Left out on purpose: essere and stare, which need lessons of their own; potere and dovere, which are the want-can-must job; leggere and mettere, whose English is the same now and before.",
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as 'I am knowing' or 'Know!', and are left out of those two jobs. The before of know is `found out`: supe, j'ai su and ho saputo are the moment of learning a thing, not the knowing of it. `no-command` takes a verb's command lesson down without renumbering the ones after it: Live!, Arrive!, Lose! and Receive! are right and nobody says them. Left out on purpose: essere and stare, which need lessons of their own; potere and dovere, which are the want-can-must job; leggere and mettere, whose English is the same now and before.",
 		"list": [
 			["avere", "have", "has", "had", "having", "stative"],
 			["fare", "make", "makes", "made", "making"],
@@ -124,11 +124,11 @@
 			["dire", "say", "says", "said", "saying"],
 			["vedere", "see", "sees", "saw", "seeing", "stative"],
 			["dare", "give", "gives", "gave", "giving"],
-			["sapere", "know", "knows", "knew", "knowing", "stative"],
+			["sapere", "know", "knows", "found out", "knowing", "stative"],
 			["volere", "want", "wants", "wanted", "wanting", "stative"],
 			["venire", "come", "comes", "came", "coming"],
 			["mangiare", "eat", "eats", "ate", "eating"],
-			["vivere", "live", "lives", "lived", "living"],
+			["vivere", "live", "lives", "lived", "living", "no-command"],
 			["lavorare", "work", "works", "worked", "working"],
 			["pensare", "think", "thinks", "thought", "thinking"],
 			["prendere", "take", "takes", "took", "taking"],
@@ -138,7 +138,7 @@
 			["dormire", "sleep", "sleeps", "slept", "sleeping"],
 			["uscire", "go out", "goes out", "went out", "going out"],
 			["tornare", "return", "returns", "returned", "returning"],
-			["arrivare", "arrive", "arrives", "arrived", "arriving"],
+			["arrivare", "arrive", "arrives", "arrived", "arriving", "no-command"],
 			["guardare", "look", "looks", "looked", "looking"],
 			["aspettare", "wait", "waits", "waited", "waiting"],
 			["cercare", "search", "searches", "searched", "searching"],
@@ -163,8 +163,8 @@
 			["viaggiare", "travel", "travels", "travelled", "travelling"],
 			["chiedere", "ask", "asks", "asked", "asking"],
 			["rispondere", "answer", "answers", "answered", "answering"],
-			["perdere", "lose", "loses", "lost", "losing"],
-			["ricevere", "receive", "receives", "received", "receiving"],
+			["perdere", "lose", "loses", "lost", "losing", "no-command"],
+			["ricevere", "receive", "receives", "received", "receiving", "no-command"],
 			["ordinare", "order", "orders", "ordered", "ordering"],
 			["seguire", "follow", "follows", "followed", "following"],
 			["sentire", "feel", "feels", "felt", "feeling", "stative"]

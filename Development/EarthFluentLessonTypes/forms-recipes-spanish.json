@@ -105,7 +105,7 @@
 	},
 
 	"verbs": {
-		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as 'I am knowing' or 'Know!', and are left out of those two jobs. Left out on purpose: ser, estar, and haber, which need lessons of their own; poder and deber, which are the want-can-must job; leer and poner, whose English is the same now and before.",
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as 'I am knowing' or 'Know!', and are left out of those two jobs. The before of know is `found out`: supe, j'ai su and ho saputo are the moment of learning a thing, not the knowing of it. `no-command` takes a verb's command lesson down without renumbering the ones after it: Live!, Arrive!, Lose! and Receive! are right and nobody says them. Left out on purpose: ser, estar, and haber, which need lessons of their own; poder and deber, which are the want-can-must job; leer and poner, whose English is the same now and before.",
 		"list": [
 			["tener", "have", "has", "had", "having", "stative"],
 			["hacer", "make", "makes", "made", "making"],
@@ -113,11 +113,11 @@
 			["decir", "say", "says", "said", "saying"],
 			["ver", "see", "sees", "saw", "seeing", "stative"],
 			["dar", "give", "gives", "gave", "giving"],
-			["saber", "know", "knows", "knew", "knowing", "stative"],
+			["saber", "know", "knows", "found out", "knowing", "stative"],
 			["querer", "want", "wants", "wanted", "wanting", "stative"],
 			["venir", "come", "comes", "came", "coming"],
 			["comer", "eat", "eats", "ate", "eating"],
-			["vivir", "live", "lives", "lived", "living"],
+			["vivir", "live", "lives", "lived", "living", "no-command"],
 			["trabajar", "work", "works", "worked", "working"],
 			["pensar", "think", "thinks", "thought", "thinking"],
 			["tomar", "take", "takes", "took", "taking"],
@@ -127,7 +127,7 @@
 			["dormir", "sleep", "sleeps", "slept", "sleeping"],
 			["salir", "go out", "goes out", "went out", "going out"],
 			["volver", "return", "returns", "returned", "returning"],
-			["llegar", "arrive", "arrives", "arrived", "arriving"],
+			["llegar", "arrive", "arrives", "arrived", "arriving", "no-command"],
 			["mirar", "look", "looks", "looked", "looking"],
 			["esperar", "wait", "waits", "waited", "waiting"],
 			["buscar", "search", "searches", "searched", "searching"],
@@ -152,9 +152,9 @@
 			["viajar", "travel", "travels", "travelled", "travelling"],
 			["preguntar", "ask", "asks", "asked", "asking"],
 			["responder", "answer", "answers", "answered", "answering"],
-			["perder", "lose", "loses", "lost", "losing"],
-			["recibir", "receive", "receives", "received", "receiving"],
-			["pedir", "order", "orders", "ordered", "ordering"],
+			["perder", "lose", "loses", "lost", "losing", "no-command"],
+			["recibir", "receive", "receives", "received", "receiving", "no-command"],
+			["pedir", "ask for", "asks for", "asked for", "asking for"],
 			["seguir", "follow", "follows", "followed", "following"],
 			["sentir", "feel", "feels", "felt", "feeling", "stative"]
 		]
