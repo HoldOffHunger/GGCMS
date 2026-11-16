@@ -49,13 +49,14 @@ needs a new line there or it will not be shown.
 | `skip_tags`, `skip_prefixes` | Forms of the dump to ignore |
 | `all_tables` | Read every table of the entry, not only the first (German, whose perfect and future are in later tables) |
 | `helper_tags`, `helper_prefers`, `helper_of`, `helper_default`, `helper_verbs` | Which helper a verb takes: from the dump, or a default with exceptions (Dutch) |
+| `built`, `patterns`, `separable_verbs` | A language whose verb never changes: each form is `pattern` around the dictionary word, with `reading` (pinyin) and `sandhi`; the dump is asked only whether it is a verb and for its sound (Chinese) |
 | `strip_inner_accents` + `accented_monosyllables`, `strip_marks` | Remove the dump's stress marks (Italian, Russian) |
 | `class_letters` | How many final letters sort a verb into a class (Italian 3) |
 | `elide` | Little words that lose their vowel (`je` → `j'`) |
 | `endings` | Regular endings by tense and class (`"*"` for every verb). The board lights the longest one a form ends in; `""` in a list means having no ending is regular |
 | `recipes` | Per job: `strategy`, `description` (`{1}`..`{4}` are the rows), `own_way`, optional `skip`, and four `rows`: `english` template, `features`, optional `endings`, `wrap`, `capital`, `words`, `from`, `mark_part`, `says` |
 | `middle`, `splits` | Sentences added when a stem changed, or the verb splits in two |
-| `verbs.list` | `[word, base, she-form, past, ing, flags...]`. Flags: `stative` (skipped by recipes with `"skip": "stative"`, no number spent), `no-<job>` (lesson taken down, **its part number stays spent**), `splits` |
+| `verbs.list` | `[word, base, she-form, past, ing, flags...]`. Flags: `stative` (skipped by recipes with `"skip": "stative"`, no number spent), `no-<job>` (lesson taken down, **its part number stays spent**), `splits`. A row can also say `mark_form` (light the verb itself) and its `words` can be `{"text", "role"}` (`了` as a particle) |
 
 **Part numbers are positions in `verbs.list`.** Never reorder or delete a verb in a language that is live: append, or
 flag it `no-<job>`. Otherwise every later lesson's title and address shifts.
@@ -116,7 +117,8 @@ After any generator change, regenerate the languages already done and confirm th
 | Dutch | yes | yes | yes | Seven split verbs. Helper is `hebben` unless `helper_of` or `helper_of_endings` says |
 | Russian | yes | yes | yes | Tables show the partner's forms as "finished" columns. No aspect-pair lessons yet |
 | Polish | yes | yes | yes | As Russian; the dump names fewer partners |
-| Chinese, Japanese, Korean, Hindi, Indonesian | no | no | no | They do these jobs with particles, helper words or nothing. Their dumps have not been looked at |
+| Chinese | yes | yes | no | `built`: forms are patterns around the verb (`了`, `在`, `会`), with pinyin from the dump. No who-by-when grid: the page lists the forms |
+| Japanese, Korean, Hindi, Indonesian | no | no | no | Their dumps have not been looked at. Chinese's `built` mode may suit Indonesian; Japanese, Korean and Hindi do change their verbs |
 
 Everything above was shipped to prod on 16 November 2026 (by Opus, from Fable's batch): the wrong-course address fix,
 Russian and Polish, the corrected Spanish and French verbs' tables, the German and Dutch split-verb lessons, and the

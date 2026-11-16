@@ -67,6 +67,85 @@ def agreed(part: str, change: str) -> str:
     return part[:-1] + change[1:] if change.startswith("-") else part + change
 
 
+FOURTH = set("àèìòùǜ")
+
+
+def pinyin_of(entry: dict) -> str:
+    """The Mandarin pinyin the dump gives first: 'chī (chi¹)' is chī. Standard is not always tagged (上升), and the dialects
+    are Mandarin too, so a reading with tone numbers in it (Chengdu's ci², Cantonese's gong¹) is not the one."""
+    for sound in entry.get("sounds", []):
+        tags, said = set(sound.get("tags", [])), sound.get("zh_pron", "")
+        reading = said.split(" (")[0].split(",")[0].split("／")[0].strip()
+        if {"Mandarin", "Pinyin"} <= tags and reading and not any(char.isdigit() for char in reading)                 and not tags & {"Sichuanese", "Chengdu", "Xi'an", "Nanjing", "Dungan", "Wiktionary-specific"}                 and all(ord(char) < 0x2E80 for char in reading):
+            return reading
+    return ""
+
+
+def is_verb(entry: dict) -> bool:
+    """A verb entry, or a character entry whose senses are verbs: the dump files 吃 as a character, glossed 'to eat'"""
+    if entry.get("pos") == "verb":
+        return True
+    return entry.get("pos") == "character" and any(gloss.startswith("to ") for sense in entry.get("senses", [])
+                                                     for gloss in sense.get("glosses", [])[:1])
+
+
+def scan_built(dump: Path, targets: set) -> dict:
+    """What the dump says of each target word: whether it is a verb, its pinyin, and where a simplified spelling redirects"""
+    found = {}
+    with dump.open(encoding="utf-8") as lines:
+        for line in lines:
+            if '"pos": "verb"' not in line and '"pos": "character"' not in line and '"pos": "soft-redirect"' not in line:
+                continue
+            entry = json.loads(line)
+            word = entry.get("word")
+            if word not in targets:
+                continue
+            if entry.get("pos") == "soft-redirect" or entry.get("redirects"):  # 听 is a character entry that only redirects to 聽
+                found.setdefault(word, {}).setdefault("redirect", (entry.get("redirects") or [""])[0])
+                continue
+            known = found.setdefault(word, {})
+            if is_verb(entry) and not known.get("verb"):
+                known["verb"], known["pinyin"] = True, pinyin_of(entry) or known.get("pinyin", "")
+            elif not known.get("pinyin"):
+                known["pinyin"] = pinyin_of(entry)
+    return found
+
+
+def read_built(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
+    """A language whose verbs never change: each form is a pattern around the dictionary word (了 after it, 在 in front),
+    and the dump is asked only whether the word is a verb, and for its pinyin. The pinyin goes into the form as a table
+    shows it (吃了 (chī le)); the Play button speaks what is outside the brackets."""
+    found = scan_built(dump, wanted)
+    targets = {info["redirect"] for info in found.values() if info.get("redirect")} - set(found)
+    if targets:  # 睡觉 redirects to 睡覺, which holds the senses and the sound
+        found.update(scan_built(dump, targets))
+    verbs, missing = {}, []
+    separable = set(recipes.get("separable_verbs", []))
+    for word in sorted(wanted):
+        info = found.get(word, {})
+        if info.get("redirect") and not info.get("verb"):  # the traditional entry's sound, not 听's own as another word (yǐn)
+            info = found.get(info["redirect"], {})
+        if not info.get("verb"):
+            continue
+        pinyin = info.get("pinyin", "")
+        forms = []
+        for slot in recipes["patterns"]:
+            if slot.get("not_separable") and word in separable:
+                continue  # 唱过歌, not 唱歌过: the particle goes inside, and the pinyin cannot be split there by rule
+            form = {"form": slot["pattern"].format(word), "features": slot["features"]}
+            if pinyin:
+                reading = pinyin
+                if slot.get("sandhi") and next((char for char in pinyin if char in FOURTH | set("āáǎēéěīíǐōóǒūúǔǖǘǚ")), "") in FOURTH:
+                    form["shown"] = f'{form["form"]} ({slot["sandhi"].format(reading)})'  # 不 is bú before a fourth tone
+                else:
+                    form["shown"] = f'{form["form"]} ({slot["reading"].format(reading)})'
+            forms.append(form)
+        if not pinyin:
+            missing.append((word, {"pinyin": "none in the dump"}))
+        verbs[word] = forms
+    return verbs, missing
+
+
 def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
     skip = set(recipes["skip_tags"])
     verbs, missing = {}, []
@@ -172,10 +251,13 @@ def main() -> int:
         if argument.startswith("--verbs="):
             wanted |= {line.strip().lower() for line in Path(argument[8:]).read_text(encoding="utf-8").splitlines() if line.strip()}
     dump = folder / language / recipes["dump"]
-    if "partner_tags" in recipes:  # the partners must be read too, and are only known once their verbs have been
-        first, _ = read(recipes, dump, wanted)
-        wanted = wanted | {form["form"] for forms in first.values() for form in forms if form["features"] == {"form": "partner"}}
-    verbs, missing = read(recipes, dump, wanted)
+    if recipes.get("built"):
+        verbs, missing = read_built(recipes, dump, wanted)
+    else:
+        if "partner_tags" in recipes:  # the partners must be read too, and are only known once their verbs have been
+            first, _ = read(recipes, dump, wanted)
+            wanted = wanted | {form["form"] for forms in first.values() for form in forms if form["features"] == {"form": "partner"}}
+        verbs, missing = read(recipes, dump, wanted)
     out = {"language": language, "translation_language": recipes["translation_language"],
            "source": "English Wiktionary, by way of kaikki.org's extract. Made by make_forms.py: do not edit by hand.",
            "verbs": dict(sorted(verbs.items()))}

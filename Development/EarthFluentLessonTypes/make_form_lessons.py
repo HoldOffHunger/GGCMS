@@ -69,9 +69,13 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
             if mark["text"] not in text and mark["text"][0].upper() + mark["text"][1:] in text:
                 mark["text"] = mark["text"][0].upper() + mark["text"][1:]
         for word in slot.get("words", []):  # a word the wrap added that does the job: No, or Ne and pas. A list is its spellings.
-            spelt = next((option for option in ([word] if isinstance(word, str) else word) if option in text), "")
+            role = word.get("role", "helper word") if isinstance(word, dict) else "helper word"  # 了 is a particle, not a helper
+            options = [word["text"]] if isinstance(word, dict) else [word] if isinstance(word, str) else word
+            spelt = next((option for option in options if option in text), "")
             if spelt:
-                marks.append({"text": spelt, "role": "helper word"})
+                marks.append({"text": spelt, "role": role})
+        if slot.get("mark_form"):  # the verb itself, lit to show it does not change: 我去, 你去, 她去
+            marks.append({"text": form, "role": slot["mark_form"]})
         if slot.get("mark_part") and "part" in entry:  # the whole changed verb is lit, where it has no one ending to point at: gegangen
             marks.append({"text": entry["part"], "role": "ending"})
         if "endings" in slot:

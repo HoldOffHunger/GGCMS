@@ -1,0 +1,1100 @@
+{
+	"language": "chinese",
+	"translation_language": "zh",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-chinese.json and the recipes in forms-recipes-chinese.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "来", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我来, 你来, 她来, 我们来. Only the word in front says who.", "rows": [
+				{"english": "I come", "foreign": "我来", "mark": [{"text": "来", "role": "nothing"}], "base": "来", "features": {"who": "i", "when": "now"}},
+				{"english": "You come", "foreign": "你来", "mark": [{"text": "来", "role": "nothing"}], "base": "来", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes", "foreign": "她来", "mark": [{"text": "来", "role": "nothing"}], "base": "来", "features": {"who": "she", "when": "now"}},
+				{"english": "We come", "foreign": "我们来", "mark": [{"text": "来", "role": "nothing"}], "base": "来", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "吃", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我吃, 你吃, 她吃, 我们吃. Only the word in front says who.", "rows": [
+				{"english": "I eat", "foreign": "我吃", "mark": [{"text": "吃", "role": "nothing"}], "base": "吃", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "你吃", "mark": [{"text": "吃", "role": "nothing"}], "base": "吃", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "她吃", "mark": [{"text": "吃", "role": "nothing"}], "base": "吃", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "我们吃", "mark": [{"text": "吃", "role": "nothing"}], "base": "吃", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "喝", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我喝, 你喝, 她喝, 我们喝. Only the word in front says who.", "rows": [
+				{"english": "I drink", "foreign": "我喝", "mark": [{"text": "喝", "role": "nothing"}], "base": "喝", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "你喝", "mark": [{"text": "喝", "role": "nothing"}], "base": "喝", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "她喝", "mark": [{"text": "喝", "role": "nothing"}], "base": "喝", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "我们喝", "mark": [{"text": "喝", "role": "nothing"}], "base": "喝", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "看", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我看, 你看, 她看, 我们看. Only the word in front says who.", "rows": [
+				{"english": "I watch", "foreign": "我看", "mark": [{"text": "看", "role": "nothing"}], "base": "看", "features": {"who": "i", "when": "now"}},
+				{"english": "You watch", "foreign": "你看", "mark": [{"text": "看", "role": "nothing"}], "base": "看", "features": {"who": "you", "when": "now"}},
+				{"english": "She watches", "foreign": "她看", "mark": [{"text": "看", "role": "nothing"}], "base": "看", "features": {"who": "she", "when": "now"}},
+				{"english": "We watch", "foreign": "我们看", "mark": [{"text": "看", "role": "nothing"}], "base": "看", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "听", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我听, 你听, 她听, 我们听. Only the word in front says who.", "rows": [
+				{"english": "I listen", "foreign": "我听", "mark": [{"text": "听", "role": "nothing"}], "base": "听", "features": {"who": "i", "when": "now"}},
+				{"english": "You listen", "foreign": "你听", "mark": [{"text": "听", "role": "nothing"}], "base": "听", "features": {"who": "you", "when": "now"}},
+				{"english": "She listens", "foreign": "她听", "mark": [{"text": "听", "role": "nothing"}], "base": "听", "features": {"who": "she", "when": "now"}},
+				{"english": "We listen", "foreign": "我们听", "mark": [{"text": "听", "role": "nothing"}], "base": "听", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "说", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我说, 你说, 她说, 我们说. Only the word in front says who.", "rows": [
+				{"english": "I speak", "foreign": "我说", "mark": [{"text": "说", "role": "nothing"}], "base": "说", "features": {"who": "i", "when": "now"}},
+				{"english": "You speak", "foreign": "你说", "mark": [{"text": "说", "role": "nothing"}], "base": "说", "features": {"who": "you", "when": "now"}},
+				{"english": "She speaks", "foreign": "她说", "mark": [{"text": "说", "role": "nothing"}], "base": "说", "features": {"who": "she", "when": "now"}},
+				{"english": "We speak", "foreign": "我们说", "mark": [{"text": "说", "role": "nothing"}], "base": "说", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "写", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我写, 你写, 她写, 我们写. Only the word in front says who.", "rows": [
+				{"english": "I write", "foreign": "我写", "mark": [{"text": "写", "role": "nothing"}], "base": "写", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "你写", "mark": [{"text": "写", "role": "nothing"}], "base": "写", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "她写", "mark": [{"text": "写", "role": "nothing"}], "base": "写", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "我们写", "mark": [{"text": "写", "role": "nothing"}], "base": "写", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "走", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我走, 你走, 她走, 我们走. Only the word in front says who.", "rows": [
+				{"english": "I walk", "foreign": "我走", "mark": [{"text": "走", "role": "nothing"}], "base": "走", "features": {"who": "i", "when": "now"}},
+				{"english": "You walk", "foreign": "你走", "mark": [{"text": "走", "role": "nothing"}], "base": "走", "features": {"who": "you", "when": "now"}},
+				{"english": "She walks", "foreign": "她走", "mark": [{"text": "走", "role": "nothing"}], "base": "走", "features": {"who": "she", "when": "now"}},
+				{"english": "We walk", "foreign": "我们走", "mark": [{"text": "走", "role": "nothing"}], "base": "走", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "跑", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我跑, 你跑, 她跑, 我们跑. Only the word in front says who.", "rows": [
+				{"english": "I run", "foreign": "我跑", "mark": [{"text": "跑", "role": "nothing"}], "base": "跑", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "你跑", "mark": [{"text": "跑", "role": "nothing"}], "base": "跑", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "她跑", "mark": [{"text": "跑", "role": "nothing"}], "base": "跑", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "我们跑", "mark": [{"text": "跑", "role": "nothing"}], "base": "跑", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "买", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我买, 你买, 她买, 我们买. Only the word in front says who.", "rows": [
+				{"english": "I buy", "foreign": "我买", "mark": [{"text": "买", "role": "nothing"}], "base": "买", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "你买", "mark": [{"text": "买", "role": "nothing"}], "base": "买", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "她买", "mark": [{"text": "买", "role": "nothing"}], "base": "买", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "我们买", "mark": [{"text": "买", "role": "nothing"}], "base": "买", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "卖", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我卖, 你卖, 她卖, 我们卖. Only the word in front says who.", "rows": [
+				{"english": "I sell", "foreign": "我卖", "mark": [{"text": "卖", "role": "nothing"}], "base": "卖", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "你卖", "mark": [{"text": "卖", "role": "nothing"}], "base": "卖", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "她卖", "mark": [{"text": "卖", "role": "nothing"}], "base": "卖", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "我们卖", "mark": [{"text": "卖", "role": "nothing"}], "base": "卖", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "等", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我等, 你等, 她等, 我们等. Only the word in front says who.", "rows": [
+				{"english": "I wait", "foreign": "我等", "mark": [{"text": "等", "role": "nothing"}], "base": "等", "features": {"who": "i", "when": "now"}},
+				{"english": "You wait", "foreign": "你等", "mark": [{"text": "等", "role": "nothing"}], "base": "等", "features": {"who": "you", "when": "now"}},
+				{"english": "She waits", "foreign": "她等", "mark": [{"text": "等", "role": "nothing"}], "base": "等", "features": {"who": "she", "when": "now"}},
+				{"english": "We wait", "foreign": "我们等", "mark": [{"text": "等", "role": "nothing"}], "base": "等", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "找", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我找, 你找, 她找, 我们找. Only the word in front says who.", "rows": [
+				{"english": "I look for", "foreign": "我找", "mark": [{"text": "找", "role": "nothing"}], "base": "找", "features": {"who": "i", "when": "now"}},
+				{"english": "You look for", "foreign": "你找", "mark": [{"text": "找", "role": "nothing"}], "base": "找", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks for", "foreign": "她找", "mark": [{"text": "找", "role": "nothing"}], "base": "找", "features": {"who": "she", "when": "now"}},
+				{"english": "We look for", "foreign": "我们找", "mark": [{"text": "找", "role": "nothing"}], "base": "找", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "想", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我想, 你想, 她想, 我们想. Only the word in front says who.", "rows": [
+				{"english": "I think", "foreign": "我想", "mark": [{"text": "想", "role": "nothing"}], "base": "想", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "你想", "mark": [{"text": "想", "role": "nothing"}], "base": "想", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "她想", "mark": [{"text": "想", "role": "nothing"}], "base": "想", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "我们想", "mark": [{"text": "想", "role": "nothing"}], "base": "想", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "笑", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我笑, 你笑, 她笑, 我们笑. Only the word in front says who.", "rows": [
+				{"english": "I laugh", "foreign": "我笑", "mark": [{"text": "笑", "role": "nothing"}], "base": "笑", "features": {"who": "i", "when": "now"}},
+				{"english": "You laugh", "foreign": "你笑", "mark": [{"text": "笑", "role": "nothing"}], "base": "笑", "features": {"who": "you", "when": "now"}},
+				{"english": "She laughs", "foreign": "她笑", "mark": [{"text": "笑", "role": "nothing"}], "base": "笑", "features": {"who": "she", "when": "now"}},
+				{"english": "We laugh", "foreign": "我们笑", "mark": [{"text": "笑", "role": "nothing"}], "base": "笑", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "哭", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我哭, 你哭, 她哭, 我们哭. Only the word in front says who.", "rows": [
+				{"english": "I cry", "foreign": "我哭", "mark": [{"text": "哭", "role": "nothing"}], "base": "哭", "features": {"who": "i", "when": "now"}},
+				{"english": "You cry", "foreign": "你哭", "mark": [{"text": "哭", "role": "nothing"}], "base": "哭", "features": {"who": "you", "when": "now"}},
+				{"english": "She cries", "foreign": "她哭", "mark": [{"text": "哭", "role": "nothing"}], "base": "哭", "features": {"who": "she", "when": "now"}},
+				{"english": "We cry", "foreign": "我们哭", "mark": [{"text": "哭", "role": "nothing"}], "base": "哭", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "玩", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我玩, 你玩, 她玩, 我们玩. Only the word in front says who.", "rows": [
+				{"english": "I play", "foreign": "我玩", "mark": [{"text": "玩", "role": "nothing"}], "base": "玩", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "你玩", "mark": [{"text": "玩", "role": "nothing"}], "base": "玩", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "她玩", "mark": [{"text": "玩", "role": "nothing"}], "base": "玩", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "我们玩", "mark": [{"text": "玩", "role": "nothing"}], "base": "玩", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "唱歌", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我唱歌, 你唱歌, 她唱歌, 我们唱歌. Only the word in front says who.", "rows": [
+				{"english": "I sing", "foreign": "我唱歌", "mark": [{"text": "唱歌", "role": "nothing"}], "base": "唱歌", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "你唱歌", "mark": [{"text": "唱歌", "role": "nothing"}], "base": "唱歌", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "她唱歌", "mark": [{"text": "唱歌", "role": "nothing"}], "base": "唱歌", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "我们唱歌", "mark": [{"text": "唱歌", "role": "nothing"}], "base": "唱歌", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "跳舞", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我跳舞, 你跳舞, 她跳舞, 我们跳舞. Only the word in front says who.", "rows": [
+				{"english": "I dance", "foreign": "我跳舞", "mark": [{"text": "跳舞", "role": "nothing"}], "base": "跳舞", "features": {"who": "i", "when": "now"}},
+				{"english": "You dance", "foreign": "你跳舞", "mark": [{"text": "跳舞", "role": "nothing"}], "base": "跳舞", "features": {"who": "you", "when": "now"}},
+				{"english": "She dances", "foreign": "她跳舞", "mark": [{"text": "跳舞", "role": "nothing"}], "base": "跳舞", "features": {"who": "she", "when": "now"}},
+				{"english": "We dance", "foreign": "我们跳舞", "mark": [{"text": "跳舞", "role": "nothing"}], "base": "跳舞", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "游泳", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我游泳, 你游泳, 她游泳, 我们游泳. Only the word in front says who.", "rows": [
+				{"english": "I swim", "foreign": "我游泳", "mark": [{"text": "游泳", "role": "nothing"}], "base": "游泳", "features": {"who": "i", "when": "now"}},
+				{"english": "You swim", "foreign": "你游泳", "mark": [{"text": "游泳", "role": "nothing"}], "base": "游泳", "features": {"who": "you", "when": "now"}},
+				{"english": "She swims", "foreign": "她游泳", "mark": [{"text": "游泳", "role": "nothing"}], "base": "游泳", "features": {"who": "she", "when": "now"}},
+				{"english": "We swim", "foreign": "我们游泳", "mark": [{"text": "游泳", "role": "nothing"}], "base": "游泳", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "工作", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我工作, 你工作, 她工作, 我们工作. Only the word in front says who.", "rows": [
+				{"english": "I work", "foreign": "我工作", "mark": [{"text": "工作", "role": "nothing"}], "base": "工作", "features": {"who": "i", "when": "now"}},
+				{"english": "You work", "foreign": "你工作", "mark": [{"text": "工作", "role": "nothing"}], "base": "工作", "features": {"who": "you", "when": "now"}},
+				{"english": "She works", "foreign": "她工作", "mark": [{"text": "工作", "role": "nothing"}], "base": "工作", "features": {"who": "she", "when": "now"}},
+				{"english": "We work", "foreign": "我们工作", "mark": [{"text": "工作", "role": "nothing"}], "base": "工作", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "学习", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我学习, 你学习, 她学习, 我们学习. Only the word in front says who.", "rows": [
+				{"english": "I study", "foreign": "我学习", "mark": [{"text": "学习", "role": "nothing"}], "base": "学习", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "你学习", "mark": [{"text": "学习", "role": "nothing"}], "base": "学习", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "她学习", "mark": [{"text": "学习", "role": "nothing"}], "base": "学习", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "我们学习", "mark": [{"text": "学习", "role": "nothing"}], "base": "学习", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "休息", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我休息, 你休息, 她休息, 我们休息. Only the word in front says who.", "rows": [
+				{"english": "I rest", "foreign": "我休息", "mark": [{"text": "休息", "role": "nothing"}], "base": "休息", "features": {"who": "i", "when": "now"}},
+				{"english": "You rest", "foreign": "你休息", "mark": [{"text": "休息", "role": "nothing"}], "base": "休息", "features": {"who": "you", "when": "now"}},
+				{"english": "She rests", "foreign": "她休息", "mark": [{"text": "休息", "role": "nothing"}], "base": "休息", "features": {"who": "she", "when": "now"}},
+				{"english": "We rest", "foreign": "我们休息", "mark": [{"text": "休息", "role": "nothing"}], "base": "休息", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "开始", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我开始, 你开始, 她开始, 我们开始. Only the word in front says who.", "rows": [
+				{"english": "I begin", "foreign": "我开始", "mark": [{"text": "开始", "role": "nothing"}], "base": "开始", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "你开始", "mark": [{"text": "开始", "role": "nothing"}], "base": "开始", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "她开始", "mark": [{"text": "开始", "role": "nothing"}], "base": "开始", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "我们开始", "mark": [{"text": "开始", "role": "nothing"}], "base": "开始", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "帮忙", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我帮忙, 你帮忙, 她帮忙, 我们帮忙. Only the word in front says who.", "rows": [
+				{"english": "I help", "foreign": "我帮忙", "mark": [{"text": "帮忙", "role": "nothing"}], "base": "帮忙", "features": {"who": "i", "when": "now"}},
+				{"english": "You help", "foreign": "你帮忙", "mark": [{"text": "帮忙", "role": "nothing"}], "base": "帮忙", "features": {"who": "you", "when": "now"}},
+				{"english": "She helps", "foreign": "她帮忙", "mark": [{"text": "帮忙", "role": "nothing"}], "base": "帮忙", "features": {"who": "she", "when": "now"}},
+				{"english": "We help", "foreign": "我们帮忙", "mark": [{"text": "帮忙", "role": "nothing"}], "base": "帮忙", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "回来", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我回来, 你回来, 她回来, 我们回来. Only the word in front says who.", "rows": [
+				{"english": "I come back", "foreign": "我回来", "mark": [{"text": "回来", "role": "nothing"}], "base": "回来", "features": {"who": "i", "when": "now"}},
+				{"english": "You come back", "foreign": "你回来", "mark": [{"text": "回来", "role": "nothing"}], "base": "回来", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes back", "foreign": "她回来", "mark": [{"text": "回来", "role": "nothing"}], "base": "回来", "features": {"who": "she", "when": "now"}},
+				{"english": "We come back", "foreign": "我们回来", "mark": [{"text": "回来", "role": "nothing"}], "base": "回来", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "出去", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我出去, 你出去, 她出去, 我们出去. Only the word in front says who.", "rows": [
+				{"english": "I go out", "foreign": "我出去", "mark": [{"text": "出去", "role": "nothing"}], "base": "出去", "features": {"who": "i", "when": "now"}},
+				{"english": "You go out", "foreign": "你出去", "mark": [{"text": "出去", "role": "nothing"}], "base": "出去", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes out", "foreign": "她出去", "mark": [{"text": "出去", "role": "nothing"}], "base": "出去", "features": {"who": "she", "when": "now"}},
+				{"english": "We go out", "foreign": "我们出去", "mark": [{"text": "出去", "role": "nothing"}], "base": "出去", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "进来", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我进来, 你进来, 她进来, 我们进来. Only the word in front says who.", "rows": [
+				{"english": "I come in", "foreign": "我进来", "mark": [{"text": "进来", "role": "nothing"}], "base": "进来", "features": {"who": "i", "when": "now"}},
+				{"english": "You come in", "foreign": "你进来", "mark": [{"text": "进来", "role": "nothing"}], "base": "进来", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes in", "foreign": "她进来", "mark": [{"text": "进来", "role": "nothing"}], "base": "进来", "features": {"who": "she", "when": "now"}},
+				{"english": "We come in", "foreign": "我们进来", "mark": [{"text": "进来", "role": "nothing"}], "base": "进来", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "旅行", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我旅行, 你旅行, 她旅行, 我们旅行. Only the word in front says who.", "rows": [
+				{"english": "I travel", "foreign": "我旅行", "mark": [{"text": "旅行", "role": "nothing"}], "base": "旅行", "features": {"who": "i", "when": "now"}},
+				{"english": "You travel", "foreign": "你旅行", "mark": [{"text": "旅行", "role": "nothing"}], "base": "旅行", "features": {"who": "you", "when": "now"}},
+				{"english": "She travels", "foreign": "她旅行", "mark": [{"text": "旅行", "role": "nothing"}], "base": "旅行", "features": {"who": "she", "when": "now"}},
+				{"english": "We travel", "foreign": "我们旅行", "mark": [{"text": "旅行", "role": "nothing"}], "base": "旅行", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "做饭", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我做饭, 你做饭, 她做饭, 我们做饭. Only the word in front says who.", "rows": [
+				{"english": "I cook", "foreign": "我做饭", "mark": [{"text": "做饭", "role": "nothing"}], "base": "做饭", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "你做饭", "mark": [{"text": "做饭", "role": "nothing"}], "base": "做饭", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "她做饭", "mark": [{"text": "做饭", "role": "nothing"}], "base": "做饭", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "我们做饭", "mark": [{"text": "做饭", "role": "nothing"}], "base": "做饭", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "打电话", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我打电话, 你打电话, 她打电话, 我们打电话. Only the word in front says who.", "rows": [
+				{"english": "I phone", "foreign": "我打电话", "mark": [{"text": "打电话", "role": "nothing"}], "base": "打电话", "features": {"who": "i", "when": "now"}},
+				{"english": "You phone", "foreign": "你打电话", "mark": [{"text": "打电话", "role": "nothing"}], "base": "打电话", "features": {"who": "you", "when": "now"}},
+				{"english": "She phones", "foreign": "她打电话", "mark": [{"text": "打电话", "role": "nothing"}], "base": "打电话", "features": {"who": "she", "when": "now"}},
+				{"english": "We phone", "foreign": "我们打电话", "mark": [{"text": "打电话", "role": "nothing"}], "base": "打电话", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "开车", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我开车, 你开车, 她开车, 我们开车. Only the word in front says who.", "rows": [
+				{"english": "I drive", "foreign": "我开车", "mark": [{"text": "开车", "role": "nothing"}], "base": "开车", "features": {"who": "i", "when": "now"}},
+				{"english": "You drive", "foreign": "你开车", "mark": [{"text": "开车", "role": "nothing"}], "base": "开车", "features": {"who": "you", "when": "now"}},
+				{"english": "She drives", "foreign": "她开车", "mark": [{"text": "开车", "role": "nothing"}], "base": "开车", "features": {"who": "she", "when": "now"}},
+				{"english": "We drive", "foreign": "我们开车", "mark": [{"text": "开车", "role": "nothing"}], "base": "开车", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "坐", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我坐, 你坐, 她坐, 我们坐. Only the word in front says who.", "rows": [
+				{"english": "I sit", "foreign": "我坐", "mark": [{"text": "坐", "role": "nothing"}], "base": "坐", "features": {"who": "i", "when": "now"}},
+				{"english": "You sit", "foreign": "你坐", "mark": [{"text": "坐", "role": "nothing"}], "base": "坐", "features": {"who": "you", "when": "now"}},
+				{"english": "She sits", "foreign": "她坐", "mark": [{"text": "坐", "role": "nothing"}], "base": "坐", "features": {"who": "she", "when": "now"}},
+				{"english": "We sit", "foreign": "我们坐", "mark": [{"text": "坐", "role": "nothing"}], "base": "坐", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "站", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我站, 你站, 她站, 我们站. Only the word in front says who.", "rows": [
+				{"english": "I stand", "foreign": "我站", "mark": [{"text": "站", "role": "nothing"}], "base": "站", "features": {"who": "i", "when": "now"}},
+				{"english": "You stand", "foreign": "你站", "mark": [{"text": "站", "role": "nothing"}], "base": "站", "features": {"who": "you", "when": "now"}},
+				{"english": "She stands", "foreign": "她站", "mark": [{"text": "站", "role": "nothing"}], "base": "站", "features": {"who": "she", "when": "now"}},
+				{"english": "We stand", "foreign": "我们站", "mark": [{"text": "站", "role": "nothing"}], "base": "站", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "飞", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我飞, 你飞, 她飞, 我们飞. Only the word in front says who.", "rows": [
+				{"english": "I fly", "foreign": "我飞", "mark": [{"text": "飞", "role": "nothing"}], "base": "飞", "features": {"who": "i", "when": "now"}},
+				{"english": "You fly", "foreign": "你飞", "mark": [{"text": "飞", "role": "nothing"}], "base": "飞", "features": {"who": "you", "when": "now"}},
+				{"english": "She flies", "foreign": "她飞", "mark": [{"text": "飞", "role": "nothing"}], "base": "飞", "features": {"who": "she", "when": "now"}},
+				{"english": "We fly", "foreign": "我们飞", "mark": [{"text": "飞", "role": "nothing"}], "base": "飞", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "问", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我问, 你问, 她问, 我们问. Only the word in front says who.", "rows": [
+				{"english": "I ask", "foreign": "我问", "mark": [{"text": "问", "role": "nothing"}], "base": "问", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "你问", "mark": [{"text": "问", "role": "nothing"}], "base": "问", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "她问", "mark": [{"text": "问", "role": "nothing"}], "base": "问", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "我们问", "mark": [{"text": "问", "role": "nothing"}], "base": "问", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "回答", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我回答, 你回答, 她回答, 我们回答. Only the word in front says who.", "rows": [
+				{"english": "I answer", "foreign": "我回答", "mark": [{"text": "回答", "role": "nothing"}], "base": "回答", "features": {"who": "i", "when": "now"}},
+				{"english": "You answer", "foreign": "你回答", "mark": [{"text": "回答", "role": "nothing"}], "base": "回答", "features": {"who": "you", "when": "now"}},
+				{"english": "She answers", "foreign": "她回答", "mark": [{"text": "回答", "role": "nothing"}], "base": "回答", "features": {"who": "she", "when": "now"}},
+				{"english": "We answer", "foreign": "我们回答", "mark": [{"text": "回答", "role": "nothing"}], "base": "回答", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "忘记", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我忘记, 你忘记, 她忘记, 我们忘记. Only the word in front says who.", "rows": [
+				{"english": "I forget", "foreign": "我忘记", "mark": [{"text": "忘记", "role": "nothing"}], "base": "忘记", "features": {"who": "i", "when": "now"}},
+				{"english": "You forget", "foreign": "你忘记", "mark": [{"text": "忘记", "role": "nothing"}], "base": "忘记", "features": {"who": "you", "when": "now"}},
+				{"english": "She forgets", "foreign": "她忘记", "mark": [{"text": "忘记", "role": "nothing"}], "base": "忘记", "features": {"who": "she", "when": "now"}},
+				{"english": "We forget", "foreign": "我们忘记", "mark": [{"text": "忘记", "role": "nothing"}], "base": "忘记", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "付钱", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我付钱, 你付钱, 她付钱, 我们付钱. Only the word in front says who.", "rows": [
+				{"english": "I pay", "foreign": "我付钱", "mark": [{"text": "付钱", "role": "nothing"}], "base": "付钱", "features": {"who": "i", "when": "now"}},
+				{"english": "You pay", "foreign": "你付钱", "mark": [{"text": "付钱", "role": "nothing"}], "base": "付钱", "features": {"who": "you", "when": "now"}},
+				{"english": "She pays", "foreign": "她付钱", "mark": [{"text": "付钱", "role": "nothing"}], "base": "付钱", "features": {"who": "she", "when": "now"}},
+				{"english": "We pay", "foreign": "我们付钱", "mark": [{"text": "付钱", "role": "nothing"}], "base": "付钱", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "洗澡", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我洗澡, 你洗澡, 她洗澡, 我们洗澡. Only the word in front says who.", "rows": [
+				{"english": "I take a bath", "foreign": "我洗澡", "mark": [{"text": "洗澡", "role": "nothing"}], "base": "洗澡", "features": {"who": "i", "when": "now"}},
+				{"english": "You take a bath", "foreign": "你洗澡", "mark": [{"text": "洗澡", "role": "nothing"}], "base": "洗澡", "features": {"who": "you", "when": "now"}},
+				{"english": "She takes a bath", "foreign": "她洗澡", "mark": [{"text": "洗澡", "role": "nothing"}], "base": "洗澡", "features": {"who": "she", "when": "now"}},
+				{"english": "We take a bath", "foreign": "我们洗澡", "mark": [{"text": "洗澡", "role": "nothing"}], "base": "洗澡", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "搬家", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我搬家, 你搬家, 她搬家, 我们搬家. Only the word in front says who.", "rows": [
+				{"english": "I move house", "foreign": "我搬家", "mark": [{"text": "搬家", "role": "nothing"}], "base": "搬家", "features": {"who": "i", "when": "now"}},
+				{"english": "You move house", "foreign": "你搬家", "mark": [{"text": "搬家", "role": "nothing"}], "base": "搬家", "features": {"who": "you", "when": "now"}},
+				{"english": "She moves house", "foreign": "她搬家", "mark": [{"text": "搬家", "role": "nothing"}], "base": "搬家", "features": {"who": "she", "when": "now"}},
+				{"english": "We move house", "foreign": "我们搬家", "mark": [{"text": "搬家", "role": "nothing"}], "base": "搬家", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "起床", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我起床, 你起床, 她起床, 我们起床. Only the word in front says who.", "rows": [
+				{"english": "I get up", "foreign": "我起床", "mark": [{"text": "起床", "role": "nothing"}], "base": "起床", "features": {"who": "i", "when": "now"}},
+				{"english": "You get up", "foreign": "你起床", "mark": [{"text": "起床", "role": "nothing"}], "base": "起床", "features": {"who": "you", "when": "now"}},
+				{"english": "She gets up", "foreign": "她起床", "mark": [{"text": "起床", "role": "nothing"}], "base": "起床", "features": {"who": "she", "when": "now"}},
+				{"english": "We get up", "foreign": "我们起床", "mark": [{"text": "起床", "role": "nothing"}], "base": "起床", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "点菜", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我点菜, 你点菜, 她点菜, 我们点菜. Only the word in front says who.", "rows": [
+				{"english": "I order", "foreign": "我点菜", "mark": [{"text": "点菜", "role": "nothing"}], "base": "点菜", "features": {"who": "i", "when": "now"}},
+				{"english": "You order", "foreign": "你点菜", "mark": [{"text": "点菜", "role": "nothing"}], "base": "点菜", "features": {"who": "you", "when": "now"}},
+				{"english": "She orders", "foreign": "她点菜", "mark": [{"text": "点菜", "role": "nothing"}], "base": "点菜", "features": {"who": "she", "when": "now"}},
+				{"english": "We order", "foreign": "我们点菜", "mark": [{"text": "点菜", "role": "nothing"}], "base": "点菜", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 45, "verb": "画画", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我画画, 你画画, 她画画, 我们画画. Only the word in front says who.", "rows": [
+				{"english": "I draw", "foreign": "我画画", "mark": [{"text": "画画", "role": "nothing"}], "base": "画画", "features": {"who": "i", "when": "now"}},
+				{"english": "You draw", "foreign": "你画画", "mark": [{"text": "画画", "role": "nothing"}], "base": "画画", "features": {"who": "you", "when": "now"}},
+				{"english": "She draws", "foreign": "她画画", "mark": [{"text": "画画", "role": "nothing"}], "base": "画画", "features": {"who": "she", "when": "now"}},
+				{"english": "We draw", "foreign": "我们画画", "mark": [{"text": "画画", "role": "nothing"}], "base": "画画", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 46, "verb": "说话", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我说话, 你说话, 她说话, 我们说话. Only the word in front says who.", "rows": [
+				{"english": "I talk", "foreign": "我说话", "mark": [{"text": "说话", "role": "nothing"}], "base": "说话", "features": {"who": "i", "when": "now"}},
+				{"english": "You talk", "foreign": "你说话", "mark": [{"text": "说话", "role": "nothing"}], "base": "说话", "features": {"who": "you", "when": "now"}},
+				{"english": "She talks", "foreign": "她说话", "mark": [{"text": "说话", "role": "nothing"}], "base": "说话", "features": {"who": "she", "when": "now"}},
+				{"english": "We talk", "foreign": "我们说话", "mark": [{"text": "说话", "role": "nothing"}], "base": "说话", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 47, "verb": "知道", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我知道, 你知道, 她知道, 我们知道. Only the word in front says who.", "rows": [
+				{"english": "I know", "foreign": "我知道", "mark": [{"text": "知道", "role": "nothing"}], "base": "知道", "features": {"who": "i", "when": "now"}},
+				{"english": "You know", "foreign": "你知道", "mark": [{"text": "知道", "role": "nothing"}], "base": "知道", "features": {"who": "you", "when": "now"}},
+				{"english": "She knows", "foreign": "她知道", "mark": [{"text": "知道", "role": "nothing"}], "base": "知道", "features": {"who": "she", "when": "now"}},
+				{"english": "We know", "foreign": "我们知道", "mark": [{"text": "知道", "role": "nothing"}], "base": "知道", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 48, "verb": "教", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我教, 你教, 她教, 我们教. Only the word in front says who.", "rows": [
+				{"english": "I teach", "foreign": "我教", "mark": [{"text": "教", "role": "nothing"}], "base": "教", "features": {"who": "i", "when": "now"}},
+				{"english": "You teach", "foreign": "你教", "mark": [{"text": "教", "role": "nothing"}], "base": "教", "features": {"who": "you", "when": "now"}},
+				{"english": "She teaches", "foreign": "她教", "mark": [{"text": "教", "role": "nothing"}], "base": "教", "features": {"who": "she", "when": "now"}},
+				{"english": "We teach", "foreign": "我们教", "mark": [{"text": "教", "role": "nothing"}], "base": "教", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 49, "verb": "跳", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我跳, 你跳, 她跳, 我们跳. Only the word in front says who.", "rows": [
+				{"english": "I jump", "foreign": "我跳", "mark": [{"text": "跳", "role": "nothing"}], "base": "跳", "features": {"who": "i", "when": "now"}},
+				{"english": "You jump", "foreign": "你跳", "mark": [{"text": "跳", "role": "nothing"}], "base": "跳", "features": {"who": "you", "when": "now"}},
+				{"english": "She jumps", "foreign": "她跳", "mark": [{"text": "跳", "role": "nothing"}], "base": "跳", "features": {"who": "she", "when": "now"}},
+				{"english": "We jump", "foreign": "我们跳", "mark": [{"text": "跳", "role": "nothing"}], "base": "跳", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 50, "verb": "结束", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 我结束, 你结束, 她结束, 我们结束. Only the word in front says who.", "rows": [
+				{"english": "I finish", "foreign": "我结束", "mark": [{"text": "结束", "role": "nothing"}], "base": "结束", "features": {"who": "i", "when": "now"}},
+				{"english": "You finish", "foreign": "你结束", "mark": [{"text": "结束", "role": "nothing"}], "base": "结束", "features": {"who": "you", "when": "now"}},
+				{"english": "She finishes", "foreign": "她结束", "mark": [{"text": "结束", "role": "nothing"}], "base": "结束", "features": {"who": "she", "when": "now"}},
+				{"english": "We finish", "foreign": "我们结束", "mark": [{"text": "结束", "role": "nothing"}], "base": "结束", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "来", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我来了. 会 in front says it is still to come: 我会来.", "rows": [
+				{"english": "I come", "foreign": "我来", "base": "来", "features": {"who": "i", "when": "now"}},
+				{"english": "I came", "foreign": "我来了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "来", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come", "foreign": "我会来", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "来", "features": {"who": "i", "when": "later"}},
+				{"english": "She came", "foreign": "她来了", "mark": [{"text": "了", "role": "particle"}], "base": "来", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "吃", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我吃了. 会 in front says it is still to come: 我会吃.", "rows": [
+				{"english": "I eat", "foreign": "我吃", "base": "吃", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "我吃了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "吃", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "我会吃", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "吃", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "她吃了", "mark": [{"text": "了", "role": "particle"}], "base": "吃", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "喝", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我喝了. 会 in front says it is still to come: 我会喝.", "rows": [
+				{"english": "I drink", "foreign": "我喝", "base": "喝", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "我喝了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "喝", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "我会喝", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "喝", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "她喝了", "mark": [{"text": "了", "role": "particle"}], "base": "喝", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "看", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我看了. 会 in front says it is still to come: 我会看.", "rows": [
+				{"english": "I watch", "foreign": "我看", "base": "看", "features": {"who": "i", "when": "now"}},
+				{"english": "I watched", "foreign": "我看了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "看", "features": {"who": "i", "when": "before"}},
+				{"english": "I will watch", "foreign": "我会看", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "看", "features": {"who": "i", "when": "later"}},
+				{"english": "She watched", "foreign": "她看了", "mark": [{"text": "了", "role": "particle"}], "base": "看", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "听", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我听了. 会 in front says it is still to come: 我会听.", "rows": [
+				{"english": "I listen", "foreign": "我听", "base": "听", "features": {"who": "i", "when": "now"}},
+				{"english": "I listened", "foreign": "我听了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "听", "features": {"who": "i", "when": "before"}},
+				{"english": "I will listen", "foreign": "我会听", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "听", "features": {"who": "i", "when": "later"}},
+				{"english": "She listened", "foreign": "她听了", "mark": [{"text": "了", "role": "particle"}], "base": "听", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "说", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我说了. 会 in front says it is still to come: 我会说.", "rows": [
+				{"english": "I speak", "foreign": "我说", "base": "说", "features": {"who": "i", "when": "now"}},
+				{"english": "I spoke", "foreign": "我说了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "说", "features": {"who": "i", "when": "before"}},
+				{"english": "I will speak", "foreign": "我会说", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "说", "features": {"who": "i", "when": "later"}},
+				{"english": "She spoke", "foreign": "她说了", "mark": [{"text": "了", "role": "particle"}], "base": "说", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "写", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我写了. 会 in front says it is still to come: 我会写.", "rows": [
+				{"english": "I write", "foreign": "我写", "base": "写", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "我写了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "写", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "我会写", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "写", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "她写了", "mark": [{"text": "了", "role": "particle"}], "base": "写", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "走", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我走了. 会 in front says it is still to come: 我会走.", "rows": [
+				{"english": "I walk", "foreign": "我走", "base": "走", "features": {"who": "i", "when": "now"}},
+				{"english": "I walked", "foreign": "我走了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "走", "features": {"who": "i", "when": "before"}},
+				{"english": "I will walk", "foreign": "我会走", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "走", "features": {"who": "i", "when": "later"}},
+				{"english": "She walked", "foreign": "她走了", "mark": [{"text": "了", "role": "particle"}], "base": "走", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "跑", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我跑了. 会 in front says it is still to come: 我会跑.", "rows": [
+				{"english": "I run", "foreign": "我跑", "base": "跑", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "我跑了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "跑", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "我会跑", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "跑", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "她跑了", "mark": [{"text": "了", "role": "particle"}], "base": "跑", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "买", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我买了. 会 in front says it is still to come: 我会买.", "rows": [
+				{"english": "I buy", "foreign": "我买", "base": "买", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "我买了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "买", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "我会买", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "买", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "她买了", "mark": [{"text": "了", "role": "particle"}], "base": "买", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "卖", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我卖了. 会 in front says it is still to come: 我会卖.", "rows": [
+				{"english": "I sell", "foreign": "我卖", "base": "卖", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "我卖了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "卖", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "我会卖", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "卖", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "她卖了", "mark": [{"text": "了", "role": "particle"}], "base": "卖", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "等", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我等了. 会 in front says it is still to come: 我会等.", "rows": [
+				{"english": "I wait", "foreign": "我等", "base": "等", "features": {"who": "i", "when": "now"}},
+				{"english": "I waited", "foreign": "我等了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "等", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "我会等", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "等", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "她等了", "mark": [{"text": "了", "role": "particle"}], "base": "等", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "找", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我找了. 会 in front says it is still to come: 我会找.", "rows": [
+				{"english": "I look for", "foreign": "我找", "base": "找", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked for", "foreign": "我找了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "找", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look for", "foreign": "我会找", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "找", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked for", "foreign": "她找了", "mark": [{"text": "了", "role": "particle"}], "base": "找", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "想", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我想了. 会 in front says it is still to come: 我会想.", "rows": [
+				{"english": "I think", "foreign": "我想", "base": "想", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "我想了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "想", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "我会想", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "想", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "她想了", "mark": [{"text": "了", "role": "particle"}], "base": "想", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "笑", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我笑了. 会 in front says it is still to come: 我会笑.", "rows": [
+				{"english": "I laugh", "foreign": "我笑", "base": "笑", "features": {"who": "i", "when": "now"}},
+				{"english": "I laughed", "foreign": "我笑了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "笑", "features": {"who": "i", "when": "before"}},
+				{"english": "I will laugh", "foreign": "我会笑", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "笑", "features": {"who": "i", "when": "later"}},
+				{"english": "She laughed", "foreign": "她笑了", "mark": [{"text": "了", "role": "particle"}], "base": "笑", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "哭", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我哭了. 会 in front says it is still to come: 我会哭.", "rows": [
+				{"english": "I cry", "foreign": "我哭", "base": "哭", "features": {"who": "i", "when": "now"}},
+				{"english": "I cried", "foreign": "我哭了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "哭", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cry", "foreign": "我会哭", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "哭", "features": {"who": "i", "when": "later"}},
+				{"english": "She cried", "foreign": "她哭了", "mark": [{"text": "了", "role": "particle"}], "base": "哭", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "玩", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我玩了. 会 in front says it is still to come: 我会玩.", "rows": [
+				{"english": "I play", "foreign": "我玩", "base": "玩", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "我玩了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "玩", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "我会玩", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "玩", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "她玩了", "mark": [{"text": "了", "role": "particle"}], "base": "玩", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "唱歌", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我唱歌了. 会 in front says it is still to come: 我会唱歌.", "rows": [
+				{"english": "I sing", "foreign": "我唱歌", "base": "唱歌", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "我唱歌了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "唱歌", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "我会唱歌", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "唱歌", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "她唱歌了", "mark": [{"text": "了", "role": "particle"}], "base": "唱歌", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "跳舞", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我跳舞了. 会 in front says it is still to come: 我会跳舞.", "rows": [
+				{"english": "I dance", "foreign": "我跳舞", "base": "跳舞", "features": {"who": "i", "when": "now"}},
+				{"english": "I danced", "foreign": "我跳舞了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "跳舞", "features": {"who": "i", "when": "before"}},
+				{"english": "I will dance", "foreign": "我会跳舞", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "跳舞", "features": {"who": "i", "when": "later"}},
+				{"english": "She danced", "foreign": "她跳舞了", "mark": [{"text": "了", "role": "particle"}], "base": "跳舞", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "游泳", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我游泳了. 会 in front says it is still to come: 我会游泳.", "rows": [
+				{"english": "I swim", "foreign": "我游泳", "base": "游泳", "features": {"who": "i", "when": "now"}},
+				{"english": "I swam", "foreign": "我游泳了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "游泳", "features": {"who": "i", "when": "before"}},
+				{"english": "I will swim", "foreign": "我会游泳", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "游泳", "features": {"who": "i", "when": "later"}},
+				{"english": "She swam", "foreign": "她游泳了", "mark": [{"text": "了", "role": "particle"}], "base": "游泳", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "工作", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我工作了. 会 in front says it is still to come: 我会工作.", "rows": [
+				{"english": "I work", "foreign": "我工作", "base": "工作", "features": {"who": "i", "when": "now"}},
+				{"english": "I worked", "foreign": "我工作了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "工作", "features": {"who": "i", "when": "before"}},
+				{"english": "I will work", "foreign": "我会工作", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "工作", "features": {"who": "i", "when": "later"}},
+				{"english": "She worked", "foreign": "她工作了", "mark": [{"text": "了", "role": "particle"}], "base": "工作", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "学习", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我学习了. 会 in front says it is still to come: 我会学习.", "rows": [
+				{"english": "I study", "foreign": "我学习", "base": "学习", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "我学习了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "学习", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "我会学习", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "学习", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "她学习了", "mark": [{"text": "了", "role": "particle"}], "base": "学习", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "休息", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我休息了. 会 in front says it is still to come: 我会休息.", "rows": [
+				{"english": "I rest", "foreign": "我休息", "base": "休息", "features": {"who": "i", "when": "now"}},
+				{"english": "I rested", "foreign": "我休息了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "休息", "features": {"who": "i", "when": "before"}},
+				{"english": "I will rest", "foreign": "我会休息", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "休息", "features": {"who": "i", "when": "later"}},
+				{"english": "She rested", "foreign": "她休息了", "mark": [{"text": "了", "role": "particle"}], "base": "休息", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "开始", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我开始了. 会 in front says it is still to come: 我会开始.", "rows": [
+				{"english": "I begin", "foreign": "我开始", "base": "开始", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "我开始了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "开始", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "我会开始", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "开始", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "她开始了", "mark": [{"text": "了", "role": "particle"}], "base": "开始", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "帮忙", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我帮忙了. 会 in front says it is still to come: 我会帮忙.", "rows": [
+				{"english": "I help", "foreign": "我帮忙", "base": "帮忙", "features": {"who": "i", "when": "now"}},
+				{"english": "I helped", "foreign": "我帮忙了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "帮忙", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "我会帮忙", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "帮忙", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "她帮忙了", "mark": [{"text": "了", "role": "particle"}], "base": "帮忙", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "回来", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我回来了. 会 in front says it is still to come: 我会回来.", "rows": [
+				{"english": "I come back", "foreign": "我回来", "base": "回来", "features": {"who": "i", "when": "now"}},
+				{"english": "I came back", "foreign": "我回来了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "回来", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come back", "foreign": "我会回来", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "回来", "features": {"who": "i", "when": "later"}},
+				{"english": "She came back", "foreign": "她回来了", "mark": [{"text": "了", "role": "particle"}], "base": "回来", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "出去", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我出去了. 会 in front says it is still to come: 我会出去.", "rows": [
+				{"english": "I go out", "foreign": "我出去", "base": "出去", "features": {"who": "i", "when": "now"}},
+				{"english": "I went out", "foreign": "我出去了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "出去", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go out", "foreign": "我会出去", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "出去", "features": {"who": "i", "when": "later"}},
+				{"english": "She went out", "foreign": "她出去了", "mark": [{"text": "了", "role": "particle"}], "base": "出去", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "进来", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我进来了. 会 in front says it is still to come: 我会进来.", "rows": [
+				{"english": "I come in", "foreign": "我进来", "base": "进来", "features": {"who": "i", "when": "now"}},
+				{"english": "I came in", "foreign": "我进来了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "进来", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come in", "foreign": "我会进来", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "进来", "features": {"who": "i", "when": "later"}},
+				{"english": "She came in", "foreign": "她进来了", "mark": [{"text": "了", "role": "particle"}], "base": "进来", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "旅行", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我旅行了. 会 in front says it is still to come: 我会旅行.", "rows": [
+				{"english": "I travel", "foreign": "我旅行", "base": "旅行", "features": {"who": "i", "when": "now"}},
+				{"english": "I travelled", "foreign": "我旅行了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "旅行", "features": {"who": "i", "when": "before"}},
+				{"english": "I will travel", "foreign": "我会旅行", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "旅行", "features": {"who": "i", "when": "later"}},
+				{"english": "She travelled", "foreign": "她旅行了", "mark": [{"text": "了", "role": "particle"}], "base": "旅行", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "做饭", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我做饭了. 会 in front says it is still to come: 我会做饭.", "rows": [
+				{"english": "I cook", "foreign": "我做饭", "base": "做饭", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "我做饭了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "做饭", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "我会做饭", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "做饭", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "她做饭了", "mark": [{"text": "了", "role": "particle"}], "base": "做饭", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "打电话", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我打电话了. 会 in front says it is still to come: 我会打电话.", "rows": [
+				{"english": "I phone", "foreign": "我打电话", "base": "打电话", "features": {"who": "i", "when": "now"}},
+				{"english": "I phoned", "foreign": "我打电话了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "打电话", "features": {"who": "i", "when": "before"}},
+				{"english": "I will phone", "foreign": "我会打电话", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "打电话", "features": {"who": "i", "when": "later"}},
+				{"english": "She phoned", "foreign": "她打电话了", "mark": [{"text": "了", "role": "particle"}], "base": "打电话", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "开车", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我开车了. 会 in front says it is still to come: 我会开车.", "rows": [
+				{"english": "I drive", "foreign": "我开车", "base": "开车", "features": {"who": "i", "when": "now"}},
+				{"english": "I drove", "foreign": "我开车了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "开车", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drive", "foreign": "我会开车", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "开车", "features": {"who": "i", "when": "later"}},
+				{"english": "She drove", "foreign": "她开车了", "mark": [{"text": "了", "role": "particle"}], "base": "开车", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "坐", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我坐了. 会 in front says it is still to come: 我会坐.", "rows": [
+				{"english": "I sit", "foreign": "我坐", "base": "坐", "features": {"who": "i", "when": "now"}},
+				{"english": "I sat", "foreign": "我坐了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "坐", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sit", "foreign": "我会坐", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "坐", "features": {"who": "i", "when": "later"}},
+				{"english": "She sat", "foreign": "她坐了", "mark": [{"text": "了", "role": "particle"}], "base": "坐", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "站", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我站了. 会 in front says it is still to come: 我会站.", "rows": [
+				{"english": "I stand", "foreign": "我站", "base": "站", "features": {"who": "i", "when": "now"}},
+				{"english": "I stood", "foreign": "我站了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "站", "features": {"who": "i", "when": "before"}},
+				{"english": "I will stand", "foreign": "我会站", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "站", "features": {"who": "i", "when": "later"}},
+				{"english": "She stood", "foreign": "她站了", "mark": [{"text": "了", "role": "particle"}], "base": "站", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "飞", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我飞了. 会 in front says it is still to come: 我会飞.", "rows": [
+				{"english": "I fly", "foreign": "我飞", "base": "飞", "features": {"who": "i", "when": "now"}},
+				{"english": "I flew", "foreign": "我飞了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "飞", "features": {"who": "i", "when": "before"}},
+				{"english": "I will fly", "foreign": "我会飞", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "飞", "features": {"who": "i", "when": "later"}},
+				{"english": "She flew", "foreign": "她飞了", "mark": [{"text": "了", "role": "particle"}], "base": "飞", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "问", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我问了. 会 in front says it is still to come: 我会问.", "rows": [
+				{"english": "I ask", "foreign": "我问", "base": "问", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "我问了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "问", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "我会问", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "问", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "她问了", "mark": [{"text": "了", "role": "particle"}], "base": "问", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "回答", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我回答了. 会 in front says it is still to come: 我会回答.", "rows": [
+				{"english": "I answer", "foreign": "我回答", "base": "回答", "features": {"who": "i", "when": "now"}},
+				{"english": "I answered", "foreign": "我回答了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "回答", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "我会回答", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "回答", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "她回答了", "mark": [{"text": "了", "role": "particle"}], "base": "回答", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "忘记", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我忘记了. 会 in front says it is still to come: 我会忘记.", "rows": [
+				{"english": "I forget", "foreign": "我忘记", "base": "忘记", "features": {"who": "i", "when": "now"}},
+				{"english": "I forgot", "foreign": "我忘记了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "忘记", "features": {"who": "i", "when": "before"}},
+				{"english": "I will forget", "foreign": "我会忘记", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "忘记", "features": {"who": "i", "when": "later"}},
+				{"english": "She forgot", "foreign": "她忘记了", "mark": [{"text": "了", "role": "particle"}], "base": "忘记", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "付钱", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我付钱了. 会 in front says it is still to come: 我会付钱.", "rows": [
+				{"english": "I pay", "foreign": "我付钱", "base": "付钱", "features": {"who": "i", "when": "now"}},
+				{"english": "I paid", "foreign": "我付钱了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "付钱", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "我会付钱", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "付钱", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "她付钱了", "mark": [{"text": "了", "role": "particle"}], "base": "付钱", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "洗澡", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我洗澡了. 会 in front says it is still to come: 我会洗澡.", "rows": [
+				{"english": "I take a bath", "foreign": "我洗澡", "base": "洗澡", "features": {"who": "i", "when": "now"}},
+				{"english": "I took a bath", "foreign": "我洗澡了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "洗澡", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take a bath", "foreign": "我会洗澡", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "洗澡", "features": {"who": "i", "when": "later"}},
+				{"english": "She took a bath", "foreign": "她洗澡了", "mark": [{"text": "了", "role": "particle"}], "base": "洗澡", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "搬家", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我搬家了. 会 in front says it is still to come: 我会搬家.", "rows": [
+				{"english": "I move house", "foreign": "我搬家", "base": "搬家", "features": {"who": "i", "when": "now"}},
+				{"english": "I moved house", "foreign": "我搬家了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "搬家", "features": {"who": "i", "when": "before"}},
+				{"english": "I will move house", "foreign": "我会搬家", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "搬家", "features": {"who": "i", "when": "later"}},
+				{"english": "She moved house", "foreign": "她搬家了", "mark": [{"text": "了", "role": "particle"}], "base": "搬家", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "起床", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我起床了. 会 in front says it is still to come: 我会起床.", "rows": [
+				{"english": "I get up", "foreign": "我起床", "base": "起床", "features": {"who": "i", "when": "now"}},
+				{"english": "I got up", "foreign": "我起床了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "起床", "features": {"who": "i", "when": "before"}},
+				{"english": "I will get up", "foreign": "我会起床", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "起床", "features": {"who": "i", "when": "later"}},
+				{"english": "She got up", "foreign": "她起床了", "mark": [{"text": "了", "role": "particle"}], "base": "起床", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "点菜", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我点菜了. 会 in front says it is still to come: 我会点菜.", "rows": [
+				{"english": "I order", "foreign": "我点菜", "base": "点菜", "features": {"who": "i", "when": "now"}},
+				{"english": "I ordered", "foreign": "我点菜了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "点菜", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "我会点菜", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "点菜", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "她点菜了", "mark": [{"text": "了", "role": "particle"}], "base": "点菜", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 45, "verb": "画画", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我画画了. 会 in front says it is still to come: 我会画画.", "rows": [
+				{"english": "I draw", "foreign": "我画画", "base": "画画", "features": {"who": "i", "when": "now"}},
+				{"english": "I drew", "foreign": "我画画了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "画画", "features": {"who": "i", "when": "before"}},
+				{"english": "I will draw", "foreign": "我会画画", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "画画", "features": {"who": "i", "when": "later"}},
+				{"english": "She drew", "foreign": "她画画了", "mark": [{"text": "了", "role": "particle"}], "base": "画画", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 46, "verb": "说话", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我说话了. 会 in front says it is still to come: 我会说话.", "rows": [
+				{"english": "I talk", "foreign": "我说话", "base": "说话", "features": {"who": "i", "when": "now"}},
+				{"english": "I talked", "foreign": "我说话了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "说话", "features": {"who": "i", "when": "before"}},
+				{"english": "I will talk", "foreign": "我会说话", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "说话", "features": {"who": "i", "when": "later"}},
+				{"english": "She talked", "foreign": "她说话了", "mark": [{"text": "了", "role": "particle"}], "base": "说话", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 47, "verb": "知道", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我知道了. 会 in front says it is still to come: 我会知道.", "rows": [
+				{"english": "I know", "foreign": "我知道", "base": "知道", "features": {"who": "i", "when": "now"}},
+				{"english": "I found out", "foreign": "我知道了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "知道", "features": {"who": "i", "when": "before"}},
+				{"english": "I will know", "foreign": "我会知道", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "知道", "features": {"who": "i", "when": "later"}},
+				{"english": "She found out", "foreign": "她知道了", "mark": [{"text": "了", "role": "particle"}], "base": "知道", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 48, "verb": "教", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我教了. 会 in front says it is still to come: 我会教.", "rows": [
+				{"english": "I teach", "foreign": "我教", "base": "教", "features": {"who": "i", "when": "now"}},
+				{"english": "I taught", "foreign": "我教了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "教", "features": {"who": "i", "when": "before"}},
+				{"english": "I will teach", "foreign": "我会教", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "教", "features": {"who": "i", "when": "later"}},
+				{"english": "She taught", "foreign": "她教了", "mark": [{"text": "了", "role": "particle"}], "base": "教", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 49, "verb": "跳", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我跳了. 会 in front says it is still to come: 我会跳.", "rows": [
+				{"english": "I jump", "foreign": "我跳", "base": "跳", "features": {"who": "i", "when": "now"}},
+				{"english": "I jumped", "foreign": "我跳了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "跳", "features": {"who": "i", "when": "before"}},
+				{"english": "I will jump", "foreign": "我会跳", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "跳", "features": {"who": "i", "when": "later"}},
+				{"english": "She jumped", "foreign": "她跳了", "mark": [{"text": "了", "role": "particle"}], "base": "跳", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 50, "verb": "结束", "strategy": ["particle", "helper word"], "description": "The verb never changes for when. 了 after it says the thing is done: 我结束了. 会 in front says it is still to come: 我会结束.", "rows": [
+				{"english": "I finish", "foreign": "我结束", "base": "结束", "features": {"who": "i", "when": "now"}},
+				{"english": "I finished", "foreign": "我结束了", "mark": [{"text": "了", "role": "particle"}], "from": 1, "base": "结束", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "我会结束", "mark": [{"text": "会", "role": "helper word"}], "from": 1, "base": "结束", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "她结束了", "mark": [{"text": "了", "role": "particle"}], "base": "结束", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "going", "part": 3, "verb": "吃", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在吃. The verb itself stays as it is.", "rows": [
+				{"english": "I eat", "foreign": "我吃", "base": "吃", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "我在吃", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "吃", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She eats", "foreign": "她吃", "base": "吃", "features": {"who": "she", "when": "now"}},
+				{"english": "She is eating", "foreign": "她在吃", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "吃", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 4, "verb": "喝", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在喝. The verb itself stays as it is.", "rows": [
+				{"english": "I drink", "foreign": "我喝", "base": "喝", "features": {"who": "i", "when": "now"}},
+				{"english": "I am drinking", "foreign": "我在喝", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "喝", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She drinks", "foreign": "她喝", "base": "喝", "features": {"who": "she", "when": "now"}},
+				{"english": "She is drinking", "foreign": "她在喝", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "喝", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 5, "verb": "看", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在看. The verb itself stays as it is.", "rows": [
+				{"english": "I watch", "foreign": "我看", "base": "看", "features": {"who": "i", "when": "now"}},
+				{"english": "I am watching", "foreign": "我在看", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "看", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She watches", "foreign": "她看", "base": "看", "features": {"who": "she", "when": "now"}},
+				{"english": "She is watching", "foreign": "她在看", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "看", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 6, "verb": "听", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在听. The verb itself stays as it is.", "rows": [
+				{"english": "I listen", "foreign": "我听", "base": "听", "features": {"who": "i", "when": "now"}},
+				{"english": "I am listening", "foreign": "我在听", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "听", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She listens", "foreign": "她听", "base": "听", "features": {"who": "she", "when": "now"}},
+				{"english": "She is listening", "foreign": "她在听", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "听", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 7, "verb": "说", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在说. The verb itself stays as it is.", "rows": [
+				{"english": "I speak", "foreign": "我说", "base": "说", "features": {"who": "i", "when": "now"}},
+				{"english": "I am speaking", "foreign": "我在说", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "说", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She speaks", "foreign": "她说", "base": "说", "features": {"who": "she", "when": "now"}},
+				{"english": "She is speaking", "foreign": "她在说", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "说", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 8, "verb": "写", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在写. The verb itself stays as it is.", "rows": [
+				{"english": "I write", "foreign": "我写", "base": "写", "features": {"who": "i", "when": "now"}},
+				{"english": "I am writing", "foreign": "我在写", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "写", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She writes", "foreign": "她写", "base": "写", "features": {"who": "she", "when": "now"}},
+				{"english": "She is writing", "foreign": "她在写", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "写", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 9, "verb": "走", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在走. The verb itself stays as it is.", "rows": [
+				{"english": "I walk", "foreign": "我走", "base": "走", "features": {"who": "i", "when": "now"}},
+				{"english": "I am walking", "foreign": "我在走", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "走", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She walks", "foreign": "她走", "base": "走", "features": {"who": "she", "when": "now"}},
+				{"english": "She is walking", "foreign": "她在走", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "走", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 10, "verb": "跑", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在跑. The verb itself stays as it is.", "rows": [
+				{"english": "I run", "foreign": "我跑", "base": "跑", "features": {"who": "i", "when": "now"}},
+				{"english": "I am running", "foreign": "我在跑", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "跑", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She runs", "foreign": "她跑", "base": "跑", "features": {"who": "she", "when": "now"}},
+				{"english": "She is running", "foreign": "她在跑", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "跑", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 11, "verb": "买", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在买. The verb itself stays as it is.", "rows": [
+				{"english": "I buy", "foreign": "我买", "base": "买", "features": {"who": "i", "when": "now"}},
+				{"english": "I am buying", "foreign": "我在买", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "买", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She buys", "foreign": "她买", "base": "买", "features": {"who": "she", "when": "now"}},
+				{"english": "She is buying", "foreign": "她在买", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "买", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 12, "verb": "卖", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在卖. The verb itself stays as it is.", "rows": [
+				{"english": "I sell", "foreign": "我卖", "base": "卖", "features": {"who": "i", "when": "now"}},
+				{"english": "I am selling", "foreign": "我在卖", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "卖", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sells", "foreign": "她卖", "base": "卖", "features": {"who": "she", "when": "now"}},
+				{"english": "She is selling", "foreign": "她在卖", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "卖", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 13, "verb": "等", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在等. The verb itself stays as it is.", "rows": [
+				{"english": "I wait", "foreign": "我等", "base": "等", "features": {"who": "i", "when": "now"}},
+				{"english": "I am waiting", "foreign": "我在等", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "等", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She waits", "foreign": "她等", "base": "等", "features": {"who": "she", "when": "now"}},
+				{"english": "She is waiting", "foreign": "她在等", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "等", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 14, "verb": "找", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在找. The verb itself stays as it is.", "rows": [
+				{"english": "I look for", "foreign": "我找", "base": "找", "features": {"who": "i", "when": "now"}},
+				{"english": "I am looking for", "foreign": "我在找", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "找", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She looks for", "foreign": "她找", "base": "找", "features": {"who": "she", "when": "now"}},
+				{"english": "She is looking for", "foreign": "她在找", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "找", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 15, "verb": "想", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在想. The verb itself stays as it is.", "rows": [
+				{"english": "I think", "foreign": "我想", "base": "想", "features": {"who": "i", "when": "now"}},
+				{"english": "I am thinking", "foreign": "我在想", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "想", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She thinks", "foreign": "她想", "base": "想", "features": {"who": "she", "when": "now"}},
+				{"english": "She is thinking", "foreign": "她在想", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "想", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 16, "verb": "笑", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在笑. The verb itself stays as it is.", "rows": [
+				{"english": "I laugh", "foreign": "我笑", "base": "笑", "features": {"who": "i", "when": "now"}},
+				{"english": "I am laughing", "foreign": "我在笑", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "笑", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She laughs", "foreign": "她笑", "base": "笑", "features": {"who": "she", "when": "now"}},
+				{"english": "She is laughing", "foreign": "她在笑", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "笑", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 17, "verb": "哭", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在哭. The verb itself stays as it is.", "rows": [
+				{"english": "I cry", "foreign": "我哭", "base": "哭", "features": {"who": "i", "when": "now"}},
+				{"english": "I am crying", "foreign": "我在哭", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "哭", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cries", "foreign": "她哭", "base": "哭", "features": {"who": "she", "when": "now"}},
+				{"english": "She is crying", "foreign": "她在哭", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "哭", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 18, "verb": "玩", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在玩. The verb itself stays as it is.", "rows": [
+				{"english": "I play", "foreign": "我玩", "base": "玩", "features": {"who": "i", "when": "now"}},
+				{"english": "I am playing", "foreign": "我在玩", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "玩", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She plays", "foreign": "她玩", "base": "玩", "features": {"who": "she", "when": "now"}},
+				{"english": "She is playing", "foreign": "她在玩", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "玩", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 19, "verb": "唱歌", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在唱歌. The verb itself stays as it is.", "rows": [
+				{"english": "I sing", "foreign": "我唱歌", "base": "唱歌", "features": {"who": "i", "when": "now"}},
+				{"english": "I am singing", "foreign": "我在唱歌", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "唱歌", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sings", "foreign": "她唱歌", "base": "唱歌", "features": {"who": "she", "when": "now"}},
+				{"english": "She is singing", "foreign": "她在唱歌", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "唱歌", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 20, "verb": "跳舞", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在跳舞. The verb itself stays as it is.", "rows": [
+				{"english": "I dance", "foreign": "我跳舞", "base": "跳舞", "features": {"who": "i", "when": "now"}},
+				{"english": "I am dancing", "foreign": "我在跳舞", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "跳舞", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She dances", "foreign": "她跳舞", "base": "跳舞", "features": {"who": "she", "when": "now"}},
+				{"english": "She is dancing", "foreign": "她在跳舞", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "跳舞", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 21, "verb": "游泳", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在游泳. The verb itself stays as it is.", "rows": [
+				{"english": "I swim", "foreign": "我游泳", "base": "游泳", "features": {"who": "i", "when": "now"}},
+				{"english": "I am swimming", "foreign": "我在游泳", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "游泳", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She swims", "foreign": "她游泳", "base": "游泳", "features": {"who": "she", "when": "now"}},
+				{"english": "She is swimming", "foreign": "她在游泳", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "游泳", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 22, "verb": "工作", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在工作. The verb itself stays as it is.", "rows": [
+				{"english": "I work", "foreign": "我工作", "base": "工作", "features": {"who": "i", "when": "now"}},
+				{"english": "I am working", "foreign": "我在工作", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "工作", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She works", "foreign": "她工作", "base": "工作", "features": {"who": "she", "when": "now"}},
+				{"english": "She is working", "foreign": "她在工作", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "工作", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 23, "verb": "学习", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在学习. The verb itself stays as it is.", "rows": [
+				{"english": "I study", "foreign": "我学习", "base": "学习", "features": {"who": "i", "when": "now"}},
+				{"english": "I am studying", "foreign": "我在学习", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "学习", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She studies", "foreign": "她学习", "base": "学习", "features": {"who": "she", "when": "now"}},
+				{"english": "She is studying", "foreign": "她在学习", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "学习", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 24, "verb": "休息", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在休息. The verb itself stays as it is.", "rows": [
+				{"english": "I rest", "foreign": "我休息", "base": "休息", "features": {"who": "i", "when": "now"}},
+				{"english": "I am resting", "foreign": "我在休息", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "休息", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She rests", "foreign": "她休息", "base": "休息", "features": {"who": "she", "when": "now"}},
+				{"english": "She is resting", "foreign": "她在休息", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "休息", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 26, "verb": "帮忙", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在帮忙. The verb itself stays as it is.", "rows": [
+				{"english": "I help", "foreign": "我帮忙", "base": "帮忙", "features": {"who": "i", "when": "now"}},
+				{"english": "I am helping", "foreign": "我在帮忙", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "帮忙", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She helps", "foreign": "她帮忙", "base": "帮忙", "features": {"who": "she", "when": "now"}},
+				{"english": "She is helping", "foreign": "她在帮忙", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "帮忙", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 30, "verb": "旅行", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在旅行. The verb itself stays as it is.", "rows": [
+				{"english": "I travel", "foreign": "我旅行", "base": "旅行", "features": {"who": "i", "when": "now"}},
+				{"english": "I am travelling", "foreign": "我在旅行", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "旅行", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She travels", "foreign": "她旅行", "base": "旅行", "features": {"who": "she", "when": "now"}},
+				{"english": "She is travelling", "foreign": "她在旅行", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "旅行", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 31, "verb": "做饭", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在做饭. The verb itself stays as it is.", "rows": [
+				{"english": "I cook", "foreign": "我做饭", "base": "做饭", "features": {"who": "i", "when": "now"}},
+				{"english": "I am cooking", "foreign": "我在做饭", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "做饭", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cooks", "foreign": "她做饭", "base": "做饭", "features": {"who": "she", "when": "now"}},
+				{"english": "She is cooking", "foreign": "她在做饭", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "做饭", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 32, "verb": "打电话", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在打电话. The verb itself stays as it is.", "rows": [
+				{"english": "I phone", "foreign": "我打电话", "base": "打电话", "features": {"who": "i", "when": "now"}},
+				{"english": "I am phoning", "foreign": "我在打电话", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "打电话", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She phones", "foreign": "她打电话", "base": "打电话", "features": {"who": "she", "when": "now"}},
+				{"english": "She is phoning", "foreign": "她在打电话", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "打电话", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 33, "verb": "开车", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在开车. The verb itself stays as it is.", "rows": [
+				{"english": "I drive", "foreign": "我开车", "base": "开车", "features": {"who": "i", "when": "now"}},
+				{"english": "I am driving", "foreign": "我在开车", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "开车", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She drives", "foreign": "她开车", "base": "开车", "features": {"who": "she", "when": "now"}},
+				{"english": "She is driving", "foreign": "她在开车", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "开车", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 36, "verb": "飞", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在飞. The verb itself stays as it is.", "rows": [
+				{"english": "I fly", "foreign": "我飞", "base": "飞", "features": {"who": "i", "when": "now"}},
+				{"english": "I am flying", "foreign": "我在飞", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "飞", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She flies", "foreign": "她飞", "base": "飞", "features": {"who": "she", "when": "now"}},
+				{"english": "She is flying", "foreign": "她在飞", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "飞", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 37, "verb": "问", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在问. The verb itself stays as it is.", "rows": [
+				{"english": "I ask", "foreign": "我问", "base": "问", "features": {"who": "i", "when": "now"}},
+				{"english": "I am asking", "foreign": "我在问", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "问", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She asks", "foreign": "她问", "base": "问", "features": {"who": "she", "when": "now"}},
+				{"english": "She is asking", "foreign": "她在问", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "问", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 38, "verb": "回答", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在回答. The verb itself stays as it is.", "rows": [
+				{"english": "I answer", "foreign": "我回答", "base": "回答", "features": {"who": "i", "when": "now"}},
+				{"english": "I am answering", "foreign": "我在回答", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "回答", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She answers", "foreign": "她回答", "base": "回答", "features": {"who": "she", "when": "now"}},
+				{"english": "She is answering", "foreign": "她在回答", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "回答", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 40, "verb": "付钱", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在付钱. The verb itself stays as it is.", "rows": [
+				{"english": "I pay", "foreign": "我付钱", "base": "付钱", "features": {"who": "i", "when": "now"}},
+				{"english": "I am paying", "foreign": "我在付钱", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "付钱", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She pays", "foreign": "她付钱", "base": "付钱", "features": {"who": "she", "when": "now"}},
+				{"english": "She is paying", "foreign": "她在付钱", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "付钱", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 41, "verb": "洗澡", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在洗澡. The verb itself stays as it is.", "rows": [
+				{"english": "I take a bath", "foreign": "我洗澡", "base": "洗澡", "features": {"who": "i", "when": "now"}},
+				{"english": "I am taking a bath", "foreign": "我在洗澡", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "洗澡", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She takes a bath", "foreign": "她洗澡", "base": "洗澡", "features": {"who": "she", "when": "now"}},
+				{"english": "She is taking a bath", "foreign": "她在洗澡", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "洗澡", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 42, "verb": "搬家", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在搬家. The verb itself stays as it is.", "rows": [
+				{"english": "I move house", "foreign": "我搬家", "base": "搬家", "features": {"who": "i", "when": "now"}},
+				{"english": "I am moving house", "foreign": "我在搬家", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "搬家", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She moves house", "foreign": "她搬家", "base": "搬家", "features": {"who": "she", "when": "now"}},
+				{"english": "She is moving house", "foreign": "她在搬家", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "搬家", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 43, "verb": "起床", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在起床. The verb itself stays as it is.", "rows": [
+				{"english": "I get up", "foreign": "我起床", "base": "起床", "features": {"who": "i", "when": "now"}},
+				{"english": "I am getting up", "foreign": "我在起床", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "起床", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She gets up", "foreign": "她起床", "base": "起床", "features": {"who": "she", "when": "now"}},
+				{"english": "She is getting up", "foreign": "她在起床", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "起床", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 44, "verb": "点菜", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在点菜. The verb itself stays as it is.", "rows": [
+				{"english": "I order", "foreign": "我点菜", "base": "点菜", "features": {"who": "i", "when": "now"}},
+				{"english": "I am ordering", "foreign": "我在点菜", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "点菜", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She orders", "foreign": "她点菜", "base": "点菜", "features": {"who": "she", "when": "now"}},
+				{"english": "She is ordering", "foreign": "她在点菜", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "点菜", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 45, "verb": "画画", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在画画. The verb itself stays as it is.", "rows": [
+				{"english": "I draw", "foreign": "我画画", "base": "画画", "features": {"who": "i", "when": "now"}},
+				{"english": "I am drawing", "foreign": "我在画画", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "画画", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She draws", "foreign": "她画画", "base": "画画", "features": {"who": "she", "when": "now"}},
+				{"english": "She is drawing", "foreign": "她在画画", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "画画", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 46, "verb": "说话", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在说话. The verb itself stays as it is.", "rows": [
+				{"english": "I talk", "foreign": "我说话", "base": "说话", "features": {"who": "i", "when": "now"}},
+				{"english": "I am talking", "foreign": "我在说话", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "说话", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She talks", "foreign": "她说话", "base": "说话", "features": {"who": "she", "when": "now"}},
+				{"english": "She is talking", "foreign": "她在说话", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "说话", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 47, "verb": "教", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在教. The verb itself stays as it is.", "rows": [
+				{"english": "I teach", "foreign": "我教", "base": "教", "features": {"who": "i", "when": "now"}},
+				{"english": "I am teaching", "foreign": "我在教", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "教", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She teaches", "foreign": "她教", "base": "教", "features": {"who": "she", "when": "now"}},
+				{"english": "She is teaching", "foreign": "她在教", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "教", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 48, "verb": "跳", "strategy": ["particle"], "description": "在 in front of the verb says it is going on right now: 我在跳. The verb itself stays as it is.", "rows": [
+				{"english": "I jump", "foreign": "我跳", "base": "跳", "features": {"who": "i", "when": "now"}},
+				{"english": "I am jumping", "foreign": "我在跳", "mark": [{"text": "在", "role": "particle"}], "from": 1, "base": "跳", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She jumps", "foreign": "她跳", "base": "跳", "features": {"who": "she", "when": "now"}},
+				{"english": "She is jumping", "foreign": "她在跳", "mark": [{"text": "在", "role": "particle"}], "from": 3, "base": "跳", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "command", "part": 2, "verb": "来", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 来！ 请 in front says please: 请来。 别 in front says don't: 别来！ And 吧 at the end says let's: 我们来吧！", "rows": [
+				{"english": "Come!", "foreign": "来！", "base": "来", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please come.", "foreign": "请来。", "mark": [{"text": "请", "role": "helper word"}], "base": "来", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come!", "foreign": "别来！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "来", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come!", "foreign": "我们来吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "来", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 3, "verb": "吃", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 吃！ 请 in front says please: 请吃。 别 in front says don't: 别吃！ And 吧 at the end says let's: 我们吃吧！", "rows": [
+				{"english": "Eat!", "foreign": "吃！", "base": "吃", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please eat.", "foreign": "请吃。", "mark": [{"text": "请", "role": "helper word"}], "base": "吃", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not eat!", "foreign": "别吃！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "吃", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's eat!", "foreign": "我们吃吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "吃", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 4, "verb": "喝", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 喝！ 请 in front says please: 请喝。 别 in front says don't: 别喝！ And 吧 at the end says let's: 我们喝吧！", "rows": [
+				{"english": "Drink!", "foreign": "喝！", "base": "喝", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please drink.", "foreign": "请喝。", "mark": [{"text": "请", "role": "helper word"}], "base": "喝", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not drink!", "foreign": "别喝！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "喝", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drink!", "foreign": "我们喝吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "喝", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 5, "verb": "看", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 看！ 请 in front says please: 请看。 别 in front says don't: 别看！ And 吧 at the end says let's: 我们看吧！", "rows": [
+				{"english": "Watch!", "foreign": "看！", "base": "看", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please watch.", "foreign": "请看。", "mark": [{"text": "请", "role": "helper word"}], "base": "看", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not watch!", "foreign": "别看！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "看", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's watch!", "foreign": "我们看吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "看", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 6, "verb": "听", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 听！ 请 in front says please: 请听。 别 in front says don't: 别听！ And 吧 at the end says let's: 我们听吧！", "rows": [
+				{"english": "Listen!", "foreign": "听！", "base": "听", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please listen.", "foreign": "请听。", "mark": [{"text": "请", "role": "helper word"}], "base": "听", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not listen!", "foreign": "别听！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "听", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's listen!", "foreign": "我们听吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "听", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 7, "verb": "说", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 说！ 请 in front says please: 请说。 别 in front says don't: 别说！ And 吧 at the end says let's: 我们说吧！", "rows": [
+				{"english": "Speak!", "foreign": "说！", "base": "说", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please speak.", "foreign": "请说。", "mark": [{"text": "请", "role": "helper word"}], "base": "说", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not speak!", "foreign": "别说！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "说", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's speak!", "foreign": "我们说吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "说", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 8, "verb": "写", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 写！ 请 in front says please: 请写。 别 in front says don't: 别写！ And 吧 at the end says let's: 我们写吧！", "rows": [
+				{"english": "Write!", "foreign": "写！", "base": "写", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please write.", "foreign": "请写。", "mark": [{"text": "请", "role": "helper word"}], "base": "写", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not write!", "foreign": "别写！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "写", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's write!", "foreign": "我们写吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "写", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 9, "verb": "走", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 走！ 请 in front says please: 请走。 别 in front says don't: 别走！ And 吧 at the end says let's: 我们走吧！", "rows": [
+				{"english": "Walk!", "foreign": "走！", "base": "走", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please walk.", "foreign": "请走。", "mark": [{"text": "请", "role": "helper word"}], "base": "走", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not walk!", "foreign": "别走！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "走", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's walk!", "foreign": "我们走吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "走", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 10, "verb": "跑", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 跑！ 请 in front says please: 请跑。 别 in front says don't: 别跑！ And 吧 at the end says let's: 我们跑吧！", "rows": [
+				{"english": "Run!", "foreign": "跑！", "base": "跑", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please run.", "foreign": "请跑。", "mark": [{"text": "请", "role": "helper word"}], "base": "跑", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not run!", "foreign": "别跑！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "跑", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's run!", "foreign": "我们跑吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "跑", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 11, "verb": "买", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 买！ 请 in front says please: 请买。 别 in front says don't: 别买！ And 吧 at the end says let's: 我们买吧！", "rows": [
+				{"english": "Buy!", "foreign": "买！", "base": "买", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please buy.", "foreign": "请买。", "mark": [{"text": "请", "role": "helper word"}], "base": "买", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not buy!", "foreign": "别买！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "买", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's buy!", "foreign": "我们买吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "买", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 12, "verb": "卖", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 卖！ 请 in front says please: 请卖。 别 in front says don't: 别卖！ And 吧 at the end says let's: 我们卖吧！", "rows": [
+				{"english": "Sell!", "foreign": "卖！", "base": "卖", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please sell.", "foreign": "请卖。", "mark": [{"text": "请", "role": "helper word"}], "base": "卖", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sell!", "foreign": "别卖！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "卖", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sell!", "foreign": "我们卖吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "卖", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 13, "verb": "等", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 等！ 请 in front says please: 请等。 别 in front says don't: 别等！ And 吧 at the end says let's: 我们等吧！", "rows": [
+				{"english": "Wait!", "foreign": "等！", "base": "等", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please wait.", "foreign": "请等。", "mark": [{"text": "请", "role": "helper word"}], "base": "等", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not wait!", "foreign": "别等！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "等", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wait!", "foreign": "我们等吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "等", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 14, "verb": "找", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 找！ 请 in front says please: 请找。 别 in front says don't: 别找！ And 吧 at the end says let's: 我们找吧！", "rows": [
+				{"english": "Look for!", "foreign": "找！", "base": "找", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please look for.", "foreign": "请找。", "mark": [{"text": "请", "role": "helper word"}], "base": "找", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not look for!", "foreign": "别找！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "找", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's look for!", "foreign": "我们找吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "找", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 15, "verb": "想", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 想！ 请 in front says please: 请想。 别 in front says don't: 别想！ And 吧 at the end says let's: 我们想吧！", "rows": [
+				{"english": "Think!", "foreign": "想！", "base": "想", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please think.", "foreign": "请想。", "mark": [{"text": "请", "role": "helper word"}], "base": "想", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not think!", "foreign": "别想！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "想", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's think!", "foreign": "我们想吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "想", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 16, "verb": "笑", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 笑！ 请 in front says please: 请笑。 别 in front says don't: 别笑！ And 吧 at the end says let's: 我们笑吧！", "rows": [
+				{"english": "Laugh!", "foreign": "笑！", "base": "笑", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please laugh.", "foreign": "请笑。", "mark": [{"text": "请", "role": "helper word"}], "base": "笑", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not laugh!", "foreign": "别笑！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "笑", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's laugh!", "foreign": "我们笑吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "笑", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 18, "verb": "玩", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 玩！ 请 in front says please: 请玩。 别 in front says don't: 别玩！ And 吧 at the end says let's: 我们玩吧！", "rows": [
+				{"english": "Play!", "foreign": "玩！", "base": "玩", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please play.", "foreign": "请玩。", "mark": [{"text": "请", "role": "helper word"}], "base": "玩", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not play!", "foreign": "别玩！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "玩", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's play!", "foreign": "我们玩吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "玩", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 19, "verb": "唱歌", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 唱歌！ 请 in front says please: 请唱歌。 别 in front says don't: 别唱歌！ And 吧 at the end says let's: 我们唱歌吧！", "rows": [
+				{"english": "Sing!", "foreign": "唱歌！", "base": "唱歌", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please sing.", "foreign": "请唱歌。", "mark": [{"text": "请", "role": "helper word"}], "base": "唱歌", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sing!", "foreign": "别唱歌！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "唱歌", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sing!", "foreign": "我们唱歌吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "唱歌", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 20, "verb": "跳舞", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 跳舞！ 请 in front says please: 请跳舞。 别 in front says don't: 别跳舞！ And 吧 at the end says let's: 我们跳舞吧！", "rows": [
+				{"english": "Dance!", "foreign": "跳舞！", "base": "跳舞", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please dance.", "foreign": "请跳舞。", "mark": [{"text": "请", "role": "helper word"}], "base": "跳舞", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not dance!", "foreign": "别跳舞！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "跳舞", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's dance!", "foreign": "我们跳舞吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "跳舞", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 21, "verb": "游泳", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 游泳！ 请 in front says please: 请游泳。 别 in front says don't: 别游泳！ And 吧 at the end says let's: 我们游泳吧！", "rows": [
+				{"english": "Swim!", "foreign": "游泳！", "base": "游泳", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please swim.", "foreign": "请游泳。", "mark": [{"text": "请", "role": "helper word"}], "base": "游泳", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not swim!", "foreign": "别游泳！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "游泳", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's swim!", "foreign": "我们游泳吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "游泳", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 22, "verb": "工作", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 工作！ 请 in front says please: 请工作。 别 in front says don't: 别工作！ And 吧 at the end says let's: 我们工作吧！", "rows": [
+				{"english": "Work!", "foreign": "工作！", "base": "工作", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please work.", "foreign": "请工作。", "mark": [{"text": "请", "role": "helper word"}], "base": "工作", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not work!", "foreign": "别工作！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "工作", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's work!", "foreign": "我们工作吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "工作", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 23, "verb": "学习", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 学习！ 请 in front says please: 请学习。 别 in front says don't: 别学习！ And 吧 at the end says let's: 我们学习吧！", "rows": [
+				{"english": "Study!", "foreign": "学习！", "base": "学习", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please study.", "foreign": "请学习。", "mark": [{"text": "请", "role": "helper word"}], "base": "学习", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not study!", "foreign": "别学习！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "学习", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's study!", "foreign": "我们学习吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "学习", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 24, "verb": "休息", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 休息！ 请 in front says please: 请休息。 别 in front says don't: 别休息！ And 吧 at the end says let's: 我们休息吧！", "rows": [
+				{"english": "Rest!", "foreign": "休息！", "base": "休息", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please rest.", "foreign": "请休息。", "mark": [{"text": "请", "role": "helper word"}], "base": "休息", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not rest!", "foreign": "别休息！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "休息", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's rest!", "foreign": "我们休息吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "休息", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 25, "verb": "开始", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 开始！ 请 in front says please: 请开始。 别 in front says don't: 别开始！ And 吧 at the end says let's: 我们开始吧！", "rows": [
+				{"english": "Begin!", "foreign": "开始！", "base": "开始", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please begin.", "foreign": "请开始。", "mark": [{"text": "请", "role": "helper word"}], "base": "开始", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not begin!", "foreign": "别开始！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "开始", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's begin!", "foreign": "我们开始吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "开始", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 26, "verb": "帮忙", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 帮忙！ 请 in front says please: 请帮忙。 别 in front says don't: 别帮忙！ And 吧 at the end says let's: 我们帮忙吧！", "rows": [
+				{"english": "Help!", "foreign": "帮忙！", "base": "帮忙", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please help.", "foreign": "请帮忙。", "mark": [{"text": "请", "role": "helper word"}], "base": "帮忙", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not help!", "foreign": "别帮忙！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "帮忙", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's help!", "foreign": "我们帮忙吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "帮忙", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 27, "verb": "回来", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 回来！ 请 in front says please: 请回来。 别 in front says don't: 别回来！ And 吧 at the end says let's: 我们回来吧！", "rows": [
+				{"english": "Come back!", "foreign": "回来！", "base": "回来", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please come back.", "foreign": "请回来。", "mark": [{"text": "请", "role": "helper word"}], "base": "回来", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come back!", "foreign": "别回来！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "回来", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come back!", "foreign": "我们回来吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "回来", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 28, "verb": "出去", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 出去！ 请 in front says please: 请出去。 别 in front says don't: 别出去！ And 吧 at the end says let's: 我们出去吧！", "rows": [
+				{"english": "Go out!", "foreign": "出去！", "base": "出去", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please go out.", "foreign": "请出去。", "mark": [{"text": "请", "role": "helper word"}], "base": "出去", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not go out!", "foreign": "别出去！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "出去", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go out!", "foreign": "我们出去吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "出去", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 29, "verb": "进来", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 进来！ 请 in front says please: 请进来。 别 in front says don't: 别进来！ And 吧 at the end says let's: 我们进来吧！", "rows": [
+				{"english": "Come in!", "foreign": "进来！", "base": "进来", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please come in.", "foreign": "请进来。", "mark": [{"text": "请", "role": "helper word"}], "base": "进来", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come in!", "foreign": "别进来！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "进来", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come in!", "foreign": "我们进来吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "进来", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 30, "verb": "旅行", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 旅行！ 请 in front says please: 请旅行。 别 in front says don't: 别旅行！ And 吧 at the end says let's: 我们旅行吧！", "rows": [
+				{"english": "Travel!", "foreign": "旅行！", "base": "旅行", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please travel.", "foreign": "请旅行。", "mark": [{"text": "请", "role": "helper word"}], "base": "旅行", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not travel!", "foreign": "别旅行！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "旅行", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's travel!", "foreign": "我们旅行吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "旅行", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 31, "verb": "做饭", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 做饭！ 请 in front says please: 请做饭。 别 in front says don't: 别做饭！ And 吧 at the end says let's: 我们做饭吧！", "rows": [
+				{"english": "Cook!", "foreign": "做饭！", "base": "做饭", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please cook.", "foreign": "请做饭。", "mark": [{"text": "请", "role": "helper word"}], "base": "做饭", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not cook!", "foreign": "别做饭！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "做饭", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's cook!", "foreign": "我们做饭吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "做饭", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 32, "verb": "打电话", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 打电话！ 请 in front says please: 请打电话。 别 in front says don't: 别打电话！ And 吧 at the end says let's: 我们打电话吧！", "rows": [
+				{"english": "Phone!", "foreign": "打电话！", "base": "打电话", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please phone.", "foreign": "请打电话。", "mark": [{"text": "请", "role": "helper word"}], "base": "打电话", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not phone!", "foreign": "别打电话！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "打电话", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's phone!", "foreign": "我们打电话吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "打电话", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 33, "verb": "开车", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 开车！ 请 in front says please: 请开车。 别 in front says don't: 别开车！ And 吧 at the end says let's: 我们开车吧！", "rows": [
+				{"english": "Drive!", "foreign": "开车！", "base": "开车", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please drive.", "foreign": "请开车。", "mark": [{"text": "请", "role": "helper word"}], "base": "开车", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not drive!", "foreign": "别开车！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "开车", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drive!", "foreign": "我们开车吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "开车", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 34, "verb": "坐", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 坐！ 请 in front says please: 请坐。 别 in front says don't: 别坐！ And 吧 at the end says let's: 我们坐吧！", "rows": [
+				{"english": "Sit!", "foreign": "坐！", "base": "坐", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please sit.", "foreign": "请坐。", "mark": [{"text": "请", "role": "helper word"}], "base": "坐", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sit!", "foreign": "别坐！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "坐", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sit!", "foreign": "我们坐吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "坐", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 35, "verb": "站", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 站！ 请 in front says please: 请站。 别 in front says don't: 别站！ And 吧 at the end says let's: 我们站吧！", "rows": [
+				{"english": "Stand!", "foreign": "站！", "base": "站", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please stand.", "foreign": "请站。", "mark": [{"text": "请", "role": "helper word"}], "base": "站", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not stand!", "foreign": "别站！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "站", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's stand!", "foreign": "我们站吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "站", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 37, "verb": "问", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 问！ 请 in front says please: 请问。 别 in front says don't: 别问！ And 吧 at the end says let's: 我们问吧！", "rows": [
+				{"english": "Ask!", "foreign": "问！", "base": "问", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please ask.", "foreign": "请问。", "mark": [{"text": "请", "role": "helper word"}], "base": "问", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not ask!", "foreign": "别问！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "问", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask!", "foreign": "我们问吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "问", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 38, "verb": "回答", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 回答！ 请 in front says please: 请回答。 别 in front says don't: 别回答！ And 吧 at the end says let's: 我们回答吧！", "rows": [
+				{"english": "Answer!", "foreign": "回答！", "base": "回答", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please answer.", "foreign": "请回答。", "mark": [{"text": "请", "role": "helper word"}], "base": "回答", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not answer!", "foreign": "别回答！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "回答", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's answer!", "foreign": "我们回答吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "回答", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 39, "verb": "忘记", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 忘记！ 请 in front says please: 请忘记。 别 in front says don't: 别忘记！ And 吧 at the end says let's: 我们忘记吧！", "rows": [
+				{"english": "Forget!", "foreign": "忘记！", "base": "忘记", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please forget.", "foreign": "请忘记。", "mark": [{"text": "请", "role": "helper word"}], "base": "忘记", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not forget!", "foreign": "别忘记！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "忘记", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's forget!", "foreign": "我们忘记吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "忘记", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 40, "verb": "付钱", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 付钱！ 请 in front says please: 请付钱。 别 in front says don't: 别付钱！ And 吧 at the end says let's: 我们付钱吧！", "rows": [
+				{"english": "Pay!", "foreign": "付钱！", "base": "付钱", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please pay.", "foreign": "请付钱。", "mark": [{"text": "请", "role": "helper word"}], "base": "付钱", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not pay!", "foreign": "别付钱！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "付钱", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's pay!", "foreign": "我们付钱吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "付钱", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 41, "verb": "洗澡", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 洗澡！ 请 in front says please: 请洗澡。 别 in front says don't: 别洗澡！ And 吧 at the end says let's: 我们洗澡吧！", "rows": [
+				{"english": "Take a bath!", "foreign": "洗澡！", "base": "洗澡", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please take a bath.", "foreign": "请洗澡。", "mark": [{"text": "请", "role": "helper word"}], "base": "洗澡", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not take a bath!", "foreign": "别洗澡！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "洗澡", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's take a bath!", "foreign": "我们洗澡吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "洗澡", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 43, "verb": "起床", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 起床！ 请 in front says please: 请起床。 别 in front says don't: 别起床！ And 吧 at the end says let's: 我们起床吧！", "rows": [
+				{"english": "Get up!", "foreign": "起床！", "base": "起床", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please get up.", "foreign": "请起床。", "mark": [{"text": "请", "role": "helper word"}], "base": "起床", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not get up!", "foreign": "别起床！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "起床", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's get up!", "foreign": "我们起床吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "起床", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 44, "verb": "点菜", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 点菜！ 请 in front says please: 请点菜。 别 in front says don't: 别点菜！ And 吧 at the end says let's: 我们点菜吧！", "rows": [
+				{"english": "Order!", "foreign": "点菜！", "base": "点菜", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please order.", "foreign": "请点菜。", "mark": [{"text": "请", "role": "helper word"}], "base": "点菜", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not order!", "foreign": "别点菜！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "点菜", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's order!", "foreign": "我们点菜吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "点菜", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 45, "verb": "画画", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 画画！ 请 in front says please: 请画画。 别 in front says don't: 别画画！ And 吧 at the end says let's: 我们画画吧！", "rows": [
+				{"english": "Draw!", "foreign": "画画！", "base": "画画", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please draw.", "foreign": "请画画。", "mark": [{"text": "请", "role": "helper word"}], "base": "画画", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not draw!", "foreign": "别画画！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "画画", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's draw!", "foreign": "我们画画吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "画画", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 46, "verb": "说话", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 说话！ 请 in front says please: 请说话。 别 in front says don't: 别说话！ And 吧 at the end says let's: 我们说话吧！", "rows": [
+				{"english": "Talk!", "foreign": "说话！", "base": "说话", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please talk.", "foreign": "请说话。", "mark": [{"text": "请", "role": "helper word"}], "base": "说话", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not talk!", "foreign": "别说话！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "说话", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's talk!", "foreign": "我们说话吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "说话", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 47, "verb": "教", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 教！ 请 in front says please: 请教。 别 in front says don't: 别教！ And 吧 at the end says let's: 我们教吧！", "rows": [
+				{"english": "Teach!", "foreign": "教！", "base": "教", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please teach.", "foreign": "请教。", "mark": [{"text": "请", "role": "helper word"}], "base": "教", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not teach!", "foreign": "别教！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "教", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's teach!", "foreign": "我们教吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "教", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 48, "verb": "跳", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 跳！ 请 in front says please: 请跳。 别 in front says don't: 别跳！ And 吧 at the end says let's: 我们跳吧！", "rows": [
+				{"english": "Jump!", "foreign": "跳！", "base": "跳", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please jump.", "foreign": "请跳。", "mark": [{"text": "请", "role": "helper word"}], "base": "跳", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not jump!", "foreign": "别跳！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "跳", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's jump!", "foreign": "我们跳吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "跳", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 49, "verb": "结束", "strategy": ["nothing", "helper word", "particle"], "description": "To tell someone to do it, say the verb on its own: 结束！ 请 in front says please: 请结束。 别 in front says don't: 别结束！ And 吧 at the end says let's: 我们结束吧！", "rows": [
+				{"english": "Finish!", "foreign": "结束！", "base": "结束", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please finish.", "foreign": "请结束。", "mark": [{"text": "请", "role": "helper word"}], "base": "结束", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not finish!", "foreign": "别结束！", "mark": [{"text": "别", "role": "helper word"}], "from": 1, "base": "结束", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's finish!", "foreign": "我们结束吧！", "mark": [{"text": "吧", "role": "particle"}], "base": "结束", "features": {"command": "yes", "who": "we"}}
+			]}
+	]
+}

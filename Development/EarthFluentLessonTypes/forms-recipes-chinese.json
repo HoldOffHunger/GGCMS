@@ -1,0 +1,118 @@
+{
+	"about": "How Chinese verb forms are made and turned into lessons. Written by Claude (Opus) with Ben on 16 November 2026, the first language whose verbs never change. There is no table in the dictionary to read, because there is nothing to conjugate: who is doing it is the word in front (我, 你, 她), and when, still going and telling are little words around the verb (了 after it for done, 在 in front for going on, 会 for later, 别 for don't, 吧 for let's). So `built` makes each form from a pattern, and the dump is asked only whether the word is a verb and for its pinyin, which a table shows in brackets beside each form (吃了 (chī le)) and the Play button leaves out. A simplified word that the dump only redirects (睡觉 to 睡覺) is followed to the entry that has the sound. 不 is read bú before a fourth tone. Verbs made of a verb and its object (唱歌, sing a song) take 过 inside them (唱过歌), and the pinyin cannot be split there by rule, so they have no 'ever' form yet. The lessons have no pinyin: the board has none for any Chinese lesson until the sounds work is done.",
+	"language": "chinese",
+	"translation_language": "zh",
+	"dump": "kaikki.org-dictionary-Chinese.jsonl",
+	"built": true,
+	"patterns": [
+		{"features": {"form": "infinitive"}, "pattern": "{}", "reading": "{}"},
+		{"features": {"form": "done"}, "pattern": "{}了", "reading": "{} le"},
+		{"features": {"form": "going"}, "pattern": "在{}", "reading": "zài {}"},
+		{"features": {"when": "later"}, "pattern": "会{}", "reading": "huì {}"},
+		{"features": {"ever": "yes"}, "pattern": "{}过", "reading": "{} guo", "not_separable": true},
+		{"features": {"not": "yes"}, "pattern": "不{}", "reading": "bù {}", "sandhi": "bú {}"},
+		{"features": {"when": "before", "not": "yes"}, "pattern": "没{}", "reading": "méi {}"},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "pattern": "请{}", "reading": "qǐng {}"},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "pattern": "别{}", "reading": "bié {}"},
+		{"features": {"command": "yes", "who": "we"}, "pattern": "我们{}吧", "reading": "wǒmen {} ba"}
+	],
+	"separable_verbs": ["唱歌", "跳舞", "游泳", "做饭", "打电话", "开车", "付钱", "洗澡", "搬家", "起床", "点菜", "画画", "说话", "帮忙", "睡觉", "上班", "下班", "见面", "结婚", "考试", "跑步", "散步", "生气", "请客"],
+	"recipes": {
+		"who": {
+			"strategy": ["nothing"],
+			"description": "The verb is the same whoever is doing it: {1}, {2}, {3}, {4}. Only the word in front says who.",
+			"rows": [
+				{"english": "I {base}", "features": {"form": "infinitive"}, "wrap": "我{}", "mark_form": "nothing", "says": {"who": "i", "when": "now"}},
+				{"english": "You {base}", "features": {"form": "infinitive"}, "wrap": "你{}", "mark_form": "nothing", "says": {"who": "you", "when": "now"}},
+				{"english": "She {s}", "features": {"form": "infinitive"}, "wrap": "她{}", "mark_form": "nothing", "says": {"who": "she", "when": "now"}},
+				{"english": "We {base}", "features": {"form": "infinitive"}, "wrap": "我们{}", "mark_form": "nothing", "says": {"who": "we", "when": "now"}}
+			]
+		},
+		"when": {
+			"strategy": ["particle", "helper word"],
+			"description": "The verb never changes for when. 了 after it says the thing is done: {2}. 会 in front says it is still to come: {3}.",
+			"rows": [
+				{"english": "I {base}", "features": {"form": "infinitive"}, "wrap": "我{}", "says": {"who": "i", "when": "now"}},
+				{"english": "I {past}", "features": {"form": "done"}, "wrap": "我{}", "words": [{"text": "了", "role": "particle"}], "from": 1, "says": {"who": "i", "when": "before"}},
+				{"english": "I will {base}", "features": {"when": "later"}, "wrap": "我{}", "words": ["会"], "from": 1, "says": {"who": "i", "when": "later"}},
+				{"english": "She {past}", "features": {"form": "done"}, "wrap": "她{}", "words": [{"text": "了", "role": "particle"}], "says": {"who": "she", "when": "before"}}
+			]
+		},
+		"going": {
+			"strategy": ["particle"],
+			"skip": "stative",
+			"description": "在 in front of the verb says it is going on right now: {2}. The verb itself stays as it is.",
+			"rows": [
+				{"english": "I {base}", "features": {"form": "infinitive"}, "wrap": "我{}", "says": {"who": "i", "when": "now"}},
+				{"english": "I am {ing}", "features": {"form": "going"}, "wrap": "我{}", "words": [{"text": "在", "role": "particle"}], "from": 1, "says": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She {s}", "features": {"form": "infinitive"}, "wrap": "她{}", "says": {"who": "she", "when": "now"}},
+				{"english": "She is {ing}", "features": {"form": "going"}, "wrap": "她{}", "words": [{"text": "在", "role": "particle"}], "from": 3, "says": {"who": "she", "when": "now", "going": "yes"}}
+			]
+		},
+		"command": {
+			"strategy": ["nothing", "helper word", "particle"],
+			"skip": "stative",
+			"description": "To tell someone to do it, say the verb on its own: {1} 请 in front says please: {2} 别 in front says don't: {3} And 吧 at the end says let's: {4}",
+			"rows": [
+				{"english": "{Base}!", "features": {"form": "infinitive"}, "wrap": "{}！", "says": {"command": "yes", "who": "you"}},
+				{"english": "Please {base}.", "features": {"command": "yes", "who": "you", "polite": "yes"}, "wrap": "{}。", "words": ["请"]},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "{}！", "words": ["别"], "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "wrap": "{}！", "words": [{"text": "吧", "role": "particle"}]}
+			]
+		}
+	},
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. All of them stand on their own, without an object, so 我吃了 is a sentence and 我使了 would not be. `stative` verbs sound wrong in English as 'I am knowing' or 'Know!' and sit out those two jobs; `no-going` and `no-command` leave out one job each. The before of know is 'found out': 我知道了 is the moment of learning it. `no-going` marks the verbs that do not take 在 on their own (我在来, 我在坐): going and coming, sitting and standing, beginning and ending. Left out on purpose: 去, which the grid's own lessons teach; 是 and 有, which need lessons of their own; 要, 能 and 会, which are the want-can-must job; 读, whose English is the same now and before; and 睡觉, whose 了 says going to bed, not having slept.",
+		"list": [
+			["来", "come", "comes", "came", "coming", "no-going"],
+			["吃", "eat", "eats", "ate", "eating"],
+			["喝", "drink", "drinks", "drank", "drinking"],
+			["看", "watch", "watches", "watched", "watching"],
+			["听", "listen", "listens", "listened", "listening"],
+			["说", "speak", "speaks", "spoke", "speaking"],
+			["写", "write", "writes", "wrote", "writing"],
+			["走", "walk", "walks", "walked", "walking"],
+			["跑", "run", "runs", "ran", "running"],
+			["买", "buy", "buys", "bought", "buying"],
+			["卖", "sell", "sells", "sold", "selling"],
+			["等", "wait", "waits", "waited", "waiting"],
+			["找", "look for", "looks for", "looked for", "looking for"],
+			["想", "think", "thinks", "thought", "thinking"],
+			["笑", "laugh", "laughs", "laughed", "laughing"],
+			["哭", "cry", "cries", "cried", "crying", "no-command"],
+			["玩", "play", "plays", "played", "playing"],
+			["唱歌", "sing", "sings", "sang", "singing"],
+			["跳舞", "dance", "dances", "danced", "dancing"],
+			["游泳", "swim", "swims", "swam", "swimming"],
+			["工作", "work", "works", "worked", "working"],
+			["学习", "study", "studies", "studied", "studying"],
+			["休息", "rest", "rests", "rested", "resting"],
+			["开始", "begin", "begins", "began", "beginning", "no-going"],
+			["帮忙", "help", "helps", "helped", "helping"],
+			["回来", "come back", "comes back", "came back", "coming back", "no-going"],
+			["出去", "go out", "goes out", "went out", "going out", "no-going"],
+			["进来", "come in", "comes in", "came in", "coming in", "no-going"],
+			["旅行", "travel", "travels", "travelled", "travelling"],
+			["做饭", "cook", "cooks", "cooked", "cooking"],
+			["打电话", "phone", "phones", "phoned", "phoning"],
+			["开车", "drive", "drives", "drove", "driving"],
+			["坐", "sit", "sits", "sat", "sitting", "no-going"],
+			["站", "stand", "stands", "stood", "standing", "no-going"],
+			["飞", "fly", "flies", "flew", "flying", "no-command"],
+			["问", "ask", "asks", "asked", "asking"],
+			["回答", "answer", "answers", "answered", "answering"],
+			["忘记", "forget", "forgets", "forgot", "forgetting", "no-going"],
+			["付钱", "pay", "pays", "paid", "paying"],
+			["洗澡", "take a bath", "takes a bath", "took a bath", "taking a bath"],
+			["搬家", "move house", "moves house", "moved house", "moving house", "no-command"],
+			["起床", "get up", "gets up", "got up", "getting up"],
+			["点菜", "order", "orders", "ordered", "ordering"],
+			["画画", "draw", "draws", "drew", "drawing"],
+			["说话", "talk", "talks", "talked", "talking"],
+			["知道", "know", "knows", "found out", "knowing", "stative"],
+			["教", "teach", "teaches", "taught", "teaching"],
+			["跳", "jump", "jumps", "jumped", "jumping"],
+			["结束", "finish", "finishes", "finished", "finishing", "no-going"]
+		]
+	}
+}
