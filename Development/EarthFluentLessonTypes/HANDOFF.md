@@ -42,7 +42,7 @@ where a form is also another word; read for English that does not say what the f
 
 1. **Ship the waiting batch**, when Ben says so. Follow the steps in `ConjugationSystem.md`; rehearse nothing new, it
    has all run on Fumiko.
-2. **Read tasks 141 to 144** when they finish, and correct what is real with `make_lessons_update.py`.
+2. ~~Read tasks 141 to 144~~: done by Opus on 16 Nov, three faults fixed in `d4cb727` (step 5 of the ship list).
 3. **The five remaining languages** (Chinese, Japanese, Korean, Hindi, Indonesian). Begin by printing what each dump
    holds for two or three verbs, as every earlier language began. Expect particles and helper words, not endings.
 4. **Aspect-pair lessons for Russian and Polish**, which need English written per verb for the finished form.

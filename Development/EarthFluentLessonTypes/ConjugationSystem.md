@@ -19,7 +19,8 @@ The conjugation system makes everything after Part 1 from dictionary data, with 
    `BaseWord` the dictionary word, `Features` what it says, `Source` `wiktionary`). The verb's page then shows a table.
 3. `make_form_lessons.py` turns forms into lessons in the grid's shape, from a **recipe** per job. Output:
    `lessons-<language>.json`. `check_grid.py` checks it; `make_grid_import.py --lessons` makes the import file.
-4. `make_lessons_update.py` corrects lessons that are already on the site (the importer can make a lesson, not change one).
+4. `make_lessons_update.py` and `make_forms_update.py` correct lessons and forms already on the site (the importer can
+   make a record, not change one). `ship/corrections_run.sh` runs what they write, on Fumiko or prod.
 
 **Everything about a language lives in one file: `forms-recipes-<language>.json`.** Its `about` field says what that
 language needed that the others did not. Read the `about` of the language nearest the one you are adding before you start.
@@ -128,7 +129,11 @@ Also waiting to ship (committed, not pushed, not deployed): the engine fix for t
 4. German and Dutch split-verb lessons: regenerate `lessons-german.tsv` and `lessons-dutch.tsv`, then import with
    `--apply --keep-cache`; existing lessons are skipped as twins, the new ones are made. Re-render `/german/patterns/`
    and `/dutch/patterns/`.
-5. Check with `ship/addr.sh` against Fumiko, and by fetching the boards and a verb table from the live site.
+5. German and Dutch corrections (commit `d4cb727`: `aufstehen` and the verbs of motion take `sein`, `weggaan` takes
+   `zijn`, `Arbeite!` keeps its `e`). The SQL is in `D:\ef-types-ship\fix2\`, made against commit `3334dd5`'s files;
+   copy `forms-update-*.sql`, `lessons-update-*.sql` and `corrections_run.sh` to prod and run
+   `bash corrections_run.sh <that folder> php prod german dutch` **after** step 4. Rehearsed on Fumiko: 198 forms, 25 lesson rows.
+6. Check with `ship/addr.sh` against Fumiko, and by fetching the boards and a verb table from the live site.
 
 ## Checking the work
 
@@ -136,8 +141,9 @@ Also waiting to ship (committed, not pushed, not deployed): the engine fix for t
 - **The lesson check worker** (`E:\AIWorkers\earthfluent_pilot\`, pile `lessons-<code>`) reads each pair by blind
   back-translation. The forms are the dictionary's, so what it finds is English that does not say what the form says.
   It found three real things in Spanish and French (the before of "know" is "found out"; `pedir` is "ask for"; French
-  `sortir` takes `être`) and many false alarms where a form is also another word (`camino`, `juego`). Tasks 141 to 144
-  on the Foreman are the Italian, Portuguese, German and Dutch runs, not yet read.
+  `sortir` takes `être`) and many false alarms where a form is also another word (`camino`, `juego`). The Italian,
+  Portuguese, German and Dutch runs (tasks 141 to 144) found three more, all fixed in `d4cb727`; Italian and Portuguese
+  were clean. Expect it to flag every Dutch and German spoken past (`zij heeft gezien`) as the wrong tense: it is not.
 - **The part-of-speech worker** (`E:\AIWorkers\earthfluent_pos\`) found words filed under the wrong lesson type; 2,743
   corrections went live on 15 Nov. Its rule is unreliable for Chinese, Japanese, Korean, Hindi and Indonesian.
 
