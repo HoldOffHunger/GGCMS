@@ -280,6 +280,48 @@
 				{"english": "She feels", "foreign": "zij voelt", "mark": ["t"], "base": "voelen", "features": {"who": "she", "when": "now"}},
 				{"english": "We feel", "foreign": "wij voelen", "mark": ["en"], "base": "voelen", "features": {"who": "we", "when": "now"}}
 			]},
+		{"job": "who", "part": 48, "verb": "aankomen", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ik kom aan, jij komt aan, zij komt aan, wij komen aan. I has no ending at all. Aankomen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I arrive", "foreign": "ik kom aan", "mark": [{"text": "aan", "role": "word order"}], "base": "aankomen", "features": {"who": "i", "when": "now"}},
+				{"english": "You arrive", "foreign": "jij komt aan", "mark": [{"text": "t", "role": "ending"}, {"text": "aan", "role": "word order"}], "base": "aankomen", "features": {"who": "you", "when": "now"}},
+				{"english": "She arrives", "foreign": "zij komt aan", "mark": [{"text": "t", "role": "ending"}, {"text": "aan", "role": "word order"}], "base": "aankomen", "features": {"who": "she", "when": "now"}},
+				{"english": "We arrive", "foreign": "wij komen aan", "mark": [{"text": "en", "role": "ending"}, {"text": "aan", "role": "word order"}], "base": "aankomen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 49, "verb": "opstaan", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ik sta op, jij staat op, zij staat op, wij staan op. I has no ending at all. Watch the middle of the word too: in some of these it changes. Opstaan is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I get up", "foreign": "ik sta op", "mark": [{"text": "op", "role": "word order"}], "base": "opstaan", "features": {"who": "i", "when": "now"}},
+				{"english": "You get up", "foreign": "jij staat op", "mark": [{"text": "t", "role": "ending"}, {"text": "op", "role": "word order"}], "base": "opstaan", "features": {"who": "you", "when": "now"}},
+				{"english": "She gets up", "foreign": "zij staat op", "mark": [{"text": "t", "role": "ending"}, {"text": "op", "role": "word order"}], "base": "opstaan", "features": {"who": "she", "when": "now"}},
+				{"english": "We get up", "foreign": "wij staan op", "mark": [{"text": "n", "role": "ending"}, {"text": "op", "role": "word order"}], "base": "opstaan", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 50, "verb": "opbellen", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ik bel op, jij belt op, zij belt op, wij bellen op. I has no ending at all. Watch the middle of the word too: in some of these it changes. Opbellen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I phone", "foreign": "ik bel op", "mark": [{"text": "op", "role": "word order"}], "base": "opbellen", "features": {"who": "i", "when": "now"}},
+				{"english": "You phone", "foreign": "jij belt op", "mark": [{"text": "t", "role": "ending"}, {"text": "op", "role": "word order"}], "base": "opbellen", "features": {"who": "you", "when": "now"}},
+				{"english": "She phones", "foreign": "zij belt op", "mark": [{"text": "t", "role": "ending"}, {"text": "op", "role": "word order"}], "base": "opbellen", "features": {"who": "she", "when": "now"}},
+				{"english": "We phone", "foreign": "wij bellen op", "mark": [{"text": "en", "role": "ending"}, {"text": "op", "role": "word order"}], "base": "opbellen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 51, "verb": "ophouden", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ik hou op, jij houdt op, zij houdt op, wij houden op. I has no ending at all. Ophouden is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I stop", "foreign": "ik hou op", "mark": [{"text": "op", "role": "word order"}], "base": "ophouden", "features": {"who": "i", "when": "now"}},
+				{"english": "You stop", "foreign": "jij houdt op", "mark": [{"text": "t", "role": "ending"}, {"text": "op", "role": "word order"}], "base": "ophouden", "features": {"who": "you", "when": "now"}},
+				{"english": "She stops", "foreign": "zij houdt op", "mark": [{"text": "t", "role": "ending"}, {"text": "op", "role": "word order"}], "base": "ophouden", "features": {"who": "she", "when": "now"}},
+				{"english": "We stop", "foreign": "wij houden op", "mark": [{"text": "en", "role": "ending"}, {"text": "op", "role": "word order"}], "base": "ophouden", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 52, "verb": "weggaan", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ik ga weg, jij gaat weg, zij gaat weg, wij gaan weg. I has no ending at all. Watch the middle of the word too: in some of these it changes. Weggaan is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I go away", "foreign": "ik ga weg", "mark": [{"text": "weg", "role": "word order"}], "base": "weggaan", "features": {"who": "i", "when": "now"}},
+				{"english": "You go away", "foreign": "jij gaat weg", "mark": [{"text": "t", "role": "ending"}, {"text": "weg", "role": "word order"}], "base": "weggaan", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes away", "foreign": "zij gaat weg", "mark": [{"text": "t", "role": "ending"}, {"text": "weg", "role": "word order"}], "base": "weggaan", "features": {"who": "she", "when": "now"}},
+				{"english": "We go away", "foreign": "wij gaan weg", "mark": [{"text": "n", "role": "ending"}, {"text": "weg", "role": "word order"}], "base": "weggaan", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 53, "verb": "meenemen", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ik neem mee, jij neemt mee, zij neemt mee, wij nemen mee. I has no ending at all. Watch the middle of the word too: in some of these it changes. Meenemen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I bring along", "foreign": "ik neem mee", "mark": [{"text": "mee", "role": "word order"}], "base": "meenemen", "features": {"who": "i", "when": "now"}},
+				{"english": "You bring along", "foreign": "jij neemt mee", "mark": [{"text": "t", "role": "ending"}, {"text": "mee", "role": "word order"}], "base": "meenemen", "features": {"who": "you", "when": "now"}},
+				{"english": "She brings along", "foreign": "zij neemt mee", "mark": [{"text": "t", "role": "ending"}, {"text": "mee", "role": "word order"}], "base": "meenemen", "features": {"who": "she", "when": "now"}},
+				{"english": "We bring along", "foreign": "wij nemen mee", "mark": [{"text": "en", "role": "ending"}, {"text": "mee", "role": "word order"}], "base": "meenemen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 54, "verb": "afmaken", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ik maak af, jij maakt af, zij maakt af, wij maken af. I has no ending at all. Watch the middle of the word too: in some of these it changes. Afmaken is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I finish", "foreign": "ik maak af", "mark": [{"text": "af", "role": "word order"}], "base": "afmaken", "features": {"who": "i", "when": "now"}},
+				{"english": "You finish", "foreign": "jij maakt af", "mark": [{"text": "t", "role": "ending"}, {"text": "af", "role": "word order"}], "base": "afmaken", "features": {"who": "you", "when": "now"}},
+				{"english": "She finishes", "foreign": "zij maakt af", "mark": [{"text": "t", "role": "ending"}, {"text": "af", "role": "word order"}], "base": "afmaken", "features": {"who": "she", "when": "now"}},
+				{"english": "We finish", "foreign": "wij maken af", "mark": [{"text": "en", "role": "ending"}, {"text": "af", "role": "word order"}], "base": "afmaken", "features": {"who": "we", "when": "now"}}
+			]},
 		{"job": "when", "part": 2, "verb": "hebben", "strategy": ["helper word", "ending"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb gehad. For later, a form of zullen goes in front: ik zal hebben.", "rows": [
 				{"english": "I have", "foreign": "ik heb", "base": "hebben", "features": {"who": "i", "when": "now"}},
 				{"english": "I had", "foreign": "ik heb gehad", "mark": [{"text": "heb", "role": "helper word"}, {"text": "gehad", "role": "ending"}], "from": 1, "base": "hebben", "features": {"who": "i", "when": "before"}},
@@ -556,6 +598,48 @@
 				{"english": "I will feel", "foreign": "ik zal voelen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "voelen", "features": {"who": "i", "when": "later"}},
 				{"english": "She felt", "foreign": "zij heeft gevoeld", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "gevoeld", "role": "ending"}], "base": "voelen", "features": {"who": "she", "when": "before"}}
 			]},
+		{"job": "when", "part": 48, "verb": "aankomen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik ben aangekomen. For later, a form of zullen goes in front: ik zal aankomen. Aankomen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I arrive", "foreign": "ik kom aan", "mark": [{"text": "aan", "role": "word order"}], "base": "aankomen", "features": {"who": "i", "when": "now"}},
+				{"english": "I arrived", "foreign": "ik ben aangekomen", "mark": [{"text": "ben", "role": "helper word"}, {"text": "aangekomen", "role": "ending"}], "from": 1, "base": "aankomen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will arrive", "foreign": "ik zal aankomen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "aankomen", "features": {"who": "i", "when": "later"}},
+				{"english": "She arrived", "foreign": "zij is aangekomen", "mark": [{"text": "is", "role": "helper word"}, {"text": "aangekomen", "role": "ending"}], "base": "aankomen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 49, "verb": "opstaan", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik ben opgestaan. For later, a form of zullen goes in front: ik zal opstaan. Opstaan is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I get up", "foreign": "ik sta op", "mark": [{"text": "op", "role": "word order"}], "base": "opstaan", "features": {"who": "i", "when": "now"}},
+				{"english": "I got up", "foreign": "ik ben opgestaan", "mark": [{"text": "ben", "role": "helper word"}, {"text": "opgestaan", "role": "ending"}], "from": 1, "base": "opstaan", "features": {"who": "i", "when": "before"}},
+				{"english": "I will get up", "foreign": "ik zal opstaan", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "opstaan", "features": {"who": "i", "when": "later"}},
+				{"english": "She got up", "foreign": "zij is opgestaan", "mark": [{"text": "is", "role": "helper word"}, {"text": "opgestaan", "role": "ending"}], "base": "opstaan", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 50, "verb": "opbellen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb opgebeld. For later, a form of zullen goes in front: ik zal opbellen. Opbellen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I phone", "foreign": "ik bel op", "mark": [{"text": "op", "role": "word order"}], "base": "opbellen", "features": {"who": "i", "when": "now"}},
+				{"english": "I phoned", "foreign": "ik heb opgebeld", "mark": [{"text": "heb", "role": "helper word"}, {"text": "opgebeld", "role": "ending"}], "from": 1, "base": "opbellen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will phone", "foreign": "ik zal opbellen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "opbellen", "features": {"who": "i", "when": "later"}},
+				{"english": "She phoned", "foreign": "zij heeft opgebeld", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "opgebeld", "role": "ending"}], "base": "opbellen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 51, "verb": "ophouden", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb opgehouden. For later, a form of zullen goes in front: ik zal ophouden. Ophouden is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I stop", "foreign": "ik hou op", "mark": [{"text": "op", "role": "word order"}], "base": "ophouden", "features": {"who": "i", "when": "now"}},
+				{"english": "I stopped", "foreign": "ik heb opgehouden", "mark": [{"text": "heb", "role": "helper word"}, {"text": "opgehouden", "role": "ending"}], "from": 1, "base": "ophouden", "features": {"who": "i", "when": "before"}},
+				{"english": "I will stop", "foreign": "ik zal ophouden", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "ophouden", "features": {"who": "i", "when": "later"}},
+				{"english": "She stopped", "foreign": "zij heeft opgehouden", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "opgehouden", "role": "ending"}], "base": "ophouden", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 52, "verb": "weggaan", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb weggegaan. For later, a form of zullen goes in front: ik zal weggaan. Weggaan is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I go away", "foreign": "ik ga weg", "mark": [{"text": "weg", "role": "word order"}], "base": "weggaan", "features": {"who": "i", "when": "now"}},
+				{"english": "I went away", "foreign": "ik heb weggegaan", "mark": [{"text": "heb", "role": "helper word"}, {"text": "weggegaan", "role": "ending"}], "from": 1, "base": "weggaan", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go away", "foreign": "ik zal weggaan", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "weggaan", "features": {"who": "i", "when": "later"}},
+				{"english": "She went away", "foreign": "zij heeft weggegaan", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "weggegaan", "role": "ending"}], "base": "weggaan", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 53, "verb": "meenemen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb meegenomen. For later, a form of zullen goes in front: ik zal meenemen. Meenemen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I bring along", "foreign": "ik neem mee", "mark": [{"text": "mee", "role": "word order"}], "base": "meenemen", "features": {"who": "i", "when": "now"}},
+				{"english": "I brought along", "foreign": "ik heb meegenomen", "mark": [{"text": "heb", "role": "helper word"}, {"text": "meegenomen", "role": "ending"}], "from": 1, "base": "meenemen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will bring along", "foreign": "ik zal meenemen", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "meenemen", "features": {"who": "i", "when": "later"}},
+				{"english": "She brought along", "foreign": "zij heeft meegenomen", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "meegenomen", "role": "ending"}], "base": "meenemen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 54, "verb": "afmaken", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of hebben or zijn goes in front and the changed verb goes to the end: ik heb afgemaakt. For later, a form of zullen goes in front: ik zal afmaken. Afmaken is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I finish", "foreign": "ik maak af", "mark": [{"text": "af", "role": "word order"}], "base": "afmaken", "features": {"who": "i", "when": "now"}},
+				{"english": "I finished", "foreign": "ik heb afgemaakt", "mark": [{"text": "heb", "role": "helper word"}, {"text": "afgemaakt", "role": "ending"}], "from": 1, "base": "afmaken", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "ik zal afmaken", "mark": [{"text": "zal", "role": "helper word"}], "from": 1, "base": "afmaken", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "zij heeft afgemaakt", "mark": [{"text": "heeft", "role": "helper word"}, {"text": "afgemaakt", "role": "ending"}], "base": "afmaken", "features": {"who": "she", "when": "before"}}
+			]},
 		{"job": "going", "part": 2, "verb": "maken", "strategy": ["helper word"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het maken.", "rows": [
 				{"english": "I make", "foreign": "ik maak", "base": "maken", "features": {"who": "i", "when": "now"}},
 				{"english": "I am making", "foreign": "ik ben aan het maken", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "maken", "features": {"who": "i", "when": "now", "going": "yes"}},
@@ -765,6 +849,48 @@
 				{"english": "I am following", "foreign": "ik ben aan het volgen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "volgen", "features": {"who": "i", "when": "now", "going": "yes"}},
 				{"english": "She follows", "foreign": "zij volgt", "base": "volgen", "features": {"who": "she", "when": "now"}},
 				{"english": "She is following", "foreign": "zij is aan het volgen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "volgen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 43, "verb": "aankomen", "strategy": ["helper word", "word order"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het aankomen. Aankomen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I arrive", "foreign": "ik kom aan", "mark": [{"text": "aan", "role": "word order"}], "base": "aankomen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am arriving", "foreign": "ik ben aan het aankomen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "aankomen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She arrives", "foreign": "zij komt aan", "mark": [{"text": "aan", "role": "word order"}], "base": "aankomen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is arriving", "foreign": "zij is aan het aankomen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "aankomen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 44, "verb": "opstaan", "strategy": ["helper word", "word order"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het opstaan. Opstaan is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I get up", "foreign": "ik sta op", "mark": [{"text": "op", "role": "word order"}], "base": "opstaan", "features": {"who": "i", "when": "now"}},
+				{"english": "I am getting up", "foreign": "ik ben aan het opstaan", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "opstaan", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She gets up", "foreign": "zij staat op", "mark": [{"text": "op", "role": "word order"}], "base": "opstaan", "features": {"who": "she", "when": "now"}},
+				{"english": "She is getting up", "foreign": "zij is aan het opstaan", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "opstaan", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 45, "verb": "opbellen", "strategy": ["helper word", "word order"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het opbellen. Opbellen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I phone", "foreign": "ik bel op", "mark": [{"text": "op", "role": "word order"}], "base": "opbellen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am phoning", "foreign": "ik ben aan het opbellen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "opbellen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She phones", "foreign": "zij belt op", "mark": [{"text": "op", "role": "word order"}], "base": "opbellen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is phoning", "foreign": "zij is aan het opbellen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "opbellen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 46, "verb": "ophouden", "strategy": ["helper word", "word order"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het ophouden. Ophouden is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I stop", "foreign": "ik hou op", "mark": [{"text": "op", "role": "word order"}], "base": "ophouden", "features": {"who": "i", "when": "now"}},
+				{"english": "I am stopping", "foreign": "ik ben aan het ophouden", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "ophouden", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She stops", "foreign": "zij houdt op", "mark": [{"text": "op", "role": "word order"}], "base": "ophouden", "features": {"who": "she", "when": "now"}},
+				{"english": "She is stopping", "foreign": "zij is aan het ophouden", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "ophouden", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 47, "verb": "weggaan", "strategy": ["helper word", "word order"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het weggaan. Weggaan is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I go away", "foreign": "ik ga weg", "mark": [{"text": "weg", "role": "word order"}], "base": "weggaan", "features": {"who": "i", "when": "now"}},
+				{"english": "I am going away", "foreign": "ik ben aan het weggaan", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "weggaan", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She goes away", "foreign": "zij gaat weg", "mark": [{"text": "weg", "role": "word order"}], "base": "weggaan", "features": {"who": "she", "when": "now"}},
+				{"english": "She is going away", "foreign": "zij is aan het weggaan", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "weggaan", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 48, "verb": "meenemen", "strategy": ["helper word", "word order"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het meenemen. Meenemen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I bring along", "foreign": "ik neem mee", "mark": [{"text": "mee", "role": "word order"}], "base": "meenemen", "features": {"who": "i", "when": "now"}},
+				{"english": "I am bringing along", "foreign": "ik ben aan het meenemen", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "meenemen", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She brings along", "foreign": "zij neemt mee", "mark": [{"text": "mee", "role": "word order"}], "base": "meenemen", "features": {"who": "she", "when": "now"}},
+				{"english": "She is bringing along", "foreign": "zij is aan het meenemen", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "meenemen", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 49, "verb": "afmaken", "strategy": ["helper word", "word order"], "description": "For something going on right now, Dutch says I am at the doing of it: ik ben aan het afmaken. Afmaken is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I finish", "foreign": "ik maak af", "mark": [{"text": "af", "role": "word order"}], "base": "afmaken", "features": {"who": "i", "when": "now"}},
+				{"english": "I am finishing", "foreign": "ik ben aan het afmaken", "mark": [{"text": "ben aan het", "role": "helper word"}], "from": 1, "base": "afmaken", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She finishes", "foreign": "zij maakt af", "mark": [{"text": "af", "role": "word order"}], "base": "afmaken", "features": {"who": "she", "when": "now"}},
+				{"english": "She is finishing", "foreign": "zij is aan het afmaken", "mark": [{"text": "is aan het", "role": "helper word"}], "from": 3, "base": "afmaken", "features": {"who": "she", "when": "now", "going": "yes"}}
 			]},
 		{"job": "command", "part": 2, "verb": "maken", "strategy": ["helper word"], "description": "To tell someone to do something, the verb comes first and stands short: Maak! Telling them not to puts niet after it: Maak niet! For let's, laten we and the whole verb: Laten we maken!", "rows": [
 				{"english": "Make!", "foreign": "Maak!", "base": "maken", "features": {"command": "yes", "who": "you"}},

@@ -50,6 +50,7 @@
 	},
 
 	"middle": " Watch the middle of the word too: in some of these it changes.",
+	"splits": " {Base} is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.",
 
 	"recipes": {
 		"who": {
@@ -87,7 +88,7 @@
 	},
 
 	"verbs": {
-		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job; `no-command` leaves out the commands that are right and that nobody says. Left out on purpose: sein and werden, which need lessons of their own; wollen, können and müssen, which are the want-can-must job; lesen, whose English is the same now and before; and the verbs that split in two (ankommen, ausgehen, zurückkommen), which wait for a lesson of their own.",
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job; `no-command` leaves out the commands that are right and that nobody says. Left out on purpose: sein and werden, which need lessons of their own; wollen, können and müssen, which are the want-can-must job; lesen, whose English is the same now and before; and most of the verbs that split in two; the last seven here are the first of them, marked `splits`, and stay out of the command job, where what is added goes inside the split (kommen Sie an). Still waiting: (ankommen, ausgehen, zurückkommen), which wait for a lesson of their own.",
 		"list": [
 			["haben", "have", "has", "had", "having", "stative"],
 			["machen", "make", "makes", "made", "making"],
@@ -133,7 +134,14 @@
 			["bekommen", "receive", "receives", "received", "receiving", "no-command"],
 			["bestellen", "order", "orders", "ordered", "ordering"],
 			["folgen", "follow", "follows", "followed", "following"],
-			["fühlen", "feel", "feels", "felt", "feeling", "stative"]
+			["fühlen", "feel", "feels", "felt", "feeling", "stative"],
+			["ankommen", "arrive", "arrives", "arrived", "arriving", "no-command", "splits"],
+			["aufstehen", "get up", "gets up", "got up", "getting up", "no-command", "splits"],
+			["anrufen", "phone", "phones", "phoned", "phoning", "no-command", "splits"],
+			["anfangen", "begin", "begins", "began", "beginning", "no-command", "splits"],
+			["aufhören", "stop", "stops", "stopped", "stopping", "no-command", "splits"],
+			["ausgehen", "go out", "goes out", "went out", "going out", "no-command", "splits"],
+			["zurückkommen", "come back", "comes back", "came back", "coming back", "no-command", "splits"]
 		]
 	}
 }

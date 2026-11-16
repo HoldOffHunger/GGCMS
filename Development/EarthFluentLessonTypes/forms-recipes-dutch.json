@@ -59,6 +59,7 @@
 	},
 
 	"middle": " Watch the middle of the word too: in some of these it changes.",
+	"splits": " {Base} is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.",
 
 	"recipes": {
 		"who": {
@@ -107,7 +108,7 @@
 	},
 
 	"verbs": {
-		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as 'I am knowing' or 'Know!', and are left out of those two jobs; `no-command` leaves out the commands that are right and that nobody says, and `no-going` the verbs nobody says with aan het (ik ben aan het gaan). Left out on purpose: zijn and worden, which need lessons of their own; willen, kunnen and moeten, which are the want-can-must job; lezen, whose English is the same now and before; and the verbs that split in two (aankomen, uitgaan, terugkomen), which wait for a lesson of their own.",
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `stative` verbs sound wrong in English as 'I am knowing' or 'Know!', and are left out of those two jobs; `no-command` leaves out the commands that are right and that nobody says, and `no-going` the verbs nobody says with aan het (ik ben aan het gaan). Left out on purpose: zijn and worden, which need lessons of their own; willen, kunnen and moeten, which are the want-can-must job; lezen, whose English is the same now and before; and most of the verbs that split in two; the last seven here are the first of them, marked `splits`, and stay out of the command job, where what is added goes inside the split (kommen Sie an). Still waiting: (aankomen, uitgaan, terugkomen), which wait for a lesson of their own.",
 		"list": [
 			["hebben", "have", "has", "had", "having", "stative"],
 			["maken", "make", "makes", "made", "making"],
@@ -154,7 +155,14 @@
 			["ontvangen", "receive", "receives", "received", "receiving", "no-command"],
 			["bestellen", "order", "orders", "ordered", "ordering"],
 			["volgen", "follow", "follows", "followed", "following"],
-			["voelen", "feel", "feels", "felt", "feeling", "stative"]
+			["voelen", "feel", "feels", "felt", "feeling", "stative"],
+			["aankomen", "arrive", "arrives", "arrived", "arriving", "no-command", "splits"],
+			["opstaan", "get up", "gets up", "got up", "getting up", "no-command", "splits"],
+			["opbellen", "phone", "phones", "phoned", "phoning", "no-command", "splits"],
+			["ophouden", "stop", "stops", "stopped", "stopping", "no-command", "splits"],
+			["weggaan", "go away", "goes away", "went away", "going away", "no-command", "splits"],
+			["meenemen", "bring along", "brings along", "brought along", "bringing along", "no-command", "splits"],
+			["afmaken", "finish", "finishes", "finished", "finishing", "no-command", "splits"]
 		]
 	}
 }

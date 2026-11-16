@@ -43,12 +43,19 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
     recipe = recipes["recipes"][job]
     base, plain, she, past, ing = verb[:5]
     english = {"base": plain, "Base": plain[0].upper() + plain[1:], "s": she, "past": past, "ing": ing}
-    stem, rows, unmarked, moved = base[:-recipes.get("class_letters", 2)], [], False, False
+    stem, rows, unmarked, moved, splits = base[:-recipes.get("class_letters", 2)], [], False, False, False
     two = len(recipe["strategy"]) > 1
     for slot in recipe["rows"]:
         entry = entry_of(forms, base, slot["features"])
         form = entry.get("part", entry["form"])  # the word that carries the ending: parlé, of ai parlé
         text, marks = entry["form"], []
+        # A verb that splits in two: ankommen is komme an. The ending is on the first word, and the front part, sent to
+        # the end, is lit as the word order it is. Its stem is the verb's without that front part: komm, not ankomm.
+        tail = form.partition(" ")[2] if "splits" in verb[5:] and "helper" not in entry and " " in form else ""
+        if tail:
+            form, splits = form.partition(" ")[0], True
+            stem = stem[len(tail):] if stem.startswith(tail) else stem
+            two = True
         if "helper" in entry:  # the dictionary's own two-word form: its helper is lit as a helper
             marks.append({"text": entry["helper"], "role": "helper word"})
         if "helper" in slot:  # a helper the recipe adds: estoy, in front of hablando
@@ -74,7 +81,13 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
                 moved = moved or form[:-len(piece)] != stem  # salgo, busqué, tendré: the ending is regular and the rest is not
             elif piece is None:
                 unmarked = True
+        if tail:
+            marks.append({"text": tail, "role": "word order"})
         row = {"english": slot["english"].format(**english), "foreign": text}
+        # The board finds an ending as the last place its letters occur. Where that is not in the verb (ich kaufe ein:
+        # the last e is in ein), lighting it would light the wrong letters, so the ending goes unlit instead.
+        marks = [mark for mark in marks if not (isinstance(mark, dict) and mark["role"] == "ending" and tail
+                                                and text.rfind(mark["text"]) > text.find(form) + len(form) - len(mark["text"]))]
         if marks:
             row["mark"] = marks
         if "from" in slot:
@@ -88,6 +101,10 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
         description += recipe["own_way"].format(Base=base[0].upper() + base[1:])
     elif moved and "middle" in recipes:
         description += recipes["middle"]
+    if splits and "splits" in recipes:
+        description += recipes["splits"].format(Base=base[0].upper() + base[1:])
+    if splits and "word order" not in recipe["strategy"]:
+        return {"job": job, "part": part, "verb": base, "strategy": [*recipe["strategy"], "word order"], "description": description, "rows": rows}
     return {"job": job, "part": part, "verb": base, "strategy": recipe["strategy"], "description": description, "rows": rows}
 
 

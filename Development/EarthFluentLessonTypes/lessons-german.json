@@ -274,6 +274,48 @@
 				{"english": "She feels", "foreign": "sie fühlt", "mark": ["t"], "base": "fühlen", "features": {"who": "she", "when": "now"}},
 				{"english": "We feel", "foreign": "wir fühlen", "mark": ["en"], "base": "fühlen", "features": {"who": "we", "when": "now"}}
 			]},
+		{"job": "who", "part": 47, "verb": "ankommen", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ich komme an, du kommst an, sie kommt an, wir kommen an. Spot what changes. Ankommen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I arrive", "foreign": "ich komme an", "mark": [{"text": "e", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "ankommen", "features": {"who": "i", "when": "now"}},
+				{"english": "You arrive", "foreign": "du kommst an", "mark": [{"text": "st", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "ankommen", "features": {"who": "you", "when": "now"}},
+				{"english": "She arrives", "foreign": "sie kommt an", "mark": [{"text": "t", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "ankommen", "features": {"who": "she", "when": "now"}},
+				{"english": "We arrive", "foreign": "wir kommen an", "mark": [{"text": "en", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "ankommen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 48, "verb": "aufstehen", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ich stehe auf, du stehst auf, sie steht auf, wir stehen auf. Spot what changes. Aufstehen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I get up", "foreign": "ich stehe auf", "mark": [{"text": "e", "role": "ending"}, {"text": "auf", "role": "word order"}], "base": "aufstehen", "features": {"who": "i", "when": "now"}},
+				{"english": "You get up", "foreign": "du stehst auf", "mark": [{"text": "st", "role": "ending"}, {"text": "auf", "role": "word order"}], "base": "aufstehen", "features": {"who": "you", "when": "now"}},
+				{"english": "She gets up", "foreign": "sie steht auf", "mark": [{"text": "t", "role": "ending"}, {"text": "auf", "role": "word order"}], "base": "aufstehen", "features": {"who": "she", "when": "now"}},
+				{"english": "We get up", "foreign": "wir stehen auf", "mark": [{"text": "en", "role": "ending"}, {"text": "auf", "role": "word order"}], "base": "aufstehen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 49, "verb": "anrufen", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ich rufe an, du rufst an, sie ruft an, wir rufen an. Spot what changes. Anrufen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I phone", "foreign": "ich rufe an", "mark": [{"text": "e", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "anrufen", "features": {"who": "i", "when": "now"}},
+				{"english": "You phone", "foreign": "du rufst an", "mark": [{"text": "st", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "anrufen", "features": {"who": "you", "when": "now"}},
+				{"english": "She phones", "foreign": "sie ruft an", "mark": [{"text": "t", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "anrufen", "features": {"who": "she", "when": "now"}},
+				{"english": "We phone", "foreign": "wir rufen an", "mark": [{"text": "en", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "anrufen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 50, "verb": "anfangen", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ich fange an, du fängst an, sie fängt an, wir fangen an. Spot what changes. Watch the middle of the word too: in some of these it changes. Anfangen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I begin", "foreign": "ich fange an", "mark": [{"text": "e", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "anfangen", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "du fängst an", "mark": [{"text": "st", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "anfangen", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "sie fängt an", "mark": [{"text": "t", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "anfangen", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "wir fangen an", "mark": [{"text": "en", "role": "ending"}, {"text": "an", "role": "word order"}], "base": "anfangen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 51, "verb": "aufhören", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ich höre auf, du hörst auf, sie hört auf, wir hören auf. Spot what changes. Aufhören is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I stop", "foreign": "ich höre auf", "mark": [{"text": "e", "role": "ending"}, {"text": "auf", "role": "word order"}], "base": "aufhören", "features": {"who": "i", "when": "now"}},
+				{"english": "You stop", "foreign": "du hörst auf", "mark": [{"text": "st", "role": "ending"}, {"text": "auf", "role": "word order"}], "base": "aufhören", "features": {"who": "you", "when": "now"}},
+				{"english": "She stops", "foreign": "sie hört auf", "mark": [{"text": "t", "role": "ending"}, {"text": "auf", "role": "word order"}], "base": "aufhören", "features": {"who": "she", "when": "now"}},
+				{"english": "We stop", "foreign": "wir hören auf", "mark": [{"text": "en", "role": "ending"}, {"text": "auf", "role": "word order"}], "base": "aufhören", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 52, "verb": "ausgehen", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ich gehe aus, du gehst aus, sie geht aus, wir gehen aus. Spot what changes. Ausgehen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I go out", "foreign": "ich gehe aus", "mark": [{"text": "e", "role": "ending"}, {"text": "aus", "role": "word order"}], "base": "ausgehen", "features": {"who": "i", "when": "now"}},
+				{"english": "You go out", "foreign": "du gehst aus", "mark": [{"text": "st", "role": "ending"}, {"text": "aus", "role": "word order"}], "base": "ausgehen", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes out", "foreign": "sie geht aus", "mark": [{"text": "t", "role": "ending"}, {"text": "aus", "role": "word order"}], "base": "ausgehen", "features": {"who": "she", "when": "now"}},
+				{"english": "We go out", "foreign": "wir gehen aus", "mark": [{"text": "en", "role": "ending"}, {"text": "aus", "role": "word order"}], "base": "ausgehen", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 53, "verb": "zurückkommen", "strategy": ["ending", "word order"], "description": "The ending says who is doing it: ich komme zurück, du kommst zurück, sie kommt zurück, wir kommen zurück. Spot what changes. Zurückkommen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I come back", "foreign": "ich komme zurück", "mark": [{"text": "e", "role": "ending"}, {"text": "zurück", "role": "word order"}], "base": "zurückkommen", "features": {"who": "i", "when": "now"}},
+				{"english": "You come back", "foreign": "du kommst zurück", "mark": [{"text": "st", "role": "ending"}, {"text": "zurück", "role": "word order"}], "base": "zurückkommen", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes back", "foreign": "sie kommt zurück", "mark": [{"text": "t", "role": "ending"}, {"text": "zurück", "role": "word order"}], "base": "zurückkommen", "features": {"who": "she", "when": "now"}},
+				{"english": "We come back", "foreign": "wir kommen zurück", "mark": [{"text": "en", "role": "ending"}, {"text": "zurück", "role": "word order"}], "base": "zurückkommen", "features": {"who": "we", "when": "now"}}
+			]},
 		{"job": "when", "part": 2, "verb": "haben", "strategy": ["helper word", "ending"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe gehabt. For later, a form of werden goes in front: ich werde haben.", "rows": [
 				{"english": "I have", "foreign": "ich habe", "base": "haben", "features": {"who": "i", "when": "now"}},
 				{"english": "I had", "foreign": "ich habe gehabt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gehabt", "role": "ending"}], "from": 1, "base": "haben", "features": {"who": "i", "when": "before"}},
@@ -543,6 +585,48 @@
 				{"english": "I felt", "foreign": "ich habe gefühlt", "mark": [{"text": "habe", "role": "helper word"}, {"text": "gefühlt", "role": "ending"}], "from": 1, "base": "fühlen", "features": {"who": "i", "when": "before"}},
 				{"english": "I will feel", "foreign": "ich werde fühlen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "fühlen", "features": {"who": "i", "when": "later"}},
 				{"english": "She felt", "foreign": "sie hat gefühlt", "mark": [{"text": "hat", "role": "helper word"}, {"text": "gefühlt", "role": "ending"}], "base": "fühlen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 47, "verb": "ankommen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich bin angekommen. For later, a form of werden goes in front: ich werde ankommen. Ankommen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I arrive", "foreign": "ich komme an", "mark": [{"text": "an", "role": "word order"}], "base": "ankommen", "features": {"who": "i", "when": "now"}},
+				{"english": "I arrived", "foreign": "ich bin angekommen", "mark": [{"text": "bin", "role": "helper word"}, {"text": "angekommen", "role": "ending"}], "from": 1, "base": "ankommen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will arrive", "foreign": "ich werde ankommen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "ankommen", "features": {"who": "i", "when": "later"}},
+				{"english": "She arrived", "foreign": "sie ist angekommen", "mark": [{"text": "ist", "role": "helper word"}, {"text": "angekommen", "role": "ending"}], "base": "ankommen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 48, "verb": "aufstehen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe aufgestanden. For later, a form of werden goes in front: ich werde aufstehen. Aufstehen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I get up", "foreign": "ich stehe auf", "mark": [{"text": "auf", "role": "word order"}], "base": "aufstehen", "features": {"who": "i", "when": "now"}},
+				{"english": "I got up", "foreign": "ich habe aufgestanden", "mark": [{"text": "habe", "role": "helper word"}, {"text": "aufgestanden", "role": "ending"}], "from": 1, "base": "aufstehen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will get up", "foreign": "ich werde aufstehen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "aufstehen", "features": {"who": "i", "when": "later"}},
+				{"english": "She got up", "foreign": "sie hat aufgestanden", "mark": [{"text": "hat", "role": "helper word"}, {"text": "aufgestanden", "role": "ending"}], "base": "aufstehen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 49, "verb": "anrufen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe angerufen. For later, a form of werden goes in front: ich werde anrufen. Anrufen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I phone", "foreign": "ich rufe an", "mark": [{"text": "an", "role": "word order"}], "base": "anrufen", "features": {"who": "i", "when": "now"}},
+				{"english": "I phoned", "foreign": "ich habe angerufen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "angerufen", "role": "ending"}], "from": 1, "base": "anrufen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will phone", "foreign": "ich werde anrufen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "anrufen", "features": {"who": "i", "when": "later"}},
+				{"english": "She phoned", "foreign": "sie hat angerufen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "angerufen", "role": "ending"}], "base": "anrufen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 50, "verb": "anfangen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe angefangen. For later, a form of werden goes in front: ich werde anfangen. Anfangen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I begin", "foreign": "ich fange an", "mark": [{"text": "an", "role": "word order"}], "base": "anfangen", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "ich habe angefangen", "mark": [{"text": "habe", "role": "helper word"}, {"text": "angefangen", "role": "ending"}], "from": 1, "base": "anfangen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "ich werde anfangen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "anfangen", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "sie hat angefangen", "mark": [{"text": "hat", "role": "helper word"}, {"text": "angefangen", "role": "ending"}], "base": "anfangen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 51, "verb": "aufhören", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe aufgehört. For later, a form of werden goes in front: ich werde aufhören. Aufhören is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I stop", "foreign": "ich höre auf", "mark": [{"text": "auf", "role": "word order"}], "base": "aufhören", "features": {"who": "i", "when": "now"}},
+				{"english": "I stopped", "foreign": "ich habe aufgehört", "mark": [{"text": "habe", "role": "helper word"}, {"text": "aufgehört", "role": "ending"}], "from": 1, "base": "aufhören", "features": {"who": "i", "when": "before"}},
+				{"english": "I will stop", "foreign": "ich werde aufhören", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "aufhören", "features": {"who": "i", "when": "later"}},
+				{"english": "She stopped", "foreign": "sie hat aufgehört", "mark": [{"text": "hat", "role": "helper word"}, {"text": "aufgehört", "role": "ending"}], "base": "aufhören", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 52, "verb": "ausgehen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich bin ausgegangen. For later, a form of werden goes in front: ich werde ausgehen. Ausgehen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I go out", "foreign": "ich gehe aus", "mark": [{"text": "aus", "role": "word order"}], "base": "ausgehen", "features": {"who": "i", "when": "now"}},
+				{"english": "I went out", "foreign": "ich bin ausgegangen", "mark": [{"text": "bin", "role": "helper word"}, {"text": "ausgegangen", "role": "ending"}], "from": 1, "base": "ausgehen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go out", "foreign": "ich werde ausgehen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "ausgehen", "features": {"who": "i", "when": "later"}},
+				{"english": "She went out", "foreign": "sie ist ausgegangen", "mark": [{"text": "ist", "role": "helper word"}, {"text": "ausgegangen", "role": "ending"}], "base": "ausgehen", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 53, "verb": "zurückkommen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich bin zurückgekommen. For later, a form of werden goes in front: ich werde zurückkommen. Zurückkommen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+				{"english": "I come back", "foreign": "ich komme zurück", "mark": [{"text": "zurück", "role": "word order"}], "base": "zurückkommen", "features": {"who": "i", "when": "now"}},
+				{"english": "I came back", "foreign": "ich bin zurückgekommen", "mark": [{"text": "bin", "role": "helper word"}, {"text": "zurückgekommen", "role": "ending"}], "from": 1, "base": "zurückkommen", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come back", "foreign": "ich werde zurückkommen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "zurückkommen", "features": {"who": "i", "when": "later"}},
+				{"english": "She came back", "foreign": "sie ist zurückgekommen", "mark": [{"text": "ist", "role": "helper word"}, {"text": "zurückgekommen", "role": "ending"}], "base": "zurückkommen", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "command", "part": 2, "verb": "machen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Mach! To someone you would call Sie, the whole verb and then Sie: Machen Sie! Telling a friend not to puts nicht after it: Mach nicht!", "rows": [
 				{"english": "Make!", "foreign": "Mach!", "base": "machen", "features": {"command": "yes", "who": "you"}},
