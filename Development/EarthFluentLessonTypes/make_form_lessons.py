@@ -35,7 +35,7 @@ def ending(recipes: dict, name: str, base: str, form: str) -> str | None:
     """The longest of the verb class's regular endings that the form ends in. Nothing if it ends in none of them;
     an empty ending where the class lists one, which says that having no ending is regular there (elle vend)."""
     last = base[-recipes.get("class_letters", 2):].replace("í", "i")  # hablar is an ar verb; parlare is an are verb
-    found = [text for text in recipes["endings"][name].get(last, []) if form.endswith(text)]
+    found = [text for text in recipes["endings"][name].get(last, recipes["endings"][name].get("*", [])) if form.endswith(text)]
     return max(found, key=len) if found else None
 
 

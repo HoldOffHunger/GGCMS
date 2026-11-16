@@ -1,0 +1,154 @@
+{
+	"about": "How Polish verb forms are read out of the Wiktionary dump and turned into lessons. make_forms.py uses `slots`; make_form_lessons.py uses the rest. Everything Polish about the conjugation system lives in this one file. Written by Claude with Ben on 16 November 2026, alongside the Russian one. Polish works as Russian does: no subject word is needed, the before matches who did it (czytałem for a man, czytałam for a woman, so the table's before is a man's except in the row for she), and verbs come in pairs for doing and done. Two things are the dictionary's. Its Polish tables do not say I or you: the first form under a tag is I and the second is you, so a slot can ask for the nth. And it lists some lines that are not forms to teach (-(e)m czytał, niech czytam), which are skipped by how they begin. It names a partner for fewer verbs than the Russian one does, so fewer tables have the 'finished' columns.",
+	"language": "polish",
+	"translation_language": "pl",
+	"dump": "kaikki.org-dictionary-Polish.jsonl",
+	"dictionary_form": {"form": "infinitive"},
+	"skip_tags": ["table-tags", "inflection-template", "class", "noun-from-verb", "participle", "impersonal", "conditional", "pluperfect"],
+	"skip_prefixes": ["-", "niech "],
+	"partner_tags": ["perfective"],
+	"slots": [
+		{"features": {"form": "infinitive"}, "tags": ["infinitive"]},
+
+		{"features": {"who": "i", "when": "now"}, "tags": ["present", "singular"], "without": ["third-person"], "nth": 0},
+		{"features": {"who": "you", "when": "now"}, "tags": ["present", "singular"], "without": ["third-person"], "nth": 1},
+		{"features": {"who": "she", "when": "now"}, "tags": ["present", "singular", "third-person"]},
+		{"features": {"who": "we", "when": "now"}, "tags": ["plural", "present"], "without": ["third-person"], "nth": 0},
+		{"features": {"who": "you-all", "when": "now"}, "tags": ["plural", "present"], "without": ["third-person"], "nth": 1},
+		{"features": {"who": "they", "when": "now"}, "tags": ["plural", "present", "third-person"]},
+
+		{"features": {"who": "i", "when": "before"}, "tags": ["masculine", "past", "singular"], "without": ["third-person"], "nth": 0},
+		{"features": {"who": "you", "when": "before"}, "tags": ["masculine", "past", "singular"], "without": ["third-person"], "nth": 1},
+		{"features": {"who": "she", "when": "before"}, "tags": ["feminine", "past", "singular", "third-person"]},
+		{"features": {"who": "we", "when": "before"}, "tags": ["past", "plural", "virile"], "without": ["third-person"], "nth": 0},
+		{"features": {"who": "you-all", "when": "before"}, "tags": ["past", "plural", "virile"], "without": ["third-person"], "nth": 1},
+		{"features": {"who": "they", "when": "before"}, "tags": ["past", "plural", "virile", "third-person"]},
+
+		{"features": {"who": "i", "when": "later"}, "split": true, "tags": ["future", "masculine", "singular"], "without": ["third-person"], "nth": 1},
+		{"features": {"who": "you", "when": "later"}, "split": true, "tags": ["future", "masculine", "singular"], "without": ["third-person"], "nth": 3},
+		{"features": {"who": "she", "when": "later"}, "split": true, "tags": ["future", "masculine", "singular", "third-person"], "nth": 1},
+		{"features": {"who": "we", "when": "later"}, "split": true, "tags": ["future", "plural", "virile"], "without": ["third-person"], "nth": 1},
+		{"features": {"who": "you-all", "when": "later"}, "split": true, "tags": ["future", "plural", "virile"], "without": ["third-person"], "nth": 3},
+		{"features": {"who": "they", "when": "later"}, "split": true, "tags": ["future", "plural", "virile", "third-person"], "nth": 1},
+
+		{"features": {"who": "i", "when": "later"}, "tags": ["future", "singular"], "without": ["masculine", "feminine", "neuter", "virile", "nonvirile", "third-person"], "nth": 0},
+		{"features": {"who": "you", "when": "later"}, "tags": ["future", "singular"], "without": ["masculine", "feminine", "neuter", "virile", "nonvirile", "third-person"], "nth": 1},
+		{"features": {"who": "she", "when": "later"}, "tags": ["future", "singular", "third-person"], "without": ["masculine", "feminine", "neuter", "virile", "nonvirile"]},
+		{"features": {"who": "we", "when": "later"}, "tags": ["future", "plural"], "without": ["masculine", "feminine", "neuter", "virile", "nonvirile", "third-person"], "nth": 0},
+		{"features": {"who": "you-all", "when": "later"}, "tags": ["future", "plural"], "without": ["masculine", "feminine", "neuter", "virile", "nonvirile", "third-person"], "nth": 1},
+		{"features": {"who": "they", "when": "later"}, "tags": ["future", "plural", "third-person"], "without": ["masculine", "feminine", "neuter", "virile", "nonvirile"]},
+
+		{"features": {"who": "i", "when": "before", "done": "yes"}, "partner": {"who": "i", "when": "before"}},
+		{"features": {"who": "you", "when": "before", "done": "yes"}, "partner": {"who": "you", "when": "before"}},
+		{"features": {"who": "she", "when": "before", "done": "yes"}, "partner": {"who": "she", "when": "before"}},
+		{"features": {"who": "we", "when": "before", "done": "yes"}, "partner": {"who": "we", "when": "before"}},
+		{"features": {"who": "you-all", "when": "before", "done": "yes"}, "partner": {"who": "you-all", "when": "before"}},
+		{"features": {"who": "they", "when": "before", "done": "yes"}, "partner": {"who": "they", "when": "before"}},
+
+		{"features": {"who": "i", "when": "later", "done": "yes"}, "partner": {"who": "i", "when": "later"}},
+		{"features": {"who": "you", "when": "later", "done": "yes"}, "partner": {"who": "you", "when": "later"}},
+		{"features": {"who": "she", "when": "later", "done": "yes"}, "partner": {"who": "she", "when": "later"}},
+		{"features": {"who": "we", "when": "later", "done": "yes"}, "partner": {"who": "we", "when": "later"}},
+		{"features": {"who": "you-all", "when": "later", "done": "yes"}, "partner": {"who": "you-all", "when": "later"}},
+		{"features": {"who": "they", "when": "later", "done": "yes"}, "partner": {"who": "they", "when": "later"}},
+
+		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "singular"], "without": ["third-person"]},
+		{"features": {"command": "yes", "who": "you-all"}, "tags": ["imperative", "plural"], "without": ["third-person"], "nth": 1},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "singular"], "without": ["third-person"], "shown": "nie {}"},
+		{"features": {"command": "yes", "who": "we"}, "tags": ["imperative", "plural"], "without": ["third-person"]}
+	],
+
+	"endings": {
+		"about": "The regular endings, the same list for every verb, longest first where it matters. A form that ends in one has that ending lit on the board. A form that ends in none of them is one of the verbs that go their own way.",
+		"now": {"*": ["am", "em", "ę", "asz", "esz", "isz", "ysz", "a", "e", "i", "y", "amy", "emy", "imy", "ymy"]},
+		"before": {"*": ["łem", "ła"]}
+	},
+
+	"middle": " Watch the middle of the word too: in some of these it changes.",
+
+	"recipes": {
+		"who": {
+			"strategy": ["ending"],
+			"description": "The ending says who is doing it: {1}, {2}, {3}, {4}. Spot what changes.",
+			"own_way": " {Base} is one of the verbs that go their own way, so learn these four as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now"},
+				{"english": "You {base}", "features": {"who": "you", "when": "now"}, "endings": "now"},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}, "endings": "now"},
+				{"english": "We {base}", "features": {"who": "we", "when": "now"}, "endings": "now"}
+			]
+		},
+		"when": {
+			"strategy": ["ending", "helper word"],
+			"description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: {2}, {4}. For later, a form of być goes in front of the whole verb: {3}.",
+			"own_way": " {Base} goes its own way here, so learn these as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}},
+				{"english": "I {past}", "features": {"who": "i", "when": "before"}, "endings": "before", "from": 1},
+				{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "from": 1},
+				{"english": "She {past}", "features": {"who": "she", "when": "before"}, "endings": "before", "wrap": "ona {}"}
+			]
+		},
+		"command": {
+			"strategy": ["helper word"],
+			"skip": "stative",
+			"description": "To a friend: {1} To more than one person: {2} Telling a friend not to puts nie in front: {3}",
+			"rows": [
+				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "wrap": "{}!", "capital": true},
+				{"english": "{Base}! said to more than one person", "features": {"command": "yes", "who": "you-all"}, "wrap": "{}!", "capital": true},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "Nie {}!", "words": ["Nie"], "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "wrap": "{}!", "capital": true}
+			]
+		}
+	},
+
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. Every one is the doing verb of its pair. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job; `no-command` leaves out the commands that are right and that nobody says. Left out on purpose: być, which needs a lesson of its own; móc and musieć, which are the want-can-must job; czytać, whose English is the same now and before; and the verbs said with się (uczyć się), which wait for their own recipe.",
+		"list": [
+			["mieć", "have", "has", "had", "having", "stative"],
+			["robić", "make", "makes", "made", "making"],
+			["iść", "go", "goes", "went", "going"],
+			["mówić", "say", "says", "said", "saying"],
+			["widzieć", "see", "sees", "saw", "seeing", "stative"],
+			["dawać", "give", "gives", "gave", "giving"],
+			["wiedzieć", "know", "knows", "knew", "knowing", "stative"],
+			["chcieć", "want", "wants", "wanted", "wanting", "stative"],
+			["jeść", "eat", "eats", "ate", "eating"],
+			["żyć", "live", "lives", "lived", "living", "no-command"],
+			["pracować", "work", "works", "worked", "working"],
+			["myśleć", "think", "thinks", "thought", "thinking"],
+			["brać", "take", "takes", "took", "taking"],
+			["pisać", "write", "writes", "wrote", "writing"],
+			["kupować", "buy", "buys", "bought", "buying"],
+			["pić", "drink", "drinks", "drank", "drinking"],
+			["spać", "sleep", "sleeps", "slept", "sleeping"],
+			["patrzeć", "look", "looks", "looked", "looking"],
+			["czekać", "wait", "waits", "waited", "waiting"],
+			["szukać", "search", "searches", "searched", "searching"],
+			["znajdować", "find", "finds", "found", "finding"],
+			["wołać", "call", "calls", "called", "calling"],
+			["zaczynać", "begin", "begins", "began", "beginning"],
+			["kończyć", "finish", "finishes", "finished", "finishing"],
+			["otwierać", "open", "opens", "opened", "opening"],
+			["zamykać", "close", "closes", "closed", "closing"],
+			["studiować", "study", "studies", "studied", "studying"],
+			["rozumieć", "understand", "understands", "understood", "understanding", "stative"],
+			["zapominać", "forget", "forgets", "forgot", "forgetting"],
+			["biegać", "run", "runs", "ran", "running"],
+			["spacerować", "walk", "walks", "walked", "walking"],
+			["śpiewać", "sing", "sings", "sang", "singing"],
+			["grać", "play", "plays", "played", "playing"],
+			["płacić", "pay", "pays", "paid", "paying"],
+			["sprzedawać", "sell", "sells", "sold", "selling"],
+			["pomagać", "help", "helps", "helped", "helping"],
+			["gotować", "cook", "cooks", "cooked", "cooking"],
+			["podróżować", "travel", "travels", "travelled", "travelling"],
+			["pytać", "ask", "asks", "asked", "asking"],
+			["odpowiadać", "answer", "answers", "answered", "answering"],
+			["tracić", "lose", "loses", "lost", "losing", "no-command"],
+			["otrzymywać", "receive", "receives", "received", "receiving", "no-command"],
+			["zamawiać", "order", "orders", "ordered", "ordering"],
+			["czuć", "feel", "feels", "felt", "feeling", "stative"]
+		]
+	}
+}

@@ -1,0 +1,147 @@
+{
+	"about": "How Russian verb forms are read out of the Wiktionary dump and turned into lessons. make_forms.py uses `slots`; make_form_lessons.py uses the rest. Everything Russian about the conjugation system lives in this one file. Written by Claude with Ben on 16 November 2026. What Russian needed: its dictionary marks the stress with a combining accent (чита́ю), which nobody writes, so that mark comes off. Its before has no helper and matches who did it, not who is speaking: читал for a man, читала for a woman, so the table's before is a man's except in the row for she. And its verbs come in pairs, one for doing a thing and one for having done it (читать, прочитать): the dictionary names a verb's partner, and where it has the partner's table too, the verb's own table borrows the partner's before and later as 'finished' columns. The lessons do not yet teach the pair verb by verb: what the done verb means in English differs from verb to verb, and the grid's own lesson on it stands alone for now.",
+	"language": "russian",
+	"translation_language": "ru",
+	"dump": "kaikki.org-dictionary-Russian.jsonl",
+	"dictionary_form": {"form": "infinitive"},
+	"skip_tags": ["table-tags", "inflection-template", "class", "dated", "participle", "romanization", "passive", "adverbial", "impersonal"],
+	"strip_marks": ["́"],
+	"skip_prefixes": ["-"],
+	"partner_tags": ["perfective"],
+	"slots": [
+		{"features": {"form": "infinitive"}, "tags": ["infinitive"]},
+
+		{"features": {"who": "i", "when": "now"}, "tags": ["first-person", "singular", "present"]},
+		{"features": {"who": "you", "when": "now"}, "tags": ["second-person", "singular", "present"]},
+		{"features": {"who": "she", "when": "now"}, "tags": ["third-person", "singular", "present"]},
+		{"features": {"who": "we", "when": "now"}, "tags": ["first-person", "plural", "present"]},
+		{"features": {"who": "you-all", "when": "now"}, "tags": ["second-person", "plural", "present"]},
+		{"features": {"who": "they", "when": "now"}, "tags": ["third-person", "plural", "present"]},
+
+		{"features": {"who": "i", "when": "before"}, "tags": ["masculine", "past", "singular"]},
+		{"features": {"who": "you", "when": "before"}, "tags": ["masculine", "past", "singular"]},
+		{"features": {"who": "she", "when": "before"}, "tags": ["feminine", "past", "singular"]},
+		{"features": {"who": "we", "when": "before"}, "tags": ["masculine", "past", "plural"]},
+		{"features": {"who": "you-all", "when": "before"}, "tags": ["masculine", "past", "plural"]},
+		{"features": {"who": "they", "when": "before"}, "tags": ["masculine", "past", "plural"]},
+
+		{"features": {"who": "i", "when": "later"}, "tags": ["first-person", "singular", "future"], "split": true},
+		{"features": {"who": "you", "when": "later"}, "tags": ["second-person", "singular", "future"], "split": true},
+		{"features": {"who": "she", "when": "later"}, "tags": ["third-person", "singular", "future"], "split": true},
+		{"features": {"who": "we", "when": "later"}, "tags": ["first-person", "plural", "future"], "split": true},
+		{"features": {"who": "you-all", "when": "later"}, "tags": ["second-person", "plural", "future"], "split": true},
+		{"features": {"who": "they", "when": "later"}, "tags": ["third-person", "plural", "future"], "split": true},
+
+		{"features": {"who": "i", "when": "before", "done": "yes"}, "partner": {"who": "i", "when": "before"}},
+		{"features": {"who": "you", "when": "before", "done": "yes"}, "partner": {"who": "you", "when": "before"}},
+		{"features": {"who": "she", "when": "before", "done": "yes"}, "partner": {"who": "she", "when": "before"}},
+		{"features": {"who": "we", "when": "before", "done": "yes"}, "partner": {"who": "we", "when": "before"}},
+		{"features": {"who": "you-all", "when": "before", "done": "yes"}, "partner": {"who": "you-all", "when": "before"}},
+		{"features": {"who": "they", "when": "before", "done": "yes"}, "partner": {"who": "they", "when": "before"}},
+
+		{"features": {"who": "i", "when": "later", "done": "yes"}, "partner": {"who": "i", "when": "later"}},
+		{"features": {"who": "you", "when": "later", "done": "yes"}, "partner": {"who": "you", "when": "later"}},
+		{"features": {"who": "she", "when": "later", "done": "yes"}, "partner": {"who": "she", "when": "later"}},
+		{"features": {"who": "we", "when": "later", "done": "yes"}, "partner": {"who": "we", "when": "later"}},
+		{"features": {"who": "you-all", "when": "later", "done": "yes"}, "partner": {"who": "you-all", "when": "later"}},
+		{"features": {"who": "they", "when": "later", "done": "yes"}, "partner": {"who": "they", "when": "later"}},
+
+		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "second-person", "singular"]},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "tags": ["imperative", "plural", "second-person"]},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "second-person", "singular"], "shown": "не {}"},
+		{"features": {"command": "yes", "who": "we"}, "tags": ["infinitive"], "shown": "давай {}"}
+	],
+
+	"endings": {
+		"about": "The regular endings, the same list for every verb, longest first where it matters: Russian's two families of verb cannot be told apart by the dictionary word. A form that ends in one has that ending lit on the board. A form that ends in none of them is one of the verbs that go their own way.",
+		"now": {"*": ["ю", "у", "ешь", "ёшь", "ишь", "ет", "ёт", "ит", "ем", "ём", "им"]},
+		"before": {"*": ["л", "ла"]}
+	},
+
+	"middle": " Watch the middle of the word too: in some of these it changes.",
+
+	"recipes": {
+		"who": {
+			"strategy": ["ending"],
+			"description": "The ending says who is doing it: {1}, {2}, {3}, {4}. Spot what changes.",
+			"own_way": " {Base} is one of the verbs that go their own way, so learn these four as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now", "wrap": "я {}"},
+				{"english": "You {base}", "features": {"who": "you", "when": "now"}, "endings": "now", "wrap": "ты {}"},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}, "endings": "now", "wrap": "она {}"},
+				{"english": "We {base}", "features": {"who": "we", "when": "now"}, "endings": "now", "wrap": "мы {}"}
+			]
+		},
+		"when": {
+			"strategy": ["ending", "helper word"],
+			"description": "For before, the verb ends in л, and in ла when a woman is the one: {2}, {4}. For later, a form of быть goes in front of the whole verb: {3}.",
+			"own_way": " {Base} goes its own way here, so learn these as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "wrap": "я {}"},
+				{"english": "I {past}", "features": {"who": "i", "when": "before"}, "endings": "before", "wrap": "я {}", "from": 1},
+				{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "wrap": "я {}", "from": 1},
+				{"english": "She {past}", "features": {"who": "she", "when": "before"}, "endings": "before", "wrap": "она {}"}
+			]
+		},
+		"command": {
+			"strategy": ["helper word"],
+			"skip": "stative",
+			"description": "To a friend: {1} To anyone else, or to more than one person: {2} Telling a friend not to puts не in front: {3}",
+			"rows": [
+				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "wrap": "{}!", "capital": true},
+				{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "wrap": "{}!", "capital": true},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "Не {}!", "words": ["Не"], "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "wrap": "Давай {}!", "words": ["Давай"]}
+			]
+		}
+	},
+
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. Every one is the doing verb of its pair. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job; `no-command` leaves out the commands that are right and that nobody says. Left out on purpose: быть, which needs a lesson of its own; мочь, which is the want-can-must job; читать, whose English is the same now and before; and to have, which Russian says another way (у меня есть).",
+		"list": [
+			["делать", "make", "makes", "made", "making"],
+			["идти", "go", "goes", "went", "going", "no-command"],
+			["говорить", "say", "says", "said", "saying"],
+			["видеть", "see", "sees", "saw", "seeing", "stative"],
+			["давать", "give", "gives", "gave", "giving"],
+			["знать", "know", "knows", "knew", "knowing", "stative"],
+			["хотеть", "want", "wants", "wanted", "wanting", "stative"],
+			["есть", "eat", "eats", "ate", "eating"],
+			["жить", "live", "lives", "lived", "living", "no-command"],
+			["работать", "work", "works", "worked", "working"],
+			["думать", "think", "thinks", "thought", "thinking"],
+			["брать", "take", "takes", "took", "taking"],
+			["писать", "write", "writes", "wrote", "writing"],
+			["покупать", "buy", "buys", "bought", "buying"],
+			["пить", "drink", "drinks", "drank", "drinking"],
+			["спать", "sleep", "sleeps", "slept", "sleeping"],
+			["смотреть", "look", "looks", "looked", "looking"],
+			["ждать", "wait", "waits", "waited", "waiting"],
+			["искать", "search", "searches", "searched", "searching"],
+			["находить", "find", "finds", "found", "finding"],
+			["звать", "call", "calls", "called", "calling"],
+			["начинать", "begin", "begins", "began", "beginning"],
+			["заканчивать", "finish", "finishes", "finished", "finishing"],
+			["открывать", "open", "opens", "opened", "opening"],
+			["закрывать", "close", "closes", "closed", "closing"],
+			["изучать", "study", "studies", "studied", "studying"],
+			["понимать", "understand", "understands", "understood", "understanding", "stative"],
+			["забывать", "forget", "forgets", "forgot", "forgetting"],
+			["бегать", "run", "runs", "ran", "running"],
+			["гулять", "walk", "walks", "walked", "walking"],
+			["петь", "sing", "sings", "sang", "singing"],
+			["играть", "play", "plays", "played", "playing"],
+			["платить", "pay", "pays", "paid", "paying"],
+			["продавать", "sell", "sells", "sold", "selling"],
+			["помогать", "help", "helps", "helped", "helping"],
+			["готовить", "cook", "cooks", "cooked", "cooking"],
+			["путешествовать", "travel", "travels", "travelled", "travelling"],
+			["спрашивать", "ask", "asks", "asked", "asking"],
+			["отвечать", "answer", "answers", "answered", "answering"],
+			["терять", "lose", "loses", "lost", "losing", "no-command"],
+			["получать", "receive", "receives", "received", "receiving", "no-command"],
+			["заказывать", "order", "orders", "ordered", "ordering"],
+			["чувствовать", "feel", "feels", "felt", "feeling", "stative"]
+		]
+	}
+}

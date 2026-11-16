@@ -1,0 +1,728 @@
+{
+	"language": "russian",
+	"translation_language": "ru",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-russian.json and the recipes in forms-recipes-russian.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "делать", "strategy": ["ending"], "description": "The ending says who is doing it: я делаю, ты делаешь, она делает, мы делаем. Spot what changes.", "rows": [
+				{"english": "I make", "foreign": "я делаю", "mark": ["ю"], "base": "делать", "features": {"who": "i", "when": "now"}},
+				{"english": "You make", "foreign": "ты делаешь", "mark": ["ешь"], "base": "делать", "features": {"who": "you", "when": "now"}},
+				{"english": "She makes", "foreign": "она делает", "mark": ["ет"], "base": "делать", "features": {"who": "she", "when": "now"}},
+				{"english": "We make", "foreign": "мы делаем", "mark": ["ем"], "base": "делать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "идти", "strategy": ["ending"], "description": "The ending says who is doing it: я иду, ты идёшь, она идёт, мы идём. Spot what changes.", "rows": [
+				{"english": "I go", "foreign": "я иду", "mark": ["у"], "base": "идти", "features": {"who": "i", "when": "now"}},
+				{"english": "You go", "foreign": "ты идёшь", "mark": ["ёшь"], "base": "идти", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes", "foreign": "она идёт", "mark": ["ёт"], "base": "идти", "features": {"who": "she", "when": "now"}},
+				{"english": "We go", "foreign": "мы идём", "mark": ["ём"], "base": "идти", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "говорить", "strategy": ["ending"], "description": "The ending says who is doing it: я говорю, ты говоришь, она говорит, мы говорим. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I say", "foreign": "я говорю", "mark": ["ю"], "base": "говорить", "features": {"who": "i", "when": "now"}},
+				{"english": "You say", "foreign": "ты говоришь", "mark": ["ишь"], "base": "говорить", "features": {"who": "you", "when": "now"}},
+				{"english": "She says", "foreign": "она говорит", "mark": ["ит"], "base": "говорить", "features": {"who": "she", "when": "now"}},
+				{"english": "We say", "foreign": "мы говорим", "mark": ["им"], "base": "говорить", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "видеть", "strategy": ["ending"], "description": "The ending says who is doing it: я вижу, ты видишь, она видит, мы видим. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I see", "foreign": "я вижу", "mark": ["у"], "base": "видеть", "features": {"who": "i", "when": "now"}},
+				{"english": "You see", "foreign": "ты видишь", "mark": ["ишь"], "base": "видеть", "features": {"who": "you", "when": "now"}},
+				{"english": "She sees", "foreign": "она видит", "mark": ["ит"], "base": "видеть", "features": {"who": "she", "when": "now"}},
+				{"english": "We see", "foreign": "мы видим", "mark": ["им"], "base": "видеть", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "давать", "strategy": ["ending"], "description": "The ending says who is doing it: я даю, ты даёшь, она даёт, мы даём. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I give", "foreign": "я даю", "mark": ["ю"], "base": "давать", "features": {"who": "i", "when": "now"}},
+				{"english": "You give", "foreign": "ты даёшь", "mark": ["ёшь"], "base": "давать", "features": {"who": "you", "when": "now"}},
+				{"english": "She gives", "foreign": "она даёт", "mark": ["ёт"], "base": "давать", "features": {"who": "she", "when": "now"}},
+				{"english": "We give", "foreign": "мы даём", "mark": ["ём"], "base": "давать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "знать", "strategy": ["ending"], "description": "The ending says who is doing it: я знаю, ты знаешь, она знает, мы знаем. Spot what changes.", "rows": [
+				{"english": "I know", "foreign": "я знаю", "mark": ["ю"], "base": "знать", "features": {"who": "i", "when": "now"}},
+				{"english": "You know", "foreign": "ты знаешь", "mark": ["ешь"], "base": "знать", "features": {"who": "you", "when": "now"}},
+				{"english": "She knows", "foreign": "она знает", "mark": ["ет"], "base": "знать", "features": {"who": "she", "when": "now"}},
+				{"english": "We know", "foreign": "мы знаем", "mark": ["ем"], "base": "знать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "хотеть", "strategy": ["ending"], "description": "The ending says who is doing it: я хочу, ты хочешь, она хочет, мы хотим. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I want", "foreign": "я хочу", "mark": ["у"], "base": "хотеть", "features": {"who": "i", "when": "now"}},
+				{"english": "You want", "foreign": "ты хочешь", "mark": ["ешь"], "base": "хотеть", "features": {"who": "you", "when": "now"}},
+				{"english": "She wants", "foreign": "она хочет", "mark": ["ет"], "base": "хотеть", "features": {"who": "she", "when": "now"}},
+				{"english": "We want", "foreign": "мы хотим", "mark": ["им"], "base": "хотеть", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "есть", "strategy": ["ending"], "description": "The ending says who is doing it: я ем, ты ешь, она ест, мы едим. Spot what changes. Есть is one of the verbs that go their own way, so learn these four as they are.", "rows": [
+				{"english": "I eat", "foreign": "я ем", "mark": ["ем"], "base": "есть", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "ты ешь", "mark": ["ешь"], "base": "есть", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "она ест", "base": "есть", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "мы едим", "mark": ["им"], "base": "есть", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "жить", "strategy": ["ending"], "description": "The ending says who is doing it: я живу, ты живёшь, она живёт, мы живём. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I live", "foreign": "я живу", "mark": ["у"], "base": "жить", "features": {"who": "i", "when": "now"}},
+				{"english": "You live", "foreign": "ты живёшь", "mark": ["ёшь"], "base": "жить", "features": {"who": "you", "when": "now"}},
+				{"english": "She lives", "foreign": "она живёт", "mark": ["ёт"], "base": "жить", "features": {"who": "she", "when": "now"}},
+				{"english": "We live", "foreign": "мы живём", "mark": ["ём"], "base": "жить", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "работать", "strategy": ["ending"], "description": "The ending says who is doing it: я работаю, ты работаешь, она работает, мы работаем. Spot what changes.", "rows": [
+				{"english": "I work", "foreign": "я работаю", "mark": ["ю"], "base": "работать", "features": {"who": "i", "when": "now"}},
+				{"english": "You work", "foreign": "ты работаешь", "mark": ["ешь"], "base": "работать", "features": {"who": "you", "when": "now"}},
+				{"english": "She works", "foreign": "она работает", "mark": ["ет"], "base": "работать", "features": {"who": "she", "when": "now"}},
+				{"english": "We work", "foreign": "мы работаем", "mark": ["ем"], "base": "работать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "думать", "strategy": ["ending"], "description": "The ending says who is doing it: я думаю, ты думаешь, она думает, мы думаем. Spot what changes.", "rows": [
+				{"english": "I think", "foreign": "я думаю", "mark": ["ю"], "base": "думать", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "ты думаешь", "mark": ["ешь"], "base": "думать", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "она думает", "mark": ["ет"], "base": "думать", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "мы думаем", "mark": ["ем"], "base": "думать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "брать", "strategy": ["ending"], "description": "The ending says who is doing it: я беру, ты берёшь, она берёт, мы берём. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I take", "foreign": "я беру", "mark": ["у"], "base": "брать", "features": {"who": "i", "when": "now"}},
+				{"english": "You take", "foreign": "ты берёшь", "mark": ["ёшь"], "base": "брать", "features": {"who": "you", "when": "now"}},
+				{"english": "She takes", "foreign": "она берёт", "mark": ["ёт"], "base": "брать", "features": {"who": "she", "when": "now"}},
+				{"english": "We take", "foreign": "мы берём", "mark": ["ём"], "base": "брать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "писать", "strategy": ["ending"], "description": "The ending says who is doing it: я пишу, ты пишешь, она пишет, мы пишем. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I write", "foreign": "я пишу", "mark": ["у"], "base": "писать", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "ты пишешь", "mark": ["ешь"], "base": "писать", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "она пишет", "mark": ["ет"], "base": "писать", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "мы пишем", "mark": ["ем"], "base": "писать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "покупать", "strategy": ["ending"], "description": "The ending says who is doing it: я покупаю, ты покупаешь, она покупает, мы покупаем. Spot what changes.", "rows": [
+				{"english": "I buy", "foreign": "я покупаю", "mark": ["ю"], "base": "покупать", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "ты покупаешь", "mark": ["ешь"], "base": "покупать", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "она покупает", "mark": ["ет"], "base": "покупать", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "мы покупаем", "mark": ["ем"], "base": "покупать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "пить", "strategy": ["ending"], "description": "The ending says who is doing it: я пью, ты пьёшь, она пьёт, мы пьём. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I drink", "foreign": "я пью", "mark": ["ю"], "base": "пить", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "ты пьёшь", "mark": ["ёшь"], "base": "пить", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "она пьёт", "mark": ["ёт"], "base": "пить", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "мы пьём", "mark": ["ём"], "base": "пить", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "спать", "strategy": ["ending"], "description": "The ending says who is doing it: я сплю, ты спишь, она спит, мы спим. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sleep", "foreign": "я сплю", "mark": ["ю"], "base": "спать", "features": {"who": "i", "when": "now"}},
+				{"english": "You sleep", "foreign": "ты спишь", "mark": ["ишь"], "base": "спать", "features": {"who": "you", "when": "now"}},
+				{"english": "She sleeps", "foreign": "она спит", "mark": ["ит"], "base": "спать", "features": {"who": "she", "when": "now"}},
+				{"english": "We sleep", "foreign": "мы спим", "mark": ["им"], "base": "спать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "смотреть", "strategy": ["ending"], "description": "The ending says who is doing it: я смотрю, ты смотришь, она смотрит, мы смотрим. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I look", "foreign": "я смотрю", "mark": ["ю"], "base": "смотреть", "features": {"who": "i", "when": "now"}},
+				{"english": "You look", "foreign": "ты смотришь", "mark": ["ишь"], "base": "смотреть", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks", "foreign": "она смотрит", "mark": ["ит"], "base": "смотреть", "features": {"who": "she", "when": "now"}},
+				{"english": "We look", "foreign": "мы смотрим", "mark": ["им"], "base": "смотреть", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "ждать", "strategy": ["ending"], "description": "The ending says who is doing it: я жду, ты ждёшь, она ждёт, мы ждём. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I wait", "foreign": "я жду", "mark": ["у"], "base": "ждать", "features": {"who": "i", "when": "now"}},
+				{"english": "You wait", "foreign": "ты ждёшь", "mark": ["ёшь"], "base": "ждать", "features": {"who": "you", "when": "now"}},
+				{"english": "She waits", "foreign": "она ждёт", "mark": ["ёт"], "base": "ждать", "features": {"who": "she", "when": "now"}},
+				{"english": "We wait", "foreign": "мы ждём", "mark": ["ём"], "base": "ждать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "искать", "strategy": ["ending"], "description": "The ending says who is doing it: я ищу, ты ищешь, она ищет, мы ищем. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I search", "foreign": "я ищу", "mark": ["у"], "base": "искать", "features": {"who": "i", "when": "now"}},
+				{"english": "You search", "foreign": "ты ищешь", "mark": ["ешь"], "base": "искать", "features": {"who": "you", "when": "now"}},
+				{"english": "She searches", "foreign": "она ищет", "mark": ["ет"], "base": "искать", "features": {"who": "she", "when": "now"}},
+				{"english": "We search", "foreign": "мы ищем", "mark": ["ем"], "base": "искать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "находить", "strategy": ["ending"], "description": "The ending says who is doing it: я нахожу, ты находишь, она находит, мы находим. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I find", "foreign": "я нахожу", "mark": ["у"], "base": "находить", "features": {"who": "i", "when": "now"}},
+				{"english": "You find", "foreign": "ты находишь", "mark": ["ишь"], "base": "находить", "features": {"who": "you", "when": "now"}},
+				{"english": "She finds", "foreign": "она находит", "mark": ["ит"], "base": "находить", "features": {"who": "she", "when": "now"}},
+				{"english": "We find", "foreign": "мы находим", "mark": ["им"], "base": "находить", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "звать", "strategy": ["ending"], "description": "The ending says who is doing it: я зову, ты зовёшь, она зовёт, мы зовём. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I call", "foreign": "я зову", "mark": ["у"], "base": "звать", "features": {"who": "i", "when": "now"}},
+				{"english": "You call", "foreign": "ты зовёшь", "mark": ["ёшь"], "base": "звать", "features": {"who": "you", "when": "now"}},
+				{"english": "She calls", "foreign": "она зовёт", "mark": ["ёт"], "base": "звать", "features": {"who": "she", "when": "now"}},
+				{"english": "We call", "foreign": "мы зовём", "mark": ["ём"], "base": "звать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "начинать", "strategy": ["ending"], "description": "The ending says who is doing it: я начинаю, ты начинаешь, она начинает, мы начинаем. Spot what changes.", "rows": [
+				{"english": "I begin", "foreign": "я начинаю", "mark": ["ю"], "base": "начинать", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "ты начинаешь", "mark": ["ешь"], "base": "начинать", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "она начинает", "mark": ["ет"], "base": "начинать", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "мы начинаем", "mark": ["ем"], "base": "начинать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "заканчивать", "strategy": ["ending"], "description": "The ending says who is doing it: я заканчиваю, ты заканчиваешь, она заканчивает, мы заканчиваем. Spot what changes.", "rows": [
+				{"english": "I finish", "foreign": "я заканчиваю", "mark": ["ю"], "base": "заканчивать", "features": {"who": "i", "when": "now"}},
+				{"english": "You finish", "foreign": "ты заканчиваешь", "mark": ["ешь"], "base": "заканчивать", "features": {"who": "you", "when": "now"}},
+				{"english": "She finishes", "foreign": "она заканчивает", "mark": ["ет"], "base": "заканчивать", "features": {"who": "she", "when": "now"}},
+				{"english": "We finish", "foreign": "мы заканчиваем", "mark": ["ем"], "base": "заканчивать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "открывать", "strategy": ["ending"], "description": "The ending says who is doing it: я открываю, ты открываешь, она открывает, мы открываем. Spot what changes.", "rows": [
+				{"english": "I open", "foreign": "я открываю", "mark": ["ю"], "base": "открывать", "features": {"who": "i", "when": "now"}},
+				{"english": "You open", "foreign": "ты открываешь", "mark": ["ешь"], "base": "открывать", "features": {"who": "you", "when": "now"}},
+				{"english": "She opens", "foreign": "она открывает", "mark": ["ет"], "base": "открывать", "features": {"who": "she", "when": "now"}},
+				{"english": "We open", "foreign": "мы открываем", "mark": ["ем"], "base": "открывать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "закрывать", "strategy": ["ending"], "description": "The ending says who is doing it: я закрываю, ты закрываешь, она закрывает, мы закрываем. Spot what changes.", "rows": [
+				{"english": "I close", "foreign": "я закрываю", "mark": ["ю"], "base": "закрывать", "features": {"who": "i", "when": "now"}},
+				{"english": "You close", "foreign": "ты закрываешь", "mark": ["ешь"], "base": "закрывать", "features": {"who": "you", "when": "now"}},
+				{"english": "She closes", "foreign": "она закрывает", "mark": ["ет"], "base": "закрывать", "features": {"who": "she", "when": "now"}},
+				{"english": "We close", "foreign": "мы закрываем", "mark": ["ем"], "base": "закрывать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "изучать", "strategy": ["ending"], "description": "The ending says who is doing it: я изучаю, ты изучаешь, она изучает, мы изучаем. Spot what changes.", "rows": [
+				{"english": "I study", "foreign": "я изучаю", "mark": ["ю"], "base": "изучать", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "ты изучаешь", "mark": ["ешь"], "base": "изучать", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "она изучает", "mark": ["ет"], "base": "изучать", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "мы изучаем", "mark": ["ем"], "base": "изучать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "понимать", "strategy": ["ending"], "description": "The ending says who is doing it: я понимаю, ты понимаешь, она понимает, мы понимаем. Spot what changes.", "rows": [
+				{"english": "I understand", "foreign": "я понимаю", "mark": ["ю"], "base": "понимать", "features": {"who": "i", "when": "now"}},
+				{"english": "You understand", "foreign": "ты понимаешь", "mark": ["ешь"], "base": "понимать", "features": {"who": "you", "when": "now"}},
+				{"english": "She understands", "foreign": "она понимает", "mark": ["ет"], "base": "понимать", "features": {"who": "she", "when": "now"}},
+				{"english": "We understand", "foreign": "мы понимаем", "mark": ["ем"], "base": "понимать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "забывать", "strategy": ["ending"], "description": "The ending says who is doing it: я забываю, ты забываешь, она забывает, мы забываем. Spot what changes.", "rows": [
+				{"english": "I forget", "foreign": "я забываю", "mark": ["ю"], "base": "забывать", "features": {"who": "i", "when": "now"}},
+				{"english": "You forget", "foreign": "ты забываешь", "mark": ["ешь"], "base": "забывать", "features": {"who": "you", "when": "now"}},
+				{"english": "She forgets", "foreign": "она забывает", "mark": ["ет"], "base": "забывать", "features": {"who": "she", "when": "now"}},
+				{"english": "We forget", "foreign": "мы забываем", "mark": ["ем"], "base": "забывать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "бегать", "strategy": ["ending"], "description": "The ending says who is doing it: я бегаю, ты бегаешь, она бегает, мы бегаем. Spot what changes.", "rows": [
+				{"english": "I run", "foreign": "я бегаю", "mark": ["ю"], "base": "бегать", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "ты бегаешь", "mark": ["ешь"], "base": "бегать", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "она бегает", "mark": ["ет"], "base": "бегать", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "мы бегаем", "mark": ["ем"], "base": "бегать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "гулять", "strategy": ["ending"], "description": "The ending says who is doing it: я гуляю, ты гуляешь, она гуляет, мы гуляем. Spot what changes.", "rows": [
+				{"english": "I walk", "foreign": "я гуляю", "mark": ["ю"], "base": "гулять", "features": {"who": "i", "when": "now"}},
+				{"english": "You walk", "foreign": "ты гуляешь", "mark": ["ешь"], "base": "гулять", "features": {"who": "you", "when": "now"}},
+				{"english": "She walks", "foreign": "она гуляет", "mark": ["ет"], "base": "гулять", "features": {"who": "she", "when": "now"}},
+				{"english": "We walk", "foreign": "мы гуляем", "mark": ["ем"], "base": "гулять", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "петь", "strategy": ["ending"], "description": "The ending says who is doing it: я пою, ты поёшь, она поёт, мы поём. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sing", "foreign": "я пою", "mark": ["ю"], "base": "петь", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "ты поёшь", "mark": ["ёшь"], "base": "петь", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "она поёт", "mark": ["ёт"], "base": "петь", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "мы поём", "mark": ["ём"], "base": "петь", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "играть", "strategy": ["ending"], "description": "The ending says who is doing it: я играю, ты играешь, она играет, мы играем. Spot what changes.", "rows": [
+				{"english": "I play", "foreign": "я играю", "mark": ["ю"], "base": "играть", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "ты играешь", "mark": ["ешь"], "base": "играть", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "она играет", "mark": ["ет"], "base": "играть", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "мы играем", "mark": ["ем"], "base": "играть", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "платить", "strategy": ["ending"], "description": "The ending says who is doing it: я плачу, ты платишь, она платит, мы платим. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I pay", "foreign": "я плачу", "mark": ["у"], "base": "платить", "features": {"who": "i", "when": "now"}},
+				{"english": "You pay", "foreign": "ты платишь", "mark": ["ишь"], "base": "платить", "features": {"who": "you", "when": "now"}},
+				{"english": "She pays", "foreign": "она платит", "mark": ["ит"], "base": "платить", "features": {"who": "she", "when": "now"}},
+				{"english": "We pay", "foreign": "мы платим", "mark": ["им"], "base": "платить", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "продавать", "strategy": ["ending"], "description": "The ending says who is doing it: я продаю, ты продаёшь, она продаёт, мы продаём. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I sell", "foreign": "я продаю", "mark": ["ю"], "base": "продавать", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "ты продаёшь", "mark": ["ёшь"], "base": "продавать", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "она продаёт", "mark": ["ёт"], "base": "продавать", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "мы продаём", "mark": ["ём"], "base": "продавать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "помогать", "strategy": ["ending"], "description": "The ending says who is doing it: я помогаю, ты помогаешь, она помогает, мы помогаем. Spot what changes.", "rows": [
+				{"english": "I help", "foreign": "я помогаю", "mark": ["ю"], "base": "помогать", "features": {"who": "i", "when": "now"}},
+				{"english": "You help", "foreign": "ты помогаешь", "mark": ["ешь"], "base": "помогать", "features": {"who": "you", "when": "now"}},
+				{"english": "She helps", "foreign": "она помогает", "mark": ["ет"], "base": "помогать", "features": {"who": "she", "when": "now"}},
+				{"english": "We help", "foreign": "мы помогаем", "mark": ["ем"], "base": "помогать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "готовить", "strategy": ["ending"], "description": "The ending says who is doing it: я готовлю, ты готовишь, она готовит, мы готовим. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I cook", "foreign": "я готовлю", "mark": ["ю"], "base": "готовить", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "ты готовишь", "mark": ["ишь"], "base": "готовить", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "она готовит", "mark": ["ит"], "base": "готовить", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "мы готовим", "mark": ["им"], "base": "готовить", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "путешествовать", "strategy": ["ending"], "description": "The ending says who is doing it: я путешествую, ты путешествуешь, она путешествует, мы путешествуем. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I travel", "foreign": "я путешествую", "mark": ["ю"], "base": "путешествовать", "features": {"who": "i", "when": "now"}},
+				{"english": "You travel", "foreign": "ты путешествуешь", "mark": ["ешь"], "base": "путешествовать", "features": {"who": "you", "when": "now"}},
+				{"english": "She travels", "foreign": "она путешествует", "mark": ["ет"], "base": "путешествовать", "features": {"who": "she", "when": "now"}},
+				{"english": "We travel", "foreign": "мы путешествуем", "mark": ["ем"], "base": "путешествовать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "спрашивать", "strategy": ["ending"], "description": "The ending says who is doing it: я спрашиваю, ты спрашиваешь, она спрашивает, мы спрашиваем. Spot what changes.", "rows": [
+				{"english": "I ask", "foreign": "я спрашиваю", "mark": ["ю"], "base": "спрашивать", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "ты спрашиваешь", "mark": ["ешь"], "base": "спрашивать", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "она спрашивает", "mark": ["ет"], "base": "спрашивать", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "мы спрашиваем", "mark": ["ем"], "base": "спрашивать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "отвечать", "strategy": ["ending"], "description": "The ending says who is doing it: я отвечаю, ты отвечаешь, она отвечает, мы отвечаем. Spot what changes.", "rows": [
+				{"english": "I answer", "foreign": "я отвечаю", "mark": ["ю"], "base": "отвечать", "features": {"who": "i", "when": "now"}},
+				{"english": "You answer", "foreign": "ты отвечаешь", "mark": ["ешь"], "base": "отвечать", "features": {"who": "you", "when": "now"}},
+				{"english": "She answers", "foreign": "она отвечает", "mark": ["ет"], "base": "отвечать", "features": {"who": "she", "when": "now"}},
+				{"english": "We answer", "foreign": "мы отвечаем", "mark": ["ем"], "base": "отвечать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "терять", "strategy": ["ending"], "description": "The ending says who is doing it: я теряю, ты теряешь, она теряет, мы теряем. Spot what changes.", "rows": [
+				{"english": "I lose", "foreign": "я теряю", "mark": ["ю"], "base": "терять", "features": {"who": "i", "when": "now"}},
+				{"english": "You lose", "foreign": "ты теряешь", "mark": ["ешь"], "base": "терять", "features": {"who": "you", "when": "now"}},
+				{"english": "She loses", "foreign": "она теряет", "mark": ["ет"], "base": "терять", "features": {"who": "she", "when": "now"}},
+				{"english": "We lose", "foreign": "мы теряем", "mark": ["ем"], "base": "терять", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "получать", "strategy": ["ending"], "description": "The ending says who is doing it: я получаю, ты получаешь, она получает, мы получаем. Spot what changes.", "rows": [
+				{"english": "I receive", "foreign": "я получаю", "mark": ["ю"], "base": "получать", "features": {"who": "i", "when": "now"}},
+				{"english": "You receive", "foreign": "ты получаешь", "mark": ["ешь"], "base": "получать", "features": {"who": "you", "when": "now"}},
+				{"english": "She receives", "foreign": "она получает", "mark": ["ет"], "base": "получать", "features": {"who": "she", "when": "now"}},
+				{"english": "We receive", "foreign": "мы получаем", "mark": ["ем"], "base": "получать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "заказывать", "strategy": ["ending"], "description": "The ending says who is doing it: я заказываю, ты заказываешь, она заказывает, мы заказываем. Spot what changes.", "rows": [
+				{"english": "I order", "foreign": "я заказываю", "mark": ["ю"], "base": "заказывать", "features": {"who": "i", "when": "now"}},
+				{"english": "You order", "foreign": "ты заказываешь", "mark": ["ешь"], "base": "заказывать", "features": {"who": "you", "when": "now"}},
+				{"english": "She orders", "foreign": "она заказывает", "mark": ["ет"], "base": "заказывать", "features": {"who": "she", "when": "now"}},
+				{"english": "We order", "foreign": "мы заказываем", "mark": ["ем"], "base": "заказывать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "чувствовать", "strategy": ["ending"], "description": "The ending says who is doing it: я чувствую, ты чувствуешь, она чувствует, мы чувствуем. Spot what changes. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I feel", "foreign": "я чувствую", "mark": ["ю"], "base": "чувствовать", "features": {"who": "i", "when": "now"}},
+				{"english": "You feel", "foreign": "ты чувствуешь", "mark": ["ешь"], "base": "чувствовать", "features": {"who": "you", "when": "now"}},
+				{"english": "She feels", "foreign": "она чувствует", "mark": ["ет"], "base": "чувствовать", "features": {"who": "she", "when": "now"}},
+				{"english": "We feel", "foreign": "мы чувствуем", "mark": ["ем"], "base": "чувствовать", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "делать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я делал, она делала. For later, a form of быть goes in front of the whole verb: я буду делать.", "rows": [
+				{"english": "I make", "foreign": "я делаю", "base": "делать", "features": {"who": "i", "when": "now"}},
+				{"english": "I made", "foreign": "я делал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "делать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "я буду делать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "делать", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "она делала", "mark": [{"text": "ла", "role": "ending"}], "base": "делать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "идти", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я шёл, она шла. For later, a form of быть goes in front of the whole verb: я буду идти. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I go", "foreign": "я иду", "base": "идти", "features": {"who": "i", "when": "now"}},
+				{"english": "I went", "foreign": "я шёл", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "идти", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "я буду идти", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "идти", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "она шла", "mark": [{"text": "ла", "role": "ending"}], "base": "идти", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "говорить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я говорил, она говорила. For later, a form of быть goes in front of the whole verb: я буду говорить.", "rows": [
+				{"english": "I say", "foreign": "я говорю", "base": "говорить", "features": {"who": "i", "when": "now"}},
+				{"english": "I said", "foreign": "я говорил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "говорить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will say", "foreign": "я буду говорить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "говорить", "features": {"who": "i", "when": "later"}},
+				{"english": "She said", "foreign": "она говорила", "mark": [{"text": "ла", "role": "ending"}], "base": "говорить", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "видеть", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я видел, она видела. For later, a form of быть goes in front of the whole verb: я буду видеть.", "rows": [
+				{"english": "I see", "foreign": "я вижу", "base": "видеть", "features": {"who": "i", "when": "now"}},
+				{"english": "I saw", "foreign": "я видел", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "видеть", "features": {"who": "i", "when": "before"}},
+				{"english": "I will see", "foreign": "я буду видеть", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "видеть", "features": {"who": "i", "when": "later"}},
+				{"english": "She saw", "foreign": "она видела", "mark": [{"text": "ла", "role": "ending"}], "base": "видеть", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "давать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я давал, она давала. For later, a form of быть goes in front of the whole verb: я буду давать.", "rows": [
+				{"english": "I give", "foreign": "я даю", "base": "давать", "features": {"who": "i", "when": "now"}},
+				{"english": "I gave", "foreign": "я давал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "давать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "я буду давать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "давать", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "она давала", "mark": [{"text": "ла", "role": "ending"}], "base": "давать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "знать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я знал, она знала. For later, a form of быть goes in front of the whole verb: я буду знать.", "rows": [
+				{"english": "I know", "foreign": "я знаю", "base": "знать", "features": {"who": "i", "when": "now"}},
+				{"english": "I knew", "foreign": "я знал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "знать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will know", "foreign": "я буду знать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "знать", "features": {"who": "i", "when": "later"}},
+				{"english": "She knew", "foreign": "она знала", "mark": [{"text": "ла", "role": "ending"}], "base": "знать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "хотеть", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я хотел, она хотела. For later, a form of быть goes in front of the whole verb: я буду хотеть.", "rows": [
+				{"english": "I want", "foreign": "я хочу", "base": "хотеть", "features": {"who": "i", "when": "now"}},
+				{"english": "I wanted", "foreign": "я хотел", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "хотеть", "features": {"who": "i", "when": "before"}},
+				{"english": "I will want", "foreign": "я буду хотеть", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "хотеть", "features": {"who": "i", "when": "later"}},
+				{"english": "She wanted", "foreign": "она хотела", "mark": [{"text": "ла", "role": "ending"}], "base": "хотеть", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "есть", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я ел, она ела. For later, a form of быть goes in front of the whole verb: я буду есть. Watch the middle of the word too: in some of these it changes.", "rows": [
+				{"english": "I eat", "foreign": "я ем", "base": "есть", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "я ел", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "есть", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "я буду есть", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "есть", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "она ела", "mark": [{"text": "ла", "role": "ending"}], "base": "есть", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "жить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я жил, она жила. For later, a form of быть goes in front of the whole verb: я буду жить.", "rows": [
+				{"english": "I live", "foreign": "я живу", "base": "жить", "features": {"who": "i", "when": "now"}},
+				{"english": "I lived", "foreign": "я жил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "жить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will live", "foreign": "я буду жить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "жить", "features": {"who": "i", "when": "later"}},
+				{"english": "She lived", "foreign": "она жила", "mark": [{"text": "ла", "role": "ending"}], "base": "жить", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "работать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я работал, она работала. For later, a form of быть goes in front of the whole verb: я буду работать.", "rows": [
+				{"english": "I work", "foreign": "я работаю", "base": "работать", "features": {"who": "i", "when": "now"}},
+				{"english": "I worked", "foreign": "я работал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "работать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will work", "foreign": "я буду работать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "работать", "features": {"who": "i", "when": "later"}},
+				{"english": "She worked", "foreign": "она работала", "mark": [{"text": "ла", "role": "ending"}], "base": "работать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "думать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я думал, она думала. For later, a form of быть goes in front of the whole verb: я буду думать.", "rows": [
+				{"english": "I think", "foreign": "я думаю", "base": "думать", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "я думал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "думать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "я буду думать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "думать", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "она думала", "mark": [{"text": "ла", "role": "ending"}], "base": "думать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "брать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я брал, она брала. For later, a form of быть goes in front of the whole verb: я буду брать.", "rows": [
+				{"english": "I take", "foreign": "я беру", "base": "брать", "features": {"who": "i", "when": "now"}},
+				{"english": "I took", "foreign": "я брал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "брать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "я буду брать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "брать", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "она брала", "mark": [{"text": "ла", "role": "ending"}], "base": "брать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "писать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я писал, она писала. For later, a form of быть goes in front of the whole verb: я буду писать.", "rows": [
+				{"english": "I write", "foreign": "я пишу", "base": "писать", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "я писал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "писать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "я буду писать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "писать", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "она писала", "mark": [{"text": "ла", "role": "ending"}], "base": "писать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "покупать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я покупал, она покупала. For later, a form of быть goes in front of the whole verb: я буду покупать.", "rows": [
+				{"english": "I buy", "foreign": "я покупаю", "base": "покупать", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "я покупал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "покупать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "я буду покупать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "покупать", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "она покупала", "mark": [{"text": "ла", "role": "ending"}], "base": "покупать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "пить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я пил, она пила. For later, a form of быть goes in front of the whole verb: я буду пить.", "rows": [
+				{"english": "I drink", "foreign": "я пью", "base": "пить", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "я пил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "пить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "я буду пить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "пить", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "она пила", "mark": [{"text": "ла", "role": "ending"}], "base": "пить", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "спать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я спал, она спала. For later, a form of быть goes in front of the whole verb: я буду спать.", "rows": [
+				{"english": "I sleep", "foreign": "я сплю", "base": "спать", "features": {"who": "i", "when": "now"}},
+				{"english": "I slept", "foreign": "я спал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "спать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sleep", "foreign": "я буду спать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "спать", "features": {"who": "i", "when": "later"}},
+				{"english": "She slept", "foreign": "она спала", "mark": [{"text": "ла", "role": "ending"}], "base": "спать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "смотреть", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я смотрел, она смотрела. For later, a form of быть goes in front of the whole verb: я буду смотреть.", "rows": [
+				{"english": "I look", "foreign": "я смотрю", "base": "смотреть", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked", "foreign": "я смотрел", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "смотреть", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look", "foreign": "я буду смотреть", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "смотреть", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked", "foreign": "она смотрела", "mark": [{"text": "ла", "role": "ending"}], "base": "смотреть", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "ждать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я ждал, она ждала. For later, a form of быть goes in front of the whole verb: я буду ждать.", "rows": [
+				{"english": "I wait", "foreign": "я жду", "base": "ждать", "features": {"who": "i", "when": "now"}},
+				{"english": "I waited", "foreign": "я ждал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "ждать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "я буду ждать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "ждать", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "она ждала", "mark": [{"text": "ла", "role": "ending"}], "base": "ждать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "искать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я искал, она искала. For later, a form of быть goes in front of the whole verb: я буду искать.", "rows": [
+				{"english": "I search", "foreign": "я ищу", "base": "искать", "features": {"who": "i", "when": "now"}},
+				{"english": "I searched", "foreign": "я искал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "искать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will search", "foreign": "я буду искать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "искать", "features": {"who": "i", "when": "later"}},
+				{"english": "She searched", "foreign": "она искала", "mark": [{"text": "ла", "role": "ending"}], "base": "искать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "находить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я находил, она находила. For later, a form of быть goes in front of the whole verb: я буду находить.", "rows": [
+				{"english": "I find", "foreign": "я нахожу", "base": "находить", "features": {"who": "i", "when": "now"}},
+				{"english": "I found", "foreign": "я находил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "находить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will find", "foreign": "я буду находить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "находить", "features": {"who": "i", "when": "later"}},
+				{"english": "She found", "foreign": "она находила", "mark": [{"text": "ла", "role": "ending"}], "base": "находить", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "звать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я звал, она звала. For later, a form of быть goes in front of the whole verb: я буду звать.", "rows": [
+				{"english": "I call", "foreign": "я зову", "base": "звать", "features": {"who": "i", "when": "now"}},
+				{"english": "I called", "foreign": "я звал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "звать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "я буду звать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "звать", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "она звала", "mark": [{"text": "ла", "role": "ending"}], "base": "звать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "начинать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я начинал, она начинала. For later, a form of быть goes in front of the whole verb: я буду начинать.", "rows": [
+				{"english": "I begin", "foreign": "я начинаю", "base": "начинать", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "я начинал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "начинать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "я буду начинать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "начинать", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "она начинала", "mark": [{"text": "ла", "role": "ending"}], "base": "начинать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "заканчивать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я заканчивал, она заканчивала. For later, a form of быть goes in front of the whole verb: я буду заканчивать.", "rows": [
+				{"english": "I finish", "foreign": "я заканчиваю", "base": "заканчивать", "features": {"who": "i", "when": "now"}},
+				{"english": "I finished", "foreign": "я заканчивал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "заканчивать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "я буду заканчивать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "заканчивать", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "она заканчивала", "mark": [{"text": "ла", "role": "ending"}], "base": "заканчивать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "открывать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я открывал, она открывала. For later, a form of быть goes in front of the whole verb: я буду открывать.", "rows": [
+				{"english": "I open", "foreign": "я открываю", "base": "открывать", "features": {"who": "i", "when": "now"}},
+				{"english": "I opened", "foreign": "я открывал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "открывать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "я буду открывать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "открывать", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "она открывала", "mark": [{"text": "ла", "role": "ending"}], "base": "открывать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "закрывать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я закрывал, она закрывала. For later, a form of быть goes in front of the whole verb: я буду закрывать.", "rows": [
+				{"english": "I close", "foreign": "я закрываю", "base": "закрывать", "features": {"who": "i", "when": "now"}},
+				{"english": "I closed", "foreign": "я закрывал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "закрывать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "я буду закрывать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "закрывать", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "она закрывала", "mark": [{"text": "ла", "role": "ending"}], "base": "закрывать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "изучать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я изучал, она изучала. For later, a form of быть goes in front of the whole verb: я буду изучать.", "rows": [
+				{"english": "I study", "foreign": "я изучаю", "base": "изучать", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "я изучал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "изучать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "я буду изучать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "изучать", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "она изучала", "mark": [{"text": "ла", "role": "ending"}], "base": "изучать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "понимать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я понимал, она понимала. For later, a form of быть goes in front of the whole verb: я буду понимать.", "rows": [
+				{"english": "I understand", "foreign": "я понимаю", "base": "понимать", "features": {"who": "i", "when": "now"}},
+				{"english": "I understood", "foreign": "я понимал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "понимать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will understand", "foreign": "я буду понимать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "понимать", "features": {"who": "i", "when": "later"}},
+				{"english": "She understood", "foreign": "она понимала", "mark": [{"text": "ла", "role": "ending"}], "base": "понимать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "забывать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я забывал, она забывала. For later, a form of быть goes in front of the whole verb: я буду забывать.", "rows": [
+				{"english": "I forget", "foreign": "я забываю", "base": "забывать", "features": {"who": "i", "when": "now"}},
+				{"english": "I forgot", "foreign": "я забывал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "забывать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will forget", "foreign": "я буду забывать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "забывать", "features": {"who": "i", "when": "later"}},
+				{"english": "She forgot", "foreign": "она забывала", "mark": [{"text": "ла", "role": "ending"}], "base": "забывать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "бегать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я бегал, она бегала. For later, a form of быть goes in front of the whole verb: я буду бегать.", "rows": [
+				{"english": "I run", "foreign": "я бегаю", "base": "бегать", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "я бегал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "бегать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "я буду бегать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "бегать", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "она бегала", "mark": [{"text": "ла", "role": "ending"}], "base": "бегать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "гулять", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я гулял, она гуляла. For later, a form of быть goes in front of the whole verb: я буду гулять.", "rows": [
+				{"english": "I walk", "foreign": "я гуляю", "base": "гулять", "features": {"who": "i", "when": "now"}},
+				{"english": "I walked", "foreign": "я гулял", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "гулять", "features": {"who": "i", "when": "before"}},
+				{"english": "I will walk", "foreign": "я буду гулять", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "гулять", "features": {"who": "i", "when": "later"}},
+				{"english": "She walked", "foreign": "она гуляла", "mark": [{"text": "ла", "role": "ending"}], "base": "гулять", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "петь", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я пел, она пела. For later, a form of быть goes in front of the whole verb: я буду петь.", "rows": [
+				{"english": "I sing", "foreign": "я пою", "base": "петь", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "я пел", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "петь", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "я буду петь", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "петь", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "она пела", "mark": [{"text": "ла", "role": "ending"}], "base": "петь", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "играть", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я играл, она играла. For later, a form of быть goes in front of the whole verb: я буду играть.", "rows": [
+				{"english": "I play", "foreign": "я играю", "base": "играть", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "я играл", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "играть", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "я буду играть", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "играть", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "она играла", "mark": [{"text": "ла", "role": "ending"}], "base": "играть", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "платить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я платил, она платила. For later, a form of быть goes in front of the whole verb: я буду платить.", "rows": [
+				{"english": "I pay", "foreign": "я плачу", "base": "платить", "features": {"who": "i", "when": "now"}},
+				{"english": "I paid", "foreign": "я платил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "платить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "я буду платить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "платить", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "она платила", "mark": [{"text": "ла", "role": "ending"}], "base": "платить", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "продавать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я продавал, она продавала. For later, a form of быть goes in front of the whole verb: я буду продавать.", "rows": [
+				{"english": "I sell", "foreign": "я продаю", "base": "продавать", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "я продавал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "продавать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "я буду продавать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "продавать", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "она продавала", "mark": [{"text": "ла", "role": "ending"}], "base": "продавать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "помогать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я помогал, она помогала. For later, a form of быть goes in front of the whole verb: я буду помогать.", "rows": [
+				{"english": "I help", "foreign": "я помогаю", "base": "помогать", "features": {"who": "i", "when": "now"}},
+				{"english": "I helped", "foreign": "я помогал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "помогать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "я буду помогать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "помогать", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "она помогала", "mark": [{"text": "ла", "role": "ending"}], "base": "помогать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "готовить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я готовил, она готовила. For later, a form of быть goes in front of the whole verb: я буду готовить.", "rows": [
+				{"english": "I cook", "foreign": "я готовлю", "base": "готовить", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "я готовил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "готовить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "я буду готовить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "готовить", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "она готовила", "mark": [{"text": "ла", "role": "ending"}], "base": "готовить", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "путешествовать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я путешествовал, она путешествовала. For later, a form of быть goes in front of the whole verb: я буду путешествовать.", "rows": [
+				{"english": "I travel", "foreign": "я путешествую", "base": "путешествовать", "features": {"who": "i", "when": "now"}},
+				{"english": "I travelled", "foreign": "я путешествовал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "путешествовать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will travel", "foreign": "я буду путешествовать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "путешествовать", "features": {"who": "i", "when": "later"}},
+				{"english": "She travelled", "foreign": "она путешествовала", "mark": [{"text": "ла", "role": "ending"}], "base": "путешествовать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "спрашивать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я спрашивал, она спрашивала. For later, a form of быть goes in front of the whole verb: я буду спрашивать.", "rows": [
+				{"english": "I ask", "foreign": "я спрашиваю", "base": "спрашивать", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "я спрашивал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "спрашивать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "я буду спрашивать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "спрашивать", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "она спрашивала", "mark": [{"text": "ла", "role": "ending"}], "base": "спрашивать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "отвечать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я отвечал, она отвечала. For later, a form of быть goes in front of the whole verb: я буду отвечать.", "rows": [
+				{"english": "I answer", "foreign": "я отвечаю", "base": "отвечать", "features": {"who": "i", "when": "now"}},
+				{"english": "I answered", "foreign": "я отвечал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "отвечать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "я буду отвечать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "отвечать", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "она отвечала", "mark": [{"text": "ла", "role": "ending"}], "base": "отвечать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "терять", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я терял, она теряла. For later, a form of быть goes in front of the whole verb: я буду терять.", "rows": [
+				{"english": "I lose", "foreign": "я теряю", "base": "терять", "features": {"who": "i", "when": "now"}},
+				{"english": "I lost", "foreign": "я терял", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "терять", "features": {"who": "i", "when": "before"}},
+				{"english": "I will lose", "foreign": "я буду терять", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "терять", "features": {"who": "i", "when": "later"}},
+				{"english": "She lost", "foreign": "она теряла", "mark": [{"text": "ла", "role": "ending"}], "base": "терять", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "получать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я получал, она получала. For later, a form of быть goes in front of the whole verb: я буду получать.", "rows": [
+				{"english": "I receive", "foreign": "я получаю", "base": "получать", "features": {"who": "i", "when": "now"}},
+				{"english": "I received", "foreign": "я получал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "получать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will receive", "foreign": "я буду получать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "получать", "features": {"who": "i", "when": "later"}},
+				{"english": "She received", "foreign": "она получала", "mark": [{"text": "ла", "role": "ending"}], "base": "получать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "заказывать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я заказывал, она заказывала. For later, a form of быть goes in front of the whole verb: я буду заказывать.", "rows": [
+				{"english": "I order", "foreign": "я заказываю", "base": "заказывать", "features": {"who": "i", "when": "now"}},
+				{"english": "I ordered", "foreign": "я заказывал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "заказывать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "я буду заказывать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "заказывать", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "она заказывала", "mark": [{"text": "ла", "role": "ending"}], "base": "заказывать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "чувствовать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я чувствовал, она чувствовала. For later, a form of быть goes in front of the whole verb: я буду чувствовать.", "rows": [
+				{"english": "I feel", "foreign": "я чувствую", "base": "чувствовать", "features": {"who": "i", "when": "now"}},
+				{"english": "I felt", "foreign": "я чувствовал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "чувствовать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will feel", "foreign": "я буду чувствовать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "чувствовать", "features": {"who": "i", "when": "later"}},
+				{"english": "She felt", "foreign": "она чувствовала", "mark": [{"text": "ла", "role": "ending"}], "base": "чувствовать", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "command", "part": 2, "verb": "делать", "strategy": ["helper word"], "description": "To a friend: Делай! To anyone else, or to more than one person: Делайте! Telling a friend not to puts не in front: Не делай!", "rows": [
+				{"english": "Make!", "foreign": "Делай!", "base": "делать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Make! said politely", "foreign": "Делайте!", "base": "делать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not make!", "foreign": "Не делай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "делать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's make!", "foreign": "Давай делать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "делать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 4, "verb": "говорить", "strategy": ["helper word"], "description": "To a friend: Говори! To anyone else, or to more than one person: Говорите! Telling a friend not to puts не in front: Не говори!", "rows": [
+				{"english": "Say!", "foreign": "Говори!", "base": "говорить", "features": {"command": "yes", "who": "you"}},
+				{"english": "Say! said politely", "foreign": "Говорите!", "base": "говорить", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not say!", "foreign": "Не говори!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "говорить", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's say!", "foreign": "Давай говорить!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "говорить", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 5, "verb": "давать", "strategy": ["helper word"], "description": "To a friend: Давай! To anyone else, or to more than one person: Давайте! Telling a friend not to puts не in front: Не давай!", "rows": [
+				{"english": "Give!", "foreign": "Давай!", "base": "давать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Give! said politely", "foreign": "Давайте!", "base": "давать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not give!", "foreign": "Не давай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "давать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's give!", "foreign": "Давай давать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "давать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 6, "verb": "есть", "strategy": ["helper word"], "description": "To a friend: Ешь! To anyone else, or to more than one person: Ешьте! Telling a friend not to puts не in front: Не ешь!", "rows": [
+				{"english": "Eat!", "foreign": "Ешь!", "base": "есть", "features": {"command": "yes", "who": "you"}},
+				{"english": "Eat! said politely", "foreign": "Ешьте!", "base": "есть", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not eat!", "foreign": "Не ешь!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "есть", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's eat!", "foreign": "Давай есть!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "есть", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 8, "verb": "работать", "strategy": ["helper word"], "description": "To a friend: Работай! To anyone else, or to more than one person: Работайте! Telling a friend not to puts не in front: Не работай!", "rows": [
+				{"english": "Work!", "foreign": "Работай!", "base": "работать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Work! said politely", "foreign": "Работайте!", "base": "работать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not work!", "foreign": "Не работай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "работать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's work!", "foreign": "Давай работать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "работать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 9, "verb": "думать", "strategy": ["helper word"], "description": "To a friend: Думай! To anyone else, or to more than one person: Думайте! Telling a friend not to puts не in front: Не думай!", "rows": [
+				{"english": "Think!", "foreign": "Думай!", "base": "думать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Think! said politely", "foreign": "Думайте!", "base": "думать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not think!", "foreign": "Не думай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "думать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's think!", "foreign": "Давай думать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "думать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 10, "verb": "брать", "strategy": ["helper word"], "description": "To a friend: Бери! To anyone else, or to more than one person: Берите! Telling a friend not to puts не in front: Не бери!", "rows": [
+				{"english": "Take!", "foreign": "Бери!", "base": "брать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Take! said politely", "foreign": "Берите!", "base": "брать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not take!", "foreign": "Не бери!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "брать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's take!", "foreign": "Давай брать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "брать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 11, "verb": "писать", "strategy": ["helper word"], "description": "To a friend: Пиши! To anyone else, or to more than one person: Пишите! Telling a friend not to puts не in front: Не пиши!", "rows": [
+				{"english": "Write!", "foreign": "Пиши!", "base": "писать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Write! said politely", "foreign": "Пишите!", "base": "писать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not write!", "foreign": "Не пиши!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "писать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's write!", "foreign": "Давай писать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "писать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 12, "verb": "покупать", "strategy": ["helper word"], "description": "To a friend: Покупай! To anyone else, or to more than one person: Покупайте! Telling a friend not to puts не in front: Не покупай!", "rows": [
+				{"english": "Buy!", "foreign": "Покупай!", "base": "покупать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Buy! said politely", "foreign": "Покупайте!", "base": "покупать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not buy!", "foreign": "Не покупай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "покупать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's buy!", "foreign": "Давай покупать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "покупать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 13, "verb": "пить", "strategy": ["helper word"], "description": "To a friend: Пей! To anyone else, or to more than one person: Пейте! Telling a friend not to puts не in front: Не пей!", "rows": [
+				{"english": "Drink!", "foreign": "Пей!", "base": "пить", "features": {"command": "yes", "who": "you"}},
+				{"english": "Drink! said politely", "foreign": "Пейте!", "base": "пить", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not drink!", "foreign": "Не пей!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "пить", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drink!", "foreign": "Давай пить!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "пить", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 14, "verb": "спать", "strategy": ["helper word"], "description": "To a friend: Спи! To anyone else, or to more than one person: Спите! Telling a friend not to puts не in front: Не спи!", "rows": [
+				{"english": "Sleep!", "foreign": "Спи!", "base": "спать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sleep! said politely", "foreign": "Спите!", "base": "спать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sleep!", "foreign": "Не спи!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "спать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sleep!", "foreign": "Давай спать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "спать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 15, "verb": "смотреть", "strategy": ["helper word"], "description": "To a friend: Смотри! To anyone else, or to more than one person: Смотрите! Telling a friend not to puts не in front: Не смотри!", "rows": [
+				{"english": "Look!", "foreign": "Смотри!", "base": "смотреть", "features": {"command": "yes", "who": "you"}},
+				{"english": "Look! said politely", "foreign": "Смотрите!", "base": "смотреть", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not look!", "foreign": "Не смотри!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "смотреть", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's look!", "foreign": "Давай смотреть!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "смотреть", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 16, "verb": "ждать", "strategy": ["helper word"], "description": "To a friend: Жди! To anyone else, or to more than one person: Ждите! Telling a friend not to puts не in front: Не жди!", "rows": [
+				{"english": "Wait!", "foreign": "Жди!", "base": "ждать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Wait! said politely", "foreign": "Ждите!", "base": "ждать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not wait!", "foreign": "Не жди!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "ждать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wait!", "foreign": "Давай ждать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "ждать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 17, "verb": "искать", "strategy": ["helper word"], "description": "To a friend: Ищи! To anyone else, or to more than one person: Ищите! Telling a friend not to puts не in front: Не ищи!", "rows": [
+				{"english": "Search!", "foreign": "Ищи!", "base": "искать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Search! said politely", "foreign": "Ищите!", "base": "искать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not search!", "foreign": "Не ищи!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "искать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's search!", "foreign": "Давай искать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "искать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 18, "verb": "находить", "strategy": ["helper word"], "description": "To a friend: Находи! To anyone else, or to more than one person: Находите! Telling a friend not to puts не in front: Не находи!", "rows": [
+				{"english": "Find!", "foreign": "Находи!", "base": "находить", "features": {"command": "yes", "who": "you"}},
+				{"english": "Find! said politely", "foreign": "Находите!", "base": "находить", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not find!", "foreign": "Не находи!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "находить", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's find!", "foreign": "Давай находить!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "находить", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 19, "verb": "звать", "strategy": ["helper word"], "description": "To a friend: Зови! To anyone else, or to more than one person: Зовите! Telling a friend not to puts не in front: Не зови!", "rows": [
+				{"english": "Call!", "foreign": "Зови!", "base": "звать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Call! said politely", "foreign": "Зовите!", "base": "звать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not call!", "foreign": "Не зови!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "звать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's call!", "foreign": "Давай звать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "звать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 20, "verb": "начинать", "strategy": ["helper word"], "description": "To a friend: Начинай! To anyone else, or to more than one person: Начинайте! Telling a friend not to puts не in front: Не начинай!", "rows": [
+				{"english": "Begin!", "foreign": "Начинай!", "base": "начинать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Begin! said politely", "foreign": "Начинайте!", "base": "начинать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not begin!", "foreign": "Не начинай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "начинать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's begin!", "foreign": "Давай начинать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "начинать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 21, "verb": "заканчивать", "strategy": ["helper word"], "description": "To a friend: Заканчивай! To anyone else, or to more than one person: Заканчивайте! Telling a friend not to puts не in front: Не заканчивай!", "rows": [
+				{"english": "Finish!", "foreign": "Заканчивай!", "base": "заканчивать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Finish! said politely", "foreign": "Заканчивайте!", "base": "заканчивать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not finish!", "foreign": "Не заканчивай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "заканчивать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's finish!", "foreign": "Давай заканчивать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "заканчивать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 22, "verb": "открывать", "strategy": ["helper word"], "description": "To a friend: Открывай! To anyone else, or to more than one person: Открывайте! Telling a friend not to puts не in front: Не открывай!", "rows": [
+				{"english": "Open!", "foreign": "Открывай!", "base": "открывать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Open! said politely", "foreign": "Открывайте!", "base": "открывать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not open!", "foreign": "Не открывай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "открывать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's open!", "foreign": "Давай открывать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "открывать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 23, "verb": "закрывать", "strategy": ["helper word"], "description": "To a friend: Закрывай! To anyone else, or to more than one person: Закрывайте! Telling a friend not to puts не in front: Не закрывай!", "rows": [
+				{"english": "Close!", "foreign": "Закрывай!", "base": "закрывать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Close! said politely", "foreign": "Закрывайте!", "base": "закрывать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not close!", "foreign": "Не закрывай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "закрывать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's close!", "foreign": "Давай закрывать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "закрывать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 24, "verb": "изучать", "strategy": ["helper word"], "description": "To a friend: Изучай! To anyone else, or to more than one person: Изучайте! Telling a friend not to puts не in front: Не изучай!", "rows": [
+				{"english": "Study!", "foreign": "Изучай!", "base": "изучать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Study! said politely", "foreign": "Изучайте!", "base": "изучать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not study!", "foreign": "Не изучай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "изучать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's study!", "foreign": "Давай изучать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "изучать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 25, "verb": "забывать", "strategy": ["helper word"], "description": "To a friend: Забывай! To anyone else, or to more than one person: Забывайте! Telling a friend not to puts не in front: Не забывай!", "rows": [
+				{"english": "Forget!", "foreign": "Забывай!", "base": "забывать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Forget! said politely", "foreign": "Забывайте!", "base": "забывать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not forget!", "foreign": "Не забывай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "забывать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's forget!", "foreign": "Давай забывать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "забывать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 26, "verb": "бегать", "strategy": ["helper word"], "description": "To a friend: Бегай! To anyone else, or to more than one person: Бегайте! Telling a friend not to puts не in front: Не бегай!", "rows": [
+				{"english": "Run!", "foreign": "Бегай!", "base": "бегать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Run! said politely", "foreign": "Бегайте!", "base": "бегать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not run!", "foreign": "Не бегай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "бегать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's run!", "foreign": "Давай бегать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "бегать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 27, "verb": "гулять", "strategy": ["helper word"], "description": "To a friend: Гуляй! To anyone else, or to more than one person: Гуляйте! Telling a friend not to puts не in front: Не гуляй!", "rows": [
+				{"english": "Walk!", "foreign": "Гуляй!", "base": "гулять", "features": {"command": "yes", "who": "you"}},
+				{"english": "Walk! said politely", "foreign": "Гуляйте!", "base": "гулять", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not walk!", "foreign": "Не гуляй!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "гулять", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's walk!", "foreign": "Давай гулять!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "гулять", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 28, "verb": "петь", "strategy": ["helper word"], "description": "To a friend: Пой! To anyone else, or to more than one person: Пойте! Telling a friend not to puts не in front: Не пой!", "rows": [
+				{"english": "Sing!", "foreign": "Пой!", "base": "петь", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sing! said politely", "foreign": "Пойте!", "base": "петь", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sing!", "foreign": "Не пой!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "петь", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sing!", "foreign": "Давай петь!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "петь", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 29, "verb": "играть", "strategy": ["helper word"], "description": "To a friend: Играй! To anyone else, or to more than one person: Играйте! Telling a friend not to puts не in front: Не играй!", "rows": [
+				{"english": "Play!", "foreign": "Играй!", "base": "играть", "features": {"command": "yes", "who": "you"}},
+				{"english": "Play! said politely", "foreign": "Играйте!", "base": "играть", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not play!", "foreign": "Не играй!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "играть", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's play!", "foreign": "Давай играть!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "играть", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 30, "verb": "платить", "strategy": ["helper word"], "description": "To a friend: Плати! To anyone else, or to more than one person: Платите! Telling a friend not to puts не in front: Не плати!", "rows": [
+				{"english": "Pay!", "foreign": "Плати!", "base": "платить", "features": {"command": "yes", "who": "you"}},
+				{"english": "Pay! said politely", "foreign": "Платите!", "base": "платить", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not pay!", "foreign": "Не плати!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "платить", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's pay!", "foreign": "Давай платить!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "платить", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 31, "verb": "продавать", "strategy": ["helper word"], "description": "To a friend: Продавай! To anyone else, or to more than one person: Продавайте! Telling a friend not to puts не in front: Не продавай!", "rows": [
+				{"english": "Sell!", "foreign": "Продавай!", "base": "продавать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sell! said politely", "foreign": "Продавайте!", "base": "продавать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sell!", "foreign": "Не продавай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "продавать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sell!", "foreign": "Давай продавать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "продавать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 32, "verb": "помогать", "strategy": ["helper word"], "description": "To a friend: Помогай! To anyone else, or to more than one person: Помогайте! Telling a friend not to puts не in front: Не помогай!", "rows": [
+				{"english": "Help!", "foreign": "Помогай!", "base": "помогать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Help! said politely", "foreign": "Помогайте!", "base": "помогать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not help!", "foreign": "Не помогай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "помогать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's help!", "foreign": "Давай помогать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "помогать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 33, "verb": "готовить", "strategy": ["helper word"], "description": "To a friend: Готовь! To anyone else, or to more than one person: Готовьте! Telling a friend not to puts не in front: Не готовь!", "rows": [
+				{"english": "Cook!", "foreign": "Готовь!", "base": "готовить", "features": {"command": "yes", "who": "you"}},
+				{"english": "Cook! said politely", "foreign": "Готовьте!", "base": "готовить", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not cook!", "foreign": "Не готовь!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "готовить", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's cook!", "foreign": "Давай готовить!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "готовить", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 34, "verb": "путешествовать", "strategy": ["helper word"], "description": "To a friend: Путешествуй! To anyone else, or to more than one person: Путешествуйте! Telling a friend not to puts не in front: Не путешествуй!", "rows": [
+				{"english": "Travel!", "foreign": "Путешествуй!", "base": "путешествовать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Travel! said politely", "foreign": "Путешествуйте!", "base": "путешествовать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not travel!", "foreign": "Не путешествуй!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "путешествовать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's travel!", "foreign": "Давай путешествовать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "путешествовать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 35, "verb": "спрашивать", "strategy": ["helper word"], "description": "To a friend: Спрашивай! To anyone else, or to more than one person: Спрашивайте! Telling a friend not to puts не in front: Не спрашивай!", "rows": [
+				{"english": "Ask!", "foreign": "Спрашивай!", "base": "спрашивать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Ask! said politely", "foreign": "Спрашивайте!", "base": "спрашивать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not ask!", "foreign": "Не спрашивай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "спрашивать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask!", "foreign": "Давай спрашивать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "спрашивать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 36, "verb": "отвечать", "strategy": ["helper word"], "description": "To a friend: Отвечай! To anyone else, or to more than one person: Отвечайте! Telling a friend not to puts не in front: Не отвечай!", "rows": [
+				{"english": "Answer!", "foreign": "Отвечай!", "base": "отвечать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Answer! said politely", "foreign": "Отвечайте!", "base": "отвечать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not answer!", "foreign": "Не отвечай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "отвечать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's answer!", "foreign": "Давай отвечать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "отвечать", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 39, "verb": "заказывать", "strategy": ["helper word"], "description": "To a friend: Заказывай! To anyone else, or to more than one person: Заказывайте! Telling a friend not to puts не in front: Не заказывай!", "rows": [
+				{"english": "Order!", "foreign": "Заказывай!", "base": "заказывать", "features": {"command": "yes", "who": "you"}},
+				{"english": "Order! said politely", "foreign": "Заказывайте!", "base": "заказывать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not order!", "foreign": "Не заказывай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "заказывать", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's order!", "foreign": "Давай заказывать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "заказывать", "features": {"command": "yes", "who": "we"}}
+			]}
+	]
+}

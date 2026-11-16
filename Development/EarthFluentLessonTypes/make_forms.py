@@ -30,6 +30,8 @@ def plain(recipes: dict, text: str) -> str:
     """The form as it is written. The Italian dictionary marks where the stress falls (pàrlo, andàre, hò), which nobody
     writes. Only an accent on the last letter of a word of two beats or more is spelling (parlerò, andrà), and on the
     few one-beat words the recipe lists (è, dà, può). A recipe asks for this with strip_inner_accents."""
+    for mark in recipes.get("strip_marks", []):  # Russian's dictionary marks the stress with a combining accent: чита́ю
+        text = text.replace(mark, "")
     if not recipes.get("strip_inner_accents"):
         return text
     bare = lambda word: unicodedata.normalize("NFC", "".join(
@@ -42,7 +44,7 @@ def plain(recipes: dict, text: str) -> str:
     return " ".join(words)
 
 
-def table(entry: dict, skip: set, every: bool = False) -> list:
+def table(entry: dict, skip: set, every: bool = False, prefixes: tuple = ()) -> list:
     """The entry's first conjugation table: in Spanish a second one is the reflexive verb's, with its pronouns attached.
     German's later tables are the same verb's two-word forms (bin gegangen, werde gehen), so its recipe asks for every table."""
     forms, tables = [], 0
@@ -53,6 +55,8 @@ def table(entry: dict, skip: set, every: bool = False) -> list:
             if tables > 1 and not every:
                 break
         if form.get("source") != "conjugation" or tags & skip:
+            continue
+        if form["form"].startswith(prefixes):  # "-" where a verb has no such form, "-(e)m czytał", "niech czytam"
             continue
         forms.append((form["form"], tags))
     return forms
@@ -74,10 +78,16 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
             word = entry.get("word")
             if word not in wanted or word in verbs or entry.get("pos") != "verb":
                 continue
-            forms = [(plain(recipes, text), tags) for text, tags in table(entry, skip, recipes.get("all_tables", False))]
+            forms = [(plain(recipes, text), tags)
+                     for text, tags in table(entry, skip, recipes.get("all_tables", False), tuple(recipes.get("skip_prefixes", [])) or ("\0",))]
             if not forms:
                 continue  # a form-of entry, or an entry with no table: the real one comes later in the dump
             found = []
+            if "partner_tags" in recipes:  # the verb's other half: читать is doing it, прочитать is having done it
+                named = [plain(recipes, form["form"]) for form in entry.get("forms", [])
+                         if form.get("source") != "conjugation" and set(recipes["partner_tags"]) <= set(form.get("tags", []))]
+                if named:
+                    found.append({"form": named[0], "features": {"form": "partner"}})
             if "helper_tags" in recipes:  # which helper the verb takes for its two-word forms: "avoir + past participle"
                 named = [form["form"] for form in entry.get("forms", []) if set(recipes["helper_tags"]) <= set(form.get("tags", []))]
                 if named:
@@ -92,11 +102,11 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
             if "helper_default" in recipes:  # a dictionary that does not say which helper a verb takes: the recipe lists the few that differ
                 found.append({"form": recipes.get("helper_of", {}).get(word, recipes["helper_default"]), "features": {"form": "helper"}})
             for slot in recipes["slots"]:
-                if "compound" in slot:
-                    continue  # built below, once the helper verbs are read too
+                if "compound" in slot or "partner" in slot:
+                    continue  # built below, once the helper verbs and the partners are read too
                 need, without = set(slot["tags"]), set(slot.get("without", []))
-                match = [text for text, tags in forms if need <= tags and not tags & without]
-                if match:
+                match = [text for text, tags in forms if need <= tags and not tags & without][slot.get("nth", 0):]
+                if match and not any(form["features"] == slot["features"] for form in found):  # a second slot for the same thing is its fallback
                     found.append({"form": match[0], "features": slot["features"]})
                     if slot.get("split") and " " in match[0]:  # a two-word form the dictionary gives whole: bin gegangen
                         found[-1]["helper"], found[-1]["part"] = match[0].split(" ", 1)
@@ -110,6 +120,11 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
             verbs[word] = found
     for word, found in verbs.items():
         for slot in recipes["slots"]:
+            if "partner" in slot:  # a form borrowed from the verb's other half, where the dictionary names one and has its table
+                partner = next((form["form"] for form in found if form["features"] == {"form": "partner"}), "")
+                borrowed = next((form["form"] for form in verbs.get(partner, []) if form["features"] == slot["partner"]), "")
+                if borrowed:
+                    found.append({"form": borrowed, "features": slot["features"]})
             if "compound" in slot:
                 made = compound(recipes, verbs, found, slot["compound"])
                 if made:
@@ -146,7 +161,11 @@ def main() -> int:
     for argument in sys.argv[3:]:
         if argument.startswith("--verbs="):
             wanted |= {line.strip().lower() for line in Path(argument[8:]).read_text(encoding="utf-8").splitlines() if line.strip()}
-    verbs, missing = read(recipes, folder / language / recipes["dump"], wanted)
+    dump = folder / language / recipes["dump"]
+    if "partner_tags" in recipes:  # the partners must be read too, and are only known once their verbs have been
+        first, _ = read(recipes, dump, wanted)
+        wanted = wanted | {form["form"] for forms in first.values() for form in forms if form["features"] == {"form": "partner"}}
+    verbs, missing = read(recipes, dump, wanted)
     out = {"language": language, "translation_language": recipes["translation_language"],
            "source": "English Wiktionary, by way of kaikki.org's extract. Made by make_forms.py: do not edit by hand.",
            "verbs": dict(sorted(verbs.items()))}
