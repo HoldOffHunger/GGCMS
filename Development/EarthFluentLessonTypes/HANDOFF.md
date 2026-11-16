@@ -40,7 +40,7 @@ where a form is also another word; read for English that does not say what the f
 
 ## What to do next, in order
 
-1. **Ship the waiting batch**, when Ben says so. Follow the steps in `ConjugationSystem.md`; rehearse nothing new, it
+1. ~~Ship the waiting batch~~: shipped by Opus on 16 Nov, verified live. Follow the steps in `ConjugationSystem.md`; rehearse nothing new, it
    has all run on Fumiko.
 2. ~~Read tasks 141 to 144~~: done by Opus on 16 Nov, three faults fixed in `d4cb727` (step 5 of the ship list).
 3. **The five remaining languages** (Chinese, Japanese, Korean, Hindi, Indonesian). Begin by printing what each dump

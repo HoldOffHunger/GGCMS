@@ -108,32 +108,19 @@ After any generator change, regenerate the languages already done and confirm th
 
 | Language | Recipe | On Fumiko | On prod | Notes |
 |---|---|---|---|---|
-| Spanish | yes | yes | yes | Forms for the ~150 verbs corrected on 15 Nov are on Fumiko only |
-| French | yes | yes | yes | Same: ~130 corrected verbs' forms on Fumiko only. No "going" job (French has no such form) |
+| Spanish | yes | yes | yes | |
+| French | yes | yes | yes | No "going" job (French has no such form) |
 | Italian | yes | yes | yes | |
 | Portuguese | yes | yes | yes | **Brazilian**, as the course is. Ben wants a separate European course later; do not bend this one |
-| German | yes | yes | yes | Split-verb lessons (7 verbs) on Fumiko only. No "going" job |
-| Dutch | yes | yes | yes | Split-verb lessons on Fumiko only. Helper is `hebben` unless listed in `helper_of` |
-| Russian | yes | yes | **no** | Tables show the partner's forms as "finished" columns. No aspect-pair lessons yet |
-| Polish | yes | yes | **no** | As Russian; the dump names fewer partners |
+| German | yes | yes | yes | Seven split verbs (`ankommen`). No "going" job |
+| Dutch | yes | yes | yes | Seven split verbs. Helper is `hebben` unless `helper_of` or `helper_of_endings` says |
+| Russian | yes | yes | yes | Tables show the partner's forms as "finished" columns. No aspect-pair lessons yet |
+| Polish | yes | yes | yes | As Russian; the dump names fewer partners |
 | Chinese, Japanese, Korean, Hindi, Indonesian | no | no | no | They do these jobs with particles, helper words or nothing. Their dumps have not been looked at |
 
-Also waiting to ship (committed, not pushed, not deployed): the engine fix for the wrong-course address
-(`HandlerRedirects::MatchingCodeChoice`), and the table's "finished" columns in the private repo.
-
-### To ship what is waiting (needs Ben's word first)
-
-1. Push GGCMS and the private repo; run `/opt/ggcms/bin/deploy.sh` on prod.
-2. Russian and Polish: copy `forms-*.tsv`, `lessons-*.tsv`, `words-*.tsv` and run `prodlang.sh russian ru`, `prodlang.sh polish pl`.
-3. Spanish and French forms: `formsonly.sh spanish es`, `formsonly.sh french fr` (never `prodlang.sh` for these two).
-4. German and Dutch split-verb lessons: regenerate `lessons-german.tsv` and `lessons-dutch.tsv`, then import with
-   `--apply --keep-cache`; existing lessons are skipped as twins, the new ones are made. Re-render `/german/patterns/`
-   and `/dutch/patterns/`.
-5. German and Dutch corrections (commit `d4cb727`: `aufstehen` and the verbs of motion take `sein`, `weggaan` takes
-   `zijn`, `Arbeite!` keeps its `e`). The SQL is in `D:\ef-types-ship\fix2\`, made against commit `3334dd5`'s files;
-   copy `forms-update-*.sql`, `lessons-update-*.sql` and `corrections_run.sh` to prod and run
-   `bash corrections_run.sh <that folder> php prod german dutch` **after** step 4. Rehearsed on Fumiko: 198 forms, 25 lesson rows.
-6. Check with `ship/addr.sh` against Fumiko, and by fetching the boards and a verb table from the live site.
+Everything above was shipped to prod on 16 November 2026 (by Opus, from Fable's batch): the wrong-course address fix,
+Russian and Polish, the corrected Spanish and French verbs' tables, the German and Dutch split-verb lessons, and the
+German and Dutch helper and command corrections. Nothing is waiting.
 
 ## Checking the work
 
