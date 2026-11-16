@@ -100,12 +100,22 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                     chosen = recipes.get("helper_of", {}).get(word) or preferred
                     found.append({"form": chosen, "features": {"form": "helper"}})
             if "helper_default" in recipes:  # a dictionary that does not say which helper a verb takes: the recipe lists the few that differ
-                found.append({"form": recipes.get("helper_of", {}).get(word, recipes["helper_default"]), "features": {"form": "helper"}})
+                # weggaan is gaan with a front part, and takes gaan's helper: helper_of_endings says so for a whole family at once
+                by_ending = next((helper for ending, helper in recipes.get("helper_of_endings", {}).items() if word.endswith(ending)), None)
+                found.append({"form": recipes.get("helper_of", {}).get(word) or by_ending or recipes["helper_default"], "features": {"form": "helper"}})
             for slot in recipes["slots"]:
                 if "compound" in slot or "partner" in slot:
                     continue  # built below, once the helper verbs and the partners are read too
                 need, without = set(slot["tags"]), set(slot.get("without", []))
                 match = [text for text, tags in forms if need <= tags and not tags & without][slot.get("nth", 0):]
+                # a verb with two tables gives two answers: aufstehen is habe aufgestanden in one and bin aufgestanden in the other
+                # only for the verbs the recipe names: anfangen and bekommen have a sein table too, and take haben
+                preferred = [text for text in match if text.split(" ")[0] in slot.get("prefer_first", [])]                     if word in recipes.get("prefer_first_verbs", []) else []
+                if preferred:
+                    match = preferred + [text for text in match if text not in preferred]
+                # arbeit is no command: after a t or a d the short form needs its e back (arbeite, beende, finde)
+                if match and match[0][-1:] in slot.get("lengthen_after", []) and match[0] + "e" in match:
+                    match = [match[0] + "e"] + match
                 if match and not any(form["features"] == slot["features"] for form in found):  # a second slot for the same thing is its fallback
                     found.append({"form": match[0], "features": slot["features"]})
                     if slot.get("split") and " " in match[0]:  # a two-word form the dictionary gives whole: bin gegangen

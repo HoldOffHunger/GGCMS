@@ -6,6 +6,7 @@
 	"dictionary_form": {"form": "infinitive"},
 	"skip_tags": ["table-tags", "inflection-template", "class", "auxiliary", "alternative", "subordinate-clause", "subjunctive", "subjunctive-i", "subjunctive-ii"],
 	"all_tables": true,
+	"prefer_first_verbs": ["abfahren", "aufstehen", "eilen", "fahren", "fliegen", "fliehen", "reiten", "rennen", "rollen", "zurücktreten"],
 	"slots": [
 		{"features": {"form": "infinitive"}, "tags": ["infinitive"], "without": ["infinitive-zu", "multiword-construction"]},
 		{"features": {"form": "done"}, "tags": ["participle", "past"]},
@@ -17,12 +18,12 @@
 		{"features": {"who": "you-all", "when": "now"}, "tags": ["second-person", "plural", "indicative", "present"]},
 		{"features": {"who": "they", "when": "now"}, "tags": ["third-person", "plural", "indicative", "present"]},
 
-		{"features": {"who": "i", "when": "before"}, "tags": ["first-person", "singular", "indicative", "perfect"], "split": true},
-		{"features": {"who": "you", "when": "before"}, "tags": ["second-person", "singular", "indicative", "perfect"], "split": true},
-		{"features": {"who": "she", "when": "before"}, "tags": ["third-person", "singular", "indicative", "perfect"], "split": true},
-		{"features": {"who": "we", "when": "before"}, "tags": ["first-person", "plural", "indicative", "perfect"], "split": true},
-		{"features": {"who": "you-all", "when": "before"}, "tags": ["second-person", "plural", "indicative", "perfect"], "split": true},
-		{"features": {"who": "they", "when": "before"}, "tags": ["third-person", "plural", "indicative", "perfect"], "split": true},
+		{"features": {"who": "i", "when": "before"}, "tags": ["first-person", "singular", "indicative", "perfect"], "split": true, "prefer_first": ["bin", "bist", "ist", "sind", "seid"]},
+		{"features": {"who": "you", "when": "before"}, "tags": ["second-person", "singular", "indicative", "perfect"], "split": true, "prefer_first": ["bin", "bist", "ist", "sind", "seid"]},
+		{"features": {"who": "she", "when": "before"}, "tags": ["third-person", "singular", "indicative", "perfect"], "split": true, "prefer_first": ["bin", "bist", "ist", "sind", "seid"]},
+		{"features": {"who": "we", "when": "before"}, "tags": ["first-person", "plural", "indicative", "perfect"], "split": true, "prefer_first": ["bin", "bist", "ist", "sind", "seid"]},
+		{"features": {"who": "you-all", "when": "before"}, "tags": ["second-person", "plural", "indicative", "perfect"], "split": true, "prefer_first": ["bin", "bist", "ist", "sind", "seid"]},
+		{"features": {"who": "they", "when": "before"}, "tags": ["third-person", "plural", "indicative", "perfect"], "split": true, "prefer_first": ["bin", "bist", "ist", "sind", "seid"]},
 
 		{"features": {"who": "i", "when": "before", "written": "yes"}, "tags": ["first-person", "singular", "indicative", "preterite"]},
 		{"features": {"who": "you", "when": "before", "written": "yes"}, "tags": ["second-person", "singular", "indicative", "preterite"]},
@@ -38,9 +39,9 @@
 		{"features": {"who": "you-all", "when": "later"}, "tags": ["second-person", "plural", "future-i", "indicative"], "split": true},
 		{"features": {"who": "they", "when": "later"}, "tags": ["third-person", "plural", "future-i", "indicative"], "split": true},
 
-		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "second-person", "singular"]},
+		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "second-person", "singular"], "lengthen_after": ["t", "d"]},
 		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "tags": ["first-person", "indicative", "plural", "present"], "shown": "{} Sie", "inside": true},
-		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "second-person", "singular"], "shown": "{} nicht", "inside": true},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "second-person", "singular"], "shown": "{} nicht", "inside": true, "lengthen_after": ["t", "d"]},
 		{"features": {"command": "yes", "who": "we"}, "tags": ["first-person", "indicative", "plural", "present"], "shown": "{} wir", "inside": true}
 	],
 

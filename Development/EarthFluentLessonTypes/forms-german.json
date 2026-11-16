@@ -12,12 +12,12 @@
 			{"form": "fahren ab", "features": {"who": "we", "when": "now"}},
 			{"form": "fahrt ab", "features": {"who": "you-all", "when": "now"}},
 			{"form": "fahren ab", "features": {"who": "they", "when": "now"}},
-			{"form": "habe abgefahren", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "abgefahren"},
-			{"form": "hast abgefahren", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "abgefahren"},
-			{"form": "hat abgefahren", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "abgefahren"},
-			{"form": "haben abgefahren", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "abgefahren"},
-			{"form": "habt abgefahren", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "abgefahren"},
-			{"form": "haben abgefahren", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "abgefahren"},
+			{"form": "bin abgefahren", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "abgefahren"},
+			{"form": "bist abgefahren", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "abgefahren"},
+			{"form": "ist abgefahren", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "abgefahren"},
+			{"form": "sind abgefahren", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "abgefahren"},
+			{"form": "seid abgefahren", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "abgefahren"},
+			{"form": "sind abgefahren", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "abgefahren"},
 			{"form": "fuhr ab", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "fuhrst ab", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "fuhr ab", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -702,9 +702,9 @@
 			{"form": "werden antworten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "antworten"},
 			{"form": "werdet antworten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "antworten"},
 			{"form": "werden antworten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "antworten"},
-			{"form": "antwort", "features": {"command": "yes", "who": "you"}},
+			{"form": "antworte", "features": {"command": "yes", "who": "you"}},
 			{"form": "antworten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "antworten Sie"},
-			{"form": "antwort", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "antwort nicht"},
+			{"form": "antworte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "antworte nicht"},
 			{"form": "antworten", "features": {"command": "yes", "who": "we"}, "shown": "antworten wir"}
 		],
 		"anweisen": [
@@ -862,9 +862,9 @@
 			{"form": "werden arbeiten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "arbeiten"},
 			{"form": "werdet arbeiten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "arbeiten"},
 			{"form": "werden arbeiten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "arbeiten"},
-			{"form": "arbeit", "features": {"command": "yes", "who": "you"}},
+			{"form": "arbeite", "features": {"command": "yes", "who": "you"}},
 			{"form": "arbeiten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "arbeiten Sie"},
-			{"form": "arbeit", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "arbeit nicht"},
+			{"form": "arbeite", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "arbeite nicht"},
 			{"form": "arbeiten", "features": {"command": "yes", "who": "we"}, "shown": "arbeiten wir"}
 		],
 		"argumentieren": [
@@ -1068,12 +1068,12 @@
 			{"form": "stehen auf", "features": {"who": "we", "when": "now"}},
 			{"form": "steht auf", "features": {"who": "you-all", "when": "now"}},
 			{"form": "stehen auf", "features": {"who": "they", "when": "now"}},
-			{"form": "habe aufgestanden", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "aufgestanden"},
-			{"form": "hast aufgestanden", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "aufgestanden"},
-			{"form": "hat aufgestanden", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "aufgestanden"},
-			{"form": "haben aufgestanden", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "aufgestanden"},
-			{"form": "habt aufgestanden", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "aufgestanden"},
-			{"form": "haben aufgestanden", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "aufgestanden"},
+			{"form": "bin aufgestanden", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "aufgestanden"},
+			{"form": "bist aufgestanden", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "aufgestanden"},
+			{"form": "ist aufgestanden", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "aufgestanden"},
+			{"form": "sind aufgestanden", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "aufgestanden"},
+			{"form": "seid aufgestanden", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "aufgestanden"},
+			{"form": "sind aufgestanden", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "aufgestanden"},
 			{"form": "stand auf", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "standest auf", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "stand auf", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -1470,9 +1470,9 @@
 			{"form": "werden beachten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "beachten"},
 			{"form": "werdet beachten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "beachten"},
 			{"form": "werden beachten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "beachten"},
-			{"form": "beacht", "features": {"command": "yes", "who": "you"}},
+			{"form": "beachte", "features": {"command": "yes", "who": "you"}},
 			{"form": "beachten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "beachten Sie"},
-			{"form": "beacht", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "beacht nicht"},
+			{"form": "beachte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "beachte nicht"},
 			{"form": "beachten", "features": {"command": "yes", "who": "we"}, "shown": "beachten wir"}
 		],
 		"bedecken": [
@@ -1534,9 +1534,9 @@
 			{"form": "werden bedeuten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "bedeuten"},
 			{"form": "werdet bedeuten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "bedeuten"},
 			{"form": "werden bedeuten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "bedeuten"},
-			{"form": "bedeut", "features": {"command": "yes", "who": "you"}},
+			{"form": "bedeute", "features": {"command": "yes", "who": "you"}},
 			{"form": "bedeuten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "bedeuten Sie"},
-			{"form": "bedeut", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bedeut nicht"},
+			{"form": "bedeute", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bedeute nicht"},
 			{"form": "bedeuten", "features": {"command": "yes", "who": "we"}, "shown": "bedeuten wir"}
 		],
 		"beeinflussen": [
@@ -1598,9 +1598,9 @@
 			{"form": "werden beenden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "beenden"},
 			{"form": "werdet beenden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "beenden"},
 			{"form": "werden beenden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "beenden"},
-			{"form": "beend", "features": {"command": "yes", "who": "you"}},
+			{"form": "beende", "features": {"command": "yes", "who": "you"}},
 			{"form": "beenden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "beenden Sie"},
-			{"form": "beend", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "beend nicht"},
+			{"form": "beende", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "beende nicht"},
 			{"form": "beenden", "features": {"command": "yes", "who": "we"}, "shown": "beenden wir"}
 		],
 		"befehlen": [
@@ -1726,9 +1726,9 @@
 			{"form": "werden begleiten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "begleiten"},
 			{"form": "werdet begleiten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "begleiten"},
 			{"form": "werden begleiten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "begleiten"},
-			{"form": "begleit", "features": {"command": "yes", "who": "you"}},
+			{"form": "begleite", "features": {"command": "yes", "who": "you"}},
 			{"form": "begleiten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "begleiten Sie"},
-			{"form": "begleit", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "begleit nicht"},
+			{"form": "begleite", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "begleite nicht"},
 			{"form": "begleiten", "features": {"command": "yes", "who": "we"}, "shown": "begleiten wir"}
 		],
 		"begraben": [
@@ -1790,9 +1790,9 @@
 			{"form": "werden behalten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "behalten"},
 			{"form": "werdet behalten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "behalten"},
 			{"form": "werden behalten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "behalten"},
-			{"form": "behalt", "features": {"command": "yes", "who": "you"}},
+			{"form": "behalte", "features": {"command": "yes", "who": "you"}},
 			{"form": "behalten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "behalten Sie"},
-			{"form": "behalt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "behalt nicht"},
+			{"form": "behalte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "behalte nicht"},
 			{"form": "behalten", "features": {"command": "yes", "who": "we"}, "shown": "behalten wir"}
 		],
 		"behaupten": [
@@ -1822,9 +1822,9 @@
 			{"form": "werden behaupten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "behaupten"},
 			{"form": "werdet behaupten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "behaupten"},
 			{"form": "werden behaupten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "behaupten"},
-			{"form": "behaupt", "features": {"command": "yes", "who": "you"}},
+			{"form": "behaupte", "features": {"command": "yes", "who": "you"}},
 			{"form": "behaupten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "behaupten Sie"},
-			{"form": "behaupt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "behaupt nicht"},
+			{"form": "behaupte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "behaupte nicht"},
 			{"form": "behaupten", "features": {"command": "yes", "who": "we"}, "shown": "behaupten wir"}
 		],
 		"beinhalten": [
@@ -1854,9 +1854,9 @@
 			{"form": "werden beinhalten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "beinhalten"},
 			{"form": "werdet beinhalten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "beinhalten"},
 			{"form": "werden beinhalten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "beinhalten"},
-			{"form": "beinhalt", "features": {"command": "yes", "who": "you"}},
+			{"form": "beinhalte", "features": {"command": "yes", "who": "you"}},
 			{"form": "beinhalten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "beinhalten Sie"},
-			{"form": "beinhalt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "beinhalt nicht"},
+			{"form": "beinhalte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "beinhalte nicht"},
 			{"form": "beinhalten", "features": {"command": "yes", "who": "we"}, "shown": "beinhalten wir"}
 		],
 		"beitragen": [
@@ -2110,9 +2110,9 @@
 			{"form": "werden beobachten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "beobachten"},
 			{"form": "werdet beobachten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "beobachten"},
 			{"form": "werden beobachten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "beobachten"},
-			{"form": "beobacht", "features": {"command": "yes", "who": "you"}},
+			{"form": "beobachte", "features": {"command": "yes", "who": "you"}},
 			{"form": "beobachten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "beobachten Sie"},
-			{"form": "beobacht", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "beobacht nicht"},
+			{"form": "beobachte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "beobachte nicht"},
 			{"form": "beobachten", "features": {"command": "yes", "who": "we"}, "shown": "beobachten wir"}
 		],
 		"beraten": [
@@ -2142,9 +2142,9 @@
 			{"form": "werden beraten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "beraten"},
 			{"form": "werdet beraten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "beraten"},
 			{"form": "werden beraten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "beraten"},
-			{"form": "berat", "features": {"command": "yes", "who": "you"}},
+			{"form": "berate", "features": {"command": "yes", "who": "you"}},
 			{"form": "beraten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "beraten Sie"},
-			{"form": "berat", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "berat nicht"},
+			{"form": "berate", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "berate nicht"},
 			{"form": "beraten", "features": {"command": "yes", "who": "we"}, "shown": "beraten wir"}
 		],
 		"berechnen": [
@@ -2206,9 +2206,9 @@
 			{"form": "werden bereiten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "bereiten"},
 			{"form": "werdet bereiten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "bereiten"},
 			{"form": "werden bereiten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "bereiten"},
-			{"form": "bereit", "features": {"command": "yes", "who": "you"}},
+			{"form": "bereite", "features": {"command": "yes", "who": "you"}},
 			{"form": "bereiten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "bereiten Sie"},
-			{"form": "bereit", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bereit nicht"},
+			{"form": "bereite", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bereite nicht"},
 			{"form": "bereiten", "features": {"command": "yes", "who": "we"}, "shown": "bereiten wir"}
 		],
 		"berühren": [
@@ -2686,9 +2686,9 @@
 			{"form": "werden beten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "beten"},
 			{"form": "werdet beten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "beten"},
 			{"form": "werden beten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "beten"},
-			{"form": "bet", "features": {"command": "yes", "who": "you"}},
+			{"form": "bete", "features": {"command": "yes", "who": "you"}},
 			{"form": "beten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "beten Sie"},
-			{"form": "bet", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bet nicht"},
+			{"form": "bete", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bete nicht"},
 			{"form": "beten", "features": {"command": "yes", "who": "we"}, "shown": "beten wir"}
 		],
 		"betonen": [
@@ -2750,9 +2750,9 @@
 			{"form": "werden betrachten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "betrachten"},
 			{"form": "werdet betrachten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "betrachten"},
 			{"form": "werden betrachten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "betrachten"},
-			{"form": "betracht", "features": {"command": "yes", "who": "you"}},
+			{"form": "betrachte", "features": {"command": "yes", "who": "you"}},
 			{"form": "betrachten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "betrachten Sie"},
-			{"form": "betracht", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "betracht nicht"},
+			{"form": "betrachte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "betrachte nicht"},
 			{"form": "betrachten", "features": {"command": "yes", "who": "we"}, "shown": "betrachten wir"}
 		],
 		"beurteilen": [
@@ -3038,9 +3038,9 @@
 			{"form": "werden binden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "binden"},
 			{"form": "werdet binden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "binden"},
 			{"form": "werden binden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "binden"},
-			{"form": "bind", "features": {"command": "yes", "who": "you"}},
+			{"form": "binde", "features": {"command": "yes", "who": "you"}},
 			{"form": "binden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "binden Sie"},
-			{"form": "bind", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bind nicht"},
+			{"form": "binde", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "binde nicht"},
 			{"form": "binden", "features": {"command": "yes", "who": "we"}, "shown": "binden wir"}
 		],
 		"bitten": [
@@ -3070,9 +3070,9 @@
 			{"form": "werden bitten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "bitten"},
 			{"form": "werdet bitten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "bitten"},
 			{"form": "werden bitten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "bitten"},
-			{"form": "bitt", "features": {"command": "yes", "who": "you"}},
+			{"form": "bitte", "features": {"command": "yes", "who": "you"}},
 			{"form": "bitten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "bitten Sie"},
-			{"form": "bitt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bitt nicht"},
+			{"form": "bitte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bitte nicht"},
 			{"form": "bitten", "features": {"command": "yes", "who": "we"}, "shown": "bitten wir"}
 		],
 		"bleiben": [
@@ -3326,9 +3326,9 @@
 			{"form": "werden bürsten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "bürsten"},
 			{"form": "werdet bürsten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "bürsten"},
 			{"form": "werden bürsten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "bürsten"},
-			{"form": "bürst", "features": {"command": "yes", "who": "you"}},
+			{"form": "bürste", "features": {"command": "yes", "who": "you"}},
 			{"form": "bürsten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "bürsten Sie"},
-			{"form": "bürst", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bürst nicht"},
+			{"form": "bürste", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "bürste nicht"},
 			{"form": "bürsten", "features": {"command": "yes", "who": "we"}, "shown": "bürsten wir"}
 		],
 		"danken": [
@@ -3390,9 +3390,9 @@
 			{"form": "werden daten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "daten"},
 			{"form": "werdet daten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "daten"},
 			{"form": "werden daten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "daten"},
-			{"form": "dat", "features": {"command": "yes", "who": "you"}},
+			{"form": "date", "features": {"command": "yes", "who": "you"}},
 			{"form": "daten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "daten Sie"},
-			{"form": "dat", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "dat nicht"},
+			{"form": "date", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "date nicht"},
 			{"form": "daten", "features": {"command": "yes", "who": "we"}, "shown": "daten wir"}
 		],
 		"definieren": [
@@ -3692,12 +3692,12 @@
 			{"form": "eilen", "features": {"who": "we", "when": "now"}},
 			{"form": "eilt", "features": {"who": "you-all", "when": "now"}},
 			{"form": "eilen", "features": {"who": "they", "when": "now"}},
-			{"form": "habe geeilt", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "geeilt"},
-			{"form": "hast geeilt", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "geeilt"},
-			{"form": "hat geeilt", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "geeilt"},
-			{"form": "haben geeilt", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "geeilt"},
-			{"form": "habt geeilt", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "geeilt"},
-			{"form": "haben geeilt", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "geeilt"},
+			{"form": "bin geeilt", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "geeilt"},
+			{"form": "bist geeilt", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "geeilt"},
+			{"form": "ist geeilt", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "geeilt"},
+			{"form": "sind geeilt", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "geeilt"},
+			{"form": "seid geeilt", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "geeilt"},
+			{"form": "sind geeilt", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "geeilt"},
 			{"form": "eilte", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "eiltest", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "eilte", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -4062,9 +4062,9 @@
 			{"form": "werden enthalten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "enthalten"},
 			{"form": "werdet enthalten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "enthalten"},
 			{"form": "werden enthalten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "enthalten"},
-			{"form": "enthalt", "features": {"command": "yes", "who": "you"}},
+			{"form": "enthalte", "features": {"command": "yes", "who": "you"}},
 			{"form": "enthalten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "enthalten Sie"},
-			{"form": "enthalt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "enthalt nicht"},
+			{"form": "enthalte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "enthalte nicht"},
 			{"form": "enthalten", "features": {"command": "yes", "who": "we"}, "shown": "enthalten wir"}
 		],
 		"entkommen": [
@@ -4126,9 +4126,9 @@
 			{"form": "werden entscheiden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "entscheiden"},
 			{"form": "werdet entscheiden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "entscheiden"},
 			{"form": "werden entscheiden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "entscheiden"},
-			{"form": "entscheid", "features": {"command": "yes", "who": "you"}},
+			{"form": "entscheide", "features": {"command": "yes", "who": "you"}},
 			{"form": "entscheiden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "entscheiden Sie"},
-			{"form": "entscheid", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "entscheid nicht"},
+			{"form": "entscheide", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "entscheide nicht"},
 			{"form": "entscheiden", "features": {"command": "yes", "who": "we"}, "shown": "entscheiden wir"}
 		],
 		"entstehen": [
@@ -4254,9 +4254,9 @@
 			{"form": "werden erfinden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "erfinden"},
 			{"form": "werdet erfinden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "erfinden"},
 			{"form": "werden erfinden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "erfinden"},
-			{"form": "erfind", "features": {"command": "yes", "who": "you"}},
+			{"form": "erfinde", "features": {"command": "yes", "who": "you"}},
 			{"form": "erfinden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "erfinden Sie"},
-			{"form": "erfind", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "erfind nicht"},
+			{"form": "erfinde", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "erfinde nicht"},
 			{"form": "erfinden", "features": {"command": "yes", "who": "we"}, "shown": "erfinden wir"}
 		],
 		"erfordern": [
@@ -4382,9 +4382,9 @@
 			{"form": "werden erhalten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "erhalten"},
 			{"form": "werdet erhalten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "erhalten"},
 			{"form": "werden erhalten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "erhalten"},
-			{"form": "erhalt", "features": {"command": "yes", "who": "you"}},
+			{"form": "erhalte", "features": {"command": "yes", "who": "you"}},
 			{"form": "erhalten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "erhalten Sie"},
-			{"form": "erhalt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "erhalt nicht"},
+			{"form": "erhalte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "erhalte nicht"},
 			{"form": "erhalten", "features": {"command": "yes", "who": "we"}, "shown": "erhalten wir"}
 		],
 		"erholen": [
@@ -4574,9 +4574,9 @@
 			{"form": "werden ermorden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "ermorden"},
 			{"form": "werdet ermorden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "ermorden"},
 			{"form": "werden ermorden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "ermorden"},
-			{"form": "ermord", "features": {"command": "yes", "who": "you"}},
+			{"form": "ermorde", "features": {"command": "yes", "who": "you"}},
 			{"form": "ermorden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "ermorden Sie"},
-			{"form": "ermord", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "ermord nicht"},
+			{"form": "ermorde", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "ermorde nicht"},
 			{"form": "ermorden", "features": {"command": "yes", "who": "we"}, "shown": "ermorden wir"}
 		],
 		"ermutigen": [
@@ -5068,12 +5068,12 @@
 			{"form": "fahren", "features": {"who": "we", "when": "now"}},
 			{"form": "fahrt", "features": {"who": "you-all", "when": "now"}},
 			{"form": "fahren", "features": {"who": "they", "when": "now"}},
-			{"form": "habe gefahren", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "gefahren"},
-			{"form": "hast gefahren", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "gefahren"},
-			{"form": "hat gefahren", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "gefahren"},
-			{"form": "haben gefahren", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "gefahren"},
-			{"form": "habt gefahren", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "gefahren"},
-			{"form": "haben gefahren", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "gefahren"},
+			{"form": "bin gefahren", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "gefahren"},
+			{"form": "bist gefahren", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "gefahren"},
+			{"form": "ist gefahren", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "gefahren"},
+			{"form": "sind gefahren", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "gefahren"},
+			{"form": "seid gefahren", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "gefahren"},
+			{"form": "sind gefahren", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "gefahren"},
 			{"form": "fuhr", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "fuhrst", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "fuhr", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -5342,9 +5342,9 @@
 			{"form": "werden finden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "finden"},
 			{"form": "werdet finden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "finden"},
 			{"form": "werden finden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "finden"},
-			{"form": "find", "features": {"command": "yes", "who": "you"}},
+			{"form": "finde", "features": {"command": "yes", "who": "you"}},
 			{"form": "finden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "finden Sie"},
-			{"form": "find", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "find nicht"},
+			{"form": "finde", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "finde nicht"},
 			{"form": "finden", "features": {"command": "yes", "who": "we"}, "shown": "finden wir"}
 		],
 		"fliegen": [
@@ -5356,12 +5356,12 @@
 			{"form": "fliegen", "features": {"who": "we", "when": "now"}},
 			{"form": "fliegt", "features": {"who": "you-all", "when": "now"}},
 			{"form": "fliegen", "features": {"who": "they", "when": "now"}},
-			{"form": "habe geflogen", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "geflogen"},
-			{"form": "hast geflogen", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "geflogen"},
-			{"form": "hat geflogen", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "geflogen"},
-			{"form": "haben geflogen", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "geflogen"},
-			{"form": "habt geflogen", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "geflogen"},
-			{"form": "haben geflogen", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "geflogen"},
+			{"form": "bin geflogen", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "geflogen"},
+			{"form": "bist geflogen", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "geflogen"},
+			{"form": "ist geflogen", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "geflogen"},
+			{"form": "sind geflogen", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "geflogen"},
+			{"form": "seid geflogen", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "geflogen"},
+			{"form": "sind geflogen", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "geflogen"},
 			{"form": "flog", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "flogst", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "flog", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -5388,12 +5388,12 @@
 			{"form": "fliehen", "features": {"who": "we", "when": "now"}},
 			{"form": "flieht", "features": {"who": "you-all", "when": "now"}},
 			{"form": "fliehen", "features": {"who": "they", "when": "now"}},
-			{"form": "habe geflohen", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "geflohen"},
-			{"form": "hast geflohen", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "geflohen"},
-			{"form": "hat geflohen", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "geflohen"},
-			{"form": "haben geflohen", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "geflohen"},
-			{"form": "habt geflohen", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "geflohen"},
-			{"form": "haben geflohen", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "geflohen"},
+			{"form": "bin geflohen", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "geflohen"},
+			{"form": "bist geflohen", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "geflohen"},
+			{"form": "ist geflohen", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "geflohen"},
+			{"form": "sind geflohen", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "geflohen"},
+			{"form": "seid geflohen", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "geflohen"},
+			{"form": "sind geflohen", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "geflohen"},
 			{"form": "floh", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "flohst", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "floh", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -5726,9 +5726,9 @@
 			{"form": "werden fürchten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "fürchten"},
 			{"form": "werdet fürchten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "fürchten"},
 			{"form": "werden fürchten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "fürchten"},
-			{"form": "fürcht", "features": {"command": "yes", "who": "you"}},
+			{"form": "fürchte", "features": {"command": "yes", "who": "you"}},
 			{"form": "fürchten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "fürchten Sie"},
-			{"form": "fürcht", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "fürcht nicht"},
+			{"form": "fürchte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "fürchte nicht"},
 			{"form": "fürchten", "features": {"command": "yes", "who": "we"}, "shown": "fürchten wir"}
 		],
 		"füttern": [
@@ -6238,9 +6238,9 @@
 			{"form": "werden gleiten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "gleiten"},
 			{"form": "werdet gleiten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "gleiten"},
 			{"form": "werden gleiten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "gleiten"},
-			{"form": "gleit", "features": {"command": "yes", "who": "you"}},
+			{"form": "gleite", "features": {"command": "yes", "who": "you"}},
 			{"form": "gleiten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "gleiten Sie"},
-			{"form": "gleit", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "gleit nicht"},
+			{"form": "gleite", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "gleite nicht"},
 			{"form": "gleiten", "features": {"command": "yes", "who": "we"}, "shown": "gleiten wir"}
 		],
 		"graben": [
@@ -6334,9 +6334,9 @@
 			{"form": "werden gründen", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "gründen"},
 			{"form": "werdet gründen", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "gründen"},
 			{"form": "werden gründen", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "gründen"},
-			{"form": "gründ", "features": {"command": "yes", "who": "you"}},
+			{"form": "gründe", "features": {"command": "yes", "who": "you"}},
 			{"form": "gründen", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "gründen Sie"},
-			{"form": "gründ", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "gründ nicht"},
+			{"form": "gründe", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "gründe nicht"},
 			{"form": "gründen", "features": {"command": "yes", "who": "we"}, "shown": "gründen wir"}
 		],
 		"grüßen": [
@@ -6430,9 +6430,9 @@
 			{"form": "werden halten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "halten"},
 			{"form": "werdet halten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "halten"},
 			{"form": "werden halten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "halten"},
-			{"form": "halt", "features": {"command": "yes", "who": "you"}},
+			{"form": "halte", "features": {"command": "yes", "who": "you"}},
 			{"form": "halten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "halten Sie"},
-			{"form": "halt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "halt nicht"},
+			{"form": "halte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "halte nicht"},
 			{"form": "halten", "features": {"command": "yes", "who": "we"}, "shown": "halten wir"}
 		],
 		"handeln": [
@@ -6590,9 +6590,9 @@
 			{"form": "werden heiraten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "heiraten"},
 			{"form": "werdet heiraten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "heiraten"},
 			{"form": "werden heiraten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "heiraten"},
-			{"form": "heirat", "features": {"command": "yes", "who": "you"}},
+			{"form": "heirate", "features": {"command": "yes", "who": "you"}},
 			{"form": "heiraten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "heiraten Sie"},
-			{"form": "heirat", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "heirat nicht"},
+			{"form": "heirate", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "heirate nicht"},
 			{"form": "heiraten", "features": {"command": "yes", "who": "we"}, "shown": "heiraten wir"}
 		],
 		"helfen": [
@@ -7998,9 +7998,9 @@
 			{"form": "werden leiden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "leiden"},
 			{"form": "werdet leiden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "leiden"},
 			{"form": "werden leiden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "leiden"},
-			{"form": "leid", "features": {"command": "yes", "who": "you"}},
+			{"form": "leide", "features": {"command": "yes", "who": "you"}},
 			{"form": "leiden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "leiden Sie"},
-			{"form": "leid", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "leid nicht"},
+			{"form": "leide", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "leide nicht"},
 			{"form": "leiden", "features": {"command": "yes", "who": "we"}, "shown": "leiden wir"}
 		],
 		"leihen": [
@@ -8510,9 +8510,9 @@
 			{"form": "werden mieten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "mieten"},
 			{"form": "werdet mieten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "mieten"},
 			{"form": "werden mieten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "mieten"},
-			{"form": "miet", "features": {"command": "yes", "who": "you"}},
+			{"form": "miete", "features": {"command": "yes", "who": "you"}},
 			{"form": "mieten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "mieten Sie"},
-			{"form": "miet", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "miet nicht"},
+			{"form": "miete", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "miete nicht"},
 			{"form": "mieten", "features": {"command": "yes", "who": "we"}, "shown": "mieten wir"}
 		],
 		"mischen": [
@@ -9258,12 +9258,12 @@
 			{"form": "reiten", "features": {"who": "we", "when": "now"}},
 			{"form": "reitet", "features": {"who": "you-all", "when": "now"}},
 			{"form": "reiten", "features": {"who": "they", "when": "now"}},
-			{"form": "habe geritten", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "geritten"},
-			{"form": "hast geritten", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "geritten"},
-			{"form": "hat geritten", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "geritten"},
-			{"form": "haben geritten", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "geritten"},
-			{"form": "habt geritten", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "geritten"},
-			{"form": "haben geritten", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "geritten"},
+			{"form": "bin geritten", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "geritten"},
+			{"form": "bist geritten", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "geritten"},
+			{"form": "ist geritten", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "geritten"},
+			{"form": "sind geritten", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "geritten"},
+			{"form": "seid geritten", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "geritten"},
+			{"form": "sind geritten", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "geritten"},
 			{"form": "ritt", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "rittest", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "ritt", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -9276,9 +9276,9 @@
 			{"form": "werden reiten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "reiten"},
 			{"form": "werdet reiten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "reiten"},
 			{"form": "werden reiten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "reiten"},
-			{"form": "reit", "features": {"command": "yes", "who": "you"}},
+			{"form": "reite", "features": {"command": "yes", "who": "you"}},
 			{"form": "reiten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "reiten Sie"},
-			{"form": "reit", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "reit nicht"},
+			{"form": "reite", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "reite nicht"},
 			{"form": "reiten", "features": {"command": "yes", "who": "we"}, "shown": "reiten wir"}
 		],
 		"reißen": [
@@ -9322,12 +9322,12 @@
 			{"form": "rennen", "features": {"who": "we", "when": "now"}},
 			{"form": "rennt", "features": {"who": "you-all", "when": "now"}},
 			{"form": "rennen", "features": {"who": "they", "when": "now"}},
-			{"form": "habe gerannt", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "gerannt"},
-			{"form": "hast gerannt", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "gerannt"},
-			{"form": "hat gerannt", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "gerannt"},
-			{"form": "haben gerannt", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "gerannt"},
-			{"form": "habt gerannt", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "gerannt"},
-			{"form": "haben gerannt", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "gerannt"},
+			{"form": "bin gerannt", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "gerannt"},
+			{"form": "bist gerannt", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "gerannt"},
+			{"form": "ist gerannt", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "gerannt"},
+			{"form": "sind gerannt", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "gerannt"},
+			{"form": "seid gerannt", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "gerannt"},
+			{"form": "sind gerannt", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "gerannt"},
 			{"form": "rannte", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "ranntest", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "rannte", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -9436,9 +9436,9 @@
 			{"form": "werden retten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "retten"},
 			{"form": "werdet retten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "retten"},
 			{"form": "werden retten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "retten"},
-			{"form": "rett", "features": {"command": "yes", "who": "you"}},
+			{"form": "rette", "features": {"command": "yes", "who": "you"}},
 			{"form": "retten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "retten Sie"},
-			{"form": "rett", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "rett nicht"},
+			{"form": "rette", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "rette nicht"},
 			{"form": "retten", "features": {"command": "yes", "who": "we"}, "shown": "retten wir"}
 		],
 		"richten": [
@@ -9468,9 +9468,9 @@
 			{"form": "werden richten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "richten"},
 			{"form": "werdet richten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "richten"},
 			{"form": "werden richten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "richten"},
-			{"form": "richt", "features": {"command": "yes", "who": "you"}},
+			{"form": "richte", "features": {"command": "yes", "who": "you"}},
 			{"form": "richten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "richten Sie"},
-			{"form": "richt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "richt nicht"},
+			{"form": "richte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "richte nicht"},
 			{"form": "richten", "features": {"command": "yes", "who": "we"}, "shown": "richten wir"}
 		],
 		"riechen": [
@@ -9514,12 +9514,12 @@
 			{"form": "rollen", "features": {"who": "we", "when": "now"}},
 			{"form": "rollt", "features": {"who": "you-all", "when": "now"}},
 			{"form": "rollen", "features": {"who": "they", "when": "now"}},
-			{"form": "habe gerollt", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "gerollt"},
-			{"form": "hast gerollt", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "gerollt"},
-			{"form": "hat gerollt", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "gerollt"},
-			{"form": "haben gerollt", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "gerollt"},
-			{"form": "habt gerollt", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "gerollt"},
-			{"form": "haben gerollt", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "gerollt"},
+			{"form": "bin gerollt", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "gerollt"},
+			{"form": "bist gerollt", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "gerollt"},
+			{"form": "ist gerollt", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "gerollt"},
+			{"form": "sind gerollt", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "gerollt"},
+			{"form": "seid gerollt", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "gerollt"},
+			{"form": "sind gerollt", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "gerollt"},
 			{"form": "rollte", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "rolltest", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "rollte", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -10044,9 +10044,9 @@
 			{"form": "werden schneiden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "schneiden"},
 			{"form": "werdet schneiden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "schneiden"},
 			{"form": "werden schneiden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "schneiden"},
-			{"form": "schneid", "features": {"command": "yes", "who": "you"}},
+			{"form": "schneide", "features": {"command": "yes", "who": "you"}},
 			{"form": "schneiden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "schneiden Sie"},
-			{"form": "schneid", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "schneid nicht"},
+			{"form": "schneide", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "schneide nicht"},
 			{"form": "schneiden", "features": {"command": "yes", "who": "we"}, "shown": "schneiden wir"}
 		],
 		"schnitzen": [
@@ -10588,9 +10588,9 @@
 			{"form": "werden spalten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "spalten"},
 			{"form": "werdet spalten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "spalten"},
 			{"form": "werden spalten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "spalten"},
-			{"form": "spalt", "features": {"command": "yes", "who": "you"}},
+			{"form": "spalte", "features": {"command": "yes", "who": "you"}},
 			{"form": "spalten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "spalten Sie"},
-			{"form": "spalt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "spalt nicht"},
+			{"form": "spalte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "spalte nicht"},
 			{"form": "spalten", "features": {"command": "yes", "who": "we"}, "shown": "spalten wir"}
 		],
 		"sperren": [
@@ -11292,9 +11292,9 @@
 			{"form": "werden testen", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "testen"},
 			{"form": "werdet testen", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "testen"},
 			{"form": "werden testen", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "testen"},
-			{"form": "test", "features": {"command": "yes", "who": "you"}},
+			{"form": "teste", "features": {"command": "yes", "who": "you"}},
 			{"form": "testen", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "testen Sie"},
-			{"form": "test", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "test nicht"},
+			{"form": "teste", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "teste nicht"},
 			{"form": "testen", "features": {"command": "yes", "who": "we"}, "shown": "testen wir"}
 		],
 		"tippen": [
@@ -11580,9 +11580,9 @@
 			{"form": "werden töten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "töten"},
 			{"form": "werdet töten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "töten"},
 			{"form": "werden töten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "töten"},
-			{"form": "töt", "features": {"command": "yes", "who": "you"}},
+			{"form": "töte", "features": {"command": "yes", "who": "you"}},
 			{"form": "töten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "töten Sie"},
-			{"form": "töt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "töt nicht"},
+			{"form": "töte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "töte nicht"},
 			{"form": "töten", "features": {"command": "yes", "who": "we"}, "shown": "töten wir"}
 		],
 		"umgeben": [
@@ -11644,9 +11644,9 @@
 			{"form": "werden unterscheiden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "unterscheiden"},
 			{"form": "werdet unterscheiden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "unterscheiden"},
 			{"form": "werden unterscheiden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "unterscheiden"},
-			{"form": "unterscheid", "features": {"command": "yes", "who": "you"}},
+			{"form": "unterscheide", "features": {"command": "yes", "who": "you"}},
 			{"form": "unterscheiden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "unterscheiden Sie"},
-			{"form": "unterscheid", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "unterscheid nicht"},
+			{"form": "unterscheide", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "unterscheide nicht"},
 			{"form": "unterscheiden", "features": {"command": "yes", "who": "we"}, "shown": "unterscheiden wir"}
 		],
 		"unterschreiben": [
@@ -11804,9 +11804,9 @@
 			{"form": "werden verbieten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verbieten"},
 			{"form": "werdet verbieten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verbieten"},
 			{"form": "werden verbieten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verbieten"},
-			{"form": "verbiet", "features": {"command": "yes", "who": "you"}},
+			{"form": "verbiete", "features": {"command": "yes", "who": "you"}},
 			{"form": "verbieten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verbieten Sie"},
-			{"form": "verbiet", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verbiet nicht"},
+			{"form": "verbiete", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verbiete nicht"},
 			{"form": "verbieten", "features": {"command": "yes", "who": "we"}, "shown": "verbieten wir"}
 		],
 		"verbinden": [
@@ -11836,9 +11836,9 @@
 			{"form": "werden verbinden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verbinden"},
 			{"form": "werdet verbinden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verbinden"},
 			{"form": "werden verbinden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verbinden"},
-			{"form": "verbind", "features": {"command": "yes", "who": "you"}},
+			{"form": "verbinde", "features": {"command": "yes", "who": "you"}},
 			{"form": "verbinden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verbinden Sie"},
-			{"form": "verbind", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verbind nicht"},
+			{"form": "verbinde", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verbinde nicht"},
 			{"form": "verbinden", "features": {"command": "yes", "who": "we"}, "shown": "verbinden wir"}
 		],
 		"verbreiten": [
@@ -11868,9 +11868,9 @@
 			{"form": "werden verbreiten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verbreiten"},
 			{"form": "werdet verbreiten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verbreiten"},
 			{"form": "werden verbreiten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verbreiten"},
-			{"form": "verbreit", "features": {"command": "yes", "who": "you"}},
+			{"form": "verbreite", "features": {"command": "yes", "who": "you"}},
 			{"form": "verbreiten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verbreiten Sie"},
-			{"form": "verbreit", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verbreit nicht"},
+			{"form": "verbreite", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verbreite nicht"},
 			{"form": "verbreiten", "features": {"command": "yes", "who": "we"}, "shown": "verbreiten wir"}
 		],
 		"verbringen": [
@@ -12156,9 +12156,9 @@
 			{"form": "werden verhaften", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verhaften"},
 			{"form": "werdet verhaften", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verhaften"},
 			{"form": "werden verhaften", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verhaften"},
-			{"form": "verhaft", "features": {"command": "yes", "who": "you"}},
+			{"form": "verhafte", "features": {"command": "yes", "who": "you"}},
 			{"form": "verhaften", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verhaften Sie"},
-			{"form": "verhaft", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verhaft nicht"},
+			{"form": "verhafte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verhafte nicht"},
 			{"form": "verhaften", "features": {"command": "yes", "who": "we"}, "shown": "verhaften wir"}
 		],
 		"verhandeln": [
@@ -12412,9 +12412,9 @@
 			{"form": "werden vermeiden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "vermeiden"},
 			{"form": "werdet vermeiden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "vermeiden"},
 			{"form": "werden vermeiden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "vermeiden"},
-			{"form": "vermeid", "features": {"command": "yes", "who": "you"}},
+			{"form": "vermeide", "features": {"command": "yes", "who": "you"}},
 			{"form": "vermeiden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "vermeiden Sie"},
-			{"form": "vermeid", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "vermeid nicht"},
+			{"form": "vermeide", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "vermeide nicht"},
 			{"form": "vermeiden", "features": {"command": "yes", "who": "we"}, "shown": "vermeiden wir"}
 		],
 		"vermissen": [
@@ -12476,9 +12476,9 @@
 			{"form": "werden vermuten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "vermuten"},
 			{"form": "werdet vermuten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "vermuten"},
 			{"form": "werden vermuten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "vermuten"},
-			{"form": "vermut", "features": {"command": "yes", "who": "you"}},
+			{"form": "vermute", "features": {"command": "yes", "who": "you"}},
 			{"form": "vermuten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "vermuten Sie"},
-			{"form": "vermut", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "vermut nicht"},
+			{"form": "vermute", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "vermute nicht"},
 			{"form": "vermuten", "features": {"command": "yes", "who": "we"}, "shown": "vermuten wir"}
 		],
 		"verpflichten": [
@@ -12508,9 +12508,9 @@
 			{"form": "werden verpflichten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verpflichten"},
 			{"form": "werdet verpflichten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verpflichten"},
 			{"form": "werden verpflichten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verpflichten"},
-			{"form": "verpflicht", "features": {"command": "yes", "who": "you"}},
+			{"form": "verpflichte", "features": {"command": "yes", "who": "you"}},
 			{"form": "verpflichten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verpflichten Sie"},
-			{"form": "verpflicht", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verpflicht nicht"},
+			{"form": "verpflichte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verpflichte nicht"},
 			{"form": "verpflichten", "features": {"command": "yes", "who": "we"}, "shown": "verpflichten wir"}
 		],
 		"verraten": [
@@ -12540,9 +12540,9 @@
 			{"form": "werden verraten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verraten"},
 			{"form": "werdet verraten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verraten"},
 			{"form": "werden verraten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verraten"},
-			{"form": "verrat", "features": {"command": "yes", "who": "you"}},
+			{"form": "verrate", "features": {"command": "yes", "who": "you"}},
 			{"form": "verraten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verraten Sie"},
-			{"form": "verrat", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verrat nicht"},
+			{"form": "verrate", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verrate nicht"},
 			{"form": "verraten", "features": {"command": "yes", "who": "we"}, "shown": "verraten wir"}
 		],
 		"versammeln": [
@@ -12604,9 +12604,9 @@
 			{"form": "werden verschwenden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verschwenden"},
 			{"form": "werdet verschwenden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verschwenden"},
 			{"form": "werden verschwenden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verschwenden"},
-			{"form": "verschwend", "features": {"command": "yes", "who": "you"}},
+			{"form": "verschwende", "features": {"command": "yes", "who": "you"}},
 			{"form": "verschwenden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verschwenden Sie"},
-			{"form": "verschwend", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verschwend nicht"},
+			{"form": "verschwende", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verschwende nicht"},
 			{"form": "verschwenden", "features": {"command": "yes", "who": "we"}, "shown": "verschwenden wir"}
 		],
 		"verschwinden": [
@@ -12636,9 +12636,9 @@
 			{"form": "werden verschwinden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verschwinden"},
 			{"form": "werdet verschwinden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verschwinden"},
 			{"form": "werden verschwinden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verschwinden"},
-			{"form": "verschwind", "features": {"command": "yes", "who": "you"}},
+			{"form": "verschwinde", "features": {"command": "yes", "who": "you"}},
 			{"form": "verschwinden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verschwinden Sie"},
-			{"form": "verschwind", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verschwind nicht"},
+			{"form": "verschwinde", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verschwinde nicht"},
 			{"form": "verschwinden", "features": {"command": "yes", "who": "we"}, "shown": "verschwinden wir"}
 		],
 		"verschütten": [
@@ -12668,9 +12668,9 @@
 			{"form": "werden verschütten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verschütten"},
 			{"form": "werdet verschütten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verschütten"},
 			{"form": "werden verschütten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verschütten"},
-			{"form": "verschütt", "features": {"command": "yes", "who": "you"}},
+			{"form": "verschütte", "features": {"command": "yes", "who": "you"}},
 			{"form": "verschütten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verschütten Sie"},
-			{"form": "verschütt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verschütt nicht"},
+			{"form": "verschütte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verschütte nicht"},
 			{"form": "verschütten", "features": {"command": "yes", "who": "we"}, "shown": "verschütten wir"}
 		],
 		"versichern": [
@@ -13020,9 +13020,9 @@
 			{"form": "werden verwalten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "verwalten"},
 			{"form": "werdet verwalten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "verwalten"},
 			{"form": "werden verwalten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "verwalten"},
-			{"form": "verwalt", "features": {"command": "yes", "who": "you"}},
+			{"form": "verwalte", "features": {"command": "yes", "who": "you"}},
 			{"form": "verwalten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "verwalten Sie"},
-			{"form": "verwalt", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verwalt nicht"},
+			{"form": "verwalte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "verwalte nicht"},
 			{"form": "verwalten", "features": {"command": "yes", "who": "we"}, "shown": "verwalten wir"}
 		],
 		"verwandeln": [
@@ -13436,9 +13436,9 @@
 			{"form": "werden warten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "warten"},
 			{"form": "werdet warten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "warten"},
 			{"form": "werden warten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "warten"},
-			{"form": "wart", "features": {"command": "yes", "who": "you"}},
+			{"form": "warte", "features": {"command": "yes", "who": "you"}},
 			{"form": "warten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "warten Sie"},
-			{"form": "wart", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "wart nicht"},
+			{"form": "warte", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "warte nicht"},
 			{"form": "warten", "features": {"command": "yes", "who": "we"}, "shown": "warten wir"}
 		],
 		"waschen": [
@@ -13532,9 +13532,9 @@
 			{"form": "werden werden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "werden"},
 			{"form": "werdet werden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "werden"},
 			{"form": "werden werden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "werden"},
-			{"form": "werd", "features": {"command": "yes", "who": "you"}},
+			{"form": "werde", "features": {"command": "yes", "who": "you"}},
 			{"form": "werden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "werden Sie"},
-			{"form": "werd", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "werd nicht"},
+			{"form": "werde", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "werde nicht"},
 			{"form": "werden", "features": {"command": "yes", "who": "we"}, "shown": "werden wir"}
 		],
 		"werfen": [
@@ -13596,9 +13596,9 @@
 			{"form": "werden wetten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "wetten"},
 			{"form": "werdet wetten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "wetten"},
 			{"form": "werden wetten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "wetten"},
-			{"form": "wett", "features": {"command": "yes", "who": "you"}},
+			{"form": "wette", "features": {"command": "yes", "who": "you"}},
 			{"form": "wetten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "wetten Sie"},
-			{"form": "wett", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "wett nicht"},
+			{"form": "wette", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "wette nicht"},
 			{"form": "wetten", "features": {"command": "yes", "who": "we"}, "shown": "wetten wir"}
 		],
 		"wickeln": [
@@ -14344,12 +14344,12 @@
 			{"form": "treten zurück", "features": {"who": "we", "when": "now"}},
 			{"form": "tretet zurück", "features": {"who": "you-all", "when": "now"}},
 			{"form": "treten zurück", "features": {"who": "they", "when": "now"}},
-			{"form": "habe zurückgetreten", "features": {"who": "i", "when": "before"}, "helper": "habe", "part": "zurückgetreten"},
-			{"form": "hast zurückgetreten", "features": {"who": "you", "when": "before"}, "helper": "hast", "part": "zurückgetreten"},
-			{"form": "hat zurückgetreten", "features": {"who": "she", "when": "before"}, "helper": "hat", "part": "zurückgetreten"},
-			{"form": "haben zurückgetreten", "features": {"who": "we", "when": "before"}, "helper": "haben", "part": "zurückgetreten"},
-			{"form": "habt zurückgetreten", "features": {"who": "you-all", "when": "before"}, "helper": "habt", "part": "zurückgetreten"},
-			{"form": "haben zurückgetreten", "features": {"who": "they", "when": "before"}, "helper": "haben", "part": "zurückgetreten"},
+			{"form": "bin zurückgetreten", "features": {"who": "i", "when": "before"}, "helper": "bin", "part": "zurückgetreten"},
+			{"form": "bist zurückgetreten", "features": {"who": "you", "when": "before"}, "helper": "bist", "part": "zurückgetreten"},
+			{"form": "ist zurückgetreten", "features": {"who": "she", "when": "before"}, "helper": "ist", "part": "zurückgetreten"},
+			{"form": "sind zurückgetreten", "features": {"who": "we", "when": "before"}, "helper": "sind", "part": "zurückgetreten"},
+			{"form": "seid zurückgetreten", "features": {"who": "you-all", "when": "before"}, "helper": "seid", "part": "zurückgetreten"},
+			{"form": "sind zurückgetreten", "features": {"who": "they", "when": "before"}, "helper": "sind", "part": "zurückgetreten"},
 			{"form": "trat zurück", "features": {"who": "i", "when": "before", "written": "yes"}},
 			{"form": "tratest zurück", "features": {"who": "you", "when": "before", "written": "yes"}},
 			{"form": "trat zurück", "features": {"who": "she", "when": "before", "written": "yes"}},
@@ -14650,9 +14650,9 @@
 			{"form": "werden überschreiten", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "überschreiten"},
 			{"form": "werdet überschreiten", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "überschreiten"},
 			{"form": "werden überschreiten", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "überschreiten"},
-			{"form": "überschreit", "features": {"command": "yes", "who": "you"}},
+			{"form": "überschreite", "features": {"command": "yes", "who": "you"}},
 			{"form": "überschreiten", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "überschreiten Sie"},
-			{"form": "überschreit", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "überschreit nicht"},
+			{"form": "überschreite", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "überschreite nicht"},
 			{"form": "überschreiten", "features": {"command": "yes", "who": "we"}, "shown": "überschreiten wir"}
 		],
 		"übertragen": [
@@ -14746,9 +14746,9 @@
 			{"form": "werden überwinden", "features": {"who": "we", "when": "later"}, "helper": "werden", "part": "überwinden"},
 			{"form": "werdet überwinden", "features": {"who": "you-all", "when": "later"}, "helper": "werdet", "part": "überwinden"},
 			{"form": "werden überwinden", "features": {"who": "they", "when": "later"}, "helper": "werden", "part": "überwinden"},
-			{"form": "überwind", "features": {"command": "yes", "who": "you"}},
+			{"form": "überwinde", "features": {"command": "yes", "who": "you"}},
 			{"form": "überwinden", "features": {"command": "yes", "who": "you", "polite": "yes"}, "shown": "überwinden Sie"},
-			{"form": "überwind", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "überwind nicht"},
+			{"form": "überwinde", "features": {"command": "yes", "who": "you", "not": "yes"}, "shown": "überwinde nicht"},
 			{"form": "überwinden", "features": {"command": "yes", "who": "we"}, "shown": "überwinden wir"}
 		],
 		"überzeugen": [

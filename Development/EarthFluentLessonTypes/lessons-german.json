@@ -592,11 +592,11 @@
 				{"english": "I will arrive", "foreign": "ich werde ankommen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "ankommen", "features": {"who": "i", "when": "later"}},
 				{"english": "She arrived", "foreign": "sie ist angekommen", "mark": [{"text": "ist", "role": "helper word"}, {"text": "angekommen", "role": "ending"}], "base": "ankommen", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 48, "verb": "aufstehen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe aufgestanden. For later, a form of werden goes in front: ich werde aufstehen. Aufstehen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
+		{"job": "when", "part": 48, "verb": "aufstehen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich bin aufgestanden. For later, a form of werden goes in front: ich werde aufstehen. Aufstehen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
 				{"english": "I get up", "foreign": "ich stehe auf", "mark": [{"text": "auf", "role": "word order"}], "base": "aufstehen", "features": {"who": "i", "when": "now"}},
-				{"english": "I got up", "foreign": "ich habe aufgestanden", "mark": [{"text": "habe", "role": "helper word"}, {"text": "aufgestanden", "role": "ending"}], "from": 1, "base": "aufstehen", "features": {"who": "i", "when": "before"}},
+				{"english": "I got up", "foreign": "ich bin aufgestanden", "mark": [{"text": "bin", "role": "helper word"}, {"text": "aufgestanden", "role": "ending"}], "from": 1, "base": "aufstehen", "features": {"who": "i", "when": "before"}},
 				{"english": "I will get up", "foreign": "ich werde aufstehen", "mark": [{"text": "werde", "role": "helper word"}], "from": 1, "base": "aufstehen", "features": {"who": "i", "when": "later"}},
-				{"english": "She got up", "foreign": "sie hat aufgestanden", "mark": [{"text": "hat", "role": "helper word"}, {"text": "aufgestanden", "role": "ending"}], "base": "aufstehen", "features": {"who": "she", "when": "before"}}
+				{"english": "She got up", "foreign": "sie ist aufgestanden", "mark": [{"text": "ist", "role": "helper word"}, {"text": "aufgestanden", "role": "ending"}], "base": "aufstehen", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 49, "verb": "anrufen", "strategy": ["helper word", "ending", "word order"], "description": "For before, a form of haben or sein goes in front and the changed verb goes to the end: ich habe angerufen. For later, a form of werden goes in front: ich werde anrufen. Anrufen is a verb that splits in two: its front part goes to the end of the sentence, and joins up again where the whole verb is used.", "rows": [
 				{"english": "I phone", "foreign": "ich rufe an", "mark": [{"text": "an", "role": "word order"}], "base": "anrufen", "features": {"who": "i", "when": "now"}},
@@ -664,10 +664,10 @@
 				{"english": "Do not eat!", "foreign": "Iss nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "essen", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's eat!", "foreign": "Essen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "essen", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 9, "verb": "arbeiten", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Arbeit! To someone you would call Sie, the whole verb and then Sie: Arbeiten Sie! Telling a friend not to puts nicht after it: Arbeit nicht!", "rows": [
-				{"english": "Work!", "foreign": "Arbeit!", "base": "arbeiten", "features": {"command": "yes", "who": "you"}},
+		{"job": "command", "part": 9, "verb": "arbeiten", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Arbeite! To someone you would call Sie, the whole verb and then Sie: Arbeiten Sie! Telling a friend not to puts nicht after it: Arbeite nicht!", "rows": [
+				{"english": "Work!", "foreign": "Arbeite!", "base": "arbeiten", "features": {"command": "yes", "who": "you"}},
 				{"english": "Work! said politely", "foreign": "Arbeiten Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "arbeiten", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not work!", "foreign": "Arbeit nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "arbeiten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not work!", "foreign": "Arbeite nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "arbeiten", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's work!", "foreign": "Arbeiten wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "arbeiten", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 10, "verb": "denken", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Denk! To someone you would call Sie, the whole verb and then Sie: Denken Sie! Telling a friend not to puts nicht after it: Denk nicht!", "rows": [
@@ -712,10 +712,10 @@
 				{"english": "Do not look!", "foreign": "Schau nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "schauen", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's look!", "foreign": "Schauen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "schauen", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 17, "verb": "warten", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Wart! To someone you would call Sie, the whole verb and then Sie: Warten Sie! Telling a friend not to puts nicht after it: Wart nicht!", "rows": [
-				{"english": "Wait!", "foreign": "Wart!", "base": "warten", "features": {"command": "yes", "who": "you"}},
+		{"job": "command", "part": 17, "verb": "warten", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Warte! To someone you would call Sie, the whole verb and then Sie: Warten Sie! Telling a friend not to puts nicht after it: Warte nicht!", "rows": [
+				{"english": "Wait!", "foreign": "Warte!", "base": "warten", "features": {"command": "yes", "who": "you"}},
 				{"english": "Wait! said politely", "foreign": "Warten Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "warten", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not wait!", "foreign": "Wart nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "warten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not wait!", "foreign": "Warte nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "warten", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's wait!", "foreign": "Warten wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "warten", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 18, "verb": "suchen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Such! To someone you would call Sie, the whole verb and then Sie: Suchen Sie! Telling a friend not to puts nicht after it: Such nicht!", "rows": [
@@ -724,10 +724,10 @@
 				{"english": "Do not search!", "foreign": "Such nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "suchen", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's search!", "foreign": "Suchen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "suchen", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 19, "verb": "finden", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Find! To someone you would call Sie, the whole verb and then Sie: Finden Sie! Telling a friend not to puts nicht after it: Find nicht!", "rows": [
-				{"english": "Find!", "foreign": "Find!", "base": "finden", "features": {"command": "yes", "who": "you"}},
+		{"job": "command", "part": 19, "verb": "finden", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Finde! To someone you would call Sie, the whole verb and then Sie: Finden Sie! Telling a friend not to puts nicht after it: Finde nicht!", "rows": [
+				{"english": "Find!", "foreign": "Finde!", "base": "finden", "features": {"command": "yes", "who": "you"}},
 				{"english": "Find! said politely", "foreign": "Finden Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "finden", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not find!", "foreign": "Find nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "finden", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not find!", "foreign": "Finde nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "finden", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's find!", "foreign": "Finden wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "finden", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 20, "verb": "rufen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Ruf! To someone you would call Sie, the whole verb and then Sie: Rufen Sie! Telling a friend not to puts nicht after it: Ruf nicht!", "rows": [
@@ -742,10 +742,10 @@
 				{"english": "Do not begin!", "foreign": "Beginn nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "beginnen", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's begin!", "foreign": "Beginnen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "beginnen", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 22, "verb": "beenden", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Beend! To someone you would call Sie, the whole verb and then Sie: Beenden Sie! Telling a friend not to puts nicht after it: Beend nicht!", "rows": [
-				{"english": "Finish!", "foreign": "Beend!", "base": "beenden", "features": {"command": "yes", "who": "you"}},
+		{"job": "command", "part": 22, "verb": "beenden", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Beende! To someone you would call Sie, the whole verb and then Sie: Beenden Sie! Telling a friend not to puts nicht after it: Beende nicht!", "rows": [
+				{"english": "Finish!", "foreign": "Beende!", "base": "beenden", "features": {"command": "yes", "who": "you"}},
 				{"english": "Finish! said politely", "foreign": "Beenden Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "beenden", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not finish!", "foreign": "Beend nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "beenden", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not finish!", "foreign": "Beende nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "beenden", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's finish!", "foreign": "Beenden wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "beenden", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 23, "verb": "öffnen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Öffne! To someone you would call Sie, the whole verb and then Sie: Öffnen Sie! Telling a friend not to puts nicht after it: Öffne nicht!", "rows": [
@@ -832,10 +832,10 @@
 				{"english": "Do not ask!", "foreign": "Frag nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "fragen", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's ask!", "foreign": "Fragen wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "fragen", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 37, "verb": "antworten", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Antwort! To someone you would call Sie, the whole verb and then Sie: Antworten Sie! Telling a friend not to puts nicht after it: Antwort nicht!", "rows": [
-				{"english": "Answer!", "foreign": "Antwort!", "base": "antworten", "features": {"command": "yes", "who": "you"}},
+		{"job": "command", "part": 37, "verb": "antworten", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Antworte! To someone you would call Sie, the whole verb and then Sie: Antworten Sie! Telling a friend not to puts nicht after it: Antworte nicht!", "rows": [
+				{"english": "Answer!", "foreign": "Antworte!", "base": "antworten", "features": {"command": "yes", "who": "you"}},
 				{"english": "Answer! said politely", "foreign": "Antworten Sie!", "mark": [{"text": "Sie", "role": "helper word"}], "base": "antworten", "features": {"command": "yes", "who": "you", "polite": "yes"}},
-				{"english": "Do not answer!", "foreign": "Antwort nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "antworten", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not answer!", "foreign": "Antworte nicht!", "mark": [{"text": "nicht", "role": "helper word"}], "from": 1, "base": "antworten", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's answer!", "foreign": "Antworten wir!", "mark": [{"text": "wir", "role": "helper word"}], "base": "antworten", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 40, "verb": "bestellen", "strategy": ["helper word"], "description": "To a friend, the verb comes first and stands short: Bestell! To someone you would call Sie, the whole verb and then Sie: Bestellen Sie! Telling a friend not to puts nicht after it: Bestell nicht!", "rows": [

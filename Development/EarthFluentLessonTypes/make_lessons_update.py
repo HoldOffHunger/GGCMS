@@ -11,8 +11,9 @@ against, the ids of what differs. Fumiko's ids and prod's are not promised to ma
     (printf '<the header below>\\n'; cat rows) > lessons-update-spanish.tsv
     import_entries.php earthfluent.com --file=lessons-update-spanish.tsv --user=ADMIN --limit=0 [--apply --keep-cache]
 
-What it carries: a word's English, its translation, a lesson's description, and a lesson that is gone (its words are
-deleted, then the lesson). It does not move a word's lit pieces: a change that needs that says so and is left out.
+What it carries: a word's English, its translation, a lit piece that now says something else (habe to bin), a lesson's
+description, and a lesson that is gone (its words are deleted, then the lesson). A row that gained or lost a lit piece is
+not carried: it says so and is left out.
 """
 import json
 import sys
@@ -21,7 +22,8 @@ from pathlib import Path
 from make_grid_import import TYPES, slug
 
 HERE = Path(__file__).resolve().parent
-HEADER = ["Entry_id", "Entry_Title", "EntryTranslation_id", "EntryTranslation_Title", "Description_id", "Description_Description", "Delete"]
+HEADER = ["Entry_id", "Entry_Title", "EntryTranslation_id", "EntryTranslation_Title", "Description_id", "Description_Description",
+          "WordPiece_id", "WordPiece_Piece", "Delete"]
 
 
 def q(text: str) -> str:
@@ -38,7 +40,7 @@ def main() -> int:
     jobs = {job["code"]: job for job in json.loads((HERE / "spine.json").read_text(encoding="utf-8"))["jobs"]}
     old = {(cell["job"], cell["part"]): cell for cell in json.loads(old_path.read_text(encoding="utf-8"))["cells"]}
     new = {(cell["job"], cell["part"]): cell for cell in json.loads((HERE / f"lessons-{language}.json").read_text(encoding="utf-8"))["cells"]}
-    selects, counts, skipped = [], {"english": 0, "translation": 0, "description": 0, "lessons gone": 0}, []
+    selects, counts, skipped = [], {"english": 0, "translation": 0, "description": 0, "pieces": 0, "lessons gone": 0}, []
     for key, was in old.items():
         job = jobs[key[0]]
         code = slug(f'{TYPES[job["type"]]} - {job["name"]}, Part {key[1]}')
@@ -58,9 +60,16 @@ def main() -> int:
             counts["description"] += 1
         for number, (before, after) in enumerate(zip(was["rows"], now["rows"]), 1):
             word = f"{words} AND w.ListTitleSortKey = '{number:02d}'"
-            if before.get("mark") != after.get("mark"):
-                skipped.append(f"{code}, row {number}: its lit pieces changed, which this does not carry")
+            pieces_before = [mark["text"] if isinstance(mark, dict) else mark for mark in before.get("mark", [])]
+            pieces_after = [mark["text"] if isinstance(mark, dict) else mark for mark in after.get("mark", [])]
+            if len(pieces_before) != len(pieces_after):
+                skipped.append(f"{code}, row {number}: it has a different number of lit pieces, which this does not carry")
                 continue
+            for position, (piece_before, piece_after) in enumerate(zip(pieces_before, pieces_after), 1):
+                if piece_before != piece_after:  # habe to bin: the same piece, at the same place, saying something else
+                    selects.append(f"SELECT {select(Entry_id='p.Entryid', WordPiece_id='p.id', WordPiece_Piece=q(piece_after))} "
+                                   f"FROM WordPiece p WHERE p.Position = {position} AND p.Entryid = (SELECT w.id {word})")
+                    counts["pieces"] += 1
             if before["english"] != after["english"]:
                 selects.append(f"SELECT {select(Entry_id='w.id', Entry_Title=q(after['english']))} {word}")
                 counts["english"] += 1

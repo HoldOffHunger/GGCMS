@@ -7,7 +7,8 @@
 	"skip_tags": ["table-tags", "inflection-template", "class", "gerund", "subordinate-clause"],
 	"helper_verbs": ["hebben", "zijn", "zullen"],
 	"helper_default": "hebben",
-	"helper_of": {"gaan": "zijn", "komen": "zijn", "blijven": "zijn", "zijn": "zijn", "worden": "zijn", "vallen": "zijn", "beginnen": "zijn", "gebeuren": "zijn", "sterven": "zijn", "vertrekken": "zijn", "aankomen": "zijn", "opstaan": "zijn", "verdwijnen": "zijn", "verschijnen": "zijn", "groeien": "zijn", "stijgen": "zijn", "dalen": "zijn", "slagen": "zijn", "lukken": "zijn", "ontstaan": "zijn", "terugkomen": "zijn", "binnenkomen": "zijn", "thuiskomen": "zijn", "vergeten": "zijn", "stoppen": "zijn", "opgroeien": "zijn", "trouwen": "zijn", "verhuizen": "zijn", "veranderen": "zijn", "ontsnappen": "zijn", "emigreren": "zijn"},
+	"helper_of_endings": {"gaan": "zijn", "komen": "zijn", "vallen": "zijn", "blijven": "zijn"},
+	"helper_of": {"begaan": "hebben", "ondergaan": "hebben", "aanvallen": "hebben", "verwelkomen": "hebben", "gaan": "zijn", "komen": "zijn", "blijven": "zijn", "zijn": "zijn", "worden": "zijn", "vallen": "zijn", "beginnen": "zijn", "gebeuren": "zijn", "sterven": "zijn", "vertrekken": "zijn", "aankomen": "zijn", "opstaan": "zijn", "verdwijnen": "zijn", "verschijnen": "zijn", "groeien": "zijn", "stijgen": "zijn", "dalen": "zijn", "slagen": "zijn", "lukken": "zijn", "ontstaan": "zijn", "terugkomen": "zijn", "binnenkomen": "zijn", "thuiskomen": "zijn", "vergeten": "zijn", "stoppen": "zijn", "opgroeien": "zijn", "trouwen": "zijn", "verhuizen": "zijn", "veranderen": "zijn", "ontsnappen": "zijn", "emigreren": "zijn"},
 	"slots": [
 		{"features": {"form": "infinitive"}, "tags": ["infinitive"]},
 		{"features": {"form": "done"}, "tags": ["participle", "past"]},
