@@ -89,6 +89,9 @@
 				'sabkha'=>[
 					'sabhka',
 				],
+				'sabotage'=>[
+					'sabatoge',
+				],
 				'saboteur'=>[
 					'saboter',
 					'sabotuer',
@@ -308,6 +311,8 @@
 				],
 				'sacrificed'=>[
 					'facrificed',
+					'sacrified',
+					'scarificed',
 				],
 				'sacrifices'=>[
 					'facrifices',
@@ -315,6 +320,7 @@
 				'sacrificial'=>[
 					'sacraficial',
 					'sacrificail',
+					'sacrifical',
 				],
 				'sacrificially'=>[
 					'sacrificiallly',
@@ -583,6 +589,7 @@
 					'sagacous',
 					'sagaciuos',
 					'sagacoius',
+					'fagacious',
 				],
 				'sagaciously'=>[
 					'sagaciousally',
@@ -2440,6 +2447,7 @@
 				],
 				'saturnine'=>[
 					'saturnini',
+					'saturine',
 				],
 				'saturninely'=>[
 					'saturninly',
@@ -3706,6 +3714,7 @@
 				],
 				'scatological'=>[
 					'satological',
+					'scatalogical',
 				],
 				'scatology'=>[
 					'satology',
@@ -4479,6 +4488,7 @@
 					'scholarlly',
 					'sholarly',
 					'scholarily',
+					'scholary',
 				],
 				'scholars'=>[
 					'scliolars',
@@ -5351,6 +5361,7 @@
 					'clerotic',
 					'cslerotic',
 					'slerotic',
+					'schlerotic',
 				],
 				'sclerotization'=>[
 					'clerotization',
@@ -8742,6 +8753,7 @@
 					'feemed',
 					'secmed',
 					'seerned',
+					'seemd',
 				],
 				'seeming'=>[
 					'seeeming',
@@ -11238,6 +11250,7 @@
 					'setled',
 					'setttled',
 					'setlled',
+					'setded',
 				],
 				'settlement'=>[
 					'settelment',
@@ -14295,6 +14308,9 @@
 					'shrewed',
 					'slirewd',
 				],
+				'shrewdly'=>[
+					'shrewedly',
+				],
 				'shrewdness'=>[
 					'shrewdnes',
 					'shrewdnesss',
@@ -15250,6 +15266,8 @@
 					'significantely',
 					'significantlly',
 					'significently',
+					'significandy',
+					'significantiy',
 				],
 				'signification'=>[
 					'fignification',
@@ -15575,6 +15593,9 @@
 				'silvery'=>[
 					'silvary',
 				],
+				'silviculture'=>[
+					'silvaculture',
+				],
 				'silvopasture'=>[
 					'sylvopasture',
 				],
@@ -15729,6 +15750,7 @@
 					'simpiy',
 					'fimply',
 					'siinply',
+					'smply',
 				],
 				'simulant'=>[
 					'simulent',
@@ -16262,6 +16284,7 @@
 					'sitnation',
 					'situatoin',
 					'situaton',
+					'situtation',
 				],
 				'situational'=>[
 					'sitautional',
@@ -17796,6 +17819,7 @@
 					'slightlly',
 					'slightley',
 					'sliglitly',
+					'slighdy',
 				],
 				'slightness'=>[
 					'slightnes',
@@ -20321,6 +20345,10 @@
 					'socity',
 					'societv',
 					'fociety',
+					'soiety',
+				],
+				'society\'s'=>[
+					'societys',
 				],
 				'sociobiological'=>[
 					'socioboilogical',
@@ -21354,6 +21382,7 @@
 					'soooner',
 					'fooner',
 					'soouer',
+					'soonner',
 				],
 				'soonest'=>[
 					'sonest',
@@ -24512,6 +24541,7 @@
 				],
 				'spokesperson'=>[
 					'spokeperson',
+					'spokersperson',
 				],
 				'spokeswoman'=>[
 					'spokewoman',
@@ -24588,6 +24618,7 @@
 				],
 				'spontaneity'=>[
 					'spontaniety',
+					'spontenaity',
 				],
 				'spontaneous'=>[
 					'spontaneus',
@@ -25418,6 +25449,7 @@
 				],
 				'squalid'=>[
 					'sqaulid',
+					'squallid',
 				],
 				'squalider'=>[
 					'sqaulider',
@@ -28613,6 +28645,9 @@
 					'stimulatoin',
 					'stimulaton',
 				],
+				'stimulus'=>[
+					'stimulous',
+				],
 				'stingaree'=>[
 					'stingare',
 					'stingareee',
@@ -29715,6 +29750,7 @@
 					'stradegy',
 					'stratedgy',
 					'stategy',
+					'srategy',
 				],
 				'stratford'=>[
 					'stradford',
@@ -30181,6 +30217,7 @@
 					'stricly',
 					'strictiy',
 					'strictely',
+					'stricdy',
 				],
 				'strictness'=>[
 					'strictnes',
@@ -30444,6 +30481,7 @@
 				'strongholds'=>[
 					'strongolds',
 					'stronholds',
+					'stongholds',
 				],
 				'strongly'=>[
 					'flrongly',
@@ -30563,6 +30601,7 @@
 					'strugggle',
 					'striiggle',
 					'strnggle',
+					'stmggle',
 				],
 				'struggled'=>[
 					'strugggled',
@@ -31894,6 +31933,9 @@
 					'subjectiveneses',
 					'subjectivenessses',
 				],
+				'subjectivities'=>[
+					'subjectivites',
+				],
 				'subjectless'=>[
 					'subjectles',
 					'subjectlesss',
@@ -32016,6 +32058,7 @@
 				'sublimation'=>[
 					'sublimatoin',
 					'sublimaton',
+					'sublimination',
 				],
 				'sublime'=>[
 					'subime',
@@ -32318,6 +32361,7 @@
 					'fubordination',
 					'subordinatoin',
 					'subordinaton',
+					'subbordination',
 				],
 				'subordinations'=>[
 					'subordinitions',
@@ -32614,6 +32658,8 @@
 					'subseqeuntly',
 					'subsequantly',
 					'subsequentely',
+					'subsequendy',
+					'subsequentally',
 				],
 				'subseries'=>[
 					'suberies',
@@ -33143,6 +33189,9 @@
 				'suburbicarian'=>[
 					'suburbicarain',
 				],
+				'suburbs'=>[
+					'susburbs',
+				],
 				'subvariety'=>[
 					'subariety',
 					'subvareity',
@@ -33415,6 +33464,7 @@
 					'succcinctly',
 					'sucinctly',
 					'succinctely',
+					'succintly',
 				],
 				'succinctness'=>[
 					'succinctnes',
@@ -33772,6 +33822,8 @@
 					'snfficient',
 					'snfflcient',
 					'sufficieiit',
+					'aufficient',
+					'suffient',
 				],
 				'sufficiently'=>[
 					'suffciently',
@@ -33782,6 +33834,7 @@
 					'sufficeintly',
 					'sufficiantly',
 					'sufficientely',
+					'sufficiendy',
 				],
 				'sufficing'=>[
 					'suffficing',
@@ -34572,6 +34625,7 @@
 					'sumptous',
 					'sumptouus',
 					'sumptuuos',
+					'sumptious',
 				],
 				'sumptuously'=>[
 					'sumptously',
@@ -35907,6 +35961,7 @@
 					'fuperftitious',
 					'superstitiuos',
 					'superstitoius',
+					'superstious',
 				],
 				'superstitiously'=>[
 					'superstitously',
@@ -36005,6 +36060,9 @@
 				],
 				'supervisor'=>[
 					'supervisior',
+				],
+				'supervisors'=>[
+					'supervisers',
 				],
 				'superwoman'=>[
 					'superoman',
@@ -37770,6 +37828,7 @@
 				'sustainable'=>[
 					'sustainible',
 					'sustianable',
+					'ustainable',
 				],
 				'sustainably'=>[
 					'sustainibly',
@@ -38533,6 +38592,7 @@
 				],
 				'swiftly'=>[
 					'swiftely',
+					'swifdy',
 				],
 				'swiftness'=>[
 					'swiftnes',
@@ -39461,6 +39521,7 @@
 				'synonymous'=>[
 					'synonomous',
 					'synonymuos',
+					'synonimous',
 				],
 				'synonymously'=>[
 					'synonomously',

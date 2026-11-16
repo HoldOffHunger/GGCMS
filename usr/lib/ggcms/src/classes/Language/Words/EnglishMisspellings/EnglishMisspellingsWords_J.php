@@ -1245,6 +1245,9 @@
 				'jewelries'=>[
 					'jewelreis',
 				],
+				'jewelry'=>[
+					'jewellry',
+				],
 				'jewelweed'=>[
 					'jewelwed',
 					'jewelweeed',
@@ -2299,6 +2302,7 @@
 					'jndgments',
 					'judginents',
 					'judgmants',
+					'judgents',
 				],
 				'judicable'=>[
 					'judicible',
@@ -2646,6 +2650,7 @@
 					'juflice',
 					'juftice',
 					'justicc',
+					'jsutice',
 				],
 				'justices'=>[
 					'juftices',

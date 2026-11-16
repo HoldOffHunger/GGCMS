@@ -1798,8 +1798,12 @@
 					'lated',
 					'latcr',
 				],
+				'later in'=>[
+					'laterin',
+				],
 				'later on'=>[
 					'alter on',
+					'lateron',
 				],
 				'lateralization'=>[
 					'lateralizatoin',
@@ -2577,6 +2581,7 @@
 				'leaflets'=>[
 					'laeflets',
 					'lealets',
+					'eaflets',
 				],
 				'leafletted'=>[
 					'leaflettted',
@@ -3375,6 +3380,7 @@
 				'legitimate'=>[
 					'legimate',
 					'legitamate',
+					'legtimate',
 				],
 				'legitimately'=>[
 					'legitimatly',
@@ -4360,6 +4366,8 @@
 				'libertarian'=>[
 					'libertaran',
 					'libertarain',
+					'ibertarian',
+					'liberatarian',
 				],
 				'libertarianism'=>[
 					'libertarainism',
@@ -4471,6 +4479,9 @@
 					'liscence',
 					'liscense',
 					'licenfe',
+				],
+				'licensed'=>[
+					'liscenced',
 				],
 				'licensee'=>[
 					'licenseee',
@@ -6126,6 +6137,7 @@
 					'iittle',
 					'liltle',
 					'littlc',
+					'litde',
 				],
 				'littleneck'=>[
 					'litleneck',
@@ -6472,6 +6484,7 @@
 				],
 				'loathsome'=>[
 					'laothsome',
+					'loathesome',
 				],
 				'loathsomely'=>[
 					'loathsomly',
@@ -8109,6 +8122,9 @@
 					'loyalies',
 					'loyalteis',
 					'loyaties',
+				],
+				'loyalty'=>[
+					'loyality',
 				],
 				'luau'=>[
 					'lauu',

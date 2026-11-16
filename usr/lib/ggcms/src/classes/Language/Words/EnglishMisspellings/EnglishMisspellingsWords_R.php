@@ -1495,6 +1495,7 @@
 				],
 				'rancorous'=>[
 					'rancoruos',
+					'rancourous',
 				],
 				'rancorously'=>[
 					'rancorousely',
@@ -2002,6 +2003,7 @@
 				],
 				'rationale'=>[
 					'ratoinale',
+					'rationalle',
 				],
 				'rationales'=>[
 					'ratoinales',
@@ -2046,6 +2048,7 @@
 				],
 				'rationalized'=>[
 					'ratoinalized',
+					'rationaized',
 				],
 				'rationalizer'=>[
 					'ratoinalizer',
@@ -4137,6 +4140,7 @@
 				'rebuilding'=>[
 					'rebulding',
 					'rebiulding',
+					'rebuilbing',
 				],
 				'rebuilds'=>[
 					'rebiulds',
@@ -4382,6 +4386,7 @@
 					'recentley',
 					'recentyl',
 					'recentely',
+					'recendy',
 				],
 				'recentness'=>[
 					'recentnes',
@@ -4750,6 +4755,7 @@
 				'recollecting'=>[
 					'recolecting',
 					'recolllecting',
+					'recollectiong',
 				],
 				'recollection'=>[
 					'recolection',
@@ -5521,6 +5527,7 @@
 				],
 				'recruits'=>[
 					'recriuts',
+					'ecruits',
 				],
 				'recrystallization'=>[
 					'recrystalllization',
@@ -7091,6 +7098,7 @@
 				],
 				'reflected'=>[
 					'refiected',
+					'rerlected',
 				],
 				'reflection'=>[
 					'refiection',
@@ -9147,6 +9155,7 @@
 				'reluctantly'=>[
 					'reluctantely',
 					'reluctently',
+					'reluctandy',
 				],
 				'reluctivities'=>[
 					'reluctiviteis',
@@ -10941,6 +10950,7 @@
 				'reproduction'=>[
 					'reproductoin',
 					'reproducton',
+					'reproduttion',
 				],
 				'reproductions'=>[
 					'reproductoins',
@@ -12054,6 +12064,7 @@
 					'responsibilites',
 					'responsabilities',
 					'responsibiliteis',
+					'responsibilties',
 				],
 				'responsibility'=>[
 					'reponsibility',
@@ -12223,6 +12234,7 @@
 				'restless'=>[
 					'restles',
 					'restlesss',
+					'resdess',
 				],
 				'restlessly'=>[
 					'restlesly',
@@ -12505,6 +12517,7 @@
 				'resurrected'=>[
 					'resurected',
 					'resurrrected',
+					'ressurected',
 				],
 				'resurrecting'=>[
 					'resurecting',
@@ -13140,6 +13153,7 @@
 				'retrograde'=>[
 					'retrgrade',
 					'retrorade',
+					'retrogade',
 				],
 				'retrogradely'=>[
 					'retrogradly',
@@ -13669,6 +13683,9 @@
 					'revisoins',
 					'revisons',
 				],
+				'revisited'=>[
+					'revisted',
+				],
 				'revisualization'=>[
 					'revisaulization',
 				],
@@ -13743,6 +13760,7 @@
 					'revoulutionary',
 					'revoutionary',
 					'revolutonary',
+					'revoloutionary',
 				],
 				'revolutionism'=>[
 					'revolutoinism',
@@ -14101,6 +14119,9 @@
 				'rhythmless'=>[
 					'rhythmles',
 					'rhythmlesss',
+				],
+				'rhythms'=>[
+					'rythms',
 				],
 				'rialto'=>[
 					'railto',

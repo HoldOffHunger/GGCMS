@@ -668,6 +668,7 @@
 					'estern',
 					'easlern',
 					'aestern',
+					'eastem',
 				],
 				'easterner'=>[
 					'aesterner',
@@ -1190,6 +1191,7 @@
 				],
 				'ecstasies'=>[
 					'ecstaseis',
+					'ecstacies',
 				],
 				'ecstasy'=>[
 					'ecstacy',
@@ -1197,6 +1199,9 @@
 					'exstacy',
 					'extacy',
 					'extasy',
+				],
+				'ecstatic'=>[
+					'estatic',
 				],
 				'ecstatically'=>[
 					'ecstaticallly',
@@ -1477,6 +1482,7 @@
 					'edneation',
 					'educatoin',
 					'educaton',
+					'ducation',
 				],
 				'educational'=>[
 					'eductional',
@@ -2837,6 +2843,7 @@
 					'electioneeering',
 					'electionering',
 					'electoineering',
+					'electionaring',
 				],
 				'electioneers'=>[
 					'electioneeers',
@@ -3661,6 +3668,7 @@
 					'embarrasssment',
 					'embarrrassment',
 					'imbarrassment',
+					'embarrasement',
 				],
 				'embarrassments'=>[
 					'embarassments',
@@ -3842,6 +3850,7 @@
 				],
 				'embodied'=>[
 					'embodeid',
+					'ambodied',
 				],
 				'embodies'=>[
 					'embodeis',
@@ -4219,6 +4228,7 @@
 					'eminentely',
 					'eminentlly',
 					'eminantly',
+					'eminendy',
 				],
 				'emissaries'=>[
 					'emmisaries',
@@ -5192,6 +5202,7 @@
 				],
 				'encouraged'=>[
 					'encuoraged',
+					'encouragcd',
 				],
 				'encouragement'=>[
 					'encouragemant',
@@ -7295,6 +7306,7 @@
 					'entilted',
 					'entited',
 					'entitied',
+					'entided',
 				],
 				'entitlement'=>[
 					'entitlemant',
@@ -10184,6 +10196,7 @@
 				],
 				'eternal'=>[
 					'cternal',
+					'enternal',
 				],
 				'eternally'=>[
 					'eternallly',
@@ -11235,6 +11248,7 @@
 					'eventuallly',
 					'cventually',
 					'eventnally',
+					'ventually',
 				],
 				'eventuate'=>[
 					'eventaute',
@@ -11337,10 +11351,14 @@
 					'everytliing',
 					'everyhing',
 				],
+				'everything is'=>[
+					'everythingis',
+				],
 				'everywhere'=>[
 					'everywbere',
 					'everywliere',
 					'everyhere',
+					'verywhere',
 				],
 				'evictee'=>[
 					'evicte',
@@ -11534,6 +11552,7 @@
 					'exactlly',
 					'cxactly',
 					'exactiy',
+					'exacdy',
 				],
 				'exactness'=>[
 					'exactnes',
@@ -12521,6 +12540,9 @@
 				'exhilarate'=>[
 					'exhilirate',
 				],
+				'exhilarating'=>[
+					'exhilirating',
+				],
 				'exhilaration'=>[
 					'exhilaratoin',
 					'exhilaraton',
@@ -13110,6 +13132,7 @@
 				],
 				'experimenters'=>[
 					'experimanters',
+					'experimentors',
 				],
 				'experimenting'=>[
 					'experimanting',
@@ -13231,6 +13254,7 @@
 				'explicitly'=>[
 					'explicitely',
 					'explictly',
+					'explicidy',
 				],
 				'explicitness'=>[
 					'explicitnes',

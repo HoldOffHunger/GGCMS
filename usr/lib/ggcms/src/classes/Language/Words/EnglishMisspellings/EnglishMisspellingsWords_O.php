@@ -188,6 +188,7 @@
 					'obedieiice',
 					'obedienee',
 					'ohedience',
+					'bedience',
 				],
 				'obedient'=>[
 					'obedeint',
@@ -1031,6 +1032,7 @@
 					'obviousely',
 					'obviuosly',
 					'obvoiusly',
+					'bviously',
 				],
 				'obviousness'=>[
 					'obviousnes',
@@ -1906,6 +1908,33 @@
 				'of course'=>[
 					'ofcourse',
 				],
+				'of jobs'=>[
+					'ofjobs',
+				],
+				'of judges'=>[
+					'ofjudges',
+				],
+				'of just'=>[
+					'ofjust',
+				],
+				'of last'=>[
+					'oflast',
+				],
+				'of libertarians'=>[
+					'oflibertarians',
+				],
+				'of life'=>[
+					'oflife',
+				],
+				'of others'=>[
+					'ofothers',
+				],
+				'of politicians'=>[
+					'ofpoliticians',
+				],
+				'of society'=>[
+					'ofsociety',
+				],
 				'of the'=>[
 					'fo the',
 					'fo the', 'ofthe',
@@ -1924,6 +1953,12 @@
 				],
 				'of those'=>[
 					'ofthose',
+				],
+				'of war'=>[
+					'ofwar',
+				],
+				'of workmen'=>[
+					'ofworkmen',
 				],
 				'off'=>[
 					'off off',
@@ -2423,6 +2458,8 @@
 					'oftcn',
 					'ofteii',
 					'ofteu',
+					'ofetn',
+					'orften',
 				],
 				'oftentimes'=>[
 					'oftantimes',
@@ -3005,6 +3042,9 @@
 				'one\'s rights'=>[
 					'ones\' rights',
 				],
+				'one-man'=>[
+					'oneman',
+				],
 				'one-sidedly'=>[
 					'one-sidely',
 				],
@@ -3339,6 +3379,7 @@
 				],
 				'opaque'=>[
 					'opaqeu',
+					'opague',
 				],
 				'opaqued'=>[
 					'opaqeud',
@@ -3665,6 +3706,7 @@
 					'oponents',
 					'oppponents',
 					'opponants',
+					'opponements',
 				],
 				'opportune'=>[
 					'oportune',
@@ -4328,6 +4370,13 @@
 					'organicallly',
 					'organicaly',
 				],
+				'organisations'=>[
+					'organisatians',
+					'organsiations',
+				],
+				'organising'=>[
+					'oranising',
+				],
 				'organism'=>[
 					'organim',
 					'organisim',
@@ -4362,6 +4411,7 @@
 					'organizatons',
 					'orginizations',
 					'organizatoins',
+					'organizattons',
 				],
 				'organize'=>[
 					'orgainize',
@@ -5359,6 +5409,9 @@
 				],
 				'other side'=>[
 					'otherside',
+				],
+				'other words'=>[
+					'otherwords',
 				],
 				'otherness'=>[
 					'othernes',
@@ -10795,6 +10848,7 @@
 				'overweeningly'=>[
 					'overweeeningly',
 					'overweningly',
+					'overweaningly',
 				],
 				'overweigh'=>[
 					'overwiegh',

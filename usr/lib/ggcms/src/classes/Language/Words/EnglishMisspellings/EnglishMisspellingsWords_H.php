@@ -1971,6 +1971,7 @@
 					'bappened',
 					'liappened',
 					'liappeued',
+					'appened',
 				],
 				'happening'=>[
 					'hapening',
@@ -2095,6 +2096,9 @@
 					'harssment',
 					'harassmant',
 				],
+				'harassments'=>[
+					'harrassments',
+				],
 				'harbor'=>[
 					'liarbor',
 				],
@@ -2119,6 +2123,9 @@
 					'hard hard',
 					'hard hard hard',
 					'harcl',
+				],
+				'hard-earned'=>[
+					'hardearned',
 				],
 				'hardback'=>[
 					'harback',
@@ -2236,6 +2243,7 @@
 					'hardlly',
 					'bardly',
 					'liardly',
+					'ardly',
 				],
 				'hardness'=>[
 					'hardnes',
@@ -2899,6 +2907,9 @@
 					'kave',
 					'liave',
 				],
+				'have a'=>[
+					'havea',
+				],
 				'havelock'=>[
 					'haveock',
 					'havlock',
@@ -3072,6 +3083,9 @@
 				],
 				'he became'=>[
 					'be became',
+				],
+				'he meant'=>[
+					'hemeant',
 				],
 				'he was created comte'=>[
 					'he created comte',
@@ -4707,6 +4721,7 @@
 				'heightened'=>[
 					'heightend',
 					'hieghtened',
+					'hightened',
 				],
 				'heightening'=>[
 					'hieghtening',
@@ -6557,6 +6572,7 @@
 					'hierarcy',
 					'hirarchy',
 					'hierarcliy',
+					'hiearchy',
 				],
 				'hieratic'=>[
 					'heiratic',
@@ -7235,6 +7251,9 @@
 					'his his his',
 					'hs',
 					'liis',
+				],
+				'his own'=>[
+					'hisown',
 				],
 				'hispidulous'=>[
 					'hispiduluos',
@@ -8548,6 +8567,7 @@
 				],
 				'homogeneity'=>[
 					'homogeniety',
+					'homogenity',
 				],
 				'homogeneous'=>[
 					'homogeneuos',
@@ -9929,6 +9949,9 @@
 					'hortatoin',
 					'hortaton',
 				],
+				'horticulturalists'=>[
+					'horitculturalists',
+				],
 				'horticulturally'=>[
 					'horticulturaly',
 					'horticulturallly',
@@ -9983,6 +10006,7 @@
 					'hosptial',
 					'hostpital',
 					'hofpital',
+					'ospital',
 				],
 				'hospitality'=>[
 					'hofpitality',
@@ -11019,6 +11043,7 @@
 				'humanity'=>[
 					'hnmanity',
 					'liumanity',
+					'humanuity',
 				],
 				'humanization'=>[
 					'humanizatoin',
@@ -11393,6 +11418,7 @@
 				],
 				'hundreds'=>[
 					'liiindreds',
+					'undreds',
 				],
 				'hundredweight'=>[
 					'hundredwieght',
@@ -12874,6 +12900,9 @@
 				],
 				'hysteria'=>[
 					'hysterai',
+				],
+				'hysterical'=>[
+					'histerical',
 				],
 				'hysterically'=>[
 					'hystericallly',

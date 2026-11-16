@@ -2742,6 +2742,7 @@
 					'bagaining',
 					'baraining',
 					'bargianing',
+					'bargining',
 				],
 				'bargains'=>[
 					'bagains',
@@ -3625,11 +3626,13 @@
 					'batttalion',
 					'battaloin',
 					'battalon',
+					'battahon',
 				],
 				'battalions'=>[
 					'batttalions',
 					'battaloins',
 					'battalons',
+					'battilions',
 				],
 				'batted'=>[
 					'battted',
@@ -3712,6 +3715,7 @@
 					'battie',
 					'battlc',
 					'hattle',
+					'batde',
 				],
 				'battleax'=>[
 					'batleax',
@@ -3818,6 +3822,7 @@
 				'battles'=>[
 					'batles',
 					'batttles',
+					'batdes',
 				],
 				'battleship'=>[
 					'batleship',
@@ -4754,6 +4759,7 @@
 					'beconies',
 					'beeomes',
 					'hecomes',
+					'bocomes',
 				],
 				'becoming'=>[
 					'becomeing',
@@ -5742,6 +5748,7 @@
 				],
 				'behavioral'=>[
 					'behavoiral',
+					'behavorial',
 				],
 				'behaviorally'=>[
 					'behaviorallly',
@@ -5848,6 +5855,7 @@
 					'beiiig',
 					'beiug',
 					'heing',
+					'beinc',
 				],
 				'beings'=>[
 					'biengs',
@@ -6857,6 +6865,7 @@
 					'beised',
 					'befides',
 					'hesides',
+					'brsides',
 				],
 				'besiege'=>[
 					'beseige',
@@ -7660,6 +7669,7 @@
 				'bifurcation'=>[
 					'bifurcatoin',
 					'bifurcaton',
+					'bifucation',
 				],
 				'bifurcations'=>[
 					'bifurcatoins',
@@ -9170,6 +9180,9 @@
 				'bishop'=>[
 					'bisliop',
 					'hishop',
+				],
+				'bishopric'=>[
+					'bisphoric',
 				],
 				'bishops'=>[
 					'bifhops',
@@ -13972,6 +13985,7 @@
 					'bourgeiosie',
 					'bourgoeisie',
 					'buorgeoisie',
+					'bourgeosie',
 				],
 				'bourgeoisification'=>[
 					'bourgeiosification',
@@ -15002,6 +15016,7 @@
 					'bread bread bread',
 					'bred',
 					'hread',
+					'breadd',
 				],
 				'breadbasket'=>[
 					'bredbasket',
@@ -15695,6 +15710,8 @@
 					'bretbren',
 					'bretlircn',
 					'bretliren',
+					'bretheren',
+					'brethern',
 				],
 				'breton'=>[
 					'brenton',
@@ -16368,6 +16385,7 @@
 				'broadly'=>[
 					'broady',
 					'braodly',
+					'brioadly',
 				],
 				'broadminded'=>[
 					'braodminded',
@@ -18323,6 +18341,9 @@
 					'bumptoiusness',
 					'bumptousness',
 				],
+				'bunch of'=>[
+					'bunchof',
+				],
 				'bunchberries'=>[
 					'bunchberies',
 					'bunchberreis',
@@ -18503,6 +18524,7 @@
 					'bureucracies',
 					'buraeucracies',
 					'bureuacracies',
+					'bureacracies',
 				],
 				'bureaucracy'=>[
 					'beaurocracy',
@@ -18511,6 +18533,7 @@
 					'bureucracy',
 					'buraeucracy',
 					'bureuacracy',
+					'bureacracy',
 				],
 				'bureaucrat'=>[
 					'beaurocrat',
@@ -18528,6 +18551,7 @@
 					'bureacratic',
 					'buraeucratic',
 					'bureuacratic',
+					'bureaucatic',
 				],
 				'bureaucratically'=>[
 					'bureaucraticallly',
@@ -19566,6 +19590,7 @@
 				],
 				'by the'=>[
 					'by the by the',
+					'bythe',
 				],
 				'by-election'=>[
 					'bye-election',

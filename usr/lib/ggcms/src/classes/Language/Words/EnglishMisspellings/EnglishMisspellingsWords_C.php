@@ -1272,6 +1272,7 @@
 				],
 				'calumnies'=>[
 					'calumneis',
+					'calamnies',
 				],
 				'calumnious'=>[
 					'calumnous',
@@ -1609,6 +1610,9 @@
 				'camshafts'=>[
 					'camhafts',
 					'cashafts',
+				],
+				'can only'=>[
+					'canonly',
 				],
 				'canadian'=>[
 					'canadain',
@@ -4627,6 +4631,9 @@
 					'catatrophe',
 					'catastrophy',
 				],
+				'catastrophes'=>[
+					'catastrophies',
+				],
 				'catastrophically'=>[
 					'catastrophicallly',
 					'catastrophicaly',
@@ -4807,6 +4814,7 @@
 					'catergory',
 					'cathegory',
 					'categorie',
+					'catefory',
 				],
 				'catenaries'=>[
 					'catenareis',
@@ -6386,6 +6394,7 @@
 					'eertaiii',
 					'eertain',
 					'oertain',
+					'cercain',
 				],
 				'certainly'=>[
 					'certainally',
@@ -11123,6 +11132,7 @@
 					'cirenmstances',
 					'cireumstances',
 					'circumstences',
+					'circumstanes',
 				],
 				'circumstantial'=>[
 					'circumstential',
@@ -14688,6 +14698,7 @@
 					'ceorcion',
 					'coercoin',
 					'coercon',
+					'coersion',
 				],
 				'coercions'=>[
 					'ceorcions',
@@ -16472,6 +16483,9 @@
 			#	'combating'=>[
 			#		'combatting',
 			#	],
+				'combative'=>[
+					'combatitive',
+				],
 				'combatively'=>[
 					'combativly',
 				],
@@ -18974,6 +18988,7 @@
 				'complexion'=>[
 					'complexoin',
 					'complexon',
+					'complextion',
 				],
 				'complexional'=>[
 					'complexoinal',
@@ -19666,6 +19681,9 @@
 					'concantrate',
 					'consentrate',
 				],
+				'concentrate on'=>[
+					'concentrateon',
+				],
 				'concentrated'=>[
 					'consentrated',
 				],
@@ -20284,6 +20302,9 @@
 					'condemmed',
 					'condeinned',
 					'condemnd',
+				],
+				'condemning'=>[
+					'condeming',
 				],
 				'condemnor'=>[
 					'condemnour',
@@ -21516,6 +21537,7 @@
 				'conjointly'=>[
 					'conjiontly',
 					'conjointely',
+					'cojointly',
 				],
 				'conjugacy'=>[
 					'conjugancy',
@@ -22312,6 +22334,9 @@
 					'conservatoins',
 					'conservatons',
 				],
+				'conservatism'=>[
+					'onservatism',
+				],
 				'conservative'=>[
 					'conservitive',
 				],
@@ -22356,6 +22381,7 @@
 					'concider',
 					'consdider',
 					'consicler',
+					'onsider',
 				],
 				'considerable'=>[
 					'considerabel',
@@ -22486,6 +22512,7 @@
 					'consistantly', 'consitently',
 					'consitently',
 					'consistentely',
+					'consistendy',
 				],
 				'consisting'=>[
 					'confifting',
@@ -22690,6 +22717,7 @@
 					'conftantly',
 					'conslantly',
 					'constently',
+					'constandy',
 				],
 				'constants'=>[
 					'constents',
@@ -22750,6 +22778,7 @@
 					'constituant',
 					'constituint',
 					'constiteunt',
+					'constitutent',
 				],
 				'constituently'=>[
 					'constiteuntly',
@@ -22902,6 +22931,7 @@
 					'constuction',
 					'constructoin',
 					'constructon',
+					'contruction',
 				],
 				'constructional'=>[
 					'constructoinal',
@@ -23472,6 +23502,8 @@
 				],
 				'contextualize'=>[
 					'contextaulize',
+					'contextuallize',
+					'contextulize',
 				],
 				'contextualized'=>[
 					'contextaulized',
@@ -23573,6 +23605,7 @@
 				],
 				'continual'=>[
 					'continaul',
+					'ontinual',
 				],
 				'continually'=>[
 					'continuallly',
@@ -23792,6 +23825,9 @@
 					'conractor',
 					'cotractor',
 				],
+				'contractors'=>[
+					'contracters',
+				],
 				'contractual'=>[
 					'contractaul',
 					'contractural',
@@ -23817,6 +23853,7 @@
 					'eontradiction',
 					'contradictoin',
 					'contradicton',
+					'contradition',
 				],
 				'contradictions'=>[
 					'contradictoins',
@@ -24289,6 +24326,7 @@
 					'convetional',
 					'conventoinal',
 					'conventonal',
+					'convendonal',
 				],
 				'conventionalism'=>[
 					'convantionalism',
@@ -24517,6 +24555,7 @@
 				],
 				'convinced'=>[
 					'couvinced',
+					'convinccd',
 				],
 				'convincingness'=>[
 					'convincingnes',
@@ -25546,6 +25585,9 @@
 				],
 				'cordoned'=>[
 					'cordond',
+				],
+				'corduroys'=>[
+					'courduroys',
 				],
 				'cordwain'=>[
 					'cordwian',
@@ -26750,6 +26792,7 @@
 					'costaly',
 					'costely',
 					'costlly',
+					'cosdy',
 				],
 				'costmaries'=>[
 					'costmareis',
@@ -29554,6 +29597,9 @@
 					'craete',
 					'creaete',
 				],
+				'create a'=>[
+					'createa',
+				],
 				'created'=>[
 					'cerated',
 					'creaeted',
@@ -30271,6 +30317,7 @@
 					'critereon',
 					'criteroin',
 					'criteron',
+					'critierion',
 				],
 				'criterions'=>[
 					'criteroins',
@@ -30278,6 +30325,7 @@
 				],
 				'critical'=>[
 					'critcal',
+					'criticial',
 				],
 				'criticalities'=>[
 					'criticaliteis',
@@ -30302,6 +30350,7 @@
 					'critiscism',
 					'critisism',
 					'critisizm',
+					'criticsm',
 				],
 				'criticizable'=>[
 					'criticizible',
@@ -32320,6 +32369,7 @@
 					'curently',
 					'currrently',
 					'currentiy',
+					'currendy',
 				],
 				'currentness'=>[
 					'currentnes',
@@ -32801,6 +32851,7 @@
 				'cutting'=>[
 					'cuttting',
 					'cntting',
+					'cuting',
 				],
 				'cuttingly'=>[
 					'cutingly',

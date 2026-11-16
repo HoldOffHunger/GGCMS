@@ -7,6 +7,26 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 16
+
+- The English misspelling list gained 442 slips from the AI Workers'
+  RevoltLib misspelling harvest: every word in the site's texts that no
+  dictionary knew, seen in two or more texts, judged in its sentence by a
+  local model and then read again by Claude. The model was poor at the top
+  of the list. Of its fifteen most common "typos" only socalled was one; the
+  rest were halves of phrases (versa, hoc), period spellings (anigh, wotted,
+  intreated, chuse), real words it didn't know (rulership, counterposed,
+  leftwing) and accent-only "fixes" (naivete, cortege). Of 2,048
+  candidates, 899 were words some dictionary knows, 225 were under five
+  letters and 26 were another language's. Of the 891 left, Claude kept 442.
+  The largest family is OCR reading tl as d (litde, direcdy, apparendy), then
+  lost spaces (ofsociety, thesame, itwas) and first letters lost to a drop
+  capital (ithout, olitical). Left out: period spellings (superiour, befel,
+  cloathed), dialect (skool, araynd, bwother), deliberate coinages
+  (provotariat, amerikkanism), halves of words split at an apostrophe (doesn,
+  wouldn) and slips with two readings (narchy: anarchy or monarchy; ungry:
+  hungry or angry).
+
 ## 2026, November 14
 
 - `show_child_record_coverage.php` asks "who needs workers?" of every site.

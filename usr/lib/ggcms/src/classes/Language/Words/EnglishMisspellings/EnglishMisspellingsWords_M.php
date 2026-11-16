@@ -1248,6 +1248,7 @@
 					'majiscule',
 					'majucule',
 					'majusule',
+					'majescule',
 				],
 				'makable'=>[
 					'makible',
@@ -1264,6 +1265,9 @@
 					'inake',
 					'niake',
 					'rnake',
+				],
+				'make sure'=>[
+					'makesure',
 				],
 				'makefast'=>[
 					'makeast',
@@ -4130,6 +4134,9 @@
 					'maternallly',
 					'maternaly',
 				],
+				'math class'=>[
+					'mathclass',
+				],
 				'mathematic'=>[
 					'mathmatic',
 				],
@@ -4774,6 +4781,9 @@
 					'meningful',
 					'maeningful',
 				],
+				'meaningful to'=>[
+					'meaningfulto',
+				],
 				'meaningfully'=>[
 					'meaningfullly',
 					'meaningfuly',
@@ -4839,6 +4849,7 @@
 					'nieans',
 					'rneans',
 					'maens',
+					'measns',
 				],
 				'meant'=>[
 					'meaned',
@@ -5451,6 +5462,7 @@
 					'mecting',
 					'meeling',
 					'meetiug',
+					'meetmg',
 				],
 				'meetinghouse'=>[
 					'meeetinghouse',
@@ -7355,6 +7367,7 @@
 				],
 				'metaphor'=>[
 					'metaphore',
+					'meataphor',
 				],
 				'metaphorically'=>[
 					'metaphoricallly',
@@ -8762,6 +8775,9 @@
 					'rnight',
 					'rniglit',
 				],
+				'might be'=>[
+					'mightbe',
+				],
 				'mightier'=>[
 					'mighteir',
 				],
@@ -8947,6 +8963,7 @@
 					'millitary',
 					'miltary',
 					'mihtary',
+					'militaty',
 				],
 				'militia'=>[
 					'milita',
@@ -11570,6 +11587,7 @@
 				],
 				'misshapen'=>[
 					'missshapen',
+					'mishapen',
 				],
 				'misshapenly'=>[
 					'mishapenly',
@@ -12094,6 +12112,7 @@
 				'mobilization'=>[
 					'mobilizatoin',
 					'mobilizaton',
+					'mobiliztion',
 				],
 				'mobilizations'=>[
 					'mobilizatoins',
@@ -12192,11 +12211,15 @@
 					'modern modern modern',
 					'mordern',
 					'rnodern',
+					'odern',
 				],
 					# modernise: an accepted spelling, not a slip (AmericanBritishWords_M: modernize)
 			#	'modernize'=>[
 			#		'modernise',
 			#	],
+				'modern-day'=>[
+					'modernday',
+				],
 				'modernist'=>[
 					'modemist',
 				],
@@ -12846,6 +12869,7 @@
 				'monetary'=>[
 					'monetery',
 					'monitary',
+					'onetary',
 				],
 				'monetization'=>[
 					'monetizatoin',
@@ -12865,6 +12889,7 @@
 					'mouey',
 					'nioney',
 					'rnoney',
+					'meney',
 				],
 				'moneybags'=>[
 					'monebags',
@@ -13330,6 +13355,8 @@
 					'monopoely',
 					'monopolly',
 					'monoply',
+					'monpoly',
+					'onopoly',
 				],
 				'monopropellant'=>[
 					'monopropelant',
@@ -13429,6 +13456,7 @@
 				],
 				'monotheists'=>[
 					'monothiests',
+					'monototheists',
 				],
 				'monotone'=>[
 					'monoone',
@@ -13537,6 +13565,9 @@
 				],
 				'monstrosities'=>[
 					'monstrositeis',
+				],
+				'monstrosity'=>[
+					'monstruosity',
 				],
 				'monstrous'=>[
 					'monsterous',
@@ -14703,6 +14734,9 @@
 				'mortgagers'=>[
 					'mourtgagers',
 				],
+				'mortgages'=>[
+					'mortages',
+				],
 				'mortgaging'=>[
 					'mourtgaging',
 				],
@@ -14910,6 +14944,7 @@
 					'mostaly',
 					'mostely',
 					'mostlly',
+					'mosdy',
 				],
 				'moth'=>[
 					'motli',
@@ -15698,6 +15733,8 @@
 					'movewent',
 					'movment',
 					'niovement',
+					'movemenmt',
+					'movernent',
 				],
 				'movements'=>[
 					'niovements',
@@ -16517,6 +16554,7 @@
 				'multiplied'=>[
 					'multiplyed',
 					'multipleid',
+					'multplied',
 				],
 				'multiplier'=>[
 					'multipleir',
@@ -16717,6 +16755,7 @@
 					'municipalites',
 					'municipalties',
 					'municipaliteis',
+					'municapalities',
 				],
 				'municipality'=>[
 					'muncipality',
@@ -16802,6 +16841,7 @@
 				],
 				'murderous'=>[
 					'murderuos',
+					'muderous',
 				],
 				'murderously'=>[
 					'murderousely',

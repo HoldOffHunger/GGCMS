@@ -3307,6 +3307,9 @@
 					'tenantles',
 					'tenantlesss',
 				],
+				'tenants'=>[
+					'tennants',
+				],
 				'tenascin'=>[
 					'tenacin',
 				],
@@ -4148,6 +4151,7 @@
 					'teritories',
 					'terrritories',
 					'territoreis',
+					'terrorities',
 				],
 				'territory'=>[
 					'teritory',
@@ -4742,9 +4746,16 @@
 					'thyat',
 					'tyhat',
 					'tliat',
+					'thiat',
+				],
+				'that all'=>[
+					'thatall',
 				],
 				'that are'=>[
 					'thet are',
+				],
+				'that it'=>[
+					'thatit',
 				],
 				'that\'s'=>[
 					'thast',
@@ -4800,11 +4811,20 @@
 				'the album closes'=>[
 					'the albums closes',
 				],
+				'the crisis'=>[
+					'thecrisis',
+				],
 				'the large'=>[
 					'thelarge',
 				],
 				'the legal'=>[
 					'thelegal',
+				],
+				'the more'=>[
+					'themore',
+				],
+				'the nature'=>[
+					'thenature',
 				],
 				'the new'=>[
 					'thenew',
@@ -4814,6 +4834,9 @@
 				],
 				'the position'=>[
 					'theposition',
+				],
+				'the same'=>[
+					'thesame',
 				],
 				'the small'=>[
 					'thesmall',
@@ -5193,6 +5216,7 @@
 					'tbeory',
 					'tlicory',
 					'tlieory',
+					'heory',
 				],
 				'theosopher'=>[
 					'thoesopher',
@@ -5252,6 +5276,7 @@
 				],
 				'therapy'=>[
 					'theraphy',
+					'thcrapy',
 				],
 				'there'=>[
 					'htere',
@@ -5584,6 +5609,9 @@
 				],
 				'they make'=>[
 					'they makes',
+				],
+				'they were'=>[
+					'theywere',
 				],
 				'they\'d'=>[
 					'theyd',
@@ -6249,6 +6277,7 @@
 					'thosand',
 					'thouand',
 					'thuosand',
+					'thousan',
 				],
 				'thousandfold'=>[
 					'thousandold',
@@ -8118,13 +8147,28 @@
 				'to be treated'=>[
 					'to treated',
 				],
+				'to destroy'=>[
+					'todestroy',
+				],
 				'to its'=>[
 					'to it\'',
 					'to it\'s',
 					'to its\'',
 				],
+				'to keep'=>[
+					'tokeep',
+				],
+				'to know'=>[
+					'toknow',
+				],
+				'to make'=>[
+					'tomake',
+				],
 				'to remove'=>[
 					'to removed',
+				],
+				'to see'=>[
+					'tosee',
 				],
 				'to the'=>[
 					'ot the',
@@ -10516,6 +10560,7 @@
 				'traditions'=>[
 					'traditoins',
 					'traditons',
+					'tradtions',
 				],
 				'traducement'=>[
 					'traducemant',
@@ -11270,6 +11315,7 @@
 				],
 				'transforming'=>[
 					'transformating',
+					'tranforming',
 				],
 				'transfusible'=>[
 					'transfuisble',
@@ -11328,6 +11374,7 @@
 				'transgressive'=>[
 					'transgresive',
 					'transgresssive',
+					'trangressive',
 				],
 				'transgressor'=>[
 					'transgresor',
@@ -11347,6 +11394,7 @@
 					'transeince',
 					'transiance',
 					'transince',
+					'transcience',
 				],
 				'transiency'=>[
 					'transiensy',
@@ -12394,6 +12442,7 @@
 				'trenchantly'=>[
 					'trenchantely',
 					'trenchently',
+					'trenchandy',
 				],
 				'trendier'=>[
 					'trendeir',
@@ -12472,6 +12521,7 @@
 				'trespasses'=>[
 					'trespases',
 					'trespassses',
+					'tresspasses',
 				],
 				'trespassing'=>[
 					'trespasing',
@@ -15529,6 +15579,7 @@
 				'typewriter'=>[
 					'typeriter',
 					'typwriter',
+					'typewritter',
 				],
 				'typewriters'=>[
 					'typeriters',

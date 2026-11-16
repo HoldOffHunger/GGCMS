@@ -3805,6 +3805,8 @@
 					'parlicularly',
 					'particnlarly',
 					'particularty',
+					'particuarly',
+					'particulady',
 				],
 				'particulate'=>[
 					'perticulate',
@@ -4555,6 +4557,7 @@
 					'patentaly',
 					'patentely',
 					'patentlly',
+					'patendy',
 				],
 				'paterfamilias'=>[
 					'paterfamilais',
@@ -4727,6 +4730,7 @@
 				],
 				'patriarch'=>[
 					'patrairch',
+					'patriach',
 				],
 				'patriarchal'=>[
 					'patrairchal',
@@ -5652,6 +5656,9 @@
 				'pedagogues'=>[
 					'pedagogeus',
 				],
+				'pedagogy'=>[
+					'pedaogogy',
+				],
 				'pedalled'=>[
 					'pedallled',
 				],
@@ -6387,6 +6394,7 @@
 				],
 				'penitence'=>[
 					'penitance',
+					'pentitence',
 				],
 				'penitent'=>[
 					'penitant',
@@ -6795,6 +6803,7 @@
 					'peopie',
 					'peoplc',
 					'peopte',
+					'eople',
 				],
 				'peopled'=>[
 					'poepled',
@@ -7381,6 +7390,7 @@
 					'pcrliaps',
 					'perbaps',
 					'perliaps',
+					'erhaps',
 				],
 				'periadnexal'=>[
 					'periadnexial',
@@ -7651,6 +7661,7 @@
 				],
 				'periphery'=>[
 					'periphary',
+					'perifery',
 				],
 				'periphrastically'=>[
 					'periphrasticallly',
@@ -8186,6 +8197,7 @@
 				],
 				'persevering'=>[
 					'perfevering',
+					'perservering',
 				],
 				'persimmon'=>[
 					'persimnon',
@@ -8217,6 +8229,7 @@
 					'persisently',
 					'persistantly',
 					'persistentely',
+					'persistendy',
 				],
 				'person'=>[
 					'person person',
@@ -9258,6 +9271,7 @@
 				],
 				'phenomenon'=>[
 					'phenomonenon',
+					'phenonmenon',
 				],
 				'phenothiazine'=>[
 					'phenothiazini',
@@ -9469,6 +9483,7 @@
 					'philosopliy',
 					'pliilosophy',
 					'pliilosopliy',
+					'hilosophy',
 				],
 				'phlebography'=>[
 					'flebography',
@@ -13531,6 +13546,7 @@
 					'pleasurible',
 					'plesurable',
 					'plaesurable',
+					'pleasureable',
 				],
 				'pleasurableness'=>[
 					'plesurableness',
@@ -14518,6 +14534,9 @@
 					'ponit',
 					'poiut',
 				],
+				'point of'=>[
+					'pointof',
+				],
 				'pointblank'=>[
 					'piontblank',
 					'poinblank',
@@ -14792,6 +14811,9 @@
 					'poletars',
 					'polstars',
 				],
+				'police'=>[
+					'plolice',
+				],
 				'policewoman'=>[
 					'policeoman',
 					'policwoman',
@@ -14833,6 +14855,7 @@
 				],
 				'poliomyelitic'=>[
 					'poloimyelitic',
+					'poliomylitic',
 				],
 				'poliomyelitis'=>[
 					'polimyelities',
@@ -14865,6 +14888,9 @@
 					'politicial',
 					'pollitical',
 					'pohtical',
+					'olitical',
+					'poltical',
+					'poltiical',
 				],
 				'politically'=>[
 					'politicallly',
@@ -14897,6 +14923,7 @@
 					'pollitics',
 					'poltics',
 					'pohtics',
+					'politcs',
 				],
 				'polities'=>[
 					'politeis',
@@ -16464,6 +16491,7 @@
 					'posssibilities',
 					'possabilities',
 					'possibiliteis',
+					'possibilies',
 				],
 				'possibility'=>[
 					'posibility',
@@ -17550,6 +17578,9 @@
 				],
 				'power looms'=>[
 					'powerlooms',
+				],
+				'power to'=>[
+					'powerto',
 				],
 				'powerboat'=>[
 					'poweboat',
@@ -18786,6 +18817,7 @@
 					'predominatly',
 					'predominintly',
 					'predominently',
+					'predominandy',
 				],
 				'predominate'=>[
 					'predominite',
@@ -20052,6 +20084,9 @@
 					'preseiit',
 					'preseut',
 				],
+				'present-day'=>[
+					'presentday',
+				],
 				'presentability'=>[
 					'presenability',
 					'presentbility',
@@ -20933,6 +20968,7 @@
 					'priestlly',
 					'pristly',
 					'prieftly',
+					'priesdy',
 				],
 				'priests'=>[
 					'pricfts',
@@ -21153,6 +21189,7 @@
 					'prinicpal',
 					'priiiciple',
 					'prineiple',
+					'prinicple',
 				],
 				'principles'=>[
 					'principler', 'prlnciples',
@@ -21345,6 +21382,7 @@
 				],
 				'private'=>[
 					'pnvate',
+					'rivate',
 				],
 				'privateer'=>[
 					'privateeer',
@@ -21388,9 +21426,13 @@
 					'privatoins',
 					'privatons',
 				],
+				'privatisation'=>[
+					'privitisation',
+				],
 				'privatization'=>[
 					'privatizatoin',
 					'privatizaton',
+					'privitization',
 				],
 				'privatizations'=>[
 					'privatizatoins',
@@ -21657,6 +21699,7 @@
 				'proceeding'=>[
 					'proceding',
 					'proceeeding',
+					'proceedimg',
 				],
 				'proceedings'=>[
 					'proceeedings',
@@ -21667,6 +21710,7 @@
 					'procedes',
 					'proceds',
 					'proceeeds',
+					'proeeeds',
 				],
 				'proceleusmatic'=>[
 					'proceluesmatic',
@@ -22065,6 +22109,7 @@
 					'prodution',
 					'productoin',
 					'producton',
+					'productino',
 				],
 				'productions'=>[
 					'productoins',
@@ -22208,6 +22253,7 @@
 					'professsions',
 					'professoins',
 					'professons',
+					'profissions',
 				],
 				'professor'=>[
 					'profesor',
@@ -22238,6 +22284,7 @@
 				],
 				'professors'=>[
 					'professsors',
+					'prosessors',
 				],
 				'professorship'=>[
 					'profesorship',
@@ -22323,6 +22370,7 @@
 				],
 				'profited'=>[
 					'profitted',
+					'profted',
 				],
 				'profiteer'=>[
 					'profiteeer',
@@ -22805,6 +22853,7 @@
 					'prominant',
 					'prominate',
 					'prominint',
+					'prominenet',
 				],
 				'prominently'=>[
 					'preminantly',
@@ -24358,6 +24407,7 @@
 				],
 				'provincial'=>[
 					'provincail',
+					'provinical',
 				],
 				'provincialism'=>[
 					'provincailism',
@@ -24501,6 +24551,7 @@
 					'prudentaly',
 					'prudentely',
 					'prudentlly',
+					'prudendy',
 				],
 				'prudery'=>[
 					'prudary',
@@ -24771,6 +24822,9 @@
 				],
 				'psychasthenia'=>[
 					'psychasthenai',
+				],
+				'psyche'=>[
+					'pysche',
 				],
 				'psychedelia'=>[
 					'psychedelai',
@@ -25191,6 +25245,7 @@
 					'publifhed',
 					'publislied',
 					'puhlished',
+					'pubished',
 				],
 				'publishing'=>[
 					'publisliing',
@@ -26281,6 +26336,7 @@
 				'pursued'=>[
 					'purfued',
 					'purseud',
+					'persued',
 				],
 				'pursuer'=>[
 					'purseur',
@@ -26595,6 +26651,9 @@
 				'putsches'=>[
 					'putches',
 					'putshes',
+				],
+				'putschism'=>[
+					'putchism',
 				],
 				'putt'=>[
 					'puttt',

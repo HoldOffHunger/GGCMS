@@ -3841,6 +3841,7 @@
 				'undoubtedly'=>[
 					'undoubtably',
 					'unduobtedly',
+					'undoubtly',
 				],
 				'undoubting'=>[
 					'unduobting',
@@ -6087,6 +6088,7 @@
 				'unmatched'=>[
 					'umatched',
 					'unatched',
+					'ummatched',
 				],
 				'unmated'=>[
 					'umated',
@@ -7043,6 +7045,7 @@
 					'unpresidented',
 					'unprecedanted',
 					'unprecidented',
+					'unprecendented',
 				],
 				'unprecedentedly'=>[
 					'unprecedantedly',
@@ -8748,6 +8751,7 @@
 				],
 				'unthinkable'=>[
 					'unthinkible',
+					'unthinbble',
 				],
 				'unthinkably'=>[
 					'unthinkibly',
@@ -8955,6 +8959,7 @@
 					'unsual',
 					'unusaul',
 					'unnsual',
+					'unsusual',
 				],
 				'unusually'=>[
 					'unusally',
@@ -9350,6 +9355,7 @@
 				'upheaval'=>[
 					'upheval',
 					'uphaeval',
+					'upheavel',
 				],
 				'upheavals'=>[
 					'uphaevals',
@@ -9779,6 +9785,7 @@
 					'urgentaly',
 					'urgentely',
 					'urgentlly',
+					'urgendy',
 				],
 				'urial'=>[
 					'urail',

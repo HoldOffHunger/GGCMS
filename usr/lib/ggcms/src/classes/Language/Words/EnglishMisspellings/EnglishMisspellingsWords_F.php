@@ -863,6 +863,7 @@
 					'falsley',
 					'falsly',
 					'falfely',
+					'fasely',
 				],
 				'falseness'=>[
 					'falsenes',
@@ -986,6 +987,7 @@
 					'familv',
 					'faniily',
 					'farnily',
+					'famity',
 				],
 				'famine'=>[
 					'famini',
@@ -4241,6 +4243,7 @@
 					'fifteanth',
 					'fifteeenth',
 					'fiftenth',
+					'fifthteenth',
 				],
 				'fifteenths'=>[
 					'fifteeenths',
@@ -4723,6 +4726,9 @@
 					'find find find',
 					'fincl',
 				],
+				'find it'=>[
+					'findit',
+				],
 				'find out'=>[
 					'findout',
 				],
@@ -4881,6 +4887,7 @@
 				'fingertips'=>[
 					'fingerips',
 					'fingetips',
+					'fingertops',
 				],
 				'finial'=>[
 					'finaal',
@@ -6439,6 +6446,7 @@
 				],
 				'flatly'=>[
 					'flately',
+					'flady',
 				],
 				'flatmate'=>[
 					'flamate',
@@ -9004,6 +9012,9 @@
 					'fomentatoin',
 					'fomentaton',
 				],
+				'fomented'=>[
+					'formented',
+				],
 				'fondant'=>[
 					'fondent',
 				],
@@ -9691,6 +9702,9 @@
 					'foor',
 					'for for',
 					'for for for',
+				],
+				'for life'=>[
+					'forlife',
 				],
 				'for the'=>[
 					'fo the',
@@ -11688,6 +11702,9 @@
 					'form form form',
 					'forin',
 					'forrn',
+				],
+				'form of'=>[
+					'formof',
 				],
 				'formabilities'=>[
 					'fomabilities',
@@ -13861,6 +13878,7 @@
 					'freqnently',
 					'frequentiy',
 					'freqeuntly',
+					'frequendy',
 				],
 				'frequentness'=>[
 					'frequentnes',
@@ -15034,6 +15052,7 @@
 					'fulfillled',
 					'fnlfilled',
 					'fulflled',
+					'fulfiled',
 				],
 				'fulfiller'=>[
 					'fulfilller',
@@ -15296,6 +15315,8 @@
 				'fundamentally'=>[
 					'fundamentaly',
 					'fundamentallly',
+					'fundementally',
+					'undamentally',
 				],
 				'fundaments'=>[
 					'fundamants',

@@ -38,8 +38,14 @@
 				'Indo-Pacific'=>[
 					'indopacific',
 				],
+				'International'=>[
+					'lnternational',
+				],
 				'Islamophobes'=>[
 					'islamaphobes',
+				],
+				'Izvestia'=>[
+					'lzvestia',
 				],
 				'i'=>[
 					'i i',
@@ -289,6 +295,7 @@
 				'ideal'=>[
 					'idel',
 					'idael',
+					'ldeal',
 				],
 				'idealism'=>[
 					'idelism',
@@ -481,11 +488,13 @@
 				'identities'=>[
 					'idantities',
 					'identiteis',
+					'identies',
 				],
 				'identity'=>[
 					'idantity',
 					'idenity',
 					'identiy',
+					'idettity',
 				],
 				'ideogram'=>[
 					'idoegram',
@@ -561,6 +570,7 @@
 					'idealogy',
 					'idiology',
 					'idoelogy',
+					'ideaology',
 				],
 				'ideomotor'=>[
 					'idoemotor',
@@ -1628,6 +1638,9 @@
 				],
 				'imbalances'=>[
 					'imbalences',
+				],
+				'imbeciles'=>[
+					'imbaciles',
 				],
 				'imbecilities'=>[
 					'imbeciliteis',
@@ -3221,6 +3234,7 @@
 					'impassiond',
 					'impassoined',
 					'impassoned',
+					'empassioned',
 				],
 				'impassive'=>[
 					'impasive',
@@ -3482,9 +3496,11 @@
 				'imperialism'=>[
 					'emperialism',
 					'imperailism',
+					'imperaliism',
 				],
 				'imperialist'=>[
 					'imperailist',
+					'imperalist',
 				],
 				'imperialistic'=>[
 					'imperailistic',
@@ -3710,6 +3726,9 @@
 				'impingement'=>[
 					'impingemant',
 				],
+				'impinging'=>[
+					'impingeing',
+				],
 				'impious'=>[
 					'impous',
 					'impiuos',
@@ -3841,6 +3860,7 @@
 				'implicitly'=>[
 					'imphcitly',
 					'implicitely',
+					'implicidy',
 				],
 				'implicitness'=>[
 					'implicitnes',
@@ -3978,6 +3998,7 @@
 					'impofition',
 					'impositoin',
 					'impositon',
+					'impostion',
 				],
 				'impositions'=>[
 					'impositoins',
@@ -3994,6 +4015,7 @@
 					'imposssibility',
 					'impoffibility',
 					'impossability',
+					'impossiblity',
 				],
 				'impossible'=>[
 					'immposible',
@@ -4276,6 +4298,7 @@
 					'inprisonment',
 					'imprifonment',
 					'imprisonmant',
+					'imprisonement',
 				],
 				'imprisonments'=>[
 					'imprisoments',
@@ -4428,6 +4451,9 @@
 				'impulsiveness'=>[
 					'impulsivenes',
 					'impulsivenesss',
+				],
+				'impunity'=>[
+					'impugnity',
 				],
 				'impurely'=>[
 					'impurly',
@@ -4673,6 +4699,7 @@
 				'inadvertently'=>[
 					'inadvertantly',
 					'inadvertentely',
+					'inadvertendy',
 				],
 				'inadvisability'=>[
 					'inidvisability',
@@ -5309,6 +5336,7 @@
 				'incendiary'=>[
 					'incendiery',
 					'incendairy',
+					'incindiary',
 				],
 				'incense'=>[
 					'incence',
@@ -5362,6 +5390,7 @@
 					'incesant',
 					'incessent',
 					'incesssant',
+					'incessiant',
 				],
 				'incessantly'=>[
 					'incesantly',
@@ -6361,6 +6390,7 @@
 					'increafing',
 					'inereasing',
 					'incraesing',
+					'ncreasing',
 				],
 				'increasingly'=>[
 					'incerasingly',
@@ -6616,6 +6646,7 @@
 					'iiideed',
 					'incleed',
 					'indced',
+					'ndeed',
 				],
 				'indefatigabilities'=>[
 					'indefatigabiliteis',
@@ -6840,6 +6871,7 @@
 					'indepently',
 					'indipendently',
 					'indpendently',
+					'independendy',
 				],
 				'independents'=>[
 					'independants',
@@ -7120,6 +7152,7 @@
 				],
 				'indirectly'=>[
 					'indirectely',
+					'indirecdy',
 				],
 				'indirectness'=>[
 					'indirectnes',
@@ -7222,6 +7255,7 @@
 					'indicriminately',
 					'indiscriminatly',
 					'indisriminately',
+					'ndiscriminately',
 				],
 				'indiscriminateness'=>[
 					'indiscriminatenes',
@@ -7240,6 +7274,7 @@
 				],
 				'indispensable'=>[
 					'indispensible',
+					'indespensible',
 				],
 				'indispensableness'=>[
 					'indispensablenes',
@@ -7327,6 +7362,9 @@
 					'inclividual',
 					'indiviclual',
 				],
+				'individual must'=>[
+					'individualmust',
+				],
 				'individualise'=>[
 					'individaulise',
 				],
@@ -7390,6 +7428,7 @@
 					'1ndividuals',
 					'indivicluals',
 					'individauls',
+					'indivdiduals',
 				],
 				'individuate'=>[
 					'individaute',
@@ -8130,6 +8169,7 @@
 					'inevitableness',
 					'inivitability',
 					'inevitibility',
+					'inevitablility',
 				],
 				'inevitable'=>[
 					'inevatible',
@@ -8142,6 +8182,8 @@
 				],
 				'inevitably'=>[
 					'inevitibly',
+					'envitably',
+					'nevitably',
 				],
 				'inexact'=>[
 					'inixact',
@@ -8695,6 +8737,7 @@
 				],
 				'infinitesimal'=>[
 					'infinatesimal',
+					'infinitesmal',
 				],
 				'infinitesimally'=>[
 					'infinatesimally',
@@ -9672,6 +9715,7 @@
 					'inititive',
 					'intiative',
 					'initaitive',
+					'iniative',
 				],
 				'initiatives'=>[
 					'inatiatives',
@@ -9730,6 +9774,7 @@
 				'injunctions'=>[
 					'injunctoins',
 					'injunctons',
+					'injuctions',
 				],
 				'injure'=>[
 					'injnre',
@@ -11096,6 +11141,7 @@
 					'inslantly',
 					'instantiy',
 					'iustantly',
+					'instandy',
 				],
 				'instants'=>[
 					'instents',
@@ -11129,6 +11175,7 @@
 					'inftead',
 					'insteacl',
 					'iustcad',
+					'nstead',
 				],
 					# instil: an accepted spelling, not a slip (AmericanBritishWords_I: instill)
 			#	'instill'=>[
@@ -11173,6 +11220,9 @@
 				'instinctively'=>[
 					'instinctivly',
 					'instinctually',
+				],
+				'instincts'=>[
+					'insincts',
 				],
 				'instinctual'=>[
 					'instinctaul',
@@ -11235,6 +11285,7 @@
 					'inftitutions',
 					'institutoins',
 					'institutons',
+					'institions',
 				],
 				'instruct'=>[
 					'instruet',
@@ -11280,6 +11331,7 @@
 				],
 				'instrumental'=>[
 					'instrumantal',
+					'insturmental',
 				],
 				'instrumentalism'=>[
 					'instrumantalism',
@@ -11505,6 +11557,7 @@
 					'insurrrection',
 					'insurrectoin',
 					'insurrecton',
+					'inurrection',
 				],
 				'insurrectional'=>[
 					'insurectional',
@@ -11610,6 +11663,7 @@
 				],
 				'integrated'=>[
 					'intergrated',
+					'integrtated',
 				],
 				'integrates'=>[
 					'intergrates',
@@ -11767,6 +11821,7 @@
 					'intelligensia',
 					'intellligentsia',
 					'intelligentsai',
+					'intelligentia',
 				],
 				'intelligentsias'=>[
 					'inteligentsias',
@@ -12770,6 +12825,9 @@
 				],
 				'internees'=>[
 					'interneees',
+				],
+				'internet'=>[
+					'intemet',
 				],
 				'internment'=>[
 					'interment',
@@ -15824,6 +15882,9 @@
 				'is still'=>[
 					'is stil',
 				],
+				'is the'=>[
+					'isthe',
+				],
 				'isaac oviedo'=>[
 					'issac oviedo',
 				],
@@ -16211,6 +16272,10 @@
 				],
 				'it was'=>[
 					'irwas',
+					'itwas',
+				],
+				'it will'=>[
+					'itwill',
 				],
 				'it\'ll'=>[
 					'itll',

@@ -696,6 +696,7 @@
 				],
 				'galloped'=>[
 					'gallloped',
+					'gallopped',
 				],
 				'galloper'=>[
 					'gallloper',
@@ -2179,6 +2180,7 @@
 					'geiieral',
 					'gencral',
 					'geueral',
+					'gneral',
 				],
 				'generalcy'=>[
 					'generalsy',
@@ -2248,6 +2250,7 @@
 					'generatoin',
 					'generaton',
 					'genration',
+					'generatino',
 				],
 				'generational'=>[
 					'geneational',
@@ -2486,6 +2489,9 @@
 					'gentleanly',
 					'gentlemanely',
 					'gentlmanly',
+				],
+				'gentlemen'=>[
+					'gendemen',
 				],
 				'gentlemen\'s'=>[
 					'gentlemens',
@@ -5134,6 +5140,7 @@
 					'gleefuly',
 					'glefully',
 					'gleeully',
+					'geefully',
 				],
 				'gleefulness'=>[
 					'gleefulnes',
@@ -7336,6 +7343,8 @@
 					'governnicnt',
 					'governnient',
 					'goverument',
+					'govenment',
+					'governrnent',
 				],
 				'governmental'=>[
 					'govermental',
@@ -9948,6 +9957,9 @@
 					'group group group',
 					'gruop',
 				],
+				'group is'=>[
+					'groupis',
+				],
 				'grouped'=>[
 					'gruoped',
 				],
@@ -11356,6 +11368,7 @@
 				'gunpowder'=>[
 					'gunowder',
 					'gupowder',
+					'gunpowerder',
 				],
 				'gunrunner'=>[
 					'gunruner',

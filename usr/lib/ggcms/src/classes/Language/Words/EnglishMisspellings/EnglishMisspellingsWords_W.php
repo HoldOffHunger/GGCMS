@@ -1874,6 +1874,9 @@
 					'we we',
 					'we we we',
 				],
+				'we consider'=>[
+					'weconsider',
+				],
 				'we were'=>[
 					'we we\'re',
 				],
@@ -2916,6 +2919,9 @@
 				],
 				'well-ordered'=>[
 					'wellordered',
+				],
+				'well-paid'=>[
+					'wellpaid',
 				],
 				'wellborn'=>[
 					'welllborn',
@@ -4127,6 +4133,9 @@
 					'whlch',
 					'wliich',
 					'wliicli',
+				],
+				'which is'=>[
+					'whichis',
 				],
 				'whichever'=>[
 					'wichever',
@@ -5757,9 +5766,13 @@
 					'vvide',
 					'wicle',
 				],
+				'wide-ranging'=>[
+					'wideranging',
+				],
 				'widely'=>[
 					'widelly',
 					'widly',
+					'widelv',
 				],
 				'widemouthed'=>[
 					'widemuothed',
@@ -6087,6 +6100,7 @@
 				],
 				'willful'=>[
 					'willlful',
+					'willfull',
 				],
 				'willfully'=>[
 					'willfullly',
@@ -7045,6 +7059,7 @@
 					'withhheld',
 					'withlield',
 					'witliheld',
+					'witheld',
 				],
 				'withhold'=>[
 					'withold',
@@ -7103,6 +7118,7 @@
 					'witliont',
 					'witliout',
 					'withuot',
+					'ithout',
 				],
 				'without its'=>[
 					'without it\'s',
@@ -8549,6 +8565,9 @@
 					'worsend',
 					'worstened',
 				],
+				'worsened or'=>[
+					'worsenedor',
+				],
 				'worsening'=>[
 					'worstening',
 				],
@@ -8674,6 +8693,9 @@
 				],
 				'would\'ve'=>[
 					'wouldve',
+				],
+				'would-be'=>[
+					'wouldbe',
 				],
 				'wouldest'=>[
 					'wuoldest',

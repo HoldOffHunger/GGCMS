@@ -38,6 +38,9 @@
 				'Nadège'=>[
 					'nadege',
 				],
+				'Nietzschean'=>[
+					'nietzschian',
+				],
 				'Norwegianness'=>[
 					'norwegianess',
 				],
@@ -219,6 +222,7 @@
 				'naivety'=>[
 					'naivity',
 					'niavety',
+					'naievity',
 				],
 				'nakedness'=>[
 					'nakednes',
@@ -886,6 +890,7 @@
 					'natnre',
 					'naturc',
 					'uature',
+					'ntaure',
 				],
 				'natured'=>[
 					'naturd',
@@ -1278,6 +1283,7 @@
 					'neceffary',
 					'necessarv',
 					'uecessary',
+					'necassary',
 				],
 				'necessitarian'=>[
 					'necessitaran',
@@ -1655,6 +1661,9 @@
 				'negativity'=>[
 					'negitivity',
 				],
+				'neglect'=>[
+					'negelect',
+				],
 				'neglected'=>[
 					'negletted',
 				],
@@ -1732,6 +1741,7 @@
 					'negotaitions',
 					'negotiatoins',
 					'negotiatons',
+					'negotations',
 				],
 				'negotiator'=>[
 					'negotiater',
@@ -5288,6 +5298,10 @@
 				'nonhero'=>[
 					'nohero',
 				],
+				'nonhierarchical'=>[
+					'nonheirachical',
+					'nonhierarchal',
+				],
 				'nonhistorical'=>[
 					'nohistorical',
 					'nonistorical',
@@ -7566,6 +7580,12 @@
 					'nto',
 					'iiot',
 				],
+				'not have'=>[
+					'nothave',
+				],
+				'not just'=>[
+					'notjust',
+				],
 				'not to be'=>[
 					'not te be',
 				],
@@ -8479,6 +8499,9 @@
 				],
 				'nurtured'=>[
 					'nurturd',
+				],
+				'nurturing'=>[
+					'nuturing',
 				],
 				'nusch éluard'=>[
 					'nusch eluard',

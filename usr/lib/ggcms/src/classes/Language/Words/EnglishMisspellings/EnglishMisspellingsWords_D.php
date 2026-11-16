@@ -828,6 +828,7 @@
 					'darkenss',
 					'darknes',
 					'darknesss',
+					'darkmess',
 				],
 				'darkroom'=>[
 					'darkrom',
@@ -3411,6 +3412,7 @@
 					'defaintly',
 					'defiantely',
 					'defiently',
+					'defiandy',
 				],
 				'defibrillate'=>[
 					'defibrilate',
@@ -3455,6 +3457,7 @@
 					'deficeint',
 					'deficiant',
 					'deficint',
+					'desicient',
 				],
 				'deficiently'=>[
 					'deficeintly',
@@ -4794,6 +4797,7 @@
 				],
 				'democracy'=>[
 					'democrasy',
+					'mocracy',
 				],
 				'democratic'=>[
 					'democratica1',
@@ -5854,6 +5858,7 @@
 				],
 				'deposited'=>[
 					'depofited',
+					'desposited',
 				],
 				'deposition'=>[
 					'depositoin',
@@ -6313,6 +6318,7 @@
 					'decendants',
 					'desendants',
 					'discendants',
+					'decendents',
 				],
 				'descended'=>[
 					'decended',
@@ -7873,6 +7879,9 @@
 					'devolopement',
 					'devolopment',
 				],
+				'development of'=>[
+					'developmentof',
+				],
 				'developmental'=>[
 					'develomental',
 					'developental',
@@ -9138,6 +9147,7 @@
 				],
 				'dictatorship'=>[
 					'dictatorsllip',
+					'dicatorship',
 				],
 				'diction'=>[
 					'dictoin',
@@ -9163,6 +9173,9 @@
 					'doed',
 					'clid',
 					'dicl',
+				],
+				'did not'=>[
+					'didnot',
 				],
 				'didactically'=>[
 					'didacticallly',
@@ -9457,6 +9470,7 @@
 					'differenet',
 					'diffferent',
 					'clifferent',
+					'differenth',
 				],
 				'differentia'=>[
 					'diferentia',
@@ -10706,6 +10720,7 @@
 					'clirectly',
 					'dircctly',
 					'direetly',
+					'direcdy',
 				],
 				'directness'=>[
 					'directnes',
@@ -10883,6 +10898,7 @@
 					'disadventages',
 					'diadvantages',
 					'disdvantages',
+					'difadvantages',
 				],
 				'disadvantaging'=>[
 					'disadventaging',
@@ -11415,6 +11431,7 @@
 					'disasssociate',
 					'diassociate',
 					'disassocaite',
+					'dissassociate',
 				],
 				'disassociated'=>[
 					'disasociated',
@@ -13007,6 +13024,7 @@
 					'discusssion',
 					'discussoin',
 					'discusson',
+					'disucssion',
 				],
 				'discussions'=>[
 					'discusions',
@@ -13183,6 +13201,7 @@
 					'dienchantment',
 					'disenchantmant',
 					'disnchantment',
+					'disenchantement',
 				],
 				'disenchantments'=>[
 					'disenchantmants',
@@ -13193,6 +13212,9 @@
 				],
 				'disencumbered'=>[
 					'disencumberd',
+				],
+				'disenfranchise'=>[
+					'disenfrancise',
 				],
 				'disenfranchisement'=>[
 					'disenfranchisemant',
@@ -13413,6 +13435,7 @@
 				'disgusting'=>[
 					'disguisting',
 					'discusting',
+					'digusting',
 				],
 				'dishabille'=>[
 					'dishabile',
@@ -15208,6 +15231,7 @@
 					'diseminated',
 					'disseminited',
 					'dissseminated',
+					'disseminiated',
 				],
 				'disseminates'=>[
 					'diseminates',
@@ -15915,6 +15939,7 @@
 				'distinctly'=>[
 					'distinctiy',
 					'distinctely',
+					'distincdy',
 				],
 				'distinctness'=>[
 					'distinctnes',
@@ -18258,6 +18283,7 @@
 					'doublons',
 					'doublooons',
 					'duobloons',
+					'dubloons',
 				],
 				'doublure'=>[
 					'duoblure',

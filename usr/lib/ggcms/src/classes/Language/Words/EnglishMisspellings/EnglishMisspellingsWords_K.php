@@ -1213,6 +1213,7 @@
 				'killing'=>[
 					'kiling',
 					'killling',
+					'killig',
 				],
 				'killings'=>[
 					'kilings',

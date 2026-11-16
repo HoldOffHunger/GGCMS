@@ -1944,6 +1944,7 @@
 					'qiuetly',
 					'queitly',
 					'quietely',
+					'quiedy',
 				],
 				'quietness'=>[
 					'quietnes',

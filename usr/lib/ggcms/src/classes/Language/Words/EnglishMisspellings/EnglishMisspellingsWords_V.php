@@ -756,6 +756,7 @@
 				'vanquished'=>[
 					'vanquifhed',
 					'vanqiushed',
+					'vanguished',
 				],
 				'vanquisher'=>[
 					'vanqiusher',
@@ -1135,6 +1136,7 @@
 				'vastly'=>[
 					'vaftly',
 					'vastely',
+					'vasdy',
 				],
 				'vastness'=>[
 					'vastnes',
@@ -1380,6 +1382,7 @@
 					'veliemently',
 					'vehemantly',
 					'vehementely',
+					'vehemendy',
 				],
 				'vehicle'=>[
 					'vechicle',
@@ -3318,6 +3321,7 @@
 					'violentlly',
 					'violantly',
 					'voilently',
+					'violendy',
 				],
 				'violet'=>[
 					'voilet',
@@ -3413,6 +3417,7 @@
 				],
 				'virgin'=>[
 					'virgina',
+					'virigin',
 				],
 				'virginal'=>[
 					'virginil',
@@ -3486,6 +3491,7 @@
 					'virtne',
 					'yirtue',
 					'virteu',
+					'virute',
 				],
 				'virtueless'=>[
 					'virtueles',
