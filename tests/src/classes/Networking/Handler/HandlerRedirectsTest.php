@@ -88,6 +88,42 @@
 			}
 		}
 
+			// Of several entries sharing a code, the address chooses; where it cannot, nothing is answered
+		public function testMatchingCodeChoice() {
+			$redirects = $this->newRedirects();
+
+			$lessons = [
+				'https://earthfluent.com/spanish/patterns/patterns-part-7/',
+				'https://earthfluent.com/italian/patterns/patterns-part-7/',
+				'https://earthfluent.com/dutch/patterns/patterns-part-7/',
+			];
+			$entries = [11, 22, 33];
+
+			$this->assertSame(1, $redirects->MatchingCodeChoice(['request_uri'=>'/italian/patterns-part-7/', 'urls'=>$lessons, 'entries'=>$entries]),
+				'a lesson asked for at its old address is that course\'s lesson');
+			$this->assertSame(2, $redirects->MatchingCodeChoice(['request_uri'=>'/dutch/patterns-part-7/view.php?language=tr', 'urls'=>$lessons, 'entries'=>$entries]),
+				'the script and the query are not part of what was named');
+			$this->assertNull($redirects->MatchingCodeChoice(['request_uri'=>'/french/patterns/patterns-part-7/', 'urls'=>$lessons, 'entries'=>$entries]),
+				'French has no such lesson, and another course\'s is not the answer');
+			$this->assertNull($redirects->MatchingCodeChoice(['request_uri'=>'/german/patterns-part-7/', 'urls'=>$lessons, 'entries'=>$entries]),
+				'nor is it at an old address under a course that has none');
+			$this->assertSame(0, $redirects->MatchingCodeChoice(['request_uri'=>'/patterns-part-7/', 'urls'=>$lessons, 'entries'=>$entries]),
+				'a bare code contradicts nothing, and is answered as it always was');
+
+				// one entry filed in two places is one page, and either address is it
+			$this->assertSame(0, $redirects->MatchingCodeChoice([
+				'request_uri'=>'/some-book/',
+				'urls'=>['https://example.com/history/some-book/', 'https://example.com/people/author/some-book/'],
+				'entries'=>[5, 5],
+			]));
+
+				// an address that could not be built is not a candidate
+			$this->assertSame(1, $redirects->MatchingCodeChoice(['request_uri'=>'/x/', 'urls'=>['', 'https://example.com/a/x/'], 'entries'=>[1, 2]]));
+			$this->assertNull($redirects->MatchingCodeChoice(['request_uri'=>'/x/', 'urls'=>['', ''], 'entries'=>[1, 2]]));
+
+			$this->assertSame(['dutch', 'patterns-part-7'], $redirects->AddressSegments(['address'=>'https://earthfluent.com/dutch/patterns-part-7/view.php?x=1']));
+		}
+
 			// The whole path is asked for before any bare code: a bare code is shared, a path is not
 		public function testReservedCodeCandidates() {
 			$redirects = $this->newRedirects();

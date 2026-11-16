@@ -233,29 +233,176 @@
 		
 		public function handleCodeRedirect($args) {
 			$code = $args['code'];
-			
+
 			if(strlen($code) !== 0) {
 				$sql = 'SELECT Assignment.id, Assignment.Childid FROM Entry ';
 				$sql .= 'JOIN Assignment ON Entry.id = Assignment.Childid ';
 				$sql .= 'WHERE Entry.Code = ? ';
-				
+				$sql .= 'ORDER BY Assignment.id LIMIT 25 ';
+
 				$sql_args = [$code];
-				
-				$assignment = $this->handler->db_access->RunQuery(['sql'=>$sql, 'args'=>$sql_args]);
-				
-				if($assignment && $assignment[0] && $assignment[0]['id']) {
-					$permalink_id = (int)$assignment[0]['id'];
-					$redirect_url = $this->BuildRedirect(['permalink_id'=>$permalink_id, 'assignment'=>$assignment[0]]);
-					if($redirect_url) {
-						$this->handler->redirect_url = $redirect_url;
-						return $this->handleRedirect();
+
+				$assignments = $this->handler->db_access->RunQuery(['sql'=>$sql, 'args'=>$sql_args]);
+
+				if(!$assignments || !$assignments[0] || !$assignments[0]['id']) {
+					return FALSE;
+				}
+
+					/*
+						One entry of that name is the entry that was meant.
+						Several are a question.  EarthFluent has a lesson
+						called patterns-who-is-doing-it-part-2 in every
+						course, and whichever the database handed back
+						first was answered: /french/patterns/...-part-7/,
+						which French does not have, showed the Spanish
+						lesson.  So each is built and the address chooses.
+					*/
+
+				$chosen = 0;
+
+				if(count($assignments) > 1) {
+					$urls = [];
+
+					foreach($assignments as $assignment) {
+						$urls[] = $this->AssignmentAddress(['assignmentid'=>(int)$assignment['id']]);
+					}
+
+					$chosen = $this->MatchingCodeChoice([
+						'request_uri'=>(string)$_SERVER['REQUEST_URI'],
+						'urls'=>$urls,
+						'entries'=>array_map(function($assignment) { return (int)$assignment['Childid']; }, $assignments),
+					]);
+
+					if($chosen === NULL) {
+						return FALSE;
 					}
 				}
+
+				$redirect_url = $this->BuildRedirect(['permalink_id'=>(int)$assignments[$chosen]['id'], 'assignment'=>$assignments[$chosen]]);
+
+				if($redirect_url) {
+					$this->handler->redirect_url = $redirect_url;
+					return $this->handleRedirect();
+				}
 			}
-			
+
 			return FALSE;
 		}
-		
+
+			// MatchingCodeChoice()
+			// Tests: HandlerRedirectsTest::testMatchingCodeChoice()
+			// Test file: tests/src/classes/Networking/Handler/HandlerRedirectsTest.php
+			/*
+				Which of several entries sharing a code an address meant.
+
+				The one whose own address shares the most of what was asked
+				for: /spanish/nouns-animals-part-1/ means the Spanish lesson
+				of that name and no other course's.
+
+				Where the best of them are level and are different entries,
+				it turns on whether the address said anything they do not.
+				/french/patterns/that-lesson/ names French, and none of the
+				level candidates is under French: the page asked for does
+				not exist, NULL says so, and a 404 is the true answer where
+				another course's lesson is not.  A bare /that-lesson/ names
+				nothing else, so nothing is contradicted, and the first is
+				answered as it always was.
+
+				Level addresses of one entry are the same page filed twice,
+				and the first is as good as any.
+			*/
+
+		public function MatchingCodeChoice($args) {
+			$asked = $this->AddressSegments(['address'=>$args['request_uri']]);
+
+			$best = -1;
+			$chosen = [];
+
+			foreach($args['urls'] as $index => $url) {
+				if(!strlen((string)$url)) {
+					continue;
+				}
+
+				$score = count(array_intersect($asked, $this->AddressSegments(['address'=>$url])));
+
+				if($score > $best) {
+					$best = $score;
+					$chosen = [$index];
+				} elseif($score === $best) {
+					$chosen[] = $index;
+				}
+			}
+
+			if(!$chosen) {
+				return NULL;
+			}
+
+			$entries = [];
+
+			foreach($chosen as $index) {
+				$entries[(int)$args['entries'][$index]] = TRUE;
+			}
+
+			if(count($entries) === 1) {
+				return $chosen[0];
+			}
+
+			$named = [];
+
+			foreach($chosen as $index) {
+				$named = array_merge($named, $this->AddressSegments(['address'=>$args['urls'][$index]]));
+			}
+
+			return array_diff($asked, $named) ? NULL : $chosen[0];
+		}
+
+			/*
+				Where an assignment sits, as an address: the codes from the
+				top of the tree down to it.  Walked a parent at a time,
+				through each parent's own first assignment, and no deeper
+				than a tree here goes.  Used only to compare candidates, so
+				it wants nothing but the database.
+			*/
+
+		public function AssignmentAddress($args) {
+			$codes = [];
+
+			$sql = 'SELECT Entry.Code, Assignment.Parentid FROM Assignment ';
+			$sql .= 'JOIN Entry ON Entry.id = Assignment.Childid ';
+
+			$row = $this->handler->db_access->RunQuery(['sql'=>$sql . 'WHERE Assignment.id = ? ', 'args'=>[(int)$args['assignmentid']]]);
+
+			for($depth = 0; $depth < 12 && $row && $row[0]; $depth++) {
+				if(strlen((string)$row[0]['Code'])) {
+					array_unshift($codes, $row[0]['Code']);
+				}
+
+				if((int)$row[0]['Parentid'] <= 0) {
+					break;
+				}
+
+				$row = $this->handler->db_access->RunQuery([
+					'sql'=>$sql . 'WHERE Assignment.Childid = ? ORDER BY Assignment.id LIMIT 1 ',
+					'args'=>[(int)$row[0]['Parentid']],
+				]);
+			}
+
+			return $codes ? '/' . implode('/', $codes) . '/' : '';
+		}
+
+			/*
+				An address as the names it walks through: no host, no query,
+				no script.
+			*/
+
+		public function AddressSegments($args) {
+			$path = (string)parse_url((string)$args['address'], PHP_URL_PATH);
+
+			return array_values(array_unique(array_filter(explode('/', $path), function($segment) {
+				return strlen($segment) && !preg_match('/\.[a-z0-9]+$/i', $segment);
+			})));
+		}
+
 		public function handleMisplacedScriptRedirect() {
 			$new_url_pieces = explode('/', $_SERVER['REQUEST_URI']);
 			$possible_script = array_pop($new_url_pieces);
