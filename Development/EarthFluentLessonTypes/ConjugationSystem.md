@@ -118,8 +118,8 @@ After any generator change, regenerate the languages already done and confirm th
 | Dutch | yes | yes | yes | Seven split verbs. Helper is `hebben` unless `helper_of` or `helper_of_endings` says |
 | Russian | yes | yes | yes | Tables show the partner's forms as "finished" columns. No aspect-pair lessons yet |
 | Polish | yes | yes | yes | As Russian; the dump names fewer partners |
-| Chinese | yes | yes | no | `built`: forms are patterns around the verb (`了`, `在`, `会`), with pinyin from the dump. No who-by-when grid: the page lists the forms |
-| Japanese | yes | yes | no | Polite forms; the polite past, negative and asking forms are `derive`d from the masu and て forms. Kana readings beside each form. Kanji verbs redirect to kana entries (`follow_redirects`, put back by `rekanji`); する verbs sit under their noun (`suru`) |
+| Chinese | yes | yes | yes | `built`: forms are patterns around the verb (`了`, `在`, `会`), with pinyin from the dump. No who-by-when grid: the page lists the forms |
+| Japanese | yes | yes | yes | Polite forms; the polite past, negative and asking forms are `derive`d from the masu and て forms. Kana readings beside each form. Kanji verbs redirect to kana entries (`follow_redirects`, put back by `rekanji`); する verbs sit under their noun (`suru`) |
 | Korean, Hindi, Indonesian | no | no | no | Their dumps have not been looked at. Chinese's `built` mode may suit Indonesian; Korean and Hindi change their verbs |
 
 Everything above was shipped to prod on 16 November 2026 (by Opus, from Fable's batch): the wrong-course address fix,
