@@ -44,6 +44,17 @@ def plain(recipes: dict, text: str) -> str:
     return " ".join(words)
 
 
+def is_kana(text: str) -> bool:
+    """Written only in hiragana or katakana: たべます, not 食べます and not tabemasu"""
+    return bool(text) and all("\u3040" <= char <= "\u30ff" or char == "ー" for char in text)
+
+
+def derived(text: str, suffix: list) -> str | None:
+    """食べます with ["ます", "ました"] is 食べました; ["", "います"] adds to the end. None where the form does not end so."""
+    old, new = suffix
+    return text[:len(text) - len(old)] + new if text.endswith(old) else None
+
+
 def table(entry: dict, skip: set, every: bool = False, prefixes: tuple = ()) -> list:
     """The entry's first conjugation table: in Spanish a second one is the reflexive verb's, with its pronouns attached.
     German's later tables are the same verb's two-word forms (bin gegangen, werde gehen), so its recipe asks for every table."""
@@ -146,15 +157,40 @@ def read_built(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
     return verbs, missing
 
 
+def rekanji(forms: list, kanji: str, kana: str) -> list:
+    """Forms read from a kana entry, given back their kanji: のみます is 飲みます, with のみます as its reading. The kanji
+    stands for the part of the kana before the ending the two words share (飲む and のむ share む, so 飲 is の). A form that
+    does not begin with that part (来る's こない) is left in kana."""
+    shared = 0
+    while shared < min(len(kanji), len(kana)) and kanji[-1 - shared] == kana[-1 - shared]:
+        shared += 1
+    kanji_part, kana_part = kanji[:len(kanji) - shared], kana[:len(kana) - shared]
+    given = []
+    for form in forms:
+        form = dict(form)
+        text = form["form"]
+        if kana_part and kanji_part and text.startswith(kana_part) and form["features"] not in ({"form": "helper"}, {"form": "partner"}):
+            form["form"] = kanji_part + text[len(kana_part):]
+            form["shown"] = f'{form["form"]} ({text})'
+        given.append(form)
+    return given
+
+
 def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
     skip = set(recipes["skip_tags"])
-    verbs, missing = {}, []
+    verbs, missing, redirects = {}, [], {}
     with dump.open(encoding="utf-8") as lines:
         for line in lines:
             if '"pos": "verb"' not in line:
+                if recipes.get("follow_redirects") and '"pos": "soft-redirect"' in line:  # 飲む is only a pointer to のむ
+                    entry = json.loads(line)
+                    if entry.get("word") in wanted and entry.get("redirects"):
+                        redirects.setdefault(entry["word"], entry["redirects"][0])
                 continue
             entry = json.loads(line)
             word = entry.get("word")
+            if word not in wanted and recipes.get("suru") and word + "する" in wanted:
+                word += "する"  # 勉強する is filed under 勉強, whose table is of 勉強する
             if word not in wanted or word in verbs or entry.get("pos") != "verb":
                 continue
             forms = [(plain(recipes, text), tags)
@@ -183,8 +219,8 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                 by_ending = next((helper for ending, helper in recipes.get("helper_of_endings", {}).items() if word.endswith(ending)), None)
                 found.append({"form": recipes.get("helper_of", {}).get(word) or by_ending or recipes["helper_default"], "features": {"form": "helper"}})
             for slot in recipes["slots"]:
-                if "compound" in slot or "partner" in slot:
-                    continue  # built below, once the helper verbs and the partners are read too
+                if "compound" in slot or "partner" in slot or "derive" in slot:
+                    continue  # built below, once the helper verbs, the partners and the forms they come from are read
                 need, without = set(slot["tags"]), set(slot.get("without", []))
                 match = [text for text, tags in forms if need <= tags and not tags & without][slot.get("nth", 0):]
                 # a verb with two tables gives two answers: aufstehen is habe aufgestanden in one and bin aufgestanden in the other
@@ -197,6 +233,8 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                     match = [match[0] + "e"] + match
                 if match and not any(form["features"] == slot["features"] for form in found):  # a second slot for the same thing is its fallback
                     found.append({"form": match[0], "features": slot["features"]})
+                    if recipes.get("reading_kana"):  # Japanese lists each form three times: 食べます, たべます, tabemasu
+                        found[-1]["reading"] = next((text for text in match if is_kana(text)), "")
                     if slot.get("split") and " " in match[0]:  # a two-word form the dictionary gives whole: bin gegangen
                         found[-1]["helper"], found[-1]["part"] = match[0].split(" ", 1)
                     if "shown" in slot:  # the form as a table shows it: the dictionary lists tengas, and nobody says it without its no
@@ -206,7 +244,27 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                         found[-1]["shown"] = elide(recipes, said)
                 else:
                     missing.append((word, slot["features"]))
+            for slot in recipes["slots"]:
+                if "derive" in slot:  # a form made from another by its ending: 食べます to 食べました, 食べて to 食べています
+                    source = next((form for form in found if form["features"] == slot["derive"]["from"]), None)
+                    made = derived(source["form"], slot["derive"]["suffix"]) if source else None
+                    if made:
+                        found.append({"form": made, "features": slot["features"]})
+                        if source.get("reading"):
+                            found[-1]["reading"] = derived(source["reading"], slot["derive"]["suffix"]) or ""
+                    else:
+                        missing.append((word, slot["features"]))
+            for form in found:  # the reading, beside the form as a table shows it: 食べます (たべます). The Play button leaves it out.
+                reading = form.pop("reading", "")
+                if reading and reading != form["form"] and "shown" not in form:
+                    form["shown"] = f'{form["form"]} ({reading})'
             verbs[word] = found
+    unread = {target for word, target in redirects.items() if word not in verbs}
+    if unread:
+        read_too, _ = read({**recipes, "follow_redirects": False}, dump, unread)
+        for word, target in redirects.items():
+            if word not in verbs and target in read_too:
+                verbs[word] = rekanji(read_too[target], word, target)
     for word, found in verbs.items():
         for slot in recipes["slots"]:
             if "partner" in slot:  # a form borrowed from the verb's other half, where the dictionary names one and has its table

@@ -49,6 +49,7 @@ needs a new line there or it will not be shown.
 | `skip_tags`, `skip_prefixes` | Forms of the dump to ignore |
 | `all_tables` | Read every table of the entry, not only the first (German, whose perfect and future are in later tables) |
 | `helper_tags`, `helper_prefers`, `helper_of`, `helper_default`, `helper_verbs` | Which helper a verb takes: from the dump, or a default with exceptions (Dutch) |
+| `reading_kana`, `derive` slots, `follow_redirects`, `suru` | Japanese: keep the kana spelling as each form's reading; make a form from another by its ending (`["ます", "ました"]`); follow a kanji word that only redirects to its kana entry; find a する verb under its noun |
 | `built`, `patterns`, `separable_verbs` | A language whose verb never changes: each form is `pattern` around the dictionary word, with `reading` (pinyin) and `sandhi`; the dump is asked only whether it is a verb and for its sound (Chinese) |
 | `strip_inner_accents` + `accented_monosyllables`, `strip_marks` | Remove the dump's stress marks (Italian, Russian) |
 | `class_letters` | How many final letters sort a verb into a class (Italian 3) |
@@ -118,7 +119,8 @@ After any generator change, regenerate the languages already done and confirm th
 | Russian | yes | yes | yes | Tables show the partner's forms as "finished" columns. No aspect-pair lessons yet |
 | Polish | yes | yes | yes | As Russian; the dump names fewer partners |
 | Chinese | yes | yes | no | `built`: forms are patterns around the verb (`了`, `在`, `会`), with pinyin from the dump. No who-by-when grid: the page lists the forms |
-| Japanese, Korean, Hindi, Indonesian | no | no | no | Their dumps have not been looked at. Chinese's `built` mode may suit Indonesian; Japanese, Korean and Hindi do change their verbs |
+| Japanese | yes | yes | no | Polite forms; the polite past, negative and asking forms are `derive`d from the masu and て forms. Kana readings beside each form. Kanji verbs redirect to kana entries (`follow_redirects`, put back by `rekanji`); する verbs sit under their noun (`suru`) |
+| Korean, Hindi, Indonesian | no | no | no | Their dumps have not been looked at. Chinese's `built` mode may suit Indonesian; Korean and Hindi change their verbs |
 
 Everything above was shipped to prod on 16 November 2026 (by Opus, from Fable's batch): the wrong-course address fix,
 Russian and Polish, the corrected Spanish and French verbs' tables, the German and Dutch split-verb lessons, and the

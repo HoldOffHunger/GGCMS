@@ -1,0 +1,1112 @@
+{
+	"language": "japanese",
+	"translation_language": "ja",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-japanese.json and the recipes in forms-recipes-japanese.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "食べる", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は食べます, あなたは食べます, 彼女は食べます, 私たちは食べます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I eat", "foreign": "私は食べます", "mark": [{"text": "食べます", "role": "nothing"}], "base": "食べる", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You eat", "foreign": "あなたは食べます", "mark": [{"text": "食べます", "role": "nothing"}], "base": "食べる", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She eats", "foreign": "彼女は食べます", "mark": [{"text": "食べます", "role": "nothing"}], "base": "食べる", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We eat", "foreign": "私たちは食べます", "mark": [{"text": "食べます", "role": "nothing"}], "base": "食べる", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 3, "verb": "飲む", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は飲みます, あなたは飲みます, 彼女は飲みます, 私たちは飲みます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I drink", "foreign": "私は飲みます", "mark": [{"text": "飲みます", "role": "nothing"}], "base": "飲む", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You drink", "foreign": "あなたは飲みます", "mark": [{"text": "飲みます", "role": "nothing"}], "base": "飲む", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She drinks", "foreign": "彼女は飲みます", "mark": [{"text": "飲みます", "role": "nothing"}], "base": "飲む", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We drink", "foreign": "私たちは飲みます", "mark": [{"text": "飲みます", "role": "nothing"}], "base": "飲む", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 4, "verb": "来る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は来ます, あなたは来ます, 彼女は来ます, 私たちは来ます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I come", "foreign": "私は来ます", "mark": [{"text": "来ます", "role": "nothing"}], "base": "来る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You come", "foreign": "あなたは来ます", "mark": [{"text": "来ます", "role": "nothing"}], "base": "来る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She comes", "foreign": "彼女は来ます", "mark": [{"text": "来ます", "role": "nothing"}], "base": "来る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We come", "foreign": "私たちは来ます", "mark": [{"text": "来ます", "role": "nothing"}], "base": "来る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 5, "verb": "見る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は見ます, あなたは見ます, 彼女は見ます, 私たちは見ます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I watch", "foreign": "私は見ます", "mark": [{"text": "見ます", "role": "nothing"}], "base": "見る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You watch", "foreign": "あなたは見ます", "mark": [{"text": "見ます", "role": "nothing"}], "base": "見る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She watches", "foreign": "彼女は見ます", "mark": [{"text": "見ます", "role": "nothing"}], "base": "見る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We watch", "foreign": "私たちは見ます", "mark": [{"text": "見ます", "role": "nothing"}], "base": "見る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 6, "verb": "聞く", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は聞きます, あなたは聞きます, 彼女は聞きます, 私たちは聞きます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I listen", "foreign": "私は聞きます", "mark": [{"text": "聞きます", "role": "nothing"}], "base": "聞く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You listen", "foreign": "あなたは聞きます", "mark": [{"text": "聞きます", "role": "nothing"}], "base": "聞く", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She listens", "foreign": "彼女は聞きます", "mark": [{"text": "聞きます", "role": "nothing"}], "base": "聞く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We listen", "foreign": "私たちは聞きます", "mark": [{"text": "聞きます", "role": "nothing"}], "base": "聞く", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 7, "verb": "話す", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は話します, あなたは話します, 彼女は話します, 私たちは話します. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I speak", "foreign": "私は話します", "mark": [{"text": "話します", "role": "nothing"}], "base": "話す", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You speak", "foreign": "あなたは話します", "mark": [{"text": "話します", "role": "nothing"}], "base": "話す", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She speaks", "foreign": "彼女は話します", "mark": [{"text": "話します", "role": "nothing"}], "base": "話す", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We speak", "foreign": "私たちは話します", "mark": [{"text": "話します", "role": "nothing"}], "base": "話す", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 8, "verb": "書く", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は書きます, あなたは書きます, 彼女は書きます, 私たちは書きます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I write", "foreign": "私は書きます", "mark": [{"text": "書きます", "role": "nothing"}], "base": "書く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You write", "foreign": "あなたは書きます", "mark": [{"text": "書きます", "role": "nothing"}], "base": "書く", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She writes", "foreign": "彼女は書きます", "mark": [{"text": "書きます", "role": "nothing"}], "base": "書く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We write", "foreign": "私たちは書きます", "mark": [{"text": "書きます", "role": "nothing"}], "base": "書く", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 9, "verb": "歩く", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は歩きます, あなたは歩きます, 彼女は歩きます, 私たちは歩きます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I walk", "foreign": "私は歩きます", "mark": [{"text": "歩きます", "role": "nothing"}], "base": "歩く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You walk", "foreign": "あなたは歩きます", "mark": [{"text": "歩きます", "role": "nothing"}], "base": "歩く", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She walks", "foreign": "彼女は歩きます", "mark": [{"text": "歩きます", "role": "nothing"}], "base": "歩く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We walk", "foreign": "私たちは歩きます", "mark": [{"text": "歩きます", "role": "nothing"}], "base": "歩く", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 10, "verb": "走る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は走ります, あなたは走ります, 彼女は走ります, 私たちは走ります. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I run", "foreign": "私は走ります", "mark": [{"text": "走ります", "role": "nothing"}], "base": "走る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You run", "foreign": "あなたは走ります", "mark": [{"text": "走ります", "role": "nothing"}], "base": "走る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She runs", "foreign": "彼女は走ります", "mark": [{"text": "走ります", "role": "nothing"}], "base": "走る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We run", "foreign": "私たちは走ります", "mark": [{"text": "走ります", "role": "nothing"}], "base": "走る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 11, "verb": "買う", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は買います, あなたは買います, 彼女は買います, 私たちは買います. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I buy", "foreign": "私は買います", "mark": [{"text": "買います", "role": "nothing"}], "base": "買う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You buy", "foreign": "あなたは買います", "mark": [{"text": "買います", "role": "nothing"}], "base": "買う", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She buys", "foreign": "彼女は買います", "mark": [{"text": "買います", "role": "nothing"}], "base": "買う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We buy", "foreign": "私たちは買います", "mark": [{"text": "買います", "role": "nothing"}], "base": "買う", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 12, "verb": "売る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は売ります, あなたは売ります, 彼女は売ります, 私たちは売ります. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I sell", "foreign": "私は売ります", "mark": [{"text": "売ります", "role": "nothing"}], "base": "売る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You sell", "foreign": "あなたは売ります", "mark": [{"text": "売ります", "role": "nothing"}], "base": "売る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She sells", "foreign": "彼女は売ります", "mark": [{"text": "売ります", "role": "nothing"}], "base": "売る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We sell", "foreign": "私たちは売ります", "mark": [{"text": "売ります", "role": "nothing"}], "base": "売る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 13, "verb": "待つ", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は待ちます, あなたは待ちます, 彼女は待ちます, 私たちは待ちます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I wait", "foreign": "私は待ちます", "mark": [{"text": "待ちます", "role": "nothing"}], "base": "待つ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You wait", "foreign": "あなたは待ちます", "mark": [{"text": "待ちます", "role": "nothing"}], "base": "待つ", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She waits", "foreign": "彼女は待ちます", "mark": [{"text": "待ちます", "role": "nothing"}], "base": "待つ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We wait", "foreign": "私たちは待ちます", "mark": [{"text": "待ちます", "role": "nothing"}], "base": "待つ", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 14, "verb": "探す", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は探します, あなたは探します, 彼女は探します, 私たちは探します. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I look for", "foreign": "私は探します", "mark": [{"text": "探します", "role": "nothing"}], "base": "探す", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You look for", "foreign": "あなたは探します", "mark": [{"text": "探します", "role": "nothing"}], "base": "探す", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She looks for", "foreign": "彼女は探します", "mark": [{"text": "探します", "role": "nothing"}], "base": "探す", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We look for", "foreign": "私たちは探します", "mark": [{"text": "探します", "role": "nothing"}], "base": "探す", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 15, "verb": "考える", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は考えます, あなたは考えます, 彼女は考えます, 私たちは考えます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I think", "foreign": "私は考えます", "mark": [{"text": "考えます", "role": "nothing"}], "base": "考える", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You think", "foreign": "あなたは考えます", "mark": [{"text": "考えます", "role": "nothing"}], "base": "考える", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She thinks", "foreign": "彼女は考えます", "mark": [{"text": "考えます", "role": "nothing"}], "base": "考える", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We think", "foreign": "私たちは考えます", "mark": [{"text": "考えます", "role": "nothing"}], "base": "考える", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 16, "verb": "笑う", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は笑います, あなたは笑います, 彼女は笑います, 私たちは笑います. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I laugh", "foreign": "私は笑います", "mark": [{"text": "笑います", "role": "nothing"}], "base": "笑う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You laugh", "foreign": "あなたは笑います", "mark": [{"text": "笑います", "role": "nothing"}], "base": "笑う", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She laughs", "foreign": "彼女は笑います", "mark": [{"text": "笑います", "role": "nothing"}], "base": "笑う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We laugh", "foreign": "私たちは笑います", "mark": [{"text": "笑います", "role": "nothing"}], "base": "笑う", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 17, "verb": "泣く", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は泣きます, あなたは泣きます, 彼女は泣きます, 私たちは泣きます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I cry", "foreign": "私は泣きます", "mark": [{"text": "泣きます", "role": "nothing"}], "base": "泣く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You cry", "foreign": "あなたは泣きます", "mark": [{"text": "泣きます", "role": "nothing"}], "base": "泣く", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She cries", "foreign": "彼女は泣きます", "mark": [{"text": "泣きます", "role": "nothing"}], "base": "泣く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We cry", "foreign": "私たちは泣きます", "mark": [{"text": "泣きます", "role": "nothing"}], "base": "泣く", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 18, "verb": "遊ぶ", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は遊びます, あなたは遊びます, 彼女は遊びます, 私たちは遊びます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I play", "foreign": "私は遊びます", "mark": [{"text": "遊びます", "role": "nothing"}], "base": "遊ぶ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You play", "foreign": "あなたは遊びます", "mark": [{"text": "遊びます", "role": "nothing"}], "base": "遊ぶ", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She plays", "foreign": "彼女は遊びます", "mark": [{"text": "遊びます", "role": "nothing"}], "base": "遊ぶ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We play", "foreign": "私たちは遊びます", "mark": [{"text": "遊びます", "role": "nothing"}], "base": "遊ぶ", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 19, "verb": "歌う", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は歌います, あなたは歌います, 彼女は歌います, 私たちは歌います. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I sing", "foreign": "私は歌います", "mark": [{"text": "歌います", "role": "nothing"}], "base": "歌う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You sing", "foreign": "あなたは歌います", "mark": [{"text": "歌います", "role": "nothing"}], "base": "歌う", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She sings", "foreign": "彼女は歌います", "mark": [{"text": "歌います", "role": "nothing"}], "base": "歌う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We sing", "foreign": "私たちは歌います", "mark": [{"text": "歌います", "role": "nothing"}], "base": "歌う", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 20, "verb": "踊る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は踊ります, あなたは踊ります, 彼女は踊ります, 私たちは踊ります. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I dance", "foreign": "私は踊ります", "mark": [{"text": "踊ります", "role": "nothing"}], "base": "踊る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You dance", "foreign": "あなたは踊ります", "mark": [{"text": "踊ります", "role": "nothing"}], "base": "踊る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She dances", "foreign": "彼女は踊ります", "mark": [{"text": "踊ります", "role": "nothing"}], "base": "踊る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We dance", "foreign": "私たちは踊ります", "mark": [{"text": "踊ります", "role": "nothing"}], "base": "踊る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 21, "verb": "泳ぐ", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は泳ぎます, あなたは泳ぎます, 彼女は泳ぎます, 私たちは泳ぎます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I swim", "foreign": "私は泳ぎます", "mark": [{"text": "泳ぎます", "role": "nothing"}], "base": "泳ぐ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You swim", "foreign": "あなたは泳ぎます", "mark": [{"text": "泳ぎます", "role": "nothing"}], "base": "泳ぐ", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She swims", "foreign": "彼女は泳ぎます", "mark": [{"text": "泳ぎます", "role": "nothing"}], "base": "泳ぐ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We swim", "foreign": "私たちは泳ぎます", "mark": [{"text": "泳ぎます", "role": "nothing"}], "base": "泳ぐ", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 22, "verb": "働く", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は働きます, あなたは働きます, 彼女は働きます, 私たちは働きます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I work", "foreign": "私は働きます", "mark": [{"text": "働きます", "role": "nothing"}], "base": "働く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You work", "foreign": "あなたは働きます", "mark": [{"text": "働きます", "role": "nothing"}], "base": "働く", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She works", "foreign": "彼女は働きます", "mark": [{"text": "働きます", "role": "nothing"}], "base": "働く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We work", "foreign": "私たちは働きます", "mark": [{"text": "働きます", "role": "nothing"}], "base": "働く", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 23, "verb": "勉強する", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は勉強します, あなたは勉強します, 彼女は勉強します, 私たちは勉強します. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I study", "foreign": "私は勉強します", "mark": [{"text": "勉強します", "role": "nothing"}], "base": "勉強する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You study", "foreign": "あなたは勉強します", "mark": [{"text": "勉強します", "role": "nothing"}], "base": "勉強する", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She studies", "foreign": "彼女は勉強します", "mark": [{"text": "勉強します", "role": "nothing"}], "base": "勉強する", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We study", "foreign": "私たちは勉強します", "mark": [{"text": "勉強します", "role": "nothing"}], "base": "勉強する", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 24, "verb": "休む", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は休みます, あなたは休みます, 彼女は休みます, 私たちは休みます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I rest", "foreign": "私は休みます", "mark": [{"text": "休みます", "role": "nothing"}], "base": "休む", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You rest", "foreign": "あなたは休みます", "mark": [{"text": "休みます", "role": "nothing"}], "base": "休む", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She rests", "foreign": "彼女は休みます", "mark": [{"text": "休みます", "role": "nothing"}], "base": "休む", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We rest", "foreign": "私たちは休みます", "mark": [{"text": "休みます", "role": "nothing"}], "base": "休む", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 25, "verb": "始める", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は始めます, あなたは始めます, 彼女は始めます, 私たちは始めます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I begin", "foreign": "私は始めます", "mark": [{"text": "始めます", "role": "nothing"}], "base": "始める", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You begin", "foreign": "あなたは始めます", "mark": [{"text": "始めます", "role": "nothing"}], "base": "始める", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She begins", "foreign": "彼女は始めます", "mark": [{"text": "始めます", "role": "nothing"}], "base": "始める", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We begin", "foreign": "私たちは始めます", "mark": [{"text": "始めます", "role": "nothing"}], "base": "始める", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 26, "verb": "手伝う", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は手伝います, あなたは手伝います, 彼女は手伝います, 私たちは手伝います. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I help", "foreign": "私は手伝います", "mark": [{"text": "手伝います", "role": "nothing"}], "base": "手伝う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You help", "foreign": "あなたは手伝います", "mark": [{"text": "手伝います", "role": "nothing"}], "base": "手伝う", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She helps", "foreign": "彼女は手伝います", "mark": [{"text": "手伝います", "role": "nothing"}], "base": "手伝う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We help", "foreign": "私たちは手伝います", "mark": [{"text": "手伝います", "role": "nothing"}], "base": "手伝う", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 27, "verb": "帰る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は帰ります, あなたは帰ります, 彼女は帰ります, 私たちは帰ります. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I go home", "foreign": "私は帰ります", "mark": [{"text": "帰ります", "role": "nothing"}], "base": "帰る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You go home", "foreign": "あなたは帰ります", "mark": [{"text": "帰ります", "role": "nothing"}], "base": "帰る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She goes home", "foreign": "彼女は帰ります", "mark": [{"text": "帰ります", "role": "nothing"}], "base": "帰る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We go home", "foreign": "私たちは帰ります", "mark": [{"text": "帰ります", "role": "nothing"}], "base": "帰る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 28, "verb": "出かける", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は出かけます, あなたは出かけます, 彼女は出かけます, 私たちは出かけます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I go out", "foreign": "私は出かけます", "mark": [{"text": "出かけます", "role": "nothing"}], "base": "出かける", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You go out", "foreign": "あなたは出かけます", "mark": [{"text": "出かけます", "role": "nothing"}], "base": "出かける", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She goes out", "foreign": "彼女は出かけます", "mark": [{"text": "出かけます", "role": "nothing"}], "base": "出かける", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We go out", "foreign": "私たちは出かけます", "mark": [{"text": "出かけます", "role": "nothing"}], "base": "出かける", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 29, "verb": "入る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は入ります, あなたは入ります, 彼女は入ります, 私たちは入ります. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I enter", "foreign": "私は入ります", "mark": [{"text": "入ります", "role": "nothing"}], "base": "入る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You enter", "foreign": "あなたは入ります", "mark": [{"text": "入ります", "role": "nothing"}], "base": "入る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She enters", "foreign": "彼女は入ります", "mark": [{"text": "入ります", "role": "nothing"}], "base": "入る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We enter", "foreign": "私たちは入ります", "mark": [{"text": "入ります", "role": "nothing"}], "base": "入る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 30, "verb": "料理する", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は料理します, あなたは料理します, 彼女は料理します, 私たちは料理します. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I cook", "foreign": "私は料理します", "mark": [{"text": "料理します", "role": "nothing"}], "base": "料理する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You cook", "foreign": "あなたは料理します", "mark": [{"text": "料理します", "role": "nothing"}], "base": "料理する", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She cooks", "foreign": "彼女は料理します", "mark": [{"text": "料理します", "role": "nothing"}], "base": "料理する", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We cook", "foreign": "私たちは料理します", "mark": [{"text": "料理します", "role": "nothing"}], "base": "料理する", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 31, "verb": "電話する", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は電話します, あなたは電話します, 彼女は電話します, 私たちは電話します. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I phone", "foreign": "私は電話します", "mark": [{"text": "電話します", "role": "nothing"}], "base": "電話する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You phone", "foreign": "あなたは電話します", "mark": [{"text": "電話します", "role": "nothing"}], "base": "電話する", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She phones", "foreign": "彼女は電話します", "mark": [{"text": "電話します", "role": "nothing"}], "base": "電話する", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We phone", "foreign": "私たちは電話します", "mark": [{"text": "電話します", "role": "nothing"}], "base": "電話する", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 32, "verb": "運転する", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は運転します, あなたは運転します, 彼女は運転します, 私たちは運転します. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I drive", "foreign": "私は運転します", "mark": [{"text": "運転します", "role": "nothing"}], "base": "運転する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You drive", "foreign": "あなたは運転します", "mark": [{"text": "運転します", "role": "nothing"}], "base": "運転する", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She drives", "foreign": "彼女は運転します", "mark": [{"text": "運転します", "role": "nothing"}], "base": "運転する", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We drive", "foreign": "私たちは運転します", "mark": [{"text": "運転します", "role": "nothing"}], "base": "運転する", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 33, "verb": "座る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は座ります, あなたは座ります, 彼女は座ります, 私たちは座ります. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I sit", "foreign": "私は座ります", "mark": [{"text": "座ります", "role": "nothing"}], "base": "座る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You sit", "foreign": "あなたは座ります", "mark": [{"text": "座ります", "role": "nothing"}], "base": "座る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She sits", "foreign": "彼女は座ります", "mark": [{"text": "座ります", "role": "nothing"}], "base": "座る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We sit", "foreign": "私たちは座ります", "mark": [{"text": "座ります", "role": "nothing"}], "base": "座る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 34, "verb": "立つ", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は立ちます, あなたは立ちます, 彼女は立ちます, 私たちは立ちます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I stand", "foreign": "私は立ちます", "mark": [{"text": "立ちます", "role": "nothing"}], "base": "立つ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You stand", "foreign": "あなたは立ちます", "mark": [{"text": "立ちます", "role": "nothing"}], "base": "立つ", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She stands", "foreign": "彼女は立ちます", "mark": [{"text": "立ちます", "role": "nothing"}], "base": "立つ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We stand", "foreign": "私たちは立ちます", "mark": [{"text": "立ちます", "role": "nothing"}], "base": "立つ", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 35, "verb": "飛ぶ", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は飛びます, あなたは飛びます, 彼女は飛びます, 私たちは飛びます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I fly", "foreign": "私は飛びます", "mark": [{"text": "飛びます", "role": "nothing"}], "base": "飛ぶ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You fly", "foreign": "あなたは飛びます", "mark": [{"text": "飛びます", "role": "nothing"}], "base": "飛ぶ", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She flies", "foreign": "彼女は飛びます", "mark": [{"text": "飛びます", "role": "nothing"}], "base": "飛ぶ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We fly", "foreign": "私たちは飛びます", "mark": [{"text": "飛びます", "role": "nothing"}], "base": "飛ぶ", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 36, "verb": "答える", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は答えます, あなたは答えます, 彼女は答えます, 私たちは答えます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I answer", "foreign": "私は答えます", "mark": [{"text": "答えます", "role": "nothing"}], "base": "答える", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You answer", "foreign": "あなたは答えます", "mark": [{"text": "答えます", "role": "nothing"}], "base": "答える", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She answers", "foreign": "彼女は答えます", "mark": [{"text": "答えます", "role": "nothing"}], "base": "答える", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We answer", "foreign": "私たちは答えます", "mark": [{"text": "答えます", "role": "nothing"}], "base": "答える", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 37, "verb": "忘れる", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は忘れます, あなたは忘れます, 彼女は忘れます, 私たちは忘れます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I forget", "foreign": "私は忘れます", "mark": [{"text": "忘れます", "role": "nothing"}], "base": "忘れる", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You forget", "foreign": "あなたは忘れます", "mark": [{"text": "忘れます", "role": "nothing"}], "base": "忘れる", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She forgets", "foreign": "彼女は忘れます", "mark": [{"text": "忘れます", "role": "nothing"}], "base": "忘れる", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We forget", "foreign": "私たちは忘れます", "mark": [{"text": "忘れます", "role": "nothing"}], "base": "忘れる", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 38, "verb": "払う", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は払います, あなたは払います, 彼女は払います, 私たちは払います. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I pay", "foreign": "私は払います", "mark": [{"text": "払います", "role": "nothing"}], "base": "払う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You pay", "foreign": "あなたは払います", "mark": [{"text": "払います", "role": "nothing"}], "base": "払う", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She pays", "foreign": "彼女は払います", "mark": [{"text": "払います", "role": "nothing"}], "base": "払う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We pay", "foreign": "私たちは払います", "mark": [{"text": "払います", "role": "nothing"}], "base": "払う", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 39, "verb": "寝る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は寝ます, あなたは寝ます, 彼女は寝ます, 私たちは寝ます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I sleep", "foreign": "私は寝ます", "mark": [{"text": "寝ます", "role": "nothing"}], "base": "寝る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You sleep", "foreign": "あなたは寝ます", "mark": [{"text": "寝ます", "role": "nothing"}], "base": "寝る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She sleeps", "foreign": "彼女は寝ます", "mark": [{"text": "寝ます", "role": "nothing"}], "base": "寝る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We sleep", "foreign": "私たちは寝ます", "mark": [{"text": "寝ます", "role": "nothing"}], "base": "寝る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 40, "verb": "起きる", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は起きます, あなたは起きます, 彼女は起きます, 私たちは起きます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I get up", "foreign": "私は起きます", "mark": [{"text": "起きます", "role": "nothing"}], "base": "起きる", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You get up", "foreign": "あなたは起きます", "mark": [{"text": "起きます", "role": "nothing"}], "base": "起きる", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She gets up", "foreign": "彼女は起きます", "mark": [{"text": "起きます", "role": "nothing"}], "base": "起きる", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We get up", "foreign": "私たちは起きます", "mark": [{"text": "起きます", "role": "nothing"}], "base": "起きる", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 41, "verb": "教える", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は教えます, あなたは教えます, 彼女は教えます, 私たちは教えます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I teach", "foreign": "私は教えます", "mark": [{"text": "教えます", "role": "nothing"}], "base": "教える", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You teach", "foreign": "あなたは教えます", "mark": [{"text": "教えます", "role": "nothing"}], "base": "教える", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She teaches", "foreign": "彼女は教えます", "mark": [{"text": "教えます", "role": "nothing"}], "base": "教える", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We teach", "foreign": "私たちは教えます", "mark": [{"text": "教えます", "role": "nothing"}], "base": "教える", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 42, "verb": "習う", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は習います, あなたは習います, 彼女は習います, 私たちは習います. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I learn", "foreign": "私は習います", "mark": [{"text": "習います", "role": "nothing"}], "base": "習う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You learn", "foreign": "あなたは習います", "mark": [{"text": "習います", "role": "nothing"}], "base": "習う", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She learns", "foreign": "彼女は習います", "mark": [{"text": "習います", "role": "nothing"}], "base": "習う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We learn", "foreign": "私たちは習います", "mark": [{"text": "習います", "role": "nothing"}], "base": "習う", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 43, "verb": "作る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は作ります, あなたは作ります, 彼女は作ります, 私たちは作ります. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I make", "foreign": "私は作ります", "mark": [{"text": "作ります", "role": "nothing"}], "base": "作る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You make", "foreign": "あなたは作ります", "mark": [{"text": "作ります", "role": "nothing"}], "base": "作る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She makes", "foreign": "彼女は作ります", "mark": [{"text": "作ります", "role": "nothing"}], "base": "作る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We make", "foreign": "私たちは作ります", "mark": [{"text": "作ります", "role": "nothing"}], "base": "作る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 44, "verb": "使う", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は使います, あなたは使います, 彼女は使います, 私たちは使います. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I use", "foreign": "私は使います", "mark": [{"text": "使います", "role": "nothing"}], "base": "使う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You use", "foreign": "あなたは使います", "mark": [{"text": "使います", "role": "nothing"}], "base": "使う", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She uses", "foreign": "彼女は使います", "mark": [{"text": "使います", "role": "nothing"}], "base": "使う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We use", "foreign": "私たちは使います", "mark": [{"text": "使います", "role": "nothing"}], "base": "使う", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 45, "verb": "洗う", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は洗います, あなたは洗います, 彼女は洗います, 私たちは洗います. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I wash", "foreign": "私は洗います", "mark": [{"text": "洗います", "role": "nothing"}], "base": "洗う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You wash", "foreign": "あなたは洗います", "mark": [{"text": "洗います", "role": "nothing"}], "base": "洗う", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She washes", "foreign": "彼女は洗います", "mark": [{"text": "洗います", "role": "nothing"}], "base": "洗う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We wash", "foreign": "私たちは洗います", "mark": [{"text": "洗います", "role": "nothing"}], "base": "洗う", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 46, "verb": "開ける", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は開けます, あなたは開けます, 彼女は開けます, 私たちは開けます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I open", "foreign": "私は開けます", "mark": [{"text": "開けます", "role": "nothing"}], "base": "開ける", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You open", "foreign": "あなたは開けます", "mark": [{"text": "開けます", "role": "nothing"}], "base": "開ける", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She opens", "foreign": "彼女は開けます", "mark": [{"text": "開けます", "role": "nothing"}], "base": "開ける", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We open", "foreign": "私たちは開けます", "mark": [{"text": "開けます", "role": "nothing"}], "base": "開ける", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 47, "verb": "閉める", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は閉めます, あなたは閉めます, 彼女は閉めます, 私たちは閉めます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I close", "foreign": "私は閉めます", "mark": [{"text": "閉めます", "role": "nothing"}], "base": "閉める", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You close", "foreign": "あなたは閉めます", "mark": [{"text": "閉めます", "role": "nothing"}], "base": "閉める", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She closes", "foreign": "彼女は閉めます", "mark": [{"text": "閉めます", "role": "nothing"}], "base": "閉める", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We close", "foreign": "私たちは閉めます", "mark": [{"text": "閉めます", "role": "nothing"}], "base": "閉める", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 48, "verb": "会う", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は会います, あなたは会います, 彼女は会います, 私たちは会います. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I meet", "foreign": "私は会います", "mark": [{"text": "会います", "role": "nothing"}], "base": "会う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You meet", "foreign": "あなたは会います", "mark": [{"text": "会います", "role": "nothing"}], "base": "会う", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She meets", "foreign": "彼女は会います", "mark": [{"text": "会います", "role": "nothing"}], "base": "会う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We meet", "foreign": "私たちは会います", "mark": [{"text": "会います", "role": "nothing"}], "base": "会う", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 49, "verb": "送る", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は送ります, あなたは送ります, 彼女は送ります, 私たちは送ります. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I send", "foreign": "私は送ります", "mark": [{"text": "送ります", "role": "nothing"}], "base": "送る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You send", "foreign": "あなたは送ります", "mark": [{"text": "送ります", "role": "nothing"}], "base": "送る", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She sends", "foreign": "彼女は送ります", "mark": [{"text": "送ります", "role": "nothing"}], "base": "送る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We send", "foreign": "私たちは送ります", "mark": [{"text": "送ります", "role": "nothing"}], "base": "送る", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 50, "verb": "呼ぶ", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 私は呼びます, あなたは呼びます, 彼女は呼びます, 私たちは呼びます. Only the word in front, marked by は, says who.", "rows": [
+				{"english": "I call", "foreign": "私は呼びます", "mark": [{"text": "呼びます", "role": "nothing"}], "base": "呼ぶ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You call", "foreign": "あなたは呼びます", "mark": [{"text": "呼びます", "role": "nothing"}], "base": "呼ぶ", "features": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She calls", "foreign": "彼女は呼びます", "mark": [{"text": "呼びます", "role": "nothing"}], "base": "呼ぶ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We call", "foreign": "私たちは呼びます", "mark": [{"text": "呼びます", "role": "nothing"}], "base": "呼ぶ", "features": {"who": "we", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 2, "verb": "食べる", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 食べます, 食べました. A day word says which: 明日食べます, 昨日食べました.", "rows": [
+				{"english": "I eat", "foreign": "食べます", "mark": ["ます"], "base": "食べる", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I ate", "foreign": "食べました", "mark": ["ました"], "from": 1, "base": "食べる", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will eat tomorrow", "foreign": "明日食べます", "mark": ["ます"], "base": "食べる", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I ate yesterday", "foreign": "昨日食べました", "mark": ["ました"], "base": "食べる", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 3, "verb": "飲む", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 飲みます, 飲みました. A day word says which: 明日飲みます, 昨日飲みました.", "rows": [
+				{"english": "I drink", "foreign": "飲みます", "mark": ["ます"], "base": "飲む", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I drank", "foreign": "飲みました", "mark": ["ました"], "from": 1, "base": "飲む", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will drink tomorrow", "foreign": "明日飲みます", "mark": ["ます"], "base": "飲む", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I drank yesterday", "foreign": "昨日飲みました", "mark": ["ました"], "base": "飲む", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 4, "verb": "来る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 来ます, 来ました. A day word says which: 明日来ます, 昨日来ました.", "rows": [
+				{"english": "I come", "foreign": "来ます", "mark": ["ます"], "base": "来る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I came", "foreign": "来ました", "mark": ["ました"], "from": 1, "base": "来る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will come tomorrow", "foreign": "明日来ます", "mark": ["ます"], "base": "来る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I came yesterday", "foreign": "昨日来ました", "mark": ["ました"], "base": "来る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 5, "verb": "見る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 見ます, 見ました. A day word says which: 明日見ます, 昨日見ました.", "rows": [
+				{"english": "I watch", "foreign": "見ます", "mark": ["ます"], "base": "見る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I watched", "foreign": "見ました", "mark": ["ました"], "from": 1, "base": "見る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will watch tomorrow", "foreign": "明日見ます", "mark": ["ます"], "base": "見る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I watched yesterday", "foreign": "昨日見ました", "mark": ["ました"], "base": "見る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 6, "verb": "聞く", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 聞きます, 聞きました. A day word says which: 明日聞きます, 昨日聞きました.", "rows": [
+				{"english": "I listen", "foreign": "聞きます", "mark": ["ます"], "base": "聞く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I listened", "foreign": "聞きました", "mark": ["ました"], "from": 1, "base": "聞く", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will listen tomorrow", "foreign": "明日聞きます", "mark": ["ます"], "base": "聞く", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I listened yesterday", "foreign": "昨日聞きました", "mark": ["ました"], "base": "聞く", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 7, "verb": "話す", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 話します, 話しました. A day word says which: 明日話します, 昨日話しました.", "rows": [
+				{"english": "I speak", "foreign": "話します", "mark": ["ます"], "base": "話す", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I spoke", "foreign": "話しました", "mark": ["ました"], "from": 1, "base": "話す", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will speak tomorrow", "foreign": "明日話します", "mark": ["ます"], "base": "話す", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I spoke yesterday", "foreign": "昨日話しました", "mark": ["ました"], "base": "話す", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 8, "verb": "書く", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 書きます, 書きました. A day word says which: 明日書きます, 昨日書きました.", "rows": [
+				{"english": "I write", "foreign": "書きます", "mark": ["ます"], "base": "書く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I wrote", "foreign": "書きました", "mark": ["ました"], "from": 1, "base": "書く", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will write tomorrow", "foreign": "明日書きます", "mark": ["ます"], "base": "書く", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I wrote yesterday", "foreign": "昨日書きました", "mark": ["ました"], "base": "書く", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 9, "verb": "歩く", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 歩きます, 歩きました. A day word says which: 明日歩きます, 昨日歩きました.", "rows": [
+				{"english": "I walk", "foreign": "歩きます", "mark": ["ます"], "base": "歩く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I walked", "foreign": "歩きました", "mark": ["ました"], "from": 1, "base": "歩く", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will walk tomorrow", "foreign": "明日歩きます", "mark": ["ます"], "base": "歩く", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I walked yesterday", "foreign": "昨日歩きました", "mark": ["ました"], "base": "歩く", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 10, "verb": "走る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 走ります, 走りました. A day word says which: 明日走ります, 昨日走りました.", "rows": [
+				{"english": "I run", "foreign": "走ります", "mark": ["ます"], "base": "走る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I ran", "foreign": "走りました", "mark": ["ました"], "from": 1, "base": "走る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will run tomorrow", "foreign": "明日走ります", "mark": ["ます"], "base": "走る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I ran yesterday", "foreign": "昨日走りました", "mark": ["ました"], "base": "走る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 11, "verb": "買う", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 買います, 買いました. A day word says which: 明日買います, 昨日買いました.", "rows": [
+				{"english": "I buy", "foreign": "買います", "mark": ["ます"], "base": "買う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I bought", "foreign": "買いました", "mark": ["ました"], "from": 1, "base": "買う", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will buy tomorrow", "foreign": "明日買います", "mark": ["ます"], "base": "買う", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I bought yesterday", "foreign": "昨日買いました", "mark": ["ました"], "base": "買う", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 12, "verb": "売る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 売ります, 売りました. A day word says which: 明日売ります, 昨日売りました.", "rows": [
+				{"english": "I sell", "foreign": "売ります", "mark": ["ます"], "base": "売る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I sold", "foreign": "売りました", "mark": ["ました"], "from": 1, "base": "売る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will sell tomorrow", "foreign": "明日売ります", "mark": ["ます"], "base": "売る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I sold yesterday", "foreign": "昨日売りました", "mark": ["ました"], "base": "売る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 13, "verb": "待つ", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 待ちます, 待ちました. A day word says which: 明日待ちます, 昨日待ちました.", "rows": [
+				{"english": "I wait", "foreign": "待ちます", "mark": ["ます"], "base": "待つ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I waited", "foreign": "待ちました", "mark": ["ました"], "from": 1, "base": "待つ", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will wait tomorrow", "foreign": "明日待ちます", "mark": ["ます"], "base": "待つ", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I waited yesterday", "foreign": "昨日待ちました", "mark": ["ました"], "base": "待つ", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 14, "verb": "探す", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 探します, 探しました. A day word says which: 明日探します, 昨日探しました.", "rows": [
+				{"english": "I look for", "foreign": "探します", "mark": ["ます"], "base": "探す", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I looked for", "foreign": "探しました", "mark": ["ました"], "from": 1, "base": "探す", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will look for tomorrow", "foreign": "明日探します", "mark": ["ます"], "base": "探す", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I looked for yesterday", "foreign": "昨日探しました", "mark": ["ました"], "base": "探す", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 15, "verb": "考える", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 考えます, 考えました. A day word says which: 明日考えます, 昨日考えました.", "rows": [
+				{"english": "I think", "foreign": "考えます", "mark": ["ます"], "base": "考える", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I thought", "foreign": "考えました", "mark": ["ました"], "from": 1, "base": "考える", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will think tomorrow", "foreign": "明日考えます", "mark": ["ます"], "base": "考える", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I thought yesterday", "foreign": "昨日考えました", "mark": ["ました"], "base": "考える", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 16, "verb": "笑う", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 笑います, 笑いました. A day word says which: 明日笑います, 昨日笑いました.", "rows": [
+				{"english": "I laugh", "foreign": "笑います", "mark": ["ます"], "base": "笑う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I laughed", "foreign": "笑いました", "mark": ["ました"], "from": 1, "base": "笑う", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will laugh tomorrow", "foreign": "明日笑います", "mark": ["ます"], "base": "笑う", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I laughed yesterday", "foreign": "昨日笑いました", "mark": ["ました"], "base": "笑う", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 17, "verb": "泣く", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 泣きます, 泣きました. A day word says which: 明日泣きます, 昨日泣きました.", "rows": [
+				{"english": "I cry", "foreign": "泣きます", "mark": ["ます"], "base": "泣く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I cried", "foreign": "泣きました", "mark": ["ました"], "from": 1, "base": "泣く", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will cry tomorrow", "foreign": "明日泣きます", "mark": ["ます"], "base": "泣く", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I cried yesterday", "foreign": "昨日泣きました", "mark": ["ました"], "base": "泣く", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 18, "verb": "遊ぶ", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 遊びます, 遊びました. A day word says which: 明日遊びます, 昨日遊びました.", "rows": [
+				{"english": "I play", "foreign": "遊びます", "mark": ["ます"], "base": "遊ぶ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I played", "foreign": "遊びました", "mark": ["ました"], "from": 1, "base": "遊ぶ", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will play tomorrow", "foreign": "明日遊びます", "mark": ["ます"], "base": "遊ぶ", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I played yesterday", "foreign": "昨日遊びました", "mark": ["ました"], "base": "遊ぶ", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 19, "verb": "歌う", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 歌います, 歌いました. A day word says which: 明日歌います, 昨日歌いました.", "rows": [
+				{"english": "I sing", "foreign": "歌います", "mark": ["ます"], "base": "歌う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I sang", "foreign": "歌いました", "mark": ["ました"], "from": 1, "base": "歌う", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will sing tomorrow", "foreign": "明日歌います", "mark": ["ます"], "base": "歌う", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I sang yesterday", "foreign": "昨日歌いました", "mark": ["ました"], "base": "歌う", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 20, "verb": "踊る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 踊ります, 踊りました. A day word says which: 明日踊ります, 昨日踊りました.", "rows": [
+				{"english": "I dance", "foreign": "踊ります", "mark": ["ます"], "base": "踊る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I danced", "foreign": "踊りました", "mark": ["ました"], "from": 1, "base": "踊る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will dance tomorrow", "foreign": "明日踊ります", "mark": ["ます"], "base": "踊る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I danced yesterday", "foreign": "昨日踊りました", "mark": ["ました"], "base": "踊る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 21, "verb": "泳ぐ", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 泳ぎます, 泳ぎました. A day word says which: 明日泳ぎます, 昨日泳ぎました.", "rows": [
+				{"english": "I swim", "foreign": "泳ぎます", "mark": ["ます"], "base": "泳ぐ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I swam", "foreign": "泳ぎました", "mark": ["ました"], "from": 1, "base": "泳ぐ", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will swim tomorrow", "foreign": "明日泳ぎます", "mark": ["ます"], "base": "泳ぐ", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I swam yesterday", "foreign": "昨日泳ぎました", "mark": ["ました"], "base": "泳ぐ", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 22, "verb": "働く", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 働きます, 働きました. A day word says which: 明日働きます, 昨日働きました.", "rows": [
+				{"english": "I work", "foreign": "働きます", "mark": ["ます"], "base": "働く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I worked", "foreign": "働きました", "mark": ["ました"], "from": 1, "base": "働く", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will work tomorrow", "foreign": "明日働きます", "mark": ["ます"], "base": "働く", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I worked yesterday", "foreign": "昨日働きました", "mark": ["ました"], "base": "働く", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 23, "verb": "勉強する", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 勉強します, 勉強しました. A day word says which: 明日勉強します, 昨日勉強しました.", "rows": [
+				{"english": "I study", "foreign": "勉強します", "mark": ["ます"], "base": "勉強する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I studied", "foreign": "勉強しました", "mark": ["ました"], "from": 1, "base": "勉強する", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will study tomorrow", "foreign": "明日勉強します", "mark": ["ます"], "base": "勉強する", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I studied yesterday", "foreign": "昨日勉強しました", "mark": ["ました"], "base": "勉強する", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 24, "verb": "休む", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 休みます, 休みました. A day word says which: 明日休みます, 昨日休みました.", "rows": [
+				{"english": "I rest", "foreign": "休みます", "mark": ["ます"], "base": "休む", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I rested", "foreign": "休みました", "mark": ["ました"], "from": 1, "base": "休む", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will rest tomorrow", "foreign": "明日休みます", "mark": ["ます"], "base": "休む", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I rested yesterday", "foreign": "昨日休みました", "mark": ["ました"], "base": "休む", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 25, "verb": "始める", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 始めます, 始めました. A day word says which: 明日始めます, 昨日始めました.", "rows": [
+				{"english": "I begin", "foreign": "始めます", "mark": ["ます"], "base": "始める", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I began", "foreign": "始めました", "mark": ["ました"], "from": 1, "base": "始める", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will begin tomorrow", "foreign": "明日始めます", "mark": ["ます"], "base": "始める", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I began yesterday", "foreign": "昨日始めました", "mark": ["ました"], "base": "始める", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 26, "verb": "手伝う", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 手伝います, 手伝いました. A day word says which: 明日手伝います, 昨日手伝いました.", "rows": [
+				{"english": "I help", "foreign": "手伝います", "mark": ["ます"], "base": "手伝う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I helped", "foreign": "手伝いました", "mark": ["ました"], "from": 1, "base": "手伝う", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will help tomorrow", "foreign": "明日手伝います", "mark": ["ます"], "base": "手伝う", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I helped yesterday", "foreign": "昨日手伝いました", "mark": ["ました"], "base": "手伝う", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 27, "verb": "帰る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 帰ります, 帰りました. A day word says which: 明日帰ります, 昨日帰りました.", "rows": [
+				{"english": "I go home", "foreign": "帰ります", "mark": ["ます"], "base": "帰る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I went home", "foreign": "帰りました", "mark": ["ました"], "from": 1, "base": "帰る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will go home tomorrow", "foreign": "明日帰ります", "mark": ["ます"], "base": "帰る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I went home yesterday", "foreign": "昨日帰りました", "mark": ["ました"], "base": "帰る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 28, "verb": "出かける", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 出かけます, 出かけました. A day word says which: 明日出かけます, 昨日出かけました.", "rows": [
+				{"english": "I go out", "foreign": "出かけます", "mark": ["ます"], "base": "出かける", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I went out", "foreign": "出かけました", "mark": ["ました"], "from": 1, "base": "出かける", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will go out tomorrow", "foreign": "明日出かけます", "mark": ["ます"], "base": "出かける", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I went out yesterday", "foreign": "昨日出かけました", "mark": ["ました"], "base": "出かける", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 29, "verb": "入る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 入ります, 入りました. A day word says which: 明日入ります, 昨日入りました.", "rows": [
+				{"english": "I enter", "foreign": "入ります", "mark": ["ます"], "base": "入る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I entered", "foreign": "入りました", "mark": ["ました"], "from": 1, "base": "入る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will enter tomorrow", "foreign": "明日入ります", "mark": ["ます"], "base": "入る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I entered yesterday", "foreign": "昨日入りました", "mark": ["ました"], "base": "入る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 30, "verb": "料理する", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 料理します, 料理しました. A day word says which: 明日料理します, 昨日料理しました.", "rows": [
+				{"english": "I cook", "foreign": "料理します", "mark": ["ます"], "base": "料理する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I cooked", "foreign": "料理しました", "mark": ["ました"], "from": 1, "base": "料理する", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will cook tomorrow", "foreign": "明日料理します", "mark": ["ます"], "base": "料理する", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I cooked yesterday", "foreign": "昨日料理しました", "mark": ["ました"], "base": "料理する", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 31, "verb": "電話する", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 電話します, 電話しました. A day word says which: 明日電話します, 昨日電話しました.", "rows": [
+				{"english": "I phone", "foreign": "電話します", "mark": ["ます"], "base": "電話する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I phoned", "foreign": "電話しました", "mark": ["ました"], "from": 1, "base": "電話する", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will phone tomorrow", "foreign": "明日電話します", "mark": ["ます"], "base": "電話する", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I phoned yesterday", "foreign": "昨日電話しました", "mark": ["ました"], "base": "電話する", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 32, "verb": "運転する", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 運転します, 運転しました. A day word says which: 明日運転します, 昨日運転しました.", "rows": [
+				{"english": "I drive", "foreign": "運転します", "mark": ["ます"], "base": "運転する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I drove", "foreign": "運転しました", "mark": ["ました"], "from": 1, "base": "運転する", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will drive tomorrow", "foreign": "明日運転します", "mark": ["ます"], "base": "運転する", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I drove yesterday", "foreign": "昨日運転しました", "mark": ["ました"], "base": "運転する", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 33, "verb": "座る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 座ります, 座りました. A day word says which: 明日座ります, 昨日座りました.", "rows": [
+				{"english": "I sit", "foreign": "座ります", "mark": ["ます"], "base": "座る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I sat", "foreign": "座りました", "mark": ["ました"], "from": 1, "base": "座る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will sit tomorrow", "foreign": "明日座ります", "mark": ["ます"], "base": "座る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I sat yesterday", "foreign": "昨日座りました", "mark": ["ました"], "base": "座る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 34, "verb": "立つ", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 立ちます, 立ちました. A day word says which: 明日立ちます, 昨日立ちました.", "rows": [
+				{"english": "I stand", "foreign": "立ちます", "mark": ["ます"], "base": "立つ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I stood", "foreign": "立ちました", "mark": ["ました"], "from": 1, "base": "立つ", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will stand tomorrow", "foreign": "明日立ちます", "mark": ["ます"], "base": "立つ", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I stood yesterday", "foreign": "昨日立ちました", "mark": ["ました"], "base": "立つ", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 35, "verb": "飛ぶ", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 飛びます, 飛びました. A day word says which: 明日飛びます, 昨日飛びました.", "rows": [
+				{"english": "I fly", "foreign": "飛びます", "mark": ["ます"], "base": "飛ぶ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I flew", "foreign": "飛びました", "mark": ["ました"], "from": 1, "base": "飛ぶ", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will fly tomorrow", "foreign": "明日飛びます", "mark": ["ます"], "base": "飛ぶ", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I flew yesterday", "foreign": "昨日飛びました", "mark": ["ました"], "base": "飛ぶ", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 36, "verb": "答える", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 答えます, 答えました. A day word says which: 明日答えます, 昨日答えました.", "rows": [
+				{"english": "I answer", "foreign": "答えます", "mark": ["ます"], "base": "答える", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I answered", "foreign": "答えました", "mark": ["ました"], "from": 1, "base": "答える", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will answer tomorrow", "foreign": "明日答えます", "mark": ["ます"], "base": "答える", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I answered yesterday", "foreign": "昨日答えました", "mark": ["ました"], "base": "答える", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 37, "verb": "忘れる", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 忘れます, 忘れました. A day word says which: 明日忘れます, 昨日忘れました.", "rows": [
+				{"english": "I forget", "foreign": "忘れます", "mark": ["ます"], "base": "忘れる", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I forgot", "foreign": "忘れました", "mark": ["ました"], "from": 1, "base": "忘れる", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will forget tomorrow", "foreign": "明日忘れます", "mark": ["ます"], "base": "忘れる", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I forgot yesterday", "foreign": "昨日忘れました", "mark": ["ました"], "base": "忘れる", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 38, "verb": "払う", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 払います, 払いました. A day word says which: 明日払います, 昨日払いました.", "rows": [
+				{"english": "I pay", "foreign": "払います", "mark": ["ます"], "base": "払う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I paid", "foreign": "払いました", "mark": ["ました"], "from": 1, "base": "払う", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will pay tomorrow", "foreign": "明日払います", "mark": ["ます"], "base": "払う", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I paid yesterday", "foreign": "昨日払いました", "mark": ["ました"], "base": "払う", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 39, "verb": "寝る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 寝ます, 寝ました. A day word says which: 明日寝ます, 昨日寝ました.", "rows": [
+				{"english": "I sleep", "foreign": "寝ます", "mark": ["ます"], "base": "寝る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I slept", "foreign": "寝ました", "mark": ["ました"], "from": 1, "base": "寝る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will sleep tomorrow", "foreign": "明日寝ます", "mark": ["ます"], "base": "寝る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I slept yesterday", "foreign": "昨日寝ました", "mark": ["ました"], "base": "寝る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 40, "verb": "起きる", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 起きます, 起きました. A day word says which: 明日起きます, 昨日起きました.", "rows": [
+				{"english": "I get up", "foreign": "起きます", "mark": ["ます"], "base": "起きる", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I got up", "foreign": "起きました", "mark": ["ました"], "from": 1, "base": "起きる", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will get up tomorrow", "foreign": "明日起きます", "mark": ["ます"], "base": "起きる", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I got up yesterday", "foreign": "昨日起きました", "mark": ["ました"], "base": "起きる", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 41, "verb": "教える", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 教えます, 教えました. A day word says which: 明日教えます, 昨日教えました.", "rows": [
+				{"english": "I teach", "foreign": "教えます", "mark": ["ます"], "base": "教える", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I taught", "foreign": "教えました", "mark": ["ました"], "from": 1, "base": "教える", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will teach tomorrow", "foreign": "明日教えます", "mark": ["ます"], "base": "教える", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I taught yesterday", "foreign": "昨日教えました", "mark": ["ました"], "base": "教える", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 42, "verb": "習う", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 習います, 習いました. A day word says which: 明日習います, 昨日習いました.", "rows": [
+				{"english": "I learn", "foreign": "習います", "mark": ["ます"], "base": "習う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I learned", "foreign": "習いました", "mark": ["ました"], "from": 1, "base": "習う", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will learn tomorrow", "foreign": "明日習います", "mark": ["ます"], "base": "習う", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I learned yesterday", "foreign": "昨日習いました", "mark": ["ました"], "base": "習う", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 43, "verb": "作る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 作ります, 作りました. A day word says which: 明日作ります, 昨日作りました.", "rows": [
+				{"english": "I make", "foreign": "作ります", "mark": ["ます"], "base": "作る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I made", "foreign": "作りました", "mark": ["ました"], "from": 1, "base": "作る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will make tomorrow", "foreign": "明日作ります", "mark": ["ます"], "base": "作る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I made yesterday", "foreign": "昨日作りました", "mark": ["ました"], "base": "作る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 44, "verb": "使う", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 使います, 使いました. A day word says which: 明日使います, 昨日使いました.", "rows": [
+				{"english": "I use", "foreign": "使います", "mark": ["ます"], "base": "使う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I used", "foreign": "使いました", "mark": ["ました"], "from": 1, "base": "使う", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will use tomorrow", "foreign": "明日使います", "mark": ["ます"], "base": "使う", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I used yesterday", "foreign": "昨日使いました", "mark": ["ました"], "base": "使う", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 45, "verb": "洗う", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 洗います, 洗いました. A day word says which: 明日洗います, 昨日洗いました.", "rows": [
+				{"english": "I wash", "foreign": "洗います", "mark": ["ます"], "base": "洗う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I washed", "foreign": "洗いました", "mark": ["ました"], "from": 1, "base": "洗う", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will wash tomorrow", "foreign": "明日洗います", "mark": ["ます"], "base": "洗う", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I washed yesterday", "foreign": "昨日洗いました", "mark": ["ました"], "base": "洗う", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 46, "verb": "開ける", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 開けます, 開けました. A day word says which: 明日開けます, 昨日開けました.", "rows": [
+				{"english": "I open", "foreign": "開けます", "mark": ["ます"], "base": "開ける", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I opened", "foreign": "開けました", "mark": ["ました"], "from": 1, "base": "開ける", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will open tomorrow", "foreign": "明日開けます", "mark": ["ます"], "base": "開ける", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I opened yesterday", "foreign": "昨日開けました", "mark": ["ました"], "base": "開ける", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 47, "verb": "閉める", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 閉めます, 閉めました. A day word says which: 明日閉めます, 昨日閉めました.", "rows": [
+				{"english": "I close", "foreign": "閉めます", "mark": ["ます"], "base": "閉める", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I closed", "foreign": "閉めました", "mark": ["ました"], "from": 1, "base": "閉める", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will close tomorrow", "foreign": "明日閉めます", "mark": ["ます"], "base": "閉める", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I closed yesterday", "foreign": "昨日閉めました", "mark": ["ました"], "base": "閉める", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 48, "verb": "会う", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 会います, 会いました. A day word says which: 明日会います, 昨日会いました.", "rows": [
+				{"english": "I meet", "foreign": "会います", "mark": ["ます"], "base": "会う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I met", "foreign": "会いました", "mark": ["ました"], "from": 1, "base": "会う", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will meet tomorrow", "foreign": "明日会います", "mark": ["ます"], "base": "会う", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I met yesterday", "foreign": "昨日会いました", "mark": ["ました"], "base": "会う", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 49, "verb": "送る", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 送ります, 送りました. A day word says which: 明日送ります, 昨日送りました.", "rows": [
+				{"english": "I send", "foreign": "送ります", "mark": ["ます"], "base": "送る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I sent", "foreign": "送りました", "mark": ["ました"], "from": 1, "base": "送る", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will send tomorrow", "foreign": "明日送ります", "mark": ["ます"], "base": "送る", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I sent yesterday", "foreign": "昨日送りました", "mark": ["ました"], "base": "送る", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 50, "verb": "呼ぶ", "strategy": ["ending"], "description": "The ending says when: ます for now and for later, ました for before: 呼びます, 呼びました. A day word says which: 明日呼びます, 昨日呼びました.", "rows": [
+				{"english": "I call", "foreign": "呼びます", "mark": ["ます"], "base": "呼ぶ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I called", "foreign": "呼びました", "mark": ["ました"], "from": 1, "base": "呼ぶ", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will call tomorrow", "foreign": "明日呼びます", "mark": ["ます"], "base": "呼ぶ", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I called yesterday", "foreign": "昨日呼びました", "mark": ["ました"], "base": "呼ぶ", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 2, "verb": "食べる", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 食べています. It is made from the verb's て form.", "rows": [
+				{"english": "I eat", "foreign": "食べます", "base": "食べる", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am eating", "foreign": "食べています", "mark": ["ています"], "from": 1, "base": "食べる", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She eats", "foreign": "彼女は食べます", "base": "食べる", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is eating", "foreign": "彼女は食べています", "mark": ["ています"], "from": 3, "base": "食べる", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 3, "verb": "飲む", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 飲んでいます. It is made from the verb's て form.", "rows": [
+				{"english": "I drink", "foreign": "飲みます", "base": "飲む", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am drinking", "foreign": "飲んでいます", "mark": ["でいます"], "from": 1, "base": "飲む", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She drinks", "foreign": "彼女は飲みます", "base": "飲む", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is drinking", "foreign": "彼女は飲んでいます", "mark": ["でいます"], "from": 3, "base": "飲む", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 5, "verb": "見る", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 見ています. It is made from the verb's て form.", "rows": [
+				{"english": "I watch", "foreign": "見ます", "base": "見る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am watching", "foreign": "見ています", "mark": ["ています"], "from": 1, "base": "見る", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She watches", "foreign": "彼女は見ます", "base": "見る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is watching", "foreign": "彼女は見ています", "mark": ["ています"], "from": 3, "base": "見る", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 6, "verb": "聞く", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 聞いています. It is made from the verb's て form.", "rows": [
+				{"english": "I listen", "foreign": "聞きます", "base": "聞く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am listening", "foreign": "聞いています", "mark": ["ています"], "from": 1, "base": "聞く", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She listens", "foreign": "彼女は聞きます", "base": "聞く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is listening", "foreign": "彼女は聞いています", "mark": ["ています"], "from": 3, "base": "聞く", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 7, "verb": "話す", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 話しています. It is made from the verb's て form.", "rows": [
+				{"english": "I speak", "foreign": "話します", "base": "話す", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am speaking", "foreign": "話しています", "mark": ["ています"], "from": 1, "base": "話す", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She speaks", "foreign": "彼女は話します", "base": "話す", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is speaking", "foreign": "彼女は話しています", "mark": ["ています"], "from": 3, "base": "話す", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 8, "verb": "書く", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 書いています. It is made from the verb's て form.", "rows": [
+				{"english": "I write", "foreign": "書きます", "base": "書く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am writing", "foreign": "書いています", "mark": ["ています"], "from": 1, "base": "書く", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She writes", "foreign": "彼女は書きます", "base": "書く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is writing", "foreign": "彼女は書いています", "mark": ["ています"], "from": 3, "base": "書く", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 9, "verb": "歩く", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 歩いています. It is made from the verb's て form.", "rows": [
+				{"english": "I walk", "foreign": "歩きます", "base": "歩く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am walking", "foreign": "歩いています", "mark": ["ています"], "from": 1, "base": "歩く", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She walks", "foreign": "彼女は歩きます", "base": "歩く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is walking", "foreign": "彼女は歩いています", "mark": ["ています"], "from": 3, "base": "歩く", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 10, "verb": "走る", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 走っています. It is made from the verb's て form.", "rows": [
+				{"english": "I run", "foreign": "走ります", "base": "走る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am running", "foreign": "走っています", "mark": ["ています"], "from": 1, "base": "走る", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She runs", "foreign": "彼女は走ります", "base": "走る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is running", "foreign": "彼女は走っています", "mark": ["ています"], "from": 3, "base": "走る", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 11, "verb": "買う", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 買っています. It is made from the verb's て form.", "rows": [
+				{"english": "I buy", "foreign": "買います", "base": "買う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am buying", "foreign": "買っています", "mark": ["ています"], "from": 1, "base": "買う", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She buys", "foreign": "彼女は買います", "base": "買う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is buying", "foreign": "彼女は買っています", "mark": ["ています"], "from": 3, "base": "買う", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 12, "verb": "売る", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 売っています. It is made from the verb's て form.", "rows": [
+				{"english": "I sell", "foreign": "売ります", "base": "売る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am selling", "foreign": "売っています", "mark": ["ています"], "from": 1, "base": "売る", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She sells", "foreign": "彼女は売ります", "base": "売る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is selling", "foreign": "彼女は売っています", "mark": ["ています"], "from": 3, "base": "売る", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 13, "verb": "待つ", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 待っています. It is made from the verb's て form.", "rows": [
+				{"english": "I wait", "foreign": "待ちます", "base": "待つ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am waiting", "foreign": "待っています", "mark": ["ています"], "from": 1, "base": "待つ", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She waits", "foreign": "彼女は待ちます", "base": "待つ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is waiting", "foreign": "彼女は待っています", "mark": ["ています"], "from": 3, "base": "待つ", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 14, "verb": "探す", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 探しています. It is made from the verb's て form.", "rows": [
+				{"english": "I look for", "foreign": "探します", "base": "探す", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am looking for", "foreign": "探しています", "mark": ["ています"], "from": 1, "base": "探す", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She looks for", "foreign": "彼女は探します", "base": "探す", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is looking for", "foreign": "彼女は探しています", "mark": ["ています"], "from": 3, "base": "探す", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 15, "verb": "考える", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 考えています. It is made from the verb's て form.", "rows": [
+				{"english": "I think", "foreign": "考えます", "base": "考える", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am thinking", "foreign": "考えています", "mark": ["ています"], "from": 1, "base": "考える", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She thinks", "foreign": "彼女は考えます", "base": "考える", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is thinking", "foreign": "彼女は考えています", "mark": ["ています"], "from": 3, "base": "考える", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 16, "verb": "笑う", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 笑っています. It is made from the verb's て form.", "rows": [
+				{"english": "I laugh", "foreign": "笑います", "base": "笑う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am laughing", "foreign": "笑っています", "mark": ["ています"], "from": 1, "base": "笑う", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She laughs", "foreign": "彼女は笑います", "base": "笑う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is laughing", "foreign": "彼女は笑っています", "mark": ["ています"], "from": 3, "base": "笑う", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 17, "verb": "泣く", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 泣いています. It is made from the verb's て form.", "rows": [
+				{"english": "I cry", "foreign": "泣きます", "base": "泣く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am crying", "foreign": "泣いています", "mark": ["ています"], "from": 1, "base": "泣く", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She cries", "foreign": "彼女は泣きます", "base": "泣く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is crying", "foreign": "彼女は泣いています", "mark": ["ています"], "from": 3, "base": "泣く", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 18, "verb": "遊ぶ", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 遊んでいます. It is made from the verb's て form.", "rows": [
+				{"english": "I play", "foreign": "遊びます", "base": "遊ぶ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am playing", "foreign": "遊んでいます", "mark": ["でいます"], "from": 1, "base": "遊ぶ", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She plays", "foreign": "彼女は遊びます", "base": "遊ぶ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is playing", "foreign": "彼女は遊んでいます", "mark": ["でいます"], "from": 3, "base": "遊ぶ", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 19, "verb": "歌う", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 歌っています. It is made from the verb's て form.", "rows": [
+				{"english": "I sing", "foreign": "歌います", "base": "歌う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am singing", "foreign": "歌っています", "mark": ["ています"], "from": 1, "base": "歌う", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She sings", "foreign": "彼女は歌います", "base": "歌う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is singing", "foreign": "彼女は歌っています", "mark": ["ています"], "from": 3, "base": "歌う", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 20, "verb": "踊る", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 踊っています. It is made from the verb's て form.", "rows": [
+				{"english": "I dance", "foreign": "踊ります", "base": "踊る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am dancing", "foreign": "踊っています", "mark": ["ています"], "from": 1, "base": "踊る", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She dances", "foreign": "彼女は踊ります", "base": "踊る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is dancing", "foreign": "彼女は踊っています", "mark": ["ています"], "from": 3, "base": "踊る", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 21, "verb": "泳ぐ", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 泳いでいます. It is made from the verb's て form.", "rows": [
+				{"english": "I swim", "foreign": "泳ぎます", "base": "泳ぐ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am swimming", "foreign": "泳いでいます", "mark": ["でいます"], "from": 1, "base": "泳ぐ", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She swims", "foreign": "彼女は泳ぎます", "base": "泳ぐ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is swimming", "foreign": "彼女は泳いでいます", "mark": ["でいます"], "from": 3, "base": "泳ぐ", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 22, "verb": "働く", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 働いています. It is made from the verb's て form.", "rows": [
+				{"english": "I work", "foreign": "働きます", "base": "働く", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am working", "foreign": "働いています", "mark": ["ています"], "from": 1, "base": "働く", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She works", "foreign": "彼女は働きます", "base": "働く", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is working", "foreign": "彼女は働いています", "mark": ["ています"], "from": 3, "base": "働く", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 23, "verb": "勉強する", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 勉強しています. It is made from the verb's て form.", "rows": [
+				{"english": "I study", "foreign": "勉強します", "base": "勉強する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am studying", "foreign": "勉強しています", "mark": ["ています"], "from": 1, "base": "勉強する", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She studies", "foreign": "彼女は勉強します", "base": "勉強する", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is studying", "foreign": "彼女は勉強しています", "mark": ["ています"], "from": 3, "base": "勉強する", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 24, "verb": "休む", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 休んでいます. It is made from the verb's て form.", "rows": [
+				{"english": "I rest", "foreign": "休みます", "base": "休む", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am resting", "foreign": "休んでいます", "mark": ["でいます"], "from": 1, "base": "休む", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She rests", "foreign": "彼女は休みます", "base": "休む", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is resting", "foreign": "彼女は休んでいます", "mark": ["でいます"], "from": 3, "base": "休む", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 26, "verb": "手伝う", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 手伝っています. It is made from the verb's て form.", "rows": [
+				{"english": "I help", "foreign": "手伝います", "base": "手伝う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am helping", "foreign": "手伝っています", "mark": ["ています"], "from": 1, "base": "手伝う", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She helps", "foreign": "彼女は手伝います", "base": "手伝う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is helping", "foreign": "彼女は手伝っています", "mark": ["ています"], "from": 3, "base": "手伝う", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 30, "verb": "料理する", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 料理しています. It is made from the verb's て form.", "rows": [
+				{"english": "I cook", "foreign": "料理します", "base": "料理する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am cooking", "foreign": "料理しています", "mark": ["ています"], "from": 1, "base": "料理する", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She cooks", "foreign": "彼女は料理します", "base": "料理する", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is cooking", "foreign": "彼女は料理しています", "mark": ["ています"], "from": 3, "base": "料理する", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 31, "verb": "電話する", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 電話しています. It is made from the verb's て form.", "rows": [
+				{"english": "I phone", "foreign": "電話します", "base": "電話する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am phoning", "foreign": "電話しています", "mark": ["ています"], "from": 1, "base": "電話する", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She phones", "foreign": "彼女は電話します", "base": "電話する", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is phoning", "foreign": "彼女は電話しています", "mark": ["ています"], "from": 3, "base": "電話する", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 32, "verb": "運転する", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 運転しています. It is made from the verb's て form.", "rows": [
+				{"english": "I drive", "foreign": "運転します", "base": "運転する", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am driving", "foreign": "運転しています", "mark": ["ています"], "from": 1, "base": "運転する", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She drives", "foreign": "彼女は運転します", "base": "運転する", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is driving", "foreign": "彼女は運転しています", "mark": ["ています"], "from": 3, "base": "運転する", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 33, "verb": "座る", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 座っています. It is made from the verb's て form.", "rows": [
+				{"english": "I sit", "foreign": "座ります", "base": "座る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am sitting", "foreign": "座っています", "mark": ["ています"], "from": 1, "base": "座る", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She sits", "foreign": "彼女は座ります", "base": "座る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is sitting", "foreign": "彼女は座っています", "mark": ["ています"], "from": 3, "base": "座る", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 34, "verb": "立つ", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 立っています. It is made from the verb's て form.", "rows": [
+				{"english": "I stand", "foreign": "立ちます", "base": "立つ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am standing", "foreign": "立っています", "mark": ["ています"], "from": 1, "base": "立つ", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She stands", "foreign": "彼女は立ちます", "base": "立つ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is standing", "foreign": "彼女は立っています", "mark": ["ています"], "from": 3, "base": "立つ", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 35, "verb": "飛ぶ", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 飛んでいます. It is made from the verb's て form.", "rows": [
+				{"english": "I fly", "foreign": "飛びます", "base": "飛ぶ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am flying", "foreign": "飛んでいます", "mark": ["でいます"], "from": 1, "base": "飛ぶ", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She flies", "foreign": "彼女は飛びます", "base": "飛ぶ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is flying", "foreign": "彼女は飛んでいます", "mark": ["でいます"], "from": 3, "base": "飛ぶ", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 36, "verb": "答える", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 答えています. It is made from the verb's て form.", "rows": [
+				{"english": "I answer", "foreign": "答えます", "base": "答える", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am answering", "foreign": "答えています", "mark": ["ています"], "from": 1, "base": "答える", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She answers", "foreign": "彼女は答えます", "base": "答える", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is answering", "foreign": "彼女は答えています", "mark": ["ています"], "from": 3, "base": "答える", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 38, "verb": "払う", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 払っています. It is made from the verb's て form.", "rows": [
+				{"english": "I pay", "foreign": "払います", "base": "払う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am paying", "foreign": "払っています", "mark": ["ています"], "from": 1, "base": "払う", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She pays", "foreign": "彼女は払います", "base": "払う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is paying", "foreign": "彼女は払っています", "mark": ["ています"], "from": 3, "base": "払う", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 39, "verb": "寝る", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 寝ています. It is made from the verb's て form.", "rows": [
+				{"english": "I sleep", "foreign": "寝ます", "base": "寝る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am sleeping", "foreign": "寝ています", "mark": ["ています"], "from": 1, "base": "寝る", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She sleeps", "foreign": "彼女は寝ます", "base": "寝る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is sleeping", "foreign": "彼女は寝ています", "mark": ["ています"], "from": 3, "base": "寝る", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 41, "verb": "教える", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 教えています. It is made from the verb's て form.", "rows": [
+				{"english": "I teach", "foreign": "教えます", "base": "教える", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am teaching", "foreign": "教えています", "mark": ["ています"], "from": 1, "base": "教える", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She teaches", "foreign": "彼女は教えます", "base": "教える", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is teaching", "foreign": "彼女は教えています", "mark": ["ています"], "from": 3, "base": "教える", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 42, "verb": "習う", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 習っています. It is made from the verb's て form.", "rows": [
+				{"english": "I learn", "foreign": "習います", "base": "習う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am learning", "foreign": "習っています", "mark": ["ています"], "from": 1, "base": "習う", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She learns", "foreign": "彼女は習います", "base": "習う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is learning", "foreign": "彼女は習っています", "mark": ["ています"], "from": 3, "base": "習う", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 43, "verb": "作る", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 作っています. It is made from the verb's て form.", "rows": [
+				{"english": "I make", "foreign": "作ります", "base": "作る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am making", "foreign": "作っています", "mark": ["ています"], "from": 1, "base": "作る", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She makes", "foreign": "彼女は作ります", "base": "作る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is making", "foreign": "彼女は作っています", "mark": ["ています"], "from": 3, "base": "作る", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 44, "verb": "使う", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 使っています. It is made from the verb's て form.", "rows": [
+				{"english": "I use", "foreign": "使います", "base": "使う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am using", "foreign": "使っています", "mark": ["ています"], "from": 1, "base": "使う", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She uses", "foreign": "彼女は使います", "base": "使う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is using", "foreign": "彼女は使っています", "mark": ["ています"], "from": 3, "base": "使う", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 45, "verb": "洗う", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 洗っています. It is made from the verb's て form.", "rows": [
+				{"english": "I wash", "foreign": "洗います", "base": "洗う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am washing", "foreign": "洗っています", "mark": ["ています"], "from": 1, "base": "洗う", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She washes", "foreign": "彼女は洗います", "base": "洗う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is washing", "foreign": "彼女は洗っています", "mark": ["ています"], "from": 3, "base": "洗う", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 48, "verb": "会う", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 会っています. It is made from the verb's て form.", "rows": [
+				{"english": "I meet", "foreign": "会います", "base": "会う", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am meeting", "foreign": "会っています", "mark": ["ています"], "from": 1, "base": "会う", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She meets", "foreign": "彼女は会います", "base": "会う", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is meeting", "foreign": "彼女は会っています", "mark": ["ています"], "from": 3, "base": "会う", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 49, "verb": "送る", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 送っています. It is made from the verb's て form.", "rows": [
+				{"english": "I send", "foreign": "送ります", "base": "送る", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am sending", "foreign": "送っています", "mark": ["ています"], "from": 1, "base": "送る", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She sends", "foreign": "彼女は送ります", "base": "送る", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is sending", "foreign": "彼女は送っています", "mark": ["ています"], "from": 3, "base": "送る", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 50, "verb": "呼ぶ", "strategy": ["ending"], "description": "For something going on right now, the verb ends in ています: 呼んでいます. It is made from the verb's て form.", "rows": [
+				{"english": "I call", "foreign": "呼びます", "base": "呼ぶ", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am calling", "foreign": "呼んでいます", "mark": ["でいます"], "from": 1, "base": "呼ぶ", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She calls", "foreign": "彼女は呼びます", "base": "呼ぶ", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is calling", "foreign": "彼女は呼んでいます", "mark": ["でいます"], "from": 3, "base": "呼ぶ", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 2, "verb": "食べる", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 食べてください。 To ask them not to, its ない form and でください: 食べないでください。 For let's, ましょう: 食べましょう！ And to ask shall we, ませんか: 食べませんか？", "rows": [
+				{"english": "Please eat.", "foreign": "食べてください。", "mark": ["てください"], "base": "食べる", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not eat.", "foreign": "食べないでください。", "mark": ["ないでください"], "from": 1, "base": "食べる", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's eat!", "foreign": "食べましょう！", "mark": ["ましょう"], "base": "食べる", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we eat?", "foreign": "食べませんか？", "mark": ["ませんか"], "base": "食べる", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 3, "verb": "飲む", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 飲んでください。 To ask them not to, its ない form and でください: 飲まないでください。 For let's, ましょう: 飲みましょう！ And to ask shall we, ませんか: 飲みませんか？", "rows": [
+				{"english": "Please drink.", "foreign": "飲んでください。", "mark": ["でください"], "base": "飲む", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not drink.", "foreign": "飲まないでください。", "mark": ["ないでください"], "from": 1, "base": "飲む", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's drink!", "foreign": "飲みましょう！", "mark": ["ましょう"], "base": "飲む", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we drink?", "foreign": "飲みませんか？", "mark": ["ませんか"], "base": "飲む", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 5, "verb": "見る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 見てください。 To ask them not to, its ない form and でください: 見ないでください。 For let's, ましょう: 見ましょう！ And to ask shall we, ませんか: 見ませんか？", "rows": [
+				{"english": "Please watch.", "foreign": "見てください。", "mark": ["てください"], "base": "見る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not watch.", "foreign": "見ないでください。", "mark": ["ないでください"], "from": 1, "base": "見る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's watch!", "foreign": "見ましょう！", "mark": ["ましょう"], "base": "見る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we watch?", "foreign": "見ませんか？", "mark": ["ませんか"], "base": "見る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 6, "verb": "聞く", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 聞いてください。 To ask them not to, its ない form and でください: 聞かないでください。 For let's, ましょう: 聞きましょう！ And to ask shall we, ませんか: 聞きませんか？", "rows": [
+				{"english": "Please listen.", "foreign": "聞いてください。", "mark": ["てください"], "base": "聞く", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not listen.", "foreign": "聞かないでください。", "mark": ["ないでください"], "from": 1, "base": "聞く", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's listen!", "foreign": "聞きましょう！", "mark": ["ましょう"], "base": "聞く", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we listen?", "foreign": "聞きませんか？", "mark": ["ませんか"], "base": "聞く", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 7, "verb": "話す", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 話してください。 To ask them not to, its ない form and でください: 話さないでください。 For let's, ましょう: 話しましょう！ And to ask shall we, ませんか: 話しませんか？", "rows": [
+				{"english": "Please speak.", "foreign": "話してください。", "mark": ["てください"], "base": "話す", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not speak.", "foreign": "話さないでください。", "mark": ["ないでください"], "from": 1, "base": "話す", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's speak!", "foreign": "話しましょう！", "mark": ["ましょう"], "base": "話す", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we speak?", "foreign": "話しませんか？", "mark": ["ませんか"], "base": "話す", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 8, "verb": "書く", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 書いてください。 To ask them not to, its ない form and でください: 書かないでください。 For let's, ましょう: 書きましょう！ And to ask shall we, ませんか: 書きませんか？", "rows": [
+				{"english": "Please write.", "foreign": "書いてください。", "mark": ["てください"], "base": "書く", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not write.", "foreign": "書かないでください。", "mark": ["ないでください"], "from": 1, "base": "書く", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's write!", "foreign": "書きましょう！", "mark": ["ましょう"], "base": "書く", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we write?", "foreign": "書きませんか？", "mark": ["ませんか"], "base": "書く", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 9, "verb": "歩く", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 歩いてください。 To ask them not to, its ない form and でください: 歩かないでください。 For let's, ましょう: 歩きましょう！ And to ask shall we, ませんか: 歩きませんか？", "rows": [
+				{"english": "Please walk.", "foreign": "歩いてください。", "mark": ["てください"], "base": "歩く", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not walk.", "foreign": "歩かないでください。", "mark": ["ないでください"], "from": 1, "base": "歩く", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's walk!", "foreign": "歩きましょう！", "mark": ["ましょう"], "base": "歩く", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we walk?", "foreign": "歩きませんか？", "mark": ["ませんか"], "base": "歩く", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 10, "verb": "走る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 走ってください。 To ask them not to, its ない form and でください: 走らないでください。 For let's, ましょう: 走りましょう！ And to ask shall we, ませんか: 走りませんか？", "rows": [
+				{"english": "Please run.", "foreign": "走ってください。", "mark": ["てください"], "base": "走る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not run.", "foreign": "走らないでください。", "mark": ["ないでください"], "from": 1, "base": "走る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's run!", "foreign": "走りましょう！", "mark": ["ましょう"], "base": "走る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we run?", "foreign": "走りませんか？", "mark": ["ませんか"], "base": "走る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 11, "verb": "買う", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 買ってください。 To ask them not to, its ない form and でください: 買わないでください。 For let's, ましょう: 買いましょう！ And to ask shall we, ませんか: 買いませんか？", "rows": [
+				{"english": "Please buy.", "foreign": "買ってください。", "mark": ["てください"], "base": "買う", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not buy.", "foreign": "買わないでください。", "mark": ["ないでください"], "from": 1, "base": "買う", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's buy!", "foreign": "買いましょう！", "mark": ["ましょう"], "base": "買う", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we buy?", "foreign": "買いませんか？", "mark": ["ませんか"], "base": "買う", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 12, "verb": "売る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 売ってください。 To ask them not to, its ない form and でください: 売らないでください。 For let's, ましょう: 売りましょう！ And to ask shall we, ませんか: 売りませんか？", "rows": [
+				{"english": "Please sell.", "foreign": "売ってください。", "mark": ["てください"], "base": "売る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not sell.", "foreign": "売らないでください。", "mark": ["ないでください"], "from": 1, "base": "売る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's sell!", "foreign": "売りましょう！", "mark": ["ましょう"], "base": "売る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we sell?", "foreign": "売りませんか？", "mark": ["ませんか"], "base": "売る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 13, "verb": "待つ", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 待ってください。 To ask them not to, its ない form and でください: 待たないでください。 For let's, ましょう: 待ちましょう！ And to ask shall we, ませんか: 待ちませんか？", "rows": [
+				{"english": "Please wait.", "foreign": "待ってください。", "mark": ["てください"], "base": "待つ", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not wait.", "foreign": "待たないでください。", "mark": ["ないでください"], "from": 1, "base": "待つ", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's wait!", "foreign": "待ちましょう！", "mark": ["ましょう"], "base": "待つ", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we wait?", "foreign": "待ちませんか？", "mark": ["ませんか"], "base": "待つ", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 14, "verb": "探す", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 探してください。 To ask them not to, its ない form and でください: 探さないでください。 For let's, ましょう: 探しましょう！ And to ask shall we, ませんか: 探しませんか？", "rows": [
+				{"english": "Please look for.", "foreign": "探してください。", "mark": ["てください"], "base": "探す", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not look for.", "foreign": "探さないでください。", "mark": ["ないでください"], "from": 1, "base": "探す", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's look for!", "foreign": "探しましょう！", "mark": ["ましょう"], "base": "探す", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we look for?", "foreign": "探しませんか？", "mark": ["ませんか"], "base": "探す", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 15, "verb": "考える", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 考えてください。 To ask them not to, its ない form and でください: 考えないでください。 For let's, ましょう: 考えましょう！ And to ask shall we, ませんか: 考えませんか？", "rows": [
+				{"english": "Please think.", "foreign": "考えてください。", "mark": ["てください"], "base": "考える", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not think.", "foreign": "考えないでください。", "mark": ["ないでください"], "from": 1, "base": "考える", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's think!", "foreign": "考えましょう！", "mark": ["ましょう"], "base": "考える", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we think?", "foreign": "考えませんか？", "mark": ["ませんか"], "base": "考える", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 16, "verb": "笑う", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 笑ってください。 To ask them not to, its ない form and でください: 笑わないでください。 For let's, ましょう: 笑いましょう！ And to ask shall we, ませんか: 笑いませんか？", "rows": [
+				{"english": "Please laugh.", "foreign": "笑ってください。", "mark": ["てください"], "base": "笑う", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not laugh.", "foreign": "笑わないでください。", "mark": ["ないでください"], "from": 1, "base": "笑う", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's laugh!", "foreign": "笑いましょう！", "mark": ["ましょう"], "base": "笑う", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we laugh?", "foreign": "笑いませんか？", "mark": ["ませんか"], "base": "笑う", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 18, "verb": "遊ぶ", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 遊んでください。 To ask them not to, its ない form and でください: 遊ばないでください。 For let's, ましょう: 遊びましょう！ And to ask shall we, ませんか: 遊びませんか？", "rows": [
+				{"english": "Please play.", "foreign": "遊んでください。", "mark": ["でください"], "base": "遊ぶ", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not play.", "foreign": "遊ばないでください。", "mark": ["ないでください"], "from": 1, "base": "遊ぶ", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's play!", "foreign": "遊びましょう！", "mark": ["ましょう"], "base": "遊ぶ", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we play?", "foreign": "遊びませんか？", "mark": ["ませんか"], "base": "遊ぶ", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 19, "verb": "歌う", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 歌ってください。 To ask them not to, its ない form and でください: 歌わないでください。 For let's, ましょう: 歌いましょう！ And to ask shall we, ませんか: 歌いませんか？", "rows": [
+				{"english": "Please sing.", "foreign": "歌ってください。", "mark": ["てください"], "base": "歌う", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not sing.", "foreign": "歌わないでください。", "mark": ["ないでください"], "from": 1, "base": "歌う", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's sing!", "foreign": "歌いましょう！", "mark": ["ましょう"], "base": "歌う", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we sing?", "foreign": "歌いませんか？", "mark": ["ませんか"], "base": "歌う", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 20, "verb": "踊る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 踊ってください。 To ask them not to, its ない form and でください: 踊らないでください。 For let's, ましょう: 踊りましょう！ And to ask shall we, ませんか: 踊りませんか？", "rows": [
+				{"english": "Please dance.", "foreign": "踊ってください。", "mark": ["てください"], "base": "踊る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not dance.", "foreign": "踊らないでください。", "mark": ["ないでください"], "from": 1, "base": "踊る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's dance!", "foreign": "踊りましょう！", "mark": ["ましょう"], "base": "踊る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we dance?", "foreign": "踊りませんか？", "mark": ["ませんか"], "base": "踊る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 21, "verb": "泳ぐ", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 泳いでください。 To ask them not to, its ない form and でください: 泳がないでください。 For let's, ましょう: 泳ぎましょう！ And to ask shall we, ませんか: 泳ぎませんか？", "rows": [
+				{"english": "Please swim.", "foreign": "泳いでください。", "mark": ["でください"], "base": "泳ぐ", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not swim.", "foreign": "泳がないでください。", "mark": ["ないでください"], "from": 1, "base": "泳ぐ", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's swim!", "foreign": "泳ぎましょう！", "mark": ["ましょう"], "base": "泳ぐ", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we swim?", "foreign": "泳ぎませんか？", "mark": ["ませんか"], "base": "泳ぐ", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 22, "verb": "働く", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 働いてください。 To ask them not to, its ない form and でください: 働かないでください。 For let's, ましょう: 働きましょう！ And to ask shall we, ませんか: 働きませんか？", "rows": [
+				{"english": "Please work.", "foreign": "働いてください。", "mark": ["てください"], "base": "働く", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not work.", "foreign": "働かないでください。", "mark": ["ないでください"], "from": 1, "base": "働く", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's work!", "foreign": "働きましょう！", "mark": ["ましょう"], "base": "働く", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we work?", "foreign": "働きませんか？", "mark": ["ませんか"], "base": "働く", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 23, "verb": "勉強する", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 勉強してください。 To ask them not to, its ない form and でください: 勉強しないでください。 For let's, ましょう: 勉強しましょう！ And to ask shall we, ませんか: 勉強しませんか？", "rows": [
+				{"english": "Please study.", "foreign": "勉強してください。", "mark": ["てください"], "base": "勉強する", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not study.", "foreign": "勉強しないでください。", "mark": ["ないでください"], "from": 1, "base": "勉強する", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's study!", "foreign": "勉強しましょう！", "mark": ["ましょう"], "base": "勉強する", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we study?", "foreign": "勉強しませんか？", "mark": ["ませんか"], "base": "勉強する", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 24, "verb": "休む", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 休んでください。 To ask them not to, its ない form and でください: 休まないでください。 For let's, ましょう: 休みましょう！ And to ask shall we, ませんか: 休みませんか？", "rows": [
+				{"english": "Please rest.", "foreign": "休んでください。", "mark": ["でください"], "base": "休む", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not rest.", "foreign": "休まないでください。", "mark": ["ないでください"], "from": 1, "base": "休む", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's rest!", "foreign": "休みましょう！", "mark": ["ましょう"], "base": "休む", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we rest?", "foreign": "休みませんか？", "mark": ["ませんか"], "base": "休む", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 25, "verb": "始める", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 始めてください。 To ask them not to, its ない form and でください: 始めないでください。 For let's, ましょう: 始めましょう！ And to ask shall we, ませんか: 始めませんか？", "rows": [
+				{"english": "Please begin.", "foreign": "始めてください。", "mark": ["てください"], "base": "始める", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not begin.", "foreign": "始めないでください。", "mark": ["ないでください"], "from": 1, "base": "始める", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's begin!", "foreign": "始めましょう！", "mark": ["ましょう"], "base": "始める", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we begin?", "foreign": "始めませんか？", "mark": ["ませんか"], "base": "始める", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 26, "verb": "手伝う", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 手伝ってください。 To ask them not to, its ない form and でください: 手伝わないでください。 For let's, ましょう: 手伝いましょう！ And to ask shall we, ませんか: 手伝いませんか？", "rows": [
+				{"english": "Please help.", "foreign": "手伝ってください。", "mark": ["てください"], "base": "手伝う", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not help.", "foreign": "手伝わないでください。", "mark": ["ないでください"], "from": 1, "base": "手伝う", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's help!", "foreign": "手伝いましょう！", "mark": ["ましょう"], "base": "手伝う", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we help?", "foreign": "手伝いませんか？", "mark": ["ませんか"], "base": "手伝う", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 27, "verb": "帰る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 帰ってください。 To ask them not to, its ない form and でください: 帰らないでください。 For let's, ましょう: 帰りましょう！ And to ask shall we, ませんか: 帰りませんか？", "rows": [
+				{"english": "Please go home.", "foreign": "帰ってください。", "mark": ["てください"], "base": "帰る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not go home.", "foreign": "帰らないでください。", "mark": ["ないでください"], "from": 1, "base": "帰る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's go home!", "foreign": "帰りましょう！", "mark": ["ましょう"], "base": "帰る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we go home?", "foreign": "帰りませんか？", "mark": ["ませんか"], "base": "帰る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 28, "verb": "出かける", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 出かけてください。 To ask them not to, its ない form and でください: 出かけないでください。 For let's, ましょう: 出かけましょう！ And to ask shall we, ませんか: 出かけませんか？", "rows": [
+				{"english": "Please go out.", "foreign": "出かけてください。", "mark": ["てください"], "base": "出かける", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not go out.", "foreign": "出かけないでください。", "mark": ["ないでください"], "from": 1, "base": "出かける", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's go out!", "foreign": "出かけましょう！", "mark": ["ましょう"], "base": "出かける", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we go out?", "foreign": "出かけませんか？", "mark": ["ませんか"], "base": "出かける", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 29, "verb": "入る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 入ってください。 To ask them not to, its ない form and でください: 入らないでください。 For let's, ましょう: 入りましょう！ And to ask shall we, ませんか: 入りませんか？", "rows": [
+				{"english": "Please enter.", "foreign": "入ってください。", "mark": ["てください"], "base": "入る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not enter.", "foreign": "入らないでください。", "mark": ["ないでください"], "from": 1, "base": "入る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's enter!", "foreign": "入りましょう！", "mark": ["ましょう"], "base": "入る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we enter?", "foreign": "入りませんか？", "mark": ["ませんか"], "base": "入る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 30, "verb": "料理する", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 料理してください。 To ask them not to, its ない form and でください: 料理しないでください。 For let's, ましょう: 料理しましょう！ And to ask shall we, ませんか: 料理しませんか？", "rows": [
+				{"english": "Please cook.", "foreign": "料理してください。", "mark": ["てください"], "base": "料理する", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not cook.", "foreign": "料理しないでください。", "mark": ["ないでください"], "from": 1, "base": "料理する", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's cook!", "foreign": "料理しましょう！", "mark": ["ましょう"], "base": "料理する", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we cook?", "foreign": "料理しませんか？", "mark": ["ませんか"], "base": "料理する", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 31, "verb": "電話する", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 電話してください。 To ask them not to, its ない form and でください: 電話しないでください。 For let's, ましょう: 電話しましょう！ And to ask shall we, ませんか: 電話しませんか？", "rows": [
+				{"english": "Please phone.", "foreign": "電話してください。", "mark": ["てください"], "base": "電話する", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not phone.", "foreign": "電話しないでください。", "mark": ["ないでください"], "from": 1, "base": "電話する", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's phone!", "foreign": "電話しましょう！", "mark": ["ましょう"], "base": "電話する", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we phone?", "foreign": "電話しませんか？", "mark": ["ませんか"], "base": "電話する", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 32, "verb": "運転する", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 運転してください。 To ask them not to, its ない form and でください: 運転しないでください。 For let's, ましょう: 運転しましょう！ And to ask shall we, ませんか: 運転しませんか？", "rows": [
+				{"english": "Please drive.", "foreign": "運転してください。", "mark": ["てください"], "base": "運転する", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not drive.", "foreign": "運転しないでください。", "mark": ["ないでください"], "from": 1, "base": "運転する", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's drive!", "foreign": "運転しましょう！", "mark": ["ましょう"], "base": "運転する", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we drive?", "foreign": "運転しませんか？", "mark": ["ませんか"], "base": "運転する", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 33, "verb": "座る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 座ってください。 To ask them not to, its ない form and でください: 座らないでください。 For let's, ましょう: 座りましょう！ And to ask shall we, ませんか: 座りませんか？", "rows": [
+				{"english": "Please sit.", "foreign": "座ってください。", "mark": ["てください"], "base": "座る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not sit.", "foreign": "座らないでください。", "mark": ["ないでください"], "from": 1, "base": "座る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's sit!", "foreign": "座りましょう！", "mark": ["ましょう"], "base": "座る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we sit?", "foreign": "座りませんか？", "mark": ["ませんか"], "base": "座る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 34, "verb": "立つ", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 立ってください。 To ask them not to, its ない form and でください: 立たないでください。 For let's, ましょう: 立ちましょう！ And to ask shall we, ませんか: 立ちませんか？", "rows": [
+				{"english": "Please stand.", "foreign": "立ってください。", "mark": ["てください"], "base": "立つ", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not stand.", "foreign": "立たないでください。", "mark": ["ないでください"], "from": 1, "base": "立つ", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's stand!", "foreign": "立ちましょう！", "mark": ["ましょう"], "base": "立つ", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we stand?", "foreign": "立ちませんか？", "mark": ["ませんか"], "base": "立つ", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 36, "verb": "答える", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 答えてください。 To ask them not to, its ない form and でください: 答えないでください。 For let's, ましょう: 答えましょう！ And to ask shall we, ませんか: 答えませんか？", "rows": [
+				{"english": "Please answer.", "foreign": "答えてください。", "mark": ["てください"], "base": "答える", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not answer.", "foreign": "答えないでください。", "mark": ["ないでください"], "from": 1, "base": "答える", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's answer!", "foreign": "答えましょう！", "mark": ["ましょう"], "base": "答える", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we answer?", "foreign": "答えませんか？", "mark": ["ませんか"], "base": "答える", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 37, "verb": "忘れる", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 忘れてください。 To ask them not to, its ない form and でください: 忘れないでください。 For let's, ましょう: 忘れましょう！ And to ask shall we, ませんか: 忘れませんか？", "rows": [
+				{"english": "Please forget.", "foreign": "忘れてください。", "mark": ["てください"], "base": "忘れる", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not forget.", "foreign": "忘れないでください。", "mark": ["ないでください"], "from": 1, "base": "忘れる", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's forget!", "foreign": "忘れましょう！", "mark": ["ましょう"], "base": "忘れる", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we forget?", "foreign": "忘れませんか？", "mark": ["ませんか"], "base": "忘れる", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 38, "verb": "払う", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 払ってください。 To ask them not to, its ない form and でください: 払わないでください。 For let's, ましょう: 払いましょう！ And to ask shall we, ませんか: 払いませんか？", "rows": [
+				{"english": "Please pay.", "foreign": "払ってください。", "mark": ["てください"], "base": "払う", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not pay.", "foreign": "払わないでください。", "mark": ["ないでください"], "from": 1, "base": "払う", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's pay!", "foreign": "払いましょう！", "mark": ["ましょう"], "base": "払う", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we pay?", "foreign": "払いませんか？", "mark": ["ませんか"], "base": "払う", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 39, "verb": "寝る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 寝てください。 To ask them not to, its ない form and でください: 寝ないでください。 For let's, ましょう: 寝ましょう！ And to ask shall we, ませんか: 寝ませんか？", "rows": [
+				{"english": "Please sleep.", "foreign": "寝てください。", "mark": ["てください"], "base": "寝る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not sleep.", "foreign": "寝ないでください。", "mark": ["ないでください"], "from": 1, "base": "寝る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's sleep!", "foreign": "寝ましょう！", "mark": ["ましょう"], "base": "寝る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we sleep?", "foreign": "寝ませんか？", "mark": ["ませんか"], "base": "寝る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 40, "verb": "起きる", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 起きてください。 To ask them not to, its ない form and でください: 起きないでください。 For let's, ましょう: 起きましょう！ And to ask shall we, ませんか: 起きませんか？", "rows": [
+				{"english": "Please get up.", "foreign": "起きてください。", "mark": ["てください"], "base": "起きる", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not get up.", "foreign": "起きないでください。", "mark": ["ないでください"], "from": 1, "base": "起きる", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's get up!", "foreign": "起きましょう！", "mark": ["ましょう"], "base": "起きる", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we get up?", "foreign": "起きませんか？", "mark": ["ませんか"], "base": "起きる", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 41, "verb": "教える", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 教えてください。 To ask them not to, its ない form and でください: 教えないでください。 For let's, ましょう: 教えましょう！ And to ask shall we, ませんか: 教えませんか？", "rows": [
+				{"english": "Please teach.", "foreign": "教えてください。", "mark": ["てください"], "base": "教える", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not teach.", "foreign": "教えないでください。", "mark": ["ないでください"], "from": 1, "base": "教える", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's teach!", "foreign": "教えましょう！", "mark": ["ましょう"], "base": "教える", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we teach?", "foreign": "教えませんか？", "mark": ["ませんか"], "base": "教える", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 42, "verb": "習う", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 習ってください。 To ask them not to, its ない form and でください: 習わないでください。 For let's, ましょう: 習いましょう！ And to ask shall we, ませんか: 習いませんか？", "rows": [
+				{"english": "Please learn.", "foreign": "習ってください。", "mark": ["てください"], "base": "習う", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not learn.", "foreign": "習わないでください。", "mark": ["ないでください"], "from": 1, "base": "習う", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's learn!", "foreign": "習いましょう！", "mark": ["ましょう"], "base": "習う", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we learn?", "foreign": "習いませんか？", "mark": ["ませんか"], "base": "習う", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 43, "verb": "作る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 作ってください。 To ask them not to, its ない form and でください: 作らないでください。 For let's, ましょう: 作りましょう！ And to ask shall we, ませんか: 作りませんか？", "rows": [
+				{"english": "Please make.", "foreign": "作ってください。", "mark": ["てください"], "base": "作る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not make.", "foreign": "作らないでください。", "mark": ["ないでください"], "from": 1, "base": "作る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's make!", "foreign": "作りましょう！", "mark": ["ましょう"], "base": "作る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we make?", "foreign": "作りませんか？", "mark": ["ませんか"], "base": "作る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 44, "verb": "使う", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 使ってください。 To ask them not to, its ない form and でください: 使わないでください。 For let's, ましょう: 使いましょう！ And to ask shall we, ませんか: 使いませんか？", "rows": [
+				{"english": "Please use.", "foreign": "使ってください。", "mark": ["てください"], "base": "使う", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not use.", "foreign": "使わないでください。", "mark": ["ないでください"], "from": 1, "base": "使う", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's use!", "foreign": "使いましょう！", "mark": ["ましょう"], "base": "使う", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we use?", "foreign": "使いませんか？", "mark": ["ませんか"], "base": "使う", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 45, "verb": "洗う", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 洗ってください。 To ask them not to, its ない form and でください: 洗わないでください。 For let's, ましょう: 洗いましょう！ And to ask shall we, ませんか: 洗いませんか？", "rows": [
+				{"english": "Please wash.", "foreign": "洗ってください。", "mark": ["てください"], "base": "洗う", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not wash.", "foreign": "洗わないでください。", "mark": ["ないでください"], "from": 1, "base": "洗う", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's wash!", "foreign": "洗いましょう！", "mark": ["ましょう"], "base": "洗う", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we wash?", "foreign": "洗いませんか？", "mark": ["ませんか"], "base": "洗う", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 46, "verb": "開ける", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 開けてください。 To ask them not to, its ない form and でください: 開けないでください。 For let's, ましょう: 開けましょう！ And to ask shall we, ませんか: 開けませんか？", "rows": [
+				{"english": "Please open.", "foreign": "開けてください。", "mark": ["てください"], "base": "開ける", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not open.", "foreign": "開けないでください。", "mark": ["ないでください"], "from": 1, "base": "開ける", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's open!", "foreign": "開けましょう！", "mark": ["ましょう"], "base": "開ける", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we open?", "foreign": "開けませんか？", "mark": ["ませんか"], "base": "開ける", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 47, "verb": "閉める", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 閉めてください。 To ask them not to, its ない form and でください: 閉めないでください。 For let's, ましょう: 閉めましょう！ And to ask shall we, ませんか: 閉めませんか？", "rows": [
+				{"english": "Please close.", "foreign": "閉めてください。", "mark": ["てください"], "base": "閉める", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not close.", "foreign": "閉めないでください。", "mark": ["ないでください"], "from": 1, "base": "閉める", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's close!", "foreign": "閉めましょう！", "mark": ["ましょう"], "base": "閉める", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we close?", "foreign": "閉めませんか？", "mark": ["ませんか"], "base": "閉める", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 48, "verb": "会う", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 会ってください。 To ask them not to, its ない form and でください: 会わないでください。 For let's, ましょう: 会いましょう！ And to ask shall we, ませんか: 会いませんか？", "rows": [
+				{"english": "Please meet.", "foreign": "会ってください。", "mark": ["てください"], "base": "会う", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not meet.", "foreign": "会わないでください。", "mark": ["ないでください"], "from": 1, "base": "会う", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's meet!", "foreign": "会いましょう！", "mark": ["ましょう"], "base": "会う", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we meet?", "foreign": "会いませんか？", "mark": ["ませんか"], "base": "会う", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 49, "verb": "送る", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 送ってください。 To ask them not to, its ない form and でください: 送らないでください。 For let's, ましょう: 送りましょう！ And to ask shall we, ませんか: 送りませんか？", "rows": [
+				{"english": "Please send.", "foreign": "送ってください。", "mark": ["てください"], "base": "送る", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not send.", "foreign": "送らないでください。", "mark": ["ないでください"], "from": 1, "base": "送る", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's send!", "foreign": "送りましょう！", "mark": ["ましょう"], "base": "送る", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we send?", "foreign": "送りませんか？", "mark": ["ませんか"], "base": "送る", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 50, "verb": "呼ぶ", "strategy": ["ending"], "description": "To ask someone to do something, the verb's て form and ください: 呼んでください。 To ask them not to, its ない form and でください: 呼ばないでください。 For let's, ましょう: 呼びましょう！ And to ask shall we, ませんか: 呼びませんか？", "rows": [
+				{"english": "Please call.", "foreign": "呼んでください。", "mark": ["でください"], "base": "呼ぶ", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not call.", "foreign": "呼ばないでください。", "mark": ["ないでください"], "from": 1, "base": "呼ぶ", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's call!", "foreign": "呼びましょう！", "mark": ["ましょう"], "base": "呼ぶ", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we call?", "foreign": "呼びませんか？", "mark": ["ませんか"], "base": "呼ぶ", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]}
+	]
+}

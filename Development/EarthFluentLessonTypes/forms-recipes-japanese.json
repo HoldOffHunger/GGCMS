@@ -1,0 +1,135 @@
+{
+	"about": "How Japanese verb forms are read out of the Wiktionary dump and turned into lessons. Written by Claude (Opus) with Ben on 16 November 2026. Japanese verbs change, but never for who: the same form serves I, you and she, so the page lists a verb's forms instead of drawing a who-by-when grid. The dump gives each form three times, in kanji, in kana and in romaji; the kanji form is kept, and the kana goes beside it in the tables (食べます (たべます)), as the pinyin does in Chinese. The dump's table is of plain forms and the masu form; the polite past, negative and the rest are made from the masu form by its ending (`derive`: ます becomes ました), and the going-on and asking forms from the て form (食べて, then 食べています, 食べてください). The course is polite throughout, as the grid's own lessons are. ています says going on for a verb of doing and the state that follows for a verb of change (来ています is 'has come'), so the verbs of change sit out the going-on job. Verbs made with する (勉強する) are taken as the dump lists them; a course word stored in the masu form (つかいます) does not match its dictionary word and has no table.",
+	"language": "japanese",
+	"translation_language": "ja",
+	"dump": "kaikki.org-dictionary-Japanese.jsonl",
+	"dictionary_form": {"form": "infinitive"},
+	"skip_tags": ["table-tags", "inflection-template", "literary", "colloquial", "romanization"],
+	"reading_kana": true,
+	"follow_redirects": true,
+	"suru": true,
+	"slots": [
+		{"features": {"form": "infinitive"}, "tags": ["terminative"]},
+		{"features": {"when": "before"}, "tags": ["perfective"]},
+		{"features": {"not": "yes"}, "tags": ["negative"], "without": ["continuative"]},
+		{"features": {"form": "te"}, "tags": ["conjunctive"]},
+		{"features": {"when": "now", "polite": "yes"}, "tags": ["formal"], "without": ["negative"]},
+
+		{"features": {"when": "before", "polite": "yes"}, "derive": {"from": {"when": "now", "polite": "yes"}, "suffix": ["ます", "ました"]}},
+		{"features": {"not": "yes", "polite": "yes"}, "derive": {"from": {"when": "now", "polite": "yes"}, "suffix": ["ます", "ません"]}},
+		{"features": {"when": "before", "not": "yes", "polite": "yes"}, "derive": {"from": {"when": "now", "polite": "yes"}, "suffix": ["ます", "ませんでした"]}},
+		{"features": {"going": "yes", "polite": "yes"}, "derive": {"from": {"form": "te"}, "suffix": ["", "います"]}},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "derive": {"from": {"form": "te"}, "suffix": ["", "ください"]}},
+		{"features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}, "derive": {"from": {"not": "yes"}, "suffix": ["", "でください"]}},
+		{"features": {"command": "yes", "who": "we"}, "derive": {"from": {"when": "now", "polite": "yes"}, "suffix": ["ます", "ましょう"]}},
+		{"features": {"question": "yes", "who": "we", "polite": "yes"}, "derive": {"from": {"when": "now", "polite": "yes"}, "suffix": ["ます", "ませんか"]}}
+	],
+
+	"endings": {
+		"about": "The polite endings, the same for every verb. A form that ends in one has that ending lit on the board.",
+		"now": {"*": ["ます"]},
+		"before": {"*": ["ました"]},
+		"going": {"*": ["ています", "でいます"]},
+		"command": {"*": ["てください", "でください", "ないでください", "ましょう", "ませんか"]}
+	},
+
+	"recipes": {
+		"who": {
+			"strategy": ["nothing"],
+			"description": "The verb is the same whoever is doing it: {1}, {2}, {3}, {4}. Only the word in front, marked by は, says who.",
+			"rows": [
+				{"english": "I {base}", "features": {"when": "now", "polite": "yes"}, "wrap": "私は{}", "mark_form": "nothing", "says": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "You {base}", "features": {"when": "now", "polite": "yes"}, "wrap": "あなたは{}", "mark_form": "nothing", "says": {"who": "you", "when": "now", "polite": "yes"}},
+				{"english": "She {s}", "features": {"when": "now", "polite": "yes"}, "wrap": "彼女は{}", "mark_form": "nothing", "says": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We {base}", "features": {"when": "now", "polite": "yes"}, "wrap": "私たちは{}", "mark_form": "nothing", "says": {"who": "we", "when": "now", "polite": "yes"}}
+			]
+		},
+		"when": {
+			"strategy": ["ending"],
+			"description": "The ending says when: ます for now and for later, ました for before: {1}, {2}. A day word says which: {3}, {4}.",
+			"rows": [
+				{"english": "I {base}", "features": {"when": "now", "polite": "yes"}, "endings": "now", "says": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I {past}", "features": {"when": "before", "polite": "yes"}, "endings": "before", "from": 1, "says": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will {base} tomorrow", "features": {"when": "now", "polite": "yes"}, "endings": "now", "wrap": "明日{}", "says": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I {past} yesterday", "features": {"when": "before", "polite": "yes"}, "endings": "before", "wrap": "昨日{}", "says": {"who": "i", "when": "before", "polite": "yes"}}
+			]
+		},
+		"going": {
+			"strategy": ["ending"],
+			"skip": "stative",
+			"description": "For something going on right now, the verb ends in ています: {2}. It is made from the verb's て form.",
+			"rows": [
+				{"english": "I {base}", "features": {"when": "now", "polite": "yes"}, "says": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am {ing}", "features": {"going": "yes", "polite": "yes"}, "endings": "going", "from": 1, "says": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She {s}", "features": {"when": "now", "polite": "yes"}, "wrap": "彼女は{}", "says": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is {ing}", "features": {"going": "yes", "polite": "yes"}, "endings": "going", "wrap": "彼女は{}", "from": 3, "says": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]
+		},
+		"command": {
+			"strategy": ["ending"],
+			"skip": "stative",
+			"description": "To ask someone to do something, the verb's て form and ください: {1} To ask them not to, its ない form and でください: {2} For let's, ましょう: {3} And to ask shall we, ませんか: {4}",
+			"rows": [
+				{"english": "Please {base}.", "features": {"command": "yes", "who": "you", "polite": "yes"}, "endings": "command", "wrap": "{}。"},
+				{"english": "Please do not {base}.", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}, "endings": "command", "wrap": "{}。", "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "endings": "command", "wrap": "{}！"},
+				{"english": "Shall we {base}?", "features": {"question": "yes", "who": "we", "polite": "yes"}, "endings": "command", "wrap": "{}？"}
+			]
+		}
+	},
+
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `no-going` marks the verbs of change, whose ています is the state that follows (来ています, has come); `no-command` the commands that are right and that nobody says. Left out on purpose: 行く, which the grid's own lessons teach; する and ある and いる, which need lessons of their own; できる, which is the want-can-must job; 読む, whose English is the same now and before; and 知る, whose polite present is 知っています, not 知ります.",
+		"list": [
+			["食べる", "eat", "eats", "ate", "eating"],
+			["飲む", "drink", "drinks", "drank", "drinking"],
+			["来る", "come", "comes", "came", "coming", "no-going", "no-command"],
+			["見る", "watch", "watches", "watched", "watching"],
+			["聞く", "listen", "listens", "listened", "listening"],
+			["話す", "speak", "speaks", "spoke", "speaking"],
+			["書く", "write", "writes", "wrote", "writing"],
+			["歩く", "walk", "walks", "walked", "walking"],
+			["走る", "run", "runs", "ran", "running"],
+			["買う", "buy", "buys", "bought", "buying"],
+			["売る", "sell", "sells", "sold", "selling"],
+			["待つ", "wait", "waits", "waited", "waiting"],
+			["探す", "look for", "looks for", "looked for", "looking for"],
+			["考える", "think", "thinks", "thought", "thinking"],
+			["笑う", "laugh", "laughs", "laughed", "laughing"],
+			["泣く", "cry", "cries", "cried", "crying", "no-command"],
+			["遊ぶ", "play", "plays", "played", "playing"],
+			["歌う", "sing", "sings", "sang", "singing"],
+			["踊る", "dance", "dances", "danced", "dancing"],
+			["泳ぐ", "swim", "swims", "swam", "swimming"],
+			["働く", "work", "works", "worked", "working"],
+			["勉強する", "study", "studies", "studied", "studying"],
+			["休む", "rest", "rests", "rested", "resting"],
+			["始める", "begin", "begins", "began", "beginning", "no-going"],
+			["手伝う", "help", "helps", "helped", "helping"],
+			["帰る", "go home", "goes home", "went home", "going home", "no-going"],
+			["出かける", "go out", "goes out", "went out", "going out", "no-going"],
+			["入る", "enter", "enters", "entered", "entering", "no-going"],
+			["料理する", "cook", "cooks", "cooked", "cooking"],
+			["電話する", "phone", "phones", "phoned", "phoning"],
+			["運転する", "drive", "drives", "drove", "driving"],
+			["座る", "sit", "sits", "sat", "sitting"],
+			["立つ", "stand", "stands", "stood", "standing"],
+			["飛ぶ", "fly", "flies", "flew", "flying", "no-command"],
+			["答える", "answer", "answers", "answered", "answering"],
+			["忘れる", "forget", "forgets", "forgot", "forgetting", "no-going"],
+			["払う", "pay", "pays", "paid", "paying"],
+			["寝る", "sleep", "sleeps", "slept", "sleeping"],
+			["起きる", "get up", "gets up", "got up", "getting up", "no-going"],
+			["教える", "teach", "teaches", "taught", "teaching"],
+			["習う", "learn", "learns", "learned", "learning"],
+			["作る", "make", "makes", "made", "making"],
+			["使う", "use", "uses", "used", "using"],
+			["洗う", "wash", "washes", "washed", "washing"],
+			["開ける", "open", "opens", "opened", "opening", "no-going"],
+			["閉める", "close", "closes", "closed", "closing", "no-going"],
+			["会う", "meet", "meets", "met", "meeting"],
+			["送る", "send", "sends", "sent", "sending"],
+			["呼ぶ", "call", "calls", "called", "calling"]
+		]
+	}
+}
