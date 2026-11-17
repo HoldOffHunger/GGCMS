@@ -1,0 +1,1136 @@
+{
+	"language": "korean",
+	"translation_language": "ko",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-korean.json and the recipes in forms-recipes-korean.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "먹다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 먹어요, 그녀는 먹어요, 우리는 먹어요, 그들은 먹어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I eat", "foreign": "저는 먹어요", "mark": [{"text": "먹어요", "role": "nothing"}], "base": "먹다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She eats", "foreign": "그녀는 먹어요", "mark": [{"text": "먹어요", "role": "nothing"}], "base": "먹다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We eat", "foreign": "우리는 먹어요", "mark": [{"text": "먹어요", "role": "nothing"}], "base": "먹다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They eat", "foreign": "그들은 먹어요", "mark": [{"text": "먹어요", "role": "nothing"}], "base": "먹다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 3, "verb": "마시다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 마셔요, 그녀는 마셔요, 우리는 마셔요, 그들은 마셔요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I drink", "foreign": "저는 마셔요", "mark": [{"text": "마셔요", "role": "nothing"}], "base": "마시다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She drinks", "foreign": "그녀는 마셔요", "mark": [{"text": "마셔요", "role": "nothing"}], "base": "마시다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We drink", "foreign": "우리는 마셔요", "mark": [{"text": "마셔요", "role": "nothing"}], "base": "마시다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They drink", "foreign": "그들은 마셔요", "mark": [{"text": "마셔요", "role": "nothing"}], "base": "마시다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 4, "verb": "오다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 와요, 그녀는 와요, 우리는 와요, 그들은 와요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I come", "foreign": "저는 와요", "mark": [{"text": "와요", "role": "nothing"}], "base": "오다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She comes", "foreign": "그녀는 와요", "mark": [{"text": "와요", "role": "nothing"}], "base": "오다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We come", "foreign": "우리는 와요", "mark": [{"text": "와요", "role": "nothing"}], "base": "오다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They come", "foreign": "그들은 와요", "mark": [{"text": "와요", "role": "nothing"}], "base": "오다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 5, "verb": "보다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 봐요, 그녀는 봐요, 우리는 봐요, 그들은 봐요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I watch", "foreign": "저는 봐요", "mark": [{"text": "봐요", "role": "nothing"}], "base": "보다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She watches", "foreign": "그녀는 봐요", "mark": [{"text": "봐요", "role": "nothing"}], "base": "보다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We watch", "foreign": "우리는 봐요", "mark": [{"text": "봐요", "role": "nothing"}], "base": "보다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They watch", "foreign": "그들은 봐요", "mark": [{"text": "봐요", "role": "nothing"}], "base": "보다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 6, "verb": "듣다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 들어요, 그녀는 들어요, 우리는 들어요, 그들은 들어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I listen", "foreign": "저는 들어요", "mark": [{"text": "들어요", "role": "nothing"}], "base": "듣다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She listens", "foreign": "그녀는 들어요", "mark": [{"text": "들어요", "role": "nothing"}], "base": "듣다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We listen", "foreign": "우리는 들어요", "mark": [{"text": "들어요", "role": "nothing"}], "base": "듣다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They listen", "foreign": "그들은 들어요", "mark": [{"text": "들어요", "role": "nothing"}], "base": "듣다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 7, "verb": "말하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 말해요, 그녀는 말해요, 우리는 말해요, 그들은 말해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I speak", "foreign": "저는 말해요", "mark": [{"text": "말해요", "role": "nothing"}], "base": "말하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She speaks", "foreign": "그녀는 말해요", "mark": [{"text": "말해요", "role": "nothing"}], "base": "말하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We speak", "foreign": "우리는 말해요", "mark": [{"text": "말해요", "role": "nothing"}], "base": "말하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They speak", "foreign": "그들은 말해요", "mark": [{"text": "말해요", "role": "nothing"}], "base": "말하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 8, "verb": "쓰다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 써요, 그녀는 써요, 우리는 써요, 그들은 써요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I write", "foreign": "저는 써요", "mark": [{"text": "써요", "role": "nothing"}], "base": "쓰다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She writes", "foreign": "그녀는 써요", "mark": [{"text": "써요", "role": "nothing"}], "base": "쓰다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We write", "foreign": "우리는 써요", "mark": [{"text": "써요", "role": "nothing"}], "base": "쓰다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They write", "foreign": "그들은 써요", "mark": [{"text": "써요", "role": "nothing"}], "base": "쓰다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 9, "verb": "걷다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 걸어요, 그녀는 걸어요, 우리는 걸어요, 그들은 걸어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I walk", "foreign": "저는 걸어요", "mark": [{"text": "걸어요", "role": "nothing"}], "base": "걷다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She walks", "foreign": "그녀는 걸어요", "mark": [{"text": "걸어요", "role": "nothing"}], "base": "걷다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We walk", "foreign": "우리는 걸어요", "mark": [{"text": "걸어요", "role": "nothing"}], "base": "걷다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They walk", "foreign": "그들은 걸어요", "mark": [{"text": "걸어요", "role": "nothing"}], "base": "걷다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 10, "verb": "달리다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 달려요, 그녀는 달려요, 우리는 달려요, 그들은 달려요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I run", "foreign": "저는 달려요", "mark": [{"text": "달려요", "role": "nothing"}], "base": "달리다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She runs", "foreign": "그녀는 달려요", "mark": [{"text": "달려요", "role": "nothing"}], "base": "달리다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We run", "foreign": "우리는 달려요", "mark": [{"text": "달려요", "role": "nothing"}], "base": "달리다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They run", "foreign": "그들은 달려요", "mark": [{"text": "달려요", "role": "nothing"}], "base": "달리다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 11, "verb": "사다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 사요, 그녀는 사요, 우리는 사요, 그들은 사요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I buy", "foreign": "저는 사요", "mark": [{"text": "사요", "role": "nothing"}], "base": "사다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She buys", "foreign": "그녀는 사요", "mark": [{"text": "사요", "role": "nothing"}], "base": "사다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We buy", "foreign": "우리는 사요", "mark": [{"text": "사요", "role": "nothing"}], "base": "사다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They buy", "foreign": "그들은 사요", "mark": [{"text": "사요", "role": "nothing"}], "base": "사다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 12, "verb": "팔다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 팔아요, 그녀는 팔아요, 우리는 팔아요, 그들은 팔아요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I sell", "foreign": "저는 팔아요", "mark": [{"text": "팔아요", "role": "nothing"}], "base": "팔다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She sells", "foreign": "그녀는 팔아요", "mark": [{"text": "팔아요", "role": "nothing"}], "base": "팔다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We sell", "foreign": "우리는 팔아요", "mark": [{"text": "팔아요", "role": "nothing"}], "base": "팔다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They sell", "foreign": "그들은 팔아요", "mark": [{"text": "팔아요", "role": "nothing"}], "base": "팔다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 13, "verb": "기다리다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 기다려요, 그녀는 기다려요, 우리는 기다려요, 그들은 기다려요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I wait", "foreign": "저는 기다려요", "mark": [{"text": "기다려요", "role": "nothing"}], "base": "기다리다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She waits", "foreign": "그녀는 기다려요", "mark": [{"text": "기다려요", "role": "nothing"}], "base": "기다리다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We wait", "foreign": "우리는 기다려요", "mark": [{"text": "기다려요", "role": "nothing"}], "base": "기다리다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They wait", "foreign": "그들은 기다려요", "mark": [{"text": "기다려요", "role": "nothing"}], "base": "기다리다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 14, "verb": "찾다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 찾아요, 그녀는 찾아요, 우리는 찾아요, 그들은 찾아요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I look for", "foreign": "저는 찾아요", "mark": [{"text": "찾아요", "role": "nothing"}], "base": "찾다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She looks for", "foreign": "그녀는 찾아요", "mark": [{"text": "찾아요", "role": "nothing"}], "base": "찾다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We look for", "foreign": "우리는 찾아요", "mark": [{"text": "찾아요", "role": "nothing"}], "base": "찾다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They look for", "foreign": "그들은 찾아요", "mark": [{"text": "찾아요", "role": "nothing"}], "base": "찾다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 15, "verb": "생각하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 생각해요, 그녀는 생각해요, 우리는 생각해요, 그들은 생각해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I think", "foreign": "저는 생각해요", "mark": [{"text": "생각해요", "role": "nothing"}], "base": "생각하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She thinks", "foreign": "그녀는 생각해요", "mark": [{"text": "생각해요", "role": "nothing"}], "base": "생각하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We think", "foreign": "우리는 생각해요", "mark": [{"text": "생각해요", "role": "nothing"}], "base": "생각하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They think", "foreign": "그들은 생각해요", "mark": [{"text": "생각해요", "role": "nothing"}], "base": "생각하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 16, "verb": "웃다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 웃어요, 그녀는 웃어요, 우리는 웃어요, 그들은 웃어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I laugh", "foreign": "저는 웃어요", "mark": [{"text": "웃어요", "role": "nothing"}], "base": "웃다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She laughs", "foreign": "그녀는 웃어요", "mark": [{"text": "웃어요", "role": "nothing"}], "base": "웃다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We laugh", "foreign": "우리는 웃어요", "mark": [{"text": "웃어요", "role": "nothing"}], "base": "웃다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They laugh", "foreign": "그들은 웃어요", "mark": [{"text": "웃어요", "role": "nothing"}], "base": "웃다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 17, "verb": "울다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 울어요, 그녀는 울어요, 우리는 울어요, 그들은 울어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I cry", "foreign": "저는 울어요", "mark": [{"text": "울어요", "role": "nothing"}], "base": "울다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She cries", "foreign": "그녀는 울어요", "mark": [{"text": "울어요", "role": "nothing"}], "base": "울다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We cry", "foreign": "우리는 울어요", "mark": [{"text": "울어요", "role": "nothing"}], "base": "울다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They cry", "foreign": "그들은 울어요", "mark": [{"text": "울어요", "role": "nothing"}], "base": "울다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 18, "verb": "놀다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 놀아요, 그녀는 놀아요, 우리는 놀아요, 그들은 놀아요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I play", "foreign": "저는 놀아요", "mark": [{"text": "놀아요", "role": "nothing"}], "base": "놀다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She plays", "foreign": "그녀는 놀아요", "mark": [{"text": "놀아요", "role": "nothing"}], "base": "놀다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We play", "foreign": "우리는 놀아요", "mark": [{"text": "놀아요", "role": "nothing"}], "base": "놀다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They play", "foreign": "그들은 놀아요", "mark": [{"text": "놀아요", "role": "nothing"}], "base": "놀다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 19, "verb": "노래하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 노래해요, 그녀는 노래해요, 우리는 노래해요, 그들은 노래해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I sing", "foreign": "저는 노래해요", "mark": [{"text": "노래해요", "role": "nothing"}], "base": "노래하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She sings", "foreign": "그녀는 노래해요", "mark": [{"text": "노래해요", "role": "nothing"}], "base": "노래하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We sing", "foreign": "우리는 노래해요", "mark": [{"text": "노래해요", "role": "nothing"}], "base": "노래하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They sing", "foreign": "그들은 노래해요", "mark": [{"text": "노래해요", "role": "nothing"}], "base": "노래하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 20, "verb": "춤추다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 춤추어요, 그녀는 춤추어요, 우리는 춤추어요, 그들은 춤추어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I dance", "foreign": "저는 춤추어요", "mark": [{"text": "춤추어요", "role": "nothing"}], "base": "춤추다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She dances", "foreign": "그녀는 춤추어요", "mark": [{"text": "춤추어요", "role": "nothing"}], "base": "춤추다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We dance", "foreign": "우리는 춤추어요", "mark": [{"text": "춤추어요", "role": "nothing"}], "base": "춤추다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They dance", "foreign": "그들은 춤추어요", "mark": [{"text": "춤추어요", "role": "nothing"}], "base": "춤추다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 21, "verb": "수영하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 수영해요, 그녀는 수영해요, 우리는 수영해요, 그들은 수영해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I swim", "foreign": "저는 수영해요", "mark": [{"text": "수영해요", "role": "nothing"}], "base": "수영하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She swims", "foreign": "그녀는 수영해요", "mark": [{"text": "수영해요", "role": "nothing"}], "base": "수영하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We swim", "foreign": "우리는 수영해요", "mark": [{"text": "수영해요", "role": "nothing"}], "base": "수영하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They swim", "foreign": "그들은 수영해요", "mark": [{"text": "수영해요", "role": "nothing"}], "base": "수영하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 22, "verb": "일하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 일해요, 그녀는 일해요, 우리는 일해요, 그들은 일해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I work", "foreign": "저는 일해요", "mark": [{"text": "일해요", "role": "nothing"}], "base": "일하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She works", "foreign": "그녀는 일해요", "mark": [{"text": "일해요", "role": "nothing"}], "base": "일하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We work", "foreign": "우리는 일해요", "mark": [{"text": "일해요", "role": "nothing"}], "base": "일하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They work", "foreign": "그들은 일해요", "mark": [{"text": "일해요", "role": "nothing"}], "base": "일하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 23, "verb": "공부하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 공부해요, 그녀는 공부해요, 우리는 공부해요, 그들은 공부해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I study", "foreign": "저는 공부해요", "mark": [{"text": "공부해요", "role": "nothing"}], "base": "공부하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She studies", "foreign": "그녀는 공부해요", "mark": [{"text": "공부해요", "role": "nothing"}], "base": "공부하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We study", "foreign": "우리는 공부해요", "mark": [{"text": "공부해요", "role": "nothing"}], "base": "공부하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They study", "foreign": "그들은 공부해요", "mark": [{"text": "공부해요", "role": "nothing"}], "base": "공부하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 24, "verb": "쉬다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 쉬어요, 그녀는 쉬어요, 우리는 쉬어요, 그들은 쉬어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I rest", "foreign": "저는 쉬어요", "mark": [{"text": "쉬어요", "role": "nothing"}], "base": "쉬다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She rests", "foreign": "그녀는 쉬어요", "mark": [{"text": "쉬어요", "role": "nothing"}], "base": "쉬다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We rest", "foreign": "우리는 쉬어요", "mark": [{"text": "쉬어요", "role": "nothing"}], "base": "쉬다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They rest", "foreign": "그들은 쉬어요", "mark": [{"text": "쉬어요", "role": "nothing"}], "base": "쉬다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 25, "verb": "시작하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 시작해요, 그녀는 시작해요, 우리는 시작해요, 그들은 시작해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I begin", "foreign": "저는 시작해요", "mark": [{"text": "시작해요", "role": "nothing"}], "base": "시작하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She begins", "foreign": "그녀는 시작해요", "mark": [{"text": "시작해요", "role": "nothing"}], "base": "시작하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We begin", "foreign": "우리는 시작해요", "mark": [{"text": "시작해요", "role": "nothing"}], "base": "시작하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They begin", "foreign": "그들은 시작해요", "mark": [{"text": "시작해요", "role": "nothing"}], "base": "시작하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 26, "verb": "돕다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 도와요, 그녀는 도와요, 우리는 도와요, 그들은 도와요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I help", "foreign": "저는 도와요", "mark": [{"text": "도와요", "role": "nothing"}], "base": "돕다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She helps", "foreign": "그녀는 도와요", "mark": [{"text": "도와요", "role": "nothing"}], "base": "돕다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We help", "foreign": "우리는 도와요", "mark": [{"text": "도와요", "role": "nothing"}], "base": "돕다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They help", "foreign": "그들은 도와요", "mark": [{"text": "도와요", "role": "nothing"}], "base": "돕다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 27, "verb": "돌아오다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 돌아와요, 그녀는 돌아와요, 우리는 돌아와요, 그들은 돌아와요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I come back", "foreign": "저는 돌아와요", "mark": [{"text": "돌아와요", "role": "nothing"}], "base": "돌아오다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She comes back", "foreign": "그녀는 돌아와요", "mark": [{"text": "돌아와요", "role": "nothing"}], "base": "돌아오다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We come back", "foreign": "우리는 돌아와요", "mark": [{"text": "돌아와요", "role": "nothing"}], "base": "돌아오다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They come back", "foreign": "그들은 돌아와요", "mark": [{"text": "돌아와요", "role": "nothing"}], "base": "돌아오다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 28, "verb": "나가다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 나가요, 그녀는 나가요, 우리는 나가요, 그들은 나가요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I go out", "foreign": "저는 나가요", "mark": [{"text": "나가요", "role": "nothing"}], "base": "나가다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She goes out", "foreign": "그녀는 나가요", "mark": [{"text": "나가요", "role": "nothing"}], "base": "나가다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We go out", "foreign": "우리는 나가요", "mark": [{"text": "나가요", "role": "nothing"}], "base": "나가다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They go out", "foreign": "그들은 나가요", "mark": [{"text": "나가요", "role": "nothing"}], "base": "나가다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 29, "verb": "들어가다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 들어가요, 그녀는 들어가요, 우리는 들어가요, 그들은 들어가요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I go in", "foreign": "저는 들어가요", "mark": [{"text": "들어가요", "role": "nothing"}], "base": "들어가다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She goes in", "foreign": "그녀는 들어가요", "mark": [{"text": "들어가요", "role": "nothing"}], "base": "들어가다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We go in", "foreign": "우리는 들어가요", "mark": [{"text": "들어가요", "role": "nothing"}], "base": "들어가다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They go in", "foreign": "그들은 들어가요", "mark": [{"text": "들어가요", "role": "nothing"}], "base": "들어가다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 30, "verb": "여행하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 여행해요, 그녀는 여행해요, 우리는 여행해요, 그들은 여행해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I travel", "foreign": "저는 여행해요", "mark": [{"text": "여행해요", "role": "nothing"}], "base": "여행하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She travels", "foreign": "그녀는 여행해요", "mark": [{"text": "여행해요", "role": "nothing"}], "base": "여행하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We travel", "foreign": "우리는 여행해요", "mark": [{"text": "여행해요", "role": "nothing"}], "base": "여행하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They travel", "foreign": "그들은 여행해요", "mark": [{"text": "여행해요", "role": "nothing"}], "base": "여행하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 31, "verb": "요리하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 요리해요, 그녀는 요리해요, 우리는 요리해요, 그들은 요리해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I cook", "foreign": "저는 요리해요", "mark": [{"text": "요리해요", "role": "nothing"}], "base": "요리하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She cooks", "foreign": "그녀는 요리해요", "mark": [{"text": "요리해요", "role": "nothing"}], "base": "요리하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We cook", "foreign": "우리는 요리해요", "mark": [{"text": "요리해요", "role": "nothing"}], "base": "요리하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They cook", "foreign": "그들은 요리해요", "mark": [{"text": "요리해요", "role": "nothing"}], "base": "요리하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 32, "verb": "전화하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 전화해요, 그녀는 전화해요, 우리는 전화해요, 그들은 전화해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I phone", "foreign": "저는 전화해요", "mark": [{"text": "전화해요", "role": "nothing"}], "base": "전화하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She phones", "foreign": "그녀는 전화해요", "mark": [{"text": "전화해요", "role": "nothing"}], "base": "전화하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We phone", "foreign": "우리는 전화해요", "mark": [{"text": "전화해요", "role": "nothing"}], "base": "전화하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They phone", "foreign": "그들은 전화해요", "mark": [{"text": "전화해요", "role": "nothing"}], "base": "전화하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 33, "verb": "운전하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 운전해요, 그녀는 운전해요, 우리는 운전해요, 그들은 운전해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I drive", "foreign": "저는 운전해요", "mark": [{"text": "운전해요", "role": "nothing"}], "base": "운전하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She drives", "foreign": "그녀는 운전해요", "mark": [{"text": "운전해요", "role": "nothing"}], "base": "운전하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We drive", "foreign": "우리는 운전해요", "mark": [{"text": "운전해요", "role": "nothing"}], "base": "운전하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They drive", "foreign": "그들은 운전해요", "mark": [{"text": "운전해요", "role": "nothing"}], "base": "운전하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 34, "verb": "앉다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 앉아요, 그녀는 앉아요, 우리는 앉아요, 그들은 앉아요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I sit down", "foreign": "저는 앉아요", "mark": [{"text": "앉아요", "role": "nothing"}], "base": "앉다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She sits down", "foreign": "그녀는 앉아요", "mark": [{"text": "앉아요", "role": "nothing"}], "base": "앉다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We sit down", "foreign": "우리는 앉아요", "mark": [{"text": "앉아요", "role": "nothing"}], "base": "앉다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They sit down", "foreign": "그들은 앉아요", "mark": [{"text": "앉아요", "role": "nothing"}], "base": "앉다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 35, "verb": "서다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 서요, 그녀는 서요, 우리는 서요, 그들은 서요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I stand up", "foreign": "저는 서요", "mark": [{"text": "서요", "role": "nothing"}], "base": "서다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She stands up", "foreign": "그녀는 서요", "mark": [{"text": "서요", "role": "nothing"}], "base": "서다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We stand up", "foreign": "우리는 서요", "mark": [{"text": "서요", "role": "nothing"}], "base": "서다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They stand up", "foreign": "그들은 서요", "mark": [{"text": "서요", "role": "nothing"}], "base": "서다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 36, "verb": "날다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 날아요, 그녀는 날아요, 우리는 날아요, 그들은 날아요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I fly", "foreign": "저는 날아요", "mark": [{"text": "날아요", "role": "nothing"}], "base": "날다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She flies", "foreign": "그녀는 날아요", "mark": [{"text": "날아요", "role": "nothing"}], "base": "날다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We fly", "foreign": "우리는 날아요", "mark": [{"text": "날아요", "role": "nothing"}], "base": "날다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They fly", "foreign": "그들은 날아요", "mark": [{"text": "날아요", "role": "nothing"}], "base": "날다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 37, "verb": "대답하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 대답해요, 그녀는 대답해요, 우리는 대답해요, 그들은 대답해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I answer", "foreign": "저는 대답해요", "mark": [{"text": "대답해요", "role": "nothing"}], "base": "대답하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She answers", "foreign": "그녀는 대답해요", "mark": [{"text": "대답해요", "role": "nothing"}], "base": "대답하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We answer", "foreign": "우리는 대답해요", "mark": [{"text": "대답해요", "role": "nothing"}], "base": "대답하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They answer", "foreign": "그들은 대답해요", "mark": [{"text": "대답해요", "role": "nothing"}], "base": "대답하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 38, "verb": "잊다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 잊어요, 그녀는 잊어요, 우리는 잊어요, 그들은 잊어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I forget", "foreign": "저는 잊어요", "mark": [{"text": "잊어요", "role": "nothing"}], "base": "잊다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She forgets", "foreign": "그녀는 잊어요", "mark": [{"text": "잊어요", "role": "nothing"}], "base": "잊다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We forget", "foreign": "우리는 잊어요", "mark": [{"text": "잊어요", "role": "nothing"}], "base": "잊다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They forget", "foreign": "그들은 잊어요", "mark": [{"text": "잊어요", "role": "nothing"}], "base": "잊다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 39, "verb": "지불하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 지불해요, 그녀는 지불해요, 우리는 지불해요, 그들은 지불해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I pay", "foreign": "저는 지불해요", "mark": [{"text": "지불해요", "role": "nothing"}], "base": "지불하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She pays", "foreign": "그녀는 지불해요", "mark": [{"text": "지불해요", "role": "nothing"}], "base": "지불하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We pay", "foreign": "우리는 지불해요", "mark": [{"text": "지불해요", "role": "nothing"}], "base": "지불하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They pay", "foreign": "그들은 지불해요", "mark": [{"text": "지불해요", "role": "nothing"}], "base": "지불하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 40, "verb": "일어나다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 일어나요, 그녀는 일어나요, 우리는 일어나요, 그들은 일어나요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I get up", "foreign": "저는 일어나요", "mark": [{"text": "일어나요", "role": "nothing"}], "base": "일어나다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She gets up", "foreign": "그녀는 일어나요", "mark": [{"text": "일어나요", "role": "nothing"}], "base": "일어나다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We get up", "foreign": "우리는 일어나요", "mark": [{"text": "일어나요", "role": "nothing"}], "base": "일어나다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They get up", "foreign": "그들은 일어나요", "mark": [{"text": "일어나요", "role": "nothing"}], "base": "일어나다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 41, "verb": "가르치다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 가르쳐요, 그녀는 가르쳐요, 우리는 가르쳐요, 그들은 가르쳐요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I teach", "foreign": "저는 가르쳐요", "mark": [{"text": "가르쳐요", "role": "nothing"}], "base": "가르치다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She teaches", "foreign": "그녀는 가르쳐요", "mark": [{"text": "가르쳐요", "role": "nothing"}], "base": "가르치다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We teach", "foreign": "우리는 가르쳐요", "mark": [{"text": "가르쳐요", "role": "nothing"}], "base": "가르치다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They teach", "foreign": "그들은 가르쳐요", "mark": [{"text": "가르쳐요", "role": "nothing"}], "base": "가르치다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 42, "verb": "배우다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 배워요, 그녀는 배워요, 우리는 배워요, 그들은 배워요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I learn", "foreign": "저는 배워요", "mark": [{"text": "배워요", "role": "nothing"}], "base": "배우다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She learns", "foreign": "그녀는 배워요", "mark": [{"text": "배워요", "role": "nothing"}], "base": "배우다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We learn", "foreign": "우리는 배워요", "mark": [{"text": "배워요", "role": "nothing"}], "base": "배우다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They learn", "foreign": "그들은 배워요", "mark": [{"text": "배워요", "role": "nothing"}], "base": "배우다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 43, "verb": "만들다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 만들어요, 그녀는 만들어요, 우리는 만들어요, 그들은 만들어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I make", "foreign": "저는 만들어요", "mark": [{"text": "만들어요", "role": "nothing"}], "base": "만들다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She makes", "foreign": "그녀는 만들어요", "mark": [{"text": "만들어요", "role": "nothing"}], "base": "만들다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We make", "foreign": "우리는 만들어요", "mark": [{"text": "만들어요", "role": "nothing"}], "base": "만들다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They make", "foreign": "그들은 만들어요", "mark": [{"text": "만들어요", "role": "nothing"}], "base": "만들다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 44, "verb": "사용하다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 사용해요, 그녀는 사용해요, 우리는 사용해요, 그들은 사용해요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I use", "foreign": "저는 사용해요", "mark": [{"text": "사용해요", "role": "nothing"}], "base": "사용하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She uses", "foreign": "그녀는 사용해요", "mark": [{"text": "사용해요", "role": "nothing"}], "base": "사용하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We use", "foreign": "우리는 사용해요", "mark": [{"text": "사용해요", "role": "nothing"}], "base": "사용하다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They use", "foreign": "그들은 사용해요", "mark": [{"text": "사용해요", "role": "nothing"}], "base": "사용하다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 45, "verb": "씻다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 씻어요, 그녀는 씻어요, 우리는 씻어요, 그들은 씻어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I wash", "foreign": "저는 씻어요", "mark": [{"text": "씻어요", "role": "nothing"}], "base": "씻다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She washes", "foreign": "그녀는 씻어요", "mark": [{"text": "씻어요", "role": "nothing"}], "base": "씻다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We wash", "foreign": "우리는 씻어요", "mark": [{"text": "씻어요", "role": "nothing"}], "base": "씻다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They wash", "foreign": "그들은 씻어요", "mark": [{"text": "씻어요", "role": "nothing"}], "base": "씻다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 46, "verb": "열다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 열어요, 그녀는 열어요, 우리는 열어요, 그들은 열어요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I open", "foreign": "저는 열어요", "mark": [{"text": "열어요", "role": "nothing"}], "base": "열다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She opens", "foreign": "그녀는 열어요", "mark": [{"text": "열어요", "role": "nothing"}], "base": "열다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We open", "foreign": "우리는 열어요", "mark": [{"text": "열어요", "role": "nothing"}], "base": "열다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They open", "foreign": "그들은 열어요", "mark": [{"text": "열어요", "role": "nothing"}], "base": "열다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 47, "verb": "닫다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 닫아요, 그녀는 닫아요, 우리는 닫아요, 그들은 닫아요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I close", "foreign": "저는 닫아요", "mark": [{"text": "닫아요", "role": "nothing"}], "base": "닫다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She closes", "foreign": "그녀는 닫아요", "mark": [{"text": "닫아요", "role": "nothing"}], "base": "닫다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We close", "foreign": "우리는 닫아요", "mark": [{"text": "닫아요", "role": "nothing"}], "base": "닫다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They close", "foreign": "그들은 닫아요", "mark": [{"text": "닫아요", "role": "nothing"}], "base": "닫다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 48, "verb": "만나다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 만나요, 그녀는 만나요, 우리는 만나요, 그들은 만나요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I meet", "foreign": "저는 만나요", "mark": [{"text": "만나요", "role": "nothing"}], "base": "만나다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She meets", "foreign": "그녀는 만나요", "mark": [{"text": "만나요", "role": "nothing"}], "base": "만나다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We meet", "foreign": "우리는 만나요", "mark": [{"text": "만나요", "role": "nothing"}], "base": "만나다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They meet", "foreign": "그들은 만나요", "mark": [{"text": "만나요", "role": "nothing"}], "base": "만나다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 49, "verb": "보내다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 보내요, 그녀는 보내요, 우리는 보내요, 그들은 보내요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I send", "foreign": "저는 보내요", "mark": [{"text": "보내요", "role": "nothing"}], "base": "보내다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She sends", "foreign": "그녀는 보내요", "mark": [{"text": "보내요", "role": "nothing"}], "base": "보내다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We send", "foreign": "우리는 보내요", "mark": [{"text": "보내요", "role": "nothing"}], "base": "보내다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They send", "foreign": "그들은 보내요", "mark": [{"text": "보내요", "role": "nothing"}], "base": "보내다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "who", "part": 50, "verb": "부르다", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: 저는 불러요, 그녀는 불러요, 우리는 불러요, 그들은 불러요. Only the word in front, marked by 는 or 은, says who.", "rows": [
+				{"english": "I call", "foreign": "저는 불러요", "mark": [{"text": "불러요", "role": "nothing"}], "base": "부르다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She calls", "foreign": "그녀는 불러요", "mark": [{"text": "불러요", "role": "nothing"}], "base": "부르다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We call", "foreign": "우리는 불러요", "mark": [{"text": "불러요", "role": "nothing"}], "base": "부르다", "features": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They call", "foreign": "그들은 불러요", "mark": [{"text": "불러요", "role": "nothing"}], "base": "부르다", "features": {"who": "they", "when": "now", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 2, "verb": "먹다", "strategy": ["ending"], "description": "The ending says when: 먹어요 for now, 먹었어요 for done, and 먹을 거예요 for still to come.", "rows": [
+				{"english": "I eat", "foreign": "먹어요", "mark": ["어요"], "base": "먹다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I ate", "foreign": "먹었어요", "mark": ["었어요"], "from": 1, "base": "먹다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will eat", "foreign": "먹을 거예요", "mark": ["을 거예요"], "from": 1, "base": "먹다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I ate yesterday", "foreign": "어제 먹었어요", "mark": ["었어요"], "base": "먹다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 3, "verb": "마시다", "strategy": ["ending"], "description": "The ending says when: 마셔요 for now, 마셨어요 for done, and 마실 거예요 for still to come.", "rows": [
+				{"english": "I drink", "foreign": "마셔요", "mark": ["요"], "base": "마시다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I drank", "foreign": "마셨어요", "mark": ["어요"], "from": 1, "base": "마시다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will drink", "foreign": "마실 거예요", "mark": ["거예요"], "from": 1, "base": "마시다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I drank yesterday", "foreign": "어제 마셨어요", "mark": ["어요"], "base": "마시다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 4, "verb": "오다", "strategy": ["ending"], "description": "The ending says when: 와요 for now, 왔어요 for done, and 올 거예요 for still to come.", "rows": [
+				{"english": "I come", "foreign": "와요", "mark": ["요"], "base": "오다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I came", "foreign": "왔어요", "mark": ["어요"], "from": 1, "base": "오다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will come", "foreign": "올 거예요", "mark": ["거예요"], "from": 1, "base": "오다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I came yesterday", "foreign": "어제 왔어요", "mark": ["어요"], "base": "오다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 5, "verb": "보다", "strategy": ["ending"], "description": "The ending says when: 봐요 for now, 봤어요 for done, and 볼 거예요 for still to come.", "rows": [
+				{"english": "I watch", "foreign": "봐요", "mark": ["요"], "base": "보다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I watched", "foreign": "봤어요", "mark": ["어요"], "from": 1, "base": "보다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will watch", "foreign": "볼 거예요", "mark": ["거예요"], "from": 1, "base": "보다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I watched yesterday", "foreign": "어제 봤어요", "mark": ["어요"], "base": "보다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 6, "verb": "듣다", "strategy": ["ending"], "description": "The ending says when: 들어요 for now, 들었어요 for done, and 들을 거예요 for still to come.", "rows": [
+				{"english": "I listen", "foreign": "들어요", "mark": ["어요"], "base": "듣다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I listened", "foreign": "들었어요", "mark": ["었어요"], "from": 1, "base": "듣다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will listen", "foreign": "들을 거예요", "mark": ["을 거예요"], "from": 1, "base": "듣다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I listened yesterday", "foreign": "어제 들었어요", "mark": ["었어요"], "base": "듣다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 7, "verb": "말하다", "strategy": ["ending"], "description": "The ending says when: 말해요 for now, 말했어요 for done, and 말할 거예요 for still to come.", "rows": [
+				{"english": "I speak", "foreign": "말해요", "mark": ["해요"], "base": "말하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I spoke", "foreign": "말했어요", "mark": ["했어요"], "from": 1, "base": "말하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will speak", "foreign": "말할 거예요", "mark": ["거예요"], "from": 1, "base": "말하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I spoke yesterday", "foreign": "어제 말했어요", "mark": ["했어요"], "base": "말하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 8, "verb": "쓰다", "strategy": ["ending"], "description": "The ending says when: 써요 for now, 썼어요 for done, and 쓸 거예요 for still to come.", "rows": [
+				{"english": "I write", "foreign": "써요", "mark": ["요"], "base": "쓰다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I wrote", "foreign": "썼어요", "mark": ["어요"], "from": 1, "base": "쓰다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will write", "foreign": "쓸 거예요", "mark": ["거예요"], "from": 1, "base": "쓰다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I wrote yesterday", "foreign": "어제 썼어요", "mark": ["어요"], "base": "쓰다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 9, "verb": "걷다", "strategy": ["ending"], "description": "The ending says when: 걸어요 for now, 걸었어요 for done, and 걸을 거예요 for still to come.", "rows": [
+				{"english": "I walk", "foreign": "걸어요", "mark": ["어요"], "base": "걷다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I walked", "foreign": "걸었어요", "mark": ["었어요"], "from": 1, "base": "걷다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will walk", "foreign": "걸을 거예요", "mark": ["을 거예요"], "from": 1, "base": "걷다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I walked yesterday", "foreign": "어제 걸었어요", "mark": ["었어요"], "base": "걷다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 10, "verb": "달리다", "strategy": ["ending"], "description": "The ending says when: 달려요 for now, 달렸어요 for done, and 달릴 거예요 for still to come.", "rows": [
+				{"english": "I run", "foreign": "달려요", "mark": ["요"], "base": "달리다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I ran", "foreign": "달렸어요", "mark": ["어요"], "from": 1, "base": "달리다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will run", "foreign": "달릴 거예요", "mark": ["거예요"], "from": 1, "base": "달리다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I ran yesterday", "foreign": "어제 달렸어요", "mark": ["어요"], "base": "달리다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 11, "verb": "사다", "strategy": ["ending"], "description": "The ending says when: 사요 for now, 샀어요 for done, and 살 거예요 for still to come.", "rows": [
+				{"english": "I buy", "foreign": "사요", "mark": ["요"], "base": "사다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I bought", "foreign": "샀어요", "mark": ["어요"], "from": 1, "base": "사다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will buy", "foreign": "살 거예요", "mark": ["거예요"], "from": 1, "base": "사다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I bought yesterday", "foreign": "어제 샀어요", "mark": ["어요"], "base": "사다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 12, "verb": "팔다", "strategy": ["ending"], "description": "The ending says when: 팔아요 for now, 팔았어요 for done, and 팔 거예요 for still to come.", "rows": [
+				{"english": "I sell", "foreign": "팔아요", "mark": ["아요"], "base": "팔다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I sold", "foreign": "팔았어요", "mark": ["았어요"], "from": 1, "base": "팔다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will sell", "foreign": "팔 거예요", "mark": ["거예요"], "from": 1, "base": "팔다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I sold yesterday", "foreign": "어제 팔았어요", "mark": ["았어요"], "base": "팔다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 13, "verb": "기다리다", "strategy": ["ending"], "description": "The ending says when: 기다려요 for now, 기다렸어요 for done, and 기다릴 거예요 for still to come.", "rows": [
+				{"english": "I wait", "foreign": "기다려요", "mark": ["요"], "base": "기다리다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I waited", "foreign": "기다렸어요", "mark": ["어요"], "from": 1, "base": "기다리다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will wait", "foreign": "기다릴 거예요", "mark": ["거예요"], "from": 1, "base": "기다리다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I waited yesterday", "foreign": "어제 기다렸어요", "mark": ["어요"], "base": "기다리다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 14, "verb": "찾다", "strategy": ["ending"], "description": "The ending says when: 찾아요 for now, 찾았어요 for done, and 찾을 거예요 for still to come.", "rows": [
+				{"english": "I look for", "foreign": "찾아요", "mark": ["아요"], "base": "찾다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I looked for", "foreign": "찾았어요", "mark": ["았어요"], "from": 1, "base": "찾다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will look for", "foreign": "찾을 거예요", "mark": ["을 거예요"], "from": 1, "base": "찾다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I looked for yesterday", "foreign": "어제 찾았어요", "mark": ["았어요"], "base": "찾다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 15, "verb": "생각하다", "strategy": ["ending"], "description": "The ending says when: 생각해요 for now, 생각했어요 for done, and 생각할 거예요 for still to come.", "rows": [
+				{"english": "I think", "foreign": "생각해요", "mark": ["해요"], "base": "생각하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I thought", "foreign": "생각했어요", "mark": ["했어요"], "from": 1, "base": "생각하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will think", "foreign": "생각할 거예요", "mark": ["거예요"], "from": 1, "base": "생각하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I thought yesterday", "foreign": "어제 생각했어요", "mark": ["했어요"], "base": "생각하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 16, "verb": "웃다", "strategy": ["ending"], "description": "The ending says when: 웃어요 for now, 웃었어요 for done, and 웃을 거예요 for still to come.", "rows": [
+				{"english": "I laugh", "foreign": "웃어요", "mark": ["어요"], "base": "웃다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I laughed", "foreign": "웃었어요", "mark": ["었어요"], "from": 1, "base": "웃다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will laugh", "foreign": "웃을 거예요", "mark": ["을 거예요"], "from": 1, "base": "웃다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I laughed yesterday", "foreign": "어제 웃었어요", "mark": ["었어요"], "base": "웃다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 17, "verb": "울다", "strategy": ["ending"], "description": "The ending says when: 울어요 for now, 울었어요 for done, and 울 거예요 for still to come.", "rows": [
+				{"english": "I cry", "foreign": "울어요", "mark": ["어요"], "base": "울다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I cried", "foreign": "울었어요", "mark": ["었어요"], "from": 1, "base": "울다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will cry", "foreign": "울 거예요", "mark": ["거예요"], "from": 1, "base": "울다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I cried yesterday", "foreign": "어제 울었어요", "mark": ["었어요"], "base": "울다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 18, "verb": "놀다", "strategy": ["ending"], "description": "The ending says when: 놀아요 for now, 놀았어요 for done, and 놀 거예요 for still to come.", "rows": [
+				{"english": "I play", "foreign": "놀아요", "mark": ["아요"], "base": "놀다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I played", "foreign": "놀았어요", "mark": ["았어요"], "from": 1, "base": "놀다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will play", "foreign": "놀 거예요", "mark": ["거예요"], "from": 1, "base": "놀다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I played yesterday", "foreign": "어제 놀았어요", "mark": ["았어요"], "base": "놀다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 19, "verb": "노래하다", "strategy": ["ending"], "description": "The ending says when: 노래해요 for now, 노래했어요 for done, and 노래할 거예요 for still to come.", "rows": [
+				{"english": "I sing", "foreign": "노래해요", "mark": ["해요"], "base": "노래하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I sang", "foreign": "노래했어요", "mark": ["했어요"], "from": 1, "base": "노래하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will sing", "foreign": "노래할 거예요", "mark": ["거예요"], "from": 1, "base": "노래하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I sang yesterday", "foreign": "어제 노래했어요", "mark": ["했어요"], "base": "노래하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 20, "verb": "춤추다", "strategy": ["ending"], "description": "The ending says when: 춤추어요 for now, 춤추었어요 for done, and 춤출 거예요 for still to come.", "rows": [
+				{"english": "I dance", "foreign": "춤추어요", "mark": ["어요"], "base": "춤추다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I danced", "foreign": "춤추었어요", "mark": ["었어요"], "from": 1, "base": "춤추다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will dance", "foreign": "춤출 거예요", "mark": ["거예요"], "from": 1, "base": "춤추다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I danced yesterday", "foreign": "어제 춤추었어요", "mark": ["었어요"], "base": "춤추다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 21, "verb": "수영하다", "strategy": ["ending"], "description": "The ending says when: 수영해요 for now, 수영했어요 for done, and 수영할 거예요 for still to come.", "rows": [
+				{"english": "I swim", "foreign": "수영해요", "mark": ["해요"], "base": "수영하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I swam", "foreign": "수영했어요", "mark": ["했어요"], "from": 1, "base": "수영하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will swim", "foreign": "수영할 거예요", "mark": ["거예요"], "from": 1, "base": "수영하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I swam yesterday", "foreign": "어제 수영했어요", "mark": ["했어요"], "base": "수영하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 22, "verb": "일하다", "strategy": ["ending"], "description": "The ending says when: 일해요 for now, 일했어요 for done, and 일할 거예요 for still to come.", "rows": [
+				{"english": "I work", "foreign": "일해요", "mark": ["해요"], "base": "일하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I worked", "foreign": "일했어요", "mark": ["했어요"], "from": 1, "base": "일하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will work", "foreign": "일할 거예요", "mark": ["거예요"], "from": 1, "base": "일하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I worked yesterday", "foreign": "어제 일했어요", "mark": ["했어요"], "base": "일하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 23, "verb": "공부하다", "strategy": ["ending"], "description": "The ending says when: 공부해요 for now, 공부했어요 for done, and 공부할 거예요 for still to come.", "rows": [
+				{"english": "I study", "foreign": "공부해요", "mark": ["해요"], "base": "공부하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I studied", "foreign": "공부했어요", "mark": ["했어요"], "from": 1, "base": "공부하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will study", "foreign": "공부할 거예요", "mark": ["거예요"], "from": 1, "base": "공부하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I studied yesterday", "foreign": "어제 공부했어요", "mark": ["했어요"], "base": "공부하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 24, "verb": "쉬다", "strategy": ["ending"], "description": "The ending says when: 쉬어요 for now, 쉬었어요 for done, and 쉴 거예요 for still to come.", "rows": [
+				{"english": "I rest", "foreign": "쉬어요", "mark": ["어요"], "base": "쉬다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I rested", "foreign": "쉬었어요", "mark": ["었어요"], "from": 1, "base": "쉬다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will rest", "foreign": "쉴 거예요", "mark": ["거예요"], "from": 1, "base": "쉬다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I rested yesterday", "foreign": "어제 쉬었어요", "mark": ["었어요"], "base": "쉬다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 25, "verb": "시작하다", "strategy": ["ending"], "description": "The ending says when: 시작해요 for now, 시작했어요 for done, and 시작할 거예요 for still to come.", "rows": [
+				{"english": "I begin", "foreign": "시작해요", "mark": ["해요"], "base": "시작하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I began", "foreign": "시작했어요", "mark": ["했어요"], "from": 1, "base": "시작하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will begin", "foreign": "시작할 거예요", "mark": ["거예요"], "from": 1, "base": "시작하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I began yesterday", "foreign": "어제 시작했어요", "mark": ["했어요"], "base": "시작하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 26, "verb": "돕다", "strategy": ["ending"], "description": "The ending says when: 도와요 for now, 도왔어요 for done, and 도울 거예요 for still to come.", "rows": [
+				{"english": "I help", "foreign": "도와요", "mark": ["요"], "base": "돕다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I helped", "foreign": "도왔어요", "mark": ["어요"], "from": 1, "base": "돕다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will help", "foreign": "도울 거예요", "mark": ["거예요"], "from": 1, "base": "돕다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I helped yesterday", "foreign": "어제 도왔어요", "mark": ["어요"], "base": "돕다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 27, "verb": "돌아오다", "strategy": ["ending"], "description": "The ending says when: 돌아와요 for now, 돌아왔어요 for done, and 돌아올 거예요 for still to come.", "rows": [
+				{"english": "I come back", "foreign": "돌아와요", "mark": ["요"], "base": "돌아오다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I came back", "foreign": "돌아왔어요", "mark": ["어요"], "from": 1, "base": "돌아오다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will come back", "foreign": "돌아올 거예요", "mark": ["거예요"], "from": 1, "base": "돌아오다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I came back yesterday", "foreign": "어제 돌아왔어요", "mark": ["어요"], "base": "돌아오다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 28, "verb": "나가다", "strategy": ["ending"], "description": "The ending says when: 나가요 for now, 나갔어요 for done, and 나갈 거예요 for still to come.", "rows": [
+				{"english": "I go out", "foreign": "나가요", "mark": ["요"], "base": "나가다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I went out", "foreign": "나갔어요", "mark": ["어요"], "from": 1, "base": "나가다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will go out", "foreign": "나갈 거예요", "mark": ["거예요"], "from": 1, "base": "나가다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I went out yesterday", "foreign": "어제 나갔어요", "mark": ["어요"], "base": "나가다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 29, "verb": "들어가다", "strategy": ["ending"], "description": "The ending says when: 들어가요 for now, 들어갔어요 for done, and 들어갈 거예요 for still to come.", "rows": [
+				{"english": "I go in", "foreign": "들어가요", "mark": ["요"], "base": "들어가다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I went in", "foreign": "들어갔어요", "mark": ["어요"], "from": 1, "base": "들어가다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will go in", "foreign": "들어갈 거예요", "mark": ["거예요"], "from": 1, "base": "들어가다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I went in yesterday", "foreign": "어제 들어갔어요", "mark": ["어요"], "base": "들어가다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 30, "verb": "여행하다", "strategy": ["ending"], "description": "The ending says when: 여행해요 for now, 여행했어요 for done, and 여행할 거예요 for still to come.", "rows": [
+				{"english": "I travel", "foreign": "여행해요", "mark": ["해요"], "base": "여행하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I travelled", "foreign": "여행했어요", "mark": ["했어요"], "from": 1, "base": "여행하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will travel", "foreign": "여행할 거예요", "mark": ["거예요"], "from": 1, "base": "여행하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I travelled yesterday", "foreign": "어제 여행했어요", "mark": ["했어요"], "base": "여행하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 31, "verb": "요리하다", "strategy": ["ending"], "description": "The ending says when: 요리해요 for now, 요리했어요 for done, and 요리할 거예요 for still to come.", "rows": [
+				{"english": "I cook", "foreign": "요리해요", "mark": ["해요"], "base": "요리하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I cooked", "foreign": "요리했어요", "mark": ["했어요"], "from": 1, "base": "요리하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will cook", "foreign": "요리할 거예요", "mark": ["거예요"], "from": 1, "base": "요리하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I cooked yesterday", "foreign": "어제 요리했어요", "mark": ["했어요"], "base": "요리하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 32, "verb": "전화하다", "strategy": ["ending"], "description": "The ending says when: 전화해요 for now, 전화했어요 for done, and 전화할 거예요 for still to come.", "rows": [
+				{"english": "I phone", "foreign": "전화해요", "mark": ["해요"], "base": "전화하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I phoned", "foreign": "전화했어요", "mark": ["했어요"], "from": 1, "base": "전화하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will phone", "foreign": "전화할 거예요", "mark": ["거예요"], "from": 1, "base": "전화하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I phoned yesterday", "foreign": "어제 전화했어요", "mark": ["했어요"], "base": "전화하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 33, "verb": "운전하다", "strategy": ["ending"], "description": "The ending says when: 운전해요 for now, 운전했어요 for done, and 운전할 거예요 for still to come.", "rows": [
+				{"english": "I drive", "foreign": "운전해요", "mark": ["해요"], "base": "운전하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I drove", "foreign": "운전했어요", "mark": ["했어요"], "from": 1, "base": "운전하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will drive", "foreign": "운전할 거예요", "mark": ["거예요"], "from": 1, "base": "운전하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I drove yesterday", "foreign": "어제 운전했어요", "mark": ["했어요"], "base": "운전하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 34, "verb": "앉다", "strategy": ["ending"], "description": "The ending says when: 앉아요 for now, 앉았어요 for done, and 앉을 거예요 for still to come.", "rows": [
+				{"english": "I sit down", "foreign": "앉아요", "mark": ["아요"], "base": "앉다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I sat down", "foreign": "앉았어요", "mark": ["았어요"], "from": 1, "base": "앉다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will sit down", "foreign": "앉을 거예요", "mark": ["을 거예요"], "from": 1, "base": "앉다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I sat down yesterday", "foreign": "어제 앉았어요", "mark": ["았어요"], "base": "앉다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 35, "verb": "서다", "strategy": ["ending"], "description": "The ending says when: 서요 for now, 섰어요 for done, and 설 거예요 for still to come.", "rows": [
+				{"english": "I stand up", "foreign": "서요", "mark": ["요"], "base": "서다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I stood up", "foreign": "섰어요", "mark": ["어요"], "from": 1, "base": "서다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will stand up", "foreign": "설 거예요", "mark": ["거예요"], "from": 1, "base": "서다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I stood up yesterday", "foreign": "어제 섰어요", "mark": ["어요"], "base": "서다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 36, "verb": "날다", "strategy": ["ending"], "description": "The ending says when: 날아요 for now, 날았어요 for done, and 날 거예요 for still to come.", "rows": [
+				{"english": "I fly", "foreign": "날아요", "mark": ["아요"], "base": "날다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I flew", "foreign": "날았어요", "mark": ["았어요"], "from": 1, "base": "날다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will fly", "foreign": "날 거예요", "mark": ["거예요"], "from": 1, "base": "날다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I flew yesterday", "foreign": "어제 날았어요", "mark": ["았어요"], "base": "날다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 37, "verb": "대답하다", "strategy": ["ending"], "description": "The ending says when: 대답해요 for now, 대답했어요 for done, and 대답할 거예요 for still to come.", "rows": [
+				{"english": "I answer", "foreign": "대답해요", "mark": ["해요"], "base": "대답하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I answered", "foreign": "대답했어요", "mark": ["했어요"], "from": 1, "base": "대답하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will answer", "foreign": "대답할 거예요", "mark": ["거예요"], "from": 1, "base": "대답하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I answered yesterday", "foreign": "어제 대답했어요", "mark": ["했어요"], "base": "대답하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 38, "verb": "잊다", "strategy": ["ending"], "description": "The ending says when: 잊어요 for now, 잊었어요 for done, and 잊을 거예요 for still to come.", "rows": [
+				{"english": "I forget", "foreign": "잊어요", "mark": ["어요"], "base": "잊다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I forgot", "foreign": "잊었어요", "mark": ["었어요"], "from": 1, "base": "잊다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will forget", "foreign": "잊을 거예요", "mark": ["을 거예요"], "from": 1, "base": "잊다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I forgot yesterday", "foreign": "어제 잊었어요", "mark": ["었어요"], "base": "잊다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 39, "verb": "지불하다", "strategy": ["ending"], "description": "The ending says when: 지불해요 for now, 지불했어요 for done, and 지불할 거예요 for still to come.", "rows": [
+				{"english": "I pay", "foreign": "지불해요", "mark": ["해요"], "base": "지불하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I paid", "foreign": "지불했어요", "mark": ["했어요"], "from": 1, "base": "지불하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will pay", "foreign": "지불할 거예요", "mark": ["거예요"], "from": 1, "base": "지불하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I paid yesterday", "foreign": "어제 지불했어요", "mark": ["했어요"], "base": "지불하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 40, "verb": "일어나다", "strategy": ["ending"], "description": "The ending says when: 일어나요 for now, 일어났어요 for done, and 일어날 거예요 for still to come.", "rows": [
+				{"english": "I get up", "foreign": "일어나요", "mark": ["요"], "base": "일어나다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I got up", "foreign": "일어났어요", "mark": ["어요"], "from": 1, "base": "일어나다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will get up", "foreign": "일어날 거예요", "mark": ["거예요"], "from": 1, "base": "일어나다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I got up yesterday", "foreign": "어제 일어났어요", "mark": ["어요"], "base": "일어나다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 41, "verb": "가르치다", "strategy": ["ending"], "description": "The ending says when: 가르쳐요 for now, 가르쳤어요 for done, and 가르칠 거예요 for still to come.", "rows": [
+				{"english": "I teach", "foreign": "가르쳐요", "mark": ["요"], "base": "가르치다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I taught", "foreign": "가르쳤어요", "mark": ["어요"], "from": 1, "base": "가르치다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will teach", "foreign": "가르칠 거예요", "mark": ["거예요"], "from": 1, "base": "가르치다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I taught yesterday", "foreign": "어제 가르쳤어요", "mark": ["어요"], "base": "가르치다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 42, "verb": "배우다", "strategy": ["ending"], "description": "The ending says when: 배워요 for now, 배웠어요 for done, and 배울 거예요 for still to come.", "rows": [
+				{"english": "I learn", "foreign": "배워요", "mark": ["요"], "base": "배우다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I learned", "foreign": "배웠어요", "mark": ["어요"], "from": 1, "base": "배우다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will learn", "foreign": "배울 거예요", "mark": ["거예요"], "from": 1, "base": "배우다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I learned yesterday", "foreign": "어제 배웠어요", "mark": ["어요"], "base": "배우다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 43, "verb": "만들다", "strategy": ["ending"], "description": "The ending says when: 만들어요 for now, 만들었어요 for done, and 만들 거예요 for still to come.", "rows": [
+				{"english": "I make", "foreign": "만들어요", "mark": ["어요"], "base": "만들다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I made", "foreign": "만들었어요", "mark": ["었어요"], "from": 1, "base": "만들다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will make", "foreign": "만들 거예요", "mark": ["거예요"], "from": 1, "base": "만들다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I made yesterday", "foreign": "어제 만들었어요", "mark": ["었어요"], "base": "만들다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 44, "verb": "사용하다", "strategy": ["ending"], "description": "The ending says when: 사용해요 for now, 사용했어요 for done, and 사용할 거예요 for still to come.", "rows": [
+				{"english": "I use", "foreign": "사용해요", "mark": ["해요"], "base": "사용하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I used", "foreign": "사용했어요", "mark": ["했어요"], "from": 1, "base": "사용하다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will use", "foreign": "사용할 거예요", "mark": ["거예요"], "from": 1, "base": "사용하다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I used yesterday", "foreign": "어제 사용했어요", "mark": ["했어요"], "base": "사용하다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 45, "verb": "씻다", "strategy": ["ending"], "description": "The ending says when: 씻어요 for now, 씻었어요 for done, and 씻을 거예요 for still to come.", "rows": [
+				{"english": "I wash", "foreign": "씻어요", "mark": ["어요"], "base": "씻다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I washed", "foreign": "씻었어요", "mark": ["었어요"], "from": 1, "base": "씻다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will wash", "foreign": "씻을 거예요", "mark": ["을 거예요"], "from": 1, "base": "씻다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I washed yesterday", "foreign": "어제 씻었어요", "mark": ["었어요"], "base": "씻다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 46, "verb": "열다", "strategy": ["ending"], "description": "The ending says when: 열어요 for now, 열었어요 for done, and 열 거예요 for still to come.", "rows": [
+				{"english": "I open", "foreign": "열어요", "mark": ["어요"], "base": "열다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I opened", "foreign": "열었어요", "mark": ["었어요"], "from": 1, "base": "열다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will open", "foreign": "열 거예요", "mark": ["거예요"], "from": 1, "base": "열다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I opened yesterday", "foreign": "어제 열었어요", "mark": ["었어요"], "base": "열다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 47, "verb": "닫다", "strategy": ["ending"], "description": "The ending says when: 닫아요 for now, 닫았어요 for done, and 닫을 거예요 for still to come.", "rows": [
+				{"english": "I close", "foreign": "닫아요", "mark": ["아요"], "base": "닫다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I closed", "foreign": "닫았어요", "mark": ["았어요"], "from": 1, "base": "닫다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will close", "foreign": "닫을 거예요", "mark": ["을 거예요"], "from": 1, "base": "닫다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I closed yesterday", "foreign": "어제 닫았어요", "mark": ["았어요"], "base": "닫다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 48, "verb": "만나다", "strategy": ["ending"], "description": "The ending says when: 만나요 for now, 만났어요 for done, and 만날 거예요 for still to come.", "rows": [
+				{"english": "I meet", "foreign": "만나요", "mark": ["요"], "base": "만나다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I met", "foreign": "만났어요", "mark": ["어요"], "from": 1, "base": "만나다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will meet", "foreign": "만날 거예요", "mark": ["거예요"], "from": 1, "base": "만나다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I met yesterday", "foreign": "어제 만났어요", "mark": ["어요"], "base": "만나다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 49, "verb": "보내다", "strategy": ["ending"], "description": "The ending says when: 보내요 for now, 보냈어요 for done, and 보낼 거예요 for still to come.", "rows": [
+				{"english": "I send", "foreign": "보내요", "mark": ["요"], "base": "보내다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I sent", "foreign": "보냈어요", "mark": ["어요"], "from": 1, "base": "보내다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will send", "foreign": "보낼 거예요", "mark": ["거예요"], "from": 1, "base": "보내다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I sent yesterday", "foreign": "어제 보냈어요", "mark": ["어요"], "base": "보내다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "when", "part": 50, "verb": "부르다", "strategy": ["ending"], "description": "The ending says when: 불러요 for now, 불렀어요 for done, and 부를 거예요 for still to come.", "rows": [
+				{"english": "I call", "foreign": "불러요", "mark": ["요"], "base": "부르다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I called", "foreign": "불렀어요", "mark": ["어요"], "from": 1, "base": "부르다", "features": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will call", "foreign": "부를 거예요", "mark": ["거예요"], "from": 1, "base": "부르다", "features": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I called yesterday", "foreign": "어제 불렀어요", "mark": ["어요"], "base": "부르다", "features": {"who": "i", "when": "before", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 2, "verb": "먹다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 먹고 있어요.", "rows": [
+				{"english": "I eat", "foreign": "먹어요", "base": "먹다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am eating", "foreign": "먹고 있어요", "mark": ["고 있어요"], "from": 1, "base": "먹다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She eats", "foreign": "그녀는 먹어요", "base": "먹다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is eating", "foreign": "그녀는 먹고 있어요", "mark": ["고 있어요"], "from": 3, "base": "먹다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 3, "verb": "마시다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 마시고 있어요.", "rows": [
+				{"english": "I drink", "foreign": "마셔요", "base": "마시다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am drinking", "foreign": "마시고 있어요", "mark": ["고 있어요"], "from": 1, "base": "마시다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She drinks", "foreign": "그녀는 마셔요", "base": "마시다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is drinking", "foreign": "그녀는 마시고 있어요", "mark": ["고 있어요"], "from": 3, "base": "마시다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 4, "verb": "오다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 오고 있어요.", "rows": [
+				{"english": "I come", "foreign": "와요", "base": "오다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am coming", "foreign": "오고 있어요", "mark": ["고 있어요"], "from": 1, "base": "오다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She comes", "foreign": "그녀는 와요", "base": "오다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is coming", "foreign": "그녀는 오고 있어요", "mark": ["고 있어요"], "from": 3, "base": "오다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 5, "verb": "보다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 보고 있어요.", "rows": [
+				{"english": "I watch", "foreign": "봐요", "base": "보다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am watching", "foreign": "보고 있어요", "mark": ["고 있어요"], "from": 1, "base": "보다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She watches", "foreign": "그녀는 봐요", "base": "보다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is watching", "foreign": "그녀는 보고 있어요", "mark": ["고 있어요"], "from": 3, "base": "보다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 6, "verb": "듣다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 듣고 있어요.", "rows": [
+				{"english": "I listen", "foreign": "들어요", "base": "듣다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am listening", "foreign": "듣고 있어요", "mark": ["고 있어요"], "from": 1, "base": "듣다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She listens", "foreign": "그녀는 들어요", "base": "듣다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is listening", "foreign": "그녀는 듣고 있어요", "mark": ["고 있어요"], "from": 3, "base": "듣다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 7, "verb": "말하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 말하고 있어요.", "rows": [
+				{"english": "I speak", "foreign": "말해요", "base": "말하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am speaking", "foreign": "말하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "말하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She speaks", "foreign": "그녀는 말해요", "base": "말하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is speaking", "foreign": "그녀는 말하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "말하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 8, "verb": "쓰다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 쓰고 있어요.", "rows": [
+				{"english": "I write", "foreign": "써요", "base": "쓰다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am writing", "foreign": "쓰고 있어요", "mark": ["고 있어요"], "from": 1, "base": "쓰다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She writes", "foreign": "그녀는 써요", "base": "쓰다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is writing", "foreign": "그녀는 쓰고 있어요", "mark": ["고 있어요"], "from": 3, "base": "쓰다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 9, "verb": "걷다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 걷고 있어요.", "rows": [
+				{"english": "I walk", "foreign": "걸어요", "base": "걷다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am walking", "foreign": "걷고 있어요", "mark": ["고 있어요"], "from": 1, "base": "걷다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She walks", "foreign": "그녀는 걸어요", "base": "걷다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is walking", "foreign": "그녀는 걷고 있어요", "mark": ["고 있어요"], "from": 3, "base": "걷다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 10, "verb": "달리다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 달리고 있어요.", "rows": [
+				{"english": "I run", "foreign": "달려요", "base": "달리다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am running", "foreign": "달리고 있어요", "mark": ["고 있어요"], "from": 1, "base": "달리다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She runs", "foreign": "그녀는 달려요", "base": "달리다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is running", "foreign": "그녀는 달리고 있어요", "mark": ["고 있어요"], "from": 3, "base": "달리다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 11, "verb": "사다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 사고 있어요.", "rows": [
+				{"english": "I buy", "foreign": "사요", "base": "사다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am buying", "foreign": "사고 있어요", "mark": ["고 있어요"], "from": 1, "base": "사다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She buys", "foreign": "그녀는 사요", "base": "사다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is buying", "foreign": "그녀는 사고 있어요", "mark": ["고 있어요"], "from": 3, "base": "사다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 12, "verb": "팔다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 팔고 있어요.", "rows": [
+				{"english": "I sell", "foreign": "팔아요", "base": "팔다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am selling", "foreign": "팔고 있어요", "mark": ["고 있어요"], "from": 1, "base": "팔다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She sells", "foreign": "그녀는 팔아요", "base": "팔다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is selling", "foreign": "그녀는 팔고 있어요", "mark": ["고 있어요"], "from": 3, "base": "팔다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 13, "verb": "기다리다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 기다리고 있어요.", "rows": [
+				{"english": "I wait", "foreign": "기다려요", "base": "기다리다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am waiting", "foreign": "기다리고 있어요", "mark": ["고 있어요"], "from": 1, "base": "기다리다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She waits", "foreign": "그녀는 기다려요", "base": "기다리다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is waiting", "foreign": "그녀는 기다리고 있어요", "mark": ["고 있어요"], "from": 3, "base": "기다리다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 14, "verb": "찾다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 찾고 있어요.", "rows": [
+				{"english": "I look for", "foreign": "찾아요", "base": "찾다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am looking for", "foreign": "찾고 있어요", "mark": ["고 있어요"], "from": 1, "base": "찾다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She looks for", "foreign": "그녀는 찾아요", "base": "찾다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is looking for", "foreign": "그녀는 찾고 있어요", "mark": ["고 있어요"], "from": 3, "base": "찾다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 15, "verb": "생각하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 생각하고 있어요.", "rows": [
+				{"english": "I think", "foreign": "생각해요", "base": "생각하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am thinking", "foreign": "생각하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "생각하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She thinks", "foreign": "그녀는 생각해요", "base": "생각하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is thinking", "foreign": "그녀는 생각하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "생각하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 16, "verb": "웃다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 웃고 있어요.", "rows": [
+				{"english": "I laugh", "foreign": "웃어요", "base": "웃다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am laughing", "foreign": "웃고 있어요", "mark": ["고 있어요"], "from": 1, "base": "웃다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She laughs", "foreign": "그녀는 웃어요", "base": "웃다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is laughing", "foreign": "그녀는 웃고 있어요", "mark": ["고 있어요"], "from": 3, "base": "웃다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 17, "verb": "울다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 울고 있어요.", "rows": [
+				{"english": "I cry", "foreign": "울어요", "base": "울다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am crying", "foreign": "울고 있어요", "mark": ["고 있어요"], "from": 1, "base": "울다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She cries", "foreign": "그녀는 울어요", "base": "울다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is crying", "foreign": "그녀는 울고 있어요", "mark": ["고 있어요"], "from": 3, "base": "울다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 18, "verb": "놀다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 놀고 있어요.", "rows": [
+				{"english": "I play", "foreign": "놀아요", "base": "놀다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am playing", "foreign": "놀고 있어요", "mark": ["고 있어요"], "from": 1, "base": "놀다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She plays", "foreign": "그녀는 놀아요", "base": "놀다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is playing", "foreign": "그녀는 놀고 있어요", "mark": ["고 있어요"], "from": 3, "base": "놀다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 19, "verb": "노래하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 노래하고 있어요.", "rows": [
+				{"english": "I sing", "foreign": "노래해요", "base": "노래하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am singing", "foreign": "노래하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "노래하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She sings", "foreign": "그녀는 노래해요", "base": "노래하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is singing", "foreign": "그녀는 노래하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "노래하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 20, "verb": "춤추다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 춤추고 있어요.", "rows": [
+				{"english": "I dance", "foreign": "춤추어요", "base": "춤추다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am dancing", "foreign": "춤추고 있어요", "mark": ["고 있어요"], "from": 1, "base": "춤추다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She dances", "foreign": "그녀는 춤추어요", "base": "춤추다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is dancing", "foreign": "그녀는 춤추고 있어요", "mark": ["고 있어요"], "from": 3, "base": "춤추다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 21, "verb": "수영하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 수영하고 있어요.", "rows": [
+				{"english": "I swim", "foreign": "수영해요", "base": "수영하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am swimming", "foreign": "수영하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "수영하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She swims", "foreign": "그녀는 수영해요", "base": "수영하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is swimming", "foreign": "그녀는 수영하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "수영하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 22, "verb": "일하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 일하고 있어요.", "rows": [
+				{"english": "I work", "foreign": "일해요", "base": "일하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am working", "foreign": "일하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "일하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She works", "foreign": "그녀는 일해요", "base": "일하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is working", "foreign": "그녀는 일하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "일하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 23, "verb": "공부하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 공부하고 있어요.", "rows": [
+				{"english": "I study", "foreign": "공부해요", "base": "공부하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am studying", "foreign": "공부하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "공부하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She studies", "foreign": "그녀는 공부해요", "base": "공부하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is studying", "foreign": "그녀는 공부하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "공부하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 24, "verb": "쉬다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 쉬고 있어요.", "rows": [
+				{"english": "I rest", "foreign": "쉬어요", "base": "쉬다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am resting", "foreign": "쉬고 있어요", "mark": ["고 있어요"], "from": 1, "base": "쉬다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She rests", "foreign": "그녀는 쉬어요", "base": "쉬다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is resting", "foreign": "그녀는 쉬고 있어요", "mark": ["고 있어요"], "from": 3, "base": "쉬다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 26, "verb": "돕다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 돕고 있어요.", "rows": [
+				{"english": "I help", "foreign": "도와요", "base": "돕다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am helping", "foreign": "돕고 있어요", "mark": ["고 있어요"], "from": 1, "base": "돕다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She helps", "foreign": "그녀는 도와요", "base": "돕다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is helping", "foreign": "그녀는 돕고 있어요", "mark": ["고 있어요"], "from": 3, "base": "돕다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 27, "verb": "돌아오다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 돌아오고 있어요.", "rows": [
+				{"english": "I come back", "foreign": "돌아와요", "base": "돌아오다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am coming back", "foreign": "돌아오고 있어요", "mark": ["고 있어요"], "from": 1, "base": "돌아오다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She comes back", "foreign": "그녀는 돌아와요", "base": "돌아오다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is coming back", "foreign": "그녀는 돌아오고 있어요", "mark": ["고 있어요"], "from": 3, "base": "돌아오다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 28, "verb": "나가다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 나가고 있어요.", "rows": [
+				{"english": "I go out", "foreign": "나가요", "base": "나가다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am going out", "foreign": "나가고 있어요", "mark": ["고 있어요"], "from": 1, "base": "나가다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She goes out", "foreign": "그녀는 나가요", "base": "나가다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is going out", "foreign": "그녀는 나가고 있어요", "mark": ["고 있어요"], "from": 3, "base": "나가다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 29, "verb": "들어가다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 들어가고 있어요.", "rows": [
+				{"english": "I go in", "foreign": "들어가요", "base": "들어가다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am going in", "foreign": "들어가고 있어요", "mark": ["고 있어요"], "from": 1, "base": "들어가다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She goes in", "foreign": "그녀는 들어가요", "base": "들어가다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is going in", "foreign": "그녀는 들어가고 있어요", "mark": ["고 있어요"], "from": 3, "base": "들어가다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 30, "verb": "여행하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 여행하고 있어요.", "rows": [
+				{"english": "I travel", "foreign": "여행해요", "base": "여행하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am travelling", "foreign": "여행하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "여행하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She travels", "foreign": "그녀는 여행해요", "base": "여행하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is travelling", "foreign": "그녀는 여행하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "여행하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 31, "verb": "요리하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 요리하고 있어요.", "rows": [
+				{"english": "I cook", "foreign": "요리해요", "base": "요리하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am cooking", "foreign": "요리하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "요리하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She cooks", "foreign": "그녀는 요리해요", "base": "요리하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is cooking", "foreign": "그녀는 요리하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "요리하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 32, "verb": "전화하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 전화하고 있어요.", "rows": [
+				{"english": "I phone", "foreign": "전화해요", "base": "전화하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am phoning", "foreign": "전화하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "전화하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She phones", "foreign": "그녀는 전화해요", "base": "전화하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is phoning", "foreign": "그녀는 전화하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "전화하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 33, "verb": "운전하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 운전하고 있어요.", "rows": [
+				{"english": "I drive", "foreign": "운전해요", "base": "운전하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am driving", "foreign": "운전하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "운전하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She drives", "foreign": "그녀는 운전해요", "base": "운전하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is driving", "foreign": "그녀는 운전하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "운전하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 36, "verb": "날다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 날고 있어요.", "rows": [
+				{"english": "I fly", "foreign": "날아요", "base": "날다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am flying", "foreign": "날고 있어요", "mark": ["고 있어요"], "from": 1, "base": "날다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She flies", "foreign": "그녀는 날아요", "base": "날다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is flying", "foreign": "그녀는 날고 있어요", "mark": ["고 있어요"], "from": 3, "base": "날다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 37, "verb": "대답하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 대답하고 있어요.", "rows": [
+				{"english": "I answer", "foreign": "대답해요", "base": "대답하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am answering", "foreign": "대답하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "대답하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She answers", "foreign": "그녀는 대답해요", "base": "대답하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is answering", "foreign": "그녀는 대답하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "대답하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 39, "verb": "지불하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 지불하고 있어요.", "rows": [
+				{"english": "I pay", "foreign": "지불해요", "base": "지불하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am paying", "foreign": "지불하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "지불하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She pays", "foreign": "그녀는 지불해요", "base": "지불하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is paying", "foreign": "그녀는 지불하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "지불하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 41, "verb": "가르치다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 가르치고 있어요.", "rows": [
+				{"english": "I teach", "foreign": "가르쳐요", "base": "가르치다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am teaching", "foreign": "가르치고 있어요", "mark": ["고 있어요"], "from": 1, "base": "가르치다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She teaches", "foreign": "그녀는 가르쳐요", "base": "가르치다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is teaching", "foreign": "그녀는 가르치고 있어요", "mark": ["고 있어요"], "from": 3, "base": "가르치다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 42, "verb": "배우다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 배우고 있어요.", "rows": [
+				{"english": "I learn", "foreign": "배워요", "base": "배우다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am learning", "foreign": "배우고 있어요", "mark": ["고 있어요"], "from": 1, "base": "배우다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She learns", "foreign": "그녀는 배워요", "base": "배우다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is learning", "foreign": "그녀는 배우고 있어요", "mark": ["고 있어요"], "from": 3, "base": "배우다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 43, "verb": "만들다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 만들고 있어요.", "rows": [
+				{"english": "I make", "foreign": "만들어요", "base": "만들다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am making", "foreign": "만들고 있어요", "mark": ["고 있어요"], "from": 1, "base": "만들다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She makes", "foreign": "그녀는 만들어요", "base": "만들다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is making", "foreign": "그녀는 만들고 있어요", "mark": ["고 있어요"], "from": 3, "base": "만들다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 44, "verb": "사용하다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 사용하고 있어요.", "rows": [
+				{"english": "I use", "foreign": "사용해요", "base": "사용하다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am using", "foreign": "사용하고 있어요", "mark": ["고 있어요"], "from": 1, "base": "사용하다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She uses", "foreign": "그녀는 사용해요", "base": "사용하다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is using", "foreign": "그녀는 사용하고 있어요", "mark": ["고 있어요"], "from": 3, "base": "사용하다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 45, "verb": "씻다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 씻고 있어요.", "rows": [
+				{"english": "I wash", "foreign": "씻어요", "base": "씻다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am washing", "foreign": "씻고 있어요", "mark": ["고 있어요"], "from": 1, "base": "씻다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She washes", "foreign": "그녀는 씻어요", "base": "씻다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is washing", "foreign": "그녀는 씻고 있어요", "mark": ["고 있어요"], "from": 3, "base": "씻다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 46, "verb": "열다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 열고 있어요.", "rows": [
+				{"english": "I open", "foreign": "열어요", "base": "열다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am opening", "foreign": "열고 있어요", "mark": ["고 있어요"], "from": 1, "base": "열다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She opens", "foreign": "그녀는 열어요", "base": "열다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is opening", "foreign": "그녀는 열고 있어요", "mark": ["고 있어요"], "from": 3, "base": "열다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 47, "verb": "닫다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 닫고 있어요.", "rows": [
+				{"english": "I close", "foreign": "닫아요", "base": "닫다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am closing", "foreign": "닫고 있어요", "mark": ["고 있어요"], "from": 1, "base": "닫다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She closes", "foreign": "그녀는 닫아요", "base": "닫다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is closing", "foreign": "그녀는 닫고 있어요", "mark": ["고 있어요"], "from": 3, "base": "닫다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 48, "verb": "만나다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 만나고 있어요.", "rows": [
+				{"english": "I meet", "foreign": "만나요", "base": "만나다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am meeting", "foreign": "만나고 있어요", "mark": ["고 있어요"], "from": 1, "base": "만나다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She meets", "foreign": "그녀는 만나요", "base": "만나다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is meeting", "foreign": "그녀는 만나고 있어요", "mark": ["고 있어요"], "from": 3, "base": "만나다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 49, "verb": "보내다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 보내고 있어요.", "rows": [
+				{"english": "I send", "foreign": "보내요", "base": "보내다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am sending", "foreign": "보내고 있어요", "mark": ["고 있어요"], "from": 1, "base": "보내다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She sends", "foreign": "그녀는 보내요", "base": "보내다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is sending", "foreign": "그녀는 보내고 있어요", "mark": ["고 있어요"], "from": 3, "base": "보내다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "going", "part": 50, "verb": "부르다", "strategy": ["ending"], "description": "For something going on right now, the verb takes 고 and then 있어요: 부르고 있어요.", "rows": [
+				{"english": "I call", "foreign": "불러요", "base": "부르다", "features": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am calling", "foreign": "부르고 있어요", "mark": ["고 있어요"], "from": 1, "base": "부르다", "features": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She calls", "foreign": "그녀는 불러요", "base": "부르다", "features": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is calling", "foreign": "그녀는 부르고 있어요", "mark": ["고 있어요"], "from": 3, "base": "부르다", "features": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 3, "verb": "마시다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 마시세요. To ask them not to, 지 마세요: 마시지 마세요. For let's, 읍시다 or ㅂ시다: 마십시다! And to ask shall we, 까요: 마실까요?", "rows": [
+				{"english": "Please drink.", "foreign": "마시세요.", "mark": ["세요"], "base": "마시다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not drink.", "foreign": "마시지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "마시다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's drink!", "foreign": "마십시다!", "mark": ["시다"], "base": "마시다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we drink?", "foreign": "마실까요?", "mark": ["까요"], "base": "마시다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 4, "verb": "오다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 오세요. To ask them not to, 지 마세요: 오지 마세요. For let's, 읍시다 or ㅂ시다: 옵시다! And to ask shall we, 까요: 올까요?", "rows": [
+				{"english": "Please come.", "foreign": "오세요.", "mark": ["세요"], "base": "오다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not come.", "foreign": "오지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "오다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's come!", "foreign": "옵시다!", "mark": ["시다"], "base": "오다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we come?", "foreign": "올까요?", "mark": ["까요"], "base": "오다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 5, "verb": "보다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 보세요. To ask them not to, 지 마세요: 보지 마세요. For let's, 읍시다 or ㅂ시다: 봅시다! And to ask shall we, 까요: 볼까요?", "rows": [
+				{"english": "Please watch.", "foreign": "보세요.", "mark": ["세요"], "base": "보다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not watch.", "foreign": "보지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "보다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's watch!", "foreign": "봅시다!", "mark": ["시다"], "base": "보다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we watch?", "foreign": "볼까요?", "mark": ["까요"], "base": "보다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 6, "verb": "듣다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 들으세요. To ask them not to, 지 마세요: 듣지 마세요. For let's, 읍시다 or ㅂ시다: 들읍시다! And to ask shall we, 까요: 들을까요?", "rows": [
+				{"english": "Please listen.", "foreign": "들으세요.", "mark": ["으세요"], "base": "듣다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not listen.", "foreign": "듣지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "듣다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's listen!", "foreign": "들읍시다!", "mark": ["읍시다"], "base": "듣다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we listen?", "foreign": "들을까요?", "mark": ["을까요"], "base": "듣다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 7, "verb": "말하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 말하세요. To ask them not to, 지 마세요: 말하지 마세요. For let's, 읍시다 or ㅂ시다: 말합시다! And to ask shall we, 까요: 말할까요?", "rows": [
+				{"english": "Please speak.", "foreign": "말하세요.", "mark": ["세요"], "base": "말하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not speak.", "foreign": "말하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "말하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's speak!", "foreign": "말합시다!", "mark": ["시다"], "base": "말하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we speak?", "foreign": "말할까요?", "mark": ["까요"], "base": "말하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 8, "verb": "쓰다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 쓰세요. To ask them not to, 지 마세요: 쓰지 마세요. For let's, 읍시다 or ㅂ시다: 씁시다! And to ask shall we, 까요: 쓸까요?", "rows": [
+				{"english": "Please write.", "foreign": "쓰세요.", "mark": ["세요"], "base": "쓰다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not write.", "foreign": "쓰지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "쓰다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's write!", "foreign": "씁시다!", "mark": ["시다"], "base": "쓰다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we write?", "foreign": "쓸까요?", "mark": ["까요"], "base": "쓰다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 9, "verb": "걷다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 걸으세요. To ask them not to, 지 마세요: 걷지 마세요. For let's, 읍시다 or ㅂ시다: 걸읍시다! And to ask shall we, 까요: 걸을까요?", "rows": [
+				{"english": "Please walk.", "foreign": "걸으세요.", "mark": ["으세요"], "base": "걷다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not walk.", "foreign": "걷지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "걷다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's walk!", "foreign": "걸읍시다!", "mark": ["읍시다"], "base": "걷다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we walk?", "foreign": "걸을까요?", "mark": ["을까요"], "base": "걷다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 10, "verb": "달리다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 달리세요. To ask them not to, 지 마세요: 달리지 마세요. For let's, 읍시다 or ㅂ시다: 달립시다! And to ask shall we, 까요: 달릴까요?", "rows": [
+				{"english": "Please run.", "foreign": "달리세요.", "mark": ["세요"], "base": "달리다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not run.", "foreign": "달리지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "달리다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's run!", "foreign": "달립시다!", "mark": ["시다"], "base": "달리다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we run?", "foreign": "달릴까요?", "mark": ["까요"], "base": "달리다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 11, "verb": "사다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 사세요. To ask them not to, 지 마세요: 사지 마세요. For let's, 읍시다 or ㅂ시다: 삽시다! And to ask shall we, 까요: 살까요?", "rows": [
+				{"english": "Please buy.", "foreign": "사세요.", "mark": ["세요"], "base": "사다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not buy.", "foreign": "사지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "사다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's buy!", "foreign": "삽시다!", "mark": ["시다"], "base": "사다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we buy?", "foreign": "살까요?", "mark": ["까요"], "base": "사다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 12, "verb": "팔다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 파세요. To ask them not to, 지 마세요: 팔지 마세요. For let's, 읍시다 or ㅂ시다: 팝시다! And to ask shall we, 까요: 팔까요?", "rows": [
+				{"english": "Please sell.", "foreign": "파세요.", "mark": ["세요"], "base": "팔다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not sell.", "foreign": "팔지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "팔다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's sell!", "foreign": "팝시다!", "mark": ["시다"], "base": "팔다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we sell?", "foreign": "팔까요?", "mark": ["까요"], "base": "팔다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 13, "verb": "기다리다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 기다리세요. To ask them not to, 지 마세요: 기다리지 마세요. For let's, 읍시다 or ㅂ시다: 기다립시다! And to ask shall we, 까요: 기다릴까요?", "rows": [
+				{"english": "Please wait.", "foreign": "기다리세요.", "mark": ["세요"], "base": "기다리다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not wait.", "foreign": "기다리지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "기다리다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's wait!", "foreign": "기다립시다!", "mark": ["시다"], "base": "기다리다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we wait?", "foreign": "기다릴까요?", "mark": ["까요"], "base": "기다리다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 14, "verb": "찾다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 찾으세요. To ask them not to, 지 마세요: 찾지 마세요. For let's, 읍시다 or ㅂ시다: 찾읍시다! And to ask shall we, 까요: 찾을까요?", "rows": [
+				{"english": "Please look for.", "foreign": "찾으세요.", "mark": ["으세요"], "base": "찾다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not look for.", "foreign": "찾지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "찾다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's look for!", "foreign": "찾읍시다!", "mark": ["읍시다"], "base": "찾다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we look for?", "foreign": "찾을까요?", "mark": ["을까요"], "base": "찾다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 15, "verb": "생각하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 생각하세요. To ask them not to, 지 마세요: 생각하지 마세요. For let's, 읍시다 or ㅂ시다: 생각합시다! And to ask shall we, 까요: 생각할까요?", "rows": [
+				{"english": "Please think.", "foreign": "생각하세요.", "mark": ["세요"], "base": "생각하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not think.", "foreign": "생각하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "생각하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's think!", "foreign": "생각합시다!", "mark": ["시다"], "base": "생각하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we think?", "foreign": "생각할까요?", "mark": ["까요"], "base": "생각하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 16, "verb": "웃다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 웃으세요. To ask them not to, 지 마세요: 웃지 마세요. For let's, 읍시다 or ㅂ시다: 웃읍시다! And to ask shall we, 까요: 웃을까요?", "rows": [
+				{"english": "Please laugh.", "foreign": "웃으세요.", "mark": ["으세요"], "base": "웃다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not laugh.", "foreign": "웃지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "웃다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's laugh!", "foreign": "웃읍시다!", "mark": ["읍시다"], "base": "웃다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we laugh?", "foreign": "웃을까요?", "mark": ["을까요"], "base": "웃다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 18, "verb": "놀다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 노세요. To ask them not to, 지 마세요: 놀지 마세요. For let's, 읍시다 or ㅂ시다: 놉시다! And to ask shall we, 까요: 놀까요?", "rows": [
+				{"english": "Please play.", "foreign": "노세요.", "mark": ["세요"], "base": "놀다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not play.", "foreign": "놀지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "놀다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's play!", "foreign": "놉시다!", "mark": ["시다"], "base": "놀다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we play?", "foreign": "놀까요?", "mark": ["까요"], "base": "놀다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 19, "verb": "노래하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 노래하세요. To ask them not to, 지 마세요: 노래하지 마세요. For let's, 읍시다 or ㅂ시다: 노래합시다! And to ask shall we, 까요: 노래할까요?", "rows": [
+				{"english": "Please sing.", "foreign": "노래하세요.", "mark": ["세요"], "base": "노래하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not sing.", "foreign": "노래하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "노래하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's sing!", "foreign": "노래합시다!", "mark": ["시다"], "base": "노래하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we sing?", "foreign": "노래할까요?", "mark": ["까요"], "base": "노래하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 20, "verb": "춤추다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 춤추세요. To ask them not to, 지 마세요: 춤추지 마세요. For let's, 읍시다 or ㅂ시다: 춤춥시다! And to ask shall we, 까요: 춤출까요?", "rows": [
+				{"english": "Please dance.", "foreign": "춤추세요.", "mark": ["세요"], "base": "춤추다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not dance.", "foreign": "춤추지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "춤추다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's dance!", "foreign": "춤춥시다!", "mark": ["시다"], "base": "춤추다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we dance?", "foreign": "춤출까요?", "mark": ["까요"], "base": "춤추다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 21, "verb": "수영하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 수영하세요. To ask them not to, 지 마세요: 수영하지 마세요. For let's, 읍시다 or ㅂ시다: 수영합시다! And to ask shall we, 까요: 수영할까요?", "rows": [
+				{"english": "Please swim.", "foreign": "수영하세요.", "mark": ["세요"], "base": "수영하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not swim.", "foreign": "수영하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "수영하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's swim!", "foreign": "수영합시다!", "mark": ["시다"], "base": "수영하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we swim?", "foreign": "수영할까요?", "mark": ["까요"], "base": "수영하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 22, "verb": "일하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 일하세요. To ask them not to, 지 마세요: 일하지 마세요. For let's, 읍시다 or ㅂ시다: 일합시다! And to ask shall we, 까요: 일할까요?", "rows": [
+				{"english": "Please work.", "foreign": "일하세요.", "mark": ["세요"], "base": "일하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not work.", "foreign": "일하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "일하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's work!", "foreign": "일합시다!", "mark": ["시다"], "base": "일하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we work?", "foreign": "일할까요?", "mark": ["까요"], "base": "일하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 23, "verb": "공부하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 공부하세요. To ask them not to, 지 마세요: 공부하지 마세요. For let's, 읍시다 or ㅂ시다: 공부합시다! And to ask shall we, 까요: 공부할까요?", "rows": [
+				{"english": "Please study.", "foreign": "공부하세요.", "mark": ["세요"], "base": "공부하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not study.", "foreign": "공부하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "공부하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's study!", "foreign": "공부합시다!", "mark": ["시다"], "base": "공부하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we study?", "foreign": "공부할까요?", "mark": ["까요"], "base": "공부하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 24, "verb": "쉬다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 쉬세요. To ask them not to, 지 마세요: 쉬지 마세요. For let's, 읍시다 or ㅂ시다: 쉽시다! And to ask shall we, 까요: 쉴까요?", "rows": [
+				{"english": "Please rest.", "foreign": "쉬세요.", "mark": ["세요"], "base": "쉬다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not rest.", "foreign": "쉬지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "쉬다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's rest!", "foreign": "쉽시다!", "mark": ["시다"], "base": "쉬다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we rest?", "foreign": "쉴까요?", "mark": ["까요"], "base": "쉬다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 25, "verb": "시작하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 시작하세요. To ask them not to, 지 마세요: 시작하지 마세요. For let's, 읍시다 or ㅂ시다: 시작합시다! And to ask shall we, 까요: 시작할까요?", "rows": [
+				{"english": "Please begin.", "foreign": "시작하세요.", "mark": ["세요"], "base": "시작하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not begin.", "foreign": "시작하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "시작하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's begin!", "foreign": "시작합시다!", "mark": ["시다"], "base": "시작하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we begin?", "foreign": "시작할까요?", "mark": ["까요"], "base": "시작하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 26, "verb": "돕다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 도우세요. To ask them not to, 지 마세요: 돕지 마세요. For let's, 읍시다 or ㅂ시다: 도웁시다! And to ask shall we, 까요: 도울까요?", "rows": [
+				{"english": "Please help.", "foreign": "도우세요.", "mark": ["세요"], "base": "돕다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not help.", "foreign": "돕지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "돕다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's help!", "foreign": "도웁시다!", "mark": ["시다"], "base": "돕다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we help?", "foreign": "도울까요?", "mark": ["까요"], "base": "돕다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 27, "verb": "돌아오다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 돌아오세요. To ask them not to, 지 마세요: 돌아오지 마세요. For let's, 읍시다 or ㅂ시다: 돌아옵시다! And to ask shall we, 까요: 돌아올까요?", "rows": [
+				{"english": "Please come back.", "foreign": "돌아오세요.", "mark": ["세요"], "base": "돌아오다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not come back.", "foreign": "돌아오지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "돌아오다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's come back!", "foreign": "돌아옵시다!", "mark": ["시다"], "base": "돌아오다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we come back?", "foreign": "돌아올까요?", "mark": ["까요"], "base": "돌아오다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 28, "verb": "나가다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 나가세요. To ask them not to, 지 마세요: 나가지 마세요. For let's, 읍시다 or ㅂ시다: 나갑시다! And to ask shall we, 까요: 나갈까요?", "rows": [
+				{"english": "Please go out.", "foreign": "나가세요.", "mark": ["세요"], "base": "나가다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not go out.", "foreign": "나가지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "나가다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's go out!", "foreign": "나갑시다!", "mark": ["시다"], "base": "나가다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we go out?", "foreign": "나갈까요?", "mark": ["까요"], "base": "나가다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 29, "verb": "들어가다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 들어가세요. To ask them not to, 지 마세요: 들어가지 마세요. For let's, 읍시다 or ㅂ시다: 들어갑시다! And to ask shall we, 까요: 들어갈까요?", "rows": [
+				{"english": "Please go in.", "foreign": "들어가세요.", "mark": ["세요"], "base": "들어가다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not go in.", "foreign": "들어가지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "들어가다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's go in!", "foreign": "들어갑시다!", "mark": ["시다"], "base": "들어가다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we go in?", "foreign": "들어갈까요?", "mark": ["까요"], "base": "들어가다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 30, "verb": "여행하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 여행하세요. To ask them not to, 지 마세요: 여행하지 마세요. For let's, 읍시다 or ㅂ시다: 여행합시다! And to ask shall we, 까요: 여행할까요?", "rows": [
+				{"english": "Please travel.", "foreign": "여행하세요.", "mark": ["세요"], "base": "여행하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not travel.", "foreign": "여행하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "여행하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's travel!", "foreign": "여행합시다!", "mark": ["시다"], "base": "여행하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we travel?", "foreign": "여행할까요?", "mark": ["까요"], "base": "여행하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 31, "verb": "요리하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 요리하세요. To ask them not to, 지 마세요: 요리하지 마세요. For let's, 읍시다 or ㅂ시다: 요리합시다! And to ask shall we, 까요: 요리할까요?", "rows": [
+				{"english": "Please cook.", "foreign": "요리하세요.", "mark": ["세요"], "base": "요리하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not cook.", "foreign": "요리하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "요리하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's cook!", "foreign": "요리합시다!", "mark": ["시다"], "base": "요리하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we cook?", "foreign": "요리할까요?", "mark": ["까요"], "base": "요리하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 32, "verb": "전화하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 전화하세요. To ask them not to, 지 마세요: 전화하지 마세요. For let's, 읍시다 or ㅂ시다: 전화합시다! And to ask shall we, 까요: 전화할까요?", "rows": [
+				{"english": "Please phone.", "foreign": "전화하세요.", "mark": ["세요"], "base": "전화하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not phone.", "foreign": "전화하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "전화하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's phone!", "foreign": "전화합시다!", "mark": ["시다"], "base": "전화하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we phone?", "foreign": "전화할까요?", "mark": ["까요"], "base": "전화하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 33, "verb": "운전하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 운전하세요. To ask them not to, 지 마세요: 운전하지 마세요. For let's, 읍시다 or ㅂ시다: 운전합시다! And to ask shall we, 까요: 운전할까요?", "rows": [
+				{"english": "Please drive.", "foreign": "운전하세요.", "mark": ["세요"], "base": "운전하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not drive.", "foreign": "운전하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "운전하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's drive!", "foreign": "운전합시다!", "mark": ["시다"], "base": "운전하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we drive?", "foreign": "운전할까요?", "mark": ["까요"], "base": "운전하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 34, "verb": "앉다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 앉으세요. To ask them not to, 지 마세요: 앉지 마세요. For let's, 읍시다 or ㅂ시다: 앉읍시다! And to ask shall we, 까요: 앉을까요?", "rows": [
+				{"english": "Please sit down.", "foreign": "앉으세요.", "mark": ["으세요"], "base": "앉다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not sit down.", "foreign": "앉지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "앉다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's sit down!", "foreign": "앉읍시다!", "mark": ["읍시다"], "base": "앉다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we sit down?", "foreign": "앉을까요?", "mark": ["을까요"], "base": "앉다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 35, "verb": "서다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 서세요. To ask them not to, 지 마세요: 서지 마세요. For let's, 읍시다 or ㅂ시다: 섭시다! And to ask shall we, 까요: 설까요?", "rows": [
+				{"english": "Please stand up.", "foreign": "서세요.", "mark": ["세요"], "base": "서다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not stand up.", "foreign": "서지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "서다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's stand up!", "foreign": "섭시다!", "mark": ["시다"], "base": "서다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we stand up?", "foreign": "설까요?", "mark": ["까요"], "base": "서다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 37, "verb": "대답하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 대답하세요. To ask them not to, 지 마세요: 대답하지 마세요. For let's, 읍시다 or ㅂ시다: 대답합시다! And to ask shall we, 까요: 대답할까요?", "rows": [
+				{"english": "Please answer.", "foreign": "대답하세요.", "mark": ["세요"], "base": "대답하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not answer.", "foreign": "대답하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "대답하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's answer!", "foreign": "대답합시다!", "mark": ["시다"], "base": "대답하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we answer?", "foreign": "대답할까요?", "mark": ["까요"], "base": "대답하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 38, "verb": "잊다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 잊으세요. To ask them not to, 지 마세요: 잊지 마세요. For let's, 읍시다 or ㅂ시다: 잊읍시다! And to ask shall we, 까요: 잊을까요?", "rows": [
+				{"english": "Please forget.", "foreign": "잊으세요.", "mark": ["으세요"], "base": "잊다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not forget.", "foreign": "잊지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "잊다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's forget!", "foreign": "잊읍시다!", "mark": ["읍시다"], "base": "잊다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we forget?", "foreign": "잊을까요?", "mark": ["을까요"], "base": "잊다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 39, "verb": "지불하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 지불하세요. To ask them not to, 지 마세요: 지불하지 마세요. For let's, 읍시다 or ㅂ시다: 지불합시다! And to ask shall we, 까요: 지불할까요?", "rows": [
+				{"english": "Please pay.", "foreign": "지불하세요.", "mark": ["세요"], "base": "지불하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not pay.", "foreign": "지불하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "지불하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's pay!", "foreign": "지불합시다!", "mark": ["시다"], "base": "지불하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we pay?", "foreign": "지불할까요?", "mark": ["까요"], "base": "지불하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 40, "verb": "일어나다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 일어나세요. To ask them not to, 지 마세요: 일어나지 마세요. For let's, 읍시다 or ㅂ시다: 일어납시다! And to ask shall we, 까요: 일어날까요?", "rows": [
+				{"english": "Please get up.", "foreign": "일어나세요.", "mark": ["세요"], "base": "일어나다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not get up.", "foreign": "일어나지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "일어나다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's get up!", "foreign": "일어납시다!", "mark": ["시다"], "base": "일어나다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we get up?", "foreign": "일어날까요?", "mark": ["까요"], "base": "일어나다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 41, "verb": "가르치다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 가르치세요. To ask them not to, 지 마세요: 가르치지 마세요. For let's, 읍시다 or ㅂ시다: 가르칩시다! And to ask shall we, 까요: 가르칠까요?", "rows": [
+				{"english": "Please teach.", "foreign": "가르치세요.", "mark": ["세요"], "base": "가르치다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not teach.", "foreign": "가르치지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "가르치다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's teach!", "foreign": "가르칩시다!", "mark": ["시다"], "base": "가르치다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we teach?", "foreign": "가르칠까요?", "mark": ["까요"], "base": "가르치다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 42, "verb": "배우다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 배우세요. To ask them not to, 지 마세요: 배우지 마세요. For let's, 읍시다 or ㅂ시다: 배웁시다! And to ask shall we, 까요: 배울까요?", "rows": [
+				{"english": "Please learn.", "foreign": "배우세요.", "mark": ["세요"], "base": "배우다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not learn.", "foreign": "배우지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "배우다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's learn!", "foreign": "배웁시다!", "mark": ["시다"], "base": "배우다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we learn?", "foreign": "배울까요?", "mark": ["까요"], "base": "배우다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 43, "verb": "만들다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 만드세요. To ask them not to, 지 마세요: 만들지 마세요. For let's, 읍시다 or ㅂ시다: 만듭시다! And to ask shall we, 까요: 만들까요?", "rows": [
+				{"english": "Please make.", "foreign": "만드세요.", "mark": ["세요"], "base": "만들다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not make.", "foreign": "만들지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "만들다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's make!", "foreign": "만듭시다!", "mark": ["시다"], "base": "만들다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we make?", "foreign": "만들까요?", "mark": ["까요"], "base": "만들다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 44, "verb": "사용하다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 사용하세요. To ask them not to, 지 마세요: 사용하지 마세요. For let's, 읍시다 or ㅂ시다: 사용합시다! And to ask shall we, 까요: 사용할까요?", "rows": [
+				{"english": "Please use.", "foreign": "사용하세요.", "mark": ["세요"], "base": "사용하다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not use.", "foreign": "사용하지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "사용하다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's use!", "foreign": "사용합시다!", "mark": ["시다"], "base": "사용하다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we use?", "foreign": "사용할까요?", "mark": ["까요"], "base": "사용하다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 45, "verb": "씻다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 씻으세요. To ask them not to, 지 마세요: 씻지 마세요. For let's, 읍시다 or ㅂ시다: 씻읍시다! And to ask shall we, 까요: 씻을까요?", "rows": [
+				{"english": "Please wash.", "foreign": "씻으세요.", "mark": ["으세요"], "base": "씻다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not wash.", "foreign": "씻지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "씻다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's wash!", "foreign": "씻읍시다!", "mark": ["읍시다"], "base": "씻다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we wash?", "foreign": "씻을까요?", "mark": ["을까요"], "base": "씻다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 46, "verb": "열다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 여세요. To ask them not to, 지 마세요: 열지 마세요. For let's, 읍시다 or ㅂ시다: 엽시다! And to ask shall we, 까요: 열까요?", "rows": [
+				{"english": "Please open.", "foreign": "여세요.", "mark": ["세요"], "base": "열다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not open.", "foreign": "열지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "열다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's open!", "foreign": "엽시다!", "mark": ["시다"], "base": "열다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we open?", "foreign": "열까요?", "mark": ["까요"], "base": "열다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 47, "verb": "닫다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 닫으세요. To ask them not to, 지 마세요: 닫지 마세요. For let's, 읍시다 or ㅂ시다: 닫읍시다! And to ask shall we, 까요: 닫을까요?", "rows": [
+				{"english": "Please close.", "foreign": "닫으세요.", "mark": ["으세요"], "base": "닫다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not close.", "foreign": "닫지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "닫다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's close!", "foreign": "닫읍시다!", "mark": ["읍시다"], "base": "닫다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we close?", "foreign": "닫을까요?", "mark": ["을까요"], "base": "닫다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 48, "verb": "만나다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 만나세요. To ask them not to, 지 마세요: 만나지 마세요. For let's, 읍시다 or ㅂ시다: 만납시다! And to ask shall we, 까요: 만날까요?", "rows": [
+				{"english": "Please meet.", "foreign": "만나세요.", "mark": ["세요"], "base": "만나다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not meet.", "foreign": "만나지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "만나다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's meet!", "foreign": "만납시다!", "mark": ["시다"], "base": "만나다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we meet?", "foreign": "만날까요?", "mark": ["까요"], "base": "만나다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 49, "verb": "보내다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 보내세요. To ask them not to, 지 마세요: 보내지 마세요. For let's, 읍시다 or ㅂ시다: 보냅시다! And to ask shall we, 까요: 보낼까요?", "rows": [
+				{"english": "Please send.", "foreign": "보내세요.", "mark": ["세요"], "base": "보내다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not send.", "foreign": "보내지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "보내다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's send!", "foreign": "보냅시다!", "mark": ["시다"], "base": "보내다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we send?", "foreign": "보낼까요?", "mark": ["까요"], "base": "보내다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 50, "verb": "부르다", "strategy": ["ending"], "description": "To ask someone politely to do something, the verb ends in 세요: 부르세요. To ask them not to, 지 마세요: 부르지 마세요. For let's, 읍시다 or ㅂ시다: 부릅시다! And to ask shall we, 까요: 부를까요?", "rows": [
+				{"english": "Please call.", "foreign": "부르세요.", "mark": ["세요"], "base": "부르다", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Please do not call.", "foreign": "부르지 마세요.", "mark": ["지 마세요"], "from": 1, "base": "부르다", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}},
+				{"english": "Let's call!", "foreign": "부릅시다!", "mark": ["시다"], "base": "부르다", "features": {"command": "yes", "who": "we"}},
+				{"english": "Shall we call?", "foreign": "부를까요?", "mark": ["까요"], "base": "부르다", "features": {"question": "yes", "who": "we", "polite": "yes"}}
+			]}
+	]
+}

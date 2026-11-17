@@ -198,6 +198,14 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
             if not forms:
                 continue  # a form-of entry, or an entry with no table: the real one comes later in the dump
             found = []
+            # Korean lists each conjugated form with its romanization, which a table shows as the reading: 가요 (gayo)
+            roman = {}
+            for item in entry.get("forms", []):
+                if item.get("source") == "conjugation" and item.get("roman"):
+                    roman.setdefault(plain(recipes, item["form"]), item["roman"])
+            if recipes.get("dictionary_is_word"):  # the table has no dictionary form: the entry's own word is it (가다)
+                spelled = next((item["form"] for item in entry.get("forms", []) if "romanization" in item.get("tags", [])), "")
+                found.append({"form": word, "features": {"form": "infinitive"}, "reading": spelled})
             if "partner_tags" in recipes:  # the verb's other half: читать is doing it, прочитать is having done it
                 named = [plain(recipes, form["form"]) for form in entry.get("forms", [])
                          if form.get("source") != "conjugation" and set(recipes["partner_tags"]) <= set(form.get("tags", []))]
@@ -235,6 +243,8 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                     found.append({"form": match[0], "features": slot["features"]})
                     if recipes.get("reading_kana"):  # Japanese lists each form three times: 食べます, たべます, tabemasu
                         found[-1]["reading"] = next((text for text in match if is_kana(text)), "")
+                    elif recipes.get("reading_roman"):
+                        found[-1]["reading"] = roman.get(match[0], "")
                     if slot.get("split") and " " in match[0]:  # a two-word form the dictionary gives whole: bin gegangen
                         found[-1]["helper"], found[-1]["part"] = match[0].split(" ", 1)
                     if "shown" in slot:  # the form as a table shows it: the dictionary lists tengas, and nobody says it without its no
@@ -250,8 +260,8 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                     made = derived(source["form"], slot["derive"]["suffix"]) if source else None
                     if made:
                         found.append({"form": made, "features": slot["features"]})
-                        if source.get("reading"):
-                            found[-1]["reading"] = derived(source["reading"], slot["derive"]["suffix"]) or ""
+                        if source.get("reading"):  # a romanized reading changes by its own letters: sipsida to seyo
+                            found[-1]["reading"] = derived(source["reading"], slot["derive"].get("reading_suffix", slot["derive"]["suffix"])) or ""
                     else:
                         missing.append((word, slot["features"]))
             for form in found:  # the reading, beside the form as a table shows it: 食べます (たべます). The Play button leaves it out.

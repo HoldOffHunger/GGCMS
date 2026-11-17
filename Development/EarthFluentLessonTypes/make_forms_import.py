@@ -38,8 +38,8 @@ def main() -> int:
             continue
         entries += 1
         for form in verbs[base]:
-            if form["features"] == {"form": "helper"}:
-                continue  # which helper the verb takes is for building its two-word forms, and is in them
+            if form["features"] == {"form": "helper"} or form["features"].get("internal") == "yes":
+                continue  # what other forms are built from (the helper a verb takes, Korean's 갈 and 가고) is in them, not shown
             features = ";".join(f"{key}={value}" for key, value in form["features"].items())
             rows.append([entry, code, base, form.get("shown", form["form"]), features, "wiktionary"])
     with open(out / f"forms-{language}.tsv", "w", encoding="utf-8", newline="") as file:

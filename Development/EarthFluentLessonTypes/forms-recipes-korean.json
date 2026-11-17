@@ -1,0 +1,137 @@
+{
+	"about": "How Korean verb forms are read out of the Wiktionary dump and turned into lessons. Written by Claude (Opus) with Ben on 16 November 2026. Korean verbs change for when, for politeness and for asking, never for who, so like Japanese a verb's page lists its forms. The course uses the polite 요 style throughout, as the grid's own lessons do. The dump's first table is the plain verb's (the second, with 시, is the honorific one and is not read); it gives the present and past in 요, and everything else is made from a form it does give by its ending (`derive`): later is the future determiner and 거예요 (갈 거예요), going on is the 고 form and 있어요, please is the polite hortative with 세요 for 십시다 (가세요), don't is the 지 form and 마세요. Each form's romanization comes with it in the dump and goes beside it in the tables, changed by its own letters where the form is derived. The table has no dictionary form, so the entry's own word is used (가다). The forms the others are made from (갈, 가고, 가지만) are marked `internal` and are not imported.",
+	"language": "korean",
+	"translation_language": "ko",
+	"dump": "kaikki.org-dictionary-Korean.jsonl",
+	"dictionary_form": {"form": "infinitive"},
+	"skip_tags": ["table-tags", "inflection-template", "class"],
+	"dictionary_is_word": true,
+	"reading_roman": true,
+	"slots": [
+		{"features": {"when": "now", "polite": "yes"}, "tags": ["indicative", "informal", "non-past", "polite"]},
+		{"features": {"when": "before", "polite": "yes"}, "tags": ["indicative", "informal", "past", "polite"]},
+		{"features": {"form": "future-determiner", "internal": "yes"}, "tags": ["determiner", "formal", "future"]},
+		{"features": {"form": "go", "internal": "yes"}, "tags": ["conjunctive", "formal"]},
+		{"features": {"form": "ji", "internal": "yes"}, "tags": ["contrastive", "formal"]},
+		{"features": {"form": "hortative", "internal": "yes"}, "tags": ["formal", "hortative", "polite"]},
+		{"features": {"form": "imperative", "internal": "yes"}, "tags": ["formal", "imperative", "polite"]},
+
+		{"features": {"when": "later", "polite": "yes"}, "derive": {"from": {"form": "future-determiner", "internal": "yes"}, "suffix": ["", " 거예요"], "reading_suffix": ["", " geoyeyo"]}},
+		{"features": {"not": "yes", "polite": "yes"}, "derive": {"from": {"form": "ji", "internal": "yes"}, "suffix": ["지만", "지 않아요"], "reading_suffix": ["jiman", "ji anayo"]}},
+		{"features": {"when": "before", "not": "yes", "polite": "yes"}, "derive": {"from": {"form": "ji", "internal": "yes"}, "suffix": ["지만", "지 않았어요"], "reading_suffix": ["jiman", "ji anasseoyo"]}},
+		{"features": {"going": "yes", "polite": "yes"}, "derive": {"from": {"form": "go", "internal": "yes"}, "suffix": ["", " 있어요"], "reading_suffix": ["", " isseoyo"]}},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "derive": {"from": {"form": "hortative", "internal": "yes"}, "suffix": ["십시다", "세요"], "reading_suffix": ["sipsida", "seyo"]}},
+		{"features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}, "derive": {"from": {"form": "ji", "internal": "yes"}, "suffix": ["지만", "지 마세요"], "reading_suffix": ["jiman", "ji maseyo"]}},
+		{"features": {"command": "yes", "who": "we"}, "derive": {"from": {"form": "imperative", "internal": "yes"}, "suffix": ["시오", "시다"], "reading_suffix": ["sio", "sida"]}},
+		{"features": {"question": "yes", "who": "we", "polite": "yes"}, "derive": {"from": {"form": "future-determiner", "internal": "yes"}, "suffix": ["", "까요"], "reading_suffix": ["", "kkayo"]}}
+	],
+
+	"endings": {
+		"about": "The polite endings, the same list for every verb, longest first where it matters. A form that ends in one has that ending lit on the board; where the ending has merged into the verb's last syllable (갔어요, 갑시다) only the part after it is lit.",
+		"now": {"*": ["어요", "아요", "여요", "해요", "요"]},
+		"before": {"*": ["었어요", "았어요", "였어요", "했어요", "어요"]},
+		"later": {"*": ["을 거예요", "거예요"]},
+		"going": {"*": ["고 있어요"]},
+		"command": {"*": ["으세요", "세요", "지 마세요", "읍시다", "시다", "을까요", "까요"]}
+	},
+
+	"recipes": {
+		"who": {
+			"strategy": ["nothing"],
+			"description": "The verb is the same whoever is doing it: {1}, {2}, {3}, {4}. Only the word in front, marked by 는 or 은, says who.",
+			"rows": [
+				{"english": "I {base}", "features": {"when": "now", "polite": "yes"}, "wrap": "저는 {}", "mark_form": "nothing", "says": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "She {s}", "features": {"when": "now", "polite": "yes"}, "wrap": "그녀는 {}", "mark_form": "nothing", "says": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "We {base}", "features": {"when": "now", "polite": "yes"}, "wrap": "우리는 {}", "mark_form": "nothing", "says": {"who": "we", "when": "now", "polite": "yes"}},
+				{"english": "They {base}", "features": {"when": "now", "polite": "yes"}, "wrap": "그들은 {}", "mark_form": "nothing", "says": {"who": "they", "when": "now", "polite": "yes"}}
+			]
+		},
+		"when": {
+			"strategy": ["ending"],
+			"description": "The ending says when: {1} for now, {2} for done, and {3} for still to come.",
+			"rows": [
+				{"english": "I {base}", "features": {"when": "now", "polite": "yes"}, "endings": "now", "says": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I {past}", "features": {"when": "before", "polite": "yes"}, "endings": "before", "from": 1, "says": {"who": "i", "when": "before", "polite": "yes"}},
+				{"english": "I will {base}", "features": {"when": "later", "polite": "yes"}, "endings": "later", "from": 1, "says": {"who": "i", "when": "later", "polite": "yes"}},
+				{"english": "I {past} yesterday", "features": {"when": "before", "polite": "yes"}, "endings": "before", "wrap": "어제 {}", "says": {"who": "i", "when": "before", "polite": "yes"}}
+			]
+		},
+		"going": {
+			"strategy": ["ending"],
+			"skip": "stative",
+			"description": "For something going on right now, the verb takes 고 and then 있어요: {2}.",
+			"rows": [
+				{"english": "I {base}", "features": {"when": "now", "polite": "yes"}, "says": {"who": "i", "when": "now", "polite": "yes"}},
+				{"english": "I am {ing}", "features": {"going": "yes", "polite": "yes"}, "endings": "going", "from": 1, "says": {"who": "i", "when": "now", "going": "yes", "polite": "yes"}},
+				{"english": "She {s}", "features": {"when": "now", "polite": "yes"}, "wrap": "그녀는 {}", "says": {"who": "she", "when": "now", "polite": "yes"}},
+				{"english": "She is {ing}", "features": {"going": "yes", "polite": "yes"}, "endings": "going", "wrap": "그녀는 {}", "from": 3, "says": {"who": "she", "when": "now", "going": "yes", "polite": "yes"}}
+			]
+		},
+		"command": {
+			"strategy": ["ending"],
+			"skip": "stative",
+			"description": "To ask someone politely to do something, the verb ends in 세요: {1} To ask them not to, 지 마세요: {2} For let's, 읍시다 or ㅂ시다: {3} And to ask shall we, 까요: {4}",
+			"rows": [
+				{"english": "Please {base}.", "features": {"command": "yes", "who": "you", "polite": "yes"}, "endings": "command", "wrap": "{}."},
+				{"english": "Please do not {base}.", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}, "endings": "command", "wrap": "{}.", "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "endings": "command", "wrap": "{}!"},
+				{"english": "Shall we {base}?", "features": {"question": "yes", "who": "we", "polite": "yes"}, "endings": "command", "wrap": "{}?"}
+			]
+		}
+	},
+
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `no-going` marks the verbs whose 고 있어요 is not 'in the middle of it' (sitting down, standing up, forgetting); `no-command` the commands that are right and that nobody says, and 먹다, whose polite please is 드세요, another verb. Left out on purpose: 가다, which the grid's own lessons teach; 있다 and 이다, which need lessons of their own; 수 있다, which is the want-can-must job; and 자다, whose polite please is 주무세요.",
+		"list": [
+			["먹다", "eat", "eats", "ate", "eating", "no-command"],
+			["마시다", "drink", "drinks", "drank", "drinking"],
+			["오다", "come", "comes", "came", "coming"],
+			["보다", "watch", "watches", "watched", "watching"],
+			["듣다", "listen", "listens", "listened", "listening"],
+			["말하다", "speak", "speaks", "spoke", "speaking"],
+			["쓰다", "write", "writes", "wrote", "writing"],
+			["걷다", "walk", "walks", "walked", "walking"],
+			["달리다", "run", "runs", "ran", "running"],
+			["사다", "buy", "buys", "bought", "buying"],
+			["팔다", "sell", "sells", "sold", "selling"],
+			["기다리다", "wait", "waits", "waited", "waiting"],
+			["찾다", "look for", "looks for", "looked for", "looking for"],
+			["생각하다", "think", "thinks", "thought", "thinking"],
+			["웃다", "laugh", "laughs", "laughed", "laughing"],
+			["울다", "cry", "cries", "cried", "crying", "no-command"],
+			["놀다", "play", "plays", "played", "playing"],
+			["노래하다", "sing", "sings", "sang", "singing"],
+			["춤추다", "dance", "dances", "danced", "dancing"],
+			["수영하다", "swim", "swims", "swam", "swimming"],
+			["일하다", "work", "works", "worked", "working"],
+			["공부하다", "study", "studies", "studied", "studying"],
+			["쉬다", "rest", "rests", "rested", "resting"],
+			["시작하다", "begin", "begins", "began", "beginning", "no-going"],
+			["돕다", "help", "helps", "helped", "helping"],
+			["돌아오다", "come back", "comes back", "came back", "coming back"],
+			["나가다", "go out", "goes out", "went out", "going out"],
+			["들어가다", "go in", "goes in", "went in", "going in"],
+			["여행하다", "travel", "travels", "travelled", "travelling"],
+			["요리하다", "cook", "cooks", "cooked", "cooking"],
+			["전화하다", "phone", "phones", "phoned", "phoning"],
+			["운전하다", "drive", "drives", "drove", "driving"],
+			["앉다", "sit down", "sits down", "sat down", "sitting down", "no-going"],
+			["서다", "stand up", "stands up", "stood up", "standing up", "no-going"],
+			["날다", "fly", "flies", "flew", "flying", "no-command"],
+			["대답하다", "answer", "answers", "answered", "answering"],
+			["잊다", "forget", "forgets", "forgot", "forgetting", "no-going"],
+			["지불하다", "pay", "pays", "paid", "paying"],
+			["일어나다", "get up", "gets up", "got up", "getting up", "no-going"],
+			["가르치다", "teach", "teaches", "taught", "teaching"],
+			["배우다", "learn", "learns", "learned", "learning"],
+			["만들다", "make", "makes", "made", "making"],
+			["사용하다", "use", "uses", "used", "using"],
+			["씻다", "wash", "washes", "washed", "washing"],
+			["열다", "open", "opens", "opened", "opening"],
+			["닫다", "close", "closes", "closed", "closing"],
+			["만나다", "meet", "meets", "met", "meeting"],
+			["보내다", "send", "sends", "sent", "sending"],
+			["부르다", "call", "calls", "called", "calling"]
+		]
+	}
+}
