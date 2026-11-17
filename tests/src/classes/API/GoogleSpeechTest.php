@@ -63,6 +63,7 @@
 			$this->assertSame('zh', $speech->DetectLanguageCode(['language'=>'zh-CN']));
 			$this->assertSame('zh', $speech->DetectLanguageCode(['language'=>'zh-TW']));
 			$this->assertSame('pt', $speech->DetectLanguageCode(['language'=>' PT-pt ']));
+			$this->assertSame('he', $speech->DetectLanguageCode(['language'=>'iw']));
 
 			$this->assertFalse($speech->DetectLanguageCode(['language'=>'']));
 				// undetermined is a code, just not one the list has -- Pronounce() says unknown
@@ -73,13 +74,26 @@
 		public function testLanguages() {
 			$languages = $this->speech()->Languages();
 
-				// English and EarthFluent's thirteen
-			$this->assertCount(14, $languages);
-			$this->assertSame('pt-BR', $languages['pt']['locale']);
-			$this->assertSame('es-US', $languages['es']['locale']);
+				// every EarthFluent course, in the country its course is in
+			$earthfluent = [
+				'en'=>'en-US', 'es'=>'es-US', 'fr'=>'fr-FR', 'it'=>'it-IT', 'de'=>'de-DE',
+				'ja'=>'ja-JP', 'zh'=>'cmn-CN', 'hi'=>'hi-IN', 'id'=>'id-ID', 'nl'=>'nl-NL',
+				'pl'=>'pl-PL', 'pt'=>'pt-BR', 'ru'=>'ru-RU', 'ko'=>'ko-KR',
+			];
+
+			foreach($earthfluent as $code=>$locale) {
+				$this->assertSame($locale, $languages[$code]['locale']);
+			}
+
+			$titles = array_column($languages, 'title');
+			$sorted = $titles;
+			sort($sorted, SORT_STRING);
+
+				// the dropdown prints them in this order
+			$this->assertSame($sorted, $titles);
 
 			foreach($languages as $code=>$language) {
-				$this->assertMatchesRegularExpression('#\A[a-z]{2}\z#', $code);
+				$this->assertMatchesRegularExpression('#\A[a-z]{2,3}\z#', $code);
 				$this->assertMatchesRegularExpression('#\A[a-z]{2,3}-[A-Z]{2}\z#', $language['locale']);
 			}
 		}

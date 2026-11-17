@@ -38,27 +38,74 @@
 			// -----------------------------------------------
 
 			/*
-				The languages EarthFluent teaches, and English.  Portuguese is
-				Brazilian because EarthFluent's Portuguese course is, and
-				Spanish Latin American, as EarthFluent's browser voices were.
+				Every language Google has a voice for, one voice each, in
+				alphabetical order for PronounceThat's dropdown.  EarthFluent's
+				buttons send only their own course's language.
+
+				Keyed by the code Translation's detection answers, which is not
+				always the voice's: Filipino is detected as tl, Norwegian as no.
+				Where Google has a language in more than one country, the
+				country is EarthFluent's -- Brazilian Portuguese, as its course
+				is, and Latin American Spanish, as its browser voices were.
 			*/
 
 		public function Languages() {
 			return [
-				'en'=>['title'=>'English', 'locale'=>'en-US'],
-				'es'=>['title'=>'Spanish', 'locale'=>'es-US'],
-				'fr'=>['title'=>'French', 'locale'=>'fr-FR'],
-				'it'=>['title'=>'Italian', 'locale'=>'it-IT'],
-				'de'=>['title'=>'German', 'locale'=>'de-DE'],
-				'ja'=>['title'=>'Japanese', 'locale'=>'ja-JP'],
-				'zh'=>['title'=>'Chinese', 'locale'=>'cmn-CN'],
-				'hi'=>['title'=>'Hindi', 'locale'=>'hi-IN'],
-				'id'=>['title'=>'Indonesian', 'locale'=>'id-ID'],
+				'af'=>['title'=>'Afrikaans', 'locale'=>'af-ZA'],
+				'am'=>['title'=>'Amharic', 'locale'=>'am-ET'],
+				'ar'=>['title'=>'Arabic', 'locale'=>'ar-XA'],
+				'eu'=>['title'=>'Basque', 'locale'=>'eu-ES'],
+				'bn'=>['title'=>'Bengali', 'locale'=>'bn-IN'],
+				'bg'=>['title'=>'Bulgarian', 'locale'=>'bg-BG'],
+				'ca'=>['title'=>'Catalan', 'locale'=>'ca-ES'],
+				'yue'=>['title'=>'Chinese (Cantonese)', 'locale'=>'yue-HK'],
+				'zh'=>['title'=>'Chinese (Mandarin)', 'locale'=>'cmn-CN'],
+				'hr'=>['title'=>'Croatian', 'locale'=>'hr-HR'],
+				'cs'=>['title'=>'Czech', 'locale'=>'cs-CZ'],
+				'da'=>['title'=>'Danish', 'locale'=>'da-DK'],
 				'nl'=>['title'=>'Dutch', 'locale'=>'nl-NL'],
+				'en'=>['title'=>'English', 'locale'=>'en-US'],
+				'et'=>['title'=>'Estonian', 'locale'=>'et-EE'],
+				'tl'=>['title'=>'Filipino', 'locale'=>'fil-PH'],
+				'fi'=>['title'=>'Finnish', 'locale'=>'fi-FI'],
+				'fr'=>['title'=>'French', 'locale'=>'fr-FR'],
+				'gl'=>['title'=>'Galician', 'locale'=>'gl-ES'],
+				'de'=>['title'=>'German', 'locale'=>'de-DE'],
+				'el'=>['title'=>'Greek', 'locale'=>'el-GR'],
+				'gu'=>['title'=>'Gujarati', 'locale'=>'gu-IN'],
+				'he'=>['title'=>'Hebrew', 'locale'=>'he-IL'],
+				'hi'=>['title'=>'Hindi', 'locale'=>'hi-IN'],
+				'hu'=>['title'=>'Hungarian', 'locale'=>'hu-HU'],
+				'is'=>['title'=>'Icelandic', 'locale'=>'is-IS'],
+				'id'=>['title'=>'Indonesian', 'locale'=>'id-ID'],
+				'it'=>['title'=>'Italian', 'locale'=>'it-IT'],
+				'ja'=>['title'=>'Japanese', 'locale'=>'ja-JP'],
+				'kn'=>['title'=>'Kannada', 'locale'=>'kn-IN'],
+				'ko'=>['title'=>'Korean', 'locale'=>'ko-KR'],
+				'lv'=>['title'=>'Latvian', 'locale'=>'lv-LV'],
+				'lt'=>['title'=>'Lithuanian', 'locale'=>'lt-LT'],
+				'ms'=>['title'=>'Malay', 'locale'=>'ms-MY'],
+				'ml'=>['title'=>'Malayalam', 'locale'=>'ml-IN'],
+				'mr'=>['title'=>'Marathi', 'locale'=>'mr-IN'],
+				'no'=>['title'=>'Norwegian', 'locale'=>'nb-NO'],
 				'pl'=>['title'=>'Polish', 'locale'=>'pl-PL'],
 				'pt'=>['title'=>'Portuguese', 'locale'=>'pt-BR'],
+				'pa'=>['title'=>'Punjabi', 'locale'=>'pa-IN'],
+				'ro'=>['title'=>'Romanian', 'locale'=>'ro-RO'],
 				'ru'=>['title'=>'Russian', 'locale'=>'ru-RU'],
-				'ko'=>['title'=>'Korean', 'locale'=>'ko-KR'],
+				'sr'=>['title'=>'Serbian', 'locale'=>'sr-RS'],
+				'sk'=>['title'=>'Slovak', 'locale'=>'sk-SK'],
+				'sl'=>['title'=>'Slovenian', 'locale'=>'sl-SI'],
+				'es'=>['title'=>'Spanish', 'locale'=>'es-US'],
+				'sw'=>['title'=>'Swahili', 'locale'=>'sw-KE'],
+				'sv'=>['title'=>'Swedish', 'locale'=>'sv-SE'],
+				'ta'=>['title'=>'Tamil', 'locale'=>'ta-IN'],
+				'te'=>['title'=>'Telugu', 'locale'=>'te-IN'],
+				'th'=>['title'=>'Thai', 'locale'=>'th-TH'],
+				'tr'=>['title'=>'Turkish', 'locale'=>'tr-TR'],
+				'uk'=>['title'=>'Ukrainian', 'locale'=>'uk-UA'],
+				'ur'=>['title'=>'Urdu', 'locale'=>'ur-IN'],
+				'vi'=>['title'=>'Vietnamese', 'locale'=>'vi-VN'],
 			];
 		}
 
@@ -201,7 +248,8 @@
 
 			/*
 				Translation answers zh-CN, zh-TW, pt-PT and the like; the list
-				here is keyed by the bare language.
+				here is keyed by the bare language.  It still answers Hebrew
+				with the code withdrawn in 1989, iw, as well as he.
 			*/
 
 			// DetectLanguageCode()
@@ -210,6 +258,10 @@
 		public function DetectLanguageCode($args) {
 			$language = strtolower(trim((string)$args['language']));
 			$language = explode('-', $language)[0];
+
+			if($language === 'iw') {
+				$language = 'he';
+			}
 
 			if(!preg_match('#\A[a-z]{2,3}\z#', $language)) {
 				return FALSE;
