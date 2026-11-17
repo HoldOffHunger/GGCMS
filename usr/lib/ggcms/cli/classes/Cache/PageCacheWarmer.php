@@ -302,19 +302,29 @@
 		public function BootHandler($path) {
 			$host = $this->options['domain'];
 
+				/*
+					A quiz is the one page cached with a query string
+					(PageCache::CacheableQueryString), so a path may carry one:
+					view.php?quizmode=1.  The script is named by the part before it.
+				*/
+
+			$query = (string)parse_url($path, PHP_URL_QUERY);
+			$script_path = explode('?', $path)[0];
+
 			$_SERVER['HTTPS'] = 'on';
 			$_SERVER['HTTP_HOST'] = $host;
 			$_SERVER['SERVER_NAME'] = $host;
 			$_SERVER['SERVER_PROTOCOL'] = 'HTTP/1.1';
 			$_SERVER['REQUEST_METHOD'] = 'GET';
 			$_SERVER['REQUEST_URI'] = $path;
-			$_SERVER['SCRIPT_URL'] = $path;
-			$_SERVER['REDIRECT_URL'] = $path;
-			$_SERVER['QUERY_STRING'] = '';
+			$_SERVER['SCRIPT_URL'] = $script_path;
+			$_SERVER['REDIRECT_URL'] = $script_path;
+			$_SERVER['QUERY_STRING'] = $query;
 			$_SERVER['REMOTE_ADDR'] = '127.0.0.1';
 			$_SERVER['REQUEST_TIME_FLOAT'] = microtime(TRUE);
 
 			$_GET = [];
+			parse_str($query, $_GET);
 			$_POST = [];
 			$_COOKIE = [];
 

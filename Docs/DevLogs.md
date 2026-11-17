@@ -9,6 +9,17 @@ live installation rather than estimated.
 
 ## 2026, November 17
 
+- EarthFluent's quizzes are cached. They were three renders in four on
+  EarthFluent: 23,315 between 13:52 and 17:02 UTC, from crawlers, at 40 to
+  60 seconds each with the host near load 30. A quiz could not be cached
+  because the page shuffled it on every render, so the shuffle moved into
+  language-lesson-and-quiz.js (short answer lists once, the questions on
+  every Start), and a quiz now caches beside its lesson as
+  view.php__quizmode=1&previousquizzes=3.html. Only that one query shape is
+  cached, and only at view.php. Quizzes that miss share twelve renders a
+  minute, and self-referred permalinks (?id=N sent from ?id=N) are refused.
+  The cache warmer can now render a path with a query string.
+
 - Russian and Polish verb lessons now say a finished thing with the verb's
   partner. The overnight lesson checks flagged "I found" as я находил and
   "Let's find!" as Давай находить: the doing verb's own forms, which say

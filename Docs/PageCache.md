@@ -86,7 +86,7 @@ Conservative by construction. Every condition must pass:
 | Condition | Why |
 |---|---|
 | `GET` | Nothing with side effects |
-| Empty query string | A parameter makes the response specific |
+| Empty query string, or a quiz's | A parameter makes the response specific; quizzes below |
 | No `loggedin` / `AuthenticationToken` cookie | Anonymous visitors only |
 | Not a 404 | The URL space is infinite; caching misses fills the disk |
 | Format is `HTML` | Start narrow |
@@ -99,6 +99,26 @@ Conservative by construction. Every condition must pass:
 A page wrongly served from cache is a correctness bug that can show one
 visitor's view to another. A page wrongly *not* cached costs only what the site
 costs today. When in doubt, do not cache.
+
+### Quizzes: the one query string cached
+
+A quiz is a lesson at `view.php?quizmode=1`, with `previousquizzes=N` and
+`futurequizzes=N` (1 to 10) to take in the lessons either side, in that order.
+Since 17 November 2026 it is cached beside its lesson as
+`view.php__quizmode=1&previousquizzes=3.html`. It can be because the page no
+longer shuffles: it prints the quiz in one order, and
+`language-lesson-and-quiz.js` shuffles the answers (a short list only) and the
+questions each time Start is pressed. Crawlers had been asking EarthFluent for
+quizzes at two a second, every one a render.
+
+`PageCache::CacheableQueryString` and nginx's `$ggcms_cache_query` map hold the
+same pattern; change both. Only `view.php`, because nginx tries
+`<path>/index.html` first and would answer a quiz at a slash address with the
+plain lesson. `.htaccess` still serves only query-free pages: a quiz that reaches
+Apache is rendered, and nginx answers it before that once it is cached.
+`FlushPage` does not remove a lesson's quizzes; a content write's `FlushDomain`
+does. Quizzes that miss share a budget of twelve renders a minute
+(`ggcms_quiz_rate`).
 
 ### Permalinks: the one hit PHP serves
 

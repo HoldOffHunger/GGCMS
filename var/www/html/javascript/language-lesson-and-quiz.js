@@ -94,6 +94,25 @@ $(document).ready(function(event){
 		}
 	});
 	
+		// The page prints a quiz in one fixed order, so that the page cache can
+		// hold it, and the order is made here instead: a short answer list once
+		// (a long one stays alphabetical, to scan), and the questions afresh
+		// every time Start is pressed.
+	function shuffled(items) {
+		for(var i = items.length - 1; i > 0; i--) {
+			var j = Math.floor(Math.random() * (i + 1));
+			var held = items[i];
+			items[i] = items[j];
+			items[j] = held;
+		}
+		return items;
+	}
+
+	$('[data-shuffle="answers"]').each(function() {
+		var list = $(this);
+		$(shuffled(list.children('.choose-answer').toArray())).appendTo(list);
+	});
+
 	$('.choose-answer').prop('disabled', true);
 	$('#start-quiz').prop('disabled', false);
 	$('#start-quiz').click(function(e) {
@@ -105,7 +124,7 @@ $(document).ready(function(event){
 		$('.choose-answer').prop('disabled', false);
 		
 		questionindex = 0;
-		quizquestionelements = $('.quiz-question');
+		quizquestionelements = shuffled($('.quiz-question').toArray());
 		
 		for(i = 0; i < quizquestionelements.length; i++)
 		{

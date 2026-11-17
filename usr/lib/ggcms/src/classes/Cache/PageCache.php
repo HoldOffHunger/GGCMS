@@ -204,7 +204,56 @@
 				return $domain_location . $path . 'index.html';
 			}
 
+			$query = $this->CacheableQueryString();
+
+			if(is_string($query) && strlen($query)) {
+				return $domain_location . $path . '__' . $query . '.' . $this->CacheSuffix();
+			}
+
 			return $domain_location . $path . '.' . $this->CacheSuffix();
+		}
+
+			// CacheableQueryString()
+			// Tests: PageCacheTest::testCacheableQueryString()
+			// Test file: tests/src/classes/Cache/PageCacheTest.php
+			/*
+				The one query string the cache holds: a quiz.  A quiz is a lesson
+				page with ?quizmode=1, and previousquizzes or futurequizzes to take
+				in the lessons either side.  It was shuffled on every render, so it
+				could not be cached, and on 17 November 2026 crawlers asked
+				EarthFluent for 23,315 of them in three hours -- three renders in
+				four.  The shuffle is the browser's now, so one render serves
+				everyone, as view.php__quizmode=1&previousquizzes=3.html.
+
+				Only view.php, the form the lesson's own links use: nginx tries
+				<path>/index.html first, so a quiz at a slash address would be
+				answered with the plain lesson.  Only these parameters, in this
+				order, with these numbers, so a crawler cannot mint new cache
+				files by reordering them.  nginx's $ggcms_cache_query map is the
+				same pattern; change both together.
+
+				'' with no query string, the query string itself when it is a
+				quiz, and FALSE for anything else.
+			*/
+
+		public function CacheableQueryString() {
+			$query = isset($_SERVER['QUERY_STRING']) ? (string)$_SERVER['QUERY_STRING'] : '';
+
+			if(!strlen($query)) {
+				return '';
+			}
+
+			$path = $this->SafePath();
+
+			if($path === FALSE || substr($path, -9) !== '/view.php') {
+				return FALSE;
+			}
+
+			if(!preg_match('#\Aquizmode=1(&previousquizzes=([1-9]|10))?(&futurequizzes=([1-9]|10))?\z#', $query)) {
+				return FALSE;
+			}
+
+			return $query;
 		}
 
 			// Cacheability
@@ -227,7 +276,7 @@
 				return FALSE;
 			}
 
-			if(!$this->IsCacheable_NoQueryString()) {
+			if($this->CacheableQueryString() === FALSE) {		# none, or a quiz's
 				return FALSE;
 			}
 

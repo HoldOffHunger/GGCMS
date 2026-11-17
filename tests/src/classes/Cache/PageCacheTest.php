@@ -137,6 +137,37 @@
 
 			$_SERVER['REQUEST_URI'] = '/../x';
 			$this->assertFalse($this->newPageCache([])->CacheLocation());
+
+			$_SERVER['REQUEST_URI'] = '/spanish/verbs/lesson/view.php?quizmode=1&previousquizzes=3';
+			$_SERVER['QUERY_STRING'] = 'quizmode=1&previousquizzes=3';
+			$this->assertSame($domain . '/spanish/verbs/lesson/view.php__quizmode=1&previousquizzes=3.html', $this->newPageCache([])->CacheLocation(), 'a quiz caches beside its lesson');
+
+			$_SERVER['REQUEST_URI'] = '/some/entry/view.php?action=like';
+			$_SERVER['QUERY_STRING'] = 'action=like';
+			$this->assertSame($domain . '/some/entry/view.php.html', $this->newPageCache([])->CacheLocation(), 'any other query string still names the plain page, which FlushPage relies on');
+		}
+
+		public function testCacheableQueryString() {
+			$cache = function($uri) {
+				$_SERVER['REQUEST_URI'] = $uri;
+				$_SERVER['QUERY_STRING'] = (string)parse_url($uri, PHP_URL_QUERY);
+
+				return $this->newPageCache([])->CacheableQueryString();
+			};
+
+			$this->assertSame('', $cache('/a/lesson/view.php'));
+			$this->assertSame('quizmode=1', $cache('/a/lesson/view.php?quizmode=1'));
+			$this->assertSame('quizmode=1&previousquizzes=10', $cache('/a/lesson/view.php?quizmode=1&previousquizzes=10'));
+			$this->assertSame('quizmode=1&previousquizzes=10&futurequizzes=10', $cache('/a/lesson/view.php?quizmode=1&previousquizzes=10&futurequizzes=10'));
+			$this->assertSame('quizmode=1&futurequizzes=1', $cache('/a/lesson/view.php?quizmode=1&futurequizzes=1'));
+
+			$this->assertFalse($cache('/a/lesson/?quizmode=1'), 'a slash address would be answered with the plain lesson');
+			$this->assertFalse($cache('/a/lesson/view.php?previousquizzes=3&quizmode=1'), 'reordered: a second file for the same quiz');
+			$this->assertFalse($cache('/a/lesson/view.php?quizmode=1&previousquizzes=11'));
+			$this->assertFalse($cache('/a/lesson/view.php?quizmode=1&previousquizzes=0'));
+			$this->assertFalse($cache('/a/lesson/view.php?quizmode=2'));
+			$this->assertFalse($cache('/a/lesson/view.php?quizmode=1&x=1'));
+			$this->assertFalse($cache('/a/lesson/view.php?page=2'));
 		}
 
 		public function testIsCacheable() {
@@ -145,6 +176,17 @@
 			$_SERVER['REQUEST_METHOD'] = 'POST';
 
 			$this->assertFalse($this->newPageCache([])->IsCacheable(['output'=>$this->htmlPage()]), 'any one failing condition refuses');
+
+			$_SERVER['REQUEST_METHOD'] = 'GET';
+			$_SERVER['REQUEST_URI'] = '/some/entry/view.php?page=2';
+			$_SERVER['QUERY_STRING'] = 'page=2';
+
+			$this->assertFalse($this->newPageCache([])->IsCacheable(['output'=>$this->htmlPage()]), 'a query string that is not a quiz refuses');
+
+			$_SERVER['REQUEST_URI'] = '/some/entry/view.php?quizmode=1';
+			$_SERVER['QUERY_STRING'] = 'quizmode=1';
+
+			$this->assertTrue($this->newPageCache([])->IsCacheable(['output'=>$this->htmlPage()]), 'a quiz is cached');
 		}
 
 		public function testIsCacheable_Method() {
