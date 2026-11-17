@@ -44,6 +44,11 @@ def plain(recipes: dict, text: str) -> str:
     return " ".join(words)
 
 
+def is_romanized(text: str) -> bool:
+    """Latin letters, with or without marks: gae, jāūṅgā, not गए"""
+    return any(char.isalpha() for char in text) and not any("ऀ" <= char <= "ൿ" for char in text)
+
+
 def is_kana(text: str) -> bool:
     """Written only in hiragana or katakana: たべます, not 食べます and not tabemasu"""
     return bool(text) and all("\u3040" <= char <= "\u30ff" or char == "ー" for char in text)
@@ -243,10 +248,16 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                     found.append({"form": match[0], "features": slot["features"]})
                     if recipes.get("reading_kana"):  # Japanese lists each form three times: 食べます, たべます, tabemasu
                         found[-1]["reading"] = next((text for text in match if is_kana(text)), "")
-                    elif recipes.get("reading_roman"):
-                        found[-1]["reading"] = roman.get(match[0], "")
+                    elif recipes.get("reading_roman"):  # Hindi gives some forms' romanization as a form of its own: गए, then gae
+                        found[-1]["reading"] = roman.get(match[0], "") or next((text for text in match if is_romanized(text)), "")
                     if slot.get("split") and " " in match[0]:  # a two-word form the dictionary gives whole: bin gegangen
                         found[-1]["helper"], found[-1]["part"] = match[0].split(" ", 1)
+                    if slot.get("single_word"):  # Hindi gives खाऊँगा and खाया हूँगा the same tags: the one-word form is the future
+                        single = [text for text in match if " " not in text and not text.isascii()]
+                        if single:
+                            found[-1]["form"] = single[0]
+                            if recipes.get("reading_roman"):
+                                found[-1]["reading"] = roman.get(single[0], "")
                     if "shown" in slot:  # the form as a table shows it: the dictionary lists tengas, and nobody says it without its no
                         first, _, rest = match[0].partition(" ")
                         # a verb that splits in two keeps its second half for the end: kommen Sie an, not kommen an Sie
@@ -260,10 +271,32 @@ def read(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                     made = derived(source["form"], slot["derive"]["suffix"]) if source else None
                     if made:
                         found.append({"form": made, "features": slot["features"]})
+                        if slot["derive"].get("second_word_helps") and " " in made:
+                            # जाता हूँ and जा रहा हूँ: the first word carries the ending, the second is the helper the board lights
+                            words = made.split(" ")
+                            found[-1]["part"], found[-1]["helper"] = words[0], words[1]
                         if source.get("reading"):  # a romanized reading changes by its own letters: sipsida to seyo
                             found[-1]["reading"] = derived(source["reading"], slot["derive"].get("reading_suffix", slot["derive"]["suffix"])) or ""
                     else:
                         missing.append((word, slot["features"]))
+            for form in found:  # a recipe's modern spelling for the dump's older one: Hindi's खायी and दिये are खाई and दिए
+                for spelled, modern, said, said_now in recipes.get("respell", []):
+                    form["form"] = re.sub(spelled, modern, form["form"])
+                    if form.get("reading"):
+                        form["reading"] = re.sub(said, said_now, form["reading"])
+                    for key in ("part", "helper", "shown"):
+                        if key in form:
+                            form[key] = re.sub(spelled, modern, form[key])
+            ergative = recipes.get("ergative", {})
+            if word in ergative.get("verbs", []) or word.rpartition(" ")[2] in ergative.get("verbs", []) and " " in word:
+                # Hindi's खाना takes ने on the one doing it in the past, and the verb then matches what was done, not who
+                # did it: मैंने खाया and उसने खाया alike. So its past is one form, not a column that changes by who.
+                past = [form for form in found if form["features"].get("when") == ergative["when"] and "who" in form["features"]
+                        and len(form["features"]) == 2]
+                if past:
+                    first = next((form for form in past if form["features"]["who"] == "i"), past[0])
+                    found = [form for form in found if form not in past]
+                    found.append({**first, "features": dict(ergative["features"])})
             for form in found:  # the reading, beside the form as a table shows it: 食べます (たべます). The Play button leaves it out.
                 reading = form.pop("reading", "")
                 if reading and reading != form["form"] and "shown" not in form:

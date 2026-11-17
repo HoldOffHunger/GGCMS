@@ -18,6 +18,7 @@ nothing and is counted. Writes forms-<language>.tsv for import_entries.php; prev
 """
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -29,19 +30,30 @@ def main() -> int:
     language, words, out = sys.argv[1], Path(sys.argv[2]), Path(sys.argv[3])
     forms = json.loads((HERE / f"forms-{language}.json").read_text(encoding="utf-8"))
     code, verbs = forms["translation_language"], forms["verbs"]
+    recipes_file = HERE / f"forms-recipes-{language}.json"
+    recipes = json.loads(recipes_file.read_text(encoding="utf-8")) if recipes_file.exists() else {}
+    light = recipes.get("light_verbs", {})
     rows, entries, without = [HEADER], 0, 0
     for line in words.read_text(encoding="utf-8").splitlines():
         entry, _, translation = line.partition("\t")
         base = translation.strip().lower()
-        if base not in verbs:
+        front, _, last = base.rpartition(" ")
+        if base in verbs:
+            own, front = verbs[base], ""
+        elif front and last in light.get("verbs", []) and front.split(" ")[0] not in light.get("not_after", []) and last in verbs:
+            own = verbs[last]  # Hindi's बर्बाद करना changes as करना does, the word in front staying put: बर्बाद करता हूँ
+        else:
             without += 1
             continue
         entries += 1
-        for form in verbs[base]:
+        for form in own:
             if form["features"] == {"form": "helper"} or form["features"].get("internal") == "yes":
                 continue  # what other forms are built from (the helper a verb takes, Korean's 갈 and 가고) is in them, not shown
             features = ";".join(f"{key}={value}" for key, value in form["features"].items())
-            rows.append([entry, code, base, form.get("shown", form["form"]), features, "wiktionary"])
+            text = form.get("shown", form["form"])
+            if front:  # the light verb's reading is not the whole compound's, so it comes off
+                text = front + " " + re.sub(r"\s*\([^)]*\)$", "", text)
+            rows.append([entry, code, base, text, features, "wiktionary"])
     with open(out / f"forms-{language}.tsv", "w", encoding="utf-8", newline="") as file:
         csv.writer(file, delimiter="\t", lineterminator="\n", quoting=csv.QUOTE_MINIMAL).writerows(rows)
     print(f"{language}: {entries} entries get their forms, {len(rows) - 1} forms; {without} words are not verbs in the forms file")

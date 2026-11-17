@@ -1,0 +1,1118 @@
+{
+	"language": "hindi",
+	"translation_language": "hi",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-hindi.json and the recipes in forms-recipes-hindi.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "खाना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं खाता हूँ, तुम खाते हो, वह खाती है, हम खाते हैं.", "rows": [
+				{"english": "I eat", "foreign": "मैं खाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "खाना", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "तुम खाते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "खाना", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "वह खाती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "खाना", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "हम खाते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "खाना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "पीना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं पीता हूँ, तुम पीते हो, वह पीती है, हम पीते हैं.", "rows": [
+				{"english": "I drink", "foreign": "मैं पीता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "पीना", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "तुम पीते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पीना", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "वह पीती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "पीना", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "हम पीते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पीना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "आना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं आता हूँ, तुम आते हो, वह आती है, हम आते हैं.", "rows": [
+				{"english": "I come", "foreign": "मैं आता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "आना", "features": {"who": "i", "when": "now"}},
+				{"english": "You come", "foreign": "तुम आते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "आना", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes", "foreign": "वह आती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "आना", "features": {"who": "she", "when": "now"}},
+				{"english": "We come", "foreign": "हम आते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "आना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "देखना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं देखता हूँ, तुम देखते हो, वह देखती है, हम देखते हैं.", "rows": [
+				{"english": "I watch", "foreign": "मैं देखता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "देखना", "features": {"who": "i", "when": "now"}},
+				{"english": "You watch", "foreign": "तुम देखते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "देखना", "features": {"who": "you", "when": "now"}},
+				{"english": "She watches", "foreign": "वह देखती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "देखना", "features": {"who": "she", "when": "now"}},
+				{"english": "We watch", "foreign": "हम देखते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "देखना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "सुनना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं सुनता हूँ, तुम सुनते हो, वह सुनती है, हम सुनते हैं.", "rows": [
+				{"english": "I listen", "foreign": "मैं सुनता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "सुनना", "features": {"who": "i", "when": "now"}},
+				{"english": "You listen", "foreign": "तुम सुनते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सुनना", "features": {"who": "you", "when": "now"}},
+				{"english": "She listens", "foreign": "वह सुनती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "सुनना", "features": {"who": "she", "when": "now"}},
+				{"english": "We listen", "foreign": "हम सुनते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सुनना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "बोलना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं बोलता हूँ, तुम बोलते हो, वह बोलती है, हम बोलते हैं.", "rows": [
+				{"english": "I speak", "foreign": "मैं बोलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "बोलना", "features": {"who": "i", "when": "now"}},
+				{"english": "You speak", "foreign": "तुम बोलते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बोलना", "features": {"who": "you", "when": "now"}},
+				{"english": "She speaks", "foreign": "वह बोलती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "बोलना", "features": {"who": "she", "when": "now"}},
+				{"english": "We speak", "foreign": "हम बोलते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बोलना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "लिखना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं लिखता हूँ, तुम लिखते हो, वह लिखती है, हम लिखते हैं.", "rows": [
+				{"english": "I write", "foreign": "मैं लिखता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "लिखना", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "तुम लिखते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "लिखना", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "वह लिखती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "लिखना", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "हम लिखते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "लिखना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "चलना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं चलता हूँ, तुम चलते हो, वह चलती है, हम चलते हैं.", "rows": [
+				{"english": "I walk", "foreign": "मैं चलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "चलना", "features": {"who": "i", "when": "now"}},
+				{"english": "You walk", "foreign": "तुम चलते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "चलना", "features": {"who": "you", "when": "now"}},
+				{"english": "She walks", "foreign": "वह चलती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "चलना", "features": {"who": "she", "when": "now"}},
+				{"english": "We walk", "foreign": "हम चलते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "चलना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "दौड़ना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं दौड़ता हूँ, तुम दौड़ते हो, वह दौड़ती है, हम दौड़ते हैं.", "rows": [
+				{"english": "I run", "foreign": "मैं दौड़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "दौड़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "तुम दौड़ते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "दौड़ना", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "वह दौड़ती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "दौड़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "हम दौड़ते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "दौड़ना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "खरीदना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं खरीदता हूँ, तुम खरीदते हो, वह खरीदती है, हम खरीदते हैं.", "rows": [
+				{"english": "I buy", "foreign": "मैं खरीदता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "खरीदना", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "तुम खरीदते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "खरीदना", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "वह खरीदती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "खरीदना", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "हम खरीदते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "खरीदना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "बेचना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं बेचता हूँ, तुम बेचते हो, वह बेचती है, हम बेचते हैं.", "rows": [
+				{"english": "I sell", "foreign": "मैं बेचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "बेचना", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "तुम बेचते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बेचना", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "वह बेचती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "बेचना", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "हम बेचते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बेचना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "ढूँढना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं ढूँढता हूँ, तुम ढूँढते हो, वह ढूँढती है, हम ढूँढते हैं.", "rows": [
+				{"english": "I look for", "foreign": "मैं ढूँढता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "ढूँढना", "features": {"who": "i", "when": "now"}},
+				{"english": "You look for", "foreign": "तुम ढूँढते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "ढूँढना", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks for", "foreign": "वह ढूँढती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "ढूँढना", "features": {"who": "she", "when": "now"}},
+				{"english": "We look for", "foreign": "हम ढूँढते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "ढूँढना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "सोचना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं सोचता हूँ, तुम सोचते हो, वह सोचती है, हम सोचते हैं.", "rows": [
+				{"english": "I think", "foreign": "मैं सोचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "सोचना", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "तुम सोचते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सोचना", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "वह सोचती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "सोचना", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "हम सोचते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सोचना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "हँसना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं हँसता हूँ, तुम हँसते हो, वह हँसती है, हम हँसते हैं.", "rows": [
+				{"english": "I laugh", "foreign": "मैं हँसता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "हँसना", "features": {"who": "i", "when": "now"}},
+				{"english": "You laugh", "foreign": "तुम हँसते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "हँसना", "features": {"who": "you", "when": "now"}},
+				{"english": "She laughs", "foreign": "वह हँसती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "हँसना", "features": {"who": "she", "when": "now"}},
+				{"english": "We laugh", "foreign": "हम हँसते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "हँसना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "रोना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं रोता हूँ, तुम रोते हो, वह रोती है, हम रोते हैं.", "rows": [
+				{"english": "I cry", "foreign": "मैं रोता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "रोना", "features": {"who": "i", "when": "now"}},
+				{"english": "You cry", "foreign": "तुम रोते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "रोना", "features": {"who": "you", "when": "now"}},
+				{"english": "She cries", "foreign": "वह रोती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "रोना", "features": {"who": "she", "when": "now"}},
+				{"english": "We cry", "foreign": "हम रोते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "रोना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "खेलना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं खेलता हूँ, तुम खेलते हो, वह खेलती है, हम खेलते हैं.", "rows": [
+				{"english": "I play", "foreign": "मैं खेलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "खेलना", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "तुम खेलते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "खेलना", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "वह खेलती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "खेलना", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "हम खेलते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "खेलना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "गाना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं गाता हूँ, तुम गाते हो, वह गाती है, हम गाते हैं.", "rows": [
+				{"english": "I sing", "foreign": "मैं गाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "गाना", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "तुम गाते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "गाना", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "वह गाती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "गाना", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "हम गाते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "गाना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "नाचना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं नाचता हूँ, तुम नाचते हो, वह नाचती है, हम नाचते हैं.", "rows": [
+				{"english": "I dance", "foreign": "मैं नाचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "नाचना", "features": {"who": "i", "when": "now"}},
+				{"english": "You dance", "foreign": "तुम नाचते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "नाचना", "features": {"who": "you", "when": "now"}},
+				{"english": "She dances", "foreign": "वह नाचती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "नाचना", "features": {"who": "she", "when": "now"}},
+				{"english": "We dance", "foreign": "हम नाचते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "नाचना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "तैरना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं तैरता हूँ, तुम तैरते हो, वह तैरती है, हम तैरते हैं.", "rows": [
+				{"english": "I swim", "foreign": "मैं तैरता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "तैरना", "features": {"who": "i", "when": "now"}},
+				{"english": "You swim", "foreign": "तुम तैरते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "तैरना", "features": {"who": "you", "when": "now"}},
+				{"english": "She swims", "foreign": "वह तैरती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "तैरना", "features": {"who": "she", "when": "now"}},
+				{"english": "We swim", "foreign": "हम तैरते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "तैरना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "पढ़ना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं पढ़ता हूँ, तुम पढ़ते हो, वह पढ़ती है, हम पढ़ते हैं.", "rows": [
+				{"english": "I study", "foreign": "मैं पढ़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "पढ़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "तुम पढ़ते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पढ़ना", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "वह पढ़ती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "पढ़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "हम पढ़ते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पढ़ना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "सीखना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं सीखता हूँ, तुम सीखते हो, वह सीखती है, हम सीखते हैं.", "rows": [
+				{"english": "I learn", "foreign": "मैं सीखता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "सीखना", "features": {"who": "i", "when": "now"}},
+				{"english": "You learn", "foreign": "तुम सीखते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सीखना", "features": {"who": "you", "when": "now"}},
+				{"english": "She learns", "foreign": "वह सीखती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "सीखना", "features": {"who": "she", "when": "now"}},
+				{"english": "We learn", "foreign": "हम सीखते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सीखना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "सिखाना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं सिखाता हूँ, तुम सिखाते हो, वह सिखाती है, हम सिखाते हैं.", "rows": [
+				{"english": "I teach", "foreign": "मैं सिखाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "सिखाना", "features": {"who": "i", "when": "now"}},
+				{"english": "You teach", "foreign": "तुम सिखाते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सिखाना", "features": {"who": "you", "when": "now"}},
+				{"english": "She teaches", "foreign": "वह सिखाती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "सिखाना", "features": {"who": "she", "when": "now"}},
+				{"english": "We teach", "foreign": "हम सिखाते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सिखाना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "सोना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं सोता हूँ, तुम सोते हो, वह सोती है, हम सोते हैं.", "rows": [
+				{"english": "I sleep", "foreign": "मैं सोता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "सोना", "features": {"who": "i", "when": "now"}},
+				{"english": "You sleep", "foreign": "तुम सोते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सोना", "features": {"who": "you", "when": "now"}},
+				{"english": "She sleeps", "foreign": "वह सोती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "सोना", "features": {"who": "she", "when": "now"}},
+				{"english": "We sleep", "foreign": "हम सोते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "सोना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "उठना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं उठता हूँ, तुम उठते हो, वह उठती है, हम उठते हैं.", "rows": [
+				{"english": "I get up", "foreign": "मैं उठता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "उठना", "features": {"who": "i", "when": "now"}},
+				{"english": "You get up", "foreign": "तुम उठते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "उठना", "features": {"who": "you", "when": "now"}},
+				{"english": "She gets up", "foreign": "वह उठती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "उठना", "features": {"who": "she", "when": "now"}},
+				{"english": "We get up", "foreign": "हम उठते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "उठना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "बैठना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं बैठता हूँ, तुम बैठते हो, वह बैठती है, हम बैठते हैं.", "rows": [
+				{"english": "I sit down", "foreign": "मैं बैठता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "बैठना", "features": {"who": "i", "when": "now"}},
+				{"english": "You sit down", "foreign": "तुम बैठते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बैठना", "features": {"who": "you", "when": "now"}},
+				{"english": "She sits down", "foreign": "वह बैठती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "बैठना", "features": {"who": "she", "when": "now"}},
+				{"english": "We sit down", "foreign": "हम बैठते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बैठना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "उड़ना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं उड़ता हूँ, तुम उड़ते हो, वह उड़ती है, हम उड़ते हैं.", "rows": [
+				{"english": "I fly", "foreign": "मैं उड़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "उड़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "You fly", "foreign": "तुम उड़ते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "उड़ना", "features": {"who": "you", "when": "now"}},
+				{"english": "She flies", "foreign": "वह उड़ती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "उड़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "We fly", "foreign": "हम उड़ते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "उड़ना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "भूलना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं भूलता हूँ, तुम भूलते हो, वह भूलती है, हम भूलते हैं.", "rows": [
+				{"english": "I forget", "foreign": "मैं भूलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "भूलना", "features": {"who": "i", "when": "now"}},
+				{"english": "You forget", "foreign": "तुम भूलते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "भूलना", "features": {"who": "you", "when": "now"}},
+				{"english": "She forgets", "foreign": "वह भूलती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "भूलना", "features": {"who": "she", "when": "now"}},
+				{"english": "We forget", "foreign": "हम भूलते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "भूलना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "पूछना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं पूछता हूँ, तुम पूछते हो, वह पूछती है, हम पूछते हैं.", "rows": [
+				{"english": "I ask", "foreign": "मैं पूछता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "पूछना", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "तुम पूछते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पूछना", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "वह पूछती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "पूछना", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "हम पूछते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पूछना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "बताना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं बताता हूँ, तुम बताते हो, वह बताती है, हम बताते हैं.", "rows": [
+				{"english": "I tell", "foreign": "मैं बताता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "बताना", "features": {"who": "i", "when": "now"}},
+				{"english": "You tell", "foreign": "तुम बताते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बताना", "features": {"who": "you", "when": "now"}},
+				{"english": "She tells", "foreign": "वह बताती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "बताना", "features": {"who": "she", "when": "now"}},
+				{"english": "We tell", "foreign": "हम बताते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बताना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "मिलना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं मिलता हूँ, तुम मिलते हो, वह मिलती है, हम मिलते हैं.", "rows": [
+				{"english": "I meet", "foreign": "मैं मिलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "मिलना", "features": {"who": "i", "when": "now"}},
+				{"english": "You meet", "foreign": "तुम मिलते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "मिलना", "features": {"who": "you", "when": "now"}},
+				{"english": "She meets", "foreign": "वह मिलती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "मिलना", "features": {"who": "she", "when": "now"}},
+				{"english": "We meet", "foreign": "हम मिलते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "मिलना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "भेजना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं भेजता हूँ, तुम भेजते हो, वह भेजती है, हम भेजते हैं.", "rows": [
+				{"english": "I send", "foreign": "मैं भेजता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "भेजना", "features": {"who": "i", "when": "now"}},
+				{"english": "You send", "foreign": "तुम भेजते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "भेजना", "features": {"who": "you", "when": "now"}},
+				{"english": "She sends", "foreign": "वह भेजती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "भेजना", "features": {"who": "she", "when": "now"}},
+				{"english": "We send", "foreign": "हम भेजते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "भेजना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "बुलाना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं बुलाता हूँ, तुम बुलाते हो, वह बुलाती है, हम बुलाते हैं.", "rows": [
+				{"english": "I call", "foreign": "मैं बुलाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "बुलाना", "features": {"who": "i", "when": "now"}},
+				{"english": "You call", "foreign": "तुम बुलाते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बुलाना", "features": {"who": "you", "when": "now"}},
+				{"english": "She calls", "foreign": "वह बुलाती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "बुलाना", "features": {"who": "she", "when": "now"}},
+				{"english": "We call", "foreign": "हम बुलाते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बुलाना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "बनाना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं बनाता हूँ, तुम बनाते हो, वह बनाती है, हम बनाते हैं.", "rows": [
+				{"english": "I make", "foreign": "मैं बनाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "बनाना", "features": {"who": "i", "when": "now"}},
+				{"english": "You make", "foreign": "तुम बनाते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बनाना", "features": {"who": "you", "when": "now"}},
+				{"english": "She makes", "foreign": "वह बनाती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "बनाना", "features": {"who": "she", "when": "now"}},
+				{"english": "We make", "foreign": "हम बनाते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "बनाना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "पकाना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं पकाता हूँ, तुम पकाते हो, वह पकाती है, हम पकाते हैं.", "rows": [
+				{"english": "I cook", "foreign": "मैं पकाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "पकाना", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "तुम पकाते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पकाना", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "वह पकाती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "पकाना", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "हम पकाते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पकाना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "धोना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं धोता हूँ, तुम धोते हो, वह धोती है, हम धोते हैं.", "rows": [
+				{"english": "I wash", "foreign": "मैं धोता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "धोना", "features": {"who": "i", "when": "now"}},
+				{"english": "You wash", "foreign": "तुम धोते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "धोना", "features": {"who": "you", "when": "now"}},
+				{"english": "She washes", "foreign": "वह धोती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "धोना", "features": {"who": "she", "when": "now"}},
+				{"english": "We wash", "foreign": "हम धोते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "धोना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "खोलना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं खोलता हूँ, तुम खोलते हो, वह खोलती है, हम खोलते हैं.", "rows": [
+				{"english": "I open", "foreign": "मैं खोलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "खोलना", "features": {"who": "i", "when": "now"}},
+				{"english": "You open", "foreign": "तुम खोलते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "खोलना", "features": {"who": "you", "when": "now"}},
+				{"english": "She opens", "foreign": "वह खोलती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "खोलना", "features": {"who": "she", "when": "now"}},
+				{"english": "We open", "foreign": "हम खोलते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "खोलना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "जीतना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं जीतता हूँ, तुम जीतते हो, वह जीतती है, हम जीतते हैं.", "rows": [
+				{"english": "I win", "foreign": "मैं जीतता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "जीतना", "features": {"who": "i", "when": "now"}},
+				{"english": "You win", "foreign": "तुम जीतते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "जीतना", "features": {"who": "you", "when": "now"}},
+				{"english": "She wins", "foreign": "वह जीतती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "जीतना", "features": {"who": "she", "when": "now"}},
+				{"english": "We win", "foreign": "हम जीतते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "जीतना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "हारना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं हारता हूँ, तुम हारते हो, वह हारती है, हम हारते हैं.", "rows": [
+				{"english": "I lose", "foreign": "मैं हारता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "हारना", "features": {"who": "i", "when": "now"}},
+				{"english": "You lose", "foreign": "तुम हारते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "हारना", "features": {"who": "you", "when": "now"}},
+				{"english": "She loses", "foreign": "वह हारती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "हारना", "features": {"who": "she", "when": "now"}},
+				{"english": "We lose", "foreign": "हम हारते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "हारना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "देना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं देता हूँ, तुम देते हो, वह देती है, हम देते हैं.", "rows": [
+				{"english": "I give", "foreign": "मैं देता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "देना", "features": {"who": "i", "when": "now"}},
+				{"english": "You give", "foreign": "तुम देते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "देना", "features": {"who": "you", "when": "now"}},
+				{"english": "She gives", "foreign": "वह देती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "देना", "features": {"who": "she", "when": "now"}},
+				{"english": "We give", "foreign": "हम देते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "देना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "लेना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं लेता हूँ, तुम लेते हो, वह लेती है, हम लेते हैं.", "rows": [
+				{"english": "I take", "foreign": "मैं लेता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "लेना", "features": {"who": "i", "when": "now"}},
+				{"english": "You take", "foreign": "तुम लेते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "लेना", "features": {"who": "you", "when": "now"}},
+				{"english": "She takes", "foreign": "वह लेती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "लेना", "features": {"who": "she", "when": "now"}},
+				{"english": "We take", "foreign": "हम लेते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "लेना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "समझना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं समझता हूँ, तुम समझते हो, वह समझती है, हम समझते हैं.", "rows": [
+				{"english": "I understand", "foreign": "मैं समझता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "समझना", "features": {"who": "i", "when": "now"}},
+				{"english": "You understand", "foreign": "तुम समझते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "समझना", "features": {"who": "you", "when": "now"}},
+				{"english": "She understands", "foreign": "वह समझती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "समझना", "features": {"who": "she", "when": "now"}},
+				{"english": "We understand", "foreign": "हम समझते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "समझना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "रहना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं रहता हूँ, तुम रहते हो, वह रहती है, हम रहते हैं.", "rows": [
+				{"english": "I live", "foreign": "मैं रहता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "रहना", "features": {"who": "i", "when": "now"}},
+				{"english": "You live", "foreign": "तुम रहते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "रहना", "features": {"who": "you", "when": "now"}},
+				{"english": "She lives", "foreign": "वह रहती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "रहना", "features": {"who": "she", "when": "now"}},
+				{"english": "We live", "foreign": "हम रहते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "रहना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "छोड़ना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं छोड़ता हूँ, तुम छोड़ते हो, वह छोड़ती है, हम छोड़ते हैं.", "rows": [
+				{"english": "I leave", "foreign": "मैं छोड़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "छोड़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "You leave", "foreign": "तुम छोड़ते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "छोड़ना", "features": {"who": "you", "when": "now"}},
+				{"english": "She leaves", "foreign": "वह छोड़ती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "छोड़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "We leave", "foreign": "हम छोड़ते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "छोड़ना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 45, "verb": "लौटना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं लौटता हूँ, तुम लौटते हो, वह लौटती है, हम लौटते हैं.", "rows": [
+				{"english": "I come back", "foreign": "मैं लौटता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "लौटना", "features": {"who": "i", "when": "now"}},
+				{"english": "You come back", "foreign": "तुम लौटते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "लौटना", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes back", "foreign": "वह लौटती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "लौटना", "features": {"who": "she", "when": "now"}},
+				{"english": "We come back", "foreign": "हम लौटते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "लौटना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 46, "verb": "पहुँचना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं पहुँचता हूँ, तुम पहुँचते हो, वह पहुँचती है, हम पहुँचते हैं.", "rows": [
+				{"english": "I arrive", "foreign": "मैं पहुँचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "पहुँचना", "features": {"who": "i", "when": "now"}},
+				{"english": "You arrive", "foreign": "तुम पहुँचते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पहुँचना", "features": {"who": "you", "when": "now"}},
+				{"english": "She arrives", "foreign": "वह पहुँचती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "पहुँचना", "features": {"who": "she", "when": "now"}},
+				{"english": "We arrive", "foreign": "हम पहुँचते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "पहुँचना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 47, "verb": "चढ़ना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं चढ़ता हूँ, तुम चढ़ते हो, वह चढ़ती है, हम चढ़ते हैं.", "rows": [
+				{"english": "I climb", "foreign": "मैं चढ़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "चढ़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "You climb", "foreign": "तुम चढ़ते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "चढ़ना", "features": {"who": "you", "when": "now"}},
+				{"english": "She climbs", "foreign": "वह चढ़ती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "चढ़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "We climb", "foreign": "हम चढ़ते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "चढ़ना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 48, "verb": "ठहरना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं ठहरता हूँ, तुम ठहरते हो, वह ठहरती है, हम ठहरते हैं.", "rows": [
+				{"english": "I stay", "foreign": "मैं ठहरता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "ठहरना", "features": {"who": "i", "when": "now"}},
+				{"english": "You stay", "foreign": "तुम ठहरते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "ठहरना", "features": {"who": "you", "when": "now"}},
+				{"english": "She stays", "foreign": "वह ठहरती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "ठहरना", "features": {"who": "she", "when": "now"}},
+				{"english": "We stay", "foreign": "हम ठहरते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "ठहरना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 49, "verb": "गिरना", "strategy": ["ending", "helper word"], "description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: मैं गिरता हूँ, तुम गिरते हो, वह गिरती है, हम गिरते हैं.", "rows": [
+				{"english": "I fall", "foreign": "मैं गिरता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}, {"text": "ता", "role": "ending"}], "base": "गिरना", "features": {"who": "i", "when": "now"}},
+				{"english": "You fall", "foreign": "तुम गिरते हो", "mark": [{"text": "हो", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "गिरना", "features": {"who": "you", "when": "now"}},
+				{"english": "She falls", "foreign": "वह गिरती है", "mark": [{"text": "है", "role": "helper word"}, {"text": "ती", "role": "ending"}], "base": "गिरना", "features": {"who": "she", "when": "now"}},
+				{"english": "We fall", "foreign": "हम गिरते हैं", "mark": [{"text": "हैं", "role": "helper word"}, {"text": "ते", "role": "ending"}], "base": "गिरना", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "खाना", "strategy": ["ending"], "description": "For before, खाना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने खाया, उसने खाया. For later, it takes an ending of its own: मैं खाऊँगा.", "rows": [
+				{"english": "I eat", "foreign": "मैं खाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "खाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "मैंने खाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "खाना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "मैं खाऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "खाना", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "उसने खाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "खाना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "पीना", "strategy": ["ending"], "description": "For before, पीना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने पिया, उसने पिया. For later, it takes an ending of its own: मैं पियूँगा.", "rows": [
+				{"english": "I drink", "foreign": "मैं पीता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पीना", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "मैंने पिया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "पीना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "मैं पियूँगा", "mark": ["ूँगा"], "from": 1, "base": "पीना", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "उसने पिया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "पीना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "आना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं आया, वह आई. For later, it takes an ending of its own: मैं आऊँगा.", "rows": [
+				{"english": "I come", "foreign": "मैं आता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "आना", "features": {"who": "i", "when": "now"}},
+				{"english": "I came", "foreign": "मैं आया", "mark": ["या"], "from": 1, "base": "आना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come", "foreign": "मैं आऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "आना", "features": {"who": "i", "when": "later"}},
+				{"english": "She came", "foreign": "वह आई", "mark": ["ई"], "base": "आना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "देखना", "strategy": ["ending"], "description": "For before, देखना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने देखा, उसने देखा. For later, it takes an ending of its own: मैं देखूँगा.", "rows": [
+				{"english": "I watch", "foreign": "मैं देखता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "देखना", "features": {"who": "i", "when": "now"}},
+				{"english": "I watched", "foreign": "मैंने देखा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "देखना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will watch", "foreign": "मैं देखूँगा", "mark": ["ूँगा"], "from": 1, "base": "देखना", "features": {"who": "i", "when": "later"}},
+				{"english": "She watched", "foreign": "उसने देखा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "देखना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "सुनना", "strategy": ["ending"], "description": "For before, सुनना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने सुना, उसने सुना. For later, it takes an ending of its own: मैं सुनूँगा.", "rows": [
+				{"english": "I listen", "foreign": "मैं सुनता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सुनना", "features": {"who": "i", "when": "now"}},
+				{"english": "I listened", "foreign": "मैंने सुना", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "सुनना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will listen", "foreign": "मैं सुनूँगा", "mark": ["ूँगा"], "from": 1, "base": "सुनना", "features": {"who": "i", "when": "later"}},
+				{"english": "She listened", "foreign": "उसने सुना", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "सुनना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "बोलना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं बोला, वह बोली. For later, it takes an ending of its own: मैं बोलूँगा.", "rows": [
+				{"english": "I speak", "foreign": "मैं बोलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बोलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I spoke", "foreign": "मैं बोला", "mark": ["ा"], "from": 1, "base": "बोलना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will speak", "foreign": "मैं बोलूँगा", "mark": ["ूँगा"], "from": 1, "base": "बोलना", "features": {"who": "i", "when": "later"}},
+				{"english": "She spoke", "foreign": "वह बोली", "mark": ["ी"], "base": "बोलना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "लिखना", "strategy": ["ending"], "description": "For before, लिखना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने लिखा, उसने लिखा. For later, it takes an ending of its own: मैं लिखूँगा.", "rows": [
+				{"english": "I write", "foreign": "मैं लिखता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "लिखना", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "मैंने लिखा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "लिखना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "मैं लिखूँगा", "mark": ["ूँगा"], "from": 1, "base": "लिखना", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "उसने लिखा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "लिखना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "चलना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं चला, वह चली. For later, it takes an ending of its own: मैं चलूँगा.", "rows": [
+				{"english": "I walk", "foreign": "मैं चलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "चलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I walked", "foreign": "मैं चला", "mark": ["ा"], "from": 1, "base": "चलना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will walk", "foreign": "मैं चलूँगा", "mark": ["ूँगा"], "from": 1, "base": "चलना", "features": {"who": "i", "when": "later"}},
+				{"english": "She walked", "foreign": "वह चली", "mark": ["ी"], "base": "चलना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "दौड़ना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं दौड़ा, वह दौड़ी. For later, it takes an ending of its own: मैं दौड़ूँगा.", "rows": [
+				{"english": "I run", "foreign": "मैं दौड़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "दौड़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "मैं दौड़ा", "mark": ["ा"], "from": 1, "base": "दौड़ना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "मैं दौड़ूँगा", "mark": ["ूँगा"], "from": 1, "base": "दौड़ना", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "वह दौड़ी", "mark": ["ी"], "base": "दौड़ना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "खरीदना", "strategy": ["ending"], "description": "For before, खरीदना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने खरीदा, उसने खरीदा. For later, it takes an ending of its own: मैं खरीदूँगा.", "rows": [
+				{"english": "I buy", "foreign": "मैं खरीदता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "खरीदना", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "मैंने खरीदा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "खरीदना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "मैं खरीदूँगा", "mark": ["ूँगा"], "from": 1, "base": "खरीदना", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "उसने खरीदा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "खरीदना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "बेचना", "strategy": ["ending"], "description": "For before, बेचना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने बेचा, उसने बेचा. For later, it takes an ending of its own: मैं बेचूँगा.", "rows": [
+				{"english": "I sell", "foreign": "मैं बेचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बेचना", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "मैंने बेचा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "बेचना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "मैं बेचूँगा", "mark": ["ूँगा"], "from": 1, "base": "बेचना", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "उसने बेचा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "बेचना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "ढूँढना", "strategy": ["ending"], "description": "For before, ढूँढना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने ढूँढा, उसने ढूँढा. For later, it takes an ending of its own: मैं ढूँढूँगा.", "rows": [
+				{"english": "I look for", "foreign": "मैं ढूँढता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "ढूँढना", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked for", "foreign": "मैंने ढूँढा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "ढूँढना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look for", "foreign": "मैं ढूँढूँगा", "mark": ["ूँगा"], "from": 1, "base": "ढूँढना", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked for", "foreign": "उसने ढूँढा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "ढूँढना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "सोचना", "strategy": ["ending"], "description": "For before, सोचना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने सोचा, उसने सोचा. For later, it takes an ending of its own: मैं सोचूँगा.", "rows": [
+				{"english": "I think", "foreign": "मैं सोचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सोचना", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "मैंने सोचा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "सोचना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "मैं सोचूँगा", "mark": ["ूँगा"], "from": 1, "base": "सोचना", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "उसने सोचा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "सोचना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "हँसना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं हँसा, वह हँसी. For later, it takes an ending of its own: मैं हँसूँगा.", "rows": [
+				{"english": "I laugh", "foreign": "मैं हँसता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "हँसना", "features": {"who": "i", "when": "now"}},
+				{"english": "I laughed", "foreign": "मैं हँसा", "mark": ["ा"], "from": 1, "base": "हँसना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will laugh", "foreign": "मैं हँसूँगा", "mark": ["ूँगा"], "from": 1, "base": "हँसना", "features": {"who": "i", "when": "later"}},
+				{"english": "She laughed", "foreign": "वह हँसी", "mark": ["ी"], "base": "हँसना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "रोना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं रोया, वह रोई. For later, it takes an ending of its own: मैं रोऊँगा.", "rows": [
+				{"english": "I cry", "foreign": "मैं रोता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "रोना", "features": {"who": "i", "when": "now"}},
+				{"english": "I cried", "foreign": "मैं रोया", "mark": ["या"], "from": 1, "base": "रोना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cry", "foreign": "मैं रोऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "रोना", "features": {"who": "i", "when": "later"}},
+				{"english": "She cried", "foreign": "वह रोई", "mark": ["ई"], "base": "रोना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "खेलना", "strategy": ["ending"], "description": "For before, खेलना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने खेला, उसने खेला. For later, it takes an ending of its own: मैं खेलूँगा.", "rows": [
+				{"english": "I play", "foreign": "मैं खेलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "खेलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "मैंने खेला", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "खेलना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "मैं खेलूँगा", "mark": ["ूँगा"], "from": 1, "base": "खेलना", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "उसने खेला", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "खेलना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "गाना", "strategy": ["ending"], "description": "For before, गाना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने गाया, उसने गाया. For later, it takes an ending of its own: मैं गाऊँगा.", "rows": [
+				{"english": "I sing", "foreign": "मैं गाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "गाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "मैंने गाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "गाना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "मैं गाऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "गाना", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "उसने गाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "गाना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "नाचना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं नाचा, वह नाची. For later, it takes an ending of its own: मैं नाचूँगा.", "rows": [
+				{"english": "I dance", "foreign": "मैं नाचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "नाचना", "features": {"who": "i", "when": "now"}},
+				{"english": "I danced", "foreign": "मैं नाचा", "mark": ["ा"], "from": 1, "base": "नाचना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will dance", "foreign": "मैं नाचूँगा", "mark": ["ूँगा"], "from": 1, "base": "नाचना", "features": {"who": "i", "when": "later"}},
+				{"english": "She danced", "foreign": "वह नाची", "mark": ["ी"], "base": "नाचना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "तैरना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं तैरा, वह तैरी. For later, it takes an ending of its own: मैं तैरूँगा.", "rows": [
+				{"english": "I swim", "foreign": "मैं तैरता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "तैरना", "features": {"who": "i", "when": "now"}},
+				{"english": "I swam", "foreign": "मैं तैरा", "mark": ["ा"], "from": 1, "base": "तैरना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will swim", "foreign": "मैं तैरूँगा", "mark": ["ूँगा"], "from": 1, "base": "तैरना", "features": {"who": "i", "when": "later"}},
+				{"english": "She swam", "foreign": "वह तैरी", "mark": ["ी"], "base": "तैरना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "पढ़ना", "strategy": ["ending"], "description": "For before, पढ़ना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने पढ़ा, उसने पढ़ा. For later, it takes an ending of its own: मैं पढ़ूँगा.", "rows": [
+				{"english": "I study", "foreign": "मैं पढ़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पढ़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "मैंने पढ़ा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "पढ़ना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "मैं पढ़ूँगा", "mark": ["ूँगा"], "from": 1, "base": "पढ़ना", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "उसने पढ़ा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "पढ़ना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "सीखना", "strategy": ["ending"], "description": "For before, सीखना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने सीखा, उसने सीखा. For later, it takes an ending of its own: मैं सीखूँगा.", "rows": [
+				{"english": "I learn", "foreign": "मैं सीखता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सीखना", "features": {"who": "i", "when": "now"}},
+				{"english": "I learned", "foreign": "मैंने सीखा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "सीखना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will learn", "foreign": "मैं सीखूँगा", "mark": ["ूँगा"], "from": 1, "base": "सीखना", "features": {"who": "i", "when": "later"}},
+				{"english": "She learned", "foreign": "उसने सीखा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "सीखना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "सिखाना", "strategy": ["ending"], "description": "For before, सिखाना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने सिखाया, उसने सिखाया. For later, it takes an ending of its own: मैं सिखाऊँगा.", "rows": [
+				{"english": "I teach", "foreign": "मैं सिखाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सिखाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I taught", "foreign": "मैंने सिखाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "सिखाना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will teach", "foreign": "मैं सिखाऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "सिखाना", "features": {"who": "i", "when": "later"}},
+				{"english": "She taught", "foreign": "उसने सिखाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "सिखाना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "सोना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं सोया, वह सोई. For later, it takes an ending of its own: मैं सोऊँगा.", "rows": [
+				{"english": "I sleep", "foreign": "मैं सोता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सोना", "features": {"who": "i", "when": "now"}},
+				{"english": "I slept", "foreign": "मैं सोया", "mark": ["या"], "from": 1, "base": "सोना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sleep", "foreign": "मैं सोऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "सोना", "features": {"who": "i", "when": "later"}},
+				{"english": "She slept", "foreign": "वह सोई", "mark": ["ई"], "base": "सोना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "उठना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं उठा, वह उठी. For later, it takes an ending of its own: मैं उठूँगा.", "rows": [
+				{"english": "I get up", "foreign": "मैं उठता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "उठना", "features": {"who": "i", "when": "now"}},
+				{"english": "I got up", "foreign": "मैं उठा", "mark": ["ा"], "from": 1, "base": "उठना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will get up", "foreign": "मैं उठूँगा", "mark": ["ूँगा"], "from": 1, "base": "उठना", "features": {"who": "i", "when": "later"}},
+				{"english": "She got up", "foreign": "वह उठी", "mark": ["ी"], "base": "उठना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "बैठना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं बैठा, वह बैठी. For later, it takes an ending of its own: मैं बैठूँगा.", "rows": [
+				{"english": "I sit down", "foreign": "मैं बैठता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बैठना", "features": {"who": "i", "when": "now"}},
+				{"english": "I sat down", "foreign": "मैं बैठा", "mark": ["ा"], "from": 1, "base": "बैठना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sit down", "foreign": "मैं बैठूँगा", "mark": ["ूँगा"], "from": 1, "base": "बैठना", "features": {"who": "i", "when": "later"}},
+				{"english": "She sat down", "foreign": "वह बैठी", "mark": ["ी"], "base": "बैठना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "उड़ना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं उड़ा, वह उड़ी. For later, it takes an ending of its own: मैं उड़ूँगा.", "rows": [
+				{"english": "I fly", "foreign": "मैं उड़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "उड़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I flew", "foreign": "मैं उड़ा", "mark": ["ा"], "from": 1, "base": "उड़ना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will fly", "foreign": "मैं उड़ूँगा", "mark": ["ूँगा"], "from": 1, "base": "उड़ना", "features": {"who": "i", "when": "later"}},
+				{"english": "She flew", "foreign": "वह उड़ी", "mark": ["ी"], "base": "उड़ना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "भूलना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं भूला, वह भूली. For later, it takes an ending of its own: मैं भूलूँगा.", "rows": [
+				{"english": "I forget", "foreign": "मैं भूलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "भूलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I forgot", "foreign": "मैं भूला", "mark": ["ा"], "from": 1, "base": "भूलना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will forget", "foreign": "मैं भूलूँगा", "mark": ["ूँगा"], "from": 1, "base": "भूलना", "features": {"who": "i", "when": "later"}},
+				{"english": "She forgot", "foreign": "वह भूली", "mark": ["ी"], "base": "भूलना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "पूछना", "strategy": ["ending"], "description": "For before, पूछना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने पूछा, उसने पूछा. For later, it takes an ending of its own: मैं पूछूँगा.", "rows": [
+				{"english": "I ask", "foreign": "मैं पूछता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पूछना", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "मैंने पूछा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "पूछना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "मैं पूछूँगा", "mark": ["ूँगा"], "from": 1, "base": "पूछना", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "उसने पूछा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "पूछना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "बताना", "strategy": ["ending"], "description": "For before, बताना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने बताया, उसने बताया. For later, it takes an ending of its own: मैं बताऊँगा.", "rows": [
+				{"english": "I tell", "foreign": "मैं बताता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बताना", "features": {"who": "i", "when": "now"}},
+				{"english": "I told", "foreign": "मैंने बताया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "बताना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will tell", "foreign": "मैं बताऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "बताना", "features": {"who": "i", "when": "later"}},
+				{"english": "She told", "foreign": "उसने बताया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "बताना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "मिलना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं मिला, वह मिली. For later, it takes an ending of its own: मैं मिलूँगा.", "rows": [
+				{"english": "I meet", "foreign": "मैं मिलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "मिलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I met", "foreign": "मैं मिला", "mark": ["ा"], "from": 1, "base": "मिलना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will meet", "foreign": "मैं मिलूँगा", "mark": ["ूँगा"], "from": 1, "base": "मिलना", "features": {"who": "i", "when": "later"}},
+				{"english": "She met", "foreign": "वह मिली", "mark": ["ी"], "base": "मिलना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "भेजना", "strategy": ["ending"], "description": "For before, भेजना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने भेजा, उसने भेजा. For later, it takes an ending of its own: मैं भेजूँगा.", "rows": [
+				{"english": "I send", "foreign": "मैं भेजता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "भेजना", "features": {"who": "i", "when": "now"}},
+				{"english": "I sent", "foreign": "मैंने भेजा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "भेजना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will send", "foreign": "मैं भेजूँगा", "mark": ["ूँगा"], "from": 1, "base": "भेजना", "features": {"who": "i", "when": "later"}},
+				{"english": "She sent", "foreign": "उसने भेजा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "भेजना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "बुलाना", "strategy": ["ending"], "description": "For before, बुलाना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने बुलाया, उसने बुलाया. For later, it takes an ending of its own: मैं बुलाऊँगा.", "rows": [
+				{"english": "I call", "foreign": "मैं बुलाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बुलाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I called", "foreign": "मैंने बुलाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "बुलाना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "मैं बुलाऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "बुलाना", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "उसने बुलाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "बुलाना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "बनाना", "strategy": ["ending"], "description": "For before, बनाना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने बनाया, उसने बनाया. For later, it takes an ending of its own: मैं बनाऊँगा.", "rows": [
+				{"english": "I make", "foreign": "मैं बनाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बनाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I made", "foreign": "मैंने बनाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "बनाना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "मैं बनाऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "बनाना", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "उसने बनाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "बनाना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "पकाना", "strategy": ["ending"], "description": "For before, पकाना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने पकाया, उसने पकाया. For later, it takes an ending of its own: मैं पकाऊँगा.", "rows": [
+				{"english": "I cook", "foreign": "मैं पकाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पकाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "मैंने पकाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "पकाना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "मैं पकाऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "पकाना", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "उसने पकाया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "पकाना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "धोना", "strategy": ["ending"], "description": "For before, धोना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने धोया, उसने धोया. For later, it takes an ending of its own: मैं धोऊँगा.", "rows": [
+				{"english": "I wash", "foreign": "मैं धोता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "धोना", "features": {"who": "i", "when": "now"}},
+				{"english": "I washed", "foreign": "मैंने धोया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "धोना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wash", "foreign": "मैं धोऊँगा", "mark": ["ऊँगा"], "from": 1, "base": "धोना", "features": {"who": "i", "when": "later"}},
+				{"english": "She washed", "foreign": "उसने धोया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "धोना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "खोलना", "strategy": ["ending"], "description": "For before, खोलना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने खोला, उसने खोला. For later, it takes an ending of its own: मैं खोलूँगा.", "rows": [
+				{"english": "I open", "foreign": "मैं खोलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "खोलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I opened", "foreign": "मैंने खोला", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "खोलना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "मैं खोलूँगा", "mark": ["ूँगा"], "from": 1, "base": "खोलना", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "उसने खोला", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "खोलना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "जीतना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं जीता, वह जीती. For later, it takes an ending of its own: मैं जीतूँगा.", "rows": [
+				{"english": "I win", "foreign": "मैं जीतता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "जीतना", "features": {"who": "i", "when": "now"}},
+				{"english": "I won", "foreign": "मैं जीता", "mark": ["ा"], "from": 1, "base": "जीतना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will win", "foreign": "मैं जीतूँगा", "mark": ["ूँगा"], "from": 1, "base": "जीतना", "features": {"who": "i", "when": "later"}},
+				{"english": "She won", "foreign": "वह जीती", "mark": ["ी"], "base": "जीतना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "हारना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं हारा, वह हारी. For later, it takes an ending of its own: मैं हारूँगा.", "rows": [
+				{"english": "I lose", "foreign": "मैं हारता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "हारना", "features": {"who": "i", "when": "now"}},
+				{"english": "I lost", "foreign": "मैं हारा", "mark": ["ा"], "from": 1, "base": "हारना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will lose", "foreign": "मैं हारूँगा", "mark": ["ूँगा"], "from": 1, "base": "हारना", "features": {"who": "i", "when": "later"}},
+				{"english": "She lost", "foreign": "वह हारी", "mark": ["ी"], "base": "हारना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "देना", "strategy": ["ending"], "description": "For before, देना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने दिया, उसने दिया. For later, it takes an ending of its own: मैं दूँगा.", "rows": [
+				{"english": "I give", "foreign": "मैं देता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "देना", "features": {"who": "i", "when": "now"}},
+				{"english": "I gave", "foreign": "मैंने दिया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "देना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "मैं दूँगा", "mark": ["ूँगा"], "from": 1, "base": "देना", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "उसने दिया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "देना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "लेना", "strategy": ["ending"], "description": "For before, लेना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने लिया, उसने लिया. For later, it takes an ending of its own: मैं लूँगा.", "rows": [
+				{"english": "I take", "foreign": "मैं लेता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "लेना", "features": {"who": "i", "when": "now"}},
+				{"english": "I took", "foreign": "मैंने लिया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "from": 1, "base": "लेना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "मैं लूँगा", "mark": ["ूँगा"], "from": 1, "base": "लेना", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "उसने लिया", "mark": [{"text": "ने", "role": "particle"}, {"text": "या", "role": "ending"}], "base": "लेना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "समझना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं समझा, वह समझी. For later, it takes an ending of its own: मैं समझूँगा.", "rows": [
+				{"english": "I understand", "foreign": "मैं समझता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "समझना", "features": {"who": "i", "when": "now"}},
+				{"english": "I understood", "foreign": "मैं समझा", "mark": ["ा"], "from": 1, "base": "समझना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will understand", "foreign": "मैं समझूँगा", "mark": ["ूँगा"], "from": 1, "base": "समझना", "features": {"who": "i", "when": "later"}},
+				{"english": "She understood", "foreign": "वह समझी", "mark": ["ी"], "base": "समझना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "रहना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं रहा, वह रही. For later, it takes an ending of its own: मैं रहूँगा.", "rows": [
+				{"english": "I live", "foreign": "मैं रहता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "रहना", "features": {"who": "i", "when": "now"}},
+				{"english": "I lived", "foreign": "मैं रहा", "mark": ["ा"], "from": 1, "base": "रहना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will live", "foreign": "मैं रहूँगा", "mark": ["ूँगा"], "from": 1, "base": "रहना", "features": {"who": "i", "when": "later"}},
+				{"english": "She lived", "foreign": "वह रही", "mark": ["ी"], "base": "रहना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "छोड़ना", "strategy": ["ending"], "description": "For before, छोड़ना takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: मैंने छोड़ा, उसने छोड़ा. For later, it takes an ending of its own: मैं छोड़ूँगा.", "rows": [
+				{"english": "I leave", "foreign": "मैं छोड़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "छोड़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I left", "foreign": "मैंने छोड़ा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "from": 1, "base": "छोड़ना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will leave", "foreign": "मैं छोड़ूँगा", "mark": ["ूँगा"], "from": 1, "base": "छोड़ना", "features": {"who": "i", "when": "later"}},
+				{"english": "She left", "foreign": "उसने छोड़ा", "mark": [{"text": "ने", "role": "particle"}, {"text": "ा", "role": "ending"}], "base": "छोड़ना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 45, "verb": "लौटना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं लौटा, वह लौटी. For later, it takes an ending of its own: मैं लौटूँगा.", "rows": [
+				{"english": "I come back", "foreign": "मैं लौटता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "लौटना", "features": {"who": "i", "when": "now"}},
+				{"english": "I came back", "foreign": "मैं लौटा", "mark": ["ा"], "from": 1, "base": "लौटना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come back", "foreign": "मैं लौटूँगा", "mark": ["ूँगा"], "from": 1, "base": "लौटना", "features": {"who": "i", "when": "later"}},
+				{"english": "She came back", "foreign": "वह लौटी", "mark": ["ी"], "base": "लौटना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 46, "verb": "पहुँचना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं पहुँचा, वह पहुँची. For later, it takes an ending of its own: मैं पहुँचूँगा.", "rows": [
+				{"english": "I arrive", "foreign": "मैं पहुँचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पहुँचना", "features": {"who": "i", "when": "now"}},
+				{"english": "I arrived", "foreign": "मैं पहुँचा", "mark": ["ा"], "from": 1, "base": "पहुँचना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will arrive", "foreign": "मैं पहुँचूँगा", "mark": ["ूँगा"], "from": 1, "base": "पहुँचना", "features": {"who": "i", "when": "later"}},
+				{"english": "She arrived", "foreign": "वह पहुँची", "mark": ["ी"], "base": "पहुँचना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 47, "verb": "चढ़ना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं चढ़ा, वह चढ़ी. For later, it takes an ending of its own: मैं चढ़ूँगा.", "rows": [
+				{"english": "I climb", "foreign": "मैं चढ़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "चढ़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I climbed", "foreign": "मैं चढ़ा", "mark": ["ा"], "from": 1, "base": "चढ़ना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will climb", "foreign": "मैं चढ़ूँगा", "mark": ["ूँगा"], "from": 1, "base": "चढ़ना", "features": {"who": "i", "when": "later"}},
+				{"english": "She climbed", "foreign": "वह चढ़ी", "mark": ["ी"], "base": "चढ़ना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 48, "verb": "ठहरना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं ठहरा, वह ठहरी. For later, it takes an ending of its own: मैं ठहरूँगा.", "rows": [
+				{"english": "I stay", "foreign": "मैं ठहरता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "ठहरना", "features": {"who": "i", "when": "now"}},
+				{"english": "I stayed", "foreign": "मैं ठहरा", "mark": ["ा"], "from": 1, "base": "ठहरना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will stay", "foreign": "मैं ठहरूँगा", "mark": ["ूँगा"], "from": 1, "base": "ठहरना", "features": {"who": "i", "when": "later"}},
+				{"english": "She stayed", "foreign": "वह ठहरी", "mark": ["ी"], "base": "ठहरना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 49, "verb": "गिरना", "strategy": ["ending"], "description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: मैं गिरा, वह गिरी. For later, it takes an ending of its own: मैं गिरूँगा.", "rows": [
+				{"english": "I fall", "foreign": "मैं गिरता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "गिरना", "features": {"who": "i", "when": "now"}},
+				{"english": "I fell", "foreign": "मैं गिरा", "mark": ["ा"], "from": 1, "base": "गिरना", "features": {"who": "i", "when": "before"}},
+				{"english": "I will fall", "foreign": "मैं गिरूँगा", "mark": ["ूँगा"], "from": 1, "base": "गिरना", "features": {"who": "i", "when": "later"}},
+				{"english": "She fell", "foreign": "वह गिरी", "mark": ["ी"], "base": "गिरना", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "going", "part": 2, "verb": "खाना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं खा रहा हूँ, वह खा रही है.", "rows": [
+				{"english": "I eat", "foreign": "मैं खाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "खाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "मैं खा रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "खाना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She eats", "foreign": "वह खाती है", "mark": [{"text": "है", "role": "helper word"}], "base": "खाना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is eating", "foreign": "वह खा रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "खाना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 3, "verb": "पीना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं पी रहा हूँ, वह पी रही है.", "rows": [
+				{"english": "I drink", "foreign": "मैं पीता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पीना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am drinking", "foreign": "मैं पी रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "पीना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She drinks", "foreign": "वह पीती है", "mark": [{"text": "है", "role": "helper word"}], "base": "पीना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is drinking", "foreign": "वह पी रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "पीना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 4, "verb": "आना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं आ रहा हूँ, वह आ रही है.", "rows": [
+				{"english": "I come", "foreign": "मैं आता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "आना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am coming", "foreign": "मैं आ रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "आना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She comes", "foreign": "वह आती है", "mark": [{"text": "है", "role": "helper word"}], "base": "आना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is coming", "foreign": "वह आ रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "आना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 5, "verb": "देखना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं देख रहा हूँ, वह देख रही है.", "rows": [
+				{"english": "I watch", "foreign": "मैं देखता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "देखना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am watching", "foreign": "मैं देख रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "देखना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She watches", "foreign": "वह देखती है", "mark": [{"text": "है", "role": "helper word"}], "base": "देखना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is watching", "foreign": "वह देख रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "देखना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 6, "verb": "सुनना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं सुन रहा हूँ, वह सुन रही है.", "rows": [
+				{"english": "I listen", "foreign": "मैं सुनता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सुनना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am listening", "foreign": "मैं सुन रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "सुनना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She listens", "foreign": "वह सुनती है", "mark": [{"text": "है", "role": "helper word"}], "base": "सुनना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is listening", "foreign": "वह सुन रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "सुनना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 7, "verb": "बोलना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं बोल रहा हूँ, वह बोल रही है.", "rows": [
+				{"english": "I speak", "foreign": "मैं बोलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बोलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am speaking", "foreign": "मैं बोल रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "बोलना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She speaks", "foreign": "वह बोलती है", "mark": [{"text": "है", "role": "helper word"}], "base": "बोलना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is speaking", "foreign": "वह बोल रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "बोलना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 8, "verb": "लिखना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं लिख रहा हूँ, वह लिख रही है.", "rows": [
+				{"english": "I write", "foreign": "मैं लिखता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "लिखना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am writing", "foreign": "मैं लिख रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "लिखना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She writes", "foreign": "वह लिखती है", "mark": [{"text": "है", "role": "helper word"}], "base": "लिखना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is writing", "foreign": "वह लिख रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "लिखना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 9, "verb": "चलना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं चल रहा हूँ, वह चल रही है.", "rows": [
+				{"english": "I walk", "foreign": "मैं चलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "चलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am walking", "foreign": "मैं चल रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "चलना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She walks", "foreign": "वह चलती है", "mark": [{"text": "है", "role": "helper word"}], "base": "चलना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is walking", "foreign": "वह चल रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "चलना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 10, "verb": "दौड़ना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं दौड़ रहा हूँ, वह दौड़ रही है.", "rows": [
+				{"english": "I run", "foreign": "मैं दौड़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "दौड़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am running", "foreign": "मैं दौड़ रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "दौड़ना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She runs", "foreign": "वह दौड़ती है", "mark": [{"text": "है", "role": "helper word"}], "base": "दौड़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is running", "foreign": "वह दौड़ रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "दौड़ना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 11, "verb": "खरीदना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं खरीद रहा हूँ, वह खरीद रही है.", "rows": [
+				{"english": "I buy", "foreign": "मैं खरीदता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "खरीदना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am buying", "foreign": "मैं खरीद रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "खरीदना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She buys", "foreign": "वह खरीदती है", "mark": [{"text": "है", "role": "helper word"}], "base": "खरीदना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is buying", "foreign": "वह खरीद रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "खरीदना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 12, "verb": "बेचना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं बेच रहा हूँ, वह बेच रही है.", "rows": [
+				{"english": "I sell", "foreign": "मैं बेचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बेचना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am selling", "foreign": "मैं बेच रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "बेचना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sells", "foreign": "वह बेचती है", "mark": [{"text": "है", "role": "helper word"}], "base": "बेचना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is selling", "foreign": "वह बेच रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "बेचना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 13, "verb": "ढूँढना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं ढूँढ रहा हूँ, वह ढूँढ रही है.", "rows": [
+				{"english": "I look for", "foreign": "मैं ढूँढता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "ढूँढना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am looking for", "foreign": "मैं ढूँढ रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "ढूँढना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She looks for", "foreign": "वह ढूँढती है", "mark": [{"text": "है", "role": "helper word"}], "base": "ढूँढना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is looking for", "foreign": "वह ढूँढ रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "ढूँढना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 14, "verb": "सोचना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं सोच रहा हूँ, वह सोच रही है.", "rows": [
+				{"english": "I think", "foreign": "मैं सोचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सोचना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am thinking", "foreign": "मैं सोच रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "सोचना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She thinks", "foreign": "वह सोचती है", "mark": [{"text": "है", "role": "helper word"}], "base": "सोचना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is thinking", "foreign": "वह सोच रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "सोचना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 15, "verb": "हँसना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं हँस रहा हूँ, वह हँस रही है.", "rows": [
+				{"english": "I laugh", "foreign": "मैं हँसता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "हँसना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am laughing", "foreign": "मैं हँस रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "हँसना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She laughs", "foreign": "वह हँसती है", "mark": [{"text": "है", "role": "helper word"}], "base": "हँसना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is laughing", "foreign": "वह हँस रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "हँसना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 16, "verb": "रोना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं रो रहा हूँ, वह रो रही है.", "rows": [
+				{"english": "I cry", "foreign": "मैं रोता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "रोना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am crying", "foreign": "मैं रो रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "रोना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cries", "foreign": "वह रोती है", "mark": [{"text": "है", "role": "helper word"}], "base": "रोना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is crying", "foreign": "वह रो रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "रोना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 17, "verb": "खेलना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं खेल रहा हूँ, वह खेल रही है.", "rows": [
+				{"english": "I play", "foreign": "मैं खेलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "खेलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am playing", "foreign": "मैं खेल रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "खेलना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She plays", "foreign": "वह खेलती है", "mark": [{"text": "है", "role": "helper word"}], "base": "खेलना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is playing", "foreign": "वह खेल रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "खेलना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 18, "verb": "गाना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं गा रहा हूँ, वह गा रही है.", "rows": [
+				{"english": "I sing", "foreign": "मैं गाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "गाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am singing", "foreign": "मैं गा रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "गाना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sings", "foreign": "वह गाती है", "mark": [{"text": "है", "role": "helper word"}], "base": "गाना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is singing", "foreign": "वह गा रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "गाना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 19, "verb": "नाचना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं नाच रहा हूँ, वह नाच रही है.", "rows": [
+				{"english": "I dance", "foreign": "मैं नाचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "नाचना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am dancing", "foreign": "मैं नाच रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "नाचना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She dances", "foreign": "वह नाचती है", "mark": [{"text": "है", "role": "helper word"}], "base": "नाचना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is dancing", "foreign": "वह नाच रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "नाचना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 20, "verb": "तैरना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं तैर रहा हूँ, वह तैर रही है.", "rows": [
+				{"english": "I swim", "foreign": "मैं तैरता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "तैरना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am swimming", "foreign": "मैं तैर रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "तैरना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She swims", "foreign": "वह तैरती है", "mark": [{"text": "है", "role": "helper word"}], "base": "तैरना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is swimming", "foreign": "वह तैर रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "तैरना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 21, "verb": "पढ़ना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं पढ़ रहा हूँ, वह पढ़ रही है.", "rows": [
+				{"english": "I study", "foreign": "मैं पढ़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पढ़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am studying", "foreign": "मैं पढ़ रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "पढ़ना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She studies", "foreign": "वह पढ़ती है", "mark": [{"text": "है", "role": "helper word"}], "base": "पढ़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is studying", "foreign": "वह पढ़ रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "पढ़ना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 22, "verb": "सीखना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं सीख रहा हूँ, वह सीख रही है.", "rows": [
+				{"english": "I learn", "foreign": "मैं सीखता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सीखना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am learning", "foreign": "मैं सीख रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "सीखना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She learns", "foreign": "वह सीखती है", "mark": [{"text": "है", "role": "helper word"}], "base": "सीखना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is learning", "foreign": "वह सीख रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "सीखना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 23, "verb": "सिखाना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं सिखा रहा हूँ, वह सिखा रही है.", "rows": [
+				{"english": "I teach", "foreign": "मैं सिखाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सिखाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am teaching", "foreign": "मैं सिखा रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "सिखाना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She teaches", "foreign": "वह सिखाती है", "mark": [{"text": "है", "role": "helper word"}], "base": "सिखाना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is teaching", "foreign": "वह सिखा रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "सिखाना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 24, "verb": "सोना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं सो रहा हूँ, वह सो रही है.", "rows": [
+				{"english": "I sleep", "foreign": "मैं सोता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "सोना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am sleeping", "foreign": "मैं सो रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "सोना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sleeps", "foreign": "वह सोती है", "mark": [{"text": "है", "role": "helper word"}], "base": "सोना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is sleeping", "foreign": "वह सो रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "सोना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 27, "verb": "उड़ना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं उड़ रहा हूँ, वह उड़ रही है.", "rows": [
+				{"english": "I fly", "foreign": "मैं उड़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "उड़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am flying", "foreign": "मैं उड़ रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "उड़ना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She flies", "foreign": "वह उड़ती है", "mark": [{"text": "है", "role": "helper word"}], "base": "उड़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is flying", "foreign": "वह उड़ रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "उड़ना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 29, "verb": "पूछना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं पूछ रहा हूँ, वह पूछ रही है.", "rows": [
+				{"english": "I ask", "foreign": "मैं पूछता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पूछना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am asking", "foreign": "मैं पूछ रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "पूछना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She asks", "foreign": "वह पूछती है", "mark": [{"text": "है", "role": "helper word"}], "base": "पूछना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is asking", "foreign": "वह पूछ रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "पूछना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 30, "verb": "बताना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं बता रहा हूँ, वह बता रही है.", "rows": [
+				{"english": "I tell", "foreign": "मैं बताता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बताना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am telling", "foreign": "मैं बता रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "बताना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She tells", "foreign": "वह बताती है", "mark": [{"text": "है", "role": "helper word"}], "base": "बताना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is telling", "foreign": "वह बता रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "बताना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 31, "verb": "मिलना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं मिल रहा हूँ, वह मिल रही है.", "rows": [
+				{"english": "I meet", "foreign": "मैं मिलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "मिलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am meeting", "foreign": "मैं मिल रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "मिलना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She meets", "foreign": "वह मिलती है", "mark": [{"text": "है", "role": "helper word"}], "base": "मिलना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is meeting", "foreign": "वह मिल रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "मिलना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 32, "verb": "भेजना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं भेज रहा हूँ, वह भेज रही है.", "rows": [
+				{"english": "I send", "foreign": "मैं भेजता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "भेजना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am sending", "foreign": "मैं भेज रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "भेजना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sends", "foreign": "वह भेजती है", "mark": [{"text": "है", "role": "helper word"}], "base": "भेजना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is sending", "foreign": "वह भेज रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "भेजना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 33, "verb": "बुलाना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं बुला रहा हूँ, वह बुला रही है.", "rows": [
+				{"english": "I call", "foreign": "मैं बुलाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बुलाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am calling", "foreign": "मैं बुला रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "बुलाना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She calls", "foreign": "वह बुलाती है", "mark": [{"text": "है", "role": "helper word"}], "base": "बुलाना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is calling", "foreign": "वह बुला रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "बुलाना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 34, "verb": "बनाना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं बना रहा हूँ, वह बना रही है.", "rows": [
+				{"english": "I make", "foreign": "मैं बनाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "बनाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am making", "foreign": "मैं बना रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "बनाना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She makes", "foreign": "वह बनाती है", "mark": [{"text": "है", "role": "helper word"}], "base": "बनाना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is making", "foreign": "वह बना रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "बनाना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 35, "verb": "पकाना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं पका रहा हूँ, वह पका रही है.", "rows": [
+				{"english": "I cook", "foreign": "मैं पकाता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पकाना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am cooking", "foreign": "मैं पका रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "पकाना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cooks", "foreign": "वह पकाती है", "mark": [{"text": "है", "role": "helper word"}], "base": "पकाना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is cooking", "foreign": "वह पका रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "पकाना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 36, "verb": "धोना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं धो रहा हूँ, वह धो रही है.", "rows": [
+				{"english": "I wash", "foreign": "मैं धोता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "धोना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am washing", "foreign": "मैं धो रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "धोना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She washes", "foreign": "वह धोती है", "mark": [{"text": "है", "role": "helper word"}], "base": "धोना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is washing", "foreign": "वह धो रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "धोना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 37, "verb": "खोलना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं खोल रहा हूँ, वह खोल रही है.", "rows": [
+				{"english": "I open", "foreign": "मैं खोलता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "खोलना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am opening", "foreign": "मैं खोल रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "खोलना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She opens", "foreign": "वह खोलती है", "mark": [{"text": "है", "role": "helper word"}], "base": "खोलना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is opening", "foreign": "वह खोल रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "खोलना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 38, "verb": "जीतना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं जीत रहा हूँ, वह जीत रही है.", "rows": [
+				{"english": "I win", "foreign": "मैं जीतता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "जीतना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am winning", "foreign": "मैं जीत रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "जीतना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She wins", "foreign": "वह जीतती है", "mark": [{"text": "है", "role": "helper word"}], "base": "जीतना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is winning", "foreign": "वह जीत रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "जीतना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 39, "verb": "हारना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं हार रहा हूँ, वह हार रही है.", "rows": [
+				{"english": "I lose", "foreign": "मैं हारता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "हारना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am losing", "foreign": "मैं हार रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "हारना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She loses", "foreign": "वह हारती है", "mark": [{"text": "है", "role": "helper word"}], "base": "हारना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is losing", "foreign": "वह हार रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "हारना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 40, "verb": "देना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं दे रहा हूँ, वह दे रही है.", "rows": [
+				{"english": "I give", "foreign": "मैं देता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "देना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am giving", "foreign": "मैं दे रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "देना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She gives", "foreign": "वह देती है", "mark": [{"text": "है", "role": "helper word"}], "base": "देना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is giving", "foreign": "वह दे रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "देना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 41, "verb": "लेना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं ले रहा हूँ, वह ले रही है.", "rows": [
+				{"english": "I take", "foreign": "मैं लेता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "लेना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am taking", "foreign": "मैं ले रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "लेना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She takes", "foreign": "वह लेती है", "mark": [{"text": "है", "role": "helper word"}], "base": "लेना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is taking", "foreign": "वह ले रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "लेना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 42, "verb": "समझना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं समझ रहा हूँ, वह समझ रही है.", "rows": [
+				{"english": "I understand", "foreign": "मैं समझता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "समझना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am understanding", "foreign": "मैं समझ रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "समझना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She understands", "foreign": "वह समझती है", "mark": [{"text": "है", "role": "helper word"}], "base": "समझना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is understanding", "foreign": "वह समझ रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "समझना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 43, "verb": "रहना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं रह रहा हूँ, वह रह रही है.", "rows": [
+				{"english": "I live", "foreign": "मैं रहता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "रहना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am living", "foreign": "मैं रह रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "रहना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She lives", "foreign": "वह रहती है", "mark": [{"text": "है", "role": "helper word"}], "base": "रहना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is living", "foreign": "वह रह रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "रहना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 44, "verb": "छोड़ना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं छोड़ रहा हूँ, वह छोड़ रही है.", "rows": [
+				{"english": "I leave", "foreign": "मैं छोड़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "छोड़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am leaving", "foreign": "मैं छोड़ रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "छोड़ना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She leaves", "foreign": "वह छोड़ती है", "mark": [{"text": "है", "role": "helper word"}], "base": "छोड़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is leaving", "foreign": "वह छोड़ रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "छोड़ना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 45, "verb": "लौटना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं लौट रहा हूँ, वह लौट रही है.", "rows": [
+				{"english": "I come back", "foreign": "मैं लौटता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "लौटना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am coming back", "foreign": "मैं लौट रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "लौटना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She comes back", "foreign": "वह लौटती है", "mark": [{"text": "है", "role": "helper word"}], "base": "लौटना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is coming back", "foreign": "वह लौट रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "लौटना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 46, "verb": "पहुँचना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं पहुँच रहा हूँ, वह पहुँच रही है.", "rows": [
+				{"english": "I arrive", "foreign": "मैं पहुँचता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "पहुँचना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am arriving", "foreign": "मैं पहुँच रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "पहुँचना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She arrives", "foreign": "वह पहुँचती है", "mark": [{"text": "है", "role": "helper word"}], "base": "पहुँचना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is arriving", "foreign": "वह पहुँच रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "पहुँचना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 47, "verb": "चढ़ना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं चढ़ रहा हूँ, वह चढ़ रही है.", "rows": [
+				{"english": "I climb", "foreign": "मैं चढ़ता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "चढ़ना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am climbing", "foreign": "मैं चढ़ रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "चढ़ना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She climbs", "foreign": "वह चढ़ती है", "mark": [{"text": "है", "role": "helper word"}], "base": "चढ़ना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is climbing", "foreign": "वह चढ़ रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "चढ़ना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 48, "verb": "ठहरना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं ठहर रहा हूँ, वह ठहर रही है.", "rows": [
+				{"english": "I stay", "foreign": "मैं ठहरता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "ठहरना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am staying", "foreign": "मैं ठहर रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "ठहरना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She stays", "foreign": "वह ठहरती है", "mark": [{"text": "है", "role": "helper word"}], "base": "ठहरना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is staying", "foreign": "वह ठहर रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "ठहरना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 49, "verb": "गिरना", "strategy": ["helper word"], "description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: मैं गिर रहा हूँ, वह गिर रही है.", "rows": [
+				{"english": "I fall", "foreign": "मैं गिरता हूँ", "mark": [{"text": "हूँ", "role": "helper word"}], "base": "गिरना", "features": {"who": "i", "when": "now"}},
+				{"english": "I am falling", "foreign": "मैं गिर रहा हूँ", "mark": [{"text": "रहा", "role": "helper word"}], "from": 1, "base": "गिरना", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She falls", "foreign": "वह गिरती है", "mark": [{"text": "है", "role": "helper word"}], "base": "गिरना", "features": {"who": "she", "when": "now"}},
+				{"english": "She is falling", "foreign": "वह गिर रही है", "mark": [{"text": "रही", "role": "helper word"}], "from": 3, "base": "गिरना", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "command", "part": 2, "verb": "खाना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: खाओ! To someone you call आप, in iye: खाइए! Telling them not to puts मत in front: मत खाओ! मत खाइए!", "rows": [
+				{"english": "Eat!", "foreign": "खाओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "खाना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Eat! said politely", "foreign": "खाइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "खाना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not eat!", "foreign": "मत खाओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "खाना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not eat! said politely", "foreign": "मत खाइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "खाना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 3, "verb": "पीना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: पियो! To someone you call आप, in iye: पीजिए! Telling them not to puts मत in front: मत पियो! मत पीजिए!", "rows": [
+				{"english": "Drink!", "foreign": "पियो!", "mark": [{"text": "ो", "role": "ending"}], "base": "पीना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Drink! said politely", "foreign": "पीजिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "पीना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not drink!", "foreign": "मत पियो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "पीना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not drink! said politely", "foreign": "मत पीजिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "पीना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 4, "verb": "आना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: आओ! To someone you call आप, in iye: आइए! Telling them not to puts मत in front: मत आओ! मत आइए!", "rows": [
+				{"english": "Come!", "foreign": "आओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "आना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Come! said politely", "foreign": "आइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "आना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come!", "foreign": "मत आओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "आना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not come! said politely", "foreign": "मत आइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "आना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 5, "verb": "देखना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: देखो! To someone you call आप, in iye: देखिए! Telling them not to puts मत in front: मत देखो! मत देखिए!", "rows": [
+				{"english": "Watch!", "foreign": "देखो!", "mark": [{"text": "ो", "role": "ending"}], "base": "देखना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Watch! said politely", "foreign": "देखिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "देखना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not watch!", "foreign": "मत देखो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "देखना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not watch! said politely", "foreign": "मत देखिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "देखना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 6, "verb": "सुनना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: सुनो! To someone you call आप, in iye: सुनिए! Telling them not to puts मत in front: मत सुनो! मत सुनिए!", "rows": [
+				{"english": "Listen!", "foreign": "सुनो!", "mark": [{"text": "ो", "role": "ending"}], "base": "सुनना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Listen! said politely", "foreign": "सुनिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "सुनना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not listen!", "foreign": "मत सुनो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "सुनना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not listen! said politely", "foreign": "मत सुनिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "सुनना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 7, "verb": "बोलना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: बोलो! To someone you call आप, in iye: बोलिए! Telling them not to puts मत in front: मत बोलो! मत बोलिए!", "rows": [
+				{"english": "Speak!", "foreign": "बोलो!", "mark": [{"text": "ो", "role": "ending"}], "base": "बोलना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Speak! said politely", "foreign": "बोलिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "बोलना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not speak!", "foreign": "मत बोलो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "बोलना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not speak! said politely", "foreign": "मत बोलिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "बोलना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 8, "verb": "लिखना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: लिखो! To someone you call आप, in iye: लिखिए! Telling them not to puts मत in front: मत लिखो! मत लिखिए!", "rows": [
+				{"english": "Write!", "foreign": "लिखो!", "mark": [{"text": "ो", "role": "ending"}], "base": "लिखना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Write! said politely", "foreign": "लिखिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "लिखना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not write!", "foreign": "मत लिखो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "लिखना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not write! said politely", "foreign": "मत लिखिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "लिखना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 9, "verb": "चलना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: चलो! To someone you call आप, in iye: चलिए! Telling them not to puts मत in front: मत चलो! मत चलिए!", "rows": [
+				{"english": "Walk!", "foreign": "चलो!", "mark": [{"text": "ो", "role": "ending"}], "base": "चलना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Walk! said politely", "foreign": "चलिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "चलना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not walk!", "foreign": "मत चलो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "चलना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not walk! said politely", "foreign": "मत चलिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "चलना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 10, "verb": "दौड़ना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: दौड़ो! To someone you call आप, in iye: दौड़िए! Telling them not to puts मत in front: मत दौड़ो! मत दौड़िए!", "rows": [
+				{"english": "Run!", "foreign": "दौड़ो!", "mark": [{"text": "ो", "role": "ending"}], "base": "दौड़ना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Run! said politely", "foreign": "दौड़िए!", "mark": [{"text": "िए", "role": "ending"}], "base": "दौड़ना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not run!", "foreign": "मत दौड़ो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "दौड़ना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not run! said politely", "foreign": "मत दौड़िए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "दौड़ना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 11, "verb": "खरीदना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: खरीदो! To someone you call आप, in iye: खरीदिए! Telling them not to puts मत in front: मत खरीदो! मत खरीदिए!", "rows": [
+				{"english": "Buy!", "foreign": "खरीदो!", "mark": [{"text": "ो", "role": "ending"}], "base": "खरीदना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Buy! said politely", "foreign": "खरीदिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "खरीदना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not buy!", "foreign": "मत खरीदो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "खरीदना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not buy! said politely", "foreign": "मत खरीदिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "खरीदना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 12, "verb": "बेचना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: बेचो! To someone you call आप, in iye: बेचिए! Telling them not to puts मत in front: मत बेचो! मत बेचिए!", "rows": [
+				{"english": "Sell!", "foreign": "बेचो!", "mark": [{"text": "ो", "role": "ending"}], "base": "बेचना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sell! said politely", "foreign": "बेचिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "बेचना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sell!", "foreign": "मत बेचो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "बेचना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not sell! said politely", "foreign": "मत बेचिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "बेचना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 13, "verb": "ढूँढना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: ढूँढो! To someone you call आप, in iye: ढूँढिए! Telling them not to puts मत in front: मत ढूँढो! मत ढूँढिए!", "rows": [
+				{"english": "Look for!", "foreign": "ढूँढो!", "mark": [{"text": "ो", "role": "ending"}], "base": "ढूँढना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Look for! said politely", "foreign": "ढूँढिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "ढूँढना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not look for!", "foreign": "मत ढूँढो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "ढूँढना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not look for! said politely", "foreign": "मत ढूँढिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "ढूँढना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 14, "verb": "सोचना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: सोचो! To someone you call आप, in iye: सोचिए! Telling them not to puts मत in front: मत सोचो! मत सोचिए!", "rows": [
+				{"english": "Think!", "foreign": "सोचो!", "mark": [{"text": "ो", "role": "ending"}], "base": "सोचना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Think! said politely", "foreign": "सोचिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "सोचना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not think!", "foreign": "मत सोचो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "सोचना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not think! said politely", "foreign": "मत सोचिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "सोचना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 15, "verb": "हँसना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: हँसो! To someone you call आप, in iye: हँसिए! Telling them not to puts मत in front: मत हँसो! मत हँसिए!", "rows": [
+				{"english": "Laugh!", "foreign": "हँसो!", "mark": [{"text": "ो", "role": "ending"}], "base": "हँसना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Laugh! said politely", "foreign": "हँसिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "हँसना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not laugh!", "foreign": "मत हँसो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "हँसना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not laugh! said politely", "foreign": "मत हँसिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "हँसना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 17, "verb": "खेलना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: खेलो! To someone you call आप, in iye: खेलिए! Telling them not to puts मत in front: मत खेलो! मत खेलिए!", "rows": [
+				{"english": "Play!", "foreign": "खेलो!", "mark": [{"text": "ो", "role": "ending"}], "base": "खेलना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Play! said politely", "foreign": "खेलिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "खेलना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not play!", "foreign": "मत खेलो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "खेलना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not play! said politely", "foreign": "मत खेलिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "खेलना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 18, "verb": "गाना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: गाओ! To someone you call आप, in iye: गाइए! Telling them not to puts मत in front: मत गाओ! मत गाइए!", "rows": [
+				{"english": "Sing!", "foreign": "गाओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "गाना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sing! said politely", "foreign": "गाइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "गाना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sing!", "foreign": "मत गाओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "गाना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not sing! said politely", "foreign": "मत गाइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "गाना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 19, "verb": "नाचना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: नाचो! To someone you call आप, in iye: नाचिए! Telling them not to puts मत in front: मत नाचो! मत नाचिए!", "rows": [
+				{"english": "Dance!", "foreign": "नाचो!", "mark": [{"text": "ो", "role": "ending"}], "base": "नाचना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Dance! said politely", "foreign": "नाचिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "नाचना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not dance!", "foreign": "मत नाचो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "नाचना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not dance! said politely", "foreign": "मत नाचिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "नाचना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 20, "verb": "तैरना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: तैरो! To someone you call आप, in iye: तैरिए! Telling them not to puts मत in front: मत तैरो! मत तैरिए!", "rows": [
+				{"english": "Swim!", "foreign": "तैरो!", "mark": [{"text": "ो", "role": "ending"}], "base": "तैरना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Swim! said politely", "foreign": "तैरिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "तैरना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not swim!", "foreign": "मत तैरो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "तैरना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not swim! said politely", "foreign": "मत तैरिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "तैरना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 21, "verb": "पढ़ना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: पढ़ो! To someone you call आप, in iye: पढ़िए! Telling them not to puts मत in front: मत पढ़ो! मत पढ़िए!", "rows": [
+				{"english": "Study!", "foreign": "पढ़ो!", "mark": [{"text": "ो", "role": "ending"}], "base": "पढ़ना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Study! said politely", "foreign": "पढ़िए!", "mark": [{"text": "िए", "role": "ending"}], "base": "पढ़ना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not study!", "foreign": "मत पढ़ो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "पढ़ना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not study! said politely", "foreign": "मत पढ़िए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "पढ़ना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 22, "verb": "सीखना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: सीखो! To someone you call आप, in iye: सीखिए! Telling them not to puts मत in front: मत सीखो! मत सीखिए!", "rows": [
+				{"english": "Learn!", "foreign": "सीखो!", "mark": [{"text": "ो", "role": "ending"}], "base": "सीखना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Learn! said politely", "foreign": "सीखिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "सीखना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not learn!", "foreign": "मत सीखो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "सीखना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not learn! said politely", "foreign": "मत सीखिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "सीखना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 23, "verb": "सिखाना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: सिखाओ! To someone you call आप, in iye: सिखाइए! Telling them not to puts मत in front: मत सिखाओ! मत सिखाइए!", "rows": [
+				{"english": "Teach!", "foreign": "सिखाओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "सिखाना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Teach! said politely", "foreign": "सिखाइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "सिखाना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not teach!", "foreign": "मत सिखाओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "सिखाना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not teach! said politely", "foreign": "मत सिखाइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "सिखाना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 24, "verb": "सोना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: सोओ! To someone you call आप, in iye: सोइए! Telling them not to puts मत in front: मत सोओ! मत सोइए!", "rows": [
+				{"english": "Sleep!", "foreign": "सोओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "सोना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sleep! said politely", "foreign": "सोइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "सोना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sleep!", "foreign": "मत सोओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "सोना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not sleep! said politely", "foreign": "मत सोइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "सोना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 25, "verb": "उठना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: उठो! To someone you call आप, in iye: उठिए! Telling them not to puts मत in front: मत उठो! मत उठिए!", "rows": [
+				{"english": "Get up!", "foreign": "उठो!", "mark": [{"text": "ो", "role": "ending"}], "base": "उठना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Get up! said politely", "foreign": "उठिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "उठना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not get up!", "foreign": "मत उठो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "उठना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not get up! said politely", "foreign": "मत उठिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "उठना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 26, "verb": "बैठना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: बैठो! To someone you call आप, in iye: बैठिए! Telling them not to puts मत in front: मत बैठो! मत बैठिए!", "rows": [
+				{"english": "Sit down!", "foreign": "बैठो!", "mark": [{"text": "ो", "role": "ending"}], "base": "बैठना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Sit down! said politely", "foreign": "बैठिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "बैठना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sit down!", "foreign": "मत बैठो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "बैठना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not sit down! said politely", "foreign": "मत बैठिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "बैठना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 28, "verb": "भूलना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: भूलो! To someone you call आप, in iye: भूलिए! Telling them not to puts मत in front: मत भूलो! मत भूलिए!", "rows": [
+				{"english": "Forget!", "foreign": "भूलो!", "mark": [{"text": "ो", "role": "ending"}], "base": "भूलना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Forget! said politely", "foreign": "भूलिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "भूलना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not forget!", "foreign": "मत भूलो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "भूलना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not forget! said politely", "foreign": "मत भूलिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "भूलना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 29, "verb": "पूछना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: पूछो! To someone you call आप, in iye: पूछिए! Telling them not to puts मत in front: मत पूछो! मत पूछिए!", "rows": [
+				{"english": "Ask!", "foreign": "पूछो!", "mark": [{"text": "ो", "role": "ending"}], "base": "पूछना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Ask! said politely", "foreign": "पूछिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "पूछना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not ask!", "foreign": "मत पूछो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "पूछना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not ask! said politely", "foreign": "मत पूछिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "पूछना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 30, "verb": "बताना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: बताओ! To someone you call आप, in iye: बताइए! Telling them not to puts मत in front: मत बताओ! मत बताइए!", "rows": [
+				{"english": "Tell!", "foreign": "बताओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "बताना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Tell! said politely", "foreign": "बताइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "बताना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not tell!", "foreign": "मत बताओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "बताना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not tell! said politely", "foreign": "मत बताइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "बताना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 31, "verb": "मिलना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: मिलो! To someone you call आप, in iye: मिलिए! Telling them not to puts मत in front: मत मिलो! मत मिलिए!", "rows": [
+				{"english": "Meet!", "foreign": "मिलो!", "mark": [{"text": "ो", "role": "ending"}], "base": "मिलना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Meet! said politely", "foreign": "मिलिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "मिलना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not meet!", "foreign": "मत मिलो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "मिलना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not meet! said politely", "foreign": "मत मिलिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "मिलना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 32, "verb": "भेजना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: भेजो! To someone you call आप, in iye: भेजिए! Telling them not to puts मत in front: मत भेजो! मत भेजिए!", "rows": [
+				{"english": "Send!", "foreign": "भेजो!", "mark": [{"text": "ो", "role": "ending"}], "base": "भेजना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Send! said politely", "foreign": "भेजिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "भेजना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not send!", "foreign": "मत भेजो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "भेजना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not send! said politely", "foreign": "मत भेजिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "भेजना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 33, "verb": "बुलाना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: बुलाओ! To someone you call आप, in iye: बुलाइए! Telling them not to puts मत in front: मत बुलाओ! मत बुलाइए!", "rows": [
+				{"english": "Call!", "foreign": "बुलाओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "बुलाना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Call! said politely", "foreign": "बुलाइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "बुलाना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not call!", "foreign": "मत बुलाओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "बुलाना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not call! said politely", "foreign": "मत बुलाइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "बुलाना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 34, "verb": "बनाना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: बनाओ! To someone you call आप, in iye: बनाइए! Telling them not to puts मत in front: मत बनाओ! मत बनाइए!", "rows": [
+				{"english": "Make!", "foreign": "बनाओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "बनाना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Make! said politely", "foreign": "बनाइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "बनाना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not make!", "foreign": "मत बनाओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "बनाना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not make! said politely", "foreign": "मत बनाइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "बनाना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 35, "verb": "पकाना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: पकाओ! To someone you call आप, in iye: पकाइए! Telling them not to puts मत in front: मत पकाओ! मत पकाइए!", "rows": [
+				{"english": "Cook!", "foreign": "पकाओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "पकाना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Cook! said politely", "foreign": "पकाइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "पकाना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not cook!", "foreign": "मत पकाओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "पकाना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not cook! said politely", "foreign": "मत पकाइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "पकाना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 36, "verb": "धोना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: धोओ! To someone you call आप, in iye: धोइए! Telling them not to puts मत in front: मत धोओ! मत धोइए!", "rows": [
+				{"english": "Wash!", "foreign": "धोओ!", "mark": [{"text": "ओ", "role": "ending"}], "base": "धोना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Wash! said politely", "foreign": "धोइए!", "mark": [{"text": "इए", "role": "ending"}], "base": "धोना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not wash!", "foreign": "मत धोओ!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "धोना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not wash! said politely", "foreign": "मत धोइए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "धोना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 37, "verb": "खोलना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: खोलो! To someone you call आप, in iye: खोलिए! Telling them not to puts मत in front: मत खोलो! मत खोलिए!", "rows": [
+				{"english": "Open!", "foreign": "खोलो!", "mark": [{"text": "ो", "role": "ending"}], "base": "खोलना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Open! said politely", "foreign": "खोलिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "खोलना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not open!", "foreign": "मत खोलो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "खोलना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not open! said politely", "foreign": "मत खोलिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "खोलना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 38, "verb": "जीतना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: जीतो! To someone you call आप, in iye: जीतिए! Telling them not to puts मत in front: मत जीतो! मत जीतिए!", "rows": [
+				{"english": "Win!", "foreign": "जीतो!", "mark": [{"text": "ो", "role": "ending"}], "base": "जीतना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Win! said politely", "foreign": "जीतिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "जीतना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not win!", "foreign": "मत जीतो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "जीतना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not win! said politely", "foreign": "मत जीतिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "जीतना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 40, "verb": "देना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: दो! To someone you call आप, in iye: दीजिए! Telling them not to puts मत in front: मत दो! मत दीजिए!", "rows": [
+				{"english": "Give!", "foreign": "दो!", "mark": [{"text": "ो", "role": "ending"}], "base": "देना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Give! said politely", "foreign": "दीजिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "देना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not give!", "foreign": "मत दो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "देना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not give! said politely", "foreign": "मत दीजिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "देना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 41, "verb": "लेना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: लो! To someone you call आप, in iye: लीजिए! Telling them not to puts मत in front: मत लो! मत लीजिए!", "rows": [
+				{"english": "Take!", "foreign": "लो!", "mark": [{"text": "ो", "role": "ending"}], "base": "लेना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Take! said politely", "foreign": "लीजिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "लेना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not take!", "foreign": "मत लो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "लेना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not take! said politely", "foreign": "मत लीजिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "लेना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 42, "verb": "समझना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: समझो! To someone you call आप, in iye: समझिए! Telling them not to puts मत in front: मत समझो! मत समझिए!", "rows": [
+				{"english": "Understand!", "foreign": "समझो!", "mark": [{"text": "ो", "role": "ending"}], "base": "समझना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Understand! said politely", "foreign": "समझिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "समझना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not understand!", "foreign": "मत समझो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "समझना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not understand! said politely", "foreign": "मत समझिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "समझना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 43, "verb": "रहना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: रहो! To someone you call आप, in iye: रहिए! Telling them not to puts मत in front: मत रहो! मत रहिए!", "rows": [
+				{"english": "Live!", "foreign": "रहो!", "mark": [{"text": "ो", "role": "ending"}], "base": "रहना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Live! said politely", "foreign": "रहिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "रहना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not live!", "foreign": "मत रहो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "रहना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not live! said politely", "foreign": "मत रहिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "रहना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 44, "verb": "छोड़ना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: छोड़ो! To someone you call आप, in iye: छोड़िए! Telling them not to puts मत in front: मत छोड़ो! मत छोड़िए!", "rows": [
+				{"english": "Leave!", "foreign": "छोड़ो!", "mark": [{"text": "ो", "role": "ending"}], "base": "छोड़ना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Leave! said politely", "foreign": "छोड़िए!", "mark": [{"text": "िए", "role": "ending"}], "base": "छोड़ना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not leave!", "foreign": "मत छोड़ो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "छोड़ना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not leave! said politely", "foreign": "मत छोड़िए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "छोड़ना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 45, "verb": "लौटना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: लौटो! To someone you call आप, in iye: लौटिए! Telling them not to puts मत in front: मत लौटो! मत लौटिए!", "rows": [
+				{"english": "Come back!", "foreign": "लौटो!", "mark": [{"text": "ो", "role": "ending"}], "base": "लौटना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Come back! said politely", "foreign": "लौटिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "लौटना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come back!", "foreign": "मत लौटो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "लौटना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not come back! said politely", "foreign": "मत लौटिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "लौटना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 46, "verb": "पहुँचना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: पहुँचो! To someone you call आप, in iye: पहुँचिए! Telling them not to puts मत in front: मत पहुँचो! मत पहुँचिए!", "rows": [
+				{"english": "Arrive!", "foreign": "पहुँचो!", "mark": [{"text": "ो", "role": "ending"}], "base": "पहुँचना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Arrive! said politely", "foreign": "पहुँचिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "पहुँचना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not arrive!", "foreign": "मत पहुँचो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "पहुँचना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not arrive! said politely", "foreign": "मत पहुँचिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "पहुँचना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 47, "verb": "चढ़ना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: चढ़ो! To someone you call आप, in iye: चढ़िए! Telling them not to puts मत in front: मत चढ़ो! मत चढ़िए!", "rows": [
+				{"english": "Climb!", "foreign": "चढ़ो!", "mark": [{"text": "ो", "role": "ending"}], "base": "चढ़ना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Climb! said politely", "foreign": "चढ़िए!", "mark": [{"text": "िए", "role": "ending"}], "base": "चढ़ना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not climb!", "foreign": "मत चढ़ो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "चढ़ना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not climb! said politely", "foreign": "मत चढ़िए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "चढ़ना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]},
+		{"job": "command", "part": 48, "verb": "ठहरना", "strategy": ["ending", "helper word"], "description": "To a friend, the verb ends in o: ठहरो! To someone you call आप, in iye: ठहरिए! Telling them not to puts मत in front: मत ठहरो! मत ठहरिए!", "rows": [
+				{"english": "Stay!", "foreign": "ठहरो!", "mark": [{"text": "ो", "role": "ending"}], "base": "ठहरना", "features": {"command": "yes", "who": "you"}},
+				{"english": "Stay! said politely", "foreign": "ठहरिए!", "mark": [{"text": "िए", "role": "ending"}], "base": "ठहरना", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not stay!", "foreign": "मत ठहरो!", "mark": [{"text": "मत", "role": "helper word"}], "from": 1, "base": "ठहरना", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not stay! said politely", "foreign": "मत ठहरिए!", "mark": [{"text": "मत", "role": "helper word"}], "from": 2, "base": "ठहरना", "features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]}
+	]
+}

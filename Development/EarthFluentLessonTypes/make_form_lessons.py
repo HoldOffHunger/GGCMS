@@ -41,6 +41,9 @@ def ending(recipes: dict, name: str, base: str, form: str) -> str | None:
 
 def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
     recipe = recipes["recipes"][job]
+    for variant in recipe.get("variants", []):  # Hindi's खाना says its past with ने: a verb with the form takes the variant's rows
+        if any(form["features"] == variant["if_form"] for form in forms[verb[0]]):
+            recipe = {**recipe, **{key: value for key, value in variant.items() if key != "if_form"}}
     base, plain, she, past, ing = verb[:5]
     english = {"base": plain, "Base": plain[0].upper() + plain[1:], "s": she, "past": past, "ing": ing}
     stem, rows, unmarked, moved, splits = base[:-recipes.get("class_letters", 2)], [], False, False, False

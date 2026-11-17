@@ -121,7 +121,8 @@ After any generator change, regenerate the languages already done and confirm th
 | Chinese | yes | yes | yes | `built`: forms are patterns around the verb (`了`, `在`, `会`), with pinyin from the dump. No who-by-when grid: the page lists the forms |
 | Japanese | yes | yes | yes | Polite forms; the polite past, negative and asking forms are `derive`d from the masu and て forms. Kana readings beside each form. Kanji verbs redirect to kana entries (`follow_redirects`, put back by `rekanji`); する verbs sit under their noun (`suru`) |
 | Korean | yes | yes | yes | Polite 요 forms; later, going on and the asking forms are `derive`d from forms the table gives, marked `internal` so they are not imported. Romanization beside each form (`reading_roman`, `reading_suffix`). The dictionary word is the entry's own (`dictionary_is_word`) |
-| Hindi, Indonesian | no | no | no | Their dumps have not been looked at. Chinese's `built` mode may suit Indonesian; Hindi changes its verbs for who and for whether a man or a woman |
+| Hindi | yes | yes | no | Rehearsed on Fumiko 16 Nov, not shipped. Six persons; now and going on are `derive`d from the stem (खाता हूँ, खा रहा हूँ, `second_word_helps`); the future is the one-word form (`single_word`); `respell` modernises the dump's खायी and दिये. The 117 verbs that take ने in the past (`ergative`, a hand list) get one past form, `when=before;ne=yes`, and their when lessons use the recipe's `variants` rows (मैंने खाया, उसने खाया). Compounds like बर्बाद करना take their light verb's forms (`light_verbs`, in make_forms_import) |
+| Indonesian | no | no | no | Its dump has not been looked at. Chinese's `built` mode may suit it |
 
 Everything above was shipped to prod on 16 November 2026 (by Opus, from Fable's batch): the wrong-course address fix,
 Russian and Polish, the corrected Spanish and French verbs' tables, the German and Dutch split-verb lessons, and the

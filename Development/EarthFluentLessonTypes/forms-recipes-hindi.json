@@ -1,0 +1,169 @@
+{
+	"about": "How Hindi verb forms are read out of the Wiktionary dump and turned into lessons. Written by Claude (Opus) with Ben on 16 November 2026. Hindi verbs change for who and for whether a man or a woman is the one, so a verb's page has a who-by-when grid again, with a man's forms except in the row for she, as Russian's and Polish's have. Most of its forms are two words, a changed verb and a helper (जाता हूँ, जा रहा है). The dump's tags do not tell the habitual from the perfect or the progressive (खाता हूँ, खाया हूँ and खा रहा हूँ carry the same tags), so only what is irregular and unambiguous is read from it: the stem, the past (गया, गई), the future (one word, where खाया हूँगा shares its tags), and the commands. The habitual and the going-on forms are regular, and are made from the stem (`derive`: जा and ता हूँ, जा and रहा हूँ); the first word carries the ending and the second is the helper the board lights. Each form's romanization goes beside it in the tables. The dump spells some endings the older way (खायी, दिये, खाइये); `respell` gives the modern standard spelling the grid's own lessons use (खाई, दिए, खाइए).",
+	"language": "hindi",
+	"translation_language": "hi",
+	"dump": "kaikki.org-dictionary-Hindi.jsonl",
+	"dictionary_form": {"form": "infinitive"},
+	"skip_tags": ["table-tags", "inflection-template", "class"],
+	"reading_roman": true,
+	"ergative": {"about": "The verbs that take ने on the one doing it in the past (मैंने खाया), written out by hand: the dump marks few verbs transitive, and लाना, ले जाना, बोलना, समझना, भूलना, जीतना and हारना are said without it (मैं लाया). Their past matches what was done, so it is one form rather than a column by who. A compound takes ने when its last verb does (बर्बाद करना, not रवाना होना).", "when": "before", "features": {"when": "before", "ne": "yes"}, "verbs": ["अंतर करना", "अभिनय करना", "आदर करना", "उठाना", "उबालना", "कमाना", "करना", "कहना", "काटना", "खरीदना", "खाना", "खिलाना", "खींचना", "खेलना", "खोजना", "खोलना", "ग़ौर करना", "गाना", "गिरफ़्तार करना", "घसीटना", "घुसाना", "चलाना", "चाहना", "चुराना", "छाँटना", "छापना", "छिपाना", "छोड़ देना", "छोड़ना", "जगाना", "जमा करना", "जलाना", "जानना", "जोड़ना", "डालना", "ढकना", "ढूँढना", "तैयार करना", "तौलना", "थोपना", "दबाना", "दिखाना", "देखना", "देना", "दोहराना", "धमकाना", "धरना", "धोना", "नक़ल करना", "निकालना", "निगलना", "नियुक्त करना", "निवेदन करना", "पकड़ना", "पकाना", "पढ़ना", "पढ़ाना", "परवाह करना", "पहचानना", "पहनाना", "पाना", "पीना", "पूछना", "पोंछना", "प्रकाशित करना", "प्रवेश करना", "प्राप्त करना", "फाड़ना", "फेंकना", "फैलाना", "बचाना", "बढ़ाना", "बताना", "बदलना", "बनाना", "बाँधना", "बांटना", "बिताना", "बुलाना", "बेचना", "भरना", "भरोसा करना", "भुगतना", "भेजना", "माँगना", "मानना", "मापना", "मार डालना", "मारना", "मोड़ना", "रंगना", "रक्षा करना", "रखना", "रगड़ना", "राज करना", "रोकना", "लिखना", "लेना", "विकसित करना", "सँभालना", "संभालना", "समझाना", "सराहना", "सहेजना", "साँस लेना", "सिखाना", "सीखना", "सुझाना", "सुधारना", "सुनना", "सूँघना", "सूचित करना", "सोचना", "स्थापित करना", "स्वीकार करना", "हटाना", "हिलाना"]},
+	"light_verbs": {"about": "A compound like बर्बाद करना or रवाना होना takes the light verb's forms with the first word in front (बर्बाद करता हूँ, बर्बाद मत करो). Not where the front begins with a postposition: के पास होना is 'to have' and is said मेरे पास है.", "verbs": ["करना", "होना"], "not_after": ["के", "की", "का", "में", "से", "पर", "को"]},
+	"all_tables": true,
+	"respell": [["येगा", "एगा", "yegā", "egā"], ["येगी", "एगी", "yegī", "egī"], ["येंगे", "एँगे", "yeṅge", "eṅge"], ["येंगी", "एँगी", "yeṅgī", "eṅgī"], ["यी(?=$| )", "ई", "yī(?=$| )", "ī"], ["यीं(?=$| )", "ईं", "yī̃(?=$| )", "ī̃"], ["ये(?=$| )", "ए", "ye(?=$| )", "e"], ["यें(?=$| )", "एँ", "yẽ(?=$| )", "ẽ"]],
+	"slots": [
+		{"features": {"form": "infinitive"}, "tags": ["infinitive"], "without": ["oblique", "feminine", "masculine"]},
+		{"features": {"form": "stem", "internal": "yes"}, "tags": ["stem"]},
+
+		{"features": {"who": "i", "when": "now"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", "ता हूँ"], "reading_suffix": ["", "tā hū̃"], "second_word_helps": true}},
+		{"features": {"who": "you", "when": "now"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", "ते हो"], "reading_suffix": ["", "te ho"], "second_word_helps": true}},
+		{"features": {"who": "she", "when": "now"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", "ती है"], "reading_suffix": ["", "tī hai"], "second_word_helps": true}},
+		{"features": {"who": "we", "when": "now"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", "ते हैं"], "reading_suffix": ["", "te haĩ"], "second_word_helps": true}},
+		{"features": {"who": "you-all", "when": "now"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", "ते हैं"], "reading_suffix": ["", "te haĩ"], "second_word_helps": true}},
+		{"features": {"who": "they", "when": "now"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", "ते हैं"], "reading_suffix": ["", "te haĩ"], "second_word_helps": true}},
+
+		{"features": {"who": "i", "when": "now", "going": "yes"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", " रहा हूँ"], "reading_suffix": ["", " rahā hū̃"], "second_word_helps": true}},
+		{"features": {"who": "you", "when": "now", "going": "yes"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", " रहे हो"], "reading_suffix": ["", " rahe ho"], "second_word_helps": true}},
+		{"features": {"who": "she", "when": "now", "going": "yes"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", " रही है"], "reading_suffix": ["", " rahī hai"], "second_word_helps": true}},
+		{"features": {"who": "we", "when": "now", "going": "yes"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", " रहे हैं"], "reading_suffix": ["", " rahe haĩ"], "second_word_helps": true}},
+		{"features": {"who": "you-all", "when": "now", "going": "yes"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", " रहे हैं"], "reading_suffix": ["", " rahe haĩ"], "second_word_helps": true}},
+		{"features": {"who": "they", "when": "now", "going": "yes"}, "derive": {"from": {"form": "stem", "internal": "yes"}, "suffix": ["", " रहे हैं"], "reading_suffix": ["", " rahe haĩ"], "second_word_helps": true}},
+
+		{"features": {"who": "i", "when": "before"}, "tags": ["direct", "masculine", "perfective", "singular"]},
+		{"features": {"who": "you", "when": "before"}, "tags": ["masculine", "perfective", "plural"], "without": ["oblique"]},
+		{"features": {"who": "she", "when": "before"}, "tags": ["feminine", "perfective", "singular"], "without": ["indicative"]},
+		{"features": {"who": "we", "when": "before"}, "tags": ["masculine", "perfective", "plural"], "without": ["oblique"]},
+		{"features": {"who": "you-all", "when": "before"}, "tags": ["masculine", "perfective", "plural"], "without": ["oblique"]},
+		{"features": {"who": "they", "when": "before"}, "tags": ["masculine", "perfective", "plural"], "without": ["oblique"]},
+
+		{"features": {"who": "i", "when": "later"}, "tags": ["first-person", "future", "indicative", "masculine", "singular"], "without": ["feminine"], "single_word": true},
+		{"features": {"who": "you", "when": "later"}, "tags": ["future", "indicative", "masculine", "plural", "second-person"], "without": ["feminine", "formal"], "single_word": true},
+		{"features": {"who": "she", "when": "later"}, "tags": ["feminine", "future", "indicative", "singular", "third-person"], "single_word": true},
+		{"features": {"who": "we", "when": "later"}, "tags": ["first-person", "future", "indicative", "masculine", "plural"], "without": ["feminine"], "single_word": true},
+		{"features": {"who": "you-all", "when": "later"}, "tags": ["first-person", "future", "indicative", "masculine", "plural"], "without": ["feminine"], "single_word": true},
+		{"features": {"who": "they", "when": "later"}, "tags": ["first-person", "future", "indicative", "masculine", "plural"], "without": ["feminine"], "single_word": true},
+
+		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "plural", "present", "second-person"], "without": ["formal", "future"]},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "tags": ["formal", "imperative", "plural", "present", "second-person"], "without": ["future"]},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "plural", "present", "second-person"], "without": ["formal", "future"], "shown": "मत {}"},
+		{"features": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}, "tags": ["formal", "imperative", "plural", "present", "second-person"], "without": ["future"], "shown": "मत {}"}
+	],
+
+	"endings": {
+		"about": "The regular endings, the same list for every verb, longest first where it matters. A form ending in a vowel letter after a vowel (जाऊँगा) and one ending in a vowel sign after a consonant (बोलूँगा) are both listed. On a two-word form the ending is looked for on the first word.",
+		"now": {"*": ["ता", "ते", "ती"]},
+		"before": {"*": ["या", "ा", "यी", "ई", "ी", "ये", "ए", "े"]},
+		"later": {"*": ["ऊँगा", "ूँगा", "ओगे", "ोगे", "येगी", "एगी", "ेगी", "येंगे", "एँगे", "ेंगे"]},
+		"command": {"*": ["ओ", "ो", "इये", "िये", "इए", "िए"]}
+	},
+
+	"recipes": {
+		"who": {
+			"strategy": ["ending", "helper word"],
+			"description": "The verb's ending changes with who is doing it, and with whether a man or a woman is the one, and a small word after it changes too: {1}, {2}, {3}, {4}.",
+			"own_way": " {Base} goes its own way here, so learn these four as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "endings": "now", "wrap": "मैं {}"},
+				{"english": "You {base}", "features": {"who": "you", "when": "now"}, "endings": "now", "wrap": "तुम {}"},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}, "endings": "now", "wrap": "वह {}"},
+				{"english": "We {base}", "features": {"who": "we", "when": "now"}, "endings": "now", "wrap": "हम {}"}
+			]
+		},
+		"when": {
+			"strategy": ["ending"],
+			"description": "For before, the verb changes on its own, and still says whether a man or a woman is the one: {2}, {4}. For later, it takes an ending of its own: {3}.",
+			"own_way": " {Base} goes its own way here, so learn these as they are.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "wrap": "मैं {}"},
+				{"english": "I {past}", "features": {"who": "i", "when": "before"}, "endings": "before", "wrap": "मैं {}", "from": 1},
+				{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "endings": "later", "wrap": "मैं {}", "from": 1},
+				{"english": "She {past}", "features": {"who": "she", "when": "before"}, "endings": "before", "wrap": "वह {}"}
+			],
+			"variants": [
+				{"if_form": {"when": "before", "ne": "yes"},
+				 "description": "For before, {Base} takes ने on the one doing it, and then matches what was done rather than who did it, so it is the same for her as for me: {2}, {4}. For later, it takes an ending of its own: {3}.",
+				 "rows": [
+					{"english": "I {base}", "features": {"who": "i", "when": "now"}, "wrap": "मैं {}"},
+					{"english": "I {past}", "features": {"when": "before", "ne": "yes"}, "endings": "before", "wrap": "मैंने {}", "words": [{"text": "ने", "role": "particle"}], "from": 1, "says": {"who": "i", "when": "before"}},
+					{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "endings": "later", "wrap": "मैं {}", "from": 1},
+					{"english": "She {past}", "features": {"when": "before", "ne": "yes"}, "endings": "before", "wrap": "उसने {}", "words": [{"text": "ने", "role": "particle"}], "says": {"who": "she", "when": "before"}}
+				 ]}
+			]
+		},
+		"going": {
+			"strategy": ["helper word"],
+			"skip": "stative",
+			"description": "For something going on right now, रहा goes after the verb's short form, and a woman says रही: {2}, {4}.",
+			"rows": [
+				{"english": "I {base}", "features": {"who": "i", "when": "now"}, "wrap": "मैं {}"},
+				{"english": "I am {ing}", "features": {"who": "i", "when": "now", "going": "yes"}, "wrap": "मैं {}", "from": 1},
+				{"english": "She {s}", "features": {"who": "she", "when": "now"}, "wrap": "वह {}"},
+				{"english": "She is {ing}", "features": {"who": "she", "when": "now", "going": "yes"}, "wrap": "वह {}", "from": 3}
+			]
+		},
+		"command": {
+			"strategy": ["ending", "helper word"],
+			"skip": "stative",
+			"description": "To a friend, the verb ends in o: {1} To someone you call आप, in iye: {2} Telling them not to puts मत in front: {3} {4}",
+			"rows": [
+				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "endings": "command", "wrap": "{}!"},
+				{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "endings": "command", "wrap": "{}!"},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you"}, "wrap": "मत {}!", "words": ["मत"], "from": 1, "says": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Do not {base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "wrap": "मत {}!", "words": ["मत"], "from": 2, "says": {"command": "yes", "who": "you", "not": "yes", "polite": "yes"}}
+			]
+		}
+	},
+
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. Every form is a man's except where she is the one. `no-going` marks the verbs whose रहा form is not 'in the middle of it'; `no-command` the commands that are right and that nobody says. Left out on purpose: जाना, which the grid's own lessons teach; होना, which needs a lesson of its own; सकना and चाहना, which are the want-can-must job; and the verbs made with करना (इंतज़ार करना), which wait for their own recipe.",
+		"list": [
+			["खाना", "eat", "eats", "ate", "eating"],
+			["पीना", "drink", "drinks", "drank", "drinking"],
+			["आना", "come", "comes", "came", "coming"],
+			["देखना", "watch", "watches", "watched", "watching"],
+			["सुनना", "listen", "listens", "listened", "listening"],
+			["बोलना", "speak", "speaks", "spoke", "speaking"],
+			["लिखना", "write", "writes", "wrote", "writing"],
+			["चलना", "walk", "walks", "walked", "walking"],
+			["दौड़ना", "run", "runs", "ran", "running"],
+			["खरीदना", "buy", "buys", "bought", "buying"],
+			["बेचना", "sell", "sells", "sold", "selling"],
+			["ढूँढना", "look for", "looks for", "looked for", "looking for"],
+			["सोचना", "think", "thinks", "thought", "thinking"],
+			["हँसना", "laugh", "laughs", "laughed", "laughing"],
+			["रोना", "cry", "cries", "cried", "crying", "no-command"],
+			["खेलना", "play", "plays", "played", "playing"],
+			["गाना", "sing", "sings", "sang", "singing"],
+			["नाचना", "dance", "dances", "danced", "dancing"],
+			["तैरना", "swim", "swims", "swam", "swimming"],
+			["पढ़ना", "study", "studies", "studied", "studying"],
+			["सीखना", "learn", "learns", "learned", "learning"],
+			["सिखाना", "teach", "teaches", "taught", "teaching"],
+			["सोना", "sleep", "sleeps", "slept", "sleeping"],
+			["उठना", "get up", "gets up", "got up", "getting up", "no-going"],
+			["बैठना", "sit down", "sits down", "sat down", "sitting down", "no-going"],
+			["उड़ना", "fly", "flies", "flew", "flying", "no-command"],
+			["भूलना", "forget", "forgets", "forgot", "forgetting", "no-going"],
+			["पूछना", "ask", "asks", "asked", "asking"],
+			["बताना", "tell", "tells", "told", "telling"],
+			["मिलना", "meet", "meets", "met", "meeting"],
+			["भेजना", "send", "sends", "sent", "sending"],
+			["बुलाना", "call", "calls", "called", "calling"],
+			["बनाना", "make", "makes", "made", "making"],
+			["पकाना", "cook", "cooks", "cooked", "cooking"],
+			["धोना", "wash", "washes", "washed", "washing"],
+			["खोलना", "open", "opens", "opened", "opening"],
+			["जीतना", "win", "wins", "won", "winning"],
+			["हारना", "lose", "loses", "lost", "losing", "no-command"],
+			["देना", "give", "gives", "gave", "giving"],
+			["लेना", "take", "takes", "took", "taking"],
+			["समझना", "understand", "understands", "understood", "understanding"],
+			["रहना", "live", "lives", "lived", "living"],
+			["छोड़ना", "leave", "leaves", "left", "leaving"],
+			["लौटना", "come back", "comes back", "came back", "coming back"],
+			["पहुँचना", "arrive", "arrives", "arrived", "arriving"],
+			["चढ़ना", "climb", "climbs", "climbed", "climbing"],
+			["ठहरना", "stay", "stays", "stayed", "staying"],
+			["गिरना", "fall", "falls", "fell", "falling", "no-command"]
+		]
+	}
+}
