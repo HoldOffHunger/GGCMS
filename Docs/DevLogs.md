@@ -9,6 +9,19 @@ live installation rather than estimated.
 
 ## 2026, November 16
 
+- PronounceThat now pronounces through Google rather than the browser. The
+  browser's speechSynthesis has only the voices that browser ships, so one
+  word sounded different in Chrome and in Brave. pronounce.json sends the
+  text to Google's Text-to-Speech, with Google's Translation detecting the
+  language first when the visitor leaves the dropdown on Detect, and hands
+  the MP3 back as base64. Nothing is stored. The dropdown is English and
+  EarthFluent's thirteen languages, so the same list can later serve
+  EarthFluent's lessons. It is off on every site but PronounceThat, and each
+  site that turns it on gets 15,000 characters a day and 500 per request.
+  Google bills by the character and the text comes from anyone, so past the
+  daily allowance nothing is sent. The key is `ggcms.google_speech_key` in
+  php.ini, beside the Cloudflare token.
+
 - The English misspelling list gained 442 slips from the AI Workers'
   RevoltLib misspelling harvest: every word in the site's texts that no
   dictionary knew, seen in two or more texts, judged in its sentence by a

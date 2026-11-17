@@ -1,96 +1,58 @@
 $(document).ready(function(e) {
-	var languagecode;
-	var utterance = new SpeechSynthesisUtterance();
-	var voices = [];
-	
-	window.speechSynthesis.onvoiceschanged = function () {
-		if(voices.length > 0) {
-			return false;
-		}
-		
-		updateLanguage();
-		setLanguages();
-		
-		return true;
-	}
-	
-		// the chosen voice, and its own language: a French voice told it is
-		// reading English reads it as English
-	function updateLanguage() {
-		voices = window.speechSynthesis.getVoices();
-		for(i = 0; i < voices.length; i++) {
-			voice = voices[i];
-			if(voice.voiceURI == languagecode) {
-				utterance.voice = voice;
-				utterance.lang = voice.lang;
-				i = voices.length;
-			}
-		}
-	}
-	
-	function setLanguages() {
-		const voiceoptions = [];
-		voices = window.speechSynthesis.getVoices();
-		
-		for(i = 0; i < voices.length; i++) {
-			voice = voices[i];
-			
-			voiceoptions.push({
-				'value':voice.voiceURI,
-				'display':voice.name,
-			});
-		}
-		
-		htmlvoiceoptions = [];
-		
-		for(i = 0; i < voiceoptions.length; i++) {
-			const voiceoption = voiceoptions[i];
-			htmlvoiceoptions.push(
-				'<option value="' + voiceoption.value + '" data-lang="' + voiceoption.value + '" data-name="' +  voiceoption.display + '">' + voiceoption.display + '</option>'
-			);
-		}
-		
-		$('#language').html(htmlvoiceoptions.join(''));
+		// Google reads the phrase, not the browser: speechSynthesis has
+		// whatever voices the browser ships, so the same word sounded
+		// different in Chrome and in Brave.  pronounce.json answers with
+		// the MP3 as base64, and nothing is kept anywhere.
 
-			// start on a voice in the page's own language -- the browser's
-			// default one if it has one -- not on whichever it lists first
-		var pagelanguage = (document.documentElement.lang || 'en').toLowerCase().split('-')[0];
-		var chosen = null;
-
-		for(i = 0; i < voices.length; i++) {
-			if(voices[i].lang.toLowerCase().split(/[-_]/)[0] === pagelanguage && (!chosen || voices[i].default)) {
-				chosen = voices[i];
-			}
-		}
-
-		if(chosen) {
-			$('#language').val(chosen.voiceURI);
-		}
-	}
-
-		// a browser that has its voices already -- Firefox, often -- never
-		// announces them, so the list is filled now as well as when they arrive
-	if(window.speechSynthesis.getVoices().length > 0) {
-		updateLanguage();
-		setLanguages();
-	}
+	var audio = new Audio();
+	var errors = {
+		'empty':'Enter a word or a phrase first.',
+		'long':'That is too long to pronounce at once.',
+		'language':'Choose a language from the list.',
+		'key':'Pronouncing is not available just now.',
+		'allowance':'Pronouncing is resting for today. Please come back tomorrow.',
+		'detect':'Could not tell the language. Please choose it from the list.',
+		'unknown':'That language is not one we pronounce yet. Please choose one from the list.',
+		'synthesis':'Google could not pronounce that. Please try again.',
+	};
 
 	$('#pronounce-it').click(function(e) {
 		listenToPhrase();
 	});
-	
+
+	function languageTitle(code) {
+		return $('#language option[value="' + code + '"]').text();
+	}
+
 	function listenToPhrase() {
-		utterance = new SpeechSynthesisUtterance();
 		var phrase = $('.input-area').val();
-		
-		languagecode = $('#language').val();
-		
-			// before the voices arrive the list holds only English
-		utterance.lang = 'en-US';
+		var language = $('#language').val();
 
-		updateLanguage();
+		audio.pause();
+		$('#pronounce-it').prop('disabled', true);
+		$('#status-text').text('Pronouncing…');
 
-		utterance.text = phrase;
-		window.speechSynthesis.speak(utterance);
+		$.ajax({
+			'url':'/pronounce.json',
+			'method':'POST',
+			'data':{'text':phrase, 'language':language},
+			'dataType':'json',
+		}).done(function(answer) {
+			if(!answer || answer.error !== 'none') {
+				$('#status-text').text(errors[answer && answer.error] || errors['synthesis']);
+				return;
+			}
+
+			$('#status-text').text(language === 'auto' ? 'Detected: ' + languageTitle(answer.language) : languageTitle(answer.language));
+
+			audio.src = 'data:audio/mpeg;base64,' + answer.audio;
+			audio.play().catch(function() {
+				$('#status-text').text(errors['synthesis']);
+			});
+		}).fail(function() {
+			$('#status-text').text(errors['synthesis']);
+		}).always(function() {
+			$('#pronounce-it').prop('disabled', false);
+		});
 	}
 });
