@@ -127,6 +127,59 @@ def scan_built(dump: Path, targets: set) -> dict:
     return found
 
 
+def root_candidates(word: str) -> list:
+    """What meN- may have been put in front of: menulis is tulis, memakai pakai, mengirim kirim, menyimpan simpan,
+    membuat buat, mengambil ambil, melihat lihat, memperbaiki perbaiki. A vowel after the prefix may have lost a
+    consonant to it (t, p, k, s) or never had one, so both are offered."""
+    vowels, found = "aeiou", []
+    for prefix, kept, lost in (("memper", "per", ""), ("meny", "", "s"), ("meng", "", "k"), ("mem", "", "p"),
+                               ("men", "", "t"), ("me", "", ""), ("menge", "", "")):  # menge- (mengecat) is rare: last
+        if not word.startswith(prefix) or len(word) <= len(prefix) + 1:
+            continue
+        rest = word[len(prefix):]
+        if rest[0] in vowels:
+            found += [kept + lost + rest] if lost else []
+            found += [kept + rest] if prefix in ("meng", "memper", "me") or not lost else []
+        elif prefix != "meny":
+            found.append(kept + rest)
+    return [text for text in dict.fromkeys(found) if len(text) > 2]
+
+
+def scan_roots(dump: Path, wanted: set) -> dict:
+    """Indonesian's menulis is tulis with meN- in front, and a command is the root on its own (Tulis!). The dump's own
+    word comes first where it gives one (membuat is 'active of buat'); otherwise the root is the candidate the dump knows
+    best: one that is a verb itself, then one whose stem without -kan or -i is a verb (dengarkan), then any word at all."""
+    said, verbs, words = {}, set(), set()
+    with dump.open(encoding="utf-8") as lines:
+        for line in lines:
+            entry = json.loads(line)
+            word = entry.get("word", "")
+            words.add(word)
+            if entry.get("pos") != "verb":
+                continue
+            verbs.add(word)
+            if word in wanted:
+                for sense in entry.get("senses", []):
+                    match = re.match(r"^active of (\S+)$", (sense.get("glosses") or [""])[0])
+                    if match:
+                        said.setdefault(word, match.group(1))
+    roots = {}
+    for word in wanted:
+        if word in said:
+            roots[word] = said[word]
+            continue
+        if word.startswith("memper"):  # memperdebatkan is perdebatkan: its stem perdebat is no word of its own
+            roots[word] = word[len("mem"):]
+            continue
+        def known(text: str) -> int:
+            stems = [text[:-len(end)] for end in ("kan", "i") if text.endswith(end)]
+            return 3 if text in verbs else 2 if any(stem in verbs for stem in stems) else 1 if text in words or any(stem in words for stem in stems) else 0
+        ranked = sorted(root_candidates(word), key=known, reverse=True)
+        if ranked and known(ranked[0]):
+            roots[word] = ranked[0]
+    return roots
+
+
 def read_built(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
     """A language whose verbs never change: each form is a pattern around the dictionary word (了 after it, 在 in front),
     and the dump is asked only whether the word is a verb, and for its pinyin. The pinyin goes into the form as a table
@@ -137,18 +190,26 @@ def read_built(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
         found.update(scan_built(dump, targets))
     verbs, missing = {}, []
     separable = set(recipes.get("separable_verbs", []))
+    roots = scan_roots(dump, wanted) if recipes.get("roots") else {}
     for word in sorted(wanted):
         info = found.get(word, {})
         if info.get("redirect") and not info.get("verb"):  # the traditional entry's sound, not 听's own as another word (yǐn)
             info = found.get(info["redirect"], {})
         if not info.get("verb"):
             continue
-        pinyin = info.get("pinyin", "")
+        pinyin = info.get("pinyin", "") if not recipes.get("no_reading") else ""
         forms = []
+        # only a meN- verb sheds its front for a command: bertindak and duduk stay as they are
+        how = recipes.get("roots", {})
+        root = (how.get("of", {}).get(word) or (word if word in how.get("keep", []) else roots.get(word, ""))
+                if word.startswith(tuple(how.get("prefixes", []))) else word)
         for slot in recipes["patterns"]:
             if slot.get("not_separable") and word in separable:
                 continue  # 唱过歌, not 唱歌过: the particle goes inside, and the pinyin cannot be split there by rule
-            form = {"form": slot["pattern"].format(word), "features": slot["features"]}
+            if "{root}" in slot["pattern"] and not root:
+                missing.append((word, slot["features"]))
+                continue
+            form = {"form": slot["pattern"].format(word, root=root), "features": slot["features"]}
             if pinyin:
                 reading = pinyin
                 if slot.get("sandhi") and next((char for char in pinyin if char in FOURTH | set("āáǎēéěīíǐōóǒūúǔǖǘǚ")), "") in FOURTH:
@@ -156,7 +217,7 @@ def read_built(recipes: dict, dump: Path, wanted: set) -> tuple[dict, list]:
                 else:
                     form["shown"] = f'{form["form"]} ({slot["reading"].format(reading)})'
             forms.append(form)
-        if not pinyin:
+        if not pinyin and not recipes.get("no_reading"):
             missing.append((word, {"pinyin": "none in the dump"}))
         verbs[word] = forms
     return verbs, missing

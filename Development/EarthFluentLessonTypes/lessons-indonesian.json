@@ -1,0 +1,1106 @@
+{
+	"language": "indonesian",
+	"translation_language": "id",
+	"generated": true,
+	"status": "Made by make_form_lessons.py from forms-indonesian.json and the recipes in forms-recipes-indonesian.json: do not edit by hand. Not yet checked by the translation workers.",
+	"cells": [
+		{"job": "who", "part": 2, "verb": "makan", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya makan, Kamu makan, Dia makan, Kami makan. Only the word in front says who.", "rows": [
+				{"english": "I eat", "foreign": "Saya makan", "mark": [{"text": "makan", "role": "nothing"}], "base": "makan", "features": {"who": "i", "when": "now"}},
+				{"english": "You eat", "foreign": "Kamu makan", "mark": [{"text": "makan", "role": "nothing"}], "base": "makan", "features": {"who": "you", "when": "now"}},
+				{"english": "She eats", "foreign": "Dia makan", "mark": [{"text": "makan", "role": "nothing"}], "base": "makan", "features": {"who": "she", "when": "now"}},
+				{"english": "We eat", "foreign": "Kami makan", "mark": [{"text": "makan", "role": "nothing"}], "base": "makan", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 3, "verb": "minum", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya minum, Kamu minum, Dia minum, Kami minum. Only the word in front says who.", "rows": [
+				{"english": "I drink", "foreign": "Saya minum", "mark": [{"text": "minum", "role": "nothing"}], "base": "minum", "features": {"who": "i", "when": "now"}},
+				{"english": "You drink", "foreign": "Kamu minum", "mark": [{"text": "minum", "role": "nothing"}], "base": "minum", "features": {"who": "you", "when": "now"}},
+				{"english": "She drinks", "foreign": "Dia minum", "mark": [{"text": "minum", "role": "nothing"}], "base": "minum", "features": {"who": "she", "when": "now"}},
+				{"english": "We drink", "foreign": "Kami minum", "mark": [{"text": "minum", "role": "nothing"}], "base": "minum", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 4, "verb": "datang", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya datang, Kamu datang, Dia datang, Kami datang. Only the word in front says who.", "rows": [
+				{"english": "I come", "foreign": "Saya datang", "mark": [{"text": "datang", "role": "nothing"}], "base": "datang", "features": {"who": "i", "when": "now"}},
+				{"english": "You come", "foreign": "Kamu datang", "mark": [{"text": "datang", "role": "nothing"}], "base": "datang", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes", "foreign": "Dia datang", "mark": [{"text": "datang", "role": "nothing"}], "base": "datang", "features": {"who": "she", "when": "now"}},
+				{"english": "We come", "foreign": "Kami datang", "mark": [{"text": "datang", "role": "nothing"}], "base": "datang", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 5, "verb": "menonton", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menonton, Kamu menonton, Dia menonton, Kami menonton. Only the word in front says who.", "rows": [
+				{"english": "I watch", "foreign": "Saya menonton", "mark": [{"text": "menonton", "role": "nothing"}], "base": "menonton", "features": {"who": "i", "when": "now"}},
+				{"english": "You watch", "foreign": "Kamu menonton", "mark": [{"text": "menonton", "role": "nothing"}], "base": "menonton", "features": {"who": "you", "when": "now"}},
+				{"english": "She watches", "foreign": "Dia menonton", "mark": [{"text": "menonton", "role": "nothing"}], "base": "menonton", "features": {"who": "she", "when": "now"}},
+				{"english": "We watch", "foreign": "Kami menonton", "mark": [{"text": "menonton", "role": "nothing"}], "base": "menonton", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 6, "verb": "mendengarkan", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya mendengarkan, Kamu mendengarkan, Dia mendengarkan, Kami mendengarkan. Only the word in front says who.", "rows": [
+				{"english": "I listen", "foreign": "Saya mendengarkan", "mark": [{"text": "mendengarkan", "role": "nothing"}], "base": "mendengarkan", "features": {"who": "i", "when": "now"}},
+				{"english": "You listen", "foreign": "Kamu mendengarkan", "mark": [{"text": "mendengarkan", "role": "nothing"}], "base": "mendengarkan", "features": {"who": "you", "when": "now"}},
+				{"english": "She listens", "foreign": "Dia mendengarkan", "mark": [{"text": "mendengarkan", "role": "nothing"}], "base": "mendengarkan", "features": {"who": "she", "when": "now"}},
+				{"english": "We listen", "foreign": "Kami mendengarkan", "mark": [{"text": "mendengarkan", "role": "nothing"}], "base": "mendengarkan", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 7, "verb": "berbicara", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya berbicara, Kamu berbicara, Dia berbicara, Kami berbicara. Only the word in front says who.", "rows": [
+				{"english": "I speak", "foreign": "Saya berbicara", "mark": [{"text": "berbicara", "role": "nothing"}], "base": "berbicara", "features": {"who": "i", "when": "now"}},
+				{"english": "You speak", "foreign": "Kamu berbicara", "mark": [{"text": "berbicara", "role": "nothing"}], "base": "berbicara", "features": {"who": "you", "when": "now"}},
+				{"english": "She speaks", "foreign": "Dia berbicara", "mark": [{"text": "berbicara", "role": "nothing"}], "base": "berbicara", "features": {"who": "she", "when": "now"}},
+				{"english": "We speak", "foreign": "Kami berbicara", "mark": [{"text": "berbicara", "role": "nothing"}], "base": "berbicara", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 8, "verb": "menulis", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menulis, Kamu menulis, Dia menulis, Kami menulis. Only the word in front says who.", "rows": [
+				{"english": "I write", "foreign": "Saya menulis", "mark": [{"text": "menulis", "role": "nothing"}], "base": "menulis", "features": {"who": "i", "when": "now"}},
+				{"english": "You write", "foreign": "Kamu menulis", "mark": [{"text": "menulis", "role": "nothing"}], "base": "menulis", "features": {"who": "you", "when": "now"}},
+				{"english": "She writes", "foreign": "Dia menulis", "mark": [{"text": "menulis", "role": "nothing"}], "base": "menulis", "features": {"who": "she", "when": "now"}},
+				{"english": "We write", "foreign": "Kami menulis", "mark": [{"text": "menulis", "role": "nothing"}], "base": "menulis", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 9, "verb": "berjalan", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya berjalan, Kamu berjalan, Dia berjalan, Kami berjalan. Only the word in front says who.", "rows": [
+				{"english": "I walk", "foreign": "Saya berjalan", "mark": [{"text": "berjalan", "role": "nothing"}], "base": "berjalan", "features": {"who": "i", "when": "now"}},
+				{"english": "You walk", "foreign": "Kamu berjalan", "mark": [{"text": "berjalan", "role": "nothing"}], "base": "berjalan", "features": {"who": "you", "when": "now"}},
+				{"english": "She walks", "foreign": "Dia berjalan", "mark": [{"text": "berjalan", "role": "nothing"}], "base": "berjalan", "features": {"who": "she", "when": "now"}},
+				{"english": "We walk", "foreign": "Kami berjalan", "mark": [{"text": "berjalan", "role": "nothing"}], "base": "berjalan", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 10, "verb": "berlari", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya berlari, Kamu berlari, Dia berlari, Kami berlari. Only the word in front says who.", "rows": [
+				{"english": "I run", "foreign": "Saya berlari", "mark": [{"text": "berlari", "role": "nothing"}], "base": "berlari", "features": {"who": "i", "when": "now"}},
+				{"english": "You run", "foreign": "Kamu berlari", "mark": [{"text": "berlari", "role": "nothing"}], "base": "berlari", "features": {"who": "you", "when": "now"}},
+				{"english": "She runs", "foreign": "Dia berlari", "mark": [{"text": "berlari", "role": "nothing"}], "base": "berlari", "features": {"who": "she", "when": "now"}},
+				{"english": "We run", "foreign": "Kami berlari", "mark": [{"text": "berlari", "role": "nothing"}], "base": "berlari", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 11, "verb": "membeli", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya membeli, Kamu membeli, Dia membeli, Kami membeli. Only the word in front says who.", "rows": [
+				{"english": "I buy", "foreign": "Saya membeli", "mark": [{"text": "membeli", "role": "nothing"}], "base": "membeli", "features": {"who": "i", "when": "now"}},
+				{"english": "You buy", "foreign": "Kamu membeli", "mark": [{"text": "membeli", "role": "nothing"}], "base": "membeli", "features": {"who": "you", "when": "now"}},
+				{"english": "She buys", "foreign": "Dia membeli", "mark": [{"text": "membeli", "role": "nothing"}], "base": "membeli", "features": {"who": "she", "when": "now"}},
+				{"english": "We buy", "foreign": "Kami membeli", "mark": [{"text": "membeli", "role": "nothing"}], "base": "membeli", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 12, "verb": "menjual", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menjual, Kamu menjual, Dia menjual, Kami menjual. Only the word in front says who.", "rows": [
+				{"english": "I sell", "foreign": "Saya menjual", "mark": [{"text": "menjual", "role": "nothing"}], "base": "menjual", "features": {"who": "i", "when": "now"}},
+				{"english": "You sell", "foreign": "Kamu menjual", "mark": [{"text": "menjual", "role": "nothing"}], "base": "menjual", "features": {"who": "you", "when": "now"}},
+				{"english": "She sells", "foreign": "Dia menjual", "mark": [{"text": "menjual", "role": "nothing"}], "base": "menjual", "features": {"who": "she", "when": "now"}},
+				{"english": "We sell", "foreign": "Kami menjual", "mark": [{"text": "menjual", "role": "nothing"}], "base": "menjual", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 13, "verb": "menunggu", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menunggu, Kamu menunggu, Dia menunggu, Kami menunggu. Only the word in front says who.", "rows": [
+				{"english": "I wait", "foreign": "Saya menunggu", "mark": [{"text": "menunggu", "role": "nothing"}], "base": "menunggu", "features": {"who": "i", "when": "now"}},
+				{"english": "You wait", "foreign": "Kamu menunggu", "mark": [{"text": "menunggu", "role": "nothing"}], "base": "menunggu", "features": {"who": "you", "when": "now"}},
+				{"english": "She waits", "foreign": "Dia menunggu", "mark": [{"text": "menunggu", "role": "nothing"}], "base": "menunggu", "features": {"who": "she", "when": "now"}},
+				{"english": "We wait", "foreign": "Kami menunggu", "mark": [{"text": "menunggu", "role": "nothing"}], "base": "menunggu", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 14, "verb": "mencari", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya mencari, Kamu mencari, Dia mencari, Kami mencari. Only the word in front says who.", "rows": [
+				{"english": "I look for", "foreign": "Saya mencari", "mark": [{"text": "mencari", "role": "nothing"}], "base": "mencari", "features": {"who": "i", "when": "now"}},
+				{"english": "You look for", "foreign": "Kamu mencari", "mark": [{"text": "mencari", "role": "nothing"}], "base": "mencari", "features": {"who": "you", "when": "now"}},
+				{"english": "She looks for", "foreign": "Dia mencari", "mark": [{"text": "mencari", "role": "nothing"}], "base": "mencari", "features": {"who": "she", "when": "now"}},
+				{"english": "We look for", "foreign": "Kami mencari", "mark": [{"text": "mencari", "role": "nothing"}], "base": "mencari", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 15, "verb": "berpikir", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya berpikir, Kamu berpikir, Dia berpikir, Kami berpikir. Only the word in front says who.", "rows": [
+				{"english": "I think", "foreign": "Saya berpikir", "mark": [{"text": "berpikir", "role": "nothing"}], "base": "berpikir", "features": {"who": "i", "when": "now"}},
+				{"english": "You think", "foreign": "Kamu berpikir", "mark": [{"text": "berpikir", "role": "nothing"}], "base": "berpikir", "features": {"who": "you", "when": "now"}},
+				{"english": "She thinks", "foreign": "Dia berpikir", "mark": [{"text": "berpikir", "role": "nothing"}], "base": "berpikir", "features": {"who": "she", "when": "now"}},
+				{"english": "We think", "foreign": "Kami berpikir", "mark": [{"text": "berpikir", "role": "nothing"}], "base": "berpikir", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 16, "verb": "tertawa", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya tertawa, Kamu tertawa, Dia tertawa, Kami tertawa. Only the word in front says who.", "rows": [
+				{"english": "I laugh", "foreign": "Saya tertawa", "mark": [{"text": "tertawa", "role": "nothing"}], "base": "tertawa", "features": {"who": "i", "when": "now"}},
+				{"english": "You laugh", "foreign": "Kamu tertawa", "mark": [{"text": "tertawa", "role": "nothing"}], "base": "tertawa", "features": {"who": "you", "when": "now"}},
+				{"english": "She laughs", "foreign": "Dia tertawa", "mark": [{"text": "tertawa", "role": "nothing"}], "base": "tertawa", "features": {"who": "she", "when": "now"}},
+				{"english": "We laugh", "foreign": "Kami tertawa", "mark": [{"text": "tertawa", "role": "nothing"}], "base": "tertawa", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 17, "verb": "menangis", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menangis, Kamu menangis, Dia menangis, Kami menangis. Only the word in front says who.", "rows": [
+				{"english": "I cry", "foreign": "Saya menangis", "mark": [{"text": "menangis", "role": "nothing"}], "base": "menangis", "features": {"who": "i", "when": "now"}},
+				{"english": "You cry", "foreign": "Kamu menangis", "mark": [{"text": "menangis", "role": "nothing"}], "base": "menangis", "features": {"who": "you", "when": "now"}},
+				{"english": "She cries", "foreign": "Dia menangis", "mark": [{"text": "menangis", "role": "nothing"}], "base": "menangis", "features": {"who": "she", "when": "now"}},
+				{"english": "We cry", "foreign": "Kami menangis", "mark": [{"text": "menangis", "role": "nothing"}], "base": "menangis", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 18, "verb": "bermain", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya bermain, Kamu bermain, Dia bermain, Kami bermain. Only the word in front says who.", "rows": [
+				{"english": "I play", "foreign": "Saya bermain", "mark": [{"text": "bermain", "role": "nothing"}], "base": "bermain", "features": {"who": "i", "when": "now"}},
+				{"english": "You play", "foreign": "Kamu bermain", "mark": [{"text": "bermain", "role": "nothing"}], "base": "bermain", "features": {"who": "you", "when": "now"}},
+				{"english": "She plays", "foreign": "Dia bermain", "mark": [{"text": "bermain", "role": "nothing"}], "base": "bermain", "features": {"who": "she", "when": "now"}},
+				{"english": "We play", "foreign": "Kami bermain", "mark": [{"text": "bermain", "role": "nothing"}], "base": "bermain", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 19, "verb": "bernyanyi", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya bernyanyi, Kamu bernyanyi, Dia bernyanyi, Kami bernyanyi. Only the word in front says who.", "rows": [
+				{"english": "I sing", "foreign": "Saya bernyanyi", "mark": [{"text": "bernyanyi", "role": "nothing"}], "base": "bernyanyi", "features": {"who": "i", "when": "now"}},
+				{"english": "You sing", "foreign": "Kamu bernyanyi", "mark": [{"text": "bernyanyi", "role": "nothing"}], "base": "bernyanyi", "features": {"who": "you", "when": "now"}},
+				{"english": "She sings", "foreign": "Dia bernyanyi", "mark": [{"text": "bernyanyi", "role": "nothing"}], "base": "bernyanyi", "features": {"who": "she", "when": "now"}},
+				{"english": "We sing", "foreign": "Kami bernyanyi", "mark": [{"text": "bernyanyi", "role": "nothing"}], "base": "bernyanyi", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 20, "verb": "menari", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menari, Kamu menari, Dia menari, Kami menari. Only the word in front says who.", "rows": [
+				{"english": "I dance", "foreign": "Saya menari", "mark": [{"text": "menari", "role": "nothing"}], "base": "menari", "features": {"who": "i", "when": "now"}},
+				{"english": "You dance", "foreign": "Kamu menari", "mark": [{"text": "menari", "role": "nothing"}], "base": "menari", "features": {"who": "you", "when": "now"}},
+				{"english": "She dances", "foreign": "Dia menari", "mark": [{"text": "menari", "role": "nothing"}], "base": "menari", "features": {"who": "she", "when": "now"}},
+				{"english": "We dance", "foreign": "Kami menari", "mark": [{"text": "menari", "role": "nothing"}], "base": "menari", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 21, "verb": "berenang", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya berenang, Kamu berenang, Dia berenang, Kami berenang. Only the word in front says who.", "rows": [
+				{"english": "I swim", "foreign": "Saya berenang", "mark": [{"text": "berenang", "role": "nothing"}], "base": "berenang", "features": {"who": "i", "when": "now"}},
+				{"english": "You swim", "foreign": "Kamu berenang", "mark": [{"text": "berenang", "role": "nothing"}], "base": "berenang", "features": {"who": "you", "when": "now"}},
+				{"english": "She swims", "foreign": "Dia berenang", "mark": [{"text": "berenang", "role": "nothing"}], "base": "berenang", "features": {"who": "she", "when": "now"}},
+				{"english": "We swim", "foreign": "Kami berenang", "mark": [{"text": "berenang", "role": "nothing"}], "base": "berenang", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 22, "verb": "bekerja", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya bekerja, Kamu bekerja, Dia bekerja, Kami bekerja. Only the word in front says who.", "rows": [
+				{"english": "I work", "foreign": "Saya bekerja", "mark": [{"text": "bekerja", "role": "nothing"}], "base": "bekerja", "features": {"who": "i", "when": "now"}},
+				{"english": "You work", "foreign": "Kamu bekerja", "mark": [{"text": "bekerja", "role": "nothing"}], "base": "bekerja", "features": {"who": "you", "when": "now"}},
+				{"english": "She works", "foreign": "Dia bekerja", "mark": [{"text": "bekerja", "role": "nothing"}], "base": "bekerja", "features": {"who": "she", "when": "now"}},
+				{"english": "We work", "foreign": "Kami bekerja", "mark": [{"text": "bekerja", "role": "nothing"}], "base": "bekerja", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 23, "verb": "belajar", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya belajar, Kamu belajar, Dia belajar, Kami belajar. Only the word in front says who.", "rows": [
+				{"english": "I study", "foreign": "Saya belajar", "mark": [{"text": "belajar", "role": "nothing"}], "base": "belajar", "features": {"who": "i", "when": "now"}},
+				{"english": "You study", "foreign": "Kamu belajar", "mark": [{"text": "belajar", "role": "nothing"}], "base": "belajar", "features": {"who": "you", "when": "now"}},
+				{"english": "She studies", "foreign": "Dia belajar", "mark": [{"text": "belajar", "role": "nothing"}], "base": "belajar", "features": {"who": "she", "when": "now"}},
+				{"english": "We study", "foreign": "Kami belajar", "mark": [{"text": "belajar", "role": "nothing"}], "base": "belajar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 24, "verb": "beristirahat", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya beristirahat, Kamu beristirahat, Dia beristirahat, Kami beristirahat. Only the word in front says who.", "rows": [
+				{"english": "I rest", "foreign": "Saya beristirahat", "mark": [{"text": "beristirahat", "role": "nothing"}], "base": "beristirahat", "features": {"who": "i", "when": "now"}},
+				{"english": "You rest", "foreign": "Kamu beristirahat", "mark": [{"text": "beristirahat", "role": "nothing"}], "base": "beristirahat", "features": {"who": "you", "when": "now"}},
+				{"english": "She rests", "foreign": "Dia beristirahat", "mark": [{"text": "beristirahat", "role": "nothing"}], "base": "beristirahat", "features": {"who": "she", "when": "now"}},
+				{"english": "We rest", "foreign": "Kami beristirahat", "mark": [{"text": "beristirahat", "role": "nothing"}], "base": "beristirahat", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 25, "verb": "memulai", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya memulai, Kamu memulai, Dia memulai, Kami memulai. Only the word in front says who.", "rows": [
+				{"english": "I begin", "foreign": "Saya memulai", "mark": [{"text": "memulai", "role": "nothing"}], "base": "memulai", "features": {"who": "i", "when": "now"}},
+				{"english": "You begin", "foreign": "Kamu memulai", "mark": [{"text": "memulai", "role": "nothing"}], "base": "memulai", "features": {"who": "you", "when": "now"}},
+				{"english": "She begins", "foreign": "Dia memulai", "mark": [{"text": "memulai", "role": "nothing"}], "base": "memulai", "features": {"who": "she", "when": "now"}},
+				{"english": "We begin", "foreign": "Kami memulai", "mark": [{"text": "memulai", "role": "nothing"}], "base": "memulai", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 26, "verb": "membantu", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya membantu, Kamu membantu, Dia membantu, Kami membantu. Only the word in front says who.", "rows": [
+				{"english": "I help", "foreign": "Saya membantu", "mark": [{"text": "membantu", "role": "nothing"}], "base": "membantu", "features": {"who": "i", "when": "now"}},
+				{"english": "You help", "foreign": "Kamu membantu", "mark": [{"text": "membantu", "role": "nothing"}], "base": "membantu", "features": {"who": "you", "when": "now"}},
+				{"english": "She helps", "foreign": "Dia membantu", "mark": [{"text": "membantu", "role": "nothing"}], "base": "membantu", "features": {"who": "she", "when": "now"}},
+				{"english": "We help", "foreign": "Kami membantu", "mark": [{"text": "membantu", "role": "nothing"}], "base": "membantu", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 27, "verb": "kembali", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya kembali, Kamu kembali, Dia kembali, Kami kembali. Only the word in front says who.", "rows": [
+				{"english": "I come back", "foreign": "Saya kembali", "mark": [{"text": "kembali", "role": "nothing"}], "base": "kembali", "features": {"who": "i", "when": "now"}},
+				{"english": "You come back", "foreign": "Kamu kembali", "mark": [{"text": "kembali", "role": "nothing"}], "base": "kembali", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes back", "foreign": "Dia kembali", "mark": [{"text": "kembali", "role": "nothing"}], "base": "kembali", "features": {"who": "she", "when": "now"}},
+				{"english": "We come back", "foreign": "Kami kembali", "mark": [{"text": "kembali", "role": "nothing"}], "base": "kembali", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 28, "verb": "keluar", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya keluar, Kamu keluar, Dia keluar, Kami keluar. Only the word in front says who.", "rows": [
+				{"english": "I go out", "foreign": "Saya keluar", "mark": [{"text": "keluar", "role": "nothing"}], "base": "keluar", "features": {"who": "i", "when": "now"}},
+				{"english": "You go out", "foreign": "Kamu keluar", "mark": [{"text": "keluar", "role": "nothing"}], "base": "keluar", "features": {"who": "you", "when": "now"}},
+				{"english": "She goes out", "foreign": "Dia keluar", "mark": [{"text": "keluar", "role": "nothing"}], "base": "keluar", "features": {"who": "she", "when": "now"}},
+				{"english": "We go out", "foreign": "Kami keluar", "mark": [{"text": "keluar", "role": "nothing"}], "base": "keluar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 29, "verb": "masuk", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya masuk, Kamu masuk, Dia masuk, Kami masuk. Only the word in front says who.", "rows": [
+				{"english": "I come in", "foreign": "Saya masuk", "mark": [{"text": "masuk", "role": "nothing"}], "base": "masuk", "features": {"who": "i", "when": "now"}},
+				{"english": "You come in", "foreign": "Kamu masuk", "mark": [{"text": "masuk", "role": "nothing"}], "base": "masuk", "features": {"who": "you", "when": "now"}},
+				{"english": "She comes in", "foreign": "Dia masuk", "mark": [{"text": "masuk", "role": "nothing"}], "base": "masuk", "features": {"who": "she", "when": "now"}},
+				{"english": "We come in", "foreign": "Kami masuk", "mark": [{"text": "masuk", "role": "nothing"}], "base": "masuk", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 30, "verb": "bepergian", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya bepergian, Kamu bepergian, Dia bepergian, Kami bepergian. Only the word in front says who.", "rows": [
+				{"english": "I travel", "foreign": "Saya bepergian", "mark": [{"text": "bepergian", "role": "nothing"}], "base": "bepergian", "features": {"who": "i", "when": "now"}},
+				{"english": "You travel", "foreign": "Kamu bepergian", "mark": [{"text": "bepergian", "role": "nothing"}], "base": "bepergian", "features": {"who": "you", "when": "now"}},
+				{"english": "She travels", "foreign": "Dia bepergian", "mark": [{"text": "bepergian", "role": "nothing"}], "base": "bepergian", "features": {"who": "she", "when": "now"}},
+				{"english": "We travel", "foreign": "Kami bepergian", "mark": [{"text": "bepergian", "role": "nothing"}], "base": "bepergian", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 31, "verb": "memasak", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya memasak, Kamu memasak, Dia memasak, Kami memasak. Only the word in front says who.", "rows": [
+				{"english": "I cook", "foreign": "Saya memasak", "mark": [{"text": "memasak", "role": "nothing"}], "base": "memasak", "features": {"who": "i", "when": "now"}},
+				{"english": "You cook", "foreign": "Kamu memasak", "mark": [{"text": "memasak", "role": "nothing"}], "base": "memasak", "features": {"who": "you", "when": "now"}},
+				{"english": "She cooks", "foreign": "Dia memasak", "mark": [{"text": "memasak", "role": "nothing"}], "base": "memasak", "features": {"who": "she", "when": "now"}},
+				{"english": "We cook", "foreign": "Kami memasak", "mark": [{"text": "memasak", "role": "nothing"}], "base": "memasak", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 32, "verb": "menelepon", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menelepon, Kamu menelepon, Dia menelepon, Kami menelepon. Only the word in front says who.", "rows": [
+				{"english": "I phone", "foreign": "Saya menelepon", "mark": [{"text": "menelepon", "role": "nothing"}], "base": "menelepon", "features": {"who": "i", "when": "now"}},
+				{"english": "You phone", "foreign": "Kamu menelepon", "mark": [{"text": "menelepon", "role": "nothing"}], "base": "menelepon", "features": {"who": "you", "when": "now"}},
+				{"english": "She phones", "foreign": "Dia menelepon", "mark": [{"text": "menelepon", "role": "nothing"}], "base": "menelepon", "features": {"who": "she", "when": "now"}},
+				{"english": "We phone", "foreign": "Kami menelepon", "mark": [{"text": "menelepon", "role": "nothing"}], "base": "menelepon", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 33, "verb": "duduk", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya duduk, Kamu duduk, Dia duduk, Kami duduk. Only the word in front says who.", "rows": [
+				{"english": "I sit", "foreign": "Saya duduk", "mark": [{"text": "duduk", "role": "nothing"}], "base": "duduk", "features": {"who": "i", "when": "now"}},
+				{"english": "You sit", "foreign": "Kamu duduk", "mark": [{"text": "duduk", "role": "nothing"}], "base": "duduk", "features": {"who": "you", "when": "now"}},
+				{"english": "She sits", "foreign": "Dia duduk", "mark": [{"text": "duduk", "role": "nothing"}], "base": "duduk", "features": {"who": "she", "when": "now"}},
+				{"english": "We sit", "foreign": "Kami duduk", "mark": [{"text": "duduk", "role": "nothing"}], "base": "duduk", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 34, "verb": "berdiri", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya berdiri, Kamu berdiri, Dia berdiri, Kami berdiri. Only the word in front says who.", "rows": [
+				{"english": "I stand", "foreign": "Saya berdiri", "mark": [{"text": "berdiri", "role": "nothing"}], "base": "berdiri", "features": {"who": "i", "when": "now"}},
+				{"english": "You stand", "foreign": "Kamu berdiri", "mark": [{"text": "berdiri", "role": "nothing"}], "base": "berdiri", "features": {"who": "you", "when": "now"}},
+				{"english": "She stands", "foreign": "Dia berdiri", "mark": [{"text": "berdiri", "role": "nothing"}], "base": "berdiri", "features": {"who": "she", "when": "now"}},
+				{"english": "We stand", "foreign": "Kami berdiri", "mark": [{"text": "berdiri", "role": "nothing"}], "base": "berdiri", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 35, "verb": "terbang", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya terbang, Kamu terbang, Dia terbang, Kami terbang. Only the word in front says who.", "rows": [
+				{"english": "I fly", "foreign": "Saya terbang", "mark": [{"text": "terbang", "role": "nothing"}], "base": "terbang", "features": {"who": "i", "when": "now"}},
+				{"english": "You fly", "foreign": "Kamu terbang", "mark": [{"text": "terbang", "role": "nothing"}], "base": "terbang", "features": {"who": "you", "when": "now"}},
+				{"english": "She flies", "foreign": "Dia terbang", "mark": [{"text": "terbang", "role": "nothing"}], "base": "terbang", "features": {"who": "she", "when": "now"}},
+				{"english": "We fly", "foreign": "Kami terbang", "mark": [{"text": "terbang", "role": "nothing"}], "base": "terbang", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 36, "verb": "menjawab", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menjawab, Kamu menjawab, Dia menjawab, Kami menjawab. Only the word in front says who.", "rows": [
+				{"english": "I answer", "foreign": "Saya menjawab", "mark": [{"text": "menjawab", "role": "nothing"}], "base": "menjawab", "features": {"who": "i", "when": "now"}},
+				{"english": "You answer", "foreign": "Kamu menjawab", "mark": [{"text": "menjawab", "role": "nothing"}], "base": "menjawab", "features": {"who": "you", "when": "now"}},
+				{"english": "She answers", "foreign": "Dia menjawab", "mark": [{"text": "menjawab", "role": "nothing"}], "base": "menjawab", "features": {"who": "she", "when": "now"}},
+				{"english": "We answer", "foreign": "Kami menjawab", "mark": [{"text": "menjawab", "role": "nothing"}], "base": "menjawab", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 37, "verb": "bertanya", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya bertanya, Kamu bertanya, Dia bertanya, Kami bertanya. Only the word in front says who.", "rows": [
+				{"english": "I ask", "foreign": "Saya bertanya", "mark": [{"text": "bertanya", "role": "nothing"}], "base": "bertanya", "features": {"who": "i", "when": "now"}},
+				{"english": "You ask", "foreign": "Kamu bertanya", "mark": [{"text": "bertanya", "role": "nothing"}], "base": "bertanya", "features": {"who": "you", "when": "now"}},
+				{"english": "She asks", "foreign": "Dia bertanya", "mark": [{"text": "bertanya", "role": "nothing"}], "base": "bertanya", "features": {"who": "she", "when": "now"}},
+				{"english": "We ask", "foreign": "Kami bertanya", "mark": [{"text": "bertanya", "role": "nothing"}], "base": "bertanya", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 38, "verb": "lupa", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya lupa, Kamu lupa, Dia lupa, Kami lupa. Only the word in front says who.", "rows": [
+				{"english": "I forget", "foreign": "Saya lupa", "mark": [{"text": "lupa", "role": "nothing"}], "base": "lupa", "features": {"who": "i", "when": "now"}},
+				{"english": "You forget", "foreign": "Kamu lupa", "mark": [{"text": "lupa", "role": "nothing"}], "base": "lupa", "features": {"who": "you", "when": "now"}},
+				{"english": "She forgets", "foreign": "Dia lupa", "mark": [{"text": "lupa", "role": "nothing"}], "base": "lupa", "features": {"who": "she", "when": "now"}},
+				{"english": "We forget", "foreign": "Kami lupa", "mark": [{"text": "lupa", "role": "nothing"}], "base": "lupa", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 39, "verb": "membayar", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya membayar, Kamu membayar, Dia membayar, Kami membayar. Only the word in front says who.", "rows": [
+				{"english": "I pay", "foreign": "Saya membayar", "mark": [{"text": "membayar", "role": "nothing"}], "base": "membayar", "features": {"who": "i", "when": "now"}},
+				{"english": "You pay", "foreign": "Kamu membayar", "mark": [{"text": "membayar", "role": "nothing"}], "base": "membayar", "features": {"who": "you", "when": "now"}},
+				{"english": "She pays", "foreign": "Dia membayar", "mark": [{"text": "membayar", "role": "nothing"}], "base": "membayar", "features": {"who": "she", "when": "now"}},
+				{"english": "We pay", "foreign": "Kami membayar", "mark": [{"text": "membayar", "role": "nothing"}], "base": "membayar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 40, "verb": "bangun", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya bangun, Kamu bangun, Dia bangun, Kami bangun. Only the word in front says who.", "rows": [
+				{"english": "I get up", "foreign": "Saya bangun", "mark": [{"text": "bangun", "role": "nothing"}], "base": "bangun", "features": {"who": "i", "when": "now"}},
+				{"english": "You get up", "foreign": "Kamu bangun", "mark": [{"text": "bangun", "role": "nothing"}], "base": "bangun", "features": {"who": "you", "when": "now"}},
+				{"english": "She gets up", "foreign": "Dia bangun", "mark": [{"text": "bangun", "role": "nothing"}], "base": "bangun", "features": {"who": "she", "when": "now"}},
+				{"english": "We get up", "foreign": "Kami bangun", "mark": [{"text": "bangun", "role": "nothing"}], "base": "bangun", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 41, "verb": "mengajar", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya mengajar, Kamu mengajar, Dia mengajar, Kami mengajar. Only the word in front says who.", "rows": [
+				{"english": "I teach", "foreign": "Saya mengajar", "mark": [{"text": "mengajar", "role": "nothing"}], "base": "mengajar", "features": {"who": "i", "when": "now"}},
+				{"english": "You teach", "foreign": "Kamu mengajar", "mark": [{"text": "mengajar", "role": "nothing"}], "base": "mengajar", "features": {"who": "you", "when": "now"}},
+				{"english": "She teaches", "foreign": "Dia mengajar", "mark": [{"text": "mengajar", "role": "nothing"}], "base": "mengajar", "features": {"who": "she", "when": "now"}},
+				{"english": "We teach", "foreign": "Kami mengajar", "mark": [{"text": "mengajar", "role": "nothing"}], "base": "mengajar", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 42, "verb": "membuat", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya membuat, Kamu membuat, Dia membuat, Kami membuat. Only the word in front says who.", "rows": [
+				{"english": "I make", "foreign": "Saya membuat", "mark": [{"text": "membuat", "role": "nothing"}], "base": "membuat", "features": {"who": "i", "when": "now"}},
+				{"english": "You make", "foreign": "Kamu membuat", "mark": [{"text": "membuat", "role": "nothing"}], "base": "membuat", "features": {"who": "you", "when": "now"}},
+				{"english": "She makes", "foreign": "Dia membuat", "mark": [{"text": "membuat", "role": "nothing"}], "base": "membuat", "features": {"who": "she", "when": "now"}},
+				{"english": "We make", "foreign": "Kami membuat", "mark": [{"text": "membuat", "role": "nothing"}], "base": "membuat", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 43, "verb": "menggunakan", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menggunakan, Kamu menggunakan, Dia menggunakan, Kami menggunakan. Only the word in front says who.", "rows": [
+				{"english": "I use", "foreign": "Saya menggunakan", "mark": [{"text": "menggunakan", "role": "nothing"}], "base": "menggunakan", "features": {"who": "i", "when": "now"}},
+				{"english": "You use", "foreign": "Kamu menggunakan", "mark": [{"text": "menggunakan", "role": "nothing"}], "base": "menggunakan", "features": {"who": "you", "when": "now"}},
+				{"english": "She uses", "foreign": "Dia menggunakan", "mark": [{"text": "menggunakan", "role": "nothing"}], "base": "menggunakan", "features": {"who": "she", "when": "now"}},
+				{"english": "We use", "foreign": "Kami menggunakan", "mark": [{"text": "menggunakan", "role": "nothing"}], "base": "menggunakan", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 44, "verb": "mencuci", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya mencuci, Kamu mencuci, Dia mencuci, Kami mencuci. Only the word in front says who.", "rows": [
+				{"english": "I wash", "foreign": "Saya mencuci", "mark": [{"text": "mencuci", "role": "nothing"}], "base": "mencuci", "features": {"who": "i", "when": "now"}},
+				{"english": "You wash", "foreign": "Kamu mencuci", "mark": [{"text": "mencuci", "role": "nothing"}], "base": "mencuci", "features": {"who": "you", "when": "now"}},
+				{"english": "She washes", "foreign": "Dia mencuci", "mark": [{"text": "mencuci", "role": "nothing"}], "base": "mencuci", "features": {"who": "she", "when": "now"}},
+				{"english": "We wash", "foreign": "Kami mencuci", "mark": [{"text": "mencuci", "role": "nothing"}], "base": "mencuci", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 45, "verb": "membuka", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya membuka, Kamu membuka, Dia membuka, Kami membuka. Only the word in front says who.", "rows": [
+				{"english": "I open", "foreign": "Saya membuka", "mark": [{"text": "membuka", "role": "nothing"}], "base": "membuka", "features": {"who": "i", "when": "now"}},
+				{"english": "You open", "foreign": "Kamu membuka", "mark": [{"text": "membuka", "role": "nothing"}], "base": "membuka", "features": {"who": "you", "when": "now"}},
+				{"english": "She opens", "foreign": "Dia membuka", "mark": [{"text": "membuka", "role": "nothing"}], "base": "membuka", "features": {"who": "she", "when": "now"}},
+				{"english": "We open", "foreign": "Kami membuka", "mark": [{"text": "membuka", "role": "nothing"}], "base": "membuka", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 46, "verb": "menutup", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya menutup, Kamu menutup, Dia menutup, Kami menutup. Only the word in front says who.", "rows": [
+				{"english": "I close", "foreign": "Saya menutup", "mark": [{"text": "menutup", "role": "nothing"}], "base": "menutup", "features": {"who": "i", "when": "now"}},
+				{"english": "You close", "foreign": "Kamu menutup", "mark": [{"text": "menutup", "role": "nothing"}], "base": "menutup", "features": {"who": "you", "when": "now"}},
+				{"english": "She closes", "foreign": "Dia menutup", "mark": [{"text": "menutup", "role": "nothing"}], "base": "menutup", "features": {"who": "she", "when": "now"}},
+				{"english": "We close", "foreign": "Kami menutup", "mark": [{"text": "menutup", "role": "nothing"}], "base": "menutup", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 47, "verb": "bertemu", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya bertemu, Kamu bertemu, Dia bertemu, Kami bertemu. Only the word in front says who.", "rows": [
+				{"english": "I meet", "foreign": "Saya bertemu", "mark": [{"text": "bertemu", "role": "nothing"}], "base": "bertemu", "features": {"who": "i", "when": "now"}},
+				{"english": "You meet", "foreign": "Kamu bertemu", "mark": [{"text": "bertemu", "role": "nothing"}], "base": "bertemu", "features": {"who": "you", "when": "now"}},
+				{"english": "She meets", "foreign": "Dia bertemu", "mark": [{"text": "bertemu", "role": "nothing"}], "base": "bertemu", "features": {"who": "she", "when": "now"}},
+				{"english": "We meet", "foreign": "Kami bertemu", "mark": [{"text": "bertemu", "role": "nothing"}], "base": "bertemu", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 48, "verb": "mengirim", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya mengirim, Kamu mengirim, Dia mengirim, Kami mengirim. Only the word in front says who.", "rows": [
+				{"english": "I send", "foreign": "Saya mengirim", "mark": [{"text": "mengirim", "role": "nothing"}], "base": "mengirim", "features": {"who": "i", "when": "now"}},
+				{"english": "You send", "foreign": "Kamu mengirim", "mark": [{"text": "mengirim", "role": "nothing"}], "base": "mengirim", "features": {"who": "you", "when": "now"}},
+				{"english": "She sends", "foreign": "Dia mengirim", "mark": [{"text": "mengirim", "role": "nothing"}], "base": "mengirim", "features": {"who": "she", "when": "now"}},
+				{"english": "We send", "foreign": "Kami mengirim", "mark": [{"text": "mengirim", "role": "nothing"}], "base": "mengirim", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 49, "verb": "memanggil", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya memanggil, Kamu memanggil, Dia memanggil, Kami memanggil. Only the word in front says who.", "rows": [
+				{"english": "I call", "foreign": "Saya memanggil", "mark": [{"text": "memanggil", "role": "nothing"}], "base": "memanggil", "features": {"who": "i", "when": "now"}},
+				{"english": "You call", "foreign": "Kamu memanggil", "mark": [{"text": "memanggil", "role": "nothing"}], "base": "memanggil", "features": {"who": "you", "when": "now"}},
+				{"english": "She calls", "foreign": "Dia memanggil", "mark": [{"text": "memanggil", "role": "nothing"}], "base": "memanggil", "features": {"who": "she", "when": "now"}},
+				{"english": "We call", "foreign": "Kami memanggil", "mark": [{"text": "memanggil", "role": "nothing"}], "base": "memanggil", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "who", "part": 50, "verb": "tidur", "strategy": ["nothing"], "description": "The verb is the same whoever is doing it: Saya tidur, Kamu tidur, Dia tidur, Kami tidur. Only the word in front says who.", "rows": [
+				{"english": "I sleep", "foreign": "Saya tidur", "mark": [{"text": "tidur", "role": "nothing"}], "base": "tidur", "features": {"who": "i", "when": "now"}},
+				{"english": "You sleep", "foreign": "Kamu tidur", "mark": [{"text": "tidur", "role": "nothing"}], "base": "tidur", "features": {"who": "you", "when": "now"}},
+				{"english": "She sleeps", "foreign": "Dia tidur", "mark": [{"text": "tidur", "role": "nothing"}], "base": "tidur", "features": {"who": "she", "when": "now"}},
+				{"english": "We sleep", "foreign": "Kami tidur", "mark": [{"text": "tidur", "role": "nothing"}], "base": "tidur", "features": {"who": "we", "when": "now"}}
+			]},
+		{"job": "when", "part": 2, "verb": "makan", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah makan. Akan in front says it is still to come: Saya akan makan.", "rows": [
+				{"english": "I eat", "foreign": "Saya makan", "base": "makan", "features": {"who": "i", "when": "now"}},
+				{"english": "I ate", "foreign": "Saya sudah makan", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "makan", "features": {"who": "i", "when": "before"}},
+				{"english": "I will eat", "foreign": "Saya akan makan", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "makan", "features": {"who": "i", "when": "later"}},
+				{"english": "She ate", "foreign": "Dia sudah makan", "mark": [{"text": "sudah", "role": "helper word"}], "base": "makan", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 3, "verb": "minum", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah minum. Akan in front says it is still to come: Saya akan minum.", "rows": [
+				{"english": "I drink", "foreign": "Saya minum", "base": "minum", "features": {"who": "i", "when": "now"}},
+				{"english": "I drank", "foreign": "Saya sudah minum", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "minum", "features": {"who": "i", "when": "before"}},
+				{"english": "I will drink", "foreign": "Saya akan minum", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "minum", "features": {"who": "i", "when": "later"}},
+				{"english": "She drank", "foreign": "Dia sudah minum", "mark": [{"text": "sudah", "role": "helper word"}], "base": "minum", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 4, "verb": "datang", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah datang. Akan in front says it is still to come: Saya akan datang.", "rows": [
+				{"english": "I come", "foreign": "Saya datang", "base": "datang", "features": {"who": "i", "when": "now"}},
+				{"english": "I came", "foreign": "Saya sudah datang", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "datang", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come", "foreign": "Saya akan datang", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "datang", "features": {"who": "i", "when": "later"}},
+				{"english": "She came", "foreign": "Dia sudah datang", "mark": [{"text": "sudah", "role": "helper word"}], "base": "datang", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 5, "verb": "menonton", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menonton. Akan in front says it is still to come: Saya akan menonton.", "rows": [
+				{"english": "I watch", "foreign": "Saya menonton", "base": "menonton", "features": {"who": "i", "when": "now"}},
+				{"english": "I watched", "foreign": "Saya sudah menonton", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menonton", "features": {"who": "i", "when": "before"}},
+				{"english": "I will watch", "foreign": "Saya akan menonton", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menonton", "features": {"who": "i", "when": "later"}},
+				{"english": "She watched", "foreign": "Dia sudah menonton", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menonton", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 6, "verb": "mendengarkan", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah mendengarkan. Akan in front says it is still to come: Saya akan mendengarkan.", "rows": [
+				{"english": "I listen", "foreign": "Saya mendengarkan", "base": "mendengarkan", "features": {"who": "i", "when": "now"}},
+				{"english": "I listened", "foreign": "Saya sudah mendengarkan", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "mendengarkan", "features": {"who": "i", "when": "before"}},
+				{"english": "I will listen", "foreign": "Saya akan mendengarkan", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "mendengarkan", "features": {"who": "i", "when": "later"}},
+				{"english": "She listened", "foreign": "Dia sudah mendengarkan", "mark": [{"text": "sudah", "role": "helper word"}], "base": "mendengarkan", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 7, "verb": "berbicara", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah berbicara. Akan in front says it is still to come: Saya akan berbicara.", "rows": [
+				{"english": "I speak", "foreign": "Saya berbicara", "base": "berbicara", "features": {"who": "i", "when": "now"}},
+				{"english": "I spoke", "foreign": "Saya sudah berbicara", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "berbicara", "features": {"who": "i", "when": "before"}},
+				{"english": "I will speak", "foreign": "Saya akan berbicara", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "berbicara", "features": {"who": "i", "when": "later"}},
+				{"english": "She spoke", "foreign": "Dia sudah berbicara", "mark": [{"text": "sudah", "role": "helper word"}], "base": "berbicara", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 8, "verb": "menulis", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menulis. Akan in front says it is still to come: Saya akan menulis.", "rows": [
+				{"english": "I write", "foreign": "Saya menulis", "base": "menulis", "features": {"who": "i", "when": "now"}},
+				{"english": "I wrote", "foreign": "Saya sudah menulis", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menulis", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "Saya akan menulis", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menulis", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "Dia sudah menulis", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menulis", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 9, "verb": "berjalan", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah berjalan. Akan in front says it is still to come: Saya akan berjalan.", "rows": [
+				{"english": "I walk", "foreign": "Saya berjalan", "base": "berjalan", "features": {"who": "i", "when": "now"}},
+				{"english": "I walked", "foreign": "Saya sudah berjalan", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "berjalan", "features": {"who": "i", "when": "before"}},
+				{"english": "I will walk", "foreign": "Saya akan berjalan", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "berjalan", "features": {"who": "i", "when": "later"}},
+				{"english": "She walked", "foreign": "Dia sudah berjalan", "mark": [{"text": "sudah", "role": "helper word"}], "base": "berjalan", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 10, "verb": "berlari", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah berlari. Akan in front says it is still to come: Saya akan berlari.", "rows": [
+				{"english": "I run", "foreign": "Saya berlari", "base": "berlari", "features": {"who": "i", "when": "now"}},
+				{"english": "I ran", "foreign": "Saya sudah berlari", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "berlari", "features": {"who": "i", "when": "before"}},
+				{"english": "I will run", "foreign": "Saya akan berlari", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "berlari", "features": {"who": "i", "when": "later"}},
+				{"english": "She ran", "foreign": "Dia sudah berlari", "mark": [{"text": "sudah", "role": "helper word"}], "base": "berlari", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 11, "verb": "membeli", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah membeli. Akan in front says it is still to come: Saya akan membeli.", "rows": [
+				{"english": "I buy", "foreign": "Saya membeli", "base": "membeli", "features": {"who": "i", "when": "now"}},
+				{"english": "I bought", "foreign": "Saya sudah membeli", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "membeli", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "Saya akan membeli", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "membeli", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "Dia sudah membeli", "mark": [{"text": "sudah", "role": "helper word"}], "base": "membeli", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 12, "verb": "menjual", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menjual. Akan in front says it is still to come: Saya akan menjual.", "rows": [
+				{"english": "I sell", "foreign": "Saya menjual", "base": "menjual", "features": {"who": "i", "when": "now"}},
+				{"english": "I sold", "foreign": "Saya sudah menjual", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menjual", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "Saya akan menjual", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menjual", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "Dia sudah menjual", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menjual", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 13, "verb": "menunggu", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menunggu. Akan in front says it is still to come: Saya akan menunggu.", "rows": [
+				{"english": "I wait", "foreign": "Saya menunggu", "base": "menunggu", "features": {"who": "i", "when": "now"}},
+				{"english": "I waited", "foreign": "Saya sudah menunggu", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menunggu", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "Saya akan menunggu", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menunggu", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "Dia sudah menunggu", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menunggu", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 14, "verb": "mencari", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah mencari. Akan in front says it is still to come: Saya akan mencari.", "rows": [
+				{"english": "I look for", "foreign": "Saya mencari", "base": "mencari", "features": {"who": "i", "when": "now"}},
+				{"english": "I looked for", "foreign": "Saya sudah mencari", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "mencari", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look for", "foreign": "Saya akan mencari", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "mencari", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked for", "foreign": "Dia sudah mencari", "mark": [{"text": "sudah", "role": "helper word"}], "base": "mencari", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 15, "verb": "berpikir", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah berpikir. Akan in front says it is still to come: Saya akan berpikir.", "rows": [
+				{"english": "I think", "foreign": "Saya berpikir", "base": "berpikir", "features": {"who": "i", "when": "now"}},
+				{"english": "I thought", "foreign": "Saya sudah berpikir", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "berpikir", "features": {"who": "i", "when": "before"}},
+				{"english": "I will think", "foreign": "Saya akan berpikir", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "berpikir", "features": {"who": "i", "when": "later"}},
+				{"english": "She thought", "foreign": "Dia sudah berpikir", "mark": [{"text": "sudah", "role": "helper word"}], "base": "berpikir", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 16, "verb": "tertawa", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah tertawa. Akan in front says it is still to come: Saya akan tertawa.", "rows": [
+				{"english": "I laugh", "foreign": "Saya tertawa", "base": "tertawa", "features": {"who": "i", "when": "now"}},
+				{"english": "I laughed", "foreign": "Saya sudah tertawa", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "tertawa", "features": {"who": "i", "when": "before"}},
+				{"english": "I will laugh", "foreign": "Saya akan tertawa", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "tertawa", "features": {"who": "i", "when": "later"}},
+				{"english": "She laughed", "foreign": "Dia sudah tertawa", "mark": [{"text": "sudah", "role": "helper word"}], "base": "tertawa", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 17, "verb": "menangis", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menangis. Akan in front says it is still to come: Saya akan menangis.", "rows": [
+				{"english": "I cry", "foreign": "Saya menangis", "base": "menangis", "features": {"who": "i", "when": "now"}},
+				{"english": "I cried", "foreign": "Saya sudah menangis", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menangis", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cry", "foreign": "Saya akan menangis", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menangis", "features": {"who": "i", "when": "later"}},
+				{"english": "She cried", "foreign": "Dia sudah menangis", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menangis", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 18, "verb": "bermain", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah bermain. Akan in front says it is still to come: Saya akan bermain.", "rows": [
+				{"english": "I play", "foreign": "Saya bermain", "base": "bermain", "features": {"who": "i", "when": "now"}},
+				{"english": "I played", "foreign": "Saya sudah bermain", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "bermain", "features": {"who": "i", "when": "before"}},
+				{"english": "I will play", "foreign": "Saya akan bermain", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "bermain", "features": {"who": "i", "when": "later"}},
+				{"english": "She played", "foreign": "Dia sudah bermain", "mark": [{"text": "sudah", "role": "helper word"}], "base": "bermain", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 19, "verb": "bernyanyi", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah bernyanyi. Akan in front says it is still to come: Saya akan bernyanyi.", "rows": [
+				{"english": "I sing", "foreign": "Saya bernyanyi", "base": "bernyanyi", "features": {"who": "i", "when": "now"}},
+				{"english": "I sang", "foreign": "Saya sudah bernyanyi", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "bernyanyi", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sing", "foreign": "Saya akan bernyanyi", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "bernyanyi", "features": {"who": "i", "when": "later"}},
+				{"english": "She sang", "foreign": "Dia sudah bernyanyi", "mark": [{"text": "sudah", "role": "helper word"}], "base": "bernyanyi", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 20, "verb": "menari", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menari. Akan in front says it is still to come: Saya akan menari.", "rows": [
+				{"english": "I dance", "foreign": "Saya menari", "base": "menari", "features": {"who": "i", "when": "now"}},
+				{"english": "I danced", "foreign": "Saya sudah menari", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menari", "features": {"who": "i", "when": "before"}},
+				{"english": "I will dance", "foreign": "Saya akan menari", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menari", "features": {"who": "i", "when": "later"}},
+				{"english": "She danced", "foreign": "Dia sudah menari", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menari", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 21, "verb": "berenang", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah berenang. Akan in front says it is still to come: Saya akan berenang.", "rows": [
+				{"english": "I swim", "foreign": "Saya berenang", "base": "berenang", "features": {"who": "i", "when": "now"}},
+				{"english": "I swam", "foreign": "Saya sudah berenang", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "berenang", "features": {"who": "i", "when": "before"}},
+				{"english": "I will swim", "foreign": "Saya akan berenang", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "berenang", "features": {"who": "i", "when": "later"}},
+				{"english": "She swam", "foreign": "Dia sudah berenang", "mark": [{"text": "sudah", "role": "helper word"}], "base": "berenang", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 22, "verb": "bekerja", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah bekerja. Akan in front says it is still to come: Saya akan bekerja.", "rows": [
+				{"english": "I work", "foreign": "Saya bekerja", "base": "bekerja", "features": {"who": "i", "when": "now"}},
+				{"english": "I worked", "foreign": "Saya sudah bekerja", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "bekerja", "features": {"who": "i", "when": "before"}},
+				{"english": "I will work", "foreign": "Saya akan bekerja", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "bekerja", "features": {"who": "i", "when": "later"}},
+				{"english": "She worked", "foreign": "Dia sudah bekerja", "mark": [{"text": "sudah", "role": "helper word"}], "base": "bekerja", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 23, "verb": "belajar", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah belajar. Akan in front says it is still to come: Saya akan belajar.", "rows": [
+				{"english": "I study", "foreign": "Saya belajar", "base": "belajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I studied", "foreign": "Saya sudah belajar", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "belajar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will study", "foreign": "Saya akan belajar", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "belajar", "features": {"who": "i", "when": "later"}},
+				{"english": "She studied", "foreign": "Dia sudah belajar", "mark": [{"text": "sudah", "role": "helper word"}], "base": "belajar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 24, "verb": "beristirahat", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah beristirahat. Akan in front says it is still to come: Saya akan beristirahat.", "rows": [
+				{"english": "I rest", "foreign": "Saya beristirahat", "base": "beristirahat", "features": {"who": "i", "when": "now"}},
+				{"english": "I rested", "foreign": "Saya sudah beristirahat", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "beristirahat", "features": {"who": "i", "when": "before"}},
+				{"english": "I will rest", "foreign": "Saya akan beristirahat", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "beristirahat", "features": {"who": "i", "when": "later"}},
+				{"english": "She rested", "foreign": "Dia sudah beristirahat", "mark": [{"text": "sudah", "role": "helper word"}], "base": "beristirahat", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 25, "verb": "memulai", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah memulai. Akan in front says it is still to come: Saya akan memulai.", "rows": [
+				{"english": "I begin", "foreign": "Saya memulai", "base": "memulai", "features": {"who": "i", "when": "now"}},
+				{"english": "I began", "foreign": "Saya sudah memulai", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "memulai", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "Saya akan memulai", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "memulai", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "Dia sudah memulai", "mark": [{"text": "sudah", "role": "helper word"}], "base": "memulai", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 26, "verb": "membantu", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah membantu. Akan in front says it is still to come: Saya akan membantu.", "rows": [
+				{"english": "I help", "foreign": "Saya membantu", "base": "membantu", "features": {"who": "i", "when": "now"}},
+				{"english": "I helped", "foreign": "Saya sudah membantu", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "membantu", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "Saya akan membantu", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "membantu", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "Dia sudah membantu", "mark": [{"text": "sudah", "role": "helper word"}], "base": "membantu", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 27, "verb": "kembali", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah kembali. Akan in front says it is still to come: Saya akan kembali.", "rows": [
+				{"english": "I come back", "foreign": "Saya kembali", "base": "kembali", "features": {"who": "i", "when": "now"}},
+				{"english": "I came back", "foreign": "Saya sudah kembali", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "kembali", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come back", "foreign": "Saya akan kembali", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "kembali", "features": {"who": "i", "when": "later"}},
+				{"english": "She came back", "foreign": "Dia sudah kembali", "mark": [{"text": "sudah", "role": "helper word"}], "base": "kembali", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 28, "verb": "keluar", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah keluar. Akan in front says it is still to come: Saya akan keluar.", "rows": [
+				{"english": "I go out", "foreign": "Saya keluar", "base": "keluar", "features": {"who": "i", "when": "now"}},
+				{"english": "I went out", "foreign": "Saya sudah keluar", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "keluar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go out", "foreign": "Saya akan keluar", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "keluar", "features": {"who": "i", "when": "later"}},
+				{"english": "She went out", "foreign": "Dia sudah keluar", "mark": [{"text": "sudah", "role": "helper word"}], "base": "keluar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 29, "verb": "masuk", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah masuk. Akan in front says it is still to come: Saya akan masuk.", "rows": [
+				{"english": "I come in", "foreign": "Saya masuk", "base": "masuk", "features": {"who": "i", "when": "now"}},
+				{"english": "I came in", "foreign": "Saya sudah masuk", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "masuk", "features": {"who": "i", "when": "before"}},
+				{"english": "I will come in", "foreign": "Saya akan masuk", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "masuk", "features": {"who": "i", "when": "later"}},
+				{"english": "She came in", "foreign": "Dia sudah masuk", "mark": [{"text": "sudah", "role": "helper word"}], "base": "masuk", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 30, "verb": "bepergian", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah bepergian. Akan in front says it is still to come: Saya akan bepergian.", "rows": [
+				{"english": "I travel", "foreign": "Saya bepergian", "base": "bepergian", "features": {"who": "i", "when": "now"}},
+				{"english": "I travelled", "foreign": "Saya sudah bepergian", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "bepergian", "features": {"who": "i", "when": "before"}},
+				{"english": "I will travel", "foreign": "Saya akan bepergian", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "bepergian", "features": {"who": "i", "when": "later"}},
+				{"english": "She travelled", "foreign": "Dia sudah bepergian", "mark": [{"text": "sudah", "role": "helper word"}], "base": "bepergian", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 31, "verb": "memasak", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah memasak. Akan in front says it is still to come: Saya akan memasak.", "rows": [
+				{"english": "I cook", "foreign": "Saya memasak", "base": "memasak", "features": {"who": "i", "when": "now"}},
+				{"english": "I cooked", "foreign": "Saya sudah memasak", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "memasak", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "Saya akan memasak", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "memasak", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "Dia sudah memasak", "mark": [{"text": "sudah", "role": "helper word"}], "base": "memasak", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 32, "verb": "menelepon", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menelepon. Akan in front says it is still to come: Saya akan menelepon.", "rows": [
+				{"english": "I phone", "foreign": "Saya menelepon", "base": "menelepon", "features": {"who": "i", "when": "now"}},
+				{"english": "I phoned", "foreign": "Saya sudah menelepon", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menelepon", "features": {"who": "i", "when": "before"}},
+				{"english": "I will phone", "foreign": "Saya akan menelepon", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menelepon", "features": {"who": "i", "when": "later"}},
+				{"english": "She phoned", "foreign": "Dia sudah menelepon", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menelepon", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 33, "verb": "duduk", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah duduk. Akan in front says it is still to come: Saya akan duduk.", "rows": [
+				{"english": "I sit", "foreign": "Saya duduk", "base": "duduk", "features": {"who": "i", "when": "now"}},
+				{"english": "I sat", "foreign": "Saya sudah duduk", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "duduk", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sit", "foreign": "Saya akan duduk", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "duduk", "features": {"who": "i", "when": "later"}},
+				{"english": "She sat", "foreign": "Dia sudah duduk", "mark": [{"text": "sudah", "role": "helper word"}], "base": "duduk", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 34, "verb": "berdiri", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah berdiri. Akan in front says it is still to come: Saya akan berdiri.", "rows": [
+				{"english": "I stand", "foreign": "Saya berdiri", "base": "berdiri", "features": {"who": "i", "when": "now"}},
+				{"english": "I stood", "foreign": "Saya sudah berdiri", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "berdiri", "features": {"who": "i", "when": "before"}},
+				{"english": "I will stand", "foreign": "Saya akan berdiri", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "berdiri", "features": {"who": "i", "when": "later"}},
+				{"english": "She stood", "foreign": "Dia sudah berdiri", "mark": [{"text": "sudah", "role": "helper word"}], "base": "berdiri", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 35, "verb": "terbang", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah terbang. Akan in front says it is still to come: Saya akan terbang.", "rows": [
+				{"english": "I fly", "foreign": "Saya terbang", "base": "terbang", "features": {"who": "i", "when": "now"}},
+				{"english": "I flew", "foreign": "Saya sudah terbang", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "terbang", "features": {"who": "i", "when": "before"}},
+				{"english": "I will fly", "foreign": "Saya akan terbang", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "terbang", "features": {"who": "i", "when": "later"}},
+				{"english": "She flew", "foreign": "Dia sudah terbang", "mark": [{"text": "sudah", "role": "helper word"}], "base": "terbang", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 36, "verb": "menjawab", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menjawab. Akan in front says it is still to come: Saya akan menjawab.", "rows": [
+				{"english": "I answer", "foreign": "Saya menjawab", "base": "menjawab", "features": {"who": "i", "when": "now"}},
+				{"english": "I answered", "foreign": "Saya sudah menjawab", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menjawab", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "Saya akan menjawab", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menjawab", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "Dia sudah menjawab", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menjawab", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 37, "verb": "bertanya", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah bertanya. Akan in front says it is still to come: Saya akan bertanya.", "rows": [
+				{"english": "I ask", "foreign": "Saya bertanya", "base": "bertanya", "features": {"who": "i", "when": "now"}},
+				{"english": "I asked", "foreign": "Saya sudah bertanya", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "bertanya", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "Saya akan bertanya", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "bertanya", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "Dia sudah bertanya", "mark": [{"text": "sudah", "role": "helper word"}], "base": "bertanya", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 38, "verb": "lupa", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah lupa. Akan in front says it is still to come: Saya akan lupa.", "rows": [
+				{"english": "I forget", "foreign": "Saya lupa", "base": "lupa", "features": {"who": "i", "when": "now"}},
+				{"english": "I forgot", "foreign": "Saya sudah lupa", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "lupa", "features": {"who": "i", "when": "before"}},
+				{"english": "I will forget", "foreign": "Saya akan lupa", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "lupa", "features": {"who": "i", "when": "later"}},
+				{"english": "She forgot", "foreign": "Dia sudah lupa", "mark": [{"text": "sudah", "role": "helper word"}], "base": "lupa", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 39, "verb": "membayar", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah membayar. Akan in front says it is still to come: Saya akan membayar.", "rows": [
+				{"english": "I pay", "foreign": "Saya membayar", "base": "membayar", "features": {"who": "i", "when": "now"}},
+				{"english": "I paid", "foreign": "Saya sudah membayar", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "membayar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "Saya akan membayar", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "membayar", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "Dia sudah membayar", "mark": [{"text": "sudah", "role": "helper word"}], "base": "membayar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 40, "verb": "bangun", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah bangun. Akan in front says it is still to come: Saya akan bangun.", "rows": [
+				{"english": "I get up", "foreign": "Saya bangun", "base": "bangun", "features": {"who": "i", "when": "now"}},
+				{"english": "I got up", "foreign": "Saya sudah bangun", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "bangun", "features": {"who": "i", "when": "before"}},
+				{"english": "I will get up", "foreign": "Saya akan bangun", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "bangun", "features": {"who": "i", "when": "later"}},
+				{"english": "She got up", "foreign": "Dia sudah bangun", "mark": [{"text": "sudah", "role": "helper word"}], "base": "bangun", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 41, "verb": "mengajar", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah mengajar. Akan in front says it is still to come: Saya akan mengajar.", "rows": [
+				{"english": "I teach", "foreign": "Saya mengajar", "base": "mengajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I taught", "foreign": "Saya sudah mengajar", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "mengajar", "features": {"who": "i", "when": "before"}},
+				{"english": "I will teach", "foreign": "Saya akan mengajar", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "mengajar", "features": {"who": "i", "when": "later"}},
+				{"english": "She taught", "foreign": "Dia sudah mengajar", "mark": [{"text": "sudah", "role": "helper word"}], "base": "mengajar", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 42, "verb": "membuat", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah membuat. Akan in front says it is still to come: Saya akan membuat.", "rows": [
+				{"english": "I make", "foreign": "Saya membuat", "base": "membuat", "features": {"who": "i", "when": "now"}},
+				{"english": "I made", "foreign": "Saya sudah membuat", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "membuat", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "Saya akan membuat", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "membuat", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "Dia sudah membuat", "mark": [{"text": "sudah", "role": "helper word"}], "base": "membuat", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 43, "verb": "menggunakan", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menggunakan. Akan in front says it is still to come: Saya akan menggunakan.", "rows": [
+				{"english": "I use", "foreign": "Saya menggunakan", "base": "menggunakan", "features": {"who": "i", "when": "now"}},
+				{"english": "I used", "foreign": "Saya sudah menggunakan", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menggunakan", "features": {"who": "i", "when": "before"}},
+				{"english": "I will use", "foreign": "Saya akan menggunakan", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menggunakan", "features": {"who": "i", "when": "later"}},
+				{"english": "She used", "foreign": "Dia sudah menggunakan", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menggunakan", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 44, "verb": "mencuci", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah mencuci. Akan in front says it is still to come: Saya akan mencuci.", "rows": [
+				{"english": "I wash", "foreign": "Saya mencuci", "base": "mencuci", "features": {"who": "i", "when": "now"}},
+				{"english": "I washed", "foreign": "Saya sudah mencuci", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "mencuci", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wash", "foreign": "Saya akan mencuci", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "mencuci", "features": {"who": "i", "when": "later"}},
+				{"english": "She washed", "foreign": "Dia sudah mencuci", "mark": [{"text": "sudah", "role": "helper word"}], "base": "mencuci", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 45, "verb": "membuka", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah membuka. Akan in front says it is still to come: Saya akan membuka.", "rows": [
+				{"english": "I open", "foreign": "Saya membuka", "base": "membuka", "features": {"who": "i", "when": "now"}},
+				{"english": "I opened", "foreign": "Saya sudah membuka", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "membuka", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "Saya akan membuka", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "membuka", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "Dia sudah membuka", "mark": [{"text": "sudah", "role": "helper word"}], "base": "membuka", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 46, "verb": "menutup", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah menutup. Akan in front says it is still to come: Saya akan menutup.", "rows": [
+				{"english": "I close", "foreign": "Saya menutup", "base": "menutup", "features": {"who": "i", "when": "now"}},
+				{"english": "I closed", "foreign": "Saya sudah menutup", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "menutup", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "Saya akan menutup", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "menutup", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "Dia sudah menutup", "mark": [{"text": "sudah", "role": "helper word"}], "base": "menutup", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 47, "verb": "bertemu", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah bertemu. Akan in front says it is still to come: Saya akan bertemu.", "rows": [
+				{"english": "I meet", "foreign": "Saya bertemu", "base": "bertemu", "features": {"who": "i", "when": "now"}},
+				{"english": "I met", "foreign": "Saya sudah bertemu", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "bertemu", "features": {"who": "i", "when": "before"}},
+				{"english": "I will meet", "foreign": "Saya akan bertemu", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "bertemu", "features": {"who": "i", "when": "later"}},
+				{"english": "She met", "foreign": "Dia sudah bertemu", "mark": [{"text": "sudah", "role": "helper word"}], "base": "bertemu", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 48, "verb": "mengirim", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah mengirim. Akan in front says it is still to come: Saya akan mengirim.", "rows": [
+				{"english": "I send", "foreign": "Saya mengirim", "base": "mengirim", "features": {"who": "i", "when": "now"}},
+				{"english": "I sent", "foreign": "Saya sudah mengirim", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "mengirim", "features": {"who": "i", "when": "before"}},
+				{"english": "I will send", "foreign": "Saya akan mengirim", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "mengirim", "features": {"who": "i", "when": "later"}},
+				{"english": "She sent", "foreign": "Dia sudah mengirim", "mark": [{"text": "sudah", "role": "helper word"}], "base": "mengirim", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 49, "verb": "memanggil", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah memanggil. Akan in front says it is still to come: Saya akan memanggil.", "rows": [
+				{"english": "I call", "foreign": "Saya memanggil", "base": "memanggil", "features": {"who": "i", "when": "now"}},
+				{"english": "I called", "foreign": "Saya sudah memanggil", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "memanggil", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "Saya akan memanggil", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "memanggil", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "Dia sudah memanggil", "mark": [{"text": "sudah", "role": "helper word"}], "base": "memanggil", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "when", "part": 50, "verb": "tidur", "strategy": ["helper word"], "description": "The verb never changes for when. Sudah in front says the thing is done: Saya sudah tidur. Akan in front says it is still to come: Saya akan tidur.", "rows": [
+				{"english": "I sleep", "foreign": "Saya tidur", "base": "tidur", "features": {"who": "i", "when": "now"}},
+				{"english": "I slept", "foreign": "Saya sudah tidur", "mark": [{"text": "sudah", "role": "helper word"}], "from": 1, "base": "tidur", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sleep", "foreign": "Saya akan tidur", "mark": [{"text": "akan", "role": "helper word"}], "from": 1, "base": "tidur", "features": {"who": "i", "when": "later"}},
+				{"english": "She slept", "foreign": "Dia sudah tidur", "mark": [{"text": "sudah", "role": "helper word"}], "base": "tidur", "features": {"who": "she", "when": "before"}}
+			]},
+		{"job": "going", "part": 2, "verb": "makan", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang makan. The verb itself stays as it is.", "rows": [
+				{"english": "I eat", "foreign": "Saya makan", "base": "makan", "features": {"who": "i", "when": "now"}},
+				{"english": "I am eating", "foreign": "Saya sedang makan", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "makan", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She eats", "foreign": "Dia makan", "base": "makan", "features": {"who": "she", "when": "now"}},
+				{"english": "She is eating", "foreign": "Dia sedang makan", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "makan", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 3, "verb": "minum", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang minum. The verb itself stays as it is.", "rows": [
+				{"english": "I drink", "foreign": "Saya minum", "base": "minum", "features": {"who": "i", "when": "now"}},
+				{"english": "I am drinking", "foreign": "Saya sedang minum", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "minum", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She drinks", "foreign": "Dia minum", "base": "minum", "features": {"who": "she", "when": "now"}},
+				{"english": "She is drinking", "foreign": "Dia sedang minum", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "minum", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 5, "verb": "menonton", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menonton. The verb itself stays as it is.", "rows": [
+				{"english": "I watch", "foreign": "Saya menonton", "base": "menonton", "features": {"who": "i", "when": "now"}},
+				{"english": "I am watching", "foreign": "Saya sedang menonton", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menonton", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She watches", "foreign": "Dia menonton", "base": "menonton", "features": {"who": "she", "when": "now"}},
+				{"english": "She is watching", "foreign": "Dia sedang menonton", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menonton", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 6, "verb": "mendengarkan", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang mendengarkan. The verb itself stays as it is.", "rows": [
+				{"english": "I listen", "foreign": "Saya mendengarkan", "base": "mendengarkan", "features": {"who": "i", "when": "now"}},
+				{"english": "I am listening", "foreign": "Saya sedang mendengarkan", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "mendengarkan", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She listens", "foreign": "Dia mendengarkan", "base": "mendengarkan", "features": {"who": "she", "when": "now"}},
+				{"english": "She is listening", "foreign": "Dia sedang mendengarkan", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "mendengarkan", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 7, "verb": "berbicara", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang berbicara. The verb itself stays as it is.", "rows": [
+				{"english": "I speak", "foreign": "Saya berbicara", "base": "berbicara", "features": {"who": "i", "when": "now"}},
+				{"english": "I am speaking", "foreign": "Saya sedang berbicara", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "berbicara", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She speaks", "foreign": "Dia berbicara", "base": "berbicara", "features": {"who": "she", "when": "now"}},
+				{"english": "She is speaking", "foreign": "Dia sedang berbicara", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "berbicara", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 8, "verb": "menulis", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menulis. The verb itself stays as it is.", "rows": [
+				{"english": "I write", "foreign": "Saya menulis", "base": "menulis", "features": {"who": "i", "when": "now"}},
+				{"english": "I am writing", "foreign": "Saya sedang menulis", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menulis", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She writes", "foreign": "Dia menulis", "base": "menulis", "features": {"who": "she", "when": "now"}},
+				{"english": "She is writing", "foreign": "Dia sedang menulis", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menulis", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 9, "verb": "berjalan", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang berjalan. The verb itself stays as it is.", "rows": [
+				{"english": "I walk", "foreign": "Saya berjalan", "base": "berjalan", "features": {"who": "i", "when": "now"}},
+				{"english": "I am walking", "foreign": "Saya sedang berjalan", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "berjalan", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She walks", "foreign": "Dia berjalan", "base": "berjalan", "features": {"who": "she", "when": "now"}},
+				{"english": "She is walking", "foreign": "Dia sedang berjalan", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "berjalan", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 10, "verb": "berlari", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang berlari. The verb itself stays as it is.", "rows": [
+				{"english": "I run", "foreign": "Saya berlari", "base": "berlari", "features": {"who": "i", "when": "now"}},
+				{"english": "I am running", "foreign": "Saya sedang berlari", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "berlari", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She runs", "foreign": "Dia berlari", "base": "berlari", "features": {"who": "she", "when": "now"}},
+				{"english": "She is running", "foreign": "Dia sedang berlari", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "berlari", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 11, "verb": "membeli", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang membeli. The verb itself stays as it is.", "rows": [
+				{"english": "I buy", "foreign": "Saya membeli", "base": "membeli", "features": {"who": "i", "when": "now"}},
+				{"english": "I am buying", "foreign": "Saya sedang membeli", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "membeli", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She buys", "foreign": "Dia membeli", "base": "membeli", "features": {"who": "she", "when": "now"}},
+				{"english": "She is buying", "foreign": "Dia sedang membeli", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "membeli", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 12, "verb": "menjual", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menjual. The verb itself stays as it is.", "rows": [
+				{"english": "I sell", "foreign": "Saya menjual", "base": "menjual", "features": {"who": "i", "when": "now"}},
+				{"english": "I am selling", "foreign": "Saya sedang menjual", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menjual", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sells", "foreign": "Dia menjual", "base": "menjual", "features": {"who": "she", "when": "now"}},
+				{"english": "She is selling", "foreign": "Dia sedang menjual", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menjual", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 13, "verb": "menunggu", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menunggu. The verb itself stays as it is.", "rows": [
+				{"english": "I wait", "foreign": "Saya menunggu", "base": "menunggu", "features": {"who": "i", "when": "now"}},
+				{"english": "I am waiting", "foreign": "Saya sedang menunggu", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menunggu", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She waits", "foreign": "Dia menunggu", "base": "menunggu", "features": {"who": "she", "when": "now"}},
+				{"english": "She is waiting", "foreign": "Dia sedang menunggu", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menunggu", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 14, "verb": "mencari", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang mencari. The verb itself stays as it is.", "rows": [
+				{"english": "I look for", "foreign": "Saya mencari", "base": "mencari", "features": {"who": "i", "when": "now"}},
+				{"english": "I am looking for", "foreign": "Saya sedang mencari", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "mencari", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She looks for", "foreign": "Dia mencari", "base": "mencari", "features": {"who": "she", "when": "now"}},
+				{"english": "She is looking for", "foreign": "Dia sedang mencari", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "mencari", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 15, "verb": "berpikir", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang berpikir. The verb itself stays as it is.", "rows": [
+				{"english": "I think", "foreign": "Saya berpikir", "base": "berpikir", "features": {"who": "i", "when": "now"}},
+				{"english": "I am thinking", "foreign": "Saya sedang berpikir", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "berpikir", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She thinks", "foreign": "Dia berpikir", "base": "berpikir", "features": {"who": "she", "when": "now"}},
+				{"english": "She is thinking", "foreign": "Dia sedang berpikir", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "berpikir", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 16, "verb": "tertawa", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang tertawa. The verb itself stays as it is.", "rows": [
+				{"english": "I laugh", "foreign": "Saya tertawa", "base": "tertawa", "features": {"who": "i", "when": "now"}},
+				{"english": "I am laughing", "foreign": "Saya sedang tertawa", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "tertawa", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She laughs", "foreign": "Dia tertawa", "base": "tertawa", "features": {"who": "she", "when": "now"}},
+				{"english": "She is laughing", "foreign": "Dia sedang tertawa", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "tertawa", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 17, "verb": "menangis", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menangis. The verb itself stays as it is.", "rows": [
+				{"english": "I cry", "foreign": "Saya menangis", "base": "menangis", "features": {"who": "i", "when": "now"}},
+				{"english": "I am crying", "foreign": "Saya sedang menangis", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menangis", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cries", "foreign": "Dia menangis", "base": "menangis", "features": {"who": "she", "when": "now"}},
+				{"english": "She is crying", "foreign": "Dia sedang menangis", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menangis", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 18, "verb": "bermain", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang bermain. The verb itself stays as it is.", "rows": [
+				{"english": "I play", "foreign": "Saya bermain", "base": "bermain", "features": {"who": "i", "when": "now"}},
+				{"english": "I am playing", "foreign": "Saya sedang bermain", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "bermain", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She plays", "foreign": "Dia bermain", "base": "bermain", "features": {"who": "she", "when": "now"}},
+				{"english": "She is playing", "foreign": "Dia sedang bermain", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "bermain", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 19, "verb": "bernyanyi", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang bernyanyi. The verb itself stays as it is.", "rows": [
+				{"english": "I sing", "foreign": "Saya bernyanyi", "base": "bernyanyi", "features": {"who": "i", "when": "now"}},
+				{"english": "I am singing", "foreign": "Saya sedang bernyanyi", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "bernyanyi", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sings", "foreign": "Dia bernyanyi", "base": "bernyanyi", "features": {"who": "she", "when": "now"}},
+				{"english": "She is singing", "foreign": "Dia sedang bernyanyi", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "bernyanyi", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 20, "verb": "menari", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menari. The verb itself stays as it is.", "rows": [
+				{"english": "I dance", "foreign": "Saya menari", "base": "menari", "features": {"who": "i", "when": "now"}},
+				{"english": "I am dancing", "foreign": "Saya sedang menari", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menari", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She dances", "foreign": "Dia menari", "base": "menari", "features": {"who": "she", "when": "now"}},
+				{"english": "She is dancing", "foreign": "Dia sedang menari", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menari", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 21, "verb": "berenang", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang berenang. The verb itself stays as it is.", "rows": [
+				{"english": "I swim", "foreign": "Saya berenang", "base": "berenang", "features": {"who": "i", "when": "now"}},
+				{"english": "I am swimming", "foreign": "Saya sedang berenang", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "berenang", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She swims", "foreign": "Dia berenang", "base": "berenang", "features": {"who": "she", "when": "now"}},
+				{"english": "She is swimming", "foreign": "Dia sedang berenang", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "berenang", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 22, "verb": "bekerja", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang bekerja. The verb itself stays as it is.", "rows": [
+				{"english": "I work", "foreign": "Saya bekerja", "base": "bekerja", "features": {"who": "i", "when": "now"}},
+				{"english": "I am working", "foreign": "Saya sedang bekerja", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "bekerja", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She works", "foreign": "Dia bekerja", "base": "bekerja", "features": {"who": "she", "when": "now"}},
+				{"english": "She is working", "foreign": "Dia sedang bekerja", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "bekerja", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 23, "verb": "belajar", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang belajar. The verb itself stays as it is.", "rows": [
+				{"english": "I study", "foreign": "Saya belajar", "base": "belajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am studying", "foreign": "Saya sedang belajar", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "belajar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She studies", "foreign": "Dia belajar", "base": "belajar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is studying", "foreign": "Dia sedang belajar", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "belajar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 24, "verb": "beristirahat", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang beristirahat. The verb itself stays as it is.", "rows": [
+				{"english": "I rest", "foreign": "Saya beristirahat", "base": "beristirahat", "features": {"who": "i", "when": "now"}},
+				{"english": "I am resting", "foreign": "Saya sedang beristirahat", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "beristirahat", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She rests", "foreign": "Dia beristirahat", "base": "beristirahat", "features": {"who": "she", "when": "now"}},
+				{"english": "She is resting", "foreign": "Dia sedang beristirahat", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "beristirahat", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 26, "verb": "membantu", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang membantu. The verb itself stays as it is.", "rows": [
+				{"english": "I help", "foreign": "Saya membantu", "base": "membantu", "features": {"who": "i", "when": "now"}},
+				{"english": "I am helping", "foreign": "Saya sedang membantu", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "membantu", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She helps", "foreign": "Dia membantu", "base": "membantu", "features": {"who": "she", "when": "now"}},
+				{"english": "She is helping", "foreign": "Dia sedang membantu", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "membantu", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 30, "verb": "bepergian", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang bepergian. The verb itself stays as it is.", "rows": [
+				{"english": "I travel", "foreign": "Saya bepergian", "base": "bepergian", "features": {"who": "i", "when": "now"}},
+				{"english": "I am travelling", "foreign": "Saya sedang bepergian", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "bepergian", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She travels", "foreign": "Dia bepergian", "base": "bepergian", "features": {"who": "she", "when": "now"}},
+				{"english": "She is travelling", "foreign": "Dia sedang bepergian", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "bepergian", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 31, "verb": "memasak", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang memasak. The verb itself stays as it is.", "rows": [
+				{"english": "I cook", "foreign": "Saya memasak", "base": "memasak", "features": {"who": "i", "when": "now"}},
+				{"english": "I am cooking", "foreign": "Saya sedang memasak", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "memasak", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She cooks", "foreign": "Dia memasak", "base": "memasak", "features": {"who": "she", "when": "now"}},
+				{"english": "She is cooking", "foreign": "Dia sedang memasak", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "memasak", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 32, "verb": "menelepon", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menelepon. The verb itself stays as it is.", "rows": [
+				{"english": "I phone", "foreign": "Saya menelepon", "base": "menelepon", "features": {"who": "i", "when": "now"}},
+				{"english": "I am phoning", "foreign": "Saya sedang menelepon", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menelepon", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She phones", "foreign": "Dia menelepon", "base": "menelepon", "features": {"who": "she", "when": "now"}},
+				{"english": "She is phoning", "foreign": "Dia sedang menelepon", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menelepon", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 35, "verb": "terbang", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang terbang. The verb itself stays as it is.", "rows": [
+				{"english": "I fly", "foreign": "Saya terbang", "base": "terbang", "features": {"who": "i", "when": "now"}},
+				{"english": "I am flying", "foreign": "Saya sedang terbang", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "terbang", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She flies", "foreign": "Dia terbang", "base": "terbang", "features": {"who": "she", "when": "now"}},
+				{"english": "She is flying", "foreign": "Dia sedang terbang", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "terbang", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 36, "verb": "menjawab", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menjawab. The verb itself stays as it is.", "rows": [
+				{"english": "I answer", "foreign": "Saya menjawab", "base": "menjawab", "features": {"who": "i", "when": "now"}},
+				{"english": "I am answering", "foreign": "Saya sedang menjawab", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menjawab", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She answers", "foreign": "Dia menjawab", "base": "menjawab", "features": {"who": "she", "when": "now"}},
+				{"english": "She is answering", "foreign": "Dia sedang menjawab", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menjawab", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 37, "verb": "bertanya", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang bertanya. The verb itself stays as it is.", "rows": [
+				{"english": "I ask", "foreign": "Saya bertanya", "base": "bertanya", "features": {"who": "i", "when": "now"}},
+				{"english": "I am asking", "foreign": "Saya sedang bertanya", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "bertanya", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She asks", "foreign": "Dia bertanya", "base": "bertanya", "features": {"who": "she", "when": "now"}},
+				{"english": "She is asking", "foreign": "Dia sedang bertanya", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "bertanya", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 38, "verb": "membayar", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang membayar. The verb itself stays as it is.", "rows": [
+				{"english": "I pay", "foreign": "Saya membayar", "base": "membayar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am paying", "foreign": "Saya sedang membayar", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "membayar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She pays", "foreign": "Dia membayar", "base": "membayar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is paying", "foreign": "Dia sedang membayar", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "membayar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 40, "verb": "mengajar", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang mengajar. The verb itself stays as it is.", "rows": [
+				{"english": "I teach", "foreign": "Saya mengajar", "base": "mengajar", "features": {"who": "i", "when": "now"}},
+				{"english": "I am teaching", "foreign": "Saya sedang mengajar", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "mengajar", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She teaches", "foreign": "Dia mengajar", "base": "mengajar", "features": {"who": "she", "when": "now"}},
+				{"english": "She is teaching", "foreign": "Dia sedang mengajar", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "mengajar", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 41, "verb": "membuat", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang membuat. The verb itself stays as it is.", "rows": [
+				{"english": "I make", "foreign": "Saya membuat", "base": "membuat", "features": {"who": "i", "when": "now"}},
+				{"english": "I am making", "foreign": "Saya sedang membuat", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "membuat", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She makes", "foreign": "Dia membuat", "base": "membuat", "features": {"who": "she", "when": "now"}},
+				{"english": "She is making", "foreign": "Dia sedang membuat", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "membuat", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 42, "verb": "menggunakan", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menggunakan. The verb itself stays as it is.", "rows": [
+				{"english": "I use", "foreign": "Saya menggunakan", "base": "menggunakan", "features": {"who": "i", "when": "now"}},
+				{"english": "I am using", "foreign": "Saya sedang menggunakan", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menggunakan", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She uses", "foreign": "Dia menggunakan", "base": "menggunakan", "features": {"who": "she", "when": "now"}},
+				{"english": "She is using", "foreign": "Dia sedang menggunakan", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menggunakan", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 43, "verb": "mencuci", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang mencuci. The verb itself stays as it is.", "rows": [
+				{"english": "I wash", "foreign": "Saya mencuci", "base": "mencuci", "features": {"who": "i", "when": "now"}},
+				{"english": "I am washing", "foreign": "Saya sedang mencuci", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "mencuci", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She washes", "foreign": "Dia mencuci", "base": "mencuci", "features": {"who": "she", "when": "now"}},
+				{"english": "She is washing", "foreign": "Dia sedang mencuci", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "mencuci", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 44, "verb": "membuka", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang membuka. The verb itself stays as it is.", "rows": [
+				{"english": "I open", "foreign": "Saya membuka", "base": "membuka", "features": {"who": "i", "when": "now"}},
+				{"english": "I am opening", "foreign": "Saya sedang membuka", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "membuka", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She opens", "foreign": "Dia membuka", "base": "membuka", "features": {"who": "she", "when": "now"}},
+				{"english": "She is opening", "foreign": "Dia sedang membuka", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "membuka", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 45, "verb": "menutup", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang menutup. The verb itself stays as it is.", "rows": [
+				{"english": "I close", "foreign": "Saya menutup", "base": "menutup", "features": {"who": "i", "when": "now"}},
+				{"english": "I am closing", "foreign": "Saya sedang menutup", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "menutup", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She closes", "foreign": "Dia menutup", "base": "menutup", "features": {"who": "she", "when": "now"}},
+				{"english": "She is closing", "foreign": "Dia sedang menutup", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "menutup", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 46, "verb": "bertemu", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang bertemu. The verb itself stays as it is.", "rows": [
+				{"english": "I meet", "foreign": "Saya bertemu", "base": "bertemu", "features": {"who": "i", "when": "now"}},
+				{"english": "I am meeting", "foreign": "Saya sedang bertemu", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "bertemu", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She meets", "foreign": "Dia bertemu", "base": "bertemu", "features": {"who": "she", "when": "now"}},
+				{"english": "She is meeting", "foreign": "Dia sedang bertemu", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "bertemu", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 47, "verb": "mengirim", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang mengirim. The verb itself stays as it is.", "rows": [
+				{"english": "I send", "foreign": "Saya mengirim", "base": "mengirim", "features": {"who": "i", "when": "now"}},
+				{"english": "I am sending", "foreign": "Saya sedang mengirim", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "mengirim", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sends", "foreign": "Dia mengirim", "base": "mengirim", "features": {"who": "she", "when": "now"}},
+				{"english": "She is sending", "foreign": "Dia sedang mengirim", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "mengirim", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 48, "verb": "memanggil", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang memanggil. The verb itself stays as it is.", "rows": [
+				{"english": "I call", "foreign": "Saya memanggil", "base": "memanggil", "features": {"who": "i", "when": "now"}},
+				{"english": "I am calling", "foreign": "Saya sedang memanggil", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "memanggil", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She calls", "foreign": "Dia memanggil", "base": "memanggil", "features": {"who": "she", "when": "now"}},
+				{"english": "She is calling", "foreign": "Dia sedang memanggil", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "memanggil", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "going", "part": 49, "verb": "tidur", "strategy": ["helper word"], "description": "Sedang in front of the verb says it is going on right now: Saya sedang tidur. The verb itself stays as it is.", "rows": [
+				{"english": "I sleep", "foreign": "Saya tidur", "base": "tidur", "features": {"who": "i", "when": "now"}},
+				{"english": "I am sleeping", "foreign": "Saya sedang tidur", "mark": [{"text": "sedang", "role": "helper word"}], "from": 1, "base": "tidur", "features": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She sleeps", "foreign": "Dia tidur", "base": "tidur", "features": {"who": "she", "when": "now"}},
+				{"english": "She is sleeping", "foreign": "Dia sedang tidur", "mark": [{"text": "sedang", "role": "helper word"}], "from": 3, "base": "tidur", "features": {"who": "she", "when": "now", "going": "yes"}}
+			]},
+		{"job": "command", "part": 2, "verb": "makan", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Makan! Silakan in front says please: Silakan makan. Jangan says don't: Jangan makan! And mari kita says let's: Mari kita makan!", "rows": [
+				{"english": "Eat!", "foreign": "Makan!", "base": "makan", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please eat.", "foreign": "Silakan makan.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "makan", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not eat!", "foreign": "Jangan makan!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "makan", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's eat!", "foreign": "Mari kita makan!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "makan", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 3, "verb": "minum", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Minum! Silakan in front says please: Silakan minum. Jangan says don't: Jangan minum! And mari kita says let's: Mari kita minum!", "rows": [
+				{"english": "Drink!", "foreign": "Minum!", "base": "minum", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please drink.", "foreign": "Silakan minum.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "minum", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not drink!", "foreign": "Jangan minum!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "minum", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's drink!", "foreign": "Mari kita minum!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "minum", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 4, "verb": "datang", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Datang! Silakan in front says please: Silakan datang. Jangan says don't: Jangan datang! And mari kita says let's: Mari kita datang!", "rows": [
+				{"english": "Come!", "foreign": "Datang!", "base": "datang", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please come.", "foreign": "Silakan datang.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "datang", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come!", "foreign": "Jangan datang!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "datang", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come!", "foreign": "Mari kita datang!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "datang", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 5, "verb": "menonton", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Tonton! Silakan in front says please: Silakan tonton. Jangan says don't: Jangan tonton! And mari kita says let's: Mari kita menonton!", "rows": [
+				{"english": "Watch!", "foreign": "Tonton!", "base": "menonton", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please watch.", "foreign": "Silakan tonton.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "menonton", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not watch!", "foreign": "Jangan tonton!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "menonton", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's watch!", "foreign": "Mari kita menonton!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "menonton", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 6, "verb": "mendengarkan", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Dengarkan! Silakan in front says please: Silakan dengarkan. Jangan says don't: Jangan dengarkan! And mari kita says let's: Mari kita mendengarkan!", "rows": [
+				{"english": "Listen!", "foreign": "Dengarkan!", "base": "mendengarkan", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please listen.", "foreign": "Silakan dengarkan.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "mendengarkan", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not listen!", "foreign": "Jangan dengarkan!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "mendengarkan", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's listen!", "foreign": "Mari kita mendengarkan!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "mendengarkan", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 7, "verb": "berbicara", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Berbicara! Silakan in front says please: Silakan berbicara. Jangan says don't: Jangan berbicara! And mari kita says let's: Mari kita berbicara!", "rows": [
+				{"english": "Speak!", "foreign": "Berbicara!", "base": "berbicara", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please speak.", "foreign": "Silakan berbicara.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "berbicara", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not speak!", "foreign": "Jangan berbicara!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "berbicara", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's speak!", "foreign": "Mari kita berbicara!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "berbicara", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 8, "verb": "menulis", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Tulis! Silakan in front says please: Silakan tulis. Jangan says don't: Jangan tulis! And mari kita says let's: Mari kita menulis!", "rows": [
+				{"english": "Write!", "foreign": "Tulis!", "base": "menulis", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please write.", "foreign": "Silakan tulis.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "menulis", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not write!", "foreign": "Jangan tulis!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "menulis", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's write!", "foreign": "Mari kita menulis!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "menulis", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 9, "verb": "berjalan", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Berjalan! Silakan in front says please: Silakan berjalan. Jangan says don't: Jangan berjalan! And mari kita says let's: Mari kita berjalan!", "rows": [
+				{"english": "Walk!", "foreign": "Berjalan!", "base": "berjalan", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please walk.", "foreign": "Silakan berjalan.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "berjalan", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not walk!", "foreign": "Jangan berjalan!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "berjalan", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's walk!", "foreign": "Mari kita berjalan!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "berjalan", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 10, "verb": "berlari", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Berlari! Silakan in front says please: Silakan berlari. Jangan says don't: Jangan berlari! And mari kita says let's: Mari kita berlari!", "rows": [
+				{"english": "Run!", "foreign": "Berlari!", "base": "berlari", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please run.", "foreign": "Silakan berlari.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "berlari", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not run!", "foreign": "Jangan berlari!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "berlari", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's run!", "foreign": "Mari kita berlari!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "berlari", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 11, "verb": "membeli", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Beli! Silakan in front says please: Silakan beli. Jangan says don't: Jangan beli! And mari kita says let's: Mari kita membeli!", "rows": [
+				{"english": "Buy!", "foreign": "Beli!", "base": "membeli", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please buy.", "foreign": "Silakan beli.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "membeli", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not buy!", "foreign": "Jangan beli!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "membeli", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's buy!", "foreign": "Mari kita membeli!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "membeli", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 12, "verb": "menjual", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Jual! Silakan in front says please: Silakan jual. Jangan says don't: Jangan jual! And mari kita says let's: Mari kita menjual!", "rows": [
+				{"english": "Sell!", "foreign": "Jual!", "base": "menjual", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please sell.", "foreign": "Silakan jual.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "menjual", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sell!", "foreign": "Jangan jual!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "menjual", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sell!", "foreign": "Mari kita menjual!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "menjual", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 13, "verb": "menunggu", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Tunggu! Silakan in front says please: Silakan tunggu. Jangan says don't: Jangan tunggu! And mari kita says let's: Mari kita menunggu!", "rows": [
+				{"english": "Wait!", "foreign": "Tunggu!", "base": "menunggu", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please wait.", "foreign": "Silakan tunggu.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "menunggu", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not wait!", "foreign": "Jangan tunggu!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "menunggu", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wait!", "foreign": "Mari kita menunggu!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "menunggu", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 14, "verb": "mencari", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Cari! Silakan in front says please: Silakan cari. Jangan says don't: Jangan cari! And mari kita says let's: Mari kita mencari!", "rows": [
+				{"english": "Look for!", "foreign": "Cari!", "base": "mencari", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please look for.", "foreign": "Silakan cari.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "mencari", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not look for!", "foreign": "Jangan cari!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "mencari", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's look for!", "foreign": "Mari kita mencari!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "mencari", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 15, "verb": "berpikir", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Berpikir! Silakan in front says please: Silakan berpikir. Jangan says don't: Jangan berpikir! And mari kita says let's: Mari kita berpikir!", "rows": [
+				{"english": "Think!", "foreign": "Berpikir!", "base": "berpikir", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please think.", "foreign": "Silakan berpikir.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "berpikir", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not think!", "foreign": "Jangan berpikir!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "berpikir", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's think!", "foreign": "Mari kita berpikir!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "berpikir", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 18, "verb": "bermain", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Bermain! Silakan in front says please: Silakan bermain. Jangan says don't: Jangan bermain! And mari kita says let's: Mari kita bermain!", "rows": [
+				{"english": "Play!", "foreign": "Bermain!", "base": "bermain", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please play.", "foreign": "Silakan bermain.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "bermain", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not play!", "foreign": "Jangan bermain!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "bermain", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's play!", "foreign": "Mari kita bermain!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "bermain", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 19, "verb": "bernyanyi", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Bernyanyi! Silakan in front says please: Silakan bernyanyi. Jangan says don't: Jangan bernyanyi! And mari kita says let's: Mari kita bernyanyi!", "rows": [
+				{"english": "Sing!", "foreign": "Bernyanyi!", "base": "bernyanyi", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please sing.", "foreign": "Silakan bernyanyi.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "bernyanyi", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sing!", "foreign": "Jangan bernyanyi!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "bernyanyi", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sing!", "foreign": "Mari kita bernyanyi!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "bernyanyi", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 20, "verb": "menari", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Menari! Silakan in front says please: Silakan menari. Jangan says don't: Jangan menari! And mari kita says let's: Mari kita menari!", "rows": [
+				{"english": "Dance!", "foreign": "Menari!", "base": "menari", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please dance.", "foreign": "Silakan menari.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "menari", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not dance!", "foreign": "Jangan menari!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "menari", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's dance!", "foreign": "Mari kita menari!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "menari", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 21, "verb": "berenang", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Berenang! Silakan in front says please: Silakan berenang. Jangan says don't: Jangan berenang! And mari kita says let's: Mari kita berenang!", "rows": [
+				{"english": "Swim!", "foreign": "Berenang!", "base": "berenang", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please swim.", "foreign": "Silakan berenang.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "berenang", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not swim!", "foreign": "Jangan berenang!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "berenang", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's swim!", "foreign": "Mari kita berenang!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "berenang", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 22, "verb": "bekerja", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Bekerja! Silakan in front says please: Silakan bekerja. Jangan says don't: Jangan bekerja! And mari kita says let's: Mari kita bekerja!", "rows": [
+				{"english": "Work!", "foreign": "Bekerja!", "base": "bekerja", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please work.", "foreign": "Silakan bekerja.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "bekerja", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not work!", "foreign": "Jangan bekerja!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "bekerja", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's work!", "foreign": "Mari kita bekerja!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "bekerja", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 23, "verb": "belajar", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Belajar! Silakan in front says please: Silakan belajar. Jangan says don't: Jangan belajar! And mari kita says let's: Mari kita belajar!", "rows": [
+				{"english": "Study!", "foreign": "Belajar!", "base": "belajar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please study.", "foreign": "Silakan belajar.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "belajar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not study!", "foreign": "Jangan belajar!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "belajar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's study!", "foreign": "Mari kita belajar!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "belajar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 24, "verb": "beristirahat", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Beristirahat! Silakan in front says please: Silakan beristirahat. Jangan says don't: Jangan beristirahat! And mari kita says let's: Mari kita beristirahat!", "rows": [
+				{"english": "Rest!", "foreign": "Beristirahat!", "base": "beristirahat", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please rest.", "foreign": "Silakan beristirahat.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "beristirahat", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not rest!", "foreign": "Jangan beristirahat!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "beristirahat", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's rest!", "foreign": "Mari kita beristirahat!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "beristirahat", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 25, "verb": "memulai", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Mulai! Silakan in front says please: Silakan mulai. Jangan says don't: Jangan mulai! And mari kita says let's: Mari kita memulai!", "rows": [
+				{"english": "Begin!", "foreign": "Mulai!", "base": "memulai", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please begin.", "foreign": "Silakan mulai.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "memulai", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not begin!", "foreign": "Jangan mulai!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "memulai", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's begin!", "foreign": "Mari kita memulai!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "memulai", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 26, "verb": "membantu", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Bantu! Silakan in front says please: Silakan bantu. Jangan says don't: Jangan bantu! And mari kita says let's: Mari kita membantu!", "rows": [
+				{"english": "Help!", "foreign": "Bantu!", "base": "membantu", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please help.", "foreign": "Silakan bantu.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "membantu", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not help!", "foreign": "Jangan bantu!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "membantu", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's help!", "foreign": "Mari kita membantu!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "membantu", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 27, "verb": "kembali", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Kembali! Silakan in front says please: Silakan kembali. Jangan says don't: Jangan kembali! And mari kita says let's: Mari kita kembali!", "rows": [
+				{"english": "Come back!", "foreign": "Kembali!", "base": "kembali", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please come back.", "foreign": "Silakan kembali.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "kembali", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come back!", "foreign": "Jangan kembali!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "kembali", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come back!", "foreign": "Mari kita kembali!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "kembali", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 28, "verb": "keluar", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Keluar! Silakan in front says please: Silakan keluar. Jangan says don't: Jangan keluar! And mari kita says let's: Mari kita keluar!", "rows": [
+				{"english": "Go out!", "foreign": "Keluar!", "base": "keluar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please go out.", "foreign": "Silakan keluar.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "keluar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not go out!", "foreign": "Jangan keluar!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "keluar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's go out!", "foreign": "Mari kita keluar!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "keluar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 29, "verb": "masuk", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Masuk! Silakan in front says please: Silakan masuk. Jangan says don't: Jangan masuk! And mari kita says let's: Mari kita masuk!", "rows": [
+				{"english": "Come in!", "foreign": "Masuk!", "base": "masuk", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please come in.", "foreign": "Silakan masuk.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "masuk", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not come in!", "foreign": "Jangan masuk!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "masuk", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's come in!", "foreign": "Mari kita masuk!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "masuk", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 30, "verb": "bepergian", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Bepergian! Silakan in front says please: Silakan bepergian. Jangan says don't: Jangan bepergian! And mari kita says let's: Mari kita bepergian!", "rows": [
+				{"english": "Travel!", "foreign": "Bepergian!", "base": "bepergian", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please travel.", "foreign": "Silakan bepergian.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "bepergian", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not travel!", "foreign": "Jangan bepergian!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "bepergian", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's travel!", "foreign": "Mari kita bepergian!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "bepergian", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 31, "verb": "memasak", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Masak! Silakan in front says please: Silakan masak. Jangan says don't: Jangan masak! And mari kita says let's: Mari kita memasak!", "rows": [
+				{"english": "Cook!", "foreign": "Masak!", "base": "memasak", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please cook.", "foreign": "Silakan masak.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "memasak", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not cook!", "foreign": "Jangan masak!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "memasak", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's cook!", "foreign": "Mari kita memasak!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "memasak", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 32, "verb": "menelepon", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Telepon! Silakan in front says please: Silakan telepon. Jangan says don't: Jangan telepon! And mari kita says let's: Mari kita menelepon!", "rows": [
+				{"english": "Phone!", "foreign": "Telepon!", "base": "menelepon", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please phone.", "foreign": "Silakan telepon.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "menelepon", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not phone!", "foreign": "Jangan telepon!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "menelepon", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's phone!", "foreign": "Mari kita menelepon!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "menelepon", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 33, "verb": "duduk", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Duduk! Silakan in front says please: Silakan duduk. Jangan says don't: Jangan duduk! And mari kita says let's: Mari kita duduk!", "rows": [
+				{"english": "Sit!", "foreign": "Duduk!", "base": "duduk", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please sit.", "foreign": "Silakan duduk.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "duduk", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sit!", "foreign": "Jangan duduk!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "duduk", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sit!", "foreign": "Mari kita duduk!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "duduk", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 34, "verb": "berdiri", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Berdiri! Silakan in front says please: Silakan berdiri. Jangan says don't: Jangan berdiri! And mari kita says let's: Mari kita berdiri!", "rows": [
+				{"english": "Stand!", "foreign": "Berdiri!", "base": "berdiri", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please stand.", "foreign": "Silakan berdiri.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "berdiri", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not stand!", "foreign": "Jangan berdiri!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "berdiri", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's stand!", "foreign": "Mari kita berdiri!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "berdiri", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 36, "verb": "menjawab", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Jawab! Silakan in front says please: Silakan jawab. Jangan says don't: Jangan jawab! And mari kita says let's: Mari kita menjawab!", "rows": [
+				{"english": "Answer!", "foreign": "Jawab!", "base": "menjawab", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please answer.", "foreign": "Silakan jawab.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "menjawab", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not answer!", "foreign": "Jangan jawab!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "menjawab", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's answer!", "foreign": "Mari kita menjawab!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "menjawab", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 37, "verb": "bertanya", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Bertanya! Silakan in front says please: Silakan bertanya. Jangan says don't: Jangan bertanya! And mari kita says let's: Mari kita bertanya!", "rows": [
+				{"english": "Ask!", "foreign": "Bertanya!", "base": "bertanya", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please ask.", "foreign": "Silakan bertanya.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "bertanya", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not ask!", "foreign": "Jangan bertanya!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "bertanya", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's ask!", "foreign": "Mari kita bertanya!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "bertanya", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 38, "verb": "membayar", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Bayar! Silakan in front says please: Silakan bayar. Jangan says don't: Jangan bayar! And mari kita says let's: Mari kita membayar!", "rows": [
+				{"english": "Pay!", "foreign": "Bayar!", "base": "membayar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please pay.", "foreign": "Silakan bayar.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "membayar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not pay!", "foreign": "Jangan bayar!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "membayar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's pay!", "foreign": "Mari kita membayar!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "membayar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 39, "verb": "bangun", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Bangun! Silakan in front says please: Silakan bangun. Jangan says don't: Jangan bangun! And mari kita says let's: Mari kita bangun!", "rows": [
+				{"english": "Get up!", "foreign": "Bangun!", "base": "bangun", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please get up.", "foreign": "Silakan bangun.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "bangun", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not get up!", "foreign": "Jangan bangun!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "bangun", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's get up!", "foreign": "Mari kita bangun!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "bangun", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 40, "verb": "mengajar", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Ajar! Silakan in front says please: Silakan ajar. Jangan says don't: Jangan ajar! And mari kita says let's: Mari kita mengajar!", "rows": [
+				{"english": "Teach!", "foreign": "Ajar!", "base": "mengajar", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please teach.", "foreign": "Silakan ajar.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "mengajar", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not teach!", "foreign": "Jangan ajar!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "mengajar", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's teach!", "foreign": "Mari kita mengajar!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "mengajar", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 41, "verb": "membuat", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Buat! Silakan in front says please: Silakan buat. Jangan says don't: Jangan buat! And mari kita says let's: Mari kita membuat!", "rows": [
+				{"english": "Make!", "foreign": "Buat!", "base": "membuat", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please make.", "foreign": "Silakan buat.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "membuat", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not make!", "foreign": "Jangan buat!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "membuat", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's make!", "foreign": "Mari kita membuat!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "membuat", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 42, "verb": "menggunakan", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Gunakan! Silakan in front says please: Silakan gunakan. Jangan says don't: Jangan gunakan! And mari kita says let's: Mari kita menggunakan!", "rows": [
+				{"english": "Use!", "foreign": "Gunakan!", "base": "menggunakan", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please use.", "foreign": "Silakan gunakan.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "menggunakan", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not use!", "foreign": "Jangan gunakan!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "menggunakan", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's use!", "foreign": "Mari kita menggunakan!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "menggunakan", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 43, "verb": "mencuci", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Cuci! Silakan in front says please: Silakan cuci. Jangan says don't: Jangan cuci! And mari kita says let's: Mari kita mencuci!", "rows": [
+				{"english": "Wash!", "foreign": "Cuci!", "base": "mencuci", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please wash.", "foreign": "Silakan cuci.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "mencuci", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not wash!", "foreign": "Jangan cuci!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "mencuci", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's wash!", "foreign": "Mari kita mencuci!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "mencuci", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 44, "verb": "membuka", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Buka! Silakan in front says please: Silakan buka. Jangan says don't: Jangan buka! And mari kita says let's: Mari kita membuka!", "rows": [
+				{"english": "Open!", "foreign": "Buka!", "base": "membuka", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please open.", "foreign": "Silakan buka.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "membuka", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not open!", "foreign": "Jangan buka!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "membuka", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's open!", "foreign": "Mari kita membuka!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "membuka", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 45, "verb": "menutup", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Tutup! Silakan in front says please: Silakan tutup. Jangan says don't: Jangan tutup! And mari kita says let's: Mari kita menutup!", "rows": [
+				{"english": "Close!", "foreign": "Tutup!", "base": "menutup", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please close.", "foreign": "Silakan tutup.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "menutup", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not close!", "foreign": "Jangan tutup!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "menutup", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's close!", "foreign": "Mari kita menutup!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "menutup", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 46, "verb": "bertemu", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Bertemu! Silakan in front says please: Silakan bertemu. Jangan says don't: Jangan bertemu! And mari kita says let's: Mari kita bertemu!", "rows": [
+				{"english": "Meet!", "foreign": "Bertemu!", "base": "bertemu", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please meet.", "foreign": "Silakan bertemu.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "bertemu", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not meet!", "foreign": "Jangan bertemu!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "bertemu", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's meet!", "foreign": "Mari kita bertemu!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "bertemu", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 47, "verb": "mengirim", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Kirim! Silakan in front says please: Silakan kirim. Jangan says don't: Jangan kirim! And mari kita says let's: Mari kita mengirim!", "rows": [
+				{"english": "Send!", "foreign": "Kirim!", "base": "mengirim", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please send.", "foreign": "Silakan kirim.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "mengirim", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not send!", "foreign": "Jangan kirim!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "mengirim", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's send!", "foreign": "Mari kita mengirim!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "mengirim", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 48, "verb": "memanggil", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Panggil! Silakan in front says please: Silakan panggil. Jangan says don't: Jangan panggil! And mari kita says let's: Mari kita memanggil!", "rows": [
+				{"english": "Call!", "foreign": "Panggil!", "base": "memanggil", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please call.", "foreign": "Silakan panggil.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "memanggil", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not call!", "foreign": "Jangan panggil!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "memanggil", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's call!", "foreign": "Mari kita memanggil!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "memanggil", "features": {"command": "yes", "who": "we"}}
+			]},
+		{"job": "command", "part": 49, "verb": "tidur", "strategy": ["nothing", "helper word"], "description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: Tidur! Silakan in front says please: Silakan tidur. Jangan says don't: Jangan tidur! And mari kita says let's: Mari kita tidur!", "rows": [
+				{"english": "Sleep!", "foreign": "Tidur!", "base": "tidur", "features": {"command": "yes", "who": "you"}},
+				{"english": "Please sleep.", "foreign": "Silakan tidur.", "mark": [{"text": "Silakan", "role": "helper word"}], "base": "tidur", "features": {"command": "yes", "who": "you", "polite": "yes"}},
+				{"english": "Do not sleep!", "foreign": "Jangan tidur!", "mark": [{"text": "Jangan", "role": "helper word"}], "from": 1, "base": "tidur", "features": {"command": "yes", "who": "you", "not": "yes"}},
+				{"english": "Let's sleep!", "foreign": "Mari kita tidur!", "mark": [{"text": "Mari kita", "role": "helper word"}], "base": "tidur", "features": {"command": "yes", "who": "we"}}
+			]}
+	]
+}

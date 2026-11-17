@@ -1,0 +1,122 @@
+{
+	"about": "How Indonesian verb forms are made and turned into lessons. Written by Claude (Opus) with Ben on 17 November 2026, the twelfth language and the last. Like Chinese, the verb never changes for who or for when, so `built` makes each form from a pattern: sudah in front for done, sedang for going on, akan for later, tidak for not. The one thing that does change is the command: a verb that wears meN- (menulis, membeli, mengambil) takes it off to tell someone to do it (Tulis! Beli! Ambil!), while ber- verbs and bare roots stay as they are (Duduk! Bekerja!). `roots` finds what meN- was put on: the dump's own 'active of buat' where it says so, and otherwise the candidate the meN- sound rules offer (men- before a vowel was t-, mem- was p-, meng- was k-, meny- was s-) that the dump knows best as a word. `of` corrects the few the rules get wrong, and `keep` lists the meN- verbs that do not drop it, because nothing is done to anything (Menangislah, not Tangis). There is no reading to show: the language is written in the Latin alphabet.",
+	"language": "indonesian",
+	"translation_language": "id",
+	"dump": "kaikki.org-dictionary-Indonesian.jsonl",
+	"built": true,
+	"no_reading": true,
+	"roots": {
+		"prefixes": ["me"],
+		"of": {"memohon": "mohon", "mengaku": "aku", "mengakui": "akui", "mengerut": "kerut", "menyerbu": "serbu", "merajut": "rajut", "mendesah": "desah", "menggoyang": "goyang", "menyia-nyiakan": "sia-siakan", "melampirkan": "lampirkan", "mengikutsertakan": "ikutsertakan"},
+		"keep": ["menang", "menangis", "menari", "meledak", "meningkat", "menurun", "menghilang", "mengeluh", "menetap", "mendidih", "meluncur", "melompat", "melangkah", "merangkak", "merayap", "mengembara", "menderita", "menyebar", "merasa", "menjadi", "mengemis", "mengerut", "mendesah", "menyanyi"]
+	},
+	"patterns": [
+		{"features": {"form": "infinitive"}, "pattern": "{}"},
+		{"features": {"form": "done"}, "pattern": "sudah {}"},
+		{"features": {"form": "going"}, "pattern": "sedang {}"},
+		{"features": {"when": "later"}, "pattern": "akan {}"},
+		{"features": {"not": "yes"}, "pattern": "tidak {}"},
+		{"features": {"command": "yes", "who": "you"}, "pattern": "{root}"},
+		{"features": {"command": "yes", "who": "you", "polite": "yes"}, "pattern": "silakan {root}"},
+		{"features": {"command": "yes", "who": "you", "not": "yes"}, "pattern": "jangan {root}"},
+		{"features": {"command": "yes", "who": "we"}, "pattern": "mari kita {}"}
+	],
+	"recipes": {
+		"who": {
+			"strategy": ["nothing"],
+			"description": "The verb is the same whoever is doing it: {1}, {2}, {3}, {4}. Only the word in front says who.",
+			"rows": [
+				{"english": "I {base}", "features": {"form": "infinitive"}, "wrap": "Saya {}", "mark_form": "nothing", "says": {"who": "i", "when": "now"}},
+				{"english": "You {base}", "features": {"form": "infinitive"}, "wrap": "Kamu {}", "mark_form": "nothing", "says": {"who": "you", "when": "now"}},
+				{"english": "She {s}", "features": {"form": "infinitive"}, "wrap": "Dia {}", "mark_form": "nothing", "says": {"who": "she", "when": "now"}},
+				{"english": "We {base}", "features": {"form": "infinitive"}, "wrap": "Kami {}", "mark_form": "nothing", "says": {"who": "we", "when": "now"}}
+			]
+		},
+		"when": {
+			"strategy": ["helper word"],
+			"description": "The verb never changes for when. Sudah in front says the thing is done: {2}. Akan in front says it is still to come: {3}.",
+			"rows": [
+				{"english": "I {base}", "features": {"form": "infinitive"}, "wrap": "Saya {}", "says": {"who": "i", "when": "now"}},
+				{"english": "I {past}", "features": {"form": "done"}, "wrap": "Saya {}", "words": ["sudah"], "from": 1, "says": {"who": "i", "when": "before"}},
+				{"english": "I will {base}", "features": {"when": "later"}, "wrap": "Saya {}", "words": ["akan"], "from": 1, "says": {"who": "i", "when": "later"}},
+				{"english": "She {past}", "features": {"form": "done"}, "wrap": "Dia {}", "words": ["sudah"], "says": {"who": "she", "when": "before"}}
+			]
+		},
+		"going": {
+			"strategy": ["helper word"],
+			"skip": "stative",
+			"description": "Sedang in front of the verb says it is going on right now: {2}. The verb itself stays as it is.",
+			"rows": [
+				{"english": "I {base}", "features": {"form": "infinitive"}, "wrap": "Saya {}", "says": {"who": "i", "when": "now"}},
+				{"english": "I am {ing}", "features": {"form": "going"}, "wrap": "Saya {}", "words": ["sedang"], "from": 1, "says": {"who": "i", "when": "now", "going": "yes"}},
+				{"english": "She {s}", "features": {"form": "infinitive"}, "wrap": "Dia {}", "says": {"who": "she", "when": "now"}},
+				{"english": "She is {ing}", "features": {"form": "going"}, "wrap": "Dia {}", "words": ["sedang"], "from": 3, "says": {"who": "she", "when": "now", "going": "yes"}}
+			]
+		},
+		"command": {
+			"strategy": ["nothing", "helper word"],
+			"skip": "stative",
+			"description": "To tell someone to do it, say the verb on its own, and a verb that begins with me- drops it: {1} Silakan in front says please: {2} Jangan says don't: {3} And mari kita says let's: {4}",
+			"rows": [
+				{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "wrap": "{}!", "capital": true},
+				{"english": "Please {base}.", "features": {"command": "yes", "who": "you", "polite": "yes"}, "wrap": "{}.", "capital": true, "words": ["silakan"]},
+				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "{}!", "capital": true, "words": ["jangan"], "from": 1},
+				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "wrap": "{}!", "capital": true, "words": ["mari kita"]}
+			]
+		}
+	},
+	"verbs": {
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. `no-going` marks the verbs that do not take sedang on their own (coming, sitting, getting up); `no-command` the commands that are right and nobody says (Fly! Cry!). Left out on purpose: pergi, which the grid's own lessons teach; ada and adalah, which need lessons of their own; mau, bisa and harus, which are the want-can-must job; membaca, whose English is the same now and before; and menyetir, which the dump does not have as a verb.",
+		"list": [
+			["makan", "eat", "eats", "ate", "eating"],
+			["minum", "drink", "drinks", "drank", "drinking"],
+			["datang", "come", "comes", "came", "coming", "no-going"],
+			["menonton", "watch", "watches", "watched", "watching"],
+			["mendengarkan", "listen", "listens", "listened", "listening"],
+			["berbicara", "speak", "speaks", "spoke", "speaking"],
+			["menulis", "write", "writes", "wrote", "writing"],
+			["berjalan", "walk", "walks", "walked", "walking"],
+			["berlari", "run", "runs", "ran", "running"],
+			["membeli", "buy", "buys", "bought", "buying"],
+			["menjual", "sell", "sells", "sold", "selling"],
+			["menunggu", "wait", "waits", "waited", "waiting"],
+			["mencari", "look for", "looks for", "looked for", "looking for"],
+			["berpikir", "think", "thinks", "thought", "thinking"],
+			["tertawa", "laugh", "laughs", "laughed", "laughing", "no-command"],
+			["menangis", "cry", "cries", "cried", "crying", "no-command"],
+			["bermain", "play", "plays", "played", "playing"],
+			["bernyanyi", "sing", "sings", "sang", "singing"],
+			["menari", "dance", "dances", "danced", "dancing"],
+			["berenang", "swim", "swims", "swam", "swimming"],
+			["bekerja", "work", "works", "worked", "working"],
+			["belajar", "study", "studies", "studied", "studying"],
+			["beristirahat", "rest", "rests", "rested", "resting"],
+			["memulai", "begin", "begins", "began", "beginning", "no-going"],
+			["membantu", "help", "helps", "helped", "helping"],
+			["kembali", "come back", "comes back", "came back", "coming back", "no-going"],
+			["keluar", "go out", "goes out", "went out", "going out", "no-going"],
+			["masuk", "come in", "comes in", "came in", "coming in", "no-going"],
+			["bepergian", "travel", "travels", "travelled", "travelling"],
+			["memasak", "cook", "cooks", "cooked", "cooking"],
+			["menelepon", "phone", "phones", "phoned", "phoning"],
+			["duduk", "sit", "sits", "sat", "sitting", "no-going"],
+			["berdiri", "stand", "stands", "stood", "standing", "no-going"],
+			["terbang", "fly", "flies", "flew", "flying", "no-command"],
+			["menjawab", "answer", "answers", "answered", "answering"],
+			["bertanya", "ask", "asks", "asked", "asking"],
+			["lupa", "forget", "forgets", "forgot", "forgetting", "stative"],
+			["membayar", "pay", "pays", "paid", "paying"],
+			["bangun", "get up", "gets up", "got up", "getting up", "no-going"],
+			["mengajar", "teach", "teaches", "taught", "teaching"],
+			["membuat", "make", "makes", "made", "making"],
+			["menggunakan", "use", "uses", "used", "using"],
+			["mencuci", "wash", "washes", "washed", "washing"],
+			["membuka", "open", "opens", "opened", "opening"],
+			["menutup", "close", "closes", "closed", "closing"],
+			["bertemu", "meet", "meets", "met", "meeting"],
+			["mengirim", "send", "sends", "sent", "sending"],
+			["memanggil", "call", "calls", "called", "calling"],
+			["tidur", "sleep", "sleeps", "slept", "sleeping"]
+		]
+	}
+}

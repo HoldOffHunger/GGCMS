@@ -74,7 +74,8 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
         for word in slot.get("words", []):  # a word the wrap added that does the job: No, or Ne and pas. A list is its spellings.
             role = word.get("role", "helper word") if isinstance(word, dict) else "helper word"  # 了 is a particle, not a helper
             options = [word["text"]] if isinstance(word, dict) else [word] if isinstance(word, str) else word
-            spelt = next((option for option in options if option in text), "")
+            # a word that opens the sentence took its capital: silakan is Silakan in Silakan duduk.
+            spelt = next((spelling for option in options for spelling in (option, option[0].upper() + option[1:]) if spelling in text), "")
             if spelt:
                 marks.append({"text": spelt, "role": role})
         if slot.get("mark_form"):  # the verb itself, lit to show it does not change: 我去, 你去, 她去
