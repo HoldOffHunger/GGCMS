@@ -253,6 +253,7 @@
 					'X-Goog-Api-Key: ' . $this->Key(),
 				],
 				CURLOPT_RETURNTRANSFER=>TRUE,
+				CURLOPT_IPRESOLVE=>CURL_IPRESOLVE_V4,	# the key is restricted to the host's IPv4 address
 				CURLOPT_CONNECTTIMEOUT=>3,
 				CURLOPT_TIMEOUT=>10,
 			]);
