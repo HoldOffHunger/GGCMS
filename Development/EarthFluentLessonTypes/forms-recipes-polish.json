@@ -55,7 +55,8 @@
 		{"features": {"command": "yes", "who": "you"}, "tags": ["imperative", "singular"], "without": ["third-person"]},
 		{"features": {"command": "yes", "who": "you-all"}, "tags": ["imperative", "plural"], "without": ["third-person"], "nth": 1},
 		{"features": {"command": "yes", "who": "you", "not": "yes"}, "tags": ["imperative", "singular"], "without": ["third-person"], "shown": "nie {}"},
-		{"features": {"command": "yes", "who": "we"}, "tags": ["imperative", "plural"], "without": ["third-person"]}
+		{"features": {"command": "yes", "who": "we"}, "tags": ["imperative", "plural"], "without": ["third-person"]},
+		{"features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}, "partner": {"command": "yes", "who": "we"}}
 	],
 
 	"endings": {
@@ -87,6 +88,18 @@
 				{"english": "I {past}", "features": {"who": "i", "when": "before"}, "endings": "before", "from": 1},
 				{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "from": 1},
 				{"english": "She {past}", "features": {"who": "she", "when": "before"}, "endings": "before", "wrap": "ona {}"}
+			],
+			"variants": [
+				{"if_flag": "finished",
+				 "strategy": ["ending"],
+				 "description": "For something done, {Base} hands over to its partner, the verb for having done it: {2}, {4}, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: {3}.",
+				 "middle": false,
+				 "rows": [
+					{"english": "I {base}", "features": {"who": "i", "when": "now"}},
+					{"english": "I {past}", "features": {"who": "i", "when": "before", "done": "yes"}, "endings": "before", "says": {"who": "i", "when": "before"}},
+					{"english": "I will {base}", "features": {"who": "i", "when": "later", "done": "yes"}, "says": {"who": "i", "when": "later"}},
+					{"english": "She {past}", "features": {"who": "she", "when": "before", "done": "yes"}, "endings": "before", "wrap": "ona {}", "says": {"who": "she", "when": "before"}}
+				 ]}
 			]
 		},
 		"command": {
@@ -98,56 +111,66 @@
 				{"english": "{Base}! said to more than one person", "features": {"command": "yes", "who": "you-all"}, "wrap": "{}!", "capital": true},
 				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "Nie {}!", "words": ["Nie"], "from": 1},
 				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "wrap": "{}!", "capital": true}
+			],
+			"variants": [
+				{"if_flag": "finished", "unless_flag": "own-lets",
+				 "description": "To a friend: {1} To more than one person: {2} Telling a friend not to puts nie in front: {3} Let's comes from the partner, the verb for having done it: {4}",
+				 "rows": [
+					{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "wrap": "{}!", "capital": true},
+					{"english": "{Base}! said to more than one person", "features": {"command": "yes", "who": "you-all"}, "wrap": "{}!", "capital": true},
+					{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "Nie {}!", "words": ["Nie"], "from": 1},
+					{"english": "Let's {base}!", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}, "wrap": "{}!", "capital": true, "says": {"command": "yes", "who": "we"}}
+				 ]}
 			]
 		}
 	},
 
 	"verbs": {
-		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. Every one is the doing verb of its pair. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job; `no-command` leaves out the commands that are right and that nobody says. Left out on purpose: być, which needs a lesson of its own; móc and musieć, which are the want-can-must job; czytać, whose English is the same now and before; and the verbs said with się (uczyć się), which wait for their own recipe.",
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. Every one is the doing verb of its pair. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job; `no-command` leaves out the commands that are right and that nobody says. Left out on purpose: być, which needs a lesson of its own; móc and musieć, which are the want-can-must job; czytać, whose English is the same now and before; and the verbs said with się (uczyć się), which wait for their own recipe. `finished` (17 Nov 2026): the verb's partner says its before, its later and its let's (znalazłem, znajdę, Znajdźmy!), because the doing verb's own (znajdowałem, będę znajdować, Znajdujmy!) say 'used to find', 'will be finding' and a let's nobody says. Only verbs whose partner is the plain English: jeść, pić, myśleć, śpiewać and grać keep their own, whose partners say 'ate it up' and the like, and tracić, whose partner utracić is too formal for 'lose'. The let's is the partner's command, borrowed as an internal form so verb pages do not show it. `own-lets` keeps a finished verb's own let's: iść's partner gives Pójdźmy, which is bookish.",
 		"list": [
 			["mieć", "have", "has", "had", "having", "stative"],
-			["robić", "make", "makes", "made", "making"],
-			["iść", "go", "goes", "went", "going"],
+			["robić", "make", "makes", "made", "making", "finished"],
+			["iść", "go", "goes", "went", "going", "finished", "own-lets"],
 			["mówić", "say", "says", "said", "saying"],
-			["widzieć", "see", "sees", "saw", "seeing", "stative"],
-			["dawać", "give", "gives", "gave", "giving"],
+			["widzieć", "see", "sees", "saw", "seeing", "stative", "finished"],
+			["dawać", "give", "gives", "gave", "giving", "finished"],
 			["wiedzieć", "know", "knows", "knew", "knowing", "stative"],
 			["chcieć", "want", "wants", "wanted", "wanting", "stative"],
 			["jeść", "eat", "eats", "ate", "eating"],
 			["żyć", "live", "lives", "lived", "living", "no-command"],
 			["pracować", "work", "works", "worked", "working"],
 			["myśleć", "think", "thinks", "thought", "thinking"],
-			["brać", "take", "takes", "took", "taking"],
+			["brać", "take", "takes", "took", "taking", "finished"],
 			["pisać", "write", "writes", "wrote", "writing"],
-			["kupować", "buy", "buys", "bought", "buying"],
+			["kupować", "buy", "buys", "bought", "buying", "finished"],
 			["pić", "drink", "drinks", "drank", "drinking"],
 			["spać", "sleep", "sleeps", "slept", "sleeping"],
 			["patrzeć", "look", "looks", "looked", "looking"],
 			["czekać", "wait", "waits", "waited", "waiting"],
 			["szukać", "search", "searches", "searched", "searching"],
-			["znajdować", "find", "finds", "found", "finding"],
-			["wołać", "call", "calls", "called", "calling"],
-			["zaczynać", "begin", "begins", "began", "beginning"],
-			["kończyć", "finish", "finishes", "finished", "finishing"],
-			["otwierać", "open", "opens", "opened", "opening"],
-			["zamykać", "close", "closes", "closed", "closing"],
+			["znajdować", "find", "finds", "found", "finding", "finished"],
+			["wołać", "call", "calls", "called", "calling", "finished"],
+			["zaczynać", "begin", "begins", "began", "beginning", "finished"],
+			["kończyć", "finish", "finishes", "finished", "finishing", "finished"],
+			["otwierać", "open", "opens", "opened", "opening", "finished"],
+			["zamykać", "close", "closes", "closed", "closing", "finished"],
 			["studiować", "study", "studies", "studied", "studying"],
 			["rozumieć", "understand", "understands", "understood", "understanding", "stative"],
-			["zapominać", "forget", "forgets", "forgot", "forgetting"],
+			["zapominać", "forget", "forgets", "forgot", "forgetting", "finished"],
 			["biegać", "run", "runs", "ran", "running"],
 			["spacerować", "walk", "walks", "walked", "walking"],
 			["śpiewać", "sing", "sings", "sang", "singing"],
 			["grać", "play", "plays", "played", "playing"],
-			["płacić", "pay", "pays", "paid", "paying"],
-			["sprzedawać", "sell", "sells", "sold", "selling"],
-			["pomagać", "help", "helps", "helped", "helping"],
-			["gotować", "cook", "cooks", "cooked", "cooking"],
+			["płacić", "pay", "pays", "paid", "paying", "finished"],
+			["sprzedawać", "sell", "sells", "sold", "selling", "finished"],
+			["pomagać", "help", "helps", "helped", "helping", "finished"],
+			["gotować", "cook", "cooks", "cooked", "cooking", "finished"],
 			["podróżować", "travel", "travels", "travelled", "travelling"],
 			["pytać", "ask", "asks", "asked", "asking"],
-			["odpowiadać", "answer", "answers", "answered", "answering"],
+			["odpowiadać", "answer", "answers", "answered", "answering", "finished"],
 			["tracić", "lose", "loses", "lost", "losing", "no-command"],
-			["otrzymywać", "receive", "receives", "received", "receiving", "no-command"],
-			["zamawiać", "order", "orders", "ordered", "ordering"],
+			["otrzymywać", "receive", "receives", "received", "receiving", "no-command", "finished"],
+			["zamawiać", "order", "orders", "ordered", "ordering", "finished"],
 			["czuć", "feel", "feels", "felt", "feeling", "stative"]
 		]
 	}

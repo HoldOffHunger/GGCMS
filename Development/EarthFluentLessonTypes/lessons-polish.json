@@ -274,17 +274,17 @@
 				{"english": "I will have", "foreign": "będę mieć", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "mieć", "features": {"who": "i", "when": "later"}},
 				{"english": "She had", "foreign": "ona miała", "mark": [{"text": "ła", "role": "ending"}], "base": "mieć", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 3, "verb": "robić", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: robiłem, ona robiła. For later, a form of być goes in front of the whole verb: będę robić. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 3, "verb": "robić", "strategy": ["ending"], "description": "For something done, Robić hands over to its partner, the verb for having done it: zrobiłem, ona zrobiła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: zrobię.", "rows": [
 				{"english": "I make", "foreign": "robię", "base": "robić", "features": {"who": "i", "when": "now"}},
-				{"english": "I made", "foreign": "robiłem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "robić", "features": {"who": "i", "when": "before"}},
-				{"english": "I will make", "foreign": "będę robić", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "robić", "features": {"who": "i", "when": "later"}},
-				{"english": "She made", "foreign": "ona robiła", "mark": [{"text": "ła", "role": "ending"}], "base": "robić", "features": {"who": "she", "when": "before"}}
+				{"english": "I made", "foreign": "zrobiłem", "mark": ["łem"], "base": "robić", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "zrobię", "base": "robić", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "ona zrobiła", "mark": ["ła"], "base": "robić", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 4, "verb": "iść", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: szedłem, ona szła. For later, a form of być goes in front of the whole verb: będę iść. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 4, "verb": "iść", "strategy": ["ending"], "description": "For something done, Iść hands over to its partner, the verb for having done it: poszedłem, ona poszła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: pójdę.", "rows": [
 				{"english": "I go", "foreign": "idę", "base": "iść", "features": {"who": "i", "when": "now"}},
-				{"english": "I went", "foreign": "szedłem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "iść", "features": {"who": "i", "when": "before"}},
-				{"english": "I will go", "foreign": "będę iść", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "iść", "features": {"who": "i", "when": "later"}},
-				{"english": "She went", "foreign": "ona szła", "mark": [{"text": "ła", "role": "ending"}], "base": "iść", "features": {"who": "she", "when": "before"}}
+				{"english": "I went", "foreign": "poszedłem", "mark": ["łem"], "base": "iść", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "pójdę", "base": "iść", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "ona poszła", "mark": ["ła"], "base": "iść", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 5, "verb": "mówić", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: mówiłem, ona mówiła. For later, a form of być goes in front of the whole verb: będę mówić. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I say", "foreign": "mówię", "base": "mówić", "features": {"who": "i", "when": "now"}},
@@ -292,17 +292,17 @@
 				{"english": "I will say", "foreign": "będę mówić", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "mówić", "features": {"who": "i", "when": "later"}},
 				{"english": "She said", "foreign": "ona mówiła", "mark": [{"text": "ła", "role": "ending"}], "base": "mówić", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 6, "verb": "widzieć", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: widziałem, ona widziała. For later, a form of być goes in front of the whole verb: będę widzieć. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 6, "verb": "widzieć", "strategy": ["ending"], "description": "For something done, Widzieć hands over to its partner, the verb for having done it: zobaczyłem, ona zobaczyła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: zobaczę.", "rows": [
 				{"english": "I see", "foreign": "widzę", "base": "widzieć", "features": {"who": "i", "when": "now"}},
-				{"english": "I saw", "foreign": "widziałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "widzieć", "features": {"who": "i", "when": "before"}},
-				{"english": "I will see", "foreign": "będę widzieć", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "widzieć", "features": {"who": "i", "when": "later"}},
-				{"english": "She saw", "foreign": "ona widziała", "mark": [{"text": "ła", "role": "ending"}], "base": "widzieć", "features": {"who": "she", "when": "before"}}
+				{"english": "I saw", "foreign": "zobaczyłem", "mark": ["łem"], "base": "widzieć", "features": {"who": "i", "when": "before"}},
+				{"english": "I will see", "foreign": "zobaczę", "base": "widzieć", "features": {"who": "i", "when": "later"}},
+				{"english": "She saw", "foreign": "ona zobaczyła", "mark": ["ła"], "base": "widzieć", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 7, "verb": "dawać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: dawałem, ona dawała. For later, a form of być goes in front of the whole verb: będę dawać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 7, "verb": "dawać", "strategy": ["ending"], "description": "For something done, Dawać hands over to its partner, the verb for having done it: dałem, ona dała, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: dam.", "rows": [
 				{"english": "I give", "foreign": "daję", "base": "dawać", "features": {"who": "i", "when": "now"}},
-				{"english": "I gave", "foreign": "dawałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "dawać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will give", "foreign": "będę dawać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "dawać", "features": {"who": "i", "when": "later"}},
-				{"english": "She gave", "foreign": "ona dawała", "mark": [{"text": "ła", "role": "ending"}], "base": "dawać", "features": {"who": "she", "when": "before"}}
+				{"english": "I gave", "foreign": "dałem", "mark": ["łem"], "base": "dawać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "dam", "base": "dawać", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "ona dała", "mark": ["ła"], "base": "dawać", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 8, "verb": "wiedzieć", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: wiedziałem, ona wiedziała. For later, a form of być goes in front of the whole verb: będę wiedzieć. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I know", "foreign": "wiem", "base": "wiedzieć", "features": {"who": "i", "when": "now"}},
@@ -340,11 +340,11 @@
 				{"english": "I will think", "foreign": "będę myśleć", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "myśleć", "features": {"who": "i", "when": "later"}},
 				{"english": "She thought", "foreign": "ona myślała", "mark": [{"text": "ła", "role": "ending"}], "base": "myśleć", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 14, "verb": "brać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: brałem, ona brała. For later, a form of być goes in front of the whole verb: będę brać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 14, "verb": "brać", "strategy": ["ending"], "description": "For something done, Brać hands over to its partner, the verb for having done it: wziąłem, ona wzięła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: wezmę.", "rows": [
 				{"english": "I take", "foreign": "biorę", "base": "brać", "features": {"who": "i", "when": "now"}},
-				{"english": "I took", "foreign": "brałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "brać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will take", "foreign": "będę brać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "brać", "features": {"who": "i", "when": "later"}},
-				{"english": "She took", "foreign": "ona brała", "mark": [{"text": "ła", "role": "ending"}], "base": "brać", "features": {"who": "she", "when": "before"}}
+				{"english": "I took", "foreign": "wziąłem", "mark": ["łem"], "base": "brać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "wezmę", "base": "brać", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "ona wzięła", "mark": ["ła"], "base": "brać", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 15, "verb": "pisać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: pisałem, ona pisała. For later, a form of być goes in front of the whole verb: będę pisać. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I write", "foreign": "piszę", "base": "pisać", "features": {"who": "i", "when": "now"}},
@@ -352,11 +352,11 @@
 				{"english": "I will write", "foreign": "będę pisać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "pisać", "features": {"who": "i", "when": "later"}},
 				{"english": "She wrote", "foreign": "ona pisała", "mark": [{"text": "ła", "role": "ending"}], "base": "pisać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 16, "verb": "kupować", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: kupowałem, ona kupowała. For later, a form of być goes in front of the whole verb: będę kupować. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 16, "verb": "kupować", "strategy": ["ending"], "description": "For something done, Kupować hands over to its partner, the verb for having done it: kupiłem, ona kupiła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: kupię.", "rows": [
 				{"english": "I buy", "foreign": "kupuję", "base": "kupować", "features": {"who": "i", "when": "now"}},
-				{"english": "I bought", "foreign": "kupowałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "kupować", "features": {"who": "i", "when": "before"}},
-				{"english": "I will buy", "foreign": "będę kupować", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "kupować", "features": {"who": "i", "when": "later"}},
-				{"english": "She bought", "foreign": "ona kupowała", "mark": [{"text": "ła", "role": "ending"}], "base": "kupować", "features": {"who": "she", "when": "before"}}
+				{"english": "I bought", "foreign": "kupiłem", "mark": ["łem"], "base": "kupować", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "kupię", "base": "kupować", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "ona kupiła", "mark": ["ła"], "base": "kupować", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 17, "verb": "pić", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: piłem, ona piła. For later, a form of być goes in front of the whole verb: będę pić. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I drink", "foreign": "piję", "base": "pić", "features": {"who": "i", "when": "now"}},
@@ -388,41 +388,41 @@
 				{"english": "I will search", "foreign": "będę szukać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "szukać", "features": {"who": "i", "when": "later"}},
 				{"english": "She searched", "foreign": "ona szukała", "mark": [{"text": "ła", "role": "ending"}], "base": "szukać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 22, "verb": "znajdować", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: znajdowałem, ona znajdowała. For later, a form of być goes in front of the whole verb: będę znajdować. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 22, "verb": "znajdować", "strategy": ["ending"], "description": "For something done, Znajdować hands over to its partner, the verb for having done it: znalazłem, ona znalazła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: znajdę.", "rows": [
 				{"english": "I find", "foreign": "znajduję", "base": "znajdować", "features": {"who": "i", "when": "now"}},
-				{"english": "I found", "foreign": "znajdowałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "znajdować", "features": {"who": "i", "when": "before"}},
-				{"english": "I will find", "foreign": "będę znajdować", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "znajdować", "features": {"who": "i", "when": "later"}},
-				{"english": "She found", "foreign": "ona znajdowała", "mark": [{"text": "ła", "role": "ending"}], "base": "znajdować", "features": {"who": "she", "when": "before"}}
+				{"english": "I found", "foreign": "znalazłem", "mark": ["łem"], "base": "znajdować", "features": {"who": "i", "when": "before"}},
+				{"english": "I will find", "foreign": "znajdę", "base": "znajdować", "features": {"who": "i", "when": "later"}},
+				{"english": "She found", "foreign": "ona znalazła", "mark": ["ła"], "base": "znajdować", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 23, "verb": "wołać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: wołałem, ona wołała. For later, a form of być goes in front of the whole verb: będę wołać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 23, "verb": "wołać", "strategy": ["ending"], "description": "For something done, Wołać hands over to its partner, the verb for having done it: zawołałem, ona zawołała, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: zawołam.", "rows": [
 				{"english": "I call", "foreign": "wołam", "base": "wołać", "features": {"who": "i", "when": "now"}},
-				{"english": "I called", "foreign": "wołałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "wołać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will call", "foreign": "będę wołać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "wołać", "features": {"who": "i", "when": "later"}},
-				{"english": "She called", "foreign": "ona wołała", "mark": [{"text": "ła", "role": "ending"}], "base": "wołać", "features": {"who": "she", "when": "before"}}
+				{"english": "I called", "foreign": "zawołałem", "mark": ["łem"], "base": "wołać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "zawołam", "base": "wołać", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "ona zawołała", "mark": ["ła"], "base": "wołać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 24, "verb": "zaczynać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: zaczynałem, ona zaczynała. For later, a form of być goes in front of the whole verb: będę zaczynać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 24, "verb": "zaczynać", "strategy": ["ending"], "description": "For something done, Zaczynać hands over to its partner, the verb for having done it: zacząłem, ona zaczęła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: zacznę.", "rows": [
 				{"english": "I begin", "foreign": "zaczynam", "base": "zaczynać", "features": {"who": "i", "when": "now"}},
-				{"english": "I began", "foreign": "zaczynałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "zaczynać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will begin", "foreign": "będę zaczynać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "zaczynać", "features": {"who": "i", "when": "later"}},
-				{"english": "She began", "foreign": "ona zaczynała", "mark": [{"text": "ła", "role": "ending"}], "base": "zaczynać", "features": {"who": "she", "when": "before"}}
+				{"english": "I began", "foreign": "zacząłem", "mark": ["łem"], "base": "zaczynać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "zacznę", "base": "zaczynać", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "ona zaczęła", "mark": ["ła"], "base": "zaczynać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 25, "verb": "kończyć", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: kończyłem, ona kończyła. For later, a form of być goes in front of the whole verb: będę kończyć. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 25, "verb": "kończyć", "strategy": ["ending"], "description": "For something done, Kończyć hands over to its partner, the verb for having done it: skończyłem, ona skończyła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: skończę.", "rows": [
 				{"english": "I finish", "foreign": "kończę", "base": "kończyć", "features": {"who": "i", "when": "now"}},
-				{"english": "I finished", "foreign": "kończyłem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "kończyć", "features": {"who": "i", "when": "before"}},
-				{"english": "I will finish", "foreign": "będę kończyć", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "kończyć", "features": {"who": "i", "when": "later"}},
-				{"english": "She finished", "foreign": "ona kończyła", "mark": [{"text": "ła", "role": "ending"}], "base": "kończyć", "features": {"who": "she", "when": "before"}}
+				{"english": "I finished", "foreign": "skończyłem", "mark": ["łem"], "base": "kończyć", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "skończę", "base": "kończyć", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "ona skończyła", "mark": ["ła"], "base": "kończyć", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 26, "verb": "otwierać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: otwierałem, ona otwierała. For later, a form of być goes in front of the whole verb: będę otwierać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 26, "verb": "otwierać", "strategy": ["ending"], "description": "For something done, Otwierać hands over to its partner, the verb for having done it: otworzyłem, ona otworzyła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: otworzę.", "rows": [
 				{"english": "I open", "foreign": "otwieram", "base": "otwierać", "features": {"who": "i", "when": "now"}},
-				{"english": "I opened", "foreign": "otwierałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "otwierać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will open", "foreign": "będę otwierać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "otwierać", "features": {"who": "i", "when": "later"}},
-				{"english": "She opened", "foreign": "ona otwierała", "mark": [{"text": "ła", "role": "ending"}], "base": "otwierać", "features": {"who": "she", "when": "before"}}
+				{"english": "I opened", "foreign": "otworzyłem", "mark": ["łem"], "base": "otwierać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "otworzę", "base": "otwierać", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "ona otworzyła", "mark": ["ła"], "base": "otwierać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 27, "verb": "zamykać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: zamykałem, ona zamykała. For later, a form of być goes in front of the whole verb: będę zamykać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 27, "verb": "zamykać", "strategy": ["ending"], "description": "For something done, Zamykać hands over to its partner, the verb for having done it: zamknąłem, ona zamknęła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: zamknę.", "rows": [
 				{"english": "I close", "foreign": "zamykam", "base": "zamykać", "features": {"who": "i", "when": "now"}},
-				{"english": "I closed", "foreign": "zamykałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "zamykać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will close", "foreign": "będę zamykać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "zamykać", "features": {"who": "i", "when": "later"}},
-				{"english": "She closed", "foreign": "ona zamykała", "mark": [{"text": "ła", "role": "ending"}], "base": "zamykać", "features": {"who": "she", "when": "before"}}
+				{"english": "I closed", "foreign": "zamknąłem", "mark": ["łem"], "base": "zamykać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "zamknę", "base": "zamykać", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "ona zamknęła", "mark": ["ła"], "base": "zamykać", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 28, "verb": "studiować", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: studiowałem, ona studiowała. For later, a form of być goes in front of the whole verb: będę studiować. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I study", "foreign": "studiuję", "base": "studiować", "features": {"who": "i", "when": "now"}},
@@ -436,11 +436,11 @@
 				{"english": "I will understand", "foreign": "będę rozumieć", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "rozumieć", "features": {"who": "i", "when": "later"}},
 				{"english": "She understood", "foreign": "ona rozumiała", "mark": [{"text": "ła", "role": "ending"}], "base": "rozumieć", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 30, "verb": "zapominać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: zapominałem, ona zapominała. For later, a form of być goes in front of the whole verb: będę zapominać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 30, "verb": "zapominać", "strategy": ["ending"], "description": "For something done, Zapominać hands over to its partner, the verb for having done it: zapomniałem, ona zapomniała, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: zapomnę.", "rows": [
 				{"english": "I forget", "foreign": "zapominam", "base": "zapominać", "features": {"who": "i", "when": "now"}},
-				{"english": "I forgot", "foreign": "zapominałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "zapominać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will forget", "foreign": "będę zapominać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "zapominać", "features": {"who": "i", "when": "later"}},
-				{"english": "She forgot", "foreign": "ona zapominała", "mark": [{"text": "ła", "role": "ending"}], "base": "zapominać", "features": {"who": "she", "when": "before"}}
+				{"english": "I forgot", "foreign": "zapomniałem", "mark": ["łem"], "base": "zapominać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will forget", "foreign": "zapomnę", "base": "zapominać", "features": {"who": "i", "when": "later"}},
+				{"english": "She forgot", "foreign": "ona zapomniała", "mark": ["ła"], "base": "zapominać", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 31, "verb": "biegać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: biegałem, ona biegała. For later, a form of być goes in front of the whole verb: będę biegać. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I run", "foreign": "biegam", "base": "biegać", "features": {"who": "i", "when": "now"}},
@@ -466,29 +466,29 @@
 				{"english": "I will play", "foreign": "będę grać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "grać", "features": {"who": "i", "when": "later"}},
 				{"english": "She played", "foreign": "ona grała", "mark": [{"text": "ła", "role": "ending"}], "base": "grać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 35, "verb": "płacić", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: płaciłem, ona płaciła. For later, a form of być goes in front of the whole verb: będę płacić. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 35, "verb": "płacić", "strategy": ["ending"], "description": "For something done, Płacić hands over to its partner, the verb for having done it: zapłaciłem, ona zapłaciła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: zapłacę.", "rows": [
 				{"english": "I pay", "foreign": "płacę", "base": "płacić", "features": {"who": "i", "when": "now"}},
-				{"english": "I paid", "foreign": "płaciłem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "płacić", "features": {"who": "i", "when": "before"}},
-				{"english": "I will pay", "foreign": "będę płacić", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "płacić", "features": {"who": "i", "when": "later"}},
-				{"english": "She paid", "foreign": "ona płaciła", "mark": [{"text": "ła", "role": "ending"}], "base": "płacić", "features": {"who": "she", "when": "before"}}
+				{"english": "I paid", "foreign": "zapłaciłem", "mark": ["łem"], "base": "płacić", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "zapłacę", "base": "płacić", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "ona zapłaciła", "mark": ["ła"], "base": "płacić", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 36, "verb": "sprzedawać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: sprzedawałem, ona sprzedawała. For later, a form of być goes in front of the whole verb: będę sprzedawać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 36, "verb": "sprzedawać", "strategy": ["ending"], "description": "For something done, Sprzedawać hands over to its partner, the verb for having done it: sprzedałem, ona sprzedała, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: sprzedam.", "rows": [
 				{"english": "I sell", "foreign": "sprzedaję", "base": "sprzedawać", "features": {"who": "i", "when": "now"}},
-				{"english": "I sold", "foreign": "sprzedawałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "sprzedawać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will sell", "foreign": "będę sprzedawać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "sprzedawać", "features": {"who": "i", "when": "later"}},
-				{"english": "She sold", "foreign": "ona sprzedawała", "mark": [{"text": "ła", "role": "ending"}], "base": "sprzedawać", "features": {"who": "she", "when": "before"}}
+				{"english": "I sold", "foreign": "sprzedałem", "mark": ["łem"], "base": "sprzedawać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "sprzedam", "base": "sprzedawać", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "ona sprzedała", "mark": ["ła"], "base": "sprzedawać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 37, "verb": "pomagać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: pomagałem, ona pomagała. For later, a form of być goes in front of the whole verb: będę pomagać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 37, "verb": "pomagać", "strategy": ["ending"], "description": "For something done, Pomagać hands over to its partner, the verb for having done it: pomogłem, ona pomogła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: pomogę.", "rows": [
 				{"english": "I help", "foreign": "pomagam", "base": "pomagać", "features": {"who": "i", "when": "now"}},
-				{"english": "I helped", "foreign": "pomagałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "pomagać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will help", "foreign": "będę pomagać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "pomagać", "features": {"who": "i", "when": "later"}},
-				{"english": "She helped", "foreign": "ona pomagała", "mark": [{"text": "ła", "role": "ending"}], "base": "pomagać", "features": {"who": "she", "when": "before"}}
+				{"english": "I helped", "foreign": "pomogłem", "mark": ["łem"], "base": "pomagać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "pomogę", "base": "pomagać", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "ona pomogła", "mark": ["ła"], "base": "pomagać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 38, "verb": "gotować", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: gotowałem, ona gotowała. For later, a form of być goes in front of the whole verb: będę gotować. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 38, "verb": "gotować", "strategy": ["ending"], "description": "For something done, Gotować hands over to its partner, the verb for having done it: ugotowałem, ona ugotowała, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: ugotuję.", "rows": [
 				{"english": "I cook", "foreign": "gotuję", "base": "gotować", "features": {"who": "i", "when": "now"}},
-				{"english": "I cooked", "foreign": "gotowałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "gotować", "features": {"who": "i", "when": "before"}},
-				{"english": "I will cook", "foreign": "będę gotować", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "gotować", "features": {"who": "i", "when": "later"}},
-				{"english": "She cooked", "foreign": "ona gotowała", "mark": [{"text": "ła", "role": "ending"}], "base": "gotować", "features": {"who": "she", "when": "before"}}
+				{"english": "I cooked", "foreign": "ugotowałem", "mark": ["łem"], "base": "gotować", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "ugotuję", "base": "gotować", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "ona ugotowała", "mark": ["ła"], "base": "gotować", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 39, "verb": "podróżować", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: podróżowałem, ona podróżowała. For later, a form of być goes in front of the whole verb: będę podróżować. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I travel", "foreign": "podróżuję", "base": "podróżować", "features": {"who": "i", "when": "now"}},
@@ -502,11 +502,11 @@
 				{"english": "I will ask", "foreign": "będę pytać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "pytać", "features": {"who": "i", "when": "later"}},
 				{"english": "She asked", "foreign": "ona pytała", "mark": [{"text": "ła", "role": "ending"}], "base": "pytać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 41, "verb": "odpowiadać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: odpowiadałem, ona odpowiadała. For later, a form of być goes in front of the whole verb: będę odpowiadać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 41, "verb": "odpowiadać", "strategy": ["ending"], "description": "For something done, Odpowiadać hands over to its partner, the verb for having done it: odpowiedziałem, ona odpowiedziała, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: odpowiem.", "rows": [
 				{"english": "I answer", "foreign": "odpowiadam", "base": "odpowiadać", "features": {"who": "i", "when": "now"}},
-				{"english": "I answered", "foreign": "odpowiadałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "odpowiadać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will answer", "foreign": "będę odpowiadać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "odpowiadać", "features": {"who": "i", "when": "later"}},
-				{"english": "She answered", "foreign": "ona odpowiadała", "mark": [{"text": "ła", "role": "ending"}], "base": "odpowiadać", "features": {"who": "she", "when": "before"}}
+				{"english": "I answered", "foreign": "odpowiedziałem", "mark": ["łem"], "base": "odpowiadać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "odpowiem", "base": "odpowiadać", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "ona odpowiedziała", "mark": ["ła"], "base": "odpowiadać", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 42, "verb": "tracić", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: traciłem, ona traciła. For later, a form of być goes in front of the whole verb: będę tracić. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I lose", "foreign": "tracę", "base": "tracić", "features": {"who": "i", "when": "now"}},
@@ -514,17 +514,17 @@
 				{"english": "I will lose", "foreign": "będę tracić", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "tracić", "features": {"who": "i", "when": "later"}},
 				{"english": "She lost", "foreign": "ona traciła", "mark": [{"text": "ła", "role": "ending"}], "base": "tracić", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 43, "verb": "otrzymywać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: otrzymywałem, ona otrzymywała. For later, a form of być goes in front of the whole verb: będę otrzymywać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 43, "verb": "otrzymywać", "strategy": ["ending"], "description": "For something done, Otrzymywać hands over to its partner, the verb for having done it: otrzymałem, ona otrzymała, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: otrzymam.", "rows": [
 				{"english": "I receive", "foreign": "otrzymuję", "base": "otrzymywać", "features": {"who": "i", "when": "now"}},
-				{"english": "I received", "foreign": "otrzymywałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "otrzymywać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will receive", "foreign": "będę otrzymywać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "otrzymywać", "features": {"who": "i", "when": "later"}},
-				{"english": "She received", "foreign": "ona otrzymywała", "mark": [{"text": "ła", "role": "ending"}], "base": "otrzymywać", "features": {"who": "she", "when": "before"}}
+				{"english": "I received", "foreign": "otrzymałem", "mark": ["łem"], "base": "otrzymywać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will receive", "foreign": "otrzymam", "base": "otrzymywać", "features": {"who": "i", "when": "later"}},
+				{"english": "She received", "foreign": "ona otrzymała", "mark": ["ła"], "base": "otrzymywać", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 44, "verb": "zamawiać", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: zamawiałem, ona zamawiała. For later, a form of być goes in front of the whole verb: będę zamawiać. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 44, "verb": "zamawiać", "strategy": ["ending"], "description": "For something done, Zamawiać hands over to its partner, the verb for having done it: zamówiłem, ona zamówiła, ending in łem when a man says it of himself, and in ła of a woman. The partner needs no być for later, because its own forms already say it will be done: zamówię.", "rows": [
 				{"english": "I order", "foreign": "zamawiam", "base": "zamawiać", "features": {"who": "i", "when": "now"}},
-				{"english": "I ordered", "foreign": "zamawiałem", "mark": [{"text": "łem", "role": "ending"}], "from": 1, "base": "zamawiać", "features": {"who": "i", "when": "before"}},
-				{"english": "I will order", "foreign": "będę zamawiać", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "zamawiać", "features": {"who": "i", "when": "later"}},
-				{"english": "She ordered", "foreign": "ona zamawiała", "mark": [{"text": "ła", "role": "ending"}], "base": "zamawiać", "features": {"who": "she", "when": "before"}}
+				{"english": "I ordered", "foreign": "zamówiłem", "mark": ["łem"], "base": "zamawiać", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "zamówię", "base": "zamawiać", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "ona zamówiła", "mark": ["ła"], "base": "zamawiać", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 45, "verb": "czuć", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in łem when a man says it of himself, and in ła of a woman: czułem, ona czuła. For later, a form of być goes in front of the whole verb: będę czuć. Watch the middle of the word too: in some of these it changes.", "rows": [
 				{"english": "I feel", "foreign": "czuję", "base": "czuć", "features": {"who": "i", "when": "now"}},
@@ -532,11 +532,11 @@
 				{"english": "I will feel", "foreign": "będę czuć", "mark": [{"text": "będę", "role": "helper word"}], "from": 1, "base": "czuć", "features": {"who": "i", "when": "later"}},
 				{"english": "She felt", "foreign": "ona czuła", "mark": [{"text": "ła", "role": "ending"}], "base": "czuć", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "command", "part": 2, "verb": "robić", "strategy": ["helper word"], "description": "To a friend: Rób! To more than one person: Róbcie! Telling a friend not to puts nie in front: Nie rób!", "rows": [
+		{"job": "command", "part": 2, "verb": "robić", "strategy": ["helper word"], "description": "To a friend: Rób! To more than one person: Róbcie! Telling a friend not to puts nie in front: Nie rób! Let's comes from the partner, the verb for having done it: Zróbmy!", "rows": [
 				{"english": "Make!", "foreign": "Rób!", "base": "robić", "features": {"command": "yes", "who": "you"}},
 				{"english": "Make! said to more than one person", "foreign": "Róbcie!", "base": "robić", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not make!", "foreign": "Nie rób!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "robić", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's make!", "foreign": "Róbmy!", "base": "robić", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's make!", "foreign": "Zróbmy!", "base": "robić", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 3, "verb": "iść", "strategy": ["helper word"], "description": "To a friend: Idź! To more than one person: Idźcie! Telling a friend not to puts nie in front: Nie idź!", "rows": [
 				{"english": "Go!", "foreign": "Idź!", "base": "iść", "features": {"command": "yes", "who": "you"}},
@@ -550,11 +550,11 @@
 				{"english": "Do not say!", "foreign": "Nie mów!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "mówić", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's say!", "foreign": "Mówmy!", "base": "mówić", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 5, "verb": "dawać", "strategy": ["helper word"], "description": "To a friend: Dawaj! To more than one person: Dawajcie! Telling a friend not to puts nie in front: Nie dawaj!", "rows": [
+		{"job": "command", "part": 5, "verb": "dawać", "strategy": ["helper word"], "description": "To a friend: Dawaj! To more than one person: Dawajcie! Telling a friend not to puts nie in front: Nie dawaj! Let's comes from the partner, the verb for having done it: Dajmy!", "rows": [
 				{"english": "Give!", "foreign": "Dawaj!", "base": "dawać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Give! said to more than one person", "foreign": "Dawajcie!", "base": "dawać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not give!", "foreign": "Nie dawaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "dawać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's give!", "foreign": "Dawajmy!", "base": "dawać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's give!", "foreign": "Dajmy!", "base": "dawać", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 6, "verb": "jeść", "strategy": ["helper word"], "description": "To a friend: Jedz! To more than one person: Jedzcie! Telling a friend not to puts nie in front: Nie jedz!", "rows": [
 				{"english": "Eat!", "foreign": "Jedz!", "base": "jeść", "features": {"command": "yes", "who": "you"}},
@@ -574,11 +574,11 @@
 				{"english": "Do not think!", "foreign": "Nie myśl!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "myśleć", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's think!", "foreign": "Myślmy!", "base": "myśleć", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 10, "verb": "brać", "strategy": ["helper word"], "description": "To a friend: Bierz! To more than one person: Bierzcie! Telling a friend not to puts nie in front: Nie bierz!", "rows": [
+		{"job": "command", "part": 10, "verb": "brać", "strategy": ["helper word"], "description": "To a friend: Bierz! To more than one person: Bierzcie! Telling a friend not to puts nie in front: Nie bierz! Let's comes from the partner, the verb for having done it: Weźmy!", "rows": [
 				{"english": "Take!", "foreign": "Bierz!", "base": "brać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Take! said to more than one person", "foreign": "Bierzcie!", "base": "brać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not take!", "foreign": "Nie bierz!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "brać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's take!", "foreign": "Bierzmy!", "base": "brać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's take!", "foreign": "Weźmy!", "base": "brać", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 11, "verb": "pisać", "strategy": ["helper word"], "description": "To a friend: Pisz! To more than one person: Piszcie! Telling a friend not to puts nie in front: Nie pisz!", "rows": [
 				{"english": "Write!", "foreign": "Pisz!", "base": "pisać", "features": {"command": "yes", "who": "you"}},
@@ -586,11 +586,11 @@
 				{"english": "Do not write!", "foreign": "Nie pisz!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "pisać", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's write!", "foreign": "Piszmy!", "base": "pisać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 12, "verb": "kupować", "strategy": ["helper word"], "description": "To a friend: Kupuj! To more than one person: Kupujcie! Telling a friend not to puts nie in front: Nie kupuj!", "rows": [
+		{"job": "command", "part": 12, "verb": "kupować", "strategy": ["helper word"], "description": "To a friend: Kupuj! To more than one person: Kupujcie! Telling a friend not to puts nie in front: Nie kupuj! Let's comes from the partner, the verb for having done it: Kupmy!", "rows": [
 				{"english": "Buy!", "foreign": "Kupuj!", "base": "kupować", "features": {"command": "yes", "who": "you"}},
 				{"english": "Buy! said to more than one person", "foreign": "Kupujcie!", "base": "kupować", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not buy!", "foreign": "Nie kupuj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "kupować", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's buy!", "foreign": "Kupujmy!", "base": "kupować", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's buy!", "foreign": "Kupmy!", "base": "kupować", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 13, "verb": "pić", "strategy": ["helper word"], "description": "To a friend: Pij! To more than one person: Pijcie! Telling a friend not to puts nie in front: Nie pij!", "rows": [
 				{"english": "Drink!", "foreign": "Pij!", "base": "pić", "features": {"command": "yes", "who": "you"}},
@@ -622,41 +622,41 @@
 				{"english": "Do not search!", "foreign": "Nie szukaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "szukać", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's search!", "foreign": "Szukajmy!", "base": "szukać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 18, "verb": "znajdować", "strategy": ["helper word"], "description": "To a friend: Znajduj! To more than one person: Znajdujcie! Telling a friend not to puts nie in front: Nie znajduj!", "rows": [
+		{"job": "command", "part": 18, "verb": "znajdować", "strategy": ["helper word"], "description": "To a friend: Znajduj! To more than one person: Znajdujcie! Telling a friend not to puts nie in front: Nie znajduj! Let's comes from the partner, the verb for having done it: Znajdźmy!", "rows": [
 				{"english": "Find!", "foreign": "Znajduj!", "base": "znajdować", "features": {"command": "yes", "who": "you"}},
 				{"english": "Find! said to more than one person", "foreign": "Znajdujcie!", "base": "znajdować", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not find!", "foreign": "Nie znajduj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "znajdować", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's find!", "foreign": "Znajdujmy!", "base": "znajdować", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's find!", "foreign": "Znajdźmy!", "base": "znajdować", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 19, "verb": "wołać", "strategy": ["helper word"], "description": "To a friend: Wołaj! To more than one person: Wołajcie! Telling a friend not to puts nie in front: Nie wołaj!", "rows": [
+		{"job": "command", "part": 19, "verb": "wołać", "strategy": ["helper word"], "description": "To a friend: Wołaj! To more than one person: Wołajcie! Telling a friend not to puts nie in front: Nie wołaj! Let's comes from the partner, the verb for having done it: Zawołajmy!", "rows": [
 				{"english": "Call!", "foreign": "Wołaj!", "base": "wołać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Call! said to more than one person", "foreign": "Wołajcie!", "base": "wołać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not call!", "foreign": "Nie wołaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "wołać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's call!", "foreign": "Wołajmy!", "base": "wołać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's call!", "foreign": "Zawołajmy!", "base": "wołać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 20, "verb": "zaczynać", "strategy": ["helper word"], "description": "To a friend: Zaczynaj! To more than one person: Zaczynajcie! Telling a friend not to puts nie in front: Nie zaczynaj!", "rows": [
+		{"job": "command", "part": 20, "verb": "zaczynać", "strategy": ["helper word"], "description": "To a friend: Zaczynaj! To more than one person: Zaczynajcie! Telling a friend not to puts nie in front: Nie zaczynaj! Let's comes from the partner, the verb for having done it: Zacznijmy!", "rows": [
 				{"english": "Begin!", "foreign": "Zaczynaj!", "base": "zaczynać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Begin! said to more than one person", "foreign": "Zaczynajcie!", "base": "zaczynać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not begin!", "foreign": "Nie zaczynaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "zaczynać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's begin!", "foreign": "Zaczynajmy!", "base": "zaczynać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's begin!", "foreign": "Zacznijmy!", "base": "zaczynać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 21, "verb": "kończyć", "strategy": ["helper word"], "description": "To a friend: Kończ! To more than one person: Kończcie! Telling a friend not to puts nie in front: Nie kończ!", "rows": [
+		{"job": "command", "part": 21, "verb": "kończyć", "strategy": ["helper word"], "description": "To a friend: Kończ! To more than one person: Kończcie! Telling a friend not to puts nie in front: Nie kończ! Let's comes from the partner, the verb for having done it: Skończmy!", "rows": [
 				{"english": "Finish!", "foreign": "Kończ!", "base": "kończyć", "features": {"command": "yes", "who": "you"}},
 				{"english": "Finish! said to more than one person", "foreign": "Kończcie!", "base": "kończyć", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not finish!", "foreign": "Nie kończ!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "kończyć", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's finish!", "foreign": "Kończmy!", "base": "kończyć", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's finish!", "foreign": "Skończmy!", "base": "kończyć", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 22, "verb": "otwierać", "strategy": ["helper word"], "description": "To a friend: Otwieraj! To more than one person: Otwierajcie! Telling a friend not to puts nie in front: Nie otwieraj!", "rows": [
+		{"job": "command", "part": 22, "verb": "otwierać", "strategy": ["helper word"], "description": "To a friend: Otwieraj! To more than one person: Otwierajcie! Telling a friend not to puts nie in front: Nie otwieraj! Let's comes from the partner, the verb for having done it: Otwórzmy!", "rows": [
 				{"english": "Open!", "foreign": "Otwieraj!", "base": "otwierać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Open! said to more than one person", "foreign": "Otwierajcie!", "base": "otwierać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not open!", "foreign": "Nie otwieraj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "otwierać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's open!", "foreign": "Otwierajmy!", "base": "otwierać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's open!", "foreign": "Otwórzmy!", "base": "otwierać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 23, "verb": "zamykać", "strategy": ["helper word"], "description": "To a friend: Zamykaj! To more than one person: Zamykajcie! Telling a friend not to puts nie in front: Nie zamykaj!", "rows": [
+		{"job": "command", "part": 23, "verb": "zamykać", "strategy": ["helper word"], "description": "To a friend: Zamykaj! To more than one person: Zamykajcie! Telling a friend not to puts nie in front: Nie zamykaj! Let's comes from the partner, the verb for having done it: Zamknijmy!", "rows": [
 				{"english": "Close!", "foreign": "Zamykaj!", "base": "zamykać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Close! said to more than one person", "foreign": "Zamykajcie!", "base": "zamykać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not close!", "foreign": "Nie zamykaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "zamykać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's close!", "foreign": "Zamykajmy!", "base": "zamykać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's close!", "foreign": "Zamknijmy!", "base": "zamykać", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 24, "verb": "studiować", "strategy": ["helper word"], "description": "To a friend: Studiuj! To more than one person: Studiujcie! Telling a friend not to puts nie in front: Nie studiuj!", "rows": [
 				{"english": "Study!", "foreign": "Studiuj!", "base": "studiować", "features": {"command": "yes", "who": "you"}},
@@ -664,11 +664,11 @@
 				{"english": "Do not study!", "foreign": "Nie studiuj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "studiować", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's study!", "foreign": "Studiujmy!", "base": "studiować", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 25, "verb": "zapominać", "strategy": ["helper word"], "description": "To a friend: Zapominaj! To more than one person: Zapominajcie! Telling a friend not to puts nie in front: Nie zapominaj!", "rows": [
+		{"job": "command", "part": 25, "verb": "zapominać", "strategy": ["helper word"], "description": "To a friend: Zapominaj! To more than one person: Zapominajcie! Telling a friend not to puts nie in front: Nie zapominaj! Let's comes from the partner, the verb for having done it: Zapomnijmy!", "rows": [
 				{"english": "Forget!", "foreign": "Zapominaj!", "base": "zapominać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Forget! said to more than one person", "foreign": "Zapominajcie!", "base": "zapominać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not forget!", "foreign": "Nie zapominaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "zapominać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's forget!", "foreign": "Zapominajmy!", "base": "zapominać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's forget!", "foreign": "Zapomnijmy!", "base": "zapominać", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 26, "verb": "biegać", "strategy": ["helper word"], "description": "To a friend: Biegaj! To more than one person: Biegajcie! Telling a friend not to puts nie in front: Nie biegaj!", "rows": [
 				{"english": "Run!", "foreign": "Biegaj!", "base": "biegać", "features": {"command": "yes", "who": "you"}},
@@ -694,29 +694,29 @@
 				{"english": "Do not play!", "foreign": "Nie graj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "grać", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's play!", "foreign": "Grajmy!", "base": "grać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 30, "verb": "płacić", "strategy": ["helper word"], "description": "To a friend: Płać! To more than one person: Płaćcie! Telling a friend not to puts nie in front: Nie płać!", "rows": [
+		{"job": "command", "part": 30, "verb": "płacić", "strategy": ["helper word"], "description": "To a friend: Płać! To more than one person: Płaćcie! Telling a friend not to puts nie in front: Nie płać! Let's comes from the partner, the verb for having done it: Zapłaćmy!", "rows": [
 				{"english": "Pay!", "foreign": "Płać!", "base": "płacić", "features": {"command": "yes", "who": "you"}},
 				{"english": "Pay! said to more than one person", "foreign": "Płaćcie!", "base": "płacić", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not pay!", "foreign": "Nie płać!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "płacić", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's pay!", "foreign": "Płaćmy!", "base": "płacić", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's pay!", "foreign": "Zapłaćmy!", "base": "płacić", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 31, "verb": "sprzedawać", "strategy": ["helper word"], "description": "To a friend: Sprzedawaj! To more than one person: Sprzedawajcie! Telling a friend not to puts nie in front: Nie sprzedawaj!", "rows": [
+		{"job": "command", "part": 31, "verb": "sprzedawać", "strategy": ["helper word"], "description": "To a friend: Sprzedawaj! To more than one person: Sprzedawajcie! Telling a friend not to puts nie in front: Nie sprzedawaj! Let's comes from the partner, the verb for having done it: Sprzedajmy!", "rows": [
 				{"english": "Sell!", "foreign": "Sprzedawaj!", "base": "sprzedawać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Sell! said to more than one person", "foreign": "Sprzedawajcie!", "base": "sprzedawać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not sell!", "foreign": "Nie sprzedawaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "sprzedawać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's sell!", "foreign": "Sprzedawajmy!", "base": "sprzedawać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's sell!", "foreign": "Sprzedajmy!", "base": "sprzedawać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 32, "verb": "pomagać", "strategy": ["helper word"], "description": "To a friend: Pomagaj! To more than one person: Pomagajcie! Telling a friend not to puts nie in front: Nie pomagaj!", "rows": [
+		{"job": "command", "part": 32, "verb": "pomagać", "strategy": ["helper word"], "description": "To a friend: Pomagaj! To more than one person: Pomagajcie! Telling a friend not to puts nie in front: Nie pomagaj! Let's comes from the partner, the verb for having done it: Pomóżmy!", "rows": [
 				{"english": "Help!", "foreign": "Pomagaj!", "base": "pomagać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Help! said to more than one person", "foreign": "Pomagajcie!", "base": "pomagać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not help!", "foreign": "Nie pomagaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "pomagać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's help!", "foreign": "Pomagajmy!", "base": "pomagać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's help!", "foreign": "Pomóżmy!", "base": "pomagać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 33, "verb": "gotować", "strategy": ["helper word"], "description": "To a friend: Gotuj! To more than one person: Gotujcie! Telling a friend not to puts nie in front: Nie gotuj!", "rows": [
+		{"job": "command", "part": 33, "verb": "gotować", "strategy": ["helper word"], "description": "To a friend: Gotuj! To more than one person: Gotujcie! Telling a friend not to puts nie in front: Nie gotuj! Let's comes from the partner, the verb for having done it: Ugotujmy!", "rows": [
 				{"english": "Cook!", "foreign": "Gotuj!", "base": "gotować", "features": {"command": "yes", "who": "you"}},
 				{"english": "Cook! said to more than one person", "foreign": "Gotujcie!", "base": "gotować", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not cook!", "foreign": "Nie gotuj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "gotować", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's cook!", "foreign": "Gotujmy!", "base": "gotować", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's cook!", "foreign": "Ugotujmy!", "base": "gotować", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 34, "verb": "podróżować", "strategy": ["helper word"], "description": "To a friend: Podróżuj! To more than one person: Podróżujcie! Telling a friend not to puts nie in front: Nie podróżuj!", "rows": [
 				{"english": "Travel!", "foreign": "Podróżuj!", "base": "podróżować", "features": {"command": "yes", "who": "you"}},
@@ -730,17 +730,17 @@
 				{"english": "Do not ask!", "foreign": "Nie pytaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "pytać", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's ask!", "foreign": "Pytajmy!", "base": "pytać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 36, "verb": "odpowiadać", "strategy": ["helper word"], "description": "To a friend: Odpowiadaj! To more than one person: Odpowiadajcie! Telling a friend not to puts nie in front: Nie odpowiadaj!", "rows": [
+		{"job": "command", "part": 36, "verb": "odpowiadać", "strategy": ["helper word"], "description": "To a friend: Odpowiadaj! To more than one person: Odpowiadajcie! Telling a friend not to puts nie in front: Nie odpowiadaj! Let's comes from the partner, the verb for having done it: Odpowiedzmy!", "rows": [
 				{"english": "Answer!", "foreign": "Odpowiadaj!", "base": "odpowiadać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Answer! said to more than one person", "foreign": "Odpowiadajcie!", "base": "odpowiadać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not answer!", "foreign": "Nie odpowiadaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "odpowiadać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's answer!", "foreign": "Odpowiadajmy!", "base": "odpowiadać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's answer!", "foreign": "Odpowiedzmy!", "base": "odpowiadać", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 39, "verb": "zamawiać", "strategy": ["helper word"], "description": "To a friend: Zamawiaj! To more than one person: Zamawiajcie! Telling a friend not to puts nie in front: Nie zamawiaj!", "rows": [
+		{"job": "command", "part": 39, "verb": "zamawiać", "strategy": ["helper word"], "description": "To a friend: Zamawiaj! To more than one person: Zamawiajcie! Telling a friend not to puts nie in front: Nie zamawiaj! Let's comes from the partner, the verb for having done it: Zamówmy!", "rows": [
 				{"english": "Order!", "foreign": "Zamawiaj!", "base": "zamawiać", "features": {"command": "yes", "who": "you"}},
 				{"english": "Order! said to more than one person", "foreign": "Zamawiajcie!", "base": "zamawiać", "features": {"command": "yes", "who": "you-all"}},
 				{"english": "Do not order!", "foreign": "Nie zamawiaj!", "mark": [{"text": "Nie", "role": "helper word"}], "from": 1, "base": "zamawiać", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's order!", "foreign": "Zamawiajmy!", "base": "zamawiać", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's order!", "foreign": "Zamówmy!", "base": "zamawiać", "features": {"command": "yes", "who": "we"}}
 			]}
 	]
 }

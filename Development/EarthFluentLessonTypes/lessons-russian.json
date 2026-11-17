@@ -262,23 +262,23 @@
 				{"english": "She feels", "foreign": "она чувствует", "mark": ["ет"], "base": "чувствовать", "features": {"who": "she", "when": "now"}},
 				{"english": "We feel", "foreign": "мы чувствуем", "mark": ["ем"], "base": "чувствовать", "features": {"who": "we", "when": "now"}}
 			]},
-		{"job": "when", "part": 2, "verb": "делать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я делал, она делала. For later, a form of быть goes in front of the whole verb: я буду делать.", "rows": [
+		{"job": "when", "part": 2, "verb": "делать", "strategy": ["ending"], "description": "For something done, Делать hands over to its partner, the verb for having done it: я сделал, она сделала, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я сделаю.", "rows": [
 				{"english": "I make", "foreign": "я делаю", "base": "делать", "features": {"who": "i", "when": "now"}},
-				{"english": "I made", "foreign": "я делал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "делать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will make", "foreign": "я буду делать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "делать", "features": {"who": "i", "when": "later"}},
-				{"english": "She made", "foreign": "она делала", "mark": [{"text": "ла", "role": "ending"}], "base": "делать", "features": {"who": "she", "when": "before"}}
+				{"english": "I made", "foreign": "я сделал", "mark": ["л"], "base": "делать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will make", "foreign": "я сделаю", "base": "делать", "features": {"who": "i", "when": "later"}},
+				{"english": "She made", "foreign": "она сделала", "mark": ["ла"], "base": "делать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 3, "verb": "идти", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я шёл, она шла. For later, a form of быть goes in front of the whole verb: я буду идти. Watch the middle of the word too: in some of these it changes.", "rows": [
+		{"job": "when", "part": 3, "verb": "идти", "strategy": ["ending"], "description": "For something done, Идти hands over to its partner, the verb for having done it: я пошёл, она пошла, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я пойду.", "rows": [
 				{"english": "I go", "foreign": "я иду", "base": "идти", "features": {"who": "i", "when": "now"}},
-				{"english": "I went", "foreign": "я шёл", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "идти", "features": {"who": "i", "when": "before"}},
-				{"english": "I will go", "foreign": "я буду идти", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "идти", "features": {"who": "i", "when": "later"}},
-				{"english": "She went", "foreign": "она шла", "mark": [{"text": "ла", "role": "ending"}], "base": "идти", "features": {"who": "she", "when": "before"}}
+				{"english": "I went", "foreign": "я пошёл", "mark": ["л"], "base": "идти", "features": {"who": "i", "when": "before"}},
+				{"english": "I will go", "foreign": "я пойду", "base": "идти", "features": {"who": "i", "when": "later"}},
+				{"english": "She went", "foreign": "она пошла", "mark": ["ла"], "base": "идти", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 4, "verb": "говорить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я говорил, она говорила. For later, a form of быть goes in front of the whole verb: я буду говорить.", "rows": [
+		{"job": "when", "part": 4, "verb": "говорить", "strategy": ["ending"], "description": "For something done, Говорить hands over to its partner, the verb for having done it: я сказал, она сказала, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я скажу.", "rows": [
 				{"english": "I say", "foreign": "я говорю", "base": "говорить", "features": {"who": "i", "when": "now"}},
-				{"english": "I said", "foreign": "я говорил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "говорить", "features": {"who": "i", "when": "before"}},
-				{"english": "I will say", "foreign": "я буду говорить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "говорить", "features": {"who": "i", "when": "later"}},
-				{"english": "She said", "foreign": "она говорила", "mark": [{"text": "ла", "role": "ending"}], "base": "говорить", "features": {"who": "she", "when": "before"}}
+				{"english": "I said", "foreign": "я сказал", "mark": ["л"], "base": "говорить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will say", "foreign": "я скажу", "base": "говорить", "features": {"who": "i", "when": "later"}},
+				{"english": "She said", "foreign": "она сказала", "mark": ["ла"], "base": "говорить", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 5, "verb": "видеть", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я видел, она видела. For later, a form of быть goes in front of the whole verb: я буду видеть.", "rows": [
 				{"english": "I see", "foreign": "я вижу", "base": "видеть", "features": {"who": "i", "when": "now"}},
@@ -286,11 +286,11 @@
 				{"english": "I will see", "foreign": "я буду видеть", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "видеть", "features": {"who": "i", "when": "later"}},
 				{"english": "She saw", "foreign": "она видела", "mark": [{"text": "ла", "role": "ending"}], "base": "видеть", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 6, "verb": "давать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я давал, она давала. For later, a form of быть goes in front of the whole verb: я буду давать.", "rows": [
+		{"job": "when", "part": 6, "verb": "давать", "strategy": ["ending"], "description": "For something done, Давать hands over to its partner, the verb for having done it: я дал, она дала, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я дам.", "rows": [
 				{"english": "I give", "foreign": "я даю", "base": "давать", "features": {"who": "i", "when": "now"}},
-				{"english": "I gave", "foreign": "я давал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "давать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will give", "foreign": "я буду давать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "давать", "features": {"who": "i", "when": "later"}},
-				{"english": "She gave", "foreign": "она давала", "mark": [{"text": "ла", "role": "ending"}], "base": "давать", "features": {"who": "she", "when": "before"}}
+				{"english": "I gave", "foreign": "я дал", "mark": ["л"], "base": "давать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will give", "foreign": "я дам", "base": "давать", "features": {"who": "i", "when": "later"}},
+				{"english": "She gave", "foreign": "она дала", "mark": ["ла"], "base": "давать", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 7, "verb": "знать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я знал, она знала. For later, a form of быть goes in front of the whole verb: я буду знать.", "rows": [
 				{"english": "I know", "foreign": "я знаю", "base": "знать", "features": {"who": "i", "when": "now"}},
@@ -328,23 +328,23 @@
 				{"english": "I will think", "foreign": "я буду думать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "думать", "features": {"who": "i", "when": "later"}},
 				{"english": "She thought", "foreign": "она думала", "mark": [{"text": "ла", "role": "ending"}], "base": "думать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 13, "verb": "брать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я брал, она брала. For later, a form of быть goes in front of the whole verb: я буду брать.", "rows": [
+		{"job": "when", "part": 13, "verb": "брать", "strategy": ["ending"], "description": "For something done, Брать hands over to its partner, the verb for having done it: я взял, она взяла, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я возьму.", "rows": [
 				{"english": "I take", "foreign": "я беру", "base": "брать", "features": {"who": "i", "when": "now"}},
-				{"english": "I took", "foreign": "я брал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "брать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will take", "foreign": "я буду брать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "брать", "features": {"who": "i", "when": "later"}},
-				{"english": "She took", "foreign": "она брала", "mark": [{"text": "ла", "role": "ending"}], "base": "брать", "features": {"who": "she", "when": "before"}}
+				{"english": "I took", "foreign": "я взял", "mark": ["л"], "base": "брать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will take", "foreign": "я возьму", "base": "брать", "features": {"who": "i", "when": "later"}},
+				{"english": "She took", "foreign": "она взяла", "mark": ["ла"], "base": "брать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 14, "verb": "писать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я писал, она писала. For later, a form of быть goes in front of the whole verb: я буду писать.", "rows": [
+		{"job": "when", "part": 14, "verb": "писать", "strategy": ["ending"], "description": "For something done, Писать hands over to its partner, the verb for having done it: я написал, она написала, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я напишу.", "rows": [
 				{"english": "I write", "foreign": "я пишу", "base": "писать", "features": {"who": "i", "when": "now"}},
-				{"english": "I wrote", "foreign": "я писал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "писать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will write", "foreign": "я буду писать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "писать", "features": {"who": "i", "when": "later"}},
-				{"english": "She wrote", "foreign": "она писала", "mark": [{"text": "ла", "role": "ending"}], "base": "писать", "features": {"who": "she", "when": "before"}}
+				{"english": "I wrote", "foreign": "я написал", "mark": ["л"], "base": "писать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will write", "foreign": "я напишу", "base": "писать", "features": {"who": "i", "when": "later"}},
+				{"english": "She wrote", "foreign": "она написала", "mark": ["ла"], "base": "писать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 15, "verb": "покупать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я покупал, она покупала. For later, a form of быть goes in front of the whole verb: я буду покупать.", "rows": [
+		{"job": "when", "part": 15, "verb": "покупать", "strategy": ["ending"], "description": "For something done, Покупать hands over to its partner, the verb for having done it: я купил, она купила, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я куплю.", "rows": [
 				{"english": "I buy", "foreign": "я покупаю", "base": "покупать", "features": {"who": "i", "when": "now"}},
-				{"english": "I bought", "foreign": "я покупал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "покупать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will buy", "foreign": "я буду покупать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "покупать", "features": {"who": "i", "when": "later"}},
-				{"english": "She bought", "foreign": "она покупала", "mark": [{"text": "ла", "role": "ending"}], "base": "покупать", "features": {"who": "she", "when": "before"}}
+				{"english": "I bought", "foreign": "я купил", "mark": ["л"], "base": "покупать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will buy", "foreign": "я куплю", "base": "покупать", "features": {"who": "i", "when": "later"}},
+				{"english": "She bought", "foreign": "она купила", "mark": ["ла"], "base": "покупать", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 16, "verb": "пить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я пил, она пила. For later, a form of быть goes in front of the whole verb: я буду пить.", "rows": [
 				{"english": "I drink", "foreign": "я пью", "base": "пить", "features": {"who": "i", "when": "now"}},
@@ -358,17 +358,17 @@
 				{"english": "I will sleep", "foreign": "я буду спать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "спать", "features": {"who": "i", "when": "later"}},
 				{"english": "She slept", "foreign": "она спала", "mark": [{"text": "ла", "role": "ending"}], "base": "спать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 18, "verb": "смотреть", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я смотрел, она смотрела. For later, a form of быть goes in front of the whole verb: я буду смотреть.", "rows": [
+		{"job": "when", "part": 18, "verb": "смотреть", "strategy": ["ending"], "description": "For something done, Смотреть hands over to its partner, the verb for having done it: я посмотрел, она посмотрела, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я посмотрю.", "rows": [
 				{"english": "I look", "foreign": "я смотрю", "base": "смотреть", "features": {"who": "i", "when": "now"}},
-				{"english": "I looked", "foreign": "я смотрел", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "смотреть", "features": {"who": "i", "when": "before"}},
-				{"english": "I will look", "foreign": "я буду смотреть", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "смотреть", "features": {"who": "i", "when": "later"}},
-				{"english": "She looked", "foreign": "она смотрела", "mark": [{"text": "ла", "role": "ending"}], "base": "смотреть", "features": {"who": "she", "when": "before"}}
+				{"english": "I looked", "foreign": "я посмотрел", "mark": ["л"], "base": "смотреть", "features": {"who": "i", "when": "before"}},
+				{"english": "I will look", "foreign": "я посмотрю", "base": "смотреть", "features": {"who": "i", "when": "later"}},
+				{"english": "She looked", "foreign": "она посмотрела", "mark": ["ла"], "base": "смотреть", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 19, "verb": "ждать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я ждал, она ждала. For later, a form of быть goes in front of the whole verb: я буду ждать.", "rows": [
+		{"job": "when", "part": 19, "verb": "ждать", "strategy": ["ending"], "description": "For something done, Ждать hands over to its partner, the verb for having done it: я подождал, она подождала, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я подожду.", "rows": [
 				{"english": "I wait", "foreign": "я жду", "base": "ждать", "features": {"who": "i", "when": "now"}},
-				{"english": "I waited", "foreign": "я ждал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "ждать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will wait", "foreign": "я буду ждать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "ждать", "features": {"who": "i", "when": "later"}},
-				{"english": "She waited", "foreign": "она ждала", "mark": [{"text": "ла", "role": "ending"}], "base": "ждать", "features": {"who": "she", "when": "before"}}
+				{"english": "I waited", "foreign": "я подождал", "mark": ["л"], "base": "ждать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will wait", "foreign": "я подожду", "base": "ждать", "features": {"who": "i", "when": "later"}},
+				{"english": "She waited", "foreign": "она подождала", "mark": ["ла"], "base": "ждать", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 20, "verb": "искать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я искал, она искала. For later, a form of быть goes in front of the whole verb: я буду искать.", "rows": [
 				{"english": "I search", "foreign": "я ищу", "base": "искать", "features": {"who": "i", "when": "now"}},
@@ -376,41 +376,41 @@
 				{"english": "I will search", "foreign": "я буду искать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "искать", "features": {"who": "i", "when": "later"}},
 				{"english": "She searched", "foreign": "она искала", "mark": [{"text": "ла", "role": "ending"}], "base": "искать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 21, "verb": "находить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я находил, она находила. For later, a form of быть goes in front of the whole verb: я буду находить.", "rows": [
+		{"job": "when", "part": 21, "verb": "находить", "strategy": ["ending"], "description": "For something done, Находить hands over to its partner, the verb for having done it: я нашёл, она нашла, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я найду.", "rows": [
 				{"english": "I find", "foreign": "я нахожу", "base": "находить", "features": {"who": "i", "when": "now"}},
-				{"english": "I found", "foreign": "я находил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "находить", "features": {"who": "i", "when": "before"}},
-				{"english": "I will find", "foreign": "я буду находить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "находить", "features": {"who": "i", "when": "later"}},
-				{"english": "She found", "foreign": "она находила", "mark": [{"text": "ла", "role": "ending"}], "base": "находить", "features": {"who": "she", "when": "before"}}
+				{"english": "I found", "foreign": "я нашёл", "mark": ["л"], "base": "находить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will find", "foreign": "я найду", "base": "находить", "features": {"who": "i", "when": "later"}},
+				{"english": "She found", "foreign": "она нашла", "mark": ["ла"], "base": "находить", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 22, "verb": "звать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я звал, она звала. For later, a form of быть goes in front of the whole verb: я буду звать.", "rows": [
+		{"job": "when", "part": 22, "verb": "звать", "strategy": ["ending"], "description": "For something done, Звать hands over to its partner, the verb for having done it: я позвал, она позвала, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я позову.", "rows": [
 				{"english": "I call", "foreign": "я зову", "base": "звать", "features": {"who": "i", "when": "now"}},
-				{"english": "I called", "foreign": "я звал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "звать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will call", "foreign": "я буду звать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "звать", "features": {"who": "i", "when": "later"}},
-				{"english": "She called", "foreign": "она звала", "mark": [{"text": "ла", "role": "ending"}], "base": "звать", "features": {"who": "she", "when": "before"}}
+				{"english": "I called", "foreign": "я позвал", "mark": ["л"], "base": "звать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will call", "foreign": "я позову", "base": "звать", "features": {"who": "i", "when": "later"}},
+				{"english": "She called", "foreign": "она позвала", "mark": ["ла"], "base": "звать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 23, "verb": "начинать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я начинал, она начинала. For later, a form of быть goes in front of the whole verb: я буду начинать.", "rows": [
+		{"job": "when", "part": 23, "verb": "начинать", "strategy": ["ending"], "description": "For something done, Начинать hands over to its partner, the verb for having done it: я начал, она начала, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я начну.", "rows": [
 				{"english": "I begin", "foreign": "я начинаю", "base": "начинать", "features": {"who": "i", "when": "now"}},
-				{"english": "I began", "foreign": "я начинал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "начинать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will begin", "foreign": "я буду начинать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "начинать", "features": {"who": "i", "when": "later"}},
-				{"english": "She began", "foreign": "она начинала", "mark": [{"text": "ла", "role": "ending"}], "base": "начинать", "features": {"who": "she", "when": "before"}}
+				{"english": "I began", "foreign": "я начал", "mark": ["л"], "base": "начинать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will begin", "foreign": "я начну", "base": "начинать", "features": {"who": "i", "when": "later"}},
+				{"english": "She began", "foreign": "она начала", "mark": ["ла"], "base": "начинать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 24, "verb": "заканчивать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я заканчивал, она заканчивала. For later, a form of быть goes in front of the whole verb: я буду заканчивать.", "rows": [
+		{"job": "when", "part": 24, "verb": "заканчивать", "strategy": ["ending"], "description": "For something done, Заканчивать hands over to its partner, the verb for having done it: я закончил, она закончила, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я закончу.", "rows": [
 				{"english": "I finish", "foreign": "я заканчиваю", "base": "заканчивать", "features": {"who": "i", "when": "now"}},
-				{"english": "I finished", "foreign": "я заканчивал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "заканчивать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will finish", "foreign": "я буду заканчивать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "заканчивать", "features": {"who": "i", "when": "later"}},
-				{"english": "She finished", "foreign": "она заканчивала", "mark": [{"text": "ла", "role": "ending"}], "base": "заканчивать", "features": {"who": "she", "when": "before"}}
+				{"english": "I finished", "foreign": "я закончил", "mark": ["л"], "base": "заканчивать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will finish", "foreign": "я закончу", "base": "заканчивать", "features": {"who": "i", "when": "later"}},
+				{"english": "She finished", "foreign": "она закончила", "mark": ["ла"], "base": "заканчивать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 25, "verb": "открывать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я открывал, она открывала. For later, a form of быть goes in front of the whole verb: я буду открывать.", "rows": [
+		{"job": "when", "part": 25, "verb": "открывать", "strategy": ["ending"], "description": "For something done, Открывать hands over to its partner, the verb for having done it: я открыл, она открыла, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я открою.", "rows": [
 				{"english": "I open", "foreign": "я открываю", "base": "открывать", "features": {"who": "i", "when": "now"}},
-				{"english": "I opened", "foreign": "я открывал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "открывать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will open", "foreign": "я буду открывать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "открывать", "features": {"who": "i", "when": "later"}},
-				{"english": "She opened", "foreign": "она открывала", "mark": [{"text": "ла", "role": "ending"}], "base": "открывать", "features": {"who": "she", "when": "before"}}
+				{"english": "I opened", "foreign": "я открыл", "mark": ["л"], "base": "открывать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will open", "foreign": "я открою", "base": "открывать", "features": {"who": "i", "when": "later"}},
+				{"english": "She opened", "foreign": "она открыла", "mark": ["ла"], "base": "открывать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 26, "verb": "закрывать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я закрывал, она закрывала. For later, a form of быть goes in front of the whole verb: я буду закрывать.", "rows": [
+		{"job": "when", "part": 26, "verb": "закрывать", "strategy": ["ending"], "description": "For something done, Закрывать hands over to its partner, the verb for having done it: я закрыл, она закрыла, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я закрою.", "rows": [
 				{"english": "I close", "foreign": "я закрываю", "base": "закрывать", "features": {"who": "i", "when": "now"}},
-				{"english": "I closed", "foreign": "я закрывал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "закрывать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will close", "foreign": "я буду закрывать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "закрывать", "features": {"who": "i", "when": "later"}},
-				{"english": "She closed", "foreign": "она закрывала", "mark": [{"text": "ла", "role": "ending"}], "base": "закрывать", "features": {"who": "she", "when": "before"}}
+				{"english": "I closed", "foreign": "я закрыл", "mark": ["л"], "base": "закрывать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will close", "foreign": "я закрою", "base": "закрывать", "features": {"who": "i", "when": "later"}},
+				{"english": "She closed", "foreign": "она закрыла", "mark": ["ла"], "base": "закрывать", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 27, "verb": "изучать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я изучал, она изучала. For later, a form of быть goes in front of the whole verb: я буду изучать.", "rows": [
 				{"english": "I study", "foreign": "я изучаю", "base": "изучать", "features": {"who": "i", "when": "now"}},
@@ -424,11 +424,11 @@
 				{"english": "I will understand", "foreign": "я буду понимать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "понимать", "features": {"who": "i", "when": "later"}},
 				{"english": "She understood", "foreign": "она понимала", "mark": [{"text": "ла", "role": "ending"}], "base": "понимать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 29, "verb": "забывать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я забывал, она забывала. For later, a form of быть goes in front of the whole verb: я буду забывать.", "rows": [
+		{"job": "when", "part": 29, "verb": "забывать", "strategy": ["ending"], "description": "For something done, Забывать hands over to its partner, the verb for having done it: я забыл, она забыла, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я забуду.", "rows": [
 				{"english": "I forget", "foreign": "я забываю", "base": "забывать", "features": {"who": "i", "when": "now"}},
-				{"english": "I forgot", "foreign": "я забывал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "забывать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will forget", "foreign": "я буду забывать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "забывать", "features": {"who": "i", "when": "later"}},
-				{"english": "She forgot", "foreign": "она забывала", "mark": [{"text": "ла", "role": "ending"}], "base": "забывать", "features": {"who": "she", "when": "before"}}
+				{"english": "I forgot", "foreign": "я забыл", "mark": ["л"], "base": "забывать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will forget", "foreign": "я забуду", "base": "забывать", "features": {"who": "i", "when": "later"}},
+				{"english": "She forgot", "foreign": "она забыла", "mark": ["ла"], "base": "забывать", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 30, "verb": "бегать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я бегал, она бегала. For later, a form of быть goes in front of the whole verb: я буду бегать.", "rows": [
 				{"english": "I run", "foreign": "я бегаю", "base": "бегать", "features": {"who": "i", "when": "now"}},
@@ -454,29 +454,29 @@
 				{"english": "I will play", "foreign": "я буду играть", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "играть", "features": {"who": "i", "when": "later"}},
 				{"english": "She played", "foreign": "она играла", "mark": [{"text": "ла", "role": "ending"}], "base": "играть", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 34, "verb": "платить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я платил, она платила. For later, a form of быть goes in front of the whole verb: я буду платить.", "rows": [
+		{"job": "when", "part": 34, "verb": "платить", "strategy": ["ending"], "description": "For something done, Платить hands over to its partner, the verb for having done it: я заплатил, она заплатила, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я заплачу.", "rows": [
 				{"english": "I pay", "foreign": "я плачу", "base": "платить", "features": {"who": "i", "when": "now"}},
-				{"english": "I paid", "foreign": "я платил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "платить", "features": {"who": "i", "when": "before"}},
-				{"english": "I will pay", "foreign": "я буду платить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "платить", "features": {"who": "i", "when": "later"}},
-				{"english": "She paid", "foreign": "она платила", "mark": [{"text": "ла", "role": "ending"}], "base": "платить", "features": {"who": "she", "when": "before"}}
+				{"english": "I paid", "foreign": "я заплатил", "mark": ["л"], "base": "платить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will pay", "foreign": "я заплачу", "base": "платить", "features": {"who": "i", "when": "later"}},
+				{"english": "She paid", "foreign": "она заплатила", "mark": ["ла"], "base": "платить", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 35, "verb": "продавать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я продавал, она продавала. For later, a form of быть goes in front of the whole verb: я буду продавать.", "rows": [
+		{"job": "when", "part": 35, "verb": "продавать", "strategy": ["ending"], "description": "For something done, Продавать hands over to its partner, the verb for having done it: я продал, она продала, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я продам.", "rows": [
 				{"english": "I sell", "foreign": "я продаю", "base": "продавать", "features": {"who": "i", "when": "now"}},
-				{"english": "I sold", "foreign": "я продавал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "продавать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will sell", "foreign": "я буду продавать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "продавать", "features": {"who": "i", "when": "later"}},
-				{"english": "She sold", "foreign": "она продавала", "mark": [{"text": "ла", "role": "ending"}], "base": "продавать", "features": {"who": "she", "when": "before"}}
+				{"english": "I sold", "foreign": "я продал", "mark": ["л"], "base": "продавать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will sell", "foreign": "я продам", "base": "продавать", "features": {"who": "i", "when": "later"}},
+				{"english": "She sold", "foreign": "она продала", "mark": ["ла"], "base": "продавать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 36, "verb": "помогать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я помогал, она помогала. For later, a form of быть goes in front of the whole verb: я буду помогать.", "rows": [
+		{"job": "when", "part": 36, "verb": "помогать", "strategy": ["ending"], "description": "For something done, Помогать hands over to its partner, the verb for having done it: я помог, она помогла, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я помогу. Помогать goes its own way here, so learn these as they are.", "rows": [
 				{"english": "I help", "foreign": "я помогаю", "base": "помогать", "features": {"who": "i", "when": "now"}},
-				{"english": "I helped", "foreign": "я помогал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "помогать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will help", "foreign": "я буду помогать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "помогать", "features": {"who": "i", "when": "later"}},
-				{"english": "She helped", "foreign": "она помогала", "mark": [{"text": "ла", "role": "ending"}], "base": "помогать", "features": {"who": "she", "when": "before"}}
+				{"english": "I helped", "foreign": "я помог", "base": "помогать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will help", "foreign": "я помогу", "base": "помогать", "features": {"who": "i", "when": "later"}},
+				{"english": "She helped", "foreign": "она помогла", "mark": ["ла"], "base": "помогать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 37, "verb": "готовить", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я готовил, она готовила. For later, a form of быть goes in front of the whole verb: я буду готовить.", "rows": [
+		{"job": "when", "part": 37, "verb": "готовить", "strategy": ["ending"], "description": "For something done, Готовить hands over to its partner, the verb for having done it: я приготовил, она приготовила, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я приготовлю.", "rows": [
 				{"english": "I cook", "foreign": "я готовлю", "base": "готовить", "features": {"who": "i", "when": "now"}},
-				{"english": "I cooked", "foreign": "я готовил", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "готовить", "features": {"who": "i", "when": "before"}},
-				{"english": "I will cook", "foreign": "я буду готовить", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "готовить", "features": {"who": "i", "when": "later"}},
-				{"english": "She cooked", "foreign": "она готовила", "mark": [{"text": "ла", "role": "ending"}], "base": "готовить", "features": {"who": "she", "when": "before"}}
+				{"english": "I cooked", "foreign": "я приготовил", "mark": ["л"], "base": "готовить", "features": {"who": "i", "when": "before"}},
+				{"english": "I will cook", "foreign": "я приготовлю", "base": "готовить", "features": {"who": "i", "when": "later"}},
+				{"english": "She cooked", "foreign": "она приготовила", "mark": ["ла"], "base": "готовить", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 38, "verb": "путешествовать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я путешествовал, она путешествовала. For later, a form of быть goes in front of the whole verb: я буду путешествовать.", "rows": [
 				{"english": "I travel", "foreign": "я путешествую", "base": "путешествовать", "features": {"who": "i", "when": "now"}},
@@ -484,35 +484,35 @@
 				{"english": "I will travel", "foreign": "я буду путешествовать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "путешествовать", "features": {"who": "i", "when": "later"}},
 				{"english": "She travelled", "foreign": "она путешествовала", "mark": [{"text": "ла", "role": "ending"}], "base": "путешествовать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 39, "verb": "спрашивать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я спрашивал, она спрашивала. For later, a form of быть goes in front of the whole verb: я буду спрашивать.", "rows": [
+		{"job": "when", "part": 39, "verb": "спрашивать", "strategy": ["ending"], "description": "For something done, Спрашивать hands over to its partner, the verb for having done it: я спросил, она спросила, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я спрошу.", "rows": [
 				{"english": "I ask", "foreign": "я спрашиваю", "base": "спрашивать", "features": {"who": "i", "when": "now"}},
-				{"english": "I asked", "foreign": "я спрашивал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "спрашивать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will ask", "foreign": "я буду спрашивать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "спрашивать", "features": {"who": "i", "when": "later"}},
-				{"english": "She asked", "foreign": "она спрашивала", "mark": [{"text": "ла", "role": "ending"}], "base": "спрашивать", "features": {"who": "she", "when": "before"}}
+				{"english": "I asked", "foreign": "я спросил", "mark": ["л"], "base": "спрашивать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will ask", "foreign": "я спрошу", "base": "спрашивать", "features": {"who": "i", "when": "later"}},
+				{"english": "She asked", "foreign": "она спросила", "mark": ["ла"], "base": "спрашивать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 40, "verb": "отвечать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я отвечал, она отвечала. For later, a form of быть goes in front of the whole verb: я буду отвечать.", "rows": [
+		{"job": "when", "part": 40, "verb": "отвечать", "strategy": ["ending"], "description": "For something done, Отвечать hands over to its partner, the verb for having done it: я ответил, она ответила, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я отвечу.", "rows": [
 				{"english": "I answer", "foreign": "я отвечаю", "base": "отвечать", "features": {"who": "i", "when": "now"}},
-				{"english": "I answered", "foreign": "я отвечал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "отвечать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will answer", "foreign": "я буду отвечать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "отвечать", "features": {"who": "i", "when": "later"}},
-				{"english": "She answered", "foreign": "она отвечала", "mark": [{"text": "ла", "role": "ending"}], "base": "отвечать", "features": {"who": "she", "when": "before"}}
+				{"english": "I answered", "foreign": "я ответил", "mark": ["л"], "base": "отвечать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will answer", "foreign": "я отвечу", "base": "отвечать", "features": {"who": "i", "when": "later"}},
+				{"english": "She answered", "foreign": "она ответила", "mark": ["ла"], "base": "отвечать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 41, "verb": "терять", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я терял, она теряла. For later, a form of быть goes in front of the whole verb: я буду терять.", "rows": [
+		{"job": "when", "part": 41, "verb": "терять", "strategy": ["ending"], "description": "For something done, Терять hands over to its partner, the verb for having done it: я потерял, она потеряла, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я потеряю.", "rows": [
 				{"english": "I lose", "foreign": "я теряю", "base": "терять", "features": {"who": "i", "when": "now"}},
-				{"english": "I lost", "foreign": "я терял", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "терять", "features": {"who": "i", "when": "before"}},
-				{"english": "I will lose", "foreign": "я буду терять", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "терять", "features": {"who": "i", "when": "later"}},
-				{"english": "She lost", "foreign": "она теряла", "mark": [{"text": "ла", "role": "ending"}], "base": "терять", "features": {"who": "she", "when": "before"}}
+				{"english": "I lost", "foreign": "я потерял", "mark": ["л"], "base": "терять", "features": {"who": "i", "when": "before"}},
+				{"english": "I will lose", "foreign": "я потеряю", "base": "терять", "features": {"who": "i", "when": "later"}},
+				{"english": "She lost", "foreign": "она потеряла", "mark": ["ла"], "base": "терять", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 42, "verb": "получать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я получал, она получала. For later, a form of быть goes in front of the whole verb: я буду получать.", "rows": [
+		{"job": "when", "part": 42, "verb": "получать", "strategy": ["ending"], "description": "For something done, Получать hands over to its partner, the verb for having done it: я получил, она получила, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я получу.", "rows": [
 				{"english": "I receive", "foreign": "я получаю", "base": "получать", "features": {"who": "i", "when": "now"}},
-				{"english": "I received", "foreign": "я получал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "получать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will receive", "foreign": "я буду получать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "получать", "features": {"who": "i", "when": "later"}},
-				{"english": "She received", "foreign": "она получала", "mark": [{"text": "ла", "role": "ending"}], "base": "получать", "features": {"who": "she", "when": "before"}}
+				{"english": "I received", "foreign": "я получил", "mark": ["л"], "base": "получать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will receive", "foreign": "я получу", "base": "получать", "features": {"who": "i", "when": "later"}},
+				{"english": "She received", "foreign": "она получила", "mark": ["ла"], "base": "получать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "when", "part": 43, "verb": "заказывать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я заказывал, она заказывала. For later, a form of быть goes in front of the whole verb: я буду заказывать.", "rows": [
+		{"job": "when", "part": 43, "verb": "заказывать", "strategy": ["ending"], "description": "For something done, Заказывать hands over to its partner, the verb for having done it: я заказал, она заказала, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: я закажу.", "rows": [
 				{"english": "I order", "foreign": "я заказываю", "base": "заказывать", "features": {"who": "i", "when": "now"}},
-				{"english": "I ordered", "foreign": "я заказывал", "mark": [{"text": "л", "role": "ending"}], "from": 1, "base": "заказывать", "features": {"who": "i", "when": "before"}},
-				{"english": "I will order", "foreign": "я буду заказывать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "заказывать", "features": {"who": "i", "when": "later"}},
-				{"english": "She ordered", "foreign": "она заказывала", "mark": [{"text": "ла", "role": "ending"}], "base": "заказывать", "features": {"who": "she", "when": "before"}}
+				{"english": "I ordered", "foreign": "я заказал", "mark": ["л"], "base": "заказывать", "features": {"who": "i", "when": "before"}},
+				{"english": "I will order", "foreign": "я закажу", "base": "заказывать", "features": {"who": "i", "when": "later"}},
+				{"english": "She ordered", "foreign": "она заказала", "mark": ["ла"], "base": "заказывать", "features": {"who": "she", "when": "before"}}
 			]},
 		{"job": "when", "part": 44, "verb": "чувствовать", "strategy": ["ending", "helper word"], "description": "For before, the verb ends in л, and in ла when a woman is the one: я чувствовал, она чувствовала. For later, a form of быть goes in front of the whole verb: я буду чувствовать.", "rows": [
 				{"english": "I feel", "foreign": "я чувствую", "base": "чувствовать", "features": {"who": "i", "when": "now"}},
@@ -520,23 +520,23 @@
 				{"english": "I will feel", "foreign": "я буду чувствовать", "mark": [{"text": "буду", "role": "helper word"}], "from": 1, "base": "чувствовать", "features": {"who": "i", "when": "later"}},
 				{"english": "She felt", "foreign": "она чувствовала", "mark": [{"text": "ла", "role": "ending"}], "base": "чувствовать", "features": {"who": "she", "when": "before"}}
 			]},
-		{"job": "command", "part": 2, "verb": "делать", "strategy": ["helper word"], "description": "To a friend: Делай! To anyone else, or to more than one person: Делайте! Telling a friend not to puts не in front: Не делай!", "rows": [
+		{"job": "command", "part": 2, "verb": "делать", "strategy": ["helper word"], "description": "To a friend: Делай! To anyone else, or to more than one person: Делайте! Telling a friend not to puts не in front: Не делай! Let's puts Давай in front of the partner verb's own form for we: Давай сделаем!", "rows": [
 				{"english": "Make!", "foreign": "Делай!", "base": "делать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Make! said politely", "foreign": "Делайте!", "base": "делать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not make!", "foreign": "Не делай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "делать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's make!", "foreign": "Давай делать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "делать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's make!", "foreign": "Давай сделаем!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "делать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 4, "verb": "говорить", "strategy": ["helper word"], "description": "To a friend: Говори! To anyone else, or to more than one person: Говорите! Telling a friend not to puts не in front: Не говори!", "rows": [
+		{"job": "command", "part": 4, "verb": "говорить", "strategy": ["helper word"], "description": "To a friend: Говори! To anyone else, or to more than one person: Говорите! Telling a friend not to puts не in front: Не говори! Let's puts Давай in front of the partner verb's own form for we: Давай скажем!", "rows": [
 				{"english": "Say!", "foreign": "Говори!", "base": "говорить", "features": {"command": "yes", "who": "you"}},
 				{"english": "Say! said politely", "foreign": "Говорите!", "base": "говорить", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not say!", "foreign": "Не говори!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "говорить", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's say!", "foreign": "Давай говорить!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "говорить", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's say!", "foreign": "Давай скажем!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "говорить", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 5, "verb": "давать", "strategy": ["helper word"], "description": "To a friend: Давай! To anyone else, or to more than one person: Давайте! Telling a friend not to puts не in front: Не давай!", "rows": [
+		{"job": "command", "part": 5, "verb": "давать", "strategy": ["helper word"], "description": "To a friend: Давай! To anyone else, or to more than one person: Давайте! Telling a friend not to puts не in front: Не давай! Let's puts Давай in front of the partner verb's own form for we: Давай дадим!", "rows": [
 				{"english": "Give!", "foreign": "Давай!", "base": "давать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Give! said politely", "foreign": "Давайте!", "base": "давать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not give!", "foreign": "Не давай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "давать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's give!", "foreign": "Давай давать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "давать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's give!", "foreign": "Давай дадим!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "давать", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 6, "verb": "есть", "strategy": ["helper word"], "description": "To a friend: Ешь! To anyone else, or to more than one person: Ешьте! Telling a friend not to puts не in front: Не ешь!", "rows": [
 				{"english": "Eat!", "foreign": "Ешь!", "base": "есть", "features": {"command": "yes", "who": "you"}},
@@ -556,23 +556,23 @@
 				{"english": "Do not think!", "foreign": "Не думай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "думать", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's think!", "foreign": "Давай думать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "думать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 10, "verb": "брать", "strategy": ["helper word"], "description": "To a friend: Бери! To anyone else, or to more than one person: Берите! Telling a friend not to puts не in front: Не бери!", "rows": [
+		{"job": "command", "part": 10, "verb": "брать", "strategy": ["helper word"], "description": "To a friend: Бери! To anyone else, or to more than one person: Берите! Telling a friend not to puts не in front: Не бери! Let's puts Давай in front of the partner verb's own form for we: Давай возьмём!", "rows": [
 				{"english": "Take!", "foreign": "Бери!", "base": "брать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Take! said politely", "foreign": "Берите!", "base": "брать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not take!", "foreign": "Не бери!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "брать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's take!", "foreign": "Давай брать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "брать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's take!", "foreign": "Давай возьмём!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "брать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 11, "verb": "писать", "strategy": ["helper word"], "description": "To a friend: Пиши! To anyone else, or to more than one person: Пишите! Telling a friend not to puts не in front: Не пиши!", "rows": [
+		{"job": "command", "part": 11, "verb": "писать", "strategy": ["helper word"], "description": "To a friend: Пиши! To anyone else, or to more than one person: Пишите! Telling a friend not to puts не in front: Не пиши! Let's puts Давай in front of the partner verb's own form for we: Давай напишем!", "rows": [
 				{"english": "Write!", "foreign": "Пиши!", "base": "писать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Write! said politely", "foreign": "Пишите!", "base": "писать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not write!", "foreign": "Не пиши!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "писать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's write!", "foreign": "Давай писать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "писать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's write!", "foreign": "Давай напишем!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "писать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 12, "verb": "покупать", "strategy": ["helper word"], "description": "To a friend: Покупай! To anyone else, or to more than one person: Покупайте! Telling a friend not to puts не in front: Не покупай!", "rows": [
+		{"job": "command", "part": 12, "verb": "покупать", "strategy": ["helper word"], "description": "To a friend: Покупай! To anyone else, or to more than one person: Покупайте! Telling a friend not to puts не in front: Не покупай! Let's puts Давай in front of the partner verb's own form for we: Давай купим!", "rows": [
 				{"english": "Buy!", "foreign": "Покупай!", "base": "покупать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Buy! said politely", "foreign": "Покупайте!", "base": "покупать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not buy!", "foreign": "Не покупай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "покупать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's buy!", "foreign": "Давай покупать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "покупать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's buy!", "foreign": "Давай купим!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "покупать", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 13, "verb": "пить", "strategy": ["helper word"], "description": "To a friend: Пей! To anyone else, or to more than one person: Пейте! Telling a friend not to puts не in front: Не пей!", "rows": [
 				{"english": "Drink!", "foreign": "Пей!", "base": "пить", "features": {"command": "yes", "who": "you"}},
@@ -586,17 +586,17 @@
 				{"english": "Do not sleep!", "foreign": "Не спи!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "спать", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's sleep!", "foreign": "Давай спать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "спать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 15, "verb": "смотреть", "strategy": ["helper word"], "description": "To a friend: Смотри! To anyone else, or to more than one person: Смотрите! Telling a friend not to puts не in front: Не смотри!", "rows": [
+		{"job": "command", "part": 15, "verb": "смотреть", "strategy": ["helper word"], "description": "To a friend: Смотри! To anyone else, or to more than one person: Смотрите! Telling a friend not to puts не in front: Не смотри! Let's puts Давай in front of the partner verb's own form for we: Давай посмотрим!", "rows": [
 				{"english": "Look!", "foreign": "Смотри!", "base": "смотреть", "features": {"command": "yes", "who": "you"}},
 				{"english": "Look! said politely", "foreign": "Смотрите!", "base": "смотреть", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not look!", "foreign": "Не смотри!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "смотреть", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's look!", "foreign": "Давай смотреть!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "смотреть", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's look!", "foreign": "Давай посмотрим!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "смотреть", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 16, "verb": "ждать", "strategy": ["helper word"], "description": "To a friend: Жди! To anyone else, or to more than one person: Ждите! Telling a friend not to puts не in front: Не жди!", "rows": [
+		{"job": "command", "part": 16, "verb": "ждать", "strategy": ["helper word"], "description": "To a friend: Жди! To anyone else, or to more than one person: Ждите! Telling a friend not to puts не in front: Не жди! Let's puts Давай in front of the partner verb's own form for we: Давай подождём!", "rows": [
 				{"english": "Wait!", "foreign": "Жди!", "base": "ждать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Wait! said politely", "foreign": "Ждите!", "base": "ждать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not wait!", "foreign": "Не жди!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "ждать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's wait!", "foreign": "Давай ждать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "ждать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's wait!", "foreign": "Давай подождём!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "ждать", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 17, "verb": "искать", "strategy": ["helper word"], "description": "To a friend: Ищи! To anyone else, or to more than one person: Ищите! Telling a friend not to puts не in front: Не ищи!", "rows": [
 				{"english": "Search!", "foreign": "Ищи!", "base": "искать", "features": {"command": "yes", "who": "you"}},
@@ -604,41 +604,41 @@
 				{"english": "Do not search!", "foreign": "Не ищи!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "искать", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's search!", "foreign": "Давай искать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "искать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 18, "verb": "находить", "strategy": ["helper word"], "description": "To a friend: Находи! To anyone else, or to more than one person: Находите! Telling a friend not to puts не in front: Не находи!", "rows": [
+		{"job": "command", "part": 18, "verb": "находить", "strategy": ["helper word"], "description": "To a friend: Находи! To anyone else, or to more than one person: Находите! Telling a friend not to puts не in front: Не находи! Let's puts Давай in front of the partner verb's own form for we: Давай найдём!", "rows": [
 				{"english": "Find!", "foreign": "Находи!", "base": "находить", "features": {"command": "yes", "who": "you"}},
 				{"english": "Find! said politely", "foreign": "Находите!", "base": "находить", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not find!", "foreign": "Не находи!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "находить", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's find!", "foreign": "Давай находить!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "находить", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's find!", "foreign": "Давай найдём!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "находить", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 19, "verb": "звать", "strategy": ["helper word"], "description": "To a friend: Зови! To anyone else, or to more than one person: Зовите! Telling a friend not to puts не in front: Не зови!", "rows": [
+		{"job": "command", "part": 19, "verb": "звать", "strategy": ["helper word"], "description": "To a friend: Зови! To anyone else, or to more than one person: Зовите! Telling a friend not to puts не in front: Не зови! Let's puts Давай in front of the partner verb's own form for we: Давай позовём!", "rows": [
 				{"english": "Call!", "foreign": "Зови!", "base": "звать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Call! said politely", "foreign": "Зовите!", "base": "звать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not call!", "foreign": "Не зови!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "звать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's call!", "foreign": "Давай звать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "звать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's call!", "foreign": "Давай позовём!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "звать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 20, "verb": "начинать", "strategy": ["helper word"], "description": "To a friend: Начинай! To anyone else, or to more than one person: Начинайте! Telling a friend not to puts не in front: Не начинай!", "rows": [
+		{"job": "command", "part": 20, "verb": "начинать", "strategy": ["helper word"], "description": "To a friend: Начинай! To anyone else, or to more than one person: Начинайте! Telling a friend not to puts не in front: Не начинай! Let's puts Давай in front of the partner verb's own form for we: Давай начнём!", "rows": [
 				{"english": "Begin!", "foreign": "Начинай!", "base": "начинать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Begin! said politely", "foreign": "Начинайте!", "base": "начинать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not begin!", "foreign": "Не начинай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "начинать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's begin!", "foreign": "Давай начинать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "начинать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's begin!", "foreign": "Давай начнём!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "начинать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 21, "verb": "заканчивать", "strategy": ["helper word"], "description": "To a friend: Заканчивай! To anyone else, or to more than one person: Заканчивайте! Telling a friend not to puts не in front: Не заканчивай!", "rows": [
+		{"job": "command", "part": 21, "verb": "заканчивать", "strategy": ["helper word"], "description": "To a friend: Заканчивай! To anyone else, or to more than one person: Заканчивайте! Telling a friend not to puts не in front: Не заканчивай! Let's puts Давай in front of the partner verb's own form for we: Давай закончим!", "rows": [
 				{"english": "Finish!", "foreign": "Заканчивай!", "base": "заканчивать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Finish! said politely", "foreign": "Заканчивайте!", "base": "заканчивать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not finish!", "foreign": "Не заканчивай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "заканчивать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's finish!", "foreign": "Давай заканчивать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "заканчивать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's finish!", "foreign": "Давай закончим!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "заканчивать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 22, "verb": "открывать", "strategy": ["helper word"], "description": "To a friend: Открывай! To anyone else, or to more than one person: Открывайте! Telling a friend not to puts не in front: Не открывай!", "rows": [
+		{"job": "command", "part": 22, "verb": "открывать", "strategy": ["helper word"], "description": "To a friend: Открывай! To anyone else, or to more than one person: Открывайте! Telling a friend not to puts не in front: Не открывай! Let's puts Давай in front of the partner verb's own form for we: Давай откроем!", "rows": [
 				{"english": "Open!", "foreign": "Открывай!", "base": "открывать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Open! said politely", "foreign": "Открывайте!", "base": "открывать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not open!", "foreign": "Не открывай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "открывать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's open!", "foreign": "Давай открывать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "открывать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's open!", "foreign": "Давай откроем!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "открывать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 23, "verb": "закрывать", "strategy": ["helper word"], "description": "To a friend: Закрывай! To anyone else, or to more than one person: Закрывайте! Telling a friend not to puts не in front: Не закрывай!", "rows": [
+		{"job": "command", "part": 23, "verb": "закрывать", "strategy": ["helper word"], "description": "To a friend: Закрывай! To anyone else, or to more than one person: Закрывайте! Telling a friend not to puts не in front: Не закрывай! Let's puts Давай in front of the partner verb's own form for we: Давай закроем!", "rows": [
 				{"english": "Close!", "foreign": "Закрывай!", "base": "закрывать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Close! said politely", "foreign": "Закрывайте!", "base": "закрывать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not close!", "foreign": "Не закрывай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "закрывать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's close!", "foreign": "Давай закрывать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "закрывать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's close!", "foreign": "Давай закроем!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "закрывать", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 24, "verb": "изучать", "strategy": ["helper word"], "description": "To a friend: Изучай! To anyone else, or to more than one person: Изучайте! Telling a friend not to puts не in front: Не изучай!", "rows": [
 				{"english": "Study!", "foreign": "Изучай!", "base": "изучать", "features": {"command": "yes", "who": "you"}},
@@ -646,11 +646,11 @@
 				{"english": "Do not study!", "foreign": "Не изучай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "изучать", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's study!", "foreign": "Давай изучать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "изучать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 25, "verb": "забывать", "strategy": ["helper word"], "description": "To a friend: Забывай! To anyone else, or to more than one person: Забывайте! Telling a friend not to puts не in front: Не забывай!", "rows": [
+		{"job": "command", "part": 25, "verb": "забывать", "strategy": ["helper word"], "description": "To a friend: Забывай! To anyone else, or to more than one person: Забывайте! Telling a friend not to puts не in front: Не забывай! Let's puts Давай in front of the partner verb's own form for we: Давай забудем!", "rows": [
 				{"english": "Forget!", "foreign": "Забывай!", "base": "забывать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Forget! said politely", "foreign": "Забывайте!", "base": "забывать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not forget!", "foreign": "Не забывай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "забывать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's forget!", "foreign": "Давай забывать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "забывать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's forget!", "foreign": "Давай забудем!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "забывать", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 26, "verb": "бегать", "strategy": ["helper word"], "description": "To a friend: Бегай! To anyone else, or to more than one person: Бегайте! Telling a friend not to puts не in front: Не бегай!", "rows": [
 				{"english": "Run!", "foreign": "Бегай!", "base": "бегать", "features": {"command": "yes", "who": "you"}},
@@ -676,29 +676,29 @@
 				{"english": "Do not play!", "foreign": "Не играй!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "играть", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's play!", "foreign": "Давай играть!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "играть", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 30, "verb": "платить", "strategy": ["helper word"], "description": "To a friend: Плати! To anyone else, or to more than one person: Платите! Telling a friend not to puts не in front: Не плати!", "rows": [
+		{"job": "command", "part": 30, "verb": "платить", "strategy": ["helper word"], "description": "To a friend: Плати! To anyone else, or to more than one person: Платите! Telling a friend not to puts не in front: Не плати! Let's puts Давай in front of the partner verb's own form for we: Давай заплатим!", "rows": [
 				{"english": "Pay!", "foreign": "Плати!", "base": "платить", "features": {"command": "yes", "who": "you"}},
 				{"english": "Pay! said politely", "foreign": "Платите!", "base": "платить", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not pay!", "foreign": "Не плати!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "платить", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's pay!", "foreign": "Давай платить!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "платить", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's pay!", "foreign": "Давай заплатим!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "платить", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 31, "verb": "продавать", "strategy": ["helper word"], "description": "To a friend: Продавай! To anyone else, or to more than one person: Продавайте! Telling a friend not to puts не in front: Не продавай!", "rows": [
+		{"job": "command", "part": 31, "verb": "продавать", "strategy": ["helper word"], "description": "To a friend: Продавай! To anyone else, or to more than one person: Продавайте! Telling a friend not to puts не in front: Не продавай! Let's puts Давай in front of the partner verb's own form for we: Давай продадим!", "rows": [
 				{"english": "Sell!", "foreign": "Продавай!", "base": "продавать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Sell! said politely", "foreign": "Продавайте!", "base": "продавать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not sell!", "foreign": "Не продавай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "продавать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's sell!", "foreign": "Давай продавать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "продавать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's sell!", "foreign": "Давай продадим!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "продавать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 32, "verb": "помогать", "strategy": ["helper word"], "description": "To a friend: Помогай! To anyone else, or to more than one person: Помогайте! Telling a friend not to puts не in front: Не помогай!", "rows": [
+		{"job": "command", "part": 32, "verb": "помогать", "strategy": ["helper word"], "description": "To a friend: Помогай! To anyone else, or to more than one person: Помогайте! Telling a friend not to puts не in front: Не помогай! Let's puts Давай in front of the partner verb's own form for we: Давай поможем!", "rows": [
 				{"english": "Help!", "foreign": "Помогай!", "base": "помогать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Help! said politely", "foreign": "Помогайте!", "base": "помогать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not help!", "foreign": "Не помогай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "помогать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's help!", "foreign": "Давай помогать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "помогать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's help!", "foreign": "Давай поможем!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "помогать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 33, "verb": "готовить", "strategy": ["helper word"], "description": "To a friend: Готовь! To anyone else, or to more than one person: Готовьте! Telling a friend not to puts не in front: Не готовь!", "rows": [
+		{"job": "command", "part": 33, "verb": "готовить", "strategy": ["helper word"], "description": "To a friend: Готовь! To anyone else, or to more than one person: Готовьте! Telling a friend not to puts не in front: Не готовь! Let's puts Давай in front of the partner verb's own form for we: Давай приготовим!", "rows": [
 				{"english": "Cook!", "foreign": "Готовь!", "base": "готовить", "features": {"command": "yes", "who": "you"}},
 				{"english": "Cook! said politely", "foreign": "Готовьте!", "base": "готовить", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not cook!", "foreign": "Не готовь!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "готовить", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's cook!", "foreign": "Давай готовить!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "готовить", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's cook!", "foreign": "Давай приготовим!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "готовить", "features": {"command": "yes", "who": "we"}}
 			]},
 		{"job": "command", "part": 34, "verb": "путешествовать", "strategy": ["helper word"], "description": "To a friend: Путешествуй! To anyone else, or to more than one person: Путешествуйте! Telling a friend not to puts не in front: Не путешествуй!", "rows": [
 				{"english": "Travel!", "foreign": "Путешествуй!", "base": "путешествовать", "features": {"command": "yes", "who": "you"}},
@@ -706,23 +706,23 @@
 				{"english": "Do not travel!", "foreign": "Не путешествуй!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "путешествовать", "features": {"command": "yes", "who": "you", "not": "yes"}},
 				{"english": "Let's travel!", "foreign": "Давай путешествовать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "путешествовать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 35, "verb": "спрашивать", "strategy": ["helper word"], "description": "To a friend: Спрашивай! To anyone else, or to more than one person: Спрашивайте! Telling a friend not to puts не in front: Не спрашивай!", "rows": [
+		{"job": "command", "part": 35, "verb": "спрашивать", "strategy": ["helper word"], "description": "To a friend: Спрашивай! To anyone else, or to more than one person: Спрашивайте! Telling a friend not to puts не in front: Не спрашивай! Let's puts Давай in front of the partner verb's own form for we: Давай спросим!", "rows": [
 				{"english": "Ask!", "foreign": "Спрашивай!", "base": "спрашивать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Ask! said politely", "foreign": "Спрашивайте!", "base": "спрашивать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not ask!", "foreign": "Не спрашивай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "спрашивать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's ask!", "foreign": "Давай спрашивать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "спрашивать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's ask!", "foreign": "Давай спросим!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "спрашивать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 36, "verb": "отвечать", "strategy": ["helper word"], "description": "To a friend: Отвечай! To anyone else, or to more than one person: Отвечайте! Telling a friend not to puts не in front: Не отвечай!", "rows": [
+		{"job": "command", "part": 36, "verb": "отвечать", "strategy": ["helper word"], "description": "To a friend: Отвечай! To anyone else, or to more than one person: Отвечайте! Telling a friend not to puts не in front: Не отвечай! Let's puts Давай in front of the partner verb's own form for we: Давай ответим!", "rows": [
 				{"english": "Answer!", "foreign": "Отвечай!", "base": "отвечать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Answer! said politely", "foreign": "Отвечайте!", "base": "отвечать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not answer!", "foreign": "Не отвечай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "отвечать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's answer!", "foreign": "Давай отвечать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "отвечать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's answer!", "foreign": "Давай ответим!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "отвечать", "features": {"command": "yes", "who": "we"}}
 			]},
-		{"job": "command", "part": 39, "verb": "заказывать", "strategy": ["helper word"], "description": "To a friend: Заказывай! To anyone else, or to more than one person: Заказывайте! Telling a friend not to puts не in front: Не заказывай!", "rows": [
+		{"job": "command", "part": 39, "verb": "заказывать", "strategy": ["helper word"], "description": "To a friend: Заказывай! To anyone else, or to more than one person: Заказывайте! Telling a friend not to puts не in front: Не заказывай! Let's puts Давай in front of the partner verb's own form for we: Давай закажем!", "rows": [
 				{"english": "Order!", "foreign": "Заказывай!", "base": "заказывать", "features": {"command": "yes", "who": "you"}},
 				{"english": "Order! said politely", "foreign": "Заказывайте!", "base": "заказывать", "features": {"command": "yes", "who": "you", "polite": "yes"}},
 				{"english": "Do not order!", "foreign": "Не заказывай!", "mark": [{"text": "Не", "role": "helper word"}], "from": 1, "base": "заказывать", "features": {"command": "yes", "who": "you", "not": "yes"}},
-				{"english": "Let's order!", "foreign": "Давай заказывать!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "заказывать", "features": {"command": "yes", "who": "we"}}
+				{"english": "Let's order!", "foreign": "Давай закажем!", "mark": [{"text": "Давай", "role": "helper word"}], "base": "заказывать", "features": {"command": "yes", "who": "we"}}
 			]}
 	]
 }

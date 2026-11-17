@@ -20,7 +20,9 @@ The conjugation system makes everything after Part 1 from dictionary data, with 
 3. `make_form_lessons.py` turns forms into lessons in the grid's shape, from a **recipe** per job. Output:
    `lessons-<language>.json`. `check_grid.py` checks it; `make_grid_import.py --lessons` makes the import file.
 4. `make_lessons_update.py` and `make_forms_update.py` correct lessons and forms already on the site (the importer can
-   make a record, not change one). `ship/corrections_run.sh` runs what they write, on Fumiko or prod.
+   make a record, not change one). `ship/corrections_run.sh` runs what they write, on Fumiko or prod. A row that lost
+   lit pieces from its end has them deleted by a separate `pieces-delete-<language>.sql` (`--table=WordPiece`). Until
+   17 Nov 2026 the importer reported such deletes and kept the rows: Remove skipped any type the site's form hides.
 
 **Everything about a language lives in one file: `forms-recipes-<language>.json`.** Its `about` field says what that
 language needed that the others did not. Read the `about` of the language nearest the one you are adding before you start.
@@ -57,7 +59,15 @@ needs a new line there or it will not be shown.
 | `endings` | Regular endings by tense and class (`"*"` for every verb). The board lights the longest one a form ends in; `""` in a list means having no ending is regular |
 | `recipes` | Per job: `strategy`, `description` (`{1}`..`{4}` are the rows), `own_way`, optional `skip`, and four `rows`: `english` template, `features`, optional `endings`, `wrap`, `capital`, `words`, `from`, `mark_part`, `says` |
 | `middle`, `splits` | Sentences added when a stem changed, or the verb splits in two |
-| `verbs.list` | `[word, base, she-form, past, ing, flags...]`. Flags: `stative` (skipped by recipes with `"skip": "stative"`, no number spent), `no-<job>` (lesson taken down, **its part number stays spent**), `splits`. A row can also say `mark_form` (light the verb itself) and its `words` can be `{"text", "role"}` (`了` as a particle) |
+| `verbs.list` | `[word, base, she-form, past, ing, flags...]`. Flags: `stative` (skipped by recipes with `"skip": "stative"`, no number spent), `no-<job>` (lesson taken down, **its part number stays spent**), `splits`, `finished` and `own-lets` (Russian, Polish: below). A row can also say `mark_form` (light the verb itself) and its `words` can be `{"text", "role"}` (`了` as a particle) |
+| `variants` | Per recipe: other rows (and `description`, `strategy`) for some verbs. `if_form` picks verbs that have a form (Hindi's ने past); `if_flag` picks verbs the list flags; `unless_flag` lets one verb out; `"middle": false` drops the "middle of the word changes" sentence (a partner verb is another word) |
+
+**Aspect, Russian and Polish (17 Nov 2026).** A verb flagged `finished` says its before, later and let's with its
+partner (нашёл, найду, Давай найдём; znalazłem, znajdę, Znajdźmy!), because the doing verb's own say "used to find" and
+"will be finding". Flag only verbs whose partner is the plain English: the partners of eat, live, work, think and the
+like mean "ate it up", "lived through", "worked a while". Polish borrows the partner's let's as an internal form
+(not imported). The positive commands (Находи!, Znajduj!) are still the doing verb's: the partner's commands would need
+their own slots and English, and are not done.
 
 **Part numbers are positions in `verbs.list`.** Never reorder or delete a verb in a language that is live: append, or
 flag it `no-<job>`. Otherwise every later lesson's title and address shifts.
@@ -143,8 +153,9 @@ German and Dutch helper and command corrections. Nothing is waiting.
 ## Known gaps, in the order I would take them
 
 1. **The five remaining languages.** Start by reading what each dump holds for a verb, as was done for the others.
-2. **Aspect-pair lessons for Russian and Polish.** The forms are there (`done=yes`). What is missing is English for the
-   finished verb, which differs verb by verb ("read it through", "set off"); it needs a per-verb field, not a template.
+2. **Aspect-pair lessons for Russian and Polish.** The when and let's rows of `finished` verbs now use the partner. Still
+   missing: lessons that teach the pair itself, and the positive commands (Найди!) from the partner. Both need English
+   for the finished verb, which differs verb by verb ("read it through", "set off"): a per-verb field, not a template.
 3. **Only four of eighteen jobs generate lessons** (who, when, going, command). Others that could: saying no, asking a
    question, want-can-must.
 4. **Verbs said with a reflexive word** (`se lever`, `jubilarse`, `uczyć się`) are skipped everywhere.

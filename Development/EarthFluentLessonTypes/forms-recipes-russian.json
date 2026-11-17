@@ -81,6 +81,18 @@
 				{"english": "I {past}", "features": {"who": "i", "when": "before"}, "endings": "before", "wrap": "я {}", "from": 1},
 				{"english": "I will {base}", "features": {"who": "i", "when": "later"}, "wrap": "я {}", "from": 1},
 				{"english": "She {past}", "features": {"who": "she", "when": "before"}, "endings": "before", "wrap": "она {}"}
+			],
+			"variants": [
+				{"if_flag": "finished",
+				 "strategy": ["ending"],
+				 "description": "For something done, {Base} hands over to its partner, the verb for having done it: {2}, {4}, ending in л, and in ла when a woman is the one. The partner needs no быть for later, because its own forms already say it will be done: {3}.",
+				 "middle": false,
+				 "rows": [
+					{"english": "I {base}", "features": {"who": "i", "when": "now"}, "wrap": "я {}"},
+					{"english": "I {past}", "features": {"who": "i", "when": "before", "done": "yes"}, "endings": "before", "wrap": "я {}", "says": {"who": "i", "when": "before"}},
+					{"english": "I will {base}", "features": {"who": "i", "when": "later", "done": "yes"}, "wrap": "я {}", "says": {"who": "i", "when": "later"}},
+					{"english": "She {past}", "features": {"who": "she", "when": "before", "done": "yes"}, "endings": "before", "wrap": "она {}", "says": {"who": "she", "when": "before"}}
+				 ]}
 			]
 		},
 		"command": {
@@ -92,55 +104,65 @@
 				{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "wrap": "{}!", "capital": true},
 				{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "Не {}!", "words": ["Не"], "from": 1},
 				{"english": "Let's {base}!", "features": {"command": "yes", "who": "we"}, "wrap": "Давай {}!", "words": ["Давай"]}
+			],
+			"variants": [
+				{"if_flag": "finished",
+				 "description": "To a friend: {1} To anyone else, or to more than one person: {2} Telling a friend not to puts не in front: {3} Let's puts Давай in front of the partner verb's own form for we: {4}",
+				 "rows": [
+					{"english": "{Base}!", "features": {"command": "yes", "who": "you"}, "wrap": "{}!", "capital": true},
+					{"english": "{Base}! said politely", "features": {"command": "yes", "who": "you", "polite": "yes"}, "wrap": "{}!", "capital": true},
+					{"english": "Do not {base}!", "features": {"command": "yes", "who": "you", "not": "yes"}, "wrap": "Не {}!", "words": ["Не"], "from": 1},
+					{"english": "Let's {base}!", "features": {"who": "we", "when": "later", "done": "yes"}, "wrap": "Давай {}!", "words": ["Давай"], "says": {"command": "yes", "who": "we"}}
+				 ]}
 			]
 		}
 	},
 
 	"verbs": {
-		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. Every one is the doing verb of its pair. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job; `no-command` leaves out the commands that are right and that nobody says. Left out on purpose: быть, which needs a lesson of its own; мочь, which is the want-can-must job; читать, whose English is the same now and before; and to have, which Russian says another way (у меня есть).",
+		"about": "The verbs lessons are made for, most used first, each with the English the learner reads: base, she-form, before, and the ing form. Part 1 of every job is the grid's own lesson, so the first verb here is Part 2. Every one is the doing verb of its pair. `stative` verbs sound wrong in English as a bare command ('Know!'), and are left out of that job; `no-command` leaves out the commands that are right and that nobody says. Left out on purpose: быть, which needs a lesson of its own; мочь, which is the want-can-must job; читать, whose English is the same now and before; and to have, which Russian says another way (у меня есть). `finished` (17 Nov 2026): the verb's partner says its before, its later and its let's (нашёл, найду, Давай найдём), because the doing verb's own (находил, буду находить, Давай находить) say 'used to find', 'will be finding' and nothing natural. Only verbs whose partner is the plain English: the partners of есть, жить, работать, думать and the like say 'ate it up', 'lived through', 'worked a while', so those keep their own. петь is left out because the dump gives its partner no later.",
 		"list": [
-			["делать", "make", "makes", "made", "making"],
-			["идти", "go", "goes", "went", "going", "no-command"],
-			["говорить", "say", "says", "said", "saying"],
+			["делать", "make", "makes", "made", "making", "finished"],
+			["идти", "go", "goes", "went", "going", "no-command", "finished"],
+			["говорить", "say", "says", "said", "saying", "finished"],
 			["видеть", "see", "sees", "saw", "seeing", "stative"],
-			["давать", "give", "gives", "gave", "giving"],
+			["давать", "give", "gives", "gave", "giving", "finished"],
 			["знать", "know", "knows", "knew", "knowing", "stative"],
 			["хотеть", "want", "wants", "wanted", "wanting", "stative"],
 			["есть", "eat", "eats", "ate", "eating"],
 			["жить", "live", "lives", "lived", "living", "no-command"],
 			["работать", "work", "works", "worked", "working"],
 			["думать", "think", "thinks", "thought", "thinking"],
-			["брать", "take", "takes", "took", "taking"],
-			["писать", "write", "writes", "wrote", "writing"],
-			["покупать", "buy", "buys", "bought", "buying"],
+			["брать", "take", "takes", "took", "taking", "finished"],
+			["писать", "write", "writes", "wrote", "writing", "finished"],
+			["покупать", "buy", "buys", "bought", "buying", "finished"],
 			["пить", "drink", "drinks", "drank", "drinking"],
 			["спать", "sleep", "sleeps", "slept", "sleeping"],
-			["смотреть", "look", "looks", "looked", "looking"],
-			["ждать", "wait", "waits", "waited", "waiting"],
+			["смотреть", "look", "looks", "looked", "looking", "finished"],
+			["ждать", "wait", "waits", "waited", "waiting", "finished"],
 			["искать", "search", "searches", "searched", "searching"],
-			["находить", "find", "finds", "found", "finding"],
-			["звать", "call", "calls", "called", "calling"],
-			["начинать", "begin", "begins", "began", "beginning"],
-			["заканчивать", "finish", "finishes", "finished", "finishing"],
-			["открывать", "open", "opens", "opened", "opening"],
-			["закрывать", "close", "closes", "closed", "closing"],
+			["находить", "find", "finds", "found", "finding", "finished"],
+			["звать", "call", "calls", "called", "calling", "finished"],
+			["начинать", "begin", "begins", "began", "beginning", "finished"],
+			["заканчивать", "finish", "finishes", "finished", "finishing", "finished"],
+			["открывать", "open", "opens", "opened", "opening", "finished"],
+			["закрывать", "close", "closes", "closed", "closing", "finished"],
 			["изучать", "study", "studies", "studied", "studying"],
 			["понимать", "understand", "understands", "understood", "understanding", "stative"],
-			["забывать", "forget", "forgets", "forgot", "forgetting"],
+			["забывать", "forget", "forgets", "forgot", "forgetting", "finished"],
 			["бегать", "run", "runs", "ran", "running"],
 			["гулять", "walk", "walks", "walked", "walking"],
 			["петь", "sing", "sings", "sang", "singing"],
 			["играть", "play", "plays", "played", "playing"],
-			["платить", "pay", "pays", "paid", "paying"],
-			["продавать", "sell", "sells", "sold", "selling"],
-			["помогать", "help", "helps", "helped", "helping"],
-			["готовить", "cook", "cooks", "cooked", "cooking"],
+			["платить", "pay", "pays", "paid", "paying", "finished"],
+			["продавать", "sell", "sells", "sold", "selling", "finished"],
+			["помогать", "help", "helps", "helped", "helping", "finished"],
+			["готовить", "cook", "cooks", "cooked", "cooking", "finished"],
 			["путешествовать", "travel", "travels", "travelled", "travelling"],
-			["спрашивать", "ask", "asks", "asked", "asking"],
-			["отвечать", "answer", "answers", "answered", "answering"],
-			["терять", "lose", "loses", "lost", "losing", "no-command"],
-			["получать", "receive", "receives", "received", "receiving", "no-command"],
-			["заказывать", "order", "orders", "ordered", "ordering"],
+			["спрашивать", "ask", "asks", "asked", "asking", "finished"],
+			["отвечать", "answer", "answers", "answered", "answering", "finished"],
+			["терять", "lose", "loses", "lost", "losing", "no-command", "finished"],
+			["получать", "receive", "receives", "received", "receiving", "no-command", "finished"],
+			["заказывать", "order", "orders", "ordered", "ordering", "finished"],
 			["чувствовать", "feel", "feels", "felt", "feeling", "stative"]
 		]
 	}

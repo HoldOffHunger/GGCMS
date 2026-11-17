@@ -41,9 +41,13 @@ def ending(recipes: dict, name: str, base: str, form: str) -> str | None:
 
 def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
     recipe = recipes["recipes"][job]
-    for variant in recipe.get("variants", []):  # Hindi's खाना says its past with ने: a verb with the form takes the variant's rows
-        if any(form["features"] == variant["if_form"] for form in forms[verb[0]]):
-            recipe = {**recipe, **{key: value for key, value in variant.items() if key != "if_form"}}
+    for variant in recipe.get("variants", []):
+        # Hindi's खाना says its past with ने: a verb with the form takes the variant's rows. Russian's находить says "I
+        # found" with its partner, нашёл: a verb the list flags takes them, because only some verbs' partners say it.
+        # unless_flag lets one verb out of one job's variant: iść's partner's let's, Pójdźmy, is bookish.
+        if (("if_form" in variant and any(form["features"] == variant["if_form"] for form in forms[verb[0]]))
+                or ("if_flag" in variant and variant["if_flag"] in verb[5:])) and variant.get("unless_flag") not in verb[5:]:
+            recipe = {**recipe, **{key: value for key, value in variant.items() if key not in ("if_form", "if_flag", "unless_flag")}}
     base, plain, she, past, ing = verb[:5]
     english = {"base": plain, "Base": plain[0].upper() + plain[1:], "s": she, "past": past, "ing": ing}
     stem, rows, unmarked, moved, splits = base[:-recipes.get("class_letters", 2)], [], False, False, False
@@ -107,7 +111,7 @@ def lesson(recipes: dict, forms: dict, job: str, part: int, verb: list) -> dict:
     description = recipe["description"].format("", *[row["foreign"] for row in rows], Base=base[0].upper() + base[1:])
     if unmarked and "own_way" in recipe:
         description += recipe["own_way"].format(Base=base[0].upper() + base[1:])
-    elif moved and "middle" in recipes:
+    elif moved and "middle" in recipes and recipe.get("middle", True):  # a partner verb is another word, not a changed middle
         description += recipes["middle"]
     if splits and "splits" in recipes:
         description += recipes["splits"].format(Base=base[0].upper() + base[1:])

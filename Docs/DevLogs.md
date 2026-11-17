@@ -7,6 +7,24 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 17
+
+- Russian and Polish verb lessons now say a finished thing with the verb's
+  partner. The overnight lesson checks flagged "I found" as я находил and
+  "Let's find!" as Давай находить: the doing verb's own forms, which say
+  "used to find" and nothing a Russian says. 25 Russian and 20 Polish verbs
+  are flagged `finished` and use the partner for before, later and let's
+  (нашёл, найду, Давай найдём; znalazłem, znajdę, Znajdźmy!). Only verbs
+  whose partner is the plain English: есть's partner съесть is "ate it up",
+  жить's прожить "lived through", so those keep their own. 47 Russian and
+  38 Polish lessons change; no part numbers move.
+- The importer's child-record deletes did nothing on a type the site's
+  Edit form hides. The 10 November safeguard in Remove skips such types so an
+  Update cannot wipe what nobody saw, and EarthFluent's form has no
+  WordPiece, so a WordPiece delete was reported as "Deleted" and the row
+  kept. A type the import file deletes by id now counts as on the form for
+  that ride only.
+
 ## 2026, November 16
 
 - PronounceThat now pronounces through Google rather than the browser. The

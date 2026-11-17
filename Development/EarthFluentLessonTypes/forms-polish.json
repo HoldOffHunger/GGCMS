@@ -39,7 +39,8 @@
 			{"form": "zaabsorbuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaabsorbujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaabsorbujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaabsorbują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaabsorbują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaabsorbujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"adresować": [
 			{"form": "zaadresować", "features": {"form": "partner"}},
@@ -77,7 +78,8 @@
 			{"form": "zaadresuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaadresujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaadresujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaadresują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaadresują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaadresujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"analizować": [
 			{"form": "przeanalizować", "features": {"form": "partner"}},
@@ -115,7 +117,8 @@
 			{"form": "przeanalizuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przeanalizujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przeanalizujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przeanalizują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przeanalizują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przeanalizujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"angażować": [
 			{"form": "zaangażować", "features": {"form": "partner"}},
@@ -153,7 +156,8 @@
 			{"form": "zaangażuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaangażujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaangażujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaangażują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaangażują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaangażujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"apelować": [
 			{"form": "zaapelować", "features": {"form": "partner"}},
@@ -191,7 +195,8 @@
 			{"form": "zaapeluje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaapelujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaapelujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaapelują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaapelują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaapelujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"aresztować": [
 			{"form": "aresztować", "features": {"form": "infinitive"}},
@@ -254,7 +259,8 @@
 			{"form": "zaatakuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaatakujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaatakujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaatakują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaatakują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaatakujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"badać": [
 			{"form": "badać", "features": {"form": "infinitive"}},
@@ -342,7 +348,8 @@
 			{"form": "pobiegnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pobiegniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pobiegniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pobiegną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pobiegną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pobiegnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"blokować": [
 			{"form": "blokować", "features": {"form": "infinitive"}},
@@ -412,7 +419,8 @@
 			{"form": "weźmie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "weźmiemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "weźmiecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wezmą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wezmą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "weźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"bronić": [
 			{"form": "obronić", "features": {"form": "partner"}},
@@ -450,7 +458,8 @@
 			{"form": "obroni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "obronimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "obronicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "obronią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "obronią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "obrońmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"budować": [
 			{"form": "zbudować", "features": {"form": "partner"}},
@@ -488,7 +497,8 @@
 			{"form": "zbuduje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zbudujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zbudujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zbudują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zbudują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zbudujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"budzić": [
 			{"form": "obudzić", "features": {"form": "partner"}},
@@ -526,7 +536,8 @@
 			{"form": "obudzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "obudzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "obudzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "obudzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "obudzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "obudźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"być": [
 			{"form": "być", "features": {"form": "infinitive"}},
@@ -614,7 +625,8 @@
 			{"form": "ucałuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "ucałujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "ucałujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "ucałują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "ucałują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "ucałujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"celować": [
 			{"form": "wycelować", "features": {"form": "partner"}},
@@ -652,7 +664,8 @@
 			{"form": "wyceluje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wycelujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wycelujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wycelują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wycelują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wycelujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"chcieć": [
 			{"form": "chcieć", "features": {"form": "infinitive"}},
@@ -715,7 +728,8 @@
 			{"form": "pójdzie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pójdziemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pójdziecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pójdą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pójdą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pójdźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"chwalić": [
 			{"form": "pochwalić", "features": {"form": "partner"}},
@@ -753,7 +767,8 @@
 			{"form": "pochwali", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pochwalimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pochwalicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pochwalą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pochwalą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pochwalmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"chwycić": [
 			{"form": "chwycić", "features": {"form": "infinitive"}},
@@ -935,7 +950,8 @@
 			{"form": "da", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "damy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "dacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "dadzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "dadzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "dajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"dać": [
 			{"form": "dać", "features": {"form": "infinitive"}},
@@ -1017,7 +1033,8 @@
 			{"form": "zdefiniuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zdefiniujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zdefiniujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zdefiniują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zdefiniują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zdefiniujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"doceniać": [
 			{"form": "docenić", "features": {"form": "partner"}},
@@ -1055,7 +1072,8 @@
 			{"form": "doceni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "docenimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "docenicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "docenią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "docenią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "doceńmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"docenić": [
 			{"form": "docenić", "features": {"form": "infinitive"}},
@@ -1112,7 +1130,8 @@
 			{"form": "doda", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "dodamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "dodacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "dodadzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "dodadzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "dodajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"dodać": [
 			{"form": "dodać", "features": {"form": "infinitive"}},
@@ -1169,7 +1188,8 @@
 			{"form": "zdopinguje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zdopingujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zdopingujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zdopingują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zdopingują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zdopingujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"dopuszczać": [
 			{"form": "dopuścić", "features": {"form": "partner"}},
@@ -1207,7 +1227,8 @@
 			{"form": "dopuści", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "dopuścimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "dopuścicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "dopuszczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "dopuszczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "dopuśćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"dopuścić": [
 			{"form": "dopuścić", "features": {"form": "infinitive"}},
@@ -1264,7 +1285,8 @@
 			{"form": "doradzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "doradzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "doradzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "doradzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "doradzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "doradźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"doradzić": [
 			{"form": "doradzić", "features": {"form": "infinitive"}},
@@ -1397,7 +1419,8 @@
 			{"form": "dołączy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "dołączymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "dołączycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "dołączą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "dołączą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "dołączmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"dołączyć": [
 			{"form": "dołączyć", "features": {"form": "infinitive"}},
@@ -1479,7 +1502,8 @@
 			{"form": "podzieli", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "podzielimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "podzielicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "podzielą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "podzielą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "podzielmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"dzwonić": [
 			{"form": "zadzwonić", "features": {"form": "partner"}},
@@ -1517,7 +1541,8 @@
 			{"form": "zadzwoni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zadzwonimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zadzwonicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zadzwonią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zadzwonią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zadzwońmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"dążyć": [
 			{"form": "dążyć", "features": {"form": "infinitive"}},
@@ -1605,7 +1630,8 @@
 			{"form": "sfinansuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "sfinansujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "sfinansujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "sfinansują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "sfinansują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "sfinansujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"generować": [
 			{"form": "wygenerować", "features": {"form": "partner"}},
@@ -1643,7 +1669,8 @@
 			{"form": "wygeneruje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wygenerujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wygenerujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wygenerują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wygenerują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wygenerujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"gotować": [
 			{"form": "ugotować", "features": {"form": "partner"}},
@@ -1681,7 +1708,8 @@
 			{"form": "ugotuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "ugotujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "ugotujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "ugotują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "ugotują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "ugotujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"grać": [
 			{"form": "zagrać", "features": {"form": "partner"}},
@@ -1719,7 +1747,8 @@
 			{"form": "zagra", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zagramy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zagracie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zagrają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zagrają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zagrajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"gromadzić": [
 			{"form": "zgromadzić", "features": {"form": "partner"}},
@@ -1757,7 +1786,8 @@
 			{"form": "zgromadzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zgromadzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zgromadzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zgromadzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zgromadzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zgromadźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"grozić": [
 			{"form": "grozić", "features": {"form": "infinitive"}},
@@ -1870,7 +1900,8 @@
 			{"form": "zagłosuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zagłosujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zagłosujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zagłosują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zagłosują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zagłosujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"handlować": [
 			{"form": "handlować", "features": {"form": "infinitive"}},
@@ -1958,7 +1989,8 @@
 			{"form": "zignoruje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zignorujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zignorujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zignorują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zignorują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zignorujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"inspirować": [
 			{"form": "zainspirować", "features": {"form": "partner"}},
@@ -1996,7 +2028,8 @@
 			{"form": "zainspiruje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zainspirujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zainspirujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zainspirują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zainspirują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zainspirujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"interpretować": [
 			{"form": "zinterpretować", "features": {"form": "partner"}},
@@ -2034,7 +2067,8 @@
 			{"form": "zinterpretuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zinterpretujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zinterpretujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zinterpretują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zinterpretują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zinterpretujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"istnieć": [
 			{"form": "istnieć", "features": {"form": "infinitive"}},
@@ -2097,7 +2131,8 @@
 			{"form": "pójdzie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pójdziemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pójdziecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pójdą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pójdą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pójdźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"jeść": [
 			{"form": "zjeść", "features": {"form": "partner"}},
@@ -2135,7 +2170,8 @@
 			{"form": "zje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zjemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zjecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zjedzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zjedzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zjedzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"jeździć": [
 			{"form": "pojechać", "features": {"form": "partner"}},
@@ -2173,7 +2209,8 @@
 			{"form": "pojedzie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pojedziemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pojedziecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pojadą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pojadą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pojedźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"karać": [
 			{"form": "pokarać", "features": {"form": "partner"}},
@@ -2211,7 +2248,8 @@
 			{"form": "pokarze", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pokarzemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pokarzecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pokarzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pokarzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pokarzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"karmić": [
 			{"form": "karmić", "features": {"form": "infinitive"}},
@@ -2349,7 +2387,8 @@
 			{"form": "skojarzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skojarzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skojarzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skojarzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skojarzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skojarzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"komentować": [
 			{"form": "skomentować", "features": {"form": "partner"}},
@@ -2387,7 +2426,8 @@
 			{"form": "skomentuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skomentujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skomentujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skomentują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skomentują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skomentujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"koncentrować": [
 			{"form": "skoncentrować", "features": {"form": "partner"}},
@@ -2425,7 +2465,8 @@
 			{"form": "skoncentruje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skoncentrujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skoncentrujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skoncentrują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skoncentrują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skoncentrujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"konsultować": [
 			{"form": "skonsultować", "features": {"form": "partner"}},
@@ -2463,7 +2504,8 @@
 			{"form": "skonsultuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skonsultujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skonsultujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skonsultują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skonsultują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skonsultujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"kontrolować": [
 			{"form": "skontrolować", "features": {"form": "partner"}},
@@ -2501,7 +2543,8 @@
 			{"form": "skontroluje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skontrolujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skontrolujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skontrolują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skontrolują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skontrolujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"kontynuować": [
 			{"form": "kontynuować", "features": {"form": "infinitive"}},
@@ -2589,7 +2632,8 @@
 			{"form": "wykopie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wykopiemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wykopiecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wykopią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wykopią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wykopmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"kopiować": [
 			{"form": "skopiować", "features": {"form": "partner"}},
@@ -2627,7 +2671,8 @@
 			{"form": "skopiuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skopiujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skopiujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skopiują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skopiują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skopiujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"kończyć": [
 			{"form": "skończyć", "features": {"form": "partner"}},
@@ -2665,7 +2710,8 @@
 			{"form": "skończy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skończymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skończycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skończą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skończą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skończmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"kraść": [
 			{"form": "ukraść", "features": {"form": "partner"}},
@@ -2703,7 +2749,8 @@
 			{"form": "ukradnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "ukradniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "ukradniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "ukradną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "ukradną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "ukradnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"krytykować": [
 			{"form": "skrytykować", "features": {"form": "partner"}},
@@ -2741,7 +2788,8 @@
 			{"form": "skrytykuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skrytykujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skrytykujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skrytykują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skrytykują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skrytykujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"krzyczeć": [
 			{"form": "krzyknąć", "features": {"form": "partner"}},
@@ -2779,7 +2827,8 @@
 			{"form": "krzyknie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "krzykniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "krzykniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "krzykną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "krzykną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "krzyknijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"krzyknąć": [
 			{"form": "krzyknąć", "features": {"form": "infinitive"}},
@@ -2855,7 +2904,8 @@
 			{"form": "kupi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "kupimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "kupicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "kupią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "kupią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "kupmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"kwestionować": [
 			{"form": "zakwestionować", "features": {"form": "partner"}},
@@ -2893,7 +2943,8 @@
 			{"form": "zakwestionuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zakwestionujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zakwestionujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zakwestionują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zakwestionują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zakwestionujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"kłamać": [
 			{"form": "skłamać", "features": {"form": "partner"}},
@@ -2931,7 +2982,8 @@
 			{"form": "skłamie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skłamiemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skłamiecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skłamią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skłamią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skłammy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"kłaść": [
 			{"form": "położyć", "features": {"form": "partner"}},
@@ -2969,7 +3021,8 @@
 			{"form": "położy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "położymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "położycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "położą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "położą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "połóżmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"latać": [
 			{"form": "polecieć", "features": {"form": "partner"}},
@@ -3007,7 +3060,8 @@
 			{"form": "poleci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "polecimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "polecicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "polecą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "polecą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "polećmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"liczyć": [
 			{"form": "policzyć", "features": {"form": "partner"}},
@@ -3045,7 +3099,8 @@
 			{"form": "policzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "policzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "policzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "policzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "policzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "policzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"lokalizować": [
 			{"form": "zlokalizować", "features": {"form": "partner"}},
@@ -3083,7 +3138,8 @@
 			{"form": "zlokalizuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zlokalizujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zlokalizujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zlokalizują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zlokalizują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zlokalizujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"lubić": [
 			{"form": "lubić", "features": {"form": "infinitive"}},
@@ -3146,7 +3202,8 @@
 			{"form": "pomacha", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pomachamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pomachacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pomachają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pomachają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pomachajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"malować": [
 			{"form": "malować", "features": {"form": "infinitive"}},
@@ -3209,7 +3266,8 @@
 			{"form": "zmarnuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zmarnujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zmarnujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zmarnują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zmarnują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zmarnujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"mieszać": [
 			{"form": "pomieszać", "features": {"form": "partner"}},
@@ -3247,7 +3305,8 @@
 			{"form": "pomiesza", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pomieszamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pomieszacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pomieszają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pomieszają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pomieszajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"mieć": [
 			{"form": "mieć", "features": {"form": "infinitive"}},
@@ -3336,7 +3395,8 @@
 			{"form": "zmontuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zmontujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zmontujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zmontują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zmontują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zmontujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"mordować": [
 			{"form": "zamordować", "features": {"form": "partner"}},
@@ -3374,7 +3434,8 @@
 			{"form": "zamorduje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zamordujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zamordujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zamordują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zamordują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zamordujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"myśleć": [
 			{"form": "pomyśleć", "features": {"form": "partner"}},
@@ -3412,7 +3473,8 @@
 			{"form": "pomyśli", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pomyślimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pomyślicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pomyślą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pomyślą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pomyślmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"mówić": [
 			{"form": "mówić", "features": {"form": "infinitive"}},
@@ -3513,7 +3575,8 @@
 			{"form": "nagra", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "nagramy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "nagracie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "nagrają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "nagrają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "nagrajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"nakreślić": [
 			{"form": "nakreślić", "features": {"form": "infinitive"}},
@@ -3595,7 +3658,8 @@
 			{"form": "namówi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "namówimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "namówicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "namówią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "namówią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "namówmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"namówić": [
 			{"form": "namówić", "features": {"form": "infinitive"}},
@@ -3652,7 +3716,8 @@
 			{"form": "naprawi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "naprawimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "naprawicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "naprawią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "naprawią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "naprawmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"naprawić": [
 			{"form": "naprawić", "features": {"form": "infinitive"}},
@@ -3709,7 +3774,8 @@
 			{"form": "narzuci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "narzucimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "narzucicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "narzucą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "narzucą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "narzućmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"narzucić": [
 			{"form": "narzucić", "features": {"form": "infinitive"}},
@@ -3766,7 +3832,8 @@
 			{"form": "nauczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "nauczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "nauczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "nauczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "nauczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "nauczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"nauczyć": [
 			{"form": "nauczyć", "features": {"form": "infinitive"}},
@@ -3823,7 +3890,8 @@
 			{"form": "wynegocjuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wynegocjujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wynegocjujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wynegocjują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wynegocjują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wynegocjujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"nienawidzić": [
 			{"form": "znienawidzić", "features": {"form": "partner"}},
@@ -3950,7 +4018,8 @@
 			{"form": "obieca", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "obiecamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "obiecacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "obiecają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "obiecają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "obiecajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"obliczać": [
 			{"form": "obliczyć", "features": {"form": "partner"}},
@@ -3988,7 +4057,8 @@
 			{"form": "obliczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "obliczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "obliczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "obliczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "obliczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "obliczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"obliczyć": [
 			{"form": "obliczyć", "features": {"form": "infinitive"}},
@@ -4089,7 +4159,8 @@
 			{"form": "obstoi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "obstoimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "obstoicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "obstoją", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "obstoją", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "obstójmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"obstać": [
 			{"form": "obstać", "features": {"form": "infinitive"}},
@@ -4146,7 +4217,8 @@
 			{"form": "obsłuży", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "obsłużymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "obsłużycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "obsłużą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "obsłużą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "obsłużmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"obsłużyć": [
 			{"form": "obsłużyć", "features": {"form": "infinitive"}},
@@ -4222,7 +4294,8 @@
 			{"form": "ochroni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "ochronimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "ochronicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "ochronią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "ochronią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "ochrońmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"ochronić": [
 			{"form": "ochronić", "features": {"form": "infinitive"}},
@@ -4304,7 +4377,8 @@
 			{"form": "oczyści", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "oczyścimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "oczyścicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "oczyszczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "oczyszczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "oczyśćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"oczyścić": [
 			{"form": "oczyścić", "features": {"form": "infinitive"}},
@@ -4380,7 +4454,8 @@
 			{"form": "odetchnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "odetchniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "odetchniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "odetchną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "odetchną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "odetchnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"oddzielać": [
 			{"form": "oddzielić", "features": {"form": "partner"}},
@@ -4418,7 +4493,8 @@
 			{"form": "oddzieli", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "oddzielimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "oddzielicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "oddzielą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "oddzielą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "oddzielmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"oddzielić": [
 			{"form": "oddzielić", "features": {"form": "infinitive"}},
@@ -4532,7 +4608,8 @@
 			{"form": "odmówi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "odmówimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "odmówicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "odmówią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "odmówią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "odmówmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"odmówić": [
 			{"form": "odmówić", "features": {"form": "infinitive"}},
@@ -4608,7 +4685,8 @@
 			{"form": "odpocznie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "odpoczniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "odpoczniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "odpoczną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "odpoczną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "odpocznijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"odpocząć": [
 			{"form": "odpocząć", "features": {"form": "infinitive"}},
@@ -4665,7 +4743,8 @@
 			{"form": "odpowie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "odpowiemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "odpowiecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "odpowiedzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "odpowiedzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "odpowiedzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"odpowiedzieć": [
 			{"form": "odpowiedzieć", "features": {"form": "infinitive"}},
@@ -4716,7 +4795,8 @@
 			{"form": "odrzuci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "odrzucimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "odrzucicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "odrzucą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "odrzucą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "odrzućmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"odrzucić": [
 			{"form": "odrzucić", "features": {"form": "infinitive"}},
@@ -4792,7 +4872,8 @@
 			{"form": "odsłoni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "odsłonimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "odsłonicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "odsłonią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "odsłonią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "odsłońmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"odsłonić": [
 			{"form": "odsłonić", "features": {"form": "infinitive"}},
@@ -4887,7 +4968,8 @@
 			{"form": "zaoferuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaoferujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaoferujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaoferują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaoferują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaoferujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"oglądać": [
 			{"form": "obejrzeć", "features": {"form": "partner"}},
@@ -4925,7 +5007,8 @@
 			{"form": "obejrzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "obejrzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "obejrzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "obejrzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "obejrzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "obejrzyjmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"ograniczać": [
 			{"form": "ograniczyć", "features": {"form": "partner"}},
@@ -4963,7 +5046,8 @@
 			{"form": "ograniczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "ograniczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "ograniczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "ograniczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "ograniczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "ograniczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"ograniczyć": [
 			{"form": "ograniczyć", "features": {"form": "infinitive"}},
@@ -5039,7 +5123,8 @@
 			{"form": "omówi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "omówimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "omówicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "omówią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "omówią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "omówmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"omówić": [
 			{"form": "omówić", "features": {"form": "infinitive"}},
@@ -5134,7 +5219,8 @@
 			{"form": "opuści", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "opuścimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "opuścicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "opuszczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "opuszczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "opuśćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"opuścić": [
 			{"form": "opuścić", "features": {"form": "infinitive"}},
@@ -5191,7 +5277,8 @@
 			{"form": "osiągnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "osiągniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "osiągniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "osiągną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "osiągną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "osiągnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"osiągnąć": [
 			{"form": "osiągnąć", "features": {"form": "infinitive"}},
@@ -5248,7 +5335,8 @@
 			{"form": "oskarży", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "oskarżymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "oskarżycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "oskarżą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "oskarżą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "oskarżmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"oskarżyć": [
 			{"form": "oskarżyć", "features": {"form": "infinitive"}},
@@ -5343,7 +5431,8 @@
 			{"form": "otoczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "otoczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "otoczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "otoczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "otoczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "otoczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"otoczyć": [
 			{"form": "otoczyć", "features": {"form": "infinitive"}},
@@ -5419,7 +5508,8 @@
 			{"form": "otrzyma", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "otrzymamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "otrzymacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "otrzymają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "otrzymają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "otrzymajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"otwierać": [
 			{"form": "otworzyć", "features": {"form": "partner"}},
@@ -5457,7 +5547,8 @@
 			{"form": "otworzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "otworzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "otworzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "otworzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "otworzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "otwórzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"otworzyć": [
 			{"form": "otworzyć", "features": {"form": "infinitive"}},
@@ -5533,7 +5624,8 @@
 			{"form": "oznaczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "oznaczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "oznaczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "oznaczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "oznaczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "oznaczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"oznaczyć": [
 			{"form": "oznaczyć", "features": {"form": "infinitive"}},
@@ -5640,7 +5732,8 @@
 			{"form": "pchnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pchniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pchniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pchną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pchną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pchnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pchnąć": [
 			{"form": "pchnąć", "features": {"form": "infinitive"}},
@@ -5747,7 +5840,8 @@
 			{"form": "wypije", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wypijemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wypijecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wypiją", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wypiją", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wypijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pobiec": [
 			{"form": "pobiec", "features": {"form": "infinitive"}},
@@ -5823,7 +5917,8 @@
 			{"form": "potrze", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "potrzemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "potrzecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "potrą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "potrą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "potrzyjmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pociągać": [
 			{"form": "pociągnąć", "features": {"form": "partner"}},
@@ -5861,7 +5956,8 @@
 			{"form": "pociągnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pociągniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pociągniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pociągną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pociągną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pociągnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pociągnąć": [
 			{"form": "pociągnąć", "features": {"form": "infinitive"}},
@@ -5918,7 +6014,8 @@
 			{"form": "podkreśli", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "podkreślimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "podkreślicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "podkreślą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "podkreślą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "podkreślmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"podkreślić": [
 			{"form": "podkreślić", "features": {"form": "infinitive"}},
@@ -5994,7 +6091,8 @@
 			{"form": "podniesie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "podniesiemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "podniesiecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "podniosą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "podniosą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "podnieśmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"podpisać": [
 			{"form": "podpisać", "features": {"form": "infinitive"}},
@@ -6051,7 +6149,8 @@
 			{"form": "podpisze", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "podpiszemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "podpiszecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "podpiszą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "podpiszą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "podpiszmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"podróżować": [
 			{"form": "podróżować", "features": {"form": "infinitive"}},
@@ -6272,7 +6371,8 @@
 			{"form": "pokaże", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pokażemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pokażecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pokażą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pokażą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pokażmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pokrywać": [
 			{"form": "pokryć", "features": {"form": "partner"}},
@@ -6310,7 +6410,8 @@
 			{"form": "pokryje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pokryjemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pokryjecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pokryją", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pokryją", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pokryjmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pokryć": [
 			{"form": "pokryć", "features": {"form": "infinitive"}},
@@ -6468,7 +6569,8 @@
 			{"form": "pomoże", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pomożemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pomożecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pomogą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pomogą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pomóżmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pomieszać": [
 			{"form": "pomieszać", "features": {"form": "infinitive"}},
@@ -6759,7 +6861,8 @@
 			{"form": "postrzeże", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "postrzeżemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "postrzeżecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "postrzegą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "postrzegą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "postrzeżmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"postąpić": [
 			{"form": "postąpić", "features": {"form": "infinitive"}},
@@ -6816,7 +6919,8 @@
 			{"form": "postąpi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "postąpimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "postąpicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "postąpią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "postąpią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "postąpmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"posądzać": [
 			{"form": "posądzić", "features": {"form": "partner"}},
@@ -6854,7 +6958,8 @@
 			{"form": "posądzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "posądzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "posądzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "posądzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "posądzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "posądźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"posądzić": [
 			{"form": "posądzić", "features": {"form": "infinitive"}},
@@ -6993,7 +7098,8 @@
 			{"form": "potwierdzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "potwierdzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "potwierdzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "potwierdzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "potwierdzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "potwierdźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"potwierdzić": [
 			{"form": "potwierdzić", "features": {"form": "infinitive"}},
@@ -7050,7 +7156,8 @@
 			{"form": "potępi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "potępimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "potępicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "potępią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "potępią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "potępmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"potępić": [
 			{"form": "potępić", "features": {"form": "infinitive"}},
@@ -7107,7 +7214,8 @@
 			{"form": "pouczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pouczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pouczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pouczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pouczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pouczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pouczyć": [
 			{"form": "pouczyć", "features": {"form": "infinitive"}},
@@ -7240,7 +7348,8 @@
 			{"form": "powtórzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "powtórzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "powtórzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "powtórzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "powtórzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "powtórzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"powtórzyć": [
 			{"form": "powtórzyć", "features": {"form": "infinitive"}},
@@ -7297,7 +7406,8 @@
 			{"form": "pozostanie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pozostaniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pozostaniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pozostaną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pozostaną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pozostańmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pozostać": [
 			{"form": "pozostać", "features": {"form": "infinitive"}},
@@ -7436,7 +7546,8 @@
 			{"form": "połknie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "połkniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "połkniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "połkną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "połkną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "połknijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"połączyć": [
 			{"form": "połączyć", "features": {"form": "infinitive"}},
@@ -7493,7 +7604,8 @@
 			{"form": "pożyczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pożyczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pożyczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pożyczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pożyczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "pożyczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pożyczyć": [
 			{"form": "pożyczyć", "features": {"form": "infinitive"}},
@@ -7600,7 +7712,8 @@
 			{"form": "wyprodukuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wyprodukujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wyprodukujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wyprodukują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wyprodukują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wyprodukujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"projektować": [
 			{"form": "zaprojektować", "features": {"form": "partner"}},
@@ -7638,7 +7751,8 @@
 			{"form": "zaprojektuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaprojektujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaprojektujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaprojektują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaprojektują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaprojektujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"promować": [
 			{"form": "wypromować", "features": {"form": "partner"}},
@@ -7676,7 +7790,8 @@
 			{"form": "wypromuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wypromujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wypromujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wypromują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wypromują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wypromujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"prosić": [
 			{"form": "poprosić", "features": {"form": "partner"}},
@@ -7714,7 +7829,8 @@
 			{"form": "poprosi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "poprosimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "poprosicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "poproszą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "poproszą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "poprośmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"protestować": [
 			{"form": "zaprotestować", "features": {"form": "partner"}},
@@ -7752,7 +7868,8 @@
 			{"form": "zaprotestuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaprotestujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaprotestujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaprotestują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaprotestują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaprotestujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"prowadzić": [
 			{"form": "prowadzić", "features": {"form": "infinitive"}},
@@ -7872,7 +7989,8 @@
 			{"form": "przechowa", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przechowamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przechowacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przechowają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przechowają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przechowajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przedstawiać": [
 			{"form": "przedstawiać", "features": {"form": "infinitive"}},
@@ -7935,7 +8053,8 @@
 			{"form": "przedłuży", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przedłużymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przedłużycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przedłużą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przedłużą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przedłużmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przedłużyć": [
 			{"form": "przedłużyć", "features": {"form": "infinitive"}},
@@ -7992,7 +8111,8 @@
 			{"form": "przejrzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przejrzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przejrzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przejrzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przejrzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przejrzyjmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przejrzeć": [
 			{"form": "przejrzeć", "features": {"form": "infinitive"}},
@@ -8068,7 +8188,8 @@
 			{"form": "przekaże", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przekażemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przekażecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przekażą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przekażą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przekażmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przekonać": [
 			{"form": "przekonać", "features": {"form": "infinitive"}},
@@ -8125,7 +8246,8 @@
 			{"form": "przekroczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przekroczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przekroczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przekroczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przekroczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przekroczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przekroczyć": [
 			{"form": "przekroczyć", "features": {"form": "infinitive"}},
@@ -8182,7 +8304,8 @@
 			{"form": "przekształci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przekształcimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przekształcicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przekształcą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przekształcą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przekształćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przekształcić": [
 			{"form": "przekształcić", "features": {"form": "infinitive"}},
@@ -8239,7 +8362,8 @@
 			{"form": "przeszkodzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przeszkodzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przeszkodzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przeszkodzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przeszkodzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przeszkodźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przeszkodzić": [
 			{"form": "przeszkodzić", "features": {"form": "infinitive"}},
@@ -8334,7 +8458,8 @@
 			{"form": "przezwycięży", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przezwyciężymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przezwyciężycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przezwyciężą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przezwyciężą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przezwyciężmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przezwyciężyć": [
 			{"form": "przezwyciężyć", "features": {"form": "infinitive"}},
@@ -8391,7 +8516,8 @@
 			{"form": "przyjdzie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przyjdziemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przyjdziecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przyjdą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przyjdą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przyjdźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przygotować": [
 			{"form": "przygotować", "features": {"form": "infinitive"}},
@@ -8505,7 +8631,8 @@
 			{"form": "przypomni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przypomnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przypomnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przypomną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przypomną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przypomnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przypomnieć": [
 			{"form": "przypomnieć", "features": {"form": "infinitive"}},
@@ -8562,7 +8689,8 @@
 			{"form": "przypuści", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przypuścimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przypuścicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przypuszczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przypuszczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przypuśćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przypuścić": [
 			{"form": "przypuścić", "features": {"form": "infinitive"}},
@@ -8619,7 +8747,8 @@
 			{"form": "przywróci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przywrócimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przywrócicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przywrócą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przywrócą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przywróćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przywrócić": [
 			{"form": "przywrócić", "features": {"form": "infinitive"}},
@@ -8676,7 +8805,8 @@
 			{"form": "przyzna", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przyznamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przyznacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przyznają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przyznają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przyznajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"przyznać": [
 			{"form": "przyznać", "features": {"form": "infinitive"}},
@@ -8758,7 +8888,8 @@
 			{"form": "opublikuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "opublikujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "opublikujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "opublikują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "opublikują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "opublikujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"pukać": [
 			{"form": "puknąć", "features": {"form": "partner"}},
@@ -8796,7 +8927,8 @@
 			{"form": "puknie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "pukniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "pukniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "pukną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "pukną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "puknijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"puknąć": [
 			{"form": "puknąć", "features": {"form": "infinitive"}},
@@ -8922,7 +9054,8 @@
 			{"form": "zapłaci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zapłacimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zapłacicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zapłacą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zapłacą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zapłaćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"płakać": [
 			{"form": "płakać", "features": {"form": "infinitive"}},
@@ -8985,7 +9118,8 @@
 			{"form": "popłynie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "popłyniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "popłyniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "popłyną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "popłyną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "popłyńmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"ranić": [
 			{"form": "ranić", "features": {"form": "infinitive"}},
@@ -9048,7 +9182,8 @@
 			{"form": "zrezygnuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zrezygnujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zrezygnujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zrezygnują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zrezygnują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zrezygnujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"robić": [
 			{"form": "zrobić", "features": {"form": "partner"}},
@@ -9086,7 +9221,8 @@
 			{"form": "zrobi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zrobimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zrobicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zrobią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zrobią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zróbmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rosnąć": [
 			{"form": "urosnąć", "features": {"form": "partner"}},
@@ -9124,7 +9260,8 @@
 			{"form": "urośnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "urośniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "urośniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "urosną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "urosną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "urośnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozciągać": [
 			{"form": "rozciągnąć", "features": {"form": "partner"}},
@@ -9162,7 +9299,8 @@
 			{"form": "rozciągnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozciągniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozciągniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozciągną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozciągną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozciągnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozciągnąć": [
 			{"form": "rozciągnąć", "features": {"form": "infinitive"}},
@@ -9219,7 +9357,8 @@
 			{"form": "rozdzieli", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozdzielimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozdzielicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozdzielą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozdzielą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozdzielmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozdzielić": [
 			{"form": "rozdzielić", "features": {"form": "infinitive"}},
@@ -9314,7 +9453,8 @@
 			{"form": "porozmawia", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "porozmawiamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "porozmawiacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "porozmawiają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "porozmawiają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "porozmawiajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozpoznać": [
 			{"form": "rozpoznać", "features": {"form": "infinitive"}},
@@ -9371,7 +9511,8 @@
 			{"form": "rozproszy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozproszymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozproszycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozproszą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozproszą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozproszmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozproszyć": [
 			{"form": "rozproszyć", "features": {"form": "infinitive"}},
@@ -9428,7 +9569,8 @@
 			{"form": "rozprowadzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozprowadzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozprowadzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozprowadzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozprowadzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozprowadźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozprowadzić": [
 			{"form": "rozprowadzić", "features": {"form": "infinitive"}},
@@ -9485,7 +9627,8 @@
 			{"form": "rozprzestrzeni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozprzestrzenimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozprzestrzenicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozprzestrzenią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozprzestrzenią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozprzestrzeńmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozprzestrzenić": [
 			{"form": "rozprzestrzenić", "features": {"form": "infinitive"}},
@@ -9542,7 +9685,8 @@
 			{"form": "rozróżni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozróżnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozróżnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozróżnią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozróżnią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozróżnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozróżnić": [
 			{"form": "rozróżnić", "features": {"form": "infinitive"}},
@@ -9599,7 +9743,8 @@
 			{"form": "rozstrzygnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozstrzygniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozstrzygniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozstrzygną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozstrzygną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozstrzygnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozstrzygnąć": [
 			{"form": "rozstrzygnąć", "features": {"form": "infinitive"}},
@@ -9656,7 +9801,8 @@
 			{"form": "rozszerzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozszerzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozszerzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozszerzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozszerzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozszerzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozszerzyć": [
 			{"form": "rozszerzyć", "features": {"form": "infinitive"}},
@@ -9738,7 +9884,8 @@
 			{"form": "rozważy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozważymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozważycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozważą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozważą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozważmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozważyć": [
 			{"form": "rozważyć", "features": {"form": "infinitive"}},
@@ -9795,7 +9942,8 @@
 			{"form": "rozwinie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rozwiniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rozwiniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rozwiną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rozwiną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rozwińmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rozwinąć": [
 			{"form": "rozwinąć", "features": {"form": "infinitive"}},
@@ -9921,7 +10069,8 @@
 			{"form": "wyrzeźbi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wyrzeźbimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wyrzeźbicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wyrzeźbią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wyrzeźbią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wyrzeźbijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rzucać": [
 			{"form": "rzucić", "features": {"form": "partner"}},
@@ -9959,7 +10108,8 @@
 			{"form": "rzuci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "rzucimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "rzucicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "rzucą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "rzucą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "rzućmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"rzucić": [
 			{"form": "rzucić", "features": {"form": "infinitive"}},
@@ -10085,7 +10235,8 @@
 			{"form": "skoczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skoczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skoczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skoczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skoczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skoczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"skoczyć": [
 			{"form": "skoczyć", "features": {"form": "infinitive"}},
@@ -10294,7 +10445,8 @@
 			{"form": "skręci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skręcimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skręcicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skręcą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skręcą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skręćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"skręcić": [
 			{"form": "skręcić", "features": {"form": "infinitive"}},
@@ -10351,7 +10503,8 @@
 			{"form": "skupi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "skupimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "skupicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "skupią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "skupią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "skupmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"skupić": [
 			{"form": "skupić", "features": {"form": "infinitive"}},
@@ -10427,7 +10580,8 @@
 			{"form": "posortuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "posortujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "posortujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "posortują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "posortują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "posortujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"spacerować": [
 			{"form": "spacerować", "features": {"form": "infinitive"}},
@@ -10515,7 +10669,8 @@
 			{"form": "sprawdzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "sprawdzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "sprawdzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "sprawdzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "sprawdzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "sprawdźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"sprawdzić": [
 			{"form": "sprawdzić", "features": {"form": "infinitive"}},
@@ -10610,7 +10765,8 @@
 			{"form": "sprzeda", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "sprzedamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "sprzedacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "sprzedadzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "sprzedadzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "sprzedajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"sprzedać": [
 			{"form": "sprzedać", "features": {"form": "infinitive"}},
@@ -10667,7 +10823,8 @@
 			{"form": "sprzątnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "sprzątniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "sprzątniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "sprzątną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "sprzątną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "sprzątnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"sprzątnąć": [
 			{"form": "sprzątnąć", "features": {"form": "infinitive"}},
@@ -10762,7 +10919,8 @@
 			{"form": "strzeli", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "strzelimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "strzelicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "strzelą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "strzelą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "strzelmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"strzelić": [
 			{"form": "strzelić", "features": {"form": "infinitive"}},
@@ -10844,7 +11002,8 @@
 			{"form": "stuknie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "stukniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "stukniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "stukną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "stukną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "stuknijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"stuknąć": [
 			{"form": "stuknąć", "features": {"form": "infinitive"}},
@@ -10901,7 +11060,8 @@
 			{"form": "stwierdzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "stwierdzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "stwierdzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "stwierdzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "stwierdzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "stwierdźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"stwierdzić": [
 			{"form": "stwierdzić", "features": {"form": "infinitive"}},
@@ -10977,7 +11137,8 @@
 			{"form": "stąpnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "stąpniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "stąpniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "stąpną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "stąpną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "stąpnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"stąpnąć": [
 			{"form": "stąpnąć", "features": {"form": "infinitive"}},
@@ -11034,7 +11195,8 @@
 			{"form": "zasugeruje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zasugerujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zasugerujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zasugerują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zasugerują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zasugerujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"szanować": [
 			{"form": "szanować", "features": {"form": "infinitive"}},
@@ -11168,7 +11330,8 @@
 			{"form": "szepnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "szepniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "szepniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "szepną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "szepną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "szepnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"szukać": [
 			{"form": "szukać", "features": {"form": "infinitive"}},
@@ -11256,7 +11419,8 @@
 			{"form": "posłucha", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "posłuchamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "posłuchacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "posłuchają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "posłuchają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "posłuchajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"słyszeć": [
 			{"form": "słyszeć", "features": {"form": "infinitive"}},
@@ -11319,7 +11483,8 @@
 			{"form": "przetestuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "przetestujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "przetestujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "przetestują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "przetestują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "przetestujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"toczyć": [
 			{"form": "toczyć", "features": {"form": "infinitive"}},
@@ -11382,7 +11547,8 @@
 			{"form": "zatonie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zatoniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zatoniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zatoną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zatoną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zatońmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"towarzyszyć": [
 			{"form": "towarzyszyć", "features": {"form": "infinitive"}},
@@ -11445,7 +11611,8 @@
 			{"form": "utraci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "utracimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "utracicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "utracą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "utracą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "utraćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"trenować": [
 			{"form": "wytrenować", "features": {"form": "partner"}},
@@ -11483,7 +11650,8 @@
 			{"form": "wytrenuje", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wytrenujemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wytrenujecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wytrenują", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wytrenują", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wytrenujmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"trzymać": [
 			{"form": "trzymać", "features": {"form": "infinitive"}},
@@ -11571,7 +11739,8 @@
 			{"form": "stworzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "stworzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "stworzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "stworzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "stworzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "stwórzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"tęsknić": [
 			{"form": "tęsknić", "features": {"form": "infinitive"}},
@@ -11634,7 +11803,8 @@
 			{"form": "ubierze", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "ubierzemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "ubierzecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "ubiorą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "ubiorą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "ubierzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"ubrać": [
 			{"form": "ubrać", "features": {"form": "infinitive"}},
@@ -11729,7 +11899,8 @@
 			{"form": "ucieknie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "uciekniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "uciekniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "uciekną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "uciekną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "ucieknijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"uczestniczyć": [
 			{"form": "uczestniczyć", "features": {"form": "infinitive"}},
@@ -11855,7 +12026,8 @@
 			{"form": "uderzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "uderzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "uderzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "uderzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "uderzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "uderzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"uderzyć": [
 			{"form": "uderzyć", "features": {"form": "infinitive"}},
@@ -11912,7 +12084,8 @@
 			{"form": "zaufa", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaufamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaufacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaufają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaufają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaufajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"ugotować": [
 			{"form": "ugotować", "features": {"form": "infinitive"}},
@@ -12007,7 +12180,8 @@
 			{"form": "ulepszy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "ulepszymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "ulepszycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "ulepszą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "ulepszą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "ulepszmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"ulepszyć": [
 			{"form": "ulepszyć", "features": {"form": "infinitive"}},
@@ -12064,7 +12238,8 @@
 			{"form": "umrze", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "umrzemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "umrzecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "umrą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "umrą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "umrzyjmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"umrzeć": [
 			{"form": "umrzeć", "features": {"form": "infinitive"}},
@@ -12140,7 +12315,8 @@
 			{"form": "upuści", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "upuścimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "upuścicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "upuszczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "upuszczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "upuśćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"upuścić": [
 			{"form": "upuścić", "features": {"form": "infinitive"}},
@@ -12235,7 +12411,8 @@
 			{"form": "ustali", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "ustalimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "ustalicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "ustalą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "ustalą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "ustalmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"ustalić": [
 			{"form": "ustalić", "features": {"form": "infinitive"}},
@@ -12368,7 +12545,8 @@
 			{"form": "uwolni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "uwolnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "uwolnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "uwolnią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "uwolnią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "uwolnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"uważać": [
 			{"form": "uważyć", "features": {"form": "partner"}},
@@ -12406,7 +12584,8 @@
 			{"form": "uważy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "uważymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "uważycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "uważą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "uważą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "uważmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"uważyć": [
 			{"form": "uważyć", "features": {"form": "infinitive"}},
@@ -12501,7 +12680,8 @@
 			{"form": "uzasadni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "uzasadnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "uzasadnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "uzasadnią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "uzasadnią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "uzasadnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"uzasadnić": [
 			{"form": "uzasadnić", "features": {"form": "infinitive"}},
@@ -12646,7 +12826,8 @@
 			{"form": "wejdzie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wejdziemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wejdziecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wejdą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wejdą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wejdźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wejść": [
 			{"form": "wejść", "features": {"form": "infinitive"}},
@@ -12722,7 +12903,8 @@
 			{"form": "zobaczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zobaczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zobaczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zobaczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zobaczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zobaczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wiedzieć": [
 			{"form": "wiedzieć", "features": {"form": "infinitive"}},
@@ -12810,7 +12992,8 @@
 			{"form": "powita", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "powitamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "powitacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "powitają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "powitają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "powitajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wiązać": [
 			{"form": "powiązać", "features": {"form": "partner"}},
@@ -12848,7 +13031,8 @@
 			{"form": "powiąże", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "powiążemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "powiążecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "powiążą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "powiążą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "powiążmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wlać": [
 			{"form": "wlać", "features": {"form": "infinitive"}},
@@ -12930,7 +13114,8 @@
 			{"form": "zawoła", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zawołamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zawołacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zawołają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zawołają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zawołajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wpłynąć": [
 			{"form": "wpłynąć", "features": {"form": "infinitive"}},
@@ -12987,7 +13172,8 @@
 			{"form": "wpłynie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wpłyniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wpłyniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wpłyną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wpłyną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wpłyńmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wracać": [
 			{"form": "wrócić", "features": {"form": "partner"}},
@@ -13025,7 +13211,8 @@
 			{"form": "wróci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wrócimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wrócicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wrócą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wrócą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wróćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wrócić": [
 			{"form": "wrócić", "features": {"form": "infinitive"}},
@@ -13101,7 +13288,8 @@
 			{"form": "wesprze", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wesprzemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wesprzecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wesprą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wesprą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wesprzyjmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wspominać": [
 			{"form": "wspomnieć", "features": {"form": "partner"}},
@@ -13139,7 +13327,8 @@
 			{"form": "wspomni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wspomnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wspomnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wspomną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wspomną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wspomnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wspomnieć": [
 			{"form": "wspomnieć", "features": {"form": "infinitive"}},
@@ -13215,7 +13404,8 @@
 			{"form": "wybierze", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wybierzemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wybierzecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wybiorą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wybiorą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wybierzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wybrać": [
 			{"form": "wybrać", "features": {"form": "infinitive"}},
@@ -13291,7 +13481,8 @@
 			{"form": "wytrze", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wytrzemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wytrzecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wytrą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wytrą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wytrzyjmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wycofać": [
 			{"form": "wycofać", "features": {"form": "infinitive"}},
@@ -13405,7 +13596,8 @@
 			{"form": "wyjaśni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wyjaśnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wyjaśnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wyjaśnią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wyjaśnią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wyjaśnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wyjaśnić": [
 			{"form": "wyjaśnić", "features": {"form": "infinitive"}},
@@ -13481,7 +13673,8 @@
 			{"form": "wykluczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wykluczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wykluczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wykluczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wykluczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wykluczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wykluczyć": [
 			{"form": "wykluczyć", "features": {"form": "infinitive"}},
@@ -13620,7 +13813,8 @@
 			{"form": "wymieni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wymienimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wymienicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wymienią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wymienią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wymieńmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wymienić": [
 			{"form": "wymienić", "features": {"form": "infinitive"}},
@@ -13696,7 +13890,8 @@
 			{"form": "wymyśli", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wymyślimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wymyślicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wymyślą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wymyślą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wymyślmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wymyślić": [
 			{"form": "wymyślić", "features": {"form": "infinitive"}},
@@ -13772,7 +13967,8 @@
 			{"form": "wypełni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wypełnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wypełnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wypełnią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wypełnią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wypełńmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wypełnić": [
 			{"form": "wypełnić", "features": {"form": "infinitive"}},
@@ -13867,7 +14063,8 @@
 			{"form": "wypożyczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wypożyczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wypożyczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wypożyczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wypożyczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wypożyczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wypożyczyć": [
 			{"form": "wypożyczyć", "features": {"form": "infinitive"}},
@@ -14076,7 +14273,8 @@
 			{"form": "wyznaczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wyznaczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wyznaczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wyznaczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wyznaczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wyznaczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wyznaczyć": [
 			{"form": "wyznaczyć", "features": {"form": "infinitive"}},
@@ -14171,7 +14369,8 @@
 			{"form": "wyzwie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wyzwiemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wyzwiecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wyzwą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wyzwą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wyzwijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wzdychać": [
 			{"form": "wzdychać", "features": {"form": "infinitive"}},
@@ -14253,7 +14452,8 @@
 			{"form": "wzmocni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "wzmocnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "wzmocnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "wzmocnią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "wzmocnią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "wzmocnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"wzmocnić": [
 			{"form": "wzmocnić", "features": {"form": "infinitive"}},
@@ -14310,7 +14510,8 @@
 			{"form": "zwątpi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zwątpimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zwątpicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zwątpią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zwątpią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zwątpmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"włączyć": [
 			{"form": "włączyć", "features": {"form": "infinitive"}},
@@ -14519,7 +14720,8 @@
 			{"form": "zachęci", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zachęcimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zachęcicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zachęcą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zachęcą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zachęćmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zachęcić": [
 			{"form": "zachęcić", "features": {"form": "infinitive"}},
@@ -14595,7 +14797,8 @@
 			{"form": "zacznie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaczniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaczniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaczną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaczną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zacznijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zacząć": [
 			{"form": "zacząć", "features": {"form": "infinitive"}},
@@ -14766,7 +14969,8 @@
 			{"form": "zakaże", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zakażemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zakażecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zakażą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zakażą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zakażmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zakwestionować": [
 			{"form": "zakwestionować", "features": {"form": "infinitive"}},
@@ -14823,7 +15027,8 @@
 			{"form": "założy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "założymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "założycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "założą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "założą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "załóżmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zależeć": [
 			{"form": "zależeć", "features": {"form": "infinitive"}},
@@ -14886,7 +15091,8 @@
 			{"form": "zamówi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zamówimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zamówicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zamówią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zamówią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zamówmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zamiatać": [
 			{"form": "zamieść", "features": {"form": "partner"}},
@@ -14924,7 +15130,8 @@
 			{"form": "zamiecie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zamieciemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zamieciecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zamiotą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zamiotą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zamiećmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zamierzać": [
 			{"form": "zamierzyć", "features": {"form": "partner"}},
@@ -14962,7 +15169,8 @@
 			{"form": "zamierzy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zamierzymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zamierzycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zamierzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zamierzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zamierzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zamierzyć": [
 			{"form": "zamierzyć", "features": {"form": "infinitive"}},
@@ -15076,7 +15284,8 @@
 			{"form": "zamknie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zamkniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zamkniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zamkną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zamkną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zamknijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zamówić": [
 			{"form": "zamówić", "features": {"form": "infinitive"}},
@@ -15152,7 +15361,8 @@
 			{"form": "zapewni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zapewnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zapewnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zapewnią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zapewnią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zapewnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zapewnić": [
 			{"form": "zapewnić", "features": {"form": "infinitive"}},
@@ -15247,7 +15457,8 @@
 			{"form": "zapomni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zapomnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zapomnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zapomną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zapomną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zapomnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zapomnieć": [
 			{"form": "zapomnieć", "features": {"form": "infinitive"}},
@@ -15304,7 +15515,8 @@
 			{"form": "zaprosi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaprosimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaprosicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaproszą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaproszą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaprośmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zaprojektować": [
 			{"form": "zaprojektować", "features": {"form": "infinitive"}},
@@ -15418,7 +15630,8 @@
 			{"form": "zaprzeczy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaprzeczymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaprzeczycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaprzeczą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaprzeczą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaprzeczmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zaprzeczyć": [
 			{"form": "zaprzeczyć", "features": {"form": "infinitive"}},
@@ -15513,7 +15726,8 @@
 			{"form": "zarobi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zarobimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zarobicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zarobią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zarobią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaróbmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zarobić": [
 			{"form": "zarobić", "features": {"form": "infinitive"}},
@@ -15570,7 +15784,8 @@
 			{"form": "zarządzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zarządzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zarządzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zarządzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zarządzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zarządźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zarządzić": [
 			{"form": "zarządzić", "features": {"form": "infinitive"}},
@@ -15703,7 +15918,8 @@
 			{"form": "zatrudni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zatrudnimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zatrudnicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zatrudnią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zatrudnią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zatrudńmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zatrudnić": [
 			{"form": "zatrudnić", "features": {"form": "infinitive"}},
@@ -15779,7 +15995,8 @@
 			{"form": "zatwierdzi", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zatwierdzimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zatwierdzicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zatwierdzą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zatwierdzą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zatwierdźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zatwierdzić": [
 			{"form": "zatwierdzić", "features": {"form": "infinitive"}},
@@ -15855,7 +16072,8 @@
 			{"form": "zauważy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zauważymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zauważycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zauważą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zauważą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zauważmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zauważyć": [
 			{"form": "zauważyć", "features": {"form": "infinitive"}},
@@ -16051,7 +16269,8 @@
 			{"form": "zbierze", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zbierzemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zbierzecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zbiorą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zbiorą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zbierzmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zbudować": [
 			{"form": "zbudować", "features": {"form": "infinitive"}},
@@ -16241,7 +16460,8 @@
 			{"form": "zerknie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zerkniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zerkniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zerkną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zerkną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zerknijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zerknąć": [
 			{"form": "zerknąć", "features": {"form": "infinitive"}},
@@ -16298,7 +16518,8 @@
 			{"form": "zegnie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zegniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zegniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zegną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zegną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zegnijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zgiąć": [
 			{"form": "zgiąć", "features": {"form": "infinitive"}},
@@ -16526,7 +16747,8 @@
 			{"form": "zmieni", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zmienimy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zmienicie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zmienią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zmienią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zmieńmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zmienić": [
 			{"form": "zmienić", "features": {"form": "infinitive"}},
@@ -16665,7 +16887,8 @@
 			{"form": "znajdzie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "znajdziemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "znajdziecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "znajdą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "znajdą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "znajdźmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"znaleźć": [
 			{"form": "znaleźć", "features": {"form": "infinitive"}},
@@ -16722,7 +16945,8 @@
 			{"form": "zniknie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "znikniemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "znikniecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "znikną", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "znikną", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zniknijmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zniknąć": [
 			{"form": "zniknąć", "features": {"form": "infinitive"}},
@@ -16912,7 +17136,8 @@
 			{"form": "zwiększy", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zwiększymy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zwiększycie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zwiększą", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zwiększą", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zwiększmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"zwiększyć": [
 			{"form": "zwiększyć", "features": {"form": "infinitive"}},
@@ -17057,7 +17282,8 @@
 			{"form": "złapie", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "złapiemy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "złapiecie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "złapią", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "złapią", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "złapmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"śledzić": [
 			{"form": "śledzić", "features": {"form": "infinitive"}},
@@ -17145,7 +17371,8 @@
 			{"form": "zaśpiewa", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zaśpiewamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zaśpiewacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zaśpiewają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zaśpiewają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zaśpiewajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		],
 		"świętować": [
 			{"form": "świętować", "features": {"form": "infinitive"}},
@@ -17233,7 +17460,8 @@
 			{"form": "zażąda", "features": {"who": "she", "when": "later", "done": "yes"}},
 			{"form": "zażądamy", "features": {"who": "we", "when": "later", "done": "yes"}},
 			{"form": "zażądacie", "features": {"who": "you-all", "when": "later", "done": "yes"}},
-			{"form": "zażądają", "features": {"who": "they", "when": "later", "done": "yes"}}
+			{"form": "zażądają", "features": {"who": "they", "when": "later", "done": "yes"}},
+			{"form": "zażądajmy", "features": {"command": "yes", "who": "we", "done": "yes", "internal": "yes"}}
 		]
 	}
 }
