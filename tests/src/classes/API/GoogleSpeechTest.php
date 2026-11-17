@@ -76,6 +76,7 @@
 				// English and EarthFluent's thirteen
 			$this->assertCount(14, $languages);
 			$this->assertSame('pt-BR', $languages['pt']['locale']);
+			$this->assertSame('es-US', $languages['es']['locale']);
 
 			foreach($languages as $code=>$language) {
 				$this->assertMatchesRegularExpression('#\A[a-z]{2}\z#', $code);

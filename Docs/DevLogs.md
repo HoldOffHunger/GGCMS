@@ -22,6 +22,15 @@ live installation rather than estimated.
   daily allowance nothing is sent. The key is `ggcms.google_speech_key` in
   php.ini, beside the Cloudflare token.
 
+- EarthFluent's Play buttons now use the same voice. listen-to-audio-phrase.js
+  is shared with WordWeight, AnarchistCode and a few default pages, so it asks
+  Google only on a page that also loads pronounce-with-google.js, which only
+  EarthFluent does. Everywhere else it reads with the browser as before. Any
+  failure (the day's allowance spent, Google down, a refused autoplay) falls
+  back to the browser's voice, so a lesson never goes quiet, and EarthFluent's
+  allowance is 30,000 characters a day. Spanish is Latin American (es-US) on
+  both sites, as EarthFluent's browser voices were.
+
 - The English misspelling list gained 442 slips from the AI Workers'
   RevoltLib misspelling harvest: every word in the site's texts that no
   dictionary knew, seen in two or more texts, judged in its sentence by a

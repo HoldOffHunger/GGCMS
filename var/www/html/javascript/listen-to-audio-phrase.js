@@ -102,10 +102,28 @@ $(document).ready(function(event){
 				break;
 		}
 		
-		updateLanguage();
+		var phraselanguagecode = languagecode;
 
-			// the utterance updateLanguage() just set up, not a new one without its voice
-		utterance.text = phrase;
-		window.speechSynthesis.speak(utterance);
+		function speakWithBrowser() {
+				// a fallback can arrive after another button has been pressed
+			languagecode = phraselanguagecode;
+			updateLanguage();
+
+				// the utterance updateLanguage() just set up, not a new one without its voice
+			utterance.text = phrase;
+			window.speechSynthesis.speak(utterance);
+		}
+
+			// Google's voice first, on a page that loads pronounce-with-google.js
+		if(typeof pronounceWithGoogle === 'function') {
+			pronounceWithGoogle({
+				'phrase':phrase,
+				'locale':phraselanguagecode,
+				'fallback':speakWithBrowser,
+			});
+			return;
+		}
+
+		speakWithBrowser();
 	});
 });

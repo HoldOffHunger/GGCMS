@@ -39,13 +39,14 @@
 
 			/*
 				The languages EarthFluent teaches, and English.  Portuguese is
-				Brazilian because EarthFluent's Portuguese course is.
+				Brazilian because EarthFluent's Portuguese course is, and
+				Spanish Latin American, as EarthFluent's browser voices were.
 			*/
 
 		public function Languages() {
 			return [
 				'en'=>['title'=>'English', 'locale'=>'en-US'],
-				'es'=>['title'=>'Spanish', 'locale'=>'es-ES'],
+				'es'=>['title'=>'Spanish', 'locale'=>'es-US'],
 				'fr'=>['title'=>'French', 'locale'=>'fr-FR'],
 				'it'=>['title'=>'Italian', 'locale'=>'it-IT'],
 				'de'=>['title'=>'German', 'locale'=>'de-DE'],
