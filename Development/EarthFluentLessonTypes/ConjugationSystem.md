@@ -120,7 +120,7 @@ After any generator change, regenerate the languages already done and confirm th
 | Polish | yes | yes | yes | As Russian; the dump names fewer partners |
 | Chinese | yes | yes | yes | `built`: forms are patterns around the verb (`了`, `在`, `会`), with pinyin from the dump. No who-by-when grid: the page lists the forms |
 | Japanese | yes | yes | yes | Polite forms; the polite past, negative and asking forms are `derive`d from the masu and て forms. Kana readings beside each form. Kanji verbs redirect to kana entries (`follow_redirects`, put back by `rekanji`); する verbs sit under their noun (`suru`) |
-| Korean | yes | yes | no | Polite 요 forms; later, going on and the asking forms are `derive`d from forms the table gives, marked `internal` so they are not imported. Romanization beside each form (`reading_roman`, `reading_suffix`). The dictionary word is the entry's own (`dictionary_is_word`) |
+| Korean | yes | yes | yes | Polite 요 forms; later, going on and the asking forms are `derive`d from forms the table gives, marked `internal` so they are not imported. Romanization beside each form (`reading_roman`, `reading_suffix`). The dictionary word is the entry's own (`dictionary_is_word`) |
 | Hindi, Indonesian | no | no | no | Their dumps have not been looked at. Chinese's `built` mode may suit Indonesian; Hindi changes its verbs for who and for whether a man or a woman |
 
 Everything above was shipped to prod on 16 November 2026 (by Opus, from Fable's batch): the wrong-course address fix,
