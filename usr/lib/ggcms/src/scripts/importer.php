@@ -320,9 +320,28 @@
 		use SimpleORM, ChangeRecords {
 			ChangeRecords::updateFileName insteadof SimpleORM;
 			ChangeRecords::startsWith insteadof SimpleORM;
+			ChangeRecords::DeleteChildRecordsForUpdate_OnForm as ChangeRecordsOnForm;
 		}
 
 		public $ride_results;
+		public $import_removes = [];
+
+			/*
+				Remove leaves alone a type the site's form does not show, so an
+				Update cannot wipe what nobody saw.  A record the import file
+				deletes by its id was seen: that type is on the form for this
+				ride.  Without this, a WordPiece delete reported "Deleted" and
+				kept the row, since EarthFluent's form has no WordPiece (17
+				November 2026, the Russian and Polish aspect corrections).
+			*/
+
+		public function DeleteChildRecordsForUpdate_OnForm($args) {
+			if(in_array($args['type'], $this->import_removes, TRUE)) {
+				return TRUE;
+			}
+
+			return $this->ChangeRecordsOnForm($args);
+		}
 
 			/*
 				The entry as modify.php's Edit() reads it for its form, and no

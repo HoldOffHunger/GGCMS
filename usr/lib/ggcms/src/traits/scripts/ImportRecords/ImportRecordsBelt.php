@@ -67,6 +67,7 @@
 
 			$rider = new importerrow($constructor_args);
 			$rider->entry_modification_stop_before_save = !empty($args['stop']);
+			$rider->import_removes = isset($args['removes']) ? $args['removes'] : [];
 
 			$verb = $args['verb'];
 
@@ -463,6 +464,7 @@
 				'files'=>$files['files'],
 				'verb'=>'UpdateEntry',
 				'stop'=>TRUE,
+				'removes'=>$changes['removedtypes'],
 			]);
 
 			$failure = $this->ImportRiderFailure(['rider'=>$check]);
@@ -495,6 +497,7 @@
 					'files'=>$files['files'],
 					'verb'=>'UpdateEntry',
 					'stop'=>FALSE,
+					'removes'=>$changes['removedtypes'],
 				]);
 
 				$failure = $this->ImportRiderFailure(['rider'=>$rider]);
@@ -871,11 +874,18 @@
 
 			$post = $this->ImportAppendRecords(['post'=>$post, 'records'=>$new_records, 'new'=>TRUE]);
 
+			$removed_types = [];
+
+			foreach(array_keys($removed) as $variable_name) {
+				$removed_types[] = $this->RecordQueryDefinitions()[$variable_name]['formal'];
+			}
+
 			return [
 				'post'=>$post,
 				'rows'=>$results,
 				'changed'=>$changed,
 				'touched'=>$touched,
+				'removedtypes'=>$removed_types,
 				'newrecords'=>$new_records,
 				'keptimages'=>count($records['image']) - (isset($removed['image']) ? count($removed['image']) : 0),
 			];
