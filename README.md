@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Docs/images/ggcms3.png" alt="The Green Gluon CMS logo: three glass spheres marked Green, Gluon and CMS, bound by lightning inside a sketched black ring" width="320">
+</p>
+
 # Green Gluon CMS
 
 A multi-tenant content management system in PHP, serving seventeen live
@@ -80,6 +84,18 @@ listkeywords.com · masereelgroup.com · ouruprising.com · pronouncethat.com ·
 removeblanklines.com · removeduplicatelines.com · removespacing.com ·
 revoltlib.com · revoltlink.com · revoltsource.com · sortwords.com ·
 wordweight.com · yallhearingthis.com
+
+## Logo
+
+Three spheres, Green, Gluon and CMS, held together the way gluons hold quarks.
+It comes in three versions: on black with zigzag bonds, plain with the
+spheres apart, and with lightning between all three.
+
+<p align="center">
+  <img src="Docs/images/ggcms1.png" alt="The logo on black, with zigzag bonds" width="200">
+  <img src="Docs/images/ggcms2.png" alt="The logo with the three spheres unbound" width="200">
+  <img src="Docs/images/ggcms3.png" alt="The logo with lightning bonds between all three spheres" width="200">
+</p>
 
 ## Licence
 
