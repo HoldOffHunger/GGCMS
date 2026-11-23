@@ -87,6 +87,46 @@
 			$guard = $subject->ParseImportHeader(['header'=>'Current_EntryTranslation_Title', 'table'=>'Entry']);
 			$this->assertSame('childfield', $guard['kind']);
 			$this->assertTrue($guard['guard']);
+			$this->assertArrayNotHasKey('mustbeempty', $guard);
+
+			$guard = $subject->ParseImportHeader(['header'=>'CurrentBlank_Entry_Subtitle', 'table'=>'Entry']);
+			$this->assertSame(['kind'=>'entryfield', 'parameter'=>'Subtitle', 'guard'=>TRUE, 'mustbeempty'=>TRUE], $guard);
+			$this->assertNull($subject->ParseImportHeader(['header'=>'CurrentBlank_Delete', 'table'=>'Entry']));
+		}
+
+			// A blank Current_ cell says nothing; CurrentBlank_ of Y is the guard that the field is still empty
+		public function testCurrentBlankGuardsAnEmptyField() {
+			$subject = $this->subject();
+			$rows = $this->rows($subject, 'Entry', ['Entry_id', 'Current_Entry_Subtitle', 'CurrentBlank_Entry_Subtitle', 'Entry_Subtitle'], [
+				['12', '', 'Y', 'A Fragment'],
+				['13', '', '', 'Another'],
+				['14', '', 'maybe', 'Third'],
+				['15', 'Old', 'yes', 'Fourth'],
+			]);
+
+			$this->assertSame(['Subtitle'=>''], $rows[0]['entryguards']);
+			$this->assertSame([], $rows[0]['errors']);
+			$this->assertSame([], $rows[1]['entryguards'], 'blank in both says nothing');
+			$this->assertSame(['CurrentBlank_Entry_Subtitle must be Y, YES or blank, not "maybe".'], $rows[2]['errors']);
+			$this->assertCount(1, $rows[3]['errors'], 'Old and empty cannot both be what the field holds now');
+
+			$tags = $this->rows($subject, 'Entry', ['Entry_id', 'Tag_id', 'CurrentBlank_Tag_Language', 'Tag_Language'], [['12', '7', 'Y', 'en']]);
+			$this->assertSame(['tag_Language'=>''], $tags[0]['children']['tag'][0]['guards']);
+		}
+
+		public function testTheBeltSkipsAnEntryWhoseBlankFieldWasFilled() {
+			$subject = $this->subject();
+			$rows = $this->rows($subject, 'Entry', ['Entry_id', 'CurrentBlank_Entry_Subtitle', 'Entry_Subtitle'], [['12', 'Y', 'A Fragment']]);
+			$group = ['entryid'=>'12', 'rows'=>[0], 'entryguards'=>$rows[0]['entryguards']];
+			$records = ['image'=>[]];
+
+			$filled = $subject->ImportLayChanges(['group'=>$group, 'rows'=>$rows, 'current'=>['entry'=>['Subtitle'=>'Written by hand'], 'records'=>$records], 'post'=>[]]);
+			$this->assertTrue($filled['error']);
+			$this->assertSame('Skipped', $filled['rows'][0]['outcome']);
+
+			$empty = $subject->ImportLayChanges(['group'=>$group, 'rows'=>$rows, 'current'=>['entry'=>['Subtitle'=>''], 'records'=>$records], 'post'=>[]]);
+			$this->assertArrayNotHasKey('error', $empty);
+			$this->assertSame('A Fragment', $empty['post']['Subtitle']);
 		}
 
 			// A Tag import's id is a Tag's id, and Tag its Tag

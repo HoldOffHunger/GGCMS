@@ -217,6 +217,8 @@
 
 	print('<p><code>Current_</code> before any field column is the value that field must still have: <code>Entry_id&#9;Current_Entry_Title&#9;Entry_Title</code>.  If someone has edited it since the file was made, the row is skipped and says so &mdash; their edit is newer evidence than the file.</p>');
 
+	print('<p>A blank <code>Current_</code> cell says nothing, like every blank cell, so it cannot ask for a field that is still empty.  <code>CurrentBlank_</code> does: Y or YES, and the row goes ahead only while that field is empty.  <code>Entry_id&#9;CurrentBlank_Entry_Subtitle&#9;Entry_Subtitle</code> fills in subtitles and leaves alone any that someone wrote in the meantime.</p>');
+
 	print('<h3>Switches</h3>');
 
 	print('<p>The Add form\'s checkboxes, as columns of 1 or 0:</p>');

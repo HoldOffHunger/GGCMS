@@ -59,6 +59,26 @@
 					continue;
 				}
 
+					//  CurrentBlank_ says Y; the guard it makes is the empty value, which a Current_ cell cannot hold
+
+				if(!empty($column['mustbeempty'])) {
+					if(!$this->ImportSaysDelete(['value'=>$value])) {
+						$row['errors'][] = $column['header'] . ' must be Y, YES or blank, not "' . $value . '".';
+						continue;
+					}
+
+					$value = '';
+				}
+
+				if(!empty($column['guard'])) {
+					$guards = ($kind === 'entryfield') ? $row['entryguards'] : (isset($row['children'][$column['variablename']][$column['occurrence']]) ? $row['children'][$column['variablename']][$column['occurrence']]['guards'] : []);
+
+					if(isset($guards[$column['parameter']]) && $guards[$column['parameter']] !== $value) {
+						$row['errors'][] = $column['header'] . ' and another Current_ column on this row disagree about what the field holds now.';
+						continue;
+					}
+				}
+
 				switch($kind) {
 					case 'delete':
 						$row['delete'] = $this->ImportSaysDelete(['value'=>$value]);

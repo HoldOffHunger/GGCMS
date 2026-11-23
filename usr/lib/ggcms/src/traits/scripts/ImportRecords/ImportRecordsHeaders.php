@@ -20,6 +20,9 @@
 			Assignment_Parentid     the id of the entry to file it under
 			Option_<switch>         one of the Add form's switches, such as title-smart-title-case
 			Current_<header>        the value the field must still have for an update to go ahead
+			CurrentBlank_<header>   Y or YES: the field must still be empty for an update to go
+			                        ahead, which a blank Current_ cannot say, since a blank cell
+			                        says nothing
 
 		A header with no table, such as id or Title, belongs to the table
 		chosen for the import.  Case does not matter.  Every column is
@@ -141,16 +144,22 @@
 				return ['kind'=>'delete'];
 			}
 
-			if(strpos($lower, 'current_') === 0) {
-				$guarded = $this->ParseImportHeader(['header'=>substr($header, strlen('current_')), 'table'=>$table]);
+			foreach(['current_'=>FALSE, 'currentblank_'=>TRUE] as $prefix => $must_be_empty) {
+				if(strpos($lower, $prefix) === 0) {
+					$guarded = $this->ParseImportHeader(['header'=>substr($header, strlen($prefix)), 'table'=>$table]);
 
-				if(!$guarded || !in_array($guarded['kind'], ['entryfield', 'childfield'], TRUE)) {
-					return NULL;
+					if(!$guarded || !in_array($guarded['kind'], ['entryfield', 'childfield'], TRUE)) {
+						return NULL;
+					}
+
+					$guarded['guard'] = TRUE;
+
+					if($must_be_empty) {
+						$guarded['mustbeempty'] = TRUE;
+					}
+
+					return $guarded;
 				}
-
-				$guarded['guard'] = TRUE;
-
-				return $guarded;
 			}
 
 			if(strpos($lower, 'option_') === 0) {
