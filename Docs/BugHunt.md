@@ -26,7 +26,7 @@ MySQL's error table -- and are read last.
 | `classes/Charset` | Read | Nothing | Probed under PHP 8.5 |
 | `classes/Security/Authentication.php` | Read, tested | Cookie token kept only hex-looking bcrypt characters; no login limits; unsalted SHA-256 passwords; blank username signed in with the published seed | `80c1d61`, `3b5127a`, `a09523f`, `AuthenticationTest` |
 | `classes/Security/HandleInput.php` | Read | Live paths clean and tested. `FormatTitleOuput()` and `CleanseInput_Filename()` cut UTF-8 by the byte and pass a NUL, but nothing calls either | `HandleInputTest` |
-| `classes/Database/EscapeMySQL.php` | Read, tested | Datetime escaper passed anything containing NOW or DATE (uncalled) | `cfa2dd6`, `EscapeMySQLTest` |
+| Retired SQL escaping class | Read, tested | Datetime escaper passed anything containing NOW or DATE (uncalled) | `cfa2dd6` |
 | `classes/Networking/Query.php` | Read, tested | A POSTed 0 or empty value was replaced by the query string | `3610b30`, `QueryTest` |
 | `classes/Networking/Curl.php`, `scripts/ping.php` | Read, tested | Fetched `file://` and private addresses into the public docroot | `0a26c05`, `6064dee`, `CurlTest` |
 | `usersessionid` fields, both repositories | Removed | Session token printed into page markup | `f405639`, config `4ece50f`, crawl |

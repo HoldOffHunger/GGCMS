@@ -6,7 +6,6 @@
 		#	ggreq('classes/Database/DBAccess.php');
 		#	ggreq('classes/Database/TimeMySQL.php');
 		#	ggreq('classes/Networking/IPAddress.php');
-		#	ggreq('classes/Database/EscapeMySQL.php');
 			
 		#	print_r($_SERVER);
 			$_SERVER['HTTP_HOST'] = 'localhost';

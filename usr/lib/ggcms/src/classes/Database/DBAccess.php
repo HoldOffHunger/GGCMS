@@ -30,7 +30,7 @@
 		
 		public $ip_address;
 		
-		public $escapemysql;
+		public $record_select;
 		
 		public function Upgraded() {
 			return FALSE;
@@ -50,8 +50,8 @@
 			$ip_address = new IPAddress($args);
 			$this->ip_address = $ip_address->GetIPAddressForDatabase();
 			
-			$escapemysql = new EscapeMySQL($args);
-			$this->escapemysql = $escapemysql;
+			$record_select = new RecordSelect();
+			$this->record_select = $record_select;
 			
 			$hardcoded_table_entries = new HardcodedTableDescriptions($args);
 			$this->hardcoded_table_entries = $hardcoded_table_entries;
@@ -336,7 +336,7 @@
 			];
 			
 			$all_selected_fields = [];
-			$all_selected_fields[] = $this->escapemysql->GetRecordFullSelectStatement($get_record_select_main_table_args);
+			$all_selected_fields[] = $this->record_select->GetRecordFullSelectStatement($get_record_select_main_table_args);
 			
 			if($joins) {
 				foreach ($joins as $join_type => $join_array) {
@@ -353,7 +353,7 @@
 								'recorddescription'=>$join_table_description,
 							];
 							
-							$all_selected_fields[] = $this->escapemysql->GetRecordFullTableSelectStatement($get_record_select_join_table_args);
+							$all_selected_fields[] = $this->record_select->GetRecordFullTableSelectStatement($get_record_select_join_table_args);
 						}
 					}
 				}

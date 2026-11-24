@@ -143,7 +143,7 @@ Guidance for new columns, consistent with the above:
 * **Booleans: `tinyint(1)`.** Note this is what `BOOLEAN` is an alias for, and
   that it really stores 0–255 — validate rather than trusting the type.
 * **Anything security-bearing: `binary(x)`.** Read it with `SELECT HEX(field)`
-  and match it with `WHERE field = UNHEX('...')`. `EscapeMySQL` already wraps
+  and match it with `WHERE field = UNHEX('...')`. `RecordSelect` already wraps
   `binary` columns in `HEX()` automatically when building a full select, so a
   new `binary` column becomes readable without further work.
 * **Text over 1,000 characters: `text`; over 65,535: `mediumtext`; over
@@ -214,7 +214,7 @@ prefix (`KEY sometextkey (SomeText(255))`) where a whole column will not fit.
 
 ## `SELECT *` is not used
 
-`EscapeMySQL::GetRecordFullSelectStatement()` exists precisely to expand a
+`RecordSelect::GetRecordFullSelectStatement()` exists precisely to expand a
 select into an explicit, aliased column list built from the record description —
 partly so `binary` columns get their `HEX()` wrapper, partly because two joined
 tables that both have `id` make `SELECT *` ambiguous and MySQL picks one. Name

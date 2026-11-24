@@ -189,7 +189,7 @@ of them.
 ## Binary is stored as bytes and read as hex
 
 Security-bearing values are `binary(x)` columns, written with `UNHEX()` and read
-with `HEX()`. `EscapeMySQL::GetRecordFullSelectStatement()` wraps `binary`
+with `HEX()`. `RecordSelect::GetRecordFullSelectStatement()` wraps `binary`
 columns in `HEX()` automatically when it builds a select, so a new binary column
 becomes readable without extra work. See [Database.md](Database.md).
 
@@ -228,7 +228,7 @@ with the column charset needs the connection fixed, not the data rewritten.
 |---|---|
 | `src/classes/Charset/UTF8Characters.php` | System charset, `mb_encode_numericentity` masks — *mid-decommissioning* |
 | `src/classes/Charset/HTMLEntities.php` | `htmlentities()` wrapper and its flags — *mid-decommissioning* |
-| `src/classes/Database/EscapeMySQL.php` | Query escaping, `HEX()` wrapping of binary columns |
+| `src/classes/Database/RecordSelect.php` | Aliased select lists with `HEX()` wrapping of binary columns |
 | `src/classes/API/SocialMedia.php` | PHP share-URL construction, `urlencode()` |
 | `var/www/html/javascript/social-share-media.js` | The JavaScript twin of the above |
 | `src/classes/Format/` | Per-format output escaping, one class per grammar |
