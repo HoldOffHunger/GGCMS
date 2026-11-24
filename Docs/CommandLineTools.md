@@ -588,6 +588,11 @@ talks to git; see [Deployment.md](Deployment.md).
 These write content, and none of them may ever be scheduled. They change what
 visitors read.
 
+`check_orphan_entries.php DOMAIN [--summary]` reports entries without an
+assignment, entries with a nonzero missing parent, and broken `Entryid`
+references by child table. The full report lists the entry ID, title and code.
+Both modes read the database without changing it.
+
 ```bash
 apply_translation_review.php earthfluent.com --lang=es --limit=20
 apply_translation_review.php earthfluent.com --lang=es --limit=20 --apply
