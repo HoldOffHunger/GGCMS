@@ -134,12 +134,6 @@
 				'uilleann pipes'=>[
 					'uileann pipes',
 				],
-				'uintahite'=>[
-					'uintaite',
-				],
-				'uintahites'=>[
-					'uintaites',
-				],
 				'uintathere'=>[
 					'iuntathere',
 				],

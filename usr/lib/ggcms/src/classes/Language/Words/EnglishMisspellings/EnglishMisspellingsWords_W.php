@@ -3870,7 +3870,6 @@
 					'whenseover',
 				],
 				'where'=>[
-					'were',
 					'where where',
 					'where where where',
 					'wheree',
