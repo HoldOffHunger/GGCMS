@@ -4,7 +4,7 @@
 		public $handler;
 		public $mysql_time_string;
 		public $ip_address;
-		public $escapemysql;
+		public $record_select;
 		public $hardcoded_table_entries;
 		public $db_file_cache;
 		public $db_link;
@@ -33,9 +33,7 @@
 			#$this->ip_address = $ip_address->GetIPAddressForDatabase();
 			$this->ip_address = $db_access->ip_address;
 			
-			#$escapemysql = new EscapeMySQL($args);
-			#$this->escapemysql = $escapemysql;
-			$this->escapemysql = $db_access->escapemysql;
+			$this->record_select = $db_access->record_select;
 			
 			#$hardcoded_table_entries = new HardcodedTableDescriptions($args);
 			#$this->hardcoded_table_entries = $hardcoded_table_entries;
