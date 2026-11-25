@@ -175,6 +175,9 @@
 				}
 				
 				$robots_attributes_to_display[] = $robots_attribute_to_display;
+				if($robots_attribute_key === 'Allow') {
+					$robots_attributes_to_display = array_merge($robots_attributes_to_display, $this->getCachedQuizRules());
+				}
 			}
 			
 			$robots_attributes_to_display_imploded = implode("\n", $robots_attributes_to_display);
@@ -521,6 +524,35 @@
 			];
 		}
 		
+		public function getCachedQuizRules() {
+			$globals = $this->handler->globals;
+			if(!method_exists($globals, 'AllowCachedQuizCrawling') || !$globals->AllowCachedQuizCrawling()) {
+				return [];
+			}
+
+			// Match PageCache::CacheableQueryString() and nginx's quiz map. Robots patterns
+			// have no alternation, so enumerate the two optional ranges, using 0 for absent.
+			$rules = [];
+			for($previous = 0; $previous <= 10; $previous++) {
+				for($future = 0; $future <= 10; $future++) {
+					$query = '?quizmode=1';
+					if($previous) {
+						$query .= '&previousquizzes=' . $previous;
+					}
+					if($future) {
+						$query .= '&futurequizzes=' . $future;
+					}
+					$suffix = '/view.php' . $query . '$';
+					$rules[] = 'Allow: ' . $suffix;
+					$rules[] = 'Allow: /*' . $suffix;
+					// A wildcard can cross the query delimiter. A more specific denial prevents
+					// a view.php-shaped string in another URL's query from qualifying.
+					$rules[] = 'Disallow: /*?*' . $suffix;
+				}
+			}
+			return $rules;
+		}
+
 		public function getDisallowed() {
 			$disallowed = $this->getDisallowedList();
 			$new_disallowed = [];
