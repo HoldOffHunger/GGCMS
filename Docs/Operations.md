@@ -273,9 +273,29 @@ certbot renew                              # renew everything eligible
 certbot renew --dry-run                     # rehearse without spending quota
 ```
 
-`certbot renew` reuses the authenticator stored at issue time. These hosts were
-issued with `--apache`, so Apache must be **running** during renewal. The
-stop-Apache sequence in the older install notes applies only to `--standalone`.
+`certbot renew` reuses the authenticator stored at issue time, so every
+certificate must be **webroot**, answering from `/var/www/html`. nginx owns
+port 80 and serves `/.well-known/acme-challenge/` from that folder for every
+site; Apache listens only on 127.0.0.1:8443, so a certificate issued with
+`--apache` or `--standalone` can never renew here. `DomainInstaller` issues new
+certificates through the webroot, and there is no installer: nginx reads the
+files under `live/` directly. `renewal-hooks/deploy/ggcms-reload-nginx.sh`
+reloads nginx after each renewal so the new certificate is actually served.
+
+On 25 November 2026 seventeen of nineteen certificates were six days from
+expiry because they were still `--apache`. Every twelve-hourly attempt failed,
+silently, and gracefully restarted Apache seventeen times in a minute.
+
+```bash
+check_certificates.php                        # every certificate: expiry, method, challenge probe
+check_certificates.php --cert=revoltlib.com   # one
+check_certificates.php --repair               # move apache/standalone to webroot, install the hook
+```
+
+`--repair` keeps each old renewal file under `/var/backups/ggcms/letsencrypt/`,
+proves the new one with a staging dry run (restoring the old file if it
+fails), and renews immediately when the certificate is inside 30 days. It runs
+daily from cron, so a certificate added the old way fixes itself.
 
 Renewal failures for a domain whose DNS no longer points at this host are
 expected and harmless; certbot renews what it can and reports the rest.
@@ -311,6 +331,7 @@ they run. Install as root's crontab:
 15 3 * * *  backup_all_databases.php --all-databases --quiet   -> backup.log
 30 6 * * *  confirm_database_backup.php --quiet                 -> confirm.log
 0 6 * * *   check_free_space.php --path=/ --path=/mnt/nyc01 --quiet -> disk.log
+45 6 * * *  check_certificates.php --repair --quiet             -> certificates.log
 0 7 * * *   server_error_counts.php                            -> errors.log
 0 6 * * 1   check_schema.php --check=columns                   -> schema.log
 0 6 * * 2   scan_images.php revoltlib.com                      -> images.log

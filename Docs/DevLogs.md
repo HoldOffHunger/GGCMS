@@ -7,6 +7,31 @@ explains the day to whoever was not there: what was found, what it turned out
 to cost, and what was decided. Where a number appears it was measured on the
 live installation rather than estimated.
 
+## 2026, November 25
+
+- Seventeen of the nineteen HTTPS certificates were six days from expiring,
+  and are renewed to 23 February 2027. They had been issued through Apache,
+  and certbot renews a certificate the way it was issued, so twice a day it
+  looked for Apache on port 80, where nginx has listened since September.
+  Every attempt since mid-November failed, nothing said so, and each one
+  restarted Apache seventeen times in a minute, which was the slow spell
+  visitors hit at 05:35 and 20:05 UTC on the 24th. Every certificate now
+  renews from /var/www/html, where nginx already answers the challenge for
+  every site, and a renewal hook reloads nginx so the new certificate is
+  served.
+- check_certificates.php reports each certificate's expiry and renewal
+  method, and proves the challenge folder answers by fetching a probe file
+  from nginx for every name, the way Let's Encrypt will. With --repair it
+  moves an old-style certificate to the webroot, keeps the old renewal file,
+  proves the change with a staging dry run (putting the old file back if
+  that fails), and renews at once inside 30 days. It runs daily from cron,
+  and mail goes out only when a certificate is inside ten days.
+- The slow spell between 20:30 and 21:30 UTC on the 24th, which tripped
+  DigitalOcean's database CPU alert, was the managed database's own backup.
+  It held MySQL's backup lock for 51 minutes, where on every other day it took
+  under a second, and renders across every site slowed to 20 to 50 seconds at
+  its start and end. Traffic was flat throughout.
+
 ## 2026, November 17
 
 - EarthFluent's quizzes are cached. They were three renders in four on

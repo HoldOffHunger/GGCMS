@@ -82,6 +82,26 @@ used. Through `DomainChecker` and the `SSL` trait it verifies:
 Had this been on a cron, the August 2026 outage would have been an email in
 July 2024.
 
+### Certificates — `scripts/public/ssl/`
+
+| Script | Does |
+|---|---|
+| `check_certificates.php` | Every Let's Encrypt certificate: expiry, renewal method, and a probe of nginx's challenge folder for each name (`--cert=` for one, `--warn=`/`--fail=` days, `--repair`, `--quiet`); exits 1 to warn and 2 to fail |
+
+```bash
+check_certificates.php                        # report
+check_certificates.php --cert=revoltlib.com   # one certificate
+check_certificates.php --repair --quiet       # cron: fix, stay silent when healthy
+```
+
+A certificate renews only through the webroot here, because nginx owns port
+80. `--repair` moves an `apache` or `standalone` certificate to the webroot,
+backs up the old renewal file, proves the change with a staging dry run (and
+puts the old file back if it fails), renews straight away inside 30 days, and
+installs the hook that reloads nginx after a renewal. `--warn` defaults to 21
+days and `--fail` to 10; certbot starts trying at 30. See the Certificates
+section of `Operations.md`.
+
 ### Storage — `scripts/public/storage/`
 
 | Script | Does |
