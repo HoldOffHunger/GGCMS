@@ -1,0 +1,170 @@
+{
+  "groups": {
+    "Reading pages": {
+      "Homepage.php": "Redirects an entry’s legacy Homepage route to its view.",
+      "chapterify.php": "Prepares an entry and its children for chapter-oriented presentation.",
+      "image_src.php": "Redirects the legacy image source route to the image browser.",
+      "image.php": "Browses and paginates an entry’s images.",
+      "images.php": "Redirects the plural legacy route to the image browser.",
+      "index.php": "Redirects the legacy index script to the entry view.",
+      "languages.php": "Lists the site’s languages.",
+      "router.php": "Redirects the legacy router script to the entry view.",
+      "search.php": "Searches entries and displays matching records.",
+      "searchlink.php": "Searches entries and prepares matching links with their context.",
+      "shop.php": "Redirects the legacy shop script to the entry view.",
+      "view.php": "Displays, browses, and indexes entries, including dictionary views and votes."
+    },
+    "Editing": {
+      "convertspelling.php": "Converts submitted text between British and American spelling.",
+      "formmaker.php": "Lists and creates forms.",
+      "importer.php": "Accepts structured imports and prepares entries and uploads for saving.",
+      "modify.php": "Adds, edits, and manages entry records.",
+      "transfer.php": "Searches for a target parent and moves an entry to it.",
+      "upload.php": "Redirects the legacy upload route to the add-entry form."
+    },
+    "Accounts": {
+      "install.php": "Redirects the legacy install route to login.",
+      "login.php": "Displays login and handles authentication.",
+      "logout.php": "Ends the current sign-in session.",
+      "register.php": "Redirects the legacy registration route to login.",
+      "signup.php": "Redirects the legacy signup route to login.",
+      "user-panel.php": "Shows the signed-in user’s submissions and their status.",
+      "user.php": "Displays the user entry point and handles its login action.",
+      "users.php": "Lists users and supports viewing or exporting user information.",
+      "wp-login.php": "Redirects the WordPress-style login route to GGCMS login."
+    },
+    "Formats and feeds": {
+      "feed.php": "Redirects the legacy feed route to news.",
+      "new.php": "Redirects the legacy new-content route to news.",
+      "news.php": "Renders recent entries and feed documentation.",
+      "robots.php": "Builds robots directives and their browsable representation.",
+      "sitemap.php": "Renders the site’s sitemap index and paginated URL lists.",
+      "style.php": "Renders the stylesheet associated with a requested style and action."
+    },
+    "Admin and status": {
+      "datautilities.php": "Identifies duplicate keys in submitted lists.",
+      "dbstatus.php": "Provides database diagnostics and lookup-list maintenance.",
+      "languageutils.php": "Cleans and transforms lists of words and other language data.",
+      "master-c.php": "Runs specialized administrative content and image maintenance.",
+      "peerblocklist.php": "Produces a PeerBlock-compatible list.",
+      "phpinfo.php": "Displays PHP runtime diagnostics.",
+      "ping.php": "Checks a URL through the administrative ping tools.",
+      "redirect.php": "Provides redirect handling for sign-in and secure connections.",
+      "security.php": "Defines an internal security script with access disabled.",
+      "social.php": "Provides Instagram sign-in and posting actions.",
+      "systemstatus.php": "Displays system and runtime diagnostic views.",
+      "userstatus.php": "Reviews comments and saves moderation changes.",
+      "warroom.php": "Shows administrative statistics across hosts."
+    },
+    "Static pages": {
+      "about.php": "Describes the site or current collection.",
+      "codeofconduct.php": "Displays the site’s code of conduct.",
+      "contact.php": "Displays the site’s contact information.",
+      "hackers.php": "Displays credits for people who built or contributed to the site.",
+      "humans.php": "Displays the human-readable site credits.",
+      "play.php": "Provides word search, crossword, guessing, and typing games.",
+      "privacy.php": "Displays the site’s privacy policy.",
+      "pronounce.php": "Looks up pronunciations and displays a result.",
+      "randomwords.php": "Displays randomly selected words.",
+      "return-policy.php": "Displays the site’s return policy when enabled.",
+      "spellchecker.php": "Displays the spelling-check interface.",
+      "suggest.php": "Displays and handles the suggestion form.",
+      "terms.php": "Displays the site’s terms of service."
+    }
+  },
+  "actions": {
+    "dbstatus.php": [
+      "KillDisconnectedImages"
+    ],
+    "login.php": [
+      "Authenticate"
+    ],
+    "modify.php": [
+      "Add",
+      "Edit"
+    ],
+    "redirect.php": [
+      "redirecttologin",
+      "redirecttoasecuredconnection"
+    ],
+    "search.php": [
+      "display"
+    ],
+    "social.php": [
+      "login_instagram",
+      "post_instagram"
+    ],
+    "transfer.php": [
+      "search",
+      "transferentry"
+    ],
+    "user.php": [
+      "login"
+    ],
+    "users.php": [
+      "viewuser",
+      "exportuser"
+    ],
+    "userstatus.php": [
+      "ReviewComments",
+      "SaveCommentChanges"
+    ],
+    "view.php": [
+      "Select",
+      "browse",
+      "browseByTag",
+      "index",
+      "dictionary",
+      "definitions",
+      "upvote",
+      "undoupvote",
+      "downvote",
+      "undodownvote",
+      "viewUserLikes"
+    ],
+    "ping.php": [
+      "Curl"
+    ],
+    "formmaker.php": [
+      "newform",
+      "list"
+    ],
+    "play.php": [
+      "WordSearch",
+      "CrosswordPuzzle",
+      "WordGuessGame",
+      "TypingGame"
+    ],
+    "news.php": [
+      "docs"
+    ]
+  },
+  "overlay": {
+    "about.php": "Configures site-specific About content.",
+    "contact.php": "Configures site-specific contact details.",
+      "convertspelling.php": "Supplies the spelling converter configuration defaults.",
+    "pronounce.php": "Configures the pronunciation lookup for the site.",
+    "randomwords.php": "Configures the random-word source and presentation.",
+    "view.php": "Configures the site’s entry, browse, or dictionary views."
+  },
+  "formats": {
+    "base_format.php": "Supplies the common script and format base class.",
+    "ATOM": "Produces Atom syndication output.",
+    "BRF": "Produces Braille Ready Format output.",
+    "CSS": "Builds stylesheet output.",
+    "CSV": "Produces comma-separated records.",
+    "DAISY": "Produces DAISY digital talking book output.",
+    "EPub": "Produces EPUB ebook output.",
+    "HTML": "Provides browser page rendering and HTML text formatting.",
+    "JSON": "Produces JSON output.",
+    "OPDS": "Produces an OPDS publication catalog.",
+    "PDF": "Produces printable PDF output.",
+    "RDF": "Produces RDF metadata output.",
+    "RSS": "Produces RSS syndication output.",
+    "RTF": "Produces Rich Text Format output.",
+    "SGML": "Produces SGML output.",
+    "TEX": "Produces TeX output.",
+    "TXT": "Produces plain-text output.",
+    "XML": "Produces XML output."
+  }
+}
