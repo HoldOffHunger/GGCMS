@@ -733,6 +733,19 @@
 			return TRUE;
 		}
 
+			/*
+				Who may sell ads on this site, as ads.php prints them into
+				/ads.txt (the IAB's Authorized Digital Sellers file).  Each is
+				['domain', 'account', 'relationship', 'certification'], such as
+				['google.com', 'pub-...', 'DIRECT', 'f08c47fec0942fa0'].  Empty,
+				the site sells no ads, and ads.txt says so with the IAB's
+				placeholder line, so nobody can pass off our pages as theirs.
+			*/
+
+		public function AdSellers() {
+			return [];
+		}
+
 						// Styling Info
 						// -------------------------------------------------------------------
 

@@ -393,10 +393,46 @@
 				'<ul>',
 					'<li><em>Google OAuth</em> - ' . $this->handler->abstractglobals->language_script->SectionText_WhoProcessesOurData_GoogleOAuth() . '</li>',
 					'<li><em>Google Analytics</em> - ' . $this->handler->abstractglobals->language_script->SectionText_WhoProcessesOurData_GoogleAnalytics() . '</li>',
+					$this->getGoogleAdSenseProcessorItem(),
 				'</ul>',
 			];
-			
+
 			return $who_processes_section;
+		}
+
+			/*
+				AdSense's rules require a site showing its ads to say that
+				Google, as a third party, uses cookies to serve them, and how
+				to opt out.  Only a site whose ads.txt names google.com as a
+				seller (AdSellers() in its abstract globals) shows this line.
+				The words come from the language script when it has them, and
+				in English otherwise.
+			*/
+
+		public function getGoogleAdSenseProcessorItem() {
+			$sells_google_ads = FALSE;
+
+			foreach($this->handler->globals->AdSellers() as $ad_seller) {
+				$ad_seller = array_values((array)$ad_seller);
+
+				if(strtolower(trim((string)($ad_seller[0] ?? ''))) === 'google.com') {
+					$sells_google_ads = TRUE;
+				}
+			}
+
+			if(!$sells_google_ads) {
+				return '';
+			}
+
+			$language_script = $this->handler->abstractglobals->language_script;
+
+			if(method_exists($language_script, 'SectionText_WhoProcessesOurData_GoogleAdSense')) {
+				$text = $language_script->SectionText_WhoProcessesOurData_GoogleAdSense();
+			} else {
+				$text = 'Google, as a third-party vendor, uses cookies to show ads on this site, including ads based on your visits to this and other websites.  You may turn off personalised advertising in <a href="https://adssettings.google.com/" target="_blank" rel="noopener">Google\'s Ads Settings</a>.';
+			}
+
+			return '<li><em>Google AdSense</em> - ' . $text . '</li>';
 		}
 		
 		public function getDataPortabilitySection($args) {

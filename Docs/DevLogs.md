@@ -9,6 +9,19 @@ live installation rather than estimated.
 
 ## 2026, November 25
 
+- Every site now has an ads.txt, made by `ads.php` the way `robots.php` makes
+  robots.txt, with `/ads.php` and `/ads.xml` beside it. It lists who may sell
+  the site's ad space, from `AdSellers()` in abstract globals: Google AdSense
+  for EarthFluent, and the IAB's placeholder line everywhere else, which says
+  the site sells no ads. EarthFluent's AdSense account had gone dormant, so it
+  served no ads; Ben is reactivating it, and AdSense marks a site without
+  ads.txt as earnings at risk.
+
+- EarthFluent's privacy policy names Google AdSense among those who process
+  data, saying Google uses cookies to show ads and how to turn personalised
+  ads off, as AdSense's rules require. Sites that sell no ads don't show the
+  line.
+
 - Seventeen of the nineteen HTTPS certificates were six days from expiring,
   and are renewed to 23 February 2027. They had been issued through Apache,
   and certbot renews a certificate the way it was issued, so twice a day it

@@ -60,6 +60,7 @@ HTML cache indicates membership in the engine allowlist. Request and response ch
 | `new.php` | Redirects the legacy new-content route to news. | Anyone | — | Display |
 | `news.php` | Renders recent entries and feed documentation. | Anyone | — | display, docs |
 | `robots.php` | Builds robots directives and their browsable representation. | Anyone | — | display |
+| `ads.php` | Builds ads.txt, the list of who may sell the site's ad space, from `AdSellers()`, with the same browsable and XML forms as robots. | Anyone | — | display |
 | `sitemap.php` | Renders the site’s sitemap index and paginated URL lists. | Anyone | — | display |
 | `style.php` | Renders the stylesheet associated with a requested style and action. | Conditional | — | Display |
 
